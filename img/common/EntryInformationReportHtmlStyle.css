@@ -1,0 +1,180 @@
+body
+{
+    background: #A6A6A6;
+    padding: 0;
+}
+
+@media print
+{
+    body
+    {
+        background: transparent;
+    }
+}
+
+td
+{
+    vertical-align: top;
+}
+
+td.value
+{
+    min-width: 217px;
+    vertical-align: top;
+}
+
+pre
+{
+    padding: 0px;
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: arial;
+    font-size: 11px;
+}
+
+.InformationHolder {
+    margin: 0 auto;
+    width: 725px;
+}
+
+.InformationTitle {
+    background: none repeat scroll 0 0 white;
+    color: #0068C3;
+    margin-bottom: 8px;
+    padding: 9px;
+}
+
+.Information
+{
+    margin: 0 auto 10px;
+    padding: 0 9px 9px;
+    width: 700px;
+}
+
+.InformationInfos
+{
+    background-color: #0068c3;
+    color: white;
+    padding: 2px 8px;
+}
+
+.InformationType
+{
+    margin: 0 3px;
+    padding: 4px 0 0 34px;
+    position: relative;
+    background-color: #BCBCBC;
+}
+
+.InformationType .Container
+{
+    background-color: #F5F5F5;
+    border: 1px outset silver;
+    padding: 5px 10px;
+    width: 97%;
+		
+    /* min-height ie fix */
+    height: auto !important;
+    height: 26px;
+    min-height: 26px;
+}
+
+fieldset
+{
+    border: 1px solid #B8B8B8;
+    margin-bottom: 4px;
+    margin-top: 20px;
+    padding: 5px 3px 3px 5px;
+    position: relative;
+    background: #EBEBEB;
+}
+
+fieldset legend
+{
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #B8B8B8;
+    display: inline-block;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px 5px;
+    position: absolute;
+    top: -18px;
+}
+
+th, .label
+{
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 16px;
+    padding: 0 5px 0 0;
+}
+
+th
+{
+    text-align: left;
+}
+
+.label
+{
+    width: 105px;
+    color: gray;
+}
+
+.label.EmailPOP3Port, .label.EmailIMAPPort, .label.EmailSMTPPort
+{
+    width: 30px;
+}
+
+.value
+{
+    empty-cells: show;
+    font-family: arial;
+    font-size: 11px;
+    line-height: 16px;
+    padding: 0 2px;
+    white-space: pre-wrap;
+}
+
+.value.DescriptionRtf, .value.DescriptionText, .value.DescriptionUrl
+{
+    border: 1px outset lightgray;
+    padding: 2px;
+}
+
+.value.Note
+{
+}
+
+.value.Name {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0;
+    font-family: "Century Gothic", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
+    font-weight: Bold;
+}
+
+a.encrypted
+{
+    color: Salmon;
+    font-family: Times New Roman;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+a.encrypted:hover
+{
+    text-decoration: underline;
+    CURSOR: pointer;
+    CURSOR: hand;
+}
+
+a.encrypted:after
+{
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALySURBVDhPZZJbSJNxGMYNkg5IEBFEF3lRF50uLOhwURcVCNGZDpQF1YU3Eh0oRUFXs4GHTCcz5xaahxkzcWRHm+ZormW2PB8qD3Oa1kg3zQ77dPbrv49qZRcP73fxvb/ned/3HwKE/K3S0tKwkpISZWFhoTk/P9+h1+sdWq3WnJOTo1Sr1WEz//+n2WAwRBQXF/fV1NTQ0NCAw+GQq9VqpaKigoyMjL60tLSIvyF/AKI5rKioqNtms1FbW4v4Jjc3F41Gg0iAyWSSpVKpupVK5bzfkD8A0RBrNpuxWCzk5eX1isjh2dnZoZmZmaHp6enhKSkpQ0ajkYKCApKSkmL/A4h5TQH3gLNwXTVz1uTk5FUiPmVlZSQkJJj+A+h0ujq73Y5wJisra+5MgEKhmCucKS8vJy4uru4fgKvuNMbCVERkRGR6nkThrDpM38MD9FbuoadiJ13GSOLj4wPNXFdE80a3TjAIkXfgsp7CP/GS6YlX/PjWDt+64Msb8PULOeHrO/zjr5kctTL56amsTs2aIKDfckIA6pGcsUwPp8GHGzCkB88dGDXCoA6p4xITjmOM1+9j0l1Nx/UVQYCz+qhweIHUc47R6iN4n54WkJsM3N6Ay7ALBtS4xRiDhs2M2XYifayiPXVZEND3+CD+MTu+tzFMDyTCRzW4dThvrefetUMCkI7UHMP48/2MPYtE+vCItqtLgoDee3uZ8tbh64xm5NFukSAKPt2gVxtBefIecKlwl23DJYDe2u1IQw9oVSwKAgJbnvI843vbSfzdZ8T8l8XsWfBZK6oGnIn4HMdFcyQe8xakwfu0JCwIArqNO5gasfC16Rgjd7fhNe/Fa43Caz+F13YCr0g1XLoJl341nqrN+AYraY4NvOZfZ3xXslWcpga/0A+PRZzQLs7XCJNtojaLJC/wu81I7+/jG7grq+lCaBDwNn+j/DC6ctbSqV5JR8ZyecttqqW0XllMS+JCOXJz3HyaLs6h6fxsGs/OkgE/AUhP8wdgnhz4AAAAAElFTkSuQmCC");
+    margin-left: 2px;
+    vertical-align: text-top;
+}

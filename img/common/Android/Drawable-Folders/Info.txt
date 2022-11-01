@@ -1,0 +1,1 @@
+NOTE: The drawable folders contain images that were specifically made for Android.

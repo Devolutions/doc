@@ -1,0 +1,217 @@
+body {
+	background: white;
+	padding: 0;
+	margin: 0;
+}
+
+@media print {
+	body { background: transparent; }
+}
+
+td { vertical-align: top; }
+
+td.value {
+	/*min-width: 217px;*/
+	vertical-align: top;
+}
+
+pre {
+	padding: 0px;
+	margin: 0;
+	white-space: pre-wrap;
+	font-family: segoe ui, arial;
+	font-size: 11px;
+}
+
+.HeaderHolder {
+	padding: 9px;
+	width: 725px;
+}
+
+.HeaderTitle {
+	color: #454545;
+	padding: 2px 8px;
+}
+
+.Information {
+	padding: 0 9px 9px;
+	width: 700px;
+}
+
+.InformationInfos {
+	color: #454545;
+	padding: 2px 8px;
+}
+
+table { width: 100% }
+
+.InformationType {
+	margin: 0 3px;
+	padding: 8px 0 0 34px;
+	position: relative;
+}
+
+.InformationType .Container {
+	background-color: #F5F5F5;
+	border: 1px solid silver;
+	padding: 5px 10px;
+	width: 97%;
+		
+	border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-webkit-border-radius: 0 3px 3px 0;		
+	
+	/* min-height ie fix */
+	height: auto !important;
+	height: 26px;
+	min-height: 26px;
+	overflow: hidden;
+
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.InstallDate
+{
+	 white-space: nowrap;
+}
+
+.HeaderHolder fieldset table {
+	background-color: #F8F8F8;
+	padding: 10px;
+	width: 100%;
+	margin: 10px 3px;
+}
+
+.HeaderHolder .Drive table, .HeaderHolder .LocalAccount table, .HeaderHolder .NetworkAdapter table {
+	float: left;
+	margin: 0 6px 6px 0;
+	padding: 3px 6px;
+	width: 49%;
+	border: 1px solid transparent;
+}
+
+.Container table.box {
+	border: 1px solid lightgray;
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 46%;
+  -ms-flex: 0 0 46%;
+  flex: 0 0 46%;
+  max-width: 50%;
+}
+
+fieldset {
+	border: 1px solid #B8B8B8;
+	border-radius: 0 3px 3px;
+	-moz-border-radius: 0 3px 3px;
+	-webkit-border-radius: 0 3px 3px;
+	margin-bottom: 4px;
+	margin-top: 20px;
+	padding: 5px 3px 3px 5px;
+	position: relative;
+	background: #EBEBEB;
+}
+
+fieldset legend {
+	background: #EBEBEB;
+	border: 1px solid #B8B8B8;
+	border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	display: inline-block;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0;
+	padding: 2px 5px 0;
+	position: absolute;
+	top: -17px;
+	left: -1px;
+	border-bottom: none;
+}
+
+
+th, .label {
+	font-family: segoe ui, arial;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 16px;
+	padding: 0 5px 0 0;
+	white-space: nowrap;
+}
+
+th { text-align: left; }
+
+.title {
+	color: #5E5E5E;
+	font-family: segoe ui, arial;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 24px;
+	width: 100%;
+}
+
+.title2 {
+	color: #808080;
+	font-family: segoe ui, arial;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 24px;
+	width: 100%;
+}
+
+.label {
+	color: #808080;
+	/*width: 105px;*/
+}
+
+.label.EmailPOP3Port, .label.EmailIMAPPort, .label.EmailSMTPPort { width: 30px; }
+
+.value, td {
+	empty-cells: show;
+	font-family: segoe ui, arial;
+	font-size: 11px;
+	line-height: 16px;
+	padding: 0 2px;
+}
+
+.HeaderTitle .value.Name {
+	font-family: "Century Gothic", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 0;
+}
+
+.value.DescriptionRtf, .value.DescriptionText, .value.DescriptionUrl {
+	border: 1px outset lightgray;
+	padding: 2px;
+}
+
+a.encrypted {
+	color: Salmon;
+	font-family: Times New Roman;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+a.encrypted:hover {
+	text-decoration: underline;
+	CURSOR: pointer;
+	CURSOR: hand;
+}
+
+a.encrypted:after {
+	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALySURBVDhPZZJbSJNxGMYNkg5IEBFEF3lRF50uLOhwURcVCNGZDpQF1YU3Eh0oRUFXs4GHTCcz5xaahxkzcWRHm+ZormW2PB8qD3Oa1kg3zQ77dPbrv49qZRcP73fxvb/ned/3HwKE/K3S0tKwkpISZWFhoTk/P9+h1+sdWq3WnJOTo1Sr1WEz//+n2WAwRBQXF/fV1NTQ0NCAw+GQq9VqpaKigoyMjL60tLSIvyF/AKI5rKioqNtms1FbW4v4Jjc3F41Gg0iAyWSSpVKpupVK5bzfkD8A0RBrNpuxWCzk5eX1isjh2dnZoZmZmaHp6enhKSkpQ0ajkYKCApKSkmL/A4h5TQH3gLNwXTVz1uTk5FUiPmVlZSQkJJj+A+h0ujq73Y5wJisra+5MgEKhmCucKS8vJy4uru4fgKvuNMbCVERkRGR6nkThrDpM38MD9FbuoadiJ13GSOLj4wPNXFdE80a3TjAIkXfgsp7CP/GS6YlX/PjWDt+64Msb8PULOeHrO/zjr5kctTL56amsTs2aIKDfckIA6pGcsUwPp8GHGzCkB88dGDXCoA6p4xITjmOM1+9j0l1Nx/UVQYCz+qhweIHUc47R6iN4n54WkJsM3N6Ay7ALBtS4xRiDhs2M2XYifayiPXVZEND3+CD+MTu+tzFMDyTCRzW4dThvrefetUMCkI7UHMP48/2MPYtE+vCItqtLgoDee3uZ8tbh64xm5NFukSAKPt2gVxtBefIecKlwl23DJYDe2u1IQw9oVSwKAgJbnvI843vbSfzdZ8T8l8XsWfBZK6oGnIn4HMdFcyQe8xakwfu0JCwIArqNO5gasfC16Rgjd7fhNe/Fa43Caz+F13YCr0g1XLoJl341nqrN+AYraY4NvOZfZ3xXslWcpga/0A+PRZzQLs7XCJNtojaLJC/wu81I7+/jG7grq+lCaBDwNn+j/DC6ctbSqV5JR8ZyecttqqW0XllMS+JCOXJz3HyaLs6h6fxsGs/OkgE/AUhP8wdgnhz4AAAAAElFTkSuQmCC");
+	margin-left: 2px;
+	vertical-align: text-top;
+}

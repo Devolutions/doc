@@ -1,0 +1,1 @@
+<![CDATA[ /* Comment */ a { /* Comment */ color: /* Comment */ Red; } .TestClass { color: Black; background-color: White; text-align: left; } ]]> 

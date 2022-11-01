@@ -1,0 +1,282 @@
+<style type="text/css">
+
+html { width: 100%; }
+
+body {
+    background: #FFFFFF;
+    padding: 0 9px;
+    margin: 0;
+}
+
+td { vertical-align: top; }
+
+td.value { vertical-align: bottom; }
+
+pre {
+    padding: 0;
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: "Open Sans", sans-serif;
+}
+
+.DataEntry {
+    padding: 9px 0;
+    width: 100%;
+    max-width: 1200px;
+}
+ 
+ 
+.DataEntryInfos {
+    color: #454545;
+    font-family: "Open Sans", sans-serif;
+}
+
+.DataEntryInfos .infos {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 14px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.DataEntryInfos small {
+    color: #2f2f2f;
+    font-size: 10px;
+    font-weight: 100;
+    left: 1px;
+    line-height: 6px;
+    position: relative;
+}
+
+.DataEntrySubConnection {
+    padding-top: 9px;
+}
+
+.DataEntryType {
+    margin: 0 3px;
+    padding: 0;
+    position: relative;
+}
+
+.DataEntryType .Container {
+    padding: 0;
+    height: auto !important;
+    height: 40px;
+    min-height: 40px;
+}
+
+.DataEntryType .Container > table { width: 100%; }
+ 
+fieldset {
+    border: 1px solid #B8B8B8;
+    border-radius: 0 3px 3px;
+    -moz-border-radius: 0 3px 3px;
+    -webkit-border-radius: 0 3px 3px;
+    margin-bottom: 4px;
+    margin-top: 20px;
+    padding: 5px 3px 3px 5px;
+    position: relative;
+    background: #EBEBEB;
+}
+
+fieldset legend {
+    background: #EBEBEB;
+    border: 1px solid #B8B8B8;
+    border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    display: inline-block;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px 5px 0;
+    position: absolute;
+    top: -17px;
+    left: -1px;
+    border-bottom: none;
+}
+
+.label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    line-height: 17px;
+    padding: 10px 10px 9px 0;
+    text-align: right;
+    text-transform: uppercase;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+th { text-align: left; }
+
+.label { color: #0068c3; }
+
+.label.EmailPOP3Port, .label.EmailIMAPPort, .label.EmailSMTPPort { width: 30px; }
+
+td.label { width: 23% }
+
+.value {
+    empty-cells: show;
+    font-family: "Open Sans", sans-serif;
+
+    font-size: 13px;
+		
+	border-bottom: 1px solid #dedede;
+	padding: 9px 10px 9px 10px;
+	text-align: left;
+	vertical-align: top;
+	line-height: 18px;
+}
+
+td.value {
+    width: 100%;
+}
+
+.label.OtherLabel, .label.OtherValueLabel {
+    font-weight: 700;
+}
+
+.label.OtherValueLabel {
+    text-align: left;
+    padding: 10px;
+}
+
+.link.DescriptionUrl { color: blue; }
+   
+               
+.value.Name {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 0;
+    font-family: "Century Gothic", "Helvetica", "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
+    font-weight: bold;
+}
+
+#vcWin {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    text-align: left;
+    width: 100%;
+    z-index: 255;
+}
+
+#vcInWin {
+    background: none repeat scroll 0 0 #CFCFCF;
+    border: 5px solid #FFFFFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 3px #111111;
+    -moz-box-shadow: 0 0 3px #111111;
+    -webkit-box-shadow: 0 0 3px #111111;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative;
+    top: 31%;
+    width: 400px;
+}
+
+a { color: White; }
+
+a.encrypted {
+    color: orange;
+    font-size: 16px;
+	vertical-align: 0px;
+	display: inline;
+	height: auto;
+}
+
+a.encrypted:hover {
+    text-decoration: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+a.encrypted:after {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAA8ElEQVQ4y7XRvUoDQRTF8V/EIoxYpbCxWgRT2djaW4gpLFIOCDY+gQ/ggwgLaS3iG4jPIIIwtjaCX6wgiDYbHZckZAVPc4p77n/undvRUFUWWzjBLnp4wBinIaa7Zr7TaB5ihGVc4xab6OMZeyGmq6mAqizWcYNXDENMl1ntoAY/oR9iepzUljLYEVZwnDdDiOm8XmsNh3ktB2zjvd53ms5q35kFWMVbiOljWneI6aVeoTcLsIGu+erWud+fWJXFp5YKMXWaEzQ1qEODeaCZgBDTRe6tAVVZ7OfeGuDnnOO/AhbS/wIWOe8EcN/y4e/8F2OzPkZ0CzJcAAAAAElFTkSuQmCC");
+    margin-left: 2px;
+    vertical-align: text-top;
+	float: right;
+}
+
+span.KeywordTag {
+    background: #0068c3;
+    color: #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    cursor: default;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 0.3em .8em;
+    white-space: nowrap;
+    position: relative;
+    margin: .250em;
+    border: 0 none;
+    font-size: .9em;
+}
+
+span.KeywordTag {
+    background: #0068c3;
+    color: #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    cursor: default;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 0.3em .8em;
+    white-space: nowrap;
+    position: relative;
+    margin: .250em;
+    border: 0 none;
+    font-size: .9em;
+}
+
+.ui-messages.warn {
+    color: #fff;
+    background-color: #ffb300;
+}
+
+.ui-messages.info {
+    color: #fff;
+    background-color: #2196f3;
+}
+
+.ui-messages {
+    margin: .5em 0;
+    padding: .5em;
+	font-size: 12px;
+	display: table;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ui-messages > span { 
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.ui-messages-detail {
+    padding: 0 5px;
+}
+
+.icon-warning {
+	padding: 3px;
+	height: 24px;
+	width: 24px;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABI0lEQVRIibWV23GDMBBFjzL5D+mADkwHoRO7BEpyJ8YV2K4EUsHNh1cgghBgw5nRSDOs7tWLXdgZByBpLi4DDtYDtMDD+mlx554DSVPtJOmmaS6SjlPzOyIfixnhmFG+1KCQ1KwQ9zQ2N2mQEq8kldaqhEm3k5jBPbHCMogrE3GX0OAjuPSTvZR3KU1rZFBtIO4ZGfh3vhU/ptkZFBuKe4rQIEsEvspgB7vxaX0ypxhHnmcLkC+Ib6FPdhnQrFzcHN/OuTbcwYP0Swqz59yruxKeivrMmWLpnyzTAoaXfDbnd7maFtBfsqcCauArMvEAKBjH+CX4izs0TtftzBHEaLUgXfuWS6pXiNdaUXD+l8yUUW0xkyVzTdEvGBb9O0uL/p78AYOZ4g+58bOAAAAAAElFTkSuQmCC');
+}
+
+</style>

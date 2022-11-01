@@ -1,0 +1,152 @@
+﻿<style type="text/css">
+	@media print
+	{
+		body
+		{
+			background: transparent;
+		}
+		
+		.fail
+		{
+			color: #DC0404;
+			font-size: 21px;
+			line-height: 10px;
+		}
+		
+		.success
+		{
+			color: #008000;
+			font-size: 21px;
+			line-height: 10px;
+		}
+	}
+	
+	@media screen
+	{
+		body
+		{
+			background: #A6A6A6;
+		}
+		
+		.fail
+		{
+			background-position: left center;
+			background-repeat: no-repeat;
+			background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEklEQVR42q1S/U9SYRhlbW13/Q0V5Woub05zfZkCXhUhpmmb8v3h5ZKoCQjcwVBi1Q+19Zf0d2lWxpeR3AuX93J8qGVjgK2tZ3u3d3t2znmecx6D4R+rsS5dGdiEnDXS4weCQ2Fe9QUSdafH3B+c3UM7k4OeSPWQNIIi3xAjaG5u48fz1Y+1peU7PWAU3qBNT0/KaG3tnJOogXWe1NGKJYB8AZ3/ic2RqMxaL/0iSGe4dlLW23uvgPcfoOfyHQI0RYlX/SGe1KHtxAHqqyERJwtPWUWYv9w1oh5PcuxlnOlyFnj7DiydQSMcAalD244Buf2f/6rVTuA5rq9JregW15Q2WCu2S+u8BvYLBMwD2RxUfxDVeRurzMxyF8cUFDnFG9CRo3V8QcDtA+QMqnMLetkicH/NWfH4O1EBlAacHmDVBeymaG87ipPT/MVgt49XvH5okSiQkgmYBuK0DhmorrlQMVnwdXyiP0nd5eUVjw+atAFQjIrbCzKLlabN+unSChDdRP3ZCor3H+JoeKSbhC6LJ3Vo4RekmoRCo5NZrDRl5oqPJrnjiQesZrUBYQmndgeOR8dweGPoDwldllB3uqGJEpQ1N8gsVnpiOjfsy+g493nkLvtuEaA4FvFt7B4OrhmFrinosoTa4jLK5hmdzOpx++j2MPdp6BbrC/5dZZNFKD6eGhjVofEmd3D1umD4n3UGltFKFDkd60gAAAAASUVORK5CYII=);
+			text-indent: -4000px;
+		}
+
+		.success
+		{
+			background-position: left center;
+			background-repeat: no-repeat;
+			background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC60lEQVR4XqWSa0iTbRjHryx1uT07SgesLDq8RC1T1G06TZ2KqNRLVq9paopDPKRLI0yhIxHmIcyI6suww4faS5hTyzXLRUqrtChQ8zAqNCNLTE3NaVf3/Twb9KW+9OHP8+X5/e7r/l83RBd5QlQhjQwiC2SgyZdBRJ4UwnNlEJYjBU0JAxHFAgg/LIDQQwIAgIUrAtyYJevdRACwCKKIYGz+GYzNPYXRuXb4PGuBT9/vw/C0EQanDPB2ohZ6v16i4AIS1637PDQhOmGPKkX6Th7PJEKUTgbjP17C+HwnK/lif0wELTA80wjvvxnANl7rhN0Ds/jFyeXr7XUdWiy+rEafHUwZROo8YRJfUwmdhAjaYIQKpolg8hYLS1Yv5Kvy+DeOXFPjQ1sOaivWoTxecAYAGNAU/DqB1TGBGYamjCy8fIurKDifqb9o2o2m/jRML/fGzXHMMQLTQlxoafRkFh61t8PIbCsZ/y4Lewe5SbcVih/pLWlo7P0P08+uQnksc5yAfAr77RICbdxZkAuFPs6YWHgZOTmsSNJ605qLDX1JePDKBnpnWghD4ZaBJGAFFAzJlJwkMfhsZ7zoakh4qgP823pLJjb17cXTdT7ov0do5QldZHSNZgKb+nZygtAs6Ynq2xn4f1spxhV4jxJrqiKbX1Np3I33BtLxgkWBoRmeH7zk7hup3NzPwXffxHCCkEzx6TLDv9g5cgI7B6sxrzIEq+oT0GzLRn2HGmPyl9rXBnto6BppL064oTuCE1CrMkVcVnJVgc22FHwyVIommxZrX6hJaaTxWOYUAT0o3Ny7A5ocsLE7iBM4H0lAorii6Iocr78KR/1zJR41/IO+CYyVgGLaE4XpyY092wishPquAE4QlCFxShb7JQjPZdeswaoHmzBMK5tY6csLoBNycLQDDoI7XX40nEC1XwLKVLFTwierOu+fKMKN0XwdlVI5/fF3YWHFPhEEJovA8RZ4JEL6dT6WPwUQ8a/yE4U/eD688J9IAAAAAElFTkSuQmCC);
+			text-indent: -4000px;
+		}
+	}
+	
+	body
+	{
+		font: 12px Verdana,sans-serif;
+		height: 865px;
+		margin: 14px auto 0;
+		padding: 40px 40px 0;
+		position: relative;
+		width: 770px;
+		clear: both;
+		page-break-after: always;
+	}
+
+	
+
+	pre
+	{
+		padding: 0px;
+		margin: 0;
+		white-space: pre-wrap;
+		font-family: arial;
+		font-size: 11px;
+	}
+
+	table { width: 100% }
+
+	.Container
+	{
+		background-color: #F5F5F5;
+		padding: 5px 10px;
+		width: 97.5%;
+
+		margin-bottom: 8px;
+
+		/* min-height ie fix */
+		height: auto !important;
+		height: 26px;
+		min-height: 26px;
+		overflow: hidden;
+	}
+
+	.label
+	{
+		font-family: arial;
+		font-size: 11px;
+		font-weight: normal;
+		line-height: 16px;
+		padding: 0 5px 0 0;
+		white-space: nowrap; 
+		color: #808080;
+	}
+	
+	.value, td, .subvalue
+	{
+		empty-cells: show;
+		font-family: arial;
+		font-size: 11px;
+		line-height: 16px;
+		padding: 0 2px;
+		vertical-align: top;
+	}
+
+	.title { 
+		color: #5E5E5E; 
+		font-family: arial; 
+		font-size: 16px; 
+		font-weight: bold; 
+		line-height: 24px; 
+		width: 100%; 
+	}
+
+	.HeaderTitle {
+		background: none repeat scroll 0 0 white;
+		color: #0068C3;
+		margin-bottom: 8px;
+		font-family: "Century Gothic","Helvetica","Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 20px;
+		padding: 10px 13px;
+	}
+
+	.indent {padding-left: 5px;}
+	.indent:before { content: "└\00a0\00a0"; color: black;}
+	.indent.first:before {content: "‏├‏\00a0\00a0"; color: black;}
+
+	td.small { width: 40%;}
+	td.blank { height: 7px;}
+	
+	
+	.colcontainer {
+		background: none repeat scroll 0 0 #D3D3D3;
+		border: 1px solid #BFBFBF;
+		width: 50%;
+	}
+	
+	.green 
+	{
+		background: #40D000;
+		background: -moz-linear-gradient(center top , #D6FF29, #40D000) repeat scroll 0 0 transparent;
+		background: -webkit-gradient(linear, left top, left bottom, from(#D6FF29), to(#40D000));
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#D6FF29', endColorstr='#40D000');		
+	}
+	
+	.col span { margin-left: 5px;}
+</style>

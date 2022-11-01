@@ -1,0 +1,269 @@
+<style type="text/css">
+    body
+    {
+        background: #EAEAEA;
+        padding: 0 9px;
+        margin: 0;
+    }
+
+
+    td
+    {
+        vertical-align: top;
+    }
+
+    td.value
+    {
+        min-width: 217px;
+        vertical-align: bottom;
+    }
+
+    pre
+    {
+        padding: 0px;
+        margin: 0;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        font-family: segoe ui, arial;
+        font-size: 11px;
+    }
+
+    .DataEntry
+    {
+        padding: 9px 0;
+        width: 100%;
+    }
+
+
+    .DataEntryInfos
+    {
+		color: #454545;
+		padding: 2px 8px;
+    }
+
+    .DataEntrySubConnection
+    {
+        padding-left: 33px;
+		padding-top: 9px;
+        width: 667px;
+    }
+
+    .DataEntryType
+    {
+		margin: 0 3px;
+		padding: 8px 0 0 34px;
+		position: relative;
+    }
+	
+	.DataEntryType .Container
+    {
+        background-color: #F5F5F5;
+        border: 1px solid silver;
+        padding: 5px 10px;
+        width: 94%;
+                               
+        border-radius: 0 3px 3px 0;         
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+                               
+        height: auto !important; 
+        height: 26px; 
+        min-height: 26px;
+    }
+
+
+  fieldset
+    {
+        border: 1px solid #B8B8B8;
+		border-radius: 0 3px 3px;
+		-moz-border-radius: 0 3px 3px;
+		-webkit-border-radius: 0 3px 3px;
+        margin-bottom: 4px;
+        margin-top: 20px;
+        padding: 5px 3px 3px 5px;
+        position: relative;
+        background: #EBEBEB;
+    }
+
+    fieldset legend
+    {
+		background: #EBEBEB;
+		border: 1px solid #B8B8B8;
+		border-radius: 3px 3px 0 0;
+		-moz-border-radius: 3px 3px 0 0;
+		-webkit-border-radius: 3px 3px 0 0;
+		display: inline-block;
+		font-family: arial;
+		font-size: 11px;
+        font-weight: bold;
+        margin: 0;
+        padding: 2px 5px 0;
+        position: absolute;
+        top: -17px;
+		left: -1px;
+		border-bottom: none;
+    }
+
+    th, .label
+    {
+        font-family: segoe ui, arial;
+        font-size: 11px;
+        font-weight: normal;
+        line-height: 16px;
+        padding: 0 5px 0 0;
+    }
+
+    th
+    {
+        text-align: left;
+    }
+
+    .label
+    {
+        width: 105px;
+        color: gray;
+    }
+
+    .label.EmailPOP3Port, .label.EmailIMAPPort, .label.EmailSMTPPort
+    {
+        width: 30px;
+    }
+
+    .value
+    {
+        empty-cells: show;
+        font-family: segoe ui, arial;
+        font-size: 11px;
+        line-height: 16px;
+        padding: 0 2px;
+    }
+
+    .value.DescriptionRtf, .value.DescriptionText, .value.DescriptionUrl
+    {
+        border: 1px solid lightgray;
+        padding: 2px;
+    }
+    
+    .value.Note
+    {
+    }
+	
+	.value.Name {
+		font-size: 18px;
+		line-height: 23px;
+		padding: 0;
+		font-family: "Century Gothic","Helvetica","Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+		font-weight: bold;
+	}
+    
+    #vcWin
+    {
+        display: block;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        position: fixed;
+        text-align: left;
+        width: 100%;
+        z-index: 255;
+    }
+
+    #vcInWin
+    {
+        background: none repeat scroll 0 0 #CFCFCF;
+        border: 5px solid #FFFFFF;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 0 0 3px #111111;
+        -moz-box-shadow: 0 0 3px #111111;
+        -webkit-box-shadow: 0 0 3px #111111;
+        margin: 0 auto;
+        padding: 15px;
+        position: relative;
+        top: 31%;
+        width: 400px;
+    }
+
+    a {
+        color: White;	
+	}
+    
+    a.encrypted
+    {
+        color: #02d200;
+        font-family: Times New Roman;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    a.encrypted:hover
+    {
+        text-decoration: underline;
+		CURSOR: pointer;
+		CURSOR: hand;
+    }
+
+    a.encrypted:after
+    {
+        content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALySURBVDhPZZJbSJNxGMYNkg5IEBFEF3lRF50uLOhwURcVCNGZDpQF1YU3Eh0oRUFXs4GHTCcz5xaahxkzcWRHm+ZormW2PB8qD3Oa1kg3zQ77dPbrv49qZRcP73fxvb/ned/3HwKE/K3S0tKwkpISZWFhoTk/P9+h1+sdWq3WnJOTo1Sr1WEz//+n2WAwRBQXF/fV1NTQ0NCAw+GQq9VqpaKigoyMjL60tLSIvyF/AKI5rKioqNtms1FbW4v4Jjc3F41Gg0iAyWSSpVKpupVK5bzfkD8A0RBrNpuxWCzk5eX1isjh2dnZoZmZmaHp6enhKSkpQ0ajkYKCApKSkmL/A4h5TQH3gLNwXTVz1uTk5FUiPmVlZSQkJJj+A+h0ujq73Y5wJisra+5MgEKhmCucKS8vJy4uru4fgKvuNMbCVERkRGR6nkThrDpM38MD9FbuoadiJ13GSOLj4wPNXFdE80a3TjAIkXfgsp7CP/GS6YlX/PjWDt+64Msb8PULOeHrO/zjr5kctTL56amsTs2aIKDfckIA6pGcsUwPp8GHGzCkB88dGDXCoA6p4xITjmOM1+9j0l1Nx/UVQYCz+qhweIHUc47R6iN4n54WkJsM3N6Ay7ALBtS4xRiDhs2M2XYifayiPXVZEND3+CD+MTu+tzFMDyTCRzW4dThvrefetUMCkI7UHMP48/2MPYtE+vCItqtLgoDee3uZ8tbh64xm5NFukSAKPt2gVxtBefIecKlwl23DJYDe2u1IQw9oVSwKAgJbnvI843vbSfzdZ8T8l8XsWfBZK6oGnIn4HMdFcyQe8xakwfu0JCwIArqNO5gasfC16Rgjd7fhNe/Fa43Caz+F13YCr0g1XLoJl341nqrN+AYraY4NvOZfZ3xXslWcpga/0A+PRZzQLs7XCJNtojaLJC/wu81I7+/jG7grq+lCaBDwNn+j/DC6ctbSqV5JR8ZyecttqqW0XllMS+JCOXJz3HyaLs6h6fxsGs/OkgE/AUhP8wdgnhz4AAAAAElFTkSuQmCC");
+        margin-left: 2px;
+        vertical-align: text-top;
+    }
+
+span.KeywordTag {
+    background: #0068c3;
+    color: #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    cursor: default;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 0.3em .8em;
+    white-space: nowrap;
+    position: relative;
+    margin: .250em;
+    border: 0 none;
+    font-size: .9em;
+}
+
+.ui-messages.warn {
+    color: #fff;
+    background-color: #ffb300;
+}
+
+.ui-messages.info {
+    color: #fff;
+    background-color: #2196f3;
+}
+
+.ui-messages {
+    margin: .5em 0;
+    padding: .5em;
+	font-size: 12px;
+	display: table;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ui-messages > span { 
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.ui-messages-detail {
+    padding: 0 5px;
+}
+
+.icon-warning {
+	padding: 3px;
+	height: 24px;
+	width: 24px;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABI0lEQVRIibWV23GDMBBFjzL5D+mADkwHoRO7BEpyJ8YV2K4EUsHNh1cgghBgw5nRSDOs7tWLXdgZByBpLi4DDtYDtMDD+mlx554DSVPtJOmmaS6SjlPzOyIfixnhmFG+1KCQ1KwQ9zQ2N2mQEq8kldaqhEm3k5jBPbHCMogrE3GX0OAjuPSTvZR3KU1rZFBtIO4ZGfh3vhU/ptkZFBuKe4rQIEsEvspgB7vxaX0ypxhHnmcLkC+Ib6FPdhnQrFzcHN/OuTbcwYP0Swqz59yruxKeivrMmWLpnyzTAoaXfDbnd7maFtBfsqcCauArMvEAKBjH+CX4izs0TtftzBHEaLUgXfuWS6pXiNdaUXD+l8yUUW0xkyVzTdEvGBb9O0uL/p78AYOZ4g+58bOAAAAAAElFTkSuQmCC');
+}     
+</style>
