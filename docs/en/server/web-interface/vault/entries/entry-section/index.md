@@ -1,5 +1,5 @@
 ---
-title: Getting Started
-order: 10
+title: Entry Section
+order: 30
 ---
 

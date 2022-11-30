@@ -1,5 +1,5 @@
 ---
-title: Getting Started
-order: 10
+title: Server Settings
+order: 20
 ---
 

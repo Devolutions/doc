@@ -1,5 +1,5 @@
 ---
-title: Getting Started
-order: 10
+title: Configuration
+order: 20
 ---
 

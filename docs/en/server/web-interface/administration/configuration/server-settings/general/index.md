@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: General
 order: 10
 ---
 

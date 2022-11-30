@@ -1,5 +1,6 @@
 ---
-title: Getting Started
-order: 10
+title: Entry Templates
+order: 20
 ---
+TBD
 
