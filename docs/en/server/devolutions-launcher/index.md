@@ -1,3 +1,4 @@
 ---
-title: Devolutions Server
+title: Devolutions Launcher
+order: 70
 ---

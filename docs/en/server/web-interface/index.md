@@ -1,3 +1,4 @@
 ---
-title: Devolutions Server
+title: Web Interface
+order: 40
 ---

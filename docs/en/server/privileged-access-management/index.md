@@ -1,3 +1,4 @@
 ---
-title: Devolutions Server
+title: Privileged Access Management
+order: 50
 ---

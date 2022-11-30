@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Authentication
 order: 10
 ---
 

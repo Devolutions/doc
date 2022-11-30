@@ -1,5 +1,5 @@
 ---
-title: Getting Started
-order: 10
+title: Logs
+order: 60
 ---
 
