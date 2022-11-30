@@ -1,3 +1,4 @@
 ---
-title: Devolutions Server
+title: Management
+order: 30
 ---
