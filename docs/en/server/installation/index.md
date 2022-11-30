@@ -1,3 +1,4 @@
 ---
-title: Devolutions Server
+title: Installation
+order: 20
 ---
