@@ -1,5 +1,5 @@
 ---
-title: Database Instance
+title: Instance de la base de données
 ---
 TBD
 
