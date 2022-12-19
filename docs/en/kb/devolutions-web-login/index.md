@@ -3,7 +3,6 @@ title: Devolutions Web Login
 order: 40
 ---
 # {{ en.TOPICTITLE }} 
-## Description 
 <table>
 	<tr>
 		<td>
