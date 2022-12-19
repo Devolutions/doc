@@ -1,7 +1,7 @@
 ---
 title: Password Hub
 order: 30
-description: You can consult topics for the following categories about Devolutions Password Hub':' How-To Articles, Troubleshooting Articles and Knowledge Base
+description: You can consult topics for the following categories about Password Hub':' How-To Articles, Troubleshooting Articles and Knowledge Base
 ---
 # {{ en.TOPICTITLE }} 
 <table>
