@@ -1,9 +1,13 @@
 ---
-title: Windows Server 2008R2 Cannot Load or Assembly
-Description: Windows Server 2008R2 - Could not load file or assembly of 'Microsoft.Management.Infrastructure' or one of its dependencies.
+title: Windows Server 2008R2 cannot Load or Assembly
+description: Windows Server 2008R2 - Could not load file or assembly 'Microsoft.Management.Infrastructure' or one of its dependencies.
+keywords:
+- Windows Server
+- 2008R2
+- Microsoft.Management.Infrastructure
 ---
 # {{ en.TOPICTITLE }} 
-Windows Server 2008R2 - Could not load file or assembly of 'Microsoft.Management.Infrastructure' or one of its dependencies. 
+Windows Server 2008R2 - Could not load file or assembly 'Microsoft.Management.Infrastructure' or one of its dependencies. 
 
 The following modification will remove the strong name verification and could expose your Windows Server to various threats. 
 After installing {{ en.DPS }} version 6.x on a Windows Server 2008R2, you will get the following error message. 
