@@ -10,7 +10,7 @@ description: Vous pouvez accéder aux catégories suivantes concernant Password 
 <img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" width="180" alt="Devolutions Password Hub icône">
 		</td>
 		<td>
-Vous pouvez accéder aux catégories suivantes concernant {{ fr.PHUB }} : 
+Vous pouvez accéder aux catégories suivantes concernant {{ fr.PHUB }} Business et Personal: 
 <ul>
   <li>Guides d&apos;utilisation</li>
   <li>Articles de dépannage</li>
