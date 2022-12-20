@@ -91,7 +91,8 @@ The user/application must have the right to use the CLI
 
 ![KB4354.png](/img/en/kb/KB4354.png)  
 
-Options:  
+Options:    
+
 
 -j --json 
 The command output will be formatted in JSON format. 
