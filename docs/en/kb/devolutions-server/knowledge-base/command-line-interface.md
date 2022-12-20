@@ -30,7 +30,6 @@ Listed below are the available command line:
 
 ![Devolutions Server CLI examples](/img/en/kb/KB8006.png) 
 *{{ en.DPS }} CLI examples*{.caption}
-
 ### Get 
 Returns the credentials of an entry based on its id.  
 
@@ -80,7 +79,7 @@ Returns the credentials of an entry based on its id.
 ![GET Command Line Interface examples](/img/en/kb/KB4352.png) 
 *GET Command Line Interface examples*{.caption}
 ### Login 
-Parameters:  
+&nbsp; &nbsp; &nbsp;Parameters:  
 
 First parameter: the username (the key, if the user is of the type application)  
 Second parameter: the password (the secret, if the user is of the type application)  
