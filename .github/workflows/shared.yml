@@ -3,31 +3,16 @@ name: shared workflow
 on:
   workflow_call:
     inputs:
-      clusterName:
+      cluster_name:
         required: true
         default: staging
         type: string
       environment:
         required: true
         type: string
-      subscriptionId:
+      subscription_id:
         required: true
         type: string
-    secrets:
-      AZURE_TENANT_ID:
-        required: true
-      DEVOLUTIONSBOT_TOKEN:
-        required: true
-      DOCKERHUB_TOKEN:
-        required: true
-      DOCKERHUB_USERNAME:
-        required: true
-      TAILSCALE_AUTH_KEY_EPHEMERAL:
-        required: true
-      TERRAFORM_AUTOMATOR_CLIENT_ID:
-        required: true
-      TERRAFORM_AUTOMATOR_CLIENT_SECRET:
-        required: true
 
 concurrency: ${{ inputs.environment }}
 
@@ -41,13 +26,19 @@ jobs:
     steps:
       - name: Check out ${{ github.repository }}
         uses: actions/checkout@v3
+        with:
+           lfs: true
+
+      - name: Pull lfs files
+        run: |
+          git lfs pull
 
       - name: Set variables
         id: variables
         run: |
-          echo "::set-output name=tag::latest"
+          echo "tag=latest" >> $GITHUB_OUTPUT
           if [[ "${{ inputs.environment }}" == "production" ]]; then
-            echo "::set-output name=tag::$(git rev-parse --short HEAD)"
+            echo "tag=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
           fi
         shell: bash
 
@@ -61,6 +52,7 @@ jobs:
         id: docker_push
         uses: docker/build-push-action@v3
         with:
+          context: .
           file: ./ci/Dockerfile
           labels: commitid=${{ github.sha }}
           push: true
@@ -104,8 +96,8 @@ jobs:
           azureClientId: ${{ secrets.TERRAFORM_AUTOMATOR_CLIENT_ID }}
           azureClientSecret: ${{ secrets.TERRAFORM_AUTOMATOR_CLIENT_SECRET }}
           azureTenantId: ${{ secrets.AZURE_TENANT_ID }}
-          azureSubscriptionId: ${{ inputs.subscriptionId }}
-          context: ${{ inputs.clusterName }}
+          azureSubscriptionId: ${{ inputs.subscription_id }}
+          context: ${{ inputs.cluster_name }}
           environment: ${{ inputs.environment }}
           imageName: devolutions/docs:${{needs.build.outputs.tag}}
           namespace: docs
