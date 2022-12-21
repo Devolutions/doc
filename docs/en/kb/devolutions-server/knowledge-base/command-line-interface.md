@@ -79,47 +79,69 @@ Returns the credentials of an entry based on its id.
 ![GET Command Line Interface examples](/img/en/kb/KB4352.png) 
 *GET Command Line Interface examples*{.caption}
 ### Login 
-&nbsp; &nbsp; &nbsp;Parameters:  
+&nbsp; &nbsp; &nbsp;**Parameters:**  
 
-First parameter: the username (the key, if the user is of the type application)  
-Second parameter: the password (the secret, if the user is of the type application)  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;First parameter: the username (the key, if the user is of the type application)  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Second parameter: the password (the secret, if the user is of the type application)  
 
-![KB4353.png](/img/en/kb/KB4353.png)  
+![Application – General](/img/en/kb/KB4353.png) 
+*Application – General*{.caption}
 
-The user/application must have the right to use the CLI  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The user/application must have the right to use the CLI  
 
-![KB4354.png](/img/en/kb/KB4354.png)  
+![Edit user – Applications](/img/en/kb/KB4354.png) 
+*Edit user – Applications*{.caption}
 
-Options:    
+&nbsp; &nbsp; &nbsp;**Options:**  
 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-j&nbsp; &nbsp; &nbsp;--json  
 
--j --json 
-The command output will be formatted in JSON format. 
-Examples: 
-DPS&gt; login dsavard 12345 
-![KB4355.png](/img/en/kb/KB4355.png) 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The command output will be formatted in JSON format.  
+
+&nbsp; &nbsp; &nbsp;**Examples:**  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DPS&gt; login dsavard 12345  
+
+![Command Line Interface examples](/img/en/kb/KB4355.png) 
+
 ### Logout 
-Logout the current user. 
-![KB4356.png](/img/en/kb/KB4356.png) 
+Logout the current user.  
+
+![Command Line Interface examples](/img/en/kb/KB4356.png) 
+
 ### Set 
-Update the credentials of an entry. 
-Parameters: 
-The entry&apos;s id can be found in its advance property or in the last part of its URL. 
-![KB4357.png](/img/en/kb/KB4357.png) 
-Options: 
--j&nbsp; &nbsp; &nbsp;--json 
-The command output will be formatted in JSON format. 
+Update the credentials of an entry.  
 
--d&nbsp; &nbsp; &nbsp;--domain new-value 
-Update the domain. 
+&nbsp; &nbsp; &nbsp;**Parameters:**  
 
--u&nbsp; &nbsp; &nbsp;--username new-value 
-Update the username. 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The entry&apos;s id can be found in its advance property or in the last part of its URL.  
 
--p&nbsp; &nbsp; &nbsp;--password new-value 
-Update the password. 
-Examples: 
-DPS&gt; set 4574725f-0d24-4cbc-a116-a5270179e251 --domain newdomain 
-Entry has been successfully updated 
-![KB4358.png](/img/en/kb/KB4358.png) 
+![Credentials – Username / Password – Advanced](/img/en/kb/KB4357.png) 
+*Credentials – Username / Password – Advanced*{.caption}
+
+&nbsp; &nbsp; &nbsp;**Options:**  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-j&nbsp; &nbsp; &nbsp;--json  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The command output will be formatted in JSON format.  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-d&nbsp; &nbsp; &nbsp;--domain new-value  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Update the domain.  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-u&nbsp; &nbsp; &nbsp;--username new-value  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Update the username.  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-p&nbsp; &nbsp; &nbsp;--password new-value  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Update the password.  
+
+&nbsp; &nbsp; &nbsp;**Examples:**  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DPS&gt; set 4574725f-0d24-4cbc-a116-a5270179e251 --domain newdomain  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Entry has been successfully updated  
+
+![Command Line Interface examples](/img/en/kb/KB4358.png) 
 
