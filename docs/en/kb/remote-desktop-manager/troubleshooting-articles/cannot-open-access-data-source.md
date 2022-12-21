@@ -2,7 +2,7 @@
 title: Access Data Source Cannot Open
 description: The Access data source is only supported by Microsoft in 32bit. Please use RDM 32bit instead.
 keywords:
-- Access Datasource
+- Access data source
 - 32bit
 ---
 # {{ en.TOPICTITLE }} 
