@@ -1,6 +1,6 @@
 ---
 title: Console Command Line Interface
-Description: The Devolutions Server Console Command Line Interface (CLI) is a Companion Tool which allows administrators to interact with Devolutions Server instances.
+description: The Devolutions Server Console Command Line Interface (CLI) is a Companion Tool which allows administrators to interact with Devolutions Server instances.
 keywords:
 - CLI
 - Command Line Interface
