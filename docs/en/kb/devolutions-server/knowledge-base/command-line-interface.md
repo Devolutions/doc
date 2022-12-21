@@ -1,6 +1,6 @@
 ---
 title: Command Line Interface
-Description: A Command Line Interface (CLI) is a Companion Tool which allows Devolutions Server users to access credentials with the command line.
+description: A Command Line Interface (CLI) is a Companion Tool which allows Devolutions Server users to access credentials with the command line.
 keywords:
 - CLI
 - Command Line Interface
