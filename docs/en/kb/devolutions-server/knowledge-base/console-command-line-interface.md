@@ -28,7 +28,7 @@ The following command will create a new {{ en.DPS }} instance from a JSON respon
 *CLI with JSON file*{.caption}
 
 Sample of a JSON response file for creating a new {{ en.DPS }} instance.  
-
+```
 {  
 &quot;acceptEula&quot;: true,  
 &quot;adminEmail&quot;: &quot;admin@mydomain.org&quot;,  
@@ -66,5 +66,6 @@ Sample of a JSON response file for creating a new {{ en.DPS }} instance.
 &quot;serviceUser&quot;: null,  
 &quot;webApplicationName&quot;: &quot;/dvls&quot;,  
 &quot;verbose&quot;: false  
-}  
+}
+```  
 

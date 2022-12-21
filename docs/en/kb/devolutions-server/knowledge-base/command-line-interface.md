@@ -11,7 +11,7 @@ Listed below are the available command line:
 ### Config 
 &nbsp; &nbsp; &nbsp;**Parameters:**  
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-v&nbsp; &nbsp; &nbsp;--vault  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;`-v or --vault`  
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The default vault id to use for the other commands: 0000000-0000-0000-0000-000000000000 
 
@@ -61,7 +61,7 @@ Returns the credentials of an entry based on its id.
 &nbsp; &nbsp; &nbsp;**Examples:**  
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DPS&gt; get 4574725f-0d24-4cbc-a116-a5270179e251  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;domain:   dddd  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;domain: dddd  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;username: asdf  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;password: 12345  
 
