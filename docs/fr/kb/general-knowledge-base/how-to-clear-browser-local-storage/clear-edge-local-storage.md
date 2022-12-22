@@ -17,9 +17,9 @@ Voici les étapes à suivre pour effacer votre stockage local dans le navigateur
 ![Console – Application](/img/fr/kb/KB2059.png) 
 *Console – Application*{.caption}
 1. Développer la liste ***Stockage local*** située dans la section ***Stockage*** du menu de gauche de la console.  
-![Console – Application – Stokage local](/img/fr/kb/KB2060.png) 
-*Console – Application – Stokage local*{.caption}
+![Console – Application – Stockage local](/img/fr/kb/KB2060.png) 
+*Console – Application – Stockage local*{.caption}
 1. Faire un clic droit sur votre ou vos sites et cliquer sur ***Effacer*** pour supprimer le stockage local.  
-![Stokage local – Effacer](/img/fr/kb/KB2061.png) 
-*Stokage local – Effacer*{.caption}
+![Stockage local – Effacer](/img/fr/kb/KB2061.png) 
+*Stockage local – Effacer*{.caption}
 
