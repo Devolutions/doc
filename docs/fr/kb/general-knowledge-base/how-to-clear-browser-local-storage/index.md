@@ -8,8 +8,8 @@ keywords:
 # {{ en.TOPICTITLE }} 
 Cliquer sur votre type de navigateur pour suivre les étapes permettant d'effacer le stockage local de votre navigateur :  
 
-* [Google Chrome](KB_Clear_Chrome_Local_Storage) 
+* [Google Chrome](/fr/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-chrome-local-storage/) 
 * [Firefox](KB_Clear_Firefox_Local_Storage) 
-* [Microsoft Edge](KB_Clear_Edge_Local_Storage) 
+* [Microsoft Edge](/fr/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-edge-local-storage/) 
 * [Safari](KB_Clear_Safari_Local_Storage) 
 * [Opera](KB_Clear_Opera_Local_Storage) 
