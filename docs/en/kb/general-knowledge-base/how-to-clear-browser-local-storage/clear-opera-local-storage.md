@@ -17,8 +17,8 @@ Here are the steps to clear your local storage in the Opera browser:
 ![Console – Application](/img/en/kb/KB4874.png) 
 *Console – Application*{.caption}
 1. Expand the ***Local Storage*** list located in the ***Storage*** section of the console&apos;s left menu.  
-![Console – Storage – Local Storage](/img/en/kb/KB4875.png) 
-*Console – Storage – Local Storage*{.caption}
+![Console – Application – Local Storage](/img/en/kb/KB4875.png) 
+*Console – Application – Local Storage*{.caption}
 1. Right-click your site(s) and click ***Clear*** to delete the local storage.  
 ![Local Storage – Clear](/img/en/kb/KB4876.png) 
 *Local Storage – Clear*{.caption}
