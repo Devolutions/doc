@@ -12,13 +12,13 @@ It is divided by our different products, as well as a few subcategories.
 ### General Information 
 &nbsp; &nbsp;[Securely Send a File to Our Team](/kb/devolutions-customer-success/securely-send-file/)  
 
-&nbsp; &nbsp;[Ticketing System](KB_Ticketing)  
+&nbsp; &nbsp;[Ticketing System](/kb/devolutions-customer-success/ticketing-system/)  
 
 ### Products 
-&nbsp; &nbsp;[{{ en.RDM }}](KB_RDM)  
+&nbsp; &nbsp;[{{ en.RDM }}](/kb/remote-desktop-manager/)  
 
-&nbsp; &nbsp;[{{ en.DPS }}](KB_DPS)  
+&nbsp; &nbsp;[{{ en.DPS }}](/kb/devolutions-server/)  
 
-&nbsp; &nbsp;[{{ en.PHUB }}](KB_Hub)  
+&nbsp; &nbsp;[{{ en.PHUB }}](/kb/password-hub/)  
 
-&nbsp; &nbsp;[{{ en.DWL }}](KB_Devolutions_Web_Login)  
+&nbsp; &nbsp;[{{ en.DWL }}](/kb/devolutions-web-login/)  
