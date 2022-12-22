@@ -11,5 +11,5 @@ Click on your browser type to follow the steps to clear your browser local stora
 * [Google Chrome](/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-chrome-local-storage/) 
 * [Firefox](/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-firefox-local-storage/) 
 * [Microsoft Edge](/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-edge-local-storage/) 
-* [Safari](KB_Clear_Safari_Local_Storage) 
+* [Safari](/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-safari-local-storage/) 
 * [Opera](/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-opera-local-storage/) 
