@@ -12,4 +12,4 @@ Cliquer sur votre type de navigateur pour suivre les étapes permettant d'efface
 * [Firefox](/fr/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-firefox-local-storage/) 
 * [Microsoft Edge](/fr/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-edge-local-storage/) 
 * [Safari](KB_Clear_Safari_Local_Storage) 
-* [Opera](KB_Clear_Opera_Local_Storage) 
+* [Opera](/fr/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-opera-local-storage/) 
