@@ -14,7 +14,7 @@ This creates a challenge with {{ en.RDM }} as, since its creation, it has been d
 * utmost flexibility; 
 * and to integrate with now close to 160 different technologies.  
 
-For some of these technologies, it was extremely difficult to limit how the password was being used and the only choice to limit exposure was to block the whole technology at the root. Some example entries are : Command Line; PowerShell; Management Tools.  
+For some of these technologies, it was extremely difficult to limit how the password was being used and the only choice to limit exposure was to block the whole technology at the root. Some example entries are: Command Line; PowerShell; Management Tools.  
 
 This is not to say that we will not be able to enable them in the future, but at this juncture we did not have a choice. Our Macro system and variables, paired with the risk that malicious users would simply replace a tool with one they would have built themselves, created an attack area much too big to tackle.  
 

@@ -10,7 +10,7 @@ description: You can consult topics for the following categories about Devolutio
 <img src="https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-icon-shadow.svg" width="180" alt="Devolutions Server icon">
 		</td>
 		<td>
-You can consult topics for the following categories about {{ en.DPS }} : 
+You can consult topics for the following categories about {{ en.DPS }}: 
 <ul>
   <li>How-To Articles</li>
   <li>Troubleshooting Articles</li>
