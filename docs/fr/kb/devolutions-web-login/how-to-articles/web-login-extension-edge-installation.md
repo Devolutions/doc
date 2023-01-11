@@ -8,7 +8,7 @@ keywords:
 # {{ fr.TOPICTITLE }} 
 Voici les étapes pour installer {{ fr.DWL }} sur Microsoft Edge. 
 1. Ouvrir une fenêtre dans Microsoft Edge. 
-2. Télécharger le module d’extension sur la page Web de [{{ fr.DWL }}](https://devolutions.net/fr/web-login). 
+2. Télécharger le module d&apos;extension sur la page Web de [{{ fr.DWL }}](https://devolutions.net/fr/web-login). 
 3. Cliquer sur ***Obtenir*** . 
 ![Bouton Obtenir](/img/fr/kb/KB4029.png) 
 *Continuer l'installation*{.caption} 
@@ -16,5 +16,5 @@ Voici les étapes pour installer {{ fr.DWL }} sur Microsoft Edge.
 ![Ajouter une extension](/img/fr/kb/KB4028.png) 
 *Ajouter une extension*{.caption} 
 
-Le module d’extension est maintenant installé. Il est accessible en cliquant sur l&apos;icône dans le coin supérieur droit du navigateur Microsoft Edge. 
+Le module d&apos;extension est maintenant installé. Il est accessible en cliquant sur l&apos;icône dans le coin supérieur droit du navigateur Microsoft Edge. 
 

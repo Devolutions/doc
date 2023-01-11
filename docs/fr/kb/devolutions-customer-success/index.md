@@ -6,16 +6,16 @@ keywords:
 - base de connaissances
 ---
 # {{ fr.TOPICTITLE }} 
-L’équipe du centre de services de Devolutions est fière de présenter cette base de connaissances à notre communauté de plus de 800 000 utilisateurs!  
+L&apos;équipe du centre de services de Devolutions est fière de présenter cette base de connaissances à notre communauté de plus de 800 000 utilisateurs!  
 
 Elle est structurée selon nos produits, ainsi qu’en quelques sous-catégories.  
 
-### Informations générales 
+## Informations générales 
 &nbsp; &nbsp;[Envoi d’un fichier de manière sécurisée à notre équipe](/fr/kb/devolutions-customer-success/securely-send-file/)  
 
 &nbsp; &nbsp;[Système de billetterie](/fr/kb/devolutions-customer-success/ticketing-system/)  
 
-### Produits 
+## Produits 
 &nbsp; &nbsp;[{{ fr.RDM }}](/fr/kb/remote-desktop-manager/)  
 
 &nbsp; &nbsp;[{{ fr.DPS }}](/fr/kb/devolutions-server/)  
