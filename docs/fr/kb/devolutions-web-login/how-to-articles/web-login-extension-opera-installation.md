@@ -6,9 +6,9 @@ keywords:
 - Opera
 ---
 # {{ fr.TOPICTITLE }} 
-Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Opera. 
+Suivre les étapes ci-dessous afin d&apos;installer {{ fr.DWL }} dans le navigateur Opera. 
 1. Ouvrir une fenêtre Opera. 
-1. Télécharger le module d’extension sur la page Web de [{{ fr.DWL }}](https://devolutions.net/fr/web-login). 
+1. Télécharger le module d&apos;extension sur la page Web de [{{ fr.DWL }}](https://devolutions.net/fr/web-login). 
 1. Cliquer sur ***Aller aux extensions*** du panneau information ou cliquer sur le bouton Extension. 
 ![Aller aux extensions](/img/fr/kb/KB4031.png) 
 *Aller aux extensions*{.caption} 

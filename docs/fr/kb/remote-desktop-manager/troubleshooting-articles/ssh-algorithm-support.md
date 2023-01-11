@@ -6,10 +6,10 @@ keywords:
 - Algorithme
 ---
 # {{ fr.TOPICTITLE }} 
-Pour les versions 2020.3.13.0 et ultérieures de {{ fr.RDM }}, il se peut qu’un message d’erreur apparaisse lors de l’ouverture d’une session Secure Shell (SSH) : « Une erreur inattendue s’est produite : Code d’erreur SSH_FAIL_NO_MATCH (-3006) Unable to find a matching algorithm with the SSH server ». 
-### Solution locale pour une seule entrée 
+Pour les versions 2020.3.13.0 et ultérieures de {{ fr.RDM }}, il se peut qu&apos;un message d&apos;erreur apparaisse lors de l&apos;ouverture d&apos;une session Secure Shell (SSH) : « Une erreur inattendue s’est produite : Code d&apos;erreur SSH_FAIL_NO_MATCH (-3006) Unable to find a matching algorithm with the SSH server ». 
+## Solution locale pour une seule entrée 
 {% snippet icon.shieldCaution %} 
-{{ fr.RDM }} dispose désormais de toute une gamme d’algorithmes pour les sessions de type SSH. Notez que les algorithmes **non sécurisés** sont désactivés par défaut. Il est donc recommandé de s’assurer de leur intégrité directement sur votre serveur pour en garantir la sécurité. Sinon, vous pouvez suivre les étapes ci-dessous pour résoudre votre problème. 
+{{ fr.RDM }} dispose désormais de toute une gamme d&apos;algorithmes pour les sessions de type SSH. Notez que les algorithmes **non sécurisés** sont désactivés par défaut. Il est donc recommandé de s&apos;assurer de leur intégrité directement sur votre serveur pour en garantir la sécurité. Sinon, vous pouvez suivre les étapes ci-dessous pour résoudre votre problème. 
 {% endsnippet %}
  
 1. Faire un clic droit sur l&apos;entrée, puis sélectionner ***Propriétés***. Dans les propriétés, s&apos;assurer d&apos;être dans ***Commun – Général*** dans le menu de gauche. 
@@ -33,8 +33,8 @@ Le redémarrage de {{ fr.RDM }} peut s&apos;avérer nécessaire pour que la solu
 6. Tester votre connexion. Si la connexion reste impossible après avoir sélectionné les algorithmes, retourner dans l&apos;onglet ***Avancé*** dans les propriétés de l&apos;entrée et cocher l&apos;option ***Sauter la configuration des variables d’environnement***. Cliquer ***OK***. 
 ![Sauter la configuration des variables d'environnement](/img/fr/kb/KB2040.png) 
 *Sauter la configuration des variables d'environnement*{.caption} 
-### Solution globale pour toutes les entrées 
-Il est également possible de réactiver tous les algorithmes dans {{ fr.RDM }} à l’aide du menu situé dans ***Fichier – Options – Types – Terminal – Prise en charge des algorithmes***. Il suffit de sélectionner les algorithmes manquants, puis de cliquer sur ***OK***. 
+## Solution globale pour toutes les entrées 
+Il est également possible de réactiver tous les algorithmes dans {{ fr.RDM }} à l&apos;aide du menu situé dans ***Fichier – Options – Types – Terminal – Prise en charge des algorithmes***. Il suffit de sélectionner les algorithmes manquants, puis de cliquer sur ***OK***. 
 {% snippet icon.badgeCaution %} 
 Assurez-vous de passer en revue les algorithmes dans **tous les onglets**. 
 {% endsnippet %}
@@ -46,12 +46,12 @@ Le redémarrage de {{ fr.RDM }} peut s&apos;avérer nécessaire pour que la solu
 ![Fichier – Options – Types – Terminal – Prise en charge des algorithmes](/img/fr/kb/KB2041.png) 
 *Fichier – Options – Types – Terminal – Prise en charge des algorithmes*{.caption} 
  
-### Script de commande PowerShell personnalisée 
+## Script de commande PowerShell personnalisée 
 Si le problème persiste sur une seule entrée, vous pouvez exécuter le script PowerShell ci-dessous dans {{ fr.RDM }}. 
-1. Faire un clic droit sur l’entrée problématique, puis sélectionner ***Modifier – Modifier (Actions spéciales)***. 
+1. Faire un clic droit sur l&apos;entrée problématique, puis sélectionner ***Modifier – Modifier (Actions spéciales)***. 
 1. Dans la fenêtre ***Modifier – Sélection de l&apos;action spéciale***, sélectionner l&apos;action spéciale générale ***Commande PowerShell personnalisée*** et cliquer sur ***OK***. 
 ![Modifier - Sélection de l'action spéciale](/img/fr/kb/KB2074.png) 
-*Modifier - Sélection de l'action spéciale*{.caption} 
+*Modifier - Sélection de l&apos;action spéciale*{.caption} 
 1. Coller le script suivant dans le champ ***Commande*** : 
 ```
 $Connection.Terminal.AlgorithmSupportMode = &quot;Custom&quot; 

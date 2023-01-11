@@ -15,10 +15,10 @@ Suivre les étapes ci-dessous pour compléter l&apos;installation de {{ fr.DWL }
 1. Cliquer sur ***Ajouter l’extension*** dans la boîte de dialogue de confirmation. 
 ![Ajouter l’extension](/img/fr/kb/KB4035.png) 
 *Ajouter l’extension*{.caption} 
-1. Une fois le module d’extension installé, une nouvelle boîte de dialogue de confirmation apparaîtra.  
+1. Une fois le module d&apos;extension installé, une nouvelle boîte de dialogue de confirmation apparaîtra.  
 ![Boîte de dialogue de confirmation](/img/fr/kb/KB4036.png) 
 *Boîte de dialogue de confirmation*{.caption} 
-1. Cliquer sur le bouton ***Extensions*** de Chrome et épingler {{ fr.DWL }} pour terminer l’installation. 
+1. Cliquer sur le bouton ***Extensions*** de Chrome et épingler {{ fr.DWL }} pour terminer l&apos;installation. 
 ![Épingle d'extension](/img/fr/kb/KB4037.png) 
 *Épingle d'extension*{.caption} 
 
