@@ -7,7 +7,7 @@ keywords:
 ---
 # {{ en.TOPICTITLE }} 
 The ***Secret Server*** integration is quite straightforward in {{ en.RDM }}. Follow this step-by-step to configure your entries to use ***Secret Server*** credentials. 
-### Step-by-step guide 
+## Step-by-step guide 
 <ol>
   <li>In {{ en.RDM }}, create a new <b><i>Secret Server</i></b> entry.</li>
   <li>In the <b><i>General</i></b> tab, enter the <b><i>URL</i></b> you are using to connect to the <b><i>Secret Server</i></b> instance.</li>

@@ -10,7 +10,7 @@ description: You can consult topics for the following categories about Devolutio
 <img src="https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-icon-shadow.svg" width="180" alt="Devolutions Web Login icon">
 		</td>
 		<td>
-You can consult topics for the following categories about {{ en.DWL }} : 
+You can consult topics for the following categories about {{ en.DWL }}: 
 <ul>
   <li>How-To Articles</li>
   <li>Troubleshooting Articles</li>

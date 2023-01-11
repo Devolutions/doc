@@ -9,12 +9,12 @@ keywords:
 The Devolutions Customer Success team is proud to publish this knowledge base for our community of over 800k users!  
 
 It is divided by our different products, as well as a few subcategories. 
-### General Information 
+## General Information 
 &nbsp; &nbsp;[Securely Send a File to Our Team](/kb/devolutions-customer-success/securely-send-file/)  
 
 &nbsp; &nbsp;[Ticketing System](/kb/devolutions-customer-success/ticketing-system/)  
 
-### Products 
+## Products 
 &nbsp; &nbsp;[{{ en.RDM }}](/kb/remote-desktop-manager/)  
 
 &nbsp; &nbsp;[{{ en.DPS }}](/kb/devolutions-server/)  

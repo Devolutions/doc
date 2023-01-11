@@ -8,7 +8,7 @@ keywords:
 # {{ en.TOPICTITLE }} 
 A Command Line Interface (CLI) is a Companion Tool which allows DVLS users to access credentials with the command line.  
 Listed below are the available command line: 
-### Config 
+## Config 
 &nbsp; &nbsp;**Parameters:**  
 
 &nbsp; &nbsp; &nbsp; &nbsp;`-v or --vault`  
@@ -30,7 +30,7 @@ Listed below are the available command line:
 
 ![Devolutions Server CLI examples](/img/en/kb/KB8006.png) 
 *{{ en.DPS }} CLI examples*{.caption}
-### Get 
+## Get 
 Returns the credentials of an entry based on its id.  
 
 &nbsp; &nbsp;**Parameters:**  
@@ -78,7 +78,7 @@ Returns the credentials of an entry based on its id.
 
 ![GET Command Line Interface examples](/img/en/kb/KB4352.png) 
 *GET Command Line Interface examples*{.caption}
-### Login 
+## Login 
 &nbsp; &nbsp;**Parameters:**  
 
 &nbsp; &nbsp; &nbsp; &nbsp;First parameter: the username (the key, if the user is of the type application)  
@@ -104,12 +104,12 @@ Returns the credentials of an entry based on its id.
 
 ![Command Line Interface examples](/img/en/kb/KB4355.png) 
 
-### Logout 
+## Logout 
 Logout the current user.  
 
 ![Command Line Interface examples](/img/en/kb/KB4356.png) 
 
-### Set 
+## Set 
 Update the credentials of an entry.  
 
 &nbsp; &nbsp;**Parameters:**  

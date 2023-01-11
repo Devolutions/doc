@@ -15,7 +15,7 @@ You can configure session recording at the vault, folder or entry level and they
 Session recording is only available in embedded mode. 
 {% endsnippet %}
  
-### Supported Sessions 
+## Supported Sessions 
 * Apple Remote Desktop 
 * Azure Blob Storage 
 * Chrome 
@@ -29,7 +29,7 @@ Session recording is only available in embedded mode.
 * Telnet 
 * VNC 
 * WebDav 
-### Configure Session Recording 
+## Configure Session Recording 
 1. Open ***Vault Settings*** or ***Properties*** at folder or entry level. 
 1. In the ***Security*** section, click ***Session Recording***. 
 1. Choose a ***Mode***. 
