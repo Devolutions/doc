@@ -12,7 +12,7 @@ description: Vous pouvez accéder aux catégories suivantes concernant Password 
 		<td>
 Vous pouvez accéder aux catégories suivantes concernant {{ fr.PHUB }} Business et Personal: 
 <ul>
-  <li>Guides d&apos;utilisation</li>
+  <li>Guides d'utilisation</li>
   <li>Articles de dépannage</li>
   <li>Base de connaissances</li>
 </ul>

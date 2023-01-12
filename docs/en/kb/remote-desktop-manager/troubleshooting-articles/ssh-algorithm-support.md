@@ -6,7 +6,7 @@ keywords:
 - Algorithm
 ---
 # {{ en.TOPICTITLE }} 
-In versions 2020.3.13.0 and later of {{ en.RDM }}, an error message can appear when opening a Secure Shell (SSH) connection: &quot;An unexpected error has occurred: Error code SSH_FAIL_NO_MATCH (-3006) Unable to find a matching algorithm with the SSH server&quot;. 
+In versions 2020.3.13.0 and later of {{ en.RDM }}, an error message can appear when opening a Secure Shell (SSH) connection: "An unexpected error has occurred: Error code SSH_FAIL_NO_MATCH (-3006) Unable to find a matching algorithm with the SSH server". 
 ## Local Solution for one entry 
 {% snippet icon.shieldCaution %} 
 {{ en.RDM }} now has a selection of algorithms for the SSH session type. Please note that the **unsecured** ones are not enabled by default. We therefore recommend that you check the algorithms directly on your server for security purposes. Otherwise, you can follow the steps below to resolve this issue. 

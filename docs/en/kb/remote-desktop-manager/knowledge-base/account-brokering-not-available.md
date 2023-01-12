@@ -7,7 +7,7 @@ keywords:
 - Brokering
 ---
 # {{ en.TOPICTITLE }} 
-With Privileged Access Management (PAM) solutions, it is often times undesirable to allow passwords to be viewed under any circumstances. In {{ en.DPS }} (as with a few partners..) we offer two distinct permissions: one to view the password; another to have {{ en.RDM }} use the password in your name. At Devolutions, we call this Account Brokering , others call this &quot;*for/by proxy*&quot;. Our best analogy is that {{ en.RDM }} is the concierge that; rather than loaning you a key to access a room, will instead go open the door for you.  
+With Privileged Access Management (PAM) solutions, it is often times undesirable to allow passwords to be viewed under any circumstances. In {{ en.DPS }} (as with a few partners..) we offer two distinct permissions: one to view the password; another to have {{ en.RDM }} use the password in your name. At Devolutions, we call this Account Brokering , others call this "*for/by proxy*". Our best analogy is that {{ en.RDM }} is the concierge that; rather than loaning you a key to access a room, will instead go open the door for you.  
 
 This creates a challenge with {{ en.RDM }} as, since its creation, it has been designed for: 
 * ease-of-use; 

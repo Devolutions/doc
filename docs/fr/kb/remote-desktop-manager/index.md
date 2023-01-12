@@ -12,7 +12,7 @@ description: Vous pouvez accéder aux catégories suivantes concernant Remote De
 		<td>
 Vous pouvez accéder aux catégories suivantes concernant {{ fr.RDM }} : 
 <ul>
-  <li>Guides d&apos;utilisation</li>
+  <li>Guides d'utilisation</li>
   <li>Articles de dépannage</li>
   <li>Base de connaissances</li>
 </ul>

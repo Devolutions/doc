@@ -13,14 +13,14 @@ The {{ en.DPS }} Console Command Line Interface (CLI) is a Companion Tool which 
 ![Devolutions Server Console CLI commands list](/img/en/kb/KB8032.png) 
 *{{ en.DPS }} Console CLI commands list*{.caption}
 
-The ***/help*** switch can be used to list command&apos;s parameters. 
+The ***/help*** switch can be used to list command's parameters. 
 
 ![CLI command parameters](/img/en/kb/KB8033.png) 
 *CLI command parameters*{.caption}
 
 The following sample command launch the upgrade process from a zip file available in c:\temp folder.  
 
-***.\DPS.Console.CLI.exe server upgrade --dps &quot;Default Web Site/dps&quot; --zip &quot;C:\temp\DVLS.2020.3.17.0.zip&quot; --accept-eula -quiet -verbose***
+***.\DPS.Console.CLI.exe server upgrade --dps "Default Web Site/dps" --zip "C:\temp\DVLS.2020.3.17.0.zip" --accept-eula -quiet -verbose***
 
 The following command will create a new {{ en.DPS }} instance from a JSON response file (see below) that contains the required parameters. It can be used with any of the main commands of the CLI. 
 

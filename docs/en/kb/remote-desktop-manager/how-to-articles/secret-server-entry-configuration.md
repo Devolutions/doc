@@ -22,7 +22,7 @@ It will either be https<area>://server or https<area>://server/SecretServer.
   <li>Credentials information setup:  
     <ol>
       <li>If you are the only one using this entry, you could place your credentials information directly under the <b><i>General</i></b> tab.</li>
-      <li>In a shared team, select the <b><i>Use &quot;My Account Settings&quot;</i></b> option under the <b><i>General</i></b> tab. After the entry is completed, each user will need to go in <b><i>File – My Account Settings – Secret Server</i></b> to enter their information.</li>
+      <li>In a shared team, select the <b><i>Use "My Account Settings"</i></b> option under the <b><i>General</i></b> tab. After the entry is completed, each user will need to go in <b><i>File – My Account Settings – Secret Server</i></b> to enter their information.</li>
     </ol>
   </li>
 

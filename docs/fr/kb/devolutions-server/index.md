@@ -12,7 +12,7 @@ description: Vous pouvez accéder aux catégories suivantes concernant Devolutio
 		<td>
 Vous pouvez accéder aux catégories suivantes concernant {{ fr.DPS }} : 
 <ul>
-  <li>Guides d&apos;utilisation</li>
+  <li>Guides d'utilisation</li>
   <li>Articles de dépannage</li>
   <li>Base de connaissances</li>
 </ul> 

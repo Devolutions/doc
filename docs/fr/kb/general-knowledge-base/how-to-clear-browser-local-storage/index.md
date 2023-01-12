@@ -6,7 +6,7 @@ keywords:
 - Navigateur
 ---
 # {{ en.TOPICTITLE }} 
-Cliquer sur votre type de navigateur pour suivre les étapes permettant d&apos;effacer le stockage local de votre navigateur :  
+Cliquer sur votre type de navigateur pour suivre les étapes permettant d'effacer le stockage local de votre navigateur :  
 
 * [Google Chrome](/fr/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-chrome-local-storage/) 
 * [Firefox](/fr/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-firefox-local-storage/) 

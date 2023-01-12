@@ -35,7 +35,7 @@ Returns the credentials of an entry based on its id.
 
 &nbsp; &nbsp;**Parameters:**  
 
-&nbsp; &nbsp; &nbsp; &nbsp;The entry&apos;s id can be found in its advance property or in the last part of its URL.  
+&nbsp; &nbsp; &nbsp; &nbsp;The entry's id can be found in its advance property or in the last part of its URL.  
 
 ![Entry ID](/img/en/kb/KB4351.png) 
 *Entry ID*{.caption}
@@ -114,7 +114,7 @@ Update the credentials of an entry.
 
 &nbsp; &nbsp;**Parameters:**  
 
-&nbsp; &nbsp; &nbsp; &nbsp;The entry&apos;s id can be found in its advance property or in the last part of its URL.  
+&nbsp; &nbsp; &nbsp; &nbsp;The entry's id can be found in its advance property or in the last part of its URL.  
 
 ![Credentials – Username / Password – Advanced](/img/en/kb/KB4357.png) 
 *Credentials – Username / Password – Advanced*{.caption}

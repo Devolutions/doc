@@ -10,9 +10,9 @@ keywords:
 Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Opera :  
 
 1. Ouvrir une page du navigateur Opera.  
-1. Utiliser les touches **Ctrl+Shift+I** de votre clavier pour ouvrir la console des outils de développement d&apos;Opera.  
+1. Utiliser les touches **Ctrl+Shift+I** de votre clavier pour ouvrir la console des outils de développement d'Opera.  
 ![Console des outils de développement de d'Opera](/img/fr/kb/KB2062.png) 
-*Console des outils de développement de d&apos;Opera*{.caption}
+*Console des outils de développement de d'Opera*{.caption}
 1. Cliquer sur ***Appli*** dans le menu supérieur de la console.  
 ![Console – Appli](/img/fr/kb/KB2063.png) 
 *Console – Appli*{.caption}

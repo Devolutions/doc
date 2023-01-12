@@ -15,7 +15,7 @@ Licenses are calculated **per user**, not per installation. There is no limitati
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-The licenses are for use by the customer that appears on the invoice. You cannot share your license with a sub-contractor or, in the case of a service provider, to one&apos;s customers. This applies even if you grant them access to a shared data source. 
+The licenses are for use by the customer that appears on the invoice. You cannot share your license with a sub-contractor or, in the case of a service provider, to one's customers. This applies even if you grant them access to a shared data source. 
 {% endsnippet %}
  
 Three types of licenses are available for purchase, depending on the number of users: 
