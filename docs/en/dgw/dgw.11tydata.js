@@ -5,8 +5,9 @@ module.exports = () => ({
     size: 1,
     alias: 'tree'
   },
-  permalink: '{{ (page.filePathStem.replace("dwl/", tree + "/dwl/") if tree !== "dwl" else page.filePathStem) | localized }}',
+  permalink: '{{ (page.filePathStem.replace("dgw/", tree + "/dgw/") if tree !== "dgw" else page.filePathStem) | localized }}',
   trees: [
+    'hub',
     'server'
   ]
 });
