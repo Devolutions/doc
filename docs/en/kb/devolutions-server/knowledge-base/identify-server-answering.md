@@ -1,0 +1,24 @@
+---
+title: Identify the Server Answering on a High Availability Topology
+---
+# {{ en.TOPICTITLE }}
+The following steps will explain how to define which server is answering when connecting on the {{ en.DPS }} web page on a High Availability/Load Balancing topology.
+1. Open IIS Manager on the server where the {{ en.DPS }} is hosted.
+2. Expand the nodes in the ***Connections*** pane and select the {{ en.DPS }} web application.  
+![KB4346.png](/img/en/kb/KB4346.png)
+1. Open the ***HTTP Response Headers***  
+![KB4347.png](/img/en/kb/KB4347.png)
+1. Click on ***Add***.. in the ***Actions*** pane to add a new ***HTTP Response Header***  
+![KB4348.png](/img/en/kb/KB4348.png)
+1. Enter a ***Name*** and a ***Value*** that will identify the server. Then click on ***OK*** to save this information.  
+![KB4349.png](/img/en/kb/KB4349.png)
+1. Repeat steps 1 to 5 on each server of your ***High Availability/Load Balancing*** cluster. It is important to set a different value for each server but keeping the same ***Name***
+2. Open your favorite browser.
+3. Open the ***Developer Tools*** in the browser. Usually the ***F12*** key will open the ***Developer Tools*** in Google Chrome , Firefox or Microsoft Edge
+4. Browse to your {{ en.DPS }} web page.
+5. Using Firefox , in the ***Network*** tab, you should find the ***Custom HTTP Response Header*** value of the answering server of the cluster.  
+![KB4350.png](/img/en/kb/KB4350.png)
+### Command Line
+```
+%systemroot%\system32\inetsrv\APPCMD.EXE set config &quot;Default Web Site&quot; -section:system.webServer/httpProtocol /+&quot;customHeaders.[name=&apos;X-Server-Name&apos;,value=&apos;node1&apos;]&quot; /commit:apphost
+```
