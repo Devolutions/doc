@@ -46,6 +46,14 @@ example
 ## {{ en.AGENT }} Description
 ...
 ```
+To use variables in the Front Matter add `eleventyComputed:`
+
+example
+```markdown
+eleventyComputed:
+  title: Batch Edit in {{ en.RDM }}
+  ...
+```
 
 ### Shortcodes
 
