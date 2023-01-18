@@ -8,6 +8,7 @@ The scores are admittedly open to question and we do not pretend each topic has 
 ![kb4707.png](/img/en/kb/kb4707.png)
 ## Improvement Actions Items
 <table>
+<th>Active directory should be configured to use a secure communication channel</th>
 	<tr>
 		<td>
 Description
@@ -21,11 +22,12 @@ The LDAPS protocol should be used to provide communication confidentiality and i
 Mitigation
 		</td>
 		<td>
-In the web interface ***Administration - Server Settings - Authentication - Domain*** , check ***Enable LDAPS***
+In the web interface <b><i>Administration - Server Settings - Authentication - Domain</i></b>, check <b><i>Enable LDAPS</i></b>
 		</td>
 	</tr>
 </table>
 <table>
+<th>Backups should be enabled and configured</th>
 	<tr>
 		<td>
 Description
@@ -36,6 +38,7 @@ Backups should be configured to an external media or cloud storage to avoid perm
 	</tr>
 </table>
 <table>
+<th>Database accounts should be different for web application, scheduler and management tools</th>
 	<tr>
 		<td>
 Description
@@ -46,6 +49,7 @@ Minimum privileges should be granted and applied for service and database accoun
 	</tr>
 </table>
 <table>
+<th>Email notifications should be configured</th>
 	<tr>
 		<td>
 Description
@@ -59,11 +63,12 @@ An email server configuration is required to transmit important application mess
 Mitigation
 		</td>
 		<td>
-Email server settings are in the web interface ***Administration - Server Settings - Email***
+Email server settings are in the web interface <b><i>Administration - Server Settings - Email</i></b>
 		</td>
 	</tr>
 </table>
 <table>
+<th>External logging destination should be configured</th>
 	<tr>
 		<td>
 Description
@@ -77,11 +82,12 @@ Sending logs to an external system is recommended to maintain integrity and avai
 Mitigation
 		</td>
 		<td>
-Logging is configured in the web interface ***Administration - Server Settings - Logging***
+Logging is configured in the web interface <b><i>Administration - Server Settings - Logging</i></b>
 		</td>
 	</tr>
 </table>
 <table>
+<th>Secure https communications should be enabled</th>
 	<tr>
 		<td>
 Description
@@ -92,6 +98,7 @@ Secure communications guarantee the integrity and confidentiality of the data tr
 	</tr>
 </table>
 <table>
+<th>Sessions should be revalidated within 24 hours</th>
 	<tr>
 		<td>
 Description
@@ -102,6 +109,7 @@ Excessive session duration may allow exposure beyond necessary to unauthorized u
 	</tr>
 </table>
 <table>
+<th>The administrator count should be no more than 5</th>
 	<tr>
 		<td>
 Description
@@ -112,6 +120,7 @@ Limiting the number of active administrators within the platform will reduce the
 	</tr>
 </table>
 <table>
+<th>The default mssql “sa” database account should be avoided</th>
 	<tr>
 		<td>
 Description
@@ -122,6 +131,7 @@ The default MSSQL administrative account is a high privilege account that should
 	</tr>
 </table>
 <table>
+<th>The server configuration file should be encrypted</th>
 	<tr>
 		<td>
 Description
