@@ -1,0 +1,16 @@
+---
+title: Restore a User Vault
+---
+# {{ en.TOPICTITLE }}
+It&apos;s possible to get access to the user vault of a {{ en.PHUBB }} user, who has left your organization without the need of connecting with their account, and restore it as a shared vault.
+### Steps
+1. In {{ en.PHUBB }} , go in ***Administration - Users***
+1. Find and ***Delete*** the user by clicking on the recycling bin next to his vault.
+1. Click on ***Administration - Vaults***
+1. In the filtering drop down menus;
+  * ***Type*** : select ***User vault***
+  * ***Status*** : select ***Deleted***  
+![KB4853.png](/img/en/kb/KB4853.png)
+5. Click ***Restore as a Shared Vault*** button.  
+
+You can now view the restored vault in the vault selector of {{ en.PHUB }}
