@@ -1,0 +1,16 @@
+---
+title: Unable to Install or Upgrade, Cabinet File is Corrupt
+---
+# {{ en.TOPICTITLE }}
+When you install or upgrade {{ en.RDM }} , you receive this error message below;  
+![KB4087.png](/img/en/kb/KB4087.png)
+### Solution
+You have to deploy the *.zip file of {{ en.RDM }} in {{ en.RDM }} &apos;s installation folder.  
+
+By default, {{ en.RDM }} is installed in C:\Program Files (x86)\Devolutions\Remote Desktop Manager.  
+
+When the file is downloaded, extract or copy/paste the content in the C:\Program Files (x86)\Devolutions\Remote Desktop Manager folder.  
+
+Restart {{ en.RDM }} , the latest version will be installed.  
+
+You can download the zip here; [https://remotedesktopmanager.com/Home/Download](https://remotedesktopmanager.com/Home/Download)
