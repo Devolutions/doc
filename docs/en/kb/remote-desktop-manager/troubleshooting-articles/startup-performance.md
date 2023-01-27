@@ -25,6 +25,7 @@ The workaround is to create a text file in Remote Desktop Manager installation f
 ```
 ### Problem 2
 Prevent internet access.  
+
 Every time you start {{ en.RDM }} , the application will try to connect on [https://remotedesktopmanager.com/clientinternal/enterprisenews](https://remotedesktopmanager.com/clientinternal/enterprisenews) You should prevent all internet access from the application.
 ### Solution 2
 Add the line `<DisableAnalytics>true</DisableAnalytics>` to your [RemoteDesktopManager.cfg](https://help.remotedesktopmanager.com/installation_configurationfilelocation.html) file. You can place it above the last line, which should contain </Option>.  
