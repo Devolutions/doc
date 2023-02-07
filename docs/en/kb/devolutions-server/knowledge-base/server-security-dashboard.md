@@ -17,6 +17,7 @@ The scores are admittedly open to question and we do not pretend each topic has 
 | Mitigation  | In the web interface ***Administration - Server Settings - Authentication - Domain***, check ***Enable LDAPS*** |
 
 ### Backups should be enabled and configured
+
 |             |     |
 | ----------- | --- |
 | Description | Backups should be configured to an external media or cloud storage to avoid permanent loss of data. |
