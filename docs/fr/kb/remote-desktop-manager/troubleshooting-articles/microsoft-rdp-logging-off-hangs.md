@@ -4,7 +4,6 @@ description: Les deux causes sont les modules d’extension RDP et l'utilisation
 keywords:
 - RDP
 ---
-# {{ fr.TOPICTITLE }} 
 Les deux causes sont les modules d'extension RDP et l'utilisation de l'UDP dans certaines conditions. 
 ## Solution pour les modules d'extension RDP 
 Dirigez-vous vers l'onglet ***Expérience*** de votre session RDP et définir ***Charger plug-ins en mode intégré*** à ***Non***. Cette solution a un faible impact. 

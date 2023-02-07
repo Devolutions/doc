@@ -1,8 +1,6 @@
 ---
 title: Générer des certificats autosignés serveur et client avec OpenSSL
 ---
-# Générer des certificats sécurisés auto-signés de serveur et de client avec OpenSSL 
-## DESCRIPTION 
 ## Procédure 
 {% snippet icon.badgeHelp %} 
 Sous Windows, nous recommandons d&apos;utiliser Chocolatey pour installer OpenSSL et ses dépendances. La ligne de commande est simplement choco install openssl . 

@@ -1,8 +1,6 @@
 ---
 title: Installation des certificats racine
 ---
-# {{ fr.TOPICTITLE }} 
-## Description 
 Voici différentes procédures pour installer les certificats racine : 
 [Windows]( 
 [Linux]( 

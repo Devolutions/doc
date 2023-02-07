@@ -3,7 +3,6 @@ title: Remote Desktop Manager
 order: 10
 description: Vous pouvez accéder aux catégories suivantes concernant Remote Desktop Manager ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
 ---
-# {{ fr.TOPICTITLE }} 
 <table>
 	<tr>
 		<td>

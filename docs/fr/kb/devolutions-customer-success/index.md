@@ -5,7 +5,6 @@ description: L’équipe du centre de services de Devolutions est fière de pré
 keywords:
 - base de connaissances
 ---
-# {{ fr.TOPICTITLE }} 
 L'équipe du centre de services de Devolutions est fière de présenter cette base de connaissances à notre communauté de plus de 800 000 utilisateurs!  
 
 Elle est structurée selon nos produits, ainsi qu’en quelques sous-catégories.  

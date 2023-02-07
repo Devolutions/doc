@@ -5,7 +5,6 @@ keywords:
 - Navigateur
 - Chrome
 ---
-# {{ fr.TOPICTITLE }} 
 Suivre les étapes ci-dessous pour compléter l'installation de {{ fr.DWL }} dans le navigateur Web Chrome. 
 1. Ouvrir Chrome. 
 1. Se diriger vers [{{ fr.DWL }} extension](https://chrome.google.com/webstore/detail/devolutions-web-login/neimonjjffhehnojilepgfejkneaidmo?hl=en-US&amp;gl=CA) ou utiliser le lien sur notre [site Web](https://devolutions.net/fr/web-login). 

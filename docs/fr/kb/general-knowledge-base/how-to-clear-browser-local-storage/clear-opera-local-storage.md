@@ -6,7 +6,6 @@ keywords:
 - Navigateur
 - Opera
 ---
-# {{ fr.TOPICTITLE }} 
 Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Opera :  
 
 1. Ouvrir une page du navigateur Opera.  

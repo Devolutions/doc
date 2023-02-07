@@ -5,7 +5,6 @@ keywords:
 - secret server
 - identifiant
 ---
-# {{ en.TOPICTITLE }} 
 L'intégration de ***Secret Server*** est assez simple dans {{ fr.RDM }}. Suivre ces étapes pour configurer vos entrées afin d'utiliser les identifiants de ***Secret Server***.
 ## Guide étape par étape
 <ol>

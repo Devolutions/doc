@@ -1,8 +1,6 @@
 ---
 title: Avis de sécurité
 ---
-# {{ fr.TOPICTITLE }} 
-## Description 
 Les ***avis de sécurité*** pour tous nos produits sont disponibles pour consultation sur notre [site Web Devolutions](https://devolutions.net/fr/security/advisories) . Il s&apos;agit d&apos;une liste destinée à informer nos utilisateurs qu&apos;une vulnérabilité de sécurité a été découverte dans nos produits. Elle comprendra des remédiations et solutions de contournement, le score du niveau de gravité du [Common Vulnerability Scoring System](https://www.first.org/cvss/) (CVSS) et le numéro du [Common Vulnerabilities and Exposures](https://cve.mitre.org/index.html) (CVE). [Abonnez-vous](https://devolutions.net/fr/security/advisories) pour recevoir nos derniers avis de sécurité par courriel. 
 ### CVSS 
 ![KB2070.png](/img/fr/kb/KB2070.png) 

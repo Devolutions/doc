@@ -5,7 +5,6 @@ keywords:
 - Remote Desktop Manager
 - Licences
 ---
-# {{ fr.TOPICTITLE }} 
 {% snippet icon.badgeNotice %} 
 Dans le contexte des licences, un utilisateur est un individu qui utilise {{ fr.RDM }}. Les identifiants qui sont stockées dans {{ fr.RDM }} n'ont aucun impact sur les licences. 
 {% endsnippet %}

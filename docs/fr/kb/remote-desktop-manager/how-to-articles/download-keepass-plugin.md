@@ -5,7 +5,6 @@ keywords:
 - KeePass
 - Extension
 ---
-# {{ fr.TOPICTITLE }} 
 
 {% youtube 'J9BXNjsLYhI' %}
 

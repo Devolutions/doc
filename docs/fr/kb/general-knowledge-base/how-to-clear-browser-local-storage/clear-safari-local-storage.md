@@ -6,7 +6,6 @@ keywords:
 - Navigateur
 - Safari
 ---
-# {{ fr.TOPICTITLE }} 
 Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Safari :  
 
 1. Ouvrir une page du navigateur Safari.  

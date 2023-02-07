@@ -5,7 +5,6 @@ keywords:
 - Copie expurgé
 - Configuration
 ---
-# {{ fr.TOPICTITLE }} 
 Cet article décrit la procédure à suivre pour envoyer une copie de votre fichier de configuration {{ fr.RDM }} qui est expurgée, c'est-à-dire qu'elle ne contient pas d'identifiant. Notre équipe de soutien technique pourrait vous en demander une copie pour essayer de reproduire un problème. 
 ## Procédure 
 1. Dans {{ fr.RDM }}, aller dans ***Fichier – Options***. 

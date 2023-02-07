@@ -6,7 +6,6 @@ keywords:
 - Navigateur
 - Microsoft Edge
 ---
-# {{ fr.TOPICTITLE }} 
 Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Microsoft Edge :  
 
 1. Ouvrir une page du navigateur Microsoft Edge.  

@@ -3,7 +3,6 @@ title: Password Hub
 order: 30
 description: Vous pouvez accéder aux catégories suivantes concernant Password Hub ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
 ---
-# {{ fr.TOPICTITLE }} 
 <table>
 	<tr>
 		<td>

@@ -7,8 +7,6 @@ keywords:
 - Point par pouce
 - PPP
 ---
-# {{ fr.TOPICTITLE }} 
-## Description 
 Plusieurs problèmes peuvent être causés par une résolution élevée dans une session RDP. Voici les plus courants : 
 * Les connexions RDP sont trop petites. 
 * Les connexions RDP sont trop grandes. 

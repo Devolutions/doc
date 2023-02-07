@@ -7,7 +7,6 @@ keywords:
 - emplacement
 - région
 ---
-# {{ fr.TOPICTITLE }} 
 Dans {{ fr.RDM }}, il est possible de spécifier une langue et un emplacement/type pour l'arborescence du ***{{ fr.NPANE }}***. Ceci peut être particulièrement utile pour les langues qui utilisent des caractères autres que l'alphabet A-Z.  
 {% snippet icon.badgeInfo %} 
 Notez que le système sur lequel {{ fr.RDM }} est installé doit supporter la langue spécifique pour qu'elle fonctionne dans {{ fr.RDM }}. 

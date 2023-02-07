@@ -4,7 +4,6 @@ description: L’enregistrement de la session permet d’enregistrer les actions
 keywords:
 - Enregistrement
 ---
-# {{ fr.TOPICTITLE }} 
 L'enregistrement de la session permet d'enregistrer les actions d'un utilisateur pendant qu'une session à distance de {{ fr.RDM }} est ouverte sur son poste. Un fichier vidéo d’une image par seconde est créé en format webm. 
 {% snippet icon.badgeInfo %} 
 L'enregistrement de la session est disponible pour {{ fr.RDM }} version 2019.1.3.0 et ultérieure. 

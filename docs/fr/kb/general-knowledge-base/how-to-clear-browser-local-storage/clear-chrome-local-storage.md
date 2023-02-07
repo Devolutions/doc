@@ -7,7 +7,6 @@ keywords:
 - Google
 - Chrome
 ---
-# {{ fr.TOPICTITLE }} 
 
 Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Google Chrome :  
 

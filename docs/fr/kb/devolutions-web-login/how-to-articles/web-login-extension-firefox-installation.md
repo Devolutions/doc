@@ -5,7 +5,6 @@ keywords:
 - Navigateur
 - Firefox
 ---
-# {{ fr.TOPICTITLE }} 
 Suivre les étapes ci-dessous pour compléter l'installation de {{ fr.DWL }} dans le navigateur Firefox. 
 1. Ouvrir une fenêtre Firefox. 
 2. Télécharger l'extension [{{ fr.DWL }}](https://devolutions.net/fr/web-login) à partir de notre page Web. 
