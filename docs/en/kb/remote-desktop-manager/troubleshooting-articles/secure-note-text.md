@@ -1,7 +1,6 @@
 ---
 title: Secure Note Text
 ---
-# {{ en.TOPICTITLE }}
 The text in a Secure Note is not displayed properly.  
 ![KB4088.png](/img/en/kb/KB4088.png)
 ### Solution

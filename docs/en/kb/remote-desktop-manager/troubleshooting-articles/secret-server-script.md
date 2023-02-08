@@ -1,7 +1,6 @@
 ---
 title: Secret Server Script
 ---
-# {{ en.TOPICTITLE }}
 Testing procedure with powershell  
 
 Here is a script that you can use to test your access from a client workstation.  

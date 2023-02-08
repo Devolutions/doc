@@ -1,7 +1,6 @@
 ---
 title: Session Focus Issue
 ---
-# {{ en.TOPICTITLE }}
 After closing a session, the focus is set to the last opened connection.
 ### Solution
 There are two settings in ***File - Options - User Interface - Tree View*** that you can enable/disable to resolve this issue.  

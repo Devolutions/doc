@@ -1,7 +1,6 @@
 ---
 title: RPC Troubleshooting
 ---
-# {{ en.TOPICTITLE }}
 The RPC server is unavailable (exception from HRESULT: 0X800706BA)  
 
 This error may occur in the normal operation of {{ en.RDM }} The root causes are network connectivity or stopped Windows services.

@@ -1,7 +1,6 @@
 ---
 title: Remote Desktop Manager Won't Start
 ---
-# {{ en.TOPICTITLE }}
 While modernizing our {{ en.RDM }} - Windows build process, an issue went undetected. A tool that performs actions against our code base has introduced an issue within the application.  
 
 The result of this issue is that the following {{ en.RDM }} will no longer allow you to start the application after a given date (see list below).

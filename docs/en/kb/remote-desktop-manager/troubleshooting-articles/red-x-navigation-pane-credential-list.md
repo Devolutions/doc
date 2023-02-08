@@ -1,7 +1,6 @@
 ---
 title: Red X in Navigation Pane or Credential List
 ---
-# {{ en.TOPICTITLE }}
 {% youtube '6MVSl2zqD-o' %}  
 
 There is a huge Red &quot;X&quot; in the Navigation Pane or in the Credential List
