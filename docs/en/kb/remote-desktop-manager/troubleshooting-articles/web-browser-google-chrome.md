@@ -1,7 +1,7 @@
 ---
 title: Web Browser Google Chrome
 ---
-# {{ en.TOPICTITLE }Adobe flash player needs your permission to run.
+Adobe flash player needs your permission to run.
 ### Solution 1
 You need to install Adobe Flash Player with PPAPI. To do so, please follow the steps below:  
 
