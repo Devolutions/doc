@@ -95,9 +95,19 @@ Here is the content of my snippet
 {% endsnippet %}
 ```
 
-**PowerShell Code**
+**Code Language**
 
-For PowerShell code text block, use this markdown syntax and replace *Insert PowerShell code* with the code:
+Here is the list of language supported: [Supported Languages — highlight.js 11.7.0 documentation](https://highlightjs.readthedocs.io/en/latest/supported-languages.html)  
+
+Use this markdown syntax with triple back ticks followed by the code language.  
+
+Example for PowerShell:
+
+---
+```powershell
+Insert PowerShell code
+```
+---
 
 ```powershell
 Insert PowerShell code
