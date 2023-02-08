@@ -1,7 +1,6 @@
 ---
 title: Web Browser Firefox Executable Path
 ---
-# {{ en.TOPICTITLE }}
 Launching Firefox in embedded mode prompts for an executable path in {{ en.RDM }}  
 {% snippet icon.badgeCaution %}
 The Firefox web browser is deprecated in embedded mode.

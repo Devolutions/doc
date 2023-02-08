@@ -1,7 +1,6 @@
 ---
 title: Updates Remove RDM Icon from Taskbar
 ---
-# {{ en.TOPICTITLE }}
 The {{ en.RDM }} icon from the taskbar gets removed at every update.  
 
 Since Windows 10, there’s no more API available to manage the icon in the taskbar. It’s Windows/Microsoft that is removing the icon from the taskbar.  

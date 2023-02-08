@@ -1,7 +1,6 @@
 ---
 title: Unable to Uninstall
 ---
-# {{ en.TOPICTITLE }}
 You seem unable to uninstall {{ en.RDM }} from Programs and Features in Windows.  
 
 In the Event log, you see the following error message:  

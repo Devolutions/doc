@@ -1,7 +1,6 @@
 ---
 title: Web Browser Internet Explorer
 ---
-# {{ en.TOPICTITLE }}
 ### Problem 1
 An error has occurred in the script on this page.
 ### Solution 1

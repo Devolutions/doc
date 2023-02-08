@@ -1,7 +1,6 @@
 ---
 title: Unable to Delete the License
 ---
-# {{ en.TOPICTITLE }}
 {{ en.RDM }} allows you to delete the license, but it always comes back in the list.
 ### Solution
 1. In ***Administration - Licenses*** select the license, delete it and close this window.  

@@ -1,7 +1,6 @@
 ---
 title: Startup Performance
 ---
-# {{ en.TOPICTITLE }}
 The application performance must be validated with an empty data source. Create a new empty XML data source and select it as being the current data source.  
 
 If you experience slow startup times, there are a few things to try in order to reduce the time before the application is available for use.

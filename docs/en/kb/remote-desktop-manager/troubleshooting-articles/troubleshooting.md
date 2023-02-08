@@ -1,7 +1,6 @@
 ---
 title: Troubleshooting
 ---
-# {{ en.TOPICTITLE }}
 ### Problem 1
 My mapped network drive(s) are not available when using run as administrator to launch {{ en.RDM }}
 ### Solution 1

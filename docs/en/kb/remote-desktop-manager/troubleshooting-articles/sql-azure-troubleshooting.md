@@ -1,7 +1,6 @@
 ---
 title: SQL Azure Troubleshooting
 ---
-# {{ en.TOPICTITLE }}
 ### When attempting to use a Azure SQL data source, you receive the error message below;
 &quot;UNABLE TO LOAD ADALSQL.DLL (ATHENTICATION=ACTIVEDIRECTORYPASSWORD). ERROR CODE: 0X2. FOR MORE INFORMATION, SEE HTTP<area>://GO.MICROSOFT.COM/FWLINK/?LINKID=513072&quot;  
 ![KB2007.png](/img/en/kb/KB2007.png)

@@ -1,7 +1,6 @@
 ---
 title: Unsupported Browser
 ---
-# {{ en.TOPICTITLE }}
 When trying to login into your {{ en.DA }} or an online data source in {{ en.RDM }} , you get the error message: Browser unsupported
 ### Solution 1
 Validate the ***Username*** ( {{ en.DA }} email address) in your data source settings in ***File – Data Sources***

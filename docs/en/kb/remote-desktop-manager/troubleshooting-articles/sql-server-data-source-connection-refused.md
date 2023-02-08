@@ -1,7 +1,6 @@
 ---
 title: SQL Server Data Source Connection Refused
 ---
-# {{ en.TOPICTITLE }}
 Unable to connect from RDM. Connection refused.  
 
 When you try to connect from {{ en.RDM }} , you receive the following message;  

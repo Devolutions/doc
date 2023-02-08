@@ -1,7 +1,6 @@
 ---
 title: Web Traffic
 ---
-# {{ en.TOPICTITLE }}  
 {% snippet icon.badgeInfo %}
 Do not use this without a specific request from Devolution&apos;s support personnel.
 {% endsnippet %}  

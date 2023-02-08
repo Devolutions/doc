@@ -6,7 +6,6 @@ keywords:
 - HAR file
 - HAR files
 ---
-# {{ en.TOPICTITLE }}
 You receive an error when trying to connect to {{ en.RDM }} with your {{ en.DA }}
 ### Solution
 1. Close {{ en.RDM }}

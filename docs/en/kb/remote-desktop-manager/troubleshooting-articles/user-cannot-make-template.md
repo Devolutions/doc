@@ -1,7 +1,6 @@
 ---
 title: User Cannot Make a Template
 ---
-# {{ en.TOPICTITLE }}
 Users cannot create templates, the &quot;+&quot; plus icon is greyed out.  
 {% snippet icon.badgeInfo %}
 By default, standard users cannot create or manage templates. To allow users to create or manage templates, permissions must be granted to users.

@@ -1,7 +1,6 @@
 ---
 title: Unable to Use the $PASSWORD$ Variable
 ---
-# {{ en.TOPICTITLE }}
 When used as part of a ***Typing macro*** , the $PASSWORD$ variable might not retrieve the password and instead send the variable as is. This is a security feature that is enabled by default, but it can be disabled.
 ### Solution
 Follow the steps below to be able to use passwords in variables:

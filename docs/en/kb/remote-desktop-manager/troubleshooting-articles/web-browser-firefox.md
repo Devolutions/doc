@@ -1,7 +1,6 @@
 ---
 title: Web Browser Firefox
 ---
-# {{ en.TOPICTITLE }}
 Firefox in embedded mode does not work in the application.  
 {% snippet icon.badgeCaution %}
 The Firefox web browser is deprecated in embedded mode.

@@ -1,7 +1,6 @@
 ---
 title: WMI Troubleshooting
 ---
-# {{ en.TOPICTITLE }}
 Here&apos;s a primer on remote WMI: [https://msdn.microsoft.com/en-us/library/aa389290.aspx](https://msdn.microsoft.com/en-us/library/aa389290.aspx)  
 
 In our environment, we basically run winrm quickconfig on all our machines, for those not joined to a domain we also add them to the TrustedHosts list. For machines not joined to a domain, there&apos;s an added difficulty if you are using the IP address instead of the Host name, it definitely offers a few challenges.  

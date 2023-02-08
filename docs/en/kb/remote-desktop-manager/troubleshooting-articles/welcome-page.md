@@ -1,7 +1,6 @@
 ---
 title: Welcome Page
 ---
-# {{ en.TOPICTITLE }}
 We added a new ***Getting Started*** page at the opening of {{ en.RDM }} but you don&apos;t want to see it every time you open our application.  
 
 There are 2 ways of removing that page:  

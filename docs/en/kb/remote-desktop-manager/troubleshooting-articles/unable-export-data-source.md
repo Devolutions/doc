@@ -1,7 +1,6 @@
 ---
 title: Unable to Export Data Source
 ---
-# {{ en.TOPICTITLE }}
 The exportation of a data source fails.
 ### Solution
 1. Validate that in ***Administration - System Permissions - Entries - Export*** is not set to ***Never***  

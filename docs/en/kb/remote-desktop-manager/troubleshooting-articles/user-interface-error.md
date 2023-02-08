@@ -1,7 +1,6 @@
 ---
 title: User Interface Error
 ---
-# {{ en.TOPICTITLE }}
 For many cases of user interface error in {{ en.RDM }} , click on ***Windows*** - ***Reset Layout*** It can effectively resolve most of your display issues.  
 ![KB4095.png](/img/en/kb/KB4095.png)  
 ![KB4753.png](/img/en/kb/KB4753.png)  

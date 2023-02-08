@@ -1,7 +1,6 @@
 ---
 title: SQL Server Performance Troubleshooting
 ---
-# {{ en.TOPICTITLE }}
 Whenever the performance of queries against SQL Server decreases, check the following:
 ### Size of database files
 If your transaction log file is enormous, it may be that the recovery model of the database is set to FULL, which means that it requires regular backups in order to clean up past transactions.  

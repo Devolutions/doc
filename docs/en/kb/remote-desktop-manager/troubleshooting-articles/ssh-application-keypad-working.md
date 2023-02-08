@@ -1,7 +1,6 @@
 ---
 title: SSH Application Keypad not Working
 ---
-# {{ en.TOPICTITLE }}
 Application keypad not working correctly.  
 
 When trying to use the keypad in SSH, it does not send the correct characters when you type.

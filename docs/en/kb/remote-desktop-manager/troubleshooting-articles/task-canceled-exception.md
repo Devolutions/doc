@@ -1,7 +1,6 @@
 ---
 title: Task Canceled Exception - A Task was Canceled
 ---
-# {{ en.TOPICTITLE }}
 One or more errors occurred in {{ en.RDM }} with a {{ en.DPS }} data source.  
 
 AggregateException: TaskCanceledException - A task was canceled  

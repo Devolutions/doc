@@ -1,7 +1,6 @@
 ---
 title: Unable to Delete from the Favorites Menu
 ---
-# {{ en.TOPICTITLE }}
 The ***Delete*** option is now disabled by default in the ***Favorites*** menu for {{ en.RDM }} version 2021.1.38.0 and higher.
 ### Solution
 1. Close {{ en.RDM }}

@@ -1,7 +1,6 @@
 ---
 title: Third Party Clipboard Issue
 ---
-# {{ en.TOPICTITLE }}
 Third Party application interfere with the Data in the clipboard, preventing you from Copy/Pasting information.
 ## Solution
 Some applications can affect the clipboard. Below is a list of applications that are known to interfere with the clipboard. Please keep in mind that other applications might affect the clipboard.  

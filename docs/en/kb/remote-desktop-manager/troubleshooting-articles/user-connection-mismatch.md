@@ -1,7 +1,6 @@
 ---
 title: User Connection Mismatch
 ---
-# {{ en.TOPICTITLE }}
 Connection failed due to mismatch of users during the authentication process.  
 ![KB4961.png](/img/en/kb/KB4961.png)
 ### Solution

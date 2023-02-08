@@ -1,7 +1,6 @@
 ---
 title: SSH Shell Entry Failed to Connect
 ---
-# {{ en.TOPICTITLE }}
 Shell entry failed to connect with interactive authentication.  
 
 An unknown SSH error was encountered.  
