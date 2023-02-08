@@ -11,7 +11,7 @@ The following steps will describe how to configure Okta as an authenticator for 
 
 ## Terms
 
-In this topic we will assume that your instance of {{ en.DPS }} is configured in HTTPS, that the web application is {{ en.DPS }} and that it is therefore served under the URL https://www.contoso.com/dvls.
+In this topic we will assume that your instance of {{ en.DPS }} is configured in HTTPS, that the web application is {{ en.DPS }} and that it is therefore served under the URL https<area>://www.contoso.com/dvls.
 
 ## Configuration of an application in okta
 
@@ -24,13 +24,19 @@ In this topic we will assume that your instance of {{ en.DPS }} is configured in
 1. In the ***Application type*** section select ***Single-Page Application***
 1. Click ***Next*** to continue.  
 ![KB4106.png](/img/en/kb/KB4106.png)
-1. In the ***New Single-Page App Integration*** page presenting the configuration of the new application:
-1. First, name the application in the ***App integration name*** field in order to find it in your application list in Okta.
-1. Leave the ***Grant type*** option to ***Authorization Code***
-1. Add the URI in the ***Sign-in redirect URIs*** section. In our example we added https<area>://www.contoso.com/dvls/api/external-provider-response
-1. You could leave the ***Sign-out redirect URIs*** and the ***Trusted Origins*** sections empty. The {{ en.DPS }} does not log your user out of the application scope and the Okta login form is not hosted on {{ en.DPS }} therefore they are not necessary.
-1. In the ***Assignments*** section, we recommend that you select ***Allow everyone in your organization to access*** and then check ***Enable immediate access with Federation Broker Mode*** This will save you from having to assign each user to the application manually.
-1. Click ***Save***  
+1. In the ***New Single-Page App Integration*** page presenting the configuration of the new application:  
+
+    a. First, name the application in the ***App integration name*** field in order to find it in your application list in Okta.  
+
+    b. Leave the ***Grant type*** option to ***Authorization Code***  
+
+    c. Add the URI in the ***Sign-in redirect URIs*** section. In our example we added https<area>://www.contoso.com/dvls/api/external-provider-response  
+
+    d. You could leave the ***Sign-out redirect URIs*** and the ***Trusted Origins*** sections empty. The {{ en.DPS }} does not log your user out of the application scope and the Okta login form is not hosted on {{ en.DPS }} therefore they are not necessary.  
+
+    e. In the ***Assignments*** section, we recommend that you select ***Allow everyone in your organization to access*** and then check ***Enable immediate access with Federation Broker Mode*** This will save you from having to assign each user to the application manually.  
+    
+    f. Click ***Save***  
 ![KB4128.png](/img/en/kb/KB4128.png)
 
 ## Configuration of an API Key in okta
