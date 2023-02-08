@@ -103,12 +103,8 @@ Use this markdown syntax with triple back ticks followed by the code language.
 
 Example for PowerShell:
 
----
+````
 ```powershell
 Insert PowerShell code
 ```
----
-
-```powershell
-Insert PowerShell code
-```
+````
