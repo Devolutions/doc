@@ -1,7 +1,6 @@
 ---
 title: Kernelbase.dll Crash Error
 ---
-# {{ en.TOPICTITLE }}
 You will find at the end of {{ en.RDM }} crash error log &quot;Faulting module name: KERNELBASE.dll, version: 10.0.18362.1, time stamp: 0x1a30e11b&quot;  
 
 According to this, the crash in {{ en.RDM }} is caused by the faulting module kernelbase.dll. We have seen this issue a few times before but unfortunately, this is not something we can fix ourselves at Devolutions because the issue is with ***kernelbase.dll*** itself, which is a Windows component.

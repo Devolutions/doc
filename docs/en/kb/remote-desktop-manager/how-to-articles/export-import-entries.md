@@ -1,7 +1,6 @@
 ---
 title: How to Export and Import Entries
 ---
-# {{ en.TOPICTITLE }}
 {% youtube 'jipoCzhIEs8' %}  
 
 It is possible to export and import entries from one type of data source to another. There are many ways of exporting entries with {{ en.RDM }}  

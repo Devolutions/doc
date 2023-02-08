@@ -1,8 +1,6 @@
 ---
 title: Access Violation Exception Error in RDP Sessions
 ---
-# {{ en.TOPICTITLE }} 
-
 When trying to open a RDP session entry, you may encounter the error message &quot;An unexpected error has occurred. Please check the application logs for more information.&quot;  
 ![Error Message](/img/en/kb/kb2128.png)  
 When checking the application logs, the following error is displayed: 

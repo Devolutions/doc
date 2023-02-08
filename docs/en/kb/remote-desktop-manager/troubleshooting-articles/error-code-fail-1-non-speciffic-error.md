@@ -5,7 +5,6 @@ keywords:
 - -1
 - FAIL
 ---
-# {{ en.TOPICTITLE }}
 In version 2020.3.12.0 and higher of {{ en.RDM }} an error message when opening a ssh connection can appear: &quot;An unexpected error has occurred: Error code FAIL (-1) non specific error&quot;.
 ### Solution  
 {% snippet icon.badgeCaution %}

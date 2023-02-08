@@ -1,7 +1,6 @@
 ---
 title: Missing Navigation Pane
 ---
-# {{ en.TOPICTITLE }}
 Several panes are missing in {{ en.RDM }} and you seem unable to bring them back.
 ### Solution for Remote Desktop Manager enterprise
 1. Close {{ en.RDM }}

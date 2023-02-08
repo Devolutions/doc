@@ -1,7 +1,6 @@
 ---
 title: Proxy Authentication Required Error
 ---
-# {{ en.TOPICTITLE }}
 When opening {{ en.RDM }} , you receive the following error message;  
 
 The remote server returned an error. (407) Proxy Authentication Required.

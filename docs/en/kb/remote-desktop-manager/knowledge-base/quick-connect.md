@@ -1,7 +1,6 @@
 ---
 title: Quick Connect
 ---
-# {{ en.TOPICTITLE }}
 Via the quick connect toolbar, you can open an ad-hoc session by specifying the host and session type. It is also possible to create a template and establish the connection with your template. Configure the settings in the template, {{ en.RDM }} will apply them when connecting to the specified host.
 ## Settings
 The control is composed of multiple sub controls.  

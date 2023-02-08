@@ -5,7 +5,6 @@ keywords:
 - Remote Desktop Manager
 - Licensing
 ---
-# {{ en.TOPICTITLE }} 
 {% snippet icon.badgeNotice %} 
 In the context of licensing, a user is an individual that uses {{ en.RDM }}. Credentials that are stored within {{ en.RDM }} have no impact on licensing. 
 {% endsnippet %}

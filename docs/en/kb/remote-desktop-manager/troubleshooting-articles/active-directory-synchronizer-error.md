@@ -1,7 +1,6 @@
 ---
 title: Active Directory Synchronizer Error
 ---
-# {{ en.TOPICTITLE }}
 Entries are created with a *cnf:{guid} suffix or Host name is appended with cnf, and the entry name also contains a guid suffix.
 ## Solution
 This is a problem caused by Multimaster replication of directory objects. When there are name collisions, the system automatically renames one of the accounts by appending CNF to indicate conflict resolution and a GUID which is guaranteed to be unique.  

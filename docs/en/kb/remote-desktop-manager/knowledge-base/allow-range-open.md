@@ -1,7 +1,6 @@
 ---
 title: Allow Range Open
 ---
-# {{ en.TOPICTITLE }}
 This feature allows to open multiple machine with the quick connect in {{ en.RDM }}  
 
 Check the option Allow range open in ***File - Options - User Interface - Quick Connect***  

@@ -1,7 +1,6 @@
 ---
 title: Security Providers Best Practices
 ---
-# {{ en.TOPICTITLE }}
 ***Security Providers*** exist to encrypt the data at rest (the information stored on the database) using a key shared on every {{ en.RDM }} instance. This way, an attacker need to compromise the database and the security provider in order to compromise the data.  
 
 The list of ***Security type*** is:  

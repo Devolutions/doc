@@ -1,7 +1,6 @@
 ---
 title: Azure SQL Update with Selection Screen
 ---
-# {{ en.TOPICTITLE }}
 Since RDM 2022.1 you get an authentication selection screen when connecting to an Azure SQL database (ADALSQL).
 ### Solution
 With the release of RDM v2022.1 we moved away from the ***System.Data.SqlClient*** library to using the new ***Microsoft.Data.SqlClient*** With the old library, we had to perform the authentication in our code but with the new library Microsoft takes care of the authentication hence we have less control.  

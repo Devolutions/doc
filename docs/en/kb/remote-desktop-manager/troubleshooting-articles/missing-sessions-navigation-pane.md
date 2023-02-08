@@ -1,7 +1,6 @@
 ---
 title: Missing Sessions from Navigation Pane
 ---
-# {{ en.TOPICTITLE }}
 Some or all entries are missing from the Navigation Pane. It is empty.
 ### Solution 1
 Click on ***Window - Reset Layout*** This action might take the application a minute to refresh and apply the reset.

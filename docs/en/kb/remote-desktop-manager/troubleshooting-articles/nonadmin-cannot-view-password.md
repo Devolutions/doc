@@ -3,7 +3,6 @@ title: Non-Admin Users Cannot View Passwords
 keywords:
 - role
 ---
-# {{ en.TOPICTITLE }}
 {% youtube 'sWb4mfD424o' %}  
 
 Non-administratror users are no longer able to view or copy password after updating to {{ en.RDM }} 2019+

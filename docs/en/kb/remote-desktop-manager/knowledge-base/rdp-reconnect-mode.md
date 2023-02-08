@@ -1,7 +1,6 @@
 ---
 title: RDP Reconnect Mode
 ---
-# {{ en.TOPICTITLE }}
 A selection of ***Reconnect mode*** is available in a Microsoft Remote Desktop entry ***Advanced*** section. Here are explained the different uses for them.  
 ![KB4679.png](/img/en/kb/KB4679.png)
 * ***Standard:*** The ***Standard Reconnect mode*** in the entry, points to the settings in ***File - Options - Types - RDP - Reconnect mode*** If set to Standard there too, it uses the same method as ***Legacy***

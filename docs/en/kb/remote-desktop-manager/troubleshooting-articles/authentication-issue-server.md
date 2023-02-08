@@ -2,7 +2,6 @@
 eleventyComputed:
   title: Authentication Issue with {{ en.DPS }}
 ---
-# {{ en.TOPICTITLE }}
 ### Issue #1
 {{ en.RDM }} client application still authenticates every minute on {{ en.DPS }} data source or constantly switch to Not Connected regularly.
 ### Solution

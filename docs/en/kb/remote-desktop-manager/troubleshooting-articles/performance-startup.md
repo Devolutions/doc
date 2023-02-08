@@ -1,7 +1,6 @@
 ---
 title: Performance Startup
 ---
-# {{ en.TOPICTITLE }}
 The start-up performance of the application can be affected by two main events:  
 
 1. Launching the &quot;Shell&quot;.

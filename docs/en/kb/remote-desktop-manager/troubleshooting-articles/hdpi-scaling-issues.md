@@ -1,7 +1,6 @@
 ---
 title: HDPI Scaling Issues
 ---
-# {{ en.TOPICTITLE }}
 4k screens make {{ en.RDM }} unusable.  
 {% snippet icon.badgeHelp %}
 For DPI issues with RDP session in {{ en.RDM }} , consult this topic: [High DPI Issue](/kb/remote-desktop-manager/troubleshooting-articles/high-dpi-issue/)

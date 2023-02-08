@@ -1,7 +1,6 @@
 ---
 title: Citrix Environment Windows Crash
 ---
-# {{ en.TOPICTITLE }}
 When an RDS server prompts for credentials, it uses adll and if we prompt it too many times by many users, Windows will crash.
 ### Solution
 All the sessions must be configured to not use the Windows prompt. In the entries properties:

@@ -2,7 +2,6 @@
 eleventyComputed:
   title: Remote Desktop Manager PowerShell Core Module
 ---
-# {{ en.TOPICTITLE }}
 Starting with {{ en.RDM }} version 2021.2.8.0, the PowerShell module needs to be downloaded from [PowerShell Gallery](https://www.powershellgallery.com/packages/RemoteDesktopManager). It is no longer included in the {{ en.RDM }} installation package.  
 
 This also means that there is no need to install {{ en.RDM }} on a machine to run PowerShell scripts. The module is now sufficient.  

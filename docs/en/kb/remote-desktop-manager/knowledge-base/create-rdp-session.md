@@ -1,7 +1,6 @@
 ---
 title: Create a RDP Session
 ---
-# {{ en.TOPICTITLE }}
 When it comes to entries, there are a lot of different options. Here&apos;s a quick way to set up an ***RDP (Microsoft Remote Desktop)*** entry:  
 
 1. Name the entry

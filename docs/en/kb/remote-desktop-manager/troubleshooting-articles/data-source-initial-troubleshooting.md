@@ -1,7 +1,6 @@
 ---
 title: Data Source Initial Troubleshooting
 ---
-# {{ en.TOPICTITLE }}
 ### The name of the Data Source is entered incorrectly
 For those Data Source types that need a host name, please ensure it is typed correctly.
 ### The Machine is unable to resolve the name of the Data Source host using DNS

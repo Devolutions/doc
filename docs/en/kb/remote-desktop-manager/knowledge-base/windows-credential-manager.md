@@ -1,7 +1,6 @@
 ---
 title: Windows Credential Manager
 ---
-# {{ en.TOPICTITLE }}
 The ***Windows Credential Manager*** allows you to store credentials, such as usernames and passwords, which you can use to log on to websites or other computers on a network. By storing your credentials, Windows can automatically log you on to websites or other computers. Credentials are saved in special folders on your computer called vaults. Windows and other programs (such as web browsers) can securely give the credentials in these vaults to other computers and websites.  
 ![KB4437.png](/img/en/kb/KB4437.png)  
 You can learn more from Microsoft with this topic [Windows Credential Manager](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374792(v=vs.85).aspx)  

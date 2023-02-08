@@ -1,7 +1,6 @@
 ---
 title: Performance Diagnostic
 ---
-# {{ en.TOPICTITLE }}
 Sometimes when a performance issue occurs while using {{ en.RDM }} , the support personnel may ask you to send information. Here are three sources or information that the support team requires to help diagnose your issue.
 ### Procedure
 My Data Source Information  

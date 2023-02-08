@@ -1,7 +1,6 @@
 ---
 title: Permissions Move
 ---
-# {{ en.TOPICTITLE }}
 The permission ***Move Permission on Entries*** in {{ en.RDM }} can be configured on your vault or in your entries and it is enabled by default.  
 
 Before version 2022.1.11, to move an entry, you needed only the permission to:  

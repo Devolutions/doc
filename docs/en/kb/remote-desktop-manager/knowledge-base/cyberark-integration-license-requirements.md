@@ -1,7 +1,6 @@
 ---
 title: CyberArk integration - License Requirements
 ---
-# {{ en.TOPICTITLE }}  
 {% snippet icon.badgeInfo %}
 For {{ en.RDM }} version 2021.2. and higher please refer to topic [PAM Partner Integration](/kb/remote-desktop-manager/knowledge-base/pam-partner-integration/)
 {% endsnippet %}  

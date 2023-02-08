@@ -1,7 +1,6 @@
 ---
 title: Display Issue in the Dashboard
 ---
-# {{ en.TOPICTITLE }}
 Column width are getting wider in your dashboard.
 ### Solution
 1. Close {{ en.RDM }}

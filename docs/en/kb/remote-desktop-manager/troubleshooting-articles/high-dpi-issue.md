@@ -6,7 +6,6 @@ keywords:
 - Higher resolution
 - Dots per inch
 ---
-# {{ en.TOPICTITLE }} 
 There are multiple problems that can be caused by high DPI in RDP sessions, the most commons are the following: 
 * RDP connections are tiny 
 * RDP connections are big 

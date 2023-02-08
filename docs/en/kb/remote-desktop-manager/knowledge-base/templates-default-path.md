@@ -1,7 +1,6 @@
 ---
 title: Templates Default Path
 ---
-# {{ en.TOPICTITLE }}
 When creating new entries, the ***Default Settings*** for ***Templates*** are in ***File - Templates - Local Default Settings***  
 
 This is a local setting, which will not be applied to other users of the data source, nor will it be applied to existing sessions.  

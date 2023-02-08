@@ -1,7 +1,6 @@
 ---
 title: RDP Protocol Clarification and Information
 ---
-# {{ en.TOPICTITLE }}
 In {{ en.RDM }} , the latest RDP Version will use the latest version of the Microsoft RDP ActiveX present on the system - it’s always mstscax.dll, but the DLL contains different versions of the the ActiveX interface.  
 
 FreeRDP is the only RDP client we embed into {{ en.RDM }} , but it is only used if you change the RDP Version to one of the FreeRDP options available. All other options use the Microsoft RDP ActiveX which is always external to {{ en.RDM }}  

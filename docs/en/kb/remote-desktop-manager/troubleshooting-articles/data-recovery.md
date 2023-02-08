@@ -1,7 +1,6 @@
 ---
 title: Data Recovery
 ---
-# {{ en.TOPICTITLE }}
 In the event of data loss due to hardware failure, it is still possible to recover data from your storage device if it is still useable.
 ## Solution
 1. On the storage device that failed, navigate to C:\Users\%USERNAME%\AppData\Local\Devolutions and copy the entire RemoteDesktopManager or RemoteDesktopManagerFree folder.  

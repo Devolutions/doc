@@ -1,7 +1,6 @@
 ---
 title: Offline Mode
 ---
-# {{ en.TOPICTITLE }}
 ### Problem 1
 Missing entries or deleted entries still showing.
 ### Solution 1

@@ -1,7 +1,6 @@
 ---
 title: Deprecated Data Sources
 ---
-# {{ en.TOPICTITLE }}
 For several reasons, multiple data sources are tagged as deprecated in {{ en.RDM }}.  
 
 Here is how to display them in ***File – Data Sources – Add a New Data Source*** :  

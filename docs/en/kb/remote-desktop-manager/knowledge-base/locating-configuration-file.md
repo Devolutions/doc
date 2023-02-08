@@ -4,7 +4,6 @@ description: Locate your Remote Desktop Manager Configuration file.
 keywords:
 - Configuration file
 ---
-# {{ en.TOPICTITLE }} 
 In some cases, the Devolutions team will need your configuration file to help reproduce a particular issue. 
 {% snippet icon.shieldWarning %} 
 Note that if you are storing passwords to your datasource(s) and/or your {{ en.DA }}, our support team will we able to decrypt them. If you want to send a sanitized version of your configuration, please consult [Sending a sanitized copy of your configuration file](/kb/remote-desktop-manager/how-to-articles/send-sanitized-configuration-file/). 

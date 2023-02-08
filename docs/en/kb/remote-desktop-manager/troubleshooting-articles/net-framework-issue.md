@@ -5,7 +5,6 @@ keywords:
 - net
 - dotnet
 ---
-# {{ en.TOPICTITLE }}
 Some user will have an issue where they will be asked to upgrade their *Net * Framework to version 4.7.2 after updating {{ en.RDM }} to 14.x
 ## Solution
 If you cannot update to the latest Framework, you will have to revert back to a previous version of Remote Desktop Manager : [https://remotedesktopmanager.com/home/previousversions](https://remotedesktopmanager.com/home/previousversions)  

@@ -1,7 +1,6 @@
 ---
 title: FIPS (Encryption)
 ---
-# {{ en.TOPICTITLE }}
 System.invalidoperationexception: this implementation is not part of the windows platform FIPS validated cryptographic algorithms.  
 
 The problem could be related to the FIPS mode enabled.  

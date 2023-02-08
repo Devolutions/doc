@@ -1,7 +1,6 @@
 ---
 title: Deprecated Entries
 ---
-# {{ en.TOPICTITLE }}
 For several reasons, multiple entries are tagged as deprecated in {{ en.RDM }}
 Here’s how to display them in RDM:
 1. Click on ***New entry***

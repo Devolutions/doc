@@ -5,7 +5,6 @@ keywords:
 - Hangs
 - RDP
 ---
-# {{ en.TOPICTITLE }} 
 The two causes are RDP plug-ins and UDP usage under certain conditions. 
 ## Solution for RDP plug-ins 
 Go in the ***Experience*** tab of your RDP sessions and set ***Load plug-ins in embedded mode*** to ***No***. This solution has a low impact. 

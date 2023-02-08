@@ -1,7 +1,6 @@
 ---
 title: Debugging
 ---
-# {{ en.TOPICTITLE }}
 When an issue occurs, while using {{ en.RDM }} , the support personnel may ask you to turn on debugging and send the information back.  
 {% snippet icon.badgeInfo %}
 Any debug level other than zero will slow down the application and write a lot of information in the application logs. As soon as you have completed the diagnostics, you should revert back the debug level to zero.

@@ -5,7 +5,6 @@ keywords:
 - Access data source
 - 32bit
 ---
-# {{ en.TOPICTITLE }} 
 Receiving the following message upon opening an Access Datasource: ***The Access data source is only supported by Microsoft in 32bit. Please use RDM 32bit instead***.
 
 ![RDM Access data source error window](/img/en/kb/KB2002.png) 

@@ -1,7 +1,6 @@
 ---
 title: Putty Embedded Mode
 ---
-# {{ en.TOPICTITLE }}
 Putty in embedded mode does not work in the application.  
 
 {{ en.RDM }} is not able to execute Putty in embedded mode when Team Viewer&apos;s QuickConnect button is present in the title bar.  

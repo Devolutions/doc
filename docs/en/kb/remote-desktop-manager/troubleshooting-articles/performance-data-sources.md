@@ -1,7 +1,6 @@
 ---
 title: Performance Data Sources
 ---
-# {{ en.TOPICTITLE }}
 This category affects all data source refreshes  
 
 1. Initial load at program startup.

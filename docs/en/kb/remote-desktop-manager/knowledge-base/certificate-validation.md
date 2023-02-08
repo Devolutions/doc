@@ -1,7 +1,6 @@
 ---
 title: Certificate Validation
 ---
-# {{ en.TOPICTITLE }}
 When {{ en.RDM }} connects to a URL using the HTTPS protocol, it will validate the certificate using industry best practices. The first hurdle is to validate that your device trusts the authority that issued the certificate, called the Root Certification Authority (CA). Each certificate is typically a hierarchy of intermediate CAs under a root, each one typically under the jurisdiction of a different legal entity. The end result is that each level adds their own validation steps.  
 
 For certain organizations with a mature infoseq practice, other departments have final authority on all network communications, we have created options to disable certain validations, but this should be done as a last resort action. &#160;Please look at the <a href="#certificatesecurityrelatedoptions">Certificate Security options</a> section below  

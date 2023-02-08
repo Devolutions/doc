@@ -2,7 +2,6 @@
 eleventyComputed:
   title: Application Requires {{ en.DPS }} Version Greater or Equal
 ---
-# {{ en.TOPICTITLE }}
 This application requires a {{ en.DPS }} version greater or equal than...  
 ![KB4045.png](/img/en/kb/KB4045.png)  
 When {{ en.RDM }} is connected to a {{ en.DPS }} data source, it will validate at start up the compatibility of both applications version. If an incompatibility occurs, the warning message above will appear in {{ en.RDM }}

@@ -1,7 +1,6 @@
 ---
 title: Lost RDM Configuration
 ---
-# {{ en.TOPICTITLE }}
 You lost your configuration to your SQLite data source in {{ en.RDM }} and your navigation tree is showing empty.
 ### Solution
 1. Create a new SQLite data source in ***File - Data Sources - Add New Data Source***  

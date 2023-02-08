@@ -1,7 +1,6 @@
 ---
 title: Sending Windows Credentials Inside TeamViewer
 ---
-# {{ en.TOPICTITLE }}
 Many users have requested the ability to automate the login process on a Windows system through TeamViewer.  
 
 Since we are not able to send the password automatically inside the TeamViewer session, you would need to accomplish this with a typing macro.  

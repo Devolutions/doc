@@ -1,7 +1,6 @@
 ---
 title: 2FA set and Lost on Devolutions Account (DOD)
 ---
-# {{ en.TOPICTITLE }}
 This solution applies if you have set a 2FA on your Devolutions Account or Online Drive and are lockout.
 ## Solution
 1. Find your ***Recovery codes*** file that was saved at creation of your 2FA.  

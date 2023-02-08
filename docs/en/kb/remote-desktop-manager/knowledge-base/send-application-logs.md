@@ -1,7 +1,6 @@
 ---
 title: Send Application Logs
 ---
-# {{ en.TOPICTITLE }}
 The Devolutions team will need your application logs in some cases to help recreate a specific issue.
 ## Sending your application logs
 1. Before sending them, please set the ***Debug Level to 1*** by clicking on the ***Profiler*** in the ***Help*** tab.  

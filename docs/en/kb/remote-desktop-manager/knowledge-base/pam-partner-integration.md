@@ -1,7 +1,6 @@
 ---
 title: PAM Partner Integration
 ---
-# {{ en.TOPICTITLE }}
 In {{ en.RDM }} 2021.2 and higher, we have removed the minimum requirement to a Site license for our Privileged Access Management (PAM) partners integration and replaced it by a feature license. This integration feature license is required to activate each PAM partner modules, namely CyberArk, Beyond Trust Password Safe and Thycotic Secret Server.  
 
 This is justified by the considerable amount of time needed, not only for coding support of those extensive systems, but also by the legal and compliance requirements that such relationships entail.  

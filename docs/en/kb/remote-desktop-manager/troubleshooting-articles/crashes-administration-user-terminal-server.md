@@ -1,7 +1,6 @@
 ---
 title: Crashes in Administration Users with Terminal Server
 ---
-# {{ en.TOPICTITLE }}
 Occasionally, when you go in ***Administration - Users*** , {{ en.RDM }} crashes/freezes or loose connection to the database.
 ### Solution
 You would need to implement a Group Policy Setting which Control RemoteFX in Terminal Servers.  

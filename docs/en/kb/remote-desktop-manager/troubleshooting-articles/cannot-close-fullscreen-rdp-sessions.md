@@ -1,7 +1,6 @@
 ---
 title: Cannot Close Fullscreen RDP Sessions
 ---
-# {{ en.TOPICTITLE }}
 Unable to close a fullscreen embedded RDP sessions with the X button in {{ en.RDM }}
 ### Solution 1
 Upgrade {{ en.RDM }} to 2022.1.15.0 and higher. [Download](https://devolutions.net/remote-desktop-manager) the latest version from our website.

@@ -1,7 +1,6 @@
 ---
 title: Wake on LAN
 ---
-# {{ en.TOPICTITLE }}
 Wake-on-LAN is an Ethernet computer networking standard, which allows a computer to be turned on or woken up by a network message. This is an OS-agnostic feature that works by broadcasting a specially crafted “magic” packet at the data link layer. The target computer sits in a low-power state with only its network card switched on, and when it receives the magic packet, the network card “wakes up” the computer, powering it on and booting it up.  
 
 Wake-on-LAN is supported in the Enterprise edition of {{ en.RDM }}. Plus, the destination motherboard must support it, and it must be enabled. The computer must also be in the local area network (LAN) and not connected in a VPN.  

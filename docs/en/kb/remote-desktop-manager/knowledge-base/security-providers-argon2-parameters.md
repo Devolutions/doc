@@ -1,7 +1,6 @@
 ---
 title: Security Providers Argon2 Parameters
 ---
-# {{ en.TOPICTITLE }}
 In {{ en.RDM }} , the ***Shared passphrase (v3)*** for the ***Security Provider*** uses the Argon2id Key Derivation Function (KDF) to transform the passphrase into an encryption key.  
 
 The ***Advanced*** menu is used to tune the derivation to make it easier or harder to compute.

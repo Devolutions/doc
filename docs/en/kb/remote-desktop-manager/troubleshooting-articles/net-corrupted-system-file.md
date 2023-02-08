@@ -7,7 +7,6 @@ keywords:
 - net
 - Net
 ---
-# {{ en.TOPICTITLE }}
 The components of the .Net Framework are considered a core Windows feature, therefore there are no facilities to reinstall them. However, there are tools to verify and repair system files.
 ## Solution
 * Run SFC Scannow - [https://support.microsoft.com/en-us/kb/929833](https://support.microsoft.com/en-us/kb/929833)

@@ -1,7 +1,6 @@
 ---
 title: 2FA set on Data Source Lost
 ---
-# {{ en.TOPICTITLE }}
 The user lost his phone that contains the 2FA for his data source.
 ## Solution  
 {% snippet icon.badgeCaution %}

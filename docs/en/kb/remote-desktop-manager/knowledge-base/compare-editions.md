@@ -4,7 +4,6 @@ keywords:
 - Private vault
 - role
 ---
-# {{ en.TOPICTITLE }}
 Compare the features between our Free and Enterprise Editions of {{ en.RDM }}
 <table>
 	<tr>

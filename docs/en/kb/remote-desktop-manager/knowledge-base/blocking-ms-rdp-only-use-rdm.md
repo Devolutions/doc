@@ -2,7 +2,6 @@
 eleventyComputed:
   title: Blocking MS RDP to Only Use {{ en.RDM }}
 ---
-# {{ en.TOPICTITLE }}
 Some organizations want to centralize their Remote Desktop connections to be established from {{ en.RDM }} only. A few things need to be considered to implement this in your organization.
 ## Solution
 Just blocking Microsoft RDP ( mstsc.exe ) is still leaving other “surfaces” open for getting access. One could imagine installing Microsoft RDC Manager or even another copy of {{ en.RDM }} which would connect with settings that you do not approve.  

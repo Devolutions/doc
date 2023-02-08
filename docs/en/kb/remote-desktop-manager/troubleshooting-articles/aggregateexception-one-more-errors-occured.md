@@ -1,7 +1,6 @@
 ---
 title: AggregateException - One or more errors occurred
 ---
-# {{ en.TOPICTITLE }}
 During a connection to the Devolutions Cloud, RDM returns an error beginning with the following text :  
 
 AggregateException - One or more errors occurred.  

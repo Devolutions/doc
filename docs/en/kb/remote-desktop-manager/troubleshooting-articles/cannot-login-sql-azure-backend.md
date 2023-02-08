@@ -1,7 +1,6 @@
 ---
 title: SQL Azure as the Back-end Users Cannot Login
 ---
-# {{ en.TOPICTITLE }}
 Since the release of {{ en.DPS }} 6.0.0, some users have experienced failed connection from {{ en.RDM }} However connection through the Web Application works well.  
 
 The error below might appear in {{ en.DPS }} Console Log:

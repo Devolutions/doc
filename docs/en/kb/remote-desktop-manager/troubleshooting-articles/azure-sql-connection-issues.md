@@ -1,7 +1,6 @@
 ---
 title: Azure SQL Connection Issues
 ---
-# {{ en.TOPICTITLE }}
 Here is a validation list to help resolve issues when failing to login and connect with Azure SQL in {{ en.RDM }}  
 * Was the user added/created in {{ en.RDM }} ?
 * Is the spelling of the username in Azure and {{ en.RDM }} the same?

@@ -1,7 +1,6 @@
 ---
 title: Connections are Missing
 ---
-# {{ en.TOPICTITLE }}
 User&apos;s connection list is missing. This either mean that the Name column is missing or the Navigation Pane as a whole is missing.
 ## Solutions
 ### The navigation pane is visible but the list of connections is missing

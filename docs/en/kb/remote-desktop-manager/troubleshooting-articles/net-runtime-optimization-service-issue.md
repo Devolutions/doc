@@ -1,7 +1,6 @@
 ---
 title: Net Runtime Optimization Service Issue
 ---
-# {{ en.TOPICTITLE }}
 Some user will have an issue on Windows 7 with {{ en.RDM }} and receive the following error message:  
 
 .NET Runtime Optimization Service (clr_optimization_v4.0.30319_64) - 1&gt;Failed to compile: C:\Program Files (x86)\Devolutions\Remote Desktop Manager Free\Embedded32.exe Error code = 0x80131f07

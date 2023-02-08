@@ -1,7 +1,6 @@
 ---
 title: Documentation Tab is Empty
 ---
-# {{ en.TOPICTITLE }}
 The ***Documentation*** tab, in an entry, is empty although you have ***Reset the layout*** in the ***Window*** tab.  
 ![KB4705.png](/img/en/kb/KB4705.png)
 ### Solution

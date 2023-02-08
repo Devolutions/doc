@@ -1,7 +1,6 @@
 ---
 title: PowerCLI Advanced Troubleshooting
 ---
-# {{ en.TOPICTITLE }}
 {{ en.RDM }} calls PowerCLI&apos;s cmdlets and presents the results in its user interface.  
 
 Here are steps to help isolate issues when the integration is not working as expected.
