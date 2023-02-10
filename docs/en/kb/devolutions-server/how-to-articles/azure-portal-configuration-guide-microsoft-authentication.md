@@ -6,7 +6,7 @@ The following topic contains the procedure to configure Azure and {{ en.DPS }} p
 * {{ en.DPS }} Scheduler installed and running.
 * Microsoft Azure AD subscription.
 * 1 Azure AD Web Application for the {{ en.DPS }} Web application and the cache.
-## Creation of azure ad applications and {{ en.dps }} microsoft configuration.
+## Creation of azure ad applications and {{ en.DPS }} microsoft configuration.
 1. Log in to your Microsoft Azure Portal using administrator credentials at [https://portal.azure.com](https://portal.azure.com)
 1. To simplify the configuration steps and to easily copy and paste all the required parameters, please have side by side the Azure Portal and the {{ en.DPS }} web UI opened in ***Administration - Server Settings - Authentication - Microsoft Authentication***
 1. Once logged in, go to ***Azure Active Directory - Properties***  
