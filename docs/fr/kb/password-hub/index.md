@@ -3,18 +3,10 @@ title: Password Hub
 order: 30
 description: Vous pouvez accéder aux catégories suivantes concernant Password Hub ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
 ---
-<table>
-	<tr>
-		<td>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" width="180" alt="Devolutions Password Hub icône">
-		</td>
-		<td>
+![Devolutions Password Hub logo](https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-color-shadow.svg)
+
 Vous pouvez accéder aux catégories suivantes concernant {{ fr.PHUB }} Business et Personal: 
-<ul>
-  <li>Guides d'utilisation</li>
-  <li>Articles de dépannage</li>
-  <li>Base de connaissances</li>
-</ul>
-		</td>
-	</tr>
-</table>
+
+* Guides d'utilisation
+* Articles de dépannage
+* Base de connaissances
