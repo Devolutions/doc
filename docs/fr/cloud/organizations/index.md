@@ -2,4 +2,6 @@
 title: Organisations
 order: 70
 ---
-TBD
+La section ***Organisations*** est l&apos;endroit où vous gérerez les informations de votre fournisseur et créerez des organisations pour votre équipe.  
+
+![Cloud4078.png](/img/fr/cloud/Cloud4078.png) 
