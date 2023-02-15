@@ -59,5 +59,5 @@ Choose <a href="#push">Authenticator Push</a>, <a href="#app">Authenticator App<
 
 1. Click ***Security Key*** .  
 ![Cloud4048.png](/img/en/cloud/Cloud4048.png) 
-1. You will be redirected to the [Security Key](GettingStarted_SecurityKey) section of the {{ en.DA }} . 
+1. You will be redirected to the [Security Key](/cloud/sign-in-security/security-key/) section of the {{ en.DA }} . 
 
