@@ -19,3 +19,15 @@ The following steps describe how to create a test instance hosted on the same ma
 1. Finally, install all the additional features to test them like the Scheduler service, the Recording Server and the Devolutions Gateway.  
 
 From this point on, you can perform the {{ en.DVLSCONSOLE }} upgrade and [update the test instance](https://helpserver.devolutions.net/upgrade_rdms.html) The console is designed to support older versions of {{ en.DPS }}.
+
+## Moving {{ en.DPS }} to another server
+
+{% snippet icon.badgeNotice %}
+The above instructions can be used to move the <%DPS%> instance to a new server.
+{% endsnippet %}  
+{% snippet icon.badgeInfo %}
+It is possible to disconnect the old machine from your domain and rename the new one to have the exact same machine name. In that case, no need to update the Access URI and the {{ en.DPS }} data source in {{ en.RDM }}
+{% endsnippet %}  
+{% snippet icon.badgeInfo %}
+If you plan to migrate the SQL database on a new server, this could be completed once the {{ en.DPS }} migration is completed. Once done, update the database configuration from the {{ en.DVLSCONSOLE }}.
+{% endsnippet %}

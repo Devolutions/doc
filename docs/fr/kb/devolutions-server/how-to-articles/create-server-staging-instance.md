@@ -18,3 +18,15 @@ Les étapes suivantes décrivent comment créer une instance de test hébergée 
 1. Enfin, installez toutes les fonctionnalités supplémentaires pour les tester comme le service Scheduler, le Recording Server et le Devolutions Gateway.  
 
 À partir de ce moment, vous pouvez effectuer la mise à jour de la console de {{ fr.DPS }} et mettre à jour l&apos;instance de test. La console est conçue pour supporter les anciennes versions de {{ fr.DPS }}.
+
+## Déplacer {{ fr.DPS }} sur un autre serveur
+
+{% snippet icon.badgeNotice %}
+Les instructions ci-haut servent aussi à déplacer l'instance {{ fr.DPS }} sur un autre serveur.
+{% endsnippet %}  
+{% snippet icon.badgeInfo %}
+Il est possible de déconnecter l'ancienne machine de votre domaine et de renommer la nouvelle pour avoir exactement le même nom de machine. Dans ce cas, il n'est pas nécessaire de mettre à jour l'URI d'accès et la source de données {{ fr.DPS }} dans {{ fr.RDM }}
+{% endsnippet %}  
+{% snippet icon.badgeInfo %}
+Si vous prévoyez de migrer la base de données SQL sur un nouveau serveur, cela pourrait être effectué une fois la migration {{ fr.DPS }} terminée. Une fois fait, mettez à jour la configuration de la base de données à partir du {{ fr.DVLSCONSOLE }}.
+{% endsnippet %}
