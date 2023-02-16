@@ -1,9 +1,9 @@
 ---
 title: LDAPS Enforcing Usage
 ---
-To require that a directory server rejects simple binds which occur on a clear text connection, you must apply a policy.
+To require that a directory server reject simple binds that occur on a clear text connection, you must apply a policy.
 
-Please refer to [How to enable LDAP signing in Windows Server 2008](https://support.microsoft.com/en-ca/kb/935834) External link for the original article, but we will duplicate the content here for ease of use (especially since we hard a hard time finding it ourselves...).
+You can refer to the [original Microsoft article](https://support.microsoft.com/en-ca/kb/935834), but its content will be duplicated below for ease of use.
 
 ## How to configure the directory to require LDAP server signing using Group Policy
 
