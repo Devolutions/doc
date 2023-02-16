@@ -5,7 +5,7 @@ title: Installation
 
 Click on one of the browser links below to start the installation of the {{ en.DWL }} plugin:  
 
-* [Chrome](/server/dwl/installation/chrome/)  
-* [Firefox](/server/dwl/installation/firefox/)  
-* [Edge](/server/dwl/installation/edge/)  
-* [Opera](/server/dwl/installation/opera/)  
+* [Chrome](/dwl/installation/chrome/)  
+* [Firefox](/dwl/installation/firefox/)  
+* [Edge](/dwl/installation/edge/)  
+* [Opera](/dwl/installation/opera/)  

@@ -7,7 +7,7 @@ Order: 0
 
 {{ en.DWL }} is a web browser password plugin used in conjunction with {{ en.RDM }} , {{ en.RDMS }} and {{ en.PHUB }} , which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s .  
 
-It gives system administrators full control over the management of passwords, without affecting the user&apos;s productivity. 
+It gives system administrators full control over the management of passwords, without affecting the user's productivity. 
 
 {% youtube 'CEcfJh6rDtk' %}  
 
