@@ -1,5 +1,5 @@
 ---
-title: Logs
+title: Journaux
 order: 60
 ---
 

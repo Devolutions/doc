@@ -1,5 +1,5 @@
 ---
-title: Authentication
+title: Authentification
 order: 10
 ---
 

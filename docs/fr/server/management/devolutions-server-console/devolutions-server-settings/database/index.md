@@ -1,5 +1,5 @@
 ---
-title: Database
+title: Base de données
 ---
 TBD
 

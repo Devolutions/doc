@@ -1,5 +1,5 @@
 ---
-title: Vault
+title: Coffre
 order: 60
 ---
 

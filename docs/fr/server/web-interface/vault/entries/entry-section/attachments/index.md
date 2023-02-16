@@ -1,5 +1,5 @@
 ---
-title: Attachments
+title: Pièces jointes
 order: 20
 ---
 TBD

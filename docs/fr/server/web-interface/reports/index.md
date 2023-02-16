@@ -1,5 +1,5 @@
 ---
-title: Reports
+title: Rapports
 order: 40
 ---
 

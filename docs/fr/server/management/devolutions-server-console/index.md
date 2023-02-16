@@ -1,4 +1,4 @@
 ---
-title: Devolutions Server Console
+title: Console de Devolutions Server
 ---
 

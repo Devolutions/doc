@@ -1,5 +1,5 @@
 ---
-title: Two-Factor
+title: Authentification deux facteurs
 ---
 TBD
 

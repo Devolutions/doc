@@ -1,5 +1,5 @@
 ---
-title: Entry Section
+title: Section de l'entrée
 order: 30
 ---
 

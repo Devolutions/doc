@@ -1,5 +1,5 @@
 ---
-title: Templates
+title: Modèles
 order: 40
 ---
 

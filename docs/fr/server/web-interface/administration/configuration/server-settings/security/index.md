@@ -1,5 +1,5 @@
 ---
-title: Security
+title: Securité
 order: 20
 ---
 

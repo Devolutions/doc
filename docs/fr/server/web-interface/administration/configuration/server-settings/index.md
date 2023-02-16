@@ -1,5 +1,5 @@
 ---
-title: Server Settings
+title: Paramètres Serveur
 order: 20
 ---
 

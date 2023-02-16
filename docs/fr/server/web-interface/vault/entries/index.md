@@ -1,5 +1,5 @@
 ---
-title: Entries
+title: Entrée
 order: 10
 ---
 

@@ -1,4 +1,4 @@
 ---
-title: Devolutions Server Settings
+title: Paramètres de Devolutions Server
 ---
 

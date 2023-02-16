@@ -1,4 +1,4 @@
 ---
-title: Cleanup Logs
+title: Effacer les journaux
 ---
 TBD

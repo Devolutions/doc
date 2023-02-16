@@ -1,5 +1,5 @@
 ---
-title: Devolutions Web Login User Interface
+title: Interface utilisateur de Devolutions Web Login
 order: 30
 ---
 

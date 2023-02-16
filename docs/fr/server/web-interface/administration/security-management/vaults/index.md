@@ -1,5 +1,5 @@
 ---
-title: Vaults
+title: Coffres
 order: 30
 ---
 TBD

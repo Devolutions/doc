@@ -1,5 +1,5 @@
 ---
-title: General
+title: Général
 order: 10
 ---
 

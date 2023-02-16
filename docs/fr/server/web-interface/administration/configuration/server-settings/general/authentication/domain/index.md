@@ -1,5 +1,5 @@
 ---
-title: Domain
+title: Domaine
 order: 10
 ---
 TBD
