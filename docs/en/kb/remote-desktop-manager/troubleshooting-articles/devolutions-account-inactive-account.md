@@ -1,19 +1,15 @@
 ---
 title: Devolutions Account - Inactive Account
 ---
-For {{ en.DA }} with no activity over 3 years, an email from the Devolutions Team was sent:  
-
-{{ en.DA }} - Inactive Account.  
-
-Your account has been flagged as inactive, it will be deleted in 30 days if you don't log in.  
+To comply with Devolutions data retention policy, we must delete the {{ en.DA }} after three years of inactivity.  
 
 {% snippet icon.badgeInfo %}
-The deletion of the {{ en.DA }} will not impact your purchased licenses.
+The deletion of the {{ en.DA }} will not affect any license agreements you may have with Devolutions.  
 {% endsnippet %} 
 
 ### Solution
 
-Authenticate to the [Devolutions Portal](https://portal.devolutions.com/) and your {{ en.DA }} will remain active.  
+Log in  to the [Devolutions Portal](https://portal.devolutions.com/) within 30 days of receiving the email, and your {{ en.DA }} will remain active.  
 
 {% snippet icon.badgeHelp %}
 In the event that you forgot your password, follow the ***Forgot Password*** section of the [Create your Account](/cloud/devolutions-account/create-devolutions-account/#password) topic.

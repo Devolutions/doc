@@ -1,19 +1,15 @@
 ---
 title: Devolutions Account - Compte inactif
 ---
-Pour les {{ en.DA }} sans activité depuis plus de 3 ans, un courriel de l'équipe Devolutions a été envoyé :  
-
-{{ en.DA }} - Compte inactif.  
-
-Votre compte a été identifié comme étant inactif, il sera supprimé dans 30 jours si vous ne vous connectez pas.  
+Pour respecter la politique de rétention des données de Devolutions, nous devons supprimer le {{ en.DA }} après trois ans d'inactivité.  
 
 {% snippet icon.badgeInfo %}
-La suppression du {{ en.DA }} n'aura pas d'impact sur vos licences achetées.
+La suppression du {{ en.DA }} n'affectera pas les contrats de licence que vous pourriez avoir avec Devolutions.  
 {% endsnippet %} 
 
 ### Solution
 
-Authentifiez-vous sur le [Devolutions Portal](https://portal.devolutions.com/) et votre {{ en.DA }} restera actif.  
+Connectez-vous au [Devolutions Portal](https://portal.devolutions.com/) dans les 30 jours suivant la réception du courriel, et votre {{ en.DA }} restera actif.  
 
 {% snippet icon.badgeHelp %}
 Dans le cas où vous auriez oublié votre mot de passe, suivez la section ***Mot de passe oublié*** de la rubrique [Créer un compte](/fr/cloud/devolutions-account/create-devolutions-account/#password).
