@@ -6,7 +6,7 @@ title: Installation
 
 Cliquez sur un des liens de navigateur Web pour lancer l'installation du module {{ fr.DWL }} :  
 
-* [Chrome](/dwl/installation/chrome/)  
-* [Firefox](/dwl/installation/firefox/)  
-* [Edge](/dwl/installation/edge/)  
-* [Opera](/dwl/installation/opera/)  
+* [Chrome](chrome/)  
+* [Firefox](firefox/)  
+* [Edge](edge/)  
+* [Opera](opera/)  
