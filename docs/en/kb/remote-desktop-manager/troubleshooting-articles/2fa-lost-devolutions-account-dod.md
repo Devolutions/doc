@@ -5,7 +5,7 @@ This solution applies if you have set a 2FA on your Devolutions Account or Onlin
 ## Solution
 1. Find your ***Recovery codes*** file that was saved at creation of your 2FA.  
 {% snippet icon.badgeCaution %}
-This [step](https://helpcloud.devolutions.net/gettingstarted_twostepver.html?q=recover#recovery-codes) was mandatory for security reasons at creation.
+This [step](/cloud/sign-in-security/two-step-verification/#recovery-codes) was mandatory for security reasons at creation.
 {% endsnippet %}  
 
 2. Click on ***Connect with a different method*** and enter one of the codes from the list.

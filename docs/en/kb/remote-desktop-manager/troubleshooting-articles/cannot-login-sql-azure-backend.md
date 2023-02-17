@@ -10,4 +10,4 @@ Message: Insufficient privileges to complete the operation.
 ```
 This is caused by a misconfiguration of the Azure Application registration.
 ## Solution
-Review the ***steps 3.1 - 3.5*** of the [Azure portal configuration guide microsoft authentication](https://kb.devolutions.net/kb_azure_portal_configuration_guide_microsoft_authentication.html)
+Review the ***steps 3.1 - 3.5*** of the [Azure portal configuration guide microsoft authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/)
