@@ -3,6 +3,8 @@ title: Devolutions Account - Compte inactif
 ---
 Pour respecter la politique de rétention des données de Devolutions, nous devons supprimer le {{ en.DA }} après trois ans d'inactivité.  
 
+Une notification par courriel sera envoyée au compte de messagerie concerné. Veuillez noter qu'il peut également s'agir d'un alias.  
+
 {% snippet icon.badgeInfo %}
 La suppression du {{ en.DA }} n'affectera pas les contrats de licence que vous pourriez avoir avec Devolutions.  
 {% endsnippet %} 

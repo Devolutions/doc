@@ -3,6 +3,8 @@ title: Devolutions Account - Inactive Account
 ---
 To comply with Devolutions data retention policy, we must delete the {{ en.DA }} after three years of inactivity.  
 
+An email notification will be sent to affected email account. Please note that it can also be an alias.  
+
 {% snippet icon.badgeInfo %}
 The deletion of the {{ en.DA }} will not affect any license agreements you may have with Devolutions.  
 {% endsnippet %} 
