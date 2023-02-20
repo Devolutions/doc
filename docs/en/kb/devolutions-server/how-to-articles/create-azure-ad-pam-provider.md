@@ -1,40 +1,136 @@
 ---
-title: Create Azure AD PAM Provider
+title: Create an Azure AD PAM Provider
 ---
-The following guide provides the steps to create an Azure AD user PAM provider for {{ en.DPS }}.
+The following guide provides steps to create an Azure AD user PAM provider for {{ en.DPS }}.
 
-## STEPS
+## CREATE AN AZURE AD PAM PROVIDER
 
-1. Register a new application in Azure AD.
-1. Set the Name and the Redirect URI. The Redirect URI must be the same value as the URL used to connect on {{ en.DPS }}.  
-![Register Azure AD application.png](/img/en/kb/kb8063.png)
-1. Once registered, create a new Azure AD User provider in the PAM section of {{ en.DPS }}.  
-![KB8065.png](/img/en/kb/KB8065.png)
-1. Copy the Tenant ID, the Client ID and the Redirect URI from the Azure AD application and paste them in the appropriate fields of the new Azure AD User provider.  
-![KB8066.png](/img/en/kb/KB8066.png)
-1. Go in ***Certificates & secrets*** on the Azure AD application to create a ***New client secret***  
-![KB8064.png](/img/en/kb/KB8064.png)
-1. Copy the ***Secret*** and paste it in the Azure AD User provider ***Secret key*** field. Wait before saving the Azure AD User provider as some configurations need to be completed in Azure.  
-![KB8067.png](/img/en/kb/KB8067.png)  
-![KB8068.png](/img/en/kb/KB8068.png)
-1. Go in API permissions and add the ***Group.Read.All, RoleManagement.Read.Directory*** and ***User.Read.All*** Microsoft Graph API permissions. Remove all other unnecessary permissions.  
-![KB8069.png](/img/en/kb/KB8069.png)
-1. As these permissions require admin consent, then click on the Grant admin consent button.  
-![KB8070.png](/img/en/kb/KB8070.png)  
-![KB8071.png](/img/en/kb/KB8071.png)
-1. To grant the application the ability to rotate passwords, first go in Azure Active Directory - Roles and administrators to open the Helpdesk administrator role.  
-![KB8072.png](/img/en/kb/KB8072.png)
-1. Then in the Assignments window, click on the Add assignments button.  
-![KB8073.png](/img/en/kb/KB8073.png)
-1. Filter the list to find the Azure Application previously created and click on the Add button.  
-![KB8074.png](/img/en/kb/KB8074.png)
-1. The following result should be displayed with the Azure Application added in the list of the Helpdesk administrator Assignments.  
-![KB8075.png](/img/en/kb/KB8075.png)
-1. Then save the Azure AD User provider in {{ en.DPS }}.  
-![KB8076.png](/img/en/kb/KB8076.png)
-1. The next step is to create a Scan configuration for this provider.  
-![KB8077.png](/img/en/kb/KB8077.png)
-1. You can filter the Search mode for specific Azure AD Groups or Azure AD Roles.  
-![KB8078.png](/img/en/kb/KB8078.png)
-1. Once the Azure AD User Scan configuration saved and launched, you should see it in the list of the scan created. When it will complete its process, then you will be able to select the accounts and import them in the Privileged accounts like any other privileged account types.  
-![KB8079.png](/img/en/kb/KB8079.png)
+**In Azure AD Portal**
+1. In a browser page, open the [Microsoft Azure AD Portal](https://azure.microsoft.com) and sign in to your account.
+1. Select ***Azure Active Directory*** in the ***Azure Services*** section. If you do not see it, click on ***More services*** to make other services appear.
+![Azure Active Directory Service](/img/en/kb/KB2132.png)
+*Azure Active Directory Service*{.caption}
+1. In ***App registrations***, click on ***New registration***.
+![App registrations – New registration](/img/en/kb/KB2133.png)
+*App registrations – New registration*{.caption}
+1. Set the ***Name*** and the ***Redirect URI*** and platform. The ***Redirect URI*** must be the same value as the URL used to connect to {{en.DPS}}.
+![Register an application](/img/en/kb/KB8063.png)
+*Register an application*{.caption}
+1. Click ***Register*** at the bottom when done.
+
+**In {{en.DPS}}**
+
+6. Connect to your {{en.DPS}}.
+1. Go to ***Administration – Privileged Access – Providers***, then click on ***Add***.
+![Administration – Privileged Access – Providers – Add](/img/en/kb/KB2134.png)
+*Administration – Privileged Access – Providers – Add*{.caption}
+1. Select ***Azure AD User*** as the new PAM provider, then click ***Continue***.
+![Add New PAM Provider – Azure AD User](/img/en/kb/KB8065.png)
+*Add New PAM Provider – Azure AD User*{.caption}
+1. In the ***Provider*** window, enter a ***Name*** (mandatory) and a ***Description*** (optional) for your new Azure AD User PAM Provider. If need be, select a ***Password template*** in the drop-down list.
+![Name, Description, and Password template](/img/en/kb/KB2135.png)
+*Name, Description, and Password template*{.caption}
+
+**In Azure AD Portal**
+
+10. In the ***Overview*** of your new app registration, copy the ***Directory (tenant) ID***.
+![Copy the Directory (tenant) ID](/img/en/kb/KB2136.png)
+*Copy the Directory (tenant) ID*{.caption}
+
+**In {{en.DPS}}**
+
+11. Paste the ID copied in the previous step in the ***Tenant ID*** field.
+![Tenant ID](/img/en/kb/KB2138.png)
+*Tenant ID*{.caption}
+
+**In Azure AD Portal**
+
+12. Still in the ***Overview*** of your new app registration, copy the ***Application (client) ID***.
+![Copy the Application (client) ID](/img/en/kb/KB2137.png)
+*Copy the Application (client) ID*{.caption}
+
+**In {{en.DPS}}**
+
+13. Paste the ID copied in the previous step in the ***Client ID*** field.
+![Client ID](/img/en/kb/KB2139.png)
+*Client ID*{.caption}
+
+**In Azure AD Portal**
+
+14. In ***Certificates & secrets***, click on ***Client secrets***, then on ***New client secret***.
+![New client secret](/img/en/kb/KB8064.png)
+*New client secret*{.caption}
+1. In the ***Add a client secret*** window, enter a ***Description*** and select an expiration date for this client secret, as per your best internal security practices.
+![Add a client secret](/img/en/kb/KB2140.png)
+*Add a client secret*{.caption}
+1. Click ***Add***.
+1. Copy the ***Value*** of this new client secret by clicking on the ***Copy to clipboard*** icon next to it.
+![Copy the Client Secret Value](/img/en/kb/KB8067.png)
+*Copy the Client Secret Value*{.caption}
+
+**In {{en.DPS}}**
+
+18. Paste the value copied in the previous step in the ***Secret key*** field.
+![Secret key](/img/en/kb/KB8068.png)
+*Secret key*{.caption}
+1. <a name="Step19"></a>Test the connection to see if it works, then click ***Save***. The ***Scan Configuration*** window will appear: keep it open as it will be filled in a later step.
+
+**In Azure AD Portal**
+
+{% snippet icon.badgeCaution %}
+Assigning API permissions as described in steps 20 to 26 is only useful if you want to perform Azure accounts discovery (scan). If this is not the case, to avoid assigning unnecessary permissions to the application, skip to <a href="#Step27">step 27</a>.
+{% endsnippet %}
+
+20. In ***API permissions***, click ***Add a permission***.
+![API permissions – Add a permission](/img/en/kb/KB2141.png)
+*API permissions – Add a permission*{.caption}
+1. In the ***Resquest API permissions*** window, select ***Microsoft Graph***.
+![Microsoft Graph](/img/en/kb/KB2142.png)
+*Microsoft Graph*{.caption}
+1. Click ***Application permissions***, then check the boxes next to the following Microsoft Graph API permissions to select them:
+
+* ***Group.Read.All***
+* ***RoleManagement.Read.Directory***
+* ***User.Read.All***
+![Select API permissions](/img/en/kb/KB2143.png)
+*Select API permissions*{.caption}
+
+{% snippet icon.badgeInfo %}
+Use the filter bar above the permissions list to find the ones you are looking for.
+{% endsnippet %}
+
+23. When all the above permissions have been selected, click ***Add permissions*** at the bottom.
+1. The list of permissions will be updated to include those just selected. Remove any other unnecessary permissions using the ellipsis button next to them.
+![Remove Unnecessary Permissions](/img/en/kb/KB8069.png)
+*Remove Unnecessary Permissions*{.caption}
+1. The permissions require admin consent. Click on the ***Grant admin consent for < Your Organization >*** button, then click ***Yes*** to confirm.
+![Grant admin consent for your organization](/img/en/kb/KB8070.png)
+*Grant admin consent for your organization*{.caption}
+1. To confirm that the admin consent has been granted, check the ***Status*** of your permissions.
+![Granted Status](/img/en/kb/KB8071.png)
+*Granted Status*{.caption}
+1. <a name="Step27"></a>To grant the application the ability to rotate passwords, leave the ***App registrations*** to go back to Azure Active Directory, then select ***Roles and administrators*** in the left menu.
+1. In ***All roles***, click on the ***Helpdesk Administrator*** role.
+![All roles – Helpdesk Administrator](/img/en/kb/KB8072.png)
+*All roles – Helpdesk Administrator*{.caption}
+1. In ***Assignments***, click on the ***Add assignments*** button.
+![Helpdesk Administrator – Add assignments](/img/en/kb/KB8073.png)
+*Helpdesk Administrator – Add assignments*{.caption}
+1. Filter the list to find the Azure application previously created, select it, then click ***Add***.
+![Add assignments](/img/en/kb/KB8074.png)
+*Add assignments*{.caption}
+Your new assignment should now be displayed in ***Assignments***.
+
+**In {{en.DPS}}**
+
+31. The last steps are dedicated to configuring a scan for this provider. In the ***Scan Configuration*** window that appeared when you saved your provider configuration in <a href="#Step19">step 19</a>, under ***General***, enter a ***Name*** for this configuration.
+![Scan Configuration Name](/img/en/kb/KB2144.png)
+*Scan Configuration Name*{.caption}
+1. Under ***Configuration***, select ***Groups*** or ***Roles*** in the ***Search mode*** drop-down list. You can filter the ***Search mode*** for specific Azure AD groups or roles by clicking on the ***Edit*** button next to the drop-down list.
+![Scan Configuration Search mode](/img/en/kb/KB8077.png)
+*Scan Configuration Search mode*{.caption}
+1. Click ***OK*** when the configuration is done.
+1. In {{en.DPS}}, go to ***Administration – Privileged Access – Scan Configurations***. If the ***Start Scan on Save*** option was left enabled during the scan configuration, the scan should have started by itself. During the process, the ***Status*** column displays an hourglass icon next to the scan entry.
+![Administration – Privileged Access – Scan Configurations](/img/en/kb/KB2145.png)
+*Administration – Privileged Access – Scan Configurations*{.caption}
+1. When the process is complete, the hourglass icon changes to a green check mark. At that point, select accounts and import them into the privileged accounts like any other type of privileged account.
