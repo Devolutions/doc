@@ -14,14 +14,12 @@ on:
         required: true
         type: string
 
-concurrency: ${{ inputs.environment }}
-
 jobs:
   build:
-    environment: ${{ inputs.environment }}
+    environment: build
+    runs-on: ubuntu-latest
     outputs:
       tag: ${{ steps.variables.outputs.tag }}
-    runs-on: ubuntu-latest
 
     steps:
       - name: Check out ${{ github.repository }}
@@ -30,8 +28,7 @@ jobs:
            lfs: true
 
       - name: Pull lfs files
-        run: |
-          git lfs pull
+        run: git lfs pull
 
       - name: Set variables
         id: variables
@@ -42,13 +39,27 @@ jobs:
           fi
         shell: bash
 
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install Dependencies
+        run: npm ci --no-audit
+
+      - name: Build
+        run: npm run build
+        env:
+          ALGOLIA_ADMIN_KEY: ${{ inputs.environment == 'production' && secrets.ALGOLIA_ADMIN_KEY || '' }}
+          ALGOLIA_APP_ID: ${{ inputs.environment == 'production' && secrets.ALGOLIA_APP_ID || '' }}
+
       - name: Login to DockerHub
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and push to DockerHub
+      - name: Build image and push to DockerHub
         id: docker_push
         uses: docker/build-push-action@v3
         with:
@@ -58,10 +69,13 @@ jobs:
           push: true
           tags: devolutions/docs:${{ steps.variables.outputs.tag }}
 
-      - name: Image digest
+      - name: Image digest = ${{ steps.docker_push.outputs.digest }}
         run: echo ${{ steps.docker_push.outputs.digest }}
 
   deploy:
+    concurrency:
+      group: ${{ inputs.environment }}
+      cancel-in-progress: true
     environment: ${{ inputs.environment }}
     needs: ["build"]
     runs-on: ubuntu-latest

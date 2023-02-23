@@ -1,0 +1,13 @@
+name: production
+
+on:
+  workflow_dispatch:
+
+jobs:
+  production:
+    uses: ./.github/workflows/shared.yml
+    with:
+      cluster_name: apps
+      environment: production
+      subscription_id: 11001885-20be-4052-8647-9c6a919e3455 # Devolutions
+    secrets: inherit
