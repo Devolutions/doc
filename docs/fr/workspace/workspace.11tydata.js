@@ -7,6 +7,7 @@ module.exports = () => ({
   },
   permalink: '{{ (page.filePathStem.replace("workspace/", tree + "/workspace/") if tree !== "workspace" else page.filePathStem) | localized }}/',
   trees: [
+    'hub',
     'server'
   ]
 });
