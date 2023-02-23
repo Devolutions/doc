@@ -1,4 +1,4 @@
 ---
-title: Hub Overview
+title: Survol Hub
 ---
 TBD

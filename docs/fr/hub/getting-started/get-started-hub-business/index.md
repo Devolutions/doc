@@ -1,5 +1,5 @@
 ---
-title: Get Started with Hub Business
+title: Introduction avec Hub Business
 order: 0
 ---
 TBD

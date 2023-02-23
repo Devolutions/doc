@@ -1,5 +1,5 @@
 ---
-title: PowerShell Module
+title: Module PowerShell
 order: 30
 ---
 TBD

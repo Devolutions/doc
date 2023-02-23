@@ -1,4 +1,4 @@
 ---
-title: Temporary Access in Hub Business
+title: Accès temporaire dans le Hub Business
 ---
 TBD

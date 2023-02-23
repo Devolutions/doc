@@ -1,4 +1,4 @@
 ---
-title: Configuration and Security
+title: Configuration et sécurité
 ---
 TBD

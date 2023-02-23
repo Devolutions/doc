@@ -1,4 +1,4 @@
 ---
-title: Create and Invite Users
+title: Créer et inviter des utilisateurs
 ---
 TBD

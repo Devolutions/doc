@@ -1,4 +1,4 @@
 ---
-title: Licenses
+title: Licences
 ---
 TBD

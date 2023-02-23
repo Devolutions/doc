@@ -1,5 +1,5 @@
 ---
-title: Get Started with SSO in Hub Business
+title: Introduction à SSO avec Hub Business
 order: 20
 ---
 

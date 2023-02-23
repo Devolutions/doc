@@ -1,4 +1,4 @@
 ---
-title: Management
+title: Gestion
 ---
 TBD

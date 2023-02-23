@@ -1,5 +1,5 @@
 ---
-title: First Login with Devolutions Web Login
+title: Première connexion à Hub Business avec Devolutions Web Login
 order: 10
 ---
 TBD

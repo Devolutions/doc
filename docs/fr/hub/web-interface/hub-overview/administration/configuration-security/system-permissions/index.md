@@ -1,4 +1,4 @@
 ---
-title: System Permissions
+title: Permissions du système
 ---
 TBD

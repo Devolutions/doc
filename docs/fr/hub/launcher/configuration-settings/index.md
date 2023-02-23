@@ -1,5 +1,5 @@
 ---
-title: Configuration and Settings
+title: Configuration et paramètres
 order: 20
 ---
 TBD

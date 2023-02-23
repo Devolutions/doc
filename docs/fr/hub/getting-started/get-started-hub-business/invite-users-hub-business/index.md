@@ -1,4 +1,4 @@
 ---
-title: Invite Users in Hub Business
+title: Inviter des utilisateurs dans Hub Business
 ---
 TBD

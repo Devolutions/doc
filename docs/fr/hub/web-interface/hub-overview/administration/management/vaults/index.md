@@ -1,4 +1,4 @@
 ---
-title: Vaults
+title: Coffres
 ---
 TBD

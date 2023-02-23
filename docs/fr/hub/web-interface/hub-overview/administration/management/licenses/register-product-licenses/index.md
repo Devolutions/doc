@@ -1,4 +1,4 @@
 ---
-title: Register Product Licenses
+title: Enregistrer des licences de produit
 ---
 TBD
