@@ -1,4 +1,4 @@
 ---
-title: Vault Settings
+title: Paramètres du coffre
 ---
 TBD

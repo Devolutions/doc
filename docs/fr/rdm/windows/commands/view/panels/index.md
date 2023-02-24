@@ -1,4 +1,4 @@
 ---
-title: Panels
+title: Panneaux
 ---
 TBD

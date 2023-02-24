@@ -1,4 +1,4 @@
 ---
-title: Generators
+title: Générateurs
 ---
 TBD

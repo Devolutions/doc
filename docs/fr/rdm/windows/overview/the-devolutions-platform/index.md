@@ -1,4 +1,4 @@
 ---
-title: The Devolutions Platform
+title: La plateforme Devolutions
 ---
 TBD

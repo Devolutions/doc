@@ -1,4 +1,4 @@
 ---
-title: Settings
+title: Paramètres
 ---
 TBD

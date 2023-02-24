@@ -1,4 +1,4 @@
 ---
-title: PowerShell Module
+title: Module PowerShell
 ---
 TBD

@@ -1,4 +1,4 @@
 ---
-title: General
+title: Général
 ---
 TBD

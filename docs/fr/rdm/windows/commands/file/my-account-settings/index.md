@@ -1,4 +1,4 @@
 ---
-title: My Account Settings
+title: Paramètres de mon compte
 ---
 TBD

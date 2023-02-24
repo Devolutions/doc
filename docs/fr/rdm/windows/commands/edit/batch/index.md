@@ -1,4 +1,4 @@
 ---
-title: Batch
+title: Lot
 ---
 TBD

@@ -1,4 +1,4 @@
 ---
-title: User Management
+title: Utilisateurs
 ---
 TBD

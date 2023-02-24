@@ -1,4 +1,4 @@
 ---
-title: Import Generic CSV Wizard
+title: Assistant d'importation de CSV générique
 ---
 TBD

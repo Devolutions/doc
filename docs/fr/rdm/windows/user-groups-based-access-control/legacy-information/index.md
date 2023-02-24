@@ -1,4 +1,4 @@
 ---
-title: Legacy Information
+title: Information Legacy (ancien)
 ---
 TBD

@@ -1,4 +1,4 @@
 ---
-title: Context Menu
+title: Menu contextuel
 ---
 TBD

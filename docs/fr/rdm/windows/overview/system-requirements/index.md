@@ -1,4 +1,4 @@
 ---
-title: System Requirements
+title: Configuration du système
 ---
 TBD

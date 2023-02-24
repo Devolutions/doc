@@ -1,5 +1,5 @@
 ---
-title: Secure Devolutions Web Login
+title: Sécuriser Devolutions Web Login
 order: 40
 ---
 TBD

@@ -1,4 +1,4 @@
 ---
-title: More Tools
+title: Plus d'outils
 ---
 TBD
