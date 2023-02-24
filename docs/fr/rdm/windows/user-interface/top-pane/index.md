@@ -1,4 +1,4 @@
 ---
-title: Top Pane
+title: Volet supérieur
 ---
 TBD

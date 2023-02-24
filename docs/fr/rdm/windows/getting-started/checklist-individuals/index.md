@@ -1,5 +1,5 @@
 ---
-title: Checklist for Individuals
+title: Liste de vérification - Utilisation individuelle
 ---
 TBD
 

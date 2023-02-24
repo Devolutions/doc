@@ -1,4 +1,4 @@
 ---
-title: Offline Mode
+title: Mettre hors-ligne
 ---
 TBD

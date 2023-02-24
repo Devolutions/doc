@@ -1,4 +1,4 @@
 ---
-title: Enable Azure Active Directory Authentication
+title: Activer l'authentification d'Azure Active Directory
 ---
 TBD

@@ -1,4 +1,4 @@
 ---
-title: Team Edition
+title: Édition Team
 ---
 TBD

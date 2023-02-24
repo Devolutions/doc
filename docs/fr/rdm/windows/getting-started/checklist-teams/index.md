@@ -1,5 +1,5 @@
 ---
-title: Checklist for Teams
+title: Liste de vérification - Équipes
 ---
 TBD
 

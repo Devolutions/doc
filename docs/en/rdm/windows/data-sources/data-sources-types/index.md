@@ -1,4 +1,4 @@
 ---
-title: Advanced Data Sources
+title: Data Sources Types
 ---
 TBD

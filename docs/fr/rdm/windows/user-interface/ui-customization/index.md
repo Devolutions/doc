@@ -1,4 +1,4 @@
 ---
-title: UI Customization
+title: Personalisation de l'interface utilisateur
 ---
 TBD

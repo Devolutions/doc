@@ -1,4 +1,4 @@
 ---
-title: Custom Installer Service
+title: Service d'installateur personnalisé
 ---
 TBD

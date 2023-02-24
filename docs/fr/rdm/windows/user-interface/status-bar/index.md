@@ -1,4 +1,4 @@
 ---
-title: Status Bar
+title: Barre d'état
 ---
 TBD
