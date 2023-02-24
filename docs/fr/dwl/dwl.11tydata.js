@@ -9,6 +9,6 @@ module.exports = () => ({
   trees: [
     'hub',
     'server',
-    'rdm'
+    'rdm/windows'
   ]
 });
