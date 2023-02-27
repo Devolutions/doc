@@ -1,4 +1,0 @@
----
-title: Paramètres
----
-TBD

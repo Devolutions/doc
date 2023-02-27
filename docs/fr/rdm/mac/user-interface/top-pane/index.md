@@ -1,4 +1,0 @@
----
-title: Volet supérieur
----
-TBD

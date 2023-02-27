@@ -1,4 +1,4 @@
 ---
-title: Lot
+title: Modifier le lot
 ---
 TBD
