@@ -1,4 +1,4 @@
 ---
-title: Zone de contenu
+title: Content Area
 ---
 TBD

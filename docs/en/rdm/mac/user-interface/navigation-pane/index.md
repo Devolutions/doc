@@ -1,4 +1,4 @@
 ---
-title: Volet de navigation
+title: Navigation Pane
 ---
 TBD

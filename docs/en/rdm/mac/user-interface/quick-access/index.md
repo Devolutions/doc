@@ -1,4 +1,4 @@
 ---
-title: Accès rapide
+title: Quick Access
 ---
 TBD

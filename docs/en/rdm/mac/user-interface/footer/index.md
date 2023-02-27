@@ -1,4 +1,4 @@
 ---
-title: Bas de page
+title: Footer
 ---
 TBD

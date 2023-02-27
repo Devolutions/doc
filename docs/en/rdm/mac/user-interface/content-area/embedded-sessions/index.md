@@ -1,4 +1,4 @@
 ---
-title: Onglets du tableau de bord
+title: Dashboard tabs
 ---
 TBD

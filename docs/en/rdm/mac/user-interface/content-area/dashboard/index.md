@@ -1,4 +1,4 @@
 ---
-title: Tableau de bord
+title: Dashboard
 ---
 TBD
