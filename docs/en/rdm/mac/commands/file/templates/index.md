@@ -1,4 +1,4 @@
 ---
-title: Modèles
+title: Templates
 ---
 TBD

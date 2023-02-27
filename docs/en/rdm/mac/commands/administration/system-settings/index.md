@@ -1,4 +1,4 @@
 ---
-title: Paramètres du système
+title: System Settings
 ---
 TBD

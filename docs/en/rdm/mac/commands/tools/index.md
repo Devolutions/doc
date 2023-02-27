@@ -1,4 +1,4 @@
 ---
-title: Outils
+title: Tools
 ---
 TBD

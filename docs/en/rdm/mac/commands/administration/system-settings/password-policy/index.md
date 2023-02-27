@@ -1,4 +1,4 @@
 ---
-title: Politique de mot de passe
+title: Password Policy
 ---
 TBD

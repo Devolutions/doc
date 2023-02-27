@@ -1,4 +1,4 @@
 ---
-title: Préférences
+title: Preferences
 ---
 TBD

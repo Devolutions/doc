@@ -1,4 +1,4 @@
 ---
-title: Modifier le lot
+title: Batch Edit
 ---
 TBD

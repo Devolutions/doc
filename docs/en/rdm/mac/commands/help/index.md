@@ -1,4 +1,4 @@
 ---
-title: Aide
+title: Help
 ---
 TBD

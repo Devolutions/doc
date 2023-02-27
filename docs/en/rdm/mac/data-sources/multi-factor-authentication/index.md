@@ -1,4 +1,4 @@
 ---
-title: Authentification multifacteur
+title: Multi-Factor Authentication
 ---
 TBD

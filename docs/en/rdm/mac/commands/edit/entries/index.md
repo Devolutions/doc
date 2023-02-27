@@ -1,4 +1,4 @@
 ---
-title: Ajouter des entrées
+title: Add Entries
 ---
 TBD
