@@ -1,5 +1,5 @@
 ---
-title: Menu latéral
+title: Side Menu
 ---
 TBD
 

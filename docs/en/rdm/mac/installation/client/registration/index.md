@@ -1,4 +1,4 @@
 ---
-title: Enregistrement
+title: Registration
 ---
 TBD
