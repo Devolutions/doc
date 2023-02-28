@@ -2,9 +2,9 @@
 title: Upgrading from RDM Free to RDM Team
 ---
 {% snippet icon.badgeInfo %}
-Since version 2022.3 of {{ en.RDM }} , the Free Edition and Team Edition (previously Enterprise Edition) have been merged into [one single download](https://devolutions.net/remote-desktop-manager) , allowing users to upgrade with more ease. To learn more about this change, you can read our blog post [Remote Desktop Manager Free and Enterprise Are Now Unified](https://blog.devolutions.net/2022/10/news-remote-desktop-manager-is-changing-for-the-better/)  
+Since version 2022.3 of {{ en.RDM }}, the Free Edition and Team Edition (previously Enterprise Edition) have been merged into [one single download](https://devolutions.net/remote-desktop-manager), allowing users to upgrade with more ease. To learn more about this change, you can read our blog post [Remote Desktop Manager Free and Enterprise Are Now Unified](https://blog.devolutions.net/2022/10/news-remote-desktop-manager-is-changing-for-the-better/).
 
-If you are using {{ en.RDM }} version 2022.3 or later, read our topic on [how to register a Team license](https://help.remotedesktopmanager.com/installation_registration_enterpriseedition.html) Otherwise, continue in this topic.
+If you are using {{ en.RDM }} version 2022.3 or later, read our topic on [how to register a Team license](https://help.remotedesktopmanager.com/installation_registration_enterpriseedition.html). Otherwise, continue in this topic.
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
@@ -12,7 +12,7 @@ File based data sources (XML, SQLite, etc.) are by default stored in the configu
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The paths mentioned in this topic are for those that have installed using the default settings. The best way to locate your configuration folder is to go to ***File – Options – Advanced*** You will find a hyperlink near the bottom under the ***Information*** section that opens your configuration folder.
+The paths mentioned in this topic are for those that have installed using the default settings. The best way to locate your configuration folder is to go to ***File – Options – Advanced***. You will find a hyperlink near the bottom under the ***Information*** section that opens your configuration folder.
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
@@ -33,7 +33,7 @@ Please ensure you close the application before going further.
 * Connections.db. (default name of the Local Data Source)  
 * Any and ALL other data source files identified in the Data sources list  
 
-7. Rename the copied files to remove the &quot;Free&quot; suffix:  
+7. Rename the copied files to remove the "Free" suffix:  
 
 * RemoteDesktopManagerFree.cfg to RemoteDesktopManager.cfg  
 * RemoteDesktopManagerFree.stv to RemoteDesktopManager.stv  

@@ -4,7 +4,7 @@ keywords:
 - Private vault
 - role
 ---
-Compare the features between our Free and Enterprise Editions of {{ en.RDM }}
+Compare the features between our Free and Team Editions of {{ en.RDM }}.
 <table>
 	<tr>
 		<td>
@@ -17,7 +17,7 @@ Description
 Free
 		</td>
 		<td>
-Enterprise
+Team
 		</td>
 	</tr>
 	<tr>

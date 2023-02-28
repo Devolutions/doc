@@ -1,7 +1,7 @@
 ---
 title: Microsoft RDP Logoff Access Denied
 ---
-Logoff access denied error or &quot;unable to enumerate remote sessions&quot;  
+Logoff access denied error or "unable to enumerate remote sessions".  
 
 This error occurs when using qwinsta.exe/rwinsta.exe or WTSOpenServer Windows API function to access to a Windows XP SP2 PC.  
 
@@ -21,13 +21,13 @@ The same thing happens when trying to connect to a Windows XP SP2 using Terminal
 
 1. Open RPC ports on the firewall.  
 
-    An API call involves connecting to a remote machine using RPC. In most cases, the RPC service is running and you can confirm that from the service management interface. To open RPC ports, enable File and Printer Sharing in the Windows Firewall setting. (Generally, if the RPC is blocked by the firewall on the remote machine, the error should be &quot;1722 RPC server is unavailable&quot; rather than &quot;5 Access denied&quot;)  
+    An API call involves connecting to a remote machine using RPC. In most cases, the RPC service is running and you can confirm that from the service management interface. To open RPC ports, enable File and Printer Sharing in the Windows Firewall setting. (Generally, if the RPC is blocked by the firewall on the remote machine, the error should be "1722 RPC server is unavailable" rather than "5 Access denied")  
 
 1. Disable Force Guest log on.  
 
     You can change this option from either local security policy or registry.  
 
-    Local security policy: run secpol.msc &gt; Security Settings &gt; Local Policies &gt; Security Options &gt; Network access: Sharing and security model for local accounts, and set to Classic.  
+    Local security policy: run secpol.msc > Security Settings > Local Policies > Security Options > Network access: Sharing and security model for local accounts, and set to Classic.  
 
     Registry: find forceguest item in HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa, and set it to 0.  
 

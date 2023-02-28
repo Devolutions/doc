@@ -6,13 +6,13 @@ title: Command Line Arguments
 {{ en.RDM }} can be launched using a command line.
 
 {% snippet icon.badgeInfo %}
-Some features are only available in the Enterprise edition. {{ en.RDM }} also offers a Web Protocol Handler.
+Some features are only available in the Team Edition. {{ en.RDM }} also offers a Web Protocol Handler.
 {% endsnippet %}
 
 ## Retrieve ID and create an executable
 <a name="retrieve"></a>
 
-It is possible to get the IDs of a ***database***, ***data source***, ***entry*** and ***vault*** as well as a ***Command Line*** Follow the steps below to view this information in a single location:
+It is possible to get the IDs of a ***database***, ***data source***, ***entry***, and ***vault*** as well as a ***Command Line***. Follow the steps below to view this information in a single location:
 
 1. Right-click on the entry whose information you want to obtain, then go to ***Properties***.  
 ![KB2055.png](/img/en/kb/KB2055.png)
