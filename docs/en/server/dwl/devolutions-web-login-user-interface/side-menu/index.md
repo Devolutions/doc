@@ -22,7 +22,7 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DPS }} through the {{ en.DWL }} extension.  
 
 {% snippet icon.badgeInfo %} 
-For a complete list of the available fields in the ***Add Website*** window, visit [this topic](Add_Website) . You can also consult our step-by-step guide on [how to add a website entry](Add_a_Website_Entry_with_DWL) . 
+For a complete list of the available fields in the ***Add Website*** window, visit [this topic](/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/) . You can also consult our step-by-step guide on [how to add a website entry](Add_a_Website_Entry_with_DWL) . 
 {% endsnippet %}
  
 ### All Entries tab 
