@@ -26,7 +26,7 @@ Here are various procedures to install root certificates:
 1. sudo cp ca.crt /usr/local/share/ca-certificates/extra/ca.crt
 1. sudo update-ca-certificates
 
-Watch for a 1 added in the output messages.
+Watch for a 1 added in the output messages.  
 
 ## Exceptions for web browsers
 
