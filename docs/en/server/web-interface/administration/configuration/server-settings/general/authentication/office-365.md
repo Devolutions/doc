@@ -4,7 +4,7 @@ keywords:
 - Roles
 ---
 {% snippet icon.badgeInfo %} 
-Microsoft Azure Active Directory subscription is required to configure Office365 authentication in {{ en.RDMS }} . You need to create three new app registrations in Microsoft Azure Active Directory before completing the authentication settings. For more information about the app registrations, see Azure portal configuration guide for Office 365 authentication. 
+Microsoft Azure Active Directory subscription is required to configure Office365 authentication in {{ en.RDMS }} . You need to create three new app registrations in Microsoft Azure Active Directory before completing the authentication settings. For more information about the app registrations, see [Azure portal configuration guide for Microsoft authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/). 
 {% endsnippet %}  
 
  
