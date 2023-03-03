@@ -1,6 +1,5 @@
 ---
-eleventyComputed:
-  title: {{ en.PVLT }}
+title: User Vault
 keywords:
 - Private vault
 ---
