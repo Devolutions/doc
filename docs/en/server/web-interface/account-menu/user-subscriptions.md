@@ -15,5 +15,5 @@ To enable a notification;
 1. Click on the bell icon to open the menu. 
 1. Select from the list the actions requiring notification from this specific entry.  
 
-![Notification](/img/en/server/serverop4001.png)
+![Notification](/img/en/server/serverop4001png.png)
 
