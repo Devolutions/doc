@@ -9,7 +9,7 @@ This functionality will only work in combination with a [{{ en.DA }}](https://he
 This notification is only available for the Microsoft SQL Server and Microsoft Azure SQL advanced data sources.
 {% endsnippet %}
 
-### Prerequisites
+## Prerequisites
 1. Have a [{{ en.DA }}](https://helpcloud.devolutions.net/gettingstarted_cloudregistration.html).  
 1. In {{ en.RDM }}:
     1. Connect to your {{ en.DA }} in ***File – {{ en.DA }}***.
@@ -18,7 +18,7 @@ This notification is only available for the Microsoft SQL Server and Microsoft A
     1. [Create an Organization](https://helpcloud.devolutions.net/cloud_create_organization.html).
     1. [Invite Users to your Organization](https://helpcloud.devolutions.net/cloud_invite_users_organization.html).
 
-### Steps
+## Steps
 1. In {{ en.RDM }}, go to ***Administration – System Settings – Vault***.
 1. Click ***Enable Temporary Access Notifications***.
 

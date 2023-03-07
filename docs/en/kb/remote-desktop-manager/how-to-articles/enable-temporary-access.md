@@ -7,7 +7,7 @@ With the ***Temporary Access*** feature, you can provide a designated user with 
 These settings are only available for the {{ en.DPS }}, Microsoft SQL Server, and Microsoft Azure SQL advanced data sources.
 {% endsnippet %}
 
-### Global Temporary Access Settings
+## Global Temporary Access Settings
 
 ***Temporary Access*** is set to ***Denied*** by default in {{ en.RDM }}.  
 
@@ -26,7 +26,7 @@ By default, only administrators can authorize temporary access requests.
 
 4. Click ***OK***.
 
-### Granular Temporary Access Settings
+## Granular Temporary Access Settings
 
 ***Temporary Access*** can also be granulary set on each entry and folder.
 
