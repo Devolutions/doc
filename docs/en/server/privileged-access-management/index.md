@@ -17,8 +17,6 @@ Devolutions Privileged Access Management solution provides all the following fea
 
 For an overview of the Devolutions Privileged Access Management, please watch the following video.  
 
-{% youtube 'zxdZHAqv-rw' %}
-
 ## Privileged Access Page
 The Privileged Access page provides a quick overview of the current PAM Vault Accounts , current Check-outs and the Recent Activities . 
 
