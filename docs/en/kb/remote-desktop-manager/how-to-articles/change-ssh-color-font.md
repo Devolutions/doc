@@ -2,9 +2,9 @@
 title: How to Change SSH Color and Font
 ---
 
-To make a change to all your sessions, head over to ***File – Options – Type – Terminal – Colors*** and check ***Override terminal colors*** You can also ***Import*** and ***Export***, from this window, to share the settings.  
-![File – Options – Type – Terminal – Colors](/img/en/kb/KB4131.png)
-*File – Options – Type – Terminal – Colors*{.caption}
+To make a change to all your sessions, head over to ***File – Options – Types – Terminal – Colors*** and check ***Override terminal colors*** You can also ***Import*** and ***Export***, from this window, to share the settings.  
+![File – Options – Types – Terminal – Colors](/img/en/kb/KB4131.png)
+*File – Options – Types – Terminal – Colors*{.caption}
 
 It is also possible to change the color of the highlighted text and background. These options are located at the bottom of the Terminal Colors page.
 ![Highlight & Background Colors Options](/img/en/kb/KB0001.png)
