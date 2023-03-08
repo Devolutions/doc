@@ -13,7 +13,7 @@ The following procedure describe how to enable the Log4Net logging utility for t
 
 1. Edit the log4net.config file located of the Collector and Processor application installation folders. Click on the Explore button of the Recording Server section of the Companions tab on the Devolutions Server Console.  
 
-![KB8120.png](/img/en/kb/kb8120.png)
+![KB8120.png](/img/en/kb/KB8120.png)
 
 2. Set the file value parameter with the full log file path. Ensure that the backslashes are doubled.
 1. Set the level value parameter to ALL.

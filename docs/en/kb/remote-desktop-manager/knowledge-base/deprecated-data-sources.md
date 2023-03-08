@@ -7,7 +7,7 @@ Here is how to display them in ***File – Data Sources – Add a New Data Sourc
 1. Click on ***File – Options – Advanced***
 1. Check ***Show deprecated data source types***
 1. Click ***OK***  
-![Show Deprecated Data Source Types option.png](/img/en/kb/kb4884.png)  
+![Show Deprecated Data Source Types option.png](/img/en/kb/KB4884.png)  
 Here is the list of deprecated data sources:
 * Amazon S3
 * Devolutions Online Database (DODB)

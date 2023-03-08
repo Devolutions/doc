@@ -10,4 +10,4 @@ To get to this dialog:
 3. Click on the **Advanced Credentials** button.
 4. Click on the arrow beside of one of the ***Apply Least Permissions*** buttons.
 5. Click on the ***Generate Script*** button to save thesql file.  
-![Devolutions Server Console Generate script.png](/img/en/kb/kb8045.png)
+![Devolutions Server Console Generate script.png](/img/en/kb/KB8045.png)

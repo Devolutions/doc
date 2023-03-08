@@ -35,7 +35,7 @@ The {{ en.DVLSCONSOLE }} is required to install the Recording Server.
    | Max Parallel Processing | Maximum number of files to be converted at the same moment to a readable format. |
 
 5. Set the ***Service Account*** that will run the Recording Service and click ***Next***  
-![kb8018.png](/img/en/kb/kb8018.png)
+![kb8018.png](/img/en/kb/KB8018.png)
 
 6. Set the ***Server URL*** and ***Administration Credentials*** account that will create the ***Application Key*** to allow the Recording Server to communicate with the {{ en.DPS }} instance, then click ***Next***  
 ![KB8019.png](/img/en/kb/KB8019.png)

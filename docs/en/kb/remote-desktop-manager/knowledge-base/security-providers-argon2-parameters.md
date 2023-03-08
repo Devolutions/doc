@@ -4,7 +4,7 @@ title: Security Providers Argon2 Parameters
 In {{ en.RDM }} , the ***Shared passphrase (v3)*** for the ***Security Provider*** uses the Argon2id Key Derivation Function (KDF) to transform the passphrase into an encryption key.  
 
 The ***Advanced*** menu is used to tune the derivation to make it easier or harder to compute.
-![Administration - Security Provider - Shared passphrase (v3) - Advanced.png](/img/en/kb/kb5017.png)
+![Administration - Security Provider - Shared passphrase (v3) - Advanced.png](/img/en/kb/KB5017.png)
 ### Why make it harder to compute?
 Let’s say a malicious actor gets access to a computer enrolled in the provider. This attacker would have access to the encryption key used to decrypt the data on the database, but would not directly get access to the passphrase itself because of the derivation.  
 

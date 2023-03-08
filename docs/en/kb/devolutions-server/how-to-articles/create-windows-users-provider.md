@@ -16,11 +16,11 @@ This guide provides steps to create a Windows users provider to manage Windows l
    1. To add one single host to the existing trusted host list : **Set-Item WSMan:\localhost\Client\TrustedHosts host.yourdomain.local -Concatenate**
    {type="a"}
 1. Create a local account on the remote host that will be managed by the PAM module as a privileged account. The local accounts must have the User cannot change password option enabled to avoid problems with the synchronization of the password in the Privileged Access module. If this account needs to have administrative rights, then add it to the local Administrators group.  
-![Local Account propreties](/img/en/kb/kb8086.png)
+![Local Account propreties](/img/en/kb/KB8086.png)
 1. Go in ***Privileged Access - Providers*** on the {{ en.DPS }} web interface to add a Windows users provider.  
-![Windows user provider](/img/en/kb/kb8085.png)
+![Windows user provider](/img/en/kb/KB8085.png)
 1. Set the Name of the provider; Set the Computer name and Domain information of the remote host in the Host section; Set the Username and Password values for the provider account in the Credentials section. This account must have proper administrative rights on the host to manage local user accounts. In this sample, david<area>@windjammer.loc is a domain account that is a member of the local Administrators group of the remote host.
-![Windows user provider settings](/img/en/kb/kb8087.png)
+![Windows user provider settings](/img/en/kb/KB8087.png)
 1. With the Add Scan Configuration option enabled, create the scan configuration to scan for local accounts. The built-in Administrator account cannot be managed by the Privileged Access module because of the option mentioned in step 3 above that cannot be enabled.  
 ![KB8088.png](/img/en/kb/KB8088.png)
 1. Once the scan is completed, a list of accounts is available. Click on the Eye button to see the discovered accounts.  

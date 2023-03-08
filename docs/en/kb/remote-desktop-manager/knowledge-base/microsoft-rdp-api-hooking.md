@@ -7,7 +7,7 @@ If you have disabled it, you can enable it again by going in {{ en.RDM }} &#32; 
 
 Restart {{ en.RDM }} to apply the change.  
 
-![File - Options - Types - Remote Desktop - API hooking.png](/img/en/kb/kb4969.png)  
+![File - Options - Types - Remote Desktop - API hooking.png](/img/en/kb/KB4969.png)  
 
 {% snippet icon.badgeInfo %}
 Since {{ en.RDM }} 2022.3.23, a policy, EnableRDPHooking, has been added that overrides the ***Enable API hooking*** setting. If it is not configured (no registry key), the value from the {{ en.RDM }} option will be used. A value of &quot;0&quot; indicates that RDP hooking is disabled, while a value different than &quot;0&quot; indicates that RDP hooking is enabled. This enables the administrator to force either setting or allow the local configuration to be effective.  

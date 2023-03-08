@@ -20,4 +20,4 @@ In some cases the UPN format must be used for the username (username@domain.xyz)
 {% endsnippet %}
 
 6. Once the account is set as the application pool identity, you can grant least permissions with the Apply Least Permissions button for the Web Application and the Scheduler Service sections. It is also possible to generate the least permissions SQL queries to run it manually on the SQL Server, see [Generate script for database permissions](/kb/devolutions-server/knowledge-base/generate-script-database-permissions/).  
-![Database Advanced Credentials.png](/img/en/kb/kb8059.png) 
+![Database Advanced Credentials.png](/img/en/kb/KB8059.png) 
