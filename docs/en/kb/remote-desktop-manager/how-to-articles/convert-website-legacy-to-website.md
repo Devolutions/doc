@@ -11,14 +11,14 @@ To convert several entries at once, you can perform a batch conversion by search
  
 1. Select the entry you want to convert in the {{ en.NPANE }} . It is possible to select multiple entries at once, provided they are of the same type. 
 1. Right-click the entry and select ***Edit – Edit (Special Actions)*** . Alternatively, you can use the ***Ribbon*** by clicking on ***Edit (Special Actions)*** in the ***Batch*** section of the ***Edit*** tab.  
-![Edit – Edit (Special Actions)](/img/en/kb/kb2076.png) 
+![Edit – Edit (Special Actions)](/img/en/kb/KB2076.png) 
 1. In the ***Web*** section, select ***Convert Website (legacy)*** to ***Website*** and click ***OK***. 
-![Convert Website (legacy) to Website](/img/en/kb/kb2077.png) 
+![Convert Website (legacy) to Website](/img/en/kb/KB2077.png) 
 {% snippet icon.badgeInfo %} 
 Note that it is also possible to convert a ***Website*** entry back to a ***Website (Legacy)*** entry type by using the same method. Just select ***Convert Website to Website (legacy)*** instead. 
 {% endsnippet %}
  
 4. Click ***OK*** in the ***Batch Action Result*** window. 
-![Batch Action Result Window.png](/img/en/kb/kb2078.png)  
+![Batch Action Result Window.png](/img/en/kb/KB2078.png)  
 
 Your entry has now been converted.

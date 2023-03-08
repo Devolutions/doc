@@ -29,7 +29,7 @@ If you have multiple vaults, you will need to export each vault separately or us
 {% endsnippet %}  
 
 2. Select File – Export – Export Vault (.rdm)  
-![Export Vault option.png](/img/en/kb/kb4540.png)
+![Export Vault option.png](/img/en/kb/KB4540.png)
 1. For a typical migration, you would check the options ***Include credentials***, ***Include attachments and documents*** and ***Encrypt with master key***.
    - You can choose to remove all the folders present in your navigation tree.
    - It is important to ***Include credentials*** at this step. If you choose not to, all your entries will be imported without any credentials.
@@ -39,7 +39,7 @@ If you have multiple vaults, you will need to export each vault separately or us
 Ensure that you do not forget the ***Master Key*** as you will not be able to decrypt the data without it.
 {% endsnippet %}  
 
-![Export Entries window.png](/img/en/kb/kb4541.png)
+![Export Entries window.png](/img/en/kb/KB4541.png)
 4. Save the file.
 
 ## Import a data source
@@ -47,7 +47,7 @@ Ensure that you do not forget the ***Master Key*** as you will not be able to de
 
 1. Validate that your new data source is created and selected in your {{ en.NPANE }}.
 1. Select File – Import – Import (.rdm ).  
-![Import option.png](/img/en/kb/kb4542.png)
+![Import option.png](/img/en/kb/KB4542.png)
 1. Find your previouslyrdm saved file on your computer, select the file and click ***Open***.
 1. In ***Import Entries*** select if you wish to ***Import in root***, ***Import in current folder*** or ***Import in specific folder***.  
    ![Import Entries Window.png](/img/en/kb/kb4543.png)  

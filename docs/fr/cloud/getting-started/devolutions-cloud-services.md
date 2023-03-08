@@ -24,7 +24,7 @@ Créer gratuitement votre <a href="/cloud/devolutions-account/">Compte Devolutio
 	</tr>
 	<tr>
 		<td>
-<img src="/img/en/cloud/Forum-90X90.png" alt="Forum-90X90.png">
+<img src="/img/en/cloud/Forum-90X90.png" alt="forum-90x90.png">
 		</td>
 		<td>
 Le Forum vous permet de poser vos questions et de partager les réponses avec la communauté de Devolutions.  

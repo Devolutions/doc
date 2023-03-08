@@ -24,7 +24,7 @@ You also see a message related to ***Set-PowerCLIConfiguration*** Please consult
 ### In the powershell window : there is a question about multiple server support
 As described in their message, it will be the default value in a coming release. Please consult their documentation and make an informed decision, but most users should accept the Multiple option.
 ## Issues with vmware powercli
-### The term &apos;connect-viserver&apos; is not recognized as the name of a cmdlet, function, script file, or operable program. check the spelling of the name, or if a path was included, verify that the path is correct and try again
+The term &apos;connect-viserver&apos; is not recognized as the name of a cmdlet, function, script file, or operable program. check the spelling of the name, or if a path was included, verify that the path is correct and try again
 ### CAUSE
 This error occurs because the PowerCLI modules are not linked with PowerShell or the PowerCLI Module for the Connect-ViServer command is missing.
 ### SOLUTION

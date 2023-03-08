@@ -10,4 +10,4 @@ Firstly, we recommend a {{ en.DPS }} upgrade. This link will provide instruction
 ## Recommendation
 1. We strongly advise to deactivate the auto-update feature to avoid any unwanted update. Follow this link for more information about how to apply policies on {{ en.RDM }} group policies (GPO).
 1. We recommend the use of the ***Version Management*** tool in ***Administration - System Settings - Applications*** of {{ en.RDM }} This feature will prevent any unwanted upgrade unless approved by the administrator. Using this feature allows the administrator to control the {{ en.RDM }} versions available inside the organization.  
-![System Settings - Application - Version Management.png](/img/en/kb/kb4046.png)
+![System Settings - Application - Version Management.png](/img/en/kb/KB4046.png)

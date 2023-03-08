@@ -11,7 +11,8 @@ Créer votre {{ fr.DA }} gratuit.
 En cliquant sur ***Créer mon compte*** , vous confirmez que vous avez lu et accepté nos [Conditions d'utilisation](https://devolutions.net/fr/legal/online-services-terms) et notre [Politique relative à la vie privée](https://devolutions.net/fr/legal) . 
 {% endsnippet %}  
 
-![Compte Devolutions - Créer un compte gratuit.png](/img/fr/cloud/Cloud4016.png)
+![Compte Devolutions - Créer un compte gratuit.png](/img/fr/cloud/cloud4016.png)  
+
 4. Un courriel contenant un lien d'activation sera envoyé à votre adresse courriel. 
 {% snippet icon.badgeInfo %}
 

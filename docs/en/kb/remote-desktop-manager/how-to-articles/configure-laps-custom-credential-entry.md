@@ -10,7 +10,7 @@ The following guide describe how to add a PowerShell script in a Custom Credenti
 ## Steps
 
 1. In {{ en.RDM }} , create a new Custom Credential entry.  
-![Create a Custom Credential entry.png](/img/en/kb/kb8115.png)  
+![Create a Custom Credential entry.png](/img/en/kb/KB8115.png)  
 1. Add the following PowerShell script in General - Command.
    - Please note that it uses the $HOST$ variable for the -ComputerName switch of the Get-AdmPwdPassword cmdlet and use the $PARAMETER1$ variable for the username (see step 3 below).  
       ```
@@ -53,16 +53,16 @@ The following guide describe how to add a PowerShell script in a Custom Credenti
         $Result.ErrorMessage="The LAPS module must be installed in this architecture!"
       }
       ```
-      ![Add the PowerShell script in General - Command.png](/img/en/kb/kb8116.png)  
+      ![Add the PowerShell script in General - Command.png](/img/en/kb/KB8116.png)  
 
 3. Add the local administrator account name in the Parameter #1 field of the Parameters tab.  
-![Set local administrator account name in Parameters - Parameter #1.png](/img/en/kb/kb8117.png)  
+![Set local administrator account name in Parameters - Parameter #1.png](/img/en/kb/KB8117.png)  
 
 1. Save the Custom Credential entry.
 
 1. In the RDP entry properties, set the Credentials property to use the newly created Custom Credential entry.  
-![Set Credential parameter to use the Custom Credential entry.png](/img/en/kb/kb8118.png)
+![Set Credential parameter to use the Custom Credential entry.png](/img/en/kb/KB8118.png)
 
 1. In Advanced - Advanced of the RDP entry, set the Override domain property to Use Host Name and the Username format property to {Domain}\{User}.  
-![Set Advanced properties.png](/img/en/kb/kb8119.png)
+![Set Advanced properties.png](/img/en/kb/KB8119.png)
 1. The RDP entry is now ready to be used and connect with the local administrator account managed by Microsoft LAPS.

@@ -9,7 +9,7 @@ This behavior is caused by the recent changes made to the two-factor authenticat
 
 You can now go under ***File - Options - Types - Credentials*** , under the LastPass section to decide how you want to manage your 2FA.  
 
-![LastPass two factor authentication mode.png](/img/en/kb/kb4000.png)
+![LastPass two factor authentication mode.png](/img/en/kb/KB4000.png)
 
 Here is a brief overview of what each mode does:  
 
