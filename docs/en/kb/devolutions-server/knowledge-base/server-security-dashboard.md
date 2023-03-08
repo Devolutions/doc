@@ -5,7 +5,7 @@ title: Devolutions Server Security Dashboard
 The ***Security Dashboard*** is simply a tool to offer guidance on how to improve the security of the {{ en.DPS }} platform and also tips on reducing the workload for administrators. Some tips are common infosec best practices, others are a consensus between our owns teams.
 
 The scores are admittedly open to question and we do not pretend each topic has the same relative value for all of our community members. Achieving 100% is surely not an end goal in itself, we simply aim to raise awareness and provide ideas for your own security hardening.  
-![kb4707.png](/img/en/kb/kb4707.png)
+![kb4707.png](/img/en/kb/KB4707.png)
 
 ## Improvement Actions Items
 
