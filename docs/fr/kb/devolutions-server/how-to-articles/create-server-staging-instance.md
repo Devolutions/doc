@@ -13,7 +13,7 @@ Les étapes suivantes décrivent comment créer une instance de test hébergée 
 1. [Créer une nouvelle instance](https://helpserver.devolutions.net/fr/install_createrdmsinstance.html) dans la console de {{ fr.DPS }}. Nous recommendons de créer l&apos;instance de test à la même version que l&apos;instance de production. 
 1. Lors de l&apos;étape concernant la base de données, inscrire les informations en lien avec la copie de base de données créée au point 2. 
 1. Fournir, au moment prévu à cet effet, le fichier des clés de chiffrement exportées au point 3.  
-![Clés de chiffrement pour base de données existante.png](/img/fr/kb/kb8113.png)
+![Clés de chiffrement pour base de données existante.png](/img/fr/kb/KB8113.png)
 1. Lorsque la création est terminée, faites une copie de sauvegarde de la base de données de test.
 1. Enfin, installez toutes les fonctionnalités supplémentaires pour les tester comme le service Scheduler, le Recording Server et le Devolutions Gateway.  
 
