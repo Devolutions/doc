@@ -7,12 +7,14 @@ When using {{ en.DWL }} with {{ en.DPS }} , the available tabs are the ***Matchi
 
 In all tabs except the ***Password Generator*** tab, when hovering over an entry, three new options appear: the ***Copy Username*** , ***Copy Password*** , and ***View*** buttons. Go to the [Entries functionalities]( section for more information.  
 
+## {{ en.DWL }} Tabs
+
 ### Matching tab 
 
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.  
 
 {% snippet icon.badgeInfo %} 
-For methods of retrieving your credentials, visit [this topic](DevolutionsWebLogin_RetrieveCredentials) . 
+For methods of retrieving your credentials, visit [this topic](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) . 
 {% endsnippet %}
 
 ![Matching Tab](/img/en/server/serverop2033.png)
@@ -22,7 +24,7 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DPS }} through the {{ en.DWL }} extension.  
 
 {% snippet icon.badgeInfo %} 
-For a complete list of the available fields in the ***Add Website*** window, visit [this topic](/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/) . You can also consult our step-by-step guide on [how to add a website entry](Add_a_Website_Entry_with_DWL) . 
+For a complete list of the available fields in the ***Add Website*** window, visit [this topic](/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/) . You can also consult our step-by-step guide on [how to add a website entry](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
 {% endsnippet %}
  
 ### All Entries tab 
@@ -41,7 +43,7 @@ You can access your vaults in two ways:
 * To access a vault in {{ en.DPS }} , click on the ***Open*** button next to a vault to open it in {{ en.DPS }} in a new browser tab. 
 * To access a vault in {{ en.DWL }} , click on it and navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DPS }} , except that only the paths leading to website entries will be displayed. 
 
-When navigating in the folders, the ***Add Website*** button will appear at the bottom of the ***Content Area*** . You can also use the search bar at the top to search in the specific location.  
+When navigating in the folders, the [***Add Website***](/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/) button will appear at the bottom of the ***Content Area*** . You can also use the search bar at the top to search in the specific location.  
 
 ![Vault Navigation via Devolutions Web Login](/img/en/server/serverop2045.png)
 
@@ -78,7 +80,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](/img/en/server/serverop2041.png)
 
 {% snippet icon.badgeInfo %} 
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](Create_an_Account_for_Website) . 
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/server/dwl/using-devolutions-web-login/create-account-website-dwl/) . 
 {% endsnippet %}
  
 ### Entry functionalities 
@@ -88,10 +90,10 @@ No matter what tab you are in (except the ***Password Generator*** tab), when ho
 
 The ***Copy Username*** and ***Copy Password*** buttons copy the username/password of the entry to your clipboard.  
 
-The ***View*** button ![ServerOp2036.png](/img/en/server/ServerOp2036.png) gives you an overview of the entry as well as additional functionalities. The availability of information and functionalities depends on the type of entry and the information provided in the entry, although some of them are always available:  
+The ***View*** button gives you an overview of the entry as well as additional functionalities. The availability of information and functionalities depends on the type of entry and the information provided in the entry, although some of them are always available:  
 
 * ***Edit*** / ***Delete*** the entry or view its password with the vertical ellipsis button at the top right.  
-* Mark your entry as favorite by clicking on the ***Add to Favorites*** icon ![ServerOp2038.png](/img/en/server/ServerOp2038.png) next to the entry name. The entry will then show in the ***Favorites*** tab.  
+* Mark your entry as favorite by clicking on the ***Add to Favorites*** icon next to the entry name. The entry will then show in the ***Favorites*** tab.  
 * View the location of your entry under the ***Vault*** and ***Folder*** (if it is located under a folder) sections.  
 * View and access the ***URL*** associated to the entry.  
 

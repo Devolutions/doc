@@ -3,7 +3,7 @@ title: Using Devolutions Web Login
 order: 40
 ---
 {% snippet icon.badgeNotice %} 
-This topic assumes that you have previously [installed the {{ en.DWL }} extension](installation/) in your browser and that it is [connected to {{ en.DPS }}](/server/dwl/first-login-dwl/) . 
+This topic assumes that you have previously [installed the {{ en.DWL }} extension](/server/dwl/installation/) in your browser and that it is [connected to {{ en.DPS }}](/server/dwl/first-login-dwl/) . 
 {% endsnippet %}
  
 The {{ en.DWL }} browser extension is the tool of choice for users to interact in a password management context with {{ en.DPS }} . It allows for:  
@@ -16,9 +16,9 @@ The {{ en.DWL }} browser extension is the tool of choice for users to interact i
 
 Consult these different topics to learn about useful {{ en.DWL }} features:  
 
-* [Create an Account for a Website](Create_an_Account_for_Website)  
-* [Add a Website Entry](Add_a_Website_Entry_with_DWL)  
-* [Retrieve Credentials](DevolutionsWebLogin_RetrieveCredentials)  
-* [Keyboard Shortcuts](keyboard-shortcuts/)  
+* [Create an Account for a Website](/server/dwl/using-devolutions-web-login/create-account-website-dwl/)  
+* [Add a Website Entry](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/)  
+* [Retrieve Credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/)  
+* [Keyboard Shortcuts](/server/dwl/settings/keyboard-shortcuts/)  
 
 

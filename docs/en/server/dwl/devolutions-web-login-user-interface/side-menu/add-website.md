@@ -47,7 +47,7 @@ Click on the Add Equivalent URL button next to the URL field to display an Equiv
 Equivalent URLs 
 		</td>
 		<td>
-Enter a URL that leads to the same page or is equivalent to the one in the URL field.  
+Enter a URL that leads to the same page or is equivalent to the one in the URL field.  <br>
 
 This field is only available after having clicked on the Add Equivalent URL button next to the URL field. 
 		</td>
@@ -57,6 +57,7 @@ This field is only available after having clicked on the Add Equivalent URL butt
 Delete 
 		</td>
 		<td>
+	
 Delete the Equivalent URLs field next to this button.  
 
 This button is only displayed next to the Equivalent URLs field after having clicked on the Add Equivalent URL button next to the URL field. 
@@ -170,7 +171,7 @@ Cancel the creation of a new website entry and clear all unsaved changes to sett
 </table>
 
 {% snippet icon.badgeInfo %} 
-Follow our step-by-step guide on how to [add a website entry with {{ en.DWL }}](Add_a_Website_Entry_with_DWL) . 
+Follow our step-by-step guide on how to [add a website entry with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
 {% endsnippet %}
  
 
