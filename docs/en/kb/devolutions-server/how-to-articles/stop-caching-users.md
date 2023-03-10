@@ -1,5 +1,5 @@
 ---
-title: Stop caching users and user groups.
+title: Stop Caching Users and User Groups.
 keywords:
 - Cache
 - Microsoft Authentication
@@ -10,5 +10,5 @@ Upon creation of a new {{ en.DPS }} instance with version 2023.1 or later, when 
 
 ## Steps
 
-To have {{ en.DPS }} interact directly with Azure AD without relying on its ***Microsoft Authentication Users and User Groups cache***, disable the ***Enable cache feature*** option in ***Administration - Server Settings - Authentication - Microsoft Authentication***.
+To have {{ en.DPS }} interact directly with Azure AD without relying on its ***Microsoft Authentication Users and User Groups cache***, disable the ***Enable cache feature*** option in ***Administration – Server Settings – Authentication – Microsoft Authentication***.
 ![KB8121.png](/img/en/kb/KB8121.png)
