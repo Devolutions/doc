@@ -53,7 +53,7 @@ Activate the Application key .
 Can save recordings 
 		</td>
 		<td>
-Allow the Application key to save session&apos;s recordings. 
+Allow the Application key to save session's recordings. 
 		</td>
 	</tr>
 </table>

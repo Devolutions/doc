@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 {% youtube 'I3xlKsy6IbE' %}
 
-{{ en.RDM }} frequently offers new updates to release new features, improvements as well as fixes. You can modify this option in the application, if you don&apos;t want to receive the update notifications or change the frequency.
+{{ en.RDM }} frequently offers new updates to release new features, improvements as well as fixes. You can modify this option in the application, if you don't want to receive the update notifications or change the frequency.
 
 ## Settings
 

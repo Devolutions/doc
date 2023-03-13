@@ -26,7 +26,7 @@ Pour localiser votre fichier de configuration, reportez-vous à [Localisation du
 {% endsnippet %}
  
 2. Une fois que vous avez trouvé le bon dossier, ouvrir RemoteDesktopManager.cfg avec votre éditeur de texte favori. 
-3. Sous la ligne &lt;CreationDate&gt;XXXX-XX-XXT00:00:00-00:00&lt;/CreationDate&gt;, changer le &lt;DPIAwareness&gt;Default&lt;/DPIAwareness&gt; à &lt;DPIAwareness&gt;None&lt;/DPIAwareness&gt; et sauvegarder le document. 
+3. Sous la ligne <CreationDate>XXXX-XX-XXT00:00:00-00:00</CreationDate>, changer le <DPIAwareness>Default</DPIAwareness> à <DPIAwareness>None</DPIAwareness> et sauvegarder le document. 
 4. Redémarrer {{ fr.RDM }}. 
 ### Méthode 2 
 1. Fermer {{ fr.RDM }}. 

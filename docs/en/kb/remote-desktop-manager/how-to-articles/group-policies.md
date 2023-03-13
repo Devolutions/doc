@@ -216,7 +216,7 @@ Disable local drive sharing of RDP entries
 	</tr>
 	<tr>
 		<td>
-Disable &quot;Mask password&quot; in View Password
+Disable "Mask password" in View Password
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableMaskPasswordInViewPassword
@@ -878,7 +878,7 @@ Hide the Summary panel located in the Dashboard
 </table>
 
 ### Notes
-Note 1 : %Root% can either be HKEY_LOCAL_MACHINE (HKLM) or HKEY_CURRENT_USER (HKCU) depending on how you want to enforce the policy. Please refer to Microsoft&apos;s documentation to make the best choice for your situation.
+Note 1 : %Root% can either be HKEY_LOCAL_MACHINE (HKLM) or HKEY_CURRENT_USER (HKCU) depending on how you want to enforce the policy. Please refer to Microsoft's documentation to make the best choice for your situation.
 
 ### Sample
 

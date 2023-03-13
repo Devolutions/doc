@@ -16,7 +16,7 @@ The ***Application Passwords*** is a way to quickly authenticate with other Devo
 <a name="account"></a>
 
 1. In ***File -*** ***{{ en.DA }}*** ***- Use application password***.
-1. Enter your {{ en.DA }} &#32; ***Username*** and the ***Application password***.
+1. Enter your {{ en.DA }}   ***Username*** and the ***Application password***.
 1. Click ***OK***.  
 ![KB4797.png](/img/en/kb/KB4797.png)
 

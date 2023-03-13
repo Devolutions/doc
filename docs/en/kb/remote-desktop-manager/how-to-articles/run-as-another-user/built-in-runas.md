@@ -2,7 +2,7 @@
 title: Built-in RunAs
 ---
 {% snippet icon.badgeInfo %}
-This article describes the built in method of using ***Run As*** For sessions types that don&apos;t yet support the built in method you can follow the manual steps outlined [here](/kb/remote-desktop-manager/how-to-articles/run-as-another-user/)
+This article describes the built in method of using ***Run As*** For sessions types that don't yet support the built in method you can follow the manual steps outlined [here](/kb/remote-desktop-manager/how-to-articles/run-as-another-user/)
 {% endsnippet %}
 
 ## Settings

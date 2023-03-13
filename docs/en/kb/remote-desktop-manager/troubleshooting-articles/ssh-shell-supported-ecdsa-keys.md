@@ -1,7 +1,7 @@
 ---
 title: SSH Shell Supported ECDSA Keys
 ---
-&quot;Unknown ecdsa curve group&quot; error appears when connecting to SSH servers.
+"Unknown ecdsa curve group" error appears when connecting to SSH servers.
 ### Solution
 Confirm the public/private key is supported by {{ en.RDM }}  
 

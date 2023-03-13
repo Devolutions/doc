@@ -59,7 +59,7 @@ Select the type of the license that the user has: <br>
 Langage 
 		</td>
 		<td>
-Select the user&apos;s default language. 
+Select the user's default language. 
 		</td>
 	</tr>
 </table>

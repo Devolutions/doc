@@ -1,7 +1,7 @@
 ---
 title: Domain Information
 ---
-Provides the user&apos;s domain information.  
+Provides the user's domain information.  
 
 ![ServerOp8061.png](/img/en/server/ServerOp8061.png)  
 
@@ -19,7 +19,7 @@ DESCRIPTION
 Domain 
 		</td>
 		<td>
-User&apos;s domain name. 
+User's domain name. 
 		</td>
 	</tr>
 	<tr>

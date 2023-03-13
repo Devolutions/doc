@@ -7,4 +7,4 @@ This is a problem caused by Multimaster replication of directory objects. When t
 
 There is a command to run to remove these objects, namely repadmin/removelingeringobject , please consult these references for the recipe to follow.  
 
-[http://technet.microsoft.com/en-us/library/bb727059.aspx and https://social.technet.microsoft.com/Forums/windowsserver/en-US/e9327be6-922c-4b9f-8357-417c3ab6a1af/cnf-remove-from-ad?forum=winserverDS](&lt;%LINK_CAPTION%&gt;)
+[http://technet.microsoft.com/en-us/library/bb727059.aspx and https://social.technet.microsoft.com/Forums/windowsserver/en-US/e9327be6-922c-4b9f-8357-417c3ab6a1af/cnf-remove-from-ad?forum=winserverDS](<%LINK_CAPTION%>)

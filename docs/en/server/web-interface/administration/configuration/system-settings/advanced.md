@@ -17,7 +17,7 @@ Description
 Disable stack trace 
 		</td>
 		<td>
-Disable the stack trace of {{ en.DPS }} in {{ en.RDM }} &apos;s error logs. 
+Disable the stack trace of {{ en.DPS }} in {{ en.RDM }} 's error logs. 
 		</td>
 	</tr>
 </table>

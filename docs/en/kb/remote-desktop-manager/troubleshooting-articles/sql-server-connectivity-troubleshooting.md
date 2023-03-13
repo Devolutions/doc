@@ -68,7 +68,7 @@ If you have an Anti-virus running on your server, you should also make sure that
 <a name="unable"></a>
 
 * Ensure that each SQL Server instances are started and running.
-* Go in ***Help - View Application Log*** to see if relevant error messages are present. There&apos;s a good chance that you will see <a href="#network">A network-related or instance-specific error occurred...</a>
+* Go in ***Help - View Application Log*** to see if relevant error messages are present. There's a good chance that you will see <a href="#network">A network-related or instance-specific error occurred...</a>
 * Create a Universal Data Link (.udl) file to test your SQL Connection (see <a href="#udl">Universal Data Link (.udl) file</a>
 * An Anti-virus or a Firewall could be blocking the application.
 * Check the network settings connectivity.
@@ -123,13 +123,13 @@ When granting rights to the DB using AD group membership and one of your users a
 ```
 select princ.*, perm.* from sys.server_principals princ, sys.server_permissions perm  
 where perm.grantee_principal_id = princ.principal_id  
-AND state_desc = &apos;DENY&apos;  
+AND state_desc = 'DENY'  
 ```
 ### Login failed. the login is from an untrusted domain and cannot be used with windows authentication  
 <a name="untrusted"></a>
 
 ![KB2009.png](/img/en/kb/KB2009.png)  
-The following error message appear when you can&apos;t access {{ en.RDM }} data source with Integrated Authentication when connected to a Dialup VPN.  
+The following error message appear when you can't access {{ en.RDM }} data source with Integrated Authentication when connected to a Dialup VPN.  
 
 1. Locate your VPN connectionspbk file.
 1. You can find it here: %APPDATA%\Microsoft\Network\Connections\Pbk or if you have it set to allow all users to use the connection, you can find it here: C:\ProgramData\Microsoft\Network\Connections\Pbk

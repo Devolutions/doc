@@ -1,11 +1,11 @@
 ---
 title: Welcome Page
 ---
-We added a new ***Getting Started*** page at the opening of {{ en.RDM }} but you don&apos;t want to see it every time you open our application.  
+We added a new ***Getting Started*** page at the opening of {{ en.RDM }} but you don't want to see it every time you open our application.  
 
 There are 2 ways of removing that page:  
 
-If you haven&apos;t closed it yet, click on ***Don&apos;t show again*** in the upper left corner.  
+If you haven't closed it yet, click on ***Don't show again*** in the upper left corner.  
 ![KB4109.png](/img/en/kb/KB4109.png)  
 Or go in ***File - Options - User Interface*** and uncheck ***Show Welcome page at start-up***  
 ![KB4110.png](/img/en/kb/KB4110.png)

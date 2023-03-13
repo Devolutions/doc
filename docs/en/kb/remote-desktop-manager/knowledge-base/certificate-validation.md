@@ -3,7 +3,7 @@ title: Certificate Validation
 ---
 When {{ en.RDM }} connects to a URL using the HTTPS protocol, it will validate the certificate using industry best practices. The first hurdle is to validate that your device trusts the authority that issued the certificate, called the Root Certification Authority (CA). Each certificate is typically a hierarchy of intermediate CAs under a root, each one typically under the jurisdiction of a different legal entity. The end result is that each level adds their own validation steps.  
 
-For certain organizations with a mature infoseq practice, other departments have final authority on all network communications, we have created options to disable certain validations, but this should be done as a last resort action. &#160;Please look at the <a href="#certificatesecurityrelatedoptions">Certificate Security options</a> section below  
+For certain organizations with a mature infoseq practice, other departments have final authority on all network communications, we have created options to disable certain validations, but this should be done as a last resort action.  Please look at the <a href="#certificatesecurityrelatedoptions">Certificate Security options</a> section below  
 {% snippet icon.badgeCaution %}
 Often times, users will focus on {{ en.RDM }} as the most likely source of the error, but since we use basicnet features to perform the validation, a bug is unlikely. Ultimately, if running the certificate validation using tools that are offered with your operating system indicate an error, {{ en.RDM }} will also indicate one. To quickly identify if this is the case, export the certificate by:
 1. Choosing View Certificate in our Certificate validation error dialog
@@ -43,7 +43,7 @@ Will accept the certificate for this session only.
 Continue and Remember
 		</td>
 		<td>
-Will accept the certificate and remember your choice. To &quot;forget&quot; a certificate that had been previously added, you must clear the certificate exemption list using the <a href="#certificatesecurityrelatedoptions">Certificate Security related options</a>
+Will accept the certificate and remember your choice. To "forget" a certificate that had been previously added, you must clear the certificate exemption list using the <a href="#certificatesecurityrelatedoptions">Certificate Security related options</a>
 		</td>
 	</tr>
 	<tr>

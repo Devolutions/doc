@@ -13,4 +13,4 @@ Call it as follows:
 
 `SWGVC.exe /E connection_name /U username /P password`  
 
-The CLI must be able to connect, {{ en.RDM }} doesn&apos;t perform anything additional to make it work.
+The CLI must be able to connect, {{ en.RDM }} doesn't perform anything additional to make it work.

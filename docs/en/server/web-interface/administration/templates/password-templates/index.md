@@ -36,9 +36,9 @@ Mode
 		<td>
 Chose a ***Mode*** setting for the passwords.  
 
-* ***Default*** &#32; : Customize the length and the minimum number of characters per type you would want the passwords to have. 
+* ***Default***   : Customize the length and the minimum number of characters per type you would want the passwords to have. 
 * ***Advanced settings*** : Select the length, type and number of characters to include in the passwords. Include and exclude specific characters. 
-* ***Readable password*** &#32; : Generate passwords that are readable but are not actual words. 
+* ***Readable password***   : Generate passwords that are readable but are not actual words. 
 * <a href="/server/web-interface/administration/templates/password-templates/use-a-pattern-password/" target="_blank">***Use a pattern***</a>: Select any pattern you need to create the passwords, you can also exclude certain characters if desired. A list of the most recent used pattern will also be created. 
 * ***Pronounceable password*** : Generate passwords that are pronounceable, but are not actual words. 
 		</td>
@@ -64,7 +64,7 @@ Will include the underline ( _ ) character for password generation.
 High ANSI characters 
 		</td>
 		<td>
-Will include characters from &apos;-&apos; to U255 (excluding U255) for password generation. 
+Will include characters from '-' to U255 (excluding U255) for password generation. 
 		</td>
 	</tr>
 	<tr>
@@ -77,7 +77,7 @@ Will include the minus ( - ) character for password generation.
 	</tr>
 	<tr>
 		<td>
-Brackets ([,], (,), &lt;,&gt;) 
+Brackets ([,], (,), <,>) 
 		</td>
 		<td>
 Will include brackets characters for password generation. 
@@ -93,7 +93,7 @@ Will include digits for password generation.
 	</tr>
 	<tr>
 		<td>
-Special (!, $, %, &amp;, ...) 
+Special (!, $, %, &, ...) 
 		</td>
 		<td>
 Will include special characters for password generation. 

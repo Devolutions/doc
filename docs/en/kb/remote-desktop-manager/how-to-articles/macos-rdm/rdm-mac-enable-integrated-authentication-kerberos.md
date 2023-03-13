@@ -2,7 +2,7 @@
 eleventyComputed:
   title: RDM {{ en.MAC }} Enable Integrated Authentication with Kerberos
 ---
-In order to use Integrated Authentication (Windows Authentication) on macOS, you will need to setup a ***Kerberos*** &#32; ***ticket*** linking your current user to a Windows domain account. A summary of key steps are included below.  
+In order to use Integrated Authentication (Windows Authentication) on macOS, you will need to setup a ***Kerberos***   ***ticket*** linking your current user to a Windows domain account. A summary of key steps are included below.  
 
 {% snippet icon.badgeWarning %}
 This experimental feature has worked in our internal tests and is a workaround to the integrated security feature which does not work on macOS with SQL Server.  

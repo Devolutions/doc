@@ -17,7 +17,7 @@ This scenario is for when you are already authenticated on a domain/workgroup an
 
 * ### Delayed Authentication
 
-This scenario is for when it is impossible to log on your machine using the other set of credentials. For example you need to connect to a client&apos;s domain using your laptop that is on your company&apos;s domain. This will require using the /NETONLY parameter of RunAs.
+This scenario is for when it is impossible to log on your machine using the other set of credentials. For example you need to connect to a client's domain using your laptop that is on your company's domain. This will require using the /NETONLY parameter of RunAs.
 
 ### Examples
 
@@ -25,7 +25,7 @@ The RunAs command is invoked from an entry of the ***Command line*** type. Creat
 
 ### Example 1: Running a command prompt as another user of the same workgroup/domain
 
-1. You can use the ellipsis button to browse for the runas.exe command, but if you are in a shared data source and the session is used on various operating systems, it&apos;s better to type in &quot;%systemroot%\system32\runas.exe&quot; because it will work on all of them.
+1. You can use the ellipsis button to browse for the runas.exe command, but if you are in a shared data source and the session is used on various operating systems, it's better to type in "%systemroot%\system32\runas.exe" because it will work on all of them.
 1. Append /user:$DOMAIN$\$USERNAME$ , keeping it outside of the quotes. Note the use of two variables that will pull the appropriate value from other fields of the same session. For more information please consult the Variables topic.
 1. Append the name of the executable you want to run. Enclose it in quotes if the full path contains spaces. In our case we can simply add ***CMD***  
 ![KB4573.png](/img/en/kb/KB4573.png)

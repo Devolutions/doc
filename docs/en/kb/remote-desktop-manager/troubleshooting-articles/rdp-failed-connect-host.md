@@ -6,7 +6,7 @@ Error silent: failed to connect to the host (131084) for {{ en.MAC }}
 
 ![KB4066.png](/img/en/kb/KB4066.png)
 ## Solution
-Usually, this error occurs because of a failure in the pre-authentication &quot;handshake&quot;.  
+Usually, this error occurs because of a failure in the pre-authentication "handshake".  
 
 Make sure to verify the following:  
 

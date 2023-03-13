@@ -62,7 +62,7 @@ Prevent users from saving passwords in the User Specific Settings.
 Allow reveal credentials (if enabled in the entry) 
 		</td>
 		<td>
-Shows the credentials if the box &quot;Allow show credentials (everybody)&quot; is check inside the entry. 
+Shows the credentials if the box "Allow show credentials (everybody)" is check inside the entry. 
 		</td>
 	</tr>
 	<tr>
@@ -142,8 +142,8 @@ Password template check
 		<td> 
 
 * None : No template will be used when creating a password. 
-* Required : When a user creates a password, he will get a warning that the password doesn&apos;t respect the template. The user cannot save the password. 
-* Warning : When a user creates a password, he will get a warning that the password doesn&apos;t respect the template. The user can save the password. 
+* Required : When a user creates a password, he will get a warning that the password doesn't respect the template. The user cannot save the password. 
+* Warning : When a user creates a password, he will get a warning that the password doesn't respect the template. The user can save the password. 
 		</td>
 	</tr>
 	<tr>

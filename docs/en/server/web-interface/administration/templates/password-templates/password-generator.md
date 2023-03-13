@@ -78,7 +78,7 @@ Will include the underline ( _ ) character for password generation.
 High ANSI characters 
 		</td>
 		<td>
-Will include characters from &apos;-&apos; to U255 (excluding U255) for password generation. 
+Will include characters from '-' to U255 (excluding U255) for password generation. 
 		</td>
 	</tr>
 	<tr>
@@ -91,7 +91,7 @@ Will include the minus ( - ) character for password generation.
 	</tr>
 	<tr>
 		<td>
-Brackets ([,], (,), &lt;,&gt;) 
+Brackets ([,], (,), <,>) 
 		</td>
 		<td>
 Will include brackets characters for password generation. 
@@ -107,7 +107,7 @@ Will include digits for password generation.
 	</tr>
 	<tr>
 		<td>
-Special (!, $, %, &amp;, ...) 
+Special (!, $, %, &, ...) 
 		</td>
 		<td>
 Will include special characters for password generation. 

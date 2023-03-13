@@ -13,8 +13,8 @@ You can now go under ***File - Options - Types - Credentials*** , under the Last
 
 Here is a brief overview of what each mode does:  
 
-1. Don&apos;t trust this device: You will be prompted for your 2FA every time you will use your LastPass entry.
+1. Don't trust this device: You will be prompted for your 2FA every time you will use your LastPass entry.
 1. Trust this device: You will be prompted once for your 2FA on this device.
 1. Trust this device (clear on application close): You will be prompted once for your 2FA on this device but the token will be cleared when you will close the application.  
 
-Note: If you are using multiple LastPass account with a 2FA configured, you will be prompted for each separate account. The number of times you will be prompted will vary depending on the &quot;Two-factor authentication mode&quot; chosen above.
+Note: If you are using multiple LastPass account with a 2FA configured, you will be prompted for each separate account. The number of times you will be prompted will vary depending on the "Two-factor authentication mode" chosen above.

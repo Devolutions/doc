@@ -24,7 +24,7 @@ Choose your method of GeoIP between:<br>
 
 None : Will not be using GeoIP security  
 
-MaxMind : Use the MaxMind&apos;s GeoIP database to look up the city, AS number and other information for an IP address. Connect to your account by entering your User ID and License Key in the appropriate field and then select the countries you wish to grant access to your {{ en.RDMS }} . 
+MaxMind : Use the MaxMind's GeoIP database to look up the city, AS number and other information for an IP address. Connect to your account by entering your User ID and License Key in the appropriate field and then select the countries you wish to grant access to your {{ en.RDMS }} . 
 		</td>
 	</tr>
 	<tr>

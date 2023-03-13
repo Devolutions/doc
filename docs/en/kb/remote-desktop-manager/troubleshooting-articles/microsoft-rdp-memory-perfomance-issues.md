@@ -26,7 +26,7 @@ You can then turn on a single setting to see if it affects the performance negat
 
 1. Uncheck all settings in the ***Local Resources*** tab.
 1. Check ***Disable display scaling*** on high DPI settings in the options.
-1. Download and install Microsoft RDCMan to see if it&apos;s related to the RDP ActiveX. {{ en.RDM }} uses the same technology and this will ensure that your workstation doesn&apos;t have configuration issues.  
+1. Download and install Microsoft RDCMan to see if it's related to the RDP ActiveX. {{ en.RDM }} uses the same technology and this will ensure that your workstation doesn't have configuration issues.  
 
 ### Connections fail for some hosts.
 

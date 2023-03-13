@@ -1,7 +1,7 @@
 ---
 title: Large Memory Aware Application
 ---
-{{ en.RDM }} 64 bit version allow the application to use as much memory as is available, in the meantime, we&apos;ve modified {{ en.RDM }} to allow it to access more memory, but this must be paired with a modification to your operating system.  
+{{ en.RDM }} 64 bit version allow the application to use as much memory as is available, in the meantime, we've modified {{ en.RDM }} to allow it to access more memory, but this must be paired with a modification to your operating system.  
 
 {% snippet icon.badgeInfo %}
 You can perform this only if you have more than 2 GB of RAM.

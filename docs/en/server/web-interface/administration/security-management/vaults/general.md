@@ -17,7 +17,7 @@ Description
 Name 
 		</td>
 		<td>
-Vault&apos;s name. 
+Vault's name. 
 		</td>
 	</tr>
 	<tr>
@@ -25,7 +25,7 @@ Vault&apos;s name.
 Description 
 		</td>
 		<td>
-Vault&apos;s description. 
+Vault's description. 
 		</td>
 	</tr>
 	<tr>

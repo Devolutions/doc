@@ -1,7 +1,7 @@
 ---
 title: Caching
 ---
-You are not seeing the content that you&apos;re expecting to see in the Navigation pane.  
+You are not seeing the content that you're expecting to see in the Navigation pane.  
 
 This issue can be caused by a corruption of the local cache. There are several methods to refresh the local cache in {{ en.RDM }}
 ## Solution

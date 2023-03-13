@@ -5,7 +5,7 @@ keywords:
 ---
 ## What is {{ en.RDMS }}?
 
-{{ en.RDMS }} is a specialized data source for our various client applications of the &#32; {{ en.RDM }} platform. 
+{{ en.RDMS }} is a specialized data source for our various client applications of the   {{ en.RDM }} platform. 
 
 ## Why buy {{ en.RDMS }}?
 

@@ -25,7 +25,7 @@ To locate your config file refer to [Configuration File Location](/kb/remote-des
 {% endsnippet %}
  
 2. Once you have found the right folder, open RemoteDesktopManager.cfg with your preferred text editor. 
-3. Under the line &lt;CreationDate&gt;XXXX-XX-XXT00:00:00-00:00&lt;/CreationDate&gt; change to None the &lt;DPIAwareness&gt;Default&lt;/DPIAwareness&gt; and save. 
+3. Under the line <CreationDate>XXXX-XX-XXT00:00:00-00:00</CreationDate> change to None the <DPIAwareness>Default</DPIAwareness> and save. 
 4. Restart {{ en.RDM }}. 
 ### Method 2 
 1. Close {{ en.RDM }}. 

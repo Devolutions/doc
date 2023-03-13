@@ -1,7 +1,7 @@
 ---
 title: Enable 2FA for Users
 ---
-While it&apos;s still not possible to force the configuration of a 2FA at the user level without the {{ en.DPS }} , a few options have been added in {{ en.RDM }} that could suit your needs.  
+While it's still not possible to force the configuration of a 2FA at the user level without the {{ en.DPS }} , a few options have been added in {{ en.RDM }} that could suit your needs.  
 
 {% snippet icon.badgeCaution %}
 These features are only available when using an [Advanced Data Source](https://help.remotedesktopmanager.com/datasources_advanced.html)

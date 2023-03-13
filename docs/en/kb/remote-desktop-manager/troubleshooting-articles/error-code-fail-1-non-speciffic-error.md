@@ -5,7 +5,7 @@ keywords:
 - -1
 - FAIL
 ---
-In version 2020.3.12.0 and higher of {{ en.RDM }} an error message when opening a ssh connection can appear: &quot;An unexpected error has occurred: Error code FAIL (-1) non specific error&quot;.
+In version 2020.3.12.0 and higher of {{ en.RDM }} an error message when opening a ssh connection can appear: "An unexpected error has occurred: Error code FAIL (-1) non specific error".
 ### Solution  
 {% snippet icon.badgeCaution %}
 {{ en.RDM }} has now a selection of algorithms for the SSH session type. Please note that the unsecured ones are not enabled by default. We therefore recommend that you check the algorithms directly on your server for security purpose. Otherwise, you can follow the steps below to resolve this issue.
@@ -17,7 +17,7 @@ In the ***Advanced*** tab of your session, set the ***Algorithm support*** optio
 {{ en.RDM }} might need to be restarted for the solutions to take effect.
 {% endsnippet %}  
 
-It&apos;s also possible to globally reactivate all the algorithms in {{ en.RDM }} via the ***File - Options - Types - Terminal - Algorithm support*** menu.  
+It's also possible to globally reactivate all the algorithms in {{ en.RDM }} via the ***File - Options - Types - Terminal - Algorithm support*** menu.  
 ![KB4654.png](/img/en/kb/KB4654.png)
 If you are still unable to connect after enabling the algorithm, go into the entry ***Properties - Advanced*** tab and check the ***Skip environment variable setup***  
 ![KB4702.png](/img/en/kb/KB4702.png)

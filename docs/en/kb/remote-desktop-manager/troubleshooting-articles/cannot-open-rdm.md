@@ -1,7 +1,7 @@
 ---
 title: Cannot Open Remote Desktop Manager
 ---
-{{ en.RDM }} doesn&apos;t open after the splash screen.
+{{ en.RDM }} doesn't open after the splash screen.
 ### Solution
 This is due to an issue with the {{ en.RDM }} configuration file. The file is located in ***%localappdata% - Devolutions - RemoteDesktopManager*** and is called RemoteDesktopManager.cfg  
 

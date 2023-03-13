@@ -16,7 +16,7 @@ Here are the steps:
 
 Some software (i.e. Cisco VPN Anyconnect) requires the use of FIPS. If this is your case, you must implement the alternative solution described below.
 ### Solution 2
-Inside {{ en.RDM }} &apos;s installation folder, create a text file named RemoteDesktopManager.exe.config containing the following:  
+Inside {{ en.RDM }} 's installation folder, create a text file named RemoteDesktopManager.exe.config containing the following:  
 
 ```
 <configuration>  

@@ -1,7 +1,7 @@
 ---
 title: White Labeling Customizations
 ---
-You can customize the {{ en.DPS }} web interface logo&apos;s to better serve your own customers.  
+You can customize the {{ en.DPS }} web interface logo's to better serve your own customers.  
 
 Brandring is possible in ***Administration – Server Settings – Advanced*** .  
 

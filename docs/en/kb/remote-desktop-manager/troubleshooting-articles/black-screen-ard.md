@@ -9,7 +9,7 @@ Activating logging on the mac may help the Devolutions Support team or the Engin
 
 ***sudo defaults write /Library/Preferences/com.apple.RemoteManagement ARDCollectLogs -bool YES***  
 
-Once this is done, you can try to connect normally using Remote Dekstop Manager. The log will then be located in ***/tmp*** folder on the Mac computer. &#160;Simply send them to [service@devolutions.net](mailto:service@devolutions.net) with details of your issue.  
+Once this is done, you can try to connect normally using Remote Dekstop Manager. The log will then be located in ***/tmp*** folder on the Mac computer.  Simply send them to [service@devolutions.net](mailto:service@devolutions.net) with details of your issue.  
 
 To turn off logging, execute this command:  
 

@@ -1,7 +1,7 @@
 ---
 title: Mobile Device Management Configuration from RDM
 ---
-The Devolutions environment does not have a Mobile Device Management (MDM) tool to push the configuration to other user&apos;s iOS and/or Android devices. But with the use of an application like Workspace One it is possible to do so.
+The Devolutions environment does not have a Mobile Device Management (MDM) tool to push the configuration to other user's iOS and/or Android devices. But with the use of an application like Workspace One it is possible to do so.
 
 ### Solution
 

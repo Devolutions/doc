@@ -1,7 +1,7 @@
 ---
 title: Access Violation Exception Error in RDP Sessions
 ---
-When trying to open a RDP session entry, you may encounter the error message &quot;An unexpected error has occurred. Please check the application logs for more information.&quot;  
+When trying to open a RDP session entry, you may encounter the error message "An unexpected error has occurred. Please check the application logs for more information."  
 ![Error Message](/img/en/kb/KB2128.png)  
 When checking the application logs, the following error is displayed: 
 System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt. 

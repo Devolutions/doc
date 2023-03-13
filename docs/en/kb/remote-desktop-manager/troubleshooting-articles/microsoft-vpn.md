@@ -1,7 +1,7 @@
 ---
 title: Microsoft VPN
 ---
-These types of VPNs can use either the RASDIAL or RASPHONE applications for establishing the connection. Please consult Microsoft&apos;s article on their differences and usage.  
+These types of VPNs can use either the RASDIAL or RASPHONE applications for establishing the connection. Please consult Microsoft's article on their differences and usage.  
 
 You can refer to this Microsoft TechNet article for more information on RASDIAL: [https://technet.microsoft.com/en-us/library/bb490979.aspx](https://technet.microsoft.com/en-us/library/bb490979.aspx)  
 

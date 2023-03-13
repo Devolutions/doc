@@ -23,7 +23,7 @@ On login, the option to do an ***Emergency Login*** will become available.
 ![KB4990.png](/img/en/kb/KB4990.png)
 1. Enter a ***Username*** and click ***Request Emergency Code***  
 {% snippet icon.badgeInfo %}
-For Active Directory systems, the ***Username*** must be entered following the User Principal Name (UPN) format. Meaning that the &quot;username&quot; is followed by the &quot;at sign&quot; followed by the name of the Internet domain with which the user is associated.
+For Active Directory systems, the ***Username*** must be entered following the User Principal Name (UPN) format. Meaning that the "username" is followed by the "at sign" followed by the name of the Internet domain with which the user is associated.
 {% endsnippet %}  
 
 ![KB4991.png](/img/en/kb/KB4991.png)

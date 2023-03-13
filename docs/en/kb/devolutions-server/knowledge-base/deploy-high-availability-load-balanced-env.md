@@ -6,7 +6,7 @@ title: Deploy in an High Availability or Load Balanced Environment
 ### Key points
 * The {{ en.DPS }} instances are not able to discover the public name of the whole infrastructure, it must be provided using a few different strategies.  
 * We are basically stateless as far as the session state goes, but there are benefits in using the server affinity strategy since the server cache is heavily used to persist tokens and user membership information (for UserGroups/Roles). &Choose whatever strategy for server assignment (round-robin, randomized, etc.), but use server affinity from then on.
-* Our security layer prevents token reuse, it therefore validates the client IP address. It&apos;s essential that the true origin information be relayed downstream to the {{ en.DPS }} instance.
+* Our security layer prevents token reuse, it therefore validates the client IP address. It's essential that the true origin information be relayed downstream to the {{ en.DPS }} instance.
 * Our IP whitelisting/blacklisting features also validate the client IP address.
 
 ### Preparation

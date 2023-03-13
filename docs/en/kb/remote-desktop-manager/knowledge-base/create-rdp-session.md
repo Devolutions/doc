@@ -1,7 +1,7 @@
 ---
 title: Create a RDP Session
 ---
-When it comes to entries, there are a lot of different options. Here&apos;s a quick way to set up an ***RDP (Microsoft Remote Desktop)*** entry:  
+When it comes to entries, there are a lot of different options. Here's a quick way to set up an ***RDP (Microsoft Remote Desktop)*** entry:  
 
 1. Name the entry
 1. Enter the ***Host*** address

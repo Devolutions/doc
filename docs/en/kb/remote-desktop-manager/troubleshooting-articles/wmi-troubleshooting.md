@@ -1,9 +1,9 @@
 ---
 title: WMI Troubleshooting
 ---
-Here&apos;s a primer on remote WMI: [https://msdn.microsoft.com/en-us/library/aa389290.aspx](https://msdn.microsoft.com/en-us/library/aa389290.aspx)  
+Here's a primer on remote WMI: [https://msdn.microsoft.com/en-us/library/aa389290.aspx](https://msdn.microsoft.com/en-us/library/aa389290.aspx)  
 
-In our environment, we basically run winrm quickconfig on all our machines, for those not joined to a domain we also add them to the TrustedHosts list. For machines not joined to a domain, there&apos;s an added difficulty if you are using the IP address instead of the Host name, it definitely offers a few challenges.  
+In our environment, we basically run winrm quickconfig on all our machines, for those not joined to a domain we also add them to the TrustedHosts list. For machines not joined to a domain, there's an added difficulty if you are using the IP address instead of the Host name, it definitely offers a few challenges.  
 
 A good strategy is to get remoteWMI to work, then we integrate it in RDM. We like to use WMIC.  
 
@@ -33,7 +33,7 @@ Below, an example with other credentials;
 
 `wmic /NODE:"ComputerName" /user:"username" /password:"password" bios get serialnumber`
 ### Problem 4
-Load from inventory doesn&apos;t work. Error getting Bios information.
+Load from inventory doesn't work. Error getting Bios information.
 ### Solution 4
 This error can be many things please validate the following:  
 

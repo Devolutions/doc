@@ -11,7 +11,7 @@ Follow the steps below to complete the installation of {{ en.DWL }} in the Chrom
 ![Add Devolutions Web Login.png](/img/en/dwl/Dwl4002.png)
 1. Once installed, a confirmation box will appear.  
 ![Confirmation Box.png](/img/en/dwl/Dwl4044.png)
-1. Click the Chrome ***Extensions*** button and ***Pin*** &#32; {{ en.DWL }} to finish the installation.  
+1. Click the Chrome ***Extensions*** button and ***Pin***   {{ en.DWL }} to finish the installation.  
 ![Pin Devolutions Web Login.png](/img/en/dwl/Dwl4003.png)  
 
 You can now access the extension by clicking the {{ en.DWL }} button in the top-right corner of your Chrome web browser. 

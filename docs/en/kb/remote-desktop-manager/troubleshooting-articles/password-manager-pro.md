@@ -16,7 +16,7 @@ During the creation of an API User in Password Manager Pro, a ***Host*** (Comput
 
 Another reason for this error we have seen is that the DNS name of the server was specified, but it would work perfectly fine if you were using the IP address instead. Please test it with the procedure described below.
 ### TESTING PROCEDURE WITH POWERSHELL.
-Here is a script that you can use to test your access from a client workstation. Save the following code in a file called PMPTest.ps1. The technology used in the script is the same as is used from within {{ en.RDM }} , therefore it&apos;s the most conclusive test. If you contact Password Manager Pro support, they can provide a Java based test fixture. It is not as useful except to prove that the server basically responds to your queries.  
+Here is a script that you can use to test your access from a client workstation. Save the following code in a file called PMPTest.ps1. The technology used in the script is the same as is used from within {{ en.RDM }} , therefore it's the most conclusive test. If you contact Password Manager Pro support, they can provide a Java based test fixture. It is not as useful except to prove that the server basically responds to your queries.  
 
 ```
 [CmdletBinding()]  
@@ -72,5 +72,5 @@ In some organization, IP addresses are blocked and the host name of the Password
 
 1. Close {{ en.RDM }}
 1. Find the {{ en.RDM }} [Configuration File](https://help.remotedesktopmanager.com/installation_configurationfilelocation.html)
-1. Edit the configuration file and add the line &lt;ResolvePMProURLIntoIPAddress&gt;false&lt;/ResolvePMProURLIntoIPAddress&gt;.
+1. Edit the configuration file and add the line <ResolvePMProURLIntoIPAddress>false</ResolvePMProURLIntoIPAddress>.
 1. Save the modification and restart the application.

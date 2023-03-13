@@ -3,11 +3,11 @@ title: Microsoft RDP Errors
 ---
 ### Problem 1
 
-Cannot copy &lt;filename&gt;: windows cannot find ‘%1!|s!’. Check the spelling and try again, or try searching for the item by clicking the start button and clicking search.
+Cannot copy <filename>: windows cannot find ‘%1!|s!’. Check the spelling and try again, or try searching for the item by clicking the start button and clicking search.
 
 ### Solution 1
 
-This is a bug in the Microsoft Remote Desktop Client. The workaround is to enable the ***Smart Card*** in Windows, even if it&apos;s not required for the connection.
+This is a bug in the Microsoft Remote Desktop Client. The workaround is to enable the ***Smart Card*** in Windows, even if it's not required for the connection.
 
 ### Problem 2
 
@@ -28,7 +28,7 @@ I have multiple sessions to the same computer with different credentials, but it
 
 ### Solution 3
 
-This issue stems from the fact that the Windows Credential repository holds only one entry per Windows user for a remote computer. If you use the Embedded (tabbed) display mode and store the password in the database, you&apos;ll be able to work around this limitation.
+This issue stems from the fact that the Windows Credential repository holds only one entry per Windows user for a remote computer. If you use the Embedded (tabbed) display mode and store the password in the database, you'll be able to work around this limitation.
 
 ### Problem 4
 
@@ -63,7 +63,7 @@ Copy/paste operation within the remote host are extremely slow.
 
 ### Solution 6
 
-We&apos;ve isolated the issue to ***Serial Ports*** being enabled. Turn off ***Serial port sharing*** and see if the performance is improved.
+We've isolated the issue to ***Serial Ports*** being enabled. Turn off ***Serial port sharing*** and see if the performance is improved.
 
 ### Problem 7
 
@@ -71,7 +71,7 @@ Log on username on windows server 2012 is sent incorrectly
 
 ### Solution 7
 
-When you try to connect to a Windows Server 2012, you see the following result. There are several spaces that shouldn&apos;t be there.  
+When you try to connect to a Windows Server 2012, you see the following result. There are several spaces that shouldn't be there.  
 
 ![KB4074.png](/img/en/kb/KB4074.png)  
 

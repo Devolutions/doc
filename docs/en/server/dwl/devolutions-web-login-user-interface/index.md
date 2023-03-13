@@ -34,7 +34,7 @@ Using the tabs of the ***Side Menu*** , you can access various {{ en.DWL }} feat
 Each tab will display a different view in the ***Content Area*** . The tabs available when using {{ en.DWL }} with {{ en.DPS }} are:  
 
 * the ***Matching*** tab, where you can find available credentials for a specific website.  
-* the ***All Entries*** tab, &#160;where you can find all the {{ en.DPS }} entries you synchronized, divided into your different vaults and folders.  
+* the ***All Entries*** tab,  where you can find all the {{ en.DPS }} entries you synchronized, divided into your different vaults and folders.  
 * the ***Favorites*** tab, where you can find a list of your favorite entries.  
 * the ***Recent*** tab, where you can find a list of the entries that you recently used.  
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  

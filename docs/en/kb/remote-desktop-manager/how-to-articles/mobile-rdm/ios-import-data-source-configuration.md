@@ -11,7 +11,7 @@ It is possible to import data source configuration files for {{ en.RDM }} iOS.
 ![KB4174.png](/img/en/kb/KB4174.png)
 1. Click ***Apps*** In the ***File Sharing*** area, select ***RDM*** and click ***Add*** file.  
 ![KB4175.png](/img/en/kb/KB4175.png)
-1. Select therdd file exported from {{ en.RDM }} and click ***Open*** The file is now copied in the device but still needs to be imported in {{ en.RDM }} for iOS&apos;s file repository.
+1. Select therdd file exported from {{ en.RDM }} and click ***Open*** The file is now copied in the device but still needs to be imported in {{ en.RDM }} for iOS's file repository.
 
 ### Import the data source
 

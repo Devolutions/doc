@@ -12,7 +12,7 @@ The following topic contains the procedure to configure Azure and {{ en.DPS }} p
 1. Once logged in, go to ***Azure Active Directory - Properties***  
 3.1. Click on the ***Copy to clipboard*** button beside the ***Tenant ID*** property.  
 ![KB4401.png](/img/en/kb/KB4401.png)
-3.2. Paste this value in the ***Tenant ID*** field of the {{ en.DPS }} &#32; ***Microsoft Authentication*** configuration page.  
+3.2. Paste this value in the ***Tenant ID*** field of the {{ en.DPS }}   ***Microsoft Authentication*** configuration page.  
 {% snippet icon.badgeInfo %}
 The ***Use specific client ID for users and user groups cache*** option should only be check to support configurations when migrating from an older {{ en.DPS }} version.
 {% endsnippet %}  
@@ -34,19 +34,19 @@ The ***Use specific client ID for users and user groups cache*** option should o
 
 5.6. Click on the ***Copy to clipboard*** button next to the ***Application (client) ID***  
 ![KB4407.png](/img/en/kb/KB4407.png)
-5.7. Paste the ***Application (client) ID*** in the ***Client ID*** field of the Web application section of the {{ en.DPS }} &#32; ***Microsoft Authentication*** configuration page.  
+5.7. Paste the ***Application (client) ID*** in the ***Client ID*** field of the Web application section of the {{ en.DPS }}   ***Microsoft Authentication*** configuration page.  
 ![KB4984.png](/img/en/kb/KB4984.png)
 5.8. Select the ***Authentication*** tab of the Azure Web application and enable the ***ID tokens*** under the ***Implicit grant and hybrid flows*** section.  
 ![KB4418.png](/img/en/kb/KB4418.png)
 5.9. Click ***Save***  
 
-5.10. Select the ***Certificates &amp; secrets*** tab and click ***New client secret***  
+5.10. Select the ***Certificates & secrets*** tab and click ***New client secret***  
 ![KB5011.png](/img/en/kb/KB5011.png)
 5.11. Set a description and when this client secret key will expire. Then click on the ***Add*** button.  
 ![KB4423.png](/img/en/kb/KB4423.png)
 5.12. Click on the ***Copy to clipboard*** button of the ***Value*** Be sure to save the ***Value*** in a safe place as once you will switch to another page of the Azure portal, the copy button will no longer be available.  
 ![KB4424.png](/img/en/kb/KB4424.png)
-5.13. Paste the ***Value*** in the ***Secret key*** field of the Web application section of the {{ en.DPS }} &#32; ***Microsoft Authentication*** configuration page.  
+5.13. Paste the ***Value*** in the ***Secret key*** field of the Web application section of the {{ en.DPS }}   ***Microsoft Authentication*** configuration page.  
 ![KB4985.png](/img/en/kb/KB4985.png)
 5.14. Select the ***API permissions*** tab of the Azure Web application and click on the ***Add a permissions*** button.  
 ![KB4427.png](/img/en/kb/KB4427.png)
@@ -59,15 +59,15 @@ The ***Use specific client ID for users and user groups cache*** option should o
 ![KB4987.png](/img/en/kb/KB4987.png)
 5.18. Click the ***User.Read*** permission and click on the ***Remove permission*** button.  
 ![KB4432.png](/img/en/kb/KB4432.png)
-5.19. Confirm the removal by clicking ***Yes, remove*** since this permission isn&apos;t required for the Sync application.  
+5.19. Confirm the removal by clicking ***Yes, remove*** since this permission isn't required for the Sync application.  
 
 5.20. If the ***Status*** of the ***User.Read.All*** and ***Group.Read.All*** permissions are at ***Not granted*** , an administrator must grant consent.  
 {% snippet icon.shieldCaution %}
-It may be possible that the newly added permissions require an Azure administrator to consent. If the account used to create the application is already an administrator in Azure, click on the ***Grant admin consent for &lt;your organization&gt;*** button.
+It may be possible that the newly added permissions require an Azure administrator to consent. If the account used to create the application is already an administrator in Azure, click on the ***Grant admin consent for <your organization>*** button.
 {% endsnippet %}  
 
 ![KB8010.png](/img/en/kb/KB8010.png)
-6. This is how the {{ en.DPS }} &#32; ***Microsoft Authentication*** configuration page should look like. Click ***Save***  
+6. This is how the {{ en.DPS }}   ***Microsoft Authentication*** configuration page should look like. Click ***Save***  
 ![KB4981.png](/img/en/kb/KB4981.png)
 7. You will then be able to use the ***Microsoft*** button on the web interface.  
 {% snippet icon.badgeCaution %}

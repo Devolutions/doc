@@ -23,7 +23,7 @@ Select the ***Microsoft SQL Server*** data source and click ***OK***
 - Authenticate with a user that is part of the ***sysadmin*** role.  
 ![KB4589.png](/img/en/kb/KB4589.png)  
 {% snippet icon.badgeInfo %}
-If the logged-on Windows User is not part of the SQL Server ***sysadmin*** role and you&apos;ve configured the server to use SQL Server and Windows Authentication Mode, then use a SQL Server user (SA for example) that has the appropriate user groups assigned. You can then add yourself as a {{ en.RDM }} user later and change the data source to use Integrated security.
+If the logged-on Windows User is not part of the SQL Server ***sysadmin*** role and you've configured the server to use SQL Server and Windows Authentication Mode, then use a SQL Server user (SA for example) that has the appropriate user groups assigned. You can then add yourself as a {{ en.RDM }} user later and change the data source to use Integrated security.
 {% endsnippet %}  
 
 - From the upgrade tab, click ***Test Server*** then ***Create Database*** to create the SQL Server database.  

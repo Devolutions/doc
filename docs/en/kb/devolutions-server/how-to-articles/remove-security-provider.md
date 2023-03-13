@@ -14,7 +14,7 @@ The following procedure explains how to remove the Security Provider and impleme
 1. Ensure no users are connected to the {{ en.DPS }} data source or the {{ en.DPS }} web interface. It is possible to verify and disconnect all users in Reports - Connected User List on the {{ en.DPS }} web interface.
 1. Switch the {{ en.DPS }} instance to offline with the ***Go Offline*** button on the {{ en.DVLSCONSOLE }}  
 ![Go Offline.png](/img/en/kb/KB8046.png)
-1. If the Scheduler is installed, please uninstall it from the {{ en.DVLSCONSOLE }} in the Companions tab. Please note that if a service account is configured to run the Scheduler service, ensure to have the service account&apos;s password to reinstall it at the end of the procedure.  
+1. If the Scheduler is installed, please uninstall it from the {{ en.DVLSCONSOLE }} in the Companions tab. Please note that if a service account is configured to run the Scheduler service, ensure to have the service account's password to reinstall it at the end of the procedure.  
 ![Uninstall the Scheduler](/img/en/kb/KB8083.png)
 1. Backup the {{ en.DPS }} web application folder. Or if possible, take a snapshot of the virtual machine were {{ en.DPS }} is hosted.
 1. Make a full database backup.
@@ -24,7 +24,7 @@ The following procedure explains how to remove the Security Provider and impleme
 ![KB8049.png](/img/en/kb/KB8049.png)
 1. Switch the {{ en.DPS }} instance to online mode using the Go Online button.  
 ![Go Online.png](/img/en/kb/KB8050.png)
-1. Once completed, verify that the data is available like the entries&apos; configuration, passwords, etc. Verify the documents or attachments that exist in the database.  
+1. Once completed, verify that the data is available like the entries' configuration, passwords, etc. Verify the documents or attachments that exist in the database.  
 {% snippet icon.badgeInfo %}
 If {{ en.DPS }} is installed in a Load Balancing/High Availability topology, only remove the Security Provider on one node. Then refresh the other nodes to notice that the Security Provider has been removed.
 {% endsnippet %}  

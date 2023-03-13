@@ -297,7 +297,7 @@ X
 Integrated virtualization consoles
 		</td>
 		<td>
-Offers a quick overview of a machine&apos;s state using integrated virtualization consoles, such as Hyper-V, Terminal Server, Citrix XenServer and VMware.
+Offers a quick overview of a machine's state using integrated virtualization consoles, such as Hyper-V, Terminal Server, Citrix XenServer and VMware.
 		</td>
 		<td>
 X

@@ -18,7 +18,7 @@ Description
 Authentication type 
 		</td>
 		<td>
-Select the user group&apos;s authentication type:  
+Select the user group's authentication type:  
 
 * {{ en.RDMS }} : create a user group in {{ en.RDMS }} . 
 * Domain : Active Directory group. 

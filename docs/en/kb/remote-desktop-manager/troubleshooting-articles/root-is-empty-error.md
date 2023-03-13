@@ -12,7 +12,7 @@ at Devolutions.RemoteDesktopManager.Forms.FrmMainRibbonBase.RefreshAllConnection
 at Devolutions.RemoteDesktopManager.Managers.MainFormManager.DoFirstLoad(IMainForm mainform)  
 at Devolutions.RemoteDesktopManager.Forms.FrmMainDocumentManager.cae3b4c7c167cf0d9747ac4fee11ac00a(Object c19f185fd70cefc696ba148af1c4faf54, EventArgs cf1018bb83ec7debd818319fd3cb4844e)  
 at System.Windows.Forms.Timer.OnTick(EventArgs e)  
-at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message&amp; m)  
+at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)  
 at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)  
 ### Solution
 ### Method 1

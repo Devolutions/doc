@@ -1,7 +1,7 @@
 ---
 title: Security
 ---
-Allow to protect the vault&apos;s modification from other administrator accounts. 
+Allow to protect the vault's modification from other administrator accounts. 
 
 ![Vaults - Security](/img/en/server/ServerOp8071.png)  
 
@@ -19,7 +19,7 @@ Description
 Master password 
 		</td>
 		<td>
-Master password to protect vault&apos;s modifications. 
+Master password to protect vault's modifications. 
 		</td>
 	</tr>
 </table>

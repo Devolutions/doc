@@ -14,8 +14,8 @@ Access the database via SQL Server Management Studio and execute the following s
 
 UPDATE dbo.DatabaseInfo  
 
-SET Settings = REPLACE(Settings, &apos;&lt;AllowAccessWindowsPVM&gt;false&lt;/AllowAccessWindowsPVM&gt;&apos;, &apos;&apos;)  
+SET Settings = REPLACE(Settings, '<AllowAccessWindowsPVM>false</AllowAccessWindowsPVM>', '')  
 
 UPDATE dbo.DatabaseInfo  
 
-SET Settings = REPLACE(Settings, &apos;&lt;AllowAccessWindowsRDM&gt;true&lt;/AllowAccessWindowsRDM&gt;&apos;, &apos;&apos;)  
+SET Settings = REPLACE(Settings, '<AllowAccessWindowsRDM>true</AllowAccessWindowsRDM>', '')  

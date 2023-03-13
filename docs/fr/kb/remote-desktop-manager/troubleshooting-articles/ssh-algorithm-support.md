@@ -53,11 +53,11 @@ Si le problème persiste sur une seule entrée, vous pouvez exécuter le script 
 *Modifier - Sélection de l'action spéciale*{.caption} 
 1. Coller le script suivant dans le champ ***Commande*** : 
 ```
-$Connection.Terminal.AlgorithmSupportMode = &quot;Custom&quot; 
-$Connection.Terminal.SshAlgorithmCipherList = &quot;aes256-gcm@openssh.com=True;aes128-gcm@openssh.com=True;aes128-cbc=True;aes192-cbc=True;aes256-cbc=True;rijndael-cbc@lysator.liu.se=True;3des-cbc=True&quot; 
-$Connection.Terminal.SshAlgorithmHostKeyList = &quot;ssh-dss=True&quot; 
-$Connection.Terminal.SshAlgorithmKexList = &quot;diffie-hellman-group14-sha1=True;diffie-hellman-group-exchange-sha1=True;diffie-hellman-group1-sha1=True&quot; 
-$Connection.Terminal.SshAlgorithmMaclist = &quot;hmac-sha1-96=True;hmac-sha1=True;hmac-md5-96=True;hmac-md5=True&quot; 
+$Connection.Terminal.AlgorithmSupportMode = "Custom" 
+$Connection.Terminal.SshAlgorithmCipherList = "aes256-gcm@openssh.com=True;aes128-gcm@openssh.com=True;aes128-cbc=True;aes192-cbc=True;aes256-cbc=True;rijndael-cbc@lysator.liu.se=True;3des-cbc=True" 
+$Connection.Terminal.SshAlgorithmHostKeyList = "ssh-dss=True" 
+$Connection.Terminal.SshAlgorithmKexList = "diffie-hellman-group14-sha1=True;diffie-hellman-group-exchange-sha1=True;diffie-hellman-group1-sha1=True" 
+$Connection.Terminal.SshAlgorithmMaclist = "hmac-sha1-96=True;hmac-sha1=True;hmac-md5-96=True;hmac-md5=True" 
 $RDM.Save(); 
 ```
 4. Cliquer sur ***OK***. 

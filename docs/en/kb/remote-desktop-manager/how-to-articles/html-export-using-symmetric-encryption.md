@@ -1,13 +1,13 @@
 ---
 title: HTML Export Using Symmetric Encryption
 ---
-As we all know, email isn&apos;t secure. But it’s convenient, fast and free – and so many of us ignore the security risks.  
+As we all know, email isn't secure. But it’s convenient, fast and free – and so many of us ignore the security risks.  
 
 Yet when you step back and think about it, ask yourself: Would you ever think of sending cash through the regular mail? Even sending it through a courier is risky! But if you send sensitive information via email, that’s pretty much what you’re doing.  
 
 Fortunately, there’s a solution!  
 
-We&apos;ve developed a feature that allows for symmetric encryption of sensitive information, so that it can then be securely sent via email (or any other protocol) while keeping the data safe.  
+We've developed a feature that allows for symmetric encryption of sensitive information, so that it can then be securely sent via email (or any other protocol) while keeping the data safe.  
 
 This feature can also be used to save/export/backup sensitive information to disk.  
 
@@ -32,7 +32,7 @@ We use AES-256 to encrypt/decrypt your sensitive data. Since the decryption is d
 
 ![KB4555.png](/img/en/kb/KB4555.png)
 
-## Safe &amp; Smart Virtual Backup
+## Safe & Smart Virtual Backup
 
 In addition, HTML Export using symmetric encryption is a great way to securely – and virtually – backup your passwords and other sensitive information. It allows you to share information via email, or simply send the file to your personal email account as a backup. The possibilities are endless, and it’s just another way that we’re working hard to help you centralize it, secure it and simplify IT!
 

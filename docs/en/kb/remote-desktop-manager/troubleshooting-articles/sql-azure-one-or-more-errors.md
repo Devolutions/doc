@@ -3,7 +3,7 @@ title: SQL Azure One or More Errors Occurred
 ---
 After following the steps in [Configure Azure Active Directory App Registration](https://help.remotedesktopmanager.com/datasources_advanced_sqlazure_configureappregistration.html) , you receive the error message below:  
 
-System.AggregateException: One or more errors occurred. ---&gt; System.AggregateException: One or more errors occurred
+System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred
 ## Solution 1
 Validate that the type of ***Redirect URI*** is set to ***Mobile and desktop application***  
 ![KB4964.png](/img/en/kb/KB4964.png)  

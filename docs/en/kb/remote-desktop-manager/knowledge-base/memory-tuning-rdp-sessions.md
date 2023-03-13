@@ -1,7 +1,7 @@
 ---
 title: Memory Tuning of RDP Sessions
 ---
-By default, the RDP protocol will reserve a sizable chunk of memory right from the start of a session for caching purposes, but we have some level of control over that. In the ***Experience*** tab of the RDP session, there is a ***Cache*** setting that you can use to control the behavior. It&apos;s values are as follows:  
+By default, the RDP protocol will reserve a sizable chunk of memory right from the start of a session for caching purposes, but we have some level of control over that. In the ***Experience*** tab of the RDP session, there is a ***Cache*** setting that you can use to control the behavior. It's values are as follows:  
 
 <table>
 	<tr>

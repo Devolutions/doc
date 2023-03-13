@@ -7,7 +7,7 @@ This topic describes the troubleshooting steps for when establishing a session t
 
 ### Embedded mode issues
 
-Our Embedded (tabbed) display mode uses the Microsoft ActiveX and offers the most customization options, but is inherently different than using mstsc.exe. When wanting to ensure the issue is really in {{ en.RDM }} vs being an issue with the ActiveX, the procedure is to try to replicate the scenario with Microsoft&apos;s RDCMan. You can obtain that tool from [http://www.microsoft.com/en-ca/download/details.aspx?id=44989](http://www.microsoft.com/en-ca/download/details.aspx?id=44989) Install it, create sessions like you have in {{ en.RDM }} , then open them concurrently or in repetition to replicate the issue you think lies in {{ en.RDM }}
+Our Embedded (tabbed) display mode uses the Microsoft ActiveX and offers the most customization options, but is inherently different than using mstsc.exe. When wanting to ensure the issue is really in {{ en.RDM }} vs being an issue with the ActiveX, the procedure is to try to replicate the scenario with Microsoft's RDCMan. You can obtain that tool from [http://www.microsoft.com/en-ca/download/details.aspx?id=44989](http://www.microsoft.com/en-ca/download/details.aspx?id=44989) Install it, create sessions like you have in {{ en.RDM }} , then open them concurrently or in repetition to replicate the issue you think lies in {{ en.RDM }}
 
 ### Comparing our settings to a native rdp file
 

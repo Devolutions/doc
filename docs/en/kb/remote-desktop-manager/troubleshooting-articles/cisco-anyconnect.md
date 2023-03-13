@@ -1,7 +1,7 @@
 ---
 title: Cisco AnyConnect
 ---
-The Cisco AnyConnect add-on doesn&apos;t send the proper information like the password or the group number to the vpncli.exe DOS window to establish the VPN connection.  
+The Cisco AnyConnect add-on doesn't send the proper information like the password or the group number to the vpncli.exe DOS window to establish the VPN connection.  
 
 For example, only the half of the password is sent to the Cisco AnyConnect window.
 ### Solution

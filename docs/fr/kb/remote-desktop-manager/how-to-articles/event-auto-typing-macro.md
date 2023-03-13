@@ -1,7 +1,7 @@
 ---
 title: Événement de Macro clavier
 ---
-La ***Macro clavier*** s&apos;exécute automatiquement lorsqu&apos;une connexion a été établie.  
+La ***Macro clavier*** s'exécute automatiquement lorsqu'une connexion a été établie.  
 
 {% snippet icon.shieldWarning %} 
 Cette fonctionnalité envoie simplement des frappes de clavier fournies par le .NET Framework, comme si quelqu’un se servait réellement de son clavier. Les frappes sont envoyées directement au système d’exploitation. Ces dernières sont ensuite prises en charge par l’application actuellement en focus, peu importe laquelle . Si une autre fenêtre fait l’objet de ce focus, alors les identifiants seront probablement dévoilés lors de leur saisie dans une zone de texte.  
@@ -20,7 +20,7 @@ Les touches du clavier sont représentées par des balises prédéfinies entre d
 
 ### Touches spéciales 
 
-Pour saisir des caractères qui n&apos;apparaissent pas normalement (comme Entrée ou Tab ) ainsi que ceux qui représentent des actions, veuillez vous référer au tableau suivant :  
+Pour saisir des caractères qui n'apparaissent pas normalement (comme Entrée ou Tab ) ainsi que ceux qui représentent des actions, veuillez vous référer au tableau suivant :  
 
 <table>
 	<tr>

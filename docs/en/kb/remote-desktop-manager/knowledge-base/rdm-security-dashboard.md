@@ -144,7 +144,7 @@ Security groups have been replaced by the permissions system. Legacy security is
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - Security Settings , &#160;uncheck Use legacy security
+In Administration - System Settings - Security Settings ,  uncheck Use legacy security
 		</td>
 	</tr>
 </table>
@@ -372,7 +372,7 @@ It is preferable to provide rights to users as needed. When enabling this option
 Mitigation
 		</td>
 		<td>
-In Administration - &#32; System Settings - Security , check Create vaults with restricted access by default
+In Administration -   System Settings - Security , check Create vaults with restricted access by default
 		</td>
 	</tr>
 </table>

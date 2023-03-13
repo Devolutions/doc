@@ -5,7 +5,7 @@ keywords:
 ---
 Here are five RDM team tips.
 
-## Security, Users &amp; user groups
+## Security, Users & user groups
 
 Sharing session information is great -- but controlling access is bliss.
 

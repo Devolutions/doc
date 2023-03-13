@@ -6,17 +6,17 @@ When running PowerShell (RDM CmdLet) after deploying {{ en.RDM }} from the *.zip
 
 Exception occurred while initializing the installation:  
 
-System.IO.FileLoadException: Could not load file or assembly &apos;file<area>:///C:\Tools\Devolutions\RDM\RDM For Phone Support\RemoteDesktopManager.PowerShell.dll&apos; or one of its dependencies. Operation is not supported. (Exception from HRESULT: 0x80131515).  
+System.IO.FileLoadException: Could not load file or assembly 'file<area>:///C:\Tools\Devolutions\RDM\RDM For Phone Support\RemoteDesktopManager.PowerShell.dll' or one of its dependencies. Operation is not supported. (Exception from HRESULT: 0x80131515).  
 ![KB4115.png](/img/en/kb/KB4115.png)
 ### Solution 1
-You must unblock ***RemoteDesktopManager.PowerShell.dll*** &amp; ***RemoteDesktopManager.Core.XmlSerializers.dll*** The 2 files are located in the installation folder of {{ en.RDM }}  
+You must unblock ***RemoteDesktopManager.PowerShell.dll*** & ***RemoteDesktopManager.Core.XmlSerializers.dll*** The 2 files are located in the installation folder of {{ en.RDM }}  
 
-Right-click on ***RemoteDesktopManager.PowerShell.dll*** &amp; ***RemoteDesktopManager.Core.XmlSerializers.dll*** and select ***Properties*** then click on ***Unblock***  
+Right-click on ***RemoteDesktopManager.PowerShell.dll*** & ***RemoteDesktopManager.Core.XmlSerializers.dll*** and select ***Properties*** then click on ***Unblock***  
 ![KB4116.png](/img/en/kb/KB4116.png)
 ### Problem 2
 Cannot load Windows PowerShell snap-in Remote.Desktop.Manager.10.0.4 because of the following error:  
 
-Could not load file or assembly &apos;file<area>:///C:\Program Files (x86)\Devolutions\Remote Desktop Manager\RemoteDesktopManager.PowerShell.dll&apos; or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.
+Could not load file or assembly 'file<area>:///C:\Program Files (x86)\Devolutions\Remote Desktop Manager\RemoteDesktopManager.PowerShell.dll' or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.
 ### Solution 2
 PowerShell v.4.0 needs to be installed. To get your PowerShell version, execute the following command: $PSVersionTable
 ### Problem 3

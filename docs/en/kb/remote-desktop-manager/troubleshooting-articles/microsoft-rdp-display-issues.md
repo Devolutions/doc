@@ -1,7 +1,7 @@
 ---
 title: Microsoft RDP Display Issues
 ---
-### The Remote session&apos;s content is blurry
+### The Remote session's content is blurry
 
 Uncheck Persistent bitmap caching under the Experience tab in the properties of your RDP session.  
 

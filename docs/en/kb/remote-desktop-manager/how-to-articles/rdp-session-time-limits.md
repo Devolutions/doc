@@ -9,7 +9,7 @@ What follows is the procedure to perform on a single host computer.
 
 ## Procedure
 
-1. Launch ***Edit group policy*** (Press the windows key, and type &quot;edit group policy&quot;, for Windows 8 it is in the ***Settings*** category).
+1. Launch ***Edit group policy*** (Press the windows key, and type "edit group policy", for Windows 8 it is in the ***Settings*** category).
 1. Browse to: ***Computer Configuration - Administrative Templates - Windows Components - Remote Desktop Services - Remote Desktop Session Host - Session Time limits*** The settings are described as follows (when you alter the setting using the Group Policy Editor, you will see a detailed description).  
    |     |     |
    | --- | --- |

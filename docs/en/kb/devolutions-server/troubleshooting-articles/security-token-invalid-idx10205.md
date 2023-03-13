@@ -7,7 +7,7 @@ When trying to connect on {{ en.DPS }} from {{ en.RDM }} or through the web Ui, 
 SecurityTokenInvalidIssuerException - IDX10205: Issuer validation failed. Issuer: 'System.String'. Did not match: validationParameters.ValidIssuer: 'System.String' or validationParameters.ValidIssuers: 'System.String'.
   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuer(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters)
   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
-  at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken&amp; validatedToken)
+  at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
   at Devolutions.Server.Handler.OAuthHelper.LoginWithOAuth(String bearerToken)
 ```
 

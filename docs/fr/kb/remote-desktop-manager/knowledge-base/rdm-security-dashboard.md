@@ -90,7 +90,7 @@ Les groupes de sécurité ont été remplacés par le système de permissions. L
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - Paramètres de sécurité , &#160;décochez Utiliser l'ancienne sécurité . 
+Dans Administration - Paramètres du système - Paramètres de sécurité ,  décochez Utiliser l'ancienne sécurité . 
 		</td>
 	</tr>
 </table>
@@ -263,7 +263,7 @@ Il est préférable de fournir des droits aux utilisateurs seulement au besoin. 
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - &#32; Paramètres du système - Paramètres de sécurité , cochez Créer un coffre avec un accès restreint par défaut . 
+Dans Administration -   Paramètres du système - Paramètres de sécurité , cochez Créer un coffre avec un accès restreint par défaut . 
 		</td>
 	</tr>
 </table>

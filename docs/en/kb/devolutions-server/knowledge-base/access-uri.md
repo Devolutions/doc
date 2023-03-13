@@ -13,7 +13,7 @@ During the upgrade process or the installation process of {{ en.DPS }} , we must
 1. Enter the ***Access URI*** in the text field following the format provided in the Scenarios.  
 
 {% snippet icon.badgeNotice %}
-The Access URI is case sensitive and must respect the certificate host name. Ensure that there is no &apos;/&apos; at the end of the URL.
+The Access URI is case sensitive and must respect the certificate host name. Ensure that there is no '/' at the end of the URL.
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}

@@ -41,7 +41,7 @@ H. Check ***Ask for ticket number*** if you are required to provide a ticket num
 
 I. Set the default ***Username format*** to be able to connect to the remote machine. It can also be changed in the dashboard for ad hoc connections, but this will be the default format for this dashboard instance.  
 
-J. ***Domain field*** drop-down list (relevant only when the ***Username format*** drop-down list is set to the ***Field*** value): Depending on how your {{ en.VLT }} was set up, there can be various CyberArk fields used to hold the domain information. Choose the value that corresponds to your {{ en.VLT }} &apos;s settings.  
+J. ***Domain field*** drop-down list (relevant only when the ***Username format*** drop-down list is set to the ***Field*** value): Depending on how your {{ en.VLT }} was set up, there can be various CyberArk fields used to hold the domain information. Choose the value that corresponds to your {{ en.VLT }} 's settings.  
 
 ![KB4930.png](/img/en/kb/KB4930.png)
 ### PVWA

@@ -13,7 +13,7 @@ In order to have the same mapped drives, you have a few options:
 ### Problem 2
 Could not load file or assembly "system.enterpriseservices.wrapper.dll or one of its dependencies". The system cannot find the path specified.
 ### Solution 2
-This error is due to a corrupted Microsoft&apos;sNET Framework installation. Please consult the [Corrupted System File](/kb/remote-desktop-manager/troubleshooting-articles/net-corrupted-system-file/) topic for more information on how to resolve this issue.
+This error is due to a corrupted Microsoft'sNET Framework installation. Please consult the [Corrupted System File](/kb/remote-desktop-manager/troubleshooting-articles/net-corrupted-system-file/) topic for more information on how to resolve this issue.
 ### Problem 3
 Mixed mode assembly is built against version 2.0.50727 of the runtime.  
 
@@ -25,7 +25,7 @@ The end result should look like:
 
 `<startup useLegacyV2RuntimeActivationPolicy="true">`
 ### Problem 4
-Can&apos;t paste in any fields of {{ en.RDM }}
+Can't paste in any fields of {{ en.RDM }}
 ### Solution 4
 Webroot SecureAnywhere AntiVirus may cause the issue because of the Identity Protection module. Set remotedesktopmanager.exe to ***Allow*** and it will let you paste again in the application.
 ### Problem 5

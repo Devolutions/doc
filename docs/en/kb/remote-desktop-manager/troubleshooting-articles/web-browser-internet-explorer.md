@@ -22,7 +22,7 @@ By default {{ en.RDM }} does not use the latest IE version (emulation mode). Thi
 ### Problem 4
 Accessviolationexception - attempted to read or write protected memory.
 ### Solution 4
-When a crash occurs in {{ en.RDM }} while using some ActiveX in IE, it&apos;s often caused by Data Execution Prevention (DEP). DEP is a security feature included in Windows. It is used to prevent an application or service from executing code from a non-executable memory region.  
+When a crash occurs in {{ en.RDM }} while using some ActiveX in IE, it's often caused by Data Execution Prevention (DEP). DEP is a security feature included in Windows. It is used to prevent an application or service from executing code from a non-executable memory region.  
 
 To fix this, change the DEP settings for the application as follows:  
 
@@ -41,7 +41,7 @@ The ForegroundLockTimeout registry value for the User’s Profile has to be modi
 
 [HKEY_CURRENT_USER\Control Panel\Desktop]  
 
-&quot;ForegroundLockTimeout&quot;=dword:00000000  
+"ForegroundLockTimeout"=dword:00000000  
 
 Please note that some programs that have an extensive library of add-ons (Like MS Word) may take the focus every time the add-on performs an action. You have to observe the reaction of your most used programs and judge what is the setup that works best for you.
 ### Problem 6

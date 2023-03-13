@@ -54,7 +54,7 @@ Required
 	</tr>
 </table>
 
-3. Select who receives 2FA reset requests from users. You can choose to send the email to all {{ en.RDMS }} &#32; administrators or a specific email . 
+3. Select who receives 2FA reset requests from users. You can choose to send the email to all {{ en.RDMS }}   administrators or a specific email . 
 1. If you chose to send reset requests to an email address instead of the {{ en.RDMS }} administrators, enter the email address in specific email . 
 1. Select the 2FA types users can authenticate with. Choose as many as necessary. 
 1. If you chose 2FA usage as Required in step 3 , choose the Default 2FA type. 

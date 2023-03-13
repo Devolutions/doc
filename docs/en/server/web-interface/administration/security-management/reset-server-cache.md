@@ -24,7 +24,7 @@ User Groups<br>
 Users<br>
 		</td>
 		<td>
-When selecting one of those options, when resetting the cache, it will pull back all the information from the database and put the information in the server&apos;s memory cache. 
+When selecting one of those options, when resetting the cache, it will pull back all the information from the database and put the information in the server's memory cache. 
 		</td>
 	</tr>
 	<tr>

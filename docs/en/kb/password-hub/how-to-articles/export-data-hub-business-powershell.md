@@ -3,7 +3,7 @@ eleventyComputed:
   title: Export Data from {{ en.PHUB }} Business with PowerShell
 ---
 
-In {{ en.PHUB }} Business, you can export your data in the Json or Csv format using a [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2&amp;viewFallbackFrom=powershell-7.1) script. This feature is accessible via the ***Tools*** tab, under the ***Export*** section.  
+In {{ en.PHUB }} Business, you can export your data in the Json or Csv format using a [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2&viewFallbackFrom=powershell-7.1) script. This feature is accessible via the ***Tools*** tab, under the ***Export*** section.  
 ![Export with PowerShell.png](/img/en/kb/KB2079.png)
 
 ## Steps
@@ -24,7 +24,7 @@ Go to the section that corresponds to your needs:
 
 1. In ***Tools – Export with PowerShell*** , select the ***Automatic*** tab.  
 ![Automatic Export.png](/img/en/kb/KB2080.png)
-1. Enter your application user&apos;s ***Application Secret*** and ***Application key*** in the corresponding fields.
+1. Enter your application user's ***Application Secret*** and ***Application key*** in the corresponding fields.
 1. Enter the ***Destination folder path*** in the corresponding field. This is where your data will be exported.
 1. Choose to export in ***Json*** or ***Csv*** format.
 1. Click the ***Download*** button to download the PowerShell script.

@@ -9,7 +9,7 @@ title: Configurer une source de données client
 ![KB4013.png](/img/fr/kb/KB4013.png) 
 1. Définir les paramètres. 
 {% snippet icon.badgeInfo %} 
-Si vous saisissez %USERDOMAIN%\%USERNAME% dans la zone de texte des identifiants de l&apos;utilisateur, la valeur des variables d’environnement qui y correspondent sera utilisée. 
+Si vous saisissez %USERDOMAIN%\%USERNAME% dans la zone de texte des identifiants de l'utilisateur, la valeur des variables d’environnement qui y correspondent sera utilisée. 
 {% endsnippet %}  
  
 ![KB4014.png](/img/fr/kb/KB4014.png) 

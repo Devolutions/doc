@@ -21,7 +21,7 @@ Description
 Available 
 		</td>
 		<td>
-List of available session&apos;s types. 
+List of available session's types. 
 		</td>
 	</tr>
 	<tr>
@@ -29,7 +29,7 @@ List of available session&apos;s types.
 Quick add 
 		</td>
 		<td>
-List of the selected session&apos;s type that are available for the Quick add buttons. 
+List of the selected session's type that are available for the Quick add buttons. 
 		</td>
 	</tr>
 </table>

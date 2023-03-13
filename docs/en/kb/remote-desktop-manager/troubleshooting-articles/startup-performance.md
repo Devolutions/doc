@@ -45,6 +45,6 @@ If the profiler log reveals slowness on one of the 3 offline loading (between 10
 
 We do not recommend turning off the antivirus protection in risky conditions. You should close all browsers and ensure that only essential applications are running. We also suggest this step only for a short duration in order to see the startup time of the application change significantly.  
 
-If your antivirus application allows it, simply turn off monitoring of {{ en.RDM }} &apos;s installation folder. If you are comfortable with turning of the whole antivirus protection, do this to test the startup time.  
+If your antivirus application allows it, simply turn off monitoring of {{ en.RDM }} 's installation folder. If you are comfortable with turning of the whole antivirus protection, do this to test the startup time.  
 
 There is nothing we can do in this case. It is only a step that helps in isolating the cause.

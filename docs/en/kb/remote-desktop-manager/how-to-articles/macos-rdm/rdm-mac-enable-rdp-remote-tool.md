@@ -6,7 +6,7 @@ eleventyComputed:
 Devolutions Proxy is deprecated, this function will work with {{ en.DPS }}
 {% endsnippet %}  
 
-It&apos;s possible to get access to the Remote Tools such as Terminal Services, Remote Event or Remote Service as an example in a RDP session in {{ en.RDM }} for Mac.  
+It's possible to get access to the Remote Tools such as Terminal Services, Remote Event or Remote Service as an example in a RDP session in {{ en.RDM }} for Mac.  
 
 Prior to your configuration in {{ en.RDM }} for Mac, a Devolutions Proxy needs to be configured via {{ en.RDM }} for Windows.  
 

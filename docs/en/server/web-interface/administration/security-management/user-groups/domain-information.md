@@ -1,7 +1,7 @@
 ---
 title: Domain Information
 ---
-Provides the user group&apos;s domain information. 
+Provides the user group's domain information. 
 
 ![ServerOp8013.png](/img/en/server/ServerOp8013.png) 
 
@@ -19,7 +19,7 @@ Description
 Domain 
 		</td>
 		<td>
-User group&apos;s domain name. 
+User group's domain name. 
 		</td>
 	</tr>
 	<tr>

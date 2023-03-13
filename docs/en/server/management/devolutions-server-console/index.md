@@ -55,7 +55,7 @@ Create a new {{ en.DPS }} instance.
 Edit 
 		</td>
 		<td>
-Edit the selected {{ en.DPS }} instance&apos;s properties. 
+Edit the selected {{ en.DPS }} instance's properties. 
 		</td>
 	</tr>
 	<tr>

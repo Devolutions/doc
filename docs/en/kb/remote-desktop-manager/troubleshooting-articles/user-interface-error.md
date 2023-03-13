@@ -5,7 +5,7 @@ For many cases of user interface error in {{ en.RDM }} , click on ***Windows*** 
 ![KB4095.png](/img/en/kb/KB4095.png)  
 ![KB4753.png](/img/en/kb/KB4753.png)  
 ### Problem 1
-The ribbon has been hidden and I don&apos;t know how to make it visible.
+The ribbon has been hidden and I don't know how to make it visible.
 ### Solution 1
 Use Alt + F11 or use the system menu of the application, check the ***Top Pane*** command.
 ### Problem 2

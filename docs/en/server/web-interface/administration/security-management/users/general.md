@@ -18,7 +18,7 @@ Description
 Authentication type 
 		</td>
 		<td>
-Select the user&apos;s authentication type: 
+Select the user's authentication type: 
 
 * ***{{ en.RDMS }}*** : create a user in {{ en.RDMS }} without creating an SQL login. 
 * ***Domain*** : authenticate using the Active Directory user account. 
@@ -79,7 +79,7 @@ Check to force the user to change the password next time they log on.
 First name 
 		</td>
 		<td>
-Enter the user&apos;s first name. 
+Enter the user's first name. 
 		</td>
 	</tr>
 	<tr>
@@ -87,7 +87,7 @@ Enter the user&apos;s first name.
 Last name 
 		</td>
 		<td>
-Enter the user&apos;s last name. 
+Enter the user's last name. 
 		</td>
 	</tr>
 	<tr>
@@ -95,7 +95,7 @@ Enter the user&apos;s last name.
 Email (required) 
 		</td>
 		<td>
-Enter the user&apos;s email address. 
+Enter the user's email address. 
 		</td>
 	</tr>
 	<tr>
@@ -103,7 +103,7 @@ Enter the user&apos;s email address.
 Langage 
 		</td>
 		<td>
-Language of the user&apos;s web interface. 
+Language of the user's web interface. 
 		</td>
 	</tr>
 </table>

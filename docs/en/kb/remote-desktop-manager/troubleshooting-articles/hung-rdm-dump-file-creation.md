@@ -8,7 +8,7 @@ Follow this procedure ONLY when guided by a Devolutions support specialist.
 There are no guarantees that we can identify the issue, but following this procedure may guide Devolutions towards identifying the root cause.
 {% endsnippet %}
 
-The following procedure makes use of a tool offered by Microsoft&apos;s Technet, namely the [Sysinternals Suite](https://learn.microsoft.com/en-ca/sysinternals/downloads/) The tool that we need is ***Process Explorer*** It will monitor {{ en.RDM }} and allow to create a dump file.  
+The following procedure makes use of a tool offered by Microsoft's Technet, namely the [Sysinternals Suite](https://learn.microsoft.com/en-ca/sysinternals/downloads/) The tool that we need is ***Process Explorer*** It will monitor {{ en.RDM }} and allow to create a dump file.  
 
 1. Download and install the [Sysinternals Suite](https://learn.microsoft.com/en-ca/sysinternals/downloads/) utilities.
 1. From the installation folder start the application procexp64.exe or procexp.exe

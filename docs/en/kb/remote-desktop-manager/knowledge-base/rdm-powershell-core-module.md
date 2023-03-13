@@ -7,7 +7,7 @@ Starting with {{ en.RDM }} version 2021.2.8.0, the PowerShell module needs to be
 This also means that there is no need to install {{ en.RDM }} on a machine to run PowerShell scripts. The module is now sufficient.  
 
 {% snippet icon.badgeInfo %}
-To connect on an [Advanced Data Source](https://help.remotedesktopmanager.com/datasources_advanced.html) , the account used to connect to the data source must have an assigned RDM license. The usage of an [application key](https://helpserver.devolutions.net/webinterface_applications.html) with a {{ en.DPS }} data source doesn&apos;t require a license.
+To connect on an [Advanced Data Source](https://help.remotedesktopmanager.com/datasources_advanced.html) , the account used to connect to the data source must have an assigned RDM license. The usage of an [application key](https://helpserver.devolutions.net/webinterface_applications.html) with a {{ en.DPS }} data source doesn't require a license.
 {% endsnippet %}  
 
 ### How to install
@@ -29,21 +29,21 @@ Default: %ProgramFiles(x86)%\Devolutions\Remote Desktop Manager\RemoteDesktopMan
 
 ```
 $override = Get-RDMPowerShellOverride  
-$override.OptionFilePath = &quot;PathToCfg&quot; # C:\RemoteDesktopManager\2021.2\config\RemoteDesktopManager.cfg  
-$override.RemoteDesktopManagerExecutablePath = &quot;Path to desired RDM version&quot; # C:\RemoteDesktopManager\2021.2\Devolutions.RemoteDesktopManager.Bin.2021.2.11.0\RemoteDesktopManager64.exe  
+$override.OptionFilePath = "PathToCfg" # C:\RemoteDesktopManager\2021.2\config\RemoteDesktopManager.cfg  
+$override.RemoteDesktopManagerExecutablePath = "Path to desired RDM version" # C:\RemoteDesktopManager\2021.2\Devolutions.RemoteDesktopManager.Bin.2021.2.11.0\RemoteDesktopManager64.exe  
 Set-RDMPowerShellOverride  
 # Restart Powershell  
 ```
 ### Manual installation
 On some machines, it may be required to install the {{ en.RDM }} PowerShell module manually. Here are the steps to complete this process.  
 
-1. Download the NUPKG file from the {{ en.RDM }} &#32; [PSGallery page](https://www.powershellgallery.com/packages/RemoteDesktopManager)
+1. Download the NUPKG file from the {{ en.RDM }}   [PSGallery page](https://www.powershellgallery.com/packages/RemoteDesktopManager)
 1. Change extension file to zip.
-1. Extract in C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\&lt;version&gt;\
+1. Extract in C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\<version>\
 1. Unblock all newly extracted files.
 
 ```
-cd c:\program files\WindowsPowerShell\modules\remotedesktopmanager\&lt;version&gt;  
+cd c:\program files\WindowsPowerShell\modules\remotedesktopmanager\<version>  
 dir * | unblock-file -verbose  
 ```
 ### Basic Troubleshooting
@@ -59,7 +59,7 @@ C:\windows\system32\WindowsPowerShell\v1.0\Modules
 ### Query the version of the PowerShell and the Configuration File in use
 ```
 Get-RDMInstance  
-PS C:\RemoteDesktopManager\2021.2\Devolutions.RemoteDesktopManager.Bin.2021.2.11.0&gt; Get-RDMInstance  
+PS C:\RemoteDesktopManager\2021.2\Devolutions.RemoteDesktopManager.Bin.2021.2.11.0> Get-RDMInstance  
 ApplicationVersion OptionFilename  
-2021.2.0.14 &#160; &#160; &#160; &#160;C:\RemoteDesktopManager\2021.2\config\RemoteDesktopManager.cfg  
+2021.2.0.14        C:\RemoteDesktopManager\2021.2\config\RemoteDesktopManager.cfg  
 ```

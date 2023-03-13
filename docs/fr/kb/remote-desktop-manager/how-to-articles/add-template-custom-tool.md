@@ -10,11 +10,11 @@ Vous aimeriez avoir accès à un ***Outil personnalisé*** qui vous permettrait 
 1. Choisir dans la liste le ***Modèle*** souhaité. 
 La méthode suivante, en revanche, rend possible un accès plus rapide dans la section ***Outils/Scripts/Macros*** de l’entrée. Elle vous permettra de cliquer sur ***Outil personnalisé*** et d’ouvrir la connexion actuellement sélectionnée avec les paramètres spécifiés dans votre ***Modèle*** . 
 {% snippet icon.badgeInfo %} 
-Avant d&apos;utiliser cette méthode, vous devez d&apos;abord créer un ***Modèle*** dans ***Fichier - Modèles*** . Pour plus de détails, veuillez consulter ce [lien](https://help.remotedesktopmanager.com/fr/file_templates.html) . 
+Avant d'utiliser cette méthode, vous devez d'abord créer un ***Modèle*** dans ***Fichier - Modèles*** . Pour plus de détails, veuillez consulter ce [lien](https://help.remotedesktopmanager.com/fr/file_templates.html) . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-L&apos;activation de l&apos;option ***Disponible dans Macros/Scripts/Outils*** située dans ***Paramètres de modèle - Disponibilité*** est nécessaire pour que le ***Modèle*** que vous allez créer ( ***Modèle de base de données*** seulement) soit visible sur votre ***Tableau de bord*** . 
+L'activation de l'option ***Disponible dans Macros/Scripts/Outils*** située dans ***Paramètres de modèle - Disponibilité*** est nécessaire pour que le ***Modèle*** que vous allez créer ( ***Modèle de base de données*** seulement) soit visible sur votre ***Tableau de bord*** . 
 {% endsnippet %}
 
 ![KB2000.png](/img/fr/kb/KB2000.png) 
@@ -23,8 +23,8 @@ L&apos;activation de l&apos;option ***Disponible dans Macros/Scripts/Outils*** s
 ![KB2001.png](/img/fr/kb/KB2001.png) 
 1. Sélectionner ***Modèle Macro/Script/Outil*** sous la section ***Outil*** . Par la suite, cliquer sur ***OK*** . 
 ![KB2002.png](/img/fr/kb/KB2002.png) 
-1. Dans l&apos;onglet ***Général*** , utiliser le bouton d&apos;ellipse à côté du champ ***Modèle*** pour sélectionner le modèle créé précédemment. Lorsque c&apos;est fait, cliquer sur ***OK*** .  
+1. Dans l'onglet ***Général*** , utiliser le bouton d'ellipse à côté du champ ***Modèle*** pour sélectionner le modèle créé précédemment. Lorsque c'est fait, cliquer sur ***OK*** .  
 ![KB2003.png](/img/fr/kb/KB2003.png) 
-1. L&apos;entrée ***Modèle Macro/Script/Outil*** que vous venez de créer se trouve dans la section ***Macros/Scripts/Outils*** de votre ***Tableau de bord*** lorsque vous sélectionnez une de vos entrées dans votre ***Volet de navigation*** .  
+1. L'entrée ***Modèle Macro/Script/Outil*** que vous venez de créer se trouve dans la section ***Macros/Scripts/Outils*** de votre ***Tableau de bord*** lorsque vous sélectionnez une de vos entrées dans votre ***Volet de navigation*** .  
 ![KB2004.png](/img/fr/kb/KB2004.png) 
-Il ne reste qu&apos;à appliquer le modèle souhaité. 
+Il ne reste qu'à appliquer le modèle souhaité. 

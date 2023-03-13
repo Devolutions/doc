@@ -12,7 +12,7 @@ Be advised that using this feature in an environment where passwords must be hid
 ![KB4621.png](/img/en/kb/KB4621.png)
 ## Settings
 ### Typing macro
-Keyboard keys are represented by predefined tags between braces. To specify a single keyboard character, use the character itself without braces. For example, represent the letter ***A*** by typing the &quot;A&quot; character in the typing macro. To represent more than one character, such as ***Hello*** , append each additional character to the preceding one: &quot;Hello&quot;.
+Keyboard keys are represented by predefined tags between braces. To specify a single keyboard character, use the character itself without braces. For example, represent the letter ***A*** by typing the "A" character in the typing macro. To represent more than one character, such as ***Hello*** , append each additional character to the preceding one: "Hello".
 ### Special keys
 To specify characters that aren't displayed when you press a key, such as ENTER or TAB, as well as the keys that represents actions rather than characters, refer to the codes in the following table.  
 
@@ -392,7 +392,7 @@ SHIFT
 	</tr>
 </table>
 
-To specify that any combination of SHIFT, CTRL, and ALT should be held down while several other keys are pressed, enclose the code for those keys in parentheses. For example, to specify to hold down SHIFT while E and C are pressed use &quot;+(EC)&quot;. To specify to hold down SHIFT while E is pressed, followed by C, without SHIFT, use &quot;+EC&quot;.  
+To specify that any combination of SHIFT, CTRL, and ALT should be held down while several other keys are pressed, enclose the code for those keys in parentheses. For example, to specify to hold down SHIFT while E and C are pressed use "+(EC)". To specify to hold down SHIFT while E is pressed, followed by C, without SHIFT, use "+EC".  
 
 ### Special commands
 <table>

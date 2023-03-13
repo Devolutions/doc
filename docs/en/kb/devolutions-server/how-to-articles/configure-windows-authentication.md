@@ -16,7 +16,7 @@ These steps provide the information to enable the ***Windows Authentication*** f
 ![KB5001.png](/img/en/kb/KB5001.png) 
 1. In the ***Server Roles*** section , ensure that the ***Windows Authentication*** server role is installed. 
 {% snippet icon.badgeInfo %} 
-When done, you can close the ***Add Roles and Features Wizard*** and &#32; ***Server Manager*** windows. 
+When done, you can close the ***Add Roles and Features Wizard*** and   ***Server Manager*** windows. 
 {% endsnippet %}
  
 ![KB4378.png](/img/en/kb/KB4378.png) 

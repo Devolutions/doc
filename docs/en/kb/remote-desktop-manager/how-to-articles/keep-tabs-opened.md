@@ -5,7 +5,7 @@ title: Keep Tabs Opened
 
 ### Workflow
 
-Your session must be running in embedded mode. Once your session is open, you&apos;ll notice the ***Keep tab on disconnect*** option in the ***Settings*** section of your ***Actions*** tab.  
+Your session must be running in embedded mode. Once your session is open, you'll notice the ***Keep tab on disconnect*** option in the ***Settings*** section of your ***Actions*** tab.  
 
 ![KB4556.png](/img/en/kb/KB4556.png)  
 

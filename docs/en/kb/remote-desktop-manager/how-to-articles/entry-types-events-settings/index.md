@@ -3,7 +3,7 @@ title: Entry Types Events Settings
 ---
 {{ en.RDM }} gives you the flexibility to automatically run operations before or after establishing a connection.  
 
-These operations are defined via the ***Events*** section of a session&apos;s properties. Define a script or a command line which executes at the appropriate time with the provided parameters, such as the session ID or username. For example, events can be used to execute an external batch file or application that prompts the user for more information, or to update a log on a remote server.  
+These operations are defined via the ***Events*** section of a session's properties. Define a script or a command line which executes at the appropriate time with the provided parameters, such as the session ID or username. For example, events can be used to execute an external batch file or application that prompts the user for more information, or to update a log on a remote server.  
 ![KB4618.png](/img/en/kb/KB4618.png)
 ## Settings
 The ***Events*** section is composed of four tabs. All of them can execute the same events. But at specific times, such as before the connection is established or after its interruption.  

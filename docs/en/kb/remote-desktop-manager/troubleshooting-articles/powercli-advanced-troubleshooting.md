@@ -1,7 +1,7 @@
 ---
 title: PowerCLI Advanced Troubleshooting
 ---
-{{ en.RDM }} calls PowerCLI&apos;s cmdlets and presents the results in its user interface.  
+{{ en.RDM }} calls PowerCLI's cmdlets and presents the results in its user interface.  
 
 Here are steps to help isolate issues when the integration is not working as expected.
 ### Script A: Get the list of virtual machines
@@ -71,7 +71,7 @@ Start-Sleep -s 10
 Disconnect-VIServer $VMHost -Force -Confirm:$false  
 ```
 ### Example use
-You must send the MoRef.Value which was obtained using Script A, in our example, let&apos;s start MACHINE2 which has 19 for ID.  
+You must send the MoRef.Value which was obtained using Script A, in our example, let's start MACHINE2 which has 19 for ID.  
 
 .\ConnectVMRCFromPowerCLI.ps1 [SERVER_NAME] [USER_NAME] [PASSWORD] 19  
 

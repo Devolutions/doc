@@ -14,6 +14,6 @@ Your data is always available even if the subscription has expired. You simply n
 3. In the ***Server*** tab, click ***Edit***.  
    ![KB4903.png](/img/en/kb/KB4903.png)
 4. In the ***General - License*** section, enter the ***Server*** serial.
-5. If you purchased ***User CAL*** &#32; s erial for your users, enter it in the ***User CAL*** field.
+5. If you purchased ***User CAL***   s erial for your users, enter it in the ***User CAL*** field.
 6. Click ***OK***.  
    ![KB4902.png](/img/en/kb/KB4902.png)

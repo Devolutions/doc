@@ -9,7 +9,7 @@ keywords:
 Follow the steps below to complete the installation of {{ en.DWL }} in the Chrome web browser.
 
 1. Open Chrome.
-1. Navigate to [{{ en.DWL }} extension](https://chrome.google.com/webstore/detail/devolutions-web-login/neimonjjffhehnojilepgfejkneaidmo?hl=en-US&amp;gl=CA) extension or use the link from our [Website](https://devolutions.net/web-login).
+1. Navigate to [{{ en.DWL }} extension](https://chrome.google.com/webstore/detail/devolutions-web-login/neimonjjffhehnojilepgfejkneaidmo?hl=en-US&gl=CA) extension or use the link from our [Website](https://devolutions.net/web-login).
 1. Click the ***Add To Chrome*** button.  
 ![Add to Chrome Button](/img/en/kb/KB4805.png)  
 *Add to Chrome Button*{.caption}

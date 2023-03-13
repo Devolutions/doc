@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Going password-less with {{ en.RDM }} and CyberArk
 ---
-During the last few months, you may have noticed a heightened level of collaboration between Devolutions and CyberArk &#160;Indeed, two of our three entry types have been refreshed in version 2020.2, this to better use their improved APIs. I’m happy to say that our third type is already available in RDM 2020.3 beta, this completes the current round of improvements and essentially allows organizations to go password-less for their day-to-day workflows.  
+During the last few months, you may have noticed a heightened level of collaboration between Devolutions and CyberArk  Indeed, two of our three entry types have been refreshed in version 2020.2, this to better use their improved APIs. I’m happy to say that our third type is already available in RDM 2020.3 beta, this completes the current round of improvements and essentially allows organizations to go password-less for their day-to-day workflows.  
 
-The only requirement is that you operate CyberArk&apos;s ***Application Access Manager*** (AAM) as part of your organization’s CyberArk deployment. This module allows for ***Private Key*** (PK) authentication, which means that the whole Identification/Authentication phase is managed by your IT Department, rendering passwords completely unnecessary.  
+The only requirement is that you operate CyberArk's ***Application Access Manager*** (AAM) as part of your organization’s CyberArk deployment. This module allows for ***Private Key*** (PK) authentication, which means that the whole Identification/Authentication phase is managed by your IT Department, rendering passwords completely unnecessary.  
 
 Also, let’s start with a caveat that the password-less part is in regards to CyberArk, you still have to authenticate to RDM, whatever datasource you are using.
 ### Overview
@@ -16,20 +16,20 @@ A diagram is necessary to properly illustrate the solution.
 1. RDM obtains the details of a ***Privileged Account*** , what is key is that the user does not know the password for their own privileged account.
 1. RDM uses the ***Privileged Account*** and launches either: a PSM Connection; connects to the PVWA; or even launches a session supported by RDM, all the while still hiding the password from the user.
 ### CyberArk Application Access Manager (AAM) Configuration
-First, you must issue PKs for each of your users and deploy them to their workstations. &#160;The source of truth for these matters is surely the CyberArk documentation, but we have included basic instructions in our integration guide. As for the RDM side, again we support different methods of managing the PK:  
+First, you must issue PKs for each of your users and deploy them to their workstations.  The source of truth for these matters is surely the CyberArk documentation, but we have included basic instructions in our integration guide. As for the RDM side, again we support different methods of managing the PK:  
 
 1. PK information stored an entry which exists in the user’s user vault. This is surely the most simple as you have a one-to-one relationship between users/keys/accounts, but it has to be done by the users themselves.
 1. PK information stored in ***My accounts settings*** : This method allows the administrators to create the AAM entries within RDM, while each user sets their own PK details in their own personal settings. Since the account lookup uses keywords specified in the AAM entry, it means that you have a few options still :
     1. Handled in CyberArk : for each user there need to exist a single Privileged Account, accessible from the same keywords. The burden is on the administrator to isolate those in various safes and to ensure that everyone’s account has the same keywords.
-    1. Handled in RDM : administrators need to create a unique AAM entry per user with the keywords to find their Privileged Account. &#160;Our User Groups Base Access Control must be used to ensure that users can view and use only appropriate entries.  
+    1. Handled in RDM : administrators need to create a unique AAM entry per user with the keywords to find their Privileged Account.  Our User Groups Base Access Control must be used to ensure that users can view and use only appropriate entries.  
 
 As always with RDM, you can mix and match approaches depending on your own requirements.
 ### CyberArk Privilege Session Manager (PSM) Configuration
-A discussion on the PSM is surely too broad to fit in this blog, so I will again refer to CyberArk’s documentation. &#160;As for RDM, in your PSM-Server entry, use one of our mechanism to have the connection use the AAM entry configured in the previous step.  
+A discussion on the PSM is surely too broad to fit in this blog, so I will again refer to CyberArk’s documentation.  As for RDM, in your PSM-Server entry, use one of our mechanism to have the connection use the AAM entry configured in the previous step.  
 
 If you have chosen AAM option 1 above, you must use the User Specific Settings in RDM to create the link between the PSM-Server entry and the AAM Entry that is stored in the User Vault.  
 
-If you have rather selected options 2a or 2b, I believe that the best option is to set the PSM-Server entry to use ***Credential Repository*** , paired with &#160; ***prompt on connection*** This makes the experience better for new users, and experienced users will know how to switch to User Specific Settings to make their choice more permanent.
+If you have rather selected options 2a or 2b, I believe that the best option is to set the PSM-Server entry to use ***Credential Repository*** , paired with   ***prompt on connection*** This makes the experience better for new users, and experienced users will know how to switch to User Specific Settings to make their choice more permanent.
 ### CyberArk Webservices SDK configuration
 When you stay within the confines of your CyberArk ecosystem, you typically do not need to use this type, but it was decided to still offer you the capability. This has just recently been modified and therefore is only in the 2020.3 release, which is in the beta cycle at this time.  
 
