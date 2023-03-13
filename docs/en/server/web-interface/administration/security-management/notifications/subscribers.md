@@ -11,7 +11,7 @@ Fill in the information in the following fields.
 
 ![Email Subscriber properties](/img/en/server/ServerOp8155.png)  
 
-![Syslog Server Subscriber properties](/img/en/server/ServerOp8156.png)  
+![Syslog Server Subscriber properties](/img/en/server/ServerOP8156.png)  
 
 <table>
 	<tr>

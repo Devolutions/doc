@@ -10,7 +10,7 @@ Microsoft Azure Active Directory subscription is required to configure Office365
  
 The Office365 tab allows {{ en.RDMS }} to authenticate users using Office365 authentication . All fields are mandatory except the Automatic User Creation section. 
 
-![Authentication - Configure Office365](/img/en/server/authenticationoffice365.png)
+![Authentication - Configure Office365](/img/en/server/AuthenticationOffice365.png)
 
 ## Settings 
 ### Office365 Parameters 

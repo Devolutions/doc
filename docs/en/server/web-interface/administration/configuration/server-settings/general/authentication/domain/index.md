@@ -8,7 +8,7 @@ The domain is used to authenticate the user. This is the most secure, flexible a
 The Multi Domain feature requires the Devolutions Server Platinum Edition license. Please see [Multi Domain](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/multi-domain/) for more information about its configuration. 
 {% endsnippet %}  
 
-![Authentication - Configure Domain](/img/en/server/authenticationdomain.png)
+![Authentication - Configure Domain](/img/en/server/AuthenticationDomain.png)
  
 ## Settings 
 ### Domain Authentication 

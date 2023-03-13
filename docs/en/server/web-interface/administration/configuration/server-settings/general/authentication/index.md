@@ -4,7 +4,7 @@ order: 10
 ---
 The Authentication section allows the administrator to select which authentication types will be used to connect on {{ en.RDMS }} .  
 
-![Adminsitration – Server Settings – Authentication](/img/en/server/pssettingsauthentication.png)
+![Adminsitration – Server Settings – Authentication](/img/en/server/PSSettingsAuthentication.png)
 
 ## Settings 
 ### Authentication Modes 

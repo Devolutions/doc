@@ -5,7 +5,7 @@ title: Privileged Access Management
 To use these features you must first ensure they are enabled in the [Privileged Access Management](/server/web-interface/administration/configuration/server-settings/security/priviledge-access-management/) in the {{ en.RDMS }} Settings . 
 {% endsnippet %}
 
-![Administration - System Permissions - PAM](/img/en/server/adminpam.png) 
+![Administration - System Permissions - PAM](/img/en/server/AdminPAM.png) 
  
 <table>
 	<tr>
