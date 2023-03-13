@@ -3,7 +3,7 @@ title: Features
 ---
 The Features section section allows the administrator to configure the web interface features.  
 
-![Administration - Server Settings - Features](/img/en/server/serverop8042.png)
+![Administration - Server Settings - Features](/img/en/server/ServerOp8042.png)
 
 ## Settings 
 <table>

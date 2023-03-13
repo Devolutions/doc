@@ -6,7 +6,7 @@ The Add Website button is only available while in the <a href="/server/dwl/devol
 
 When {{ en.DPS }} is used as the data source, the entry configuration is done in the General tab. 
 
-![Add Website](/img/en/server/serverop2049.png)
+![Add Website](/img/en/server/ServerOp2049.png)
 
 See the table below to learn about each field/setting from this view. 
 <table>

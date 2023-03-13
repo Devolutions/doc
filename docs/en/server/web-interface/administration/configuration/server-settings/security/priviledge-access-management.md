@@ -3,7 +3,7 @@ title: Privileged Access Management
 ---
 This section is dedicated to enable and configure the Privileged Access Management.  
 
-![Administration - Devolutions Server Settings - Privileged Access Management](/img/en/server/serverop8047.png) 
+![Administration - Devolutions Server Settings - Privileged Access Management](/img/en/server/ServerOp8047.png) 
 
 ## Settings 
 ### General 

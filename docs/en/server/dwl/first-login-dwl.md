@@ -24,7 +24,7 @@ A {{ en.RDMS }} access is required to continue.
 1. To select the vaults to be synchronized, click on the ***Vaults*** tab, then click the ***Select Vaults to Sync*** button. 
 ![Vaults Tab](/img/en/server/dwl4020.png)
 1. Click on ***Select All*** or individually check the vaults to synchronize. 
-![Selection of Vaults to be Synchronized](/img/en/server/serverop2014.png)
+![Selection of Vaults to be Synchronized](/img/en/server/ServerOp2014.png)
 1. When your vaults have been selected, click on ***Select Vaults to Sync*** at the top of the panel to view your synchronized vaults. 
 ![Synchronized Vaults](/img/en/server/dwl4055.png)
 

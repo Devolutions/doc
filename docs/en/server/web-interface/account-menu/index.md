@@ -6,4 +6,4 @@ To access the ***Account Menu*** of {{ en.RDMS }} , click on the initials or the
 
 ***Sign out*** of {{ en.RDMS }} from the ***Account Menu*** .  
 
-![Account Menu](/img/en/server/serverop8018.png)
+![Account Menu](/img/en/server/ServerOp8018.png)

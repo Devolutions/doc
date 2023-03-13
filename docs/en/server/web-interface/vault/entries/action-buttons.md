@@ -3,7 +3,7 @@ title: Action Buttons
 ---
 The display of ***Action Buttons*** for entries will vary depending on the type of entry selected and your {{ en.DPS }} settings. 
 
-![Entry Action Buttons](/img/en/server/serverop8025.png)
+![Entry Action Buttons](/img/en/server/ServerOp8025.png)
 
 <table>
 	<tr>

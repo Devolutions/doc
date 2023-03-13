@@ -6,8 +6,8 @@ If you set two-factor authentication as [optional per user in {{ en.RDMS }} Sett
 ## Settings 
 1. Select the users 2FA ***Type*** from the list. 
 
-![Edit User - Two Factor](/img/en/server/serverop7003.png) 
+![Edit User - Two Factor](/img/en/server/ServerOp7003.png) 
 
 2. Choose if you (a) want the user to configure the 2FA next time they log in or (b) complete the set up now. 
 
-![Edit User - Two Factor](/img/en/server/serverop7004.png) 
+![Edit User - Two Factor](/img/en/server/ServerOp7004.png) 

@@ -3,7 +3,7 @@ title: Email
 ---
 Emails are sent by some features like Notification engine, by some of our 2 factor authentication providers, for internal secure messaging. 
 
-![Administration - Devolutions Server Settings - Email](/img/en/server/serverop8169.png)
+![Administration - Devolutions Server Settings - Email](/img/en/server/ServerOp8169.png)
 
 ## Settings 
 ### General 

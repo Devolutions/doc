@@ -3,7 +3,7 @@ title: Security
 ---
 The Security section allows the administrator to configure the allowed and denied IPs addresses.  
 
-![Administration - Devolutions Server Settings - Security](/img/en/server/serverop8045.png) 
+![Administration - Devolutions Server Settings - Security](/img/en/server/ServerOp8045.png) 
 
 ## Settings 
 ### IP 

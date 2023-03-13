@@ -3,7 +3,7 @@ title: Logging
 ---
 The Logging section allows the administrator to configure the logging features.  
 
-![Administration - Devolutions Server Settings - Logging](/img/en/server/serverop8040.png)
+![Administration - Devolutions Server Settings - Logging](/img/en/server/ServerOp8040.png)
 
 ## Settings 
 ### General 

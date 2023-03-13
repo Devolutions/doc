@@ -11,14 +11,14 @@ The main view, which is the one displayed when first opening {{ en.DWL }} in you
 1. The ***Top Menu*** gives you access to some {{ en.DWL }} functionalities and settings.  
 1. The ***Side Menu*** is directly linked to the central panel, as each tab changes what is displayed in the window depending on its function. 
 1. The ***Content Area*** is where information will be displayed and where you can interact with {{ en.DWL }} functionalities corresponding to the different tabs. 
-![User Interface Sections](/img/en/server/serverop2028.png)
+![User Interface Sections](/img/en/server/ServerOp2028.png)
 
 ### Top Menu 
 
 If you use multiple Devolutions products with the extension, you can switch between them using the ***Data Source Selector*** at the left of the ***Top Menu*** . A drop-down list will appear with the other products you have previously paired with {{ en.DWL }} . 
-![Data Source Selector](/img/en/server/serverop2029.png)
+![Data Source Selector](/img/en/server/ServerOp2029.png)
 At the right of the ***Top Menu*** , the ***Settings*** button opens a new tab in which you can configure your extension. Consult the [full settings list](/server/dwl/settings/). 
-![Settings Button](/img/en/server/serverop2030.png)
+![Settings Button](/img/en/server/ServerOp2030.png)
 Next to the ***Settings*** button is your ***Account*** button. This section has some useful links and information, namely: 
 
 * a ***Log Off*** button to sign out of your {{ en.DA }} .  
@@ -27,10 +27,10 @@ Next to the ***Settings*** button is your ***Account*** button. This section has
 * a link to our [{{ en.DPS }} Online Help](/server/) .  
 * the current version of {{ en.DWL }} .  
 
-![Account Button](/img/en/server/serverop2031.png)
+![Account Button](/img/en/server/ServerOp2031.png)
 ### Side Menu and Content Area 
 Using the tabs of the ***Side Menu*** , you can access various {{ en.DWL }} features. 
-![Side Menu Tabs](/img/en/server/serverop2032.png)
+![Side Menu Tabs](/img/en/server/ServerOp2032.png)
 Each tab will display a different view in the ***Content Area*** . The tabs available when using {{ en.DWL }} with {{ en.DPS }} are:  
 
 * the ***Matching*** tab, where you can find available credentials for a specific website.  

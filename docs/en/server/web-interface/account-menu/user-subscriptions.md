@@ -7,7 +7,7 @@ Manage the ***User Subscriptions*** to entries notification settings.
 An email is required to be saved in your [Account](/server/web-interface/account-menu/edit-account/) for this feature to be available. 
 {% endsnippet %}
 
-![User Subscriptions](/img/en/server/serverop4024.png)
+![User Subscriptions](/img/en/server/ServerOp4024.png)
  
 To enable a notification;  
 
@@ -15,5 +15,5 @@ To enable a notification;
 1. Click on the bell icon to open the menu. 
 1. Select from the list the actions requiring notification from this specific entry.  
 
-![Notification](/img/en/server/serverop4001png.png)
+![Notification](/img/en/server/ServerOp4001png.png)
 

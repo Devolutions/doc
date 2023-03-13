@@ -17,7 +17,7 @@ The extension opens on the ***Matching*** tab. This is where you will see the li
 For methods of retrieving your credentials, visit [this topic](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) . 
 {% endsnippet %}
 
-![Matching Tab](/img/en/server/serverop2033.png)
+![Matching Tab](/img/en/server/ServerOp2033.png)
  
 At the top, you can use the ***Search*** bar to filter through all your credentials, not just those applicable to the website. You can also use the ***Refresh*** button next to it to update the search results.  
 
@@ -34,7 +34,7 @@ When accessing the ***All Entries*** tab for the first time, you need to select 
  
 The ***All Entries*** tab allows you to browse through all your synchronized vaults for website entries only. You will first encounter the list of your synchronized vaults.  
 
-![All Entries Tab](/img/en/server/serverop2043.png)
+![All Entries Tab](/img/en/server/ServerOp2043.png)
 
 At the top, you can use the ***Filter*** bar to search through all your vaults for website entries.  
 
@@ -45,20 +45,20 @@ You can access your vaults in two ways:
 
 When navigating in the folders, the [***Add Website***](/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/) button will appear at the bottom of the ***Content Area*** . You can also use the search bar at the top to search in the specific location.  
 
-![Vault Navigation via Devolutions Web Login](/img/en/server/serverop2045.png)
+![Vault Navigation via Devolutions Web Login](/img/en/server/ServerOp2045.png)
 
 Back on the main view of the ***All Entries*** tab, the ***Select Vaults to Sync*** at the bottom of the ***Content Area*** allows you to individually select the {{ en.DPS }} vaults to synchronize with {{ en.DWL }} . 
 
 ### Favorites tab 
 If you have entries marked as favorites, they will be displayed here in the ***Favorites*** tab.  
 
-![Favorites Tab](/img/en/server/serverop2046.png)
+![Favorites Tab](/img/en/server/ServerOp2046.png)
 
 You can search a particular entry using the ***Search In Favorites*** bar at the top. 
 ### Recent tab 
 The last entries you used will be displayed in the ***Recent*** tab.  
 
-![Recent Tab](/img/en/server/serverop2047.png)
+![Recent Tab](/img/en/server/ServerOp2047.png)
 
 You can search a particular entry using the ***Filter*** bar at the top.  
 
@@ -67,17 +67,17 @@ At the bottom, you can click on the ***Clear Recent Entries*** button to erase a
 ### Password Generator tab 
 The ***Password Generator*** tab assists you in creating a strong and secure password adapted to your needs and to website requirements for your new account.  
 
-![Password Generator Tab](/img/en/server/serverop2042.png)
+![Password Generator Tab](/img/en/server/ServerOp2042.png)
 
 Your custom password is generated at the top of the ***Content Area*** with a strenght indicator below it. You can copy it or generate a new one using the ***Copy to Clipboard*** and ***Generate Password*** buttons respectively. The ***Password lenght*** , which is set to 12 by default, can also be adjusted.  
 
 In the ***General*** drop-down section, you are able to select the types of characters that your password must contain as well as the minimum number of characters of each type that must be included.  
 
-![General Section](/img/en/server/serverop2040.png)
+![General Section](/img/en/server/ServerOp2040.png)
 
 In the ***Advanced*** drop-down section, you are able to further customize your password by entering characters you want included in your password, followed by the minimum number of times they must appear. In the second field, you can also enter characters you want excluded from your password.  
 
-![Advanced Section](/img/en/server/serverop2041.png)
+![Advanced Section](/img/en/server/ServerOp2041.png)
 
 {% snippet icon.badgeInfo %} 
 To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/server/dwl/using-devolutions-web-login/create-account-website-dwl/) . 
@@ -86,7 +86,7 @@ To learn how to use the ***Password Generator*** when creating an account on a w
 ### Entry functionalities 
 No matter what tab you are in (except the ***Password Generator*** tab), when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons. 
 
-![Copy Username, Copy Password, and View options](/img/en/server/serverop2048.png)
+![Copy Username, Copy Password, and View options](/img/en/server/ServerOp2048.png)
 
 The ***Copy Username*** and ***Copy Password*** buttons copy the username/password of the entry to your clipboard.  
 
@@ -99,7 +99,7 @@ The ***View*** button gives you an overview of the entry as well as additional f
 
 Other information and functionalities will depend on what you provided when creating the entry (username, password, tags, description, etc.). 
 
-![Entry Overview](/img/en/server/serverop2037.png)
+![Entry Overview](/img/en/server/ServerOp2037.png)
 
 
 

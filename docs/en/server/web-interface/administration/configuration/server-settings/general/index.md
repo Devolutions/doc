@@ -4,7 +4,7 @@ order: 10
 ---
 The General section allows the Administrator to modify the name or the description of the {{ en.RDMS }} instance. 
 
-![Administration - Devolutions Server Settings - General](/img/en/server/serverop8041.png)
+![Administration - Devolutions Server Settings - General](/img/en/server/ServerOp8041.png)
 
 ## Settings 
 ### General 

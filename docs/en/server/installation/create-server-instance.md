@@ -23,7 +23,7 @@ Multiple {{ en.RDMS }} instances can be hosted on the same server. Each instance
 All operations performed through the console are done with the credentials used to launch {{ en.RDMSCONSOLE }} . If you must use other credentials, you will need to launch another Windows session. The ***RunAs*** command does not offer the option of starting a process with elevated privileges. The Run as different user option can work only if the account is a member of the server's local Administrator group. 
 {% endsnippet %}
  
-![Run as administrator](/img/en/server/Clip10317.png)  
+![Run as administrator](/img/en/server/clip10317.png)  
 
 3. In the {{ en.RDMSCONSOLE }} , click on the ***New*** button or the Install New Instance blue link to deploy a new server instance. 
 ![Deploy a new Devolutions Server](/img/en/server/ServerOp8048.png)  
@@ -45,7 +45,7 @@ We do not recommend to set the installation folder to C:\Program Files or C:\Pro
 ![Destination dialog](/img/en/server/ServerOp8170.png)  
 
 10. Under Administration Credentials , fill in the information to create a {{ en.RDMS }} Custom administrator account . All fields are required.  
-![Create An Administrator User](/img/en/server/Clip10323.png)  
+![Create An Administrator User](/img/en/server/clip10323.png)  
 1. Under Scheduler Service , when enabling the Install Scheduler service option, please set the proper Service Account. The following features depend on the Scheduler : [Backup manager](/server/web-interface/administration/backup/backup-manager/) , [Domain Users and Users Groups cache](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/) , [Office365 Users and User Groups cache](/server/web-interface/administration/configuration/server-settings/general/authentication/office-365/) , [Email notifications](/server/web-interface/administration/security-management/notifications/) , [Cleanup Logs](/server/web-interface/administration/logs/cleanup-logs/) and [Privileged Access Management](/server/privileged-access-management/) . 
 ![Scheduler Dialog](/img/en/server/ServerOp8055.png)  
 1. Choosing to not install the Scheduler, you will get the following warning message.  

@@ -20,4 +20,4 @@ For an overview of the Devolutions Privileged Access Management, please watch th
 ## Privileged Access Page
 The Privileged Access page provides a quick overview of the current PAM Vault Accounts , current Check-outs and the Recent Activities . 
 
-![Privileged Access Management Dashboard](/img/en/server/serverop8138.png)
+![Privileged Access Management Dashboard](/img/en/server/ServerOp8138.png)

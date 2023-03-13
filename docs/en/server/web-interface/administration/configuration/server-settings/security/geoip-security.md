@@ -3,7 +3,7 @@ title: GeoIP Security
 ---
 The GeoIP Security section section allows the administrator to set IPs restriction based on the geographical location. 
 
-![Administration - Devolutions Server Settings - GeoIP Security](/img/en/server/serverop8046.png) 
+![Administration - Devolutions Server Settings - GeoIP Security](/img/en/server/ServerOp8046.png) 
 
 ## Settings 
 <table>

@@ -157,4 +157,4 @@ Force a default ***Password Template*** for all {{ en.DPS }} users.
 2. Choose a ***Default template*** . 
 3. Check ***Force default template*** and ***Save*** . 
 
-![Default Password Template](/img/en/server/serverop4087.png) 
+![Default Password Template](/img/en/server/ServerOp4087.png) 
