@@ -9,7 +9,7 @@ Add a layer of security to your Devolutions Account by setting up a shared one-t
 ![KB2045.png](/img/en/kb/KB2045.png)
 1. Create a name for your new entry.  
 ![KB2046.png](/img/en/kb/KB2046.png)
-1. Connect to your Devolutions Portal and follow the steps in the [Authenticator App section](https://helpcloud.devolutions.net/gettingstarted_twostepver.html#authenticator-app) to get your key.
+1. Connect to your Devolutions Portal and follow the steps in the [Authenticator App section](/cloud/sign-in-security/two-step-verification/#authenticator-app) to get your key.
 ![KB2049.png](/img/en/kb/KB2049.png)
 1. Add your key to the corresponding field, then tap on the save icon. Your entry is now created.  
 ![KB2050.png](/img/en/kb/KB2050.png)
