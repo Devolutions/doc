@@ -1,5 +1,4 @@
 ---
-permalink: false
 title: Enable Temporary Access Notifications
 ---
 Enable automatic email notifications for temporary access requests with {{ en.RDM }}. When activated, a temporary access request will send an email notification to the authorizer. The user which initiated the request will receive a confirmation email with the authorizer's decision.  
