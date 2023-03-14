@@ -1,4 +1,5 @@
 ---
+permalink: false
 title: Activer les notifications d'accès temporaire
 description: Activez les notifications automatiques par courriel des demandes d'accès temporaire avec Remote Desktop Manager. Lorsqu'elles sont activées, une demande d'accès temporaire enverra une notification par courriel à l'autorisateur. L'utilisateur qui a initié la demande recevra un courriel de confirmation avec la décision de l'autorisateur.
 keywords:
