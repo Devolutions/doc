@@ -25,4 +25,4 @@ This notification is only available for the Microsoft SQL Server and Microsoft A
 ![Administration – System Settings – Vault – Enable Temporary Access Notifications](/img/en/kb/KB4854.png)
 *Administration – System Settings – Vault – Enable Temporary Access Notifications*{.caption}
 
-3. Click ***OK*** to close the window and save the changes.
+3. Click ***OK*** to close the window, then save the changes.

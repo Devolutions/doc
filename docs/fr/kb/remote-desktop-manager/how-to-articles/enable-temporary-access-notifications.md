@@ -34,4 +34,4 @@ Cette notification est uniquement disponible pour les sources de données avanc�
 ![Administration – Paramètres du système – Coffre – Activer les notifications d'accès temporaire](/img/fr/kb/KB2085.png)
 *Administration – Paramètres du système – Coffre – Activer les notifications d'accès temporaire*{.caption}
 
-3. Cliquer sur ***OK*** pour fermer la fenêtre et sauvegarder les changements.
+3. Cliquer sur ***OK*** pour fermer la fenêtre, puis sauvegarder les changements.
