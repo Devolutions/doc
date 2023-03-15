@@ -33,6 +33,29 @@ RDM Linux version
 	</tr>
 	<tr>
 		<td>
+837
+		</td>
+		<td>
+2023.1.2.0
+		</td>
+		<td>
+2023.1.10.0
+		</td>
+		<td>
+2023.1.5.0
+		</td>
+		<td>
+2023.1.0
+		</td>
+		<td>
+2023.1.0.0
+		</td>
+		<td>
+2023.1.0.3
+		</td>
+	</tr>
+	<tr>
+		<td>
 810
 		</td>
 		<td>
@@ -399,6 +422,26 @@ RDM Android version
 		<th>
 RDM Linux version
 		</th>
+	</tr>
+		<tr>
+		<td>
+838
+		</td>
+		<td>
+2023.1.10.0
+		</td>
+		<td>
+2023.1.5.0
+		</td>
+		<td>
+2023.1.0
+		</td>
+		<td>
+2023.1.0.0
+		</td>
+		<td>
+2023.1.0.3
+		</td>
 	</tr>
 	<tr>
 		<td>
