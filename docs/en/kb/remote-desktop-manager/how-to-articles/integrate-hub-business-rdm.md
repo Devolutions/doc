@@ -1,5 +1,6 @@
 ---
-title: How to Integrate Password Hub Business in RDM
+eleventyComputed:
+    title: How to Integrate {{ en.HUB }} Business in RDM
 ---
 {% youtube 'wI4Jn3zLC8U' %}
 

@@ -1,5 +1,6 @@
 ---
-title: How to Integrate Password Hub Personal in RDM
+eleventyComputed:
+    title: How to Integrate {{ en.PHUB }} Personal in RDM
 ---
 {% snippet icon.badgeCaution %}
 This feature is available in {{ en.RDM }} 2020.3.12 and higher..

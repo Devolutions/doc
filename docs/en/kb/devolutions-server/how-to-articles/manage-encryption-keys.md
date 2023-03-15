@@ -18,7 +18,7 @@ The encryption keys must be the same of each {{ en.DPS }} instances of your High
 ![KB4382.png](/img/en/kb/KB4382.png)
 1. Select a destination file name and path. Then set a password to protect the file and on the OK button.
 {% snippet icon.shieldCaution %}
-We strongly recommend storing the Encryption keys file in a secure storage outside of {{ en.DPS }} like Password Hub Business, Azure Key Vault or AWS Key Management Service.
+We strongly recommend storing the Encryption keys file in a secure storage outside of {{ en.DPS }} like {{ en.PHUB }} Business, Azure Key Vault or AWS Key Management Service.
 {% endsnippet %}  
 
    ![KB4384.png](/img/en/kb/KB4384.png)
@@ -48,7 +48,7 @@ There may be scenarios where you need to regenerate the encryption keys, such as
 ![Devolutions Server Console - Tools - Regenerate.png](/img/en/kb/KB8037.png)
 1. Select a destination file name and path. Then set a password to protect the file and on the OK button.  
 {% snippet icon.shieldCaution %}
-We strongly recommend storing the Encryption keys file in a secure storage outside of {{ en.DPS }} like Password Hub Business, Azure Key Vault or AWS Key Management Service.
+We strongly recommend storing the Encryption keys file in a secure storage outside of {{ en.DPS }} like {{ en.PHUB }} Business, Azure Key Vault or AWS Key Management Service.
 {% endsnippet %}
 
    ![Backup the new Encryption Keys.png](/img/en/kb/KB8038.png)

@@ -1,5 +1,6 @@
 ---
-title: Hosting Region for Password Hub Business
+eleventyComputed:
+    title: Hosting Region for {{ en.PHUB }} Business
 ---
 {{ en.PHUBB }} is a cloud-based solution hosted with Microsoft Azure, a highly trusted cloud services provider, and encrypted with the strongest encryption standard: AES-256.
 

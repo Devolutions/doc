@@ -26,7 +26,7 @@ Centralize, Manage, and Secure Remote Connections.<br>
 Secure, Manage, and Monitor Access to Privileged Accounts.<br>
 		</th>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="Password Hub Logo"><br>
+<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="Devolutions Hub Logo"><br>
 {{ en.PHUB }}<br>
 <br>
 Store and Manage Business-User Passwords<br>

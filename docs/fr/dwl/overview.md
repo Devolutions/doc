@@ -23,7 +23,7 @@ Centralisez, gérez et lancez des connexions sécurisées à distance.
 Sécurisez, gérez et surveillez les accès aux comptes privilégiés. <br>
 		</th>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="Password Hub Logo"><br>
+<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="Hub Logo"><br>
 {{ fr.PHUB }} <br>
 <br>
 Stockez et gérez les mots de passe professionnels. <br>

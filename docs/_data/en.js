@@ -28,7 +28,7 @@ module.exports = {
     OBACK: 'Online Backup',
     OD: 'Online Drive',
     PC: 'Customer Portal',
-    PHI: 'Password Hub Importer',
+    PHI: 'Hub Importer',
     PHUB: 'Hub',
     PHUBB: 'Hub Business',
     PHUBP: 'Hub Personal',

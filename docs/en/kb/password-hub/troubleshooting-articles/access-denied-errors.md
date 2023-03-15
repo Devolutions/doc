@@ -46,7 +46,7 @@ Enter your Emergency reset code.<br>
 
 The Emergency reset kit was provided at the first login after the initial creation of the {{ en.PHUBP }}. It is a mandatory step in the creation process.<br>
 
-You can search for a PDF file titled "Devolutions Password Hub Personal Emergency Kit".<br>
+You can search for a PDF file titled "Devolutions Hub Personal Emergency Kit".<br>
 
 There is no way to recover it if the Emergency reset kit cannot be located.<br>
 		</td>
@@ -211,8 +211,8 @@ The {{ en.PHUBB }} owner must <a href="https://store.devolutions.net/store">buy 
 	</tr>
 </table>
 
-### Your Password Hub has been disabled; contact your administrator.
-![Your Password Hub has been disabled; contact your administrator.](/img/en/kb/KB4769.png)
+### Your {{ en.PHUB }} has been disabled; contact your administrator.
+![Your {{ en.PHUB }} has been disabled; contact your administrator.](/img/en/kb/KB4769.png)
 
 <table>
 		<td>

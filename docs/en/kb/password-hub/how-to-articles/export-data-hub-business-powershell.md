@@ -41,7 +41,7 @@ Your data has been exported to the destination folder you specified in step 3.
 1. In your copied script, change the variables with the appropriate information. See the table below.  
    | Variable                | Description |
    | ----------------------- | ----------- |
-   | `$url`                  | Enter your Password Hub Business URL. This variable is automatically filled in, but it is still possible to change it. |
+   | `$url`                  | Enter your {{ en.PHUB }} Business URL. This variable is automatically filled in, but it is still possible to change it. |
    | `$appSecret`            | Enter the application user's ***Application Secret*** |
    | `$appKey`               | Enter the application user's ***Application key***    |
    | `$pathToExportedFolder` | Enter the ***Destination folder path*** This is where your data will be exported. |

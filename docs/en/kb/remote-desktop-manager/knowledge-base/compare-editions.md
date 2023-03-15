@@ -339,7 +339,7 @@ X
 Integrates with existing password managers
 		</td>
 		<td>
-Integrates with 1Password, Azure Key Vault, Bitwarden, CyberArk, Dashlane, Devolutions Password Hub, {{ en.DPS }}, Firefox Password Manager, Google Chrome Passwords, KeePass, Keeper, LastPass, Mateso Password Safe, Passportal, Password Manager Pro, Password Safe, Passwordstate, Pleasant Password Server, RoboForm, Secret Server, Sticky Password, TeamPass, True Key, Windows Credential Manager, Zoho Vault.
+Integrates with 1Password, Azure Key Vault, Bitwarden, CyberArk, Dashlane, {{ en.HUB }}, {{ en.DPS }}, Firefox Password Manager, Google Chrome Passwords, KeePass, Keeper, LastPass, Mateso Password Safe, Passportal, Password Manager Pro, Password Safe, Passwordstate, Pleasant Password Server, RoboForm, Secret Server, Sticky Password, TeamPass, True Key, Windows Credential Manager, Zoho Vault.
 		</td>
 		<td>
 		</td>
