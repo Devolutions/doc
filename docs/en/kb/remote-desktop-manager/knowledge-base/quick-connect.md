@@ -12,4 +12,4 @@ Listing network discoverable devices is a lengthy operation.
 The ellipsis button will list network discoverable computer to allow you to select a computer from the list.
 ### Using templates  
 ![KB4447.png](/img/en/kb/KB4447.png)  
-{{ en.RDM }} offers default templates to connect with the Quick Connect feature, but it is possible to use [custom templates](https://help.remotedesktopmanager.com/commands_creatingtemplates.html) In that case, the ***host*** field in the template must be set to the $QUICK_CONNECT$ variable. When they are created, custom templates are automatically added at the bottom of the type list.
+{{ en.RDM }} offers default templates to connect with the Quick Connect feature, but it is possible to use [custom templates](https://helprdm.devolutions.net/commands_creatingtemplates.html) In that case, the ***host*** field in the template must be set to the $QUICK_CONNECT$ variable. When they are created, custom templates are automatically added at the bottom of the type list.

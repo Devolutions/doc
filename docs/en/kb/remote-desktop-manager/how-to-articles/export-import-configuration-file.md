@@ -7,7 +7,7 @@ The application's configuration can be exported to replicate the configuration i
 {% snippet icon.shieldWarning %}
 The data source configurations you select will be exported with the credentials as they are currently configured. If you are creating a file to set up a new employee, you must be careful not to give away your credentials.  
 
-Using the [Custom Installer Service](https://help.remotedesktopmanager.com/installation_custominstallerservice.html) is recommended for this case.
+Using the [Custom Installer Service](https://helprdm.devolutions.net/installation_custominstallerservice.html) is recommended for this case.
 {% endsnippet %}
 
 

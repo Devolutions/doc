@@ -1,7 +1,7 @@
 ---
 title: How to Register Licenses in Older Versions
 ---
-Managing {{ en.RDM }} registration globally for all your users can be done with a [License serial](https://help.remotedesktopmanager.com/rdm_administration_licenses.html) stored in an [advanced data source](https://help.remotedesktopmanager.com/datasources_advanced.html) This is the preferred method. That being said, this feature may not be available in your current {{ en.RDM }} version.
+Managing {{ en.RDM }} registration globally for all your users can be done with a [License serial](https://helprdm.devolutions.net/rdm_administration_licenses.html) stored in an [advanced data source](https://helprdm.devolutions.net/datasources_advanced.html) This is the preferred method. That being said, this feature may not be available in your current {{ en.RDM }} version.
 
 ## Register the license locally in a {{ en.RDM }} version prior to 2022.2
 

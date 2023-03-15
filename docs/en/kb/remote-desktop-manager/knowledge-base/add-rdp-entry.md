@@ -21,4 +21,4 @@ Here are the basics to get you started.
 ### Open a RDP session
 Click ***Open Session*** on the ***Home*** ***tab or*** ***Dashboard***  
 
-You can open more than one session at once. With embedded sessions you can switch between the tabs or monitor connections simultaneously: use thumbnail view or [rearrange open sessions with split screen](https://help.remotedesktopmanager.com/view_embeddedsessions.html)
+You can open more than one session at once. With embedded sessions you can switch between the tabs or monitor connections simultaneously: use thumbnail view or [rearrange open sessions with split screen](https://helprdm.devolutions.net/view_embeddedsessions.html)

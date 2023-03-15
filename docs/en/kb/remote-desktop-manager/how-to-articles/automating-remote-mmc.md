@@ -25,7 +25,7 @@ If you are running a Windows 64bit edition, you would need to enable the Run in 
    | Prompt for credentials      | Prompts for the credentials on use.              |
    | Custom credentials          | Use the Username, Password and Domain specify    |
    | Credential repository       | Specify a set of credentials from the repository |
-   | Use my personal credentials | Use [My Personal Credentials](https://help.remotedesktopmanager.com/file_templates_mypersonalcredentials.html) |
+   | Use my personal credentials | Use [My Personal Credentials](https://helprdm.devolutions.net/file_templates_mypersonalcredentials.html) |
 
 To run the Snap-In, select your session and execute the tool from the dashboard.  
 ![KB4531.png](/img/en/kb/KB4531.png)

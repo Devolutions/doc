@@ -21,4 +21,4 @@ If you would like to create a {{ en.PHUBP }} please follow this [topic](https://
 You can migrate your data in {{ en.RDM }} from multiple sources.  
 
 * To export and import your data source already configured in {{ en.RDM }} , follow the [Data Migration](/kb/remote-desktop-manager/how-to-articles/data-migration/) topic.  
-* We also support native import formats from many popular tools on the market. Find out more in this {{ en.RDM }}   [Import](https://help.remotedesktopmanager.com/import.html) topic.  
+* We also support native import formats from many popular tools on the market. Find out more in this {{ en.RDM }}   [Import](https://helprdm.devolutions.net/import.html) topic.  

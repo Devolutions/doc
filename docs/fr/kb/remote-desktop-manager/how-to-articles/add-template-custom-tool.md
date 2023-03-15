@@ -10,7 +10,7 @@ Vous aimeriez avoir accès à un ***Outil personnalisé*** qui vous permettrait 
 1. Choisir dans la liste le ***Modèle*** souhaité. 
 La méthode suivante, en revanche, rend possible un accès plus rapide dans la section ***Outils/Scripts/Macros*** de l’entrée. Elle vous permettra de cliquer sur ***Outil personnalisé*** et d’ouvrir la connexion actuellement sélectionnée avec les paramètres spécifiés dans votre ***Modèle*** . 
 {% snippet icon.badgeInfo %} 
-Avant d'utiliser cette méthode, vous devez d'abord créer un ***Modèle*** dans ***Fichier - Modèles*** . Pour plus de détails, veuillez consulter ce [lien](https://help.remotedesktopmanager.com/fr/file_templates.html) . 
+Avant d'utiliser cette méthode, vous devez d'abord créer un ***Modèle*** dans ***Fichier - Modèles*** . Pour plus de détails, veuillez consulter ce [lien](https://helprdm.devolutions.net/fr/file_templates.html) . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

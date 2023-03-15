@@ -2,7 +2,7 @@
 eleventyComputed:
   title: RDM {{ en.MAC }} Custom Installer
 ---
-Unfortunately, there is no custom installer in the {{ en.RDM }} macOS version as we do have for the [Windows RDM application](https://help.remotedesktopmanager.com/installation_custominstallerservice.html).
+Unfortunately, there is no custom installer in the {{ en.RDM }} macOS version as we do have for the [Windows RDM application](https://helprdm.devolutions.net/installation_custominstallerservice.html).
 
 The solution would be to copy the .cfg file and manually distribute it to the right folder.
 

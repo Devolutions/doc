@@ -23,7 +23,7 @@ The ***Custom Installer*** replicates the settings from the {{ en.RDM }} instanc
 You can go to File – {{ en.DA }} – Tools to access the ***Custom Installer Manager*** .  
 ![File - Devolutions Account - Custom Installer Manager.png](/img/en/cloud/clip0009.png)  
 
-Please consult our [Custom Installer package creation guide](https://help.remotedesktopmanager.com/installation_custominstallerservice.html) .  
+Please consult our [Custom Installer package creation guide](https://helprdm.devolutions.net/installation_custominstallerservice.html) .  
 
 If the package has already been generated, you can download it directly from the portal as described in [Download Custom Installer Package](/cloud/rdm-online-services/custom-installer/download-custom-installer/) . 
 

@@ -16,11 +16,11 @@ It is possible to efficiently migrate {{ en.DPS }} Domain authentication to Micr
   * Make sure to not use commas as part of the AAD security group name.
 * Have Azure Apps created for {{ en.DPS }}.
 [Configure Microsoft authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/) in {{ en.DPS }}.
-* Enable [Offline Mode](https://help.remotedesktopmanager.com/datasource_offline.html) feature for the transition period (optional).  
+* Enable [Offline Mode](https://helprdm.devolutions.net/datasource_offline.html) feature for the transition period (optional).  
 
   * Test Offline Mode feature few days before migration.
 * Temporary disable the [Domain Automatic user creation](https://helpserver.devolutions.net/authentication_domain.html#automatic-user-creation)
-* Prepare a new {{ en.RDM }} data source that contains the new authentication method and [export the data source](https://help.remotedesktopmanager.com/datasource_importexport.html) it in ardd file.  
+* Prepare a new {{ en.RDM }} data source that contains the new authentication method and [export the data source](https://helprdm.devolutions.net/datasource_importexport.html) it in ardd file.  
 
   * Add the .rdd file in the main vault and ask all users to open it in {{ en.RDM }} to be automatically added in their data sources list.
 ### Migration phase option 1 (keeping the actual SQL database)
@@ -44,7 +44,7 @@ It is possible to efficiently migrate {{ en.DPS }} Domain authentication to Micr
 * Export all documents and attachments saved in the database from the actual {{ en.DPS }} instance.  
 
   * We provide a PowerShell script to export files in a folder. You can download the [script here](https://github.com/Devolutions/RDMSamples-ps/blob/main/module/export/ExportDocumentsDatabase.ps1)
-* Export [Templates](https://help.remotedesktopmanager.com/file_templates.html) and [Password Templates](https://help.remotedesktopmanager.com/file_template_passwordtemplates.html) from the actual {{ en.DPS }} instance.
+* Export [Templates](https://helprdm.devolutions.net/file_templates.html) and [Password Templates](https://helprdm.devolutions.net/file_template_passwordtemplates.html) from the actual {{ en.DPS }} instance.
 [Create the new {{ en.DPS }} instance][def]
 * Import user accounts from Azure.
 * Import groups from Azure.

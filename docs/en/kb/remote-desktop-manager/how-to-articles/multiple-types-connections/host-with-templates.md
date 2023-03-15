@@ -7,7 +7,7 @@ A Host entry will let you use templates in order to connect to the host. It will
 
 {% youtube 'dOuwGyYI61U' %}
 
-1. Create one or multiple [Templates](https://help.remotedesktopmanager.com/file_templates.html) via the ***File – Templates – Templates*** menu. You may need to use Variables like $HOST$ for the host name as well as $USERNAME$ or $PASSWORD$ for the username and password.
+1. Create one or multiple [Templates](https://helprdm.devolutions.net/file_templates.html) via the ***File – Templates – Templates*** menu. You may need to use Variables like $HOST$ for the host name as well as $USERNAME$ or $PASSWORD$ for the username and password.
 1. Create a host entry and click on the ***Action*** tab.  
 ![KB4269.png](/img/en/kb/KB4269.png)
 1. Press the ***Select Templates*** button and select the templates that you would like to add to your Host session.

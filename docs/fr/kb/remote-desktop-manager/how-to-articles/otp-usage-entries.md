@@ -35,7 +35,7 @@ L'option ***Hérité*** remontera dans l'arborescence de navigation jusqu'à ce 
 
 ### Les identifiants de la session en cours 
 
-***Les identifiants de la session en cours*** utiliseront les identifiants OTP définis dans la section de l'entrée ***Commun - Général - Identifiants*** . Les options d'identifiants disponibles avec OTP sont [***Mes identifiants personnels***](https://help.remotedesktopmanager.com/fr/file_templates_mypersonalcredentials.html), ***Mon compte privilégié*** et ***Intégré*** (ce mode est obsolète et non recommandé). 
+***Les identifiants de la session en cours*** utiliseront les identifiants OTP définis dans la section de l'entrée ***Commun - Général - Identifiants*** . Les options d'identifiants disponibles avec OTP sont [***Mes identifiants personnels***](https://helprdm.devolutions.net/fr/file_templates_mypersonalcredentials.html), ***Mon compte privilégié*** et ***Intégré*** (ce mode est obsolète et non recommandé). 
 
 {% snippet icon.badgeCaution %} 
 Dans un environnement d'équipe, nous vous recommandons d'utiliser plutôt l'option <a href="#coffre">Lié (Coffre)</a> avec une entrée d'identifiant par ***Mot de passe à usage unique (OTP)*** . 

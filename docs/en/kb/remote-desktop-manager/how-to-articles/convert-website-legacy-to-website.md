@@ -6,7 +6,7 @@ Since version 2022.2.12 of {{ en.RDM }}, the ***Web Browser*** session entry typ
 Follow the steps below to learn how to convert your ***Website (Legacy)*** entry to a ***Website*** entry type in {{ en.RDM }} using ***Special Actions***.
 
 {% snippet icon.badgeInfo %} 
-To convert several entries at once, you can perform a batch conversion by searching by ***Connection type*** with the ***Advanced Search*** feature. If your entries are in different vaults, you can use the ***Multi Vault Search*** to get the same results. First make sure your vault(s) contain ***Website (Legacy)*** entries, otherwise the entry type will not appear in the search options. Visit our [Batch Edit](https://help.remotedesktopmanager.com/commands_batchedit.html) topic for more information. 
+To convert several entries at once, you can perform a batch conversion by searching by ***Connection type*** with the ***Advanced Search*** feature. If your entries are in different vaults, you can use the ***Multi Vault Search*** to get the same results. First make sure your vault(s) contain ***Website (Legacy)*** entries, otherwise the entry type will not appear in the search options. Visit our [Batch Edit](https://helprdm.devolutions.net/commands_batchedit.html) topic for more information. 
 {% endsnippet %}
  
 1. Select the entry you want to convert in the {{ en.NPANE }} . It is possible to select multiple entries at once, provided they are of the same type. 

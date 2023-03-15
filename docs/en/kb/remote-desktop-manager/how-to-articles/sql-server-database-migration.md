@@ -8,9 +8,9 @@ Two tools are available, you can choose between the <a href="#dma">Data Migratio
 ### Setup
 We strongly suggest you clean up your database prior to the move.  
 
-* ***Administration - [Clean Up Deleted History](https://help.remotedesktopmanager.com/cleanup_deleted_history.html)***
-* ***Administration - [Clean Up Entry History](https://help.remotedesktopmanager.com/cleanup_entries_history.html)***
-* ***Administration - [Clean Up Activity Logs](https://help.remotedesktopmanager.com/cleanup_logs.html)***
+* ***Administration - [Clean Up Deleted History](https://helprdm.devolutions.net/cleanup_deleted_history.html)***
+* ***Administration - [Clean Up Entry History](https://helprdm.devolutions.net/cleanup_entries_history.html)***
+* ***Administration - [Clean Up Activity Logs](https://helprdm.devolutions.net/cleanup_logs.html)***
 
 ### Solution 1 <a name="dma"></a>
 1. Download and install the [Data Migration Assistant](https://docs.microsoft.com/en-us/sql/dma/dma-overview) (DMA) from Microsoft.

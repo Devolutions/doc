@@ -19,7 +19,7 @@ Le Devolutions Online Drive est seulement pour des utilisateurs uniques et il n'
 2. Entrer les identifiants du {{ fr.DA }} ou modifier le ***Mode de connexion*** pour utiliser le [Mot de passe d'application](/fr/cloud/sign-in-security/application-passwords/) . 
 ![clip4018.png](/img/fr/cloud/clip4018.png) 
 {% snippet icon.badgeNotice %} 
-Consulter la rubrique [Onlive Drive](https://help.remotedesktopmanager.com/fr/datasource_dod.html) pour plus d'informations sur les paramètres de configuration. 
+Consulter la rubrique [Onlive Drive](https://helprdm.devolutions.net/fr/datasource_dod.html) pour plus d'informations sur les paramètres de configuration. 
 {% endsnippet %}
  
 3. Cliquer sur l'onglet ***Sauvegarde*** pour définir votre ***Sauvegarde en ligne*** pour votre nouvelle source de données. 

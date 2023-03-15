@@ -12,7 +12,7 @@ Get access to a one-click ***Custom Tool*** which would apply a ***Template*** a
 The method below, will give you a quick access in RDM’s Dashboard ***Macros/Scripts/Tools*** section of the entry. It will allow you to click on the ***Custom Tool*** and open the connection that currently has focus with the parameters specified in your ***Templates***.
 
 {% snippet icon.badgeInfo %}
-In order to use this method, you will first need to create a ***Template*** under ***File - Templates*** For more information, please consult this [link](https://help.remotedesktopmanager.com/file_templates.html)
+In order to use this method, you will first need to create a ***Template*** under ***File - Templates*** For more information, please consult this [link](https://helprdm.devolutions.net/file_templates.html)
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}

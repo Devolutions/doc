@@ -24,7 +24,7 @@ The new jump integration will give you the possibility to jump through a DMZ zon
 
    2. From there, go to ***VPN/SSH/Gateway*** for the ***Secure Gateway Configuration***.
       1. Select ***Open*** and ***Close*** options, based on the company requirement.
-      2. ***VPN Group*** can be configured as explained in [Configure VPN for multiple sessions](https://help.remotedesktopmanager.com/kb_setvpnformultiplesessions.html) help topic.
+      2. ***VPN Group*** can be configured as explained in [Configure VPN for multiple sessions](https://helprdm.devolutions.net/kb_setvpnformultiplesessions.html) help topic.
       We Strongly recommend configuring VPN Group if many RDP/Web Browser session uses the same Secure Gateway.
       3. For ***Type*** select ***Existing – SSH***.  
          ![KB4225.png](/img/en/kb/KB4225.png)
