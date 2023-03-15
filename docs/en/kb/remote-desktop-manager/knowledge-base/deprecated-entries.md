@@ -9,6 +9,7 @@ Here’s how to display them in RDM:
 Here’s the list of entries:
 
 ### Session
+
 <table>
 	<tr>
 		<td>
@@ -21,7 +22,6 @@ Google Cloud<br>
 GoToAssist<br>
 HP Remote Graphics Receiver<br>
 Intel AMT<br>
-Microsoft Azure Dashboard<br>
 Microsoft Azure Table Storage<br>
 Microsoft VirtualPC<br>
 PC Anywhere<br>
@@ -37,7 +37,19 @@ Windows Virtual PC<br>
 	</tr>
 </table>
 
-### Credentials
+### Remote Management
+
+<table>
+	<tr>
+		<td>
+Microsoft Azure Dashboard<br>
+XenServer Dashboard<br>
+		</td>
+	</tr>
+</table>
+
+### Credential Management
+
 <table>
 	<tr>
 		<td>
@@ -45,6 +57,17 @@ AuthAnvil Password Server<br>
 Firefox Password Manager<br>
 Google Chrome Passwords<br>
 Password Vault Manager<br>
+		</td>
+	</tr>
+</table>
+
+### Information
+
+<table>
+	<tr>
+		<td>
+Login (Account)<br>
+Website<br>
 		</td>
 	</tr>
 </table>
@@ -63,17 +86,8 @@ Text (RTF)<br>
 	</tr>
 </table>
 
-### Information
-<table>
-	<tr>
-		<td>
-Login (Account)<br>
-Website<br>
-		</td>
-	</tr>
-</table>
+### Macro/Script/Tool
 
-### Script
 <table>
 	<tr>
 		<td>
