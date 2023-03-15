@@ -3,7 +3,7 @@ title: System Requirements
 ---
 ## Minimum Requirements 
 {% snippet icon.badgeInfo %} 
-{{ en.RDMS }} needs Microsoft .NET Framework 4.8 to function. Please adapt your environment depending on which version you are running. 
+{{ en.RDMS }} needs Microsoft .NET Core 6.0 to function. Additionally, .NET Framework 4.8 is needed to install the {{ en.DVLSCONSOLE }}. Please adapt your environment depending on which version you are running. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

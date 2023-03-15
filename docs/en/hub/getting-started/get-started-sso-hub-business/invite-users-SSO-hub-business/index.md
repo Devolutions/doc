@@ -1,4 +1,4 @@
 ---
-title: Invite Users for SSO in Password Hub Business
+title: Invite Users for SSO in Hub Business
 ---
 
