@@ -15,7 +15,9 @@ To learn more on how to deploy the {{ en.RDM }} Administrative Templates on your
 The admx file is distributed with {{ en.RDM }} : you will find it in a Policies sub-folder. By default, the path is C:\Program Files\Devolutions\Remote Desktop Manager\Policies  
 
 ## Policies
+
 ### General
+
 <table>
 	<tr>
 		<th>
@@ -24,22 +26,6 @@ POLICY NAME
 		<th>
 REGISTRY KEY
 		</th>
-	</tr>
-	<tr>
-		<td>
-Disable the application automatic update check
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableAutoUpdate
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable the application update menus
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableUpdate
-		</td>
 	</tr>
 	<tr>
 		<td>
@@ -59,7 +45,23 @@ Disable features requiring an internet connection, such as telemetry, automatic 
 	</tr>
 	<tr>
 		<td>
-Disables the launching of entries at startup
+Disable the application's automatic update check
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableAutoUpdate
+		</td>
+	</tr>
+	<tr>
+		<td>
+Disable the application's update menus
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableUpdate
+		</td>
+	</tr>
+	<tr>
+		<td>
+Disable the launching of entries at startup
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableLaunchAtStartup
@@ -67,7 +69,7 @@ Disables the launching of entries at startup
 	</tr>
 	<tr>
 		<td>
-Disable license expiration message in overview
+Disable the license expiration message in the Overview
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableLicenseExpirationMessage
@@ -79,6 +81,30 @@ Disable the telemetry data collection
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableAnalytics
+		</td>
+	</tr>
+	<tr>
+		<td>
+Force application close when idle
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceCloseOnIdle
+		</td>	
+	</tr>
+	<tr>
+		<td>
+Force proxy settings to System
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceSystemProxy
+		</td>
+	</tr>
+	<tr>
+		<td>
+Force refresh before edit entry
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceRefreshBeforeEditEntry
 		</td>
 	</tr>
 	<tr>
@@ -99,23 +125,7 @@ Force the loading of the default.cfg file
 	</tr>
 	<tr>
 		<td>
-Force proxy settings to System
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceSystemProxy
-		</td>
-	</tr>
-	<tr>
-		<td>
-Force refresh before edit entry
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceRefreshBeforeEditEntry
-		</td>
-	</tr>
-	<tr>
-		<td>
-Force updating all major update
+Force updating all major updates
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceUpdatingMajorUpdate
@@ -123,7 +133,7 @@ Force updating all major update
 	</tr>
 	<tr>
 		<td>
-Force updating all update
+Force updating all updates
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceUpdatingAllUpdate
@@ -131,7 +141,7 @@ Force updating all update
 	</tr>
 	<tr>
 		<td>
-Force updating all update and beta
+Force updating all updates and beta
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceUpdatingAllUpdateAndBeta
@@ -179,15 +189,7 @@ Check for server certificate revocation
 Disable Azure interactive persistent login
 		</td>
 		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableAzureInterativePersitentLogin
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable the caching mode
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableCaching
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableAzureInteractivePersistentLogin
 		</td>
 	</tr>
 	<tr>
@@ -200,7 +202,7 @@ Disable execute scripts via terminal
 	</tr>
 	<tr>
 		<td>
-Disable exporting the user vault
+Disable exporting the {{ en.PVLT }}
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableUserVaultExport
@@ -216,7 +218,7 @@ Disable local drive sharing of RDP entries
 	</tr>
 	<tr>
 		<td>
-Disable "Mask password" in View Password
+Disable Mask Password in View Password
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableMaskPasswordInViewPassword
@@ -232,7 +234,7 @@ Disable My Account Settings
 	</tr>
 	<tr>
 		<td>
-Disable my personal private key
+Disable My Personal Private Key
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableMyPersonalPrivateKey
@@ -248,7 +250,23 @@ Disable My Privileged Account
 	</tr>
 	<tr>
 		<td>
-Disable the offline mode
+Disable read/write in Offline Mode
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableReadWriteOffline
+		</td>
+	</tr>
+	<tr>
+		<td>
+Disable the Caching mode
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableCaching
+		</td>
+	</tr>
+	<tr>
+		<td>
+Disable the Offline Mode
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableOffline
@@ -264,7 +282,7 @@ Disable the override hard drive specific settings for RDP entries
 	</tr>
 	<tr>
 		<td>
-Disable the password generator
+Disable the Password Generator
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisablePasswordGenerator
@@ -272,18 +290,18 @@ Disable the password generator
 	</tr>
 	<tr>
 		<td>
-Disable read/write in offline mode
+Disable the Reveal Password option in My Account Settings for all users, including administrators
 		</td>
 		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableReadWriteOffline
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableRevealPasswordInMyAccountSettings
 		</td>
 	</tr>
 	<tr>
 		<td>
-Disable the reveal password option in my account settings for all users, including administrators
+Force an application two-factor authentication mode (check against all configured methods or prompt for selection on use)
 		</td>
 		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableRevealPasswordInMyAccountSettings
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\Application2faMode
 		</td>
 	</tr>
 	<tr>
@@ -320,18 +338,18 @@ Force application lock when Windows locks
 	</tr>
 	<tr>
 		<td>
-Force an application two factor authentication mode (check against all configured methods or prompt for selection on use)
+Force multi-factor authentication on the application login
 		</td>
 		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\Application2faMode
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceApplicationMFA
 		</td>
 	</tr>
 	<tr>
 		<td>
-Force multiple factor authentication on the application login
+Force secure desktop usage
 		</td>
 		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceApplicationMFA
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceSecureDesktop
 		</td>
 	</tr>
 	<tr>
@@ -344,7 +362,7 @@ Force the local save of My Account Settings
 	</tr>
 	<tr>
 		<td>
-Force the user to always be prompted for his credentials when launching the application
+Force the user to always be prompted for their credentials when launching the application
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceLogin
@@ -352,18 +370,10 @@ Force the user to always be prompted for his credentials when launching the appl
 	</tr>
 	<tr>
 		<td>
-Force the user to always be prompted for the passphrase while connecting to a data source that is protected by a Shared Passphrase Security Provider
+Force the user to always be prompted for their passphrase while connecting to a data source that is protected by a Shared Passphrase Security Provider
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\AlwaysPromptForPassphrase
-		</td>
-	</tr>
-	<tr>
-		<td>
-Force secure desktop usage
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceSecureDesktop
 		</td>
 	</tr>
 	<tr>
@@ -384,8 +394,8 @@ Ignore application certification errors
 	</tr>
 	<tr>
 		<td>
-LastPass Two Factor authentication mode
-1 = Don’t trust this device
+LastPass two-factor authentication mode
+1 = Do not trust this device
 2 = Trust this device
 3 = Trust this device on close
 		</td>
@@ -395,7 +405,7 @@ LastPass Two Factor authentication mode
 	</tr>
 	<tr>
 		<td>
-Remove possibility to see passwords entirely
+Remove the possibility to see passwords entirely
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceHidePasswordForAdministrators
@@ -403,7 +413,7 @@ Remove possibility to see passwords entirely
 	</tr>
 	<tr>
 		<td>
-Use Windows credentials as application password and force the currently logged on username and domain (unless an application password is already set)
+Use Windows credentials as the application password and force the currently logged on username and domain (unless an application password is already set)
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceWindowsCredentialsAndCurrentlyLoggedOnUsernameAndDomain
@@ -440,6 +450,30 @@ Confirm on multiple sessions open if open count greater than
 	</tr>
 	<tr>
 		<td>
+Disable all session events
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceDisableAllSessionEvents
+		</td>
+	</tr>
+	<tr>
+		<td>
+Disable import in {{ en.PVLT }}
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableImportInPrivateVault
+		</td>
+	</tr>
+	<tr>
+		<td>
+Disable Reveal Password
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableRevealPassword
+		</td>
+	</tr>
+	<tr>
+		<td>
 Disable the Add-on creation and the Add-on Manager is deprecated; use DisableAddOnEntries and DisableAddOnManager instead
 		</td>
 		<td>
@@ -464,14 +498,6 @@ Disable the Add-on Manager
 	</tr>
 	<tr>
 		<td>
-Disable all session events
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceDisableAllSessionEvents
-		</td>
-	</tr>
-	<tr>
-		<td>
 Disable the custom image edition in the session configuration
 		</td>
 		<td>
@@ -480,23 +506,7 @@ Disable the custom image edition in the session configuration
 	</tr>
 	<tr>
 		<td>
-Disable import in user vault
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableImportInPrivateVault
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable the reveal password
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableRevealPassword
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable Website Session and Website (legacy) Information (Deprecated) credential auto fill after one minute
+Disable Website Session and Website (legacy) Information (Deprecated) credential autofill after one minute
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableWebsiteCredentialAutofillAfterDelay
@@ -504,7 +514,7 @@ Disable Website Session and Website (legacy) Information (Deprecated) credential
 	</tr>
 	<tr>
 		<td>
-Enable RDP Hooking
+Enable RDP API hooking
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\EnableRDPHooking
@@ -536,7 +546,7 @@ Force refresh before view password
 	</tr>
 	<tr>
 		<td>
-Force user specific settings migration
+Force User Specific Settings migration
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceUserSpecificSettingsMigration
@@ -552,10 +562,18 @@ Hide the custom port in RDP sessions
 	</tr>
 	<tr>
 		<td>
-Only allow the creation of credentials when inside the user vault
+Only allow the creation of credentials when inside the {{ en.PVLT }}
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\OnlyAllowCredentialsInPrivateVault
+		</td>
+	</tr>
+	<tr>
+		<td>
+Select the default PowerShell version
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DefaultPowershellVersion
 		</td>
 	</tr>
 </table>
@@ -570,6 +588,45 @@ POLICY NAME
 		<th>
 REGISTRY KEY
 		</th>
+	<tr>
+		<td>
+Disable all the local application tools like the Event Viewer or IIS
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableApplicationTools
+		</td>
+	</tr>
+	<tr>
+		<td>
+Disable drag and drop in the connection list
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableDragAndDrop
+		</td>
+	</tr>
+<tr>
+		<td>
+Disable import and export options
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableImportExportOptions
+		</td>
+	</tr>
+	<tr>
+		<td>
+Disable My Personal Credentials
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableMyPersonalCredentials
+		</td>
+	</tr>
+	<tr>
+		<td>
+Disable Quick Connect
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableQuickConnect
+		</td>
 	</tr>
 	<tr>
 		<td>
@@ -581,7 +638,7 @@ Disable the About menu
 	</tr>
 	<tr>
 		<td>
-Disable the Add-On Manager in the Tools menu
+Disable the Add-on Manager in the Tools menu
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableToolsAddOnManager
@@ -589,10 +646,10 @@ Disable the Add-On Manager in the Tools menu
 	</tr>
 	<tr>
 		<td>
-Disable all the local application tools like the Event Viewer or IIS
+Disable the auto-focus of the Dashboard
 		</td>
 		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableApplicationTools
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableAutoFocusDashboard
 		</td>
 	</tr>
 	<tr>
@@ -605,7 +662,7 @@ Disable the Chocolatey Console in the Tools menu
 	</tr>
 	<tr>
 		<td>
-Disable the Devolutions Account usage
+Disable the {{ en.DA }} usage
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableOnlineAccount
@@ -613,7 +670,7 @@ Disable the Devolutions Account usage
 	</tr>
 	<tr>
 		<td>
-Disable the Devolutions Password Server Console in the Tools menu (Deprecated 12.6.8)
+Disable the {{ en.DVLSCONSOLE }} in the Tools menu
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableToolsDevolutionsServerConsole
@@ -621,15 +678,7 @@ Disable the Devolutions Password Server Console in the Tools menu (Deprecated 12
 	</tr>
 	<tr>
 		<td>
-Disable drag and drop in the connection list
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableDragAndDrop
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable the error report prompt
+Disable the Error Report prompt
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableSendErrorReportDialog
@@ -649,14 +698,6 @@ Disable the Help menu
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableHelp
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable the import and the export of the Configuration File in File – Options
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableImportExportOptions
 		</td>
 	</tr>
 	<tr>
@@ -685,14 +726,6 @@ Disable the menu File – Options
 	</tr>
 	<tr>
 		<td>
-Disable My Personal Credentials
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableMyPersonalCredentials
-		</td>
-	</tr>
-	<tr>
-		<td>
 Disable the Open New Remote Desktop option in the Tools menu
 		</td>
 		<td>
@@ -701,7 +734,7 @@ Disable the Open New Remote Desktop option in the Tools menu
 	</tr>
 	<tr>
 		<td>
-Disable the option to open with parameter
+Disable the option to open with parameters
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableOpenWithParameters
@@ -717,14 +750,6 @@ Disable the PowerShell RDM Cmdlet in the Tools menu
 	</tr>
 	<tr>
 		<td>
-Disable quick connect
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableQuickConnect
-		</td>
-	</tr>
-	<tr>
-		<td>
 Disable the RDM Agent in the Tools menu
 		</td>
 		<td>
@@ -733,7 +758,7 @@ Disable the RDM Agent in the Tools menu
 	</tr>
 	<tr>
 		<td>
-Disable the Tools ribbon tab and menu
+Disable the Tools Ribbon tab and menu
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableToolsMenu
@@ -749,7 +774,7 @@ Disable the Top Pane (Ribbon/Menubar)
 	</tr>
 	<tr>
 		<td>
-Forces the main tree view to load with all nodes collapsed at launch
+Force the main tree view to load with all nodes collapsed at launch
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceTreeViewCollapseAtLaunch
@@ -757,7 +782,7 @@ Forces the main tree view to load with all nodes collapsed at launch
 	</tr>
 	<tr>
 		<td>
-Force merging of the credential list with sessions
+Force the merging of the credential list with sessions
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\EnableMergeCredentialListWithSessions
@@ -765,7 +790,7 @@ Force merging of the credential list with sessions
 	</tr>
 	<tr>
 		<td>
-Force merging of the session tool list with sessions
+Force the merging of the session tool list with sessions
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\EnableMergeSessionToolListWithSessions
@@ -875,13 +900,24 @@ Hide the Summary panel located in the Dashboard
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DashboardHideAllSummaryPanels
 		</td>
 	</tr>
+	<tr>
+		<td>
+Hide the Task panel located in the Dashboard
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DashboardHideAllTaskPanels
+		</td>
+	</tr>
+	<tr>
+		<td>
+Select the default tab for the {{ en.NPANE }} on launch
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DefaultNavigationPaneTab
+		</td>
+	</tr>
 </table>
 
 ### Notes
-Note 1 : %Root% can either be HKEY_LOCAL_MACHINE (HKLM) or HKEY_CURRENT_USER (HKCU) depending on how you want to enforce the policy. Please refer to Microsoft's documentation to make the best choice for your situation.
 
-### Sample
-
-* The sample below is for the HKCU branch; adapt it to your needs.
-* Save it to a text file and name it with areg extension. This will allow you to right-click on the file, then choose the ***Merge*** command (you will need to confirm the elevation).
-* Change the value to dword:00000001 to turn the policy on.
+Note 1: %Root% can either be HKEY_LOCAL_MACHINE (HKLM) or HKEY_CURRENT_USER (HKCU) depending on how you want to enforce the policy. Please refer to Microsoft's documentation to make the best choice for your situation.
