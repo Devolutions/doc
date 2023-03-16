@@ -15,12 +15,16 @@ If you are unable to launch the RDP web client, check if you have the necessary 
 
 ## Requirements
 
-### {{ en.RDM }} License and/or Devolutions Launcher
+### Licenses
 
-You must have at least a <a href="https://helprdm.devolutions.net/rdm_administration_licenses.html" target="_blank">{{ en.RDM }} license</a> or <a href="https://helpserver.devolutions.net/devolutions_launcher_overview.html" target="_blank">Devolutions Launcher</a>, ideally both. If you do not have either of these, the ***Open Session*** button that allows you to open the RDP entry in a web client will not show.
+You must have at least a <a href="https://helprdm.devolutions.net/rdm_administration_licenses.html" target="_blank">{{ en.RDM }} license</a> or a <a href="https://helpserver.devolutions.net/devolutions_launcher_overview.html" target="_blank">Devolutions Launcher license</a>, ideally both. If you do not have either of these, the ***Open Session*** button that allows you to open the RDP entry in a web client will not show.
 
 ![Open Session – Open in Web Client](/img/en/kb/KB2163.png)
 *Open Session – Open in Web Client*{.caption}
+
+### Devolutions Gateway
+
+Devolutions Gateway is required to open a RDP session in the Web Client of {{ en.DPS }}. If you do have a Gateway installed, check its configuration.
 
 ### View Password Permission
 
