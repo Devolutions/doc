@@ -10,7 +10,7 @@ If you have enabled Single Sign-on (SSO) with {{ en.HUB }} Business prior to Jan
 * After the synchronization is done, verify that all your existing users are flagged as synced and that they are in their respective Azure ***User Groups***. If some users are not flagged as synced, it means that they are not members of any Azure group that is part of the enterprise application in Azure.
 
 {% snippet icon.badgeCaution %}
-To avoid any downtime during this new setup, you need to complete the configuration in {{ en.PHUB }} Business. Once the new values are saved, the Microsoft authentication will change the enterprise application and should be transparent.
+To avoid any downtime during this new setup, you need to complete the configuration in {{ en.PHUB }} Business. Once the new values are saved, the Microsoft authentication will change the enterprise application and should be seamless.
 {% endsnippet %}
 
 ## Replace {{ en.PHUB }} Custom User Groups with Azure User Groups
