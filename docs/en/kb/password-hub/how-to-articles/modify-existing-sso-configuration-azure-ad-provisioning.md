@@ -1,11 +1,13 @@
 ---
 title: Modify an Existing SSO Configuration for Azure AD Provisioning
 ---
-If you have enabled Single Sign-on (SSO) with {{ en.PHUB }} Business prior to January 9, 2023, it is not configured for Provisioning with Azure AD. To benefit from this feature, you must create a new configuration with Azure AD that will synchronize your desired ***User groups*** with {{ en.PHUB }} Business.
+If you have enabled Single Sign-on (SSO) with {{ en.HUB }} Business prior to January 9, 2023, it is not configured for Provisioning with Azure AD. To benefit from this feature, you must create a new configuration with Azure AD that will synchronize your desired ***User groups*** with {{ en.PHUB }} Business.
 
-Since you are already using SSO and to avoid any downtime during this new setup, here are some extra steps and tips to follow.
+## Create an Enterprise Application in Azure AD and Change the OpenID Configuration
 
-### Configure SSO Authentication with Microsoft Azure
+- The provisioning feature with Azure AD has to be done within a new enterprise application.
+- Since you have already configured the Single Sign-on authentication, you will need to create a new enterprise application in Azure AD following the steps in [Configure SSO Authentication with Microsoft Azure](https://helphub.devolutions.net/hub_connect_azuread_office365_authentification.html) and edit the current OpenID configuration in {{ en.PHUB }} Business.
+- After the synchronization is done, verify that all your existing users are flagged as synced and that they are in their respective Azure ***User Groups***. If some users are not flagged as synced, it means that they are not members of any Azure group that is part of the enterprise application in Azure.
 
 Follow the steps in [Configure SSO Authentication with Microsoft Azure](https://helphub.devolutions.net/hub_connect_azuread_office365_authentification.html) , but with these additional specifications:
 
@@ -13,23 +15,20 @@ Follow the steps in [Configure SSO Authentication with Microsoft Azure](https://
 - In the ***Add a User/Group*** section, when adding your ***User Groups***, ensure that the users of those groups are the ones that are already in {{ en.PHUB }} Business.
 - After the synchronization with the organization, ensure that all your users within their respective groups are displayed in the organization.
 
-### Enable SSO in {{ en.PHUB }} Business
+{% snippet icon.badgeNotice %}
+To avoid any downtime during this new setup, you need to complete the configuration in {{ en.PHUB }} Business. Once the new values are saved, the Microsoft authentication will change the enterprise application and should be transparent.
+{% endsnippet %}
 
-Follow the steps in [Enable SSO in {{ en.PHUB }} Business](https://helphub.devolutions.net/hub_enable_sso_hub_business.html), but with these additional specifications:
-
-- In the ***Enable SSO*** section, since you already have enabled SSO in {{ en.PHUB }} , you only need to change the organization to the new one and then follow the next steps to ***Enable Organization Sync***
-- After the synchronization is done, verify that all your existing users are flagged as synced and that they are in their respective Azure ***User Groups*** If some users are not flagged as synced, it means that they are not members of any Azure group that is part of the Enterprise app in Azure.
-
-### Replace {{ en.PHUB }} Custom User Groups with Azure User Groups
+## Replace {{ en.PHUB }} Custom User Groups with Azure User Groups
 
 {% snippet icon.badgeNotice %}
 Note that this task can be done whenever you have the opportunity, a group at a time.
 {% endsnippet %}
 
-If you have {{ en.PHUB }} ***Custom User Groups***, ensure that you have an Azure ***User Group*** that contains the same users.
+If you have {{ en.HUB }} ***Custom User Groups***, ensure that you have an Azure ***User Group*** that contains the same users.
 
-Once the Azure groups correspond to the custom groups, you can start to replace those custom groups with the Azure groups wherever you assign them in ***System Permissions*** , ***Vault Permissions*** , and ***Folder/Entry Permissions***
+Once the Azure groups correspond to the custom groups, you can start to replace those custom groups with the Azure groups wherever you assign them in ***System Permissions*** , ***Vault Permissions*** , and ***Folder/Entry Permissions***.
 
 {% snippet icon.badgeHelp %}
-Contact our support team at [service@devolutions.net](mailto:service@devolutions.net) if you need help or clarification on certain aspects.
+Contact our support team at [service@devolutions.net](mailto:service@devolutions.net) if you need help.
 {% endsnippet %}
