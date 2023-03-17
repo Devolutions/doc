@@ -3,8 +3,6 @@ title: Configurer un SSO existant pour le provisionnement d'Azure AD
 ---
 Si vous avez activé l'authentification unique (SSO) avec {{ fr.HUB }} Business avant le 9 janvier 2023, elle n'est pas configurée pour le provisionnement avec Azure AD. Pour bénéficier de cette fonctionnalité, vous devez créer une nouvelle configuration avec Azure AD qui synchronisera vos ***Groupes d'utilisateurs*** souhaités avec {{ fr.PHUB }} Business.
 
-Comme vous utilisez déjà le SSO et pour éviter tout temps d'arrêt lors de cette nouvelle configuration, voici quelques étapes supplémentaires et conseils à suivre.
-
 ### Créer une application d'entreprise dans Azure AD et modifier la configuration OpenID
 
 * Comme vous avez déjà configuré le SSO, vous devrez créer une nouvelle application d'entreprise dans Azure AD en suivant les étapes de [Configurer l'authentification SSO avec Microsoft Azure](https://helphub.devolutions.net/fr/hub_connect_azuread_office365_authentification.html) et modifier la configuration OpenID actuelle dans {{ en.PHUB }}.
