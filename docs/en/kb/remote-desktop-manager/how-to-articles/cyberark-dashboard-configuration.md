@@ -1,28 +1,36 @@
 ---
-title: CyberArk Dashboard Configuration
+title: CyberArk Dashboard Configuration and Use
 ---
-The objective of the ***CyberArk Dashboard*** is to provide {{ en.RDM }} users with an interface that prevents having to ever use Password Vault Web Access (PVWA) to see the list of safes and credentials that the current logged on user has access to. Paired with password-less scenarios and/or our rich role-based access control (RBAC), it means that a user does NOT need to know the CyberArk credentials to be presented with a list of accounts they have access to. Additionally, since the dashboard is meant to authenticate once to your server and, most importantly, maintain an active session for as long as it is active, it has the significant advantage of requiring MFA only once when you launch the dashboard.  
+The purpose of the ***CyberArk Dashboard*** entry is to provide {{ en.RDM }} users with an interface that eliminates the need to use Password Vault Web Access (PVWA) to see the list of safes and credentials that the currently logged on user has access to. Combined with password-less scenarios and/or our rich role-based access control (RBAC), this means that a user does NOT need to know the CyberArk credentials to be presented with a list of accounts they have access to. Additionally, since the dashboard is meant to authenticate once to your server and, most importantly, maintain an active session for as long as it is active, it has the significant advantage of only requiring MFA once when you launch the dashboard.
 
-Another design principle of the dashboard is that its main usage model is to go through the CyberArk Privileged Session Manager (PSM) to reach assets. This means that {{ en.RDM }} does NOT need to read the password for the account to be used. Less secure models are available to support older scenarios that some of our customers are still using.  
-
-Configure and use the ***CyberArk Dashboard*** :  
+Another design principle of the dashboard is that its main usage model is to go through the CyberArk Privileged Session Manager (PSM) to reach assets. This means that {{ en.RDM }} does NOT need to read the password for the account to be used. Less secure models are available to support older scenarios that some of our customers are still using.
 
 ## Configuration
-### General tab configuration
-The ***General*** tab is located in the ***Properties*** of your ***CyberArk Dashboard*** entry, in the ***General*** section of the left side menu.  
 
-A. Enter the ***Web services URL*** to connect to your CyberArk instance.  
+1. Create a new ***CyberArk Dashboard*** entry or go to the ***Properties*** of your existing one.
+1. In the ***General*** section, specify a ***Name*** and ***Folder*** for your entry if that's not already done.
 
-B. Adapt the ***Version*** field to the appropriate version.  
-{% snippet icon.badgeCaution %}
-Please note that we only support the CyberArk V12 API in the current release at the time of writing and that CyberArk version 12.1 is required.
+### ***General*** Tab
+
+3. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://<server name>.<our domain>.loc".
+1. Enter a ***Virtual Directory*** if applicable. Most of the time, this field remains empty.
+1. Select a ***Version*** in the drop-down list. This refers to the CyberArk PVWA version seen on the CyberArk authentication page.
+
+{% snippet icon.badgeInfo %}
+Please note that we only support the CyberArk V12 API for now and that CyberArk version 12.1 is required.
 {% endsnippet %}  
 
-C. Select the ***Authentication mode*** used to connect to the CyberArk instance ( ***CyberArk*** , ***Windows*** , ***LDAP*** , ***Radius*** ).  
+6. Select the ***Authentication mode*** used to connect to the CyberArk instance (***CyberArk***, ***Windows***, ***LDAP***, ***RADIUS***, or ***SAML***).
+{% snippet icon.badgeNotice %}
+SAML authentication is supported with CyberArk since version 2022.3.25 of {{ en.RDM }}, but important improvements and bug fixes have been implemented in ulterior versions. We recommend to at least update to the 2023.1 version of {{ en.RDM }}. If you have trouble with your SAML authentication, try our SAML authentication Troubleshooting topic.
+{% endsnippet %}
 {% snippet icon.badgeCaution %}
-Your CyberArk Vault administrator should provide you with the authentication model being used, but if in PVWA you click on a link that matches your corporate domain name, this indicates that the LDAP model is being used. The icon looks like the following:
-![iconldapcyberark.png](/img/en/kb/iconldapcyberark.png)
-{% endsnippet %}  
+SAML authentication for CyberArk Privilege Cloud is currently **not** supported.
+{% endsnippet %}
+{% snippet icon.badgeCaution %}
+Your CyberArk Vault administrator should provide you with the authentication model being used, but if, in PVWA, you click on a link that matches your corporate domain name, this indicates that the LDAP model is being used. The icon looks like the following:
+![LDAP CyberArk Icon](/img/en/kb/iconldapcyberark.png)
+{% endsnippet %}
 
 D. Enter your credentials or select them using a {{ en.RDM }} mechanism. As with all dashboards in {{ en.RDM }} , if you are creating an entry that will be visible to multiple users, we recommend choosing ***My Account Settings PVWA*** from the ***Authentication credentials*** drop-down list, then visiting ***File - My Account Settings - CyberArk PVWA*** to enter your personal CyberArk credentials.
 ![KB2068.png](/img/en/kb/KB2068.png)
