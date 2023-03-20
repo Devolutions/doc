@@ -6,7 +6,7 @@ eleventyComputed:
 Cette rubrique explique comment créer une entrée à partir de vos identifiants de site Web existants. Si vous n&apos;avez pas encore créé de compte pour le site Web, consultez plutôt notre rubrique sur la façon de [Créer un compte de site Web avec {{ fr.DWL }}](/fr/server/dwl/using-devolutions-web-login/create-account-website-dwl/) . 
 {% endsnippet %}
  
-Des entrées de site Web peuvent être créées avec {{ fr.DWL }} dans {{ fr.DPS }} . Ce type d&apos;entrée est utile pour enregistrer vos identifiants de connexion afin que vous n&apos;ayez plus à les mémoriser. Ces entrées sont également utilisées par {{ fr.DWL }} pour reconnaître un site Web et [récupérer vos identifiants](DevolutionsWebLogin_RetrieveCredentials) .  
+Des entrées de site Web peuvent être créées avec {{ fr.DWL }} dans {{ fr.DPS }} . Ce type d&apos;entrée est utile pour enregistrer vos identifiants de connexion afin que vous n&apos;ayez plus à les mémoriser. Ces entrées sont également utilisées par {{ fr.DWL }} pour reconnaître un site Web et [récupérer vos identifiants](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) .  
 
 La principale façon d&apos;y parvenir est de se connecter avec succès au site Web. {{ fr.DWL }} proposera automatiquement d&apos;enregistrer vos identifiants dans une nouvelle entrée de site Web dans {{ fr.DPS }} . Il est également possible de créer manuellement l&apos;entrée de site Web.  
 
@@ -24,7 +24,7 @@ La principale façon d&apos;y parvenir est de se connecter avec succès au site 
 1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l&apos;entrée de site Web. Si ce champ reste vide, l&apos;entrée sera sauvegardée à la racine du coffre. Si le dossier spécifié n&apos;existe pas, il sera créé en même temps que l&apos;entrée. 
 1. Cliquer sur ***Enregistrer*** .  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DPS }} . La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](DevolutionsWebLogin_RetrieveCredentials) .  
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DPS }} . La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) .  
 
 ### Ajouter manuellement une entrée de site Web 
 1. <a name="1"></a>Aller à la page de connexion du site Web. Cette page sera différente pour chaque site Web; cette rubrique utilisera le site Web d&apos;Atlassian comme exemple.  
@@ -42,5 +42,5 @@ Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle ent
 1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l&apos;entrée de site Web. Si ce champ reste vide, l&apos;entrée sera sauvegardée à la racine du coffre. Si le dossier spécifié n&apos;existe pas, il sera créé en même temps que l&apos;entrée. 
 1. Cliquer sur ***Enregistrer*** .  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DPS }} . La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](DevolutionsWebLogin_RetrieveCredentials) . 
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DPS }} . La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) . 
 

@@ -7,7 +7,7 @@ eleventyComputed:
 {{ fr.DWL }} vous aide à créer un nouveau compte lorsque vous vous inscrivez sur un site Web. Il vous donne la possibilité de créer un mot de passe sécurisé et d&apos;enregistrer vos nouveaux identifiants.  
 
 {% snippet icon.badgeInfo %} 
-Si vous avez déjà un compte pour le site Web, apprenez plutôt comment [Ajouter une entrée de site Web avec {{ fr.DWL }}](Add_a_Website_Entry_with_DWL) . 
+Si vous avez déjà un compte pour le site Web, apprenez plutôt comment [Ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
 {% endsnippet %}
  
 Suivez les étapes ci-dessous pour créer un compte de site Web avec {{ fr.DWL }} et sauvegarder vos identifiants dans {{ fr.DPS }} .  
@@ -41,5 +41,5 @@ Vos paramètres de mot de passe sont maintenant configurés.
 1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l&apos;entrée de site Web. Si ce champ reste vide, l&apos;entrée sera sauvegardée à la racine du coffre. Si le dossier spécifié n&apos;existe pas, il sera créé en même temps que l&apos;entrée. 
 1. Cliquer sur ***Enregistrer*** .  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DPS }} . La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](DevolutionsWebLogin_RetrieveCredentials) . 
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DPS }} . La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) . 
 

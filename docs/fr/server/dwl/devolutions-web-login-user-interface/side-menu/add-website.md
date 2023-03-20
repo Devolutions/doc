@@ -172,7 +172,7 @@ Annuler la création d&apos;une nouvelle entrée de site Web et effacer toute le
 </table>
 
 {% snippet icon.badgeInfo %} 
-Consultez notre guide étape par étape pour [ajouter une entrée de site Web avec {{ fr.DWL }}](Add_a_Website_Entry_with_DWL) . 
+Consultez notre guide étape par étape pour [ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
 {% endsnippet %}
  
 
