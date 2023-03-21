@@ -46,5 +46,5 @@ Veuillez consulter la section [Instance de la base de données](/fr/server/insta
 
 ### Créer une instance de {{ fr.RDMS }} 
 
-Veuillez consulter la section [Créer une instance de {{ fr.RDMS }}](Install_CreateRDMSinstance) . 
+Veuillez consulter la section [Créer une instance de {{ fr.RDMS }}](/server/installation/create-server-instance/) . 
 

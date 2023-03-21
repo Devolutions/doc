@@ -76,7 +76,7 @@ Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Micr
 ![clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer une instance de {{ fr.RDMS }} (voir [Créer une instance de {{ fr.RDMS }}](Install_CreateRDMSinstance) ). 
+Créer une instance de {{ fr.RDMS }} (voir [Créer une instance de {{ fr.RDMS }}](/server/installation/create-server-instance/) ). 
 		</td>
 	</tr>
 	<tr>
