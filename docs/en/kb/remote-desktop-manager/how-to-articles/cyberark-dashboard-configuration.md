@@ -18,7 +18,7 @@ Another design principle of the dashboard is that its main usage model is to go 
 ![General Tab](/img/en/kb/KB2068.png)
 *General Tab* {.caption}
 
-1. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://<server name>.<our domain>.loc".
+1. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://&lt;server name&gt;.&lt;our domain&gt;.loc".
 1. Enter a ***Virtual directory*** if applicable. Most of the time, this field can remain empty.
 1. Select a ***Version*** in the drop-down list. This refers to the CyberArk PVWA version seen on the CyberArk authentication page.
 
@@ -44,14 +44,14 @@ Your CyberArk Vault administrator should provide you with the authentication mod
 As with all ***Dashboard*** entries in {{ en.RDM }}, if you are creating an entry that will be visible to multiple users, we recommend choosing ***My Account Settings PVWA***, then visiting ***File – My Account Settings – CyberArk PVWA*** to enter your personal CyberArk credentials.
 {% endsnippet %}
 
-6. Follow this step if you selected ***Custom*** in the ***Authentication credentials*** list. If not, skip to the next section.
+6. Follow this step if you selected ***Custom*** in the ***Authentication credentials*** list. If not, skip to the <a href="#advanced-tab">***Advanced*** Tab</a> section.
     1. Enter your ***Username*** and ***Password*** in the corresponding fields. Use the ***Password generator*** to help you create a secure password.
     1. Check the ***Always ask password*** box to be prompted for you password each time you connect.
     1. If you have a RSA SecurID code, check the ***Append RSA SecurID code to password*** box, then select below the ***RSA SecurID source***.
 
 ### ***Advanced*** Tab
 
-The ***Advanced*** tab is divided in three sub-tabs: ***General***, ***PVWA***, and ***PSM***.
+The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***, and ***PSM***.
 
 #### ***General***
 
@@ -146,8 +146,8 @@ In both cases, you will then see a dialog box that allows you to specify the hos
 ![CyberArk Select Host](/img/en/kb/KB2071.png)
 *CyberArk Select Host* {.caption}
 
-1. Host control
-    1. If the CyberArk Remote machine access field is used in the account properties, this will list the endpoints that we entered. It allows for connections even for assets that are not managed in {{ en.RDM }}
-    1. If the CyberArk Remote machine access field is not used, you can type in any name in the control to connect to it. Please note that name resolution is performed at the PSM level. Therefore, please adhere to standards of your CyberArk installation to achieve success.
-1. Filter: Type in characters that fit an asset name to have a filter applied in the grid below.
+1. ***Host*** field
+    * If the CyberArk Remote machine access field is used in the account properties, the endpoints that were entered will be listed in this field. It allows for connections even for assets that are not managed in {{ en.RDM }}.
+    * If the CyberArk Remote machine access field is not used, you can type in any name in the control to connect to it. Please note that name resolution is performed at the PSM level. Therefore, please adhere to the standards of your CyberArk installation to achieve success.
+1. Filter field: Type in characters that fit an asset name to have a filter applied in the grid below.
 1. The grid will display entries that represent a host system. Therefore, connect to the one that represents the endpoint you need to connect to.
