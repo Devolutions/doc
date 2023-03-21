@@ -36,10 +36,10 @@ If you are using a version of {{ en.RDM }} prior to 2023.1, the ***IdP sign-in U
 ## SAML Troubleshooting
 
 When connecting to your ***CyberArk Dashboard*** entry configured with SAML authentication, you may encounter an issue where your safe selector is empty. We recommend updating {{ en.RDM }} to at least version 2023.1 as improvements have been implemented in this version for the SAML authentication mode. Follow the steps below:
-1. Download and install / update {{ en.RDM }} to version 2023.1 or later.
+1. [Download and install](https://devolutions.net/remote-desktop-manager) {{ en.RDM }} or update it to version 2023.1 or later.
 
 {% snippet icon.badgeNotice %}
-If you are using a shared data source, we recommend to use a portable version of {{ en.RDM }} on a local data source to test.
+If you are using a shared data source, we recommend to use a [portable version of {{ en.RDM }}](https://help.remotedesktopmanager.com/installation_portableusb.html) on a local data source to test.
 {% endsnippet %}
 
 2. In {{ en.RDM }}, create your ***CyberArk Dashboard*** entry. Make sure it is created from the 2023.1 version and **not** the previous version.

@@ -32,7 +32,7 @@ Please note that we only support the CyberArk V12 API for now and that CyberArk 
 
 4. Select the ***Authentication mode*** used to connect to the CyberArk instance (***CyberArk***, ***Windows***, ***LDAP***, ***RADIUS***, or ***SAML***).
 {% snippet icon.badgeNotice %}
-SAML authentication is supported with CyberArk since version 2022.3.25 of {{ en.RDM }}, but important improvements and bug fixes have been implemented in ulterior versions. We recommend to at least update to the 2023.1 version of {{ en.RDM }} if your current version is older. If you have trouble with your SAML authentication, try our SAML Authentication Troubleshooting topic.
+SAML authentication is supported with CyberArk since version 2022.3.25 of {{ en.RDM }}, but important improvements and bug fixes have been implemented in ulterior versions. We recommend to at least update to the 2023.1 version of {{ en.RDM }} if your current version is older. If you have trouble with your SAML authentication, try our SAML Configuration and Troubleshooting topic.
 {% endsnippet %}
 {% snippet icon.badgeCaution %}
 SAML authentication for CyberArk Privilege Cloud is currently **not** supported.
