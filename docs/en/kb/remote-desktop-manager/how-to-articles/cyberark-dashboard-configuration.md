@@ -18,7 +18,11 @@ Another design principle of the dashboard is that its main usage model is to go 
 ![General Tab](/img/en/kb/KB2068.png)
 *General Tab* {.caption}
 
-1. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://&lt;server name&gt;.&lt;our domain&gt;.loc".
+{% snippet icon.badgeInfo %}
+Since version 
+{% endsnippet %}  
+
+1. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://&lt;server name&gt;.&lt;our domain&gt;.loc/".
 1. Enter a ***Virtual directory*** if applicable. Most of the time, this field can remain empty.
 1. Select a ***Version*** in the drop-down list. This refers to the CyberArk PVWA version seen on the CyberArk authentication page.
 
@@ -28,7 +32,7 @@ Please note that we only support the CyberArk V12 API for now and that CyberArk 
 
 4. Select the ***Authentication mode*** used to connect to the CyberArk instance (***CyberArk***, ***Windows***, ***LDAP***, ***RADIUS***, or ***SAML***).
 {% snippet icon.badgeNotice %}
-SAML authentication is supported with CyberArk since version 2022.3.25 of {{ en.RDM }}, but important improvements and bug fixes have been implemented in ulterior versions. We recommend to at least update to the 2023.1 version of {{ en.RDM }} if your current version is older. If you have trouble with your SAML authentication, try our SAML authentication Troubleshooting topic.
+SAML authentication is supported with CyberArk since version 2022.3.25 of {{ en.RDM }}, but important improvements and bug fixes have been implemented in ulterior versions. We recommend to at least update to the 2023.1 version of {{ en.RDM }} if your current version is older. If you have trouble with your SAML authentication, try our SAML Authentication Troubleshooting topic.
 {% endsnippet %}
 {% snippet icon.badgeCaution %}
 SAML authentication for CyberArk Privilege Cloud is currently **not** supported.
