@@ -19,7 +19,7 @@ Description
 Historique des mots de passe 
 		</td>
 		<td>
-Indiquer le nombre de mots de passe maximum enregistré à conserver dans l&apos;historique 
+Indiquer le nombre de mots de passe maximum enregistré à conserver dans l'historique 
 		</td>
 	</tr>
 	<tr>
@@ -27,7 +27,7 @@ Indiquer le nombre de mots de passe maximum enregistré à conserver dans l&apos
 Calculateur de force de mot de passe 
 		</td>
 		<td>
-Sélectionner l&apos;outil à utiliser pour analyser la force du mot de passe. 
+Sélectionner l'outil à utiliser pour analyser la force du mot de passe. 
 		</td>
 	</tr>
 </table>
@@ -47,31 +47,31 @@ Description
 Désactiver la sauvegarde du mot de passe (partagé) 
 		</td>
 		<td>
-Empêcher les utilisateurs d&apos;enregistrer les mots de passe dans les entrées. 
+Empêcher les utilisateurs d'enregistrer les mots de passe dans les entrées. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Désactiver l&apos;enregistrement de mot de passe (paramètres spécifiques de l&apos;utilisateur) 
+Désactiver l'enregistrement de mot de passe (paramètres spécifiques de l'utilisateur) 
 		</td>
 		<td>
-Empêcher les utilisateurs d&apos;enregistrer les mots de passe dans les paramètres spécifiques à l&apos;utilisateur. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Permettre de voir les identifiants (si activé dans l&apos;entrée) 
-		</td>
-		<td>
-Afficher les identifiants si la case &quot;Autoriser les identifiants&quot; est cochée dans l&apos;entrée. 
+Empêcher les utilisateurs d'enregistrer les mots de passe dans les paramètres spécifiques à l'utilisateur. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Désactiver l&apos;enregistrement de mot de passe (outils) 
+Permettre de voir les identifiants (si activé dans l'entrée) 
 		</td>
 		<td>
-Empêcher les utilisateurs d&apos;enregistrer les mots de passe dans l&apos;onglet ***Outils*** d&apos;une session. 
+Afficher les identifiants si la case "Autoriser les identifiants" est cochée dans l'entrée. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Désactiver l'enregistrement de mot de passe (outils) 
+		</td>
+		<td>
+Empêcher les utilisateurs d'enregistrer les mots de passe dans l'onglet ***Outils*** d'une session. 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Empêcher les utilisateurs d&apos;enregistrer les mots de passe dans l&apos;ongl
 Autoriser des variables de mots de passe pour toutes les entrées 
 		</td>
 		<td>
-Autoriser l&apos;utilisation de la variable ***$PASSWORD$*** pour cette source de données. 
+Autoriser l'utilisation de la variable ***$PASSWORD$*** pour cette source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -115,7 +115,7 @@ Modèle de mots de passe par défault utilisé par le système. Des modèles peu
 Forcer le modèle par défaut 
 		</td>
 		<td>
-Force l&apos;utilisation du modèle par défaut lorsque l&apos;option est activée. 
+Force l'utilisation du modèle par défaut lorsque l'option est activée. 
 		</td>
 	</tr>
 </table>
@@ -144,8 +144,8 @@ Vérifier le modèle de mot de passe
 		</td>
 		<td>
 * ***Aucun*** : Aucun modèle de mot de passe ne sera utilisé lors de la création du mot de passe.  
-* ***Obligatoire*** : Lors de la création du mot de passe, l&apos;utilisateur recevra un avertissement indiquant que le mot de passe ne répond pas aux règles du modèle de mot de passe. L&apos;utilisateur ne peut pas enregistrer le mot de passe.  
-* ***Avertissement*** : Lors de la création du mot de passe, l&apos;utilisateur recevra un avertissement indiquant que le mot de passe ne répond pas aux règles du modèle de mot de passe. L&apos;utilisateur peut enregistrer le mot de passe.  
+* ***Obligatoire*** : Lors de la création du mot de passe, l'utilisateur recevra un avertissement indiquant que le mot de passe ne répond pas aux règles du modèle de mot de passe. L'utilisateur ne peut pas enregistrer le mot de passe.  
+* ***Avertissement*** : Lors de la création du mot de passe, l'utilisateur recevra un avertissement indiquant que le mot de passe ne répond pas aux règles du modèle de mot de passe. L'utilisateur peut enregistrer le mot de passe.  
 		</td>
 	</tr>
 	<tr>

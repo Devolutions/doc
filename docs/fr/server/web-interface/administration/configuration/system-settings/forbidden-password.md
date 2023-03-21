@@ -1,7 +1,7 @@
 ---
 title: Mot de passe interdit
 ---
-Les mots de passe interdits permettent de créer une liste de mots de passe interdit dans l&apos;utilisation de l&apos;application. Une fois défini dans cette liste, le mot de passe ne peut plus être utilisé dans la source de données {{ fr.RDMS }} .  
+Les mots de passe interdits permettent de créer une liste de mots de passe interdit dans l'utilisation de l'application. Une fois défini dans cette liste, le mot de passe ne peut plus être utilisé dans la source de données {{ fr.RDMS }} .  
 ![Administration – Paramètres du système – Mot de passe interdit](/img/fr/server/clip10378.png) 
 
 <table>
@@ -29,9 +29,9 @@ Mode de vérification
 		<td>
 Sélectionner le mode de vérification entre:  
 
-Contiens : Le mot de passe sera interdit s&apos;il contient un mot de la liste.  
+Contiens : Le mot de passe sera interdit s'il contient un mot de la liste.  
 
-Correspondance exacte : Le mot de passe sera interdit s&apos;il correspond à un mot de la liste.  
+Correspondance exacte : Le mot de passe sera interdit s'il correspond à un mot de la liste.  
 		</td>
 	</tr>
 	<tr>

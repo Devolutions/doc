@@ -8,7 +8,7 @@ Les Identifiants avancés sont utilisés pour permettre à {{ fr.DPS }} de commu
 Seuls les comptes de connexion SQL peuvent être utilisés. 
 {% endsnippet %}
  
-Pour plus d&apos;informations sur ces comptes, veuillez consulter [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) (en anglais) .  
+Pour plus d'informations sur ces comptes, veuillez consulter [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) (en anglais) .  
 
 ![Identifiants avancés](/img/fr/server/ServerOp4032.png) 
 
@@ -36,7 +36,7 @@ Identifiants qui permettent à la Console {{ fr.DPS }} de communiquer avec la ba
 Service de planification 
 		</td>
 		<td>
-Identifiants utilisés pour les fonctionnalités du planificateur (Gestionnaire de sauvegarde, Notifications par courriel, Messagerie sécurisée, Cache des utilisateurs et des Groupes d&apos;utilisateurs du domaine, Cache Azure AD). Dois être un compte SQL. Si l&apos;option de Sécurité intégrée est activée, les champs Nom d&apos;utilisateur et Mot de passe sont grisés. 
+Identifiants utilisés pour les fonctionnalités du planificateur (Gestionnaire de sauvegarde, Notifications par courriel, Messagerie sécurisée, Cache des utilisateurs et des Groupes d'utilisateurs du domaine, Cache Azure AD). Dois être un compte SQL. Si l'option de Sécurité intégrée est activée, les champs Nom d'utilisateur et Mot de passe sont grisés. 
 		</td>
 	</tr>
 	<tr>
@@ -44,7 +44,7 @@ Identifiants utilisés pour les fonctionnalités du planificateur (Gestionnaire 
 Application Web 
 		</td>
 		<td>
-Identifiants utilisés pour que l&apos;Application Web communique avec la base de données SQL. Dois être un compte SQL. Si l&apos;option de Sécurité intégrée est activée, les champs Nom d&apos;utilisateur et Mot de passe sont grisés. 
+Identifiants utilisés pour que l'Application Web communique avec la base de données SQL. Dois être un compte SQL. Si l'option de Sécurité intégrée est activée, les champs Nom d'utilisateur et Mot de passe sont grisés. 
 		</td>
 	</tr>
 	<tr>
@@ -52,7 +52,7 @@ Identifiants utilisés pour que l&apos;Application Web communique avec la base d
 Tester connexion 
 		</td>
 		<td>
-Tester sur le serveur SQL les identifiants définis dans les champs Nom d&apos;utilisateur / Mot de passe. Si l&apos;option de Sécurité intégrée est activée, les champs Nom d&apos;utilisateur et Mot de passe sont grisés. 
+Tester sur le serveur SQL les identifiants définis dans les champs Nom d'utilisateur / Mot de passe. Si l'option de Sécurité intégrée est activée, les champs Nom d'utilisateur et Mot de passe sont grisés. 
 		</td>
 	</tr>
 	<tr>
@@ -60,7 +60,7 @@ Tester sur le serveur SQL les identifiants définis dans les champs Nom d&apos;u
 Appliquer les permissions limitées 
 		</td>
 		<td>
-Exécutera une instruction SQL pour accorder des permissions limitées sur la base de données pour le Service de planification ou les comptes d&apos;Application Web. 
+Exécutera une instruction SQL pour accorder des permissions limitées sur la base de données pour le Service de planification ou les comptes d'Application Web. 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ Exécutera une instruction SQL pour accorder des permissions limitées sur la ba
 Généré un script 
 		</td>
 		<td>
-Génèrera un script SQL pouvant être exécuté sur la base de données SQL pour le Service de planification ou les comptes d&apos;Application Web. Disponible seulement avec l&apos;Authentification Windows. 
+Génèrera un script SQL pouvant être exécuté sur la base de données SQL pour le Service de planification ou les comptes d'Application Web. Disponible seulement avec l'Authentification Windows. 
 		</td>
 	</tr>
 </table>

@@ -59,7 +59,7 @@ Inclura le caractère souligné (_) pour la génération du mot de passe.
 Haut caratères ANSI 
 		</td>
 		<td>
-Inclura les caractères de «-» à U255 (à l&apos;exclusion de U255) pour la génération de mot de passe. 
+Inclura les caractères de «-» à U255 (à l'exclusion de U255) pour la génération de mot de passe. 
 		</td>
 	</tr>
 	<tr>
@@ -72,7 +72,7 @@ Inclura le caractère moins (-) pour la génération de mot de passe.
 	</tr>
 	<tr>
 		<td>
-Supports ([,], (,), &lt;,&gt;) 
+Supports ([,], (,), <,>) 
 		</td>
 		<td>
 Inclura des caractères crochets pour la génération de mot de passe. 
@@ -88,7 +88,7 @@ Inclura des chiffres pour la génération de mot de passe.
 	</tr>
 	<tr>
 		<td>
-Spécial (!, $, %, &amp;, ...) 
+Spécial (!, $, %, &, ...) 
 		</td>
 		<td>
 Inclura des caractères spéciaux pour la génération de mot de passe. 

@@ -1,11 +1,11 @@
 ---
 title: Texto
 ---
-Le texto d&apos;authentification à deux facteurs demandera à l&apos;utilisateur de saisir un code qu&apos;il a reçu sur son téléphone mobile comme deuxième composant pour accéder à la source de données.  
+Le texto d'authentification à deux facteurs demandera à l'utilisateur de saisir un code qu'il a reçu sur son téléphone mobile comme deuxième composant pour accéder à la source de données.  
 
 Il existe deux configurations possibles. Pour utiliser la version gratuite, ne remplissez pas les paramètres Twilio.  
 
-L&apos;autre configuration disponible est de configurer Twilio. Veuillez remplir les champs appropriés avec les informations de votre abonnement Twilio.  
+L'autre configuration disponible est de configurer Twilio. Veuillez remplir les champs appropriés avec les informations de votre abonnement Twilio.  
 ![Paramètres Twilio](/img/fr/server/ServerOp8136.png)  
 
 <table>
@@ -27,10 +27,10 @@ Compte SID de votre compte Twilio.
 	</tr>
 	<tr>
 		<td>
-Jeton d&apos;authentification 
+Jeton d'authentification 
 		</td>
 		<td>
-Jeton d&apos;autorisation de votre compte Twilio. 
+Jeton d'autorisation de votre compte Twilio. 
 		</td>
 	</tr>
 	<tr>

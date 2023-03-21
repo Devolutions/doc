@@ -17,7 +17,7 @@ Description
 Importer 
 		</td>
 		<td>
-Restreindre le privilège d&apos;importation à certains utilisateurs. 
+Restreindre le privilège d'importation à certains utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -25,7 +25,7 @@ Restreindre le privilège d&apos;importation à certains utilisateurs.
 Exporter 
 		</td>
 		<td>
-Restreindre le privilège d&apos;exportation à certains utilisateurs. 
+Restreindre le privilège d'exportation à certains utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -33,7 +33,7 @@ Restreindre le privilège d&apos;exportation à certains utilisateurs.
 Ajouter à la racine 
 		</td>
 		<td>
-Limiter la création d&apos;entrées a la racine à certains utilisateurs. 
+Limiter la création d'entrées a la racine à certains utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -41,7 +41,7 @@ Limiter la création d&apos;entrées a la racine à certains utilisateurs.
 Paramètres du coffre 
 		</td>
 		<td>
-Restreindre l&apos;accès aux propriétés du coffre à certains utilisateurs. 
+Restreindre l'accès aux propriétés du coffre à certains utilisateurs. 
 		</td>
 	</tr>
 </table>

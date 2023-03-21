@@ -3,16 +3,16 @@ title: Introduction
 order: 10
 ---
 {% snippet icon.badgeInfo %} 
-Cette section couvre {{ fr.TITLECORP }} . Si vous avez acheté une licence de {{ fr.TITLESBE }} , veuillez consulter la section [Introduction à l&apos;édition Team](/fr/server/getting-started/team-edition/) . 
+Cette section couvre {{ fr.TITLECORP }} . Si vous avez acheté une licence de {{ fr.TITLESBE }} , veuillez consulter la section [Introduction à l'édition Team](/fr/server/getting-started/team-edition/) . 
 {% endsnippet %}
  
-Après avoir complété l&apos;achat de {{ fr.TITLECORP }} , un courriel contenant trois clés de licence vous sera envoyé. Chaque licence donne le droit de créer une instance de {{ fr.RDMS }} . Dans ce cas-ci, une instance est un serveur applicatif utilisé par nos applications clientes. C&apos;est en sorte de base de données spécialisée pour vos données. Toutes les instances peuvent être installées sur le même serveur physique ou réparties sur plusieurs serveurs.  
+Après avoir complété l'achat de {{ fr.TITLECORP }} , un courriel contenant trois clés de licence vous sera envoyé. Chaque licence donne le droit de créer une instance de {{ fr.RDMS }} . Dans ce cas-ci, une instance est un serveur applicatif utilisé par nos applications clientes. C'est en sorte de base de données spécialisée pour vos données. Toutes les instances peuvent être installées sur le même serveur physique ou réparties sur plusieurs serveurs.  
 
 {{ fr.RDMS }} peut être installé selon différentes [topologies](/fr/server/overview/topologies/) .  
 
 ## Configuration requise du domaine 
 
-Ces exigences sont requises seulement si vous avez l&apos;intention d&apos;utiliser la création automatique de compte utilisateur (voir la section [Authentification)](/fr/server/web-interface/administration/configuration/server-settings/general/authentication/)) et/ou des groupes d&apos;utilisateurs pour gérer votre instance.  
+Ces exigences sont requises seulement si vous avez l'intention d'utiliser la création automatique de compte utilisateur (voir la section [Authentification)](/fr/server/web-interface/administration/configuration/server-settings/general/authentication/)) et/ou des groupes d'utilisateurs pour gérer votre instance.  
 
 <table>
 	<tr>
@@ -21,7 +21,7 @@ Ces exigences sont requises seulement si vous avez l&apos;intention d&apos;utili
 ![clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer des groupes d&apos;Active Directory pour gérer votre instance. Exemples typiques : RDM Admins, RDM Operators, RDM Users . 
+Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiques : RDM Admins, RDM Operators, RDM Users . 
 		</td>
 	</tr>
 	<tr>
@@ -29,7 +29,7 @@ Créer des groupes d&apos;Active Directory pour gérer votre instance. Exemples 
 ![clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
-Ajouter des utilisateurs du domaine aux groupes d&apos;Active Directory. 
+Ajouter des utilisateurs du domaine aux groupes d'Active Directory. 
 		</td>
 	</tr>
 	<tr>
@@ -45,14 +45,14 @@ Créer un compte VaultOwner qui sera le propriétaire de la base de données. Le
 ![clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer un compte VaultRunner qui agira en tant qu&apos;identité du site Web. Vous pourrez ainsi limiter les permissions selon le principe d&apos;accès minimal. 
+Créer un compte VaultRunner qui agira en tant qu'identité du site Web. Vous pourrez ainsi limiter les permissions selon le principe d'accès minimal. 
 		</td>
 	</tr>
 </table>
 
 ## Liste de vérification pour installer et exécuter {{ fr.RDMS }} 
 
-### Configuration logicielle requise du serveur hébergeant l&apos;instance 
+### Configuration logicielle requise du serveur hébergeant l'instance 
 
 <table>
 	<tr>
@@ -69,7 +69,7 @@ Microsoft .NET Framework 4.8.
 ![clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
-Si vous avez l&apos;intention d&apos;héberger la solution sur un seul serveur, installer Microsoft SQL Server (voir les sections [Instance de la base de données](/fr/server/installation/database-instance/) et [Topologies](/fr/server/overview/topologies/) ). 
+Si vous avez l'intention d'héberger la solution sur un seul serveur, installer Microsoft SQL Server (voir les sections [Instance de la base de données](/fr/server/installation/database-instance/) et [Topologies](/fr/server/overview/topologies/) ). 
 		</td>
 	</tr>
 	<tr>
@@ -77,7 +77,7 @@ Si vous avez l&apos;intention d&apos;héberger la solution sur un seul serveur, 
 ![clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
-Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Microsoft pour plus d&apos;information: [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules) ). 
+Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Microsoft pour plus d'information: [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules) ). 
 		</td>
 	</tr>
 </table>
@@ -107,7 +107,7 @@ Créer un compte administrateur de {{ fr.RDMS }} avec [Gestion des utilisateurs]
 ![clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer des [Groupes d&apos;utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) . 
+Créer des [Groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) . 
 		</td>
 	</tr>
 	<tr>

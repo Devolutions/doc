@@ -19,12 +19,12 @@ Description
 	<tr>
 		<td>
 Entrées  
-Groupes d&apos;utilisateurs  
+Groupes d'utilisateurs  
 Coffres  
 Usagers  
 		</td>
 		<td>
-Lors de la sélection de l&apos;une de ces options, lors de la réinitialisation du cache, il récupérera toutes les informations de la base de données et les placera dans la mémoire cache du serveur. 
+Lors de la sélection de l'une de ces options, lors de la réinitialisation du cache, il récupérera toutes les informations de la base de données et les placera dans la mémoire cache du serveur. 
 		</td>
 	</tr>
 	<tr>
@@ -33,7 +33,7 @@ Domaine
 Office365  
 		</td>
 		<td>
-Lors de la réinitialisation du cache du ***Domaine*** ou d&apos; ***Office365*** , il effacera les informations enregistrées dans la base de données et rechargera toutes les appartenances d&apos;utilisateurs et de groupes extraites d&apos;Active Directory ou d&apos;Azure AD. 
+Lors de la réinitialisation du cache du ***Domaine*** ou d' ***Office365*** , il effacera les informations enregistrées dans la base de données et rechargera toutes les appartenances d'utilisateurs et de groupes extraites d'Active Directory ou d'Azure AD. 
 		</td>
 	</tr>
 </table>

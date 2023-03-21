@@ -1,7 +1,7 @@
 ---
 title: Information sur le domaine
 ---
-Permet d&apos;afficher l&apos;information sur le groupe d&apos;utilisateurs de type domaine.  
+Permet d'afficher l'information sur le groupe d'utilisateurs de type domaine.  
 ![Groupe d'utilisateurs - Information sur le domaine](/img/fr/server/ServerOp8043.png) 
 
 <table>
@@ -18,7 +18,7 @@ Description
 Domaine 
 		</td>
 		<td>
-Nom de domaine du groupe d&apos;utilisateurs. 
+Nom de domaine du groupe d'utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -26,13 +26,13 @@ Nom de domaine du groupe d&apos;utilisateurs.
 SID 
 		</td>
 		<td>
-Identifiant de sécurité du groupe d&apos;utilisateurs du domaine. 
+Identifiant de sécurité du groupe d'utilisateurs du domaine. 
 		</td>
 	</tr>
 </table>
 
 ### Chercher sur le domaine 
 
-Affiche l&apos;information détaillée du groupe d&apos;utilisateurs de type domaine.  
+Affiche l'information détaillée du groupe d'utilisateurs de type domaine.  
 ![ServerOp8052.png](/img/fr/server/ServerOp8052.png) 
 

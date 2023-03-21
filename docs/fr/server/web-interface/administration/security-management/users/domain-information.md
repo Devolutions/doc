@@ -1,7 +1,7 @@
 ---
 title: Information sur le domaine
 ---
-Permet d&apos;afficher l&apos;information sur le compte de domaine.  
+Permet d'afficher l'information sur le compte de domaine.  
 ![Information sur le domaine](/img/fr/server/ServerOp8008.png) 
 
 <table>
@@ -18,7 +18,7 @@ Description
 Domaine 
 		</td>
 		<td>
-Nom de domaine de l&apos;utilisateur. 
+Nom de domaine de l'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -26,13 +26,13 @@ Nom de domaine de l&apos;utilisateur.
 SID 
 		</td>
 		<td>
-Identifiant de sécurité du compte de l&apos;utilisateur du domaine. 
+Identifiant de sécurité du compte de l'utilisateur du domaine. 
 		</td>
 	</tr>
 </table>
 
 ### Chercher sur le domaine 
 
-Affiche l&apos;information détaillée du compte de domaine.  
+Affiche l'information détaillée du compte de domaine.  
 ![ServerOp8009.png](/img/fr/server/ServerOp8009.png) 
 

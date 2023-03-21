@@ -19,15 +19,15 @@ Description
 Utilisateurs 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder à la gestion des utilisateurs. 
+Autoriser les utilisateurs/groupes d'utilisateurs à accéder à la gestion des utilisateurs. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Groupes d&apos;utilisateur 
+Groupes d'utilisateur 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder à la gestion des groupes d&apos;utilisateurs. 
+Autoriser les utilisateurs/groupes d'utilisateurs à accéder à la gestion des groupes d'utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -35,7 +35,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder à la gestion
 Coffre 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder à la gestion du coffre. 
+Autoriser les utilisateurs/groupes d'utilisateurs à accéder à la gestion du coffre. 
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder à la gestion
 Paramètres des systèmes 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder aux paramètres des systèmes. 
+Autoriser les utilisateurs/groupes d'utilisateurs à accéder aux paramètres des systèmes. 
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder aux paramètr
 Modèles 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à créer et gérer des modèles. 
+Autoriser les utilisateurs/groupes d'utilisateurs à créer et gérer des modèles. 
 		</td>
 	</tr>
 	<tr>
@@ -59,7 +59,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à créer et gérer des m
 Modèles de mot de passe 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à créer et à gérer des modèles de mot de passe. 
+Autoriser les utilisateurs/groupes d'utilisateurs à créer et à gérer des modèles de mot de passe. 
 		</td>
 	</tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 title: Général
 ---
-La section de l&apos;onglet ***Général*** contient les informations de base de l&apos;instance {{ fr.RDMS }} tels que le ***Nom*** , la ***Description*** , les ***Licences*** , etc.  
+La section de l'onglet ***Général*** contient les informations de base de l'instance {{ fr.RDMS }} tels que le ***Nom*** , la ***Description*** , les ***Licences*** , etc.  
 
 ![Paramètres Serveur - Général](/img/fr/server/ServerOp8006.png) 
 
@@ -52,7 +52,7 @@ Description
 Serveur 
 		</td>
 		<td>
-Insérer votre numéro d&apos;enregistrement de série. 
+Insérer votre numéro d'enregistrement de série. 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ Ceci vous redirigera vers notre page {{ fr.RDMS }} pour demander un essai gratui
 LAC utilisateur 
 		</td>
 		<td>
-Insérer votre clé de Licence d&apos;Accès Client. 
+Insérer votre clé de Licence d'Accès Client. 
 		</td>
 	</tr>
 </table>
@@ -89,7 +89,7 @@ Description
 Édition 
 		</td>
 		<td>
-Affiche l&apos;édition {{ fr.RDMS }} en fonction de votre clé de licence. 
+Affiche l'édition {{ fr.RDMS }} en fonction de votre clé de licence. 
 		</td>
 	</tr>
 	<tr>
@@ -97,7 +97,7 @@ Affiche l&apos;édition {{ fr.RDMS }} en fonction de votre clé de licence.
 Expiration 
 		</td>
 		<td>
-Date d&apos;expiration de la clé de licence de {{ fr.RDMS }} . 
+Date d'expiration de la clé de licence de {{ fr.RDMS }} . 
 		</td>
 	</tr>
 </table>
@@ -115,10 +115,10 @@ Description
 	</tr>
 	<tr>
 		<td>
-Afficher l&apos;indicateur de nouvelle version 
+Afficher l'indicateur de nouvelle version 
 		</td>
 		<td>
-Afficher une icône en superposition indiquant qu&apos;une mise à jour est disponible 
+Afficher une icône en superposition indiquant qu'une mise à jour est disponible 
 		</td>
 	</tr>
 	<tr>

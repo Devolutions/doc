@@ -1,7 +1,7 @@
 ---
 title: Modèle utilisateur
 ---
-Cette section définira le modèle d&apos;utilisateur pour la fonction de création automatique d&apos;utilisateurs.  
+Cette section définira le modèle d'utilisateur pour la fonction de création automatique d'utilisateurs.  
 ![Administration – Paramètres du système – Modèle utilisateur](/img/fr/server/ServerOp8033.png) 
 
 <table>
@@ -19,7 +19,7 @@ Description
 Mode hors ligne 
 		</td>
 		<td>
-Cette option affectera seulement l&apos;application {{ fr.RDM }} .  
+Cette option affectera seulement l'application {{ fr.RDM }} .  
 
 Les valeurs possibles sont :  
 
@@ -30,7 +30,7 @@ Les valeurs possibles sont :
 	</tr>
 	<tr>
 		<td>
-Type d&apos;utilisateur 
+Type d'utilisateur 
 		</td>
 		<td>
 Les valeurs possibles sont :  
@@ -45,7 +45,7 @@ Les valeurs possibles sont :
 Type de licence utilisateur 
 		</td>
 		<td>
-Sélectionner si les utilisateurs sont invités à choisir un modèle lors de la création d&apos;une nouvelle entrée. Choisir entre :  
+Sélectionner si les utilisateurs sont invités à choisir un modèle lors de la création d'une nouvelle entrée. Choisir entre :  
 
 * ***Par défaut*** 
 * ***Gestion des connexions*** 

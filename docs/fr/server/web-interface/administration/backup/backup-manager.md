@@ -1,7 +1,7 @@
 ---
 title: Gestionnaire de sauvegardes
 ---
-La section ***Gestionnaire de sauvegardes*** permet aux administrateurs de configurer les paramètres de sauvegarde de la base de données et du dossier de l&apos;application Web.  
+La section ***Gestionnaire de sauvegardes*** permet aux administrateurs de configurer les paramètres de sauvegarde de la base de données et du dossier de l'application Web.  
 ![Administration - Gestionnaire de sauvegardes](/img/fr/server/clip10403.png) 
 
 ## Paramètres 
@@ -28,7 +28,7 @@ Enregistrer les dernières modifications des options de planification de sauvega
 Sauvegarder maintenant 
 		</td>
 		<td>
-Créer immédiatement une sauvegarde de la base de données SQL et/ou du dossier de l&apos;application Web. 
+Créer immédiatement une sauvegarde de la base de données SQL et/ou du dossier de l'application Web. 
 		</td>
 	</tr>
 </table>
@@ -58,9 +58,9 @@ Chemin du fichier de backup
 		</td>
 		<td>
 
-Le chemin d&apos;accès au dossier dans lequel la sauvegarde de la base de données SQL sera enregistrée. Nous vous recommandons d&apos;utiliser un dossier réseau partagé avec des autorisations appropriées définies dessus pour pouvoir enregistrer le fichier de sauvegarde.  
+Le chemin d'accès au dossier dans lequel la sauvegarde de la base de données SQL sera enregistrée. Nous vous recommandons d'utiliser un dossier réseau partagé avec des autorisations appropriées définies dessus pour pouvoir enregistrer le fichier de sauvegarde.  
 
-Remarque : Comme la commande de sauvegarde s&apos;exécute sur le serveur SQL et la machine où {{ fr.DPS }} est installé, ce chemin doit être accessible à partir de ce serveur SQL et depuis le serveur où {{ fr.DPS }} est installé. Nous suggérons de configurer le chemin de backup de la base de données avec un chemin UNC. 
+Remarque : Comme la commande de sauvegarde s'exécute sur le serveur SQL et la machine où {{ fr.DPS }} est installé, ce chemin doit être accessible à partir de ce serveur SQL et depuis le serveur où {{ fr.DPS }} est installé. Nous suggérons de configurer le chemin de backup de la base de données avec un chemin UNC. 
 		</td>
 	</tr>
 	<tr>
@@ -89,7 +89,7 @@ Description
 Activer le backup web 
 		</td>
 		<td>
-Activer la sauvegarde de l&apos;application Web. 
+Activer la sauvegarde de l'application Web. 
 		</td>
 	</tr>
 	<tr>
@@ -97,7 +97,7 @@ Activer la sauvegarde de l&apos;application Web.
 Chemin du fichier de backup 
 		</td>
 		<td>
-Le chemin d&apos;accès au dossier dans lequel la sauvegarde de l&apos;application Web sera enregistrée. Nous vous recommandons d&apos;utiliser un dossier réseau partagé avec des autorisations appropriées définies dessus pour pouvoir enregistrer le fichier de sauvegarde. 
+Le chemin d'accès au dossier dans lequel la sauvegarde de l'application Web sera enregistrée. Nous vous recommandons d'utiliser un dossier réseau partagé avec des autorisations appropriées définies dessus pour pouvoir enregistrer le fichier de sauvegarde. 
 		</td>
 	</tr>
 </table>
@@ -136,18 +136,18 @@ Description
 	</tr>
 	<tr>
 		<td>
-Avertir l&apos;administrateur si la sauvegarde a échoué 
+Avertir l'administrateur si la sauvegarde a échoué 
 		</td>
 		<td>
-Un courriel sera envoyé à l&apos;administrateur pour l&apos;informer que la sauvegarde a échoué. 
+Un courriel sera envoyé à l'administrateur pour l'informer que la sauvegarde a échoué. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Avertir l&apos;administrateur de la réussite de la sauvegarde 
+Avertir l'administrateur de la réussite de la sauvegarde 
 		</td>
 		<td>
-Un courriel sera envoyé à l&apos;administrateur pour l&apos;informer que la sauvegarde s&apos;est complétée avec succès. 
+Un courriel sera envoyé à l'administrateur pour l'informer que la sauvegarde s'est complétée avec succès. 
 		</td>
 	</tr>
 </table>
@@ -176,7 +176,7 @@ Date et heure auxquelles la sauvegarde sera automatiquement lancée.
 Répéter chaque 
 		</td>
 		<td>
-L&apos;intervalle de temps pendant lequel la sauvegarde sera répétée. 
+L'intervalle de temps pendant lequel la sauvegarde sera répétée. 
 		</td>
 	</tr>
 </table>
@@ -197,7 +197,7 @@ Description
 Expiration SQL du backup de la base de données (minutes) 
 		</td>
 		<td>
-Nombre de minutes avant un délai d&apos;expiration dans l&apos;instance SQL. 
+Nombre de minutes avant un délai d'expiration dans l'instance SQL. 
 		</td>
 	</tr>
 	<tr>
@@ -214,7 +214,7 @@ Copier seulement le backup de la base de données
 		</td>
 		<td>
         
-Une sauvegarde de serveur SQL qui est indépendante de la séquence des sauvegardes classiques. Pour plus d&apos;informations, consultez [https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/copy-only-backups-sql-server](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/copy-only-backups-sql-server) . 
+Une sauvegarde de serveur SQL qui est indépendante de la séquence des sauvegardes classiques. Pour plus d'informations, consultez [https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/copy-only-backups-sql-server](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/copy-only-backups-sql-server) . 
 		</td>
 	</tr>
 </table>

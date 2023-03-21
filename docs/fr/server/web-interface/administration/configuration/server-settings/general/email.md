@@ -1,7 +1,7 @@
 ---
 title: Courriel
 ---
-Les ***Courriels*** sont envoyés par notre moteur de notification et par certains de nos fournisseurs d&apos;authentification à 2 facteurs.  
+Les ***Courriels*** sont envoyés par notre moteur de notification et par certains de nos fournisseurs d'authentification à 2 facteurs.  
 ![Administration - Paramètres de Devolutions Password Server - Courriel](/img/fr/server/ServerOp8013.png) 
 
 ## Paramètres 
@@ -60,15 +60,15 @@ SSL activé
 		</td>
 		<td>
 
-Spécifie s&apos;il faut utiliser Secure Sockets Layer (SSL) pour crypter la connexion. Veuillez consulter la [Note 1](#note-1) pour des informations importantes. 
+Spécifie s'il faut utiliser Secure Sockets Layer (SSL) pour crypter la connexion. Veuillez consulter la [Note 1](#note-1) pour des informations importantes. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Nom d&apos;utilisateur 
+Nom d'utilisateur 
 		</td>
 		<td>
-Entrer votre nom d&apos;utilisateur pour vous connecter à votre serveur SMTP. 
+Entrer votre nom d'utilisateur pour vous connecter à votre serveur SMTP. 
 		</td>
 	</tr>
 	<tr>
@@ -84,7 +84,7 @@ Entrer votre mot de passe pour vous connecter à votre serveur SMTP.
 Envoyer un courriel en tant que 
 		</td>
 		<td>
-Adresse courriel de l&apos;expéditeur. 
+Adresse courriel de l'expéditeur. 
 		</td>
 	</tr>
 	<tr>
@@ -109,5 +109,5 @@ Tester vos paramètres de messagerie.
 
 {{ fr.RDMS }} prend uniquement en charge le SMTP Service Extension for Secure SMTP over Transport Layer Security tel que défini dans RFC 3207. Dans ce mode, la session SMTP commence sur un canal non chiffré, puis une commande STARTTLS est émise par le client vers le serveur pour basculer vers une communication sécurisée utilisant SSL.  
 
-Une autre méthode de connexion consiste à établir une session SSL avant l&apos;envoi de toute commande de protocole. Cette méthode de connexion est parfois appelée SMTP/SSL, SMTP sur SSL ou SMTPS et utilise par défaut le port 465. Cette autre méthode de connexion utilisant SSL n&apos;est actuellement pas prise en charge . 
+Une autre méthode de connexion consiste à établir une session SSL avant l'envoi de toute commande de protocole. Cette méthode de connexion est parfois appelée SMTP/SSL, SMTP sur SSL ou SMTPS et utilise par défaut le port 465. Cette autre méthode de connexion utilisant SSL n'est actuellement pas prise en charge . 
 

@@ -1,7 +1,7 @@
 ---
 title: Gestion des accès privilégiés (PAM)
 ---
-Cette section est dédiée à l&apos;activation et à la configuration de la gestion des accès privilégiés. 
+Cette section est dédiée à l'activation et à la configuration de la gestion des accès privilégiés. 
 
 ![Administration - Paramètres de Devolutions Password Server - Gestion des accès privilégiés](/img/fr/server/ServerOp8047.png)  
 
@@ -40,7 +40,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-Mode d&apos;approbation pas défaut 
+Mode d'approbation pas défaut 
 		</td>
 		<td>
 Valeurs possibles :  

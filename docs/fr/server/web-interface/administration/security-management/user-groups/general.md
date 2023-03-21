@@ -14,15 +14,15 @@ Description
 	</tr>
 	<tr>
 		<td>
-Type d&apos;authentification 
+Type d'authentification 
 		</td>
 		<td>
 
-Sélectionner le type d&apos;authentification du groupe d&apos;utilisateurs:  
+Sélectionner le type d'authentification du groupe d'utilisateurs:  
 
-* ***{{ fr.RDMS }}*** &#32; : Créer un groupe d&apos;utilisateur dans {{ fr.RDMS }}.  
-* ***Domaine*** : Groupe d&apos;utilisateurs Active Directory.  
-* ***Office 365*** : Groupe d&apos;utilisateurs Office 365.  
+* ***{{ fr.RDMS }}***   : Créer un groupe d'utilisateur dans {{ fr.RDMS }}.  
+* ***Domaine*** : Groupe d'utilisateurs Active Directory.  
+* ***Office 365*** : Groupe d'utilisateurs Office 365.  
 		</td>
 	</tr>
 	<tr>
@@ -30,7 +30,7 @@ Sélectionner le type d&apos;authentification du groupe d&apos;utilisateurs:
 Domaine 
 		</td>
 		<td>
-Domaine d&apos;appartenance du groupe d&apos;utilisateur. 
+Domaine d'appartenance du groupe d'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -38,7 +38,7 @@ Domaine d&apos;appartenance du groupe d&apos;utilisateur.
 Nom 
 		</td>
 		<td>
-Nom du groupe d&apos;utilisateurs. 
+Nom du groupe d'utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -46,7 +46,7 @@ Nom du groupe d&apos;utilisateurs.
 Description 
 		</td>
 		<td>
-Description du groupe d&apos;utilisateurs. 
+Description du groupe d'utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -54,7 +54,7 @@ Description du groupe d&apos;utilisateurs.
 Administrateur 
 		</td>
 		<td>
-Accorde le privilège d&apos;administrateur aux utilisateurs membres du groupe d&apos;utilisateurs. 
+Accorde le privilège d'administrateur aux utilisateurs membres du groupe d'utilisateurs. 
 		</td>
 	</tr>
 </table>

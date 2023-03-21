@@ -19,7 +19,7 @@ Description
 Outils intégrés (Wake On Lan, NetStat, Ping, ...) 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils liés à la session. 
+Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils liés à la session. 
 		</td>
 	</tr>
 	<tr>
@@ -27,7 +27,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils li
 Entrée Macro/Script/Outil 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les entrées de Macro/Script/Outil. 
+Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les entrées de Macro/Script/Outil. 
 		</td>
 	</tr>
 	<tr>
@@ -35,7 +35,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les entrées 
 Outils à distance 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser des outils à distance. 
+Autoriser les utilisateurs/groupes d'utilisateurs à utiliser des outils à distance. 
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser des outils à
 Outils de gestion du Web 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils de gestion Web. 
+Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils de gestion Web. 
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils de
 Outils de gestion de la console 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils de gestion de la console. 
+Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils de gestion de la console. 
 		</td>
 	</tr>
 </table>

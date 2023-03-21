@@ -21,7 +21,7 @@ Description
 Nom 
 		</td>
 		<td>
-Nom de l&apos;abonnement. 
+Nom de l'abonnement. 
 		</td>
 	</tr>
 	<tr>
@@ -29,24 +29,24 @@ Nom de l&apos;abonnement.
 Abonné 
 		</td>
 		<td>
-Abonné qui recevra le courriel de notification. Un seul abonné peut être sélectionné, soit un utilisateur ou un groupe d&apos;abonnés. 
+Abonné qui recevra le courriel de notification. Un seul abonné peut être sélectionné, soit un utilisateur ou un groupe d'abonnés. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Catégorie d&apos;abonnement 
+Catégorie d'abonnement 
 		</td>
 		<td>
-Liste des différentes catégories d&apos;abonnement. On ne peut que sélectionner une des catégories parmi les suivantes :  
+Liste des différentes catégories d'abonnement. On ne peut que sélectionner une des catégories parmi les suivantes :  
 
 * ***Entrée*** 
 * ***Utilisateur*** 
 * ***Coffre*** 
-* ***Groupe d&apos;utilisateurs*** 
+* ***Groupe d'utilisateurs*** 
 * ***Compte privilégié - PAM*** 
 * ***Répertoire - PAM*** 
 * ***Réservation - PAM*** 
-* ***Dossier d&apos;équipe - PAM*** 
+* ***Dossier d'équipe - PAM*** 
 * ***Paramètres du système*** 
 * ***Journal administratif*** 
 * ***Journal de la source de données*** 
@@ -60,7 +60,7 @@ Liste des différentes catégories d&apos;abonnement. On ne peut que sélectionn
 Filtres 
 		</td>
 		<td>
-Les filtres sont liés aux différentes catégories et chacune d&apos;elles possède ses filtres respectifs. Pour ajouter un filtre, cliquez sur le bouton ***Ajouter un filtre*** . Veuillez noter que les filtres sont cumulatifs. 
+Les filtres sont liés aux différentes catégories et chacune d'elles possède ses filtres respectifs. Pour ajouter un filtre, cliquez sur le bouton ***Ajouter un filtre*** . Veuillez noter que les filtres sont cumulatifs. 
 		</td>
 	</tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 title: Configuration avancée
 ---
-La configuration avancée permet de sélectionner des paramètres d&apos;archivage individuellement pour chacun des journaux de {{ fr.RDMS }} .  
+La configuration avancée permet de sélectionner des paramètres d'archivage individuellement pour chacun des journaux de {{ fr.RDMS }} .  
 ![Effacer les journaux - Configuration avancée](/img/fr/server/ServerOp8152.png) 
 
 ### Journaux 
@@ -82,7 +82,7 @@ DESCRIPTION
 Utiliser la configuration personnalisée 
 		</td>
 		<td>
-Permets de sélectionner des paramètres d&apos;archivage et/ou suppression du journal sélectionné. 
+Permets de sélectionner des paramètres d'archivage et/ou suppression du journal sélectionné. 
 		</td>
 	</tr>
 </table>
@@ -100,10 +100,10 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Utiliser l&apos;archivage. 
+Utiliser l'archivage. 
 		</td>
 		<td>
-Utiliser l&apos;option d&apos;archivage des journaux. 
+Utiliser l'option d'archivage des journaux. 
 		</td>
 	</tr>
 	<tr>
@@ -111,7 +111,7 @@ Utiliser l&apos;option d&apos;archivage des journaux.
 Archiver les journaux plus ancien que 
 		</td>
 		<td>
-Archiver les journaux dont la date de création est plus ancienne que l&apos;élément sélectionné dans la liste. 
+Archiver les journaux dont la date de création est plus ancienne que l'élément sélectionné dans la liste. 
 		</td>
 	</tr>
 	<tr>
@@ -119,15 +119,15 @@ Archiver les journaux dont la date de création est plus ancienne que l&apos;él
 Supprimer les journaux archivés plus anciens que 
 		</td>
 		<td>
-Supprimer les archives dont la date de création est plus ancienne que l&apos;élément sélectionné dans la liste. 
+Supprimer les archives dont la date de création est plus ancienne que l'élément sélectionné dans la liste. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Sauter l&apos;archivage et supprimer de façon permanente 
+Sauter l'archivage et supprimer de façon permanente 
 		</td>
 		<td>
-Supprimer directement les journaux sans utiliser la fonctionnalité d&apos;archivage. 
+Supprimer directement les journaux sans utiliser la fonctionnalité d'archivage. 
 		</td>
 	</tr>
 	<tr>
@@ -135,7 +135,7 @@ Supprimer directement les journaux sans utiliser la fonctionnalité d&apos;archi
 Supprimer les journaux plus ancien que 
 		</td>
 		<td>
-Supprimer les journaux directement dont la date de création est plus ancienne que l&apos;élément sélectionné dans la liste. 
+Supprimer les journaux directement dont la date de création est plus ancienne que l'élément sélectionné dans la liste. 
 		</td>
 	</tr>
 </table>

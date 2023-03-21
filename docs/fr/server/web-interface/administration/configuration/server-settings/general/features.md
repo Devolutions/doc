@@ -1,7 +1,7 @@
 ---
 title: Fonctionnalités
 ---
-La section ***Fonctionnalités*** permet à l&apos;administrateur de configurer les fonctionnalités de l&apos;interface Web.  
+La section ***Fonctionnalités*** permet à l'administrateur de configurer les fonctionnalités de l'interface Web.  
 ![Administration - Paramètres Serveur - Fonctionnalités](/img/fr/server/ServerOp8042.png) 
 
 ## Paramètres 
@@ -21,7 +21,7 @@ Description
 Permettre les extensions de navigateur 
 		</td>
 		<td>
-Permets d&apos;enregistrer les identifiants dans l&apos;instance {{ fr.RDMS }} avec [{{ fr.DWL }}](/fr/server/dwl/overview/) . 
+Permets d'enregistrer les identifiants dans l'instance {{ fr.RDMS }} avec [{{ fr.DWL }}](/fr/server/dwl/overview/) . 
 		</td>
 	</tr>
 	<tr>
@@ -34,7 +34,7 @@ Activer la fonction Devolutions Proxy.
 	</tr>
 	<tr>
 		<td>
-Autoriser la documentation d&apos;une page d&apos;aide de l&apos;API Web 
+Autoriser la documentation d'une page d'aide de l'API Web 
 		</td>
 		<td>
 		</td>

@@ -2,7 +2,7 @@
 title: Groups d'utilisateurs
 order: 20
 ---
-***Groupe d&apos;utilisateurs*** est l&apos;endroit où vous pouvez créer, importer et gérer des groupes d&apos;utilisateurs. Pour accéder à la gestion des groupes d&apos;utilisateurs, naviguer dans le menu ***Administration – Groupes d&apos;utilisateurs*** . Cliquer sur un groupe d&apos;utilisateur pour configurer des paramètres et des autorisations spécifiques.  
+***Groupe d'utilisateurs*** est l'endroit où vous pouvez créer, importer et gérer des groupes d'utilisateurs. Pour accéder à la gestion des groupes d'utilisateurs, naviguer dans le menu ***Administration – Groupes d'utilisateurs*** . Cliquer sur un groupe d'utilisateur pour configurer des paramètres et des autorisations spécifiques.  
 ![Groupes d'utilisateurs](/img/fr/server/ServerOp8017.png) 
 
 ### Options général 
@@ -22,7 +22,7 @@ Description
 ![AddSmallGrey.png](/img/fr/server/Icons/AddSmallGrey.png) 
 		</td>
 		<td>
-Ajouter un groupe d&apos;utilisateur. 
+Ajouter un groupe d'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -30,7 +30,7 @@ Ajouter un groupe d&apos;utilisateur.
 ![NavImportSmall.png](/img/common/NavImportSmall.png) 
 		</td>
 		<td>
-Importer des groupes d&apos;utilisateurs depuis LDAP ou Azure. 
+Importer des groupes d'utilisateurs depuis LDAP ou Azure. 
 		</td>
 	</tr>
 	<tr>
@@ -38,12 +38,12 @@ Importer des groupes d&apos;utilisateurs depuis LDAP ou Azure.
 ![RibbonRefreshGraySmall.png](/img/common/RibbonRefreshGraySmall.png) 
 		</td>
 		<td>
-Actualiser la liste des groupes d&apos;utilisateurs. 
+Actualiser la liste des groupes d'utilisateurs. 
 		</td>
 	</tr>
 </table>
 
-### Options Groupes d&apos;utilisateurs  
+### Options Groupes d'utilisateurs  
 
 <table>
 	<tr>
@@ -59,14 +59,14 @@ Description
 		<td>
 		</td>
 		<td>
-Assigner des utilisateurs au groupe d&apos;utilisateurs. 
+Assigner des utilisateurs au groupe d'utilisateurs. 
 		</td>
 	</tr>
 	<tr>
 		<td>
 		</td>
 		<td>
-Assigner un coffre au groupe d&apos;utilisateur. 
+Assigner un coffre au groupe d'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -74,7 +74,7 @@ Assigner un coffre au groupe d&apos;utilisateur.
 ![RibbonEditSmall.png](/img/common/RibbonEditSmall.png) 
 		</td>
 		<td>
-Modifier les paramètres du groupe d&apos;utilisateurs. 
+Modifier les paramètres du groupe d'utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -82,7 +82,7 @@ Modifier les paramètres du groupe d&apos;utilisateurs.
 ![RibbonTrashSmall.png](/img/common/RibbonTrashSmall.png) 
 		</td>
 		<td>
-Supprimer le groupe d&apos;utilisateur. 
+Supprimer le groupe d'utilisateur. 
 		</td>
 	</tr>
 </table>

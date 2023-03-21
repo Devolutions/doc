@@ -41,7 +41,7 @@ Adaptateur réseau (1 Go)
 </table>
 
 {% snippet icon.badgeInfo %} 
-Une instance de {{ fr.DGW }} peut gérer jusqu&apos;à 75 sessions simultanées en conservant de bonnes performances. 
+Une instance de {{ fr.DGW }} peut gérer jusqu'à 75 sessions simultanées en conservant de bonnes performances. 
 {% endsnippet %}
  
 ### Exigences logicielles 
@@ -53,7 +53,7 @@ Une instance de {{ fr.DGW }} peut gérer jusqu&apos;à 75 sessions simultanées 
 ### Conditions requises 
 
 * {{ fr.DPS }} éditions Team, Enterprise ou Platinum. 
-* Une licence est requise pour chaque {{ fr.DGW }} déployé. Contactez notre [équipe des ventes](mailto:sales@devolutions.net) pour plus d&apos;information. 
-	* Si {{ fr.DGW }} est installé sur la même machine que l&apos;instance {{ fr.DPS }} , il supporte jusqu&apos;à 5 connexions simultanées sans besoin de licence. 
-* Pour les fournisseurs de services gérés, une instance {{ fr.DGW }} peut être déployée par site client. Tout ce dont vous avez besoin est de garder les serveurs hébergeant {{ fr.DGW }} accessibles pour {{ fr.DPS }} et {{ fr.RDM }} . {{ fr.DGW }} n&apos;a besoin d&apos;accepter que les connexions entrantes. Aucune connexion sortante vers {{ fr.DPS }} ou {{ fr.RDM }} n&apos;est nécessaire. 
+* Une licence est requise pour chaque {{ fr.DGW }} déployé. Contactez notre [équipe des ventes](mailto:sales@devolutions.net) pour plus d'information. 
+	* Si {{ fr.DGW }} est installé sur la même machine que l'instance {{ fr.DPS }} , il supporte jusqu'à 5 connexions simultanées sans besoin de licence. 
+* Pour les fournisseurs de services gérés, une instance {{ fr.DGW }} peut être déployée par site client. Tout ce dont vous avez besoin est de garder les serveurs hébergeant {{ fr.DGW }} accessibles pour {{ fr.DPS }} et {{ fr.RDM }} . {{ fr.DGW }} n'a besoin d'accepter que les connexions entrantes. Aucune connexion sortante vers {{ fr.DPS }} ou {{ fr.RDM }} n'est nécessaire. 
 

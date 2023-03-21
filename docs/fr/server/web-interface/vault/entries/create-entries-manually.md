@@ -16,8 +16,8 @@ Survoler le bouton ***Ajouter*** pour afficher une liste de raccourcis pour les 
 
 ![Ajouter une nouvelle entrée](/img/fr/server/ServerOp4087.png) 
 
-3. Sélectionner une entrée dans la liste de [Type d&apos;entrée](/fr/server/web-interface/vault/entries/entry-type/) . 
+3. Sélectionner une entrée dans la liste de [Type d'entrée](/fr/server/web-interface/vault/entries/entry-type/) . 
 1. Cliquer ***Continuer*** . 
-1. Configurer l&apos;entrée avec toutes les spécifications requises. 
+1. Configurer l'entrée avec toutes les spécifications requises. 
 1. Cliquer ***Ajouter*** pour sauvegarder. 
 

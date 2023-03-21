@@ -15,14 +15,14 @@ Description
 	</tr>
 	<tr>
 		<td>
-Type d&apos;authentification 
+Type d'authentification 
 		</td>
 		<td>
-Sélectionner le type d&apos;authentification de l&apos;utilisateur:  
+Sélectionner le type d'authentification de l'utilisateur:  
 
-* ***{{ fr.RDMS }}*** &#32; : Créer un utilisateur dans {{ fr.RDMS }} sans créer de connexion SQL. 
-* ***Domaine*** : Authentifiez-vous à l&apos;aide du compte d&apos;utilisateur Active Directory. 
-* ***Office 365*** &#32; : Authentifiez-vous à l&apos;aide du compte Office 365. 
+* ***{{ fr.RDMS }}***   : Créer un utilisateur dans {{ fr.RDMS }} sans créer de connexion SQL. 
+* ***Domaine*** : Authentifiez-vous à l'aide du compte d'utilisateur Active Directory. 
+* ***Office 365***   : Authentifiez-vous à l'aide du compte Office 365. 
 		</td>
 	</tr>
 	<tr>
@@ -30,20 +30,20 @@ Sélectionner le type d&apos;authentification de l&apos;utilisateur:
 Utilisateur 
 		</td>
 		<td>
-Nom de connexion de l&apos;utilisateur. 
+Nom de connexion de l'utilisateur. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Type d&apos;utilisateur 
+Type d'utilisateur 
 		</td>
 		<td>
-Choisir le type d&apos;utilisateur:  
+Choisir le type d'utilisateur:  
 
-* ***Administrateur*** &#32; : Accorder tous les droits d&apos;administration à l&apos;utilisateur. 
-* ***Utilisateur lecture seulement*** &#32; : Accorder uniquement l&apos;accès ***Affichage*** à l&apos;utilisateur. 
-* ***Utilisateur accès restreint*** &#32; : Sélectionner les droits à accorder à l&apos;utilisateur. 
-* ***Utilisateur*** &#32; : Accorder tous les droits de base à l&apos;utilisateur ( ***Ajouter*** , ***Modifier*** , ***Supprimer*** ). 
+* ***Administrateur***   : Accorder tous les droits d'administration à l'utilisateur. 
+* ***Utilisateur lecture seulement***   : Accorder uniquement l'accès ***Affichage*** à l'utilisateur. 
+* ***Utilisateur accès restreint***   : Sélectionner les droits à accorder à l'utilisateur. 
+* ***Utilisateur***   : Accorder tous les droits de base à l'utilisateur ( ***Ajouter*** , ***Modifier*** , ***Supprimer*** ). 
 		</td>
 	</tr>
 	<tr>
@@ -51,11 +51,11 @@ Choisir le type d&apos;utilisateur:
 Type de licence 
 		</td>
 		<td>
-Sélectionner le type de licence dont dispose l&apos;utilisateur:  
+Sélectionner le type de licence dont dispose l'utilisateur:  
 
-* ***Par défaut*** &#32; : Gestion des connexions. 
-* ***Gestion des connexions*** &#32; : Pour les utilisateurs qui ouvrent des connexions à distance. 
-* ***Gestion des mots de passe*** &#32; : Pour les utilisateurs qui n&apos;utilisent que {{ fr.RDMS }} comme gestionnaire de mots de passe. 
+* ***Par défaut***   : Gestion des connexions. 
+* ***Gestion des connexions***   : Pour les utilisateurs qui ouvrent des connexions à distance. 
+* ***Gestion des mots de passe***   : Pour les utilisateurs qui n'utilisent que {{ fr.RDMS }} comme gestionnaire de mots de passe. 
 		</td>
 	</tr>
 	<tr>
@@ -63,7 +63,7 @@ Sélectionner le type de licence dont dispose l&apos;utilisateur:
 Activé 
 		</td>
 		<td>
-Cocher pour activer l&apos;utilisateur. 
+Cocher pour activer l'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -71,7 +71,7 @@ Cocher pour activer l&apos;utilisateur.
 Dois changer de mot de passe à la prochaine ouverture de session 
 		</td>
 		<td>
-Cocher pour forcer l&apos;utilisateur à changer le mot de passe la prochaine fois qu&apos;il se connectera. 
+Cocher pour forcer l'utilisateur à changer le mot de passe la prochaine fois qu'il se connectera. 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Cocher pour forcer l&apos;utilisateur à changer le mot de passe la prochaine fo
 Prénom 
 		</td>
 		<td>
-Saisir le prénom de l&apos;utilisateur. 
+Saisir le prénom de l'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -87,7 +87,7 @@ Saisir le prénom de l&apos;utilisateur.
 Nom 
 		</td>
 		<td>
-Saisir le nom de famille de l&apos;utilisateur. 
+Saisir le nom de famille de l'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -95,7 +95,7 @@ Saisir le nom de famille de l&apos;utilisateur.
 Courriel 
 		</td>
 		<td>
-Saisir l&apos;adresse courriel de l&apos;utilisateur. 
+Saisir l'adresse courriel de l'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -103,7 +103,7 @@ Saisir l&apos;adresse courriel de l&apos;utilisateur.
 Langage 
 		</td>
 		<td>
-Langage de l&apos;interface web de l&apos;utilisateur. 
+Langage de l'interface web de l'utilisateur. 
 		</td>
 	</tr>
 </table>

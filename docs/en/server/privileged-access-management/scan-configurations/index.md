@@ -2,10 +2,10 @@
 title: Scan Configurations
 order: 30
 ---
-The Scan Configurations or Account Discovery is the configured instance that will discover accounts of a provider&apos;s environment.  
+The Scan Configurations or Account Discovery is the configured instance that will discover accounts of a provider's environment.  
 ![Account Discovery dialog](/img/en/server/ServerOp8143.png) 
 
-On the creation of an Account Discovery, it is possible to choose between [Domain](/server/privileged-access-management/providers/domain-provider/) , [SQL Server](/server/privileged-access-management/scan-configurations/sql-account-discovery/) , [SSH Local Accounts](/server/privileged-access-management/scan-configurations/ssh-account-discovery/) , [Windows Users](/server/privileged-access-management/scan-configurations/windows-user-account-discovery/) or &#32; [Azure AD User](/server/privileged-access-management/scan-configurations/azure-ad-user-account-discovery/) .  
+On the creation of an Account Discovery, it is possible to choose between [Domain](/server/privileged-access-management/providers/domain-provider/) , [SQL Server](/server/privileged-access-management/scan-configurations/sql-account-discovery/) , [SSH Local Accounts](/server/privileged-access-management/scan-configurations/ssh-account-discovery/) , [Windows Users](/server/privileged-access-management/scan-configurations/windows-user-account-discovery/) or   [Azure AD User](/server/privileged-access-management/scan-configurations/azure-ad-user-account-discovery/) .  
 ![ServerOp8096.png](/img/en/server/ServerOp8096.png) 
 
 To see the results of the discovery process, click on the eye icon of the Account Discovery to see the list of accounts.  

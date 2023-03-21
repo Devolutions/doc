@@ -18,7 +18,7 @@ Description
 Version minimale 
 		</td>
 		<td>
-Version minimale de {{ fr.RDM }} requise pour se connecter à l&apos;instance {{ fr.DPS }} . 
+Version minimale de {{ fr.RDM }} requise pour se connecter à l'instance {{ fr.DPS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -34,7 +34,7 @@ Message personnalisé affiché dans {{ fr.RDM }} lorsque la version utilisé ne 
 Version maximale 
 		</td>
 		<td>
-Version maximale de {{ fr.RDM }} autorisée pour se connecter à l&apos;instance {{ fr.DPS }} . 
+Version maximale de {{ fr.RDM }} autorisée pour se connecter à l'instance {{ fr.DPS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -55,10 +55,10 @@ Désactive la notification de nouvelle version dans {{ fr.RDM }} .
 	</tr>
 	<tr>
 		<td>
-Chemin d&apos;installation du client / URL 
+Chemin d'installation du client / URL 
 		</td>
 		<td>
-Dossier ou URL du fichier d&apos;installation de {{ fr.RDM }} . Les chemins UNC sont supportés. 
+Dossier ou URL du fichier d'installation de {{ fr.RDM }} . Les chemins UNC sont supportés. 
 		</td>
 	</tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 title: Journalisation
 ---
-La section ***Journalisation*** permet à l&apos;administrateur de configurer les fonctionnalités de journalisation.  
+La section ***Journalisation*** permet à l'administrateur de configurer les fonctionnalités de journalisation.  
 ![Administration - Paramètres de Devolutions Password Server - Journalisation](/img/fr/server/ServerOp8040.png) 
 
 ## Paramètres 
@@ -22,7 +22,7 @@ Description
 Log de débogage 
 		</td>
 		<td>
-Activer les journaux de l&apos;instance {{ fr.RDMS }} . Lorsqu&apos;elle est activée, cela augmentera le niveau de débogage et fournira plus d&apos;entrées de journal. 
+Activer les journaux de l'instance {{ fr.RDMS }} . Lorsqu'elle est activée, cela augmentera le niveau de débogage et fournira plus d'entrées de journal. 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ Envoyer les journaux à un serveur Syslog.
 Hôte 
 		</td>
 		<td>
-Entrer l&apos;hôte de votre serveur Syslog pour vous connecter. 
+Entrer l'hôte de votre serveur Syslog pour vous connecter. 
 		</td>
 	</tr>
 	<tr>
@@ -92,7 +92,7 @@ Sélectionner votre mode de protocole préféré entre:
 	</tr>
 </table>
 
-### Journal d&apos;événements Windows 
+### Journal d'événements Windows 
 
 <table>
 	<tr>
@@ -105,7 +105,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-Journal d&apos;événements 
+Journal d'événements 
 		</td>
 		<td>
 Envoyer les journaux au journal des événements de Windows. 
@@ -126,7 +126,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-Publier les journaux d&apos;activité sur Slack 
+Publier les journaux d'activité sur Slack 
 		</td>
 		<td>
 Publier les journaux dans un canal Slack. 
@@ -134,10 +134,10 @@ Publier les journaux dans un canal Slack.
 	</tr>
 	<tr>
 		<td>
-Jeton d&apos;accès Bot OAuth 
+Jeton d'accès Bot OAuth 
 		</td>
 		<td>
-Jeton d&apos;accès d&apos;authentification Slack. 
+Jeton d'accès d'authentification Slack. 
 		</td>
 	</tr>
 	<tr>

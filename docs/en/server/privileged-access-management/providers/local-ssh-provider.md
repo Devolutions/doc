@@ -128,7 +128,7 @@ Description
 Add PAM Vault 
 		</td>
 		<td>
-Will create a PAM Vault with the provider&apos;s name if enabled. 
+Will create a PAM Vault with the provider's name if enabled. 
 		</td>
 	</tr>
 	<tr>

@@ -8,9 +8,9 @@ La section ***Rapports*** fournit aux administrateurs des outils pour effectuer 
 
 ### Personnalisation du rapport 
 
-La plupart des rapports disponibles peuvent être personnalisés. Il est possible de filtrer et trier les données, de définir un interval de temps ou même d&apos;exporter les rapports dans un fichier .CSV.  
+La plupart des rapports disponibles peuvent être personnalisés. Il est possible de filtrer et trier les données, de définir un interval de temps ou même d'exporter les rapports dans un fichier .CSV.  
 
-Affiner votre recherche à l&apos;aide des filtres et cliquer sur le bouton de tri pour trier les colonnes.  
+Affiner votre recherche à l'aide des filtres et cliquer sur le bouton de tri pour trier les colonnes.  
 
 ![Filtrage et tri des rapports](/img/fr/server/ServerOp8028.png) 
 

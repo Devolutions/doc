@@ -2,7 +2,7 @@
 title: Utilisateurs
 order: 10
 ---
-***Utilisateurs*** est l&apos;endroit où vous pouvez créer, importer et gérer des utilisateurs. Pour accéder à la gestion des utilisateurs, naviguer dans le menu ***Administration – Utilisateurs*** . Cliquer sur un utilisateur pour configurer des paramètres et des autorisations spécifiques. 
+***Utilisateurs*** est l'endroit où vous pouvez créer, importer et gérer des utilisateurs. Pour accéder à la gestion des utilisateurs, naviguer dans le menu ***Administration – Utilisateurs*** . Cliquer sur un utilisateur pour configurer des paramètres et des autorisations spécifiques. 
 
 ## Paramètres 
 ![Administration - Utilisateurs](/img/fr/server/clip10340.png) 
@@ -64,7 +64,7 @@ Description
 ![EditAssignGroup.png](/img/common/EditAssignGroup.png) 
 		</td>
 		<td>
-Assigner des groupes d&apos;utilisateurs à l&apos;utilisateur. 
+Assigner des groupes d'utilisateurs à l'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -72,7 +72,7 @@ Assigner des groupes d&apos;utilisateurs à l&apos;utilisateur.
 ![EditAssignVault.png](/img/common/EditAssignVault.png) 
 		</td>
 		<td>
-Assigner un coffre à l&apos;utilisateur. 
+Assigner un coffre à l'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -80,7 +80,7 @@ Assigner un coffre à l&apos;utilisateur.
 ![RibbonActivityReport.png](/img/common/RibbonActivityReport.png) 
 		</td>
 		<td>
-Voir le rapport d&apos;activité des utilisateurs. 
+Voir le rapport d'activité des utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -104,7 +104,7 @@ Modifier les paramètres utilisateur.
 ![RibbonTrashSmall.png](/img/common/RibbonTrashSmall.png) 
 		</td>
 		<td>
-Supprimer l&apos;utilisateur. 
+Supprimer l'utilisateur. 
 		</td>
 	</tr>
 </table>

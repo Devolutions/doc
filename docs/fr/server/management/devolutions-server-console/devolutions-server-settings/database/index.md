@@ -1,7 +1,7 @@
 ---
 title: Base de données
 ---
-La section de l&apos;onglet ***Base de données*** contient les informations du serveur SQL, les identifiants SQL et le nom de la base de données utilisé par {{ fr.RDMS }} .  
+La section de l'onglet ***Base de données*** contient les informations du serveur SQL, les identifiants SQL et le nom de la base de données utilisé par {{ fr.RDMS }} .  
 
 ![Paramètres Serveur - Base de données](/img/fr/server/ServerOp8002.png) 
 
@@ -23,7 +23,7 @@ Description
 Hôte 
 		</td>
 		<td>
-Nom de l&apos;hôte où la base de données sera stockée. 
+Nom de l'hôte où la base de données sera stockée. 
 		</td>
 	</tr>
 	<tr>
@@ -73,7 +73,7 @@ Sauvegarder le schéma
 		</td>
 		<td>
 
-Sauvegarder le schéma de la base de données dans un fichier pour l&apos;envoyer à l&apos; [équipe de support Devolutions](mailto:service@devolutions.net) . 
+Sauvegarder le schéma de la base de données dans un fichier pour l'envoyer à l' [équipe de support Devolutions](mailto:service@devolutions.net) . 
 		</td>
 	</tr>
 	<tr>
@@ -89,7 +89,7 @@ Afficher la version actuelle de la base de données.
 ### Identifiants 
 
 {% snippet icon.badgeInfo %} 
-Prendre note que les paramètres de sécurité intégrée ou des identifiants affectent la manière dont {{ fr.RDMS }} communique avec la base de données SQL. Ces options n&apos;ont aucun impact sur la manière dont les utilisateurs s&apos;authentifieront sur l&apos;instance de {{ fr.RDMS }} . 
+Prendre note que les paramètres de sécurité intégrée ou des identifiants affectent la manière dont {{ fr.RDMS }} communique avec la base de données SQL. Ces options n'ont aucun impact sur la manière dont les utilisateurs s'authentifieront sur l'instance de {{ fr.RDMS }} . 
 {% endsnippet %}
  
 <table>
@@ -104,18 +104,18 @@ Description
 	</tr>
 	<tr>
 		<td>
-Type d&apos;authentification 
+Type d'authentification 
 		</td>
 		<td>
-Sélectionner entre Authentification Windows ou Authentification SQL Server pour l&apos;authentification a la base de données. Pour que l&apos; [Authentification Windows](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/) soit utilisée pour se connecter à la base de données, vous devez définir un compte de domaine comme identité du Pool d&apos;application dans le gestionnaire IIS. 
+Sélectionner entre Authentification Windows ou Authentification SQL Server pour l'authentification a la base de données. Pour que l' [Authentification Windows](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/) soit utilisée pour se connecter à la base de données, vous devez définir un compte de domaine comme identité du Pool d'application dans le gestionnaire IIS. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Nom d&apos;utilisateur 
+Nom d'utilisateur 
 		</td>
 		<td>
-Nom d&apos;utilisateur du compte SQL si l&apos;authentification SQL est sélectionnée comme type d&apos;authentification. 
+Nom d'utilisateur du compte SQL si l'authentification SQL est sélectionnée comme type d'authentification. 
 		</td>
 	</tr>
 	<tr>
@@ -123,7 +123,7 @@ Nom d&apos;utilisateur du compte SQL si l&apos;authentification SQL est sélecti
 Mot de passe 
 		</td>
 		<td>
-Mot de passe du compte SQL si l&apos;authentification SQL est sélectionnée comme type d&apos;authentification. 
+Mot de passe du compte SQL si l'authentification SQL est sélectionnée comme type d'authentification. 
 		</td>
 	</tr>
 	<tr>

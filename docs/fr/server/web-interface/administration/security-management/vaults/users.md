@@ -1,7 +1,7 @@
 ---
 title: Usagers
 ---
-Permet d&apos;assigner des utilisateurs au coffre.  
+Permet d'assigner des utilisateurs au coffre.  
 ![Coffres - Usagers](/img/fr/server/ServerOp8069.png) 
 
 <table>
@@ -18,7 +18,7 @@ Description
 Est membre 
 		</td>
 		<td>
-Lorsque coché, assigne le coffre à l&apos;utilisateur. 
+Lorsque coché, assigne le coffre à l'utilisateur. 
 		</td>
 	</tr>
 </table>

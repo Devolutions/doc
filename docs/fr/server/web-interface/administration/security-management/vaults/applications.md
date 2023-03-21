@@ -1,7 +1,7 @@
 ---
 title: Applications
 ---
-Permet d&apos;assigner des clés d&apos;applications au coffre.  
+Permet d'assigner des clés d'applications au coffre.  
 ![Coffres - Applications](/img/fr/server/ServerOp8071.png) 
 
 <table>
@@ -18,7 +18,7 @@ Description
 Est membre 
 		</td>
 		<td>
-Lorsque coché, assigne le coffre au groupe d&apos;utilisateurs. 
+Lorsque coché, assigne le coffre au groupe d'utilisateurs. 
 		</td>
 	</tr>
 </table>

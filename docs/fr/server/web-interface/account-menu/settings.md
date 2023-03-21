@@ -2,7 +2,7 @@
 title: Paramètres
 ---
 
-Dans la section ***Paramètres*** , modifiez les éléments de l&apos;interface utilisateur Web. 
+Dans la section ***Paramètres*** , modifiez les éléments de l'interface utilisateur Web. 
 
 ![Paramètres de l'interface utilisateur](/img/fr/server/clip7005.png) 
 
@@ -21,11 +21,11 @@ Page de renvoi
 		</td>
 		<td>
 
-Choisir la page d&apos;accueil après la connexion :  
+Choisir la page d'accueil après la connexion :  
 
 * ***Tableau de bord*** 
 * ***Coffre*** 
-* ***Coffre de l&apos;utilisateur*** 
+* ***Coffre de l'utilisateur*** 
 * ***Rapports*** 
 * ***Administration*** 
 * ***Accès privilégiés*** 
@@ -36,7 +36,7 @@ Choisir la page d&apos;accueil après la connexion :
 Lancer une connexion avec 
 		</td>
 		<td>
-Choisir l&apos;application qui ouvre les connexions à distance :  
+Choisir l'application qui ouvre les connexions à distance :  
 
 * ***Par défaut :*** ***{{ fr.LAUNCHER }}*** 
 * ***{{ fr.RDM }}*** 
@@ -57,7 +57,7 @@ Choisir le nombre de lignes affichées dans les listes (par exemple les rapports
 	</tr>
 	<tr>
 		<td>
-Format de la date et de l&apos;heure 
+Format de la date et de l'heure 
 		</td>
 		<td>
 Choisir un format :  
@@ -69,7 +69,7 @@ Choisir un format :
 	</tr>
 	<tr>
 		<td>
-Utiliser l&apos;image du coffre dans l&apos;arborescence 
+Utiliser l'image du coffre dans l'arborescence 
 		</td>
 		<td>
 Activer pour afficher les images des coffres dans le volet de navigation. 
@@ -77,7 +77,7 @@ Activer pour afficher les images des coffres dans le volet de navigation.
 	</tr>
 	<tr>
 		<td>
-Désactiver la vue d&apos;ensemble du tableau de bord du coffre 
+Désactiver la vue d'ensemble du tableau de bord du coffre 
 		</td>
 		<td>
 Désactiver la vue par défaut du tableau de bord des coffres. 
@@ -88,7 +88,7 @@ Désactiver la vue par défaut du tableau de bord des coffres.
 Thème 
 		</td>
 		<td>
-Choisir la couleur d&apos;un thème :  
+Choisir la couleur d'un thème :  
 
 * ***Par défaut*** : utilise le thème de la machine 
 * ***Clair*** 

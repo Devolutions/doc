@@ -19,7 +19,7 @@ Description
 Journaux des activités 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher les journaux d&apos;activité. 
+Autoriser les utilisateurs/groupes d'utilisateurs à afficher les journaux d'activité. 
 		</td>
 	</tr>
 	<tr>
@@ -27,7 +27,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher les journaux 
 Rapports 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à générer et afficher des rapports. 
+Autoriser les utilisateurs/groupes d'utilisateurs à générer et afficher des rapports. 
 		</td>
 	</tr>
 	<tr>
@@ -35,7 +35,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à générer et afficher 
 Entrées supprimées 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher et à restaurer les entrées supprimées. 
+Autoriser les utilisateurs/groupes d'utilisateurs à afficher et à restaurer les entrées supprimées. 
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher et à restaur
 Journaux de la source de données 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher les journaux de la source de données. 
+Autoriser les utilisateurs/groupes d'utilisateurs à afficher les journaux de la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher les journaux 
 Journaux administratifs 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher les journaux d&apos;administration. 
+Autoriser les utilisateurs/groupes d'utilisateurs à afficher les journaux d'administration. 
 		</td>
 	</tr>
 	<tr>
@@ -59,7 +59,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher les journaux 
 Restitution (forcé) 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à archiver des entrées. 
+Autoriser les utilisateurs/groupes d'utilisateurs à archiver des entrées. 
 		</td>
 	</tr>
 </table>

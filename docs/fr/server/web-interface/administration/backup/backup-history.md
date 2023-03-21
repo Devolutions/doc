@@ -26,7 +26,7 @@ Date et heure de démarrage du processus de sauvegarde.
 Date de fin / temps 
 		</td>
 		<td>
-Date et heure d&apos;arrêt du processus de sauvegarde. 
+Date et heure d'arrêt du processus de sauvegarde. 
 		</td>
 	</tr>
 	<tr>
@@ -34,7 +34,7 @@ Date et heure d&apos;arrêt du processus de sauvegarde.
 Notes 
 		</td>
 		<td>
-Message pour informer de l&apos;achèvement ou de l&apos;échec de la sauvegarde. 
+Message pour informer de l'achèvement ou de l'échec de la sauvegarde. 
 		</td>
 	</tr>
 	<tr>
@@ -42,7 +42,7 @@ Message pour informer de l&apos;achèvement ou de l&apos;échec de la sauvegarde
 Nom du fichier 
 		</td>
 		<td>
-Chemin et nom du fichier de sauvegarde de l&apos;application Web. 
+Chemin et nom du fichier de sauvegarde de l'application Web. 
 		</td>
 	</tr>
 	<tr>

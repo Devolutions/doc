@@ -1,7 +1,7 @@
 ---
 title: Licences
 ---
-La gestion globale de l&apos;enregistrement pour tous vos utilisateurs peut être effectuée avec une licence stockée dans {{ fr.DPS }} via la section Licences.  
+La gestion globale de l'enregistrement pour tous vos utilisateurs peut être effectuée avec une licence stockée dans {{ fr.DPS }} via la section Licences.  
 ![Licences](/img/fr/server/ServerOp8061.png) 
 
 ### Générale 
@@ -30,7 +30,7 @@ Licence à sauvegarder.
 Assigner automatiquement les nouveaux utilisateurs 
 		</td>
 		<td>
-Une licence sera automatiquement attribué à tout nouveau compte d&apos;utilisateur. 
+Une licence sera automatiquement attribué à tout nouveau compte d'utilisateur. 
 		</td>
 	</tr>
 </table>

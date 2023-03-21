@@ -1,7 +1,7 @@
 ---
 title: Connexion
 ---
-La section ***Connexion*** fournit des outils pour auditer la ***Liste des utilisateurs connectés*** , les ***Tentatives de connexion*** , l&apos; ***Historique des connexions*** et la ***Dernière connexion*** .  
+La section ***Connexion*** fournit des outils pour auditer la ***Liste des utilisateurs connectés*** , les ***Tentatives de connexion*** , l' ***Historique des connexions*** et la ***Dernière connexion*** .  
 
 Vous pouvez affiner votre recherche grâce aux filtres de chaque rapport et cliquer sur le bouton ***Exporter*** de chaque section pour créer un fichier CSV. 
 
@@ -15,13 +15,13 @@ Le rapport ***Liste des utilisateurs connectés*** affiche les utilisateurs qui 
 
 ### Tentatives de connexion 
 
-Les ***Tentatives de connexion*** répertorie toutes les connexions infructueuses à la source de données {{ fr.RDMS }} . Les ***Types d&apos;échecs*** sont répertoriés dans un menu déroulant pour affiner votre recherche. 
+Les ***Tentatives de connexion*** répertorie toutes les connexions infructueuses à la source de données {{ fr.RDMS }} . Les ***Types d'échecs*** sont répertoriés dans un menu déroulant pour affiner votre recherche. 
 
 ![ServerOp4061.png](/img/fr/server/ServerOp4061.png) 
 
 ### Historique des connexions 
 
-L&apos; ***Historique des connexions*** affiche les informations de chaque utilisateur qui a été connecté à la source de données {{ fr.RDMS }} avec la ***Source*** , ***Plateforme*** , ***Version*** de l&apos;application et le ***Type d&apos;authentification*** . 
+L' ***Historique des connexions*** affiche les informations de chaque utilisateur qui a été connecté à la source de données {{ fr.RDMS }} avec la ***Source*** , ***Plateforme*** , ***Version*** de l'application et le ***Type d'authentification*** . 
 
 ![ServerOp4062.png](/img/fr/server/ServerOp4062.png) 
 

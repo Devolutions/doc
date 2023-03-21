@@ -3,7 +3,7 @@ title: Général
 keywords:
 - Coffre privé
 ---
-La section ***Général*** des ***Paramètres du système*** permet aux administrateurs d&apos;appliquer des politiques générales pour l&apos;ensemble de la source de données.  
+La section ***Général*** des ***Paramètres du système*** permet aux administrateurs d'appliquer des politiques générales pour l'ensemble de la source de données.  
 ![Administration – Paramètres du système](/img/fr/server/clip10372.png) 
 
 ### Général 
@@ -20,18 +20,18 @@ Description
 	</tr>
 	<tr>
 		<td>
-Permettre les paramètres spécifiques de l&apos;usager 
+Permettre les paramètres spécifiques de l'usager 
 		</td>
 		<td>
-Autoriser les utilisateurs à enregistrer les paramètres spécifiques à l&apos;usager. 
+Autoriser les utilisateurs à enregistrer les paramètres spécifiques à l'usager. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Permettre les états d&apos;entrée (Verrouillée, Active, Réservée) 
+Permettre les états d'entrée (Verrouillée, Active, Réservée) 
 		</td>
 		<td>
-Autoriser le verrouillage des entrées lorsqu&apos;elles sont utilisées ou modifiées. 
+Autoriser le verrouillage des entrées lorsqu'elles sont utilisées ou modifiées. 
 		</td>
 	</tr>
 	<tr>
@@ -39,15 +39,15 @@ Autoriser le verrouillage des entrées lorsqu&apos;elles sont utilisées ou modi
 Restitution automatique après 
 		</td>
 		<td>
-Restitution automatique d&apos;une session réservée après le temps définit. 
+Restitution automatique d'une session réservée après le temps définit. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Ajouter un mode d&apos;entrée 
+Ajouter un mode d'entrée 
 		</td>
 		<td>
-Sélectionner si les utilisateurs sont invités à choisir un modèle lors de la création d&apos;une nouvelle entrée. Choisir entre:  
+Sélectionner si les utilisateurs sont invités à choisir un modèle lors de la création d'une nouvelle entrée. Choisir entre:  
 
 * ***Par défaut*** 
 * ***Liste des modèles (incluant les vides)*** 
@@ -158,10 +158,10 @@ Inclure les journaux du {{ fr.PVLT }} pour tous les usagers de la source de donn
 	</tr>
 	<tr>
 		<td>
-Permettre les identifiants &quot;Liés (coffre)&quot; dans le {{ fr.PVLT }} 
+Permettre les identifiants "Liés (coffre)" dans le {{ fr.PVLT }} 
 		</td>
 		<td>
-Autoriser le référentiel d&apos;identifiants pour les sessions dans le {{ fr.PVLT }} . 
+Autoriser le référentiel d'identifiants pour les sessions dans le {{ fr.PVLT }} . 
 		</td>
 	</tr>
 </table>
@@ -191,12 +191,12 @@ Créer un coffre avec un accès restreint par défaut.
 Sécurité de la source de données 
 		</td>
 		<td>
-Utiliser l&apos;ancienne sécurité. Cette option existe à des fins de rétro-compatibilité et nous suggérons de ne pas activer cette option. Nous recommendons fortement d&apos;utiliser le [système de sécurité basé sur les groupes d&apos;utilisateurs](/fr/server/web-interface/administration/configuration/system-permissions/) . 
+Utiliser l'ancienne sécurité. Cette option existe à des fins de rétro-compatibilité et nous suggérons de ne pas activer cette option. Nous recommendons fortement d'utiliser le [système de sécurité basé sur les groupes d'utilisateurs](/fr/server/web-interface/administration/configuration/system-permissions/) . 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Configuration d&apos;événements 
+Configuration d'événements 
 		</td>
 		<td>
 * Par défaut (Activé) 
@@ -208,17 +208,17 @@ Configuration d&apos;événements
 	</tr>
 	<tr>
 		<td>
-Période d&apos;utilisation (Entrées) 
+Période d'utilisation (Entrées) 
 		</td>
 		<td>
 * ***Zone de temps*** : Sélectionner le fuseau horaire dans lequel vous vous trouvez actuellement.  
 * ***Jours*** : Sélectionner les jours pour lesquels la session est disponible. Choisir entre:  
-	***N&apos;importe quel jour*** : La session peut être utilisée n&apos;importe quel jour de la semaine ou de fin de semaine.  
+	***N'importe quel jour*** : La session peut être utilisée n'importe quel jour de la semaine ou de fin de semaine.  
 	***Jours de semaine*** : La session peut être utilisée seulement les jours de la semaine.  
 	***Jours de fin de semaine*** : La session peut être utilisée seulement la fin de semaine.  
 	***Personnalisé*** : Sélectionner manuellement chaque jour pour lequel la session est disponible.  
 * ***Heure du jour*** : Sélectionner les heures auxquelles la session est limitée. Choisir entre:  
-	***N&apos;importe quand*** : La session peut être utilisée à toute heure.  
+	***N'importe quand*** : La session peut être utilisée à toute heure.  
 	***Personnalisé*** : Sélectionner manuellement la période pendant laquelle la session est disponible.  
 		</td>
 	</tr>

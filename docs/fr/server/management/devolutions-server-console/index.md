@@ -1,19 +1,19 @@
 ---
 title: Console de Devolutions Server
 ---
-Étant donné que {{ fr.RDMS }} est en fait une application Web, l&apos;interface de gestion est fournie par la console de {{ fr.RDMS }} .  
+Étant donné que {{ fr.RDMS }} est en fait une application Web, l'interface de gestion est fournie par la console de {{ fr.RDMS }} .  
 
 ## Usage 
 
 {% snippet icon.badgeInfo %} 
-La Console de {{ fr.RDMS }} est désormais proposée en tant qu&apos;application autonome. Elle est maintenant disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download) . 
+La Console de {{ fr.RDMS }} est désormais proposée en tant qu'application autonome. Elle est maintenant disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download) . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Depuis {{ fr.RDMS }} 2019.x, de nombreuses fonctionnalités peuvent seulement être gérées à partir de l&apos;interface Web. Veuillez consulter [Administration - Paramètres Serveur](/fr/server/web-interface/administration/configuration/server-settings/) . 
+Depuis {{ fr.RDMS }} 2019.x, de nombreuses fonctionnalités peuvent seulement être gérées à partir de l'interface Web. Veuillez consulter [Administration - Paramètres Serveur](/fr/server/web-interface/administration/configuration/server-settings/) . 
 {% endsnippet %}
  
-La Console de {{ fr.RDMS }} gère la métabase IIS, elle doit être démarrée avec des privilèges élevés lorsque la console doit être utilisée. Des privilèges élevés sont accordés lorsque vous utilisez ***exécuter en tant qu&apos;administrateur*** pour lancer l&apos;application. Vous pouvez modifier le raccourci pour toujours démarrer de cette manière.  
+La Console de {{ fr.RDMS }} gère la métabase IIS, elle doit être démarrée avec des privilèges élevés lorsque la console doit être utilisée. Des privilèges élevés sont accordés lorsque vous utilisez ***exécuter en tant qu'administrateur*** pour lancer l'application. Vous pouvez modifier le raccourci pour toujours démarrer de cette manière.  
 
 ## Console 
 
@@ -55,7 +55,7 @@ Créer une nouvelle instance de {{ fr.DPS }} .
 Modifier 
 		</td>
 		<td>
-Modifier les propriétés de l&apos;instance {{ fr.DPS }} sélectionnée. 
+Modifier les propriétés de l'instance {{ fr.DPS }} sélectionnée. 
 		</td>
 	</tr>
 	<tr>
@@ -63,7 +63,7 @@ Modifier les propriétés de l&apos;instance {{ fr.DPS }} sélectionnée.
 Mettre à jour 
 		</td>
 		<td>
-Mettre à jour l&apos;instance {{ fr.DPS }} sélectionnée. 
+Mettre à jour l'instance {{ fr.DPS }} sélectionnée. 
 		</td>
 	</tr>
 	<tr>
@@ -71,7 +71,7 @@ Mettre à jour l&apos;instance {{ fr.DPS }} sélectionnée.
 Désinstaller 
 		</td>
 		<td>
-Désinstaller l&apos;instance {{ fr.DPS }} sélectionnée. 
+Désinstaller l'instance {{ fr.DPS }} sélectionnée. 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Désinstaller l&apos;instance {{ fr.DPS }} sélectionnée.
 Mot de passe 
 		</td>
 		<td>
-Définir, Modifier ou Désactiver le mot de passe de l&apos;instance {{ fr.DPS }} . 
+Définir, Modifier ou Désactiver le mot de passe de l'instance {{ fr.DPS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -87,7 +87,7 @@ Définir, Modifier ou Désactiver le mot de passe de l&apos;instance {{ fr.DPS }
 Mettre hors-ligne 
 		</td>
 		<td>
-Basculer l&apos;instance {{ fr.DPS }} sélectionnée en mode hors ligne/en ligne. 
+Basculer l'instance {{ fr.DPS }} sélectionnée en mode hors ligne/en ligne. 
 		</td>
 	</tr>
 	<tr>
@@ -103,7 +103,7 @@ Arrêter/Démarrer le {{ fr.DPS }} IIS Application Pool.
 Journaux 
 		</td>
 		<td>
-Afficher les journaux de la source de données de l&apos;instance de {{ fr.DPS }} sélectionnée. 
+Afficher les journaux de la source de données de l'instance de {{ fr.DPS }} sélectionnée. 
 		</td>
 	</tr>
 	<tr>
@@ -111,7 +111,7 @@ Afficher les journaux de la source de données de l&apos;instance de {{ fr.DPS }
 Accéder au site Web 
 		</td>
 		<td>
-Ouvrir l&apos;interface Web dans le navigateur par défaut. 
+Ouvrir l'interface Web dans le navigateur par défaut. 
 		</td>
 	</tr>
 	<tr>
@@ -119,7 +119,7 @@ Ouvrir l&apos;interface Web dans le navigateur par défaut.
 Explorer 
 		</td>
 		<td>
-Ouvrir l&apos;explorateur de fichiers et pointer-le vers le dossier d&apos;installation de l&apos;instance {{ fr.DPS }} . 
+Ouvrir l'explorateur de fichiers et pointer-le vers le dossier d'installation de l'instance {{ fr.DPS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -127,7 +127,7 @@ Ouvrir l&apos;explorateur de fichiers et pointer-le vers le dossier d&apos;insta
 Ouvrir le fichier de réponse 
 		</td>
 		<td>
-Ouvrir le fichier de réponse pour rouler des commandes sur l&apos;instance {{ fr.DPS }} . 
+Ouvrir le fichier de réponse pour rouler des commandes sur l'instance {{ fr.DPS }} . 
 		</td>
 	</tr>
 </table>
@@ -175,7 +175,7 @@ Débuter ou Arrêter le Service de planification.
 <table>
 	<tr>
 		<td>
-Serveur d&apos;enregistrement 
+Serveur d'enregistrement 
 		</td>
 		<td>
 Description 
@@ -186,7 +186,7 @@ Description
 Installer 
 		</td>
 		<td>
-Installer le Service d&apos;enregistrement. 
+Installer le Service d'enregistrement. 
 		</td>
 	</tr>
 	<tr>
@@ -194,7 +194,7 @@ Installer le Service d&apos;enregistrement.
 Mettre à jour 
 		</td>
 		<td>
-Mettre à jour le Service d&apos;enregistrement. 
+Mettre à jour le Service d'enregistrement. 
 		</td>
 	</tr>
 	<tr>
@@ -202,7 +202,7 @@ Mettre à jour le Service d&apos;enregistrement.
 Désinstaller 
 		</td>
 		<td>
-Désinstaller le Service d&apos;enregistrement. 
+Désinstaller le Service d'enregistrement. 
 		</td>
 	</tr>
 	<tr>
@@ -210,7 +210,7 @@ Désinstaller le Service d&apos;enregistrement.
 Explorer 
 		</td>
 		<td>
-Parcourir le dossier dans lequel les fichiers d&apos;enregistrement sont stockés. 
+Parcourir le dossier dans lequel les fichiers d'enregistrement sont stockés. 
 		</td>
 	</tr>
 </table>
@@ -356,15 +356,15 @@ Description
 Utilisateurs 
 		</td>
 		<td>
-Ouvrir la page de [Gestion des Utilisateurs](/fr/server/web-interface/administration/security-management/users/) sur l&apos;interface Web de {{ fr.DPS }} . 
+Ouvrir la page de [Gestion des Utilisateurs](/fr/server/web-interface/administration/security-management/users/) sur l'interface Web de {{ fr.DPS }} . 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Groupes d&apos;utilisateurs 
+Groupes d'utilisateurs 
 		</td>
 		<td>
-Ouvrir la page de [Gestion des Groupes d&apos;utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) sur l&apos;interface Web de {{ fr.DPS }} . 
+Ouvrir la page de [Gestion des Groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) sur l'interface Web de {{ fr.DPS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -372,7 +372,7 @@ Ouvrir la page de [Gestion des Groupes d&apos;utilisateurs](/fr/server/web-inter
 Coffres 
 		</td>
 		<td>
-Ouvrir la page de [Gestion des Coffres](/fr/server/web-interface/administration/security-management/vaults/) sur l&apos;interface Web de {{ fr.DPS }} . 
+Ouvrir la page de [Gestion des Coffres](/fr/server/web-interface/administration/security-management/vaults/) sur l'interface Web de {{ fr.DPS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -380,7 +380,7 @@ Ouvrir la page de [Gestion des Coffres](/fr/server/web-interface/administration/
 Paramètres du système 
 		</td>
 		<td>
-Ouvrir la page des [Paramètres du système](/fr/server/web-interface/administration/configuration/system-settings/) sur l&apos;interface Web de {{ fr.DPS }} . 
+Ouvrir la page des [Paramètres du système](/fr/server/web-interface/administration/configuration/system-settings/) sur l'interface Web de {{ fr.DPS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -388,7 +388,7 @@ Ouvrir la page des [Paramètres du système](/fr/server/web-interface/administra
 Permissions du système 
 		</td>
 		<td>
-Ouvrir la page des [Permissions du système](/fr/server/web-interface/administration/configuration/system-permissions/) sur l&apos;interface Web de {{ fr.DPS }} . 
+Ouvrir la page des [Permissions du système](/fr/server/web-interface/administration/configuration/system-permissions/) sur l'interface Web de {{ fr.DPS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -396,7 +396,7 @@ Ouvrir la page des [Permissions du système](/fr/server/web-interface/administra
 Gestionnaire de copies de sauvegarde 
 		</td>
 		<td>
-Ouvrir la page du [Gestionnaire de sauvegardes](/fr/server/web-interface/administration/backup/backup-manager/) sur l&apos;interface Web de {{ fr.DPS }} . 
+Ouvrir la page du [Gestionnaire de sauvegardes](/fr/server/web-interface/administration/backup/backup-manager/) sur l'interface Web de {{ fr.DPS }} . 
 		</td>
 	</tr>
 </table>
@@ -416,18 +416,18 @@ Description
 	</tr>
 	<tr>
 		<td>
-Journaux de l&apos;application 
+Journaux de l'application 
 		</td>
 		<td>
-Ouvrir la boîte de dialogue des Journaux de l&apos;application de la console {{ fr.DPS }} . 
+Ouvrir la boîte de dialogue des Journaux de l'application de la console {{ fr.DPS }} . 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Ouvrir le dossier de copie d&apos;installation 
+Ouvrir le dossier de copie d'installation 
 		</td>
 		<td>
-Ouvrir le dossier de copie d&apos;installation dans l&apos;explorateur de fichiers Windows. 
+Ouvrir le dossier de copie d'installation dans l'explorateur de fichiers Windows. 
 		</td>
 	</tr>
 	<tr>
@@ -440,10 +440,10 @@ Enregistrer le rapport de diagnostic dans un fichier texte.
 	</tr>
 	<tr>
 		<td>
-Diagnostic d&apos;IIS 
+Diagnostic d'IIS 
 		</td>
 		<td>
-Exécuter le Diagnostic d&apos;IIS. 
+Exécuter le Diagnostic d'IIS. 
 		</td>
 	</tr>
 	<tr>

@@ -4,7 +4,7 @@ title: Logiciels prérequis
 ## {{ fr.LAUNCHER }} Configuration minimale 
 {{ fr.RDMS }} 2019.1.X.X ou plus récent  
 
-La plupart des navigateurs Web sont compatibles ainsi qu&apos;Internet Explorer 11 ou plus récent. 
+La plupart des navigateurs Web sont compatibles ainsi qu'Internet Explorer 11 ou plus récent. 
 
 ## {{ fr.LAUNCHER }} Configuration minimale par plateforme 
 ### Windows 

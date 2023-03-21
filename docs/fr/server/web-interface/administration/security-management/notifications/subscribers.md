@@ -1,12 +1,12 @@
 ---
 title: Abonnés
 ---
-Au minimum un abonné doit exister afin de recevoir les notifications des activités de l&apos;instance {{ fr.RDMS }} .  
+Au minimum un abonné doit exister afin de recevoir les notifications des activités de l'instance {{ fr.RDMS }} .  
 
 Pour créer un abonné, cliquer sur le bouton ***Ajouter*** .  
 ![Créer un abonné](/img/fr/server/ServerOp8145.png)  
 
-Remplir les informations de l&apos;abonné dans les champs appropriés.  
+Remplir les informations de l'abonné dans les champs appropriés.  
 ![Abonné de type Courriel](/img/fr/server/ServerOp8146.png)  
 
 ![Abonné de type Serveur Syslog](/img/fr/server/ServerOp8147.png)  
@@ -42,7 +42,7 @@ Type
 ***Syslog*** : Les notifications seront envoyées vers un serveur Syslog. 
 
 * Utiliser par défaut : Utilisera la configuration faite dans [Journalisation](/fr/server/web-interface/administration/configuration/server-settings/general/logging/) .  
-* Nom d&apos;hôte : Nom du serveur Syslog.  
+* Nom d'hôte : Nom du serveur Syslog.  
 * Port : Port du serveur Syslog.  
 * Protocole : Protocole (TCP or UDP) utilisé pour communiquer avec le serveur Syslog.  
 		</td>

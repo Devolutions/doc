@@ -71,7 +71,7 @@ Remove the account from the Privileged Account Management system without deletin
 Logs 
 		</td>
 		<td>
-Open the Logs dialog which contains the account&apos;s activity. 
+Open the Logs dialog which contains the account's activity. 
 		</td>
 	</tr>
 	<tr>

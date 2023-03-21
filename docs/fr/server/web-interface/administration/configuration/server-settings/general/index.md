@@ -2,7 +2,7 @@
 title: Général
 order: 10
 ---
-La section ***Général*** permet à l&apos;administrateur de modifier le nom ou la description de l&apos;instance {{ fr.RDMS }} .  
+La section ***Général*** permet à l'administrateur de modifier le nom ou la description de l'instance {{ fr.RDMS }} .  
 ![Adminsitration - Paramètres de Devolutions Password Server - Général](/img/fr/server/ServerOp8041.png) 
 
 ## Paramètres 
@@ -69,7 +69,7 @@ Insérer votre numéro de série.
 LAC utilisateur 
 		</td>
 		<td>
-Insérer vos clés de licence d&apos;accès client. 
+Insérer vos clés de licence d'accès client. 
 		</td>
 	</tr>
 	<tr>

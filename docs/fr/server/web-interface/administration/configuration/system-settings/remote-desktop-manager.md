@@ -19,14 +19,14 @@ Description
 Déconnecter la source de données 
 		</td>
 		<td>
-Définir l&apos;application à verrouiller:  
+Définir l'application à verrouiller:  
 
-* ***Lors de la réduction de la fenêtre*** : Verrouiller automatiquement l&apos;application lorsqu&apos;elle est réduite dans la barre des tâches. 
-* ***Lors du verrouillage de Windows*** : Verrouiller l&apos;application sur le verrouillage Windows. 
-* ***En mise hors-ligne*** : Verrouiller l&apos;application losrque basculée en more hors-ligne. 
-* ***Lorsque inactif*** : Verrouiller automatiquement l&apos;application lorsqu&apos;elle n&apos;est pas utilisée après un nombre de minutes déterminé. 
-* ***En mode veille*** : Verrouiller l&apos;application lorsqu&apos;en veille. 
-* ***À la fermeture*** : Verrouiller l&apos;application lors de sa fermeture. 
+* ***Lors de la réduction de la fenêtre*** : Verrouiller automatiquement l'application lorsqu'elle est réduite dans la barre des tâches. 
+* ***Lors du verrouillage de Windows*** : Verrouiller l'application sur le verrouillage Windows. 
+* ***En mise hors-ligne*** : Verrouiller l'application losrque basculée en more hors-ligne. 
+* ***Lorsque inactif*** : Verrouiller automatiquement l'application lorsqu'elle n'est pas utilisée après un nombre de minutes déterminé. 
+* ***En mode veille*** : Verrouiller l'application lorsqu'en veille. 
+* ***À la fermeture*** : Verrouiller l'application lors de sa fermeture. 
 		</td>
 	</tr>
 </table>
