@@ -37,4 +37,4 @@ Pour garantir des performances maximales de {{ fr.RDMS }} , il peut être déplo
 
 Pour les clients qui ne désirent pas se procurer un équilibreur de charge, il est possible de simplement installer deux instances de {{ fr.RDMS }} sur deux serveurs Web distincts, puis de les rediriger vers la même base de données SQL Server. En enregistrant les deux instances en tant que sources de données séparées dans l'application cliente, les utilisateurs peuvent basculer entre les serveurs en cas de panne. 
 
-![Basculement manuel avec deux Devolutions Server](/img/fr/server/ServerOp4014.png) 
+![Basculement manuel avec deux {{ fr.DVLS }}](/img/fr/server/ServerOp4014.png) 

@@ -2,7 +2,7 @@
 title: Journalisation
 ---
 La section ***Journalisation*** permet à l'administrateur de configurer les fonctionnalités de journalisation.  
-![Administration - Paramètres de Devolutions Password Server - Journalisation](/img/fr/server/ServerOp8040.png) 
+![Administration - Paramètres de {{ fr.DVLS }} - Journalisation](/img/fr/server/ServerOp8040.png) 
 
 ## Paramètres 
 

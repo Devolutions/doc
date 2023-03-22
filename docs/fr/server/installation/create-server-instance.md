@@ -10,7 +10,7 @@ Si vous venez tout juste de recevoir vos clés de licence, veuillez d'abord cons
 Pour plus d'informations à propos de chaque fonctionnalité dans l'assistant de déploiement, veuillez consulter les sections respectives dans le chapitre [Paramètres du serveur](/fr/server/management/devolutions-server-console/devolutions-server-settings/general/) . 
 {% endsnippet %}
  
-Plusieurs instances de {{ fr.RDMS }} peuvent être installées sur le même serveur. Chaque instance a sa propre application Web dans IIS. Les étapes suivantes requièrent l'utilisation de la ***Console de {{ fr.RDMS }}***.  
+Plusieurs instances de {{ fr.RDMS }} peuvent être installées sur le même serveur. Chaque instance a sa propre application Web dans IIS. Les étapes suivantes requièrent l'utilisation de la ***{{ fr.DVLSCONSOLE }}***.  
 
 ## Procédure 
 
@@ -24,20 +24,20 @@ Toutes les opérations effectuées via la ***Console de {{ fr.RDMS }}***  seront
 ![Exécuter en tant qu'administrateur](/img/fr/server/ServerOp8139.png) 
  
 3. Dans la ***Console de {{ fr.RDMS }}***  , cliquer sur le bouton ***Nouveau*** ou sur ***Installer une nouvelle instance*** pour déployer une nouvelle instance.  
-![Déployer un nouveau Devolutions Server](/img/fr/server/ServerOp8048.png) 
+![Déployer un nouveau {{ fr.RDMS }}](/img/fr/server/ServerOp8048.png) 
 1. La première boîte de dialogue exécutera des diagnostiques sur le serveur pour vérifier si le serveur IIS dispose de toutes les conditions préalables nécessaires pour les rôles Web et est prêt à exécuter {{ fr.RDMS }} . Les éléments manquants sont signalés par un x. Le bouton ***Installer les pré-requis*** installera toutes les fonctionnalités manquantes à l'aide d'un script PowerShell. Une connexion internet est requise pour les prérequis [IIS Application Request Routing (ARR)](https://api.devolutions.net/redirection/f19f07f3-5ea4-436d-a3ba-4bb69d373321) , [IIS Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) et [IIS ASP.NET Core Module (ANCM)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer) .  
 ![Vérification des conditions préalables à IIS pour l'installation](/img/fr/server/ServerOp8049.png) 
 1. Cocher la case ***J'accepte les termes de la convention de licence*** , puis cliquer sur ***Suivant*** .  
-![Convention de licence Devolutions Server](/img/fr/server/ServerOp8050.png) 
+![Convention de licence {{ fr.RDMS }}](/img/fr/server/ServerOp8050.png) 
 1. Sous ***Base de données*** , entrer les informations sur le serveur et la base de données.  
 
 Le compte d'utilisateur utilisé pour créer la base de données doit disposer des privilèges sysadmin dans l'instance SQL Server. Consultez la rubrique [Base de données](/fr/server/management/devolutions-server-console/devolutions-server-settings/database/) pour plus d'informations.  
 
 Pour utiliser la Sécurité intégrée pour se connecter à la base de données, il est important de modifier l'identité du regroupement d'applications dans le gestionnaire IIS et de définir les permissions appropriées du compte de service sur la base de données SQL. Veuillez consulter [Comment configurer {{ fr.RDMS }} pour utiliser la sécurité intégrée](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/) .  
-![Assistant de déploiement Devolutions Password Server](/img/fr/server/ServerOp8054.png) 
+![Assistant de déploiement {{ fr.RDMS }}](/img/fr/server/ServerOp8054.png) 
 
 7. Dans la section ***Général*** , saisir un ***Nom*** et une ***Description*** . Sous ***Série*** , saisir une clé de licence reçue dans le courriel après l'achat. Si vous n'avez pas acheté de licence de {{ fr.RDMS }} , vous pouvez demander une [période gratuite d'essai de 30 jours](https://server.devolutions.net/fr/trial) .  
-![Assistant d'installation de Devolutions Server](/img/fr/server/ServerOp8051.png) 
+![Assistant d'installation de {{ fr.RDMS }}](/img/fr/server/ServerOp8051.png) 
 1. Sous ***Source de l'installation*** , choisir de télécharger la dernière version à partir du Web ou d'installer à partir d'un fichier zip local disponible depuis la [page de téléchargement](https://server.devolutions.net/fr/home/download) .  
 ![Sélectionner un fichier d'installation](/img/fr/server/ServerOp4017.png) 
 1. Sous ***Général*** , sélectionner le ***Site Web*** et le ***Nom de l'application web*** . Sous ***Destination de l'installation*** , choisir le dossier de destination ou l'instance sera situé. Le processus d'exécution des sites Web a reçu les autorisations appropriées sous c:\inetpub\wwwroot . Nous vous recommandons de créer un nouveau dossier en dessous et de créer l'instance {{ fr.RDMS }} dans ce dossier. Sous ***Pool d'applications*** , choisir le ***Nom*** .  
@@ -58,7 +58,7 @@ Nous vous recommandons de protéger les clés de chiffrement dans un coffre pour
 ![Copie de sauvegarde des clés de chiffrement](/img/fr/server/ServerOp4019.png)  
 
 12. Dans la ***Configuration du mot de passe de la console*** ***{{ fr.RDMS }}*** , lors de la configuration d'un mot de passe, l'instance {{ fr.RDMS }} sera protégée par un mot de passe qui sera enregistré dans la base de données.  
-![Mot de passe de la Console Devolutions Server](/img/fr/server/ServerOp8138.png)  
+![Mot de passe de la {{ fr.DVLSCONSOLE }}](/img/fr/server/ServerOp8138.png)  
 1. Sous ***Service de planification*** , lorsque vous activez l'option, veuillez définir le compte du service approprié. Les fonctionnalités suivantes dépendent du ***Planificateur*** : [Gestionnaire de sauvegardes](/fr/server/web-interface/administration/backup/backup-manager/) , Cache des utilisateurs et des rôles du domaine, Cache des utilisateurs et des rôles d'Office365, notifications par courriel et la gestion des accès privilégiés.  
 ![Service de planification](/img/fr/server/ServerOp8055.png) 
 1. En choisissant de ne pas installer le planificateur, vous obtiendrez le message d'avertissement suivant.  
@@ -72,11 +72,10 @@ Une fois l'installation terminée, un récapitulatif indique si {{ fr.RDMS }} a 
 ### Tester L'installation 
 
 Pour tester l'installation du serveur, accédez à l'URL de l'instance (par exemple: http<area>://<Machine_Name>/<InstanceName>) avec n'importe quel navigateur Web ou cliquer sur le bouton ***Accéder au site Web*** dans la Console de {{ fr.RDMS }} .  
-![Console de Devolutions Password Server](/img/fr/server/ServerOp8060.png)  
+![{{ fr.DVLSCONSOLE }}](/img/fr/server/ServerOp8060.png)  
 
 {% snippet icon.badgeNotice %} 
 Dans certaines situations, la page web peut ne pas se charger correctement. Assurez-vous que le groupe local IIS IUSRS a tous les droits de lecture nécessaire sur le fichier encryption.config localisé dans le sous-dossier App_Data du dossier de l'application web de {{ fr.DPS }} (i.e. c:\inetpub\wwwroot\dvls\App_Data). Si un problème survient durant ou suivant l'installation, contactez-nous à [service@devolutions.net](mailto:service@devolutions.net) . 
 {% endsnippet %}
  
 Pour tester la connexion à partir d'un client en créant une source de données dans {{ fr.RDM }} . Veuillez consulter [Comment configurer une source de données](/kb/devolutions-server/how-to-articles/configure-client-data-source/) pour plus d'informations. 
-

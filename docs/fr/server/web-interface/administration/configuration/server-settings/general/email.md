@@ -2,7 +2,7 @@
 title: Courriel
 ---
 Les ***Courriels*** sont envoyés par notre moteur de notification et par certains de nos fournisseurs d'authentification à 2 facteurs.  
-![Administration - Paramètres de Devolutions Password Server - Courriel](/img/fr/server/ServerOp8013.png) 
+![Administration - Paramètres de {{ fr.DVLS }} - Courriel](/img/fr/server/ServerOp8013.png) 
 
 ## Paramètres 
 

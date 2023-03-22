@@ -25,7 +25,7 @@ Avec cette option activée, un icône {{ fr.DWL }} sera affiché dans chaque cha
 
 4. Cliquer sur ***Enregistrer*** . 
 1. Cliquer sur ***{{ fr.DPS }}*** dans la section des ***Sources de données*** .  
-![Paramètres – Sources de données – Devolutions Server](/img/fr/server/ServerOp2037.png)  
+![Paramètres – Sources de données – {{ fr.DVLS }}](/img/fr/server/ServerOp2037.png)  
 1. Dans l'onglet ***Actions*** , activer les options ***Retrouver les identifiants automatiquement lors du chargement de la page*** et ***Remplir automatiquement les champs d'identifiants lors du chargement*** en cochant leurs cases respectives. Ci-dessous se trouve un description de chaque option :  
 
 * ***Retrouver les identifiants automatiquement lors du chargement de la page*** (activé par défaut) : Permet à {{ fr.DWL }} de rechercher automatiquement les identifiants disponibles lors du chargement d'une page Web. 

@@ -10,7 +10,7 @@ L'administrateur doit activer l'option et les utilisateurs peuvent ensuite gén�
 ### Administrateur - Activer les codes de sauvegarde 
 
 Un administrateur doit activer les codes de sauvegarde comme méthode alternative d'authentification à deux facteurs. Pour activer l'option, accédez à ***Administration – Paramètres du serveur de mot de passe – Deux facteurs*** .  
-![Administration - Paramètres de Devolutions Password Server - Deux facteurs](/img/fr/server/ServerOp7017.png)  
+![Administration - Paramètres de {{ fr.DVLS }} - Deux facteurs](/img/fr/server/ServerOp7017.png)  
 Cliquer sur ***Configurer*** pour définir le nombre de codes de sauvegarde qu'un utilisateur peut générer.  
 ![Nombre de codes de sauvegarde](/img/fr/server/ServerOp7018.png)  
 

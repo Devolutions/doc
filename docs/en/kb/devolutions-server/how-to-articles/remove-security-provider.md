@@ -5,7 +5,7 @@ title: Remove Security Provider
 For any question or for assistance with this procedure, contact us at [service@devolutions.net](mailto:service@devolutions.net).
 {% endsnippet %}
 
-The Security Provider was implemented in older {{ en.DPS }} versions and is no longer considered as secure per the explanation at the beginning of this blog article [Update on Devolutions Password Server Security Provider Deprecation](https://blog.devolutions.net/2020/02/update-on-devolutions-password-server-security-provider-deprecation).
+The Security Provider was implemented in older {{ en.DPS }} versions and is no longer considered as secure per the explanation at the beginning of this blog article [Update on {{ en.DVLS }} Security Provider Deprecation](https://blog.devolutions.net/2020/02/update-on-devolutions-password-server-security-provider-deprecation).
 
 The following procedure explains how to remove the Security Provider and implement the Encryption at REST using the encryption keys.
 

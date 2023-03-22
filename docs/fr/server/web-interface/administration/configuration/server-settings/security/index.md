@@ -3,7 +3,7 @@ title: Securité
 order: 20
 ---
 La section ***Sécurité*** permet à l'administrateur de configurer les adresses IP autorisées et refusées.  
-![Administration - Paramètres de Devolutions Password Server - Sécurité](/img/fr/server/ServerOp8045.png)  
+![Administration - Paramètres de {{ fr.DVLS }} - Sécurité](/img/fr/server/ServerOp8045.png)  
 
 ## Paramètres 
 

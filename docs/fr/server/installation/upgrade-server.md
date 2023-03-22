@@ -7,13 +7,13 @@ Veuillez installer la Console {{ fr.RDMS }} selon la version souhaité disponibl
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Depuis la version 2019.x de {{ fr.RDMS }} , la plupart fonctionnalités sont gérables seulement à partir de l'interface Web. Veuillez consulter la section [Paramètres de {{ fr.RDMS }}](/fr/server/web-interface/administration/configuration/server-settings/) . 
+Depuis la version 2019.x de {{ fr.RDMS }} , la plupart fonctionnalités sont gérables seulement à partir de l'interface Web. Veuillez consulter la section [Paramètres de {{ fr.RDMS }}](/fr/server/web-interface/administration/configuration/server-settings/). 
 {% endsnippet %}
  
 Il est fortement recommandé, comme étant une méthode efficace, de déployer une nouvelle instance de {{ fr.RDMS }} dans un environnement de test afin de vérifier sa stabilité avant de déployer une nouvelle version dans votre environnement de production. Si vous ne possédez pas un tel environnement de test, alors nous recommandons un déploiement limité pour garantir une implémentation graduelle satisfaisante avant d'impacter entièrement votre organisation.  
 
 {% snippet icon.badgeNotice %} 
-Les étapes suivantes s'adressent à une installation simple ou la [topologie](/fr/server/overview/topologies/) de base. Si votre environnement diffère de ces topologies, veuillez nous contacter et nous vous guiderons sur comment mettre à   {{ fr.RDMS }} . 
+Les étapes suivantes s'adressent à une installation simple ou la [topologie](/fr/server/overview/topologies/) de base. Si votre environnement diffère de ces topologies, veuillez nous contacter et nous vous guiderons sur comment mettre à {{ fr.RDMS }}. 
 {% endsnippet %}
  
 ## Étapes 
@@ -40,7 +40,7 @@ Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant to
  
 ### Phase de préparation 
 
-* Assurez-vous que les utilisateurs de l'instance ont activé le mode hors connexion et qu'ils effectuent tous une actualisation complète de la cache ( Ctrl+F5 ).  
+* Assurez-vous que les utilisateurs de l'instance ont activé le mode hors connexion et qu'ils effectuent tous une actualisation complète de la cache (**Ctrl+F5**).  
 * Demander à votre équipe de passer en mode hors ligne dans {{ fr.RDM }} , ce qui lui permet de travailler pendant que le système est hors service.  
 * Mettre à jour la version maximale de {{ fr.RDM }} dans ***Administration – Paramètres du système – Gestion de version – Version maximale*** , si cette option a été définie avant la mise à niveau.  
 
@@ -53,13 +53,13 @@ Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant to
 
 ### Phase 2 
 
-1. Ouvrir la [Console Devolutions Server](/fr/server/management/devolutions-server-console/) . 
+1. Ouvrir la [{{ fr.DVLSCONSOLE }}](/fr/server/management/devolutions-server-console/) . 
 1. Sélectionner l'instance que vous souhaitez mettre à niveau. 
 1. Mettre l'instance en Mode hors ligne avec le bouton ***Mettre hors-ligne*** . Sur une topologie à haute disponibilité/équilibrage de charge, toutes les instances doivent être définies en mode hors ligne avant de démarrer le processus de mise à niveau. 
 1. Cliquer sur le bouton ***Mettre à jour*** .  
-![Console de Devolutions Password Server](/img/fr/server/ServerOp8064.png)  
+![{{ fr.DVLSCONSOLE }}](/img/fr/server/ServerOp8064.png)  
 1. Sélectionner la source de mise à niveau. Vous pouvez utiliser la dernière version disponible en ligne ou spécifier le chemin d'accès à un fichier zip que vous avez téléchargé vous-même. Utilisez-le pour les versions bêta ou pour les versions antérieures.  
-![Devolutions Server Upgrade Wizard](/img/fr/server/ServerOp8066.png)  
+![{{ fr.DVLS }} Upgrade Wizard](/img/fr/server/ServerOp8066.png)  
 1. Appuyer sur ***Suivant*** . 
 1. Consulter le résumé et appuyer sur ***Mettre à niveau*** si vous êtes satisfait.  
 ![ServerOp4016.png](/img/fr/server/ServerOp4016.png) 
@@ -81,4 +81,3 @@ Si vous avez sélectionné l'option Sécurité intégrée pour la communication 
 * Demander à un utilisateur de mettre à niveau son poste de travail avec la version de {{ fr.RDM }} prise en charge par la version {{ fr.RDMS }} et de tester la connectivité avec l'instance de serveur.  
 * Lorsque vous êtes satisfait de vos tests, demander au reste du personnel de passer à la même version de {{ fr.RDM }} .  
 * Mettre à jour la version maximale/minimale de {{ fr.RDM }} dans ***Administration – Paramètres du système – Gestion de version*** .  
-

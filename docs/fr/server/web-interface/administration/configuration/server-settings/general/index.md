@@ -3,7 +3,7 @@ title: Général
 order: 10
 ---
 La section ***Général*** permet à l'administrateur de modifier le nom ou la description de l'instance {{ fr.RDMS }} .  
-![Adminsitration - Paramètres de Devolutions Password Server - Général](/img/fr/server/ServerOp8041.png) 
+![Adminsitration - Paramètres de {{ fr.DVLS }} - Général](/img/fr/server/ServerOp8041.png) 
 
 ## Paramètres 
 

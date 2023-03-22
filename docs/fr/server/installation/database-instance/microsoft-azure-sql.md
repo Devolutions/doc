@@ -5,4 +5,4 @@ Créer une base de données SQL vide sur votre portail Microsoft Azure SQL. Four
 
 Une fois que tous les champs sont correctement configurés dans ***Serveur – Modifier – Base de données*** , cliquer sur le bouton ***Mettre à jour base de données*** pour mettre à jour le schéma de la base de données.  
 
-![Console Devolutions Server - Base de données](/img/fr/server/ServerOp8132.png) 
+![{{ fr.DVLSCONSOLE }} - Base de données](/img/fr/server/ServerOp8132.png) 
