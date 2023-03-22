@@ -3,8 +3,8 @@ title: Register your Hub Business License
 ---
 Register your new license in {{ en.PHUB }} Business by following the steps that best represent your current situation:  
 
-[My current license is still active]() 
-[My current license is expired]() 
+* [My current license is still active](#my-current-license-is-still-active)  
+* [My current license is expired](#my-current-license-is-expired)  
 
 {% snippet icon.badgeCaution %} 
 Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.PHUB }} Business. 
