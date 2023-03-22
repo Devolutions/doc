@@ -17,8 +17,11 @@ There are two ways of creating manual headings with Markdown.
 
 First and second level can be created by "underlying" the text with equal signs (=) and hyphens (-).  
 
-First level headings 
-================== 
-Second level headings 
-------------------- 
+First level headings  
+
+`==================`  
+
+Second level headings  
+
+`-------------------`  
 

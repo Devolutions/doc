@@ -17,9 +17,9 @@ Les premier et deuxième niveaux peuvent être créés en ajoutant au texte des 
 
 Titre de premier niveau  
 
-==================  
+`==================`  
 
 Titre de deuxième niveau  
 
--------------------  
+`-------------------`  
 
