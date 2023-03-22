@@ -8,7 +8,7 @@ The [PowerShell Module](/hub/powershell-module/overview/) needs to be installed 
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
-Proper permissions are also required to perform some of these commands. Please refer to the [Application Users](Hub_Application_Users) topic. 
+Proper permissions are also required to perform some of these commands. Please refer to the [Application Users](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) topic. 
 {% endsnippet %}
  
 PSHubContext is an object that specifies your authentication information. You will need a valid PSHubContext to connect to your {{ en.PHUB }} Business. You can have many PSHubContext connected in your PowerShell session, but only one is used when you use Hub Cmdlet.  

@@ -10,7 +10,7 @@ The {{ en.PHUB }} PowerShell Module is a way to access, create, update and remov
     * [Windows](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) 
     * [Mac](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7.1) 
     * [Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7.1) 
-* An [Application User](Hub_Application_Users) 
+* An [Application User](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) 
 
 ## Tutorials 
 
