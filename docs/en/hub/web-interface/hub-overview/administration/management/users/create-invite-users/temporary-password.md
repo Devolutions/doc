@@ -4,7 +4,7 @@ title: Temporary Password
 ***Temporary Password*** are created automatically for new users who are invited to {{ en.PHUB }} Business and who do not have {{ en.DA }} .  
 
 {% snippet icon.badgeNotice %} 
-You can predefine how they are handled in ***Administration - System Settings - General*** . For an overview on the subject check this topic: [General](Hub_Administration_System_Settings_General) . 
+You can predefine how they are handled in ***Administration - System Settings - General*** . For an overview on the subject check this topic: [General](/hub/web-interface/hub-overview/administration/configuration-security/system-settings/general/) . 
 {% endsnippet %}
  
 
