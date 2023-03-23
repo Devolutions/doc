@@ -10,14 +10,14 @@ Check the backup of the SQL database and the web application folder integrity by
  
 ## Backup configuration 
 
-1. Install the DevolutionsSchedulerService with the ***Install Scheduler*** button of the {{ en.DPS }} Console it is not already installed. For more information please see [{{ en.DPS }} Console](https://helpserver.devolutions.net/dvls_console.html) .  
+1. Install the DevolutionsSchedulerService with the ***Install Scheduler*** button of the {{ en.DPS }} Console it is not already installed. For more information please see [{{ en.DPS }} Console](/server/management/devolutions-server-console/) .  
 ![KB4359.png](/img/en/kb/KB4359.png) 
 1. Create a domain service account that will be used to run the service.  
 ![KB4360.png](/img/en/kb/KB4360.png) 
 1. This service account must have proper permission on the destinations folder(s) to create files and needs at least the db_datareader and db_backupoperator rights on the SQL database.  
 ![KB4361.png](/img/en/kb/KB4361.png) 
 1. Create a network folder, it can be one for the database backup and one for the web application backup, that both the server which hosted the {{ en.DPS }} instance and the SQL Server will have access to. 
-1. Configure the options in the Backup Manager . For more information please see [Backup Manager](https://helpserver.devolutions.net/webinterface_backupmanager.html) . 
+1. Configure the options in the Backup Manager . For more information please see [Backup Manager](/server/web-interface/administration/backup/backup-manager/) . 
 1. In the following sample: 
    - The database backup is ***enabled*** and will be saved in folder TeamShare\BackupDVLS\DB on DC machine. 
    - The web backup is ***enabled*** and will be saved in folder TeamShare\BackupDVLS\Web on DC machine. 
@@ -31,7 +31,7 @@ Check the backup of the SQL database and the web application folder integrity by
 The following instructions explain how to restore the {{ en.DPS }} environment. The first part explains the restore process on an existing installation and the second part details the steps to restore {{ en.DPS }} on new machines.
 
 {% snippet icon.badgeHelp %}
-Ensure that all prerequisites are installed on the machine where the {{ en.DPS }} instance is hosted. For more information please see [Installing Web Roles prerequisites](https://helpserver.devolutions.net/install_webroles.html).
+Ensure that all prerequisites are installed on the machine where the {{ en.DPS }} instance is hosted. For more information please see [Installing Web Roles prerequisites](/server/installation/installing-web-server-prerequisites/).
 {% endsnippet %}
 
 {% snippet icon.badgeHelp %}
@@ -55,7 +55,7 @@ Be sure that the database and the web application match before launching the res
 1. If the goal is to restore {{ en.DPS }} and the SQL database on new servers :
    1. **Restore** the **SQL database** on the new server.
    1. Fix every SQL login account that have been used to connect on the database from .
-   1. Follow instructions of [Create {{ en.DPS }} instance](https://helpserver.devolutions.net/install_createrdmsinstance.html) topic.
+   1. Follow instructions of [Create {{ en.DPS }} instance](/server/installation/create-server-instance/) topic.
    1. **Overwrite** the web application folder with the content of the web application .zip file.
    1. **Reconfigure** the **Backup Scheduler** feature.
    {type="a"}

@@ -34,7 +34,7 @@ Network Adapter (1 GB)
 Network Adapter (1 GB) 
 		</td>
 		<td>
-** We recommend deploying multiple {{ en.DGW }} in a [Load balancing topology](https://helpserver.devolutions.net/gettingstarted_topologies.html#load-balancing-topology) . 
+** We recommend deploying multiple {{ en.DGW }} in a [Load balancing topology](/server/overview/topologies/#load-balancing-topology) . 
 		</td>
 	</tr>
 </table>

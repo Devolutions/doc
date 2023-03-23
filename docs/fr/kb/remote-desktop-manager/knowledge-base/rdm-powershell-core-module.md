@@ -6,7 +6,7 @@ eleventyComputed:
 
 Il n’est donc plus nécessaire d’installer {{ fr.RDM }} pour exécuter des scripts PowerShell : le module suffit. 
 {% snippet icon.badgeInfo %} 
-Pour se connecter à une [Source de données avancée](https://helprdm.devolutions.net/fr/datasources_advanced.html) , le compte utilisé pour se connecter à la source de données doit posséder une licence RDM assignée. L'utilisation d'une [clé d'application](https://helpserver.devolutions.net/fr/webinterface_applications.html) avec une source de données {{ fr.DPS }} ne nécessite pas de licence. 
+Pour se connecter à une [Source de données avancée](https://helprdm.devolutions.net/fr/datasources_advanced.html) , le compte utilisé pour se connecter à la source de données doit posséder une licence RDM assignée. L'utilisation d'une [clé d'application](/fr/server/web-interface/administration/security-management/applications/) avec une source de données {{ fr.DPS }} ne nécessite pas de licence. 
 {% endsnippet %}
  
 ### Installation 

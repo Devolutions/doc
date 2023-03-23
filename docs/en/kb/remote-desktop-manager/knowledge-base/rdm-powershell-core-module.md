@@ -7,7 +7,7 @@ Starting with {{ en.RDM }} version 2021.2.8.0, the PowerShell module needs to be
 This also means that there is no need to install {{ en.RDM }} on a machine to run PowerShell scripts. The module is now sufficient.  
 
 {% snippet icon.badgeInfo %}
-To connect on an [Advanced Data Source](https://helprdm.devolutions.net/datasources_advanced.html) , the account used to connect to the data source must have an assigned RDM license. The usage of an [application key](https://helpserver.devolutions.net/webinterface_applications.html) with a {{ en.DPS }} data source doesn't require a license.
+To connect on an [Advanced Data Source](https://helprdm.devolutions.net/datasources_advanced.html) , the account used to connect to the data source must have an assigned RDM license. The usage of an [application key](/server/web-interface/administration/security-management/applications/) with a {{ en.DPS }} data source doesn't require a license.
 {% endsnippet %}  
 
 ### How to install

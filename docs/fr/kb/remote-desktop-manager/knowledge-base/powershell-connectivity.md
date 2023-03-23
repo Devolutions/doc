@@ -9,7 +9,7 @@ Cette nouvelle source de données créée avec PowerShell n'existera que dans le
 {% endsnippet %}
  
 1. Suivez les instructions de cet article [Module de base PowerShell de {{ fr.RDM }}](/fr/kb/remote-desktop-manager/knowledge-base/rdm-powershell-core-module/) pour installer correctement le module. 
-1. Créez une nouvelle source de données {{ fr.DPS }} en utilisant une [clé d'application et son secret](https://helpserver.devolutions.net/fr/webinterface_applications.html) à l'aide du script suivant. Ce script ne doit être utilisé qu'une seule fois afin d'éviter de créer beaucoup de nouvelles sources de données. Veuillez remplacer les valeurs des 4 variables avec vos propres informations. Ensuite, exécutez le script. 
+1. Créez une nouvelle source de données {{ fr.DPS }} en utilisant une [clé d'application et son secret](/fr/server/web-interface/administration/security-management/applications/) à l'aide du script suivant. Ce script ne doit être utilisé qu'une seule fois afin d'éviter de créer beaucoup de nouvelles sources de données. Veuillez remplacer les valeurs des 4 variables avec vos propres informations. Ensuite, exécutez le script. 
 
 ```
 $dsname = "DVLS PowerShell"  

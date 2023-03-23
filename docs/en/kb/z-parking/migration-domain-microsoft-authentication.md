@@ -19,7 +19,7 @@ It is possible to efficiently migrate {{ en.DPS }} Domain authentication to Micr
 * Enable [Offline Mode](https://helprdm.devolutions.net/datasource_offline.html) feature for the transition period (optional).  
 
   * Test Offline Mode feature few days before migration.
-* Temporary disable the [Domain Automatic user creation](https://helpserver.devolutions.net/authentication_domain.html#automatic-user-creation)
+* Temporary disable the [Domain Automatic user creation](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/)
 * Prepare a new {{ en.RDM }} data source that contains the new authentication method and [export the data source](https://helprdm.devolutions.net/datasource_importexport.html) it in ardd file.  
 
   * Add the .rdd file in the main vault and ask all users to open it in {{ en.RDM }} to be automatically added in their data sources list.
@@ -29,7 +29,7 @@ It is possible to efficiently migrate {{ en.DPS }} Domain authentication to Micr
 
   * Export Encryption Keys from the old {{ en.DPS }} instance.
   * Restore the SQL database on the new server.  
-  * [Create the new {{ en.DPS }} instance](https://helpserver.devolutions.net/install_createrdmsinstance.html) and connect it on the existing or newly restored SQL database using the exported Encryption Keys.
+  * [Create the new {{ en.DPS }} instance](/server/installation/create-server-instance/) and connect it on the existing or newly restored SQL database using the exported Encryption Keys.
 * Migrate all existing user accounts to Microsoft authentication UPN username format.  
 
   * We provide an SQL statement for this migration step. Please send an email to [service@devolutions.net](mailto:service@devolutions.net) to get it.
@@ -55,7 +55,7 @@ It is possible to efficiently migrate {{ en.DPS }} Domain authentication to Micr
 
   * We can provide a PowerShell script to set permissions from a CSV file.
 ### Post-migration phase
-* [Reset the {{ en.DPS }} cache](https://helpserver.devolutions.net/webinterface_resetcache.html) to update users, user groups, vaults and entries.
+* [Reset the {{ en.DPS }} cache](/server/web-interface/administration/security-management/reset-server-cache/) to update users, user groups, vaults and entries.
 * Verify Microsoft authentication in {{ en.RDM }} and/or web UI.
 * Verify RBAC functionality and verify if permissions are properly set.
 * Verify User Vault entries.  

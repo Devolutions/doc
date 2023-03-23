@@ -15,7 +15,7 @@ If the console version is older than the web application version, please go on t
 Then, install again the {{ en.DPS }} web application over the current installation with the Upgrade Server button in the Actions pane. This will properly install all required files and update the SQL database to the appropriate version.
 
 {% snippet icon.badgeNotice %}
-We strongly recommend following the instructions on this online help page to perform the upgrade [Upgrading {{ en.DPS }}](https://helpserver.devolutions.net/upgrade_rdms.html)
+We strongly recommend following the instructions on this online help page to perform the upgrade [Upgrading {{ en.DPS }}](/server/installation/upgrade-server/)
 {% endsnippet %}
 
 {% snippet icon.badgeNotice %}

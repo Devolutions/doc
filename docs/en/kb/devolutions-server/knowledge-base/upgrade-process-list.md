@@ -4,7 +4,7 @@ title: Upgrade Process Bullet List
 
 ## Upgrading an instance of {{ en.DPS }}
 
-Please visit the [Upgrading {{ en.DPS }}](https://helpserver.devolutions.net/upgrade_rdms.htm) page for informational steps of the upgrade procedure.
+Please visit the [Upgrading {{ en.DPS }}](/server/installation/upgrade-server/) page for informational steps of the upgrade procedure.
 
 {{ en.DPS }} upgrades are not overly complicated, but certain steps must be planned carefully.
 
@@ -17,7 +17,7 @@ Please contact us at [service@devolutions.net](mailto:service@devolutions.net) t
 ## STEPS
 
 {% snippet icon.badgeNotice %}
-Confirm that all minimum requirements are installed and dependencies reach the supported versions according to the [System Requirements](https://helpserver.devolutions.net/system_requirements.html) page.
+Confirm that all minimum requirements are installed and dependencies reach the supported versions according to the [System Requirements](/server/overview/system-requirements/) page.
 {% endsnippet %}
 
 The following bullet list describe each steps a support technician will follow to assist a customer to upgrade the {{ en.DPS }} instance.
@@ -35,12 +35,12 @@ The following bullet list describe each steps a support technician will follow t
    {type="a"}
 1. Make sure that no antivirus is currently running or scanning the web application and {{ en.DVLSCONSOLE }} installation folders.
 1. Open the {{ en.DVLSCONSOLE }} and tell the user to upgrade through the console.
-1. [Install Prerequisites](https://helpserver.devolutions.net/install_webroles.html) for {{ en.DPS }} if required.
+1. [Install Prerequisites](/server/installation/installing-web-server-prerequisites/) for {{ en.DPS }} if required.
 1. Upgrade the {{ en.DPS }} instance with the Update button on the {{ en.DVLSCONSOLE }}
 1. Check if {{ en.DPS }} is back Online in the console.
 1. If the Integrated Security option is enabled, check the new database permissions and update them if required.
 1. Test web page login directly on the server with the Navigate to Website button on the {{ en.DVLSCONSOLE }}
-1. Reset the [{{ en.DPS }} cache](https://helpserver.devolutions.net/webinterface_resetcache.html) and/or IIS reset.
+1. Reset the [{{ en.DPS }} cache](/server/web-interface/administration/security-management/reset-server-cache/) and/or IIS reset.
 1. If required, install the latest {{ en.RDM }} version that belongs to the {{ en.DPS }} version.
 1. Test connectivity from {{ en.RDM }} to the {{ en.DPS }} data source.
 1. Make sure that the encryption keys will be exported and put in a safe place for security measure. These encryption keys are required for disaster recovery

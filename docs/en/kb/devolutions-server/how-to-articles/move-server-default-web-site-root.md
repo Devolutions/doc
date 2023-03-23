@@ -1,7 +1,7 @@
 ---
 title: Move DVLS Web Site at Default Web Site Root
 ---
-The following guide explains how to move the {{ en.DPS }} web application on the root and set it as a web site. We recommend to first have a working {{ en.DPS }} instance according to this guide for [Creating {{ en.DPS }} Instance](https://helpserver.devolutions.net/install_createrdmsinstance.html) We highly recommend to backup your current working installation before modifying any parameters in IIS Manager.
+The following guide explains how to move the {{ en.DPS }} web application on the root and set it as a web site. We recommend to first have a working {{ en.DPS }} instance according to this guide for [Creating {{ en.DPS }} Instance](/server/installation/create-server-instance/) We highly recommend to backup your current working installation before modifying any parameters in IIS Manager.
 
 ## Step-by-step guide
 

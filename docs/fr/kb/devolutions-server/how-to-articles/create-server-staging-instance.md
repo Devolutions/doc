@@ -10,7 +10,7 @@ Les étapes suivantes décrivent comment créer une instance de test hébergée 
 1. Effectuer une sauvegarde complète de la base de données de production. 
 1. Restaurer la base de données sous un nouveau nom. 
 1. [Exporter les clés de chiffrement](/kb/devolutions-server/how-to-articles/manage-encryption-keys/) de l'instance {{ fr.DPS }} de production si cette étape n'a pas déjà été exécuté. 
-1. [Créer une nouvelle instance](https://helpserver.devolutions.net/fr/install_createrdmsinstance.html) dans la console de {{ fr.DPS }}. Nous recommendons de créer l'instance de test à la même version que l'instance de production. 
+1. [Créer une nouvelle instance](/fr/server/installation/create-server-instance/) dans la console de {{ fr.DPS }}. Nous recommendons de créer l'instance de test à la même version que l'instance de production. 
 1. Lors de l'étape concernant la base de données, inscrire les informations en lien avec la copie de base de données créée au point 2. 
 1. Fournir, au moment prévu à cet effet, le fichier des clés de chiffrement exportées au point 3.  
 ![Clés de chiffrement pour base de données existante.png](/img/fr/kb/KB8113.png)

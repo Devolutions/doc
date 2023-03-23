@@ -9,4 +9,4 @@ The following modification on the database advanced parameters could help to pre
 1. The last one is the ***Connection retry count*** as it will repeat each ***Connection timeout*** delay before generating an error. By setting it to 5, the {{ en.DPS }} instance will wait 150 seconds before raising an SQL Timeout.  
 ![KB4157.png](/img/en/kb/KB4157.png)  
 
-For more information about these parameters, please see [Database - Advanced Settings](https://helpserver.devolutions.net/database_advancedsettings.html).
+For more information about these parameters, please see [Database - Advanced Settings](/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-settings/).

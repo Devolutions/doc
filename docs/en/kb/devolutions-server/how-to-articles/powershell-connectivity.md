@@ -9,7 +9,7 @@ This new data source created with PowerShell will only exist in the user context
 {% endsnippet %}  
 
 1. Follow the instruction on this article [{{ en.RDM }} PowerShell Core module](/kb/remote-desktop-manager/knowledge-base/rdm-powershell-core-module/) to properly install the module.
-1. Create a new {{ en.DPS }} data source using an [Application Key and the Application Secret](https://helpserver.devolutions.net/webinterface_applications.html) using the following script. This script should only be used once to avoid creating many new data sources. Please replace the values of the 4 variables with your own information. Then run the script.  
+1. Create a new {{ en.DPS }} data source using an [Application Key and the Application Secret](/server/web-interface/administration/security-management/applications/) using the following script. This script should only be used once to avoid creating many new data sources. Please replace the values of the 4 variables with your own information. Then run the script.  
 
 ```
 $dsname = "DVLS PowerShell"  
@@ -37,7 +37,7 @@ $env:DS_USER = '{your user here}'
 $env:DS_PASSWORD = '{your password here}'  
 ```
 
-3. The following sample script can be used to connect using again an [Application Key and its Application Secret](https://helpserver.devolutions.net/webinterface_applications.html)  
+3. The following sample script can be used to connect using again an [Application Key and its Application Secret](/server/web-interface/administration/security-management/applications/)  
 
 ```
 Import-Module -Name Devolutions.Server -Force  
