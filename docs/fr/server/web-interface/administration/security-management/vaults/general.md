@@ -34,7 +34,7 @@ Autoriser le mode hors-ligne
 		</td>
 		<td>
 		
-Permet d'accéder au coffre en mode hors-ligne avec {{ fr.RDM }} . Veuillez consulter la page sur [Mettre hors-ligne](https://help.remotedesktopmanager.com/fr/datasource_offline.html) pour plus de détails. 
+Permet d'accéder au coffre en mode hors-ligne avec {{ fr.RDM }} . Veuillez consulter la page sur [Mettre hors-ligne](https://helprdm.devolutions.net/fr/datasource_offline.html) pour plus de détails. 
 		</td>
 	</tr>
 </table>

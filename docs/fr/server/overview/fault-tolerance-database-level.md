@@ -11,6 +11,6 @@ En raison des opérations d'écriture effectuées en arrière-plan, la topologie
 
 Puisque la copie principale des données doit rester intacte, ce n'est pas la solution appropriée pour partager des données principales entre des équipes distantes. Il est plutôt recommandé d'utiliser une combinaison des outils suivants :  
 
-* [Synchronisateurs](https://help.remotedesktopmanager.com/entrytype_synchronizer.htm) , particulièrement celui pour les données de {{ fr.RDM }} . 
+* [Synchronisateurs](https://helprdm.devolutions.net/entrytype_synchronizer.htm) , particulièrement celui pour les données de {{ fr.RDM }} . 
 * Scripts PowerShell (pour exporter une branche spécifique de votre arborescence). 
 
