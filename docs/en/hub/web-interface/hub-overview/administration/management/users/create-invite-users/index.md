@@ -4,7 +4,7 @@ title: Create and Invite Users
 Create and invite ***Users*** to your {{ en.PHUB }} Business with their email address.  
 
 {% snippet icon.badgeCaution %} 
-If your {{ en.PHUB }} Business is configured with SSO Authentication Azure AD Office 365 credentials, follow the specific process for inviting ***Users*** in [this topic](HUB_Invite_Users_Groups_SSO) . 
+If your {{ en.PHUB }} Business is configured with SSO Authentication Azure AD Office 365 credentials, follow the specific process for inviting ***Users*** in [this topic](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/ . 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
