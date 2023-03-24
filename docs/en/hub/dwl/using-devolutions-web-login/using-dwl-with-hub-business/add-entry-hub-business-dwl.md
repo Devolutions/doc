@@ -3,7 +3,7 @@ eleventyComputed:
   title: Add a Website Entry in {{ en.PHUB }} Business with {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-This topic explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [this topic](Create_Account_DWL_HUBBusiness) instead. 
+This topic explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/) instead. 
 {% endsnippet %}
  
 Website entries can be created with {{ en.DWL }} in {{ en.HUB }} Business. This type of entry is useful for saving your login credentials so that you do not have to remember them. These entries are also used by {{ en.DWL }} to recognize a website and [retrieve your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/) .  

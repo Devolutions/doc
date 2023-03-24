@@ -8,7 +8,7 @@ You need website entries in {{ en.PHUB }} Business to be able to retrieve their 
  
 {{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.PHUB }} Business website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
 
-After the [installation](/hub/dwl/installation/) of {{ en.DWL }} and its [pairing](DevolutionsWebLogin_ExploringWebLogin_PasswordHub) with {{ en.HUB }} Business, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials) .  
+After the [installation](/hub/dwl/installation/) of {{ en.DWL }} and its [pairing](/hub/dwl/first-login-devolutions-web-login/hub-business/) with {{ en.HUB }} Business, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials) .  
 
 ## Settings  
 
