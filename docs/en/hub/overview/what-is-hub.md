@@ -45,7 +45,7 @@ Data Importer
 	</tr>
 	<tr>
 		<td>
-[{{ en.DWL }}](https://helphub.devolutions.net/devolutionsweblogin_overview.html) is a free browser plugin used in conjunction with &#160; {{ en.PHUB }} , which allows users to securely inject passwords into websites using credentials stored in their vaults. 
+[{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with &#160; {{ en.PHUB }} , which allows users to securely inject passwords into websites using credentials stored in their vaults. 
 		</td>
 		<td>
 The application provides users with a simple method of launching remote sessions from the {{ en.PHUB }} web interface. 

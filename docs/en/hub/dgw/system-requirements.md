@@ -1,7 +1,8 @@
 ---
 title: System Requirements
 ---
-{{ en.DGW }} requires the following: 
+{{ en.DGW }} requires the following:  
+
 ## Requirements 
 
 ### Hardware specifications 

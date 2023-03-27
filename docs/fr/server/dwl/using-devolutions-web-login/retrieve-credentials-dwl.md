@@ -8,7 +8,7 @@ Vous avez besoin d'entrées de site Web dans {{ fr.DPS }} pour pouvoir récupér
  
 {{ fr.DWL }} facilite l'accès à vos identifiants en faisant automatiquement correspondre les sites Web aux identifiants enregistrés dans les entrée de sites Web de {{ fr.DPS }} . Il est également possible de filtrer vos entrées via {{ fr.DWL }} pour trouver manuellement vos identifiants.  
 
-Après l' [installation](https://helpserver.devolutions.net/fr/devolutionsweblogin_installation.html) de {{ fr.DWL }} et son [couplage](/fr/server/dwl/first-login-dwl/) avec {{ fr.DPS }} , vous pouvez immédiatement utiliser l'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d'abord les étapes de la section Paramètres : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la Récupération des identifiants .  
+Après l' [installation](/fr/server/dwl/installation/) de {{ fr.DWL }} et son [couplage](/fr/server/dwl/first-login-dwl/) avec {{ fr.DPS }} , vous pouvez immédiatement utiliser l'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d'abord les étapes de la section Paramètres : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la Récupération des identifiants .  
 
 ## Paramètres 
 

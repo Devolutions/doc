@@ -1,16 +1,9 @@
 ---
-title: Devolutions Launcher
-order: 50
+title: Survol
 ---
+![Devolutions Launcher logo](https://webdevolutions.blob.core.windows.net/images/projects/launcher/logos/launcher-color-shadow.svg)  
 
-
-<table>
-	<tr>
-		<td>
-![DevolutionsLauncher-Icon-Help.png](/img/fr/hub/DevolutionsLauncher-Icon-Help.png) 
-		</td>
-		<td>
 {{ fr.LAUNCHER }} est un outil d&apos;accompagnement pour {{ fr.HUB }} Business. L&apos;application peut lancer plusieurs sessions à distance simultanément, tout en donnant aux administrateurs un meilleur contrôle. 
-		</td>
-	</tr>
-</table>
+
+
+
