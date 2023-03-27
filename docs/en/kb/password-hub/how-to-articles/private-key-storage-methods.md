@@ -1,7 +1,10 @@
 ---
 title: Private Key Storage Methods
 ---
-The method of storing your Private Key depends of whether you have a {{ en.DA }} or not: 
+
+## First Connection to {{ en.HUB }}
+
+When connecting to your {{ en.HUB }} for the first time, a Private Key will be created. The method of storing it depends on whether you already have a {{ en.DA }} or not: 
 * If you already have a {{ en.DA }}, your Private Key will be stored using a password, the same one used to connect to your {{ en.DA }}.
 * If you do not have a {{ en.DA }}, you will be prompted to choose a storage method for your Private Key. After following the steps, your {{ en.DA }} will be created using the selected method.
 
