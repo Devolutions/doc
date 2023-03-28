@@ -4,19 +4,19 @@ title: PowerShell Commands
 This topic is about all authentication commands and handles for PSHubContext. 
 
 {% snippet icon.badgeInfo %} 
-The [PowerShell Module](/hub/powershell-module/overview/) needs to be installed to use these commands. 
+The [{{ en.PS }} Module](/hub/powershell-module/overview/) needs to be installed to use these commands.
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
 Proper permissions are also required to perform some of these commands. Please refer to the [Application Users](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) topic. 
 {% endsnippet %}
  
-PSHubContext is an object that specifies your authentication information. You will need a valid PSHubContext to connect to your {{ en.PHUB }} Business. You can have many PSHubContext connected in your PowerShell session, but only one is used when you use Hub Cmdlet.  
+PSHubContext is an object that specifies your authentication information. You will need a valid PSHubContext to connect to your {{ en.HUB }} Business. You can have many PSHubContext connected in your PowerShell session, but only one is used when you use {{ en.PHUB }} Cmdlet.  
 
-In this object, you have:  
+In this object, you have the following:
 
 * Name: Name of the application user 
-* URL: &#32; {{ en.PHUB }} Business URL 
+* URL: {{ en.HUB }} Business URL 
 * Application secret: Application secret given after the application user creation 
 * Application key: Application key given after the application user creation  
 
@@ -25,7 +25,7 @@ In this object, you have:
 * To check all potential arguments and parameters set for a command: Show-Command &lt;CommandName&gt;  
 {% endsnippet %}
  
-### Connection 
+## Connection 
 
 <table>
 	<tr>
@@ -58,11 +58,11 @@ Connect-HubAccount
 		</td>
 		<td>
 
-If PSHubContext is provided, try to connect to Hub with it.  
+If PSHubContext is provided, tries to connect to {{ en.PHUB }} with it.  
 
 	or  
 
-If PSHubContext is not provided, create a PSHubContext with information received and try to connect to Hub afterward.  
+If PSHubContext is **not** provided, creates a PSHubContext with information received and tries to connect to {{ en.PHUB }} afterward.  
 		</td>
 		<td>
 ```$PSHubContext = [Devolutions.Hub.PowerShell.Entities.PowerShell.PSHubContext]@{ApplicationKey=&quot;24526a88-7f18-4356-95bd-11690f7bc59b;468ce2d5-ea4b-42ff-bc02-d93c71b4e554&quot;; ApplicationSecret=&quot;U4nmdOjqPAcL0GfbvNC2u8e0FCZjhEJFTnn6YHpIZDY=&quot;; Url=&quot;https<area>://&lt;YourPasswordHubUrl&gt;.devolutions.app&quot;} ```  
@@ -87,18 +87,18 @@ Disconnect-HubAccount
 * All  
 		</td>
 		<td>
-If ApplicationKey is provided, disconnect and remove PSHubContext from PowerShell session.  
+If ApplicationKey is provided, disconnects and removes PSHubContext from the PowerShell session.  
 
 or  
 
-If All is provided, disconnect and remove all PSHubContext from PowerShell session.  
+If All is provided, disconnects and removes all PSHubContext from the PowerShell session.  
 		</td>
 		<td>
 		</td>
 	</tr>
 </table>
 
-### Context 
+## Context 
 
 <table>
 	<tr>
@@ -125,9 +125,9 @@ Get-HubContext
 		</td>
 		<td>
 
-If ListAvailable provided, list all PSHubContext set in PowerShell session.  
+If ListAvailable is provided, lists all PSHubContext set the in PowerShell session.  
 
-If ListAvailable not provided, get the current PSHubContext who will be used for all other Hub commands. 
+If ListAvailable is **not** provided, retrieves the current PSHubContext which will be used for all other {{ en.PHUB }} commands. 
 		</td>
 		<td>
 		</td>
@@ -140,7 +140,7 @@ Set-HubContext
 * PSHubContext 
 		</td>
 		<td>
-Set the current PSHubContext to the one provided. 
+Sets the current PSHubContext to the one provided. 
 		</td>
 		<td>
 		</td>
@@ -153,7 +153,7 @@ Select-HubContext
 * ApplicationKey 
 		</td>
 		<td>
-Select another PSHubContext to change the current PSHubContext who will be used for all Hub commands. 
+Selects another PSHubContext to change the current PSHubContext which will be used for all {{ en.PHUB }} commands. 
 		</td>
 		<td>
 		</td>
@@ -173,17 +173,17 @@ Save-HubContext
 	* Password  
 		</td>
 		<td>
-Save the current PSHubContext to a .json file at the path received.  
+Saves the current PSHubContext to a .json file at the received path.
 
-If PSHubContext is provided, save this one to a .sjon file.  
+If PSHubContext is provided, saves it to a .json file.  
 
-If Force is provided, overwrite file if the path already exist.  
+If Force is provided, overwrites the file if the path already exists.  
 
-If SecurePassword is provided, prompt to user to enter a password to encrypt the .json file.  
+If SecurePassword is provided, prompts the user to enter a password to encrypt the .json file.  
 
 or  
 
-If Password provided, encrypt the .json file with the password received. 
+If Password is provided, encrypts the .json file with the received password.
 		</td>
 		<td>
 Save a standard PSHubContext.  
@@ -192,13 +192,13 @@ Save a standard PSHubContext.
 
 If you want to securely save a PSHubContext with a password, you can do it in 2 ways:  
 
-With a password passed by argument.  
+With a password passed by arguments.  
 
 ```Save-HubContext -Path &quot;C:\PATH\TO\YOUR\FILE\file.json&quot; -Password &quot;password&quot;```  
 
 or  
 
-With SecurePassword argument, who will prompt the secure password input.  
+With a SecurePassword argument that will prompt the secure password input.  
 
 ```Save-HubContext -Path &quot;C:\PATH\TO\YOUR\FILE\file.json&quot; -SecurePassword ```  
 
@@ -216,11 +216,11 @@ Import-HubContext
 		</td>
 		<td>
 
-Import a PSHubContext from a .json file at the path received.  
+Imports a PSHubContext from a .json file at the received path.
 
-If SecurePassword is provided, prompt to enter a password to decrypt the .json file.  
+If SecurePassword is provided, prompts the user to enter a password to decrypt the .json file.  
 
-If Password provided, decrypt the .json file with the password received.  
+If Password is provided, decrypts the .json file with the received password.
 		</td>
 		<td>
 
@@ -228,7 +228,7 @@ Import a standard PSHubContext.
 
 ```Import-HubContext -Path &quot;C:\PATH\TO\YOUR\FILE\file.json&quot;```  
 
-If you want to import a file protected by password, you can do it in 2 ways:  
+If you want to import a file protected by a password, you can do it in 2 ways:  
 
 With a password passed by arguments.  
 
@@ -236,7 +236,7 @@ With a password passed by arguments.
 
 or  
 
-With SecurePassword argument, who will prompt the secure password input.  
+With a SecurePassword argument that will prompt the secure password input.  
 
 ```Import-HubContext -Path &quot;C:\PATH\TO\YOUR\FILE\file.json&quot; -SecurePassword ```  
 
@@ -246,9 +246,9 @@ With SecurePassword argument, who will prompt the secure password input.
 	</tr>
 </table>
 
-### System settings 
+## System Settings 
 
-This section is about commands to handle system settings. 
+This section is about commands used to handle system settings. 
 
 <table>
 	<tr>
@@ -273,7 +273,7 @@ Get-HubSystemSettings
 
 		</td>
 		<td>
-Get the psSystemSettings object. 
+Gets the PSSystemSettings object. 
 		</td>
 		<td>
 		</td>
@@ -286,11 +286,11 @@ Set-HubSystemSettings
 * PSSystemSettings 
 		</td>
 		<td>
-Set the system settings provided to Hub. 
+Sets the provided system settings to {{ en.PHUB }}. 
 		</td>
 		<td>
 
-Change some system settings information and save these modifications.  
+Change system settings information and save these modifications.  
 
 ```$psSystemSettings = Get-HubSystemSettings ```  
 
@@ -310,22 +310,22 @@ New-HubSystemVaultPermission
 		<td>
 
 * UserId  
-* Role | SystemVaultPermission  
+* PSVaultRole | SystemVaultPermission  
 
 	or  
 
 * GroupId  
-* Role | SystemVaultPermission  
+* PSVaultRole | SystemVaultPermission  
 		</td>
 		<td>
 
-Add system vault permission provided to system settings. If a user or group already exists , the permission will be overwritten .  
+Adds the provided system vault permission to system settings. If a user or group **already exists**, the permission will be **overwritten**.  
 
-If UserId provided, set a predefined role or set a custom system vault permission to this user.  
+If UserId is provided, sets a predefined role or a custom system vault permission to this user.  
 
 or  
 
-If GroupId provided, set a predefined role or set a custom system vault permission to this group.  
+If GroupId is provided, sets a predefined role or a custom system vault permission to this group.  
 
 		</td>
 		<td>
@@ -348,11 +348,11 @@ Remove-HubSystemVaultPermission
 		</td>
 		<td>
 
-If UserId provided, remove this user system vault permission from system settings.  
+If UserId is provided, removes this user's system vault permission from system settings.  
 
 or  
 
-If GroupId provided, remove this group system vault permission from system settings.  
+If GroupId is provided, removes this group's system vault permission from system settings.  
 		</td>
 		<td>
 		</td>
@@ -371,14 +371,14 @@ Get-HubSystemVaultPermission
 		</td>
 		<td>
 
-If UserId provided, get this user system permission from system settings.  
+If UserId is provided, retrieves this user's system permission from system settings.  
 
 or  
 
-If GroupId provided, get this group system permission from system settings.  
+If GroupId is provided, retrieves this group's system permission from system settings.  
 		</td>
 		<td>
-```Get a systemVaultPermission from a user to create a new systemVaultPermission with the same permissions(values) ```  
+```Get a systemVaultPermission from a user to create a new systemVaultPermission with the same permissions (values). ```  
 
 ```$systemVaultPermissionFromUserA = Get-HubSystemVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 ```  
 
@@ -392,22 +392,22 @@ Set-HubSystemVaultPermission
 		<td>
 
 * UserId  
-* Role | SystemVaultPermission  
+* PSVaultRole | SystemVaultPermissions  
 
 	or  
 
 * GroupId  
-* Role | SystemVaultPermission  
+* PSVaultRole | SystemVaultPermissions  
 		</td>
 		<td>
 
-Set a system vault permission provided.  
+Sets a provided system vault permission.  
 
-If UserId provided, set a predefined role or set a custom system vault permission to this user.  
+If UserId is provided, sets a predefined PSVaultRole or a custom system vault permission to this user.  
 
 or  
 
-If GroupId provided, set a predefined role or set a custom system vault permission to this group.  
+If GroupId is provided, sets a predefined PSVaultRole or a custom system vault permission to this group.  
 		</td>
 		<td>
 ```$systemVaultPermission = Get-HubSystemVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 ```  
@@ -432,13 +432,13 @@ New-HubSystemPermission
 		</td>
 		<td>
 
-Add system permission provided to system settings  
+Adds the provided system permission to system settings  
 
-If UserId provided, set the system permission to this user.  
+If UserId is provided, sets the system permission to this user.  
 
 or  
 
-If GroupId provided, set the system permission to this group.  
+If GroupId is provided, sets the system permission to this group.  
 		</td>
 		<td>
 
@@ -460,11 +460,11 @@ Remove-HubSystemPermission
 		</td>
 		<td>
 
-If UserId provided, remove this user system permission from system settings.  
+If UserId is provided, removes this user's system permission from system settings.  
 
 or  
 
-If GroupId provided, remove this group system permission from system settings.  
+If GroupId is provided, removes this group's system permission from system settings.  
 		</td>
 		<td>
 		</td>
@@ -483,15 +483,15 @@ Get-HubSystemPermission
 		</td>
 		<td>
 
-If UserId provided, get this user system permission from system settings.  
+If UserId is provided, retrieves this user's system permission from system settings.  
 
 or  
 
-If GroupId provided, get this group system permission from system settings.  
+If GroupId is provided, retrieves this group's system permission from system settings.  
 		</td>
 		<td>
 
-Get a systemPermission from a user to create a new systemPermission with the same permissions(values)  
+Get a systemPermission from a user to create a new systemPermission with the same permissions (values).  
 
 ```$systemPermissionFromUserA = Get-HubSystemPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 ```  
 
@@ -514,13 +514,13 @@ Set-HubSystemPermission
 		</td>
 		<td>
 
-Set a system permission provided.  
+Sets a provided system permission.  
 
-If UserId provided, set system permission to this user.  
+If UserId is provided, sets the system permission to this user.  
 
 or  
 
-If GroupId provided, set system permission to this group.  
+If GroupId is provided, sets the system permission to this group.  
 		</td>
 		<td>
 ```$systemPermission = Get-HubSystemPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 ```
@@ -533,9 +533,9 @@ If GroupId provided, set system permission to this group.
 	</tr>
 </table>
 
-### Gateway 
+## {{ en.DGW }}
 
-This section is about commands to handle Devolutions Gateway. 
+This section is about commands to handle {{ en.DGW }}. 
 
 <table>
 	<tr>
@@ -561,7 +561,7 @@ New-HubGateway
 * PsDecryptedGateway 
 		</td>
 		<td>
-Add a new Devolutions Gateway to Hub. 
+Adds a new {{ en.DGW }} to {{ en.PHUB }}. 
 		</td>
 		<td>
 ```$newDevolutionsGateway = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSGatewayMetadata]@{ Name = &apos;Test Gateway From PS&apos; }} ```  
@@ -577,7 +577,7 @@ Remove-HubGateway
 * GatewayId 
 		</td>
 		<td>
-Remove the Devolutions Gateway with the id provided. 
+Removes the {{ en.DGW }} with the provided ID. 
 		</td>
 		<td>
 		</td>
@@ -590,7 +590,7 @@ Set-HubGateway
 * PsDecryptedGateway 
 		</td>
 		<td>
-Set a Devolutions Gateway provided. 
+Sets the provided {{ en.DGW }}. 
 		</td>
 		<td>
 ```$psDecrpytedGateway = Get-HubGateway -GatewayId 4c6fb2dc-f7ba-4089-8bc2-b46b3bdcd1d0 ```  
@@ -608,7 +608,7 @@ Get-HubGateway
 * GatewayId 
 		</td>
 		<td>
-Get the Devolutions Gateway with the id provided. 
+Retrieves the {{ en.DGW }} with the providsed ID. 
 		</td>
 		<td>
 		</td>
@@ -620,7 +620,7 @@ New-HubGatewaySettings
 		<td>
 		</td>
 		<td>
-Create new Devolutions Gateway settings. If there are already settings, they will be overwritten. 
+Creates new {{ en.DGW }} settings. If settings **already exist**, they will be **overwritten**. 
 		</td>
 		<td>
 		</td>
@@ -632,7 +632,7 @@ Set-HubGatewaySettings
 		<td>
 		</td>
 		<td>
-Set the Devolutions Gateway settings provided. 
+Sets the provided {{ en.DGW }} settings. 
 		</td>
 		<td>
 		</td>
@@ -644,14 +644,14 @@ Get-HubGatewaySettings
 		<td>
 		</td>
 		<td>
-Get the Devolutions Gateway settings. 
+Retrieves the {{ en.DGW }} settings. 
 		</td>
 		<td>
 		</td>
 	</tr>
 </table>
 
-### Vault 
+## {{ en.VLT }}s
 
 This section is about commands to handle vaults.  
 
@@ -680,10 +680,10 @@ New-HubVault
 * VaultDescription  
 		</td>
 		<td>
-Add a new vault. 
+Adds a new vault. 
 		</td>
 		<td>
-Have the permission to create vault and put name. 
+Have the permission to create vault and put a name. 
 		</td>
 	</tr>
 	<tr>
@@ -694,7 +694,7 @@ Remove-HubVault
 * VaultId 
 		</td>
 		<td>
-Remove this vault from Hub. 
+Removes this vault from {{ en.PHUB }}. 
 		</td>
 		<td>
 		</td>
@@ -708,9 +708,9 @@ Get-HubVault
 		</td>
 		<td>
 
-If VaultId provided, get the vault by id.  
+If VaultId is provided, retrieves the vault by ID.  
 
-If VaultId not provided, get all vaults you have access.  
+If VaultId is **not** provided, retrieves all vaults you have access to.  
 		</td>
 		<td>
 		</td>
@@ -724,11 +724,11 @@ Set-HubVault
 * PSVault  
 		</td>
 		<td>
-Set vault provided to vault id mentioned. 
+Sets the provided vault to the mentioned vault ID.
 		</td>
 		<td>
 
-Change some information about a vault and save these modifications.  
+Change information about a vault and save these modifications.  
 
 ```$psVault = Get-HubVault -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 ```  
 
@@ -747,20 +747,20 @@ New-HubVaultPermission
 
 * VaultId  
 	* UserId  
-	* Role | VaultPermission  
+	* VaultRoleId | VaultPermission  
 
 		or  
 
 	* GroupId  
-	* Role | VaultPermission  
+	* VaultRoleId | VaultPermission  
 		</td>
 		<td>
 
-Add vault permission provided to a specific vault. If a user or group already exists, the permission will be overwritten.  
+Adds the provided vault permission to a specific vault. If a user or group **already exists**, the permission will be **overwritten**.  
 
-If UserId provided, set a predefined role or set a custom vault permission to this user.  
+If UserId is provided, sets a predefined PSVaultRole or a custom vault permission to this user.  
 
-If GroupId provided, set a predefined role or set a custom vault permission to this group.  
+If GroupId is provided, sets a predefined PSVaultRole or a custom vault permission to this group.  
 		</td>
 		<td>
 
@@ -774,7 +774,7 @@ or
 
 With a predefined role:  
 
-```New-HubVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -Role Operators ```
+```New-HubVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -VaultRoleId fde84e48-4662-493b-9de3-e05c708af060 ```
 		</td>
 	</tr>
 	<tr>
@@ -791,9 +791,9 @@ Remove-HubVaultPermission
 		</td>
 		<td>
 
-If UserId provided, remove this user vault permission from specific vault.  
+If UserId is provided, removes this user's vault permission from the specific vault.  
 
-If GroupId provided, remove this group vault permission from specific vault.  
+If GroupId is provided, removes this group's vault permission from the specific vault.  
 		</td>
 		<td>
 		</td>
@@ -813,13 +813,13 @@ Get-HubVaultPermission
 		</td>
 		<td>
 
-If UserId provided, get this user vault permission from specific vault.  
+If UserId is provided, retrieves this user's vault permission from the specific vault.  
 
-If GroupId provided, get this group vault permission from specific vault.  
+If GroupId is provided, retrieves this group's vault permission from the specific vault.  
 		</td>
 		<td>
 
-Get a vaultPermission from a user to create a new vaultPermission with the same permissions(values).  
+Get a vaultPermission from a user to create a new vaultPermission with the same permissions (values).  
 
 ```$vaultPermissionFromUserA = Get-HubVaultPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 ```  
 
@@ -834,20 +834,20 @@ Set-HubVaultPermission
 
 * VaultId  
 	* UserId  
-	* Role | VaultPermission  
+	* VaultRoleId | VaultPermission  
 
 		or  
 
 	* GroupId  
-	* Role | VaultPermission  
+	* VaultRoleId | VaultPermission  
 		</td>
 		<td>
 
-Set a vault permission provided to a specific vault.  
+Sets a provided vault permission to a specific vault.  
 
-If UserId provided, set a predefined role or set a custom vault permission to this user.  
+If UserId is provided, sets a predefined role or a custom vault permission to this user.  
 
-If GroupId provided, set a predefined role or set a custom vault permission to this group.  
+If GroupId is provided, sets a predefined role or a custom vault permission to this group.  
 		</td>
 		<td>
 
@@ -863,12 +863,32 @@ or
 
 With a predefined role:  
 
-```Set-HubVaultPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -GroupId 339d1c22-c01b-47ff-b812-74e34f23991f -Role Contributors ```
+```$vaultRole = Get-HubVaultRole -RoleId 1dd2321d-ae0d-41d9-bd2a-ec71cce5b13c ```  
+
+```Set-HubVaultPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -GroupId 339d1c22-c01b-47ff-b812-74e34f23991f -PSVaultRole $vaultRole ``` 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Get-HubVaultRole 
+		</td>
+		<td>
+* RoleId
+		</td>
+		<td>
+
+If RoleId is provided, retrieves the vault role by ID.
+
+If RoleId is **not** provided, retrieves all vault roles.
+
+If GroupId is provided, sets a predefined role or a custom vault permission to this group.  
+		</td>
+		<td>
 		</td>
 	</tr>
 </table>
 
-### User 
+## Users 
 
 This section is about commands to handle users. 
 
@@ -899,9 +919,9 @@ New-HubUser
 		</td>
 		<td>
 
-Add a new Devolutions user or invite an existing Devolutions user.  
+Adds a new Devolutions user or invites an existing Devolutions user.  
 
-If IsTemporaryPasswordSendByEmail provided, the temporary password for new Devolutions user will be sent by email, otherwise, the temporary password is returned.  
+If IsTemporaryPasswordSendByEmail is provided, the temporary password for the new Devolutions user will be sent by email. Otherwise, the temporary password is returned.  
 		</td>
 		<td>
 		</td>
@@ -921,13 +941,13 @@ New-HubOrganizationUser
 		</td>
 		<td>
 
-Invite a user from a {{ en.DA }} Organization setted in your Hub.  
+Invites a user from a {{ en.DA }} Organization set in your {{ en.PHUB }}.  
 
-If Email, AllowOfflineInRDM and UserSendMessageConfiguration is provided, a single email will be sent.  
+If Email, AllowOfflineInRDM and UserSendMessageConfiguration are provided. A single email will be sent.  
 
 If PSInvitation is provided, you can manually set more than one email and assign groups.  
 
-This command will only work if your Hub has activated ***Enable SSO with*** ***{{ en.DA }}*** ***Organization*** and selected a valid {{ en.DA }} Organization.  
+This command will only work if ***Enable SSO with {{ en.DA }} Organization*** has been enabled in your {{ en.PHUB }} and a valid {{ en.DA }} Organization has been selected.
 		</td>
 		<td>
 
@@ -946,7 +966,7 @@ Remove-HubUser
 * UserId 
 		</td>
 		<td>
-Remove this user from Hub. 
+Removes this user from {{ en.PHUB }}. 
 		</td>
 		<td>
 		</td>
@@ -959,9 +979,9 @@ Get-HubUser
 * UserId 
 		</td>
 		<td>
-If UserId provided, get the user by id.  
+If UserId is provided, retrieves the user by ID.  
 
-If UserId not provided, get all users.  
+If UserId is **not** provided, retrieves all users.  
 		</td>
 		<td>
 		</td>
@@ -975,7 +995,7 @@ Set-HubUser
 * PSUser 
 		</td>
 		<td>
-Set user provided to user id mentioned. 
+Sets the provided user to the mentioned user ID.
 		</td>
 		<td>
 
@@ -990,7 +1010,7 @@ Disable a user and save.
 	</tr>
 </table>
 
-### Group
+## Groups
 
 This section is about commands to handle groups. 
 
@@ -1019,7 +1039,7 @@ New-HubGroup
 * GroupUserIds  
 		</td>
 		<td>
-Add a new group to Hub with users if provided. 
+Adds a new group to the {{ en.PHUB }} with users, if provided. 
 		</td>
 		<td>
 		</td>
@@ -1032,7 +1052,7 @@ Remove-HubGroup
 * GroupId 
 		</td>
 		<td>
-Remove this group from Hub. 
+Removes this group from the {{ en.PHUB }}. 
 		</td>
 		<td>
 		</td>
@@ -1046,9 +1066,9 @@ Get-HubGroup
 		</td>
 		<td>
 
-If GroupId provided, get the group by id.  
+If GroupId is provided, retrieves the group by ID.  
 
-If GroupId not provided, get all groups.  
+If GroupId is **not** provided, retrieves all groups.  
 		</td>
 		<td>
 		</td>
@@ -1062,11 +1082,11 @@ Set-HubGroup
 * PSGroup  
 		</td>
 		<td>
-Set the group provided to the group id received. 
+Sets the provided group to the received group ID.
 		</td>
 		<td>
 
-Change the name, add a user and save group.  
+Change the name, add a user, and save the group.  
 
 ```$psGroup = Get-HubGroup -GroupId d41b9475-e00a-4f5b-8f25-4d539639dedd ```  
 
@@ -1086,7 +1106,7 @@ Add-HubGroupUser
 * UserIds  
 		</td>
 		<td>
-Add user/users to specific group. 
+Adds one or more users to a specific group. 
 		</td>
 		<td>
 		</td>
@@ -1100,14 +1120,14 @@ Remove-HubGroupUser
 * UserIds  
 		</td>
 		<td>
-Remove user/users to specific group. 
+Removes one or more users from a specific group. 
 		</td>
 		<td>
 		</td>
 	</tr>
 </table>
 
-### Entry 
+## Entries
 
 This section is about commands to handle entries. 
 
@@ -1136,7 +1156,7 @@ New-HubEntry
 * PSDecryptedEntry  
 		</td>
 		<td>
-Add a new entry to Hub with PSDecryptedEntry provided to specific vault. 
+Adds a new entry to a specific {{ en.PHUB }} vault with the provided PSDecryptedEntry entry.
 		</td>
 		<td>
 
@@ -1154,7 +1174,7 @@ Remove-HubEntry
 * EntryId  
 		</td>
 		<td>
-Remove this entry from specific vault. 
+Removes this entry from a specific vault. 
 		</td>
 		<td>
 		</td>
@@ -1168,11 +1188,11 @@ Get-HubEntry
 * EntryId  
 		</td>
 		<td>
-If EntryId provided, get this entry from a specific vault.  
+If EntryId is provided, retrieves this entry from a specific vault.  
 
-If EntryId not provided, get all entries from a specific vault.  
+If EntryId is **not** provided, retrieves all entries from a specific vault.  
 
-Entry(ies) will have passwords sensitive if you have the permission.  
+Entry(ies) will have sensitive passwords if you have the permission.  
 		</td>
 		<td>
 		</td>
@@ -1187,11 +1207,11 @@ Set-HubEntry
 * PSDecryptedEntry  
 		</td>
 		<td>
-Set the PSDecryptedEntry provided to the vault and entry mentioned. 
+Sets the provided PSDecryptedEntry to the mentioned vault and entry.
 		</td>
 		<td>
 
-Change some information about an entry and save these modifications.  
+Change information about an entry and save these modifications.  
 
 ```$decryptedEntry = Get-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1 ```  
 
@@ -1210,22 +1230,22 @@ New-HubEntryPermission
 * VaultId  
 * EntryId  
 	* UserId  
-	* Role | EntryPermission  
+	* PSEntryRole | EntryPermission  
 
 		or 
 
 	* GroupId  
-	* Role | EntryPermission  
+	* PSEntryRole | EntryPermission  
 		</td>
 		<td>
 
-Add entry permission provided to a specific entry. If a user or group already exists , the permission will be overwritten .  
+Adds a provided entry permission to a specific entry. If a user or group **already exists**, the permission will be **overwritten**.  
 
-If UserId provided, set a predefined role or set a custom entry permission to this user.  
+If UserId is provided, sets a predefined role or a custom entry permission to this user.  
 
 or  
 
-If GroupId provided, set a predefined role or set a custom entry permission to this group.  
+If GroupId is provided, sets a predefined role or a custom entry permission to this group.  
 		</td>
 		<td>
 
@@ -1237,7 +1257,9 @@ With a custom entryPermission:
 
 With a predefined role:  
 
-```New-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf73b4ea-c1cd-4f53-9b53-f9277a108c56 -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -Role Opera ```  
+```$entryRole = Get-HubEntryRole -RoleId 851f86f6-fe3b-4325-9b22-08c3b797e10c ```  
+
+```New-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf73b4ea-c1cd-4f53-9b53-f9277a108c56 -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -PSEntryRole $entryRole ``` 
 		</td>
 	</tr>
 	<tr>
@@ -1255,11 +1277,11 @@ Remove-HubEntryPermission
 		</td>
 		<td>
 
-If UserId provided, remove this user entry permission from specific entry.  
+If UserId is provided, removes this user's entry permission from a specific entry.  
 
 or  
 
-If GroupId provided, remove this group entry permission from specific entry.  
+If GroupId is provided, removes this group's entry permission from a specific entry.  
 		</td>
 		<td>
 		</td>
@@ -1279,15 +1301,15 @@ Get-HubEntryPermission
 		</td>
 		<td>
 
-If UserId provided, get this user entry permission from specific entry.  
+If UserId is provided, retrieves this user's entry permission from a specific entry.  
 
 or  
 
-If GroupId provided, get this group entry permission from specific entry.  
+If GroupId is provided, retrieves this group's entry permission from a specific entry.  
 		</td>
 		<td>
 
-Get a entryPermission from a user to create a new entryPermission with the same permissions(values)  
+Get an entryPermission from a user to create a new entryPermission with the same permissions (values).  
 
 ```$entryPermissionFromUserA = Get-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf73b4ea-c1cd-4f53-9b53-f9277a108c56 -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4  ```
 
@@ -1302,22 +1324,22 @@ Set-HubEntryPermission
 * VaultId  
 * EntryId  
 	* UserId  
-	* Role | EntryPermission  
+	*PSEntryRole | EntryPermission  
 
 		or  
 
 	* GroupId  
-	* Role | EntryPermission  
+	* PSEntryRole | EntryPermission  
 		</td>
 		<td>
 
-Set a entry permission provided to a specific entry.  
+Sets a provided entry permission to a specific entry.  
 
-If UserId provided, set a predefined role or set a custom entry permission to this user.  
+If UserId is provided, sets a predefined role or a custom entry permission to this user.  
 
 or  
 
-If GroupId provided, set a predefined role or set a custom entry permission to this group.  
+If GroupId is provided, sets a predefined role or a custom entry permission to this group.  
 		</td>
 		<td>
 
@@ -1331,9 +1353,25 @@ With a custom entryPermission:
 
 With a predefined role:  
 
-```Set-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf73b4ea-c1cd-4f53-9b53-f9277a108c56 -GroupId 339d1c22-c01b-47ff-b812-74e34f23991f -Role Contributors ```
+```$entryRole = Get-HubEntryRole -RoleId 851f86f6-fe3b-4325-9b22-08c3b797e10c ```
+
+```Set-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf73b4ea-c1cd-4f53-9b53-f9277a108c56 -GroupId 339d1c22-c01b-47ff-b812-74e34f23991f -PSEntryRole $entryRole  ```  
 		</td>
 	</tr>
+	<tr>
+		<td>
+Get-HubEntryRole 
+		</td>
+		<td>
+* RoleId  
+		</td>
+		<td>
+
+If RoleID is provided, retrieves the entry role by ID.
+
+If RoleID is **not** provided, retrieves all entry roles.
+		</td>
+		<td>
+		</td>
+	</tr>	
 </table>
-
-
