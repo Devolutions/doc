@@ -13,7 +13,7 @@ Dans tous les onglets, à l'exception de l'onglet ***Générateur de mots de pas
 
 L'extension s'ouvre sur l'onglet ***Correspondant*** . C'est là que vous verrez la liste des identifiants disponibles pour le site Web particulier sur lequel vous vous trouvez. 
 {% snippet icon.badgeInfo %} 
-Pour connaître les méthodes de récupération de vos identifiants, consultez [cette rubrique](Retrieve_Credentials_Business) . 
+Pour connaître les méthodes de récupération de vos identifiants, consultez [cette rubrique](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/) . 
 {% endsnippet %}
  
 ![Onglet Correspondant](/img/fr/hub/Hub2074.png)  
@@ -21,7 +21,7 @@ En haut, vous pouvez utiliser la barre de ***Recherche*** pour filtrer tous vos 
 
 En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.PHUB }} Business par le biais de l'extension {{ fr.DWL }} . 
 {% snippet icon.badgeInfo %} 
-Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web*** , consultez [cette rubrique](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/) . Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](Add_Entry_HUBBusiness_with_DWL) . 
+Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web*** , consultez [cette rubrique](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/) . Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) . 
 {% endsnippet %}
  
 ### Onglet Coffres 
@@ -59,7 +59,7 @@ Dans la section déroulante ***Général*** , vous pouvez sélectionner les type
 Dans la section déroulante ***Avancé*** , vous êtes en mesure de personnaliser davantage votre mot de passe en saisissant les caractères que vous souhaitez inclure dans votre mot de passe, suivis du nombre minimum de fois où ils doivent apparaître. Dans le second champ, vous pouvez également saisir les caractères que vous voulez exclure de votre mot de passe.  
 ![Section Avancé](/img/fr/hub/Hub2079.png)  
 {% snippet icon.badgeInfo %} 
-Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [cette rubrique](Create_Account_DWL_HUBBusiness) . 
+Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [cette rubrique](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/) . 
 {% endsnippet %}
  
 ### Fonctionnalités des entrées 
