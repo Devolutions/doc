@@ -4,9 +4,15 @@ title: Configure an SMTP Email
 Configure a basic SMTP email in {{ en.DVLS }} by following the steps below:
 1. In {{ en.DVLS }}, go to ***Administration – Server Settings – Email***.
 1. In the ***Authentication type*** drop-down list, select ***Basic***.
+![Basic Authentication type](/img/en/kb/KB2185.png)
+*Basic Authentication type*{.caption}
+3. In the ***Administrator Email*** field, enter the recipient email address that will receive the errors.
+1. Enter/select all necessary information under the ***SMTP Configuration*** section. See the table in the next section for information on each field/setting.
+1. Once the information has been provided, test your email settings with the ***Test Email*** button. 
+1. If successful, ***Save*** your configuration using the icon at the top right.  
 
-1. Enter the email in the ***Administrator Email*** field.
-1. Enter/select all necessary information under the SMTP Configuration section. See the table below for information on each field/setting.  
+## SMTP Configuration  
+
 <table>
 	<tr>
 		<th>
@@ -21,7 +27,7 @@ Description
 Host 
 		</td>
 		<td>
-Name or IP address of the SMTP server. 
+Enter the name or IP address of the SMTP server. 
 		</td>
 	</tr>
 	<tr>
@@ -29,7 +35,7 @@ Name or IP address of the SMTP server.
 Port 
 		</td>
 		<td>
-SMTP server port 
+Select the SMTP server port. 
 		</td>
 	</tr>
 	<tr>
@@ -37,7 +43,7 @@ SMTP server port
 Username 
 		</td>
 		<td>
-Enter your username to connect to your SMTP server. 
+Enter the username used to connect to your SMTP server. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +51,7 @@ Enter your username to connect to your SMTP server.
 Password 
 		</td>
 		<td>
-Enter your password to connect to your SMTP server. 
+Enter the password used to connect to your SMTP server. 
 		</td>
 	</tr>
 	<tr>
@@ -55,9 +61,10 @@ Connection security
 		<td>
 Set a specific security for the connection to the mail server.  
 
-Choose between :  
+Choose between the following:  
 
 * No encryption 
+* Automatic based on port number (by default)
 * Use SSL or TLS immediately (SMTPS) 
 * Use TLS immediately after initial connect 
 * Use TLS if server supports it after initial connect 
@@ -68,23 +75,7 @@ Choose between :
 Send email as 
 		</td>
 		<td>
-Sender email address. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Email administrator 
-		</td>
-		<td>
-Recipient email address that will receive the errors. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Test Email 
-		</td>
-		<td>
-Test your email settings. 
+Enter the sender's email address. 
 		</td>
 	</tr>
 </table>
