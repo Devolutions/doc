@@ -1,10 +1,14 @@
 ---
 eleventyComputed:
-  title: Version Schema Compatibility for RDM and {{ en.DPS }}
+  title: Version Schema Compatibility for {{ en.RDM }} and {{ en.DPS }}
 keywords:
 - Schema
 ---
 Here is a schema compatibility board explaining which version of {{ en.RDM }} should be used with {{ en.DPS }} and other database.  
+
+{% snippet icon.badgeCaution %}
+The first two version numbers must match (202X.X) for {{ en.RDM }} and {{ en.DPS }} to work together properly.
+{% endsnippet %}
 
 ### {{ en.DPS }}
 <table>
