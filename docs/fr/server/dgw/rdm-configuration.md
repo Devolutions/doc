@@ -7,7 +7,7 @@ Les instructions suivantes expliquent comment utiliser {{ fr.DGW }} dans une ses
 
 1. Sélectionner une session RDP et ouvrez sa boîte de dialogue ***Propriétés***. 
 1. Aller dans ***Connexion*** – ***VPN/SSH/Passerelle*** – ***VPN/SSH/Passerelle*** – ***Général***.
-1. Dans la section ***Général***, définisser l'option ***Type*** sur {{ fr.DGW }} . 
+1. Dans la section ***Général***, définisser l'option ***Type*** sur {{ fr.DGW }}. 
 ![{{ fr.DGW }}](/img/fr/server/DGW0008.png) 
 *{{ fr.DGW }}*{.caption} 
 1. Dans la même section, définisser l'option ***Se connecter*** sur ***Toujours connecté***. 

@@ -1,17 +1,17 @@
 ---
 eleventyComputed:
-  title: Enable Recording Server Log4Net Log
+  title: Enable Recording Server Log
 keywords:
 - Log
 - Log4Net
 - Logging
 - Logs
 ---
-The following procedure describe how to enable the Log4Net logging utility for the Devolutions Server Recording Server.  
+The following procedure describe how to enable the logging utility for the Devolutions Server Recording Server.  
 
 ## Steps
 
-1. Edit the log4net.config file located of the Collector and Processor application installation folders. Click on the Explore button of the Recording Server section of the Companions tab on the Devolutions Server Console.  
+1. Edit the log4net.config file located of the Collector and Processor application installation folders. Click on the Explore button of the Recording Server section of the Companions tab on the Devolutions Server Console. 
 
 ![KB8120.png](/img/en/kb/KB8120.png)
 
