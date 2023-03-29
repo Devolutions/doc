@@ -1,17 +1,20 @@
 ---
 title: Configure an SMTP Email
 ---
-Configure a basic SMTP email in {{ en.DVLS }} by following the steps below:
+Configure a basic SMTP email in {{ en.DVLS }} by following the steps below.
+
+## Steps
+
 1. In {{ en.DVLS }}, go to ***Administration – Server Settings – Email***.
 1. In the ***Authentication type*** drop-down list, select ***Basic***.
 ![Basic Authentication type](/img/en/kb/KB2185.png)
 *Basic Authentication type*{.caption}
 3. In the ***Administrator Email*** field, enter the recipient email address that will receive the errors.
-1. Enter/select all necessary information under the ***SMTP Configuration*** section. See the table in the next section for information on each field/setting.
+1. Enter/select all necessary information under the ***SMTP Configuration*** section. See the table in the <a href="#smtp-configuration">next section</a> for information on each field/setting.
 1. Once the information has been provided, test your email settings with the ***Test Email*** button. 
 1. If successful, ***Save*** your configuration using the icon at the top right.  
 
-## SMTP Configuration  
+## SMTP Configuration Settings
 
 <table>
 	<tr>
