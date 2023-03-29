@@ -1,38 +1,28 @@
 ---
 title: Courriel
 ---
-Les ***Courriels*** sont envoyés par notre moteur de notification et par certains de nos fournisseurs d'authentification à 2 facteurs.  
-![Administration - Paramètres de {{ fr.DVLS }} - Courriel](/img/fr/server/ServerOp8013.png) 
+Les courriels sont envoyés par notre moteur de notification et par certains de nos fournisseurs d'authentification multifacteur pour la messagerie sécurisée interne.
 
-## Paramètres 
+Dans la section ***Géréral***, vous pouvez choisir un ***Type d'authentification*** entre ***Basique*** et ***Azure***. Vous pouvez également fournir le ***Courriel de l'administrateur*** qui est l'adresse courriel du destinaitaire qui recevra les erreurs.
 
-### Général 
+![Administration – Paramètres Serveur – Courriel](/img/fr/server/ServerOp8013.png) 
+*Administration – Paramètres Serveur – Courriel*{.caption}
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Messagerie activée 
-		</td>
-		<td>
-Activer la fonction courriel. 
-		</td>
-	</tr>
-</table>
+Après avoir sélectionné le ***Type d'authentification***, vous aurez accès à davantage de champs à remplir. L'information à fournir dépend du type d'authentification.
 
-### Configuration SMTP 
+## Configuration SMTP basique
+
+![Type d'authentification basique](/img/fr/server/ServerOp2044.png)
+*Type d'authentification basique*{.caption}  
+
+{% snippet icon.badgeHelp %}
+Visitez notre rubrique [Configurer un courriel SMTP](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email), qui est spécifique au ***Type d'authentification basique***, pour obtenir les étapes de la configuration d'un SMTP dans {{ fr.DVLS}}.
+{% endsnippet %}  
 
 <table>
 	<tr>
 		<th>
-Option 
+Champ/Paramètre 
 		</th>
 		<th>
 Description 
@@ -51,16 +41,7 @@ Nom ou adresse IP du serveur SMTP.
 Port 
 		</td>
 		<td>
-Définir le port du serveur SMTP. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-SSL activé 
-		</td>
-		<td>
-
-Spécifie s'il faut utiliser Secure Sockets Layer (SSL) pour crypter la connexion. Veuillez consulter la [Note 1](#note-1) pour des informations importantes. 
+Port du serveur SMTP. 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +49,7 @@ Spécifie s'il faut utiliser Secure Sockets Layer (SSL) pour crypter la connexio
 Nom d'utilisateur 
 		</td>
 		<td>
-Entrer votre nom d'utilisateur pour vous connecter à votre serveur SMTP. 
+Nom d'utilisateur utilisé pour la connexion au serveur SMTP. 
 		</td>
 	</tr>
 	<tr>
@@ -76,7 +57,20 @@ Entrer votre nom d'utilisateur pour vous connecter à votre serveur SMTP.
 Mot de passe 
 		</td>
 		<td>
-Entrer votre mot de passe pour vous connecter à votre serveur SMTP. 
+Mot de passe utilisé pour la connexion au serveur SMTP. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Sécurité des connexions 
+		</td>
+		<td>
+Sécurité spécifique pour la connexion au serveur de messagerie.  
+* Aucun chiffrement 
+* Automatique selon le numéro de port (par défaut)
+* Utiliser SSL ou TLS immédiatement (SMTPS) 
+* Utiliser TSL immédiatement dès la connexion initiale 
+* Utiliser TLS si pris en charge par le serveur dès la connexion initiale 
 		</td>
 	</tr>
 	<tr>
@@ -87,27 +81,56 @@ Envoyer un courriel en tant que
 Adresse courriel de l'expéditeur. 
 		</td>
 	</tr>
+</table>
+
+## Configuration SMTP avec Azure
+
+![Type d'authentification Azure](/img/fr/server/ServerOp2045.png)
+*Type d'authentification Azure*{.caption}  
+
+{% snippet icon.badgeHelp %}
+Visitez notre rubrique [Configurer un courriel SMTP avec Azure](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email-azure), qui est spécifique au ***Type d'authentification Azure***, pour obtenir les étapes de la configuration d'un SMTP avec Azure dans {{ fr.DVLS}}.
+{% endsnippet %}  
+
+<table>
+	<tr>
+		<th>
+Champ/Paramètre 
+		</th>
+		<th>
+Description 
+		</th>
+	</tr>
 	<tr>
 		<td>
-Administrateur de messagerie 
+ID du client 
 		</td>
 		<td>
-Adresse courriel du destinataire qui recevra les erreurs. 
+ID de l'application Azure.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Tester courriel 
+ID locataire 
 		</td>
 		<td>
-Tester vos paramètres de messagerie. 
+ID du locataire Azure.
+		</td>
+	</tr>
+	<tr>
+		<td>
+ID de l'utilisateur 
+		</td>
+		<td>
+ID de l'utilisateur figurant dans la section "De" du courriel.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Valeur secrète 
+		</td>
+		<td>
+Secret client Azure.
 		</td>
 	</tr>
 </table>
-
-## Note 1 
-
-{{ fr.RDMS }} prend uniquement en charge le SMTP Service Extension for Secure SMTP over Transport Layer Security tel que défini dans RFC 3207. Dans ce mode, la session SMTP commence sur un canal non chiffré, puis une commande STARTTLS est émise par le client vers le serveur pour basculer vers une communication sécurisée utilisant SSL.  
-
-Une autre méthode de connexion consiste à établir une session SSL avant l'envoi de toute commande de protocole. Cette méthode de connexion est parfois appelée SMTP/SSL, SMTP sur SSL ou SMTPS et utilise par défaut le port 465. Cette autre méthode de connexion utilisant SSL n'est actuellement pas prise en charge . 
-

@@ -1,16 +1,16 @@
 ---
 title: Email
 ---
-Emails are sent by some features, like the notification engine, by some of our multifactor authentication providers for internal secure messaging. 
+Emails are sent by our notification engine and by some of our multi-factor authentication providers for internal secure messaging. 
 
-In the ***General*** section, you are able to choose an ***Authentication type*** between a ***Basic*** and a ***Azure*** SMTP configuration. You can also provide the ***Administrator Email***, which is the recipient email address that will receive the errors.
+In the ***General*** section, you are able to choose an ***Authentication type*** between ***Basic*** and ***Azure***. You can also provide the ***Administrator Email***, which is the recipient email address that will receive the errors.
 
 ![Administration – Server Settings – Email](/img/en/server/ServerOp8169.png)
 *Administration – Server Settings – Email*{.caption}
 
 After having selected the ***Authentication type***, you will get access to other fields to fill in. The information to provide depends on the authentication type.
 
-### Basic SMTP Configuration
+## Basic SMTP Configuration
 
 {% snippet icon.badgeHelp %}
 See our [Configure an SMTP Email](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email) topic, which is specific to the ***Basic Authentication type***, for steps on how to configure an SMTP in {{ en.DVLS }}.
@@ -106,7 +106,7 @@ Description
 Client ID 
 		</td>
 		<td>
- Azure application registration ID.
+ Azure application ID.
 		</td>
 	</tr>
 	<tr>
