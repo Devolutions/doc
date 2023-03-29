@@ -65,7 +65,8 @@ Mot de passe utilisé pour la connexion au serveur SMTP.
 Sécurité des connexions 
 		</td>
 		<td>
-Sécurité spécifique pour la connexion au serveur de messagerie.  
+Sécurité spécifique pour la connexion au serveur de messagerie.
+
 * Aucun chiffrement 
 * Automatique selon le numéro de port (par défaut)
 * Utiliser SSL ou TLS immédiatement (SMTPS) 

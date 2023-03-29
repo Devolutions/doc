@@ -66,6 +66,7 @@ Connection security
 		</td>
 		<td>
 Specific security for the connection to the mail server.  
+
 * No encryption 
 * Automatic based on port number (by default)
 * Use SSL or TLS immediately (SMTPS) 
