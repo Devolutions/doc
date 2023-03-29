@@ -18,14 +18,14 @@ Consultez ces différentes rubriques pour en apprendre sur les fonctionnalités 
 
 * {{ fr.PHUB }} Business :  
 
-    * [Créer un compte de site Web](Create_Account_DWL_HUBBusiness)  
-    * [Ajouter une entrée de site Web](Add_Entry_HUBBusiness_with_DWL)  
-    * [Récupérer des identifiants](Retrieve_Credentials_Business)  
+    * [Créer un compte de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/)  
+    * [Ajouter une entrée de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/)  
+    * [Récupérer des identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/)  
 * {{ fr.PHUB }} Personal :  
 
-    * [Créer un compte de site Web](Create_Account_DWL_HUBPersonal)  
-    * [Ajouter une entrée](Add_Entry_HUBPersonal_with_DWL)  
-    * [Récupérer des identifiants](Retrieve_Credentials_Personal)  
+    * [Créer un compte de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/)  
+    * [Ajouter une entrée](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/)  
+    * [Récupérer des identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/)  
 * [Raccourcis clavier](/fr/hub/dwl/settings/keyboard-shortcuts/) 
 
 

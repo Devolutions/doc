@@ -603,7 +603,7 @@ Annuler la création de la nouvelle entrée de site Web et effacer toutes les mo
 </table>
 
 {% snippet icon.badgeInfo %} 
-Vous pouvez suivre notre guide étape par étape expliquant [comment ajouter une entrée de site Web](Add_Entry_HUBBusiness_with_DWL) dans {{ fr.PHUB }} Business avec {{ fr.DWL }} . 
+Vous pouvez suivre notre guide étape par étape expliquant [comment ajouter une entrée de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) dans {{ fr.PHUB }} Business avec {{ fr.DWL }} . 
 {% endsnippet %}
  
 
