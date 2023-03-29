@@ -24,8 +24,8 @@ Par défaut, un ***Utilisateur d'application*** nouvellement créé n'a aucune p
 
 En fonction des actions que cet utilisateur d'application doit effectuer, vous devez lui attribuer les droits appropriés :  
 
-* [Assigner des permissions de système à l'utilisateur d'application](WebInterface_Administration_DataSource_DataSourcePermissions) 
-* [Assigner des permissions de coffre à l'utilisateur d'application](Web_Interface_Administration_Vaults_Roles_Permissions)  
+* [Assigner des permissions de système à l'utilisateur d'application](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/) 
+* [Assigner des permissions de coffre à l'utilisateur d'application](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/)  
 
-Lorsque les permissions ont été attribuées, vous êtes prêt à accéder à {{ fr.PHUB }} avec le [module Hub PowerShell](Hub_Hub_PowerShell_Module) et votre utilisateur d'application. 
+Lorsque les permissions ont été attribuées, vous êtes prêt à accéder à {{ fr.PHUB }} avec le [module Hub PowerShell](/fr/hub/powershell-module/) et votre utilisateur d'application. 
 

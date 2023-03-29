@@ -21,7 +21,7 @@ Il est également possible de régler le ***Temps d&apos;inactivité avant la d�
 Dans la section ***Authentification unique (SSO)*** , vous pouvez ***Configurer l&apos;authentification unique (SSO)*** pour vos utilisateur de {{ fr.PHUB }} . Ils pourront alors se connecter à votre {{ fr.PHUB }} en utilisant leurs identifiants Azure AD en plus de pouvoir le faire avec leurs identifiants {{ fr.DA }} .  
 ![Administration – Authentification – Authentification unique (SSO)](/img/fr/hub/Hub2158.png) 
 {% snippet icon.badgeHelp %} 
-Lors de la configuration du SSO, vous devrez remplir certains champs de la page ***Configurer l&apos;authentification unique (SSO)*** . Consultez notre rubrique [Introduction à SSO avec {{ fr.PHUB }} Business](Hub_Get_Started_SSO) pour plus d'informations. 
+Lors de la configuration du SSO, vous devrez remplir certains champs de la page ***Configurer l&apos;authentification unique (SSO)*** . Consultez notre rubrique [Introduction à SSO avec {{ fr.PHUB }} Business](/fr/hub/getting-started/get-started-sso-hub-business/) pour plus d'informations. 
 {% endsnippet %}
  
 ![Configurer l'authentification unique (SSO)](/img/fr/hub/Hub2159.png) 
@@ -47,7 +47,7 @@ L&apos; [authentification unique](#authentification-unique-sso) doit d&apos;abor
 Après avoir activé le SSO, vous pouvez générer un ***jeton SCIM*** . Vous pouvez toujours supprimer ce jeton et en régénérer un nouveau.  
 ![Générer le jeton SCIM](/img/fr/hub/Hub2162.png) 
 
-Vous aurez alors accès à l&apos; ***URL locataire*** en plus du jeton pour [configurer le provisionnement dans Azure](HUB_Connect_AzureAD_Office365_Authentification) .  
+Vous aurez alors accès à l&apos; ***URL locataire*** en plus du jeton pour [configurer le provisionnement dans Azure](/fr/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/) .  
 ![URL locataire et jeton SCIM](/img/fr/hub/Hub2163.png) 
 
 Lorsque tout a été configuré, vous pouvez ***Activer la synchronisation*** des utilisateurs et des groupes de votre {{ fr.PHUB }} &#32; avec ceux d&apos;Azure AD.  

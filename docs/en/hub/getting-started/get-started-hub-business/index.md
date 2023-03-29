@@ -58,7 +58,6 @@ With this video, we will demonstrate how to add ***Users*** to your {{ en.PHUB }
 Step 3 - Filling ***Vaults*** with content  
 
 * [Create Entries Manually](/hub/web-interface/hub-overview/entries/create-entries-manually/) 
-* [Create Entries with DWL](/hub/dwl/using-devolutions-web-login/) 
 * [Import Entries with Hub Importer](/hub/web-interface/hub-overview/tools/hub-importer/) 
 		</td>
 		<td>

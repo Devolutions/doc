@@ -4,7 +4,7 @@ title: Mot de passe temporaire
 Un ***Mot de passe temporaire*** est créé automatiquement pour les nouveaux utilisateurs qui sont invités dans {{ fr.PHUB }} Business et qui n'ont pas de {{ fr.DA }} .  
 
 {% snippet icon.badgeNotice %} 
-Vous pouvez prédéfinir leur paramètre dans ***Administration - Paramètres du système - Général*** . Pour avoir un aperçu sur le sujet, consulter cette rubrique: [Général](Hub_Administration_System_Settings_General) . 
+Vous pouvez prédéfinir leur paramètre dans ***Administration - Paramètres du système - Général*** . Pour avoir un aperçu sur le sujet, consulter cette rubrique: [Général](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-settings/general/) . 
 {% endsnippet %}
  
 * [Invité avec un {{ fr.DA }} existant](#invité-avec-un--frda--existant) 

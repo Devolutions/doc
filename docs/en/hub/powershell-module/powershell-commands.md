@@ -378,7 +378,7 @@ or
 If GroupId is provided, retrieves this group's system permission from system settings.  
 		</td>
 		<td>
-```Get a systemVaultPermission from a user to create a new systemVaultPermission with the same permissions (values). ```  
+Get a systemVaultPermission from a user to create a new systemVaultPermission with the same permissions (values).  
 
 ```$systemVaultPermissionFromUserA = Get-HubSystemVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 ```  
 
@@ -880,8 +880,6 @@ Get-HubVaultRole
 If RoleId is provided, retrieves the vault role by ID.
 
 If RoleId is **not** provided, retrieves all vault roles.
-
-If GroupId is provided, sets a predefined role or a custom vault permission to this group.  
 		</td>
 		<td>
 		</td>
@@ -1259,7 +1257,7 @@ With a predefined role:
 
 ```$entryRole = Get-HubEntryRole -RoleId 851f86f6-fe3b-4325-9b22-08c3b797e10c ```  
 
-```New-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf73b4ea-c1cd-4f53-9b53-f9277a108c56 -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -PSEntryRole $entryRole ``` 
+```New-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf73b4ea-c1cd-4f53-9b53-f9277a108c56 -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -PSEntryRole $entryRole ```  
 		</td>
 	</tr>
 	<tr>

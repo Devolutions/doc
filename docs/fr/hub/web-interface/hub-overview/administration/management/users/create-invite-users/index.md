@@ -3,7 +3,7 @@ title: Créer et inviter des utilisateurs
 ---
 Créer et inviter des ***Utilisateurs*** dans votre {{ fr.PHUB }} Business avec leur adresse courriel. 
 {% snippet icon.badgeCaution %} 
-Si votre {{ fr.PHUB }} Business est configurée avec les identifiants d&apos;authentification SSO d&apos;Azure AD Office 365, suivre le processus spécifique pour inviter des utilisateurs avec cette rubrique: [Inviter des utilisateurs pour SSO](HUB_Invite_Users_Groups_SSO) . 
+Si votre {{ fr.PHUB }} Business est configurée avec les identifiants d&apos;authentification SSO d&apos;Azure AD Office 365, suivre le processus spécifique pour inviter des utilisateurs avec cette rubrique: [Inviter des utilisateurs pour SSO](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) . 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
