@@ -35,7 +35,7 @@ Processeur à 16 cœurs
 Adaptateur réseau (1 Go) 
 		</td>
 		<td>
-** Nous recommandons de déployer plusieurs instances de {{ fr.DGW }} dans une [Topologie de type équilibrage de charge](/fr/server/overview/topologies/#topologie-de-type-équilibrage-de-charge) . 
+** Nous recommandons de déployer plusieurs instances de {{ fr.DGW }}. 
 		</td>
 	</tr>
 </table>
