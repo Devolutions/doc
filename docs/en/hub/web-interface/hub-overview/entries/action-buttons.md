@@ -2,11 +2,12 @@
 title: Action Buttons
 ---
 The display of ***Action Buttons*** for entries will vary depending on the type of entry selected and your {{ en.HUB }} settings.  
+![Entry Action Buttons](/img/en/hub/Hub2076.png)
 
 <table>
 	<tr>
 		<th>
-Icon
+Icon 
 		</th>
 		<th>
 Option 

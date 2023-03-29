@@ -1385,7 +1385,7 @@ Annuler la création de la nouvelle entrée de site Web et effacer toutes les mo
 </table>
 
 {% snippet icon.badgeInfo %} 
-Vous pouvez suivre notre guide étape par étape expliquant [comment ajouter une entrée](Add_Entry_HUBPersonal_with_DWL) dans {{ fr.PHUB }} Personal avec {{ fr.DWL }} . 
+Vous pouvez suivre notre guide étape par étape expliquant [comment ajouter une entrée](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/) dans {{ fr.PHUB }} Personal avec {{ fr.DWL }} . 
 {% endsnippet %}
  
 
