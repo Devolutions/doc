@@ -1,7 +1,7 @@
 ---
 title: Hub Business Configuration
 ---
-{{ en.DGW }} allows for just-in-time connections at the session level, eliminating the need to change the system&apos;s global configuration. {{ en.DGW }} provides a flexible and secure alternative to VPNs, allowing for easy access management and efficient use of network resources.  
+{{ en.DGW }} allows for just-in-time connections at the session level, eliminating the need to change the system 's global configuration. {{ en.DGW }} provides a flexible and secure alternative to VPNs, allowing for easy access management and efficient use of network resources.  
 
 Click on one of the browser links below to read more about the different installation methods:  
 

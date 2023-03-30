@@ -13,7 +13,7 @@ Click the ***Preview*** or ***Split vertically*** buttons to review the format o
 
 There are two ways to create manual headings with Markdown.  
 
-The first and second levels can be created by &quot;underlying&quot; the text with equal signs (=) and hyphens (-).  
+The first and second levels can be created by “underlying“ the text with equal signs (=) and hyphens (-).  
 
 First level headings  
 

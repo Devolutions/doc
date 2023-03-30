@@ -3,7 +3,7 @@ title: Créer et gérer des coffres
 keywords:
 - rôle
 ---
-Les ***Coffres*** permettent de partager des entrées avec des utilisateurs et des groupes d&apos;utilisateurs de votre organisation dans {{ fr.PHUB }} Business.  
+Les ***Coffres*** permettent de partager des entrées avec des utilisateurs et des groupes d 'utilisateurs de votre organisation dans {{ fr.PHUB }} Business.  
 
 * [Créer un coffre](#créer-un-coffre)  
 * [Ajouter des permissions à un coffre](#ajouter-des-permissions-à-un-coffre)  
@@ -12,10 +12,10 @@ Les ***Coffres*** permettent de partager des entrées avec des utilisateurs et d
 ### Créer un coffre 
 
 1. Aller dans ***Administration - Coffres*** . 
-1. Cliquer sur ***Ajouter*** en haut à droite de l&apos;écran.  
+1. Cliquer sur ***Ajouter*** en haut à droite de l 'écran.  
 ![Hub4139.png](/img/fr/hub/Hub4139.png) 
 1. Nommer le coffre. 
-    1. Facultatif: rédiger une courte ***Description*** de l&apos;utilité de ce coffre.  
+    1. Facultatif: rédiger une courte ***Description*** de l 'utilité de ce coffre.  
     ![Hub4140.png](/img/fr/hub/Hub4140.png) 
 1. Cliquer ***Ajouter*** pour enregistrer. 
 
@@ -23,7 +23,7 @@ Les ***Coffres*** permettent de partager des entrées avec des utilisateurs et d
 
 1. Aller dans ***Administration - Coffres*** . 
 1. Cliquer sur le crayon ***Modifier*** à côté du coffre. 
-1. Dans la section de l&apos;onglet ***Modifier*** , cliquer sur le menu déroulant à côté de chaque ***Permissions*** prédéfinie pour attribuer des utilisateurs et des groupes d&apos;utilisateurs ou sélectionner et configurer un rôle personnalisé pour votre organisation. 
+1. Dans la section de l 'onglet ***Modifier*** , cliquer sur le menu déroulant à côté de chaque ***Permissions*** prédéfinie pour attribuer des utilisateurs et des groupes d 'utilisateurs ou sélectionner et configurer un rôle personnalisé pour votre organisation. 
 {% snippet icon.badgeNotice %} 
 Cliquez sur le bouton ***Afficher la définition des rôles*** pour choisir dans la liste. Vous pouvez également consulter notre rubrique [Rôles et permissions](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/) . 
 {% endsnippet %}

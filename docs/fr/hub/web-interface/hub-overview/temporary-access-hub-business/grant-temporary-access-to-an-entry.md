@@ -3,7 +3,7 @@ eleventyComputed:
   title: Accorder un accès temporaire à une entrée dans {{ fr.PHUB }} Business
 ---
 {% snippet icon.badgeInfo %} 
-La fonction d' ***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.PHUB }} Business. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.PHUB }} Business. Visitez [cette rubrique](https://help.remotedesktopmanager.com/fr/grant_temporary_access_to_an_entry.html) pour en savoir plus. 
+La fonction d' ***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.PHUB }} Business. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.PHUB }} Business. Visitez [cette rubrique](https://helprdm.devolutions.net/fr/grant_temporary_access_to_an_entry.html) pour en savoir plus. 
 {% endsnippet %}
  
 La fonction d' ***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'autorisateur doit ensuite approuver ou refuser la demande.  

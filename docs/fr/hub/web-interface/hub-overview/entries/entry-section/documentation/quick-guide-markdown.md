@@ -6,7 +6,7 @@ Le Markdown est un langage de balisage léger utilisé pour la ***Documentation*
 Pour votre commodité, nous avons ajouté des boutons de formatage avec des polices, des styles et des insertions. Pour les utiliser, cliquer sur un bouton de formatage et insérer vos données.  
 ![Hub4193.png](/img/fr/hub/Hub4193.png) 
 {% snippet icon.badgeNotice %} 
-Cliquer sur les boutons ***Aperçu*** ou ***Fractionner verticalement*** pour revoir l&apos;apparence du document. 
+Cliquer sur les boutons ***Aperçu*** ou ***Fractionner verticalement*** pour revoir l 'apparence du document. 
 {% endsnippet %}
  
 ### En-têtes manuels en markdown 

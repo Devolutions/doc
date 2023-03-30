@@ -82,7 +82,7 @@ Il est suggéré d'inclure soit « Devolutions » ou « {{ fr.PHUB }} » dans 
 
 **Dans le Portail Azure AD** 
 
-21. Sélectionner ***Certificats &amp; secrets*** dans le menu latéral gauche, puis, dans l'onglet ***Secrets client*** , cliquer sur ***Nouveau secret client*** .  
+21. Sélectionner ***Certificats & secrets*** dans le menu latéral gauche, puis, dans l'onglet ***Secrets client*** , cliquer sur ***Nouveau secret client*** .  
 ![Certificats & secrets – Secrets client – Nouveau secret client](/img/fr/hub/Hub2035.png) 
 1. Dans la fenêtre ***Ajouter un secret client*** , saisir une ***Description*** (le nom de l'application d'entreprise, par exemple) et sélectionner une ***Date d'expiration*** pour ce secret client, conformément à vos meilleures pratiques de sécurité interne. 
 {% snippet icon.badgeCaution %} 
@@ -111,7 +111,7 @@ Il est à noter que lorsque le secret client expire, personne ne pourra se conne
 
 28. De retour dans la fenêtre ***Configurer l'authentification unique (SSO)*** , coller l'URL de l'étape précédente dans le champ ***URL de détection*** .  
 ![URL de détection](/img/fr/hub/Hub2151.png) 
-1. Dans le champ ***Champs d'application de l'utilisateur*** , saisir &quot;User.Read&quot;.  
+1. Dans le champ ***Champs d'application de l'utilisateur*** , saisir “User.Read“.  
 ![Champs d'application de l'utilisateur](/img/fr/hub/Hub2152.png) 
 1. Tester la connexion pour s'assurer que la configuration est correcte. Si c'est le cas, votre compte se connectera à Azure AD. 
 1. Cliquer sur le bouton ***Enregistrer*** au bas de la fenêtre. 

@@ -5,7 +5,7 @@ order: 0
 Here is a list of steps to help you get started with {{ en.PHUB }} Business for your team environment.  
 
 {% snippet icon.badgeNotice %} 
-Start your free {{ en.PHUB }} Business &#32; [trial](https://password.devolutions.net/business/sign-up) today! 
+Start your free {{ en.PHUB }} Business    [trial](https://password.devolutions.net/business/sign-up) today! 
 {% endsnippet %}
  
 <table>
@@ -45,7 +45,7 @@ Step 2 - Inviting multiple ***Users***
 * [Invite Users](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/) 
 		</td>
 		<td>
-With this video, we will demonstrate how to add ***Users*** to your {{ en.PHUB }} Business for both those who already have a {{ en.DA }} , as well as those that don&apos;t. 
+With this video, we will demonstrate how to add ***Users*** to your {{ en.PHUB }} Business for both those who already have a {{ en.DA }} , as well as those that don 't. 
 		</td>
 		<td>
 
@@ -74,7 +74,7 @@ At this stage we will show you four different ways to add and import ***Entries*
 Step 4 - ***Administration Settings*** and ***Reports***  
 
 * [Management](/hub/web-interface/hub-overview/administration/) 
-* [Configuration &amp; Security](/hub/web-interface/hub-overview/administration/configuration-security/system-settings/) 
+* [Configuration & Security](/hub/web-interface/hub-overview/administration/configuration-security/system-settings/) 
 * [Reports](/hub/web-interface/hub-overview/reports/) 
 * [Tools](/hub/web-interface/hub-overview/tools/) 
 		</td>

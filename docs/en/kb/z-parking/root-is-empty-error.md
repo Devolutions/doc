@@ -16,6 +16,6 @@ at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
 at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)  
 ### Solution
 ### Method 1
-Many issues related to it have been addressed in the latest version which you can download here; [https://remotedesktopmanager.com/home/download](https://remotedesktopmanager.com/home/download)
+Many issues related to it have been addressed in the latest version which you can download here; [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download)
 ### Method 2
 The other solution is to switch between data sources or delete and recreate the data source in ***File - Data Sources***

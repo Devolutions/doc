@@ -18,7 +18,7 @@ Another design principle of the dashboard is that its main usage model is to go 
 ![General Tab](/img/en/kb/KB2068.png)
 *General Tab* {.caption}
 
-1. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://&lt;server name&gt;.&lt;our domain&gt;.loc/".
+1. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://<server name>.<our domain>.loc/".
 1. Enter a ***Virtual directory*** if applicable. Most of the time, this field can remain empty.
 1. Select a ***Version*** in the drop-down list. This refers to the CyberArk PVWA version seen on the CyberArk authentication page.
 

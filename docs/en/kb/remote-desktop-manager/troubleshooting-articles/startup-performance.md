@@ -37,7 +37,7 @@ The workaround is to create a text file in the {{ en.RDM }} installation folder 
 ## Problem 3
 Prevent internet access.  
 
-Every time you start {{ en.RDM }}, the application will try to connect on [https://remotedesktopmanager.com/clientinternal/enterprisenews](https://remotedesktopmanager.com/clientinternal/enterprisenews). You should prevent all internet access from the application.
+Every time you start {{ en.RDM }}, the application will try to connect on [https://devolutions.net/remote-desktop-manager/clientinternal/enterprisenews](https://devolutions.net/remote-desktop-manager/clientinternal/enterprisenews). You should prevent all internet access from the application.
 ## Solution 3
 Add the line `<DisableAnalytics>true</DisableAnalytics>` to your [RemoteDesktopManager.cfg](https://helprdm.devolutions.net/installation_configurationfilelocation.html) file. You can place it above the last line, which should contain </Option>.  
 

@@ -23,7 +23,7 @@ Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions da
 ### Ma licence est expirée 
 
 1. Connectez-vous à {{ fr.PHUB }} Business. 
-1. Un message vous refusant l’accès s&apos;affichera. 
+1. Un message vous refusant l’accès s 'affichera. 
 {% snippet icon.badgeCaution %} 
 Seuls les ***Administrateurs*** et les utilisateurs disposant des ***Permissions système*** pour ***Gérer les licences des produits*** recevront ce message. 
 {% endsnippet %}

@@ -33,7 +33,7 @@ Below, the message the user sent you when they created their request is visible 
 Finally, you can ***Approve*** or ***Deny*** the temporary access request by clicking on the corresponding button.  
 ![Approve/Deny Temporary Access Request](/img/en/hub/Hub2045.png)  
 
-After the approbation, for any reason, you may revoke the user&apos;s temporary access by clicking on the ***View Details*** button again, then selecting the ***Revoke*** button. Be sure you want to do this first, since in order to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.  
+After the approbation, for any reason, you may revoke the user 's temporary access by clicking on the ***View Details*** button again, then selecting the ***Revoke*** button. Be sure you want to do this first, since in order to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.  
 ![Revoke Temporary Access](/img/en/hub/Hub2041.png)  
 
 {% snippet icon.badgeInfo %} 

@@ -24,7 +24,7 @@ Learn how to add a website entry by following the instructions from these sectio
 1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example.  
 ![Hub2055.png](/img/en/hub/Hub2055.png) 
 1. Websites usually ask for information such as an email address/username and a password. Follow the website’s login process until you log in to your account. 
-1. A {{ en.DWL }} &#32; ***Add Website*** window will pop up in the corner of your web browser.  
+1. A {{ en.DWL }}    ***Add Website*** window will pop up in the corner of your web browser.  
 ![Hub2069.png](/img/en/hub/Hub2069.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. The ***Username*** and the ***Password*** are automatically filled in with the information you previously entered. Verify that they are correct. 
@@ -41,7 +41,7 @@ Your credentials are now securely stored in a new website entry in {{ en.HUB }} 
 ![New Entry Button](/img/en/hub/Hub2070.png) 
 1. Click on ***Website*** .  
 ![New Website Entry](/img/en/hub/Hub2071.png) 
-1. The {{ en.DWL }} &#32; ***New Entry - Add Website*** tab will open in your browser.  
+1. The {{ en.DWL }}    ***New Entry - Add Website*** tab will open in your browser.  
 ![New Entry - Website (General Tab)](/img/en/hub/Hub2135.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Select a ***Folder*** in which to save your credentials. 
@@ -63,7 +63,7 @@ The process is the same for all entry types, but the information to be filled in
 ![New Entry Button](/img/en/hub/Hub2070.png) 
 1. Click on the entry type you want to create between ***Credit Card*** , ***Contact*** , and ***Secure Note*** . For a ***Website*** entry, follow the steps in the [previous section](#add-a-website-entry) .  
 ![New Credit Card, Contact, or Secure Note Entry](/img/en/hub/Hub2074.png) 
-1. The {{ en.DWL }} &#32; ***New Entry*** tab will open in your browser. As an example, the image below represents the tab for a credit card entry which differs slightly from the tabs for other types of entries.  
+1. The {{ en.DWL }}    ***New Entry*** tab will open in your browser. As an example, the image below represents the tab for a credit card entry which differs slightly from the tabs for other types of entries.  
 ![New Entry - Credit Card (General Tab)](/img/en/hub/Hub2075.png) 
 1. Fill in your entry information. The only mandatory information is the ***Name*** ; all other information is optional, so you can enter only the information that is useful to you. We recommend that you also specify the ***Folder*** in which your entry will be saved for easy access.  
 

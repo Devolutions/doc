@@ -1,7 +1,7 @@
 ---
 title: Audit
 ---
-The ***Audit*** section allows all users to use the ***Entry Security Analyzer*** ***&#32;*** and ***Password Analyzer*** ***&#32;*** tools. To access the ***Users Permissions*** , ***Vaults Permissions*** , and ***Vault Health*** tools, administrator rights will be required.  
+The ***Audit*** section allows all users to use the ***Entry Security Analyzer*** ***  *** and ***Password Analyzer*** ***  *** tools. To access the ***Users Permissions*** , ***Vaults Permissions*** , and ***Vault Health*** tools, administrator rights will be required.  
 
 ### Entry Security Analyzer 
 

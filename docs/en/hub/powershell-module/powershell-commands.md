@@ -21,8 +21,8 @@ In this object, you have the following:
 * Application key: Application key given after the application user creation  
 
 {% snippet icon.badgeInfo %} 
-* To check all available commands: Get-Command-Module &lt;ModuleName&gt;  
-* To check all potential arguments and parameters set for a command: Show-Command &lt;CommandName&gt;  
+* To check all available commands: Get-Command-Module <ModuleName>  
+* To check all potential arguments and parameters set for a command: Show-Command <CommandName>  
 {% endsnippet %}
  
 ## Connection 
@@ -65,13 +65,13 @@ If PSHubContext is provided, tries to connect to {{ en.PHUB }} with it.
 If PSHubContext is **not** provided, creates a PSHubContext with information received and tries to connect to {{ en.PHUB }} afterward.  
 		</td>
 		<td>
-```$PSHubContext = [Devolutions.Hub.PowerShell.Entities.PowerShell.PSHubContext]@{ApplicationKey=&quot;24526a88-7f18-4356-95bd-11690f7bc59b;468ce2d5-ea4b-42ff-bc02-d93c71b4e554&quot;; ApplicationSecret=&quot;U4nmdOjqPAcL0GfbvNC2u8e0FCZjhEJFTnn6YHpIZDY=&quot;; Url=&quot;https<area>://&lt;YourPasswordHubUrl&gt;.devolutions.app&quot;} ```  
+```$PSHubContext = [Devolutions.Hub.PowerShell.Entities.PowerShell.PSHubContext]@{ApplicationKey=“24526a88-7f18-4356-95bd-11690f7bc59b;468ce2d5-ea4b-42ff-bc02-d93c71b4e554“; ApplicationSecret=“U4nmdOjqPAcL0GfbvNC2u8e0FCZjhEJFTnn6YHpIZDY=“; Url=“https<area>://<YourPasswordHubUrl>.devolutions.app“} ```  
 
 ```Connect-HubAccount -PSHubContext $PSHubContext ```  
 
 	or  
 
-```Connect-HubAccount -Url https<area>://&lt;YourPasswordHubUrl&gt;.devolutions.app -ApplicationKey &quot;24526a88-7f18-4356-95bd-11690f7bc59b;468ce2d5-ea4b-42ff-bc02-d93c71b4e554&quot; -ApplicationSecret U4nmdOjqPAcL0GfbvNC2u8e0FCZjhEJFTnn6YHpIZDY= ```  
+```Connect-HubAccount -Url https<area>://<YourPasswordHubUrl>.devolutions.app -ApplicationKey “24526a88-7f18-4356-95bd-11690f7bc59b;468ce2d5-ea4b-42ff-bc02-d93c71b4e554“ -ApplicationSecret U4nmdOjqPAcL0GfbvNC2u8e0FCZjhEJFTnn6YHpIZDY= ```  
 		</td>
 	</tr>
 	<tr>
@@ -188,19 +188,19 @@ If Password is provided, encrypts the .json file with the received password.
 		<td>
 Save a standard PSHubContext.  
 
-```Save-HubContext -Path &quot;C:\PATH\TO\YOUR\FILE\file.json&quot;```  
+```Save-HubContext -Path “C:\PATH\TO\YOUR\FILE\file.json“```  
 
 If you want to securely save a PSHubContext with a password, you can do it in 2 ways:  
 
 With a password passed by arguments.  
 
-```Save-HubContext -Path &quot;C:\PATH\TO\YOUR\FILE\file.json&quot; -Password &quot;password&quot;```  
+```Save-HubContext -Path “C:\PATH\TO\YOUR\FILE\file.json“ -Password “password“```  
 
 or  
 
 With a SecurePassword argument that will prompt the secure password input.  
 
-```Save-HubContext -Path &quot;C:\PATH\TO\YOUR\FILE\file.json&quot; -SecurePassword ```  
+```Save-HubContext -Path “C:\PATH\TO\YOUR\FILE\file.json“ -SecurePassword ```  
 
 ```Password: [INSERT YOUR PASSWORD]```  
 		</td>
@@ -226,19 +226,19 @@ If Password is provided, decrypts the .json file with the received password.
 
 Import a standard PSHubContext.  
 
-```Import-HubContext -Path &quot;C:\PATH\TO\YOUR\FILE\file.json&quot;```  
+```Import-HubContext -Path “C:\PATH\TO\YOUR\FILE\file.json“```  
 
 If you want to import a file protected by a password, you can do it in 2 ways:  
 
 With a password passed by arguments.  
 
-```Import-HubContext -Path &quot;C:\PATH\TO\YOUR\FILE\file.json&quot; -Password &quot;password&quot;```  
+```Import-HubContext -Path “C:\PATH\TO\YOUR\FILE\file.json“ -Password “password“```  
 
 or  
 
 With a SecurePassword argument that will prompt the secure password input.  
 
-```Import-HubContext -Path &quot;C:\PATH\TO\YOUR\FILE\file.json&quot; -SecurePassword ```  
+```Import-HubContext -Path “C:\PATH\TO\YOUR\FILE\file.json“ -SecurePassword ```  
 
 ```Password: [INSERT YOUR PASSWORD] ```  
 
@@ -296,9 +296,9 @@ Change system settings information and save these modifications.
 
 ```$psSystemSettings.ForceTwoFactorAuthentication = $true ```  
 
-```$psSystemSettings.ExtendedSessionLifespan = &quot;SevenDays&quot; ```  
+```$psSystemSettings.ExtendedSessionLifespan = “SevenDays“ ```  
 
-```$psSystemSettings.SystemPermissions.Users[&quot;33a0253c-2bbf-43a0-9051-fb6adcb5ac7e&quot;].ManageUsersGroups = $false; ```  
+```$psSystemSettings.SystemPermissions.Users[“33a0253c-2bbf-43a0-9051-fb6adcb5ac7e“].ManageUsersGroups = $false; ```  
 
 ```Set-HubSystemSettings -$psSystemSettings $psSystemSettings ```  
 		</td>
@@ -564,7 +564,7 @@ New-HubGateway
 Adds a new {{ en.DGW }} to {{ en.PHUB }}. 
 		</td>
 		<td>
-```$newDevolutionsGateway = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSGatewayMetadata]@{ Name = &apos;Test Gateway From PS&apos; }} ```  
+```$newDevolutionsGateway = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSGatewayMetadata]@{ Name =  'Test Gateway From PS ' }} ```  
 
 ```New-HubGateway -PSDecryptedGateway $newDevolutionsGateway```  
 		</td>
@@ -595,7 +595,7 @@ Sets the provided {{ en.DGW }}.
 		<td>
 ```$psDecrpytedGateway = Get-HubGateway -GatewayId 4c6fb2dc-f7ba-4089-8bc2-b46b3bdcd1d0 ```  
 
-```$psDecrpytedGateway.PSMetadata.Name = &quot;New Name From PS&quot; ```  
+```$psDecrpytedGateway.PSMetadata.Name = “New Name From PS“ ```  
 
 ```Set-HubGateway -PSDecryptedGateway $psDecrpytedGateway ```  
 		</td>
@@ -732,9 +732,9 @@ Change information about a vault and save these modifications.
 
 ```$psVault = Get-HubVault -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 ```  
 
-```$psVault.Name = &quot;New RDP Name&quot;; ```  
+```$psVault.Name = “New RDP Name“; ```  
 
-```$psVault.VaultPermissions.Users[&quot;33a0253c-2bbf-43a0-9051-fb6adcb5ac7e&quot;].ViewPassword = $false; ```  
+```$psVault.VaultPermissions.Users[“33a0253c-2bbf-43a0-9051-fb6adcb5ac7e“].ViewPassword = $false; ```  
 
 ```Set-HubVault -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -PSVault $psVault ```  
 		</td>
@@ -951,7 +951,7 @@ This command will only work if ***Enable SSO with {{ en.DA }} Organization*** ha
 
 Add with a PSInvitation.  
 
-```$psInvitation = [Devolutions.Hub.PowerShell.Entities.Hub.PSInvitation]@{AllowOfflineInRDM = $true; UserSendMessageConfiguration = [Devolutions.Hub.Clients.UserSendMessagePermission]::MessagesWithEntries; Groups = @(&quot;1f017956-1d36-4787-acaa-22b16c73cce5&quot;); Emails = @(&quot;bob@windjammer.co&quot;);} ```  
+```$psInvitation = [Devolutions.Hub.PowerShell.Entities.Hub.PSInvitation]@{AllowOfflineInRDM = $true; UserSendMessageConfiguration = [Devolutions.Hub.Clients.UserSendMessagePermission]::MessagesWithEntries; Groups = @(“1f017956-1d36-4787-acaa-22b16c73cce5“); Emails = @(“bob@windjammer.co“);} ```  
 
 ```New-HubOrganizationUser -PSInvitation $psInvitation ```
 		</td>
@@ -1088,9 +1088,9 @@ Change the name, add a user, and save the group.
 
 ```$psGroup = Get-HubGroup -GroupId d41b9475-e00a-4f5b-8f25-4d539639dedd ```  
 
-```$psGroup.Name = &quot;New Group Name&quot; ```  
+```$psGroup.Name = “New Group Name“ ```  
 
-```$psGroup.UserIds.Add(&quot;321ec891-5674-4be0-aaf1-0c11a62eaf20&quot;) ```  
+```$psGroup.UserIds.Add(“321ec891-5674-4be0-aaf1-0c11a62eaf20“) ```  
 
 ```Set-HubGroup -GroupId d41b9475-e00a-4f5b-8f25-4d539639dedd -$psGroup $psGroup ```  
 		</td>
@@ -1158,7 +1158,7 @@ Adds a new entry to a specific {{ en.PHUB }} vault with the provided PSDecrypted
 		</td>
 		<td>
 
-```$t = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSEntryMetadata]@{ Name = &quot;Test Cred&quot;; ParentId = &quot;9df41856-125a-490a-8589-93afc3059924&quot;; ConnectionType = [Devolutions.Generated.Enums.ConnectionType]::Credential }; Connection = [Devolutions.Generated.Models.Connection]@{ Credentials = [Devolutions.Generated.Models.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.Enums.CredentialResolverConnectionType]::Default; Password = &quot;passworddepowershell&quot; } } } ```  
+```$t = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSEntryMetadata]@{ Name = “Test Cred“; ParentId = “9df41856-125a-490a-8589-93afc3059924“; ConnectionType = [Devolutions.Generated.Enums.ConnectionType]::Credential }; Connection = [Devolutions.Generated.Models.Connection]@{ Credentials = [Devolutions.Generated.Models.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.Enums.CredentialResolverConnectionType]::Default; Password = “passworddepowershell“ } } } ```  
 
 ```New-HubEntry -VaultId d334f44c-fb84-4559-b576-e1e8b68baf65 -Connection $ff ```  
 		</td>
@@ -1213,9 +1213,9 @@ Change information about an entry and save these modifications.
 
 ```$decryptedEntry = Get-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1 ```  
 
-```$decryptedEntry.PsMetadata.Name = &quot;New RDP Name&quot;; ```  
+```$decryptedEntry.PsMetadata.Name = “New RDP Name“; ```  
 
-```$decryptedEntry.Connection.RDP.Password = &quot;new_password&quot;; ```  
+```$decryptedEntry.Connection.RDP.Password = “new_password“; ```  
 
 ```Set-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1 -PSDecryptedEntry $decryptedEntry ```  
 		</td>

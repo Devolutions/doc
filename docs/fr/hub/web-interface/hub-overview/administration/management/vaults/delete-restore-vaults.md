@@ -5,7 +5,7 @@ Les ***Coffres*** peuvent être supprimés et restaurés par les administrateurs
 
 * [Supprimer un coffre](#supprimer-un-coffre)  
 * [Restaurer un coffre supprimé](#restaurer-un-coffre-supprimé)  
-* [Restaurer un coffre d&apos;utilisateurs](/kb/password-hub/how-to-articles/restore-user-vault/)  
+* [Restaurer un coffre d 'utilisateurs](/kb/password-hub/how-to-articles/restore-user-vault/)  
 
 ### Supprimer un coffre 
 

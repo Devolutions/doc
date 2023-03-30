@@ -20,8 +20,8 @@ Dans cet objet vous avez :
 * Clé de l'application : Clé de l'application donnée après la création de l'utilisateur d'application  
 
 {% snippet icon.badgeInfo %} 
-* Pour vérifier toutes les commandes disponibles : Get-Command-Module &lt;ModuleName&gt;  
-* Pour vérifier tous les arguments et paramètres potentiels définis pour une commande : Show-Command &lt;CommandName&gt;  
+* Pour vérifier toutes les commandes disponibles : Get-Command-Module <ModuleName>  
+* Pour vérifier tous les arguments et paramètres potentiels définis pour une commande : Show-Command <CommandName>  
 {% endsnippet %}
  
 ### Connexion 
@@ -291,9 +291,9 @@ Modifier certaines informations des paramètres du système et enregistrer ces m
 
 ```$psSystemSettings.ForceTwoFactorAuthentication = $true ```  
 
-```$psSystemSettings.ExtendedSessionLifespan = &quot;SevenDays&quot; ```  
+```$psSystemSettings.ExtendedSessionLifespan = “SevenDays“ ```  
 
-```$psSystemSettings.SystemPermissions.Users[&quot;33a0253c-2bbf-43a0-9051-fb6adcb5ac7e&quot;].ManageUsersGroups = $false; ```  
+```$psSystemSettings.SystemPermissions.Users[“33a0253c-2bbf-43a0-9051-fb6adcb5ac7e“].ManageUsersGroups = $false; ```  
 
 ```Set-HubSystemSettings -$psSystemSettings $psSystemSettings ```  
 		</td>
@@ -544,7 +544,7 @@ New-HubGateway
 Ajoute un nouveau Devolutions Gateway au Hub.
 		</td>
 		<td>
-```$newDevolutionsGateway = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSGatewayMetadata]@{ Name = &apos;Test Gateway From PS&apos; }} ```  
+```$newDevolutionsGateway = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSGatewayMetadata]@{ Name =  'Test Gateway From PS ' }} ```  
 
 ```New-HubGateway -PSDecryptedGateway $newDevolutionsGateway```  
 		</td>
@@ -575,7 +575,7 @@ Définit le Devolutions Gateway fourni.
 		<td>
 ```$psDecrpytedGateway = Get-HubGateway -GatewayId 4c6fb2dc-f7ba-4089-8bc2-b46b3bdcd1d0 ```  
 
-```$psDecrpytedGateway.PSMetadata.Name = &quot;New Name From PS&quot; ```  
+```$psDecrpytedGateway.PSMetadata.Name = “New Name From PS“ ```  
 
 ```Set-HubGateway -PSDecryptedGateway $psDecrpytedGateway ```
 		</td>
@@ -711,9 +711,9 @@ Modifier certaines informations sur un coffre et enregistrer ces modifications.
 
 ```$psVault = Get-HubVault -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 ```  
 
-```$psVault.Name = &quot;New RDP Name&quot;; ```  
+```$psVault.Name = “New RDP Name“; ```  
 
-```$psVault.VaultPermissions.Users[&quot;33a0253c-2bbf-43a0-9051-fb6adcb5ac7e&quot;].ViewPassword = $false; ```  
+```$psVault.VaultPermissions.Users[“33a0253c-2bbf-43a0-9051-fb6adcb5ac7e“].ViewPassword = $false; ```  
 
 ```Set-HubVault -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -PSVault $psVault ```  
 		</td>
@@ -918,7 +918,7 @@ Cette commande fonctionnera seulement si l'option ***Activer l'authentification 
 
 Ajouter avec une PSInvitation.. 
 
-```$psInvitation = [Devolutions.Hub.PowerShell.Entities.Hub.PSInvitation]@{AllowOfflineInRDM = $true; UserSendMessageConfiguration = [Devolutions.Hub.Clients.UserSendMessagePermission]::MessagesWithEntries; Groups = @(&quot;1f017956-1d36-4787-acaa-22b16c73cce5&quot;); Emails = @(&quot;bob@windjammer.co&quot;);} ```  
+```$psInvitation = [Devolutions.Hub.PowerShell.Entities.Hub.PSInvitation]@{AllowOfflineInRDM = $true; UserSendMessageConfiguration = [Devolutions.Hub.Clients.UserSendMessagePermission]::MessagesWithEntries; Groups = @(“1f017956-1d36-4787-acaa-22b16c73cce5“); Emails = @(“bob@windjammer.co“);} ```  
 
 ```New-HubOrganizationUser -PSInvitation $psInvitation ```
 		</td>
@@ -1052,9 +1052,9 @@ Modifier le nom, ajouter un utilisateur et enregistrer le groupe.
 
 ```$psGroup = Get-HubGroup -GroupId d41b9475-e00a-4f5b-8f25-4d539639dedd ```  
 
-```$psGroup.Name = &quot;New Group Name&quot; ```  
+```$psGroup.Name = “New Group Name“ ```  
 
-```$psGroup.UserIds.Add(&quot;321ec891-5674-4be0-aaf1-0c11a62eaf20&quot;) ```  
+```$psGroup.UserIds.Add(“321ec891-5674-4be0-aaf1-0c11a62eaf20“) ```  
 
 ```Set-HubGroup -GroupId d41b9475-e00a-4f5b-8f25-4d539639dedd -$psGroup $psGroup ```  
 		</td>
@@ -1121,7 +1121,7 @@ New-HubEntry
 Ajoute une nouvelle entrée à un coffre spécifique de Hub avec l'entrée PSDecryptedEntry fournie. 
 		</td>
 		<td>
-```$t = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSEntryMetadata]@{ Name = &quot;Test Cred&quot;; ParentId = &quot;9df41856-125a-490a-8589-93afc3059924&quot;; ConnectionType = [Devolutions.Generated.Enums.ConnectionType]::Credential }; Connection = [Devolutions.Generated.Models.Connection]@{ Credentials = [Devolutions.Generated.Models.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.Enums.CredentialResolverConnectionType]::Default; Password = &quot;passworddepowershell&quot; } } } ```  
+```$t = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSEntryMetadata]@{ Name = “Test Cred“; ParentId = “9df41856-125a-490a-8589-93afc3059924“; ConnectionType = [Devolutions.Generated.Enums.ConnectionType]::Credential }; Connection = [Devolutions.Generated.Models.Connection]@{ Credentials = [Devolutions.Generated.Models.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.Enums.CredentialResolverConnectionType]::Default; Password = “passworddepowershell“ } } } ```  
 
 ```New-HubEntry -VaultId d334f44c-fb84-4559-b576-e1e8b68baf65 -Connection $ff ```
 		</td>
@@ -1175,9 +1175,9 @@ Modifier certaines informations sur une entrée et enregistrer ces modifications
 
 ```$decryptedEntry = Get-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1 ```  
 
-```$decryptedEntry.PsMetadata.Name = &quot;New RDP Name&quot;; ```  
+```$decryptedEntry.PsMetadata.Name = “New RDP Name“; ```  
 
-```$decryptedEntry.Connection.RDP.Password = &quot;new_password&quot;; ```  
+```$decryptedEntry.Connection.RDP.Password = “new_password“; ```  
 
 ```Set-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1 -PSDecryptedEntry $decryptedEntry ```  
 		</td>

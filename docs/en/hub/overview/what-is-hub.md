@@ -6,7 +6,7 @@ keywords:
 
 ![Devolutions Hub logo](https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-color-shadow.svg)
 
-Devolutions &#32; {{ en.PHUB }} is a highly secure team-based password manager that is part of the {{ en.CLOUD }} services. It has been designed for both &#160;IT administrators and end users to store and share information across the whole organization, no matter the size. You can access and manage sensitive information from anywhere and with any supported web browser.  
+Devolutions    {{ en.PHUB }} is a highly secure team-based password manager that is part of the {{ en.CLOUD }} services. It has been designed for both &#160;IT administrators and end users to store and share information across the whole organization, no matter the size. You can access and manage sensitive information from anywhere and with any supported web browser.  
 
 Your information is stored in entries of different types which are organized into vaults. Entries are managed directly from the web interface and no client application is required.  
 
@@ -45,7 +45,7 @@ Data Importer
 	</tr>
 	<tr>
 		<td>
-[{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with &#160; {{ en.PHUB }} , which allows users to securely inject passwords into websites using credentials stored in their vaults. 
+[{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with  {{ en.PHUB }} , which allows users to securely inject passwords into websites using credentials stored in their vaults. 
 		</td>
 		<td>
 The application provides users with a simple method of launching remote sessions from the {{ en.PHUB }} web interface. 

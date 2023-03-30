@@ -12,7 +12,7 @@ Only available on Windows.
 1. Download and install [Hub Importer](https://devolutions.net/password-hub-importer) . 
 1. Launch the application. 
 1. Log in to your {{ en.DA }} . 
-1. Select the ***{{ en.PHUB }}*** ***Business*** &#32; ***Host*** and click ***Log In*** .  
+1. Select the ***{{ en.PHUB }}*** ***Business***    ***Host*** and click ***Log In*** .  
 ![Hub4109.png](/img/en/hub/Hub4109.png) 
 1. Select the ***Import Type*** file.  
 ![Hub4108.png](/img/en/hub/Hub4108.png) 

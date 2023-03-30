@@ -14,10 +14,10 @@ The script install requires the use of Powershell 7.
 ![Administration tab](/img/en/hub/DGW0020.png) 
 
 {% snippet icon.badgeCaution %} 
-An ***Application User*** is required to proceed. If one isn&apos;t already created, you can read more about it in [Manage Application Users](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) . 
+An ***Application User*** is required to proceed. If one isn 't already created, you can read more about it in [Manage Application Users](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) . 
 {% endsnippet %}
  
-3. The ***Application User*** will need permission to manage the {{ en.DGW }} for the script to work. Click on ***System Permissions*** , which is under the ***Configuration &amp; Security*** section.  
+3. The ***Application User*** will need permission to manage the {{ en.DGW }} for the script to work. Click on ***System Permissions*** , which is under the ***Configuration & Security*** section.  
 ![Administration — System Permissions](/img/en/hub/DGW0043.png) 
 1. Select ***Edit*** button in the top right corner.  
 ![Edit](/img/en/hub/DGW0044.png) 

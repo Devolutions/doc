@@ -6,16 +6,16 @@ eleventyComputed:
 
 ### Première connexion avec {{ fr.DWL }} 
 
-Suivez ces étapes pour connecter {{ fr.PHUB }} Business à l&apos;extension {{ fr.DWL }} .  
+Suivez ces étapes pour connecter {{ fr.PHUB }} Business à l 'extension {{ fr.DWL }} .  
 
-1. Cliquer sur l&apos;extension {{ fr.DWL }} dans la barre d&apos;outils de votre navigateur.  
+1. Cliquer sur l 'extension {{ fr.DWL }} dans la barre d 'outils de votre navigateur.  
 {% snippet icon.badgeNotice %} 
 Un accès à {{ fr.PHUB }} Business est requis pour continuer. 
 {% endsnippet %}
  
 2. Choisir ***{{ fr.PHUB }}*** ***Business*** dans la liste, puis cliquer sur ***Enregistrer*** .  
 ![Première connexion](/img/fr/hub/Dwl4055.png) 
-1. Saisir l&apos;adresse de votre {{ fr.PHUB }} Business, puis cliquer sur ***Enregistrer*** .  
+1. Saisir l 'adresse de votre {{ fr.PHUB }} Business, puis cliquer sur ***Enregistrer*** .  
 ![Adresse du serveur de Hub Business](/img/fr/hub/Dwl4057.png) 
 1. ***Se connecter*** à votre {{ fr.DA }} .  
 ![Connexion de Hub Business au Compte Devolutions](/img/fr/hub/Dwl4056.png) 
@@ -23,9 +23,9 @@ Un accès à {{ fr.PHUB }} Business est requis pour continuer.
 ![Entrée des identifiants de Compte Devolutions](/img/fr/hub/Dwl4024.png) 
 1. Une fois terminé, un message confirmant votre connexion apparaîtra.  
 ![Connexion réussie au Compte Devolutions](/img/fr/hub/Dwl4053.png) 
-1. Cliquer sur l&apos;icône dans la barre d&apos;outils du navigateur Web pour valider que {{ fr.DWL }} est désormais connecté à {{ fr.PHUB }} Business.  
+1. Cliquer sur l 'icône dans la barre d 'outils du navigateur Web pour valider que {{ fr.DWL }} est désormais connecté à {{ fr.PHUB }} Business.  
 ![Association réussie de Hub Business à Devolutions Web Login](/img/fr/hub/Dwl4058.png) 
-1. Pour sélectionner les coffres à synchroniser, cliquer sur l&apos;onglet ***Coffres*** dans le ***Menu latéral*** , puis cliquer sur le bouton ***Sélectionner des coffres à synchroniser*** .  
+1. Pour sélectionner les coffres à synchroniser, cliquer sur l 'onglet ***Coffres*** dans le ***Menu latéral*** , puis cliquer sur le bouton ***Sélectionner des coffres à synchroniser*** .  
 ![Onglet Coffres](/img/fr/hub/Dwl4059.png) 
 1. Cliquer sur ***Sélectionner tout*** ou cocher individuellement les coffres à synchroniser. La barre de ***Filtre*** peut être utile pour rechercher des coffres.  
 ![Sélection des coffres à synchroniser](/img/fr/hub/Hub2014.png) 
