@@ -10,8 +10,15 @@ title: System Requirements
 {% snippet icon.badgeInfo %}
 {{ en.RDMS }} now verifies that the domain and forest functional levels are at least Windows Server 2012R2. This is essential when using Active Directory authentication.
 {% endsnippet %}
- 
-## Dependencies
+
+The following table lists the minimum recommended hardware specifications for {{ en.RDMS }}. These specifications may vary depending on the usage of the application, as indicated later in the article. 
+
+|Basic implementation {width=200px} |Mid-Range implementation {width=250px} |Large implementation    |
+|:--------------------------: |:------------------------: |:---------------------: |
+|(1-20 concurrent users)<br>With standalone SQL Server<br>4 core processors<br>8 GB RAM<br>Network Adapter (1 GB)<br>|(21-75 concurrent users)<br>With standalone SQL Server<br>4 core processors<br>8 GB RAM<br>Network Adapter (1 GB)<br>|(75+ concurrent users) <br>We recommend deploying multiple {{ en.RDMS }} in a load-balancing topology with High Availability SQL Server.|
+|With SQL Server installed on the same machine.<br>4 core processors<br>16 GB RAM<br>Network Adapter (1 GB)<br>|With SQL Server installed on the same machine.<br>4 core processors<br>16 GB RAM<br>Network Adapter (1 GB)<br>||
+
+## Software Dependencies
 
 * Microsoft SQL Server 2012/2014/2016/[2017](https://www.microsoft.com/en-ca/sql-server/sql-server-2017-editions)/[2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022) (including Express editions). 
 * Azure SQL database is supported with SQL login accounts only. Azure Active Directory accounts are not supported. 
@@ -23,9 +30,7 @@ title: System Requirements
 
 ## Server sizing
 
-Many customers often ask how to properly customize their servers for various topologies. This is essentially unreliable because the way the system is used has a significant impact on the resource usage of each node within the chosen [Topology](/server/overview/topologies/) .  
-
-The great majority of setups that we have observed work well with nodes of 8GB RAM and a dual CPU. Most of these are virtualized environments, so granting more resources is relatively simple.  
+Many customers often ask how to properly customize their servers for various topologies. In fact, it is impossible for us to answer this question adequately. The way the system works has a significant impact on the resource usage of each node in your [Topology](/server/overview/topologies/). Most of these configurations are virtual environments, making it easy to allocate additional resources.  
 
 For a proper estimate, the following aspects must be considered:  
 
