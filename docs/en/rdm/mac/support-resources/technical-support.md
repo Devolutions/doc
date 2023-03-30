@@ -4,7 +4,7 @@ title: Technical Support
 
 Hours: Monday to Friday 7:30 a.m. to 6:00 p.m. EST  
 
-Knowledge Base: Find helpful information and procedures regarding our [products](/kb/password-hub/).  
+Knowledge Base: Find helpful information and procedures regarding our [products](/rdm/mac/).  
 
 Email: [service@devolutions.net](mailto:service@devolutions.net)  
 
@@ -19,5 +19,5 @@ Subscribers of a paid support plan have received a plan ID. You should send your
 
 Please consult our [Support Policy](https://cdndevolutions.blob.core.windows.net/documents/legal/eula/support-level-addendum-en.pdf) for more information.  
 
-![Support4001.png](/img/en/hub/Support4001.png) 
+![Support4001.png](/img/en/rdm/mac/Support4001.png) 
 
