@@ -1,6 +1,6 @@
 ---
 title: Créer votre Hub
-order: 10
+order: 0
 ---
 {{ fr.PHUB }} est proposé en deux versions, Business et Personal (gratuite). Les deux sont des solutions infonuagiques de gestion sécuritaire de mots de passe liés à votre {{ fr.DA }} .  
 

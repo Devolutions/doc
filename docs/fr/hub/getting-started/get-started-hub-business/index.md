@@ -1,6 +1,6 @@
 ---
 title: Introduction avec Hub Business
-order: 0
+order: 10
 ---
 Voici une liste d 'étapes pour vous aider à démarrer avec {{ fr.PHUB }} Business pour votre équipe. 
 

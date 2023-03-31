@@ -1,6 +1,6 @@
 ---
 title: Get Started with Hub Business
-order: 0
+order: 10
 ---
 Here is a list of steps to help you get started with {{ en.PHUB }} Business for your team environment.  
 
