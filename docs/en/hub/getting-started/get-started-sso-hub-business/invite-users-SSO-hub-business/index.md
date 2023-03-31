@@ -1,5 +1,11 @@
 ---
 title: Invite Users for SSO in Hub Business
+description: Once SSO is configured and enabled, invite your users on your Hub following these steps.
+keywords:
+- SSO
+- invite users
+- organization
+- authentication
 ---
 Once SSO is [configured and enabled](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/), you can use this specific invite for all your users.  
 
@@ -15,25 +21,23 @@ As part of the creation process, a {{ en.DA }} will be created since it is requi
  
 ## Invite Organization Users 
 
-If you have new users synced from your provider, they will be ready to be invited. You can see their number in the ***Invitations required*** card.  
-
 1. Go to ***Administration – Users***. If you have new users who are synced from your provider, they will be ready to be invited. You can see their count in the ***Invitation required*** widget. Click on this widget.  
 ![Invitation required](/img/en/hub/Hub4141.png)
-*Invitation required*{.caption} 
-1. ***Step 1 - From Organization***: Select from the users that are suggested, if applicable, then click ***Next***.  
+*Invitation required*{.caption}  
+2. ***Step 1 - From Organization***: Select from the users that are suggested, if applicable, then click ***Next***.  
 ![Step 1 - From Organization](/img/en/hub/Hub2176.png)
-*Step 1 - From Organization*{.caption} 
-1. ***Step 2 - By Emails***: It is possible to invite other users that are not synced, but who belong to the same provider. Enter either an individual email or a group email, then click ***Next***. 
+*Step 1 - From Organization*{.caption}  
+3. ***Step 2 - By Emails***: It is possible to invite other users that are not synced, but who belong to the same provider. Enter either an individual email or a group email, then click ***Next***.  
 {% snippet icon.badgeInfo %} 
 This is only possible if the enterprise application in Azure has the ***Assignment required*** set to ***No***. This setting can be found in the ***Properties*** of the enterprise application.
-{% endsnippet %}
+{% endsnippet %}  
  ![Step 2 - By Emails](/img/en/hub/Hub2177.png) 
-*Step 2 - By Emails*{.caption}
+*Step 2 - By Emails*{.caption}  
 4. ***Step 3 - Options***: Select ***Options*** for users, then click ***Next***.  
 ![Step 3 - Options](/img/en/hub/Hub2178.png) 
-*Step 3 - Options*{.caption}
-1. ***Step 4 - User groups***: Synchronized users do not need to be assigned to the synced ***User Groups***. They will be added automatically as they log in. If you have custom ***User Groups***, you can assign them users.
-{% snippet icon.badgeInfo %} 
+*Step 3 - Options*{.caption}  
+5. ***Step 4 - User groups***: Synchronized users do not need to be assigned to the synced ***User Groups***. They will be added automatically as they log in. If you have custom ***User Groups***, you can assign them users.  
+{% snippet icon.badgeInfo %}  
 Custom ***User groups*** need to be defined beforehand in {{ en.PHUB }} Business. For more information, see [User Groups](/hub/web-interface/hub-overview/administration/management/users/). 
 {% endsnippet %}
  
@@ -46,21 +50,21 @@ Custom ***User groups*** need to be defined beforehand in {{ en.PHUB }} Business
 
 {% snippet icon.badgeCaution %} 
 Users will be required to complete a {{ en.DA }} setup. See the [End User Invitation Experience for SSO in Hub Business](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/) topic. 
-{% endsnippet %}
+{% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
 The recipient will be part of your {{ en.PHUB }} only when they connect to it for the first time. Only then will you be able to see them in ***Administration – Users***. 
-{% endsnippet %}
+{% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
 Any user that tries to access your {{ en.PHUB }} Business with its URL for the first time without receiving an invitation will trigger a request approval, only if they are in the same identity provider.  
 
 An email will then be sent to all the administrators. It can be either approved or denied in ***Administration – Users***. 
-{% endsnippet %}
+{% endsnippet %}  
  
 ## Invite Users That Are Not Part of Your Authentication Provider
 
-It is possible to add users to your Hub Business that are outside of your authentication provider.
+It is possible to add users to your Hub Business that are outside of your authentication provider.  
 
 {% snippet icon.badgeInfo %} 
 This option is only possible if you do not set a ***Force SSO on all users***, since those users are not part of your authentication provider.
