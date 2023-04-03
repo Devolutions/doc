@@ -47,7 +47,7 @@ and ***From file***: If installing {{ en.DGW }} on another computer, download th
 1. Click ***Next***.
 1. Click ***Install***. 
 1. Click ***Close***.
-1. On the {{ en.DPS }} web interface, connect with an administrative account.
+1. On the {{ en.DPS }} web interface, connect with an administrator account.
 1. Go to ***Administration – {{ en.DGW }}***.
 1. Click on the ***Add*** button on the top right corner.
 1. Enter the following information.
