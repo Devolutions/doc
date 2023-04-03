@@ -6,8 +6,13 @@ keywords:
 - Public IP
 - Token
 ---
+## Scenario 1
 
-When switching your computer from wired network to wifi, {{ en.RDM }} will be disconnected from {{ en.DPS }} and you will have to reconnect.
+When switching your computer from a wired network to wifi, {{ en.RDM }} will be disconnected from {{ en.DPS }} and you will have to reconnect.
+
+## Scenario 2
+
+If you have multiple different public IP addresses, {{ en.RDM }} will not be able to connect to {{ en.DPS }}.
 
 ## Solution
 
