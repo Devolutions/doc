@@ -24,7 +24,7 @@ For added security, you can enable SSL Encryption to communicate with your insta
 ![SQL Server - Upgrade tab](/img/en/rdm/mac/clip6043.png) 
 1. Once the database is created, create a Remote Desktop Manager administrator account via the [Administration - Users](/rdm/mac/commands/administration/user-management/) menu. 
 {% snippet icon.badgeInfo %} 
-If the database is created using a system administrator (example: SA), we recommend to keep this user only for the database creation and the [database upgrade](Database_Upgrade) . A Remote Desktop Manager administrator account must be created first. Then, regular users are created with this administrator account. 
+If the database is created using a system administrator (example: SA), we recommend to keep this user only for the database creation and the [database upgrade](/rdm/mac/installation/database-upgrade/) . A Remote Desktop Manager administrator account must be created first. Then, regular users are created with this administrator account. 
 {% endsnippet %}
  
 
