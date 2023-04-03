@@ -42,7 +42,7 @@ Display the currently opened sessions in the ***{{ en.NPANE }}*** .
 	</tr>
 	<tr>
 		<td>
-[Favorites](Navigation_Favorite_Entries) 
+[Favorites](/rdm/mac/user-interface/navigation-pane/favorite-entries/) 
 		</td>
 		<td>
 Display your favorite entries and folders in the ***{{ en.NPANE }}*** . 
@@ -50,7 +50,7 @@ Display your favorite entries and folders in the ***{{ en.NPANE }}*** .
 	</tr>
 	<tr>
 		<td>
-[Recent](Navigation_Most_Recently_Used_Entries) 
+[Recent](/rdm/mac/user-interface/navigation-pane/most-recently-used-entries/) 
 		</td>
 		<td>
 Display your most recently used entries in the ***{{ en.NPANE }}*** . 
@@ -130,7 +130,7 @@ Open a window to access your messages.
 	</tr>
 	<tr>
 		<td>
-[Navigation](UserInterface_NavigationPane) 
+[Navigation](/rdm/mac/user-interface/navigation-pane/) 
 		</td>
 		<td>
 Toggle the {{ en.NPANE }} . 
@@ -138,7 +138,7 @@ Toggle the {{ en.NPANE }} .
 	</tr>
 	<tr>
 		<td>
-[Dashboard](Dashboards) 
+[Dashboard](/rdm/mac/user-interface/content-area/dashboard/) 
 		</td>
 		<td>
 Toggle the ***Dashboard*** . 
