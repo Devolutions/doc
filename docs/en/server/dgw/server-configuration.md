@@ -4,7 +4,7 @@ title: Devolutions Server Configuration
 This topic describes how to configure {{ en.DPS }} to connect with {{ en.DGW }}.  
 
 ## Steps for Side-by-side Installation 
-Installing by using the ***Side-by-side*** method creates a free {{ en.DGW }} that can used for up to 5 concurrent sessions, or uses the {{ en.DGW }} licence(s) you have. This method is recommended for simpler network layouts, and only one ***Side-by-side*** installation can be done per machine.
+Installing by using the ***Side-by-side*** method creates a free {{ en.DGW }} that can be used for up to 5 concurrent sessions, or uses the {{ en.DGW }} license(s) you have to support more sessions. This method is recommended for simpler network layouts, and only one ***Side-by-side*** installation can be done per machine.
 1. From the {{ en.RDMSCONSOLE }}, click on the ***Companions*** tab.
 1. In the {{ en.DGW }} section, click on ***Install***.
 1. Choose ***Side-by-side Installation***.
@@ -12,14 +12,16 @@ Installing by using the ***Side-by-side*** method creates a free {{ en.DGW }} th
 It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install the {{ en.DGW }} on an offline {{ en.DPS }}.
 {% endsnippet %}  
 
-1. Enter the desired settings.
-    1. ***HTTP Listener***: HTTP(s) port to reach the Gateway.	
-    1. ***TCP Listener***: port used for the RDP sessions.
+4. If default values don't work for your environment, enter the desired settings.
+    1. ***HTTP Listener***: HTTP(s) port to reach the Gateway. (7171 is default)
+    1. ***TCP Listener***: port used for the RDP sessions. (8181 is default)
 1. Click ***Ok***.
-1. Go to the last section.
+1. Go to the {{ en.DPS }} web interface, connect with an admin account.
+1. Go to ***Administration – {{ en.DGW }}***.
+1. Click on the ***Ping*** button for the desired gateway in the list to see if a connection can successfully be made.
 
 ## Steps for Standalone Installation
-Installing by using the ***Standalone*** method for {{ en.DGW }}. For more complex networks, you can have multiple gateways pointing to one {{ en.RDMSCONSOLE }}, but only one {{ en.DGW }} per machine.
+Installing by using the ***Standalone*** method will allow to install {{ en.DGW }} on a separate server than {{ en.DPS }}. It could be for performance purposes or access networks that {{ en.DPS }} can't access. Many {{ en.DGW }} can be used by {{ en.DPS }}, but only one {{ en.DGW }} can be installed on a machine.
 1. From the {{ en.RDMSCONSOLE }}, click on the ***Companions*** tab.
 1. In the {{ en.DGW }} section, click on ***Install***.
 1. Choose ***Standalone Installation***.
@@ -28,28 +30,24 @@ Installing by using the ***Standalone*** method for {{ en.DGW }}. For more compl
 It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install the {{ en.DGW }} on an offline {{ en.DPS }}.
 {% endsnippet %}  
 
-1. Click ***Next***.
-1. Enter the ***Access URI*** information.
+5. Click ***Next***.
+1. Enter the ***Access URI*** information, for example https://gateway.example.com.
 1. Choose the {{ en.DGW }} ***Listeners*** ports (by default they are 7171 and 8181).
     1. If HTTPS is chosen instead of HTTP in the step above, the ***Certificate Configuration*** will be needed.
     1. ***Certificate file***: Needs to be a full chain certificate (.pfx, .p12, .pem, .crt).
     1. ***Certificate password***: Only needed if a .pfx or .p12 certificate was used.
     1. ***Private key file***: Only needed if a .pem or .crt was used as a certificate.
 {% snippet icon.shieldWarning %}
-Do not share the private key with other users, as it can be used to decrypt the information in the database. Only the public key should be shared.
+Do not share the private key with other users, as it can be used to decrypt the communication between a user and {{ en.DGW }}. Only the public key should be shared.
 {% endsnippet %}  
 
-1. Click ***Next***.
-1. Choose between ***Use public key from DVLS instance 'Devolutions Server'*** : this option is used if the installed {{ en.DGW }} is on the same server as the {{ en.RDMSCONSOLE }};  
-and ***From file***: If installing {{ en.DGW }} on another computer, download the public key of the {{ en.RDMSCONSOLE }} you want to pair with that {{ en.DGW }}.
+8. Click ***Next***.
+1. Choose between ***Use public key from DVLS instance 'Devolutions Server'*** : this option is used if the installed {{ en.DGW }} is on the same server as the {{ en.DPS }};  
+and ***From file***: If installing {{ en.DGW }} on another computer, download the public key from the {{ en.DPS }} you want to pair with that {{ en.DGW }}.
 1. Click ***Next***.
 1. Click ***Install***. 
-    1. Clicking the arrow to the right of the button will show a dropdown menu with ***Save Response File*** and ***Save Response File With Password*** which saves a file for later use in PowerShell. This file saves the same settings as the current install making it easier to install another gateway. The 'with password' option also saves the passwords used in the install.
 1. Click ***Close***.
-1. Go to the last section.
-
-## Steps Needed for Both Installation Methods
-1. On the {{ en.DPS }} web interface, connect with an admin account.
+1. On the {{ en.DPS }} web interface, connect with an administrative account.
 1. Go to ***Administration – {{ en.DGW }}***.
 1. Click on the ***Add*** button on the top right corner.
 1. Enter the following information.
