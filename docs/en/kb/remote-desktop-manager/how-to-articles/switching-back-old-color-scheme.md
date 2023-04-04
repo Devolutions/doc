@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Switching back to the old color scheme in {{ en.RDM }}
+  title: Switching Back to the Old Color Scheme in {{ en.RDM }}
 ---
 
 It is possible to change the color scheme in {{ en.RDM }}.
