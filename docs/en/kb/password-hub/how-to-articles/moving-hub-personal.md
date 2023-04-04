@@ -5,7 +5,7 @@ eleventyComputed:
 The {{ en.PHUBP }} is for individual users who want to use a secure personal password manager. Here are the steps for moving your data to {{ en.PHUBP }} in {{ en.RDM }}  
 
 {% snippet icon.badgeHelp %}
-If you would like to create a {{ en.PHUBP }} please follow this [topic](https://helphub.devolutions.net/hub_password_hub_personal.html)
+If you would like to create a {{ en.PHUBP }} please follow this [topic](/hub/getting-started/create-hub/hub-personal/)
 {% endsnippet %}  
 
 ### Add {{ en.PHUBP }} in {{ en.RDM }} as a data source

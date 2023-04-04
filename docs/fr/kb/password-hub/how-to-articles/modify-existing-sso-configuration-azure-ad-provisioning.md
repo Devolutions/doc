@@ -5,7 +5,7 @@ Si vous avez activé l'authentification unique (SSO) avec {{ fr.HUB }} Business 
 
 ### Créer une application d'entreprise dans Azure AD et modifier la configuration OpenID
 
-* Comme vous avez déjà configuré le SSO, vous devrez créer une nouvelle application d'entreprise dans Azure AD en suivant les étapes de [Configurer l'authentification SSO avec Microsoft Azure](https://helphub.devolutions.net/fr/hub_connect_azuread_office365_authentification.html) et modifier la configuration OpenID actuelle dans {{ en.PHUB }}.
+* Comme vous avez déjà configuré le SSO, vous devrez créer une nouvelle application d'entreprise dans Azure AD en suivant les étapes de [Configurer l'authentification SSO avec Microsoft Azure](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/) et modifier la configuration OpenID actuelle dans {{ en.PHUB }}.
 * La fonction de provisionnement avec Azure AD doit être faite dans cette nouvelle application d'entreprise.
 * Une fois la synchronisation effectuée, vérifiez que tous vos utilisateurs existants sont marqués comme synchronisés et qu'ils sont dans leurs ***Groupes d'utilisateurs*** Azure respectifs. Si certains utilisateurs ne sont pas marqués comme synchronisés, cela signifie qu'ils ne sont pas membres d'un groupe Azure qui fait partie de l'application d'entreprise dans Azure.
 

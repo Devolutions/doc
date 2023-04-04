@@ -62,7 +62,7 @@ Windows
 	</tr>
 	<tr>
 		<td>
-[{{ en.HUB }} Business](https://helphub.devolutions.net/index.html) 
+[{{ en.HUB }} Business](/hub/overview/what-is-hub/) 
 		</td>
 		<td>
 {{ en.HUB }} Business is a secure and cloud-based password manager for teams. It empowers your organization to easily and securely vault and manage business-user passwords, along with other sensitive information, through a user-friendly web interface that can be quickly, easily and securely accessed via any browser. 
