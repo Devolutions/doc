@@ -8,7 +8,7 @@ Advanced Data Sources greatly increase the set of managing features available to
 * Document uploads and entry attachments. 
 * Audit and logging. 
 * Advanced security with [User Management](/rdm/mac/commands/administration/user-management/) and [Security Group Management](Administration_SecurityGroupManagement) .  
-* [Offline mode](File_GoOffline) . 
+* [Offline mode](/rdm/mac/commands/file/go-offline/) . 
 * [2-Factor Authentication](/rdm/mac/data-sources/multi-factor-authentication/) .  
 
 Currently, the Advanced Data Sources are:  

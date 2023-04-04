@@ -27,7 +27,7 @@ Microsoft Azure SQL offers different service tier in its purchase model for DTUS
 ## Highlights 
 
 * Supports [User Management](/rdm/mac/commands/administration/user-management/) with a superior security model. 
-* Supports [Offline mode](File_GoOffline) for when the server or network is unavailable. 
+* Supports [Offline mode](/rdm/mac/commands/file/go-offline/) for when the server or network is unavailable. 
 * Supports entry logs and attachments. 
 
 {% snippet icon.badgeHelp %} 

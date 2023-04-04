@@ -1,7 +1,7 @@
 ---
 title: Import/Export Data Source
 ---
-To simplify deployment for multiple users, it is possible to export and import data source configurations. The generated .rdd file contains all the information to recreate the configuration. Please note that the .rdd file does not include the database content. Only the configuration is exported. Use the entries [Export](File_ExportOverview) functionality to backup or copy the database&apos;s content.  
+To simplify deployment for multiple users, it is possible to export and import data source configurations. The generated .rdd file contains all the information to recreate the configuration. Please note that the .rdd file does not include the database content. Only the configuration is exported. Use the entries [Export](/rdm/mac/commands/file/export/overview/) functionality to backup or copy the database&apos;s content.  
 
 Use the data source dialog ( File-Data Sources... ) to access the import or export of the file.  
 ![Data Sources - Import/Export](/img/en/rdm/mac/clip5068.png) 

@@ -13,6 +13,6 @@ Those logs are saved in Macintosh HD/Users/Username/Library/Application Support/
 
 When requested by a Devolutions employee during a support process, you may be asked to increase the log level of the application to a higher level.  
 
-This can be done via File - Preferences - [Advanced](RDM_Preferences_Advanced) section.  
+This can be done via File - Preferences - [Advanced](/rdm/mac/commands/file/preferences/advanced-options/) section.  
 ![Advanced - Debug Level](/img/en/rdm/mac/clip10465.png) 
 

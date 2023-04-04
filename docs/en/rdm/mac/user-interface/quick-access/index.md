@@ -56,6 +56,6 @@ Please refer to [Search](/rdm/mac/user-interface/quick-access/search/) .
 ### Lock Application 
 
 ![Quick Access - Lock Application](/img/en/rdm/mac/clip10555.png) 
-Please refer to [Lock Application](UI_ToolbarLockApplication) . 
+Please refer to [Lock Application](/rdm/mac/commands/file/lock-application/) . 
 
 

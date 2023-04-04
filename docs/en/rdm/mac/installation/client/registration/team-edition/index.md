@@ -8,7 +8,7 @@ The license menu to register {{ en.RDM }} for Mac is available for SQLite, but n
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-It is possible to [request a trial](Installation_Registration_StandardEdition) to try {{ en.RDM }} Team for 30 days. If you decide not to register the application with a Team Edition license serial at the end of the 30-day period, your data will not be altered or erased, and you will have full access to it once you provide a license serial. 
+It is possible to [request a trial](/rdm/mac/installation/client/registration/trial-request/ ) to try {{ en.RDM }} Team for 30 days. If you decide not to register the application with a Team Edition license serial at the end of the 30-day period, your data will not be altered or erased, and you will have full access to it once you provide a license serial. 
 {% endsnippet %}
  
 1. To add a license serial to the data source, navigate to ***Administration – Licenses*** .  

@@ -59,7 +59,7 @@ Devolutions {{ en.OBACK }} allows you to securely back up your information for s
 
 		</td>
 		<td>
-Step 4 - Create your [Default Settings](RDM_DefaultSettings) . 
+Step 4 - Create your [Default Settings](/rdm/mac/commands/file/templates/default-settings/) . 
 		</td>
 		<td>
 In ***File – Preferences*** , you can create, modify or reset default settings for your templates. Each entry type is supported and can have a default template defined to fit your requirements. 
@@ -81,7 +81,7 @@ Top level folders are at the foundation of a solid security structure. Your fold
 
 		</td>
 		<td>
-Step 6 - [Import your data](File_ImportOverview) . 
+Step 6 - [Import your data](/rdm/mac/commands/file/import/overview/) . 
 		</td>
 		<td>
 The final step is to import all of your data into {{ en.RDM }} . You can import your sessions, logins and contacts in a few steps. 
