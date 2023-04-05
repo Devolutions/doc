@@ -49,7 +49,7 @@ Follow the steps below to configure this method.
 ![Configure the Mobile Device Method](/img/en/kb/KB2188.png)  
 *Configure the Mobile Device Method*{.caption}
 
-2. [Download](https://devolutions.net/workspace/) on a mobile device the Devolutions {{ en.WS }} application.
+1. [Download](https://devolutions.net/workspace/) on a mobile device the Devolutions {{ en.WS }} application.
 
 ![Download Devolutions {{ en.WS }}](/img/en/kb/KB2189.png)  
 *Download Devolutions {{ en.WS }}*{.caption}
@@ -62,7 +62,7 @@ Follow the steps below to configure this method.
 ![Scan the QR Code](/img/en/kb/KB2190.png)  
 *Scan the QR Code*{.caption}
 
-The pairing process will begin. After it ends (it should only take a couple of seconds), your Private Key will be stored on the Devolutions {{ en.WS }} mobile application. Next time you connect to your {{ en.PHUB }}, if you choose this authentication method, you will receive a Push notification on your mobile device to verify your identity.  
+The pairing process will begin. After it ends (it should only take a few seconds), your Private Key will be stored on the Devolutions {{ en.WS }} mobile application. Next time you connect to your {{ en.PHUB }}, if you choose this authentication method, you will receive a Push notification on your mobile device to verify your identity.  
 
 At any moment, you can decide to delete that storage configuration by clicking on ***Unpair***. This option is useful if you have pairing problems with your mobile device and want to redo the configuration from the start.  
 
@@ -75,20 +75,24 @@ If you do not have access to a mobile device, this option is the best alternativ
 
 1. In the ***Private Key Storage Methods*** section of your Devolutions Portal, click ***Configure*** in the QR code method box.  
 
-![Configure the QR Code Method](/img/en/kb/KB21.png)  
+![Configure the QR Code Method](/img/en/kb/KB2192.png)  
 *Configure the QR Code Method*{.caption}
 
-2. Either ***Download*** or ***Print*** the QR code. Whichever you choose, be sure to keep it in a safe place.
+1. Either ***Download*** or ***Print*** the QR code. Whichever you choose, be sure to keep it in a safe place.
+
+![Download or Print the QR Code](/img/en/kb/KB2193.png)  
+*Download or Print the QR Code*{.caption}
 
 The configuration process is over. Next time you connect to your {{ en.PHUB }}, if you choose this authentication method, you will need to provide this QR code.
 
-If you encounter problems using this method to authenticate, you can generate a new QR code by clicking on the vertical ellipsis and selecting ***Regenerate a new QR Code***.
+If you encounter problems using this method to authenticate, you can generate a new QR code by clicking on the vertical ellipsis and selecting ***Regenerate a new QR Code***, or you can delete the current code without generating a new one by selecting ***Delete Current QR Code***.  
+
+![Regenerate or Delete a QR Code](/img/en/kb/KB2194.png)  
+*Regenerate or Delete a QR Code*{.caption}
 
 {% snippet icon.badgeCaution %}
 Generating a new QR code makes your old code unusable. We therefore recommend that you delete the old code after generating the new one.
 {% endsnippet %}  
-
-You can also delete the current storage configuration by clicking on the vertical ellipsis and selecting ***Delete Current QR Code***.
 
 ### Store Using a Password
 
@@ -96,4 +100,25 @@ Follow the steps below to configure this method.
 
 1. In the ***Private Key Storage Methods*** section of your Devolutions Portal, click ***Configure*** in the password method box.  
 
+![Configure the Password Method](/img/en/kb/KB2195.png)  
+*Configure the Password Method*{.caption}
 
+1. In the ***Password*** field, enter a password that follows the specified rules written underneath.
+
+{% snippet icon.badgeNotice %}
+If you have installed our {{ en.DWL }} extension in your browser, try its ***Password Generator*** feature to create a secure password that follows these requirements.
+{% endsnippet %}  
+
+3. Enter the same password in the second field to confirm it, then click on ***Create password***.
+
+The configuration process is over. Next time you connect to your {{ en.PHUB }}, if you choose this authentication method, you will need to provide this password.
+
+We recommend that you update your password regularly for extra protection. To do so, click on the ***Change Password*** icon.
+
+![Change Password](/img/en/kb/KB2196.png)  
+*Change Password*{.caption}
+
+Start by entering your current password in the first field, then enter your new password in the last two fields. Your new password must follow the same rules as your current password. Click ***Change Password*** when done.
+
+![Current and New Passwords](/img/en/kb/KB2196.png)  
+*Current and New Passwords*{.caption}
