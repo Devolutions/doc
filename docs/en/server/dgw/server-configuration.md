@@ -9,7 +9,7 @@ eleventyComputed:
 This topic describes how to configure {{ en.DPS }} to connect with {{ en.DGW }}.  
 
 ## Steps for Side-by-side Installation 
-Installing by using the ***Side-by-side*** method creates a free {{ en.DGW }} capable of handling up to 5 concurrent sessions. For networks requiring more sessions, you can use the available {{ en.DGW }} licenses. This installation method is the easier of the two. However, this method is recommended for simpler network layouts, and only one ***Side-by-side*** installation can be done per machine.
+Installing by using the ***Side-by-side*** method creates a free {{ en.DGW }} capable of handling up to 5 concurrent sessions. This method also supports more sessions if there is an available {{ en.DGW }} license(s). This installation process is the easier of the two. However, this method is recommended for simpler network layouts, and only one ***Side-by-side*** installation can be done per machine.
 1. From the {{ en.RDMSCONSOLE }}, click on the ***Companions*** tab.  
 ![Companions Tab](/img/en/server/ServerOp0003.png)
 *Companions Tab*{.caption} 
