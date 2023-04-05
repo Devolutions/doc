@@ -25,7 +25,7 @@ module.exports = function (results) {
           doc = result.url.split('/')[1];
         }
 
-        if (doc === "hub" || doc === "rdm") {
+        if (doc === "rdm") {
           return;
         }
 

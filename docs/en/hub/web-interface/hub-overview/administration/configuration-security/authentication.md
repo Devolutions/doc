@@ -40,7 +40,7 @@ If you enable ***Force SSO on all users*** , users will not have access to {{ en
 
 ## Provisioning 
 
-Synchronize and automate the provisioning and deprovisioning process of your {{ en.PHUB }} &apos;s users and groups by configuring your Identity Provider (Azure Active Directory) with your {{ en.PHUB }} using the SCIM (System for Cross-domain Identity Management) specification under your idP (Identity Provider) configurations.  
+Synchronize and automate the provisioning and deprovisioning process of your {{ en.PHUB }}  's users and groups by configuring your Identity Provider (Azure Active Directory) with your {{ en.PHUB }} using the SCIM (System for Cross-domain Identity Management) specification under your idP (Identity Provider) configurations.  
 
 {% snippet icon.badgeInfo %} 
 [Single Sign-on](#single-sign-on-sso) must first be configured and enabled to set up the provisioning. 
@@ -54,6 +54,6 @@ After having enabled SSO, you can generate a ***SCIM Token*** . You can always d
 You will then get access to the ***Tenant URL*** in addition to the token to [configure the provisioning in Azure](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/) .  
 ![Tenant URL and SCIM Token](/img/en/hub/Hub2200.png)  
 
-When everything has been configured, you can ***Enable the synchronization*** of your {{ en.PHUB }} &apos;s users and groups with the ones in Azure AD.  
+When everything has been configured, you can ***Enable the synchronization*** of your {{ en.PHUB }}  's users and groups with the ones in Azure AD.  
 ![Enable the synchronization](/img/en/hub/Hub2201.png)  
 

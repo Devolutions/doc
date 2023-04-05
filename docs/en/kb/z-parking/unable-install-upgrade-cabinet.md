@@ -12,4 +12,4 @@ When the file is downloaded, extract or copy/paste the content in the C:\Program
 
 Restart {{ en.RDM }} , the latest version will be installed.  
 
-You can download the zip here; [https://remotedesktopmanager.com/Home/Download](https://remotedesktopmanager.com/Home/Download)
+You can download the zip here; [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download)

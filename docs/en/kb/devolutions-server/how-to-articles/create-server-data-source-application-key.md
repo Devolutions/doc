@@ -18,7 +18,7 @@ With the {{ en.RDM }} PowerShell Module, it is possible to connect to a {{ en.DP
 ![General Tab.png](/img/en/kb/KB2120.png) 
 1. Click on the ***PowerShell*** tab.  
 ![PowerShell Tab.png](/img/en/kb/KB2119.png) 
-1. Enter your [***Application key and Application Secret***](https://helpserver.devolutions.net/webinterface_applications.html) in the ***Tenant ID*** field and the ***Password*** field respectively, then click ***OK***.  
+1. Enter your [***Application key and Application Secret***](/server/web-interface/administration/security-management/applications/) in the ***Tenant ID*** field and the ***Password*** field respectively, then click ***OK***.  
 
 Your new {{ en.DPS }} data source is now created. You can now connect to your {{ en.DPS }} and run your scripts.
 

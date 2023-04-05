@@ -4,12 +4,12 @@ title: End User Invitation Experience in Hub Business
 {% youtube 'FObiAXJrBXI' %}  
 
 {% snippet icon.badgeInfo %} 
-The administrator can [Invite Users to log in with single sign-on (SSO)](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) , which is a way to identify a user with a single identifier, to {{ en.PHUB }} Business. The end user invitation experience is different with SSO, as the email the user receives asks them to use the &quot;Sign in with Microsoft&quot; option to log in. If this is the case, please refer to our [End User Invitation Experience for SSO](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/) topic. 
+The administrator can [Invite Users to log in with single sign-on (SSO)](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) , which is a way to identify a user with a single identifier, to {{ en.PHUB }} Business. The end user invitation experience is different with SSO, as the email the user receives asks them to use the “Sign in with Microsoft“ option to log in. If this is the case, please refer to our [End User Invitation Experience for SSO](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/) topic. 
 {% endsnippet %}
  
 Users that are invited to join {{ en.PHUB }} Business by an administrator receive an invitation email. This email varies depending on whether or not the user has a {{ en.DA }} and on the settings of the administrator who sent the invitation. To learn how to invite users, visit [this topic](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/) .  
 
-For information regarding the user&apos;s first login to {{ en.PHUB }} Business, visit one of the sections below based on the user&apos;s situation.  
+For information regarding the user 's first login to {{ en.PHUB }} Business, visit one of the sections below based on the user 's situation.  
 
 * [Invitee with no {{ en.DA }}](#invitee-with-no--enda)  
 * [Invitee with an existing {{ en.DA }}](#invitee-with-an-existing--enda)  

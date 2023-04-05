@@ -37,7 +37,7 @@ Do not close this setup window, as the following steps will show you where to fi
 1. Enter the name of this new application, then click on ***Create*** .  
 
 {% snippet icon.badgeNotice %} 
-We recommend including either &quot;Devolutions&quot; or &quot; {{ en.PHUB }} &quot; in the name. 
+We recommend including either “Devolutions“ or “ {{ en.PHUB }} “ in the name. 
 {% endsnippet %}
  
 ![Application Name](/img/en/hub/Hub2139.png)  
@@ -86,7 +86,7 @@ We recommend including either &quot;Devolutions&quot; or &quot; {{ en.PHUB }} &q
 
 **In Azure AD Portal**  
 
-21. Back in Azure, select ***Certificates &amp; secrets*** in the left side menu, then, in the ***Client secrets*** tab, click on ***New client secret*** .  
+21. Back in Azure, select ***Certificates & secrets*** in the left side menu, then, in the ***Client secrets*** tab, click on ***New client secret*** .  
 ![Certificates & secrets – Client secrets – New client secret](/img/en/hub/Hub2151.png)  
 1. In the ***Add a client secret*** window, enter a ***Description*** (for example, the name of your Enterprise app) and select an expiration date for this client secret, as per your best internal security practices. 
 {% snippet icon.badgeCaution %} 
@@ -115,7 +115,7 @@ Note that when the client secret expires, no one will be able to connect to the 
 
 28. Back in the ***Configure Single Sign-On (SSO)*** window, paste the URL from the last step in the ***Discovery URL*** field.  
 ![Discovery URL](/img/en/hub/Hub2156.png)  
-1. In the ***User Scopes*** field, enter &quot;User.Read&quot;.  
+1. In the ***User Scopes*** field, enter “User.Read“.  
 ![User Scopes](/img/en/hub/Hub2157.png) 
 1. Test the connection to make sure this configuration is done correctly. If it is, your account will connect with Azure AD. 
 1. Click ***Save*** at the bottom.  
@@ -187,7 +187,7 @@ Nested groups are not supported, meaning that Azure provisioning will not synchr
 1. In ***Provisioning*** , ***Enable the synchronization*** .  
 ![Administration – Authentication – Provisioning – Enable the synchronization](/img/en/hub/Hub2191.png)  
 
-Azure&apos;s provisioning frequency is at most 40 minutes. The user groups, including their members, will synchronize within this Azure provisioning time. We recommend that you to verify the first provisioning results.  
+Azure 's provisioning frequency is at most 40 minutes. The user groups, including their members, will synchronize within this Azure provisioning time. We recommend that you to verify the first provisioning results.  
 
 In ***Administration – User Groups*** , the Azure user groups will be added. They are recognizable by the ***Is sync*** group icon next to the group name.  
 ![Synced User Groups](/img/en/hub/Hub2182.png)  

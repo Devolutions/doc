@@ -2,7 +2,7 @@
 title: Hub Business
 ---
 {% snippet icon.badgeInfo %} 
-Start your free {{ en.PHUB }} Business &#32; [trial](https://password.devolutions.net/business/sign-up) today! 
+Start your free {{ en.PHUB }} Business    [trial](https://password.devolutions.net/business/sign-up) today! 
 {% endsnippet %}
  
 1. Access the [{{ en.CUSTP }}](https://portal.devolutions.com/password-hub) {{ en.CUSTP }} section of your {{ en.DA }} to create your {{ en.PHUB }} Business. 

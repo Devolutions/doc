@@ -1,14 +1,19 @@
 ---
 title: Deprecated Entries
+description: For several reasons, multiple entries are tagged as deprecated in Remote Desktop Manager.
 ---
-For several reasons, multiple entries are tagged as deprecated in {{ en.RDM }}
-Here’s how to display them in RDM:
-1. Click on ***New entry***
-1. Press the ellipsis button at the bottom left.
-1. Select ***Show Deprecated Entries***
-Here’s the list of entries:
+For several reasons, multiple entries are tagged as deprecated in {{ en.RDM }}.  
+Here is how to display them:
+1. Got to ***Edit*** and click on ***New Entry***
+1. Click on the ellipsis at the bottom left of the ***Add New Entry*** window.
+1. Select ***Show Deprecated Entries***.  
 
-### Session
+![Edit – New Entry – Show Deprecated Entries](/img/en/kb/KB4130.png)
+*Edit – New Entry – Show Deprecated Entries*{.caption}  
+
+Here is the list of deprecated entries:
+
+## Session
 
 <table>
 	<tr>
@@ -37,7 +42,7 @@ Windows Virtual PC<br>
 	</tr>
 </table>
 
-### Remote Management
+## Remote Management
 
 <table>
 	<tr>
@@ -48,7 +53,7 @@ XenServer Dashboard<br>
 	</tr>
 </table>
 
-### Credential Management
+## Credential Management
 
 <table>
 	<tr>
@@ -61,7 +66,7 @@ Password Vault Manager<br>
 	</tr>
 </table>
 
-### Information
+## Information
 
 <table>
 	<tr>
@@ -86,7 +91,7 @@ Text (RTF)<br>
 	</tr>
 </table>
 
-### Macro/Script/Tool
+## Macro/Script/Tool
 
 <table>
 	<tr>

@@ -20,7 +20,7 @@ Learn how to add a website entry by following the instructions from these sectio
 1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example.  
 ![Login Page](/img/en/hub/Hub2055.png) 
 1. Websites usually ask for information such as an email address/username and a password. Follow the website’s login process until you log in to your account. 
-1. A {{ en.DWL }} &#32; ***Add Website*** window will pop up in the corner of your web browser.  
+1. A {{ en.DWL }}    ***Add Website*** window will pop up in the corner of your web browser.  
 ![Add Website](/img/en/hub/Hub2054.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Select the ***Vault*** and ***Folder*** in which to save your website entry. 
@@ -34,7 +34,7 @@ Your credentials are now securely stored in a new website entry in {{ en.PHUB }}
 ![Hub2055.png](/img/en/hub/Hub2055.png) 
 1. Click on the {{ en.DWL }} extension icon in your browser toolbar and, in the ***Matching*** tab, click on the ***Add Website*** button.  
 ![Add Website Button](/img/en/hub/Hub2057.png) 
-1. The {{ en.DWL }} &#32; ***New Entry - Website*** tab will open in your browser.  
+1. The {{ en.DWL }}    ***New Entry - Website*** tab will open in your browser.  
 ![New Entry - Website (General Tab)](/img/en/hub/Hub2132.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Select the ***Vault*** and ***Folder*** in which to save your credentials. 

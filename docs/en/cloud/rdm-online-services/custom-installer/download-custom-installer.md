@@ -12,7 +12,7 @@ You can store and create up to six ***Custom Installer*** configuration file pac
  
 ### Settings 
 
-1. In {{ en.RDM }} , click on ***File –*** ***{{ en.DA }}*** ***– Custom Installer Manager*** .
+1. In {{ en.RDM }} , click on ***File –{{ en.DA }} – Custom Installer Manager*** .
 ![File - Devolutions Account - Custom Installer Manager.png](/img/en/cloud/clip0009.png)
 1. Select the file in the list, then click on ***Download MSI*** .  
 ![Custom Installer Manager - Download MSI.png](/img/en/cloud/Cloud2000.png)  

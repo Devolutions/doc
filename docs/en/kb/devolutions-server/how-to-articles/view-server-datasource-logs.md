@@ -3,7 +3,7 @@ eleventyComputed:
   title: View {{ en.DPS }} Logs
 ---
 {% snippet icon.badgeInfo %}
-The Log debug information option must be enabled in order to view the logs. Consult the [Logging](/server/web-interface/administration/configuration/server-settings/general/logging/) topic for raising the debug level.
+The Log debug information option must be enabled in order to view the debug logs. Consult the [Logging](/server/web-interface/administration/configuration/server-settings/general/logging/) topic for raising the debug level.
 {% endsnippet %}
 
 The {{ en.DPS }} logs can be consulted in Reports - Data Source Logs  

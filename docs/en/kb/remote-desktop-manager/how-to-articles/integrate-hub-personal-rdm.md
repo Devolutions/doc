@@ -7,7 +7,7 @@ This feature is available in {{ en.RDM }} 2020.3.12 and higher..
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
-To integrate {{ en.PHUBP }} as a data source in {{ en.RDM }} you will be required to create it in your ***{{ en.DA }}*** Follow the steps in this topic to [create your Free {{ en.PHUB }} Personal](https://helphub.devolutions.net/hub_password_hub_personal.html) or visit our website to create your [vault](https://password.devolutions.net/personal) today.
+To integrate {{ en.PHUBP }} as a data source in {{ en.RDM }} you will be required to create it in your ***{{ en.DA }}*** Follow the steps in this topic to [create your Free {{ en.PHUB }} Personal](/hub/getting-started/create-hub/hub-personal/) or visit our website to create your [vault](https://password.devolutions.net/personal) today.
 {% endsnippet %}
 
 Here are the steps to integrate the {{ en.PHUBP }} as a data source in {{ en.RDM }}:  

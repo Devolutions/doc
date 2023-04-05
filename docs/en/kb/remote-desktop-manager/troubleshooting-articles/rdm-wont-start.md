@@ -41,4 +41,4 @@ Expires on
 
 The cause was the improper activation of the license for the tool during the automated build process. In other words, even though we held the proper licensing, the license information was not being passed to the tool.
 ## Solution
-We have since resolved the issue in all builds greater or equal to 2022.1.22.0. Please visit [our download page](https://remotedesktopmanager.com/home/download) to get the latest release.
+We have since resolved the issue in all builds greater or equal to 2022.1.22.0. Please visit [our download page](https://devolutions.net/remote-desktop-manager/home/download) to get the latest release.

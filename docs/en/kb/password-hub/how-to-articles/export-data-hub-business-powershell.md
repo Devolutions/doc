@@ -8,7 +8,7 @@ In {{ en.PHUB }} Business, you can export your data in the Json or Csv format us
 
 ## Steps
 
-Before exporting your data, if not already done, [create an application user](https://helphub.devolutions.net/hub_manage_application_users.html) and assign it the ***Manager*** role to the vault wanted.
+Before exporting your data, if not already done, [create an application user](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) and assign it the ***Manager*** role to the vault wanted.
 
 {% snippet icon.badgeCaution %}
 Keep the ***Application Secret*** and ***Application key*** of your newly-created application user or retrieve them if your user was already set up, as they will be needed in the following steps.

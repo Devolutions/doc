@@ -15,7 +15,7 @@ We strongly recommend that you invite at least one other administrator. Learn ho
 1. Go to ***Administration – Users*** . 
 1. Click ***Add Users*** .  
 ![Hub4181.png](/img/en/hub/Hub4181.png) 
-1. Type the ***User*** &apos;s email address. 
+1. Type the ***User***  's email address. 
 {% snippet icon.badgeInfo %} 
 It is possible to paste a list of email addresses of ***Users*** that will be part of the same [User Groups](/hub/web-interface/hub-overview/administration/management/user-groups/) . Each email address is required to be separated by a semicolon (;) or a comma (,). 
 {% endsnippet %}

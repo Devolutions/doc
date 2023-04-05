@@ -1,6 +1,6 @@
 ---
 title: Create your Hub
-order: 10
+order: 0
 ---
 {{ en.PHUB }} is offered in two versions, Business and Personal (free). Both are secure, cloud-based password managers that link to your {{ en.DA }} .  
 

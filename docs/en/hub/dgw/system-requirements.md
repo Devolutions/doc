@@ -1,7 +1,8 @@
 ---
 title: System Requirements
 ---
-{{ en.DGW }} requires the following: 
+{{ en.DGW }} requires the following:  
+
 ## Requirements 
 
 ### Hardware specifications 
@@ -34,7 +35,7 @@ Network Adapter (1 GB)
 Network Adapter (1 GB) 
 		</td>
 		<td>
-** We recommend deploying multiple {{ en.DGW }} in a [Load balancing topology](/server/overview/topologies/#load-balancing-topology) . 
+** We recommend deploying multiple {{ en.DGW }}. 
 		</td>
 	</tr>
 </table>

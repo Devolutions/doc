@@ -37,7 +37,7 @@ $env:DS_URL= 'http<area>://localhost/dps
 $env:DS_USER = '{votre nom d'utilisateur ici}'  
 $env:DS_PASSWORD = '{votre mot de passe ici}'  
 ```
-3. Le script suivant peut être utilisé pour se connecter en utilisant à nouveau une [clé d'application et son secret](https://helpserver.devolutions.net/fr/webinterface_applications.html) .  
+3. Le script suivant peut être utilisé pour se connecter en utilisant à nouveau une [clé d'application et son secret](/fr/server/web-interface/administration/security-management/applications/) .  
 
 ```
 Import-Module -Name Devolutions.Server -Force  

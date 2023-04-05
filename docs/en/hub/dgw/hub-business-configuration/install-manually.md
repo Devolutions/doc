@@ -18,7 +18,7 @@ This method only works for Windows.
 ![Add button](/img/en/hub/DGW0022.png) 
 1. Select ***Install Manually*** from the dropdown.  
 ![Install Manually](/img/en/hub/DGW0023.png) 
-1. Download the {{ en.DGW }} &#32; ***installer*** and execute it.  
+1. Download the {{ en.DGW }}    ***installer*** and execute it.  
 ![Installer](/img/en/hub/DGW0027.png) 
 1. <a name="7"></a>Click on ***Generate Gateway Public Key and download*** . This key is unique to the {{ en.PHUB }} Business account and can only be generated once. If already generated, the key can be downloaded again, if necessary.  
 ![Gateway Public Key](/img/en/hub/DGW0028.png) 
@@ -34,9 +34,9 @@ The installer should be ran on the server hosting the {{ en.DGW }} .
 ![Configure Now](/img/en/hub/DGW0026.png) 
 1. Input your {{ en.DGW }} access URI. The default port is 443, but can be changed. Click ***Next*** .  
 ![Access URI](/img/en/hub/DGW0029.png) 
-1. HTTP(S) and TCP default ports are 7171 and 8181 respectively, but can be changed. Additionally, if a reverse proxy isn&apos;t used, the ***HTTP Listener*** should have the same port as the ***Access URI*** .  
+1. HTTP(S) and TCP default ports are 7171 and 8181 respectively, but can be changed. Additionally, if a reverse proxy isn 't used, the ***HTTP Listener*** should have the same port as the ***Access URI*** .  
 ![Listeners](/img/en/hub/DGW0030.png) 
-1. After clicking the top ellipsis button, select either a PFX file or a Certificate file, then enter the corresponding password. (If the listener isn&apos;t in ***HTTPS*** or if using a reverse proxy, skip this step)  
+1. After clicking the top ellipsis button, select either a PFX file or a Certificate file, then enter the corresponding password. (If the listener isn 't in ***HTTPS*** or if using a reverse proxy, skip this step)  
 ![Certificate](/img/en/hub/DGW0031.png) 
 1. Click on the ellipsis button and select the ***Provisioner Public Key*** which was generated in <a href="#7">Step 7</a>.  
 ![Public Key](/img/en/hub/DGW0032.png) 
