@@ -108,5 +108,5 @@ We recommend that you update your password regularly for extra protection. To do
 
 Start by entering your current password in the first field, then enter your new password in the last two fields. Your new password must follow the same rules as your current password. Click ***Change Password*** when done.
 
-![Current and New Passwords](/img/en/kb/KB2197.png)  
+![Current and New Passwords](/img/en/kb/KB2197.png)
 *Current and New Passwords*{.caption}
