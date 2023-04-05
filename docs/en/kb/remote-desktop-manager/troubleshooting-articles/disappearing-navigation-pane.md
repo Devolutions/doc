@@ -1,6 +1,9 @@
 ---
 eleventyComputed:
   title: Disappearing {{ en.NPANE }}
+  description: If the {{ en.NPANE }} has disappeared and the ***Reset Layout*** button does not seem to fix the issue, this is an alternate solution.
+  keywords:
+  - Reset Layout
 ---
 
 If the {{ en.NPANE }} has disappeared and the ***Reset Layout*** button does not seem to fix the issue, here is the solution:  
