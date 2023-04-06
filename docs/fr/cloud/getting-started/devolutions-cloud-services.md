@@ -50,7 +50,7 @@ Pour plus d'informations, veuillez consulter
 		<td>
 {{ fr.HUB }} Business est un gestionnaire de mots de passe sécurisé infonuagique pour les équipes et les entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation.  
 
-Pour plus d'informations, veuillez consulter <a href="/cloud/password-hub-business/">{{ en.HUB }} Business</a> . 
+Pour plus d'informations, veuillez consulter <a href="/cloud/hub-business/">{{ en.HUB }} Business</a> . 
 		</td>
 	</tr>
 	<tr>
@@ -60,7 +60,7 @@ Pour plus d'informations, veuillez consulter <a href="/cloud/password-hub-busine
 		<td>
 {{ fr.HUB }} Personal est un gestionnaire de mots de passe gratuit, sécurisé et infonuagique pour les utilisateurs individuels qui souhaitent sécuriser leurs mots de passe personnels.  
 
-Pour plus d'informations, veuillez consulter <a href="/cloud/password-hub-personal/">{{ en.HUB }} Personal</a> . 
+Pour plus d'informations, veuillez consulter <a href="/cloud/hub-personal/">{{ en.HUB }} Personal</a> . 
 		</td>
 	</tr>
 	<tr>
