@@ -36,7 +36,7 @@ Remote Desktop Manager&apos;s security groups are container for sessions, not fo
 ![Security Groups - Add](/img/en/rdm/mac/clip10393.png) 
 1. A Security Group Management dialog will appear. Enter a name and a short description of your new Security Group.  
 ![Security Management dialog](/img/en/rdm/mac/clip10394.png) 
-1. Assign the appropriate [permissions](Administration_Permissions) for each user for your newly created Security Group.  
+1. Assign the appropriate [permissions](/rdm/mac/commands/administration/user-management/permissions/) for each user for your newly created Security Group.  
 ![Security Group Rights](/img/en/rdm/mac/clip10395.png) 
 1. Security groups can then be assigned to entries using the property window. Each entry can only have one security group assigned. For easy maintenance we recommend assigning security groups to groups/folders which will result in the child entries to inherit the security group.  
 ![Session Security Group](/img/en/rdm/mac/clip10445.png) 

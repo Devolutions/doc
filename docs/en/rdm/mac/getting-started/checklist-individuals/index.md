@@ -38,7 +38,7 @@ Step 1 - Register your license:
 Step 2 - Add your Data Source and set up your Devolutions account and a master key. 
 		</td>
 		<td>
-Warning: When choosing any data source type that is not on-premises , you need to think about the safety of the data at rest and during transport. we strongly recommend that you further encrypt your data by applying a master key for file-based solutions, or a [Security Provider](Administration_SecurityProvider) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . This ensures only you can read the data.  
+Warning: When choosing any data source type that is not on-premises , you need to think about the safety of the data at rest and during transport. we strongly recommend that you further encrypt your data by applying a master key for file-based solutions, or a [Security Provider](/rdm/mac/commands/administration/security-provider/) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . This ensures only you can read the data.  
 
 Upon first launch, {{ en.RDM }} for Mac uses an SQLite data source. The different data sources are explained in the [Data Source Types](/rdm/mac/data-sources/data-sources-types/) section. For help seecting a data source tailored to your needs, please see [Choosing your data source (Individuals)](/rdm/mac/getting-started/checklist-individuals/select-data-source-type-individuals/) . 
 		</td>

@@ -10,7 +10,7 @@ Use the File - Export to export entries from {{ en.RDM }} for Mac . Below is a l
 * Export Special (All entries .csv, .html, .xml and All Selection (.csv, .html, .xml) 
 
 {% snippet icon.badgeInfo %} 
-The export feature is only active if the import [Permission](Administration_Permissions) has been enabled inside the user account 
+The export feature is only active if the import [Permission](/rdm/mac/commands/administration/user-management/permissions/) has been enabled inside the user account 
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %} 
@@ -22,7 +22,7 @@ The only appropriate format to import the entries back into Remote Desktop Manag
 ![File - Export](/img/en/rdm/mac/clip10315.png) 
 
 {% snippet icon.badgeInfo %} 
-When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , export capabilities can be disabled via security policies at the data source level (no one can export) or at a user level (particular users can&apos;t export). See [Security Group Management](Administration_SecurityGroupManagement) for more information. 
+When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , export capabilities can be disabled via security policies at the data source level (no one can export) or at a user level (particular users can&apos;t export). See [Security Group Management](/rdm/mac/commands/administration/security-group-management/) for more information. 
 {% endsnippet %}
  
 ### Export All Entries (.rdm) 

@@ -66,7 +66,7 @@ Connect to a privileged account, copy its password, and manage its checkout/chec
 	</tr>
 	<tr>
 		<td>
-[Task List](View_TodoList) 
+[Task List](/rdm/mac/commands/view/task-list/) 
 		</td>
 		<td>
 Display a list of your current tasks. 
@@ -98,7 +98,7 @@ Launch a ***Quick Connect*** session.
 	</tr>
 	<tr>
 		<td>
-[Activity Logs](Actions_View_Logs) 
+[Activity Logs](/rdm/mac/commands/view/activity-logs/) 
 		</td>
 		<td>
 Open the ***Activity Logs*** . 

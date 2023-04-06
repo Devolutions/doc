@@ -59,7 +59,7 @@ Use the credentials stored in My Personal Credentials
 {{ en.PVLT }} credential entry 
 		</td>
 		<td>
-Use a [{{ en.PVLT }}](Navigation_PrivateVault) credential entry. 
+Use a [{{ en.PVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) credential entry. 
 		</td>
 	</tr>
 </table>

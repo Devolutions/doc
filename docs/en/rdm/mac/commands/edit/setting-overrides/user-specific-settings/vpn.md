@@ -7,7 +7,7 @@ When using a VPN on your session this allows you to override the VPN credentials
 
 Select the credentials you wish to use to override your VPN credentials. Fore more information on the credentials please see [Override credentials](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/) .  
 
-The [{{ en.PVLT }}](Navigation_PrivateVault) credential entry is only available under the following conditions:  
+The [{{ en.PVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) credential entry is only available under the following conditions:  
 
 1. the {{ en.PVLT }} is available for your data source; 
 1. You are overriding at the folder level; 

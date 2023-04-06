@@ -17,7 +17,7 @@ This feature is only available for the following data sources: [{{ en.RDMS }}](/
 1. Click on ***New*** to open the ***Task Management*** window.  
 ![New Button](/img/en/rdm/mac/RDMMac0018.png) 
 1. Enter your task information, like the name of the task, the priority, the due date, the description, etc.  
-![Task Management](/img/en/rdm/mac/RDMMac0019.png) 
+![Task Management](/img/en/rdm/mac/rdmmac0019.png) 
 
 <table>
 	<tr>

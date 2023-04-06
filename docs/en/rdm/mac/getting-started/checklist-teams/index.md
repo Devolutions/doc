@@ -38,7 +38,7 @@ Step 1 - Register your license:
 Step 2 - Add your [Data Source (for teams)](/rdm/mac/getting-started/checklist-teams/select-data-source-type-teams/) . 
 		</td>
 		<td>
-Warning: When choosing any data source type that is not on-premises , you need to think about the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions, or a [Security Provider](Administration_SecurityProvider) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . This ensures only you can read the data.  
+Warning: When choosing any data source type that is not on-premises , you need to think about the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions, or a [Security Provider](/rdm/mac/commands/administration/security-provider/) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . This ensures only you can read the data.  
 
 Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different data sources are explained in the [Data Sources](rdm/mac/data-sources/) section. For help selecting a data source tailored to your needs, please see [Choosing your data source (Teams)](/rdm/mac/getting-started/checklist-teams/select-data-source-type-teams/) . 
 		</td>
@@ -48,7 +48,7 @@ Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different d
 
 		</td>
 		<td>
-Step 3 - Select your [Security Provider](Administration_SecurityProvider) . 
+Step 3 - Select your [Security Provider](/rdm/mac/commands/administration/security-provider/) . 
 		</td>
 		<td>
 Select your Security Provider before importing or creating any data in your database so nobody can read your entry configuration data, even when people have a direct access to your database. 
@@ -92,10 +92,10 @@ Step 6 - Create [Users](/rdm/mac/commands/administration/user-management/) .
 
 		</td>
 		<td>
-Step 7 - Create [User Groups](Administration_RoleManagement) . 
+Step 7 - Create [User Groups](/rdm/mac/commands/administration/user-groups-management/) . 
 		</td>
 		<td>
-Create [User Groups](Administration_RoleManagement) to easily manage your security system. You can then assign users to User groups, making it easy to grant permissions to a set of users instead of having to manage permissions individually. 
+Create [User Groups](/rdm/mac/commands/administration/user-groups-management/) to easily manage your security system. You can then assign users to User groups, making it easy to grant permissions to a set of users instead of having to manage permissions individually. 
 		</td>
 	</tr>
 	<tr>
@@ -114,10 +114,10 @@ An Entry is how you save information about your sessions (e.g. RDP, SSH connecti
 
 		</td>
 		<td>
-Step 9 - Grant [Permissions](Administration_Permissions) . 
+Step 9 - Grant [Permissions](/rdm/mac/commands/administration/user-management/permissions/) . 
 		</td>
 		<td>
-Once your users are created you can then grant [Permissions](Administration_Permissions) for user groups based access control. The permissions granted on the folder can be inherited by each entry set under that folder. 
+Once your users are created you can then grant [Permissions](/rdm/mac/commands/administration/user-management/permissions/) for user groups based access control. The permissions granted on the folder can be inherited by each entry set under that folder. 
 		</td>
 	</tr>
 	<tr>

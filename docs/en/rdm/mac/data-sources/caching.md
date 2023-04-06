@@ -60,7 +60,7 @@ You can then follow the path Application Support/com.devolutions.remotedesktopma
 The file is a SQLite database encrypted using a non-portable computed key hash.  
 
 {% snippet icon.shieldNotice %} 
-You can enhance the security of the offline file by setting the Enhanced security in the Data Sources Preferences – [Offline Security](RDM_Preferences_Security) . 
+You can enhance the security of the offline file by setting the Enhanced security in the Data Sources Preferences – [Offline Security](/rdm/mac/commands/file/preferences/security/) . 
 {% endsnippet %}
  
 {% snippet icon.badgeHelp %} 

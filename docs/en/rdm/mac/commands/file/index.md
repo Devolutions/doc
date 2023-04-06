@@ -15,7 +15,7 @@ See the following topics to learn more about each setting:
 * [Manage Passwords](/rdm/mac/commands/file/manage-password/) 
 * [Import](/rdm/mac/commands/file/import/overview/) 
 * [Export](/rdm/mac/commands/file/export/overview/) 
-* [Preferences](RDM_Preferences_General) 
+* [Preferences](/rdm/mac/commands/file/preferences/general/) 
 * [My Account Settings](/rdm/mac/commands/file/my-account-settings/) 
 * [Templates](/rdm/mac/commands/file/templates/) 
 

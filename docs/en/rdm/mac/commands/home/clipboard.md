@@ -41,7 +41,7 @@ Copy the domain define in your session to the clipboard.
 The copy/paste of a session entry is also possible. You can paste the session into a different data source or simply create a copy of it. It is a quick way to move/duplicate an item. 
 
 {% snippet icon.badgeInfo %}
-When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , the user must have Add Session rights in the [User Management](Administration_Permissions) to be able to copy/paste sessions. 
+When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , the user must have Add Session rights in the [User Management](/rdm/mac/commands/administration/user-management/permissions/) to be able to copy/paste sessions. 
 {% endsnippet %}
  
 

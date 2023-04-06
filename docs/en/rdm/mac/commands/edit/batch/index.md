@@ -81,7 +81,7 @@ Use {{ en.PVLT }} search
 		</td>
 		<td>
 
-Use credentials stored in your [{{ en.PVLT }}](Navigation_PrivateVault) . 
+Use credentials stored in your [{{ en.PVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) . 
 		</td>
 	</tr>
 	<tr>
