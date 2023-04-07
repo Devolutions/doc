@@ -65,8 +65,11 @@ Do not share the private key with other users, as it can be used to decrypt the 
 8. Click ***Next***.  
 ![Listeners](/img/en/server/ServerOp0010.png)
 *Listeners*{.caption} 
-1. Choose between ***Use public key from DVLS instance 'Devolutions Server'*** : this option is used if the installed {{ en.DGW }} is on the same server as the {{ en.DPS }};  
-and ***From file***: If installing {{ en.DGW }} on another computer, download the public key from the {{ en.DPS }} you want to pair with that {{ en.DGW }}.
+1. Choose between: 
+    * ***Use public key from DVLS instance 'Devolutions Server'***: this option is used if the installed {{ en.DGW }} is on the same server as the {{ en.DPS }};  
+    * ***From file***: If installing {{ en.DGW }} on another computer, download the public key from the {{ en.DPS }} you want to pair with that {{ en.DGW }}. It is located under ***Administration – {{ en.DGW }}***.  
+![Download public key](/img/en/server/ServerOp0016.png)
+*Download public key*{.caption}  
 1. Click ***Next***.  
 ![Key Pair Configuration](/img/en/server/ServerOp0011.png)
 *Key Pair Configuration*{.caption} 
@@ -95,4 +98,3 @@ and ***From file***: If installing {{ en.DGW }} on another computer, download th
 1. The {{ en.DGW }} should now be visible in the list. It is possible to verify the status of the gateway with the ***Ping*** button.  
 ![Ping](/img/en/server/ServerOp0007.png)
 *Ping*{.caption}
-
