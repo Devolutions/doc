@@ -1,4 +1,62 @@
 ---
 title: Accès rapide
 ---
-TBD
+La barre de ***Accès rapide*** , qui se trouve en haut de l&apos;application, est composée de plusieurs parties:  
+
+* Commandes favorites 
+* Contrôle de la Connexion rapide 
+* Recherche 
+* Commande de verrouillage  
+
+![Barre d'accès rapide](/img/fr/rdm/mac/clip4371.png) 
+
+## Paramètres 
+
+### Commandes favorites 
+
+![Commandes favorites](/img/fr/rdm/mac/clip4322.png) 
+
+<table>
+	<tr>
+		<td>
+Option 
+		</td>
+		<td>
+Description 
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+![clip4323.png](/img/fr/rdm/mac/clip4323.png) 
+		</td>
+		<td>
+Créer une nouvelle entrée dans votre source de données actuelle. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+![clip4324.png](/img/fr/rdm/mac/clip4324.png) 
+		</td>
+		<td>
+Ouvrir la fenêtre des propriétés de votre entrée sélectionnée 
+		</td>
+	</tr>
+</table>
+
+### Contrôle de la Connexion rapide 
+
+![Connexion rapide](/img/fr/rdm/mac/clip4372.png) 
+Veuillez vous référer à [Connexion rapide](/fr/rdm/mac/commands/view/quick-connect/) 
+
+### Recherche 
+
+![Recherche](/img/fr/rdm/mac/clip4373.png) 
+Veuillez vous référer à [Recherche](/fr/rdm/mac/user-interface/quick-access/search/) 
+
+### Commande de verrouillage 
+
+![Commande de verrouillage](/img/fr/rdm/mac/clip4325.png) 
+Veuillez vous référer à [Commande de verrouillage](/fr/rdm/mac/commands/file/lock-application/) 
+
+
