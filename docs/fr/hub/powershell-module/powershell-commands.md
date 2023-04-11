@@ -1116,6 +1116,7 @@ New-HubEntry
 
 * VaultId  
 * PSDecryptedEntry  
+* DocumentPath  
 		</td>
 		<td>
 Ajoute une nouvelle entrée à un coffre spécifique de Hub avec l'entrée PSDecryptedEntry fournie. 
