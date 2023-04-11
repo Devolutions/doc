@@ -12,22 +12,29 @@ Ce sujet décrit comment configurer {{ fr.DPS }} pour se connecter avec {{ fr.DG
 ## Étapes pour l'installation côte à côte
 L'installation par la méthode ***côte à côte*** crée un {{ fr.DGW }} gratuit capable de gérer jusqu'à 5 sessions simultanées. Cette méthode permet également de gérer davantage de sessions si une ou plusieurs licences {{ fr.DGW }} sont disponibles. Cette procédure d'installation est la plus simple des deux. Cependant, cette méthode est recommandée pour les mises en page de réseau plus simples, et une seule installation ***côte à côte*** peut être effectuée par machine.
 1. Depuis la {{ fr.RDMSCONSOLE }}, cliquer sur l'onglet ***Compagnons***.  
-
+![Onglet Compagnons](/img/fr/server/ServerOp0003.png)
+*Onglet Compagnons*{.caption} 
 1. Dans la section {{ fr.DGW }}, cliquer sur ***Installer***.
 1. Choisir ***Installation côte à côte***.  
+![Installation côte à côte](/img/fr/server/ServerOp0004.png)
+*Instalattion côte à côte*{.caption}
 {% snippet icon.badgeHelp %}
 Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/gateway/download) pour installer le {{ fr.DGW }} sur un {{ fr.DPS }} hors ligne.
 {% endsnippet %}
 
 4. Si les valeurs par défaut ne fonctionnent pas pour votre environnement, saisir les paramètres souhaités.
-    1. ***HTTP Listener*** : Port HTTP(s) pour accéder à la passerelle. (7171 par défaut)
-    1. ***TCP Listener*** : Port utilisé pour les sessions RDP. (8181 par défaut)
-1. Cliquer sur ***Ok***.
+    1. ***Port d'écoute HTTP*** : Port HTTP(s) pour accéder à la passerelle. (7171 par défaut)
+    1. ***Port d'écoute TCP*** : Port utilisé pour les sessions RDP. (8181 par défaut)
+1. Cliquer sur ***Ok***.  
+![Bouton Ok](/img/fr/server/ServerOp0005.png)
+*Bouton Ok*{.caption}
 1. Accéder à l'interface Web {{ fr.DPS }}, se connecter avec un compte administrateur.
 1. Aller dans ***Administration*** – ***{{ fr.DGW }}***.  
-
+![{{ fr.DGW }}](/img/fr/server/ServerOp0006.png)
+*{{ fr.DGW }}*{.caption}
 1. Cliquer sur le bouton ***Ping*** pour tester la passerelle souhaitée dans la liste et voir si une connexion peut être établie avec succès. Si la page était déjà ouverte, il faut d'abord la rafraîchir.  
-
+![Ping](/img/fr/server/ServerOp0007.png)
+*Ping*{.caption}
 
 ## Étapes pour l'installation autonome
 L'installation en utilisant la méthode ***autonome*** permettra d'installer {{ fr.DGW }} sur un serveur distinct de {{ fr.DPS }}. Cela peut être pour des raisons de performance ou pour accéder à des réseaux auxquels {{ fr.DPS }} ne peut pas accéder. Plusieurs {{ fr.DGW }} peuvent être utilisés par {{ fr.DPS }}, mais un seul {{ fr.DGW }} peut être installé sur une machine.
