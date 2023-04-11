@@ -27,7 +27,7 @@ Your new {{ en.DPS }} data source is now created. You can now connect to your {{
 
 1. Using the PowerShell cmdlets, paste the following sample script:
 
-   ```powershell
+   ```PowerShell
    $dsname = "DVLS PowerShell"
    $dsurl = "https<area>://your_dvls_url"
    $appkey = "your_appkey"
