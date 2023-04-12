@@ -1,15 +1,19 @@
 ---
 eleventyComputed:
   title: Configuration pour le {{ fr.DPS }}
-  descrpition: Ce sujet décrit comment configurer {{ fr.DPS }} pour se connecter avec {{ fr.DGW }}.
+  descrpition: Ce sujet décrit comment configurer {{ fr.DPS }}, gratuit ou non, pour se connecter avec {{ fr.DGW }}.
   keywords:
   - VPN
   - Listener
 ---
 
-Ce sujet décrit comment configurer {{ fr.DPS }} pour se connecter avec {{ fr.DGW }}.
+Ce sujet décrit comment configurer {{ fr.DPS }} pour se connecter avec {{ fr.DGW }}. Pour en savoir plus sur le {{ en.DGW }} gratuit, allez à la <a href="#Étapes pour l'installation côte à côte">section suivante</a>.
 
-## Étapes pour l'installation côte à côte
+## <a name="Étapes pour l'installation côte à côte">Étapes pour l'installation côte à côte</a>
+{% snippet icon.badgeInfo %}
+Pour mettre en place un {{ en.DGW }} gratuit, il faut l'installer en utilisant l'installation côte à côte.
+{% endsnippet %}  
+
 L'installation par la méthode ***côte à côte*** crée un {{ fr.DGW }} gratuit capable de gérer jusqu'à 5 sessions simultanées. Cette méthode permet également de gérer davantage de sessions si une ou plusieurs licences {{ fr.DGW }} sont disponibles. Cette procédure d'installation est la plus simple des deux. Cependant, cette méthode est recommandée pour les mises en page de réseau plus simples, et une seule installation ***côte à côte*** peut être effectuée par machine.
 1. Depuis la {{ fr.RDMSCONSOLE }}, cliquer sur l'onglet ***Compagnons***.  
 ![Onglet Compagnons](/img/fr/server/ServerOp0003.png)
