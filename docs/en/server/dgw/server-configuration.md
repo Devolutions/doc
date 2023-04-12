@@ -1,14 +1,18 @@
 ---
 eleventyComputed:
   title: Devolutions Server Configuration
-  descrpition: This topic describes how to configure {{ en.DPS }} to connect with {{ en.DGW }}.
+  descrpition: This topic describes how to configure {{ en.DPS }}, free or not, to connect with {{ en.DGW }}.
   keywords:
   - VPN
   - Listener
 ---
-This topic describes how to configure {{ en.DPS }} to connect with {{ en.DGW }}.  
+This topic describes how to configure {{ en.DPS }} to connect with {{ en.DGW }}. To read about the free {{ en.DGW }}, go to the <a href="#Steps for Side-by-side Installation">next section</a>.
 
-## Steps for Side-by-side Installation 
+## <a name="Steps for Side-by-side Installation">Steps for Side-by-side Installation</a>
+{% snippet icon.badgeInfo %}
+To set up a free {{ en.DGW }}, it must be installed using the Side-by-side configuration.
+{% endsnippet %}  
+
 Installing by using the ***Side-by-side*** method creates a free {{ en.DGW }} capable of handling up to 5 concurrent sessions. This method also supports more sessions if there is an available {{ en.DGW }} license(s). This installation process is the easier of the two. However, this method is recommended for simpler network layouts, and only one ***Side-by-side*** installation can be done per machine.
 1. From the {{ en.RDMSCONSOLE }}, click on the ***Companions*** tab.  
 ![Companions Tab](/img/en/server/ServerOp0003.png)
