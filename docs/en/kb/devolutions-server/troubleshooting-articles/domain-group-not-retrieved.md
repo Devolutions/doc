@@ -5,10 +5,40 @@ keywords:
 - Domain Group
 - Domain Diagnostic
 ---
+This topic will cover both <a href="#Teams/Enterprise">Teams/Enterprise</a> licences and <a href="#Platinum">Platinum</a> licences.
 
+## <a name="Teams/Enterprise">Teams/Enterprise</a>
 1. Access the {{ en.DPS }} web interface and connect using an administrator account.
 1. Go to the ***Administration*** tab.
-1. Go to the ***Server Settings – Authentification – Domains*** page.  
+1. Go to the ***Server Settings – Authentication – Domain*** page.  
+![Domain](/img/en/kb/KB0022.png)
+*Domain*{.caption} 
+1. Click on the ***Diagnostics*** button to the top right.  
+![Diagnostics](/img/en/kb/KB0023.png)
+*Diagnostics*{.caption} 
+1. Set the ***Diagnostic type*** option to ***Get groups by user***.  
+![Get groups by user](/img/en/kb/KB0013.png)
+*Get groups by user*{.caption} 
+1. Enter a username from the problematic group in the ***Parameter*** field.
+1. Set the ***Strategy*** option to ***Directory entry token group***. If this fails, instead use ***Directory entry token group (Legacy)*** or ***Recursively***.  
+![Strategy](/img/en/kb/KB0014.png)
+*Strategy*{.caption} 
+1. Click on ***Get Diagnostic***.  
+![Get Diagnostic Button](/img/en/kb/KB0015.png)
+*Get Diagnostic Button*{.caption} 
+1. Close this window by clicking on ***Close***.
+1. Click on ***Advanced Settings***.  
+![Advanced Settings Button](/img/en/kb/KB0024.png)
+*Advanced Settings Button*{.caption} 
+1. Under ***Strategy***, change the ***Get groups by user*** option to the one selected in step 7.  
+![Strategy – Get groups by user](/img/en/kb/KB0018.png)
+*Strategy – Get groups by user*{.caption} 
+1. Click on ***OK*** to save the changes.
+
+## <a name="Platinum">Platinum</a>
+1. Access the {{ en.DPS }} web interface and connect using an administrator account.
+1. Go to the ***Administration*** tab.
+1. Go to the ***Server Settings – Authentication – Domains*** page.  
 ![Domains](/img/en/kb/KB0011.png)
 *Domains*{.caption} 
 1. Click on the ***Diagnostics*** button to the right of the correct domain.  
