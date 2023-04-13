@@ -98,7 +98,8 @@ Do not share the private key with other users, as it can be used to decrypt the 
     1. ***TCP Listening Port***: Set the port with the same TCP port value configured in the console.
 1. Click on ***Save***.  
 ![{{ en.DGW }} Information](/img/en/server/ServerOp0015.png)
-*{{ en.DGW }} Information*{.caption}
+*{{ en.DGW }} Information*{.caption}  
+
 The {{ en.DGW }} should now be visible in the list. It is possible to verify the status of the gateway with the ***Ping*** button.  
 ![Ping](/img/en/server/ServerOp0007.png)
 *Ping*{.caption}

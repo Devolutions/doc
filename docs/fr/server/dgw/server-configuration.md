@@ -100,6 +100,7 @@ Ne partager pas la clé privée avec d'autres utilisateurs, car elle peut être 
 1. Cliquer sur ***Enregistrer***.  
 ![Bouton Enregistrer](/img/fr/server/ServerOp0016.png)
 *Bouton Enregistrer*{.caption}  
+
 Le {{ fr.DGW }} devrait maintenant être visible dans la liste. Il est possible de vérifier l'état de la passerelle à l'aide du bouton ***Ping***.  
 ![Ping](/img/fr/server/ServerOp0007.png)
 *Ping*{.caption}
