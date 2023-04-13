@@ -1,7 +1,7 @@
 module.exports = function() {
   return {
     layout: 'layouts/markdown.njk',
-    trees: ['windows'],
-    tree: 'windows'
+    trees: ['rdm/windows'],
+    tree: 'rdm/windows'
   }
 }

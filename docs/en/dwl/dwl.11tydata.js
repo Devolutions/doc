@@ -10,6 +10,6 @@ module.exports = () => ({
     'hub',
     'server',
     'rdm/windows',
-    'rdm/mac'
+    'rdm/mac',
   ]
 });
