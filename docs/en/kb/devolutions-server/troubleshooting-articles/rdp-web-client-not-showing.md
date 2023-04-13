@@ -24,7 +24,7 @@ You must have at least a <a href="https://helprdm.devolutions.net/rdm_administra
 
 ### Devolutions Gateway
 
-Devolutions Gateway is required to open a RDP session in the Web Client of {{ en.DPS }}. If you do have a Gateway installed, check its configuration.
+Devolutions Gateway is required to open a RDP session in the Web Client of {{ en.DPS }}. If you do have a Gateway installed, check its <a href="https://docs.devolutions.net/server/dgw/server-configuration/" target="_blank">configuration</a>.
 
 ### View Password Permission
 
