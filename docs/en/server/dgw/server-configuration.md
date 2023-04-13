@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Devolutions Server Configuration
-  descrpition: This topic describes how to configure {{ en.DPS }}, free or not, to connect with {{ en.DGW }}.
+  description: This topic describes how to configure {{ en.DPS }}, free or not, to connect with {{ en.DGW }}.
   keywords:
   - VPN
   - Listener
@@ -31,7 +31,7 @@ It is possible to download an [.msi](https://devolutions.net/gateway/download) f
 1. Click ***Ok***.  
 ![Ok Button](/img/en/server/ServerOp0005.png)
 *Ok Button*{.caption}
-1. Go to the {{ en.DPS }} web interface, connect with an admin account.
+1. Go to the {{ en.DPS }} web interface, connect with an administrator account.
 1. Go to ***Administration – {{ en.DGW }}***.  
 ![{{ en.DGW }}](/img/en/server/ServerOp0006.png)
 *{{ en.DGW }}*{.caption}
