@@ -18,7 +18,7 @@ Les instructions suivantes expliquent comment utiliser {{ fr.DGW }} dans une ses
 1. Dans la même section, définir l'option ***Se connecter*** sur ***Toujours connecté***.  
 ![Toujours connecté](/img/fr/server/DGW0009.png) 
 *Toujours connecté*{.caption} 
-1. Dans l'onglet ***Paramètres (Devolutions Gateway)***, sélectionner la passerelle configurée dans la [Configuration {{ fr.DPS }}](/fr/server/dgw/server-configuration/).  
+1. Dans l'onglet ***Paramètres (Devolutions Gateway)***, sélectionner la passerelle configurée dans la [Configuration pour le {{ fr.DPS }}](/fr/server/dgw/server-configuration/).  
 ![Paramètres](/img/fr/server/DGW0007.png) 
 *Paramètres*{.caption} 
 {% snippet icon.badgeInfo %}

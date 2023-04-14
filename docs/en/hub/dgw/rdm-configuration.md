@@ -18,7 +18,7 @@ The following instructions explain how to use {{ en.DGW }} in an RDP session.
 1. In the same section, set the ***Connect*** option to ***Always connect***.  
 ![Always Connect](/img/en/hub/DGW0009.png) 
 *Always Connect*{.caption} 
-1. In the ***Settings (Devolutions Gateway)*** tab select the gateway configured in [{{ en.HUB }} Configuration](/hub/dgw/hub-business-configuration/index/).  
+1. In the ***Settings (Devolutions Gateway)*** tab select the gateway configured in [{{ en.HUB }} Business Configuration](/hub/dgw/hub-business-configuration/).  
 ![Settings](/img/en/hub/DGW0007.png) 
 *Settings*{.caption} 
 {% snippet icon.badgeInfo %}
