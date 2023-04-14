@@ -44,3 +44,4 @@ The following bullet list describe each steps a support technician will follow t
 1. If required, install the latest {{ en.RDM }} version that belongs to the {{ en.DPS }} version.
 1. Test connectivity from {{ en.RDM }} to the {{ en.DPS }} data source.
 1. Make sure that the encryption keys will be exported and put in a safe place for security measure. These encryption keys are required for disaster recovery
+1. Ensure that the {{ en.RDM }} and the {{ en.DPS }} licenses match.
