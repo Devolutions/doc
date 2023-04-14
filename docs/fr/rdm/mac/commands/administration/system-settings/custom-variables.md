@@ -21,7 +21,7 @@ Description
 Variables personnalisées 
 		</td>
 		<td>
-Ajouter une nouvelle variable personnalisée à utiliser dans votre configuration de source de données ou avec n&apos;importe quel modèle. 
+Ajouter une nouvelle variable personnalisée à utiliser dans votre configuration de source de données ou avec n'importe quel modèle. 
 		</td>
 	</tr>
 </table>

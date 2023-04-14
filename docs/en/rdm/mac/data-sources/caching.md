@@ -53,7 +53,7 @@ Use the offline cache only for recent changes. The cache will write on the disk.
 
 ### Storage 
 
-You can find the configuration file by doing a right click on your Finder - Go to Folder and in the Folder dialog type &#160;~/Library.  
+You can find the configuration file by doing a right click on your Finder - Go to Folder and in the Folder dialog type  ~/Library.  
 
 You can then follow the path Application Support/com.devolutions.remotedesktopmanager select the pertaining database where you will find the offline.db file.  
 

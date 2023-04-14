@@ -1,7 +1,7 @@
 ---
 title: Paramètres
 ---
-La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) vous permet de sauvegarder votre [Devolutions Online Drive](/fr/rdm/mac/data-sources/data-sources-types/online-drive/) , [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/) ou une source de données [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) dans un stockage en ligne sûr. L&apos;option de sauvegarde est disponible via le menu ***Fichier - Copie de sauvegarde*** .  
+La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) vous permet de sauvegarder votre [Devolutions Online Drive](/fr/rdm/mac/data-sources/data-sources-types/online-drive/) , [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/) ou une source de données [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) dans un stockage en ligne sûr. L'option de sauvegarde est disponible via le menu ***Fichier - Copie de sauvegarde*** .  
 
 ## Paramètres 
 
@@ -21,13 +21,13 @@ La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) vous perm
 4. Une fois le nom de la sauvegarde défini, effectuer un changement dans la source de données pour activer correctement la sauvegarde en ligne, puis cliquer sur ***Fichier - Exécuter la sauvegarde*** .  
 ![Confirmation de sauvegarde](/img/fr/rdm/mac/RdmMac4015.png) 
 
-### Voir l&apos;historique 
+### Voir l'historique 
 
-5. Cliquer sur ***Fichier - Copie de sauvegarde - Voir l&apos;historique*** pour vérifier que la sauvegarde en ligne a été configurée correctement.  
+5. Cliquer sur ***Fichier - Copie de sauvegarde - Voir l'historique*** pour vérifier que la sauvegarde en ligne a été configurée correctement.  
 ![Voir l'historique](/img/fr/rdm/mac/2015-05-25_13-12-31.png) 
 
 {% snippet icon.shieldCaution %} 
-Vous devez effectuer cette opération pour toutes vos sources de données SQLite ou XML afin d&apos;être entièrement sécurisé. 
+Vous devez effectuer cette opération pour toutes vos sources de données SQLite ou XML afin d'être entièrement sécurisé. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

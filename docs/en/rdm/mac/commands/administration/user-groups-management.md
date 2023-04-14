@@ -3,7 +3,7 @@ title: User Groups Management
 keywords:
 - role
 ---
-User Groups in {{ en.RDM }} for Mac are mainly used to reduce the time taken to manage users. The management of permissions granted to user groups are quite similar to the corresponding notions for users, but instead of a single user, they apply to all users to which you&apos;ve assigned the user groups.  
+User Groups in {{ en.RDM }} for Mac are mainly used to reduce the time taken to manage users. The management of permissions granted to user groups are quite similar to the corresponding notions for users, but instead of a single user, they apply to all users to which you've assigned the user groups.  
 ![Administration - User Groups](/img/en/rdm/mac/clip10396.png) 
 
 {% snippet icon.badgeInfo %} 
@@ -174,10 +174,10 @@ An advanced cache, with change synchronization, is allowed for [Advanced Data So
 
 ## Assign a user groups 
 
-To assign user group to a user or to manage user groups for a user go in Administration - User groups &#160;and click on Assign user groups .  
+To assign user group to a user or to manage user groups for a user go in Administration - User groups  and click on Assign user groups .  
 ![User and Security Management - User Groups](/img/en/rdm/mac/clip10404.png) 
 
-It&apos;s possible to assign a user group to multiple users at the same time. Select the users you wish to apply the selected user group or you can simply click Select All or Unselect All .  
+It's possible to assign a user group to multiple users at the same time. Select the users you wish to apply the selected user group or you can simply click Select All or Unselect All .  
 ![User Group Assignment](/img/en/rdm/mac/clip10405.png) 
 
 ### User groups in {{ en.RDMS }} 

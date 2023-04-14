@@ -1,7 +1,7 @@
 ---
 title: Déplacer
 ---
-Si vous souhaitez déplacer une entrée sous un autre dossier, vous avez la possibilité de sélectionner votre entrée avec votre souris et de la déplacer sous le bon groupe ou dossier, mais pour éviter les erreurs faciles et la déplacer sous le mauvais, nous vous suggérons fortement d&apos;utiliser l&apos;option ***Déplacer*** . 
+Si vous souhaitez déplacer une entrée sous un autre dossier, vous avez la possibilité de sélectionner votre entrée avec votre souris et de la déplacer sous le bon groupe ou dossier, mais pour éviter les erreurs faciles et la déplacer sous le mauvais, nous vous suggérons fortement d'utiliser l'option ***Déplacer*** . 
 
 ## Paramètres 
 

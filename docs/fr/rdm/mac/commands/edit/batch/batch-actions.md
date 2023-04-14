@@ -1,10 +1,10 @@
 ---
 title: Modifier (Actions spéciales)
 ---
-Utiliser les options ***Modifier - Modifier (Actions spéciales)*** pour modifier les paramètres de plusieurs entrées en une seule opération. Il peut être utilisé pour une commande d&apos;action par lots sur un groupe d&apos;entrée.  
+Utiliser les options ***Modifier - Modifier (Actions spéciales)*** pour modifier les paramètres de plusieurs entrées en une seule opération. Il peut être utilisé pour une commande d'action par lots sur un groupe d'entrée.  
 
 {% snippet icon.badgeInfo %} 
-Les modifications par lots sont appliquées qu&apos;aux entrées actuellement sélectionnées dans votre volet de navigation. 
+Les modifications par lots sont appliquées qu'aux entrées actuellement sélectionnées dans votre volet de navigation. 
 {% endsnippet %}
  
 ![Modifier - Modifier (Actions spéciales)](/img/fr/rdm/mac/clip4074.png) 
@@ -37,7 +37,7 @@ Exécuter une commande AppleScript personnalisée sur plusieurs entrées sélect
 Détecter Adresses Mac 
 		</td>
 		<td>
-Analysera toutes vos entrées dans votre base de données actuelle pour détecter s&apos;il y a des adresses Mac 
+Analysera toutes vos entrées dans votre base de données actuelle pour détecter s'il y a des adresses Mac 
 		</td>
 	</tr>
 </table>
@@ -45,7 +45,7 @@ Analysera toutes vos entrées dans votre base de données actuelle pour détecte
 ### Web 
 
 {% snippet icon.badgeInfo %} 
-Ces options ne fonctionnent qu&apos;avec l&apos;entrée de session ***Site Web*** , PAS avec l&apos;entrée d&apos;informations ***Site Web (Ancien)*** . 
+Ces options ne fonctionnent qu'avec l'entrée de session ***Site Web*** , PAS avec l'entrée d'informations ***Site Web (Ancien)*** . 
 {% endsnippet %}
  
 ![Modifier - Web](/img/fr/rdm/mac/clip0249.png) 
@@ -64,7 +64,7 @@ Description
 Remplissage contrôles HTML par découverte 
 		</td>
 		<td>
-Une fois que vous avez sélectionné vos entrées de ***Site Web*** et exécuté l&apos;action par lots, il remplira automatiquement les informations de connexion HTML. 
+Une fois que vous avez sélectionné vos entrées de ***Site Web*** et exécuté l'action par lots, il remplira automatiquement les informations de connexion HTML. 
 		</td>
 	</tr>
 	<tr>
@@ -72,7 +72,7 @@ Une fois que vous avez sélectionné vos entrées de ***Site Web*** et exécuté
 Définir remplissage contrôle HTML par défaut 
 		</td>
 		<td>
-Une fois que vous avez sélectionné vos entrées de ***Site Web*** et exécuté l&apos;action par lots, il remplira automatiquement les champs ID de l&apos;utilisateur et ID du mot de passe avec les valeurs par défaut. 
+Une fois que vous avez sélectionné vos entrées de ***Site Web*** et exécuté l'action par lots, il remplira automatiquement les champs ID de l'utilisateur et ID du mot de passe avec les valeurs par défaut. 
 		</td>
 	</tr>
 </table>
@@ -102,7 +102,7 @@ Convertira automatiquement vos sessions Putty/Rebex sélectionnées en sessions 
 	</tr>
 	<tr>
 		<td>
-Convertir session SSH/Telnet/PortForward &#160;Putty/Rebex 
+Convertir session SSH/Telnet/PortForward  Putty/Rebex 
 		</td>
 		<td>
 Convertira automatiquement vos sessions SSH/Telnet/PortForward sélectionnées en sessions Putty/Rebex. 

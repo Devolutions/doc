@@ -1,9 +1,9 @@
 ---
 title: Politique de mot de passe
 ---
-La ***Politique de mot de passe*** vous permet de gérer les différentes politiques et paramètres de mot de passe pour votre source de données. Pour plus d&apos;informations sur les [Modèles de mot de passe](/fr/rdm/mac/commands/administration/system-settings/password-policy/password-complexity/) , suivez ce lien.  
+La ***Politique de mot de passe*** vous permet de gérer les différentes politiques et paramètres de mot de passe pour votre source de données. Pour plus d'informations sur les [Modèles de mot de passe](/fr/rdm/mac/commands/administration/system-settings/password-policy/password-complexity/) , suivez ce lien.  
 
-Certains de ces paramètres peuvent être remplacés à l&apos;aide de stratégies de groupe. 
+Certains de ces paramètres peuvent être remplacés à l'aide de stratégies de groupe. 
 
 ## Paramètres 
 
@@ -28,16 +28,16 @@ Les utilisateurs ne pourront pas enregistrer les mots de passe pendant la sessio
 	</tr>
 	<tr>
 		<td>
-Désactiver l&apos;enregistrement de mot de passe (paramètres spécifiques de l&apos;utilisateur) 
+Désactiver l'enregistrement de mot de passe (paramètres spécifiques de l'utilisateur) 
 		</td>
 		<td>
 
-Les utilisateurs ne pourront pas enregistrer de mot de passe dans les [Paramètres spécifiques à l&apos;utilisateur](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/) . 
+Les utilisateurs ne pourront pas enregistrer de mot de passe dans les [Paramètres spécifiques à l'utilisateur](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/) . 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Désactiver l&apos;enregistrement de mot de passe pour l&apos;accès aux sources de données 
+Désactiver l'enregistrement de mot de passe pour l'accès aux sources de données 
 		</td>
 		<td>
 Les utilisateurs ne pourront pas enregistrer un nouveau mot de passe pour accéder à la source de données. 
@@ -45,7 +45,7 @@ Les utilisateurs ne pourront pas enregistrer un nouveau mot de passe pour accéd
 	</tr>
 	<tr>
 		<td>
-Permettre de révéler le mot de passe à l&apos;administrateur et aux usagers autorisés (Ctrl+Alt+Enter) 
+Permettre de révéler le mot de passe à l'administrateur et aux usagers autorisés (Ctrl+Alt+Enter) 
 		</td>
 		<td>
 Contrôle si la révélation du mot de passe est activée pour les utilisateurs autorisés. 
@@ -53,7 +53,7 @@ Contrôle si la révélation du mot de passe est activée pour les utilisateurs 
 	</tr>
 	<tr>
 		<td>
-Permettre de voir les identifiants (si activé dans l&apos;entrée) 
+Permettre de voir les identifiants (si activé dans l'entrée) 
 		</td>
 		<td>
 Autorise à afficher les identifiants si la case est cochée dans la session. 

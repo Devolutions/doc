@@ -3,7 +3,7 @@ title: Paramètres du système
 ---
 Les ***Paramètres du système*** sont disponibles dans ***Administration -*** ***P*** ***aramètres du système*** .  
 
-Les Paramètres du système vous permettent de contrôler de nombreux aspects globaux de la source de données, tels que le mode hors ligne, les politiques de mot de passe et la gestion des versions. Vous pouvez définir des stratégies générales applicables à l&apos;ensemble de la source de données. 
+Les Paramètres du système vous permettent de contrôler de nombreux aspects globaux de la source de données, tels que le mode hors ligne, les politiques de mot de passe et la gestion des versions. Vous pouvez définir des stratégies générales applicables à l'ensemble de la source de données. 
 
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité nécessite une [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
@@ -13,7 +13,7 @@ Cette fonctionnalité nécessite une [Sources de données avancées](/fr/rdm/mac
 
 ![Paramètres du système](/img/fr/rdm/mac/clip4104.png) 
 
-Pour plus d&apos;informations sur les différentes options contenues dans les paramètres du système, veuillez consulter:  
+Pour plus d'informations sur les différentes options contenues dans les paramètres du système, veuillez consulter:  
 
 * [Général](/fr/rdm/mac/commands/administration/system-settings/general/) 
 * [Politique de mot de passe](/fr/rdm/mac/commands/administration/system-settings/password-policy/) 

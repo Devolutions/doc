@@ -1,7 +1,7 @@
 ---
 title: Message système
 ---
-Entrer un message système pour les autres utilisateurs de la même source de données à voir lors de l&apos;ouverture de {{ fr.RDM }} . 
+Entrer un message système pour les autres utilisateurs de la même source de données à voir lors de l'ouverture de {{ fr.RDM }} . 
 
 ### Message système 
 

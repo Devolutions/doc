@@ -55,7 +55,7 @@ Controls if reveal password is enabled for authorized users.
 Allow reveal credentials (if enabled in the entry) 
 		</td>
 		<td>
-Allow to show the credentials if the box &quot;Allow show credentials (everybody)&quot; is check inside the session. 
+Allow to show the credentials if the box “Allow show credentials (everybody)“ is check inside the session. 
 		</td>
 	</tr>
 	<tr>

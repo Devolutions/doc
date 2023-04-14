@@ -15,11 +15,11 @@ title: XML
 
 ## Points forts 
 
-* Il s&apos;agit d&apos;une source de données gratuite. 
-* Il est possible de configurer un intervalle d&apos;actualisation automatique. 
+* Il s'agit d'une source de données gratuite. 
+* Il est possible de configurer un intervalle d'actualisation automatique. 
 
 {% snippet icon.badgeInfo %} 
-Il n&apos;y a pas de gestion des conflits pour le fichier de configuration. Si vous partagez avec d&apos;autres utilisateurs, vous pouvez obtenir des conflits de mise à jour et rencontrer des problèmes. Ce type de source de données est destiné à un seul utilisateur utilisant plusieurs ordinateurs, et non plusieurs utilisateurs. 
+Il n'y a pas de gestion des conflits pour le fichier de configuration. Si vous partagez avec d'autres utilisateurs, vous pouvez obtenir des conflits de mise à jour et rencontrer des problèmes. Ce type de source de données est destiné à un seul utilisateur utilisant plusieurs ordinateurs, et non plusieurs utilisateurs. 
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
@@ -56,7 +56,7 @@ Nom de la source de données.
 Clé maîtresse 
 		</td>
 		<td>
-Saisir la clé maîtresse qui sera utilisée avant d&apos;ouvrir la source de données. 
+Saisir la clé maîtresse qui sera utilisée avant d'ouvrir la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -72,7 +72,7 @@ Toujours demander la clé maîtresse lors de la connexion à la source de donné
 Nom du fichier 
 		</td>
 		<td>
-Indiquer le nom de fichier utilisé pour stocker les données sur la source de données. Les chemins relatifs et les variables d&apos;environnement peuvent également être utilisés. 
+Indiquer le nom de fichier utilisé pour stocker les données sur la source de données. Les chemins relatifs et les variables d'environnement peuvent également être utilisés. 
 		</td>
 	</tr>
 </table>
@@ -99,7 +99,7 @@ Sauvegarde
 Choisir entre:  
 
 * Aucun : Aucune sauvegarde de votre source de données ne sera créée. 
-* Sauvegarde en ligne : Une sauvegarde en ligne (à l&apos;aide du service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) ) sera automatiquement créée. 
+* Sauvegarde en ligne : Une sauvegarde en ligne (à l'aide du service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) ) sera automatiquement créée. 
 * Sauvegarde du fichier : Votre sauvegarde sera enregistrée dans un fichier choisi, mais ne fera pas automatiquement sauvegarder toutes les 30 secondes. 
 		</td>
 	</tr>
@@ -108,7 +108,7 @@ Choisir entre:
 Nom de la sauvegarde 
 		</td>
 		<td>
-Spécifier le nom de sauvegarde qui vous permettra d&apos;enregistrer automatiquement vos sessions dans un espace de stockage en ligne sécurisé et de les restaurer en cas de problème. 
+Spécifier le nom de sauvegarde qui vous permettra d'enregistrer automatiquement vos sessions dans un espace de stockage en ligne sécurisé et de les restaurer en cas de problème. 
 		</td>
 	</tr>
 </table>
@@ -131,7 +131,7 @@ Description
 Actualiser automatiquement lors de modification au fichier 
 		</td>
 		<td>
-Indiquer si l&apos;application doit surveiller les modifications de fichier pour actualiser automatiquement la source de données. 
+Indiquer si l'application doit surveiller les modifications de fichier pour actualiser automatiquement la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -144,10 +144,10 @@ Définir la source de données en lecture seule. Aucune nouvelle entrée ne peut
 	</tr>
 	<tr>
 		<td>
-Désactiver l&apos;affichage du mot de passe 
+Désactiver l'affichage du mot de passe 
 		</td>
 		<td>
-Désactiver la fonctionnalité de révélation du mot de passe lorsqu&apos;un utilisateur accède à cette source de données. 
+Désactiver la fonctionnalité de révélation du mot de passe lorsqu'un utilisateur accède à cette source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -155,7 +155,7 @@ Désactiver la fonctionnalité de révélation du mot de passe lorsqu&apos;un ut
 Autoriser images personnalisées 
 		</td>
 		<td>
-Permettre à l&apos;utilisateur d&apos;utiliser des images personnalisées. Trop d&apos;images personnalisées pourraient augmenter considérablement la taille de la source de données et augmenter le temps de chargement. 
+Permettre à l'utilisateur d'utiliser des images personnalisées. Trop d'images personnalisées pourraient augmenter considérablement la taille de la source de données et augmenter le temps de chargement. 
 		</td>
 	</tr>
 </table>

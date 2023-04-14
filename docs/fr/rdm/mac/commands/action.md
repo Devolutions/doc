@@ -1,16 +1,16 @@
 ---
 title: Actions
 ---
-Le ruban ***Actions*** contient des opérations qui ne peuvent être effectuées que sur une session en cours d&apos;exécution. Le menu ***Actions*** sera visible que s&apos;il y a une session active en cours. Pour notre exemple, nous exécutons une session RDP, le ruban affichera l&apos;onglet suivant lorsque la session est en mode intégré.  
+Le ruban ***Actions*** contient des opérations qui ne peuvent être effectuées que sur une session en cours d'exécution. Le menu ***Actions*** sera visible que s'il y a une session active en cours. Pour notre exemple, nous exécutons une session RDP, le ruban affichera l'onglet suivant lorsque la session est en mode intégré.  
 ![Ruban Actions](/img/fr/rdm/mac/clip4047.png) 
 
-Alternativement, les ***Actions*** sont également disponibles en cliquant avec le bouton droit sur l&apos;onglet d&apos;une session intégrée. 
+Alternativement, les ***Actions*** sont également disponibles en cliquant avec le bouton droit sur l'onglet d'une session intégrée. 
 
 ## Paramètres 
 
 ### Connexion 
 
-Les actions de connexion vous permettent de vous reconnecter/déconnecter d&apos;une ou plusieurs session(s) simultanément. Les actions sont différentes selon le type de session sélectionné. 
+Les actions de connexion vous permettent de vous reconnecter/déconnecter d'une ou plusieurs session(s) simultanément. Les actions sont différentes selon le type de session sélectionné. 
 
 <table>
 	<tr>
@@ -68,7 +68,7 @@ Description
 Envoyer Ctrl-Alt-Suppr 
 		</td>
 		<td>
-Envoie la combinaison des touches CTRL-ALT-SUPPR à l&apos;hôte. 
+Envoie la combinaison des touches CTRL-ALT-SUPPR à l'hôte. 
 		</td>
 	</tr>
 		<td>
@@ -82,14 +82,14 @@ Sur le serveur Windows 8 ou Windows 2012, affiche la barre des icônes (barre de
 Barre App 
 		</td>
 		<td>
-Sur le serveur Windows 8 ou Windows 2012, affiche la barre d&apos;application pour afficher la navigation, les commandes et les outils. 
+Sur le serveur Windows 8 ou Windows 2012, affiche la barre d'application pour afficher la navigation, les commandes et les outils. 
 		</td>
 	</tr>
 		<td>
-Modifier l&apos;App 
+Modifier l'App 
 		</td>
 		<td>
-Sur le serveur Windows 8 ou Windows 2012, passe d&apos;une application à une autre. 
+Sur le serveur Windows 8 ou Windows 2012, passe d'une application à une autre. 
 		</td>
 	</tr>
 		<td>
@@ -116,7 +116,7 @@ Description
 Conserver onglet à la déconnexion 
 		</td>
 		<td>
-L&apos;onglet de votre session restera ouvert après une déconnexion de session. 
+L'onglet de votre session restera ouvert après une déconnexion de session. 
 		</td>
 	</tr>
 		<td>
@@ -130,7 +130,7 @@ Enregistre votre session ouverte en tant que nouvelle entrée.
 Dupliquer 
 		</td>
 		<td>
-Ouvre un double de l&apos;onglet de votre session ouverte. 
+Ouvre un double de l'onglet de votre session ouverte. 
 		</td>
 	</tr>
 </table>

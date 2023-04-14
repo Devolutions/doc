@@ -19,10 +19,10 @@ SQL Server de Microsoft pris en charge:
 
 Nous prenons également en charge les fonctionnalités suivantes:  
 
-* Groupe de disponibilité &quot;Always on&quot; 
+* Groupe de disponibilité “Always on“ 
 * Regroupement 
 * Expédition des journaux 
-* Mise en miroir de bases de données &#32; 
+* Mise en miroir de bases de données   
 
 Voir la rubrique [Configurer SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) pour plus de détails sur la configuration. 
 		</td>
@@ -32,7 +32,7 @@ Voir la rubrique [Configurer SQL Server](/fr/rdm/mac/data-sources/data-sources-t
 ## Points forts 
 
 * Cette source de données permet la gestion des utilisateurs avec un modèle de sécurité supérieur 
-* Le mode hors ligne peut être utilisé lorsque le serveur n&apos;est pas disponible ou lorsque l&apos;utilisateur est en déplacement 
+* Le mode hors ligne peut être utilisé lorsque le serveur n'est pas disponible ou lorsque l'utilisateur est en déplacement 
 * Journaux complets des connexions et prise en charge des pièces jointes 
 * La source de données prend en charge une actualisation automatique à votre intervalle préféré 
 
@@ -41,15 +41,15 @@ Une stratégie de sauvegarde de base de données appropriée doit être mise en 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Active directory dans une source de données SQL Server n&apos;est plus pris en charge dans {{ fr.RDM }} pour macOS. 
+Active directory dans une source de données SQL Server n'est plus pris en charge dans {{ fr.RDM }} pour macOS. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Selon le &quot;Recovery Model&quot; de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées pour s&apos;exécuter régulièrement afin de maintenir l&apos;intégrité de la base de données. Veuillez consulter [Recovery Model](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/) . 
+Selon le “Recovery Model“ de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées pour s'exécuter régulièrement afin de maintenir l'intégrité de la base de données. Veuillez consulter [Recovery Model](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/) . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-La création d&apos;utilisateurs de base de données comme mentionné dans cet [article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/contained-databases?view=sql-server-ver15#benefit-of-contained-database-users-with-always-on) (anglais) est la méthode prise en charge avec le groupe de disponibilité SQL Always On. 
+La création d'utilisateurs de base de données comme mentionné dans cet [article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/contained-databases?view=sql-server-ver15#benefit-of-contained-database-users-with-always-on) (anglais) est la méthode prise en charge avec le groupe de disponibilité SQL Always On. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -97,10 +97,10 @@ Sélectionner votre mode de connexion entre la connexion à la base de données 
 	</tr>
 	<tr>
 		<td>
-Nom d&apos;utilisateur 
+Nom d'utilisateur 
 		</td>
 		<td>
-Nom d&apos;utilisateur pour se connecter à la source de données. 
+Nom d'utilisateur pour se connecter à la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -133,7 +133,7 @@ Nom de la base de données créée en ligne. Vous devez utiliser le bouton engre
 		</td>
 		<td>
 
-Activer l&apos; [Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
+Activer l' [Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -172,7 +172,7 @@ Description
 Actualisation automatique 
 		</td>
 		<td>
-Définir l&apos;intervalle d&apos;actualisation automatique. 
+Définir l'intervalle d'actualisation automatique. 
 		</td>
 	</tr>
 	<tr>
@@ -223,7 +223,7 @@ Mode de la cache
 		</td>
 		<td>
 
-Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d&apos;informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -231,7 +231,7 @@ Détermine comment les entrées seront rechargées dans la source de données. V
 Délai de connexion 
 		</td>
 		<td>
-Temps d&apos;attente avant un délai de connexion. 
+Temps d'attente avant un délai de connexion. 
 		</td>
 	</tr>
 	<tr>
@@ -239,7 +239,7 @@ Temps d&apos;attente avant un délai de connexion.
 Délai de commande 
 		</td>
 		<td>
-Temps d&apos;attente avant un délai de commande. 
+Temps d'attente avant un délai de commande. 
 		</td>
 	</tr>
 	<tr>
@@ -247,7 +247,7 @@ Temps d&apos;attente avant un délai de commande.
 Gérer la cache 
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l&apos;analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d&apos;informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/) . 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/) . 
 		</td>
 	</tr>
 	<tr>

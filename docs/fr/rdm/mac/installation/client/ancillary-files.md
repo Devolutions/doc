@@ -3,9 +3,9 @@ title: Fichier connexes
 ---
 {{ fr.RDM }} génère des fichiers auxiliaires sur votre poste de travail. Le tableau ci-dessous répertorie un exemple de fichiers auxiliaires et leur emplacement.  
 
-Comme décrit dans [Emplacement du fichier de configuration](/fr/rdm/mac/installation/client/configuration-file-location/) , le chemin par défaut pour la plupart de ces fichiers est personnalisable. Pour cette raison, nous utilisons le jeton ***[CONFIG]*** dans cette documentation pour indiquer quand un fichier est stocké dans un dossier de configuration qui peut être déplacé, ou le jeton ***[PROFILE]*** pour indiquer qu&apos;ils sont stockés dans le profil local. Par défaut, ceux-ci pointent vers le même dossier . La seule méthode pour les séparer consiste à utiliser une configuration personnalisée.  
+Comme décrit dans [Emplacement du fichier de configuration](/fr/rdm/mac/installation/client/configuration-file-location/) , le chemin par défaut pour la plupart de ces fichiers est personnalisable. Pour cette raison, nous utilisons le jeton ***[CONFIG]*** dans cette documentation pour indiquer quand un fichier est stocké dans un dossier de configuration qui peut être déplacé, ou le jeton ***[PROFILE]*** pour indiquer qu'ils sont stockés dans le profil local. Par défaut, ceux-ci pointent vers le même dossier . La seule méthode pour les séparer consiste à utiliser une configuration personnalisée.  
 
-Étant donné que vous pouvez également déployer sur un périphérique portable, parfois connu sous le nom de modèle de déploiement XCOPY, nous utiliserons le jeton ***[INSTALLDIR]*** pour indiquer que le fichier se trouve au même emplacement que &#32; {{ fr.RDM }} .  
+Étant donné que vous pouvez également déployer sur un périphérique portable, parfois connu sous le nom de modèle de déploiement XCOPY, nous utiliserons le jeton ***[INSTALLDIR]*** pour indiquer que le fichier se trouve au même emplacement que   {{ fr.RDM }} .  
 
 La colonne Remplacer la source indique si un mécanisme disponible peut déplacer les fichiers de cette catégorie ailleurs.  
 
@@ -91,13 +91,13 @@ Aucun
 	</tr>
 	<tr>
 		<td>
-Liste d&apos;exécution locale 
+Liste d'exécution locale 
 		</td>
 		<td>
 [PROFILE]\[Datasource]\Playlists 
 		</td>
 		<td>
-U tiliser le répertoire d&apos;application pour la liste d&apos;exécution locale utilisera à la place [INSTALLDIR] 
+U tiliser le répertoire d'application pour la liste d'exécution locale utilisera à la place [INSTALLDIR] 
 		</td>
 	</tr>
 	<tr>
@@ -105,7 +105,7 @@ U tiliser le répertoire d&apos;application pour la liste d&apos;exécution loca
 Modèles locaux 
 		</td>
 		<td>
-Ils sont sérialisés directement dans le fichier de configuration de l&apos;application 
+Ils sont sérialisés directement dans le fichier de configuration de l'application 
 		</td>
 		<td>
 Aucun 
@@ -119,7 +119,7 @@ Hors-ligne /Cache des données (offline.db)
 [PROFILE]\[Datasource] 
 		</td>
 		<td>
-Utiliser le répertoire d&apos;application pour la cache des données en ligne utilisera à la place [INSTALLDIR] 
+Utiliser le répertoire d'application pour la cache des données en ligne utilisera à la place [INSTALLDIR] 
 		</td>
 	</tr>
 	<tr>

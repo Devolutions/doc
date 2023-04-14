@@ -30,7 +30,7 @@ Lorsque l'entrée est sélectionnée, cliquer sur le bouton ***Afficher les dét
 
 Dans la section supérieure, vous pouvez voir le niveau de ***Permissions*** et la ***Durée demandée*** par l'utilisateur pour son accès temporaire. La durée d'accès peut être modifiée dans ***Durée de l'autorisation*** . Le ***Temps restant*** est vide puisque vous n'avez pas encore approuvé la demande.  
 
-En dessous, le message que l'utilisateur vous a envoyé lorsqu'il a créé sa demande est visible sur la gauche. &#160;À droite, vous pouvez écrire un message à l'utilisateur expliquant votre décision, mais cela reste facultatif.  
+En dessous, le message que l'utilisateur vous a envoyé lorsqu'il a créé sa demande est visible sur la gauche.  À droite, vous pouvez écrire un message à l'utilisateur expliquant votre décision, mais cela reste facultatif.  
 
 Enfin, vous pouvez ***Approuver*** ou ***Refuser*** la demande d'accès temporaire en cliquant sur le bouton correspondant.  
 ![Approuver/Refuser la demande d'accès temporaire](/img/fr/hub/Hub2144.png) 

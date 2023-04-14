@@ -1,7 +1,7 @@
 ---
 title: Aide
 ---
-L&apos;onglet ***Aide*** contient des liens vers notre site web Devolutions et notre Aide en ligne. Il comprend également tous les liens pour nous suivre sur différentes plateformes de médias sociaux. Notre équipe d&apos;assistance peut également vous demander d&apos;effectuer certaines opérations que vous trouverez dans l&apos;onglet ***Aide*** .  
+L'onglet ***Aide*** contient des liens vers notre site web Devolutions et notre Aide en ligne. Il comprend également tous les liens pour nous suivre sur différentes plateformes de médias sociaux. Notre équipe d'assistance peut également vous demander d'effectuer certaines opérations que vous trouverez dans l'onglet ***Aide*** .  
 ![Menu Aide](/img/fr/rdm/mac/clip4225.png) 
 
 <table>
@@ -18,7 +18,7 @@ Description
 Aide en ligne 
 		</td>
 		<td>
-Vous redirige vers l&apos;Aide en ligne de {{ fr.RDM }} . 
+Vous redirige vers l'Aide en ligne de {{ fr.RDM }} . 
 		</td>
 	</tr>
 	<tr>
@@ -27,15 +27,15 @@ Enregistrer le produit
 		</td>
 		<td>
 
-Entrer votre licence d&apos;essai ou d&apos;Édition Team pour enregistrer votre version de {{ fr.RDM }} . Pour plus d&apos;informations, veuillez consulter [Édition Team](/fr/rdm/mac/installation/client/registration/team-edition/) ou [Demande d&apos;essai](/fr/rdm/mac/installation/client/registration/trial-request/) . 
+Entrer votre licence d'essai ou d'Édition Team pour enregistrer votre version de {{ fr.RDM }} . Pour plus d'informations, veuillez consulter [Édition Team](/fr/rdm/mac/installation/client/registration/team-edition/) ou [Demande d'essai](/fr/rdm/mac/installation/client/registration/trial-request/) . 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Page d&apos;accueil 
+Page d'accueil 
 		</td>
 		<td>
-Vous redirige sur la page d&apos;accueil de notre site web Devolutions. 
+Vous redirige sur la page d'accueil de notre site web Devolutions. 
 		</td>
 	</tr>
 	<tr>

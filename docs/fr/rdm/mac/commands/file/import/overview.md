@@ -1,10 +1,10 @@
 ---
 title: Survol
 ---
-Utiliser l&apos;option ***Fichier - Importer*** pour importer des entrées dans {{ fr.RDM }} . Vous pouvez importer plusieurs types d&apos;entrées à partir d&apos;une multitude de sources. Nous prenons en charge les formats d&apos;importation natifs à partir de nombreux outils populaires sur le marché et si nous ne prenons pas en charge le format natif ou le tiers, nous avons des assistants disponibles pour importer à partir d&apos;un fichier csv. 
+Utiliser l'option ***Fichier - Importer*** pour importer des entrées dans {{ fr.RDM }} . Vous pouvez importer plusieurs types d'entrées à partir d'une multitude de sources. Nous prenons en charge les formats d'importation natifs à partir de nombreux outils populaires sur le marché et si nous ne prenons pas en charge le format natif ou le tiers, nous avons des assistants disponibles pour importer à partir d'un fichier csv. 
 
 {% snippet icon.badgeNotice %} 
-La fonction d&apos;importation est active que si la [Permissions du système](/fr/rdm/mac/commands/administration/user-management/permissions/) d&apos;importation a été activée dans le Coffre. 
+La fonction d'importation est active que si la [Permissions du système](/fr/rdm/mac/commands/administration/user-management/permissions/) d'importation a été activée dans le Coffre. 
 {% endsnippet %}
  
 ## Paramètres 
@@ -15,11 +15,11 @@ La fonction d&apos;importation est active que si la [Permissions du système](/f
 
 Importer des entrées est utilisé pour importer des sessions stockées dans des fichiers tels que:  
 
-* .rdm (format d&apos;exportation natif de {{ fr.RDM }} ) 
-* .pvm ( format d&apos;exportation natif de P assword Vault Manager) 
-* .xml (il doit s&apos;agir d&apos;un format spécifique compatible avec l&apos;application) 
+* .rdm (format d'exportation natif de {{ fr.RDM }} ) 
+* .pvm ( format d'exportation natif de P assword Vault Manager) 
+* .xml (il doit s'agir d'un format spécifique compatible avec l'application) 
 
-### Importer un Assistant d&apos;ordinateur 
+### Importer un Assistant d'ordinateur 
 
 Vous pouvez importer des ordinateurs à partir de différentes sources. Ces sources comprennent:  
 
@@ -28,5 +28,5 @@ Vous pouvez importer des ordinateurs à partir de différentes sources. Ces sour
 
 ### Importer les Sessions de 
 
-Consulter la rubrique [Importer des sessions](/fr/rdm/mac/commands/file/import/sessions/) pour plus d&apos;informations. 
+Consulter la rubrique [Importer des sessions](/fr/rdm/mac/commands/file/import/sessions/) pour plus d'informations. 
 

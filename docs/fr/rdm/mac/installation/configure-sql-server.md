@@ -5,7 +5,7 @@ title: Configurer le serveur SQL
 
 1. Installer SQL Server ou SQL Server Express (cette édition est gratuite). 
 {% snippet icon.badgeInfo %} 
-Les instances SQL Server nouvellement installées n&apos;autorisent pas les connexions à distance. Veuillez suivre les instructions de SQL Server. 
+Les instances SQL Server nouvellement installées n'autorisent pas les connexions à distance. Veuillez suivre les instructions de SQL Server. 
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 
@@ -17,6 +17,6 @@ Veuillez suivre les instructions sur [http://support.microsoft.com/kb/316898](ht
 ![Ajouter une source de données](/img/fr/rdm/mac/clip0227.png) 
 1. Choisir Microsoft SQL Server dans la liste.  
 ![Liste de source de données](/img/fr/rdm/mac/clip0228.png) 
-1. Configurer la connexion et exécuter un test à l&apos;aide du bouton Tester Serveur .  
+1. Configurer la connexion et exécuter un test à l'aide du bouton Tester Serveur .  
 ![Configuration Microsoft SQL Server](/img/fr/rdm/mac/clip0229.png) 
 

@@ -116,7 +116,7 @@ You can then choose the preferred monitor to display on:
 Activate sandboxing 
 		</td>
 		<td>
-The sandboxing isolate the RDP connection in another process. This is more stable and more reliable since it&apos;s an independent application embedded in RDP. This means that RDP can more easily recover from a a disconnection or a fatal error. 
+The sandboxing isolate the RDP connection in another process. This is more stable and more reliable since it's an independent application embedded in RDP. This means that RDP can more easily recover from a a disconnection or a fatal error. 
 		</td>
 	</tr>
 	<tr>

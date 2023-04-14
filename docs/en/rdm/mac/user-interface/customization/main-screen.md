@@ -1,7 +1,7 @@
 ---
 title: Main Screen
 ---
-Below is an illustration of {{ en.RDM }} for Mac&apos;s main screen.  
+Below is an illustration of {{ en.RDM }} for Mac's main screen.  
 ![Main Screen](/img/en/rdm/mac/clip10291.png) 
 
 Refer to the the following topics for additional details:  

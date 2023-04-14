@@ -11,7 +11,7 @@ By editing your default template you will be able to save settings often used wh
 
 ### No template defined 
 
-Notice that a [No default] notice is displayed below each type that doesn&apos;t have a default template defined.  
+Notice that a [No default] notice is displayed below each type that doesn't have a default template defined.  
 ![Template - No default](/img/en/rdm/mac/clip10323.png) 
 
 ### Template defined 

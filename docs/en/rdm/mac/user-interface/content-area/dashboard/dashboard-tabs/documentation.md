@@ -1,7 +1,7 @@
 ---
 title: Documentation
 ---
-The Documentation tab allows to store information about resources in the data source. To access an entry&apos;s documentation, select an entry in the Navigation pane, then select the Documentation tab in the dashboard. 
+The Documentation tab allows to store information about resources in the data source. To access an entry's documentation, select an entry in the Navigation pane, then select the Documentation tab in the dashboard. 
 
 {% snippet icon.badgeInfo %} 
 The ***Documentation*** feature is encrypted only for the data source {{ en.RDMS }} . If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 

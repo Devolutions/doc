@@ -69,7 +69,7 @@ b
 Bracket 
 		</td>
 		<td>
-()[]{}&lt;&gt; 
+()[]{}<> 
 		</td>
 	</tr>
 	<tr>
@@ -168,7 +168,7 @@ s
 Printable 7-Bit Special Character 
 		</td>
 		<td>
-!&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;?[\]^_{|}~ 
+!“#$%&'()*+,-./:;<=>?[\]^_{|}~ 
 		</td>
 	</tr>
 	<tr>
@@ -179,7 +179,7 @@ S
 Printable 7-Bit ASCII 
 		</td>
 		<td>
-A-Z, a-z, 0-9, !&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;?[\]^_{|}~ 
+A-Z, a-z, 0-9, !“#$%&'()*+,-./:;<=>?[\]^_{|}~ 
 		</td>
 	</tr>
 	<tr>
@@ -234,7 +234,7 @@ x
 High ANSI 
 		</td>
 		<td>
-From &apos;~&apos; to U255 (excluding U255) 
+From '~' to U255 (excluding U255) 
 		</td>
 	</tr>
 	<tr>

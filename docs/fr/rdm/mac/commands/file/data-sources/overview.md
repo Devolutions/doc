@@ -1,7 +1,7 @@
 ---
 title: Survol
 ---
-Utiliser ***Fichier - Sources de données*** pour gérer vos sources de données. {{ fr.RDM }} prend en charge plusieurs types de sources de données, mais certaines d&apos;entre elles sont seulement disponibles dans l&apos;Édition Team.  
+Utiliser ***Fichier - Sources de données*** pour gérer vos sources de données. {{ fr.RDM }} prend en charge plusieurs types de sources de données, mais certaines d'entre elles sont seulement disponibles dans l'Édition Team.  
 
 Veuillez consulter la rubrique [Types de sources de données](/fr/rdm/mac/data-sources/data-sources-types/) pour plus de détails sur toutes nos sources de données prises en charge.  
 ![Fichier - Sources de données](/img/fr/rdm/mac/clip0054.png) 
@@ -26,7 +26,7 @@ Utiliser le bouton dupliquer pour dupliquer une configuration de source de donn�
 
 ### Verrouiller la source de données 
 
-Utiliser le bouton cadenas pour verrouiller la source de données avec un mot de passe afin d&apos;empêcher toute modification de la configuration d&apos;une source de données. Ceci est utile lorsque vous avez des identifiants sensibles que vous ne souhaitez pas partager avec l&apos;utilisateur. 
+Utiliser le bouton cadenas pour verrouiller la source de données avec un mot de passe afin d'empêcher toute modification de la configuration d'une source de données. Ceci est utile lorsque vous avez des identifiants sensibles que vous ne souhaitez pas partager avec l'utilisateur. 
 
 ### Déverrouiller la source de données 
 
@@ -38,7 +38,7 @@ Utiliser le bouton import pour importer une source de données.
 
 ### Exporter la configuration de la source de données 
 
-Utiliser le bouton export pour exporter l&apos;une de vos sources de données. 
+Utiliser le bouton export pour exporter l'une de vos sources de données. 
 
 ### Au démarrage 
 

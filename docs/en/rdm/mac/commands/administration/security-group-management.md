@@ -26,9 +26,9 @@ All sessions without security groups are considered public, meaning anyone with 
 
 Security groups are created from the menu Administration - Security Group .  
 
-Remote Desktop Manager&apos;s security groups are container for sessions, not for users. Folders are closely tied with Security Groups, so there&apos;s an overlap in usage. The key points are:  
+Remote Desktop Manager's security groups are container for sessions, not for users. Folders are closely tied with Security Groups, so there's an overlap in usage. The key points are:  
 
-* Security is inherited : child items and folders are covered by a parent folder&apos;s security group. 
+* Security is inherited : child items and folders are covered by a parent folder's security group. 
 * Security is additive : a security group added to a sub folder does not override the parent, it adds to it. 
 * A folder has a single Security Group : use Shortcuts to work around that limitation.  
 

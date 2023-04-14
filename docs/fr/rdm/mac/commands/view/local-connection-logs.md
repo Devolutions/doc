@@ -1,11 +1,11 @@
 ---
 title: Journaux des connexions locales
 ---
-Lorsque vous utilisez {{ fr.RDM }} pour Mac avec une source de données sans base de données ou si vous ne possédez pas les autorisations correctes, les ***Journaux d&apos;activité*** , qui se trouvent normalement dans l&apos;onglet ***Affichage*** , ne sont pas disponibles. Dans cette situation, les ***Journaux de connexion locales*** apparaissent à la place dans l&apos;onglet ***Affichage*** .  
+Lorsque vous utilisez {{ fr.RDM }} pour Mac avec une source de données sans base de données ou si vous ne possédez pas les autorisations correctes, les ***Journaux d'activité*** , qui se trouvent normalement dans l'onglet ***Affichage*** , ne sont pas disponibles. Dans cette situation, les ***Journaux de connexion locales*** apparaissent à la place dans l'onglet ***Affichage*** .  
 ![Bouton Journaux des connexions locales](/img/fr/rdm/mac/RDMMac0014.png) 
 
 {% snippet icon.badgeInfo %} 
-Les ***Journaux des connexions locales*** remplacent les ***Journaux d&apos;activité*** si vous ne disposez pas des permissions suffisantes pour les consulter. 
+Les ***Journaux des connexions locales*** remplacent les ***Journaux d'activité*** si vous ne disposez pas des permissions suffisantes pour les consulter. 
 {% endsnippet %}
  
 ### Journaux des connexions locales 
@@ -46,7 +46,7 @@ Efface les journaux de la fenêtre ***Journaux des connexions locales*** . Les j
 Copier 
 		</td>
 		<td>
-Copie les journaux dans votre presse-papiers tels qu&apos;ils apparaissent dans la fenêtre ***Journaux des connexions locales*** . 
+Copie les journaux dans votre presse-papiers tels qu'ils apparaissent dans la fenêtre ***Journaux des connexions locales*** . 
 		</td>
 	</tr>
 </table>

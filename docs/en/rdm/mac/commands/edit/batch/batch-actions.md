@@ -98,7 +98,7 @@ DESCRIPTION
 Convert Putty/Rebex Session to SSH/Telnet/PortForward Session 
 		</td>
 		<td>
-It will automatically convert your selected Putty/Rebex &#160;sessions into SSH/Telnet/PortForward sessions. 
+It will automatically convert your selected Putty/Rebex  sessions into SSH/Telnet/PortForward sessions. 
 		</td>
 	</tr>
 	<tr>

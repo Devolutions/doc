@@ -6,7 +6,7 @@ This topic applies to installations with data sources that are using a database 
 Some {{ en.RDM }} for Mac releases must alter the database structure. These are performed automatically for you but it is a best practice to perform a backup of your data source beforehand. Additionally, If you are in a team environment you must be the sole user connected to the database during the upgrade.  
 
 {% snippet icon.badgeWarning %} 
-The user performing the actions on this screen must have administrative privileges on the database management system. &#160;You must also be SYSDBA or DB_OWNER . 
+The user performing the actions on this screen must have administrative privileges on the database management system.  You must also be SYSDBA or DB_OWNER . 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 

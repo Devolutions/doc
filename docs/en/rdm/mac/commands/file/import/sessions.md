@@ -1,7 +1,7 @@
 ---
 title: Import Sessions
 ---
-Use the File - Import - Import Sessions From to import sessions into &#32; {{ en.RDM }} for Mac .  
+Use the File - Import - Import Sessions From to import sessions into   {{ en.RDM }} for Mac .  
 
 ## Settings 
 

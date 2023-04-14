@@ -1,7 +1,7 @@
 ---
 title: Avancée
 ---
-Dans l&apos;onglet ***Avancée*** vous pouvez cocher de garder l&apos;onglet ouvert de votre session même lorsque vous vous déconnectez. 
+Dans l'onglet ***Avancée*** vous pouvez cocher de garder l'onglet ouvert de votre session même lorsque vous vous déconnectez. 
 
 ## Paramètres 
 

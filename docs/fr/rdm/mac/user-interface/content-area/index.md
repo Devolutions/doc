@@ -3,7 +3,7 @@ title: Zone de contenu
 ---
 La ***Zone de contenu*** contient les différents tableaux de bord pour gérer {{ fr.RDM }} ainsi que les sessions intégrées. Un seul tableau de bord est actif à la fois en fonction du nœud actuellement sélectionné dans le volet de navigation.  
 
-Les tableaux de bord existants sont décrits plus en détail dans leurs propres rubriques d&apos;aide:  
+Les tableaux de bord existants sont décrits plus en détail dans leurs propres rubriques d'aide:  
 
 * [Sessions](/fr/rdm/mac/user-interface/content-area/dashboard/session/) 
 * [Entrées de données](/fr/rdm/mac/user-interface/content-area/dashboard/information/) 

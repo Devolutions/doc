@@ -44,7 +44,7 @@ Vous pouvez choisir entre plusieurs différents critères pour affiner votre rec
 * Numéro de série 
 * Rôle du serveur 
 * Statut 
-* Nom d&apos;utilisateur 
+* Nom d'utilisateur 
 * URL 
 * Version 
 * IP 
@@ -81,7 +81,7 @@ Enregistrer une recherche précédemment enregistrée, mais sous un autre nom.
 Exporter 
 		</td>
 		<td>
-Exporter les entrées de votre résultat de recherche sous forme de fichier CSV, HTML, XLS ou XML. Les informations sensibles seront cryptées à l&apos;aide d&apos;AES. 
+Exporter les entrées de votre résultat de recherche sous forme de fichier CSV, HTML, XLS ou XML. Les informations sensibles seront cryptées à l'aide d'AES. 
 		</td>
 	</tr>
 	<tr>
@@ -112,7 +112,7 @@ Sélectionner votre résultat de recherche dans votre ***{{ fr.NPANE }}*** . Cet
 
 Il y aura une liste déroulante à côté de certains champs des critères (ex : Nom) pour vous donner des options de recherche supplémentaires :  
 
-* ***Contient*** - tout nom qui comprend les caractères que vous avez saisis, n&apos;importe où dans le nom du champ. 
+* ***Contient*** - tout nom qui comprend les caractères que vous avez saisis, n'importe où dans le nom du champ. 
 * ***Commençant par*** - tout nom commençant par les caractères que vous avez saisis. 
 * ***Finissant par*** - tout nom se terminant par les caractères que vous avez saisis. 
 * ***Expression exacte*** - trouvera des noms qui correspondent à chaque caractère que vous avez entré, exactement comme il a été entré. 

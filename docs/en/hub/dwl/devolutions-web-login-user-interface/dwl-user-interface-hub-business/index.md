@@ -35,7 +35,7 @@ Using the tabs of the ***Side Menu*** , you can access various {{ en.DWL }} feat
 Each tab will display a different view in the ***Content Area*** . The tabs available when using {{ en.DWL }} with {{ en.PHUB }} Business are:  
 
 * the ***Matching*** tab, where you find available credentials for a specific website. 
-* the ***Vaults*** tab, &#160;where you can find all the {{ en.PHUB }} Business entries you synchronized, divided into your different vaults and folders. 
+* the ***Vaults*** tab,  where you can find all the {{ en.PHUB }} Business entries you synchronized, divided into your different vaults and folders. 
 * the ***User vault*** tab, where you can find the entries you stored in your {{ en.PHUB }} Business ***User Vault*** , divided into your different folders. 
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  
 

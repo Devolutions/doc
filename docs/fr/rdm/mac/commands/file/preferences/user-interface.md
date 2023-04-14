@@ -1,7 +1,7 @@
 ---
 title: Interface utilisateur
 ---
-Utiliser ***Fichier - Préférences - Interface utilisateur*** pour configurer les options liées à l&apos;interface utilisateur.  
+Utiliser ***Fichier - Préférences - Interface utilisateur*** pour configurer les options liées à l'interface utilisateur.  
 
 ## Paramètres 
 
@@ -23,7 +23,7 @@ Description
 Inclure un Menu de propriétés 
 		</td>
 		<td>
-Afficher le menu Propriétés dans le menu contextuel lorsqu&apos;une session est sélectionnée. 
+Afficher le menu Propriétés dans le menu contextuel lorsqu'une session est sélectionnée. 
 		</td>
 	</tr>
 	<tr>
@@ -31,7 +31,7 @@ Afficher le menu Propriétés dans le menu contextuel lorsqu&apos;une session es
 Utiliser le menu contextuel de modification antérieure 
 		</td>
 		<td>
-Utiliser le menu contextuel de modification antérieure de l&apos;ancienne interface {{ fr.RDM }} . 
+Utiliser le menu contextuel de modification antérieure de l'ancienne interface {{ fr.RDM }} . 
 		</td>
 	</tr>
 </table>
@@ -52,7 +52,7 @@ Description
 Interface utilisateur 
 		</td>
 		<td>
-Choisir entre l&apos;interface utilisateur Classique ou Ruban. 
+Choisir entre l'interface utilisateur Classique ou Ruban. 
 		</td>
 	</tr>
 	<tr>
@@ -60,7 +60,7 @@ Choisir entre l&apos;interface utilisateur Classique ou Ruban.
 Masquer le pied de page 
 		</td>
 		<td>
-Lorsque vous utilisez l&apos;interface utilisateur Ruban, sélectionner cette option pour masquer votre pied de page. 
+Lorsque vous utilisez l'interface utilisateur Ruban, sélectionner cette option pour masquer votre pied de page. 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ Lorsque vous utilisez l&apos;interface utilisateur Ruban, sélectionner cette op
 Langue 
 		</td>
 		<td>
-Sélectionner la langue par défaut de l&apos;application {{ fr.RDM }} . 
+Sélectionner la langue par défaut de l'application {{ fr.RDM }} . 
 		</td>
 	</tr>
 	<tr>
@@ -77,18 +77,18 @@ Emplacement de bascule de navigation
 		</td>
 		<td>
 
-Spécifier l&apos;emplacement par défaut de la barre d&apos;outils:  
+Spécifier l'emplacement par défaut de la barre d'outils:  
 
-* Barre d&apos;outils (droite) 
-* Barre d&apos;outils (gauche) 
+* Barre d'outils (droite) 
+* Barre d'outils (gauche) 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Emplacement d&apos;onglet de navigation 
+Emplacement d'onglet de navigation 
 		</td>
 		<td>
-Spécifier l&apos;emplacement par défaut de l&apos;onglet navigation entre:  
+Spécifier l'emplacement par défaut de l'onglet navigation entre:  
 
 * Volet de navigation (en haut) 
 * Volet de navigation (en bas) 
@@ -99,7 +99,7 @@ Spécifier l&apos;emplacement par défaut de l&apos;onglet navigation entre:
 Emplacement de source de données 
 		</td>
 		<td>
-Spécifier l&apos;emplacement de la source de données sur votre écran entre:  
+Spécifier l'emplacement de la source de données sur votre écran entre:  
 
 * Volet de navigation (en haut) 
 * Volet de navigation (en bas) 
@@ -108,26 +108,26 @@ Spécifier l&apos;emplacement de la source de données sur votre écran entre:
 	</tr>
 	<tr>
 		<td>
-Afficher la barre d&apos;onglets sous les fenêtres non ancrées 
+Afficher la barre d'onglets sous les fenêtres non ancrées 
 		</td>
 		<td>
-Display the tab bar when the session is undocked. Afficher la barre d&apos;onglets lorsque la session non ancrée. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Permettre aux onglets d&apos;être réarrangés 
-		</td>
-		<td>
-Permets de déplacer les onglets d&apos;une position à une autre dans la barre d&apos;onglets. 
+Display the tab bar when the session is undocked. Afficher la barre d'onglets lorsque la session non ancrée. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Permettre aux onglets de quitter la barre d&apos;onglets 
+Permettre aux onglets d'être réarrangés 
 		</td>
 		<td>
-Les onglets peuvent être déplacés hors de la barre d&apos;onglets. 
+Permets de déplacer les onglets d'une position à une autre dans la barre d'onglets. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Permettre aux onglets de quitter la barre d'onglets 
+		</td>
+		<td>
+Les onglets peuvent être déplacés hors de la barre d'onglets. 
 		</td>
 	</tr>
 </table>
@@ -148,12 +148,12 @@ Description
 Focus automatique du tableau de bord 
 		</td>
 		<td>
-Lorsque l&apos;option est activée si une entrée active est sélectionnée dans l&apos;arborescence, le tableau de bord correspondant s&apos;affiche et le focus est immédiatement défini sur celle-ci. 
+Lorsque l'option est activée si une entrée active est sélectionnée dans l'arborescence, le tableau de bord correspondant s'affiche et le focus est immédiatement défini sur celle-ci. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Utiliser la vue d&apos;ensemble du tableau de bord classique 
+Utiliser la vue d'ensemble du tableau de bord classique 
 		</td>
 		<td>
 Le tableau de bord classique sera affiché à la place du nouveau tableau de bord avec des boutons plus grands. 
@@ -174,10 +174,10 @@ Description
 	</tr>
 	<tr>
 		<td>
-Afficher l&apos;icône dans la barre de menu 
+Afficher l'icône dans la barre de menu 
 		</td>
 		<td>
-Affiche l&apos;icône dans la barre du menu. 
+Affiche l'icône dans la barre du menu. 
 		</td>
 	</tr>
 	<tr>
@@ -206,10 +206,10 @@ Inclus un menu pour afficher et masquer certaines options.
 	</tr>
 	<tr>
 		<td>
-Inclure menu &quot;Maximize&quot; 
+Inclure menu “Maximize“ 
 		</td>
 		<td>
-Inclus un menu pour maximiser la fenêtre de l&apos;application pour prendre toute la zone de l&apos;écran. 
+Inclus un menu pour maximiser la fenêtre de l'application pour prendre toute la zone de l'écran. 
 		</td>
 	</tr>
 	<tr>
@@ -217,12 +217,12 @@ Inclus un menu pour maximiser la fenêtre de l&apos;application pour prendre tou
 Inclure menus source de données (seulement si plus de un) 
 		</td>
 		<td>
-Inclus un sous-menu pour les sources de données. Cela nécessite plus d&apos;une source de données pour fonctionner. 
+Inclus un sous-menu pour les sources de données. Cela nécessite plus d'une source de données pour fonctionner. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Inclure menu &quot;Quick Connect&quot; 
+Inclure menu “Quick Connect“ 
 		</td>
 		<td>
 Inclus un menu pour effectuer une connexion rapide à un hôte. 
@@ -230,7 +230,7 @@ Inclus un menu pour effectuer une connexion rapide à un hôte.
 	</tr>
 	<tr>
 		<td>
-Inclure menu &quot;Récent&quot; 
+Inclure menu “Récent“ 
 		</td>
 		<td>
 Inclus un menu qui contient les entrées les plus récemment utilisées. 
@@ -238,15 +238,15 @@ Inclus un menu qui contient les entrées les plus récemment utilisées.
 	</tr>
 	<tr>
 		<td>
-Inclure menu liste d&apos;exécution 
+Inclure menu liste d'exécution 
 		</td>
 		<td>
-La liste d&apos;exécution apparaîtra dans le menu. 
+La liste d'exécution apparaîtra dans le menu. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Afficher uniquement les entrées de favoris dans le menu de l&apos;icône 
+Afficher uniquement les entrées de favoris dans le menu de l'icône 
 		</td>
 		<td>
 Seules les entrées favorites apparaîtront dans le menu. 
@@ -254,7 +254,7 @@ Seules les entrées favorites apparaîtront dans le menu.
 	</tr>
 	<tr>
 		<td>
-Afficher les identifiants dans le menu de l&apos;icône 
+Afficher les identifiants dans le menu de l'icône 
 		</td>
 		<td>
 Affiche si les identifiants sont répertoriés dans le menu. 
@@ -278,11 +278,11 @@ Description
 Superposition de raccourcis 
 		</td>
 		<td>
-Déterminer sur quels éléments l&apos;icône de raccourci est visible. Choisir entre:  
+Déterminer sur quels éléments l'icône de raccourci est visible. Choisir entre:  
 
 * Tous 
 * Aucun 
-* Tout sauf l&apos;original 
+* Tout sauf l'original 
 		</td>
 	</tr>
 	<tr>
@@ -295,7 +295,7 @@ Ce paramètre désactive le déplacement des entrées par glisser-déposer. Util
 	</tr>
 	<tr>
 		<td>
-Fusionner la liste d&apos;identifiants avec les sessions 
+Fusionner la liste d'identifiants avec les sessions 
 		</td>
 		<td>
 Les identifiants apparaîtront dans la liste des sessions plutôt que dans leur propre coffre. 
@@ -303,7 +303,7 @@ Les identifiants apparaîtront dans la liste des sessions plutôt que dans leur 
 	</tr>
 	<tr>
 		<td>
-Fusionner la liste d&apos;outils avec les sessions 
+Fusionner la liste d'outils avec les sessions 
 		</td>
 		<td>
 La liste des outils de session apparaîtra dans la liste des sessions plutôt que dans leur propre coffre. 

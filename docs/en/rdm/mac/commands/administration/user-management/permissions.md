@@ -9,7 +9,7 @@ The Permissions section allows you to assign permissions. Controls are sometimes
 
 ![User Management - Permissions](/img/en/rdm/mac/clip10389.png) 
 
-The options directly above the grid are for public folders, meaning any folder that hasn&apos;t been assigned a security group will be assigned those rights. They also act as the most basic permission you can assign because they are needed in order to allow permissions for each of the security group listed below, when they are not checked the corresponding column of the grid is grayed out. 
+The options directly above the grid are for public folders, meaning any folder that hasn't been assigned a security group will be assigned those rights. They also act as the most basic permission you can assign because they are needed in order to allow permissions for each of the security group listed below, when they are not checked the corresponding column of the grid is grayed out. 
 
 <table>
 	<tr>

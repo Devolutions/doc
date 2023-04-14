@@ -1,15 +1,15 @@
 ---
 title: Entrées favorites
 ---
-L&apos;onglet ***Favoris*** contient les entrées marquées comme favorites par l&apos;utilisateur actuel. Les favoris ne sont pas partagés ett ils se déplacent avec le profil de l&apos;utilisateur.  
+L'onglet ***Favoris*** contient les entrées marquées comme favorites par l'utilisateur actuel. Les favoris ne sont pas partagés ett ils se déplacent avec le profil de l'utilisateur.  
 
-Cela est utile lorsque le nombre d&apos;entrées gérées devient trop important ou lorsqu&apos;une structure de répertoire stricte doit être maintenue.  
+Cela est utile lorsque le nombre d'entrées gérées devient trop important ou lorsqu'une structure de répertoire stricte doit être maintenue.  
 ![Entrées favorites](/img/fr/rdm/mac/clip0206.png) 
 
-Un raccourci vers l&apos;onglet ***Favoris*** du ***{{ fr.NPANE }}*** se situe dans l&apos;onglet ***Affichage*** .  
+Un raccourci vers l'onglet ***Favoris*** du ***{{ fr.NPANE }}*** se situe dans l'onglet ***Affichage*** .  
 ![Affichage - Favoris](/img/fr/rdm/mac/RDMMac2002.png) 
 
-La vue des favoris peut être personnalisée pour voir les sous-connexions lors de l&apos;utilisation de la barre de ***Recherche*** . Cliquez sur le bouton et sélectionnez ***Afficher les sous-connexions*** . Vous pouvez également choisir d&apos; ***Appliquer un filtre*** .  
+La vue des favoris peut être personnalisée pour voir les sous-connexions lors de l'utilisation de la barre de ***Recherche*** . Cliquez sur le bouton et sélectionnez ***Afficher les sous-connexions*** . Vous pouvez également choisir d' ***Appliquer un filtre*** .  
 ![Options](/img/fr/rdm/mac/RDMMac2001.png)
 
 ### Marquer une entrée comme favorite 
@@ -24,6 +24,6 @@ Les favoris ne reproduisent pas nécessairement la structure des dossiers du ***
 
 ### Icône superposée 
 
-Si vous le souhaitez, une icône peut être superposée sur les entrées favorites dans le ***{{ fr.VLT }}*** . Pour afficher cet icône superposé, accédez à ***Fichier - Préférences - Favoris*** , puis activez l&apos;option ***Afficher l&apos;icône Favoris dans l&apos;arborescence*** .  
+Si vous le souhaitez, une icône peut être superposée sur les entrées favorites dans le ***{{ fr.VLT }}*** . Pour afficher cet icône superposé, accédez à ***Fichier - Préférences - Favoris*** , puis activez l'option ***Afficher l'icône Favoris dans l'arborescence*** .  
 ![RDMMac2007.png](/img/fr/rdm/mac/RDMMac2007.png) 
 

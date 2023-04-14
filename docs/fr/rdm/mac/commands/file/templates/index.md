@@ -12,7 +12,7 @@ Cela vous permet de créer une configuration prédéfinie tel que:
 
 Les modèles peuvent être utiles si vous souhaitez avoir des valeurs prédéfinies lorsque vous créez une entrée spécifique.  
 
-Cela vous permet de créer des modèles prédéfinis disponibles avec la connexion rapide, de la création ou de l&apos;importation d&apos;une nouvelle session. 
+Cela vous permet de créer des modèles prédéfinis disponibles avec la connexion rapide, de la création ou de l'importation d'une nouvelle session. 
 
 ## Paramètres 
 
@@ -36,7 +36,7 @@ Description
 Modèle local 
 		</td>
 		<td>
-Les modèles locaux sont enregistrés sur l&apos;ordinateur local et ne sont pas disponibles pour les autres utilisateurs. 
+Les modèles locaux sont enregistrés sur l'ordinateur local et ne sont pas disponibles pour les autres utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -49,8 +49,8 @@ Les modèles partagés sont enregistrés dans la base de données et peuvent êt
 	</tr>
 </table>
 
-### Création d&apos;une nouvelle entrée 
+### Création d'une nouvelle entrée 
 
-Lors de la création d&apos;une nouvelle entrée, sélectionnez ***Modèle*** pour avoir accès à votre modèle créé précédemment, cliquer sur celui que vous souhaitez utiliser pour créer votre nouvelle entrée.  
+Lors de la création d'une nouvelle entrée, sélectionnez ***Modèle*** pour avoir accès à votre modèle créé précédemment, cliquer sur celui que vous souhaitez utiliser pour créer votre nouvelle entrée.  
 ![Créer une entrée - Modèle](/img/fr/rdm/mac/clip4037.png) 
 

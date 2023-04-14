@@ -1,7 +1,7 @@
 ---
 title: Fenêtre
 ---
-Le menu ***Fenêtre*** vous permet de gérer l&apos;affichage global de {{ fr.RDM }} . 
+Le menu ***Fenêtre*** vous permet de gérer l'affichage global de {{ fr.RDM }} . 
 
 ## Paramètres 
 
@@ -34,7 +34,7 @@ Ferme tous les onglets de session ouverts.
 Fermer 
 		</td>
 		<td>
-Ferme l&apos;onglet de session active. 
+Ferme l'onglet de session active. 
 		</td>
 	</tr>
 		<td>

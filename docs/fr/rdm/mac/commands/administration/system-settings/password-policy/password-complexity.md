@@ -1,7 +1,7 @@
 ---
 title: Modèles de mot de passe
 ---
-Ce paramètre de sécurité détermine si les mots de passe doivent répondre aux exigences de complexité prédéterminées qui ont été configurées dans vos paramètres de source de données. Les exigences de complexité sont appliquées lorsque les mots de passe sont modifiés ou qu&apos;une nouvelle entrée est créée. Si cette stratégie est activée, les nouveaux mots de passe doivent répondre à certaines des exigences minimales suivantes:  
+Ce paramètre de sécurité détermine si les mots de passe doivent répondre aux exigences de complexité prédéterminées qui ont été configurées dans vos paramètres de source de données. Les exigences de complexité sont appliquées lorsque les mots de passe sont modifiés ou qu'une nouvelle entrée est créée. Si cette stratégie est activée, les nouveaux mots de passe doivent répondre à certaines des exigences minimales suivantes:  
 
 * Longueur minimale 
 * Minimum de caractères en minuscules 
@@ -16,13 +16,13 @@ Les paramètres définis dans la source de données de Modèles de mot de passe 
 
 ### Modèle par défaut 
 
-L&apos;option ***Modèle par défaut*** définie dans les paramètres de la source de données déterminera l&apos;option par défaut de votre entrée de session. 
+L'option ***Modèle par défaut*** définie dans les paramètres de la source de données déterminera l'option par défaut de votre entrée de session. 
 
 ### Validation du mot de passe 
 
-Si l&apos;utilisation est activée et que vous essayez de modifier ou de créer un mot de passe pour l&apos;une de vos entrées, la réaction dépendra du mode de validation choisi.  
+Si l'utilisation est activée et que vous essayez de modifier ou de créer un mot de passe pour l'une de vos entrées, la réaction dépendra du mode de validation choisi.  
 
-L&apos;option de validation déterminée dans les paramètres de la source de données déterminera l&apos;option de validation par défaut de votre entrée de session. 
+L'option de validation déterminée dans les paramètres de la source de données déterminera l'option de validation par défaut de votre entrée de session. 
 
 <table>
 	<tr>
@@ -38,7 +38,7 @@ Description
 Aucun 
 		</td>
 		<td>
-N&apos;utilisera aucun type de validation lors de la modification ou de la création d&apos;un nouveau mot de passe. 
+N'utilisera aucun type de validation lors de la modification ou de la création d'un nouveau mot de passe. 
 		</td>
 	</tr>
 	<tr>
@@ -46,7 +46,7 @@ N&apos;utilisera aucun type de validation lors de la modification ou de la créa
 Avertissement 
 		</td>
 		<td>
-Vous avertira que votre mot de passe n&apos;est pas conforme aux exigences de Modèle de mot de passe, mais vous permettra de continuer avec ce mot de passe ou de le modifier. 
+Vous avertira que votre mot de passe n'est pas conforme aux exigences de Modèle de mot de passe, mais vous permettra de continuer avec ce mot de passe ou de le modifier. 
 		</td>
 	</tr>
 	<tr>

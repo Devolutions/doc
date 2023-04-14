@@ -1,7 +1,7 @@
 ---
 title: Général
 ---
-Utiliser ***Fichier - Préférences - Général*** pour configurer les options liées aux fonctionnalités de l&apos;application. 
+Utiliser ***Fichier - Préférences - Général*** pour configurer les options liées aux fonctionnalités de l'application. 
 
 ## Paramètres 
 
@@ -22,12 +22,12 @@ Description
 Autoriser les connexions multiples (par défaut) 
 		</td>
 		<td>
-Vous permet d&apos;ouvrir plusieurs connexions simultanées (onglets) dans la même session. Si elle n&apos;est pas activée, sélectionner la session ouverte mettra simplement l&apos;accent sur la connexion existante. 
+Vous permet d'ouvrir plusieurs connexions simultanées (onglets) dans la même session. Si elle n'est pas activée, sélectionner la session ouverte mettra simplement l'accent sur la connexion existante. 
 		</td>
 	</tr>
 </table>
 
-### Démarrage de l&apos;application 
+### Démarrage de l'application 
 
 <table>
 	<tr>
@@ -43,12 +43,12 @@ Description
 Vérifier les mises à jour au démarrage 
 		</td>
 		<td>
-L&apos;application effectuera une vérification des nouvelles versions disponibles au démarrage. 
+L'application effectuera une vérification des nouvelles versions disponibles au démarrage. 
 		</td>
 	</tr>
 </table>
 
-### Fermeture de l&apos;application 
+### Fermeture de l'application 
 
 <table>
 	<tr>
@@ -61,10 +61,10 @@ Description
 	</tr>
 	<tr>
 		<td>
-Confirmer la fermeture de l&apos;application 
+Confirmer la fermeture de l'application 
 		</td>
 		<td>
-L&apos;application vous demandera une confirmation lorsque vous tenterez de fermer. 
+L'application vous demandera une confirmation lorsque vous tenterez de fermer. 
 		</td>
 	</tr>
 	<tr>
@@ -72,7 +72,7 @@ L&apos;application vous demandera une confirmation lorsque vous tenterez de ferm
 Vérifier les sessions ouvertes à la fermeture 
 		</td>
 		<td>
-L&apos;application vous avertira que des sessions sont en cours d&apos;exécution lorsque vous tenterez de fermer. 
+L'application vous avertira que des sessions sont en cours d'exécution lorsque vous tenterez de fermer. 
 		</td>
 	</tr>
 </table>
@@ -114,7 +114,7 @@ Description
 Variables personnalisées 
 		</td>
 		<td>
-L&apos;option de variables personnalisées a été implémentée pour personnaliser vos propres variables dans l&apos;application. Cliquer sur le signe plus pour créer une nouvelle variable à utiliser. Saisir le nom et la valeur de la variable. 
+L'option de variables personnalisées a été implémentée pour personnaliser vos propres variables dans l'application. Cliquer sur le signe plus pour créer une nouvelle variable à utiliser. Saisir le nom et la valeur de la variable. 
 		</td>
 	</tr>
 </table>

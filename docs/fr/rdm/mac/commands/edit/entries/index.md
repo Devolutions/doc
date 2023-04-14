@@ -1,7 +1,7 @@
 ---
 title: Ajouter des entrées
 ---
-Les options pour ajouter vous permettent de créer rapidement de nouvelles entrées, de les dupliquer, de créer des raccourcis ou d&apos;enregistrer votre entrée en tant que modèle.  
+Les options pour ajouter vous permettent de créer rapidement de nouvelles entrées, de les dupliquer, de créer des raccourcis ou d'enregistrer votre entrée en tant que modèle.  
 
 ## Paramètres 
 
@@ -38,7 +38,7 @@ Créer un raccourci
 		</td>
 		<td>
 
-Lier votre entrée à plusieurs dossiers. Voir [Créer un raccourci](/fr/rdm/mac/commands/edit/entries/shortcut/) pour plus d&apos;informations. 
+Lier votre entrée à plusieurs dossiers. Voir [Créer un raccourci](/fr/rdm/mac/commands/edit/entries/shortcut/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

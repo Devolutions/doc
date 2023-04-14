@@ -7,7 +7,7 @@ Le menu ***Fichier*** contient plusieurs actions à votre disposition concernant
 Consulter les rubriques suivantes pour en savoir plus sur chaque paramètre:  
 
 * [Mettre hors-ligne](/fr/rdm/mac/commands/file/go-offline/) 
-* [Verrouiller l&apos;application](/fr/rdm/mac/commands/file/lock-application/) 
+* [Verrouiller l'application](/fr/rdm/mac/commands/file/lock-application/) 
 * [Informations sur la source de données](/fr/rdm/mac/commands/file/data-source-information/) 
 * [Compte Devolutions](/fr/rdm/mac/commands/file/devolutions-account/) 
 * [Actualiser](/fr/rdm/mac/commands/file/backup/refresh/) 

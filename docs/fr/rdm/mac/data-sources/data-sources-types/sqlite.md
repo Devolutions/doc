@@ -15,7 +15,7 @@ La source de données SQLite de {{ fr.RDM }} est idéale pour un seul utilisateu
 
 ## Points forts 
 
-* Prise en charge complète des journaux d&apos;activité et des pièces jointes. 
+* Prise en charge complète des journaux d'activité et des pièces jointes. 
 * Le service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) est disponible pour cette source de données 
 
 {% snippet icon.shieldCaution %} 
@@ -23,11 +23,11 @@ Tous les mots de passe sont cryptés par défaut par {{ fr.RDM }} . Vous pouvez 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
-La récupération du mot de passe SQLite n&apos;est pas possible, les données seront irrécupérables si vous ne pouvez pas vous authentifier. Veuillez vous assurer de sauvegarder le mot de passe dans un endroit sûr. 
+La récupération du mot de passe SQLite n'est pas possible, les données seront irrécupérables si vous ne pouvez pas vous authentifier. Veuillez vous assurer de sauvegarder le mot de passe dans un endroit sûr. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-SQLite prend en charge un nombre illimité de lecteurs simultanés, mais n&apos;autorise qu&apos;un seul écrivain à tout instant. Pour cette raison, {{ fr.RDM }} ne prend pas en charge le partage d&apos;une source de données SQLite entre plusieurs utilisateurs en la stockant sur un lecteur réseau. Si vous souhaitez partager vos données et travailler en équipe avec vos collègues, veuillez utiliser l&apos;une des [Sources de données avancées](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . Veuillez consulter le site de SQLite pour plus d&apos;informations. 
+SQLite prend en charge un nombre illimité de lecteurs simultanés, mais n'autorise qu'un seul écrivain à tout instant. Pour cette raison, {{ fr.RDM }} ne prend pas en charge le partage d'une source de données SQLite entre plusieurs utilisateurs en la stockant sur un lecteur réseau. Si vous souhaitez partager vos données et travailler en équipe avec vos collègues, veuillez utiliser l'une des [Sources de données avancées](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . Veuillez consulter le site de SQLite pour plus d'informations. 
 {% endsnippet %}
  
 ## Paramètres 
@@ -37,7 +37,7 @@ SQLite prend en charge un nombre illimité de lecteurs simultanés, mais n&apos;
 ![SQLite - Général](/img/fr/rdm/mac/clip0335.png) 
 
 {% snippet icon.badgeWarning %} 
-La récupération du mot de passe SQLite n&apos;est pas possible, les données seront irrécupérables si vous ne pouvez pas vous authentifier. Veuillez vous assurer de sauvegarder le mot de passe dans un endroit sûr. 
+La récupération du mot de passe SQLite n'est pas possible, les données seront irrécupérables si vous ne pouvez pas vous authentifier. Veuillez vous assurer de sauvegarder le mot de passe dans un endroit sûr. 
 {% endsnippet %}
  
 <table>
@@ -87,7 +87,7 @@ Toujours demander le mot de passe lors de la connexion à la source de données.
 		</td>
 		<td>
 
-Activer l&apos; [Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
+Activer l' [Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
 		</td>
 	</tr>
 </table>
@@ -113,7 +113,7 @@ Sauvegarde
 Choisir entre:  
 
 * Aucun : Aucune sauvegarde de votre source de données ne sera créée. 
-* Sauvegarde en ligne : Une sauvegarde en ligne (à l&apos;aide du service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) ) sera automatiquement créée. 
+* Sauvegarde en ligne : Une sauvegarde en ligne (à l'aide du service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) ) sera automatiquement créée. 
 * Sauvegarde du fichier : Votre sauvegarde sera enregistrée dans un fichier choisi, mais ne fera pas automatiquement sauvegarder toutes les 30 secondes. 
 		</td>
 	</tr>
@@ -122,7 +122,7 @@ Choisir entre:
 Nom de la sauvegarde 
 		</td>
 		<td>
-Spécifier le nom de sauvegarde qui vous permettra d&apos;enregistrer automatiquement vos sessions dans un espace de stockage en ligne sécurisé et de les restaurer en cas de problème. 
+Spécifier le nom de sauvegarde qui vous permettra d'enregistrer automatiquement vos sessions dans un espace de stockage en ligne sécurisé et de les restaurer en cas de problème. 
 		</td>
 	</tr>
 </table>
@@ -145,7 +145,7 @@ Description
 Actualisation automatique 
 		</td>
 		<td>
-Définir l&apos;intervalle d&apos;actualisation automatique. 
+Définir l'intervalle d'actualisation automatique. 
 		</td>
 	</tr>
 	<tr>
@@ -153,15 +153,15 @@ Définir l&apos;intervalle d&apos;actualisation automatique.
 Délai de commande 
 		</td>
 		<td>
-Temps d&apos;attente avant un délai de commande. 
+Temps d'attente avant un délai de commande. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Désactiver l&apos;affichage du mot de passe 
+Désactiver l'affichage du mot de passe 
 		</td>
 		<td>
-Désactiver la fonctionnalité de révélation du mot de passe lorsqu&apos;un utilisateur accède à cette source de données. 
+Désactiver la fonctionnalité de révélation du mot de passe lorsqu'un utilisateur accède à cette source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -170,7 +170,7 @@ Désactiver la mise en cache
 		</td>
 		<td>
 
-Les entrées seront rechargées en mode simple dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d&apos;informations. 
+Les entrées seront rechargées en mode simple dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -201,7 +201,7 @@ Description
 Gérer fichier SQLite 
 		</td>
 		<td>
-Gérer tous vos fichiers SQLite pour les analyser, les nettoyer, les réparer ou les supprimer. Pour plus d&apos;informations, veuillez suivre ce [lien](Manage-Cache) . 
+Gérer tous vos fichiers SQLite pour les analyser, les nettoyer, les réparer ou les supprimer. Pour plus d'informations, veuillez suivre ce [lien](Manage-Cache) . 
 		</td>
 	</tr>
 	<tr>

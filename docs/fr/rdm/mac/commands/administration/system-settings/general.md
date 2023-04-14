@@ -1,7 +1,7 @@
 ---
 title: Général
 ---
-Dans le menu ***Général*** , vous pourrez gérer différents droits d&apos;accès spécifiques à la source de données.  
+Dans le menu ***Général*** , vous pourrez gérer différents droits d'accès spécifiques à la source de données.  
 
 ![Paramètres du système - Général](/img/fr/rdm/mac/clip4104.png) 
 
@@ -18,11 +18,11 @@ Description
 	</tr>
 	<tr>
 		<td>
-Permettre les Paramètres spécifiques de l&apos;usager 
+Permettre les Paramètres spécifiques de l'usager 
 		</td>
 		<td>
 
-Permets l&apos;utilisation des ***Paramètres spécifiques de l&apos;usager*** . Voir [Paramètres spécifiques de l&apos;usager](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/) pour plus d&apos;informations. 
+Permets l'utilisation des ***Paramètres spécifiques de l'usager*** . Voir [Paramètres spécifiques de l'usager](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -30,7 +30,7 @@ Permets l&apos;utilisation des ***Paramètres spécifiques de l&apos;usager*** .
 Permettre Paramètres spécifiques locaux 
 		</td>
 		<td>
-Permets l&apos;utilisation de ***Paramètres spécifiques locaux*** . 
+Permets l'utilisation de ***Paramètres spécifiques locaux*** . 
 		</td>
 	</tr>
 	<tr>
@@ -38,7 +38,7 @@ Permets l&apos;utilisation de ***Paramètres spécifiques locaux*** .
 Désactiver le {{ fr.PVLT }} 
 		</td>
 		<td>
-Désactive l&apos;utilisation du {{ fr.PVLT }} pour tous les utilisateurs de la source de données. 
+Désactive l'utilisation du {{ fr.PVLT }} pour tous les utilisateurs de la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -46,7 +46,7 @@ Désactive l&apos;utilisation du {{ fr.PVLT }} pour tous les utilisateurs de la 
 Désactiver le glisser-déposer des entrées 
 		</td>
 		<td>
-La modification du groupe d&apos;entrées à l&apos;aide du glisser-déposer sera désactivée. Utiliser ce paramètre pour éviter un glisser-déposer accidentel. 
+La modification du groupe d'entrées à l'aide du glisser-déposer sera désactivée. Utiliser ce paramètre pour éviter un glisser-déposer accidentel. 
 		</td>
 	</tr>
 	<tr>
@@ -54,7 +54,7 @@ La modification du groupe d&apos;entrées à l&apos;aide du glisser-déposer ser
 Désactiver la trace de la pile 
 		</td>
 		<td>
-Désactive les détails de trace de pile lorsqu&apos;une erreur apparaît lors de l&apos;exécution de l&apos;application. 
+Désactive les détails de trace de pile lorsqu'une erreur apparaît lors de l'exécution de l'application. 
 		</td>
 	</tr>
 	<tr>
@@ -83,7 +83,7 @@ Description
 Mode hors connexion 
 		</td>
 		<td>
-Définir la prise en charge de la source de données globale pour le mode hors ligne. Utile lors de l&apos;utilisation d&apos;une connexion VPN qui rend impossible l&apos;utilisation du réseau local. 
+Définir la prise en charge de la source de données globale pour le mode hors ligne. Utile lors de l'utilisation d'une connexion VPN qui rend impossible l'utilisation du réseau local. 
 		</td>
 	</tr>
 	<tr>
@@ -109,18 +109,18 @@ Description
 	</tr>
 	<tr>
 		<td>
-Verrouiller l&apos;application quand réduite 
+Verrouiller l'application quand réduite 
 		</td>
 		<td>
-Verrouiller automatiquement l&apos;application lorsqu&apos;elle est réduite dans la barre des tâches pour chaque utilisateur de la source de données. 
+Verrouiller automatiquement l'application lorsqu'elle est réduite dans la barre des tâches pour chaque utilisateur de la source de données. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Verrouiller lorsqu&apos;inactive 
+Verrouiller lorsqu'inactive 
 		</td>
 		<td>
-Verrouiller automatiquement l&apos;application lorsqu&apos;elle n&apos;est pas utilisée après un nombre de minutes déterminé. 
+Verrouiller automatiquement l'application lorsqu'elle n'est pas utilisée après un nombre de minutes déterminé. 
 		</td>
 	</tr>
 </table>

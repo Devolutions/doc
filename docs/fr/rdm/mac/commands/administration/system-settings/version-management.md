@@ -21,7 +21,7 @@ Description
 Désactiver la notification de la mise à jour automatique 
 		</td>
 		<td>
-Désactiver le message de notification de mise à jour automatique. Utiliser ceci lorsque vous souhaitez mettre à jour manuellement l&apos;application et ne pas être averti lorsque de nouvelles versions sont disponibles. 
+Désactiver le message de notification de mise à jour automatique. Utiliser ceci lorsque vous souhaitez mettre à jour manuellement l'application et ne pas être averti lorsque de nouvelles versions sont disponibles. 
 		</td>
 	</tr>
 	<tr>
@@ -42,10 +42,10 @@ Forcer les utilisateurs de la source de données à utiliser une version maximal
 	</tr>
 	<tr>
 		<td>
-Chemin d&apos;installation du client / URL 
+Chemin d'installation du client / URL 
 		</td>
 		<td>
-Utilisé en conjonction avec la version minimale ou maximale. Une fois qu&apos;une exigence de version minimale ou maximale n&apos;est pas remplie, le système informera l&apos;utilisateur que la version n&apos;est plus valide et ouvrira le lien (chemin URL) pour télécharger la plus récente ou la plus ancienne version. 
+Utilisé en conjonction avec la version minimale ou maximale. Une fois qu'une exigence de version minimale ou maximale n'est pas remplie, le système informera l'utilisateur que la version n'est plus valide et ouvrira le lien (chemin URL) pour télécharger la plus récente ou la plus ancienne version. 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +53,7 @@ Utilisé en conjonction avec la version minimale ou maximale. Une fois qu&apos;u
 Autoriser accès de RDM 
 		</td>
 		<td>
-Désactiver l&apos;option pour exclure certains clients sur différentes plates-formes telles que Windows, macOS, iOS ou Android. 
+Désactiver l'option pour exclure certains clients sur différentes plates-formes telles que Windows, macOS, iOS ou Android. 
 		</td>
 	</tr>
 	<tr>
@@ -61,7 +61,7 @@ Désactiver l&apos;option pour exclure certains clients sur différentes plates-
 Autoriser accès de PVM 
 		</td>
 		<td>
-Désactiver l&apos;option pour refuser l&apos;accès à votre source de données à partir de Password Vault Management. 
+Désactiver l'option pour refuser l'accès à votre source de données à partir de Password Vault Management. 
 		</td>
 	</tr>
 </table>

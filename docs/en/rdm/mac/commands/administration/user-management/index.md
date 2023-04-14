@@ -15,7 +15,7 @@ In order to create users and assign rights, you must be administrator of not onl
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) support the use of Integrated Security. To learn more please see &#160; [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . 
+Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) support the use of Integrated Security. To learn more please see   [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . 
 {% endsnippet %}
  
 ## Settings 
@@ -26,7 +26,7 @@ To create a new user click on the add button. You can create a user using defaul
 ![User and Security Management](/img/en/rdm/mac/clip10133.png) 
 
 {% snippet icon.badgeInfo %} 
-Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) support the use of [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . If using the [{{ en.RDMS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.To learn more please see &#160; [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . 
+Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) support the use of [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . If using the [{{ en.RDMS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.To learn more please see   [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . 
 {% endsnippet %}
  
 ## User Management Settings 
@@ -77,7 +77,7 @@ Specifies to use the Windows Integrated Authentication to authenticate to the da
 Email 
 		</td>
 		<td>
-Insert the user&apos;s email address. 
+Insert the user's email address. 
 		</td>
 	</tr>
 	<tr>

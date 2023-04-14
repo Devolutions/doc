@@ -106,7 +106,7 @@ The ***On Close Comment*** is defined in the ***Log*** tab of your session.
 User 
 		</td>
 		<td>
-Indicates the connected user&apos;s name. 
+Indicates the connected user's name. 
 		</td>
 	</tr>
 	<tr>

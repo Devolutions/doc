@@ -3,10 +3,10 @@ title: Raccourcis clavier
 ---
 Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Préférences – Interface utilisateur – Raccourcis*** .  
 
-Le bouton ***Réinitialiser*** annule toute modification de personnalisation des raccourcis qui n&apos;a pas encore été enregistrée. Le bouton ***Restaurer tout par défaut*** ramène tous les raccourcis à leurs valeurs par défaut.  
+Le bouton ***Réinitialiser*** annule toute modification de personnalisation des raccourcis qui n'a pas encore été enregistrée. Le bouton ***Restaurer tout par défaut*** ramène tous les raccourcis à leurs valeurs par défaut.  
 
 {% snippet icon.badgeCaution %} 
-Les boutons ***Réinitialiser*** et ***Restaurer tout par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** n&apos;efface que les modifications non sauvegardées. Utilisez ces options avec précaution afin de ne pas risquer la perte de vos raccourcis personnalisés. 
+Les boutons ***Réinitialiser*** et ***Restaurer tout par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** n'efface que les modifications non sauvegardées. Utilisez ces options avec précaution afin de ne pas risquer la perte de vos raccourcis personnalisés. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -83,7 +83,7 @@ Cmd+R
 	</tr>
 	<tr>
 		<td>
-Forcer l&apos;actualisation 
+Forcer l'actualisation 
 		</td>
 		<td>
 Maj+Cmd+R 
@@ -216,7 +216,7 @@ Cmd+:
 	</tr>
 	<tr>
 		<td>
-Vérifier l&apos;orthographe 
+Vérifier l'orthographe 
 		</td>
 		<td>
 Cmd+; 
@@ -237,7 +237,7 @@ RACCOURCI
 	</tr>
 	<tr>
 		<td>
-Afficher la barre d&apos;outils 
+Afficher la barre d'outils 
 		</td>
 		<td>
 Alt+Cmd+T 
@@ -314,7 +314,7 @@ Cmd+Retour arrière
 	</tr>
 	<tr>
 		<td>
-Modifier l&apos;entrée 
+Modifier l'entrée 
 		</td>
 		<td>
 Maj+Cmd+E 
@@ -343,7 +343,7 @@ Cmd+M
 	</tr>
 	<tr>
 		<td>
-Sélectionnez l&apos;onglet suivant 
+Sélectionnez l'onglet suivant 
 		</td>
 		<td>
 Maj+Cmd+Droite 
@@ -351,7 +351,7 @@ Maj+Cmd+Droite
 	</tr>
 	<tr>
 		<td>
-Sélectionnez l&apos;onglet précédent 
+Sélectionnez l'onglet précédent 
 		</td>
 		<td>
 Maj+Cmd+Gauche 

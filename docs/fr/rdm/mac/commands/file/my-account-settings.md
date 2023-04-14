@@ -1,7 +1,7 @@
 ---
 title: Paramètres de mon compte
 ---
-Utiliser ***Fichier - Paramètres de mon compte*** pour configurer différents comptes qui peuvent être utilisés pour se connecter sur différentes plateformes Web. Cela vous permet de configurer les paramètres de votre compte une seule fois et de l&apos;utiliser dans la création de vos entrées autant de fois que vous le souhaitez. Vous pouvez également gérer vos identifiants personnels, votre clé privée personnelle et votre liste de paramètres spécifiques à l&apos;utilisateur. 
+Utiliser ***Fichier - Paramètres de mon compte*** pour configurer différents comptes qui peuvent être utilisés pour se connecter sur différentes plateformes Web. Cela vous permet de configurer les paramètres de votre compte une seule fois et de l'utiliser dans la création de vos entrées autant de fois que vous le souhaitez. Vous pouvez également gérer vos identifiants personnels, votre clé privée personnelle et votre liste de paramètres spécifiques à l'utilisateur. 
 
 ## Paramètres 
 
@@ -20,7 +20,7 @@ Description
 Mes identifiants personnels 
 		</td>
 		<td>
-Consulter la rubrique Mes identifiants personnels pour plus d&apos;informations. 
+Consulter la rubrique Mes identifiants personnels pour plus d'informations. 
 		</td>
 	</tr>
 		<td>

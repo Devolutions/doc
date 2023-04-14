@@ -24,7 +24,7 @@ Action fermer tout par défaut
 		</td>
 		<td>
 
-Sélectionner l&apos;action ***Par défaut*** pour le bouton ***Fermer tout*** lorsque plusieurs onglets sont ouverts en même temps dans le tableau de bord:  
+Sélectionner l'action ***Par défaut*** pour le bouton ***Fermer tout*** lorsque plusieurs onglets sont ouverts en même temps dans le tableau de bord:  
 
 * Déconnecter (Déconnecter toutes les sessions à onglets ouverts) 
 * Fermer la session (Fermer la session dans les onglets ouverts) 
@@ -72,11 +72,11 @@ Description
 	</tr>
 	<tr>
 		<td>
-Mode de calibrage d&apos;écran 
+Mode de calibrage d'écran 
 		</td>
 		<td>
 
-Vous pouvez choisir un mode de dimensionnement d&apos;écran préféré pour votre session RDP entre:  
+Vous pouvez choisir un mode de dimensionnement d'écran préféré pour votre session RDP entre:  
 
 * Barre de défilement 
 * Résolution intelligente 
@@ -88,7 +88,7 @@ Vous pouvez choisir un mode de dimensionnement d&apos;écran préféré pour vot
 Affichage 
 		</td>
 		<td>
-Déterminer l&apos;affichage préféré pour la session. Choisir entre: 
+Déterminer l'affichage préféré pour la session. Choisir entre: 
 
 * Par défaut 
 * Externe 
@@ -97,11 +97,11 @@ Déterminer l&apos;affichage préféré pour la session. Choisir entre:
 
 Vous pouvez ensuite choisir le moniteur préféré sur lequel afficher:  
 
-* Moniteur primaire: C&apos;est le moniteur qui est marqué comme affichage principal dans Windows 
-* Moniteur secondaire: L&apos;autre moniteur non primaire, osbolète, utilise à la place le moniteur 1, 2, 3 ou 4 
-* Moniteur courant: Le moniteur dans lequel RDM s&apos;exécute 
+* Moniteur primaire: C'est le moniteur qui est marqué comme affichage principal dans Windows 
+* Moniteur secondaire: L'autre moniteur non primaire, osbolète, utilise à la place le moniteur 1, 2, 3 ou 4 
+* Moniteur courant: Le moniteur dans lequel RDM s'exécute 
 * Configuré: Voir les options du système 
-* Par défaut: Ne déplacera pas l&apos;application, ce sera le mode par défaut de Windows 
+* Par défaut: Ne déplacera pas l'application, ce sera le mode par défaut de Windows 
 * Moniteur 1: Le moniteur devient le principal 
 * Moniteur 2: Le moniteur devient le principal 
 * Moniteur 3: Le moniteur devient le principal 
@@ -115,7 +115,7 @@ Vous pouvez ensuite choisir le moniteur préféré sur lequel afficher:
 Activer la mise en sandbox 
 		</td>
 		<td>
-Le sandboxing isole la connexion RDP dans un autre processus. C&apos;est plus stable et plus fiable, car c&apos;est une application indépendante intégrée dans RDP. Cela signifie que RDP peut plus facilement récupérer après une déconnexion ou une erreur fatale. 
+Le sandboxing isole la connexion RDP dans un autre processus. C'est plus stable et plus fiable, car c'est une application indépendante intégrée dans RDP. Cela signifie que RDP peut plus facilement récupérer après une déconnexion ou une erreur fatale. 
 		</td>
 	</tr>
 	<tr>
@@ -164,10 +164,10 @@ Description
 	</tr>
 	<tr>
 		<td>
-Affichage à l&apos;écran 
+Affichage à l'écran 
 		</td>
 		<td>
-Lorsque vous utilisez une session ARD, vous serez invité à savoir quel affichage à l&apos;écran utiliser. Par défaut, il prendra l&apos;écran principal. 
+Lorsque vous utilisez une session ARD, vous serez invité à savoir quel affichage à l'écran utiliser. Par défaut, il prendra l'écran principal. 
 		</td>
 	</tr>
 </table>

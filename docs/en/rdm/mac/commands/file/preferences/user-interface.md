@@ -206,7 +206,7 @@ Includes a menu to show and hide certain options.
 	</tr>
 	<tr>
 		<td>
-Include &quot;Maximize&quot; menu 
+Include “Maximize“ menu 
 		</td>
 		<td>
 Includes a menu to maximize the application window to take the full area of the screen. 
@@ -222,7 +222,7 @@ Includes a sub-menu for the data sources. This requires more than one data sourc
 	</tr>
 	<tr>
 		<td>
-Include &quot;Quick Connect&quot; menu 
+Include “Quick Connect“ menu 
 		</td>
 		<td>
 Includes a menu to perform a Quick Connect to a host. 
@@ -238,7 +238,7 @@ Includes a menu that contain the Most Recently Used entries.
 	</tr>
 	<tr>
 		<td>
-Include &quot;Play list&quot; menu 
+Include “Play list“ menu 
 		</td>
 		<td>
 The Play List will appear in the menu. 

@@ -1,7 +1,7 @@
 ---
 title: Paramètres spécifiques
 ---
-Les paramètres spécifiques sont utilisés pour remplacer les paramètres spécifiques de l&apos;usager ou locaux d&apos;une session. 
+Les paramètres spécifiques sont utilisés pour remplacer les paramètres spécifiques de l'usager ou locaux d'une session. 
 
 ## Paramètres 
 
@@ -17,18 +17,18 @@ Description
 		</td>
 	</tr>
 		<td>
-Paramètres spécifiques de l&apos;usager 
+Paramètres spécifiques de l'usager 
 		</td>
 		<td>
 
-Permets le remplacement des paramètres de session pour un usager. Pour plus d&apos;informations, voir ***Paramètres spécifiques de l&apos;usager*** . 
+Permets le remplacement des paramètres de session pour un usager. Pour plus d'informations, voir ***Paramètres spécifiques de l'usager*** . 
 		</td>
 	</tr>
 		<td>
 Paramètres spécifiques locaux 
 		</td>
 		<td>
-Permets le remplacement des paramètres de session pour la machine locale. Pour plus d&apos;informations, voir ***Paramètres spécifiques locaux*** . 
+Permets le remplacement des paramètres de session pour la machine locale. Pour plus d'informations, voir ***Paramètres spécifiques locaux*** . 
 		</td>
 	</tr>
 </table>

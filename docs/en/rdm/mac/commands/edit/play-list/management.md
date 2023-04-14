@@ -1,7 +1,7 @@
 ---
 title: Management
 ---
-There&apos;s 3 way to Open a Play List: 
+There's 3 way to Open a Play List: 
 
 <table>
 	<tr>
@@ -40,17 +40,17 @@ Items will be selected in the Navigation Pane, this allow you to choose another 
 
 ### Open items in default mode 
 
-In View - Play List and &#32; select the Play List to open and click on Open  
+In View - Play List and   select the Play List to open and click on Open  
 ![Open Default Mode](/img/en/rdm/mac/clip10115.png) 
 
 ### Open items in Embedded mode 
 
-In View - Play List &#160; select the Play List to open and click on Open Embedded .  
+In View - Play List   select the Play List to open and click on Open Embedded .  
 ![Open Embedded Mode](/img/en/rdm/mac/clip10116.png) 
 
 ### Open items with Select in Navigation Pane 
 
-In View - Play List select the Play List to open and click on Select in &#32; Navigation Pane . Then select the desired entries in your Navigation Pane using Command + click.  
+In View - Play List select the Play List to open and click on Select in   Navigation Pane . Then select the desired entries in your Navigation Pane using Command + click.  
 ![Select in Navigation Pane](/img/en/rdm/mac/clip10117.png) 
 
 ## Menu 

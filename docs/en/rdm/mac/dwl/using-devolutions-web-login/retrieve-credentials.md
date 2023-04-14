@@ -56,7 +56,7 @@ Credentials can be retrieved from {{ en.RDM }} automatically or manually via {{ 
 1. Go to the login page of the website you want to access. This page will be different for each website; this section will use the Atlassian website as an example. One of two scenarios can happen:  
     1. If you only have one set of credentials for this website, the login fields should already be filled in with your credentials. If that is the case, follow the login process of the website until you successfully log in to your account. You do not have to follow the next step.  
     ![Automatically Filled Credentials Fields](/img/en/rdm/mac/RDMMac2053.png) 
-    1. If you have more than one set of credentials or if your credentials are not filled in, click on the {{ en.DWL }} icon in the credential field and select the entry that contains your credentials for that website. If multiple entries are available, you can search for the one you want using the ***Filter*** bar. Follow the rest of the website&apos;s login process until you successfully log in to your account.  
+    1. If you have more than one set of credentials or if your credentials are not filled in, click on the {{ en.DWL }} icon in the credential field and select the entry that contains your credentials for that website. If multiple entries are available, you can search for the one you want using the ***Filter*** bar. Follow the rest of the website's login process until you successfully log in to your account.  
     ![Entry Filter and Selection](/img/en/rdm/mac/RDMMac2054.png) 
 
 ### Manually Retrieving Credentials 
@@ -67,6 +67,6 @@ Depending on the options you have enabled/disabled, you may need to retrieve you
 1. Click on the {{ en.DWL }} extension in your browser. Website entries that are linked to this website will appear. 
 1. Click on the website entry that contains the credentials for this website. If multiple entries are available, you can use the ***Filter*** bar to find the one you need.  
 ![Entry Selection](/img/en/rdm/mac/RDMMac2055.png) 
-1. Your credentials will be transferred to the credentials fields of the website. Follow the rest of the website&apos;s login process until you successfully log in to your account.  
+1. Your credentials will be transferred to the credentials fields of the website. Follow the rest of the website's login process until you successfully log in to your account.  
 ![Credentials Transfer in Corresponding Fields](/img/en/rdm/mac/RDMMac2052.png) 
 

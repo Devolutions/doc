@@ -8,13 +8,13 @@ Cette fonctionnalité est disponible que lorsque le moteur hors ligne est config
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Les options de gestion de la cache doivent être utilisées que sur demande de notre équipe d&apos;assistance en cas de problème de cache. 
+Les options de gestion de la cache doivent être utilisées que sur demande de notre équipe d'assistance en cas de problème de cache. 
 {% endsnippet %}
  
 ## Paramètres 
 
 {% snippet icon.badgeInfo %} 
-L&apos;option ***Gérer la cache*** sera disponible que lors de l&apos;utilisation d&apos;un cache SQLite. 
+L'option ***Gérer la cache*** sera disponible que lors de l'utilisation d'un cache SQLite. 
 {% endsnippet %}
  
 ![Gérer la cache](/img/fr/rdm/mac/clip4271.png) 
@@ -49,7 +49,7 @@ Analyser va générer un rapport de tout ce qui est contenu dans le cache. Il li
 Nettoyer 
 		</td>
 		<td>
-Cela exécutera une commande SQLite pour réduire la taille de votre cache. L&apos;option Nettoyer doit être utilisée qu&apos;après avoir tenté d&apos;exécuter une réparation de votre cache. Si la réparation n&apos;a pas résolu votre problème, l&apos;exécution d&apos;un vide résout généralement les problèmes liés à un cache corrompu. 
+Cela exécutera une commande SQLite pour réduire la taille de votre cache. L'option Nettoyer doit être utilisée qu'après avoir tenté d'exécuter une réparation de votre cache. Si la réparation n'a pas résolu votre problème, l'exécution d'un vide résout généralement les problèmes liés à un cache corrompu. 
 		</td>
 	</tr>
 	<tr>
@@ -69,7 +69,7 @@ La réparation exécutera ces commandes SQLite différentes pour réparer un cac
 Supprimer 
 		</td>
 		<td>
-Cette option supprimera le fichier physique (offline.db). Veuillez noter que cela videra votre cache en mode hors ligne, vérifier toujours que votre base de données est disponible avant d&apos;exécuter une suppression . 
+Cette option supprimera le fichier physique (offline.db). Veuillez noter que cela videra votre cache en mode hors ligne, vérifier toujours que votre base de données est disponible avant d'exécuter une suppression . 
 		</td>
 	</tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 title: Rapports
 ---
-La section ***Rapports*** génère automatiquement des rapports concernant vos identifiants, entrées, journaux et sécurité. Vous aurez également la possibilité d&apos;exporter votre rapport généré qui est un moyen d&apos;exécuter et d&apos;exporter des rapports via une ligne de commande.  
+La section ***Rapports*** génère automatiquement des rapports concernant vos identifiants, entrées, journaux et sécurité. Vous aurez également la possibilité d'exporter votre rapport généré qui est un moyen d'exécuter et d'exporter des rapports via une ligne de commande.  
 ![Administration - Rapports](/img/fr/rdm/mac/clip4207.png) 
 
 Il existe 3 types de rapports différents:  

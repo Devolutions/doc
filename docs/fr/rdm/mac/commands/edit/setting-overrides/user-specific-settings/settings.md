@@ -1,17 +1,17 @@
 ---
 title: Paramètres
 ---
-L&apos;onglet ***Paramètres*** vous permet de remplacer le format de l&apos;écran, la passerelle et vos disques durs. 
+L'onglet ***Paramètres*** vous permet de remplacer le format de l'écran, la passerelle et vos disques durs. 
 
 ## Paramètres 
 
-### Format de l&apos;écran 
+### Format de l'écran 
 
 {% snippet icon.badgeInfo %}
-Substituer le format de l&apos;écran est visible que pour les sessions RDP. 
+Substituer le format de l'écran est visible que pour les sessions RDP. 
 {% endsnippet %}
  
-Substituer le format de l&apos;écran vous permet de personnaliser la taille de la fenêtre locale hébergeant la session distante.  
+Substituer le format de l'écran vous permet de personnaliser la taille de la fenêtre locale hébergeant la session distante.  
 ![Paramètres spécifiques de l'usager - Substituer le format de l'écran](/img/fr/rdm/mac/clip4062.png) 
 
 <table>
@@ -49,10 +49,10 @@ Définir la hauteur personnalisée de la fenêtre.
 	</tr>
 	<tr>
 		<td>
-Mode de calibrage d&apos;écran 
+Mode de calibrage d'écran 
 		</td>
 		<td>
-Vous pouvez sélectionner le mode de calibrage d&apos;écran entre:  
+Vous pouvez sélectionner le mode de calibrage d'écran entre:  
 
 * Barre de défilement 
 * Résolution intelligente 
@@ -102,7 +102,7 @@ Partager tous vos disques durs dans la session à distance.
 	</tr>
 	<tr>
 		<td>
-Rediriger le dossier d&apos;accueil 
+Rediriger le dossier d'accueil 
 		</td>
 		<td>
 Partager vos dossiers personnels dans la session à distance. 

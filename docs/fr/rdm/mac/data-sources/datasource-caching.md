@@ -4,7 +4,7 @@ title: Mode de la cache
 Le mode de la cache déterminera comment le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité n&apos;est disponible que lors de l&apos;utilisation d&apos;une [source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
@@ -14,7 +14,7 @@ Si vous pensez que le cache est obsolète, appuyez sur Ctrl+Actualiser ou Ctrl+F
 
 ## Paramètres 
 
-L&apos;option ***Mode de la cache*** est accessible via ***Fichier – Sources de données – Modifier la source de données – Avancé*** dans une source de données avancée.  
+L'option ***Mode de la cache*** est accessible via ***Fichier – Sources de données – Modifier la source de données – Avancé*** dans une source de données avancée.  
 ![Mode de la cache](/img/fr/rdm/mac/clip4511.png) 
 
 <table>
@@ -31,7 +31,7 @@ DESCRIPTION
 Désactivé 
 		</td>
 		<td>
-Empêche l&apos;utilisation du cache hors ligne. 
+Empêche l'utilisation du cache hors ligne. 
 		</td>
 	</tr>
 	<tr>
@@ -39,7 +39,7 @@ Empêche l&apos;utilisation du cache hors ligne.
 En mémoire 
 		</td>
 		<td>
-Utilise le cache hors ligne uniquement pour les modifications récentes, mais l&apos;empêche d&apos;écrire sur le disque (uniquement en mémoire). 
+Utilise le cache hors ligne uniquement pour les modifications récentes, mais l'empêche d'écrire sur le disque (uniquement en mémoire). 
 		</td>
 	</tr>
 	<tr>
@@ -58,7 +58,7 @@ Vous pouvez trouver le fichier de configuration en faisant un clic droit sur vot
 
 Vous pouvez ensuite ouvrir le dossier: com.devolutions.remotedesktopmanager et sélectionner la base de données correspondante où vous trouverez le fichier offline.db.  
 
-Le fichier est une base de données SQLite chiffrée à l&apos;aide d&apos;un hachage de clé calculée non portable.  
+Le fichier est une base de données SQLite chiffrée à l'aide d'un hachage de clé calculée non portable.  
 
 {% snippet icon.shieldNotice %} 
 Vous pouvez améliorer la sécurité du fichier hors ligne en définissant la sécurité renforcée dans les paramètres [Sécurité](/fr/rdm/mac/commands/file/preferences/security/) . 

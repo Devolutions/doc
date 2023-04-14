@@ -1,7 +1,7 @@
 ---
 title: Entrées supprimées
 ---
-L&apos;option ***Administration - Entrées supprimées*** vous permet d&apos;afficher les entrées supprimées ainsi que de les restaurer.  
+L'option ***Administration - Entrées supprimées*** vous permet d'afficher les entrées supprimées ainsi que de les restaurer.  
 ![Administration - Entrées supprimées](/img/fr/rdm/mac/clip4208.png) 
 
 {% snippet icon.badgeInfo %} 
@@ -13,7 +13,7 @@ Les administrateurs peuvent supprimer définitivement certaines ou toutes les en
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
-Les entrées supprimées peuvent être restaurées tant qu&apos;elles n&apos;ont pas été définitivement supprimées et tant que le fournisseur de sécurité n&apos;a pas été modifié depuis l&apos;action supprimée. 
+Les entrées supprimées peuvent être restaurées tant qu'elles n'ont pas été définitivement supprimées et tant que le fournisseur de sécurité n'a pas été modifié depuis l'action supprimée. 
 {% endsnippet %}
  
 
@@ -21,7 +21,7 @@ Les entrées supprimées peuvent être restaurées tant qu&apos;elles n&apos;ont
 
 ### Gérer les entrées supprimées 
 
-La vue des entrées supprimée générera une liste contenant toutes les entrées précédemment supprimées de votre source de données. Vous pouvez ressusciter une entrée, ce qui signifie qu&apos;elle redeviendra une entrée active et sera affichée dans votre source de données. Vous pouvez également choisir de supprimer définitivement vos entrées, une fois que vous aurez définitivement supprimé vos entrées, vous ne pourrez plus les ressusciter par la suite.  
+La vue des entrées supprimée générera une liste contenant toutes les entrées précédemment supprimées de votre source de données. Vous pouvez ressusciter une entrée, ce qui signifie qu'elle redeviendra une entrée active et sera affichée dans votre source de données. Vous pouvez également choisir de supprimer définitivement vos entrées, une fois que vous aurez définitivement supprimé vos entrées, vous ne pourrez plus les ressusciter par la suite.  
 ![Historique de l'entrée](/img/fr/rdm/mac/2015-09-22_09-58-08.png) 
 
 <table>
@@ -35,7 +35,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-Restaurer l&apos;entrée 
+Restaurer l'entrée 
 		</td>
 		<td>
 Restaurer une entrée dans votre base de données. 
@@ -46,7 +46,7 @@ Restaurer une entrée dans votre base de données.
 Supprimer 
 		</td>
 		<td>
-Supprimer définitivement l&apos;entrée supprimée sélectionnée. 
+Supprimer définitivement l'entrée supprimée sélectionnée. 
 		</td>
 	</tr>
 	<tr>

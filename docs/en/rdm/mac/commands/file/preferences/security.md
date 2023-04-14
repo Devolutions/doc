@@ -60,7 +60,7 @@ DESCRIPTION
 Require Yubikey authentication 
 		</td>
 		<td>
-Use a Yubikey device to get access to the application when it starts or when it&apos;s locked. 
+Use a Yubikey device to get access to the application when it starts or when it's locked. 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ Use a Yubikey device to get access to the application when it starts or when it&
 Require Google Authenticator 
 		</td>
 		<td>
-Use a Google Authenticator device to get access to the application when it starts or when it&apos;s locked. 
+Use a Google Authenticator device to get access to the application when it starts or when it's locked. 
 		</td>
 	</tr>
 	<tr>

@@ -1,7 +1,7 @@
 ---
 title: Exporter
 ---
-Utiliser les options d&apos;exportation pour exporter les entrées sélectionnées depuis {{ fr.RDM }} . 
+Utiliser les options d'exportation pour exporter les entrées sélectionnées depuis {{ fr.RDM }} . 
 
 ## Paramètres 
 
@@ -17,7 +17,7 @@ Description
 		</td>
 	</tr>
 		<td>
-Exporter l&apos;entrée en fichier Remote Desktop (.rdp) 
+Exporter l'entrée en fichier Remote Desktop (.rdp) 
 		</td>
 		<td>
 Exporter vos entrées sélectionnées dans un format de fichier Remote Desktop (.rdp). 
@@ -27,7 +27,7 @@ Exporter vos entrées sélectionnées dans un format de fichier Remote Desktop (
 Exporter la sélection (.rdm) 
 		</td>
 		<td>
-Exporter vos entrées sélectionnées dans un fichier .rdm qui peut ensuite être importé dans n&apos;importe quelle source de données {{ fr.RDM }} . Vous pouvez choisir d&apos;inclure les identifiants de vos entrées dans votre format d&apos;exportation et de sécuriser votre fichier avec une clé principale. 
+Exporter vos entrées sélectionnées dans un fichier .rdm qui peut ensuite être importé dans n'importe quelle source de données {{ fr.RDM }} . Vous pouvez choisir d'inclure les identifiants de vos entrées dans votre format d'exportation et de sécuriser votre fichier avec une clé principale. 
 		</td>
 	</tr>
 </table>

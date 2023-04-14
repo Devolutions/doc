@@ -1,7 +1,7 @@
 ---
 title: Action
 ---
-You can create Local or Shared play List in Remote Desktop Manager. There&apos;s several methods to create or edit a Play List:  
+You can create Local or Shared play List in Remote Desktop Manager. There's several methods to create or edit a Play List:  
 
 * Create Play List by selecting entries in the Navigation Panel 
 * Create Play List with Opened Tabbed Sessions 

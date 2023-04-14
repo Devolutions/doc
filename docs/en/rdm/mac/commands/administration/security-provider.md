@@ -8,7 +8,7 @@ This features requires an [Advanced Data Source](/rdm/mac/data-sources/data-sour
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Regardless of the security provider you&apos;ve selected, the passwords that are stored in the data store are ALWAYS encrypted using AES 256 bit encryption. 
+Regardless of the security provider you've selected, the passwords that are stored in the data store are ALWAYS encrypted using AES 256 bit encryption. 
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 
@@ -52,7 +52,7 @@ The session data will not be encrypted except for the passwords.
 Basic 
 		</td>
 		<td>
-All of the data is encrypted with a key stored in Remote Desktop Manager and it&apos;s impossible for an external system to access it. 
+All of the data is encrypted with a key stored in Remote Desktop Manager and it's impossible for an external system to access it. 
 		</td>
 	</tr>
 	<tr>
@@ -84,14 +84,14 @@ See below for more details.
 ## Shared Passphrase 
 
 {% snippet icon.badgeWarning %} 
-If the passphrase is lost, there is nothing that can be done to recover the data. &#160;Always copy it to a secure location when putting it in place. 
+If the passphrase is lost, there is nothing that can be done to recover the data.  Always copy it to a secure location when putting it in place. 
 {% endsnippet %}
  
-All of the entries configuration data is encrypted with a mix of key stored in {{ en.RDM }} for Mac and the passphrase you&apos;ve entered. The passphrase is required only when configuring the data source. 
+All of the entries configuration data is encrypted with a mix of key stored in {{ en.RDM }} for Mac and the passphrase you've entered. The passphrase is required only when configuring the data source. 
 
 ## Certificate 
 
-If you have chosen Certificate as your Security Provider, &#160;it will encrypt the entry configuration data with a mix of key stored in Remote Desktop Manager and the private key contained in the certificate.  
+If you have chosen Certificate as your Security Provider,  it will encrypt the entry configuration data with a mix of key stored in Remote Desktop Manager and the private key contained in the certificate.  
 ![Certificate Security Provider](/img/en/rdm/mac/clip10380.png) 
 
 <table>

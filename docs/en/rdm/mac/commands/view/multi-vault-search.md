@@ -79,7 +79,7 @@ It is possible to select multiple entries at once by shift-clicking or all of th
 
 ### Other functions 
 
-The ***Select in*** ***{{ en.NPANE }}*** button, when pressed, takes you directly to the selected entry or folder in the corresponding vault&apos;s ***{{ en.NPANE }}*** .  
+The ***Select in*** ***{{ en.NPANE }}*** button, when pressed, takes you directly to the selected entry or folder in the corresponding vault's ***{{ en.NPANE }}*** .  
 
 The ***Reset*** button clears all your search results and options, giving you a clean slate for a new search. 
 

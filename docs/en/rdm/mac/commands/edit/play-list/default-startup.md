@@ -7,7 +7,7 @@ A Play List can be set to be launched when {{ en.RDM }} for Mac is opened.
 
 ### Default Play List at startup 
 
-To define a default Play List, click Edit - Play List - Play List Management . &#32; Then select your Play List in the Default at startup drop down .  
+To define a default Play List, click Edit - Play List - Play List Management .   Then select your Play List in the Default at startup drop down .  
 ![Default at startup](/img/en/rdm/mac/clip10124.png) 
 
 {% snippet icon.badgeInfo %} 

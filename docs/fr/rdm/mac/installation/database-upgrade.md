@@ -1,12 +1,12 @@
 ---
 title: Mettre à niveau de la base de données
 ---
-Cette section s&apos;applique aux installations avec des sources de données qui utilisent une base de données comme magasin de données.  
+Cette section s'applique aux installations avec des sources de données qui utilisent une base de données comme magasin de données.  
 
-Certaines versions de {{ fr.RDM }} doivent modifier la structure de la base de données. Celles-ci sont effectuées automatiquement pour vous, mais il est recommandé d&apos;effectuer une sauvegarde de votre source de données au préalable. De plus, si vous êtes dans un environnement d&apos;équipe, vous devez être le seul utilisateur connecté à la base de données pendant la mise à niveau.  
+Certaines versions de {{ fr.RDM }} doivent modifier la structure de la base de données. Celles-ci sont effectuées automatiquement pour vous, mais il est recommandé d'effectuer une sauvegarde de votre source de données au préalable. De plus, si vous êtes dans un environnement d'équipe, vous devez être le seul utilisateur connecté à la base de données pendant la mise à niveau.  
 
 {% snippet icon.badgeNotice %} 
-L&apos;utilisateur effectuant la mise à jour doit disposer de privilèges administratifs sur la base de données et être SYSDBA ou DB_OWNER . 
+L'utilisateur effectuant la mise à jour doit disposer de privilèges administratifs sur la base de données et être SYSDBA ou DB_OWNER . 
 {% endsnippet %}
  
 ## Paramètres 
@@ -14,7 +14,7 @@ L&apos;utilisateur effectuant la mise à jour doit disposer de privilèges admin
 Sélectionner la source de données pour laquelle vous souhaitez procéder à une mise à niveau et cliquer sur ***Modifier*** .  
 ![Modifier la source de données](/img/fr/rdm/mac/clip4011.png) 
 
-Cliquer sur l&apos;onglet ***Mise à niveau*** .  
+Cliquer sur l'onglet ***Mise à niveau*** .  
 ![Onglet Mise à niveau](/img/fr/rdm/mac/clip4012.png) 
 
 <table>
@@ -51,9 +51,9 @@ Mettre à jour base de données
 Suivre ces étapes pour réussir une mise à jour de version:  
 
 1. Assurez-vous que vous êtes le seul utilisateur de la base de données pendant le processus de mise à niveau. 
-1. Sauvegarder votre base de données à l&apos;aide des outils DBSM. 
-1. Ouvrir {{ fr.RDM }} en étant connecté comme utilisateur disposant de droits d&apos;administration. Vous devez également être ***SYSDBA*** ou ***DB_OWNER*** . 
-1. Un message de mise à niveau peut vous être demandé lors de l&apos;accès à votre source de données. Si c&apos;est le cas, accepter la mise à niveau. 
+1. Sauvegarder votre base de données à l'aide des outils DBSM. 
+1. Ouvrir {{ fr.RDM }} en étant connecté comme utilisateur disposant de droits d'administration. Vous devez également être ***SYSDBA*** ou ***DB_OWNER*** . 
+1. Un message de mise à niveau peut vous être demandé lors de l'accès à votre source de données. Si c'est le cas, accepter la mise à niveau. 
 1. Mettre à jour le logiciel client sur tous les postes de travail. 
 		</td>
 	</tr>
@@ -62,7 +62,7 @@ Suivre ces étapes pour réussir une mise à jour de version:
 Tester base de données 
 		</td>
 		<td>
-Tester la connexion à la base de données pour valider si les informations appropriées ont été fournies. La base de données de test utilise le nom de la base de données dans l&apos;onglet ***Général*** . 
+Tester la connexion à la base de données pour valider si les informations appropriées ont été fournies. La base de données de test utilise le nom de la base de données dans l'onglet ***Général*** . 
 		</td>
 	</tr>
 	<tr>
@@ -70,7 +70,7 @@ Tester la connexion à la base de données pour valider si les informations appr
 Afficher les scripts de mises à jour 
 		</td>
 		<td>
-Autoriser l&apos;affichage du script mis à jour avant le lancement de la mise à jour de la base de données. 
+Autoriser l'affichage du script mis à jour avant le lancement de la mise à jour de la base de données. 
 		</td>
 	</tr>
 </table>

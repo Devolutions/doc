@@ -20,10 +20,10 @@ Description
 	</tr>
 	<tr>
 		<td>
-Rapport d&apos;inventaire 
+Rapport d'inventaire 
 		</td>
 		<td>
-Ouvre un rapport d&apos;inventaire pour une machine distante. 
+Ouvre un rapport d'inventaire pour une machine distante. 
 		</td>
 	</tr>
 	<tr>
@@ -39,7 +39,7 @@ Envoie la commande de paquet pour le Wake-on-Lan.
 Ping continu 
 		</td>
 		<td>
-Ouvre la boîte de dialogue ping de l&apos;hôte sélectionné et effectue un ping continu. 
+Ouvre la boîte de dialogue ping de l'hôte sélectionné et effectue un ping continu. 
 		</td>
 	</tr>
 	<tr>
@@ -47,7 +47,7 @@ Ouvre la boîte de dialogue ping de l&apos;hôte sélectionné et effectue un pi
 Ping 
 		</td>
 		<td>
-Ouvre la boîte de dialogue ping de l&apos;entrée sélectionnée et affiche le résultat. 
+Ouvre la boîte de dialogue ping de l'entrée sélectionnée et affiche le résultat. 
 		</td>
 	</tr>
 	<tr>
@@ -55,7 +55,7 @@ Ouvre la boîte de dialogue ping de l&apos;entrée sélectionnée et affiche le 
 Tracer route 
 		</td>
 		<td>
-Affiche l&apos;itinéraire et mesure les délais de transit des paquets sur un réseau. 
+Affiche l'itinéraire et mesure les délais de transit des paquets sur un réseau. 
 		</td>
 	</tr>
 </table>

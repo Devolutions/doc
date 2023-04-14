@@ -1,7 +1,7 @@
 ---
 title: Outils
 ---
-Utiliser ***Fichier - Préférences - Outils*** pour configurer le délai avant l&apos;expiration de l&apos;outil. 
+Utiliser ***Fichier - Préférences - Outils*** pour configurer le délai avant l'expiration de l'outil. 
 
 ## Paramètres 
 
@@ -23,7 +23,7 @@ Description
 Services de recherche timeout 
 		</td>
 		<td>
-Indique l&apos;heure à laquelle le service Bonjour recherchera avant l&apos;expiration du service. 
+Indique l'heure à laquelle le service Bonjour recherchera avant l'expiration du service. 
 		</td>
 	</tr>
 	<tr>
@@ -31,7 +31,7 @@ Indique l&apos;heure à laquelle le service Bonjour recherchera avant l&apos;exp
 Timeout du ping 
 		</td>
 		<td>
-Indique le délai avant l&apos;expiration du service ping. 
+Indique le délai avant l'expiration du service ping. 
 		</td>
 	</tr>
 	<tr>
@@ -39,7 +39,7 @@ Indique le délai avant l&apos;expiration du service ping.
 Port (WOL) 
 		</td>
 		<td>
-Indique le délai avant l&apos;expiration du service Wake on LAN. 
+Indique le délai avant l'expiration du service Wake on LAN. 
 		</td>
 	</tr>
 	<tr>
@@ -65,18 +65,18 @@ Description
 	</tr>
 	<tr>
 		<td>
-Journal d&apos;évènement 
+Journal d'évènement 
 		</td>
 		<td>
 
-Sélectionner le journal des événements préféré à ouvrir par défaut lors du lancement de l&apos;événement sur un ordinateur distant:  
+Sélectionner le journal des événements préféré à ouvrir par défaut lors du lancement de l'événement sur un ordinateur distant:  
 
 * Tout 
 * Application 
 * Sécurité 
 * Système 
 * Réplication DFS 
-* Service d&apos;annuaire 
+* Service d'annuaire 
 * Serveur DNS 
 * Évènements matériel 
 * Internet Explorer 
@@ -86,17 +86,17 @@ Sélectionner le journal des événements préféré à ouvrir par défaut lors 
 	</tr>
 	<tr>
 		<td>
-Type d&apos;évènement 
+Type d'évènement 
 		</td>
 		<td>
-Sélectionner le type d&apos;événement préféré à ouvrir par défaut lors du lancement de l&apos;événement sur un ordinateur distant:  
+Sélectionner le type d'événement préféré à ouvrir par défaut lors du lancement de l'événement sur un ordinateur distant:  
 
 * Tous 
 * Erreur 
 * Avertissement 
 * Information 
-* Succès de l&apos;Audit de sécurité 
-* Échec de l&apos;Audit de sécurité 
+* Succès de l'Audit de sécurité 
+* Échec de l'Audit de sécurité 
 		</td>
 	</tr>
 	<tr>
@@ -104,10 +104,10 @@ Sélectionner le type d&apos;événement préféré à ouvrir par défaut lors d
 Plage horaire 
 		</td>
 		<td>
-Définir la plage horaire pour l&apos;événement distant:  
+Définir la plage horaire pour l'événement distant:  
 
 * Semaine dernière 
-* Aujourd&apos;hui 
+* Aujourd'hui 
 * Hier 
 * Mois dernier 
 * Mois courant 

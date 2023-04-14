@@ -12,7 +12,7 @@ Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} pour Mac utilise l
 
 Les fonctionnalités suivantes sont également prises en charge :  
 
-* ***Groupe de disponibilité &quot;Always on&quot;*** ; 
+* ***Groupe de disponibilité “Always on“*** ; 
 * ***Regroupement*** ; 
 * ***Expédition des journaux*** ; 
 * ***Mise en miroir de bases de données*** . 
@@ -22,12 +22,12 @@ Les fonctionnalités suivantes sont également prises en charge :
 
 ## Configuration minimale requise de la source de donnée azure sql pour {{ fr.rdm }} pour mac 
 
-Microsoft Azure SQL propose différents niveaux de service dans son modèle d&apos;achat pour DTUS. Nous recommandons au minimum un forfait de niveau standard S0 pour 5 utilisateurs et plus. Visitez leur site Web pour plus d&apos;informations.  
+Microsoft Azure SQL propose différents niveaux de service dans son modèle d'achat pour DTUS. Nous recommandons au minimum un forfait de niveau standard S0 pour 5 utilisateurs et plus. Visitez leur site Web pour plus d'informations.  
 
 ## Points forts 
 
 * Prise en charge de la [gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/) avec un modèle de sécurité supérieur. 
-* Prise en charge du [mode hors ligne](/fr/rdm/mac/commands/file/go-offline/) lorsque le réseau ou le serveur n&apos;est pas disponible. 
+* Prise en charge du [mode hors ligne](/fr/rdm/mac/commands/file/go-offline/) lorsque le réseau ou le serveur n'est pas disponible. 
 * Prise en charge des journaux de connexions et des pièces jointes. 
 
 {% snippet icon.badgeHelp %} 
@@ -39,7 +39,7 @@ Une stratégie de sauvegarde de base de données appropriée doit être mise en 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-AD Azure n&apos;est pas pris en charge dans {{ fr.RDM }} pour Mac. Cette fonctionnalité n&apos;est pas encore implémentée. 
+AD Azure n'est pas pris en charge dans {{ fr.RDM }} pour Mac. Cette fonctionnalité n'est pas encore implémentée. 
 {% endsnippet %}
  
 ## Configuration 
@@ -87,10 +87,10 @@ Sélectionner votre mode de connexion entre la connexion à la base de données 
 	</tr>
 	<tr>
 		<td>
-Nom d&apos;utilisateur 
+Nom d'utilisateur 
 		</td>
 		<td>
-Nom d&apos;utilisateur pour se connecter à la source de données. 
+Nom d'utilisateur pour se connecter à la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -123,7 +123,7 @@ Nom de la base de données créée en ligne. Vous devez utiliser le bouton engre
 		</td>
 		<td>
 
-Activer l&apos; [Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
+Activer l' [Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -162,7 +162,7 @@ Description
 Actualisation automatique 
 		</td>
 		<td>
-Définir l&apos;intervalle d&apos;actualisation automatique. 
+Définir l'intervalle d'actualisation automatique. 
 		</td>
 	</tr>
 	<tr>
@@ -213,7 +213,7 @@ Mode de la cache
 		</td>
 		<td>
 
-Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d&apos;informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -221,7 +221,7 @@ Détermine comment les entrées seront rechargées dans la source de données. V
 Délai de connexion 
 		</td>
 		<td>
-Temps d&apos;attente avant un délai de connexion. 
+Temps d'attente avant un délai de connexion. 
 		</td>
 	</tr>
 	<tr>
@@ -229,7 +229,7 @@ Temps d&apos;attente avant un délai de connexion.
 Délai de commande 
 		</td>
 		<td>
-Temps d&apos;attente avant un délai de commande. 
+Temps d'attente avant un délai de commande. 
 		</td>
 	</tr>
 	<tr>
@@ -237,7 +237,7 @@ Temps d&apos;attente avant un délai de commande.
 Gérer la cache 
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l&apos;analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d&apos;informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/) . 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/) . 
 		</td>
 	</tr>
 	<tr>

@@ -1,7 +1,7 @@
 ---
 title: Affichage
 ---
-L&apos;onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l&apos;affichage, les journaux et la disposition de {{ fr.RDM }} pour Mac.  
+L'onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l'affichage, les journaux et la disposition de {{ fr.RDM }} pour Mac.  
 ![Onglet Affichage](/img/fr/rdm/mac/clip4079.png) 
 
 ### Sujets 
@@ -21,7 +21,7 @@ DESCRIPTION
 [{{ fr.VLT }}](/fr/rdm/mac/commands/view/vaults/) 
 		</td>
 		<td>
-Accéder au mode d&apos;affichage du ***{{ fr.NPANE }}*** pour le coffre actuel. 
+Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le coffre actuel. 
 		</td>
 	</tr>
 	<tr>
@@ -98,10 +98,10 @@ Lancer une session de ***Connexion rapide*** .
 	</tr>
 	<tr>
 		<td>
-[Journaux d&apos;activité](/fr/rdm/mac/commands/view/activity-logs/) 
+[Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/) 
 		</td>
 		<td>
-Ouvrir les ***Journaux d&apos;activité*** . 
+Ouvrir les ***Journaux d'activité*** . 
 		</td>
 	</tr>
 	<tr>
@@ -117,7 +117,7 @@ Ouvrir une fenêtre qui affiche toutes les entrées des identifiants.
 [Téléchargements](/fr/rdm/mac/commands/view/downloads/) 
 		</td>
 		<td>
-Ouvre une fenêtre pour visualiser les fichiers téléchargés par l&apos;intermédiaire d&apos;une entrée de navigateur web. 
+Ouvre une fenêtre pour visualiser les fichiers téléchargés par l'intermédiaire d'une entrée de navigateur web. 
 		</td>
 	</tr>
 	<tr>
@@ -146,7 +146,7 @@ Basculer le ***Tableau de bord*** .
 	</tr>
 </table>
 
-Cette section n&apos;apparaît que lorsque vous utilisez une source de données de type individuel. 
+Cette section n'apparaît que lorsque vous utilisez une source de données de type individuel. 
 
 <table>
 	<tr>
@@ -169,7 +169,7 @@ Ouvrir une fenêtre pour accéder à vos journaux locaux.
 </table>
 
 {% snippet icon.badgeInfo %} 
-Bien qu&apos;ils soient affichés par défaut dans une fenêtre, tous ces volets peuvent être glissés et ancrés n&apos;importe où dans {{ fr.RDM }} pour Mac. 
+Bien qu'ils soient affichés par défaut dans une fenêtre, tous ces volets peuvent être glissés et ancrés n'importe où dans {{ fr.RDM }} pour Mac. 
 {% endsnippet %}
  
 

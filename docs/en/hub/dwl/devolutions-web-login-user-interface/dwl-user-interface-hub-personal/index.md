@@ -35,7 +35,7 @@ Using the tabs of the ***Side Menu*** , you can access various {{ en.DWL }} feat
 Each tab will display a different view in the ***Content Area*** . The tabs available when using {{ en.DWL }} with {{ en.PHUB }} Personal are:  
 
 * the ***Matching*** tab, where you find available credentials for a specific website. 
-* the ***All Entries*** tab, &#160;where you can find all your {{ en.PHUB }} Personal entries divided into your different folders. 
+* the ***All Entries*** tab,  where you can find all your {{ en.PHUB }} Personal entries divided into your different folders. 
 * the ***Favorites*** tab, where you can find a list of your favorite entries. 
 * the ***Recent*** tab, where you can find a list of the entries that you recently used. 
 * the ***Trash*** tab, where you can ***Delete*** entries and folders or ***Resurrect*** previously deleted ones. 

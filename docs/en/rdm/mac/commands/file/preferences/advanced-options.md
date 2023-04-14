@@ -131,7 +131,7 @@ Disable the pwned check feature if it is not forced by the administrator in ***A
 Enable session logging 
 		</td>
 		<td>
-Record and track users&apos; activities and interactions with {{ en.RDM }} for Mac. 
+Record and track users' activities and interactions with {{ en.RDM }} for Mac. 
 		</td>
 	</tr>
 	<tr>
@@ -169,7 +169,7 @@ Get file icons from their apparent type
 		</td>
 		<td>
 		
-The file icon will be &quot;deduced&quot; from the file extension rather than asking the OS to resolve the image for the file directly. Only works for ***FTP*** , ***SFTP*** , ***SCP*** , and ***WebDAV*** session entries. 
+The file icon will be “deduced“ from the file extension rather than asking the OS to resolve the image for the file directly. Only works for ***FTP*** , ***SFTP*** , ***SCP*** , and ***WebDAV*** session entries. 
 		</td>
 	</tr>
 	<tr>
@@ -224,10 +224,10 @@ You can choose your Offline engine between MCDF v2.0 (default) or SQLite (deprec
 	</tr>
 	<tr>
 		<td>
-Force &quot;localhost&quot; when using VPN dynamic port 
+Force “localhost“ when using VPN dynamic port 
 		</td>
 		<td>
-Force the use of &quot;localhost&quot; when using the VPN dynamic port. 
+Force the use of “localhost“ when using the VPN dynamic port. 
 		</td>
 	</tr>
 	<tr>
