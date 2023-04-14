@@ -1,5 +1,6 @@
 ---
 title: Configure SSO Authentication With Microsoft Azure
+description: Here are the steps to configure Azure with Devolutions {{ en.PHUB }} Business for SSO authentication and user provisioning.
 keywords:
 - Office 365
 - Office365
@@ -77,7 +78,7 @@ We recommend including either “Devolutions“ or “ {{ en.PHUB }} “ in the 
 1. When prompted, enable ***Turn on the Microsoft Graph email*** , then click ***Add*** .  
 ![Turn on the Microsoft Graph email](/img/en/hub/Hub2149.png)  
 1. Select ***Overview*** in the left side menu, then copy the ***Application (client) ID*** by clicking on the ***Copy to clipboard*** icon next to it.  
-![Copy the Application (client) ID](/img/en/hub/Hub2189.png)  
+![Copy the Application (client) ID](/img/en/hub/Hub2159.png)  
 
 **In Devolutions {{ en.PHUB }} Business**  
 
