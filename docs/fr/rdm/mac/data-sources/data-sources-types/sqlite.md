@@ -201,7 +201,8 @@ Description
 Gérer fichier SQLite 
 		</td>
 		<td>
-Gérer tous vos fichiers SQLite pour les analyser, les nettoyer, les réparer ou les supprimer. Pour plus d'informations, veuillez suivre ce [lien](Manage-Cache) . 
+
+Gérer tous vos fichiers SQLite pour les analyser, les nettoyer, les réparer ou les supprimer. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/) . 
 		</td>
 	</tr>
 	<tr>
