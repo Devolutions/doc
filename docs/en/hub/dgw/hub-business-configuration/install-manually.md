@@ -1,17 +1,17 @@
 ---
 eleventyComputed:
     title: Install Manually
-    description: The following instructions explain how to manually install {{ en.DGW }} through {{ en.HUBB }} Business.
+    description: The following instructions explain how to manually install {{ en.DGW }} through {{ en.HUBB }}.
 ---
 The following instructions explain how to manually install {{ en.DGW }} through {{ en.HUBB }}.  
 
-### Steps for Manual Install
+## Steps for Manual Install
 
 {% snippet icon.badgeCaution %} 
 This method only works for Windows. 
 {% endsnippet %}
  
-1. Log in with your administrator {{ en.HUBB }} Business account. 
+1. Log in with your administrator {{ en.HUBB }} account. 
 1. Access the ***Administration*** tab on the left.  
 ![Administration Tab](/img/en/hub/DGW0020.png)
 *Administration Tab*{.caption} 
@@ -27,7 +27,7 @@ This method only works for Windows.
 1. Download the {{ en.DGW }} ***installer*** and execute it.  
 ![Installer](/img/en/hub/DGW0027.png)
 *Installer*{.caption} 
-1. <a name="7"></a>Click on ***Generate Gateway Public Key and download***. This key is unique to the {{ en.HUBB }} Business account and can only be generated once. If already generated, the key can be downloaded again, if necessary.  
+1. <a name="7"></a>Click on ***Generate Gateway Public Key and download***. This key is unique to the {{ en.HUBB }} account and can only be generated once. If already generated, the key can be downloaded again, if necessary.  
 ![Gateway Public Key](/img/en/hub/DGW0028.png)
 *Gateway Public Key*{.caption} 
 {% snippet icon.badgeInfo %} 
@@ -76,7 +76,7 @@ The installer should be run on the server hosting the {{ en.DGW }}.
 1. Make certain the {{ en.DGW }} can be reached by clicking ***Test Connection***.  
 ![Test Connection Button](/img/en/hub/DGW0038.png)
 *Test Connection Button*{.caption} 
-1. Click the ***Add*** button to link your {{ en.DGW }} installation to your {{ en.HUBB }} Business.  
+1. Click the ***Add*** button to link your {{ en.DGW }} installation to your {{ en.HUBB }}.  
 ![Add Button](/img/en/hub/DGW0039.png)
 *Add Button*{.caption} 
 1. A rectangle will show the information for every {{ en.DGW }} Hub link(s).  

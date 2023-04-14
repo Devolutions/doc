@@ -1,17 +1,17 @@
 ---
 eleventyComputed:
     title: Install with Script
-    description: The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.HUBB }} Business.
+    description: The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.HUBB }}.
 ---
-The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.HUBB }} Business.
+The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.HUBB }}.
 
-### Steps for Script Install
+## Steps for Script Install
 
 {% snippet icon.badgeInfo %} 
 The script install requires the use of PowerShell 7.
 {% endsnippet %}
  
-1. Log in with your administrator {{ en.HUBB }} Business account. 
+1. Log in with your administrator {{ en.HUBB }} account. 
 1. Access the ***Administration*** tab on the left.  
 ![Administration Tab](/img/en/hub/DGW0020.png)
 *Administration Tab*{.caption}
