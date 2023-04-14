@@ -1,19 +1,30 @@
 ---
-title: Remote Desktop Manager Configuration
+eleventyComputed:
+  title: Remote Desktop Manager Configuration
+  description: The following instructions explain how to use {{ en.DGW }} in an RDP session.
+  keywords:
+  - RDP
+  - VPN
 ---
-The following instructions explain how to use {{ en.DGW }} in a RDP session. 
+The following instructions explain how to use {{ en.DGW }} in an RDP session. 
 
 ## Steps 
 
-1. Select an RDP session and open its properties dialog. 
-1. Go in VPN/SSH/Gateway 
-1. In the VPN/SSH/Gateway tab, set the Type option to {{ en.DGW }} . 
-1. In the VPN/SSH/Gateway tab, set the Connect option to Always connect.  
-![DGW0009.png](/img/en/hub/DGW0009.png) 
-1. In the Settings (Devolutions Gateway) tab, select the gateway configured in {{ en.DPS }} Configuration.  
-![DGW0007.png](/img/en/hub/DGW0007.png) 
-1. To remove the 5 seconds delay when opening a connection, set the Delay value to 0 in the Advanced tab.  
-![DGW0011.png](/img/en/hub/DGW0011.png) 
-1. Once the RDP session is connected, the following log entry should be in the {{ en.DPS }} Data Source Logs. 
-![Reports – Data Source Logs](/img/en/hub/DGW0010.png) 
+1. Select an RDP session and open its ***Properties*** dialog. 
+1. Go to ***Connection*** – ***VPN/SSH/Gateway*** – ***VPN/SSH/Gateway*** – ***General***.
+1. In the ***General*** section, set the ***Type*** option to {{ en.DGW }}.  
+![{{ en.DGW }}](/img/en/hub/DGW0008.png) 
+*{{ en.DGW }}*{.caption} 
+1. In the same section, set the ***Connect*** option to ***Always connect***.  
+![Always Connect](/img/en/hub/DGW0009.png) 
+*Always Connect*{.caption} 
+1. In the ***Settings (Devolutions Gateway)*** tab select the gateway configured in [{{ en.HUB }} Configuration](/hub/dgw/hub-business-configuration/index/).  
+![Settings](/img/en/hub/DGW0007.png) 
+*Settings*{.caption} 
+{% snippet icon.badgeInfo %}
+To remove the five-second delay when opening a connection, set the ***Delay*** value to 0 in the ***Advanced*** tab.
+{% endsnippet %}  
 
+6. Once the RDP session is connected, the following log entry should be in ***Reports*** – ***Gateway Sessions***, which are located in the {{ en.HUB }} web interface.  
+![Reports – Gateway Sessions](/img/en/hub/DGW0052.png) 
+*Reports – Gateway Sessions*{.caption} 
