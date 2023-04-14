@@ -115,7 +115,6 @@ Microsoft Azure SQL
 {{ en.RDM }} for Mac uses the Microsoft cloud platform to save and manage all sessions.  
 
 For more information, please consult our Azure SQL topic. 
-
 		</td>
 		<td>
 Pros: 
