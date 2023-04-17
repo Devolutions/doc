@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-    title: Install Manually
-    description: The following instructions explain how to manually install {{ en.DGW }} through {{ en.HUBB }}.
+  title: Install Manually
+  description: The following instructions explain how to manually install {{ en.DGW }} through {{ en.HUBB }}.
 ---
 The following instructions explain how to manually install {{ en.DGW }} through {{ en.HUBB }}.  
 

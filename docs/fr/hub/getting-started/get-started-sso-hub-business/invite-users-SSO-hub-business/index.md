@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-    title: Inviter des utilisateurs pour SSO dans {{ fr.PHUB }} Business
+  title: Inviter des utilisateurs pour SSO dans {{ fr.PHUB }} Business
 description: Une fois l'authentification unique (SSO) confighurée et activée, invitez vos utilisateurs dans votre Hub en suivant ces étapes.
 keywords:
 - SSO

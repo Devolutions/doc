@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-    title: Invite Users for SSO in {{ en.PHUB }} Business
+  title: Invite Users for SSO in {{ en.PHUB }} Business
 description: Once SSO is configured and enabled, invite your users on your Hub following these steps.
 keywords:
 - SSO

@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-    title: Install with Script
-    description: The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.HUBB }}.
+  title: Install with Script
+  description: The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.HUBB }}.
 ---
 The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.HUBB }}.
 

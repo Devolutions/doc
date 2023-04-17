@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-    title: How to Integrate {{ en.HUB }} Business in RDM
+  title: How to Integrate {{ en.HUB }} Business in RDM
 ---
 {% youtube 'wI4Jn3zLC8U' %}
 

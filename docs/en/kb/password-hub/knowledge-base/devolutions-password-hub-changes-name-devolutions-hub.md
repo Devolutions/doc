@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-    title: Devolutions Password Hub Changes Its Name to {{ en.HUB }}
+  title: Devolutions Password Hub Changes Its Name to {{ en.HUB }}
 ---
 We are excited to announce that our password management solution, Devolutions Password Hub, is changing its name to {{ en.HUB }}! This rebranding effort is part of our ongoing mission to simplify and streamline our product portfolio.
 
