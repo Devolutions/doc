@@ -1,23 +1,52 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager PowerShell Core Module
+  title: Devolutions.PowerShell Core Module
+  description: The PowerShell module now needs to be downloaded from the PowerShell Gallery. It is no longer included in the {{ en.RDM }} installation package.
+  keywords:
+  - PowerShell
 ---
-Starting with {{ en.RDM }} version 2021.2.8.0, the PowerShell module needs to be downloaded from [PowerShell Gallery](https://www.powershellgallery.com/packages/RemoteDesktopManager). It is no longer included in the {{ en.RDM }} installation package.  
-
-This also means that there is no need to install {{ en.RDM }} on a machine to run PowerShell scripts. The module is now sufficient.  
+The PowerShell module now needs to be downloaded from the [PowerShell Gallery](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). It is no longer included in the {{ en.RDM }} installation package. This also means that there is no need to install {{ en.RDM }} on a machine to run PowerShell scripts. The module is now sufficient.
 
 {% snippet icon.badgeInfo %}
-To connect on an [Advanced Data Source](https://helprdm.devolutions.net/datasources_advanced.html) , the account used to connect to the data source must have an assigned RDM license. The usage of an [application key](/server/web-interface/administration/security-management/applications/) with a {{ en.DPS }} data source doesn't require a license.
+To connect to an [Advanced Data Source](https://helprdm.devolutions.net/datasources_advanced.html), the account used to connect to the data source must have an assigned {{ en.RDM }} license. The use of an [application key](/server/web-interface/administration/security-management/applications/) with a {{ en.DPS }} data source does not require a license.
 {% endsnippet %}  
 
-### How to install
+## How to Install
+* {{ en.RDM }} versions **2023.1 and later**:  
+`Install-Module -Name Devolutions.PowerShell`
+* {{ en.RDM }} versions **before 2023.1**:  
 `Install-Module -Name RemoteDesktopManager`
-### Migration of your scripts
-Once installed, the only required modification is to remove the Import-Module command from the scripts used with the old {{ en.RDM }} PowerShell module. Because the module is now part of the installed PowerShell modules on the computer, there no need to import it anymore in the scripts.  
-### Use an override configuration (portable)
-By using the CmdLets Get-RDMPowerShellOverride and Set-RDMPowerShellOverride, it’s possible to use an another configuration file and an alternate {{ en.RDM }} installation.  
 
-Both Properties are Optional, and their default values are applied when left empty.  
+## Manual Installation
+On some machines, it may be required to install the PowerShell module manually. Here are the steps to complete this process:  
+* {{ en.RDM }} versions **2023.1 and later**: 
+  1. Download the NUPKG file from the [Devolutions.PowerShell Gallery](https://www.powershellgallery.com/packages/Devolutions.PowerShell/).
+  1. Change the file extension to .zip.
+  1. Extract the file in C:\Program Files\WindowsPowerShell\Modules\devolutions.powershell\ &lt;version&gt;\
+  1. Unblock all newly extracted files.
+
+  ```
+  cd c:\program files\WindowsPowerShell\modules\devolutions.powershell\<version>  
+  dir * | unblock-file -verbose  
+  ```
+* {{ en.RDM }} versions **before 2023.1**:  
+  1. Download the NUPKG file from the [{{ en.RDM }} PowerShell Gallery](https://www.powershellgallery.com/packages/RemoteDesktopManager).
+  1. Change the file extension to .zip.
+  1. Extract the file in C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\ &lt;version&gt;\
+  1. Unblock all newly extracted files.
+
+  ```
+  cd c:\program files\WindowsPowerShell\modules\remotedesktopmanager\<version>  
+  dir * | unblock-file -verbose  
+  ```
+
+## Migration of Your Scripts
+Once installed, the only required modification is to remove the Import-Module command from the scripts used with the old {{ en.RDM }} PowerShell module. Because the module is now part of the installed PowerShell modules on the computer, there is no need to import it anymore in the scripts.  
+
+## Use an Override Configuration (Portable)
+By using the cmdlets `Get-RDMPowerShellOverride` and `Set-RDMPowerShellOverride`, it is possible to use another configuration file and an alternate {{ en.RDM }} installation.  
+
+Both properties are optional, and their default values are applied when left empty.  
 
 * OptionFilePath: the full path to the RemoteDesktopManager.cfg file  
 
@@ -29,25 +58,14 @@ Default: %ProgramFiles(x86)%\Devolutions\Remote Desktop Manager\RemoteDesktopMan
 
 ```
 $override = Get-RDMPowerShellOverride  
-$override.OptionFilePath = "PathToCfg" # C:\RemoteDesktopManager\2021.2\config\RemoteDesktopManager.cfg  
-$override.RemoteDesktopManagerExecutablePath = "Path to desired RDM version" # C:\RemoteDesktopManager\2021.2\Devolutions.RemoteDesktopManager.Bin.2021.2.11.0\RemoteDesktopManager64.exe  
+$override.OptionFilePath = "PathToCfg" # C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  
+$override.RemoteDesktopManagerExecutablePath = "Path to desired RDM version" # C:\RemoteDesktopManager\2023.1\Devolutions.RemoteDesktopManager.Bin.2023.1.11.0\RemoteDesktopManager64.exe  
 Set-RDMPowerShellOverride  
 # Restart Powershell  
 ```
-### Manual installation
-On some machines, it may be required to install the {{ en.RDM }} PowerShell module manually. Here are the steps to complete this process.  
 
-1. Download the NUPKG file from the {{ en.RDM }}   [PSGallery page](https://www.powershellgallery.com/packages/RemoteDesktopManager)
-1. Change extension file to zip.
-1. Extract in C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\<version>\
-1. Unblock all newly extracted files.
-
-```
-cd c:\program files\WindowsPowerShell\modules\remotedesktopmanager\<version>  
-dir * | unblock-file -verbose  
-```
-### Basic Troubleshooting
-Sometimes several version of the PowerShell module may appear to be in use. By typing $env:PSModulePath, you can then browse to these locations to delete the files RemoteDesktopManager and RemoteDesktopManager.PowershellModule to reinstall from fresh (renaming doesn’t prevent the system from scanning and finding the modules in them).  
+## Basic Troubleshooting
+Sometimes, several versions of the PowerShell module may appear to be in use. By typing $env:PSModulePath, you can then browse to these locations to delete the files RemoteDesktopManager and RemoteDesktopManager.PowershellModule to reinstall from fresh (renaming does not prevent the system from scanning and finding the modules in them).  
 
 ```
 $env:PSModulePath  
@@ -56,10 +74,11 @@ C:\Users\admin\Documents\WindowsPowerShell\Modules;
 C:\Program Files\WindowsPowerShell\Modules;  
 C:\windows\system32\WindowsPowerShell\v1.0\Modules  
 ```
-### Query the version of the PowerShell and the Configuration File in use
+
+## Query the Version of the PowerShell and the Configuration File in Use
 ```
 Get-RDMInstance  
-PS C:\RemoteDesktopManager\2021.2\Devolutions.RemoteDesktopManager.Bin.2021.2.11.0> Get-RDMInstance  
+PS C:\RemoteDesktopManager\2023.1\Devolutions.RemoteDesktopManager.Bin.2023.1.11.0> Get-RDMInstance  
 ApplicationVersion OptionFilename  
-2021.2.0.14        C:\RemoteDesktopManager\2021.2\config\RemoteDesktopManager.cfg  
+2023.1.0.14        C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  
 ```
