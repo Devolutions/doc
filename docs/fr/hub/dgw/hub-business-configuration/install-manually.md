@@ -16,7 +16,7 @@ Cette méthode ne fonctionne que pour Windows.
 
 1. Cliquer sur {{ fr.DGW }}, qui se trouve sous la section ***Gestion***.  
 
-1. Cliquer sur le bouton Ajouter ( ***+*** ) en haut à droite. 
+1. Cliquer sur le bouton ***Ajouter*** ( ***+*** ) en haut à droite. 
 
 1. Sélectionner ***Installation manuelle*** dans la liste déroulante.  
 

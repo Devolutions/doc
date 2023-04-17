@@ -18,7 +18,7 @@ This method only works for Windows.
 1. Click on {{ en.DGW }}, which is under the ***Management*** section.  
 ![{{ en.DGW }} Button](/img/en/hub/DGW0021.png)
 *{{ en.DGW }} Button*{.caption} 
-1. Click on the Add ( ***+*** ) button in the top right. 
+1. Click on the ***Add*** ( ***+*** ) button in the top right. 
 ![Add Button](/img/en/hub/DGW0022.png)
 *Add Button*{.caption} 
 1. Select ***Install Manually*** from the dropdown.  
