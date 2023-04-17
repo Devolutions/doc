@@ -18,7 +18,7 @@ Les instructions suivantes expliquent comment utiliser {{ fr.DGW }} dans une ses
 1. Dans la même section, définir l'option ***Se connecter*** sur ***Toujours connecté***.  
 ![Toujours connecté](/img/fr/hub/DGW0009.png)
 *Toujours connecté*{.caption} 
-1. Dans l'onglet ***Paramètres (Devolutions Gateway)***, sélectionner la passerelle configurée dans la [Configuration du {{ fr.HUB }} Business](/hub/dgw/fr/hub-business-configuration/).  
+1. Dans l'onglet ***Paramètres (Devolutions Gateway)***, sélectionner la passerelle configurée dans la [Configuration du {{ fr.HUB }} Business](/fr/hub/dgw/hub-business-configuration/).  
 ![Paramètres](/img/fr/hub/DGW0007.png)
 *Paramètres*{.caption} 
 {% snippet icon.badgeInfo %}

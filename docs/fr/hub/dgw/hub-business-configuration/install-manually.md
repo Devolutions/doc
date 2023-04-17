@@ -30,15 +30,15 @@ Le programme d'installation doit être exécuté sur le serveur hébergeant le {
  
 8. Cliquer sur ***Suivant***.  
 
-1. Une fois que le chemin d'installation souhaité est sélectionné, cliquez sur ***Suivant***.  
+1. Une fois que le chemin d'installation souhaité est sélectionné, cliquer sur ***Suivant***.  
 
-1. Sélectionner ***Configurer maintenant***, puis cliquez sur ***Suivant***.  
+1. Sélectionner ***Configurer maintenant***, puis cliquer sur ***Suivant***.  
 
 1. Saisir l'URI d'accès pour le {{ fr.DGW }}. Le port par défaut est 443, mais il peut être modifié. Cliquer sur ***Suivant***.  
 
 1. Les ports HTTP(S) et TCP par défaut sont respectivement 7171 et 8181, mais ils peuvent être modifiés. En outre, si un proxy inverse n'est pas utilisé, l'***écouteur HTTP*** doit avoir le même port que l'***URI*** d'accès.  
 
-1. Après avoir cliqué sur le bouton des points de suspension du haut, sélectionner un fichier PFX ou un fichier Certificat, puis saisir le mot de passe correspondant. (Si l'écouteur n'est pas en ***HTTPS*** ou si vous utilisez un reverse proxy, sauter cette étape)  
+1. Après avoir cliqué sur le bouton des points de suspension du haut, sélectionner un fichier PFX ou un fichier Certificat, puis saisir le mot de passe correspondant. (Si l'écouteur n'est pas en ***HTTPS*** ou si un reverse proxy est utilisé, sauter cette étape)  
 
 1. Cliquer sur les points de suspension et sélectionner la ***Clé publique*** qui a été générée à l'<a href="#7">étape 7</a>.  
 

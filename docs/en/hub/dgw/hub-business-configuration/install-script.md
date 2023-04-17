@@ -32,7 +32,7 @@ An ***Application User*** is required to proceed. If one is not already created,
 1. Click on {{ en.DGW }}, which is under the ***Management*** section.  
 ![{{ en.DGW }} Button](/img/en/hub/DGW0021.png)
 *{{ en.DGW }} Button*{.caption} 
-1. Click on the Add ( ***+*** ) button in the top right.  
+1. Click on the ***Add*** ( ***+*** ) button in the top right.  
 ![Add Button](/img/en/hub/DGW0022.png)
 *Add Button*{.caption} 
 1. Select ***Install with Script*** from the dropdown.  
@@ -50,7 +50,7 @@ An ***Application User*** is required to proceed. If one is not already created,
 1. Input the file path for the certificate. 
 1. Input the password for the certificate. (If the password was copied to the clipboard, do not CTRL+V, simply right-click) 
 1. Press ***Enter*** when the ***Web request status*** is completed. 
-1. If the installation is successful, it will show ***Devolutions Gateway installation done!*** Press ***Enter***. 
+1. If the installation is successful, it will show ***{{ en.DGW }} installation done!***. Press ***Enter***. 
 1. Go back to the {{ en.DGW }} webpage and click ***Refresh***.  
 ![Refresh](/img/en/hub/DGW0049.png)
 *Refresh*{.caption} 

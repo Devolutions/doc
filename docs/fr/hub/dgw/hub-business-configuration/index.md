@@ -7,5 +7,5 @@ eleventyComputed:
 
 Cliquez sur l'un des liens ci-dessous pour en savoir plus sur les différentes méthodes d'installation :  
 
-* Installer avec un script (recommandé) 
+* [Installer avec un script (recommandé)](/fr/hub/dgw/hub-business-configuration/install-script/) 
 * [Installation manuelle (expert)](/fr/hub/dgw/hub-business-configuration/install-manually/) 
