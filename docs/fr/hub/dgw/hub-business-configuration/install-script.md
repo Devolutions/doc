@@ -51,5 +51,5 @@ Un ***Utilisateur d'application*** est nécessaire pour continuer. S'il n'a pas 
 
 
 {% snippet icon.badgeInfo %} 
-Visiter [{{ fr.RDM }} Configuration](/hub/dgw/rdm-configuration/) pour en savoir plus sur la liaison entre {{ fr.RDM }} et {{ fr.DGW }}.
+Visiter [Configuration dans {{ fr.RDM }}](/fr/hub/dgw/rdm-configuration/) pour en savoir plus sur la liaison entre {{ fr.RDM }} et {{ fr.DGW }}.
 {% endsnippet %} 
