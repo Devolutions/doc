@@ -69,7 +69,7 @@ The installer should be run on the server hosting the {{ en.DGW }}.
 1. Input the correct information.  
 ![Information Fields](/img/en/hub/DGW0036.png)
 *Information Fields*{.caption}  
-![DGW0041.png](/img/en/hub/DGW0041.png) 
+![Information Fields](/img/en/hub/DGW0041.png) 
 1. By checking the ***Default*** box, this {{ en.DGW }} will be the one selected if none are specified or if ***Default*** is chosen when connecting.  
 ![Default](/img/en/hub/DGW0037.png)
 *Default*{.caption} 

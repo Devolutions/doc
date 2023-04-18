@@ -45,7 +45,7 @@ An ***Application User*** is required to proceed. If one is not already created,
 1. Click on ***Download***.  
 ![Download Script](/img/en/hub/DGW0048.png)
 *Download Script*{.caption} 
-1. Run the downloaded script with PowerShell 7 in administrator mode. (It should be installed on the server hosting the {{ en.DGW }} ) 
+1. Run the downloaded script with PowerShell 7 in administrator mode. (It should be installed on the server hosting the {{ en.DGW }}.)
 1. The script will ask ***Do you want to set a certification*** ? Input ***Y*** and press ***Enter***. 
 1. Input the file path for the certificate. 
 1. Input the password for the certificate. (If the password was copied to the clipboard, do not CTRL+V, simply right-click) 
