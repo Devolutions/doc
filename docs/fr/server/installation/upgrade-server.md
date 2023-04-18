@@ -75,7 +75,7 @@ Notre service d'assistance reçoit de plus en plus de demandes d'assistance urge
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Si vous avez sélectionné l'option Sécurité intégrée pour la communication vers la base de données dans l'onglet ***Base de données*** , veuillez vous assurer que les comptes configurés dans le pool d'application IIS et le planificateur possèdent les droits requis sur la base de données suite à la mise à jour. Il se peut que la nouvelle version requière de nouvelles permissions. Veuillez nous contacter pour plus d'information à ce sujet. 
+Si vous avez sélectionné l'option Sécurité intégrée pour la communication vers la base de données dans l'onglet ***Base de données*** , veuillez vous assurer que les comptes configurés dans le pool d'application IIS et le planificateur possèdent les droits requis sur la base de données suite à la mise à jour. 
 {% endsnippet %}
  
 * Demander à un utilisateur de mettre à niveau son poste de travail avec la version de {{ fr.RDM }} prise en charge par la version {{ fr.RDMS }} et de tester la connectivité avec l'instance de serveur.  

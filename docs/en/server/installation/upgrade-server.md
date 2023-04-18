@@ -76,7 +76,7 @@ Our support department gets more and more urgent requests for assistance because
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-If you have elected to use the Integrated Security for connecting to the database in the [Database](/server/management/devolutions-server-console/devolutions-server-settings/database/) tab, ensure that the IIS Application Pool Identity and Scheduler accounts have enough privileges on the database. After an upgrading to a new version, new permissions are possibly required. Please contact us about the new permissions list. 
+If you have elected to use the Integrated Security for connecting to the database in the [Database](/server/management/devolutions-server-console/devolutions-server-settings/database/) tab, ensure that the IIS Application Pool Identity and Scheduler accounts have enough privileges on the database. 
 {% endsnippet %}
  
 * Have a user upgrade his workstation with the version of {{ en.RDM }} supported by the {{ en.RDMS }} version and test connectivity with the server instance. 
