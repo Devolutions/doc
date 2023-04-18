@@ -1,0 +1,116 @@
+---
+title: Remote Desktop Manager 
+---
+![{{ en.RDM }} logo](https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg)
+
+{{ en.RDM }} is an application that integrates a comprehensive set of tools and managers to meet the needs of any IT team. It is designed to centralize remote connection technologies, credentials, and secure the access to these resources. Most connections are established using either an external library or third-party software.  
+
+{{ en.RDM }} is compatible with several relevant tools and technologies, including: Apple Remote Desktop , Citrix , Dameware , FTP , Hyper-V , LogMeIn , Radmin , RDP (Microsoft Remote Desktop) , SSH Port Forward , SSH Shell , TeamViewer, Telnet , Remote Desktop Services , VMware , VNC , SCP , X Windows , and more! 
+
+{% youtube '-uz8dvo9tpE' %} 
+
+## The {{ en.RDM }} ecosystem 
+
+{{ en.RDM }} is available in two editions: 
+
+<table>
+	<tr>
+		<td>
+Free 
+		</td>
+		<td>
+For individuals only, no information can be shared with colleagues. The most popular remote access technologies are supported and passwords can be stored securely. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Team 
+		</td>
+		<td>
+Used by teams, this edition offers user permissions, user groups, advanced logging, etc. RDM uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for Cloud-Based storage or to get full Active Directory Integration. 
+		</td>
+	</tr>
+</table>
+
+{{ en.RDM }} is also offered on multiple platforms, as seen below. 
+{% snippet icon.badgeNotice %} 
+Purchasing an Team license grants the right to use ALL the various client applications. 
+{% endsnippet %}
+ 
+{% snippet icon.badgeCaution %} 
+You must use a desktop application to create a team data source. This explains why the mobile applications are free. They do allow for simple usage by an individual much like the Free Edition, but they can only use , &#32; not manage , a Team data source. 
+{% endsnippet %}
+ 
+<table>
+	<tr>
+		<th>
+PLATFORM 
+		</th>
+		<th>
+FREE EDITION 
+		</th>
+		<th>
+TEAM EDITION 
+		</th>
+	</tr>
+	<tr>
+		<td>
+Windows 
+		</td>
+		<td>
+
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+		</td>
+		<td>
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+		</td>
+	</tr>
+	<tr>
+		<td>
+macOS 
+		</td>
+		<td>
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+		</td>
+		<td>
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Linux 
+		</td>
+		<td>
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+		</td>
+		<td>
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+		</td>
+	</tr>
+	<tr>
+		<td>
+iOS 
+		</td>
+		<td>
+
+		</td>
+		<td>
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+(Free App) 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Android 
+		</td>
+		<td>
+
+		</td>
+		<td>
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+(Free App) 
+		</td>
+	</tr>
+</table>
+
+
