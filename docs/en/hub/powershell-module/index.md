@@ -1,28 +1,29 @@
 ---
 title: PowerShell Module
+description: The Devolutions.PowerShell module is a way to access, create, update, and remove elements in your {{ en.PHUB }} Business. This will help you to automate some operations/scripts.
 order: 30
 ---
-The {{ en.PHUB }} PowerShell Module is a way to access, create, update and remove elements in your {{ en.PHUB }} Business. This will help you to automatize some operations/scripts. After you install the PowerShell Module, you will be ready to use the module and connect to your {{ en.PHUB }} Business.  
+The Devolutions.PowerShell module is a way to access, create, update, and remove elements in your {{ en.PHUB }} Business. This will help you to automate some operations/scripts. After you install the Devolutions.PowerShell module, you will be ready to use the module and connect to your {{ en.PHUB }} Business.  
 
 ### Prerequisites 
 
-* PowerShell 7 installed:  
-    * [Windows](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) 
-    * [Mac](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7.1) 
-    * [Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7.1) 
+* PowerShell 7.2 or later installed:  
+    * [Windows](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows) 
+    * [macOS](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos) 
+    * [Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux) 
 * An [Application User](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) 
 
 ## Tutorials 
 
-### Connecting to your {{ en.PHUB }} business 
+### Connecting to your {{ en.PHUB }} Business 
 
-{% snippet icon.badgeInfo %} 
-For the full list of commands available please consult our [PowerShell Commands](/hub/powershell-module/powershell-commands/) topic. 
+{% snippet icon.badgeHelp %} 
+For the full list of available commands, see [PowerShell Commands](/hub/powershell-module/powershell-commands/). 
 {% endsnippet %}
  
-1. Once PowerShell 7 is installed, open a PowerShell 7 terminal and install Devolutions Remote Desktop Manager (RDM) PowerShell Module with the following PowerShell command:  
+1. Once PowerShell 7.2 or later is installed, open a PowerShell terminal and install the Devolutions.PowerShell module with the following PowerShell command:  
 
-`Install-Module -Name RemoteDesktopManager`  
+`Install-Module -Name Devolutions.PowerShell`  
 
 ![Hub2136.png](/img/en/hub/Hub2136.png) 
 
@@ -60,4 +61,3 @@ If you have more than one entry, you will see an array of entries.
 ![Hub4066.png](/img/en/hub/Hub4066.png)  
 
 At any moment, you can validate in your web version of {{ en.PHUB }} Business that the changes have been made. 
-
