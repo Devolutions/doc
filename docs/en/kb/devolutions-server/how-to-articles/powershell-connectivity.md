@@ -1,16 +1,20 @@
 ---
 eleventyComputed:
-  title: PowerShell connectivity methods to {{ en.DPS }}
+  title: PowerShell Connectivity Methods to {{ en.DVLS }}
+  description: The following methods describe how to connect to {{ en.DVLS }} using PowerShell.
+  keywords:
+  - PowerShell
 ---
-The following methods describe how to connect to {{ en.DPS }} using PowerShell.
-### Method 1: Using the {{ en.RDM }} PowerShell module  
+The following methods describe how to connect to {{ en.DVLS }} using PowerShell.
+
+## Method 1: Using {{ en.RDM }} Cmdlets  
+
 {% snippet icon.badgeNotice %}
 This new data source created with PowerShell will only exist in the user context it was created.
 {% endsnippet %}  
 
-1. Follow the instruction on this article [{{ en.RDM }} PowerShell Core module](/kb/remote-desktop-manager/knowledge-base/rdm-powershell-core-module/) to properly install the module.
-1. Create a new {{ en.DPS }} data source using an [Application Key and the Application Secret](/server/web-interface/administration/security-management/applications/) using the following script. This script should only be used once to avoid creating many new data sources. Please replace the values of the 4 variables with your own information. Then run the script.  
-
+1. Follow the instructions in [Devolutions.PowerShell Core module](/kb/remote-desktop-manager/knowledge-base/rdm-powershell-core-module/) to properly install the module.
+1. Create a new {{ en.DVLS }} data source using an [Application Key and Application Secret](/server/web-interface/administration/security-management/applications/) with the following script. This script should only be used once to avoid creating many new data sources. Replace the values of the four variables with your own information, then run the script.  
 ```
 $dsname = "DVLS PowerShell"  
 $dsurl = "https<area>://your_dvls_url"  
@@ -19,26 +23,23 @@ $appsecret = "your_appsecret"
 
 $ds = New-RDMDataSource -DVLS -Name $dsname -Server $dsurl -ScriptingTenantID $appkey -ScriptingApplicationPassword $appsecret -SetDatasource -WarningAction SilentlyContinue Set-RDMDataSource $d
 ```
-3. To connect to the data source, please use these lines in all your scripts.  
-
+3. To connect to the data source, use these lines in all your scripts.  
 ```
 $dsname = "DVLS PowerShell"  
 $ds = Get-RDMDataSource -Name $dsname  
 Set-RDMCurrentDataSource $ds  
 ```
-### Method 2: Using the {{ en.DPS }} PowerShell Module
 
-1. Install the [{{ en.DPS }} PowerShell module](https://www.powershellgallery.com/packages/Devolutions.Server) from the PSGallery.
-1. The script expects that credentials and the url to your {{ en.DPS }} be defined in environment variables. Since storing credentials in scripts is frowned upon, adapt a local file for running your own tests.  
+## Method 2: Using {{ en.DVLS }} Cmdlets
 
+1. Follow the instructions in [Devolutions.PowerShell Core module](/kb/remote-desktop-manager/knowledge-base/rdm-powershell-core-module/) to properly install the module.
+1. The script expects that your {{ en.DVLS }} credentials and URL be defined in environment variables. Since storing credentials in scripts is frowned upon, adapt a local file for running your own tests.  
 ```
 $env:DS_URL= ' http<area>://localhost/dps  
 $env:DS_USER = '{your user here}'  
 $env:DS_PASSWORD = '{your password here}'  
 ```
-
-3. The following sample script can be used to connect using again an [Application Key and its Application Secret](/server/web-interface/administration/security-management/applications/)  
-
+3. The following sample script can be used to connect using an [Application Key and Application Secret](/server/web-interface/administration/security-management/applications/).  
 ```
 Import-Module -Name Devolutions.Server -Force  
 [string]$Username = $env:DS_USER  
@@ -50,9 +51,7 @@ Import-Module -Name Devolutions.Server -Force
 
 $Response = New-DSSession -Credential $Creds -BaseURI $DVLSUrl -AsApplication
 ```
-
-4. Once the script is completed and all tasks fulfill, then you need to close the session using the Close-DSSession cmdlet.  
-
+4. Once the script is completed and all tasks are fulfilled, close the session using the `Close-DSSession` cmdlet.  
 ```
 Close-DSSession | out-null  
 Write-Output ' ' 
