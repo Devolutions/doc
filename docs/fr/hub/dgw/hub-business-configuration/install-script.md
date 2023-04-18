@@ -20,8 +20,8 @@ Un ***Utilisateur d'application*** est nécessaire pour continuer. S'il n'a pas 
 {% endsnippet %} 
 
 3. L'***Utilisateur d'application*** devra avoir la permission de gérer le {{ fr.DGW }} pour que le script fonctionne. Cliquer sur ***Permissions du système***, qui se trouve sous la section ***Configuration et sécurité***.  
-![Permissions du système](/img/fr/hub/DGW0022.png)
-*Permissions du système*{.caption} 
+![Administration – Permissions du système](/img/fr/hub/DGW0022.png)
+*Administration – Permissions du système*{.caption} 
 1. Sélectionner le bouton ***Modifier*** dans le coin supérieur droit.  
 ![Modifier](/img/fr/hub/DGW0023.png)
 *Modifier*{.caption} 
