@@ -1,6 +1,8 @@
 ---
 title: PowerShell Module
 description: The Devolutions.PowerShell module is a way to access, create, update, and remove elements in your {{ en.PHUB }} Business. This will help you to automate some operations/scripts.
+keywords:
+- PowerShell
 order: 30
 ---
 The Devolutions.PowerShell module is a way to access, create, update, and remove elements in your {{ en.PHUB }} Business. This will help you to automate some operations/scripts. After you install the Devolutions.PowerShell module, you will be ready to use the module and connect to your {{ en.PHUB }} Business.  
