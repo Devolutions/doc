@@ -12,7 +12,7 @@ The [Devolutions.PowerShell module](/hub/powershell-module) needs to be installe
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
-Proper permissions are also required to perform some of these commands. Please refer to [Application Users](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/). 
+Proper permissions are also required to perform some of these commands. Please refer to [Application Users](/hub/web-interface/hub-overview/administration/management/application-users/). 
 {% endsnippet %}
  
 PSHubContext is an object that specifies your authentication information. You will need a valid PSHubContext to connect to your {{ en.HUB }} Business. You can have many PSHubContext connected in your PowerShell session, but only one is used when you use {{ en.PHUB }} cmdlets.  
@@ -26,9 +26,9 @@ In this object, you have the following:
 
 {% snippet icon.badgeInfo %}
 * To check all available commands:  
-`Get-Command-Module &lt;ModuleName&gt;` 
+`Get-Command-Module <ModuleName>` 
 * To check all potential arguments and parameters set for a command:  
-`Show-Command &lt;CommandName&gt;`  
+`Show-Command <CommandName>`  
 {% endsnippet %}
  
 ## Connection 

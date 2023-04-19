@@ -735,5 +735,3 @@ ReadOnly - The number of the connection version.
 		</td>
 	</tr>
 </table>
-
-

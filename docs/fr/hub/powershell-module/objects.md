@@ -1,7 +1,11 @@
 ---
-title: Objets du Module Hub PowerShell
+title: Objets du module Devolutions.PowerShell
+description: 
+keywords:
+- PowerShell
+- Objects
 ---
-Cette section concerne les objets disponibles avec le Module Hub PowerShell et ce dont le module aura besoin pour ses commandes. 
+Cette section concerne les objets disponibles avec le module Devolutions.PowerShell et ce dont le module aura besoin pour ses commandes. 
 
 ## Objets 
 
@@ -38,7 +42,7 @@ Url
 String 
 		</td>
 		<td>
-Il s'agit de l'URL du Hub auquel vous voulez vous connecter avec l'utilisateur d'application. 
+Il s'agit de l'URL du {{ fr.PHUB }} auquel vous voulez vous connecter avec l'utilisateur d'application. 
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +53,7 @@ ApplicationKey
 String 
 		</td>
 		<td>
-Ce sont les identifiants dont vous aurez besoin pour vous connecter au Hub. Ceux-ci sont disponibles lors de la création d'un utilisateur d'application. 
+Ce sont les identifiants dont vous aurez besoin pour vous connecter au {{ fr.PHUB }}. Ceux-ci sont disponibles lors de la création d'un utilisateur d'application. 
 		</td>
 	</tr>
 	<tr>
@@ -84,7 +88,7 @@ AllowUserVault
 Boolean 
 		</td>
 		<td>
-Indicateur si vous voulez autoriser le coffre d'utilisateur dans Hub. 
+Indicateur si vous voulez autoriser le {{ fr.PVLT }} dans {{ fr.PHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -117,7 +121,7 @@ DisableReason
 Enum(HubDisableReason) 
 		</td>
 		<td>
-LectureSeulement - Énumération qui montre quelle est la raison de la désactivation du Hub. 
+LectureSeulement - Énumération qui montre la raison de la désactivation du {{ fr.PHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -183,7 +187,7 @@ NetworkFilters
 Array of Object(NetworkFilter) 
 		</td>
 		<td>
-Tableau d'objet NetworkFilter qui gère le filtrage IpAdress vers Hub. 
+Tableau d'objet NetworkFilter qui gère le filtrage IpAddress vers {{ fr.PHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -194,7 +198,7 @@ OrganizationId
 String 
 		</td>
 		<td>
-L'identifiant de l'Organisation si vous voulez gérer la connexion par l'Organisation du compte Devolutions. S'il est vide, le déroulement sera normal. 
+L'identifiant de l'Organisation si vous voulez gérer la connexion par l'Organisation du {{ fr.DA }}. S'il est vide, le déroulement sera normal. 
 		</td>
 	</tr>
 	<tr>
@@ -216,7 +220,7 @@ PasswordTemplateId
 Guid 
 		</td>
 		<td>
-Identifiant d'un modèle de mot de passe que vous voulez définir et activer dans Hub. 
+Identifiant d'un modèle de mot de passe que vous voulez définir et activer dans {{ fr.PHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -227,7 +231,7 @@ SystemPermissions
 Object(SystemPermissions) 
 		</td>
 		<td>
-Objet qui vous donne une liste des permissions des utilisateurs et des groupes définies sur l'ensemble du système. 
+Objet qui vous donne une liste des permissions des utilisateurs et des groupes définis sur l'ensemble du système. 
 		</td>
 	</tr>
 	<tr>
@@ -238,7 +242,7 @@ SystemVaultPermissions
 Object(VaultPermissions) 
 		</td>
 		<td>
-Objet qui vous donne une liste des permissions des utilisateurs et des groupes définies globalement pour tous les coffres. 
+Objet qui vous donne une liste des permissions des utilisateurs et des groupes définis globalement pour tous les coffres. 
 		</td>
 	</tr>
 	<tr>
@@ -287,7 +291,7 @@ CanAccessOffline
 Boolean 
 		</td>
 		<td>
-Indicateur qui gère si les utilisateurs peuvent accéder au Hub en mode hors ligne dans RDM. 
+Indicateur qui gère si les utilisateurs peuvent accéder au {{ fr.PHUB }} en mode hors ligne dans {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -353,7 +357,7 @@ Locale
 String 
 		</td>
 		<td>
-LectureSeulement -Texte qui représente la langue de l'utilisateur. 
+LectureSeulement - Texte qui représente la langue de l'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -550,7 +554,7 @@ Type
 Enum(VaultType) 
 		</td>
 		<td>
-LectureSeulement Énumération qui vous montre le type de coffre. 
+LectureSeulement - Énumération qui vous montre le type de coffre. 
 		</td>
 	</tr>
 	<tr>
@@ -681,7 +685,7 @@ Permissions
 Object(EntryPermissions) 
 		</td>
 		<td>
-Objet qui vous donne une liste des utilisateurs et des permissions de groupes qui sont définies sur cette entrée. 
+Objet qui vous donne une liste des utilisateurs et des permissions de groupes qui sont définis sur cette entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -729,5 +733,3 @@ LectureSeulement - Le numéro de la version de connexion.
 		</td>
 	</tr>
 </table>
-
-

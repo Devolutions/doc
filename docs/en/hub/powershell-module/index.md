@@ -10,9 +10,9 @@ The Devolutions.PowerShell module is a way to access, create, update, and remove
 ### Prerequisites 
 
 * PowerShell 7.2 or later installed:  
-    * [Windows](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows) 
-    * [macOS](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos) 
-    * [Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux) 
+    * [Windows](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) 
+    * [macOS](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos) 
+    * [Linux](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux) 
 * An [Application User](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) 
 
 ## Tutorials 
