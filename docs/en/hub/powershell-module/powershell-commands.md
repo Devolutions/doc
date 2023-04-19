@@ -1,28 +1,34 @@
 ---
 title: PowerShell Commands
+description: This topic is about all authentication commands and handles for PSHubContext. 
+keywords:
+- PowerShell
+- Authentication
 ---
 This topic is about all authentication commands and handles for PSHubContext. 
 
 {% snippet icon.badgeInfo %} 
-The [{{ en.PS }} Module](/hub/powershell-module/overview/) needs to be installed to use these commands.
+The [Devolutions.PowerShell module](/hub/powershell-module) needs to be installed to use these commands.
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
-Proper permissions are also required to perform some of these commands. Please refer to the [Application Users](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) topic. 
+Proper permissions are also required to perform some of these commands. Please refer to [Application Users](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/). 
 {% endsnippet %}
  
-PSHubContext is an object that specifies your authentication information. You will need a valid PSHubContext to connect to your {{ en.HUB }} Business. You can have many PSHubContext connected in your PowerShell session, but only one is used when you use {{ en.PHUB }} Cmdlet.  
+PSHubContext is an object that specifies your authentication information. You will need a valid PSHubContext to connect to your {{ en.HUB }} Business. You can have many PSHubContext connected in your PowerShell session, but only one is used when you use {{ en.PHUB }} cmdlets.  
 
 In this object, you have the following:
 
 * Name: Name of the application user 
 * URL: {{ en.HUB }} Business URL 
 * Application secret: Application secret given after the application user creation 
-* Application key: Application key given after the application user creation  
+* Application key: Application key given after the application user creation 
 
-{% snippet icon.badgeInfo %} 
-* To check all available commands: Get-Command-Module <ModuleName>  
-* To check all potential arguments and parameters set for a command: Show-Command <CommandName>  
+{% snippet icon.badgeInfo %}
+* To check all available commands:  
+`Get-Command-Module &lt;ModuleName&gt;` 
+* To check all potential arguments and parameters set for a command:  
+`Show-Command &lt;CommandName&gt;`  
 {% endsnippet %}
  
 ## Connection 
