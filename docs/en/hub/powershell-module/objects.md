@@ -1,7 +1,11 @@
 ---
-title: Hub PowerShell Module Objects
+title: Devolutions.PowerShell Module Objects
+description: This section is all about objects that are available with the Devolutions.PowerShell module and what the module will need for its commands. 
+keywords: 
+- PowerShell
+- Objects
 ---
-This section is all about objects that are available with the Hub PowerShell Module and what the module will need for its commands. 
+This section is all about objects that are available with the Devolutions.PowerShell module and what the module will need for its commands. 
 
 ## Objects 
 
@@ -38,7 +42,7 @@ Url
 String 
 		</td>
 		<td>
-This is the URL of the Hub you want to connect with your application user. 
+This is the URL of the {{ en.PHUB }} you want to connect to with your application user. 
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +53,7 @@ ApplicationKey
 String 
 		</td>
 		<td>
-These are the credentials that you’ll need to connect to Hub. These are available when an application user is created. 
+These are the credentials that you will need to connect to {{ en.PHUB }}. These are available when an application user is created. 
 		</td>
 	</tr>
 	<tr>
@@ -60,7 +64,7 @@ ApplicationSecret
 String 
 		</td>
 		<td>
-These are the credentials that you’ll need to connect to Hub. These are available when an application user is created. 
+These are the credentials that you will need to connect to {{ en.PHUB }}. These are available when an application user is created. 
 		</td>
 	</tr>
 </table>
@@ -86,7 +90,7 @@ AllowUserVault
 Boolean 
 		</td>
 		<td>
-Flag that handle is you want to allow user vault in Hub. 
+Flag that handle if you want to allow {{ en.PVLT}} in {{ en.PHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -119,7 +123,7 @@ DisableReason
 Enum(HubDisableReason) 
 		</td>
 		<td>
-ReadOnly - Enum that shows what is the reason of the disabled Hub. 
+ReadOnly - Enum that shows what is the reason of the disabled {{ en.PHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -152,7 +156,7 @@ ForceTwoFactorAuthentication
 Boolean 
 		</td>
 		<td>
-Flag that tells you if you want to force two factor authentication. 
+Flag that tells you if you want to force two-factor authentication. 
 		</td>
 	</tr>
 	<tr>
@@ -163,7 +167,7 @@ ForceTwoFactorUnlocking
 Boolean 
 		</td>
 		<td>
-Flag that tells you if you want to force two factor unlocking. 
+Flag that tells you if you want to force two-factor unlocking. 
 		</td>
 	</tr>
 	<tr>
@@ -174,7 +178,7 @@ InactivityLogoutTime
 Enum(InactivityLogoutTime) 
 		</td>
 		<td>
-Enum that handle inactivity logout time in Web. 
+Enum that handles inactivity logout time in web. 
 		</td>
 	</tr>
 	<tr>
@@ -185,7 +189,7 @@ NetworkFilters
 Array of Object(NetworkFilter) 
 		</td>
 		<td>
-Array of object NetworkFilter that handles IpAdress filtering to Hub. 
+Array of object NetworkFilter that handles IpAdress filtering to {{ en.PHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -196,7 +200,7 @@ OrganizationId
 String 
 		</td>
 		<td>
-The organization Id if you want to handle the login by Devolution Account Organization. If empty, the flow will be normal. 
+The organization ID if you want to handle the login by {{ en.DA }} Organization. If empty, the flow will be normal. 
 		</td>
 	</tr>
 	<tr>
@@ -207,7 +211,7 @@ PasswordTemplateEnforcement
 Enum(PasswordTemplateEnforcement) 
 		</td>
 		<td>
-Enum that handle the enforcement of a selected password template. 
+Enum that handles the enforcement of a selected password template. 
 		</td>
 	</tr>
 	<tr>
@@ -218,7 +222,7 @@ PasswordTemplateId
 Guid 
 		</td>
 		<td>
-Id of a password template you want to set and activate in Hub. 
+ID of a password template you want to set and activate in {{ en.PHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -229,7 +233,7 @@ SystemPermissions
 Object(SystemPermissions) 
 		</td>
 		<td>
-Object that gives you a list of users and groups permissions that are set to system wide. 
+Object that gives you a list of users and groups permissions that are set system-wide. 
 		</td>
 	</tr>
 	<tr>
@@ -240,7 +244,7 @@ SystemVaultPermissions
 Object(VaultPermissions) 
 		</td>
 		<td>
-Object that gives you a list of users and groups permissions that are globally set to all vault. 
+Object that gives you a list of users and groups permissions that are globally set to all vaults. 
 		</td>
 	</tr>
 	<tr>
@@ -251,7 +255,7 @@ TemporaryPasswordInviteType
 Enum(TemporaryPasswordInviteType) 
 		</td>
 		<td>
-Enum that handle the temporary password of a new user. 
+Enum that handles the temporary password of a new user. 
 		</td>
 	</tr>
 </table>
@@ -289,7 +293,7 @@ CanAccessOffline
 Boolean 
 		</td>
 		<td>
-Flag that handle if users can access Hub offline in RDM. 
+Flag that handles if users can access {{ en.PHUB }} offline in {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -322,7 +326,7 @@ Id
 Guid 
 		</td>
 		<td>
-ReadOnly - User Id. 
+ReadOnly - User ID. 
 		</td>
 	</tr>
 	<tr>
@@ -333,7 +337,7 @@ IsAdministrator
 Boolean 
 		</td>
 		<td>
-ReadOnly - Flag that tells you if user is Administrator. 
+ReadOnly - Flag that tells you if a user is an administrator. 
 		</td>
 	</tr>
 	<tr>
@@ -344,7 +348,7 @@ IsEnabled
 Boolean 
 		</td>
 		<td>
-Flag that tells you if user is enabled. 
+Flag that tells you if the user is enabled. 
 		</td>
 	</tr>
 	<tr>
@@ -355,7 +359,7 @@ Locale
 String 
 		</td>
 		<td>
-ReadOnly - Text that represents the user language. 
+ReadOnly - Text that represents the user's language. 
 		</td>
 	</tr>
 	<tr>
@@ -377,7 +381,7 @@ UserInvitationState
 Enum(UserInvitationState) 
 		</td>
 		<td>
-ReadOnly - Enum that show the status of the user invitation. 
+ReadOnly - Enum that shows the status of the user invitation. 
 		</td>
 	</tr>
 	<tr>
@@ -388,7 +392,7 @@ UserSendMessagePermission
 Enum(UserSendMessagePermission) 
 		</td>
 		<td>
-Enum that handle the way the user can send messages. 
+Enum that handles the way the user can send messages. 
 		</td>
 	</tr>
 	<tr>
@@ -448,7 +452,7 @@ Id
 Guid 
 		</td>
 		<td>
-ReadOnly - Group Id. 
+ReadOnly - Group ID. 
 		</td>
 	</tr>
 	<tr>
@@ -470,7 +474,7 @@ UserIds
 Array of Guid 
 		</td>
 		<td>
-Array of user Id set in the group. 
+Array of user ID set in the group. 
 		</td>
 	</tr>
 </table>
@@ -519,7 +523,7 @@ Id
 Guid 
 		</td>
 		<td>
-ReadOnly - Vault Id. 
+ReadOnly - Vault ID. 
 		</td>
 	</tr>
 	<tr>
@@ -574,7 +578,7 @@ Version
 Enum(VaultVersion) 
 		</td>
 		<td>
-ReadOnly - Enum that show you the vault version. 
+ReadOnly - Enum that shows you the vault version. 
 		</td>
 	</tr>
 </table>
@@ -612,7 +616,7 @@ Connection
 Object(Connection) 
 		</td>
 		<td>
-Complexe Object that store all of your connection information. 
+Complexe Object that stores all of your connection information. 
 		</td>
 	</tr>
 	<tr>
@@ -623,7 +627,7 @@ PsMetadata
 Object(PsMetadata) 
 		</td>
 		<td>
-Object that store all connection metadata. 
+Object that stores all connection metadata. 
 		</td>
 	</tr>
 </table>
@@ -650,7 +654,7 @@ ConnectionType
 Enum(ConnectionType) 
 		</td>
 		<td>
-Enum that handle the base type of this connection. 
+Enum that handles the base type of this connection. 
 		</td>
 	</tr>
 	<tr>
@@ -672,7 +676,7 @@ ParentId
 Guid 
 		</td>
 		<td>
-Id of the parent of this entry. If set, this entry will be the children of the parent entry you’ll set. Otherwise, the parent will be the root. 
+ID of the parent of this entry. If set, this entry will be the children of the parent entry you will set. Otherwise, the parent will be the root. 
 		</td>
 	</tr>
 	<tr>
@@ -694,7 +698,7 @@ TargetEntryId
 Guid 
 		</td>
 		<td>
-Id of the target entry who is linked. Only use when the entry is a shortcut. 
+ID of the linked target entry. Only use when the entry is a shortcut. 
 		</td>
 	</tr>
 	<tr>
