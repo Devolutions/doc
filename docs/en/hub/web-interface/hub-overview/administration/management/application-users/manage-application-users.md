@@ -27,5 +27,5 @@ Depending on the actions that this application user needs to perform, you need t
 * [Assign application user system permissions](/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/) 
 * [Assign application user vault permissions](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/)  
 
-When permissions have been assigned, you are ready to access {{ en.PHUB }} with the [Hub PowerShell Module](/hub/powershell-module/) and your application user. 
+When permissions have been assigned, you are ready to access {{ en.PHUB }} with the [{{ en.PS }} module](/hub/powershell-module/) and your application user. 
 

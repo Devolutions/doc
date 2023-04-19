@@ -8,7 +8,7 @@ keywords:
 This topic is about all authentication commands and handles for PSHubContext. 
 
 {% snippet icon.badgeInfo %} 
-The [Devolutions.PowerShell module](/hub/powershell-module) needs to be installed to use these commands.
+The [{{ en.PS }} module](/hub/powershell-module) needs to be installed to use these commands.
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 

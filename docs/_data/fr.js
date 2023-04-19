@@ -32,7 +32,7 @@ module.exports = {
     PHUB: 'Hub',
     PHUBB: 'Hub Business',
     PHUBP: 'Hub Personal',
-    PS: 'Devolutions PowerShell',
+    PS: 'Devolutions.PowerShell',
     PVLT: "Coffre de l'utilisateur",
     RBSS: "contrôle d'accès basé sur les Groupes d'utilisateurs",
     RDM: 'Remote Desktop Manager',

@@ -1,11 +1,12 @@
 ---
-title: Devolutions.PowerShell Module Objects
-description: This section is all about objects that are available with the Devolutions.PowerShell module and what the module will need for its commands. 
-keywords: 
-- PowerShell
-- Objects
+eleventyComputed:	
+  title: Devolutions.PowerShell Module Objects
+  description: This section is all about objects that are available with the {{ en.PS }} module and what the module will need for its commands. 
+  keywords: 
+  - PowerShell
+  - Objects
 ---
-This section is all about objects that are available with the Devolutions.PowerShell module and what the module will need for its commands. 
+This section is all about objects that are available with the {{ en.PS }} module and what the module will need for its commands. 
 
 ## Objects 
 

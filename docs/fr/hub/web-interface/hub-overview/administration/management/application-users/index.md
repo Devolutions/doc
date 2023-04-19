@@ -1,7 +1,7 @@
 ---
 title: Utilisateurs d'application
 ---
-Les ***Utilisateurs d 'application*** sont créés pour être utilisés pour se connecter à des applications tels que le ***Module PowerShell*** .  Dans ***Administration - Utilisateurs d 'application*** , vous pouvez créer, gérer et supprimer des utilisateurs de l 'application.  
+Les ***Utilisateurs d 'application*** sont créés pour être utilisés pour se connecter à des applications tels que le module PowerShell.  Dans ***Administration - Utilisateurs d 'application*** , vous pouvez créer, gérer et supprimer des utilisateurs de l 'application.  
 
 ### Conditions préalables 
 

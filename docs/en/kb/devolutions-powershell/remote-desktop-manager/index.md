@@ -1,4 +1,4 @@
 ---
-title: Remote Desktop Manager PowerShell Module
+title: Remote Desktop Manager PowerShell
 Order: 10
 ---

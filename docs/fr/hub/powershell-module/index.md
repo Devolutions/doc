@@ -1,11 +1,12 @@
 ---
-title: Module PowerShell
-description: Le module Devolutions.PowerShell est un moyen d'accéder, de créer, de mettre à jour et de supprimer des éléments dans votre {{ fr.PHUB }} Business. Cela vous aidera à automatiser certains processus/scripts.
-keywords:
-- PowerShell
-order: 30
+eleventyComputed:
+  title: Module PowerShell
+  description: Le module {{ fr.PS }} est un moyen d'accéder, de créer, de mettre à jour et de supprimer des éléments dans votre {{ fr.PHUB }} Business. Cela vous aidera à automatiser certains processus/scripts.
+  keywords:
+  - PowerShell
+  order: 30
 ---
-Le module Devolutions.PowerShell est un moyen d'accéder, de créer, de mettre à jour et de supprimer des éléments dans votre {{ fr.PHUB }} Business. Cela vous aidera à automatiser certains processus/scripts. Après avoir installé le module Devolutions.PowerShell, vous serez prêt à utiliser le module et à vous connecter à votre {{ fr.PHUB }} Business.  
+Le module {{ fr.PS }} est un moyen d'accéder, de créer, de mettre à jour et de supprimer des éléments dans votre {{ fr.PHUB }} Business. Cela vous aidera à automatiser certains processus/scripts. Après avoir installé le module {{ fr.PS }}, vous serez prêt à utiliser le module et à vous connecter à votre {{ fr.PHUB }} Business.  
 
 ### Prérequis 
 
@@ -23,9 +24,9 @@ Le module Devolutions.PowerShell est un moyen d'accéder, de créer, de mettre �
 Pour obtenir la liste complète des commandes disponibles, consultez [Commandes PowerShell](/fr/hub/powershell-module/powershell-commands/). 
 {% endsnippet %}
  
-1. Une fois PowerShell 7.2 ou ultérieur installé, ouvrir un terminal PowerShell et installer le module Devolutions.PowerShell avec la commande suivante :  
+1. Une fois PowerShell 7.2 ou ultérieur installé, ouvrir un terminal PowerShell et installer le module {{ fr.PS }} avec la commande suivante :  
 
-`Install-Module -Name Devolutions.PowerShell`  
+`Install-Module -Name {{ fr.PS }}`  
 
 ![Commande Install-Module](/img/fr/hub/Hub2015.png) 
 *Commande Install-Module*{.caption}

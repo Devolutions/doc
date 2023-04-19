@@ -8,7 +8,7 @@ keywords:
 Cette rubrique concerne toutes les commandes et les arguments pour gérer PSHubContext. 
 
 {% snippet icon.badgeInfo %} 
-Vous devrez avoir installé le [module Devolutions.PowerShell](/fr/hub/powershell-module/) pour utiliser ces commandes. 
+Vous devrez avoir installé le [module {{ fr.PS }}](/fr/hub/powershell-module/) pour utiliser ces commandes. 
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
@@ -25,9 +25,9 @@ Dans cet objet, vous avez ce qui suit :
 * Clé de l'application : Clé de l'application donnée après la création de l'utilisateur d'application  
 
 {% snippet icon.badgeInfo %} 
-* Pour vérifier toutes les commandes disponibles : 
+* Pour vérifier toutes les commandes disponibles :  
 `Get-Command-Module <ModuleName>`  
-* Pour vérifier tous les arguments et paramètres potentiels définis pour une commande : 
+* Pour vérifier tous les arguments et paramètres potentiels définis pour une commande :  
 `Show-Command <CommandName>`  
 {% endsnippet %}
  

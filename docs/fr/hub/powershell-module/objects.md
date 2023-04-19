@@ -1,11 +1,11 @@
 ---
-title: Objets du module Devolutions.PowerShell
+title: Objets du module {{ fr.PS }}
 description: 
 keywords:
 - PowerShell
 - Objects
 ---
-Cette section concerne les objets disponibles avec le module Devolutions.PowerShell et ce dont le module aura besoin pour ses commandes. 
+Cette section concerne les objets disponibles avec le module {{ fr.PS }} et ce dont le module aura besoin pour ses commandes. 
 
 ## Objets 
 

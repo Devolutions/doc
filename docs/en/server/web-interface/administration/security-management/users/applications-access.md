@@ -60,7 +60,7 @@ Allow user to use the Cli.
 Scripting 
 		</td>
 		<td>
-Allow user to connect through [Devolutions Server PowerShell Module](https://github.com/Devolutions/devolutions-server) . 
+Allow user to connect through [{{ en.PS }} module](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). 
 		</td>
 	</tr>
 	<tr>

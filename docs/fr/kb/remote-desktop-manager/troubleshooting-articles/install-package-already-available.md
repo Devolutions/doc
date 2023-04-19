@@ -8,9 +8,9 @@ Lors de l'installation du nouveau module {{ fr.PS }}, l'erreur suivante se produ
 
 ## Solution 1
 
-Désinstallez les modules PowerShell précédents. Il s'agit des modules RemoteDesktopManager, Devolutions.Server ou Devolutions.Hub.
+Désinstallez les modules PowerShell précédents. Il s'agit des modules RemoteDesktopManager, Devolutions.Server et Devolutions.Hub.
 
-Voici les différentes commandes pour désinstaller ces modules.  
+Voici les différentes commandes pour désinstaller ces modules :  
 `Uninstall-Module RemoteDesktopManager -AllVersions`  
 
 `Uninstall-Module Devolutions.Server -AllVersions`  

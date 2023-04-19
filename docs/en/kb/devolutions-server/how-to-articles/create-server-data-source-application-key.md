@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Create a {{ en.DPS }} Data Source with an Application Key
 ---
-With the {{ en.RDM }} PowerShell Module, it is possible to connect to a {{ en.DPS }} instance using an [***Application key and Application Secret***](/server/web-interface/administration/security-management/applications/). You can create a {{ en.DPS }} data source [in {{ en.RDM }}](#rdm) or manually [using PowerShell](#powershell). Follow the method that best suits your needs.
+With the {{ en.PS }} module, it is possible to connect to a {{ en.DPS }} instance using an [***Application key and Application Secret***](/server/web-interface/administration/security-management/applications/). You can create a {{ en.DPS }} data source [in {{ en.RDM }}](#rdm) or manually [using PowerShell](#powershell). Follow the method that best suits your needs.
 
 ## Steps
 

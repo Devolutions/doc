@@ -1,4 +1,4 @@
 ---
-title: Devolutions Hub PowerShell Module
+title: Devolutions Hub PowerShell
 Order: 30
 ---

@@ -27,5 +27,5 @@ En fonction des actions que cet utilisateur d'application doit effectuer, vous d
 * [Assigner des permissions de système à l'utilisateur d'application](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/) 
 * [Assigner des permissions de coffre à l'utilisateur d'application](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/)  
 
-Lorsque les permissions ont été attribuées, vous êtes prêt à accéder à {{ fr.PHUB }} avec le [module Hub PowerShell](/fr/hub/powershell-module/) et votre utilisateur d'application. 
+Lorsque les permissions ont été attribuées, vous êtes prêt à accéder à {{ fr.PHUB }} avec le [module Devolutions.PowerShell](/fr/hub/powershell-module/) et votre utilisateur d'application. 
 
