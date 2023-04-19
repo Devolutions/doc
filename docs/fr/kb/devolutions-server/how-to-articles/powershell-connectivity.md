@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Méthodes de connectivité PowerShell à {{ fr.DVLS }}
+  title: Méthodes de connexion à {{ fr.DVLS }} via PowerShell
   description: Les méthodes suivantes décrivent comment se connecter à {{ fr.DVLS }} à l'aide de PowerShell.
   keywords:
   - PowerShell
