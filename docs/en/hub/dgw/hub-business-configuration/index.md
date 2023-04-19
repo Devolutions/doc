@@ -6,5 +6,5 @@ description: Devolutions Gateway provides a flexible and secure alternative to V
 
 Click on one of the browsers links below to read more about the different installation methods:  
 
-* [Install with Script (recommended)](/hub/dgw/hub-business-configuration/install-script/) 
 * [Install Manually (expert)](/hub/dgw/hub-business-configuration/install-manually/) 
+* [Install with Script (recommended)](/hub/dgw/hub-business-configuration/install-script/) 
