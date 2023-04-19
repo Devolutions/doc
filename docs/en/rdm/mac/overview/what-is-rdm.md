@@ -6,7 +6,7 @@ eleventyComputed:
 
 {{ en.RDM }} for Mac is an application that integrates a comprehensive set of tools and managers to meet the needs of any IT team. It is designed to centralize remote connection technologies, credentials, and secure the access to these resources. Most connections are established using either an external library or third-party software.  
 
-{{ en.RDM }} for Mac is compatible with several relevant tools and technologies, including: Apple Remote Desktop , Citrix , Dameware , FTP , Hyper-V , LogMeIn , Radmin , RDP (Microsoft Remote Desktop) , SSH Port Forward , SSH Shell , TeamViewer, Telnet , Remote Desktop Services , VMware , VNC , SCP , X Windows , and more! 
+{{ en.RDM }} for Mac is compatible with several relevant tools and technologies, including Apple Remote Desktop, Citrix, Dameware, FTP, Hyper-V, LogMeIn, Radmin, RDP (Microsoft Remote Desktop), SSH Port Forward, SSH Shell, TeamViewer, Telnet, Remote Desktop Services, VMware, VNC, SCP, X Windows, and more! 
 
 ## The {{ en.RDM }} ecosystem 
 
@@ -38,7 +38,7 @@ Purchasing a Team license grants the right to use ALL the various client applica
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-You must use a desktop application to create a team data source. This explains why the mobile applications are free. They do allow for simple usage by an individual much like the Free Edition, but they can only use , not manage , a Team data source. 
+You must use a desktop application to create a team data source. This explains why the mobile applications are free. They do allow for simple usage by an individual much like the Free Edition, but they can only use, not manage, a Team data source. 
 {% endsnippet %}
  
 <table>
@@ -92,11 +92,10 @@ Linux
 iOS 
 		</td>
 		<td>
-
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 ![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
-(Free App) 
 		</td>
 	</tr>
 	<tr>
@@ -104,11 +103,10 @@ iOS
 Android 
 		</td>
 		<td>
-
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 ![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
-(Free App) 
 		</td>
 	</tr>
 </table>
