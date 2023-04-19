@@ -15,49 +15,54 @@ The Devolutions.PowerShell module is a way to access, create, update, and remove
 
 ## Tutorials 
 
-### Connecting to your {{ en.PHUB }} Business 
+### Connecting to Your {{ en.PHUB }} Business 
 
 {% snippet icon.badgeHelp %} 
 For the full list of available commands, see [PowerShell Commands](/hub/powershell-module/powershell-commands/). 
 {% endsnippet %}
  
-1. Once PowerShell 7.2 or later is installed, open a PowerShell terminal and install the Devolutions.PowerShell module with the following PowerShell command:  
+1. Once PowerShell 7.2 or later is installed, open a PowerShell terminal and install the Devolutions.PowerShell module with the following command:  
 
 `Install-Module -Name Devolutions.PowerShell`  
 
-![Hub2136.png](/img/en/hub/Hub2136.png) 
+![Install-Module Command](/img/en/hub/Hub2136.png)
+*Install-Module Command*{.caption} 
 
 {% snippet icon.badgeInfo %} 
-Other installations options can be found in the [PowerShell Gallery](https://www.powershellgallery.com/packages/RemoteDesktopManager/) . 
+Other installation options can be found in the [PowerShell Gallery](https://www.powershellgallery.com/packages/devolutions.powershell/). 
 {% endsnippet %}
  
-2. Connect to your {{ en.PHUB }} Business using the following command. If you see no error, it means you are connected to your {{ en.PHUB }} Business. 
+2. Connect to your {{ en.PHUB }} Business using the command below. If you do not see an error, it means you are connected to your {{ en.PHUB }} Business. 
 
 `Connect-HubAccount -Url https<area>://yourhub.devolutions.app/ -ApplicationSecret [YOUR_APPLICATION_SECRET] -ApplicationKey [YOUR_APPLICATION_KEY]` 
 
-![Hub4062.png](/img/en/hub/Hub4062.png) 
+![Connect-HubAccount Command](/img/en/hub/Hub4062.png) 
+*Connect-HubAccount Command*{.caption}
 
-### Command example and use 
+### Command Example and Use 
 
-1. With the Get-HubVault command, you can get vaults that your application user can view and edit. 
-
+1. With the `Get-HubVault` command, you can get vaults that your application user can view and edit.  
 {% snippet icon.badgeInfo %} 
 If you have set the permissions of your application user to multiple vaults, you will see an array of vaults. 
-{% endsnippet %}
- 
-![Hub4063.png](/img/en/hub/Hub4063.png) 
+{% endsnippet %}   
 
-2. With this vault information, you can get all of the entries with the command Get-HubEntry and the vault ID. 
+![Get-HubVault Command](/img/en/hub/Hub4063.png) 
+*Get-HubVault Command*{.caption}
+
+2. With this vault information, you can get all of the entries with the command `Get-HubEntry` and the vault ID. 
 
 {% snippet icon.badgeInfo %} 
 If you have more than one entry, you will see an array of entries. 
 {% endsnippet %}
  
-![Hub4064.png](/img/en/hub/Hub4064.png) 
+![Get-HubEntry Command](/img/en/hub/Hub4064.png) 
+*Get-HubEntry Command*{.caption}
 
 3. To view specific information, you can put the {{ en.PHUB }} Business command return to a variable and retrieve what you need, like the connection ID in this example:  
-![Hub4065.png](/img/en/hub/Hub4065.png) 
-1. To edit this entry, you can change the object and update it with the Set-HubEntry command.  
-![Hub4066.png](/img/en/hub/Hub4066.png)  
+![{{ en.PHUB }} Business Command Return Variable](/img/en/hub/Hub4065.png) 
+*{{ en.PHUB }} Business Command Return Variable*{.caption}
+1. To edit this entry, you can change the object and update it with the `Set-HubEntry` command. 
+![Set-HubEntry Command](/img/en/hub/Hub4066.png)
+*Set-HubEntry Command*{.caption}  
 
 At any moment, you can validate in your web version of {{ en.PHUB }} Business that the changes have been made. 
