@@ -2,6 +2,12 @@ name: production
 
 on:
   workflow_dispatch:
+    inputs:
+      ref:
+        description: Commit SHA / branch to deploy
+        default: master
+        required: true
+
 
 jobs:
   production:
@@ -10,4 +16,5 @@ jobs:
       cluster_name: apps
       environment: production
       subscription_id: 11001885-20be-4052-8647-9c6a919e3455 # Devolutions
+      ref: ${{ inputs.ref }}
     secrets: inherit
