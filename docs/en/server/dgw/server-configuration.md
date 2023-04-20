@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Server Configuration
+  title: Devolutions Gateway Configuration With {{ en.DPS }}
   description: This topic describes how to configure {{ en.DPS }}, free or not, to connect with {{ en.DGW }}.
   keywords:
   - VPN
