@@ -6,7 +6,7 @@ eleventyComputed:
   - VPN
   - Listener
 ---
-This topic describes how to configure {{ en.DPS }} to connect with {{ en.DGW }}. There are two ways to install a {{ en.DGW }}, the <a href="#steps-for-side-by-side-installation">Side-by-side Installation</a> and the <a href="#steps-for-standalone-installation">Standalone Installation</a>.
+This topic describes how to configure {{ en.DPS }} to connect with {{ en.DGW }}. There are two ways to install a {{ en.DGW }}: the <a href="#steps-for-side-by-side-installation">Side-by-side Installation</a> and the <a href="#steps-for-standalone-installation">Standalone Installation</a>.
 
 ## Steps for Side-by-side Installation
 {% snippet icon.badgeInfo %}

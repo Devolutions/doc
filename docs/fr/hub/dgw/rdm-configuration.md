@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configuration dans {{ fr.RDM }}
+  title: Configuration de {{ fr.DGW }} dans {{ fr.RDM }}
   description: Les instructions suivantes expliquent comment utiliser {{ fr.DGW }} dans une session RDP.
   keywords:
   - RDP

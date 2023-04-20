@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager Configuration
+  title: Devolutions Gateway Configuration in {{ en.RDM }}
   description: The following instructions explain how to use {{ en.DGW }} in an RDP session.
   keywords:
   - RDP
