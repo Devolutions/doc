@@ -8,10 +8,10 @@ eleventyComputed:
 ---
 
 It is possible to use {{ en.DGW }} with an external browser, but at the moment there are a few limitations to be aware of because of the browser design:
-1. It only works with Google Chrome.
-1. Google Chrome must be closed when opening the website from {{ en.RDM }}. A workaround is mentioned in the <a href="#workaround-to-set-up-without-having-to-close-chrome">next section</a>.
-1. In case there are other proxy settings with Chrome (by GPO, command line, settings, etc.), they might conflict with each other and {{ en.DGW }} will not work.  
-In case Google Chrome is closed and does not have any other proxy settings, set up the entry to open externally like any other entries in {{ en.RDM }}. No additional installations/addons are needed for this to work.
+* It only works with Google Chrome.
+* Google Chrome must be closed when opening the website from {{ en.RDM }}. A workaround is mentioned in the <a href="#workaround-to-set-up-without-having-to-close-chrome">next section</a>.
+* In case there are other proxy settings with Chrome (by GPO, command line, settings, etc.), they might conflict with each other and {{ en.DGW }} will not work.  
+* In case Google Chrome is closed and does not have any other proxy settings, set up the entry to open externally like any other entries in {{ en.RDM }}. No additional installations/addons are needed for this to work.
 
 ## Workaround to Set Up Without Having to Close Chrome
 1. Right-click to go into the ***Properties*** of the ***Web Browser*** entry that has the {{ en.DGW }} set.
