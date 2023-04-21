@@ -7,7 +7,7 @@ eleventyComputed:
   - Listener
 ---
 
-Ce sujet décrit comment configurer {{ fr.DPS }} pour se connecter avec {{ fr.DGW }}. Il y a deux façons d'installer un {{ fr.DGW }}: <a href="#étapes-pour-l'installation-côte-à-côte">l'installation côte à côte</a> et <a href="#étapes-pour-l'installation-autonome">l'installation autonome</a>.
+Ce sujet décrit comment configurer {{ fr.DPS }} pour se connecter avec {{ fr.DGW }}. Il y a deux façons d'installer un {{ fr.DGW }} : <a href="#étapes-pour-l'installation-côte-à-côte">l'installation côte à côte</a> et <a href="#étapes-pour-l'installation-autonome">l'installation autonome</a>.
 
 ## Étapes pour l'installation côte à côte
 {% snippet icon.badgeInfo %}
