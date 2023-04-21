@@ -13,5 +13,7 @@ Key benefits of {{ en.DGW }} include:
 * Replaced static VPN and firewall rules with dynamic access rules controlled by {{ en.DPS }}.  
 * Enhanced security by giving remote access, or access to specific applications, in separate network segments on demand.  
 * Improved productivity by eliminating the need to update VPN or firewall rules for temporary access.  
-* Possible use of {{ en.DGW }} with supported connection entry types (RDP, SSH, VNC, ARD, PowerShell, Telnet, websites) in {{ en.RDM }} and supported data sources ({{ en.DPS }}, {{ en.HUBB }}).  
-
+* Possible use of {{ en.DGW }} with supported connection entry types (RDP, SSH, VNC, ARD, SCP, SFTP, PowerShell, Telnet, websites) in {{ en.RDM }} and supported data sources ({{ en.DPS }}, {{ en.HUBB }}).  
+{% snippet icon.badgeHelp %}
+Learn more about the [{{ en.DGW }}](https://devolutions.net/gateway/).
+{% endsnippet %}
