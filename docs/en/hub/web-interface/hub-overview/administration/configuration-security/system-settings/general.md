@@ -10,5 +10,5 @@ In the ***General*** section, manage how the ***Temporary password*** will be se
 Enable the ***User Vault*** for all your users.  
 
 The ***User Vault*** is a user centric vault for entries of any type. It allows each user to create entries that only them can access.  
-![Hub4175.png](/img/en/hub/Hub4175.png) 
+![!!Hub4175.png](/img/en/hub/Hub4175.png) 
 

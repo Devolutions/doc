@@ -10,23 +10,23 @@ Certaines fonctionnalités ne sont disponibles que dans l'Édition Team. {{ fr.R
 Il est possible d'obtenir les identifiants d'une ***base de données***, de la ***source de données***, de l'***entrée*** et du ***coffre*** ainsi qu'une ***Ligne de commande*** déjà créée. Suivez les étapes ci-dessous pour afficher ces informations en un seul endroit :  
 
 1. Faire un clic droit sur l'entrée dont vous voulez obtenir les informations, puis aller dans les ***Propriétés***.  
-![KB2017.png](/img/fr/kb/KB2017.png) 
+![!!KB2017.png](/img/fr/kb/KB2017.png) 
 1. Cliquer sur ***Informations de l'entrée*** dans la section ***Commun*** du menu. Vous trouverez les informations d'identifiants et la ***Ligne de commande*** dans la section ***IDs***.  
-![KB2018.png](/img/fr/kb/KB2018.png) 
+![!!KB2018.png](/img/fr/kb/KB2018.png) 
 1. Une ligne de commande peut être créée en utilisant les informations affichées dans cette fenêtre. Sinon, il suffit de copier la ***Ligne de commande*** offerte par {{ fr.RDM }} grâce au bouton ***Copier***.  
-![KB2019.png](/img/fr/kb/KB2019.png) 
+![!!KB2019.png](/img/fr/kb/KB2019.png) 
 1. Coller la ligne de commande dans l'invite de commande de Windows et appuyer sur ***Entrée*** pour créer un exécutable selon vos paramètres.  
-![KB2020.png](/img/fr/kb/KB2020.png) 
+![!!KB2020.png](/img/fr/kb/KB2020.png) 
 
 ### Récupérer l'identifiant d'une source de données 
 L'identifiant d'une source de données peut être récupéré avec d'autres identifiants en suivant les étapes de la <a href="#récupérer-les-identifiants-et-créer-un-exécutable">section précédente</a>. Voici une autre façon d'obtenir uniquement les identifiants des sources de données :  
 
 1. Accéder à ***Fichier – Sources de données***. Alternativement, cliquer sur l'ellipse à côté du nom de la source de données dans le ***{{ fr.NPANE }}***. 
 1. Sélectionner la source de données de votre choix dans la section du bas, puis cliquer sur l'icône ***Modifier la source de données***.  
-![KB2021.png](/img/fr/kb/KB2021.png)  
+![!!KB2021.png](/img/fr/kb/KB2021.png)  
 
 L'identifiant de la source de données choisie se trouvera au bas de la fenêtre. Il est possible de le copier en cliquant dessus.  
-![KB2022.png](/img/fr/kb/KB2022.png) 
+![!!KB2022.png](/img/fr/kb/KB2022.png) 
 ### Utilisation : REMOTEDESKTOPMANAGER.EXE [Parameters] 
 <table>
 	<tr>

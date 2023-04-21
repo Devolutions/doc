@@ -2,7 +2,7 @@
 title: Outils
 ---
 La section ***Outils*** regorge de ressources pour {{ fr.PHUB }} Business. Télécharger, exporter et entrer en contact avec notre centre de soutien.  
-![Hub4042.png](/img/fr/hub/Hub4042.png) 
+![!!Hub4042.png](/img/fr/hub/Hub4042.png) 
 
 * Télécharger les [***Outils Connexes***](/fr/hub/web-interface/hub-overview/administration/management/users/companion-tools-access/), ce sont des applications complémentaires qui fonctionnent main dans la main avec nos produits.  
     * [***{{ fr.DWL }}***](/fr/hub/dwl/overview/) est une extension de navigateur gratuite qui permet aux utilisateurs d 'injecter en toute sécurité des identifiants, contenus dans leur coffre, dans des sites Web.  

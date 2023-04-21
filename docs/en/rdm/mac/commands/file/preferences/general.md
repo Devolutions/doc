@@ -5,7 +5,7 @@ Use File - Preferences - General to configure options related to the functionali
 
 ## Settings 
 
-![RdmMac4038.png](/img/en/rdm/mac/RdmMac4038.png) 
+![!!RDMMac4038.png](/img/en/rdm/mac/RdmMac4038.png) 
 
 ### General 
 

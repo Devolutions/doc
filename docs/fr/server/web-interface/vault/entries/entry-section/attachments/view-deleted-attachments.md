@@ -15,10 +15,10 @@ Pour afficher toutes les pièces jointes supprimées, exécuter le rapport ***Jo
 {% endsnippet %}
  
 2. Cliquer ***Pièces jointes*** .  
-![ServerOp4094.png](/img/fr/server/ServerOp4094.png) 
+![!!ServerOp4094.png](/img/fr/server/ServerOp4094.png) 
 1. Cliquer ***Afficher les pièces jointes supprimées*** .  
-![ServerOp4095.png](/img/fr/server/ServerOp4095.png) 
+![!!ServerOp4095.png](/img/fr/server/ServerOp4095.png) 
 1. Sélectionner la pièce jointe dans la liste.  
-![ServerOp4096.png](/img/fr/server/ServerOp4096.png) 
+![!!ServerOp4096.png](/img/fr/server/ServerOp4096.png) 
 1. Cliquer ***Restaurer*** . 
 

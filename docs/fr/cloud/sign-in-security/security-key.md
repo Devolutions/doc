@@ -6,7 +6,7 @@ Configurer une clé de sécurité physique afin de l'utiliser comme nouvelle mé
 ### Installation d'une clé de sécurité à partir d'un ordinateur 
 
 1. Se connecter à votre {{ fr.DA }} et cliquer sur ***Clé de sécurité*** .  
-![Cloud4076.png](/img/fr/cloud/Cloud4076.png) 
+![!!Cloud4076.png](/img/fr/cloud/Cloud4076.png) 
 1. Cliquer sur ***Ajouter une clé de sécurité*** . 
 1. Insérer la clé dans le port USB. Si vous y êtes invité, entrer le NIP de la clé. Appuyer sur le bouton de la clé.  
 ![Clé de Sécurité - Validation.png](/img/fr/cloud/Cloud4019.png)  

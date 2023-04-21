@@ -18,4 +18,4 @@ The following steps describe how to enable server side synchronizer to be run by
 1. Check the Enable box and set the occurrence and the time of the execution of the Synchronizer.  
 ![Synchronizer - Schedule.png](/img/en/kb/KB8057.png)
 1. In {{ en.RDM }} , this option can be configured in General - Schedule.  
-![KB8058.png](/img/en/kb/KB8058.png)
+![!!KB8058.png](/img/en/kb/KB8058.png)

@@ -10,5 +10,5 @@ Dans la section ***Général*** , gérer la façon dont le ***Mot de passe tempo
 Activer le ***Coffre d 'utilisateur*** pour tous vos utilisateurs.  
 
 Le ***Coffre d 'utilisateur*** est un coffre personnalisé pour les entrées de tout type. Il permet à chaque utilisateur de créer des entrées que lui seul peut voir.  
-![Hub4161.png](/img/fr/hub/Hub4161.png) 
+![!!Hub4161.png](/img/fr/hub/Hub4161.png) 
 

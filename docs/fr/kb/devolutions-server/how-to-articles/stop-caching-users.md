@@ -11,4 +11,4 @@ Lors de la création d'une nouvelle instance {{ fr.DPS }} avec la version 2023.1
 ## Étapes
 
 Pour que {{ fr.DPS }} interagisse directement avec Azure AD sans s'appuyer sur son ***Cache des utilisateurs et groupes d'utilisateurs de l'authentification Microsoft***, désactivez l'option ***Activer la fonction du cache*** dans ***Administration – Paramètres Serveur – Authentification – Authentification Microsoft***.
-![KB8121.png](/img/fr/kb/KB8121.png)
+![!!KB8121.png](/img/fr/kb/KB8121.png)

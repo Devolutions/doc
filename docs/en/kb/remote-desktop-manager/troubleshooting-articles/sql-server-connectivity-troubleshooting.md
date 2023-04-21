@@ -26,12 +26,12 @@ On older versions of SQL Server, remote connections must be allowed manually. Fo
 
 To connect to the Database Engine from another device, a protocol, such as TCP/IP, must be enabled.
 1. Open the ***SQL Server Configuration Manager***  
-![KB4060.png](/img/en/kb/KB4060.png)
+![!!KB4060.png](/img/en/kb/KB4060.png)
 1. Expand the ***SQL Server Network Configuration***
 1. Select an instance.  
-![KB4245.png](/img/en/kb/KB4245.png)
+![!!KB4245.png](/img/en/kb/KB4245.png)
 1. Right-click the desired protocol, then select ***Enable***  
-![KB4230.png](/img/en/kb/KB4230.png)
+![!!KB4230.png](/img/en/kb/KB4230.png)
 ### Open a communication port in the firewall
 <a name="firewall"></a>
 
@@ -41,12 +41,12 @@ The default port for TCP/IP is 1433
 {% endsnippet %}  
 
 1. Open the ***Windows Firewall with Advanced Security***  
-![KB4277.png](/img/en/kb/KB4277.png)
+![!!KB4277.png](/img/en/kb/KB4277.png)
 1. Select ***Inbound Rules*** in the left pane.
 1. Right-click ***Inbound Rules*** and select ***New Rule***  
-![KB4278.png](/img/en/kb/KB4278.png)
+![!!KB4278.png](/img/en/kb/KB4278.png)
 1. In the ***Rule Type*** page, select ***Port*** , then click ***Next***  
-![KB4279.png](/img/en/kb/KB4279.png)
+![!!KB4279.png](/img/en/kb/KB4279.png)
 1. In the ***Protocol and Ports*** page, select ***TCP***
 1. Select ***Specific local ports*** , then type the port number of the instance of the Database Engine, then click ***Next***  
 {% snippet icon.badgeNotice %}
@@ -56,14 +56,14 @@ The SQL Server default instance listens on port 1433
 If you have an Anti-virus running on your server, you should also make sure that the port is allowed.
 {% endsnippet %}  
 
-![KB4280.png](/img/en/kb/KB4280.png)  
+![!!KB4280.png](/img/en/kb/KB4280.png)  
 
 7. In the ***Action*** page, select ***Allow the connection*** , then click ***Next***  
-![KB4281.png](/img/en/kb/KB4281.png)
+![!!KB4281.png](/img/en/kb/KB4281.png)
 1. In the ***Profile*** page, select the profiles that describe the computer connection environment, then click ***Next***  
-![KB4282.png](/img/en/kb/KB4282.png)
+![!!KB4282.png](/img/en/kb/KB4282.png)
 1. In the ***Name*** page, enter a ***Name*** and ***Description*** for the rule, then click ***Finish***  
-![KB4283.png](/img/en/kb/KB4283.png)
+![!!KB4283.png](/img/en/kb/KB4283.png)
 ### Unable to connect to sql server
 <a name="unable"></a>
 
@@ -80,7 +80,7 @@ This will test that the instance is allowing your workstation to connect. Firewa
 1. Open the ***Windows File Explorer***
 1. Navigate to the folder in which the ***.udl*** file will be created and stored.
 1. Select the ***Home*** tab and using the ***New item*** menu, create a ***Text Document***  
-![KB4246.png](/img/en/kb/KB4246.png)
+![!!KB4246.png](/img/en/kb/KB4246.png)
 1. Rename this file and change its file extension to ***.udl***  
 {% snippet icon.badgeInfo %}
 File name extensions might be hidden by the ***Windows File Explorer*** To show the file name extensions, go to the ***View*** tab of the ***File Explorer*** and enable the ***File name extensions*** option.
@@ -89,11 +89,11 @@ File name extensions might be hidden by the ***Windows File Explorer*** To show 
 Do not include space characters in the name of the file. A warning that changing the file extensions can cause files to become unusable might be displayed, disregard it.
 {% endsnippet %}  
 
-![KB4247.png](/img/en/kb/KB4247.png)  
+![!!KB4247.png](/img/en/kb/KB4247.png)  
 
 5. Double-click the ***.udl*** file to open the ***Data Link Properties*** dialog box.
 1. In the ***Provider*** tab, select the ***Microsoft OLE DB Provider for ODBC Drivers*** provider.  
-![KB4248.png](/img/en/kb/KB4248.png)
+![!!KB4248.png](/img/en/kb/KB4248.png)
 1. In the ***Connection*** tab, select ***Use connection string*** , and enter a custom connection string.  
 {% snippet icon.badgeNotice %}
 Example of valid connection string: Driver={SQL Server};Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
@@ -102,14 +102,14 @@ Example of valid connection string: Driver={SQL Server};Server=myServerAddress;D
 Validate that the server name is type correctly (known as the Instance name).
 {% endsnippet %}  
 
-![KB4249.png](/img/en/kb/KB4249.png)  
+![!!KB4249.png](/img/en/kb/KB4249.png)  
 
 8. Use the ***Advanced*** tab to view and set other initialization properties for your data.  
-![KB4259.png](/img/en/kb/KB4259.png)
+![!!KB4259.png](/img/en/kb/KB4259.png)
 1. Use the ***All*** tab to review and edit all OLE DB initialization properties available for your OLE DB provider.  
-![KB4275.png](/img/en/kb/KB4275.png)
+![!!KB4275.png](/img/en/kb/KB4275.png)
 1. In the ***Connection*** tab, use the ***Test Connection*** button to test the SQL Server connectivity.  
-![KB4276.png](/img/en/kb/KB4276.png)
+![!!KB4276.png](/img/en/kb/KB4276.png)
 1. Click ***OK*** to save the connection string to the Universal Data Link ( ***.udl*** ) file.
 ### Login failed for user – reason: token-based server access validation failed
 <a name="token"></a>
@@ -128,7 +128,7 @@ AND state_desc = 'DENY'
 ### Login failed. the login is from an untrusted domain and cannot be used with windows authentication  
 <a name="untrusted"></a>
 
-![KB2009.png](/img/en/kb/KB2009.png)  
+![!!KB2009.png](/img/en/kb/KB2009.png)  
 The following error message appear when you can't access {{ en.RDM }} data source with Integrated Authentication when connected to a Dialup VPN.  
 
 1. Locate your VPN connectionspbk file.

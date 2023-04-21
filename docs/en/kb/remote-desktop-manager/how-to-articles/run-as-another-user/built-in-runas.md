@@ -19,7 +19,7 @@ The following types currently support ***Run As***
 
 ## Session
 
-![KB4566.png](/img/en/kb/KB4566.png)  
+![!!KB4566.png](/img/en/kb/KB4566.png)  
 Sessions that support Run As will have a Run As tab where you specify which credentials to use when starting with Run As.
 
 | Option                      | Description |
@@ -33,17 +33,17 @@ Sessions that support Run As will have a Run As tab where you specify which cred
 ## Macros/Scripts/Tools
 
 With tools session types you only need to specify ***Run as different user*** in ***Advanced*** tab. At execution time the credentials will be resolved and used to start the Windows Credentials unless you select ***Use session credentials*** , in which case it will use those active for the session.  
-![KB4567.png](/img/en/kb/KB4567.png)  
+![!!KB4567.png](/img/en/kb/KB4567.png)  
 
 With tools session types you only need to specify ***Run as different user*** At execution time the credentials will be resolved and used to start the Run As process.
 
 ## Session Add-on
 
 SQL Server Management Studio supports Run As. Configure it like you would configure a normal session.  
-![KB4568.png](/img/en/kb/KB4568.png)  
+![!!KB4568.png](/img/en/kb/KB4568.png)  
 
 Click on ***Run as different user*** to modify the ***Run As*** settings.  
-![KB4569.png](/img/en/kb/KB4569.png)
+![!!KB4569.png](/img/en/kb/KB4569.png)
 
 ## Notes
 
@@ -55,9 +55,9 @@ Run as Different User doesn't allow for Shell Execute
 
 1. Create a new Command Line session.
 1. Set the command to ***CMD***.  
-![KB4570.png](/img/en/kb/KB4570.png)
+![!!KB4570.png](/img/en/kb/KB4570.png)
 1. Specify the ***Run As*** credentials.  
-![KB4571.png](/img/en/kb/KB4571.png)
+![!!KB4571.png](/img/en/kb/KB4571.png)
 1. Save your session.
 1. Run your Command Line session.  
-![KB4572.png](/img/en/kb/KB4572.png)
+![!!KB4572.png](/img/en/kb/KB4572.png)

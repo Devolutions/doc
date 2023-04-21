@@ -2,7 +2,7 @@
 title: Azure AD User Account Discovery
 ---
 The Azure AD User Account Discovery allows {{ en.RDMS }} to scan the Azure AD to find accounts or groups. The accounts or groups will not be automatically added in the Privileged Access Management folders.  
-![ServerOp8097.png](/img/en/server/ServerOp8097.png) 
+![!!ServerOp8097.png](/img/en/server/ServerOp8097.png) 
 
 ### General 
 

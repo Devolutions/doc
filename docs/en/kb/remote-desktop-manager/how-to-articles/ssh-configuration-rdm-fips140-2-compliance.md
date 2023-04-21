@@ -23,13 +23,13 @@ These values originate from the Microsoft’s documentation [FIPS140.2 annex A s
     * Aes256 Gcm (openssh<area>.com)
     * Aes128 Gmc (openssh<area>.com)
     * Rijndael Cbc (lysator<area>.liu.se)  
-![KB4861.png](/img/en/kb/KB4861.png)
+![!!KB4861.png](/img/en/kb/KB4861.png)
 1. In the ***Host key*** tab, uncheck:
     * Ssh Ed25519
     * X509v3 Sign Rsa
     * X509v3 Sign Rsa Sha256 (ssh<area>.com)
     * Ssh Dss  
-![KB4862.png](/img/en/kb/KB4862.png)
+![!!KB4862.png](/img/en/kb/KB4862.png)
 1. In the ***Kex*** tab, uncheck:
     * Curve25519 Sha256
     * Curve25519 Sha256 (libssh<area>.org)
@@ -37,10 +37,10 @@ These values originate from the Microsoft’s documentation [FIPS140.2 annex A s
     * Diffie Hellman Group18 Sha512
     * Diffie Hellman Group14 Sha256
     * Diffie Hellman Group1 Sha1  
-![KB4863.png](/img/en/kb/KB4863.png)
+![!!KB4863.png](/img/en/kb/KB4863.png)
 1. In the ***MAC*** tab, uncheck:
     * Hmac Sha 1 96
     * Hmac Md5 96
     * Hmac Md5  
-![KB4864.png](/img/en/kb/KB4864.png)
+![!!KB4864.png](/img/en/kb/KB4864.png)
 1. Click ***OK***

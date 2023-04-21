@@ -32,7 +32,7 @@ In the event that you did not receive the activation email or forgot your passwo
 
 1. Click this link [Devolutions Account Log in](https://portal.devolutions.com/) . 
 1. Enter your ***Username*** ( {{ en.DA }} email address) and click ***Continue*** .  
-![Cloud4001.png](/img/en/cloud/Cloud4001.png) 
+![!!Cloud4001.png](/img/en/cloud/Cloud4001.png) 
 1. Click ***Forgot your password?*** .  
 ![Devolutions Account - Forgot Password.png](/img/en/cloud/Cloud4024.png) 
 1. Enter your username and click ***Next*** .  

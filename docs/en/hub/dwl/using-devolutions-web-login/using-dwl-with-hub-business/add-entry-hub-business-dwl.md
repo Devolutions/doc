@@ -31,7 +31,7 @@ Your credentials are now securely stored in a new website entry in {{ en.PHUB }}
 ### Manually Add a Website Entry 
 
 1. <a name="1"></a>Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example.  
-![Hub2055.png](/img/en/hub/Hub2055.png) 
+![!!Hub2055.png](/img/en/hub/Hub2055.png) 
 1. Click on the {{ en.DWL }} extension icon in your browser toolbar and, in the ***Matching*** tab, click on the ***Add Website*** button.  
 ![Add Website Button](/img/en/hub/Hub2057.png) 
 1. The {{ en.DWL }}    ***New Entry - Website*** tab will open in your browser.  

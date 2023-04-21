@@ -13,7 +13,7 @@ To make these isteps simpler, we will name the domain account VaultRunner , plea
 1. Grant access to the database to VaultRunner;
 1. In IIS Manager, expand the ***Application pool*** section and locate the application pool used by your {{ en.DPS }} site. By default it has the same name as the name of the web application;
 1. In the ***Advanced Settings*** , edit the ***Identity*** setting to get the VaultRunner account.  
-![KB4340.png](/img/en/kb/KB4340.png)  
+![!!KB4340.png](/img/en/kb/KB4340.png)  
 
 {% snippet icon.badgeCaution %}
 In some cases the UPN format must be used for the username (username@domain.xyz) instead of the NETBIOS format (domain\username).

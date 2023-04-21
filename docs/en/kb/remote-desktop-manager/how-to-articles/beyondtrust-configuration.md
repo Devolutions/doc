@@ -9,10 +9,10 @@ In the ***General*** section of the BeyondTrust entry.
 
 1. The ***Host*** is the URL of your BeyondTrust portal.
 1. The ***Username*** and ***Password*** will be an account that has the permissions to connect to BeyondTrust.  
-![KB4944.png](/img/en/kb/KB4944.png)
+![!!KB4944.png](/img/en/kb/KB4944.png)
 1. The ***Application API key*** is the key of one of your BeyondTrust ***API Registrations***.  
-![KB4946.png](/img/en/kb/KB4946.png)  
+![!!KB4946.png](/img/en/kb/KB4946.png)  
 In the ***Advanced*** section of the same BeyondTrust entry.  
 
 Select the system you want to connect to with the ellipsis button next to the ***System*** property.  
-![KB4945.png](/img/en/kb/KB4945.png)
+![!!KB4945.png](/img/en/kb/KB4945.png)

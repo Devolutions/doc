@@ -14,7 +14,7 @@ Le nom du ***site*** ***{{ fr.PHUB }}*** ***Business*** devient l 'adresse de vo
 {% endsnippet %}
  
 5. Sélectionner la région d ' [hébergement](/kb/password-hub/knowledge-base/hosting-region-password-hub/) de vos données et accepter les ***Conditions d 'utilisation des services en ligne*** et la ***Politique relative à la vie privée de Devolutions*** .  
-![Hub4006.png](/img/fr/hub/Hub4006.png) 
+![!!Hub4006.png](/img/fr/hub/Hub4006.png) 
 1. Cliquer sur le bouton ***Commencer la Version d 'Essai*** .  
 
 Une fois le déploiement prêt, vous recevrez un courriel contenant l 'adresse Web de votre {{ fr.PHUB }} Business.  
@@ -25,7 +25,7 @@ Si vous êtes un utilisateur de {{ fr.RDM }} Team Edition, vous pouvez connecter
  
 7. Cliquer sur l 'adresse du site Web de {{ fr.PHUB }} Business. 
 1. Télécharger votre ***Kit d 'urgence*** .  
-![Hub4143.png](/img/fr/hub/Hub4143.png) 
+![!!Hub4143.png](/img/fr/hub/Hub4143.png) 
 
 {% snippet icon.badgeCaution %} 
 Le ***Kit d 'urgence*** contient votre clé d 'urgence qui vous sera demandée en cas de perte ou de réinitialisation de votre mot de passe {{ fr.DA }} . N 'oubliez pas de le conserver en lieu sûr . 

@@ -26,14 +26,14 @@ Here are the two different methods available to install the prerequisites:
 1. {{ en.RDMSCONSOLE }} . 
     1. Open the [{{ en.RDMSCONSOLE }}](/server/management/devolutions-server-console/) . 
     1. Go in the Support tab and click on the IIS Diagnostic button.  
-![ServerOp8162.png](/img/en/server/ServerOp8162.png)  
+![!!ServerOp8162.png](/img/en/server/ServerOp8162.png)  
     3. Click on the Install Prerequisites button to run the PowerShell script.  
 
 {% snippet icon.badgeInfo %} 
 This window will only appear if a prerequisite is missing during a new installation or an update. 
 {% endsnippet %}
  
-![ServerOp8171.png](/img/en/server/ServerOp8171.png)  
+![!!ServerOp8171.png](/img/en/server/ServerOp8171.png)  
 
 2. PowerShell command line 
     1. Run Windows PowerShell with elevated privileges. 
@@ -41,5 +41,5 @@ This window will only appear if a prerequisite is missing during a new installat
     ![Location of PowerShell script](/img/en/server/clip10311.png)  
     1. Run the script DVLS-Prerequisites.ps1. 
     1. The script will install the missing web roles and these components : IIS URL Rewrite Module, IIS Application Request Routing Module and IIS [APS.Net](http://aps.net/) Core Module (.Net 6.0). 
-    ![ServerOp4020.png](/img/en/server/ServerOp4020.png) 
+    ![!!ServerOp4020.png](/img/en/server/ServerOp4020.png) 
 

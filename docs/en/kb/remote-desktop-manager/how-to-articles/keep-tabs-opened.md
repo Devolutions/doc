@@ -7,11 +7,11 @@ title: Keep Tabs Opened
 
 Your session must be running in embedded mode. Once your session is open, you'll notice the ***Keep tab on disconnect*** option in the ***Settings*** section of your ***Actions*** tab.  
 
-![KB4556.png](/img/en/kb/KB4556.png)  
+![!!KB4556.png](/img/en/kb/KB4556.png)  
 
 Enable the ***Keep tab on disconnect*** to be able to perform a logoff or restart while keeping the tab present. A panel will replace the content of the session.  
 
-![KB4557.png](/img/en/kb/KB4557.png)  
+![!!KB4557.png](/img/en/kb/KB4557.png)  
 
 This panel offers multiple actions:  
 
@@ -21,4 +21,4 @@ This panel offers multiple actions:
 
 If you wish to have the option enabled by default, edit your session and set the ***Keep tab page opened on disconnect*** option in ***Files - Options - Types*** to ***Yes***  
 
-![KB4558.png](/img/en/kb/KB4558.png)
+![!!KB4558.png](/img/en/kb/KB4558.png)

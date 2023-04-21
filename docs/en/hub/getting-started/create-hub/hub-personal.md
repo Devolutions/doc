@@ -8,9 +8,9 @@ title: Hub Personal
 1. Access the [{{ en.CUSTP }}](https://portal.devolutions.com/hub-personal) {{ en.CUSTP }} section of your {{ en.DA }} to create your {{ en.PHUB }} Personal. 
 1. Click on ***{{ en.PHUB }}*** ***Personal*** in the left menu. 
 1. Click ***Create your Hub Personal*** .  
-![Hub4055.png](/img/en/hub/Hub4055.png) 
+![!!Hub4055.png](/img/en/hub/Hub4055.png) 
 1. Download your ***Emergency Kit*** .  
-![Hub4092.png](/img/en/hub/Hub4092.png) 
+![!!Hub4092.png](/img/en/hub/Hub4092.png) 
 {% snippet icon.badgeCaution %} 
 The ***Emergency Kit*** contains your emergency key that will be required in case you lose or reset your {{ en.DA }} password. Remember to keep it in a safe place . 
 {% endsnippet %}

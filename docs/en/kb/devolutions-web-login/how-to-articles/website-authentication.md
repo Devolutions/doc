@@ -9,7 +9,7 @@ Some steps are required to properly send the username and password. Depending on
 ### Automatically log into a website
 
 1. Enter the credentials in the ***General*** tab of the ***Website*** entry.  
-![KB4606.png](/img/en/kb/KB4606.png)  
+![!!KB4606.png](/img/en/kb/KB4606.png)  
 {% snippet icon.badgeInfo %}
 The {{ en.DWL }} extension is enabled by default. It's disabling is done through the same tab by selecting ***Disabled*** in the ***{{ en.DWL }}*** drop-down menu.
 {% endsnippet %}  
@@ -19,7 +19,7 @@ The [***Comparing type***](/kb/devolutions-web-login/how-to-articles/how-to-use-
 
 2. In the ***Login*** tab, set the ***Authentication*** to ***Form***
 1. In the ***Login – Settings*** tab, verify that the   ***Autofill login*** and ***Auto submit*** options are enabled.  
-![KB4607.png](/img/en/kb/KB4607.png)
+![!!KB4607.png](/img/en/kb/KB4607.png)
 <table>
 	<tr>
 		<th>
@@ -80,7 +80,7 @@ Automatically submit the credentials and try connecting to the website.
 </table>
 
 1. In the ***Login – Html Control ID*** tab, click the ***Discover*** button to define the appropriate fields.  
-![KB4608.png](/img/en/kb/KB4608.png)  
+![!!KB4608.png](/img/en/kb/KB4608.png)  
 
 The ***Discover*** command searches the fields in the web page that correspond to those in the entry. This allows the application to find the appropriate fields to fill when connecting to the website.  
 
@@ -92,10 +92,10 @@ The second method requires to manually identify the IDs corresponding to the log
 For this example, Google Chrome will be used to inspect the logon fields.  
 
 For both the username and password fields, you will be required to do a right-click inside each field and click on ***Inspect***  
-![KB4107.png](/img/en/kb/KB4107.png)  
+![!!KB4107.png](/img/en/kb/KB4107.png)  
 
 You will see the corresponding IDs to be used in the ***HTML Control ID*** tab of the ***Website*** session in {{ en.RDM }}  
 
 Below is an example of the inspection for the Username field. You can see that the username ID is "username".  
 
-![KB4108.png](/img/en/kb/KB4108.png)
+![!!KB4108.png](/img/en/kb/KB4108.png)

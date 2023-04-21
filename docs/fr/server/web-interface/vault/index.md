@@ -14,6 +14,6 @@ Les ***{{ fr.VLT }}*** ***s*** sont divisés en deux parties :
 
 * Le ***Volet de navigation*** (à gauche) répertorie les entrées disponibles dans la source de données ( ***{{ fr.VLT }}*** actuel). 
 * La ***Zone de contenu*** (à droite) affiche les informations relatives à l'entrée sélectionnée.  
-![ServerOp4086.png](/img/fr/server/ServerOp4086.png) 
+![!!ServerOp4086.png](/img/fr/server/ServerOp4086.png) 
 
 

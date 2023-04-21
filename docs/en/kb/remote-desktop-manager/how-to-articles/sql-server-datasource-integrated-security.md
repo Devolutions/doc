@@ -14,33 +14,33 @@ Any user (domain, local machine or SQL user) that has a server role of ***sysadm
 The first step is to create the database that will store all your entries.
 
 Click on the ***ellipsis*** button in the navigation pane, then click on ***Add a new data source***  
-![KB4587.png](/img/en/kb/KB4587.png)  
+![!!KB4587.png](/img/en/kb/KB4587.png)  
 
 Select the ***Microsoft SQL Server*** data source and click ***OK***  
-![KB4588.png](/img/en/kb/KB4588.png)  
+![!!KB4588.png](/img/en/kb/KB4588.png)  
 
 - Specify the ***Name, Server*** and ***Database***  
 - Authenticate with a user that is part of the ***sysadmin*** role.  
-![KB4589.png](/img/en/kb/KB4589.png)  
+![!!KB4589.png](/img/en/kb/KB4589.png)  
 {% snippet icon.badgeInfo %}
 If the logged-on Windows User is not part of the SQL Server ***sysadmin*** role and you've configured the server to use SQL Server and Windows Authentication Mode, then use a SQL Server user (SA for example) that has the appropriate user groups assigned. You can then add yourself as a {{ en.RDM }} user later and change the data source to use Integrated security.
 {% endsnippet %}  
 
 - From the upgrade tab, click ***Test Server*** then ***Create Database*** to create the SQL Server database.  
-![KB4590.png](/img/en/kb/KB4590.png)  
+![!!KB4590.png](/img/en/kb/KB4590.png)  
 Press ***OK*** to close the dialogs. In the navigation pane, select the newly created data source from the data source drop down list.  
-![KB4591.png](/img/en/kb/KB4591.png)
+![!!KB4591.png](/img/en/kb/KB4591.png)
 
 ## Create users
 
 To create users, navigate to Administration – Users  
-![KB4592.png](/img/en/kb/KB4592.png)  
+![!!KB4592.png](/img/en/kb/KB4592.png)  
 
 Click ***Add Users***  
-![KB4593.png](/img/en/kb/KB4593.png)  
+![!!KB4593.png](/img/en/kb/KB4593.png)  
 
 Check the ***Integrated security (Active Directory)*** box and click the ellipsis button to select the domain user to add.  
-![KB4594.png](/img/en/kb/KB4594.png)  
+![!!KB4594.png](/img/en/kb/KB4594.png)  
 
 Select the ***User type*** Grant the ***Add*** , ***Edit*** , and ***Delete*** rights (optional, restricted user only). For more information on user types and rights, please consult the [Administration – Users](https://helprdm.devolutions.net/administration_usermanagement.html) topic.  
 

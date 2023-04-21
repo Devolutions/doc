@@ -7,4 +7,4 @@ This solution applies if you have set a 2FA on a {{ en.DPS }} users and they los
 1. Access the {{ en.DPS }} web interface with an administrator account.
 1. In ***Administration - Users*** click on the ***Edit*** pencil next to the lockout user.
 1. In the ***Two Factor*** section, change the ***Type*** to ***None*** Click ***Update***  
-![KB4840.png](/img/en/kb/KB4840.png)
+![!!KB4840.png](/img/en/kb/KB4840.png)

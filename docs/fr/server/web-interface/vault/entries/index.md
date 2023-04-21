@@ -6,4 +6,4 @@ Chaque élément que vous voyez dans vos ***{{ fr.VLT }}s*** et ***{{ fr.PVLT }}
 
 Gérer, importer, organiser et enregistrer toutes vos données avec des ***Entrées*** et des ***Dossiers*** dans votre {{ fr.DPS }} .  
 
-![ServerOp4088.png](/img/fr/server/ServerOp4088.png) 
+![!!ServerOp4088.png](/img/fr/server/ServerOp4088.png) 

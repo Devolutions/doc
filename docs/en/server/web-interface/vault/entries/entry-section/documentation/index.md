@@ -10,4 +10,4 @@ The ***Documentation*** feature allows to store information regarding entries. T
 1. ***Name*** the document with a title. 
 1. Enter the text following the [Markdown](/server/web-interface/vault/entries/entry-section/documentation/quick-guide-markdown/) text markup language. 
 1. Click ***Save*** . 
-![ServerOp4027.png](/img/en/server/ServerOp4027.png) 
+![!!ServerOp4027.png](/img/en/server/ServerOp4027.png) 

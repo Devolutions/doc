@@ -6,17 +6,17 @@ Les ***Mots de passe d’application*** permettent une authentification rapide a
 1. Pour créer des ***Mots de passe d’application*** , il faut d’abord se connecter à son [{{ fr.DA }}](https://portal.devolutions.com/profile) . 
 1. Dans le menu, cliquer sur ***Mots de passe d’application*** . 
 1. Cliquer sur le signe plus.  
-![KB4023.png](/img/fr/kb/KB4023.png) 
+![!!KB4023.png](/img/fr/kb/KB4023.png) 
 1. Nommer le ***Nouveau mot de passe d’application*** pour que son nom corresponde à l’application avec laquelle il sera utilisé, puis cliquer sur ***Suivant*** .  
-![KB4024.png](/img/fr/kb/KB4024.png) 
+![!!KB4024.png](/img/fr/kb/KB4024.png) 
 1. Copier le code en cliquant sur l’icône ***Copier*** dans le presse-papier, puis coller dans l’application pour laquelle elle a été créée.  
-![KB4025.png](/img/fr/kb/KB4025.png) 
+![!!KB4025.png](/img/fr/kb/KB4025.png) 
 ### {{ fr.DA }} de {{ fr.RDM }} 
 <a name="rdm"></a>
 1. Dans ***Fichier -*** ***{{ fr.DA }}*** ***- Utiliser un mot de passe de l’application*** . 
 1. Saisir le ***Nom d’utilisateur*** ainsi que le ***Mot de passe d’application*** du {{ fr.DA }} . 
 1. Cliquer ***OK*** .  
-![KB4026.png](/img/fr/kb/KB4026.png) 
+![!!KB4026.png](/img/fr/kb/KB4026.png) 
 
 ### Devolutions Online Drive 
 <a name="dod"></a>
@@ -24,5 +24,5 @@ Les ***Mots de passe d’application*** permettent une authentification rapide a
 1. Dans ***Fichier - Sources de données*** , créer ou modifier une source de données Online Drive. 
 1. Changer le ***Mode connexion*** pour ***Mot de passe d’application*** , puis saisir le ***Mot de passe de l’application*** . 
 1. Cliquer ***OK*** .  
-![KB4027.png](/img/fr/kb/KB4027.png) 
+![!!KB4027.png](/img/fr/kb/KB4027.png) 
 

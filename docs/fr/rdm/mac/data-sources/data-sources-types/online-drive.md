@@ -137,7 +137,7 @@ Spécifier le nom de sauvegarde qui vous permettra d'enregistrer automatiquement
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à Devolutions Online Drive .  
-![RdmMac4045.png](/img/fr/rdm/mac/RdmMac4045.png) 
+![!!RDMMac4045.png](/img/fr/rdm/mac/RdmMac4045.png) 
 
 ### Avancée 
 

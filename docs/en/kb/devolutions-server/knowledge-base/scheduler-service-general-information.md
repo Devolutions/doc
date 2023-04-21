@@ -5,7 +5,7 @@ The ***Scheduler Service*** is a {{ en.DPS }} component in charge of several fea
 
 - Active Directory Cache
    - Activated through {{ en.DPS }} Web UI in ***Administration - Server Settings - Authentication - Domain*** , ***Enable domain cache feature***  
-     ![KB4953.png](/img/en/kb/KB4953.png)
+     ![!!KB4953.png](/img/en/kb/KB4953.png)
 - Office 365 Cache
    - Mandatory when using Azure AD / Office 365 Authentication Method.
 - PAM Heartbeat (Checkout Processing, Password Rotation)
@@ -14,18 +14,18 @@ The ***Scheduler Service*** is a {{ en.DPS }} component in charge of several fea
    - Mandatory when ***Backup Manager*** is enabled, through {{ en.DPS }} Web UI in ***Administration - Backup - Backup Manager*** , either for
       - ***Enable database backup***
       - ***Enable web backup***  
-      ![KB4955.png](/img/en/kb/KB4955.png)
+      ![!!KB4955.png](/img/en/kb/KB4955.png)
 - Notifications
    - Mandatory when any ***Notification*** is set.
 - Automated Reports
    - Mandatory when enabled. Set in {{ en.DPS }} Web UI ***Reports - Configuration - Scheduled Reports*** Click + to add a new ***Scheduled Report***  
-   ![KB4956.png](/img/en/kb/KB4956.png)
+   ![!!KB4956.png](/img/en/kb/KB4956.png)
 - Syslog Heartbeat
    - Mandatory when ***Syslog logging*** is enabled, through {{ en.DPS }} Web UI ***Administration - Server Settings - Logging - Log to Syslog server***  
-   ![KB4957.png](/img/en/kb/KB4957.png)
+   ![!!KB4957.png](/img/en/kb/KB4957.png)
 - Automatic Log Cleanup
    - Mandatory when ***Automatic Log cleanup*** is enabled, through {{ en.DPS }} Web UI ***Administration - Logs - Cleanup Logs*** , ***Enable automatic cleanup***  
-   ![KB4958.png](/img/en/kb/KB4958.png)
+   ![!!KB4958.png](/img/en/kb/KB4958.png)
 
 ## Configuration and requirements
 

@@ -16,14 +16,14 @@ The multiple monitor display is only available in ***External*** display mode.
 {% endsnippet %}  
 
 2. In the remote ***Display*** section enable the option ***Span on multiple screens if possible***  
-![KB4711.png](/img/en/kb/KB4711.png)
+![!!KB4711.png](/img/en/kb/KB4711.png)
 
 ## Use multiple monitors for the remote session
 
 The Windows screen display ID are not necessarily the same as the RDP. The RDP monitors ID will also start with 0, not 1.
 
 To discover your own RDP screen settings, please use the command mstsc /l  
-![KB4757.png](/img/en/kb/KB4757.png)  
+![!!KB4757.png](/img/en/kb/KB4757.png)  
 
 When enabling the ***Use multiple monitors for the remote session*** option in the remote ***Display*** section. You can choose between ***All*** or ***Selected***.  
 
@@ -33,12 +33,12 @@ If you choose ***Selected*** , in the drop down menu, you can use a space or a c
 Remote host will only display and span from the first local monitor selected.
 {% endsnippet %}
 
-![KB4712.png](/img/en/kb/KB4712.png)
+![!!KB4712.png](/img/en/kb/KB4712.png)
 
 ## Local monitor and desktop selection
 
 In ***External*** display mode, you can select, with the first drop down menu, on which local monitor you want the session to display.  
-![KB4740.png](/img/en/kb/KB4740.png)  
+![!!KB4740.png](/img/en/kb/KB4740.png)  
 
 The second drop down menu should always be left to ***Current Desktop*** , unless you wish to display on a local virtual desktop.  
-![KB4741.png](/img/en/kb/KB4741.png)
+![!!KB4741.png](/img/en/kb/KB4741.png)

@@ -13,14 +13,14 @@ Vous devez vous connecter au moins une fois à {{ fr.LAUNCHER }} pour que l'outi
 Cette méthode définit comment tous les utilisateurs lanceront les connexions.  
 
 Dans ***Administration - Paramètres Serveur - Avancé*** , utiliser le menu déroulant ***Lancer une connexion avec*** pour sélectionner ***{{ fr.LAUNCHER }}*** .  
-![ServerOp4007.png](/img/fr/server/ServerOp4007.png)  
+![!!ServerOp4007.png](/img/fr/server/ServerOp4007.png)  
 
 ### Paramètres du compte 
 Cette méthode définit comment chaque utilisateur lancera les connexions distantes.  
 
 1. Cliquer sur l' ***avatar*** de utilisateur. 
 1. Cliquer sur ***Paramètres*** . 
-![ServerOp4008.png](/img/fr/server/ServerOp4008.png) 
+![!!ServerOp4008.png](/img/fr/server/ServerOp4008.png) 
 1. Choisir ***{{ fr.LAUNCHER }}*** dans le menu déroulant de ***Lancer une connexion avec*** et ***Enregistrer*** . 
-![ServerOp4009.png](/img/fr/server/ServerOp4009.png) 
+![!!ServerOp4009.png](/img/fr/server/ServerOp4009.png) 
 

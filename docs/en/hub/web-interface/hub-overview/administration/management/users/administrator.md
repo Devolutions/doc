@@ -11,5 +11,5 @@ title: Administrator Rights
 A restart of {{ en.RDM }} may be needed to activate the administrator rights. 
 {% endsnippet %}
  
-![Hub4104.png](/img/en/hub/Hub4104.png) 
+![!!Hub4104.png](/img/en/hub/Hub4104.png) 
 

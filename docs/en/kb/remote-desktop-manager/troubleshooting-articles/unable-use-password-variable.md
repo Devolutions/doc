@@ -12,7 +12,7 @@ If the option is greyed out, you need to activate ***Allow password variables fo
 Also, if you are using the ***Linked (Vault)*** credential mode in your entry, you will need to enable the ***Allow password in variable*** option in the linked credential entry as well.
 {% endsnippet %}  
 
-![KB2130.png](/img/en/kb/KB2130.png)
+![!!KB2130.png](/img/en/kb/KB2130.png)
 4. Click ***OK*** to save your changes.  
 
 You can now use the $PASSWORD$ variable in your macros.

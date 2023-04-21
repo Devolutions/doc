@@ -15,13 +15,13 @@ Some features are only available in the Team Edition. {{ en.RDM }} also offers a
 It is possible to get the IDs of a ***database***, ***data source***, ***entry***, and ***vault*** as well as a ***Command Line***. Follow the steps below to view this information in a single location:
 
 1. Right-click on the entry whose information you want to obtain, then go to ***Properties***.  
-![KB2055.png](/img/en/kb/KB2055.png)
+![!!KB2055.png](/img/en/kb/KB2055.png)
 1. Click on ***Entry Information*** in the ***Common*** section of the menu. You will find the ID information and the ***Command Line*** in the ***IDs*** section.  
-![KB2056.png](/img/en/kb/KB2056.png)
+![!!KB2056.png](/img/en/kb/KB2056.png)
 1. A command line can be created using information displayed in this window. Otherwise, you can simply copy the ***Command Line*** provided by {{ en.RDM }} using the ***Copy*** button.  
-![KB2057.png](/img/en/kb/KB2057.png)
+![!!KB2057.png](/img/en/kb/KB2057.png)
 1. All that remains is to paste your command line into the Windows Command Prompt and press ***Enter*** to create an executable according to your parameters.  
-![KB2058.png](/img/en/kb/KB2058.png)
+![!!KB2058.png](/img/en/kb/KB2058.png)
 
 ## Retrieve a data source ID
 
@@ -29,9 +29,9 @@ The ID of a data source can be retrieved with other identifiers by following the
 
 1. Go to ***File - Data Sources*** Alternatively, you can click on the ellipsis next to your data source name in your ***{{ en.NPANE }}***.
 1. Select the data source of your choice in the bottom section, then click on the ***Edit Data Source*** icon.  
-![KB2059.png](/img/en/kb/KB2059.png)  
+![!!KB2059.png](/img/en/kb/KB2059.png)  
 The ID of the chosen data source will be at the bottom of the window. You can copy it by clicking on it.  
-![KB2060.png](/img/en/kb/KB2060.png)
+![!!KB2060.png](/img/en/kb/KB2060.png)
 
 ## Usage: RemoteDesktopManager.exe [parameters]
 

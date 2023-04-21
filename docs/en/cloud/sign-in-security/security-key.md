@@ -6,7 +6,7 @@ Configure a physical ***Security Key*** device to use as a new default password 
 ### Desktop Security Key Installation 
 
 1. Connect to your {{ en.DA }} and click ***Security Key*** .  
-![Cloud4018.png](/img/en/cloud/Cloud4018.png) 
+![!!Cloud4018.png](/img/en/cloud/Cloud4018.png) 
 1. Click ***Add a security key*** and accept all the Windows prompt. 
 1. Insert the key into the USB port (if prompted, enter your personal security key PIN). Press the key button.  
 ![Security Key Validation.png](/img/en/cloud/Cloud4019.png)

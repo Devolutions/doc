@@ -4,7 +4,7 @@ title: Entry Types Events Settings
 {{ en.RDM }} gives you the flexibility to automatically run operations before or after establishing a connection.  
 
 These operations are defined via the ***Events*** section of a session's properties. Define a script or a command line which executes at the appropriate time with the provided parameters, such as the session ID or username. For example, events can be used to execute an external batch file or application that prompts the user for more information, or to update a log on a remote server.  
-![KB4618.png](/img/en/kb/KB4618.png)
+![!!KB4618.png](/img/en/kb/KB4618.png)
 ## Settings
 The ***Events*** section is composed of four tabs. All of them can execute the same events. But at specific times, such as before the connection is established or after its interruption.  
 
@@ -83,7 +83,7 @@ Please note that for the Wake-on-LAN feature to work:
 * The remote device must support the Wake-on-LAN feature.
 * The MAC address must be filled out in the ***Information*** section of the session properties.  
 
-![KB4619.png](/img/en/kb/KB4619.png)
+![!!KB4619.png](/img/en/kb/KB4619.png)
 
 <table>
 	<tr>
@@ -121,7 +121,7 @@ Enter the number of time to try to wake the remote device.
 </table>
 
 ### After Connect – Macro
-![KB4620.png](/img/en/kb/KB4620.png)  
+![!!KB4620.png](/img/en/kb/KB4620.png)  
 {% snippet icon.shieldWarning %}
 This feature simply uses a basic mechanism of sending keystrokes provided by theNET framework, emulating someone using the keyboard. It sends the keystrokes to the operating system itself, and they are handled by WHATEVER application has the focus at that time. If the focus is switched to another window, the credentials will most likely be revealed by being typed in a text area.  
 

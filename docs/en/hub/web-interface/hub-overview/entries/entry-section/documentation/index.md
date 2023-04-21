@@ -14,4 +14,4 @@ Click the ***Preview*** or ***Split vertically*** buttons to review the appearan
 {% endsnippet %}
  
 5. Click ***Add*** to save.  
-![Hub4123.png](/img/en/hub/Hub4123.png) 
+![!!Hub4123.png](/img/en/hub/Hub4123.png) 

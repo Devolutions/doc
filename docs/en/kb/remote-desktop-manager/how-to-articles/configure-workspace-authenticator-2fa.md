@@ -12,9 +12,9 @@ Before you start the configuration, make sure you have installed the [Devolution
 {% endsnippet %}
 
 1. Click on ***File - Options - Security*** and select ***Require a TOTP validation (Devolutions Workspace or Google Authenticator)*** in the ***2-Factor Authentication*** section. Then click on ***Configure*** to set up your Google Authentication.  
-![KB4512.png](/img/en/kb/KB4512.png)
+![!!KB4512.png](/img/en/kb/KB4512.png)
 1. Scan the QR code on your screen with the Devolutions Workspace application to setup {{ en.RDM }} Enter the ***Validation code*** provided by Devolutions Worspace into {{ en.RDM }}  
-![KB4513.png](/img/en/kb/KB4513.png)
+![!!KB4513.png](/img/en/kb/KB4513.png)
 1. Click ***Validate***, then ***OK***
 1. Relaunch {{ en.RDM }} to be prompted for the Devolutions Workspace code.  
 {% snippet icon.badgeInfo %}

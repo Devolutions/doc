@@ -3,7 +3,7 @@ title: Domain Information
 ---
 Provides the user group's domain information. 
 
-![ServerOp8013.png](/img/en/server/ServerOp8013.png) 
+![!!ServerOp8013.png](/img/en/server/ServerOp8013.png) 
 
 <table>
 	<tr>

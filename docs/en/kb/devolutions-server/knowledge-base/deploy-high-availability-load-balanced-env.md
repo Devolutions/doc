@@ -1,7 +1,7 @@
 ---
 title: Deploy in an High Availability or Load Balanced Environment
 ---
-![KB4773.png](/img/en/kb/KB4773.png)
+![!!KB4773.png](/img/en/kb/KB4773.png)
 
 ### Key points
 * The {{ en.DPS }} instances are not able to discover the public name of the whole infrastructure, it must be provided using a few different strategies.  
@@ -19,7 +19,7 @@ title: Deploy in an High Availability or Load Balanced Environment
 * Each node should add its own identity in the HTTP Response headers, this is helpful for seeing the full workflow, but some more security conscious organizations strip that header. Since this is a plain string, simply using a basic string that does not divulge the FQDN of the responding server is acceptable for most. e.g. “node1”, “node2”. Please follow [Identify the Server Answering on a High Availability Topology](/kb/devolutions-server/knowledge-base/identify-server-answering/) and add a unique string for each server node.
 ### Validation
 * Any email sent by the system should contain the public URI, not the name of the server node. You can use the Server Messaging feature and inspect the received email for the proper URI.  
-![KB4775.png](/img/en/kb/KB4775.png)
+![!!KB4775.png](/img/en/kb/KB4775.png)
 * The LoginHistory table should contain the IP Address for the client, not any intervening servers.
 * The LoginAttempts table will list the IP Address as well, but there are more scenarios:
     * Login failures (e.g., bad credentials)

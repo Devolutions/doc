@@ -12,12 +12,12 @@ In version 2020.3.12.0 and higher of {{ en.RDM }} an error message when opening 
 {% endsnippet %}  
 
 In the ***Advanced*** tab of your session, set the ***Algorithm support*** option to ***Custom*** and check the missing one(s) in the list.  
-![KB4653.png](/img/en/kb/KB4653.png)  
+![!!KB4653.png](/img/en/kb/KB4653.png)  
 {% snippet icon.badgeCaution %}
 {{ en.RDM }} might need to be restarted for the solutions to take effect.
 {% endsnippet %}  
 
 It's also possible to globally reactivate all the algorithms in {{ en.RDM }} via the ***File - Options - Types - Terminal - Algorithm support*** menu.  
-![KB4654.png](/img/en/kb/KB4654.png)
+![!!KB4654.png](/img/en/kb/KB4654.png)
 If you are still unable to connect after enabling the algorithm, go into the entry ***Properties - Advanced*** tab and check the ***Skip environment variable setup***  
-![KB4702.png](/img/en/kb/KB4702.png)
+![!!KB4702.png](/img/en/kb/KB4702.png)

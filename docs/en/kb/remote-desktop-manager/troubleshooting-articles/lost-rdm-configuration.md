@@ -9,7 +9,7 @@ For more information on how to [Create a Data Source](https://helprdm.devolution
 {% endsnippet %}  
 
 2. Click on the ellipsis button and point it to the ***connections.db*** file.  
-![KB4923.png](/img/en/kb/KB4923.png)
+![!!KB4923.png](/img/en/kb/KB4923.png)
 1. Finish the configuration.  
 
 You should now see your entries in the navigation pane.

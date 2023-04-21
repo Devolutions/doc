@@ -21,13 +21,13 @@ Ces valeurs proviennent de la documentation de Microsoft concernant la norme [FI
 * Aes256 Gcm (openssh<area>.com) 
 * Aes128 Gmc (openssh<area>.com) 
 * Rijndael Cbc (lysator<area>.liu.se)  
-![KB2023.png](/img/fr/kb/KB2023.png) 
+![!!KB2023.png](/img/fr/kb/KB2023.png) 
 3. Dans l'onglet ***Clé de l'hôte*** , décocher : 
 * Ssh Ed25519 
 * X509v3 Sign Rsa 
 * X509v3 Sign Rsa Sha256 (ssh<area>.com) 
 * Ssh Dss  
-![KB2024.png](/img/fr/kb/KB2024.png) 
+![!!KB2024.png](/img/fr/kb/KB2024.png) 
 4. Dans l'onglet ***Kex*** , décocher : 
 * Curve25519 Sha256 
 * Curve25519 Sha256 (libssh<area>.org) 
@@ -35,11 +35,11 @@ Ces valeurs proviennent de la documentation de Microsoft concernant la norme [FI
 * Diffie Hellman Group18 Sha512 
 * Diffie Hellman Group14 Sha256 
 * Diffie Hellman Group1 Sha1  
-![KB2025.png](/img/fr/kb/KB2025.png) 
+![!!KB2025.png](/img/fr/kb/KB2025.png) 
 5. Dans l'onglet ***MAC*** , décocher : 
 * Hmac Sha 1 96 
 * Hmac Md5 96 
 * Hmac Md5  
-![KB2026.png](/img/fr/kb/KB2026.png) 
+![!!KB2026.png](/img/fr/kb/KB2026.png) 
 6. Cliquer sur ***OK*** . 
 

@@ -5,7 +5,7 @@ title: Allow Open Multiple Connections
 {{ en.RDM }} allows you to open multiple connections on the same host.
 
 You can enable the ***Allow open multiple connections option*** in the ***Advanced*** Tab of an entry.  
-![KB4528.png](/img/en/kb/KB4528.png)
+![!!KB4528.png](/img/en/kb/KB4528.png)
 
 | Option | Description                                                           |
 | ------ | --------------------------------------------------------------------- |

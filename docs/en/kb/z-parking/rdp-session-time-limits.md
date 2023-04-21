@@ -18,11 +18,11 @@ What follows is the procedure to perform on a single host computer.
    | Set time limit for active Remote Desktop Services sessions | This policy setting allows you to specify the maximum amount of time that a Remote Desktop Services session can be active before it is automatically disconnected. |
    | End session when time limits are reached | This policy setting specifies whether to end a Remote Desktop Services session that has timed out instead of disconnecting it. |
 1. Double click on the setting (or right-click, ***Edit*** ), an edition form will appear.  
-![KB4562.png](/img/en/kb/KB4562.png)
+![!!KB4562.png](/img/en/kb/KB4562.png)
 1. Select ***Enabled***, this will enable the control in the lower section.  
-![KB4563.png](/img/en/kb/KB4563.png)  
+![!!KB4563.png](/img/en/kb/KB4563.png)  
 1. Choose your desired value from the list.  
-![KB4564.png](/img/en/kb/KB4564.png)  
+![!!KB4564.png](/img/en/kb/KB4564.png)  
 1. Press ***Apply***.
 1. Repeat for other settings as desired. Note that for true/false settings there is no control in the Options area. Just enabling the policy will activate the setting.  
 

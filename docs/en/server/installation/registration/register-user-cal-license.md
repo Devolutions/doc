@@ -5,8 +5,8 @@ There are two methods to register your ***User CAL*** license, with the [{{ en.D
 
 ### {{ en.DPS }} Console 
 Register your ***User CAL*** license in ***Server – Edit – General – License*** .  
-![ServerOp4016.png](/img/en/server/ServerOp4016.png) 
+![!!ServerOp4016.png](/img/en/server/ServerOp4016.png) 
 ### {{ en.DPS }} Web Interface 
 Click the ***Add*** button to save your ***User CAL*** license in ***Administration – Licenses*** .  
-![ServerOp4015.png](/img/en/server/ServerOp4015.png) 
+![!!ServerOp4015.png](/img/en/server/ServerOp4015.png) 
 

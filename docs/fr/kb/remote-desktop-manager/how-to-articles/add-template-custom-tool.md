@@ -17,14 +17,14 @@ Avant d'utiliser cette méthode, vous devez d'abord créer un ***Modèle*** dans
 L'activation de l'option ***Disponible dans Macros/Scripts/Outils*** située dans ***Paramètres de modèle - Disponibilité*** est nécessaire pour que le ***Modèle*** que vous allez créer ( ***Modèle de base de données*** seulement) soit visible sur votre ***Tableau de bord*** . 
 {% endsnippet %}
 
-![KB2000.png](/img/fr/kb/KB2000.png) 
+![!!KB2000.png](/img/fr/kb/KB2000.png) 
 ### Méthode 
 1. Dans le ***Ruban*** , aller dans ***Modifier - Nouvelle entrée - Ajouter un Macro/Script/Outil*** .  
-![KB2001.png](/img/fr/kb/KB2001.png) 
+![!!KB2001.png](/img/fr/kb/KB2001.png) 
 1. Sélectionner ***Modèle Macro/Script/Outil*** sous la section ***Outil*** . Par la suite, cliquer sur ***OK*** . 
-![KB2002.png](/img/fr/kb/KB2002.png) 
+![!!KB2002.png](/img/fr/kb/KB2002.png) 
 1. Dans l'onglet ***Général*** , utiliser le bouton d'ellipse à côté du champ ***Modèle*** pour sélectionner le modèle créé précédemment. Lorsque c'est fait, cliquer sur ***OK*** .  
-![KB2003.png](/img/fr/kb/KB2003.png) 
+![!!KB2003.png](/img/fr/kb/KB2003.png) 
 1. L'entrée ***Modèle Macro/Script/Outil*** que vous venez de créer se trouve dans la section ***Macros/Scripts/Outils*** de votre ***Tableau de bord*** lorsque vous sélectionnez une de vos entrées dans votre ***Volet de navigation*** .  
-![KB2004.png](/img/fr/kb/KB2004.png) 
+![!!KB2004.png](/img/fr/kb/KB2004.png) 
 Il ne reste qu'à appliquer le modèle souhaité. 

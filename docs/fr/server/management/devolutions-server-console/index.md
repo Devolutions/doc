@@ -23,7 +23,7 @@ La Console de {{ fr.RDMS }} gère la métabase IIS, elle doit être démarrée a
 
 ## Serveur 
 
-![ServerOp4020.png](/img/fr/server/ServerOp4020.png)
+![!!ServerOp4020.png](/img/fr/server/ServerOp4020.png)
 
 <table>
 	<tr>
@@ -134,7 +134,7 @@ Ouvrir le fichier de réponse pour rouler des commandes sur l'instance {{ fr.DPS
 
 ### Compagnons 
 
-![ServerOp4021.png](/img/fr/server/ServerOp4021.png)
+![!!ServerOp4021.png](/img/fr/server/ServerOp4021.png)
 
 <table>
 	<tr>
@@ -261,7 +261,7 @@ Désinstaller le Devolutions Gateway.
 
 ### Outils
 
-![ServerOp4022.png](/img/fr/server/ServerOp4022.png) 
+![!!ServerOp4022.png](/img/fr/server/ServerOp4022.png) 
 
 <table>
 	<tr>
@@ -340,7 +340,7 @@ Supprimer le fournisseur de sécurité précédemment utilisé pour encrypter un
 
 ### Administration 
 
-![ServerOp4023.png](/img/fr/server/ServerOp4023.png) 
+![!!ServerOp4023.png](/img/fr/server/ServerOp4023.png) 
 
 <table>
 		<td>
@@ -403,7 +403,7 @@ Ouvrir la page du [Gestionnaire de sauvegardes](/fr/server/web-interface/adminis
 
 ### Soutien 
 
-![ServerOp4024.png](/img/fr/server/ServerOp4024.png) 
+![!!ServerOp4024.png](/img/fr/server/ServerOp4024.png) 
 
 <table>
 	<tr>

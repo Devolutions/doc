@@ -9,5 +9,5 @@ Cliquer sur le bouton ***Exporter*** pour créer un rapport CSV des entrées sup
 Si une entrée est supprimée d 'un ***Coffre d 'utilisateur*** , seul l 'utilisateur du ***Coffre d 'utilisateur*** peut la restaurer et la gérer dans la section ***Rapports*** . 
 {% endsnippet %}
  
-![Hub4109.png](/img/fr/hub/Hub4109.png) 
+![!!Hub4109.png](/img/fr/hub/Hub4109.png) 
 

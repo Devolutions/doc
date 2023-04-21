@@ -2,7 +2,7 @@
 title: Windows Users Account Discovery
 ---
 The Windows Users Account Discovery allows {{ en.RDMS }} to scan the host to find accounts. The accounts will not be automatically added in the Privileged Access Management folders.  
-![ServerOp8098.png](/img/en/server/ServerOp8098.png) 
+![!!ServerOp8098.png](/img/en/server/ServerOp8098.png) 
 
 ### General 
 

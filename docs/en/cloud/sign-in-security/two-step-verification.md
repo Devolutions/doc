@@ -11,7 +11,7 @@ Add a layer of security to your {{ en.DA }} by setting up a two-step verificatio
 ### Account Recovery Configuration 
 
 1. Connect to your {{ en.DA }} and click ***Two-Step Verification*** .  
-![Cloud4028.png](/img/en/cloud/Cloud4028.png) 
+![!!Cloud4028.png](/img/en/cloud/Cloud4028.png) 
 1. Click ***Configure*** . 
 1. Choose your account recovery method between ***SMS*** or ***Email*** . 
 ![Two-Step Verification Step 1](/img/en/cloud/Cloud4029.png) 
@@ -58,6 +58,6 @@ Choose <a href="#push">Authenticator Push</a>, <a href="#app">Authenticator App<
 ### Security Key <a name="key"></a>
 
 1. Click ***Security Key*** .  
-![Cloud4048.png](/img/en/cloud/Cloud4048.png) 
+![!!Cloud4048.png](/img/en/cloud/Cloud4048.png) 
 1. You will be redirected to the [Security Key](/cloud/sign-in-security/security-key/) section of the {{ en.DA }} . 
 

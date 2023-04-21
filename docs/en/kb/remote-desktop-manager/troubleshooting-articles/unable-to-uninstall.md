@@ -4,7 +4,7 @@ title: Unable to Uninstall
 You seem unable to uninstall {{ en.RDM }} from Programs and Features in Windows.  
 
 In the Event log, you see the following error message:  
-![KB4091.png](/img/en/kb/KB4091.png)
+![!!KB4091.png](/img/en/kb/KB4091.png)
 ### Solution
 Try the suggested fix by Microsoft:  
 

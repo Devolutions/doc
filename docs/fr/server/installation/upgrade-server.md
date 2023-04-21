@@ -62,7 +62,7 @@ Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant to
 ![{{ fr.DVLS }} Upgrade Wizard](/img/fr/server/ServerOp8066.png)  
 1. Appuyer sur ***Suivant*** . 
 1. Consulter le résumé et appuyer sur ***Mettre à niveau*** si vous êtes satisfait.  
-![ServerOp4016.png](/img/fr/server/ServerOp4016.png) 
+![!!ServerOp4016.png](/img/fr/server/ServerOp4016.png) 
 
 ### Phase finale 
 

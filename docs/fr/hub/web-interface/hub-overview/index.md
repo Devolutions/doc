@@ -2,7 +2,7 @@
 title: Survol Hub
 ---
 Naviguer et explorer les menus à travers les différentes sections de {{ fr.PHUB }} Business et gérer vos données.  
-![Hub4118.png](/img/fr/hub/Hub4118.png) 
+![!!Hub4118.png](/img/fr/hub/Hub4118.png) 
 
 <table>
 	<tr>

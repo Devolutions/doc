@@ -12,11 +12,11 @@ Les administrateurs peuvent ***Forcer la restitution*** des entrées ***Réserve
 
 1. Sélectionner une entrée. 
 1. Cliquer ***Réserver*** .  
-![Hub4173.png](/img/fr/hub/Hub4173.png) 
+![!!Hub4173.png](/img/fr/hub/Hub4173.png) 
 1. Ajouter un ***Commentaire*** sur la raison de la réservation. 
 1. Facultatif: Activer la ***Restitution automatique après*** un certain nombre de minutes. 
 1. Cliquer ***OK*** .  
-![Hub4175.png](/img/fr/hub/Hub4175.png)  
+![!!Hub4175.png](/img/fr/hub/Hub4175.png)  
 
 Une bannière d 'information en haut de l 'entrée et une icône dans le ***Volet de navigation*** apparaîtront pour avertir les utilisateurs que cette entrée est ***Réserver*** . 
 
@@ -24,5 +24,5 @@ Une bannière d 'information en haut de l 'entrée et une icône dans le ***Vole
 
 1. Dans le ***Volet de navigation*** , sélectionner l 'entrée ***Réserver*** . 
 2. Cliquer ***Restituer*** .  
-![Hub4174.png](/img/fr/hub/Hub4174.png) 
+![!!Hub4174.png](/img/fr/hub/Hub4174.png) 
 

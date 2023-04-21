@@ -30,7 +30,7 @@ Pour obtenir une liste complète des champs et entrées disponibles dans la fen�
 ### Onglet Toutes les entrées  
 
 L 'onglet ***Coffres*** vous permet de parcourir tous vos coffres pour accéder à vos entrées.  
-![Hub2083.png](/img/fr/hub/Hub2083.png) 
+![!!Hub2083.png](/img/fr/hub/Hub2083.png) 
 En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher dans vos entrées et vos coffres.  
 
 Pour accéder à une entrée dans {{ fr.DWL }} , naviguez dans les dossiers pour trouver manuellement l 'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.PHUB }} Personal.  

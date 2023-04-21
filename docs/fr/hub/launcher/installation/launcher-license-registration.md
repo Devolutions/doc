@@ -13,12 +13,12 @@ Seuls les ***Administrateurs*** et les utilisateurs disposant de permissions dan
  
 1. Aller dans ***Administration - Licences*** . 
 1. Cliquer le bouton ***Ajouter*** .  
-![Hub4008.png](/img/fr/hub/Hub4008.png) 
+![!!Hub4008.png](/img/fr/hub/Hub4008.png) 
 1. Coller la ***Licence*** et cliquer ***Ajouter*** .  
-![Hub4009.png](/img/fr/hub/Hub4009.png) 
+![!!Hub4009.png](/img/fr/hub/Hub4009.png) 
 1. Cliquer sur le bouton ***Modifier*** à côté de la licence de produit ***Launcher*** .  
-![Hub4010.png](/img/fr/hub/Hub4010.png) 
+![!!Hub4010.png](/img/fr/hub/Hub4010.png) 
 1. Cliquer ***Assigné à*** et gérer l 'accès aux licences de vos utilisateurs.  
-![Hub4011.png](/img/fr/hub/Hub4011.png) 
+![!!Hub4011.png](/img/fr/hub/Hub4011.png) 
 1. Cliquer ***Mettre à jour*** pour enregistrer. 
 

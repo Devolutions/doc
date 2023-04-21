@@ -6,5 +6,5 @@ title: Password Templates
 You can set a ***Default template*** and choose a ***Template enforcement*** for the users.  
 
 Click the ***Add*** button to create a new password template.  
-![Hub4116.png](/img/en/hub/Hub4116.png) 
+![!!Hub4116.png](/img/en/hub/Hub4116.png) 
 

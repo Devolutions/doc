@@ -11,13 +11,13 @@ Les ***Coffres*** peuvent être supprimés et restaurés par les administrateurs
 
 1. Aller dans ***Administration - Coffres*** . 
 1. Cliquer sur la corbeille ***Supprimer*** à côté du coffre.  
-![Hub4136.png](/img/fr/hub/Hub4136.png) 
+![!!Hub4136.png](/img/fr/hub/Hub4136.png) 
 1. Cliquer ***Supprimer*** pour confirmer.  
-![Hub4137.png](/img/fr/hub/Hub4137.png) 
+![!!Hub4137.png](/img/fr/hub/Hub4137.png) 
 
 ### Restaurer un coffre supprimé 
 1. Aller dans ***Administration - Coffres*** . 
 2. Changer le filtre du ***Type*** a ***Tout*** et le ***Statut*** a ***Supprimé*** pour afficher la liste de tous les coffres supprimés.  
-![Hub4138.png](/img/fr/hub/Hub4138.png) 
+![!!Hub4138.png](/img/fr/hub/Hub4138.png) 
 1. Trouver votre coffre et cliquer sur ***Restaurer*** . 
 

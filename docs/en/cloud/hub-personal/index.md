@@ -6,4 +6,4 @@ order: 50
 
 Click on the ***Create your Hub Personal*** button to start using it today!  
 
-![Cloud4054.png](/img/en/cloud/Cloud4054.png) 
+![!!Cloud4054.png](/img/en/cloud/Cloud4054.png) 

@@ -9,7 +9,7 @@ For DPI issues with RDP session in {{ en.RDM }} , consult this topic: [High DPI 
 ## Solution
 ### Method 1
 1. In {{ en.RDM }} , go to ***File – Options – User Interface*** and change the ***Display scaling*** to ***DPI unaware***  
-![KB4994.png](/img/en/kb/KB4994.png)  
+![!!KB4994.png](/img/en/kb/KB4994.png)  
 
 If you cannot see the setting because of display issues, you can add the line in your config files directly.  
 {% snippet icon.badgeHelp %}
@@ -24,9 +24,9 @@ To locate your config file refer to [Configuration File Location](/kb/remote-des
 1. Right-click on your {{ en.RDM }} icon.
 1. Go to ***Properties***
 1. In the ***Compatibility*** tab, click ***Change high DPI settings***  
-![KB4995.png](/img/en/kb/KB4995.png)
+![!!KB4995.png](/img/en/kb/KB4995.png)
 1. In the ***High DPI scaling override*** section, check ***Override high DPI scaling behavior*** and click OK.
-![KB4996.png](/img/en/kb/KB4996.png)  
+![!!KB4996.png](/img/en/kb/KB4996.png)  
 {% snippet icon.badgeInfo %}
 When applying this change, you must log off and log back in with your user for changes to take effect.
 {% endsnippet %}

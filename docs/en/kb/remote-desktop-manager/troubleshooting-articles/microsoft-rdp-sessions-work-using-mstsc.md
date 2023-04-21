@@ -25,4 +25,4 @@ The file will be deleted when you close {{ en.RDM }} , you need to copy it befor
 ### Starting rdp sessions is slow compared to the native rdp
 
 We have isolated the issue and we fixed it by changing your RDP engine version to RDP 6.0 or 7.0 in ***File - Options - Types - Remote Desktop***  
-![KB4056.png](/img/en/kb/KB4056.png)
+![!!KB4056.png](/img/en/kb/KB4056.png)

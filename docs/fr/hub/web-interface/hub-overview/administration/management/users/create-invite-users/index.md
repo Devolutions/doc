@@ -14,7 +14,7 @@ Nous vous recommandons fortement d 'inviter au moins un autre administrateur. Vo
 
 1. Aller dans ***Administration - Utilisateurs*** . 
 1. Cliquer ***Ajouter des utilisateurs*** .  
-![Hub4180.png](/img/fr/hub/Hub4180.png) 
+![!!Hub4180.png](/img/fr/hub/Hub4180.png) 
 1. Saisir l 'adresse courriel de l ' ***Utilisateur*** . 
 {% snippet icon.badgeInfo %} 
 Il est possible de coller une liste d 'adresses courriel d ' ***Utilisateurs*** qui feront partie des mêmes [Groupes d 'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/) . Chaque adresse courriel doit être séparée par un point-virgule (;) ou une virgule (,). 
@@ -28,18 +28,18 @@ Cette étape validera si l 'utilisateur a un {{ fr.DA }} .
 * Sinon, il créera automatiquement un {{ fr.DA }} avec un ***Mot de passe temporaire*** , que vous pouvez choisir comment gérer. Vous pouvez gérer la gestion des ***Mots de passe temporaires*** dans ***Administration - Paramètres du système - Général*** . 
 {% endsnippet %}
  
-![Hub4181.png](/img/fr/hub/Hub4181.png) 
+![!!Hub4181.png](/img/fr/hub/Hub4181.png) 
 
 5. Cliquer ***Suivant*** . 
 1. Sélectionner des ***Options*** supplémentaires.  
-![Hub4182.png](/img/fr/hub/Hub4182.png) 
+![!!Hub4182.png](/img/fr/hub/Hub4182.png) 
 1. Cliquer ***Suivant*** . 
 1. Assigner des ***Groupes d 'utilisateurs*** .  
 {% snippet icon.badgeInfo %} 
 Les ***Groupes d 'utilisateurs*** doivent être définis au préalable en tant que groupe personnalisé dans {{ fr.PHUB }} . Pour plus d 'informations, voir [Groupes d 'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/) . 
 {% endsnippet %}
  
-![Hub4183.png](/img/fr/hub/Hub4183.png) 
+![!!Hub4183.png](/img/fr/hub/Hub4183.png) 
 
 9. Cliquer ***Envoyer une invitation*** .  
 

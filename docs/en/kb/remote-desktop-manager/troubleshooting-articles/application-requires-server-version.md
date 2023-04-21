@@ -3,7 +3,7 @@ eleventyComputed:
   title: Application Requires {{ en.DPS }} Version Greater or Equal
 ---
 This application requires a {{ en.DPS }} version greater or equal than...  
-![KB4045.png](/img/en/kb/KB4045.png)  
+![!!KB4045.png](/img/en/kb/KB4045.png)  
 When {{ en.RDM }} is connected to a {{ en.DPS }} data source, it will validate at start up the compatibility of both applications version. If an incompatibility occurs, the warning message above will appear in {{ en.RDM }}
 ## Solution
 Firstly, we recommend a {{ en.DPS }} upgrade. This link will provide instructions about how to perform the upgrade: [Upgrading {{ en.DPS }}](/server/installation/upgrade-server/) If you require assistance to perform the upgrade please contact us at [service@devolutions.net](mailto:service@devolutions.net)

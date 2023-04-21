@@ -14,15 +14,15 @@ You cannot configure 2FA for users. Once activated, each user will need to confi
 ### Force application security with Windows credentials
 
 Under ***Administration - System Settings - Applications - Security - Force application security with Windows credentials***  
-![KB4906.png](/img/en/kb/KB4906.png)
+![!!KB4906.png](/img/en/kb/KB4906.png)
 
 ### Force application security with TOTP (Authenticator)
 Under ***Administration - System Settings - Applications - Security - Force application security with TOTP (Authenticator)***  
-![KB4907.png](/img/en/kb/KB4907.png)
+![!!KB4907.png](/img/en/kb/KB4907.png)
 
 ### Force data source 2-factor configuration
 Under ***Administration - System Settings - Security Settings - Security - Force data source 2-factor configuration***  
-![KB4908.png](/img/en/kb/KB4908.png)
+![!!KB4908.png](/img/en/kb/KB4908.png)
 
 ### Force with Group Policies (GPO)
 We also have GPOs that could help you achieve your goal. An example in this case is the ***Force multiple-factor authentication on the application login***  

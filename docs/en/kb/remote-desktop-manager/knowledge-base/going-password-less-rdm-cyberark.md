@@ -9,7 +9,7 @@ The only requirement is that you operate CyberArk's ***Application Access Manage
 Also, let’s start with a caveat that the password-less part is in regards to CyberArk, you still have to authenticate to RDM, whatever datasource you are using.
 ### Overview
 A diagram is necessary to properly illustrate the solution.  
-![KB4661.png](/img/en/kb/KB4661.png)
+![!!KB4661.png](/img/en/kb/KB4661.png)
 1. The user is authenticated to RDM with a ***Least Privilege Account*** , this gives them a view into the RDM content as per the permissions set in our User Groups Based Access Control.
 1. When their ***Privileged Account*** is required to launch a supported technology, RDM will obtain the appropriate Private Key from the workstation, it must be held in the certificate store for the user.
 1. The PK is used to authenticate against the CyberArk Vault. It’s configured as an ***Application*** object that is essentially a ***user proxy*** used to query the Vault.

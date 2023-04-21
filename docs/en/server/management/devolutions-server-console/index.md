@@ -134,7 +134,7 @@ Open a response file to run commands on the {{ en.DPS }} instance.
 
 ### Companions 
 
-![ServerOp8164.png](/img/en/server/ServerOp8164.png) 
+![!!ServerOp8164.png](/img/en/server/ServerOp8164.png) 
 
 <table>
 	<tr>
@@ -261,7 +261,7 @@ Uninstall the Devolutions Gateway.
 
 ### Tools 
 
-![ServerOp8165.png](/img/en/server/ServerOp8165.png) 
+![!!ServerOp8165.png](/img/en/server/ServerOp8165.png) 
 
 <table>
 	<tr>
@@ -340,7 +340,7 @@ Remove the Security Provider that was previously used to encrypt a part of the d
 
 ### Administration 
 
-![ServerOp8166.png](/img/en/server/ServerOp8166.png) 
+![!!ServerOp8166.png](/img/en/server/ServerOp8166.png) 
 
 <table>
 		<td>
@@ -403,7 +403,7 @@ Will open the [Backup Manager](/server/web-interface/administration/backup/backu
 
 ### Support 
 
-![ServerOp8167.png](/img/en/server/ServerOp8167.png) 
+![!!ServerOp8167.png](/img/en/server/ServerOp8167.png) 
 
 <table>
 	<tr>

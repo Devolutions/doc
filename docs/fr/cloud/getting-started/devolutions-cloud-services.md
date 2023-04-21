@@ -79,6 +79,6 @@ Pour plus d'informations, veuillez consulter les <a href="/cloud/rdm-online-serv
 
 Accéder à tous les Services en ligne à partir de l'icône du menu.  
 
-![Cloud4013.png](/img/fr/cloud/Cloud4013.png) 
+![!!Cloud4013.png](/img/fr/cloud/Cloud4013.png) 
 
 

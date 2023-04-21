@@ -5,7 +5,7 @@ Les entrées de {{ fr.RDM }} peuvent être configurées pour utiliser un ***Mot 
 
 Dans la section ***Connexion - Mot de passe à usage unique*** d'une entrée, sélectionner une ***Source*** et une ***Utilisation*** pour le code OTP.  
 
-![KB4046.png](/img/fr/kb/KB4046.png) 
+![!!KB4046.png](/img/fr/kb/KB4046.png) 
 
 Pour des informations sur la configuration de la <a href="#source">Source</a>, sélectionner dans la liste ou cliquer sur ce lien pour passer aux informations sur la configuration de l'<a href="#utilisation">Utilisation</a>
 
@@ -21,7 +21,7 @@ Par défaut, la ***Source*** OTP de l'entrée est réglée sur ***Aucun*** . Dan
 
 L'option ***Demander*** ouvre une liste d'identifiants OTP disponibles à chaque lancement de session. 
 
-![KB4051.png](/img/fr/kb/KB4051.png) 
+![!!KB4051.png](/img/fr/kb/KB4051.png) 
 
 ### Hérité 
 
@@ -31,7 +31,7 @@ L'option ***Hérité*** remontera dans l'arborescence de navigation jusqu'à ce 
 ***Pour que l'héritage de la*** ***Source*** fonctionne, le paramètre ***Connexion - Mot de passe à usage unique - Source*** doit être défini sur ***Hérité*** pour chaque dossier parent jusqu'à ce qu'elle atteigne la configuration souhaitée. 
 {% endsnippet %}
  
-![KB4049.png](/img/fr/kb/KB4049.png) 
+![!!KB4049.png](/img/fr/kb/KB4049.png) 
 
 ### Les identifiants de la session en cours 
 
@@ -41,19 +41,19 @@ L'option ***Hérité*** remontera dans l'arborescence de navigation jusqu'à ce 
 Dans un environnement d'équipe, nous vous recommandons d'utiliser plutôt l'option <a href="#coffre">Lié (Coffre)</a> avec une entrée d'identifiant par ***Mot de passe à usage unique (OTP)*** . 
 {% endsnippet %}
  
-![KB4047.png](/img/fr/kb/KB4047.png) 
+![!!KB4047.png](/img/fr/kb/KB4047.png) 
 
 ### Lié (Coffre) <a name="coffre"></a>
 
 Lier votre entrée pour utiliser une entrée d'identifiant à ***Mot de passe à usage unique (OTP)*** spécifique existant dans le même coffre. Il s'agit de la méthode privilégiée.  
 
-![KB4050.png](/img/fr/kb/KB4050.png) 
+![!!KB4050.png](/img/fr/kb/KB4050.png) 
 
 ### Personnalisé 
 
 Choisir l'option ***Personnalisé*** pour enregistrer les identifiants OTP dans l'entrée elle-même.  
 
-![KB4048.png](/img/fr/kb/KB4048.png) 
+![!!KB4048.png](/img/fr/kb/KB4048.png) 
 
 ## Utilisation <a name="utilisation"></a>
 

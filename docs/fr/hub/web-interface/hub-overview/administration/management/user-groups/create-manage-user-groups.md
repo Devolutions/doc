@@ -10,10 +10,10 @@ La gestion des utilisateurs et des permissions peuvent être simplifiées avec l
 
 1. Aller dans ***Administration - Groupes d'utilisateurs*** . 
 1. Cliquer ***Ajouter*** .  
-![Hub4158.png](/img/fr/hub/Hub4158.png) 
+![!!Hub4158.png](/img/fr/hub/Hub4158.png) 
 1. Nommer le ***Groupe d'utilisateurs*** . 
 1. Sélectionner les ***Utilisateurs*** .  
-![Hub4159.png](/img/fr/hub/Hub4159.png) 
+![!!Hub4159.png](/img/fr/hub/Hub4159.png) 
 1. Cliquer ***Ajouter*** . 
 
 ### Gérer les groupes d'utilisateurs 

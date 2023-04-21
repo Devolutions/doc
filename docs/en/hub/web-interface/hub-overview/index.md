@@ -2,7 +2,7 @@
 title: Hub Overview
 ---
 Navigate and explore the menus through the different sections of {{ en.PHUB }} Business and manage your data.  
-![Hub4093.png](/img/en/hub/Hub4093.png) 
+![!!Hub4093.png](/img/en/hub/Hub4093.png) 
 
 <table>
 	<tr>

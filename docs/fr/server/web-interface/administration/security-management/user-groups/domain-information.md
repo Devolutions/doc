@@ -34,5 +34,5 @@ Identifiant de sécurité du groupe d'utilisateurs du domaine.
 ### Chercher sur le domaine 
 
 Affiche l'information détaillée du groupe d'utilisateurs de type domaine.  
-![ServerOp8052.png](/img/fr/server/ServerOp8052.png) 
+![!!ServerOp8052.png](/img/fr/server/ServerOp8052.png) 
 

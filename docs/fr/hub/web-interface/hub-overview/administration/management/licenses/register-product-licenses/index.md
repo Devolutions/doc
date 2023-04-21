@@ -8,6 +8,6 @@ Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions da
  
 1. Aller dans ***Administration - Licences*** . 
 1. Cliquer sur le bouton ***Ajouter*** .  
-![Hub4125.png](/img/fr/hub/Hub4125.png) 
+![!!Hub4125.png](/img/fr/hub/Hub4125.png) 
 1. Coller la licence et cliquer sur ***Ajouter*** .  
-![Hub4126.png](/img/fr/hub/Hub4126.png) 
+![!!Hub4126.png](/img/fr/hub/Hub4126.png) 

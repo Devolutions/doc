@@ -18,13 +18,13 @@ Here are the steps to follow:
 1. Install the previous working version of the DVLS Console.
 1. Create a new {{ en.DPS }} instance and connect it to the restored database.
    1. Use steps 3 to 6 on the following [page](/server/installation/create-server-instance/).  
-      ![KB4647.png](/img/en/kb/KB4647.png)
+      ![!!KB4647.png](/img/en/kb/KB4647.png)
       {type="a"}
 1. Select the DPS offline zip file and set the Installation Destination parameters.  
-   ![KB4648.png](/img/en/kb/KB4648.png)
+   ![!!KB4648.png](/img/en/kb/KB4648.png)
 1. Click on the install button to Import the Encryption Keys.  
-   ![KB4649.png](/img/en/kb/KB4649.png)  
-   ![KB4650.png](/img/en/kb/KB4650.png)  
-   ![KB4651.png](/img/en/kb/KB4651.png)  
-   ![KB4652.png](/img/en/kb/KB4652.png)  
+   ![!!KB4649.png](/img/en/kb/KB4649.png)  
+   ![!!KB4650.png](/img/en/kb/KB4650.png)  
+   ![!!KB4651.png](/img/en/kb/KB4651.png)  
+   ![!!KB4652.png](/img/en/kb/KB4652.png)  
 1. To finish the installation close the window.

@@ -13,7 +13,7 @@ Press ***Command + Shift + R*** on your keyboard
 ### Method 2
 
 Hold the ***Shift*** button on your keyboard and click on the refresh button in the ***Quick Access Toolbar***
-![KB2000.png](/img/en/kb/KB2000.png)
+![!!KB2000.png](/img/en/kb/KB2000.png)
 
 ### Method 3
 

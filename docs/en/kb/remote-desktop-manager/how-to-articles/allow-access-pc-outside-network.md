@@ -16,7 +16,7 @@ Specific steps for enabling port forwarding depend on the router you're using, s
 Before you map the port, you'll need the following:
 
 - PC internal IP address: Look in ***Settings - Network & Internet - Status - View your network properties*** Find the network configuration with an "Operational" status and then get the IPv4 address.  
-![KB4617.png](/img/en/kb/KB4617.png)  
+![!!KB4617.png](/img/en/kb/KB4617.png)  
 - Your public IP address (the router's IP). There are many ways to find this - you can search (in Bing or Google) for "my IP" or view the Wi-Fi network properties (for Windows 10).
 - Port number being mapped. In most cases this is 3389 - that's the default port used by Remote Desktop connections.
 - Admin access to your router.  

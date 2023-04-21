@@ -145,11 +145,11 @@ Use this option to clear the cached certificates. All certificates would need to
 
 ## Verify the Certification Authority (CA)
 1. Open the certificate, then verify by which Certification Authority the certificate has been ***issued by*** , in the ***General*** tab.  
-![KB4448.png](/img/en/kb/KB4448.png)
+![!!KB4448.png](/img/en/kb/KB4448.png)
 1. Verify that the Certification Authority is properly installed in the certificate store.  
-![KB4449.png](/img/en/kb/KB4449.png)
+![!!KB4449.png](/img/en/kb/KB4449.png)
 ## Certificate revocation check
 <a name="certificatecheck"></a>
 
 Ensure that the CRL (Certificate Revocation List) server is reachable as it is required to validate a certificate.  
-![KB4454.png](/img/en/kb/KB4454.png)
+![!!KB4454.png](/img/en/kb/KB4454.png)

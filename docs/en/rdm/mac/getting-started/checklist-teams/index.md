@@ -7,7 +7,7 @@ We have created a checklist to help you get started with {{ en.RDM }} for Mac wh
 	<tr>
 		<th>
 
-![RdmMac4019.png](/img/en/rdm/mac/RdmMac4019.png) 
+![!!RDMMac4019.png](/img/en/rdm/mac/RdmMac4019.png) 
 		</th>
 		<th>
 CHECKLIST FOR TEAMS 

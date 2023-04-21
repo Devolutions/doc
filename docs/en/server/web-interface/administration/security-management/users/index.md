@@ -46,7 +46,7 @@ Refresh users list.
 	</tr>
 </table>
 
-![ServerOp8004.png](/img/en/server/ServerOp8004.png) 
+![!!ServerOp8004.png](/img/en/server/ServerOp8004.png) 
 
 ### User Options 
 
@@ -86,7 +86,7 @@ Assign vaults to the user account.
 	</tr>
 	<tr>
 		<td>
-![ServerOp7016.png](/img/en/server/ServerOp7016.png) 
+![!!ServerOp7016.png](/img/en/server/ServerOp7016.png) 
 		</td>
 		<td>
 See user activity report. 

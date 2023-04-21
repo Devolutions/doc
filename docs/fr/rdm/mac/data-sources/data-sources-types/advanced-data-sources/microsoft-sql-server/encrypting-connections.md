@@ -10,7 +10,7 @@ Une fois qu'il a été correctement configuré, la seule modification à effectu
 ## Procédure 
 
 1. Créer ou modifier une source de données Microsoft SQL Server. Accéder à l'onglet ***Avancé*** et cliquer sur le bouton ***Paramètres avancés*** . 
-![RdmMac4033.png](/img/fr/rdm/mac/RdmMac4033.png) 
+![!!RDMMac4033.png](/img/fr/rdm/mac/RdmMac4033.png) 
 1. Définir la valeur du paramètre ***Encrypt*** sur true et cliquer sur ***OK*** pour valider. 
-![RdmMac4034.png](/img/fr/rdm/mac/RdmMac4034.png) 
+![!!RDMMac4034.png](/img/fr/rdm/mac/RdmMac4034.png) 
 

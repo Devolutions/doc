@@ -9,6 +9,6 @@ System.AccessViolationException: Attempted to read or write protected memory. Th
 Disable the RDP API hooking in the {{ en.RDM }} settings : 
 1. Go to ***File – Options – Types – Remote Desktop – API Hooking*** . 
 1. In the ***Enable API hooking*** drop-down list, select ***Disabled*** .  
-![kb2127.png](/img/en/kb/KB2127.png) 
+![!!KB2127.png](/img/en/kb/KB2127.png) 
 1. Restart {{ en.RDM }} to apply the changes. 
 

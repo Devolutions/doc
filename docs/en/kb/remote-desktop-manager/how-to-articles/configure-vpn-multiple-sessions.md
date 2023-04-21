@@ -13,7 +13,7 @@ Before following the steps below, in a folder, create a VPN entry and remote ses
 
 1. Right-click the folder entry and open its ***Properties***.
 1. From the left menu, under the ***Connection*** section, click on ***VPN/SSH/Gateway***.  
-![KB2063.png](/img/en/kb/KB2063.png)
+![!!KB2063.png](/img/en/kb/KB2063.png)
 1. Under the ***General*** section, in the ***Type*** drop-down list, click on ***Session***.
 1. In the ***Connect*** drop-down list, select how the VPN opens when you launch a remote session. We recommend choosing ***Connect if unable to ping/port scan*** on the folder. We will have to set each session entry to ***Inherited*** later.  
    | Option                               | Description |
@@ -42,7 +42,7 @@ Watch this [YouTube video](https://youtu.be/5jKREtc63ks) for a demonstration on 
 
 7. If you need to use specific credentials, in a team environment, you can define them in the ***Credentials (VPN/SSH/Gateway)***
 1. Click the ***Settings*** tab.  
-![KB2064.png](/img/en/kb/KB2064.png)
+![!!KB2064.png](/img/en/kb/KB2064.png)
 1. In ***Session*** , select the VPN entry you created.
 1. Click ***OK***
 
@@ -54,7 +54,7 @@ Watch this [YouTube video](https://youtu.be/5jKREtc63ks) for a demonstration on 
 1. Right-click on the selection, then click on ***Edit - Batch Edit - Edit Entries (General Settings)*** Alternatively, the same path can be followed in the ribbon under the ***Edit*** tab.
 1. From the left menu, under the ***Connection*** section, click on ***VPN/SSH/Gateway***.
 1. Check the ***Override VPN*** box.  
-![KB2065.png](/img/en/kb/KB2065.png)
+![!!KB2065.png](/img/en/kb/KB2065.png)
 1. In the ***Connect*** drop-down list, select ***Inherited***.
 1. Click ***OK***.
 
@@ -70,7 +70,7 @@ Follow the steps below to automate going offline when the VPN opens.
 1. From the left menu, under the ***Connection*** section, click on ***VPN/SSH/Gateway***.
 1. Go to the ***Advanced*** tab.
 1. In the ***Advanced Settings*** section, check the ***Go Offline on connection*** and ***Go online on disconnect after X sec*** options. In this last option, specify the number of seconds, then click ***OK***.  
-![KB2066.png](/img/en/kb/KB2066.png)  
+![!!KB2066.png](/img/en/kb/KB2066.png)  
 
 Situation 2 : The VPN is slow to connect.
 
@@ -84,4 +84,4 @@ Follow the steps below to change the time {{ en.RDM }} waits for the VPN to open
 The ***-1*** sec value is the default time (5 seconds). You can change the default time for all VPN entries in ***File - Options - Types - VPN - VPN default pause***
 {% endsnippet %}  
 
-![KB2067.png](/img/en/kb/KB2067.png)
+![!!KB2067.png](/img/en/kb/KB2067.png)

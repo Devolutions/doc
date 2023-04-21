@@ -3,7 +3,7 @@ title: Personnalisations des Logos
 ---
 Vous pouvez personnaliser les logos de l'interface Web {{ fr.DPS }} pour mieux servir vos clients. 
 L'intégration de votre marque est possible dans ***Administration – Paramètres Serveurs – Avancé*** .  
-![ServerOp4025.png](/img/fr/server/ServerOp4025.png)  
+![!!ServerOp4025.png](/img/fr/server/ServerOp4025.png)  
 
 Il est compatible avec les extensions de fichiers les plus populaires, telles que JPEG, GIF, PNG et TIFF. 
 
@@ -35,9 +35,9 @@ Ceci est pour l'image dans la barre d'outils avec une largeur maximale de 145 px
 </table>
 
 Voici un exemple de cette fonctionnalité avec des images chargées dans les paramètres d'administration.  
-![ServerOp4028.png](/img/fr/server/ServerOp4028.png) 
+![!!ServerOp4028.png](/img/fr/server/ServerOp4028.png) 
 Le résultat de la page de connexion {{ fr.DPS }}   :  
-![ServerOp4026.png](/img/fr/server/ServerOp4026.png) 
+![!!ServerOp4026.png](/img/fr/server/ServerOp4026.png) 
 Et pour le logo de la barre d'outils :  
-![ServerOp4027.png](/img/fr/server/ServerOp4027.png) 
+![!!ServerOp4027.png](/img/fr/server/ServerOp4027.png) 
 

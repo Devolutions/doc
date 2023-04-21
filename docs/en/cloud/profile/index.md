@@ -14,4 +14,4 @@ THIS CANNOT BE UNDONE!
 Once you have deleted an account, you will not be able to revert that action.  
 {% endsnippet %}
  
-![Cloud4040.png](/img/en/cloud/Cloud4040.png) 
+![!!Cloud4040.png](/img/en/cloud/Cloud4040.png) 

@@ -34,5 +34,5 @@ Identifiant de sécurité du compte de l'utilisateur du domaine.
 ### Chercher sur le domaine 
 
 Affiche l'information détaillée du compte de domaine.  
-![ServerOp8009.png](/img/fr/server/ServerOp8009.png) 
+![!!ServerOp8009.png](/img/fr/server/ServerOp8009.png) 
 

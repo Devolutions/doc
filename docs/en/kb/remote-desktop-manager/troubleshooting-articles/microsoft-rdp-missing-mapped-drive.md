@@ -7,7 +7,7 @@ This problem happens when you start {{ en.RDM }} with elevated privileges (Run a
 
 This issue is not caused by {{ en.RDM }} , you will need to apply a fix on all workstations from which you must launch {{ en.RDM }} with elevated privileges.  
 
-![KB4052.png](/img/en/kb/KB4052.png)
+![!!KB4052.png](/img/en/kb/KB4052.png)
 
 ## Solution
 ### Method 1

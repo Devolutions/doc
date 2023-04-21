@@ -11,7 +11,7 @@ However, since encrypting the web.config file uses ***RsaProtectedConfigurationP
 
 {% snippet icon.badgeCaution %}
 Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, and will also cause this prompt when enabling the ***Encypt web.config file*** option.  
-![KB4841.png](/img/en/kb/KB4841.png)
+![!!KB4841.png](/img/en/kb/KB4841.png)
 {% endsnippet %}
 
 {% snippet icon.shieldWarning %}
@@ -19,7 +19,7 @@ Granting access to the ***NetFrameworkConfigurationKey*** container could be a s
 {% endsnippet %}
 
 We recommend to use a dedicated account for the ***DevolutionsSchedulerService*** service, and set this account to run the service under.  
-![KB4842.png](/img/en/kb/KB4842.png)
+![!!KB4842.png](/img/en/kb/KB4842.png)
 
 Then run the following command from an elevated Command Prompt:
 
@@ -47,7 +47,7 @@ However, since encrypting the web.config file uses ***RsaProtectedConfigurationP
 
 {% snippet icon.badgeCaution %}
 Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, likely giving this error from Windows Services Console:  
-![KB4843.png](/img/en/kb/KB4843.png)
+![!!KB4843.png](/img/en/kb/KB4843.png)
 {% endsnippet %}
 
 The account set on the ***DevolutionsSchedulerService*** (referred to as the VaultScheduler account in Pre-Deployment Account Survey) will require permission to read the ***NetFrameworkConfigurationKey*** container.

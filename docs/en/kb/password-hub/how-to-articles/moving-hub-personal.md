@@ -11,11 +11,11 @@ If you would like to create a {{ en.PHUBP }} please follow this [topic](/hub/get
 ### Add {{ en.PHUBP }} in {{ en.RDM }} as a data source
 1. In {{ en.RDM }} , go to ***File - Data Sources*** and click on the plus sign to ***Add a new data source***
 1. Select the ***{{ en.PHUBP }}*** data source and click ***OK***  
-![KB4823.png](/img/en/kb/KB4823.png)
+![!!KB4823.png](/img/en/kb/KB4823.png)
 1. Fill in the fields in the ***General*** section and click ***OK*** when done.
     1. ***Name*** : Name of the data source.
     1. ***Username*** : Email address.  
-![KB4824.png](/img/en/kb/KB4824.png)
+![!!KB4824.png](/img/en/kb/KB4824.png)
 
 ### Export and Import your data source
 You can migrate your data in {{ en.RDM }} from multiple sources.  

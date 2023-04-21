@@ -24,7 +24,7 @@ Voici les deux méthodes disponibles pour installer les prérequis:
 1. Console de {{ fr.RDMS }} . 
     1. Ouvrir la [Console de {{ fr.RDMS }}](/fr/server/management/devolutions-server-console/) . 
     1. Sélectionner le menu Soutien et cliquer le bouton Diagnostic d'IIS .  
-![ServerOp8153.png](/img/fr/server/ServerOp8153.png) 
+![!!ServerOp8153.png](/img/fr/server/ServerOp8153.png) 
 
     1. Cliquer sur le bouton ***Installer les pré-requis*** pour exécuter le script PowerShell.  
 
@@ -32,7 +32,7 @@ Voici les deux méthodes disponibles pour installer les prérequis:
 Cette fenêtre apparaitra seulement si un prérequis est manquant lors d'une nouvelle installation ou d'une mise à jour. 
 {% endsnippet %}
  
-![ServerOp8154.png](/img/fr/server/ServerOp8154.png) 
+![!!ServerOp8154.png](/img/fr/server/ServerOp8154.png) 
 
 2. Ligne de commande PowerShell . 
     1. Exécuter Windows PowerShell avec des privilèges élevés. 
@@ -41,5 +41,5 @@ Cette fenêtre apparaitra seulement si un prérequis est manquant lors d'une nou
 
     1. Exécuter le script DVLS-Prerequisites.ps1. 
     1. Le script installera les rôles Web manquants et ces composants: le module de réécriture d'URL IIS, l'Application Request Routing Module IIS et le module IIS [APS.Net](http://aps.net/) Core (.Net 6.0).  
-![ServerOp4038.png](/img/fr/server/ServerOp4038.png) 
+![!!ServerOp4038.png](/img/fr/server/ServerOp4038.png) 
 

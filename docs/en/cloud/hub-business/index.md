@@ -6,4 +6,4 @@ order: 40
 
 Learn more and start your free [30-day trial](https://password.devolutions.net/) .  
 
-![Cloud4053.png](/img/en/cloud/Cloud4053.png) 
+![!!Cloud4053.png](/img/en/cloud/Cloud4053.png) 

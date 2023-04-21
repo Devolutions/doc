@@ -9,13 +9,13 @@ For this feature to work, it is mandatory to enable the [***Scheduler Service***
 ### Create a Scheduled Report 
 1. Go to ***Reports – Scheduled Reports*** . 
 2. Click on the ***Add*** button. 
-![ServerOp4077.png](/img/en/server/ServerOp4077.png) 
+![!!ServerOp4077.png](/img/en/server/ServerOp4077.png) 
 1. Select a report in the ***General*** drop down menu. 
 {% snippet icon.badgeInfo %} 
 Available options upon report selection will differ from one to another. 
 {% endsnippet %}
  
-![ServerOp8134.png](/img/en/server/ServerOp8134.png) 
+![!!ServerOp8134.png](/img/en/server/ServerOp8134.png) 
 <table>
 	<tr>
 		<th>
@@ -97,7 +97,7 @@ The report will not be sent to the recipients if the report contains no data.
 Available filter options upon report selection will differ from one to another. 
 {% endsnippet %}
  
-![ServerOp8058.png](/img/en/server/ServerOp8058.png) 
+![!!ServerOp8058.png](/img/en/server/ServerOp8058.png) 
 <table>
 	<tr>
 		<th>

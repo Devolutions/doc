@@ -45,7 +45,7 @@ Actualiser la liste des utilisateurs.
 	</tr>
 </table>
 
-![ServerOp8004.png](/img/fr/server/ServerOp8004.png) 
+![!!ServerOp8004.png](/img/fr/server/ServerOp8004.png) 
 
 ### Options utilisateur 
 

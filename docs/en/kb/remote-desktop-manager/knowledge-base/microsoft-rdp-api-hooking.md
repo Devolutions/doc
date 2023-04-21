@@ -27,7 +27,7 @@ Microsoft RDP API hooking should be enabled for Devolutions Gateway connections,
 
 Once Microsoft RDP API hooking is enabled, the ***Force using IP address for RDP connections*** option should be disabled. In cases where the Kerberos name mismatch issue occurred, Kerberos should now work just fine.  
 
-![KB4970.png](/img/en/kb/KB4970.png)
+![!!KB4970.png](/img/en/kb/KB4970.png)
 
 ### RDP Fresh Credentials GPO
 

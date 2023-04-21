@@ -11,9 +11,9 @@ If you have many entries that needs to be changed, follow these steps. A backup 
 
 1. Select every RDP session that you need to edit (an [Advanced search](https://helprdm.devolutions.net/advanced_search.htm) can be used).
 1. Right click on them and select ***Edit - Edit (Special Actions)***  
-![KB4628.png](/img/en/kb/KB4628.png)
+![!!KB4628.png](/img/en/kb/KB4628.png)
 1. Select ***Custom Powershell Command***  
-![KB4629.png](/img/en/kb/KB4629.png)
+![!!KB4629.png](/img/en/kb/KB4629.png)
 1. And in the next windows type the text below:  
 
 `$connection.PromptCredentials = $true;`  

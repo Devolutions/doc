@@ -17,4 +17,4 @@ Enable the redirection of your hard drive or the folder.
 1. Open the ***Properties*** of the RDP entry.
 1. Click ***Local Resources*** tab.
 1. Enable ***Hard drives*** and select if you want to redirect all disk drives, to the home folder or to a specific folder.  
-![KB4038.png](/img/en/kb/KB4038.png)
+![!!KB4038.png](/img/en/kb/KB4038.png)

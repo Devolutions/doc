@@ -3,8 +3,8 @@ title: Microsoft RDP Licensing Protocol Error
 ---
 When you connect to a remote workstation, you receive one of the errors below.  
 
-![KB4234.png](/img/en/kb/KB4234.png)  
-![KB4235.png](/img/en/kb/KB4235.png)
+![!!KB4234.png](/img/en/kb/KB4234.png)  
+![!!KB4235.png](/img/en/kb/KB4235.png)
 
 ### Solution 1
 

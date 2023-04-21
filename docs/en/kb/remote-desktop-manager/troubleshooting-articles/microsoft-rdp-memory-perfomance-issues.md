@@ -34,4 +34,4 @@ There are known security updates that have broken connectivity to a host, but th
 
 Sometimes the mapping of local devices will cause issues. Uncheck all settings in the ***Local Resources*** tab.  
 
-![KB4051.png](/img/en/kb/KB4051.png)
+![!!KB4051.png](/img/en/kb/KB4051.png)

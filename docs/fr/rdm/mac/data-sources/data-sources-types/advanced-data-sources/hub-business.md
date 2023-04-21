@@ -13,7 +13,7 @@ Pour commencer dès aujourd'hui votre essai gratuit de {{ fr.HUB }} Business, [c
 
 ### Général 
 
-![RdmMac4023.png](/img/fr/rdm/mac/RdmMac4023.png) 
+![!!RDMMac4023.png](/img/fr/rdm/mac/RdmMac4023.png) 
 
 <table>
 	<tr>
@@ -54,10 +54,10 @@ Copier dans ***Hôte*** votre URL {{ fr.HUB }} Business (ex: https<area>://windj
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.HUB }} Business .  
-![RdmMac4024.png](/img/fr/rdm/mac/RdmMac4024.png) 
+![!!RDMMac4024.png](/img/fr/rdm/mac/RdmMac4024.png) 
 
 ### Avancé 
 
 Définir l'intervalle d'actualisation automatique.  
-![RdmMac4025.png](/img/fr/rdm/mac/RdmMac4025.png) 
+![!!RDMMac4025.png](/img/fr/rdm/mac/RdmMac4025.png) 
 

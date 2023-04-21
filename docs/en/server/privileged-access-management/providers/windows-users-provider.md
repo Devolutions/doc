@@ -2,7 +2,7 @@
 title: Windows Users Provider
 ---
 The Windows Users Provider allows {{ en.RDMS }} to store the Windows account credentials to be used for Windows local accounts discovery or to achieve password rotation. See the [Create Windows users provider](/kb/devolutions-server/how-to-articles/create-windows-users-provider/) knowledge base article for more information on its configuration.  
-![ServerOp8089.png](/img/en/server/ServerOp8089.png) 
+![!!ServerOp8089.png](/img/en/server/ServerOp8089.png) 
 
 ### General 
 

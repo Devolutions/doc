@@ -7,4 +7,4 @@ title: Application Users
 
 * An access to {{ en.PHUB }} Business with a valid {{ en.DA }} . 
 * A user with enough permission to add ***Application Users*** .  
-![Hub4056.png](/img/en/hub/Hub4056.png) 
+![!!Hub4056.png](/img/en/hub/Hub4056.png) 

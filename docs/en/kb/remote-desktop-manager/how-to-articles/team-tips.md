@@ -22,7 +22,7 @@ But wait – before you go live, why not have us create a [Custom Installer](htt
 ## Version Management
 
 Here’s a familiar scenario: your team has been using {{ en.RDM }} for months or even years, and all is well. Then along comes a new version full of cool new features, and you think that everyone in your company should upgrade. This window below depicts the different options at your disposal to control client versions.  
-![KB4598.png](/img/en/kb/KB4598.png)  
+![!!KB4598.png](/img/en/kb/KB4598.png)  
 
 We’ve made this extremely easy. Simply open Administration ***–*** Data Source Settings (System Settings) ***–*** Version Management Below, a description of some of the settings;  
 
@@ -38,7 +38,7 @@ The general tab of the Administration ***–*** Data Source Settings (System Set
 
 A great team feature here is the System Message , which allows an administrator to inform users of upcoming system downtime, policy change or anything else. Each user will get the message when they perform the next action (open, edit, refresh…) of the data source. Use it to display company confidentially clauses or, if you wish, create chaos with a message like the one below. A little bit of chaos is good for the soul.  
 
-![KB4599.png](/img/en/kb/KB4599.png)
+![!!KB4599.png](/img/en/kb/KB4599.png)
 
 ## {{ en.DPS }}
 

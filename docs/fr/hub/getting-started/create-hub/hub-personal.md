@@ -8,9 +8,9 @@ title: Hub Personal
 1. Pour créer votre {{ fr.PHUB }} Personal, accéder à votre [{{ fr.CUSTP }}](https://portal.devolutions.com/) {{ fr.CUSTP }} de votre {{ fr.DA }} . 
 1. Cliquer sur ***{{ fr.PHUB }}*** ***Personal*** dans le menu de gauche. 
 1. Cliquer ***Créer votre Hub Personal*** .  
-![Hub4050.png](/img/fr/hub/Hub4050.png) 
+![!!Hub4050.png](/img/fr/hub/Hub4050.png) 
 1. Télécharger votre ***Kit d 'urgence*** .  
-![Hub4144.png](/img/fr/hub/Hub4144.png) 
+![!!Hub4144.png](/img/fr/hub/Hub4144.png) 
 {% snippet icon.badgeCaution %} 
 Le ***Kit d 'urgence*** contient votre clé d 'urgence qui sera requise en cas de perte ou de réinitialisation de votre mot de passe {{ fr.DA }} . N 'oubliez pas de le conserver en lieu sûr . 
 {% endsnippet %}

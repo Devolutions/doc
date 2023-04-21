@@ -9,7 +9,7 @@ Please consult our [website](https://password.devolutions.net/personal) for more
 
 ### General 
 
-![RdmMac4023.png](/img/en/rdm/mac/RdmMac4023.png) 
+![!!RDMMac4023.png](/img/en/rdm/mac/RdmMac4023.png) 
 
 <table>
 	<tr>
@@ -42,10 +42,10 @@ Your [Devolutions Account](https://portal.devolutions.com/) Devolutions Account 
 ### VPN 
 
 Open a ***VPN*** to access your data prior to connecting to your {{ en.HUB }} .  
-![RdmMac4024.png](/img/en/rdm/mac/RdmMac4024.png) 
+![!!RDMMac4024.png](/img/en/rdm/mac/RdmMac4024.png) 
 
 ### Advanced 
 
 This is the ***Server*** address.  
-![RdmMac4025.png](/img/en/rdm/mac/RdmMac4025.png) 
+![!!RDMMac4025.png](/img/en/rdm/mac/RdmMac4025.png) 
 

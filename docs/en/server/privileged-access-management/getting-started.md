@@ -11,7 +11,7 @@ First, you will need to be logged as an administrator in your {{ en.DPS }} .
 1. Add the Privileged Access Management license to make the Privileged Access side-panel appear on the left.  
 ![Enabling PAM](/img/en/server/ServerUs6009.png) 
 1. From Administration - Privileged Access , configure the default settings for the [checkout system](/server/privileged-access-management/checkout-process/) , [credentials brokering](/server/privileged-access-management/view-sensitive-data-account-brokering/) , [sensitive information access](/server/privileged-access-management/view-sensitive-data-account-brokering/) , default checkout times and synchronizations. The ***Custom*** setting allows user groups based access control.  
-![ServerOp8087.png](/img/en/server/ServerOp8087.png) 
+![!!ServerOp8087.png](/img/en/server/ServerOp8087.png) 
 ![ServerUs6011.png](/img/en/server/ServerUs6011.png) 
 1. Next, head to ***Administration – System Permissions – Modules*** . 
 1. Configure the accesses to the PAM system for the users/admins and manage privileged accounts rights on who can edit the privileged entries. Then, click ***Save*** .  

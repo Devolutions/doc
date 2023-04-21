@@ -8,9 +8,9 @@ When you finish the installation of {{ en.LAUNCHER }} , you are prompted to choo
 {% endsnippet %}
  
 1. Choose ***{{ en.HUB }}*** .  
-![Hub4018.png](/img/en/hub/Hub4018.png) 
+![!!Hub4018.png](/img/en/hub/Hub4018.png) 
 1. Enter your Devolutions Account ***Username*** and follow the authentication process.  
-![Hub4019.png](/img/en/hub/Hub4019.png) 
+![!!Hub4019.png](/img/en/hub/Hub4019.png) 
 1. Next to the ***Host*** field click on the 3 dots to select your {{ en.HUB }} Business data source and click ***OK*** to save.  
 
 You can close the ***Data Sources*** window, you are now connected to your {{ en.HUB }} Business with Launcher.  

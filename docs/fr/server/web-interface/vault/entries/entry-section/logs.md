@@ -3,7 +3,7 @@ title: Journaux
 ---
 Consulter les ***Journaux*** et ***Insérer des commentaires d'enregistrements*** spécifiques aux entrées concernant l'interaction avec l'utilisateur. Pour consulter les informations Générales, Détails et Commentaires d'un journal spécifique, cliquer sur le bouton ***Entrée du journal*** et cliquer sur le bouton ***Exporter*** pour générer un fichier CSV.  
 
-![ServerOp4097.png](/img/fr/server/ServerOp4097.png)  
+![!!ServerOp4097.png](/img/fr/server/ServerOp4097.png)  
 
 ### Insérer un commentaire d'enregistrement 
 
@@ -13,7 +13,7 @@ Les ***Commentaires d'enregistrement*** pour les entrées dans l'interface web {
  
 1. Cliquer sur ***Journaux*** dans une entrée. 
 1. Cliquer sur le bouton ***Insérer un commentaire d'enregistrement*** .  
-![ServerOp4098.png](/img/fr/server/ServerOp4098.png) 
+![!!ServerOp4098.png](/img/fr/server/ServerOp4098.png) 
 1. Le ***Nom*** du journal ne peut pas être modifié, il s'agit par défaut du ***Nom*** de l'entrée. 
 1. Facultatif : Ajouter un numéro de ***Ticket*** . 
 1. Facultatif : Pour sélectionner une ***Date de fin*** , cocher la case ***Fin*** et sélectionner une date de fin pour le journal. 
@@ -23,6 +23,6 @@ Seul le texte du ***Message*** sera exporté et affiché en mode aperçu pour le
 {% endsnippet %}
  
 7. Facultatif : Ajouter des informations plus détaillées sur le journal dans la zone de texte ***Notes*** .  
-![ServerOp4099.png](/img/fr/server/ServerOp4099.png) 
+![!!ServerOp4099.png](/img/fr/server/ServerOp4099.png) 
 1. Cliquer ***OK*** . 
 

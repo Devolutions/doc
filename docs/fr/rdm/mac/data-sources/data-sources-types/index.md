@@ -183,7 +183,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![hub-personal-32x32.png](/img/common/hub-personal-32x32.png) 
+![!!Hub-personal-32x32.png](/img/common/hub-personal-32x32.png) 
 		</td>
 		<td>
 {{ fr.HUB }} Personal 

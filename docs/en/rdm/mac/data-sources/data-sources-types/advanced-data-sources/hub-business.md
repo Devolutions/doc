@@ -12,7 +12,7 @@ To start your free {{ en.HUB }} Business trial today click [here](https://devolu
 
 ### General 
 
-![RdmMac4020.png](/img/en/rdm/mac/RdmMac4020.png) 
+![!!RDMMac4020.png](/img/en/rdm/mac/RdmMac4020.png) 
 
 <table>
 	<tr>
@@ -53,10 +53,10 @@ Copy in the ***Host*** your {{ en.HUB }} Business URL (ex: https<area>://windjam
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.HUB }} .  
-![RdmMac4021.png](/img/en/rdm/mac/RdmMac4021.png) 
+![!!RDMMac4021.png](/img/en/rdm/mac/RdmMac4021.png) 
 
 ### Advanced 
 
 Set the interval for the automatic refresh.  
-![RdmMac4022.png](/img/en/rdm/mac/RdmMac4022.png) 
+![!!RDMMac4022.png](/img/en/rdm/mac/RdmMac4022.png) 
 

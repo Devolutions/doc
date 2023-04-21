@@ -13,11 +13,11 @@ Only available on Windows.
 1. Launch the application. 
 1. Log in to your {{ en.DA }} . 
 1. Select the ***{{ en.PHUB }}*** ***Business***    ***Host*** and click ***Log In*** .  
-![Hub4109.png](/img/en/hub/Hub4109.png) 
+![!!Hub4109.png](/img/en/hub/Hub4109.png) 
 1. Select the ***Import Type*** file.  
-![Hub4108.png](/img/en/hub/Hub4108.png) 
+![!!Hub4108.png](/img/en/hub/Hub4108.png) 
 1. Click the 3 dots to select the ***Source*** .  
-![Hub4110.png](/img/en/hub/Hub4110.png) 
+![!!Hub4110.png](/img/en/hub/Hub4110.png) 
 {% snippet icon.badgeInfo %} 
 Each ***Import Type*** has a different ***Source*** importing setup. Please follow the steps in your {{ en.PHUB }} Importer. 
 {% endsnippet %}

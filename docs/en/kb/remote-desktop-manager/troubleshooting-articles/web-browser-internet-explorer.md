@@ -7,14 +7,14 @@ An error has occurred in the script on this page.
 When you launch a ***Website*** in Internet Explorer directly (external mode), the script errors are handled by the browser, so they are not displayed.  
 
 In embedded mode, you need to enable the ***Hide script error*** in the properties of your session.  
-![KB4103.png](/img/en/kb/KB4103.png)
+![!!KB4103.png](/img/en/kb/KB4103.png)
 ### Problem 2
 Browser extension does not appear in the toolbar but it is installed.
 ### Solution 2
 This issue occurs when a specific option is unchecked for IE in ***Tools - Internet Options - Advanced***  
 
 The option is called ***Enable third-party browser extensions*** After enabling this option, IE must be restarted.  
-![KB4104.png](/img/en/kb/KB4104.png)
+![!!KB4104.png](/img/en/kb/KB4104.png)
 ### Problem 3
 Embedded html content is not rendered with the latest Internet Explorer version.
 ### Solution 3

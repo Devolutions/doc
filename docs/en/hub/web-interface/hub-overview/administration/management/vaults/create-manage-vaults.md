@@ -11,10 +11,10 @@ keywords:
 
 1. Go to ***Administration – Vaults*** . 
 1. Click on the ***Add*** icon at the top right of the screen.  
-![Hub4098.png](/img/en/hub/Hub4098.png) 
+![!!Hub4098.png](/img/en/hub/Hub4098.png) 
 1. ***Name*** the vault. 
     1. Optional: Write a short ***Description*** for the purpose of this vault.  
-    ![Hub4099.png](/img/en/hub/Hub4099.png) 
+    ![!!Hub4099.png](/img/en/hub/Hub4099.png) 
 1. Click ***Add*** to save. 
 
 ### Add Permissions to a vault 
@@ -26,7 +26,7 @@ keywords:
 Click the ***View Roles Definition*** button to choose from the list. You can also visit our [Roles and Permissions](/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/) topic. 
 {% endsnippet %}
  
-![Hub4035.png](/img/en/hub/Hub4035.png) 
+![!!Hub4035.png](/img/en/hub/Hub4035.png) 
 
 4. Click ***Update*** to save. 
 
@@ -34,6 +34,6 @@ Click the ***View Roles Definition*** button to choose from the list. You can al
 
 1. Go to ***Administration – Vaults*** . 
 1. Click the ***Edit*** pencil icon next to the vault. 
-![Hub4100.png](/img/en/hub/Hub4100.png) 
+![!!Hub4100.png](/img/en/hub/Hub4100.png) 
 1. Click ***Update*** to save. 
 

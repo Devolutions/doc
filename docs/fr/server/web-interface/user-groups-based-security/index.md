@@ -44,7 +44,7 @@ Pour créer des utilisateurs, accéder à ***Administration – Utilisateurs*** 
 
 Un utilisateur peut être affecté à plusieurs groupes d'utilisateurs à la fois en cochant la case ***Est membre*** des groupes respectifs dans la section ***Groupe d'utilisateurs*** de la ***Gestion des utilisateurs*** . Dans le cadre de l'intégration d'Active Directory, il n'est pas nécessaire d'attribuer des utilisateurs à ces groupes car il est automatiquement géré par {{ fr.RDMS }} . 
 
-![ServerOp4015.png](/img/fr/server/ServerOp4015.png) 
+![!!ServerOp4015.png](/img/fr/server/ServerOp4015.png) 
 
 ### Administrateur 
 

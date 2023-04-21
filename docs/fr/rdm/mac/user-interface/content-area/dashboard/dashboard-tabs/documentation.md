@@ -13,5 +13,5 @@ La fonctionnalité d'utilisation de la ***Documentation*** en mode hors ligne es
 Activer ***Synchroniser le document en mode hors ligne*** dans les ***Paramètres de sécurité*** . Cette propriété est définie pour être héritée par défaut. 
 {% endsnippet %}
  
-![RdmMac4042.png](/img/fr/rdm/mac/RdmMac4042.png) 
+![!!RDMMac4042.png](/img/fr/rdm/mac/RdmMac4042.png) 
 

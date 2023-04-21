@@ -21,7 +21,7 @@ The ***Credentials*** field is used to specify which credential will be retrieve
 
 The option ***Always prompt with list*** allows users to select the credential each time the entry is used, rather than determining it.  
 
-![KB4960.png](/img/en/kb/KB4960.png)
+![!!KB4960.png](/img/en/kb/KB4960.png)
 
 ### Procedure
 

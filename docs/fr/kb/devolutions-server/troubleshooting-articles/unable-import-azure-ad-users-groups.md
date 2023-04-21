@@ -8,11 +8,11 @@ Si vous venez d'activer l'option d'Authentification Microsoft, le chargement du 
  
 ### Solution 
 1. Sur la console {{ fr.DPS }} , aller dans l'onglet ***Compagnons*** et arrêter le ***Service de planification*** . 
-![KB4052.png](/img/fr/kb/KB4052.png) 
+![!!KB4052.png](/img/fr/kb/KB4052.png) 
 1. Sur l'interface web {{ fr.DPS }} , aller dans ***Administration - Paramètres Serveur - Journalisation*** et activer l'option ***Log de débogage*** .  
-![KB4053.png](/img/fr/kb/KB4053.png) 
+![!!KB4053.png](/img/fr/kb/KB4053.png) 
 1. Aller dans ***Administration - Réinitialiser le cache du serveur*** et réinitialiser le cache d' ***Authentification de Microsoft*** .  
-![KB4054.png](/img/fr/kb/KB4054.png) 
+![!!KB4054.png](/img/fr/kb/KB4054.png) 
 1. Dans ***Rapports - Journaux de la source de données*** , surveiller les journaux jusqu'à ce que vous obteniez l'entrée de journal de fin de mise à jour du cache d'Azure. 
 {% snippet icon.badgeInfo %} 
 Le processus peut prendre un certain temps en fonction du nombre de groupes, d'utilisateurs et de leurs relations dans Azure AD. 
@@ -20,8 +20,8 @@ Le processus peut prendre un certain temps en fonction du nombre de groupes, d'u
  
 5. Une fois terminé, essayez d'importer un utilisateur ou un groupe. 
 1. En cas de succès, adapter le taux de réactualisation dans ***Administration - Paramètres Serveur - Authentification - Authentification Microsoft - Cache des utilisateurs et des groupes de l'authentification Microsoft*** afin de laisser suffisamment de temps pour rafraîchir complètement le cache de la AAD.  
-![KB4055.png](/img/fr/kb/KB4055.png) 
+![!!KB4055.png](/img/fr/kb/KB4055.png) 
 1. De retour dans la console {{ fr.DPS }} , aller dans les ***Compagnons*** pour démarrer le ***Service de planification*** .  
-![KB4056.png](/img/fr/kb/KB4056.png) 
+![!!KB4056.png](/img/fr/kb/KB4056.png) 
 1. Sur l'interface web {{ fr.DPS }} , aller dans ***Administration - Paramètres Serveur - Journalisation*** et désactiver l'option ***Log de débogage*** . 
 

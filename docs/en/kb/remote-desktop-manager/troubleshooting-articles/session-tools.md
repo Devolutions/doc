@@ -2,10 +2,10 @@
 title: Session Tools
 ---
 When you attempt to use ***Computer Management*** , you receive the error below:  
-![KB4083.png](/img/en/kb/KB4083.png)
+![!!KB4083.png](/img/en/kb/KB4083.png)
 ### Solution
 To get this working, you need to check this option in the ***Management Tools*** tab of the RDP session.  
-![KB4084.png](/img/en/kb/KB4084.png)  
+![!!KB4084.png](/img/en/kb/KB4084.png)  
 
 If this doesn't solve your issue, it is likely that your session has ***User Specific Settings*** enabled.  
 

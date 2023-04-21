@@ -21,7 +21,7 @@ This most often occurs on systems that use a DPI setting of more than 100%. To d
 1. Select Properties.
 1. Go to the Compatibility tab.
 1. Check Disable display scaling on high DPI settings.  
-![KB4072.png](/img/en/kb/KB4072.png)
+![!!KB4072.png](/img/en/kb/KB4072.png)
 ### Problem 3
 
 I have multiple sessions to the same computer with different credentials, but it always uses the last one I entered.
@@ -38,7 +38,7 @@ The windows shortcuts are being performed in the session but always on my comput
 
 You must configure the ***Keyboard*** setting in the ***Local Resources*** tab of the session settings. You can select ***On the remote computer*** or In ***full screen only***  
 
-![KB4073.png](/img/en/kb/KB4073.png)
+![!!KB4073.png](/img/en/kb/KB4073.png)
 
 ### Problem 5
 
@@ -73,8 +73,8 @@ Log on username on windows server 2012 is sent incorrectly
 
 When you try to connect to a Windows Server 2012, you see the following result. There are several spaces that shouldn't be there.  
 
-![KB4074.png](/img/en/kb/KB4074.png)  
+![!!KB4074.png](/img/en/kb/KB4074.png)  
 
 To fix this issue, go in ***Properties – General – Advanced*** and change the option ***Enable CredSSP support*** to ***True***  
 
-![KB4075.png](/img/en/kb/KB4075.png)
+![!!KB4075.png](/img/en/kb/KB4075.png)

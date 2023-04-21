@@ -2,7 +2,7 @@
 title: Unable to Install or Upgrade, Cabinet File is Corrupt
 ---
 When you install or upgrade {{ en.RDM }} , you receive this error message below;  
-![KB4087.png](/img/en/kb/KB4087.png)
+![!!KB4087.png](/img/en/kb/KB4087.png)
 ### Solution
 You have to deploy the *.zip file of {{ en.RDM }} in {{ en.RDM }} 's installation folder.  
 

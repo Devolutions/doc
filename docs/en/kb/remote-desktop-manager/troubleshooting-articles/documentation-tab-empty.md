@@ -2,7 +2,7 @@
 title: Documentation Tab is Empty
 ---
 The ***Documentation*** tab, in an entry, is empty although you have ***Reset the layout*** in the ***Window*** tab.  
-![KB4705.png](/img/en/kb/KB4705.png)
+![!!KB4705.png](/img/en/kb/KB4705.png)
 ### Solution
 First validate that you are allowed to ***View documentation*** in ***Administration - Vault Settings - Permissions - Documentation - View documentation***.  
 

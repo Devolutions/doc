@@ -3,7 +3,7 @@ title: Domain Information
 ---
 Provides the user's domain information.  
 
-![ServerOp8061.png](/img/en/server/ServerOp8061.png)  
+![!!ServerOp8061.png](/img/en/server/ServerOp8061.png)  
 
 <table>
 	<tr>

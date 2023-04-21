@@ -10,4 +10,4 @@ To reduce the number of inquiries from your users, we recommend that you inform 
 These settings can be configured in ***Administration – Users*** when [creating and inviting a user](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/) or after the fact by editing the user. This only affects the user for whom the settings have been changed.  
 
 Access to companion tools can be configured separately for {{ en.DWL }} and Devolutions Workspace. The settings are enabled by default.  
-![Hub4105.png](/img/en/hub/Hub4105.png) 
+![!!Hub4105.png](/img/en/hub/Hub4105.png) 

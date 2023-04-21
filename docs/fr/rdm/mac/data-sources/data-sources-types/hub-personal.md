@@ -9,7 +9,7 @@ Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/pers
 
 ### Général 
 
-![RdmMac4026.png](/img/fr/rdm/mac/RdmMac4026.png) 
+![!!RDMMac4026.png](/img/fr/rdm/mac/RdmMac4026.png) 
 
 <table>
 	<tr>
@@ -42,10 +42,10 @@ L'adresse courriel de votre [Compte Devolutions](https://portal.devolutions.com/
 ### VPN 
 
 Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à votre {{ fr.HUB }} Personal .  
-![RdmMac4027.png](/img/fr/rdm/mac/RdmMac4027.png) 
+![!!RDMMac4027.png](/img/fr/rdm/mac/RdmMac4027.png) 
 
 ### Avancée 
 
 Il s'agit de l'adresse du serveur.  
-![RdmMac4028.png](/img/fr/rdm/mac/RdmMac4028.png) 
+![!!RDMMac4028.png](/img/fr/rdm/mac/RdmMac4028.png) 
 

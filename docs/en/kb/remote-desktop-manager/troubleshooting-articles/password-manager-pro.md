@@ -3,9 +3,9 @@ title: Password Manager Pro
 ---
 ### SYSTEM.NET.WEBEXCEPTION: THE SERVER COMMITTED A PROTOCOL VIOLATION. SECTION=RESPONSESTATUSLINE
 During the configuration of your Password Manager Pro credential entry, make sure that the URL of your server contains https:// and not http://. You absolutely need an https:// at the beginning of the address to communicate properly with the server.  
-![KB4113.png](/img/en/kb/KB4113.png)
+![!!KB4113.png](/img/en/kb/KB4113.png)
 ### WHEN YOU TRY TO CONNECT ON A REMOTE COMPUTER OR GET THE CREDENTIAL LIST, A WINDOW APPEARs WITH AN EMPTY TOKEN FIELD AND THE USERNAME AND WORKSTATION FIELD GREYED OUT.  
-![KB4114.png](/img/en/kb/KB4114.png)  
+![!!KB4114.png](/img/en/kb/KB4114.png)  
 The Host Name configured in your API user in Password Manager Pro is not the same that you have configured in {{ en.RDM }} in ***File – My Account Settings – Password Manager Pro*** Please consult the [How to Configure Password Manager Pro in Remote Desktop Manager](/kb/remote-desktop-manager/how-to-articles/rdm-mac-configure-password-manager-pro/) topic for more information on the configuration.
 ### SYSTEM.NET.WEBEXCEPTION: THE REQUEST WAS ABORTED: COULD NOT CREATE SSL/TLS SECURE CHANNEL.
 Password Manager Pro can be configured to use SSLv3, TLSv1.0, TLSv1.1 and TLSv1.2. If you have configured your Password Manager Pro server to use TLSv1.2 only, you will encounter this error message. You need to configure your Password Manager Pro to accept TLSv1.0, TLSv1.1 and TLSv1.2.

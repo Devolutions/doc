@@ -7,7 +7,7 @@ La section ***Accès Privilégiés*** fournit aux administrateurs un rapport sur
 Ce rapport est uniquement disponible pour les utilisateurs de la solution Gestion des accès privilégiés (PAM). 
 {% endsnippet %}
  
-![ServerOp4076.png](/img/fr/server/ServerOp4076.png) 
+![!!ServerOp4076.png](/img/fr/server/ServerOp4076.png) 
 
 ### Rotation des mots de passe 
 
@@ -15,5 +15,5 @@ Le rapport ***Rotation des mots de passe*** affiche les utilisateurs de ***Compt
 
 Vous pouvez affiner votre recherche à l'aide des filtres et cliquer sur le bouton ***Exporter*** pour créer un rapport CSV à des fins d'audit.  
 
-![ServerOp4077.png](/img/fr/server/ServerOp4077.png) 
+![!!ServerOp4077.png](/img/fr/server/ServerOp4077.png) 
 

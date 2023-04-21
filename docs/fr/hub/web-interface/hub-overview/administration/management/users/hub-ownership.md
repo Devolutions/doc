@@ -11,5 +11,5 @@ Pour modifier le propriétaire, cliquer sur l 'icône ***Définir comme proprié
 Vous ne pouvez avoir qu 'un seul propriétaire à la fois et seul un administrateur peut être propriétaire. 
 {% endsnippet %}
  
-![Hub4134.png](/img/fr/hub/Hub4134.png) 
+![!!Hub4134.png](/img/fr/hub/Hub4134.png) 
 

@@ -8,7 +8,7 @@ The list of ***Security type*** is:
 * ***Default*** : Obfuscate the data  
 * ***Shared passphrase*** : Encrypts the data using a password stored on each {{ en.RDM }} instances.  
 * ***Certificate*** : Encrypts the data using the private key of a certificate installed on each workstation.  
-![KB4972.png](/img/en/kb/KB4972.png)  
+![!!KB4972.png](/img/en/kb/KB4972.png)  
 
 The best practice is to use a ***Certificate*** , once installed in the Windows Certificate store, it’s harder to retrieve the key and the key is not bound to a passphrase, which may be reused somewhere or simply be weak.  
 

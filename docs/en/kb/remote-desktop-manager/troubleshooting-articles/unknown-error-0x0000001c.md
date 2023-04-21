@@ -8,8 +8,8 @@ The workaround is to increase the default ***TCP acknowledgement timeout*** to 3
 
 * This setting can be changed globally for all RDP entries in ***File - Preferences - Types - RDP - Connection***  
 
-![KB5018.png](/img/en/kb/KB5018.png)  
+![!!KB5018.png](/img/en/kb/KB5018.png)  
 
 * Or changed locally, in the entries properties ***Common*** section, by going in ***RDP (Microsoft Remote Desktop) - Advanced - Connection***    
 
-![KB5019.png](/img/en/kb/KB5019.png)
+![!!KB5019.png](/img/en/kb/KB5019.png)

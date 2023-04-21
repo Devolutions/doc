@@ -17,6 +17,6 @@ We've made a fix, in version 2021.1.18 and higher, that prevented some webcams t
    - ***Enabled*** : Allow RDP redirection of other supported RemoteFX USB devices from this computer.
    - ***Disabled*** : Do not allow supported Plug and Play device redirection.
 1. For embedded sessions, all you'll need to do is enable the option ***Other supported Plug and Play (PnP) devices*** in the ***Properties - General - Local Resources - Local Devices and Resources*** section of the RDP entry.  
-![KB4749.png](/img/en/kb/KB4749.png)
+![!!KB4749.png](/img/en/kb/KB4749.png)
 1. For external sessions, there will be a separate option to redirect cameras. You'll also need to make sure WMI requests are enabled on your local computer.  
-![KB4750.png](/img/en/kb/KB4750.png)
+![!!KB4750.png](/img/en/kb/KB4750.png)

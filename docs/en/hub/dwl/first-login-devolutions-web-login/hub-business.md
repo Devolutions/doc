@@ -17,7 +17,7 @@ A {{ en.PHUB }} Business access is required to continue.
 2. Choose ***{{ en.PHUB }} Business*** in the list, then click ***Save*** .  
 ![First Login](/img/en/hub/Dwl4021.png) 
 1. Enter your {{ en.PHUB }} Business server address, then click ***Save*** .  
-![Hub Business Server Address](/img/en/hub/Dwl4026.png) 
+![!!Hub Business Server Address](/img/en/hub/Dwl4026.png) 
 1. ***Log In*** to your {{ en.DA }} .  
 ![Connecting Hub Business to the Devolutions Account](/img/en/hub/Dwl4022.png) 
 1. Enter your {{ en.DA }} credentials to continue.  

@@ -7,4 +7,4 @@ Les ***Utilisateurs d 'application*** sont créés pour être utilisés pour se 
 
 * Un accès à {{ fr.PHUB }} Business avec un {{ fr.DA }} valide. 
 * Un utilisateur disposant de permissions suffisantes pour ajouter des ***Utilisateurs d 'application*** .  
-![Hub4051.png](/img/fr/hub/Hub4051.png) 
+![!!Hub4051.png](/img/fr/hub/Hub4051.png) 

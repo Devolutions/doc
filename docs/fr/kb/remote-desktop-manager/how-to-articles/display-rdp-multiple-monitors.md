@@ -15,12 +15,12 @@ L’affichage sur plusieurs écrans n’est disponible que pour le mode d’affi
 {% endsnippet %}
  
 2. Dans la section ***Affichage*** du bureau à distance, sélectionner l’option ***Étendre sur plusieurs écrans si possible*** .  
-![KB4041.png](/img/fr/kb/KB4041.png) 
+![!!KB4041.png](/img/fr/kb/KB4041.png) 
 ### Utiliser plusieurs écrans pour la session à distance 
 Les identifiants des moniteurs ne sont pas nécessairement les mêmes pour RDP et pour Windows. Les identifiants des moniteurs RDP vont commencer par 0 et non par 1.  
 
 Veuillez utiliser la commande mstsc /l pour connaître vos paramètres d’écrans RDP.  
-![KB4042.png](/img/fr/kb/KB4042.png)  
+![!!KB4042.png](/img/fr/kb/KB4042.png)  
 Une fois l’option Utiliser plusieurs écrans pour la session à distance activée, vous pourrez choisir entre Tout et Sélectionné .  
 
 Si vous choisissez ***Sélectionné*** dans le menu déroulant, vous pourrez alors utiliser une espace ou une virgule pour identifier les écrans. L’hôte distant sera affiché sur le moniteur que vous saisissez dans ce champ. 
@@ -28,10 +28,10 @@ Si vous choisissez ***Sélectionné*** dans le menu déroulant, vous pourrez alo
 L’affichage de l’hôte distant s’affichera et s’étendra qu’à partir du premier écran local sélectionné. 
 {% endsnippet %}
   
-![KB4043.png](/img/fr/kb/KB4043.png)  
+![!!KB4043.png](/img/fr/kb/KB4043.png)  
 ### Sélection de bureau et de moniteur local 
 Dans le premier menu déroulant du mode d’affichage ***Externe*** , vous pouvez choisir sur quel moniteur local vous souhaitez afficher la session.  
-![KB4044.png](/img/fr/kb/KB4044.png)  
+![!!KB4044.png](/img/fr/kb/KB4044.png)  
 Le deuxième menu déroulant devrait toujours être réglé sur ***Bureau actuel*** , à moins que vous ne souhaitiez afficher sur un bureau virtuel local.  
-![KB4045.png](/img/fr/kb/KB4045.png) 
+![!!KB4045.png](/img/fr/kb/KB4045.png) 
 

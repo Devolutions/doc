@@ -10,4 +10,4 @@ Dans la section ***Licences*** , vous pourrez enregistrer votre licence {{ fr.PH
 Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions dans la section ***Permissions du système - Système - Gérer la licence*** auront accès à l 'enregistrement d 'une licence dans {{ fr.PHUB }} Business. 
 {% endsnippet %}
  
-![Hub4124.png](/img/fr/hub/Hub4124.png) 
+![!!Hub4124.png](/img/fr/hub/Hub4124.png) 

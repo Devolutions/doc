@@ -9,6 +9,6 @@ This issue can be caused by a corruption of the local cache. There are several m
 Press CTRL + F5 on your keyboard.
 ### Method 2
 Hold the CTRL key on your keyboard and click on the refresh button in the Quick Access Toolbar.  
-![KB4071.png](/img/en/kb/KB4071.png)
+![!!KB4071.png](/img/en/kb/KB4071.png)
 ### Method 3
 You can manage the local cache by doing a ***Vaccum*** , a ***Repair*** or a ***Delete***

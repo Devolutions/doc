@@ -11,5 +11,5 @@ To change the owner, click the ***Set as owner*** icon next to the selected admi
 You can only have one owner at a time and only administrators can be owners. 
 {% endsnippet %}
  
-![Hub4105.png](/img/en/hub/Hub4105.png) 
+![!!Hub4105.png](/img/en/hub/Hub4105.png) 
 

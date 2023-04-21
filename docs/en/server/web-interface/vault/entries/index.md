@@ -6,4 +6,4 @@ Every item you see in your ***{{ en.VLT }}*** and ***{{ en.PVLT }}*** is an ***E
 
 Manage, import, organize, and save all your data with ***Entries*** and ***Folders*** in your {{ en.DPS }} .  
 
-![ServerOp4025.png](/img/en/server/ServerOp4025.png) 
+![!!ServerOp4025.png](/img/en/server/ServerOp4025.png) 

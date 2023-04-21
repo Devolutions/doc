@@ -11,5 +11,5 @@ The ***Authentication Assurance Level*** (AAL) will depend on the number and typ
 
 Click the three dots menu to disconnect and access more available options.  
 
-![Cloud4042.png](/img/en/cloud/Cloud4042.png) 
+![!!Cloud4042.png](/img/en/cloud/Cloud4042.png) 
 

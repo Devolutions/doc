@@ -20,8 +20,8 @@ The following procedure explains how to remove the Security Provider and impleme
 1. Make a full database backup.
 1. Go in ***Tools*** menu of the {{ en.DVLSCONSOLE }} and click on ***Remove Security Provider*** button.  
 ![Remove Security Provider.png](/img/en/kb/KB8047.png)  
-![KB8048.png](/img/en/kb/KB8048.png)  
-![KB8049.png](/img/en/kb/KB8049.png)
+![!!KB8048.png](/img/en/kb/KB8048.png)  
+![!!KB8049.png](/img/en/kb/KB8049.png)
 1. Switch the {{ en.DPS }} instance to online mode using the Go Online button.  
 ![Go Online.png](/img/en/kb/KB8050.png)
 1. Once completed, verify that the data is available like the entries' configuration, passwords, etc. Verify the documents or attachments that exist in the database.  
@@ -42,7 +42,7 @@ We recommend to not store the encryption keys file and its password in your {{ e
 {% endsnippet %}  
 
 ![Export Encryption Keys.png](/img/en/kb/KB8052.png)  
-![KB8053.png](/img/en/kb/KB8053.png)
+![!!KB8053.png](/img/en/kb/KB8053.png)
 1. Once completed, verify again if the entries, the documents and the attachments are available.  
 1. If the Scheduler service has been uninstalled on step 3, install it back from the {{ en.DVLSCONSOLE }} in the Companions tab.  
 ![Install the Scheduler.png](/img/en/kb/KB8084.png)

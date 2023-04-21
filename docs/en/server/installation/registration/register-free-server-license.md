@@ -6,13 +6,13 @@ There are two methods to register your {{ en.DPS }} Free license, with the [{{ e
 
 Locate your {{ en.DPS }} Free license in the ***Serials*** section of your [Devolutions Account](https://portal.devolutions.com/serials) .  
 
-![ServerOp4019.png](/img/en/server/ServerOp4019.png)  
+![!!ServerOp4019.png](/img/en/server/ServerOp4019.png)  
 
 ### {{ en.DPS }} Console 
 Register the {{ en.DPS }} license in ***Server – Edit – General – License*** . 
-![ServerOp4017.png](/img/en/server/ServerOp4017.png) 
+![!!ServerOp4017.png](/img/en/server/ServerOp4017.png) 
 
 ### {{ en.DPS }} Web Interface 
 Register the {{ en.DPS }} license in ***Administration – Server Settings – General – Serial*** . 
-![ServerOp4018.png](/img/en/server/ServerOp4018.png) 
+![!!ServerOp4018.png](/img/en/server/ServerOp4018.png) 
 

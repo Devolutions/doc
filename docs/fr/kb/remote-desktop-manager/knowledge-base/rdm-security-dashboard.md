@@ -5,7 +5,7 @@ Le Tableau de bord de sécurité est un outil qui offre des conseils sur la mani
 
 Les scores sont évidemment sujets à caution et nous ne prétendons pas que chaque sujet a la même valeur relative pour tous les membres de notre communauté. Atteindre 100% n'est sûrement pas un objectif en soi, nous cherchons simplement à sensibiliser et à fournir des idées pour votre propre renforcement de la sécurité.  
 
-![KB4063.png](/img/fr/kb/KB4063.png) 
+![!!KB4063.png](/img/fr/kb/KB4063.png) 
 
 ## Amélioration des Éléments d'Action 
 

@@ -15,20 +15,20 @@ The encryption keys must be the same of each {{ en.DPS }} instances of your High
 
 1. Open the {{ en.DVLSCONSOLE }}.
 1. Go in the ***Tools*** tab and click on the ***Export*** button.  
-![KB4382.png](/img/en/kb/KB4382.png)
+![!!KB4382.png](/img/en/kb/KB4382.png)
 1. Select a destination file name and path. Then set a password to protect the file and on the OK button.
 {% snippet icon.shieldCaution %}
 We strongly recommend storing the Encryption keys file in a secure storage outside of {{ en.DPS }} like {{ en.PHUB }} Business, Azure Key Vault or AWS Key Management Service.
 {% endsnippet %}  
 
-   ![KB4384.png](/img/en/kb/KB4384.png)
+   ![!!KB4384.png](/img/en/kb/KB4384.png)
 
 ## Import the Encryption Keys
 
 4. Open the {{ en.DVLSCONSOLE }} on the server. Then, go in the ***Tools*** tab and click on the ***Import*** button.  
-![KB8107.png](/img/en/kb/KB8107.png)
+![!!KB8107.png](/img/en/kb/KB8107.png)
 1. Select the encryption keys file, set the password and click on the OK button.  
-![KB4387.png](/img/en/kb/KB4387.png)
+![!!KB4387.png](/img/en/kb/KB4387.png)
 1. Once the operation completed, the new encryption keys have been applied on the data of the database.
 
 ## Regenerate the Encryption Keys

@@ -11,5 +11,5 @@ Dans la section ***Utilisateurs*** , vous pouvez activer le mode hors ligne pour
 Un redémarrage de {{ fr.RDM }} peut être nécessaire pour activer le mode hors ligne. 
 {% endsnippet %}
  
-![Hub4133.png](/img/fr/hub/Hub4133.png) 
+![!!Hub4133.png](/img/fr/hub/Hub4133.png) 
 

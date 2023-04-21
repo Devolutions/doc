@@ -2,7 +2,7 @@
 title: The Remote Server Returned an Error (400) Bad Request
 ---
 You get the following error message dialog when you try to authenticate on the {{ en.DPS }} instance with {{ en.RDM }}.  
-![KB4289.png](/img/en/kb/KB4289.png)
+![!!KB4289.png](/img/en/kb/KB4289.png)
 
 ## Solution
 

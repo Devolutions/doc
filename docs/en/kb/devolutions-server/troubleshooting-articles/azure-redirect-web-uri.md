@@ -6,7 +6,7 @@ The following Office365 authentication issue occurs on an updated {{ en.DPS }} i
 {% endsnippet %}
 
 When trying to authenticate on the {{ en.DPS }} web interface using the Office365 authentication method, the following error is displayed.  
-![KB8099.png](/img/en/kb/KB8099.png)
+![!!KB8099.png](/img/en/kb/KB8099.png)
 
 ## Solution
 

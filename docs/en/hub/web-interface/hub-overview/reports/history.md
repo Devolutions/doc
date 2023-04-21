@@ -9,5 +9,5 @@ Click the ***Export*** button to create a CSV report of the ***Deleted Entries**
 If an entry is deleted from a ***User Vault*** , only the user of the ***User Vault*** can restore and manage it in the ***Reports*** section. 
 {% endsnippet %}
  
-![Hub4132.png](/img/en/hub/Hub4132.png) 
+![!!Hub4132.png](/img/en/hub/Hub4132.png) 
 

@@ -7,8 +7,8 @@ When you open the web page of the {{ en.DPS }} instance that is hosted on a Wind
 
 1. Open the **IIS Manager** on the server. 
 2. Expand the root and select ***Application Pools***.  
-![KB4295.png](/img/en/kb/KB4295.png) 
+![!!KB4295.png](/img/en/kb/KB4295.png) 
 1. Select the {{ en.DPS }} application pool and click on ***Advanced Settings***... in the ***Actions*** pane on the right.  
-![KB4296.png](/img/en/kb/KB4296.png) 
+![!!KB4296.png](/img/en/kb/KB4296.png) 
 1. Set the ***Enable 32-Bit Applications*** to the value ***True***.  
-![KB4297.png](/img/en/kb/KB4297.png) 
+![!!KB4297.png](/img/en/kb/KB4297.png) 

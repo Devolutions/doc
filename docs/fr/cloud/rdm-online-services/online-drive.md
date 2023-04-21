@@ -23,6 +23,6 @@ Consulter la rubrique [Onlive Drive](https://helprdm.devolutions.net/fr/datasour
 {% endsnippet %}
  
 3. Cliquer sur l'onglet ***Sauvegarde*** pour définir votre ***Sauvegarde en ligne*** pour votre nouvelle source de données. 
-![Cloud4040.png](/img/fr/cloud/Cloud4040.png) 
+![!!Cloud4040.png](/img/fr/cloud/Cloud4040.png) 
 1. Cliquer deux fois sur ***OK*** pour enregistrer. 
 

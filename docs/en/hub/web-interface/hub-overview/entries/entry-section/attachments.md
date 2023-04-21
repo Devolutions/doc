@@ -2,7 +2,7 @@
 title: Attachments
 ---
 Manage, view, and download file ***Attachments*** stored directly in {{ en.PHUB }} for an entry.  
-![Hub4122.png](/img/en/hub/Hub4122.png) 
+![!!Hub4122.png](/img/en/hub/Hub4122.png) 
 
 ### Add an attachment 
 
@@ -13,5 +13,5 @@ Manage, view, and download file ***Attachments*** stored directly in {{ en.PHUB 
 1. Optional: add a ***Description*** . 
 1. Optional: add a ***Password*** . 
 1. Click ***Add*** to save. 
-![Hub4121.png](/img/en/hub/Hub4121.png) 
+![!!Hub4121.png](/img/en/hub/Hub4121.png) 
 

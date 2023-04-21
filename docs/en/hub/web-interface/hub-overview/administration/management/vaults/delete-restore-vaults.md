@@ -11,14 +11,14 @@ title: Delete and Restore Vaults
 
 1. Go to ***Administration – Vaults*** . 
 1. Click the ***Delete*** recycling bin icon next to the vault.  
-![Hub4102.png](/img/en/hub/Hub4102.png) 
+![!!Hub4102.png](/img/en/hub/Hub4102.png) 
 1. Click ***Delete*** to confirm.  
-![Hub4101.png](/img/en/hub/Hub4101.png) 
+![!!Hub4101.png](/img/en/hub/Hub4101.png) 
 
 ### Restore a deleted vault 
 
 1. Go to ***Administration – Vaults*** . 
 1. Change the filter ***Type*** to ***All*** and the ***Status*** to ***Deleted*** to view the list of all the deleted vaults.  
-![Hub4103.png](/img/en/hub/Hub4103.png) 
+![!!Hub4103.png](/img/en/hub/Hub4103.png) 
 1. Locate your vault and click ***Restore*** . 
 

@@ -10,7 +10,7 @@ Il est donc fortement déconseillé d’utiliser cette fonctionnalité dans un e
 {% endsnippet %}  
 
  
-![KB2005.png](/img/fr/kb/KB2005.png) 
+![!!KB2005.png](/img/fr/kb/KB2005.png) 
 
 ## Paramètres 
 

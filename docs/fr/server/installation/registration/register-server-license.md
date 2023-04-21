@@ -8,10 +8,10 @@ Il existe deux méthodes pour enregistrer votre licence ***{{ fr.DPS }}*** , ave
 ### Console {{ fr.DPS }} 
 
 Enregistrer la licence {{ fr.DPS }} dans ***Serveur – Modifier – Général – Licence*** .  
-![ServerOp4036.png](/img/fr/server/ServerOp4036.png) 
+![!!ServerOp4036.png](/img/fr/server/ServerOp4036.png) 
 
 ### Interface WEB {{ fr.DPS }} 
 
 Enregistrer la licence {{ fr.DPS }} dans ***Administration – Paramètres Serveur – Général – Série*** .  
-![ServerOp4037.png](/img/fr/server/ServerOp4037.png) 
+![!!ServerOp4037.png](/img/fr/server/ServerOp4037.png) 
 

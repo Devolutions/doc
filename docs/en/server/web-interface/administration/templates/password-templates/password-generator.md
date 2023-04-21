@@ -7,7 +7,7 @@ The ***Password Generator*** allows to create random passwords that are difficul
 You can create and force a [***Password Templates***](/server/web-interface/administration/templates/password-templates/) to follow your organization secure policies. 
 {% endsnippet %}
  
-![ServerOp4086.png](/img/en/server/ServerOp4086.png) 
+![!!ServerOp4086.png](/img/en/server/ServerOp4086.png) 
 
 ### Generate Passwords with the Password Generator  
 
@@ -24,7 +24,7 @@ At the bottom of the list, you can review the strength and phonetic of the passw
 You could also create a ***Password Template*** from your ***Password Generator*** settings. Just customize the settings and click on ***Add template*** next to the ***Template*** drop list. 
 {% endsnippet %}
  
-![ServerOp4085.png](/img/en/server/ServerOp4085.png) 
+![!!ServerOp4085.png](/img/en/server/ServerOp4085.png) 
 <table>
 	<tr>
 		<th>

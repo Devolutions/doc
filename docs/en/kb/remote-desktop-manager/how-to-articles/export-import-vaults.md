@@ -24,7 +24,7 @@ By default the credentials are NOT included. It's critical to check the ***Inclu
 Specifying a master key will encrypt the whole content of the ***.rdx*** file to protect its content. It is highly recommended as a backup measure, but the key is absolutely necessary for decryption. Preserve this as well in a separate storage device for safekeeping.
 {% endsnippet %}  
 
-![KB4975.png](/img/en/kb/KB4975.png)  
+![!!KB4975.png](/img/en/kb/KB4975.png)  
 
 5. Click ***OK***.
 1. Save the ***.rdx*** file on your computer.

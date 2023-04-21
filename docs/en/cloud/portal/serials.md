@@ -11,9 +11,9 @@ The ***Serials*** section is not linked with any of your Devolutions application
 You will be required to save the serial into the appropriate Devolutions application to register. 
 {% endsnippet %}  
   
-![Cloud4049.png](/img/en/cloud/Cloud4049.png)  
+![!!Cloud4049.png](/img/en/cloud/Cloud4049.png)  
 
 To add a license click on the plus icon at the top right corner of the window. Then manually fill or import from the invoice the information to save.  
 
-![Cloud4050.png](/img/en/cloud/Cloud4050.png) 
+![!!Cloud4050.png](/img/en/cloud/Cloud4050.png) 
 

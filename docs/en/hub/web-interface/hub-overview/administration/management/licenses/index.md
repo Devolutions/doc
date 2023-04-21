@@ -10,4 +10,4 @@ In the ***Licenses*** section, you will be able to register your {{ en.PHUB }} B
 Only ***Administrators*** and users with permissions in the ***System Permissions – System – Manage Devolutions*** ***{{ en.PHUB }}*** ***license*** section will have access to register a license in {{ en.PHUB }} Business. 
 {% endsnippet %}
   
-![Hub4111.png](/img/en/hub/Hub4111.png) 
+![!!Hub4111.png](/img/en/hub/Hub4111.png) 

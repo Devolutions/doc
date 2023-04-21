@@ -145,7 +145,7 @@ Specify the backup name that will allow you to automatically save your sessions 
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DODV }} .  
-![RdmMac4040.png](/img/en/rdm/mac/RdmMac4040.png) 
+![!!RDMMac4040.png](/img/en/rdm/mac/RdmMac4040.png) 
 
 ### Advanced 
 

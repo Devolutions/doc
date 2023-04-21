@@ -26,7 +26,7 @@ Then you need to add a key of RDM in HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet
 
 Also, String Value and DWORD (1000) are necessary.  
 
-![KB4065.png](/img/en/kb/KB4065.png)  
+![!!KB4065.png](/img/en/kb/KB4065.png)  
 
 This reg key has to be added on the server-side.  
 

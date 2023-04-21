@@ -10,4 +10,4 @@ Visiter les différentes sections et contribuez à la connaissance de notre comm
 Un [Compte Devolutions](/fr/cloud/devolutions-account/) gratuit est nécessaire pour se connecter et interagir sur le Forum. 
 {% endsnippet %}
  
-![Cloud4042.png](/img/fr/cloud/Cloud4042.png) 
+![!!Cloud4042.png](/img/fr/cloud/Cloud4042.png) 

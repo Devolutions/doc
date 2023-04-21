@@ -41,7 +41,7 @@ An ***Application User*** is required to proceed. If one is not already created,
 1. Input the correct information. If the ***License*** field is left on ***None***, it will use the ***Free*** option by default.  
 ![Information Fields](/img/en/hub/DGW0046.png)
 *Information Fields*{.caption} 
-![DGW0047.png](/img/en/hub/DGW0047.png) 
+![!!Dgw0047.png](/img/en/hub/DGW0047.png) 
 1. Click on ***Download***.  
 ![Download Script](/img/en/hub/DGW0048.png)
 *Download Script*{.caption} 

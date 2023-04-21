@@ -36,7 +36,7 @@ Your data has been imported to the destination folder you previously specified.
 <a name="export"></a>
 
 1. In ***Tools – Export*** , select the file ***Export type*** in the drop-down list.  
-![KB2088.png](/img/en/kb/KB2088.png)  
+![!!KB2088.png](/img/en/kb/KB2088.png)  
 {% snippet icon.shieldCaution %}
 The ***Obfuscate sensitive values*** box is checked by default, meaning your sensitive information will be harder to decypher. For security purposes, it is recommended to leave it checked.
 {% endsnippet %}  

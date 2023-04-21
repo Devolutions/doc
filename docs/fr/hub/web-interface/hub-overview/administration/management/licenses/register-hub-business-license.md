@@ -15,10 +15,10 @@ Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions da
 1. Connectez-vous à {{ fr.PHUB }} Business. 
 1. Aller dans ***Administration - Licences*** . 
 1. Cliquer sur le bouton ***Modifier*** .  
-![Hub4091.png](/img/fr/hub/Hub4091.png) 
+![!!Hub4091.png](/img/fr/hub/Hub4091.png) 
 1. Coller votre nouvelle licence {{ fr.PHUB }} Business. 
 1. Cliquer ***Enregistrer*** .  
-![Hub4092.png](/img/fr/hub/Hub4092.png) 
+![!!Hub4092.png](/img/fr/hub/Hub4092.png) 
 
 ### Ma licence est expirée 
 
@@ -28,7 +28,7 @@ Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions da
 Seuls les ***Administrateurs*** et les utilisateurs disposant des ***Permissions système*** pour ***Gérer les licences des produits*** recevront ce message. 
 {% endsnippet %}
  
-![Hub4093.png](/img/fr/hub/Hub4093.png)  
+![!!Hub4093.png](/img/fr/hub/Hub4093.png)  
 
 3. Coller votre nouvelle licence {{ fr.PHUB }} Business. 
 1. Cliquer ***Enregistrer*** .  

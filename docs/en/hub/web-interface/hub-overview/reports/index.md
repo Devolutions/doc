@@ -7,4 +7,4 @@ The ***Reports*** section provides the administrators with tools to perform [Aud
 Non-admin users will have a limited access to the ***Reports*** section. 
 {% endsnippet %}
  
-![Hub4023.png](/img/en/hub/Hub4023.png) 
+![!!Hub4023.png](/img/en/hub/Hub4023.png) 

@@ -8,7 +8,7 @@ Vous pouvez créer et gérer des ***Organisations*** pour votre équipe dans vot
 1. Connectez-vous à votre [Compte Devolutions](https://portal.devolutions.com/) . 
 1. Cliquer ***Organisations*** . 
 1. Cliquer ***Créer une nouvelle organisation*** .  
-![Cloud4080.png](/img/fr/cloud/Cloud4080.png) 
+![!!Cloud4080.png](/img/fr/cloud/Cloud4080.png) 
 1. Saisir le ***Nom de l'organisation*** et cliquer sur ***Soumettre*** . 
 {% snippet icon.badgeCaution %} 
 Les noms d'organisation sont uniques, il n'y en a pas deux qui portent le même nom. 
@@ -18,5 +18,5 @@ Les noms d'organisation sont uniques, il n'y en a pas deux qui portent le même 
 Vous pouvez sauvegarder l' ***URL d'une image*** , ceci est facultatif, l'option se trouve dans les ***Configurations*** . 
 {% endsnippet %}
  
-![Cloud4081.png](/img/fr/cloud/Cloud4081.png) 
+![!!Cloud4081.png](/img/fr/cloud/Cloud4081.png) 
 

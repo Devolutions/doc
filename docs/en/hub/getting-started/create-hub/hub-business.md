@@ -14,7 +14,7 @@ The ***{{ en.PHUB }}*** ***site*** name becomes your website address and cannot 
 {% endsnippet %}
  
 5. Select the region where you want your data to be [hosted](/kb/password-hub/knowledge-base/hosting-region-password-hub/) and accept the ***Terms of Online Services and Privacy Policy*** .  
-![Hub4009.png](/img/en/hub/Hub4009.png) 
+![!!Hub4009.png](/img/en/hub/Hub4009.png) 
 1. Click on ***Start Trial*** .  
 
 Once the deployment is ready, you will receive an email with your {{ en.PHUB }} Business website address.  
@@ -25,7 +25,7 @@ If you are a {{ en.RDM }} Team Edition user, you can connect your {{ en.PHUB }} 
  
 7. Click the {{ en.PHUB }} Business website address. 
 1. Download your ***Emergency Kit*** .  
-![Hub4170.png](/img/en/hub/Hub4170.png) 
+![!!Hub4170.png](/img/en/hub/Hub4170.png) 
 
 {% snippet icon.badgeCaution %} 
 The ***Emergency Kit*** contains your emergency key that will be required in case you lose or reset your {{ en.DA }} password. Remember to keep it in a safe place . 

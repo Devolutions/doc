@@ -6,4 +6,4 @@ The ***Devolutions Force*** is a private channel that let's you connect and netw
 
 Are you ready to feel the [Force](https://devolutions.net/force) ?  
 
-![Cloud4055.png](/img/en/cloud/Cloud4055.png) 
+![!!Cloud4055.png](/img/en/cloud/Cloud4055.png) 

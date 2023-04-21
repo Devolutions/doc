@@ -2,7 +2,7 @@
 title: Entry Credentials Options
 ---
 Multiple options are available to use for ***Credentials*** in your {{ en.RDM }} entries.  
-![RdmMac4026.png](/img/en/rdm/mac/RdmMac4026.png) 
+![!!RDMMac4026.png](/img/en/rdm/mac/RdmMac4026.png) 
 
 <table>
 	<tr>

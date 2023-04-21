@@ -23,7 +23,7 @@ Les paramètres déployés avec l'objet de stratégie de groupe (GPO) ne sont ap
 1. Sélectionner ***REG_SZ*** dans la liste déroulante ***Type de valeur*** . 
 1. Écrire la chaîne de paramètres JSON dans le champ ***Données de valeur*** . Voir la section <a href="valeurs">Valeurs</a> plus bas pour un exemple. 
 1. Cliquer sur ***OK*** .  
-![KB2043.png](/img/fr/kb/KB2043.png) 
+![!!KB2043.png](/img/fr/kb/KB2043.png) 
 1. Dans ***Gestion de stratégie de groupe*** , configurer les ***Liaisons*** et le ***Filtrage de sécurité*** des objets de stratégie de groupe selon vos besoins.  
 
 ### Paramètres pas défaut 
@@ -144,7 +144,7 @@ Valeurs possibles :
 "force_installed","update_url":"https<area>://clients2.google.com/service/update2/crx","toolbar_pin":"force_pinned"}}  
 ```
 8. Cliquer sur ***OK*** et mettre à jour les règles de GPO sur votre machine locale. 
-![KB2044.png](/img/fr/kb/KB2044.png) 
+![!!KB2044.png](/img/fr/kb/KB2044.png) 
 ### Références 
 [https://www.chromium.org/administrators](https://www.chromium.org/administrators)  
 [https://www.chromium.org/administrators/complex-policies-on-windows](https://www.chromium.org/administrators/complex-policies-on-windows) 

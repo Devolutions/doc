@@ -3,7 +3,7 @@ title: Quick Add
 ---
 Allow to customize the list of quick add buttons with preferred session types.  
 
-![ServerOp8065.png](/img/en/server/ServerOp8065.png)  
+![!!ServerOp8065.png](/img/en/server/ServerOp8065.png)  
 
 ![Vaults - Quick Add](/img/en/server/ServerOp8063.png)  
 

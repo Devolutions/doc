@@ -5,8 +5,8 @@ You can cache a set of credentials in {{ en.RDM }} without saving them in the da
 
 1. In ***File - My Account Settings - My Personal Credentials***
 1. Select ***Username/Password*** and click ***OK***  
-![KB4719.png](/img/en/kb/KB4719.png)
+![!!KB4719.png](/img/en/kb/KB4719.png)
 1. Fill in your credentials and enable ***Keep in memory***  
-![KB4720.png](/img/en/kb/KB4720.png)
+![!!KB4720.png](/img/en/kb/KB4720.png)
 1. Click ***OK*** to save.
 1. Set your entry ***Properties - Credentials*** to ***My personal credentials***
