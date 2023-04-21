@@ -22,3 +22,5 @@ Elle est structurée selon nos produits, ainsi qu’en quelques sous-catégories
 &nbsp; &nbsp;[{{ fr.PHUB }}](/fr/kb/password-hub/)  
 
 &nbsp; &nbsp;[{{ fr.DWL }}](/fr/kb/devolutions-web-login/)  
+
+&nbsp; &nbsp;[{{ fr.PS }}](/fr/kb/devolutions-powershell/)

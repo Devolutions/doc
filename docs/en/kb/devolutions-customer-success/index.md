@@ -22,3 +22,5 @@ It is divided by our different products, as well as a few subcategories.
 &nbsp; &nbsp;[{{ en.PHUB }}](/kb/password-hub/)  
 
 &nbsp; &nbsp;[{{ en.DWL }}](/kb/devolutions-web-login/)  
+
+&nbsp; &nbsp;[{{ en.PS }}](/kb/devolutions-powershell/)
