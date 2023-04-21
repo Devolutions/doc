@@ -19,7 +19,7 @@ Ces exigences sont requises seulement si vous avez l'intention d'utiliser la cr�
 	<tr>
 		<td>
 
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiques : RDM Admins, RDM Operators, RDM Users . 
@@ -27,7 +27,7 @@ Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiq
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Ajouter des utilisateurs du domaine aux groupes d'Active Directory. 
@@ -43,7 +43,7 @@ Ajouter des utilisateurs du domaine aux groupes d'Active Directory.
 	<tr>
 		<td>
 
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Microsoft .NET Framework 4.8. 
@@ -51,7 +51,7 @@ Microsoft .NET Framework 4.8.
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Base de données Microsoft SQL Server (voir [Instance de la base de données](/fr/server/installation/database-instance/) ). 
@@ -59,7 +59,7 @@ Base de données Microsoft SQL Server (voir [Instance de la base de données](/f
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Microsoft pour plus d'information: [Install IIS and ASP.NET Modules](https://technet.microsoft.com/en-ca/library/hh831475.aspx#InstallIIS) ). 
@@ -73,7 +73,7 @@ Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Micr
 	<tr>
 		<td>
 
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Créer une instance de {{ fr.RDMS }} (voir [Créer une instance de {{ fr.RDMS }}](/server/installation/create-server-instance/) ). 
@@ -81,7 +81,7 @@ Créer une instance de {{ fr.RDMS }} (voir [Créer une instance de {{ fr.RDMS }}
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Créer un compte administrateur de {{ fr.RDMS }} avec [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/) . 
@@ -89,7 +89,7 @@ Créer un compte administrateur de {{ fr.RDMS }} avec [Gestion des utilisateurs]
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Créer des [Groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) . 
@@ -97,7 +97,7 @@ Créer des [Groupes d'utilisateurs](/fr/server/web-interface/administration/secu
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Ajouter des utilisateurs du domaine ou des utilisateurs intégrés (voir [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/) ). 

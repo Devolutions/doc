@@ -22,7 +22,7 @@ There are two ways of using {{ en.RDMS }} :
 	<tr>
 		<td>
 
-![clip10056.png](/img/en/server/clip10056.png)  
+![!!clip10056.png](/img/en/server/clip10056.png)  
 
 ## Web-Based Vault  
 
@@ -64,17 +64,17 @@ Unlike with web browser access, {{ en.RDM }} can launch sessions using remote ac
 	<tr>
 		<td>
 
-![clip10054.png](/img/en/server/clip10054.png)  
+![!!clip10054.png](/img/en/server/clip10054.png)  
 
 ### High-End Server 
 		</td>
 		<td>
-![clip10055.png](/img/en/server/clip10055.png)  
+![!!clip10055.png](/img/en/server/clip10055.png)  
 
 ### Full Active Directory (AD) Integration 
 		</td>
 		<td>
-![clip10057.png](/img/en/server/clip10057.png)  
+![!!clip10057.png](/img/en/server/clip10057.png)  
 
 ### Web Architecture 
 		</td>
@@ -92,17 +92,17 @@ Implemented using a Web architecture so it can exposed publicly on the Internet 
 	</tr>
 	<tr>
 		<td>
-![clip10050.png](/img/en/server/clip10050.png)  
+![!!clip10050.png](/img/en/server/clip10050.png)  
 
 ### Two-Factor Authentication 
 		</td>
 		<td>
-![clip10062.png](/img/en/server/clip10062.png)  
+![!!clip10062.png](/img/en/server/clip10062.png)  
 
 ### Email Notifications 
 		</td>
 		<td>
-![clip10060.png](/img/en/server/clip10060.png)  
+![!!clip10060.png](/img/en/server/clip10060.png)  
 
 ### IP Restrictions 
 		</td>

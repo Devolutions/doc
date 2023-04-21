@@ -68,35 +68,35 @@ Description
 	</tr>
 		<td>
 		
-![clip0277.png](/img/fr/rdm/mac/clip0277.png) 
+![!!clip0277.png](/img/fr/rdm/mac/clip0277.png) 
 		</td>
 		<td>
 Créer une nouvelle liste d'exécution. 
 		</td>
 	</tr>
 		<td>
-![clip0278.png](/img/fr/rdm/mac/clip0278.png) 
+![!!clip0278.png](/img/fr/rdm/mac/clip0278.png) 
 		</td>
 		<td>
 Supprimer une liste d'exécution existante. 
 		</td>
 	</tr>
 		<td>
-![clip0279.png](/img/fr/rdm/mac/clip0279.png) 
+![!!clip0279.png](/img/fr/rdm/mac/clip0279.png) 
 		</td>
 		<td>
 Modifier la liste d'exécution sélectionnée. 
 		</td>
 	</tr>
 		<td>
-![clip0280.png](/img/fr/rdm/mac/clip0280.png) 
+![!!clip0280.png](/img/fr/rdm/mac/clip0280.png) 
 		</td>
 		<td>
 Actualiser le gestionnaire de listes d'exécution. 
 		</td>
 	</tr>
 		<td>
-![clip0281.png](/img/fr/rdm/mac/clip0281.png) 
+![!!clip0281.png](/img/fr/rdm/mac/clip0281.png) 
 		</td>
 		<td>
 Copier la liste d'exécution sélectionnée. 

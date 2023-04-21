@@ -23,7 +23,7 @@ DESCRIPTION
 	<tr>
 		<td>
 
-![clip10859.png](/img/en/rdm/windows/clip10859.png) 
+![!!clip10859.png](/img/en/rdm/windows/clip10859.png) 
 		</td>
 		<td>
 Install the selected application. 
@@ -31,7 +31,7 @@ Install the selected application.
 	</tr>
 	<tr>
 		<td>
-![clip10860.png](/img/en/rdm/windows/clip10860.png) 
+![!!clip10860.png](/img/en/rdm/windows/clip10860.png) 
 		</td>
 		<td>
 Update the selected application. 
@@ -39,7 +39,7 @@ Update the selected application.
 	</tr>
 	<tr>
 		<td>
-![clip10861.png](/img/en/rdm/windows/clip10861.png) 
+![!!clip10861.png](/img/en/rdm/windows/clip10861.png) 
 		</td>
 		<td>
 Uninstall the selected application. 
@@ -47,7 +47,7 @@ Uninstall the selected application.
 	</tr>
 	<tr>
 		<td>
-![clip10862.png](/img/en/rdm/windows/clip10862.png) 
+![!!clip10862.png](/img/en/rdm/windows/clip10862.png) 
 		</td>
 		<td>
 Refresh the Chocolatey details list. 

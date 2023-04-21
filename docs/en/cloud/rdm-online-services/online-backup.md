@@ -9,5 +9,5 @@ You will be able to delete your backup files from your ***RDM Online Services***
 
 Consult [Online Backup Settings - Windows Edition](http://helprdm.devolutions.net/file_backup_settings.htm) or [Online Backup Settings - Mac Edition](http://helprdmmac.devolutions.net/file_backup_settings.htm) for more information on the configuration.  
 
-![clip0019.png](/img/en/cloud/clip0019.png) 
+![!!clip0019.png](/img/en/cloud/clip0019.png) 
 

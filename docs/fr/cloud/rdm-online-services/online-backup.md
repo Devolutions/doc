@@ -8,5 +8,5 @@ Il est disponible gratuitement dans {{ fr.RDM }} Éditions Free et Team.
 Vous pourrez supprimer vos fichiers de sauvegarde de vos ***Services en ligne de RDM***, mais vous devrez créer la ***Sauvegarde en ligne*** à partir de votre application {{ fr.RDM }}.  
 
 Consultez [Configuration de la sauvegarde - Édition Windows](https://helprdm.devolutions.net/fr/file_backup_settings.html) ou [Configuration de la sauvegarde - Édition Mac](https://helprdmmac.devolutions.net/fr/file_backup_settings.html)pour plus d'informations.  
-![clip0019.png](/img/fr/cloud/clip0019.png) 
+![!!clip0019.png](/img/fr/cloud/clip0019.png) 
 

@@ -18,7 +18,7 @@ These requirements apply especially if you intend to use Automatic User Account 
 	<tr>
 		<td>
 
-![clip10129.png](/img/en/server/clip10129.png) 
+![!!clip10129.png](/img/en/server/clip10129.png) 
 		</td>
 		<td>
 Create Active Directory groups to manage your instance. Typical examples are: RDM Admins, RDM Operators, RDM Users . 
@@ -26,7 +26,7 @@ Create Active Directory groups to manage your instance. Typical examples are: RD
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/en/server/clip10129.png) 
+![!!clip10129.png](/img/en/server/clip10129.png) 
 		</td>
 		<td>
 Add domain users to the Active Directory groups. 
@@ -34,7 +34,7 @@ Add domain users to the Active Directory groups.
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/en/server/clip10129.png) 
+![!!clip10129.png](/img/en/server/clip10129.png) 
 		</td>
 		<td>
 Create a VaultOwner account that will be the owner of the database. Performing upgrades with this account will ensure the proper rights are held. 
@@ -42,7 +42,7 @@ Create a VaultOwner account that will be the owner of the database. Performing u
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/en/server/clip10129.png) 
+![!!clip10129.png](/img/en/server/clip10129.png) 
 		</td>
 		<td>
 Create a VaultRunner account that will be used as the identity of the website. This will allow you to harden the permissions to what is minimally required. 
@@ -58,7 +58,7 @@ Create a VaultRunner account that will be used as the identity of the website. T
 	<tr>
 		<td>
 
-![clip10129.png](/img/en/server/clip10129.png) 
+![!!clip10129.png](/img/en/server/clip10129.png) 
 		</td>
 		<td>
 Microsoft .NET Framework 4.8. 
@@ -66,7 +66,7 @@ Microsoft .NET Framework 4.8.
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/en/server/clip10129.png) 
+![!!clip10129.png](/img/en/server/clip10129.png) 
 		</td>
 		<td>
 Microsoft SQL Server (see [Database Instance](/server/installation/database-instance/) ) if you intend to host the solution on a single server (see [Topologies](/server/overview/topologies/) ). 
@@ -74,7 +74,7 @@ Microsoft SQL Server (see [Database Instance](/server/installation/database-inst
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/en/server/clip10129.png) 
+![!!clip10129.png](/img/en/server/clip10129.png) 
 		</td>
 		<td>
 Internet Information Services (IIS) 7.0 or better (see this Microsoft topic for more information: [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules) ). 
@@ -88,7 +88,7 @@ Internet Information Services (IIS) 7.0 or better (see this Microsoft topic for 
 	<tr>
 		<td>
 
-![clip10129.png](/img/en/server/clip10129.png) 
+![!!clip10129.png](/img/en/server/clip10129.png) 
 		</td>
 		<td>
 Create a new instance of {{ en.RDMS }} (see [Create {{ en.RDMS }} Instance](/server/installation/create-server-instance/) ). 
@@ -96,7 +96,7 @@ Create a new instance of {{ en.RDMS }} (see [Create {{ en.RDMS }} Instance](/ser
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/en/server/clip10129.png) 
+![!!clip10129.png](/img/en/server/clip10129.png) 
 		</td>
 		<td>
 Create a {{ en.RDMS }} administrator account in the [User Management](/server/web-interface/administration/security-management/users/) . 
@@ -104,7 +104,7 @@ Create a {{ en.RDMS }} administrator account in the [User Management](/server/we
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/en/server/clip10129.png) 
+![!!clip10129.png](/img/en/server/clip10129.png) 
 		</td>
 		<td>
 Create [User Groups](/server/web-interface/administration/security-management/user-groups/) . 
@@ -112,7 +112,7 @@ Create [User Groups](/server/web-interface/administration/security-management/us
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/en/server/clip10129.png) 
+![!!clip10129.png](/img/en/server/clip10129.png) 
 		</td>
 		<td>
 Add domain users or built-in users (see [User Management](/server/web-interface/administration/security-management/users/) ). 

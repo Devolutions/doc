@@ -13,4 +13,4 @@ You can find the configuration file by following these steps:
 1. Locate the RemoteDesktopManager.cfg or RemoteDesktopManagerFree.cfg file 
 
 In order for us to provide you a secure link to share your file, send an email to [service@devolutions.net](mailto:service@devolutions.net) ticket@devolutions.net .  
-![Support4001.png](/img/en/rdm/mac/Support4001.png) 
+![!!Support4001.png](/img/en/rdm/mac/Support4001.png) 

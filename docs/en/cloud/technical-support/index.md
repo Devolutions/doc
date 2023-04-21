@@ -15,5 +15,5 @@ Subscribers of a paid support plan receive an email address and a plan ID. You s
 
 Please consult our [Support Policy](https://devolutions.net/legal/software-license-agreements) for more information.  
 
-![Support4001.png](/img/en/cloud/Support4001.png) 
+![!!Support4001.png](/img/en/cloud/Support4001.png) 
 

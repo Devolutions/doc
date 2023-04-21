@@ -18,7 +18,7 @@ Ces exigences sont requises seulement si vous avez l'intention d'utiliser la cr�
 	<tr>
 		<td>
 
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiques : RDM Admins, RDM Operators, RDM Users . 
@@ -26,7 +26,7 @@ Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiq
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Ajouter des utilisateurs du domaine aux groupes d'Active Directory. 
@@ -34,7 +34,7 @@ Ajouter des utilisateurs du domaine aux groupes d'Active Directory.
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Créer un compte VaultOwner qui sera le propriétaire de la base de données. Les droits sont suffisants pour effectuer les mises à niveau de la base de données. 
@@ -42,7 +42,7 @@ Créer un compte VaultOwner qui sera le propriétaire de la base de données. Le
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Créer un compte VaultRunner qui agira en tant qu'identité du site Web. Vous pourrez ainsi limiter les permissions selon le principe d'accès minimal. 
@@ -58,7 +58,7 @@ Créer un compte VaultRunner qui agira en tant qu'identité du site Web. Vous po
 	<tr>
 		<td>
 
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Microsoft .NET Framework 4.8. 
@@ -66,7 +66,7 @@ Microsoft .NET Framework 4.8.
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Si vous avez l'intention d'héberger la solution sur un seul serveur, installer Microsoft SQL Server (voir les sections [Instance de la base de données](/fr/server/installation/database-instance/) et [Topologies](/fr/server/overview/topologies/) ). 
@@ -74,7 +74,7 @@ Si vous avez l'intention d'héberger la solution sur un seul serveur, installer 
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Microsoft pour plus d'information: [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules) ). 
@@ -88,7 +88,7 @@ Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Micr
 	<tr>
 		<td>
 
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Créer une instance de {{ fr.RDMS }} (voir [Créer une instance de {{ fr.RDMS }}](/server/installation/create-server-instance/) ). 
@@ -96,7 +96,7 @@ Créer une instance de {{ fr.RDMS }} (voir [Créer une instance de {{ fr.RDMS }}
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Créer un compte administrateur de {{ fr.RDMS }} avec [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/) . 
@@ -104,7 +104,7 @@ Créer un compte administrateur de {{ fr.RDMS }} avec [Gestion des utilisateurs]
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Créer des [Groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) . 
@@ -112,7 +112,7 @@ Créer des [Groupes d'utilisateurs](/fr/server/web-interface/administration/secu
 	</tr>
 	<tr>
 		<td>
-![clip10129.png](/img/fr/server/clip10129.png) 
+![!!clip10129.png](/img/fr/server/clip10129.png) 
 		</td>
 		<td>
 Ajouter des utilisateurs du domaine ou des utilisateurs intégrés (voir la section [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/) ). 

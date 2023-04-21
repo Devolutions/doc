@@ -2,11 +2,11 @@
 title: Analyseur de sécurité d'entrées
 ---
 L' ***Analyseur de sécurité d'entrées*** est disponible dans le menu ***Outils*** . Il affichera l'indicateur de force pour tous les mots de passe stockés dans votre source de données.  
-![clip4222.png](/img/fr/rdm/mac/clip4222.png) 
+![!!clip4222.png](/img/fr/rdm/mac/clip4222.png) 
 
 ## Paramètres 
 
-![clip0106.png](/img/fr/rdm/mac/clip0106.png) 
+![!!clip0106.png](/img/fr/rdm/mac/clip0106.png) 
 
 En un seul coup d'œil, vous pouvez voir les forces de tous vos mots de passe stockés. 
 

@@ -20,6 +20,6 @@ Les abonnés d’un plan de soutien payant ont reçu un numéro d’identificati
 
 Consulter notre [Politique de soutien](https://cdndevolutions.blob.core.windows.net/documents/legal/eula/support-level-addendum-fr.pdf) pour plus d’informations.  
 
-![Support4001.png](/img/fr/server/Support4001.png) 
+![!!Support4001.png](/img/fr/server/Support4001.png) 
 
 

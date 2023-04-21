@@ -27,7 +27,7 @@ Description
 	<tr>
 		<td>
 
-![clip10553.png](/img/en/rdm/mac/clip10553.png) 
+![!!clip10553.png](/img/en/rdm/mac/clip10553.png) 
 		</td>
 		<td>
 Create a new entry in your current data source. 
@@ -35,7 +35,7 @@ Create a new entry in your current data source.
 	</tr>
 	<tr>
 		<td>
-![clip10554.png](/img/en/rdm/mac/clip10554.png) 
+![!!clip10554.png](/img/en/rdm/mac/clip10554.png) 
 		</td>
 		<td>
 Open the properties window of your selected entry. 

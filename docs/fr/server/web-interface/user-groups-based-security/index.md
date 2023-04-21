@@ -94,12 +94,12 @@ Pour qu'un utilisateur ait accès à un sous-dossier, l'utilisateur doit avoir a
 
 Considérer la structure suivante:  
 
-![clip8044.png](/img/fr/server/clip8044.png) 
+![!!clip8044.png](/img/fr/server/clip8044.png) 
 
 Il existe trois niveaux de dossiers: les éléments racine, Telemark et enfant du Telemark.  
 
 Supposons qu'un utilisateur, tel qu'un consultant, doit avoir accès au dossier Montréal uniquement. Le consultant doit également être autorisé à consulter le dossier Telemark. Toutefois, accorder l'accès à la vue au dossier Telemark donne au consultant les autorisations pour afficher tous les éléments enfants de Telemark. Pour refuser les autorisations d'affichage pour le consultant sur des éléments enfants spécifiques, les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs.  
 
-![clip8045.png](/img/fr/server/clip8045.png) 
+![!!clip8045.png](/img/fr/server/clip8045.png) 
 
 

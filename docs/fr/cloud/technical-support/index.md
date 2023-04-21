@@ -15,5 +15,5 @@ Les abonnés d’un plan de soutien payant reçoivent une adresse courriel et un
 
 Consulter notre [Politique de soutien](https://devolutions.net/legal/software-license-agreements) pour plus d’informations.  
 
-![Support4001.png](/img/fr/cloud/Support4001.png) 
+![!!Support4001.png](/img/fr/cloud/Support4001.png) 
 

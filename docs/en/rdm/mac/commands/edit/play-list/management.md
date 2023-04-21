@@ -72,7 +72,7 @@ DESCRIPTION
 	<tr>
 		<td>
 
-![clip10119.png](/img/en/rdm/mac/clip10119.png) 
+![!!clip10119.png](/img/en/rdm/mac/clip10119.png) 
 		</td>
 		<td>
 Create a new Play List. 
@@ -80,7 +80,7 @@ Create a new Play List.
 	</tr>
 	<tr>
 		<td>
-![clip10120.png](/img/en/rdm/mac/clip10120.png) 
+![!!clip10120.png](/img/en/rdm/mac/clip10120.png) 
 		</td>
 		<td>
 Delete an existing Play List. 
@@ -88,7 +88,7 @@ Delete an existing Play List.
 	</tr>
 	<tr>
 		<td>
-![clip10121.png](/img/en/rdm/mac/clip10121.png) 
+![!!clip10121.png](/img/en/rdm/mac/clip10121.png) 
 		</td>
 		<td>
 Edit the selected Play List. 
@@ -96,7 +96,7 @@ Edit the selected Play List.
 	</tr>
 	<tr>
 		<td>
-![clip10122.png](/img/en/rdm/mac/clip10122.png) 
+![!!clip10122.png](/img/en/rdm/mac/clip10122.png) 
 		</td>
 		<td>
 Refresh your Play List Management. 
@@ -104,7 +104,7 @@ Refresh your Play List Management.
 	</tr>
 	<tr>
 		<td>
-![clip10123.png](/img/en/rdm/mac/clip10123.png) 
+![!!clip10123.png](/img/en/rdm/mac/clip10123.png) 
 		</td>
 		<td>
 Copy the selected Play List. 

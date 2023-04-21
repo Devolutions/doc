@@ -10,4 +10,4 @@ Visit the different sections and help contribute to our community knowledge.
 A free [Devolutions Account](/cloud/devolutions-account/) is required to log in and interact on the Forum. 
 {% endsnippet %}
  
-![clip4020.png](/img/en/cloud/clip4020.png) 
+![!!clip4020.png](/img/en/cloud/clip4020.png) 
