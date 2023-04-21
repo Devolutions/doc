@@ -1,5 +1,5 @@
 ---
-eleventyComputed
+eleventyComputed:
   title: Set Up {{ en.PVLT }} Credentials in {{ en.RDM }}
   description: You can configure an entry to apply credentials that are in your {{ en.PVLT }} without affecting other users' settings.
   keywords:
