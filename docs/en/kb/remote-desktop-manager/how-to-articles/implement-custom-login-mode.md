@@ -19,7 +19,6 @@ There are two methods to create the SQL login/user: the first one uses <a href="
 1. In ***Administration – Users***, click on the ***Add User*** button to create a new administrator user.
 
 ![File – Users – Add User](/img/en/kb/KB2149.png)
-*File – Users – Add User*{.caption}
 
 3. In the ***General*** tab of the ***User Managment*** window, configure the user as follows:
     * In the ***Authentication type*** drop-down list, select ***Database***.
@@ -28,7 +27,6 @@ There are two methods to create the SQL login/user: the first one uses <a href="
     * In the ***User type*** drop-down list, select ***Administrator***.
 
 ![User Configuration](/img/en/kb/KB2150.png)
-*User Configuration*{.caption}
 
 4. Click ***OK*** to save your new user configuration.
 
@@ -47,18 +45,15 @@ For the next steps, go to the <a href="#create-your-first-custom-login-(first-ad
 1. In ***File – Data Sources***, click on the ***Edit Data Source*** button to edit your Microsoft SQL server data source.
 
 ![File – Data Sources – Edit Data Source](/img/en/kb/KB2158.png)
-*File – Data Sources – Edit Data Source*{.caption}
 
 2. In the data source configuration window, change the values in the ***Username*** and ***Password fields*** for the credentials of the new SQL user created in the <a href="#create-the-sql-login%2Fuser">previous section</a>. This is so you can connect to this user in the data source.
 
 ![Username and Password Configuration](/img/en/kb/KB2159.png)
-*Username and Password Configuration*{.caption}
 
 3. Click ***OK*** to save your changes, then ***OK*** again to leave the data source settings view.
 1. Go to ***Administration – Users***, then click on the ***Add User*** button to create a new administrator user.
 
 ![Administration – Users – Add User](/img/en/kb/KB2151.png)
-*Administration – Users – Add User*{.caption}
 
 5. In the ***User Managment*** window, configure the new user as follows:
     * In the ***Authentication type*** drop-down list, select ***Custom (Devolutions)***.
@@ -67,7 +62,6 @@ For the next steps, go to the <a href="#create-your-first-custom-login-(first-ad
     * In the ***User type*** drop-down list, select ***Administrator***.
 
 ![User Configuration](/img/en/kb/KB2152.png)
-*User Configuration*{.caption}
 
 6. Click ***OK*** to save your new user configuration.
 
@@ -78,7 +72,6 @@ The new user should appear in the user list. You can close the ***User and Secur
 1. In ***File – Data Sources***, click on the ***Edit Data Source*** button to edit your Microsoft SQL server data source.
 
 ![File – Data Sources – Edit Data Source](/img/en/kb/KB2160.png)
-*File – Data Sources – Edit Data Source*{.caption}
 
 2. In the ***Microsoft SQL Server*** window, configure the login settings as follows:
     * In the ***Login mode*** drop-down list, select ***Custom login***.
@@ -86,7 +79,6 @@ The new user should appear in the user list. You can close the ***User and Secur
     * In the ***Password*** field, enter the password created for the ***admin*** custom user account in the <a href="#create-your-first-custom-login-(first-admin)">previous section.</a>
 
 ![Microsoft SQL Server Configuration](/img/en/kb/KB2153.png)
-*Microsoft SQL Server Configuration*{.caption}
 
 3. Click on ***Settings*** next to the ***Login mode*** field.
 1. In the ***Database login*** window, configure the login settings as follows:
@@ -94,7 +86,6 @@ The new user should appear in the user list. You can close the ***User and Secur
     * In the ***Password*** field, enter the password created for the ***RDMRunner*** SQL user account in the <a href="#create-the-sql-login%2Fuser">first section</a> of this topic.
 
 ![Database login Configuration](/img/en/kb/KB2154.png)
-*Database login Configuration*{.caption}
 
 5. Click ***Connect*** in the ***Database login*** window.
 1. Click ***OK*** in the ***Microsoft SQL Server*** window to save your configuration, then ***OK*** again to leave the data source settings view.
@@ -109,13 +100,11 @@ When all other custom login users have been created, continue to the <a href="#d
 1. Clear the ***Username*** and ***Password*** fields, then check the ***Always ask password*** and ***Always change username*** options.
 
 ![Data Source Duplicate Configuration](/img/en/kb/KB2155.png)
-*Data Source Duplicate Configuration*{.caption}
 
 4. Click ***OK*** to save your configuration.
 1. Click on the ***Export Data Source Configuration*** button, then save the .rdd file on your computer.
 
 ![Export Data Source Configuration](/img/en/kb/KB2156.png)
-*Export Data Source Configuration*{.caption}
 
 6. Distribute the configuration file to your users.
 
@@ -127,14 +116,12 @@ After having received the .rdd file containing the exported configuration and ha
 1. Click on the ***Import Data Source Configuration*** button.
 
 ![File – Data Sources – Import Data Source Configuration](/img/en/kb/KB2157.png)
-*File – Data Sources – Import Data Source Configuration*{.caption}
 
 3. Select in your computer the .rdd configuration file, then click ***Open***.
 1. Click ***OK*** to leave the data source settings view. 
 1. On the first connect, the ***Database login*** window appears. Enter your custom ***Username*** and ***Password***, then check the ***Remember credentials*** option to have {{ en.RDM }} stop asking for them after this first connection.
 
 ![Database Login Credentials](/img/en/kb/KB2161.png)
-*Database Login Credentials*{.caption}
 
 6. Click ***Log In***.
 

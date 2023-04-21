@@ -20,7 +20,6 @@ If you are unable to launch the RDP web client, check if you have the necessary 
 You must have at least a <a href="https://helprdm.devolutions.net/rdm_administration_licenses.html" target="_blank">{{ en.RDM }} license</a> or a <a href="/server/launcher/" target="_blank">Devolutions Launcher license</a>, ideally both. If you do not have either of these, the ***Open in Web Client*** button that allows you to open the RDP entry in a web client will not show.
 
 ![Open in Web Client (Preview)](/img/en/kb/KB2163.png)
-*Open in Web Client (Preview)*{.caption}
 
 ### Devolutions Gateway
 
@@ -33,4 +32,3 @@ You need to have the ***View password*** permission to launch the RDP session.
 To check if you have been granted this permission, select your entry in the {{ en.DPS }} web interface, then click on the ***Permissions*** tab. If you see a green check mark next to the ***View password*** permission, you have the proper permissions and your problem is elsewhere. If you have a red "X" instead, you do not have this permission. If you think you should have it, contact your administrator.
 
 ![View password Permission](/img/en/kb/KB2162.png)
-*View password Permission*{.caption}

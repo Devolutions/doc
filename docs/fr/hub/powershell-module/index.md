@@ -29,7 +29,6 @@ Pour obtenir la liste complète des commandes disponibles, consultez [Commandes 
 `Install-Module -Name {{ fr.PS }}`  
 
 ![Commande Install-Module](/img/fr/hub/Hub2015.png) 
-*Commande Install-Module*{.caption}
 
 {% snippet icon.badgeInfo %} 
 D'autres options d'installation se trouvent dans la [PowerShell Gallery](https://www.powershellgallery.com/packages/devolutions.powershell/). 
@@ -40,7 +39,6 @@ D'autres options d'installation se trouvent dans la [PowerShell Gallery](https:/
 `Connect-HubAccount -Url https<area>://yourhub.devolutions.app/ -ApplicationSecret [YOUR_APPLICATION_SECRET] -ApplicationKey [YOUR_APPLICATION_KEY]`  
 
 ![Commande Connect-HubAccount](/img/fr/hub/Hub4059.png) 
-*Commande Connect-HubAccount*{.caption}
 
 ### Exemple de commande et utilisation 
 
@@ -50,7 +48,6 @@ Si vous avez défini les permissions de l'utilisateur d'application sur plusieur
 {% endsnippet %}
  
 ![Commande Get-HubVault](/img/fr/hub/Hub4060.png) 
-*Commande Get-HubVault*{.caption}
 
 2. Avec ces informations de coffre, vous pouvez obtenir toutes les entrées avec la commande `Get-HubEntry` et l'ID du coffre. 
 
@@ -59,13 +56,10 @@ Si vous avez plus d'une entrée, vous verrez un groupe d'entrées.
 {% endsnippet %}
  
 ![Commande Get-HubEntry](/img/fr/hub/Hub4061.png) 
-*Commande Get-HubEntry*{.caption}
 
 3. Pour afficher des informations spécifiques, vous pouvez passer la commande de retour {{ fr.PHUB }} Business dans une variable et récupérer ce dont vous avez besoin, comme l'ID de connexion dans cet exemple :  
 ![Commande de retour {{ fr.PHUB }} Business dans une variable](/img/fr/hub/Hub4062.png)
-*Commande de retour {{ fr.PHUB }} Business dans une variable*{.caption}
 1. Pour modifier cette entrée, vous pouvez modifier l'objet et le mettre à jour avec la commande `Set-HubEntry`.  
 ![Commande Set-HubEntry](/img/fr/hub/Hub4063.png)
-*Commande Set-HubEntry*{.caption} 
 
 À tout moment, vous pouvez valider dans votre version Web de {{ fr.PHUB }} Business que les modifications ont été effectuées. 

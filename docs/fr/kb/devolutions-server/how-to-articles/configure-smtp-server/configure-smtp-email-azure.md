@@ -13,7 +13,6 @@ Vous pouvez maintenant configurer le courriel SMTP dans {{ fr.DVLS }}.
 1. Dans {{ fr.DVLS }}, accéder à ***Administration – Paramètres Serveur – Courriel***.
 1. Dans la liste déroulante ***Type d'authentification***, sélectionner ***Azure***.
 ![Type d'authentification Azure](/img/fr/kb/KB2087.png)
-*Type d'authentification Azure*{.caption}
 3. Dans le champ ***Courriel de l'administrateur***, saisir l'adresse courriel du destinataire qui recevra les erreurs.
 1. Dans le champ ***ID du client***, saisir l'ID de l'application. Dans le portail Azure, cette information se nomme ***ID d'application (client)*** et peut être trouvée dans la ***Vue d'ensemble*** de l'application.
 1. Dans le champ ***ID du locataire***, saisir l'ID du locataire qui peut être trouvé dans la ***Vue d'ensemble*** de votre application.

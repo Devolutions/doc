@@ -12,7 +12,6 @@ If you experience slow startup times, there are a few things to try in order to 
 1. Set ***Hardware acceleration*** to ***DirectX*** and ***Optimize UI performance*** to ***Yes***.
 
 ![DirectX Hardware Acceleration and Optimized UI Performance](/img/en/kb/KB2184.png)
-*DirectX Hardware Acceleration and Optimized UI Performance*{.caption}
 
 3. Click ***OK*** to save your changes, then restart {{ en.RDM }} to apply them.
 

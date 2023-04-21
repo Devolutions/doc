@@ -10,12 +10,10 @@ keywords:
 The {{ en.DPS }} Console Command Line Interface (CLI) is a Companion Tool which allows administrators to interact with {{ en.DPS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DPS }} Console. The DPS.Console.CLI.exe file is located in the {{ en.DVLSCONSOLE }} application installation folder. The ***/help*** switch will list all available commands and parameters. 
 
 ![Devolutions Server Console CLI commands list](/img/en/kb/KB8032.png) 
-*{{ en.DPS }} Console CLI commands list*{.caption}
 
 The ***/help*** switch can be used to list command's parameters. 
 
 ![CLI command parameters](/img/en/kb/KB8033.png) 
-*CLI command parameters*{.caption}
 
 The following sample command launch the upgrade process from a zip file available in c:\temp folder.
 
@@ -24,7 +22,6 @@ The following sample command launch the upgrade process from a zip file availabl
 The following command will create a new {{ en.DPS }} instance from a JSON response file (see below) that contains the required parameters. It can be used with any of the main commands of the CLI.
 
 ![CLI with JSON file](/img/en/kb/KB8034.png) 
-*CLI with JSON file*{.caption}
 
 Sample of a JSON response file for creating a new {{ en.DPS }} instance.
 

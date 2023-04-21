@@ -14,16 +14,13 @@ Either add the certificate to your store or configure {{ en.RDM }} to trust the 
 1. Go to ***File – Data Sources***, then click on ***Edit Data Source***.
 
 ![File – Data Sources – Edit Data Source](/img/en/kb/KB2158.png)
-*File – Data Sources – Edit Data Source*{.caption}
 
 1. In the ***Advanced*** tab, click on ***More Settings***.
 
 ![Advanced – More Settings](/img/en/kb/KB2164.png)
-*Advanced – More Settings*{.caption}
 
 1. Scroll down to the ***TrustServerCertificate*** setting and set its ***Value*** to "true".
 
 ![TrustServerCertificate = true](/img/en/kb/KB2165.png)
-*TrustServerCertificate = true*{.caption}
 
 1. Click ***OK*** in all the windows to save your changes, then try to connect again.

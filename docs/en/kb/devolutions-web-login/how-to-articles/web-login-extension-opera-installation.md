@@ -11,11 +11,8 @@ Follow the steps below to complete the installation of {{ en.DWL }} in the Opera
 1. Download the extension of [{{ en.DWL }}](https://devolutions.net/web-login) from our website page.
 1. Click on ***Go to Extension*** from the information panel at the top or click on the Extension button.  
 ![Go to Extensions](/img/en/kb/KB4815.png)  
-*Go to Extensions*{.caption} 
 1. Click ***Install*** and the ***Yes, install*** pop up.  
 ![Extension Installation Button](/img/en/kb/KB4816.png)  
-*Extension Installation Button*{.caption} 
 1. Click on the ***Extensions*** button of the browser and ***Pin*** the {{ en.DWL }} extension.  
 ![Extension Pin](/img/en/kb/KB4817.png)  
-*Extension Pin*{.caption} 
 1. Access the extension by clicking the {{ en.DWL }} button icon in the top-right corner of Opera.

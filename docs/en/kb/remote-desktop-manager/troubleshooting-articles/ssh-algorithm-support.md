@@ -14,7 +14,6 @@ In versions 2020.3.13.0 and later of {{ en.RDM }}, an error message can appear w
 1. Right-click on your entry and select ***Properties***. Make sure you are in ***Common – General*** in the left menu. 
 1. In the ***Advanced*** tab, set the ***Algorithm support*** option to ***Custom***. 
 ![Custom Algorithm support](/img/en/kb/KB4653.png) 
-*Custom Algorithm support*{.caption} 
 1. Click on the button that appeared to the right of the ***Algorithm support*** setting. 
 1. In the new ***SSH*** window, select the missing algorithms from the list. 
 {% snippet icon.badgeCaution %} 
@@ -22,7 +21,6 @@ Make sure to go through the algorithms in **all tabs** before proceeding.
 {% endsnippet %}
  
 ![Missing Algorithms Selection](/img/en/kb/KB2074.png) 
-*Missing Algorithms Selection*{.caption} 
 
 5. Click ***OK*** in the ***SSH*** window, then ***OK*** again in the window of the entry properties. 
 {% snippet icon.badgeInfo %} 
@@ -31,7 +29,6 @@ You may have to restart {{ en.RDM }} for the solution to take effect.
  
 6. Test your connection. If you are still unable to connect after enabling the algorithms, return to the ***Advanced*** tab in your entry properties and check the ***Skip environment variable setup*** box. Click ***OK***. 
 ![Skip environment variable setup](/img/en/kb/KB4702.png) 
-*Skip environment variable setup*{.caption} 
 ## Global Solution for all entries 
 It is also possible to globally reactivate all the algorithms in {{ en.RDM }} via the ***File – Options – Types – Terminal – Algorithm Support*** menu. Just select the missing algorithms, then click ***OK***. 
 {% snippet icon.badgeCaution %} 
@@ -43,13 +40,11 @@ You may have to restart {{ en.RDM }} for the solution to take effect.
 {% endsnippet %}
  
 ![File – Options – Types – Terminal – Algorithm Support](/img/en/kb/KB4654.png) 
-*File – Options – Types – Terminal – Algorithm Support*{.caption} 
 ## Custom Powershell command script 
 If you still encounter issues on a specific entry, you can run the following PowerShell script in {{ en.RDM }}. 
 1. Right-click on the problematic entry, then select ***Edit – Edit (Special Actions)***. 
 1. In the ***Edit – Special Action Selection*** window, select the ***Custom PowerShell Command*** general special action and click ***OK***. 
 ![Edit – Special Action Selection](/img/en/kb/KB2131.png) 
-*Edit – Special Action Selection*{.caption} 
 1. Paste the following script in the ***Command*** field: 
 ```
 $Connection.Terminal.AlgorithmSupportMode = "Custom"   
@@ -61,6 +56,5 @@ $RDM.Save();
 ```
 4. Click ***OK***. 
 ![Custom PowerShell Command](/img/en/kb/KB4758.png) 
-*Custom PowerShell Command*{.caption} 
 1. A notification should confirm the success of the script. Click ***OK*** and retest your session. 
 

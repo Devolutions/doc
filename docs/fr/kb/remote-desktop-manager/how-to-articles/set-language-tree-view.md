@@ -23,11 +23,9 @@ Il existe d'autres formats d'étiquettes.
 {% endsnippet %}
 
 ![Champ Culture de l'arborescence](/img/fr/kb/KB2072.png) 
-*Champ Culture de l'arborescence*{.caption}  
 
 3. Cliquer sur le bouton ***Vérifier*** à droite du champ ***Culture de l'arborescence***. Une fenêtre s'affichera pour confirmer la langue et l'emplacement ou le type. Cliquer sur ***OK*** pour la fermer.  
 ![Vérifier la culture](/img/fr/kb/KB2073.png) 
-*Vérifier la culture*{.caption}  
 
 4. Cliquer sur ***OK*** dans la fenêtre ***Arborescence*** pour sauvegarder vos changements et redémarrer {{ fr.RDM }} pour les appliquer.  
 

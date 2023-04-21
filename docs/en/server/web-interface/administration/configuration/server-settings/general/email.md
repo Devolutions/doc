@@ -6,7 +6,6 @@ Emails are sent by our notification engine and by some of our multi-factor authe
 In the ***General*** section, you are able to choose an ***Authentication type*** between ***Basic*** and ***Azure***. You can also provide the ***Administrator Email***, which is the recipient email address that will receive the errors.
 
 ![Administration – Server Settings – Email](/img/en/server/ServerOp8169.png)
-*Administration – Server Settings – Email*{.caption}
 
 After having selected the ***Authentication type***, you will get access to other fields to fill in. The information to provide depends on the authentication type.
 
@@ -17,7 +16,6 @@ See our [Configure an SMTP Email](/kb/devolutions-server/how-to-articles/configu
 {% endsnippet %}  
 
 ![Basic Authentication type](/img/en/server/ServerOp2059.png)
-*Basic Authentication type*{.caption}  
 
 <table>
 	<tr>
@@ -87,7 +85,6 @@ Sender's email address.
 ## Azure SMTP Configuration
 
 ![Azure Authentication type](/img/en/server/ServerOp2060.png)
-*Azure Authentication type*{.caption}  
 
 {% snippet icon.badgeHelp %}
 See our [Configure an SMTP Email With Azure](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email-azure) topic, which is specific to the ***Azure Authentication type***, for steps on how to configure an SMTP with Azure in {{ en.DVLS }}.

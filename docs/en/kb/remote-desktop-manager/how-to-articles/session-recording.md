@@ -71,7 +71,6 @@ We recommend choosing a custom file extension, for example on a shared network.
   * Choose ***Always prompt for name*** to ask users to name the recording. 
   * Use variables to customize the file name. Click the ***Variables*** button to view more information about available variables for this specific entry. 
 ![Session Recording](/img/en/kb/KB4993.png) 
-*Session Recording*{.caption}  
 
 Two files are saved after the session is closed. The .webm file is the recording and the .dat is for the {{ en.RDM }} player. 
 

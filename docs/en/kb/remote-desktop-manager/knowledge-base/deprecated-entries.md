@@ -9,7 +9,6 @@ Here is how to display them:
 1. Select ***Show Deprecated Entries***.  
 
 ![Edit – New Entry – Show Deprecated Entries](/img/en/kb/KB4130.png)
-*Edit – New Entry – Show Deprecated Entries*{.caption}  
 
 Here is the list of deprecated entries:
 

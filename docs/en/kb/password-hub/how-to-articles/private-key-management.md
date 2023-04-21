@@ -30,13 +30,10 @@ All three methods can be enabled at the same time, and you will always have at l
 See the examples below:
 
 ![Private Key Storage Methods – Password Method Configured](/img/en/kb/KB2185.png)
-*Private Key Storage Methods – Password Method Configured*{.caption}
 
 ![Private Key Storage Methods – Mobile Device Method Configured](/img/en/kb/KB2186.png)
-*Private Key Storage Methods – Mobile Device Method Configured*{.caption}
 
 ![Private Key Storage Methods – QR Code Method Configured](/img/en/kb/KB2187.png)
-*Private Key Storage Methods – QR Code Method Configured*{.caption}
 
 ### Store on a Mobile Device (Recommended)
 
@@ -46,16 +43,13 @@ Follow the steps below to configure this method.
 
 1. In the ***Private Key Storage Methods*** section of your Devolutions Portal, click ***Configure*** in the mobile device method box.  
 ![Configure the Mobile Device Method](/img/en/kb/KB2188.png)
-*Configure the Mobile Device Method*{.caption}
 1. [Download](https://devolutions.net/workspace/) on a mobile device the Devolutions {{ en.WS }} application.  
 ![Download Devolutions {{ en.WS }}](/img/en/kb/KB2189.png)
-*Download Devolutions {{ en.WS }}*{.caption}
 1. Once done, click ***Continue***. A QR code will appear.
 1. In the Devolutions {{ en.WS }} application, access the ***Authenticator*** space.
 1. Click ***Add***, then ***Scan a QR code***.
 1. Scan the QR code in the browser with your mobile device.
 ![Scan the QR Code](/img/en/kb/KB2190.png)
-*Scan the QR Code*{.caption}  
 
 The pairing process will begin. After it ends (it should only take a few seconds), your Private Key will be stored on the Devolutions {{ en.WS }} mobile application.  
 
@@ -63,7 +57,6 @@ The pairing process will begin. After it ends (it should only take a few seconds
 
 At any moment, you can decide to delete that storage configuration by clicking on ***Unpair***. This option is useful if you have pairing problems with your mobile device and want to redo the configuration from the start.  
 ![Unpair the Mobile Device](/img/en/kb/KB2191.png)
-*Unpair the Mobile Device*{.caption}
 
 ### Store as a QR Code
 
@@ -71,17 +64,14 @@ If you do not have access to a mobile device or if you want an additional method
 
 1. In the ***Private Key Storage Methods*** section of your Devolutions Portal, click ***Configure*** in the QR code method box.  
 ![Configure the QR Code Method](/img/en/kb/KB2192.png)
-*Configure the QR Code Method*{.caption}
 1. Either ***Download*** or ***Print*** the QR code. Whichever you choose, **be sure to keep it in a safe place**.
 ![Download or Print the QR Code](/img/en/kb/KB2193.png)
-*Download or Print the QR Code*{.caption}
 
 #### Regenerate
 
 If you encounter problems using this method to authenticate or if you lost your QR code, you can generate a new one by clicking on the vertical ellipsis and selecting ***Regenerate a new QR Code***. You can also delete the current code without generating a new one by selecting ***Delete Current QR Code***.  
 
 ![Regenerate or Delete a QR Code](/img/en/kb/KB2194.png)
-*Regenerate or Delete a QR Code*{.caption}
 
 {% snippet icon.badgeCaution %}
 Generating a new QR code makes your old code unusable. We therefore recommend that you delete the old code after generating the new one.
@@ -93,16 +83,13 @@ Follow the steps below to configure this method.
 
 1. In the ***Private Key Storage Methods*** section of your Devolutions Portal, click ***Configure*** in the password method box.  
 ![Configure the Password Method](/img/en/kb/KB2195.png)
-*Configure the Password Method*{.caption}  
 1. In the ***Password*** fields, enter a password that follows the specified rules written underneath. **Be sure to keep it in a sake place.**  
 1. Click on ***Create password***.
 
 If you want to change this password, click on the ***Change Password*** icon.
 
 ![Change Password](/img/en/kb/KB2196.png)
-*Change Password*{.caption}
 
 Follow the steps, then click ***Change Password*** when done.
 
 ![Current and New Passwords](/img/en/kb/KB2197.png)
-*Current and New Passwords*{.caption}

@@ -8,7 +8,6 @@ keywords:
 Following the creation of a {{ en.DPS }} instance, the web interface display the following error message.
 
 ![Unable to retrieve server information error message](/img/en/kb/KB8003.png) 
-*Unable to retrieve server information error message*{.caption}
 
 ## Solution
 

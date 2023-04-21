@@ -66,7 +66,6 @@ Il est conseillé de choisir une extension de fichier personnalisé. Par exemple
   * Choisir ***Toujours demander le nom*** pour forcer les utilisateurs à nommer l'enregistrement. 
   * Utiliser des variables pour personnaliser le nom du fichier. Cliquer sur le bouton ***Variables*** pour obtenir plus d'informations sur les variables disponibles pour cette entrée spécifique. 
 ![Enregistrement de la session](/img/fr/kb/KB4020.png) 
-*Enregistrement de la session*{.caption}  
 
 Types de fichier : Deux fichiers sont enregistrés après la fermeture de la session. Le fichier .webm est l’enregistrement, alors que le fichier .dat fonctionne avec le lecteur de {{ fr.RDM }}. 
 

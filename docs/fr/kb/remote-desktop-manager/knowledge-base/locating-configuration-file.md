@@ -21,9 +21,7 @@ Noter que cet exemple suppose que {{ fr.RDM }} a été installé avec les param�
 1. Appuyer sur les touchent **Windows + R**. 
 1. Dans la fenêtre ***Exécuter***, tapper "***%LOCALAPPDATA%\Devolutions\RemoteDesktopManager***" puis cliquer sur ***OK***. 
 ![Fenêtre Exécuter](/img/fr/kb/KB2031.png) 
-*Fenêtre Exécuter*{.caption} 
 1. Dans le dossier, localiser le fichier RemoteDesktopManager.cfg.  
 ![Fichier RemoteDesktopManager.cfg](/img/fr/kb/KB2032.png) 
-*Fichier RemoteDesktopManager.cfg*{.caption} 
 1. Veuillez nous envoyer le fichier de façon sécuritaire en suivant les instructions de la rubrique [Envoi d’un fichier de manière sécurisée à notre équipe](/fr/kb/devolutions-customer-success/securely-send-file/). 
 

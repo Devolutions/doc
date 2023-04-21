@@ -17,4 +17,3 @@ Pour que cette fonctionnalité soit opérationnelle, il est obligatoire d'active
 {% endsnippet %}
  
 ![Rapports – Rapports planifiés](/img/fr/server/ServerOp4079.png)
-*Rapports – Rapports planifiés*{.caption}

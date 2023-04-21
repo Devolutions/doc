@@ -21,7 +21,6 @@ To export the entire vault, go to ***File – Export – Export Vault (.rdm)*** 
 2. Select the entries and/or folders you wish to export. Use the **Ctrl+Click** shortcut to select multiple items at once.
 1. Right-click on the selection. In the contextual menu, select ***Export – Export Selection (.rdm)***.  
 ![Export Selection (.rdm)](/img/en/kb/KB4998.png)
-*Export Selection (.rdm)*{.caption}
 1. <a name="step4"></a>In the ***Export Entries*** window, check the options that you want to enable. For a typical migration, check the ***Include credentials, Include attachments and documents***, and ***Encrypt with master key*** options.
 
 {% snippet icon.badgeInfo %}
@@ -32,14 +31,12 @@ Specifying a master key will encrypt the entire content of the **.rdm** file to 
 {% endsnippet %}  
 
 ![Entry Export Options](/img/en/kb/KB4839.png)
-*Entry Export Options*{.caption}
 
 5. Click ***OK***.
 1. Save the **.rdm** file on your computer.
 1. In the ***{{ en.NPANE }}***, select the data source and vault in which to import the entries.
 1. Right-click on the folder and select ***Import – Import (.rdm)***.
 ![Import (.rdm)](/img/en/kb/KB4999.png)
-*Import (.rdm)*{.caption}  
 {% snippet icon.badgeNotice %}
 You can import the entire vault in ***File – Import – Import (.rdm)***.
 {% endsnippet %}  
@@ -47,7 +44,6 @@ You can import the entire vault in ***File – Import – Import (.rdm)***.
 9. Locate the **.rdm** file saved on your computer and click ***Open***.
 1. Select if you wish to ***Import in root***, ***Import in current folder***, or ***Import in specific folder***.
 ![Location of Imported Entries](/img/en/kb/KB5000.png)
-*Location of Imported Entries*{.caption} 
 1. Click ***OK***.
 1. In the next dialog, you will be presented with a list of all the entries that are in the data file. You can select specific entries you wish to import or ***Select All*** to import all your entries.
 {% snippet icon.badgeCaution %}

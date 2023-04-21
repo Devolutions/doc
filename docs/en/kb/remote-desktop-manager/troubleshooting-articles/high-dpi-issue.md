@@ -17,7 +17,6 @@ There are multiple methods on how to solve these issues.
 ### Method 1 
 1. In {{ en.RDM }}, go to ***File – Options – User Interface*** and change the ***Display scaling*** to ***DPI unaware***. 
 ![Display scaling](/img/en/kb/KB4994.png) 
-*Display scaling*{.caption}  
 
 If you cannot see the setting because of display issues, you can add the line in your config files directly. 
 {% snippet icon.badgeHelp %} 
@@ -33,10 +32,8 @@ To locate your config file refer to [Configuration File Location](/kb/remote-des
 1. Go to ***Properties***. 
 1. In the ***Compatibility*** tab, click ***Change high DPI settings***. 
 ![Change high DPI settings](/img/en/kb/KB4995.png) 
-*Change high DPI settings*{.caption} 
 1. In the ***High DPI scaling override*** section, check ***Override high DPI scaling behavior*** and click OK. 
 ![High DPI scaling override](/img/en/kb/KB4996.png) 
-*High DPI scaling override*{.caption} 
 {% snippet icon.badgeInfo %} 
 When applying this change, you must log off and log back in with your user for changes to take effect. 
 {% endsnippet %}
@@ -44,5 +41,4 @@ When applying this change, you must log off and log back in with your user for c
 ### Method 3 
 In ***File – Options – Type – Remote Desktop – Advanced***, uncheck the ***Disable RDP scale factor (HDPI)*** option. 
 ![Disable RDP scale factor (HDPI)](/img/en/kb/KB4997.png) 
-*Disable RDP scale factor (HDPI)*{.caption} 
 

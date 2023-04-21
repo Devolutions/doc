@@ -29,7 +29,6 @@ For the full list of available commands, see [PowerShell Commands](/hub/powershe
 `Install-Module -Name {{ en.PS }}`  
 
 ![Install-Module Command](/img/en/hub/Hub2136.png)
-*Install-Module Command*{.caption} 
 
 {% snippet icon.badgeInfo %} 
 Other installation options can be found in the [PowerShell Gallery](https://www.powershellgallery.com/packages/devolutions.powershell/). 
@@ -40,7 +39,6 @@ Other installation options can be found in the [PowerShell Gallery](https://www.
 `Connect-HubAccount -Url https<area>://yourhub.devolutions.app/ -ApplicationSecret [YOUR_APPLICATION_SECRET] -ApplicationKey [YOUR_APPLICATION_KEY]` 
 
 ![Connect-HubAccount Command](/img/en/hub/Hub4062.png) 
-*Connect-HubAccount Command*{.caption}
 
 ### Command Example and Use 
 
@@ -50,7 +48,6 @@ If you have set the permissions of your application user to multiple vaults, you
 {% endsnippet %}   
 
 ![Get-HubVault Command](/img/en/hub/Hub4063.png) 
-*Get-HubVault Command*{.caption}
 
 2. With this vault information, you can get all of the entries with the command `Get-HubEntry` and the vault ID. 
 
@@ -59,13 +56,10 @@ If you have more than one entry, you will see an array of entries.
 {% endsnippet %}
  
 ![Get-HubEntry Command](/img/en/hub/Hub4064.png) 
-*Get-HubEntry Command*{.caption}
 
 3. To view specific information, you can put the {{ en.PHUB }} Business command return to a variable and retrieve what you need, like the connection ID in this example:  
 ![{{ en.PHUB }} Business Command Return Variable](/img/en/hub/Hub4065.png) 
-*{{ en.PHUB }} Business Command Return Variable*{.caption}
 1. To edit this entry, you can change the object and update it with the `Set-HubEntry` command. 
-![Set-HubEntry Command](/img/en/hub/Hub4066.png)
-*Set-HubEntry Command*{.caption}  
+![Set-HubEntry Command](/img/en/hub/Hub4066.png) 
 
 At any moment, you can validate in your web version of {{ en.PHUB }} Business that the changes have been made. 

@@ -23,10 +23,8 @@ Dans le cadre du processus de création, un {{ fr.DA }} sera créé, car il est 
 
 1. Accéder à ***Administration – Utilisateurs***. Si de nouveaux utilisateurs sont synchronisés depuis le fournisseur, ils seront prêts à être invités. Leur nombre est affiché dans le widget ***Invitations nécessaires***. Cliquer sur ce widget.  
 ![Invitations nécessaires](/img/fr/hub/Hub4164.png)
-*Invitations nécessaires*{.caption}  
 2. ***Étape 1 - À partir de l'organisation*** : Sélectionner parmi les utilisateurs suggérés, le cas échéant, puis cliquer sur ***Suivant***.  
 ![Étape 1 - À partir de l'organisation](/img/fr/hub/Hub2058.png) 
-*Étape 1 - À partir de l'organisation*{.caption}  
 3. ***Étape 2 - Par courriels*** : Il est possible d'inviter d'autres utilisateurs qui ne sont pas synchronisés, mais qui appartiennent au même fournisseur. Saisir une adresse électronique individuelle ou de groupe, puis cliquer sur ***Suivant***.  
 
 {% snippet icon.badgeInfo %} 
@@ -34,17 +32,14 @@ Cela est possible uniquement si l'application d'entreprise dans Azure a l'***Ass
 {% endsnippet %}  
  
 ![Étape 2 - Par courriels](/img/fr/hub/Hub2059.png) 
-*Étape 2 - Par courriels*{.caption}  
 4. ***Étape 3 - Options*** : Sélectionner des ***Options*** pour les utilisateurs, puis cliquer sur ***Suivant***.  
 ![Étape 3 - Options](/img/fr/hub/Hub2060.png) 
-*Étape 3 - Options*{.caption}  
 5. ***Étape 4 - Groupes d'utilisateurs*** : Les utilisateurs synchronisés n'ont pas besoin d'être assignés aux ***Groupes d'utilisateurs*** synchronisés. Ils seront ajoutés automatiquement lors de leur connexion. Si vous avez des ***Groupes d'utilisateurs*** personnalisés, vous pouvez leur assigner des utilisateurs.  
 {% snippet icon.badgeInfo %} 
 Les ***Groupes d'utilisateurs*** personnalisés doivent être définis au préalable dans {{ fr.PHUB }} Business. Pour plus d'informations, voir [Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/). 
 {% endsnippet %}  
  
 ![Étape 4 - Groupes d'utilisateurs](/img/fr/hub/Hub2061.png) 
-*Étape 4 - Groupes d'utilisateurs*{.caption}  
 
 6. Cliquer sur ***Envoyer une invitation*** au bas de la fenêtre.  
 

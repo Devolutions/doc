@@ -11,8 +11,6 @@ Dans {{ fr.RDM }}, pour utiliser le mode hors-ligne avec une source de données 
 
 1. Dans {{ fr.PHUB }} Personal, aller dans ***Outils – Paramètres***.
 ![Outils – Paramètres](/img/fr/kb/KB2081.png)
-*Outils – Paramètres*{.caption}
 1. Dans la liste déroulante ***Autoriser le mode hors-ligne***, sélectionner ***Oui***.
 ![Autoriser le mode hors-ligne](/img/fr/kb/KB2080.png)
-*Autoriser le mode hors-ligne*{.caption}
 1. Cliquer sur ***Enregistrer***.

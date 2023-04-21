@@ -9,14 +9,12 @@ The two causes are RDP plug-ins and UDP usage under certain conditions.
 ## Solution for RDP plug-ins 
 Go in the ***Experience*** tab of your RDP sessions and set ***Load plug-ins in embedded mode*** to ***No***. This solution has a low impact. 
 ![Load plug-ins in embedded mode](/img/en/kb/KB4054.png) 
-*Load plug-ins in embedded mode*{.caption} 
 ## Solution for UDP usage 
 There's an option in RDM to disable UDP usage. 
 1. Open {{ en.RDM }} as an administrator. 
 1. Click on ***Tools – More Tools – Local RDP/RemoteApp Manager***. 
 1. Click on ***Disable*** to disable the ***UDP Settings***. 
 ![UDP Settings](/img/en/kb/KB4055.png) 
-*UDP Settings*{.caption} 
 
 The research in this solution hint that this is caused only when going through a VPN, others mention that it occurs only on Windows 8 paired with a Gateway server, but it has worked for many of our users. 
 

@@ -14,17 +14,13 @@ Les instructions suivantes expliquent comment utiliser {{ fr.DGW }} dans une ses
 1. Aller dans ***Connexion*** – ***VPN/SSH/Passerelle*** – ***VPN/SSH/Passerelle*** – ***Général***.
 1. Dans la section ***Général***, définir l'option ***Type*** sur {{ fr.DGW }}.  
 ![{{ fr.DGW }}](/img/fr/hub/DGW0008.png)
-*{{ fr.DGW }}*{.caption} 
 1. Dans la même section, définir l'option ***Se connecter*** sur ***Toujours connecté***.  
 ![Toujours connecté](/img/fr/hub/DGW0009.png)
-*Toujours connecté*{.caption} 
 1. Dans l'onglet ***Paramètres (Devolutions Gateway)***, sélectionner la passerelle configurée dans la [Configuration du {{ fr.HUB }} Business](/fr/hub/dgw/hub-business-configuration/).  
 ![Paramètres](/img/fr/hub/DGW0007.png)
-*Paramètres*{.caption} 
 {% snippet icon.badgeInfo %}
 Pour supprimer le délai de cinq secondes lors de l'ouverture d'une connexion, définir la valeur ***Délai*** comme 0 dans l'onglet ***Avancé***.
 {% endsnippet %}  
 
 6. Une fois la session RDP connectée, l'entrée de journal suivante doit se trouver dans ***Rapports – Sessions de Gateway***, qui sont situés dans l'interface web de {{ fr.HUB }}.  
 ![Rapports – Sessions de Gateway](/img/fr/hub/DGW0011.png)
-*Rapports – Sessions de Gateway*{.caption} 

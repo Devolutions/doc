@@ -12,8 +12,7 @@ Since 2022.3, {{ en.DGW }} supports KDC Proxy combined with API hooking RDP in {
 1. Under the ***Modules*** section, click on ***{{ en.DGW }}***.
 1. Click ***Edit*** on the desired {{ en.DGW }}.
 1. Go to the ***KDC proxy*** tab.  
-![KDC proxy Tab](/img/en/kb/KB0025.png)
-*KDC proxy Tab*{.caption} 
+![KDC proxy Tab](/img/en/kb/KB0025.png) 
 1. Enter the domain controller (adding tcp:// before) in the ***KDC Server URL*** field.
 1. Enter the DVLS domain name in the ***Kerberos realm*** field.
 {% snippet icon.badgeCaution %} 

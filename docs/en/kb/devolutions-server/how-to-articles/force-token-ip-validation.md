@@ -23,4 +23,3 @@ Disabling the option will decrease the security of the {{ en.DPS }} instance.
 To prevent this behaviour, disable the ***Force token public IP validation*** option in ***Administration – Server Settings – Security***.
 
 ![Administration – Server Settings – Security](/img/en/kb/KB8094.png)  
-*Administration – Server Settings – Security*{.caption}

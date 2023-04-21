@@ -13,7 +13,6 @@ These settings are only available for the {{ en.DPS }}, Microsoft SQL Server, an
 
 1. To enable the feature, go to ***Administration – Vault Settings – Security Settings – Temporary Access***.
 ![Administration – Vault Settings – Security Settings – Temporary Access](/img/en/kb/KB4856.png)
-*Administration – Vault Settings – Security Settings – Temporary Access*{.caption}
 
 1. Set the ***Mode*** to ***Allowed***.
 1. Optional: Change the ***Authorizers*** to ***Custom*** to add users to the authorizers list.
@@ -22,7 +21,6 @@ By default, only administrators can authorize temporary access requests.
 {% endsnippet %}  
 
 ![Add Authorizers](/img/en/kb/KB4857.png)
-*Add Authorizers*{.caption}
 
 4. Click ***OK***.
 
@@ -34,7 +32,6 @@ By default, only administrators can authorize temporary access requests.
 1. Go to ***Security Settings – Temporary Access***.
 
 ![Properties – Security Settings – Temporary Access](/img/en/kb/KB4858.png)
-*Properties – Security Settings – Temporary Access*{.caption}
 
 3. Select a ***Mode***.
 {% snippet icon.badgeInfo %}

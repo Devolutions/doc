@@ -12,7 +12,6 @@ The following modification will remove the strong name verification and could ex
 After installing {{ en.DPS }} version 6.x on a Windows Server 2008R2, you will get the following error message. 
 
 ![Could not load file or assembly window](/img/en/kb/KB4004.png) 
-*Could not load file or assembly window*{.caption}
 
 ## Solution 
 

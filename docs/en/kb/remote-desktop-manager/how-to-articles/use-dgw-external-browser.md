@@ -17,13 +17,10 @@ It is possible to use {{ en.DGW }} with an external browser, but at the moment t
 1. Right-click to go into the ***Properties*** of the ***Web Browser*** entry that has the {{ en.DGW }} set.
 1. In the ***General*** section, set the ***Display*** to ***External***.  
 ![Common – General – Display – External](/img/en/kb/KB0019.png)
-*Common – General – Display – External*{.caption} 
 1. Go to the ***Advanced*** tab.  
 ![Advanced Tab](/img/en/kb/KB0020.png)
-*Advanced Tab*{.caption} 
 1. Check ***User Data Path***.  
 ![User Data Path Option](/img/en/kb/KB0021.png)
-*User Data Path Option*{.caption} 
 1. Enter a path for a new Chrome user data to be stored.
 1. Click ***Ok*** to save the changes.
 

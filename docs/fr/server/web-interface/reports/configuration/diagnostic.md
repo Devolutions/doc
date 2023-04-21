@@ -10,4 +10,3 @@ Le rapport de ***Diagnostic*** contient des informations telles que les versions
 Ce rapport est utile pour le dépannage ou comme indication de la taille et du contenu de votre {{ fr.DVLS }}. 
 
 ![Rapports – Diagnostic](/img/fr/server/ServerOp8135.png)
-*Rapports – Diagnostic*{.caption}

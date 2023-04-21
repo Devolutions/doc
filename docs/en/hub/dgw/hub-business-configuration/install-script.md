@@ -13,38 +13,29 @@ The script install requires the use of PowerShell 7.
  
 1. Log in with your administrator {{ en.HUBB }} account. 
 1. Access the ***Administration*** tab on the left.  
-![Administration Tab](/img/en/hub/DGW0020.png)
-*Administration Tab*{.caption}
+![Administration Tab](/img/en/hub/DGW0020.png) 
 {% snippet icon.badgeCaution %} 
 An ***Application User*** is required to proceed. If one is not already created, you can read more about it in [Manage Application Users](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/). 
 {% endsnippet %}
  
 3. The ***Application User*** will need permission to manage the {{ en.DGW }} for the script to work. Click on ***System Permissions***, which is under the ***Configuration & Security*** section.  
-![Administration — System Permissions](/img/en/hub/DGW0043.png)
-*Administration – System Permissions*{.caption} 
+![Administration — System Permissions](/img/en/hub/DGW0043.png) 
 1. Select ***Edit*** button in the top right corner.  
-![Edit](/img/en/hub/DGW0044.png)
-*Edit*{.caption} 
+![Edit](/img/en/hub/DGW0044.png) 
 1. In the ***System*** tab, scroll down to ***Manage Gateways***. Select the desired ***Application User*** or user group.  
-![Manage Gateways](/img/en/hub/DGW0045.png)
-*Manage Gateways*{.caption} 
+![Manage Gateways](/img/en/hub/DGW0045.png) 
 1. Go back to the ***Administration*** tab. 
 1. Click on {{ en.DGW }}, which is under the ***Management*** section.  
-![{{ en.DGW }} Button](/img/en/hub/DGW0021.png)
-*{{ en.DGW }} Button*{.caption} 
+![{{ en.DGW }} Button](/img/en/hub/DGW0021.png) 
 1. Click on the ***Add*** ( ***+*** ) button in the top right.  
-![Add Button](/img/en/hub/DGW0022.png)
-*Add Button*{.caption} 
+![Add Button](/img/en/hub/DGW0022.png) 
 1. Select ***Install with Script*** from the dropdown.  
-![Install with Script](/img/en/hub/DGW0042.png)
-*Install with Script*{.caption} 
+![Install with Script](/img/en/hub/DGW0042.png) 
 1. Input the correct information. If the ***License*** field is left on ***None***, it will use the ***Free*** option by default.  
-![Information Fields](/img/en/hub/DGW0046.png)
-*Information Fields*{.caption} 
+![Information Fields](/img/en/hub/DGW0046.png) 
 ![!!Dgw0047.png](/img/en/hub/DGW0047.png) 
 1. Click on ***Download***.  
-![Download Script](/img/en/hub/DGW0048.png)
-*Download Script*{.caption} 
+![Download Script](/img/en/hub/DGW0048.png) 
 1. Run the downloaded script with PowerShell 7 in administrator mode. (It should be installed on the server hosting the {{ en.DGW }}.)
 1. The script will ask ***Do you want to set a certification*** ? Input ***Y*** and press ***Enter***. 
 1. Input the file path for the certificate. 
@@ -52,17 +43,13 @@ An ***Application User*** is required to proceed. If one is not already created,
 1. Press ***Enter*** when the ***Web request status*** is completed. 
 1. If the installation is successful, it will show ***{{ en.DGW }} installation done!***. Press ***Enter***. 
 1. Go back to the {{ en.DGW }} webpage and click ***Refresh***.  
-![Refresh](/img/en/hub/DGW0049.png)
-*Refresh*{.caption} 
+![Refresh](/img/en/hub/DGW0049.png) 
 1. The {{ en.DGW }} will show up with a red circle to signify the gateway is offline. Click ***Edit***.  
-![Edit](/img/en/hub/DGW0050.png)
-*Edit*{.caption} 
+![Edit](/img/en/hub/DGW0050.png) 
 1. Scroll down to the bottom of that page and click ***Test Connection***. A message box with ***Connection Successful*** should appear in the top right. 
-![Connection Successful](/img/en/hub/DGW0051.png)
-*Connection Successful*{.caption} 
+![Connection Successful](/img/en/hub/DGW0051.png) 
 1. A rectangle will show the information for every {{ en.DGW }} Hub link(s).  
-![Succesful Link](/img/en/hub/DGW0040.png)
-*Successful Link*{.caption} 
+![Succesful Link](/img/en/hub/DGW0040.png) 
 
 {% snippet icon.badgeInfo %} 
 Visit [{{ en.RDM }} Configuration](/hub/dgw/rdm-configuration/) to learn more about linking {{ en.RDM }} and {{ en.DGW }}. 

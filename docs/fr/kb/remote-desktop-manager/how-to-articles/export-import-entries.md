@@ -20,7 +20,6 @@ Pour exporter l'ensemble du coffre, cliquer sur ***Fichier – Exporter – Expo
 2. Sélectionner les entrées et/ou les dossiers à exporter. 
 1. Faire un clic droit sur votre sélection. Dans le menu contextuel, sélectionner ***Exporter – Exporter la sélection (.rdm)***.  
 ![Exporter la sélection (.rdm)](/img/fr/kb/KB2006.png)
-*Exporter la sélection (.rdm)*{.caption}
 1. <a name="etape4"></a>Dans la fenêtre ***Exporter les entrées***, cocher les options qui doivent être activées. Pour une migration typique, cocher les options ***Inclure identifiants***, ***Inclure les pièces jointes et documents*** et ***Chiffrer avec la clé maîtresse***.
 {% snippet icon.badgeInfo %} 
 Par défaut, les identifiants **ne** sont **pas** inclus. Il est crucial de cocher l'option ***Inclure identifiants*** afin que les données exportées les contiennent.
@@ -31,14 +30,12 @@ La saisie d’une clé maîtresse permet de chiffrer tout le contenu du fichier 
 {% endsnippet %}
  
 ![Options d'exportation des entrées](/img/fr/kb/KB2007.png)  
-*Options d'exportation des entrées*{.caption}
 
 5. Cliquer sur ***OK***. 
 1. Enregistrer le fichier **.rdm** sur l'ordinateur. 
 1. Dans le {{ fr.NPANE }}, sélectionner la source de données et le coffre dans lesquels importer les entrées. 
 1. Faire un clic droit sur la sélection et sélectionner ***Importer – Importer (.rdm)***.  
 ![Importer (.rdm)](/img/fr/kb/KB2008.png)
-*Importer (.rdm)*{.caption}
 {% snippet icon.badgeNotice %} 
 Il est possible d'importer tout le coffre à partir de ***Fichier – Importer – Importer (.rdm)***. 
 {% endsnippet %}
@@ -46,7 +43,6 @@ Il est possible d'importer tout le coffre à partir de ***Fichier – Importer �
 9. Repérer le fichier **.rdm** enregistré sur votre ordinateur et cliquer sur ***Ouvrir***. 
 1. Sélectionner ***Importer à la racine***, ***Importer dans le dossier en cours*** ou ***Importer dans le dossier spécifique***.  
 ![Emplacement des entrées importées](/img/fr/kb/KB2009.png)
-*Emplacement des entrées importées*{.caption}
 1. Cliquer sur ***OK***. 
 1. Dans la boîte de dialogue suivante sera affichée une liste de toutes les entrées du fichier de données. Sélectionner des entrées précises à importer ou cliquer sur ***Sélectionner tout*** pour importer toutes les entrées.
 {% snippet icon.badgeCaution %} 

@@ -3,14 +3,12 @@ title: Microsoft RDP Protocol Error
 ---
 Because of a protocol error, this session will be disconnected. Please try connecting to the remote computer again.  
 ![Protocol Error Message](/img/en/kb/KB4261.png)
-*Protocol Error Message*{.caption}
 
 ### Solution 1
 
 1. In the properties of the RDP session, go to ***Common – General***.
 1. Under the ***Experience*** tab, uncheck ***Persistent bitmap caching*** and ***Visual styles***.
 ![Uncheck Visual styles and Persistent bitmap caching Properties](/img/en/kb/KB4262.png)
-*Uncheck Visual styles and Persistent bitmap caching Properties*{.caption}
 1. Click ***OK*** at the bottom to save your changes.
 
 ### Solution 2

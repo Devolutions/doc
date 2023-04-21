@@ -10,7 +10,6 @@ La section ***Journaux*** fournit des outils pour visualiser les ***Journaux d'a
 Vous pouvez affiner votre recherche grâce aux filtres de chaque rapport et cliquer sur le bouton ***Exporter*** de chaque section pour créer un fichier CSV.  
 
 ![Rapports – Journaux](/img/fr/server/ServerOp4070.png)
-*Rapports – Journaux*{.caption} 
 
 ## Journaux d'activité 
 Le rapport sur les ***Journaux d'activité*** affiche des actions spécifiques au coffre concernant les activités de tous vos utilisateurs. Les ***Messages*** d'activité sont répertoriés dans un menu déroulant pour vous permettre de choisir et d'affiner votre recherche.  
@@ -18,21 +17,18 @@ Le rapport sur les ***Journaux d'activité*** affiche des actions spécifiques a
 Cliquez sur le bouton ***Entrée du journal*** pour afficher plus d'information sur l'activité.  
 
 ![Rapports – Journaux d'activité](/img/fr/server/ServerOp4071.png) 
-*Rapports – Journaux d'activité*{.caption}
 
 ## Journaux de la source de données  
 
 Les ***Journaux de la source de données*** affichent les journaux de la source de données {{ fr.RDMS }}. Pour plus d'information sur un journal spécifique, cliquez sur la flèche au début de la ligne.  
 
 ![Rapports – Journaux de la source de données](/img/fr/server/ServerOp4072.png) 
-*Rapports – Journaux de la source de données*{.caption}
 
 ## Journaux d'administration 
 
 Les ***Journaux d'administration*** conservent la trace des activités de niveau administratif, telles que les accès refusés, les demandes d'accès temporaire et les mises à jour des utilisateurs ou des groupes d'utilisateurs.  
 
 ![Rapports – Journaux d'administration](/img/fr/server/ServerOp4073.png) 
-*Rapports – Journaux d'administration*{.caption}
 
 ## Entrées supprimées  
 
@@ -43,7 +39,6 @@ Une fois que vous avez confirmé la suppression d'une entrée dans les listes de
 {% endsnippet %}
  
 ![Rapports – Entrées supprimées](/img/fr/server/ServerOp4074.png) 
-*Rapports – Entrées supprimées*{.caption}
 
 ## Journaux des dernières utilisations 
 
@@ -52,4 +47,3 @@ Les ***Journaux des dernières utilisations*** affichent l'heure et la date de l
 À partir de la liste, vous pouvez également déplacer les entrées affichées vers un autre coffre. Pour cela, vous n'avez qu'à sélectionner les entrées et cliquer sur le bouton ***Déplacer vers le coffre***.  
 
 ![Rapports – Journaux des dernières utilisations](/img/fr/server/ServerOp4075.png) 
-*Rapports – Journaux des dernières utilisations* {.caption}

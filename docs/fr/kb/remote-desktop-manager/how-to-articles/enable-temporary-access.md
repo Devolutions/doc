@@ -17,7 +17,6 @@ Par défaut, l'***Accès temporaire*** est défini à ***Refusé*** dans {{ fr.R
 1. Pour activer la fonctionnalité, accéder à ***Administration – Paramètres du coffre – Paramètres de sécurité – Accès temporaire***.
 
 ![Administration – Paramètres du coffre – Paramètres de sécurité – Accès temporaire](/img/fr/kb/KB2082.png)
-*Administration – Paramètres du coffre – Paramètres de sécurité – Accès temporaire*{.caption}
 
 2. Définir le ***Mode*** à ***Autorisé***.
 1. Facultatif : Définir les ***Autorisateurs*** à ***Personnalisé*** pour ajouter des utilisateurs à la liste des autorisateurs.
@@ -27,7 +26,6 @@ Par défaut, seuls les administrateurs peuvent autoriser les demandes d'accès t
 {% endsnippet %}
 
 ![Ajouter un autorisateur](/img/fr/kb/KB2084.png)
-*Ajouter un autorisateur*{.caption}
 
 4. Cliquer sur ***OK***.
 
@@ -38,7 +36,6 @@ L'***Accès temporaire*** peut également être défini de manière granulaire s
 1. Accéder à ***Paramètres de sécurité – Accès temporaire***.
 
 ![Propriétés – Paramètres de sécurité – Accès temporaire](/img/fr/kb/KB2083.png)
-*Propriétés – Paramètres de sécurité – Accès temporaire*{.caption}
 
 3. Sélectionner le ***Mode***.
 

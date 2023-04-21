@@ -11,12 +11,10 @@ Another design principle of the dashboard is that its main usage model is to go 
 1. In the ***General*** section, specify a ***Name*** and ***Folder*** for your entry if that's not already done.
 
 ![CyberArk Dashboard Properties – General – Name and Folder](/img/en/kb/KB2166.png)
-*CyberArk Dashboard Properties – General – Name and Folder* {.caption}
 
 ### ***General*** Tab
 
 ![General Tab](/img/en/kb/KB2068.png)
-*General Tab* {.caption}
 
 1. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://<server name>.<our domain>.loc/".
 1. Enter a ***Virtual directory*** if applicable. Most of the time, this field can remain empty.
@@ -56,7 +54,6 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 #### ***General***
 
 ![Advanced Tab – General](/img/en/kb/KB4930.png)
-*Advanced Tab – General* {.caption}
 
 1. The ***Auto refresh*** option is enabled by default. It maintains the connection to your CyberArk environment and removes the need to enter 2FA credentials on every connection. It is recommended to leave it enabled.
 1. Check ***Open sessions externally*** if you do not want your sessions to open in embedded mode in {{ en.RDM }}. This is mostly useful for technologies that only support being open externally, such as PSMP (PSM-SSH) and PSM-<Custom Connectors>.
@@ -70,7 +67,6 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 #### ***PVWA***
 
 ![Advanced Tab – PVWA](/img/en/kb/KB4931.png)
-*Advanced Tab – PVWA* {.caption}
 
 1. The ***Allow direct connections (PVWA)*** option is enabled by default. It allows the exact same action as the ***Connect*** button offers in PVWA.
 1. In the ***Connection components*** box, enter the components you wish to use for your connections. We initialize the field with the default components of a vanilla CyberArk installation, but this list MUST match the components configured in your vault.
@@ -78,7 +74,6 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 #### ***PSM***
 
 ![Advanced Tab – PSM](/img/en/kb/KB4932.png)
-*Advanced Tab – PSM* {.caption}
 
 1. The ***Allow connect using PSM (alternate shell)*** option is disabled by default. Enable it if you want to allow connections via PSM, but using the legacy method of providing an alternate shell.
 
@@ -98,7 +93,6 @@ Please note that for the sake of clarity, this section will only provide informa
 ### User Interface
 
 ![CyberArk Dashboard User Interface](/img/en/kb/KB2072.png)
-*CyberArk Dashboard User Interface* {.caption}
 
 1. The ***Actions*** menu allows you to:
     * Log in or out from the dashboard.
@@ -117,7 +111,6 @@ Please note that for the sake of clarity, this section will only provide informa
 With the safe selector, you can browse your safes and select the one you wish to use.  
 
 ![Safe Selector](/img/en/kb/KB2069.png)
-*Safe Selector* {.caption}
 
 1. The upper section of the drop-down list contains a subset of the safes that one has access to. You can also see and manage the list of excluded safes in ***File – Options – Types – CyberArk***
 1. ***Favorites*** will display accounts that have been tagged as favorites, but from within {{ en.RDM }}. This is not a CyberArk functionality.
@@ -126,25 +119,21 @@ With the safe selector, you can browse your safes and select the one you wish to
 
 Below is a preview of the ***CyberArk Select Safe*** page that appears after selecting ***Browse...*** in the safe selector.
 ![CyberArk Select Safe](/img/en/kb/KB4934.png)
-*CyberArk Select Safe* {.caption}
 
 In this view, if you select a safe and click ***OK***, you will then be able to view the accounts from that safe.
 
 ![Accounts View](/img/en/kb/KB2073.png)
-*Accounts View* {.caption}
 
 ### Connecting to a Host
 After selecting the account you wish to use, you can either use the ***Connect*** button in the ***Actions*** menu or right-click and select the appropriate connection component.
 
 ![Connect to an Account](/img/en/kb/KB2070.png)
-*Connect to an Account* {.caption}
 
 In both cases, you will then see a dialog box that allows you to specify the host you want to connect to.
 
 ### Selecting a Host
 
 ![CyberArk Select Host](/img/en/kb/KB2071.png)
-*CyberArk Select Host* {.caption}
 
 1. ***Host*** field
     * If the CyberArk Remote machine access field is used in the account properties, the endpoints that were entered will be listed in this field. It allows for connections even for assets that are not managed in {{ en.RDM }}.
@@ -157,4 +146,3 @@ In both cases, you will then see a dialog box that allows you to specify the hos
 After selecting the account in the CyberArk Dashboard, you can also use the ***{{ en.NPANE }}*** to select a host by right-clicking an entry and navigating to the ***Connect using*** menu.
 
 ![Connect using](/img/en/kb/KB2205.png)
-*Connect using* {.caption}

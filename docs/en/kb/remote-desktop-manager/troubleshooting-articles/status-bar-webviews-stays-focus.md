@@ -10,6 +10,5 @@ For a long-term solution, there is an option to disable the status bar altogethe
 1. Under the ***Advanced*** section, find the ***Show status bar in WebView*** option and disable it.
 
 ![Disable Show status bar in WebViews](/img/en/kb/KB2183.png)
-*Disable Show status bar in WebViews*{.caption}
 
 3. Click ***OK*** to save your change.

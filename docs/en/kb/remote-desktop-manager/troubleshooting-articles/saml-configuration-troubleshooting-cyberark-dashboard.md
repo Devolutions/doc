@@ -16,7 +16,6 @@ In the ***General*** section of the ***CyberArk Dashboard*** entry properties, y
 If you are using a version of {{ en.RDM }} prior to 2023.1, the ***IdP sign-in URL*** field will appear after you select SAML authentication. This field does not exist in 2023.1 and later versions, and the information does not need to be provided. There are two ways to get this URL: through your CyberArk Identity Administration portal account or through your Azure portal account.
 
 ![IdP sign-in URL](/img/en/kb/KB2172.png)
-*IdP sign-in URL* {.caption}
 
 ### CyberArk Method
 
@@ -33,7 +32,6 @@ If you are using a version of {{ en.RDM }} prior to 2023.1, the ***IdP sign-in U
 1. Click on ***Azure Active Directory*** in the ***Azure services*** section.
 
 ![Azure Active Directory Service](/img/en/kb/KB2170.png)
-*Azure Active Directory Service* {.caption}
 
 3. In the left menu, select ***Enterprise applications***.
 1. Click on your SAML application to go to its ***Overview*** (or create an application if you do not have one yet).
@@ -41,7 +39,6 @@ If you are using a version of {{ en.RDM }} prior to 2023.1, the ***IdP sign-in U
 1. Copy the ***User access URL***.
 
 ![User access URL](/img/en/kb/KB2171.png)
-*User access URL* {.caption}
 
 7. Paste the URL in the ***IdP sign-in URL*** field in {{ en.RDM }}.
 
@@ -58,17 +55,14 @@ If you are using a shared data source, we recommend to use a [portable version o
 1. Enter the necessary information. Refer to the [CyberArk Dashboard Configuration and Use](/kb/remote-desktop-manager/how-to-articles/cyberark-dashboard-configuration/) topic for more information. As mentioned previously, you do not have to specify the ***IdP sign-in URL*** in the 2023.1 version (the field does not exist anymore).
 
 ![CyberArk Dashboard SAML Configuration](/img/en/kb/KB2167.png)
-*CyberArk Dashboard SAML Configuration* {.caption}
 
 4. Once your entry is created, go to ***File – Options – Advanced***.
 1. Click the link at the bottom that leads to your {{ en.RDM }} configuration files.
 
 ![Link to Configuration Files](/img/en/kb/KB2168.png)
-*Link to Configuration Files* {.caption}
 
 6. Open the folder called "WebView2.Cache", then delete the "CyberArk_SAML" folder that is inside.
 
 ![Delete "CyberArk_SAML" Folder](/img/en/kb/KB2169.png)
-*Delete "CyberArk_SAML" Folder* {.caption}
 
 7. Try to connect again to your entry. You may need to refresh or restart {{ en.RDM }} for this solution to work.

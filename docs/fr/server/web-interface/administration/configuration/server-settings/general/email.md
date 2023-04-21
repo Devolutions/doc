@@ -6,14 +6,12 @@ Les courriels sont envoyés par notre moteur de notification et par certains de 
 Dans la section ***Géréral***, vous pouvez choisir un ***Type d'authentification*** entre ***Basique*** et ***Azure***. Vous pouvez également fournir le ***Courriel de l'administrateur*** qui est l'adresse courriel du destinaitaire qui recevra les erreurs.
 
 ![Administration – Paramètres Serveur – Courriel](/img/fr/server/ServerOp8013.png) 
-*Administration – Paramètres Serveur – Courriel*{.caption}
 
 Après avoir sélectionné le ***Type d'authentification***, vous aurez accès à davantage de champs à remplir. L'information à fournir dépend du type d'authentification.
 
 ## Configuration SMTP basique
 
 ![Type d'authentification basique](/img/fr/server/ServerOp2044.png)
-*Type d'authentification basique*{.caption}  
 
 {% snippet icon.badgeHelp %}
 Visitez notre rubrique [Configurer un courriel SMTP](/fr/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email), qui est spécifique au ***Type d'authentification basique***, pour obtenir les étapes de la configuration d'un SMTP dans {{ fr.DVLS}}.
@@ -87,7 +85,6 @@ Adresse courriel de l'expéditeur.
 ## Configuration SMTP avec Azure
 
 ![Type d'authentification Azure](/img/fr/server/ServerOp2045.png)
-*Type d'authentification Azure*{.caption}  
 
 {% snippet icon.badgeHelp %}
 Visitez notre rubrique [Configurer un courriel SMTP avec Azure](/fr/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email-azure), qui est spécifique au ***Type d'authentification Azure***, pour obtenir les étapes de la configuration d'un SMTP avec Azure dans {{ fr.DVLS}}.
