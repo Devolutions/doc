@@ -1,7 +1,7 @@
 ---
 title: Remote Desktop Manager
 ---
-![{{ fr.RDM }} logo](https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg)
+![!!{{ fr.RDM }} logo](https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg)
 
 {{ fr.RDM }} est une application qui intègre un ensemble complet d'outils et de gestionnaires pour répondre aux besoins de toute équipe TI. Elle est conçue pour centraliser toutes vos connexions et vos identifiants. La plupart des connexions sont établies grâce à une librairie externe ou un logiciel tiers. 
 

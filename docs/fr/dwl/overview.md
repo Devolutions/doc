@@ -1,7 +1,7 @@
 ---
 title: Survol
 ---
-![Devolutions Web Login logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
+![!!Devolutions Web Login logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
 
 {{ fr.DWL }} est une extension de navigateur Web pour les mots de passe. Utilisée conjointement avec {{ fr.RDM }} , {{ fr.RDMS }} et {{ fr.PHUB }} , elle permet aux utilisateurs d'injecter en toute sécurité des identifiants, stockés dans leur coffres, dans des sites Web.  
 

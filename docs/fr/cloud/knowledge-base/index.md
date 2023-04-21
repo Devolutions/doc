@@ -2,7 +2,7 @@
 title: Base de connaissances
 order: 120
 ---
-![Devolutions Knowledge Base Logo](https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)  
+![!!Devolutions Knowledge Base Logo](https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)  
 
 L’équipe du centre de services de Devolutions est fière de présenter cette [Base de connaissances](/fr/kb/) à notre communauté de plus de 800 000 utilisateurs!  
 

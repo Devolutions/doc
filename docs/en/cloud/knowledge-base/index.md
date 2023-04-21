@@ -3,7 +3,7 @@ title: Knowledge Base
 order: 120
 ---
 
-![Devolutions Knowledge Base Logo](https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)  
+![!!Devolutions Knowledge Base Logo](https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)  
 
 The Devolutions Customer Success team is proud to publish this [Knowledge Base](/kb/) for our community of over 800k users!  
 

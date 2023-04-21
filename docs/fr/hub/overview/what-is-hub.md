@@ -4,7 +4,7 @@ keywords:
 - on-premise
 ---
 
-![Devolutions Hub logo](https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-color-shadow.svg)
+![!!Devolutions Hub logo](https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-color-shadow.svg)
 
 Devolutions {{ fr.PHUB }} est un gestionnaire de mots de passe d 'équipe hautement sécurisé qui fait partie des services {{ fr.CLOUD }} . Il a été conçu pour que les administrateurs TI ainsi que les utilisateurs finaux puissent stocker et partager des informations dans toute l 'organisation, quelle que soit sa taille. Vous pouvez accéder aux informations sensibles et les gérer de n 'importe où et avec n 'importe quel navigateur web pris en charge.  
 

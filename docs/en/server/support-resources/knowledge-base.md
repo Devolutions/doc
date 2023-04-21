@@ -1,7 +1,7 @@
 ---
 title: Knowledge Base
 ---
-![Knowledge Base logo](/img/en/server/logo-knowledge-base-120.png)
+![!!Knowledge Base logo](/img/en/server/logo-knowledge-base-120.png)
 
 The Devolutions Customer Success team is proud to publish this [Knowledge Base](/kb/devolutions-customer-success/) for our community of over 800k users! 
 

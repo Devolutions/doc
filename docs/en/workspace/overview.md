@@ -2,7 +2,7 @@
 title: Overview
 order: 0
 ---
-![Devolutions Workspace logo](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
+![!!Devolutions Workspace logo](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
 
 Devolutions {{ en.WS }} is a Two-Factor authenticator for all your online accounts.  
 

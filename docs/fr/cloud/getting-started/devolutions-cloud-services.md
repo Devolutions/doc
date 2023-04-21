@@ -3,7 +3,7 @@ title: Services en ligne de Devolutions
 order: 0
 ---
 
-![Devolutions Cloud Services logo](https://webdevolutions.blob.core.windows.net/images/projects/cloud/logos/cloud-color-shadow.svg)
+![!!Devolutions Cloud Services logo](https://webdevolutions.blob.core.windows.net/images/projects/cloud/logos/cloud-color-shadow.svg)
 
 Les Services en ligne de Devolutions sont le point d’entrée de tous les services en ligne de Devolutions. Il est composé de plusieurs services résumés ci-dessous.  
 
