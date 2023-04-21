@@ -21,7 +21,7 @@ The ***Use specific client ID for users and user groups cache*** option should o
 
 4. Click ***App registrations*** in the ***Manage*** menu section.  
 ![!!KB4403.png](/img/en/kb/KB4403.png)
-5. ### {{ en.DPS }} Application  
+5. {{ en.DPS }} Application  
 5.1. Create the application using the ***New registration*** button in Azure portal.  
 ![!!KB4404.png](/img/en/kb/KB4404.png)
 5.2. Choose a significant name for the application. This name will not be used outside of Azure Portal.  
