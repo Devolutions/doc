@@ -20,7 +20,7 @@ This method supports more sessions if there is an available {{ en.DGW }} license
 1. Choose ***Side-by-side Installation***.
 ![Side-by-side](/img/en/server/ServerOp0004.png)
 {% snippet icon.badgeHelp %}
-It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install the {{ en.DGW }} on an offline {{ en.DPS }}.
+It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DPS }}.
 {% endsnippet %}  
 
 4. If default values don't work for your environment, enter the desired settings.
@@ -43,7 +43,7 @@ Installing by using the ***Standalone*** method will allow to install {{ en.DGW 
 ![Standalone](/img/en/server/ServerOp0008.png)
 1. Choose between ***Download version*** & ***Install from msi file***.
 {% snippet icon.badgeHelp %}
-It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install the {{ en.DGW }} on an offline {{ en.DPS }}.
+It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DPS }}.
 {% endsnippet %}  
 
 5. Click ***Next***.  
@@ -76,7 +76,7 @@ Do not share the private key with other users, as it can be used to decrypt the 
 1. Click on the ***Add*** button on the top right corner.  
 ![Add Button](/img/en/server/ServerOp0014.png)
 1. Enter the following information.
-    1. ***Name***: Name of the {{ en.DGW }} that will be displayed in {{ en.RDM }}.
+    1. ***Name***: Name of the gateway that will be displayed in {{ en.RDM }}.
     1. ***Description***: Description of the gateway.
     1. ***Set as default***: If enabled, this gateway will be selected by default when configuring {{ en.RDM }}.
     1. ***{{ en.DGW }} URL***: The {{ en.DPS }} URL that the gateway will connect to.
@@ -84,5 +84,5 @@ Do not share the private key with other users, as it can be used to decrypt the 
 1. Click on ***Save***.  
 ![{{ en.DGW }} Information](/img/en/server/ServerOp0015.png)
 
-The {{ en.DGW }} should now be visible in the list. It is possible to verify the status of the gateway with the ***Ping*** button.  
+The gateway should now be visible in the list. It is possible to verify the status of the gateway with the ***Ping*** button.  
 ![Ping](/img/en/server/ServerOp0007.png)
