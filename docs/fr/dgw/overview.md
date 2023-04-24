@@ -14,5 +14,5 @@ Les principaux avantages de Devolutions Gateway sont les suivants :
 * Améliore la productivité en éliminant le besoin de mettre à jour les règles des RPV ou des pare-feux pour un accès temporaire.  
 * {{ fr.DGW }} peut être utilisé avec les types d'entrées de connexion supportés (RDP, SSH, VNC, ARD, SCP, SFTP, PowerShell, Telnet, sites Web) dans {{ fr.RDM }} et les sources de données supportées ({{ fr.DPS }}, {{ fr.HUBB }}).  
 {% snippet icon.badgeHelp%}
-Apprenez-en davantage sur [{{ fr.DGW }}](https://devolutions.net/fr/gateway/).
-{% endsnippet %}
+Apprenez-en davantage sur [{{ fr.DGW }}](https://devolutions.net/fr/gateway/) ou demander un [essai gratuit de 30 jours](https://devolutions.net/fr/gateway/trial/).
+{% endsnippet %}  

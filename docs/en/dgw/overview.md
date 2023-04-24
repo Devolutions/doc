@@ -6,7 +6,6 @@ order: 10
 
 {{ en.DGW }} provides authorized just-in-time access to resources in segmented networks.  
 
-
 Key benefits of {{ en.DGW }} include:  
 
 * Reduced exposure to internal network resources with just-in-time RDP connections through the {{ en.DGW }}.  
