@@ -15,5 +15,5 @@ Key benefits of {{ en.DGW }} include:
 * Improved productivity by eliminating the need to update VPN or firewall rules for temporary access.  
 * Possible use of {{ en.DGW }} with supported connection entry types (RDP, SSH, VNC, ARD, SCP, SFTP, PowerShell, Telnet, websites) in {{ en.RDM }} and supported data sources ({{ en.DPS }}, {{ en.HUBB }}).  
 {% snippet icon.badgeHelp %}
-Learn more about the [{{ en.DGW }}](https://devolutions.net/gateway/).
-{% endsnippet %}
+Learn more about [{{ en.DGW }}](https://devolutions.net/gateway/) or request a [free 30-day trial](https://devolutions.net/gateway/trial/).
+{% endsnippet %}  
