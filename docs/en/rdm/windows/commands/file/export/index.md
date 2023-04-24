@@ -31,7 +31,7 @@ By default the credentials are NOT included. It is critical to check the ***Cred
 Specifying a ***Master key*** will encrypt the whole content of the .rdm file to protect its content. It is highly recommended as a backup measure, but the key is absolutely necessary for decryption. Preserve this as well in a separate storage device for safekeeping. 
 {% endsnippet %}
  
-![clip10103.png](/img/en/rdm/windows/clip10103.png) 
+![!!clip10103.png](/img/en/rdm/windows/clip10103.png) 
 
 ### Export vault (.json) 
 

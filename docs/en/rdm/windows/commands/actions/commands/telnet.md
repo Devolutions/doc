@@ -52,7 +52,7 @@ Reset host terminal connection.
 
 ### Start Recording 
 
-![clip10199.png](/img/en/rdm/windows/clip10199.png) 
+![!!clip10199.png](/img/en/rdm/windows/clip10199.png) 
 
 <table>
 	<tr>

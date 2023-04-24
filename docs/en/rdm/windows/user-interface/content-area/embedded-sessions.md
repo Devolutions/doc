@@ -12,5 +12,5 @@ Within a {{ en.RDM }} embedded session is the option to display multiple tabbed 
 Below is an example of a side-by-side split window.  
 ![Split Window - Side-By-Side](/img/en/rdm/windows/clip11188.png) 
 Below is an example of a top-down split window.  
-![clip11189.png](/img/en/rdm/windows/clip11189.png)  
+![!!clip11189.png](/img/en/rdm/windows/clip11189.png)  
 

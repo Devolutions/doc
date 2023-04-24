@@ -11,7 +11,7 @@ The information in this topic is how the &quot;Legacy&quot; mode of password ana
 The ***Entry Security Analyzer*** evaluates the strength of passwords stored in the data source. To access the password analyzer, navigate the Tools tab.  
 
 A strenght password control is also displayed under most password fields of entries.  
-![clip3448.png](/img/en/rdm/windows/clip3448.png) 
+![!!clip3448.png](/img/en/rdm/windows/clip3448.png) 
 
 The ***Entry Security Analyzer*** follows a set of rules to determine the strength of the password with a score from 0 to 100. There are two categories of rules. 
 
@@ -48,7 +48,7 @@ These are the rules which make the passwords weaker:
 
 ## Settings 
 
-![clip11340.png](/img/en/rdm/windows/clip11340.png) 
+![!!clip11340.png](/img/en/rdm/windows/clip11340.png) 
 
 <table>
 	<tr>

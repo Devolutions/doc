@@ -24,7 +24,7 @@ By default, standard users cannot create or manage templates. To allow users to 
 ## Availability 
 
 When creating a template, its availability can be specified in the ***Template Settings*** .  
-![clip3585.png](/img/en/rdm/windows/clip3585.png) 
+![!!clip3585.png](/img/en/rdm/windows/clip3585.png) 
 
 ## Usage 
 
@@ -33,14 +33,14 @@ Templates can be used in the following cases:
 ### Create a new entry 
 
 By default, when creating an entry of a type that has templates configured for, the user is prompted for a template to use. This behavior can be modified in the [System Settings](/rdm/windows/commands/administration/settings/system-settings/general/) .  
-![clip3584.png](/img/en/rdm/windows/clip3584.png) 
+![!!clip3584.png](/img/en/rdm/windows/clip3584.png) 
 
 The template can be selected before creating the entry as well. Use the ***Template*** section of the ***Add New Entry*** window.  
-![clip10266.png](/img/en/rdm/windows/clip10266.png) 
+![!!clip10266.png](/img/en/rdm/windows/clip10266.png) 
 
 ### Run a Quick Connect session 
 
 Templates can be used with the ***Quick Connect*** feature. For example, the same template can be used to connect to different hosts.  
-![clip10164.png](/img/en/rdm/windows/clip10164.png) 
+![!!clip10164.png](/img/en/rdm/windows/clip10164.png) 
 
 
