@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configuration du {{ fr.DGW }} avec le {{ fr.DPS }}
+  title: Configuration du {{ fr.DGW }} avec {{ fr.DPS }}
   description: Ce sujet décrit comment configurer {{ fr.DPS }}, gratuit ou non, pour se connecter avec {{ fr.DGW }}.
   keywords:
   - VPN
@@ -21,7 +21,7 @@ Cette méthode permet également de gérer davantage de sessions si une ou plusi
 1. Choisir ***Installation côte à côte***.  
 ![Installation côte à côte](/img/fr/server/ServerOp0004.png)
 {% snippet icon.badgeHelp %}
-Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/gateway/download) pour installer le {{ fr.DGW }} sur un {{ fr.DPS }} hors ligne.
+Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/gateway/download) pour installer {{ fr.DGW }} sur un {{ fr.DPS }} hors ligne.
 {% endsnippet %}
 
 4. Si les valeurs par défaut ne fonctionnent pas pour votre environnement, saisir les paramètres souhaités.
@@ -44,7 +44,7 @@ L'installation en utilisant la méthode ***autonome*** permettra d'installer {{ 
 ![Installation autonome](/img/fr/server/ServerOp0008.png)
 1. Choisir entre ***Télécharger la version*** et ***Installation à partir d'un fichier msi***.
 {% snippet icon.badgeHelp %}
-Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/gateway/download) pour installer le {{ fr.DGW }} sur un {{ fr.DPS }} hors ligne.
+Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/gateway/download) pour installer {{ fr.DGW }} sur un {{ fr.DPS }} hors ligne.
 {% endsnippet %}  
 
 5. Cliquer sur ***Suivant***.  
@@ -62,7 +62,7 @@ Ne partager pas la clé privée avec d'autres utilisateurs, car elle peut être 
 8. Cliquer sur ***Suivant***.  
 ![Suivant](/img/fr/server/ServerOp0010.png)
 1. Choisir entre :
-    * ***Utiliser la clé publique de l'instance DVLS 'Devolutions Server'*** : cette option est utilisée si le {{ fr.DGW }} installé est sur le même serveur que le {{ fr.DPS }} ;  
+    * ***Utiliser la clé publique de l'instance DVLS 'Devolutions Server'*** : cette option est utilisée si {{ fr.DGW }} installé est sur le même serveur que le {{ fr.DPS }} ;  
     * ***À partir du fichier*** : Si l'installation de {{ fr.DGW }} se fait sur un autre ordinateur, télécharger la clé publique du {{ fr.DPS }} que qui doit être couplé avec ce {{ fr.DGW }}.  
 ![Télécharger la clé publique](/img/fr/server/ServerOp0011.png)
 1. Cliquer sur ***Suivant***.  
@@ -85,5 +85,5 @@ Ne partager pas la clé privée avec d'autres utilisateurs, car elle peut être 
 1. Cliquer sur ***Enregistrer***.  
 ![Bouton Enregistrer](/img/fr/server/ServerOp0016.png)
 
-Le {{ fr.DGW }} devrait maintenant être visible dans la liste. Il est possible de vérifier l'état de la passerelle à l'aide du bouton ***Ping***.  
+La passerelle devrait maintenant être visible dans la liste. Il est possible de vérifier l'état de la passerelle à l'aide du bouton ***Ping***.  
 ![Ping](/img/fr/server/ServerOp0007.png)
