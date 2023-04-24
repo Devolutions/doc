@@ -20,7 +20,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/entry-SampleView.png" alt="entry-SampleView.png">
+<img src="/img/fr/server/Icons/entry-SampleView.png" alt="!!entry-SampleView.png">
 		</td>
 		<td>
 Afficher 
@@ -31,7 +31,7 @@ Afficher le champ de l'entrée sélectionnée.
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/favorite-off.png" alt="favorite-off.png">
+<img src="/img/fr/server/Icons/favorite-off.png" alt="!!favorite-off.png">
 		</td>
 		<td>
 Ajouter aux favoris 
@@ -42,7 +42,7 @@ Ajouter l'entrée sélectionnée aux favoris.
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/copy-clipboard.png" alt="copy-clipboard.png">
+<img src="/img/fr/server/Icons/copy-clipboard.png" alt="!!copy-clipboard.png">
 		</td>
 		<td>
 Copier dans le presse-papiers 
@@ -53,7 +53,7 @@ Copier le champ de l'entrée sélectionnée (généralement le nom d'utilisateur
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/backup-history.png" alt="backup-history.png">
+<img src="/img/fr/server/Icons/backup-history.png" alt="!!backup-history.png">
 		</td>
 		<td>
 Historique de l'entrée 
@@ -64,7 +64,7 @@ Survoler l'icône pour voir qui a créé/édité l'entrée.
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/open-session.png" alt="open-session.png">
+<img src="/img/fr/server/Icons/open-session.png" alt="!!open-session.png">
 		</td>
 		<td>
 Ouvrir session 
@@ -75,7 +75,7 @@ Lancer une session.
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/html.png" alt="html.png">
+<img src="/img/fr/server/Icons/html.png" alt="!!html.png">
 		</td>
 		<td>
 Parcourir l'adresse URL 
@@ -86,7 +86,7 @@ Ouvrir l'URL du site Web spécifié dans un nouvel onglet.
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/more-vert.png" alt="more-vert.png">
+<img src="/img/fr/server/Icons/more-vert.png" alt="!!more-vert.png">
 		</td>
 		<td>
 Plus 
@@ -105,7 +105,7 @@ Afficher plus d'options pour l'entrée sélectionnée :
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/edit.png" alt="edit.png">
+<img src="/img/fr/server/Icons/edit.png" alt="!!edit.png">
 		</td>
 		<td>
 Propriétés 
@@ -116,7 +116,7 @@ Modifier les propriétés de l'entrée sélectionnée.
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/notification-off.png" alt="notification-off.png">
+<img src="/img/fr/server/Icons/notification-off.png" alt="!!notification-off.png">
 		</td>
 		<td>
 Recevoir une notification quand 
@@ -127,7 +127,7 @@ S'inscrire pour recevoir des notifications sur les modifications apportées à l
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/check-out.png" alt="check-out.png">
+<img src="/img/fr/server/Icons/check-out.png" alt="!!check-out.png">
 		</td>
 		<td>
 Réserver 
@@ -138,7 +138,7 @@ Réserver la session.
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/check-in.png" alt="check-in.png">
+<img src="/img/fr/server/Icons/check-in.png" alt="!!check-in.png">
 		</td>
 		<td>
 Restituer 
@@ -149,7 +149,7 @@ Restituer la session réservée.
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/status.png" alt="status.png">
+<img src="/img/fr/server/Icons/status.png" alt="!!status.png">
 		</td>
 		<td>
 Statut 
@@ -166,7 +166,7 @@ Changer l'état ***Par défaut*** de l'entrée sélectionnée en :
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/entry-SampleDownload.png" alt="entry-SampleDownload.png">
+<img src="/img/fr/server/Icons/entry-SampleDownload.png" alt="!!entry-SampleDownload.png">
 		</td>
 		<td>
 Télécharger 
@@ -177,7 +177,7 @@ Télécharger une copie du fichier contenu dans l'entrée.
 	</tr>
 	<tr>
 		<td>
-<img src="/img/fr/server/Icons/password-management.png" alt="password-management.png">
+<img src="/img/fr/server/Icons/password-management.png" alt="!!password-management.png">
 		</td>
 		<td>
 Voir mot de passe 
