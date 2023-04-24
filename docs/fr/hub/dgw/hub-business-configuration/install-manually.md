@@ -25,7 +25,7 @@ Cette méthode ne fonctionne que pour Windows.
 1. <a name="7"></a> Cliquer sur ***Générer la clé publique de Gateway et la télécharger***. Cette clé est unique pour le compte {{ fr.HUBB }} et ne peut être générée qu'une seule fois. Si elle a déjà été générée, la clé peut être téléchargée à nouveau, si nécessaire.  
 ![Clé publique de Gateway](/img/fr/hub/DGW0036.png)
 {% snippet icon.badgeInfo %} 
-Le programme d'installation doit être exécuté sur le serveur hébergeant le {{ fr.DGW }}. 
+Le programme d'installation doit être exécuté sur le serveur hébergeant {{ fr.DGW }}. 
 {% endsnippet %} 
 
 8. Cliquer sur ***Suivant***.  
@@ -34,7 +34,7 @@ Le programme d'installation doit être exécuté sur le serveur hébergeant le {
 ![Suivant](/img/fr/hub/DGW0038.png)
 1. Sélectionner ***Configurer maintenant***, puis cliquer sur ***Suivant***.  
 ![Configurer maintenant](/img/fr/hub/DGW0039.png)
-1. Saisir l'URI d'accès pour le {{ fr.DGW }}. Le port par défaut est 443, mais il peut être modifié. Cliquer sur ***Suivant***.  
+1. Saisir l'URI d'accès pour la passerelle. Le port par défaut est 443, mais il peut être modifié. Cliquer sur ***Suivant***.  
 ![Suivant](/img/fr/hub/DGW0040.png)
 1. Les ports HTTP(S) et TCP par défaut sont respectivement 7171 et 8181, mais ils peuvent être modifiés. En outre, si un proxy inverse n'est pas utilisé, l'***écouteur HTTP*** doit avoir le même port que l'***URI*** d'accès.  
 ![Écouteurs](/img/fr/hub/DGW0041.png)
@@ -55,7 +55,7 @@ Le programme d'installation doit être exécuté sur le serveur hébergeant le {
 ![Champs d'information](/img/fr/hub/DGW0048.png)
 1. En cochant la case ***Par défaut***, ce {{ fr.DGW }} sera celui sélectionné si aucun n'est spécifié ou si ***Par défaut*** est choisi lors de la connexion.  
 ![Par défaut](/img/fr/hub/DGW0049.png)
-1. Tester si le {{ fr.DGW }} est accessible en cliquant sur ***Tester connexion***.  
+1. Tester si la passerelle est accessible en cliquant sur ***Tester connexion***.  
 ![Tester connexion](/img/fr/hub/DGW0050.png)
 1. Cliquer sur le bouton ***Ajouter*** pour relier votre installation {{ fr.DGW }} à votre {{ fr.HUBB }}.  
 ![Ajouter](/img/fr/hub/DGW0051.png)
