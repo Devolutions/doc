@@ -30,19 +30,19 @@ Afficher le coffre
 		</td>
 		<td>
 
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -62,7 +62,7 @@ Gérer le coffre
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -79,10 +79,10 @@ Ajouter des entrées
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -99,10 +99,10 @@ Modifier les entrées
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -119,10 +119,10 @@ Supprimer les entrées
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -136,13 +136,13 @@ Connecter (Exécuter)
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -159,10 +159,10 @@ Afficher le mot de passe
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -173,16 +173,16 @@ Afficher le contenu sensible
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -199,10 +199,10 @@ Afficher l 'historique des mots de passe
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -219,10 +219,10 @@ Afficher l 'historique du contenu sensible
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -239,10 +239,10 @@ Gérer les pièces jointes
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -259,10 +259,10 @@ Gérer la documentation
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -279,10 +279,10 @@ Afficher les journaux des entrées
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -299,10 +299,10 @@ Afficher l 'historique des entrées
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -322,7 +322,7 @@ Effacer l 'historique des entrées
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -342,7 +342,7 @@ Exporter
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -362,7 +362,7 @@ Afficher les journaux d 'activité
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -382,7 +382,7 @@ Afficher les entrées supprimées
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -402,7 +402,7 @@ Restaurer les entrées
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -422,7 +422,7 @@ Autorisateur de l 'accès temporaire
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 </table>

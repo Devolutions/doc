@@ -19,7 +19,7 @@ Description
 	<tr>
 		<td>
 
-![check-in.png](/img/en/hub/Icons/check-in.png)
+![!!check-in.png](/img/en/hub/Icons/check-in.png)
 		</td>
 		<td>
 Check In  
@@ -30,7 +30,7 @@ Release the session from check out.
 	</tr>
 	<tr>
 		<td>
-![check-out.png](/img/en/hub/Icons/check-out.png)
+![!!check-out.png](/img/en/hub/Icons/check-out.png)
 		</td>
 		<td>
 Check Out  
@@ -41,7 +41,7 @@ Reserve the session.
 	</tr>
 	<tr>
 		<td>
-![copy-clipboard.png](/img/en/hub/Icons/copy-clipboard.png)
+![!!copy-clipboard.png](/img/en/hub/Icons/copy-clipboard.png)
 		</td>
 		<td>
 Copy to Clipboard  
@@ -52,7 +52,7 @@ Copy the field of the selected entry (usually the username or password).
 	</tr>
 	<tr>
 		<td>
-![entry-SampleDownload.png](/img/en/hub/Icons/entry-SampleDownload.png)  
+![!!entry-SampleDownload.png](/img/en/hub/Icons/entry-SampleDownload.png)  
 		</td>
 		<td>
 Download 
@@ -63,7 +63,7 @@ Download a copy of the file contained in the entry.
 	</tr>
 	<tr>
 		<td>
-![edit.png](/img/en/hub/Icons/edit.png) 
+![!!edit.png](/img/en/hub/Icons/edit.png) 
 		</td>
 		<td>
 Edit 
@@ -74,7 +74,7 @@ Modify the properties of the selected entry.
 	</tr>
 	<tr>
 		<td>
-![entry-SampleKey1.png](/img/en/hub/Icons/entry-SampleKey1.png) 
+![!!entry-SampleKey1.png](/img/en/hub/Icons/entry-SampleKey1.png) 
 		</td>
 		<td>
 Go to 
@@ -85,7 +85,7 @@ Go to where the credentials are stored/inherited from.
 	</tr>
 	<tr>
 		<td>
-![password-history-bold.png](/img/en/hub/Icons/password-history-bold.png) 
+![!!password-history-bold.png](/img/en/hub/Icons/password-history-bold.png) 
 		</td>
 		<td>
 History 
@@ -96,7 +96,7 @@ Show the history of password changes in this entry.
 	</tr>
 	<tr>
 		<td>
-![more-vert.png](/img/en/hub/Icons/more-vert.png) 
+![!!more-vert.png](/img/en/hub/Icons/more-vert.png) 
 		</td>
 		<td>
 More 
@@ -113,7 +113,7 @@ Show more options for the selected entry.
 	</tr>
 	<tr>
 		<td>
-![earth.png](/img/en/hub/Icons/earth.png) 
+![!!earth.png](/img/en/hub/Icons/earth.png) 
 		</td>
 		<td>
 Navigate URL 
@@ -124,7 +124,7 @@ Open the specified website URL in a new tab.
 	</tr>
 	<tr>
 		<td>
-![activate-launch.png](/img/en/hub/Icons/activate-launch.png) 
+![!!activate-launch.png](/img/en/hub/Icons/activate-launch.png) 
 		</td>
 		<td>
 Open in Launcher 
@@ -135,7 +135,7 @@ Launch a session in the {{ en.DEVL }} companion tool.
 	</tr>
 	<tr>
 		<td>
-![logo-rdm.png](/img/en/hub/Icons/logo-rdm.png) 
+![!!logo-rdm.png](/img/en/hub/Icons/logo-rdm.png) 
 		</td>
 		<td>
 Open in RDM 
@@ -146,7 +146,7 @@ Launch a session in {{ en.RDM }} .
 	</tr>
 	<tr>
 		<td>
-![entry-SampleView.png](/img/en/hub/Icons/entry-SampleView.png) 
+![!!entry-SampleView.png](/img/en/hub/Icons/entry-SampleView.png) 
 		</td>
 		<td>
 Reveal password 

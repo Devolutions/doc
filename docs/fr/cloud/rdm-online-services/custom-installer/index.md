@@ -20,7 +20,7 @@ Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration 
 Le ***Gestionnaire d'installation personnalisé*** réplique les paramètres l'instance de {{ fr.RDM }} utilisée pour créer le paquet et les stocke dans le paquet pour la distribution. Vous avez le contrôle sur les catégories de paramètres que vous redistribuez, mais pas sur les paramètres discrets. Il peut être souhaitable de disposer d'une installation de {{ fr.RDM }} utilisée spécifiquement pour créer le paquet d'installation.  
 
 Vous pouvez aller dans ***Fichier –*** ***{{ fr.DA }}*** ***– Outils*** pour accéder au ***Gestionnaire de paquets d’installation personnalisés*** .  
-![Fichier – Compte Devolutions – Gestionnaire de paquets d'installation personnalisés.png](/img/fr/cloud/Cloud4060.png)  
+![Fichier – Compte Devolutions – Gestionnaire de paquets d'installation personnalisés](/img/fr/cloud/Cloud4060.png)  
 Veuillez consulter notre [guide de création d'un paquet d'installation](https://helprdm.devolutions.net/fr/installation_custominstallerservice.html) .  
 
 Si le paquet a déjà été généré, vous pouvez le télécharger directement depuis le portail comme décrit dans [Télécharger le paquet de l'installateur personnalisé](/fr/cloud/rdm-online-services/custom-installer/download-custom-installer/) . 

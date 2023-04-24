@@ -22,21 +22,21 @@ Security is at the core of {{ en.PHUB }} since it is hosted by [Microsoft Azure]
 	<tr>
 		<td>
 
-![ApplicationDWL64x64.png](/img/common/ApplicationDWL64x64.png)  
+![!!ApplicationDWL64x64.png](/img/common/ApplicationDWL64x64.png)  
 
 ## {{ en.DWL }}  
 
 Automatically fill and save credentials 
 		</td>
 		<td>
-![launcher-icon-shadow.png](/img/en/hub/Icons/launcher-icon-shadow.png)  
+![!!launcher-icon-shadow.png](/img/en/hub/Icons/launcher-icon-shadow.png)  
 
 ## {{ en.LAUNCHER }}  
 
 Remote Access Technology  
 		</td>
 		<td>
-![password-hub-importer-icon-shadow.png](/img/en/hub/Icons/password-hub-importer-icon-shadow.png)  
+![!!password-hub-importer-icon-shadow.png](/img/en/hub/Icons/password-hub-importer-icon-shadow.png)  
 
 ## {{ en.PHI }}  
 
@@ -45,7 +45,7 @@ Data Importer
 	</tr>
 	<tr>
 		<td>
-[{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with  {{ en.PHUB }} , which allows users to securely inject passwords into websites using credentials stored in their vaults. 
+[!!{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with  {{ en.PHUB }} , which allows users to securely inject passwords into websites using credentials stored in their vaults. 
 		</td>
 		<td>
 The application provides users with a simple method of launching remote sessions from the {{ en.PHUB }} web interface. 
@@ -61,14 +61,14 @@ The essential tool designed to easily and quickly import credentials into your {
 	<tr>
 		<td>
 
-![workspace-icon-shadow.png](/img/en/hub/Icons/workspace-icon-shadow.png)  
+![!!workspace-icon-shadow.png](/img/en/hub/Icons/workspace-icon-shadow.png)  
 
 ## Devolutions Workspace  
 
 Centralized Cloud-Based Environment  
 		</td>
 		<td>
-![remote-desktop-manager-icon-shadow.png](/img/en/hub/Icons/remote-desktop-manager-icon-shadow.png)  
+![!!remote-desktop-manager-icon-shadow.png](/img/en/hub/Icons/remote-desktop-manager-icon-shadow.png)  
 
 ## {{ en.RDM }}  
 

@@ -19,7 +19,7 @@ Side bar menu
 		</td>
 		<td>
         
-Click on the menu icon to navigate the ***Search, Vault, User Vault, Reports, Administration*** , ***  *** and ***Tools*** sections. 
+Click on the menu icon to navigate the ***Search, Vault, User Vault, Reports, Administration*** , and ***Tools*** sections. 
 		</td>
 	</tr>
 	<tr>

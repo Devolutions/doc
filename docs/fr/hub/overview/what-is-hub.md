@@ -22,21 +22,21 @@ La sécurité est au coeur de {{ fr.PHUB }} puisque l 'application est hébergé
 	<tr>
 		<td>
 
-![web-login-icon-shadow.png](/img/fr/hub/Icons/web-login-icon-shadow.png)  
+![!!web-login-icon-shadow.png](/img/fr/hub/Icons/web-login-icon-shadow.png)  
 
 ## {{ fr.DWL }}  
 
 Connexion automatique 
 		</td>
 		<td>
-![launcher-icon-shadow.png](/img/fr/hub/Icons/launcher-icon-shadow.png)  
+![!!launcher-icon-shadow.png](/img/fr/hub/Icons/launcher-icon-shadow.png)  
 
 ## {{ fr.LAUNCHER }}  
 
 Technologie d 'accès à distance  
 		</td>
 		<td>
-![password-hub-importer-icon-shadow.png](/img/fr/hub/Icons/password-hub-importer-icon-shadow.png)  
+![!!password-hub-importer-icon-shadow.png](/img/fr/hub/Icons/password-hub-importer-icon-shadow.png)  
 
 ## {{ fr.PHI }}  
 
@@ -45,7 +45,7 @@ Importateur de données
 	</tr>
 	<tr>
 		<td>
-[{{ fr.DWL }}](/fr/hub/dwl/overview/) est un module d 'extension de navigateur gratuit à utiliser avec {{ fr.PHUB }} . Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
+[!!{{ fr.DWL }}](/fr/hub/dwl/overview/) est un module d 'extension de navigateur gratuit à utiliser avec {{ fr.PHUB }} . Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
 		</td>
 		<td>
 L’application permet aux utilisateurs de lancer facilement des connexions à distance à partir de l 'interace Web de {{ fr.PHUB }}. 
@@ -61,14 +61,14 @@ Cet outil incontournable est conçu pour importer facilement et rapidement des i
 	<tr>
 		<td>
 
-![workspace-icon-shadow.png](/img/fr/hub/Icons/workspace-icon-shadow.png)  
+![!!workspace-icon-shadow.png](/img/fr/hub/Icons/workspace-icon-shadow.png)  
 
 ## Devolutions Workspace  
 
 Environnement centralisé basé sur le nuage  
 		</td>
 		<td>
-![remote-desktop-manager-icon-shadow.png](/img/fr/hub/Icons/remote-desktop-manager-icon-shadow.png)  
+![!!remote-desktop-manager-icon-shadow.png](/img/fr/hub/Icons/remote-desktop-manager-icon-shadow.png)  
 
 ## {{ fr.RDM }}  
 

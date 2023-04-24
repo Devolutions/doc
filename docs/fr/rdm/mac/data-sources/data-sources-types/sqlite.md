@@ -5,7 +5,7 @@ title: SQLite
 	<tr>
 		<td>
 
-![DataSourceSQLiteLarge.png](/img/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge.png](/img/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 La source de données SQLite de {{ fr.RDM }} est idéale pour un seul utilisateur dans des situations autonomes . Plus puissant et plus flexible que le format de fichier XML, il prend également en charge quelques-unes des options avancées de source de données comme les journaux et les pièces jointes. 

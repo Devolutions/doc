@@ -21,7 +21,7 @@ You can store and create up to six ***Custom Installer*** configuration file pac
 The ***Custom Installer*** replicates the settings from the {{ en.RDM }} instance used to create the package and stores them in the package for distribution. You have control over which categories of settings you are redistributing, but not discrete settings. It may be desirable to have a {{ en.RDM }} installation that is used specifically to create the Installation Package.  
 
 You can go to File – {{ en.DA }} – Tools to access the ***Custom Installer Manager*** .  
-![File - Devolutions Account - Custom Installer Manager.png](/img/en/cloud/clip0009.png)  
+![File - Devolutions Account - Custom Installer Manager](/img/en/cloud/clip0009.png)  
 
 Please consult our [Custom Installer package creation guide](https://helprdm.devolutions.net/installation_custominstallerservice.html) .  
 

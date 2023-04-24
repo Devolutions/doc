@@ -44,13 +44,13 @@ MULTIUTILISATEUR
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -61,7 +61,7 @@ MULTIUTILISATEUR
 SQLite 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -73,7 +73,7 @@ SQLite
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -84,7 +84,7 @@ SQLite
 XML 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -96,7 +96,7 @@ XML
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -113,13 +113,13 @@ XML
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -136,10 +136,10 @@ Dropbox
 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 

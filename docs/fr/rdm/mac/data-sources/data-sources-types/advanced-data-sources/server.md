@@ -5,7 +5,7 @@ title: Devolutions Server
 	<tr>
 		<td>
 
-![dvls-90X90.png](/img/fr/rdm/mac/dvls-90X90.png) 
+![!!dvls-90X90.png](/img/fr/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
 {{ fr.RDMS }} est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr) . 

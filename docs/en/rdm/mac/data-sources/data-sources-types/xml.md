@@ -5,7 +5,7 @@ title: XML
 	<tr>
 		<td>
 
-![DataSourceXMLLarge.png](/img/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge.png](/img/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 {{ en.RDM }} for Mac saves the settings directly in a file with the XML format. 

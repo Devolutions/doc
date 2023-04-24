@@ -59,10 +59,10 @@ Windows
 		</td>
 		<td>
 
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -70,10 +70,10 @@ Windows
 macOS 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -81,10 +81,10 @@ macOS
 Linux 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -92,10 +92,10 @@ Linux
 iOS 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -103,10 +103,10 @@ iOS
 Android 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 </table>

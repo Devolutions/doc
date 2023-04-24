@@ -5,7 +5,7 @@ title: XML
 	<tr>
 		<td>
 
-![DataSourceXMLLarge.png](/img/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge.png](/img/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 {{ fr.RDM }} enregistre les paramètres directement dans un fichier au format XML. 

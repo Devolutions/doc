@@ -5,7 +5,7 @@ title: SQLite
 	<tr>
 		<td>
 
-![DataSourceSQLiteLarge.png](/img/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge.png](/img/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 {{ en.RDM }} for Mac SQLite data source is ideal for single user in a stand alone situations . More powerful and more flexible than the XML file format, it also supports a few of the advanced data source options like Logs and Attachments. 

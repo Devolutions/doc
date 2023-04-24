@@ -5,7 +5,7 @@ title: Microsoft SQL Azure
 	<tr>
 		<td>
 
-![DataSourceAzureLarge.png](/img/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge.png](/img/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 With a Microsoft Azure SQL data source, {{ en.RDM }} for Mac uses the Microsoft cloud platform to save and manage entries.  

@@ -32,7 +32,7 @@ Base de données inaccessible aux utilisateurs finaux
 		</td>
 		<td>
 
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 Notes 1 et 2 
@@ -46,10 +46,10 @@ Note 1
 Comptes AD utilisés à des fins d’authentification 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -60,7 +60,7 @@ Comptes AD utilisés à des fins d’authentification
 Attribution des permissions selon l'appartenance à un groupe AD 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -74,10 +74,10 @@ Attribution des permissions selon l'appartenance à un groupe AD
 Stockage local des données 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -88,13 +88,13 @@ Stockage local des données
 Journaux d’activités 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -108,7 +108,7 @@ Note 3
 Note 4 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -116,13 +116,13 @@ Note 4
 Copie locale optionnelle des connexions 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 </table>

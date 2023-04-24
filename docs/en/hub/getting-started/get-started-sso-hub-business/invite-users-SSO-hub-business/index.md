@@ -31,6 +31,7 @@ As part of the creation process, a {{ en.DA }} will be created since it is requi
 This is only possible if the enterprise application in Azure has the ***Assignment required*** set to ***No***. This setting can be found in the ***Properties*** of the enterprise application.
 {% endsnippet %}  
  ![Step 2 - By Emails](/img/en/hub/Hub2177.png) 
+ 
 4. ***Step 3 - Options***: Select ***Options*** for users, then click ***Next***.  
 ![Step 3 - Options](/img/en/hub/Hub2178.png) 
 1. ***Step 4 - User groups***: Synchronized users do not need to be assigned to the synced ***User Groups***. They will be added automatically as they log in. If you have custom ***User Groups***, you can assign them users.  

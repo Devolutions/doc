@@ -32,7 +32,7 @@ Database not accessible to end users
 		</td>
 		<td>
 
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 Note 1 and 2 
@@ -46,10 +46,10 @@ Note 1
 AD accounts used for authentication 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -60,7 +60,7 @@ AD accounts used for authentication
 AD group membership used to assign permissions 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -74,10 +74,10 @@ AD group membership used to assign permissions
 Data stored on-premises 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
@@ -88,13 +88,13 @@ Data stored on-premises
 Activity Logs 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -108,7 +108,7 @@ Note 3
 Note 4 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
@@ -116,13 +116,13 @@ Note 4
 Optional local cache of connections 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
-![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
+![!!BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 </table>

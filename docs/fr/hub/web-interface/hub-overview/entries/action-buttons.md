@@ -20,7 +20,7 @@ Description
 	<tr>
 		<td>
 
-![entry-SampleView.png](/img/fr/hub/Icons/entry-SampleView.png) 
+![!!entry-SampleView.png](/img/fr/hub/Icons/entry-SampleView.png) 
 		</td>
 		<td>
 Afficher mot de passe 
@@ -31,7 +31,7 @@ Afficher le champ du mot de passe de l'entrée sélectionnée.
 	</tr>
 	<tr>
 		<td>
-![entry-SampleKey1.png](/img/fr/hub/Icons/entry-SampleKey1.png) 
+![!!entry-SampleKey1.png](/img/fr/hub/Icons/entry-SampleKey1.png) 
 		</td>
 		<td>
 Aller à 
@@ -42,7 +42,7 @@ Aller à l'endroit où les identifiants sont stockés ou d'où ils sont hérité
 	</tr>
 	<tr>
 		<td>
-![copy-clipboard.png](/img/fr/hub/Icons/copy-clipboard.png) 
+![!!copy-clipboard.png](/img/fr/hub/Icons/copy-clipboard.png) 
 		</td>
 		<td>
 Copier dans le presse-papiers 
@@ -53,7 +53,7 @@ Copier le champ de l'entrée sélectionnée (généralement le nom d'utilisateur
 	</tr>
 	<tr>
 		<td>
-![password-history-bold.png](/img/fr/hub/Icons/password-history-bold.png) 
+![!!password-history-bold.png](/img/fr/hub/Icons/password-history-bold.png) 
 		</td>
 		<td>
 Historique 
@@ -64,7 +64,7 @@ Afficher l'historique des changements de mot de passe dans cette entrée.
 	</tr>
 	<tr>
 		<td>
-![edit.png](/img/fr/hub/Icons/edit.png) 
+![!!edit.png](/img/fr/hub/Icons/edit.png) 
 		</td>
 		<td>
 Modifier 
@@ -75,7 +75,7 @@ Modifier les propriétés de l'entrée sélectionnée
 	</tr>
 	<tr>
 		<td>
-![activate-launch.png](/img/fr/hub/Icons/activate-launch.png) 
+![!!activate-launch.png](/img/fr/hub/Icons/activate-launch.png) 
 		</td>
 		<td>
 Ouvrir dans Launcher 
@@ -86,7 +86,7 @@ Lancer une session dans l'outil connexe {{ fr.DEVL }} .
 	</tr>
 	<tr>
 		<td>
-![logo-rdm.png](/img/fr/hub/Icons/logo-rdm.png) 
+![!!logo-rdm.png](/img/fr/hub/Icons/logo-rdm.png) 
 		</td>
 		<td>
 Ouvrir dans RDM 
@@ -97,7 +97,7 @@ Lancer une session dans {{ fr.RDM }} .
 	</tr>
 	<tr>
 		<td>
-![earth.png](/img/fr/hub/Icons/earth.png) 
+![!!earth.png](/img/fr/hub/Icons/earth.png) 
 		</td>
 		<td>
 Parcourir l'adresse URL 
@@ -108,7 +108,7 @@ Ouvrir l'URL du site Web spécifié dans un nouvel onglet.
 	</tr>
 	<tr>
 		<td>
-![more-vert.png](/img/fr/hub/Icons/more-vert.png) 
+![!!more-vert.png](/img/fr/hub/Icons/more-vert.png) 
 		</td>
 		<td>
 Plus 
@@ -125,7 +125,7 @@ Afficher plus d'options pour l'entrée sélectionnée :
 	</tr>
 	<tr>
 		<td>
-![check-out.png](/img/fr/hub/Icons/check-out.png) 
+![!!check-out.png](/img/fr/hub/Icons/check-out.png) 
 		</td>
 		<td>
 Réserver 
@@ -136,7 +136,7 @@ Réserver la session.
 	</tr>
 	<tr>
 		<td>
-![check-in.png](/img/fr/hub/Icons/check-in.png) 
+![!!check-in.png](/img/fr/hub/Icons/check-in.png) 
 		</td>
 		<td>
 Restituer 
@@ -147,7 +147,7 @@ Restituer la session.
 	</tr>
 	<tr>
 		<td>
-![entry-SampleDownload.png](/img/fr/hub/Icons/entry-SampleDownload.png) Télécharger 
+![!!entry-SampleDownload.png](/img/fr/hub/Icons/entry-SampleDownload.png) Télécharger 
 		</td>
 		<td>
 Télécharger 
