@@ -18,7 +18,7 @@ The script install requires the use of PowerShell 7.
 An ***Application User*** is required to proceed. If one is not already created, you can read more about it in [Manage Application Users](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/). 
 {% endsnippet %}
  
-3. The ***Application User*** will need permission to manage the {{ en.DGW }} for the script to work. Click on ***System Permissions***, which is under the ***Configuration & Security*** section.  
+3. The ***Application User*** will need permission to manage gateways for the script to work. Click on ***System Permissions***, which is under the ***Configuration & Security*** section.  
 ![Administration — System Permissions](/img/en/hub/DGW0043.png) 
 1. Select ***Edit*** button in the top right corner.  
 ![Edit](/img/en/hub/DGW0044.png) 
@@ -36,7 +36,7 @@ An ***Application User*** is required to proceed. If one is not already created,
 ![!!Dgw0047.png](/img/en/hub/DGW0047.png) 
 1. Click on ***Download***.  
 ![Download Script](/img/en/hub/DGW0048.png) 
-1. Run the downloaded script with PowerShell 7 in administrator mode. (It should be installed on the server hosting the {{ en.DGW }}.)
+1. Run the downloaded script with PowerShell 7 in administrator mode. (It should be installed on the server hosting {{ en.DGW }}.)
 1. The script will ask ***Do you want to set a certification*** ? Input ***Y*** and press ***Enter***. 
 1. Input the file path for the certificate. 
 1. Input the password for the certificate. (If the password was copied to the clipboard, do not CTRL+V, simply right-click) 
@@ -44,7 +44,7 @@ An ***Application User*** is required to proceed. If one is not already created,
 1. If the installation is successful, it will show ***{{ en.DGW }} installation done!***. Press ***Enter***. 
 1. Go back to the {{ en.DGW }} webpage and click ***Refresh***.  
 ![Refresh](/img/en/hub/DGW0049.png) 
-1. The {{ en.DGW }} will show up with a red circle to signify the gateway is offline. Click ***Edit***.  
+1. The gateway will show up with a red circle to signify it is offline. Click ***Edit***.  
 ![Edit](/img/en/hub/DGW0050.png) 
 1. Scroll down to the bottom of that page and click ***Test Connection***. A message box with ***Connection Successful*** should appear in the top right. 
 ![Connection Successful](/img/en/hub/DGW0051.png) 

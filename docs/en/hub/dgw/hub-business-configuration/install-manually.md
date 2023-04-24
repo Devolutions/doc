@@ -25,7 +25,7 @@ This method only works for Windows.
 1. <a name="7"></a>Click on ***Generate Gateway Public Key and download***. This key is unique to the {{ en.HUBB }} account and can only be generated once. If already generated, the key can be downloaded again, if necessary.  
 ![Gateway Public Key](/img/en/hub/DGW0028.png)
 {% snippet icon.badgeInfo %} 
-The installer should be run on the server hosting the {{ en.DGW }}. 
+The installer should be run on the server hosting {{ en.DGW }}. 
 {% endsnippet %}
  
 8. Click ***Next***.  
@@ -55,7 +55,7 @@ The installer should be run on the server hosting the {{ en.DGW }}.
 ![Information Fields](/img/en/hub/DGW0041.png) 
 1. By checking the ***Default*** box, this {{ en.DGW }} will be the one selected if none are specified or if ***Default*** is chosen when connecting.  
 ![Default](/img/en/hub/DGW0037.png) 
-1. Make certain the {{ en.DGW }} can be reached by clicking ***Test Connection***.  
+1. Make certain the gateway can be reached by clicking ***Test Connection***.  
 ![Test Connection Button](/img/en/hub/DGW0038.png) 
 1. Click the ***Add*** button to link your {{ en.DGW }} installation to your {{ en.HUBB }}.  
 ![Add Button](/img/en/hub/DGW0039.png) 
