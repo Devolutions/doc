@@ -1,7 +1,7 @@
 ---
 title: Access Denied Errors
 ---
-In {{ en.PHUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
+In {{ en.HUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
 
 ## List of Errors
 
@@ -165,6 +165,27 @@ Solution
 		</td>
 		<td>
 An administrator or any user that has the permission to manage users needs to re-invite this user. This invitation will establish the link with the {{ en.PHUBB }}.
+		</td>
+	</tr>
+</table>
+
+### Workspace is disabled for this user on this {{ en.PHUB }}.
+![Workspace is disabled for this user on this {{ en.PHUB }}.](/img/en/kb/KB2209.png)
+
+<table>
+		<td>
+Description
+		</td>
+		<td>
+This user is not allowed to access this {{ en.PHUBB }} via the {{ en.WS }} companion tool.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Solution
+		</td>
+		<td>
+The user needs to contact their {{ en.PHUBB }} administrator or any user that has the permission to manage users to enable their access.
 		</td>
 	</tr>
 </table>
