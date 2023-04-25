@@ -7,8 +7,8 @@ eleventyComputed:
   - Permissions
 ---
 This topic demonstrates how to safely migrate from ***Legacy Security*** to ***Permissions*** in {{ en.RDM }}.
-{% snippet icon.badgeInfo %}
-Before migrating from ***Legacy Security*** it is preferable to also configure the ***User Groups*** to avoid receiving prompts. Read more about it in [Migration from Security Groups to User Groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
+{% snippet icon.badgeCaution %}
+Before migrating from ***Legacy Security*** it is advised to also configure the ***User Groups*** beforehand. Read more about it in [Migration from Security Groups to User Groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 {% endsnippet %}  
 
 ## Migrating From Legacy Security to Permissions
