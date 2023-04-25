@@ -1,5 +1,10 @@
 ---
-title: Access Denied Errors
+eleventyComputed:
+  title: Access Denied Errors
+  description: In {{ en.HUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
+  keywords:
+  - Access Denied
+  - Error
 ---
 In {{ en.HUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
 
