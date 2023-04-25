@@ -60,7 +60,7 @@ Additional tree view settings and information are available in ***File – Optio
 For more information on each tab, please consult the following topics:  
 
 * [{{ en.VLT }}](Vault) 
-* [{{ en.PVLT }}](View_Navigation_PrivateVault) 
+* [{{ en.PVLT }}](/rdm/windows/data-sources/user-vault/) 
 * [Opened Sessions](View_Navigation_OpenedSessions) 
 * [Favorite Entries](/rdm/windows/user-interface/navigation-pane/favorite-entries/) 
 * [Most Recently Used Entries](/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/) 

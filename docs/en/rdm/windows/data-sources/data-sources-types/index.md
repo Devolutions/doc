@@ -64,7 +64,7 @@ Cons:
 
 Note that there are different subscription levels for this product.  
 
-For more information, please see the [products features and highlights](https://devolutions.net/password-hub/) and consult our [Hub Business](RDM_Password_Hub_Business) topic. 
+For more information, please see the [products features and highlights](https://devolutions.net/password-hub/) and consult our [Hub Business](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/) topic. 
 		</td>
 		<td>
 Pros: 
@@ -115,7 +115,7 @@ Cons:
 		<td>
 {{ en.RDM }} uses {{ en.RDMS }} to store session information.  
 
-For more information, please consult our [{{ en.RDMS }}](DS_RDMS) topic. 
+For more information, please consult our [{{ en.RDMS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) topic. 
 		</td>
 		<td>
 Pros: 

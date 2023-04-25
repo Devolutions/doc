@@ -2,7 +2,7 @@
 title: Multi-Factor Authentication
 ---
 {% snippet icon.badgeInfo %} 
-This feature is only available for [{{ en.RDMS }}](DataSource_RDMS) , [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) , [Microsoft SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) , and [SQLite](DataSource_SQLite) data sources. 
+This feature is only available for [{{ en.RDMS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) , [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) , [Microsoft SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) , and [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) data sources. 
 {% endsnippet %}
  
 Multi-factor authentication (MFA) identifies users by at least two different components: something that the user knows (often a password) and something that the user possesses (e.g., a validation code sent to a mobile device). If one of the components is missing or supplied incorrectly, the user&apos;s identity is not established with sufficient certainty and access to the data source will remain blocked.  
