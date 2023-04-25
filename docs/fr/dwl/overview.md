@@ -10,20 +10,20 @@ Elle offre aux administrateurs système un contrôle total sur la gestion des mo
 <table>
 	<tr>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg" alt="Remote Desktop Manager Logo"><br>
+<img src="https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg" alt="!!Remote Desktop Manager Logo"><br>
 {{ fr.RDM }} <br>
 <br>
 Centralisez, gérez et lancez des connexions sécurisées à distance. 
 <br>
 		</th>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-icon-shadow.svg" alt="Devolutions Server Logo"><br>
+<img src="https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-icon-shadow.svg" alt="!!Devolutions Server Logo"><br>
 {{ fr.RDMS }} <br>
 <br>
 Sécurisez, gérez et surveillez les accès aux comptes privilégiés. <br>
 		</th>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="Hub Logo"><br>
+<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="!!Hub Logo"><br>
 {{ fr.PHUB }} <br>
 <br>
 Stockez et gérez les mots de passe professionnels. <br>

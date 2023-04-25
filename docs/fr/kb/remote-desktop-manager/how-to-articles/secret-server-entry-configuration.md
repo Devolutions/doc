@@ -37,10 +37,10 @@ Il y a une limitation avec le Rest API, vous ne pouvez pas avoir le 2FA avec Win
     <ol>
       <li>Pour ce faire, saisir vos informations au bas de l'entrée <b><i>Secret Server</i></b>. </li>
       <li>Pour le <b><i>Mode d'authentification à 2 facteurs</i></b>, sélectionner <b><i>Demander seulement quand la session expire</i></b>. De cette façon, vous obtiendrez l'invite 2FA lorsque vous ouvrirez {{ fr.RDM }}, et elle devrait durer toute la journée. Vous n'aurez pas besoin de le saisir à nouveau chaque fois que vous voudrez utiliser un identifiant, sauf si c'est ce que vous préférez et dans ce cas, sélectionner <b><i>Demander à chaque connexion</i></b>. </li>
-<img src="/img/fr/kb/KB4061.png" alt="Mode d'authentification à 2 facteurs">
+<img src="/img/fr/kb/KB4061.png" alt="!!Mode d'authentification à 2 facteurs">
 <i>Mode d'authentification à 2 facteurs</i> 
       <li>Dans l'onglet <b><i>Choisir les identifiants</i></b>, sélectionner <b><i>Demander la liste</i></b>. </li>
-<img src="/img/fr/kb/KB4060.png" alt="Choisir les identifiants">  
+<img src="/img/fr/kb/KB4060.png" alt="!!Choisir les identifiants">  
 <i>Choisir les identifiants</i> 
     </ol>
   </li>

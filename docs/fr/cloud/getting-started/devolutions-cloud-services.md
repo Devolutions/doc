@@ -14,7 +14,7 @@ Le point commun entre tous ces services est qu'ils ne nécessitent que la posses
 <table>
 	<tr>
 		<td>
-<img src="/img/en/cloud/CustomerPortal-90X90.png" alt="CustomerPortal-90X90.png">
+<img src="/img/en/cloud/CustomerPortal-90X90.png" alt="!!CustomerPortal-90X90.png">
 		</td>
 		<td>
 Le Portail Devolutions est l'emplacement où vous pouvez gérer les Informations de votre compte, les Mots de passe d'application, l'Authentification à deux facteurs, les préférences des l'infolettres et bien plus encore.  

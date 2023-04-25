@@ -38,10 +38,10 @@ There is a limitation with the Rest API, you cannot have 2FA with Windows Authen
     <ol>
       <li>To do so, enter your information at the bottom of the <b><i>Secret Server</i></b> entry. </li>
       <li>For the <b><i>Two factor mode</i></b>, select <b><i>Ask only when the session expires</i></b>. This way you will get the 2FA prompt when you open {{ en.RDM }}, and it should last all day after. You will not need to re-enter it every time you want to use a credential, unless that is what you prefer and in that case, select <b><i>Ask on every login</i></b>. </li>
-<img src="/img/en/kb/KB4062.png" alt="Secret Server Two factor mode">
+<img src="/img/en/kb/KB4062.png" alt="!!Secret Server Two factor mode">
 <i>Secret Server Two factor mode</i> 
       <li>In the <b><i>Credential Selection</i></b> tab, select <b><i>Prompt For List</i></b>. </li>
-<img src="/img/en/kb/KB4028.png" alt="Credential Selection">  
+<img src="/img/en/kb/KB4028.png" alt="!!Credential Selection">  
 <i>Credential Selection</i> 
     </ol>
   </li>

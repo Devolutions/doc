@@ -14,19 +14,19 @@ It gives system administrators full control over the management of passwords, wi
 <table>
 	<tr>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg" alt="Remote Desktop Manager Logo"><br>
+<img src="https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg" alt="!!Remote Desktop Manager Logo"><br>
 {{ en.RDM }}<br>
 <br>
 Centralize, Manage, and Secure Remote Connections.<br>
 		</th>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-icon-shadow.svg" alt="Devolutions Server Logo"><br>
+<img src="https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-icon-shadow.svg" alt="!!Devolutions Server Logo"><br>
 {{ en.RDMS }}<br>
 <br>
 Secure, Manage, and Monitor Access to Privileged Accounts.<br>
 		</th>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="Devolutions Hub Logo"><br>
+<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="!!Devolutions Hub Logo"><br>
 {{ en.PHUB }}<br>
 <br>
 Store and Manage Business-User Passwords<br>

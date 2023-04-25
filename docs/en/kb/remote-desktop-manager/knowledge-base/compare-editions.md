@@ -30,7 +30,7 @@ Jump connects to remote host securely often called a Jump Box, Service Host, or 
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -41,10 +41,10 @@ Account brokering
 Directly inject credentials into end servers, systems, applications and websites using our Devolutions Web Login browser extension.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -57,7 +57,7 @@ Generate exhaustive access logs to keep track of privileged user activity.
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -70,7 +70,7 @@ Capture all events surrounding privileged account operations, including login at
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -81,10 +81,10 @@ Automated macro
 Automated typing macro on connect or disconnect.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -95,10 +95,10 @@ Automatically launch connections using a single-click
 Launch connections to privileged sessions, remote servers, virtual machines, websites and applications with a single-click using credentials injection.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -111,7 +111,7 @@ Operate efficiently and securely in a multi-user environment by easily sharing s
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -122,10 +122,10 @@ Centralized password vault
 Protects all your privileged accounts in a centralized vault using US federal government approved encryption.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -138,7 +138,7 @@ Optional connection warning for already connected users.
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -149,10 +149,10 @@ Document manager
 Securely stores all your PDF, Word, Excel, Visio and image documents directly in the database for easy sharing.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -165,7 +165,7 @@ Database double encryption with personalized passphrase or certificate.
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -176,10 +176,10 @@ Encrypted passwords
 All passwords are encrypted by default.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -190,10 +190,10 @@ Export reports
 Export your report as a CSV file or execute and export your report through a command line.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -204,10 +204,10 @@ Export sessions and entries
 Easily export information in an XML file.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -220,7 +220,7 @@ Generate exhaustive report of failed login attempts and history.
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -231,10 +231,10 @@ Import from other applications and from different sources
 Import sessions from other applications like Dameware, KeePass, RDCMan and more; import information from a CSV file or directly from Active Directory.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -247,7 +247,7 @@ Directly imports credentials from other applications, including 1Password, Auror
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -258,10 +258,10 @@ Integrated cloud consoles
 Offers integrated cloud consoles, such as, Microsoft Azure and Microsoft Azure Table Storage.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -272,10 +272,10 @@ Integrated management tools
 Built-in support of Intel AMT out-of-band management capabilities.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -286,10 +286,10 @@ Integrated {{ en.PVLT }}
 Allows each user to have their own user vault.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -300,10 +300,10 @@ Integrated virtualization consoles
 Offers a quick overview of a machine's state using integrated virtualization consoles, such as Hyper-V, Terminal Server, Citrix XenServer and VMware.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -314,10 +314,10 @@ Integrated VPN and VPN Management
 Integrated VPN connection management with Microsoft, Cisco, SonicWall and IPsecVPN; also supports VPN route management.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -328,10 +328,10 @@ Integrates with different connection types and add-ons
 Integrates with the most popular protocols and remote connection types as well as more than 60 add-ons.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -344,7 +344,7 @@ Integrates with 1Password, Azure Key Vault, Bitwarden, CyberArk, Dashlane, {{ en
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -355,10 +355,10 @@ Macro support and automated macro
 Supports custom variables (host, username, domain, password) and Windows environment variables; also supports automated typing macro on connect or disconnect.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -369,10 +369,10 @@ Macro/Script tool support
 Supports any command line tool, keyboard macros, PowerShell, WASP PowerShell and more.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -383,10 +383,10 @@ Mobile access
 Retrieve passwords and approve requests wherever you are using your smartphone.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -399,7 +399,7 @@ Vaults allow a database to be divided into multiple, smaller compartments, makin
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -412,7 +412,7 @@ Integrates with different multiuser data source types, including: {{ en.DPS }}, 
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -425,7 +425,7 @@ Access your database even when there is no Internet connectivity.
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -436,10 +436,10 @@ Password generator and integrated password management tools
 Generates strong and random passwords, and also has an integrated password analyser and produces password history reports.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -450,10 +450,10 @@ Password Inheritance
 Set your password on a parent folder for the children folders to inherit it. The latter enables entries to inherit credentials from a parent folder.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -466,7 +466,7 @@ Clear view of password access and audit traces.
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -479,7 +479,7 @@ Modify or import entries with PowerShell; open any connection directly from a sc
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -492,7 +492,7 @@ Provide a clear view of which users are currently connected to servers within th
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -505,7 +505,7 @@ Reduce the time it takes to manage users by granting selective permissions to mu
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -518,7 +518,7 @@ The role-based based access control enables the creation of a granular protectio
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -529,10 +529,10 @@ Securely store sensitive information
 Stores all your sensitive information -- bank account, email, passport, credit card, alarm codes -- in a highly-secure and centralized vault.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -545,7 +545,7 @@ Export and import your data source configurations to simplify deployment for mul
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -558,7 +558,7 @@ Adds an additional layer of protection to your data source, using a two-factor a
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -571,7 +571,7 @@ Integrated user groups management mapped to the Active Directory Groups with the
 		<td>
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -582,10 +582,10 @@ Version tracking
 Keeps track of all modifications, allowing you to view the change history and easily roll back any unwanted change or deletion.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 	<tr>
@@ -596,10 +596,10 @@ Web browser integration
 The browser extension integrates with Internet Explorer, Firefox, Google Chrome and Opera.
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 		<td>
-<img src="/img/common/BadgeNoticeSmall.png" alt="X">
+<img src="/img/common/BadgeNoticeSmall.png" alt=!!BadgeNoticeSmall.png">
 		</td>
 	</tr>
 </table>
