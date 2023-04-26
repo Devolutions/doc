@@ -1,12 +1,9 @@
 ---
 eleventyComputed:
   title: Migrate From {{ en.DOD }} to {{ en.HUBP }}
-  description:
+  description: To benefit from all the latest features, it is recommended to use {{ en.HUBP }} instead of {{ en.DOD }}.
 ---
 To benefit from all the latest features, it is recommended to use {{ en.HUBP }} instead of {{ en.DOD }}.
-{% snippet icon.badgeCaution %}
-The migration should be done after [Adding {{ en.HUBP }} in {{ en.RDM }} as a data source](/kb/password-hub/how-to-articles/moving-hub-personal/#add-hub-personal-in-remote-desktop-manager-as-a-data-source).
-{% endsnippet %}  
 
 ## Steps
 1. Connect to the {{ en.DOD }} datasource.
