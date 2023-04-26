@@ -4,6 +4,9 @@ eleventyComputed:
   description: To benefit from all the latest features, it is recommended to use {{ en.HUBP }} instead of {{ en.DOD }}.
 ---
 To benefit from all the latest features, it is recommended to use {{ en.HUBP }} instead of {{ en.DOD }}.
+{% snippet icon.badgeInfo %}
+A [{{ en.HUBP }}](/hub/getting-started/create-hub/hub-personal/) needs to be created before migrating from {{ en.DOD }}.
+{% endsnippet %}  
 
 ## Steps
 1. Connect to the {{ en.DOD }} datasource.
