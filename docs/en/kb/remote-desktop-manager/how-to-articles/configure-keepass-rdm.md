@@ -49,4 +49,4 @@ At step 13, it is possible to instead choose either of these options:
 
 * ***Always Prompt with list*** ensures that every time the entry is accessed, it will display the entire database, making it possible to select an entry from the list instead of using a fixed KeePass credential entry.
 
-* With ***Name filtering*** enabled, the entry will use the name (referred to as "Title" in KeePass) of a specific credential entry from the KeePass database. This option can be customized to be stricter by allowing case sensitivity or exact matches only within the database.
+* With ***Name filtering*** enabled, the entry will use the name (referred to as "Title" in KeePass) of a specific credential entry from the KeePass database. This option can be customized to be stricter by allowing case sensitivity or exact matches only, within the database.
