@@ -1,11 +1,14 @@
 ---
 title: Encrypting the web.config File
+description: When using SQL Server Login or Domain accounts, encrypting the web.config file is of the utmost importance.
+keywords:
+- encryption
 ---
-### Using SQL Server Login Accounts
+## Using SQL Server Login Accounts
 
 When using SQL Server Login accounts, encrypting the web.config file is of the utmost importance.
 
-- The web.config file store the database connection strings, which contain the HostName of the database server (Data Source), the name of the database (Initial Catalogue), and the credentials (User ID and Password), thus the importance of encrypting it.
+- The web.config file stores the database connection strings, which contain the HostName of the database server (Data Source), the name of the database (Initial Catalogue), and the credentials (User ID and Password), thus the importance of encrypting it.
 
 However, since encrypting the web.config file uses ***RsaProtectedConfigurationProvider*** fromNET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
 
@@ -16,6 +19,10 @@ Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, a
 
 {% snippet icon.shieldWarning %}
 Granting access to the ***NetFrameworkConfigurationKey*** container could be a security concern, therefore it is recommended to not grant this permission to ***Network Service*** or ***Local Service***
+{% endsnippet %}
+
+{% snippet icon.badgeInfo %}
+The appsettings.json file is encrypted at the same time.
 {% endsnippet %}
 
 We recommend to use a dedicated account for the ***DevolutionsSchedulerService*** service, and set this account to run the service under.  
@@ -37,9 +44,9 @@ Adding ACL for access to the RSA Key container...
 Succeeded!
 ```
 
-### Using SQL Server Domain Accounts (Integrated Security)
+## Using SQL Server Domain Accounts (Integrated Security)
 
-When using SQL Server Domain accounts, encrypting the web.config file is very important.
+When using SQL Server Domain accounts, encrypting the web.config file is of the utmost importance.
 
 - The web.config file store the database connection strings, which contain the HostName of the database server (Data Source) and the name of the database (Initial Catalogue).
 
@@ -48,6 +55,10 @@ However, since encrypting the web.config file uses ***RsaProtectedConfigurationP
 {% snippet icon.badgeCaution %}
 Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, likely giving this error from Windows Services Console:  
 ![!!KB4843.png](/img/en/kb/KB4843.png)
+{% endsnippet %}
+
+{% snippet icon.badgeInfo %}
+The appsettings.json file is encrypted at the same time.
 {% endsnippet %}
 
 The account set on the ***DevolutionsSchedulerService*** (referred to as the VaultScheduler account in Pre-Deployment Account Survey) will require permission to read the ***NetFrameworkConfigurationKey*** container.
