@@ -174,6 +174,34 @@ An administrator or any user that has the permission to manage users needs to re
 	</tr>
 </table>
 
+### We detected a forgot password or a lost your phone (unpaired). In order to regain access to this Hub, please contact your administrator to request a new invitation.
+![We detected a forgot password or a lost your phone (unpaired). In order to regain access to this Hub, please contact your administrator to request a new invitation.](/img/en/kb/KB2219.png)
+
+<table>
+		<td>
+Description
+		</td>
+		<td>
+This user's phone pairing is broken for the private key push notification storage method.<br>
+		</td>
+	</tr>
+	<tr>
+		<td>
+Solution
+		</td>
+		<td>
+<ol>
+  <li>Go to <a href="https://portal.devolutions.com/security/private-key" target="_blank">Private Key Storage Methods</a> in your Devolutions Portal.</li>
+  <li>Delete the push entry related to the account on your phone.</li>
+  <li>Remove the QR code or Password linked to the account, if any.</li>
+  <li>Click on the <b><i>Forgot your phone</i></b> button in the <b><i>Store on a mobile device</i></b> method.</li>
+  <li>Follow the push notification configuration process.</li>
+  <li>Ask an administrator or any user that has the permission to manage users for a new invitation to the {{ en.PHUBB }}.</li>
+</ol>
+		</td>
+	</tr>
+</table>
+
 ### Workspace is disabled for this user on this {{ en.PHUB }}.
 ![Workspace is disabled for this user on this {{ en.PHUB }}.](/img/en/kb/KB2209.png)
 
