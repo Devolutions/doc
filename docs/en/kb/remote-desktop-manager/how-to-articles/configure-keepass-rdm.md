@@ -30,12 +30,19 @@ The installation folder for KeePass should use the default path (e.g., C:\Progra
 1. Select the ***KeePass*** entry, which is under ***Credential Management*** – ***Password Management***.
 1. Select ***Plugin*** from the ***Mode*** dropdown.  
 ![Plugin Mode](/img/en/kb/KB0038.png)
-{% snippet icon.badgeHelp %}
+{% snippet icon.badgeInfo %}
 It is possible to set the database path by checking the ***Set database path manually*** option.
 {% endsnippet %}  
 
 13. Under the ***Entry*** tab, select the ***Default (specific UUID)*** option in the dropdown.
-1. Click the ellipsis button next to the ***Uuid*** field.  
+{% snippet icon.badgeInfo %}
+It is also possible to use either of these options:
+* ***Always Prompt with list*** ensures that every time the entry is accessed, it will display the entire database, making it possible to select an entry from the list instead of using a fixed KeePass credential entry.
+
+* With ***Name filtering*** enabled, the entry will use the name (referred to as "Title" in KeePass) of a specific credential entry from the KeePass database. This option can be customized to be stricter by allowing case sensitivity or exact matches only, within the database.
+{% endsnippet %}  
+
+14. Click the ellipsis button next to the ***Uuid*** field.  
 ![Configure Uuid](/img/en/kb/KB0039.png)
 1. Enter the ***Master password*** to access the KeePass database.  
 ![Master Password](/img/en/kb/KB0040.png)
@@ -44,9 +51,7 @@ It is possible to set the database path by checking the ***Set database path man
 1. Select the credential that will be referenced and click ***OK***.
 1. Click ***OK*** to save the changes and close the entry options window.
 
-### Other Possible Configurations
-At step 13, it is possible to instead choose either of these options:  
-
-* ***Always Prompt with list*** ensures that every time the entry is accessed, it will display the entire database, making it possible to select an entry from the list instead of using a fixed KeePass credential entry.
-
-* With ***Name filtering*** enabled, the entry will use the name (referred to as "Title" in KeePass) of a specific credential entry from the KeePass database. This option can be customized to be stricter by allowing case sensitivity or exact matches only, within the database.
+## Troubleshooting
+{% snippet icon.badgeHelp %}
+Learn more about [KeePass Troubleshooting](/kb/remote-desktop-manager/troubleshooting-articles/keepass/).
+{% endsnippet %}  
