@@ -5,25 +5,19 @@ keywords:
 - rdp
 - web client
 ---
-Since version 2023.1 of {{ en.DPS }}, it is possible to launch RDP connections directly from the browser using a web RDP client based on IronRDP (a Rust implementation of the Microsoft Remote Desktop Protocol with a focus on security).
+If you are unable to launch the RDP web client in the {{ en.DVLS }} web interface, check to see if you have the necessary requirements using the solutions below.
 
-{% snippet icon.badgeCaution %}
-This feature is still under development. Thus, it is only possible to see a preview of the RDP session for the moment: you cannot interact with it. The clipboard is not supported and it is not yet possible to send files to the server. Rest assured that this is a temporary situation and that we are working towards a fully functional web RDP client.
-{% endsnippet %}  
-
-If you are unable to launch the RDP web client, check if you have the necessary requirements.
-
-## Requirements
+## Solutions
 
 ### Licenses
 
-You must have at least a <a href="https://helprdm.devolutions.net/rdm_administration_licenses.html" target="_blank">{{ en.RDM }} license</a> or a <a href="/server/launcher/" target="_blank">Devolutions Launcher license</a>, ideally both. If you do not have either of these, the ***Open in Web Client*** button that allows you to open the RDP entry in a web client will not show.
+You must have at least a <a href="https://helprdm.devolutions.net/rdm_administration_licenses.html" target="_blank">{{ en.RDM }} license</a> or a <a href="/server/launcher/" target="_blank">{{ en.LAUNCHER }} license</a>, ideally both. If you do not have either of these, the ***Open in Web Client*** button that allows you to open the RDP entry in a web client will not show.
 
 ![Open in Web Client (Preview)](/img/en/kb/KB2163.png)
 
-### Devolutions Gateway
+### {{ en.DGW }}
 
-Devolutions Gateway is required to open a RDP session in the Web Client of {{ en.DPS }}. If you do have a Gateway installed, check its <a href="https://docs.devolutions.net/server/dgw/server-configuration/" target="_blank">configuration</a>.
+{{ en.DGW }} is required to open a RDP session in the web client of {{ en.DVLS }}. If you do have a Gateway installed, check its <a href="https://docs.devolutions.net/server/dgw/server-configuration/" target="_blank">configuration</a>.
 
 ### View Password Permission
 
