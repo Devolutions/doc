@@ -1,5 +1,6 @@
 ---
 title: Survol
+description: Devolutions Gateway fournit un accès juste à temps aux ressources dans les réseaux segmentés.
 order: 10
 ---
 ![!!Devolutions Gateway logo](https://webdevolutions.blob.core.windows.net/images/projects/gateway/logos/gateway-color-shadow.svg)
