@@ -8,7 +8,7 @@ The following SQL Query will confirm if the user has been locked: SELECT LOGINPR
 
 The user can be manually unlocked by going in the user ***Properties*** – ***Status*** and unchecking ***Lock SQL user***. Then changing the password and finally executing the changes. 
 
-## Alternative
+### Alternative
 Alternatively, the following query can be used:
 
 ALTER LOGIN [SQLID] WITH PASSWORD = '****' UNLOCK  
