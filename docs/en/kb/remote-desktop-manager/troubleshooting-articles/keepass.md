@@ -7,7 +7,7 @@ You are prompted twice to open KeePass when connecting to a session.
 
 ### Solution 1
 
-In KeePass, click on ***Tools - Options*** , go in the ***Advanced*** tab and uncheck ***Remember*** and ***Automatically open last used database on startup***
+In KeePass, click on ***Tools - Options***, go to the ***Advanced*** tab and uncheck ***Remember*** and ***Automatically open last used database on startup***
 
 ### Problem 2
 

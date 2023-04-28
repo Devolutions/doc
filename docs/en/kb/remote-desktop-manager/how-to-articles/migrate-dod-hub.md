@@ -9,7 +9,7 @@ A [{{ en.HUBP }}](/hub/getting-started/create-hub/hub-personal/) needs to be cre
 {% endsnippet %}  
 
 ## Steps
-1. Connect to the {{ en.DOD }} datasource.
+1. Connect to the {{ en.DOD }} data source.
 1. A prompt will appear about migrating to {{ en.HUBP }}, click ***Yes***.  
 ![Migration Prompt](/img/en/kb/KB0028.png)
 1. Select the databases that should be migrated, then click ***Next***.  
@@ -18,7 +18,7 @@ A [{{ en.HUBP }}](/hub/getting-started/create-hub/hub-personal/) needs to be cre
 ![Master Key](/img/en/kb/KB0030.png)
 1. Once the files are done migrating, click ***Next***.  
 ![Migrating Files](/img/en/kb/KB0031.png)
-1. A prompt will show files that were succesful, skipped or had errors while migrating. Click ***Finish***.  
+1. A prompt will show files that were successful, skipped or had errors while migrating. Click ***Finish***.  
 ![Migration Report](/img/en/kb/KB0032.png)
-1. The migrated files will now appear in the {{ en.HUBP }} datasource.  
+1. The migrated files will now appear in the {{ en.HUBP }} data source.  
 ![Migrated Files](/img/en/kb/KB0033.png)

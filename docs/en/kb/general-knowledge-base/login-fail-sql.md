@@ -6,7 +6,7 @@ If the following error code appears when attempting to connect to the data sourc
 ## Unlocking the SQL Database
 The following SQL Query will confirm if the user has been locked: SELECT LOGINPROPERTY('UserX','islocked')  
 
-The user can be manually unlocked by going in the user ***Properties*** – ***Status*** and unchecking ***Lock SQL user***. Then changing the password and finally executing the changes. 
+The user can be manually unlocked by going to the user ***Properties*** – ***Status*** and unchecking ***Lock SQL user***. Then changing the password and finally executing the changes. 
 
 ### Alternative
 Alternatively, the following query can be used:
