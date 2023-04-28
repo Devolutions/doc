@@ -126,13 +126,24 @@ Open the specified website URL in a new tab.
 	</tr>
 	<tr>
 		<td>
+<img src="/img/en/server/Icons/open-web-client.png" alt="!!open-web-client.png">
+		</td>
+		<td>
+Open in Web Client (Preview) 
+		</td>
+		<td>
+Launch a RDP session in a new browser tab. 
+		</td>
+	</tr>
+	<tr>
+		<td>
 <img src="/img/en/server/Icons/open-session.png" alt="!!open-session.png">
 		</td>
 		<td>
-Open Session 
+Open Session ({{ en.LAUNCHER }}) 
 		</td>
 		<td>
-Launch a session. 
+Launch a session in {{ en.LAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>

@@ -62,15 +62,27 @@ Historique de l'entrée
 Survoler l'icône pour voir qui a créé/édité l'entrée. 
 		</td>
 	</tr>
+		<tr>
+		<td>
+<img src="/img/fr/server/Icons/open-web-client.png" alt="!!open-web-client.png">
+		</td>
+		<td>
+Ouvrir dans le client Web (Aperçu)
+		</td>
+		<td>
+Lancer une session RDP dans un nouvel onglet du navigateur. 
+		</td>
+	</tr>
+	<tr>
 	<tr>
 		<td>
 <img src="/img/fr/server/Icons/open-session.png" alt="!!open-session.png">
 		</td>
 		<td>
-Ouvrir session 
+Ouvrir session {{ fr.LAUNCHER }}
 		</td>
 		<td>
-Lancer une session. 
+Lancer une session dans {{ fr.LAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>
