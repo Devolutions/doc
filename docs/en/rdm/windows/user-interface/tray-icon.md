@@ -55,7 +55,7 @@ Lists the [Most Recently Used Entries](/rdm/windows/user-interface/navigation-pa
 Play List 
 		</td>
 		<td>
-Allows the user to launch a [Play List](PlayList_Actions) from the tray icon. 
+Allows the user to launch a [Play List](/rdm/windows/commands/edit/edit/play-list/play-list-actions/) from the tray icon. 
 		</td>
 	</tr>
 	<tr>

@@ -64,7 +64,7 @@ Configure a personal private key for further use in sessions.
 User Specific Settings List 
 		</td>
 		<td>
-Provide a list of all the [User Specific Settings](Edit_UserSpecificSettings) configured in {{ en.RDM }} . 
+Provide a list of all the [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) configured in {{ en.RDM }} . 
 		</td>
 	</tr>
 	<tr>
@@ -72,7 +72,7 @@ Provide a list of all the [User Specific Settings](Edit_UserSpecificSettings) co
 Local Specific Settings list 
 		</td>
 		<td>
-Provide a list of all the [Local Specific Settings](Edit_UserSpecificSettings) configured in {{ en.RDM }} . 
+Provide a list of all the [Local Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) configured in {{ en.RDM }} . 
 		</td>
 	</tr>
 </table>

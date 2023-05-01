@@ -58,5 +58,5 @@ Proceed to [Template Selection](#template-selection) below.
 
 The template selection is an optional step, but it&apos;s the only way that you have to choose a protocol type other than RDP. It also allows you to set your preferences and have them used by all the created sessions. In fact, we recommend you to import in batches for each of the session type that you need to import.  
 
-If you intend to modify each of your imported sessions as they are created, check the ***Edit*** imported entry option. Note that each session will be displayed sequentially so you can perform your modification and save. A [Batch Edit](Commands_BatchEdit) is probably preferable if you have more then a few sessions to import. 
+If you intend to modify each of your imported sessions as they are created, check the ***Edit*** imported entry option. Note that each session will be displayed sequentially so you can perform your modification and save. A [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/) is probably preferable if you have more then a few sessions to import. 
 

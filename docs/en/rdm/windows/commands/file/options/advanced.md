@@ -102,7 +102,7 @@ DESCRIPTION
 Allow embedded credential source mode (legacy) 
 		</td>
 		<td>
-Allow Embedded Credential mode in entries. This mode is deprecated and not recommended. Please review the [Credentials Options](RDM_Entry_Credentials_Options) available. 
+Allow Embedded Credential mode in entries. This mode is deprecated and not recommended. Please review the [Credentials Options](/rdm/windows/commands/edit/entries/entry-credentials-options/) available. 
 		</td>
 	</tr>
 	<tr>

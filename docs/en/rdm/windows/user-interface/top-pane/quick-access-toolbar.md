@@ -65,7 +65,7 @@ Right-Click on any command to display the contextual menu. To remove an item fro
 
 ### Quick Connect control 
 
-Please refer to [***Quick Connect***]() for a detailed description. 
+Please refer to [***Quick Connect***](/rdm/windows/commands/view/view/quick-connect/) for a detailed description. 
 
 ### Lock Application Command 
 

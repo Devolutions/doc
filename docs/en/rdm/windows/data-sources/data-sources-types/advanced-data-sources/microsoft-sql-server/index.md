@@ -39,7 +39,7 @@ A proper database backup strategy should be implemented to prevent possible data
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly in order to maintain the health of the database. Please consult [Recovery Model](Installation_RecoveryModel) . 
+Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly in order to maintain the health of the database. Please consult [Recovery Model](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/) . 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
@@ -52,7 +52,7 @@ Creating Contained Database Users as mentioned in this [article](https://docs.mi
  
 ## Configuration 
 
-Consult the [Configure SQL Server](Installation_ConfigureSQLServer) topic for more information on the configuration. 
+Consult the [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) topic for more information on the configuration. 
 
 ## Settings 
 

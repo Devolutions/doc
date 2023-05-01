@@ -19,7 +19,7 @@ Edit
 		</td>
 		<td>
 
-Edit the selected [User Specific Settings](Edit_UserSpecificSettings) . 
+Edit the selected [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
 		</td>
 	</tr>
 	<tr>
@@ -27,7 +27,7 @@ Edit the selected [User Specific Settings](Edit_UserSpecificSettings) .
 Delete 
 		</td>
 		<td>
-Delete the selected [User Specific Settings](Edit_UserSpecificSettings) . 
+Delete the selected [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
 		</td>
 	</tr>
 	<tr>

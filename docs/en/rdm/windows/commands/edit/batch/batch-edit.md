@@ -8,7 +8,7 @@ The ***Batch Edit*** feature changes the settings of multiple entries in one ope
 
 ## Advanced Search Selection 
 
-Select multiple entries by using the usual ***Ctrl/Shift + Left-click*** , etc. For a method with a little more power, use the [***Advanced Search***]() feature, which allows to select multiple entries at once, based on the defined criteria. The ***Advanced Search*** is available in ***View – Advanced Search*** . If required, you can achieve similar results with the &#32; [***Multi Vault Search***]() .  
+Select multiple entries by using the usual ***Ctrl/Shift + Left-click*** , etc. For a method with a little more power, use the [***Advanced Search***](/rdm/windows/commands/view/panels/search/advanced/) feature, which allows to select multiple entries at once, based on the defined criteria. The ***Advanced Search*** is available in ***View – Advanced Search*** . If required, you can achieve similar results with the &#32; [***Multi Vault Search***](/rdm/windows/commands/view/panels/search/multi-vault/) .  
 ![Advanced Search](/img/en/rdm/windows/clip10379.png) 
 
 Click ***Select in*** ***{{ en.NPANE }}*** to select the same entries as in the ***Advanced Search*** dialog. Then use ***Edit – Batch Edit*** to edit all the selected entries. Go to [this topic](/kb/remote-desktop-manager/how-to-articles/batch-edit-rdm/) for the steps. 
