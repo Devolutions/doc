@@ -11,11 +11,11 @@ Here is a quick troubleshooting guide to diagnose any issue with Jump ({{ en.RDM
 ## Validate the RDP Jump Host Configuration
 
 1. Connect to the jump host via {{ en.RDM }} and wait for the {{ en.RDMA }} and/or {{ en.RDM }} to start automatically.
-1. If the {{ en.RDMA }} did not start automatically, follow these steps:
+1. If the {{ en.RDMA }} does not start automatically, follow these verification steps:
     1. Start {{ en.RDM }}.
     1. Go to ***Tools – More Tools***.
     ![Tools – More Tools](/img/en/kb/KB2226.png)
-    1. Select ***{{ en.RDMA }}***, then click ***OK***.
+    1. Select ***RDM Agent***, then click ***OK***.
     ![{{ en.RDMA }}](/img/en/kb/KB2227.png)
     1. Validate the installation and connection.
     1. In the system tray, right-click the {{ en.RDMA }} tray icon and click on ***About...***.
@@ -30,15 +30,15 @@ Here is a quick troubleshooting guide to diagnose any issue with Jump ({{ en.RDM
 ## Validate the {{ en.RDMA }} and/or {{ en.RDM }} Connection
 
 1. In {{ en.RDM }}, start the jump host RDP session.
-1. Right-click on the jump host tab and select ***Agent Status***.
+1. Right-click on the jump host tab and select ***Agent Status*** in the contextual menu.
 ![Agent Status](/img/en/kb/KB2231.png)
-1. Validate that at least the {{ en.RDMA }} is connected. There will be a checkmark icon next to it. {{ en.RDM }} may also have a checkmark, which is fine.
+1. Validate that at least the ***{{ en.RDMA }}*** is connected. There will be a checkmark icon next to it. ***{{ en.RDM }}*** may also have a checkmark, which is normal.
 ![{{ en.RDMA }} Connected](/img/en/kb/KB2232.png)
 
 ## Validate the Jump Session
 
-1. With the jump host RDP session still running in {{ en.RDM }}, start the jump session. It should start in the jump host.
-1. Right-click on the jump host tab and select ***Agent Status***.
+1. With the jump host RDP session running in {{ en.RDM }}, start the jump session. It should start in the jump host.
+1. Right-click on the jump host tab and select ***Agent Status*** in the contextual menu.
 ![Agent Status](/img/en/kb/KB2231.png)
 1. Validate that there is a "1" next to ***{{ en.RDM }} Jump Sessions*** since the jump session is now open.
 ![1 {{ en.RDM }} Jump Session](/img/en/kb/KB2233.png)
@@ -53,7 +53,7 @@ Here is a quick troubleshooting guide to diagnose any issue with Jump ({{ en.RDM
 ## Perform a Full Test
 
 If you perform a full test, here is what should happen in chronological order after opening the jump host session:
-1. The Jump host session will start.
+1. The jump host session will start.
 1. {{ en.RDM }} will wait for the {{ en.RDMA }} or for {{ en.RDM }} to connect with the client {{ en.RDM }}.
 1. The client {{ en.RDM }} will send the jump session to the jump host.
 1. The jump session will start.
@@ -64,5 +64,5 @@ If you perform a full test, here is what should happen in chronological order af
   * {{ en.RDMA }} is faster to auto-start.
   * Auto-starting {{ en.RDM }} may cause the jump to timeout.
   We therefore recommend that you let {{ en.RDMA }} start {{ en.RDM }} on the first jump.
-* If {{ en.RDM }} is slow to start on the jump host, especially if it is running on TS or similar environments, see [Startup Performance](/kb/remote-desktop-manager/troubleshooting-articles/startup-performance/) for a few quick solutions to improve {{ en.RDM }} startup times. You can also uncheck the ***Show Splash screen*** setting in ***File – Options – Application – Application Startup*** to disable the splash screen.
+* If {{ en.RDM }} is slow to start on the jump host, especially if it is running on TS or similar environments. See [Startup Performance](/kb/remote-desktop-manager/troubleshooting-articles/startup-performance/) for a few quick solutions to improve {{ en.RDM }} startup times. You can also uncheck the ***Show Splash screen*** setting in ***File – Options – Application – Application Startup*** to disable the splash screen.
 * The client {{ en.RDM }} will favor direct communication with {{ en.RDM }} if it is already connected, and will only fall back to {{ en.RDMA }} if it is not available. This is by design and has the advantage of being slightly faster at starting sessions.
