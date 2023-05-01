@@ -16,7 +16,7 @@ It is possible to create local and database templates.
 * Database templates are saved in the database. They are available to all users of the data source. 
 
 {% snippet icon.badgeInfo %} 
-By default, standard users cannot create or manage templates. To allow users to create or manage templates, the permission must be granted to users using the ***Administration*** – ***Templates*** section of the [System Permissions](Commands_DataSourcePermissions) . 
+By default, standard users cannot create or manage templates. To allow users to create or manage templates, the permission must be granted to users using the ***Administration*** – ***Templates*** section of the [System Permissions](/rdm/windows/commands/administration/settings/system-permissions/) . 
 {% endsnippet %}
  
 ![File – Templates](/img/en/rdm/windows/clip10235.png) 

@@ -16,14 +16,14 @@ The offline cache is first encrypted using our own private key mixed with some i
 {% endsnippet %}
  
 
-For added security, offline files are set to expire after a delay. The default expiry is set to 7 days but can be modified via the [System Settings](Commands_DataSourceSettingsOffline) .  
+For added security, offline files are set to expire after a delay. The default expiry is set to 7 days but can be modified via the [System Settings](/rdm/windows/commands/administration/settings/system-settings/application/offline/) .  
 
 {{ en.RDM }} will prompt for offline mode when the application is unable to reach the data source but the offline mode can be toggled manually with ***File – Go Offline*** .  
 
 Several features are not available in offline mode, such as:  
 
 * Attachments and logs. 
-* [User management](Administration_UserManagement) (Add/Edit/Delete users). 
+* [User management](/rdm/windows/commands/administration/management/user-management/) (Add/Edit/Delete users). 
 
 ## Availability 
 

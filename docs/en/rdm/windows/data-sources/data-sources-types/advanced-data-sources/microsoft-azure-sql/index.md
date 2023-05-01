@@ -26,7 +26,7 @@ Microsoft Azure SQL offers different service tier in its purchase model for DTUS
 
 ## Highlights 
 
-* Supports [User Management](Administration_UserManagement) with a superior security model. 
+* Supports [User Management](/rdm/windows/commands/administration/management/user-management/) with a superior security model. 
 * Supports [Offline mode](/rdm/windows/data-sources/offline-mode/) for when the server or network is unavailable. 
 * Supports entry logs and attachments. 
 

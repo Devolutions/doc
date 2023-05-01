@@ -7,7 +7,7 @@ The ***Read/Write*** offline mode allows the user to add, edit and delete entrie
 Some functionalities are not available while offline and you may not be able to perform all actions. Note that the [{{ en.PVLT }}](/rdm/windows/data-sources/user-vault/) is still available in offline mode. 
 {% endsnippet %}
  
-Once offline, the users security settings still applies. Add/Edit/Delete privileges granted by the administrator are still in effect. See [User Management](Administration_UserManagement) .  
+Once offline, the users security settings still applies. Add/Edit/Delete privileges granted by the administrator are still in effect. See [User Management](/rdm/windows/commands/administration/management/user-management/) .  
 
 When an entry is edited by an online user while another user is offline, the local version of the entry stored in the offline cache becomes different from the online version. This causes a conflict when the offline user gets back online. 
 

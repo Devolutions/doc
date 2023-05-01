@@ -7,7 +7,7 @@ They greatly increase the set of managing features available to administrators, 
 
 * Document uploads and entry attachments. 
 * Auditing and logging. 
-* Advanced security with [User management](Administration_UserManagement) . 
+* Advanced security with [User management](/rdm/windows/commands/administration/management/user-management/) . 
 * [Offline mode](/rdm/windows/data-sources/offline-mode/) . 
 * [2-Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/) . 
 

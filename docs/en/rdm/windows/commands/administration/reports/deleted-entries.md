@@ -58,7 +58,7 @@ Permanently delete all the deleted entries.
 </table>
 
 {% snippet icon.badgeNotice %} 
-Deleted entries can be resurrected as long as the [Security Provider](Administration_SecurityProviders) has not been changed since the deleted action. 
+Deleted entries can be resurrected as long as the [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) has not been changed since the deleted action. 
 {% endsnippet %}
  
 ### Export deleted entries list 

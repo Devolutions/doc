@@ -154,7 +154,7 @@ Cons:
 
 * No security management. 
 * There is a possibility for conflict or data corruption to occur. 
-* Does not support all features, such as [Attachments](/rdm/windows/commands/view/layout/attachments/) , [Usage Logs](/rdm/windows/commands/view/view/activity-logs/) , [Offline Mode](/rdm/windows/data-sources/offline-mode/) and [User Management](Administration_UserManagement) . 
+* Does not support all features, such as [Attachments](/rdm/windows/commands/view/layout/attachments/) , [Usage Logs](/rdm/windows/commands/view/view/activity-logs/) , [Offline Mode](/rdm/windows/data-sources/offline-mode/) and [User Management](/rdm/windows/commands/administration/management/user-management/) . 
 * Dropbox integration uses the Dropbox SDK, so features exclusive to the Business or Enterprise editions are NOT supported. 
 		</td>
 	</tr>
@@ -176,7 +176,7 @@ Pros:
 * Quick. 
 * Reliable. 
 * Secure. 
-* Supports all features, such as [Attachments](/rdm/windows/commands/view/layout/attachments/) , [Usage Logs](/rdm/windows/commands/view/view/activity-logs/) , [Offline Mode](/rdm/windows/data-sources/offline-mode/) and [User Management](Administration_UserManagement) . 
+* Supports all features, such as [Attachments](/rdm/windows/commands/view/layout/attachments/) , [Usage Logs](/rdm/windows/commands/view/view/activity-logs/) , [Offline Mode](/rdm/windows/data-sources/offline-mode/) and [User Management](/rdm/windows/commands/administration/management/user-management/) . 
 
 Cons: 
 
@@ -201,7 +201,7 @@ Pros:
 * Quick. 
 * Reliable. 
 * Secure. 
-* Supports all features, such as [Attachments](/rdm/windows/commands/view/layout/attachments/) , [Usage Logs](/rdm/windows/commands/view/view/activity-logs/) , [Offline mode](/rdm/windows/data-sources/offline-mode/) and [User Management](Administration_UserManagement) . 
+* Supports all features, such as [Attachments](/rdm/windows/commands/view/layout/attachments/) , [Usage Logs](/rdm/windows/commands/view/view/activity-logs/) , [Offline mode](/rdm/windows/data-sources/offline-mode/) and [User Management](/rdm/windows/commands/administration/management/user-management/) . 
 * SQL Server Express is free. 
 
 Cons: 
@@ -227,7 +227,7 @@ Pros:
 * Quick. 
 * Reliable. 
 * Free database. 
-* Supports all features, such as [Attachments](/rdm/windows/commands/view/layout/attachments/) , [Usage Logs](/rdm/windows/commands/view/view/activity-logs/) , [Offline Mode](/rdm/windows/data-sources/offline-mode/) and [User Management](Administration_UserManagement) . 
+* Supports all features, such as [Attachments](/rdm/windows/commands/view/layout/attachments/) , [Usage Logs](/rdm/windows/commands/view/view/activity-logs/) , [Offline Mode](/rdm/windows/data-sources/offline-mode/) and [User Management](/rdm/windows/commands/administration/management/user-management/) . 
 
 Cons: 
 
@@ -259,7 +259,7 @@ Cons:
 * No possibility of sharing. 
 * No security management. 
 * There is a possibility for conflict or data corruption to occur. 
-* Does not support all features, such as [Attachments](/rdm/windows/commands/view/layout/attachments/) , [Usage Logs](/rdm/windows/commands/view/view/activity-logs/) , [Offline Mode](/rdm/windows/data-sources/offline-mode/) and [User Management](Administration_UserManagement) . 
+* Does not support all features, such as [Attachments](/rdm/windows/commands/view/layout/attachments/) , [Usage Logs](/rdm/windows/commands/view/view/activity-logs/) , [Offline Mode](/rdm/windows/data-sources/offline-mode/) and [User Management](/rdm/windows/commands/administration/management/user-management/) . 
 		</td>
 	</tr>
 </table>

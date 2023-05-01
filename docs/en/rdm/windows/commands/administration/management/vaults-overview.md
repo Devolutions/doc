@@ -5,7 +5,7 @@ title: Vaults Overview
 {{ en.VLT }} s are containers that organize your folders and entries. They help divide your ***Advanced Data Sources*** into multiple compartments. {{ en.VLT }} s improve the security and user experience of {{ en.RDM }} , as well as its performance by limiting the amount of entries that load at once. 
 
 {% snippet icon.badgeInfo %} 
-To learn about the different vault types and ways to access them, visit our [Vaults](Vault) topic. 
+To learn about the different vault types and ways to access them, visit our [Vaults](/rdm/windows/commands/view/panels/vault/) topic. 
 {% endsnippet %}
  
 This topic covers the following:  
