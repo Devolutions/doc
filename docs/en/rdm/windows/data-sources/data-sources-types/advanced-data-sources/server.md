@@ -33,7 +33,7 @@ For more information, please consult these topics:
 ## Configure the server data source on all your client machines 
 Enter a name of the data source and the URL for the Host. Ensure you use the correct protocol if SSL is required by the server (https).  
 
-Export the data source, then import the file in your client workstations as described [Import/Export Data Source](DataSource_ImportExport) . 
+Export the data source, then import the file in your client workstations as described [Import/Export Data Source](/rdm/windows/data-sources/data-sources-types/import-export/) . 
 
 ## Settings 
 
