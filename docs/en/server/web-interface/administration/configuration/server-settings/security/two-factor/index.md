@@ -47,3 +47,4 @@ The currently supported multi-factor authenticators are Authenticator (TOTP), Yu
 7. Select the ***Default*** MFA between the ones you enabled in the previous step.  
 1. Select alternate ways to log in betweem ***Email*** and [***Backup codes***](/server/web-interface/administration/configuration/server-settings/security/two-factor/backup-codes/). These options will be offered when users do not have access to their usual method.  
 ![Default and Alternate MFA](/img/en/server/ServerOp2066.png)
+1. Click ***Save***.
