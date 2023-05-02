@@ -14,9 +14,9 @@ A free [Devolutions Account](/cloud/devolutions-account/create-devolutions-accou
 1. In ***File – Languages*** , select the language(s) to translate, then click ***Ok*** .  
 ![File – Languages](/img/en/rdm/windows/RdmWin4049.png) 
 1. Click on the ***Translate*** button.  
-![Translate](/img/en/rdm/windows/RdmWin2131.png) 
+![Translate](/img/en/rdm/windows/RDMWin2131.png) 
 1. Choose the file in which to translate in the ***File*** drop-down list.  
-![File Selection](/img/en/rdm/windows/RdmWin2132.png) 
+![File Selection](/img/en/rdm/windows/RDMWin2132.png) 
 1. In the lower part, you will be able to filter and review the content already translated or in need of translation. Information about each ***Resource*** line is available in the different columns. The ***Status*** field can be set to different values depending on the progress of the translation:  
 
 * ***Changed*** : The text in its original language has been modified by Devolutions. A local translator must review the localized translation and make changes if necessary. 
@@ -26,7 +26,7 @@ A free [Devolutions Account](/cloud/devolutions-account/create-devolutions-accou
 * ***Use original*** : The text should not be translated, it should be kept in its original language. For example, this can apply to product names or third party system names.  
 ![Content to Translate or Translated](/img/en/rdm/windows/RdmWin4050.png) 
 5. To start, select a ***Resource*** line in the bottom list and click ***Translate*** . The original text will appear in the ***Original*** box.  
-![Resource Line Selection](/img/en/rdm/windows/RdmWin2133.png) 
+![Resource Line Selection](/img/en/rdm/windows/RDMWin2133.png) 
 
 {% snippet icon.badgeCaution %} 
 When translating text, you may encounter the ampersand character (&quot;&amp;&quot;) used in a way other than its usual meaning of &quot;and&quot;. This is not an error: the ampersand causes the character immediately to the right of it to be underlined when displayed. Please double check before translating.  

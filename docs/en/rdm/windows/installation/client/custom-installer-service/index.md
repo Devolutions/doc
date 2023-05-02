@@ -2,7 +2,7 @@
 title: Custom Installer Service
 ---
 
-![!!CustomInstallerServiceIcon.png](/img/en/rdm/windows/CustomInstallerServiceIcon.png) 
+![!!CustomInstallerServiceIcon.png](https://webdevolutions.blob.core.windows.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg) 
 
 * Generate and download custom installation packages for {{ en.RDM }} . 
 * Include preconfigured data sources in the package for quick enterprise wide deployment. 

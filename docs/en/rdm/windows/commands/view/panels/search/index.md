@@ -2,7 +2,7 @@
 title: Search
 ---
 The ***Search*** function in the ***Panels*** section of the ***View*** tab allows you to search folders and entries in the database you are currently in.  
-![Search Function](/img/en/rdm/windows/RDMWin2005.png) 
+![Search Function](/img/en/rdm/windows/RdmWin2005.png) 
 
 When using the ***Search*** function, a tree view is also displayed, showing exactly where the results of your search are located in the database. Filter options are also available when clicking on the ellipsis button. Learn more about them in our [Search/Filter](/rdm/windows/user-interface/status-bar/search-filter/) topic.  
 ![Filter Dialog Window](/img/en/rdm/windows/RDMWin2004.png) 
