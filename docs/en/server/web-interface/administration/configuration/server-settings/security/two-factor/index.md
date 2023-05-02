@@ -1,68 +1,49 @@
 ---
-title: Two-Factor
+eleventyComputed:
+  title: Multi-factor
+  description: Configure multi-factor authentication in {{ en.DVLS }} to add an extra layer of security to the application.
+  keyword:
+  - multi-factor
+  - multifactor
+  - two-factor
+  - authentication
 ---
 {% snippet icon.badgeInfo %} 
-This feature is only available for {{ en.RDMS }} version 2022 or higher. 
+This feature is only available for {{ en.DVLS }} versions 2022.1 or later.
 {% endsnippet %}
  
-Configure Two-Factor Authentication in {{ en.RDMS }} to add an extra layer of security to the application.  
+Configure multi-factor authentication (MFA) in {{ en.DVLS }} to add an extra layer of security to the application.
 
-{{ en.RDMS }} supports 9 types of 2FA. You can configure a default 2FA type for your entire organization or configure 2FA by user. When 2FA is configured, users log in with their username/password as well as a 2FA product.  
+{{ en.DVLS }} supports multiple types of MFA. You can configure a default MFA type for your entire organization or configure MFA user by user. When MFA is configured, users log in with their username/password as well as an MFA product.
 
-### How to Configure 2FA from the Web Interface 
+## Configure Multi-Factor Authentication From the Web Interface  
 
-{% youtube 'qb7umoKbUdg' %}  
+1. To access the MFA configuration, navigate to ***Administration – Server Settings – Multi-factor***.
+1. The first option is to choose how you want to enforce multi-factor authentication. To do so, click on the information icon next to ***MFA usage*** to go to the ***Security Policies*** section.  
+![MFA usage](/img/en/server/ServerOp2061.png)  
+1. Select a ***Target*** (***Login*** or ***MFA***).  
+![Target](/img/en/server/ServerOp2062.png) 
+1. If you chose the ***MFA*** in the last step, select a ***Default action when no policy matches*** between the following:
+	* ***MFA Required***: MFA is enforced for all users. A default MFA type is set for all users.
+	* ***MFA Skipped***: MFA is not enforced.
+	* ***MFA Optional per User***: MFA is enforced on an individual basis. The administrator chooses who uses MFA and what product or technology they use. Choose this option if not all users are set up for multi-factor authentication.
 
-## Settings 
-1. To access the 2FA configuration, go to ***Administration – {{ en.RDMS }} Settings – Two-Factor*** . 
-1. Choose how you want to enforce two-factor authentication in ***2FA usage*** . 
+{% snippet icon.badgeInfo %} 
+When MFA usage is set to ***MFA Optional per User***, the MFA method must be configured in ***Administration – Users*** for each user. Edit or add a user, then go to the ***Multi-factor*** section to configure it. You can also set an MFA type on the user if they are using a product different than the default method. See [Multi-factor (Edit User)](https://docs.devolutions.net/server/web-interface/administration/security-management/users/edit-user-two-factor/).
+{% endsnippet %}  
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-None 
-		</td>
-		<td>
-2FA is not enforced. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Optional per user 
-		</td>
-		<td>
-2FA is enforced on an individual basis. The administrator chooses who uses 2FA and what product or technology they use.<br>
+![Default action when no policy matches](/img/en/server/ServerOp2063.png) 
 
-Choose this option if not all users are set up for two-factor authentication. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Required 
-		</td>
-		<td>
-2FA is enforced for all users. A default 2FA type is set for all users. 
-		</td>
-	</tr>
-</table>
+5. Back to the ***Multi-factor*** section, choose who to send the reset email to between ***Administrator(s)*** or a ***Specific email*** (in which case you must specify the email in the ***Specific email*** field).  
+![Send reset email to & Specific email](/img/en/server/ServerOp2064.png) 
+1. Check the boxes next to the supported authenticators that you want to enable. You can choose as many as necessary.
 
-3. Select who receives 2FA reset requests from users. You can choose to send the email to all {{ en.RDMS }}   administrators or a specific email . 
-1. If you chose to send reset requests to an email address instead of the {{ en.RDMS }} administrators, enter the email address in specific email . 
-1. Select the 2FA types users can authenticate with. Choose as many as necessary. 
-1. If you chose 2FA usage as Required in step 3 , choose the Default 2FA type. 
-1. Select alternate ways to log in. These options will be offered when users do not have access to the usual method. 
+{% snippet icon.badgeInfo %} 
+The currently supported multi-factor authenticators are Authenticator (TOTP), Yubikey, Email, [SMS](/server/web-interface/administration/configuration/server-settings/security/two-factor/sms/), Duo, and Radius. You must configure them separately using the instructions next to them. Emails need to be configured beforehand in {{ en.DVLS }} for the ***Email*** and ***SMS*** (without Twilio) MFAs.
+{% endsnippet %}  
 
-![Administration - Devolutions Server Settings - Two-Factor](/img/en/server/clip10390.png) 
+![Supported MFA](/img/en/server/ServerOp2065.png) 
 
-8. When 2FA usage is set to Optional per user , the 2FA method must be configured in Administration – Users – Two Factor for each user. You can also set a 2FA type on the user if they are using a product different than the default method. See [Edit Users](/server/web-interface/administration/security-management/users/edit-user-two-factor/) for more information. 
-
-![Edit User - Two Factor](/img/en/server/ServerOp7014.png) 
-
+7. Select the ***Default*** MFA between the ones you enabled in the previous step.  
+1. Select alternate ways to log in betweem ***Email*** and [***Backup codes***](/server/web-interface/administration/configuration/server-settings/security/two-factor/backup-codes/). These options will be offered when users do not have access to their usual method.  
+![Default and Alternate MFA](/img/en/server/ServerOp2066.png)
