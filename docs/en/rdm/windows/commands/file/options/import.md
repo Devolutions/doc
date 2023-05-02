@@ -1,7 +1,7 @@
 ---
 title: Import Options
 ---
-Select the [Configuration File](Installation_ConfigurationFileLocation) to import in {{ en.RDM }} and click on Open. 
+Select the [Configuration File](/rdm/windows/installation/client/configuration-file-location/) to import in {{ en.RDM }} and click on Open. 
 
 ### {{ en.RDM }} options file importer 
 

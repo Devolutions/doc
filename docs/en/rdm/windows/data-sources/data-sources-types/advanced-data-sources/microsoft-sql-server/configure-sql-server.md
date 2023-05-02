@@ -16,7 +16,7 @@ Please follow directions on [https://support.microsoft.com/en-us/kb/316898](http
 ![Upgrade Tab](/img/en/rdm/windows/clip11360.png) 
 1. Once the database is created, create an administrator account for the database via the ***Administration – Users*** menu. 
 {% snippet icon.badgeInfo %} 
-If the database is created using a system administrator (example: SA), we recommend to keep this user only for the database creation and the [database upgrade](Database_Upgrade) . A {{ en.RDM }} administrator account must be created first. Then, regular users are created with this administrator account. 
+If the database is created using a system administrator (example: SA), we recommend to keep this user only for the database creation and the [database upgrade](/rdm/windows/installation/database-upgrade/) . A {{ en.RDM }} administrator account must be created first. Then, regular users are created with this administrator account. 
 {% endsnippet %}
  
 ![Create a Remote Desktop Manager Administrator Account](/img/en/rdm/windows/clip3415.png) 

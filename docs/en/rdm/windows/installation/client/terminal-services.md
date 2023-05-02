@@ -23,7 +23,7 @@ Each user must have a unique application data folder (roaming profiles or simila
  
 ## Procedure 
 
-1. Install by following the procedure [For All Users](Installation_AllUsers) . This ensures that the Microsoft Installer Database does contain all of the needed information for all user profiles of the host. 
+1. Install by following the procedure [For All Users](/rdm/windows/installation/client/all-users/) . This ensures that the Microsoft Installer Database does contain all of the needed information for all user profiles of the host. 
 1. After installing {{ en.RDM }} , configure your preferences. We recommend going through all the configuration options to find the set of options that you wish to distribute. The data sources deserve special interest since it is much better when they are configured by an administrator. You may even take the opportunity to lock the data sources to protect against any modification by the users. Please refer to [Lock Data Source](/rdm/windows/data-sources/lock/) for more information. 
 {% snippet icon.shieldWarning %} 
 When using [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) , for effective logging methods, proper session security and user-based features, it is CRITICAL that each user has their own account to authenticate against the data source.  

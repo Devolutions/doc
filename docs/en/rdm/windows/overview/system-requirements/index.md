@@ -35,10 +35,10 @@ Microsoft .NET Framework 4.8
 
 ## Remote Desktop Services and Thin Client Support 
 
-{{ en.RDM }} can be installed on [Remote Desktop Services](Installation_TerminalServices) and thin client. 
+{{ en.RDM }} can be installed on [Remote Desktop Services](/rdm/windows/installation/client/terminal-services/) and thin client. 
 
 ## Manual/Portable Deployment 
 
-Deploying manually using our zip file is documented as being a [Portable (USB)](Installation_PortableUSB) deployment. In this case, the prerequisites will need to be handled manually as well. Please consult [Prerequisite Software](/rdm/windows/overview/system-requirements/prerequisite-software/) for details. 
+Deploying manually using our zip file is documented as being a [Portable (USB)](/rdm/windows/installation/client/portable-usb/) deployment. In this case, the prerequisites will need to be handled manually as well. Please consult [Prerequisite Software](/rdm/windows/overview/system-requirements/prerequisite-software/) for details. 
 
 

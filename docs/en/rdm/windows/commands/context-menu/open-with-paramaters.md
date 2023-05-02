@@ -35,7 +35,7 @@ Open via Jump...
 		</td>
 		<td>
 
-Open the session through a [Jump](Overview_WhatIsRdmJump) host. 
+Open the session through a [Jump](/rdm/windows/overview/the-devolutions-platform/rdm-jump/) host. 
 		</td>
 	</tr>
 	<tr>

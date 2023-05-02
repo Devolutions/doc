@@ -10,7 +10,7 @@ The administrator item could be the possible source for security problem. This h
 Some other issues could be related to the fact that the application is running in Remote Desktop Services. However {{ en.RDM }} is fully compatible with Remote Desktop Services.  
 
 FIPS related issues and solutions can be found in the specific FIPS (Encryption) troubleshooting section. 
-If you have a [{{ en.RDMJ }}](Overview_WhatIsRdmJump) configured you can run a test of your Jump host by clicking on Jump Test.  
+If you have a [{{ en.RDMJ }}](/rdm/windows/overview/the-devolutions-platform/rdm-jump/) configured you can run a test of your Jump host by clicking on Jump Test.  
 ![System Diagnostic – System](/img/en/rdm/windows/clip10814.png) 
 
 {% snippet icon.badgeInfo %} 
