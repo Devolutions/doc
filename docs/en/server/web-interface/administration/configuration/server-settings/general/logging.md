@@ -1,12 +1,17 @@
 ---
 title: Logging
+description: The Logging section allows the administrator to configure the logging features.
+keywords:
+- logging
 ---
-The Logging section allows the administrator to configure the logging features.  
+The ***Logging*** section allows the administrator to configure the logging features.
 
-![Administration - Devolutions Server Settings - Logging](/img/en/server/ServerOp8040.png)
+![Administration – Server Settings – Logging](/img/en/server/ServerOp8040.png)
 
-## Settings 
-### General 
+## Settings
+
+### General
+
 <table>
 	<tr>
 		<th>
@@ -21,7 +26,7 @@ Description
 Log debug information 
 		</td>
 		<td>
-Enable the {{ en.RDMS }} instance logs. When enabled, this will raise the debug level and provide more log entries. 
+Enable the {{ en.DVLS }} instance logs. When enabled, this will raise the debug level and provide more log entries. 
 		</td>
 	</tr>
 	<tr>
@@ -37,12 +42,13 @@ Choose the language of the logs.
 Scheduler log path 
 		</td>
 		<td>
-Set the destination path of the log file. We recommend to set this path outside of the {{ en.DPS }} web application folder. 
+Set the destination path of the log file. We recommend to set this path outside of the {{ en.DVLS }} web application folder. 
 		</td>
 	</tr>
 </table>
 
-### Syslog Server 
+### Syslog Server
+
 <table>
 	<tr>
 		<th>
@@ -89,7 +95,8 @@ Select your preferred Protocol mode between:
 	</tr>
 </table>
 
-### Windows Event Log 
+### Windows Event Log
+
 <table>
 	<tr>
 		<th>
@@ -109,7 +116,8 @@ Send the logs to Windows Event Log.
 	</tr>
 </table>
 
-### Slack Integration 
+### Slack Integration
+
 <table>
 	<tr>
 		<th>
@@ -144,5 +152,3 @@ Name of the Slack channel where the logs will be posted.
 		</td>
 	</tr>
 </table>
-
-
