@@ -7,6 +7,3 @@ By default the ***RDP*** option is set to ***Latest***, meaning it will switch t
 1. Navigate to ***File – Options – Types – Remote Desktop***.
 1. Click the ***RDP*** dropdown and select ***RDP (8.1)***.
 ![File – Options – Types – Remote Desktop](/img/en/kb/KB0005.png)
-
-## Mac
-Mac can only use FreeRDP.
