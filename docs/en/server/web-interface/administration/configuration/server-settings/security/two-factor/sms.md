@@ -1,13 +1,32 @@
 ---
 title: SMS
+description: Multi-factor authentication (MFA) via SMS requires the user to enter a code they receive on their mobile phone as its second component to access the data source.
+keywords:
+- SMS
+- MFA
+- multi-factor authentication
 ---
-The 2FA SMS will request the user to enter a code he has received on his mobile phone as its second component to access the data source.  
+Multi-factor authentication (MFA) via SMS requires the user to enter a code they receive on their mobile phone as its second component to access the data source.
 
-There are two possible configuration available. To use the free version, do not fill in the Twilio settings.  
+To enable this MFA method for your users, go to ***Administration – Server Settings – Multi-factor*** and check the ***SMS*** MFA option. A ***Configure*** button will appear next to the option.
 
-The other available configuration is to configure Twilio. Please fill in the appropriate fields with the information from your Twilio subscription.  
+![Administration – Server Settings – Multi-factor – Supported MFA – SMS](/img/en/server/ServerOp2068.png)
 
-![Twilio Settings dialog](/img/en/server/ServerOp8136.png) 
+{% snippet icon.badgeInfo %} 
+See [Multi-factor](/server/web-interface/administration/configuration/server-settings/security/two-factor/) for more information on MFA configuration.
+{% endsnippet %}
+
+There are two possible configurations available: the <a href="#free-version">free version</a>, using a carrier configured in your server's email settings, and the <a href="#configured-with-twilio">version configured with Twilio</a>.
+
+## Free Version
+
+The free version uses a carrier configured in your server's email settings. Do not fill in the Twilio settings fields. Only check the ***SMS*** box as described above, save your changes, and [configure your email settings](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email/).
+
+## Configured With Twilio
+
+To configure the SMS method with Twilio, you must have a Twilio subscription. In ***Configure***, check the ***Use Twilio instead of a carrier to send SMS*** option, then fill in the fields with your Twilio subscription information.
+
+![SMS Setup](/img/en/server/ServerOp8136.png) 
 
 <table>
 	<tr>
@@ -23,7 +42,7 @@ Description
 Account SID 
 		</td>
 		<td>
-Account SID of your Twilio account. 
+Account SID of your Twilio account 
 		</td>
 	</tr>
 	<tr>
@@ -31,7 +50,7 @@ Account SID of your Twilio account.
 Auth token 
 		</td>
 		<td>
-Authorization toke from your Twilio account. 
+Authorization token from your Twilio account 
 		</td>
 	</tr>
 	<tr>
@@ -39,9 +58,7 @@ Authorization toke from your Twilio account.
 Phone 
 		</td>
 		<td>
-Phone number. 
+Phone number 
 		</td>
 	</tr>
 </table>
-
-
