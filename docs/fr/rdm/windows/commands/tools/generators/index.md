@@ -1,4 +1,3 @@
 ---
 title: Générateurs
 ---
-TBD
