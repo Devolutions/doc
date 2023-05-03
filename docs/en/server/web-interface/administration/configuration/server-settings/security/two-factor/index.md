@@ -29,7 +29,7 @@ Configure multi-factor authentication (MFA) in {{ en.DVLS }} to add an extra lay
 	* ***MFA Optional per User***: MFA is enforced on an individual basis. The administrator chooses who uses MFA and what product or technology they use. Choose this option if not all users are set up for multi-factor authentication.
 
 {% snippet icon.badgeInfo %} 
-When MFA usage is set to ***MFA Optional per User***, the MFA method must be configured in ***Administration – Users*** for each user. Edit or add a user, then go to the ***Multi-factor*** section to configure it. You can also set an MFA type on the user if they are using a product different than the default method. See [Multi-factor (Edit User)](https://docs.devolutions.net/server/web-interface/administration/security-management/users/edit-user-two-factor/).
+When MFA usage is set to ***MFA Optional per User***, the MFA method must be configured in ***Administration – Users*** for each user. Edit or add a user, then go to the ***Multi-factor*** section to configure it. You can also set an MFA type on the user if they are using a product different than the default method. See [Multi-factor (Edit User)](/server/web-interface/administration/security-management/users/edit-user-two-factor/).
 {% endsnippet %}  
 
 ![Default action when no policy matches](/img/en/server/ServerOp2063.png) 

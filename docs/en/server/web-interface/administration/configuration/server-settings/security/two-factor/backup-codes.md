@@ -1,26 +1,33 @@
 ---
-title: Backup Codes
+eleventyComputed:
+  title: Backup Codes
+  description: Backup codes are validation codes that provide users with one-time access to {{ en.DVLS }} when they do not have access to their usual MFA product or device. They must be generated beforehand and kept safe in case of emergency.
+  keywords:
+  - backup code
 ---
-Backup codes are validation codes that provide users with one time access to {{ en.RDMS }} when they do not have access to their usual 2FA product or device. These must be generated before and kept safe in case of emergencies.  
+Backup codes are validation codes that provide users with one-time access to {{ en.DVLS }} when they do not have access to their usual multi-factor authentication (MFA) product or device. They must be generated beforehand and kept safe in case of emergency.
 
-The Administrator enables the option and then users can generate their backup codes .  
+An administrator must first enable the option, after which users can generate their backup codes.
 
-## Settings 
-### Administrator - Enable Backup Codes 
-An administrator must enable backup codes as an alternate method of two-factor authentication. To turn on the option, ***go to*** ***Administration –*** ***{{ en.RDMS }}*** ***Settings – Two-Factor*** .  
+## Settings
 
-![Backup Codes - Two-Factor Authentication](/img/en/server/ServerOp7017.png) 
+### Enable Backup Codes (Administrator)
 
-Click ***Configure*** to set how many backup codes a user can generate.  
+An administrator must enable backup codes as an alternate MFA method:
 
-![Configure the number of Backup Codes](/img/en/server/ServerOp7018.png) 
+1. In ***Administration – Server Settings – Multi-factor***, check the ***Backup codes*** box, then click ***Configure*** next to the option.
+![Enable Backup Codes as an Alternate MFA](/img/en/server/ServerOp7017.png)
+1. Set the ***Number of backup codes*** a user can generate, then click ***Save***.
+![Configure the Number of Backup Codes](/img/en/server/ServerOp7018.png)
+1. Click the ***Save*** icon of the ***Multi-factor*** section to save your changes.
 
-### User – Generate Backup Codes 
+{% snippet icon.badgeInfo %} 
+If your ***MFA usage*** is set to ***MFA Optional per User***, you must configure MFA for each user before they can generate backup codes. See [Multi-factor (Edit User)](/server/web-interface/administration/security-management/users/edit-user-two-factor/) for more details.
+{% endsnippet %}  
 
-1. To generate your backup codes, click your ***avatar*** in the top right corner. 
-![Click user avatar](/img/en/server/ServerOp7019.png) 
-1. Click ***Edit your Account*** 
-![Edit your Account - Account Settings](/img/en/server/ServerOp7020.png) 
-1. Click ***Alternate 2FA*** and then ***(a)*** click ***Generate backup codes*** . A list of backup codes are displayed ***(b)*** . The user can copy and paste the codes and store them elsewhere. 
-![Alternate 2FA - Generate Backup Codes](/img/en/server/ServerOp7021.png) 
+### Generate Backup Codes (User)
 
+1. To generate backup codes, click on your avatar in the {{ en.DVLS }} side menu, then click ***Edit your Account***.
+![Edit your Account](/img/en/server/ServerOp7020.png)
+1. Go to ***Alternate MFA*** and click on ***Generate backup codes***. A list of backup codes will be displayed. The user can copy and paste the codes and store them somewhere secure in case of emergency.
+![Alternate MFA – Generate backup codes](/img/en/server/ServerOp7021.png)
