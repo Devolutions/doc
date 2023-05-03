@@ -1,7 +1,7 @@
 ---
 title: Base de connaissances
 ---
-![!!Logo Base de connaissances](/img/en/server/logo-knowledge-base-120.png)
+![!!Logo Base de connaissances](/img/fr/rdm/mac/logo-knowledge-base-120.png)
 
 L’équipe du centre de services de Devolutions est fière de présenter cette [Base de connaissances](/fr/kb/devolutions-customer-success/) à notre communauté de plus de 800 000 utilisateurs!  
 
