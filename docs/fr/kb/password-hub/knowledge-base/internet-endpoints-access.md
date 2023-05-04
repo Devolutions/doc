@@ -13,7 +13,7 @@ Nous utilisons une approche de « meilleur effort » pour maintenir cette liste 
 
 ## Liste des points de terminaison
 
-| Description                    | URL                                                                            | Action reliée |
+| Description                    | URL                                                                            | Action(s) associée(s) |
 | ------------------------------ | ------------------------------------------------------------------------------ | ------------------------- |
 | Connexion                      | https<area>://login.devolutions.com                                            | Fournisseur d'accès |
 | Polices de caractères pour l'application | https<area>://fonts.googleapis.com<br>https<area>://fonts.gstatic.com | Fournisseur de polices pour l'affichage de l'application |
@@ -21,4 +21,4 @@ Nous utilisons une approche de « meilleur effort » pour maintenir cette liste 
 | Avatars d'utilisateurs         | https<area>://secure.gravatar.com<br>https<area>://ui-avatars.com<br>https<area>://i2.wp.com | Service des avatars |
 | Certains graphiques            | https<area>://chart.googleapis.com                                             | Service de graphiques à afficher dans les tableaux de bord |
 | Certaines images               | https<area>://webdevolutions.blob.core.windows.net                             | Service pour les images |
-| Certains icônes                | https<area>://use.fontawesome.com/                                             | Fournisseur d'icônes |
+| Certaines icônes               | https<area>://use.fontawesome.com/                                             | Fournisseur d'icônes |
