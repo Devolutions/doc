@@ -7,7 +7,7 @@ The ***General*** section of the {{ en.SST }} allows the administrators to apply
 
 ![Administration – System Settings – General](/img/en/server/clip10373.png)
 
-### General 
+## General 
 <table>
 	<tr>
 		<th>
@@ -56,7 +56,7 @@ Select if users are prompted to choose a template when creating a new entry. Sel
 	</tr>
 </table>
 
-### Comments 
+## Comments 
 <table>
 	<tr>
 		<th>
@@ -84,7 +84,7 @@ Minimum length in character for the comment.
 	</tr>
 </table>
 
-### File Size
+## File Size
 <table>
 	<tr>
 		<th>
@@ -104,7 +104,7 @@ Limit the size of attachments and document entries to avoid to over load the dat
 	</tr>
 </table>
 
-### Favorites 
+## Favorites 
 <table>
 	<tr>
 		<th>
@@ -124,7 +124,7 @@ Allows to flag entries as favorites.
 	</tr>
 </table>
 
-### {{ en.PVLT }} 
+## {{ en.PVLT }} 
 <table>
 	<tr>
 		<th>
@@ -160,7 +160,7 @@ Allow credential repository for sessions in the <a href="/server/web-interface/u
 	</tr>
 </table>
 
-### Security 
+## Security 
 <table>
 	<tr>
 		<th>
@@ -237,5 +237,3 @@ Select the hours which the session is limited to. Select between:
 		</td>
 	</tr>
 </table>
-
-
