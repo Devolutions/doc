@@ -3,7 +3,7 @@ eleventyComputed:
   title: List of Internet Endpoints Accessed by {{ en.HUB }}
   description: This is the list of addresses that are accessed by {{ en.HUB }} during normal operation.
   keywords: 
-  - Endpoints
+  - endpoints
 ---
 This is the list of addresses that are accessed by {{ en.HUB }} during normal operation.
 
