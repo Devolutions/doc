@@ -12,7 +12,7 @@ Voici la liste des adresses que {{ fr.RDM }} pourrait utiliser durant les activi
 {% endsnippet %}  
 
 {% snippet icon.shieldNotice %}
-Dans le cadre d'une visite standard d'un site Web utilisant le protocole HTTPS, le certificat utilisé par le site distant est validé à l'aide des meilleures pratiques de l'industrie. Un certificat contient plusieurs URL auxquelles on accède pour effectuer la validation. Les URL varient non seulement pour chaque site, mais aussi au fil du temps, à chaque fois qu'ils sont renouvelés. Apprenez-en plus sur la [Validation d'un certificat](/kb/remote-desktop-manager/knowledge-base/certificate-validation).
+Dans le cadre d'une visite standard d'un site Web utilisant le protocole HTTPS, le certificat utilisé par le site distant est validé à l'aide des meilleures pratiques de l'industrie. Un certificat contient plusieurs URL auxquelles on accède pour effectuer la validation. Les URL varient non seulement pour chaque site, mais aussi au fil du temps, chaque fois qu'ils sont renouvelés. Apprenez-en plus sur la [Validation d'un certificat](/kb/remote-desktop-manager/knowledge-base/certificate-validation).
 {% endsnippet %}  
 
 ## Liste des points de terminaison
