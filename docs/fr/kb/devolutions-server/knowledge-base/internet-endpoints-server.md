@@ -8,7 +8,7 @@ eleventyComputed:
 Voici la liste des adresses que {{ fr.DVLS }} pourrait utiliser durant les activités normales, ainsi que les paramètres qui sont utilisés pour activer/désactiver ces accès.  
 
 {% snippet icon.badgeWarning %}
-Nous utilisons une approche de « meilleur effort » pour maintenir cette liste à jour, mais celle-ci ne remplace pas les meilleures pratiques de sécurité TI. Si la sécurité est primordiale, il serait préférable de bloquer d'abord tout accès à Internet, puis de mettre les adresses souhaitées sur une liste d'autorisation si nécessaire. 
+Nous utilisons une approche de « meilleur effort » pour maintenir cette liste à jour, mais celle-ci ne remplace pas les meilleures pratiques de sécurité TI. Si la sécurité est primordiale, il serait préférable de bloquer d'abord tout accès à Internet, puis de mettre les adresses souhaitées sur une liste d'autorisation si nécessaire.
 {% endsnippet %}
 
 ## Liste des points de terminaison
