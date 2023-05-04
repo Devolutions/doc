@@ -17,7 +17,7 @@ We use a "best effort" approach to maintain this list, but it does **NOT** repla
 | ------------------------------ | ------------------------------------------------------------------------------ | ------------------------- |
 | Login                          | https<area>://login.devolutions.com                                            | Login provider |
 | Fonts for the application      | https<area>://fonts.googleapis.com<br>https<area>://fonts.gstatic.com          | Fonts provider to display the application |
-| Website icons (favicon)        | https<area>://iconcache.devolutions.com                                        | Devolution's favicon service for website entries |
+| Website icons (favicon)        | https<area>://iconcache.devolutions.com                                        | Devolutions' favicon service for website entries |
 | User avatars                   | https<area>://secure.gravatar.com<br>https<area>://ui-avatars.com<br>https<area>://i2.wp.com | Avatar service |
 | Certain charts                 | https<area>://chart.googleapis.com                                             | Chart service for displaying in dashboards |
 | Certain images                 | https<area>://webdevolutions.blob.core.windows.net                             | Image service |
