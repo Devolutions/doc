@@ -1,6 +1,9 @@
 ---
 eleventyComputed:
   title: List of Internet Endpoints Accessed by {{ en.RDM }}
+  description: This is the list of addresses that are accessed by {{ en.RDM }} during normal operation, as well as the setting(s) to disable/prevent this access.
+  keywords: 
+  - endpoints
 ---
 This is the list of addresses that are accessed by {{ en.RDM }} during normal operation, as well as the setting(s) to disable/prevent this access.  
 
@@ -9,7 +12,7 @@ This is the list of addresses that are accessed by {{ en.RDM }} during normal op
 {% endsnippet %}  
 
 {% snippet icon.shieldNotice %}
-As part of a standard visit to a website using the HTTPS protocol, the certificate used by the remote site is validated using industry best practices. A certificate contains multiple URLs which will be accessed to perform validation. The URLs vary not only for each **site**, but also in **time** whenever they are renewed. Please refer to [Certificate Validation](/kb/remote-desktop-manager/knowledge-base/certificate-validation) for further information.
+As part of a standard visit to a website using the HTTPS protocol, the certificate used by the remote site is validated using industry best practices. A certificate contains multiple URLs which will be accessed to perform validation. The URLs vary not only for each site, but also in time whenever they are renewed. Please refer to [Certificate Validation](/kb/remote-desktop-manager/knowledge-base/certificate-validation) for further information.
 {% endsnippet %}
 
 ## Endpoints List
@@ -55,7 +58,7 @@ Devolutions Cloud - our online services, as well as obtaining product news
 https<area>://cloud.devolutions.net
 		</td>
 		<td>
-File – Cloud account<br>
+File – Devolutions Account<br>
 Enable Internet Access<br>
 		</td>
 	</tr>
@@ -72,13 +75,13 @@ Tools – Add-on Manager
 	</tr>
 	<tr>
 		<td>
-Devolutions Cloud Login
+Devolutions Account Login
 		</td>
 		<td>
 https<area>://login.devolutions.com
 		</td>
 		<td>
-File – Cloud account
+File – Devolutions Account
 		</td>
 	</tr>
 	<tr>
@@ -100,7 +103,7 @@ Telemetry
 https<area>://telemetry.devolutions.net
 		</td>
 		<td>
-Options – Disable telemetry
+File – Options – Advanced – Disable telemetry
 		</td>
 	</tr>
 	<tr>
@@ -111,8 +114,7 @@ Have I Been Pwned
 https<area>://api.pwnedpasswords.com
 		</td>
 		<td>
-System settings – Pwned check<br>
-Options – Disable password pwned Check<br>
+File – Options – Advanced – Disable compromised password (pwned) check
 		</td>
 	</tr>
 	<tr>
@@ -127,7 +129,7 @@ https<area>://api4.yubico.com<br>
 https<area>://api5.yubico.com<br>
 		</td>
 		<td>
-Options – Use Yubikey
+File – Options – Security – Require Yubikey authentication
 		</td>
 	</tr>
 </table>
