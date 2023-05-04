@@ -1,16 +1,19 @@
 ---
 eleventyComputed:
   title: List of Internet Endpoints Accessed by {{ en.HUB }}
+  description: This is the list of addresses that are accessed by {{ en.HUB }} during normal operation.
+  keywords: 
+  - Endpoints
 ---
-This is the list of addresses that are accessed by {{ en.HUB }} during normal operation, as well as the setting(s) to disable/prevent this access.
+This is the list of addresses that are accessed by {{ en.HUB }} during normal operation.
 
 {% snippet icon.badgeWarning %}
-We use a "best effort" approach to maintain this list, but it does NOT replace proper IT security practices. If security is paramount, it would be better to first block all internet access, then allowlist desired addresses as needed.
+We use a "best effort" approach to maintain this list, but it does **NOT** replace proper IT security practices. If security is paramount, it would be better to first block all internet access, then allowlist desired addresses as needed.
 {% endsnippet %}
 
 ## Endpoints List
 
-| Description                    | URL                                                                            | Related Setting(s) / Action |
+| Description                    | URL                                                                            | Related Action |
 | ------------------------------ | ------------------------------------------------------------------------------ | ------------------------- |
 | Login                          | https<area>://login.devolutions.com                                            | Login provider |
 | Fonts for the application      | https<area>://fonts.googleapis.com<br>https<area>://fonts.gstatic.com          | Fonts provider to display the application |
