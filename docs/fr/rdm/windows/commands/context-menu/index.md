@@ -1,4 +1,5 @@
 ---
 title: Menu contextuel
 ---
-TBD
+Le ***Menu contextuel*** contient plusieurs actions spécifiques aux entrées. Les actions disponibles dépendent du type d&apos;entrée sélectionné. Cliquer avec le bouton droit sur une entrée pour afficher le menu contextuel.  
+![Menu contextuel](/img/fr/rdm/windows/clip10042.png) 
