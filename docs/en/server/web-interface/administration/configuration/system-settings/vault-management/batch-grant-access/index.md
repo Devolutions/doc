@@ -1,10 +1,16 @@
 ---
 title: Batch Grant Access
-description: The Batch Grant Access feature allows you to set permissions and permission sets to multiple users, user groups, and/or application users at once.
+description: The Batch Grant Access feature allows you to set permissions and permission sets to multiple users, user groups, and/or application users at once on entries, folders, and vaults.
 ---
-The ***Batch Grant Access*** feature allows you to set permissions and permission sets to multiple users, user groups, and/or application users at once.
+The ***Batch Grant Access*** feature allows you to assign permissions and permission sets to multiple users, user groups, and/or application users at once on entries, folders, and vaults.
 
-Follow the steps below to access this feature:
+## Location
+
+***Batch Grant Access*** can be found in the properties of entries, folders, and vaults under ***Security – Permissions***. Set the permissions to ***Custom***, then click ***Grant Access***.
+
+![Properties – Security – Permissions](/img/en/server/ServerOp2075.png)
+
+It can also be accessed via ***Administration***:
 1. In the {{ en.DVLS }} web interface, go to ***Administration – System Settings – Vault Management***.
 1. Under ***Default Permissions***, select ***Custom*** in the ***Permission*** drop-down menu.
 ![Custom Default Permissions](/img/en/server/ServerOp2071.png)
@@ -15,9 +21,11 @@ The ***Batch Grant Access*** window is now open.
 
 ![Batch Grant Access](/img/en/server/ServerOp2070.png)
 
-The window is divided in two sections: the <a href="#permission-settings">permission settings</a> and the <a href="#user-selection">user selection</a>.
+The window is divided in two sections: the <a href="#permissions">permission settings</a> and the <a href="#users">user selection</a>.
 
-## Permission Settings
+## Settings
+
+### Permissions
 
 In the permission settings, you can set how the permissions are applied to the users in the ***Permission*** drop-down menu. Selecting ***Custom*** allows you to specify in ***Action*** if the permissions you select must be added to the existing ones, replace the existing ones, or be removed from the selected users' permissions.
 
@@ -29,7 +37,7 @@ Permission sets are created and configured in ***Administration – System Setti
 
 ![Permission Settings](/img/en/server/ServerOp2073.png)
 
-## User Selection
+### Users
 
 Users can be selected one by one by checking the box next to each one, but this method can be tedious if you have a lot of users. Tools are available to help you in your selection process:
 * ***Filter***: Filter through your users, user groups, and application users by ***Name*** or ***Description***.
