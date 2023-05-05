@@ -52,24 +52,13 @@ User action in the upgrade available dialog
 	</tr>
 	<tr>
 		<td>
-Devolutions Cloud - our online services, as well as obtaining product news
+Devolutions Cloud - our online services
 		</td>
 		<td>
 https<area>://cloud.devolutions.net
 		</td>
 		<td>
 File – Devolutions Account
-		</td>
-	</tr>
-	<tr>
-		<td>
-RDM Addons
-		</td>
-		<td>
-https<area>://remotedesktopmanager.com
-		</td>
-		<td>
-Tools – Add-on Manager
 		</td>
 	</tr>
 	<tr>
