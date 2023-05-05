@@ -4,7 +4,7 @@ description: The Batch Grant Access feature allows you to set permissions and pe
 ---
 The ***Batch Grant Access*** feature allows you to set permissions and permission sets to multiple users, user groups, and/or application users at once.
 
-Follow these steps to access this feature:
+Follow the steps below to access this feature:
 1. In the {{ en.DVLS }} web interface, navigate to ***Administration – System Settings – Vault Management***.
 1. Under ***Default Permissions***, select ***Custom*** in the ***Permission*** drop-down menu.
 ![Custom Default Permissions](/img/en/server/ServerOp2071.png)
