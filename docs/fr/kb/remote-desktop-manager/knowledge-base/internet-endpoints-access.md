@@ -53,25 +53,13 @@ Action de l'utilisateur dans la boîte de dialogue de mise à niveau disponible
 	</tr>
 	<tr>
 		<td>
-Devolutions Cloud - nos services en ligne, ainsi que des informations sur les produits
+Devolutions Cloud - nos services en ligne
 		</td>
 		<td>
 https<area>://cloud.devolutions.net
 		</td>
 		<td>
-Fichier – Compte Devolutions<br>
-Activer l'accès à Internet<br>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Modules RDM
-		</td>
-		<td>
-https<area>://remotedesktopmanager.com
-		</td>
-		<td>
-Outils – Gestionnaire de modules
+Fichier – Compte Devolutions
 		</td>
 	</tr>
 	<tr>
@@ -131,6 +119,28 @@ https<area>://api5.yubico.com<br>
 		</td>
 		<td>
 Fichier – Options – Sécurité – Requiert l'authentification Yubikey
+		</td>
+	</tr>
+		<tr>
+		<td>
+Gravatar
+		</td>
+		<td>
+https<area>://secure.gravatar.com
+		</td>
+		<td>
+Fichier – Options – Avancé – Désactiver toutes les images Gravatar
+		</td>
+	</tr>
+	<tr>
+		<td>
+Images d'utilisateurs
+		</td>
+		<td>
+https<area>://ui-avatars.com
+		</td>
+		<td>
+Utilisées lorsque l'option image Gravatar est désactivée
 		</td>
 	</tr>
 </table>
