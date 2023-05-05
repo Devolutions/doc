@@ -58,8 +58,7 @@ Devolutions Cloud - our online services, as well as obtaining product news
 https<area>://cloud.devolutions.net
 		</td>
 		<td>
-File – Devolutions Account<br>
-Enable Internet Access<br>
+File – Devolutions Account
 		</td>
 	</tr>
 	<tr>
@@ -130,6 +129,28 @@ https<area>://api5.yubico.com<br>
 		</td>
 		<td>
 File – Options – Security – Require Yubikey authentication
+		</td>
+	</tr>
+		<tr>
+		<td>
+Gravatar
+		</td>
+		<td>
+https<area>://secure.gravatar.com
+		</td>
+		<td>
+File – Options – Advanced – Disable all Gravatar images
+		</td>
+	</tr>
+	<tr>
+		<td>
+User images
+		</td>
+		<td>
+https<area>://ui-avatars.com
+		</td>
+		<td>
+Used when Gravatars are disabled
 		</td>
 	</tr>
 </table>
