@@ -18,5 +18,5 @@ eleventyComputed:
 1. Tap ***Autofill Dashboard***.  
 ![Autofill Dashboard](/img/en/kb/KB0049.png)
 1. Select the desired account(s).
-1. Sync all the entries to the autofil files with the ***Sync*** button.  
+1. Sync all the entries to the autofill files with the ***Sync*** button.  
 ![Sync](/img/en/kb/KB0050.png)
