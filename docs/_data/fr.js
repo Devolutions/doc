@@ -18,6 +18,7 @@ module.exports = {
     DVLS: 'Devolutions Server',
     DVLSCONSOLE: 'Console de Devolutions Server',
     DWL: 'Devolutions Web Login',
+    DWS: 'Devolutions Workspace',
     HUB: 'Devolutions Hub',
     HUBB: 'Hub Business',
     HUBP: 'Hub Personal',
