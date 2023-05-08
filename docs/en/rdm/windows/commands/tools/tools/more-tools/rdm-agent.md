@@ -11,7 +11,7 @@ The ***{{ en.RDMA }}*** is a very powerful tool that allows commands to be run o
 To launch a script through the &#32; ***{{ en.RDMA }}*** , you first need to open an RDP connection to all the machines you wish to execute the script on. Once opened, select all the opened sessions in the [{{ en.NPANE }}](/rdm/windows/user-interface/navigation-pane/) , right-click them and select Execute Script via Agent.  
 
 {% snippet icon.badgeInfo %} 
-Execute script via Agent only needs the {{ en.RDM-A }} when the script is executed from the Quick Script tab. {{ en.RDM }} needs to be fully installed on the remote computer when the script is executed from the Scripts/Tools tab. 
+Execute script via Agent only needs the {{ en.RDMA }} when the script is executed from the Quick Script tab. {{ en.RDM }} needs to be fully installed on the remote computer when the script is executed from the Scripts/Tools tab. 
 {% endsnippet %}
  
 ![Execute Script Via Agent](/img/en/rdm/windows/clip11244.png) 
@@ -223,7 +223,7 @@ Select a script or a tool session that you have already created in {{ en.RDM }} 
 
 ![Scripts/Tools](/img/en/rdm/windows/clip10411.png) 
 
-Search for a script or a tool you wish to execute through the {{ en.RDM-A }} . 
+Search for a script or a tool you wish to execute through the {{ en.RDMA }} . 
 
 ### Settings 
 
@@ -259,6 +259,6 @@ Enter the time delay between opening each selected session.
 
 ### Agent Status 
 
-Open a RDP session, right-click on this single session and select Agent Status. The Agent Status will show you that {{ en.RDM }} is installed on the remote computer or not, that the {{ en.RDM-A }} is active or not and how many {{ en.RDM }} Jump sessions are opened.  
+Open a RDP session, right-click on this single session and select Agent Status. The Agent Status will show you that {{ en.RDM }} is installed on the remote computer or not, that the {{ en.RDMA }} is active or not and how many {{ en.RDM }} Jump sessions are opened.  
 ![Agent Status](/img/en/rdm/windows/clip10413.png) 
 

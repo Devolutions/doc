@@ -14,7 +14,7 @@ title: System Requirements
 * 8.1 
 * 7 SP1 
 
-Windows Server:  
+**Windows Server:**  
 
 * Windows Server 2022 
 * Windows Server 
