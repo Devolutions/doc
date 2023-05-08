@@ -43,5 +43,6 @@ The following bullet list describe each steps a support technician will follow t
 1. Reset the [{{ en.DPS }} cache](/server/web-interface/administration/security-management/reset-server-cache/) and/or IIS reset.
 1. If required, install the latest {{ en.RDM }} version that belongs to the {{ en.DPS }} version.
 1. Test connectivity from {{ en.RDM }} to the {{ en.DPS }} data source.
+1. If required, update {{ en.DGW }}.
 1. Make sure that the encryption keys will be exported and put in a safe place for security measure. These encryption keys are required for disaster recovery
 1. Ensure that the {{ en.RDM }} and the {{ en.DPS }} licenses match.
