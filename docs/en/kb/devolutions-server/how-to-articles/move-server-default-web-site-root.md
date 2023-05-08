@@ -36,6 +36,7 @@ The following guide explains how to move the {{ en.DPS }} web application on the
 1. Start the Default Web Site and the {{ en.DPS }} application pool.
 1. Browse to the web site and it should load the {{ en.DPS }} login page like the following screen capture.  
 ![!!KB4154.png](/img/en/kb/KB4154.png)
-1. Update the [Access URI](https://docs.devolutions.net/kb/devolutions-server/knowledge-base/access-uri/) to reach the {{ en.DPS }} web page. 
+1. Update the [Access URI](https://docs.devolutions.net/kb/devolutions-server/knowledge-base/access-uri/) with the new {{ en.DPS }} URL to reach its web page.  
+1. If required, update the URIs with the new {{ en.DPS }} URL in the Azure App Registration for the Microsoft Authentication.
 1. Finally, install the Scheduler.  
 ![!!KB8035.png](/img/en/kb/KB8035.png)
