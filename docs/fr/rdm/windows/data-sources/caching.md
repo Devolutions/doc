@@ -53,7 +53,7 @@ Utilise le cache hors ligne uniquement pour les modifications récentes. Le cach
 
 ### Stockage 
 
-Vous pouvez trouver le fichier de configuration dans %LocalAppData%\Devolutions\ {{ fr.APPNAMECAMELCASE }} \[GUID:DataSourceID]  
+Vous pouvez trouver le fichier de configuration dans %LocalAppData%\Devolutions\RemoteDesktopManager\[GUID:DataSourceID]  
 
 Il existe trois moteurs pour la cache:  
 

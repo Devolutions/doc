@@ -27,7 +27,7 @@ The following steps ensure true portability and ease of maintenance. It can easi
 
 1. Download the ***ZIP*** package of {{ en.RDM }} Team. 
 ![!!clip11586.png](/img/en/rdm/windows/clip11586.png) 
-1. Create a {{ en.APPNAMECAMELCASE }} folder on your portable device. 
+1. Create a RemoteDesktopManager folder on your portable device. 
 1. In the installation folder created in step 2, create two folders: 
     1. A config folder. 
     1. A data folder. 

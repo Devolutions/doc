@@ -107,5 +107,5 @@ The data source configurations you select will be exported with the username/pas
  
 All your configured data sources will be displayed in this section. Select the one(s) that you want to include in the export. Please note that the content of the data source is not exported.  
 
-When your settings are customized to your liking, click on ***Export*** . You will be prompted to save your settings in a {{ en.APPNAMECAMELCASE }} .cfg file. 
+When your settings are customized to your liking, click on ***Export*** . You will be prompted to save your settings in a RemoteDesktopManager .cfg file. 
 

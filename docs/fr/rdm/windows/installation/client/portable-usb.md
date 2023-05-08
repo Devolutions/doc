@@ -28,7 +28,7 @@ Les étapes suivantes garantissent une véritable portabilité et une facilité 
 
 1. Télécharger le paquet ***ZIP*** de {{ fr.RDM }} Team.  
 ![!!clip11586.png](/img/fr/rdm/windows/clip11586.png) 
-1. Créer un dossier {{ fr.APPNAMECAMELCASE }} sur votre appareil portable. 
+1. Créer un dossier RemoteDesktopManager sur votre appareil portable. 
 1. Dans le dossier d&apos;installation créé à l&apos;étape 2, créer deux dossiers: 
     1. Un dossier config . 
     1. Un dossier data . 
