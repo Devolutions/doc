@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
-  title: Configure a credentials prompt on every connection to a {{ en.HUBP }} datasource
-  description: This topic describes how to get prompted for credentials on every connection to a {{ en.HUBP }} datasource through {{ en.RDM }}
+  title: Configure a credentials prompt on every connection to a {{ en.HUBP }} data source
+  description: This topic describes how to get prompted for credentials on every connection to a {{ en.HUBP }} data source through {{ en.RDM }}
   keywords: 
   - credentials
 ---
-This topic describes how to get prompted for credentials on every connection to a {{ en.HUBP }} datasource through {{ en.RDM }}.  
+This topic describes how to get prompted for credentials on every connection to a {{ en.HUBP }} data source through {{ en.RDM }}.  
 {% snippet icon.badgeHelp %}
-Learn more about [Creating your {{ en.HUBP }}](https://docs.devolutions.net/hub/getting-started/create-hub/hub-personal/).
+Learn more about [creating your {{ en.HUBP }}](https://docs.devolutions.net/hub/getting-started/create-hub/hub-personal/).
 {% endsnippet %}
 
 ## Steps
