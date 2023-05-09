@@ -83,7 +83,7 @@ Next for the Telemark folder, we will grant permissions to the ServiceDesk, the 
 Since we want the users to be able to use the credential entries, we will grant the ServiceDesk and the HelpDesk the permission to View the Credentials folder. This way they will be able to use the entries without being able to view the passwords.  
 
 The ***Add*** and ***Edit*** permissions can be left to ***Default*** since the ServiceDesk is the only user group that has been granted these permissions in the parent folder.  
-![Telemark\Credentials - Permissions](/img/en/rdm/windows/clip11112.png) 
+![Telemark / Credentials - Permissions](/img/en/rdm/windows/clip11112.png) 
 
 * ***View*** : HelpDesk, ServiceDesk 
 * ***Add*** : Default 
@@ -91,7 +91,7 @@ The ***Add*** and ***Edit*** permissions can be left to ***Default*** since the 
 * ***Delete*** : Default 
 
 We want the ServiceDesk to be able to use the Domain Admin credential entry as well but not the HelpDesk. For this we must grant the ***View*** permission to the ServiceDesk only and change the ***Add*** and ***Edit*** permission to ***Never*** . The ServiceDesk will still be able to edit the credential entry but will never see the password. If you prefer you can set the ***Edit*** permission to an Administrator user or user group to deny it to the ServiceDesk.  
-![Telemark\Credentials\Admin - Permissions](/img/en/rdm/windows/clip11113.png) 
+![Telemark / Credentials / Admin - Permissions](/img/en/rdm/windows/clip11113.png) 
 
 * ***View*** : ServiceDesk 
 * ***Add*** : Default (ServiceDesk) 
@@ -101,7 +101,7 @@ We want the ServiceDesk to be able to use the Domain Admin credential entry as w
 The last step for the Telemark child items would be to set the ***View*** permission to the ServiceDesk and the HelpDesk on the Boston folder and leave every other permission to ***Default*** .  
 
 Now the MontrealConsultant will be able to view and open entries only in the Montreal folder. Every time a new folder is added the ***View*** permission must be set for ServiceDesk and HelpDesk to hide the new folder and its content from the consultant.  
-![Telemark\Boston - Permissions](/img/en/rdm/windows/clip11114.png) 
+![Telemark / Boston - Permissions](/img/en/rdm/windows/clip11114.png) 
 
 * ***View*** : HelpDesk, ServiceDesk 
 * ***Add*** : Default (ServiceDesk) 
@@ -109,7 +109,7 @@ Now the MontrealConsultant will be able to view and open entries only in the Mon
 * ***Delete*** : Default 
 
 No need to set any permissions on the Montreal folder, since they are inherited from the parent folders.  
-![Telemark\Montreal - Permissions](/img/en/rdm/windows/clip3372.png) 
+![Telemark / Montreal - Permissions](/img/en/rdm/windows/clip3372.png) 
 
 Finally, the permission to view the Windjammer folder will be set for the ServiceDesk only since we want them to be able to use its child entries. We don’t want them to add or edit anything so we will set the ***Add*** and ***Edit*** permissions to the Administrator user/user group.  
 ![Windjammer - Permissions](/img/en/rdm/windows/clip11115.png) 
