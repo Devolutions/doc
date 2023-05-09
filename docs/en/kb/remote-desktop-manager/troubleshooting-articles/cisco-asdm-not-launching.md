@@ -19,4 +19,5 @@ This is a workaround for the issue where Cisco ASDM does not launch after updati
 {% snippet icon.badgeInfo %}
 The password parameter `$PASSWORD${ENTER}` is optional. If used, it also needs to be configured correctly under ***Security*** – ***Security Settings***.
 {% endsnippet %}
+
 10. Click ***OK*** to close the window and create the entry.
