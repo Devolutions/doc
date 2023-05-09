@@ -121,12 +121,23 @@ https<area>://api5.yubico.com<br>
 Fichier – Options – Sécurité – Requiert l'authentification Yubikey
 		</td>
 	</tr>
-		<tr>
+	<tr>
 		<td>
 Gravatar
 		</td>
 		<td>
 https<area>://secure.gravatar.com
+		</td>
+		<td>
+Fichier – Options – Avancé – Désactiver toutes les images Gravatar
+		</td>
+	</tr>
+	<tr>
+		<td>
+Gravatar (site de repli)
+		</td>
+		<td>
+https<area>://i2.wp.com
 		</td>
 		<td>
 Fichier – Options – Avancé – Désactiver toutes les images Gravatar
