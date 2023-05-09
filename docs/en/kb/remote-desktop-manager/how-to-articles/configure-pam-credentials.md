@@ -23,5 +23,5 @@ If every user has a privileged account they want to use, here are the steps:
 ![DVLS Privileged Account](/img/en/kb/KB0054.png)
 1. Input the {{ en.DVLS }} URL, ***Username*** and select the PAM account.  
 {% snippet icon.badgeInfo %}
-It is also possible to check the ***Always prompt with list option*** to select which account to login with everytime.
+It is also possible to check the ***Always prompt with list option*** to select which account to login with every time.
 {% endsnippet %}
