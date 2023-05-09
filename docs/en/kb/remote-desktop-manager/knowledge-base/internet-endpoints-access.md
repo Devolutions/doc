@@ -133,6 +133,17 @@ File – Options – Advanced – Disable all Gravatar images
 	</tr>
 	<tr>
 		<td>
+Gravatar fallback
+		</td>
+		<td>
+https<area>://i2.wp.com
+		</td>
+		<td>
+File – Options – Advanced – Disable all Gravatar images
+		</td>
+	</tr>
+	<tr>
+		<td>
 User images
 		</td>
 		<td>
