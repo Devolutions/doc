@@ -2,19 +2,14 @@
 title: Create Windows Users Provider
 ---
 {% snippet icon.badgeInfo %}
-The Scheduler service must be installed and running to use this feature.
+The [Scheduler service](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) must be installed and running to use this feature.
 {% endsnippet %}
 
 This guide provides steps to create a Windows users provider to manage Windows local accounts in the PAM module of {{ en.DPS }}
 
 ## Steps
 
-1. Ensure that WinRM is enabled on the remote machine where the local accounts are located. The command winrm quickconfig can be used to enable WinRM. Please see this Microsoft article about it. [https://docs.microsoft.com/en-us/troubleshoot/windows-server/remote/how-to-enable-windows-remote-shell](https://docs.microsoft.com/en-us/troubleshoot/windows-server/remote/how-to-enable-windows-remote-shell)
-1. Ensure to add the remote machine's name in the trusted hosts list of the machine where {{ en.DPS }} is hosted.
-   1. To add all remote hosts, the PowerShell command is : __Set-Item WSMan:localhost\client\trustedhosts -value *__
-   1. To add all remote hosts from a specific domain to the trusted host list : __Set-Item WSMan:\localhost\Client\TrustedHosts *.yourdomain.local__
-   1. To add one single host to the existing trusted host list : **Set-Item WSMan:\localhost\Client\TrustedHosts host.yourdomain.local -Concatenate**
-   {type="a"}
+1. Ensure that WinRM is properly configured and that all remote machines are added in the Trusted Hosts list as stated in [WinRM and Trusted Hosts List](/kb/devolutions-server/how-to-articles/winrm-trustedhostslist/).
 1. Create a local account on the remote host that will be managed by the PAM module as a privileged account. The local accounts must have the User cannot change password option enabled to avoid problems with the synchronization of the password in the Privileged Access module. If this account needs to have administrative rights, then add it to the local Administrators group.  
 ![Local Account propreties](/img/en/kb/KB8086.png)
 1. Go in ***Privileged Access - Providers*** on the {{ en.DPS }} web interface to add a Windows users provider.  
