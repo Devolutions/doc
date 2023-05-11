@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Installation avec un script
+  order: 10
   description: Les instructions suivantes expliquent comment installer un {{ fr.DGW }} à l'aide d'un script via {{ fr.HUBB }}.
 ---
 Les instructions suivantes expliquent comment installer un {{ fr.DGW }} à l'aide d'un script via {{ fr.HUBB }}.

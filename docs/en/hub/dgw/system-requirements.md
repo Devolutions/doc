@@ -1,5 +1,6 @@
 ---
 title: System Requirements
+order: 20
 ---
 {{ en.DGW }} requires the following:  
 
