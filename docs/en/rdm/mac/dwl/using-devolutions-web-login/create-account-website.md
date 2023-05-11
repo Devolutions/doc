@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Create an Account for a Website with {{ en.DWL }}
+  order: 10
 ---
 {{ en.DWL }} assists you in creating a new account when you register on a website. It gives you the ability to create a secure password and save your new credentials. 
 

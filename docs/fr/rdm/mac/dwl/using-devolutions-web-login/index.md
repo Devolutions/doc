@@ -1,6 +1,6 @@
 ---
 title: Utiliser Devolutions Web Login
-order: 30
+order: 60
 ---
 {% snippet icon.badgeNotice %} 
 Cette rubrique suppose que vous avez préalablement [installé l'extension {{ fr.DWL }}](/fr/rdm/mac/dwl/installation/) dans votre navigateur et qu'elle est [connectée à {{ fr.RDM }} pour Mac](/fr/rdm/mac/dwl/first-login-devolutions-web-login/) . 
