@@ -1,5 +1,6 @@
 ---
 title: Clés de licence
+order: 10
 ---
 La section ***Clés de licence*** vous permet d'ajouter, de modifier ou de supprimer manuellement les clés de licence que vous souhaitez stocker dans le portail client. Vous pouvez également l'importer depuis votre facture si elle est associée à ce compte.  
 

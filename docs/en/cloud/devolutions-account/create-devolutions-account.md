@@ -1,5 +1,6 @@
 ---
 title: Create your Devolutions Account
+order: 10
 ---
 Create your Free {{ en.DA }} . 
 
