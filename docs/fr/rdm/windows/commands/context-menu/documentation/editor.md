@@ -102,7 +102,7 @@ ou
 ```
 
 Affichage:  
-![!!RdmWin4077.png](/img/fr/rdm/windows/RdmWin4077.png) . 
+![!!RdmWin4077.png](/img/fr/rdm/windows/RdmWin4077.png) 
 
 ### Liens 
 

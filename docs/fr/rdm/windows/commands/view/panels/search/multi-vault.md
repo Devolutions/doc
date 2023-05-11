@@ -12,14 +12,14 @@ Les critères suivants sont disponibles afin d'affiner votre recherche : ***Type
 Au moins un critère doit être utilisé pour filtrer vos résultats et un maximum de quatre critères peuvent être appliqués à une même recherche. 
 {% endsnippet %}
  
-![Critères pour Recherche multi-coffres](/img/fr/rdm/windows/RDMWin2011.png) 
+![Critères pour Recherche multi-coffres](/img/fr/rdm/windows/RDMWIN2011.png) 
 
 {% snippet icon.badgeInfo %} 
 Avec une base de donnée ***Hub*** , seulement le critère de recherche ***Nom*** peut être sélectionné. 
 {% endsnippet %}
  
 Des listes déroulantes apparaissent lors de la sélection de certains critères pour vous donner plus d'options de recherche.  
-![Listes déroulantes pour Recherche multi-coffres](/img/fr/rdm/windows/RDMWin2012.png) 
+![Listes déroulantes pour Recherche multi-coffres](/img/fr/rdm/windows/RDMWIN2012.png) 
 
 Vous trouverez ci-dessous une description de l'utilité de chacun de ces types de listes déroulantes. 
 

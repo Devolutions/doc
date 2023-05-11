@@ -15,7 +15,7 @@ Les ***Modèles de mot de passe*** sont disponibles dans le générateur de mot 
 La fenêtre ***Modèles de mot de passe*** fournit un aperçu des modèles actuels, ainsi que des commandes d'ajout, de modification et de suppression. 
 
 2. Pour ajouter un nouveau modèle, cliquer sur ***Ajouter*** . 
-1. Saisir un nom de modèle, choisir un mode et les paramètres spécifiques. 
+1. Saisir un nom de modèle, choisir un mode et les paramètres spécifiques.  
 ![!!RdmWin7018.png](/img/fr/rdm/windows/RdmWin7018.png) 
 
 <table>

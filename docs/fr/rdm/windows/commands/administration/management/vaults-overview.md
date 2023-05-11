@@ -61,7 +61,7 @@ Pour des raisons de sécurité, les administrateurs ont toujours accès aux coff
 ### Naviguer entre les {{ fr.VLT }}s 
 
 Dans le ***{{ fr.NPANE }}*** , vous pouvez utiliser le sélecteur de coffres pour vous déplacer entre les coffres.  
-![Sélecteur de coffre dans le Volet de navigation](/img/fr/rdm/windows/RDMWin4090.png) 
+![Sélecteur de coffre dans le Volet de navigation](/img/fr/rdm/windows/RdmWin4090.png) 
 
 Vous pouvez modifier l'emplacement du sélecteur de coffres dans ***Fichier – Options – Interface utilisateur –*** ***{{ fr.VLT }}s*** ***– Emplacement du coffre*** . Par défaut, le sélecteur se trouve au bas du ***{{ fr.NPANE }}*** .  
 ![Fichier – Options – Interface utilisateur – Coffres – Emplacement du coffre](/img/fr/rdm/windows/RDMWin2077.png) 
@@ -70,11 +70,11 @@ Vous pouvez modifier l'emplacement du sélecteur de coffres dans ***Fichier – 
 
 1. Dans le ***{{ fr.NPANE }}*** , aller dans le coffre duquel vous souhaitez transférer des entrées. 
 1. Dans le ***Ruban*** , aller dans ***Modifier – Lot – Déplacer vers le coffre*** .  
-![Modifier – Lot – Déplacer vers le coffre](/img/fr/rdm/windows/RDMWin4091.png) 
+![Modifier – Lot – Déplacer vers le coffre](/img/fr/rdm/windows/RdmWin4091.png) 
 1. Sélectionner le coffre vers lequel vous souhaitez déplacer les entrées, puis cliquer sur ***Suivant*** .  
-![Sélection du coffre de destination](/img/fr/rdm/windows/RDMWin4092.png) 
+![Sélection du coffre de destination](/img/fr/rdm/windows/RdmWin4092.png) 
 1. Choisir les entrées que vous souhaitez transférer vers le nouveau coffre en les cochant, puis cliquer sur ***Transférer*** .  
-![Sélection des entrées à transférer](/img/fr/rdm/windows/RDMWin4093.png) 
+![Sélection des entrées à transférer](/img/fr/rdm/windows/RdmWin4093.png) 
 1. Un message vous avisera du transfert réussi. Cliquer sur ***Terminer*** pour fermer la fenêtre. 
 
 Vos entrées sélectionnées se retrouvent maintenant dans le coffre de destination.  
@@ -86,20 +86,20 @@ Les {{ fr.VLT }}s simplifient la gestion des utilisateurs puisque les groupes Az
 Suivez les étapes ci-dessous pour affecter des ***Utilisateurs*** et des ***Rôles*** à des coffres.  
 
 1. Dans le ***Ruban*** , aller dans ***Administration – Gestion –*** ***{{ fr.VLT }}s*** .  
-![Administration – Gestion – Coffres](/img/fr/rdm/windows/RDMWin4087.png) 
+![Administration – Gestion – Coffres](/img/fr/rdm/windows/RdmWin4087.png) 
 {% snippet icon.badgeInfo %} 
 Si vous utilisez une source de données {{ fr.RDMS }} ou {{ fr.PHUB }} Business, la gestion des coffres est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez nos rubriques de [{{ fr.RDMS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.PHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) traitant des coffres. 
 {% endsnippet %}
  
 
 2. Dans la fenêtre ***Gestion des usagers et de la sécurité*** , sélectionner l'onglet ***{{ fr.VLT }}s*** , puis cliquer sur ***Affecter des utilisateurs et rôles*** .  
-![Gestion des usagers et de la sécurité – Coffres – Affecter des utilisateurs et rôles](/img/fr/rdm/windows/RDMWin4094.png) 
+![Gestion des usagers et de la sécurité – Coffres – Affecter des utilisateurs et rôles](/img/fr/rdm/windows/RdmWin4094.png) 
 1. Dans la fenêtre ***Assignation d'un coffre*** , choisir quels ***Utilisateurs*** et ***Groupes d'utilisateurs*** auront accès au coffre en cochant la case à côté. 
 {% snippet icon.shieldInfo %} 
 Pour des raisons de sécurité, les administrateurs ont toujours accès aux coffres. 
 {% endsnippet %}
  
-![Assignation d'un coffre](/img/fr/rdm/windows/RDMWin4095.png) 
+![Assignation d'un coffre](/img/fr/rdm/windows/RdmWin4095.png) 
 
 4. Cliquer sur ***Enregistrer*** lorsque terminé. 
 
@@ -123,7 +123,7 @@ Suivez les étapes ci-dessous pour créer une entrée ***Coffre (Raccourci)*** .
 1. Dans le ***Ruban*** , aller dans ***Modifier – Ajouter – Nouvelle entrée*** .  
 ![Edit – Add – New Entry](/img/fr/rdm/windows/RDMWin2073.png) 
 1. Dans l'onglet ***Divers*** , sélectionner l'entrée de session ***Coffre (Raccourci)*** , puis cliquer sur ***OK*** .  
-![Divers – Coffre (Raccourci)](/img/fr/rdm/windows/RDMWin4098.png) 
+![Divers – Coffre (Raccourci)](/img/fr/rdm/windows/RdmWin4098.png) 
 1. Dans le champ ***Nom*** , saisir un nom pour le coffre vers lequel le raccourci pointera, puis sélectionner dans la liste déroulante le ***Dossier*** dans lequel le raccourci sera créé.  
 ![Nom et Dossier](/img/fr/rdm/windows/RDMWin2079.png) 
 1. Utiliser le bouton des points de suspension situé à côté du champ ***ID du coffre*** pour trouver le coffre. Dans la fenêtre ***Sélectionner un coffre*** , la barre de ***Recherche*** peut être utile pour le trouver.  

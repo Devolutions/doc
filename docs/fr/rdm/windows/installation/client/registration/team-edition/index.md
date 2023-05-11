@@ -17,7 +17,7 @@ Il est possible de [demander un essai](/fr/rdm/windows/installation/client/regis
 1. Cliquer sur ***Ajouter une licence*** .  
 ![Bouton Ajouter une licence](/img/fr/rdm/windows/RdmWin4118.png) 
 1. Saisir la ***Licence*** dans le champ approprié.  
-![Champ Licence](/img/fr/rdm/windows/RdmWin0000.png) 
+![Champ Licence](/img/fr/rdm/windows/RDMWin0000.png) 
 1. Facultatif: Cocher la case ***Assignation automatique*** pour fournir automatiquement une clé de licence {{ fr.RDM }} à tous les utilisateurs nouvellement créés.  
 ![Paramètre Assignation automatique](/img/fr/rdm/windows/RdmWin4117.png) 
 1. Cliquer ***Assigné à*** dans le menu à gauche. 
