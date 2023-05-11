@@ -1,6 +1,6 @@
 ---
 title: Sécuriser Devolutions Web Login
-order: 40
+order: 70
 ---
 Dans {{ fr.RDM }} versions 2021.1 et supérieures, nous avons changé la façon dont notre extension de navigateur {{ fr.DWL }} communique avec {{ fr.RDM }} pour remplir les identifiants dans les pages Web. Nous avons fait ces changements pour augmenter la sécurité de cette fonctionnalité. Visitez la rubrique [Première connexion](/fr/rdm/windows/dwl/first-login-devolutions-web-login/) pour les étapes de configuration. 
 

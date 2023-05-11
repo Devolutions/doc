@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Créer un compte de site Web avec {{ fr.DWL }}
+  order: 10
 ---
 {{ fr.DWL }} vous aide à créer un nouveau compte lorsque vous vous inscrivez sur un site Web. Il vous donne la possibilité de créer un mot de passe sécurisé et d'enregistrer vos nouveaux identifiants.  
 

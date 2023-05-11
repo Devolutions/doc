@@ -1,6 +1,6 @@
 ---
 title: First Login with Devolutions Web Login
-order: 10
+order: 40
 ---
 Follow these steps to connect {{ en.RDM }} to the {{ en.DWL }} extension. You will be prompted to pair the two applications.  
 

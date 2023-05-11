@@ -1,6 +1,6 @@
 ---
 title: Utiliser Devolutions Web Login
-order: 30
+order: 60
 ---
 {% snippet icon.badgeNotice %} 
 Cette rubrique suppose que vous avez préalablement [installé l'extension {{ fr.DWL }}](/fr/rdm/windows/dwl/installation/) dans votre navigateur et qu'elle est [connectée à {{ fr.RDM }}](/fr/rdm/windows/dwl/first-login-devolutions-web-login/) . 
