@@ -1,6 +1,6 @@
 ---
 title: Interface utilisateur de Devolutions Web Login
-order: 20
+order: 40
 ---
 L 'interface utilisateur de {{ fr.DWL }} et ses fonctionnalités sont légèrement différentes dans votre navigateur selon que vous utilisez {{ fr.PHUB }} Business ou {{ fr.PHUB }} Personal en conjonction avec l 'extension. Sélectionnez la rubrique qui s 'applique à votre situation :  
 

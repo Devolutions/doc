@@ -1,5 +1,6 @@
 ---
 title: Installation
+order: 10
 ---
 {{ en.DWL }} is a free browser extension companion tool. It requires at least one of our Devolutions products to function at this time.  
 

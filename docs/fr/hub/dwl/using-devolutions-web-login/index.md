@@ -1,6 +1,6 @@
 ---
 title: Utiliser Devolutions Web Login
-order: 30
+order: 50
 ---
 {% snippet icon.badgeNotice %} 
 Cette rubrique suppose que vous avez préalablement [installé l'extension {{ fr.DWL }}](/fr/hub/dwl/installation/) dans votre navigateur et qu'elle est connectée à [{{ fr.PHUB }} Business](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) ou à [{{ fr.PHUB }} Personal](/fr/hub/dwl/first-login-devolutions-web-login/hub-personal/) . 

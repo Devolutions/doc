@@ -1,5 +1,6 @@
 ---
 title: Paramètres
+order: 20
 keywords:
 - Coffre privé
 ---
