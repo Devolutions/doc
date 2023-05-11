@@ -1,5 +1,6 @@
 ---
 title: End of License
+order: 40
 ---
 Some of our {{ en.DPS }} users could wonder, what will happen with their data when the license expires.  
 

@@ -1,5 +1,6 @@
 ---
 title: Database
+order: 20
 ---
 The ***Database*** tab section contains the information of the SQL Server, the SQL credentials information and the database name used by {{ en.RDMS }} . 
 

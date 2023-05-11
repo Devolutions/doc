@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Upgrading {{ en.RDMS }}
+  order: 50
 ---
 {% snippet icon.badgeInfo %} 
 Install the proper version of {{ en.RDMSCONSOLE }} before upgrading the {{ en.RDMS }} web application. It is available on the [Download page](https://server.devolutions.net/home/download) . 

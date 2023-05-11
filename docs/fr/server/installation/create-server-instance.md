@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Créer une instance de {{ fr.DPS }}
+  order: 30
 ---
 {% snippet icon.badgeInfo %} 
 Si vous venez tout juste de recevoir vos clés de licence, veuillez d'abord consulter la section [Introduction](/fr/server/getting-started/) . 

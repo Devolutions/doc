@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Mise à niveau de {{ fr.DPS }}
+  order: 50
 ---
 {% snippet icon.badgeInfo %} 
 Veuillez installer la Console {{ fr.RDMS }} selon la version souhaité disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download) avant de mettre à jour l'instance web de {{ fr.RDMS }} . 

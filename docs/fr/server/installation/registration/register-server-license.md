@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Enregistrer une Licence {{ fr.DPS }}
+  order: 10
 ---
 
 Il existe deux méthodes pour enregistrer votre licence ***{{ fr.DPS }}*** , avec la [console {{ fr.DPS }}](#console-devolutions-server) ou via l' [interface Web {{ fr.DPS }}](#interface-web-devolutions-server) .  

@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Devolutions Server
+  order: 10
 keywords:
 - on-premise on-premises
 - Roles

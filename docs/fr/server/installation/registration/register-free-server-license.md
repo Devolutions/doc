@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Enregistrer une Licence {{ fr.RDMS }} Free
+  order: 20
 ---
 
 Il existe deux méthodes pour enregistrer votre licence {{ fr.DPS }} Free, avec la [console {{ fr.DPS }}](#console-devolutions-server) ou via l' [interface Web {{ fr.DPS }}](#interface-web-devolutions-server) .  

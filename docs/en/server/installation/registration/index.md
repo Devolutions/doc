@@ -1,5 +1,6 @@
 ---
 title: Registration
+order: 10
 ---
 ### Request a trial 
 It is possible to request a 30-day trial to try {{ en.DPS }} Enterprise version with all its features. For more information, please consult the [Trial Request](https://devolutions.net/server/trial) section.  

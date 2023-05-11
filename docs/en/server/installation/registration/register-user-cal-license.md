@@ -1,5 +1,6 @@
 ---
 title: Register a User CAL License
+order: 30
 ---
 There are two methods to register your ***User CAL*** license, with the [{{ en.DPS }} console](#devolutions-server-console) or through the [{{ en.DPS }} web interface](#devolutions-server-web-interface) . 
 

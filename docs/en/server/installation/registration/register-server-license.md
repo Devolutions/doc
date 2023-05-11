@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Register {{ en.RDMS }} License
+  order: 10
 ---
 There are two methods to register your {{ en.DPS }} license, with the [{{ en.DPS }} console](#devolutions-server-console) or through the [{{ en.DPS }} web interface](#devolutions-server-web-interface) . 
 

@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Register {{ en.RDMS }} Free License
+  order: 20
 ---
 There are two methods to register your {{ en.DPS }} Free license, with the [{{ en.DPS }} console](#devolutions-server-console) or through the [{{ en.DPS }} web interface](#devolutions-server-web-interface) .  
 
