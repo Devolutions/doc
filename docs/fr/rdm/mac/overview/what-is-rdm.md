@@ -1,5 +1,6 @@
 ---
 title: Remote Desktop Manager macOS
+order: 10
 ---
 ![!!{{ fr.RDM }} logo](https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg)
 
