@@ -1,6 +1,6 @@
 ---
 title: Interface utilisateur de Devolutions Web Login
-order: 30
+order: 40
 ---
 L'interface utilisateur de {{ fr.DWL }} varie légèrement dans votre navigateur selon le produit Devolutions utilisé conjointement avec l'extension. Cette rubrique présentera l'interface utilisateur de {{ fr.DWL }} lors de son utilisation avec {{ fr.DPS }} .  
 

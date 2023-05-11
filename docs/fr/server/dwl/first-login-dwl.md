@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Première connexion avec {{ fr.DWL }}
+  order: 30
 ---
 Suivez ces étapes pour connecter {{ fr.RDMS }} à l'extension {{ fr.DWL }} .  
 

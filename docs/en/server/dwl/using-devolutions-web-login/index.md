@@ -1,6 +1,6 @@
 ---
 title: Using Devolutions Web Login
-order: 40
+order: 50
 ---
 {% snippet icon.badgeNotice %} 
 This topic assumes that you have previously [installed the {{ en.DWL }} extension](/server/dwl/installation/) in your browser and that it is [connected to {{ en.DPS }}](/server/dwl/first-login-dwl/) . 
