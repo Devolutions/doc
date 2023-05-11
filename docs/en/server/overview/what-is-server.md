@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: What is {{ en.RDMS }}?
+  title: Devolutions Server
 keywords:
 - on-premise on-premises
 - Roles

@@ -1,5 +1,5 @@
 ---
-title: Centre de services de Devolutions
+title: Base de connaissances de Devolutions
 order: 0
 description: L’équipe du centre de services de Devolutions est fière de présenter cette base de connaissances à notre communauté de plus de 800 000 utilisateurs!
 keywords:

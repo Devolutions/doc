@@ -1,5 +1,5 @@
 ---
-title: Devolutions Customer Success
+title: Devolutions Knowledge Base
 order: 0
 description: The Devolutions Customer Success team is proud to publish this knowledge base for our community of over 800k users!
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Remote Desktop Manager
+title: Remote Desktop Manager macOS
 ---
 ![!!{{ fr.RDM }} logo](https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg)
 
