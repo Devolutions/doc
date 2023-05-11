@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Devolutions Hub
+  order: 10
   description: Devolutions Hub is a highly secure team-based password manager that is part of the {{ en.CLOUD }} services. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size.
   keywords:
   - on-premise on-premises
