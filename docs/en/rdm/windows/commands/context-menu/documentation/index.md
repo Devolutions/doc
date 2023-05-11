@@ -1,7 +1,7 @@
 ---
 title: Documentation
 ---
-The ***Documentation*** feature allows for storing information about resources in the data source. To access an entry&apos;s documentation, select an entry in the [{{ en.NPANE }}](/rdm/windows/user-interface/navigation-pane/) , then select the ***Documentation*** tab in the dashboard. Alternatively, right-click an entry in the {{ en.NPANE }}, then select ***View – Documentation*** .  
+The ***Documentation*** feature allows for storing information about resources in the data source. To access an entry's documentation, select an entry in the [{{ en.NPANE }}](/rdm/windows/user-interface/navigation-pane/) , then select the ***Documentation*** tab in the dashboard. Alternatively, right-click an entry in the {{ en.NPANE }}, then select ***View – Documentation*** .  
 
 The documentation is written using [Markdown](https://en.wikipedia.org/wiki/Markdown) , a plain text formatting syntax. 
 

@@ -3,14 +3,14 @@ title: Devolutions Online Drive
 ---
 {% youtube 'QoJ_7Uj9ajc' %}  
 
-Le {{ fr.DOD }} stocke et synchronise vos connexions à distance et vos identifiants en ligne. Vous pouvez accéder à vos sessions de n&apos;importe où via une connexion Internet.  
+Le {{ fr.DOD }} stocke et synchronise vos connexions à distance et vos identifiants en ligne. Vous pouvez accéder à vos sessions de n'importe où via une connexion Internet.  
 
-Il s&apos;agit d&apos;un service de stockage de fichiers en ligne dédiée à un seul type de fichier, la liste de connexion de {{ fr.RDM }} . {{ fr.DOD }} est entièrement gratuit et n&apos;a aucune limite quant au nombre de sessions que vous pourriez avoir, il est destiné aux utilisateurs uniques, car vous ne pourrez pas partager de fichiers.  
+Il s'agit d'un service de stockage de fichiers en ligne dédiée à un seul type de fichier, la liste de connexion de {{ fr.RDM }} . {{ fr.DOD }} est entièrement gratuit et n'a aucune limite quant au nombre de sessions que vous pourriez avoir, il est destiné aux utilisateurs uniques, car vous ne pourrez pas partager de fichiers.  
 
-Veuillez consulter la rubrique [Devolutions Online Drive](/fr/cloud/rdm-online-services/online-drive/) pour plus d&apos;informations sur ce service. 
+Veuillez consulter la rubrique [Devolutions Online Drive](/fr/cloud/rdm-online-services/online-drive/) pour plus d'informations sur ce service. 
 
 {% snippet icon.shieldWarning %} 
-Étant donné que ce service est hébergé dans le cloud, nous vous recommandons fortement de crypter davantage vos données en appliquant une clé maîtresse. Cela garantira que le fichier sera illisible par personne d&apos;autre que vous. 
+Étant donné que ce service est hébergé dans le cloud, nous vous recommandons fortement de crypter davantage vos données en appliquant une clé maîtresse. Cela garantira que le fichier sera illisible par personne d'autre que vous. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -51,10 +51,10 @@ Créer un nouveau Compte Devolutions.
 	</tr>
 	<tr>
 		<td>
-Nom d&apos;utilisateur 
+Nom d'utilisateur 
 		</td>
 		<td>
-Saisir votre nom d&apos;utilisateur de Compte Devolutions. 
+Saisir votre nom d'utilisateur de Compte Devolutions. 
 		</td>
 	</tr>
 	<tr>
@@ -62,15 +62,15 @@ Saisir votre nom d&apos;utilisateur de Compte Devolutions.
 Mode de connexion 
 		</td>
 		<td>
-Choisir la méthode par Défaut ou le [Mot de passe d&apos;application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) . 
+Choisir la méthode par Défaut ou le [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) . 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Mot de passe d&apos;application 
+Mot de passe d'application 
 		</td>
 		<td>
-Entrer votre [Mot de passe d&apos;application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) . 
+Entrer votre [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) . 
 		</td>
 	</tr>
 	<tr>
@@ -78,7 +78,7 @@ Entrer votre [Mot de passe d&apos;application](/fr/kb/remote-desktop-manager/how
 Demander les identifiants (Défaut seulement) 
 		</td>
 		<td>
-Demande le mot de passe chaque fois qu&apos;une connexion au Devolutions Online Drive est tentée. 
+Demande le mot de passe chaque fois qu'une connexion au Devolutions Online Drive est tentée. 
 		</td>
 	</tr>
 	<tr>
@@ -94,7 +94,7 @@ Indique le nom de fichier utilisé pour stocker les données sur la source de do
 Clé maîtresse 
 		</td>
 		<td>
-Saisir la clé maîtresse qui sera utilisée avant d&apos;ouvrir la source de données. 
+Saisir la clé maîtresse qui sera utilisée avant d'ouvrir la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -109,7 +109,7 @@ Toujours demander la clé maîtresse lors de la connexion à la source de donné
 
 ### Copie de sauvegarde 
 
-Veuillez consulter la rubrique [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) pour plus d&apos;informations sur ce service.  
+Veuillez consulter la rubrique [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) pour plus d'informations sur ce service.  
 ![Devolutions Online Drive - Copie de sauvegarde](/img/fr/rdm/windows/clip11334.png) 
 
 <table>
@@ -130,7 +130,7 @@ Sauvegarde
 Choisir entre:  
 
 * ***Aucun*** : Aucune sauvegarde de votre source de données ne sera créée. 
-* ***Sauvegarde en ligne*** : Une sauvegarde en ligne (à l&apos;aide du service de Sauvegarde en ligne) sera automatiquement créée. 
+* ***Sauvegarde en ligne*** : Une sauvegarde en ligne (à l'aide du service de Sauvegarde en ligne) sera automatiquement créée. 
 * ***Sauvegarde du fichier*** : Votre sauvegarde sera enregistrée dans un fichier choisi, mais ne fera pas automatiquement sauvegarder toutes les 30 secondes. 
 		</td>
 	</tr>
@@ -159,15 +159,15 @@ DESCRIPTION
 Actualisation automatique 
 		</td>
 		<td>
-Définir l&apos;intervalle d&apos;actualisation automatique. 
+Définir l'intervalle d'actualisation automatique. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Désactiver l&apos;affichage du mot de passe 
+Désactiver l'affichage du mot de passe 
 		</td>
 		<td>
-Désactiver la fonctionnalité de révélation du mot de passe lorsqu&apos;un utilisateur accède à cette source de données. 
+Désactiver la fonctionnalité de révélation du mot de passe lorsqu'un utilisateur accède à cette source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -183,7 +183,7 @@ Autoriser la source de données à être utilisée en mode hors ligne.
 Autoriser images personnalisées 
 		</td>
 		<td>
-Permettre à l&apos;utilisateur d&apos;utiliser des images personnalisées. Trop d&apos;images personnalisées pourraient augmenter considérablement la taille de la source de données et augmenter le temps de chargement. 
+Permettre à l'utilisateur d'utiliser des images personnalisées. Trop d'images personnalisées pourraient augmenter considérablement la taille de la source de données et augmenter le temps de chargement. 
 		</td>
 	</tr>
 	<tr>

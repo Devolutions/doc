@@ -5,14 +5,14 @@ title: Utilisateurs
 
 La gestion des utilisateurs est disponible dans le menu ***Administration - Utilisateurs*** . La gestion des utilisateurs vous permet de créer, gérer et attribuer des droits à un utilisateur.  
 
-{{ fr.RDM }} permet une gestion avancée des droits d&apos;utilisateur vous permettant de contrôler la façon dont une session est utilisée par chaque utilisateur. Noter que certains contrôles de visibilité dépendent de la source de données active.  
+{{ fr.RDM }} permet une gestion avancée des droits d'utilisateur vous permettant de contrôler la façon dont une session est utilisée par chaque utilisateur. Noter que certains contrôles de visibilité dépendent de la source de données active.  
 
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Toutes les [Source de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l&apos;utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/windows/commands/administration/management/user-management/integrated-security/) . 
+Toutes les [Source de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/windows/commands/administration/management/user-management/integrated-security/) . 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
@@ -21,7 +21,7 @@ Pour créer des utilisateurs et attribuer des droits, vous devez être administr
  
 ## Gérer les utilisateurs 
 
-Pour créer, modifier, supprimer, renommer ou gérer les utilisateurs dans leur ensemble, utiliser les boutons de la barre d&apos;outils.  
+Pour créer, modifier, supprimer, renommer ou gérer les utilisateurs dans leur ensemble, utiliser les boutons de la barre d'outils.  
 ![Gestion des usagers et de la sécurité](/img/fr/rdm/windows/clip10726.png) 
 
 ## Paramètres de gestion des utilisateurs 
@@ -42,36 +42,36 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Type d&apos;authentification 
+Type d'authentification 
 		</td>
 		<td>
-Sélectionner le type d&apos;authentification de l&apos;utilisateur:  
+Sélectionner le type d'authentification de l'utilisateur:  
 
 * Personnalisé (Devolutions) : Créer un utilisateur spécifique à {{ fr.RDM }} sans créer de connexion SQL. 
-* Base de données : A uthentifiez-vous à l&apos;aide de la connexion de votre base de données. 
+* Base de données : A uthentifiez-vous à l'aide de la connexion de votre base de données. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Nom d&apos;utilisateur 
+Nom d'utilisateur 
 		</td>
 		<td>
-Saisir le nom de l&apos;utilisateur. Lorsque vous utilisez la [Sécurité intégrée](/fr/rdm/windows/commands/administration/management/user-management/integrated-security/) , l&apos;utilisateur doit être sélectionné dans le répertoire. 
+Saisir le nom de l'utilisateur. Lorsque vous utilisez la [Sécurité intégrée](/fr/rdm/windows/commands/administration/management/user-management/integrated-security/) , l'utilisateur doit être sélectionné dans le répertoire. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Type d&apos;utilisateur 
+Type d'utilisateur 
 		</td>
 		<td>
-Sélectionner le type d&apos;utilisateur à créer, choisir entre:  
+Sélectionner le type d'utilisateur à créer, choisir entre:  
 
-* ***Administrateur:*** Accorder tous les droits administratifs à l&apos;utilisateur. 
-* ***Utilisateur lecture seulement:*** Accorder uniquement l&apos;accès en lecture seul à l&apos;utilisateur. 
-* ***Utilisateur accès restreint:*** Sélectionner les droits à accorder à l&apos;utilisateur. 
-* ***Utilisateur:*** Accorder tous les droits de base à l&apos;utilisateur (Ajouter, Modifier, Supprimer).  
+* ***Administrateur:*** Accorder tous les droits administratifs à l'utilisateur. 
+* ***Utilisateur lecture seulement:*** Accorder uniquement l'accès en lecture seul à l'utilisateur. 
+* ***Utilisateur accès restreint:*** Sélectionner les droits à accorder à l'utilisateur. 
+* ***Utilisateur:*** Accorder tous les droits de base à l'utilisateur (Ajouter, Modifier, Supprimer).  
 
-Pour plus d&apos;informations, veuillez consulter la rubrique [Types d&apos;utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/user-types/) . 
+Pour plus d'informations, veuillez consulter la rubrique [Types d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/user-types/) . 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Pour plus d&apos;informations, veuillez consulter la rubrique [Types d&apos;util
 Type de licence utilisateur 
 		</td>
 		<td>
-Sélectionner le type de licence de l&apos;utilisateur. Choisir entre:  
+Sélectionner le type de licence de l'utilisateur. Choisir entre:  
 
 * ***Par défaut*** 
 * ***Gestion de connexions*** 
@@ -91,7 +91,7 @@ Sélectionner le type de licence de l&apos;utilisateur. Choisir entre:
 Nom complet 
 		</td>
 		<td>
-Saisir le prénom et le nom de l&apos;utilisateur. 
+Saisir le prénom et le nom de l'utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -99,7 +99,7 @@ Saisir le prénom et le nom de l&apos;utilisateur.
 Courriel 
 		</td>
 		<td>
-Insérer l&apos;adresse courriel de l&apos;utilisateur. 
+Insérer l'adresse courriel de l'utilisateur. 
 		</td>
 	</tr>
 </table>
@@ -109,9 +109,9 @@ Insérer l&apos;adresse courriel de l&apos;utilisateur.
 Saisir toutes les informations nécessaires concernant votre nouvel utilisateur. La section est divisée en trois sous-sections: ***Détails, Adresse*** et ***Téléphone*** .  
 ![Gestion des utilisateurs - Entrée de données - Détails](/img/fr/rdm/windows/clip10728.png) 
 
-### Groupes d&apos;utilisateurs 
+### Groupes d'utilisateurs 
 
-Sélectionner les ***Groupes d&apos;utilisateurs*** à attribuer à l&apos;utilisateur.  
+Sélectionner les ***Groupes d'utilisateurs*** à attribuer à l'utilisateur.  
 ![Gestion des utilisateurs - Groupes d'utilisateurs](/img/fr/rdm/windows/clip11297.png) 
 
 <table>
@@ -126,22 +126,22 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Groupes d&apos;utilisateurs 
+Groupes d'utilisateurs 
 		</td>
 		<td>
-Cochez la case ***Est membre*** pour attribuer le groupes d&apos;utilisateurs à l&apos;utilisateur. Consultez la rubrique Gestion des [Groupes d&apos;utilisateurs](/fr/rdm/windows/commands/administration/management/user-groups-management/) pour plus d&apos;informations. 
+Cochez la case ***Est membre*** pour attribuer le groupes d'utilisateurs à l'utilisateur. Consultez la rubrique Gestion des [Groupes d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-groups-management/) pour plus d'informations. 
 		</td>
 	</tr>
 </table>
 
 ### Coffres 
 
-Sélectionner les ***Coffres*** auxquels l&apos;utilisateur a accès.  
+Sélectionner les ***Coffres*** auxquels l'utilisateur a accès.  
 ![Gestion des utilisateurs - Coffres](/img/fr/rdm/windows/clip3624.png) 
 
-### Accès à l&apos;application 
+### Accès à l'application 
 
-La section d&apos; ***Accès aux applications*** permet de restreindre l&apos;accès à {{ fr.RDM }} ou à [{{ fr.DWL }}](/fr/rdm/windows/dwl/overview/) .  
+La section d' ***Accès aux applications*** permet de restreindre l'accès à {{ fr.RDM }} ou à [{{ fr.DWL }}](/fr/rdm/windows/dwl/overview/) .  
 ![Gestion des utilisateurs - Accès à l'application](/img/fr/rdm/windows/clip3625.png) 
 
 <table>
@@ -159,7 +159,7 @@ DESCRIPTION
 {{ fr.RDM }} 
 		</td>
 		<td>
-Sélectionner si l&apos;utilisateur peut accéder à la source de données à partir de {{ fr.RDM }} . 
+Sélectionner si l'utilisateur peut accéder à la source de données à partir de {{ fr.RDM }} . 
 		</td>
 	</tr>
 	<tr>
@@ -167,7 +167,7 @@ Sélectionner si l&apos;utilisateur peut accéder à la source de données à pa
 [{{ fr.DWL }}](/fr/rdm/windows/dwl/overview/) 
 		</td>
 		<td>
-Sélectionner si l&apos;utilisateur peut accéder au formulaire de source de données {{ fr.DWL }} . 
+Sélectionner si l'utilisateur peut accéder au formulaire de source de données {{ fr.DWL }} . 
 		</td>
 	</tr>
 </table>
@@ -176,7 +176,7 @@ Sélectionner si l&apos;utilisateur peut accéder au formulaire de source de don
 
 ![Gestion des utilisateurs - Paramètres](/img/fr/rdm/windows/clip11304.png) 
 
-Autoriser l&apos;utilisateur à activer le mode Hors connexion sur les sources de données. Cela dépend également de la source de données configurée pour l&apos;autoriser. Vous pouvez choisir entre:  
+Autoriser l'utilisateur à activer le mode Hors connexion sur les sources de données. Cela dépend également de la source de données configurée pour l'autoriser. Vous pouvez choisir entre:  
 
 <table>
 	<tr>
@@ -201,7 +201,7 @@ Aucun cache hors ligne autorisé pour cet utilisateur.
 Cache seulement 
 		</td>
 		<td>
-Permets d&apos;enregistrer un cache de la source de données, mais pas le mode hors ligne. 
+Permets d'enregistrer un cache de la source de données, mais pas le mode hors ligne. 
 		</td>
 	</tr>
 	<tr>

@@ -1,7 +1,7 @@
 ---
 title: Permissions du système
 ---
-Les ***Permissions du système*** permettent d&apos;accorder certaines autorisations administratives aux utilisateurs standard sans en faire des administrateurs. Le paramètre ***Par défaut*** hérite des permissions de l&apos;utilisateur ou du groupe d&apos;utilisateurs. 
+Les ***Permissions du système*** permettent d'accorder certaines autorisations administratives aux utilisateurs standard sans en faire des administrateurs. Le paramètre ***Par défaut*** hérite des permissions de l'utilisateur ou du groupe d'utilisateurs. 
 
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
@@ -25,7 +25,7 @@ DESCRIPTION
 Importer 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à importer des entrées dans la source de données 
+Autoriser les utilisateurs/groupes d'utilisateurs à importer des entrées dans la source de données 
 		</td>
 	</tr>
 	<tr>
@@ -33,7 +33,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à importer des entrées 
 Exporter 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à exporter à partir de la source de données. 
+Autoriser les utilisateurs/groupes d'utilisateurs à exporter à partir de la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -41,7 +41,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à exporter à partir de 
 Ajouter à la racine 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à créer des entrées dans le dossier racine. 
+Autoriser les utilisateurs/groupes d'utilisateurs à créer des entrées dans le dossier racine. 
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +49,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à créer des entrées da
 Paramètres du coffre 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder aux propriétés racines. 
+Autoriser les utilisateurs/groupes d'utilisateurs à accéder aux propriétés racines. 
 		</td>
 	</tr>
 </table>
@@ -72,7 +72,7 @@ DESCRIPTION
 Journaux des activités 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher les journaux d&apos;activité. 
+Autoriser les utilisateurs/groupes d'utilisateurs à afficher les journaux d'activité. 
 		</td>
 	</tr>
 	<tr>
@@ -80,7 +80,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher les journaux 
 Rapports 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à générer et à afficher des rapports. 
+Autoriser les utilisateurs/groupes d'utilisateurs à générer et à afficher des rapports. 
 		</td>
 	</tr>
 	<tr>
@@ -88,7 +88,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à générer et à affich
 Entrées supprimées 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher et restaurer les entrées supprimées. 
+Autoriser les utilisateurs/groupes d'utilisateurs à afficher et restaurer les entrées supprimées. 
 		</td>
 	</tr>
 	<tr>
@@ -96,7 +96,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher et restaurer 
 Journaux administratifs 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher les journaux d&apos;administration. 
+Autoriser les utilisateurs/groupes d'utilisateurs à afficher les journaux d'administration. 
 		</td>
 	</tr>
 	<tr>
@@ -104,7 +104,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à afficher les journaux 
 Restitution (forcé) 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à restituer les entrées en mode d&apos;extraction. 
+Autoriser les utilisateurs/groupes d'utilisateurs à restituer les entrées en mode d'extraction. 
 		</td>
 	</tr>
 </table>
@@ -127,7 +127,7 @@ DESCRIPTION
 Outils de gestion de la console 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils de gestion de la console. 
+Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils de gestion de la console. 
 		</td>
 	</tr>
 	<tr>
@@ -135,7 +135,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils de
 Outils intégrés (Wake On LAN, NetStat, Ping, ...) 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils liés à la session. 
+Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils liés à la session. 
 		</td>
 	</tr>
 	<tr>
@@ -143,7 +143,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils li
 Entrée Macro/Script/Outil 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les entrées Macro/Script/Outil. 
+Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les entrées Macro/Script/Outil. 
 		</td>
 	</tr>
 	<tr>
@@ -151,7 +151,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les entrées 
 Outils à distance 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils à distance. 
+Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils à distance. 
 		</td>
 	</tr>
 	<tr>
@@ -159,7 +159,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils à
 Outils de gestion Web 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à utiliser les outils de gestion Web. 
+Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils de gestion Web. 
 		</td>
 	</tr>
 </table>
@@ -186,7 +186,7 @@ DESCRIPTION
 Utilisateur 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder à la gestion des utilisateurs. 
+Autoriser les utilisateurs/groupes d'utilisateurs à accéder à la gestion des utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -194,15 +194,15 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder à la gestion
 Licences 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder à la gestion des licences. 
+Autoriser les utilisateurs/groupes d'utilisateurs à accéder à la gestion des licences. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Groupes d&apos;utilisateurs 
+Groupes d'utilisateurs 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder à la gestion des groupes d&apos;utilisateurs. 
+Autoriser les utilisateurs/groupes d'utilisateurs à accéder à la gestion des groupes d'utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -210,7 +210,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder à la gestion
 Coffres 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à gérer les coffres. 
+Autoriser les utilisateurs/groupes d'utilisateurs à gérer les coffres. 
 		</td>
 	</tr>
 	<tr>
@@ -218,7 +218,7 @@ Autoriser les utilisateurs/groupes d&apos;utilisateurs à gérer les coffres.
 Paramètres des systèmes 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d&apos;utilisateurs à accéder aux paramètres des systèmes. 
+Autoriser les utilisateurs/groupes d'utilisateurs à accéder aux paramètres des systèmes. 
 		</td>
 	</tr>
 </table>

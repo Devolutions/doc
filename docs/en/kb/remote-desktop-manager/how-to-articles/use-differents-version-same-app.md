@@ -5,7 +5,7 @@ You have 2 different version of an application installed on your workstation and
 
 ## Settings
 
-When you configure your application installation path in File ***–*** Options ***–*** Path , separate the paths by a ;  
+When you configure your application installation path in File – Options – Path , separate the paths by a ;  
 
 {{ en.RDM }} will prompt you with the selection list and you will be able to pick the one that you want to use.
 

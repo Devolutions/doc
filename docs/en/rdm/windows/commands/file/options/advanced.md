@@ -32,9 +32,9 @@ Logs
 		<td>
 The logs can be saved in a file or in a database file. Select between: 
 
-* ***Both*** : &#32; Logs will be saved in a text file and in a database file. 
-* ***Database*** : &#32; Logs will be saved in a file named RemoteDesktopManager.log.db. The file is located in the installation folder of the application. 
-* ***File*** : &#32; Logs will be saved in a file named RemoteDesktopManager.log. The file is located in the installation folder of the application. 
+* ***Both*** :   Logs will be saved in a text file and in a database file. 
+* ***Database*** :   Logs will be saved in a file named RemoteDesktopManager.log.db. The file is located in the installation folder of the application. 
+* ***File*** :   Logs will be saved in a file named RemoteDesktopManager.log. The file is located in the installation folder of the application. 
 		</td>
 	</tr>
 	<tr>
@@ -47,10 +47,10 @@ You can choose your Offline engine between MCDF v2.0 (default), SQLite (deprecat
 	</tr>
 	<tr>
 		<td>
-Force &quot;localhost&quot; when using VPN dynamic port 
+Force "localhost" when using VPN dynamic port 
 		</td>
 		<td>
-Force the use of &quot;localhost&quot; when using the VPN dynamic port. 
+Force the use of "localhost" when using the VPN dynamic port. 
 		</td>
 	</tr>
 	<tr>
@@ -516,10 +516,10 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Always show &quot;Go Offline&quot; button 
+Always show "Go Offline" button 
 		</td>
 		<td>
-Always display the &quot;Go Offline&quot; button in the status bar when [Offline Mode](/rdm/windows/data-sources/offline-mode/) is active. 
+Always display the "Go Offline" button in the status bar when [Offline Mode](/rdm/windows/data-sources/offline-mode/) is active. 
 		</td>
 	</tr>
 	<tr>

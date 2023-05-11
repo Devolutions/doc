@@ -30,14 +30,14 @@ Several features are not available in offline mode, such as:
 The offline mode availability relies on several settings:  
 
 * The data source offline cache must be enabled in ***File – Data Sources – Advanced – Caching Mode – Intelligent*** . This step needs to be done before you export your data source to other computers) 
-* The user&apos;s account must be enabled in ***Administration – Users – Edit – Settings – Offline mode*** . 
+* The user's account must be enabled in ***Administration – Users – Edit – Settings – Offline mode*** . 
 * The user groups policies (only for the {{ en.RDMS }} data source) in ***Administration – User groups – Edit – Settings – Offline mode*** . 
 * The data source ***System Settings*** in ***Administration – System Settings – Offline – Offline mode*** and ***Expiration*** . 
 * For each {{ en.VLT }} , ***Administration – Vault Settings – Security Settings – Allow offline*** . 
 
 The lowest setting (in terms of security) prevails over the others, which may prevent you from using the offline mode. If the ***Go Offline*** button is not available, please consult your administrator.  
 
-The &#32; [Data Source Information](/rdm/windows/commands/file/my-data-source-information/) displays the size of the offline cache file along with the effective modes (disabled, read-only, or read/write).  
+The   [Data Source Information](/rdm/windows/commands/file/my-data-source-information/) displays the size of the offline cache file along with the effective modes (disabled, read-only, or read/write).  
 ![File – My Data Source Information – Offline mode](/img/en/rdm/windows/clip11278.png) 
 
 ### Caching mode 

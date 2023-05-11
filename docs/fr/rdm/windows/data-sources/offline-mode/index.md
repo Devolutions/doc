@@ -3,24 +3,24 @@ title: Mettre hors-ligne
 ---
 {% youtube 'W7jK8g4WbNQ' %}  
 
-Le ***Mode hors-ligne*** se connecte à une copie locale de la source de données lorsque la source de données n&apos;est pas disponible. Cela peut être utilisé lorsqu&apos;un utilisateur travaille à partir d&apos;un réseau déconnecté ou lorsqu&apos;il existe des problèmes de connectivité avec la source de données.  
+Le ***Mode hors-ligne*** se connecte à une copie locale de la source de données lorsque la source de données n'est pas disponible. Cela peut être utilisé lorsqu'un utilisateur travaille à partir d'un réseau déconnecté ou lorsqu'il existe des problèmes de connectivité avec la source de données.  
 
-Le mode hors-ligne en lecture/écriture ajoute aux utilisateurs la possibilité de manipuler les entrées lorsqu&apos;ils sont déconnectés de la source de données. Ceci est utile pour le personnel hors site ou lorsque vous travaillez dans des environnements disposant d&apos;une disponibilité réseau sporadique.  
+Le mode hors-ligne en lecture/écriture ajoute aux utilisateurs la possibilité de manipuler les entrées lorsqu'ils sont déconnectés de la source de données. Ceci est utile pour le personnel hors site ou lorsque vous travaillez dans des environnements disposant d'une disponibilité réseau sporadique.  
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité n&apos;est pas disponible pour toutes les sources de données, veuillez consulter la rubrique d&apos;aide de la source de données pour savoir si elle prend en charge le mode hors-ligne. 
+Cette fonctionnalité n'est pas disponible pour toutes les sources de données, veuillez consulter la rubrique d'aide de la source de données pour savoir si elle prend en charge le mode hors-ligne. 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
-Le cache hors ligne est d&apos;abord chiffré à l&apos;aide de notre propre clé privée mélangée à certaines informations provenant de l&apos;ordinateur local. Cela rend impossible la lecture d&apos;une copie sur une autre machine. Par défaut, il est également chiffré avec le chiffrement Windows NTFS, auquel cas aucune clé n&apos;est enregistrée nulle part. 
+Le cache hors ligne est d'abord chiffré à l'aide de notre propre clé privée mélangée à certaines informations provenant de l'ordinateur local. Cela rend impossible la lecture d'une copie sur une autre machine. Par défaut, il est également chiffré avec le chiffrement Windows NTFS, auquel cas aucune clé n'est enregistrée nulle part. 
 {% endsnippet %}
  
 
-Pour plus de sécurité, les fichiers hors connexion sont définis pour expirer après un certain délai. L&apos;expiration par défaut est fixée à 7 jours, mais peut être modifiée via les [Paramètres du système](/fr/rdm/windows/commands/administration/settings/system-settings/application/offline/) .  
+Pour plus de sécurité, les fichiers hors connexion sont définis pour expirer après un certain délai. L'expiration par défaut est fixée à 7 jours, mais peut être modifiée via les [Paramètres du système](/fr/rdm/windows/commands/administration/settings/system-settings/application/offline/) .  
 
-{{ fr.RDM }} demandera le mode hors-ligne lorsque l&apos;application ne parvient pas à atteindre la source de données.  
+{{ fr.RDM }} demandera le mode hors-ligne lorsque l'application ne parvient pas à atteindre la source de données.  
 
-Vous pouvez activer manuellement le mode hors-ligne dans le menu ***Fichier – Mettre hors ligne*** . Lorsque la connexion est de nouveau en ligne, utiliser le menu ***Fichier – Aller en ligne*** ou l&apos;icône ***Actualiser*** pour vous reconnecter à la source de données.  
+Vous pouvez activer manuellement le mode hors-ligne dans le menu ***Fichier – Mettre hors ligne*** . Lorsque la connexion est de nouveau en ligne, utiliser le menu ***Fichier – Aller en ligne*** ou l'icône ***Actualiser*** pour vous reconnecter à la source de données.  
 
 Certaines options ne seront pas disponibles en mode hors ligne:  
 
@@ -31,13 +31,13 @@ Certaines options ne seront pas disponibles en mode hors ligne:
 
 La disponibilité du mode hors ligne repose sur plusieurs paramètres:  
 
-* Le mode de la cache hors ligne de la source de données doit être activé dans ***Fichier – Source de données – Avancé – Mode de la cache – Intelligente*** . ( Cette étape doit être effectuée avant d&apos;exporter votre source de données vers d&apos;autres) 
-* Le compte de l&apos;utilisateur doit être activé dans ***Administration – Utilisateurs – Modifier – Paramètres – Mode hors connexion*** . 
-* Les stratégies de groupe d&apos;utilisateurs (seulement pour la data source DVLS) dans ***Administration – Groupe d&apos;utilisateurs – Modifier – Paramètres – Mode hors connexion*** . 
+* Le mode de la cache hors ligne de la source de données doit être activé dans ***Fichier – Source de données – Avancé – Mode de la cache – Intelligente*** . ( Cette étape doit être effectuée avant d'exporter votre source de données vers d'autres) 
+* Le compte de l'utilisateur doit être activé dans ***Administration – Utilisateurs – Modifier – Paramètres – Mode hors connexion*** . 
+* Les stratégies de groupe d'utilisateurs (seulement pour la data source DVLS) dans ***Administration – Groupe d'utilisateurs – Modifier – Paramètres – Mode hors connexion*** . 
 * Les paramètres de la source de données dans ***Administration – Paramètres du système – Hors connexion – Mode Hors connexion*** et ***Expiration*** . 
 * Pour chaque coffre dans ***Administration – Paramètres du coffre – Paramètres de sécurité – Autoriser le mode hors ligne*** . 
 
-Le paramètre le plus bas (en termes de sécurité) prévaut sur les autres, ce qui peut vous empêcher d&apos;utiliser le mode hors ligne. Si le bouton ***Mettre hors-ligne*** n&apos;est pas disponible, veuillez consulter votre administrateur.  
+Le paramètre le plus bas (en termes de sécurité) prévaut sur les autres, ce qui peut vous empêcher d'utiliser le mode hors ligne. Si le bouton ***Mettre hors-ligne*** n'est pas disponible, veuillez consulter votre administrateur.  
 
 Dans ***Fichier – Informations sur la source de données*** , le ***Mode hors ligne*** affiche la taille du fichier hors ligne ainsi que le mode effectif (désactivé, en lecture seule ou accessible en écriture).  
 ![Fichier – Informations de la source de données – Mode hors ligne](/img/fr/rdm/windows/clip11278.png) 
@@ -47,7 +47,7 @@ Dans ***Fichier – Informations sur la source de données*** , le ***Mode hors 
 Le mode de mise en cache doit être défini sur ***En mémoire*** ou ***Fichier*** pour activer le mode hors ligne.  
 
 {% snippet icon.badgeCaution %} 
-Cette étape ne peut pas être modifiée à distance une fois que vous avez exporté vos paramètres de source de données. Vous devriez prendre un moment et réfléchir aux besoins de votre source de données et sélectionner ce qui est approprié avant de passer à l&apos;exportation. 
+Cette étape ne peut pas être modifiée à distance une fois que vous avez exporté vos paramètres de source de données. Vous devriez prendre un moment et réfléchir aux besoins de votre source de données et sélectionner ce qui est approprié avant de passer à l'exportation. 
 {% endsnippet %}
  
 ![Mode de la cache](/img/fr/rdm/windows/clip3581.png) 
@@ -66,7 +66,7 @@ DESCRIPTION
 Désactivé 
 		</td>
 		<td>
-Empêche l&apos;utilisation du cache hors ligne. 
+Empêche l'utilisation du cache hors ligne. 
 		</td>
 	</tr>
 	<tr>
@@ -74,7 +74,7 @@ Empêche l&apos;utilisation du cache hors ligne.
 En mémoire 
 		</td>
 		<td>
-Utilise le cache hors ligne uniquement pour les modifications récentes, mais l&apos;empêche d&apos;écrire sur le disque (uniquement en mémoire). 
+Utilise le cache hors ligne uniquement pour les modifications récentes, mais l'empêche d'écrire sur le disque (uniquement en mémoire). 
 		</td>
 	</tr>
 	<tr>
@@ -88,7 +88,7 @@ Utilise le cache hors ligne uniquement pour les modifications récentes. Le cach
 </table>
 
 {% snippet icon.badgeInfo %} 
-Certaines fonctions de {{ fr.RDM }} ne sont pas disponibles lorsque vous êtes hors ligne. Même avec le mode d&apos;accès lecture/écriture, il se peut que vous ne puissiez pas effectuer toutes les actions, telles que l&apos;ajout de pièces jointes ou la gestion des utilisateurs, car ces fonctionnalités ne sont pas mises en cache localement. En revanche, le [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/user-vault/) est toujours disponible en mode hors ligne. 
+Certaines fonctions de {{ fr.RDM }} ne sont pas disponibles lorsque vous êtes hors ligne. Même avec le mode d'accès lecture/écriture, il se peut que vous ne puissiez pas effectuer toutes les actions, telles que l'ajout de pièces jointes ou la gestion des utilisateurs, car ces fonctionnalités ne sont pas mises en cache localement. En revanche, le [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/user-vault/) est toujours disponible en mode hors ligne. 
 {% endsnippet %}
  
 ### Accorder/refuser le mode Hors-ligne 
@@ -108,7 +108,7 @@ DESCRIPTION
 Désactivé 
 		</td>
 		<td>
-Empêche l&apos;utilisation d&apos;un cache hors ligne. 
+Empêche l'utilisation d'un cache hors ligne. 
 		</td>
 	</tr>
 	<tr>
@@ -116,7 +116,7 @@ Empêche l&apos;utilisation d&apos;un cache hors ligne.
 Lecture seule 
 		</td>
 		<td>
-Autorise l&apos;affichage et l&apos;utilisation des entrées uniquement. Le contenu de la source de données ne peut pas être modifié. 
+Autorise l'affichage et l'utilisation des entrées uniquement. Le contenu de la source de données ne peut pas être modifié. 
 		</td>
 	</tr>
 	<tr>
@@ -124,7 +124,7 @@ Autorise l&apos;affichage et l&apos;utilisation des entrées uniquement. Le cont
 [Lecture/Écriture](/fr/rdm/windows/data-sources/offline-mode/offline-read-write/) 
 		</td>
 		<td>
-Permets d&apos;afficher, d&apos;utiliser et de modifier des entrées. Les conflits causés par des modifications hors ligne sont gérés lors de la remise en ligne. 
+Permets d'afficher, d'utiliser et de modifier des entrées. Les conflits causés par des modifications hors ligne sont gérés lors de la remise en ligne. 
 		</td>
 	</tr>
 </table>

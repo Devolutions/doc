@@ -3,7 +3,7 @@ title: Permission
 ---
 {% youtube 'FQACxCIj_GU' %}  
 
-The Permission window which is only available in an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) , can be found in every entry properties in the ***&#32;*** ***Permission*** section.  
+The Permission window which is only available in an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) , can be found in every entry properties in the   ***Permission*** section.  
 
 The user group based permission system can give a very accurate control of the security. Here is an overview of the permission window:  
 ![Permission panel](/img/en/rdm/windows/clip11102.png) 

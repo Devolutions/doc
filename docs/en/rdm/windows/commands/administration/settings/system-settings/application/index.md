@@ -46,7 +46,7 @@ Allow users to save [Local Specific Settings](/rdm/windows/commands/edit/setting
 Allow templates (local) 
 		</td>
 		<td>
-Allows to locally save entry&apos;s templates. 
+Allows to locally save entry's templates. 
 		</td>
 	</tr>
 	<tr>
@@ -132,7 +132,7 @@ DESCRIPTION
 Use web or html welcome page 
 		</td>
 		<td>
-Enter an URL to use as the application&apos;s welcome page. 
+Enter an URL to use as the application's welcome page. 
 		</td>
 	</tr>
 </table>

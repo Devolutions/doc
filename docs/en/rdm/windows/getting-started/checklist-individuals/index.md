@@ -1,7 +1,7 @@
 ---
 title: Checklist for Individuals
 ---
-Here&apos;s a checklist to help you get started with {{ en.RDM }} for individuals. 
+Here's a checklist to help you get started with {{ en.RDM }} for individuals. 
 
 <table>
 	<tr>

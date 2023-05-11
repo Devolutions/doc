@@ -24,7 +24,7 @@ The {{ en.RDMJ }} feature does not allow you to circumvent the need to properly 
  
 {% youtube 'AfpCDZGphA8' %}  
 
-Both instances of {{ en.RDMJ }} or {{ en.RDM }} and RDM Agent &#32; running on the ***Jump Host*** &#32; communicate through an RDP channel. Commands are sent securely over the RDP channel and are then executed on the Service Host . Commands include running a script or opening a remote session of any type . It can even launch a VPN client on the Service Host prior to running the remote session.  
+Both instances of {{ en.RDMJ }} or {{ en.RDM }} and RDM Agent   running on the ***Jump Host***   communicate through an RDP channel. Commands are sent securely over the RDP channel and are then executed on the Service Host . Commands include running a script or opening a remote session of any type . It can even launch a VPN client on the Service Host prior to running the remote session.  
 
 * [Usage Scenarios](#usage-scenarios) 
 * [Configure a Jump Host](#configure-a-jump-host) 
@@ -38,7 +38,7 @@ There are two targeted scenarios:
 
 1. Accessing a secure network through a single host  
 
-This allows you to have a strict firewall policy that allows connections only from a specific IP address. This configuration only grants you access to hosts that are accessible from the Jump Box. Let&apos;s imagine you have the following infrastructure:  
+This allows you to have a strict firewall policy that allows connections only from a specific IP address. This configuration only grants you access to hosts that are accessible from the Jump Box. Let's imagine you have the following infrastructure:  
 ![!!clip10825.png](/img/en/rdm/windows/clip10825.png) 
 
 You need to access the remote hosts, but you want to limit risks and expose only the Jump Host to the internet traffic. This allows you to create strict firewall rules and to open only a single port. Therefore, it forces you to connect to the Jump Host before hopping to a remote host.  
@@ -129,7 +129,7 @@ Or
     1. ***Jump*** session should start on the ***Jump Host Server*** . 
 1. Close all sessions. 
 1. Start the ***Jump*** session directly. 
-    1. ***Jump Host Server*** &amp; ***Jump*** session should both start.  
+    1. ***Jump Host Server*** & ***Jump*** session should both start.  
 
 All should be working correctly. If any of the steps fails, it is where you need to investigate. 
 
@@ -137,5 +137,5 @@ All should be working correctly. If any of the steps fails, it is where you need
 
 * To gain more space for the dashboard, in the ***View*** tab, hide the ***Ribbon*** and ***Navigation Pane*** since the menus are not needed. 
 * Use the same {{ en.RDM }} license on the local and the remote instances. The Jump Host acts as a relay between the local and the remote systems, allowing to use the {{ en.RDM }} license that has been used on the local workstation to register the application on the Jump Host. 
-* There is no need to create a data source on the Jump Host. {{ en.RDM }} will open for the first time with a default ***SQLite*** &#32; ***Local Data Source*** . This is sufficient because the application on the Jump Host only acts as an intermediate between the local and the remote hosts. 
+* There is no need to create a data source on the Jump Host. {{ en.RDM }} will open for the first time with a default ***SQLite***   ***Local Data Source*** . This is sufficient because the application on the Jump Host only acts as an intermediate between the local and the remote hosts. 
 

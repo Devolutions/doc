@@ -15,8 +15,8 @@ This notification is only available for the Microsoft SQL Server and Microsoft A
     1. Connect to your {{ en.DA }} in ***File – {{ en.DA }}***.
     1. Set your users email with their {{ en.DA }} email in ***Administration – Users***.
 1. In your [{{ en.DA }}](https://portal.devolutions.com/):
-    1. [Create an Organization](https://helpcloud.devolutions.net/cloud_create_organization.html).
-    1. [Invite Users to your Organization](https://helpcloud.devolutions.net/cloud_invite_users_organization.html).
+    1. Create an Organization.
+    1. Invite Users to your Organization.
 
 ## Steps
 1. In {{ en.RDM }}, go to ***Administration – System Settings – Vault***.

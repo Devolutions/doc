@@ -43,7 +43,7 @@ DESCRIPTION
 Authentication type 
 		</td>
 		<td>
-Select the user&apos;s authentication type:  
+Select the user's authentication type:  
 
 * Custom (Devolutions) : create a user specific to {{ en.RDM }} without creating an SQL login. 
 * Database (SQL Server) : authenticate using the SQL login from your SQL Server. 
@@ -70,7 +70,7 @@ Specifie to use Active Directory to authenticate to the data source. Applies onl
 Password 
 		</td>
 		<td>
-Enter the user&apos;s password. This field is disabled when using [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/) . 
+Enter the user's password. This field is disabled when using [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/) . 
 		</td>
 	</tr>
 	<tr>
@@ -113,7 +113,7 @@ Enter the First name and Last name of the user.
 Email 
 		</td>
 		<td>
-Insert the user&apos;s email address. 
+Insert the user's email address. 
 		</td>
 	</tr>
 </table>
@@ -155,7 +155,7 @@ Select which repositories the user has access to. For more information, please c
 
 ### Application Access 
 
-The application access section allows to restrain access to {{ en.RDM }} or [{{ en.DWL }}](https://help.remotedesktopmanager.com/devolutionsweblogin_overview.html) .  
+The application access section allows to restrain access to {{ en.RDM }} or [{{ en.DWL }}](https://helprdm.devolutions.net/devolutionsweblogin_overview.html) .  
 ![User Management - Application Access](/img/en/rdm/windows/clip3625.png) 
 
 <table>

@@ -5,7 +5,7 @@ title: Multi-Factor Authentication
 This feature is only available for [{{ en.RDMS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) , [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) , [Microsoft SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) , and [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) data sources. 
 {% endsnippet %}
  
-Multi-factor authentication (MFA) identifies users by at least two different components: something that the user knows (often a password) and something that the user possesses (e.g., a validation code sent to a mobile device). If one of the components is missing or supplied incorrectly, the user&apos;s identity is not established with sufficient certainty and access to the data source will remain blocked.  
+Multi-factor authentication (MFA) identifies users by at least two different components: something that the user knows (often a password) and something that the user possesses (e.g., a validation code sent to a mobile device). If one of the components is missing or supplied incorrectly, the user's identity is not established with sufficient certainty and access to the data source will remain blocked.  
 
 MFA is set at the data source level, except in {{ en.RDMS }} , where it is [set on the user](/server/web-interface/administration/configuration/server-settings/security/two-factor/) . {{ en.RDM }} supports [Authenticator (TOTP)](/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/) , [Yubikey](/rdm/windows/data-sources/multi-factor-authentication/yubikey/) , and [Duo](/rdm/windows/data-sources/multi-factor-authentication/duo/) .  
 

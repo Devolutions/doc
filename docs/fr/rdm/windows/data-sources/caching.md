@@ -4,7 +4,7 @@ title: Mode de la cache
 Le mode de la cache déterminera comment le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances.  
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité n&apos;est disponible que lors de l&apos;utilisation d&apos;une [source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
@@ -13,7 +13,7 @@ Si vous pensez que le cache est obsolète, appuyez sur Ctrl+Actualiser ou Ctrl+F
  
 ## Paramètres 
 
-L&apos;option ***Mode de la cache*** est accessible via ***Fichier – Sources de données – Modifier la source de données – Avancé*** dans une source de données avancée.  
+L'option ***Mode de la cache*** est accessible via ***Fichier – Sources de données – Modifier la source de données – Avancé*** dans une source de données avancée.  
 ![Mode de la cache](/img/fr/rdm/windows/clip3581.png) 
 
 <table>
@@ -30,7 +30,7 @@ DESCRIPTION
 Désactivé 
 		</td>
 		<td>
-Empêche l&apos;utilisation du cache hors ligne. 
+Empêche l'utilisation du cache hors ligne. 
 		</td>
 	</tr>
 	<tr>
@@ -38,7 +38,7 @@ Empêche l&apos;utilisation du cache hors ligne.
 En mémoire 
 		</td>
 		<td>
-Utilise le cache hors ligne uniquement pour les modifications récentes, mais l&apos;empêche d&apos;écrire sur le disque (uniquement en mémoire). 
+Utilise le cache hors ligne uniquement pour les modifications récentes, mais l'empêche d'écrire sur le disque (uniquement en mémoire). 
 		</td>
 	</tr>
 	<tr>
@@ -61,7 +61,7 @@ Il existe trois moteurs pour la cache:
 * MCDF (offline.mcdf) 
 * MCDF v2.0 (offline.mcdf2) 
 
-Si vous utilisez une version de {{ fr.RDM }} antérieure à 11.2, le moteur par défaut sera ***SQLite*** , dans ce cas, la base de données est chiffrée à l&apos;aide d&apos;un hachage de clé calculée non portable.  
+Si vous utilisez une version de {{ fr.RDM }} antérieure à 11.2, le moteur par défaut sera ***SQLite*** , dans ce cas, la base de données est chiffrée à l'aide d'un hachage de clé calculée non portable.  
 
 Si vous utilisez la version 11.2 ou une version plus récente de {{ fr.RDM }} , le moteur de cache par défaut sera les fichiers ***Microsoft Compound Document Format (MCDF)*** .  
 

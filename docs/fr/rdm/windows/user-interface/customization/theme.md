@@ -1,7 +1,7 @@
 ---
 title: Thème
 ---
-Le thème de {{ fr.RDM }} peut être modifié pour mieux correspondre à vos préférences. Il modifie la couleur et l&apos;ombrage de l&apos;interface utilisateur.  
+Le thème de {{ fr.RDM }} peut être modifié pour mieux correspondre à vos préférences. Il modifie la couleur et l'ombrage de l'interface utilisateur.  
 
 Ce paramètre ***Thème*** est disponible dans ***Fichier – Options – Interface utilisateur*** . Le thème ***Clair*** est défini par défaut, mais vous pouvez sélectionner le thème ***Sombre*** si vous préférez. Le thème sera automatiquement appliqué une fois que vous aurez cliqué sur ***OK*** .  
 ![Fichier – Options – Interface utilisateur – Thème](/img/fr/rdm/windows/clip11341.png) 
@@ -42,7 +42,7 @@ Utilise un thème sombre avec des tons de noir, de gris foncé et de bleu.
 	</tr>
 </table>
 
-Un autre moyen plus rapide d&apos;accéder à ce paramètre est disponible dans l&apos;onglet ***Compte*** du ***{{ fr.NPANE }}*** .  
+Un autre moyen plus rapide d'accéder à ce paramètre est disponible dans l'onglet ***Compte*** du ***{{ fr.NPANE }}*** .  
 ![Compte – Paramètres – Thème](/img/fr/rdm/windows/RDMWin2069.png) 
 
 Pour comparer les thèmes, voici deux exemples de la même vue dans {{ fr.RDM }} : la première utilisant le thème ***Clair*** et la seconde le thème ***Sombre*** .  

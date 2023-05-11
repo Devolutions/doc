@@ -1,7 +1,7 @@
 ---
 title: Deleted Entries
 ---
-The Administration ***–*** View deleted option allows you to view the deleted entries as well as restoring them.  
+The Administration – View deleted option allows you to view the deleted entries as well as restoring them.  
 
 {% snippet icon.badgeInfo %} 
 This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
@@ -19,7 +19,7 @@ Sub-connections are not retained in the View Deleted window. To restore a sub-co
 
 ### Manage Deleted Entries 
 
-The ***Deleted Entries*** will generate a list containing all the entries previously deleted from your data source. You may resurrect an entry, meaning it will become an active entry again and will be shown in your data source. You may also chose to permanently delete your entries, once you have permanently deleted your entries you won&apos;t be able to resurrect them afterward.  
+The ***Deleted Entries*** will generate a list containing all the entries previously deleted from your data source. You may resurrect an entry, meaning it will become an active entry again and will be shown in your data source. You may also chose to permanently delete your entries, once you have permanently deleted your entries you won't be able to resurrect them afterward.  
 ![Deleted Entries](/img/en/rdm/windows/clip10308.png) 
 
 <table>

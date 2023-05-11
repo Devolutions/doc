@@ -2,15 +2,15 @@
 title: Backup Restore
 ---
 {% snippet icon.badgeCaution %} 
-Before being able to restore a backup, you MUST create an empty data source and define the backup name before being able to use it. You need to c reate a new SQLite, XML or Online Drive data source in File ***–*** Data Sources . 
+Before being able to restore a backup, you MUST create an empty data source and define the backup name before being able to use it. You need to c reate a new SQLite, XML or Online Drive data source in File – Data Sources . 
 {% endsnippet %}
  
-At some point, you may need to restore a backup of your [{{ en.DODV }}](/rdm/windows/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) or [XML](/rdm/windows/data-sources/data-sources-types/xml/) data sources. The restore option is accessible from the menu File ***–*** Backup ***–*** Restore . 
+At some point, you may need to restore a backup of your [{{ en.DODV }}](/rdm/windows/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) or [XML](/rdm/windows/data-sources/data-sources-types/xml/) data sources. The restore option is accessible from the menu File – Backup – Restore . 
 
 ## Settings 
 
 1. To restore a data source from a backup, select it as the current data source. 
-1. Click on File ***–*** Backup ***–*** Restore.  
+1. Click on File – Backup – Restore.  
 ![Backup Restore](/img/en/rdm/windows/clip10731.png) 
 1. Select the backup that you wish to restore from the list and click on ***Select*** .  
 ![Select your Backup](/img/en/rdm/windows/clip10732.png) 

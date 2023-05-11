@@ -1,7 +1,7 @@
 ---
 title: Application Logs
 ---
-When encountering errors, you can verify the local application log, which is available in Help ***–*** Application Logs .  
+When encountering errors, you can verify the local application log, which is available in Help – Application Logs .  
 
 These logs are saved in %LocalAppData%\Devolutions\RemoteDesktopManager\RemoteDesktopManager.log.db . Logs are displayed as a list which can be filtered by date, message, version,or type of log.  
 ![View Application Log dialog](/img/en/rdm/windows/clip10432.png) 

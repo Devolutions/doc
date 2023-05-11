@@ -1,13 +1,13 @@
 ---
 title: Applications
 ---
-La section ***Applications*** gère la disponibilité des différentes fonctionnalités liées à l&apos;application {{ fr.RDM }} .  
+La section ***Applications*** gère la disponibilité des différentes fonctionnalités liées à l'application {{ fr.RDM }} .  
 ![Paramètres du système - Applications](/img/fr/rdm/windows/clip3561.png) 
 
 <table>
 	<tr>
 		<th>
-AUTORISER L&apos;ACCÈS 
+AUTORISER L'ACCÈS 
 		</th>
 		<th>
 DESCRIPTION 
@@ -15,10 +15,10 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Systèmes d&apos;exploitation 
+Systèmes d'exploitation 
 		</td>
 		<td>
-Activer l&apos;accès à la source de données à partir des systèmes d&apos;exploitation sélectionnés. 
+Activer l'accès à la source de données à partir des systèmes d'exploitation sélectionnés. 
 		</td>
 	</tr>
 </table>
@@ -38,7 +38,7 @@ DESCRIPTION
 Permettre paramètres spécifiques locaux 
 		</td>
 		<td>
-Permets l&apos;utilisation des [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Permets l'utilisation des [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
 		</td>
 	</tr>
 	<tr>
@@ -46,7 +46,7 @@ Permets l&apos;utilisation des [Paramètres spécifiques](/fr/rdm/windows/comman
 Permettre les modèles (locaux) 
 		</td>
 		<td>
-Permets d&apos;enregistrer localement les modèles d&apos;entrée. 
+Permets d'enregistrer localement les modèles d'entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -54,7 +54,7 @@ Permets d&apos;enregistrer localement les modèles d&apos;entrée.
 Désactiver le glisser-déposer des entrées 
 		</td>
 		<td>
-La modification du groupe d&apos;entrées à l&apos;aide du glisser-déposer sera désactivée. Utiliser ce paramètre pour éviter un glisser-déposer accidentel. 
+La modification du groupe d'entrées à l'aide du glisser-déposer sera désactivée. Utiliser ce paramètre pour éviter un glisser-déposer accidentel. 
 		</td>
 	</tr>
 	<tr>
@@ -70,7 +70,7 @@ Désactive la fonction de connexion rapide pour tous les utilisateurs de la sour
 Désactiver RDM Agent et Jump 
 		</td>
 		<td>
-Désactive l&apos;option d&apos;activation d&apos;une session en tant qu&apos;Agent RDM ou Jump. 
+Désactive l'option d'activation d'une session en tant qu'Agent RDM ou Jump. 
 		</td>
 	</tr>
 	<tr>
@@ -78,7 +78,7 @@ Désactive l&apos;option d&apos;activation d&apos;une session en tant qu&apos;Ag
 Désactiver la trace de la pile 
 		</td>
 		<td>
-Désactive les détails de trace de pile lorsqu&apos;une erreur apparaît lors de l&apos;exécution de l&apos;application.. 
+Désactive les détails de trace de pile lorsqu'une erreur apparaît lors de l'exécution de l'application.. 
 		</td>
 	</tr>
 </table>
@@ -97,15 +97,15 @@ DESCRIPTION
 Permettre modèles de mots de passe locaux 
 		</td>
 		<td>
-Permets aux modèles de mots de passe d&apos;être enregistrés localement. 
+Permets aux modèles de mots de passe d'être enregistrés localement. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Désactiver l&apos;enregistrement de mot de passe pour l&apos;accès aux sources de données 
+Désactiver l'enregistrement de mot de passe pour l'accès aux sources de données 
 		</td>
 		<td>
-Empêche les utilisateurs d&apos;enregistrer ou de modifier les mots de passe stockés dans les configurations de source de données. 
+Empêche les utilisateurs d'enregistrer ou de modifier les mots de passe stockés dans les configurations de source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -113,7 +113,7 @@ Empêche les utilisateurs d&apos;enregistrer ou de modifier les mots de passe st
 Désactiver la sauvegarde du mot de passe (local) 
 		</td>
 		<td>
-Empêche les utilisateurs d&apos;enregistrer des mots de passe dans les propriétés des entrées. 
+Empêche les utilisateurs d'enregistrer des mots de passe dans les propriétés des entrées. 
 		</td>
 	</tr>
 </table>
@@ -121,7 +121,7 @@ Empêche les utilisateurs d&apos;enregistrer des mots de passe dans les proprié
 <table>
 	<tr>
 		<th>
-PAGE D&apos;ACCUEIL 
+PAGE D'ACCUEIL 
 		</th>
 		<th>
 DESCRIPTION 
@@ -129,10 +129,10 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Utiliser la page d&apos;accueil Web ou HTML 
+Utiliser la page d'accueil Web ou HTML 
 		</td>
 		<td>
-Saisir une URL à utiliser comme page d&apos;accueil de l&apos;application. 
+Saisir une URL à utiliser comme page d'accueil de l'application. 
 		</td>
 	</tr>
 </table>
@@ -148,18 +148,18 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Forcer la sécurité de l&apos;application avec les identifiants Windows 
+Forcer la sécurité de l'application avec les identifiants Windows 
 		</td>
 		<td>
-Obliger les utilisateurs à s&apos;authentifier avec leurs informations d&apos;identification Windows au démarrage de l&apos;application. 
+Obliger les utilisateurs à s'authentifier avec leurs informations d'identification Windows au démarrage de l'application. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Forcer la sécurité de l&apos;application avec Google Authenticator 
+Forcer la sécurité de l'application avec Google Authenticator 
 		</td>
 		<td>
-Obliger un appareil Google Authenticator pour accéder à l&apos;application lorsqu&apos;elle démarre ou lorsqu&apos;elle est verrouillée. 
+Obliger un appareil Google Authenticator pour accéder à l'application lorsqu'elle démarre ou lorsqu'elle est verrouillée. 
 		</td>
 	</tr>
 	<tr>
@@ -167,12 +167,12 @@ Obliger un appareil Google Authenticator pour accéder à l&apos;application lor
 Déconnecter la source de données 
 		</td>
 		<td>
-Définir l&apos;application à verrouiller:  
+Définir l'application à verrouiller:  
 
-* Lors de la réduction de la fenêtre: Verrouiller automatiquement l&apos;application lorsqu&apos;elle est réduite dans la barre des tâches. 
-* Lorsqu&apos;inactive: Verrouiller automatiquement l&apos;application lorsqu&apos;elle n&apos;est pas utilisée après un nombre de minutes déterminé. 
-* Lors du verrouillage de Windows: &#32; Verrouiller l&apos;application sur le verrouillage Windows. 
-* En mode veille: &#32; Verrouiller l&apos;application lorsqu&apos;en veille. 
+* Lors de la réduction de la fenêtre: Verrouiller automatiquement l'application lorsqu'elle est réduite dans la barre des tâches. 
+* Lorsqu'inactive: Verrouiller automatiquement l'application lorsqu'elle n'est pas utilisée après un nombre de minutes déterminé. 
+* Lors du verrouillage de Windows:   Verrouiller l'application sur le verrouillage Windows. 
+* En mode veille:   Verrouiller l'application lorsqu'en veille. 
 		</td>
 	</tr>
 	<tr>
@@ -185,10 +185,10 @@ Va basculer RDM du mode en ligne au mode hors ligne si disponible lors de la dé
 	</tr>
 	<tr>
 		<td>
-Se reconnecter automatiquement en cas d&apos;activité 
+Se reconnecter automatiquement en cas d'activité 
 		</td>
 		<td>
-Au lieu d&apos;utiliser le bouton d&apos;actualisation manuelle, après une période d&apos;inactivité, activer l&apos;option pour faire une reconnexion automatique. 
+Au lieu d'utiliser le bouton d'actualisation manuelle, après une période d'inactivité, activer l'option pour faire une reconnexion automatique. 
 		</td>
 	</tr>
 </table>

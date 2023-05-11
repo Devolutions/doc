@@ -1,7 +1,7 @@
 ---
 title: Compte Devolutions
 ---
-Dans ***Fichier - Compte Devolutions*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }} . Le {{ fr.DA }} est gratuit pour les clients et comprend l&apos;accès au ***Gestionnaire de paquets d&apos;installation personnalisés*** .  
+Dans ***Fichier - Compte Devolutions*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }} . Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***Gestionnaire de paquets d'installation personnalisés*** .  
 
 ## Paramètres 
 
@@ -60,7 +60,7 @@ DESCRIPTION
 Vous connecter automatiquement au démarrage 
 		</td>
 		<td>
-Connectez-vous automatiquement à votre compte {{ fr.DA }} au démarrage de l&apos;application. 
+Connectez-vous automatiquement à votre compte {{ fr.DA }} au démarrage de l'application. 
 		</td>
 	</tr>
 	<tr>
@@ -73,10 +73,10 @@ Garder un jeton en mémoire pour rester connecté à votre {{ fr.DA }}.
 	</tr>
 	<tr>
 		<td>
-Utiliser un mot de passe de l&apos;application 
+Utiliser un mot de passe de l'application 
 		</td>
 		<td>
-Utiliser le mot de passe de l&apos;application pour vous connecter à votre {{ fr.DA }}. 
+Utiliser le mot de passe de l'application pour vous connecter à votre {{ fr.DA }}. 
 		</td>
 	</tr>
 </table>
@@ -98,15 +98,15 @@ DESCRIPTION
 Générateur de fichier de configuration 
 		</td>
 		<td>
-Créer un fichier d&apos;installation {{ fr.RDM }} (.rdi). Consulter la rubrique [Générateur de fichiers d&apos;installation](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/) . 
+Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter la rubrique [Générateur de fichiers d'installation](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/) . 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Gestionnaire de paquets d&apos;installation personnalisés 
+Gestionnaire de paquets d'installation personnalisés 
 		</td>
 		<td>
-Consulter la rubrique [Service d&apos;installateur personnalisé](/fr/rdm/windows/installation/client/custom-installer-service/) . 
+Consulter la rubrique [Service d'installateur personnalisé](/fr/rdm/windows/installation/client/custom-installer-service/) . 
 		</td>
 	</tr>
 </table>

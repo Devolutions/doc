@@ -1,7 +1,7 @@
 ---
 title: Générateur de certificat
 ---
-Le ***Générateur de certificat*** vous permet de créer un certificat d&apos;auto-signature qui est un certificat d&apos;identité signé par la même entité dont l&apos;identité est certifiée.  
+Le ***Générateur de certificat*** vous permet de créer un certificat d'auto-signature qui est un certificat d'identité signé par la même entité dont l'identité est certifiée.  
 
 ## Paramètres 
 
@@ -43,10 +43,10 @@ Date de début du certificat.
 	</tr>
 	<tr>
 		<td>
-Valide jusqu&apos;au 
+Valide jusqu'au 
 		</td>
 		<td>
-Date d&apos;expiration du certificat. 
+Date d'expiration du certificat. 
 		</td>
 	</tr>
 	<tr>
@@ -62,7 +62,7 @@ Enregistrer le certificat dans un fichier *.pfx et sécurisez ce certificat avec
 Enregistrer dans le magasin de certificats 
 		</td>
 		<td>
-Indiquer l&apos;emplacement et le magasin où enregistrer le certificat. 
+Indiquer l'emplacement et le magasin où enregistrer le certificat. 
 		</td>
 	</tr>
 	<tr>
@@ -70,7 +70,7 @@ Indiquer l&apos;emplacement et le magasin où enregistrer le certificat.
 Emplacement 
 		</td>
 		<td>
-Indique l&apos;emplacement du certificat. Choisir entre:  
+Indique l'emplacement du certificat. Choisir entre:  
 
 * Utilisateur actuel 
 * Machine locale 
@@ -81,7 +81,7 @@ Indique l&apos;emplacement du certificat. Choisir entre:
 Boutique 
 		</td>
 		<td>
-Indiquer l&apos;emplacement de la boutique du certificat 
+Indiquer l'emplacement de la boutique du certificat 
 		</td>
 	</tr>
 </table>

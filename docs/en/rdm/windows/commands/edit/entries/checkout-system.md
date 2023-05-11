@@ -5,7 +5,7 @@ title: Checkout System
 
 The ***Checkout system*** locks an entry while it is being used or modified. It prevents users from using or editing an entry at the same time.  
 
-The checkout system can be enabled for ***Sessions*** , ***Documents*** , ***Credentials*** , ***&#32;*** and ***Information*** ***&#32;*** entries.  
+The checkout system can be enabled for ***Sessions*** , ***Documents*** , ***Credentials*** ,   and ***Information***   entries.  
 
 You can set the check out mode at the {{ en.VLT }} , folder or entry level. 
 

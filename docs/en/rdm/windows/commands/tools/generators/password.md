@@ -1,7 +1,7 @@
 ---
 title: Password Generator
 ---
-The ***Password Generator*** is available in the Tools ***–*** Password Generator menu. It allows to create random passwords that are and difficult to interpret or predict, due to a mix of uppercase and lowercase letters, numbers and punctuation symbols.  
+The ***Password Generator*** is available in the Tools – Password Generator menu. It allows to create random passwords that are and difficult to interpret or predict, due to a mix of uppercase and lowercase letters, numbers and punctuation symbols.  
 
 You can also create password generator templates to generate passwords. After you have selected your mode and settings, you can then create your template. 
 
@@ -71,7 +71,7 @@ Bracket
 b 
 		</td>
 		<td>
-()[]{}&lt;&gt; 
+()[]{}<> 
 		</td>
 	</tr>
 	<tr>
@@ -170,7 +170,7 @@ Printable 7-Bit Special Character
 s 
 		</td>
 		<td>
-!&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;?[\]^_{|}~ 
+!"#$%&'()*+,-./:;<=>?[\]^_{|}~ 
 		</td>
 	</tr>
 	<tr>
@@ -181,7 +181,7 @@ Printable 7-Bit ASCII
 S 
 		</td>
 		<td>
-A-Z, a-z, 0-9, !&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;?[\]^_{|}~ 
+A-Z, a-z, 0-9, !"#$%&'()*+,-./:;<=>?[\]^_{|}~ 
 		</td>
 	</tr>
 	<tr>
@@ -236,7 +236,7 @@ High ANSI
 x 
 		</td>
 		<td>
-From &apos;~&apos; to U255 (excluding U255) 
+From '~' to U255 (excluding U255) 
 		</td>
 	</tr>
 	<tr>

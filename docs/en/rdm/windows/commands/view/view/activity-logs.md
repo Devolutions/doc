@@ -123,7 +123,7 @@ Indicates the name of the machine user.
 User 
 		</td>
 		<td>
-Indicates the connected user&apos;s name. 
+Indicates the connected user's name. 
 		</td>
 	</tr>
 	<tr>

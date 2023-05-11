@@ -1,7 +1,7 @@
 ---
 title: Import Contacts
 ---
-You can go to File – Import – Contacts &#32; to import contacts from other software into &#32; {{ en.RDM }} . 
+You can go to File – Import – Contacts   to import contacts from other software into   {{ en.RDM }} . 
 
 {% snippet icon.badgeInfo %} 
 The import feature is only active if the import ***Privilege*** has been enabled inside the user account. 

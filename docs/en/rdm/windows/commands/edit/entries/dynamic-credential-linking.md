@@ -41,6 +41,6 @@ A dynamic credential link can also be applied to a Folder or a VPN entry type if
 ![Select from List](/img/en/rdm/windows/clip11065.png) 
 1. Select a credential from the list.  
 ![LastPass Credentials list](/img/en/rdm/windows/clip10657.png) 
-1. The link changes to the name of the credential. To remove linked credential and bring back automatic list prompt, simply click on the &quot;X&quot;.  
+1. The link changes to the name of the credential. To remove linked credential and bring back automatic list prompt, simply click on the "X".  
 ![Name of the credential](/img/en/rdm/windows/clip11066.png) 
 

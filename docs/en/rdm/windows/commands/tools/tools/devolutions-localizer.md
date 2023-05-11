@@ -29,9 +29,9 @@ A free [Devolutions Account](/cloud/devolutions-account/create-devolutions-accou
 ![Resource Line Selection](/img/en/rdm/windows/RDMWin2133.png) 
 
 {% snippet icon.badgeCaution %} 
-When translating text, you may encounter the ampersand character (&quot;&amp;&quot;) used in a way other than its usual meaning of &quot;and&quot;. This is not an error: the ampersand causes the character immediately to the right of it to be underlined when displayed. Please double check before translating.  
+When translating text, you may encounter the ampersand character ("&") used in a way other than its usual meaning of "and". This is not an error: the ampersand causes the character immediately to the right of it to be underlined when displayed. Please double check before translating.  
 
-For example, &quot;P&amp;roperties&quot; will be displayed as &quot;P r operties&quot; with an underlined &quot;r&quot;. 
+For example, "P&roperties" will be displayed as "P r operties" with an underlined "r". 
 {% endsnippet %}
  
 6. Type the translated text in the right box. 
@@ -49,7 +49,7 @@ A ***Bing*** button is available to assist you in translating your text.
 You can preview your changes in {{ en.RDM }} prior to the release or view the ones already in place but not yet released. 
 
 1. Close your {{ en.RDM }} . 
-1. In the Devolutions Localizer ***Dashboard*** , click ***Deploy – Generate &amp; Start*** to view your changes, or ***Deploy – Start (use existing)*** to view unreleased changes.  
+1. In the Devolutions Localizer ***Dashboard*** , click ***Deploy – Generate & Start*** to view your changes, or ***Deploy – Start (use existing)*** to view unreleased changes.  
 
 Follow the next steps if you want to change the language of your {{ en.RDM }} application to reflect the one you were translating:  
 

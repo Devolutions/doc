@@ -1,7 +1,7 @@
 ---
 title: Lecture (Ansi)
 ---
-La ***Lecture (Ansi)*** est disponible dans ***Outils - Plus d&apos; outils - Lecture (Ansi)*** .  
+La ***Lecture (Ansi)*** est disponible dans ***Outils - Plus d' outils - Lecture (Ansi)*** .  
 
 ## Paramètres 
 
@@ -39,10 +39,10 @@ Voir la section ***Options*** .
 		</td>
 	</tr>
 		<td>
-Effacer l&apos;écran 
+Effacer l'écran 
 		</td>
 		<td>
-Vider l&apos;écran pour lire un autre fichier ansi. 
+Vider l'écran pour lire un autre fichier ansi. 
 		</td>
 	</tr>
 </table>
@@ -72,7 +72,7 @@ Indique le nom du terminal.
 Encodage 
 		</td>
 		<td>
-Indique l&apos;encodage que vous souhaitez utiliser. 
+Indique l'encodage que vous souhaitez utiliser. 
 		</td>
 	</tr>
 		<td>
@@ -87,10 +87,10 @@ Indique ce qui se passe lorsque le texte atteint le bord droit de la fenêtre. C
 		</td>
 	</tr>
 		<td>
-&quot;Backspace wrap&quot; 
+"Backspace wrap" 
 		</td>
 		<td>
-Cette option vous permet de choisir ce que vous voulez faire lorsque vous appuyez sur retour arrière. Certains terminaux pensent que la touche de retour arrière devrait envoyer la même chose au serveur que Control-H (code ASCII 8). D&apos;autres terminaux pensent que la clé de retour arrière devrait envoyer le code ASCII 127 (généralement connu sous le nom de Control-?) Afin qu&apos;elle puisse être distinguée de Control-H. Choisir entre:  
+Cette option vous permet de choisir ce que vous voulez faire lorsque vous appuyez sur retour arrière. Certains terminaux pensent que la touche de retour arrière devrait envoyer la même chose au serveur que Control-H (code ASCII 8). D'autres terminaux pensent que la clé de retour arrière devrait envoyer le code ASCII 127 (généralement connu sous le nom de Control-?) Afin qu'elle puisse être distinguée de Control-H. Choisir entre:  
 
 * Ouvert 
 * Désactiver 
@@ -101,7 +101,7 @@ Cette option vous permet de choisir ce que vous voulez faire lorsque vous appuye
 Forcer retour en arrière non-destructif 
 		</td>
 		<td>
-Permets d&apos;effectuer un retour arrière normal sans supprimer un caractère. 
+Permets d'effectuer un retour arrière normal sans supprimer un caractère. 
 		</td>
 	</tr>
 		<td>
@@ -115,9 +115,9 @@ Ignorer le caractère de substitution qui peut être utilisé dans Putty.
 Retour de chariot implicite dans un saut de ligne 
 		</td>
 		<td>
-La plupart des serveurs envoient deux caractères de contrôle, CR et L, pour démarrer une nouvelle ligne à l&apos;écran. Le caractère CR fait revenir le curseur sur le côté gauche de l&apos;écran. Le caractère LF fait déplacer le curseur d&apos;une ligne vers le bas (et peut faire défiler l&apos;écran).  
+La plupart des serveurs envoient deux caractères de contrôle, CR et L, pour démarrer une nouvelle ligne à l'écran. Le caractère CR fait revenir le curseur sur le côté gauche de l'écran. Le caractère LF fait déplacer le curseur d'une ligne vers le bas (et peut faire défiler l'écran).  
 
-Certains serveurs n&apos;envoient que du LF et s&apos;attendent à ce que le terminal déplace automatiquement le curseur vers la gauche. Si vous rencontrez un serveur qui fait cela, vous verrez un effet d&apos;étage progressif sur l&apos;écran. Si cela vous arrive, essayez d&apos;activer l&apos;option et les choses pourraient redevenir normales. 
+Certains serveurs n'envoient que du LF et s'attendent à ce que le terminal déplace automatiquement le curseur vers la gauche. Si vous rencontrez un serveur qui fait cela, vous verrez un effet d'étage progressif sur l'écran. Si cela vous arrive, essayez d'activer l'option et les choses pourraient redevenir normales. 
 		</td>
 	</tr>
 </table>

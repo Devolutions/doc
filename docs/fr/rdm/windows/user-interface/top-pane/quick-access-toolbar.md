@@ -1,7 +1,7 @@
 ---
 title: Barre de connexion rapide
 ---
-La ***Barre de connexion rapide*** , qui se trouve en haut de l&apos;application, est composée de plusieurs parties:  
+La ***Barre de connexion rapide*** , qui se trouve en haut de l'application, est composée de plusieurs parties:  
 
 * Icône du menu système. 
 * Commandes favorites. 
@@ -11,7 +11,7 @@ La ***Barre de connexion rapide*** , qui se trouve en haut de l&apos;application
 ![Barre de connexion rapide](/img/fr/rdm/windows/clip11177.png) 
 
 {% snippet icon.badgeInfo %} 
-Les boutons de la ***Barre de connexion rapide*** sont signalés localement sur la machine actuelle par l&apos;utilisateur actuel. Ces boutons locaux sont enregistrés dans un fichier nommé ***RemoteDesktopManager.qtb*** . Par défaut, ce fichier se trouve dans %localappdata%\Devolutions\RemoteDesktopManager . 
+Les boutons de la ***Barre de connexion rapide*** sont signalés localement sur la machine actuelle par l'utilisateur actuel. Ces boutons locaux sont enregistrés dans un fichier nommé ***RemoteDesktopManager.qtb*** . Par défaut, ce fichier se trouve dans %localappdata%\Devolutions\RemoteDesktopManager . 
 {% endsnippet %}
  
 ### Commandes favorites 
@@ -58,12 +58,12 @@ Actualiser votre source de données.
 ![!!RibbonSearchSmall.png](/img/common/RibbonSearchSmall.png) 
 		</td>
 		<td>
-Ouvrir la fenêtre de dialogue du filtre pour vous permettre d&apos;effectuer une recherche rapide 
+Ouvrir la fenêtre de dialogue du filtre pour vous permettre d'effectuer une recherche rapide 
 		</td>
 	</tr>
 </table>
 
-Cliquer avec le bouton droit sur une commande pour afficher le menu contextuel. Pour supprimer un élément de la barre de connexion rapide, cliquer avec le bouton droit sur l&apos;élément et sélectionner ***Supprimer*** . Pour ajouter un élément, cliquer avec le bouton droit sur un élément du ruban et sélectionnez ***Ajouter*** . Utilisez-le pour personnaliser votre espace de travail selon vos préférences. 
+Cliquer avec le bouton droit sur une commande pour afficher le menu contextuel. Pour supprimer un élément de la barre de connexion rapide, cliquer avec le bouton droit sur l'élément et sélectionner ***Supprimer*** . Pour ajouter un élément, cliquer avec le bouton droit sur un élément du ruban et sélectionnez ***Ajouter*** . Utilisez-le pour personnaliser votre espace de travail selon vos préférences. 
 
 ### Contrôle de la Connexion rapide 
 
@@ -71,5 +71,5 @@ Veuillez vous référer à [***Connexion rapide***](/fr/rdm/windows/commands/vie
 
 ### Commande de verrouillage 
 
-Cette commande minimisera l&apos;application. Lorsque vous tentez de la restaurer, vous serez invité à saisir le mot de passe. S&apos;applique uniquement aux sources de données protégées par un mot de passe. 
+Cette commande minimisera l'application. Lorsque vous tentez de la restaurer, vous serez invité à saisir le mot de passe. S'applique uniquement aux sources de données protégées par un mot de passe. 
 

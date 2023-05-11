@@ -1,7 +1,7 @@
 ---
 title: Modifier le lot
 ---
-La fonction de modification par lots modifie les paramètres de plusieurs entrées en une seule opération. Par exemple, il peut être utilisé pour supprimer ou mettre à jour les informations d&apos;identification d&apos;un groupe de sessions.  
+La fonction de modification par lots modifie les paramètres de plusieurs entrées en une seule opération. Par exemple, il peut être utilisé pour supprimer ou mettre à jour les informations d'identification d'un groupe de sessions.  
 ![Modifier - Modifier le lot](/img/fr/rdm/windows/clip10236.png) 
 
 ## Sélection avancée 
@@ -15,7 +15,7 @@ Appuyer sur ***Sélectionner dans le volet de navigation*** pour sélectionner l
 
 ### Modifier un paramètre spécifique 
 
-Vous pouvez choisir de modifier un paramètre spécifique, par exemple, le nom d&apos;hôte.  
+Vous pouvez choisir de modifier un paramètre spécifique, par exemple, le nom d'hôte.  
 ![Changer vos noms d'hôtes](/img/fr/rdm/windows/clip10237.png) 
 
 ### Réinitialiser tous les identifiants ou les mots de passe sauvegardés 
@@ -32,7 +32,7 @@ Modifier les entrées (paramètres généraux) vous permet de modifier les param
 La modification des paramètres des entrées seulement disponibles que pour des types de sessions spécifiques, tels que Microsoft RDP.  
 ![Paramètres Type RDP](/img/fr/rdm/windows/clip10240.png) 
 
-### Modifier les entrées (paramètres spécifiques de l&apos;Utilisateur/Locaux) 
+### Modifier les entrées (paramètres spécifiques de l'Utilisateur/Locaux) 
 
-Les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) peuvent être modifiés dans un lot s&apos;ils sont pris en charge par le type des entrées à modifier. 
+Les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) peuvent être modifiés dans un lot s'ils sont pris en charge par le type des entrées à modifier. 
 

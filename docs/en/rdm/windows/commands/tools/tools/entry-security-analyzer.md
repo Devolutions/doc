@@ -5,7 +5,7 @@ keywords:
 - Password strength
 ---
 {% snippet icon.badgeInfo %} 
-The information in this topic is how the &quot;Legacy&quot; mode of password analysis works. The mode can be changed in the System Settings for ZXCVBN . The &quot;Legacy&quot; mode is not the default mode. 
+The information in this topic is how the "Legacy" mode of password analysis works. The mode can be changed in the System Settings for ZXCVBN . The "Legacy" mode is not the default mode. 
 {% endsnippet %}
  
 The ***Entry Security Analyzer*** evaluates the strength of passwords stored in the data source. To access the password analyzer, navigate the Tools tab.  

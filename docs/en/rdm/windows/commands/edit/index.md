@@ -49,7 +49,7 @@ Save the selected entry as a local or database template.
 	</tr>
 </table>
 
-A shortcut is the reiteration of an existing entry. In contrast to a duplicated entry, which has its own ID and properties, a shortcut is a link to an entry and its properties. You can create shortcuts easily by r ***ight-clicking the entry*** ***Edit – Create Shortcut*** ***or by using the aforementioned button in the*** ***Edit*** ***tab.*** ***&#32;*** There are a few scenarios where a user would want to use the same entry differently, such as connecting to two different hosts with a single RDP session.  
+A shortcut is the reiteration of an existing entry. In contrast to a duplicated entry, which has its own ID and properties, a shortcut is a link to an entry and its properties. You can create shortcuts easily by r ***ight-clicking the entry*** ***Edit – Create Shortcut*** ***or by using the aforementioned button in the*** ***Edit*** ***tab.***   There are a few scenarios where a user would want to use the same entry differently, such as connecting to two different hosts with a single RDP session.  
 
 For example, it is possible to:  
 
@@ -153,7 +153,7 @@ Override properties of the selected entry with settings specific to the local ma
 </table>
 
 {% snippet icon.badgeInfo %} 
-A Specific Settings column can be added in the {{ en.NPANE }} . Right-click on the column &#32; ***Name*** in the {{ en.NPANE }} and select &#32; ***Column Chooser*** . Double-Click on ***Specific Settings*** to add the column. Now, if there is a specific setting applied to an entry, it will be displayed next to the entry name.  
+A Specific Settings column can be added in the {{ en.NPANE }} . Right-click on the column   ***Name*** in the {{ en.NPANE }} and select   ***Column Chooser*** . Double-Click on ***Specific Settings*** to add the column. Now, if there is a specific setting applied to an entry, it will be displayed next to the entry name.  
 ![Navigation Pane - Column Chooser](/img/en/rdm/windows/SpecificSettingsColumnChooser.png) 
 {% endsnippet %}
  

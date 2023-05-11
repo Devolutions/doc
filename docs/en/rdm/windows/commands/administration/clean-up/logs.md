@@ -1,7 +1,7 @@
 ---
 title: Clean Up Logs
 ---
-The ***Clean Up Activity Logs*** will delete your data source&apos;s Activity Logs, you also have the option to clean up the ***Administration logs*** and set up a back up if desired.. 
+The ***Clean Up Activity Logs*** will delete your data source's Activity Logs, you also have the option to clean up the ***Administration logs*** and set up a back up if desired.. 
 {% snippet icon.badgeInfo %} 
 This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
 {% endsnippet %}

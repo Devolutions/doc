@@ -78,7 +78,7 @@ Utiliser les [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edi
 Chaque utilisateur possède ses propres identifiants gérés par un administrateur. 
 		</td>
 		<td>
-Cette solution implique un peu plus de travail. L'administrateur doit créer un dossier pour chaque utilisateur, puis accorder des autorisations uniquement à cet utilisateur. L'utilisateur utilisera ensuite les &#32; [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) pour spécifier que les identifiants stockés dans ce dossier sont utilisés pour remplacer ce qui est défini dans les entrées. 
+Cette solution implique un peu plus de travail. L'administrateur doit créer un dossier pour chaque utilisateur, puis accorder des autorisations uniquement à cet utilisateur. L'utilisateur utilisera ensuite les   [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) pour spécifier que les identifiants stockés dans ce dossier sont utilisés pour remplacer ce qui est défini dans les entrées. 
 		</td>
 	</tr>
 	<tr>

@@ -5,7 +5,7 @@ The ***Key Agent Manager*** is used to hold all your SSH Keys in memory, already
 
 ## Settings 
 
-1. When opening the Key Agent Manager, you will notice at the bottom right that the agent is not running . You will need to click on ***Start Agent*** . If you wish to always have your Key Agent running you can activate the option in File ***–*** Option ***–*** Key Agent ***–*** Start agent on application start .  
+1. When opening the Key Agent Manager, you will notice at the bottom right that the agent is not running . You will need to click on ***Start Agent*** . If you wish to always have your Key Agent running you can activate the option in File – Option – Key Agent – Start agent on application start .  
 ![Key Agent Manager - Start Agent](/img/en/rdm/windows/clip10089.png) 
 1. Click on ***Add key*** and select the file to open your SSH key.  
 ![Key Agent Manager - Add Key](/img/en/rdm/windows/clip10090.png) 

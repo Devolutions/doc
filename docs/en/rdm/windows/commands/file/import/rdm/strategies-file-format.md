@@ -19,7 +19,7 @@ Default values for fields are not serialized, meaning that they are simply left 
 Implementing support for all fields comes at a cost. The import process is time consuming because of all the dynamic field access that takes place. A massive initial import of entries should be separated in batches of manageable sizes. Please perform trials and tune the number of entries to achieve acceptable performance. 
 {% endsnippet %}
  
-All of our entries share a basic set of fields; the rest is tied to the specific technology being interfaced with (RDP, SSH, etc.). Some fields are grouped in structures, like the Information Tab. Those fields are accessible only when providing the structure name as a parent group, for example, &quot; MetaInformation\OS &quot; or &quot; MetaInformation\PurchaseDate &quot;. 
+All of our entries share a basic set of fields; the rest is tied to the specific technology being interfaced with (RDP, SSH, etc.). Some fields are grouped in structures, like the Information Tab. Those fields are accessible only when providing the structure name as a parent group, for example, " MetaInformation\OS " or " MetaInformation\PurchaseDate ". 
 
 {% snippet icon.badgeInfo %} 
 Note that the RDM file can contain our variables: they will be resolved upon saving. For instance, you could use the $HOST$ variable in fields like ***Description*** , ***URL*** , ***Putty\CustomSessionName*** , ... It will be replaced by the corresponding value. 

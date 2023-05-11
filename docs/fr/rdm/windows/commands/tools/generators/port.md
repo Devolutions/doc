@@ -34,14 +34,14 @@ Inclure les ports de la plage entre 0 et 1023. Ce sont les ports connus ou les p
 Inclure les ports enregistrés 
 		</td>
 		<td>
-Inclure les ports de la plage 1024 à 49151. Ils sont attribués par l&apos;IANA pour un service spécifique sur demande par une entité requérante. Sur la plupart des systèmes, les ports enregistrés peuvent être utilisés par les utilisateurs non admin. 
+Inclure les ports de la plage 1024 à 49151. Ils sont attribués par l'IANA pour un service spécifique sur demande par une entité requérante. Sur la plupart des systèmes, les ports enregistrés peuvent être utilisés par les utilisateurs non admin. 
 		</td>
 	</tr>
 		<td>
-Inclure les ports utilisés pas d&apos;autres sessions 
+Inclure les ports utilisés pas d'autres sessions 
 		</td>
 		<td>
-Inclure les ports déjà utilisés par d&apos;autres sessions. 
+Inclure les ports déjà utilisés par d'autres sessions. 
 		</td>
 	</tr>
 </table>

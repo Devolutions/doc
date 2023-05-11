@@ -27,10 +27,6 @@ module.exports = function (results) {
           os = result.url.split('/')[2];
         }
 
-        if (os === "windows") {
-          return;
-        }
-
         switch (doc) {
           case 'cloud':
             icon = "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-icon-shadow.svg";

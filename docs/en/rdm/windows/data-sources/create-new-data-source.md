@@ -9,7 +9,7 @@ title: Create a New Data Source
 ![Add a New Data Source](/img/en/rdm/windows/clip10816.png) 
 1. Select the type of data source to create.  
 ![Select your Data Source type](/img/en/rdm/windows/clip11365.png) 
-1. Configure the connection settings. To validate the information, click on ***Test Server*** &#32; or &#32; ***Test Connection*** &#32; (depending on the type of data source being created).  
+1. Configure the connection settings. To validate the information, click on ***Test Server***   or   ***Test Connection***   (depending on the type of data source being created).  
 ![SQL Server - Connection Tab](/img/en/rdm/windows/clip11366.png) 
 1. Once created, select the new data source by selecting it from the data source drop-down list at the top of the {{ en.NPANE }} .  
 ![Select your Data Source](/img/en/rdm/windows/clip11369.png) 

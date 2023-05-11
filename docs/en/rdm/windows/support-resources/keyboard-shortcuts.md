@@ -1,7 +1,7 @@
 ---
 title: Keyboard Shortcuts
 ---
-Here are the default keyboard shortcuts for various commands. These can be modified in File &#32; ***–*** &#32; Options &#32; ***–*** &#32; User Interface &#32; ***–*** &#32; Keyboard .  
+Here are the default keyboard shortcuts for various commands. These can be modified in File   –   Options   –   User Interface   –   Keyboard .  
 
 The ***Disable All*** button allows you to disable all shortcuts. The ***Reset Default*** button returns shortcuts to their default values.  
 

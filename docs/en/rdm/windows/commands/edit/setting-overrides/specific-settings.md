@@ -3,8 +3,8 @@ title: Specific Settings
 ---
 ***Specific Settings*** are used to override the properties of an entry. Several settings can be overridden, such as the credentials or the display mode. There are two types of ***Specific Settings*** : user specific settings and local machine specific settings.  
 
-* ***User Specific Settings*** override an entry&apos;s properties for a single user. 
-* ***Local Specific Settings*** override an entry&apos;s properties for all users of a specific device. 
+* ***User Specific Settings*** override an entry's properties for a single user. 
+* ***Local Specific Settings*** override an entry's properties for all users of a specific device. 
 
 {% snippet icon.badgeInfo %} 
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . A setting on the data source allows usage of ***Specific Settings*** . Contact your administrator if the menu is grayed out. 
@@ -15,7 +15,7 @@ If both ***User Specific Settings*** and ***Local Specific Settings*** are defin
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-These can also be accessed by using the right-click on an entry and going to Edit ***–*** User/Local Specific Settings . 
+These can also be accessed by using the right-click on an entry and going to Edit – User/Local Specific Settings . 
 {% endsnippet %}
  
 ![Context menu – Edit – User and Local Specific Settings](/img/en/rdm/windows/clip10214.png) 

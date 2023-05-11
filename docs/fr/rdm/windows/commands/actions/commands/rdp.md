@@ -1,7 +1,7 @@
 ---
 title: RDP
 ---
-Les commandes d&apos;une session RDP vous permettent d&apos;envoyer des commandes à distance à votre hôte. 
+Les commandes d'une session RDP vous permettent d'envoyer des commandes à distance à votre hôte. 
 
 ## Paramètres 
 
@@ -29,7 +29,7 @@ Empêche la session de recevoir des entrées du clavier ou de la souris. Cette f
 Envoyer Ctrl-Alt-Suppr 
 		</td>
 		<td>
-Envoie la combinaison de touches CTRL-ALT-SUPPR à l&apos;hôte. 
+Envoie la combinaison de touches CTRL-ALT-SUPPR à l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Sur le serveur Windows 8 ou Windows 2012, affiche la barre des icônes (Recherch
 Barre App 
 		</td>
 		<td>
-Sur le serveur Windows 8 ou Windows 2012, affiche la barre d&apos;applications pour afficher la navigation, les commandes et les outils. 
+Sur le serveur Windows 8 ou Windows 2012, affiche la barre d'applications pour afficher la navigation, les commandes et les outils. 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +53,7 @@ Sur le serveur Windows 8 ou Windows 2012, affiche la barre d&apos;applications p
 Aligner 
 		</td>
 		<td>
-Sur le serveur Windows 8 ou Windows 2012, vous permet d&apos;exécuter deux applications côte à côte. 
+Sur le serveur Windows 8 ou Windows 2012, vous permet d'exécuter deux applications côte à côte. 
 		</td>
 	</tr>
 	<tr>
@@ -61,15 +61,15 @@ Sur le serveur Windows 8 ou Windows 2012, vous permet d&apos;exécuter deux appl
 Écran de démarrage 
 		</td>
 		<td>
-Ouvre le menu de démarrage sur l&apos;ordinateur hôte. 
+Ouvre le menu de démarrage sur l'ordinateur hôte. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Modifier l&apos;App 
+Modifier l'App 
 		</td>
 		<td>
-Sur serveur Windows 8 ou Windows 2012, bascule d&apos;une application à une autre. 
+Sur serveur Windows 8 ou Windows 2012, bascule d'une application à une autre. 
 		</td>
 	</tr>
 </table>

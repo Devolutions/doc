@@ -28,7 +28,7 @@ On some machines, it may be required to install the PowerShell module manually. 
 * {{ en.RDM }} versions **2023.1 and later**: 
   1. Download the [{{ en.PS }} module NUPKG file](https://www.powershellgallery.com/packages/Devolutions.PowerShell/) from the PowerShell Gallery.
   1. Change the file extension to .zip.
-  1. Extract the file in C:\Program Files\WindowsPowerShell\Modules\devolutions.powershell\ &lt;version>.
+  1. Extract the file in C:\Program Files\WindowsPowerShell\Modules\devolutions.powershell\ <version>.
   1. Unblock all newly extracted files.
   ```
   cd c:\program files\WindowsPowerShell\modules\devolutions.powershell\<version>  
@@ -37,7 +37,7 @@ On some machines, it may be required to install the PowerShell module manually. 
 * {{ en.RDM }} versions **before 2023.1**:  
   1. Download the [RemoteDesktopManager module NUPKG file](https://www.powershellgallery.com/packages/RemoteDesktopManager) from the PowerShell Gallery.
   1. Change the file extension to .zip.
-  1. Extract the file in C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\ &lt;version>.
+  1. Extract the file in C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\ <version>.
   1. Unblock all newly extracted files.
   ```
   cd c:\program files\WindowsPowerShell\modules\remotedesktopmanager\<version>  

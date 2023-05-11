@@ -70,7 +70,7 @@ You can enhance the security of the offline file by setting the Enhanced securit
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Depending on the configuration of the Caching mode &amp; the [Offline mode](/rdm/windows/data-sources/offline-mode/) the offline file may still exist since the file servers as a dual purpose caching &amp; offline line support. 
+Depending on the configuration of the Caching mode & the [Offline mode](/rdm/windows/data-sources/offline-mode/) the offline file may still exist since the file servers as a dual purpose caching & offline line support. 
 {% endsnippet %}
  
 

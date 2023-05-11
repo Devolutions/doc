@@ -52,13 +52,13 @@ To assign users to a user group, select a user group and click the ***Assign Use
 Now, everything is ready to grant or deny access to the user groups.  
 
 * All {{ en.VLT }} folder permissions are set to ***Never*** . By inheritance, this denies the child items default access to everyone. 
-* The ServiceDesk has the permission to view and open all entries but is able to edit only the entries in the client&apos;s groups/folders. 
-* The HelpDesk has the permission to view and open entries in the client&apos;s groups/folders only and is not able to edit them. 
+* The ServiceDesk has the permission to view and open all entries but is able to edit only the entries in the client's groups/folders. 
+* The HelpDesk has the permission to view and open entries in the client's groups/folders only and is not able to edit them. 
 * The Consultants have the permission to view and open entries in the Montreal folder only but is not able to edit it or its child items. 
 
 **{{ en.VLT }} Settings** 
 
-As mentioned above, ALL &#32; {{ en.VLT }} settings folder permissions are set to ***Never*** . This denies the default access to other users.  
+As mentioned above, ALL   {{ en.VLT }} settings folder permissions are set to ***Never*** . This denies the default access to other users.  
 ![Vault Settings - Permissions](/img/en/rdm/windows/clip3397.png) 
 
 **Windjammer Downhill Pro, and Telemark, the {{ en.VLT }} level groups/folders** 
@@ -68,7 +68,7 @@ The permission to view the Windjammer folder is set for the ServiceDesk only sin
 
 * ***View: Custom*** ; ServiceDesk. 
 * ***Add: Inherited*** ; ***Never*** inherited from {{ en.VLT }} . Only the administrator can add entries. 
-* ***Edit: Inherited*** ; ***Never*** ***&#32;*** inherited from {{ en.VLT }} . Only the administrator can edit entries. 
+* ***Edit: Inherited*** ; ***Never***   inherited from {{ en.VLT }} . Only the administrator can edit entries. 
 * ***Delete: Inherited*** ; ***Never*** inherited from {{ en.VLT }} . Only the administrator can delete entries. 
 
 For Downhill Pro, we grant permissions to the ServiceDesk and the HelpDesk.  
@@ -84,7 +84,7 @@ We already have a good example of the flexibility of {{ en.RDM }} Security. Serv
 Next, for the Telemark folder, we grant permissions to the ServiceDesk, the HelpDesk and the Consultants. This is where things get complex. If we want the Consultants to be able to view only the Montreal folder, which is a child item of Telemark, we must grant Consultants the permission to view the parent folder, thereby the entire Telemark content. Then we will grant permissions on child items only to the user group that should have access to these items. This last step will deny the view permission for the Consultants on the child items.  
 ![Telemark - Permissions](/img/en/rdm/windows/clip3400.png) 
 
-* ***View: Custom*** ; &#32; Consultants, HelpDesk, ServiceDesk. 
+* ***View: Custom*** ;   Consultants, HelpDesk, ServiceDesk. 
 * ***Add: Custom*** ; ServiceDesk. 
 * ***Edit: Custom*** ; ServiceDesk. 
 * ***Delete: Inherited*** ; ***Never*** inherited from {{ en.VLT }} . Only the administrator can delete entries. 
@@ -96,7 +96,7 @@ Since we want the users to be able to use the credential entries, we grant the S
 The ***Add*** and ***Edit*** permissions are set to ***Never*** and the ***Delete*** permission can be left to ***Inherited*** since it inherits the ***Never*** settings from the {{ en.VLT }} . Only the administrators can perform these actions in groups/folders containing credentials.  
 ![Telemark / Credentials - Permissions](/img/en/rdm/windows/clip3401.png) 
 
-* ***View: Custom*** ; &#32; HelpDesk, ServiceDesk. 
+* ***View: Custom*** ;   HelpDesk, ServiceDesk. 
 * ***Add: Never*** ; Only administrators can add credential entries. 
 * ***Edit: Never*** ; Only administrators can edit entries. 
 * ***Delete: Inherited*** ; ***Never*** inherited from {{ en.VLT }} . Only administrators can delete entries. 
@@ -104,7 +104,7 @@ The ***Add*** and ***Edit*** permissions are set to ***Never*** and the ***Delet
 We want the ServiceDesk to be able to use the ***Domain admin*** credential entry, but not the HelpDesk. For this, we must grant the ***View*** permission to the ServiceDesk. The ServiceDesk is still be able to use the credential entry but will never see the password.  
 ![Telemark / Credentials / Admin - Permissions](/img/en/rdm/windows/clip3402.png) 
 
-* ***View: Custom*** ; &#32; ServiceDesk. 
+* ***View: Custom*** ;   ServiceDesk. 
 * ***Add: Inherited*** ; ***Never*** inherited from {{ en.VLT }} . Only administrators can add credential entries. 
 * ***Edit: Inherited*** ; ***Never*** inherited from {{ en.VLT }} . Only administrators can edit credential entries. 
 * ***Delete: Inherited*** ; ***Never*** inherited from Telemark\Credentials. Only administrators can delete credential entries.  
@@ -112,7 +112,7 @@ We want the ServiceDesk to be able to use the ***Domain admin*** credential entr
 The last step for the Telemark child items is to set the ***View*** permission to the ServiceDesk and the HelpDesk on the Boston folder and leave every other permissions of this folder to ***Inherited*** . This denies the Consultants to view the Boston folder. Now, the Consultants are able to view and open entries only in the Montreal folder.  
 ![Telemark / Boston - Permissions](/img/en/rdm/windows/clip3403.png) 
 
-* ***View: Custom*** ; &#32; HelpDesk, ServiceDesk. 
+* ***View: Custom*** ;   HelpDesk, ServiceDesk. 
 * ***Add: Inherited*** ; ServiceDesk inherited from Telemark. 
 * ***Edit: Inherited*** ; ServiceDesk inherited from Telemark. 
 * ***Delete: Inherited*** ; ***Never*** inherited from {{ en.VLT }} . 
@@ -125,8 +125,8 @@ There is no need to set any permissions on the Montreal folder, since they all i
 ![Telemark / Montreal - Permissions](/img/en/rdm/windows/clip3404.png) 
 
 ### In Conclusion 
-The permissions are now correctly set. Note that every entry added at {{ en.VLT }} level are inheriting from the {{ en.VLT }} as well. This means they would be available to admins only, unless their permissions were modified. This can be confirmed by looking at the screenshot below, in which the entry ***Daily routine*** is available for everyone (It&apos;s permissions have been changed to Everyone). Here is what each user should see in the tree view:  
+The permissions are now correctly set. Note that every entry added at {{ en.VLT }} level are inheriting from the {{ en.VLT }} as well. This means they would be available to admins only, unless their permissions were modified. This can be confirmed by looking at the screenshot below, in which the entry ***Daily routine*** is available for everyone (It's permissions have been changed to Everyone). Here is what each user should see in the tree view:  
 ![Side by Side Tree View](/img/en/rdm/windows/clip3391.png) 
 
-You can further customize permissions by using the ***Security Settings*** ***&#32;*** ***tab*** when editing entries. As always, great care must be taken when granting permissions. 
+You can further customize permissions by using the ***Security Settings***   ***tab*** when editing entries. As always, great care must be taken when granting permissions. 
 

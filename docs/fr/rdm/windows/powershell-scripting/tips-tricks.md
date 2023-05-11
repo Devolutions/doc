@@ -85,7 +85,7 @@ Aucun
 	</tr>
 	<tr>
 		<td>
-Mon {{ fr.PVLT }}, associé à PersonalConnectionID &#32; 
+Mon {{ fr.PVLT }}, associé à PersonalConnectionID   
 		</td>
 		<td>
 "245A4245-48E7-4DF5-9C4C-11861D8E1F81" 

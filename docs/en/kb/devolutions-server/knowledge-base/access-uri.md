@@ -32,5 +32,7 @@ Multiple format can be set and you must choose the right one.
 https<area>://myservername.mydomain.loc/dvls
 1. The {{ en.DPS }} instance is available externally on the web or behind a Load Balanced environment. Then the Access URI should be set with the URL you use to reach the instance from internet.  
 https<area>://myorganisation.com/dvls
-1. If {{ en.DPS }} is installed at the root of the IIS web site, then the Access URI should only be the FQDN of the machine.  
+1. If {{ en.DPS }} is installed at the root of the IIS web site. Then the Access URI should only be the FQDN of the machine.  
 https<area>://myorganization.com
+1. If {{ en.DPS }} is using a non-standard port (80 for http, 443 for https). Then the Access URI will need to contain the port number after a colon.  
+https<area>://myorganization.com:4443/dvls

@@ -1,9 +1,9 @@
 ---
 title: Source de données avancées
 ---
-Les ***Sources de données avancées*** s&apos;exécutent généralement sur un système de gestion avancé, soit un système de gestion de base de données ou nos propres services en ligne Devolutions.  
+Les ***Sources de données avancées*** s'exécutent généralement sur un système de gestion avancé, soit un système de gestion de base de données ou nos propres services en ligne Devolutions.  
 
-Elles augmentent considérablement l&apos;ensemble des fonctions de gestion disponibles pour les administrateurs, telles que :  
+Elles augmentent considérablement l'ensemble des fonctions de gestion disponibles pour les administrateurs, telles que :  
 
 * Téléchargement de documents et pièces jointes des entrées 
 * Audit et journalisation 

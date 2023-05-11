@@ -15,7 +15,7 @@ In this topic:
 
 1. Navigate to ***File – Templates*** and select ***Entry Templates*** .  
 ![File – Templates](/img/en/rdm/windows/clip3405.png) 
-1. In the ***Entry Templates*** window, click the ***Add template*** &#32; button.  
+1. In the ***Entry Templates*** window, click the ***Add template***   button.  
 ![Add a new template](/img/en/rdm/windows/clip3406.png) 
 1. Select an entry to create the template for, then click ***OK*** .  
 ![Select an entry to create the template for](/img/en/rdm/windows/clip3408.png) 

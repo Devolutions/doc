@@ -13,7 +13,7 @@ You must have the rights to run report in {{ en.RDM }} to use this feature.
 
 For Reports containing settings, you will have to start with exporting your report settings to create the *.rdr file that the command line use to generate the reports. Here is a list of reports containing settings:  
 
-1. Select your Report in Administrations ***–*** Report and then select the option ***Export Settings*** in the ***More*** text button. It will create an *.rdr file containing all your report settings. This is also where you Report ID is located (this will be useful later on).  
+1. Select your Report in Administrations – Report and then select the option ***Export Settings*** in the ***More*** text button. It will create an *.rdr file containing all your report settings. This is also where you Report ID is located (this will be useful later on).  
 ![Export Settings](/img/en/rdm/windows/clip10006.png) 
 1. In your Windows Command Prompt enter the following command line: 
 ```powershell

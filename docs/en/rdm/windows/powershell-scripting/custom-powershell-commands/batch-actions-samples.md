@@ -3,7 +3,7 @@ title: Batch Actions Samples
 ---
 The ***Batch Actions*** allow for a quick way to modify multiple sessions at once, but within {{ en.RDM }} itself.  
 
-To be able to create your PowerShell script, you would need the name of the field(s) that you would like to update. To retrieve the exact name of the field, right-click on your session and select Clipboard ***–*** Copy . You can then paste the information in a text editor to retrieve the name of the field(s) that you would like to modify via the Custom PowerShell Command.  
+To be able to create your PowerShell script, you would need the name of the field(s) that you would like to update. To retrieve the exact name of the field, right-click on your session and select Clipboard – Copy . You can then paste the information in a text editor to retrieve the name of the field(s) that you would like to modify via the Custom PowerShell Command.  
 
 Since they use the Powershell technology, we provides samples in this section because the fields are the same when accessed through our Batch Actions or through Powershell.  
 

@@ -8,7 +8,7 @@ The ***{{ en.RDMA }}*** is a very powerful tool that allows commands to be run o
 
 ## Settings 
 
-To launch a script through the &#32; ***{{ en.RDMA }}*** , you first need to open an RDP connection to all the machines you wish to execute the script on. Once opened, select all the opened sessions in the [{{ en.NPANE }}](/rdm/windows/user-interface/navigation-pane/) , right-click them and select Execute Script via Agent.  
+To launch a script through the   ***{{ en.RDMA }}*** , you first need to open an RDP connection to all the machines you wish to execute the script on. Once opened, select all the opened sessions in the [{{ en.NPANE }}](/rdm/windows/user-interface/navigation-pane/) , right-click them and select Execute Script via Agent.  
 
 {% snippet icon.badgeInfo %} 
 Execute script via Agent only needs the {{ en.RDMA }} when the script is executed from the Quick Script tab. {{ en.RDM }} needs to be fully installed on the remote computer when the script is executed from the Scripts/Tools tab. 

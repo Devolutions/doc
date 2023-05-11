@@ -9,12 +9,12 @@ View the [{{ en.RDM }} Security Dashboard](/kb/remote-desktop-manager/knowledge-
  
 ![Generate Report](/img/en/rdm/windows/clip10335.png) 
 
-From this window, you can browse and select a wide variety of Report Types. Explore to your heart&apos;s content.  
+From this window, you can browse and select a wide variety of Report Types. Explore to your heart's content.  
 
 Once Generated, a report will provide you with all the information you selected during this step. These final results can take various shapes and have different features (such as editing a specific entry or printing the result) depending on what the report actually is.  
 
 {% snippet icon.badgeInfo %} 
-These logs are still restricted by user rights. A user with restricted access wouldn&apos;t be able to select Password and Security for example. 
+These logs are still restricted by user rights. A user with restricted access wouldn't be able to select Password and Security for example. 
 {% endsnippet %}
  
 

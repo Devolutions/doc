@@ -193,7 +193,7 @@ Use the data source in offline mode when the ping method does not respond.
 Disable lock 
 		</td>
 		<td>
-Disable the option to lock the data source directly. You can still lock the application but you won&apos;t be prompted for the data source password if this option is disabled. 
+Disable the option to lock the data source directly. You can still lock the application but you won't be prompted for the data source password if this option is disabled. 
 		</td>
 	</tr>
 </table>

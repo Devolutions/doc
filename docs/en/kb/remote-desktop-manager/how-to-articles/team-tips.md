@@ -24,17 +24,17 @@ But wait – before you go live, why not have us create a [Custom Installer](htt
 Here’s a familiar scenario: your team has been using {{ en.RDM }} for months or even years, and all is well. Then along comes a new version full of cool new features, and you think that everyone in your company should upgrade. This window below depicts the different options at your disposal to control client versions.  
 ![!!KB4598.png](/img/en/kb/KB4598.png)  
 
-We’ve made this extremely easy. Simply open Administration ***–*** Data Source Settings (System Settings) ***–*** Version Management Below, a description of some of the settings;  
+We’ve made this extremely easy. Simply open Administration – Data Source Settings (System Settings) – Version Management Below, a description of some of the settings;  
 
 - Disable auto update notification – This will disable the "New version is available" message. (You’re welcome!)
 - Minimal version – This specifies the minimal acceptable version. If a member of your team runs an RDM version below this level, they’ll be prompted to upgrade.
 - Download URL – This improves install speed by downloading the MSI onto your local network, and lets all of your team members easily upgrade from this path. In short, this saves time and avoids installing the wrong version.  
 
-The Administration ***–*** Data Source Settings (System Settings) ***–*** Serial Number section is useful if you have a Site or Global License, and keeps you from having to manually set the key on every client.
+The Administration – Data Source Settings (System Settings) – Serial Number section is useful if you have a Site or Global License, and keeps you from having to manually set the key on every client.
 
 ## Data Source Settings (System Settings)
 
-The general tab of the Administration ***–*** Data Source Settings (System Settings) form allows you to easily control security aspects.  
+The general tab of the Administration – Data Source Settings (System Settings) form allows you to easily control security aspects.  
 
 A great team feature here is the System Message , which allows an administrator to inform users of upcoming system downtime, policy change or anything else. Each user will get the message when they perform the next action (open, edit, refresh…) of the data source. Use it to display company confidentially clauses or, if you wish, create chaos with a message like the one below. A little bit of chaos is good for the soul.  
 

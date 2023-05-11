@@ -1,11 +1,11 @@
 ---
 title: Mode réservation
 ---
-Le ***Mode réservation*** verrouille une entrée pendant qu&apos;elle est utilisée ou modifiée. Il empêche les utilisateurs d&apos;utiliser ou de modifier une entrée en même temps.  
+Le ***Mode réservation*** verrouille une entrée pendant qu'elle est utilisée ou modifiée. Il empêche les utilisateurs d'utiliser ou de modifier une entrée en même temps.  
 
-Le ***Mode réservation*** peut être activé pour des entrées de type ***Sessions*** , ***Documents*** , ***Identifiants*** et d&apos; ***Informations*** .  
+Le ***Mode réservation*** peut être activé pour des entrées de type ***Sessions*** , ***Documents*** , ***Identifiants*** et d' ***Informations*** .  
 
-Vous pouvez définir le ***Mode réservation*** au niveau du coffre, du dossier ou de l&apos;entrée. 
+Vous pouvez définir le ***Mode réservation*** au niveau du coffre, du dossier ou de l'entrée. 
 
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité est seulement disponible avec une source de données telles que Microsoft SQL Server ou {{ fr.RDMS }} . 
@@ -16,7 +16,7 @@ Les administrateurs peuvent définir la ***Restitution automatique après*** un 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Les administrateurs peuvent forcer la restitution des entrées qui sont réservées par d&apos;autres utilisateurs. Cliquer avec le bouton droit sur l&apos;entrée à restituer, cliquer sur ***Restitution*** . 
+Les administrateurs peuvent forcer la restitution des entrées qui sont réservées par d'autres utilisateurs. Cliquer avec le bouton droit sur l'entrée à restituer, cliquer sur ***Restitution*** . 
 {% endsnippet %}
  
 ### Les paramètres de sécurité 
@@ -59,7 +59,7 @@ Désactive le système de réservation.
 Automatique 
 		</td>
 		<td>
-Réserve automatiquement une entrée lorsque l&apos;entrée est ouverte et restitue automatiquement l&apos;entrée lorsque l&apos;entrée est fermée. L&apos;utilisateur peut modifier les propriétés sans réserver l&apos;entrée. 
+Réserve automatiquement une entrée lorsque l'entrée est ouverte et restitue automatiquement l'entrée lorsque l'entrée est fermée. L'utilisateur peut modifier les propriétés sans réserver l'entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -67,7 +67,7 @@ Réserve automatiquement une entrée lorsque l&apos;entrée est ouverte et resti
 Manuel 
 		</td>
 		<td>
-Les utilisateurs doivent réserver l&apos;entrée manuellement avant d&apos;ouvrir ou de modifier l&apos;entrée. Aucune action ne peut être effectuée sans réservation de l&apos;entrée. 
+Les utilisateurs doivent réserver l'entrée manuellement avant d'ouvrir ou de modifier l'entrée. Aucune action ne peut être effectuée sans réservation de l'entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -83,14 +83,14 @@ Hérite du mode de réservation du dossier parent.
 Optionnel 
 		</td>
 		<td>
-Offre la possibilité de réserver une entrée manuellement ou d&apos;utiliser (ouvrir et modifier) ​​l&apos;entrée sans la réserver. 
+Offre la possibilité de réserver une entrée manuellement ou d'utiliser (ouvrir et modifier) ​​l'entrée sans la réserver. 
 		</td>
 	</tr>
 </table>
 
 ### Invite de réservation 
 
-L&apos;invite de réservation définit si un utilisateur doit saisir un commentaire lorsqu&apos;il réserve l&apos;entrée. Les administrateurs peuvent surveiller les commentaires via les journaux disponibles sur l&apos;entrée ou les journaux d&apos;activité.  
+L'invite de réservation définit si un utilisateur doit saisir un commentaire lorsqu'il réserve l'entrée. Les administrateurs peuvent surveiller les commentaires via les journaux disponibles sur l'entrée ou les journaux d'activité.  
 ![!!RdmWin4054.png](/img/fr/rdm/windows/RdmWin4054.png) 
 
 <table>
@@ -107,7 +107,7 @@ DESCRIPTION
 Racine 
 		</td>
 		<td>
-Utilise le paramètre d&apos;invitation de réservation à partir du dossier racine. 
+Utilise le paramètre d'invitation de réservation à partir du dossier racine. 
 		</td>
 	</tr>
 	<tr>
@@ -115,7 +115,7 @@ Utilise le paramètre d&apos;invitation de réservation à partir du dossier rac
 Oui 
 		</td>
 		<td>
-Invite l&apos;utilisateur à commenter lorsqu&apos;il réserve une entrée. 
+Invite l'utilisateur à commenter lorsqu'il réserve une entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -123,7 +123,7 @@ Invite l&apos;utilisateur à commenter lorsqu&apos;il réserve une entrée.
 Non 
 		</td>
 		<td>
-Supprime l&apos;invite de réservation. 
+Supprime l'invite de réservation. 
 		</td>
 	</tr>
 	<tr>

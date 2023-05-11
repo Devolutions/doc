@@ -12,7 +12,7 @@ Follow the instructions below to learn how to create a website account with {{ e
 
 1. On the website for which you want to create your account, go to the registration/account creation page. This page will be different for each website; this topic will use the Atlassian website as an example.  
 ![Registration Page](/img/en/rdm/windows/RDMWin2084.png) 
-1. Follow the website&apos;s registration process until you get to the password field. 
+1. Follow the website's registration process until you get to the password field. 
 1. Click on the {{ en.DWL }} icon in your browser toolbar, then select the ***Password Generator*** in the ***Side Menu*** of the extension.  
 ![Password Generator Tab](/img/en/rdm/windows/RDMWin2085.png) 
 1. You can now customize the password generation settings, but this is optional since the default settings already generate very strong passwords. That being said, it may be necessary to adjust the settings to meet the specific requirements of some websites. If you do not wish to customize the generation settings, you can skip to <a href="#5">step 5</a>. 
@@ -30,9 +30,9 @@ Your password settings are now configured.
 ![Generate Password](/img/en/rdm/windows/RDMWin2089.png) 
 1. Click on the ***Copy to Clipboard*** button to copy the password.  
 ![Copy to Clipboard](/img/en/rdm/windows/RDMWin2090.png) 
-1. Paste your password in the website&apos;s corresponding field.  
+1. Paste your password in the website's corresponding field.  
 ![Paste Password](/img/en/rdm/windows/RDMWin2091.png) 
-1. Follow the rest of the website&apos;s registration steps until the {{ en.DWL }} &#32; ***Add Website*** window pops up in the corner of your web browser.  
+1. Follow the rest of the website's registration steps until the {{ en.DWL }}   ***Add Website*** window pops up in the corner of your web browser.  
 ![!!RDMWin2092.png](/img/en/rdm/windows/RDMWin2092.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 

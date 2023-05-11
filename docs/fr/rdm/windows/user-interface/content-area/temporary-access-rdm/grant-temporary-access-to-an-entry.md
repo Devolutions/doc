@@ -39,7 +39,7 @@ Lorsque vous utilisez des sources de données Microsoft SQL Server ou Microsoft 
  
 Pour répondre à une demande, vous devez ouvrir la fenêtre ***Réponse à la demande d'accès temporaire*** . Il y a deux façons d'y accéder.  
 
-La première option consiste à utiliser la boîte ***Demandes d'accès en attente*** (voir image ci-dessous) dans l'onglet ***Aperçu*** de votre ***Tableau de bord*** . En cliquant sur la coche verte (approuver la demande) ou le &quot;X&quot; rouge (refuser la demande) à côté d'une demande, vous ouvrirez la fenêtre ***Réponse à la demande d'accès temporaire*** .  
+La première option consiste à utiliser la boîte ***Demandes d'accès en attente*** (voir image ci-dessous) dans l'onglet ***Aperçu*** de votre ***Tableau de bord*** . En cliquant sur la coche verte (approuver la demande) ou le "X" rouge (refuser la demande) à côté d'une demande, vous ouvrirez la fenêtre ***Réponse à la demande d'accès temporaire*** .  
 ![Demandes d'accès en attente](/img/fr/rdm/windows/RDMWin2128.png) 
 
 La deuxième option vous demande de passer par la boîte ***Demandes d'accès en attente*** décrite dans la [section précédente](#afficher-les-demandes-daccès-temporaire) . Quelle que soit la façon dont vous choisissez d'accéder à la fenêtre de réponse, le résultat sera le même.  

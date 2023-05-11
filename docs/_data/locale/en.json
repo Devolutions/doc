@@ -7,6 +7,13 @@
       "url": "/rdm/",
       "formattedName": "<b>Remote Desktop</b> Manager"
     },
+    "rdm/windows": {
+      "isTopic": false,
+      "icon": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
+      "logo": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg",
+      "url": "/rdm/windows/",
+      "formattedName": "<b>Remote Desktop</b> Manager"
+    },
     "rdm/mac": {
       "isTopic": false,
       "icon": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",

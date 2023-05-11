@@ -9,8 +9,6 @@ Active Directory Interactive (with MFA Support) allows you to authenticate on yo
 
 {% snippet icon.badgeCaution %} 
 For Azure AD authentication, download and install the Microsoft Active Directory Authentication Library for Microsoft SQL Server on every client computer.  
-
-This install the required Microsoft libraries that will enable Azure AD authentication. Please download it here : [https://www.microsoft.com/en-us/download/details.aspx?id=48742](https://www.microsoft.com/en-us/download/details.aspx?id=48742) . 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -67,14 +65,14 @@ On first connect, the username must be the Active Directory Admin as defined in 
  
 {% snippet icon.badgeCaution %} 
 ![!!RdmWin4034.png](/img/en/rdm/windows/RdmWin4034.png) 
-If you get this message error: Unable to connect to the database! Login failed for user &apos;&lt;token-identified principal&gt;&apos; it is because you are not using the ***Active Directory admin*** email you created in the Microsoft Azure SQL databases. 
+If you get this message error: Unable to connect to the database! Login failed for user '<token-identified principal>' it is because you are not using the ***Active Directory admin*** email you created in the Microsoft Azure SQL databases. 
 {% endsnippet %}
  
 4. Click on ***Configure*** to set the [Azure App Settings](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/) and enter the application ID from the Azure Active Directory App Registration and the corresponding Redirect URI. 
 {% snippet icon.badgeCaution %} 
 When you receive this error: ***AADSTS70001 - Application with Identifier was not found in the directory…***  
 
-Validate that your ***Application ID*** in {{ en.RDM }} is identical to the ***App Registration&apos;s Application (client) ID*** (step 11 of [Create an Azure Active Directory App Registration](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/) ). 
+Validate that your ***Application ID*** in {{ en.RDM }} is identical to the ***App Registration's Application (client) ID*** (step 11 of [Create an Azure Active Directory App Registration](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/) ). 
 {% endsnippet %}
  
 ![App Registration](/img/en/rdm/windows/clip5010.png) 

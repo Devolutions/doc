@@ -26,7 +26,7 @@ CONFIGURATION FILE LOCATION
 	</tr>
 	<tr>
 		<td>
-Installed under &quot;Program Files&quot; or &quot;Program Files (x86)&quot; 
+Installed under "Program Files" or "Program Files (x86)" 
 		</td>
 		<td>
 ```%LocalAppData%\Devolutions\RemoteDesktopManager```
@@ -56,7 +56,7 @@ Installation folder
 
 There are two ways to change the folder where the configuration file is stored:  
 
-1. Create a file named &quot; Override.cfg&quot; in the application folder. {{ en.RDM }} opens this file and reads the first line. It should contain the desired installation folder (without the file name). If you wish to use the current installation path, put a period in the file. Here are a few examples:  
+1. Create a file named " Override.cfg" in the application folder. {{ en.RDM }} opens this file and reads the first line. It should contain the desired installation folder (without the file name). If you wish to use the current installation path, put a period in the file. Here are a few examples:  
 
 <table>
 	<tr>

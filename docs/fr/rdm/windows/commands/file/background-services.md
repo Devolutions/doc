@@ -3,7 +3,7 @@ title: Services en arrière plan
 ---
 Les ***Synchroniseurs*** centralisent toutes vos entrées de synchroniseurs en un seul endroit.  
 
-En cas de dégradation des performances avec {{ fr.RDM }} , vous pourrez vérifier si un synchroniseur s&apos;exécute en arrière-plan, ce qui ralentit le système.  
+En cas de dégradation des performances avec {{ fr.RDM }} , vous pourrez vérifier si un synchroniseur s'exécute en arrière-plan, ce qui ralentit le système.  
 ![Synchroniseurs](/img/fr/rdm/windows/clip11280.png) 
 
 ## Est en ligne 
@@ -26,7 +26,7 @@ DESCRIPTION
 Activer la vérification de la disponibilité des serveurs 
 		</td>
 		<td>
-Le serveur fait un ping pour déterminer s&apos;ils sont disponibles. Le serveur sera affiché en &quot;rouge&quot; dans l&apos;arborescence s&apos;il n&apos;est pas disponible. 
+Le serveur fait un ping pour déterminer s'ils sont disponibles. Le serveur sera affiché en "rouge" dans l'arborescence s'il n'est pas disponible. 
 		</td>
 	</tr>
 	<tr>
@@ -42,7 +42,7 @@ Exécute la vérification en ligne automatiquement au nombre de minutes détermi
 Vérifier si en ligne 
 		</td>
 		<td>
-Si l&apos;option est activée, l&apos;application vérifiera si le serveur est en ligne. 
+Si l'option est activée, l'application vérifiera si le serveur est en ligne. 
 		</td>
 	</tr>
 	<tr>
@@ -50,7 +50,7 @@ Si l&apos;option est activée, l&apos;application vérifiera si le serveur est e
 Détection en ligne 
 		</td>
 		<td>
-Si l&apos; option ***Détection en ligne*** est activée, sélectionner la méthode de détection entre:  
+Si l' option ***Détection en ligne*** est activée, sélectionner la méthode de détection entre:  
 
 * Ping 
 * Scan des ports 

@@ -1,10 +1,10 @@
 ---
 title: Affichage
 ---
-L&apos;onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l&apos;affichage, les journaux et la disposition de {{ fr.RDM }} .  
+L'onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l'affichage, les journaux et la disposition de {{ fr.RDM }} .  
 ![Onglet Affichage](/img/fr/rdm/windows/clip10768.png) 
 
-Reportez-vous aux rubriques suivantes pour plus d&apos;informations :  
+Reportez-vous aux rubriques suivantes pour plus d'informations :  
 
 * [***Panneaux***](#panneaux) 
 * [***Affichage***](#affichage) 
@@ -28,7 +28,7 @@ DESCRIPTION
 {{ fr.VLT }} 
 		</td>
 		<td>
-Accéder au mode d&apos;affichage du ***{{ fr.NPANE }}*** pour le [coffre](/fr/rdm/windows/commands/view/panels/vault/) actuel. 
+Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le [coffre](/fr/rdm/windows/commands/view/panels/vault/) actuel. 
 		</td>
 	</tr>
 	<tr>
@@ -111,10 +111,10 @@ Lancer une session de [***Connexion rapide***](/fr/rdm/windows/commands/view/vie
 	</tr>
 	<tr>
 		<td>
-Journaux d&apos;activité 
+Journaux d'activité 
 		</td>
 		<td>
-Ouvrir les [***Journaux d&apos;activité***](/fr/rdm/windows/commands/view/view/activity-logs/) . 
+Ouvrir les [***Journaux d'activité***](/fr/rdm/windows/commands/view/view/activity-logs/) . 
 		</td>
 	</tr>
 	<tr>
@@ -151,10 +151,10 @@ Ouvrir une fenêtre qui affiche les entrées VPN dans la base de donnée.
 	</tr>
 	<tr>
 		<td>
-Groupe d&apos;onglets 
+Groupe d'onglets 
 		</td>
 		<td>
-Ouvrir une fenêtre ancrée pour parcourir les différents groupes d&apos;onglets. 
+Ouvrir une fenêtre ancrée pour parcourir les différents groupes d'onglets. 
 		</td>
 	</tr>
 	<tr>
@@ -162,7 +162,7 @@ Ouvrir une fenêtre ancrée pour parcourir les différents groupes d&apos;onglet
 Notification 
 		</td>
 		<td>
-Ouvrir une fenêtre pour parcourir les différentes notifications (telles que les entrées expirées ou sur le point de l&apos;être, ou les tâches). 
+Ouvrir une fenêtre pour parcourir les différentes notifications (telles que les entrées expirées ou sur le point de l'être, ou les tâches). 
 		</td>
 	</tr>
 	<tr>
@@ -177,7 +177,7 @@ Ouvrir une fenêtre pour accéder à vos messages.
 
 ### Journaux 
 
-Cette section n&apos;apparaît que lorsque vous utilisez une source de données de type individuel. 
+Cette section n'apparaît que lorsque vous utilisez une source de données de type individuel. 
 
 <table>
 	<tr>
@@ -239,23 +239,23 @@ Basculer les ***Miniatures*** .
 Volet supérieur (Ruban/Barre de menu) 
 		</td>
 		<td>
-Basculer le ***Ruban*** (cliquer avec le bouton droit sur l&apos;en-tête de l&apos;application pour la récupérer ou utiliser Alt+F11 ). 
+Basculer le ***Ruban*** (cliquer avec le bouton droit sur l'en-tête de l'application pour la récupérer ou utiliser Alt+F11 ). 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Barre d&apos;onglets groupés 
+Barre d'onglets groupés 
 		</td>
 		<td>
-Basculer la [***Barre d&apos;onglets groupés***](/fr/rdm/windows/commands/view/layout/grouped-tab-bar/) (doit avoir des onglets en groupe pour fonctionner). 
+Basculer la [***Barre d'onglets groupés***](/fr/rdm/windows/commands/view/layout/grouped-tab-bar/) (doit avoir des onglets en groupe pour fonctionner). 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Barre d&apos;état 
+Barre d'état 
 		</td>
 		<td>
-Basculer la ***Barre d&apos;état*** . 
+Basculer la ***Barre d'état*** . 
 		</td>
 	</tr>
 	<tr>
@@ -301,7 +301,7 @@ Basculer le volet [***Tâche***](/fr/rdm/windows/commands/view/layout/task/) .
 </table>
 
 {% snippet icon.badgeInfo %} 
-Bien qu&apos;ils soient affichés par défaut dans une fenêtre, tous ces volets peuvent être glissés et ancrés n&apos;importe où dans {{ fr.RDM }} . 
+Bien qu'ils soient affichés par défaut dans une fenêtre, tous ces volets peuvent être glissés et ancrés n'importe où dans {{ fr.RDM }} . 
 {% endsnippet %}
  
 

@@ -5,9 +5,9 @@ title: Hub Business
 
 {{ fr.HUB }} Business, est pour les entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation  
 
-Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr) pour plus d&apos;informations sur ce service. 
+Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr) pour plus d'informations sur ce service. 
 {% snippet icon.badgeInfo %} 
-Pour commencer dès aujourd&apos;hui votre essai gratuit de {{ fr.HUB }} Business, [cliquez ici](https://devolutions.net/password-hub/fr/business/sign-up) . 
+Pour commencer dès aujourd'hui votre essai gratuit de {{ fr.HUB }} Business, [cliquez ici](https://devolutions.net/password-hub/fr/business/sign-up) . 
 {% endsnippet %}
  
 ## Paramètres 
@@ -36,7 +36,7 @@ Nom de la source de données.
 	</tr>
 	<tr>
 		<td>
-Nom d&apos;utilisateur 
+Nom d'utilisateur 
 		</td>
 		<td>
 Votre adresse courriel du [Compte Devolutions](https://portal.devolutions.com/) Devolutions Account . 
@@ -59,6 +59,6 @@ Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ 
 
 ### Avancé 
 
-Définir l&apos;intervalle d&apos;actualisation automatique.  
+Définir l'intervalle d'actualisation automatique.  
 ![!!RdmWin4037.png](/img/fr/rdm/windows/RdmWin4037.png) 
 

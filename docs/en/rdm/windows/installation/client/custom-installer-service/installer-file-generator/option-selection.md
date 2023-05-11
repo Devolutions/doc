@@ -8,7 +8,7 @@ The same dialog is used for the {{ en.CI }} and for exporting the {{ en.RDM }} c
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-{{ en.RDM }} may install required add-ons automatically when it detects that they are needed (configured in ***File – Options – Paths*** ). If you need to customize the application&apos;s installation path of an add-on, you must first perform the modification, then create the installation package. This setting will be replicated in the installer file (*.rdi). 
+{{ en.RDM }} may install required add-ons automatically when it detects that they are needed (configured in ***File – Options – Paths*** ). If you need to customize the application's installation path of an add-on, you must first perform the modification, then create the installation package. This setting will be replicated in the installer file (*.rdi). 
 {% endsnippet %}
  
 ## Options 
@@ -51,7 +51,7 @@ Includes your Internet proxy settings. This option is enabled by default.
 Saved installation paths 
 		</td>
 		<td>
-Preserves your installation paths configured for external third party applications. Use this only when all of the user&apos;s machines use the same paths. This option is enabled by default. 
+Preserves your installation paths configured for external third party applications. Use this only when all of the user's machines use the same paths. This option is enabled by default. 
 		</td>
 	</tr>
 	<tr>

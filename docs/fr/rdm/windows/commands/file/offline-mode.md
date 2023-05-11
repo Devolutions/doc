@@ -3,15 +3,15 @@ title: Mettre hors-ligne
 ---
 Basculez le [Mode hors-ligne](/fr/rdm/windows/data-sources/offline-mode/) de la source de données .  
 
-Utiliser le mode hors-ligne pour vous connecter à une copie locale de la source de données lorsque la base de données distante n&apos;est pas disponible. Ceci est utile lorsque vous travaillez à partir d&apos;un emplacement distant et que le réseau est inaccessible ou en cas de problème de connectivité. 
+Utiliser le mode hors-ligne pour vous connecter à une copie locale de la source de données lorsque la base de données distante n'est pas disponible. Ceci est utile lorsque vous travaillez à partir d'un emplacement distant et que le réseau est inaccessible ou en cas de problème de connectivité. 
 
 {% snippet icon.shieldCaution %} 
-Il y a des considérations de sécurité à prendre en compte lors de l&apos;activation du mode hors-ligne. 
+Il y a des considérations de sécurité à prendre en compte lors de l'activation du mode hors-ligne. 
 {% endsnippet %}
  
 La disponibilité du mode hors ligne dépend de plusieurs paramètres, reportez-vous à la rubrique [Mode hors-ligne](/fr/rdm/windows/data-sources/offline-mode/) .  
 
-Le paramètre le plus bas (en termes de sécurité) prévaut sur les autres, ce qui peut vous empêcher d&apos;utiliser le mode hors-ligne. Si le bouton ***Mettre hors-ligne*** n&apos;est pas disponible, veuillez consulter votre administrateur.  
+Le paramètre le plus bas (en termes de sécurité) prévaut sur les autres, ce qui peut vous empêcher d'utiliser le mode hors-ligne. Si le bouton ***Mettre hors-ligne*** n'est pas disponible, veuillez consulter votre administrateur.  
 
 Les [Informations sur la source de données](/fr/rdm/windows/commands/file/my-data-source-information/) affichent la taille du fichier de cache hors ligne ainsi que les modes effectifs (désactivé, lecture seule ou lecture / écriture).  
 ![Informations de la source de données - Mode hors connexion](/img/fr/rdm/windows/clip11278.png) 

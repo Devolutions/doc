@@ -43,7 +43,7 @@ Ouvrir la session via un hôte [Jump](/fr/rdm/windows/overview/the-devolutions-p
 Ouvrir (plein écran) 
 		</td>
 		<td>
-Ouvrir la session avec le mode d&apos;affichage plein écran. 
+Ouvrir la session avec le mode d'affichage plein écran. 
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ Ouvrir la session avec le mode d&apos;affichage plein écran.
 Ouvrir console / mode admin 
 		</td>
 		<td>
-Se connecter à la session de console d&apos;un serveur à l&apos;aide de {{ fr.RDM }} en mode Administration. 
+Se connecter à la session de console d'un serveur à l'aide de {{ fr.RDM }} en mode Administration. 
 		</td>
 	</tr>
 	<tr>
@@ -75,15 +75,15 @@ Vous ouvre votre session normalement et vous demande vos identifiants pour vous 
 Ouvrir les dossiers partagés 
 		</td>
 		<td>
-Ouvrir les dossiers partagés de l&apos;ordinateur distant. 
+Ouvrir les dossiers partagés de l'ordinateur distant. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Ouvrir à partir d&apos;un modèle... 
+Ouvrir à partir d'un modèle... 
 		</td>
 		<td>
-Ouvrir à partir d&apos;un modèle que vous avez déjà créé. 
+Ouvrir à partir d'un modèle que vous avez déjà créé. 
 		</td>
 	</tr>
 </table>

@@ -18,7 +18,7 @@ DESCRIPTION
 Créer un coffre avec un accès restreint par défaut 
 		</td>
 		<td>
-Sécuriser automatiquement les paramètres du coffre lors de la création d&apos;un coffre. Par conséquent, les paramètres d&apos;autorisations sont définis sur ***Jamais*** . 
+Sécuriser automatiquement les paramètres du coffre lors de la création d'un coffre. Par conséquent, les paramètres d'autorisations sont définis sur ***Jamais*** . 
 		</td>
 	</tr>
 	<tr>
@@ -31,20 +31,20 @@ Obliger les utilisateurs à appliquer une configuration à 2 facteurs sur la sou
 	</tr>
 	<tr>
 		<td>
-Résoudre les identifiants dans l&apos;aperçu 
+Résoudre les identifiants dans l'aperçu 
 		</td>
 		<td>
-Affiche le nom d&apos;utilisateur et le mot de passe extraits d&apos;une entrée d&apos;identifiant dans la vue d&apos;ensemble des entrées du tableau de bord. Décocher cette option si elle prend trop de temps à résoudre. 
+Affiche le nom d'utilisateur et le mot de passe extraits d'une entrée d'identifiant dans la vue d'ensemble des entrées du tableau de bord. Décocher cette option si elle prend trop de temps à résoudre. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Utiliser l&apos;ancienne sécurité 
+Utiliser l'ancienne sécurité 
 		</td>
 		<td>
-Utiliser l&apos;ancien système de gestion des privilèges: les Groupes de sécurité (obsolète).  
+Utiliser l'ancien système de gestion des privilèges: les Groupes de sécurité (obsolète).  
 
-* Pour gérer les permissions de vos utilisateurs, nous vous recommandons de migrer de Groupes de sécurité (obsolète) à ***Permissions*** . Une fois la migration effectuée, désactiver les Groupes de sécurité, en décochant ***Utiliser l&apos;ancienne sécurité*** . 
+* Pour gérer les permissions de vos utilisateurs, nous vous recommandons de migrer de Groupes de sécurité (obsolète) à ***Permissions*** . Une fois la migration effectuée, désactiver les Groupes de sécurité, en décochant ***Utiliser l'ancienne sécurité*** . 
 		</td>
 	</tr>
 </table>
@@ -53,7 +53,7 @@ Utiliser l&apos;ancien système de gestion des privilèges: les Groupes de sécu
 	<tr>
 		<th>
 
-PÉRIODE D&apos;UTILISATION 
+PÉRIODE D'UTILISATION 
 		</th>
 		<th>
 DESCRIPTION 
@@ -77,7 +77,7 @@ Jours
 		<td>
 Sélectionner les jours pendant lesquels la source de données est disponible. Choisir entre:  
 
-* ***N&apos;importe quel jour*** : La session peut être utilisée n&apos;importe quel jour de la semaine ou le week-end. 
+* ***N'importe quel jour*** : La session peut être utilisée n'importe quel jour de la semaine ou le week-end. 
 * ***Jours de semaine*** : La session peut être utilisée que les jours de semaine. 
 * ***Jours de fin de semaine*** : La session peut être utilisée que les week-ends. 
 * ***Personnalisé*** : Sélectionner manuellement chaque jour pour lequel la session est disponible. 

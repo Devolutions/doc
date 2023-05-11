@@ -62,7 +62,7 @@ Alt+Entrée
 	</tr>
 	<tr>
 		<td>
-Parcourir l&apos;adresse URL 
+Parcourir l'adresse URL 
 		</td>
 		<td>
 Entrée 
@@ -70,7 +70,7 @@ Entrée
 	</tr>
 	<tr>
 		<td>
-Presse-papiers - Copier l&apos;hôte 
+Presse-papiers - Copier l'hôte 
 		</td>
 		<td>
 Ctrl+H 
@@ -102,7 +102,7 @@ Ctrl+Maj+B
 	</tr>
 	<tr>
 		<td>
-Presse-papiers - Copier le nom d&apos;utilisateur 
+Presse-papiers - Copier le nom d'utilisateur 
 		</td>
 		<td>
 Ctrl+B 
@@ -110,7 +110,7 @@ Ctrl+B
 	</tr>
 	<tr>
 		<td>
-Presse-papiers - Copier l&apos;URL 
+Presse-papiers - Copier l'URL 
 		</td>
 		<td>
 Ctrl+Maj+H 
@@ -139,7 +139,7 @@ RACCOURCI
 	</tr>
 	<tr>
 		<td>
-Barre d&apos;état 
+Barre d'état 
 		</td>
 		<td>
 Alt+F7 
@@ -171,7 +171,7 @@ F9
 	</tr>
 	<tr>
 		<td>
-Gestionnaire de listes d&apos;exécution 
+Gestionnaire de listes d'exécution 
 		</td>
 		<td>
 Ctrl+G 
@@ -179,7 +179,7 @@ Ctrl+G
 	</tr>
 	<tr>
 		<td>
-Mon coffre d&apos;utilisateur 
+Mon coffre d'utilisateur 
 		</td>
 		<td>
 F7 
@@ -312,7 +312,7 @@ Ctrl+F
 	</tr>
 	<tr>
 		<td>
-Forcer l&apos;actualisation 
+Forcer l'actualisation 
 		</td>
 		<td>
 Ctrl+F5 
@@ -410,7 +410,7 @@ Ctrl+D
 	</tr>
 	<tr>
 		<td>
-Modifier l&apos;entrée 
+Modifier l'entrée 
 		</td>
 		<td>
 Ctrl+E 
@@ -426,7 +426,7 @@ Ins
 	</tr>
 	<tr>
 		<td>
-Paramètres spécifiques de l&apos;usager 
+Paramètres spécifiques de l'usager 
 		</td>
 		<td>
 Ctrl+Maj+E 
@@ -647,7 +647,7 @@ Ctrl+Maj+L
 	</tr>
 	<tr>
 		<td>
-Mise au point de l&apos;arborescence / Liste 
+Mise au point de l'arborescence / Liste 
 		</td>
 		<td>
 Ctrl+L 
@@ -655,7 +655,7 @@ Ctrl+L
 	</tr>
 	<tr>
 		<td>
-Sélectionner l&apos;onglet 
+Sélectionner l'onglet 
 		</td>
 		<td>
 Ctrl+Maj+Haut 
@@ -663,7 +663,7 @@ Ctrl+Maj+Haut
 	</tr>
 	<tr>
 		<td>
-Sélectionnez l&apos;onglet précédent 
+Sélectionnez l'onglet précédent 
 		</td>
 		<td>
 Ctrl+Maj+Gauche 
@@ -671,7 +671,7 @@ Ctrl+Maj+Gauche
 	</tr>
 	<tr>
 		<td>
-Sélectionnez l&apos;onglet suivant 
+Sélectionnez l'onglet suivant 
 		</td>
 		<td>
 Ctrl+Maj+Droite 

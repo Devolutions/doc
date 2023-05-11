@@ -5,7 +5,7 @@ title: Permissions
 
 Le tableau de bord des permissions ***,*** qui est seulement disponible dans une [source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) , se trouve dans la section ***Permissions*** des propriétés de toutes les entrées.  
 
-Le système de contrôle d&apos;accès basé sur les groupes d&apos;utilisateurs permet d&apos;attribuer granulairement les permissions. Voici un aperçu de la fenêtre des ***Permissions*** .  
+Le système de contrôle d'accès basé sur les groupes d'utilisateurs permet d'attribuer granulairement les permissions. Voici un aperçu de la fenêtre des ***Permissions*** .  
 ![Permissions](/img/fr/rdm/windows/clip11102.png) 
 
 <table>
@@ -23,20 +23,20 @@ DESCRIPTION
 Permissions 
 		</td>
 		<td>
-Définir le mode d&apos; ***Autorisation*** . Choisir entre:  
+Définir le mode d' ***Autorisation*** . Choisir entre:  
 
 * ***Hérité*** : héritera des permissions des dossiers parents. 
 * ***Personnalisé*** : permet de spécifier une valeur personnalisée pour chacune des permissions. 
 * ***Tout le monde*** : tout le monde se verra accorder toutes les permissions. 
-* ***Jamais*** : personne, sauf les administrateurs, n&apos;aura la permission. 
+* ***Jamais*** : personne, sauf les administrateurs, n'aura la permission. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Accorder l&apos;accès 
+Accorder l'accès 
 		</td>
 		<td>
-Permets l&apos;accès et la modification par lots à une ou plusieurs entrées spécifiques. 
+Permets l'accès et la modification par lots à une ou plusieurs entrées spécifiques. 
 		</td>
 	</tr>
 	<tr>
@@ -49,10 +49,10 @@ Indique ce qui est hérité des dossiers parents.
 	</tr>
 	<tr>
 		<td>
-Sélectionner les groupes d&apos;utilisateurs ou les utilisateurs 
+Sélectionner les groupes d'utilisateurs ou les utilisateurs 
 		</td>
 		<td>
-Permets la sélection des groupes d&apos;utilisateurs ou des utilisateurs pour appliquer les permissions. Disponible seulement si l&apos;autorisation est définie à ***Personnalisé*** . 
+Permets la sélection des groupes d'utilisateurs ou des utilisateurs pour appliquer les permissions. Disponible seulement si l'autorisation est définie à ***Personnalisé*** . 
 		</td>
 	</tr>
 </table>

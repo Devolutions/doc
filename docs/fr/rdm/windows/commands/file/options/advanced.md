@@ -1,7 +1,7 @@
 ---
 title: Options avancées
 ---
-Utilisez ***Fichier – Options – Avancé*** pour contrôler le comportement de l&apos;application en ce qui concerne les paramètres de niveau inférieur.  
+Utilisez ***Fichier – Options – Avancé*** pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.  
 ![Fichier – Options – Avancé](/img/fr/rdm/windows/clip10595.png) 
 
 ## Paramètres 
@@ -23,7 +23,7 @@ DESCRIPTION
 Niveau débogage 
 		</td>
 		<td>
-Définir le niveau des informations de débogage que {{ fr.RDM }} capturera. Cela ne doit être modifié que sur demande d&apos;un technicien du soutien technique de Devolutions, car cela pourrait ralentir votre système. 
+Définir le niveau des informations de débogage que {{ fr.RDM }} capturera. Cela ne doit être modifié que sur demande d'un technicien du soutien technique de Devolutions, car cela pourrait ralentir votre système. 
 		</td>
 	</tr>
 	<tr>
@@ -34,8 +34,8 @@ Journaux
 Les journaux peuvent être enregistrés dans un fichier ou dans un fichier de base de données. Choisir entre:  
 
 * ***Les deux :*** Les journaux seront enregistrés dans un fichier texte et dans un fichier de base de données. 
-* ***Base de données :*** Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log.db. Le fichier se trouve dans le dossier d&apos;installation de l&apos;application. 
-* ***Fichier :*** Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log. Le fichier se trouve dans le dossier d&apos;installation de l&apos;application. 
+* ***Base de données :*** Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log.db. Le fichier se trouve dans le dossier d'installation de l'application. 
+* ***Fichier :*** Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log. Le fichier se trouve dans le dossier d'installation de l'application. 
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ Les journaux peuvent être enregistrés dans un fichier ou dans un fichier de ba
 Moteur en mode hors ligne 
 		</td>
 		<td>
-Vous pouvez choisir votre moteur en mode hors connexion entre MCDF v2.0 (par défaut), SQLite (obsolète) ou OpenMCDF (obsolète). Ne modifier cette option que sur demande d&apos;un technicien du soutien technique de Devolutions . 
+Vous pouvez choisir votre moteur en mode hors connexion entre MCDF v2.0 (par défaut), SQLite (obsolète) ou OpenMCDF (obsolète). Ne modifier cette option que sur demande d'un technicien du soutien technique de Devolutions . 
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ Vous pouvez choisir votre moteur en mode hors connexion entre MCDF v2.0 (par dé
 Forcer « ***localhost*** ***» lorsque avec ports dynamiques VPN*** 
 		</td>
 		<td>
-Forcer l&apos;utilisation de « ***localhost*** ***» lors de l&apos;utilisation du port dynamique VPN.*** 
+Forcer l'utilisation de « ***localhost*** ***» lors de l'utilisation du port dynamique VPN.*** 
 		</td>
 	</tr>
 	<tr>
@@ -59,13 +59,13 @@ Forcer l&apos;utilisation de « ***localhost*** ***» lors de l&apos;utilisation
 Accélération matérielle 
 		</td>
 		<td>
-Sélectionner dans la liste déroulante comment {{ fr.RDM }} va gérer l&apos;accélération matérielle : 
+Sélectionner dans la liste déroulante comment {{ fr.RDM }} va gérer l'accélération matérielle : 
 
-* ***Par défaut (Automatique)*** : Le rendu graphique est entièrement laissé au système d&apos;exploitation. 
-* ***Désactivé (GDI+)*** : L&apos;accélération matérielle est désactivée de force. 
-* ***DirectX*** : L&apos;accélération matérielle est activée de force : le rendu graphique est effectué par la carte graphique. Les performances sont accélérées dans certains cas, ce qui est souvent nécessaire pour les hautes résolutions.  
+* ***Par défaut (Automatique)*** : Le rendu graphique est entièrement laissé au système d'exploitation. 
+* ***Désactivé (GDI+)*** : L'accélération matérielle est désactivée de force. 
+* ***DirectX*** : L'accélération matérielle est activée de force : le rendu graphique est effectué par la carte graphique. Les performances sont accélérées dans certains cas, ce qui est souvent nécessaire pour les hautes résolutions.  
 
-Il n&apos;est pas nécessaire de modifier ce paramètre sauf en cas de problèmes de performances de l&apos;interface utilisateur. 
+Il n'est pas nécessaire de modifier ce paramètre sauf en cas de problèmes de performances de l'interface utilisateur. 
 		</td>
 	</tr>
 	<tr>
@@ -73,15 +73,15 @@ Il n&apos;est pas nécessaire de modifier ce paramètre sauf en cas de problème
 Compte des derniers commentaires 
 		</td>
 		<td>
-Si une entrée est configurée pour demander un commentaire à l&apos;ouverture / la fermeture, une liste des derniers commentaires sera affichée pour aider l&apos;utilisateur. Définir le nombre de derniers commentaires qui seront enregistrés puis affichés dans cette liste. 
+Si une entrée est configurée pour demander un commentaire à l'ouverture / la fermeture, une liste des derniers commentaires sera affichée pour aider l'utilisateur. Définir le nombre de derniers commentaires qui seront enregistrés puis affichés dans cette liste. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Confirmer l&apos;ouverture de plusieurs sessions ouvertes si le nombre est supérieur à 
+Confirmer l'ouverture de plusieurs sessions ouvertes si le nombre est supérieur à 
 		</td>
 		<td>
-Sélectionner un nombre cible où les sessions d&apos;ouverture de masse demanderont une confirmation. 
+Sélectionner un nombre cible où les sessions d'ouverture de masse demanderont une confirmation. 
 		</td>
 	</tr>
 </table>
@@ -119,7 +119,7 @@ Activer la journalisation globale des événements pour les entrées Telnet et S
 Afficher les types de source de données dépréciés 
 		</td>
 		<td>
-Certaines sources de données ne sont plus prises en charge. L&apos;activation de cette option les affichera à nouveau. 
+Certaines sources de données ne sont plus prises en charge. L'activation de cette option les affichera à nouveau. 
 		</td>
 	</tr>
 	<tr>
@@ -127,7 +127,7 @@ Certaines sources de données ne sont plus prises en charge. L&apos;activation d
 Autoriser le mode d’identifiants intégrés (ancien) 
 		</td>
 		<td>
-Autoriser le mode d&apos;identifiants intégrés dans les entrées. Ce mode est obsolète et déconseillé. Veuillez consulter les [Options d&apos;identifiants](/fr/rdm/windows/commands/edit/entries/entry-credentials-options/) disponibles. 
+Autoriser le mode d'identifiants intégrés dans les entrées. Ce mode est obsolète et déconseillé. Veuillez consulter les [Options d'identifiants](/fr/rdm/windows/commands/edit/entries/entry-credentials-options/) disponibles. 
 		</td>
 	</tr>
 	<tr>
@@ -159,7 +159,7 @@ Désactiver le message de confirmation de fermeture lors de la fermeture/déconn
 Désactiver la gestion de la connexion à la base de données résiliente 
 		</td>
 		<td>
-La gestion des connexions de base de données résilientes est un mécanisme que nous mettons en place pour réessayer certaines connexions à la base de données dans {{ fr.RDM }} afin d&apos;éviter certaines erreurs. Une certaine lenteur peut être ressentie lorsqu&apos;elle est activée. 
+La gestion des connexions de base de données résilientes est un mécanisme que nous mettons en place pour réessayer certaines connexions à la base de données dans {{ fr.RDM }} afin d'éviter certaines erreurs. Une certaine lenteur peut être ressentie lorsqu'elle est activée. 
 		</td>
 	</tr>
 	<tr>
@@ -167,7 +167,7 @@ La gestion des connexions de base de données résilientes est un mécanisme que
 Désactiver la vérification de mots de passe compromis (pwned) 
 		</td>
 		<td>
-Désactiver la fonction de vérification de compromission du mot de passe si elle n&apos;est pas forcée par l&apos;administrateur dans ***Administration – Paramètres du système – Validation du mot de passe*** . 
+Désactiver la fonction de vérification de compromission du mot de passe si elle n'est pas forcée par l'administrateur dans ***Administration – Paramètres du système – Validation du mot de passe*** . 
 		</td>
 	</tr>
 	<tr>
@@ -175,15 +175,15 @@ Désactiver la fonction de vérification de compromission du mot de passe si ell
 Désactiver l’affichage de miniatures pour Google Chrome 
 		</td>
 		<td>
-Désactiver l&apos;affichage des miniatures pour Google Chrome dans ***Affichage – Miniatures*** pour améliorer les performances de l&apos;application. 
+Désactiver l'affichage des miniatures pour Google Chrome dans ***Affichage – Miniatures*** pour améliorer les performances de l'application. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Désactiver le cache de l&apos;éditeur formulaires 
+Désactiver le cache de l'éditeur formulaires 
 		</td>
 		<td>
-Désactiver le cache de l&apos;éditeur formulaires et force {{ fr.RDM }} à toujours récupérer les informations. Il n&apos;est pas recommandé de désactiver cette fonctionnalité pour des raisons de performances. 
+Désactiver le cache de l'éditeur formulaires et force {{ fr.RDM }} à toujours récupérer les informations. Il n'est pas recommandé de désactiver cette fonctionnalité pour des raisons de performances. 
 		</td>
 	</tr>
 	<tr>
@@ -191,7 +191,7 @@ Désactiver le cache de l&apos;éditeur formulaires et force {{ fr.RDM }} à tou
 Désactiver le chargement multi-thread 
 		</td>
 		<td>
-Ce paramètre permet à {{ fr.RDM }} d&apos;utiliser plusieurs threads pour charger les données. La désactivation de cette option diminuera les performances. 
+Ce paramètre permet à {{ fr.RDM }} d'utiliser plusieurs threads pour charger les données. La désactivation de cette option diminuera les performances. 
 		</td>
 	</tr>
 	<tr>
@@ -199,7 +199,7 @@ Ce paramètre permet à {{ fr.RDM }} d&apos;utiliser plusieurs threads pour char
 Désactiver le fichier hors ligne multi-thread 
 		</td>
 		<td>
-Ce paramètre permet à {{ fr.RDM }} d&apos;utiliser plusieurs threads dans un fichier hors connexion. La désactivation de cette option diminuera les performances. 
+Ce paramètre permet à {{ fr.RDM }} d'utiliser plusieurs threads dans un fichier hors connexion. La désactivation de cette option diminuera les performances. 
 		</td>
 	</tr>
 	<tr>
@@ -212,31 +212,31 @@ Lorsque vous appuyez sur le bouton de fermeture de session dans une session RDP 
 	</tr>
 	<tr>
 		<td>
-Désactiver les gestionnaires d&apos;événements du système 
+Désactiver les gestionnaires d'événements du système 
 		</td>
 		<td>
-Utiliser uniquement à des fins de diagnostic. Ne pas définir sauf sur recommandation de l&apos;équipe de soutien technique de Devolutions. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Forcer la restauration de l&apos;application avec le raccourci du bureau 
-		</td>
-		<td>
-Lorsque vous double-cliquez sur le raccourci sur le bureau, il restaure l&apos;application déjà ouverte. Si l&apos;option n&apos;est pas cochée, une deuxième fenêtre {{ fr.RDM }} s&apos;ouvrira. 
+Utiliser uniquement à des fins de diagnostic. Ne pas définir sauf sur recommandation de l'équipe de soutien technique de Devolutions. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Forcer l&apos;actualisation avant de modifier l&apos;entrée 
+Forcer la restauration de l'application avec le raccourci du bureau 
 		</td>
 		<td>
-Effectuer un rafraîchissement de l&apos;entrée avant d&apos;entrer en mode de modification. Ceci est utile dans un environnement multi-utilisateur avec des sources de données partagées. Cela garantit que vous modifiez la version la plus récente de l&apos;entrée. 
+Lorsque vous double-cliquez sur le raccourci sur le bureau, il restaure l'application déjà ouverte. Si l'option n'est pas cochée, une deuxième fenêtre {{ fr.RDM }} s'ouvrira. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Ouvrir automatiquement l&apos;emplacement du fichier après l’enregistrement 
+Forcer l'actualisation avant de modifier l'entrée 
+		</td>
+		<td>
+Effectuer un rafraîchissement de l'entrée avant d'entrer en mode de modification. Ceci est utile dans un environnement multi-utilisateur avec des sources de données partagées. Cela garantit que vous modifiez la version la plus récente de l'entrée. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Ouvrir automatiquement l'emplacement du fichier après l’enregistrement 
 		</td>
 		<td>
 Après un enregistrement de session, le dossier de destination où le fichier est enregistré s’ouvrira. 
@@ -247,12 +247,12 @@ Après un enregistrement de session, le dossier de destination où le fichier es
 Ouvrir sans message les raccourcis de sessions 
 		</td>
 		<td>
-Désactiver le message d&apos;avertissement lorsque vous utilisez un raccourci. 
+Désactiver le message d'avertissement lorsque vous utilisez un raccourci. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Utiliser l&apos;optimisation de chargement de connexion 
+Utiliser l'optimisation de chargement de connexion 
 		</td>
 		<td>
 Activer cette option que sur demande de notre équipe de soutien technique de Devolutions. 
@@ -260,10 +260,10 @@ Activer cette option que sur demande de notre équipe de soutien technique de De
 	</tr>
 	<tr>
 		<td>
-Vérifiez que KeePass est en cours d&apos;exécution 
+Vérifiez que KeePass est en cours d'exécution 
 		</td>
 		<td>
-Vérifier que KeePass fonctionne sur votre ordinateur avant d&apos;accéder aux données KeePass. 
+Vérifier que KeePass fonctionne sur votre ordinateur avant d'accéder aux données KeePass. 
 		</td>
 	</tr>
 </table>
@@ -282,10 +282,10 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Accent sur le contenu à l&apos;activation de l&apos;application 
+Accent sur le contenu à l'activation de l'application 
 		</td>
 		<td>
-Mettre l&apos;accent sur la dernière session intégrée lorsque l&apos;application est activée. 
+Mettre l'accent sur la dernière session intégrée lorsque l'application est activée. 
 		</td>
 	</tr>
 	<tr>
@@ -293,7 +293,7 @@ Mettre l&apos;accent sur la dernière session intégrée lorsque l&apos;applicat
 Ajouter le dossier dans la hiérarchie pendant l’ajout en lots 
 		</td>
 		<td>
-Lors de l&apos;ajout par lots de dossiers, selon l&apos;option choisie, il les créera tous au même niveau ou en fera un enfant du dossier précédent. 
+Lors de l'ajout par lots de dossiers, selon l'option choisie, il les créera tous au même niveau ou en fera un enfant du dossier précédent. 
 		</td>
 	</tr>
 	<tr>
@@ -306,10 +306,10 @@ Lorsque les sessions sont déplacées par glisser-déposer, un message de confir
 	</tr>
 	<tr>
 		<td>
-Désactiver la demande de confirmer l&apos;annulation dans les propriétés 
+Désactiver la demande de confirmer l'annulation dans les propriétés 
 		</td>
 		<td>
-Activer pour supprimer la demande de confirmation lors de l&apos;annulation de la modification d&apos;une entrée. 
+Activer pour supprimer la demande de confirmation lors de l'annulation de la modification d'une entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -317,7 +317,7 @@ Activer pour supprimer la demande de confirmation lors de l&apos;annulation de l
 Désactiver la télémétrie 
 		</td>
 		<td>
-Désactiver l&apos;analyse des données ou des statistiques. La télémétrie est l&apos;équivalent de Google Analytics. Prendre note que les statistiques sont anonymes. 
+Désactiver l'analyse des données ou des statistiques. La télémétrie est l'équivalent de Google Analytics. Prendre note que les statistiques sont anonymes. 
 		</td>
 	</tr>
 	<tr>
@@ -325,7 +325,7 @@ Désactiver l&apos;analyse des données ou des statistiques. La télémétrie es
 Désactiver la trace de la pile 
 		</td>
 		<td>
-Désactiver les détails de la trace de la pile lorsqu&apos;une erreur se produit dans {{ fr.RDM }} . Il s&apos;agit d&apos;une fonction de sécurité. 
+Désactiver les détails de la trace de la pile lorsqu'une erreur se produit dans {{ fr.RDM }} . Il s'agit d'une fonction de sécurité. 
 		</td>
 	</tr>
 	<tr>
@@ -333,23 +333,15 @@ Désactiver les détails de la trace de la pile lorsqu&apos;une erreur se produi
 Désactiver le cache des favicônes 
 		</td>
 		<td>
-Désactiver le cache des favicônes et forcer {{ fr.RDM }} à toujours récupérer les favicônes sur le web. Il n&apos;est pas recommandé de désactiver cette fonctionnalité pour des raisons de performances. 
+Désactiver le cache des favicônes et forcer {{ fr.RDM }} à toujours récupérer les favicônes sur le web. Il n'est pas recommandé de désactiver cette fonctionnalité pour des raisons de performances. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Désactiver le gravatar de l&apos;utilisateur 
+Désactiver le gravatar de l'utilisateur 
 		</td>
 		<td>
-Désactiver la récupération du Gravatar dans ***Administration – Utilisateurs*** pour améliorer les performances de l&apos;application. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Désactiver toutes les images Gravatar 
-		</td>
-		<td>
-Désactiver toutes les images Gravatar pour améliorer les performances de l&apos;application. 
+Désactiver la récupération du Gravatar dans ***Administration – Utilisateurs*** pour améliorer les performances de l'application. 
 		</td>
 	</tr>
 	<tr>
@@ -357,7 +349,15 @@ Désactiver toutes les images Gravatar pour améliorer les performances de l&apo
 Désactiver toutes les images Gravatar 
 		</td>
 		<td>
-Désactiver toutes les images Gravatar pour améliorer les performances de l&apos;application. 
+Désactiver toutes les images Gravatar pour améliorer les performances de l'application. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Désactiver toutes les images Gravatar 
+		</td>
+		<td>
+Désactiver toutes les images Gravatar pour améliorer les performances de l'application. 
 		</td>
 	</tr>
 	<tr>
@@ -365,7 +365,7 @@ Désactiver toutes les images Gravatar pour améliorer les performances de l&apo
 Inclure les ordinateurs du réseau avoisinant dans la fenêtre Choisir un ordinateur 
 		</td>
 		<td>
-Activer pour afficher la liste de tous les ordinateurs du réseau avoisinant. Il n&apos;est pas recommandé d&apos;activer cette fonctionnalité pour des raisons de performances. 
+Activer pour afficher la liste de tous les ordinateurs du réseau avoisinant. Il n'est pas recommandé d'activer cette fonctionnalité pour des raisons de performances. 
 		</td>
 	</tr>
 	<tr>
@@ -381,7 +381,7 @@ Activer pour afficher la liste de tous les ordinateurs liés à Active Directory
 Pas de connexion Internet 
 		</td>
 		<td>
-Désactiver l&apos;application pour accéder à Internet. 
+Désactiver l'application pour accéder à Internet. 
 		</td>
 	</tr>
 	<tr>
@@ -389,7 +389,7 @@ Désactiver l&apos;application pour accéder à Internet.
 Permettre les sources de données obsolètes 
 		</td>
 		<td>
-Autoriser {{ fr.RDM }} à fonctionner sur une vielle source de données qui n&apos;a pas été mise à niveau. 
+Autoriser {{ fr.RDM }} à fonctionner sur une vielle source de données qui n'a pas été mise à niveau. 
 		</td>
 	</tr>
 	<tr>
@@ -397,7 +397,7 @@ Autoriser {{ fr.RDM }} à fonctionner sur une vielle source de données qui n&ap
 Permettre plusieurs instances 
 		</td>
 		<td>
-Permet à plusieurs instances de {{ fr.RDM }} de s&apos;exécuter simultanément. Ce n&apos;est pas une pratique recommandée. 
+Permet à plusieurs instances de {{ fr.RDM }} de s'exécuter simultanément. Ce n'est pas une pratique recommandée. 
 		</td>
 	</tr>
 	<tr>
@@ -405,7 +405,7 @@ Permet à plusieurs instances de {{ fr.RDM }} de s&apos;exécuter simultanément
 Prompt Onboarding on startup 
 		</td>
 		<td>
-Activer pour lancer la fenêtre d&apos;accueil ( Onboarding ) au démarrage. 
+Activer pour lancer la fenêtre d'accueil ( Onboarding ) au démarrage. 
 		</td>
 	</tr>
 	<tr>
@@ -421,23 +421,23 @@ Activer cette option que sur demande de notre équipe de soutien technique Devol
 Utiliser la compression ZipCrypto (non recommandé) 
 		</td>
 		<td>
-Activer cette option pour autoriser la compression ZipCrypto dans {{ fr.RDM }} . Nous vous déconseillons d&apos;activer cette option. Voici un blogue écrit par notre équipe de sécurité sur le sujet: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/) . 
+Activer cette option pour autoriser la compression ZipCrypto dans {{ fr.RDM }} . Nous vous déconseillons d'activer cette option. Voici un blogue écrit par notre équipe de sécurité sur le sujet: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/) . 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Utiliser le dossier d&apos;application pour la cache hors ligne 
+Utiliser le dossier d'application pour la cache hors ligne 
 		</td>
 		<td>
-Utiliser le dossier d&apos;installation pour enregistrer le fichier de cache hors ligne. 
+Utiliser le dossier d'installation pour enregistrer le fichier de cache hors ligne. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Utiliser le dossier de l&apos;application pour la liste d&apos;exécution locale 
+Utiliser le dossier de l'application pour la liste d'exécution locale 
 		</td>
 		<td>
-Utiliser le dossier d&apos;installation pour enregistrer la liste de lecture locale qui a été créée. 
+Utiliser le dossier d'installation pour enregistrer la liste de lecture locale qui a été créée. 
 		</td>
 	</tr>
 	<tr>
@@ -445,12 +445,12 @@ Utiliser le dossier d&apos;installation pour enregistrer la liste de lecture loc
 Utiliser Microsoft Office plutôt que les autres éditeurs 
 		</td>
 		<td>
-Lors de l&apos;ajout d&apos;un nouveau document en sélectionnant un fichier pris en charge par une application Microsoft Office (Word, Excel), il créera un document Word/Excel au lieu d&apos;une entrée Rich Text Editor/Spreadsheet Editor. 
+Lors de l'ajout d'un nouveau document en sélectionnant un fichier pris en charge par une application Microsoft Office (Word, Excel), il créera un document Word/Excel au lieu d'une entrée Rich Text Editor/Spreadsheet Editor. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Vérifier le contenu du focus lors de l&apos;activation de RDP 
+Vérifier le contenu du focus lors de l'activation de RDP 
 		</td>
 		<td>
 Si une session RDP demande le focus, elle placera {{ fr.RDM }} au premier plan. 
@@ -483,15 +483,15 @@ DESCRIPTION
 Activer la boîte de texte des mots clés dans les propriétés 
 		</td>
 		<td>
-Par défaut, le champ des mots clés, dans les propriétés d&apos;une entrée, ne peut être édité que via le sélecteur. Avec cette option, cela lève cette restriction et vous pouvez écrire directement dans la zone de texte des mots clés. 
+Par défaut, le champ des mots clés, dans les propriétés d'une entrée, ne peut être édité que via le sélecteur. Avec cette option, cela lève cette restriction et vous pouvez écrire directement dans la zone de texte des mots clés. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Désactiver la personnalisation d&apos;images 
+Désactiver la personnalisation d'images 
 		</td>
 		<td>
-Désactiver le chargement des images personnalisées dans l&apos;arborescence. Trop d&apos;images personnalisées pourraient augmenter considérablement la taille de la source de données et augmenter le temps de chargement. 
+Désactiver le chargement des images personnalisées dans l'arborescence. Trop d'images personnalisées pourraient augmenter considérablement la taille de la source de données et augmenter le temps de chargement. 
 		</td>
 	</tr>
 	<tr>
@@ -499,7 +499,7 @@ Désactiver le chargement des images personnalisées dans l&apos;arborescence. T
 Désactiver la restauration de l’affichage 
 		</td>
 		<td>
-Désactiver la disposition des onglets configurée manuellement et restaure les paramètres d’affichage lors d&apos;un redémarrage de {{ fr.RDM }} . 
+Désactiver la disposition des onglets configurée manuellement et restaure les paramètres d’affichage lors d'un redémarrage de {{ fr.RDM }} . 
 		</td>
 	</tr>
 	<tr>
@@ -515,7 +515,7 @@ Lorsque l’option est décochée, elle permet de naviguer entre plusieurs ongle
 Garder la fenêtre Afficher le mot de passe dans le haut 
 		</td>
 		<td>
-Forcer la fenêtre ***Afficher le mot de passe*** à s&apos;afficher au-dessus de toutes les fenêtres de {{ fr.RDM }} . 
+Forcer la fenêtre ***Afficher le mot de passe*** à s'afficher au-dessus de toutes les fenêtres de {{ fr.RDM }} . 
 		</td>
 	</tr>
 	<tr>
@@ -528,10 +528,10 @@ Masquer la barre de chargement de la source de données lors du chargement.
 	</tr>
 	<tr>
 		<td>
-Masquer la dernière liste d&apos;exécution ouverte dans le gestionnaire 
+Masquer la dernière liste d'exécution ouverte dans le gestionnaire 
 		</td>
 		<td>
-Masquer la dernière liste d&apos;exécution ouverte au démarrage dans la boîte de dialogue de la liste d&apos;exécution. 
+Masquer la dernière liste d'exécution ouverte au démarrage dans la boîte de dialogue de la liste d'exécution. 
 		</td>
 	</tr>
 	<tr>
@@ -539,15 +539,15 @@ Masquer la dernière liste d&apos;exécution ouverte au démarrage dans la boît
 Toujours afficher le bouton « Aller Hors ligne » 
 		</td>
 		<td>
-Afficher toujours le bouton « Mettre hors ligne » dans la barre d&apos;état lorsque le mode hors ligne est actif. 
+Afficher toujours le bouton « Mettre hors ligne » dans la barre d'état lorsque le mode hors ligne est actif. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Utiliser l&apos;ancien tri des entrées 
+Utiliser l'ancien tri des entrées 
 		</td>
 		<td>
-Utiliser l&apos;ancien tri des entrées de la version précédente de {{ fr.RDM }} . 
+Utiliser l'ancien tri des entrées de la version précédente de {{ fr.RDM }} . 
 		</td>
 	</tr>
 </table>
@@ -568,7 +568,7 @@ DESCRIPTION
 Utiliser Microsoft Edge en mode intégré pour la documentation et markdown 
 		</td>
 		<td>
-L&apos;activation de cette option permettra d&apos;utiliser le navigateur Microsoft Edge au lieu d&apos;Internet Explorer pour la documentation et le markdown. 
+L'activation de cette option permettra d'utiliser le navigateur Microsoft Edge au lieu d'Internet Explorer pour la documentation et le markdown. 
 		</td>
 	</tr>
 	<tr>
@@ -576,7 +576,7 @@ L&apos;activation de cette option permettra d&apos;utiliser le navigateur Micros
 Utiliser Microsoft Edge en mode intégré pour le panneau Aperçu 
 		</td>
 		<td>
-L&apos;activation de cette option permettra d&apos;utiliser le navigateur Microsoft Edge au lieu d&apos;Internet Explorer pour afficher le panneau d&apos;aperçu. 
+L'activation de cette option permettra d'utiliser le navigateur Microsoft Edge au lieu d'Internet Explorer pour afficher le panneau d'aperçu. 
 		</td>
 	</tr>
 	<tr>
@@ -584,7 +584,7 @@ L&apos;activation de cette option permettra d&apos;utiliser le navigateur Micros
 Utiliser Microsoft Edge en mode intégré pour les notes de publication 
 		</td>
 		<td>
-L&apos;activation de cette option permettra d&apos;utiliser le navigateur Microsoft Edge au lieu d&apos;Internet Explorer pour les notes de publication. 
+L'activation de cette option permettra d'utiliser le navigateur Microsoft Edge au lieu d'Internet Explorer pour les notes de publication. 
 		</td>
 	</tr>
 	<tr>
@@ -592,7 +592,7 @@ L&apos;activation de cette option permettra d&apos;utiliser le navigateur Micros
 Utiliser Microsoft Edge en mode intégré pour les rapports 
 		</td>
 		<td>
-L&apos;activation de cette option permettra d&apos;utiliser le navigateur Microsoft Edge au lieu d&apos;Internet Explorer pour afficher les rapports. 
+L'activation de cette option permettra d'utiliser le navigateur Microsoft Edge au lieu d'Internet Explorer pour afficher les rapports. 
 		</td>
 	</tr>
 </table>

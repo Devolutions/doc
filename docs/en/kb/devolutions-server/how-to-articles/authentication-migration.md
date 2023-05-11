@@ -1,7 +1,10 @@
 ---
 title: Authentication Migration Tool 
 ---
-These instructions explain how to migrate the user accounts and user groups from one authentication provider to another. Or to migrate the Active Directory or Azure Active Directory domain to another one. 
+These instructions explain how to migrate the user accounts and user groups from one authentication provider to another. Or to migrate the Active Directory or Azure Active Directory domain to another one. The tool can be found in three locations on the web interface of your Devolutions Server instance:
+* Administration > Server Settings > Authentication, at the bottom of the page
+* Administration > Users, in the top right corner
+* Administration > Users Groups, in the top right corner
 
 ## STEPS 
 

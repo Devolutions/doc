@@ -10,7 +10,7 @@ Active Directory Interactive (with MFA Support) allows you to authenticate on yo
 When creating SQL Active Directory users, you must be logged in with an Azure Active Directory user. Otherwise it will fail and you will be notified of the error. 
 {% endsnippet %}
  
-Use the servers defined Azure Active Directory Admin to create your first RDM admin users. Once you&apos;ve created, you can use this new account to create other users. 
+Use the servers defined Azure Active Directory Admin to create your first RDM admin users. Once you've created, you can use this new account to create other users. 
 
 ## Settings 
 
@@ -24,7 +24,7 @@ On first connect, the username must be the Active Directory Admin as defined in 
  
 {% snippet icon.badgeCaution %} 
 ![!!RdmWin4034.png](/img/en/rdm/windows/RdmWin4034.png) 
-If you get this message error: Unable to connect to the database! Login failed for user &apos;&lt;token-identified principal&gt;&apos; double check the username for spelling errors. 
+If you get this message error: Unable to connect to the database! Login failed for user '<token-identified principal>' double check the username for spelling errors. 
 {% endsnippet %}
  
 3. Configure the database to authenticate in the ***Database*** field. 

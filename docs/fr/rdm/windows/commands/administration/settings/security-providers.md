@@ -10,25 +10,25 @@ Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Quel que soit le fournisseur de sécurité que vous avez sélectionné, les mots de passe stockés dans la source de données sont TOUJOURS cryptés à l&apos;aide du cryptage AES 256 bits. 
+Quel que soit le fournisseur de sécurité que vous avez sélectionné, les mots de passe stockés dans la source de données sont TOUJOURS cryptés à l'aide du cryptage AES 256 bits. 
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 
-En utilisant un fournisseur de sécurité, vous vous assurez que personne ne peut lire vos données de configuration d&apos;entrée, même lorsque des personnes ont un accès direct à vos bases de données ou à une sauvegarde. Vous devez toujours l&apos;utiliser lorsque vous utilisez une source de données qui n&apos;est pas locale. 
+En utilisant un fournisseur de sécurité, vous vous assurez que personne ne peut lire vos données de configuration d'entrée, même lorsque des personnes ont un accès direct à vos bases de données ou à une sauvegarde. Vous devez toujours l'utiliser lorsque vous utilisez une source de données qui n'est pas locale. 
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
-Avant d&apos;appliquer un nouveau ou de modifier le fournisseur de sécurité existant, assurez-vous que tous les utilisateurs sont déconnectés de la source de données. Si vous modifiez la phrase secrète ou un certificat partagé existant, veuillez noter que les utilisateurs auront de nouveau accès à la source de données lorsqu&apos;ils auront la nouvelle phrase secrète ou le certificat partagé sur leur ordinateur. 
+Avant d'appliquer un nouveau ou de modifier le fournisseur de sécurité existant, assurez-vous que tous les utilisateurs sont déconnectés de la source de données. Si vous modifiez la phrase secrète ou un certificat partagé existant, veuillez noter que les utilisateurs auront de nouveau accès à la source de données lorsqu'ils auront la nouvelle phrase secrète ou le certificat partagé sur leur ordinateur. 
 {% endsnippet %}
  
 ## Paramètres 
 
 {% snippet icon.badgeInfo %} 
-Changer un fournisseur de sécurité sur une source de données avec un grand nombre d&apos;entrées est une opération longue. 
+Changer un fournisseur de sécurité sur une source de données avec un grand nombre d'entrées est une opération longue. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-L&apos;application d&apos;un nouveau fournisseur de sécurité traite toute la base de données, nous vous conseillons donc de créer une sauvegarde avant cette opération. 
+L'application d'un nouveau fournisseur de sécurité traite toute la base de données, nous vous conseillons donc de créer une sauvegarde avant cette opération. 
 {% endsnippet %}
  
 1. Cliquer sur ***Modifier les paramètres de sécurité*** pour changer le fournisseur de sécurité.  
@@ -50,7 +50,7 @@ DESCRIPTION
 Default 
 		</td>
 		<td>
-Il s&apos;agit du fournisseur de sécurité hérité. Les données sont cryptées si la configuration des entrées est définie en conséquence dans les paramètres avancés des entrées. 
+Il s'agit du fournisseur de sécurité hérité. Les données sont cryptées si la configuration des entrées est définie en conséquence dans les paramètres avancés des entrées. 
 		</td>
 	</tr>
 	<tr>
@@ -85,7 +85,7 @@ Une stratégie peut être activée pour toujours demander la phrase secrète lor
 
 ## Certificate 
 
-Si vous avez choisi le ***Certificate*** comme fournisseur de sécurité, il cryptera les données de configuration d&apos;entrée avec un mélange de clés stockées dans {{ fr.RDM }} et la clé privée contenue dans le certificat.  
+Si vous avez choisi le ***Certificate*** comme fournisseur de sécurité, il cryptera les données de configuration d'entrée avec un mélange de clés stockées dans {{ fr.RDM }} et la clé privée contenue dans le certificat.  
 ![Fournisseur de certificat de sécurité](/img/fr/rdm/windows/clip10286.png) 
 
 <table>
@@ -103,7 +103,7 @@ DESCRIPTION
 Emplacement 
 		</td>
 		<td>
-Indiquer l&apos;emplacement du certificat. Choisir entre:  
+Indiquer l'emplacement du certificat. Choisir entre:  
 
 * Utilisateur actuel 
 * Machine locale 
@@ -114,10 +114,10 @@ Indiquer l&apos;emplacement du certificat. Choisir entre:
 Boutique 
 		</td>
 		<td>
-Indiquer l&apos;emplacement de la boutique du certificat. Choisir entre:  
+Indiquer l'emplacement de la boutique du certificat. Choisir entre:  
 
-* Carnet d&apos;adresses 
-* Racine de l&apos;autorisation 
+* Carnet d'adresses 
+* Racine de l'autorisation 
 * Autorité de certificat 
 * Refusé 
 * Mon 
@@ -131,7 +131,7 @@ Indiquer l&apos;emplacement de la boutique du certificat. Choisir entre:
 Empreinte numérique 
 		</td>
 		<td>
-Sélectionner un certificat RSA qui existe déjà pour l&apos;utiliser dans le chiffrement. 
+Sélectionner un certificat RSA qui existe déjà pour l'utiliser dans le chiffrement. 
 		</td>
 	</tr>
 </table>
@@ -176,10 +176,10 @@ Date de début du certificat.
 	</tr>
 	<tr>
 		<td>
-Valide jusqu&apos;au 
+Valide jusqu'au 
 		</td>
 		<td>
-Date d&apos;expiration du certificat. 
+Date d'expiration du certificat. 
 		</td>
 	</tr>
 	<tr>
@@ -195,7 +195,7 @@ Enregistrer le certificat dans un fichier *.pfx et sécurisez ce certificat avec
 Enregistrer dans le magasin de certificats 
 		</td>
 		<td>
-Indiquer l&apos;emplacement et le magasin où enregistrer le certificat. 
+Indiquer l'emplacement et le magasin où enregistrer le certificat. 
 		</td>
 	</tr>
 </table>

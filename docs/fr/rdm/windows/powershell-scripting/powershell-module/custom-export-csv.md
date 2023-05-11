@@ -5,7 +5,7 @@ De nombreux clients demandent un export personnalisé qui contiendrait des champ
 
 ## Paramètres 
 
-Voici un script qui peut être utilisé pour générer des URL pour notre nouveau gestionnaire de protocole Web. Nous générons un fichier csv qui contient le nom et l&apos;URL.  
+Voici un script qui peut être utilisé pour générer des URL pour notre nouveau gestionnaire de protocole Web. Nous générons un fichier csv qui contient le nom et l'URL.  
 
 ```powershell
 ## get the data source ID, note that the "Create Web Url" button generates a different ID, but both are accepted

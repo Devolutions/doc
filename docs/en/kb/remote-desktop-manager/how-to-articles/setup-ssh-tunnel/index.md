@@ -51,7 +51,7 @@ Create an RDP session.
 
 In the ***VPN/SSH/Gateway*** side menu of your RDP session select ***Always connect*** in the ***Open*** field and ***Session*** in the ***Type*** field.  
 ![!!KB4523.png](/img/en/kb/KB4523.png)  
-In the VPN ***–*** Settings tab, click on the drop down list next to ***Session*** and select your ***SSH Tunnel*** entry previously created.  
+In the VPN – Settings tab, click on the drop down list next to ***Session*** and select your ***SSH Tunnel*** entry previously created.  
 ![!!KB4524.png](/img/en/kb/KB4524.png)  
 You now have configured your session with the following rule: for each connection that comes on interface 127.0.0.1 and port 3390, forward that connection to the SSH server and request the server to forward that connection to your Remote host.  
 

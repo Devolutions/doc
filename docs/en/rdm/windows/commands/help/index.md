@@ -1,7 +1,7 @@
 ---
 title: Help
 ---
-In the ***Help*** tab section you will find links to the ***Devolutions forum*** , ***Blog*** , ***Online Help*** and much more. Diagnostics tools for {{ en.RDM }} are all located in the ***Support*** &#32; section. many supported related features, such as the ***Application Logs*** , the ***Profiler*** , and the ***Recorder*** .  
+In the ***Help*** tab section you will find links to the ***Devolutions forum*** , ***Blog*** , ***Online Help*** and much more. Diagnostics tools for {{ en.RDM }} are all located in the ***Support***   section. many supported related features, such as the ***Application Logs*** , the ***Profiler*** , and the ***Recorder*** .  
 ![Ribbon - Help](/img/en/rdm/windows/clip11352.png) 
 
 ### Help 

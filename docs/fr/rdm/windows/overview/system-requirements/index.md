@@ -1,7 +1,7 @@
 ---
 title: Configuration du système
 ---
-## {{ fr.RDM }} nécessite cette configuration avant l&apos;installation. 
+## {{ fr.RDM }} nécessite cette configuration avant l'installation. 
 
 ## Configuration minimale 
 
@@ -29,9 +29,9 @@ title: Configuration du système
 Microsoft .NET Framework 4.8  
 Processeur: 1 GHz ou plus puissant  
 Mémoire vive: 4 Go  
-Résolution d&apos;écran: 1024 x 768  
+Résolution d'écran: 1024 x 768  
 Espace de disque dur: 500 Mo  
-Système d&apos;exploitation: 64 bits  
+Système d'exploitation: 64 bits  
 [Microsoft Edge WebView2 Runtime](/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/) 
 
 ## Prise en charge des Terminal Services et des clients légers 
@@ -40,6 +40,6 @@ Système d&apos;exploitation: 64 bits
 
 ## Déploiement manuel/portable 
 
-Le déploiement manuel, à partir d&apos;un fichier zip, est documenté dans la section [Portable (USB)](/fr/rdm/windows/installation/client/portable-usb/) . Les prérequis devront être installés manuellement. Veuillez consulter la section [Logiciel prérequis](/fr/rdm/windows/overview/system-requirements/prerequisite-software/) pour plus d&apos;information. 
+Le déploiement manuel, à partir d'un fichier zip, est documenté dans la section [Portable (USB)](/fr/rdm/windows/installation/client/portable-usb/) . Les prérequis devront être installés manuellement. Veuillez consulter la section [Logiciel prérequis](/fr/rdm/windows/overview/system-requirements/prerequisite-software/) pour plus d'information. 
 
 

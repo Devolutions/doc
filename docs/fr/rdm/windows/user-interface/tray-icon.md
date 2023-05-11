@@ -1,7 +1,7 @@
 ---
 title: Barre des tâches
 ---
-{{ fr.RDM }} permet à l&apos;utilisateur de contrôler l&apos;application à partir de la barre des tâches Windows. Vous pouvez également [personnaliser son contenu](#préférences-de-la-barre-de-tâches) . 
+{{ fr.RDM }} permet à l'utilisateur de contrôler l'application à partir de la barre des tâches Windows. Vous pouvez également [personnaliser son contenu](#préférences-de-la-barre-de-tâches) . 
 
 ## Menu contextuel de la barre des tâches 
 
@@ -23,7 +23,7 @@ DESCRIPTION
 Liste des sessions 
 		</td>
 		<td>
-Affiche les sessions de la source de données actuelle. Les sessions sont répertoriées par défaut. Il est possible d&apos;afficher que ceux marqués comme favoris. 
+Affiche les sessions de la source de données actuelle. Les sessions sont répertoriées par défaut. Il est possible d'afficher que ceux marqués comme favoris. 
 		</td>
 	</tr>
 	<tr>
@@ -52,10 +52,10 @@ Répertorie les [Entrées les plus récemment utilisées](/fr/rdm/windows/user-i
 	</tr>
 	<tr>
 		<td>
-Liste d&apos;exécution 
+Liste d'exécution 
 		</td>
 		<td>
-Permets à l&apos;utilisateur de lancer une [Liste d&apos;exécution](/fr/rdm/windows/commands/edit/edit/play-list/play-list-actions/) à partir de la barre d&apos;état. 
+Permets à l'utilisateur de lancer une [Liste d'exécution](/fr/rdm/windows/commands/edit/edit/play-list/play-list-actions/) à partir de la barre d'état. 
 		</td>
 	</tr>
 	<tr>
@@ -63,7 +63,7 @@ Permets à l&apos;utilisateur de lancer une [Liste d&apos;exécution](/fr/rdm/wi
 Sources de données 
 		</td>
 		<td>
-Répertorie les [Sources de données](/fr/rdm/windows/data-sources/) disponibles et permets à l&apos;utilisateur de passer de l&apos;une à l&apos;autre. Cette section apparaît uniquement si elle est activée et si plusieurs sources de données sont configurées. 
+Répertorie les [Sources de données](/fr/rdm/windows/data-sources/) disponibles et permets à l'utilisateur de passer de l'une à l'autre. Cette section apparaît uniquement si elle est activée et si plusieurs sources de données sont configurées. 
 		</td>
 	</tr>
 	<tr>
@@ -103,7 +103,7 @@ Lance la fonction [Recherche/Filtre](/fr/rdm/windows/user-interface/status-bar/s
 Agrandir 
 		</td>
 		<td>
-Restaure l&apos;application en plein écran. 
+Restaure l'application en plein écran. 
 		</td>
 	</tr>
 	<tr>
@@ -111,7 +111,7 @@ Restaure l&apos;application en plein écran.
 Réduire 
 		</td>
 		<td>
-Réduis l&apos;application dans la barre des tâches. 
+Réduis l'application dans la barre des tâches. 
 		</td>
 	</tr>
 	<tr>
@@ -119,7 +119,7 @@ Réduis l&apos;application dans la barre des tâches.
 Écran 
 		</td>
 		<td>
-Déplacer {{ fr.RDM }} dans l&apos;écran sélectionné 
+Déplacer {{ fr.RDM }} dans l'écran sélectionné 
 		</td>
 	</tr>
 	<tr>
@@ -127,12 +127,12 @@ Déplacer {{ fr.RDM }} dans l&apos;écran sélectionné
 Quitter 
 		</td>
 		<td>
-Ferme l&apos;application. 
+Ferme l'application. 
 		</td>
 	</tr>
 </table>
 
 ## Préférences de la barre de tâches 
 
-Les options d&apos;application contiennent de nombreux paramètres qui permettent de personnaliser les préférences de la barre de tâches du système. Pour les modifier, accéder à ***Fichier - Options - Interface utilisateur - Trayicon/barre de tâches*** . 
+Les options d'application contiennent de nombreux paramètres qui permettent de personnaliser les préférences de la barre de tâches du système. Pour les modifier, accéder à ***Fichier - Options - Interface utilisateur - Trayicon/barre de tâches*** . 
 

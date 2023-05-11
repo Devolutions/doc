@@ -46,7 +46,7 @@ You can choose your SSH Key size between:
 Comment 
 		</td>
 		<td>
-Enter your username and the name of the computer you&apos;re transferring your key to. 
+Enter your username and the name of the computer you're transferring your key to. 
 		</td>
 	</tr>
 	<tr>

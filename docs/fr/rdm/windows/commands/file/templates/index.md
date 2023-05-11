@@ -1,7 +1,7 @@
 ---
 title: Modèles
 ---
-Les modèles sont utiles pour avoir des valeurs prédéfinies lors de la création d&apos;une entrée. Utiliser des modèles pour:  
+Les modèles sont utiles pour avoir des valeurs prédéfinies lors de la création d'une entrée. Utiliser des modèles pour:  
 
 * [Créer des entrées préconfigurées](#créer-des-entrées-préconfigurées) 
 * [Utiliser avec la fonction de connexion rapide](#exécuter-une-session-avec-une-connexion-rapide) 
@@ -12,7 +12,7 @@ Les modèles sont disponibles dans le menu ***Fichier - Modèles*** .
 
 Vous pouvez choisir de créer un modèle ***Local*** ou un modèle ***Partagé*** .  
 
-* Les modèles locaux sont enregistrés sur l&apos;ordinateur local et ne sont pas disponibles pour les autres utilisateurs. 
+* Les modèles locaux sont enregistrés sur l'ordinateur local et ne sont pas disponibles pour les autres utilisateurs. 
 * Les modèles partagés sont enregistrés dans la base de données et peuvent être utilisés par tous les utilisateurs. 
 
 {% snippet icon.badgeInfo %} 
@@ -23,7 +23,7 @@ Par défaut, les utilisateurs standard ne peuvent pas créer ou gérer de modèl
 
 ## Disponibilité 
 
-Lors de la création d&apos;un modèle, sa disponibilité peut être spécifiée dans les ***Paramètres du modèle*** .  
+Lors de la création d'un modèle, sa disponibilité peut être spécifiée dans les ***Paramètres du modèle*** .  
 ![!!clip3585.png](/img/fr/rdm/windows/clip3585.png) 
 
 ## Usage 
@@ -32,10 +32,10 @@ Les modèles peuvent être utilisés dans les cas suivants:
 
 ### Créer des entrées préconfigurées 
 
-Par défaut, lors de la création d&apos;une entrée d&apos;un type pour lequel des modèles sont configurés, l&apos;utilisateur est invité à indiquer un modèle à utiliser. Ce comportement peut être modifié dans les [Paramètres du système](/fr/rdm/windows/commands/administration/settings/system-settings/general/) .  
+Par défaut, lors de la création d'une entrée d'un type pour lequel des modèles sont configurés, l'utilisateur est invité à indiquer un modèle à utiliser. Ce comportement peut être modifié dans les [Paramètres du système](/fr/rdm/windows/commands/administration/settings/system-settings/general/) .  
 ![!!clip3584.png](/img/fr/rdm/windows/clip3584.png) 
 
-Le modèle peut également être sélectionné avant de créer l&apos;entrée. Utiliser la section ***Modèle*** de la fenêtre ***Ajouter une entrée*** .  
+Le modèle peut également être sélectionné avant de créer l'entrée. Utiliser la section ***Modèle*** de la fenêtre ***Ajouter une entrée*** .  
 ![!!clip10266.png](/img/fr/rdm/windows/clip10266.png) 
 
 ### Exécuter une session avec une connexion rapide 

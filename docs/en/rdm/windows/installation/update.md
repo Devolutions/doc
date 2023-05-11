@@ -1,7 +1,7 @@
 ---
 title: Update
 ---
-The ***Update*** feature prompts the user to update to a newer version of the application and displays the release notes. The user&apos;s choice for the previous update is shown as selected.  
+The ***Update*** feature prompts the user to update to a newer version of the application and displays the release notes. The user's choice for the previous update is shown as selected.  
 ![Update](/img/en/rdm/windows/clip3587.png) 
 
 <table>

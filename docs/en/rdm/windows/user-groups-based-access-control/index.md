@@ -86,7 +86,7 @@ A user can be assigned to multiple user groups at once by checking the ***Is Mem
 
 When creating users, some key points must be taken into consideration. Ask yourself the following questions while configuring a new user:  
 
-* Should they be able to access any resource without restriction? These are your &#32; ***Administrators*** . 
+* Should they be able to access any resource without restriction? These are your   ***Administrators*** . 
 * Should they be able to add, edit, or delete entries? A ***User*** would have all of these. Alternatively, you can select specific rights with ***Restricted User*** . 
 * Should they be able to see sensitive information, or import and export entries? ***Read-Only*** users are best used for those who should very limited access. 
 

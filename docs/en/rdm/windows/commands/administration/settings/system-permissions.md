@@ -167,7 +167,7 @@ Allow users/user groups to use web management tools.
 ### Management 
 
 {% snippet icon.badgeHelp %} 
-The ***Default*** value in ***Tools*** ***&#32;*** is equivalent to ***Never*** . 
+The ***Default*** value in ***Tools***   is equivalent to ***Never*** . 
 {% endsnippet %}
  
 ![System Permissions - Management](/img/en/rdm/windows/clip3433.png) 

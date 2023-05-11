@@ -8,7 +8,7 @@ title: SQLite
 ![!!DataSourceSQLiteLarge.png](/img/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
-{{ en.RDM }} &apos;s SQLite data source is ideal for single user and stand-alone situations. More powerful and more flexible than the XML file format, it also supports a few of the Advanced Data Source options like Logs and Attachments. 
+{{ en.RDM }} 's SQLite data source is ideal for single user and stand-alone situations. More powerful and more flexible than the XML file format, it also supports a few of the Advanced Data Source options like Logs and Attachments. 
 		</td>
 	</tr>
 </table>
@@ -32,7 +32,7 @@ SQLite supports an unlimited number of simultaneous readers, but will only allow
  
 ## Password management 
 
-You can specify a password to further encrypt your data. Specify it at creation time. If the data source already exists you can modify the password by using the File ***–*** Manage Password dialog.  
+You can specify a password to further encrypt your data. Specify it at creation time. If the data source already exists you can modify the password by using the File – Manage Password dialog.  
 
 Change or clear the password of a SQLite data source.  
 ![Manage password dialog](/img/en/rdm/windows/clip10340.png) 

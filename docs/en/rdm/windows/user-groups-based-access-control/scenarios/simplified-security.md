@@ -75,7 +75,7 @@ Next, for the Telemark folder, we will grant permissions to the ServiceDesk, the
 
 Since we want the users to be able to use the credential entries, we will grant the ServiceDesk and the HelpDesk the permission to view the Credentials folder. This way, the ServiceDesk and HelpDesk will be able to use the entries in the folder without revealing the passwords. Therefore, by specifying that only the HelpDesk and ServiceDesk have the ***View*** permission, we deny the view access to any user group or user that is not in the list of the permission.  
 
-The ***Add*** , ***Edit*** , and ***Delete*** permissions can be left to ***&#32;*** ***Inherited*** since they inherit the settings from the Telemark parent folder. The ServiceDesk is the only user group that has been granted the ***Add*** and ***Edit*** permission in the parent folder and the ***Delete*** permission inherits the Never setting.  
+The ***Add*** , ***Edit*** , and ***Delete*** permissions can be left to   ***Inherited*** since they inherit the settings from the Telemark parent folder. The ServiceDesk is the only user group that has been granted the ***Add*** and ***Edit*** permission in the parent folder and the ***Delete*** permission inherits the Never setting.  
 ![Telemark / Credentials - Permissions](/img/en/rdm/windows/clip3388.png) 
 
 * ***View*** ***:*** ***Custom*** ; HelpDesk, ServiceDesk. 
@@ -101,7 +101,7 @@ No need to set any permissions on the Montreal folder, since they are inherited 
 The permissions are now correctly set. Note that every entry added at {{ en.VLT }} level will have no security by default. This means they would be available for anyone, even the consultants. This can be confirmed by looking at the screenshot below in which the entry ***Daily routine*** is available for everyone. Here is what each user should see in the tree view:  
 ![Side by Side Tree View](/img/en/rdm/windows/clip3391.png) 
 
-You can further customize your permissions by using the ***Security Settings*** tab when editing entries, or the ***Logs*** &#32; tab to add more traces of coming and goings. As always, great care must be taken when granting permissions.  
+You can further customize your permissions by using the ***Security Settings*** tab when editing entries, or the ***Logs***   tab to add more traces of coming and goings. As always, great care must be taken when granting permissions.  
 
 If you need more details on each permission, please consult our Common Settings – Permissions topic. 
 

@@ -1,7 +1,7 @@
 ---
 title: Import (.rdm)
 ---
-{{ en.RDM }} allows you to import entries from previously exported RDM files ( {{ en.RDM }} &apos;s native export format) stored on your computer. 
+{{ en.RDM }} allows you to import entries from previously exported RDM files ( {{ en.RDM }} 's native export format) stored on your computer. 
 
 {% snippet icon.badgeInfo %} 
 For an overview of the RDM file format and the impact of decisions made in this entry, see [RDM Import Strategies and File Format](/rdm/windows/commands/file/import/rdm/strategies-file-format/) . 

@@ -3,7 +3,7 @@ title: Security Providers
 ---
 {% youtube 'phg2jL9fsIQ' %}  
 
-The ***Security Provider*** &#32; allows for encrypting the data source content. To access the security provider, navigate to Administration ***–*** Security Provider . 
+The ***Security Provider***   allows for encrypting the data source content. To access the security provider, navigate to Administration – Security Provider . 
 
 {% snippet icon.badgeInfo %} 
 This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
@@ -16,7 +16,7 @@ Regardless of the selected security provider, passwords stored in data sources a
 {% snippet icon.badgeHelp %} 
 When configuring a Certificate Security Provider in a published app environment (Citrix, RemoteApp, XenApp) as a Security Provider, the user who will run {{ en.RDM }} in the RemoteApp environment (Citrix) will require a ***Read permission*** on the certificate.  
 
-If the ***Read permission*** isn&apos;t correctly set, {{ en.RDM }} will generate the CryptographicException - Keyset does not exist error dialog. Follow the [Certificate Security Provider in a Published app Environment](/kb/remote-desktop-manager/how-to-articles/certificate-security-provider-published-app-environment/) topic to resolve the issue. 
+If the ***Read permission*** isn't correctly set, {{ en.RDM }} will generate the CryptographicException - Keyset does not exist error dialog. Follow the [Certificate Security Provider in a Published app Environment](/kb/remote-desktop-manager/how-to-articles/certificate-security-provider-published-app-environment/) topic to resolve the issue. 
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 
@@ -85,22 +85,22 @@ If the passphrase is lost, nothing that can be done to recover the data. When us
  
 ![Security Provider - Shared Passphrase](/img/en/rdm/windows/clip3436.png) 
 
-Entries configuration data is encrypted using a mix of a key stored in {{ en.RDM }} and the passphrase you&apos;ve entered.  
+Entries configuration data is encrypted using a mix of a key stored in {{ en.RDM }} and the passphrase you've entered.  
 
 The passphrase is required only when configuring the data source. A policy can be enabled to always prompt for the passphrase when connecting to the data source.  
 
 When configuring a security provider with a shared passphrase, you have the choice of whether or not you wish to save it in the registry. {{ en.RDM }} will try first to save it on the LOCAL_MACHINE, if unable it will save it in the CURRENT_USER instead.  
 
-* HKEY_CURRENT_USER\SOFTWARE\RemoteDesktopManager&lt;Datasource ID&gt;.shk 
-* HKEY_LOCAL_MACHINE\SOFTWARE\RemoteDesktopManager&lt;Datasource ID&gt;.shk 
+* HKEY_CURRENT_USER\SOFTWARE\RemoteDesktopManager<Datasource ID>.shk 
+* HKEY_LOCAL_MACHINE\SOFTWARE\RemoteDesktopManager<Datasource ID>.shk 
 
 If the option is not enabled, then the passphrase is saved locally at the following location:  
 
-* %LOCALAPPDATA%\Devolutions\RemoteDesktopManager&lt;Datasource ID&gt;.shk 
+* %LOCALAPPDATA%\Devolutions\RemoteDesktopManager<Datasource ID>.shk 
 
 In a Terminal Services environment, it should be saved at this location:  
 
-* %APPDATA%\Devolutions\RemoteDesktopManager&lt;Datasource ID&gt;.shk 
+* %APPDATA%\Devolutions\RemoteDesktopManager<Datasource ID>.shk 
 
 In a portable installation of RDM, the passphrase will be saved at the same location as the portable {{ en.RDM }} instance. 
 

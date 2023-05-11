@@ -1,27 +1,27 @@
 ---
 title: Recherche / Filtre
 ---
-Il est possible d&apos;appliquer un filtre dans le volet de navigation en tapant certains caractères dans la zone de filtre. Le filtre est appliqué en utilisant les paramètres spécifiés dans l&apos;application ***Fichier - Options - Interface utilisateur - Filtre*** . 
+Il est possible d'appliquer un filtre dans le volet de navigation en tapant certains caractères dans la zone de filtre. Le filtre est appliqué en utilisant les paramètres spécifiés dans l'application ***Fichier - Options - Interface utilisateur - Filtre*** . 
 
 ### Bouton à points de suspension 
 
 Sélectionner le bouton à points de suspension pour afficher les options.  
 ![Bouton à points de suspension](/img/fr/rdm/windows/clip11003.png) 
 
-L&apos;expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que:  
+L'expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que:  
 
 * Rechercher plusieurs ou tous les coffres à la fois. 
-* Options du champ (Inclure le dossier, l&apos;Hôte, Nom d&apos;utilisateur, etc.). 
+* Options du champ (Inclure le dossier, l'Hôte, Nom d'utilisateur, etc.). 
 * Informations générales (Domaine, IP, etc.). 
 * Coordonnées du contact (Nom du contact, Courriel, Téléphone, etc.). 
 * Informations matérielles (Numéro de série, Fabricant, etc.).  
 
-Il est possible d&apos;exclure des résultats en choisissant d&apos;afficher les entrées correspondant à certains critères:  
+Il est possible d'exclure des résultats en choisissant d'afficher les entrées correspondant à certains critères:  
 
 * Types de session (Identifiants, Outils scripts, VPN, etc.) 
 * Si la session est marquée comme Favoris 
 
-Dans les options de navigation, vous pouvez limiter les paramètres de recherche à des types d&apos;entrées spécifiques. Telles que les sessions, les entrées de données, etc.  
+Dans les options de navigation, vous pouvez limiter les paramètres de recherche à des types d'entrées spécifiques. Telles que les sessions, les entrées de données, etc.  
 ![Options de navigation](/img/fr/rdm/windows/clip11006.png) 
 
 Les options de recherche offrent la possibilité de personnaliser votre recherche, notamment en incluant des raccourcis ou des favoris, en la rendant sensible à la casse, et bien plus encore!  
@@ -35,7 +35,7 @@ Vous pouvez redéfinir le focus sur le volet de navigation en utilisant le racco
 
 ## Filtre booléen 
 
-Voici quelques notes d&apos;implémentation du filtre booléen:  
+Voici quelques notes d'implémentation du filtre booléen:  
 
 * Nous utilisons la nomenclature C# (&& pour AND, || pour OR) 
 * Évalué de gauche à droite 

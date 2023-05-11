@@ -1,14 +1,14 @@
 ---
 title: Recherche dans la documentation
 ---
-Vous pouvez rechercher des pages de documentation liées aux entrées. La ***Recherche dans la documentation*** fournit un aperçu des pages de documentation, du titre de la page et des détails d&apos;entrée associés. L&apos;outil cherche dans le coffre actuel.  
+Vous pouvez rechercher des pages de documentation liées aux entrées. La ***Recherche dans la documentation*** fournit un aperçu des pages de documentation, du titre de la page et des détails d'entrée associés. L'outil cherche dans le coffre actuel.  
 
 {% snippet icon.badgeInfo %} 
 La ***Recherche dans la documentation*** est disponible avec les sources de données {{ fr.RDMS }} et SQL. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-La fonctionnalité ***Documentation*** est chiffrée uniquement pour la source de données {{ fr.RDMS }} . Si vous utilisez des sources de données comme SQL Server ou Azure SQL, cette fonctionnalité n&apos;est pas chiffrée. 
+La fonctionnalité ***Documentation*** est chiffrée uniquement pour la source de données {{ fr.RDMS }} . Si vous utilisez des sources de données comme SQL Server ou Azure SQL, cette fonctionnalité n'est pas chiffrée. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -51,7 +51,7 @@ Affiche un aperçuu de la page de documentation.
 3. Menu déroulant 
 		</td>
 		<td>
-Liste les différents titres de pages. Lorsqu&apos;une entrée contient plusieurs pages de documentation avec le terme recherché, une liste des titres de pages est disponible. 
+Liste les différents titres de pages. Lorsqu'une entrée contient plusieurs pages de documentation avec le terme recherché, une liste des titres de pages est disponible. 
 		</td>
 	</tr>
 </table>
@@ -60,7 +60,7 @@ Il est possible de sélectionner plusieurs entrées à la fois avec Maj+Clic ou 
 
 ### Autres fonctionnalités 
 
-Le bouton ***Sélectionner dans le volet de navigation*** , lorsqu&apos;il est utilisé, vous renvoie directement à l&apos;entrée ou au dossier sélectionné dans le ***{{ fr.NPANE }}*** du coffre sélectionné.  
+Le bouton ***Sélectionner dans le volet de navigation*** , lorsqu'il est utilisé, vous renvoie directement à l'entrée ou au dossier sélectionné dans le ***{{ fr.NPANE }}*** du coffre sélectionné.  
 
 Le bouton ***Réinitialiser*** efface les résultats et options de recherche, ce qui vous permet de repartir à zéro pour une nouvelle recherche. 
 

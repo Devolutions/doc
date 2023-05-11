@@ -42,7 +42,7 @@ When using Microsoft SQL Server or Microsoft Azure SQL data sources, if you want
 
 To respond to a request, you need to open the ***Temporary Access Response*** window. There are two ways to access it.  
 
-The first option is to use the ***Pending Access Requests*** box (see image below) in the ***Overview*** tab of your ***Dashboard*** . Clicking on either the green check mark (approve the request) or the red &quot;X&quot; (deny the request) next to a request will open the ***Temporary Access Response*** window.  
+The first option is to use the ***Pending Access Requests*** box (see image below) in the ***Overview*** tab of your ***Dashboard*** . Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***Temporary Access Response*** window.  
 ![Pending Access Requests](/img/en/rdm/windows/RDMWin2077.png) 
 
 The second option requires you to go through the other ***Pending Access Requests*** box described in the [previous section](#view-temporary-access-requests) . Whatever way you choose to access the response window, the result will be the same.  
@@ -50,7 +50,7 @@ The second option requires you to go through the other ***Pending Access Request
 
 This view is divided into two sections: 
 
-* The ***Request Info*** section contains information about the user&apos;s request. Because this was done on the user&apos;s side, fields in this section cannot be edited. 
+* The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited. 
 * The ***Response Parameters*** section allows you to change the temporary access duration specified by the user. It is also possible to write a message to the user explaining your decision, but it remains optional. 
 
 Clicking on the ***Send response*** button will approve or deny the request, depending on what you selected earlier. A confirmation window will pop up which you can make disappear by clicking on ***OK*** . 

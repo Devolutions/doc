@@ -1,7 +1,7 @@
 ---
 title: Générateur de mots de passe
 ---
-Le ***Générateur de mots de passe*** vous permet de créer des mots de passe aléatoires qui sont sécurisés et difficiles à interpréter ou à prédire en raison d&apos;un mélange de lettres majuscules et minuscules, de chiffres et de symboles de ponctuation.  
+Le ***Générateur de mots de passe*** vous permet de créer des mots de passe aléatoires qui sont sécurisés et difficiles à interpréter ou à prédire en raison d'un mélange de lettres majuscules et minuscules, de chiffres et de symboles de ponctuation.  
 
 Vous pouvez également créer des modèles de générateur de mots de passe pour générer plus rapidement vos mots de passe. Après avoir sélectionné votre mode et vos paramètres, vous pouvez créer votre modèle.  
 
@@ -68,7 +68,7 @@ b
 Parenthèse 
 		</td>
 		<td>
-()[]{}&lt;&gt; 
+()[]{}<> 
 		</td>
 	</tr>
 	<tr>
@@ -167,7 +167,7 @@ s
 Caractère spécial imprimable 7 bits 
 		</td>
 		<td>
-!&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;?[\]^_{|}~ 
+!"#$%&'()*+,-./:;<=>?[\]^_{|}~ 
 		</td>
 	</tr>
 	<tr>
@@ -178,7 +178,7 @@ S
 ASCII 7 bits imprimable 
 		</td>
 		<td>
-A-Z, a-z, 0-9, !&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;?[\]^_{|}~ 
+A-Z, a-z, 0-9, !"#$%&'()*+,-./:;<=>?[\]^_{|}~ 
 		</td>
 	</tr>
 	<tr>
@@ -233,7 +233,7 @@ x
 ANSI élevé 
 		</td>
 		<td>
-De &apos;~&apos; à U255 (en excluant U255) 
+De '~' à U255 (en excluant U255) 
 		</td>
 	</tr>
 	<tr>
@@ -277,7 +277,7 @@ Utiliser le caractère suivant tel quel
 Échappement (répéter) 
 		</td>
 		<td>
-Répéter le caractère précédent &quot;n&quot; fois 
+Répéter le caractère précédent "n" fois 
 		</td>
 	</tr>
 	<tr>
@@ -295,11 +295,11 @@ Définir une séquence de caractères personnalisée
 
 ### Mot de passe prononçable 
 
-L&apos;application générera un mot de passe prononçable.  
+L'application générera un mot de passe prononçable.  
 ![Générateur de mot de passe - Mot de passe prononçable](/img/fr/rdm/windows/clip10386.png) 
 
 ### Mot de passe fort 
 
-L&apos;application générera un mot de passe de 8 caractères avec des alphanumériques à casse mixte et des caractères spéciaux.  
+L'application générera un mot de passe de 8 caractères avec des alphanumériques à casse mixte et des caractères spéciaux.  
 ![Générateur de mot de passe - Mot de passe fort](/img/fr/rdm/windows/clip10387.png) 
 

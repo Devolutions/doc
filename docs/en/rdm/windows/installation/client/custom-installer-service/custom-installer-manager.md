@@ -15,7 +15,7 @@ You can store and create up to six ***Custom Installer*** configuration file pac
  
 ## Create an Installation Package 
 
-1. In {{ en.RDM }} , click on File – {{ en.DA }} &#32; ***–*** Sign-in &#32; to connect to your {{ en.DA }} if you are not already signed in.  
+1. In {{ en.RDM }} , click on File – {{ en.DA }}   – Sign-in   to connect to your {{ en.DA }} if you are not already signed in.  
 ![Devolutions Account Sign-in](/img/en/rdm/windows/RdmWin4009.png) 
 1. Under ***Tools*** , click on ***Custom Installer Manager*** to create a new custom installer with specific settings.  
 ![File – Devolutions Account – Custom Installer Manager](/img/en/rdm/windows/clip11247.png) 

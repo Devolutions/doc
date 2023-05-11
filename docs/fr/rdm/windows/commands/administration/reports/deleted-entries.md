@@ -1,7 +1,7 @@
 ---
 title: Entrées supprimées
 ---
-L&apos;option ***Administration - Entrées supprimées*** vous permet d&apos;afficher les entrées supprimées ainsi que de les restaurer. 
+L'option ***Administration - Entrées supprimées*** vous permet d'afficher les entrées supprimées ainsi que de les restaurer. 
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
 {% endsnippet %}
@@ -11,14 +11,14 @@ Les administrateurs peuvent supprimer définitivement certaines ou toutes les en
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Les sous-connexions ne sont pas conservées dans la fenêtre ***Entrées supprimées*** . Pour restaurer une sous-connexion, veuillez consulter l&apos; ***Historique des entrées*** . 
+Les sous-connexions ne sont pas conservées dans la fenêtre ***Entrées supprimées*** . Pour restaurer une sous-connexion, veuillez consulter l' ***Historique des entrées*** . 
 {% endsnippet %}
  
 ## Paramètres 
 
 ### Gérer les entrées supprimées 
 
-La vue des ***Entrées supprimées*** générera une liste contenant toutes les entrées précédemment supprimées de votre source de données. Vous pouvez ressusciter une entrée, ce qui signifie qu&apos;elle redeviendra une entrée active et sera affichée dans votre source de données. Vous pouvez également choisir de supprimer définitivement vos entrées, une fois que vous aurez définitivement supprimé vos entrées, vous ne pourrez plus les ressusciter par la suite.  
+La vue des ***Entrées supprimées*** générera une liste contenant toutes les entrées précédemment supprimées de votre source de données. Vous pouvez ressusciter une entrée, ce qui signifie qu'elle redeviendra une entrée active et sera affichée dans votre source de données. Vous pouvez également choisir de supprimer définitivement vos entrées, une fois que vous aurez définitivement supprimé vos entrées, vous ne pourrez plus les ressusciter par la suite.  
 ![Entrées supprimées](/img/fr/rdm/windows/clip10308.png) 
 
 <table>
@@ -35,12 +35,12 @@ DESCRIPTION
 Supprimer 
 		</td>
 		<td>
-Supprimer définitivement l&apos;entrée supprimée sélectionnée. 
+Supprimer définitivement l'entrée supprimée sélectionnée. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Restaurer l&apos;entrée 
+Restaurer l'entrée 
 		</td>
 		<td>
 Restaurer une entrée dans votre base de données. 
@@ -57,7 +57,7 @@ Supprimer définitivement toutes les entrées supprimées.
 </table>
 
 {% snippet icon.badgeNotice %} 
-Les entrées supprimées peuvent être restaurées tant qu&apos;elles n&apos;ont pas été définitivement supprimées et tant que le fournisseur de sécurité n&apos;a pas été modifié depuis l&apos;action supprimée. 
+Les entrées supprimées peuvent être restaurées tant qu'elles n'ont pas été définitivement supprimées et tant que le fournisseur de sécurité n'a pas été modifié depuis l'action supprimée. 
 {% endsnippet %}
  
 ### Exporter la liste des entrées supprimées 

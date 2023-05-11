@@ -1,7 +1,7 @@
 ---
 title: Checklist for Teams
 ---
-Here&apos;s a checklist to help you get started with {{ en.RDM }} when working in a team environment.  
+Here's a checklist to help you get started with {{ en.RDM }} when working in a team environment.  
 
 <table>
 	<tr>

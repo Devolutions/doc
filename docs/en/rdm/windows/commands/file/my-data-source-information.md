@@ -1,7 +1,7 @@
 ---
 title: My Data Source Information
 ---
-The &#32; ***Data Source Information*** window displays various information related to the current data source, such as the current user and security access. 
+The   ***Data Source Information*** window displays various information related to the current data source, such as the current user and security access. 
 
 {% snippet icon.badgeInfo %} 
 The ***My Data Source Information*** view can be different depending on the [Data Source Type](/rdm/windows/data-sources/data-sources-types/) . This topic uses an SQL Server data source. 

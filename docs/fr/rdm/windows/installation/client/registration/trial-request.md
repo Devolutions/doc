@@ -12,7 +12,7 @@ Si vous n'êtes pas prêt à acheter {{ fr.RDM }} , vous pouvez utiliser l' [Éd
 1. Cliquer sur ***Ajouter une licence*** .  
 ![Bouton Ajouter une licence](/img/fr/rdm/windows/RdmWin4118.png) 
 1. Saisir la licence d'essai de l'étape 2 dans le champ approprié, puis cliquer sur ***OK*** .  
-![Champ Licence](/img/fr/rdm/windows/RdmWin0000.png) 
+![Champ Licence](/img/fr/rdm/windows/RDMWin0000.png) 
 
 Votre période d'essai est maintenant commencée. 
 

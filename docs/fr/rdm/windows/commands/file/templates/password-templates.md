@@ -12,10 +12,10 @@ Les ***Modèles de mot de passe*** sont disponibles dans le générateur de mot 
 1. Aller dans ***Fichier - Modèles*** et cliquer sur ***Modèles de mot de passe*** .  
 ![Fichier - Modèles - Moèles de mot de passe](/img/fr/rdm/windows/RdmWin7016.png) 
 
-La fenêtre ***Modèles de mot de passe*** fournit un aperçu des modèles actuels, ainsi que des commandes d&apos;ajout, de modification et de suppression. 
+La fenêtre ***Modèles de mot de passe*** fournit un aperçu des modèles actuels, ainsi que des commandes d'ajout, de modification et de suppression. 
 
 2. Pour ajouter un nouveau modèle, cliquer sur ***Ajouter*** . 
-1. Saisir un nom de modèle, choisir un mode et les paramètres spécifiques. 
+1. Saisir un nom de modèle, choisir un mode et les paramètres spécifiques.  
 ![!!RdmWin7018.png](/img/fr/rdm/windows/RdmWin7018.png) 
 
 <table>
@@ -53,7 +53,7 @@ Paramètres pour les syllabes, les nombres et les symboles.
 Utiliser un modèle 
 		</td>
 		<td>
-Définir un modèle pour les mots de passe à l&apos;aide de [Clé](/fr/rdm/windows/commands/tools/generators/password/) . 
+Définir un modèle pour les mots de passe à l'aide de [Clé](/fr/rdm/windows/commands/tools/generators/password/) . 
 		</td>
 	</tr>
 		<td>
@@ -69,14 +69,14 @@ Le modèle de mot de passe est désormais disponible dans le générateur de mot
 
 ### Utiliser un modèle de mot de passe avec le générateur de mot de passe 
 
-1. Dans l&apos;onglet ***Outils*** , cliquer sur ***Générateur de mots de passe*** . Ou ouvrir le ***Générateur de mot de passe*** à partir d&apos;une entrée. 
-1. Pour choisir un modèle de mot de passe, sélectionner le titre dans la liste. La valeur par défaut n&apos;est équivalente à aucun modèle, jusqu&apos;à ce qu&apos;il soit configuré par un administrateur. Lorsque vous sélectionnez un modèle, les options ne sont pas disponibles car elles ont été enregistrées dans le modèle. 
+1. Dans l'onglet ***Outils*** , cliquer sur ***Générateur de mots de passe*** . Ou ouvrir le ***Générateur de mot de passe*** à partir d'une entrée. 
+1. Pour choisir un modèle de mot de passe, sélectionner le titre dans la liste. La valeur par défaut n'est équivalente à aucun modèle, jusqu'à ce qu'il soit configuré par un administrateur. Lorsque vous sélectionnez un modèle, les options ne sont pas disponibles car elles ont été enregistrées dans le modèle. 
 1. Cliquer sur ***Générer*** pour répertorier les mots de passe possibles.  
 ![Générateur de mots de passe](/img/fr/rdm/windows/RdmWin7019.png) 
 
 ### Définir un modèle de mot de passe par défaut 
 
-Le modèle par défaut dans le ***Générateur de mot de passe*** est défini sur ***Par défaut*** jusqu&apos;à ce qu&apos;un administrateur configure le modèle.  
+Le modèle par défaut dans le ***Générateur de mot de passe*** est défini sur ***Par défaut*** jusqu'à ce qu'un administrateur configure le modèle.  
 
 1. Dans ***Administration*** , cliquer sur ***Paramètres du système*** . 
 1. Dans ***Gestion des mots de passe*** , cliquer sur ***Modèles de mot de passe*** . 

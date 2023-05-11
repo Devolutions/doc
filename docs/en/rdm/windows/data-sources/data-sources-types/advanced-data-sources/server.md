@@ -8,7 +8,7 @@ title: Devolutions Server
 ![!!DataSourceDPSLarge.png](/img/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
-{{ en.RDMS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the product&apos;s web site [here](https://devolutions.net/server/) . 
+{{ en.RDMS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the product's web site [here](https://devolutions.net/server/) . 
 		</td>
 	</tr>
 </table>
@@ -27,8 +27,8 @@ title: Devolutions Server
  
 For more information, please consult these topics:  
 
-* [{{ en.RDMS }} installation instructions](https://helpserver.devolutions.net/installing_rdms.htm) 
-* [{{ en.RDMS }} Security Checklist](https://helpserver.devolutions.net/securitychecklist.htm) 
+* [{{ en.RDMS }} installation instructions](/server/installation/) 
+* [{{ en.RDMS }} Security Checklist](/server/getting-started/security-checklist/) 
 
 ## Configure the server data source on all your client machines 
 Enter a name of the data source and the URL for the Host. Ensure you use the correct protocol if SSL is required by the server (https).  
@@ -66,7 +66,7 @@ Host
 		<td>
 Enter the URL of the DVLS instance.  
 
-Example: http<area>://&lt;hostname or IP address&gt;/&lt;instance name&gt; 
+Example: http<area>://<hostname or IP address>/<instance name> 
 		</td>
 	</tr>
 	<tr>

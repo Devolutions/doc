@@ -1,7 +1,7 @@
 ---
 title: Telnet
 ---
-Les actions d&apos;une session Telnet vous permettent d&apos;envoyer des commandes à distance à votre hôte. 
+Les actions d'une session Telnet vous permettent d'envoyer des commandes à distance à votre hôte. 
 
 ## Paramètres 
 
@@ -26,10 +26,10 @@ Copier tout le texte sélectionné dans le presse-papiers.
 	</tr>
 	<tr>
 		<td>
-Effacer l&apos;historique 
+Effacer l'historique 
 		</td>
 		<td>
-Efface l&apos;affichage défilant qui précède la ligne en cours. 
+Efface l'affichage défilant qui précède la ligne en cours. 
 		</td>
 	</tr>
 	<tr>
@@ -42,7 +42,7 @@ Réinitialiser la connexion du terminal hôte.
 	</tr>
 	<tr>
 		<td>
-Conserver le format lors d&apos;une copie 
+Conserver le format lors d'une copie 
 		</td>
 		<td>
 Conserve le format du texte copié. 

@@ -1,7 +1,7 @@
 ---
 title: Import Logins
 ---
-You can go to File – Import – Logins to import different logins or credentials from other software into &#32; {{ en.RDM }} . 
+You can go to File – Import – Logins to import different logins or credentials from other software into   {{ en.RDM }} . 
 
 {% snippet icon.badgeInfo %} 
 The import feature is only active if the import ***Privilege*** has been enabled inside the user account. 

@@ -1,7 +1,7 @@
 ---
 title: Mise à jour
 ---
-La fonction ***Mise à jour*** invite l&apos;utilisateur à faire la mise à jour vers la plus récente version disponible de l&apos;application et affiche les notes de la version. Un choix d&apos;installation est disponible pour l&apos;utilisateur et s&apos;affiche comme sélectionné.  
+La fonction ***Mise à jour*** invite l'utilisateur à faire la mise à jour vers la plus récente version disponible de l'application et affiche les notes de la version. Un choix d'installation est disponible pour l'utilisateur et s'affiche comme sélectionné.  
 ![Mise à jour disponible](/img/fr/rdm/windows/clip3587.png) 
 
 <table>
@@ -18,7 +18,7 @@ DESCRIPTION
 Me le rappeler plus tard 
 		</td>
 		<td>
-Faire un rappel de mise à jour a la prochaine ouverture de l&apos;application. 
+Faire un rappel de mise à jour a la prochaine ouverture de l'application. 
 		</td>
 	</tr>
 	<tr>
@@ -26,31 +26,31 @@ Faire un rappel de mise à jour a la prochaine ouverture de l&apos;application.
 Sauter cette version 
 		</td>
 		<td>
-Ne pas mettre à jour l&apos;application avec cette version. 
+Ne pas mettre à jour l'application avec cette version. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Télécharger cette version et l&apos;installer quand l&apos;application est fermée 
+Télécharger cette version et l'installer quand l'application est fermée 
 		</td>
 		<td>
-Télécharger la version et attendre la fermeture de l&apos;application avant de &#160;l&apos;installer. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Télécharger l&apos;installateur dans votre navigateur Web par défaut 
-		</td>
-		<td>
-Télécharger le programme d&apos;installation en externe à l&apos;aide de votre navigateur Web par défaut. 
+Télécharger la version et attendre la fermeture de l'application avant de  l'installer. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Télécharger cette version et l&apos;installer maintenant 
+Télécharger l'installateur dans votre navigateur Web par défaut 
 		</td>
 		<td>
-Télécharger immédiatement la nouvelle version et l&apos;installer. 
+Télécharger le programme d'installation en externe à l'aide de votre navigateur Web par défaut. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Télécharger cette version et l'installer maintenant 
+		</td>
+		<td>
+Télécharger immédiatement la nouvelle version et l'installer. 
 		</td>
 	</tr>
 </table>

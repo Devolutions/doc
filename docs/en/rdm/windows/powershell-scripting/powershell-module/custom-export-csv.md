@@ -17,7 +17,7 @@ $s = Get-RDM-Session |
     foreach { 
         new-Object Object | 
             Add-Member NoteProperty Name $_.Name –PassThru | 
-          Add-Member NoteProperty URL "rdm://open?DataSource=$dsid&amp;Session=$($_.ID)" –PassThru 
+          Add-Member NoteProperty URL "rdm://open?DataSource=$dsid&Session=$($_.ID)" –PassThru 
 }; 
 ## save to csv, the field names are used as column headers. 
 $s | export-csv c:\temp\sessions.csv -notypeinformation; 

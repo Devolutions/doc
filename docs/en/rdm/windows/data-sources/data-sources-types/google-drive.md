@@ -95,7 +95,7 @@ Enabling this option will prompt for a master key whenever you are connecting to
 Filename 
 		</td>
 		<td>
-Enter the Google Drive path of the data source&apos;s file. 
+Enter the Google Drive path of the data source's file. 
 		</td>
 	</tr>
 </table>

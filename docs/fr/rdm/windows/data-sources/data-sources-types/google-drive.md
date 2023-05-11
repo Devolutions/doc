@@ -8,7 +8,7 @@ title: Google Drive
 ![!!DataSourceFtpLarge.png](/img/common/DataSourceFtpLarge.png) 
 		</td>
 		<td>
-{{ fr.RDM }} télécharge et téléverse les paramètres de session directement à partir d&apos;un fichier situé sur un site FTP. 
+{{ fr.RDM }} télécharge et téléverse les paramètres de session directement à partir d'un fichier situé sur un site FTP. 
 		</td>
 	</tr>
 </table>
@@ -39,7 +39,7 @@ Nom de la source de données.
 Courriel 
 		</td>
 		<td>
-Contiens l&apos;adresse courriel associée au compte Google Drive. 
+Contiens l'adresse courriel associée au compte Google Drive. 
 		</td>
 	</tr>
 	<tr>
@@ -63,7 +63,7 @@ Toujours demander le mot de passe lors de la connexion à la source de données.
 Statut du compte 
 		</td>
 		<td>
-Indique si le compte a été validé avec Google Drive. Les identifiants doivent être validés avant d&apos;utiliser la source de données. 
+Indique si le compte a été validé avec Google Drive. Les identifiants doivent être validés avant d'utiliser la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Ce bouton contextuel tente de valider les identifiants actuellement utilisés (o
 Clé maîtresse 
 		</td>
 		<td>
-Ajoute une couche de sécurité supplémentaire à votre source de données à l&apos;aide de la clé maîtresse. 
+Ajoute une couche de sécurité supplémentaire à votre source de données à l'aide de la clé maîtresse. 
 		</td>
 	</tr>
 	<tr>

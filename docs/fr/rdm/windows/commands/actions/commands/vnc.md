@@ -1,7 +1,7 @@
 ---
 title: VNC
 ---
-Les commandes VNC vous permettent d&apos;envoyer des commandes à distance à votre hôte. Vous remarquerez également une autre barre d&apos;outils contenant des commandes plus définies pour une session VNC. 
+Les commandes VNC vous permettent d'envoyer des commandes à distance à votre hôte. Vous remarquerez également une autre barre d'outils contenant des commandes plus définies pour une session VNC. 
 
 ## Paramètres 
 
@@ -18,7 +18,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Forcer l&apos;actualisation 
+Forcer l'actualisation 
 		</td>
 		<td>
 Force une actualisation de la connexion VNC. 
@@ -26,10 +26,10 @@ Force une actualisation de la connexion VNC.
 	</tr>
 	<tr>
 		<td>
-Sélectionner Bureau complet / Basculer d&apos;un moniteur à l&apos;autre 
+Sélectionner Bureau complet / Basculer d'un moniteur à l'autre 
 		</td>
 		<td>
-Sélectionne le bureau au complet ou bascule d&apos;un moniteur à l&apos;autre. 
+Sélectionne le bureau au complet ou bascule d'un moniteur à l'autre. 
 		</td>
 	</tr>
 	<tr>
@@ -37,7 +37,7 @@ Sélectionne le bureau au complet ou bascule d&apos;un moniteur à l&apos;autre.
 Envoyer Ctrl-Alt-Suppr 
 		</td>
 		<td>
-Envoie la combinaison de touches CTRL-ALT-SUPPR à l&apos;hôte. 
+Envoie la combinaison de touches CTRL-ALT-SUPPR à l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Envoie la combinaison de touches CTRL-ALT-SUPPR à l&apos;hôte.
 Envoyer Ctrl-Escape 
 		</td>
 		<td>
-Envoie la combinaison de touches CTRL-Escape à l&apos;hôte. 
+Envoie la combinaison de touches CTRL-Escape à l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +53,7 @@ Envoie la combinaison de touches CTRL-Escape à l&apos;hôte.
 Envoyer Alt-F4 
 		</td>
 		<td>
-Envoie la combinaison de touches ALT-F4 à l&apos;hôte. 
+Envoie la combinaison de touches ALT-F4 à l'hôte. 
 		</td>
 	</tr>
 	<tr>

@@ -27,7 +27,7 @@ Vous pouvez utiliser l'action ***Comparer*** pour avoir une comparaison côte à
 
 Les statuts possibles des entrées sont:  
 
-* ***Accepter*** : &#160;lorsqu'aucun changement extérieur n'a été détecté. 
+* ***Accepter*** :  lorsqu'aucun changement extérieur n'a été détecté. 
 * ***Conflit*** : lorsque des modifications extérieures ont été détectées depuis votre dernière connexion. 
 
 ## Modifications hors-ligne multiples 

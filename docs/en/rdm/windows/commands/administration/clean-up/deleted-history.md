@@ -1,7 +1,7 @@
 ---
 title: Clean Up Deleted History
 ---
-The ***Deleted History*** permanently delete entries that had been previously deleted. Full history is always preserved because every entry &quot;version&quot; is kept in historical tables. 
+The ***Deleted History*** permanently delete entries that had been previously deleted. Full history is always preserved because every entry “version“ is kept in historical tables. 
 
 {% snippet icon.badgeInfo %} 
 This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 

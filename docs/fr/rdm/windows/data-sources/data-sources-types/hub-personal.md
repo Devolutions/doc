@@ -3,7 +3,7 @@ title: Hub Personal
 ---
 {{ fr.HUB }} Personal, pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un coffre.  
 
-Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/personal) pour plus d&apos;informations sur ce service. 
+Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/personal) pour plus d'informations sur ce service. 
 
 ## Paramètres 
 
@@ -30,10 +30,10 @@ Nom de la source de données.
 	</tr>
 	<tr>
 		<td>
-Nom d&apos;utilisateur 
+Nom d'utilisateur 
 		</td>
 		<td>
-L&apos;adresse courriel de votre [Compte Devolutions](https://portal.devolutions.com/) Compte Devolutions . Vous pouvez en créer un gratuitement, suivez le lien fourni dans la fenêtre. 
+L'adresse courriel de votre [Compte Devolutions](https://portal.devolutions.com/) Compte Devolutions . Vous pouvez en créer un gratuitement, suivez le lien fourni dans la fenêtre. 
 		</td>
 	</tr>
 </table>
@@ -45,6 +45,6 @@ Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à vot
 
 ### Avancée 
 
-Il s&apos;agit de l&apos;adresse du serveur.  
+Il s'agit de l'adresse du serveur.  
 ![!!RdmWin4040.png](/img/fr/rdm/windows/RdmWin4040.png) 
 

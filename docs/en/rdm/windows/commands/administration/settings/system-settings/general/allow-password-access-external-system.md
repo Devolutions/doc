@@ -11,7 +11,7 @@ Accessing passwords stored in your data source by querying the underlying databa
 
 The session information, which is an XML structure, is stored in the ***Data*** field of the ***Connections*** table in the underlying database.  
 
-However, getting the encrypted password from the database requires the &#32; ***Allow password for external system*** to be configured.  
+However, getting the encrypted password from the database requires the   ***Allow password for external system*** to be configured.  
 ![Password Policy - Allow Password For External System](/img/en/rdm/windows/clip10280.png) 
 
 Enter an encryption key in the ***Key*** field. Once a key is provided it will cause the system to extract a copy of the password from our XML structure, this will then be re-encrypted using the ***Key*** you have provided and stored back into the ***UnsafePassword*** field of the ***Connections*** table.  

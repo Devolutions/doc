@@ -24,7 +24,7 @@ DESCRIPTION
 Utilisateur de la base de données 
 		</td>
 		<td>
-Indique l&apos;utilisateur actuellement connecté à l&apos;application. 
+Indique l'utilisateur actuellement connecté à l'application. 
 		</td>
 	</tr>
 	<tr>
@@ -32,7 +32,7 @@ Indique l&apos;utilisateur actuellement connecté à l&apos;application.
 Utilisateur 
 		</td>
 		<td>
-Indique l&apos;utilisateur de la session Windows en cours. 
+Indique l'utilisateur de la session Windows en cours. 
 		</td>
 	</tr>
 	<tr>
@@ -40,7 +40,7 @@ Indique l&apos;utilisateur de la session Windows en cours.
 Administrateur 
 		</td>
 		<td>
-Indique si l&apos;utilisateur actuel est administrateur ou non. 
+Indique si l'utilisateur actuel est administrateur ou non. 
 		</td>
 	</tr>
 	<tr>
@@ -48,7 +48,7 @@ Indique si l&apos;utilisateur actuel est administrateur ou non.
 Mes identifiants personnels 
 		</td>
 		<td>
-Consulter la rubrique [Mes identifiants personnels](/fr/rdm/windows/commands/file/my-account-settings/my-personal-credentials/) pour plus d&apos;informations. 
+Consulter la rubrique [Mes identifiants personnels](/fr/rdm/windows/commands/file/my-account-settings/my-personal-credentials/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -61,10 +61,10 @@ Configurer une clé privée personnelle pour une utilisation ultérieure dans le
 	</tr>
 	<tr>
 		<td>
-Liste de paramètres spécifiques de l&apos;utilisateur 
+Liste de paramètres spécifiques de l'utilisateur 
 		</td>
 		<td>
-Fournie une liste de tous les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) de l&apos;utilisateur configuré dans {{ fr.RDM }} . 
+Fournie une liste de tous les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) de l'utilisateur configuré dans {{ fr.RDM }} . 
 		</td>
 	</tr>
 	<tr>
@@ -77,6 +77,6 @@ Fournie une liste de tous les [Paramètres spécifiques](/fr/rdm/windows/command
 	</tr>
 </table>
 
-Nous prenons en charge des paramètres spécifiques pour une variété d&apos;identifiants. 
+Nous prenons en charge des paramètres spécifiques pour une variété d'identifiants. 
 
 

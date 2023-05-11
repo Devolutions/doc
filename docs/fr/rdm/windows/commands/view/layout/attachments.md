@@ -1,13 +1,13 @@
 ---
 title: Pièces jointes
 ---
-Les fichiers sont joints à l&apos;entrée et sont stockés directement dans la base de données.  
+Les fichiers sont joints à l'entrée et sont stockés directement dans la base de données.  
 
 Pour activer le volet des pièces jointes, accéder à ***Affichage – Disposition*** dans le ruban, puis sélectionner ***Pièces jointes*** .  
 ![Bouton Pièces jointes](/img/fr/rdm/windows/clip3565.png) 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité n&apos;est disponible que lors de l&apos;utilisation d&apos;une [Source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -22,11 +22,11 @@ Le type et la taille des pièces jointes sont limités uniquement par votre band
 * à partir des propriétés de la session; ou 
 * directement sur le ***Tableau de bord*** . 
 
-Le bouton d&apos;actualisation vous permet de mettre à jour directement le document sélectionné. Utilisez-le pour enregistrer vos modifications locales. 
+Le bouton d'actualisation vous permet de mettre à jour directement le document sélectionné. Utilisez-le pour enregistrer vos modifications locales. 
 
 ### Actions 
 
-Utilisez la barre d&apos;outils au-dessus de la liste des pièces jointes pour gérer la pièce jointe sélectionnée.  
+Utilisez la barre d'outils au-dessus de la liste des pièces jointes pour gérer la pièce jointe sélectionnée.  
 ![Barre d'outils](/img/fr/rdm/windows/clip3566.png) 
 
 <table>

@@ -3,7 +3,7 @@ title: PowerShell Scripting - Tips and tricks
 ---
 We are always asked for a full list of property names and sadly it is extremely hard to provide for multiple reasons. The best way is still to look at the xml structure of an entry of the proper type to identify the field names.  
 
-## Reverse Engineering an entry&apos;s structure 
+## Reverse Engineering an entry's structure 
 
 1. Create an entry of the needed type, add only mandatory data at this time. Save the entry. 
 1. Right-click on the entry, then use ***Clipboard – Copy*** . 
@@ -12,7 +12,7 @@ We are always asked for a full list of property names and sadly it is extremely 
 1. Using ***Clipboard – Copy*** , save the modified xml to another file. This is the AFTER . 
 1. Compare the two files with your favorite difference tool, you will see the fields that have changed, and the values that have been assigned. This indicates what your script should do. 
 
-## Essential information about {{ en.RDM }}&apos;s Xml format 
+## Essential information about {{ en.RDM }}'s Xml format 
 
 * To save space, most fields have a default value and when the field contains that default value, it simply does NOT appear in the content. That is why you must watch out for new fields that appear in the AFTER content. 
 * Credentials are handled in a special way. They contain a GUID when they refer to other entries, but they hold Well-Known static GUIDs when they use other mechanisms. 
@@ -85,7 +85,7 @@ None
 	</tr>
 	<tr>
 		<td>
-{{ en.PVLT }} , paired with PersonalConnectionID &#32; 
+{{ en.PVLT }} , paired with PersonalConnectionID   
 		</td>
 		<td>
 "245A4245-48E7-4DF5-9C4C-11861D8E1F81" 

@@ -8,7 +8,7 @@ When experiencing a performance degradation with {{ en.RDM }} , you will be able
 
 ## Is Online 
 
-***Is Online*** allows you to verify and change the settings of your server&apos;s online availability.  
+***Is Online*** allows you to verify and change the settings of your server's online availability.  
 ![Is Online](/img/en/rdm/windows/clip10033.png) 
 
 <table>
@@ -26,7 +26,7 @@ DESCRIPTION
 Enable check for server availability 
 		</td>
 		<td>
-Server is ping to determine if they are available. Server will be displayed in &quot;red&quot; in the tree view if not available. 
+Server is ping to determine if they are available. Server will be displayed in "red" in the tree view if not available. 
 		</td>
 	</tr>
 	<tr>

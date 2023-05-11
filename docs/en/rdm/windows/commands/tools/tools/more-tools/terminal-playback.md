@@ -1,7 +1,7 @@
 ---
 title: Terminal Playback (Ansi)
 ---
-The &#32; ***Playback (Ansi)*** is available in ***Tools – More*** &#32; Tools ***–*** Playback (Ansi) . 
+The   ***Playback (Ansi)*** is available in ***Tools – More***   Tools – Playback (Ansi) . 
 
 ## Settings 
 

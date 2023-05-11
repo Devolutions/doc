@@ -9,5 +9,5 @@ Il peut être masqué pour maximiser la zone de travail.
 
 ![Masquer le ruban](/img/fr/rdm/windows/RdmWin3002.png) 
 
-Si vous vous retrouvez confus par vos modifications et souhaitez le réinitialiser à sa mise en page d&apos;origine, accédez à l&apos;onglet ***Fenêtre*** et sélectionnez ***Réinitialisation de la mise en page*** .  
+Si vous vous retrouvez confus par vos modifications et souhaitez le réinitialiser à sa mise en page d'origine, accédez à l'onglet ***Fenêtre*** et sélectionnez ***Réinitialisation de la mise en page*** .  
 ![Réinitialisation de la mise en page](/img/fr/rdm/windows/RdmWin3003.png) 

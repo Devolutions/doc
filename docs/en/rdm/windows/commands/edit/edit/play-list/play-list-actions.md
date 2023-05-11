@@ -3,7 +3,7 @@ title: Play List Actions
 ---
 {% youtube 'VTGPUMl5zKY' %}  
 
-You can create Local or Shared play List in {{ en.RDM }} . There&apos;s several methods to create or edit a Play List:  
+You can create Local or Shared play List in {{ en.RDM }} . There's several methods to create or edit a Play List:  
 
 * Using the Play List Management. 
 * Create Play List depending on entries state and selection. 
@@ -63,7 +63,7 @@ The Play List is saved in your {{ en.PVLT }} and can only be accessed by the use
 
 1. If you wish to pre-determine a list of entries, select them for your Play List in the {{ en.PVLT }} .  
 ![Selected Entries in the Navigation Pane](/img/en/rdm/windows/clip10902.png) 
-1. In the ***Edit*** ribbon menu, click ***Play List*** , &#32; then select whichever setting you prefer.  
+1. In the ***Edit*** ribbon menu, click ***Play List*** ,   then select whichever setting you prefer.  
 ![Edit - Play List - New](/img/en/rdm/windows/clip10792.png) 
 
 <table>
@@ -151,7 +151,7 @@ And there you have it, your ***Play List*** is ready for use.
 
 ### Edit Existing Play List 
 
-1. In ***Edit*** , click &#32; ***Play List Management*** . &#32;  
+1. In ***Edit*** , click   ***Play List Management*** .    
 ![View - Play List Management](/img/en/rdm/windows/clip11490.png) 
 1. Select the ***Play List*** you wish to modify and click ***Edit*** .  
 ![Play List Management](/img/en/rdm/windows/clip10259.png) 

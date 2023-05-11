@@ -1,9 +1,9 @@
 ---
 title: Ajouter un site Web
 ---
-Le bouton ***Ajouter un site Web*** n&apos;est que disponible dans l&apos;onglet [***Correspondant***](/fr/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/#onglet-correspondant) , qui est l&apos;onglet sélectionné à l&apos;ouverture de l&apos;extension. Un nouvel onglet est ouvert dans votre navigateur qui vous permet d&apos;ajouter une entrée de site Web dans {{ fr.RDM }} via {{ fr.DWL }} .  
+Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet [***Correspondant***](/fr/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/#onglet-correspondant) , qui est l'onglet sélectionné à l'ouverture de l'extension. Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.RDM }} via {{ fr.DWL }} .  
 
-Lorsque {{ fr.RDM }} est utilisé comme source de données, la configuration de l&apos;entrée se fait dans l&apos;onglet ***Général*** .  
+Lorsque {{ fr.RDM }} est utilisé comme source de données, la configuration de l'entrée se fait dans l'onglet ***Général*** .  
 ![Ajouter un site Web](/img/fr/rdm/windows/RDMWin2090.png) 
 
 Consultez le tableau ci-dessous pour en savoir plus sur chaque champ/paramètre de cette vue. 
@@ -31,15 +31,15 @@ Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.
 URL 
 		</td>
 		<td>
-Saisir l&apos;URL de la page de connexion du site Web. Ce champ est rempli automatiquement par {{ fr.DWL }} , mais il peut tout de même être modifié. 
+Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiquement par {{ fr.DWL }} , mais il peut tout de même être modifié. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Nom d&apos;utilisateur 
+Nom d'utilisateur 
 		</td>
 		<td>
-Saisir le nom d&apos;utilisateur utiliser pour se connecter au site Web. 
+Saisir le nom d'utilisateur utiliser pour se connecter au site Web. 
 		</td>
 	</tr>
 	<tr>
@@ -87,7 +87,7 @@ Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.PVLT }
 Enregistrer 
 		</td>
 		<td>
-Enregistrer les paramètres de la nouvelle entrée de site Web et créer l&apos;entrée. 
+Enregistrer les paramètres de la nouvelle entrée de site Web et créer l'entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -95,7 +95,7 @@ Enregistrer les paramètres de la nouvelle entrée de site Web et créer l&apos;
 Annuler 
 		</td>
 		<td>
-Annuler la création d&apos;une nouvelle entrée de site Web et effacer toute les modifications non sauvegardées des paramètres. 
+Annuler la création d'une nouvelle entrée de site Web et effacer toute les modifications non sauvegardées des paramètres. 
 		</td>
 	</tr>
 </table>

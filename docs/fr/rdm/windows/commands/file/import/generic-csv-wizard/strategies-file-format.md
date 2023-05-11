@@ -23,7 +23,7 @@ Dans ***Fichier – Importer*** , nous vous recommandons d'utiliser d'abord l'op
 Certaines validations sur les paramètres d'entrée ne se trouvent pas dans la couche de gestion, mais plutôt dans les boîtes de dialogue de propriétés. Cela signifie que l'utilisation du processus d'importation peut entraîner des entrées non valides qui déclencheront des erreurs. Veuillez valider soigneusement les entrées résultantes. 
 {% endsnippet %}
  
-Dans le fichier CSV, les champs ***Host*** &#32; et &#32; ***Name*** sont obligatoires. Si aucun modèle n'est spécifié, le type RDP sera utilisé comme type de secours.  
+Dans le fichier CSV, les champs ***Host***   et   ***Name*** sont obligatoires. Si aucun modèle n'est spécifié, le type RDP sera utilisé comme type de secours.  
 
 Nous ne pouvons pas fournir la liste de tous les champs pris en charge pour tous les types d'entrées, car {{ fr.RDM }} utilise une architecture ouverte et n'est donc pas au courant de tous les champs des types d'entrées fournis par notre gestionnaire de modules. Une bonne méthode pour découvrir la structure du champ consiste à créer une entrée du type souhaité, faire un clic droit sur l'entrée et sélectionner ***Presse-papiers – Copier*** , puis coller le contenu dans votre éditeur préféré. Vous verrez la structure et les noms des champs. 
 
@@ -36,7 +36,7 @@ La mise en œuvre du support pour tous les domaines a un coût. Le processus d'i
 {% endsnippet %}
  
 
-Toutes nos entrées partagent un ensemble de champs de base; les autres sont liées à la technologie spécifique avec laquelle elles sont interfacées (RDP, SSH, etc.). Certains champs sont regroupés dans des structures, comme l'onglet Informations. Cela signifie que ces champs sont accessibles uniquement lorsque vous fournissez le nom de la structure en tant que préfixe, par exemple, &quot; MetaInformation\OS &quot; ou &quot; MetaInformation\PurchaseDate &quot;. 
+Toutes nos entrées partagent un ensemble de champs de base; les autres sont liées à la technologie spécifique avec laquelle elles sont interfacées (RDP, SSH, etc.). Certains champs sont regroupés dans des structures, comme l'onglet Informations. Cela signifie que ces champs sont accessibles uniquement lorsque vous fournissez le nom de la structure en tant que préfixe, par exemple, " MetaInformation\OS " ou " MetaInformation\PurchaseDate ". 
 
 {% snippet icon.badgeInfo %} 
 Notez que le contenu du fichier CSV peut contenir nos variables : elles seront résolues lors de l'enregistrement. Par exemple, vous pouvez utiliser la variable $HOST$ dans des champs tels que Description , URL , Putty\CustomSessionName , etc. Elle sera remplacée par la valeur correspondante. 

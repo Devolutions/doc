@@ -1,7 +1,7 @@
 ---
 title: Volet de navigation
 ---
-Le ***Volet de navigation*** est l&apos;un des principaux composants de l&apos;interface utilisateur de {{ fr.RDM }} . Il répertorie toutes les entrées disponibles dans la source de données actuelle et permet de basculer vers une autre source de données ou coffre.  
+Le ***Volet de navigation*** est l'un des principaux composants de l'interface utilisateur de {{ fr.RDM }} . Il répertorie toutes les entrées disponibles dans la source de données actuelle et permet de basculer vers une autre source de données ou coffre.  
 ![Volet de navigation](/img/fr/rdm/windows/clip11204.png) 
 
 <table>
@@ -27,7 +27,7 @@ Permet de basculer vers une autre source de données configurée.
 Liste des entrées (2) 
 		</td>
 		<td>
-Affiche le contenu de la source de données actuelle selon l&apos;onglet sélectionné. Permet de sélectionner des entrées et d&apos;effectuer des actions sur celles-ci. 
+Affiche le contenu de la source de données actuelle selon l'onglet sélectionné. Permet de sélectionner des entrées et d'effectuer des actions sur celles-ci. 
 		</td>
 	</tr>
 	<tr>
@@ -50,14 +50,14 @@ Permet de basculer vers différentes vues de la liste des entrées, telles que l
 
 ### Sélecteur de colonnes 
 
-Choisir les colonnes à afficher dans l&apos;arborescence. Cliquer avec le bouton droit sur le nom de la colonne dans le ***{{ fr.NPANE }}*** et sélectionner ***Sélecteur de colonnes*** .  
+Choisir les colonnes à afficher dans l'arborescence. Cliquer avec le bouton droit sur le nom de la colonne dans le ***{{ fr.NPANE }}*** et sélectionner ***Sélecteur de colonnes*** .  
 ![Sélecteur de colonnes](/img/fr/rdm/windows/clip11201.png) 
 
 {% snippet icon.badgeInfo %} 
-Des paramètres et informations additionnels sur l&apos;arborescence sont disponibles dans ***Fichier – Options – Arborescence*** . 
+Des paramètres et informations additionnels sur l'arborescence sont disponibles dans ***Fichier – Options – Arborescence*** . 
 {% endsnippet %}
  
-Pour plus d&apos;informations sur chaque onglet, veuillez consulter les rubriques suivantes :  
+Pour plus d'informations sur chaque onglet, veuillez consulter les rubriques suivantes :  
 
 * [Coffres](/fr/rdm/windows/commands/view/panels/vault/) 
 * [Mon {{ fr.PVLT }}](/fr/rdm/windows/data-sources/user-vault/) 

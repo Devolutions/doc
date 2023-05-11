@@ -1,9 +1,9 @@
 ---
 title: Sources de données
 ---
-Utiliser ***Fichier – Sources de données*** pour gérer les sources de données. {{ fr.RDM }} prend en charge plusieurs types de sources de données. La plupart sont disponibles uniquement avec l&apos;Édition Team de {{ fr.RDM }} .  
+Utiliser ***Fichier – Sources de données*** pour gérer les sources de données. {{ fr.RDM }} prend en charge plusieurs types de sources de données. La plupart sont disponibles uniquement avec l'Édition Team de {{ fr.RDM }} .  
 
-Consulter la rubrique [Types de sources de données](/fr/rdm/windows/data-sources/data-sources-types/) pour plus d&apos;informations sur tous les types de sources de données pris en charge.  
+Consulter la rubrique [Types de sources de données](/fr/rdm/windows/data-sources/data-sources-types/) pour plus d'informations sur tous les types de sources de données pris en charge.  
 ![Sources de données](/img/fr/rdm/windows/clip10080.png) 
 
 ## Paramètres 
@@ -27,7 +27,7 @@ Utiliser les boutons Importer/Exporter respectivement pour importer ou exporter 
 
 ### Verrouiller la source de données 
 
-Utiliser le bouton verrouillage pour verrouiller la source de données avec un mot de passe pour empêcher toute modification à une configuration de source de données. Ceci est utile lorsque vous disposez d&apos;informations d&apos;identification sensibles que vous souhaitez protéger des autres utilisateurs. 
+Utiliser le bouton verrouillage pour verrouiller la source de données avec un mot de passe pour empêcher toute modification à une configuration de source de données. Ceci est utile lorsque vous disposez d'informations d'identification sensibles que vous souhaitez protéger des autres utilisateurs. 
 
 ### Déverrouiller la source de données 
 
@@ -35,7 +35,7 @@ Utiliser le bouton déverrouillage pour déverrouiller une source de données ve
 
 ### Au démarrage 
 
-Choisir la source de données à laquelle vous connectez au démarrage de l&apos;application. 
+Choisir la source de données à laquelle vous connectez au démarrage de l'application. 
 
 <table>
 	<tr>
@@ -67,7 +67,7 @@ Ouvrir avec la dernière source de données utilisée.
 Demander la source de données 
 		</td>
 		<td>
-A message box will open on startup for the data source selection. Une boîte de dialogue s&apos;ouvrira au démarrage pour la sélection de la source de données. 
+A message box will open on startup for the data source selection. Une boîte de dialogue s'ouvrira au démarrage pour la sélection de la source de données. 
 		</td>
 	</tr>
 </table>

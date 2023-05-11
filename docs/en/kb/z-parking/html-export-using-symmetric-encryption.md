@@ -16,7 +16,7 @@ This feature can also be used to save/export/backup sensitive information to dis
 The feature is simple and easy to use:  
 
 * Select one or multiple data entries.  
-* Right-click Import/Export ***–*** Export Data Entry ***–*** Export Data Entry (.html)  
+* Right-click Import/Export – Export Data Entry – Export Data Entry (.html)  
 * When prompted, enter a password.  
 * Save the file to disk.  
 

@@ -28,7 +28,7 @@ Sur certains ordinateurs, il peut être nécessaire d'installer manuellement le 
 * {{ fr.RDM }} versions **2023.1 et ultérieures** : 
   1. Télécharger le [fichier NUPKG du module {{ fr.PS }}](https://www.powershellgallery.com/packages/Devolutions.PowerShell/) depuis la PowerShell Gallery.
   1. Changer l'extension du fichier en .zip. 
-  1. Extraire dans C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\ &lt;version>. 
+  1. Extraire dans C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\ <version>. 
   1. Débloquer tous les fichiers nouvellement extraits. 
   ```
   cd c:\program files\WindowsPowerShell\modules\devolutions.powershell\<version>  
@@ -37,7 +37,7 @@ Sur certains ordinateurs, il peut être nécessaire d'installer manuellement le 
 * {{ fr.RDM }} versions **antérieures à 2023.1** : 
   1. Télécharger le [fichier NUPKG du module RemoteDesktopManager](https://www.powershellgallery.com/packages/RemoteDesktopManager) depuis la PowerShell Gallery. 
   1. Changer l'extension du fichier en .zip. 
-  1. Extraire dans C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\ &lt;version>. 
+  1. Extraire dans C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\ <version>. 
   1. Débloquer tous les fichiers nouvellement extraits. 
   ```
   cd c:\program files\WindowsPowerShell\modules\remotedesktopmanager\<version>  

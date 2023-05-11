@@ -18,7 +18,7 @@ Encryption of data while in transit is offered natively by our cloud services. W
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
-The encryption key is built-in the application and is therefore the same for all copies of the software in circulation. It is imperative that you follow our recommended steps and apply a [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) to encrypt not only the passwords, but also &#32; ***all connection data*** stored in the data source. This will provide protection over your data at rest, using a key under your exclusive control. 
+The encryption key is built-in the application and is therefore the same for all copies of the software in circulation. It is imperative that you follow our recommended steps and apply a [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) to encrypt not only the passwords, but also   ***all connection data*** stored in the data source. This will provide protection over your data at rest, using a key under your exclusive control. 
 {% endsnippet %}
  
 We recommend you follow these steps to ensure data security:  

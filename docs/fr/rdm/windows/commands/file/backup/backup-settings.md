@@ -1,7 +1,7 @@
 ---
 title: Configuration de la sauvegarde
 ---
-La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) vous permet de sauvegarder vos sources de données [Devolutions Online Drive](/fr/rdm/windows/data-sources/data-sources-types/online-drive/) , [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/) ou [XML](/fr/rdm/windows/data-sources/data-sources-types/xml/) dans un stockage en ligne sûr. L&apos;option de sauvegarde est disponible via le menu ***Fichier - Copie de sauvegarde*** . 
+La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) vous permet de sauvegarder vos sources de données [Devolutions Online Drive](/fr/rdm/windows/data-sources/data-sources-types/online-drive/) , [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/) ou [XML](/fr/rdm/windows/data-sources/data-sources-types/xml/) dans un stockage en ligne sûr. L'option de sauvegarde est disponible via le menu ***Fichier - Copie de sauvegarde*** . 
 
 ## Paramètres 
 
@@ -16,7 +16,7 @@ La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) vous perm
 1. Le logo de sauvegarde affichera une flèche verte signifiant que votre sauvegarde est maintenant activée.  
 ![Copie de sauvegarde](/img/fr/rdm/windows/clip10075.png) 
 {% snippet icon.badgeCaution %} 
-Vous devez effectuer cette opération pour toutes vos sources de données [Devolutions Online Drive](/fr/rdm/windows/data-sources/data-sources-types/online-drive/) , [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/) &#32; ou [XML](/fr/rdm/windows/data-sources/data-sources-types/xml/) afin d&apos;être entièrement protégé! 
+Vous devez effectuer cette opération pour toutes vos sources de données [Devolutions Online Drive](/fr/rdm/windows/data-sources/data-sources-types/online-drive/) , [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/)   ou [XML](/fr/rdm/windows/data-sources/data-sources-types/xml/) afin d'être entièrement protégé! 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

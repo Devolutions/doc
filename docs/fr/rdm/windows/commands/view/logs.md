@@ -1,11 +1,11 @@
 ---
 title: Journaux
 ---
-Lorsque vous utilisez {{ fr.RDM }} localement avec une source de données de type individuel, les ***Journaux d&apos;activité*** , qui se trouvent en temps normal dans la section ***Affichage*** de l&apos;onglet ***Affichage*** , ne sont pas disponibles. Dans cette situation, la section ***Journaux*** apparaît dans l&apos;onglet ***Affichage*** .  
+Lorsque vous utilisez {{ fr.RDM }} localement avec une source de données de type individuel, les ***Journaux d'activité*** , qui se trouvent en temps normal dans la section ***Affichage*** de l'onglet ***Affichage*** , ne sont pas disponibles. Dans cette situation, la section ***Journaux*** apparaît dans l'onglet ***Affichage*** .  
 ![Bouton Journaux des connexions locales](/img/fr/rdm/windows/RDMWin2046.png) 
 
 {% snippet icon.badgeInfo %} 
-Les ***Journaux des connexions locales*** remplacent les [***Journaux d&apos;activité***](/fr/rdm/windows/commands/view/view/activity-logs/) si vous ne disposez pas des permissions suffisantes pour les consulter. 
+Les ***Journaux des connexions locales*** remplacent les [***Journaux d'activité***](/fr/rdm/windows/commands/view/view/activity-logs/) si vous ne disposez pas des permissions suffisantes pour les consulter. 
 {% endsnippet %}
  
 ### Journaux des connexions locales 
@@ -46,7 +46,7 @@ Efface les journaux de la fenêtre ***Journaux des connexions locales*** . Les j
 Copier 
 		</td>
 		<td>
-Copie les journaux dans votre presse-papiers tels qu&apos;ils apparaissent dans la fenêtre ***Journaux des connexions locales*** . 
+Copie les journaux dans votre presse-papiers tels qu'ils apparaissent dans la fenêtre ***Journaux des connexions locales*** . 
 		</td>
 	</tr>
 </table>
