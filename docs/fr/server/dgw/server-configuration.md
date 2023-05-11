@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Configuration du {{ fr.DGW }} avec {{ fr.DPS }}
+  order: 30
   description: Ce sujet décrit comment configurer {{ fr.DPS }}, gratuit ou non, pour se connecter avec {{ fr.DGW }}.
   keywords:
   - VPN
