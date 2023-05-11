@@ -1,5 +1,6 @@
 ---
 title: Téléchargement et installation
+order: 20
 ---
 Suivre les étapes ci-dessous pour compléter l'installation {{ fr.LAUNCHER }} .  
 

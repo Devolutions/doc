@@ -1,5 +1,6 @@
 ---
 title: Launcher Session Menu
+order: 40
 ---
 To access the {{ en.LAUNCHER }} session menu, right click on an open session tab.  
 

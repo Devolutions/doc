@@ -1,5 +1,6 @@
 ---
 title: Enregistrement de licence Launcher
+order: 30
 ---
 Enregistrer votre licence {{ fr.LAUNCHER }}.  
 

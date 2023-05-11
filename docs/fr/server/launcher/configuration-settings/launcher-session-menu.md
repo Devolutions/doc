@@ -1,5 +1,6 @@
 ---
 title: Launcher paramètres de session
+order: 40
 ---
 Pour accéder au menu de la session Launcher, faire un clic droit sur un onglet de session ouvert.  
 

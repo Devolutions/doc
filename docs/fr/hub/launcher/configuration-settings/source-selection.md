@@ -1,5 +1,6 @@
 ---
 title: Sélection de la source Hub
+order: 10
 ---
 Lorsque l 'installation sera terminée, {{ fr.LAUNCHER }} vous invitera à choisir une source Web entre {{ fr.HUB }} et {{ fr.RDMS }} . 
 {% snippet icon.badgeInfo %} 

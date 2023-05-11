@@ -1,5 +1,6 @@
 ---
 title: Hub Source Selection
+order: 10
 ---
 When you finish the installation of {{ en.LAUNCHER }} , you are prompted to choose a web source between {{ en.HUB }} and {{ en.DPS }} .  
 

@@ -1,5 +1,6 @@
 ---
 title: Launcher License Registration
+order: 30
 ---
 Register and assign your {{ en.LAUNCHER }} license serial. 
 

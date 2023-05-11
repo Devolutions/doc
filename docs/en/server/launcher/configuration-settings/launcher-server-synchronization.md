@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Launcher and {{ en.RDMS }} Synchronization
+  order: 20
 ---
 {{ en.LAUNCHER }} and {{ en.RDMS }} must be configured together to work. Launch connections can be set for all users in ***{{ en.RDMS }} Server Settings*** or individually in ***Account Settings*** .  
 

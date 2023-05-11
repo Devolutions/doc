@@ -1,5 +1,6 @@
 ---
 title: Launcher Session Menu
+order: 30
 ---
 To access the Launcher session menu, right click on an open session tab.  
 ![!!Hub4013.png](/img/en/hub/Hub4013.png) 

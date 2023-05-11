@@ -1,5 +1,6 @@
 ---
 title: Prerequisites
+order: 10
 ---
 ## {{ en.LAUNCHER }} Minimum requirements  
 

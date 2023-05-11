@@ -1,5 +1,6 @@
 ---
 title: Launcher paramètres
+order: 30
 ---
 ### Général 
 Dans la section ***Général*** , vous pouvez personnaliser la couleur du ***Thème*** de {{ fr.LAUNCHER }} et choisir la langue. Vous devrez fermer l'application pour activer le paramètre. 

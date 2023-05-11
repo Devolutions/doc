@@ -1,5 +1,6 @@
 ---
 title: Download and Installation
+order: 20
 ---
 Follow these steps to download and install {{ en.LAUNCHER }} :  
 

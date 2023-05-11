@@ -1,5 +1,6 @@
 ---
 title: Launcher Settings
+order: 20
 ---
 ### General 
 

@@ -1,5 +1,6 @@
 ---
 title: Logiciels prérequis
+order: 10
 ---
 ## {{ fr.LAUNCHER }} Configuration minimale 
 {{ fr.RDMS }} 2019.1.X.X ou plus récent  

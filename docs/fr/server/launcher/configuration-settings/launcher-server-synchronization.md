@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Synchronisation de Launcher et {{ fr.RDMS }}
+  order: 20
 ---
 {{ fr.LAUNCHER }} et {{ fr.RDMS }} doivent être configurés ensemble. Le lancement de connexions peut être défini pour tous les utilisateurs dans les ***Paramètres de {{ fr.RDMS }}*** ou individuellement dans les ***Paramètres du compte*** .  
 
