@@ -27,8 +27,8 @@ title: Devolutions Server
  
 Pour plus d'informations, veuillez consulter ces rubriques:  
 
-* [Installation de {{ fr.RDMS }}](https://helpserver.devolutions.net/fr/installing_rdms.html) 
-* [Liste de vérification relative à la sécurité](https://helpserver.devolutions.net/fr/securitychecklist.html) 
+* [Installation de {{ fr.RDMS }}](/fr/server/installation/) 
+* [Liste de vérification relative à la sécurité](/fr/server/getting-started/security-checklist/) 
 
 ## Configurer la source de données du serveur sur toutes vos machines clientes. 
 

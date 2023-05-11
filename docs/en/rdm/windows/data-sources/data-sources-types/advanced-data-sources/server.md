@@ -27,8 +27,8 @@ title: Devolutions Server
  
 For more information, please consult these topics:  
 
-* [{{ en.RDMS }} installation instructions](https://helpserver.devolutions.net/installing_rdms.htm) 
-* [{{ en.RDMS }} Security Checklist](https://helpserver.devolutions.net/securitychecklist.htm) 
+* [{{ en.RDMS }} installation instructions](/server/installation/) 
+* [{{ en.RDMS }} Security Checklist](/server/getting-started/security-checklist/) 
 
 ## Configure the server data source on all your client machines 
 Enter a name of the data source and the URL for the Host. Ensure you use the correct protocol if SSL is required by the server (https).  
