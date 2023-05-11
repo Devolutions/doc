@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Using the IT Asset Management feature in {{ en.RDM }}
+  title: Use the IT Asset Management feature in {{ en.RDM }}
   description: The IT Asset Management feature can be used to link an asset manager through an entry's properties
   keywords: 
   - inventory
@@ -15,7 +15,7 @@ Only the ***Session***, ***Remote Management***, ***Miscellaneous***, ***VPN***,
 1. Right-click on an entry and select ***Properties***.
 1. Go to ***View*** – ***IT Asset Management***.
 1. Select a ***Service type*** in the dropdown.
-1. Input the URL to that specific asset.  
+1. Input the URL to a specific asset.  
 ![IT Asset Management](/img/en/kb/KB0058.png)
 1. Click ***OK*** to save the changes and close the window.
 1. In the ***Dashboard***, select the ***IT Asset Management*** tab.
