@@ -9,7 +9,7 @@ All the sessions must be configured to not use the Windows prompt. In the entrie
 
 If you have many entries that needs to be changed, follow these steps. A backup of your database is recommended.
 
-1. Select every RDP session that you need to edit (an [Advanced search](https://helprdm.devolutions.net/advanced_search.htm) can be used).
+1. Select every RDP session that you need to edit (an [Advanced search](/rdm/windows/commands/view/panels/search/advanced/) can be used).
 1. Right click on them and select ***Edit - Edit (Special Actions)***  
 ![!!KB4628.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4628.png)
 1. Select ***Custom Powershell Command***  

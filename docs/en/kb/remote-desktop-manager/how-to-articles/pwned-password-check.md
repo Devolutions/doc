@@ -32,10 +32,10 @@ Here is how it works:
 
 ### Choose stronger passwords
 
-{{ en.RDM }} makes it easy to make strong passwords. The built-in [Password Generator](https://helprdm.devolutions.net/tools_passwordgenerator.html) creates secure passwords, following your specifications for password length and complexity. The password generator is available on every entry beside the field where you enter a password.  
+{{ en.RDM }} makes it easy to make strong passwords. The built-in [Password Generator](/rdm/windows/commands/tools/generators/password/) creates secure passwords, following your specifications for password length and complexity. The password generator is available on every entry beside the field where you enter a password.  
 ![!!KB4274.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4274.png)  
 ![!!KB4781.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4781.png)  
 
-{{ en.RDM }} also has a [Entry Security Analyzer](https://helprdm.devolutions.net/tools_passwordanalyser.html) that provides feedback on all your passwords. A rating is included on the entry. It uses Zxcvbn to evaluate passwords.  
+{{ en.RDM }} also has a [Entry Security Analyzer](/rdm/windows/commands/tools/tools/entry-security-analyzer/) that provides feedback on all your passwords. A rating is included on the entry. It uses Zxcvbn to evaluate passwords.  
 
 You can also create a report of all your passwords by using the ***Entry Security Analyzer*** in the ***Tools*** tab.

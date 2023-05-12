@@ -4,7 +4,7 @@ title: Keyboard Shortcuts Customization in RDM Windows
 In {{ en.RDM }} for Windows, you can [customize individual shortcuts](#modify) and [create shortcut macros](#create). These options are found in ***File – Options – User Interface – Keyboard***.
 
 {% snippet icon.badgeInfo %}
-For a list of default values for shortcuts, visit our [Keyboard Shortcuts](https://helprdm.devolutions.net/support_keyboardshortcuts.html) topic.
+For a list of default values for shortcuts, visit our [Keyboard Shortcuts](/rdm/windows/support-resources/keyboard-shortcuts/) topic.
 {% endsnippet %}
 
 ![File - Options - User Interface - Keyboard.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2093.png)

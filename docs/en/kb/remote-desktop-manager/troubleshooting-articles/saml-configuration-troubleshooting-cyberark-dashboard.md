@@ -48,7 +48,7 @@ When connecting to your ***CyberArk Dashboard*** entry configured with SAML auth
 1. [Download and install](https://devolutions.net/remote-desktop-manager) {{ en.RDM }} or update it to version 2023.1 or later.
 
 {% snippet icon.badgeNotice %}
-If you are using a shared data source, we recommend to use a [portable version of {{ en.RDM }}](https://helprdm.devolutions.net/installation_portableusb.html) on a local data source to test.
+If you are using a shared data source, we recommend to use a [portable version of {{ en.RDM }}](/rdm/windows/installation/client/portable-usb/) on a local data source to test.
 {% endsnippet %}
 
 2. In {{ en.RDM }}, create your ***CyberArk Dashboard*** entry. Make sure to created it from the 2023.1 version and **not** the previous version.

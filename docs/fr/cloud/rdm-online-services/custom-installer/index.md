@@ -21,7 +21,7 @@ Le ***Gestionnaire d'installation personnalisé*** réplique les paramètres l'i
 
 Vous pouvez aller dans ***Fichier –*** ***{{ fr.DA }}*** ***– Outils*** pour accéder au ***Gestionnaire de paquets d’installation personnalisés*** .  
 ![Fichier – Compte Devolutions – Gestionnaire de paquets d'installation personnalisés](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4060.png)  
-Veuillez consulter notre [guide de création d'un paquet d'installation](https://helprdm.devolutions.net/fr/installation_custominstallerservice.html) .  
+Veuillez consulter notre [guide de création d'un paquet d'installation](/fr/rdm/windows/installation/client/custom-installer-service/) .  
 
 Si le paquet a déjà été généré, vous pouvez le télécharger directement depuis le portail comme décrit dans [Télécharger le paquet de l'installateur personnalisé](/fr/cloud/rdm-online-services/custom-installer/download-custom-installer/) . 
 

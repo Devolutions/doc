@@ -1,7 +1,7 @@
 ---
 title: Backup Settings
 ---
-The [{{ en.OBACK }}](/cloud/getting-started/devolutions-cloud-services/?onlinebackup_introduction.htm?onlinebackup_introduction.htm) allows you to backup your [{{ en.DODV }}](/rdm/windows/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) , or [XML](/rdm/windows/data-sources/data-sources-types/xml/) data sources in a safe online storage. The backup option is available through File – Backup menu. 
+The [{{ en.OBACK }}](/cloud/getting-started/devolutions-cloud-services/) allows you to backup your [{{ en.DODV }}](/rdm/windows/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) , or [XML](/rdm/windows/data-sources/data-sources-types/xml/) data sources in a safe online storage. The backup option is available through File – Backup menu. 
 
 ## Settings 
 

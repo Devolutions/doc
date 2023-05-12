@@ -1,7 +1,7 @@
 ---
 title: Settings
 ---
-Allow the user group to enable [Offline Mode](https://helprdm.devolutions.net/datasource_offline.htm) on the data source. The data source also needs to be configured to permit offline mode. There are multiple modes available. 
+Allow the user group to enable [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the data source. The data source also needs to be configured to permit offline mode. There are multiple modes available. 
 
 ![User Groups - Settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8012.png)
 
@@ -27,7 +27,7 @@ No offline cache allowed for the user group.
 Read-only 
 		</td>
 		<td>
-A read-only cache. The user group will not be able to edit data in the data source. This mode is allowed for <a href="https://helprdm.devolutions.net/datasources_advanced.htm" target="_blank">Advanced Data Sources</a> only. 
+A read-only cache. The user group will not be able to edit data in the data source. This mode is allowed for <a href="/rdm/windows/data-sources/data-sources-types/advanced-data-sources/" target="_blank">Advanced Data Sources</a> only. 
 		</td>
 	</tr>
 	<tr>
@@ -35,7 +35,7 @@ A read-only cache. The user group will not be able to edit data in the data sour
 Read/Write 
 		</td>
 		<td>
-An advanced cache, with change synchronization. This mode is allowed for <a href="https://helprdm.devolutions.net/datasources_advanced.htm" target="_blank">Advanced Data Sources</a> only. 
+An advanced cache, with change synchronization. This mode is allowed for <a href="/rdm/windows/data-sources/data-sources-types/advanced-data-sources/" target="_blank">Advanced Data Sources</a> only. 
 		</td>
 	</tr>
 </table>

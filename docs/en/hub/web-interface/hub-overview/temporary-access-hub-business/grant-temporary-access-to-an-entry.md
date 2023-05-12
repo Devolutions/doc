@@ -5,7 +5,7 @@ eleventyComputed:
 {% youtube '5XwhadoYKKc' %}  
 
 {% snippet icon.badgeInfo %} 
-The ***Temporary Access*** feature is also available in {{ en.RDM }} with {{ en.PHUB }} Business. You can view and approve temporary access requests in {{ en.RDM }} even if the request was made in {{ en.PHUB }} Business. Visit [this topic](https://helprdm.devolutions.net/grant_temporary_access_to_an_entry.html) to learn more. 
+The ***Temporary Access*** feature is also available in {{ en.RDM }} with {{ en.PHUB }} Business. You can view and approve temporary access requests in {{ en.RDM }} even if the request was made in {{ en.PHUB }} Business. Visit [this topic](/rdm/windows/user-interface/content-area/temporary-access-rdm/grant-temporary-access-to-an-entry/) to learn more. 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The authorizer must then approve or deny the request.  

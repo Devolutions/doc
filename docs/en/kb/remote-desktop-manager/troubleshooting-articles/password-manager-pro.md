@@ -68,9 +68,9 @@ From within Powershell, type the following:
 
 Test with both the DNS name of the server and the IP address and observe the results.
 ### REMOTE DESKTOP MANAGER IS RETURNING THE IP ADDRESS OF THE SERVER INSTEAD OF THE FQDN.
-In some organization, IP addresses are blocked and the host name of the Password Manager Pro server needs to be returned. In that case, the [Configuration File](https://helprdm.devolutions.net/installation_configurationfilelocation.html) of the application would need to be modified.  
+In some organization, IP addresses are blocked and the host name of the Password Manager Pro server needs to be returned. In that case, the [Configuration File](/rdm/windows/installation/client/configuration-file-location/) of the application would need to be modified.  
 
 1. Close {{ en.RDM }}
-1. Find the {{ en.RDM }} [Configuration File](https://helprdm.devolutions.net/installation_configurationfilelocation.html)
+1. Find the {{ en.RDM }} [Configuration File](/rdm/windows/installation/client/configuration-file-location/)
 1. Edit the configuration file and add the line <ResolvePMProURLIntoIPAddress>false</ResolvePMProURLIntoIPAddress>.
 1. Save the modification and restart the application.

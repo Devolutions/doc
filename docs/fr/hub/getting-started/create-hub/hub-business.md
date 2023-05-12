@@ -20,7 +20,7 @@ Le nom du ***site*** ***{{ fr.PHUB }}*** ***Business*** devient l 'adresse de vo
 Une fois le déploiement prêt, vous recevrez un courriel contenant l 'adresse Web de votre {{ fr.PHUB }} Business.  
 
 {% snippet icon.badgeInfo %} 
-Si vous êtes un utilisateur de {{ fr.RDM }} Team Edition, vous pouvez connecter votre {{ fr.PHUB }} Business comme une source de données dans ***Fichier - Sources de données - Ajouter une nouvelle source de données*** . Suivre ce [lien](https://helprdm.devolutions.net/fr/rdm_password_hub_business.html) pour plus d 'informations sur la configuration. 
+Si vous êtes un utilisateur de {{ fr.RDM }} Team Edition, vous pouvez connecter votre {{ fr.PHUB }} Business comme une source de données dans ***Fichier - Sources de données - Ajouter une nouvelle source de données*** . Suivre ce [lien](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/) pour plus d 'informations sur la configuration. 
 {% endsnippet %}
  
 7. Cliquer sur l 'adresse du site Web de {{ fr.PHUB }} Business. 

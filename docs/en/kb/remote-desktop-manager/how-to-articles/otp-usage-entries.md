@@ -14,7 +14,7 @@ Credential ***Source*** are used to link entries to OTP account credential infor
 
 ### Current session's credentials
 
-The ***Current session's credentials*** options will use the OTP credentials setup in the entry ***Common - General - Credentials*** section. Credentials options available with OTP are [***My personal credentials***](https://helprdm.devolutions.net/file_templates_mypersonalcredentials.html), ***My privileged account*** and ***Embedded*** (this mode is deprecated and not recommended).  
+The ***Current session's credentials*** options will use the OTP credentials setup in the entry ***Common - General - Credentials*** section. Credentials options available with OTP are [***My personal credentials***](/rdm/windows/commands/file/my-account-settings/my-personal-credentials/), ***My privileged account*** and ***Embedded*** (this mode is deprecated and not recommended).  
 
 {% snippet icon.badgeCaution %}
 In a team environment, we recommend using the <a href="#linked">Linked (Vault)</a> option instead with a ***One Time Password (OTP)*** credential entry.

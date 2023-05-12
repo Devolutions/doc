@@ -42,7 +42,7 @@ Click ***Add Users***
 Check the ***Integrated security (Active Directory)*** box and click the ellipsis button to select the domain user to add.  
 ![!!KB4594.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4594.png)  
 
-Select the ***User type*** Grant the ***Add*** , ***Edit*** , and ***Delete*** rights (optional, restricted user only). For more information on user types and rights, please consult the [Administration – Users](https://helprdm.devolutions.net/administration_usermanagement.html) topic.  
+Select the ***User type*** Grant the ***Add*** , ***Edit*** , and ***Delete*** rights (optional, restricted user only). For more information on user types and rights, please consult the [Administration – Users](/rdm/windows/commands/administration/management/user-management/) topic.  
 
 {% snippet icon.badgeInfo %}
 Keep the ***Create SQL Server Login and User*** box checked. This will in effect cause {{ en.RDM }} to map a new login to the domain account and link it to a user.  
@@ -58,7 +58,7 @@ To configure the data source on other workstations, three methods are available:
 
 - Create the data source as done previously, making sure to check the ***Integrated Security (Active Directory)*** box.  
 - Export the data source from the initial workstation and import it into {{ en.RDM }} on all client workstations.  
-- Use our [Custom Installer Manager](https://helprdm.devolutions.net/installation_custominstallerservice.html) service to help distribute the application and personalize the installation process.  
+- Use our [Custom Installer Manager](/rdm/windows/installation/client/custom-installer-service/) service to help distribute the application and personalize the installation process.  
 
 ## Test the configuration
 

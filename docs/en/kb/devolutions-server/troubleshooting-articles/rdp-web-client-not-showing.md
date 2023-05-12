@@ -11,7 +11,7 @@ If you are unable to launch the RDP web client in the {{ en.DVLS }} web interfac
 
 ### Licenses
 
-You must have at least a <a href="https://helprdm.devolutions.net/rdm_administration_licenses.html" target="_blank">{{ en.RDM }} license</a> or a <a href="/server/launcher/" target="_blank">{{ en.LAUNCHER }} license</a>, ideally both. If you do not have either of these, the ***Open in Web Client*** button that allows you to open the RDP entry in a web client will not show.
+You must have at least a <a href="/rdm/windows/commands/administration/management/licenses/" target="_blank">{{ en.RDM }} license</a> or a <a href="/server/launcher/" target="_blank">{{ en.LAUNCHER }} license</a>, ideally both. If you do not have either of these, the ***Open in Web Client*** button that allows you to open the RDP entry in a web client will not show.
 
 ![Open in Web Client (Preview)](https://webdevolutions.azureedge.net/docs/en/kb/KB2163.png)
 

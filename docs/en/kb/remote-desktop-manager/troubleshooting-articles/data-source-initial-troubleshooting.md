@@ -17,7 +17,7 @@ ipconfig /flushdns
 ipconfig /registerdns
 ```
 ### Opening a VPN has disconnected the Local LAN or rendered the Data Source unreachable
-If the network administrator has deemed necessary to tunnel ALL traffic through the connection when a VPN is active, you will have to resort to using our [Offline](https://helprdm.devolutions.net/datasource_offline.htm) capabilities, ideally paired with our options to automatically Go offline on connection.  
+If the network administrator has deemed necessary to tunnel ALL traffic through the connection when a VPN is active, you will have to resort to using our [Offline](/rdm/windows/data-sources/offline-mode/) capabilities, ideally paired with our options to automatically Go offline on connection.  
 
 For a Web based VPN, ensure the routes are all valid, i.e. the path followed to reach the remote host is indeed going through the proper interface.
 ### An Anti-Virus or Firewall is blocking the application

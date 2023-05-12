@@ -8,4 +8,4 @@ To run some tools, specific credentials needs to be sent through the remote sess
 You can specify the usage of the session credentials for a session in Management Tools – Credentials – Use session credentials  
 ![!!KB4519.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4519.png)  
 
-We also recommend that you configure your [Default Settings](https://helprdm.devolutions.net/file_template_defaultsettings.html) of the entry type that need this setting by default.
+We also recommend that you configure your [Default Settings](/rdm/windows/commands/file/templates/default-settings/) of the entry type that need this setting by default.

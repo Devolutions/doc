@@ -155,7 +155,7 @@ Select which repositories the user has access to. For more information, please c
 
 ### Application Access 
 
-The application access section allows to restrain access to {{ en.RDM }} or [{{ en.DWL }}](https://helprdm.devolutions.net/devolutionsweblogin_overview.html) .  
+The application access section allows to restrain access to {{ en.RDM }} or [{{ en.DWL }}](/rdm/windows/dwl/overview/) .  
 ![User Management - Application Access](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3625.png) 
 
 <table>

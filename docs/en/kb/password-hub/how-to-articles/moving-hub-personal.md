@@ -21,4 +21,4 @@ Get started with creating a [{{ en.HUBP }}](/hub/getting-started/create-hub/hub-
 You can migrate your data in {{ en.RDM }} from multiple sources.  
 
 * To export and import your data source already configured in {{ en.RDM }}, go to [Data Migration](/kb/remote-desktop-manager/how-to-articles/data-migration/).  
-* We also support native [import formats](https://helprdm.devolutions.net/import.html) from many popular tools on the market.
+* We also support native [import formats](/rdm/windows/commands/file/import/) from many popular tools on the market.

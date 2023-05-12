@@ -31,7 +31,7 @@ If you have elected to use Integrated Security for connecting to the database, y
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-If you have set the [Security Provider](https://helprdm.devolutions.net/administration_securityproviders.htm) on your current {{ en.RDMS }} , specific operations will need to be done before the upgrade. Please contact us for further details. 
+If you have set the [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) on your current {{ en.RDMS }} , specific operations will need to be done before the upgrade. Please contact us for further details. 
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 

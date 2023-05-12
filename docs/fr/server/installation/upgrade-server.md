@@ -32,7 +32,7 @@ Si vous avez choisi d'utiliser la Sécurité intégrée pour vous connecter à l
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Si vous avez défini le [Fournisseur de sécurité](https://helprdm.devolutions.net/fr/administration_securityproviders.html) sur votre {{ fr.RDMS }} actuel, des opérations spécifiques devront être effectuées avant la mise à niveau. Pour plus de détails, veuillez nous contacter. 
+Si vous avez défini le [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) sur votre {{ fr.RDMS }} actuel, des opérations spécifiques devront être effectuées avant la mise à niveau. Pour plus de détails, veuillez nous contacter. 
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 

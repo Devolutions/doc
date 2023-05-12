@@ -5,7 +5,7 @@ The ***Theme system*** of {{ en.RDM }} is still in its infancy and will evolve i
 
 ## Folder location
 
-The ***Theme*** folder can be found in your local [Configuration folder](https://helprdm.devolutions.net/installation_configurationfilelocation.html) , under the ***Images*** folder.
+The ***Theme*** folder can be found in your local [Configuration folder](/rdm/windows/installation/client/configuration-file-location/) , under the ***Images*** folder.
 
 ## Image file specifications
 

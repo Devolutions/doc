@@ -20,7 +20,7 @@ The {{ en.OD }} is for single users only, and it cannot share files.
 1. Enter your {{ en.DA }} credentials, or change the ***Connection mode*** to use the [Application password](/cloud/sign-in-security/application-passwords/) .  
 ![!!Cloud4056.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4056.png) 
 {% snippet icon.badgeNotice %} 
-Consult the [Online Drive Settings](https://helprdm.devolutions.net/datasource_dod.htm) topic for more information on the configuration settings. 
+Consult the [Online Drive Settings](/rdm/windows/data-sources/data-sources-types/online-drive/) topic for more information on the configuration settings. 
 {% endsnippet %}
  
 3. Click on the ***Backup*** tab to set your ***Online Backup*** for your new data source.  

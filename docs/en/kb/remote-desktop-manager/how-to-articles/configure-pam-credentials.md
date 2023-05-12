@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 This topic covers multiple ways to configure and use the {{ en.DVLS }} PAM feature in {{ en.RDM }}.  
 {% snippet icon.badgeHelp %}
-Another alternative would be to use the [PAM dashboard](https://helprdm.devolutions.net/pam_dashboard.html) and launch sessions from it.
+Another alternative would be to use the [PAM dashboard](/rdm/windows/commands/view/panels/pam-dashboard/) and launch sessions from it.
 {% endsnippet %}
 
 ## Steps

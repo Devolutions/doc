@@ -16,7 +16,7 @@ title: SQLite
 ## Highlights 
 
 * Full connection log and attachments support 
-* The [Online Backup Service](/cloud/getting-started/devolutions-cloud-services/?onlinebackup_introduction.htm?onlinebackup_introduction.htm) is available for this data source 
+* The [Online Backup Service](/cloud/getting-started/devolutions-cloud-services/) is available for this data source 
 
 {% snippet icon.shieldInfo %} 
 All passwords are encrypted by default by {{ en.RDM }} for Mac . You can specify a custom password to fully encrypt the content of the SQLite database. 

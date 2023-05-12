@@ -17,7 +17,7 @@ Le ***Kit d 'urgence*** contient votre clé d 'urgence qui sera requise en cas d
  
 Après avoir téléchargé le ***Kit d 'urgence*** , vous serez dirigé vers votre {{ fr.PHUB }} Personal.  
 {% snippet icon.badgeInfo %} 
-Si vous êtes un utilisateur de {{ fr.RDM }} Free, vous pouvez connecter votre {{ fr.PHUB }} Personal comme une source de données dans ***Fichier - Sources de données - Ajouter une nouvelle source de données*** . Suivre ce [lien](https://helprdm.devolutions.net/fr/rdm_password_hub_personal.html) pour plus d 'informations sur la configuration. 
+Si vous êtes un utilisateur de {{ fr.RDM }} Free, vous pouvez connecter votre {{ fr.PHUB }} Personal comme une source de données dans ***Fichier - Sources de données - Ajouter une nouvelle source de données*** . Suivre ce [lien](/fr/rdm/windows/data-sources/data-sources-types/hub-personal/) pour plus d 'informations sur la configuration. 
 {% endsnippet %}
  
 

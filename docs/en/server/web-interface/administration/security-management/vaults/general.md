@@ -33,7 +33,7 @@ Vault's description.
 Allow offline 
 		</td>
 		<td>
-Allow to have access to the vault in offline mode with {{ en.RDM }} . Please see the <a href="/https://helprdm.devolutions.net/datasource_offline.html" target="_blank">Offline mode</a> topic for more information. 
+Allow to have access to the vault in offline mode with {{ en.RDM }} . Please see the <a href="/rdm/windows/data-sources/offline-mode/" target="_blank">Offline mode</a> topic for more information. 
 		</td>
 	</tr>
 </table>

@@ -33,4 +33,4 @@ The following steps are built around the fact that you are using the default SQL
 1. Launch {{ en.RDM }}.
 1. Access your data.
    - If you are using the default SQLite data source and you moved your ***Connections.db*** file as per the above steps 1 to 3, the application should automatically connect and you should have access to your data.
-   - If you are using a different type of data source than SQLite, you will need to create and map it in {{ en.RDM }} as shown in this topic: [Create a data source](https://helprdm.devolutions.net/create-a-new-data-source.html).
+   - If you are using a different type of data source than SQLite, you will need to create and map it in {{ en.RDM }} as shown in this topic: [Create a data source](/rdm/windows/data-sources/create-new-data-source/).

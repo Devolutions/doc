@@ -9,7 +9,7 @@ These instructions are for team data sources
 
 ## Step-by-step guide
 
-1. Install a [portable version](https://helprdm.devolutions.net/installation_portableusb.html) of {{ en.RDM }}
+1. Install a [portable version](/rdm/windows/installation/client/portable-usb/) of {{ en.RDM }}
 1. Add your configured advanced data source. We recommend ***Windows authentication*** for authentication type.
 1. Delete the ***Local Data Source*** from the data source list.
 1. Create a synchronizer entry. To test the entry, click ***Open Session***

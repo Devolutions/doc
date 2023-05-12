@@ -4,11 +4,11 @@ title: Enable 2FA for Users
 While it's still not possible to force the configuration of a 2FA at the user level without the {{ en.DPS }} , a few options have been added in {{ en.RDM }} that could suit your needs.  
 
 {% snippet icon.badgeCaution %}
-These features are only available when using an [Advanced Data Source](https://helprdm.devolutions.net/datasources_advanced.html)
+These features are only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/)
 {% endsnippet %}  
 
 {% snippet icon.badgeCaution %}
-You cannot configure 2FA for users. Once activated, each user will need to configure it manually in ***File - DataSources*** For more information about configuration consult this topic: [2-Factor Authentication](https://helprdm.devolutions.net/datasources_2factorauthentication.html?)
+You cannot configure 2FA for users. Once activated, each user will need to configure it manually in ***File - DataSources*** For more information about configuration consult this topic: [2-Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/)
 {% endsnippet %}
 
 ### Force application security with Windows credentials

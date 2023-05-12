@@ -27,7 +27,7 @@ For security and performance reasons, we recommend creating a different vault fo
 1. In the ***Ribbon*** , go to ***Administration – Management –*** ***{{ en.VLT }}s*** .  
 ![Administration – Management – Vaults](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11300.png) 
 {% snippet icon.badgeInfo %} 
-If you are using a {{ en.RDMS }} or {{ en.PHUB }} Business data source, vault management is done in their respective web interfaces. For more information, consult either our [{{ en.RDMS }}](/server/web-interface/administration/security-management/vaults/) or [{{ en.PHUB }}](https://helphub.devolutions.net/vaults.html) topics about vaults. 
+If you are using a {{ en.RDMS }} or {{ en.PHUB }} Business data source, vault management is done in their respective web interfaces. For more information, consult either our [{{ en.RDMS }}](/server/web-interface/administration/security-management/vaults/) or [{{ en.PHUB }}](/hub/web-interface/hub-overview/administration/management/vaults/) topics about vaults. 
 {% endsnippet %}
  
 2. In the ***User and Security Management*** window, select the ***{{ en.VLT }}s*** tab, then click on ***Add*** ***{{ en.VLT }}*** .  

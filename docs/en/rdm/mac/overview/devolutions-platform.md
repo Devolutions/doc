@@ -29,7 +29,7 @@ Windows, macOS, Linux, iOS, Android
 	<tr>
 		<td>
 
-[{{ en.RDMA }}](https://helprdm.devolutions.net/gettingstartedwhatisrdmagent.html) 
+[{{ en.RDMA }}](/rdm/windows/overview/the-devolutions-platform/rdm-agent/) 
 		</td>
 		<td>
 The {{ en.RDMA }} can run commands on remote hosts, but what is really useful is that it can send commands to multiple hosts at the same time. Since {{ en.RDM }} uses a secure RDP channel to communicate with the {{ en.RDMA }} , it can only operate against Windows-based hosts. 
@@ -40,7 +40,7 @@ Windows
 	</tr>
 	<tr>
 		<td>
-[{{ en.RDMJ }}](https://helprdm.devolutions.net/overview_whatisrdmjump.html) 
+[{{ en.RDMJ }}](/rdm/windows/overview/the-devolutions-platform/rdm-jump/) 
 		</td>
 		<td>
 {{  en.RDMJ }} connects to a remote host, often called a Jump Box, Service Host, or a Bastion Server, which in turn connects to other hosts. {{  en.RDMJ }} is actually an RDP in an RDP. 

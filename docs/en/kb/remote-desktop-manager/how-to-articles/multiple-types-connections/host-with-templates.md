@@ -11,7 +11,7 @@ A ***Host Session*** entry will let you use templates to connect to the host. It
 
 {% youtube 'dOuwGyYI61U' %}
 
-1. Create one or multiple [Templates](https://helprdm.devolutions.net/file_templates.html) via the ***File – Templates – Entry Templates*** menu. You may need to use variables like $HOST$ for the host name as well as $USERNAME$ and $PASSWORD$ for the username and password respectively.
+1. Create one or multiple [Templates](/rdm/windows/commands/file/templates/) via the ***File – Templates – Entry Templates*** menu. You may need to use variables like $HOST$ for the host name as well as $USERNAME$ and $PASSWORD$ for the username and password respectively.
 1. Go to ***Edit – New Entry – Add Session***.
 ![Edit – New Entry – Add Session](https://webdevolutions.azureedge.net/docs/en/kb/KB2200.png)
 1. Select the ***Host Session*** entry type. It should be located in the ***Session*** section, under ***General***. Click ***OK*** to create the new entry.

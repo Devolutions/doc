@@ -9,4 +9,4 @@ keywords:
 - TS
 - VDI
 ---
-{{ en.RDM }} has an excellent support for running under a Remote Desktop Services environment. A master configuration file can be created to distribute settings for all new users of the system or even to update existing user's configuration. Please see the [Terminal Services - Remote Desktop Services](https://helprdm.devolutions.net/installation_terminalservices.html) page for more information.
+{{ en.RDM }} has an excellent support for running under a Remote Desktop Services environment. A master configuration file can be created to distribute settings for all new users of the system or even to update existing user's configuration. Please see the [Terminal Services - Remote Desktop Services](/rdm/windows/installation/client/terminal-services/) page for more information.
