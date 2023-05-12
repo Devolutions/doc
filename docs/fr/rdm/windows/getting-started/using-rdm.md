@@ -1,5 +1,6 @@
 ---
 title: Remote Desktop Manager
+order: 10
 ---
 {{ fr.RDM }} est très flexible et peut fonctionner à la fois pour les individus et les équipes. Veuillez suivre la liste de vérification qui s'applique à votre environnement :  
 

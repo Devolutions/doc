@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Using {{ en.RDM }}
+  order: 10
 ---
 {{ en.RDM }} is highly flexible and can work for both individuals and teams. Please follow the checklist that applies to your environment:  
 
