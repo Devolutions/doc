@@ -19,7 +19,7 @@ During the setup, you can always click on ***Skip This Step*** to configure that
 
 3. Connect to your {{ en.DA }} by entering your email address, then click ***Login***.
 ![Email address](/img/en/hub/Hub2203.png)
-1. If prompted, log in using your {{ en.DA }} in your browser, then click ***Continue***.
+1. Log in using your {{ en.DA }} password in your browser, then click ***Continue***.
 ![{{ en.DA }} login](/img/en/hub/Hub2204.png)
 1. Back to the {{ en.WS }} setup, select the {{ en.PHUB }} you want to connect to, then click ***Next***.
 ![{{ en.PHUB }} selection](/img/en/hub/Hub2205.png)
