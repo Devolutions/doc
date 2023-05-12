@@ -1,5 +1,6 @@
 ---
 title: Registration
+order: 10
 ---
 ### {{ en.RDM }} for mac Team Edition 
 

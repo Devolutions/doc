@@ -1,5 +1,6 @@
 ---
 title: Remote Desktop Manager
+order: 10
 ---
 ![!!Remote Desktop Manager]({{ locale.fr.projects.rdm.logo }})
 

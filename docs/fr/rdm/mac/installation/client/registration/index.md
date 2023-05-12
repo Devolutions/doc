@@ -1,5 +1,6 @@
 ---
 title: Enregistrement
+order: 10
 ---
 ### {{ fr.RDM }} pour mac édition Team 
 

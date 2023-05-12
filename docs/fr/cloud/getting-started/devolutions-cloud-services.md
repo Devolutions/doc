@@ -1,5 +1,5 @@
 ---
-title: Services en ligne de Devolutions
+title: Services en ligne Devolutions
 order: 0
 ---
 

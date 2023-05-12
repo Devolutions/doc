@@ -1,5 +1,6 @@
 ---
 title: Data Source Types
+order: 20
 ---
 {{ en.RDM }} for Mac supports multiple types of data source. First decide which data source you are going to use.  
 
