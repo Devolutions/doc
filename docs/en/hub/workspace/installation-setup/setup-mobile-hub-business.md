@@ -12,18 +12,18 @@ Follow the steps below to perform the initial configuration of your {{ en.WS }} 
 1. [Download and install {{ en.WS }}](https://devolutions.net/workspace/) if you have not already done so.
 1. After the installation is complete, open the application.
 1. In the ***Workspace Setup***, check ***{{ en.HUB }} Business***, then tap on ***Start Setup***.
-![{{ en.HUB }} Business setup](/img/en/hub/Hub2210.png)
+![{{ en.HUB }} Business setup](https://webdevolutions.azureedge.net/docs/en/hub/Hub2210.png)
 
 {% snippet icon.badgeInfo %} 
 During the setup, you can always tap on ***Skip This Step*** to configure that specific setting later.
 {% endsnippet %}
 
 3. Connect to your {{ en.DA }} by entering your email address, then tap ***Login***.
-![Email address](/img/en/hub/Hub2211.png)
+![Email address](https://webdevolutions.azureedge.net/docs/en/hub/Hub2211.png)
 1. Log in using your {{ en.DA }} password, then tap ***Continue***.
-![{{ en.DA }} login](/img/en/hub/Hub2212.png)
+![{{ en.DA }} login](https://webdevolutions.azureedge.net/docs/en/hub/Hub2212.png)
 1. Select the {{ en.PHUB }} you want to connect to, then tap ***Next***.
-![{{ en.PHUB }} selection](/img/en/hub/Hub2213.png)
+![{{ en.PHUB }} selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2213.png)
 1. Optionally, enable the use of a ***Biometric lock*** (Touch/Face ID). It is a recommended practice. Your device will prompt you to authenticate using this method. It must first be configured on your device to work with {{ en.WS }}.  
-![Security settings](/img/en/hub/Hub2214.png)
+![Security settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2214.png)
 1. Tap ***Done*** to finish the initial setup.
