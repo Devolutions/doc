@@ -24,6 +24,6 @@ During the setup, you can always click on ***Skip This Step*** to configure that
 1. Click ***Next***.
 1. Choose to use a biometric lock (Windows Hello, Touch ID, etc.) or a master password.  
 ![Security settings](/img/en/hub/Hub2206.png)
-    * ***Biometric lock***: Your operating system will prompt you to authenticate using this method. It must first be configured on your operating system to work with {{ en.WS }}.
+    * ***Biometric lock***: Your device will prompt you to authenticate using this method. It must first be configured on your device to work with {{ en.WS }}.
     * ***Master password***: {{ en.WS }} will ask you to create a password of at least 8 characters.
 1. Click ***Done*** to finish the initial setup.
