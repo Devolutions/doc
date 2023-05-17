@@ -1,8 +1,9 @@
 ---
 title: Security
-Description:
+Description: Use File – Options – Security to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
 keywords
-- 
+- security
+- anti-malware
 ---
 Use ***File – Options – Security*** to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
 ![File – Options – Security](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2152.png) 
