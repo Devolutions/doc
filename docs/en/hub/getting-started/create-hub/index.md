@@ -8,5 +8,5 @@ order: 10
 
 Follow these topics to create your own:  
 
-* [Create your {{ en.PHUB }} Business](/hub/getting-started/create-hub/hub-business/)  
-* [Create your {{ en.PHUB }} Personal](/hub/getting-started/create-hub/hub-personal/)  
+* [Create your {{ en.HUBB }}](/hub/getting-started/create-hub/hub-business/)  
+* [Create your {{ en.HUBP }}](/hub/getting-started/create-hub/hub-personal/)  
