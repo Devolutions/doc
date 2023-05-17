@@ -19,5 +19,5 @@ The ***Emergency Kit*** contains your emergency key that will be required in cas
 After downloading the ***Emergency Kit***, you will be directed to your {{ en.HUBP }}.  
 
 {% snippet icon.badgeInfo %}
-If you are a {{ en.RDM }} Free user, you can connect your {{ en.HUBP }} as a data source in ***File – Data sources – Add a new data source***. Learn more about [integrating {{ en.HUBP }} in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/integrate-hub-personal-rdm/).
+If you are a {{ en.RDM }} Free Edition user, you can connect your {{ en.HUBP }} as a data source in ***File – Data sources – Add a new data source***. Learn more about [integrating {{ en.HUBP }} in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/integrate-hub-personal-rdm/).
 {% endsnippet %}

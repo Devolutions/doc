@@ -8,5 +8,5 @@ Le {{ fr.HUBP }} est destiné aux utilisateurs individuels qui souhaitent utilis
 
 Créez le vôtre en suivant ces rubriques:  
 
-* [{{ fr.HUBB }}](/fr/hub/getting-started/create-hub/hub-business/)  
-* [{{ fr.HUBP }}](/fr/hub/getting-started/create-hub/hub-personal/)  
+* [Créer votre {{ fr.HUBB }}](/fr/hub/getting-started/create-hub/hub-business/)  
+* [Créer votre {{ fr.HUBP }}](/fr/hub/getting-started/create-hub/hub-personal/)  
