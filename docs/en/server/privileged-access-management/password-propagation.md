@@ -10,7 +10,7 @@ The WinRM must be properly configured as described in [WinRM and Trusted Hosts L
 The Password Propagation feature is only available for Domain accounts.
 {% endsnippet %}
 
-The following describes the properties of the Password Propagation feature within the Privileged Accounts Management solution.  
+The following describes the properties of the Password Propagation feature within the Privileged Accounts Management solution. This allows privileged accounts passwords reset to be propagated to remote servers services.
 
 ![Password Propagation](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8172.png)  
 
