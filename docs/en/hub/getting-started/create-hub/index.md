@@ -1,6 +1,7 @@
 ---
-title: Create your Hub
-order: 10
+eleventyComputed:
+  title: Create your {{ en.PHUB }}
+  order: 10
 ---
 {{ en.HUB }} is offered in two versions, Business and Personal (free). Both are secure, cloud-based password managers that link to your {{ en.DA }}.  
 
