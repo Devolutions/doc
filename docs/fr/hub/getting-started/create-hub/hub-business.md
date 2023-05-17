@@ -3,10 +3,10 @@ eleventyComputed:
   title: Créer votre {{ fr.HUBB }}
 ---
 {% snippet icon.badgeInfo %}
-Pour commencer votre [essai gratuit](https://password.devolutions.net/fr/business/sign-up) {{ fr.HUBB }} dès aujourd'hui.
+Commencer votre [essai gratuit](https://password.devolutions.net/fr/business/sign-up) {{ fr.HUBB }} dès aujourd'hui.
 {% endsnippet %}
 
-1. Accéder a la section [Devolutions Portal](https://portal.devolutions.com/) de votre {{ fr.DA }} pour créer votre {{ fr.HUBB }}.
+1. Accéder a la section [Devolutions Portal](https://portal.devolutions.com/password-hub) de votre {{ fr.DA }} pour créer votre {{ fr.HUBB }}.
 1. Cliquer sur ***{{ fr.HUBB }}*** dans le menu de gauche.
 1. Remplir le ***Nom de l'entreprise*** dans la section d'essai gratuit de 30 jours.
 1. Choisir un nom de ***Site du {{ fr.HUBB }}***.
@@ -21,7 +21,7 @@ Le nom du ***site {{ fr.HUBB }}*** devient l'adresse de votre site Web et ne peu
 Une fois le déploiement prêt, vous recevrez un courriel contenant l'adresse Web de votre {{ fr.HUBB }}.  
 
 {% snippet icon.badgeInfo %}
-Si vous êtes un utilisateur de {{ fr.RDM }} Édition Team, vous pouvez connecter votre {{ fr.HUBB }} comme une source de données dans ***Fichier - Sources de données - Ajouter une nouvelle source de données***. Apprenez-en plus sur [comment intégrer {{ fr.HUBB }} dans {{ fr.RDM }}](/kb/remote-desktop-manager/how-to-articles/integrate-hub-business-rdm/).
+Si vous êtes un utilisateur de {{ fr.RDM }} Édition Team, vous pouvez connecter votre {{ fr.HUBB }} comme une source de données dans ***Fichier – Sources de données – Ajouter une nouvelle source de données***. Apprenez-en plus sur [comment intégrer {{ fr.HUBB }} dans {{ fr.RDM }}](/kb/remote-desktop-manager/how-to-articles/integrate-hub-business-rdm/).
 {% endsnippet %}
 
 7. Cliquer sur l'adresse du site Web de {{ fr.HUBB }}.
