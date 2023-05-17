@@ -12,7 +12,7 @@ Start your free {{ en.PHUB }} Business [trial](https://password.devolutions.net/
 {% snippet icon.badgeCaution %}
 The ***{{ en.PHUB }}*** ***site*** name becomes your website address and cannot be edited after the deployment of your {{ en.PHUB }}.
 {% endsnippet %}
- 
+
 5. Select the region where you want your data to be [hosted](/kb/password-hub/knowledge-base/hosting-region-password-hub/) and accept the ***Terms of Online Services and Privacy Policy***.  
 ![!!Hub4009.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4009.png)
 1. Click on ***Start Trial***.  
@@ -20,9 +20,9 @@ The ***{{ en.PHUB }}*** ***site*** name becomes your website address and cannot 
 Once the deployment is ready, you will receive an email with your {{ en.PHUB }} Business website address.  
 
 {% snippet icon.badgeInfo %}
-If you are a {{ en.RDM }} Team Edition user, you can connect your {{ en.PHUB }} Business as a data source in ***File – Data sources – Add a new data source*** . Follow this [link](/kb/remote-desktop-manager/how-to-articles/integrate-hub-business-rdm/) for more information on the configuration.
+If you are a {{ en.RDM }} Team Edition user, you can connect your {{ en.PHUB }} Business as a data source in ***File – Data sources – Add a new data source***. Follow this [link](/kb/remote-desktop-manager/how-to-articles/integrate-hub-business-rdm/) for more information on the configuration.
 {% endsnippet %}
- 
+
 7. Click the {{ en.PHUB }} Business website address.
 1. Download your ***Emergency Kit***.  
 ![!!Hub4170.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4170.png)
