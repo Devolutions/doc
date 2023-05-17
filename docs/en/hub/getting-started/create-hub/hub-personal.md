@@ -1,22 +1,23 @@
 ---
-title: Create your Hub Personal
+eleventyComputed:
+  title: Create your {{ en.HUBP }}
 ---
 {% snippet icon.badgeInfo %}
-{{ en.PHUB }} Personal is free, create your [vault](https://password.devolutions.net/personal) today.
+{{ en.HUBP }} is free, create your [vault](https://password.devolutions.net/personal) today.
 {% endsnippet %}
 
-1. Access the [{{ en.CUSTP }}](https://portal.devolutions.com/hub-personal) {{ en.CUSTP }} section of your {{ en.DA }} to create your {{ en.PHUB }} Personal.
-1. Click on ***{{ en.PHUB }}*** ***Personal*** in the left menu.
-1. Click ***Create your Hub Personal***.  
-![!!Hub4055.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4055.png)
+1. Access the [Devolutions Portal](https://portal.devolutions.com/hub-personal) section of your {{ en.DA }} to create your {{ en.HUBP }}.
+1. Click on ***{{ en.HUBP }}*** in the left menu.
+1. Click ***Create your {{ en.HUBP }}***.  
+![Create your {{ en.HUBP }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub4055.png)
 1. Download your ***Emergency Kit***.  
-![!!Hub4092.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4092.png)
+![Emergency Kit](https://webdevolutions.azureedge.net/docs/en/hub/Hub4092.png)
 {% snippet icon.badgeCaution %}
 The ***Emergency Kit*** contains your emergency key that will be required in case you lose or reset your {{ en.DA }} password. Remember to keep it in a safe place.
 {% endsnippet %}
 
-After downloading the ***Emergency kit*** , you will be directed to your {{ en.PHUB }} Personal.  
+After downloading the ***Emergency Kit***, you will be directed to your {{ en.HUBP }}.  
 
 {% snippet icon.badgeInfo %}
-If you are a {{ en.RDM }} Free user, you can connect your {{ en.PHUB }} Personal as a data source in ***File – Data sources – Add a new data source***. Follow this [link](/kb/remote-desktop-manager/how-to-articles/integrate-hub-personal-rdm/) for more information on the configuration.
+If you are a {{ en.RDM }} Free user, you can connect your {{ en.HUBP }} as a data source in ***File – Data sources – Add a new data source***. Learn more about [integrating {{ en.HUBP }} in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/integrate-hub-personal-rdm/).
 {% endsnippet %}

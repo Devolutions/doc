@@ -6,7 +6,7 @@ eleventyComputed:
 Pour commencer votre [essai gratuit](https://password.devolutions.net/fr/business/sign-up) {{ fr.HUBB }} dès aujourd'hui.
 {% endsnippet %}
 
-1. Accéder a la section [Portail client](https://portal.devolutions.com/) portail client de votre {{ fr.DA }} pour créer votre {{ fr.HUBB }}.
+1. Accéder a la section [Devolutions Portal](https://portal.devolutions.com/) de votre {{ fr.DA }} pour créer votre {{ fr.HUBB }}.
 1. Cliquer sur ***{{ fr.HUBB }}*** dans le menu de gauche.
 1. Remplir le ***Nom de l'entreprise*** dans la section d'essai gratuit de 30 jours.
 1. Choisir un nom de ***Site du {{ fr.HUBB }}***.
@@ -32,4 +32,4 @@ Si vous êtes un utilisateur de {{ fr.RDM }} Édition Team, vous pouvez connecte
 Le ***Kit d'urgence*** contient votre clé d'urgence qui vous sera demandée en cas de perte ou de réinitialisation de votre mot de passe {{ fr.DA }}. N'oubliez pas de le conserver en lieu sûr.
 {% endsnippet %}
 
-Après avoir téléchargé le ***Kit d'urgence***, vous serez dirigé vers votre {{ fr.HUBB }}.  
+Après avoir téléchargé le ***Kit d'urgence***, vous serez dirigé vers votre {{ fr.HUBB }}.
