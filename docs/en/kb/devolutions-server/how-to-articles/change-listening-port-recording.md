@@ -14,6 +14,6 @@ This topic explains how to change the listening port of the recording server aft
 1. Log in to the {{ en.DVLS }} web UI as an administrator.
 1. Go to ***Administration*** – ***System Settings*** – ***Recording Server***.
 1. Change the ***Port*** to match the changes made in step 5.  
-![Explore](https://webdevolutions.azureedge.net/docs/en/kb/KB0063.png)
+![Port](https://webdevolutions.azureedge.net/docs/en/kb/KB0063.png)
 1. Go back to {{ en.DVLS }}, find and open the ***Services*** Windows app.
 1. Find and select ***Devolutions Recording Collector***, then click on ***Restart the service***.
