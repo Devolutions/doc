@@ -1,5 +1,7 @@
 ---
-title: Microsoft SQL Server
+eleventyComputed:
+  title: Microsoft SQL Server
+  description: Remote Desktop Manager utilise la puissance de SQL Server de Microsoft pour enregistrer et gérer toutes les sessions.
 ---
 <table>
 	<tr>
@@ -40,11 +42,11 @@ Une stratégie de sauvegarde de base de données appropriée doit être mise en 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Selon le "Recovery Model" de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées pour s'exécuter régulièrement afin de maintenir l'intégrité de la base de données. Veuillez consulter [Recovery Model](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/) . 
+Selon le "Recovery Model" de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées pour s'exécuter régulièrement afin de maintenir l'intégrité de la base de données. Veuillez consulter [Recovery Model](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/). 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
-Utilisant la ***Connexion de base de données*** ou la ***Sécurité intégrée*** est intrinsèquement moins sûr, car cela signifie que l'utilisateur peut se connecter directement à la base de données en utilisant n'importe lequel outil disponible. Nous avons une sécurité au niveau des tables et des colonnes, mais les organisations soucieuses de la sécurité considéreront cela comme inacceptable. Il est recommandé d'utiliser notre modèle de connexion personnalisé . 
+Utilisant la ***Connexion de base de données*** ou la ***Sécurité intégrée*** est intrinsèquement moins sûr, car cela signifie que l'utilisateur peut se connecter directement à la base de données en utilisant n'importe lequel outil disponible. Nous avons une sécurité au niveau des tables et des colonnes, mais les organisations soucieuses de la sécurité considéreront cela comme inacceptable. Il est recommandé d'utiliser notre modèle de connexion personnalisé. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -53,13 +55,13 @@ La création d'utilisateurs de base de données comme mentionné dans cet [artic
  
 ## Configuration 
 
-Consulter la rubrique [Configurer SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) pour plus d'informations sur la configuration. 
+Consulter la rubrique [Configurer SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure/) pour plus d'informations sur la configuration. 
 
 ## Paramètres 
 
 ### Général 
 
-![Microsoft SQL Server - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11357.png) 
+![Microsoft SQL Server – Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11357.png) 
 
 <table>
 	<tr>
@@ -144,7 +146,7 @@ Nom de la base de données SQL Server.
 2 facteurs 
 		</td>
 		<td>
-Activer l' [Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
+Activer l'[Authentification multifacteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -167,7 +169,7 @@ Tester la connexion avec la base de données pour valider si les informations ap
 
 ### Paramètres 
 
-![Microsoft SQL Server - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11358.png) 
+![Microsoft SQL Server – Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11358.png) 
 
 <table>
 	<tr>
@@ -210,7 +212,7 @@ Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement h
 
 ### {{ fr.PVLT }} 
 
-![Microsoft SQL Server - Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3413.png) 
+![Microsoft SQL Server – {{ fr.PVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3413.png) 
 
 <table>
 	<tr>
@@ -227,18 +229,18 @@ Type
 		</td>
 		<td>
 
-Sélectionner le type de [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre:  
+Sélectionner le type de [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre :  
 
 * ***Par défaut*** : utilise le {{ fr.PVLT }} par défaut, qui est stocké dans la base de données. 
 * ***Aucun*** : désactive le {{ fr.PVLT }} pour tous les utilisateurs. 
-* ***Devolutions Online Drive*** : utilise un fichier Devolutions Online Drive (* .dod) comme {{ fr.PVLT }} . 
+* ***Devolutions Online Drive*** : utilise un fichier Devolutions Online Drive (* .dod) comme {{ fr.PVLT }}. 
 		</td>
 	</tr>
 </table>
 
 ### Mise à niveau 
 
-![Microsoft SQL Server - Mise à niveau](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11360.png) 
+![Microsoft SQL Server – Mise à niveau](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11360.png) 
 
 <table>
 	<tr>
@@ -301,12 +303,12 @@ Afficher le script de mise à jour.
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à Microsoft SQL Server .  
-![Microsoft SQL Server - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SQLServVPN.png) 
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à Microsoft SQL Server.  
+![Microsoft SQL Server – VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SQLServVPN.png) 
 
 ### Avancé 
 
-![Microsoft SQL Server - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11359.png) 
+![Microsoft SQL Server – Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11359.png) 
 
 <table>
 	<tr>
@@ -363,7 +365,7 @@ Chaque fois que vous vous connecterez à votre source de données, vous serez in
 Autoriser mise à niveau de la base de donnés beta 
 		</td>
 		<td>
-Autoriser la mise à niveau beta de la base de données (lors de l'utilisation d'une version beta de {{ fr.RDM }} ). 
+Autoriser la mise à niveau beta de la base de données (lors de l'utilisation d'une version beta de {{ fr.RDM }}). 
 		</td>
 	</tr>
 	<tr>
@@ -371,7 +373,7 @@ Autoriser la mise à niveau beta de la base de données (lors de l'utilisation d
 Gérer la cache 
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](Datasource_ManageCache) . 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](Datasource_ManageCache). 
 		</td>
 	</tr>
 	<tr>

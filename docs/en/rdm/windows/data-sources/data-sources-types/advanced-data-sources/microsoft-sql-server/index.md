@@ -1,5 +1,7 @@
 ---
-title: Microsoft SQL Server
+eleventyComputed:
+  title: Microsoft SQL Server
+  description: With the Microsoft SQL Server data source, {{ en.RDM }} uses the power of Microsoft SQL Server to save and manage entries.
 ---
 <table>
 	<tr>
@@ -52,13 +54,13 @@ Creating Contained Database Users as mentioned in this [article](https://docs.mi
  
 ## Configuration 
 
-Consult the [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) topic for more information on the configuration. 
+Consult the [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure/) topic for more information on the configuration. 
 
 ## Settings 
 
 ### General 
 
-![Microsoft SQL Server - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11357.png) 
+![Microsoft SQL Server – General tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11357.png) 
 
 <table>
 	<tr>
@@ -144,7 +146,7 @@ Enter the name of the Azure SQL database.
 Two factor 
 		</td>
 		<td>
-Enable the [2-Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/) . 
+Enable the [Multi-Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/) . 
 		</td>
 	</tr>
 	<tr>
@@ -167,7 +169,7 @@ Test the connection with the database to validate if the proper information has 
 
 ### Settings 
 
-![Microsoft SQL Server - Settings Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11358.png) 
+![Microsoft SQL Server – Settings tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11358.png) 
 
 <table>
 	<tr>
@@ -219,7 +221,7 @@ Disable the option to lock the data source directly. You can still lock the appl
 
 ### {{ en.PVLT }} 
 
-![Microsoft SQL Server - User Vault Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3413.png) 
+![Microsoft SQL Server – User Vault tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3413.png) 
 
 <table>
 	<tr>
@@ -247,7 +249,7 @@ Select the type of [{{ en.PVLT }}](/rdm/windows/data-sources/data-sources-types/
 
 ### Upgrade 
 
-![Microsoft SQL Server - Upgrade Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11360.png) 
+![Microsoft SQL Server – Upgrade tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11360.png) 
 
 <table>
 	<tr>
@@ -303,11 +305,11 @@ Send your schema to the Devolutions support team.
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Microsoft SQL Server .  
-![Microsoft SQL Server - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SQLServVPN.png) 
+![Microsoft SQL Server – VPN tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SQLServVPN.png) 
 
 ### Advanced 
 
-![Microsoft SQL Server - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11359.png) 
+![Microsoft SQL Server – Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11359.png) 
 
 <table>
 	<tr>
@@ -384,6 +386,3 @@ Edit the connection string values directly.
 		</td>
 	</tr>
 </table>
-
-
-
