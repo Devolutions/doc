@@ -23,7 +23,7 @@ Dans le cadre du processus de création, un {{ fr.DA }} sera créé, car il est 
 
 1. Accéder à ***Administration – Utilisateurs***. Si de nouveaux utilisateurs sont synchronisés depuis le fournisseur, ils seront prêts à être invités. Leur nombre est affiché dans le widget ***Invitations nécessaires***. Cliquer sur ce widget.  
 ![Invitations nécessaires](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4164.png)
-2. ***Étape 1 - À partir de l'organisation*** : Sélectionner parmi les utilisateurs suggérés, le cas échéant, puis cliquer sur ***Suivant***.  
+2. ***Étape 1 - À partir de l'organisation*** : Sélectionner parmi les utilisateurs suggérés, le cas échéant, ou sélectionner tous les membres d'un groupe synchronisé à partir de l'onglet ***Groupes***. Cliquer sur ***Suivant***.  
 ![Étape 1 - À partir de l'organisation](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2058.png) 
 3. ***Étape 2 - Par courriels*** : Il est possible d'inviter d'autres utilisateurs qui ne sont pas synchronisés, mais qui appartiennent au même fournisseur. Saisir une adresse électronique individuelle ou de groupe, puis cliquer sur ***Suivant***.  
 

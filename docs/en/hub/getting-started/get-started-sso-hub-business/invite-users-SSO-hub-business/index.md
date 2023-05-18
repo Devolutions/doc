@@ -24,7 +24,7 @@ As part of the creation process, a {{ en.DA }} will be created since it is requi
 
 1. Go to ***Administration – Users***. If you have new users who are synced from your provider, they will be ready to be invited. You can see their count in the ***Invitation required*** widget. Click on this widget.  
 ![Invitation required](https://webdevolutions.azureedge.net/docs/en/hub/Hub4141.png) 
-1. ***Step 1 - From Organization***: Select from the users that are suggested, if applicable, then click ***Next***.  
+1. ***Step 1 - From Organization***: Select from the users that are suggested, if applicable, or invite all members of a sync group from the ***Groups*** tab. Click ***Next***.  
 ![Step 1 - From Organization](https://webdevolutions.azureedge.net/docs/en/hub/Hub2176.png) 
 1. ***Step 2 - By Emails***: It is possible to invite other users that are not synced, but who belong to the same provider. Enter either an individual email or a group email, then click ***Next***.  
 {% snippet icon.badgeInfo %} 
