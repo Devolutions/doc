@@ -24,12 +24,15 @@ Multiple {{ en.RDMS }} instances can be hosted on the same server. Each instance
 All operations performed through the console are done with the credentials used to launch {{ en.RDMSCONSOLE }} . If you must use other credentials, you will need to launch another Windows session. The ***RunAs*** command does not offer the option of starting a process with elevated privileges. The Run as different user option can work only if the account is a member of the server's local Administrator group. 
 {% endsnippet %}
  
-![Run as administrator](https://webdevolutions.azureedge.net/docs/en/server/clip10317.png)  
+![Run as administrator](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8175.png)  
 
-3. In the {{ en.RDMSCONSOLE }} , click on the ***New*** button or the Install New Instance blue link to deploy a new server instance. 
-![Deploy a new Devolutions Server](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8048.png)  
+3. In the {{ en.RDMSCONSOLE }}, click on the ***New*** button or the ***Install New Instance*** blue link to deploy a new server instance using the ***Basic Installation*** wizard. It is also possible to create an instance using the ***Advanced Installation*** wizard by selecting it from the drop down menu of the ***New*** button.
+![Deploy a new Devolutions Server](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp8048.png)  
+
+### Advanced Installation
+
 1. The first dialog will run diagnostics on the server to verify if the IIS Server has all the necessary Web User Groups prerequisites installed and is ready to run {{ en.RDMS }} . Missing features are marked with an error icon. The Install Prerequisites button will install all missing features using a PowerShell script.Click on Close to continue. An internet connection is required for [IIS Application Request Routing (ARR)](https://api.devolutions.net/redirection/f19f07f3-5ea4-436d-a3ba-4bb69d373321) , [IIS Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) and [IIS ASP.NET Core Module (ANCM)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer) . 
-![IIS Features Diagnostic Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8049.png)  
+![IIS Features Diagnostic Dialog](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp8049.png)  
 1. The License Agreement needs to be accepted to proceed.  
 ![Devolutions Server License Agreement Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8050.png)  
 1. Under ***Database*** , enter the server and database information. The user account used to create the database must have sysadmin privileges in the SQL Server instance. Consult the [Database](/server/management/devolutions-server-console/devolutions-server-settings/database/) topic for more information. To use ***Windows Authentication*** to connect to the database, it is important to change the Application Pool Identity in the IIS Manager and set the proper permission of the service account on the SQL database. Please consult [How to Configure {{ en.RDMS }} to use integrated security](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/) . The following article about [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) describe which accounts that can be created prior to deploy {{ en.DPS }} . 
