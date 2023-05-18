@@ -30,10 +30,11 @@ As part of the creation process, a {{ en.DA }} will be created since it is requi
 {% snippet icon.badgeInfo %} 
 This is only possible if the enterprise application in Azure has the ***Assignment required*** set to ***No***. This setting can be found in the ***Properties*** of the enterprise application.
 {% endsnippet %}  
- ![Step 2 - By Emails](https://webdevolutions.azureedge.net/docs/en/hub/Hub2177.png) 
- 
+
+![Step 2 - By Emails](https://webdevolutions.azureedge.net/docs/en/hub/Hub2177.png)  
+
 4. ***Step 3 - Options***: Select ***Options*** for users, then click ***Next***.  
-![Step 3 - Options](https://webdevolutions.azureedge.net/docs/en/hub/Hub2178.png) 
+![Step 3 - Options](https://webdevolutions.azureedge.net/docs/en/hub/Hub2178.png)  
 1. ***Step 4 - User groups***: Synchronized users do not need to be assigned to the synced ***User Groups***. They will be added automatically as they log in. If you have custom ***User Groups***, you can assign them users.  
 {% snippet icon.badgeInfo %}  
 Custom ***User groups*** need to be defined beforehand in {{ en.PHUB }} Business. For more information, see [User Groups](/hub/web-interface/hub-overview/administration/management/users/). 
