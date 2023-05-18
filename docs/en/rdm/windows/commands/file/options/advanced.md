@@ -1,5 +1,5 @@
 ---
-title: Advanced Options
+title: Advanced
 ---
 Use ***File – Options – Advanced*** to control the behavior of the application with respect to the lower level settings.  
 ![File – Options – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10595.png) 

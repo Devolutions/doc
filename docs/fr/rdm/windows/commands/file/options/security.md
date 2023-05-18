@@ -1,6 +1,7 @@
 ---
 title: Sécurité
 Description: Utilisez Fichier – Options – Sécurité pour configurer les paramètres de sécurité reliés à la sécurité de l'application en local, à l'authentification multifacteur, au verrouillage, à la sécurité hors ligne, à la sécurité du certificat, et plus encore.
+keywords:
 - security
 - anti-malware
 ---
@@ -57,7 +58,7 @@ Cette option n'est disponible que si <b><i>Chiffrer les fichiers locaux à l'aid
 Forcer le nom d'utilisateur et le domaine actuellement connecté 
 		</td>
 		<td>
-Description 
+Si cette option est activée, elle force l'utilisation du nom d'utilisateur et du domaine utilisés pour se connecter à la session Windows en cours.
 		</td>
 	</tr>
 </table>
@@ -78,7 +79,7 @@ DESCRIPTION
 Mode d'authentification 
 		</td>
 		<td>
-Description 
+Sélectionner <b><i>Par défaut - Demander le choix lors de l'utilisation</i></b> pour être invité à choisir l'AMF à configurer lors de l'utilisation, ou sélectionner <b><i>Vérifier toutes les méthodes configurées</i></b> pour être invité à utiliser une des méthodes configurées.
 		</td>
 	</tr>
 	<tr>
@@ -102,7 +103,7 @@ Cocher cette option pour valider votre authentification à votre application {{ 
 Substituer le nom de compte 
 		</td>
 		<td>
-Description 
+Saisir un nouveau nom pour votre compte TOTP, qui remplacera le nom actuel.
 		</td>
 	</tr>
 	<tr>
@@ -164,7 +165,7 @@ Cocher cette option pour verrouiller {{ fr.RDM }} après avoir verrouillé votre
 En mode veille 
 		</td>
 		<td>
-Description 
+Cocher cette option pour verrouiller {{ fr.RDM }} après que votre ordinateur soit passé en mode veille / hibernation. Déverrouiller l'application en utilisant la méthode de sécurité configurée.
 		</td>
 	</tr>
 </table>
@@ -185,7 +186,7 @@ DESCRIPTION
 Sécurité hors ligne 
 		</td>
 		<td>
-In the drop-down list, select between <b><i>Default security</i></b> and <b><i>Enhanced security</i></b>. The enhanced security allows you to set up an offline password.
+Dans la liste déroulante, sélectionner <b><i>Sécurité par défaut</i></b> ou <b><i>Sécurité renforcée</i></b>. La sécurité renforcée vous permet de définir un mot de passe hors ligne.
 		</td>
 	</tr>
 	<tr>
@@ -193,7 +194,7 @@ In the drop-down list, select between <b><i>Default security</i></b> and <b><i>E
 Nouveau mot de passe / Confirmer le mot de passe 
 		</td>
 		<td>
-This is only available with enhanced offline security. Enter an offline password in the <b><i>New password</i></b> field, then enter it again in the <b><i>Confirm password</i></b> field. 
+Cette option n'est disponible qu'avec la sécurité hors ligne renforcée. Saisir un mot de passe hors ligne dans le champ <b><i>Nouveau mot de passe</i></b>, puis le saisir à nouveau dans le champ <b><i>Confirmer le mot de passe</i></b>.
 		</td>
 	</tr>
 	<tr>
@@ -201,7 +202,7 @@ This is only available with enhanced offline security. Enter an offline password
 Invite pour l'accès hors ligne 
 		</td>
 		<td>
-This is only available with enhanced offline security. 
+Cette option n'est disponible qu'avec la sécurité hors ligne renforcée. Si elle est activée, {{ fr.RDM }} vous demandera si vous souhaitez accéder à l'application hors ligne au démarrage.
 		</td>
 	</tr>
 </table>
@@ -222,7 +223,7 @@ DESCRIPTION
 Ignorer les erreurs de certificats de l'application 
 		</td>
 		<td>
-Description 
+Cocher cette option pour désactiver la validation du certificat de l'application. Cette désactivation n'est pas recommandée, car elle compromettrait la confidentialité et l'intégrité des communications entre le client et le serveur et pourrait exposer l'application à des menaces potentielles.
 		</td>
 	</tr>
 	<tr>
@@ -230,7 +231,7 @@ Description
 Appliquer la vérification des révocations des certificats 
 		</td>
 		<td>
-Description 
+Cocher cette option pour activer la validation que le certificat n'a pas été révoqué. Cette validation est nécessaire si l'une des URL de validation du certificat n'est pas disponible pour une raison ou une autre.
 		</td>
 	</tr>
 </table>
@@ -251,7 +252,7 @@ DESCRIPTION
 Activer le Bureau sécurisé 
 		</td>
 		<td>
-Description 
+Si cette option est activée, le bureau sécurisé ouvre des dialogues de mots de passe sur un autre bureau afin d'ajouter un niveau de sécurité supplémentaire et d'empêcher les enregistreurs de frappe de journaliser ce que vous écrivez.
 		</td>
 	</tr>
 	<tr>
@@ -259,7 +260,7 @@ Description
 Désactiver tous les événements sur les sessions 
 		</td>
 		<td>
-Description 
+Cocher cette option pour désactiver tous les événements configurés sur les entrées de session.
 		</td>
 	</tr>
 	<tr>
@@ -267,7 +268,7 @@ Description
 Activer le chiffrement DPAPI sur les fichiers locaux 
 		</td>
 		<td>
-Description 
+DPAPI est un chiffrement supplémentaire qui fait en sorte que vos fichiers ne puissent être déchiffrés que sur votre propre machine.
 		</td>
 	</tr>
 	<tr>
@@ -275,7 +276,7 @@ Description
 Activer l'analyse anti-logiciels malveillants 
 		</td>
 		<td>
-Check this option to enable {{ en.RDM }} to scan for malware. This feature might not be compatible with your anti-malware provider. It supports Microsoft Defender, Avast, AVG, and ESET.
+Cocher cette option pour permettre à {{ fr.RDM }} de rechercher des logiciels malveillants. Il se peut que cette fonction ne soit pas compatible avec votre fournisseur de logiciels anti-malveillants. Elle prend en charge Microsoft Defender, Avast, AVG et ESET.
 		</td>
 	</tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 title: Security
 Description: Use File – Options – Security to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
-keywords
+keywords:
 - security
 - anti-malware
 ---
@@ -58,7 +58,7 @@ This option is only available if <b><i>Encrypt local files using the application
 Force currently logged on username and domain 
 		</td>
 		<td>
-Description 
+If enabled, forces the use of the username and domain used to log in the current Windows session.
 		</td>
 	</tr>
 </table>
@@ -79,7 +79,7 @@ DESCRIPTION
 Authentication mode 
 		</td>
 		<td>
-Description 
+Select <b><i>Default - Prompt for selection on use</i></b> to be asked which MFA to configure on use, or select <b><i>Check against all configured methods</i></b> to be prompted with the configured methods only.
 		</td>
 	</tr>
 	<tr>
@@ -103,7 +103,7 @@ Check this option to validate your authentication to your {{ en.RDM }} applicati
 Override account name 
 		</td>
 		<td>
-Description 
+Enter a new name for your TOTP account that will override the current one. 
 		</td>
 	</tr>
 	<tr>
@@ -156,7 +156,7 @@ Check this option to lock {{ en.RDM }} after it has been idle for a certain time
 On Windows lock 
 		</td>
 		<td>
-Check this option to lock {{ en.RDM }} after locking your Windows session. Unlock the application using the configured security method(s).
+Check this option to lock {{ en.RDM }} after your computer goes into sleep mode / hibernation. Unlock the application using the configured security method(s).
 		</td>
 	</tr>
 	<tr>
@@ -164,7 +164,7 @@ Check this option to lock {{ en.RDM }} after locking your Windows session. Unloc
 On standby 
 		</td>
 		<td>
-Description 
+Check this option to lock {{ en.RDM }} after locking your Windows session. Unlock the application using the configured security method(s).
 		</td>
 	</tr>
 </table>
@@ -201,7 +201,7 @@ This is only available with enhanced offline security. Enter an offline password
 Prompt for offline access 
 		</td>
 		<td>
-This is only available with enhanced offline security. 
+This is only available with enhanced offline security. If enabled, {{ en.RDM }} will ask if you want to access the application offline on startup.
 		</td>
 	</tr>
 </table>
@@ -222,7 +222,7 @@ DESCRIPTION
 Ignore application sertificate errors 
 		</td>
 		<td>
-Description 
+Check this option to disable the application certificate validation. This is not recommended, as it would compromise confidentiality and integrity of communications between the client and the server and could expose the application to potential threats.
 		</td>
 	</tr>
 	<tr>
@@ -230,7 +230,7 @@ Description
 Enforce certificate revocation check 
 		</td>
 		<td>
-Description 
+Check this option to enable the validation that the certificate has not been revoked. This is necessary if any of the URLs for certificate validation are unavailable for any reason.
 		</td>
 	</tr>
 </table>
@@ -251,7 +251,7 @@ DESCRIPTION
 Enable secure desktop 
 		</td>
 		<td>
-Description 
+If enabled, secure desktop opens password dialogs on another desktop to add an extra level of security and prevent keyloggers from logging what you write.
 		</td>
 	</tr>
 	<tr>
@@ -259,7 +259,7 @@ Description
 Disable all events on sessions 
 		</td>
 		<td>
-Description 
+Check this option to disable all events configured on session entries.
 		</td>
 	</tr>
 	<tr>
@@ -267,7 +267,7 @@ Description
 Enable DPAPI cryptography on local files 
 		</td>
 		<td>
-Description 
+DPAPI is an additional encryption that ensures that your files can only be decrypted on your own machine.
 		</td>
 	</tr>
 	<tr>
