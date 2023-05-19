@@ -1,8 +1,9 @@
 ---
-title: Advanced Options
+title: Advanced
+description: Use File – Preferences – Advanced to control the behavior of the application with respect to the lower level settings.
 ---
-Use File – Preferences – Advanced to control the behavior of the application with respect to the lower level settings.  
-![File – Preferences – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10443.png) 
+Use ***File – Preferences – Advanced*** to control the behavior of the application with respect to the lower level settings.  
+![File – Preferences – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2061.png) 
 
 ## Settings 
 <table>
@@ -30,9 +31,9 @@ Logs
 
 The logs can be saved in a file or in a database file. Select between:  
 
-* ***Both*** : Logs will be saved in a text file and in a database file. 
-* ***Database*** : Logs will be saved in a file named RemoteDesktopManager.log.db. The file is located in the installation folder of the application. 
-* ***File*** : Logs will be saved in a file named RemoteDesktopManager.log. The file is located in the installation folder of the application. 
+* ***Both***: Logs will be saved in a text file and in a database file. 
+* ***Database***: Logs will be saved in a file named RemoteDesktopManager.log.db. The file is located in the installation folder of the application. 
+* ***File***: Logs will be saved in a file named RemoteDesktopManager.log. The file is located in the installation folder of the application. 
 		</td>
 	</tr>
 </table>
@@ -123,7 +124,7 @@ Disable compromised password (pwned) check
 		</td>
 		<td>
 
-Disable the pwned check feature if it is not forced by the administrator in ***Administration – System Settings – Password Validation*** . 
+Disable the pwned check feature if it is not forced by the administrator in ***Administration – System Settings – Password Validation***. 
 		</td>
 	</tr>
 	<tr>
@@ -169,7 +170,7 @@ Get file icons from their apparent type
 		</td>
 		<td>
 		
-The file icon will be “deduced“ from the file extension rather than asking the OS to resolve the image for the file directly. Only works for ***FTP*** , ***SFTP*** , ***SCP*** , and ***WebDAV*** session entries. 
+The file icon will be “deduced“ from the file extension rather than asking the OS to resolve the image for the file directly. Only works for ***FTP***, ***SFTP***, ***SCP***, and ***WebDAV*** session entries. 
 		</td>
 	</tr>
 	<tr>
@@ -177,7 +178,7 @@ The file icon will be “deduced“ from the file extension rather than asking t
 Use vault image in tree view 
 		</td>
 		<td>
-The image of the {{ en.VLT }} will be displayed next the {{ en.VLT }} name in the {{ en.NPANE }} . 
+The image of the {{ en.VLT }} will be displayed next the {{ en.VLT }} name in the {{ en.NPANE }}. 
 		</td>
 	</tr>
 </table>

@@ -1,5 +1,6 @@
 ---
 title: Advanced
+description: Use File – Options – Advanced to control the behavior of the application with respect to the lower level settings.
 ---
 Use ***File – Options – Advanced*** to control the behavior of the application with respect to the lower level settings.  
 ![File – Options – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10595.png) 
@@ -32,9 +33,9 @@ Logs
 		<td>
 The logs can be saved in a file or in a database file. Select between: 
 
-* ***Both*** :   Logs will be saved in a text file and in a database file. 
-* ***Database*** :   Logs will be saved in a file named RemoteDesktopManager.log.db. The file is located in the installation folder of the application. 
-* ***File*** :   Logs will be saved in a file named RemoteDesktopManager.log. The file is located in the installation folder of the application. 
+* ***Both***: Logs will be saved in a text file and in a database file. 
+* ***Database***: Logs will be saved in a file named RemoteDesktopManager.log.db. The file is located in the installation folder of the application. 
+* ***File***: Logs will be saved in a file named RemoteDesktopManager.log. The file is located in the installation folder of the application. 
 		</td>
 	</tr>
 	<tr>
@@ -60,9 +61,9 @@ Hardware acceleration
 		<td>
 Select in the drop-down list how {{ en.RDM }} will handle hardware acceleration:  
 
-* ***Default (Automatic)*** : Graphics rendering is completely left to the operating system. 
-* ***Disabled (GDI+)*** : Hardware acceleration is forced disabled. 
-* ***DirectX*** : Hardware acceleration is forced enabled. The graphics rendering is performed by the graphics card. Performance is sped up in some cases, which is often required for high resolutions. 
+* ***Default (Automatic)***: Graphics rendering is completely left to the operating system. 
+* ***Disabled (GDI+)***: Hardware acceleration is forced disabled. 
+* ***DirectX***: Hardware acceleration is forced enabled. The graphics rendering is performed by the graphics card. Performance is sped up in some cases, which is often required for high resolutions. 
 
 This setting does not need to be modified unless there are UI performance issues. 
 		</td>
@@ -134,7 +135,7 @@ Disable the Close all confirmation message when closing/disconnecting multiple e
 Disable compromised password (pwned) check 
 		</td>
 		<td>
-Disable the pwned check feature if it is not forced by the administrator in ***Administration – System Settings – Password Validation*** . 
+Disable the pwned check feature if it is not forced by the administrator in ***Administration – System Settings – Password Validation***. 
 		</td>
 	</tr>
 	<tr>
@@ -356,7 +357,7 @@ Enable to suppress the confirmation prompt when cancelling the edit of an entry.
 Disable stack trace 
 		</td>
 		<td>
-Disable the stack trace details when an error occurs in {{ en.RDM }} . This is a security feature. 
+Disable the stack trace details when an error occurs in {{ en.RDM }}. This is a security feature. 
 		</td>
 	</tr>
 	<tr>
@@ -452,12 +453,12 @@ When adding a new document by selecting a file supported by a Microsoft Office a
 Use ZipCrypto compression (not recommended) 
 		</td>
 		<td>
-Enable this option to allow the ZipCrypto compression in {{ en.RDM }} . We do not recommend enabling this option. Here is a blog written by our security team about the subject: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/) . 
+Enable this option to allow the ZipCrypto compression in {{ en.RDM }} . We do not recommend enabling this option. Here is a blog written by our security team about the subject: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/). 
 		</td>
 	</tr>
 </table>
 
-### Other Options – microsoft edge 
+### Other Options – Microsoft Edge 
 
 <table>
 	<tr>
@@ -583,7 +584,7 @@ Force the ***View Password*** window to display on top of all the {{ en.RDM }} w
 Use old entry sort 
 		</td>
 		<td>
-Use the old entry sort from previous version of {{ en.RDM }} . 
+Use the old entry sort from previous version of {{ en.RDM }}. 
 		</td>
 	</tr>
 </table>

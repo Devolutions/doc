@@ -1,8 +1,9 @@
 ---
-title: Options avancées
+title: Avancé
+description: Utilisez Fichier – Paramètres – Avancé pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.
 ---
 Utilisez ***Fichier – Paramètres – Avancé*** pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.  
-![Fichier – Préférences – Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4204.png) 
+![Fichier – Préférences – Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2053.png) 
 
 ## Paramètres 
 <table>
@@ -28,11 +29,11 @@ Journaux
 		</td>
 		<td>
 
-Les journaux peuvent être enregistrés dans un fichier ou dans un fichier de base de données. Choisir entre:  
+Les journaux peuvent être enregistrés dans un fichier ou dans un fichier de base de données. Choisir entre :  
 
-* ***Les deux :*** Les journaux seront enregistrés dans un fichier texte et dans un fichier de base de données. 
-* ***Base de données :*** Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log.db. Le fichier se trouve dans le dossier d'installation de l'application. 
-* ***Fichier :*** Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log. Le fichier se trouve dans le dossier d'installation de l'application. 
+* ***Les deux*** : Les journaux seront enregistrés dans un fichier texte et dans un fichier de base de données. 
+* ***Base de données*** : Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log.db. Le fichier se trouve dans le dossier d'installation de l'application. 
+* ***Fichier*** : Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log. Le fichier se trouve dans le dossier d'installation de l'application. 
 		</td>
 	</tr>
 </table>
@@ -112,7 +113,7 @@ AppleScript est activé par défaut. Si vous le souhaitez, vous pouvez le désac
 	</tr>
 	<tr>
 		<td>
-Désactiver le Gravatar de l'utilisateur 
+Désactiver les images Gravatar dans la gestion des utilisateurs 
 		</td>
 		<td>
 Désactiver la récupération du Gravatar dans ***Administration – Utilisateurs*** pour améliorer les performances de l'application. 
@@ -123,7 +124,7 @@ Désactiver la récupération du Gravatar dans ***Administration – Utilisateur
 Désactiver la vérification de mots de passe compromis (pwned) 
 		</td>
 		<td>
-Désactiver la fonction de vérification de compromission du mot de passe si elle n'est pas forcée par l'administrateur dans ***Administration – Paramètres du système – Validation du mot de passe*** . 
+Désactiver la fonction de vérification de compromission du mot de passe si elle n'est pas forcée par l'administrateur dans ***Administration – Paramètres du système – Validation du mot de passe***. 
 		</td>
 	</tr>
 	<tr>
@@ -169,7 +170,7 @@ Obtenir les icônes de fichiers à partir de leur type apparent
 		</td>
 		<td>
 
-L'icône du fichier sera « déduite » de l'extension du fichier plutôt que de demander au système d'exploitation de résoudre directement l'image du fichier. Ne fonctionne que pour les entrées de session ***FTP*** , ***SFTP*** , ***SCP*** et ***WebDAV*** . 
+L'icône du fichier sera « déduite » de l'extension du fichier plutôt que de demander au système d'exploitation de résoudre directement l'image du fichier. Ne fonctionne que pour les entrées de session ***FTP***, ***SFTP***, ***SCP*** et ***WebDAV***. 
 		</td>
 	</tr>
 	<tr>
@@ -177,7 +178,7 @@ L'icône du fichier sera « déduite » de l'extension du fichier plutôt que 
 Utiliser l'image du coffre dans l'arborescence 
 		</td>
 		<td>
-L'image du {{ fr.VLT }} sera affichée à côté du nom du {{ fr.VLT }} dans le {{ fr.NPANE }} . 
+L'image du {{ fr.VLT }} sera affichée à côté du nom du {{ fr.VLT }} dans le {{ fr.NPANE }}. 
 		</td>
 	</tr>
 </table>
@@ -219,7 +220,7 @@ DESCRIPTION
 Moteur en mode hors ligne 
 		</td>
 		<td>
-Vous pouvez choisir votre moteur en mode hors connexion entre MCDF v2.0 (par défaut) ou SQLite (obsolète). Ne modifier cette option que sur demande d'un technicien du soutien technique de Devolutions . 
+Vous pouvez choisir votre moteur en mode hors connexion entre MCDF v2.0 (par défaut) ou SQLite (obsolète). Ne modifier cette option que sur demande d'un technicien du soutien technique de Devolutions. 
 		</td>
 	</tr>
 	<tr>
@@ -228,7 +229,7 @@ Forcer « localhost » lorsque avec ports dynamiques VPN
 		</td>
 		<td>
 		
-Forcer l'utilisation de « ***localhost*** ***» lors de l'utilisation du port dynamique VPN.*** 
+Forcer l'utilisation de « ***localhost*** » lors de l'utilisation du port dynamique VPN. 
 		</td>
 	</tr>
 	<tr>
@@ -248,5 +249,3 @@ Lorsque vous changez de réseau, {{ fr.RDM }} pour Mac passe en mode hors ligne.
 		</td>
 	</tr>
 </table>
-
-

@@ -1,5 +1,6 @@
 ---
 title: Avancé
+description: Utilisez Fichier – Options – Avancé pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.
 ---
 Utilisez ***Fichier – Options – Avancé*** pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.  
 ![Fichier – Options – Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10595.png) 
@@ -31,11 +32,11 @@ Définir le niveau des informations de débogage que {{ fr.RDM }} capturera. Cel
 Journaux 
 		</td>
 		<td>
-Les journaux peuvent être enregistrés dans un fichier ou dans un fichier de base de données. Choisir entre:  
+Les journaux peuvent être enregistrés dans un fichier ou dans un fichier de base de données. Choisir entre :  
 
-* ***Les deux :*** Les journaux seront enregistrés dans un fichier texte et dans un fichier de base de données. 
-* ***Base de données :*** Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log.db. Le fichier se trouve dans le dossier d'installation de l'application. 
-* ***Fichier :*** Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log. Le fichier se trouve dans le dossier d'installation de l'application. 
+* ***Les deux*** : Les journaux seront enregistrés dans un fichier texte et dans un fichier de base de données. 
+* ***Base de données*** : Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log.db. Le fichier se trouve dans le dossier d'installation de l'application. 
+* ***Fichier*** : Les journaux seront enregistrés dans un fichier nommé RemoteDesktopManager.log. Le fichier se trouve dans le dossier d'installation de l'application. 
 		</td>
 	</tr>
 	<tr>
@@ -43,15 +44,15 @@ Les journaux peuvent être enregistrés dans un fichier ou dans un fichier de ba
 Moteur en mode hors ligne 
 		</td>
 		<td>
-Vous pouvez choisir votre moteur en mode hors connexion entre MCDF v2.0 (par défaut), SQLite (obsolète) ou OpenMCDF (obsolète). Ne modifier cette option que sur demande d'un technicien du soutien technique de Devolutions . 
+Vous pouvez choisir votre moteur en mode hors connexion entre MCDF v2.0 (par défaut), SQLite (obsolète) ou OpenMCDF (obsolète). Ne modifier cette option que sur demande d'un technicien du soutien technique de Devolutions. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Forcer « ***localhost*** ***» lorsque avec ports dynamiques VPN*** 
+Forcer « ***localhost*** » lorsque avec ports dynamiques VPN 
 		</td>
 		<td>
-Forcer l'utilisation de « ***localhost*** ***» lors de l'utilisation du port dynamique VPN.*** 
+Forcer l'utilisation de « ***localhost*** » lors de l'utilisation du port dynamique VPN. 
 		</td>
 	</tr>
 	<tr>
@@ -167,7 +168,7 @@ La gestion des connexions de base de données résilientes est un mécanisme que
 Désactiver la vérification de mots de passe compromis (pwned) 
 		</td>
 		<td>
-Désactiver la fonction de vérification de compromission du mot de passe si elle n'est pas forcée par l'administrateur dans ***Administration – Paramètres du système – Validation du mot de passe*** . 
+Désactiver la fonction de vérification de compromission du mot de passe si elle n'est pas forcée par l'administrateur dans ***Administration – Paramètres du système – Validation du mot de passe***. 
 		</td>
 	</tr>
 	<tr>
@@ -325,7 +326,7 @@ Désactiver l'analyse des données ou des statistiques. La télémétrie est l'�
 Désactiver la trace de la pile 
 		</td>
 		<td>
-Désactiver les détails de la trace de la pile lorsqu'une erreur se produit dans {{ fr.RDM }} . Il s'agit d'une fonction de sécurité. 
+Désactiver les détails de la trace de la pile lorsqu'une erreur se produit dans {{ fr.RDM }}. Il s'agit d'une fonction de sécurité. 
 		</td>
 	</tr>
 	<tr>
@@ -338,7 +339,7 @@ Désactiver le cache des favicônes et forcer {{ fr.RDM }} à toujours récupér
 	</tr>
 	<tr>
 		<td>
-Désactiver le gravatar de l'utilisateur 
+Désactiver les images Gravatar dans la gestion des utilisateurs
 		</td>
 		<td>
 Désactiver la récupération du Gravatar dans ***Administration – Utilisateurs*** pour améliorer les performances de l'application. 
@@ -421,7 +422,7 @@ Activer cette option que sur demande de notre équipe de soutien technique Devol
 Utiliser la compression ZipCrypto (non recommandé) 
 		</td>
 		<td>
-Activer cette option pour autoriser la compression ZipCrypto dans {{ fr.RDM }} . Nous vous déconseillons d'activer cette option. Voici un blogue écrit par notre équipe de sécurité sur le sujet: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/) . 
+Activer cette option pour autoriser la compression ZipCrypto dans {{ fr.RDM }} . Nous vous déconseillons d'activer cette option. Voici un blogue écrit par notre équipe de sécurité sur le sujet: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/). 
 		</td>
 	</tr>
 	<tr>
@@ -458,7 +459,7 @@ Si une session RDP demande le focus, elle placera {{ fr.RDM }} au premier plan.
 	</tr>
 	<tr>
 		<td>
-Verrouillage - Sécurité intégrée: valider seulement avec le contexte du domaine 
+Verrouillage - Sécurité intégrée : valider seulement avec le contexte du domaine 
 		</td>
 		<td>
 Le verrou de sécurité intégré valide par défaut contre la machine locale et au contexte du domaine. Vous avez la possibilité de valider uniquement par rapport au domaine. 
@@ -499,7 +500,7 @@ Désactiver le chargement des images personnalisées dans l'arborescence. Trop d
 Désactiver la restauration de l’affichage 
 		</td>
 		<td>
-Désactiver la disposition des onglets configurée manuellement et restaure les paramètres d’affichage lors d'un redémarrage de {{ fr.RDM }} . 
+Désactiver la disposition des onglets configurée manuellement et restaure les paramètres d’affichage lors d'un redémarrage de {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -515,7 +516,7 @@ Lorsque l’option est décochée, elle permet de naviguer entre plusieurs ongle
 Garder la fenêtre Afficher le mot de passe dans le haut 
 		</td>
 		<td>
-Forcer la fenêtre ***Afficher le mot de passe*** à s'afficher au-dessus de toutes les fenêtres de {{ fr.RDM }} . 
+Forcer la fenêtre ***Afficher le mot de passe*** à s'afficher au-dessus de toutes les fenêtres de {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -547,7 +548,7 @@ Afficher toujours le bouton « Mettre hors ligne » dans la barre d'état lorsqu
 Utiliser l'ancien tri des entrées 
 		</td>
 		<td>
-Utiliser l'ancien tri des entrées de la version précédente de {{ fr.RDM }} . 
+Utiliser l'ancien tri des entrées de la version précédente de {{ fr.RDM }}. 
 		</td>
 	</tr>
 </table>
@@ -613,7 +614,7 @@ DESCRIPTION
 Créé le 
 		</td>
 		<td>
-Date de création du dossier de configuration de {{ fr.RDM }} . 
+Date de création du dossier de configuration de {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -621,7 +622,7 @@ Date de création du dossier de configuration de {{ fr.RDM }} .
 Source 
 		</td>
 		<td>
-Source des paramètres de configuration de {{ fr.RDM }} . 
+Source des paramètres de configuration de {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
