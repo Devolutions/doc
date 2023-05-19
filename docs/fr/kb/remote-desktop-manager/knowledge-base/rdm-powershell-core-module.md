@@ -48,7 +48,7 @@ Sur certains ordinateurs, il peut être nécessaire d'installer manuellement le 
 Une fois l’installation complétée, la seule action nécessaire est de retirer la commande `Import-Module` des scripts utilisés avec l’ancien module PowerShell de {{ fr.RDM }}. Comme le module fait désormais partie des modules PowerShell installés sur l'ordinateur, il n'est plus nécessaire de l'importer dans les scripts.  
 
 ## Écraser avec une autre configuration (portable) 
-En utilisant les commandes `Get-RDMPowerShellOverride` et `Set-RDMPowerShellOverride` dans l’applet de commande, il est possible de choisir un autre fichier de configuration ainsi qu’une installation différente de {{ fr.RDM }}.  
+En utilisant les commandes `Get-RDMPowerShellOverride` et `Set-RDMPowerShellOverride` dans l’applet de commande, il est possible de choisir un autre dossier de destination pour sauvegarder les fichiers de configuration ou pour sélectionner un dossier différent de celui définit par défaut par le module Devolutions.PowerShell. Ces commandes peuvent aussi être utilisées pour sélectionner un dossier contenant les fichiers d'une configuration de {{ fr.RDM }} existante autre que celle par défaut.  
 
 Les deux propriétés sont optionnelles et leurs valeurs par défaut seront appliquées si elles demeurent vides.  
 

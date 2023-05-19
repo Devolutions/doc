@@ -48,7 +48,7 @@ On some machines, it may be required to install the PowerShell module manually. 
 Once installed, the only required modification is to remove the `Import-Module` command from the scripts used with the old {{ en.RDM }} PowerShell module. As the module is now part of the PowerShell modules installed on the computer, it is no longer necessary to import it into the scripts.  
 
 ## Use an Override Configuration (Portable)
-By using the cmdlets `Get-RDMPowerShellOverride` and `Set-RDMPowerShellOverride`, it is possible to use another configuration file and an alternate {{ en.RDM }} installation.  
+By using the cmdlets `Get-RDMPowerShellOverride` and `Set-RDMPowerShellOverride`, it is possible to choose another destination folder to save the configuration files or to select a folder different from the one defined by default by the Devolutions.PowerShell module. These commands can also be used to select a folder containing files from an existing {{ en.RDM }} configuration other than the default.  
 
 Both properties are optional, and their default values are applied when left empty.  
 
