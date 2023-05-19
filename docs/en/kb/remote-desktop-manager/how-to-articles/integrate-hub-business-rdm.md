@@ -11,7 +11,7 @@ Here are the steps to integrate {{ en.HUBB }} as a data source in {{ en.RDM }}.
 1. Go to ***File – Data Sources***.
 1. Click ***Add a New Data Source***.  
 ![Add a New Data Source](https://webdevolutions.azureedge.net/docs/en/kb/KB4909.png)
-1. Under ***Team***, select ***{{ en.HUBB }}*** and click ***OK***.  
+1. Under ***Team***, select ***Devolutions {{ en.HUBB }}*** and click ***OK***.  
 ![{{ en.HUBB }}](https://webdevolutions.azureedge.net/docs/en/kb/KB4910.png)
 1. Enter a ***Name*** for the data source.
 1. Enter the ***Email*** from the {{ en.DA }}.
