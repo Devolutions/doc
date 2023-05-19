@@ -1,25 +1,22 @@
 ---
 eleventyComputed:
-  title: How to Integrate {{ en.HUB }} Business in RDM
+  title: Integrate Devolutions {{ en.HUBB }} in {{ en.RDM }}
+  description: How to integrate {{ en.HUBB }} as a data source in {{ en.RDM }}
 ---
 {% youtube 'wI4Jn3zLC8U' %}
 
-{% snippet icon.badgeCaution %}
-This feature is available in {{ en.RDM }} 2020.3.12 and higher.
-{% endsnippet %}
-
-Here are the steps to integrate the {{ en.PHUBB }} as a data source in {{ en.RDM }}.
-
-1. Launch {{ en.RDM }}
-1. Click ***File - Data sources***.
+Here are the steps to integrate {{ en.HUBB }} as a data source in {{ en.RDM }}.
+## Steps
+1. Launch {{ en.RDM }}.
+1. Go to ***File – Data Sources***.
 1. Click ***Add a New Data Source***.  
-![!!KB4909.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4909.png)
-1. Select ***Devolutions*** ***{{ en.PHUBB }}*** and click ***OK***.  
-![!!KB4910.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4910.png)
-1. Enter a ***Name*** for your data source.
-1. For the ***Username***, enter your {{ en.DA }} email.
-1. Fill in the ***Host*** with your {{ en.PHUBB }} URL (ex: https://windjammer.devolutions.app/) or click on the 3 dots to select directly from your {{ en.DA }}.  
-![!!KB4911.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4911.png)
+![Add a New Data Source](https://webdevolutions.azureedge.net/docs/en/kb/KB4909.png)
+1. Under ***Team***, select ***{{ en.HUBB }}*** and click ***OK***.  
+![{{ en.HUBB }}](https://webdevolutions.azureedge.net/docs/en/kb/KB4910.png)
+1. Enter a ***Name*** for the data source.
+1. Enter the ***Email*** from the {{ en.DA }}.
+1. Fill in the ***Host*** by clicking on the ellipsis button to select directly from the {{ en.DA }}.  
+![Ellipsis button](https://webdevolutions.azureedge.net/docs/en/kb/KB4911.png)
+1. Click on the desired {{ en.HUBB }} and then click ***Select***.
 1. Click ***OK*** to finish the setup.
-1. Click ***OK*** to close the ***Data Sources*** window.
-1. Authenticate with your {{ en.DA }} and you should be all set.
+1. Click ***OK*** to save the changes and close the ***Data Sources*** window.
