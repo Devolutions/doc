@@ -1,13 +1,15 @@
 ---
-title: Forum
-order: 90  
+eleventyComputed:
+  title: Devolutions Forum
+  description: Le {{ fr.DF }} est le meilleur moyen d’obtenir des réponses à vos questions, soit de notre équipe de développement, soit de notre communauté mondiale de professionnels des TI.
+  order: 90  
 ---
-Le [***Forum***](https://forum.devolutions.net/) de Devolutions est le meilleur moyen d’obtenir des réponses à vos questions, soit de notre équipe de développement ou de notre communauté mondiale de professionnels des TI. 
+Le [{{ fr.DF }}](https://forum.devolutions.net/) est le meilleur moyen d’obtenir des réponses à vos questions, soit de notre équipe de développement, soit de notre communauté mondiale de professionnels des TI. 
 
-Visiter les différentes sections et contribuez à la connaissance de notre communauté. 
+Visitez les différentes sections et contribuez à la connaissance de notre communauté. 
 
 {% snippet icon.badgeInfo %} 
-Un [Compte Devolutions](/fr/cloud/devolutions-account/) gratuit est nécessaire pour se connecter et interagir sur le Forum. 
+Un [{{ fr.DA }}](/fr/cloud/devolutions-account/) gratuit est nécessaire pour se connecter et interagir sur le {{ fr.DF }}.
 {% endsnippet %}
  
-![!!Cloud4042.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4042.png) 
+![{{ fr.DF }}](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud2001.png) 
