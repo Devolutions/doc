@@ -4,7 +4,7 @@ title: Firefox
 Follow the steps below to complete the installation of {{ en.DWL }} in the Firefox web browser.  
 
 1. Open a Firefox window. 
-1. Download the {{ en.DWL }} extension from our [web page](https://devolutions.net/web-login) {{ en.DWL }} . 
+1. Download the {{ en.DWL }} extension from our [web page](https://devolutions.net/web-login) {{ en.DWL }}. 
 1. Click ***Continue to Installation*** in the confirmation dialog.  
 ![Continue to Installation.png](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl4004.png)
 1. Click ***Add*** when prompted to add {{ en.DWL }} to the extension.  
