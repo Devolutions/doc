@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Integrate Devolutions {{ en.HUBB }} in {{ en.RDM }}
-  description: How to integrate {{ en.HUBB }} as a data source in {{ en.RDM }}
+  description: This topic explains how to integrate {{ en.HUBB }} as a data source in {{ en.RDM }}
 ---
 {% youtube 'wI4Jn3zLC8U' %}
 
