@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
   title: Intégrer Devolutions {{ fr.HUBB }} dans {{ fr.RDM }}
-  description: Les étapes à suivre pour intégrer {{ fr.HUBB }} comme source de données dans {{ fr.RDM }}
+  description: Voici les étapes à suivre pour intégrer {{ fr.HUBB }} comme source de données dans {{ fr.RDM }}
 ---
 Voici les étapes pour intégrer {{ fr.HUBB }} comme source de données dans {{ fr.RDM }}.
 ## Étapes
 1. Lancer {{ fr.RDM }}.
 1. Aller dans ***Fichier – Sources de données***.
-1. Cliquer sur ***Ajouter une nouvelle source de donnée***.  
+1. Cliquer sur ***Ajouter une nouvelle source de données***.  
 ![Ajouter une nouvelle source de données](https://webdevolutions.azureedge.net/docs/fr/kb/KB0001.png)
 1. Sous ***Équipe***, sélectionner ***Devolutions {{ fr.HUBB }}*** et cliquer sur ***OK***.  
 ![{{ fr.HUBB }}](https://webdevolutions.azureedge.net/docs/fr/kb/KB0002.png)

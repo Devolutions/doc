@@ -14,7 +14,7 @@ To integrate {{ en.HUBP }} as a data source in {{ en.RDM }} you will be required
 1. Click ***Add a New Data Source***.  
 ![Add a New Data Source](https://webdevolutions.azureedge.net/docs/en/kb/KB4909.png)
 1. Under ***Individual***, select ***Devolutions {{ en.HUBP }}*** and click ***OK***.  
-![Devolutions {{ en.HUBP }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0064.png)
+![{{ en.HUBP }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0064.png)
 1. Enter a ***Name*** for the data source.
 1. Enter the ***Email*** from the {{ en.DA }}, and click ***OK***.  
 ![Information fields](https://webdevolutions.azureedge.net/docs/en/kb/KB0065.png)  
