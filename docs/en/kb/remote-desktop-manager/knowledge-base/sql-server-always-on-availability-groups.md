@@ -1,7 +1,7 @@
 ---
 title: SQL Server Always On Availability Groups
 ---
-Main RDM clients and {{ en.DPS }} are written using thenet plaform, which means that the capabilities are often derived fromnet libraries themselves.  
+Main RDM clients and {{ en.DPS }} are written using the .Net plaform, which means that the capabilities are often derived from .Net libraries themselves.  
 
 As such, supported availability groups are a feature of the database driver used. All types are therefore supported:  
 
