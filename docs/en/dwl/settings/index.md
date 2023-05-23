@@ -4,7 +4,7 @@ order: 20
 keywords:
 - Private vault
 ---
-The {{ en.DWL }} settings can be accessed via the ***Settings*** button in the browser extension window regardless of which Devolutions application you are using with {{ en.DWL }} .  
+The {{ en.DWL }} settings can be accessed via the ***Settings*** button in the browser extension window regardless of which Devolutions application you are using with {{ en.DWL }}.  
 
 ![Devolutions Web Login Settings Button.png](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl2000.png)  
 
@@ -20,22 +20,22 @@ The ***General*** settings are about the user interface and interaction.
 	* Show the {{ en.DWL }} extension icon in the credentials fields.  
 	* Show the prompt when saving credentials on new login.  
 	* Show the context menu options.  
-	* Color the fields that are filled with {{ en.DWL }} .  
+	* Color the fields that are filled with {{ en.DWL }}.  
 	* Set the color ***Theme*** of the application.  
 
 * ***Advanced*** tab  
 	* Disable the analytics telemetry.  
-	* Enable the Beta versions of {{ en.DWL }} .  
+	* Enable the Beta versions of {{ en.DWL }}.  
 
 The ***Never List*** displays the list of locally added websites to which the user will never be prompted to save their credentials.  
 
-* Types are ***Never add site***, ***Never Autofill***, ***Never do anything*** , and ***Never show icons in fields*** .  
-* Matching options are ***Base domain***, ***Host***, ***Starts with***, ***RegEx*** , and ***Exact*** .  
+* Types are ***Never add site***, ***Never Autofill***, ***Never do anything***, and ***Never show icons in fields***.  
+* Matching options are ***Base domain***, ***Host***, ***Starts with***, ***RegEx***, and ***Exact***.  
 
 The ***Import/Export Settings*** allow to save and transfer your currently set preferred settings.  
 
 * Import settings from other browsers or users. 
-* Choose to export {{ en.DWL }}  ***Settings, Password Generator*** templates, and the ***Never List*** .  
+* Choose to export {{ en.DWL }}  ***Settings, Password Generator*** templates, and the ***Never List***.  
 
 ### Data sources <a name="source"></a>
 
