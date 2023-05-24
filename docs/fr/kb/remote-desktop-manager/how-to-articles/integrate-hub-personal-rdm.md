@@ -22,4 +22,4 @@ Pour intégrer {{ fr.HUBP }} comme source de données dans {{ fr.RDM }} il faut 
 Il est possible de configurer une sauvegarde pour cette source de données à ce moment, mais cela peut aussi être fait plus tard.
 {% endsnippet %}
 
-1. Cliquer sur ***OK*** pour fermer la fenêtre et sauvegarder la source de données.
+7. Cliquer sur ***OK*** pour fermer la fenêtre et sauvegarder la source de données.

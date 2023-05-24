@@ -11,7 +11,7 @@ eleventyComputed:
 1. Cliquer ***Créer votre {{ fr.HUBP }}***.  
 ![Créer votre {{ fr.HUBP }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4050.png)  
 {% snippet icon.badgeInfo %}
-Si vous êtes un utilisateur de {{ fr.RDM }} Édition Free, vous pouvez connecter votre {{ fr.HUBP }} comme une source de données dans ***Fichier - Sources de données - Ajouter une nouvelle source de données***. Apprenez-en plus sur [comment intégrer {{ fr.HUBP }} dans {{ fr.RDM }}](/kb/remote-desktop-manager/how-to-articles/integrate-hub-personal-rdm/).
+Si vous êtes un utilisateur de {{ fr.RDM }} Édition Free, vous pouvez connecter votre {{ fr.HUBP }} comme une source de données dans ***Fichier - Sources de données - Ajouter une nouvelle source de données***. Apprenez-en plus sur [comment intégrer {{ fr.HUBP }} dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/integrate-hub-personal-rdm/).
 {% endsnippet %}
 
 4. Télécharger votre ***Kit d'urgence***.  

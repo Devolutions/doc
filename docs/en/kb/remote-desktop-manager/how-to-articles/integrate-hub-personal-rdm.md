@@ -22,4 +22,4 @@ To integrate {{ en.HUBP }} as a data source in {{ en.RDM }} you will be required
 It is possible to configure a backup for this datasource at this point, but it can also be done later.
 {% endsnippet %}
 
-1. Click ***OK*** to close the window and save the data source.
+7. Click ***OK*** to close the window and save the data source.
