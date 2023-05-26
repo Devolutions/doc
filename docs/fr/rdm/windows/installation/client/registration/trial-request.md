@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
   title: Demande d'essai
-  description: Si vous n'êtes pas prêt à acheter {{ fr.RDM }}, vous pouvez utiliser l'Édition Free ou suivre les étapes ci-dessous pour obtenir un essai gratuit de 30 jours de l'Édition Team.
+  description: Si vous n'êtes pas prêt à acheter {{ fr.RDM }}, vous pouvez utiliser l'Édition Free ou suivre ces étapes pour obtenir un essai gratuit de 30 jours de l'Édition Team.
   keyword:
   - trial
 ---
-Si vous n'êtes pas prêt à acheter {{ fr.RDM }}, vous pouvez utiliser l'[Édition Free](/fr/rdm/windows/installation/client/registration/free-edition/) ou suivre les étapes ci-dessous pour obtenir un essai gratuit de 30 jours de l'Édition Team.
+Si vous n'êtes pas prêt à acheter {{ fr.RDM }}, vous pouvez utiliser l'[Édition Free](/fr/rdm/windows/installation/client/registration/free-edition/) ou suivre les étapes suivantes pour obtenir un essai gratuit de 30 jours de l'Édition Team.
 
 {% snippet icon.badgeInfo %} 
 Si vous décidez de ne pas l'enregistrer avant la fin de la période d'essai, vos données ne seront pas altérées ni effacées. Vous aurez de nouveau accès à vos données une fois que la licence sera enregistrée.
