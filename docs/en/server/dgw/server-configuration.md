@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Gateway Configuration With {{ en.DPS }}
+  title: Devolutions Gateway configuration with {{ en.DPS }}
   order: 30
   description: This topic describes how to configure {{ en.DPS }}, free or not, to connect with {{ en.DGW }}.
   keywords:
@@ -38,7 +38,7 @@ It is possible to download an [.msi](https://devolutions.net/gateway/download) f
 ## Steps for Standalone Installation
 Installing by using the ***Standalone*** method will allow to install {{ en.DGW }} on a separate server than {{ en.DPS }}. It could be for performance purposes or access networks that {{ en.DPS }} can't access. Many {{ en.DGW }} can be used by {{ en.DPS }}, but only one {{ en.DGW }} can be installed on a machine.
 1. From the {{ en.RDMSCONSOLE }}, click on the ***Companions*** tab.  
-![Companions Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0003.png)
+![Companions Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0018.png)
 1. In the {{ en.DGW }} section, click on ***Install***.
 1. Choose ***Standalone Installation***.  
 ![Standalone](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0008.png)
