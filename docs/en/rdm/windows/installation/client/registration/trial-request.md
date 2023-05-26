@@ -18,7 +18,7 @@ If you decide not to register by the end of the trial, your data will not be alt
 1. In {{ en.RDM }}, go to ***Administration – Management – Licenses***.  
 ![Administration – Management – Licenses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3417.png) 
 1. Click ***Add License***.  
-![Add License Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4060.png) 
+![Add License](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4060.png) 
 1. Paste the trial license serial from step 2 in the ***License*** field, then click ***OK***.  
 ![License Field](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0000.png) 
 
