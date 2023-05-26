@@ -13,7 +13,7 @@ Les méthodes suivantes décrivent comment se connecter à {{ fr.DVLS }} à l'ai
 Cette nouvelle source de données créée avec PowerShell n'existera que dans le contexte de l'utilisateur qui l'a créée.
 {% endsnippet %}  
 
-1. Suivre les instructions dans [Module de base {{ fr.PS }}](/fr/kb/remote-desktop-manager/knowledge-base/rdm-powershell-core-module/) pour installer le module correctement.
+1. Suivre les instructions dans [Module de base {{ fr.PS }}](/fr/kb/devolutions-powershell/remote-desktop-manager/rdm-powershell-core-module/) pour installer le module correctement.
 1. Créer une nouvelle source de données {{ fr.DVLS }} en utilisant les [Clé de l'application et Clé secrète d'application](/fr/server/web-interface/administration/security-management/applications/) avec le script suivant. Ce script ne doit être utilisé qu'une seule fois afin d'éviter de créer de nombreuses nouvelles sources de données. Remplacer les valeurs des quatre variables par vos propres informations, puis exécuter le script.  
 ```
 $dsname = "DVLS PowerShell"  
@@ -32,7 +32,7 @@ Set-RDMCurrentDataSource $ds
 
 ## Méthode 2 : Utilisation de cmdlets {{ fr.DVLS }}
 
-1. Suivre les instructions dans [Module de base {{ fr.PS }}](/fr/kb/remote-desktop-manager/knowledge-base/rdm-powershell-core-module/) pour installer le module correctement.
+1. Suivre les instructions dans [Module de base {{ fr.PS }}](/fr/kb/devolutions-powershell/remote-desktop-manager/rdm-powershell-core-module/) pour installer le module correctement.
 1. Le script s'attend à ce que vos identifiants et votre URL de {{ fr.DVLS }} soient définis dans des variables d'environnement. Comme il est peu recommandé de stocker des identifiants dans des scripts, adapter un fichier local pour l'exécution de vos propres tests.  
 ```
 $env:DS_URL= ' http<area>://localhost/dps  

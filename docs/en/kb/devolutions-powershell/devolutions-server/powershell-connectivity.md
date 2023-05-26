@@ -13,7 +13,7 @@ The following methods describe how to connect to {{ en.DVLS }} using PowerShell.
 This new data source created with PowerShell will only exist in the user context it was created.
 {% endsnippet %}  
 
-1. Follow the instructions in [{{ en.PS }} Core Module](/kb/remote-desktop-manager/knowledge-base/rdm-powershell-core-module/) to properly install the module.
+1. Follow the instructions in [{{ en.PS }} Core Module](/kb/devolutions-powershell/remote-desktop-manager/rdm-powershell-core-module/) to properly install the module.
 1. Create a new {{ en.DVLS }} data source using an [Application Key and Application Secret](/server/web-interface/administration/security-management/applications/) with the following script. This script should only be used once to avoid creating many new data sources. Replace the values of the four variables with your own information, then run the script.  
 ```
 $dsname = "DVLS PowerShell"  
@@ -32,7 +32,7 @@ Set-RDMCurrentDataSource $ds
 
 ## Method 2: Using {{ en.DVLS }} Cmdlets
 
-1. Follow the instructions in [{{ en.PS }} Core Module](/kb/remote-desktop-manager/knowledge-base/rdm-powershell-core-module/) to properly install the module.
+1. Follow the instructions in [{{ en.PS }} Core Module](/kb/devolutions-powershell/remote-desktop-manager/rdm-powershell-core-module/) to properly install the module.
 1. The script expects that your {{ en.DVLS }} credentials and URL be defined in environment variables. Since storing credentials in scripts is frowned upon, adapt a local file for running your own tests.  
 ```
 $env:DS_URL= ' http<area>://localhost/dps  

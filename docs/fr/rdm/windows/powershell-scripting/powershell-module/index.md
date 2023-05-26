@@ -9,7 +9,7 @@ La version minimale requise de PowerShell est 7.2.
  
 ## Installer et importer manuellement le module PowerShell 
 
-Le module {{ fr.PS }} est maintenant disponible sur la [PowerShell Gallery](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). Il peut également être installé et importé en utilisant les commandes ci-dessous. Veuillez consulter [Module de base {{ fr.PS }}](/fr/kb/remote-desktop-manager/knowledge-base/rdm-powershell-core-module/) pour plus d'informations concernant l'utilisation du module PowerShell. 
+Le module {{ fr.PS }} est maintenant disponible sur la [PowerShell Gallery](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). Il peut également être installé et importé en utilisant les commandes ci-dessous. Veuillez consulter [Module de base {{ fr.PS }}](/fr/kb/devolutions-powershell/remote-desktop-manager/rdm-powershell-core-module/) pour plus d'informations concernant l'utilisation du module PowerShell. 
 
 ```powershell
 Install-Module -Name Devolutions.PowerShell 
