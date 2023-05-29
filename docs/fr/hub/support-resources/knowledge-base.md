@@ -13,7 +13,7 @@ Elle est structurée selon nos produits, ainsi qu’en quelques sous-catégories
 
 [{{ fr.DPS }}](/fr/kb/devolutions-server/)  
 
-[{{ fr.PHUB }}](/fr/kb/password-hub/)  
+[{{ fr.PHUB }}](/fr/kb/hub-business/)  
 
 [{{ fr.DWL }}](/fr/kb/devolutions-web-login/)  
 

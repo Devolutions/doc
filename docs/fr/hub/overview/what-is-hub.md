@@ -13,7 +13,7 @@ eleventyComputed:
 
 Vos informations sont stockées dans des entrées de différents types qui sont organisées en coffres. Les entrées sont gérées directement depuis l'interface Web et aucune application client n'est nécessaire.  
 
-La sécurité est au coeur de {{ fr.PHUB }} puisque l'application est hébergée par [Microsoft Azure](/fr/kb/password-hub/knowledge-base/hosting-region-password-hub/), un fournisseur de services infonuagiques hautement sécurisés, et chiffrée avec la norme de chiffrement la plus solide : AES-256.  
+La sécurité est au coeur de {{ fr.PHUB }} puisque l'application est hébergée par [Microsoft Azure](/fr/kb/hub-business/knowledge-base/hosting-region-password-hub/), un fournisseur de services infonuagiques hautement sécurisés, et chiffrée avec la norme de chiffrement la plus solide : AES-256.  
 
 {{ fr.PHUB }} possède de puissantes fonctionnalités de gestion des utilisateurs, de rapports et des options d'accessibilités. Les utilisateurs peuvent se voir attribuer des rôles et permissions et peuvent également être membres de groupes d 'utilisateurs avec des rôles et permissions prédéfinis, ce qui simplifie le processus d'intégration.  
 

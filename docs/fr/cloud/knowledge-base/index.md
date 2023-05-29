@@ -12,5 +12,5 @@ Elle est structurée selon nos produits, ainsi qu’en quelques sous-catégories
 
 * [{{ fr.RDM }}](/fr/kb/remote-desktop-manager/) 
 * [{{ fr.RDMS }}](/fr/kb/devolutions-server/) 
-* [{{ fr.HUB }}](/fr/kb/password-hub/) 
+* [{{ fr.HUB }}](/fr/kb/hub-business/) 
 * [{{ fr.DWL }}](/fr/kb/devolutions-web-login/) 

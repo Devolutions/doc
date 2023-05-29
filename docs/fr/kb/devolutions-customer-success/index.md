@@ -19,7 +19,7 @@ Elle est structurée selon nos produits, ainsi qu’en quelques sous-catégories
 
 &nbsp; &nbsp;[{{ fr.DPS }}](/fr/kb/devolutions-server/)  
 
-&nbsp; &nbsp;[{{ fr.PHUB }}](/fr/kb/password-hub/)  
+&nbsp; &nbsp;[{{ fr.PHUB }}](/fr/kb/hub-business/)  
 
 &nbsp; &nbsp;[{{ fr.DWL }}](/fr/kb/devolutions-web-login/)  
 

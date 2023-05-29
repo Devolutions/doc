@@ -14,7 +14,7 @@ Commencer votre [essai gratuit](https://password.devolutions.net/fr/business/sig
 Le nom du ***site {{ fr.HUBB }}*** devient l'adresse de votre site Web et ne peut pas être modifié après le déploiement de votre {{ fr.PHUB }}.
 {% endsnippet %}
 
-5. Sélectionner la région d'[hébergement](/fr/kb/password-hub/knowledge-base/hosting-region-password-hub/) de vos données et accepter les ***Conditions d'utilisation des services en ligne*** et la ***Politique relative à la vie privée de Devolutions***.  
+5. Sélectionner la région d'[hébergement](/fr/kb/hub-business/knowledge-base/hosting-region-password-hub/) de vos données et accepter les ***Conditions d'utilisation des services en ligne*** et la ***Politique relative à la vie privée de Devolutions***.  
 ![Commencer la version d'essai](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4006.png)
 1. Cliquer sur le bouton ***Commencer la version d'essai***.  
 
