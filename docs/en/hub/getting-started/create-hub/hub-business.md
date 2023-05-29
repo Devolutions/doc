@@ -14,7 +14,7 @@ Start your free {{ en.HUBB }} [trial](https://password.devolutions.net/business/
 The ***{{ en.PHUB }} site*** name becomes your website address and cannot be edited after the deployment of your {{ en.PHUB }}.
 {% endsnippet %}
 
-5. Select the region where you want your data to be [hosted](/kb/password-hub/knowledge-base/hosting-region-password-hub/) and accept the ***Terms of Online Services and Privacy Policy***.  
+5. Select the region where you want your data to be [hosted](/kb/hub-business/knowledge-base/hosting-region-password-hub/) and accept the ***Terms of Online Services and Privacy Policy***.  
 ![Start Trial](https://webdevolutions.azureedge.net/docs/en/hub/Hub4009.png)
 1. Click on ***Start Trial***.  
 

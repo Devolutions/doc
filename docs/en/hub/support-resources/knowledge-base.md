@@ -13,7 +13,7 @@ It is divided by our different products, as well as a few subcategories.
 
 [{{ en.DPS }}](/kb/devolutions-server/)  
 
-[{{ en.HUB }}](/kb/password-hub/)  
+[{{ en.HUB }}](/kb/hub-business/)  
 
 [{{ en.DWL }}](/kb/devolutions-web-login/)  
 

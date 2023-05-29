@@ -13,5 +13,5 @@ It is divided by our different products, as well as a few subcategories.
 
 * [{{ en.RDM }}](/kb/remote-desktop-manager/) 
 * [{{ en.RDMS }}](/kb/devolutions-server/) 
-* [{{ en.HUB }}](/kb/password-hub/) 
+* [{{ en.HUB }}](/kb/hub-business/) 
 * [{{ en.DWL }}](/kb/devolutions-web-login/) 

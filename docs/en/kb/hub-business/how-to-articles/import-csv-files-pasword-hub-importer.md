@@ -3,7 +3,7 @@ eleventyComputed:
   title: Import CSV Files in {{ en.PHUB }} Business with {{ en.PHUB }} Importer
 ---
 {% snippet icon.badgeInfo %}
-This topic assumes that your CSV files are ready to be imported. For tips and recommendations on how to prepare your CSV files for importation, visit [this topic](/kb/password-hub/knowledge-base/csv-files-import-strategies-format-hub-importer/)
+This topic assumes that your CSV files are ready to be imported. For tips and recommendations on how to prepare your CSV files for importation, visit [this topic](/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/)
 {% endsnippet %}  
 
 {{ en.PHUB }} Importer is our essential companion tool designed to import files into your {{ en.PHUB }} Follow the steps below to learn how to import CSV files in {{ en.PHUB }} Business.  

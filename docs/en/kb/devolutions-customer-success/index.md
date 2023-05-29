@@ -19,7 +19,7 @@ It is divided by our different products, as well as a few subcategories.
 
 &nbsp; &nbsp;[{{ en.DPS }}](/kb/devolutions-server/)  
 
-&nbsp; &nbsp;[{{ en.PHUB }}](/kb/password-hub/)  
+&nbsp; &nbsp;[{{ en.PHUB }}](/kb/hub-business/)  
 
 &nbsp; &nbsp;[{{ en.DWL }}](/kb/devolutions-web-login/)  
 

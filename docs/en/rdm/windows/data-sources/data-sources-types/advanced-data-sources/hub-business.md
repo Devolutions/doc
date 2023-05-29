@@ -5,7 +5,7 @@ title: Hub Business
 
 {{ en.HUB }} Business is for businesses who need to share passwords and credentials within their organization.  
 
-Please consult our [website](hhttps://devolutions.net/password-hub/) for more information on this service. 
+Please consult our [website](https://devolutions.net/password-hub/) for more information on this service. 
 
 {% snippet icon.badgeInfo %} 
 To start your free {{ en.HUB }} Business trial today, click [here](https://devolutions.net/password-hub/business/sign-up) . 

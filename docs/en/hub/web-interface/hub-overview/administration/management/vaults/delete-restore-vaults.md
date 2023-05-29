@@ -5,7 +5,7 @@ title: Delete and Restore Vaults
 
 * [Delete a vault](#delete-a-vault) 
 * [Restore a deleted vault](#restore-a-deleted-vault) 
-* [Restore a User vault](/kb/password-hub/how-to-articles/restore-user-vault/) 
+* [Restore a User vault](/kb/hub-business/how-to-articles/restore-user-vault/) 
 
 ### Delete a Vault 
 
