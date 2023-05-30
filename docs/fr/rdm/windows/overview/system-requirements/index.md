@@ -11,8 +11,6 @@ title: Configuration du système
     * Version 21H2 
 * Windows 10 
     * Versions 20H2, 21H1 et 21H2 
-* 8.1 
-* 7 SP1 
 
 **Windows Server:** 
 

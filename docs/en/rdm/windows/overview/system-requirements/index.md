@@ -11,8 +11,6 @@ title: System Requirements
     * Version 21H2 
 * Windows 10 
     * Version 20H2, 21H1 and 21H2 
-* 8.1 
-* 7 SP1 
 
 **Windows Server:**  
 
