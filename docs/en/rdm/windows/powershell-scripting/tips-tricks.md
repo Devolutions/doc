@@ -1,12 +1,12 @@
 ---
-title: PowerShell Scripting - Tips and tricks
+title: PowerShell scripting tips and tricks
 keywords:
 - PowerShell
 - GUID
 - Permissions
 - Inherited
 ---
-We are often asked for a full list of property names and sadly it is hard to provide for multiple reasons. The most effective approach remains examining the XML structure of a relevant entry to ascertain the field names.
+We are often asked for a full list of property names and it is hard to provide for multiple reasons. The most effective approach remains examining the XML structure of a relevant entry to ascertain the field names.
 
 ## Reverse engineering an entry's structure
 
