@@ -5,6 +5,8 @@ eleventyComputed:
   - GUID
   - XML
 ---
+* To optimize storage efficiency, the system employs default values for most fields. As a result, if a field retains its default value, it will be omitted from the displayed content. Therefore, it is important to be mindful of any newly added fields that appear in the updated content.
+* Credentials are subject to a distinct handling process that involves the utilization of GUIDs when referencing other entries. However, when employing alternative mechanisms, they are associated with predefined, static well-known GUIDs.  
 {% snippet icon.badgeInfo %}
 Learn more on [{{ en.RDM }}'s XML format](/kb/devolutions-powershell/remote-desktop-manager/xml-information/).
 {% endsnippet %}
@@ -12,10 +14,10 @@ Learn more on [{{ en.RDM }}'s XML format](/kb/devolutions-powershell/remote-desk
 <table>
 	<tr>
 		<th>
-SETTING
+Setting
 		</th>
 		<th>
-WELL KNOWN GUID
+Well-known GUID
 		</th>
 	</tr>
 	<tr>
