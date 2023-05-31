@@ -30,7 +30,7 @@ Par défaut
 	</tr>
 	<tr>
 		<td>
-Dépôt d'identifiant --- ***Invite lors de la connexion*** ---
+Dépôt d'identifiant --- Invite lors de la connexion ---
 		</td>
 		<td>
 "45479560-173E-435D-8848-C22F863FDC96"
