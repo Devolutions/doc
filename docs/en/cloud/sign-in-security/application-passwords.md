@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The ***Application Passwords*** are a way to quickly authenticate with other Devolutions applications like {{ en.RDM }}.  
 
-1. To create an ***Application Passwords***, click on the plus sign.  
+1. To create an ***Application Passwords***, click on the plus "+" sign.  
 ![!!Cloud4044.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4044.png) 
 1. Name the ***New Application Password*** to identify the application you will be using it with and click ***Next***.  
 ![!!Cloud4045.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4045.png) 
