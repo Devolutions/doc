@@ -6,7 +6,7 @@ eleventyComputed:
   - XML
 ---
 {% snippet icon.badgeInfo %}
-There are [additional GUIDs](/kb/devolutions-powershell/remote-desktop-manager/xml-information/) that are exclusive to {{ en.RDM }}.
+Learn more on [{{ en.RDM }}'s XML format](/kb/devolutions-powershell/remote-desktop-manager/xml-information/).
 {% endsnippet %}
 
 <table>
