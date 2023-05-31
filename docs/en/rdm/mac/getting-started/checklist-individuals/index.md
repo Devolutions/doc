@@ -38,9 +38,9 @@ Step 1 - Register your license:
 Step 2 - Add your Data Source and set up your Devolutions account and a master key. 
 		</td>
 		<td>
-Warning: When choosing any data source type that is not on-premises , you need to think about the safety of the data at rest and during transport. we strongly recommend that you further encrypt your data by applying a master key for file-based solutions, or a [Security Provider](/rdm/mac/commands/administration/security-provider/) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . This ensures only you can read the data.  
+Warning: When choosing any data source type that is not on-premises, you need to think about the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions, or a [Security Provider](/rdm/mac/commands/administration/security-provider/) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). This ensures only you can read the data.  
 
-Upon first launch, {{ en.RDM }} for Mac uses an SQLite data source. The different data sources are explained in the [Data Source Types](/rdm/mac/data-sources/data-sources-types/) section. For help seecting a data source tailored to your needs, please see [Choosing your data source (Individuals)](/rdm/mac/getting-started/checklist-individuals/select-data-source-type-individuals/) . 
+Upon first launch, {{ en.RDM }} for Mac uses an SQLite data source. The different data sources are explained in the [Data Source Types](/rdm/mac/data-sources/data-sources-types/) section. For help seecting a data source tailored to your needs, please see [Choosing your data source (Individuals)](/rdm/mac/getting-started/checklist-individuals/select-data-source-type-individuals/). 
 		</td>
 	</tr>
 	<tr>
@@ -48,7 +48,7 @@ Upon first launch, {{ en.RDM }} for Mac uses an SQLite data source. The differen
 
 		</td>
 		<td>
-Step 3 - Set up your Devolutions {{ en.OBACK }} . 
+Step 3 - Set up your Devolutions {{ en.OBACK }}. 
 		</td>
 		<td>
 Devolutions {{ en.OBACK }} allows you to securely back up your information for selected data sources. The backup is automatically executed 30 seconds after any modifications made to the data source content. It is best practice to always back up your data source. 
@@ -62,7 +62,7 @@ Devolutions {{ en.OBACK }} allows you to securely back up your information for s
 Step 4 - Create your [Default Settings](/rdm/mac/commands/file/templates/default-settings/) . 
 		</td>
 		<td>
-In ***File – Preferences*** , you can create, modify or reset default settings for your templates. Each entry type is supported and can have a default template defined to fit your requirements. 
+In ***File – Preferences***, you can create, modify or reset default settings for your templates. Each entry type is supported and can have a default template defined to fit your requirements. 
 		</td>
 	</tr>
 	<tr>
@@ -81,14 +81,10 @@ Top level folders are at the foundation of a solid security structure. Your fold
 
 		</td>
 		<td>
-Step 6 - [Import your data](/rdm/mac/commands/file/import/overview/) . 
+Step 6 - [Import your data](/rdm/mac/commands/file/import/overview/). 
 		</td>
 		<td>
-The final step is to import all of your data into {{ en.RDM }} . You can import your sessions, logins and contacts in a few steps. 
+The final step is to import all of your data into {{ en.RDM }}. You can import your sessions, logins and contacts in a few steps. 
 		</td>
 	</tr>
 </table>
-
-
-
-

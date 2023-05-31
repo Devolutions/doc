@@ -6,7 +6,7 @@ Cette section s'adresse surtout aux utilisateurs individuels, mais aussi aux éq
 Pour faciliter votre réflexion quant au choix d'une source de données, voici un tableau démontrant les différentes sources de données compatibles ainsi qu'une liste de critères déterminants selon le contexte. 
 
 {% snippet icon.shieldWarning %} 
-Lorsque vous choisissez une source de données qui n'est pas sur site , il est important de penser à la protection des données au repos et en transit. Nous vous recommandons fortement de chiffrer vos données stockées dans des fichiers à l’aide d’une clé maîtresse ou d'utiliser un [Fournisseur de sécurité](/common/commands/administration/settings/security-providers/) pour les [Sources de données avancées](/common/data-sources/data-sources-types/advanced-data-sources/) . Ainsi, vous serez la seule personne qui peut voir les données. 
+Lorsque vous choisissez une source de données qui n'est pas déployée sur site, il est important de penser à la protection des données au repos et en transit. Nous vous recommandons fortement de chiffrer vos données stockées dans des fichiers à l’aide d’une clé maîtresse ou d'utiliser un [Fournisseur de sécurité](/common/commands/administration/settings/security-providers/) pour les [Sources de données avancées](/common/data-sources/data-sources-types/advanced-data-sources/). Ainsi, vous serez la seule personne qui peut voir les données. 
 {% endsnippet %}
  
 <table>

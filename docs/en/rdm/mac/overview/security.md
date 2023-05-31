@@ -12,7 +12,7 @@ This cipher is incredibly secure. AES/Rijndael became effective as a U.S. Federa
 ## Tips 
 
 {% snippet icon.shieldWarning %} 
-Encryption of data while in transit is offered natively by our cloud services. Whenever you decide to use an on-premise solution, implementing encryption of data in transit must be implemented by using the tools involving your chosen technologies. Most customers that have security concerns already choose one of the supported [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , follow instructions specific to the chosen solution. 
+Encryption of data while in transit is offered natively by our cloud services. Whenever you decide to use an on-premises solution, implementing encryption of data in transit must be implemented by using the tools involving your chosen technologies. Most customers that have security concerns already choose one of the supported [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , follow instructions specific to the chosen solution. 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 

@@ -36,10 +36,10 @@ Stockez et gérez les mots de passe professionnels. <br>
 {{ fr.RDM }} centralise toutes les connexions à distance sur une plateforme unique partagée de manière sécurisée entre les utilisateurs. 
 		</td>
 		<td>
-{{ fr.RDMS }} vous permet de contrôler l'accès aux comptes privilégiés et de gérer les sessions à distance à partir d'une seule application pouvant être déployée sur site. 
+{{ fr.DVLS }} vous permet de contrôler l'accès aux comptes privilégiés et de gérer les sessions à distance à partir d'une seule application auto-hébergée. 
 		</td>
 		<td>
-{{ fr.PHUB }} est un gestionnaire infonuagique de mots de passe très sécuritaire pour les équipes. 
+{{ fr.HUB }} est un gestionnaire infonuagique de mots de passe très sécuritaire pour les équipes. 
 		</td>
 	</tr>
 </table>

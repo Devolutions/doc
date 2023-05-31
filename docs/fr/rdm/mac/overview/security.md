@@ -12,7 +12,7 @@ Cette clé de chiffrement est très sécuritaire. AES/Rijndael, standardisé au 
 ## Conseils 
 
 {% snippet icon.shieldWarning %} 
-Le chiffrement des données en transit est offert nativement par nos services infonuagiques. Lorsque vous décidez d'utiliser une solution sur site, le chiffrement des données en transit doit être implémenté à l'aide des outils de la technologie que vous avez choisie. La plupart des clients inquiets à propos de la sécurité ont choisi des [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . Suivez également les instructions spécifiques à la solution sélectionnée. 
+Le chiffrement des données en transit est offert nativement par nos services infonuagiques. Lorsque vous décidez d'utiliser une solution sur site, le chiffrement des données en transit doit être implémenté à l'aide des outils de la technologie que vous avez choisie. La plupart des clients inquiets à propos de la sécurité ont choisi des [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Suivez également les instructions spécifiques à la solution sélectionnée. 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
@@ -25,7 +25,7 @@ Nous vous recommandons de suivre ces conseils pour sécuriser vos données :
 * Chiffrer toutes les communications avec la base de données. 
 * Utiliser les [Paramètres du système](/fr/rdm/mac/commands/administration/system-settings/) pour contrôler les réglages qui affectent la sécurité. 
 * Utiliser un [Fournisseur de sécurité](/fr/rdm/mac/commands/administration/security-provider/) pour chiffrer les entrées plutôt que de les protéger uniquement par un mot de passe. 
-* Ajouter votre mot de passe pour une protection additionnelle du cache local en mode hors-ligne. Accéder à ***Fichier - Préférences - Sécurité*** . 
-* Demander un mot de passe pour lancer l'application et même exiger l'authentification à deux facteurs. Accéder à ***Fichier - Préférences - Sécurité*** . 
+* Ajouter votre mot de passe pour une protection additionnelle du cache local en mode hors-ligne. Accéder à ***Fichier – Préférences – Sécurité***. 
+* Demander un mot de passe pour lancer l'application et même exiger l'authentification à deux facteurs. Accéder à ***Fichier – Préférences – Sécurité***. 
 * Choisir de ne pas sauvegarder le mot de passe dans la source de données lorsque possible. Les informations d'identification seront alors demandées lors de la première connexion. 
 

@@ -4,7 +4,7 @@ title: Select the Data Source Type – Teams
 This topic is for teams that need the functionality offered by our Team Edition. 
 
 {% snippet icon.shieldWarning %} 
-When choosing any data source type that is not on-premise , you need to think of the safety of the data both at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions or a [Security Provider](/rdm/mac/commands/administration/security-provider/) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . This ensures only you can read the data. 
+When choosing any data source type that is not on-premises, you need to think of the safety of the data both at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions or a [Security Provider](/rdm/mac/commands/administration/security-provider/) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). This ensures only you can read the data. 
 {% endsnippet %}
  
 To make choosing the data source type easier, we are presenting a set of concerns and the list of data sources that can serve in that context. If you have multiple concerns, create the intersection of all sets to isolate a list of choices. 

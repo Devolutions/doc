@@ -38,9 +38,9 @@ Step 1 - Register your license:
 Step 2 - Add your [Data Source (for teams)](/rdm/mac/getting-started/checklist-teams/select-data-source-type-teams/) . 
 		</td>
 		<td>
-Warning: When choosing any data source type that is not on-premises , you need to think about the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions, or a [Security Provider](/rdm/mac/commands/administration/security-provider/) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . This ensures only you can read the data.  
+Warning: When choosing any data source type that is not on-premises, you need to think about the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions, or a [Security Provider](/rdm/mac/commands/administration/security-provider/) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). This ensures only you can read the data.  
 
-Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different data sources are explained in the [Data Sources](rdm/mac/data-sources/) section. For help selecting a data source tailored to your needs, please see [Choosing your data source (Teams)](/rdm/mac/getting-started/checklist-teams/select-data-source-type-teams/) . 
+Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different data sources are explained in the [Data Sources](rdm/mac/data-sources/) section. For help selecting a data source tailored to your needs, please see [Choosing your data source (Teams)](/rdm/mac/getting-started/checklist-teams/select-data-source-type-teams/). 
 		</td>
 	</tr>
 	<tr>
@@ -48,7 +48,7 @@ Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different d
 
 		</td>
 		<td>
-Step 3 - Select your [Security Provider](/rdm/mac/commands/administration/security-provider/) . 
+Step 3 - Select your [Security Provider](/rdm/mac/commands/administration/security-provider/). 
 		</td>
 		<td>
 Select your Security Provider before importing or creating any data in your database so nobody can read your entry configuration data, even when people have a direct access to your database. 
@@ -70,10 +70,10 @@ Top level folders are at the foundation of a solid security structure. Your fold
 
 		</td>
 		<td>
-Step 5 - Create your [Default Settings](RDM_DefaultSettings) . 
+Step 5 - Create your [Default Settings](RDM_DefaultSettings). 
 		</td>
 		<td>
-In ***File – Preferences*** , you can set options for {{ en.RDM }} and create default settings Templates. Each entry type is supported and can have a default template defined to fit your requirements. 
+In ***File – Preferences***, you can set options for {{ en.RDM }} and create default settings Templates. Each entry type is supported and can have a default template defined to fit your requirements. 
 		</td>
 	</tr>
 	<tr>
@@ -81,7 +81,7 @@ In ***File – Preferences*** , you can set options for {{ en.RDM }} and create 
 
 		</td>
 		<td>
-Step 6 - Create [Users](/rdm/mac/commands/administration/user-management/) . 
+Step 6 - Create [Users](/rdm/mac/commands/administration/user-management/). 
 		</td>
 		<td>
 {{ en.RDM }} supports advanced User Management. User accounts must be created manually by an administrator of the database. 
@@ -92,7 +92,7 @@ Step 6 - Create [Users](/rdm/mac/commands/administration/user-management/) .
 
 		</td>
 		<td>
-Step 7 - Create [User Groups](/rdm/mac/commands/administration/user-groups-management/) . 
+Step 7 - Create [User Groups](/rdm/mac/commands/administration/user-groups-management/). 
 		</td>
 		<td>
 Create [User Groups](/rdm/mac/commands/administration/user-groups-management/) to easily manage your security system. You can then assign users to User groups, making it easy to grant permissions to a set of users instead of having to manage permissions individually. 
@@ -125,7 +125,7 @@ Once your users are created you can then grant [Permissions](/rdm/mac/commands/a
 
 		</td>
 		<td>
-Step 10 - [Import your Data](File_ImportOverview) . 
+Step 10 - [Import your Data](File_ImportOverview). 
 		</td>
 		<td>
 The final step is to Import all of your data into {{ en.RDM }} . You can import your sessions, logins and contacts in a few steps. 

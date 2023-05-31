@@ -38,10 +38,10 @@ Store and Manage Business-User Passwords<br>
 {{ en.RDM }} centralizes all remote connections on a single platform that is securely shared between users and across the entire team. 
 		</td>
 		<td>
-{{ en.RDMS }} lets you control access to privileged accounts and manage remote sessions through a secure solution that can be deployed on-premises. 
+{{ en.DVLS }} allows you to control access to privileged accounts and manage remote sessions through a secure self-hosted solution, either locally or on your private cloud (Azure, for example). 
 		</td>
 		<td>
-{{ en.PHUB }} is a secure and cloud-based password manager for teams. 
+{{ en.HUB }} is a secure and cloud-based password manager for teams. 
 		</td>
 	</tr>
 </table>

@@ -3,8 +3,9 @@ eleventyComputed:
   title: Devolutions Server
   order: 10
 keywords:
-- on-premise on-premises
-- Roles
+- on-premises
+- self-hosted
+- roles
 ---
 
 ![!!{{ fr.DVLS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg)

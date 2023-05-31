@@ -181,7 +181,7 @@ Pros:
 
 Cons: 
 
-* Cannot be hosted on premises. 
+* Cannot be self-hosted. 
 * No offline mode. 
 		</td>
 	</tr>

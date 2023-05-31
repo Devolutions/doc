@@ -3,8 +3,9 @@ eleventyComputed:
   title: Devolutions Server
   order: 10
 keywords:
-- on-premise on-premises
-- Roles
+- on-premises
+- self-hosted
+- roles
 ---
 
 ![!!Devolutions Server logo]({{ locale[lang].projects.server.logo }})
@@ -82,20 +83,20 @@ Unlike with web browser access, {{ en.RDM }} can launch sessions using remote ac
 	</tr>
 	<tr>
 		<td>
-Installed on-premise on an application server. Store entries in an unlimited number of vaults and manage access to these entries with our {{ en.RBSS }} . 
+Self-hosted locally on an application server or on a private cloud. Store entries in an unlimited number of vaults and manage access to these entries with our {{ en.RBSS }}. 
 		</td>
 		<td>
 Users accessing the system will be granted permissions based on their membership in specific AD groups, making user management almost seamless for organizations that use AD to manage teams. 
 		</td>
 		<td>
-Implemented using a Web architecture so it can exposed publicly on the Internet or only to your Intranet or private cloud . 
+Implemented using a Web architecture so it can exposed publicly on the Internet or only to your Intranet or private cloud. 
 		</td>
 	</tr>
 	<tr>
 		<td>
 ![!!clip10050.png](https://webdevolutions.azureedge.net/docs/en/server/clip10050.png)  
 
-### Two-Factor Authentication 
+### Multi-Factor Authentication 
 		</td>
 		<td>
 ![!!clip10062.png](https://webdevolutions.azureedge.net/docs/en/server/clip10062.png)  
@@ -111,13 +112,13 @@ Implemented using a Web architecture so it can exposed publicly on the Internet 
 	<tr>
 		<td>
 
-Widest choice of [Two-factor authentication](/server/web-interface/administration/configuration/server-settings/security/two-factor/) (2FA) providers. Many providers can be enabled concurrently. They can selectively be enforced per user. 
+Widest choice of [multi-factor authentication](/server/web-interface/administration/configuration/server-settings/security/two-factor/) (MFA) providers. Many providers can be enabled concurrently. They can selectively be enforced per user. 
 		</td>
 		<td>
 Optionally receive email notifications for various events on sessions, users, user groups, etc. 
 		</td>
 		<td>
-Controlling access to {{ en.RDMS }} from IP addresses / ranges, including GeoIP restriction and IP allowlisting / blocklisting. 
+Controlling access to {{ en.DVLS }} from IP addresses/ranges, including GeoIP restriction and IP allowlisting/blocklisting. 
 		</td>
 	</tr>
 </table>

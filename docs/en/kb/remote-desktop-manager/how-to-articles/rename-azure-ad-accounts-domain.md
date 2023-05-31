@@ -11,7 +11,7 @@ You can use the SQL script below to rename your users to the correct domain.
 First make sure you have a backup of your SQL database since you will need to perform modifications on it.
 {% endsnippet %}
 
-1. In SSMS, connect to your Azure/on-premise SQL and create a new query. Make sure it runs against your {{ en.RDM }} database and **not** your master.
+1. In SSMS, connect to your Azure cloud/on-premises SQL Server and create a new query. Make sure it runs against your {{ en.RDM }} database and **not** your master.
 1. Use the following script with your information:
 ```
 DECLARE @oldDomain as varchar(255) = '@oldDomain'

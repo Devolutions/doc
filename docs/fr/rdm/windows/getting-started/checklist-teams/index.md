@@ -38,9 +38,9 @@ L’Édition Team de {{ fr.RDM }} offre une période d’essai de 30 jours. Si v
 Étape 2 - Ajouter une [Source de données](/fr/rdm/windows/data-sources/create-new-data-source/) (type Équipe). 
 		</td>
 		<td>
-Attention : Lorsque vous choisissez une source de données qui n'est pas sur site , il est important de penser à la protection des données au repos et en transit. Nous vous recommandons fortement de chiffrer vos données stockées dans des fichiers à l’aide d’une clé maîtresse ou d'utiliser un [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) pour les [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . Ainsi, vous serez la seule personne qui peut voir les données.  
+Attention : Lorsque vous choisissez une source de données qui n'est pas déployée sur site, il est important de penser à la protection des données au repos et en transit. Nous vous recommandons fortement de chiffrer vos données stockées dans des fichiers à l’aide d’une clé maîtresse ou d'utiliser un [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) pour les [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Ainsi, vous serez la seule personne qui peut voir les données.  
 
-Lors du premier démarrage, {{ fr.RDM }} utilise une source de données SQLite. Les différentes sources de données sont expliquées dans la section [Sources de données](/fr/rdm/windows/data-sources/) . Afin de sélectionner une source de données adaptée à vos besoins, veuillez consulter la section [Choisir le type de source de données - Équipes](/fr/rdm/windows/getting-started/checklist-teams/select-data-source-type/) . 
+Lors du premier démarrage, {{ fr.RDM }} utilise une source de données SQLite. Les différentes sources de données sont expliquées dans la section [Sources de données](/fr/rdm/windows/data-sources/). Afin de sélectionner une source de données adaptée à vos besoins, veuillez consulter la section [Choisir le type de source de données - Équipes](/fr/rdm/windows/getting-started/checklist-teams/select-data-source-type/). 
 		</td>
 	</tr>
 	<tr>
@@ -48,7 +48,7 @@ Lors du premier démarrage, {{ fr.RDM }} utilise une source de données SQLite. 
 
 		</td>
 		<td>
-Étape 3 - Choisir votre [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) . 
+Étape 3 - Choisir votre [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/). 
 		</td>
 		<td>
 Sélectionner un [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) avant d'importer ou de créer des données dans votre base de données. Ainsi, personne ne peut lire les données de configuration de vos entrées, même si les gens ont accès directement à votre base de données. 
@@ -72,7 +72,7 @@ Une solide structure de sécurité se base sur la structure des dossiers de prem
 
 		</td>
 		<td>
-Étape 5 - Créer vos [Paramètres par défaut](/fr/rdm/windows/commands/file/templates/default-settings/) . 
+Étape 5 - Créer vos [Paramètres par défaut](/fr/rdm/windows/commands/file/templates/default-settings/). 
 		</td>
 		<td>
 Dans ***Fichier – Options*** , vous pouvez définir des options de {{ fr.RDM }} et créer des modèles de paramètres par défaut. Chaque type d'entrée est pris en charge et peut se définir selon vos critères. Après avoir configuré les options, utilisez [l’installateur personnalisé](/fr/rdm/windows/installation/client/custom-installer-service/) pour partager une version préconfigurée avec votre équipe. 
@@ -83,7 +83,7 @@ Dans ***Fichier – Options*** , vous pouvez définir des options de {{ fr.RDM }
 
 		</td>
 		<td>
-Étape 6 - Créer des [Utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/) . 
+Étape 6 - Créer des [Utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/). 
 		</td>
 		<td>
 {{ fr.RDM }} prend en charge une gestion avancée des utilisateurs. Les comptes utilisateurs doivent être créés manuellement par un administrateur de la base de données. 
@@ -94,7 +94,7 @@ Dans ***Fichier – Options*** , vous pouvez définir des options de {{ fr.RDM }
 
 		</td>
 		<td>
-Étape 7 - Créer des [Groupes d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-groups-management/) . 
+Étape 7 - Créer des [Groupes d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-groups-management/). 
 		</td>
 		<td>
 Créer des [Groupes d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-groups-management/) pour gérer votre système de sécurité. Par la suite, vous pouvez affecter des utilisateurs à des groupes d'utilisateurs, facilitant l'attribution des permissions à un ensemble d'utilisateurs plutôt que de le faire individuellement. 
@@ -105,7 +105,7 @@ Créer des [Groupes d'utilisateurs](/fr/rdm/windows/commands/administration/mana
 
 		</td>
 		<td>
-Étape 8 - Créer des [Entrées](/fr/rdm/windows/commands/edit/entries/creating-new-entry/) . 
+Étape 8 - Créer des [Entrées](/fr/rdm/windows/commands/edit/entries/creating-new-entry/). 
 		</td>
 		<td>
 Une entrée contient toutes les informations de sessions (p.ex. RDP, SSH), d’identifiants, de sites Web, de RPV, de synchronisateurs ou de documents. 
@@ -116,7 +116,7 @@ Une entrée contient toutes les informations de sessions (p.ex. RDP, SSH), d’i
 
 		</td>
 		<td>
-Étape 9 - Attribuer des [Permissions](/fr/rdm/windows/user-groups-based-access-control/permissions/) . 
+Étape 9 - Attribuer des [Permissions](/fr/rdm/windows/user-groups-based-access-control/permissions/). 
 		</td>
 		<td>
 Une fois que les utilisateurs sont créés, il est possible de leur attribuer des [Permissions](/fr/rdm/windows/user-groups-based-access-control/permissions/) grâce à un système de contrôle d’accès basé sur les groupes d'utilisateurs. Les permissions configurées dans un dossier seront alors attitrées à chaque entrée située dans ce dossier. 
@@ -127,14 +127,10 @@ Une fois que les utilisateurs sont créés, il est possible de leur attribuer de
 
 		</td>
 		<td>
-Étape 10 - [Importer vos données](/fr/rdm/windows/commands/file/import/) . 
+Étape 10 - [Importer vos données](/fr/rdm/windows/commands/file/import/). 
 		</td>
 		<td>
-L’étape finale consiste à importer toutes vos données dans {{ fr.RDM }} . Vous pouvez importer vos sessions, vos identifiants et vos contacts en quelques étapes. 
+L’étape finale consiste à importer toutes vos données dans {{ fr.RDM }}. Vous pouvez importer vos sessions, vos identifiants et vos contacts en quelques étapes. 
 		</td>
 	</tr>
 </table>
-
-
-
-

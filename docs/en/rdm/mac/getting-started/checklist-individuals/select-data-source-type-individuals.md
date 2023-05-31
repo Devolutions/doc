@@ -6,7 +6,7 @@ This topic is primarily intended for individuals, but also for teams of three (3
 To help you select a data source, here is a set of concerns and the list of data sources that can serve in such context. If you have multiple concerns, create the intersection of all sets to isolate a list of choices. 
 
 {% snippet icon.shieldWarning %} 
-When choosing any data source type that is not on-premises , you need to think of the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions or a [Security Provider](/rdm/mac/commands/administration/security-provider/) for [/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . This ensures only you can read the data. 
+When choosing any data source type that is not on-premises, you need to think of the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions or a [Security Provider](/rdm/mac/commands/administration/security-provider/) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). This ensures only you can read the data. 
 {% endsnippet %}
  
 <table>

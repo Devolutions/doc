@@ -4,7 +4,7 @@ title: Select the Data Source Type – Teams
 This topic is for teams that use the functionality offered by our Team Edition.  
 
 {% snippet icon.shieldWarning %} 
-When choosing any data source type that is not on-premises , you need to think about the safety of the data both at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions or a [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . This ensures only you can read the data. 
+When choosing any data source type that is not on-premises, you need to think about the safety of the data both at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions or a [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures only you can read the data. 
 {% endsnippet %}
  
 To help you select a data source, here is a set of concerns and the list of data sources that can serve in such context.  
@@ -16,7 +16,7 @@ To help you select a data source, here is a set of concerns and the list of data
 CONCERN 
 		</th>
 		<th>
-{{ en.RDMS }} 
+{{ en.DVLS }} 
 		</th>
 		<th>
 SQL 

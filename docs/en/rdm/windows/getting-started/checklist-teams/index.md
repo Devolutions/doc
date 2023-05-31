@@ -38,9 +38,9 @@ Step 1 - Register your license:
 Step 2 - Add your [Data Source](/rdm/windows/data-sources/create-new-data-source/) (for teams). 
 		</td>
 		<td>
-Warning: When choosing any data source type that is not on-premises , you need to think about the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions or a [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . This ensures only you can read the data.  
+Warning: When choosing any data source type that is not on-premises, you need to think about the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions or a [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures only you can read the data.  
 
-Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different data sources are explained in the [Data Sources](/rdm/windows/data-sources/) section. For help selecting a data source tailored to your needs, please see [Choosing your data source (Teams)](/rdm/windows/getting-started/checklist-teams/select-data-source-type/) . 
+Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different data sources are explained in the [Data Sources](/rdm/windows/data-sources/) section. For help selecting a data source tailored to your needs, please see [Choosing your data source (Teams)](/rdm/windows/getting-started/checklist-teams/select-data-source-type/). 
 		</td>
 	</tr>
 	<tr>
@@ -48,7 +48,7 @@ Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different d
 
 		</td>
 		<td>
-Step 3 - Select your [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) . 
+Step 3 - Select your [Security Provider](/rdm/windows/commands/administration/settings/security-providers/). 
 		</td>
 		<td>
 Select your [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) before importing or creating any data in your database so nobody can read your entry configuration data, even when people have a direct access to your database. 
@@ -72,10 +72,10 @@ Top level folders are at the foundation of a solid security structure. Your fold
 
 		</td>
 		<td>
-Step 5 - Create your [Default Settings](/rdm/windows/commands/file/templates/default-settings/) . 
+Step 5 - Create your [Default Settings](/rdm/windows/commands/file/templates/default-settings/). 
 		</td>
 		<td>
-In ***File – Options*** you can set options for {{ en.RDM }} and create default settings Templates. Each entry type is supported and can have a default template defined to fit your requirements. After you configure the options, use the [Custom Installer](/rdm/windows/installation/client/custom-installer-service/) to share the pre-configured version with your team. 
+In ***File – Options***, you can set options for {{ en.RDM }} and create default settings Templates. Each entry type is supported and can have a default template defined to fit your requirements. After you configure the options, use the [Custom Installer](/rdm/windows/installation/client/custom-installer-service/) to share the pre-configured version with your team. 
 		</td>
 	</tr>
 	<tr>
@@ -83,7 +83,7 @@ In ***File – Options*** you can set options for {{ en.RDM }} and create defaul
 
 		</td>
 		<td>
-Step 6 - Create [Users](/rdm/windows/commands/administration/management/user-management/) . 
+Step 6 - Create [Users](/rdm/windows/commands/administration/management/user-management/). 
 		</td>
 		<td>
 {{ en.RDM }} supports advanced User Management. User accounts must be created manually by an administrator of the database. 
@@ -94,7 +94,7 @@ Step 6 - Create [Users](/rdm/windows/commands/administration/management/user-man
 
 		</td>
 		<td>
-Step 7 - Create [User Groups](/rdm/windows/commands/administration/management/user-groups-management/) . 
+Step 7 - Create [User Groups](/rdm/windows/commands/administration/management/user-groups-management/). 
 		</td>
 		<td>
 Create [User Groups](/rdm/windows/commands/administration/management/user-groups-management/) to manage your security system. You can then assign users to User Groups, making it easy to grant permissions to a set of users instead of having to manage permissions individually. 
@@ -105,7 +105,7 @@ Create [User Groups](/rdm/windows/commands/administration/management/user-groups
 
 		</td>
 		<td>
-Step 8 - Create [Entries](/rdm/windows/commands/edit/entries/creating-new-entry/) . 
+Step 8 - Create [Entries](/rdm/windows/commands/edit/entries/creating-new-entry/). 
 		</td>
 		<td>
 An entry is how you save information about your sessions (e.g. RDP, SSH connections), credentials, websites, VPNs, synchronizers and documents. 
@@ -116,7 +116,7 @@ An entry is how you save information about your sessions (e.g. RDP, SSH connecti
 
 		</td>
 		<td>
-Step 9 - Grant [Permissions](/rdm/windows/user-groups-based-access-control/permissions/) . 
+Step 9 - Grant [Permissions](/rdm/windows/user-groups-based-access-control/permissions/). 
 		</td>
 		<td>
 Once your users are created, you can then grant [Permissions](/rdm/windows/user-groups-based-access-control/permissions/) for user group-based access control. The permissions granted on the folder can be inherited by each entry set under that folder. 
@@ -127,10 +127,10 @@ Once your users are created, you can then grant [Permissions](/rdm/windows/user-
 
 		</td>
 		<td>
-Step 10 - [Import your Data](/rdm/windows/commands/file/import/) . 
+Step 10 - [Import your Data](/rdm/windows/commands/file/import/). 
 		</td>
 		<td>
-The final step is to import all of your data into {{ en.RDM }} . You can import your sessions, logins and contacts in a few steps. 
+The final step is to import all of your data into {{ en.RDM }}. You can import your sessions, logins and contacts in a few steps. 
 		</td>
 	</tr>
 </table>
