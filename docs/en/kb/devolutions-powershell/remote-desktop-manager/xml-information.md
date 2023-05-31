@@ -6,7 +6,7 @@ eleventyComputed:
   - XML
 ---
 * To optimize storage efficiency, the system employs default values for most fields. As a result, if a field retains its default value, it will be omitted from the displayed content. Therefore, it is important to be mindful of any newly added fields that appear in the updated content.
-* Credentials are subject to a distinct handling process that involves the utilization of GUIDs when referencing other entries. However, when employing alternative mechanisms, they are associated with predefined, static Well-Known GUIDs.  
+* Credentials are subject to a distinct handling process that involves the utilization of GUIDs when referencing other entries. However, when employing alternative mechanisms, they are associated with predefined, static well-known GUIDs.  
 {% snippet icon.badgeInfo %}
 There are [additional GUIDs](/kb/devolutions-powershell/devolutions-server/xml-information/) that are exclusive to {{ en.DVLS }} with the PAM module enabled.
 {% endsnippet %}
@@ -14,10 +14,10 @@ There are [additional GUIDs](/kb/devolutions-powershell/devolutions-server/xml-i
 <table>
 	<tr>
 		<th>
-SETTING
+Setting
 		</th>
 		<th>
-WELL KNOWN GUID
+Well-known GUID
 		</th>
 	</tr>
 	<tr>
@@ -41,7 +41,7 @@ Credential repository --- Prompt on connection ---
 Embedded
 		</td>
 		<td>
-Should be used for backwards compatibility only, we prefer not to list it here
+Should be used for backwards compatibility only, not listed
 		</td>
 	</tr>
 	<tr>
