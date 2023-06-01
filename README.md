@@ -41,34 +41,6 @@ To embed a YouTube video use the following shortcode, and use the video id as th
 {% youtube 'video_id' %}
 ```
 
-**Snippet**
-
-To create a new snippet, use the following shortcode, the icon is optional.
-The content of the snippet is interpreted as markdown.
-
-The list of the icons is available [here](https://github.com/Devolutions/doc/blob/master/docs/_data/icon.json).
-
-Most Used Icons
-- badgeCaution
-- badgeHelp
-- badgeInfo
-- badgeNotice
-- badgeWarning
-- shieldCaution
-- shieldInfo
-- shieldNotice
-- shieldWarning
-
-```markdown
-{% snippet %}
-Here is the content of my snippet
-{% endsnippet %}
-
-{% snippet icon.badgeCaution %}
-Here is the content of my snippet
-{% endsnippet %}
-```
-
 **Code Language**
 
 Here is the list of language supported: [Supported Languages — highlight.js 11.7.0 documentation](https://highlightjs.readthedocs.io/en/latest/supported-languages.html)  
