@@ -6,10 +6,6 @@ Devolutions's documentations build with 11ty.
 
 - [Node.js](https://nodejs.org/en/) >= 12.0.0
 
-## Markdown
-
-Since we are using 11ty to build our markdown files, we can add customs attributes and shortcodes.
-
 ### Variables
 
 You can use variables that are listed in the folder [_data](https://github.com/Devolutions/doc/tree/master/docs/_data).

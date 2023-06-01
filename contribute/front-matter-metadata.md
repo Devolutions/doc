@@ -1,6 +1,8 @@
 ---
 title: Devolutions front matter metadata
 ---
+## How to manage the front matter
+
 We use metadata for discoverability of the content via search and for driving aspects of the site experience. In the case of 11ty, global variables are managed using Front Matter, which is located at line 1 of the file and is enclosed between `---` at the beginning and end.  
 
 When editing an existing article, you typically won't need to modify the metadata. However, when creating a new article, certain mandatory metadata values must be included in the front matter of the file.  
