@@ -1,5 +1,5 @@
 ---
-title: PowerShell scripting tips and tricks
+title: List of property names for PowerShell script
 keywords:
 - PowerShell
 - GUID
