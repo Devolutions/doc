@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Essential information about {{ en.RDM }}'s XML format
+  title: Essential information about Credential property GUIDs in {{ en.RDM }}
   keywords: 
   - GUID
   - XML
@@ -93,3 +93,11 @@ None
 		</td>
 	</tr>
 </table>
+
+{% snippet icon.badgeInfo %}
+Sample script for {{ en.RDM }}: 
+```
+$session.CredentialConnectionID = "1310CF82-6FAB-4B7A-9EEA-3E2E451CA2CF"
+Set-RDMSession $session -Refresh
+```
+{% endsnippet %}
