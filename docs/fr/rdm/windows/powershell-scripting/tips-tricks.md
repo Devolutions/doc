@@ -10,7 +10,7 @@ On nous demande souvent une liste complète des noms de propriétés et il est d
 ## Rétro-ingénierie de la structure d'une entrée
 1. Créer une entrée du type requis, n'ajouter pour l'instant que les données obligatoires. Cliquer sur ***OK*** pour enregistrer l'entrée.
 1. Cliquer avec le bouton droit de la souris sur l'entrée, puis utiliser ***Presse-papiers – Copier***.
-1. Dans le dialogue qui s'affiche, passer à l'onglet ***Aperçu***, copier la structure XML dans un fichier texte. Il s'agit du AVANT.
+1. Dans le dialogue qui s'affiche, passer à l'onglet ***Aperçu***, copier la structure XML dans un fichier texte. Il s'agit de l'AVANT.
 1. Effectuer manuellement la modification de l'entrée qui doit être automatisée à l'aide de PowerShell, enregistrer l'entrée.
 1. En utilisant ***Presse-papiers – Copier***, enregistrer le XML modifié dans un autre fichier. Ceci est l'APRÈS.
 1. Comparer les deux fichiers avec votre outil de comparaison préféré, les champs qui ont changé et les valeurs qui ont été attribuées indiqueront ce que votre script doit faire.  
