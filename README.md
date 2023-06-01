@@ -33,14 +33,6 @@ eleventyComputed:
 
 ### Shortcodes
 
-**YouTube Video**
-
-To embed a YouTube video use the following shortcode, and use the video id as the parameter.
-
-```markdown
-{% youtube 'video_id' %}
-```
-
 **Code Language**
 
 Here is the list of language supported: [Supported Languages — highlight.js 11.7.0 documentation](https://highlightjs.readthedocs.io/en/latest/supported-languages.html)  
