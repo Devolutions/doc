@@ -6,35 +6,9 @@ Devolutions's documentations build with 11ty.
 
 - [Node.js](https://nodejs.org/en/) >= 12.0.0
 
-## Installation
-
-Using command line at the root of the project execute `npm i`.
-
-## Getting Started
-
-If you're using VSCode simply execute de npm scripts `serve` or using command line at the root of the project execute `npm run serve`.
-
 ## Markdown
 
 Since we are using 11ty to build our markdown files, we can add customs attributes and shortcodes.
-A Markdown Monster guide is available in [confluence](https://devolutions.atlassian.net/wiki/spaces/DOC/pages/3382181896/Markdown+Monster+Guide).
-
-### Front Matter
-
-11ty use Front Matter for global variables. It is set at the line 1 of the file starting with `---` and ending with `---`.
-
-```yaml
----
-title: My title # Used for the H1 and the navigation tree
-order: 0-9 # Used for custom ordering in the navigation tree
-description: The topic description # Used to summarizing the document (will be displayed in a search result from a search engine).
-keywords: Specific topic keywords # Used by the Algolia application.
-- keyword 1
-- keyword 2
----
-
-## Markdown Content
-```
 
 ### Variables
 
