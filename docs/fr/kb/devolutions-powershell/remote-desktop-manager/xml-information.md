@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Informations essentielles sur le format XML de {{ fr.RDM }}
+  title: Informations essentielles sur les GUID des propriétés identifiantes dans {{ fr.RDM }}
   keywords: 
   - GUID
   - XML
@@ -93,3 +93,11 @@ Recherche de {{ fr.PVLT }}, associée à CredentialPrivateVaultsearchString
 		</td>
 	</tr>
 </table>
+
+{% snippet icon.badgeInfo %}
+Exemple de script pour {{ en.RDM }} :
+```
+$session.CredentialConnectionID = "1310CF82-6FAB-4B7A-9EEA-3E2E451CA2CF"
+Set-RDMSession $session -Refresh
+```
+{% endsnippet %}
