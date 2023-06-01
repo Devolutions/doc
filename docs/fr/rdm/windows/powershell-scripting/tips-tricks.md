@@ -1,5 +1,5 @@
 ---
-title: Trucs et astuces pour la rédaction de scripts PowerShell
+title: Liste des noms de propriétés pour du script PowerShell
 keywords:
 - PowerShell
 - GUID
