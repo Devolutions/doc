@@ -15,11 +15,11 @@ On nous demande souvent une liste complète des noms de propriétés et il est d
 1. En utilisant ***Presse-papiers – Copier***, enregistrer le XML modifié dans un autre fichier. Ceci est l'APRÈS.
 1. Comparer les deux fichiers avec votre outil de comparaison préféré, les champs qui ont changé et les valeurs qui ont été attribuées indiqueront ce que votre script doit faire.  
 {% snippet icon.badgeInfo %}
-Lire davantage sur le [format XML {{ fr.RDM }}](/fr/kb/devolutions-powershell/remote-desktop-manager/xml-information/).
+Lire davantage sur les [propriétés des identifiants GUIDS dans {{ fr.RDM }}](/fr/kb/devolutions-powershell/remote-desktop-manager/xml-information/).
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-Lire davantage sur le [format XML {{ fr.DVLS }}](/fr/kb/devolutions-powershell/devolutions-server/xml-information/).
+Lire davantage sur les [propriétés des identifiants GUIDS dans {{ fr.DVLS }}](/fr/kb/devolutions-powershell/devolutions-server/xml-information/).
 {% endsnippet %}
 
 ## Trucs et astuces
