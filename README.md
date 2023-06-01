@@ -31,18 +31,3 @@ eleventyComputed:
 ---
 ```
 
-### Shortcodes
-
-**Code Language**
-
-Here is the list of language supported: [Supported Languages — highlight.js 11.7.0 documentation](https://highlightjs.readthedocs.io/en/latest/supported-languages.html)  
-
-Use this markdown syntax with triple back ticks followed by the code language.  
-
-Example for PowerShell:
-
-````
-```powershell
-Insert PowerShell code
-```
-````
