@@ -1,18 +1,42 @@
 ---
-title: How to Apply Policies
-keywords:
-- silent
-- unattended
+eleventyComputed:
+  title: How to apply policies
+  description: Administrative Templates facilitate the management of registry-based policy settings, which can be applied on the computer and/or user configuration. Group policy (GPO) is a tool that enables your organization to enforce global settings on all computers, and at the same time, harden {{ en.RDM }} security.
+  keywords:
+  - silent
+  - unattended
+  - gpo
+  - administrative template
+  - policy
 ---
-Administrative Templates facilitate the management of registry-based policy settings that can be applied on the computer and/or user configuration. Group policies (GPOs) are a tool for organizations to enforce settings on their computers and helps to strengthen {{ en.RDM }} security.  
+Administrative Templates facilitate the management of registry-based policy settings, which can be applied on the computer and/or user configuration. Group policy (GPO) is a tool that enables your organization to enforce global settings on all computers, and at the same time, harden {{ en.RDM }} security.
 
 {% snippet icon.badgeInfo %}
-The Administrative Templates are registry settings that are enforced by domains. They contain registry keys that can also be set on computers that are not joined to domains. Proper Access Control Lists (ACL) must be put in place to prevent users from modifying registry settings in this case. Refer to the tables below to find the registry key for each policy setting.
-{% endsnippet %}  
+Administrative Templates are registry settings that are enforced by domains. They contain registry keys that can also be set on computers that are not joined to domains. In this case, however, proper Access Control Lists (ACLs) must be put in place to prevent users from modifying registry settings. Refer to the tables below to find the registry key for each policy setting.
+{% endsnippet %}
 
-To learn more on how to deploy the {{ en.RDM }} Administrative Templates on your domain, please refer to the Microsoft Online Help.  
+To learn more on how to deploy the {{ en.RDM }} Administrative Templates on your domain, please refer to the Microsoft Online Help.
 
-The admx file is distributed with {{ en.RDM }} : you will find it in a Policies sub-folder. By default, the path is C:\Program Files\Devolutions\Remote Desktop Manager\Policies  
+## How to list RDM GPOs in the Local Group Policy Editor
+
+{% snippet icon.badgeInfo %}
+For now, the additional support is exclusively for the policies that require a numerical input higher than 0-1 (ex: ForceLockOnIdle).
+{% endsnippet %}
+
+{{ en.RDM }} includes an administrative template file (.admx), which describes the policies that are offered. You will find it in the policies subfolder. Before you can manage GPOs in RDM, you first need to list them in the Local Group Policy Editor. Here are the steps:
+
+1. Go to your policies subfolder. By default, the path is C:\Program Files (x86)\Devolutions\Remote Desktop Manager\Policies.
+1. Copy the Devolutions.admx file.
+1. Go to C:\Windows\PolicyDefinitions.
+1. Paste the Devolutions.admx file in the root of C:\Windows\PolicyDefinitions.
+1. Go to C:\Program Files (x86)\Devolutions\Remote Desktop Manager\Policies\en-US.
+1. Copy the Devolutions.adml file.
+1. Paste the Devolutions.adml file in C:\Windows\PolicyDefinitions\en-US.
+1. Open your Group Policy Editor and go to ***Computer Configuration – Administrative Templates – Devolutions – Remote Desktop Manager – Sessions***.
+1. In the ***Sessions*** folder, locate the specific policy that you wish to change.
+1. Right-click the specific policy, edit it accordingly, and save.  
+
+If {{ en.RDM }} is open when you make this change, then you will need to restart it for the new policy to take effect.
 
 ## Policies
 
@@ -920,4 +944,4 @@ Select the default tab for the {{ en.NPANE }} on launch
 
 ### Notes
 
-Note 1: %Root% can either be HKEY_LOCAL_MACHINE (HKLM) or HKEY_CURRENT_USER (HKCU) depending on how you want to enforce the policy. Please refer to Microsoft's documentation to make the best choice for your situation.
+Note 1: For each GPO’s corresponding Registry Key, the %Root% can either be HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER, depending on how you want to enforce the policy. Please refer to [Microsoft's online documentation](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users) to make the best choice for your organization's requirements.
