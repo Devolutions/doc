@@ -66,7 +66,7 @@ The essential tool designed to easily and quickly import credentials into your {
 
 ![!!workspace-icon-shadow.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/workspace-icon-shadow.png)  
 
-## Devolutions {{ en.WS }}  
+## {{ en.DWS }}  
 
 Centralized Cloud-Based Environment  
 		</td>

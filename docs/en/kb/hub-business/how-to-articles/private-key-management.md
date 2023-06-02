@@ -43,15 +43,15 @@ Follow the steps below to configure this method.
 
 1. In the ***Private Key Storage Methods*** section of your Devolutions Portal, click ***Configure*** in the mobile device method box.  
 ![Configure the Mobile Device Method](https://webdevolutions.azureedge.net/docs/en/kb/KB2188.png)
-1. [Download](https://devolutions.net/workspace/) on a mobile device the Devolutions {{ en.WS }} application.  
-![Download Devolutions {{ en.WS }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2189.png)
+1. [Download](https://devolutions.net/workspace/) on a mobile device the {{ en.DWS }} application.  
+![Download {{ en.DWS }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2189.png)
 1. Once done, click ***Continue***. A QR code will appear.
-1. In the Devolutions {{ en.WS }} application, access the ***Authenticator*** space.
+1. In the {{ en.DWS }} application, access the ***Authenticator*** space.
 1. Click ***Add***, then ***Scan a QR code***.
 1. Scan the QR code in the browser with your mobile device.
 ![Scan the QR Code](https://webdevolutions.azureedge.net/docs/en/kb/KB2190.png)
 
-The pairing process will begin. After it ends (it should only take a few seconds), your Private Key will be stored on the Devolutions {{ en.WS }} mobile application.  
+The pairing process will begin. After it ends (it should only take a few seconds), your Private Key will be stored on the {{ en.DWS }} mobile application.  
 
 #### Unpair
 

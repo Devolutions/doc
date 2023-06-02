@@ -64,7 +64,7 @@ Cet outil incontournable est conçu pour importer facilement et rapidement des i
 
 ![!!workspace-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/workspace-icon-shadow.png)  
 
-## Devolutions {{ fr.WS }}  
+## {{ fr.DWS }}  
 
 Environnement centralisé basé sur le nuage  
 		</td>
@@ -78,7 +78,7 @@ Centraliser, gérer et sécuriser les connexions à distance
 	</tr>
 	<tr>
 		<td>
-Devolutions {{ fr.WS }} est une application mobile et de bureau qui rassemble Authenticator, {{ fr.HUB }} Business, {{ fr.HUB }} Personal et {{ fr.DVLS }} en un seul emplacement centralisé et basé sur le nuage.
+{{ fr.DWS }} est une application mobile et de bureau qui rassemble Authenticator, {{ fr.HUB }} Business, {{ fr.HUB }} Personal et {{ fr.DVLS }} en un seul emplacement centralisé et basé sur le nuage.
 		</td>
 		<td>
 {{ fr.RDM }} centralise toutes les connnexions à distance sur une seule plateforme qui est partagée manière sécurisée entre les utilisateurs au sein de toute l'équipe. {{ fr.HUB }} peut être utilisé comme source de données dans {{ fr.RDM }}. 
