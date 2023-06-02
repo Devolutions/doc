@@ -1,18 +1,33 @@
 ---
-title: Knowledge Base
+title: Devolutions Knowledge Base
+description: The Devolutions User Experience team is proud to publish this knowledge base for our community of over 800k users!
+keywords:
+- Knowledge base
 ---
-![!!Knowledge Base logo](https://webdevolutions.azureedge.net/docs/en/server/logo-knowledge-base-120.png)
+![!!Devolutions Knowledge Base Logo](https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)
 
-The Devolutions User Experience team is proud to publish this [Knowledge Base](/kb/devolutions-customer-success/) for our community of over 800k users! 
+The Devolutions User Experience team is proud to publish this knowledge base for our community of over 800k users!
 
-It is structured around our various products, as well as a few sub-categories. 
+It is structured around our various products, as well as a few sub-categories.
 
-## Products 
+## General information
 
-[{{ en.RDM }}](/kb/remote-desktop-manager/)  
+&nbsp; &nbsp;[Securely send a file to our team](/kb/devolutions-customer-success/securely-send-file/)
 
-[{{ en.DVLS }}](/kb/devolutions-server/)  
+&nbsp; &nbsp;[Ticketing system](/kb/devolutions-customer-success/ticketing-system/)
 
-[{{ en.HUB }}](/kb/hub-business/)  
+## Products
 
-[{{ en.DWL }}](/kb/devolutions-web-login/)  
+&nbsp; &nbsp;[{{ en.RDM }}](/kb/remote-desktop-manager/)
+
+&nbsp; &nbsp;[{{ en.DVLS }}](/kb/devolutions-server/)
+
+&nbsp; &nbsp;[Devolutions {{ en.HUBB }}](/kb/hub-business/)
+
+&nbsp; &nbsp;[Devolutions {{ en.HUBP }}](/kb/hub-personal/)
+
+&nbsp; &nbsp;[{{ en.PS }}](/kb/devolutions-powershell/)
+
+&nbsp; &nbsp;[{{ en.DWL }}](/kb/devolutions-web-login/)
+
+&nbsp; &nbsp;[{{ en.DWS }}](/kb/devolutions-workspace/)
