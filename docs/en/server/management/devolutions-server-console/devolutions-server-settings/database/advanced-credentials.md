@@ -27,7 +27,7 @@ Description
 Management Tools 
 		</td>
 		<td>
-Credentials that allow the {{ en.RDMSCONSOLE }} to communicate with the SQL database. Must be an SQL account. 
+Credentials that allow the {{ en.DVLSCONSOLE }} to communicate with the SQL database. Must be an SQL account. 
 		</td>
 	</tr>
 	<tr>

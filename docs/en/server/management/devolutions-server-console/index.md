@@ -1,23 +1,23 @@
 ---
 title: Devolutions Server Console
 ---
-Because {{ en.RDMS }} is in fact a web application, the management interface is provided by the {{ en.RDMSCONSOLE }} . 
+Because {{ en.RDMS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }} . 
 
 ## Usage 
 
 {% snippet icon.badgeInfo %} 
-The {{ en.RDMSCONSOLE }} is now offered as a stand alone application. It is now available on the [Download page](https://server.devolutions.net/home/download) . 
+The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is now available on the [Download page](https://server.devolutions.net/home/download) . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
 Since {{ en.RDMS }} 2019.x, many features can only be managed from the web interface. Please see [Administration - Server Settings](/server/web-interface/administration/configuration/server-settings/) . 
 {% endsnippet %}
  
-The {{ en.RDMSCONSOLE }} manages the IIS metabase, it must be started with elevated privileges when the console needs to be used. Elevated privileges are granted when you use ***Run as administrator*** to launch the application. You can modify the shortcut to always start it in this manner.  
+The {{ en.DVLSCONSOLE }} manages the IIS metabase, it must be started with elevated privileges when the console needs to be used. Elevated privileges are granted when you use ***Run as administrator*** to launch the application. You can modify the shortcut to always start it in this manner.  
 
 ## Console 
 
-![{{ en.RDMSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8005.png) 
+![{{ en.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8005.png) 
 
 ## Settings 
 
@@ -39,7 +39,7 @@ Description
 Refresh 
 		</td>
 		<td>
-Refresh the list of {{ en.DVLS }} instances in the {{ en.RDMSCONSOLE }} . 
+Refresh the list of {{ en.DVLS }} instances in the {{ en.DVLSCONSOLE }} . 
 		</td>
 	</tr>
 	<tr>
@@ -419,7 +419,7 @@ Description
 Application Logs 
 		</td>
 		<td>
-Open the {{ en.RDMSCONSOLE }} Application Logs dialog. 
+Open the {{ en.DVLSCONSOLE }} Application Logs dialog. 
 		</td>
 	</tr>
 	<tr>
@@ -451,7 +451,7 @@ Run the IIS Diagnostic.
 Check For Update 
 		</td>
 		<td>
-Check for available updates for the {{ en.RDMSCONSOLE }} . 
+Check for available updates for the {{ en.DVLSCONSOLE }} . 
 		</td>
 	</tr>
 	<tr>

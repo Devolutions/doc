@@ -4,7 +4,7 @@ eleventyComputed:
   order: 50
 ---
 {% snippet icon.badgeInfo %} 
-Install the proper version of {{ en.RDMSCONSOLE }} before upgrading the {{ en.RDMS }} web application. It is available on the [Download page](https://server.devolutions.net/home/download) . 
+Install the proper version of {{ en.DVLSCONSOLE }} before upgrading the {{ en.RDMS }} web application. It is available on the [Download page](https://server.devolutions.net/home/download) . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -23,7 +23,7 @@ We highly recommend to test the upgrade process in a staging/test environment be
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-The upgrade steps will be performed with {{ en.RDMSCONSOLE }} . You will need to upgrade your copy to the latest version that is matched with the target version of {{ en.RDMS }} that you are preparing to install. Please follow the steps carefully. 
+The upgrade steps will be performed with {{ en.DVLSCONSOLE }} . You will need to upgrade your copy to the latest version that is matched with the target version of {{ en.RDMS }} that you are preparing to install. Please follow the steps carefully. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
@@ -48,8 +48,8 @@ We recommend doing a backup of the Encryption Keys before any operation that cou
 
 * Perform a full backup of the database, take precautions against that backup file being deleted by a maintenance plan. 
 * Archive the content of the web application folder containing the {{ en.RDMS }} instance, move to a safe place. 
-* Install the proper version of {{ en.RDMSCONSOLE }} . In each of the sub-topics related to a specific version of {{ en.RDMS }} you will find the version of the client that you need. 
-* {{ en.RDMSCONSOLE }} must be run with elevated privileges.  
+* Install the proper version of {{ en.DVLSCONSOLE }} . In each of the sub-topics related to a specific version of {{ en.RDMS }} you will find the version of the client that you need. 
+* {{ en.DVLSCONSOLE }} must be run with elevated privileges.  
 
 ### Phase 2 
 

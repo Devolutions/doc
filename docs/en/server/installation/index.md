@@ -12,7 +12,7 @@ A {{ en.RDMS }} instance is actually a web application. This allows for exposing
 The recommended [Topology](/server/overview/topologies/) is the use of two servers: a Database server and a Web server. For smaller installations, a single server can be used, but resources will be shared between the two user groups, thereby affecting performance.  
 
 {% snippet icon.badgeInfo %} 
-The {{ en.RDMSCONSOLE }} is now offered as a stand alone application. It is available on the [Devolutions download page](https://server.devolutions.net/home/download) . 
+The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is available on the [Devolutions download page](https://server.devolutions.net/home/download) . 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 

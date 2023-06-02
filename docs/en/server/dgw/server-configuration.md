@@ -15,7 +15,7 @@ To set up a free {{ en.DGW }}, it must be installed using the ***Side-by-side***
 {% endsnippet %}  
 
 This method supports more sessions if there is an available {{ en.DGW }} license(s). This installation process is the easier of the two. However, this method is recommended for simpler network layouts, and only one ***Side-by-side*** installation can be done per machine.
-1. From the {{ en.RDMSCONSOLE }}, click on the ***Companions*** tab.  
+1. From the {{ en.DVLSCONSOLE }}, click on the ***Companions*** tab.  
 ![Companions Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0003.png)
 1. In the {{ en.DGW }} section, click on ***Install***.  
 1. Choose ***Side-by-side Installation***.
@@ -37,7 +37,7 @@ It is possible to download an [.msi](https://devolutions.net/gateway/download) f
 
 ## Steps for Standalone Installation
 Installing by using the ***Standalone*** method will allow to install {{ en.DGW }} on a separate server than {{ en.DVLS }}. It could be for performance purposes or access networks that {{ en.DVLS }} can't access. Many {{ en.DGW }} can be used by {{ en.DVLS }}, but only one {{ en.DGW }} can be installed on a machine.
-1. From the {{ en.RDMSCONSOLE }}, click on the ***Companions*** tab.  
+1. From the {{ en.DVLSCONSOLE }}, click on the ***Companions*** tab.  
 ![Companions Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0018.png)
 1. In the {{ en.DGW }} section, click on ***Install***.
 1. Choose ***Standalone Installation***.  

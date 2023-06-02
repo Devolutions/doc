@@ -14,19 +14,19 @@ If you have recently received your serial licenses keys, please refer to the [Ge
 For more information about any of the features in the deploy wizard, please consult their respective topic under the [Server Settings](/server/management/devolutions-server-console/devolutions-server-settings/general/) chapter. 
 {% endsnippet %}
  
-Multiple {{ en.RDMS }} instances can be hosted on the same server. Each instance resides in its own Web Application within IIS. The following steps are carried out using the {{ en.RDMSCONSOLE }} .  
+Multiple {{ en.RDMS }} instances can be hosted on the same server. Each instance resides in its own Web Application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }} .  
 
 ## Procedure 
 
-1. Install {{ en.RDMSCONSOLE }} on the web server. It is available from the [Download](https://server.devolutions.net/home/download) page. 
-1. Execute {{ en.RDMSCONSOLE }} with elevated privileges (run as administrator). This is performed by right-clicking on the application, and selecting ***Run as administrator*** . 
+1. Install {{ en.DVLSCONSOLE }} on the web server. It is available from the [Download](https://server.devolutions.net/home/download) page. 
+1. Execute {{ en.DVLSCONSOLE }} with elevated privileges (run as administrator). This is performed by right-clicking on the application, and selecting ***Run as administrator*** . 
 {% snippet icon.shieldWarning %} 
-All operations performed through the console are done with the credentials used to launch {{ en.RDMSCONSOLE }} . If you must use other credentials, you will need to launch another Windows session. The ***RunAs*** command does not offer the option of starting a process with elevated privileges. The Run as different user option can work only if the account is a member of the server's local Administrator group. 
+All operations performed through the console are done with the credentials used to launch {{ en.DVLSCONSOLE }} . If you must use other credentials, you will need to launch another Windows session. The ***RunAs*** command does not offer the option of starting a process with elevated privileges. The Run as different user option can work only if the account is a member of the server's local Administrator group. 
 {% endsnippet %}
  
 ![Run as administrator](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8175.png)  
 
-3. In the {{ en.RDMSCONSOLE }}, click on the ***New*** button or the ***Install New Instance*** blue link to deploy a new server instance using the ***Basic Installation*** wizard. It is also possible to create an instance using the ***Advanced Installation*** wizard by selecting it from the drop down menu of the ***New*** button.
+3. In the {{ en.DVLSCONSOLE }}, click on the ***New*** button or the ***Install New Instance*** blue link to deploy a new server instance using the ***Basic Installation*** wizard. It is also possible to create an instance using the ***Advanced Installation*** wizard by selecting it from the drop down menu of the ***New*** button.
 ![Deploy a new Devolutions Server](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp8048.png)  
 
 ### Advanced Installation
@@ -68,7 +68,7 @@ Once the installation is complete, a summary indicates if the {{ en.RDMS }} has 
 ![Progress Installation Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8059.png)  
 
 ### Test the installation 
-To test the server installation, click on navigate to the instance URL (e.g.: http://<Machine_Name>/<InstanceName>) with any web browser or click on the Navigate to Website button in the {{ en.RDMSCONSOLE }} .  
+To test the server installation, click on navigate to the instance URL (e.g.: http://<Machine_Name>/<InstanceName>) with any web browser or click on the Navigate to Website button in the {{ en.DVLSCONSOLE }} .  
 
 ![Devolutions Server Console](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8060.png)   
 

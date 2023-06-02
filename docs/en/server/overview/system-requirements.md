@@ -26,7 +26,7 @@ The following table lists the minimum recommended hardware specifications for {{
 * Windows Server 2012R2 domain and forest functional level or higher. 
 * Microsoft .NET Framework 4.8 (Please refer to the [requirements for the .Net Framework](https://msdn.microsoft.com/en-us/library/8z6watww%28v=vs.110%29.aspx) for operating systems). 
 * Internet Information Services (IIS) 7.0 or better. 
-* {{ en.RDMSCONSOLE }} must be installed on the server to manage the {{ en.RDMS }} instance(s). 
+* {{ en.DVLSCONSOLE }} must be installed on the server to manage the {{ en.RDMS }} instance(s). 
 
 ## Server sizing
 

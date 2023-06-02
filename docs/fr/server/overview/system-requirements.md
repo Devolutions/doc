@@ -23,7 +23,7 @@ Le tableau suivant énumère les spécifications matérielles minimales recomman
 * Windows Server 2012R2 ou plus récent sur le domaine. 
 * Microsoft .NET Framework 4.8 (En ce qui a trait aux systèmes d'exploitation, veuillez consulter les [prérequis du cadre d'applications .NET](https://docs.microsoft.com/fr-ca/dotnet/framework/get-started/system-requirements) ). 
 * Internet Information Services (IIS) 7.0 ou plus récent. 
-* {{ fr.RDMSCONSOLE }} doit être installée sur le serveur pour mieux gérer les instances de {{ fr.RDMS }} . 
+* {{ fr.DVLSCONSOLE }} doit être installée sur le serveur pour mieux gérer les instances de {{ fr.RDMS }} . 
 
 ## Taille du serveur 
 Plusieurs clients nous demandent comment bien paramétrer leurs serveurs pour différentes topologies. En fait, il nous est impossible de répondre adéquatement à cette question. La façon dont le système fonctionne a un impact significatif sur l'utilisation des ressources de chaque noeud présent au sein de votre [topologie](GettingStarted_Topologies) choisie. La plupart de ces configurations sont des environnements virtuels, ce qui facilite l'octroi de ressources additionnelles. 

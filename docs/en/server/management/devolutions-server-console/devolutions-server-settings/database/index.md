@@ -129,7 +129,7 @@ SQL login account password if SQL Authentication is selected as the authenticati
 Advanced Credentials 
 		</td>
 		<td>
-Access the [Advanced Credentials](/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-credentials/) that allows the {{ en.RDMSCONSOLE }} to communicate with the SQL database. 
+Access the [Advanced Credentials](/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-credentials/) that allows the {{ en.DVLSCONSOLE }} to communicate with the SQL database. 
 		</td>
 	</tr>
 </table>

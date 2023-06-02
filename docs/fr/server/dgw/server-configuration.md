@@ -16,7 +16,7 @@ Pour mettre en place un {{ fr.DGW }} gratuit, il faut le configurer en utilisant
 {% endsnippet %}  
 
 Cette méthode permet également de gérer davantage de sessions si une ou plusieurs licences {{ fr.DGW }} sont disponibles. Cette procédure d'installation est la plus simple des deux. Cependant, cette méthode est recommandée pour les mises en page de réseau plus simples, et une seule installation ***côte à côte*** peut être effectuée par machine.
-1. Depuis la {{ fr.RDMSCONSOLE }}, cliquer sur l'onglet ***Compagnons***.  
+1. Depuis la {{ fr.DVLSCONSOLE }}, cliquer sur l'onglet ***Compagnons***.  
 ![Onglet Compagnons](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0003.png)
 1. Dans la section {{ fr.DGW }}, cliquer sur ***Installer***.
 1. Choisir ***Installation côte à côte***.  
@@ -38,7 +38,7 @@ Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/ga
 
 ## Étapes pour l'installation autonome
 L'installation en utilisant la méthode ***autonome*** permettra d'installer {{ fr.DGW }} sur un serveur distinct de {{ fr.DVLS }}. Cela peut être pour des raisons de performance ou pour accéder à des réseaux auxquels {{ fr.DVLS }} ne peut pas accéder. Plusieurs {{ fr.DGW }} peuvent être utilisés par {{ fr.DVLS }}, mais un seul {{ fr.DGW }} peut être installé sur une machine.
-1. Dans la {{ fr.RDMSCONSOLE }}, cliquer sur l'onglet ***Compagnons***.  
+1. Dans la {{ fr.DVLSCONSOLE }}, cliquer sur l'onglet ***Compagnons***.  
 ![Onglet Compagnons](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0017.png)
 1. Dans la section {{ fr.DGW }}, cliquer sur ***Installer***.
 1. Choisir ***Installation autonome***.  

@@ -82,9 +82,9 @@ An email server configuration is required to transmit important application mess
 
 ![Email Configuration](https://webdevolutions.azureedge.net/docs/en/kb/KB2217.png)
 
-## {{ en.RDMSCONSOLE }} Password
+## {{ en.DVLSCONSOLE }} Password
 
-It is recommended to add another layer of security by enabling and setting a password for the {{ en.RDMSCONSOLE }}. Learn about this password setting and all other console settings in [{{ en.RDMSCONSOLE }}](/server/management/devolutions-server-console/).
+It is recommended to add another layer of security by enabling and setting a password for the {{ en.DVLSCONSOLE }}. Learn about this password setting and all other console settings in [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/).
 
 ![Set Console Password](https://webdevolutions.azureedge.net/docs/en/kb/KB2218.png)
 
