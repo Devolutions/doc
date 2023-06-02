@@ -36,7 +36,7 @@ MULTIUTILISATEUR
 	</tr>
 	<tr>
 		<td>
-{{ fr.DHUB }} Personal 
+{{ fr.DHUBP }} 
 		</td>
 		<td>
 

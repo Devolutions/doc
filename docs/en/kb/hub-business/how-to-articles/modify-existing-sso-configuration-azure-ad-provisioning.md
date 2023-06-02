@@ -1,16 +1,16 @@
 ---
 title: Modify an Existing SSO Configuration for Azure AD Provisioning
 ---
-If you have enabled Single Sign-on (SSO) with {{ en.DHUB }} Business prior to January 9, 2023, it is not configured for Provisioning with Azure AD. To benefit from this feature, you must create a new configuration with Azure AD that will synchronize your desired ***User groups*** with {{ en.HUB }} Business.
+If you have enabled Single Sign-on (SSO) with {{ en.DHUBB }} prior to January 9, 2023, it is not configured for Provisioning with Azure AD. To benefit from this feature, you must create a new configuration with Azure AD that will synchronize your desired ***User groups*** with {{ en.HUBB }}.
 
 ## Create an Enterprise Application in Azure AD and Change the OpenID Configuration
 
-* Since you have already configured the Single Sign-on authentication, you will need to create a new enterprise application in Azure AD following the steps in [Configure SSO Authentication with Microsoft Azure](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/) and edit the current OpenID configuration in {{ en.HUB }} Business.
+* Since you have already configured the Single Sign-on authentication, you will need to create a new enterprise application in Azure AD following the steps in [Configure SSO Authentication with Microsoft Azure](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/) and edit the current OpenID configuration in {{ en.HUBB }}.
 * The provisioning feature with Azure AD has to be done within this new enterprise application.
 * After the synchronization is done, verify that all your existing users are flagged as synced and that they are in their respective Azure ***User Groups***. If some users are not flagged as synced, it means that they are not members of any Azure group that is part of the enterprise application in Azure.
 
 {% snippet icon.badgeCaution %}
-To avoid any downtime during this new setup, you need to complete the configuration in {{ en.HUB }} Business. Once the new values are saved, the Microsoft authentication will change the enterprise application and should be seamless.
+To avoid any downtime during this new setup, you need to complete the configuration in {{ en.HUBB }}. Once the new values are saved, the Microsoft authentication will change the enterprise application and should be seamless.
 {% endsnippet %}
 
 ## Replace {{ en.HUB }} Custom User Groups with Azure User Groups

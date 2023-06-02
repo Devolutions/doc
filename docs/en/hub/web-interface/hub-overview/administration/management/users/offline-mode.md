@@ -1,7 +1,7 @@
 ---
 title: Offline Mode
 ---
-In the ***Users*** section, you can enable the offline mode for specific users. This will allow a read-only cache of the entries of the {{ en.HUB }} Business.  
+In the ***Users*** section, you can enable the offline mode for specific users. This will allow a read-only cache of the entries of the {{ en.HUBB }}.  
 
 1. Go to ***Administration – Users*** . 
 1. Click on the ***Edit*** pencil icon next to the user. 

@@ -1,7 +1,7 @@
 ---
 title: Gestion des utilisateurs d'application
 ---
-Voici les étapes pour créer et attribuer des ***Utilisateurs d'application*** pour {{ fr.HUB }} Business.  
+Voici les étapes pour créer et attribuer des ***Utilisateurs d'application*** pour {{ fr.HUBB }}.  
 
 ### Créer un utilisateur d'application 
 

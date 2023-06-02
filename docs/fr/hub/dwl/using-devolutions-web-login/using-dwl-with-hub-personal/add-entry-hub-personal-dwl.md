@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Ajouter une entrée dans {{ fr.HUB }} Personal par {{ fr.DWL }}
+  title: Ajouter une entrée dans {{ fr.HUBP }} par {{ fr.DWL }}
 ---
-Des entrées de site Web, de carte de crédit, de contact et de note sécurisé peuvent être créées avec {{ fr.DWL }} dans {{ fr.HUB }} Personal. Pour ajouter une entrée de site Web, vous pouvez continuer à la [prochaine section](#ajouter-une-entrée-de-site-web) . Pour tout autre type d 'entrée, consultez plutôt [cette section](#ajouter-un-autre-type-dentrée) .  
+Des entrées de site Web, de carte de crédit, de contact et de note sécurisé peuvent être créées avec {{ fr.DWL }} dans {{ fr.HUBP }}. Pour ajouter une entrée de site Web, vous pouvez continuer à la [prochaine section](#ajouter-une-entrée-de-site-web) . Pour tout autre type d 'entrée, consultez plutôt [cette section](#ajouter-un-autre-type-dentrée) .  
 
 ## Ajouter une entrée de site Web 
 
@@ -12,7 +12,7 @@ Cette section explique comment créer une entrée à partir de vos identifiants 
  
 L 'entrée de site Web est utile pour enregistrer vos identifiants de connexion afin que vous n 'ayez plus à les mémoriser. Ces entrées sont également utilisées par {{ fr.DWL }} pour reconnaître un site Web et [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) .  
 
-La principale façon d 'y parvenir est de se connecter avec succès au site Web. {{ fr.DWL }} proposera automatiquement d 'enregistrer vos identifiants dans une nouvelle entrée de site Web dans {{ fr.HUB }} Personal. Il est également possible de créer manuellement l 'entrée de site Web.  
+La principale façon d 'y parvenir est de se connecter avec succès au site Web. {{ fr.DWL }} proposera automatiquement d 'enregistrer vos identifiants dans une nouvelle entrée de site Web dans {{ fr.HUBP }}. Il est également possible de créer manuellement l 'entrée de site Web.  
 
 Suivez les instructions dans les sections ci-dessous pour apprendre à ajouter une entrée de site Web :  
 
@@ -31,7 +31,7 @@ Suivez les instructions dans les sections ci-dessous pour apprendre à ajouter u
 1. Sélectionner le ***Dossier*** dans lequel sauvegarder l 'entrée de site Web. 
 1. Cliquer sur ***Enregistrer*** .  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.HUB }} Personal. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) .  
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.HUBP }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) .  
 
 ### Ajouter manuellement une entrée de site Web 
 
@@ -51,11 +51,11 @@ Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle ent
 1. Le ***Type de correspondance*** devrait être défini à ***Par défaut*** et ***{{ fr.DWL }}*** devrait être ***Activé*** . 
 1. Cliquer sur ***Enregistrer*** .  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.HUB }} Personal. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) .  
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.HUBP }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) .  
 
 ## Ajouter un autre type d 'entrée 
 
-Vous pouvez manuellement ajouter des entrées de ***Carte de crédit*** , de ***Contact*** et de ***Note sécurisée*** dans {{ fr.HUB }} Personal pour un accès rapide à partir de l 'extension de navigateur {{ fr.DWL }} .  
+Vous pouvez manuellement ajouter des entrées de ***Carte de crédit*** , de ***Contact*** et de ***Note sécurisée*** dans {{ fr.HUBP }} pour un accès rapide à partir de l 'extension de navigateur {{ fr.DWL }} .  
 
 Le processus est le même pour tous les types d 'entrées, mais les informations à remplir seront différentes en raison de la nature de chaque type d 'entrée. Suivez les étapes ci-dessous :  
 
@@ -73,5 +73,5 @@ Pour une entrée de ***Note sécurisée*** , vous pouvez spécifier un ***Type**
  
 5. Cliquer sur ***Ajouter*** .  
 
-Vos informations sont maintenant stockées en toute sécurité dans une nouvelle entrée dans {{ fr.HUB }} Personal. 
+Vos informations sont maintenant stockées en toute sécurité dans une nouvelle entrée dans {{ fr.HUBP }}. 
 

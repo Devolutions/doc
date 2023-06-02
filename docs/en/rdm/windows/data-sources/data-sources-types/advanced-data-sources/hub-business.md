@@ -3,12 +3,12 @@ title: Hub Business
 ---
 {% youtube 'wI4Jn3zLC8U' %}  
 
-{{ en.DHUB }} Business is for businesses who need to share passwords and credentials within their organization.  
+{{ en.DHUBB }} is for businesses who need to share passwords and credentials within their organization.  
 
 Please consult our [website](https://devolutions.net/password-hub/) for more information on this service. 
 
 {% snippet icon.badgeInfo %} 
-To start your free {{ en.DHUB }} Business trial today, click [here](https://devolutions.net/password-hub/business/sign-up) . 
+To start your free {{ en.DHUBB }} trial today, click [here](https://devolutions.net/password-hub/business/sign-up) . 
 {% endsnippet %}
  
 ## Settings 
@@ -48,7 +48,7 @@ Your [{{ en.DA }}](https://portal.devolutions.com/) Devolutions Account email ad
 Host 
 		</td>
 		<td>
-Copy in the ***Host*** your {{ en.DHUB }} Business URL (ex: https<area>://windjammer.devolutions.app/) or click on the 3 dots to get a drop down list to select from. 
+Copy in the ***Host*** your {{ en.DHUBB }} URL (ex: https<area>://windjammer.devolutions.app/) or click on the 3 dots to get a drop down list to select from. 
 		</td>
 	</tr>
 </table>

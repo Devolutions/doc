@@ -3,7 +3,7 @@ title: Hub Importer
 ---
 {% youtube 'zoNA11ql9Gk' %}  
 
-***{{ en.HUB }}*** ***Importer*** is the essential tool designed to import your data in {{ en.HUB }} Business. 
+***{{ en.HUB }}*** ***Importer*** is the essential tool designed to import your data in {{ en.HUBB }}. 
 
 {% snippet icon.badgeInfo %} 
 Only available on Windows. 

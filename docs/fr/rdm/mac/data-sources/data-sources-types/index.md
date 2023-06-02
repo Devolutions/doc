@@ -159,10 +159,10 @@ Inconvénients :
 ![!!ApplicationHubLarge.png](https://webdevolutions.azureedge.net/docs/common/ApplicationHubLarge.png) 
 		</td>
 		<td>
-{{ fr.DHUB }} Business 
+{{ fr.DHUBB }} 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac se connecte au coffre {{ fr.DHUB }} Business.  
+{{ fr.RDM }} pour Mac se connecte au coffre {{ fr.DHUBB }}.  
 
 Notez qu'il existe différents niveaux d'abonnement pour ce produit.  
 
@@ -187,10 +187,10 @@ Inconvénients :
 ![!!Hub-personal-32x32.png](https://webdevolutions.azureedge.net/docs/common/hub-personal-32x32.png) 
 		</td>
 		<td>
-{{ fr.DHUB }} Personal 
+{{ fr.DHUBP }} 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac utilise {{ fr.DHUB }} Personal pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet.  
+{{ fr.RDM }} pour Mac utilise {{ fr.DHUBP }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet.  
 
 Pour plus d'informations, veuillez consulter notre rubrique [Hub Personnal](/fr/rdm/mac/data-sources/data-sources-types/hub-personal/) . 
 		</td>

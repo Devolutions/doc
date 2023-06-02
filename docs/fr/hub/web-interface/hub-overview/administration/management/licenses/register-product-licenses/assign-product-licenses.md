@@ -1,7 +1,7 @@
 ---
 title: Assigner les licences de produit
 ---
-Assigner des ***Licences de produit*** Devolutions dans {{ fr.HUB }} Business a des utilisateurs.  
+Assigner des ***Licences de produit*** Devolutions dans {{ fr.HUBB }} a des utilisateurs.  
 
 1. Aller dans ***Administration - Licences*** . 
 1. Cliquer sur le bouton ***Modifier*** à côté de la licence du produit.  

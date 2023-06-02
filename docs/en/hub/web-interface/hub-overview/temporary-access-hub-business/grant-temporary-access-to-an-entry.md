@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Grant Temporary Access to an Entry in {{ en.HUB }} Business
+  title: Grant Temporary Access to an Entry in {{ en.HUBB }}
 ---
 {% youtube '5XwhadoYKKc' %}  
 
 {% snippet icon.badgeInfo %} 
-The ***Temporary Access*** feature is also available in {{ en.RDM }} with {{ en.HUB }} Business. You can view and approve temporary access requests in {{ en.RDM }} even if the request was made in {{ en.HUB }} Business. Visit [this topic](/rdm/windows/user-interface/content-area/temporary-access-rdm/grant-temporary-access-to-an-entry/) to learn more. 
+The ***Temporary Access*** feature is also available in {{ en.RDM }} with {{ en.HUBB }}. You can view and approve temporary access requests in {{ en.RDM }} even if the request was made in {{ en.HUBB }}. Visit [this topic](/rdm/windows/user-interface/content-area/temporary-access-rdm/grant-temporary-access-to-an-entry/) to learn more. 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The authorizer must then approve or deny the request.  
@@ -14,7 +14,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 ### View Temporary Access Requests 
 
-When a user sends you a temporary access request, you will be automatically notified by email. You can click on the ***Go to entry dashboard*** button to view the request directly in the entry in {{ en.HUB }} Business.  
+When a user sends you a temporary access request, you will be automatically notified by email. You can click on the ***Go to entry dashboard*** button to view the request directly in the entry in {{ en.HUBB }}.  
 ![Temporary Access Request Email](https://webdevolutions.azureedge.net/docs/en/hub/Hub2035.png)  
 Once you are on the entry, you will see a ***Temporary Access Request*** section near the top. Clicking on the ***View Details*** button opens the ***Temporary Access Response*** window, which is described in the next section .  
 ![Temporary Access Request From the Entry](https://webdevolutions.azureedge.net/docs/en/hub/Hub2037.png)  
@@ -37,7 +37,7 @@ After the approbation, for any reason, you may revoke the user 's temporary acce
 ![Revoke Temporary Access](https://webdevolutions.azureedge.net/docs/en/hub/Hub2041.png)  
 
 {% snippet icon.badgeInfo %} 
-To learn more about the end user experience in {{ en.HUB }} Business, visit our [Request Temporary Access to an Entry in {{ en.HUB }} Business](/hub/web-interface/hub-overview/temporary-access-hub-business/request-temporary-access-to-an-entry/) topic. 
+To learn more about the end user experience in {{ en.HUBB }}, visit our [Request Temporary Access to an Entry in {{ en.HUBB }}](/hub/web-interface/hub-overview/temporary-access-hub-business/request-temporary-access-to-an-entry/) topic. 
 {% endsnippet %}
  
 

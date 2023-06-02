@@ -3,7 +3,7 @@ eleventyComputed:
   title: Accorder un accès temporaire à une entrée dans {{ fr.RDM }}
 ---
 {% snippet icon.badgeInfo %} 
-Si une demande d'accès temporaire a été faite dans {{ fr.RDM }} à partir d'une base de données {{ fr.HUB }} , le processus d'autorisation doit être effectué dans {{ fr.HUB }} . Consultez notre rubrique [Accorder un accès temporaire à une entrée dans {{ fr.HUB }} Business](/fr/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) . 
+Si une demande d'accès temporaire a été faite dans {{ fr.RDM }} à partir d'une base de données {{ fr.HUB }} , le processus d'autorisation doit être effectué dans {{ fr.HUB }} . Consultez notre rubrique [Accorder un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) . 
 {% endsnippet %}
  
 La fonction d' ***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'autorisateur doit alors approuver ou refuser la demande. 

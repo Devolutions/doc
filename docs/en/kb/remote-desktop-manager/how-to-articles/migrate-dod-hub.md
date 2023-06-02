@@ -3,7 +3,7 @@ eleventyComputed:
   title: Migrate from {{ en.DOD }} to {{ en.HUBP }}
   description: To benefit from all the latest features and better security, it is recommended to use {{ en.HUBP }} instead of {{ en.DOD }}.
 ---
-To benefit from all the latest features, it is recommended to use {{ en.HUBP }} instead of {{ en.DOD }}. Devolutions {{ en.HUBP }} provides a secure vault for individual users to safeguard and manage their personal passwords. It also serves as a data source for {{ en.RDM }}.
+To benefit from all the latest features, it is recommended to use {{ en.HUBP }} instead of {{ en.DOD }}. {{ en.DHUBP }} provides a secure vault for individual users to safeguard and manage their personal passwords. It also serves as a data source for {{ en.RDM }}.
 {% snippet icon.badgeInfo %}
 A [{{ en.HUBP }}](/hub/getting-started/create-hub/hub-personal/) needs to be created before migrating from {{ en.DOD }}.
 {% endsnippet %}  

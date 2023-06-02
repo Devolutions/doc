@@ -1,7 +1,7 @@
 ---
 title: Delete and Restore Vaults
 ---
-***Vaults*** can be deleted and restored by administrators in {{ en.HUB }} Business.  
+***Vaults*** can be deleted and restored by administrators in {{ en.HUBB }}.  
 
 * [Delete a vault](#delete-a-vault) 
 * [Restore a deleted vault](#restore-a-deleted-vault) 

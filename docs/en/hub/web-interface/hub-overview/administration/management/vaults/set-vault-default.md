@@ -1,7 +1,7 @@
 ---
 title: Set a Vault Default
 ---
-You can set a specific vault to open by default when launching your {{ en.HUB }} Business.  
+You can set a specific vault to open by default when launching your {{ en.HUBB }}.  
 
 1. Select the vault to set as default. 
 1. In the ***Filter*** box, click ***Display Settings*** . 

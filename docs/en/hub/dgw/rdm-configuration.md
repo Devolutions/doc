@@ -17,7 +17,7 @@ The following instructions explain how to use {{ en.DGW }} in an RDP session.
 ![{{ en.DGW }}](https://webdevolutions.azureedge.net/docs/en/hub/DGW0008.png) 
 1. In the same section, set the ***Connect*** option to ***Always connect***.  
 ![Always Connect](https://webdevolutions.azureedge.net/docs/en/hub/DGW0009.png) 
-1. In the ***Settings (Devolutions Gateway)*** tab select the gateway configured in [{{ en.DHUB }} Business Configuration](/hub/dgw/hub-business-configuration/).  
+1. In the ***Settings (Devolutions Gateway)*** tab select the gateway configured in [{{ en.DHUBB }} Configuration](/hub/dgw/hub-business-configuration/).  
 ![Settings](https://webdevolutions.azureedge.net/docs/en/hub/DGW0007.png) 
 {% snippet icon.badgeInfo %}
 To remove the five-second delay when opening a connection, set the ***Delay*** value to 0 in the ***Advanced*** tab.

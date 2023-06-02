@@ -1,7 +1,7 @@
 ---
 title: Mot de passe temporaire
 ---
-Un ***Mot de passe temporaire*** est créé automatiquement pour les nouveaux utilisateurs qui sont invités dans {{ fr.HUB }} Business et qui n'ont pas de {{ fr.DA }} .  
+Un ***Mot de passe temporaire*** est créé automatiquement pour les nouveaux utilisateurs qui sont invités dans {{ fr.HUBB }} et qui n'ont pas de {{ fr.DA }} .  
 
 {% snippet icon.badgeNotice %} 
 Vous pouvez prédéfinir leur paramètre dans ***Administration - Paramètres du système - Général*** . Pour avoir un aperçu sur le sujet, consulter cette rubrique: [Général](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-settings/general/) . 
@@ -13,7 +13,7 @@ Vous pouvez prédéfinir leur paramètre dans ***Administration - Paramètres du
 
 ### Invité avec un {{ fr.DA }} existant 
 
-Dans le processus d'invitation, lorsqu'un {{ fr.DA }} est trouvé pour l'utilisateur, il liera automatiquement le compte à {{ fr.HUB }} Business. 
+Dans le processus d'invitation, lorsqu'un {{ fr.DA }} est trouvé pour l'utilisateur, il liera automatiquement le compte à {{ fr.HUBB }}. 
 {% snippet icon.badgeNotice %} 
 Dans ce cas, le ***Mot de passe temporaire*** n'est pas utilisé, car le compte existe déjà. 
 {% endsnippet %}
@@ -41,7 +41,7 @@ Lorsque vous invitez un utilisateur qui n'a pas de {{ fr.DA }} , {{ fr.HUB }} cr
 Dans le processus, vous pouvez choisir de gérer manuellement le ***Mot de passe temporaire*** de {{ fr.HUB }} .  
 ![!!Hub4187.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4187.png) 
 
-Dans la fenêtre de ***Rapport des invitations de masse*** , vous devrez copier ou télécharger le PDF du ***Mot de passe temporaire*** pour chacun de vos utilisateurs. Ceci est obligatoire, car ils auront besoin des informations pour accéder à {{ fr.HUB }} Business.  
+Dans la fenêtre de ***Rapport des invitations de masse*** , vous devrez copier ou télécharger le PDF du ***Mot de passe temporaire*** pour chacun de vos utilisateurs. Ceci est obligatoire, car ils auront besoin des informations pour accéder à {{ fr.HUBB }}.  
 ![!!Hub4188.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4188.png) 
 
 L'utilisateur recevra un courriel d'invitation automatique avec un lien vers le {{ fr.HUB }} et un avertissement indiquant que vous lui transmettrez le ***Mot de passe temporaire*** .  

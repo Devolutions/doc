@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Import CSV Files in {{ en.HUB }} Business with {{ en.HUB }} Importer
+  title: Import CSV Files in {{ en.HUBB }} with {{ en.HUB }} Importer
 ---
 {% snippet icon.badgeInfo %}
 This topic assumes that your CSV files are ready to be imported. For tips and recommendations on how to prepare your CSV files for importation, visit [this topic](/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/)
 {% endsnippet %}  
 
-{{ en.HUB }} Importer is our essential companion tool designed to import files into your {{ en.HUB }} Follow the steps below to learn how to import CSV files in {{ en.HUB }} Business.  
+{{ en.HUB }} Importer is our essential companion tool designed to import files into your {{ en.HUB }} Follow the steps below to learn how to import CSV files in {{ en.HUBB }}.  
 
 {% snippet icon.badgeInfo %}
 If you do not have {{ en.HUB }} Importer, [download and install it](https://devolutions.net/password-hub-importer) first. Then, after launching the application, select your ***Hub Business Host*** and log in with your {{ en.DA }}

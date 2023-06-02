@@ -62,10 +62,10 @@ Windows
 	</tr>
 	<tr>
 		<td>
-[{{ fr.DHUB }} Business](/fr/hub/overview/what-is-hub/) 
+[{{ fr.DHUBB }}](/fr/hub/overview/what-is-hub/) 
 		</td>
 		<td>
-{{ fr.DHUB }} Business est une solution infonuagique de gestion sécuritaire de mots de passe conçue pour les équipes. Grâce à son interface Web conviviale, vous pourrez stocker et gérer des informations confidentielles, dont les mots de passe de l’entreprise, en toute tranquillité d’esprit. 
+{{ fr.DHUBB }} est une solution infonuagique de gestion sécuritaire de mots de passe conçue pour les équipes. Grâce à son interface Web conviviale, vous pourrez stocker et gérer des informations confidentielles, dont les mots de passe de l’entreprise, en toute tranquillité d’esprit. 
 		</td>
 		<td>
 Windows, macOS 

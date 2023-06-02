@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
-  title: Récupérer des identifiants de {{ fr.HUB }} Business avec {{ fr.DWL }}
+  title: Récupérer des identifiants de {{ fr.HUBB }} avec {{ fr.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-Vous avez besoin d 'entrées de site Web dans {{ fr.HUB }} Business pour pouvoir récupérer leurs identifiants. Si ce n 'est pas le cas, commencez par [Ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) . 
+Vous avez besoin d 'entrées de site Web dans {{ fr.HUBB }} pour pouvoir récupérer leurs identifiants. Si ce n 'est pas le cas, commencez par [Ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) . 
 {% endsnippet %}
  
-{{ fr.DWL }} facilite l 'accès à vos identifiants en faisant automatiquement correspondre les sites Web aux identifiants enregistrés dans les entrée de sites Web de {{ fr.HUB }} Business. Il est également possible de filtrer vos entrées via {{ fr.DWL }} pour trouver manuellement vos identifiants.  
+{{ fr.DWL }} facilite l 'accès à vos identifiants en faisant automatiquement correspondre les sites Web aux identifiants enregistrés dans les entrée de sites Web de {{ fr.HUBB }}. Il est également possible de filtrer vos entrées via {{ fr.DWL }} pour trouver manuellement vos identifiants.  
 
-Après l ' [installation](/fr/hub/dwl/installation/) de {{ fr.DWL }} et son [couplage](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) avec {{ fr.HUB }} Business, vous pouvez immédiatement utiliser l 'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d 'abord les étapes de la section [Paramètres](#paramètres) : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la [Récupération des identifiants](#récupération-des-identifiants) .  
+Après l ' [installation](/fr/hub/dwl/installation/) de {{ fr.DWL }} et son [couplage](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) avec {{ fr.HUBB }}, vous pouvez immédiatement utiliser l 'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d 'abord les étapes de la section [Paramètres](#paramètres) : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la [Récupération des identifiants](#récupération-des-identifiants) .  
 
 ## Paramètres 
 
@@ -42,7 +42,7 @@ Vous pouvez maintenant continuer à la [prochaine section](#récupération-des-i
 Cette section est basée sur les étapes de configuration de {{ fr.DWL }} qui se trouvent dans la [section précédente](#paramètres) . Nous vous recommandons fortement de les suivre avant de poursuivre, puisque certaines fonctionnalités pourraient différer entre votre expérience et ce qui est indiqué ci-dessous. 
 {% endsnippet %}
  
-Vos identifiants peuvent être récupérés de {{ fr.HUB }} Business automatiquement ou manuellement à partir de {{ fr.DWL }} . Suivez les étapes de la section qui correspond le mieux à vos besoins :  
+Vos identifiants peuvent être récupérés de {{ fr.HUBB }} automatiquement ou manuellement à partir de {{ fr.DWL }} . Suivez les étapes de la section qui correspond le mieux à vos besoins :  
 
 * [Récupérer les identifiants automatiquement](#récupérer-les-identifiants-automatiquement)  
 * [Récupérer les identifiants manuellement](#récupérer-les-identifiants-manuellement)  

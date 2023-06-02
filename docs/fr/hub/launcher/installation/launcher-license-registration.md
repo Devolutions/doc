@@ -3,12 +3,12 @@ title: Enregistrement de licence Launcher
 ---
 Enregistrer votre licence {{ fr.LAUNCHER }} .  
 
-### Enregistrement de la licence Launcher pour {{ fr.DHUB }} Business 
+### Enregistrement de la licence Launcher pour {{ fr.DHUBB }} 
 
-Pour enregistrer une licence ***Launcher*** , dans {{ fr.DHUB }} Business, vous devez ajouter une ***Licence de produit*** et l 'assigner aux utilisateurs.  
+Pour enregistrer une licence ***Launcher*** , dans {{ fr.DHUBB }}, vous devez ajouter une ***Licence de produit*** et l 'assigner aux utilisateurs.  
 
 {% snippet icon.badgeCaution %} 
-Seuls les ***Administrateurs*** et les utilisateurs disposant de permissions dans la section ***Permissions du système*** auront accès pour enregistrer une licence dans {{ fr.DHUB }} Business. 
+Seuls les ***Administrateurs*** et les utilisateurs disposant de permissions dans la section ***Permissions du système*** auront accès pour enregistrer une licence dans {{ fr.DHUBB }}. 
 {% endsnippet %}
  
 1. Aller dans ***Administration - Licences*** . 

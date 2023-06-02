@@ -11,8 +11,8 @@ Follow the steps below to perform the initial configuration of your {{ en.WS }} 
 
 1. [Download and install {{ en.WS }}](https://devolutions.net/workspace/) if you have not already done so.
 1. After the installation is complete, open the application.
-1. In the ***Workspace Setup***, check ***{{ en.DHUB }} Business***, then tap on ***Start Setup***.
-![{{ en.DHUB }} Business setup](https://webdevolutions.azureedge.net/docs/en/hub/Hub2210.png)
+1. In the ***Workspace Setup***, check ***{{ en.DHUBB }}***, then tap on ***Start Setup***.
+![{{ en.DHUBB }} setup](https://webdevolutions.azureedge.net/docs/en/hub/Hub2210.png)
 
 {% snippet icon.badgeInfo %} 
 During the setup, you can always tap on ***Skip This Step*** to configure that specific setting later.

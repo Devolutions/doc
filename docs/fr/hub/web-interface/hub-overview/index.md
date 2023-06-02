@@ -1,7 +1,7 @@
 ---
 title: Survol Hub
 ---
-Naviguer et explorer les menus à travers les différentes sections de {{ fr.HUB }} Business et gérer vos données.  
+Naviguer et explorer les menus à travers les différentes sections de {{ fr.HUBB }} et gérer vos données.  
 ![!!Hub4118.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4118.png) 
 
 <table>

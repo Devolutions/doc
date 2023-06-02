@@ -1,9 +1,9 @@
 ---
 title: Ajouter un site Web
 ---
-Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant*** , qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les coffres et entrées des onglets ***Coffres*** ou [***Coffre d'utilisateur***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#onglet-coffre-d'utilisateur) . Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.HUB }} Business via {{ fr.DWL }} .  
+Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant*** , qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les coffres et entrées des onglets ***Coffres*** ou [***Coffre d'utilisateur***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#onglet-coffre-d'utilisateur) . Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.HUBB }} via {{ fr.DWL }} .  
 
-Lorsque {{ fr.HUB }} Business est utilisé comme source de données, la configuration de base de l'entrée est exécutée dans l'onglet ***Général*** , mais des paramètres supplémentaires sont aussi disponibles dans d'autres onglets. Vous trouverez ci-dessous un exemple des paramètres de l'onglet ***Général*** lors de la création d'une entrée de site Web.  
+Lorsque {{ fr.HUBB }} est utilisé comme source de données, la configuration de base de l'entrée est exécutée dans l'onglet ***Général*** , mais des paramètres supplémentaires sont aussi disponibles dans d'autres onglets. Vous trouverez ci-dessous un exemple des paramètres de l'onglet ***Général*** lors de la création d'une entrée de site Web.  
 ![Nouvelle entrée - Site Web (onglet Général)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2090.png) 
 
 Les tableaux ci-dessous répertorient tous les champs/paramètres disponibles dans la fenêtre ***Nouvelle entrée - Site Web*** . Les différentes sections représentent les onglets du menu de gauche. 
@@ -33,7 +33,7 @@ Coffre
 		</td>
 		<td>
 
-Choisir dans quel coffre stocker votre nouvelle entrée de site Web dans {{ fr.HUB }} Business. Vous pouvez sélectionner n'importe quel coffre, incluant votre ***Coffre de l'utilisateur*** . 
+Choisir dans quel coffre stocker votre nouvelle entrée de site Web dans {{ fr.HUBB }}. Vous pouvez sélectionner n'importe quel coffre, incluant votre ***Coffre de l'utilisateur*** . 
 		</td>
 	</tr>
 	<tr>
@@ -41,7 +41,7 @@ Choisir dans quel coffre stocker votre nouvelle entrée de site Web dans {{ fr.H
 Dossier 
 		</td>
 		<td>
-Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUB }} Business. 
+Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -603,7 +603,7 @@ Annuler la création de la nouvelle entrée de site Web et effacer toutes les mo
 </table>
 
 {% snippet icon.badgeInfo %} 
-Vous pouvez suivre notre guide étape par étape expliquant [comment ajouter une entrée de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) dans {{ fr.HUB }} Business avec {{ fr.DWL }} . 
+Vous pouvez suivre notre guide étape par étape expliquant [comment ajouter une entrée de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) dans {{ fr.HUBB }} avec {{ fr.DWL }} . 
 {% endsnippet %}
  
 

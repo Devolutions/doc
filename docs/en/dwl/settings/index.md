@@ -261,7 +261,7 @@ Enable to synchronize all the available {{ en.VLT }}s from {{ en.DVLS }} .
 	</tr>
 </table>
 
-### {{ en.HUB }} Business and Personal <a name="hub"></a>
+### {{ en.HUBB }} and Personal <a name="hub"></a>
 
 <table>
 	<tr>
@@ -274,7 +274,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Enable Devolutions {{ en.HUB }} Business/Personal 
+Enable {{ en.DHUBB }}/Personal 
 		</td>
 		<td>
 Retrieve entries from {{ en.HUB }} . 
@@ -282,10 +282,10 @@ Retrieve entries from {{ en.HUB }} .
 	</tr>
 	<tr>
 		<td>
-Server URL (available with {{ en.HUB }} Business only) 
+Server URL (available with {{ en.HUBB }} only) 
 		</td>
 		<td>
-Enter the URL of the {{ en.HUB }} Business instance to connect to. 
+Enter the URL of the {{ en.HUBB }} instance to connect to. 
 		</td>
 	</tr>
 	<tr>
@@ -368,10 +368,10 @@ Set a default comparing option type between <b><i>Base domain , Host , Starts wi
 	</tr>
 	<tr>
 		<td>
-Sync all available vaults (available with {{ en.HUB }} Business only) 
+Sync all available vaults (available with {{ en.HUBB }} only) 
 		</td>
 		<td>
-Enable to synchronize all the available {{ en.VLT }}s from {{ en.HUB }} Business. 
+Enable to synchronize all the available {{ en.VLT }}s from {{ en.HUBB }}. 
 		</td>
 	</tr>
 </table>

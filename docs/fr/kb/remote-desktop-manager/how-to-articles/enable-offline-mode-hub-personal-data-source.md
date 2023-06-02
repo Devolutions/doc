@@ -1,15 +1,15 @@
 ---
 eleventyComputed:
-  title: Activer le mode hors-ligne dans une source de données {{ fr.HUB }} Personal
-description: Dans {{ fr.RDM }}, pour utiliser le mode hors-ligne avec une source de données {{ fr.HUB }} Personal, vous devez d'abord activer la fonction dans les paramètres de l'interface Web de {{ fr.HUB }} Personal, car elle est désactivée par défaut.
+  title: Activer le mode hors-ligne dans une source de données {{ fr.HUBP }}
+description: Dans {{ fr.RDM }}, pour utiliser le mode hors-ligne avec une source de données {{ fr.HUBP }}, vous devez d'abord activer la fonction dans les paramètres de l'interface Web de {{ fr.HUBP }}, car elle est désactivée par défaut.
 keywords:
 - hors-ligne
 ---
-Dans {{ fr.RDM }}, pour utiliser le mode hors-ligne avec une source de données {{ fr.HUB }} Personal, vous devez d'abord activer la fonction dans les paramètres de l'interface Web de {{ fr.HUB }} Personal, car elle est désactivée par défaut.
+Dans {{ fr.RDM }}, pour utiliser le mode hors-ligne avec une source de données {{ fr.HUBP }}, vous devez d'abord activer la fonction dans les paramètres de l'interface Web de {{ fr.HUBP }}, car elle est désactivée par défaut.
 
 ## Étapes
 
-1. Dans {{ fr.HUB }} Personal, aller dans ***Outils – Paramètres***.
+1. Dans {{ fr.HUBP }}, aller dans ***Outils – Paramètres***.
 ![Outils – Paramètres](https://webdevolutions.azureedge.net/docs/fr/kb/KB2081.png)
 1. Dans la liste déroulante ***Autoriser le mode hors-ligne***, sélectionner ***Oui***.
 ![Autoriser le mode hors-ligne](https://webdevolutions.azureedge.net/docs/fr/kb/KB2080.png)

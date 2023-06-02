@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Accorder un accès temporaire à une entrée dans {{ fr.HUB }} Business
+  title: Accorder un accès temporaire à une entrée dans {{ fr.HUBB }}
 ---
 {% snippet icon.badgeInfo %} 
-La fonction d' ***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.HUB }} Business. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.HUB }} Business. Visitez [cette rubrique](/fr/rdm/windows/user-interface/content-area/temporary-access-rdm/grant-temporary-access-to-an-entry/) pour en savoir plus. 
+La fonction d' ***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.HUBB }}. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.HUBB }}. Visitez [cette rubrique](/fr/rdm/windows/user-interface/content-area/temporary-access-rdm/grant-temporary-access-to-an-entry/) pour en savoir plus. 
 {% endsnippet %}
  
 La fonction d' ***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'autorisateur doit ensuite approuver ou refuser la demande.  
@@ -14,7 +14,7 @@ Pour apprendre comment répondre à une demande, consultez la section [Approuver
 
 ### Afficher les demandes d'accès temporaire 
 
-Lorsqu'un utilisateur vous envoie une demande d'accès temporaire, vous en êtes automatiquement informé par courriel. Vous pouvez cliquer sur le bouton ***Aller au tableau de bord de l'entrée*** pour visualiser la demande directement dans l'entrée dans {{ fr.HUB }} Business.  
+Lorsqu'un utilisateur vous envoie une demande d'accès temporaire, vous en êtes automatiquement informé par courriel. Vous pouvez cliquer sur le bouton ***Aller au tableau de bord de l'entrée*** pour visualiser la demande directement dans l'entrée dans {{ fr.HUBB }}.  
 ![Courriel de demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2140.png) 
 
 Une fois que vous êtes sur l'entrée, vous verrez une section ***Demande d'accès temporaire*** près du haut. Cliquer sur le bouton ***Afficher les détails*** ouvre la fenêtre ***Demande d'accès temporaire*** , qui est décrite dans la [section suivante](#approuverrefuser-les-demandes-daccès-temporaire) .  
@@ -38,7 +38,7 @@ Enfin, vous pouvez ***Approuver*** ou ***Refuser*** la demande d'accès temporai
 Après l'approbation, pour quelque raison que ce soit, vous pouvez révoquer l'accès temporaire de l'utilisateur en cliquant à nouveau sur le bouton ***Afficher les détails*** , puis en cliquant sur ***Révoquer*** . Assurez-vous que d'abord que c'est bel et bien ce que vous voulez faire, car pour retrouver l'accès à l'entrée, l'utilisateur devra faire une autre demande. Sinon, leur accès prendra fin dans le délai fixé.  
 ![Révoquer l'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2145.png) 
 {% snippet icon.badgeInfo %} 
-Pour en apprendre davantage sur l'expérience de l'utilisateur final dans {{ fr.HUB }} Business, consultez notre rubrique [Demande d'accès temporaire à une entrée dans {{ fr.HUB }} Business](/fr/hub/web-interface/hub-overview/temporary-access-hub-business/request-temporary-access-to-an-entry/) . 
+Pour en apprendre davantage sur l'expérience de l'utilisateur final dans {{ fr.HUBB }}, consultez notre rubrique [Demande d'accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access-hub-business/request-temporary-access-to-an-entry/) . 
 {% endsnippet %}
  
 

@@ -18,7 +18,7 @@ The encryption keys must be the same of each {{ en.DVLS }} instances of your Hig
 ![!!KB4382.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4382.png)
 1. Select a destination file name and path. Then set a password to protect the file and on the OK button.
 {% snippet icon.shieldCaution %}
-We strongly recommend storing the Encryption keys file in a secure storage outside of {{ en.DVLS }} like {{ en.HUB }} Business, Azure Key Vault or AWS Key Management Service.
+We strongly recommend storing the Encryption keys file in a secure storage outside of {{ en.DVLS }} like {{ en.HUBB }}, Azure Key Vault or AWS Key Management Service.
 {% endsnippet %}  
 
    ![!!KB4384.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4384.png)
@@ -48,7 +48,7 @@ There may be scenarios where you need to regenerate the encryption keys, such as
 ![Devolutions Server Console - Tools - Regenerate.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8037.png)
 1. Select a destination file name and path. Then set a password to protect the file and on the OK button.  
 {% snippet icon.shieldCaution %}
-We strongly recommend storing the Encryption keys file in a secure storage outside of {{ en.DVLS }} like {{ en.HUB }} Business, Azure Key Vault or AWS Key Management Service.
+We strongly recommend storing the Encryption keys file in a secure storage outside of {{ en.DVLS }} like {{ en.HUBB }}, Azure Key Vault or AWS Key Management Service.
 {% endsnippet %}
 
    ![Backup the new Encryption Keys.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8038.png)

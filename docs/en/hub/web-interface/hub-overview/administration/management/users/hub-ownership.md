@@ -1,7 +1,7 @@
 ---
 title: Hub Ownership
 ---
-In ***Administration – Users*** , you can change the ownership of {{ en.HUB }} Business to another administrator.  
+In ***Administration – Users*** , you can change the ownership of {{ en.HUBB }} to another administrator.  
 
 To locate the actual owner, search for the crown icon next to a user.  
 

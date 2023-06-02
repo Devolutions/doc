@@ -1,7 +1,7 @@
 ---
 title: Password Templates
 ---
-***Password Templates*** are used to create predefined settings for the password generator of {{ en.HUB }} Business.  
+***Password Templates*** are used to create predefined settings for the password generator of {{ en.HUBB }}.  
 
 You can set a ***Default template*** and choose a ***Template enforcement*** for the users.  
 

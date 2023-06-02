@@ -5,6 +5,6 @@ title: Application Users
 
 ### Prerequisites 
 
-* An access to {{ en.HUB }} Business with a valid {{ en.DA }} . 
+* An access to {{ en.HUBB }} with a valid {{ en.DA }} . 
 * A user with enough permission to add ***Application Users*** .  
 ![!!Hub4056.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4056.png) 

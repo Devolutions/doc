@@ -1,7 +1,7 @@
 ---
 title: Hub Personal
 ---
-{{ fr.DHUB }} Personal, pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un coffre.  
+{{ fr.DHUBP }}, pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un coffre.  
 
 Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/personal) pour plus d'informations sur ce service.  
 
@@ -41,7 +41,7 @@ L'adresse courriel de votre [Compte Devolutions](https://portal.devolutions.com/
 
 ### VPN 
 
-Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à votre {{ fr.DHUB }} Personal .  
+Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à votre {{ fr.DHUBP }} .  
 ![!!RDMMac4027.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4027.png) 
 
 ### Avancée 

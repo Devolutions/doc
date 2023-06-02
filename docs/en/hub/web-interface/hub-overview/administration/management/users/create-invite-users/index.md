@@ -1,10 +1,10 @@
 ---
 title: Create and Invite Users
 ---
-Create and invite ***Users*** to your {{ en.HUB }} Business with their email address.  
+Create and invite ***Users*** to your {{ en.HUBB }} with their email address.  
 
 {% snippet icon.badgeCaution %} 
-If your {{ en.HUB }} Business is configured with SSO Authentication Azure AD Office 365 credentials, follow the specific process for inviting ***Users*** in [this topic](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/ . 
+If your {{ en.HUBB }} is configured with SSO Authentication Azure AD Office 365 credentials, follow the specific process for inviting ***Users*** in [this topic](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/ . 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
@@ -24,7 +24,7 @@ It is possible to paste a list of email addresses of ***Users*** that will be pa
 {% snippet icon.badgeInfo %} 
 This step will validate if the user has a {{ en.DA }} .  
 
-* If yes, it will link the account to {{ en.HUB }} Business and the user will receive an invitation email. 
+* If yes, it will link the account to {{ en.HUBB }} and the user will receive an invitation email. 
 * If not, it will automatically create a {{ en.DA }} with a ***Temporary Password*** , which you can choose how to handle. You can manage how ***Temporary Passwords*** are handled in ***Administration – System Settings – General*** . 
 {% endsnippet %}
  
@@ -45,5 +45,5 @@ This step will validate if the user has a {{ en.DA }} .
 
 9. Click ***Send Invite*** .  
 
-{{ en.HUB }} will send an email with essential information to the invited users; the link to access the {{ en.HUB }} Business, the invitation ID, and the key. 
+{{ en.HUB }} will send an email with essential information to the invited users; the link to access the {{ en.HUBB }}, the invitation ID, and the key. 
 

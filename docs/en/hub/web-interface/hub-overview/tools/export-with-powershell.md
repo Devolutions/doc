@@ -2,10 +2,10 @@
 title: Export with PowerShell
 ---
 {% snippet icon.badgeInfo %} 
-Exporting and importing data from and to {{ en.HUB }} Personal is done differently than in {{ en.HUB }} Business. Refer to [this topic](/kb/hub-business/how-to-articles/import-export-data-hub-personal/) if you are using {{ en.HUB }} Personal. 
+Exporting and importing data from and to {{ en.HUBP }} is done differently than in {{ en.HUBB }}. Refer to [this topic](/kb/hub-business/how-to-articles/import-export-data-hub-personal/) if you are using {{ en.HUBP }}. 
 {% endsnippet %}
  
-In the {{ en.HUB }} Business ***Tools*** tab, you can find under the ***Export*** section the ***Export with PowerShell*** feature. It allows you to export your {{ en.HUB }} Business data in the Json or Csv format using a PowerShell script.  
+In the {{ en.HUBB }} ***Tools*** tab, you can find under the ***Export*** section the ***Export with PowerShell*** feature. It allows you to export your {{ en.HUBB }} data in the Json or Csv format using a PowerShell script.  
 ![Export with PowerShell](https://webdevolutions.azureedge.net/docs/en/hub/Hub2077.png) 
 
 You will first need to create an application user with the ***Manager*** role.  
@@ -14,7 +14,7 @@ Once done, you have the choice to automatically or manually fill in your informa
 ![Steps to Export with PowerShell](https://webdevolutions.azureedge.net/docs/en/hub/Hub2078.png) 
 
 {% snippet icon.badgeInfo %} 
-Visit our step-by-step guide on how to [Export Data from {{ en.HUB }} Business with PowerShell](/kb/hub-business/how-to-articles/export-data-hub-business-powershell/) . 
+Visit our step-by-step guide on how to [Export Data from {{ en.HUBB }} with PowerShell](/kb/hub-business/how-to-articles/export-data-hub-business-powershell/) . 
 {% endsnippet %}
  
 

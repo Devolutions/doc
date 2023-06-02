@@ -1,11 +1,11 @@
 ---
 title: Configure SSO Authentication With Microsoft Azure
-description: Here are the steps to configure Azure with Devolutions {{ en.HUB }} Business for SSO authentication and user provisioning.
+description: Here are the steps to configure Azure with {{ en.DHUBB }} for SSO authentication and user provisioning.
 keywords:
 - Office 365
 - Office365
 ---
-Here are the steps to configure Azure with Devolutions {{ en.HUB }} Business for SSO authentication and user provisioning.  
+Here are the steps to configure Azure with {{ en.DHUBB }} for SSO authentication and user provisioning.  
 
 {% snippet icon.badgeCaution %} 
 An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights is required. 
@@ -13,7 +13,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
  
 ### Configure Single Sign-On (SSO) 
 
-**In Devolutions {{ en.HUB }} Business**  
+**In {{ en.DHUBB }}**  
 
 1. Go to ***Administration – Authentication*** . 
 1. In ***Single Sign-On (SSO)*** , click on ***Configure Single Sign-On (SSO)*** .  
@@ -53,7 +53,7 @@ We recommend including either “Devolutions“ or “ {{ en.HUB }} “ in the n
 1. In ***Configure platforms*** , select ***Web*** .  
 ![Configure platforms – Web](https://webdevolutions.azureedge.net/docs/en/hub/Hub2143.png)  
 
-**In Devolutions {{ en.HUB }} Business** 
+**In {{ en.DHUBB }}** 
 
 13. Back in the ***Configure Single Sign-On (SSO)*** window, copy the ***Callback URL*** at the bottom by clicking on the ***Copy to Clipboard*** icon next to it.  
 ![Copy the Callback URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2189.png)  
@@ -80,7 +80,7 @@ We recommend including either “Devolutions“ or “ {{ en.HUB }} “ in the n
 1. Select ***Overview*** in the left side menu, then copy the ***Application (client) ID*** by clicking on the ***Copy to clipboard*** icon next to it.  
 ![Copy the Application (client) ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2159.png)  
 
-**In Devolutions {{ en.HUB }} Business**  
+**In {{ en.DHUBB }}**  
 
 20. Back in the ***Configure Single Sign-On (SSO)*** window, paste the ***Application (client) ID*** from the last step in the ***Client ID*** field.  
 ![Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2154.png)  
@@ -100,7 +100,7 @@ Note that when the client secret expires, no one will be able to connect to the 
 1. Copy the ***Value*** of this new client secret by clicking on the ***Copy to clipboard*** icon next to it.  
 ![Copy the client secret value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2153.png)  
 
-**In Devolutions {{ en.HUB }} Business**  
+**In {{ en.DHUBB }}**  
 
 25. Back in the ***Configure Single Sign-On (SSO)*** window, paste the client secret ***Value*** from the last step in the ***Client secret*** field.  
 ![Client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2155.png)  
@@ -112,7 +112,7 @@ Note that when the client secret expires, no one will be able to connect to the 
 1. In the ***Endpoints*** window, copy the ***OpenID Connect metadata document*** URL by clicking on the ***Copy to clipboard*** icon next to it.  
 ![Copy the OpenID Connect metadata document URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2160.png)  
 
-**In Devolutions {{ en.HUB }} Business**  
+**In {{ en.DHUBB }}**  
 
 28. Back in the ***Configure Single Sign-On (SSO)*** window, paste the URL from the last step in the ***Discovery URL*** field.  
 ![Discovery URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2156.png)  
@@ -123,9 +123,9 @@ Note that when the client secret expires, no one will be able to connect to the 
 
 ### Provisioning Configuration 
 
-To synchronize your users and user groups from your providers to the Devolutions {{ en.HUB }} Business, follow the next steps.  
+To synchronize your users and user groups from your providers to the {{ en.DHUBB }}, follow the next steps.  
 
-**In Devolutions {{ en.HUB }} Business**  
+**In {{ en.DHUBB }}**  
 
 1. Go to ***Administration – Authentication*** . 
 1. In ***Provisioning*** , click on ***Generate SCIM Token*** .  
@@ -144,7 +144,7 @@ Note that this ***SCIM Token*** will expire in 365 days following its generation
 1. In the ***Provisioning Mode*** drop-down list, select ***Automatic*** . Then, paste the ***Tenant URL*** from [step 3]( in the ***Secret Token*** field.  
 ![Provisioning Mode and Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2166.png)  
 
-**In Devolutions {{ en.HUB }} Business**  
+**In {{ en.DHUBB }}**  
 
 6. Copy the ***Secret Token*** by clicking on the ***Copy to Clipboard*** icon next to it.  
 ![Copy the Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2192.png)  
@@ -182,7 +182,7 @@ Nested groups are not supported, meaning that Azure provisioning will not synchr
 
 ### Synchronization between Azure and {{ en.HUB }} 
 
-**In Devolutions {{ en.HUB }} Business**  
+**In {{ en.DHUBB }}**  
 
 1. Go to ***Administration – Authentication*** . 
 1. In ***Provisioning*** , ***Enable the synchronization*** .  
@@ -193,7 +193,7 @@ Azure 's provisioning frequency is at most 40 minutes. The user groups, includin
 In ***Administration – User Groups*** , the Azure user groups will be added. They are recognizable by the ***Is sync*** group icon next to the group name.  
 ![Synced User Groups](https://webdevolutions.azureedge.net/docs/en/hub/Hub2182.png)  
 
-In ***Administration – Users*** , all users in the Azure user group who are already part of your Devolutions {{ en.HUB }} will be flagged as synced with the ***Is sync*** icon next to their name. All new users part of the synchronized Azure user group who are not part of the Devolutions {{ en.HUB }} will be suggested as [new invitations](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) in ***Invitations required*** .  
+In ***Administration – Users*** , all users in the Azure user group who are already part of your {{ en.DHUB }} will be flagged as synced with the ***Is sync*** icon next to their name. All new users part of the synchronized Azure user group who are not part of the {{ en.DHUB }} will be suggested as [new invitations](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) in ***Invitations required*** .  
 ![Invitations required & Synced Users](https://webdevolutions.azureedge.net/docs/en/hub/Hub2175.png)  
 
 {% snippet icon.badgeNotice %} 

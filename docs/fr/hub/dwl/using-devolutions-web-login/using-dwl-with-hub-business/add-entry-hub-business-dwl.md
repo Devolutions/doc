@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
-  title: Ajouter une entrée de site Web dans {{ fr.HUB }} Business par {{ fr.DWL }}
+  title: Ajouter une entrée de site Web dans {{ fr.HUBB }} par {{ fr.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
 Cette rubrique explique comment créer une entrée à partir de vos identifiants de site Web existants. Si vous n 'avez pas encore créé de compte pour le site Web, consultez plutôt notre rubrique sur la façon de [Créer un compte de site Web avec {{ fr.DWL }}](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/) . 
 {% endsnippet %}
  
-Des entrées de site Web peuvent être créées avec {{ fr.DWL }} dans {{ fr.HUB }} Business. Ce type d 'entrée est utile pour enregistrer vos identifiants de connexion afin que vous n 'ayez plus à les mémoriser. Ces entrées sont également utilisées par {{ fr.DWL }} pour reconnaître un site Web et [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/) .  
+Des entrées de site Web peuvent être créées avec {{ fr.DWL }} dans {{ fr.HUBB }}. Ce type d 'entrée est utile pour enregistrer vos identifiants de connexion afin que vous n 'ayez plus à les mémoriser. Ces entrées sont également utilisées par {{ fr.DWL }} pour reconnaître un site Web et [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/) .  
 
-La principale façon d 'y parvenir est de se connecter avec succès au site Web. {{ fr.DWL }} proposera automatiquement d 'enregistrer vos identifiants dans une nouvelle entrée de site Web dans {{ fr.HUB }} Business. Il est également possible de créer manuellement l 'entrée de site Web.  
+La principale façon d 'y parvenir est de se connecter avec succès au site Web. {{ fr.DWL }} proposera automatiquement d 'enregistrer vos identifiants dans une nouvelle entrée de site Web dans {{ fr.HUBB }}. Il est également possible de créer manuellement l 'entrée de site Web.  
 
 Suivez les instructions dans les sections ci-dessous pour apprendre à ajouter une entrée de site Web :  
 
@@ -26,7 +26,7 @@ Suivez les instructions dans les sections ci-dessous pour apprendre à ajouter u
 1. Sélectionner le ***Coffre*** et le ***Dossier*** dans lesquels sauvegarder l 'entrée de site Web. 
 1. Cliquer sur ***Enregistrer*** .  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.HUB }} Business. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/) .  
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.HUBB }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/) .  
 
 ### Ajouter manuellement une entrée de site Web 
 
@@ -44,5 +44,5 @@ Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle ent
 1. Le ***Type de correspondance*** devrait être défini à ***Par défaut*** et ***{{ fr.DWL }}*** devrait être ***Activé*** . 
 1. Cliquer sur ***Enregistrer*** .  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.HUB }} Business. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/) . 
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.HUBB }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/) . 
 

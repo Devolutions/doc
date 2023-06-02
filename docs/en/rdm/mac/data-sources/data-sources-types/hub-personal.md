@@ -1,7 +1,7 @@
 ---
 title: Hub Personal
 ---
-{{ en.DHUB }} Personal, for individual users who want to secure personal passwords in a secure vault for free.  
+{{ en.DHUBP }}, for individual users who want to secure personal passwords in a secure vault for free.  
 
 Please consult our [website](https://password.devolutions.net/personal) for more information on this service. 
 

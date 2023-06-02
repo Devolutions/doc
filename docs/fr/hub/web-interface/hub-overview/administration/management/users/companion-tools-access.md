@@ -1,7 +1,7 @@
 ---
 title: Accès aux outils connexes
 ---
-En tant qu 'administrateur de votre {{ fr.HUB }} Business, vous pouvez désactiver ou activer l 'utilisation des outils connexes pour des utilisateurs spécifiques qui ne sont pas des administrateurs.  
+En tant qu 'administrateur de votre {{ fr.HUBB }}, vous pouvez désactiver ou activer l 'utilisation des outils connexes pour des utilisateurs spécifiques qui ne sont pas des administrateurs.  
 {% snippet icon.badgeNotice %} 
 Pour réduire le nombre de demandes de renseignements de la part de vos utilisateurs, nous vous recommandons de les informer avant de modifier leur accès à {{ fr.HUB }} via leur(s) outil(s) connexe(s), surtout si vous désactivez leur accès. 
 {% endsnippet %}

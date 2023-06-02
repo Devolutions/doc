@@ -5,7 +5,7 @@ order: 10
 When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) , there is no need to register {{ en.RDM }} since the license serial is stored in the data source and retrieved directly from it. When launching the application for the first time, simply [add the data source](/rdm/windows/data-sources/create-new-data-source/) containing the serial. 
 
 {% snippet icon.badgeCaution %} 
-The license menu to register {{ en.RDM }} is available for SQLite and {{ en.HUB }} Personal, but not for other individual data sources. 
+The license menu to register {{ en.RDM }} is available for SQLite and {{ en.HUBP }}, but not for other individual data sources. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

@@ -21,7 +21,7 @@ Il est également possible de régler le ***Temps d 'inactivité avant la décon
 Dans la section ***Authentification unique (SSO)*** , vous pouvez ***Configurer l 'authentification unique (SSO)*** pour vos utilisateur de {{ fr.HUB }} . Ils pourront alors se connecter à votre {{ fr.HUB }} en utilisant leurs identifiants Azure AD en plus de pouvoir le faire avec leurs identifiants {{ fr.DA }} .  
 ![Administration – Authentification – Authentification unique (SSO)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2158.png) 
 {% snippet icon.badgeHelp %} 
-Lors de la configuration du SSO, vous devrez remplir certains champs de la page ***Configurer l 'authentification unique (SSO)*** . Consultez notre rubrique [Introduction à SSO avec {{ fr.HUB }} Business](/fr/hub/getting-started/get-started-sso-hub-business/) pour plus d'informations. 
+Lors de la configuration du SSO, vous devrez remplir certains champs de la page ***Configurer l 'authentification unique (SSO)*** . Consultez notre rubrique [Introduction à SSO avec {{ fr.HUBB }}](/fr/hub/getting-started/get-started-sso-hub-business/) pour plus d'informations. 
 {% endsnippet %}
  
 ![Configurer l'authentification unique (SSO)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2159.png) 
@@ -30,7 +30,7 @@ Après avoir configuré et enregistré vos paramètres SSO, il est encore possib
 
 Par défaut, le SSO sera activé dès que vous aurez terminé la configuration. Vous pouvez également ***Forcer l 'authentification unique à tous les utilisateurs*** .  
 {% snippet icon.badgeWarning %} 
-Si vous activez ***Forcer l 'authentification unique à tous les utilisateurs*** , ceux-ci n 'auront pas accès à {{ fr.HUB }} Business en cas de mauvaise configuration ou de panne de votre fournisseur SSO. Nous vous recommandons vivement d 'informer tous les utilisateurs existants de votre {{ fr.HUB }} Business de cette nouvelle méthode d 'authentification avant de l 'activer. 
+Si vous activez ***Forcer l 'authentification unique à tous les utilisateurs*** , ceux-ci n 'auront pas accès à {{ fr.HUBB }} en cas de mauvaise configuration ou de panne de votre fournisseur SSO. Nous vous recommandons vivement d 'informer tous les utilisateurs existants de votre {{ fr.HUBB }} de cette nouvelle méthode d 'authentification avant de l 'activer. 
 {% endsnippet %}
  
 ![Authentification unique (SSO) configurée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2160.png) 

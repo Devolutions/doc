@@ -62,10 +62,10 @@ Windows
 	</tr>
 	<tr>
 		<td>
-[{{ en.DHUB }} Business](/hub/overview/what-is-hub/) 
+[{{ en.DHUBB }}](/hub/overview/what-is-hub/) 
 		</td>
 		<td>
-{{ en.DHUB }} Business is a secure and cloud-based password manager for teams. It empowers your organization to easily and securely vault and manage business-user passwords, along with other sensitive information, through a user-friendly web interface that can be quickly, easily and securely accessed via any browser. 
+{{ en.DHUBB }} is a secure and cloud-based password manager for teams. It empowers your organization to easily and securely vault and manage business-user passwords, along with other sensitive information, through a user-friendly web interface that can be quickly, easily and securely accessed via any browser. 
 		</td>
 		<td>
 Windows, macOS 

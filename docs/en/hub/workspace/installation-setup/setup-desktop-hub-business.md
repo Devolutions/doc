@@ -10,8 +10,8 @@ Before using your application, you will have to complete a quick setup that invo
 Follow the steps below to perform the initial configuration of your {{ en.WS }} desktop application with {{ en.HUBB }}:
 
 1. [Download and install {{ en.WS }}](https://devolutions.net/workspace/) if you have not already done so.
-1. After the installation is complete, in the ***Workspace Setup*** window, check ***{{ en.DHUB }} Business***, then click on ***Start Setup***.
-![{{ en.DHUB }} Business setup](https://webdevolutions.azureedge.net/docs/en/hub/Hub2202.png)
+1. After the installation is complete, in the ***Workspace Setup*** window, check ***{{ en.DHUBB }}***, then click on ***Start Setup***.
+![{{ en.DHUBB }} setup](https://webdevolutions.azureedge.net/docs/en/hub/Hub2202.png)
 
 {% snippet icon.badgeInfo %} 
 During the setup, you can always click on ***Skip This Step*** to configure that specific setting later.

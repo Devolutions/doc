@@ -1,7 +1,7 @@
 ---
 title: Propriétaire du Hub
 ---
-Dans ***Administration - Utilisateurs*** , vous pouvez transférer la propriété de {{ fr.HUB }} Business à un autre administrateur.  
+Dans ***Administration - Utilisateurs*** , vous pouvez transférer la propriété de {{ fr.HUBB }} à un autre administrateur.  
 
 Pour localiser le propriétaire actuel, rechercher l 'icône de la couronne à côté d 'un utilisateur.  
 

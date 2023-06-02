@@ -261,7 +261,7 @@ Activer pour synchroniser tous les coffres disponibles depuis {{ fr.DVLS }} .
 	</tr>
 </table>
 
-### {{ fr.HUB }} Business et Personal <a name="hub"></a>
+### {{ fr.HUBB }} et Personal <a name="hub"></a>
 
 <table>
 	<tr>
@@ -274,7 +274,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Activer Devolutions {{ fr.HUB }} Business/Personal 
+Activer {{ fr.DHUBB }}/Personal 
 		</td>
 		<td>
 Récupérer les entrées de {{ fr.HUB }} . 
@@ -282,10 +282,10 @@ Récupérer les entrées de {{ fr.HUB }} .
 	</tr>
 	<tr>
 		<td>
-URL du serveur (disponible avec {{ fr.HUB }} Business seulement) 
+URL du serveur (disponible avec {{ fr.HUBB }} seulement) 
 		</td>
 		<td>
-Entrer l'URL du {{ fr.HUB }} Business auquel se connecter. 
+Entrer l'URL du {{ fr.HUBB }} auquel se connecter. 
 		</td>
 	</tr>
 	<tr>
@@ -368,10 +368,10 @@ Définir un type d'option de comparaison par défaut entre <b><i>Domaine de base
 	</tr>
 	<tr>
 		<td>
-Synchroniser tous les coffres disponibles (disponible avec {{ fr.HUB }} Business seulement) 
+Synchroniser tous les coffres disponibles (disponible avec {{ fr.HUBB }} seulement) 
 		</td>
 		<td>
-Activer pour synchroniser tous les coffres disponibles depuis {{ fr.HUB }} Business . 
+Activer pour synchroniser tous les coffres disponibles depuis {{ fr.HUBB }} . 
 		</td>
 	</tr>
 </table>

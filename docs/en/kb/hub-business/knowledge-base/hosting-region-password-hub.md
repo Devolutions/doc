@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Hosting Region for {{ en.HUB }} Business
+  title: Hosting Region for {{ en.HUBB }}
 ---
 {{ en.HUBB }} is a cloud-based solution hosted with Microsoft Azure, a highly trusted cloud services provider, and encrypted with the strongest encryption standard: AES-256.
 

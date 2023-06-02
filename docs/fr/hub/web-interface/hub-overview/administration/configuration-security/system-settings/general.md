@@ -1,7 +1,7 @@
 ---
 title: Général
 ---
-Dans la section ***Général*** , gérer la façon dont le ***Mot de passe temporaire*** sera envoyé à vos utilisateurs lors de la création de leur {{ fr.DA }} à partir d 'une invitation dans {{ fr.HUB }} Business.  
+Dans la section ***Général*** , gérer la façon dont le ***Mot de passe temporaire*** sera envoyé à vos utilisateurs lors de la création de leur {{ fr.DA }} à partir d 'une invitation dans {{ fr.HUBB }}.  
 
 * ***Demander*** : Vous serez invité à chaque fois que vous créez un nouveau {{ fr.DA }} pour vos ***Utilisateurs*** et devrez choisir comment gérer le ***Mot de passe temporaire*** .  
 * ***Envoyer*** : Les ***Utilisateurs*** de ***  *** nouveaux {{ fr.DA }} recevront, dans leur courriel d 'invitation et de bienvenue, le ***Mot de passe temporaire*** .  

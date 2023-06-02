@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Expérience d'invitation de l'utilisateur final pour SSO dans {{ fr.HUB }} Business
+  title: Expérience d'invitation de l'utilisateur final pour SSO dans {{ fr.HUBB }}
 description: Les utilisateurs invités à rejoindre Hub Business reçoivent un courriel de l'administrateur.
 keywords:
 - Office 365
@@ -11,10 +11,10 @@ keywords:
 ---
 {% youtube 'SlU5CyctxyY' %}  
 
-Les utilisateurs invités à rejoindre {{ fr.HUB }} Business reçoivent ce courriel de l'administrateur :  
+Les utilisateurs invités à rejoindre {{ fr.HUBB }} reçoivent ce courriel de l'administrateur :  
 ![Courriel d'invitation](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4170.png)
 
-1. Accéder au lien URL de {{ fr.HUB }} Business. 
+1. Accéder au lien URL de {{ fr.HUBB }}. 
 1. Se connecter avec ***Se connecter avec Microsoft***.  
 ![Se connecter avec Microsoft](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4090.png)
 {% snippet icon.badgeInfo %} 

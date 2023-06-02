@@ -3,7 +3,7 @@ eleventyComputed:
   title: Demander un accès temporaire à une entrée dans {{ fr.RDM }}
 ---
 {% snippet icon.badgeInfo %} 
-Pour apprendre comment approuver ou refuser une demande, consultez notre rubrique [Accorder un accès temporaire à une entrée dans {{ fr.HUB }} Business](/fr/rdm/windows/user-interface/content-area/temporary-access-rdm/grant-temporary-access-to-an-entry/) . 
+Pour apprendre comment approuver ou refuser une demande, consultez notre rubrique [Accorder un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/rdm/windows/user-interface/content-area/temporary-access-rdm/grant-temporary-access-to-an-entry/) . 
 {% endsnippet %}
  
 La fonction d' ***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions d'exécution pour une entrée spécifique. L'autorisateur doit alors approuver ou refuser la demande.  

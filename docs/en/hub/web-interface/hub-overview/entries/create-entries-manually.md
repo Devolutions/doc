@@ -1,7 +1,7 @@
 ---
 title: Create Entries Manually
 ---
-Create entries manually and save your data in {{ en.HUB }} Business.  
+Create entries manually and save your data in {{ en.HUBB }}.  
 
 ### Create an entry 
 

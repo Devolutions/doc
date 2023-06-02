@@ -3,7 +3,7 @@ title: Menu latéral
 ---
 En utilisant les onglets du ***Menu latéral*** , vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }} . Chaque onglet affiche une vue différente dans la ***Zone de contenu*** .  
 
-Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.HUB }} Business, les onglets disponibles sont l'onglet ***Correspondant*** , l'onglet ***Coffres*** , l'onglet ***Coffre d'utilisateur*** et l'onglet ***Générateur de mots de passe*** .  
+Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.HUBB }}, les onglets disponibles sont l'onglet ***Correspondant*** , l'onglet ***Coffres*** , l'onglet ***Coffre d'utilisateur*** et l'onglet ***Générateur de mots de passe*** .  
 
 Dans tous les onglets, à l'exception de l'onglet ***Générateur de mots de passe*** , lorsque vous passez le curseur sur une entrée, trois nouvelles options apparaissent : les boutons ***Copier le nom d'utilisateur***, ***Copier le mot de passe***, et ***Affichage***. Consultez la section [Fonctionnalités des entrées](#fonctionnalités-des-entrées) pour plus d'informations. 
 
@@ -19,7 +19,7 @@ Pour connaître les méthodes de récupération de vos identifiants, consultez [
 ![Onglet Correspondant](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2074.png)  
 En haut, vous pouvez utiliser la barre de ***Recherche*** pour filtrer tous vos identifiants, pas seulement celles applicables au site Web. Vous pouvez également utiliser le bouton ***Actualiser*** situé à côté pour mettre à jour les résultats de la recherche.  
 
-En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.HUB }} Business par le biais de l'extension {{ fr.DWL }} . 
+En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.HUBB }} par le biais de l'extension {{ fr.DWL }} . 
 {% snippet icon.badgeInfo %} 
 Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web*** , consultez [cette rubrique](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/) . Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) . 
 {% endsnippet %}
@@ -27,14 +27,14 @@ Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajou
 ### Onglet Coffres 
 
 {% snippet icon.badgeInfo %} 
-Lorsque vous accédez à l'onglet ***Coffres*** pour la première fois, vous devez sélectionner les coffres de {{ fr.HUB }} Business que vous souhaitez synchroniser avec {{ fr.DWL }} . Pour en savoir plus, consultez notre rubrique [Première connexion avec {{ fr.DWL }}](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) . 
+Lorsque vous accédez à l'onglet ***Coffres*** pour la première fois, vous devez sélectionner les coffres de {{ fr.HUBB }} que vous souhaitez synchroniser avec {{ fr.DWL }} . Pour en savoir plus, consultez notre rubrique [Première connexion avec {{ fr.DWL }}](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) . 
 {% endsnippet %}
  
 L'onglet ***Coffres*** vous permet de parcourir tous vos coffres synchronisés pour accéder à vos entrées.  
 ![Onglet Coffres](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2075.png)  
 En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher des entrées dans tous vos coffres.  
 
-Pour accéder à un coffre dans {{ fr.DWL }} , vous pouvez cliquer sur ce coffre et naviguer dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.HUB }} Business.  
+Pour accéder à un coffre dans {{ fr.DWL }} , vous pouvez cliquer sur ce coffre et naviguer dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.HUBB }}.  
 
 Lorsque vous naviguez dans les dossiers, le bouton [***Ajouter un site Web***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/) apparaît au bas de la ***Zone de contenu*** .  
 
@@ -44,7 +44,7 @@ L'onglet ***Coffre d'utilisateur*** fonctionne de la même manière que l'onglet
 ![Onglet Coffre d'utilisateur](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2076.png)  
 En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher dans vos dossiers et vos entrées.  
 
-Pour accéder à un coffre dans {{ fr.DWL }} , naviguez dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.HUB }} Business.  
+Pour accéder à un coffre dans {{ fr.DWL }} , naviguez dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.HUBB }}.  
 
 Lorsque vous naviguez dans les dossiers, le bouton [***Ajouter un site Web***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/) apparaît au bas de la ***Zone de contenu*** .  
 

@@ -1,7 +1,7 @@
 ---
 title: Companion Tools Access
 ---
-As an administrator to your {{ en.HUB }} Business, you can disable or enable the use of companion tools for specific users that are not administrators.  
+As an administrator to your {{ en.HUBB }}, you can disable or enable the use of companion tools for specific users that are not administrators.  
 
 {% snippet icon.badgeNotice %} 
 To reduce the number of inquiries from your users, we recommend that you inform them before changing their access to {{ en.HUB }} via their companion tool(s), especially if you disable their access. 

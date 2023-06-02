@@ -1,7 +1,7 @@
 ---
 title: Manage Application Users
 ---
-Here are the steps to create and assign ***Application Users*** for {{ en.HUB }} Business.  
+Here are the steps to create and assign ***Application Users*** for {{ en.HUBB }}.  
 
 ### Create an Application user 
 

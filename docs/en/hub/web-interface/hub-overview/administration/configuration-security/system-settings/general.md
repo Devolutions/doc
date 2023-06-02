@@ -1,7 +1,7 @@
 ---
 title: General
 ---
-In the ***General*** section, manage how the ***Temporary password*** will be sent to your users when creating their {{ en.DA }} from an invite in {{ en.HUB }} Business.  
+In the ***General*** section, manage how the ***Temporary password*** will be sent to your users when creating their {{ en.DA }} from an invite in {{ en.HUBB }}.  
 
 * ***Ask*** : Be prompted each time you create a new {{ en.DA }} for your ***Users*** and choose how to handle the ***Temporary password*** .  
 * ***Send*** : Newly created {{ en.DA }}    ***Users*** will receive the ***Temporary password*** in their welcoming invitation email.  

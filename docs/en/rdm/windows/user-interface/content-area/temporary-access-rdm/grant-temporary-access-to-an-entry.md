@@ -5,7 +5,7 @@ eleventyComputed:
 {% youtube 'En3pmonz1f8' %}  
 
 {% snippet icon.badgeInfo %} 
-If a temporary access request was made in {{ en.RDM }} from a {{ en.HUB }} database, the authorization process must be performed in {{ en.HUB }} . See our [Grant Temporary Access to an Entry in {{ en.HUB }} Business](/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) topic. 
+If a temporary access request was made in {{ en.RDM }} from a {{ en.HUB }} database, the authorization process must be performed in {{ en.HUB }} . See our [Grant Temporary Access to an Entry in {{ en.HUBB }}](/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) topic. 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The authorizer must then approve or deny the request. 

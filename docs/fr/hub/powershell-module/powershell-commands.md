@@ -15,12 +15,12 @@ Vous devrez avoir installé le [module {{ fr.PS }}](/fr/hub/powershell-module/) 
 Des permissions appropriées sont également nécessaires pour exécuter certaines de ces commandes. Veuillez vous référer à [Utilisateurs d'application](/fr/hub/web-interface/hub-overview/administration/management/application-users/). 
 {% endsnippet %}
  
-PSHubContext est un objet qui spécifie vos informations d'authentification. Vous aurez besoin d'un PSHubContext valide pour vous connecter à votre {{ fr.HUB }} Business. Vous pouvez avoir plusieurs PSHubContext connectés dans votre session PowerShell, mais un seul est utilisé lorsque vous utilisez l'applet de commande {{ fr.HUB }}.  
+PSHubContext est un objet qui spécifie vos informations d'authentification. Vous aurez besoin d'un PSHubContext valide pour vous connecter à votre {{ fr.HUBB }}. Vous pouvez avoir plusieurs PSHubContext connectés dans votre session PowerShell, mais un seul est utilisé lorsque vous utilisez l'applet de commande {{ fr.HUB }}.  
 
 Dans cet objet, vous avez ce qui suit :  
 
 * Nom : Nom de l'utilisateur d'application  
-* URL : URL du {{ fr.HUB }} Business  
+* URL : URL du {{ fr.HUBB }}  
 * Clé secrète d'application : Clé secrète d'application donnée après la création de l'utilisateur d'application  
 * Clé de l'application : Clé de l'application donnée après la création de l'utilisateur d'application  
 
