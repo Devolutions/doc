@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configuration de {{ fr.DWS }} mobile avec {{ fr.PHUBB }}
+  title: Configuration de {{ fr.DWS }} mobile avec {{ fr.HUBB }}
   description: description
 ---
 Bientôt disponible!

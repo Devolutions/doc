@@ -26,8 +26,6 @@ module.exports = {
     OD: 'Online Drive',
     PHI: 'Hub Importer',
     PHUB: 'Hub',
-    PHUBB: 'Hub Business',
-    PHUBP: 'Hub Personal',
     PS: 'Devolutions.PowerShell',
     PVLT: 'User Vault',
     RBSS: 'User Groups Based Access Control',

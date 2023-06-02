@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
-  title: Devolutions Workspace setup for desktop with {{ en.PHUBB }}
+  title: Devolutions Workspace setup for desktop with {{ en.HUBB }}
   description: Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DA }}, and configuring some security settings.
 ---
 Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DA }}, and configuring some security settings.
 
 ## {{ en.WS }} Setup
 
-Follow the steps below to perform the initial configuration of your {{ en.WS }} desktop application with {{ en.PHUBB }}:
+Follow the steps below to perform the initial configuration of your {{ en.WS }} desktop application with {{ en.HUBB }}:
 
 1. [Download and install {{ en.WS }}](https://devolutions.net/workspace/) if you have not already done so.
 1. After the installation is complete, in the ***Workspace Setup*** window, check ***{{ en.HUB }} Business***, then click on ***Start Setup***.

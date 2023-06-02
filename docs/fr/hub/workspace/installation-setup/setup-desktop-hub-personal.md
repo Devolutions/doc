@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configuration de {{ fr.DWS }} de bureau avec {{ fr.PHUBP }}
+  title: Configuration de {{ fr.DWS }} de bureau avec {{ fr.HUBP }}
   description: description
 ---
 Bientôt disponible!

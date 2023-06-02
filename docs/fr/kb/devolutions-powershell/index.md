@@ -8,7 +8,7 @@ description: Vous pouvez accéder aux catégories suivantes concernant Devolutio
 
 Vous pouvez accéder aux catégories suivantes concernant Devolutions PowerShell Modules:
 
-- {{ fr.PHUBB }}
+- {{ fr.HUBB }}
 - {{ fr.DVLS }}
 - {{ fr.RDM }}
 

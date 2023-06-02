@@ -8,6 +8,6 @@ description: You can consult topics for the following categories about Devolutio
 
 You can consult topics for the following categories about Devolutions PowerShell Modules:
 
-- {{ en.PHUBB }}
+- {{ en.HUBB }}
 - {{ en.DVLS }}
 - {{ en.RDM }}
