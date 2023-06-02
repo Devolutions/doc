@@ -39,7 +39,7 @@ Les ***Paramètres d'importation / d'exportation*** permettent de sauvegarder et
 
 ### Sources de données <a name="source"></a>
 
-Les paramètres de ***Sources de données*** permettent de personnaliser les interactions de {{ fr.DWL }} avec <a href="#rdm">{{ fr.RDM }}</a>, <a href="#server">{{ fr.DVLS }}</a> et <a href="#hub">{{ fr.PHUB }}</a> Business ou Personal.  
+Les paramètres de ***Sources de données*** permettent de personnaliser les interactions de {{ fr.DWL }} avec <a href="#rdm">{{ fr.RDM }}</a>, <a href="#server">{{ fr.DVLS }}</a> et <a href="#hub">{{ fr.HUB }}</a> Business ou Personal.  
 
 ### {{ fr.RDM }} <a name="rdm"></a>
 
@@ -261,7 +261,7 @@ Activer pour synchroniser tous les coffres disponibles depuis {{ fr.DVLS }} .
 	</tr>
 </table>
 
-### {{ fr.PHUB }} Business et Personal <a name="hub"></a>
+### {{ fr.HUB }} Business et Personal <a name="hub"></a>
 
 <table>
 	<tr>
@@ -274,18 +274,18 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Activer Devolutions {{ fr.PHUB }} Business/Personal 
+Activer Devolutions {{ fr.HUB }} Business/Personal 
 		</td>
 		<td>
-Récupérer les entrées de {{ fr.PHUB }} . 
+Récupérer les entrées de {{ fr.HUB }} . 
 		</td>
 	</tr>
 	<tr>
 		<td>
-URL du serveur (disponible avec {{ fr.PHUB }} Business seulement) 
+URL du serveur (disponible avec {{ fr.HUB }} Business seulement) 
 		</td>
 		<td>
-Entrer l'URL du {{ fr.PHUB }} Business auquel se connecter. 
+Entrer l'URL du {{ fr.HUB }} Business auquel se connecter. 
 		</td>
 	</tr>
 	<tr>
@@ -293,7 +293,7 @@ Entrer l'URL du {{ fr.PHUB }} Business auquel se connecter.
 Nom d'utilisateur 
 		</td>
 		<td>
-Entrer un nom d'utilisateur avec lequel se connecter à {{ fr.PHUB }} . 
+Entrer un nom d'utilisateur avec lequel se connecter à {{ fr.HUB }} . 
 		</td>
 	</tr>
 </table>
@@ -355,7 +355,7 @@ Afficher le favicône de {{ fr.DWL }} .
 {{ fr.DWL }} 
 		</td>
 		<td>
-Activer ou désactiver {{ fr.DWL }} avec {{ fr.PHUB }} . 
+Activer ou désactiver {{ fr.DWL }} avec {{ fr.HUB }} . 
 		</td>
 	</tr>
 	<tr>
@@ -368,10 +368,10 @@ Définir un type d'option de comparaison par défaut entre <b><i>Domaine de base
 	</tr>
 	<tr>
 		<td>
-Synchroniser tous les coffres disponibles (disponible avec {{ fr.PHUB }} Business seulement) 
+Synchroniser tous les coffres disponibles (disponible avec {{ fr.HUB }} Business seulement) 
 		</td>
 		<td>
-Activer pour synchroniser tous les coffres disponibles depuis {{ fr.PHUB }} Business . 
+Activer pour synchroniser tous les coffres disponibles depuis {{ fr.HUB }} Business . 
 		</td>
 	</tr>
 </table>

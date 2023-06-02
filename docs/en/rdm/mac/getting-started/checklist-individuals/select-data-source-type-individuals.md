@@ -35,7 +35,7 @@ MULTI-USER
 	</tr>
 	<tr>
 		<td>
-{{ en.HUB }} Personal 
+{{ en.DHUB }} Personal 
 		</td>
 		<td>
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Inviter des utilisateurs pour SSO dans {{ fr.PHUB }} Business
+  title: Inviter des utilisateurs pour SSO dans {{ fr.HUB }} Business
 description: Une fois l'authentification unique (SSO) confighurée et activée, invitez vos utilisateurs dans votre Hub en suivant ces étapes.
 keywords:
 - SSO
@@ -10,13 +10,13 @@ keywords:
 ---
 Une fois l'authentification unique (SSO) [configurée et activée](HUB_Connect_AzureAD_Office365_Authentification), vous pouvez désormais utiliser cette invitation spécifique pour tous vos utilisateurs.  
 
-Cette méthode enverra un courriel préformaté à tous les destinataires. Il fournira votre URL de {{ fr.PHUB }} Business avec un ID d'invitation et une clé à utiliser.  
+Cette méthode enverra un courriel préformaté à tous les destinataires. Il fournira votre URL de {{ fr.HUB }} Business avec un ID d'invitation et une clé à utiliser.  
 {% snippet icon.badgeCaution %} 
-L'ID d'invitation et la clé servent à préapprouver l'accès à {{ fr.PHUB }} Business. Ils expirent 7 jours après la date d'envoi. 
+L'ID d'invitation et la clé servent à préapprouver l'accès à {{ fr.HUB }} Business. Ils expirent 7 jours après la date d'envoi. 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
-Dans le cadre du processus de création, un {{ fr.DA }} sera créé, car il est obligatoire pour accéder à {{ fr.PHUB }}, mais il ne sera pas nécessaire de définir un mot de passe puisque vos utilisateurs s'authentifieront via Azure AD. 
+Dans le cadre du processus de création, un {{ fr.DA }} sera créé, car il est obligatoire pour accéder à {{ fr.HUB }}, mais il ne sera pas nécessaire de définir un mot de passe puisque vos utilisateurs s'authentifieront via Azure AD. 
 {% endsnippet %}  
  
 ## Inviter des utilisateurs de l'organisation 
@@ -38,24 +38,24 @@ Cela est possible uniquement si l'application d'entreprise dans Azure a l'***Ass
 ![Étape 3 - Options](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2060.png)  
 5. ***Étape 4 - Groupes d'utilisateurs*** : Les utilisateurs synchronisés n'ont pas besoin d'être assignés aux ***Groupes d'utilisateurs*** synchronisés. Ils seront ajoutés automatiquement lors de leur connexion. Si vous avez des ***Groupes d'utilisateurs*** personnalisés, vous pouvez leur assigner des utilisateurs.  
 {% snippet icon.badgeInfo %} 
-Les ***Groupes d'utilisateurs*** personnalisés doivent être définis au préalable dans {{ fr.PHUB }} Business. Pour plus d'informations, voir [Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/). 
+Les ***Groupes d'utilisateurs*** personnalisés doivent être définis au préalable dans {{ fr.HUB }} Business. Pour plus d'informations, voir [Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/). 
 {% endsnippet %}  
 
 ![Étape 4 - Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2061.png)  
 
 6. Cliquer sur ***Envoyer une invitation*** au bas de la fenêtre.  
 
-{{ fr.PHUB }} Business enverra un courriel contenant les informations essentielles aux destinataires, incluant l'URL du {{ fr.PHUB }} Business, l'ID d'invitation et la clé.  
+{{ fr.HUB }} Business enverra un courriel contenant les informations essentielles aux destinataires, incluant l'URL du {{ fr.HUB }} Business, l'ID d'invitation et la clé.  
 {% snippet icon.badgeCaution %} 
 Les utilisateurs devront remplir une configuration de {{ fr.DA }}. Consultez notre rubrique [Expérience d'invitation de l'utilisateur final pour SSO dans Hub Business](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/). 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
-Le destinataire fera seulement partie de votre {{ fr.PHUB }} lorsqu'il s'y connectera pour la première fois. Ce n'est qu'alors que vous pourrez le voir dans ***Administration – Utilisateurs***.
+Le destinataire fera seulement partie de votre {{ fr.HUB }} lorsqu'il s'y connectera pour la première fois. Ce n'est qu'alors que vous pourrez le voir dans ***Administration – Utilisateurs***.
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
-Tout utilisateur qui essaie d'accéder à votre {{ fr.PHUB }} Business avec son URL pour la première fois sans recevoir d'invitation déclenchera une demande d'approbation, seulement s'il est dans le même fournisseur d'identité.  
+Tout utilisateur qui essaie d'accéder à votre {{ fr.HUB }} Business avec son URL pour la première fois sans recevoir d'invitation déclenchera une demande d'approbation, seulement s'il est dans le même fournisseur d'identité.  
 
 Un courriel sera envoyé à tous les administrateurs. Il peut être approuvé ou refusé dans ***Administration – Utilisateurs***. 
 {% endsnippet %}  

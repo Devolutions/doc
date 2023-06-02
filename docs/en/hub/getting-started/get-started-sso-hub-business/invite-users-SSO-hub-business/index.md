@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Invite Users for SSO in {{ en.PHUB }} Business
+  title: Invite Users for SSO in {{ en.HUB }} Business
 description: Once SSO is configured and enabled, invite your users on your Hub following these steps.
 keywords:
 - SSO
@@ -10,14 +10,14 @@ keywords:
 ---
 Once SSO is [configured and enabled](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/), you can use this specific invite for all your users.  
 
-This method will send a preformatted email to all the recipients. It will provide your {{ en.PHUB }} Business URL with an invitation ID and a key for them to use.  
+This method will send a preformatted email to all the recipients. It will provide your {{ en.HUB }} Business URL with an invitation ID and a key for them to use.  
 
 {% snippet icon.badgeCaution %} 
-The invitation ID and key are for pre-approving access to {{ en.PHUB }} Business. They expire 7 days from the day they are sent. 
+The invitation ID and key are for pre-approving access to {{ en.HUB }} Business. They expire 7 days from the day they are sent. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-As part of the creation process, a {{ en.DA }} will be created since it is required to access {{ en.PHUB }} Business, but it will not be necessary to set a password since your users will authenticate via Azure AD. 
+As part of the creation process, a {{ en.DA }} will be created since it is required to access {{ en.HUB }} Business, but it will not be necessary to set a password since your users will authenticate via Azure AD. 
 {% endsnippet %}
  
 ## Invite Organization Users 
@@ -37,25 +37,25 @@ This is only possible if the enterprise application in Azure has the ***Assignme
 ![Step 3 - Options](https://webdevolutions.azureedge.net/docs/en/hub/Hub2178.png)  
 1. ***Step 4 - User groups***: Synchronized users do not need to be assigned to the synced ***User Groups***. They will be added automatically as they log in. If you have custom ***User Groups***, you can assign them users.  
 {% snippet icon.badgeInfo %}  
-Custom ***User groups*** need to be defined beforehand in {{ en.PHUB }} Business. For more information, see [User Groups](/hub/web-interface/hub-overview/administration/management/users/). 
+Custom ***User groups*** need to be defined beforehand in {{ en.HUB }} Business. For more information, see [User Groups](/hub/web-interface/hub-overview/administration/management/users/). 
 {% endsnippet %}
  
 ![Step 4 - User groups](https://webdevolutions.azureedge.net/docs/en/hub/Hub2179.png) 
 
 6. Click ***Send invite*** at the bottom.  
 
-{{ en.PHUB }} Business will send an email with essential information to the recipients, including the URL of your {{ en.PHUB }} Business, the invitation ID, and the key.  
+{{ en.HUB }} Business will send an email with essential information to the recipients, including the URL of your {{ en.HUB }} Business, the invitation ID, and the key.  
 
 {% snippet icon.badgeCaution %} 
 Users will be required to complete a {{ en.DA }} setup. See the [End User Invitation Experience for SSO in Hub Business](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/) topic. 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
-The recipient will be part of your {{ en.PHUB }} only when they connect to it for the first time. Only then will you be able to see them in ***Administration – Users***. 
+The recipient will be part of your {{ en.HUB }} only when they connect to it for the first time. Only then will you be able to see them in ***Administration – Users***. 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
-Any user that tries to access your {{ en.PHUB }} Business with its URL for the first time without receiving an invitation will trigger a request approval, only if they are in the same identity provider.  
+Any user that tries to access your {{ en.HUB }} Business with its URL for the first time without receiving an invitation will trigger a request approval, only if they are in the same identity provider.  
 
 An email will then be sent to all the administrators. It can be either approved or denied in ***Administration – Users***. 
 {% endsnippet %}  

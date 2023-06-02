@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Create an Account for a Website in {{ en.PHUB }} Personal with {{ en.DWL }}
+  title: Create an Account for a Website in {{ en.HUB }} Personal with {{ en.DWL }}
   order: 10
 ---
 {{ en.DWL }} assists you in creating a new account when you register on a website. It gives you the ability to create a secure password and save your new credentials.  
@@ -9,7 +9,7 @@ eleventyComputed:
 If you already have an account for the website, visit our [Add an Entry with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/) topic. 
 {% endsnippet %}
  
-Follow the steps below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.HUB }} Personal.  
+Follow the steps below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.DHUB }} Personal.  
 
 1. On the website for which you want to create your account, go to the registration/account creation page. This page will be different for each website; this topic will use the Atlassian website as an example.  
 ![Registration Page](https://webdevolutions.azureedge.net/docs/en/hub/Hub2060.png) 
@@ -40,5 +40,5 @@ Your password settings are now configured.
 1. Select a ***Folder*** in which to save your website entry. 
 1. Click ***Save*** .  
 
-Your credentials are now securely stored in a new website entry in {{ en.HUB }} Personal. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) . 
+Your credentials are now securely stored in a new website entry in {{ en.DHUB }} Personal. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) . 
 

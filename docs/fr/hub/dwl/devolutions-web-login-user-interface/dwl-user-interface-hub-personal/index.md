@@ -1,7 +1,7 @@
 ---
 title: Interface utilisateur de Devolutions Web Login avec Hub Personal
 ---
-L 'interface utilisateur de {{ fr.DWL }} varie légèrement dans votre navigateur selon le produit Devolutions utilisé en conjonction avec l 'extension. Cette rubrique présentera l 'interface utilisateur de {{ fr.DWL }} lorsqu 'elle est utilisée avec {{ fr.PHUB }} Personal.  
+L 'interface utilisateur de {{ fr.DWL }} varie légèrement dans votre navigateur selon le produit Devolutions utilisé en conjonction avec l 'extension. Cette rubrique présentera l 'interface utilisateur de {{ fr.DWL }} lorsqu 'elle est utilisée avec {{ fr.HUB }} Personal.  
 
 La vue principale, qui est celle qui s 'affiche lors de la première ouverture de {{ fr.DWL }} dans votre navigateur, peut être divisée en trois sections principales :  
 
@@ -19,12 +19,12 @@ Si vous utilisez plusieurs produits Devolutions avec l 'extension, vous pouvez p
 À côté du bouton ***Paramètres*** se trouve le bouton de votre ***Compte*** . Cette section comporte quelques liens et informations utiles, à savoir :  
 
 * un bouton ***Gérer le compte*** pour voir/modifier votre {{ fr.DA }} via Devolutions Portal;  
-* une liste des autres compte qui ont été utilisés pour se connecter à {{ fr.PHUB }} Personal sur votre ordinateur;  
-* un bouton ***Ajouter un nouveau compte*** pour se connecter à {{ fr.PHUB }} Personal avec un compte qui n 'est pas listé au-dessus;  
+* une liste des autres compte qui ont été utilisés pour se connecter à {{ fr.HUB }} Personal sur votre ordinateur;  
+* un bouton ***Ajouter un nouveau compte*** pour se connecter à {{ fr.HUB }} Personal avec un compte qui n 'est pas listé au-dessus;  
 * un bouton pour ***Se déconnecter*** de votre {{ fr.DA }} ;  
-* un lien vers votre {{ fr.PHUB }} Personal;  
-* un lien vers notre [forum de {{ fr.PHUB }}](https://forum.devolutions.net/product/password-hub) ;  
-* un lien vers notre [Aide en ligne de {{ fr.PHUB }}](/fr/hub/overview/what-is-hub/) ;  
+* un lien vers votre {{ fr.HUB }} Personal;  
+* un lien vers notre [forum de {{ fr.HUB }}](https://forum.devolutions.net/product/password-hub) ;  
+* un lien vers notre [Aide en ligne de {{ fr.HUB }}](/fr/hub/overview/what-is-hub/) ;  
 * la version actuelle de {{ fr.DWL }} .  
 ![Bouton Compte](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2071.png)  
 
@@ -32,10 +32,10 @@ Si vous utilisez plusieurs produits Devolutions avec l 'extension, vous pouvez p
 
 En utilisant les onglets du ***Menu latéral*** , vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }} .  
 ![Onglets du Menu latéral](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2072.png)  
-Chaque onglet affiche une vue différente dans la ***Zone de contenu*** . Les onglets disponibles lors de l 'utilisation de {{ fr.DWL }} avec {{ fr.PHUB }} Personal sont :  
+Chaque onglet affiche une vue différente dans la ***Zone de contenu*** . Les onglets disponibles lors de l 'utilisation de {{ fr.DWL }} avec {{ fr.HUB }} Personal sont :  
 
 * l 'onglet ***Corresponsant*** , où vous pouvez trouver les identifiants disponibles pour un site Web spécifique;  
-* l 'onglet ***Toute les entrées*** , où vous pouvez trouver toutes les entrées de votre {{ fr.PHUB }} Personal réparties dans vos différents coffres et dossiers;  
+* l 'onglet ***Toute les entrées*** , où vous pouvez trouver toutes les entrées de votre {{ fr.HUB }} Personal réparties dans vos différents coffres et dossiers;  
 * l 'onglet ***Favoris*** , où vous pouvez trouver une liste de vos entrées favorites;  
 * l 'onglet ***Récent*** , où vous pouvez trouver une liste des entrées que vous avez récemment utilisées;  
 * l 'onglet ***Corbeille*** , où vous pouvez ***Supprimer*** des entrées et dossiers ou ***Restaurer*** ceux qui ont été précédemment supprimés;  

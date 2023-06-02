@@ -1,9 +1,9 @@
 ---
 title: Créer et inviter des utilisateurs
 ---
-Créer et inviter des ***Utilisateurs*** dans votre {{ fr.PHUB }} Business avec leur adresse courriel. 
+Créer et inviter des ***Utilisateurs*** dans votre {{ fr.HUB }} Business avec leur adresse courriel. 
 {% snippet icon.badgeCaution %} 
-Si votre {{ fr.PHUB }} Business est configurée avec les identifiants d 'authentification SSO d 'Azure AD Office 365, suivre le processus spécifique pour inviter des utilisateurs avec cette rubrique: [Inviter des utilisateurs pour SSO](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) . 
+Si votre {{ fr.HUB }} Business est configurée avec les identifiants d 'authentification SSO d 'Azure AD Office 365, suivre le processus spécifique pour inviter des utilisateurs avec cette rubrique: [Inviter des utilisateurs pour SSO](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) . 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
@@ -24,7 +24,7 @@ Il est possible de coller une liste d 'adresses courriel d ' ***Utilisateurs*** 
 {% snippet icon.badgeInfo %} 
 Cette étape validera si l 'utilisateur a un {{ fr.DA }} .  
 
-* Si oui, il liera le compte au {{ fr.PHUB }} Business et l 'utilisateur recevra un courriel d 'invitation.  
+* Si oui, il liera le compte au {{ fr.HUB }} Business et l 'utilisateur recevra un courriel d 'invitation.  
 * Sinon, il créera automatiquement un {{ fr.DA }} avec un ***Mot de passe temporaire*** , que vous pouvez choisir comment gérer. Vous pouvez gérer la gestion des ***Mots de passe temporaires*** dans ***Administration - Paramètres du système - Général*** . 
 {% endsnippet %}
  
@@ -36,12 +36,12 @@ Cette étape validera si l 'utilisateur a un {{ fr.DA }} .
 1. Cliquer ***Suivant*** . 
 1. Assigner des ***Groupes d 'utilisateurs*** .  
 {% snippet icon.badgeInfo %} 
-Les ***Groupes d 'utilisateurs*** doivent être définis au préalable en tant que groupe personnalisé dans {{ fr.PHUB }} . Pour plus d 'informations, voir [Groupes d 'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/) . 
+Les ***Groupes d 'utilisateurs*** doivent être définis au préalable en tant que groupe personnalisé dans {{ fr.HUB }} . Pour plus d 'informations, voir [Groupes d 'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/) . 
 {% endsnippet %}
  
 ![!!Hub4183.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4183.png) 
 
 9. Cliquer ***Envoyer une invitation*** .  
 
-{{ fr.PHUB }} enverra un courriel contenant les informations essentielles aux utilisateurs invités; le lien pour accéder à {{ fr.PHUB }} Business, l 'ID et la clé d 'invitation. 
+{{ fr.HUB }} enverra un courriel contenant les informations essentielles aux utilisateurs invités; le lien pour accéder à {{ fr.HUB }} Business, l 'ID et la clé d 'invitation. 
 

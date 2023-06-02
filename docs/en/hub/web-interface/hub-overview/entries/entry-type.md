@@ -1,7 +1,7 @@
 ---
 title: Entry Type
 ---
-Choose the best suited ***Entry Type*** to create and manage each entry in {{ en.PHUB }} .  
+Choose the best suited ***Entry Type*** to create and manage each entry in {{ en.HUB }} .  
 
 * ***General***    entries are for storing documents and websites information. This is where the ***Folder*** entry is located to help you manage your {{ en.NPANE }} .  
 * ***Session*** type entries vary in features and uses. They are primarily used to launch sessions such as ***RDP*** , ***SSH*** , and ***Web Browser*** . They can be launched with the {{ en.DEVL }} or in combination with {{ en.RDM }} .  

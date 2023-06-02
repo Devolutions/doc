@@ -39,7 +39,7 @@ The ***Import/Export Settings*** allow to save and transfer your currently set p
 
 ### Data sources <a name="source"></a>
 
-The ***Data sources*** settings are used to customize {{ en.DWL }} interactions with <a href="#rdm">{{ en.RDM }}</a>, <a href="#server">{{ en.DVLS }}</a>, and <a href="#hub">{{ en.PHUB }}</a> Business or Personal.  
+The ***Data sources*** settings are used to customize {{ en.DWL }} interactions with <a href="#rdm">{{ en.RDM }}</a>, <a href="#server">{{ en.DVLS }}</a>, and <a href="#hub">{{ en.HUB }}</a> Business or Personal.  
 
 ### {{ en.RDM }} <a name="rdm"></a>
 
@@ -261,7 +261,7 @@ Enable to synchronize all the available {{ en.VLT }}s from {{ en.DVLS }} .
 	</tr>
 </table>
 
-### {{ en.PHUB }} Business and Personal <a name="hub"></a>
+### {{ en.HUB }} Business and Personal <a name="hub"></a>
 
 <table>
 	<tr>
@@ -274,18 +274,18 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Enable Devolutions {{ en.PHUB }} Business/Personal 
+Enable Devolutions {{ en.HUB }} Business/Personal 
 		</td>
 		<td>
-Retrieve entries from {{ en.PHUB }} . 
+Retrieve entries from {{ en.HUB }} . 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Server URL (available with {{ en.PHUB }} Business only) 
+Server URL (available with {{ en.HUB }} Business only) 
 		</td>
 		<td>
-Enter the URL of the {{ en.PHUB }} Business instance to connect to. 
+Enter the URL of the {{ en.HUB }} Business instance to connect to. 
 		</td>
 	</tr>
 	<tr>
@@ -293,7 +293,7 @@ Enter the URL of the {{ en.PHUB }} Business instance to connect to.
 Username 
 		</td>
 		<td>
-Enter a username to connect to {{ en.PHUB }} with. 
+Enter a username to connect to {{ en.HUB }} with. 
 		</td>
 	</tr>
 </table>
@@ -355,7 +355,7 @@ Display the {{ en.DWL }} favicon.
 {{ en.DWL }} 
 		</td>
 		<td>
-Enable or disable {{ en.DWL }} with {{ en.PHUB }} . 
+Enable or disable {{ en.DWL }} with {{ en.HUB }} . 
 		</td>
 	</tr>
 	<tr>
@@ -368,10 +368,10 @@ Set a default comparing option type between <b><i>Base domain , Host , Starts wi
 	</tr>
 	<tr>
 		<td>
-Sync all available vaults (available with {{ en.PHUB }} Business only) 
+Sync all available vaults (available with {{ en.HUB }} Business only) 
 		</td>
 		<td>
-Enable to synchronize all the available {{ en.VLT }}s from {{ en.PHUB }} Business. 
+Enable to synchronize all the available {{ en.VLT }}s from {{ en.HUB }} Business. 
 		</td>
 	</tr>
 </table>

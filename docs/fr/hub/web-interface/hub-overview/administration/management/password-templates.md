@@ -1,7 +1,7 @@
 ---
 title: Modèles de mots de passe
 ---
-Le ***Modèles de mot de passe*** est utilisé pour créer des paramètres prédéfinis pour le générateur de mots de passe de {{ fr.PHUB }} Business.  
+Le ***Modèles de mot de passe*** est utilisé pour créer des paramètres prédéfinis pour le générateur de mots de passe de {{ fr.HUB }} Business.  
 
 Vous pouvez définir un ***Modèle par défaut*** et choisir une ***Imposition du modèle*** pour les utilisateurs.  
 

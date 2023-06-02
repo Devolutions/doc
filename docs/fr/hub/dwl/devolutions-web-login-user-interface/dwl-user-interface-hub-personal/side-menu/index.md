@@ -3,7 +3,7 @@ title: Menu latéral
 ---
 En utilisant les onglets du ***Menu latéral*** , vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }} . Chaque onglet affiche une vue différente dans la ***Zone de contenu*** .  
 
-Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.PHUB }} Personal, les onglets disponibles sont l 'onglet ***Correspondant*** , l 'onglet ***Toutes les entrées*** , l 'onglet ***Favoris*** , l 'onglet ***Récent*** , l 'onglet ***Corbeille*** et l 'onglet ***Générateur de mots de passe*** .  
+Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.HUB }} Personal, les onglets disponibles sont l 'onglet ***Correspondant*** , l 'onglet ***Toutes les entrées*** , l 'onglet ***Favoris*** , l 'onglet ***Récent*** , l 'onglet ***Corbeille*** et l 'onglet ***Générateur de mots de passe*** .  
 
 Dans tous les onglets, à l 'exception de l 'onglet ***Générateur de mots de passe*** , lorsque vous passez le curseur sur une entrée, trois nouvelles options apparaissent : les boutons ***Copier le nom d 'utilisateur***, ***Copier le mot de passe***, et ***Affichage***. Consultez la section [Fonctionnalités des entrées](#fonctionnalités-des-entrées) pour plus d 'informations.  
 
@@ -21,7 +21,7 @@ Pour connaître les méthodes de récupération de vos identifiants, consultez [
 
 En haut, vous pouvez utiliser la barre de ***Recherche*** pour filtrer tous vos identifiants, pas seulement celles applicables au site Web. Vous pouvez également utiliser le bouton ***Actualiser*** situé à côté pour mettre à jour les résultats de la recherche.  
 
-En bas, le bouton ***Nouvelle entrée*** vous donne accès à des types d 'entrées qui, lorsque sélectionnées, ouvrent un nouvel onglet de navigateur qui vous permet d 'ajouter manuellement une entrée dans {{ fr.PHUB }} Personal par le biais de l 'extension {{ fr.DWL }} .  
+En bas, le bouton ***Nouvelle entrée*** vous donne accès à des types d 'entrées qui, lorsque sélectionnées, ouvrent un nouvel onglet de navigateur qui vous permet d 'ajouter manuellement une entrée dans {{ fr.HUB }} Personal par le biais de l 'extension {{ fr.DWL }} .  
 
 {% snippet icon.badgeInfo %} 
 Pour obtenir une liste complète des champs et entrées disponibles dans la fenêtre ***Nouvelle entrée*** , consultez [cette rubrique](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/) . Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/) . 
@@ -33,7 +33,7 @@ L 'onglet ***Coffres*** vous permet de parcourir tous vos coffres pour accéder 
 ![!!Hub2083.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2083.png) 
 En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher dans vos entrées et vos coffres.  
 
-Pour accéder à une entrée dans {{ fr.DWL }} , naviguez dans les dossiers pour trouver manuellement l 'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.PHUB }} Personal.  
+Pour accéder à une entrée dans {{ fr.DWL }} , naviguez dans les dossiers pour trouver manuellement l 'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.HUB }} Personal.  
 
 Lorsque vous naviguez dans les dossiers, le bouton [***Nouvelle entrée***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/) apparaît au bas de la ***Zone de contenu*** .  
 
@@ -54,7 +54,7 @@ En bas, vous pouvez cliquer sur le bouton ***Effacer les entrées récentes*** p
 
 Dans l 'onglet Corbeille, vous pouvez sélectionner vos entrées ou des dossiers entiers à supprimer. 
 {% snippet icon.badgeCaution %} 
-Notez que si vous supprimez des entrées ou des dossiers, ils seront supprimés de votre {{ fr.PHUB }} Personal et pas seulement de la vue {{ fr.DWL }} . 
+Notez que si vous supprimez des entrées ou des dossiers, ils seront supprimés de votre {{ fr.HUB }} Personal et pas seulement de la vue {{ fr.DWL }} . 
 {% endsnippet %}
  
 ![Onglet Corbeille](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2086.png) 

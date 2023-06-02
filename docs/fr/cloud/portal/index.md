@@ -10,5 +10,5 @@ Dans la section [***Portail***](https://portal.devolutions.com/portal), vous pou
 * [Mes factures](/fr/cloud/portal/invoices/) 
 * [Mes devis](/fr/cloud/portal/quotes/) 
 * [Mon compte Affiliates](/fr/cloud/portal/affiliates-account/) 
-* [{{ fr.HUB }} Business](/fr/cloud/hub-business/) 
-* [{{ fr.HUB }} Personal](/fr/cloud/hub-personal/) 
+* [{{ fr.DHUB }} Business](/fr/cloud/hub-business/) 
+* [{{ fr.DHUB }} Personal](/fr/cloud/hub-personal/) 

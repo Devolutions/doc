@@ -1,7 +1,7 @@
 ---
 title: Pièces jointes
 ---
-Gérer, afficher et télécharger des fichiers ***Pièces jointes*** stockés directement dans {{ fr.PHUB }} pour une entrée.  
+Gérer, afficher et télécharger des fichiers ***Pièces jointes*** stockés directement dans {{ fr.HUB }} pour une entrée.  
 ![!!Hub4147.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4147.png) 
 
 ### Ajouter une pièce jointe 

@@ -1,7 +1,7 @@
 ---
 title: Type d'entrée
 ---
-Choisir le ***Type d'entrée*** le mieux adapté pour créer et gérer chaque entrée dans {{ fr.PHUB }} .  
+Choisir le ***Type d'entrée*** le mieux adapté pour créer et gérer chaque entrée dans {{ fr.HUB }} .  
 
 * Les entrées de type ***Général*** sont destinées au stockage des documents et d'informations sur les sites Web. C'est à cet emplacement que se trouve l'entrée ***Dossier*** pour vous aider à gérer le volet de navigation.  
 * Les entrées de type ***Session*** varient en termes de fonctionnalités et d'utilisations. Elles sont principalement utilisées pour lancer des sessions telles que ***RDP*** , ***SSH*** et le ***Navigateur Web*** . Elles peuvent être lancées avec Launcher ou en combinaison avec {{ fr.RDM }} .  

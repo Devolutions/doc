@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: Access Denied Errors
-  description: In {{ en.HUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
+  description: In {{ en.DHUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
   keywords:
   - Access Denied
   - Error
 ---
-In {{ en.HUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
+In {{ en.DHUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
 
 ## List of Errors
 
@@ -161,7 +161,7 @@ Description
 		<td>
 This user did a Forgot password on their {{ en.DA }} and is not the owner. This action cuts the link with the {{ en.HUBB }}.<br>
 
-Note: If the {{ en.DA }} has more than one {{ en.PHUB }} (Business and Personal), it will cut the link to all of them.
+Note: If the {{ en.DA }} has more than one {{ en.HUB }} (Business and Personal), it will cut the link to all of them.
 		</td>
 	</tr>
 	<tr>
@@ -202,8 +202,8 @@ Solution
 	</tr>
 </table>
 
-### Workspace is disabled for this user on this {{ en.PHUB }}.
-![Workspace is disabled for this user on this {{ en.PHUB }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
+### Workspace is disabled for this user on this {{ en.HUB }}.
+![Workspace is disabled for this user on this {{ en.HUB }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
 
 <table>
 		<td>
@@ -265,8 +265,8 @@ The {{ en.HUBB }} owner must <a href="https://store.devolutions.net/store">buy o
 	</tr>
 </table>
 
-### Your {{ en.PHUB }} has been disabled; contact your administrator.
-![Your {{ en.PHUB }} has been disabled; contact your administrator.](https://webdevolutions.azureedge.net/docs/en/kb/KB4769.png)
+### Your {{ en.HUB }} has been disabled; contact your administrator.
+![Your {{ en.HUB }} has been disabled; contact your administrator.](https://webdevolutions.azureedge.net/docs/en/kb/KB4769.png)
 
 <table>
 		<td>

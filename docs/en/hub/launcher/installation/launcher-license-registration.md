@@ -3,12 +3,12 @@ title: Launcher License Registration
 ---
 Register and assign your {{ en.LAUNCHER }} license serial. 
 
-### {{ en.HUB }} Business Launcher license 
+### {{ en.DHUB }} Business Launcher license 
 
-To register a ***Launcher*** license, in {{ en.HUB }} Business, you need to add a ***Product Licenses*** and assign it to the users.  
+To register a ***Launcher*** license, in {{ en.DHUB }} Business, you need to add a ***Product Licenses*** and assign it to the users.  
 
 {% snippet icon.badgeCaution %} 
-Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.HUB }} Business. 
+Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.DHUB }} Business. 
 {% endsnippet %}
  
 1. Go to ***Administration - Licenses*** . 

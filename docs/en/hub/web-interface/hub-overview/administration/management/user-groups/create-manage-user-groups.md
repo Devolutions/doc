@@ -1,7 +1,7 @@
 ---
 title: Create and Manage User Groups
 ---
-User management and permissions can be made easier with ***User Groups*** in {{ en.PHUB }} Business.  
+User management and permissions can be made easier with ***User Groups*** in {{ en.HUB }} Business.  
 
 * [Create User Groups](#create-user-groupscreate-user-groups) 
 * [Manage User Groups](#manage-user-groups) 
@@ -18,7 +18,7 @@ User management and permissions can be made easier with ***User Groups*** in {{ 
 
 ### Manage User Groups 
 
-Managing and adding users to ***User Groups*** in {{ en.PHUB }} Business can be done through multiple ways:  
+Managing and adding users to ***User Groups*** in {{ en.HUB }} Business can be done through multiple ways:  
 {% snippet icon.badgeInfo %} 
 To manage ***Vaults Permissions*** with ***User Groups*** , look into this topic: [Create and Manage Vaults](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) . 
 {% endsnippet %}

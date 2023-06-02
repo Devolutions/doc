@@ -1,7 +1,7 @@
 ---
 title: Créer des entrées manuellement
 ---
-Créer des entrées et enregistrer vos données dans {{ fr.PHUB }} Business.  
+Créer des entrées et enregistrer vos données dans {{ fr.HUB }} Business.  
 
 ### Créer une entrée 
 

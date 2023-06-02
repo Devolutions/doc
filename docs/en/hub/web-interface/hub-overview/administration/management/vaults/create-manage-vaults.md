@@ -3,7 +3,7 @@ title: Create and Manage Vaults
 keywords:
 - role
 ---
-***Vaults*** are for sharing entries with users and user groups of your organization in {{ en.PHUB }} Business.  
+***Vaults*** are for sharing entries with users and user groups of your organization in {{ en.HUB }} Business.  
 
 ## Manage Vaults
 

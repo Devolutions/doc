@@ -15,12 +15,12 @@ Vous devrez avoir installé le [module {{ fr.PS }}](/fr/hub/powershell-module/) 
 Des permissions appropriées sont également nécessaires pour exécuter certaines de ces commandes. Veuillez vous référer à [Utilisateurs d'application](/fr/hub/web-interface/hub-overview/administration/management/application-users/). 
 {% endsnippet %}
  
-PSHubContext est un objet qui spécifie vos informations d'authentification. Vous aurez besoin d'un PSHubContext valide pour vous connecter à votre {{ fr.PHUB }} Business. Vous pouvez avoir plusieurs PSHubContext connectés dans votre session PowerShell, mais un seul est utilisé lorsque vous utilisez l'applet de commande {{ fr.PHUB }}.  
+PSHubContext est un objet qui spécifie vos informations d'authentification. Vous aurez besoin d'un PSHubContext valide pour vous connecter à votre {{ fr.HUB }} Business. Vous pouvez avoir plusieurs PSHubContext connectés dans votre session PowerShell, mais un seul est utilisé lorsque vous utilisez l'applet de commande {{ fr.HUB }}.  
 
 Dans cet objet, vous avez ce qui suit :  
 
 * Nom : Nom de l'utilisateur d'application  
-* URL : URL du {{ fr.PHUB }} Business  
+* URL : URL du {{ fr.HUB }} Business  
 * Clé secrète d'application : Clé secrète d'application donnée après la création de l'utilisateur d'application  
 * Clé de l'application : Clé de l'application donnée après la création de l'utilisateur d'application  
 
@@ -63,11 +63,11 @@ Connect-HubAccount
 * ApplicationSecret  
 		</td>
 		<td>
-Si PSHubContext est fourni, tente de se connecter à {{ fr.PHUB }} avec celui-ci.  
+Si PSHubContext est fourni, tente de se connecter à {{ fr.HUB }} avec celui-ci.  
 
 	ou  
 
-Si PSHubContext n'est pas fourni, crée un PSHubContext avec les informations reçues et tente de se connecter à {{ fr.PHUB }} par la suite. 
+Si PSHubContext n'est pas fourni, crée un PSHubContext avec les informations reçues et tente de se connecter à {{ fr.HUB }} par la suite. 
 		</td>
 		<td>
 ```$PSHubContext = [Devolutions.Hub.PowerShell.Entities.PowerShell.PSHubContext]@{ApplicationKey="24526a88-7f18-4356-95bd-11690f7bc59b;468ce2d5-ea4b-42ff-bc02-d93c71b4e554"; ApplicationSecret="U4nmdOjqPAcL0GfbvNC2u8e0FCZjhEJFTnn6YHpIZDY="; Url="https://<YourPasswordHubUrl>.devolutions.app"}```  
@@ -132,7 +132,7 @@ Get-HubContext
 
 Si ListAvailable est fourni, répertorie tous les PSHubContext définis dans la session PowerShell.  
 
-Si ListAvailable n'est pas fourni, récupère le PSHubContext actuel qui sera utilisé pour toutes les autres commandes {{ fr.PHUB }}. 
+Si ListAvailable n'est pas fourni, récupère le PSHubContext actuel qui sera utilisé pour toutes les autres commandes {{ fr.HUB }}. 
 		</td>
 		<td>
 		</td>
@@ -158,7 +158,7 @@ Select-HubContext
 * ApplicationKey 
 		</td>
 		<td>
-Sélectionner un autre PSHubContext pour modifier le PSHubContext actuel qui sera utilisé pour toutes les commandes {{ fr.PHUB }}. 
+Sélectionner un autre PSHubContext pour modifier le PSHubContext actuel qui sera utilisé pour toutes les commandes {{ fr.HUB }}. 
 		</td>
 		<td>
 		</td>
@@ -289,7 +289,7 @@ Set-HubSystemSettings
 		</td>
 		<td>
 	
-Définit les paramètres du système fournis à {{ fr.PHUB }}. 
+Définit les paramètres du système fournis à {{ fr.HUB }}. 
 		</td>
 		<td>
 Modifier certaines informations des paramètres du système et enregistrer ces modifications.  
@@ -548,7 +548,7 @@ New-HubGateway
 * PsDecryptedGateway 
 		</td>
 		<td>
-Ajoute un nouveau {{ fr.DGW }} au {{ fr.PHUB }}.
+Ajoute un nouveau {{ fr.DGW }} au {{ fr.HUB }}.
 		</td>
 		<td>
 ```$newDevolutionsGateway = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSGatewayMetadata]@{ Name =  'Test Gateway From PS ' }} ```  
@@ -681,7 +681,7 @@ Remove-HubVault
 * VaultId 
 		</td>
 		<td>
-Supprime ce coffre du {{ fr.PHUB }}. 
+Supprime ce coffre du {{ fr.HUB }}. 
 		</td>
 		<td>
 		</td>
@@ -913,13 +913,13 @@ New-HubOrganizationUser
 * PSInvitation  
 		</td>
 		<td>
-Invite un utilisateur d'une Organisation du {{ fr.DA }} définie dans votre {{ fr.PHUB }}.  
+Invite un utilisateur d'une Organisation du {{ fr.DA }} définie dans votre {{ fr.HUB }}.  
 
 Si Email, AllowOfflineInRDM et UserSendMessageConfiguration sont fournis. Un seul courriel sera envoyé.  
 
 Si PSInvitation est fourni, vous pouvez manuellement définir plus d'un courriel et assigner des groupes.  
 
-Cette commande fonctionnera seulement si l'option ***Activer l'authentification unique (SSO) pour l'organisation dans le compte Devolutions*** a été activée dans votre {{ fr.PHUB }} et qu'une Organisation du {{ fr.DA }} y a été sélectionnée. 
+Cette commande fonctionnera seulement si l'option ***Activer l'authentification unique (SSO) pour l'organisation dans le compte Devolutions*** a été activée dans votre {{ fr.HUB }} et qu'une Organisation du {{ fr.DA }} y a été sélectionnée. 
 		</td>
 		<td>
 
@@ -938,7 +938,7 @@ Remove-HubUser
 * UserId 
 		</td>
 		<td>
-Supprime cet utilisateur du {{ fr.PHUB }}. 
+Supprime cet utilisateur du {{ fr.HUB }}. 
 		</td>
 		<td>
 		</td>
@@ -1023,7 +1023,7 @@ Remove-HubGroup
 * GroupId 
 		</td>
 		<td>
-Supprime ce groupe de {{ fr.PHUB }}. 
+Supprime ce groupe de {{ fr.HUB }}. 
 		</td>
 		<td>
 		</td>
@@ -1126,7 +1126,7 @@ New-HubEntry
 * DocumentPath  
 		</td>
 		<td>
-Ajoute une nouvelle entrée à un coffre spécifique de {{ fr.PHUB }} avec l'entrée PSDecryptedEntry fournie. 
+Ajoute une nouvelle entrée à un coffre spécifique de {{ fr.HUB }} avec l'entrée PSDecryptedEntry fournie. 
 		</td>
 		<td>
 ```$t = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSEntryMetadata]@{ Name = “Test Cred“; ParentId = “9df41856-125a-490a-8589-93afc3059924“; ConnectionType = [Devolutions.Generated.Enums.ConnectionType]::Credential }; Connection = [Devolutions.Generated.Models.Connection]@{ Credentials = [Devolutions.Generated.Models.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.Enums.CredentialResolverConnectionType]::Default; Password = “passworddepowershell“ } } } ```  

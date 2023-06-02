@@ -1,7 +1,7 @@
 ---
 title: Inviter un administrateur
 ---
-Les administrateurs peuvent inviter des utilisateurs spécifiques à devenir administrateur de {{ fr.PHUB }} Business. Nous vous recommandons fortement d 'inviter au moins un autre administrateur.  
+Les administrateurs peuvent inviter des utilisateurs spécifiques à devenir administrateur de {{ fr.HUB }} Business. Nous vous recommandons fortement d 'inviter au moins un autre administrateur.  
 
 1. Aller dans ***Administration - Utilisateurs*** . 
 1. Cliquer ***Ajouter un administrateur*** .  
@@ -10,7 +10,7 @@ Les administrateurs peuvent inviter des utilisateurs spécifiques à devenir adm
 1. Appuyer sur ***Entrée*** . 
 {% snippet icon.badgeInfo %} 
 Cette étape vérifiera si l 'utilisateur a un {{ fr.DA }} . 
-* Si oui, il liera le compte au {{ fr.PHUB }} . 
+* Si oui, il liera le compte au {{ fr.HUB }} . 
 * Sinon, il créera un {{ fr.DA }} automatiquement avec un ***Mot de passe temporaire*** , que vous pouvez choisir de gérer. Vous pouvez gérer comment les ***Mot de passe temporaire*** sont envoyés dans ***Administration - Paramètres système - Général*** . 
 {% endsnippet %}
  

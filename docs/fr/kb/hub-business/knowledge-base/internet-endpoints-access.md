@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Liste des points de terminaison auxquels {{ fr.HUB }} accède
-  description: Voici la liste des adresses que {{ fr.HUB }} pourrait utiliser durant les activités normales.
+  title: Liste des points de terminaison auxquels {{ fr.DHUB }} accède
+  description: Voici la liste des adresses que {{ fr.DHUB }} pourrait utiliser durant les activités normales.
   keywords: 
   - endpoints
 ---
-Voici la liste des adresses que {{ fr.HUB }} pourrait utiliser durant les activités normales.  
+Voici la liste des adresses que {{ fr.DHUB }} pourrait utiliser durant les activités normales.  
 
 {% snippet icon.badgeWarning %}
 Nous utilisons une approche de « meilleur effort » pour maintenir cette liste à jour, mais celle-ci ne remplace pas les meilleures pratiques de sécurité TI. Si la sécurité est primordiale, il serait préférable de bloquer d'abord tout accès à Internet, puis de mettre les adresses souhaitées sur une liste d'autorisation si nécessaire. 

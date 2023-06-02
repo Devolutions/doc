@@ -1,7 +1,7 @@
 ---
 title: Configurer l'authentification SSO avec Microsoft Azure
 ---
-Voici les étapes pour configurer Azure avec Devolutions {{ fr.PHUB }} Business pour l'authentification SSO et le provisionnement des utilisateurs. 
+Voici les étapes pour configurer Azure avec Devolutions {{ fr.HUB }} Business pour l'authentification SSO et le provisionnement des utilisateurs. 
 
 {% snippet icon.badgeCaution %} 
 Un [compte Azure AD](https://azure.microsoft.com/fr-fr/) avec les droits appropriés est requis. 
@@ -9,7 +9,7 @@ Un [compte Azure AD](https://azure.microsoft.com/fr-fr/) avec les droits appropr
  
 ### Configurer l'authentification unique (SSO) 
 
-**Dans Devolutions {{ fr.PHUB }} Business** 
+**Dans Devolutions {{ fr.HUB }} Business** 
 
 1. Accéder à ***Administration – Authentification*** . 
 1. Dans ***Authentification unique (SSO)*** , cliquer sur ***Configurer l'authentification unique (SSO)*** .  
@@ -33,7 +33,7 @@ Ne pas fermer cette fenêtre de configuration, car les étapes suivantes indique
 ![Créer votre propre application](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2024.png) 
 1. Saisir le nom de la nouvelle application, puis cliquer sur ***Créer*** . 
 {% snippet icon.badgeNotice %} 
-Il est suggéré d'inclure soit « Devolutions » ou « {{ fr.PHUB }} » dans le nom. 
+Il est suggéré d'inclure soit « Devolutions » ou « {{ fr.HUB }} » dans le nom. 
 {% endsnippet %}
  
 ![Nom de l'application](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2025.png) 
@@ -48,7 +48,7 @@ Il est suggéré d'inclure soit « Devolutions » ou « {{ fr.PHUB }} » dans 
 1. Dans ***Configurer des plateformes*** , sélectionner ***Web*** .  
 ![Configurer des plateformes – Web](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2029.png) 
 
-**Dans Devolutions {{ fr.PHUB }} Business** 
+**Dans Devolutions {{ fr.HUB }} Business** 
 
 13. De retour dans la fenêtre ***Configurer l'authentification unique (SSO)*** , copier l' ***URL de rappel*** en cliquant sur l'icône ***Copier dans le presse-papiers*** située à côté  
 ![Copier l'URL de rappel](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2148.png) 
@@ -75,7 +75,7 @@ Il est suggéré d'inclure soit « Devolutions » ou « {{ fr.PHUB }} » dans 
 1. Sélectionner ***Vue d'ensemble*** dans le menu latéral gauche, puis copier l' ***ID d'application (client)*** en cliquant sur l'icône ***Copier dans le Presse-papiers*** située à côté.  
 ![Copier l'ID d'application (client)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2034.png) 
 
-**Dans Devolutions {{ fr.PHUB }} Business** 
+**Dans Devolutions {{ fr.HUB }} Business** 
 
 20. De retour dans la fenêtre ***Configurer l'authentification unique (SSO)*** , coller l' ***ID d'application (client)*** de l'étape précédente dans le champ ***ID du client*** .  
 ![ID du client](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2149.png) 
@@ -86,7 +86,7 @@ Il est suggéré d'inclure soit « Devolutions » ou « {{ fr.PHUB }} » dans 
 ![Certificats & secrets – Secrets client – Nouveau secret client](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2035.png) 
 1. Dans la fenêtre ***Ajouter un secret client*** , saisir une ***Description*** (le nom de l'application d'entreprise, par exemple) et sélectionner une ***Date d'expiration*** pour ce secret client, conformément à vos meilleures pratiques de sécurité interne. 
 {% snippet icon.badgeCaution %} 
-Il est à noter que lorsque le secret client expire, personne ne pourra se connecter au {{ fr.PHUB }} associé. Il faudra alors créer un nouveau secret client. Il est recommandé de se fixer un rappel de tâche avant la date d'expiration. 
+Il est à noter que lorsque le secret client expire, personne ne pourra se connecter au {{ fr.HUB }} associé. Il faudra alors créer un nouveau secret client. Il est recommandé de se fixer un rappel de tâche avant la date d'expiration. 
 {% endsnippet %}
  
 ![Ajouter un secret client](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2036.png) 
@@ -95,7 +95,7 @@ Il est à noter que lorsque le secret client expire, personne ne pourra se conne
 1. Copier la ***Valeur*** de ce nouveau secret client en cliquant sur l'icône ***Copier dans le Presse-papiers*** située à côté.  
 ![Copier la valeur du secret client](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2037.png) 
 
-**Dans Devolutions {{ fr.PHUB }} Business** 
+**Dans Devolutions {{ fr.HUB }} Business** 
 
 25. De retour dans la fenêtre ***Configurer l'authentification unique (SSO)*** , coller la ***Valeur*** du secret client de l'étape précédente dans le champ ***Secret du client*** .  
 ![Secret du client](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2150.png) 
@@ -107,7 +107,7 @@ Il est à noter que lorsque le secret client expire, personne ne pourra se conne
 1. Dans la fenêtre ***Points de terminaison*** , copier l'URL du champ ***Document sur les métadonnées OpenID Connect*** en cliquant sur l'icône ***Copier dans le Presse-papiers*** située à côté.  
 ![Copier l'URL du Document sur les métadonnées OpenID Connect](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2040.png) 
 
-**Dans Devolutions {{ fr.PHUB }} Business** 
+**Dans Devolutions {{ fr.HUB }} Business** 
 
 28. De retour dans la fenêtre ***Configurer l'authentification unique (SSO)*** , coller l'URL de l'étape précédente dans le champ ***URL de détection*** .  
 ![URL de détection](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2151.png) 
@@ -118,9 +118,9 @@ Il est à noter que lorsque le secret client expire, personne ne pourra se conne
 
 ### Configurer le provisionnement 
 
-Pour synchroniser vos utilisateurs et groupes d'utilisateurs de vos fournisseurs vers Devolutions {{ fr.PHUB }} Business, suivez les étapes suivantes. 
+Pour synchroniser vos utilisateurs et groupes d'utilisateurs de vos fournisseurs vers Devolutions {{ fr.HUB }} Business, suivez les étapes suivantes. 
 
-**Dans Devolutions {{ fr.PHUB }} Business** 
+**Dans Devolutions {{ fr.HUB }} Business** 
 
 1. Accéder à ***Administration – Authentification*** . 
 2. Dans ***Approvisionnement*** , cliquer sur ***Générer le jeton SCIM*** .  
@@ -140,7 +140,7 @@ Notez que ce jeton SCIM expirera dans les 365 jours suivant sa génération. À 
 1. Dans la liste déroulante ***Mode d'approvisionnement*** , sélectionner ***Automatique*** . Ensuite, coller l'URL de l'<a href="#3">étape 3</a> dans le champ ***URL de locataire*** .  
 ![Mode d'approvisionnement et URL de locataire](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2045.png) 
 
-**Dans Devolutions {{ fr.PHUB }} Business** 
+**Dans Devolutions {{ fr.HUB }} Business** 
 
 6. Dans la fenêtre ***Générer un jeton secret SCIM*** , copier la ***Clé secrète du jeton*** en cliquant sur l'icône ***Copier dans le presse-papiers*** située à côté.  
 ![Copier le jeton SCIM](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2154.png) 
@@ -176,9 +176,9 @@ Les groupes imbriqués ne sont pas supportés, ce qui signifie que le provisionn
 1. Sélectionner ***Approvisionnement*** dans le menu latéral gauche, puis cliquer sur ***Démarrer le provisionnement*** .  
 ![Démarrer le provisionnement](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2052.png) 
 
-### Synchronisation entre Azure et {{ fr.PHUB }} 
+### Synchronisation entre Azure et {{ fr.HUB }} 
 
-**Dans Devolutions {{ fr.PHUB }} Business** 
+**Dans Devolutions {{ fr.HUB }} Business** 
 
 1. Accéder à ***Administration – Authentification*** . 
 1. Dans ***Approvisionnement*** , ***Activer la synchronisation*** .  
@@ -189,7 +189,7 @@ La fréquence de provisionnement d'Azure est d'au plus 40 minutes. Les groupes d
 Dans ***Administration – Groupes d'utilisateurs*** , les groupes d'utilisateurs Azure seront ajoutés. Ils sont reconnaissables à l'icône du groupe ***Est synchronisée*** à côté du nom du groupe.  
 ![Groupes d'utilisateurs synchronisés](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2055.png) 
 
-Dans ***Administration – Utilisateurs*** , tous les utilisateurs du groupe d'utilisateurs Azure qui font déjà partie du Devolutions {{ fr.PHUB }} seront marqués comme synchronisés avec l'icône ***Est synchronisée*** à côté de leur nom. Tous les nouveaux utilisateurs faisant partie du groupe d'utilisateurs Azure synchronisé qui ne font pas partie du Devolutions {{ fr.PHUB }} seront suggérés comme de [nouvelles invitations](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) dans ***Invitations nécessaires*** .  
+Dans ***Administration – Utilisateurs*** , tous les utilisateurs du groupe d'utilisateurs Azure qui font déjà partie du Devolutions {{ fr.HUB }} seront marqués comme synchronisés avec l'icône ***Est synchronisée*** à côté de leur nom. Tous les nouveaux utilisateurs faisant partie du groupe d'utilisateurs Azure synchronisé qui ne font pas partie du Devolutions {{ fr.HUB }} seront suggérés comme de [nouvelles invitations](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) dans ***Invitations nécessaires*** .  
 ![Invitations nécessaires et Utilisateurs synchronisés](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2057.png) 
 
 {% snippet icon.badgeNotice %} 

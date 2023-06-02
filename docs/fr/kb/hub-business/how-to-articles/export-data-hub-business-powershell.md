@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Exporter des données de {{ fr.PHUB }} Business avec PowerShell
+  title: Exporter des données de {{ fr.HUB }} Business avec PowerShell
 ---
-Dans {{ fr.PHUB }} Business, vous pouvez exporter vos données au format Json ou Csv à l'aide d'un script [PowerShell](https://learn.microsoft.com/fr-ca/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2) . Cette fonctionnalité est accessible via l'onglet ***Outils*** , sous la section ***Exporter*** .  
+Dans {{ fr.HUB }} Business, vous pouvez exporter vos données au format Json ou Csv à l'aide d'un script [PowerShell](https://learn.microsoft.com/fr-ca/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2) . Cette fonctionnalité est accessible via l'onglet ***Outils*** , sous la section ***Exporter*** .  
 ![Exporter avec Powershell.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2076.png)
 ## Étapes 
 Avant d'exporter vos données, si ce n'est pas déjà fait, [créez un utilisateur d'application](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) et assignez-lui le rôle de ***Gestionnaire*** du coffre souhaité. 

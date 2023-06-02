@@ -3,10 +3,10 @@ title: Utiliser Devolutions Web Login
 order: 50
 ---
 {% snippet icon.badgeNotice %} 
-Cette rubrique suppose que vous avez préalablement [installé l'extension {{ fr.DWL }}](/fr/hub/dwl/installation/) dans votre navigateur et qu'elle est connectée à [{{ fr.PHUB }} Business](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) ou à [{{ fr.PHUB }} Personal](/fr/hub/dwl/first-login-devolutions-web-login/hub-personal/) . 
+Cette rubrique suppose que vous avez préalablement [installé l'extension {{ fr.DWL }}](/fr/hub/dwl/installation/) dans votre navigateur et qu'elle est connectée à [{{ fr.HUB }} Business](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) ou à [{{ fr.HUB }} Personal](/fr/hub/dwl/first-login-devolutions-web-login/hub-personal/) . 
 {% endsnippet %}
  
-L'extension de navigateur {{ fr.DWL }} est l'outil de choix des utilisateurs pour interagir dans un contexte de gestion de mots de passe avec {{ fr.PHUB }} Business et Personal . Elle permet :  
+L'extension de navigateur {{ fr.DWL }} est l'outil de choix des utilisateurs pour interagir dans un contexte de gestion de mots de passe avec {{ fr.HUB }} Business et Personal . Elle permet :  
 
 * la correspondance automatiquement des sites Web avec leurs identifiants enregistrés respectifs; 
 * la visualisation et le filtrage directs des comptes que les coffres contiennent; 
@@ -16,12 +16,12 @@ L'extension de navigateur {{ fr.DWL }} est l'outil de choix des utilisateurs pou
 
 Consultez ces différentes rubriques pour en apprendre sur les fonctionnalités utiles de {{ fr.DWL }} :  
 
-* {{ fr.PHUB }} Business :  
+* {{ fr.HUB }} Business :  
 
     * [Créer un compte de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/)  
     * [Ajouter une entrée de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/)  
     * [Récupérer des identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/)  
-* {{ fr.PHUB }} Personal :  
+* {{ fr.HUB }} Personal :  
 
     * [Créer un compte de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/)  
     * [Ajouter une entrée](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/)  

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Request Temporary Access to an Entry in {{ en.PHUB }} Business
+  title: Request Temporary Access to an Entry in {{ en.HUB }} Business
 ---
 
 {% youtube '5XwhadoYKKc' %}  
@@ -8,7 +8,7 @@ eleventyComputed:
 {% snippet icon.badgeNotice %} 
 This video includes information pertaining to both requesters and authorizers. A user wanting to request temporary access to an entry may find this visual aid useful, but watching the video is not essential since all the steps are described in this topic.  
 
-To learn how to approve or deny a request, visit our [Grant Temporary Access to an Entry in {{ en.PHUB }} Business](/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) topic. 
+To learn how to approve or deny a request, visit our [Grant Temporary Access to an Entry in {{ en.HUB }} Business](/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) topic. 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The authorizer must then approve or deny the request.  
@@ -36,7 +36,7 @@ You now have to wait for the authorizer to respond to your request. You will be 
 
 ### Response to your request 
 
-If the authorizer approves your request, your email will have a button at the bottom that will bring you directly to your entry in {{ en.PHUB }} Business. It is also possible to manually go to your entry.  
+If the authorizer approves your request, your email will have a button at the bottom that will bring you directly to your entry in {{ en.HUB }} Business. It is also possible to manually go to your entry.  
 ![Confirmation Email](https://webdevolutions.azureedge.net/docs/en/hub/Hub2022.png) 
 Once you are on the entry in the {{ en.VLT }} , you will see a ***Temporary Access Request*** section near the top. A check mark validates that your request was approved. Next to the check mark is the ***Time remaining*** on your request. There is also a ***View Details*** button which is described in the next section .  
 

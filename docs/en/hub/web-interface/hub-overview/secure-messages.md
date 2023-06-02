@@ -1,7 +1,7 @@
 ---
 title: Secure Messages
 ---
-Send and receive ***Secure Messages*** with users from your {{ en.PHUB }} . Click the ***Messages*** icon above your avatar to create and read secure messages.  
+Send and receive ***Secure Messages*** with users from your {{ en.HUB }} . Click the ***Messages*** icon above your avatar to create and read secure messages.  
 ![!!Hub4128.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4128.png) 
 
 ### Send a secure message 

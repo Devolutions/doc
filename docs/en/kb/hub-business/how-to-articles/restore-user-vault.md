@@ -15,4 +15,4 @@ It's possible to get access to the user vault of a {{ en.HUBB }} user, who has l
    ![!!KB4853.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4853.png)
 1. Click ***Restore as a Shared Vault*** button.  
 
-You can now view the restored vault in the vault selector of {{ en.PHUB }}
+You can now view the restored vault in the vault selector of {{ en.HUB }}

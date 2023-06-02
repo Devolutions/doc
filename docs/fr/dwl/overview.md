@@ -4,7 +4,7 @@ order: 5
 ---
 ![!!Devolutions Web Login logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
 
-{{ fr.DWL }} est une extension de navigateur Web pour les mots de passe. Utilisée conjointement avec {{ fr.RDM }} , {{ fr.DVLS }} et {{ fr.PHUB }} , elle permet aux utilisateurs d'injecter en toute sécurité des identifiants, stockés dans leur coffres, dans des sites Web.  
+{{ fr.DWL }} est une extension de navigateur Web pour les mots de passe. Utilisée conjointement avec {{ fr.RDM }} , {{ fr.DVLS }} et {{ fr.HUB }} , elle permet aux utilisateurs d'injecter en toute sécurité des identifiants, stockés dans leur coffres, dans des sites Web.  
 
 Elle offre aux administrateurs système un contrôle total sur la gestion des mots de passe, sans affecter la productivité des utilisateurs. 
 
@@ -25,7 +25,7 @@ Sécurisez, gérez et surveillez les accès aux comptes privilégiés. <br>
 		</th>
 		<th>
 <img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="!!Hub Logo"><br>
-{{ fr.PHUB }} <br>
+{{ fr.HUB }} <br>
 <br>
 Stockez et gérez les mots de passe professionnels. <br>
 		</th>
@@ -39,7 +39,7 @@ Stockez et gérez les mots de passe professionnels. <br>
 {{ fr.DVLS }} vous permet de contrôler l'accès aux comptes privilégiés et de gérer les sessions à distance à partir d'une seule application auto-hébergée. 
 		</td>
 		<td>
-{{ fr.HUB }} est un gestionnaire infonuagique de mots de passe très sécuritaire pour les équipes. 
+{{ fr.DHUB }} est un gestionnaire infonuagique de mots de passe très sécuritaire pour les équipes. 
 		</td>
 	</tr>
 </table>

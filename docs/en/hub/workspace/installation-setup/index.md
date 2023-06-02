@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: Devolutions Workspace installation and setup with {{ en.HUB }}
-  description: Devolutions Workspace is both a mobile and desktop application available on our {{ en.DWS }} download page that can be used with {{ en.HUB }}.
+  title: Devolutions Workspace installation and setup with {{ en.DHUB }}
+  description: Devolutions Workspace is both a mobile and desktop application available on our {{ en.DWS }} download page that can be used with {{ en.DHUB }}.
 ---
 {{ en.DWS }} is both a mobile and desktop application available on our [{{ en.DWS }} download page](https://devolutions.net/workspace/). It can be downloaded on Android via [Google Play](https://play.google.com/store/apps/details?id=net.devolutions.authenticator) and on iOS via the [App Store](https://apps.apple.com/ca/app/devolutions-authenticator/id1462282993).
 

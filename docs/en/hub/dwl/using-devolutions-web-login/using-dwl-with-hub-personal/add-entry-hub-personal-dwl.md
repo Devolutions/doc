@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Add an Entry in {{ en.PHUB }} Personal with {{ en.DWL }}
+  title: Add an Entry in {{ en.HUB }} Personal with {{ en.DWL }}
 ---
-Website, credit card, contact, and secure note entries can be created with {{ en.DWL }} in {{ en.HUB }} Personal. To add a website entry, continue to the [next section](#add-a-website-entry) . For all other types of entries, go to [this section](#add-another-type-of-entry) instead.  
+Website, credit card, contact, and secure note entries can be created with {{ en.DWL }} in {{ en.DHUB }} Personal. To add a website entry, continue to the [next section](#add-a-website-entry) . For all other types of entries, go to [this section](#add-another-type-of-entry) instead.  
 
 ## Add a Website Entry 
 
@@ -12,7 +12,7 @@ This section explains how to create an entry with your existing website credenti
  
 The website entry is useful for saving your login credentials so that you do not have to remember them. These entries are also used by {{ en.DWL }} to recognize a website and [retrieve your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) .  
 
-The main way to achieve this is by successfully logging into the website. {{ en.DWL }} will automatically offer to save your credentials in a new website entry in {{ en.HUB }} Personal. It is also possible to manually create the website entry.  
+The main way to achieve this is by successfully logging into the website. {{ en.DWL }} will automatically offer to save your credentials in a new website entry in {{ en.DHUB }} Personal. It is also possible to manually create the website entry.  
 
 Learn how to add a website entry by following the instructions from these sections:  
 
@@ -31,7 +31,7 @@ Learn how to add a website entry by following the instructions from these sectio
 1. Select a ***Folder*** in which to save your website entry. 
 1. Click ***Save*** .  
 
-Your credentials are now securely stored in a new website entry in {{ en.HUB }} Personal. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) .  
+Your credentials are now securely stored in a new website entry in {{ en.DHUB }} Personal. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) .  
 
 ### Manually Add a Website Entry 
 
@@ -51,11 +51,11 @@ Your credentials are now securely stored in a new website entry in {{ en.HUB }} 
 1. The ***Compare type*** should be at ***Default*** and ***{{ en.DWL }}*** should be ***Enabled*** . 
 1. Click ***Add*** .  
 
-Your credentials are now securely stored in a new website entry in {{ en.HUB }} Personal. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) .  
+Your credentials are now securely stored in a new website entry in {{ en.DHUB }} Personal. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) .  
 
 ## Add Another Type of Entry 
 
-You can manually add ***Credit Card*** , ***Contact*** , and ***Secure Note*** entries in {{ en.HUB }} Personal for easy access via the {{ en.DWL }} browser extension.  
+You can manually add ***Credit Card*** , ***Contact*** , and ***Secure Note*** entries in {{ en.DHUB }} Personal for easy access via the {{ en.DWL }} browser extension.  
 
 The process is the same for all entry types, but the information to be filled in will be different due to the nature of each entry type. Follow the steps below:  
 
@@ -73,5 +73,5 @@ For a ***Secure Note*** entry, you can specify a ***Type*** of text for your not
  
 5. Click ***Add*** .  
 
-Your information is now securely stored in a new entry in {{ en.HUB }} Personal. 
+Your information is now securely stored in a new entry in {{ en.DHUB }} Personal. 
 

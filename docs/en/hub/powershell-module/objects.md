@@ -43,7 +43,7 @@ Url
 String 
 		</td>
 		<td>
-This is the URL of the {{ en.PHUB }} you want to connect to with your application user. 
+This is the URL of the {{ en.HUB }} you want to connect to with your application user. 
 		</td>
 	</tr>
 	<tr>
@@ -54,7 +54,7 @@ ApplicationKey
 String 
 		</td>
 		<td>
-These are the credentials that you will need to connect to {{ en.PHUB }}. These are available when an application user is created. 
+These are the credentials that you will need to connect to {{ en.HUB }}. These are available when an application user is created. 
 		</td>
 	</tr>
 	<tr>
@@ -65,7 +65,7 @@ ApplicationSecret
 String 
 		</td>
 		<td>
-These are the credentials that you will need to connect to {{ en.PHUB }}. These are available when an application user is created. 
+These are the credentials that you will need to connect to {{ en.HUB }}. These are available when an application user is created. 
 		</td>
 	</tr>
 </table>
@@ -91,7 +91,7 @@ AllowUserVault
 Boolean 
 		</td>
 		<td>
-Flag that handle if you want to allow {{ en.PVLT}} in {{ en.PHUB }}. 
+Flag that handle if you want to allow {{ en.PVLT}} in {{ en.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -124,7 +124,7 @@ DisableReason
 Enum(HubDisableReason) 
 		</td>
 		<td>
-ReadOnly - Enum that shows what is the reason of the disabled {{ en.PHUB }}. 
+ReadOnly - Enum that shows what is the reason of the disabled {{ en.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -190,7 +190,7 @@ NetworkFilters
 Array of Object(NetworkFilter) 
 		</td>
 		<td>
-Array of object NetworkFilter that handles IpAdress filtering to {{ en.PHUB }}. 
+Array of object NetworkFilter that handles IpAdress filtering to {{ en.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -223,7 +223,7 @@ PasswordTemplateId
 Guid 
 		</td>
 		<td>
-ID of a password template you want to set and activate in {{ en.PHUB }}. 
+ID of a password template you want to set and activate in {{ en.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -294,7 +294,7 @@ CanAccessOffline
 Boolean 
 		</td>
 		<td>
-Flag that handles if users can access {{ en.PHUB }} offline in {{ en.RDM }}. 
+Flag that handles if users can access {{ en.HUB }} offline in {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>

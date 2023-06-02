@@ -1,7 +1,7 @@
 ---
 title: Administrator Rights
 ---
-***Administrators*** can allow specific users to become administrator of the {{ en.PHUB }} Business.  
+***Administrators*** can allow specific users to become administrator of the {{ en.HUB }} Business.  
 
 1. Go to ***Administration – Users*** . 
 1. Click on the ***Edit*** pencil icon next to the user. 

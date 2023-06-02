@@ -1,9 +1,9 @@
 ---
 title: Add Website
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the vaults and entries of the [***Vaults***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***User vault***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.PHUB }} Business through {{ en.DWL }} .  
+The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the vaults and entries of the [***Vaults***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***User vault***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.HUB }} Business through {{ en.DWL }} .  
 
-When {{ en.PHUB }} Business is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
+When {{ en.HUB }} Business is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
 ![New Entry - Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2132.png) 
 
 The tables below list all fields/settings available in the ***New Entry - Website*** window. The different sections represent the left menu tabs. 
@@ -33,7 +33,7 @@ Vault
 		</td>
 		<td>
 
-Choose the vault in which to store your new website entry in {{ en.PHUB }} Business. You can select any available vault, including your ***User vault*** . 
+Choose the vault in which to store your new website entry in {{ en.HUB }} Business. You can select any available vault, including your ***User vault*** . 
 		</td>
 	</tr>
 	<tr>
@@ -41,7 +41,7 @@ Choose the vault in which to store your new website entry in {{ en.PHUB }} Busin
 Folder 
 		</td>
 		<td>
-Enter the name of the folder in which your new entry will be stored in {{ en.PHUB }} Business. 
+Enter the name of the folder in which your new entry will be stored in {{ en.HUB }} Business. 
 		</td>
 	</tr>
 	<tr>
@@ -602,7 +602,7 @@ Cancel the creation of a new website entry and clear all unsaved changes to sett
 </table>
 
 {% snippet icon.badgeInfo %} 
-Follow our step-by-step guide explaining [how to add a website entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) in {{ en.PHUB }} Business with {{ en.DWL }} . 
+Follow our step-by-step guide explaining [how to add a website entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) in {{ en.HUB }} Business with {{ en.DWL }} . 
 {% endsnippet %}
  
 

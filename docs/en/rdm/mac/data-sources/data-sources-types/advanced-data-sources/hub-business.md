@@ -1,11 +1,11 @@
 ---
 title: Hub Business
 ---
-{{ en.HUB }} Business, for businesses who need to share passwords and credentials within their organization. 
+{{ en.DHUB }} Business, for businesses who need to share passwords and credentials within their organization. 
 Please consult our [website](https://devolutions.net/password-hub/) for more information on this service. 
 
 {% snippet icon.badgeInfo %} 
-To start your free {{ en.HUB }} Business trial today click [here](https://devolutions.net/password-hub/business/sign-up) . 
+To start your free {{ en.DHUB }} Business trial today click [here](https://devolutions.net/password-hub/business/sign-up) . 
 {% endsnippet %}
  
 ## Settings 
@@ -45,14 +45,14 @@ Your [Devolutions Account](https://portal.devolutions.com/) Devolutions Account 
 Host 
 		</td>
 		<td>
-Copy in the ***Host*** your {{ en.HUB }} Business URL (ex: https<area>://windjammer.devolutions.app/) or click on the gear to get a drop down list to select from. 
+Copy in the ***Host*** your {{ en.DHUB }} Business URL (ex: https<area>://windjammer.devolutions.app/) or click on the gear to get a drop down list to select from. 
 		</td>
 	</tr>
 </table>
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your {{ en.HUB }} .  
+Open a VPN to access your data prior to connecting to your {{ en.DHUB }} .  
 ![!!RDMMac4021.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4021.png) 
 
 ### Advanced 

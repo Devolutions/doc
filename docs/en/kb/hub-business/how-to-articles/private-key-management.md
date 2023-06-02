@@ -1,22 +1,22 @@
 ---
 title: Private Key Management
-description: Your Private Key is mandatory in case you access your {{ en.HUB }} from a new device or a private browsing session. You can configure its storage method(s) in your Devolutions Portal.
+description: Your Private Key is mandatory in case you access your {{ en.DHUB }} from a new device or a private browsing session. You can configure its storage method(s) in your Devolutions Portal.
 keywords:
 - private key
 - qr code
 - push
 - mobile
 ---
-## First Connection to {{ en.HUB }}
+## First Connection to {{ en.DHUB }}
 
 {% snippet icon.badgeNotice %}
-A Private Key is mandatory in case you access your {{ en.HUB }} from a new device or a private browsing session.
+A Private Key is mandatory in case you access your {{ en.DHUB }} from a new device or a private browsing session.
 {% endsnippet %}  
 
-When connecting to your {{ en.HUB }} for the first time, a Private Key will be created. The storage method depends on whether you already have a {{ en.DA }} or not and on whether Single Sign-on (SSO) is enabled on the {{ en.PHUB }}:
+When connecting to your {{ en.DHUB }} for the first time, a Private Key will be created. The storage method depends on whether you already have a {{ en.DA }} or not and on whether Single Sign-on (SSO) is enabled on the {{ en.HUB }}:
 * If you already have a {{ en.DA }}, your Private Key will be stored using your password.
-* If you do not have a {{ en.DA }} and your {{ en.PHUB }} does not offer Single Sign-on (SSO), your Private Key will be stored using the password that will be created.
-* If you do not have a {{ en.DA }} and you connect to a {{ en.PHUB }} using Single Sign-on (SSO), you will be prompted to choose a storage method for your Private Key. 
+* If you do not have a {{ en.DA }} and your {{ en.HUB }} does not offer Single Sign-on (SSO), your Private Key will be stored using the password that will be created.
+* If you do not have a {{ en.DA }} and you connect to a {{ en.HUB }} using Single Sign-on (SSO), you will be prompted to choose a storage method for your Private Key. 
     * Mobile Device **(Recommended)**: Your Private Key can be stored on the [Devolutions Workspace mobile app](https://devolutions.net/workspace/). You will receive a push notification to easily approve new devices.
     * QR Code: Download and print your Private Key as a QR code. When required to approve new devices, you will need to scan the QR Code.
     * Password: Approve new devices by entering a password.

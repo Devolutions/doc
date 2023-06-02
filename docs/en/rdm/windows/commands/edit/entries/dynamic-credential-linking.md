@@ -15,7 +15,7 @@ Here is the list of all implemented credential managers that support dynamic cre
 * 1Password 
 * Bitwarden 
 * Dashlane 
-* {{ en.HUB }} 
+* {{ en.DHUB }} 
 * {{ en.DVLS }} 
 * KeePass 
 * Keeper 

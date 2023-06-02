@@ -53,5 +53,5 @@ Une instance de {{ fr.DGW }} peut gérer jusqu 'à 75 sessions simultanées en c
 
 ### Conditions requises 
 
-* Chaque licence {{ fr.PHUB }} est fournie avec un {{ fr.DGW }} qui prend en charge jusqu 'à 5 sessions simultanées. Contactez notre [équipe des ventes](mailto:sales@devolutions.net) pour plus de sessions simultanées. 
+* Chaque licence {{ fr.HUB }} est fournie avec un {{ fr.DGW }} qui prend en charge jusqu 'à 5 sessions simultanées. Contactez notre [équipe des ventes](mailto:sales@devolutions.net) pour plus de sessions simultanées. 
 

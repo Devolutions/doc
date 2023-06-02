@@ -2,10 +2,10 @@
 title: Introduction avec Hub Business
 order: 10
 ---
-Voici une liste d 'étapes pour vous aider à démarrer avec {{ fr.PHUB }} Business pour votre équipe. 
+Voici une liste d 'étapes pour vous aider à démarrer avec {{ fr.HUB }} Business pour votre équipe. 
 
 {% snippet icon.badgeNotice %} 
-Commencer votre [essai](https://devolutions.net/password-hub/fr/business/sign-up) gratuit {{ fr.PHUB }} Business dès aujourd 'hui! 
+Commencer votre [essai](https://devolutions.net/password-hub/fr/business/sign-up) gratuit {{ fr.HUB }} Business dès aujourd 'hui! 
 {% endsnippet %}
  
 <table>
@@ -30,7 +30,7 @@ Vidéo (Disponible en anglais seulement)
 * [Créer et gérer des Coffres](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) 
 		</td>
 		<td>
-Dans cette vidéo, nous montrerons la configuration appropriée pour {{ fr.PHUB }} Business ainsi que les meilleures pratiques pour inviter un ***Administrateur*** , créer des ***Groupes d 'utilisateurs*** , configurer des ***Coffres*** partagés et leur attribuer des ***Rôles*** et des ***Permissions*** . 
+Dans cette vidéo, nous montrerons la configuration appropriée pour {{ fr.HUB }} Business ainsi que les meilleures pratiques pour inviter un ***Administrateur*** , créer des ***Groupes d 'utilisateurs*** , configurer des ***Coffres*** partagés et leur attribuer des ***Rôles*** et des ***Permissions*** . 
 		</td>
 		<td>
 
@@ -45,7 +45,7 @@ Dans cette vidéo, nous montrerons la configuration appropriée pour {{ fr.PHUB 
 * [Inviter des Utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/users/create-invite-users/) 
 		</td>
 		<td>
-Avec cette vidéo, nous vous montrerons comment ajouter des ***Utilisateurs*** à votre {{ fr.PHUB }} Business pour ceux qui ont déjà un {{ fr.DA }} , ainsi que pour ceux qui n 'en ont pas. 
+Avec cette vidéo, nous vous montrerons comment ajouter des ***Utilisateurs*** à votre {{ fr.HUB }} Business pour ceux qui ont déjà un {{ fr.DA }} , ainsi que pour ceux qui n 'en ont pas. 
 		</td>
 		<td>
 
@@ -61,7 +61,7 @@ Avec cette vidéo, nous vous montrerons comment ajouter des ***Utilisateurs*** �
 * [Importer des entrées avec Hub Importer](/fr/hub/web-interface/hub-overview/tools/hub-importer/) 
 		</td>
 		<td>
-À ce stade, nous vous montrerons quatre façons différentes d 'ajouter et d 'importer des ***Entrées*** dans votre {{ fr.PHUB }} Business nouvellement créée. Nous couvrirons également les ***Propriétés*** et les ***Permissions*** des ***Entrées*** . 
+À ce stade, nous vous montrerons quatre façons différentes d 'ajouter et d 'importer des ***Entrées*** dans votre {{ fr.HUB }} Business nouvellement créée. Nous couvrirons également les ***Propriétés*** et les ***Permissions*** des ***Entrées*** . 
 		</td>
 		<td>
 
@@ -79,7 +79,7 @@ Avec cette vidéo, nous vous montrerons comment ajouter des ***Utilisateurs*** �
 * [Outils](/fr/hub/web-interface/hub-overview/tools/) 
 		</td>
 		<td>
-Dans cette dernière vidéo, nous vous montrerons certains des paramètres de gestion de l ' ***Administration*** , de la ***Configuration*** , des ***Outils*** et des ***Rapports*** qui, selon nous, vous seront utiles lorsque vous finaliserez la configuration de votre  {{ fr.PHUB }} Business. 
+Dans cette dernière vidéo, nous vous montrerons certains des paramètres de gestion de l ' ***Administration*** , de la ***Configuration*** , des ***Outils*** et des ***Rapports*** qui, selon nous, vous seront utiles lorsque vous finaliserez la configuration de votre  {{ fr.HUB }} Business. 
 		</td>
 		<td>
 {% youtube '86FV0yMzm1M' %}

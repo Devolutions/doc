@@ -62,10 +62,10 @@ Windows
 	</tr>
 	<tr>
 		<td>
-[{{ en.HUB }} Business](/hub/overview/what-is-hub/) 
+[{{ en.DHUB }} Business](/hub/overview/what-is-hub/) 
 		</td>
 		<td>
-{{ en.HUB }} Business is a secure and cloud-based password manager for teams. It empowers your organization to easily and securely vault and manage business-user passwords, along with other sensitive information, through a user-friendly web interface that can be quickly, easily and securely accessed via any browser. 
+{{ en.DHUB }} Business is a secure and cloud-based password manager for teams. It empowers your organization to easily and securely vault and manage business-user passwords, along with other sensitive information, through a user-friendly web interface that can be quickly, easily and securely accessed via any browser. 
 		</td>
 		<td>
 Windows, macOS 
@@ -76,7 +76,7 @@ Windows, macOS
 [{{ en.DWL }} (DWL)](/rdm/windows/dwl/overview/) 
 		</td>
 		<td>
-{{ en.DWL }} is a free browser plugin used in conjunction with {{ en.RDM }} , {{ en.DVLS }} and {{ en.HUB }} , which allows users to securely inject passwords into websites using credentials stored in their vaults. 
+{{ en.DWL }} is a free browser plugin used in conjunction with {{ en.RDM }} , {{ en.DVLS }} and {{ en.DHUB }} , which allows users to securely inject passwords into websites using credentials stored in their vaults. 
 		</td>
 		<td>
 Windows, macOS 

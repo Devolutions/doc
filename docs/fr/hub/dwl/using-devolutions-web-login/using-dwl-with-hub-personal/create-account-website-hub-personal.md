@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Créer un compte de site Web dans {{ fr.PHUB }} Personal avec {{ fr.DWL }}
+  title: Créer un compte de site Web dans {{ fr.HUB }} Personal avec {{ fr.DWL }}
   order: 10
 ---
 {{ fr.DWL }} vous aide à créer un nouveau compte lorsque vous vous inscrivez sur un site Web. Il vous donne la possibilité de créer un mot de passe sécurisé et d 'enregistrer vos nouveaux identifiants. 
@@ -8,7 +8,7 @@ eleventyComputed:
 Si vous avez déjà un compte pour le site Web, apprenez plutôt comment [Ajouter une entrée avec {{ fr.DWL }}](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/) . 
 {% endsnippet %}
  
-Suivez les étapes ci-dessous pour créer un compte de site Web avec {{ fr.DWL }} et sauvegarder vos identifiants dans {{ fr.PHUB }} Personal.  
+Suivez les étapes ci-dessous pour créer un compte de site Web avec {{ fr.DWL }} et sauvegarder vos identifiants dans {{ fr.HUB }} Personal.  
 
 1. Sur le site Web pour lequel vous souhaitez créer votre compte, aller à la page d 'inscription/création de compte. Cette page sera différente pour chaque site Web; cette rubrique utilisera le site Web d 'Atlassian comme exemple.  
 ![Page d'enregistrement](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2093.png) 
@@ -39,5 +39,5 @@ Vos paramètres de mot de passe sont maintenant configurés.
 1. Sélectionner le ***Dossier*** dans lequel sauvegarder l 'entrée de site Web. 
 1. Cliquer sur ***Enregistrer*** .  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.PHUB }} Personal. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) . 
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.HUB }} Personal. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) . 
 

@@ -14,7 +14,7 @@ Voici la liste de tous les gestionnaires d'identifiants implémentés qui prenne
 * 1Password 
 * Bitwarden 
 * Dashlane 
-* {{ fr.HUB }}
+* {{ fr.DHUB }}
 * {{ fr.DVLS }} 
 * KeePass 
 * Keeper 

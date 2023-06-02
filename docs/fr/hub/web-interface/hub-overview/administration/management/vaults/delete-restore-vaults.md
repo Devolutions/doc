@@ -1,7 +1,7 @@
 ---
 title: Supprimer et restaurer des coffres
 ---
-Les ***Coffres*** peuvent être supprimés et restaurés par les administrateurs dans {{ fr.PHUB }} Business.  
+Les ***Coffres*** peuvent être supprimés et restaurés par les administrateurs dans {{ fr.HUB }} Business.  
 
 * [Supprimer un coffre](#supprimer-un-coffre)  
 * [Restaurer un coffre supprimé](#restaurer-un-coffre-supprimé)  

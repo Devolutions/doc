@@ -9,9 +9,9 @@ Start your free {{ en.HUBB }} [trial](https://password.devolutions.net/business/
 1. Access the [Devolutions Portal](https://portal.devolutions.com/password-hub) section of your {{ en.DA }} to create your {{ en.HUBB }}.
 1. Click ***{{ en.HUBB }}*** in the left menu.
 1. Fill in your ***Company name*** in the free 30-day trial section.
-1. Choose a ***{{ en.PHUB }} site*** name.
+1. Choose a ***{{ en.HUB }} site*** name.
 {% snippet icon.badgeCaution %}
-The ***{{ en.PHUB }} site*** name becomes your website address and cannot be edited after the deployment of your {{ en.PHUB }}.
+The ***{{ en.HUB }} site*** name becomes your website address and cannot be edited after the deployment of your {{ en.HUB }}.
 {% endsnippet %}
 
 5. Select the region where you want your data to be [hosted](/kb/hub-business/knowledge-base/hosting-region-password-hub/) and accept the ***Terms of Online Services and Privacy Policy***.  

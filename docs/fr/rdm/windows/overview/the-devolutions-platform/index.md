@@ -62,10 +62,10 @@ Windows
 	</tr>
 	<tr>
 		<td>
-[{{ fr.HUB }} Business](/fr/hub/overview/what-is-hub/) 
+[{{ fr.DHUB }} Business](/fr/hub/overview/what-is-hub/) 
 		</td>
 		<td>
-{{ fr.HUB }} Business est une solution infonuagique de gestion sécuritaire de mots de passe conçue pour les équipes. Grâce à son interface Web conviviale, vous pourrez stocker et gérer des informations confidentielles, dont les mots de passe de l’entreprise, en toute tranquillité d’esprit. 
+{{ fr.DHUB }} Business est une solution infonuagique de gestion sécuritaire de mots de passe conçue pour les équipes. Grâce à son interface Web conviviale, vous pourrez stocker et gérer des informations confidentielles, dont les mots de passe de l’entreprise, en toute tranquillité d’esprit. 
 		</td>
 		<td>
 Windows, macOS 
@@ -76,7 +76,7 @@ Windows, macOS
 [{{ fr.DWL }} (DWL)](/fr/rdm/windows/dwl/overview/) 
 		</td>
 		<td>
-{{ fr.DWL }} est un module d'extension de navigateur gratuit à utiliser avec {{ fr.RDM }} , {{ fr.DVLS }} ou {{ fr.HUB }} . Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
+{{ fr.DWL }} est un module d'extension de navigateur gratuit à utiliser avec {{ fr.RDM }} , {{ fr.DVLS }} ou {{ fr.DHUB }} . Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
 		</td>
 		<td>
 Windows, macOS 

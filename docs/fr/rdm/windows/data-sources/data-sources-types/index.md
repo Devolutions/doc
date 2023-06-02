@@ -163,10 +163,10 @@ Inconvénients :
 ![!!ApplicationHubLarge.png](https://webdevolutions.azureedge.net/docs/common/ApplicationHubLarge.png) 
 		</td>
 		<td>
-{{ fr.HUB }} Business 
+{{ fr.DHUB }} Business 
 		</td>
 		<td>
-{{ fr.RDM }} se connecte au coffre {{ fr.HUB }} Business. 
+{{ fr.RDM }} se connecte au coffre {{ fr.DHUB }} Business. 
 Notez qu'il existe différents niveaux d'abonnement pour ce produit. 
 Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou notre rubrique [Hub Business](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/) . 
 		</td>
@@ -189,10 +189,10 @@ Inconvénients :
 ![!!hub-personal-32x32.png](https://webdevolutions.azureedge.net/docs/common/hub-personal-32x32.png) 
 		</td>
 		<td>
-{{ fr.HUB }} Personal 
+{{ fr.DHUB }} Personal 
 		</td>
 		<td>
-{{ fr.RDM }} utilise {{ fr.HUB }} Personal pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet. 
+{{ fr.RDM }} utilise {{ fr.DHUB }} Personal pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet. 
 Pour plus d'informations, veuillez consulter notre rubrique [Hub Personal](/fr/rdm/windows/data-sources/data-sources-types/hub-personal/) . 
 
 		</td>

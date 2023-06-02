@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Demander un accès temporaire à une entrée dans {{ fr.PHUB }} Business
+  title: Demander un accès temporaire à une entrée dans {{ fr.HUB }} Business
 ---
 {% snippet icon.badgeInfo %} 
-Pour apprendre comment approuver ou refuser une demande, consultez notre rubrique [Accorder un accès temporaire à une entrée dans {{ fr.PHUB }} Business](/fr/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) . 
+Pour apprendre comment approuver ou refuser une demande, consultez notre rubrique [Accorder un accès temporaire à une entrée dans {{ fr.HUB }} Business](/fr/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) . 
 {% endsnippet %}
  
 La fonction d ' ***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L 'autorisateur doit alors approuver ou refuser la demande. 
@@ -33,7 +33,7 @@ Vous devez maintenant attendre que l 'autorisateur réponde à votre demande. Vo
 
 ### Réponse à votre requête 
 
-Si l 'autorisateur approuve votre demande, au bas de votre courriel se trouvera un bouton qui vous amènera directement à votre entrée dans {{ fr.PHUB }} Business. Il est également possible d 'accéder manuellement à votre entrée.  
+Si l 'autorisateur approuve votre demande, au bas de votre courriel se trouvera un bouton qui vous amènera directement à votre entrée dans {{ fr.HUB }} Business. Il est également possible d 'accéder manuellement à votre entrée.  
 ![Courriel de confirmation](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2137.png) 
 
 Une fois que vous êtes sur l 'entrée dans le coffre, vous verrez une section ***Demande d 'accès temporaire*** près du haut. Une coche valide l 'approbation de votre demande. À côté de la coche se trouve le temps restant pour votre demande. Il y a également un bouton ***Afficher les détails*** qui est décrit dans la [section suivante](#afficher-les-détails-et-révoquer-votre-accès-temporaire) .  

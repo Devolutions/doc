@@ -1,7 +1,7 @@
 ---
 title: Rôles et permissions
 ---
-Chaque rôle dans {{ fr.PHUB }} possède son propre ensemble de ***Permissions*** . Voici un tableau qui les résume :  
+Chaque rôle dans {{ fr.HUB }} possède son propre ensemble de ***Permissions*** . Voici un tableau qui les résume :  
 
 <table>
 	<tr>
@@ -428,7 +428,7 @@ Autorisateur de l 'accès temporaire
 </table>
 
 ### Permissions relatives au contenu sensible 
-Dans {{ fr.PHUB }} , tout le contenu sensible est masqué par défaut. Certains éléments peuvent être visualisés par toute personne ayant accès à l 'entrée en cliquant sur l 'icône de l 'oeil, tandis que d 'autres nécessitent des permissions ***Afficher le contenu sensible*** ou ***Afficher le mot de passse*** pour être visualisés.  
+Dans {{ fr.HUB }} , tout le contenu sensible est masqué par défaut. Certains éléments peuvent être visualisés par toute personne ayant accès à l 'entrée en cliquant sur l 'icône de l 'oeil, tandis que d 'autres nécessitent des permissions ***Afficher le contenu sensible*** ou ***Afficher le mot de passse*** pour être visualisés.  
 
 La permission ***Afficher le contenu sensible*** est accordée aux rôles de ***Lecteur*** , d ' ***Opérateur*** , de ***Collaborateur*** et de ***Gestionnaire*** , tandis que les rôles de ***Collaborateur*** ou de ***Gestionnaire*** sont nécessaires pour la permission ***Afficher le mot de passe*** . Par conséquent, même si les mots de passe sont effectivement du contenu sensible, vous ne pourrez pas les consulter uniquement avec la permission ***Afficher le contenu sensible*** .  
 

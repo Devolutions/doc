@@ -58,10 +58,10 @@ Cons:
 ![!!ApplicationHubLarge.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/ApplicationHubLarge.png) 
 		</td>
 		<td>
-{{ en.HUB }} Business 
+{{ en.DHUB }} Business 
 		</td>
 		<td>
-{{ en.RDM }} connects to the {{ en.HUB }} Business vault.  
+{{ en.RDM }} connects to the {{ en.DHUB }} Business vault.  
 
 Note that there are different subscription levels for this product.  
 
@@ -86,10 +86,10 @@ Cons:
 ![!!hub-personal-32x32.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/hub-personal-32x32.png) 
 		</td>
 		<td>
-{{ en.HUB }} Personal 
+{{ en.DHUB }} Personal 
 		</td>
 		<td>
-{{ en.RDM }} uses {{ en.HUB }} Personal to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
+{{ en.RDM }} uses {{ en.DHUB }} Personal to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
 
 For more information, please consult our [Hub Personal](/rdm/windows/data-sources/data-sources-types/hub-personal/) topic. 
 		</td>

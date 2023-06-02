@@ -2,7 +2,7 @@
 title: Devolutions Server Data Source Selection
 order: 10
 ---
-When you finish the installation of {{ en.LAUNCHER }} , you are prompted to choose a web source between {{ en.HUB }} and {{ en.DVLS }} . 
+When you finish the installation of {{ en.LAUNCHER }} , you are prompted to choose a web source between {{ en.DHUB }} and {{ en.DVLS }} . 
 {% snippet icon.badgeInfo %} 
 ***Web Source Selection*** is available in the ***Settings - Data Sources*** of {{ en.LAUNCHER }} . 
 {% endsnippet %}

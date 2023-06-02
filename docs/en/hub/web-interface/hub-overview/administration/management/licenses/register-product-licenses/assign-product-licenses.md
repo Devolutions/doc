@@ -1,7 +1,7 @@
 ---
 title: Assign Product Licenses
 ---
-Assign Devolutions ***Product Licenses*** in {{ en.PHUB }} Business to users.  
+Assign Devolutions ***Product Licenses*** in {{ en.HUB }} Business to users.  
 
 1. Go to ***Administration – Licenses*** . 
 1. Click the ***Edit*** button next to the product license.  

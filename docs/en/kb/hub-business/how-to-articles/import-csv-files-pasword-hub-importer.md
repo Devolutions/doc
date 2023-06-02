@@ -1,15 +1,15 @@
 ---
 eleventyComputed:
-  title: Import CSV Files in {{ en.PHUB }} Business with {{ en.PHUB }} Importer
+  title: Import CSV Files in {{ en.HUB }} Business with {{ en.HUB }} Importer
 ---
 {% snippet icon.badgeInfo %}
 This topic assumes that your CSV files are ready to be imported. For tips and recommendations on how to prepare your CSV files for importation, visit [this topic](/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/)
 {% endsnippet %}  
 
-{{ en.PHUB }} Importer is our essential companion tool designed to import files into your {{ en.PHUB }} Follow the steps below to learn how to import CSV files in {{ en.PHUB }} Business.  
+{{ en.HUB }} Importer is our essential companion tool designed to import files into your {{ en.HUB }} Follow the steps below to learn how to import CSV files in {{ en.HUB }} Business.  
 
 {% snippet icon.badgeInfo %}
-If you do not have {{ en.PHUB }} Importer, [download and install it](https://devolutions.net/password-hub-importer) first. Then, after launching the application, select your ***Hub Business Host*** and log in with your {{ en.DA }}
+If you do not have {{ en.HUB }} Importer, [download and install it](https://devolutions.net/password-hub-importer) first. Then, after launching the application, select your ***Hub Business Host*** and log in with your {{ en.DA }}
 {% endsnippet %}  
 
 1. Once logged in, select the ***CSV*** format in the ***Import Type*** menu. Then, click on the ellipsis button next to the ***Source*** field to open the ***Import Csv Wizard***  

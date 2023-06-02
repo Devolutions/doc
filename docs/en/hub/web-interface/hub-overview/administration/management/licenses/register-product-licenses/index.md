@@ -1,10 +1,10 @@
 ---
 title: Register Product Licenses
 ---
-Register Devolutions ***Product Licenses*** in {{ en.PHUB }} Business.  
+Register Devolutions ***Product Licenses*** in {{ en.HUB }} Business.  
 
 {% snippet icon.badgeCaution %} 
-Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.PHUB }} Business. 
+Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.HUB }} Business. 
 {% endsnippet %}
  
 1. Go to ***Administration – Licenses*** . 

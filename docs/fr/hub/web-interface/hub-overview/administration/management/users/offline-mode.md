@@ -1,7 +1,7 @@
 ---
 title: Mode hors ligne
 ---
-Dans la section ***Utilisateurs*** , vous pouvez activer le mode hors ligne pour des utilisateurs spécifiques. Cela permettra un cache en lecture seule des entrées de {{ fr.PHUB }} Business.  
+Dans la section ***Utilisateurs*** , vous pouvez activer le mode hors ligne pour des utilisateurs spécifiques. Cela permettra un cache en lecture seule des entrées de {{ fr.HUB }} Business.  
 
 1. Aller dans ***Administration - Utilisateurs*** . 
 1. Cliquer sur ***Modifier*** à côté de l 'utilisateur. 

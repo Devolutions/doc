@@ -3,7 +3,7 @@ eleventyComputed:
   title: Sélection de la source de données {{ fr.DVLS }}
   order: 10
 ---
-Lorsque l'installation sera terminée, {{ fr.LAUNCHER }} vous invitera à choisir une source Web entre {{ fr.HUB }} et {{ fr.DVLS }} .  
+Lorsque l'installation sera terminée, {{ fr.LAUNCHER }} vous invitera à choisir une source Web entre {{ fr.DHUB }} et {{ fr.DVLS }} .  
 
 {% snippet icon.badgeInfo %} 
 La ***Sélection de la Source de données*** est disponible dans ***Paramètres - Sources de données*** de {{ fr.LAUNCHER }} . 

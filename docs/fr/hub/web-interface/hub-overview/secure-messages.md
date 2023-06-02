@@ -1,7 +1,7 @@
 ---
 title: Messages sécurisés
 ---
-Envoyer et réceptionner des ***Messages sécurisés*** avec des utilisateurs depuis votre {{ fr.PHUB }} . Cliquer sur l 'icône ***Messages*** en haut de votre avatar pour créer et lire des messages sécurisés.  
+Envoyer et réceptionner des ***Messages sécurisés*** avec des utilisateurs depuis votre {{ fr.HUB }} . Cliquer sur l 'icône ***Messages*** en haut de votre avatar pour créer et lire des messages sécurisés.  
 
 ![!!Hub4114.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4114.png) 
 

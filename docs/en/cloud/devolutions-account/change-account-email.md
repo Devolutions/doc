@@ -9,8 +9,8 @@ To change your {{ en.DA }} email, you would need to [Create a new account](/clou
 
 * [Serials](/cloud/portal/serials/): Manually add your Devolutions products serials you have previously purchased to your new account. 
 * [Invoices](/cloud/portal/invoices/): If some invoices need to be associated with the new account, contact our [sales department](mailto:sales@devolutions.net). 
-* [{{ en.HUB }} Personal](/cloud/hub-personal/): Import and export your {{ en.HUB }} Personal data source entries [with {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/export-import-entries/) or in Json format directly [from {{ en.HUB }} Personal](/kb/hub-business/how-to-articles/import-export-data-hub-personal/) in ***Tools – Export***. 
-* [{{ en.HUB }} Business](/cloud/hub-business/): If you are the owner of a {{ en.HUB }} Business, switch the [Ownership](/hub/web-interface/hub-overview/administration/management/users/hub-ownership/) to another administrator, then request an invitation with the new account. 
+* [{{ en.DHUB }} Personal](/cloud/hub-personal/): Import and export your {{ en.DHUB }} Personal data source entries [with {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/export-import-entries/) or in Json format directly [from {{ en.DHUB }} Personal](/kb/hub-business/how-to-articles/import-export-data-hub-personal/) in ***Tools – Export***. 
+* [{{ en.DHUB }} Business](/cloud/hub-business/): If you are the owner of a {{ en.DHUB }} Business, switch the [Ownership](/hub/web-interface/hub-overview/administration/management/users/hub-ownership/) to another administrator, then request an invitation with the new account. 
 * [Custom Installer](/cloud/rdm-online-services/custom-installer/): Locally download the ***Custom Installer*** MSI configuration file package. 
 * [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/): The backups are stored and linked to each {{ en.DA }}. For this reason, you will not have access under the new {{ en.DA }}.
 

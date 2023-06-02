@@ -1,7 +1,7 @@
 ---
 title: Hub Personal
 ---
-{{ en.HUB }} Personal, for individual users who want to secure personal passwords in a secure vault for free.  
+{{ en.DHUB }} Personal, for individual users who want to secure personal passwords in a secure vault for free.  
 
 Please consult our [website](https://password.devolutions.net/personal) for more information on this service. 
 
@@ -41,7 +41,7 @@ Your [Devolutions Account](https://portal.devolutions.com/) Devolutions Account 
 
 ### VPN 
 
-Open a ***VPN*** to access your data prior to connecting to your {{ en.HUB }} .  
+Open a ***VPN*** to access your data prior to connecting to your {{ en.DHUB }} .  
 ![!!RDMMac4024.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4024.png) 
 
 ### Advanced 

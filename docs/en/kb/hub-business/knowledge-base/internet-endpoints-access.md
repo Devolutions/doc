@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: List of Internet Endpoints Accessed by {{ en.HUB }}
-  description: This is the list of addresses that are accessed by {{ en.HUB }} during normal operation.
+  title: List of Internet Endpoints Accessed by {{ en.DHUB }}
+  description: This is the list of addresses that are accessed by {{ en.DHUB }} during normal operation.
   keywords: 
   - endpoints
 ---
-This is the list of addresses that are accessed by {{ en.HUB }} during normal operation.
+This is the list of addresses that are accessed by {{ en.DHUB }} during normal operation.
 
 {% snippet icon.badgeWarning %}
 We use a "best effort" approach to maintain this list, but it does **NOT** replace proper IT security practices. If security is paramount, it would be better to first block all internet access, then allowlist desired addresses as needed.

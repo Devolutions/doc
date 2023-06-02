@@ -43,7 +43,7 @@ Url
 String 
 		</td>
 		<td>
-Il s'agit de l'URL du {{ fr.PHUB }} auquel vous voulez vous connecter avec l'utilisateur d'application. 
+Il s'agit de l'URL du {{ fr.HUB }} auquel vous voulez vous connecter avec l'utilisateur d'application. 
 		</td>
 	</tr>
 	<tr>
@@ -54,7 +54,7 @@ ApplicationKey
 String 
 		</td>
 		<td>
-Ce sont les identifiants dont vous aurez besoin pour vous connecter au {{ fr.PHUB }}. Ceux-ci sont disponibles lors de la création d'un utilisateur d'application. 
+Ce sont les identifiants dont vous aurez besoin pour vous connecter au {{ fr.HUB }}. Ceux-ci sont disponibles lors de la création d'un utilisateur d'application. 
 		</td>
 	</tr>
 	<tr>
@@ -89,7 +89,7 @@ AllowUserVault
 Boolean 
 		</td>
 		<td>
-Indicateur si vous voulez autoriser le {{ fr.PVLT }} dans {{ fr.PHUB }}. 
+Indicateur si vous voulez autoriser le {{ fr.PVLT }} dans {{ fr.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -122,7 +122,7 @@ DisableReason
 Enum(HubDisableReason) 
 		</td>
 		<td>
-LectureSeulement - Énumération qui montre la raison de la désactivation du {{ fr.PHUB }}. 
+LectureSeulement - Énumération qui montre la raison de la désactivation du {{ fr.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -188,7 +188,7 @@ NetworkFilters
 Array of Object(NetworkFilter) 
 		</td>
 		<td>
-Tableau d'objet NetworkFilter qui gère le filtrage IpAddress vers {{ fr.PHUB }}. 
+Tableau d'objet NetworkFilter qui gère le filtrage IpAddress vers {{ fr.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -221,7 +221,7 @@ PasswordTemplateId
 Guid 
 		</td>
 		<td>
-Identifiant d'un modèle de mot de passe que vous voulez définir et activer dans {{ fr.PHUB }}. 
+Identifiant d'un modèle de mot de passe que vous voulez définir et activer dans {{ fr.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -292,7 +292,7 @@ CanAccessOffline
 Boolean 
 		</td>
 		<td>
-Indicateur qui gère si les utilisateurs peuvent accéder au {{ fr.PHUB }} en mode hors ligne dans {{ fr.RDM }}. 
+Indicateur qui gère si les utilisateurs peuvent accéder au {{ fr.HUB }} en mode hors ligne dans {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>

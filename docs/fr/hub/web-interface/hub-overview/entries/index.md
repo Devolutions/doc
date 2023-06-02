@@ -1,5 +1,5 @@
 ---
 title: Entrée
 ---
-Gérer, importer, organiser et enregistrer toutes vos données avec des ***Entrées*** et des ***Dossiers*** dans votre {{ fr.PHUB }} Business.  
+Gérer, importer, organiser et enregistrer toutes vos données avec des ***Entrées*** et des ***Dossiers*** dans votre {{ fr.HUB }} Business.  
 ![!!Hub4155.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4155.png) 

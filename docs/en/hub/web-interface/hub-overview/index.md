@@ -1,7 +1,7 @@
 ---
 title: Hub Overview
 ---
-Navigate and explore the menus through the different sections of {{ en.PHUB }} Business and manage your data.  
+Navigate and explore the menus through the different sections of {{ en.HUB }} Business and manage your data.  
 ![!!Hub4093.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4093.png) 
 
 <table>
@@ -35,7 +35,7 @@ Click the vault selector, at the top middle section of your browser, to switch b
 Messages 
 		</td>
 		<td>
-Send and receive secure messages with users from your {{ en.PHUB }} . 
+Send and receive secure messages with users from your {{ en.HUB }} . 
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ Send and receive secure messages with users from your {{ en.PHUB }} .
 {{ en.DA }} 
 		</td>
 		<td>
-Click on your avatar to edit your {{ en.DA }} settings and lock or log off your {{ en.PHUB }} . 
+Click on your avatar to edit your {{ en.DA }} settings and lock or log off your {{ en.HUB }} . 
 		</td>
 	</tr>
 	<tr>

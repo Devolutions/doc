@@ -1,7 +1,7 @@
 ---
 title: Administrator Invite
 ---
-Administrators can invite specific users to become administrator of the {{ en.PHUB }} Business. We strongly recommend that you invite at least one other administrator.  
+Administrators can invite specific users to become administrator of the {{ en.HUB }} Business. We strongly recommend that you invite at least one other administrator.  
 
 1. Go to ***Administration – Users*** . 
 1. Click ***Add Administrator*** .  
@@ -11,7 +11,7 @@ Administrators can invite specific users to become administrator of the {{ en.PH
 {% snippet icon.badgeInfo %} 
 This step will validate if the user has a {{ en.DA }} .  
 
-* If yes, it will link the account to the {{ en.PHUB }} .  
+* If yes, it will link the account to the {{ en.HUB }} .  
 * If not, it will automatically create a {{ en.DA }} with a ***Temporary Password*** , which you can choose how to handle. You can manage how ***Temporary Passwords*** are handled in ***Administration – System Settings – General*** .  
 {% endsnippet %}
  
