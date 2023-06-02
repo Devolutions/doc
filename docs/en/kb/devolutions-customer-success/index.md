@@ -1,12 +1,12 @@
 ---
 title: Devolutions Knowledge Base
 order: 0
-description: The Devolutions Customer Success team is proud to publish this knowledge base for our community of over 800k users!
+description: The Devolutions User Experience team is proud to publish this knowledge base for our community of over 800k users!
 keywords:
 - Knowledge base
 ---
 
-The Devolutions Customer Success team is proud to publish this knowledge base for our community of over 800k users!  
+The Devolutions User Experience team is proud to publish this knowledge base for our community of over 800k users!  
 
 It is divided by our different products, as well as a few subcategories. 
 ## General Information 

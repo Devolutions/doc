@@ -83,7 +83,7 @@ Use the [Profiler](/rdm/windows/commands/help/support/profiler/) to acquire spec
 Record 
 		</td>
 		<td>
-Use the [Recorder](/rdm/windows/commands/help/support/record/) to help our Devolutions Support team troubleshoot the problem. 
+Use the [Recorder](/rdm/windows/commands/help/support/record/) to help our support team troubleshoot the problem. 
 		</td>
 	</tr>
 	<tr>

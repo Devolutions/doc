@@ -191,7 +191,7 @@ Resilient Database connection handling is a mechanism we put in place to retry c
 Disable system event handlers 
 		</td>
 		<td>
-Only used for diagnostic purposes. Do not enable unless recommended by the Devolutions Support team. 
+Only used for diagnostic purposes. Do not enable unless recommended by our support team. 
 		</td>
 	</tr>
 	<tr>
@@ -263,7 +263,7 @@ Some data sources are not supported anymore. Enabling this option will show them
 Use connection loader optimization 
 		</td>
 		<td>
-Only enable this option upon request from our Devolutions Support team. 
+Only enable this option upon request from our support team. 
 		</td>
 	</tr>
 </table>
@@ -437,7 +437,7 @@ Use the installation folder to save the offline cache file.
 Use Devolutions updater 
 		</td>
 		<td>
-Only modify this option upon request from our Devolutions Support team. 
+Only modify this option upon request from our support team. 
 		</td>
 	</tr>
 	<tr>

@@ -20,7 +20,7 @@ Holding the CTRL key while performing the refresh will force a full reload of th
 
 3. The Profiler data will appear in the Performance Profiler window.  
 ![Performance Profiling result](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10472.png) 
-4. Click on Send Trace to Support in order to send the Profiler data logs to our Devolutions support team. You can add a Marker when running multiple tests to separate them.  
+4. Click on Send Trace to Support in order to send the Profiler data logs to our support team. You can add a Marker when running multiple tests to separate them.  
 ![Send Trace to Support](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10473.png) 
 
 ### Debug only 

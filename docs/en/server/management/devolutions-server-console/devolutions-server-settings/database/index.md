@@ -71,7 +71,7 @@ Update the database on the server.
 Save Schema 
 		</td>
 		<td>
-Save the database schema in a file to allow sending it to the [Devolutions Support team](mailto:service@devolutions.net) . 
+Save the database schema in a file to allow sending it to our [support team](mailto:service@devolutions.net). 
 		</td>
 	</tr>
 	<tr>

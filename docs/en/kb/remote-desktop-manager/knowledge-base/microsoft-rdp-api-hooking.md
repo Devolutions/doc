@@ -15,11 +15,11 @@ Since {{ en.RDM }} 2022.3.23, a policy, EnableRDPHooking, has been added that ov
 See all policies including this one in our [GPO topic](/kb/remote-desktop-manager/how-to-articles/group-policies/)
 {% endsnippet %}
 
-The Microsoft RDP API hooking module will be loaded on the first Microsoft RDP connection. In the unlikely event that you notice instability with API hooking enabled, disable it and then contact the [Devolutions Customer Success team](mailto:service@devolutions.net) to report the issue.
+The Microsoft RDP API hooking module will be loaded on the first Microsoft RDP connection. In the unlikely event that you notice instability with API hooking enabled, disable it and then contact the [support team](mailto:service@devolutions.net) to report the issue.
 
 ### Microsoft RDP Logging
 
-Microsoft RDP API hooking makes it possible to log internal events and options that were not possible previously. If you encounter issues, go to ***File – Options – Types – Remote Desktop – API Hooking*** and set the ***Log level*** to ***Debug*** Restart {{ en.RDM }} to obtain log files under %LocalAppData%\MsRdpEx which you can then send to the [Devolutions Customer Success team](mailto:service@devolutions.net) to help diagnose issues.
+Microsoft RDP API hooking makes it possible to log internal events and options that were not possible previously. If you encounter issues, go to ***File – Options – Types – Remote Desktop – API Hooking*** and set the ***Log level*** to ***Debug*** Restart {{ en.RDM }} to obtain log files under %LocalAppData%\MsRdpEx which you can then send to the [support team](mailto:service@devolutions.net) to help diagnose issues.
 
 ### Devolutions Gateway
 

@@ -17,4 +17,4 @@ The following procedure makes use of a tool offered by Microsoft's Technet, name
 1. In the ***Process Explorer*** right-click the RemoteDesktopManager.exe process.
 1. Select ***Create Dump - Create Minidump***
 1. Save the RemoteDesktopManager.dmp file.
-1. Contact our [Support team](mailto:service@devolutions.net) in order for them to provide a secure link that can be used to send this file.
+1. Contact our [support team](mailto:service@devolutions.net) in order for them to provide a secure link that can be used to send this file.

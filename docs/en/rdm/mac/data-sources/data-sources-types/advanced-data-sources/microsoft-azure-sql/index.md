@@ -249,7 +249,7 @@ Test the connection with the database to validate if the proper information has 
 Email Schema to Support 
 		</td>
 		<td>
-Send your schema to the Devolutions Support team. 
+Send your schema to our support team. 
 		</td>
 	</tr>
 </table>

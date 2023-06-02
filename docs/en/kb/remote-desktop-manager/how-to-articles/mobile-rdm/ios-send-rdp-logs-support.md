@@ -1,7 +1,7 @@
 ---
 title: RDM iOS Send RDP logs to Support
 ---
-Follow these steps to send sessions logs to the Devolutions support team when encountering an issue with RDP.  
+Follow these steps to send sessions logs to our support team when encountering an issue with RDP.  
 
 1. On the main application screen, press ***More*** in the toolbar and select ***Settings***  
 ![!!KB4162.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4162.png)

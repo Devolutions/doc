@@ -1,7 +1,7 @@
 ---
 title: Send Error Report
 ---
-An error report is created when an application error occurs in {{ en.RDM }} You can send that error report to the Devolutions support team to help reproduce the issue more easily.  
+An error report is created when an application error occurs in {{ en.RDM }} You can send that error report to the our support team to help reproduce the issue more easily.  
 {% snippet icon.badgeNotice %}
 When sending your error report please make sure to include as many details as possible in the message section to ensure that our support team reproduces the issue with ease.
 {% endsnippet %}  
