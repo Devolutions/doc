@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: How-to Rollback to a Previous Installation of {{ en.DPS }}
+  title: How-to Rollback to a Previous Installation of {{ en.DVLS }}
 ---
-You have performed a {{ en.DPS }} upgrade or the hosting machine crashed, but for any reason, you would like to go back to the previous version that you were running.
+You have performed a {{ en.DVLS }} upgrade or the hosting machine crashed, but for any reason, you would like to go back to the previous version that you were running.
 
 ## Solution
 
-Client would need these files to be able to restore {{ en.DPS }} to the previous version:  
+Client would need these files to be able to restore {{ en.DVLS }} to the previous version:  
 
 - Functional database backup.
 - Backup of the Encryption keys file.
@@ -16,7 +16,7 @@ Here are the steps to follow:
 
 1. Restore the SQL database.
 1. Install the previous working version of the DVLS Console.
-1. Create a new {{ en.DPS }} instance and connect it to the restored database.
+1. Create a new {{ en.DVLS }} instance and connect it to the restored database.
    1. Use steps 3 to 6 on the following [page](/server/installation/create-server-instance/).  
       ![!!KB4647.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4647.png)
       {type="a"}

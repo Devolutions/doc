@@ -2,16 +2,16 @@
 title: Enable Server Side Synchronizer
 ---
 {% snippet icon.badgeCaution %}
-The {{ en.DPS }} Scheduler must be installed and running to have this feature enabled.
+The {{ en.DVLS }} Scheduler must be installed and running to have this feature enabled.
 {% endsnippet %}
 
 {% snippet icon.badgeNotice %}
 Only Active Directory and VMWare synchronizer entry types are supported by this feature.
 {% endsnippet %}
 
-The following steps describe how to enable server side synchronizer to be run by the {{ en.DPS }} Scheduler.
+The following steps describe how to enable server side synchronizer to be run by the {{ en.DVLS }} Scheduler.
 
-1. From the {{ en.DPS }} web interface, create a new Synchronizer entry.  
+1. From the {{ en.DVLS }} web interface, create a new Synchronizer entry.  
 ![New Synchronizer entry.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8056.png)
 1. Fill in the properties for the selected Synchronizer.
 1. Go in General - Schedule

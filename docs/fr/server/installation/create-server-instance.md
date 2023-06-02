@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Créer une instance de {{ fr.DPS }}
+  title: Créer une instance de {{ fr.DVLS }}
   order: 30
 ---
 {% snippet icon.badgeInfo %} 
@@ -49,11 +49,11 @@ Nous vous déconseillons de définir le dossier d'installation sur C:\Program Fi
  
 ![Source et Destination de l'installation](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8053.png)  
 
-10. Sous ***Identifiants d'administration*** , remplir les informations pour créer un compte administrateur {{ fr.DPS }} . Tous les champs sont requis.  
+10. Sous ***Identifiants d'administration*** , remplir les informations pour créer un compte administrateur {{ fr.DVLS }} . Tous les champs sont requis.  
 ![Créer un administrateur](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4018.png) 
-1. Sous ***Sauvegarde*** , sélectionner le dossier de destination et le nom de fichier du fichier de clés de chiffrement {{ fr.DPS }} . Et définir un mot de passe pour protéger ce fichier.  
+1. Sous ***Sauvegarde*** , sélectionner le dossier de destination et le nom de fichier du fichier de clés de chiffrement {{ fr.DVLS }} . Et définir un mot de passe pour protéger ce fichier.  
 {% snippet icon.shieldNotice %} 
-Nous vous recommandons de protéger les clés de chiffrement dans un coffre pour éviter toute perte de données si {{ fr.DPS }} doit être restauré. 
+Nous vous recommandons de protéger les clés de chiffrement dans un coffre pour éviter toute perte de données si {{ fr.DVLS }} doit être restauré. 
 {% endsnippet %}
  
 ![Copie de sauvegarde des clés de chiffrement](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4019.png)  
@@ -76,7 +76,7 @@ Pour tester l'installation du serveur, accédez à l'URL de l'instance (par exem
 ![{{ fr.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8060.png)  
 
 {% snippet icon.badgeNotice %} 
-Dans certaines situations, la page web peut ne pas se charger correctement. Assurez-vous que le groupe local IIS IUSRS a tous les droits de lecture nécessaire sur le fichier encryption.config localisé dans le sous-dossier App_Data du dossier de l'application web de {{ fr.DPS }} (i.e. c:\inetpub\wwwroot\dvls\App_Data). Si un problème survient durant ou suivant l'installation, contactez-nous à [service@devolutions.net](mailto:service@devolutions.net) . 
+Dans certaines situations, la page web peut ne pas se charger correctement. Assurez-vous que le groupe local IIS IUSRS a tous les droits de lecture nécessaire sur le fichier encryption.config localisé dans le sous-dossier App_Data du dossier de l'application web de {{ fr.DVLS }} (i.e. c:\inetpub\wwwroot\dvls\App_Data). Si un problème survient durant ou suivant l'installation, contactez-nous à [service@devolutions.net](mailto:service@devolutions.net) . 
 {% endsnippet %}
  
 Pour tester la connexion à partir d'un client en créant une source de données dans {{ fr.RDM }} . Veuillez consulter [Comment configurer une source de données](/kb/devolutions-server/how-to-articles/configure-client-data-source/) pour plus d'informations. 

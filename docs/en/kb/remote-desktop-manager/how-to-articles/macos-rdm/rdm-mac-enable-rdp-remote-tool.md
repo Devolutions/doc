@@ -3,7 +3,7 @@ eleventyComputed:
   title: RDM {{ en.MAC }} Enable RDP Remote Tools
 ---
 {% snippet icon.badgeInfo %}
-Devolutions Proxy is deprecated, this function will work with {{ en.DPS }}
+Devolutions Proxy is deprecated, this function will work with {{ en.DVLS }}
 {% endsnippet %}  
 
 It's possible to get access to the Remote Tools such as Terminal Services, Remote Event or Remote Service as an example in a RDP session in {{ en.RDM }} for Mac.  

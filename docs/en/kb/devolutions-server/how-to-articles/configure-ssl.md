@@ -1,7 +1,7 @@
 ---
 title: Configure SSL
 ---
-Please perform these steps only after you have configured the {{ en.DPS }} instance and that you have indeed connected through a client application. Performing these steps right from the start may add a layer of complexity that may prevent you from succeeding in the initial configuration. 
+Please perform these steps only after you have configured the {{ en.DVLS }} instance and that you have indeed connected through a client application. Performing these steps right from the start may add a layer of complexity that may prevent you from succeeding in the initial configuration. 
 
 ## Import Certificate or Create Self-Signed Certificate
 
@@ -21,14 +21,14 @@ Please perform these steps only after you have configured the {{ en.DPS }} insta
 1. Now you have a new ***SSL*** binding on your site.  
 ![!!KB4396.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4396.png) 
 
-## Modify the {{ en.DPS }} configuration
+## Modify the {{ en.DVLS }} configuration
 
-1. From the {{ en.DVLSCONSOLE }}, edit the {{ en.DPS }} instance.
+1. From the {{ en.DVLSCONSOLE }}, edit the {{ en.DVLS }} instance.
 2. Go in the IIS tab and uncheck the ***Disable HTTPS*** option.  
 ![!!KB4400.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4400.png)
 1. Save the modification with the ***Save*** button.
 
 ## Configure SSL Settings in the Client applications
 
-1. Edit the {{ en.DPS }} data source
+1. Edit the {{ en.DVLS }} data source
 2. Change the server URL to use the ***https://*** protocol.

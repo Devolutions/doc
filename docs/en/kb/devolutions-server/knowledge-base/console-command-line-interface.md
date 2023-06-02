@@ -7,7 +7,7 @@ keywords:
 - Devolutions Server Console
 - Companion tool
 ---
-The {{ en.DPS }} Console Command Line Interface (CLI) is a Companion Tool which allows administrators to interact with {{ en.DPS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DPS }} Console. The DPS.Console.CLI.exe file is located in the {{ en.DVLSCONSOLE }} application installation folder. The ***/help*** switch will list all available commands and parameters. 
+The {{ en.DVLS }} Console Command Line Interface (CLI) is a Companion Tool which allows administrators to interact with {{ en.DVLS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DVLS }} Console. The DPS.Console.CLI.exe file is located in the {{ en.DVLSCONSOLE }} application installation folder. The ***/help*** switch will list all available commands and parameters. 
 
 ![Devolutions Server Console CLI commands list](https://webdevolutions.azureedge.net/docs/en/kb/KB8032.png) 
 
@@ -19,11 +19,11 @@ The following sample command launch the upgrade process from a zip file availabl
 
 ***.\DPS.Console.CLI.exe server upgrade --dps "Default Web Site/dps" --zip "C:\temp\DVLS.2020.3.17.0.zip" --accept-eula -quiet -verbose***
 
-The following command will create a new {{ en.DPS }} instance from a JSON response file (see below) that contains the required parameters. It can be used with any of the main commands of the CLI.
+The following command will create a new {{ en.DVLS }} instance from a JSON response file (see below) that contains the required parameters. It can be used with any of the main commands of the CLI.
 
 ![CLI with JSON file](https://webdevolutions.azureedge.net/docs/en/kb/KB8034.png) 
 
-Sample of a JSON response file for creating a new {{ en.DPS }} instance.
+Sample of a JSON response file for creating a new {{ en.DVLS }} instance.
 
 ```json
 {

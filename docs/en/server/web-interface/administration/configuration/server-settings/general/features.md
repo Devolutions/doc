@@ -35,7 +35,7 @@ Allow Web API help page
 Enable Internet Access 
 		</td>
 		<td>
-Allows {{ en.DPS }} to communicate with external entities for the following options.  
+Allows {{ en.DVLS }} to communicate with external entities for the following options.  
 
 * Enable Gravatar: fetch the user Gravatar icon. 
 * Enable compromised (pwned) check: fetch in an external database if a password has been compromised. 

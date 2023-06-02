@@ -8,7 +8,7 @@ keywords:
 This topic will cover both <a href="#teams%2Fenterprise">Teams/Enterprise</a> licences and <a href="#platinum">Platinum</a> licences.
 
 ## Teams/Enterprise
-1. Access the {{ en.DPS }} web interface and connect using an administrator account.
+1. Access the {{ en.DVLS }} web interface and connect using an administrator account.
 1. Go to the ***Administration*** tab.
 1. Go to the ***Server Settings – Authentication – Domain*** page.  
 ![Domain](https://webdevolutions.azureedge.net/docs/en/kb/KB0022.png)
@@ -33,7 +33,7 @@ If this fails, instead use ***Directory entry token group (Legacy)*** or ***Recu
 1. Click on ***OK*** to save the changes.
 
 ## Platinum
-1. Access the {{ en.DPS }} web interface and connect using an administrator account.
+1. Access the {{ en.DVLS }} web interface and connect using an administrator account.
 1. Go to the ***Administration*** tab.
 1. Go to the ***Server Settings – Authentication – Domains*** page.  
 ![Domains](https://webdevolutions.azureedge.net/docs/en/kb/KB0011.png)

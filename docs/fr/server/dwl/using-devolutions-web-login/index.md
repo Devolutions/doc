@@ -3,10 +3,10 @@ title: Utiliser Devolutions Web Login
 order: 50
 ---
 {% snippet icon.badgeNotice %} 
-Cette rubrique suppose que vous avez préalablement [installé l'extension {{ fr.DWL }}](/server/dwl/installation/) dans votre navigateur et qu'elle est [connectée à {{ fr.DPS }}](/fr/server/dwl/first-login-dwl/) . 
+Cette rubrique suppose que vous avez préalablement [installé l'extension {{ fr.DWL }}](/server/dwl/installation/) dans votre navigateur et qu'elle est [connectée à {{ fr.DVLS }}](/fr/server/dwl/first-login-dwl/) . 
 {% endsnippet %}
  
-L'extension de navigateur {{ fr.DWL }} est l'outil de choix des utilisateurs pour interagir dans un contexte de gestion de mots de passe avec {{ fr.DPS }} . Elle permet :  
+L'extension de navigateur {{ fr.DWL }} est l'outil de choix des utilisateurs pour interagir dans un contexte de gestion de mots de passe avec {{ fr.DVLS }} . Elle permet :  
 
 * la correspondance automatiquement des sites Web avec leurs identifiants enregistrés respectifs; 
 * la visualisation et le filtrage directs des comptes que les coffres contiennent; 

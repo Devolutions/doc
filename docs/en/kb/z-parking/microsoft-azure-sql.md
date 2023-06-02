@@ -6,7 +6,7 @@ keywords:
 - SQL database
 - Devolutions Server Console
 ---
-Create an empty SQL database on your Microsoft Azure SQL portal. Provide enough privileged to an account you will use to update the database schema from the {{ en.DPS }} Console.
+Create an empty SQL database on your Microsoft Azure SQL portal. Provide enough privileged to an account you will use to update the database schema from the {{ en.DVLS }} Console.
 
 Once all fields are properly configured, click on the ***Update database*** button to update the database schema.
 

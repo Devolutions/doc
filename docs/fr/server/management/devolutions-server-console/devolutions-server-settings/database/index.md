@@ -132,7 +132,7 @@ Mot de passe du compte SQL si l'authentification SQL est sélectionnée comme ty
 Identifiants avancés 
 		</td>
 		<td>
-Accéder aux [Identifiants avancés](/fr/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-credentials/) qui permettent à la console {{ fr.DPS }} de communiquer avec la base de données SQL. 
+Accéder aux [Identifiants avancés](/fr/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-credentials/) qui permettent à la console {{ fr.DVLS }} de communiquer avec la base de données SQL. 
 		</td>
 	</tr>
 </table>

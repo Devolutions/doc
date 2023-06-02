@@ -9,7 +9,7 @@ The Authentication section allows the administrator to select which authenticati
 ## Settings 
 ### Authentication Modes 
 {% snippet icon.badgeCaution %} 
-The machine hosting {{ en.DPS }} must be joined to the configured domain for Windows Authentication to work. 
+The machine hosting {{ en.DVLS }} must be joined to the configured domain for Windows Authentication to work. 
 {% endsnippet %}
  
 <table>

@@ -10,7 +10,7 @@ You get the following error message dialog when you try to create or modify an e
 Please note that you will have to restart the server after removing the WebDAV Publishing role to complete the procedure.
 {% endsnippet %}
 
-1. On the server where the {{ en.DPS }} instance is hosted, open the Server Manager application.
+1. On the server where the {{ en.DVLS }} instance is hosted, open the Server Manager application.
 1. Then, open the ***Remove Roles and Features*** in the ***Manage*** menu.  
 ![!!KB4286.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4286.png)
 1. In the ***Server Roles***, uncheck the ***WebDAV Publishing role***.  

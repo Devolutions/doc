@@ -3,7 +3,7 @@ title: Menu latéral
 ---
 En utilisant les onglets du ***Menu latéral*** , vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }} . Chaque onglet affiche une vue différente dans la ***Zone de contenu*** .  
 
-Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.DPS }} , les onglets disponibles sont l'onglet ***Correspondant*** , l'onglet ***Toutes les entrées*** , l'onglet ***Favoris*** , l'onglet ***Récent*** et l'onglet ***Générateur de mots de passe*** .  
+Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.DVLS }} , les onglets disponibles sont l'onglet ***Correspondant*** , l'onglet ***Toutes les entrées*** , l'onglet ***Favoris*** , l'onglet ***Récent*** et l'onglet ***Générateur de mots de passe*** .  
 
 Dans tous les onglets, à l'exception de l'onglet ***Générateur de mots de passe*** , lorsque vous passez le curseur sur une entrée, trois nouvelles options apparaissent : les boutons ***Copier le nom d'utilisateur***, ***Copier le mot de passe***, et ***Affichage***. Consultez la section [Fonctionnalités des entrées](#fonctionnalités-des-entrées) pour plus d'informations.  
 
@@ -21,7 +21,7 @@ Pour connaître les méthodes de récupération de vos identifiants, consultez [
 
 En haut, vous pouvez utiliser la barre de ***Recherche*** pour filtrer tous vos identifiants, pas seulement celles applicables au site Web. Vous pouvez également utiliser le bouton ***Actualiser*** situé à côté pour mettre à jour les résultats de la recherche.  
 
-En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.DPS }} par le biais de l'extension {{ fr.DWL }} .  
+En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.DVLS }} par le biais de l'extension {{ fr.DWL }} .  
 
 {% snippet icon.badgeInfo %} 
 Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web*** , consultez [cette rubrique](/fr/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/) . Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
@@ -30,7 +30,7 @@ Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajou
 ### Onglet Toutes les entrées 
 
 {% snippet icon.badgeInfo %} 
-Lorsque vous accédez à l'onglet ***Toutes les entrées*** pour la première fois, vous devez sélectionner les coffres {{ fr.DPS }} que vous souhaitez synchroniser avec {{ fr.DWL }} . Pour en savoir plus, consultez notre rubrique [Première connexion avec {{ fr.DWL }}](/fr/server/dwl/first-login-dwl/) . 
+Lorsque vous accédez à l'onglet ***Toutes les entrées*** pour la première fois, vous devez sélectionner les coffres {{ fr.DVLS }} que vous souhaitez synchroniser avec {{ fr.DWL }} . Pour en savoir plus, consultez notre rubrique [Première connexion avec {{ fr.DWL }}](/fr/server/dwl/first-login-dwl/) . 
 {% endsnippet %}
  
 L'onglet ***Toutes les entrées*** vous permet de parcourir tous vos coffres synchronisés pour les entrées de sites Web uniquement. Vous rencontrerez d'abord la liste de vos coffres synchronisés.  
@@ -40,12 +40,12 @@ En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher des entr�
 
 Vous pouvez accéder à vos coffres de deux manières :  
 
-* Pour accéder à un coffre dans {{ fr.DPS }} , cliquer sur le bouton ***Ouvrir*** à côté d'un coffre pour l'ouvrir dans {{ fr.DPS }} dans un nouvel onglet de navigateur.  
+* Pour accéder à un coffre dans {{ fr.DVLS }} , cliquer sur le bouton ***Ouvrir*** à côté d'un coffre pour l'ouvrir dans {{ fr.DVLS }} dans un nouvel onglet de navigateur.  
 
-* Pour accéder à un coffre dans {{ fr.DWL }} , cliquer sur ce coffre et naviguer dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.DPS }} , sauf que seuls les chemins menant aux entrées de site Web seront affichés. Lorsque vous naviguez dans les dossiers, le bouton ***Ajouter un site Web*** apparaît au bas de la ***Zone de contenu*** . Vous pouvez également utiliser la barre du haut pour faire une recherche dans un emplacement spécifique.  
+* Pour accéder à un coffre dans {{ fr.DWL }} , cliquer sur ce coffre et naviguer dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.DVLS }} , sauf que seuls les chemins menant aux entrées de site Web seront affichés. Lorsque vous naviguez dans les dossiers, le bouton ***Ajouter un site Web*** apparaît au bas de la ***Zone de contenu*** . Vous pouvez également utiliser la barre du haut pour faire une recherche dans un emplacement spécifique.  
 ![Navigation dans un coffre via Devolutions Web Login](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2013.png)  
 
-De retour sur la vue principale de l'onglet ***Toutes les entrées*** , le bouton ***Sélectionner les coffres à synchroniser*** en bas de la ***Zone de contenu*** vous permet de sélectionner individuellement les coffres de {{ fr.DPS }} à synchroniser avec {{ fr.DWL }} .  
+De retour sur la vue principale de l'onglet ***Toutes les entrées*** , le bouton ***Sélectionner les coffres à synchroniser*** en bas de la ***Zone de contenu*** vous permet de sélectionner individuellement les coffres de {{ fr.DVLS }} à synchroniser avec {{ fr.DWL }} .  
 
 ### Onglet Favoris 
 

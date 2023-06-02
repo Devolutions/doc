@@ -1,7 +1,7 @@
 ---
 title: Action Buttons
 ---
-The display of ***Action Buttons*** for entries will vary depending on the type of entry selected and your {{ en.DPS }} settings. 
+The display of ***Action Buttons*** for entries will vary depending on the type of entry selected and your {{ en.DVLS }} settings. 
 
 ![Entry Action Buttons](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8025.png)
 

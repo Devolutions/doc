@@ -1,7 +1,7 @@
 ---
 title: Syslog Documentation
 ---
-The following information describes the Message type and the subtype of records sent from {{ en.DPS }} to a Syslog server.
+The following information describes the Message type and the subtype of records sent from {{ en.DVLS }} to a Syslog server.
 
 ## Message Type
 <table>

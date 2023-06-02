@@ -39,7 +39,7 @@ Description
 Refresh 
 		</td>
 		<td>
-Refresh the list of {{ en.DPS }} instances in the {{ en.RDMSCONSOLE }} . 
+Refresh the list of {{ en.DVLS }} instances in the {{ en.RDMSCONSOLE }} . 
 		</td>
 	</tr>
 	<tr>
@@ -47,7 +47,7 @@ Refresh the list of {{ en.DPS }} instances in the {{ en.RDMSCONSOLE }} .
 New 
 		</td>
 		<td>
-Create a new {{ en.DPS }} instance. 
+Create a new {{ en.DVLS }} instance. 
 		</td>
 	</tr>
 	<tr>
@@ -55,7 +55,7 @@ Create a new {{ en.DPS }} instance.
 Edit 
 		</td>
 		<td>
-Edit the selected {{ en.DPS }} instance's properties. 
+Edit the selected {{ en.DVLS }} instance's properties. 
 		</td>
 	</tr>
 	<tr>
@@ -63,7 +63,7 @@ Edit the selected {{ en.DPS }} instance's properties.
 Update 
 		</td>
 		<td>
-Update the selected {{ en.DPS }} instance. 
+Update the selected {{ en.DVLS }} instance. 
 		</td>
 	</tr>
 	<tr>
@@ -71,7 +71,7 @@ Update the selected {{ en.DPS }} instance.
 Uninstall 
 		</td>
 		<td>
-Uninstall the selected {{ en.DPS }} instance. 
+Uninstall the selected {{ en.DVLS }} instance. 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Uninstall the selected {{ en.DPS }} instance.
 Password 
 		</td>
 		<td>
-Set, Change or Disable the {{ en.DPS }} instance password. 
+Set, Change or Disable the {{ en.DVLS }} instance password. 
 		</td>
 	</tr>
 	<tr>
@@ -87,7 +87,7 @@ Set, Change or Disable the {{ en.DPS }} instance password.
 Go Offline 
 		</td>
 		<td>
-Toggle the selected {{ en.DPS }} instance to offline/online mode. 
+Toggle the selected {{ en.DVLS }} instance to offline/online mode. 
 		</td>
 	</tr>
 	<tr>
@@ -95,7 +95,7 @@ Toggle the selected {{ en.DPS }} instance to offline/online mode.
 Stop Server / Start Server 
 		</td>
 		<td>
-Stop/Start the {{ en.DPS }} IIS Application Pool. 
+Stop/Start the {{ en.DVLS }} IIS Application Pool. 
 		</td>
 	</tr>
 	<tr>
@@ -103,7 +103,7 @@ Stop/Start the {{ en.DPS }} IIS Application Pool.
 Logs 
 		</td>
 		<td>
-View the Data Source Logs of the selected {{ en.DPS }} instance. 
+View the Data Source Logs of the selected {{ en.DVLS }} instance. 
 		</td>
 	</tr>
 	<tr>
@@ -119,7 +119,7 @@ Open the web interface in the default browser.
 Explore 
 		</td>
 		<td>
-Open the file explorer and points it to the {{ en.DPS }} instance installation folder. 
+Open the file explorer and points it to the {{ en.DVLS }} instance installation folder. 
 		</td>
 	</tr>
 	<tr>
@@ -127,7 +127,7 @@ Open the file explorer and points it to the {{ en.DPS }} instance installation f
 Open Response File 
 		</td>
 		<td>
-Open a response file to run commands on the {{ en.DPS }} instance. 
+Open a response file to run commands on the {{ en.DVLS }} instance. 
 		</td>
 	</tr>
 </table>
@@ -356,7 +356,7 @@ Description
 Users 
 		</td>
 		<td>
-Will open the [Users management](/server/web-interface/administration/security-management/users/) page on the {{ en.DPS }} web interface. 
+Will open the [Users management](/server/web-interface/administration/security-management/users/) page on the {{ en.DVLS }} web interface. 
 		</td>
 	</tr>
 	<tr>
@@ -364,7 +364,7 @@ Will open the [Users management](/server/web-interface/administration/security-m
 User Groups 
 		</td>
 		<td>
-Will open the [User Groups management](/server/web-interface/administration/security-management/user-groups/) page on the {{ en.DPS }} web interface. 
+Will open the [User Groups management](/server/web-interface/administration/security-management/user-groups/) page on the {{ en.DVLS }} web interface. 
 		</td>
 	</tr>
 	<tr>
@@ -372,7 +372,7 @@ Will open the [User Groups management](/server/web-interface/administration/secu
 Vaults 
 		</td>
 		<td>
-Will open the [Vaults management](/server/web-interface/administration/security-management/vaults/) page on the {{ en.DPS }} web interface. 
+Will open the [Vaults management](/server/web-interface/administration/security-management/vaults/) page on the {{ en.DVLS }} web interface. 
 		</td>
 	</tr>
 	<tr>
@@ -380,7 +380,7 @@ Will open the [Vaults management](/server/web-interface/administration/security-
 System Settings 
 		</td>
 		<td>
-Will open the [System Settings](/server/web-interface/administration/configuration/system-settings/) page on the {{ en.DPS }} web interface. 
+Will open the [System Settings](/server/web-interface/administration/configuration/system-settings/) page on the {{ en.DVLS }} web interface. 
 		</td>
 	</tr>
 	<tr>
@@ -388,7 +388,7 @@ Will open the [System Settings](/server/web-interface/administration/configurati
 System Permissions 
 		</td>
 		<td>
-Will open the [System Permissions](/server/web-interface/administration/configuration/system-permissions/) page on the {{ en.DPS }} web interface. 
+Will open the [System Permissions](/server/web-interface/administration/configuration/system-permissions/) page on the {{ en.DVLS }} web interface. 
 		</td>
 	</tr>
 	<tr>
@@ -396,7 +396,7 @@ Will open the [System Permissions](/server/web-interface/administration/configur
 Backup Manager 
 		</td>
 		<td>
-Will open the [Backup Manager](/server/web-interface/administration/backup/backup-manager/) page on the {{ en.DPS }} web interface. 
+Will open the [Backup Manager](/server/web-interface/administration/backup/backup-manager/) page on the {{ en.DVLS }} web interface. 
 		</td>
 	</tr>
 </table>

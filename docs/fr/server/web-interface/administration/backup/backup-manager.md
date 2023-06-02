@@ -60,7 +60,7 @@ Chemin du fichier de backup
 
 Le chemin d'accès au dossier dans lequel la sauvegarde de la base de données SQL sera enregistrée. Nous vous recommandons d'utiliser un dossier réseau partagé avec des autorisations appropriées définies dessus pour pouvoir enregistrer le fichier de sauvegarde.  
 
-Remarque : Comme la commande de sauvegarde s'exécute sur le serveur SQL et la machine où {{ fr.DPS }} est installé, ce chemin doit être accessible à partir de ce serveur SQL et depuis le serveur où {{ fr.DPS }} est installé. Nous suggérons de configurer le chemin de backup de la base de données avec un chemin UNC. 
+Remarque : Comme la commande de sauvegarde s'exécute sur le serveur SQL et la machine où {{ fr.DVLS }} est installé, ce chemin doit être accessible à partir de ce serveur SQL et depuis le serveur où {{ fr.DVLS }} est installé. Nous suggérons de configurer le chemin de backup de la base de données avec un chemin UNC. 
 		</td>
 	</tr>
 	<tr>

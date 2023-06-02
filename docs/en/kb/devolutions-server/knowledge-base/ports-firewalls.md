@@ -1,15 +1,15 @@
 ---
 title: Ports and Firewalls
 ---
-{{ en.DPS }} in itself does not dictate which ports to use for any of the resources that it accesses. You must consult with your system administrator to ascertain which adjustments need to be made in order for the system to inter-operate with your infrastructure.
+{{ en.DVLS }} in itself does not dictate which ports to use for any of the resources that it accesses. You must consult with your system administrator to ascertain which adjustments need to be made in order for the system to inter-operate with your infrastructure.
 
 ## Inbound
 
-The only inbound port that is needed for {{ en.DPS }} is for http or https communication, as per your preference. We strongly recommend using https even if only within your own network infrastructure. Although the default port is easily changed, it is typically port 443.
+The only inbound port that is needed for {{ en.DVLS }} is for http or https communication, as per your preference. We strongly recommend using https even if only within your own network infrastructure. Although the default port is easily changed, it is typically port 443.
 
 ## Outbound
 
-Two technologies are in play for proper operation of {{ en.DPS }} : SQL Server, LDAP.
+Two technologies are in play for proper operation of {{ en.DVLS }} : SQL Server, LDAP.
 
 ### SQL Server
 

@@ -59,7 +59,7 @@ Description
 Serial 
 		</td>
 		<td>
-Insert your {{ en.DPS }} serial registration number. 
+Insert your {{ en.DVLS }} serial registration number. 
 		</td>
 	</tr>
 	<tr>

@@ -3,12 +3,12 @@ eleventyComputed:
   title: Retrieve Credentials with {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-You need website entries in {{ en.DPS }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
+You need website entries in {{ en.DVLS }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
 {% endsnippet %}
  
-{{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.DPS }} website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
+{{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.DVLS }} website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
 
-After the [installation](/server/dwl/installation/) of {{ en.DWL }} and its [pairing](/server/dwl/first-login-dwl/) with {{ en.DPS }} , you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the <a href="#settings">Settings</a> section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to <a href="#retrieving-credentials">Retrieving credentials</a>. 
+After the [installation](/server/dwl/installation/) of {{ en.DWL }} and its [pairing](/server/dwl/first-login-dwl/) with {{ en.DVLS }} , you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the <a href="#settings">Settings</a> section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to <a href="#retrieving-credentials">Retrieving credentials</a>. 
 
 ## Settings
 
@@ -24,7 +24,7 @@ With this option enabled, a {{ en.DWL }} icon is displayed in every credential f
 ![General – Show icon in fields](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2017.png)  
 
 4. Click ***Save***.  
-5. Click on ***{{ en.DPS }}*** in the ***Data sources*** section. 
+5. Click on ***{{ en.DVLS }}*** in the ***Data sources*** section. 
 ![Settings – Data sources – Devolutions Server](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2018.png) 
 1. In the ***Actions*** tab, enable the ***Automatically retrieve credentials on page load*** and ***Automatically fill in credentials on load*** options by checking the boxes next to them. Below is a description of each setting: 
     * ***Automatically retrieve credentials on page load*** (enabled by default): Allows {{ en.DWL }} to automatically search for available credentials when loading a web page. 
@@ -44,7 +44,7 @@ You can now continue to the next section to learn how to retrieve your website e
 This section is based on the {{ en.DWL }} configuration steps from the <a href="#settings">previous section</a>. We highly recommend that you follow them before going forward, as some features may differ between your experience and what is shown below. 
 {% endsnippet %}
  
-Credentials can be retrieved from {{ en.DPS }} automatically or manually via {{ en.DWL }} . Follow the steps from the section that best suits your needs:  
+Credentials can be retrieved from {{ en.DVLS }} automatically or manually via {{ en.DWL }} . Follow the steps from the section that best suits your needs:  
 
 * <a href="#automatically-retrieving-credentials">Automatically retrieving credentials</a>  
 * <a href="#manually-retrieving-credentials">Manually retrieving credentials</a> 

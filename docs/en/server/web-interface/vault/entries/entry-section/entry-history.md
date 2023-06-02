@@ -1,7 +1,7 @@
 ---
 title: Entry History
 ---
-View, revert, compare, delete, and export the ***Entry History*** of {{ en.DPS }} entries. 
+View, revert, compare, delete, and export the ***Entry History*** of {{ en.DVLS }} entries. 
 ### Reverting 
 To restore a previous version of a specific entry, click the ***Revert*** button. 
 ![Revert Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4004.png) 

@@ -1,9 +1,9 @@
 ---
 title: Getting Started
 ---
-In this topic, you will find the steps on how to get started with the ***Privileged Access Management*** features in {{ en.DPS }} .  
+In this topic, you will find the steps on how to get started with the ***Privileged Access Management*** features in {{ en.DVLS }} .  
 
-First, you will need to be logged as an administrator in your {{ en.DPS }} . 
+First, you will need to be logged as an administrator in your {{ en.DVLS }} . 
 
 ## PAM Settings Configuration 
 

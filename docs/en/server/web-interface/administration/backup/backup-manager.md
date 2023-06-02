@@ -35,7 +35,7 @@ The path to the folder where the backup of the SQL database will be saved.<br>
 
 We recommend the use of a shared network folder with proper permissions set on it to be able to save the backup file.  
 
-Note: As the backup command is running on the SQL Server and on the machine where {{ en.DPS }} is hosted, this path must be accessible from both. We recommend configuring the database backup path using a UNC path.  
+Note: As the backup command is running on the SQL Server and on the machine where {{ en.DVLS }} is hosted, this path must be accessible from both. We recommend configuring the database backup path using a UNC path.  
 
 If a service account is set on the ***Scheduler Service*** , the account needs write permission on the destination folder.  
 		</td>

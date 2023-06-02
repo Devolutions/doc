@@ -2,14 +2,14 @@
 title: Configure Windows Authentication
 ---
 {% snippet icon.badgeCaution %}
-The machine hosting {{ en.DPS }} must be joined to the configured domain for Windows Authentication to work.
+The machine hosting {{ en.DVLS }} must be joined to the configured domain for Windows Authentication to work.
 {% endsnippet %}
 
-These steps provide the information to enable the ***Windows Authentication*** feature in {{ en.DPS }} . 
+These steps provide the information to enable the ***Windows Authentication*** feature in {{ en.DVLS }} . 
 
 ## Steps
 
-1. In ***Administration – Server Settings – Authentication*** of the {{ en.DPS }} instance web interface, check the ***Enable Windows authentication*** option box. When done, click on the ***Save*** button.  
+1. In ***Administration – Server Settings – Authentication*** of the {{ en.DVLS }} instance web interface, check the ***Enable Windows authentication*** option box. When done, click on the ***Save*** button.  
 ![!!KB4377.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4377.png) 
 1. Set the administrator credential properties in the Administration – Server Settings – Authentication – Domains . 
 2. Open the ***Server Manager*** desktop application and go to ***Manage – Add Roles and Features*** .  

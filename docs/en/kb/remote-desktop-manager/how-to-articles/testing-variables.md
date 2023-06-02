@@ -2,7 +2,7 @@
 title: Testing Variables
 ---
 {% snippet icon.badgeInfo %}
-Variables are only supported for ***Advanced Data Sources*** like SQL Server and {{ en.DPS }}
+Variables are only supported for ***Advanced Data Sources*** like SQL Server and {{ en.DVLS }}
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}

@@ -1,7 +1,7 @@
 ---
 title: Personnalisations des Logos
 ---
-Vous pouvez personnaliser les logos de l'interface Web {{ fr.DPS }} pour mieux servir vos clients. 
+Vous pouvez personnaliser les logos de l'interface Web {{ fr.DVLS }} pour mieux servir vos clients. 
 L'intégration de votre marque est possible dans ***Administration – Paramètres Serveurs – Avancé*** .  
 ![!!ServerOp4025.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4025.png)  
 
@@ -36,7 +36,7 @@ Ceci est pour l'image dans la barre d'outils avec une largeur maximale de 145 px
 
 Voici un exemple de cette fonctionnalité avec des images chargées dans les paramètres d'administration.  
 ![!!ServerOp4028.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4028.png) 
-Le résultat de la page de connexion {{ fr.DPS }}   :  
+Le résultat de la page de connexion {{ fr.DVLS }}   :  
 ![!!ServerOp4026.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4026.png) 
 Et pour le logo de la barre d'outils :  
 ![!!ServerOp4027.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4027.png) 

@@ -1,7 +1,7 @@
 ---
 title: Historique de l'entrée
 ---
-Visualiser, restaurer, comparer, supprimer et exporter l' ***Historique des entrées*** de {{ fr.DPS }} .  
+Visualiser, restaurer, comparer, supprimer et exporter l' ***Historique des entrées*** de {{ fr.DVLS }} .  
 
 ### Restaurer 
 

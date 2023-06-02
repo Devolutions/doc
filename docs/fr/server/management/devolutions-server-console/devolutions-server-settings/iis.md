@@ -32,7 +32,7 @@ Nom du site Web IIS.
 Diagnostic d'IIS 
 		</td>
 		<td>
-Ouvre la boîte de dialogue du Diagnostic d'IIS qui répertorie les prérequis de {{ fr.DPS }} . 
+Ouvre la boîte de dialogue du Diagnostic d'IIS qui répertorie les prérequis de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -48,7 +48,7 @@ Nom de l'Application Pool d'IIS.
 URI d'accès 
 		</td>
 		<td>
-URI d'accès utilisé pour accéder à la page Web de {{ fr.DPS }} . 
+URI d'accès utilisé pour accéder à la page Web de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 </table>
@@ -69,7 +69,7 @@ Description
 Dossier d'installation 
 		</td>
 		<td>
-Dossier où se trouvent les fichiers de l'application Web de {{ fr.DPS }} . 
+Dossier où se trouvent les fichiers de l'application Web de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 </table>

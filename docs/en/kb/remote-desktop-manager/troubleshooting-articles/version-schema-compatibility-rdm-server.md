@@ -1,23 +1,23 @@
 ---
 eleventyComputed:
-  title: Version Schema Compatibility for {{ en.RDM }} and {{ en.DPS }}
+  title: Version Schema Compatibility for {{ en.RDM }} and {{ en.DVLS }}
 keywords:
 - Schema
 ---
-Here is a schema compatibility board explaining which version of {{ en.RDM }} should be used with {{ en.DPS }} and other database.  
+Here is a schema compatibility board explaining which version of {{ en.RDM }} should be used with {{ en.DVLS }} and other database.  
 
 {% snippet icon.badgeCaution %}
-The first two version numbers must match (202X.X) for {{ en.RDM }} and {{ en.DPS }} to work together properly.
+The first two version numbers must match (202X.X) for {{ en.RDM }} and {{ en.DVLS }} to work together properly.
 {% endsnippet %}
 
-### {{ en.DPS }}
+### {{ en.DVLS }}
 <table>
 	<tr>
 		<th>
 Database version
 		</th>
 		<th>
-{{ en.DPS }} version
+{{ en.DVLS }} version
 		</th>
 		<th>
 RDM Windows version

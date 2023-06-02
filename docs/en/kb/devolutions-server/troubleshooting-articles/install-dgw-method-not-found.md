@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Install {{ en.DGW }} side by side Method not found
 ---
-When installing {{ en.DGW }} on the same machine as {{ en.DPS }} (side by side installation), this error can trigger in the installation logs.  
+When installing {{ en.DGW }} on the same machine as {{ en.DVLS }} (side by side installation), this error can trigger in the installation logs.  
 
 Method not found:'Void System.Management.Automation.Runspaces.InitialSessionState.set_ExecutionPolicy(Microsoft.PowerShell.ExecutionPolicy)'.  
 

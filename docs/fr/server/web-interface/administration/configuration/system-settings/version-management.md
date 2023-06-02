@@ -18,7 +18,7 @@ Description
 Version minimale 
 		</td>
 		<td>
-Version minimale de {{ fr.RDM }} requise pour se connecter à l'instance {{ fr.DPS }} . 
+Version minimale de {{ fr.RDM }} requise pour se connecter à l'instance {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -34,7 +34,7 @@ Message personnalisé affiché dans {{ fr.RDM }} lorsque la version utilisé ne 
 Version maximale 
 		</td>
 		<td>
-Version maximale de {{ fr.RDM }} autorisée pour se connecter à l'instance {{ fr.DPS }} . 
+Version maximale de {{ fr.RDM }} autorisée pour se connecter à l'instance {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>

@@ -2,7 +2,7 @@
 title: Entry Templates
 order: 20
 ---
-The ***Entry Templates*** allow administrators to manage entry templates of the {{ en.DPS }} for the users. With this feature you can set preferences on how entries information will be filled when creating them.  
+The ***Entry Templates*** allow administrators to manage entry templates of the {{ en.DVLS }} for the users. With this feature you can set preferences on how entries information will be filled when creating them.  
 
 To create a new entry template, go to ***Administration – Entry Templates*** and click on the ***Add*** button or the duplicate button to copy from an existing template.  
 

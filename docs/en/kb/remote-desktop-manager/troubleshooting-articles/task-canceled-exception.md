@@ -1,7 +1,7 @@
 ---
 title: Task Canceled Exception - A Task was Canceled
 ---
-One or more errors occurred in {{ en.RDM }} with a {{ en.DPS }} data source.  
+One or more errors occurred in {{ en.RDM }} with a {{ en.DVLS }} data source.  
 
 AggregateException: TaskCanceledException - A task was canceled  
 ![!!KB4752.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4752.png)

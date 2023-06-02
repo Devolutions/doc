@@ -1,10 +1,10 @@
 ---
 title: Identify the Server Answering on a High Availability Topology
 ---
-The following steps will explain how to define which server is answering when connecting on the {{ en.DPS }} web page on a High Availability/Load Balancing topology.
+The following steps will explain how to define which server is answering when connecting on the {{ en.DVLS }} web page on a High Availability/Load Balancing topology.
 
-1. Open IIS Manager on the server where the {{ en.DPS }} is hosted.
-1. Expand the nodes in the ***Connections*** pane and select the {{ en.DPS }} web application.  
+1. Open IIS Manager on the server where the {{ en.DVLS }} is hosted.
+1. Expand the nodes in the ***Connections*** pane and select the {{ en.DVLS }} web application.  
 ![!!KB4346.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4346.png)
 1. Open the ***HTTP Response Headers***.  
 ![!!KB4347.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4347.png)
@@ -15,7 +15,7 @@ The following steps will explain how to define which server is answering when co
 1. Repeat steps 1 to 5 on each server of your ***High Availability/Load Balancing*** cluster. It is important to set a different value for each server but keeping the same ***Name***.
 1. Open your favorite browser.
 1. Open the ***Developer Tools*** in the browser. Usually the ***F12*** key will open the ***Developer Tools*** in Google Chrome , Firefox or Microsoft Edge.
-1. Browse to your {{ en.DPS }} web page.
+1. Browse to your {{ en.DVLS }} web page.
 1. Using Firefox , in the ***Network*** tab, you should find the ***Custom HTTP Response Header*** value of the answering server of the cluster.  
 ![!!KB4350.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4350.png)
 

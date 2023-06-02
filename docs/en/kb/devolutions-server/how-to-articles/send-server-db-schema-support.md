@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Send {{ en.DPS }} Database Schema to Support
+  title: Send {{ en.DVLS }} Database Schema to Support
 ---
-Sometimes the support staff will ask for the {{ en.DPS }} database schema. The following procedure describe how to export the database schema of your {{ en.DPS }} instance.
+Sometimes the support staff will ask for the {{ en.DVLS }} database schema. The following procedure describe how to export the database schema of your {{ en.DVLS }} instance.
 
 ## Steps
 
-1. Select the {{ en.DPS }} instance in the {{ en.DVLSCONSOLE }} and click on the Edit button.  
+1. Select the {{ en.DVLS }} instance in the {{ en.DVLSCONSOLE }} and click on the Edit button.  
    ![!!KB8098.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8098.png)
 1. Select the Database tab.
 1. Click on the Save Schema button.  

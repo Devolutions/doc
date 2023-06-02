@@ -6,8 +6,8 @@ You get an HTTP 413 error when trying to upload or attach a document to an exist
 
 ## Steps
 
-1. Open the IIS Manager on the server where {{ en.DPS }} is hosted.
-1. Expand the Tree View and select the {{ en.DPS }} web application name and open the ***Configuration Editor*** in the ***Management*** section.  
+1. Open the IIS Manager on the server where {{ en.DVLS }} is hosted.
+1. Expand the Tree View and select the {{ en.DVLS }} web application name and open the ***Configuration Editor*** in the ***Management*** section.  
 ![!!KB4338.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4338.png)
 1. Select the value ***system.webServer/serverRuntime*** in the ***Section*** drop down menu. Then, increase the value of the ***uploadReadAheadSize*** parameter. This value is in bytes so if you want to load a 50MB file, you have to change the value to 51200.  
 ![!!KB4339.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4339.png)  

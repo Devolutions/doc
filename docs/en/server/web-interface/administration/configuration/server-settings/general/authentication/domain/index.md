@@ -97,7 +97,7 @@ Description
 Auto create users in DVLS 
 		</td>
 		<td>
-Automatically create the domain user account in the {{ en.DPS }} on the first login attempt. 
+Automatically create the domain user account in the {{ en.DVLS }} on the first login attempt. 
 		</td>
 	</tr>
 	<tr>

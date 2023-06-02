@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
-  title: Configuration du {{ fr.DGW }} avec {{ fr.DPS }}
+  title: Configuration du {{ fr.DGW }} avec {{ fr.DVLS }}
   order: 30
-  description: Ce sujet décrit comment configurer {{ fr.DPS }}, gratuit ou non, pour se connecter avec {{ fr.DGW }}.
+  description: Ce sujet décrit comment configurer {{ fr.DVLS }}, gratuit ou non, pour se connecter avec {{ fr.DGW }}.
   keywords:
   - VPN
   - Listener
 ---
 
-Ce sujet décrit comment configurer {{ fr.DPS }} pour se connecter avec {{ fr.DGW }}. Il y a deux façons d'installer un {{ fr.DGW }} : <a href="#étapes-pour-l'installation-côte-à-côte">l'installation côte à côte</a> et <a href="#étapes-pour-l'installation-autonome">l'installation autonome</a>.
+Ce sujet décrit comment configurer {{ fr.DVLS }} pour se connecter avec {{ fr.DGW }}. Il y a deux façons d'installer un {{ fr.DGW }} : <a href="#étapes-pour-l'installation-côte-à-côte">l'installation côte à côte</a> et <a href="#étapes-pour-l'installation-autonome">l'installation autonome</a>.
 
 ## Étapes pour l'installation côte à côte
 {% snippet icon.badgeInfo %}
@@ -22,7 +22,7 @@ Cette méthode permet également de gérer davantage de sessions si une ou plusi
 1. Choisir ***Installation côte à côte***.  
 ![Installation côte à côte](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0004.png)
 {% snippet icon.badgeHelp %}
-Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/gateway/download) pour installer {{ fr.DGW }} sur un {{ fr.DPS }} hors ligne.
+Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/gateway/download) pour installer {{ fr.DGW }} sur un {{ fr.DVLS }} hors ligne.
 {% endsnippet %}
 
 4. Si les valeurs par défaut ne fonctionnent pas pour votre environnement, saisir les paramètres souhaités.
@@ -30,14 +30,14 @@ Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/ga
     1. ***Port d'écoute TCP*** : Port utilisé pour les sessions RDP. (8181 par défaut)
 1. Cliquer sur ***Ok***.  
 ![Bouton Ok](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0005.png)
-1. Accéder à l'interface Web {{ fr.DPS }}, se connecter avec un compte administrateur.
+1. Accéder à l'interface Web {{ fr.DVLS }}, se connecter avec un compte administrateur.
 1. Aller dans ***Administration*** – ***{{ fr.DGW }}***.  
 ![{{ fr.DGW }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0006.png)
 1. Cliquer sur le bouton ***Ping*** pour tester la passerelle souhaitée dans la liste et voir si une connexion peut être établie avec succès. Si la page était déjà ouverte, il faut d'abord la rafraîchir.  
 ![Ping](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0007.png)
 
 ## Étapes pour l'installation autonome
-L'installation en utilisant la méthode ***autonome*** permettra d'installer {{ fr.DGW }} sur un serveur distinct de {{ fr.DPS }}. Cela peut être pour des raisons de performance ou pour accéder à des réseaux auxquels {{ fr.DPS }} ne peut pas accéder. Plusieurs {{ fr.DGW }} peuvent être utilisés par {{ fr.DPS }}, mais un seul {{ fr.DGW }} peut être installé sur une machine.
+L'installation en utilisant la méthode ***autonome*** permettra d'installer {{ fr.DGW }} sur un serveur distinct de {{ fr.DVLS }}. Cela peut être pour des raisons de performance ou pour accéder à des réseaux auxquels {{ fr.DVLS }} ne peut pas accéder. Plusieurs {{ fr.DGW }} peuvent être utilisés par {{ fr.DVLS }}, mais un seul {{ fr.DGW }} peut être installé sur une machine.
 1. Dans la {{ fr.RDMSCONSOLE }}, cliquer sur l'onglet ***Compagnons***.  
 ![Onglet Compagnons](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0017.png)
 1. Dans la section {{ fr.DGW }}, cliquer sur ***Installer***.
@@ -45,7 +45,7 @@ L'installation en utilisant la méthode ***autonome*** permettra d'installer {{ 
 ![Installation autonome](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0008.png)
 1. Choisir entre ***Télécharger la version*** et ***Installation à partir d'un fichier msi***.
 {% snippet icon.badgeHelp %}
-Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/gateway/download) pour installer {{ fr.DGW }} sur un {{ fr.DPS }} hors ligne.
+Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/gateway/download) pour installer {{ fr.DGW }} sur un {{ fr.DVLS }} hors ligne.
 {% endsnippet %}  
 
 5. Cliquer sur ***Suivant***.  
@@ -63,8 +63,8 @@ Ne partager pas la clé privée avec d'autres utilisateurs, car elle peut être 
 8. Cliquer sur ***Suivant***.  
 ![Suivant](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0010.png)
 1. Choisir entre :
-    * ***Utiliser la clé publique de l'instance DVLS 'Devolutions Server'*** : cette option est utilisée si {{ fr.DGW }} installé est sur le même serveur que le {{ fr.DPS }} ;  
-    * ***À partir du fichier*** : Si l'installation de {{ fr.DGW }} se fait sur un autre ordinateur, télécharger la clé publique du {{ fr.DPS }} que qui doit être couplé avec ce {{ fr.DGW }}.  
+    * ***Utiliser la clé publique de l'instance DVLS 'Devolutions Server'*** : cette option est utilisée si {{ fr.DGW }} installé est sur le même serveur que le {{ fr.DVLS }} ;  
+    * ***À partir du fichier*** : Si l'installation de {{ fr.DGW }} se fait sur un autre ordinateur, télécharger la clé publique du {{ fr.DVLS }} que qui doit être couplé avec ce {{ fr.DGW }}.  
 ![Télécharger la clé publique](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0011.png)
 1. Cliquer sur ***Suivant***.  
 ![Suivant](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0012.png)
@@ -72,7 +72,7 @@ Ne partager pas la clé privée avec d'autres utilisateurs, car elle peut être 
 ![Installer](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0013.png)
 1. Cliquer sur ***Close***.  
 ![Bouton Close](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0014.png)
-1. Sur l'interface Web {{ fr.DPS }}, connectez-vous avec un compte administrateur.
+1. Sur l'interface Web {{ fr.DVLS }}, connectez-vous avec un compte administrateur.
 1. Accéder à ***Administration - {{ fr.DGW }}***.  
 ![{{ fr.DGW }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0006.png)
 1. Cliquer sur le bouton ***Ajouter*** dans le coin supérieur droit.  
@@ -81,7 +81,7 @@ Ne partager pas la clé privée avec d'autres utilisateurs, car elle peut être 
     1. ***Nom***: Nom du {{ fr.DGW }} qui sera affiché dans {{ fr.RDM }}.
     1. ***Description***: Description de la passerelle.
     1. ***Définir par défaut***: Si l'option est cochée, cette passerelle sera sélectionnée par défaut lors de la configuration de {{ fr.RDM }}.
-    1. ***URL de {{ fr.DGW }}***: L'URL {{ fr.DPS }} à laquelle la passerelle se connectera.
+    1. ***URL de {{ fr.DGW }}***: L'URL {{ fr.DVLS }} à laquelle la passerelle se connectera.
     1. ***Port d'écoute TCP***: Définir le port avec la même valeur de port TCP que celui configuré dans la console.
 1. Cliquer sur ***Enregistrer***.  
 ![Bouton Enregistrer](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0016.png)

@@ -40,7 +40,7 @@ L'enregistrement de la session est seulement disponible en mode intégré.
 * ***Racine (Par défaut)*** : Renvoie au coffre. Équivaux au mode ***Jamais*** pour les coffres. 
 4. Choisir la méthode d'***Enregistrement***. 
 {% snippet icon.badgeNotice %} 
-Certaines options sont seulement disponibles avec une source de données {{ fr.DPS }}. 
+Certaines options sont seulement disponibles avec une source de données {{ fr.DVLS }}. 
 {% endsnippet %}
  
 * ***Hérité*** : Le paramètre est hérité du fichier parent. 

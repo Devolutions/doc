@@ -8,7 +8,7 @@ keywords:
 Grâce à la fonction d'***Accès temporaire***, vous pouvez donner à un utilisateur désigné un accès temporaire à une entrée pendant une durée déterminée. Cette méthode est beaucoup plus sécuritaire que de modifier les droits d'accès de l'utilisateur, puis de les modifier à nouveau une fois la tâche accomplie.
 
 {% snippet icon.badgeCaution %}
-Ces paramètres sont uniquement disponibles pour les sources de données avancées {{ fr.DPS }}, Microsoft SQL Server et Microsoft Azure SQL.
+Ces paramètres sont uniquement disponibles pour les sources de données avancées {{ fr.DVLS }}, Microsoft SQL Server et Microsoft Azure SQL.
 {% endsnippet %}
 
 ## Paramètres globaux d'accès temporaire

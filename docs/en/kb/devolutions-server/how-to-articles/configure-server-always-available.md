@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Configure {{ en.DPS }} to be Always Available
+  title: Configure {{ en.DVLS }} to be Always Available
 ---
-To prevent that the {{ en.DPS }} web application will recycle periodically and to be on idle mode, please follow these instructions.
+To prevent that the {{ en.DVLS }} web application will recycle periodically and to be on idle mode, please follow these instructions.
 
 1. Open IIS Manager and expand the ***Tree View*** and select ***Application Pools*** . In the ***Application Pools*** list, select your web application and click on ***Advanced Settings*** in the Actions panel on the right. Then, change the ***Start Mode*** option to the value ***AlwaysRunning***.  
 ![!!KB4371.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4371.png)

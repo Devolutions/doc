@@ -1,7 +1,7 @@
 ---
 title: Gateway
 ---
-This section list the {{ en.DGW }} installed that the {{ en.DPS }} can connect through to access resources in segmented networks. Multiple {{ en.DGW }} can be added to that list.  
+This section list the {{ en.DGW }} installed that the {{ en.DVLS }} can connect through to access resources in segmented networks. Multiple {{ en.DGW }} can be added to that list.  
 
 To install {{ en.DGW }} , please see this topic [Devolutions Server Configuration](/server/dgw/server-configuration/)  
 

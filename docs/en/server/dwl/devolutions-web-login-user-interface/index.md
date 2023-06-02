@@ -2,7 +2,7 @@
 title: Devolutions Web Login User Interface
 order: 40
 ---
-The {{ en.DWL }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.DWL }} user interface when used with {{ en.DPS }} .  
+The {{ en.DWL }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.DWL }} user interface when used with {{ en.DVLS }} .  
 
 Testtesttest
 
@@ -22,19 +22,19 @@ At the right of the ***Top Menu*** , the ***Settings*** button opens a new tab i
 Next to the ***Settings*** button is your ***Account*** button. This section has some useful links and information, namely: 
 
 * a ***Log Off*** button to sign out of your {{ en.DA }} .  
-* a link to your {{ en.DPS }} .  
-* a link to our [{{ en.DPS }} Forum](https://forum.devolutions.net/product/server) .  
-* a link to our [{{ en.DPS }} Online Help](/server/) .  
+* a link to your {{ en.DVLS }} .  
+* a link to our [{{ en.DVLS }} Forum](https://forum.devolutions.net/product/server) .  
+* a link to our [{{ en.DVLS }} Online Help](/server/) .  
 * the current version of {{ en.DWL }} .  
 
 ![Account Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2031.png)
 ### Side Menu and Content Area 
 Using the tabs of the ***Side Menu*** , you can access various {{ en.DWL }} features. 
 ![Side Menu Tabs](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2032.png)
-Each tab will display a different view in the ***Content Area*** . The tabs available when using {{ en.DWL }} with {{ en.DPS }} are:  
+Each tab will display a different view in the ***Content Area*** . The tabs available when using {{ en.DWL }} with {{ en.DVLS }} are:  
 
 * the ***Matching*** tab, where you can find available credentials for a specific website.  
-* the ***All Entries*** tab,  where you can find all the {{ en.DPS }} entries you synchronized, divided into your different vaults and folders.  
+* the ***All Entries*** tab,  where you can find all the {{ en.DVLS }} entries you synchronized, divided into your different vaults and folders.  
 * the ***Favorites*** tab, where you can find a list of your favorite entries.  
 * the ***Recent*** tab, where you can find a list of the entries that you recently used.  
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  

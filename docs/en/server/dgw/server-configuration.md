@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
-  title: Devolutions Gateway configuration with {{ en.DPS }}
+  title: Devolutions Gateway configuration with {{ en.DVLS }}
   order: 30
-  description: This topic describes how to configure {{ en.DPS }}, free or not, to connect with {{ en.DGW }}.
+  description: This topic describes how to configure {{ en.DVLS }}, free or not, to connect with {{ en.DGW }}.
   keywords:
   - VPN
   - Listener
 ---
-This topic describes how to configure {{ en.DPS }} to connect with {{ en.DGW }}. There are two ways to install a {{ en.DGW }}: the <a href="#steps-for-side-by-side-installation">Side-by-side Installation</a> and the <a href="#steps-for-standalone-installation">Standalone Installation</a>.
+This topic describes how to configure {{ en.DVLS }} to connect with {{ en.DGW }}. There are two ways to install a {{ en.DGW }}: the <a href="#steps-for-side-by-side-installation">Side-by-side Installation</a> and the <a href="#steps-for-standalone-installation">Standalone Installation</a>.
 
 ## Steps for Side-by-side Installation
 {% snippet icon.badgeInfo %}
@@ -21,7 +21,7 @@ This method supports more sessions if there is an available {{ en.DGW }} license
 1. Choose ***Side-by-side Installation***.
 ![Side-by-side](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0004.png)
 {% snippet icon.badgeHelp %}
-It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DPS }}.
+It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DVLS }}.
 {% endsnippet %}  
 
 4. If default values don't work for your environment, enter the desired settings.
@@ -29,14 +29,14 @@ It is possible to download an [.msi](https://devolutions.net/gateway/download) f
     1. ***TCP Listener***: port used for the RDP sessions. (8181 is default)
 1. Click ***Ok***.  
 ![Ok Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0005.png)
-1. Go to the {{ en.DPS }} web interface, connect with an administrator account.
+1. Go to the {{ en.DVLS }} web interface, connect with an administrator account.
 1. Go to ***Administration – {{ en.DGW }}***.  
 ![{{ en.DGW }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0006.png)
 1. Click on the ***Ping*** button for the desired gateway in the list to see if a connection can successfully be made. If the page was already open, refresh it first.  
 ![Ping](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0007.png)
 
 ## Steps for Standalone Installation
-Installing by using the ***Standalone*** method will allow to install {{ en.DGW }} on a separate server than {{ en.DPS }}. It could be for performance purposes or access networks that {{ en.DPS }} can't access. Many {{ en.DGW }} can be used by {{ en.DPS }}, but only one {{ en.DGW }} can be installed on a machine.
+Installing by using the ***Standalone*** method will allow to install {{ en.DGW }} on a separate server than {{ en.DVLS }}. It could be for performance purposes or access networks that {{ en.DVLS }} can't access. Many {{ en.DGW }} can be used by {{ en.DVLS }}, but only one {{ en.DGW }} can be installed on a machine.
 1. From the {{ en.RDMSCONSOLE }}, click on the ***Companions*** tab.  
 ![Companions Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0018.png)
 1. In the {{ en.DGW }} section, click on ***Install***.
@@ -44,7 +44,7 @@ Installing by using the ***Standalone*** method will allow to install {{ en.DGW 
 ![Standalone](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0008.png)
 1. Choose between ***Download version*** & ***Install from msi file***.
 {% snippet icon.badgeHelp %}
-It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DPS }}.
+It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DVLS }}.
 {% endsnippet %}  
 
 5. Click ***Next***.  
@@ -62,8 +62,8 @@ Do not share the private key with other users, as it can be used to decrypt the 
 8. Click ***Next***.  
 ![Listeners](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0010.png)
 1. Choose between: 
-    * ***Use public key from DVLS instance 'Devolutions Server'***: this option is used if the installed {{ en.DGW }} is on the same server as the {{ en.DPS }};  
-    * ***From file***: If installing {{ en.DGW }} on another computer, download the public key from the {{ en.DPS }} you want to pair with that {{ en.DGW }}. It is located under ***Administration – {{ en.DGW }}***.  
+    * ***Use public key from DVLS instance 'Devolutions Server'***: this option is used if the installed {{ en.DGW }} is on the same server as the {{ en.DVLS }};  
+    * ***From file***: If installing {{ en.DGW }} on another computer, download the public key from the {{ en.DVLS }} you want to pair with that {{ en.DGW }}. It is located under ***Administration – {{ en.DGW }}***.  
 ![Download public key](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0016.png)
 1. Click ***Next***.  
 ![Key Pair Configuration](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0011.png)
@@ -71,7 +71,7 @@ Do not share the private key with other users, as it can be used to decrypt the 
 ![Summary](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0012.png)
 1. Click ***Close***.  
 ![Installation Summary](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0013.png)
-1. On the {{ en.DPS }} web interface, connect with an administrator account.
+1. On the {{ en.DVLS }} web interface, connect with an administrator account.
 1. Go to ***Administration – {{ en.DGW }}***.  
 ![{{ en.DGW }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0006.png)
 1. Click on the ***Add*** button on the top right corner.  
@@ -80,7 +80,7 @@ Do not share the private key with other users, as it can be used to decrypt the 
     1. ***Name***: Name of the gateway that will be displayed in {{ en.RDM }}.
     1. ***Description***: Description of the gateway.
     1. ***Set as default***: If enabled, this gateway will be selected by default when configuring {{ en.RDM }}.
-    1. ***{{ en.DGW }} URL***: The {{ en.DPS }} URL that the gateway will connect to.
+    1. ***{{ en.DGW }} URL***: The {{ en.DVLS }} URL that the gateway will connect to.
     1. ***TCP Listening Port***: Set the port with the same TCP port value configured in the console.
 1. Click on ***Save***.  
 ![{{ en.DGW }} Information](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0015.png)

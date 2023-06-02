@@ -3,7 +3,7 @@ title: Créer des entrées manuellement
 keywords:
 - Coffre privé
 ---
-Créer des entrées manuellement et enregistrer vos données dans {{ fr.DPS }} . 
+Créer des entrées manuellement et enregistrer vos données dans {{ fr.DVLS }} . 
 
 ### Créer une entrée 
 

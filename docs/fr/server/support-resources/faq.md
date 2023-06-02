@@ -47,10 +47,10 @@ Oui, {{ fr.RDMS }} est offert en abonnement. Vous pouvez vous abonner pour un (1
 
 ## Que se passe-t-il si je ne veux/n'ai plus besoin d'un {{ fr.RDMS }}? mes données sont-elles toujours accessibles?
 
-Vous devez renouveler votre contrat d'abonnement à son expiration. Si vous ne renouvelez pas votre abonnement, l'accès à vos données sera limité à la visualisation seulement. Cela dit, vous pourrez exporter vos données si vous choisissez de migrer vers un autre type de source de données que {{ fr.DPS }}. 
+Vous devez renouveler votre contrat d'abonnement à son expiration. Si vous ne renouvelez pas votre abonnement, l'accès à vos données sera limité à la visualisation seulement. Cela dit, vous pourrez exporter vos données si vous choisissez de migrer vers un autre type de source de données que {{ fr.DVLS }}. 
 
 ## Puis-je mettre à niveau d'une source de données sql server vers {{ fr.RDMS }}?
-Non, nous vous recommandons de créer une nouvelle instance {{ fr.DPS }} et d'exporter les données de la source de données SQL et de les importer dans la nouvelle instance {{ fr.DPS }}. Contactez-nous à [service@devolutions.net](mailto:service@devolutions.net) pour plus d'informations sur le processus de migration. 
+Non, nous vous recommandons de créer une nouvelle instance {{ fr.DVLS }} et d'exporter les données de la source de données SQL et de les importer dans la nouvelle instance {{ fr.DVLS }}. Contactez-nous à [service@devolutions.net](mailto:service@devolutions.net) pour plus d'informations sur le processus de migration. 
 
 
 

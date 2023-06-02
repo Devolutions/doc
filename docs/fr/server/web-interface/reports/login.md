@@ -27,7 +27,7 @@ L' ***Historique des connexions*** affiche les informations de chaque utilisateu
 
 ### Dernière connexion 
 
-Ce rapport affiche les dernières informations de connexion au {{ fr.DPS }} pour chaque utilisateur. 
+Ce rapport affiche les dernières informations de connexion au {{ fr.DVLS }} pour chaque utilisateur. 
 
 ![!!ServerOp4063.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4063.png) 
 

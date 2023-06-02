@@ -1,7 +1,7 @@
 ---
 title: CryptographicException - Bad Data
 ---
-The error: CryptographicException - Bad Data in {{ en.DPS }} is caused by an invalid session key. To fix this error message, please clean the browser's local storage.  
+The error: CryptographicException - Bad Data in {{ en.DVLS }} is caused by an invalid session key. To fix this error message, please clean the browser's local storage.  
 
 The following instruction are the steps to do in the Google Chrome browser.
 

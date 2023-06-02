@@ -1,7 +1,7 @@
 ---
 title: Create an Azure AD PAM Provider
 ---
-The following guide provides steps to create an Azure AD user PAM provider for {{ en.DPS }}.
+The following guide provides steps to create an Azure AD user PAM provider for {{ en.DVLS }}.
 
 ## CREATE AN AZURE AD PAM PROVIDER
 
@@ -11,13 +11,13 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 ![Azure Active Directory Service](https://webdevolutions.azureedge.net/docs/en/kb/KB2132.png)
 1. In ***App registrations***, click on ***New registration***.
 ![App registrations – New registration](https://webdevolutions.azureedge.net/docs/en/kb/KB2133.png)
-1. Set the ***Name*** and the ***Redirect URI*** and platform. The ***Redirect URI*** must be the same value as the URL used to connect to {{en.DPS}}.
+1. Set the ***Name*** and the ***Redirect URI*** and platform. The ***Redirect URI*** must be the same value as the URL used to connect to {{ en.DVLS }}.
 ![Register an application](https://webdevolutions.azureedge.net/docs/en/kb/KB8063.png)
 1. Click ***Register*** at the bottom when done.
 
-**In {{en.DPS}}**
+**In {{ en.DVLS }}**
 
-6. Connect to your {{en.DPS}}.
+6. Connect to your {{ en.DVLS }}.
 1. Go to ***Administration – Privileged Access – Providers***, then click on ***Add***.
 ![Administration – Privileged Access – Providers – Add](https://webdevolutions.azureedge.net/docs/en/kb/KB2134.png)
 1. Select ***Azure AD User*** as the new PAM provider, then click ***Continue***.
@@ -30,7 +30,7 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 10. In the ***Overview*** of your new app registration, copy the ***Directory (tenant) ID***.
 ![Copy the Directory (tenant) ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2136.png)
 
-**In {{en.DPS}}**
+**In {{ en.DVLS }}**
 
 11. Paste the ID copied in the previous step in the ***Tenant ID*** field.
 ![Tenant ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2138.png)
@@ -40,7 +40,7 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 12. Still in the ***Overview*** of your new app registration, copy the ***Application (client) ID***.
 ![Copy the Application (client) ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2137.png)
 
-**In {{en.DPS}}**
+**In {{ en.DVLS }}**
 
 13. Paste the ID copied in the previous step in the ***Client ID*** field.
 ![Client ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2139.png)
@@ -55,7 +55,7 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 1. Copy the ***Value*** of this new client secret by clicking on the ***Copy to clipboard*** icon next to it.
 ![Copy the Client Secret Value](https://webdevolutions.azureedge.net/docs/en/kb/KB8067.png)
 
-**In {{en.DPS}}**
+**In {{ en.DVLS }}**
 
 18. Paste the value copied in the previous step in the ***Secret key*** field.
 ![Secret key](https://webdevolutions.azureedge.net/docs/en/kb/KB8068.png)
@@ -98,13 +98,13 @@ Use the filter bar above the permissions list to find the ones you are looking f
 ![Add assignments](https://webdevolutions.azureedge.net/docs/en/kb/KB8074.png)
 Your new assignment should now be displayed in ***Assignments***.
 
-**In {{en.DPS}}**
+**In {{ en.DVLS }}**
 
 31. The last steps are dedicated to configuring a scan for this provider. In the ***Scan Configuration*** window that appeared when you saved your provider configuration in <a href="#Step19">step 19</a>, under ***General***, enter a ***Name*** for this configuration.
 ![Scan Configuration Name](https://webdevolutions.azureedge.net/docs/en/kb/KB2144.png)
 1. Under ***Configuration***, select ***Groups*** or ***Roles*** in the ***Search mode*** drop-down list. You can filter the ***Search mode*** for specific Azure AD groups or roles by clicking on the ***Edit*** button next to the drop-down list.
 ![Scan Configuration Search mode](https://webdevolutions.azureedge.net/docs/en/kb/KB8077.png)
 1. Click ***OK*** when the configuration is done.
-1. In {{en.DPS}}, go to ***Administration – Privileged Access – Scan Configurations***. If the ***Start Scan on Save*** option was left enabled during the scan configuration, the scan should have started by itself. During the process, the ***Status*** column displays an hourglass icon next to the scan entry.
+1. In {{ en.DVLS }}, go to ***Administration – Privileged Access – Scan Configurations***. If the ***Start Scan on Save*** option was left enabled during the scan configuration, the scan should have started by itself. During the process, the ***Status*** column displays an hourglass icon next to the scan entry.
 ![Administration – Privileged Access – Scan Configurations](https://webdevolutions.azureedge.net/docs/en/kb/KB2145.png)
 1. When the process is complete, the hourglass icon changes to a green check mark. At that point, select accounts and import them into the privileged accounts like any other type of privileged account.

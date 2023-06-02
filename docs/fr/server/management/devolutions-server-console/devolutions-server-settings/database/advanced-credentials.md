@@ -3,7 +3,7 @@ title: Identifiants avancés
 keywords:
 - Rôle
 ---
-Les Identifiants avancés sont utilisés pour permettre à {{ fr.DPS }} de communiquer avec la base de données SQL.  
+Les Identifiants avancés sont utilisés pour permettre à {{ fr.DVLS }} de communiquer avec la base de données SQL.  
 {% snippet icon.badgeCaution %} 
 Seuls les comptes de connexion SQL peuvent être utilisés. 
 {% endsnippet %}
@@ -28,7 +28,7 @@ Description
 Outils de gestion 
 		</td>
 		<td>
-Identifiants qui permettent à la Console {{ fr.DPS }} de communiquer avec la base de données SQL. Dois être un compte SQL. 
+Identifiants qui permettent à la Console {{ fr.DVLS }} de communiquer avec la base de données SQL. Dois être un compte SQL. 
 		</td>
 	</tr>
 	<tr>

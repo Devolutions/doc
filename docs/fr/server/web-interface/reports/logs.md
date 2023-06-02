@@ -35,7 +35,7 @@ Les ***Journaux d'administration*** conservent la trace des activités de niveau
 La liste des ***Entrées supprimées*** répertorie toutes les entrées supprimées dans la source de données, y compris le dossier d'où elles proviennent, la date et l'auteur de la suppression. Vous pouvez affiner votre recherche par coffre avec le filtre et cliquer sur ***Restaurer l'entrée*** pour récupérer l'entrée dans son coffre et son dossier d'origine. 
 
 {% snippet icon.badgeWarning %} 
-Une fois que vous avez confirmé la suppression d'une entrée dans les listes des ***Entrées supprimées***, elle sera complètement supprimée des données du {{ fr.DPS }}. 
+Une fois que vous avez confirmé la suppression d'une entrée dans les listes des ***Entrées supprimées***, elle sera complètement supprimée des données du {{ fr.DVLS }}. 
 {% endsnippet %}
  
 ![Rapports – Entrées supprimées](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4074.png) 

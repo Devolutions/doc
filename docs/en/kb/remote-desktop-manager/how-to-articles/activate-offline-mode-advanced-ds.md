@@ -12,7 +12,7 @@ You must enable to offline mode on multiple levels; the Data Source, the Users, 
 ![!!KB4799.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4799.png)
 1. For the ***Users*** , go in Administration - Users - Edit - Settings - Offline mode  
 ![!!KB4800.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4800.png)
-1. If you have a {{ en.DPS }} , for the ***User Groups*** in Administration - User groups - Edit - Settings - Offline mode  
+1. If you have a {{ en.DVLS }} , for the ***User Groups*** in Administration - User groups - Edit - Settings - Offline mode  
 ![!!KB4801.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4801.png)
 1. In the ***System Settings*** in Administration - System Settings - Offline - Offline mode and Expiration  
 ![!!KB4802.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4802.png)

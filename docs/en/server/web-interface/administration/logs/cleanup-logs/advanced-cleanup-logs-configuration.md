@@ -35,7 +35,7 @@ Connections Logs relates to all operations on entries like viewing a password, o
 Login Attempt 
 		</td>
 		<td>
-The Login Attempt relates to all unsuccessful logins to the {{ en.DPS }} data source. 
+The Login Attempt relates to all unsuccessful logins to the {{ en.DVLS }} data source. 
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ The Login Attempt relates to all unsuccessful logins to the {{ en.DPS }} data so
 Login History 
 		</td>
 		<td>
-The Login History logs related to each user that has been connected to the {{ en.DPS }} . 
+The Login History logs related to each user that has been connected to the {{ en.DVLS }} . 
 		</td>
 	</tr>
 	<tr>

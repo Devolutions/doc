@@ -5,7 +5,7 @@ Consult ***Logs*** and ***Insert log comments*** specific to entries about user 
 ![!!ServerOp4003.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4003.png) 
 ### Insert an entry log comment 
 {% snippet icon.badgeCaution %} 
-***Log Comments*** for entries in the {{ en.DPS }} web interface can only be viewed. They cannot be deleted nor edited once saved. More options, like notes editing, are available in {{ en.RDM }} . 
+***Log Comments*** for entries in the {{ en.DVLS }} web interface can only be viewed. They cannot be deleted nor edited once saved. More options, like notes editing, are available in {{ en.RDM }} . 
 {% endsnippet %}
  
 1. Click ***Logs*** in an entry. 

@@ -1,9 +1,9 @@
 ---
 title: Create a Scheduled Report
 ---
-Create ***Scheduled Reports*** to run automatically and manage when and who will receive the data from your {{ en.DPS }} . 
+Create ***Scheduled Reports*** to run automatically and manage when and who will receive the data from your {{ en.DVLS }} . 
 {% snippet icon.badgeCaution %} 
-For this feature to work, it is mandatory to enable the [***Scheduler Service***](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) in the {{ en.DPS }} console ***Companions*** tab. 
+For this feature to work, it is mandatory to enable the [***Scheduler Service***](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) in the {{ en.DVLS }} console ***Companions*** tab. 
 {% endsnippet %}
  
 ### Create a Scheduled Report 
@@ -55,7 +55,7 @@ Will run the report with administrator privileges.
 Recipients 
 		</td>
 		<td>
-Select all user accounts from the {{ en.DPS }} that will receive the report. 
+Select all user accounts from the {{ en.DVLS }} that will receive the report. 
 		</td>
 	</tr>
 	<tr>

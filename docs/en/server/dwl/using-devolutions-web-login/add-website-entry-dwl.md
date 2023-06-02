@@ -6,9 +6,9 @@ eleventyComputed:
 This topic explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, see our topic on how to [Create an Account for a Website with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/create-account-website-dwl/) instead. 
 {% endsnippet %}
  
-Website entries can be created with {{ en.DWL }} in {{ en.DPS }} . This type of entry is useful for saving your login credentials so that you do not have to remember them. These entries are also used by {{ en.DWL }} to recognize a website and [retrieve your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) .  
+Website entries can be created with {{ en.DWL }} in {{ en.DVLS }} . This type of entry is useful for saving your login credentials so that you do not have to remember them. These entries are also used by {{ en.DWL }} to recognize a website and [retrieve your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) .  
 
-The main way to achieve this is by successfully logging into the website. {{ en.DWL }} will automatically offer to save your credentials in a new website entry in {{ en.DPS }} . It is also possible to manually create the website entry.  
+The main way to achieve this is by successfully logging into the website. {{ en.DWL }} will automatically offer to save your credentials in a new website entry in {{ en.DVLS }} . It is also possible to manually create the website entry.  
 
 ## Add a website entry  
 
@@ -24,7 +24,7 @@ The main way to achieve this is by successfully logging into the website. {{ en.
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
 1. Click ***Save*** .  
 
-Your credentials are now securely stored in a new website entry in {{ en.DPS }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) .  
+Your credentials are now securely stored in a new website entry in {{ en.DVLS }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) .  
 
 ### Manually Add a Website Entry 
 
@@ -43,5 +43,5 @@ Your credentials are now securely stored in a new website entry in {{ en.DPS }} 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
 1. Click ***Save*** .  
 
-Your credentials are now securely stored in a new website entry in {{ en.DPS }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) . 
+Your credentials are now securely stored in a new website entry in {{ en.DVLS }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) . 
 

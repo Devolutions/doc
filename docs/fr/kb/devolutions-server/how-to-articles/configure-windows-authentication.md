@@ -2,12 +2,12 @@
 title: Configurer l'authentification Windows
 ---
 {% snippet icon.badgeCaution %} 
-La machine qui sert d'hôte à {{ fr.DPS }} doit être liée au domaine configuré pour que l'authentification Windows fonctionne. 
+La machine qui sert d'hôte à {{ fr.DVLS }} doit être liée au domaine configuré pour que l'authentification Windows fonctionne. 
 {% endsnippet %}  
 
-Ces étapes permettent d'activer la fonctionnalité ***Authentification Windows*** dans {{ fr.DPS }} . 
+Ces étapes permettent d'activer la fonctionnalité ***Authentification Windows*** dans {{ fr.DVLS }} . 
 ### Étapes 
-1. Aller dans ***Administration - Paramètres Serveur - Authentification*** de l'interface Web de {{ fr.DPS }} et cocher l'option ***Autoriser l'authentification Windows*** . Lorsque c'est fait, cliquer sur l'icône ***Enregistrer*** .  
+1. Aller dans ***Administration - Paramètres Serveur - Authentification*** de l'interface Web de {{ fr.DVLS }} et cocher l'option ***Autoriser l'authentification Windows*** . Lorsque c'est fait, cliquer sur l'icône ***Enregistrer*** .  
 ![!!KB2015.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2015.png) 
 1. Configurer les propriétés des identifiants administrateur dans ***Administration - Paramètres Serveur - Authentification - Domaines*** . 
 1. Ouvrir l'application de bureau ***Gestionnaire de serveur*** . Aller dans ***Gérer - Ajouter des rôles et fonctionnalités*** .  

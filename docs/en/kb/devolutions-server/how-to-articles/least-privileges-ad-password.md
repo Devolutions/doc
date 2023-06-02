@@ -1,7 +1,7 @@
 ---
 title: Least Privileges for Active Directory Password
 ---
-With a PAM Provider account, {{ en.DPS }} allows to rotate account passwords. In Active Directory, having a domain administrator account as the provider can be a bit overkill for password rotation. The following article described the steps to create an Active Directory account that will be used as a PAM Provider and have the ability to rotate passwords in Active Directory.
+With a PAM Provider account, {{ en.DVLS }} allows to rotate account passwords. In Active Directory, having a domain administrator account as the provider can be a bit overkill for password rotation. The following article described the steps to create an Active Directory account that will be used as a PAM Provider and have the ability to rotate passwords in Active Directory.
 
 {% snippet icon.shieldInfo %}
 To manage domain administrator accounts as privileged accounts in the PAM module, the PAM AD provider must be part of the domain administrator groups. Then no need to follow these instructions.
@@ -15,7 +15,7 @@ To manage domain administrator accounts as privileged accounts in the PAM module
 ![!!KB8022.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8022.png)
 1. On the ***Welcome*** dialog, then click Next.  
 ![!!KB8023.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8023.png)
-1. In the Users or Groups dialog, select the account that will be used as the PAM Provider account in {{ en.DPS }} Then click ***Next***.  
+1. In the Users or Groups dialog, select the account that will be used as the PAM Provider account in {{ en.DVLS }} Then click ***Next***.  
 ![!!KB8024.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8024.png)
 1. In the ***Tasks to Delegate*** dialog, select the ***Create a custom task to delegate*** option. Then click ***Next***.  
 ![!!KB8025.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8025.png)
@@ -39,5 +39,5 @@ To manage domain administrator accounts as privileged accounts in the PAM module
 ![!!KB8031.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8031.png)  
 
 {% snippet icon.shieldInfo %}
-The password rotation feature will use the default built-in {{ en.DPS }} password rules. To level-up the password rules to respect your domain password rules, create a password template in ***Administration - System Settings - Password Template*** Then set it as the default password template in ***Administration - System Settings Password Management - Password Template***
+The password rotation feature will use the default built-in {{ en.DVLS }} password rules. To level-up the password rules to respect your domain password rules, create a password template in ***Administration - System Settings - Password Template*** Then set it as the default password template in ***Administration - System Settings Password Management - Password Template***
 {% endsnippet %}

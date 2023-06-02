@@ -2,7 +2,7 @@
 title: Password Templates
 order: 10
 ---
-***Password Templates*** are used by administrators to create predefined settings for the [***Password Generator***](/server/web-interface/administration/templates/password-templates/password-generator/) of {{ en.DPS }} .  
+***Password Templates*** are used by administrators to create predefined settings for the [***Password Generator***](/server/web-interface/administration/templates/password-templates/password-generator/) of {{ en.DVLS }} .  
 
 ![Administration – Password Templates](https://webdevolutions.azureedge.net/docs/en/server/clip10401.png) 
 
@@ -151,7 +151,7 @@ Forcefully excludes characters from the password.
 
 ### Force default password template 
 
-Force a default ***Password Template*** for all {{ en.DPS }} users.  
+Force a default ***Password Template*** for all {{ en.DVLS }} users.  
 
 1. Go to ***Administration – System Settings – Password Management – Password Template*** . 
 2. Choose a ***Default template*** . 

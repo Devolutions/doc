@@ -3,10 +3,10 @@ title: Using Devolutions Web Login
 order: 50
 ---
 {% snippet icon.badgeNotice %} 
-This topic assumes that you have previously [installed the {{ en.DWL }} extension](/server/dwl/installation/) in your browser and that it is [connected to {{ en.DPS }}](/server/dwl/first-login-dwl/) . 
+This topic assumes that you have previously [installed the {{ en.DWL }} extension](/server/dwl/installation/) in your browser and that it is [connected to {{ en.DVLS }}](/server/dwl/first-login-dwl/) . 
 {% endsnippet %}
  
-The {{ en.DWL }} browser extension is the tool of choice for users to interact in a password management context with {{ en.DPS }} . It allows for:  
+The {{ en.DWL }} browser extension is the tool of choice for users to interact in a password management context with {{ en.DVLS }} . It allows for:  
 
 * automatically matching websites to their respective saved credentials. 
 * directly viewing and filtering through the accounts that their vaults contain. 

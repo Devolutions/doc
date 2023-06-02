@@ -5,7 +5,7 @@ title: Multi Domain
 The Platinum Edition license is required to enable the Multi Domain feature. Contact our [sales department](mailto:sales@devolutions.net) for more information about the Platinum Edition. 
 {% endsnippet %}  
 
-The Multi Domain feature allows {{ en.DPS }} to authenticate users from multiple domains.  
+The Multi Domain feature allows {{ en.DVLS }} to authenticate users from multiple domains.  
 
 ![Multi Domain](https://webdevolutions.azureedge.net/docs/en/server/ServerOP8079.png)
 

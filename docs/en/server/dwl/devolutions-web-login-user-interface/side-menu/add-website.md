@@ -2,9 +2,9 @@
 title: Add Website
 ---
 
-The Add Website button is only available while in the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab">Matching</a> tab., which is the tab selected when opening the extension, or when browsing through the vaults of the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#all-entries-tab">All Entries</a> tab. It opens a new tab in your browser that allows you to add a website entry in {{ en.DPS }} through {{ en.DWL }} .  
+The Add Website button is only available while in the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab">Matching</a> tab., which is the tab selected when opening the extension, or when browsing through the vaults of the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#all-entries-tab">All Entries</a> tab. It opens a new tab in your browser that allows you to add a website entry in {{ en.DVLS }} through {{ en.DWL }} .  
 
-When {{ en.DPS }} is used as the data source, the entry configuration is done in the General tab. 
+When {{ en.DVLS }} is used as the data source, the entry configuration is done in the General tab. 
 
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2049.png)
 
@@ -141,7 +141,7 @@ Enter a description for your new entry.
 Vault 
 		</td>
 		<td>
-Choose to store your new website entry in your User Vault or in the currently selected Vault in {{ en.DPS }} . 
+Choose to store your new website entry in your User Vault or in the currently selected Vault in {{ en.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -149,7 +149,7 @@ Choose to store your new website entry in your User Vault or in the currently se
 Destination folder 
 		</td>
 		<td>
-Enter the name of the folder in which your new entry will be stored in {{ en.DPS }} . 
+Enter the name of the folder in which your new entry will be stored in {{ en.DVLS }} . 
 		</td>
 	</tr>
 	<tr>

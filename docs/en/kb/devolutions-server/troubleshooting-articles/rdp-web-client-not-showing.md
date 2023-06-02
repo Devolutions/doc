@@ -23,6 +23,6 @@ You must have at least a <a href="/rdm/windows/commands/administration/managemen
 
 You need to have the ***View password*** permission to launch the RDP session.
 
-To check if you have been granted this permission, select your entry in the {{ en.DPS }} web interface, then click on the ***Permissions*** tab. If you see a green check mark next to the ***View password*** permission, you have the proper permissions and your problem is elsewhere. If you have a red "X" instead, you do not have this permission. If you think you should have it, contact your administrator.
+To check if you have been granted this permission, select your entry in the {{ en.DVLS }} web interface, then click on the ***Permissions*** tab. If you see a green check mark next to the ***View password*** permission, you have the proper permissions and your problem is elsewhere. If you have a red "X" instead, you do not have this permission. If you think you should have it, contact your administrator.
 
 ![View password Permission](https://webdevolutions.azureedge.net/docs/en/kb/KB2162.png)

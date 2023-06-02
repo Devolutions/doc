@@ -129,8 +129,8 @@ Possible values:
 
 ## Example
 
-- Activate {{ en.DPS }}
-- Set ***https<area>://localhost/mydpsurl*** as {{ en.DPS }} URL.
+- Activate {{ en.DVLS }}
+- Set ***https<area>://localhost/mydvlsurl*** as {{ en.DVLS }} URL.
 - Disable the settings page.
 - Always override the settings in the ***settings*** section when the extension starts.
 
@@ -138,7 +138,7 @@ Possible values:
 {
   "settings": {
     "dvlsActivated": true,
-    "dvlsUrl": "https://localhost/mydpsurl"
+    "dvlsUrl": "https://localhost/mydvlsurl"
   },
   "adminSettings": {
     "disableSettingsPage": true,

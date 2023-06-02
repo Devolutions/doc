@@ -35,7 +35,7 @@ Set-RDMCurrentDataSource $ds
 1. Suivre les instructions dans [Module de base {{ fr.PS }}](/fr/kb/devolutions-powershell/remote-desktop-manager/rdm-powershell-core-module/) pour installer le module correctement.
 1. Le script s'attend à ce que vos identifiants et votre URL de {{ fr.DVLS }} soient définis dans des variables d'environnement. Comme il est peu recommandé de stocker des identifiants dans des scripts, adapter un fichier local pour l'exécution de vos propres tests.  
 ```
-$env:DS_URL= ' http<area>://localhost/dps  
+$env:DS_URL= ' http<area>://localhost/dvls  
 $env:DS_USER = '{your user here}'  
 $env:DS_PASSWORD = '{your password here}'  
 ```

@@ -39,7 +39,7 @@ Description
 Actualiser 
 		</td>
 		<td>
-Actualiser la liste des instances de {{ fr.DPS }} dans la console {{ fr.DPS }} . 
+Actualiser la liste des instances de {{ fr.DVLS }} dans la console {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -47,7 +47,7 @@ Actualiser la liste des instances de {{ fr.DPS }} dans la console {{ fr.DPS }} .
 Nouveau 
 		</td>
 		<td>
-Créer une nouvelle instance de {{ fr.DPS }} . 
+Créer une nouvelle instance de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -55,7 +55,7 @@ Créer une nouvelle instance de {{ fr.DPS }} .
 Modifier 
 		</td>
 		<td>
-Modifier les propriétés de l'instance {{ fr.DPS }} sélectionnée. 
+Modifier les propriétés de l'instance {{ fr.DVLS }} sélectionnée. 
 		</td>
 	</tr>
 	<tr>
@@ -63,7 +63,7 @@ Modifier les propriétés de l'instance {{ fr.DPS }} sélectionnée.
 Mettre à jour 
 		</td>
 		<td>
-Mettre à jour l'instance {{ fr.DPS }} sélectionnée. 
+Mettre à jour l'instance {{ fr.DVLS }} sélectionnée. 
 		</td>
 	</tr>
 	<tr>
@@ -71,7 +71,7 @@ Mettre à jour l'instance {{ fr.DPS }} sélectionnée.
 Désinstaller 
 		</td>
 		<td>
-Désinstaller l'instance {{ fr.DPS }} sélectionnée. 
+Désinstaller l'instance {{ fr.DVLS }} sélectionnée. 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Désinstaller l'instance {{ fr.DPS }} sélectionnée.
 Mot de passe 
 		</td>
 		<td>
-Définir, Modifier ou Désactiver le mot de passe de l'instance {{ fr.DPS }} . 
+Définir, Modifier ou Désactiver le mot de passe de l'instance {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -87,7 +87,7 @@ Définir, Modifier ou Désactiver le mot de passe de l'instance {{ fr.DPS }} .
 Mettre hors-ligne 
 		</td>
 		<td>
-Basculer l'instance {{ fr.DPS }} sélectionnée en mode hors ligne/en ligne. 
+Basculer l'instance {{ fr.DVLS }} sélectionnée en mode hors ligne/en ligne. 
 		</td>
 	</tr>
 	<tr>
@@ -95,7 +95,7 @@ Basculer l'instance {{ fr.DPS }} sélectionnée en mode hors ligne/en ligne.
 Arrêter le serveur / Démarrer le serveur 
 		</td>
 		<td>
-Arrêter/Démarrer le {{ fr.DPS }} IIS Application Pool. 
+Arrêter/Démarrer le {{ fr.DVLS }} IIS Application Pool. 
 		</td>
 	</tr>
 	<tr>
@@ -103,7 +103,7 @@ Arrêter/Démarrer le {{ fr.DPS }} IIS Application Pool.
 Journaux 
 		</td>
 		<td>
-Afficher les journaux de la source de données de l'instance de {{ fr.DPS }} sélectionnée. 
+Afficher les journaux de la source de données de l'instance de {{ fr.DVLS }} sélectionnée. 
 		</td>
 	</tr>
 	<tr>
@@ -119,7 +119,7 @@ Ouvrir l'interface Web dans le navigateur par défaut.
 Explorer 
 		</td>
 		<td>
-Ouvrir l'explorateur de fichiers et pointer-le vers le dossier d'installation de l'instance {{ fr.DPS }} . 
+Ouvrir l'explorateur de fichiers et pointer-le vers le dossier d'installation de l'instance {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -127,7 +127,7 @@ Ouvrir l'explorateur de fichiers et pointer-le vers le dossier d'installation de
 Ouvrir le fichier de réponse 
 		</td>
 		<td>
-Ouvrir le fichier de réponse pour rouler des commandes sur l'instance {{ fr.DPS }} . 
+Ouvrir le fichier de réponse pour rouler des commandes sur l'instance {{ fr.DVLS }} . 
 		</td>
 	</tr>
 </table>
@@ -356,7 +356,7 @@ Description
 Utilisateurs 
 		</td>
 		<td>
-Ouvrir la page de [Gestion des Utilisateurs](/fr/server/web-interface/administration/security-management/users/) sur l'interface Web de {{ fr.DPS }} . 
+Ouvrir la page de [Gestion des Utilisateurs](/fr/server/web-interface/administration/security-management/users/) sur l'interface Web de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -364,7 +364,7 @@ Ouvrir la page de [Gestion des Utilisateurs](/fr/server/web-interface/administra
 Groupes d'utilisateurs 
 		</td>
 		<td>
-Ouvrir la page de [Gestion des Groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) sur l'interface Web de {{ fr.DPS }} . 
+Ouvrir la page de [Gestion des Groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) sur l'interface Web de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -372,7 +372,7 @@ Ouvrir la page de [Gestion des Groupes d'utilisateurs](/fr/server/web-interface/
 Coffres 
 		</td>
 		<td>
-Ouvrir la page de [Gestion des Coffres](/fr/server/web-interface/administration/security-management/vaults/) sur l'interface Web de {{ fr.DPS }} . 
+Ouvrir la page de [Gestion des Coffres](/fr/server/web-interface/administration/security-management/vaults/) sur l'interface Web de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -380,7 +380,7 @@ Ouvrir la page de [Gestion des Coffres](/fr/server/web-interface/administration/
 Paramètres du système 
 		</td>
 		<td>
-Ouvrir la page des [Paramètres du système](/fr/server/web-interface/administration/configuration/system-settings/) sur l'interface Web de {{ fr.DPS }} . 
+Ouvrir la page des [Paramètres du système](/fr/server/web-interface/administration/configuration/system-settings/) sur l'interface Web de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -388,7 +388,7 @@ Ouvrir la page des [Paramètres du système](/fr/server/web-interface/administra
 Permissions du système 
 		</td>
 		<td>
-Ouvrir la page des [Permissions du système](/fr/server/web-interface/administration/configuration/system-permissions/) sur l'interface Web de {{ fr.DPS }} . 
+Ouvrir la page des [Permissions du système](/fr/server/web-interface/administration/configuration/system-permissions/) sur l'interface Web de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -396,7 +396,7 @@ Ouvrir la page des [Permissions du système](/fr/server/web-interface/administra
 Gestionnaire de copies de sauvegarde 
 		</td>
 		<td>
-Ouvrir la page du [Gestionnaire de sauvegardes](/fr/server/web-interface/administration/backup/backup-manager/) sur l'interface Web de {{ fr.DPS }} . 
+Ouvrir la page du [Gestionnaire de sauvegardes](/fr/server/web-interface/administration/backup/backup-manager/) sur l'interface Web de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 </table>
@@ -419,7 +419,7 @@ Description
 Journaux de l'application 
 		</td>
 		<td>
-Ouvrir la boîte de dialogue des Journaux de l'application de la console {{ fr.DPS }} . 
+Ouvrir la boîte de dialogue des Journaux de l'application de la console {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -451,7 +451,7 @@ Exécuter le Diagnostic d'IIS.
 Vérifier les mises à jour 
 		</td>
 		<td>
-Vérifier les mises à jour disponibles pour la console {{ fr.DPS }} . 
+Vérifier les mises à jour disponibles pour la console {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>

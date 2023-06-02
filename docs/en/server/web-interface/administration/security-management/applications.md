@@ -1,7 +1,7 @@
 ---
 title: Applications
 ---
-The ***Applications*** section will allow to create an application key to communicate with {{ en.DPS }} through the [{{ en.PS }} module](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). 
+The ***Applications*** section will allow to create an application key to communicate with {{ en.DVLS }} through the [{{ en.PS }} module](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). 
 
 ![Administration – Applications](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8031.png)  
 

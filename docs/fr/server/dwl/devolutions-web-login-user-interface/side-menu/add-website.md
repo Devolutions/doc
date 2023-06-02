@@ -1,9 +1,9 @@
 ---
 title: Ajouter un site Web
 ---
-Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant*** , qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les coffres de l'onglet ***Toutes les entrées*** . Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DPS }} via {{ fr.DWL }} .  
+Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant*** , qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les coffres de l'onglet ***Toutes les entrées*** . Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DVLS }} via {{ fr.DWL }} .  
 
-Lorsque {{ fr.DPS }} est utilisé comme source de données, la configuration de l'entrée se fait dans l'onglet ***Général*** .  
+Lorsque {{ fr.DVLS }} est utilisé comme source de données, la configuration de l'entrée se fait dans l'onglet ***Général*** .  
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2021.png) 
 
 Consultez le tableau ci-dessous pour en savoir plus sur chaque champ/paramètre de cette vue.  
@@ -142,7 +142,7 @@ Saisir une description pour la nouvelle entrée.
 Coffre 
 		</td>
 		<td>
-Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.PVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.DPS }} . 
+Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.PVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -150,7 +150,7 @@ Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.PVLT }
 Dossier de destination 
 		</td>
 		<td>
-Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.DPS }} . 
+Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>

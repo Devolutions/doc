@@ -6,7 +6,7 @@ keywords:
 - SqlException
 - Foreign key
 ---
-As an administrator of the {{ en.DPS }} instance, you receive this error message.
+As an administrator of the {{ en.DVLS }} instance, you receive this error message.
 
 **Error:**
 

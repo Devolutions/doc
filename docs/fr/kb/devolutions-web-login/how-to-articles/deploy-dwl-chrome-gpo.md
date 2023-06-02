@@ -115,15 +115,15 @@ Valeurs possibles :
 * ***AlwaysOverride*** : Toujours remplacer la valeur des paramètres GPO lorsque l'extension est lancée. 
 * ***AlwaysUseDefaultAndOverride*** : Utiliser les paramètres par défaut pour tous les paramètres qui ne sont pas dans la GPO et remplacer les valeurs du GPO lorsque l'extension est lancée. 
 ### Exemple 
-* Activer {{ fr.DPS }} . 
-* Définir ***https<area>://localhost/mydpsurl*** comme URL de {{ fr.DPS }} . 
+* Activer {{ fr.DVLS }} . 
+* Définir ***https<area>://localhost/mydvlsurl*** comme URL de {{ fr.DVLS }} . 
 * Désactiver la page des paramètres. 
 * Toujours remplacer les paramètres de la section ***settings*** au démarrage de l'extension. 
 ```
 {  
         "settings": {  
              "dvlsActivated": true,  
-             "dvlsUrl": "https://localhost/mydpsurl"  
+             "dvlsUrl": "https://localhost/mydvlsurl"  
         },  
         "adminSettings": {  
              "disableSettingsPage": true,  

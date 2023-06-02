@@ -6,7 +6,7 @@ description: You can consult topics for the following categories about Devolutio
 
 ![!!Devolutions Server logo]({{ locale[lang].projects.server.logo }})
 
-You can consult topics for the following categories about {{ en.DPS }}:
+You can consult topics for the following categories about {{ en.DVLS }}:
 
 - How-To Articles
 - Troubleshooting Articles

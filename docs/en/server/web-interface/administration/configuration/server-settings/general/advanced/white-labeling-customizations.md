@@ -1,7 +1,7 @@
 ---
 title: White Labeling Customizations
 ---
-You can customize the {{ en.DPS }} web interface logo's to better serve your own customers.  
+You can customize the {{ en.DVLS }} web interface logo's to better serve your own customers.  
 
 Brandring is possible in ***Administration – Server Settings – Advanced*** .  
 
@@ -39,7 +39,7 @@ This is for the image in the toolbar with a max width of 145px and height of 40p
 Here is an example of this feature with loaded images in the ***Administration*** settings.  
 
 ![!!ServerOp4012.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4012.png) 
-The result for the {{ en.DPS }} login page: 
+The result for the {{ en.DVLS }} login page: 
 ![!!ServerOp4013.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4013.png) 
 And for the toolbar logo: 
 ![!!ServerOp4014.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4014.png) 

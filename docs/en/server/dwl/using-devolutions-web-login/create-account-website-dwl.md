@@ -9,7 +9,7 @@ eleventyComputed:
 If you already have an account for the website, learn how to [Add a Website Entry with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) instead. 
 {% endsnippet %}
  
-Follow the steps below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.DPS }} .  
+Follow the steps below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.DVLS }} .  
 
 1. On the website for which you want to create your account, go to the registration/account creation page. This page will be different for each website; this topic will use the Atlassian website as an example 
 ![Registration Page](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2000.png)
@@ -40,5 +40,5 @@ Your password settings are now configured.
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
 1. Click ***Save*** .  
 
-Your credentials are now securely stored in a new website entry in {{ en.DPS }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) . 
+Your credentials are now securely stored in a new website entry in {{ en.DVLS }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) . 
 

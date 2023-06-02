@@ -5,7 +5,7 @@ The following instructions provide the method to generate a SQL script to grant 
 
 To get to this dialog:
 
-1. From the {{ en.DVLSCONSOLE }}, edit the {{ en.DPS }} instance.
+1. From the {{ en.DVLSCONSOLE }}, edit the {{ en.DVLS }} instance.
 2. Go in the **Database** tab.
 3. Click on the **Advanced Credentials** button.
 4. Click on the arrow beside of one of the ***Apply Least Permissions*** buttons.

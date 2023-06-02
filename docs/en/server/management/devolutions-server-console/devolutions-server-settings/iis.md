@@ -30,7 +30,7 @@ Name of the IIS website.
 IIS Diagnostic 
 		</td>
 		<td>
-Opens the IIS Diagnostic dialog that list {{ en.DPS }} prerequisites. 
+Opens the IIS Diagnostic dialog that list {{ en.DVLS }} prerequisites. 
 		</td>
 	</tr>
 	<tr>
@@ -46,7 +46,7 @@ Name of the IIS Application Pool.
 Access URI 
 		</td>
 		<td>
-Web URI used to reach {{ en.DPS }} web page. 
+Web URI used to reach {{ en.DVLS }} web page. 
 		</td>
 	</tr>
 </table>
@@ -66,7 +66,7 @@ Description
 Installation Folder 
 		</td>
 		<td>
-Folder where the {{ en.DPS }} web application files are located. 
+Folder where the {{ en.DVLS }} web application files are located. 
 		</td>
 	</tr>
 </table>

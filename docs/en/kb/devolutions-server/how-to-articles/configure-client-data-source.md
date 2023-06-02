@@ -7,7 +7,7 @@ title: Configure Client Data Source
 1. Add a ***New Data Source*** .  
 ![!!KB4366.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4366.png)
 
-1. Select the ***{{ en.DPS }}*** data source.  
+1. Select the ***{{ en.DVLS }}*** data source.  
 ![!!KB4367.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4367.png)
 
 1. Specify the settings.  

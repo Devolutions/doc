@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Tableau de bord de sécurité {{ fr.DPS }}
+  title: Tableau de bord de sécurité {{ fr.DVLS }}
 ---
-Le ***Tableau de bord de sécurité*** est un outil qui offre des conseils sur la manière d'améliorer la sécurité de la plateforme {{ fr.DPS }} ainsi que des astuces pour réduire la charge de travail des administrateurs. Certains conseils sont des bonnes pratiques communes en matière d'infosécurité, d'autres sont le fruit d'un consensus entre nos équipes propriétaires.  
+Le ***Tableau de bord de sécurité*** est un outil qui offre des conseils sur la manière d'améliorer la sécurité de la plateforme {{ fr.DVLS }} ainsi que des astuces pour réduire la charge de travail des administrateurs. Certains conseils sont des bonnes pratiques communes en matière d'infosécurité, d'autres sont le fruit d'un consensus entre nos équipes propriétaires.  
 
 Les scores sont évidemment sujets à caution et nous ne prétendons pas que chaque sujet a la même valeur relative pour tous les membres de notre communauté. Atteindre 100% n'est sûrement pas un objectif en soi, nous cherchons simplement à sensibiliser et à fournir des idées pour votre propre renforcement de la sécurité.  
 ![!!KB4064.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4064.png)

@@ -6,7 +6,7 @@ description: Vous pouvez accéder aux catégories suivantes concernant Devolutio
 ![!!Devolutions Server logo](https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg)
 
 
-Vous pouvez accéder aux catégories suivantes concernant {{ fr.DPS }} :  
+Vous pouvez accéder aux catégories suivantes concernant {{ fr.DVLS }} :  
 
 * Guides d'utilisation
 * Articles de dépannage

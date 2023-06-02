@@ -2,7 +2,7 @@
 title: Interface utilisateur de Devolutions Web Login
 order: 40
 ---
-L'interface utilisateur de {{ fr.DWL }} varie légèrement dans votre navigateur selon le produit Devolutions utilisé conjointement avec l'extension. Cette rubrique présentera l'interface utilisateur de {{ fr.DWL }} lors de son utilisation avec {{ fr.DPS }} .  
+L'interface utilisateur de {{ fr.DWL }} varie légèrement dans votre navigateur selon le produit Devolutions utilisé conjointement avec l'extension. Cette rubrique présentera l'interface utilisateur de {{ fr.DWL }} lors de son utilisation avec {{ fr.DVLS }} .  
 
 La vue principale, qui est celle qui s'affiche lors de la première ouverture de {{ fr.DWL }} dans votre navigateur, peut être divisée en trois sections principales :  
 
@@ -22,9 +22,9 @@ Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez pa
 À côté du bouton Paramètres se trouve le bouton de votre Compte . Cette section comporte quelques liens et informations utiles, à savoir :  
 
 * un bouton pour Se déconnecter de votre {{ fr.DA }} ; 
-* un lien vers votre {{ fr.DPS }} ; 
-* un lien vers notre [forum de {{ fr.DPS }}](https://forum.devolutions.net/product/server) ; 
-* un lien vers notre [Aide en ligne de {{ fr.DPS }}](/fr/server/overview/what-is-server/) ; 
+* un lien vers votre {{ fr.DVLS }} ; 
+* un lien vers notre [forum de {{ fr.DVLS }}](https://forum.devolutions.net/product/server) ; 
+* un lien vers notre [Aide en ligne de {{ fr.DVLS }}](/fr/server/overview/what-is-server/) ; 
 * la version actuelle de {{ fr.DWL }} .  
 ![Bouton Compte](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2009.png) 
 
@@ -33,10 +33,10 @@ Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez pa
 En utilisant les onglets du ***Menu latéral*** , vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }} .  
 ![Onglets du menu latéral](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2008.png) 
 
-Chaque onglet affiche une vue différente dans la Zone de contenu . Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.DPS }} sont :  
+Chaque onglet affiche une vue différente dans la Zone de contenu . Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.DVLS }} sont :  
 
 * l'onglet ***Correspondant*** , où vous pouvez trouver les identifiants disponibles pour un site Web spécifique; 
-* l'onglet ***Toutes les entrées*** , où vous pouvez trouver toutes les entrées {{ fr.DPS }} que vous avez synchronisées, réparties dans vos différents coffres et dossiers; 
+* l'onglet ***Toutes les entrées*** , où vous pouvez trouver toutes les entrées {{ fr.DVLS }} que vous avez synchronisées, réparties dans vos différents coffres et dossiers; 
 * l'onglet ***Favoris*** , où vous pouvez trouver une liste de vos entrées favorites; 
 * l'onglet ***Récent*** , où vous pouvez trouver une liste des entrées que vous avez récemment utilisées; 
 * le ***Générateur de mots de passe*** , où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte.  

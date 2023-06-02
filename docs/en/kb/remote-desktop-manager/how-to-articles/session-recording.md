@@ -45,7 +45,7 @@ Session recording is only available in embedded mode.
 * ***Root (Default)***: Refers to vault. Default on vault means ***Never***. 
 4. Choose the ***Recording*** method. 
 {% snippet icon.badgeNotice %} 
-Some options are only available with a {{ en.DPS }} data source. 
+Some options are only available with a {{ en.DVLS }} data source. 
 {% endsnippet %}
  
 * ***Inherited***: Setting is inherited from parent folder. 

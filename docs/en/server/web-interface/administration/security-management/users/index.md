@@ -97,7 +97,7 @@ See user activity report.
 ![!!ViewPasswordSmall.png](https://webdevolutions.azureedge.net/docs/en/server/Icons/ViewPasswordSmall.png) 
 		</td>
 		<td>
-Change password for {{ en.DPS }} user accounts only. 
+Change password for {{ en.DVLS }} user accounts only. 
 		</td>
 	</tr>
 	<tr>

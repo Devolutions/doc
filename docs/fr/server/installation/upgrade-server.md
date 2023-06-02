@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Mise à niveau de {{ fr.DPS }}
+  title: Mise à niveau de {{ fr.DVLS }}
   order: 50
 ---
 {% snippet icon.badgeInfo %} 

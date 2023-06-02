@@ -1,7 +1,7 @@
 ---
 title: SecurityTokenInvalidIssuerException - IDX10205
 ---
-When trying to connect on {{ en.DPS }} from {{ en.RDM }} or through the web Ui, you can get the following error in the {{ en.DPS }} logs.
+When trying to connect on {{ en.DVLS }} from {{ en.RDM }} or through the web Ui, you can get the following error in the {{ en.DVLS }} logs.
 
 ```
 SecurityTokenInvalidIssuerException - IDX10205: Issuer validation failed. Issuer: 'System.String'. Did not match: validationParameters.ValidIssuer: 'System.String' or validationParameters.ValidIssuers: 'System.String'.

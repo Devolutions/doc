@@ -1,7 +1,7 @@
 ---
 title: HTTP Error 500.19 - Internal Server Error
 ---
-When trying to load the {{ en.DPS }} web page, the following HTTP 500.19 - Internal Server Error is displayed in the browser.  
+When trying to load the {{ en.DVLS }} web page, the following HTTP 500.19 - Internal Server Error is displayed in the browser.  
 ![http 500.19 - Internal Server Error.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8102.png)  
 
 The cause of this error is because the IIS Rewrite Module and/or the IIS ASP.NET Core Module (ANCM) are missing.

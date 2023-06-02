@@ -55,7 +55,7 @@ Select the type of the license that the user has:
 
 * ***Default*** : Connection Management. 
 * ***Connection Management*** : for users who open remote connections. 
-* ***Password Management*** : for users who only use {{ en.DPS }} as a password manager. 
+* ***Password Management*** : for users who only use {{ en.DVLS }} as a password manager. 
 		</td>
 	</tr>
 	<tr>

@@ -19,7 +19,7 @@ The ***Login History*** displays the information of each user that has been conn
 ![!!ServerOp4058.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4058.png) 
 ### Last Login 
 
-This report displays the last login information to the {{ en.DPS }} for each user.  
+This report displays the last login information to the {{ en.DVLS }} for each user.  
 
 ![!!ServerOp4059.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4059.png) 
 

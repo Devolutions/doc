@@ -20,7 +20,7 @@ Description
 Groupes d'utilisateurs 
 		</td>
 		<td>
-Cocher la case à la droite du groupes d'utilisateur pour attribuer à l'utilisateur. Disponible pour les groupes d'utilisateurs {{ fr.DPS }} seulement. Consulter la rubrique Gestion des groupes d'utilisateurs pour plus d'informations. 
+Cocher la case à la droite du groupes d'utilisateur pour attribuer à l'utilisateur. Disponible pour les groupes d'utilisateurs {{ fr.DVLS }} seulement. Consulter la rubrique Gestion des groupes d'utilisateurs pour plus d'informations. 
 		</td>
 	</tr>
 </table>

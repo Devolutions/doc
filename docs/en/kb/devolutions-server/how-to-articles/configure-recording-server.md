@@ -1,7 +1,7 @@
 ---
 title: Configure Recording Server
 ---
-The following steps will describe the options to install the Recording Server for {{ en.DPS }} It is possible to install the Recording Server on a stand alone machine.
+The following steps will describe the options to install the Recording Server for {{ en.DVLS }} It is possible to install the Recording Server on a stand alone machine.
 
 {% snippet icon.badgeInfo %}
 The {{ en.DVLSCONSOLE }} is required to install the Recording Server.
@@ -13,7 +13,7 @@ The {{ en.DVLSCONSOLE }} is required to install the Recording Server.
 1. Agree to the terms of the ***License Agreement*** and click ***Next***  
 ![!!KB8015.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8015.png)
 
-1. Select the ***Source*** of the package according to the installed {{ en.DPS }} version and click ***Next***  
+1. Select the ***Source*** of the package according to the installed {{ en.DVLS }} version and click ***Next***  
 ![!!KB8016.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8016.png)
 
 1. Set the settings for the machine where the Recording Server will be installed and click ***Next***  
@@ -37,20 +37,20 @@ The {{ en.DVLSCONSOLE }} is required to install the Recording Server.
 5. Set the ***Service Account*** that will run the Recording Service and click ***Next***  
 ![!!KB8018.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8018.png)
 
-6. Set the ***Server URL*** and ***Administration Credentials*** account that will create the ***Application Key*** to allow the Recording Server to communicate with the {{ en.DPS }} instance, then click ***Next***  
+6. Set the ***Server URL*** and ***Administration Credentials*** account that will create the ***Application Key*** to allow the Recording Server to communicate with the {{ en.DVLS }} instance, then click ***Next***  
 ![!!KB8019.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8019.png)
    | Devolutions Server Credentials | Description |
    | ------------------------------ | ----------- |
-   | Server URL                     | URL of the {{ en.DPS }} instance. |
+   | Server URL                     | URL of the {{ en.DVLS }} instance. |
 
    | Administration Credentials | Description |
    | -------------------------- | ----------- |
-   | Username                   | Username of an administrator account in {{ en.DPS }} |
+   | Username                   | Username of an administrator account in {{ en.DVLS }} |
    | Password                   | Password of the administrator account. |
 
    | Application Credentials                                       | Description |
    | ------------------------------------------------------------- | ----------- |
-   | Use existing Application Credentials                          | Enable the usage of an existing ***Application Credentials*** in {{ en.DPS }} |
+   | Use existing Application Credentials                          | Enable the usage of an existing ***Application Credentials*** in {{ en.DVLS }} |
    | Application key                                               | Key of the ***Application Credentials*** |
    | Application secret                                            | Secret key of the ***Application Credentials*** |
    | Devolutions Server uses a different path to access recordings | Enable this option to be able to download the recording files using a different access path. |

@@ -6,7 +6,7 @@ The default value set in ***Regular Time Interval*** parameters of the advanced 
 1. Open IIS Manager.
 2. Expand the tree and select the ***Application Pools*** node.  
 ![!!KB4135.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4135.png)
-1. Select the {{ en.DPS }} application pool and open the ***Advanced Settings*** menu from the Actions pane on the right.  
+1. Select the {{ en.DVLS }} application pool and open the ***Advanced Settings*** menu from the Actions pane on the right.  
 ![!!KB4136.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4136.png)
 1. Scroll the list at the bottom and set the ***Regular Time Interval*** to the value 0.  
 ![!!KB4137.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4137.png)

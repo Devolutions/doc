@@ -61,7 +61,7 @@ We recommend doing a backup of the Encryption Keys before any operation that cou
 1. Select the ***Upgrade Source*** . You can either use the latest General Availability release that is available online automatically or specify the path to a zip file that you have downloaded yourself. Use this for beta releases or for earlier versions. 
 ![Devolutions Server Upgrade Wizard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8066.png)  
 1. Press ***Next*** . 
-1. BREAKING CHANGE: If you upgrade from version 2021.2.14 or older to version 2022.1 or higher, you will have to provide the [Access URI](/kb/devolutions-server/knowledge-base/access-uri/) to reach the {{ en.DPS }} web page. 
+1. BREAKING CHANGE: If you upgrade from version 2021.2.14 or older to version 2022.1 or higher, you will have to provide the [Access URI](/kb/devolutions-server/knowledge-base/access-uri/) to reach the {{ en.DVLS }} web page. 
 ![!!ServerOp8099.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8099.png) 
 1. Review the summary and press ***Upgrade*** if you are satisfied.  
 ![Upgrade completed](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8067.png) 

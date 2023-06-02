@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configure {{ en.DPS }} to use Integrated Security
+  title: Configure {{ en.DVLS }} to use Integrated Security
 ---
 In order for integrated security to be used to connect to the database, you must set the ***Application pool*** to use a domain account to run under.
 
@@ -11,7 +11,7 @@ To make these isteps simpler, we will name the domain account VaultRunner , plea
 1. Create the VaultRunner account in the domain;
 1. Grant access to the SQL Server instance to VaultRunner;
 1. Grant access to the database to VaultRunner;
-1. In IIS Manager, expand the ***Application pool*** section and locate the application pool used by your {{ en.DPS }} site. By default it has the same name as the name of the web application;
+1. In IIS Manager, expand the ***Application pool*** section and locate the application pool used by your {{ en.DVLS }} site. By default it has the same name as the name of the web application;
 1. In the ***Advanced Settings*** , edit the ***Identity*** setting to get the VaultRunner account.  
 ![!!KB4340.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4340.png)  
 

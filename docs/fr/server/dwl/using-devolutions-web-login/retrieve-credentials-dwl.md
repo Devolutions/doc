@@ -3,12 +3,12 @@ eleventyComputed:
   title: Récupérer des identifiants avec {{ fr.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-Vous avez besoin d'entrées de site Web dans {{ fr.DPS }} pour pouvoir récupérer leurs identifiants. Si ce n'est pas le cas, commencez par [Ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
+Vous avez besoin d'entrées de site Web dans {{ fr.DVLS }} pour pouvoir récupérer leurs identifiants. Si ce n'est pas le cas, commencez par [Ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
 {% endsnippet %}
  
-{{ fr.DWL }} facilite l'accès à vos identifiants en faisant automatiquement correspondre les sites Web aux identifiants enregistrés dans les entrée de sites Web de {{ fr.DPS }} . Il est également possible de filtrer vos entrées via {{ fr.DWL }} pour trouver manuellement vos identifiants.  
+{{ fr.DWL }} facilite l'accès à vos identifiants en faisant automatiquement correspondre les sites Web aux identifiants enregistrés dans les entrée de sites Web de {{ fr.DVLS }} . Il est également possible de filtrer vos entrées via {{ fr.DWL }} pour trouver manuellement vos identifiants.  
 
-Après l' [installation](/fr/server/dwl/installation/) de {{ fr.DWL }} et son [couplage](/fr/server/dwl/first-login-dwl/) avec {{ fr.DPS }} , vous pouvez immédiatement utiliser l'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d'abord les étapes de la section Paramètres : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la Récupération des identifiants .  
+Après l' [installation](/fr/server/dwl/installation/) de {{ fr.DWL }} et son [couplage](/fr/server/dwl/first-login-dwl/) avec {{ fr.DVLS }} , vous pouvez immédiatement utiliser l'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d'abord les étapes de la section Paramètres : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la Récupération des identifiants .  
 
 ## Paramètres 
 
@@ -24,7 +24,7 @@ Avec cette option activée, un icône {{ fr.DWL }} sera affiché dans chaque cha
 ![Général – Afficher l'icône dans les champs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2036.png)  
 
 4. Cliquer sur ***Enregistrer*** . 
-1. Cliquer sur ***{{ fr.DPS }}*** dans la section des ***Sources de données*** .  
+1. Cliquer sur ***{{ fr.DVLS }}*** dans la section des ***Sources de données*** .  
 ![Paramètres – Sources de données – {{ fr.DVLS }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2037.png)  
 1. Dans l'onglet ***Actions*** , activer les options ***Retrouver les identifiants automatiquement lors du chargement de la page*** et ***Remplir automatiquement les champs d'identifiants lors du chargement*** en cochant leurs cases respectives. Ci-dessous se trouve un description de chaque option :  
 
@@ -46,7 +46,7 @@ Vous pouvez maintenant continuer à la prochaine section pour apprendre comment 
 Cette section est basée sur les étapes de configuration de {{ fr.DWL }} qui se trouvent dans la section précédente . Nous vous recommandons fortement de les suivre avant de poursuivre, puisque certaines fonctionnalités pourraient différer entre votre expérience et ce qui est indiqué ci-dessous. 
 {% endsnippet %}
  
-Vos identifiants peuvent être récupérés de {{ fr.DPS }} automatiquement ou manuellement à partir de {{ fr.DWL }} . Suivez les étapes de la section qui correspond le mieux à vos besoins : 
+Vos identifiants peuvent être récupérés de {{ fr.DVLS }} automatiquement ou manuellement à partir de {{ fr.DWL }} . Suivez les étapes de la section qui correspond le mieux à vos besoins : 
 
 ### Récupérer les identifiants automatiquement 
 

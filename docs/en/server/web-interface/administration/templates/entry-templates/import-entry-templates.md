@@ -1,7 +1,7 @@
 ---
 title: Import Entry Templates
 ---
-Import previously exported ***Entry Templates*** in the web interface of {{ en.DPS }} .  
+Import previously exported ***Entry Templates*** in the web interface of {{ en.DVLS }} .  
 
 {% snippet icon.badgeCaution %} 
 The import format can only be ***Import (.Rdm)*** , ***KeePass (.Xml)*** or ***Google Password (.Csv)*** files. 
@@ -9,7 +9,7 @@ The import format can only be ***Import (.Rdm)*** , ***KeePass (.Xml)*** or ***G
  
 ### Import entry templates 
 
-1. In the web interface of {{ en.DPS }} , select a vault. 
+1. In the web interface of {{ en.DVLS }} , select a vault. 
 1. Click the ***Add*** button. 
 ![!!ServerOp4079.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4079.png) 
 1. In the ***Add New Entry*** window, click ***Import*** and select ***Import (.Rdm)*** . 

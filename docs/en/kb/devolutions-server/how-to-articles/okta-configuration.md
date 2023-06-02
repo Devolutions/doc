@@ -1,7 +1,7 @@
 ---
 title: Okta Configuration
 ---
-The following steps will describe how to configure Okta as an authenticator for {{ en.DPS }}
+The following steps will describe how to configure Okta as an authenticator for {{ en.DVLS }}
 
 ## Prerequisite
 
@@ -11,7 +11,7 @@ The following steps will describe how to configure Okta as an authenticator for 
 
 ## Terms
 
-In this topic we will assume that your instance of {{ en.DPS }} is configured in HTTPS, that the web application is {{ en.DPS }} and that it is therefore served under the URL https<area>://www.contoso.com/dvls.
+In this topic we will assume that your instance of {{ en.DVLS }} is configured in HTTPS, that the web application is {{ en.DVLS }} and that it is therefore served under the URL https<area>://www.contoso.com/dvls.
 
 ## Configuration of an application in okta
 
@@ -32,7 +32,7 @@ In this topic we will assume that your instance of {{ en.DPS }} is configured in
 
     c. Add the URI in the ***Sign-in redirect URIs*** section. In our example we added https<area>://www.contoso.com/dvls/api/external-provider-response  
 
-    d. You could leave the ***Sign-out redirect URIs*** and the ***Trusted Origins*** sections empty. The {{ en.DPS }} does not log your user out of the application scope and the Okta login form is not hosted on {{ en.DPS }} therefore they are not necessary.  
+    d. You could leave the ***Sign-out redirect URIs*** and the ***Trusted Origins*** sections empty. The {{ en.DVLS }} does not log your user out of the application scope and the Okta login form is not hosted on {{ en.DVLS }} therefore they are not necessary.  
 
     e. In the ***Assignments*** section, we recommend that you select ***Allow everyone in your organization to access*** and then check ***Enable immediate access with Federation Broker Mode*** This will save you from having to assign each user to the application manually.  
     
@@ -60,9 +60,9 @@ The token inherits the rights of the user who creates it. This is important beca
 
 ## Configuration of the authentication and the synchronization of users and groups in okta
 
-Once the application and Api token are created, you can configure the {{ en.DPS }} web interface.
+Once the application and Api token are created, you can configure the {{ en.DVLS }} web interface.
 
-1. Log into the {{ en.DPS }} instance with an administrator account.
+1. Log into the {{ en.DVLS }} instance with an administrator account.
 1. Go to the ***Administration - Server Settings - Authentication***
 1. Check ***Authentication with Okta user***
 1. In the ***Configuration*** section, click ***Okta Authentication***  
@@ -74,10 +74,10 @@ To find your ***Domain*** go to your Okta account. In the top right corner of th
 {% endsnippet %}
 
 ![!!KB4141.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4141.png)
-1. In the same section of {{ en.DPS }}, fill the ***Client ID*** field with the ***Client ID*** of your application.  
+1. In the same section of {{ en.DVLS }}, fill the ***Client ID*** field with the ***Client ID*** of your application.  
 ![!!KB4129.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4129.png)
 1. In the ***Synchronize Users and Groups*** section fill in the ***Api token*** saved earlier.
-1. Finally, if you wish, you can activate the ***Automatic User Creation*** This will prevent the administrator from having to import the ***Users*** manually to {{ en.DPS }} before they can connect with Okta. You can also select a ***User group*** In this case only the ***Users*** of this group will be able to benefit from the automatic creation.
+1. Finally, if you wish, you can activate the ***Automatic User Creation*** This will prevent the administrator from having to import the ***Users*** manually to {{ en.DVLS }} before they can connect with Okta. You can also select a ***User group*** In this case only the ***Users*** of this group will be able to benefit from the automatic creation.
 1. Click the ***Save*** button.  
 ![!!KB4142.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4142.png)
 You will now be able to observe that the button allowing you to connect to Okta is now present in the login page.
