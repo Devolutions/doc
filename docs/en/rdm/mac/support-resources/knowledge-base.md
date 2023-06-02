@@ -5,9 +5,9 @@ title: Knowledge Base
 
 The Devolutions User Experience team is proud to publish this [Knowledge Base](/kb/remote-desktop-manager/) for our community of over 800k users!  
 
-It is divided by our different products, as well as a few subcategories.  
+It is structured around our various products, as well as a few sub-categories. 
 
-### Products 
+## Products 
 
 [{{ en.RDM }}](/kb/remote-desktop-manager/)  
 

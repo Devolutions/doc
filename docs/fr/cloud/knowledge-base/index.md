@@ -6,11 +6,11 @@ order: 120
 
 L’équipe de l'expérience utilisateur de Devolutions est fière de présenter cette [Base de connaissances](/fr/kb/) à notre communauté de plus de 800 000 utilisateurs!  
 
-Elle est structurée selon nos produits ainsi qu’en quelques sous-catégories. 
+Elle est structurée selon nos divers produits, ainsi qu'en quelques sous-catégories. 
 
-### Produits 
+## Produits 
 
 * [{{ fr.RDM }}](/fr/kb/remote-desktop-manager/) 
-* [{{ fr.RDMS }}](/fr/kb/devolutions-server/) 
+* [{{ fr.DVLS }}](/fr/kb/devolutions-server/) 
 * [{{ fr.HUB }}](/fr/kb/hub-business/) 
 * [{{ fr.DWL }}](/fr/kb/devolutions-web-login/) 

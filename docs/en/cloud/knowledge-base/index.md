@@ -7,9 +7,9 @@ order: 120
 
 The Devolutions User Experience team is proud to publish this [Knowledge Base](/kb/) for our community of over 800k users!  
 
-It is divided by our different products, as well as a few subcategories.  
+It is structured around our various products, as well as a few sub-categories. 
 
-### Products 
+## Products 
 
 * [{{ en.RDM }}](/kb/remote-desktop-manager/) 
 * [{{ en.DVLS }}](/kb/devolutions-server/) 

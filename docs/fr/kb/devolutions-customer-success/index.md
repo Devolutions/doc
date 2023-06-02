@@ -7,7 +7,7 @@ keywords:
 ---
 L'équipe de l'expérience utilisateur de Devolutions est fière de présenter cette base de connaissances à notre communauté de plus de 800 000 utilisateurs!  
 
-Elle est structurée selon nos produits, ainsi qu’en quelques sous-catégories.  
+Elle est structurée selon nos divers produits, ainsi qu'en quelques sous-catégories.  
 
 ## Informations générales 
 &nbsp; &nbsp;[Envoi d’un fichier de manière sécurisée à notre équipe](/fr/kb/devolutions-customer-success/securely-send-file/)  
@@ -17,7 +17,7 @@ Elle est structurée selon nos produits, ainsi qu’en quelques sous-catégories
 ## Produits 
 &nbsp; &nbsp;[{{ fr.RDM }}](/fr/kb/remote-desktop-manager/)  
 
-&nbsp; &nbsp;[{{ fr.DPS }}](/fr/kb/devolutions-server/)  
+&nbsp; &nbsp;[{{ fr.DVLS }}](/fr/kb/devolutions-server/)  
 
 &nbsp; &nbsp;[Devolutions {{ fr.HUBB }}](/fr/kb/hub-business/)  
 

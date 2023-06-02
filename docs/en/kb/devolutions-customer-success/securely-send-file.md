@@ -1,5 +1,5 @@
 ---
-title: Securely Send a File to Our Team
+title: Securely send a file to our team
 description: To protect your information, we are using a third-party provider of a secure file exchange service, namely Sharefile.
 keywords:
 - Sharefile

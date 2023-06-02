@@ -5,19 +5,20 @@ description: The Devolutions User Experience team is proud to publish this knowl
 keywords:
 - Knowledge base
 ---
-
 The Devolutions User Experience team is proud to publish this knowledge base for our community of over 800k users!  
 
-It is divided by our different products, as well as a few subcategories. 
-## General Information 
-&nbsp; &nbsp;[Securely Send a File to Our Team](/kb/devolutions-customer-success/securely-send-file/)  
+It is structured around our various products, as well as a few sub-categories. 
 
-&nbsp; &nbsp;[Ticketing System](/kb/devolutions-customer-success/ticketing-system/)  
+## General Information 
+
+&nbsp; &nbsp;[Securely send a file to our team](/kb/devolutions-customer-success/securely-send-file/)  
+
+&nbsp; &nbsp;[Ticketing system](/kb/devolutions-customer-success/ticketing-system/)  
 
 ## Products 
 &nbsp; &nbsp;[{{ en.RDM }}](/kb/remote-desktop-manager/)  
 
-&nbsp; &nbsp;[{{ en.DPS }}](/kb/devolutions-server/)  
+&nbsp; &nbsp;[{{ en.DVLS }}](/kb/devolutions-server/)  
 
 &nbsp; &nbsp;[Devolutions {{ en.HUBB }}](/kb/hub-business/)  
 
