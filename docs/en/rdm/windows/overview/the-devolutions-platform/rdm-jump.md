@@ -11,7 +11,7 @@ keywords:
 This can be compared to RD Gateway from Microsoft and to some extent SSH port forwarding.  
 
 {% snippet icon.badgeNotice %} 
-The Jump is performed through {{ en.AGENT }} . The Agent needs to be CURRENTLY EXECUTING in a Windows Session on the remote host, or set to automatically start upon login. We have decided NOT to have this available through a service at this time. 
+The Jump is performed through {{ en.RDMA }} . The Agent needs to be CURRENTLY EXECUTING in a Windows Session on the remote host, or set to automatically start upon login. We have decided NOT to have this available through a service at this time. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

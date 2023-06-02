@@ -3,7 +3,7 @@ title: Team Edition
 keywords:
 - Roles
 ---
-After the purchase of the ***{{ en.TITLESBE }}*** , an email is sent with the license serial. This key allows you to create a new instance of {{ en.DVLS }} .  
+After the purchase of the {{ en.DVLS }} Team Edition, an email is sent with the license serial. This key allows you to create a new instance of {{ en.DVLS }} .  
 
 The installation procedure is available at [{{ en.DVLS }} Installation](/server/installation/) 
 {% snippet icon.badgeCaution %} 

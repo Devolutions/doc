@@ -3,10 +3,10 @@ title: Introduction
 order: 10
 ---
 {% snippet icon.badgeInfo %} 
-Cette section couvre {{ fr.TITLECORP }} . Si vous avez acheté une licence de {{ fr.TITLESBE }} , veuillez consulter la section [Introduction à l'édition Team](/fr/server/getting-started/team-edition/) . 
+Cette section couvre {{ fr.DVLS }} édition Entreprise. Si vous avez acheté une licence de {{ fr.DVLS }} édition Team, veuillez consulter la section [Introduction à l'édition Team](/fr/server/getting-started/team-edition/). 
 {% endsnippet %}
  
-Après avoir complété l'achat de {{ fr.TITLECORP }} , un courriel contenant trois clés de licence vous sera envoyé. Chaque licence donne le droit de créer une instance de {{ fr.DVLS }} . Dans ce cas-ci, une instance est un serveur applicatif utilisé par nos applications clientes. C'est en sorte de base de données spécialisée pour vos données. Toutes les instances peuvent être installées sur le même serveur physique ou réparties sur plusieurs serveurs.  
+Après avoir complété l'achat de {{ fr.DVLS }} édition Entreprise, un courriel contenant trois clés de licence vous sera envoyé. Chaque licence donne le droit de créer une instance de {{ fr.DVLS }} . Dans ce cas-ci, une instance est un serveur applicatif utilisé par nos applications clientes. C'est en sorte de base de données spécialisée pour vos données. Toutes les instances peuvent être installées sur le même serveur physique ou réparties sur plusieurs serveurs.  
 
 {{ fr.DVLS }} peut être installé selon différentes [topologies](/fr/server/overview/topologies/) .  
 

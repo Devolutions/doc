@@ -3,7 +3,7 @@ eleventyComputed:
   title: What is {{ en.RDMA }}?
 ---
 {% snippet icon.badgeCaution %} 
-Please note that if your Windows profile is corrupted, {{ en.AGENT }} and {{ en.RDMJ }} might not work. 
+Please note that if your Windows profile is corrupted, {{ en.RDMA }} and {{ en.RDMJ }} might not work. 
 {% endsnippet %}
  
 The {{ en.RDMA }} can run commands on remote hosts, but what is really useful is that it can send commands to multiple hosts at the same time. Since {{ en.RDM }} uses a secure RDP channel to communicate with the {{ en.RDMA }} , it can only operate against Windows-based hosts.  

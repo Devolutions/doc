@@ -3,10 +3,10 @@ title: Getting Started
 order: 10
 ---
 {% snippet icon.badgeInfo %} 
-This topic is for {{ en.TITLECORP }} . If you have purchased {{ en.TITLESBE }} instead, please consult [Team Edition](/server/getting-started/team-edition/) . 
+This topic is for {{ en.DVLS }} Enterprise Edition. If you have purchased {{ en.DVLS }} Team Edition instead, please consult [Team Edition](/server/getting-started/team-edition/) . 
 {% endsnippet %}
  
-After completing your purchase of {{ en.TITLECORP }} , you will receive an email with three license serials. Each license serial allows for running a {{ en.DVLS }} instance. An instance is in itself a web server application which acts as a back-end for our client applications. You can think of it as a specialized database for your data. All instances can be installed on the same physical server or spread across many.  
+After completing your purchase of {{ en.DVLS }} Enterprise Edition, you will receive an email with three license serials. Each license serial allows for running a {{ en.DVLS }} instance. An instance is in itself a web server application which acts as a back-end for our client applications. You can think of it as a specialized database for your data. All instances can be installed on the same physical server or spread across many.  
 
 {{ en.DVLS }} can be installed through different [topologies](/server/overview/topologies/) .  
 

@@ -3,7 +3,7 @@ title: Devolutions Server - édition Team
 keywords:
 - rôle
 ---
-Après l'achat d'une licence de {{ fr.TITLESBE }} , un courriel vous est envoyé contenant la clé de licence. Cette clé vous permet de créer une nouvelle instance de {{ fr.DVLS }} .  
+Après l'achat d'une licence de {{ fr.DVLS }} édition Team, un courriel vous est envoyé contenant la clé de licence. Cette clé vous permet de créer une nouvelle instance de {{ fr.DVLS }} .  
 
 La procédure d'installation est disponible dans la section [Installation de {{ fr.DVLS }}](/fr/server/installation/) .  
 
