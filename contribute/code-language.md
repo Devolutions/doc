@@ -1,6 +1,3 @@
----
-title: Code language
----
 ## How to include code in Markdown
 
 To indicate individual code elements (words) within a line, enclose them with a single backtick.  

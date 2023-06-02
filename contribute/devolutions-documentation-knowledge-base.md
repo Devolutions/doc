@@ -1,12 +1,11 @@
----
-title: Devolutions product documentation and knowledge base
----
+## Devolutions product documentation and knowledge base
+
 Devolutions takes great pride in presenting its [Product Documentation](https://docs.devolutions.net/) and [Knowledge Base](https://docs.devolutions.net/kb/devolutions-customer-success/), designed exclusively for our community of over 800,000 users!  
 
-## General Information 
+### General Information 
 
-* [Securely Send a File to Our Team](https://docs.devolutions.net/kb/devolutions-customer-success/securely-send-file/)  
 * [Ticketing System](https://docs.devolutions.net/kb/devolutions-customer-success/ticketing-system/)  
+* [Securely Send a File to Our Team](https://docs.devolutions.net/kb/devolutions-customer-success/securely-send-file/)  
 
 Our comprehensive documentation is thoughtfully organized, with dedicated sections for each of our distinct products. Additionally, we have included several subcategories to further streamline access to the specific information you need.
 

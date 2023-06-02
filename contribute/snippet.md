@@ -1,7 +1,4 @@
----
-title: Snippet
----
-## How to include snippets in Markdown
+## How to manage snippets in Markdown
 
 To generate a new snippet, use the following shortcode {% snippet %}{% endsnippet %}. Including an icon is entirely optional.  
 
@@ -23,42 +20,10 @@ The list of snippet icons are available in the [_data](https://github.com/Devolu
 
 The initial set of icons represents fundamental information and is characterized by a circular shape.  
 
-{% snippet icon.badgeHelp %}
-Used to refer to other help projects.
-{% endsnippet %}
-
-{% snippet icon.badgeInfo %}
-Contains any type of basic information except safety information.
-{% endsnippet %}
-
-{% snippet icon.badgeNotice %}
-Contains best practices and guidelines to follow.
-{% endsnippet %}
-
-{% snippet icon.badgeCaution %}
-Contains steps that you must follow, not doing so could cause some data loss.
-{% endsnippet %}
-
-{% snippet icon.badgeWarning %}
-Warning, this action is irreversible and cause destruction of data.
-{% endsnippet %}
+![!!Snippet Basic](https://webdevolutions.azureedge.net/docs/common/snippet_basic_contribute.png) 
 
 ### Security information snippet
 
 The second set of icons is dedicated to addressing security-related matters. These icons are designed in the shape of a shield.  
 
-{% snippet icon.shieldInfo %}
-Generic information related to the safety of the data.
-{% endsnippet %}
-
-{% snippet icon.shieldNotice %}
-Contains security best practices and guidelines to follow.
-{% endsnippet %}
-
-{% snippet icon.shieldCaution %}
-Risk of exposing some sensitive information.
-{% endsnippet %}
-
-{% snippet icon.shieldWarning %}
-Warning, risk of exposing all the data.
-{% endsnippet %}
+![!!Snippet Security](https://webdevolutions.azureedge.net/docs/common/snippet_security_contribute.png) 

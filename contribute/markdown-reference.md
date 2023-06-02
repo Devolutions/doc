@@ -1,6 +1,3 @@
----
-title: Markdown reference
----
 ## Markdown reference and style
 
 Markdown is a lightweight markup language with plain text formatting syntax. We have implemented styles to maintain consistency across our projects, controlling aspects such as font, line spacing, justification, and color.  
