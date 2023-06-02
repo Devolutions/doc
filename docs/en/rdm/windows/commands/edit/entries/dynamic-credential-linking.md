@@ -1,9 +1,14 @@
 ---
-title: Dynamic Credential Linking
+title: Dynamic credential linking
+description: Dynamic credential linking creates a single credential entry for a supported credential manager and uses this credential with any entry type that supports the credential repository.
 ---
-Dynamic credential linking creates a single credential entry for a supported credential manager and use this credential with any entry type that supports the Credential repository.  
+Dynamic credential linking creates a single credential entry for a supported credential manager and uses this credential with any entry type that supports the credential repository.
 
 ## Supported credential managers 
+
+{% snippet icon.badgeInfo %} 
+The following credential entries are only supported with {{ en.RDM }} Team.
+{% endsnippet %}
 
 Here is the list of all implemented credential managers that support dynamic credential linking:  
 
@@ -11,7 +16,7 @@ Here is the list of all implemented credential managers that support dynamic cre
 * Bitwarden 
 * Dashlane 
 * {{ en.HUB }} 
-* {{ en.RDMS }} 
+* {{ en.DVLS }} 
 * KeePass 
 * Keeper 
 * LastPass 
@@ -35,7 +40,7 @@ A dynamic credential link can also be applied to a Folder or a VPN entry type if
  
 ## Settings 
 
-1. Create a credential entry and check ***Always prompt with list*** .  
+1. Create a credential entry and check ***Always prompt with list***.
 ![1Password Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11064.png) 
 1. When creating a entry, select ***Credential repository*** from the ***Credentials*** drop-down list, then select the credential entry created in the previous step. Notice that a new action appears just below the credential selection drop down list.  
 ![Select from List](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11065.png) 
@@ -43,4 +48,3 @@ A dynamic credential link can also be applied to a Folder or a VPN entry type if
 ![LastPass Credentials list](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10657.png) 
 1. The link changes to the name of the credential. To remove linked credential and bring back automatic list prompt, simply click on the "X".  
 ![Name of the credential](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11066.png) 
-

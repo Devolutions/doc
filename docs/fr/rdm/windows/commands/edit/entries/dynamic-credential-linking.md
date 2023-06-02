@@ -5,13 +5,17 @@ La connexion dynamique des identifiants crée une entrée d'identifiant unique p
 
 ## Gestionnaires d'identifiants 
 
+{% snippet icon.badgeInfo %} 
+Les entrées d'identifiants suivantes ne sont sont prises en charge qu'avec {{ fr.RDM }} Team.
+{% endsnippet %}
+
 Voici la liste de tous les gestionnaires d'identifiants implémentés qui prennent en charge la connexion dynamique des identifiants :  
 
 * 1Password 
 * Bitwarden 
 * Dashlane 
-* Devolutions Hub 
-* {{ fr.RDMS }} 
+* {{ fr.HUB }}
+* {{ fr.DVLS }} 
 * KeePass 
 * Keeper 
 * LastPass 

@@ -22,10 +22,14 @@ The KeePass application must be running and the database must be opened.
 {% endsnippet %}
  
 3. In RDM create a KeePass entry and validate that the KeePass plug-in is now installed.  
+
+{% snippet icon.badgeInfo %} 
+The KeePass entry is only supported with {{ en.RDM }} Team.
+{% endsnippet %}
+
    ![KeePass plug-in is installed](https://webdevolutions.azureedge.net/docs/en/kb/KB4022.png) 
 
    {{ en.RDM }} will by default select the database; this option can be overridden by manually entering the path. RDM also can support linking to multiple KeePass databases simultaneously. For this add all the paths separated by semicolons. 
 
 4. In the ***Entry*** tab choose your preferred method. It is where you can enter your Universal Unique Identifier (UUID) and the name of the entry in the database, or to always be prompt with a list. 
 ![KeePass Entry tab](https://webdevolutions.azureedge.net/docs/en/kb/KB4023.png) 
-

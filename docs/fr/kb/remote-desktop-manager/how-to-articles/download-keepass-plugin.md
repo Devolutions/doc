@@ -21,7 +21,11 @@ KeePass 1.X n’est pas pris en charge.
 L’application KeePass doit être en cours d’exécution et la base de données ouverte. 
 {% endsnippet %}
  
-3. Créer une entrée KeePass dans RDM. Puis, vérifier que le module d’extension de KeePass est bel et bien installé. 
+3. Créer une entrée KeePass dans RDM. Ensuite, vérifier que le module d’extension de KeePass est bel et bien installé. 
+
+{% snippet icon.badgeInfo %} 
+L'entrée KeePass n'est prise en charge qu'avec {{ fr.RDM }} Team.
+{% endsnippet %}
 
 ![Plug-in KeePass est installé](https://webdevolutions.azureedge.net/docs/fr/kb/KB4017.png) 
 
