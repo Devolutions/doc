@@ -16,6 +16,6 @@ When opening ***Quick Connect*** via the ***View*** tab, a window appears where 
 Clicking on the first button next to the ***Host*** field opens yet another window where you will be able to select a computer to connect to in a list.  
 ![Host Window](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0038.png) 
 
-Clicking on the second button next to the ***Host*** field shows a menu where you can select your session type. It is also possible to create a ***Template*** and establish connection with it. Visit our [Knowledge Base Quick Connect topic](/kb/remote-desktop-manager/knowledge-base/quick-connect/) to learn more about this option. You can also learn how to create a template.  
+Clicking on the second button next to the ***Host*** field shows a menu where you can select your session type. It is also possible to create a ***Template*** and establish connection with it. See [Quick Connect](/kb/remote-desktop-manager/knowledge-base/quick-connect/) to learn more about this option. You can also learn how to create a template.  
 ![Quick Connect Dropdown Menu](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0039.png) 
 
