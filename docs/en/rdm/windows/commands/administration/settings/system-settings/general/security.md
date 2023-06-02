@@ -26,7 +26,7 @@ Automatically secure the {{ en.VLT }} settings when creating a repository. There
 Force data source 2-factor configuration 
 		</td>
 		<td>
-Require the users to have a [2-factor configuration](/rdm/windows/data-sources/multi-factor-authentication/) applied on the data source. Not shown with {{ en.RDMS }} as 2FA set elsewhere. 
+Require the users to have a [2-factor configuration](/rdm/windows/data-sources/multi-factor-authentication/) applied on the data source. Not shown with {{ en.DVLS }} as 2FA set elsewhere. 
 		</td>
 	</tr>
 	<tr>

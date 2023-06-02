@@ -50,5 +50,5 @@ In the ***PAM Vaults*** section of Administration - Privileged Accounts , you ne
 ![Import Users](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6018.png) 
 Once imported, you can click into the v ault and manually check the ***Synchronization Status*** in the top right of the screen. You will know the accounts are well synchronized when the credentials doesn't have an Out of sync red warning next to them.  
 ![PAM Account Sync Check](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6019.png)  
-You are now ready to use the privileged access management portion of {{ en.RDMS }} . 
+You are now ready to use the privileged access management portion of {{ en.DVLS }} . 
 

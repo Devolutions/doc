@@ -1,7 +1,7 @@
 ---
 title: Configuration avancée
 ---
-La configuration avancée permet de sélectionner des paramètres d'archivage individuellement pour chacun des journaux de {{ fr.RDMS }} .  
+La configuration avancée permet de sélectionner des paramètres d'archivage individuellement pour chacun des journaux de {{ fr.DVLS }} .  
 ![Effacer les journaux - Configuration avancée](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8152.png) 
 
 ### Journaux 
@@ -37,7 +37,7 @@ Table contenant toutes les opérations effectuées sur les entrées comme par ex
 LOGIN ATTEMPT 
 		</td>
 		<td>
-Table contenant toutes les tentatives de connexions à {{ fr.RDMS }} ayant échouées. 
+Table contenant toutes les tentatives de connexions à {{ fr.DVLS }} ayant échouées. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Table contenant toutes les tentatives de connexions à {{ fr.RDMS }} ayant écho
 LOGIN HISTORY 
 		</td>
 		<td>
-Table contenant toutes les connexions à {{ fr.RDMS }} . 
+Table contenant toutes les connexions à {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +53,7 @@ Table contenant toutes les connexions à {{ fr.RDMS }} .
 MESSAGE LOGS 
 		</td>
 		<td>
-Tables contenant les journaux de la source de données {{ fr.RDMS }} . 
+Tables contenant les journaux de la source de données {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -61,7 +61,7 @@ Tables contenant les journaux de la source de données {{ fr.RDMS }} .
 PAM LOGS 
 		</td>
 		<td>
-Tables contenant les journaux de la fonctionnalité PAM de {{ fr.RDMS }} . 
+Tables contenant les journaux de la fonctionnalité PAM de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 </table>

@@ -1,19 +1,19 @@
 ---
 title: Console de Devolutions Server
 ---
-Étant donné que {{ fr.RDMS }} est en fait une application Web, l'interface de gestion est fournie par la console de {{ fr.RDMS }} .  
+Étant donné que {{ fr.DVLS }} est en fait une application Web, l'interface de gestion est fournie par la console de {{ fr.DVLS }} .  
 
 ## Usage 
 
 {% snippet icon.badgeInfo %} 
-La Console de {{ fr.RDMS }} est désormais proposée en tant qu'application autonome. Elle est maintenant disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download) . 
+La Console de {{ fr.DVLS }} est désormais proposée en tant qu'application autonome. Elle est maintenant disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download) . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Depuis {{ fr.RDMS }} 2019.x, de nombreuses fonctionnalités peuvent seulement être gérées à partir de l'interface Web. Veuillez consulter [Administration - Paramètres Serveur](/fr/server/web-interface/administration/configuration/server-settings/) . 
+Depuis {{ fr.DVLS }} 2019.x, de nombreuses fonctionnalités peuvent seulement être gérées à partir de l'interface Web. Veuillez consulter [Administration - Paramètres Serveur](/fr/server/web-interface/administration/configuration/server-settings/) . 
 {% endsnippet %}
  
-La Console de {{ fr.RDMS }} gère la métabase IIS, elle doit être démarrée avec des privilèges élevés lorsque la console doit être utilisée. Des privilèges élevés sont accordés lorsque vous utilisez ***exécuter en tant qu'administrateur*** pour lancer l'application. Vous pouvez modifier le raccourci pour toujours démarrer de cette manière.  
+La Console de {{ fr.DVLS }} gère la métabase IIS, elle doit être démarrée avec des privilèges élevés lorsque la console doit être utilisée. Des privilèges élevés sont accordés lorsque vous utilisez ***exécuter en tant qu'administrateur*** pour lancer l'application. Vous pouvez modifier le raccourci pour toujours démarrer de cette manière.  
 
 ## Console 
 

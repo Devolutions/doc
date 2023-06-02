@@ -4,11 +4,11 @@ title: Recherche dans la documentation
 Vous pouvez rechercher des pages de documentation liées aux entrées. La ***Recherche dans la documentation*** fournit un aperçu des pages de documentation, du titre de la page et des détails d'entrée associés. L'outil cherche dans le coffre actuel.  
 
 {% snippet icon.badgeInfo %} 
-La ***Recherche dans la documentation*** est disponible avec les sources de données {{ fr.RDMS }} et SQL. 
+La ***Recherche dans la documentation*** est disponible avec les sources de données {{ fr.DVLS }} et SQL. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-La fonctionnalité ***Documentation*** est chiffrée uniquement pour la source de données {{ fr.RDMS }} . Si vous utilisez des sources de données comme SQL Server ou Azure SQL, cette fonctionnalité n'est pas chiffrée. 
+La fonctionnalité ***Documentation*** est chiffrée uniquement pour la source de données {{ fr.DVLS }} . Si vous utilisez des sources de données comme SQL Server ou Azure SQL, cette fonctionnalité n'est pas chiffrée. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

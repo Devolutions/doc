@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Register {{ en.RDMS }} License
+  title: Register {{ en.DVLS }} License
   order: 10
 ---
 There are two methods to register your {{ en.DVLS }} license, with the [{{ en.DVLS }} console](#devolutions-server-console) or through the [{{ en.DVLS }} web interface](#devolutions-server-web-interface) . 

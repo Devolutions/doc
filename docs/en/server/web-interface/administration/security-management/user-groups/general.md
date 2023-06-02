@@ -20,7 +20,7 @@ Authentication type
 		<td>
 Select the user group's authentication type:  
 
-* {{ en.RDMS }} : create a user group in {{ en.RDMS }} . 
+* {{ en.DVLS }} : create a user group in {{ en.DVLS }} . 
 * Domain : Active Directory group. 
 * Office365/Azure AD : Azure AD group. 
 		</td>

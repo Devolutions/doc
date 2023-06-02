@@ -3,9 +3,9 @@ title: Team Edition
 keywords:
 - Roles
 ---
-After the purchase of the ***{{ en.TITLESBE }}*** , an email is sent with the license serial. This key allows you to create a new instance of {{ en.RDMS }} .  
+After the purchase of the ***{{ en.TITLESBE }}*** , an email is sent with the license serial. This key allows you to create a new instance of {{ en.DVLS }} .  
 
-The installation procedure is available at [{{ en.RDMS }} Installation](/server/installation/) 
+The installation procedure is available at [{{ en.DVLS }} Installation](/server/installation/) 
 {% snippet icon.badgeCaution %} 
 Please check your junk/spam mail folder if you do not see the email in your inbox. 
 {% endsnippet %}
@@ -75,7 +75,7 @@ Information Services (IIS) 7.0 or better (see [Install IIS and ASP.NET Modules](
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create a new instance of {{ en.RDMS }} (see [Create {{ en.RDMS }} Instance](/server/installation/create-server-instance/) ). 
+Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/) ). 
 		</td>
 	</tr>
 	<tr>
@@ -83,7 +83,7 @@ Create a new instance of {{ en.RDMS }} (see [Create {{ en.RDMS }} Instance](/ser
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create a {{ en.RDMS }} administrator account in the [User Management](/server/web-interface/administration/security-management/users/) . 
+Create a {{ en.DVLS }} administrator account in the [User Management](/server/web-interface/administration/security-management/users/) . 
 		</td>
 	</tr>
 	<tr>

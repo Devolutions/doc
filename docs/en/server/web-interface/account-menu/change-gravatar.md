@@ -1,7 +1,7 @@
 ---
 title: Change Gravatar
 ---
-The default user avatar in {{ en.RDMS }} is the user initials.  
+The default user avatar in {{ en.DVLS }} is the user initials.  
 
 {% snippet icon.badgeInfo %} 
 The use of an avatar, other than the initials, is only available when the option is enabled in ***Administration – Server Settings – Features – Enable Gravatar*** . 

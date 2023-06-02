@@ -51,10 +51,10 @@ Windows
 	</tr>
 	<tr>
 		<td>
-[{{ en.RDMS }} (DVLS)](/server/overview/what-is-server/) 
+[{{ en.DVLS }} (DVLS)](/server/overview/what-is-server/) 
 		</td>
 		<td>
-{{ en.RDMS }} is a full-featured shared account and password management solution with add-on privileged access components. It deploys rapidly, implements easily, and delivers the core features of a comprehensive PAM solution. {{ en.RDMS }} is designed to meet the ever-expanding security requirements of SMBs, while remaining very affordable. 
+{{ en.DVLS }} is a full-featured shared account and password management solution with add-on privileged access components. It deploys rapidly, implements easily, and delivers the core features of a comprehensive PAM solution. {{ en.DVLS }} is designed to meet the ever-expanding security requirements of SMBs, while remaining very affordable. 
 		</td>
 		<td>
 Windows 
@@ -76,7 +76,7 @@ Windows, macOS
 [{{ en.DWL }} (DWL)](/rdm/mac/dwl/overview/) 
 		</td>
 		<td>
-{{ en.DWL }} is a free browser plugin used in conjunction with {{ en.RDM }} , {{ en.RDMS }} and {{ en.HUB }} , which allows users to securely inject passwords into websites using credentials stored in their vaults. 
+{{ en.DWL }} is a free browser plugin used in conjunction with {{ en.RDM }} , {{ en.DVLS }} and {{ en.HUB }} , which allows users to securely inject passwords into websites using credentials stored in their vaults. 
 		</td>
 		<td>
 Windows, macOS 

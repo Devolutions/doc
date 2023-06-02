@@ -4,7 +4,7 @@ title: User Management Integrated Security
 ***Integrated Security*** is a Microsoft technology, which uses the credentials of the current Windows session and send them automatically to the remote resources for authentication.  
 
 {% snippet icon.badgeInfo %} 
-This feature is available with the [SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) or [{{ en.RDMS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) data sources. 
+This feature is available with the [SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) or [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) data sources. 
 {% endsnippet %}
  
 ## Settings 

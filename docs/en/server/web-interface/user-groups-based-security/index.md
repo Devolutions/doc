@@ -2,9 +2,9 @@
 title: User Groups Based Security
 order: 50
 ---
-{{ en.RDMS }} user groups based security allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.  
+{{ en.DVLS }} user groups based security allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.  
 
-The following recommendations are based on our experience with the system and the ideas shared by our community. Follow these guidelines, as they will help you to use the {{ en.RDMS }} user groups based security efficiently.  
+The following recommendations are based on our experience with the system and the ideas shared by our community. Follow these guidelines, as they will help you to use the {{ en.DVLS }} user groups based security efficiently.  
 
 Here are the main key points of the user groups based security:  
 
@@ -13,7 +13,7 @@ Here are the main key points of the user groups based security:
 * Permissions are granular : multiple permissions can be set on entries at once.  
 
 ## User groups configuration 
-When using {{ en.RDMS }} user groups based security, user groups are mostly used to control user access for multiple users at once. 
+When using {{ en.DVLS }} user groups based security, user groups are mostly used to control user access for multiple users at once. 
 ### Create the user groups 
 To create user groups, navigate to Administration – User Groups , then click Add. 
 
@@ -23,7 +23,7 @@ All settings can be left to default unless the user group contains only administ
 
 ![Configure a User Group](https://webdevolutions.azureedge.net/docs/en/server/clip8035.png)  
 
-To assign users to the user group, click , then check the Is Member box of the respective user. With a user group created from an Active Directory group, there is no need to assign users as it is automatically managed by {{ en.RDMS }} .  
+To assign users to the user group, click , then check the Is Member box of the respective user. With a user group created from an Active Directory group, there is no need to assign users as it is automatically managed by {{ en.DVLS }} .  
 
 ![Assign a user to the User Group](https://webdevolutions.azureedge.net/docs/en/server/clip8036.png)  
 
@@ -35,7 +35,7 @@ To create users, navigate to Administration – Users , then click Add User . En
 
 ![Create a user](https://webdevolutions.azureedge.net/docs/en/server/clip8037.png)  
 
-A user can be assigned to multiple user groups at once by checking the Is Member box of the respective user groups in the User Groups section of the User Management . As part of the Active Directory integration, there is no need to assign users to those user groups as it is automatically managed by {{ en.RDMS }} . 
+A user can be assigned to multiple user groups at once by checking the Is Member box of the respective user groups in the User Groups section of the User Management . As part of the Active Directory integration, there is no need to assign users to those user groups as it is automatically managed by {{ en.DVLS }} . 
 
 ![!!ServerOp4010.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4010.png) 
 

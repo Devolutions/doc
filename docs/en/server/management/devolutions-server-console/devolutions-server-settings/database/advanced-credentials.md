@@ -3,7 +3,7 @@ title: Advanced Credentials
 keywords:
 - Roles
 ---
-The ***Advanced Credentials*** are used to allow {{ en.RDMS }} to communicate with the SQL database. 
+The ***Advanced Credentials*** are used to allow {{ en.DVLS }} to communicate with the SQL database. 
 {% snippet icon.badgeCaution %} 
 Only SQL login accounts can be used. 
 {% endsnippet %}

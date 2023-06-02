@@ -141,7 +141,7 @@ Our SQL Server data source offers a third authentication option, namely the ***C
 
 ### Note 3 
 
-You should not expose a {{ en.RDMS }} instance to the Internet without being able to protect it from DDoS attacks. Strong passwords must be used as well as obscure account names that are not easily inferred using social data mining. 
+You should not expose a {{ en.DVLS }} instance to the Internet without being able to protect it from DDoS attacks. Strong passwords must be used as well as obscure account names that are not easily inferred using social data mining. 
 
 ### Note 4 
 

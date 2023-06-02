@@ -2,7 +2,7 @@
 title: Authentication
 order: 10
 ---
-The Authentication section allows the administrator to select which authentication types will be used to connect on {{ en.RDMS }} .  
+The Authentication section allows the administrator to select which authentication types will be used to connect on {{ en.DVLS }} .  
 
 ![Adminsitration – Server Settings – Authentication](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8100.png)
 
@@ -47,10 +47,10 @@ Okta is used to authenticate the user.
 	</tr>
 	<tr>
 		<td>
-Authenticate with {{ en.RDMS }} user 
+Authenticate with {{ en.DVLS }} user 
 		</td>
 		<td>
-The {{ en.RDMS }} is used to authenticate the user. You must create the initial user through the console. 
+The {{ en.DVLS }} is used to authenticate the user. You must create the initial user through the console. 
 		</td>
 	</tr>
 	<tr>
@@ -58,7 +58,7 @@ The {{ en.RDMS }} is used to authenticate the user. You must create the initial 
 Enable Windows authentication 
 		</td>
 		<td>
-The application will use the current Windows authenticated user to authenticate to the {{ en.RDMS }} instance. To complete the activation of the feature, consult this <a href="/kb/devolutions-server/how-to-articles/configure-windows-authentication/" target="_blank">page</a>. 
+The application will use the current Windows authenticated user to authenticate to the {{ en.DVLS }} instance. To complete the activation of the feature, consult this <a href="/kb/devolutions-server/how-to-articles/configure-windows-authentication/" target="_blank">page</a>. 
 		</td>
 	</tr>
 		<tr>

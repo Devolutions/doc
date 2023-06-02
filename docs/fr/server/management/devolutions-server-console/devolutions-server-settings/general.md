@@ -2,7 +2,7 @@
 title: Général
 order: 10
 ---
-La section de l'onglet ***Général*** contient les informations de base de l'instance {{ fr.RDMS }} tels que le ***Nom*** , la ***Description*** , les ***Licences*** , etc.  
+La section de l'onglet ***Général*** contient les informations de base de l'instance {{ fr.DVLS }} tels que le ***Nom*** , la ***Description*** , les ***Licences*** , etc.  
 
 ![Paramètres Serveur - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8006.png) 
 
@@ -61,7 +61,7 @@ Insérer votre numéro d'enregistrement de série.
 Demander un essai 
 		</td>
 		<td>
-Ceci vous redirigera vers notre page {{ fr.RDMS }} pour demander un essai gratuit de 30 jours. 
+Ceci vous redirigera vers notre page {{ fr.DVLS }} pour demander un essai gratuit de 30 jours. 
 		</td>
 	</tr>
 	<tr>
@@ -90,7 +90,7 @@ Description
 Édition 
 		</td>
 		<td>
-Affiche l'édition {{ fr.RDMS }} en fonction de votre clé de licence. 
+Affiche l'édition {{ fr.DVLS }} en fonction de votre clé de licence. 
 		</td>
 	</tr>
 	<tr>
@@ -98,7 +98,7 @@ Affiche l'édition {{ fr.RDMS }} en fonction de votre clé de licence.
 Expiration 
 		</td>
 		<td>
-Date d'expiration de la clé de licence de {{ fr.RDMS }} . 
+Date d'expiration de la clé de licence de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 </table>

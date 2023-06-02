@@ -39,7 +39,7 @@ Access and lock the privileged account.
 Reset Password 
 		</td>
 		<td>
-Reset the password in {{ en.RDMS }} and in Active Directory or on the Local SSH machine. 
+Reset the password in {{ en.DVLS }} and in Active Directory or on the Local SSH machine. 
 		</td>
 	</tr>
 	<tr>

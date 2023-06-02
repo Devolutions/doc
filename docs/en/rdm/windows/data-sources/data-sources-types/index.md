@@ -111,12 +111,12 @@ Cons:
 ![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
-{{ en.RDMS }} 
+{{ en.DVLS }} 
 		</td>
 		<td>
-{{ en.RDM }} uses {{ en.RDMS }} to store session information.  
+{{ en.RDM }} uses {{ en.DVLS }} to store session information.  
 
-For more information, please consult our [{{ en.RDMS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) topic. 
+For more information, please consult our [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) topic. 
 		</td>
 		<td>
 Pros: 

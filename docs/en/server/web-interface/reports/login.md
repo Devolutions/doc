@@ -9,13 +9,13 @@ You can refine your search with the filters for each report and click the ***Exp
 ![!!ServerOp4055.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4055.png) 
 
 ### Connected User List 
-The ***Connected User List*** report displays the users that are currently connected to the {{ en.RDMS }} data source and provide the option to disconnect users. 
+The ***Connected User List*** report displays the users that are currently connected to the {{ en.DVLS }} data source and provide the option to disconnect users. 
 ![!!ServerOp4056.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4056.png) 
 ### Login Attempt 
-The ***Login Attempt*** lists all unsuccessful logins to the {{ en.RDMS }} data source. ***Fail Type*** are listed in a drop down menu to choose from and refine your search. 
+The ***Login Attempt*** lists all unsuccessful logins to the {{ en.DVLS }} data source. ***Fail Type*** are listed in a drop down menu to choose from and refine your search. 
 ![!!ServerOp4057.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4057.png) 
 ### Login History 
-The ***Login History*** displays the information of each user that has been connected to the {{ en.RDMS }} data source with the ***Source*** , ***Platform*** , ***Version*** of the application and the ***Authentication Type*** . 
+The ***Login History*** displays the information of each user that has been connected to the {{ en.DVLS }} data source with the ***Source*** , ***Platform*** , ***Version*** of the application and the ***Authentication Type*** . 
 ![!!ServerOp4058.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4058.png) 
 ### Last Login 
 

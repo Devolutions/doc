@@ -2,12 +2,12 @@
 title: Authentification deux facteurs
 ---
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité n'est disponible que pour {{ fr.RDMS }} version 2022 ou supérieure. 
+Cette fonctionnalité n'est disponible que pour {{ fr.DVLS }} version 2022 ou supérieure. 
 {% endsnippet %}
  
-Configurer l'authentification à deux facteurs dans {{ fr.RDMS }} pour ajouter une couche de sécurité supplémentaire à l'application.  
+Configurer l'authentification à deux facteurs dans {{ fr.DVLS }} pour ajouter une couche de sécurité supplémentaire à l'application.  
 
-{{ fr.RDMS }} en charge plusieurs types d'authentification a deux facteurs. Vous pouvez configurer un type par défaut pour l'ensemble de votre organisation ou par utilisateur. Lorsque l'authentification à deux facteurs est configurée, les utilisateurs se connectent avec leur nom d'utilisateur/mot de passe ainsi qu'un produit d'authentification a deux facteurs.  
+{{ fr.DVLS }} en charge plusieurs types d'authentification a deux facteurs. Vous pouvez configurer un type par défaut pour l'ensemble de votre organisation ou par utilisateur. Lorsque l'authentification à deux facteurs est configurée, les utilisateurs se connectent avec leur nom d'utilisateur/mot de passe ainsi qu'un produit d'authentification a deux facteurs.  
 
 ### Comment configurer un deux facteurs à partir de l'interface web 
 
@@ -56,8 +56,8 @@ L'option est appliquée pour tous les utilisateurs. Un type d'authentification �
 	</tr>
 </table>
 
-3. Sélectionner qui reçoit les demandes de réinitialisation des utilisateurs. Vous pouvez choisir d'envoyer le courriel à tous les administrateurs de {{ fr.RDMS }} ou à un courriel spécifique . 
-1. Si vous avez choisi d'envoyer des demandes de réinitialisation à une adresse courriel au lieu des administrateurs de {{ fr.RDMS }} , saisir l'adresse courriel dans ***Courriel spécifique*** . 
+3. Sélectionner qui reçoit les demandes de réinitialisation des utilisateurs. Vous pouvez choisir d'envoyer le courriel à tous les administrateurs de {{ fr.DVLS }} ou à un courriel spécifique . 
+1. Si vous avez choisi d'envoyer des demandes de réinitialisation à une adresse courriel au lieu des administrateurs de {{ fr.DVLS }} , saisir l'adresse courriel dans ***Courriel spécifique*** . 
 1. Sélectionner les types d'authentification a deux facteurs avec lesquels les utilisateurs peuvent s'authentifier. Choisissez-en autant que nécessaire. 
 1. Si vous avez choisi l'utilisation comme obligatoire à l' étape 3, choisir le type d'authentification par défaut. 
 1. Sélectionner d'autres méthodes de connexion. Ces options seront proposées lorsque les utilisateurs n'auront pas accès à la méthode habituelle.  

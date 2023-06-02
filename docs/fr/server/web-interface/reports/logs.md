@@ -20,7 +20,7 @@ Cliquez sur le bouton ***Entrée du journal*** pour afficher plus d'information 
 
 ## Journaux de la source de données  
 
-Les ***Journaux de la source de données*** affichent les journaux de la source de données {{ fr.RDMS }}. Pour plus d'information sur un journal spécifique, cliquez sur la flèche au début de la ligne.  
+Les ***Journaux de la source de données*** affichent les journaux de la source de données {{ fr.DVLS }}. Pour plus d'information sur un journal spécifique, cliquez sur la flèche au début de la ligne.  
 
 ![Rapports – Journaux de la source de données](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4072.png) 
 

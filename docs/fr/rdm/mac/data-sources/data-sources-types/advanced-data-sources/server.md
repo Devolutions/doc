@@ -8,7 +8,7 @@ title: Devolutions Server
 ![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
-{{ fr.RDMS }} est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr) . 
+{{ fr.DVLS }} est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr) . 
 		</td>
 	</tr>
 </table>
@@ -16,19 +16,19 @@ title: Devolutions Server
 ### Points forts 
 
 * Serveur de sécurité haut de gamme pour votre entreprise. 
-* Prise en charge des facteurs AzureMFA 2 pour {{ fr.RDMS }} . 
+* Prise en charge des facteurs AzureMFA 2 pour {{ fr.DVLS }} . 
 * Partager vos sessions avec plusieurs utilisateurs. 
 * Peut être déployé en ligne. 
 * Prends en charge l'authentification Windows et l'intégration de groupe Active Directory. 
 * Optimisation de la mise en cache côté client et serveur. 
 
 {% snippet icon.badgeInfo %} 
-À l'heure actuelle, {{ fr.RDMS }} prend uniquement en charge SQL Server et Azure SQL en tant que base de données. 
+À l'heure actuelle, {{ fr.DVLS }} prend uniquement en charge SQL Server et Azure SQL en tant que base de données. 
 {% endsnippet %}
  
 Pour plus d'informations, veuillez consulter ces rubriques:  
 
-* [Installation de {{ fr.RDMS }}](/fr/server/installation/) 
+* [Installation de {{ fr.DVLS }}](/fr/server/installation/) 
 * [Liste de vérification relative à la sécurité](/fr/server/getting-started/security-checklist/) 
 
 ## Configurer la source de données du serveur sur toutes vos machines clientes. 
@@ -65,7 +65,7 @@ Nom de la source de données.
 Hôte 
 		</td>
 		<td>
-Nom de l'hôte de {{ fr.RDMS }} . 
+Nom de l'hôte de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -89,7 +89,7 @@ Mot de passe pour se connecter à la source de données.
 Tester connexion 
 		</td>
 		<td>
-Tester la connexion avec {{ fr.RDMS }} pour valider si les informations appropriées ont été fournies. 
+Tester la connexion avec {{ fr.DVLS }} pour valider si les informations appropriées ont été fournies. 
 		</td>
 	</tr>
 	<tr>

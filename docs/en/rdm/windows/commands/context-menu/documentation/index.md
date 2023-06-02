@@ -6,11 +6,11 @@ The ***Documentation*** feature allows for storing information about resources i
 The documentation is written using [Markdown](https://en.wikipedia.org/wiki/Markdown) , a plain text formatting syntax. 
 
 {% snippet icon.badgeInfo %} 
-This feature is available with {{ en.RDMS }} and SQL Server data sources. 
+This feature is available with {{ en.DVLS }} and SQL Server data sources. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-The ***Documentation*** feature is encrypted only for the data source {{ en.RDMS }} . If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 
+The ***Documentation*** feature is encrypted only for the data source {{ en.DVLS }} . If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 

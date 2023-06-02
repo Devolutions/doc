@@ -39,7 +39,7 @@ Les ***Paramètres d'importation / d'exportation*** permettent de sauvegarder et
 
 ### Sources de données <a name="source"></a>
 
-Les paramètres de ***Sources de données*** permettent de personnaliser les interactions de {{ fr.DWL }} avec <a href="#rdm">{{ fr.RDM }}</a>, <a href="#server">{{ fr.RDMS }}</a> et <a href="#hub">{{ fr.PHUB }}</a> Business ou Personal.  
+Les paramètres de ***Sources de données*** permettent de personnaliser les interactions de {{ fr.DWL }} avec <a href="#rdm">{{ fr.RDM }}</a>, <a href="#server">{{ fr.DVLS }}</a> et <a href="#hub">{{ fr.PHUB }}</a> Business ou Personal.  
 
 ### {{ fr.RDM }} <a name="rdm"></a>
 
@@ -160,7 +160,7 @@ Utiliser l'ancien API du navigateur pour être compatible avec les versions plus
 	</tr>
 </table>
 
-### {{ fr.RDMS }} <a name="server"></a>
+### {{ fr.DVLS }} <a name="server"></a>
 
 <table>
 	<tr>
@@ -173,10 +173,10 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Activer {{ fr.RDMS }} 
+Activer {{ fr.DVLS }} 
 		</td>
 		<td>
-Récupérer les entrées de {{ fr.RDMS }} . 
+Récupérer les entrées de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -192,7 +192,7 @@ Choisir le dossier dans lequel les identifiants seront sauvegardés dans le coff
 URL du serveur 
 		</td>
 		<td>
-Entrer l'URL du {{ fr.RDMS }} auquel se connecter. 
+Entrer l'URL du {{ fr.DVLS }} auquel se connecter. 
 		</td>
 	</tr>
 </table>
@@ -256,7 +256,7 @@ Définir un type d'option de comparaison par défaut entre <b><i>Domaine de base
 Synchroniser tous les coffres disponibles 
 		</td>
 		<td>
-Activer pour synchroniser tous les coffres disponibles depuis {{ fr.RDMS }} . 
+Activer pour synchroniser tous les coffres disponibles depuis {{ fr.DVLS }} . 
 		</td>
 	</tr>
 </table>

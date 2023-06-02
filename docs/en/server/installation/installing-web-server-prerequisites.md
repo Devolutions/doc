@@ -5,11 +5,11 @@ keywords:
 - Roles
 ---
 {% snippet icon.badgeInfo %} 
-The installation of the {{ en.RDMS }} is supported by Windows 10, Windows 11, Windows Server 2012R2, 2016, 2019 and 2022. 
+The installation of the {{ en.DVLS }} is supported by Windows 10, Windows 11, Windows Server 2012R2, 2016, 2019 and 2022. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-As a web application, {{ en.RDMS }} requires the IIS Manager, the [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) , the [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) , the [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) and specific Web Server Roles on the machine on which it will be hosted. 
+As a web application, {{ en.DVLS }} requires the IIS Manager, the [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) , the [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) , the [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) and specific Web Server Roles on the machine on which it will be hosted. 
 {% endsnippet %}
  
 It is possible to install these prerequisites, the IIS Manager and the URL Rewrite Module are included in the {{ en.DVLSCONSOLE }} or through an existing PowerShell script provided with {{ en.RDMCLIENT }} .  

@@ -4,7 +4,7 @@ order: 5
 ---
 ![!!Devolutions Web Login logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
 
-{{ fr.DWL }} est une extension de navigateur Web pour les mots de passe. Utilisée conjointement avec {{ fr.RDM }} , {{ fr.RDMS }} et {{ fr.PHUB }} , elle permet aux utilisateurs d'injecter en toute sécurité des identifiants, stockés dans leur coffres, dans des sites Web.  
+{{ fr.DWL }} est une extension de navigateur Web pour les mots de passe. Utilisée conjointement avec {{ fr.RDM }} , {{ fr.DVLS }} et {{ fr.PHUB }} , elle permet aux utilisateurs d'injecter en toute sécurité des identifiants, stockés dans leur coffres, dans des sites Web.  
 
 Elle offre aux administrateurs système un contrôle total sur la gestion des mots de passe, sans affecter la productivité des utilisateurs. 
 
@@ -19,7 +19,7 @@ Centralisez, gérez et lancez des connexions sécurisées à distance.
 		</th>
 		<th>
 <img src="https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-icon-shadow.svg" alt="!!Devolutions Server Logo"><br>
-{{ fr.RDMS }} <br>
+{{ fr.DVLS }} <br>
 <br>
 Sécurisez, gérez et surveillez les accès aux comptes privilégiés. <br>
 		</th>

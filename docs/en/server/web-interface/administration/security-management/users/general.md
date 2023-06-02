@@ -20,7 +20,7 @@ Authentication type
 		<td>
 Select the user's authentication type: 
 
-* ***{{ en.RDMS }}*** : create a user in {{ en.RDMS }} without creating an SQL login. 
+* ***{{ en.DVLS }}*** : create a user in {{ en.DVLS }} without creating an SQL login. 
 * ***Domain*** : authenticate using the Active Directory user account. 
 * ***Office365/Azure AD*** : authenticate using the Azure AD user account. 
 		</td>

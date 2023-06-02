@@ -2,7 +2,7 @@
 title: General
 order: 10
 ---
-The ***General*** tab section contains the basics information of the {{ en.RDMS }} instance such as the ***Name*** , ***Description*** , ***License*** , etc. 
+The ***General*** tab section contains the basics information of the {{ en.DVLS }} instance such as the ***Name*** , ***Description*** , ***License*** , etc. 
 
 ![Server Settings - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8006.png) 
 
@@ -58,7 +58,7 @@ Insert your serial registration number.
 Request Trial 
 		</td>
 		<td>
-This will redirect you to our {{ en.RDMS }} page to request a free 30 days trial. 
+This will redirect you to our {{ en.DVLS }} page to request a free 30 days trial. 
 		</td>
 	</tr>
 	<tr>
@@ -87,7 +87,7 @@ Description
 Edition 
 		</td>
 		<td>
-Display the {{ en.RDMS }} Edition according to your license key. 
+Display the {{ en.DVLS }} Edition according to your license key. 
 		</td>
 	</tr>
 	<tr>

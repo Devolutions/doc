@@ -7,7 +7,7 @@ User Groups in {{ en.RDM }} for Mac are mainly used to reduce the time taken to 
 ![Administration - User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10396.png) 
 
 {% snippet icon.badgeInfo %} 
-This feature is only available with an [SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) and a [{{ en.RDMS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) data source. 
+This feature is only available with an [SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) and a [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) data source. 
 {% endsnippet %}
  
 ## User groups in {{ en.RDM }} for Mac 
@@ -180,13 +180,13 @@ To assign user group to a user or to manage user groups for a user go in Adminis
 It's possible to assign a user group to multiple users at the same time. Select the users you wish to apply the selected user group or you can simply click Select All or Unselect All .  
 ![User Group Assignment](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10405.png) 
 
-### User groups in {{ en.RDMS }} 
+### User groups in {{ en.DVLS }} 
 
-User groups in {{ en.RDMS }} are in fact links to Active Directory groups. By leveraging Active Directory integration you can easily define access rights for all domain users in your organization. Once a domain user log in the {{ en.RDMS }} data source, their user account will be created if needed and users rights will be controlled by the defined groups.  
+User groups in {{ en.DVLS }} are in fact links to Active Directory groups. By leveraging Active Directory integration you can easily define access rights for all domain users in your organization. Once a domain user log in the {{ en.DVLS }} data source, their user account will be created if needed and users rights will be controlled by the defined groups.  
 
 {% snippet icon.shieldWarning %} 
 Please note that the Unsecured group permissions (the ones above the grid) are ignored. You must set them on each user individually. 
 {% endsnippet %}
  
-For more information please see [{{ en.RDMS }} User Groups Management](/server/web-interface/administration/security-management/user-groups/) . 
+For more information please see [{{ en.DVLS }} User Groups Management](/server/web-interface/administration/security-management/user-groups/) . 
 

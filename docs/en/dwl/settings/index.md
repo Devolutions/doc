@@ -39,7 +39,7 @@ The ***Import/Export Settings*** allow to save and transfer your currently set p
 
 ### Data sources <a name="source"></a>
 
-The ***Data sources*** settings are used to customize {{ en.DWL }} interactions with <a href="#rdm">{{ en.RDM }}</a>, <a href="#server">{{ en.RDMS }}</a>, and <a href="#hub">{{ en.PHUB }}</a> Business or Personal.  
+The ***Data sources*** settings are used to customize {{ en.DWL }} interactions with <a href="#rdm">{{ en.RDM }}</a>, <a href="#server">{{ en.DVLS }}</a>, and <a href="#hub">{{ en.PHUB }}</a> Business or Personal.  
 
 ### {{ en.RDM }} <a name="rdm"></a>
 
@@ -160,7 +160,7 @@ Use the old browser extension API for compatibility with older versions of {{ en
 	</tr>
 </table>
 
-### {{ en.RDMS }} <a name="server"></a>
+### {{ en.DVLS }} <a name="server"></a>
 
 <table>
 	<tr>
@@ -173,10 +173,10 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Enable {{ en.RDMS }} 
+Enable {{ en.DVLS }} 
 		</td>
 		<td>
-Retrieve entries from {{ en.RDMS }} . 
+Retrieve entries from {{ en.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -192,7 +192,7 @@ Choose the folder where the credentials are stored in the {{ en.VLT }} .
 Server URL 
 		</td>
 		<td>
-Enter the URL of the {{ en.RDMS }} instance to connect to. 
+Enter the URL of the {{ en.DVLS }} instance to connect to. 
 		</td>
 	</tr>
 </table>
@@ -256,7 +256,7 @@ Set a default comparing option type between <b><i>Base domain , Host , Starts wi
 Sync all available vaults 
 		</td>
 		<td>
-Enable to synchronize all the available {{ en.VLT }}s from {{ en.RDMS }} . 
+Enable to synchronize all the available {{ en.VLT }}s from {{ en.DVLS }} . 
 		</td>
 	</tr>
 </table>

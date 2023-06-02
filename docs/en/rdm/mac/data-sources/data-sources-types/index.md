@@ -56,12 +56,12 @@ Cons:
 ![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/common/dvls-90X90.png) 
 		</td>
 		<td>
-{{ en.RDMS }} 
+{{ en.DVLS }} 
 		</td>
 		<td>
-{{ en.RDM }} for Mac uses {{ en.RDMS }} to store session information.  
+{{ en.RDM }} for Mac uses {{ en.DVLS }} to store session information.  
 
-For more information, please consult our [{{ en.RDMS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) topic. 
+For more information, please consult our [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) topic. 
 
 		</td>
 		<td>

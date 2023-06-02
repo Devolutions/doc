@@ -30,7 +30,7 @@ To learn how to create a tab group, refer to our [***Grouped Tab Bar***](/rdm/wi
 
 ### Notification 
 
-The ***Notification*** feature opens a window showing the various notifications (such as expired or about to be expired entries or tasks). Right-clicking on a notification shows more options. If you double-click on an "expired license" notification, a browser page opens to take you to your {{ en.RDMS }} account. Notifications can be sorted or searched by ***Text*** , ***Source*** , ***Folder*** , ***Level*** , ***Type*** , ***Date*** , ***Time*** , or ***Days*** .  
+The ***Notification*** feature opens a window showing the various notifications (such as expired or about to be expired entries or tasks). Right-clicking on a notification shows more options. If you double-click on an "expired license" notification, a browser page opens to take you to your {{ en.DVLS }} account. Notifications can be sorted or searched by ***Text*** , ***Source*** , ***Folder*** , ***Level*** , ***Type*** , ***Date*** , ***Time*** , or ***Days*** .  
 ![Notifications](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2018.png) 
 
 Although it is windowed by default, the ***Notification*** pane can be dragged and docked anywhere within {{ en.RDM }} . 

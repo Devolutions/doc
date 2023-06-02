@@ -1,7 +1,7 @@
 ---
 title: Azure AD User Provider
 ---
-The Azure AD User Provider allows {{ en.RDMS }} to store the Azure AD application information to be used for Azure AD accounts discovery or to achieve password rotation. See the [Create an Azure AD PAM Provider](/kb/devolutions-server/how-to-articles/create-azure-ad-pam-provider/) knowledge base article for more information on its configuration.  
+The Azure AD User Provider allows {{ en.DVLS }} to store the Azure AD application information to be used for Azure AD accounts discovery or to achieve password rotation. See the [Create an Azure AD PAM Provider](/kb/devolutions-server/how-to-articles/create-azure-ad-pam-provider/) knowledge base article for more information on its configuration.  
 ![Azure AD Users provider](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8095.png) 
 
 ### General 

@@ -1,7 +1,7 @@
 ---
 title: Advanced Configuration
 ---
-The ***Advanced*** configuration allows to set individual clean up parameters for all the different logs of {{ en.RDMS }} . 
+The ***Advanced*** configuration allows to set individual clean up parameters for all the different logs of {{ en.DVLS }} . 
 
 ![Cleanup Logs - Advanced](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8161.png) 
 
@@ -51,7 +51,7 @@ The Login History logs related to each user that has been connected to the {{ en
 Message Logs 
 		</td>
 		<td>
-Message Logs relates to the data source logs of {{ en.RDMS }} . 
+Message Logs relates to the data source logs of {{ en.DVLS }} . 
 		</td>
 	</tr>
 	<tr>
@@ -59,7 +59,7 @@ Message Logs relates to the data source logs of {{ en.RDMS }} .
 PAM Logs 
 		</td>
 		<td>
-PAM Logs relates to the {{ en.RDMS }} PAM feature. 
+PAM Logs relates to the {{ en.DVLS }} PAM feature. 
 		</td>
 	</tr>
 	<tr>

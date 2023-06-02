@@ -51,10 +51,10 @@ Windows
 	</tr>
 	<tr>
 		<td>
-[{{ fr.RDMS }} (DVLS)](/fr/server/overview/what-is-server/) 
+[{{ fr.DVLS }} (DVLS)](/fr/server/overview/what-is-server/) 
 		</td>
 		<td>
-{{ fr.RDMS }} est une solution de gestion de mots de passe et de comptes partagés, qui inclut des composants de gestion d'accès privilégiés. Facile à déployer et à implanter, elle comprend toutes les fonctionnalités de base d’une solution PAM. {{ fr.RDMS }} est conçue pour répondre aux exigences toujours croissantes en matière de sécurité des PME tout en restant abordable. 
+{{ fr.DVLS }} est une solution de gestion de mots de passe et de comptes partagés, qui inclut des composants de gestion d'accès privilégiés. Facile à déployer et à implanter, elle comprend toutes les fonctionnalités de base d’une solution PAM. {{ fr.DVLS }} est conçue pour répondre aux exigences toujours croissantes en matière de sécurité des PME tout en restant abordable. 
 		</td>
 		<td>
 Windows 
@@ -76,7 +76,7 @@ Windows, macOS
 [{{ fr.DWL }} (DWL)](/fr/rdm/windows/dwl/overview/) 
 		</td>
 		<td>
-{{ fr.DWL }} est un module d'extension de navigateur gratuit à utiliser avec {{ fr.RDM }} , {{ fr.RDMS }} ou {{ fr.HUB }} . Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
+{{ fr.DWL }} est un module d'extension de navigateur gratuit à utiliser avec {{ fr.RDM }} , {{ fr.DVLS }} ou {{ fr.HUB }} . Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
 		</td>
 		<td>
 Windows, macOS 

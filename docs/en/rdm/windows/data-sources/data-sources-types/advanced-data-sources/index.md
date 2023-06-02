@@ -14,6 +14,6 @@ They greatly increase the set of managing features available to administrators, 
 Currently, the ***Advanced Data Sources*** are: 
 
 * [Devolutions Hub Business](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/) . 
-* [{{ en.RDMS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) . 
+* [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) . 
 * [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) . 
 * [Microsoft SQL Server (MSSQL)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) . 

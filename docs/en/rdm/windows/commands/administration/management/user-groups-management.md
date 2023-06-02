@@ -9,15 +9,15 @@ User Groups in {{ en.RDM }} manages multiple users at the same time by grouping 
 This feature is only available with an Advanced Data Source. 
 {% endsnippet %}
  
-### User Groups in {{ en.RDMS }} 
+### User Groups in {{ en.DVLS }} 
 
-User Groups in {{ en.RDMS }} are in fact links to Active Directory groups. By leveraging Active Directory integration you can easily define access rights for all domain users in your organization. Once a domain user log in the {{ en.RDMS }} data source, their user account will be created if needed and users rights will be controlled by the defined groups.  
+User Groups in {{ en.DVLS }} are in fact links to Active Directory groups. By leveraging Active Directory integration you can easily define access rights for all domain users in your organization. Once a domain user log in the {{ en.DVLS }} data source, their user account will be created if needed and users rights will be controlled by the defined groups.  
 
 {% snippet icon.shieldWarning %} 
 Please note that the Unsecured group permissions (the ones above the grid) are ignored. You must set them on each user individually. 
 {% endsnippet %}
  
-For more information please see [{{ en.RDMS }} User Groups Management](/server/web-interface/administration/security-management/user-groups/) . 
+For more information please see [{{ en.DVLS }} User Groups Management](/server/web-interface/administration/security-management/user-groups/) . 
 
 ## Create User Groups 
 

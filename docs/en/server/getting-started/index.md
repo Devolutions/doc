@@ -6,9 +6,9 @@ order: 10
 This topic is for {{ en.TITLECORP }} . If you have purchased {{ en.TITLESBE }} instead, please consult [Team Edition](/server/getting-started/team-edition/) . 
 {% endsnippet %}
  
-After completing your purchase of {{ en.TITLECORP }} , you will receive an email with three license serials. Each license serial allows for running a {{ en.RDMS }} instance. An instance is in itself a web server application which acts as a back-end for our client applications. You can think of it as a specialized database for your data. All instances can be installed on the same physical server or spread across many.  
+After completing your purchase of {{ en.TITLECORP }} , you will receive an email with three license serials. Each license serial allows for running a {{ en.DVLS }} instance. An instance is in itself a web server application which acts as a back-end for our client applications. You can think of it as a specialized database for your data. All instances can be installed on the same physical server or spread across many.  
 
-{{ en.RDMS }} can be installed through different [topologies](/server/overview/topologies/) .  
+{{ en.DVLS }} can be installed through different [topologies](/server/overview/topologies/) .  
 
 ## Domain requirements 
 
@@ -50,7 +50,7 @@ Create a VaultRunner account that will be used as the identity of the website. T
 	</tr>
 </table>
 
-## Checklist for installing and running {{ en.RDMS }}  
+## Checklist for installing and running {{ en.DVLS }}  
 
 ### Software requirements on the server hosting the instance 
 
@@ -91,7 +91,7 @@ Internet Information Services (IIS) 7.0 or better (see this Microsoft topic for 
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create a new instance of {{ en.RDMS }} (see [Create {{ en.RDMS }} Instance](/server/installation/create-server-instance/) ). 
+Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/) ). 
 		</td>
 	</tr>
 	<tr>
@@ -99,7 +99,7 @@ Create a new instance of {{ en.RDMS }} (see [Create {{ en.RDMS }} Instance](/ser
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create a {{ en.RDMS }} administrator account in the [User Management](/server/web-interface/administration/security-management/users/) . 
+Create a {{ en.DVLS }} administrator account in the [User Management](/server/web-interface/administration/security-management/users/) . 
 		</td>
 	</tr>
 	<tr>

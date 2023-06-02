@@ -3,12 +3,12 @@ title: Authentification multifacteur
 order: 30
 ---
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité est disponible pour les sources de données [{{ fr.RDMS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) , [Microsoft Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) , [Microsoft SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/) . 
+Cette fonctionnalité est disponible pour les sources de données [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) , [Microsoft Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) , [Microsoft SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/) . 
 {% endsnippet %}
  
 L'authentification multifacteur (AMF) identifie les utilisateurs par au moins deux éléments différents : quelque chose que l'utilisateur connaît (souvent un mot de passe) et quelque chose que l'utilisateur possède (par exemple, un code de validation envoyé à un appareil mobile). Si l'un de ces éléments est manquant ou incorrect, l'identité de l'utilisateur n'est pas établie avec suffisamment de certitude et l'accès à la source de données restera alors bloqué.  
 
-L'AMF est définie au niveau de la source de données excepté dans {{ fr.RDMS }} , où elle est [définie sur l'utilisateur](/fr/server/web-interface/administration/configuration/server-settings/security/two-factor/) . {{ fr.RDM }} prend en charge [Authenticator (TOTP)](/fr/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/) , [Yubikey](/fr/rdm/windows/data-sources/multi-factor-authentication/yubikey/) et [Duo](/fr/rdm/windows/data-sources/multi-factor-authentication/duo/) .  
+L'AMF est définie au niveau de la source de données excepté dans {{ fr.DVLS }} , où elle est [définie sur l'utilisateur](/fr/server/web-interface/administration/configuration/server-settings/security/two-factor/) . {{ fr.RDM }} prend en charge [Authenticator (TOTP)](/fr/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/) , [Yubikey](/fr/rdm/windows/data-sources/multi-factor-authentication/yubikey/) et [Duo](/fr/rdm/windows/data-sources/multi-factor-authentication/duo/) .  
 
 Consultez la section qui correspond à votre type de source de données :  
 

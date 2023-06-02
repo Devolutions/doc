@@ -59,11 +59,11 @@ Inconvénients :
 ![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
-{{ fr.RDMS }} 
+{{ fr.DVLS }} 
 		</td>
 		<td>
-{{ fr.RDM }} utilise {{ fr.RDMS }} pour stocker les informations de session. 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.RDMS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) . 
+{{ fr.RDM }} utilise {{ fr.DVLS }} pour stocker les informations de session. 
+Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) . 
 
 		</td>
 		<td>

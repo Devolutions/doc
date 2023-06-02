@@ -26,7 +26,7 @@ Sécuriser automatiquement les paramètres du coffre lors de la création d'un c
 Forcer la configuration de 2-factor sur la source de données 
 		</td>
 		<td>
-Obliger les utilisateurs à appliquer une configuration à 2 facteurs sur la source de données. Non illustré avec {{ fr.RDMS }} en tant que 2FA définis ailleurs. 
+Obliger les utilisateurs à appliquer une configuration à 2 facteurs sur la source de données. Non illustré avec {{ fr.DVLS }} en tant que 2FA définis ailleurs. 
 		</td>
 	</tr>
 	<tr>

@@ -7,7 +7,7 @@ Les ***Groupes d'utilisateurs*** dans {{ fr.RDM }} sont principalement utilisés
 ![Administration - Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4128.png) 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité est uniquement disponible avec un serveur [SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et une source de données [{{ fr.RDMS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) . 
+Cette fonctionnalité est uniquement disponible avec un serveur [SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et une source de données [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) . 
 {% endsnippet %}
  
 ## Groupe d'utilisateurs 
@@ -171,13 +171,13 @@ Pour assigner des groupes d'utilisateurs à un utilisateur ou pour gérer des gr
 Il est possible d'assigner un groupe d'utilisateur à plusieurs utilisateurs en même temps. Sélectionner les utilisateurs auxquels vous souhaitez appliquer le groupe d'utilisateurs sélectionné ou vous pouvez cliquer sur ***Sélectionner tout*** ou ***Désélectionner tout*** .  
 ![Assignation des groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4138.png) 
 
-### Groupe d'utilisateurs dans {{ fr.RDMS }} 
-Les groupes d'utilisateurs dans {{ fr.RDMS }} sont en fait des liens vers des groupes Active Directory. En tirant parti de l'intégration d'Active Directory, vous pouvez facilement définir des droits d'accès pour tous les utilisateurs de domaine de votre organisation. Une fois qu'un utilisateur du domaine se connecte à la source de données {{ fr.RDMS }} , son compte d'utilisateur est créé si nécessaire et les droits des utilisateurs sont contrôlés par les groupes définis.  
+### Groupe d'utilisateurs dans {{ fr.DVLS }} 
+Les groupes d'utilisateurs dans {{ fr.DVLS }} sont en fait des liens vers des groupes Active Directory. En tirant parti de l'intégration d'Active Directory, vous pouvez facilement définir des droits d'accès pour tous les utilisateurs de domaine de votre organisation. Une fois qu'un utilisateur du domaine se connecte à la source de données {{ fr.DVLS }} , son compte d'utilisateur est créé si nécessaire et les droits des utilisateurs sont contrôlés par les groupes définis.  
 
 {% snippet icon.shieldWarning %} 
 Veuillez noter que les autorisations de groupe non sécurisées (celles situées au-dessus de la grille) sont ignorées. Vous devez les définir individuellement pour chaque utilisateur. 
 {% endsnippet %}
  
 
-Pour plus d'information veuillez consulter [Gestion des groupes d'utilisateurs {{ fr.RDMS }}](/fr/server/web-interface/administration/security-management/user-groups/) . 
+Pour plus d'information veuillez consulter [Gestion des groupes d'utilisateurs {{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/user-groups/) . 
 

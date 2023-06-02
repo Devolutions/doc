@@ -7,7 +7,7 @@ order: 20
 If you have just received your license serials, please refer to the [Getting Started](/server/getting-started/) topic. 
 {% endsnippet %}
  
-A {{ en.RDMS }} instance is actually a web application. This allows for exposing its services on the Internet or an Intranet.  
+A {{ en.DVLS }} instance is actually a web application. This allows for exposing its services on the Internet or an Intranet.  
 
 The recommended [Topology](/server/overview/topologies/) is the use of two servers: a Database server and a Web server. For smaller installations, a single server can be used, but resources will be shared between the two user groups, thereby affecting performance.  
 
@@ -27,7 +27,7 @@ It is highly recommended to enable SSL Encryption in order to protect communicat
 For full Active Directory integration, the application pool uses a domain identity. Both servers need to be joined to the domain. 
 {% endsnippet %}
  
-## Install {{ en.RDMS }} 
+## Install {{ en.DVLS }} 
 
 ### Web Server Prerequisites 
 
@@ -45,7 +45,7 @@ After you have installed the prerequisites, test the IIS installation by navigat
 
 Please refer to the [Database Instance](/server/installation/database-instance/) topic. 
 
-### Create {{ en.RDMS }} Instance 
+### Create {{ en.DVLS }} Instance 
 
-Please refer to the [Create {{ en.RDMS }} Instance](/server/installation/create-server-instance/) topic. 
+Please refer to the [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/) topic. 
 

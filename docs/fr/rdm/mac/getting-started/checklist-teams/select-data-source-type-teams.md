@@ -15,7 +15,7 @@ Pour faciliter votre réflexion quant au choix d'une source de données, voici u
 CRITÈRE 
 		</th>
 		<th>
-{{ fr.RDMS }} 
+{{ fr.DVLS }} 
 		</th>
 		<th>
 SQL 
@@ -141,7 +141,7 @@ Notre source de données SQL Server offre une troisième option d'authentificati
 
 ### Note 3 
 
-N'exposez pas votre {{ fr.RDMS }} sur Internet sans une forme de protection contre les attaques par déni de service distribué (DDoS). Utilisez des mots de passe complexes et des noms d'utilisateurs difficiles à deviner à partir d'informations publiques. 
+N'exposez pas votre {{ fr.DVLS }} sur Internet sans une forme de protection contre les attaques par déni de service distribué (DDoS). Utilisez des mots de passe complexes et des noms d'utilisateurs difficiles à deviner à partir d'informations publiques. 
 
 ### Note 4 
 

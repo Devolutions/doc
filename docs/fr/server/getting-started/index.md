@@ -6,9 +6,9 @@ order: 10
 Cette section couvre {{ fr.TITLECORP }} . Si vous avez acheté une licence de {{ fr.TITLESBE }} , veuillez consulter la section [Introduction à l'édition Team](/fr/server/getting-started/team-edition/) . 
 {% endsnippet %}
  
-Après avoir complété l'achat de {{ fr.TITLECORP }} , un courriel contenant trois clés de licence vous sera envoyé. Chaque licence donne le droit de créer une instance de {{ fr.RDMS }} . Dans ce cas-ci, une instance est un serveur applicatif utilisé par nos applications clientes. C'est en sorte de base de données spécialisée pour vos données. Toutes les instances peuvent être installées sur le même serveur physique ou réparties sur plusieurs serveurs.  
+Après avoir complété l'achat de {{ fr.TITLECORP }} , un courriel contenant trois clés de licence vous sera envoyé. Chaque licence donne le droit de créer une instance de {{ fr.DVLS }} . Dans ce cas-ci, une instance est un serveur applicatif utilisé par nos applications clientes. C'est en sorte de base de données spécialisée pour vos données. Toutes les instances peuvent être installées sur le même serveur physique ou réparties sur plusieurs serveurs.  
 
-{{ fr.RDMS }} peut être installé selon différentes [topologies](/fr/server/overview/topologies/) .  
+{{ fr.DVLS }} peut être installé selon différentes [topologies](/fr/server/overview/topologies/) .  
 
 ## Configuration requise du domaine 
 
@@ -50,7 +50,7 @@ Créer un compte VaultRunner qui agira en tant qu'identité du site Web. Vous po
 	</tr>
 </table>
 
-## Liste de vérification pour installer et exécuter {{ fr.RDMS }} 
+## Liste de vérification pour installer et exécuter {{ fr.DVLS }} 
 
 ### Configuration logicielle requise du serveur hébergeant l'instance 
 
@@ -91,7 +91,7 @@ Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Micr
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer une instance de {{ fr.RDMS }} (voir [Créer une instance de {{ fr.RDMS }}](/server/installation/create-server-instance/) ). 
+Créer une instance de {{ fr.DVLS }} (voir [Créer une instance de {{ fr.DVLS }}](/server/installation/create-server-instance/) ). 
 		</td>
 	</tr>
 	<tr>
@@ -99,7 +99,7 @@ Créer une instance de {{ fr.RDMS }} (voir [Créer une instance de {{ fr.RDMS }}
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer un compte administrateur de {{ fr.RDMS }} avec [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/) . 
+Créer un compte administrateur de {{ fr.DVLS }} avec [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/) . 
 		</td>
 	</tr>
 	<tr>

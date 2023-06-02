@@ -4,7 +4,7 @@ title: User Management
 The User management is available from the menu Administration - Users . Users management allows you to create, manage and assign rights to a user.  
 ![Administration - Users](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10381.png) 
 
-{{ en.RDM }} for Mac allows for advanced user right management allowing you to control how a session is employed by each user. Note that some visibility control will depend on the active data source. There is currently no way to inherit security rights from a group as they must be assigned individually for each user. If using the [{{ en.RDMS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.  
+{{ en.RDM }} for Mac allows for advanced user right management allowing you to control how a session is employed by each user. Note that some visibility control will depend on the active data source. There is currently no way to inherit security rights from a group as they must be assigned individually for each user. If using the [{{ en.DVLS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.  
 
 {% snippet icon.badgeInfo %} 
 This feature requires an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
@@ -26,7 +26,7 @@ To create a new user click on the add button. You can create a user using defaul
 ![User and Security Management](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10133.png) 
 
 {% snippet icon.badgeInfo %} 
-Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) support the use of [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . If using the [{{ en.RDMS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.To learn more please see   [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . 
+Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) support the use of [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . If using the [{{ en.DVLS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.To learn more please see   [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . 
 {% endsnippet %}
  
 ## User Management Settings 
@@ -69,7 +69,7 @@ Login name for the user. When using [Integrated Security](/rdm/mac/commands/admi
 Integrated security 
 		</td>
 		<td>
-Specifies to use the Windows Integrated Authentication to authenticate to the data source. Applies only to SQL Server and {{ en.RDMS }} , depending on their configuration. When checked, an ellipsis button appears to allow you to browse for the user account in the directory. Consult [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) topic for more information. 
+Specifies to use the Windows Integrated Authentication to authenticate to the data source. Applies only to SQL Server and {{ en.DVLS }} , depending on their configuration. When checked, an ellipsis button appears to allow you to browse for the user account in the directory. Consult [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) topic for more information. 
 		</td>
 	</tr>
 	<tr>

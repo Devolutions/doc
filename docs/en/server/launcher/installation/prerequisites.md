@@ -4,7 +4,7 @@ order: 10
 ---
 ## {{ en.LAUNCHER }} Minimum requirements  
 
-{{ en.RDMS }} 2019.1.X.X or later.  
+{{ en.DVLS }} 2019.1.X.X or later.  
 
 Most recent browsers are supported and so is Internet Explorer 11 or above.  
 

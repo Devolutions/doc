@@ -2,9 +2,9 @@
 title: Contrôle d'accès basé sur les groupes d'utilisateurs
 order: 50
 ---
-La sécurité basée sur les groupes d'utilisateurs de {{ fr.RDMS }} permet de créer un système de protection granulaire assez flexible. Cependant, la flexibilité a un prix et parfois faire de mauvais choix peut augmenter le temps nécessaire à la gestion du système.  
+La sécurité basée sur les groupes d'utilisateurs de {{ fr.DVLS }} permet de créer un système de protection granulaire assez flexible. Cependant, la flexibilité a un prix et parfois faire de mauvais choix peut augmenter le temps nécessaire à la gestion du système.  
 
-Les recommandations suivantes sont basées sur notre expérience avec le système et les idées partagées par notre communauté. Suivre ces instructions, car elles vous aideront à utiliser efficacement la sécurité basée sur les groupes d'utilisateurs de {{ fr.RDMS }} .  
+Les recommandations suivantes sont basées sur notre expérience avec le système et les idées partagées par notre communauté. Suivre ces instructions, car elles vous aideront à utiliser efficacement la sécurité basée sur les groupes d'utilisateurs de {{ fr.DVLS }} .  
 
 Voici les principaux points clés de la sécurité basée sur les groupes d'utilisateurs:  
 
@@ -14,7 +14,7 @@ Voici les principaux points clés de la sécurité basée sur les groupes d'util
 
 ## Configuration des groupes d'utilisateurs 
 
-Lors de l'utilisation de la sécurité basée sur les groupes d'utilisateurs de {{ fr.RDMS }} , les groupes d'utilisateurs sont principalement utilisés pour contrôler l'accès des utilisateurs pour plusieurs utilisateurs à la fois. 
+Lors de l'utilisation de la sécurité basée sur les groupes d'utilisateurs de {{ fr.DVLS }} , les groupes d'utilisateurs sont principalement utilisés pour contrôler l'accès des utilisateurs pour plusieurs utilisateurs à la fois. 
 
 ### Créer les groupes d'utilisateurs 
 
@@ -26,7 +26,7 @@ Tous les paramètres peuvent être laissés à la valeur par défaut, sauf si le
 
 ![Configurer un groupe d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/clip8035.png)
 
-Pour attribuer des utilisateurs au groupe d'utilisateurs, cliquer sur ***Groupes d'utilisateurs***, puis cocher la case ***Est membre*** de l'utilisateur concerné. Avec un groupe d'utilisateurs créé à partir d'un groupe Active Directory, il n'est pas nécessaire d'attribuer des utilisateurs, car il est automatiquement géré par {{ fr.RDMS }} . 
+Pour attribuer des utilisateurs au groupe d'utilisateurs, cliquer sur ***Groupes d'utilisateurs***, puis cocher la case ***Est membre*** de l'utilisateur concerné. Avec un groupe d'utilisateurs créé à partir d'un groupe Active Directory, il n'est pas nécessaire d'attribuer des utilisateurs, car il est automatiquement géré par {{ fr.DVLS }} . 
 
 ![Attribution de groupe d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/clip8036.png)
 
@@ -42,7 +42,7 @@ Pour créer des utilisateurs, accéder à ***Administration – Utilisateurs*** 
 
 ![Ajouter un utilisateur](https://webdevolutions.azureedge.net/docs/fr/server/clip8037.png)
 
-Un utilisateur peut être affecté à plusieurs groupes d'utilisateurs à la fois en cochant la case ***Est membre*** des groupes respectifs dans la section ***Groupe d'utilisateurs*** de la ***Gestion des utilisateurs*** . Dans le cadre de l'intégration d'Active Directory, il n'est pas nécessaire d'attribuer des utilisateurs à ces groupes car il est automatiquement géré par {{ fr.RDMS }} . 
+Un utilisateur peut être affecté à plusieurs groupes d'utilisateurs à la fois en cochant la case ***Est membre*** des groupes respectifs dans la section ***Groupe d'utilisateurs*** de la ***Gestion des utilisateurs*** . Dans le cadre de l'intégration d'Active Directory, il n'est pas nécessaire d'attribuer des utilisateurs à ces groupes car il est automatiquement géré par {{ fr.DVLS }} . 
 
 ![!!ServerOp4015.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4015.png) 
 

@@ -20,7 +20,7 @@ Description
 Allow browser extensions ( {{ en.DWL }} ) 
 		</td>
 		<td>
-Allow to save credentials in the {{ en.RDMS }} instance with {{ en.DWL }} . 
+Allow to save credentials in the {{ en.DVLS }} instance with {{ en.DWL }} . 
 		</td>
 	</tr>
 	<tr>

@@ -4,7 +4,7 @@ title: Gestion des utilisateurs
 La gestion des utilisateurs est disponible dans le menu ***Administration - Utilisateurs*** . La gestion des utilisateurs vous permet de créer, gérer et attribuer des droits à un utilisateur.  
 ![Administration - Utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4113.png) 
 
-{{ fr.RDM }} permet une gestion avancée des droits d'utilisateur vous permettant de contrôler la façon dont une session est utilisée par chaque utilisateur. Noter que certains contrôles de visibilité dépendent de la source de données active. Il n'existe actuellement aucun moyen d'hériter des droits de sécurité d'un groupe, car ils doivent être attribués individuellement à chaque utilisateur. Si vous utilisez le [{{ fr.RDMS }}](/fr/server/overview/what-is-server/) , vous pourrez alors utiliser la sécurité intégrée avec Active Directory. 
+{{ fr.RDM }} permet une gestion avancée des droits d'utilisateur vous permettant de contrôler la façon dont une session est utilisée par chaque utilisateur. Noter que certains contrôles de visibilité dépendent de la source de données active. Il n'existe actuellement aucun moyen d'hériter des droits de sécurité d'un groupe, car ils doivent être attribués individuellement à chaque utilisateur. Si vous utilisez le [{{ fr.DVLS }}](/fr/server/overview/what-is-server/) , vous pourrez alors utiliser la sécurité intégrée avec Active Directory. 
 
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
@@ -70,7 +70,7 @@ Nom de connexion de l'utilisateur. Lorsque vous utilisez la [Sécurité intégr�
 Sécurité intégrée 
 		</td>
 		<td>
-Spécifie d'utiliser l'authentification intégrée de Windows pour s'authentifier auprès de la source de données. S'applique uniquement à SQL Server et {{ fr.RDMS }} , selon leur configuration. Lorsque cette case est cochée, un bouton de sélection apparaît pour vous permettre de rechercher le compte d'utilisateur dans le répertoire. Consultez la rubrique [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) pour plus d'informations. 
+Spécifie d'utiliser l'authentification intégrée de Windows pour s'authentifier auprès de la source de données. S'applique uniquement à SQL Server et {{ fr.DVLS }} , selon leur configuration. Lorsque cette case est cochée, un bouton de sélection apparaît pour vous permettre de rechercher le compte d'utilisateur dans le répertoire. Consultez la rubrique [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

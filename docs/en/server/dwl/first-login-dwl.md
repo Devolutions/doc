@@ -5,22 +5,22 @@ eleventyComputed:
 ---
 
 ### First Login with {{ en.DWL }} 
-Follow these steps to connect {{ en.RDMS }} to the {{ en.DWL }} extension:  
+Follow these steps to connect {{ en.DVLS }} to the {{ en.DWL }} extension:  
 
 1. Click on the {{ en.DWL }} extension at the top right corner of your browser. 
 {% snippet icon.badgeNotice %} 
-A {{ en.RDMS }} access is required to continue. 
+A {{ en.DVLS }} access is required to continue. 
 {% endsnippet %}
  
-2. Choose ***{{ en.RDMS }}*** in the list, then click ***Save*** . 
+2. Choose ***{{ en.DVLS }}*** in the list, then click ***Save*** . 
 ![First Login](https://webdevolutions.azureedge.net/docs/en/server/Dwl4016.png)
-1. Enter the address of your server. You need to input the same information that you would use to connect to the web interface of your {{ en.RDMS }} . Test the connection to validate it, then click ***Save*** . 
+1. Enter the address of your server. You need to input the same information that you would use to connect to the web interface of your {{ en.DVLS }} . Test the connection to validate it, then click ***Save*** . 
 ![Server Address](https://webdevolutions.azureedge.net/docs/en/server/Dwl4017.png)
 1. ***Log In*** to your account. 
 ![Devolutions Web Login Login](https://webdevolutions.azureedge.net/docs/en/server/Dwl4018.png)
-1. Enter your {{ en.RDMS }} credentials and click ***Log In*** . 
+1. Enter your {{ en.DVLS }} credentials and click ***Log In*** . 
 ![Devolutions Server Login](https://webdevolutions.azureedge.net/docs/en/server/Dwl4019.png)
-1. If you click on the {{ en.DWL }} icon in your web browser, you can validate that {{ en.DWL }} is now connected to your {{ en.RDMS }} . 
+1. If you click on the {{ en.DWL }} icon in your web browser, you can validate that {{ en.DWL }} is now connected to your {{ en.DVLS }} . 
 ![Successful Association of Devolutions Server to Devolutions Web Login](https://webdevolutions.azureedge.net/docs/en/server/Dwl4048.png)
 1. To select the vaults to be synchronized, click on the ***Vaults*** tab, then click the ***Select Vaults to Sync*** button. 
 ![Vaults Tab](https://webdevolutions.azureedge.net/docs/en/server/Dwl4020.png)

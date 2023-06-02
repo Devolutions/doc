@@ -9,7 +9,7 @@ Si une demande d'accès temporaire a été faite dans {{ fr.RDM }} à partir d'u
 La fonction d' ***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'autorisateur doit alors approuver ou refuser la demande. 
 
 {% snippet icon.badgeInfo %} 
-Lorsque vous utilisez une source de données {{ fr.RDMS }} , Microsoft SQL Server ou Microsoft Azure SQL, vous devez d'abord [Activer l'accès temporaire](/fr/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) dans {{ fr.RDM }} . 
+Lorsque vous utilisez une source de données {{ fr.DVLS }} , Microsoft SQL Server ou Microsoft Azure SQL, vous devez d'abord [Activer l'accès temporaire](/fr/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) dans {{ fr.RDM }} . 
 {% endsnippet %}
  
 Pour apprendre comment afficher les demandes en attente, consultez la section [Afficher les demandes d'accès temporaire](#afficher-les-demandes-daccès-temporaire) . 

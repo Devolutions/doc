@@ -1,7 +1,7 @@
 ---
 title: Checkout Process
 ---
-1. To check out an entry requiring approbation, the user needs to go to the ***Privileged Access*** section on the {{ en.RDMS }}'s webpage. 
+1. To check out an entry requiring approbation, the user needs to go to the ***Privileged Access*** section on the {{ en.DVLS }}'s webpage. 
 1. The user then clicks on the ***Accounts*** panel.  
 ![Privileged Access](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6001.png) 
 
@@ -14,7 +14,7 @@ A pop-up will appear requesting information on the checkout request to be sent t
 Once the request is sent, the selected Approver will have the request in the ***Checkout*** field of his ***Privileged Access*** window.  
 ![Checkout Request](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6004.png) 
 
-1. To check out an entry requiring approbation, the user needs to go to the Privileged Access section on the {{ en.RDMS }}'s webpage. 
+1. To check out an entry requiring approbation, the user needs to go to the Privileged Access section on the {{ en.DVLS }}'s webpage. 
 1. The user then clicks on the Accounts panel.  
 ![Privileged Access](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6001.png) 
 

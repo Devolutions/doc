@@ -1,7 +1,7 @@
 ---
 title: Mot de passe interdit
 ---
-Les mots de passe interdits permettent de créer une liste de mots de passe interdit dans l'utilisation de l'application. Une fois défini dans cette liste, le mot de passe ne peut plus être utilisé dans la source de données {{ fr.RDMS }} .  
+Les mots de passe interdits permettent de créer une liste de mots de passe interdit dans l'utilisation de l'application. Une fois défini dans cette liste, le mot de passe ne peut plus être utilisé dans la source de données {{ fr.DVLS }} .  
 ![Administration – Paramètres du système – Mot de passe interdit](https://webdevolutions.azureedge.net/docs/fr/server/clip10378.png) 
 
 <table>

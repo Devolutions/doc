@@ -11,7 +11,7 @@ On the creation of an Account Discovery, it is possible to choose between [Domai
 To see the results of the discovery process, click on the eye icon of the Account Discovery to see the list of accounts.  
 ![Account Discovery results dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8147.png) 
 
-In order to manage privileged accounts with the {{ en.RDMS }} PAM feature, select the accounts from the Account Discovery results page and click on the Import Selected Accounts button. Then the accounts will be available in Privileged Access section.  
+In order to manage privileged accounts with the {{ en.DVLS }} PAM feature, select the accounts from the Account Discovery results page and click on the Import Selected Accounts button. Then the accounts will be available in Privileged Access section.  
 ![Import Selected Accounts operation](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8148.png) 
 
 On import, the [Provider](/server/privileged-access-management/providers/) , Destination Folder and Reset Password options can be set.  

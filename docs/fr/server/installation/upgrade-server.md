@@ -4,17 +4,17 @@ eleventyComputed:
   order: 50
 ---
 {% snippet icon.badgeInfo %} 
-Veuillez installer la Console {{ fr.RDMS }} selon la version souhaité disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download) avant de mettre à jour l'instance web de {{ fr.RDMS }} . 
+Veuillez installer la Console {{ fr.DVLS }} selon la version souhaité disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download) avant de mettre à jour l'instance web de {{ fr.DVLS }} . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Depuis la version 2019.x de {{ fr.RDMS }} , la plupart fonctionnalités sont gérables seulement à partir de l'interface Web. Veuillez consulter la section [Paramètres de {{ fr.RDMS }}](/fr/server/web-interface/administration/configuration/server-settings/). 
+Depuis la version 2019.x de {{ fr.DVLS }} , la plupart fonctionnalités sont gérables seulement à partir de l'interface Web. Veuillez consulter la section [Paramètres de {{ fr.DVLS }}](/fr/server/web-interface/administration/configuration/server-settings/). 
 {% endsnippet %}
  
-Il est fortement recommandé, comme étant une méthode efficace, de déployer une nouvelle instance de {{ fr.RDMS }} dans un environnement de test afin de vérifier sa stabilité avant de déployer une nouvelle version dans votre environnement de production. Si vous ne possédez pas un tel environnement de test, alors nous recommandons un déploiement limité pour garantir une implémentation graduelle satisfaisante avant d'impacter entièrement votre organisation.  
+Il est fortement recommandé, comme étant une méthode efficace, de déployer une nouvelle instance de {{ fr.DVLS }} dans un environnement de test afin de vérifier sa stabilité avant de déployer une nouvelle version dans votre environnement de production. Si vous ne possédez pas un tel environnement de test, alors nous recommandons un déploiement limité pour garantir une implémentation graduelle satisfaisante avant d'impacter entièrement votre organisation.  
 
 {% snippet icon.badgeNotice %} 
-Les étapes suivantes s'adressent à une installation simple ou la [topologie](/fr/server/overview/topologies/) de base. Si votre environnement diffère de ces topologies, veuillez nous contacter et nous vous guiderons sur comment mettre à {{ fr.RDMS }}. 
+Les étapes suivantes s'adressent à une installation simple ou la [topologie](/fr/server/overview/topologies/) de base. Si votre environnement diffère de ces topologies, veuillez nous contacter et nous vous guiderons sur comment mettre à {{ fr.DVLS }}. 
 {% endsnippet %}
  
 ## Étapes 
@@ -24,7 +24,7 @@ Nous vous recommandons fortement de tester le processus de mise à niveau dans u
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Les étapes de mise à niveau seront effectuées avec la Console de {{ fr.RDMS }} . Vous devrez mettre à niveau votre copie vers la dernière version correspondant à la version cible de {{ fr.RDMS }} que vous vous préparez à installer. Veuillez suivre attentivement les étapes. 
+Les étapes de mise à niveau seront effectuées avec la Console de {{ fr.DVLS }} . Vous devrez mettre à niveau votre copie vers la dernière version correspondant à la version cible de {{ fr.DVLS }} que vous vous préparez à installer. Veuillez suivre attentivement les étapes. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
@@ -32,11 +32,11 @@ Si vous avez choisi d'utiliser la Sécurité intégrée pour vous connecter à l
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Si vous avez défini le [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) sur votre {{ fr.RDMS }} actuel, des opérations spécifiques devront être effectuées avant la mise à niveau. Pour plus de détails, veuillez nous contacter. 
+Si vous avez défini le [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) sur votre {{ fr.DVLS }} actuel, des opérations spécifiques devront être effectuées avant la mise à niveau. Pour plus de détails, veuillez nous contacter. 
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 
-Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant toute opération susceptible de modifier les informations de la base de données ou avant la mise à niveau de {{ fr.RDMS }} . Protéger la clé de chiffrement dans un coffre pour éviter la perte de données si {{ fr.RDMS }} doit être restauré. 
+Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant toute opération susceptible de modifier les informations de la base de données ou avant la mise à niveau de {{ fr.DVLS }} . Protéger la clé de chiffrement dans un coffre pour éviter la perte de données si {{ fr.DVLS }} doit être restauré. 
 {% endsnippet %}
  
 ### Phase de préparation 
@@ -48,9 +48,9 @@ Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant to
 ### Phase 1 
 
 * Effectuer une sauvegarde complète de la base de données, prenez des précautions contre la suppression de ce fichier de sauvegarde par un plan de maintenance.  
-* Archiver le contenu du dossier de l'application web contenant l'instance {{ fr.RDMS }} , déplacez-le vers un endroit sûr.  
-* Installer la version appropriée de la Console de {{ fr.RDMS }} . Dans chacune des sous-rubriques liées à une version spécifique de {{ fr.RDMS }} , vous trouverez la version du client dont vous avez besoin.  
-* La Console de {{ fr.RDMS }} doit être exécuté avec des privilèges élevés.  
+* Archiver le contenu du dossier de l'application web contenant l'instance {{ fr.DVLS }} , déplacez-le vers un endroit sûr.  
+* Installer la version appropriée de la Console de {{ fr.DVLS }} . Dans chacune des sous-rubriques liées à une version spécifique de {{ fr.DVLS }} , vous trouverez la version du client dont vous avez besoin.  
+* La Console de {{ fr.DVLS }} doit être exécuté avec des privilèges élevés.  
 
 ### Phase 2 
 
@@ -68,7 +68,7 @@ Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant to
 ### Phase finale 
 
 {% snippet icon.shieldNotice %} 
-Le dossier de sauvegarde contient des informations sur la configuration de l'instance {{ fr.RDMS }} avant la mise à niveau. Après une mise à niveau réussie, vous devez vous assurer que le contenu est soit déplacé vers un endroit sûr, soit supprimé. 
+Le dossier de sauvegarde contient des informations sur la configuration de l'instance {{ fr.DVLS }} avant la mise à niveau. Après une mise à niveau réussie, vous devez vous assurer que le contenu est soit déplacé vers un endroit sûr, soit supprimé. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
@@ -79,6 +79,6 @@ Notre service d'assistance reçoit de plus en plus de demandes d'assistance urge
 Si vous avez sélectionné l'option Sécurité intégrée pour la communication vers la base de données dans l'onglet ***Base de données*** , veuillez vous assurer que les comptes configurés dans le pool d'application IIS et le planificateur possèdent les droits requis sur la base de données suite à la mise à jour. 
 {% endsnippet %}
  
-* Demander à un utilisateur de mettre à niveau son poste de travail avec la version de {{ fr.RDM }} prise en charge par la version {{ fr.RDMS }} et de tester la connectivité avec l'instance de serveur.  
+* Demander à un utilisateur de mettre à niveau son poste de travail avec la version de {{ fr.RDM }} prise en charge par la version {{ fr.DVLS }} et de tester la connectivité avec l'instance de serveur.  
 * Lorsque vous êtes satisfait de vos tests, demander au reste du personnel de passer à la même version de {{ fr.RDM }} .  
 * Mettre à jour la version maximale/minimale de {{ fr.RDM }} dans ***Administration – Paramètres du système – Gestion de version*** .  

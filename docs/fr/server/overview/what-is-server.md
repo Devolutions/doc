@@ -10,7 +10,7 @@ keywords:
 
 ![!!{{ fr.DVLS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg)
 
-{{ fr.RDMS }} est un coffre, déployable dans votre infrastructure, servant à stocker et à partager des informations entre les différentes équipes de votre organisation. Cette solution permet également de gérer des connexions à distance, des identifiants et des informations confidentielles en toute sécurité.  
+{{ fr.DVLS }} est un coffre, déployable dans votre infrastructure, servant à stocker et à partager des informations entre les différentes équipes de votre organisation. Cette solution permet également de gérer des connexions à distance, des identifiants et des informations confidentielles en toute sécurité.  
 
 Notre système de contrôle d'accès basé sur des groupes d'utilisateurs permet d'attribuer des permissions de façon granulaire. Une journalisation avancée des activités de tous les utilisateurs est incluse afin d'offrir une excellente visibilité dans tous les aspects de la solution.  
 
@@ -18,7 +18,7 @@ Grâce à son architecture Web, vous avez la possibilité de la publier soit dan
 
 {% youtube 'w-M3zBe9B0I' %}  
 
-Il existe deux façons d'utiliser {{ fr.RDMS }} : 
+Il existe deux façons d'utiliser {{ fr.DVLS }} : 
 
 <table>
 	<tr>
@@ -45,7 +45,7 @@ Accédez aux ressources stockées dans un coffre à partir d'un navigateur Web g
 Avec l'extension de navigateur {{ fr.DWL }}, les identifiants peuvent être automatiquement saisis lors de la connexion à un site Web. 
 		</td>
 		<td>
-Accédez aux ressources stockées dans un coffre grâce à l'une de nos applications clientes qui sont reliées aux services Web de {{ fr.RDMS }} . 
+Accédez aux ressources stockées dans un coffre grâce à l'une de nos applications clientes qui sont reliées aux services Web de {{ fr.DVLS }} . 
 
 L'application cliente, {{ fr.RDM }} , doit être installée localement pour gérer la source de données. Elle est disponible pour Windows, macOS, Android et iOS.  
 		</td>
@@ -89,7 +89,7 @@ Contrairement au navigateur Web, {{ fr.RDM }} peut lancer des connexions à dist
 Les utilisateurs se verront attribuer des permissions en fonction de leur appartenance aux groupes Active Directory. 
 		</td>
 		<td>
-Possibilité de publier {{ fr.RDMS }} soit dans votre intranet, soit sur Internet grâce à son architecture Web. 
+Possibilité de publier {{ fr.DVLS }} soit dans votre intranet, soit sur Internet grâce à son architecture Web. 
 		</td>
 	</tr>
 	<tr>
@@ -118,7 +118,7 @@ Grand éventail de technologies d' [authentification à 2 facteurs](/fr/server/w
 Recevez des notifications par courriel pour toute activité dans les comptes, les coffres, etc. 
 		</td>
 		<td>
-Contrôlez l'accès à {{ fr.RDMS }} en inscrivant sur une liste blanche, ou inactive, des adresses IP ou des plages d'adresses IP, ainsi qu'en fonction de la géolocalisation. 
+Contrôlez l'accès à {{ fr.DVLS }} en inscrivant sur une liste blanche, ou inactive, des adresses IP ou des plages d'adresses IP, ainsi qu'en fonction de la géolocalisation. 
 		</td>
 	</tr>
 </table>

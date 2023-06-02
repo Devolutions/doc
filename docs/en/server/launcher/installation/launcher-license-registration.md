@@ -4,11 +4,11 @@ order: 30
 ---
 Register and assign your {{ en.LAUNCHER }} license serial. 
 
-### {{ en.RDMS }} Launcher License 
+### {{ en.DVLS }} Launcher License 
 
-To register a ***Launcher*** license, in {{ en.RDMS }} , you need to add a ***Licenses*** and assign it to the users. 
+To register a ***Launcher*** license, in {{ en.DVLS }} , you need to add a ***Licenses*** and assign it to the users. 
 
-1. In the web interface, of {{ en.RDMS }} , go to ***Administration - Licenses*** . 
+1. In the web interface, of {{ en.DVLS }} , go to ***Administration - Licenses*** . 
 1. Click the ***Add*** button. 
 ![!!ServerOp4038.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4038.png) 
 1. Paste the ***License*** . 

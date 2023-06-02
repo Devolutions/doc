@@ -2,7 +2,7 @@
 title: Gestion des accès privilégiés (PAM)
 ---
 {% snippet icon.badgeInfo %} 
-Pour utiliser ces fonctionnalités, vous devez d'abord vous assurer qu'elles sont activées dans la [Gestion des accès privilégiés (PAM)](/fr/server/web-interface/administration/configuration/server-settings/security/priviledge-access-management/) dans les paramètres de {{ fr.RDMS }} . 
+Pour utiliser ces fonctionnalités, vous devez d'abord vous assurer qu'elles sont activées dans la [Gestion des accès privilégiés (PAM)](/fr/server/web-interface/administration/configuration/server-settings/security/priviledge-access-management/) dans les paramètres de {{ fr.DVLS }} . 
 {% endsnippet %}
 
 ![Administration - Permissions du système - PAM](https://webdevolutions.azureedge.net/docs/fr/server/AdminPAM.png)  

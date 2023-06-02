@@ -151,7 +151,7 @@ Indique si l'utilisateur peut ajouter des entrées à la racine de la source de 
 L'onglet ***Groupes d'utilisateurs*** affiche les groupes d'utilisateurs dont l'utilisateur est membre et les droits associés à ces groupes d'utilisateurs. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité est uniquement disponible avec une source de données [SQL Server/Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [{{ fr.RDMS }} (DVLS)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) . 
+Cette fonctionnalité est uniquement disponible avec une source de données [SQL Server/Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [{{ fr.DVLS }} (DVLS)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) . 
 {% endsnippet %}
  
 

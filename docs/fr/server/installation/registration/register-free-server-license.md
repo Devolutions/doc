@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Enregistrer une Licence {{ fr.RDMS }} Free
+  title: Enregistrer une Licence {{ fr.DVLS }} Free
   order: 20
 ---
 

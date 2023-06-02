@@ -19,7 +19,7 @@ Description
 {{ en.RDM }} 
 		</td>
 		<td>
-Allow user to access {{ en.RDMS }} through {{ en.RDM }} . 
+Allow user to access {{ en.DVLS }} through {{ en.RDM }} . 
 		</td>
 	</tr>
 	<tr>
@@ -44,7 +44,7 @@ Allow user to open remote connections with {{ en.LAUNCHER }} .
 Web 
 		</td>
 		<td>
-Allow user to use {{ en.RDMS }} web interface. 
+Allow user to use {{ en.DVLS }} web interface. 
 		</td>
 	</tr>
 	<tr>

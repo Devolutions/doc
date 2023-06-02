@@ -56,7 +56,7 @@ Allow entries to be locked when used or edited.
 Allow virtual folders 
 		</td>
 		<td>
-Allow to store entries in virtual folders (not supported with {{ en.RDMS }} ). 
+Allow to store entries in virtual folders (not supported with {{ en.DVLS }} ). 
 		</td>
 	</tr>
 	<tr>

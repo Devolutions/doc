@@ -20,7 +20,7 @@ Type d'authentification
 		<td>
 Sélectionner le type d'authentification de l'utilisateur:  
 
-* ***{{ fr.RDMS }}***   : Créer un utilisateur dans {{ fr.RDMS }} sans créer de connexion SQL. 
+* ***{{ fr.DVLS }}***   : Créer un utilisateur dans {{ fr.DVLS }} sans créer de connexion SQL. 
 * ***Domaine*** : Authentifiez-vous à l'aide du compte d'utilisateur Active Directory. 
 * ***Office 365***   : Authentifiez-vous à l'aide du compte Office 365. 
 		</td>
@@ -55,7 +55,7 @@ Sélectionner le type de licence dont dispose l'utilisateur:
 
 * ***Par défaut***   : Gestion des connexions. 
 * ***Gestion des connexions***   : Pour les utilisateurs qui ouvrent des connexions à distance. 
-* ***Gestion des mots de passe***   : Pour les utilisateurs qui n'utilisent que {{ fr.RDMS }} comme gestionnaire de mots de passe. 
+* ***Gestion des mots de passe***   : Pour les utilisateurs qui n'utilisent que {{ fr.DVLS }} comme gestionnaire de mots de passe. 
 		</td>
 	</tr>
 	<tr>

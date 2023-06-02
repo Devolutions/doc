@@ -8,7 +8,7 @@ title: Devolutions Server
 ![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
-{{ en.RDMS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the product's web site [here](https://devolutions.net/server/) . 
+{{ en.DVLS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the product's web site [here](https://devolutions.net/server/) . 
 		</td>
 	</tr>
 </table>
@@ -22,13 +22,13 @@ title: Devolutions Server
 * Optimized client and server side caching. 
 
 {% snippet icon.badgeInfo %} 
-{{ en.RDMS }} supports Microsoft SQL Server and Microsoft Azure SQL as a data store. 
+{{ en.DVLS }} supports Microsoft SQL Server and Microsoft Azure SQL as a data store. 
 {% endsnippet %}
  
 For more information, please consult these topics:  
 
-* [{{ en.RDMS }} installation instructions](/server/installation/) 
-* [{{ en.RDMS }} Security Checklist](/server/getting-started/security-checklist/) 
+* [{{ en.DVLS }} installation instructions](/server/installation/) 
+* [{{ en.DVLS }} Security Checklist](/server/getting-started/security-checklist/) 
 
 ## Configure the server data source on all your client machines 
 Enter a name of the data source and the URL for the Host. Ensure you use the correct protocol if SSL is required by the server (https).  
@@ -126,7 +126,7 @@ Always ask for the password when connecting to the data source.
 Test Connection 
 		</td>
 		<td>
-Test the connection with {{ en.RDMS }} to validate the credentials. 
+Test the connection with {{ en.DVLS }} to validate the credentials. 
 		</td>
 	</tr>
 </table>
@@ -193,7 +193,7 @@ Select the type of [{{ en.PVLT }}](/rdm/windows/data-sources/data-sources-types/
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your {{ en.RDMS }} .  
+Open a VPN to access your data prior to connecting to your {{ en.DVLS }} .  
 ![Devolutions Server - VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DPSVPN.png) 
 
 ### Advanced 

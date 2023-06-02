@@ -6,7 +6,7 @@ Le ***{{ fr.PVLT }}*** est un coffre personnalisé pour l'utilisateur pour les e
 Pour créer une nouvelle entrée dans votre {{ fr.PVLT }} , cliquer sur {{ fr.PVLT }} dans votre Volet de navigation et créer votre nouvelle entrée directement à partir de là.  
 
 {% snippet icon.badgeInfo %} 
-Le {{ fr.PVLT }} est uniquement disponible pour les sources de données suivantes: [SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [{{ fr.RDMS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) . 
+Le {{ fr.PVLT }} est uniquement disponible pour les sources de données suivantes: [SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) . 
 {% endsnippet %}
  
 ![Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4416.png) 

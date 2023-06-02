@@ -2,7 +2,7 @@
 title: Domaine
 order: 10
 ---
-Le domaine est utilisé pour authentifier l'utilisateur. C'est le plus sûr, le plus flexible et le plus simple à gérer . Pas besoin de synchroniser les utilisateurs entre le domaine et {{ fr.RDMS }} . Lors de la première utilisation de la source de données {{ fr.RDMS }} , l'utilisateur sera créé et se verra attribuer des droits d'accès en fonction de son rôle dans l'organisation tel que défini sur le domaine. Vous devez accorder les autorisations appropriées à vos groupes d'utilisateurs dans {{ fr.RDMS }} . Lors de l'authentification, nous validerons les groupes AD auxquels appartient l'utilisateur et pour tous ceux qui ont un groupe correspondant, nous accorderons les permissions à l'utilisateur. 
+Le domaine est utilisé pour authentifier l'utilisateur. C'est le plus sûr, le plus flexible et le plus simple à gérer . Pas besoin de synchroniser les utilisateurs entre le domaine et {{ fr.DVLS }} . Lors de la première utilisation de la source de données {{ fr.DVLS }} , l'utilisateur sera créé et se verra attribuer des droits d'accès en fonction de son rôle dans l'organisation tel que défini sur le domaine. Vous devez accorder les autorisations appropriées à vos groupes d'utilisateurs dans {{ fr.DVLS }} . Lors de l'authentification, nous validerons les groupes AD auxquels appartient l'utilisateur et pour tous ceux qui ont un groupe correspondant, nous accorderons les permissions à l'utilisateur. 
 
 ![Authentification de domaine](https://webdevolutions.azureedge.net/docs/fr/server/AuthenticationDomain.png) 
 
@@ -46,7 +46,7 @@ Ajouter les identifiants d'un domaine ou d'un compte de service pour accéder à
 Autoriser les connexions utilisant le courriel 
 		</td>
 		<td>
-Autoriser les utilisateurs à utiliser leur adresse courriel pour se connecter à l'instance {{ fr.RDMS }} . Le champ de l'adresse courriel doit être rempli dans la Gestion des utilisateurs. 
+Autoriser les utilisateurs à utiliser leur adresse courriel pour se connecter à l'instance {{ fr.DVLS }} . Le champ de l'adresse courriel doit être rempli dans la Gestion des utilisateurs. 
 		</td>
 	</tr>
 </table>
@@ -83,7 +83,7 @@ Personnalisé : Définir une valeur de port spécifique.
 ### Multi Domaine (Désactivé) 
 
 {% snippet icon.badgeCaution %} 
-La fonction ***Multi Domaine*** nécessite la licence {{ fr.RDMS }} Édition Platinum. Actuellement, il ne fonctionne qu'avec des domaines approuvés appartenant à la même forêt AD. 
+La fonction ***Multi Domaine*** nécessite la licence {{ fr.DVLS }} Édition Platinum. Actuellement, il ne fonctionne qu'avec des domaines approuvés appartenant à la même forêt AD. 
 {% endsnippet %}
  
 <table>

@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Launcher and {{ en.RDMS }} Synchronization
+  title: Launcher and {{ en.DVLS }} Synchronization
   order: 20
 ---
-{{ en.LAUNCHER }} and {{ en.RDMS }} must be configured together to work. Launch connections can be set for all users in ***{{ en.RDMS }} Server Settings*** or individually in ***Account Settings*** .  
+{{ en.LAUNCHER }} and {{ en.DVLS }} must be configured together to work. Launch connections can be set for all users in ***{{ en.DVLS }} Server Settings*** or individually in ***Account Settings*** .  
 
 {% snippet icon.badgeInfo %} 
-You need to at least log in once to {{ en.LAUNCHER }} for the companion tool to launch your sessions from {{ en.RDMS }} . 
+You need to at least log in once to {{ en.LAUNCHER }} for the companion tool to launch your sessions from {{ en.DVLS }} . 
 {% endsnippet %}
  
 ### Server Settings 

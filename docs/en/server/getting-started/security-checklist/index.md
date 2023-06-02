@@ -4,7 +4,7 @@ title: Security Checklist
 To achieve the highest level of security, you should adhere to the following guidelines.  
 
 {% snippet icon.shieldWarning %} 
-These recommendations are valid ONLY if the {{ en.RDMS }} instance is hosted on an intranet EXCLUSIVELY. You must involve a person with knowledge of Internet security to safely host any application on the Internet. You need to protect the site from Denial of Service attacks using an appliance or a security module that is external to {{ en.RDMS }} . 
+These recommendations are valid ONLY if the {{ en.DVLS }} instance is hosted on an intranet EXCLUSIVELY. You must involve a person with knowledge of Internet security to safely host any application on the Internet. You need to protect the site from Denial of Service attacks using an appliance or a security module that is external to {{ en.DVLS }} . 
 {% endsnippet %}
  
 ## General 

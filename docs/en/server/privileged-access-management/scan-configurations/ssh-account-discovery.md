@@ -1,7 +1,7 @@
 ---
 title: SSH Account Discovery
 ---
-The SSH Account Discovery allows {{ en.RDMS }} to scan the host to find accounts. The accounts will not be automatically added in the Privileged Access Management folders.  
+The SSH Account Discovery allows {{ en.DVLS }} to scan the host to find accounts. The accounts will not be automatically added in the Privileged Access Management folders.  
 ![SSH Account Discovery dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8146.png) 
 
 ### General 

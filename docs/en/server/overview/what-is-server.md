@@ -10,7 +10,7 @@ keywords:
 
 ![!!Devolutions Server logo]({{ locale[lang].projects.server.logo }})
 
-{{ en.RDMS }} is an on‑premise vault for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease.  
+{{ en.DVLS }} is an on‑premise vault for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease.  
 
 Use our ***User Groups Based Access Control*** to grant permissions in a granular fashion. Advanced logging of all user activity is included to offer visibility in all aspects of the solution.  
 
@@ -18,7 +18,7 @@ Because of its Web Architecture you have the possibility to offer it only from y
 
 {% youtube 'bOTKsqdPulI' %}  
 
-There are two ways of using {{ en.RDMS }} : 
+There are two ways of using {{ en.DVLS }} : 
 
 <table>
 	<tr>
@@ -45,7 +45,7 @@ Access vaulted resources from a web browser using a Client Access License (CAL).
 With the {{ en.DWL }} browser extension, credentials can be automatically submitted when connecting to a website. 
 		</td>
 		<td>
-Access vaulted resources using our client applications which communicate with {{ en.RDMS }} web services. A local installation of a client application such as {{ en.RDM }} is required to manage the data source and its resources. Note that we offer Windows, macOS, Android and iOS editions.  
+Access vaulted resources using our client applications which communicate with {{ en.DVLS }} web services. A local installation of a client application such as {{ en.RDM }} is required to manage the data source and its resources. Note that we offer Windows, macOS, Android and iOS editions.  
 
 Use any type of entry, manage all aspects of the data source and monitor user activity all in the same application. 
 		</td>

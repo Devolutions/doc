@@ -8,7 +8,7 @@ Le ***Mode réservation*** peut être activé pour des entrées de type ***Sessi
 Vous pouvez définir le ***Mode réservation*** au niveau du coffre, du dossier ou de l'entrée. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité est seulement disponible avec une source de données telles que Microsoft SQL Server ou {{ fr.RDMS }} . 
+Cette fonctionnalité est seulement disponible avec une source de données telles que Microsoft SQL Server ou {{ fr.DVLS }} . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

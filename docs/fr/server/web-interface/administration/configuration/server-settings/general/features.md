@@ -21,7 +21,7 @@ Description
 Permettre les extensions de navigateur 
 		</td>
 		<td>
-Permets d'enregistrer les identifiants dans l'instance {{ fr.RDMS }} avec [{{ fr.DWL }}](/fr/server/dwl/overview/) . 
+Permets d'enregistrer les identifiants dans l'instance {{ fr.DVLS }} avec [{{ fr.DWL }}](/fr/server/dwl/overview/) . 
 		</td>
 	</tr>
 	<tr>

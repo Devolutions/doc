@@ -29,7 +29,7 @@ Display name of the Application key .
 Application key 
 		</td>
 		<td>
-Application key to be use in the application to communicate with {{ en.RDMS }} instance. 
+Application key to be use in the application to communicate with {{ en.DVLS }} instance. 
 		</td>
 	</tr>
 	<tr>

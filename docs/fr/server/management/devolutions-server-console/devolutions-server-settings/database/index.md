@@ -2,7 +2,7 @@
 title: Base de données
 order: 20
 ---
-La section de l'onglet ***Base de données*** contient les informations du serveur SQL, les identifiants SQL et le nom de la base de données utilisé par {{ fr.RDMS }} .  
+La section de l'onglet ***Base de données*** contient les informations du serveur SQL, les identifiants SQL et le nom de la base de données utilisé par {{ fr.DVLS }} .  
 
 ![Paramètres Serveur - Base de données](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8002.png) 
 
@@ -90,7 +90,7 @@ Afficher la version actuelle de la base de données.
 ### Identifiants 
 
 {% snippet icon.badgeInfo %} 
-Prendre note que les paramètres de sécurité intégrée ou des identifiants affectent la manière dont {{ fr.RDMS }} communique avec la base de données SQL. Ces options n'ont aucun impact sur la manière dont les utilisateurs s'authentifieront sur l'instance de {{ fr.RDMS }} . 
+Prendre note que les paramètres de sécurité intégrée ou des identifiants affectent la manière dont {{ fr.DVLS }} communique avec la base de données SQL. Ces options n'ont aucun impact sur la manière dont les utilisateurs s'authentifieront sur l'instance de {{ fr.DVLS }} . 
 {% endsnippet %}
  
 <table>

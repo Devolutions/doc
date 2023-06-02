@@ -2,7 +2,7 @@
 title: Database
 order: 20
 ---
-The ***Database*** tab section contains the information of the SQL Server, the SQL credentials information and the database name used by {{ en.RDMS }} . 
+The ***Database*** tab section contains the information of the SQL Server, the SQL credentials information and the database name used by {{ en.DVLS }} . 
 
 ![Server Settings - Database](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8002.png) 
 
@@ -87,7 +87,7 @@ View what is the current database version.
 ### Credentials 
 
 {% snippet icon.badgeInfo %} 
-Note that the Integrated Security or Credentials settings affect how the {{ en.RDMS }} communicates with the SQL database. These options do not have any impact on how users will authenticate on the {{ en.RDMS }} instance. 
+Note that the Integrated Security or Credentials settings affect how the {{ en.DVLS }} communicates with the SQL database. These options do not have any impact on how users will authenticate on the {{ en.DVLS }} instance. 
 {% endsnippet %}
  
 <table>

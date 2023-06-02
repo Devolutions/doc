@@ -1,7 +1,7 @@
 ---
 title: Licenses
 ---
-Managing {{ en.RDM }} registration globally for all your users can be done with a license serial stored in an advanced data source such as {{ en.RDMS }} , Microsoft SQL Server or Azure SQL. 
+Managing {{ en.RDM }} registration globally for all your users can be done with a license serial stored in an advanced data source such as {{ en.DVLS }} , Microsoft SQL Server or Azure SQL. 
 
 {% snippet icon.badgeInfo %} 
 It is possible to [request a trial](/rdm/windows/installation/client/registration/trial-request/) to try {{ en.RDM }} for 30 days. If you decide not to register the application at the end of the 30 days period, your data will not be altered or erased, and you will have full access to it once you provide a valid license serial. 

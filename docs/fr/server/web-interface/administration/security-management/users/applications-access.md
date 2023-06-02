@@ -20,7 +20,7 @@ Description
 {{ fr.RDM }} 
 		</td>
 		<td>
-Autoriser l'utilisateur à accéder au {{ fr.RDMS }} via {{ fr.RDM }} . 
+Autoriser l'utilisateur à accéder au {{ fr.DVLS }} via {{ fr.RDM }} . 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Autoriser l'utilisateur à ouvrir des connexions à distance avec {{ fr.LAUNCHER
 Web 
 		</td>
 		<td>
-Autoriser l'utilisateur à utiliser l'interface Web de {{ fr.RDMS }} . 
+Autoriser l'utilisateur à utiliser l'interface Web de {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>

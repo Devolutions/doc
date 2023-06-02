@@ -37,10 +37,10 @@ AzureAD est utilisé pour authentifier l'utilisateur.
 	</tr>
 	<tr>
 		<td>
-S'authentifier avec l'authentification {{ fr.RDMS }} 
+S'authentifier avec l'authentification {{ fr.DVLS }} 
 		</td>
 		<td>
-{{ fr.RDMS }} est utilisé pour authentifier l'utilisateur. Vous devez créer l'utilisateur initial via la console. 
+{{ fr.DVLS }} est utilisé pour authentifier l'utilisateur. Vous devez créer l'utilisateur initial via la console. 
 		</td>
 	</tr>
 	<tr>
@@ -48,7 +48,7 @@ S'authentifier avec l'authentification {{ fr.RDMS }}
 Authentification Windows 
 		</td>
 		<td>
-L'application utilisera l'utilisateur actuellement authentifié Windows pour s'authentifier auprès de l'instance {{ fr.RDMS }} . 
+L'application utilisera l'utilisateur actuellement authentifié Windows pour s'authentifier auprès de l'instance {{ fr.DVLS }} . 
 		</td>
 	</tr>
 </table>

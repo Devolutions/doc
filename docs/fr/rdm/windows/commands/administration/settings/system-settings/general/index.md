@@ -58,7 +58,7 @@ Autoriser le verrouillage des entrées lorsqu'elles sont utilisées ou modifiée
 Permettre les dossiers virtuels 
 		</td>
 		<td>
-Permet de stocker des entrées dans des dossiers virtuels. (Non pris en charge avec {{ fr.RDMS }} .) 
+Permet de stocker des entrées dans des dossiers virtuels. (Non pris en charge avec {{ fr.DVLS }} .) 
 		</td>
 	</tr>
 	<tr>

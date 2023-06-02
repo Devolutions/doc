@@ -28,7 +28,7 @@ Afficher le nom de la clé d'application.
 Clé de l'application 
 		</td>
 		<td>
-Clé d'application à utiliser dans l'application pour communiquer avec l'instance {{ fr.RDMS }} . 
+Clé d'application à utiliser dans l'application pour communiquer avec l'instance {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>

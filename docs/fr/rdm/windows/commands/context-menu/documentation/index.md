@@ -6,11 +6,11 @@ La fonction ***Documentation*** permet de stocker des informations sur les resso
 La documentation est écrite à l'aide de [Markdown](https://fr.wikipedia.org/wiki/Markdown) , une syntaxe de formatage de texte brut. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité est disponible avec les sources de données {{ fr.RDMS }} et SQL Server. 
+Cette fonctionnalité est disponible avec les sources de données {{ fr.DVLS }} et SQL Server. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-La fonctionnalité ***Documentation*** est chiffrée uniquement pour la source de données {{ fr.RDMS }} . Si vous utilisez des sources de données telles que SQL Server ou Azure SQL, la fonctionnalité de documentation n'est pas chiffrée. 
+La fonctionnalité ***Documentation*** est chiffrée uniquement pour la source de données {{ fr.DVLS }} . Si vous utilisez des sources de données telles que SQL Server ou Azure SQL, la fonctionnalité de documentation n'est pas chiffrée. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 

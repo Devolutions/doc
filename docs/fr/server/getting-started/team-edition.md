@@ -3,9 +3,9 @@ title: Devolutions Server - édition Team
 keywords:
 - rôle
 ---
-Après l'achat d'une licence de {{ fr.TITLESBE }} , un courriel vous est envoyé contenant la clé de licence. Cette clé vous permet de créer une nouvelle instance de {{ fr.RDMS }} .  
+Après l'achat d'une licence de {{ fr.TITLESBE }} , un courriel vous est envoyé contenant la clé de licence. Cette clé vous permet de créer une nouvelle instance de {{ fr.DVLS }} .  
 
-La procédure d'installation est disponible dans la section [Installation de {{ fr.RDMS }}](/fr/server/installation/) .  
+La procédure d'installation est disponible dans la section [Installation de {{ fr.DVLS }}](/fr/server/installation/) .  
 
 {% snippet icon.badgeCaution %} 
 Veuillez vérifier vos courriels indésirables si vous ne voyez pas un courriel dans votre boîte de réception. 
@@ -35,7 +35,7 @@ Ajouter des utilisateurs du domaine aux groupes d'Active Directory.
 	</tr>
 </table>
 
-## Liste de vérification pour installer et exécuter {{ fr.RDMS }} 
+## Liste de vérification pour installer et exécuter {{ fr.DVLS }} 
 
 ### Configuration logicielle requise du serveur hébergeant l'instance 
 
@@ -76,7 +76,7 @@ Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Micr
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer une instance de {{ fr.RDMS }} (voir [Créer une instance de {{ fr.RDMS }}](/server/installation/create-server-instance/) ). 
+Créer une instance de {{ fr.DVLS }} (voir [Créer une instance de {{ fr.DVLS }}](/server/installation/create-server-instance/) ). 
 		</td>
 	</tr>
 	<tr>
@@ -84,7 +84,7 @@ Créer une instance de {{ fr.RDMS }} (voir [Créer une instance de {{ fr.RDMS }}
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer un compte administrateur de {{ fr.RDMS }} avec [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/) . 
+Créer un compte administrateur de {{ fr.DVLS }} avec [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/) . 
 		</td>
 	</tr>
 	<tr>

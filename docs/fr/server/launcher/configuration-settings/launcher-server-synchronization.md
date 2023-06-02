@@ -1,15 +1,15 @@
 ---
 eleventyComputed:
-  title: Synchronisation de Launcher et {{ fr.RDMS }}
+  title: Synchronisation de Launcher et {{ fr.DVLS }}
   order: 20
 ---
-{{ fr.LAUNCHER }} et {{ fr.RDMS }} doivent être configurés ensemble. Le lancement de connexions peut être défini pour tous les utilisateurs dans les ***Paramètres de {{ fr.RDMS }}*** ou individuellement dans les ***Paramètres du compte*** .  
+{{ fr.LAUNCHER }} et {{ fr.DVLS }} doivent être configurés ensemble. Le lancement de connexions peut être défini pour tous les utilisateurs dans les ***Paramètres de {{ fr.DVLS }}*** ou individuellement dans les ***Paramètres du compte*** .  
 
 {% snippet icon.badgeInfo %} 
-Vous devez vous connecter au moins une fois à {{ fr.LAUNCHER }} pour que l'outil lance les sessions à partir de {{ fr.RDMS }} . 
+Vous devez vous connecter au moins une fois à {{ fr.LAUNCHER }} pour que l'outil lance les sessions à partir de {{ fr.DVLS }} . 
 {% endsnippet %}
  
-### Paramètres de {{ fr.RDMS }} 
+### Paramètres de {{ fr.DVLS }} 
 
 Cette méthode définit comment tous les utilisateurs lanceront les connexions.  
 

@@ -4,7 +4,7 @@ title: Task
 The ***Task*** feature is similar to [***Task List***](/rdm/windows/commands/view/panels/task-list/) , but it applies only to the selected entry. Tasks are available from the context menu ***View – Layout – Task*** . 
 
 {% snippet icon.badgeInfo %} 
-This feature is only available for the following data sources: [{{ en.RDMS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) , [Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) , [SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) , and [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) . 
+This feature is only available for the following data sources: [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) , [Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) , [SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) , and [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) . 
 {% endsnippet %}
  
 ![Task Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2035.png) 

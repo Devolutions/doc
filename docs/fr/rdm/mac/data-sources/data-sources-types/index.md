@@ -55,12 +55,12 @@ Inconvénients :
 ![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
-{{ fr.RDMS }} 
+{{ fr.DVLS }} 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac utilise {{ fr.RDMS }} pour stocker les informations de session.  
+{{ fr.RDM }} pour Mac utilise {{ fr.DVLS }} pour stocker les informations de session.  
 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.RDMS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) . 
+Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) . 
 		</td>
 		<td>
 Avantages : 

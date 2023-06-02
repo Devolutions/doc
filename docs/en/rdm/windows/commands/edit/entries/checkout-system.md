@@ -10,7 +10,7 @@ The checkout system can be enabled for ***Sessions*** , ***Documents*** , ***Cre
 You can set the check out mode at the {{ en.VLT }} , folder or entry level. 
 
 {% snippet icon.badgeInfo %} 
-This feature is only available when using [SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) or [{{ en.RDMS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) data sources. 
+This feature is only available when using [SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) or [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) data sources. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

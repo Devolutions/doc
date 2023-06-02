@@ -8,7 +8,7 @@ title: Devolutions Server
 ![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
-***{{ fr.RDMS }}*** est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr) . 
+***{{ fr.DVLS }}*** est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr) . 
 		</td>
 	</tr>
 </table>
@@ -22,12 +22,12 @@ title: Devolutions Server
 * Optimisation de la mise en cache côté client et serveur. 
 
 {% snippet icon.badgeInfo %} 
-À l'heure actuelle, {{ fr.RDMS }} prend uniquement en charge SQL Server et Azure SQL en tant que base de données. 
+À l'heure actuelle, {{ fr.DVLS }} prend uniquement en charge SQL Server et Azure SQL en tant que base de données. 
 {% endsnippet %}
  
 Pour plus d'informations, veuillez consulter ces rubriques:  
 
-* [Installation de {{ fr.RDMS }}](/fr/server/installation/) 
+* [Installation de {{ fr.DVLS }}](/fr/server/installation/) 
 * [Liste de vérification relative à la sécurité](/fr/server/getting-started/security-checklist/) 
 
 ## Configurer la source de données du serveur sur toutes vos machines clientes. 
@@ -40,7 +40,7 @@ Vous pouvez également exporter les informations sur la source de données, puis
 
 ### Général 
 
-![{{ fr.RDMS }} - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11355.png) 
+![{{ fr.DVLS }} - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11355.png) 
 
 <table>
 	<tr>
@@ -65,7 +65,7 @@ Nom de la source de données.
 Hôte 
 		</td>
 		<td>
-Nom de l'hôte (URL) de {{ fr.RDMS }}.  
+Nom de l'hôte (URL) de {{ fr.DVLS }}.  
 
 Exemple: `http://<hostname or IP address>/<instance name>` 
 		</td>
@@ -127,14 +127,14 @@ Toujours demander le mot de passe lors de la connexion à la source de données.
 Tester connexion 
 		</td>
 		<td>
-Tester la connexion avec {{ fr.RDMS }} pour valider si les informations appropriées ont été fournies.. 
+Tester la connexion avec {{ fr.DVLS }} pour valider si les informations appropriées ont été fournies.. 
 		</td>
 	</tr>
 </table>
 
 ### Paramètres 
 
-![{{ fr.RDMS }} - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11356.png) 
+![{{ fr.DVLS }} - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11356.png) 
 
 <table>
 	<tr>
@@ -169,7 +169,7 @@ Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer o
 
 ### {{ fr.PVLT }} 
 
-![{{ fr.RDMS }} – {{ fr.PVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3603.png)  
+![{{ fr.DVLS }} – {{ fr.PVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3603.png)  
 
 <table>
 	<tr>
@@ -197,12 +197,12 @@ Sélectionner le type de [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/data-sourc
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.RDMS }} .  
-![{{ fr.RDMS }} - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/DPSVPN.png) 
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DVLS }} .  
+![{{ fr.DVLS }} - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/DPSVPN.png) 
 
 ### Avancé 
 
-![{{ fr.RDMS }} - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10815.png) 
+![{{ fr.DVLS }} - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10815.png) 
 
 <table>
 	<tr>

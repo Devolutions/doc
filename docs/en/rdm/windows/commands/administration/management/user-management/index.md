@@ -62,7 +62,7 @@ Enter the username for the user. When using [Integrated Security](/rdm/windows/c
 Integrated security (Active Directory) 
 		</td>
 		<td>
-Specifie to use Active Directory to authenticate to the data source. Applies only to SQL Server and {{ en.RDMS }} , depending on their configuration. For more information, please consult the [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/) topic. 
+Specifie to use Active Directory to authenticate to the data source. Applies only to SQL Server and {{ en.DVLS }} , depending on their configuration. For more information, please consult the [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/) topic. 
 		</td>
 	</tr>
 	<tr>

@@ -2,7 +2,7 @@
 title: Sélection de la source Hub
 order: 10
 ---
-Lorsque l 'installation sera terminée, {{ fr.LAUNCHER }} vous invitera à choisir une source Web entre {{ fr.HUB }} et {{ fr.RDMS }} . 
+Lorsque l 'installation sera terminée, {{ fr.LAUNCHER }} vous invitera à choisir une source Web entre {{ fr.HUB }} et {{ fr.DVLS }} . 
 {% snippet icon.badgeInfo %} 
 La ***Sélection de la Source de données*** est disponible dans ***Paramètres - Source de données*** de {{ fr.LAUNCHER }} . 
 {% endsnippet %}

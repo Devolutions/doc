@@ -2,7 +2,7 @@
 title: Privileged Access Management
 ---
 {% snippet icon.badgeInfo %} 
-To use these features you must first ensure they are enabled in the [Privileged Access Management](/server/web-interface/administration/configuration/server-settings/security/priviledge-access-management/) in the {{ en.RDMS }} Settings . 
+To use these features you must first ensure they are enabled in the [Privileged Access Management](/server/web-interface/administration/configuration/server-settings/security/priviledge-access-management/) in the {{ en.DVLS }} Settings . 
 {% endsnippet %}
 
 ![Administration - System Permissions - PAM](https://webdevolutions.azureedge.net/docs/en/server/AdminPAM.png) 

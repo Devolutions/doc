@@ -4,11 +4,11 @@ order: 30
 ---
 Enregistrer votre licence {{ fr.LAUNCHER }}.  
 
-### Enregistrement de la licence Launcher pour {{ fr.RDMS }} 
+### Enregistrement de la licence Launcher pour {{ fr.DVLS }} 
 
-Pour enregistrer une licence ***Launcher*** , dans {{ fr.RDMS }}, vous devez ajouter une ***Licence*** et l'assigner aux utilisateurs.  
+Pour enregistrer une licence ***Launcher*** , dans {{ fr.DVLS }}, vous devez ajouter une ***Licence*** et l'assigner aux utilisateurs.  
 
-1. Dans l'interface Web, de {{ fr.RDMS }}, accéder à ***Administration - Licences*** . 
+1. Dans l'interface Web, de {{ fr.DVLS }}, accéder à ***Administration - Licences*** . 
 1. Cliquer sur le bouton ***Ajouter*** .  
 ![!!ServerOp4002.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4002.png) 
 1. Coller la ***Licence*** . 

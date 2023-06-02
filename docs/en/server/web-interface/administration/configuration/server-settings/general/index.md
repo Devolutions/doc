@@ -2,7 +2,7 @@
 title: General
 order: 10
 ---
-The General section allows the Administrator to modify the name or the description of the {{ en.RDMS }} instance. 
+The General section allows the Administrator to modify the name or the description of the {{ en.DVLS }} instance. 
 
 ![Administration - Devolutions Server Settings - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8041.png)
 

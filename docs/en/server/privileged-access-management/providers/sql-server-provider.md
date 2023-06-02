@@ -1,7 +1,7 @@
 ---
 title: SQL Server Provider
 ---
-The SQL Provider allows {{ en.RDMS }} to store the SQL account credentials to be used for SQL accounts discovery or to achieve password rotation.  
+The SQL Provider allows {{ en.DVLS }} to store the SQL account credentials to be used for SQL accounts discovery or to achieve password rotation.  
 ![SQL Provider dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6023.png) 
 
 ### General 

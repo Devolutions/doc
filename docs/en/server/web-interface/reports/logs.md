@@ -13,7 +13,7 @@ Click the ***Log Entry*** button to view more information about the activity.
 
 ![!!ServerOp4066.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4066.png) 
 ### Data Sources Logs 
-The ***Data Sources Logs*** displays the logs of the {{ en.RDMS }} data source. For more information on a specific log, click the arrow at the beginning of the line.  
+The ***Data Sources Logs*** displays the logs of the {{ en.DVLS }} data source. For more information on a specific log, click the arrow at the beginning of the line.  
 
 ![!!ServerOp4067.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4067.png) 
 ### Administration Logs 

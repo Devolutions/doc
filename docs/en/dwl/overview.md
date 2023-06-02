@@ -5,7 +5,7 @@ order: 5
 ![!!Devolutions Web Login logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
 
 
-{{ en.DWL }} is a web browser password plugin used in conjunction with {{ en.RDM }} , {{ en.RDMS }} and {{ en.PHUB }} , which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s .  
+{{ en.DWL }} is a web browser password plugin used in conjunction with {{ en.RDM }} , {{ en.DVLS }} and {{ en.PHUB }} , which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s .  
 
 It gives system administrators full control over the management of passwords, without affecting the user's productivity. 
 
@@ -21,7 +21,7 @@ Centralize, Manage, and Secure Remote Connections.<br>
 		</th>
 		<th>
 <img src="https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-icon-shadow.svg" alt="!!Devolutions Server Logo"><br>
-{{ en.RDMS }}<br>
+{{ en.DVLS }}<br>
 <br>
 Secure, Manage, and Monitor Access to Privileged Accounts.<br>
 		</th>

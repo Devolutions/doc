@@ -23,7 +23,7 @@ Description
 Refresh token lifetime (minutes) 
 		</td>
 		<td>
-This the duration time of the token. At the expiration of the token, the user must again authenticate himself on the {{ en.RDMS }} instance. When updated, the {{ en.DVLS }} needs to be restarted using the Stop Server/Start Server button on the console. 
+This the duration time of the token. At the expiration of the token, the user must again authenticate himself on the {{ en.DVLS }} instance. When updated, the {{ en.DVLS }} needs to be restarted using the Stop Server/Start Server button on the console. 
 		</td>
 	</tr>
 	<tr>

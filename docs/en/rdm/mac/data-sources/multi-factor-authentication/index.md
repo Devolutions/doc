@@ -2,12 +2,12 @@
 title: Multi-Factor Authentication
 ---
 {% snippet icon.badgeInfo %} 
-This feature is only available for [{{ en.RDMS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) , [Microsoft SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) , and [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) data sources . 
+This feature is only available for [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) , [Microsoft SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) , and [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) data sources . 
 {% endsnippet %}
  
 Multi-factor authentication (MFA) identifies users by at least two different components: something that the user knows (often a password) and something that the user possesses (e.g., a validation code sent to a mobile device). If one of the components is missing or supplied incorrectly, the user's identity is not established with sufficient certainty and access to the data source will remain blocked.  
 
-MFA is set at the data source level, except in {{ en.RDMS }} , where it is [set on the user](/server/web-interface/administration/configuration/server-settings/security/two-factor/) . {{ en.RDM }} for Mac supports [Authenticator (TOTP)](/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/) , [Yubikey](/rdm/mac/data-sources/multi-factor-authentication/yubikey/) , and [Duo](/rdm/mac/data-sources/multi-factor-authentication/duo/) .  
+MFA is set at the data source level, except in {{ en.DVLS }} , where it is [set on the user](/server/web-interface/administration/configuration/server-settings/security/two-factor/) . {{ en.RDM }} for Mac supports [Authenticator (TOTP)](/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/) , [Yubikey](/rdm/mac/data-sources/multi-factor-authentication/yubikey/) , and [Duo](/rdm/mac/data-sources/multi-factor-authentication/duo/) .  
 
 Go to the section that corresponds to your data source type:  
 

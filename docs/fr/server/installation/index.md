@@ -6,7 +6,7 @@ order: 20
 Si vous venez tout juste de recevoir vos clés de licence, veuillez d'abord consulter la section [Introduction](/fr/server/getting-started/) . 
 {% endsnippet %}
  
-Une instance de {{ fr.RDMS }} est une application Web. Il est donc possible de la publier sur Internet ou dans un intranet.  
+Une instance de {{ fr.DVLS }} est une application Web. Il est donc possible de la publier sur Internet ou dans un intranet.  
 
 La [Topologie](/fr/server/overview/topologies/) recommandée est celle constituée de deux serveurs : un serveur de base de données et un serveur Web. Pour des installations à plus petite échelle, un serveur unique peut être utilisé, mais ses ressources seront partagées entre les deux rôles, ce qui peut affecter la performance.  
 
@@ -26,7 +26,7 @@ Il est fortement recommandé d'activer l'option Activer SSL afin de protéger le
 Pour une intégration d'Active Directory complète, le pool d'application doit utiliser un compte de domaine. Les deux serveurs doivent être connectés au domaine en question. 
 {% endsnippet %}
  
-## Installer {{ fr.RDMS }} 
+## Installer {{ fr.DVLS }} 
 
 ### Prérequis du serveur Web 
 
@@ -44,7 +44,7 @@ Après avoir installé les prérequis, veuillez tester l'installation d'IIS en a
 
 Veuillez consulter la section [Instance de la base de données](/fr/server/installation/database-instance/) . 
 
-### Créer une instance de {{ fr.RDMS }} 
+### Créer une instance de {{ fr.DVLS }} 
 
-Veuillez consulter la section [Créer une instance de {{ fr.RDMS }}](/server/installation/create-server-instance/) . 
+Veuillez consulter la section [Créer une instance de {{ fr.DVLS }}](/server/installation/create-server-instance/) . 
 

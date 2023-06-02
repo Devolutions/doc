@@ -151,7 +151,7 @@ Indicates if the user can add entries in the {{ en.VLT }} of the data source.
 The ***User Groups*** tab displays the user groups that the user is a member of and the rights related to those user groups. 
 
 {% snippet icon.badgeInfo %} 
-This feature is only available with an SQL Server/Azure SQL and a {{ en.RDMS }} (DVLS) data source. 
+This feature is only available with an SQL Server/Azure SQL and a {{ en.DVLS }} (DVLS) data source. 
 {% endsnippet %}
  
 ![!!RdmWin4037.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4037.png) 

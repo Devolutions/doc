@@ -16,7 +16,7 @@ Pour faciliter votre réflexion quant au choix d'une source de données, voici u
 CRITÈRE 
 		</th>
 		<th>
-{{ fr.RDMS }} 
+{{ fr.DVLS }} 
 		</th>
 		<th>
 SQL 

@@ -1,7 +1,7 @@
 ---
 title: Abonnés
 ---
-Au minimum un abonné doit exister afin de recevoir les notifications des activités de l'instance {{ fr.RDMS }} .  
+Au minimum un abonné doit exister afin de recevoir les notifications des activités de l'instance {{ fr.DVLS }} .  
 
 Pour créer un abonné, cliquer sur le bouton ***Ajouter*** .  
 ![Créer un abonné](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8145.png)  

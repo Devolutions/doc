@@ -8,7 +8,7 @@ title: Devolutions Server
 ![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
-{{ en.RDMS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the product's web site [here](https://devolutions.net/server) . 
+{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the product's web site [here](https://devolutions.net/server) . 
 		</td>
 	</tr>
 </table>
@@ -23,13 +23,13 @@ title: Devolutions Server
 * Requires the {{ en.RDM }} for Mac Team Edition client installed for management. 
 
 {% snippet icon.badgeInfo %} 
-{{ en.RDMS }} supports only SQL Server as a data store at this time. 
+{{ en.DVLS }} supports only SQL Server as a data store at this time. 
 {% endsnippet %}
  
 For more information, please consult these topics  
 
-* [{{ en.RDMS }} installation instructions](/server/installation/) 
-* [{{ en.RDMS }} Security Checklist](/server/getting-started/security-checklist/) 
+* [{{ en.DVLS }} installation instructions](/server/installation/) 
+* [{{ en.DVLS }} Security Checklist](/server/getting-started/security-checklist/) 
 
 ## Configure the server data source on all your client machines. 
 
@@ -65,7 +65,7 @@ Name of the data source.
 Server 
 		</td>
 		<td>
-Name of {{ en.RDMS }} instance. 
+Name of {{ en.DVLS }} instance. 
 		</td>
 	</tr>
 	<tr>
@@ -89,7 +89,7 @@ Password to connect to the data source.
 Test connection 
 		</td>
 		<td>
-Test the connection with {{ en.RDMS }} to validate if the proper information has been provided. 
+Test the connection with {{ en.DVLS }} to validate if the proper information has been provided. 
 		</td>
 	</tr>
 	<tr>

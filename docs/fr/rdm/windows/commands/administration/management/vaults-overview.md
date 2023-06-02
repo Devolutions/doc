@@ -26,7 +26,7 @@ Pour des raisons de sécurité et de performance, nous recommandons de créer un
 ![Administration – Gestion – Coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4087.png) 
 
 {% snippet icon.badgeInfo %} 
-Si vous utilisez une source de données {{ fr.RDMS }} ou {{ fr.PHUB }} Business, la gestion des coffres est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez nos rubriques de [{{ fr.RDMS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.PHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) traitant des coffres. 
+Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.PHUB }} Business, la gestion des coffres est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez nos rubriques de [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.PHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) traitant des coffres. 
 {% endsnippet %}
  
 
@@ -88,7 +88,7 @@ Suivez les étapes ci-dessous pour affecter des ***Utilisateurs*** et des ***Rô
 1. Dans le ***Ruban*** , aller dans ***Administration – Gestion –*** ***{{ fr.VLT }}s*** .  
 ![Administration – Gestion – Coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4087.png) 
 {% snippet icon.badgeInfo %} 
-Si vous utilisez une source de données {{ fr.RDMS }} ou {{ fr.PHUB }} Business, la gestion des coffres est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez nos rubriques de [{{ fr.RDMS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.PHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) traitant des coffres. 
+Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.PHUB }} Business, la gestion des coffres est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez nos rubriques de [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.PHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) traitant des coffres. 
 {% endsnippet %}
  
 

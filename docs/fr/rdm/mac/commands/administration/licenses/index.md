@@ -1,7 +1,7 @@
 ---
 title: Licences
 ---
-La gestion globale de l'enregistrement {{ fr.RDM }} pour tous vos utilisateurs peut être effectuée avec une licence stockée dans une source de données avancée telle que {{ fr.RDMS }} , Microsoft SQL Server ou Azure SQL. 
+La gestion globale de l'enregistrement {{ fr.RDM }} pour tous vos utilisateurs peut être effectuée avec une licence stockée dans une source de données avancée telle que {{ fr.DVLS }} , Microsoft SQL Server ou Azure SQL. 
 
 {% snippet icon.badgeInfo %} 
 Il est possible de [demander un essai](/fr/rdm/mac/installation/client/registration/trial-request/) pour essayer {{ fr.RDM }} pendant 30 jours. Si vous décidez de ne pas enregistrer l'application à la fin de la période de 30 jours, vos données ne seront ni modifiées ni effacées et vous y aurez un accès complet une fois que vous aurez fourni un numéro de série valide. 

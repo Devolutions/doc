@@ -1,7 +1,7 @@
 ---
 title: Subscribers
 ---
-At least one subscriber must exist to receive notifications about {{ en.RDMS }} activities.  
+At least one subscriber must exist to receive notifications about {{ en.DVLS }} activities.  
 
 To create a new ***Subscriber*** , click on the ***Add*** button.  
 
