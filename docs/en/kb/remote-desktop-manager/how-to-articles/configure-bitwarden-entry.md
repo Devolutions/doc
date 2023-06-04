@@ -14,7 +14,9 @@ To learn more about creating and managing a Bitwarden account, please consult th
 {% endsnippet %}
 
 ## Credential Management
-Here is a description for each field or option, in order from top to bottom:
+Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Credential Management*** – ***Password Management***:  
+![Credential Management](https://webdevolutions.azureedge.net/docs/en/kb/KB0066.png)  
+![General tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0067.png)  
 * ***Name***: Entry name in {{ en.RDM }}
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in
 
@@ -32,10 +34,12 @@ Here is a description for each field or option, in order from top to bottom:
   * ***Always prompt with list***: Prompts the user with a list of all the available credentials instead of a specific one
 
 ## Synchronizer
-Here is a description for each field or option, in order from top to bottom:
+Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Synchronizer***:  
+![Synchronizer](https://webdevolutions.azureedge.net/docs/en/kb/KB0068.png)  
+![General tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0069.png)  
 * ***Name***: Entry name in {{ en.RDM }}
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in
-* ***Credentials***:
+* ***Credentials***: Pick the preferred ***Credentials*** option
 * ***Synchronize automatically***: The {{ en.RDM }} entry will synchronize automatically with Bitwarden
 
 ### General tab
@@ -52,12 +56,14 @@ Here is a description for each field or option, in order from top to bottom:
   * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder
 
 ### Filter
+![Filter tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0070.png)  
 * ***Filter severity***:
   * ***Normal***: 
   * ***Strict***: 
 * ***Create tags for Organizations/Collections***:
 
 ### Advanced
+![Advanced tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0071.png)  
 * ***Session name prefix***: A preffix for the session
 * ***Session name suffix***: A suffix for the session
 * ***Action on entry mismatch***
