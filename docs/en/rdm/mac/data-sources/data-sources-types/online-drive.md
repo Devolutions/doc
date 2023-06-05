@@ -1,25 +1,26 @@
 ---
-title: Devolutions Online Drive
+eleventyComputed:
+  title: Devolutions {{ en.OD }}
 ---
-The Online Drive stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.  
+The {{ en.OD }} stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.  
 
-It is an online file storage service dedicated to a single file type, Remote Desktop Manager’s connection list. Online Drive is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.  
+It is an online file storage service dedicated to a single file type, Remote Desktop Manager’s connection list. {{ en.OD }} is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.  
 
-Please consult topic [Online Drive](/cloud/rdm-online-services/online-drive/) for information on this service. 
+Please consult topic [{{ en.OD }}](/cloud/rdm-online-services/online-drive/) for information on this service. 
 
 {% snippet icon.shieldWarning %} 
 Since this service is hosted in the cloud, we strongly recommend that you further encrypt your data by applying a Master key. This will ensure that the file will be unreadable by no one but you. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Even though this is a cloud service, you MUST use our {{ en.OBACK }} service to keep history of your data. Devolutions offers a free backup service, and we do not maintain multiple versions of the Online Drive content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option. 
+Even though this is a cloud service, you MUST use our {{ en.OBACK }} service to keep history of your data. Devolutions offers a free backup service, and we do not maintain multiple versions of the {{ en.OD }} content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option. 
 {% endsnippet %}
  
 ## Settings 
 
 ### General 
 
-![Online Drive - General tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10499.png) 
+![{{ en.OD }} - General tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10499.png) 
 
 <table>
 	<tr>
@@ -108,7 +109,7 @@ Ask for the master key every time a connection to the {{ en.DOD }} is attempted.
 ### Backup 
 
 Please consult the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) topic for more information on this service.  
-![Online Drive - Backup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10500.png) 
+![{{ en.OD }} - Backup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10500.png) 
 
 <table>
 	<tr>
@@ -149,7 +150,7 @@ Open a VPN to access your data prior to connecting to your {{ en.DOD }}.
 
 ### Advanced 
 
-![Online Drive - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10501.png) 
+![{{ en.OD }} - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10501.png) 
 
 <table>
 	<tr>

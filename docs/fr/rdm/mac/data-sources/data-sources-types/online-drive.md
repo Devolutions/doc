@@ -1,5 +1,6 @@
 ---
-title: Devolutions Online Drive
+eleventyComputed:
+  title: Devolutions {{ fr.OD }}
 ---
 Le {{ fr.DOD }} stocke et synchronise vos connexions à distance et vos identifiants en ligne. Vous pouvez accéder à vos sessions de n'importe où via une connexion Internet.  
 

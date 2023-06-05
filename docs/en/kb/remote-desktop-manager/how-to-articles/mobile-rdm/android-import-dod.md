@@ -2,7 +2,7 @@
 eleventyComputed:
   title: RDM Android Import {{ en.DOD }}
 ---
-The Online Drive stores and synchronizes your remote connections and credentials online.
+The {{ en.OD }} stores and synchronizes your remote connections and credentials online.
 
 1. Create a {{ en.DOD }} data source using your {{ en.RDM }}  
 

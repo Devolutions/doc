@@ -1,5 +1,6 @@
 ---
-title: Devolutions Online Drive
+eleventyComputed:
+  title: Devolutions {{ en.OD }}
 ---
 {% youtube 'R3VYxnOdjoE' %}  
 
@@ -7,14 +8,14 @@ The {{ en.DOD }} stores and synchronizes your remote connections and credentials
 
 It is an online file storage service dedicated to a single file type, {{ en.RDM }} ’s connection list. {{ en.DOD }} is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.  
 
-Please consult the [Online Drive](/cloud/rdm-online-services/online-drive/) topic for information on this service.  
+Please consult the [{{ en.OD }}](/cloud/rdm-online-services/online-drive/) topic for information on this service.  
 
 {% snippet icon.shieldWarning %} 
 Since this service is hosted in the cloud, we strongly recommend that you further encrypt your data by applying a Master key. This will ensure that the file will be unreadable by no one but you. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) service to keep history of your data. Devolutions offers a free backup service, and we do not maintain multiple versions of the Online Drive content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option. 
+Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) service to keep history of your data. Devolutions offers a free backup service, and we do not maintain multiple versions of the {{ en.OD }} content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option. 
 {% endsnippet %}
  
 ## Settings 

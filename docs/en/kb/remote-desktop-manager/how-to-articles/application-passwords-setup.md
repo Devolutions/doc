@@ -23,7 +23,7 @@ The ***Application Passwords*** is a way to quickly authenticate with other Devo
 ## {{ en.DOD }}
 <a name="data"></a>
 
-1. In ***File - Data Sources***, edit or create an Online Drive data source.
+1. In ***File - Data Sources***, edit or create an {{ en.OD }} data source.
 1. Change the ***Connection mode*** to ***Application password*** and enter the ***Application password***.
 1. Click ***OK***.  
 ![!!KB4798.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4798.png)

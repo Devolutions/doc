@@ -10,7 +10,7 @@ This will not work for a lost Master Password on Local Datasource.
 Please refer to this [topic](/kb/remote-desktop-manager/troubleshooting-articles/2fa-server-lost/) if you are a {{ en.DVLS }} user and you lost your 2FA.
 {% endsnippet %}  
 {% snippet icon.badgeCaution %}
-Please refer to this [topic](/kb/remote-desktop-manager/troubleshooting-articles/2fa-lost-devolutions-account-dod/) if you are an Online Drive or Devolutions Account user and you lost your 2FA.
+Please refer to this [topic](/kb/remote-desktop-manager/troubleshooting-articles/2fa-lost-devolutions-account-dod/) if you are an {{ en.OD }} or {{ en.DA }} user and you lost your 2FA.
 {% endsnippet %}  
 
 1. Close {{ en.RDM }}.

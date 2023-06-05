@@ -21,7 +21,7 @@ Les ***Mots de passe d’application*** permettent une authentification rapide a
 ### {{ fr.DOD }}
 <a name="dod"></a>
 
-1. Dans ***Fichier - Sources de données***, créer ou modifier une source de données Online Drive. 
+1. Dans ***Fichier - Sources de données***, créer ou modifier une source de données {{ fr.OD }}. 
 1. Changer le ***Mode connexion*** pour ***Mot de passe d’application***, puis saisir le ***Mot de passe de l’application***. 
 1. Cliquer ***OK***.  
 ![!!KB4027.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4027.png) 

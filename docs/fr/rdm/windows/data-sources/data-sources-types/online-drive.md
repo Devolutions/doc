@@ -1,5 +1,6 @@
 ---
-title: Devolutions Online Drive
+eleventyComputed:
+  title: Devolutions {{ fr.OD }}
 ---
 {% youtube 'QoJ_7Uj9ajc' %}  
 
