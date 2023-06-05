@@ -128,7 +128,7 @@ Permettre de marquer les entrées comme favorites.
 	</tr>
 </table>
 
-### {{ fr.PVLT }} 
+### {{ fr.UVLT }} 
 
 <table>
 	<tr>
@@ -142,26 +142,26 @@ Description
 	</tr>
 	<tr>
 		<td>
-Autoriser un {{ fr.PVLT }} 
+Autoriser un {{ fr.UVLT }} 
 		</td>
 		<td>
-Autoriser les usagers à utiliser [Mon {{ fr.PVLT }}](/fr/server/web-interface/user-vault/) . 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Journaliser les activités du {{ fr.PVLT }} 
-		</td>
-		<td>
-Inclure les journaux du {{ fr.PVLT }} pour tous les usagers de la source de données. 
+Autoriser les usagers à utiliser [Mon {{ fr.UVLT }}](/fr/server/web-interface/user-vault/) . 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Permettre les identifiants "Liés (coffre)" dans le {{ fr.PVLT }} 
+Journaliser les activités du {{ fr.UVLT }} 
 		</td>
 		<td>
-Autoriser le référentiel d'identifiants pour les sessions dans le {{ fr.PVLT }} . 
+Inclure les journaux du {{ fr.UVLT }} pour tous les usagers de la source de données. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Permettre les identifiants "Liés (coffre)" dans le {{ fr.UVLT }} 
+		</td>
+		<td>
+Autoriser le référentiel d'identifiants pour les sessions dans le {{ fr.UVLT }} . 
 		</td>
 	</tr>
 </table>

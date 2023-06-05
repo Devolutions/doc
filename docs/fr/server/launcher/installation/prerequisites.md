@@ -2,12 +2,12 @@
 title: Logiciels prérequis
 order: 10
 ---
-## {{ fr.LAUNCHER }} Configuration minimale 
+## {{ fr.DEVL }} configuration minimale 
 {{ fr.DVLS }} 2019.1.X.X ou plus récent  
 
 La plupart des navigateurs Web sont compatibles ainsi qu'Internet Explorer 11 ou plus récent. 
 
-## {{ fr.LAUNCHER }} Configuration minimale par plateforme 
+## {{ fr.DEVL }} configuration minimale par plateforme 
 ### Windows 
 
 * Windows 8 ou plus récent 

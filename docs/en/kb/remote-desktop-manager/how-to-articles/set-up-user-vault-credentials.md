@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Set Up {{ en.PVLT }} Credentials in {{ en.RDM }}
-  description: You can configure an entry to apply credentials that are in your {{ en.PVLT }} without affecting other users' settings.
+  title: Set Up {{ en.UVLT }} Credentials in {{ en.RDM }}
+  description: You can configure an entry to apply credentials that are in your {{ en.UVLT }} without affecting other users' settings.
   keywords:
   - User Vault credentials
   - User Specific Settings
 ---
-You can configure an entry to apply credentials that are in your {{ en.PVLT }} without affecting other users' settings.
+You can configure an entry to apply credentials that are in your {{ en.UVLT }} without affecting other users' settings.
 To do so, you need to create a ***User Specific Setting***. Follow the steps below.
 
 1. Select the entry in the ***{{ en.NPANE }}***, then go to ***Edit – User Specific Settings***.

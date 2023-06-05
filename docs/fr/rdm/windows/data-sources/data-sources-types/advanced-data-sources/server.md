@@ -167,9 +167,9 @@ Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer o
 	</tr>
 </table>
 
-### {{ fr.PVLT }} 
+### {{ fr.UVLT }} 
 
-![{{ fr.DVLS }} – {{ fr.PVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3603.png)  
+![{{ fr.DVLS }} – {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3603.png)  
 
 <table>
 	<tr>
@@ -186,11 +186,11 @@ DESCRIPTION
 Type 
 		</td>
 		<td>
-Sélectionner le type de [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre:  
+Sélectionner le type de [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre:  
 
-* ***Par défaut*** : utilise le {{ fr.PVLT }} par défaut, qui est stocké dans la base de données. 
-* ***Aucun*** : désactive le {{ fr.PVLT }} pour tous les utilisateurs. 
-* ***Devolutions Online Drive*** : utilise un fichier Devolutions Online Drive (* .dod) comme {{ fr.PVLT }} . 
+* ***Par défaut*** : utilise le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données. 
+* ***Aucun*** : désactive le {{ fr.UVLT }} pour tous les utilisateurs. 
+* ***Devolutions Online Drive*** : utilise un fichier Devolutions Online Drive (* .dod) comme {{ fr.UVLT }} . 
 		</td>
 	</tr>
 </table>

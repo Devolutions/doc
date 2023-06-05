@@ -33,10 +33,10 @@ Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le [coffre](/fr/rdm/wi
 	</tr>
 	<tr>
 		<td>
-Mon {{ fr.PVLT }} 
+Mon {{ fr.UVLT }} 
 		</td>
 		<td>
-Afficher votre ***{{ fr.PVLT }}*** dans le [***{{ fr.NPANE }}***](/fr/rdm/windows/commands/view/panels/vault/) . 
+Afficher votre ***{{ fr.UVLT }}*** dans le [***{{ fr.NPANE }}***](/fr/rdm/windows/commands/view/panels/vault/) . 
 		</td>
 	</tr>
 	<tr>

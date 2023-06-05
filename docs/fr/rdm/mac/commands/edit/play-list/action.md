@@ -21,9 +21,9 @@ La liste d'exécution locale est enregistrée sur l'ordinateur local et n'est pa
 La ***Liste d'exécution partagée*** est enregistrée dans la base de données et peut être utilisée par tous les utilisateurs. La ***Liste d'exécution*** partagée peut être lancée à partir du volet de navigation ainsi que du menu ***Modifier - Liste d'exécution*** .  
 ![Gestionnaire de listes d'exécution - Partagé](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4088.png) 
 
-### Liste d'exécution {{ fr.PVLT }} 
+### Liste d'exécution {{ fr.UVLT }} 
 
-La ***Liste d'exécution*** du {{ fr.PVLT }} est enregistrée dans votre {{ fr.PVLT }} qui est un coffre centré sur l'utilisateur, il permet à chaque utilisateur de créer une ***Liste d'exécution*** à laquelle seuls eux peuvent accéder.  
+La ***Liste d'exécution*** du {{ fr.UVLT }} est enregistrée dans votre {{ fr.UVLT }} qui est un coffre centré sur l'utilisateur, il permet à chaque utilisateur de créer une ***Liste d'exécution*** à laquelle seuls eux peuvent accéder.  
 ![Gestionnaire de listes d'exécution - Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4089.png) 
 
 ## Actions 
@@ -34,7 +34,7 @@ La ***Liste d'exécution*** du {{ fr.PVLT }} est enregistrée dans votre {{ fr.P
 ![Volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0269.png) 
 1. Faire un clic droit dans le volet de navigation et sélectionner ***Liste d'exécution - Créer une liste d'exécution*** .  
 ![Créer une liste d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4090.png) 
-1. Choisir si vous souhaitez sauvegarder votre liste d'exécution localement, partagée ou dans votre {{ fr.PVLT }} .  
+1. Choisir si vous souhaitez sauvegarder votre liste d'exécution localement, partagée ou dans votre {{ fr.UVLT }} .  
 ![Choisir la sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4092.png) 
 1. Cliquer ensuite sur ***Entrées sélectionnées dans le volet de navigation*** .  
 ![Entrées sélectionnées dans le volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0266.png) 
@@ -52,7 +52,7 @@ Vous pouvez également créer une nouvelle liste d'exécution en utilisant ***Mo
 
 1. Ouvrir toutes les sessions que vous souhaitez ajouter à votre nouvelle liste d'exécution en mode intégré. 
 1. Faire un clic droit dans le volet de navigation et sélectionner ***Liste d'exécution - Créer à partir de sessions ouvertes*** . 
-1. Choisir si vous souhaitez sauvegarder votre liste d'exécution localement, partagée ou dans votre {{ fr.PVLT }} .  
+1. Choisir si vous souhaitez sauvegarder votre liste d'exécution localement, partagée ou dans votre {{ fr.UVLT }} .  
 ![Choisir la sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4092.png) 
 1. Vous remarquerez que toutes vos sessions ouvertes dans le volet de navigation sont déjà sélectionnées dans l'éditeur de liste d'exécution. Nommer et écrire une description à votre liste d'exécution et cliquer sur ***OK*** .  
 ![Éditeur de liste d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4093.png) 
@@ -60,7 +60,7 @@ Vous pouvez également créer une nouvelle liste d'exécution en utilisant ***Mo
 ### Créer une liste d'exécution sans sélection 
 
 1. Cliquer ***Modifier - Liste d'exécution - Créer une liste d'exécution*** . 
-1. Choisir si vous souhaitez sauvegarder votre liste d'exécution localement, partagée ou dans votre {{ fr.PVLT }} .  
+1. Choisir si vous souhaitez sauvegarder votre liste d'exécution localement, partagée ou dans votre {{ fr.UVLT }} .  
 ![Choisir la sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4092.png) 
 1. Cliquer ensuite sur ***Aucune sélection*** .  
 ![Aucune sélection](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0073.png) 

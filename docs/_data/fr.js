@@ -1,5 +1,4 @@
 module.exports = {
-    APPNAMECAMELCASE: 'RemoteDesktopManager',
     CI: "Gestionnaire de paquets d'installation personnalisés",
     CLOUD: 'Devolutions Cloud',
     CTOOL: 'Outils connexes',
@@ -23,20 +22,20 @@ module.exports = {
     HUBB: 'Hub Business',
     HUBI: 'Hub Importer',
     HUBP: 'Hub Personal',
-    LAUNCHER: 'Devolutions Launcher',
+    LAUNCHER: 'Launcher',
     MAC: 'macOS',
     MKEY: 'Clé maîtresse',
     NPANE: 'Volet de navigation',
     OBACK: 'Online Backup',
     OD: 'Online Drive',
     PS: 'Devolutions.PowerShell',
-    PVLT: "Coffre de l'utilisateur",
     RBSS: "contrôle d'accès basé sur les Groupes d'utilisateurs",
     RDM: 'Remote Desktop Manager',
     RDMA: 'Agent Remote Desktop Manager',
     RDMJ: 'Remote Desktop Manager Jump',
     SSP: 'Permissions du système',
     SST: 'Paramètres du système',
+    UVLT: "Coffre de l'utilisateur",
     VLT: 'Coffre',
     WS: 'Workspace'
   }

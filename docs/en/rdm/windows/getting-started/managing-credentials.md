@@ -32,7 +32,7 @@ Our folders can have defined credentials. This is useful because, in most cases,
 Entry location 
 		</td>
 		<td>
-When storing entries in the tree view, users with the View permissions on that entry (or folder by inheritance) will be able to use them. This is how you would share credentials with other members of your team. A [{{ en.PVLT }}](/rdm/windows/data-sources/user-vault/) exists for users to store personal information that should be seen by no one else. Credentials stored in this manner can still be accessed in the public area of the system by referencing them or through the User Specific Settings feature described below. 
+When storing entries in the tree view, users with the View permissions on that entry (or folder by inheritance) will be able to use them. This is how you would share credentials with other members of your team. A [{{ en.UVLT }}](/rdm/windows/data-sources/user-vault/) exists for users to store personal information that should be seen by no one else. Credentials stored in this manner can still be accessed in the public area of the system by referencing them or through the User Specific Settings feature described below. 
 		</td>
 	</tr>
 	<tr>
@@ -40,7 +40,7 @@ When storing entries in the tree view, users with the View permissions on that e
 [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) 
 		</td>
 		<td>
-[User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) are partial overrides for your entry settings, including credentials. When you apply such an override, you can choose the type of credentials directly in the override or you can choose to instead link to credentials stored elsewhere, such as the [{{ en.PVLT }}](/rdm/windows/data-sources/user-vault/) . 
+[User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) are partial overrides for your entry settings, including credentials. When you apply such an override, you can choose the type of credentials directly in the override or you can choose to instead link to credentials stored elsewhere, such as the [{{ en.UVLT }}](/rdm/windows/data-sources/user-vault/) . 
 		</td>
 	</tr>
 </table>

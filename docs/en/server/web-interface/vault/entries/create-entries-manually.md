@@ -5,7 +5,7 @@ keywords:
 ---
 Create entries manually and save your data in {{ en.DVLS }} . 
 ### Create an entry 
-1. Select the {{ en.VLT }} or {{ en.PVLT }} and the folder where you want to create the new entry. 
+1. Select the {{ en.VLT }} or {{ en.UVLT }} and the folder where you want to create the new entry. 
 1. Click on the ***Add*** button to create a new entry. 
 {% snippet icon.badgeInfo %} 
 Hovering the mouse over the ***Add*** button will display a list of shortcuts for common entries. 

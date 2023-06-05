@@ -179,7 +179,7 @@ Use the data source in offline mode when the ping method does not respond.
 	</tr>
 </table>
 
-### {{ en.PVLT }} 
+### {{ en.UVLT }} 
 
 ![!!RDMMac4030.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4030.png) 
 
@@ -198,11 +198,11 @@ Type
 		</td>
 		<td>
 
-Select the type of {{ en.PVLT }} to use. Select between:  
+Select the type of {{ en.UVLT }} to use. Select between:  
 
-* ***Default*** : use the default {{ en.PVLT }}, which is stored in the database. 
-* ***None*** : disable the {{ en.PVLT }} for all users. 
-* ***Online Drive*** : use a {{ en.DODV }} file (*.dod) as a {{ en.PVLT }}. 
+* ***Default*** : use the default {{ en.UVLT }}, which is stored in the database. 
+* ***None*** : disable the {{ en.UVLT }} for all users. 
+* ***Online Drive*** : use a {{ en.DODV }} file (*.dod) as a {{ en.UVLT }}. 
 		</td>
 	</tr>
 </table>

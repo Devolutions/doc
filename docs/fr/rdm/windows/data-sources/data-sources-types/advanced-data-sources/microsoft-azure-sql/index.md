@@ -190,7 +190,7 @@ Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement h
 	</tr>
 </table>
 
-### {{ fr.PVLT }} 
+### {{ fr.UVLT }} 
 
 ![Microsoft Azure SQL - Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3416.png) 
 
@@ -209,11 +209,11 @@ DESCRIPTION
 Type 
 		</td>
 		<td>
-Sélectionner le type de [{{ fr.PVLT }}](DataSources_Advanced_PrivateVault) à utiliser. Choisir entre:  
+Sélectionner le type de [{{ fr.UVLT }}](DataSources_Advanced_PrivateVault) à utiliser. Choisir entre:  
 
-* ***Par défaut*** : utilise le {{ fr.PVLT }} par défaut, qui est stocké dans la base de données. 
-* ***Aucun*** : désactive le {{ fr.PVLT }} pour tous les utilisateurs. 
-* ***Devolutions Online Drive*** : utilise un fichier Devolutions Online Drive (* .dod) comme {{ fr.PVLT }} . 
+* ***Par défaut*** : utilise le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données. 
+* ***Aucun*** : désactive le {{ fr.UVLT }} pour tous les utilisateurs. 
+* ***Devolutions Online Drive*** : utilise un fichier Devolutions Online Drive (* .dod) comme {{ fr.UVLT }} . 
 		</td>
 	</tr>
 </table>

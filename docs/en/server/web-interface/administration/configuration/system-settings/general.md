@@ -124,7 +124,7 @@ Allows to flag entries as favorites.
 	</tr>
 </table>
 
-## {{ en.PVLT }} 
+## {{ en.UVLT }} 
 <table>
 	<tr>
 		<th>
@@ -136,26 +136,26 @@ Description
 	</tr>
 	<tr>
 		<td>
-Allow {{ en.PVLT }} 
+Allow {{ en.UVLT }} 
 		</td>
 		<td>
-Allow users to use the <a href="/server/web-interface/user-vault/" target="_blank">{{ en.PVLT }}</a>. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Log {{ en.PVLT }} activities 
-		</td>
-		<td>
-Include the logs of the <a href="/server/web-interface/user-vault/" target="_blank">{{ en.PVLT }}</a> for all users of the data source. 
+Allow users to use the <a href="/server/web-interface/user-vault/" target="_blank">{{ en.UVLT }}</a>. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Allow credential repository in {{ en.PVLT }} 
+Log {{ en.UVLT }} activities 
 		</td>
 		<td>
-Allow credential repository for sessions in the <a href="/server/web-interface/user-vault/" target="_blank">{{ en.PVLT }}</a> . 
+Include the logs of the <a href="/server/web-interface/user-vault/" target="_blank">{{ en.UVLT }}</a> for all users of the data source. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Allow credential repository in {{ en.UVLT }} 
+		</td>
+		<td>
+Allow credential repository for sessions in the <a href="/server/web-interface/user-vault/" target="_blank">{{ en.UVLT }}</a> . 
 		</td>
 	</tr>
 </table>
@@ -219,10 +219,10 @@ Days
 		<td>
 Select which days the session is available for. Select between:  
 
-* ***Any day*** : the session can be used any day of the week or week-end. 
-* ***Week days*** : the session can be used only the week days. 
-* ***Week ends*** : the session can be used only the week ends. 
-* ***Custom*** : manually select each day the session is available for. 
+* ***Any day***: the session can be used any day of the week or week-end. 
+* ***Week days***: the session can be used only the week days. 
+* ***Week ends***: the session can be used only the week ends. 
+* ***Custom***: manually select each day the session is available for. 
 		</td>
 	</tr>
 	<tr>
@@ -232,8 +232,8 @@ Time of day
 		<td>
 Select the hours which the session is limited to. Select between:  
 
-* ***Any time*** : the session can be used at any hour. 
-* ***Custom*** : manually select the time frame the session is available for. 
+* ***Any time***: the session can be used at any hour. 
+* ***Custom***: manually select the time frame the session is available for. 
 		</td>
 	</tr>
 </table>

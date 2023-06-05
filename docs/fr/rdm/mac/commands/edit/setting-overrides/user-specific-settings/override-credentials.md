@@ -58,10 +58,10 @@ Utiliser les identifiants stockés dans Mes identifiants personnels.
 	</tr>
 	<tr>
 		<td>
-{{ fr.PVLT }} 
+{{ fr.UVLT }} 
 		</td>
 		<td>
-Utiliser une entrée d'identifiant du {{ fr.PVLT }}. 
+Utiliser une entrée d'identifiant du {{ fr.UVLT }}. 
 		</td>
 	</tr>
 </table>

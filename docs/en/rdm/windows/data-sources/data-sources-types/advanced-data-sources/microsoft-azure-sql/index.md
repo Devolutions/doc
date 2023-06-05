@@ -198,7 +198,7 @@ Disable the option to lock the data source directly. You can still lock the appl
 	</tr>
 </table>
 
-### {{ en.PVLT }} 
+### {{ en.UVLT }} 
 
 ![Microsoft Azure SQL - User Vault Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3416.png) 
 
@@ -217,11 +217,11 @@ DESCRIPTION
 Type 
 		</td>
 		<td>
-Select the type of [{{ en.PVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) to use. Select between:  
+Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) to use. Select between:  
 
-* ***Default*** : use the default {{ en.PVLT }} , which is stored in the database. 
-* ***None*** : disable the {{ en.PVLT }} for all users. 
-* ***Online Drive*** : use a {{ en.DODV }} file (*.dod) as a {{ en.PVLT }} . 
+* ***Default*** : use the default {{ en.UVLT }} , which is stored in the database. 
+* ***None*** : disable the {{ en.UVLT }} for all users. 
+* ***Online Drive*** : use a {{ en.DODV }} file (*.dod) as a {{ en.UVLT }} . 
 		</td>
 	</tr>
 </table>

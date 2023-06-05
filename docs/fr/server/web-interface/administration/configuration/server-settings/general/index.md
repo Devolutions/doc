@@ -74,10 +74,10 @@ Insérer vos clés de licence d'accès client.
 	</tr>
 	<tr>
 		<td>
-Launcher LAC 
+{{ en.LAUNCHER }} LAC 
 		</td>
 		<td>
-Insérer vos clés de licence Launcher. 
+Insérer vos clés de licence {{ en.LAUNCHER }}. 
 		</td>
 	</tr>
 </table>

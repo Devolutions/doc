@@ -382,7 +382,7 @@ If you wish to to process Database upgrade by hand instead of automatically you 
 	</tr>
 </table>
 
-### {{ en.PVLT }} 
+### {{ en.UVLT }} 
 
 ![SQL Server - User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6041.png) 
 
@@ -401,11 +401,11 @@ Type
 		</td>
 		<td>
 
-Select the type of {{ en.PVLT }} to use. Select between:  
+Select the type of {{ en.UVLT }} to use. Select between:  
 
-* Default : use the default {{ en.PVLT }} , which is stored in the database. 
-* None : disable the {{ en.PVLT }} for all users. 
-* Online Drive : use a Devolutions Online Drive file (*.dod) as a {{ en.PVLT }} . 
+* Default : use the default {{ en.UVLT }} , which is stored in the database. 
+* None : disable the {{ en.UVLT }} for all users. 
+* Online Drive : use a Devolutions Online Drive file (*.dod) as a {{ en.UVLT }} . 
 		</td>
 	</tr>
 </table>

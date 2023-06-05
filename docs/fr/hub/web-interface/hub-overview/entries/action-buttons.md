@@ -78,10 +78,10 @@ Modifier les propriétés de l'entrée sélectionnée
 ![!!activate-launch.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/activate-launch.png) 
 		</td>
 		<td>
-Ouvrir dans Launcher 
+Ouvrir dans {{ en.LAUNCHER }} 
 		</td>
 		<td>
-Lancer une session dans l'outil connexe {{ fr.DEVL }} . 
+Lancer une session dans l'outil connexe {{ fr.DEVL }}. 
 		</td>
 	</tr>
 	<tr>
@@ -92,7 +92,7 @@ Lancer une session dans l'outil connexe {{ fr.DEVL }} .
 Ouvrir dans RDM 
 		</td>
 		<td>
-Lancer une session dans {{ fr.RDM }} . 
+Lancer une session dans {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>

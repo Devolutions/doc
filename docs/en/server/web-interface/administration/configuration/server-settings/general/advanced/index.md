@@ -47,7 +47,7 @@ Select the license type. Default is Connection Management .
 Launch connection with 
 		</td>
 		<td>
-Sets the application that opens remote connections: {{ en.RDM }} or {{ en.LAUNCHER }} . Default refers to {{ en.LAUNCHER }} . 
+Sets the application that opens remote connections: {{ en.RDM }} or {{ en.DEVL }}. Default refers to {{ en.LAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>

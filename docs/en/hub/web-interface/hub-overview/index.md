@@ -27,7 +27,7 @@ Click on the menu icon to navigate the ***Search, Vault, User Vault, Reports, Ad
 Vault Selector 
 		</td>
 		<td>
-Click the vault selector, at the top middle section of your browser, to switch between all your vaults and access your {{ en.PVLT }} . 
+Click the vault selector, at the top middle section of your browser, to switch between all your vaults and access your {{ en.UVLT }} . 
 		</td>
 	</tr>
 	<tr>

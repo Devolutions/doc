@@ -73,7 +73,7 @@ Communiquer avec le port par défaut 19443 entre les applications.
 Ajouter une entrée dans le coffre d'utilisateur par défaut 
 		</td>
 		<td>
-Enregistrer les nouvelles entrées dans le {{ fr.PVLT }} . 
+Enregistrer les nouvelles entrées dans le {{ fr.UVLT }} . 
 		</td>
 	</tr>
 	<tr>

@@ -38,7 +38,7 @@ Saisir le délai de déconnexion de l'utilisateur du serveur s'il est inactif. C
 Type de licence 
 		</td>
 		<td>
-Sélectionner le type de licence. La valeur par défaut est la ***Gestion des connexions*** . 
+Sélectionner le type de licence. La valeur par défaut est la ***Gestion des connexions***. 
 		</td>
 	</tr>
 	<tr>
@@ -46,7 +46,7 @@ Sélectionner le type de licence. La valeur par défaut est la ***Gestion des co
 Lancer une connexion avec 
 		</td>
 		<td>
-Définit l'application qui ouvre les connexions à distance: {{ fr.RDM }} ou {{ fr.LAUNCHER }} . La valeur par défaut fait référence à {{ fr.LAUNCHER }} . 
+Définit l'application qui ouvre les connexions à distance: {{ fr.RDM }} ou {{ fr.DEVL }}. La valeur par défaut fait référence à {{ fr.LAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>

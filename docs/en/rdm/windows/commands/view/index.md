@@ -33,10 +33,10 @@ Access the view mode of the ***{{ en.NPANE }}*** for the current [vault](/rdm/wi
 	</tr>
 	<tr>
 		<td>
-{{ en.PVLT }} 
+{{ en.UVLT }} 
 		</td>
 		<td>
-Display your [***{{ en.PVLT }}***](/rdm/windows/commands/view/panels/vault/) in the ***{{ en.NPANE }}*** . 
+Display your [***{{ en.UVLT }}***](/rdm/windows/commands/view/panels/vault/) in the ***{{ en.NPANE }}*** . 
 		</td>
 	</tr>
 	<tr>

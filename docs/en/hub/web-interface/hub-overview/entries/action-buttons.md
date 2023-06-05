@@ -127,7 +127,7 @@ Open the specified website URL in a new tab.
 ![!!activate-launch.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/activate-launch.png) 
 		</td>
 		<td>
-Open in Launcher 
+Open in {{ en.LAUNCHER }} 
 		</td>
 		<td>
 Launch a session in the {{ en.DEVL }} companion tool. 

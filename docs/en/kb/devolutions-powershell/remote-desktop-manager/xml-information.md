@@ -78,7 +78,7 @@ None
 	</tr>
 	<tr>
 		<td>
-{{ en.PVLT }}, paired with PersonalConnectionID
+{{ en.UVLT }}, paired with PersonalConnectionID
 		</td>
 		<td>
 "245A4245-48E7-4DF5-9C4C-11861D8E1F81"
@@ -86,7 +86,7 @@ None
 	</tr>
 	<tr>
 		<td>
-{{ en.PVLT }} Search, paired with CredentialPrivateVaultsearchString
+{{ en.UVLT }} Search, paired with CredentialPrivateVaultsearchString
 		</td>
 		<td>
 "88E4BE76-4C5B-4694-AA9C-D53B7E0FE0DC"

@@ -26,10 +26,10 @@ Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le coffre actuel.
 	</tr>
 	<tr>
 		<td>
-[Mon {{ fr.PVLT }}](/fr/rdm/mac/commands/view/vaults/) 
+[Mon {{ fr.UVLT }}](/fr/rdm/mac/commands/view/vaults/) 
 		</td>
 		<td>
-Afficher votre ***{{ fr.PVLT }}*** dans le ***{{ fr.NPANE }}*** . 
+Afficher votre ***{{ fr.UVLT }}*** dans le ***{{ fr.NPANE }}*** . 
 		</td>
 	</tr>
 	<tr>

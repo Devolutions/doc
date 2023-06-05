@@ -56,10 +56,10 @@ Use the credentials stored in My Personal Credentials
 	</tr>
 	<tr>
 		<td>
-{{ en.PVLT }} credential entry 
+{{ en.UVLT }} credential entry 
 		</td>
 		<td>
-Use a [{{ en.PVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) credential entry. 
+Use a [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) credential entry. 
 		</td>
 	</tr>
 </table>

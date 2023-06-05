@@ -33,10 +33,10 @@ Allow user to auto fill username and passwords on websites with {{ en.DWL }} .
 	</tr>
 	<tr>
 		<td>
-{{ en.LAUNCHER }} 
+{{ en.DEVL }} 
 		</td>
 		<td>
-Allow user to open remote connections with {{ en.LAUNCHER }} . 
+Allow user to open remote connections with {{ en.LAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>

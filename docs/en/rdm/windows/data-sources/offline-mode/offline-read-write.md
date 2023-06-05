@@ -4,7 +4,7 @@ title: Offline Read/Write
 The ***Read/Write*** offline mode allows the user to add, edit and delete entries while the data source is offline. Those changes are saved locally and synchronized with the data source once it is back online. 
 
 {% snippet icon.badgeInfo %} 
-Some functionalities are not available while offline and you may not be able to perform all actions. Note that the [{{ en.PVLT }}](/rdm/windows/data-sources/user-vault/) is still available in offline mode. 
+Some functionalities are not available while offline and you may not be able to perform all actions. Note that the [{{ en.UVLT }}](/rdm/windows/data-sources/user-vault/) is still available in offline mode. 
 {% endsnippet %}
  
 Once offline, the users security settings still applies. Add/Edit/Delete privileges granted by the administrator are still in effect. See [User Management](/rdm/windows/commands/administration/management/user-management/) .  

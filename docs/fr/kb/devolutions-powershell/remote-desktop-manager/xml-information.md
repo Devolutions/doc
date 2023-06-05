@@ -78,7 +78,7 @@ Aucun
 	</tr>
 	<tr>
 		<td>
-Mon {{ fr.PVLT }}, associé à PersonalConnectionID  
+Mon {{ fr.UVLT }}, associé à PersonalConnectionID  
 		</td>
 		<td>
 "245A4245-48E7-4DF5-9C4C-11861D8E1F81"
@@ -86,7 +86,7 @@ Mon {{ fr.PVLT }}, associé à PersonalConnectionID
 	</tr>
 	<tr>
 		<td>
-Recherche de {{ fr.PVLT }}, associée à CredentialPrivateVaultsearchString
+Recherche de {{ fr.UVLT }}, associée à CredentialPrivateVaultsearchString
 		</td>
 		<td>
 "88E4BE76-4C5B-4694-AA9C-D53B7E0FE0DC"

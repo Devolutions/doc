@@ -26,10 +26,10 @@ Access the view mode of the ***{{ en.NPANE }}*** for the current vault.
 	</tr>
 	<tr>
 		<td>
-[{{ en.PVLT }}](/rdm/mac/commands/view/vaults/) 
+[{{ en.UVLT }}](/rdm/mac/commands/view/vaults/) 
 		</td>
 		<td>
-Display your ***{{ en.PVLT }}*** in the ***{{ en.NPANE }}*** . 
+Display your ***{{ en.UVLT }}*** in the ***{{ en.NPANE }}*** . 
 		</td>
 	</tr>
 	<tr>

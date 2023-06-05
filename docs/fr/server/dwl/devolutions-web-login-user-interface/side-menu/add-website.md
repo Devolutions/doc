@@ -87,7 +87,7 @@ Ce champ n'est disponible que si ***Lié (Coffre)*** ou ***Lié (Coffre d'utilis
 Recherche d'identifiants dans le coffre d'utilisateur 
 		</td>
 		<td>
-Saisir le nom de l'identifiant dans votre ***{{ fr.PVLT }}*** et {{ fr.DWL }} y recherchera le nom spécifié. Si le champ est laissé vide, au lancement, une liste d'identifiants s'ouvrira avec toutes les entrées d'identifiants disponibles dans votre ***{{ fr.PVLT }}*** .  
+Saisir le nom de l'identifiant dans votre ***{{ fr.UVLT }}*** et {{ fr.DWL }} y recherchera le nom spécifié. Si le champ est laissé vide, au lancement, une liste d'identifiants s'ouvrira avec toutes les entrées d'identifiants disponibles dans votre ***{{ fr.UVLT }}*** .  
 
 Ce champ n'est disponible que si ***Rechercher par nom (Coffre d'utilisateur)*** est sélectionnée dans la liste déroulante ***Identifiants*** .  
 
@@ -142,7 +142,7 @@ Saisir une description pour la nouvelle entrée.
 Coffre 
 		</td>
 		<td>
-Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.PVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.DVLS }} . 
+Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.UVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.DVLS }} . 
 		</td>
 	</tr>
 	<tr>

@@ -32,7 +32,7 @@ Nos dossiers peuvent avoir des identifiants définis. Cela est utile car, dans l
 Emplacement des entrées 
 		</td>
 		<td>
-Lors du stockage d'entrées dans l'arborescence, les utilisateurs disposant de la permission Afficher sur cette entrée (ou ce dossier par héritage) pourront les utiliser. C'est ainsi que vous partageriez vos identifiants avec d'autres membres de votre équipe. Il existe un [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/user-vault/) permettant aux utilisateurs de stocker des informations personnelles qui ne devraient être vues par personne d'autre. Les identifiants stockés de cette manière sont toujours accessibles dans la zone publique du système en les référençant ou par le biais de la fonction Paramètres spécifiques de l'usager décrite ci-dessous. 
+Lors du stockage d'entrées dans l'arborescence, les utilisateurs disposant de la permission Afficher sur cette entrée (ou ce dossier par héritage) pourront les utiliser. C'est ainsi que vous partageriez vos identifiants avec d'autres membres de votre équipe. Il existe un [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/user-vault/) permettant aux utilisateurs de stocker des informations personnelles qui ne devraient être vues par personne d'autre. Les identifiants stockés de cette manière sont toujours accessibles dans la zone publique du système en les référençant ou par le biais de la fonction Paramètres spécifiques de l'usager décrite ci-dessous. 
 		</td>
 	</tr>
 	<tr>
@@ -40,7 +40,7 @@ Lors du stockage d'entrées dans l'arborescence, les utilisateurs disposant de l
 [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) 
 		</td>
 		<td>
-Les [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) sont des remplacements partiels pour les paramètres de vos entrées, notamment les identifiants . Lorsque vous appliquez un tel remplacement, vous pouvez choisir le type d'identifiants directement dans la substitution ou vous pouvez choisir de lier les identifiants stockés ailleurs, tels que le [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/user-vault/) . 
+Les [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) sont des remplacements partiels pour les paramètres de vos entrées, notamment les identifiants . Lorsque vous appliquez un tel remplacement, vous pouvez choisir le type d'identifiants directement dans la substitution ou vous pouvez choisir de lier les identifiants stockés ailleurs, tels que le [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/user-vault/) . 
 		</td>
 	</tr>
 </table>

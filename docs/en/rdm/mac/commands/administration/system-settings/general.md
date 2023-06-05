@@ -34,10 +34,10 @@ Enables the use of local machine specific settings.
 	</tr>
 	<tr>
 		<td>
-Disable {{ en.PVLT }} 
+Disable {{ en.UVLT }} 
 		</td>
 		<td>
-Disable the usage of the {{ en.PVLT }} for all users of the data source. 
+Disable the usage of the {{ en.UVLT }} for all users of the data source. 
 		</td>
 	</tr>
 	<tr>
@@ -58,10 +58,10 @@ Disable the stack trace details when an error appears during the execution of th
 	</tr>
 	<tr>
 		<td>
-Include {{ en.PVLT }} logs 
+Include {{ en.UVLT }} logs 
 		</td>
 		<td>
-Include the logs for the {{ en.PVLT }} for all users of the data source. 
+Include the logs for the {{ en.UVLT }} for all users of the data source. 
 		</td>
 	</tr>
 </table>

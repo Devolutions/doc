@@ -77,11 +77,11 @@ This allows you to use one set of credentials to replace or emulate the ones fro
 	</tr>
 	<tr>
 		<td>
-Use {{ en.PVLT }} search 
+Use {{ en.UVLT }} search 
 		</td>
 		<td>
 
-Use credentials stored in your [{{ en.PVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) . 
+Use credentials stored in your [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) . 
 		</td>
 	</tr>
 	<tr>

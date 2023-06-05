@@ -73,7 +73,7 @@ Communicate with the default port 19443 between the application.
 Add entry in user vault by default 
 		</td>
 		<td>
-Save new entries in the {{ en.PVLT }} . 
+Save new entries in the {{ en.UVLT }} . 
 		</td>
 	</tr>
 	<tr>

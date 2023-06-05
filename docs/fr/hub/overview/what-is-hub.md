@@ -32,7 +32,7 @@ Connexion automatique
 		<td>
 ![!!launcher-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/launcher-icon-shadow.png)  
 
-## {{ fr.LAUNCHER }}  
+## {{ fr.DEVL }}  
 
 Technologie d'accès à distance  
 		</td>

@@ -88,7 +88,7 @@ This field is only available if Linked (Vault) or Linked (User Vault) is selecte
 User vault search credentials 
 		</td>
 		<td>
-Enter the name of the credential in your {{ en.PVLT }} and {{ en.DWL }} will search in it for the specified name. If the field is left empty, when launched, a Credential list will open with all available credentials entries from your {{ en.PVLT }} .  
+Enter the name of the credential in your {{ en.UVLT }} and {{ en.DWL }} will search in it for the specified name. If the field is left empty, when launched, a Credential list will open with all available credentials entries from your {{ en.UVLT }} .  
 
 This field is only available if Find by name (User Vault) is selected in the Credentials drop-down list. 
 		</td>

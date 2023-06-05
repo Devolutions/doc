@@ -49,10 +49,10 @@ The Play List is saved in the database. It can be accessed by anyone on the data
 	</tr>
 	<tr>
 		<td>
-{{ en.PVLT }} 
+{{ en.UVLT }} 
 		</td>
 		<td>
-The Play List is saved in your {{ en.PVLT }} and can only be accessed by the user. These can be launched through the Play List Management or by using the entry itself. 
+The Play List is saved in your {{ en.UVLT }} and can only be accessed by the user. These can be launched through the Play List Management or by using the entry itself. 
 		</td>
 	</tr>
 </table>
@@ -61,7 +61,7 @@ The Play List is saved in your {{ en.PVLT }} and can only be accessed by the use
 
 ### Create Play List depending on entries state and selection 
 
-1. If you wish to pre-determine a list of entries, select them for your Play List in the {{ en.PVLT }} .  
+1. If you wish to pre-determine a list of entries, select them for your Play List in the {{ en.UVLT }} .  
 ![Selected Entries in the Navigation Pane](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10902.png) 
 1. In the ***Edit*** ribbon menu, click ***Play List*** ,   then select whichever setting you prefer.  
 ![Edit - Play List - New](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10792.png) 
@@ -101,7 +101,7 @@ Prompts a window where you can select currently accessible Play Lists and adds t
 	</tr>
 </table>
 
-3. Choose if you wish to save your Play List locally, in a shared {{ en.VLT }} or in your {{ en.PVLT }} . Saving it locally will prompt a different window. This window will contain everything needed for a local Play List.  
+3. Choose if you wish to save your Play List locally, in a shared {{ en.VLT }} or in your {{ en.UVLT }} . Saving it locally will prompt a different window. This window will contain everything needed for a local Play List.  
 ![Save New Play List](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10255.png) 
 1. The next window lets you choose how you want your current selection or opened sessions to affect your playlist.  
 ![Selected Entries in Navigation Pane](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10256.png) 
@@ -157,7 +157,7 @@ And there you have it, your ***Play List*** is ready for use.
 ![Play List Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10259.png) 
 
 {% snippet icon.badgeInfo %} 
-If the ***Play List*** is shared or saved in your {{ en.PVLT }} , you can also right-click the entry and click ***Properties*** to access it. 
+If the ***Play List*** is shared or saved in your {{ en.UVLT }} , you can also right-click the entry and click ***Properties*** to access it. 
 {% endsnippet %}
  
 

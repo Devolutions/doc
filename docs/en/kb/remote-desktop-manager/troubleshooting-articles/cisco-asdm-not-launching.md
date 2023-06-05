@@ -13,11 +13,11 @@ This is a workaround for the issue where Cisco ASDM does not launch after updati
 1. Set the path to `C:\Program Files (x86)\Cisco System\ASDM`.
 1. Go to the ***Host and Credentials*** tab.
 1. Input the ***Host*** and credentials.
-1. Go to ***Connection*** – ***Events***, then the ***After Open*** tab.  
+1. Go to ***Connection – Events***, then the ***After Open*** tab.  
 ![After Open tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0056.png)
 1. Under the ***After open - Macro*** section, input `$HOST${TAB}$USERNAME${TAB}` into the ***Typing macro*** field.  
 {% snippet icon.badgeInfo %}
-The password parameter `$PASSWORD${ENTER}` is optional. If used, it also needs to be configured correctly under ***Security*** – ***Security Settings***.
+The password parameter `$PASSWORD${ENTER}` is optional. If used, it also needs to be configured correctly under ***Security – Security Settings***.
 {% endsnippet %}
 
 10. Click ***OK*** to close the window and create the entry.

@@ -210,9 +210,9 @@ Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement h
 	</tr>
 </table>
 
-### {{ fr.PVLT }} 
+### {{ fr.UVLT }} 
 
-![Microsoft SQL Server – {{ fr.PVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3413.png) 
+![Microsoft SQL Server – {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3413.png) 
 
 <table>
 	<tr>
@@ -229,11 +229,11 @@ Type
 		</td>
 		<td>
 
-Sélectionner le type de [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre :  
+Sélectionner le type de [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre :  
 
-* ***Par défaut*** : utilise le {{ fr.PVLT }} par défaut, qui est stocké dans la base de données. 
-* ***Aucun*** : désactive le {{ fr.PVLT }} pour tous les utilisateurs. 
-* ***Devolutions Online Drive*** : utilise un fichier Devolutions Online Drive (* .dod) comme {{ fr.PVLT }}. 
+* ***Par défaut*** : utilise le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données. 
+* ***Aucun*** : désactive le {{ fr.UVLT }} pour tous les utilisateurs. 
+* ***Devolutions Online Drive*** : utilise un fichier Devolutions Online Drive (* .dod) comme {{ fr.UVLT }}. 
 		</td>
 	</tr>
 </table>

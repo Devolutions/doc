@@ -85,7 +85,7 @@ Use the offline cache only for recent changes. The cache will write on the disk.
 </table>
 
 {% snippet icon.badgeInfo %} 
-Some features of {{ en.RDM }} are unavailable while offline. Even with the read/write access mode, you may not be able to perform all actions, such as adding attachments or managing users, since these features are not cached locally. On the other hand, the [{{ en.PVLT }}](/rdm/windows/data-sources/user-vault/) is still available in offline mode. 
+Some features of {{ en.RDM }} are unavailable while offline. Even with the read/write access mode, you may not be able to perform all actions, such as adding attachments or managing users, since these features are not cached locally. On the other hand, the [{{ en.UVLT }}](/rdm/windows/data-sources/user-vault/) is still available in offline mode. 
 {% endsnippet %}
  
 ### Grant/deny Offline 

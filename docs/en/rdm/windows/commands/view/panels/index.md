@@ -6,7 +6,7 @@ In {{ en.RDM }} , the ***Panels*** section of the ***View*** tab allows you to b
 
 Below are the different features available in this section:  
 
-* [***{{ en.VLT }}***](/rdm/windows/commands/view/panels/vault/) and [***{{ en.PVLT }}***](/rdm/windows/commands/view/panels/vault/) 
+* [***{{ en.VLT }}***](/rdm/windows/commands/view/panels/vault/) and [***{{ en.UVLT }}***](/rdm/windows/commands/view/panels/vault/) 
 * [***Opened Sessions***](/rdm/windows/commands/view/panels/opened-sessions/) 
 * [***PAM Dashboard***](/rdm/windows/commands/view/panels/pam-dashboard/) 
 * [***Favorites***](/rdm/windows/user-interface/navigation-pane/favorite-entries/) 

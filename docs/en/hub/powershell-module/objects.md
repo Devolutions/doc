@@ -91,7 +91,7 @@ AllowUserVault
 Boolean 
 		</td>
 		<td>
-Flag that handle if you want to allow {{ en.PVLT}} in {{ en.HUB }}. 
+Flag that handle if you want to allow {{ en.UVLT}} in {{ en.HUB }}. 
 		</td>
 	</tr>
 	<tr>

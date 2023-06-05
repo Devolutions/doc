@@ -226,7 +226,7 @@ Disable execute scripts via terminal
 	</tr>
 	<tr>
 		<td>
-Disable exporting the {{ en.PVLT }}
+Disable exporting the {{ en.UVLT }}
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableUserVaultExport
@@ -482,7 +482,7 @@ Disable all session events
 	</tr>
 	<tr>
 		<td>
-Disable import in {{ en.PVLT }}
+Disable import in {{ en.UVLT }}
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableImportInPrivateVault
@@ -586,7 +586,7 @@ Hide the custom port in RDP sessions
 	</tr>
 	<tr>
 		<td>
-Only allow the creation of credentials when inside the {{ en.PVLT }}
+Only allow the creation of credentials when inside the {{ en.UVLT }}
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\OnlyAllowCredentialsInPrivateVault

@@ -4,7 +4,7 @@ order: 30
 ---
 ### General 
 
-In the ***General*** section, you can personalize the color ***Theme*** of {{ en.LAUNCHER }} and the ***Language*** . You will need to close the application to activate the new settings. 
+In the ***General*** section, you can personalize the color ***Theme*** and ***Language*** of {{ en.DEVL }}. You will need to close the application to activate the new settings. 
 ![!!ServerOp4046.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4046.png) 
 
 ### Data Sources 
@@ -19,7 +19,7 @@ In this section you can access the ***System Diagnostic*** of the application an
 
 You can also validate the data source information and the policies applied. 
 ### Check for Updates 
-Validate and download new Launcher versions. 
+Validate and download new {{ en.LAUNCHER }} versions. 
 ### About 
 View {{ en.LAUNCHER }} installed version and information. 
 

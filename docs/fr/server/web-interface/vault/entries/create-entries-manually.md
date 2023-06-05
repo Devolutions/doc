@@ -7,7 +7,7 @@ Créer des entrées manuellement et enregistrer vos données dans {{ fr.DVLS }} 
 
 ### Créer une entrée 
 
-1. Sélectionner le ***{{ fr.VLT }}*** ou ***{{ fr.PVLT }}*** et le dossier dans lequel vous souhaitez créer la nouvelle entrée. 
+1. Sélectionner le ***{{ fr.VLT }}*** ou ***{{ fr.UVLT }}*** et le dossier dans lequel vous souhaitez créer la nouvelle entrée. 
 1. Cliquer sur le bouton ***Ajouter*** pour créer une nouvelle entrée. 
 
 {% snippet icon.badgeInfo %} 

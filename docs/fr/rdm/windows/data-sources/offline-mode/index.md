@@ -88,7 +88,7 @@ Utilise le cache hors ligne uniquement pour les modifications récentes. Le cach
 </table>
 
 {% snippet icon.badgeInfo %} 
-Certaines fonctions de {{ fr.RDM }} ne sont pas disponibles lorsque vous êtes hors ligne. Même avec le mode d'accès lecture/écriture, il se peut que vous ne puissiez pas effectuer toutes les actions, telles que l'ajout de pièces jointes ou la gestion des utilisateurs, car ces fonctionnalités ne sont pas mises en cache localement. En revanche, le [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/user-vault/) est toujours disponible en mode hors ligne. 
+Certaines fonctions de {{ fr.RDM }} ne sont pas disponibles lorsque vous êtes hors ligne. Même avec le mode d'accès lecture/écriture, il se peut que vous ne puissiez pas effectuer toutes les actions, telles que l'ajout de pièces jointes ou la gestion des utilisateurs, car ces fonctionnalités ne sont pas mises en cache localement. En revanche, le [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/user-vault/) est toujours disponible en mode hors ligne. 
 {% endsnippet %}
  
 ### Accorder/refuser le mode Hors-ligne 

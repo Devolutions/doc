@@ -89,7 +89,7 @@ AllowUserVault
 Boolean 
 		</td>
 		<td>
-Indicateur si vous voulez autoriser le {{ fr.PVLT }} dans {{ fr.HUB }}. 
+Indicateur si vous voulez autoriser le {{ fr.UVLT }} dans {{ fr.HUB }}. 
 		</td>
 	</tr>
 	<tr>

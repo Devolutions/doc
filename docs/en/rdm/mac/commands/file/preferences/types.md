@@ -49,7 +49,7 @@ DESCRIPTION
 Global Availability 
 		</td>
 		<td>
-Define the default setting of the Global Availability for the [{{ en.PVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/)  
+Define the default setting of the Global Availability for the [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/)  
 
 Search between: 
 

@@ -79,7 +79,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Coffre 
 		</td>
 		<td>
-Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.PVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.RDM }} pour Mac . 
+Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.UVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.RDM }} pour Mac . 
 		</td>
 	</tr>
 	<tr>

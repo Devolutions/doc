@@ -77,10 +77,10 @@ Cela vous permet d'utiliser un seul ensemble d'identifiants pour remplacer ou é
 	</tr>
 	<tr>
 		<td>
-Utiliser la recherche dans le {{ fr.PVLT }} 
+Utiliser la recherche dans le {{ fr.UVLT }} 
 		</td>
 		<td>
-Utiliser les identifiants stockés dans votre {{ fr.PVLT }} . 
+Utiliser les identifiants stockés dans votre {{ fr.UVLT }} . 
 		</td>
 	</tr>
 	<tr>

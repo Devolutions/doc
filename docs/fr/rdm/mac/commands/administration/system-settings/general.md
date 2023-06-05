@@ -35,10 +35,10 @@ Permets l'utilisation de ***Paramètres spécifiques locaux*** .
 	</tr>
 	<tr>
 		<td>
-Désactiver le {{ fr.PVLT }} 
+Désactiver le {{ fr.UVLT }} 
 		</td>
 		<td>
-Désactive l'utilisation du {{ fr.PVLT }} pour tous les utilisateurs de la source de données. 
+Désactive l'utilisation du {{ fr.UVLT }} pour tous les utilisateurs de la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -59,10 +59,10 @@ Désactive les détails de trace de pile lorsqu'une erreur apparaît lors de l'e
 	</tr>
 	<tr>
 		<td>
-Journaliser les activités du {{ fr.PVLT }} 
+Journaliser les activités du {{ fr.UVLT }} 
 		</td>
 		<td>
-Inclure les journaux du {{ fr.PVLT }} pour tous les utilisateurs de la source de données. 
+Inclure les journaux du {{ fr.UVLT }} pour tous les utilisateurs de la source de données. 
 		</td>
 	</tr>
 </table>

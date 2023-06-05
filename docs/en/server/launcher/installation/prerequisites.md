@@ -2,13 +2,13 @@
 title: Prerequisites
 order: 10
 ---
-## {{ en.LAUNCHER }} Minimum requirements  
+## {{ en.DEVL }} minimum requirements  
 
 {{ en.DVLS }} 2019.1.X.X or later.  
 
 Most recent browsers are supported and so is Internet Explorer 11 or above.  
 
-## {{ en.LAUNCHER }} Minimum platform requirements 
+## {{ en.DEVL }} minimum platform requirements 
 
 ### Windows 
 
@@ -17,4 +17,3 @@ Most recent browsers are supported and so is Internet Explorer 11 or above.
 * 1GHz or faster processor 
 * 2GB of RAM 
 * 100MB hard drive space 
-

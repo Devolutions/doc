@@ -47,10 +47,10 @@ La Liste d'exécution est enregistrée dans la base de données. Elle peut être
 	</tr>
 	<tr>
 		<td>
-{{ fr.PVLT }} 
+{{ fr.UVLT }} 
 		</td>
 		<td>
-La Liste d'exécution est enregistrée dans votre {{ fr.PVLT }} et n'est accessible qu'à l'utilisateur. Celles-ci peuvent être lancées via le Gestionnaire de listes d'exécution ou en utilisant l'entrée elle-même. 
+La Liste d'exécution est enregistrée dans votre {{ fr.UVLT }} et n'est accessible qu'à l'utilisateur. Celles-ci peuvent être lancées via le Gestionnaire de listes d'exécution ou en utilisant l'entrée elle-même. 
 		</td>
 	</tr>
 </table>
@@ -99,7 +99,7 @@ Ouvre le Gestionnaire de listes d'exécution avec les dernières connexions ouve
 	</tr>
 </table>
 
-3. Choisir si vous souhaitez enregistrer votre Liste d'exécution localement, dans un coffre partagé ou dans votre {{ fr.PVLT }} . L'enregistrer localement ouvrira une fenêtre différente. Cette fenêtre contiendra tout le nécessaire pour une Liste d'exécution local.  
+3. Choisir si vous souhaitez enregistrer votre Liste d'exécution localement, dans un coffre partagé ou dans votre {{ fr.UVLT }} . L'enregistrer localement ouvrira une fenêtre différente. Cette fenêtre contiendra tout le nécessaire pour une Liste d'exécution local.  
 ![Enregistrer la Liste d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10255.png) 
 1. La fenêtre suivante vous permet de choisir comment vous voulez que votre sélection actuelle ou les sessions ouvertes affectent votre Liste d'exécution.  
 ![Selection des entrées dans le volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10256.png) 
@@ -153,7 +153,7 @@ Aucune sélection prédéterminée ne sera prise en compte, créez votre Liste d
 ![Gestionnaire de listes d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10259.png) 
 
 {% snippet icon.badgeInfo %} 
-Si la liste d'exécution est partagée ou enregistrée dans votre {{ fr.PVLT }} , vous pouvez également cliquer avec le bouton droit sur l'entrée et cliquer sur Propriétés pour y accéder. 
+Si la liste d'exécution est partagée ou enregistrée dans votre {{ fr.UVLT }} , vous pouvez également cliquer avec le bouton droit sur l'entrée et cliquer sur Propriétés pour y accéder. 
 {% endsnippet %}
  
 

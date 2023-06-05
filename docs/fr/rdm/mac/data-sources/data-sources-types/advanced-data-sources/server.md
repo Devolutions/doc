@@ -110,7 +110,7 @@ Toujours demander le mot de passe lors de la connexion à la source de données.
 	</tr>
 </table>
 
-### {{ fr.PVLT }} 
+### {{ fr.UVLT }} 
 
 ![Devolutions Password Server - Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4262.png) 
 
@@ -128,7 +128,7 @@ Description
 Type de connexion 
 		</td>
 		<td>
-Si vous utilisez des {{ fr.PVLT }} , cliquer sur les flèches pour sélectionner votre Coffre.
+Si vous utilisez des {{ fr.UVLT }} , cliquer sur les flèches pour sélectionner votre Coffre.
 		</td>
 	</tr>
 </table>
