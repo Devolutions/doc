@@ -1,5 +1,6 @@
 ---
-title: Invite Users in Hub Business
+eleventyComputed:
+  title: Invite users in {{ en.HUBB }}
 ---
 {% snippet icon.badgeInfo %} 
 Inviting a user and the end user invitation experience in {{ en.HUBB }} are different with single sign-on (SSO). Please refer to our related topics below if you are using SSO:  

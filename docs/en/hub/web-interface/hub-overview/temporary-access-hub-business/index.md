@@ -1,3 +1,4 @@
 ---
-title: Temporary Access in Hub Business
+eleventyComputed:
+  title: Temporary access in {{ en.HUBB }}
 ---

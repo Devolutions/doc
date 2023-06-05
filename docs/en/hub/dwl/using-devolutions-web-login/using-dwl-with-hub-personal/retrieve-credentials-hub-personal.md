@@ -3,7 +3,7 @@ eleventyComputed:
   title: Retrieve Credentials from {{ en.HUBP }} with {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-You need website entries in {{ en.DHUBP }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](Add_Entry_HUBPersonal_with_DWL) . 
+You need website entries in {{ en.DHUBP }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](Add_Entry_HUBPersonal_with_DWL). 
 {% endsnippet %}
  
 {{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.DHUBP }} website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
@@ -21,10 +21,10 @@ After the [installation](/hub/dwl/installation/) of {{ en.DWL }} and its [pairin
 With this option enabled, a {{ en.DWL }} icon is displayed in every credential fields on the websites you visit. This makes it easier to select the correct entry from which to retrieve your credentials, especially when more than one is available. 
 {% endsnippet %}
  
-![Settings – Data sources – Hub Personal](https://webdevolutions.azureedge.net/docs/en/hub/Hub2082.png)  
+![Settings – Data sources – {{ en.HUBP }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2082.png)  
 
-4. Click ***Save*** . 
-1. Click on ***Hub Personal*** in the ***Data sources*** section.  
+4. Click ***Save***. 
+1. Click on ***{{ en.HUBP }}*** in the ***Data sources*** section.  
 ![General – Show icon in fields](https://webdevolutions.azureedge.net/docs/en/hub/Hub2094.png)  
 1. In the ***Actions*** tab, enable the ***Automatically fill in credentials on load*** option by checking the box next to it. With this setting enabled, credentials will be automatically filled in when loading a web page. This only works if you only have one set of credentials for a given website.  
 ![Actions – Automatically fill in credentials on load](https://webdevolutions.azureedge.net/docs/en/hub/Hub2092.png)  
@@ -32,7 +32,7 @@ With this option enabled, a {{ en.DWL }} icon is displayed in every credential f
 If the ***Automatically submit the form after filling*** setting is enabled, the credentials are automatically submitted when the fields are filled. Enabling it is optional as it is not a best practice. 
 {% endsnippet %}
  
-7. Click ***Save*** .  
+7. Click ***Save***.  
 
 You can now continue to the next section to learn how to retrieve your website entry credentials.  
 

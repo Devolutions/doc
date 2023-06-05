@@ -12,7 +12,7 @@ Learn more about [creating your {{ en.HUBP }}](https://docs.devolutions.net/hub/
 
 ## Steps
 1. Connect to the [Devolutions Portal](https://portal.devolutions.com/profile) with the desired account.
-1. Go to the ***Hub Personal*** tab.
+1. Go to the ***{{ en.HUBP }}*** tab.
 1. Click on the ellipsis and then ***Settings***.  
 ![Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB0057.png)
 1. Select the ***On browser refresh and each time a new window opens*** option.

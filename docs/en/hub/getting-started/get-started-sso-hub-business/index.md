@@ -1,6 +1,7 @@
 ---
-title: Get Started with SSO in Hub Business
-order: 20
+eleventyComputed:
+  title: Get Started with SSO in {{ en.HUBB }}
+  order: 20
 ---
 You can configure your {{ en.DHUBB }} users to log in with Microsoft Azure Active Directory (Azure AD) credentials instead of using our {{ en.DA }} authentication. Follow the steps below to create and configure this feature in {{ en.HUBB }}:  
 

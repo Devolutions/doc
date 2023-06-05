@@ -20,26 +20,26 @@ Les paramètres dans le menu ***Général*** concernent l'interface utilisateur 
 	* Afficher l'icône de {{ fr.DWL }} dans les champs d'identifiants.  
 	* Afficher la fenêtre de dialogue des identifiants lors de la sauvegarde.  
 	* Afficher les options du menu contextuel.  
-	* Colorer les champs de saisie remplis avec {{ fr.DWL }} .  
+	* Colorer les champs de saisie remplis avec {{ fr.DWL }}.  
 	* Définir le ***Thème*** de couleur de l'application.  
 
 * Onglet ***Avancé***  
 	* Désactiver la télémétrie analytique.  
-	* Activer les versions bêta de {{ fr.DWL }} .  
+	* Activer les versions bêta de {{ fr.DWL }}.  
 	
 La ***Liste des sites exclus*** affiche la liste des sites Web ajoutés localement pour lesquels l'utilisateur ne sera jamais invité à enregistrer ses identifiants.  
 
-* Les choix disponibles sont ***Ne jamais ajouter de site, Ne jamais remplir automatiquement, Ne jamais rien faire*** ou ***Ne jamais afficher les icônes dans les champs*** .  
-* Les options de correspondance sont ***Domaine de base, Hôte, Commence par, RegEx*** et ***Exact*** .  
+* Les choix disponibles sont ***Ne jamais ajouter de site, Ne jamais remplir automatiquement, Ne jamais rien faire*** ou ***Ne jamais afficher les icônes dans les champs***.  
+* Les options de correspondance sont ***Domaine de base, Hôte, Commence par, RegEx*** et ***Exact***.  
 
 Les ***Paramètres d'importation / d'exportation*** permettent de sauvegarder et de transférer vos configurations prédéfinies de l'application.  
 
 * Importer les paramètres d'autres navigateurs ou utilisateurs.  
-* Exporter les ***Paramètres*** de {{ fr.DWL }} , le ***Générateur de mot de passe*** et la ***Liste des sites exclus*** .  
+* Exporter les ***Paramètres*** de {{ fr.DWL }}, le ***Générateur de mot de passe*** et la ***Liste des sites exclus***.  
 
 ### Sources de données <a name="source"></a>
 
-Les paramètres de ***Sources de données*** permettent de personnaliser les interactions de {{ fr.DWL }} avec <a href="#rdm">{{ fr.RDM }}</a>, <a href="#server">{{ fr.DVLS }}</a> et <a href="#hub">{{ fr.HUB }}</a> Business ou Personal.  
+Les paramètres de ***Sources de données*** permettent de personnaliser les interactions de {{ fr.DWL }} avec <a href="#rdm">{{ fr.RDM }}</a>, <a href="#server">{{ fr.DVLS }}</a> et <a href="#hub">{{ fr.HUBB }} ou {{ fr.HUBP }}</a>.  
 
 ### {{ fr.RDM }} <a name="rdm"></a>
 
@@ -261,7 +261,7 @@ Activer pour synchroniser tous les coffres disponibles depuis {{ fr.DVLS }} .
 	</tr>
 </table>
 
-### {{ fr.HUBB }} et Personal <a name="hub"></a>
+### {{ fr.HUBB }} et {{ fr.HUBP }} <a name="hub"></a>
 
 <table>
 	<tr>
@@ -375,6 +375,3 @@ Activer pour synchroniser tous les coffres disponibles depuis {{ fr.HUBB }} .
 		</td>
 	</tr>
 </table>
-
-
-

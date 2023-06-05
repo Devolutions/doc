@@ -1,5 +1,6 @@
 ---
-title: Using Devolutions Web Login with Hub Personal
+eleventyComputed:
+  title: Using {{ en.DWL }} with {{ en.HUBP }}
 ---
 
 

@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
   title: End User Invitation Experience for SSO in {{ en.HUBB }}
-description: Users that are invited to join Hub Business receive an email from their administrator.
-keywords:
-- Office 365
-- Office365
-- Microsoft
-- authentication
-- private key
+  description: Users that are invited to join {{ en.HUBB }} receive an email from their administrator.
+  keywords:
+  - Office 365
+  - Office365
+  - Microsoft
+  - authentication
+  - private key
 ---
 {% youtube 'EJgx-xLMNc0' %}  
 

@@ -17,15 +17,15 @@ A {{ en.HUBB }} access is required to continue.
 2. Choose ***{{ en.HUBB }}*** in the list, then click ***Save*** .  
 ![First Login](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4021.png) 
 1. Enter your {{ en.HUBB }} server address, then click ***Save*** .  
-![!!Hub Business Server Address](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4026.png) 
+![!!{{ en.HUBB }} Server Address](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4026.png) 
 1. ***Log In*** to your {{ en.DA }} .  
-![Connecting Hub Business to the Devolutions Account](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4022.png) 
+![Connecting {{ en.HUBB }} to the {{ en.DHA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4022.png) 
 1. Enter your {{ en.DA }} credentials to continue.  
-![Entering Devolutions Account Credentials](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4023.png) 
+![Entering {{ en.DA }} Credentials](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4023.png) 
 1. Once completed, a login confirmation message will appear.  
-![Successful Login to the Devolutions Account](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4047.png) 
+![Successful Login to the {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4047.png) 
 1. Click on the DWL icon in the toolbar of your web browser to validate that {{ en.DWL }} is now connected to {{ en.HUBB }}.  
-![Successful Pairing of Hub Business to Devolutions Web Login](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4026.png) 
+![Successful Pairing of {{ en.HUBB }} to {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4026.png) 
 1. To select the vaults to be synchronized, click on the ***Vaults*** tab in the ***Side Menu*** , then click the ***Select Vaults to Sync*** button.  
 ![Vaults Tab](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4053.png) 
 1. Click on ***Select All*** or individually check the vaults to synchronize. The ***Filter*** bar can be useful to search for vaults.  

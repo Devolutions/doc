@@ -24,15 +24,15 @@ With this option enabled, a {{ en.DWL }} icon is displayed in every credential f
 ![General – Show icon in fields](https://webdevolutions.azureedge.net/docs/en/hub/Hub2082.png)  
 
 4. Click ***Save*** . 
-1. Click on ***Hub Business*** in the ***Data sources*** section.  
-![Settings – Data sources – Hub Business](https://webdevolutions.azureedge.net/docs/en/hub/Hub2083.png)  
+1. Click on ***{{ en.HUBB }}*** in the ***Data sources*** section.  
+![Settings – Data sources – {{ en.HUBB }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2083.png)  
 1. In the ***Actions*** tab, enable the ***Automatically fill in credentials on load*** option by checking the box next to it. With this setting enabled, credentials will be automatically filled in when loading a web page. This only works if you only have one set of credentials for a given website.  
 ![Actions – Automatically fill in credentials on load](https://webdevolutions.azureedge.net/docs/en/hub/Hub2084.png)  
 {% snippet icon.badgeInfo %} 
 If the ***Automatically submit the form after filling*** setting is enabled, the credentials are automatically submitted when the fields are filled. Enabling it is optional as it is not a best practice. 
 {% endsnippet %}
  
-7. Click ***Save*** .  
+7. Click ***Save***.  
 
 You can now continue to the [next section](#retrieving-credentials) to learn how to retrieve your website entry credentials.  
 

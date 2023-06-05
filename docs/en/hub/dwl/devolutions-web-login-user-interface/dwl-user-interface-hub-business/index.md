@@ -1,5 +1,6 @@
 ---
-title: Devolutions Web Login User Interface with Hub Business
+eleventyComputed:
+  title: Devolutions Web Login user interface with {{ en.HUBB }}
 ---
 The {{ en.DWL }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.DWL }} user interface when used with {{ en.HUBB }}.  
 

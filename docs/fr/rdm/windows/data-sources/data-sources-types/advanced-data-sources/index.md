@@ -13,7 +13,7 @@ Elles augmentent considérablement l'ensemble des fonctions de gestion disponibl
 
 Actuellement, les sources de données avancées sont les suivantes : 
 
-* [Devolutions Hub Business](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/) 
+* [{{ fr.DHUBB }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/) 
 * [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) 
 * [Microsoft Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) 
 * [Microsoft SQL Server (MSSQL)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) 

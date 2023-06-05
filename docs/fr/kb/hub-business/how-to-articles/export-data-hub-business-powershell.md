@@ -31,7 +31,7 @@ Vos données ont maintenant été exportées dans le dossier de destination spé
 <a name="manuel"></a>
 1. Dans ***Outils – Exporter avec PowerShell*** , sélectionner l'onglet ***Manuelle*** .  
 ![Exportation Manuelle.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2078.png)
-1. Choisir entre les formats d'exportation ***Json*** ou ***Csv*** . 
+1. Choisir entre les formats d'exportation ***Json*** ou ***Csv***. 
 1. Copier/coller le script dans un fichier PowerShell (.ps1). 
 1. Dans votre script copié, modifier les variables avec les informations appropriées. Voir le tableau ci-dessous. 
 <table>

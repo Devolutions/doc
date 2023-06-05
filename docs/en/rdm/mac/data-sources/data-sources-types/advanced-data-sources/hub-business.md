@@ -1,11 +1,11 @@
 ---
 title: Hub Business
 ---
-{{ en.DHUBB }}, for businesses who need to share passwords and credentials within their organization. 
+{{ en.DHUBB }} is for businesses who need to share passwords and credentials within their organization. 
 Please consult our [website](https://devolutions.net/password-hub/) for more information on this service. 
 
 {% snippet icon.badgeInfo %} 
-To start your free {{ en.DHUBB }} trial today click [here](https://devolutions.net/password-hub/business/sign-up) . 
+To start your free {{ en.DHUBB }} trial today, click [here](https://devolutions.net/password-hub/business/sign-up). 
 {% endsnippet %}
  
 ## Settings 

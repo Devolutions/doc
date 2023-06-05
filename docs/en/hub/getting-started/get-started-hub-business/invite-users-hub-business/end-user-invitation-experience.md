@@ -1,5 +1,6 @@
 ---
-title: End User Invitation Experience in Hub Business
+eleventyComputed:
+  title: End User Invitation Experience in {{ en.HUBB }}
 ---
 {% youtube 'FObiAXJrBXI' %}  
 
@@ -36,11 +37,11 @@ Once the users have received their temporary password, they are ready to connect
 1. Create a new password for the account by following the password restrictions, then click on ***Update Password*** .  
 ![Password Modification](https://webdevolutions.azureedge.net/docs/en/hub/Hub2003.png)  
 
-Now that you have access to {{ en.HUBB }}, you can skip to the [First Steps in Password Hub Business](#first-steps-in--enphub--business) section.  
+Now that you have access to {{ en.HUBB }}, you can skip to the [First Steps in {{ en.HUBB }}](#first-steps-in--enphub--business) section.  
 
 ### Invitee with an existing {{ en.DA }} 
 
-If the user already has a {{ en.DA }} , they receive an invitation email with a link to {{ en.HUBB }}.  
+If the user already has a {{ en.DA }}, they receive an invitation email with a link to {{ en.HUBB }}.  
 ![Invitation Email – Existing Devolutions Account](https://webdevolutions.azureedge.net/docs/en/hub/Hub2004.png)  
 
 1. Access the {{ en.HUBB }} URL link. 

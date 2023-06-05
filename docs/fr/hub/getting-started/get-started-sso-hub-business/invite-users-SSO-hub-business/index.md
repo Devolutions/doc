@@ -47,7 +47,7 @@ Les ***Groupes d'utilisateurs*** personnalisés doivent être définis au préal
 
 {{ fr.HUBB }} enverra un courriel contenant les informations essentielles aux destinataires, incluant l'URL du {{ fr.HUBB }}, l'ID d'invitation et la clé.  
 {% snippet icon.badgeCaution %} 
-Les utilisateurs devront remplir une configuration de {{ fr.DA }}. Consultez notre rubrique [Expérience d'invitation de l'utilisateur final pour SSO dans Hub Business](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/). 
+Les utilisateurs devront remplir une configuration de {{ fr.DA }}. Consultez notre rubrique [Expérience d'invitation de l'utilisateur final pour SSO dans {{ fr.HUBB }}](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/). 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
@@ -62,7 +62,7 @@ Un courriel sera envoyé à tous les administrateurs. Il peut être approuvé ou
  
 ## Inviter des utilisateurs ne faisant pas partie du fournisseur d'authentification
 
-Il est possible d'ajouter des utilisateurs à votre Hub Business qui sont hors de votre fournisseur d'authentification.  
+Il est possible d'ajouter des utilisateurs à votre {{ fr.HUBB }} qui sont hors de votre fournisseur d'authentification.  
 
 {% snippet icon.badgeInfo %} 
 Cette option est possible seulement si vous n'activez pas ***Forcer l'authentification unique à tous les utilisateurs***, puisque ces utilisateurs ne font pas partie de votre fournisseur d'authentification.

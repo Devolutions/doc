@@ -65,7 +65,7 @@ Cons:
 
 Note that there are different subscription levels for this product.  
 
-For more information, please see the [products features and highlights](https://devolutions.net/password-hub/) and consult our [Hub Business](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/) topic. 
+For more information, please see the [products features and highlights](https://devolutions.net/password-hub/) and consult our [{{ en.HUBB }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/) topic. 
 		</td>
 		<td>
 Pros: 
@@ -91,7 +91,7 @@ Cons:
 		<td>
 {{ en.RDM }} uses {{ en.DHUBP }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
 
-For more information, please consult our [Hub Personal](/rdm/windows/data-sources/data-sources-types/hub-personal/) topic. 
+For more information, please consult our [{{ en.HUBP }}](/rdm/windows/data-sources/data-sources-types/hub-personal/) topic. 
 		</td>
 		<td>
 Pros: 

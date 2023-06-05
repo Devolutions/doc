@@ -1,18 +1,18 @@
 ---
 title: Small to Medium Enterprise
 ---
-Here we will give you a security structure example that should be relevant for small to medium business.  
+Here we will give you a security structure example that should be relevant for small to medium businesses.  
 
 In this scenario, all the options in the ***Privileges*** section of the user properties will be left disabled.  
 
 While this example might fit for many enterprises, please keep in mind that any privilege should be granted only if needed. Be extremely careful when granting permissions to a user or a user group.  
 
 {% snippet icon.badgeInfo %} 
-This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 ## Steps 
-Our fictional company Windjammer has a HelpDesk and a ServiceDesk department, an administrator and a MontrealConsultant . We can also see two customers: Downhill Pro and Telemark .  
+Our fictional company Windjammer has a HelpDesk and a ServiceDesk department, an administrator and a MontrealConsultant . We can also see two customers: Downhill Pro and Telemark.  
 
 Here is a view of the data source tree view structure:  
 ![Windjammer tree view structure](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11108.png) 

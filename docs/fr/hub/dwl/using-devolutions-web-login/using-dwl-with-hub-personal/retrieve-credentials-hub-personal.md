@@ -23,9 +23,9 @@ Avec cette option activée, un icône {{ fr.DWL }} sera affiché dans chaque cha
  
 ![Général – Afficher l'icône dans les champs](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2119.png) 
 
-4. Cliquer sur ***Enregistrer*** . 
-1. Cliquer sur ***Hub Personal*** dans la section des ***Sources de données*** .  
-![Paramètres – Sources de données – Hub Personal](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2127.png) 
+4. Cliquer sur ***Enregistrer***. 
+1. Cliquer sur ***{{ fr.HUBP }}*** dans la section des ***Sources de données*** .  
+![Paramètres – Sources de données – {{ fr.HUBP }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2127.png) 
 1. Dans l 'onglet Actions, activer l 'option Remplir automatiquement les champs d 'identifiants lors du chargement en cochant la case à côté. Avec ce paramètre activé, les identifiants seront automatiquement remplis lors du chargement d 'une page Web. Cela ne fonctionne que si vous n 'avez qu 'une seule entrée d 'identifiants pour un site Web donné.  
 ![Actions – Remplir automatiquement les champs d'identifiants lors du chargement](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2128.png) 
 {% snippet icon.badgeInfo %} 

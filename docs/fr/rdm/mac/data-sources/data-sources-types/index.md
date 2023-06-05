@@ -166,7 +166,7 @@ Inconvénients :
 
 Notez qu'il existe différents niveaux d'abonnement pour ce produit.  
 
-Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou notre rubrique [Hub Business](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/) . 
+Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou notre rubrique [{{ fr.HUBB }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
 		</td>
 		<td>
 Avantages : 
@@ -192,7 +192,7 @@ Inconvénients :
 		<td>
 {{ fr.RDM }} pour Mac utilise {{ fr.DHUBP }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet.  
 
-Pour plus d'informations, veuillez consulter notre rubrique [Hub Personnal](/fr/rdm/mac/data-sources/data-sources-types/hub-personal/) . 
+Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.HUBP }}](/fr/rdm/mac/data-sources/data-sources-types/hub-personal/). 
 		</td>
 		<td>
 Avantages : 

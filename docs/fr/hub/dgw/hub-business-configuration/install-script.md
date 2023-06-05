@@ -49,7 +49,7 @@ Un ***Utilisateur d'application*** est nécessaire pour continuer. S'il n'a pas 
 ![Modifier](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0031.png)
 1. Descendre au bas de la page et cliquer sur ***Tester connexion***. Une boîte de message avec ***Connexion réussie*** devrait apparaître en haut à droite.  
 ![Tester connexion](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0032.png)
-1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} Hub.  
+1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} {{ fr.HUB}}.  
 ![Connexion réussie](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0033.png)
 
 {% snippet icon.badgeInfo %} 

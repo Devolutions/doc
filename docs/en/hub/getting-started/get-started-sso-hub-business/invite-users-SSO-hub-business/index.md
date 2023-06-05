@@ -47,7 +47,7 @@ Custom ***User groups*** need to be defined beforehand in {{ en.HUBB }}. For mor
 {{ en.HUBB }} will send an email with essential information to the recipients, including the URL of your {{ en.HUBB }}, the invitation ID, and the key.  
 
 {% snippet icon.badgeCaution %} 
-Users will be required to complete a {{ en.DA }} setup. See the [End User Invitation Experience for SSO in Hub Business](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/) topic. 
+Users will be required to complete a {{ en.DA }} setup. See the [End User Invitation Experience for SSO in {{ en.HUBB }}](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/) topic. 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
@@ -62,7 +62,7 @@ An email will then be sent to all the administrators. It can be either approved 
  
 ## Invite Users That Are Not Part of Your Authentication Provider
 
-It is possible to add users to your Hub Business that are outside of your authentication provider.  
+It is possible to add users to your {{ en.HUBB }} that are outside of your authentication provider.  
 
 {% snippet icon.badgeInfo %} 
 This option is only possible if you do not set a ***Force SSO on all users***, since those users are not part of your authentication provider.

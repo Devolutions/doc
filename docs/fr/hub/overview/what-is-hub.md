@@ -34,12 +34,12 @@ Connexion automatique
 
 ## {{ fr.LAUNCHER }}  
 
-Technologie d 'accès à distance  
+Technologie d'accès à distance  
 		</td>
 		<td>
 ![!!password-hub-importer-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/password-hub-importer-icon-shadow.png)  
 
-## {{ fr.PHI }}  
+## {{ fr.DHUBI }}  
 
 Importateur de données  
 		</td>

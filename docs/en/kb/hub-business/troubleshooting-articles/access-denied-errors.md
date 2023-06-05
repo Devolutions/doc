@@ -51,7 +51,7 @@ Enter your Emergency reset code.<br>
 
 The Emergency reset kit was provided at the first login after the initial creation of the {{ en.HUBP }}. It is a mandatory step in the creation process.<br>
 
-You can search for a PDF file titled "Devolutions Hub Personal Emergency Kit".<br>
+You can search for a PDF file titled "{{ en.DHUBP }} Emergency Kit".<br>
 
 There is no way to recover it if the Emergency reset kit cannot be located.<br>
 		</td>
@@ -161,7 +161,7 @@ Description
 		<td>
 This user did a Forgot password on their {{ en.DA }} and is not the owner. This action cuts the link with the {{ en.HUBB }}.<br>
 
-Note: If the {{ en.DA }} has more than one {{ en.HUB }} (Business and Personal), it will cut the link to all of them.
+Note: If the {{ en.DA }} has more than one {{ en.HUB }} ({{ en.HUBB }} and {{ en.HUBP }}), it will cut the link to all of them.
 		</td>
 	</tr>
 	<tr>

@@ -39,7 +39,7 @@ The ***Import/Export Settings*** allow to save and transfer your currently set p
 
 ### Data sources <a name="source"></a>
 
-The ***Data sources*** settings are used to customize {{ en.DWL }} interactions with <a href="#rdm">{{ en.RDM }}</a>, <a href="#server">{{ en.DVLS }}</a>, and <a href="#hub">{{ en.HUB }}</a> Business or Personal.  
+The ***Data sources*** settings are used to customize {{ en.DWL }} interactions with <a href="#rdm">{{ en.RDM }}</a>, <a href="#server">{{ en.DVLS }}</a>, and <a href="#hub">{{ en.HUBB }} or {{ en.HUBP }}</a>.
 
 ### {{ en.RDM }} <a name="rdm"></a>
 
@@ -261,7 +261,7 @@ Enable to synchronize all the available {{ en.VLT }}s from {{ en.DVLS }} .
 	</tr>
 </table>
 
-### {{ en.HUBB }} and Personal <a name="hub"></a>
+### {{ en.HUBB }} and {{ en.HUBP }} <a name="hub"></a>
 
 <table>
 	<tr>
@@ -277,7 +277,7 @@ DESCRIPTION
 Enable {{ en.DHUBB }}/Personal 
 		</td>
 		<td>
-Retrieve entries from {{ en.HUB }} . 
+Retrieve entries from {{ en.HUB }}. 
 		</td>
 	</tr>
 	<tr>

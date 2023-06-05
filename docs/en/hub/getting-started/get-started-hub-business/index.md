@@ -1,6 +1,7 @@
 ---
-title: Get Started with Hub Business
-order: 10
+eleventyComputed:
+  title: Get started with {{ en.HUBB }}
+  order: 10
 ---
 Here is a list of steps to help you get started with {{ en.HUBB }} for your team environment.  
 
@@ -58,7 +59,7 @@ With this video, we will demonstrate how to add ***Users*** to your {{ en.HUBB }
 Step 3 - Filling ***Vaults*** with content  
 
 * [Create Entries Manually](/hub/web-interface/hub-overview/entries/create-entries-manually/) 
-* [Import Entries with Hub Importer](/hub/web-interface/hub-overview/tools/hub-importer/) 
+* [Import Entries with {{ en.HUBI }}](/hub/web-interface/hub-overview/tools/hub-importer/) 
 		</td>
 		<td>
 At this stage we will show you four different ways to add and import ***Entries*** into your newly created {{ en.HUBB }}. We will also cover the ***Properties*** and ***Permissions*** of ***Entries*** . 

@@ -3,10 +3,10 @@ title: Utiliser Devolutions Web Login
 order: 50
 ---
 {% snippet icon.badgeNotice %} 
-Cette rubrique suppose que vous avez préalablement [installé l'extension {{ fr.DWL }}](/fr/hub/dwl/installation/) dans votre navigateur et qu'elle est connectée à [{{ fr.HUBB }}](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) ou à [{{ fr.HUBP }}](/fr/hub/dwl/first-login-devolutions-web-login/hub-personal/) . 
+Cette rubrique suppose que vous avez préalablement [installé l'extension {{ fr.DWL }}](/fr/hub/dwl/installation/) dans votre navigateur et qu'elle est connectée à [{{ fr.HUBB }}](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) ou à [{{ fr.HUBP }}](/fr/hub/dwl/first-login-devolutions-web-login/hub-personal/). 
 {% endsnippet %}
  
-L'extension de navigateur {{ fr.DWL }} est l'outil de choix des utilisateurs pour interagir dans un contexte de gestion de mots de passe avec {{ fr.HUBB }} et Personal . Elle permet :  
+L'extension de navigateur {{ fr.DWL }} est l'outil de choix des utilisateurs pour interagir dans un contexte de gestion de mots de passe avec {{ fr.HUBB }} et {{ fr.HUBP }}. Elle permet :  
 
 * la correspondance automatiquement des sites Web avec leurs identifiants enregistrés respectifs; 
 * la visualisation et le filtrage directs des comptes que les coffres contiennent; 

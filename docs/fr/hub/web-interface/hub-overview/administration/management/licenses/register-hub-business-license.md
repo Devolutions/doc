@@ -1,7 +1,8 @@
 ---
-title: Enregistrer votre licence Hub Business
+eleventyComputed:
+  title: Enregistrer votre licence {{ fr.HUBB }}
 ---
-Enregistrer votre nouvelle licence dans {{ fr.HUBB }} en suivant les étapes selon votre situation actuelle:  
+Enregistrer votre nouvelle licence dans {{ fr.HUBB }} en suivant les étapes selon votre situation actuelle :  
 
 * [Ma licence est toujours active](#ma-licence-est-toujours-active) 
 * [Ma licence est expirée](#ma-licence-est-expirée)  
@@ -13,17 +14,17 @@ Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions da
 ### Ma licence est toujours active 
 
 1. Connectez-vous à {{ fr.HUBB }}. 
-1. Aller dans ***Administration - Licences*** . 
-1. Cliquer sur le bouton ***Modifier*** .  
+1. Aller dans ***Administration - Licences***. 
+1. Cliquer sur le bouton ***Modifier***.  
 ![!!Hub4091.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4091.png) 
 1. Coller votre nouvelle licence {{ fr.HUBB }}. 
-1. Cliquer ***Enregistrer*** .  
+1. Cliquer ***Enregistrer***.  
 ![!!Hub4092.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4092.png) 
 
 ### Ma licence est expirée 
 
 1. Connectez-vous à {{ fr.HUBB }}. 
-1. Un message vous refusant l’accès s 'affichera. 
+1. Un message vous refusant l’accès s'affichera. 
 {% snippet icon.badgeCaution %} 
 Seuls les ***Administrateurs*** et les utilisateurs disposant des ***Permissions système*** pour ***Gérer les licences des produits*** recevront ce message. 
 {% endsnippet %}
@@ -31,7 +32,7 @@ Seuls les ***Administrateurs*** et les utilisateurs disposant des ***Permissions
 ![!!Hub4093.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4093.png)  
 
 3. Coller votre nouvelle licence {{ fr.HUBB }}. 
-1. Cliquer ***Enregistrer*** .  
+1. Cliquer ***Enregistrer***.  
 
-Vous serez automatiquement connecté à votre {{ fr.HUB }} . 
+Vous serez automatiquement connecté à votre {{ fr.HUB }}. 
 

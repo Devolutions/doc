@@ -13,7 +13,7 @@ Les sources de données avancées augmentent considérablement l'ensemble des fo
 
 Actuellement, les sources de données avancées sont les suivantes : 
 
-* [Devolutions Hub Business](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/) 
+* [{{ fr.DHUBB }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/) 
 * [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) 
 * [Microsoft Azure SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) 
 * [Microsoft SQL Server (MSSQL)](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) 
