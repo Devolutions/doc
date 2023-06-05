@@ -17,7 +17,7 @@ title: XML
 
 * It is a free data source. 
 * It's possible to configure an auto refresh interval. 
-* The [Online Backup Service](/rdm/mac/commands/file/backup/) is available for this data source. 
+* The [{{ en.OBACK }} Service](/rdm/mac/commands/file/backup/) is available for this data source. 
 
 {% snippet icon.badgeCaution %} 
 Although it can be share between multiple locations, there is no conflict management for the configuration. If you share with other users you may get update conflicts and run into issues. This data source type is meant for a single user using multiple computers, not multiple users. 
@@ -81,9 +81,9 @@ Backup
 
 Choose between: 
 
-* None : No backup of your data source will be created. 
-* Online Backup : An Online Backup (using Online Backup Service) will automatically be created. 
-* Save to file : Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
+* None: No backup of your data source will be created. 
+* {{ en.OBACK }}: An {{ en.OBACK }} (using {{ en.OBACK }} Service) will automatically be created. 
+* Save to file: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
 		</td>
 	</tr>
 	<tr>

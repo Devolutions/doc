@@ -12,7 +12,7 @@ Since this service is hosted in the cloud, we strongly recommend that you furthe
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Even though this is a cloud service, you MUST use our Online Backup service to keep history of your data. Devolutions offers a free backup service, and we do not maintain multiple versions of the Online Drive content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option. 
+Even though this is a cloud service, you MUST use our {{ en.OBACK }} service to keep history of your data. Devolutions offers a free backup service, and we do not maintain multiple versions of the Online Drive content. This makes it critical that you enable the backup feature. This service will keep multiple versions of your file and is the best option. 
 {% endsnippet %}
  
 ## Settings 
@@ -107,7 +107,7 @@ Ask for the master key every time a connection to the {{ en.DOD }} is attempted.
 
 ### Backup 
 
-Please consult the [Online Backup](/cloud/rdm-online-services/online-backup/) topic for more information on this service.  
+Please consult the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) topic for more information on this service.  
 ![Online Drive - Backup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10500.png) 
 
 <table>
@@ -127,9 +127,9 @@ Backup
 
 Choose the backup mode. Select between:  
 
-* None : No backup of your data source will be created. 
-* Online Backup : An Online Backup (using [Online Backup Service](/rdm/mac/commands/file/backup/) ) will automatically be created. 
-* Save to file : Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
+* None: No backup of your data source will be created. 
+* {{ en.OBACK }}: An {{ en.OBACK }} (using [{{ en.OBACK }} Service](/rdm/mac/commands/file/backup/) ) will automatically be created. 
+* Save to file: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
 		</td>
 	</tr>
 	<tr>

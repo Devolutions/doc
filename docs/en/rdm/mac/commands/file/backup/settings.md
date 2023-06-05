@@ -1,7 +1,7 @@
 ---
 title: Settings
 ---
-The [Online Backup](/rdm/mac/commands/file/backup/) allows you to backup your [{{ en.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in a safe online storage. The backup option is available through the File - Backup menu. 
+The [{{ en.OBACK }}](/rdm/mac/commands/file/backup/) allows you to backup your [{{ en.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in a safe online storage. The backup option is available through the File - Backup menu. 
 
 ## Settings 
 
@@ -11,19 +11,19 @@ The [Online Backup](/rdm/mac/commands/file/backup/) allows you to backup your [{
 
 ### View Subscription 
 
-2. Click on File - Backup - View Subscription to activate your Online Backup subscription.  
-![Online Backup subscription](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10312.png) 
+2. Click on File - Backup - View Subscription to activate your {{ en.OBACK }} subscription.  
+![{{ en.OBACK }} subscription](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10312.png) 
 
 1. Specify a unique backup name, for each of your desired data source, which will be used to backup and restore the data source.  
 ![Backup name](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10008.png) 
 
 ### Execute Backup 
 
-4. Once the backup name has been set, perform a change in the data source to properly activate the Online Backup and then click on File - Execute Backup . 
+4. Once the backup name has been set, perform a change in the data source to properly activate the {{ en.OBACK }} and then click on File - Execute Backup . 
 
 ### View History 
 
-5. Click on ***File - Backup - View History*** to validate that the Online Backup has been configured properly  
+5. Click on ***File - Backup - View History*** to validate that the {{ en.OBACK }} has been configured properly  
 ![View History](https://webdevolutions.azureedge.net/docs/en/rdm/mac/2015-05-25_13-12-31.png) 
 
 {% snippet icon.shieldCaution %} 

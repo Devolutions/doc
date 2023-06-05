@@ -11,7 +11,7 @@ La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) vous perm
 
 ### Configuration de la sauvegarde 
 
-2. Cliquer sur ***Fichier - Copie de sauvegarde - Configuration de la sauvegarde*** pour activer votre abonnement Online Backup  
+2. Cliquer sur ***Fichier - Copie de sauvegarde - Configuration de la sauvegarde*** pour activer votre abonnement {{ en.OBACK }}. 
 ![Configuration de la sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4013.png) 
 1. Spécifier un nom de sauvegarde unique, pour chacune de vos sources de données souhaitées, qui sera utilisé pour sauvegarder et restaurer la source de données.  
 ![Nom de la nouvelle copie de sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4014.png) 

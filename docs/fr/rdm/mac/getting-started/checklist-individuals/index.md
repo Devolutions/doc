@@ -51,7 +51,7 @@ Lors du premier démarrage, {{ fr.RDM }} utilise une source de données SQLite. 
 Étape 3 - Configurer Devolutions {{ fr.OBACK }}. 
 		</td>
 		<td>
-Devolutions [Online Backup](/fr/cloud/rdm-online-services/online-backup/) vous permet de sauvegarder sécuritairement vos informations pour certaines sources de données. La copie de sauvegarde s’effectue automatiquement 30 secondes après une modification du contenu dans la source de données. En effet, il est recommandé de toujours faire une copie de sauvegarde de votre source de données. 
+Devolutions [{{ en.OBACK }}](/fr/cloud/rdm-online-services/online-backup/) vous permet de sauvegarder sécuritairement vos informations pour certaines sources de données. La copie de sauvegarde s’effectue automatiquement 30 secondes après une modification du contenu dans la source de données. En effet, il est recommandé de toujours faire une copie de sauvegarde de votre source de données. 
 		</td>
 	</tr>
 	<tr>

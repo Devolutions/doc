@@ -16,7 +16,7 @@ title: SQLite
 ## Highlights 
 
 * Full connection log and attachments support 
-* The [Online Backup Service](/cloud/getting-started/devolutions-cloud-services/) is available for this data source 
+* The [{{ en.OBACK }} Service](/cloud/getting-started/devolutions-cloud-services/) is available for this data source 
 
 {% snippet icon.shieldInfo %} 
 All passwords are encrypted by default by {{ en.RDM }} for Mac . You can specify a custom password to fully encrypt the content of the SQLite database. 
@@ -120,9 +120,9 @@ Backup
 
 Select between: 
 
-* None : No backup of your data source will be created. 
-* Online Backup : An Online Backup (using Online Backup Service) will automatically be created. 
-* Save to file : Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
+* None: No backup of your data source will be created. 
+* {{ en.OBACK }}: An {{ en.OBACK }} (using {{ en.OBACK }} Service) will automatically be created. 
+* Save to file: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
 		</td>
 	</tr>
 	<tr>
