@@ -7,7 +7,7 @@ Le cryptage de la source de données empêche les utilisateurs non autorisés d'
 
 Un mot de passe sur la source de données peut être utilisé avec les sources de données suivantes:  
 
-* Devolutions Online Drive 
+* {{ fr.DOD }} 
 * Dropbox 
 * Google Drive 
 * SQLite 

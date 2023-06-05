@@ -1,7 +1,7 @@
 ---
 title: NullReferenceException
 ---
-Getting the following issue in {{ en.RDM }} with a Devolutions Online Drive:  
+Getting the following issue in {{ en.RDM }} with a {{ en.DOD }}:  
 
 NullReferenceException - Object reference not set to an instance of an object.  
 

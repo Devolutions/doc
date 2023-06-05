@@ -13,7 +13,6 @@ module.exports = {
     DHUBP: 'Devolutions Hub Personal',
     DOD: 'Devolutions Online Drive',
     DODB: 'Devolutions Online Database',
-    DODV: 'Devolutions Online Drive',
     DVLS: 'Devolutions Server',
     DVLSCONSOLE: 'Console de Devolutions Server',
     DWL: 'Devolutions Web Login',

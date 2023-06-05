@@ -31,10 +31,10 @@ AVANTAGES ET INCONVÉNIENTS
 ![!!DataSourceDODLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
 		</td>
 		<td>
-{{ fr.DODV }} 
+{{ fr.DOD }} 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac utilise {{ fr.DODV }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet. 
+{{ fr.RDM }} pour Mac utilise {{ fr.DOD }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet. 
 Pour plus d'informations, veuillez consulter notre rubrique [Online Drive](/fr/cloud/rdm-online-services/online-drive/) . 
 		</td>
 		<td>

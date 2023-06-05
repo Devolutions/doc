@@ -34,11 +34,11 @@ AVANTAGES ET INCONVÉNIENTS
 ![!!DataSourceDODLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
 		</td>
 		<td>
-{{ fr.DODV }} 
+{{ fr.DOD }} 
 		</td>
 		<td>
-{{ fr.RDM }} utilise Devolutions Online Drive pour stocker et synchroniser vos sessions. Accéder à vos sessions où que vous soyez en utilisant une connexion Internet. 
-Pour plus d'informations, veuillez consulter notre rubrique [Online Drive](/fr/cloud/rdm-online-services/online-drive/) . 
+{{ fr.RDM }} utilise {{ fr.DOD }} pour stocker et synchroniser vos sessions. Accéder à vos sessions où que vous soyez en utilisant une connexion Internet. 
+Pour plus d'informations, veuillez consulter notre rubrique [Online Drive](/fr/cloud/rdm-online-services/online-drive/). 
 
 		</td>
 		<td>

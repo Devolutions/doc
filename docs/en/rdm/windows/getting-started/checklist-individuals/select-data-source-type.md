@@ -105,7 +105,7 @@ XML
 	</tr>
 	<tr>
 		<td>
-{{ en.DODV }} 
+{{ en.DOD }} 
 		</td>
 		<td>
 

@@ -190,7 +190,7 @@ Sélectionner le type de [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/data-sourc
 
 * ***Par défaut*** : utilise le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données. 
 * ***Aucun*** : désactive le {{ fr.UVLT }} pour tous les utilisateurs. 
-* ***Devolutions Online Drive*** : utilise un fichier Devolutions Online Drive (* .dod) comme {{ fr.UVLT }} . 
+* ***{{ fr.DOD }}*** : utilise un fichier {{ fr.DOD }} (*.dod) comme {{ fr.UVLT }}. 
 		</td>
 	</tr>
 </table>

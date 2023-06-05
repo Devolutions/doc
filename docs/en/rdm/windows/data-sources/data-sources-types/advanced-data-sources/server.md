@@ -186,14 +186,14 @@ Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/
 
 * ***Default*** : use the default {{ en.UVLT }} , which is stored in the database. 
 * ***None*** : disable the {{ en.UVLT }} for all users. 
-* ***Online Drive*** : use a {{ en.DODV }} file (*.dod) as a {{ en.UVLT }} . 
+* ***Online Drive*** : use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
 		</td>
 	</tr>
 </table>
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your {{ en.DVLS }} .  
+Open a VPN to access your data prior to connecting to your {{ en.DVLS }}.  
 ![Devolutions Server - VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DPSVPN.png) 
 
 ### Advanced 

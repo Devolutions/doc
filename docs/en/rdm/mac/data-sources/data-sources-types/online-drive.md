@@ -68,7 +68,7 @@ Choose the Default or [Application password](/kb/remote-desktop-manager/how-to-a
 Application password 
 		</td>
 		<td>
-Enter your [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) . 
+Enter your [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/). 
 		</td>
 	</tr>
 	<tr>
@@ -76,7 +76,7 @@ Enter your [Application password](/kb/remote-desktop-manager/how-to-articles/app
 Always ask for password (default only) 
 		</td>
 		<td>
-Prompts for the password every time a connection to the {{ en.DODV }} is attempted. 
+Prompts for the password every time a connection to the {{ en.DOD }} is attempted. 
 		</td>
 	</tr>
 	<tr>
@@ -84,7 +84,7 @@ Prompts for the password every time a connection to the {{ en.DODV }} is attempt
 Filename 
 		</td>
 		<td>
-Indicate the filename used to store the data on the {{ en.DODV }} . 
+Indicate the filename used to store the data on the {{ en.DOD }}. 
 		</td>
 	</tr>
 	<tr>
@@ -100,7 +100,7 @@ Contains a master key to access the data source.
 Always ask master key 
 		</td>
 		<td>
-Ask for the master key every time a connection to the {{ en.DODV }} is attempted. 
+Ask for the master key every time a connection to the {{ en.DOD }} is attempted. 
 		</td>
 	</tr>
 </table>
@@ -144,7 +144,7 @@ Specify the backup name that will allow you to automatically save your sessions 
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your {{ en.DODV }} .  
+Open a VPN to access your data prior to connecting to your {{ en.DOD }}.  
 ![!!RDMMac4040.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4040.png) 
 
 ### Advanced 

@@ -33,10 +33,10 @@ PROS AND CONS
 ![!!DataSourceDODLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
 		</td>
 		<td>
-{{ en.DODV }} 
+{{ en.DOD }} 
 		</td>
 		<td>
-{{ en.RDM }} uses {{ en.DODV }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
+{{ en.RDM }} uses {{ en.DOD }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
 
 For more information, please consult our [Online Drive](/cloud/rdm-online-services/online-drive/) topic. 
 		</td>

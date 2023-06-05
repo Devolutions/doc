@@ -3,9 +3,9 @@ title: Devolutions Online Drive
 ---
 {% youtube 'R3VYxnOdjoE' %}  
 
-The {{ en.DODV }} stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.  
+The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.  
 
-It is an online file storage service dedicated to a single file type, {{ en.RDM }} ’s connection list. {{ en.DODV }} is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.  
+It is an online file storage service dedicated to a single file type, {{ en.RDM }} ’s connection list. {{ en.DOD }} is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.  
 
 Please consult the [Online Drive](/cloud/rdm-online-services/online-drive/) topic for information on this service.  
 
@@ -21,7 +21,7 @@ Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rd
 
 ### General 
 
-![Devolutions Online Drive - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11347.png) 
+![{{ en.DOD }} - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11347.png) 
 
 <table>
 	<tr>
@@ -70,7 +70,7 @@ Choose the Default or [Application password](/kb/remote-desktop-manager/how-to-a
 Application password 
 		</td>
 		<td>
-Enter your [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) . 
+Enter your [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/). 
 		</td>
 	</tr>
 	<tr>
@@ -78,7 +78,7 @@ Enter your [Application password](/kb/remote-desktop-manager/how-to-articles/app
 Always ask password (default only) 
 		</td>
 		<td>
-Prompts for the password every time a connection to the {{ en.DODV }} is attempted. 
+Prompts for the password every time a connection to the {{ en.DOD }} is attempted. 
 		</td>
 	</tr>
 	<tr>
@@ -86,7 +86,7 @@ Prompts for the password every time a connection to the {{ en.DODV }} is attempt
 Filename 
 		</td>
 		<td>
-Indicate the filename used to store the data on the {{ en.DODV }} . 
+Indicate the filename used to store the data on the {{ en.DOD }}. 
 		</td>
 	</tr>
 	<tr>
@@ -102,7 +102,7 @@ Contains a master key to access the data source.
 Always ask master key 
 		</td>
 		<td>
-Ask for the master key every time a connection to the {{ en.DODV }} is attempted. 
+Ask for the master key every time a connection to the {{ en.DOD }} is attempted. 
 		</td>
 	</tr>
 </table>
@@ -110,7 +110,7 @@ Ask for the master key every time a connection to the {{ en.DODV }} is attempted
 ### Backup 
 
 Please consult the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) topic for information on this service.  
-![Devolutions Online Drive - Backup Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11334.png) 
+![{{ en.DOD }} – Backup Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11334.png) 
 
 <table>
 	<tr>
@@ -129,21 +129,21 @@ Backup
 
 Choose the backup mode. Select between:  
 
-* None : No backup of the data source will be created. 
-* File backup : The backup will be saved to a local file when a modification occurs in the data source. 
-* {{ en.OBACK }} : An {{ en.OBACK }} (using the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) ) will automatically be created when a modification occurs in the data source. 
+* None: No backup of the data source will be created. 
+* File backup: The backup will be saved to a local file when a modification occurs in the data source. 
+* {{ en.OBACK }}: An {{ en.OBACK }} (using the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) ) will automatically be created when a modification occurs in the data source. 
 		</td>
 	</tr>
 </table>
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your {{ en.DODV }} .  
-![Devolutions Online Drive - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DODVVPN.png) 
+Open a VPN to access your data prior to connecting to your {{ en.DOD }} .  
+![{{ en.DOD }} - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DODVVPN.png) 
 
 ### Advanced 
 
-![Devolutions Online Drive - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11335.png) 
+![{{ en.DOD }} - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11335.png) 
 
 <table>
 	<tr>

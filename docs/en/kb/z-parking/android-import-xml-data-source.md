@@ -5,7 +5,7 @@ You can import an XML data source in {{ en.RDM }} for Android by overwriting or 
 
 Please note that to be able to copy an XML data source file, the device has to be rooted, we are not responsible if a problem occurs at that point.
 
-We suggest using a Devolutions Online Drive data source to import an XML data source from Windows to Android instead of importing an XML data source directly. The Devolutions Online Drive is free and can be synchronized across all your devices.
+We suggest using a {{ en.DOD }} data source to import an XML data source from Windows to Android instead of importing an XML data source directly. The {{ en.DOD }} is free and can be synchronized across all your devices.
 
 ## Overwriting an existing xml data source
 

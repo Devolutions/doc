@@ -13,7 +13,7 @@ Depending on the exact cause of the error, several options can solve this issue.
 1. If you don't have a custom Proxy configured, try the ***System Default*** option. If that does not work, try again with ***No Proxy***
 1. If you are in a team environment, we recommend consulting your Administrator to know if you should be using a specific Custom proxy.
 ### Solution 2
-If you are using the Devolutions Online Drive data sources, or if you are using the Devolutions Cloud backup, this solution might not help, as a connection with the Devolutions Cloud is needed to use them.  
+If you are using the {{ en.DOD }} data sources, or if you are using the Devolutions Cloud backup, this solution might not help, as a connection with the Devolutions Cloud is needed to use them.  
 
 1. Go to ***File - Devolutions Account***
 1. Uncheck the ***Automatic sign-in at startup*** option.

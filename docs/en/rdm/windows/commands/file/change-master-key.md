@@ -7,7 +7,7 @@ The master key prevents unauthorized users to access the data source without kno
 
 A master key can be used with the following data sources:  
 
-* {{ en.DODV }} 
+* {{ en.DOD }} 
 * Dropbox 
 * Google Drive 
 * XML 

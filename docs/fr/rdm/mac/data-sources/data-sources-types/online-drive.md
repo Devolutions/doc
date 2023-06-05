@@ -1,17 +1,17 @@
 ---
 title: Devolutions Online Drive
 ---
-Le Devolutions Online Drive stocke et synchronise vos connexions à distance et vos identifiants en ligne. Vous pouvez accéder à vos sessions de n'importe où via une connexion Internet.  
+Le {{ fr.DOD }} stocke et synchronise vos connexions à distance et vos identifiants en ligne. Vous pouvez accéder à vos sessions de n'importe où via une connexion Internet.  
 
-Il s'agit d'un service de stockage de fichiers en ligne dédiée à un seul type de fichier, la liste de connexion de {{ fr.RDM }} . Devolutions Online Drive est entièrement gratuit et n'a aucune limite quant au nombre de sessions que vous pourriez avoir, il est destiné aux utilisateurs uniques, car vous ne pourrez pas partager de fichiers.  
+Il s'agit d'un service de stockage de fichiers en ligne dédiée à un seul type de fichier, la liste de connexion de {{ fr.RDM }}. {{ fr.DOD }} est entièrement gratuit et n'a aucune limite quant au nombre de sessions que vous pourriez avoir, il est destiné aux utilisateurs uniques, car vous ne pourrez pas partager de fichiers.  
 
-Veuillez consulter la rubrique [Devolutions Online Drive](/fr/cloud/rdm-online-services/online-drive/) pour plus d'informations sur ce service.  
+Veuillez consulter la rubrique [{{ fr.DOD }}](/fr/cloud/rdm-online-services/online-drive/) pour plus d'informations sur ce service.  
 
 ## Paramètres 
 
 ### Général 
 
-![Devolutions Online Drive - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4266.png) 
+![{{ fr.DOD }} - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4266.png) 
 
 <table>
 	<tr>
@@ -68,7 +68,7 @@ Entrer votre [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-a
 Demander les identifiants (Défaut seulement) 
 		</td>
 		<td>
-Demande le mot de passe chaque fois qu'une connexion au Devolutions Online Drive est tentée. 
+Demande le mot de passe chaque fois qu'une connexion au {{ fr.DOD }} est tentée. 
 		</td>
 	</tr>
 	<tr>
@@ -100,7 +100,7 @@ Toujours demander la clé maîtresse lors de la connexion à la source de donné
 ### Sauvegarde 
 
 Veuillez consulter la rubrique [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) pour plus d'informations sur ce service.  
-![Devolutions Online Drive - Sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4267.png) 
+![{{ fr.DOD }} - Sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4267.png) 
 
 <table>
 	<tr>
@@ -136,12 +136,12 @@ Spécifier le nom de sauvegarde qui vous permettra d'enregistrer automatiquement
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à Devolutions Online Drive .  
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à {{ fr.DOD }}.  
 ![!!RDMMac4045.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4045.png) 
 
 ### Avancée 
 
-![Devolutions Online Drive - Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4268.png) 
+![{{ fr.DOD }} - Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4268.png) 
 
 <table>
 	<tr>

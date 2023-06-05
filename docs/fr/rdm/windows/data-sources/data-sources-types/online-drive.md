@@ -7,21 +7,21 @@ Le {{ fr.DOD }} stocke et synchronise vos connexions à distance et vos identifi
 
 Il s'agit d'un service de stockage de fichiers en ligne dédiée à un seul type de fichier, la liste de connexion de {{ fr.RDM }} . {{ fr.DOD }} est entièrement gratuit et n'a aucune limite quant au nombre de sessions que vous pourriez avoir, il est destiné aux utilisateurs uniques, car vous ne pourrez pas partager de fichiers.  
 
-Veuillez consulter la rubrique [Devolutions Online Drive](/fr/cloud/rdm-online-services/online-drive/) pour plus d'informations sur ce service. 
+Veuillez consulter la rubrique [{{ fr.DOD }}](/fr/cloud/rdm-online-services/online-drive/) pour plus d'informations sur ce service. 
 
 {% snippet icon.shieldWarning %} 
 Étant donné que ce service est hébergé dans le cloud, nous vous recommandons fortement de crypter davantage vos données en appliquant une clé maîtresse. Cela garantira que le fichier sera illisible par personne d'autre que vous. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Bien que ce soit un service Cloud, vous DEVEZ utiliser notre service de sauvegarde en ligne pour conserver l’historique de vos données. Puisque Devolutions offre déjà un service de sauvegarde gratuit, Devolutions Online Drive ne conserve qu’une seule version du contenu. Ce faisant, il est primordial d’activer la fonctionnalité de sauvegarde. La sauvegarde permet de garder plusieurs versions de votre fichier. Par conséquent, ce service offre la meilleure solution. 
+Bien que ce soit un service Cloud, vous DEVEZ utiliser notre service de sauvegarde en ligne pour conserver l’historique de vos données. Puisque Devolutions offre déjà un service de sauvegarde gratuit, {{ fr.DOD }} ne conserve qu’une seule version du contenu. Ce faisant, il est primordial d’activer la fonctionnalité de sauvegarde. La sauvegarde permet de garder plusieurs versions de votre fichier. Par conséquent, ce service offre la meilleure solution. 
 {% endsnippet %}
  
 ## Paramètres 
 
 ### Général 
 
-![Devolutions Online Drive - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SNAGHTML1ea82acc.PNG) 
+![{{ fr.DOD }} - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SNAGHTML1ea82acc.PNG) 
 
 <table>
 	<tr>
@@ -78,7 +78,7 @@ Entrer votre [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-a
 Demander les identifiants (Défaut seulement) 
 		</td>
 		<td>
-Demande le mot de passe chaque fois qu'une connexion au Devolutions Online Drive est tentée. 
+Demande le mot de passe chaque fois qu'une connexion au {{ fr.DOD }} est tentée. 
 		</td>
 	</tr>
 	<tr>
@@ -110,7 +110,7 @@ Toujours demander la clé maîtresse lors de la connexion à la source de donné
 ### Copie de sauvegarde 
 
 Veuillez consulter la rubrique [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) pour plus d'informations sur ce service.  
-![Devolutions Online Drive - Copie de sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11334.png) 
+![{{ fr.DOD }} - Copie de sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11334.png) 
 
 <table>
 	<tr>
@@ -138,12 +138,12 @@ Choisir entre:
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à Devolutions Online Drive .  
-![Devolutions Online Drive - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/DODVVPN.png) 
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à {{ en.DOD }}.  
+![{{ en.DOD }} - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/DODVVPN.png) 
 
 ### Avancé 
 
-![Devolutions Online Drive - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11335.png) 
+![{{ en.DOD }} - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11335.png) 
 
 <table>
 	<tr>

@@ -1,12 +1,12 @@
 ---
 title: Restore
 ---
-You may need to restore a backup of your [Devolutions Online Drive](/rdm/mac/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source at some point. The restore option is accessible from the menu File - Backup - Restore .  
+You may need to restore a backup of your [{{ en.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source at some point. The restore option is accessible from the menu File - Backup - Restore .  
 
 {% snippet icon.shieldCaution %} 
 Before being able to restore a backup, you MUST create an empty data source and define the backup name before being able to use it. A quick step is written below:  
 
-* Create a new [Devolutions Online Drive](/rdm/mac/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in File - Data Sources . 
+* Create a new [{{ en.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in File - Data Sources . 
 {% endsnippet %}
  
 ## Settings 
@@ -18,4 +18,3 @@ Before being able to restore a backup, you MUST create an empty data source and 
 1. The Online Backup wizard will display a brief description of the backup as well as the restore destination.  
 ![Backup Wizard](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10093.png) 
 1. Click on OK to complete your backup restore. 
-

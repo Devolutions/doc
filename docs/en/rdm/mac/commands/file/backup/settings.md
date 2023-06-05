@@ -1,13 +1,13 @@
 ---
 title: Settings
 ---
-The [Online Backup](/rdm/mac/commands/file/backup/) allows you to backup your [Devolutions Online Drive](/rdm/mac/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in a safe online storage. The backup option is available through the File - Backup menu. 
+The [Online Backup](/rdm/mac/commands/file/backup/) allows you to backup your [{{ en.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in a safe online storage. The backup option is available through the File - Backup menu. 
 
 ## Settings 
 
 ### Sign in 
 
-1. Click on File - Backup - Sign-in to Sign-in with your [Devolutions Account](/cloud/devolutions-account/). 
+1. Click on File - Backup - Sign-in to Sign-in with your [{{ en.DA }}](/cloud/devolutions-account/). 
 
 ### View Subscription 
 
@@ -23,7 +23,7 @@ The [Online Backup](/rdm/mac/commands/file/backup/) allows you to backup your [D
 
 ### View History 
 
-5. Click on File - Backup - View History to validate that the Online Backup has been configured properly  
+5. Click on ***File - Backup - View History*** to validate that the Online Backup has been configured properly  
 ![View History](https://webdevolutions.azureedge.net/docs/en/rdm/mac/2015-05-25_13-12-31.png) 
 
 {% snippet icon.shieldCaution %} 
