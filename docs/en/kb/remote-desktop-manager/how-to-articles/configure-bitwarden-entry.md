@@ -39,7 +39,7 @@ Here is a description for each field or option, in order from top to bottom. The
 ![General tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0069.png)  
 * ***Name***: Entry name in {{ en.RDM }}
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in
-* ***Credentials***: Read more on [***Credentials*** options]()
+* ***Credentials***: Read more on [***Credentials*** options](/rdm/windows/commands/edit/entries/entry-credentials-options/)
 * ***Synchronize automatically***: The {{ en.RDM }} entry will synchronize automatically with Bitwarden
 
 ### General tab
