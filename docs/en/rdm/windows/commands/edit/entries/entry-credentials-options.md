@@ -2,7 +2,7 @@
 title: Entry Credentials Options
 ---
 Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.  
-![!!RdmWin4043.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4043.png)
+![Credentials](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4043.png)
 
 <table>
 	<tr>
@@ -12,6 +12,7 @@ OPTION
 		<th>
 DESCRIPTION
 		</th>
+
 	</tr>
 	<tr>
 		<td>
@@ -66,7 +67,7 @@ Will search the ***User Vault*** for the name specified. If the box is left empt
 Privileged account
 		</td>
 		<td>
-Will use pre-existing Privileged account from the same data source (?)
+Will use pre-existing Privileged account from the same data source
 		</td>
 	</tr>
 	<tr>

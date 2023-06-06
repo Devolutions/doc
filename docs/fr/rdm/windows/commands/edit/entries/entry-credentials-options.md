@@ -2,7 +2,7 @@
 title: Options d'identifiants
 ---
 Plusieurs options sont disponibles pour les ***Identifiants*** dans les entrées {{ fr.RDM }}.  
-![!!RdmWin4041.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4041.png)
+![Identifiants](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4041.png)
 
 <table>
 	<tr>
@@ -12,6 +12,7 @@ OPTION
 		<th>
 DESCRIPTION
 		</th>
+
 	</tr>
 	<tr>
 		<td>
@@ -66,7 +67,7 @@ Recherche le nom spécifié dans le ***Coffre d'utilisateurs***. Si la case est 
 Compte privilégié
 		</td>
 		<td>
-Utilise un compte privilégié préexistant provenant de la même source de données (?)
+Utilise un compte privilégié préexistant provenant de la même source de données
 		</td>
 	</tr>
 	<tr>
