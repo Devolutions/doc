@@ -114,7 +114,7 @@ If you have access to multiple vaults, you can create vault shortcuts to navigat
 
 * Centralize all of your vault shortcuts entries into one main (default) vault. 
 * In each vault, add a ***Vault (Shortcut)*** entry that returns the user to the main vault. 
-* Remove the data source drop-down list when using vault shortcuts. To do so, navigate to ***File*** – ***Options*** – ***User Interface*** – ***Data Sources*** and select ***Not visible*** in the ***Data source location*** drop-down list. Then, the {{ en.VLT }} Selector can be moved above the {{ en.NPANE }} for easier access.  
+* Remove the data source drop-down list when using vault shortcuts. To do so, navigate to ***File*** – ***Options*** – ***User Interface*** – ***Data Sources*** and select ***Not visible*** in the ***Data source location*** drop-down list. Then, the {{ en.VLT }} Selector can be [moved above the {{ en.NPANE }}](#move-entries-to-a-different-vault) for easier access.  
 
 Follow the steps below to create a ***Vault (Shortcut)*** entry.  
 
