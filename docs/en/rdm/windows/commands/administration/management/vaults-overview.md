@@ -4,19 +4,19 @@ title: Vaults Overview
 
 {{ en.VLT }}s are containers that organize your folders and entries. They help divide your ***Advanced Data Sources*** into multiple compartments. {{ en.VLT }}s improve the security and user experience of {{ en.RDM }}, as well as its performance by limiting the amount of entries that load at once. 
 
-{% snippet icon.badgeInfo %} 
-To learn about the different vault types and ways to access them, visit our [Vaults](/rdm/windows/commands/view/panels/vault/) topic. 
+{% snippet icon.badgeInfo %}
+To learn about the different vault types and ways to access them, visit our [Vaults](/rdm/windows/commands/view/panels/vault/) topic.
 {% endsnippet %}
  
 This topic covers the following:  
 
-* [Creating a {{ en.VLT }}](#create-a-vault) 
-* [Navigating between {{ en.VLT }}s](#navigate-between-vaults) 
-* [Moving entries to a different {{ en.VLT }}](#move-entries-to-a-different-vault) 
-* [Giving users and user groups access to a {{ en.VLT }}](#give-users-and-user-groups-access-to-a-vault) 
-* [Creating and using {{ en.VLT }} shortcuts](#create-and-use-vault-shortcuts) 
+* [Creating a {{ en.VLT }}](#create-a-vault)
+* [Navigating between {{ en.VLT }}s](#navigate-between-vaults)
+* [Moving entries to a different {{ en.VLT }}](#move-entries-to-a-different-vault)
+* [Giving users and user groups access to a {{ en.VLT }}](#give-users-and-user-groups-access-to-a-vault)
+* [Creating and using {{ en.VLT }} shortcuts](#create-and-use-vault-shortcuts)
 
-### Create a vault
+### Create a Vault
 
 Follow the steps below to learn how to create a new {{ en.VLT }}.
 
@@ -59,14 +59,14 @@ For security reasons, administrators always have access.
 1. The new {{ en.VLT }} will appear in the ***User and Security Management*** window. You can ***Close*** this view to access the {{ en.VLT }} from the ***{{ en.NPANE }}***.  
 ![New Vault Successfully Created](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2138.png) 
 
-### Navigate between vaults
+### Navigate between Vaults
 
 In the ***{{ en.NPANE }}***, you can use the vault selector to move between vaults.  
 ![Navigation Pane Vault Selector](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3602.png) 
 You can change the location of the vault selector in ***File – Options – User Interface –*** ***{{ en.VLT }}s*** – ***{{ en.VLT }}*** ***location***. By default, the selector is at the bottom of the ***{{ en.NPANE }}***.  
 ![File – Options – User Interface – Vaults – Vault location](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2141.png)
 
-### Move entries to a different vault
+### Move entries to a different Vault
 
 1. In the ***{{ en.NPANE }}***, go to the vault you want to transfer entries out of.
 1. In the ***Ribbon***, go to ***Edit – Batch – Move to*** ***{{ en.VLT }}***.  
@@ -79,7 +79,7 @@ You can change the location of the vault selector in ***File – Options – Use
 
 Your selected entries can now be found in the destination vault.
 
-### Give Users and User Groups Access to a vault
+### Give Users and User Groups Access to a Vault
 
 {{ en.VLT }}s simplify user management because Active Directory (AD) groups define who has access to a vault. These AD groups are known as ***User groups*** in {{ en.RDM }}. In general, most groups have access to a couple of vaults, while some groups will only have access to one vault. Limiting access to vaults minimizes the need to set permissions on lower-level folders.  
 
@@ -106,7 +106,7 @@ For security reasons, administrators always have access.
 Keep in mind that even if you assign a role/user to a {{ en.VLT }}, the permissions that are set in the ***{{ en.VLT }} Settings*** can change what users can see or do in the {{ en.VLT }}. 
 {% endsnippet %}
  
-### Create and use vault shortcuts
+### Create and use Vault shortcuts
 
 To navigate between vaults, you can use the {{ en.VLT }} Selector drop-down menu or vault shortcuts. These shortcuts are a type of session entry called ***Vault (Shortcut)***.  
 
