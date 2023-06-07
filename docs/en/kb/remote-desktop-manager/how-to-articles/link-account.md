@@ -17,7 +17,7 @@ Only one liecence per primary account is needed.
 
 ## Steps
 1. In a ***Small team*** or ***Enterprise*** data source, log in with an administrator.
-1. Go to the ***Administration*** tab.
+1. In the ***Ribbon***, go to the ***Administration*** tab.
 1. Click on ***Users***.  
 ![Administration tab](https://webdevolutions.azureedge.net/docs/en/kb/KB00.png)  
 1. 
