@@ -26,71 +26,94 @@ Les paramètres déployés avec l'objet de stratégie de groupe (GPO) ne sont ap
 ![!!KB2043.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2043.png) 
 1. Dans ***Gestion de stratégie de groupe*** , configurer les ***Liaisons*** et le ***Filtrage de sécurité*** des objets de stratégie de groupe selon vos besoins.  
 
+### Exemple <a name="Exemple"></a>
+
+* Activer {{ fr.DVLS }} . 
+* Définir ***https<area>://localhost/mydvlsurl*** comme URL de {{ fr.DVLS }} . 
+* Désactiver la page des paramètres. 
+* Toujours remplacer les paramètres de la section ***settings*** au démarrage de l'extension. 
+```
+{  
+        "settings": {  
+             "dvlsActivated": true,  
+             "dvlsUrl": "https://localhost/mydvlsurl"  
+        },  
+        "adminSettings": {  
+             "disableSettingsPage": true,  
+             "setGPOSettings": "AlwaysOverride"  
+        }  
+}  
+```
+
 ### Paramètres pas défaut 
 Tous les attributs peuvent avoir leur valeur modifiée ou leur clé supprimée.  
 ```
-{  
-"activateBeta": false,  
-"activateBeta": false,  
-"autoRetrieveCredentials": true,  
-"activateBeta": false,  
-"activateBeta": false,  
-"destinationGroup": La connexion automatique à des sites Web :  
-"disableAnalytics": false,  
-"dvlsActivated": false,  
-"activateBeta": false,  
-"dvlsAutoRetrieveCredentials": true,  
-"activateBeta": false,  
-"activateBeta": false,  
-"dvlsDestinationFolder": La connexion automatique à des sites Web :  
-"dvlsMatchDetectionType": 2,  
-"dvlsShouldIncludePrivate": true,  
-"activateBeta": false,  
-"activateBeta": false,  
-"dvlsUrl": ",  
-"enableContextMenu": true,  
-"activateBeta": false,  
-"filledFieldsColor": "#b3d9ff",  
-"hubActivated": false,  
-"hubAutoFillEntryOnLoad": false,  
-"hubAutoSubmitFormOnFill": false,  
-"hubAutofillBasicAuthentication": false,  
-"hubDefaultLoginUsername": ",  
-"hubMatchDetectionType": 2,  
-"hubPersonalActivated": false,  
-"hubPersonalAutoFillEntryOnLoad": false,  
-"hubPersonalAutoSubmitFormOnFill": false,  
-"hubPersonalDefaultLoginUsername": ",  
-"hubPersonalLucidUrl": "https<area>://login.devolutions.com",  
-"hubPersonalMatchDetectionType": 2.  
-"hubPersonalServerUrl": "https<area>://hub-server.devolutions.com",  
-"hubPersonalShowFavicon": true,  
-"hubShouldIncludePrivate": true,  
-"hubShowFavicon": true,  
-"hubSyncAllAvailableVaults": false,  
-"hubUrl": ",  
-"lucidUrl": "https<area>://login.devolutions.com",  
-"rdmActivated": false,  
-"rdmApplicationCode": ",  
-"rdmAutoFillEntryOnLoad": false,  
-"rdmAutoRetrieveCredentials": true,  
-"rdmAutoSubmitFormOnFill": false,  
-"rdmAutofillBasicAuthentication": false,  
-"rdmDefaultDestinationVaultIsPrivate": true,  
-"rdmDefaultPortUsage": true,  
-"rdmDestinationFolder": "Devolutions Web Login",  
-"activateBeta": false,  
-"rdmPort": 19443.  
-"rdmShowFavicon": false,  
-"rdmUseLegacyApi": false,  
-"shouldColorFilledFields": false,  
-"showIconInFields": true,  
-"showSaveSiteDialog": true,  
-"theme": 0.  
-"useLegacyApi": false  
+{
+  "settings": {
+     "activateBeta": false,  
+     "activateBeta": false,  
+     "autoRetrieveCredentials": true,  
+     "activateBeta": false,  
+     "activateBeta": false,  
+     "destinationGroup": La connexion automatique à des sites Web :  
+     "disableAnalytics": false,  
+     "dvlsActivated": false,  
+     "activateBeta": false,  
+     "dvlsAutoRetrieveCredentials": true,  
+     "activateBeta": false,  
+     "activateBeta": false,  
+     "dvlsDestinationFolder": La connexion automatique à des sites Web :  
+     "dvlsMatchDetectionType": 2,  
+     "dvlsShouldIncludePrivate": true,  
+     "activateBeta": false,  
+     "activateBeta": false,  
+     "dvlsUrl": ",  
+     "enableContextMenu": true,  
+     "activateBeta": false,  
+     "filledFieldsColor": "#b3d9ff",  
+     "hubActivated": false,  
+     "hubAutoFillEntryOnLoad": false,  
+     "hubAutoSubmitFormOnFill": false,  
+     "hubAutofillBasicAuthentication": false,  
+     "hubDefaultLoginUsername": ",  
+     "hubMatchDetectionType": 2,  
+     "hubPersonalActivated": false,  
+     "hubPersonalAutoFillEntryOnLoad": false,  
+     "hubPersonalAutoSubmitFormOnFill": false,  
+     "hubPersonalDefaultLoginUsername": ",  
+     "hubPersonalLucidUrl": "https<area>://login.devolutions.com",  
+     "hubPersonalMatchDetectionType": 2.  
+     "hubPersonalServerUrl": "https<area>://hub-server.devolutions.com",  
+     "hubPersonalShowFavicon": true,  
+     "hubShouldIncludePrivate": true,  
+     "hubShowFavicon": true,  
+     "hubSyncAllAvailableVaults": false,  
+     "hubUrl": ",  
+     "lucidUrl": "https<area>://login.devolutions.com",  
+     "rdmActivated": false,  
+     "rdmApplicationCode": ",  
+     "rdmAutoFillEntryOnLoad": false,  
+     "rdmAutoRetrieveCredentials": true,  
+     "rdmAutoSubmitFormOnFill": false,  
+     "rdmAutofillBasicAuthentication": false,  
+     "rdmDefaultDestinationVaultIsPrivate": true,  
+     "rdmDefaultPortUsage": true,  
+     "rdmDestinationFolder": "Devolutions Web Login",  
+     "activateBeta": false,  
+     "rdmPort": 19443.  
+     "rdmShowFavicon": false,  
+     "rdmUseLegacyApi": false,  
+     "shouldColorFilledFields": false,  
+     "showIconInFields": true,  
+     "showSaveSiteDialog": true,  
+     "theme": 0.  
+     "useLegacyApi": false  
+  }
 }  
 ```
 ### Paramètres d'administrateur par défaut 
+
+Si cette section est ajoutée dans la chaîne JSON, une virgule doit être ajoutée à la fin de la section des paramètres ci-dessus. Voir l'exemple dans la section <a href="#Exemple">Exemple</a> à ce sujet.
 ```
 {  
      "adminSettings": {  
@@ -114,23 +137,7 @@ Valeurs possibles :
 * ***OnInstall*** (par défaut) : Définir la valeur des paramètres GPO lorsque l'extension est installée. 
 * ***AlwaysOverride*** : Toujours remplacer la valeur des paramètres GPO lorsque l'extension est lancée. 
 * ***AlwaysUseDefaultAndOverride*** : Utiliser les paramètres par défaut pour tous les paramètres qui ne sont pas dans la GPO et remplacer les valeurs du GPO lorsque l'extension est lancée. 
-### Exemple 
-* Activer {{ fr.DVLS }} . 
-* Définir ***https<area>://localhost/mydvlsurl*** comme URL de {{ fr.DVLS }} . 
-* Désactiver la page des paramètres. 
-* Toujours remplacer les paramètres de la section ***settings*** au démarrage de l'extension. 
-```
-{  
-        "settings": {  
-             "dvlsActivated": true,  
-             "dvlsUrl": "https://localhost/mydvlsurl"  
-        },  
-        "adminSettings": {  
-             "disableSettingsPage": true,  
-             "setGPOSettings": "AlwaysOverride"  
-        }  
-}  
-```
+
 ### Configuration de l'extension {{ fr.DWL }} pour qu'elle soit automatiquement épinglée à la barre d'outils de Chrome 
 1. Créer une nouvelle règle GPO pour que l'extention {{ fr.DWL }} soit automatiquement affichée dans la barre d'outils de Chrome. 
 1. Sélectionner ***Registre*** situé dans ***Configuration ordinateur – Préférences – Paramètres Windows – Registre*** OU ***Configuration utilisateur – Préférences – Paramètres Windows – Registre*** selon vos besoins. 

@@ -29,74 +29,98 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 ![!!KB8106.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8106.png)
 1. In ***Group Policy Management*** , configure the GPO ***Links*** and ***Security Filtering*** according to your needs.
 
-## Default settings
+## Example <a name="Example"></a>
 
-All attributes can have their value changed or their key removed.
+- Activate {{ en.DVLS }}
+- Set ***https<area>://localhost/mydvlsurl*** as {{ en.DVLS }} URL.
+- Disable the settings page.
+- Always override the settings in the ***settings*** section when the extension starts.
 
 ```
 {
-  "activateBeta": false,
-  "autoFillEntryOnLoad": false,
-  "autoRetrieveCredentials": true,
-  "autoSubmitFormOnFill": false,
-  "autofillBasicAuthentication": false,
-  "destinationGroup": "Devolutions Web Login",
-  "disableAnalytics": false,
-  "dvlsActivated": false,
-  "dvlsAutoFillEntryOnLoad": false,
-  "dvlsAutoRetrieveCredentials": true,
-  "dvlsAutoSubmitFormOnFill": false,
-  "dvlsAutofillBasicAuthentication": false,
-  "dvlsDestinationFolder": "Devolutions Web Login",
-  "dvlsMatchDetectionType": 2,
-  "dvlsShouldIncludePrivate": true,
-  "dvlsShowFavicon": false,
-  "dvlsSyncAllAvailableVaults": false,
-  "dvlsUrl": "",
-  "enableContextMenu": true,
-  "enableNativeMessaging": false,
-  "filledFieldsColor": "#b3d9ff",
-  "hubActivated": false,
-  "hubAutoFillEntryOnLoad": false,
-  "hubAutoSubmitFormOnFill": false,
-  "hubAutofillBasicAuthentication": false,
-  "hubDefaultLoginUsername": "",
-  "hubMatchDetectionType": 2,
-  "hubPersonalActivated": false,
-  "hubPersonalAutoFillEntryOnLoad": false,
-  "hubPersonalAutoSubmitFormOnFill": false,
-  "hubPersonalDefaultLoginUsername": "",
-  "hubPersonalLucidUrl": "https://login.devolutions.com",
-  "hubPersonalMatchDetectionType": 2,
-  "hubPersonalServerUrl": "https://hub-server.devolutions.com",
-  "hubPersonalShowFavicon": true,
-  "hubShouldIncludePrivate": true,
-  "hubShowFavicon": true,
-  "hubSyncAllAvailableVaults": false,
-  "hubUrl": "",
-  "lucidUrl": "https://login.devolutions.com",
-  "rdmActivated": false,
-  "rdmApplicationCode": "",
-  "rdmAutoFillEntryOnLoad": false,
-  "rdmAutoRetrieveCredentials": true,
-  "rdmAutoSubmitFormOnFill": false,
-  "rdmAutofillBasicAuthentication": false,
-  "rdmDefaultDestinationVaultIsPrivate": true,
-  "rdmDefaultPortUsage": true,
-  "rdmDestinationFolder": "Devolutions Web Login",
-  "rdmEnableNativeMessaging": false,
-  "rdmPort": 19443,
-  "rdmShowFavicon": false,
-  "rdmUseLegacyApi": false,
-  "shouldColorFilledFields": false,
-  "showIconInFields": true,
-  "showSaveSiteDialog": true,
-  "theme": 0,
-  "useLegacyApi": false
+  "settings": {
+    "dvlsActivated": true,
+    "dvlsUrl": "https://localhost/mydvlsurl"
+  },
+  "adminSettings": {
+    "disableSettingsPage": true,
+    "setGPOSettings": "AlwaysOverride"
+  }
+}
+```
+
+## Default settings
+
+All attributes can have their value changed or their key removed. 
+
+```
+{
+  "settings": {
+    "activateBeta": false,
+    "autoFillEntryOnLoad": false,
+    "autoRetrieveCredentials": true,
+    "autoSubmitFormOnFill": false,
+    "autofillBasicAuthentication": false,
+    "destinationGroup": "Devolutions Web Login",
+    "disableAnalytics": false,
+    "dvlsActivated": false,
+    "dvlsAutoFillEntryOnLoad": false,
+    "dvlsAutoRetrieveCredentials": true,
+    "dvlsAutoSubmitFormOnFill": false,
+    "dvlsAutofillBasicAuthentication": false,
+    "dvlsDestinationFolder": "Devolutions Web Login",
+    "dvlsMatchDetectionType": 2,
+    "dvlsShouldIncludePrivate": true,
+    "dvlsShowFavicon": false,
+    "dvlsSyncAllAvailableVaults": false,
+    "dvlsUrl": "",
+    "enableContextMenu": true,
+    "enableNativeMessaging": false,
+    "filledFieldsColor": "#b3d9ff",
+    "hubActivated": false,
+    "hubAutoFillEntryOnLoad": false,
+    "hubAutoSubmitFormOnFill": false,
+    "hubAutofillBasicAuthentication": false,
+    "hubDefaultLoginUsername": "",
+    "hubMatchDetectionType": 2,
+    "hubPersonalActivated": false,
+    "hubPersonalAutoFillEntryOnLoad": false,
+    "hubPersonalAutoSubmitFormOnFill": false,
+    "hubPersonalDefaultLoginUsername": "",
+    "hubPersonalLucidUrl": "https://login.devolutions.com",
+    "hubPersonalMatchDetectionType": 2,
+    "hubPersonalServerUrl": "https://hub-server.devolutions.com",
+    "hubPersonalShowFavicon": true,
+    "hubShouldIncludePrivate": true,
+    "hubShowFavicon": true,
+    "hubSyncAllAvailableVaults": false,
+    "hubUrl": "",
+    "lucidUrl": "https://login.devolutions.com",
+    "rdmActivated": false,
+    "rdmApplicationCode": "",
+    "rdmAutoFillEntryOnLoad": false,
+    "rdmAutoRetrieveCredentials": true,
+    "rdmAutoSubmitFormOnFill": false,
+    "rdmAutofillBasicAuthentication": false,
+    "rdmDefaultDestinationVaultIsPrivate": true,
+    "rdmDefaultPortUsage": true,
+    "rdmDestinationFolder": "Devolutions Web Login",
+    "rdmEnableNativeMessaging": false,
+    "rdmPort": 19443,
+    "rdmShowFavicon": false,
+    "rdmUseLegacyApi": false,
+    "shouldColorFilledFields": false,
+    "showIconInFields": true,
+    "showSaveSiteDialog": true,
+    "theme": 0,
+    "useLegacyApi": false
+  }
 }
 ```
 
 ## Default admin Settings
+
+All attributes can have their value changed or their key removed. If this section is added in the JSON string, a comma needs to be added at the end of the settings section above. See the sample in the <a href="#Example">Example</a> section about it.
 
 ```
 {
@@ -127,27 +151,7 @@ Possible values:
 - AlwaysOverride : Always override the value from the GPO settings when the extension is started.
 - AlwaysUseDefaultAndOverride : Use the default settings for all settings not in the GPO and override the values from the GPO when the extension is started.
 
-## Example
-
-- Activate {{ en.DVLS }}
-- Set ***https<area>://localhost/mydvlsurl*** as {{ en.DVLS }} URL.
-- Disable the settings page.
-- Always override the settings in the ***settings*** section when the extension starts.
-
-```
-{
-  "settings": {
-    "dvlsActivated": true,
-    "dvlsUrl": "https://localhost/mydvlsurl"
-  },
-  "adminSettings": {
-    "disableSettingsPage": true,
-    "setGPOSettings": "AlwaysOverride"
-  }
-}
-```
-
-## configuring {{ en.DWL }} extension to be automatically pinned on the Chrome toolbar
+## Configuring {{ en.DWL }} extension to be automatically pinned on the Chrome toolbar
 
 1. Create a new GPO rule to have the {{ en.DWL }} extension automatically pinned on the Chrome toolbar.
 1. Select Registry located in Computer Configuration – Preferences – Windows Settings – Registry or User Configuration – Preferences – Windows Settings – Registry according to your needs.
