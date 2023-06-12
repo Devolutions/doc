@@ -56,5 +56,5 @@ The ***Append RSA SecurID code to password*** option needs to be enabled to have
 ![CyberArk Dashboard](https://webdevolutions.azureedge.net/docs/en/kb/KB0076.png)
 
 ## CyberArk PVWA (Credentials)
-The entry can be found under ***New Entry*** ***–*** ***Credential Management*** – ***Privileged Access Management***. The option is in the ***Common*** – ***General*** – ***Advanced*** tab.
+The entry can be found under ***New Entry*** – ***Credential Management*** – ***Privileged Access Management***. The option is in the ***Common*** – ***General*** – ***Advanced*** tab.
 ![CyberArk PVWA](https://webdevolutions.azureedge.net/docs/en/kb/KB0077.png)
