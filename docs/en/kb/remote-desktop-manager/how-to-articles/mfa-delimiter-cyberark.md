@@ -10,6 +10,7 @@ The ***MFA delimiter*** option exists in {{ en.RDM }} to mirror the one that alr
 {% snippet icon.badgeInfo %}
 The ***MFA delimiter*** field is only available for the <a href="#cyberark-dashboard">***CyberArk Dashboard***</a> entry and the <a href="#cyberark-pvwa-(credentials)">***CyberArk PVWA (Credentials)***</a> entry.
 {% endsnippet %}  
+
 Here is an example of how it works:  
 
 <table>
