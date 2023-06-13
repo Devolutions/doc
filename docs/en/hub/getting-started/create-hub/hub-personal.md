@@ -10,7 +10,7 @@ eleventyComputed:
 1. Click on ***{{ en.HUBP }}*** in the left menu.
 1. Click ***Create your {{ en.HUBP }}***.  
 ![Create your {{ en.HUBP }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub4055.png)  
-{% snippet icon.badgeInfo %}
+{% snippet icon.badgeHelp %}
 If you are a {{ en.RDM }} Free Edition user, you can connect your {{ en.HUBP }} as a data source in ***File – Data sources – Add a new data source***. Learn more about [integrating {{ en.HUBP }} in {{ en.RDM }}](/kb/hub-personal/how-to-articles/integrate-hub-personal-rdm/).
 {% endsnippet %}
 
