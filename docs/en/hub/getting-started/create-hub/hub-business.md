@@ -20,7 +20,7 @@ The ***{{ en.HUB }} site*** name becomes your website address and cannot be edit
 
 Once the deployment is ready, you will receive an email with your {{ en.HUBB }} website address.  
 
-{% snippet icon.badgeInfo %}
+{% snippet icon.badgeHelp %}
 If you are a {{ en.RDM }} Team Edition user, you can connect your {{ en.HUBB }} as a data source in ***File – Data sources – Add a new data source***. Learn more about [integrating {{ en.HUBB }} in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/integrate-hub-business-rdm/).
 {% endsnippet %}
 
