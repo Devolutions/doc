@@ -43,7 +43,7 @@ RECEIVED BY API
 	</tr>
 </table>
 
-{% snippet icon.badgeInfo %}
+{% snippet icon.badgeHelp %}
 Learn more about [CyberArk entries configuration](/kb/remote-desktop-manager/how-to-articles/cyberark-dashboard-configuration/).
 {% endsnippet %}
 
