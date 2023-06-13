@@ -4,7 +4,7 @@ title: Vaults Overview
 
 {{ en.VLT }}s are containers that organize your folders and entries. They help divide your ***Advanced Data Sources*** into multiple compartments. {{ en.VLT }}s improve the security and user experience of {{ en.RDM }}, as well as its performance by limiting the amount of entries that load at once. 
 
-{% snippet icon.badgeInfo %}
+{% snippet icon.badgeHelp %}
 To learn about the different vault types and ways to access them, visit our [Vaults](/rdm/windows/commands/view/panels/vault/) topic.
 {% endsnippet %}
  
@@ -26,7 +26,7 @@ For security and performance reasons, we recommend creating a different vault fo
  
 1. In the ***Ribbon***, go to ***Administration*** – ***Management*** – ***{{ en.VLT }}s***.  
 ![Administration – Management – Vaults](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11300.png) 
-{% snippet icon.badgeInfo %} 
+{% snippet icon.badgeHelp %} 
 If you are using a {{ en.DVLS }} or {{ en.HUBB }} data source, vault management is done in their respective web interfaces. For more information, consult either our [{{ en.DVLS }}](/server/web-interface/administration/security-management/vaults/) or [{{ en.HUB }}](/hub/web-interface/hub-overview/administration/management/vaults/) topics about vaults. 
 {% endsnippet %}
  
