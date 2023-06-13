@@ -4,7 +4,7 @@ eleventyComputed:
   description: In {{ en.RDM }} the access to your objects can be secured and managed using the User Groups Based Access Control.
 ---
 {% snippet icon.badgeInfo %}
-Security groups are deprecated as of version 2023.2 of RDM.
+Security groups are deprecated as of version 2023.3 of RDM.
 {% endsnippet %}
 
 In {{ en.RDM }} the access to your objects can be secured and managed using the ***User Groups Based Access Control***. This type of security gives you a more granular control over your security.  
