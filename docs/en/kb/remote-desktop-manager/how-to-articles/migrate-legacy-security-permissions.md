@@ -6,7 +6,7 @@ eleventyComputed:
   - Legacy Security
   - Permissions
 ---
-{% snippet icon.badgeHelp %}
+{% snippet icon.badgeInfo %}
 Security groups are deprecated as of version 2023.2 of RDM.
 {% endsnippet %}
 

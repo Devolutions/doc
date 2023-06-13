@@ -3,7 +3,7 @@ eleventyComputed:
   title: Migration from security groups to user groups
   description: In {{ en.RDM }} the access to your objects can be secured and managed using the User Groups Based Access Control.
 ---
-{% snippet icon.badgeHelp %}
+{% snippet icon.badgeInfo %}
 Security groups are deprecated as of version 2023.2 of RDM.
 {% endsnippet %}
 
