@@ -6,7 +6,7 @@ The purpose of the ***CyberArk Dashboard*** entry is to provide {{ en.RDM }} use
 Another design principle of the dashboard is that its main usage model is to go through the CyberArk Privileged Session Manager (PSM) to reach assets. This means that {{ en.RDM }} does NOT need to read the password for the account to be used. Less secure models are available to support older scenarios that some of our customers are still using.  
 
 {% snippet icon.badgeHelp %}
-Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/how-to-articles/mfa-delimiter-cyberark/).
+Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/knowledge-base/mfa-delimiter-cyberark/).
 {% endsnippet %}  
 
 ## Configuration
