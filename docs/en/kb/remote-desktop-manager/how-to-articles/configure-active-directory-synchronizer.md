@@ -68,8 +68,8 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 ### Filters
 ![Filters tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0082.png)  
 * ***Type***: LDAP syntax filters can be used in many situations in ***Active Directory***
-  * ***All***: 
-  * ***Server***: 
+  * ***All***: Default filter
+  * ***Server***: Adds a filter to only include Windows Server
 * ***Other filter***: Read more about this option by clicking the ***Help*** button
 * ***Preview***: Preview of the applied filters
 
@@ -88,7 +88,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Verify folder on mismatch***: During synchronization, if enabled, verifies each connection and compares to already existing ones; ***Verify on folder mismatch*** will also check the path
 * ***Action on entry mismatch***
   * ***None***: Do nothing
-  * ***Update non-critical fields on mismatch***:  (not available with ***None*** option)
+  * ***Update non-critical fields on mismatch***: Updates the ***Active Directory*** description in {{ en.RDM }}, the ***Import description*** option needs to be enabled in the ***Settings*** tab (not available with ***None*** option)
   * ***Delete***: Delete that entry
   * ***Move to***: Move to selected ***Destination folder***
   * ***Make expired***: Mark that entry as expired (expiration message can be set up)
