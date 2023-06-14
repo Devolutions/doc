@@ -10,6 +10,9 @@ Every field from the ***Active Directory*** synchronizer entry is described belo
 {% snippet icon.badgeInfo %}
 To learn more about creating and managing an Active Directory, please consult the documentation on the official website.
 {% endsnippet %}
+{% snippet icon.badgeInfo %}
+Please note that the <a href="#schedule">***Schedule*** tab</a> is only available in a {{ en.DVLS }} data source.
+{% endsnippet %}
 
 The entry can be found under ***New Entry*** – ***Synchronizer***:  
 ![Active Directory Synchronizer](https://webdevolutions.azureedge.net/docs/en/kb/KB0078.png)  
@@ -86,3 +89,9 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
   * ***Delete***: Delete that entry
   * ***Move to***: Move to selected ***Destination folder***
   * ***Make expired***: Mark that entry as expired (expiration message can be set up)
+
+### Schedule
+![Schedule tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0085.png)  
+* ***Enabled***: Schedule being on/off
+  * ***Every (Days)***: Interval between when the synchronizer runs
+  * ***At***: Specific time to synchronize
