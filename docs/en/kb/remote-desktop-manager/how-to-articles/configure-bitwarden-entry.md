@@ -24,7 +24,7 @@ Here is a description for each field or option, in order from top to bottom. The
 * ***Host***
   * ***Default***: Default Bitwarden URL
   * ***Custom***: Custom URL for Bitwarden
-* ***Use "My Account Settings"***: Go to ***File*** – ***My Account Settings*** – ***Settings*** – ***Password Management*** and click on ***Bitwarden*** to set up this option first
+* ***Use "My Account Settings"***: Go to ***File*** – ***My Account Settings*** – ***Settings*** – ***Password Management*** and click on ***Bitwarden*** to set up this option first; replaces the ***Username*** and ***Password*** fields
 * ***Client ID***: Bitwarden's Client ID
 * ***Client secret***: Bitwarden's Client secret
 * ***Master password***: Bitwarden's master password
