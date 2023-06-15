@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Vault access in {{ en.RDM }}
   description: In {{ en.RDM }}, users can request access to a public vault. An administrator / vault owner then has to approve the request.
+  keywords:
+  - vault access
 ---
 In {{ en.RDM }}, users can request access to a public vault. An administrator / vault owner then has to approve the request.
 
@@ -20,7 +22,7 @@ By default, shared vaults are set to private in the ***System Settings***.
 ### System-wide vault visibility
 
 1. In {{ en.RDM }}, make sure you are connected to the right data source.
-1. Go to ***Administration – Server Settings – Vault Management – Vault***.
+1. Go to ***Administration – System Settings – Vault Management – Vault***.
 1. Set the ***Default vault visibility*** to either ***Public - Allow Access Requests*** or ***Private - Invitation Only***.
 1. Click ***OK*** to save your changes.
 
