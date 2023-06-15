@@ -6,7 +6,7 @@ eleventyComputed:
   - Active Directory
   - Synchronizer
 ---
-Every field from the ***Active Directory*** synchronizer entry is described below.  
+Every field from the ***Active Directory Synchronizer*** entry is described below.  
 {% snippet icon.badgeInfo %}
 To learn more about creating and managing an Active Directory, please consult the documentation on the official website.
 {% endsnippet %}
@@ -20,7 +20,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Name***: Entry name in {{ en.RDM }}
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in
 * ***Credentials***: Read more on [***Credentials*** options](/rdm/windows/commands/edit/entries/entry-credentials-options/)
-* ***Synchronize automatically***: The {{ en.RDM }} entry will synchronize automatically with ***Active Directory***
+* ***Synchronize automatically***: The {{ en.RDM }} entry will synchronize automatically with Active Directory
 
 ### General tab
 * ***Mode***
@@ -42,7 +42,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Destination folder***: Click the ellipsis button to set the folder path in the {{ en.RDM }} tree view (which can only be in the same vault)
 * ***Template***: [Entry template](/rdm/windows/commands/file/templates/creating-templates/) created within {{ en.RDM }}
 * ***Create folders from OU/containers***
-  * ***Level***: From 0 to 100, 0 being the top container in ***Active Directory***
+  * ***Level***: From 0 to 100, 0 being the top container in Active Directory
   * ***Folder template***: Folder template created in {{ en.RDM }} that will apply to new folders
 * ***Session name***: The name for the session
   * ***Common name***: The name that represents an object, used to perform searches (if empty, uses OU)
@@ -61,13 +61,13 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 ### Login
 ![Login tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0081.png)  
 * ***Username***: Username for the domain
-* ***Domain***: Domain for the ***Active Directory***
+* ***Domain***: Domain for the Active Directory
 * ***Password***: Password for the domain
 * ***Merge username and domain***: Merges username and domain
 
 ### Filters
 ![Filters tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0082.png)  
-* ***Type***: LDAP syntax filters can be used in many situations in ***Active Directory***
+* ***Type***: LDAP syntax filters can be used in many situations in Active Directory
   * ***All***: Default filter
   * ***Server***: Adds a filter to only include Windows Server
 * ***Other filter***: Read more about this option by clicking the ***Help*** button
