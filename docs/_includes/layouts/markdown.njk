@@ -5,52 +5,42 @@ eleventyImport:
 ---
 <div class="dwd-doc-container">
   {%- macro nav(item, index) -%}
-    {% set navigationTree = ['/', lang, '/', tree, '/'] | join %}
-
-    {%- if item.filePathStem and item.filePathStem.startsWith(navigationTree) and item.filePathStem !== [navigationTree, "index"] | join -%}
-      <div class="nav-item-container">
-        {%- if item.hasData -%}
-          <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }} {{ 'current' if page.url === item.url }}" href="{{ item.url }}" {{ ['data-dwd-tab data-dwd-tab-group=', item.url,' data-dwd-tab-target=', item.url] | join if item.children.length > 0 }}>
-            {{- item.title -}}
-            {%- if item.children.length > 0 -%}
-              {{- icon['expandMore'] | safe -}}
-            {%- endif -%}
-          </a>
-        {%- endif -%}
-        {%- if item.children.length > 0 -%}
-          {%- if not item.hasData -%}
-            {% if item.redirect %}
-              <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" href="{{ item.redirect }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
-                {{- item.title -}}
-                {{- icon['expandMore'] | safe -}}
-              </a>
-            {% else %}
-              <button class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
-                {{- item.title -}}
-                {{- icon['expandMore'] | safe -}}
-              </button>
-            {% endif %}
+    <div class="nav-item-container">
+      {%- if item.hasData -%}
+        <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }} {{ 'current' if page.url === item.url }}" href="{{ item.url }}" {{ ['data-dwd-tab data-dwd-tab-group=', item.url,' data-dwd-tab-target=', item.url] | join if item.children.length > 0 }}>
+          {{- item.title -}}
+          {%- if item.children.length > 0 -%}
+            {{- icon['expandMore'] | safe -}}
           {%- endif -%}
-          <div class="nav-item-items {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
-            {%- for subItem in item.children | sortTree -%}
-              {{- nav(subItem, index + 1) -}}
-            {%- endfor -%}
-          </div>
-        {%- endif -%}
-      </div>
-    {%- else -%}
-      {%- if item.children.length > 0 -%}
-        {%- for subItem in item.children | sortTree -%}
-          {{- nav(subItem, 1) -}}
-        {%- endfor -%}
+        </a>
       {%- endif -%}
-    {%- endif -%}
+      {%- if item.children.length > 0 -%}
+        {%- if not item.hasData -%}
+          {% if item.redirect %}
+            <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" href="{{ item.redirect }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+              {{- item.title -}}
+              {{- icon['expandMore'] | safe -}}
+            </a>
+          {% else %}
+            <button class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+              {{- item.title -}}
+              {{- icon['expandMore'] | safe -}}
+            </button>
+          {% endif %}
+        {%- endif -%}
+        <div class="nav-item-items {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+          {%- for subItem in item.children | sortTree -%}
+            {{- nav(subItem, index + 1) -}}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
   {%- endmacro -%}
 
   {%- if tree and page.url -%}
     <nav class="navigation">
-      {%- for item in collections.eleventyNavigationTree -%}
-        {{- nav(item, loop.index) -}}
+      {%- for item in collections.eleventyNavigationTree | filterTree('en', tree) | sortTree -%}
+        {{- nav(item, 1) -}}
       {%- endfor -%}
     </nav>
   {%- endif -%}

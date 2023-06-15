@@ -1,6 +1,7 @@
 const hljs = require('highlight.js');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
+const slugify = require('slugify');
 
 module.exports = (mdLib) => {
   mdLib.set({
@@ -17,6 +18,10 @@ module.exports = (mdLib) => {
     }
   })
   .use(markdownItAnchor, {
+    slugify: s => slugify(s, {
+      lower: true,
+      strict: true
+    }),
     permalink:markdownItAnchor.permalink.ariaHidden({
       symbol: `
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">

@@ -14,8 +14,17 @@ module.exports = (config) => {
 
   config.addFilter('toc', toc);
 
+  config.addFilter('filterTree', function (array, lang, tree) {
+    const trees = tree.split('/');
+
+    array = array.find(e => e.name == lang).children;
+    trees.map(t => array = array.find(e => e.name == t)?.children);
+
+    return array;
+  });
+
   config.addFilter('sortTree', function (array) {
-    return array.sort((a, b) => {
+    return array?.sort((a, b) => {
       const aHas = typeof a.order !== 'undefined';
       const bHas = typeof b.order !== 'undefined';
       const aTitleHas = typeof a.title !== 'undefined'

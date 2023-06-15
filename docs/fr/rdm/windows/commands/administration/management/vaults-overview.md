@@ -3,7 +3,7 @@ title: Survol des coffres
 ---
 Les {{ fr.VLT }}s sont des répertoires qui organisent vos dossiers et vos entrées. Ils permettent de diviser vos ***Sources de données avancées*** en plusieurs compartiments. Les {{ fr.VLT }}s améliorent la sécurité et l'expérience utilisateur de {{ fr.RDM }} en plus de sa performance en limitant la quantité d'entrées qui chargent en même temps.  
 
-{% snippet icon.badgeInfo %}
+{% snippet icon.badgeHelp %}
 Pour en savoir plus sur les différents types de {{ fr.VLT }}s et les moyens d'accéder à ces {{ fr.VLT }}s, consultez notre rubrique [Coffres](/fr/rdm/windows/commands/view/panels/vault/).
 {% endsnippet %}
 
@@ -25,7 +25,7 @@ Pour des raisons de sécurité et de performance, nous recommandons de créer un
 1. Dans le ***Ruban***, accéder à ***Administration*** – ***Gestion*** – ***{{ fr.VLT }}s***.  
 ![Administration – Gestion – Coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4087.png) 
 
-{% snippet icon.badgeInfo %} 
+{% snippet icon.badgeHelp %} 
 Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.HUBB }}, la gestion des coffres est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez nos rubriques de [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.HUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) traitant des coffres. 
 {% endsnippet %}
  

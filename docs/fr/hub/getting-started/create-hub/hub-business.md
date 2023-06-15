@@ -20,7 +20,7 @@ Le nom du ***site {{ fr.HUBB }}*** devient l'adresse de votre site Web et ne peu
 
 Une fois le déploiement prêt, vous recevrez un courriel contenant l'adresse Web de votre {{ fr.HUBB }}.  
 
-{% snippet icon.badgeInfo %}
+{% snippet icon.badgeHelp %}
 Si vous êtes un utilisateur de {{ fr.RDM }} Édition Team, vous pouvez connecter votre {{ fr.HUBB }} comme une source de données dans ***Fichier – Sources de données – Ajouter une nouvelle source de données***. Apprenez-en plus sur [comment intégrer {{ fr.HUBB }} dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/integrate-hub-business-rdm/).
 {% endsnippet %}
 

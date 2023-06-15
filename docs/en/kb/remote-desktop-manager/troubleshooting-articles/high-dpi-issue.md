@@ -1,5 +1,5 @@
 ---
-title: High DPI Issue
+title: High DPI issues
 description: There are multiple problems that can be caused by high DPI in RDP sessions.
 keywords:
 - DPI
@@ -30,15 +30,24 @@ To locate your config file refer to [Configuration File Location](/kb/remote-des
 1. Close {{ en.RDM }}. 
 1. Right-click on your {{ en.RDM }} icon. 
 1. Go to ***Properties***. 
-1. In the ***Compatibility*** tab, click ***Change high DPI settings***. 
+1. In ***Compatibility*** tab, click ***Change high DPI settings***. 
 ![Change high DPI settings](https://webdevolutions.azureedge.net/docs/en/kb/KB4995.png) 
-1. In the ***High DPI scaling override*** section, check ***Override high DPI scaling behavior*** and click OK. 
+1. In ***High DPI scaling override*** section, check ***Override high DPI scaling behavior*** and click OK. 
 ![High DPI scaling override](https://webdevolutions.azureedge.net/docs/en/kb/KB4996.png) 
 {% snippet icon.badgeInfo %} 
 When applying this change, you must log off and log back in with your user for changes to take effect. 
 {% endsnippet %}
  
 ### Method 3 
-In ***File – Options – Type – Remote Desktop – Advanced***, uncheck the ***Disable RDP scale factor (HDPI)*** option. 
-![Disable RDP scale factor (HDPI)](https://webdevolutions.azureedge.net/docs/en/kb/KB4997.png) 
+In ***File – Options – Types – Remote Desktop – Advanced***, uncheck the ***Disable RDP scale factor (HDPI)*** option. 
+![Disable RDP scale factor (HDPI)](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6004.png) 
 
+### Method 4
+
+1. In {{ en.RDM }}, go to ***File – Options – Advanced***.
+1. Set ***Hardware acceleration*** on ***Default (Automatic)***. Click ***OK***.
+![Advanced window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6001.png) 
+1. In the ribbon under the ***Help*** tab, click on ***Diagnostic***.
+![Help tab](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6003.png) 
+1. At the bottom of the ***System*** tab, make sure that ***DirectX enabled*** is deactivated.
+![System Diagnostic](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6002.png) 

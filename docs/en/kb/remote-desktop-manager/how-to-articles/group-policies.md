@@ -68,7 +68,7 @@ Disable features requiring an internet connection, such as telemetry, automatic 
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td>	
 Disable the application's automatic update check
 		</td>
 		<td>
@@ -109,6 +109,14 @@ Disable the telemetry data collection
 	</tr>
 	<tr>
 		<td>
+Disable the system Contacts, Macros and VPNs in the user vault
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableGlobalVaultInUserVault
+		</td>
+	</tr>
+	<tr>
+		<td>			
 Force application close when idle
 		</td>
 		<td>
@@ -498,7 +506,7 @@ Disable Reveal Password
 	</tr>
 	<tr>
 		<td>
-Disable the Add-on creation and the Add-on Manager is deprecated; use DisableAddOnEntries and DisableAddOnManager instead
+Disable the Add-on creation and the Add-on Manager. Deprecated, use DisableAddOnEntries and DisableAddOnManager instead
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableAddOn
@@ -802,22 +810,6 @@ Force the main tree view to load with all nodes collapsed at launch
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceTreeViewCollapseAtLaunch
-		</td>
-	</tr>
-	<tr>
-		<td>
-Force the merging of the credential list with sessions
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\EnableMergeCredentialListWithSessions
-		</td>
-	</tr>
-	<tr>
-		<td>
-Force the merging of the session tool list with sessions
-		</td>
-		<td>
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\EnableMergeSessionToolListWithSessions
 		</td>
 	</tr>
 	<tr>

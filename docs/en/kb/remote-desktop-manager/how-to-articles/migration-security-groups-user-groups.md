@@ -1,15 +1,19 @@
 ---
 eleventyComputed:
-  title: Migration From Security Groups to User Groups
-  description: In {{ en.RDM }} the access to your objects can be secured and managed using the User Groups Based Access Control
+  title: Migration from security groups to user groups
+  description: In {{ en.RDM }} the access to your objects can be secured and managed using the User Groups Based Access Control.
 ---
+{% snippet icon.badgeInfo %}
+Security groups are deprecated as of version 2023.3 of RDM.
+{% endsnippet %}
+
 In {{ en.RDM }} the access to your objects can be secured and managed using the ***User Groups Based Access Control***. This type of security gives you a more granular control over your security.  
 {% snippet icon.badgeHelp %}
 For more information please refer to [User Groups Based Access Control](/rdm/windows/user-groups-based-access-control/).
 {% endsnippet %}  
 
 ## Migrating to User Groups
-1. Under ***Administration*** – ***Management***, click on ***User Groups***.
+1. Under ***Administration – Management***, click on ***User Groups***.
 1. Create and apply the groups.
 1. Click on the ***Security Groups (Legacy)*** button in the ***Management*** section.
 1. Delete every security group by selecting each one and clicking on ***Delete Security Group***.
