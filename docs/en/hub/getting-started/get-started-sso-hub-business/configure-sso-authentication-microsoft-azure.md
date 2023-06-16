@@ -15,106 +15,107 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 
 **In {{ en.DHUBB }}**  
 
-1. Go to ***Administration – Authentication*** . 
-1. In ***Single Sign-On (SSO)*** , click on ***Configure Single Sign-On (SSO)*** .  
+1. Go to ***Administration – Authentication***. 
+1. In ***Single Sign-On (SSO)***, click on ***Microsoft Single Sign-On (SSO)***.  
 ![Administration – Authentication – Single Sign-On (SSO) – Configure Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2187.png)  
-
-A configuration window will open.  
+You will be directed to the configuration page.  
 ![Configure Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2188.png)  
+1. ***Name*** your SSO configuration. This name will only appear in your {{ en.HUB }} SSO settings menu.  
+![Configuration Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2218.png)  
 
 {% snippet icon.badgeCaution %} 
-Do not close this setup window, as the following steps will show you where to find the information to enter in these fields. 
+Do not close this setup page, as the following steps will show you where to find the information to enter in its fields. 
 {% endsnippet %}
  
 **In Azure AD Portal**
 
-3. In a new web browser page, open your [Microsoft Azure AD Portal](https://azure.microsoft.com/) and sign in to your account. 
+4. In a new web browser page, open your [Microsoft Azure AD Portal](https://azure.microsoft.com/) and sign in to your account. 
 1. Select ***Azure Active Directory*** in the ***Azure services*** section. If you do not see it, click on ***More services*** to make other services appear.  
 ![Azure Active Directory Service](https://webdevolutions.azureedge.net/docs/en/hub/Hub4073.png)  
-1. In ***Overview*** , click ***Add*** , then select ***Enterprise application*** .  
+1. In ***Overview***, click ***Add***, then select ***Enterprise application***.  
 ![Add an Enterprise application](https://webdevolutions.azureedge.net/docs/en/hub/Hub4165.png)  
-1. Click on ***Create your own application*** .  
+1. Click on ***Create your own application***.  
 ![Create your own application](https://webdevolutions.azureedge.net/docs/en/hub/Hub2138.png)  
-1. Enter the name of this new application, then click on ***Create*** .  
+1. Enter the name of this new application, then click on ***Create***.  
 
 {% snippet icon.badgeNotice %} 
-We recommend including either “Devolutions“ or “ {{ en.HUB }} “ in the name. 
+We recommend including either "Devolutions" or "{{ en.HUB }}" in the name. 
 {% endsnippet %}
  
 ![Application Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2139.png)  
 
-8. In the ***Properties*** , set the ***Assignment required?*** setting as needed. To learn more about this setting, hover over the information icon next to it with your cursor.  
+9. In the ***Properties***, set the ***Assignment required?*** setting as needed. To learn more about this setting, hover over the information icon next to it with your cursor.  
 ![Properties – Assignment required](https://webdevolutions.azureedge.net/docs/en/hub/Hub2140.png)  
 1. Save your changes if applicable using the ***Save*** button at the top. 
-1. Staying in ***Properties*** , click on ***application registration*** in the text at the top.  
+1. Staying in ***Properties***, click on ***application registration*** in the text at the top.  
 ![Properties – application registration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2141.png)  
-1. Select ***Authentication*** in the left side menu, then click on ***Add a platform*** .  
+1. Select ***Authentication*** in the left side menu, then click on ***Add a platform***.  
 ![Authentication – Add a platform](https://webdevolutions.azureedge.net/docs/en/hub/Hub2142.png)  
-1. In ***Configure platforms*** , select ***Web*** .  
+1. In ***Configure platforms***, select ***Web***.  
 ![Configure platforms – Web](https://webdevolutions.azureedge.net/docs/en/hub/Hub2143.png)  
 
 **In {{ en.DHUBB }}** 
 
-13. Back in the ***Configure Single Sign-On (SSO)*** window, copy the ***Callback URL*** at the bottom by clicking on the ***Copy to Clipboard*** icon next to it.  
+14. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Callback URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
 ![Copy the Callback URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2189.png)  
 
 **In Azure AD Portal** 
 
-14. Back in Azure, paste the ***Callback URL*** in the ***Redirect URIs*** field, then click ***Configure*** at the bottom.  
+15. Back in Azure, paste the ***Callback URL*** in the ***Redirect URIs*** field, then click ***Configure*** at the bottom.  
 ![Redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2145.png)  
-1. Select ***Token configuration*** in the left side menu, then click on ***Add optional claim*** .  
+1. Select ***Token configuration*** in the left side menu, then click on ***Add optional claim***.  
 ![Token configuration – Add optional claim](https://webdevolutions.azureedge.net/docs/en/hub/Hub2147.png)  
-1. Under ***Token type*** , select ***ID*** . Then, in the list, select the following claims:  
+1. Under ***Token type***, select ***ID***. Then, in the list, select the following claims:  
 
-* ***email*** 
-* ***family_name*** 
-* ***given_name*** 
-* ***upn*** 
-* ***xms_pl*** 
-* ***xms_tpl***  
+  * ***email*** 
+  * ***family_name*** 
+  * ***given_name*** 
+  * ***upn*** 
+  * ***xms_pl*** 
+  * ***xms_tpl***  
 ![Add optional claim](https://webdevolutions.azureedge.net/docs/en/hub/Hub2148.png)  
 
-17. Click ***Add*** . 
-1. When prompted, enable ***Turn on the Microsoft Graph email*** , then click ***Add*** .  
+18. Click ***Add***. 
+1. When prompted, enable ***Turn on the Microsoft Graph email***, then click ***Add***.  
 ![Turn on the Microsoft Graph email](https://webdevolutions.azureedge.net/docs/en/hub/Hub2149.png)  
 1. Select ***Overview*** in the left side menu, then copy the ***Application (client) ID*** by clicking on the ***Copy to clipboard*** icon next to it.  
 ![Copy the Application (client) ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2159.png)  
 
 **In {{ en.DHUBB }}**  
 
-20. Back in the ***Configure Single Sign-On (SSO)*** window, paste the ***Application (client) ID*** from the last step in the ***Client ID*** field.  
+21. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Application (client) ID*** from the last step in the ***Client ID*** field.  
 ![Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2154.png)  
 
 **In Azure AD Portal**  
 
-21. Back in Azure, select ***Certificates & secrets*** in the left side menu, then, in the ***Client secrets*** tab, click on ***New client secret*** .  
+22. Back in Azure, select ***Certificates & secrets*** in the left side menu, then, in the ***Client secrets*** tab, click on ***New client secret***.  
 ![Certificates & secrets – Client secrets – New client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2151.png)  
 1. In the ***Add a client secret*** window, enter a ***Description*** (for example, the name of your Enterprise app) and select an expiration date for this client secret, as per your best internal security practices. 
 {% snippet icon.badgeCaution %} 
-Note that when the client secret expires, no one will be able to connect to the associated {{ en.HUB }} . You will then need to create a new client secret. We recommend that you set yourself a task reminder before the expiration date. 
+Note that when the client secret expires, no one will be able to connect to the associated {{ en.HUB }}. You will then need to create a new client secret. We recommend that you set yourself a task reminder before the expiration date. 
 {% endsnippet %}
  
 ![Add a client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2152.png)  
 
-23. Click ***Add*** . 
+24. Click ***Add***. 
 1. Copy the ***Value*** of this new client secret by clicking on the ***Copy to clipboard*** icon next to it.  
 ![Copy the client secret value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2153.png)  
 
 **In {{ en.DHUBB }}**  
 
-25. Back in the ***Configure Single Sign-On (SSO)*** window, paste the client secret ***Value*** from the last step in the ***Client secret*** field.  
-![Client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2155.png)  
+26. Back on the ***Configure Single Sign-On (SSO)*** page, paste the client secret ***Value*** from the last step in the ***Client secret Key*** field.  
+![Client secret Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub2155.png)  
 
 **In Azure AD Portal**  
 
-26. Back in Azure, select ***Overview*** in the left side menu, then click on the ***Endpoints*** tab.  
+27. Back in Azure, select ***Overview*** in the left side menu, then click on the ***Endpoints*** tab.  
 ![Overview – Endpoints](https://webdevolutions.azureedge.net/docs/en/hub/Hub2158.png)  
 1. In the ***Endpoints*** window, copy the ***OpenID Connect metadata document*** URL by clicking on the ***Copy to clipboard*** icon next to it.  
 ![Copy the OpenID Connect metadata document URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2160.png)  
 
 **In {{ en.DHUBB }}**  
 
-28. Back in the ***Configure Single Sign-On (SSO)*** window, paste the URL from the last step in the ***Discovery URL*** field.  
+29. Back on the ***Configure Single Sign-On (SSO)*** page, paste the URL from the last step in the ***Discovery URL*** field.  
 ![Discovery URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2156.png)  
 1. In the ***User Scopes*** field, enter “User.Read“.  
 ![User Scopes](https://webdevolutions.azureedge.net/docs/en/hub/Hub2157.png) 
