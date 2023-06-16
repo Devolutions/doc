@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Request vault access in {{ en.RDM }}
+  order: 10
   description: You can request access to a public vault in {{ en.RDM }}.
   keywords:
   - vault access

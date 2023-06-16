@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Approve vault access in {{ en.RDM }}
+  order: 20
   description: In {{ en.RDM }}, users can request access to a public vault. An administrator / vault owner then has to approve the request.
   keywords: 
   - vault access
@@ -9,15 +10,15 @@ In {{ en.RDM }}, users can request access to a public vault. An administrator / 
 
 ## View Pending Vault Access Requests
 
-To view all your past and current requests, you must use the following ***Pending Vault Access Requests*** box to open the ***Vault Access Requests*** window.
-![Dashboard – Pending vault access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2157.png)
-In the ***Vault Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***Vault***, ***Username***, ***Data source user***, ***Request date***, ***Authorizer username***, or ***Authorizer data source user***.
-![Show vault access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2158.png)
+To view all your past and current requests, you must use the following ***Pending Vault Access Requests*** box to open the ***Vault Access Requests*** window.  
+![Dashboard – Pending vault access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2157.png)  
+In the ***Vault Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***Vault***, ***Username***, ***Data source user***, ***Request date***, ***Authorizer username***, or ***Authorizer data source user***.  
+![Show vault access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2158.png)  
 
 It is also possible to display only certain requests with the ***Status*** drop-down menu or with the filter bar at the top.
 
 Using the ***View messages*** button, you can view the ***Request message*** and the ***Authorization message*** of a specific request.
-![Request Messages](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2076.png)
+![Request Messages](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2076.png)  
 Finally, clicking on the ***Approve*** and ***Deny*** buttons open the ***Vault Access Request Response*** window, which is described next.
 
 ## Approve/Deny vault access requests
