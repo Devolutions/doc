@@ -8,7 +8,7 @@ eleventyComputed:
 ---
 In {{ en.RDM }}, users can request access to a public vault. An administrator / vault owner then has to approve the request. Vault owners are configured in ***Vault Management***.
 
-## View Pending Vault Access Requests
+## View pending vault access requests
 
 To view all your past and current requests, you must use the following ***Pending Vault Access Requests*** box to open the ***Vault Access Requests*** window.  
 ![Dashboard – Pending vault access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2157.png)  

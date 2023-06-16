@@ -33,7 +33,11 @@ If you are using a {{ en.DVLS }} or {{ en.HUBB }} data source, vault management 
  
 2. In the ***User and Security Management*** window, select the ***{{ en.VLT }}s*** tab, then click on ***Add {{ en.VLT }}***.  
 ![Add Vault](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10739.png) 
-1. In the ***General*** tab, an ***ID*** is generated automatically. Enter a ***Name*** (mandatory) and a ***Description*** (optional) for your new vault. The vault can be created as soon as a ***Name*** has been specified, but other options are available. They are presented in the next step. 
+1. In the ***General*** tab, an ***ID*** is generated automatically. Enter a ***Name*** (mandatory) and a ***Description*** (optional) for your new vault.  
+
+The ***Visibility*** setting determines if this specific vault is visible to all users (public) or only to users that have access to the vault (private). It is set on the default setting, which can be modified in ***Administration – System Settings – Vault Management – Vault***.
+
+The vault can be created as soon as a ***Name*** has been specified, but other options are available. They are presented in the next step. 
 
 {% snippet icon.badgeInfo %} 
 To use an existing {{ en.VLT }} template, select it from the ***Template*** drop-down list. Unlike other settings, this one cannot be configured later since it changes how the vault is created. Learn about ***Templates*** before deciding. 
@@ -43,9 +47,9 @@ To use an existing {{ en.VLT }} template, select it from the ***Template*** drop
 The ***Allow offline*** option is enabled by default. If it is disabled, the new vault will not be able to be used in [Offline mode](/rdm/windows/data-sources/offline-mode/). This setting can still be modified after the creation of the vault by going back to ***Administration – Management – {{ en.VLT }}s***, selecting the vault to modify and clicking on ***Edit {{ en.VLT }} Settings***. 
 {% endsnippet %}
  
-![Vault Management – General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11301.png) 
+![Vault Management – General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2161.png) 
 
-4. Optional: ***Users and User Groups*** and ***Security*** options are available in the other tabs in the left menu. Configure them to your needs now, or do it later by going back to ***Administration – Management – {{ en.VLT }}s***, selecting the vault to modify and clicking on ***Edit {{ en.VLT }} Settings***.
+4. Optional: ***Users and User Groups***, ***Security***, and ***Vault Owners*** options are available in the other tabs in the left menu. Configure them to your needs now, or do it later by going back to ***Administration – Management – {{ en.VLT }}s***, selecting the vault to modify and clicking on ***Edit {{ en.VLT }} Settings***.
     * ***Users and User Groups***: Choose which ***Users*** and ***User Groups*** will have access to the vault by checking/unchecking them. For security reasons, administrators always have access.
     * ***Security***: Specify a ***Master password*** for access to the vault and indicate whether the old password should be asked when overwriting the password.
     * ***Vault Owners***: Select user groups or users to be owners of this vault, meaning they can manage this specific vault without having access to data source administration.
