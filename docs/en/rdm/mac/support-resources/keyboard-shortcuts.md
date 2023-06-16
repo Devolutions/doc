@@ -1,5 +1,8 @@
 ---
 title: Keyboard Shortcuts
+description: Here are the default keyboard shortcuts for various commands.
+keywords:
+- Keyboard Shortcuts
 ---
 Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Preferences – User Interface – Shortcuts*** .  
 
@@ -166,7 +169,7 @@ Alt+Shift+Cmd+V
 	</tr>
 	<tr>
 		<td>
-Delete 
+Delete (MnuDelete)
 		</td>
 		<td>
 Cmd+Backspace 
@@ -302,7 +305,7 @@ Enter
 	</tr>
 	<tr>
 		<td>
-Delete 
+Delete (MnuDeleteConnection)
 		</td>
 		<td>
 Cmd+Backspace 
@@ -350,6 +353,78 @@ Select Previous Tab
 		</td>
 		<td>
 Shift+Cmd+Left 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Goto Bookmark 1
+		</td>
+		<td>
+Ctrl+Cmd+1 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Goto Bookmark 2
+		</td>
+		<td>
+Ctrl+Cmd+2
+		</td>
+	</tr>
+	<tr>
+		<td>
+Goto Bookmark 3
+		</td>
+		<td>
+Ctrl+Cmd+3
+		</td>
+	</tr>
+	<tr>
+		<td>
+Goto Bookmark 4
+		</td>
+		<td>
+Ctrl+Cmd+4
+		</td>
+	</tr>
+	<tr>
+		<td>
+Goto Bookmark 5
+		</td>
+		<td>
+Ctrl+Cmd+5
+		</td>
+	</tr>
+	<tr>
+		<td>
+Goto Bookmark 6
+		</td>
+		<td>
+Ctrl+Cmd+6
+		</td>
+	</tr>
+	<tr>
+		<td>
+Goto Bookmark 7
+		</td>
+		<td>
+Ctrl+Cmd+7
+		</td>
+	</tr>
+	<tr>
+		<td>
+Goto Bookmark 8
+		</td>
+		<td>
+Ctrl+Cmd+8
+		</td>
+	</tr>
+	<tr>
+		<td>
+Goto Bookmark 9
+		</td>
+		<td>
+Ctrl+Cmd+9
 		</td>
 	</tr>
 </table>

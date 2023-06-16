@@ -168,7 +168,7 @@ Alt+Maj+Cmd+V
 	</tr>
 	<tr>
 		<td>
-Supprimer 
+Supprimer (MnuDelete)
 		</td>
 		<td>
 Cmd+Retour arrière 
@@ -306,7 +306,7 @@ Entrée
 	</tr>
 	<tr>
 		<td>
-Supprimer 
+Supprimer (MnuDeleteConnection)
 		</td>
 		<td>
 Cmd+Retour arrière 
@@ -355,6 +355,78 @@ Sélectionnez l'onglet précédent
 		</td>
 		<td>
 Maj+Cmd+Gauche 
+	</td>
+	</tr>
+	<tr>
+		<td>
+Aller au signet 1
+		</td>
+		<td>
+Ctrl+Cmd+1 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Aller au signet 2
+		</td>
+		<td>
+Ctrl+Cmd+2
+		</td>
+	</tr>
+	<tr>
+		<td>
+Aller au signet 3
+		</td>
+		<td>
+Ctrl+Cmd+3
+		</td>
+	</tr>
+	<tr>
+		<td>
+Aller au signet 4
+		</td>
+		<td>
+Ctrl+Cmd+4
+		</td>
+	</tr>
+	<tr>
+		<td>
+Aller au signet 5
+		</td>
+		<td>
+Ctrl+Cmd+5
+		</td>
+	</tr>
+	<tr>
+		<td>
+Aller au signet 6
+		</td>
+		<td>
+Ctrl+Cmd+6
+		</td>
+	</tr>
+	<tr>
+		<td>
+Aller au signet 7
+		</td>
+		<td>
+Ctrl+Cmd+7
+		</td>
+	</tr>
+	<tr>
+		<td>
+Aller au signet 8
+		</td>
+		<td>
+Ctrl+Cmd+8
+		</td>
+	</tr>
+	<tr>
+		<td>
+Aller au signet 9
+		</td>
+		<td>
+Ctrl+Cmd+9
 		</td>
 	</tr>
 </table>

@@ -1,5 +1,8 @@
 ---
 title: Raccourcis clavier
+description: Voici les raccourcis clavier par défaut pour diverses commandes
+keywords:
+- Raccourcis clavier
 ---
 Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Options – Interface utilisateur – Clavier*** .  
 
@@ -202,7 +205,7 @@ F11
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td>		
 Recherche multi-coffres... 
 		</td>
 		<td>
@@ -242,7 +245,7 @@ Ctrl+Alt+F9
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td>	
 Volet du haut 
 		</td>
 		<td>
@@ -538,6 +541,14 @@ Ctrl+8
 Aller au signet 9 
 		</td>
 		<td>
+Ctrl+9
+		</td>
+	</tr>
+	<tr>
+		<td>
+Rechercher dans le ruban
+		</td>
+		<td>		
 Ctrl+9 
 		</td>
 	</tr>
