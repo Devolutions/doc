@@ -34,9 +34,7 @@ If you are using a {{ en.DVLS }} or {{ en.HUBB }} data source, vault management 
 2. In the ***User and Security Management*** window, select the ***{{ en.VLT }}s*** tab, then click on ***Add {{ en.VLT }}***.  
 ![Add Vault](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10739.png) 
 1. In the ***General*** tab, an ***ID*** is generated automatically. Enter a ***Name*** (mandatory) and a ***Description*** (optional) for your new vault.  
-
-The ***Visibility*** setting determines if this specific vault is visible to all users (public) or only to users that have access to the vault (private). It is set on the default setting, which can be modified in ***Administration – System Settings – Vault Management – Vault***.
-
+The ***Visibility*** setting determines if this specific vault is visible to all users (public) or only to users that have access to the vault (private). It is set on the default setting, which can be modified in ***Administration – System Settings – Vault Management – Vault***.  
 The vault can be created as soon as a ***Name*** has been specified, but other options are available. They are presented in the next step. 
 
 {% snippet icon.badgeInfo %} 
@@ -58,14 +56,14 @@ The ***Allow offline*** option is enabled by default. If it is disabled, the new
 1. The new {{ en.VLT }} will appear in the ***User and Security Management*** window. You can ***Close*** this view to access the {{ en.VLT }} from the ***{{ en.NPANE }}***.  
 ![New Vault Successfully Created](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2138.png) 
 
-### Navigate between Vaults
+### Navigate between vaults
 
 In the ***{{ en.NPANE }}***, you can use the vault selector to move between vaults.  
-![Navigation Pane Vault Selector](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3602.png) 
+![Navigation Pane Vault Selector](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3602.png)  
 You can change the location of the vault selector in ***File – Options – User Interface –*** ***{{ en.VLT }}s – {{ en.VLT }} location***. By default, the selector is at the bottom of the ***{{ en.NPANE }}***.  
 ![File – Options – User Interface – Vaults – Vault location](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2141.png)
 
-### Move entries to a different Vault
+### Move entries to a different vault
 
 1. In the ***{{ en.NPANE }}***, go to the vault you want to transfer entries out of.
 1. In the ***Ribbon***, go to ***Edit – Batch – Move to {{ en.VLT }}***.  
@@ -78,7 +76,7 @@ You can change the location of the vault selector in ***File – Options – Use
 
 Your selected entries can now be found in the destination vault.
 
-### Give Users and User Groups Access to a Vault
+### Give users and user groups access to a vault
 
 {{ en.VLT }}s simplify user management because Active Directory (AD) groups define who has access to a vault. These AD groups are known as ***User groups*** in {{ en.RDM }}. In general, most groups have access to a couple of vaults, while some groups will only have access to one vault. Limiting access to vaults minimizes the need to set permissions on lower-level folders.  
 
