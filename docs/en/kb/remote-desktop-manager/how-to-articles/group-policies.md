@@ -116,7 +116,15 @@ Disable the system Contacts, Macros and VPNs in the user vault
 		</td>
 	</tr>
 	<tr>
-		<td>			
+		<td>
+Enable PowerShell Remote Console API hooking
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\EnablePowerShellRemoteConsoleHooking
+		</td>	
+	</tr>
+	<tr>
+		<td>					
 Force application close when idle
 		</td>
 		<td>
