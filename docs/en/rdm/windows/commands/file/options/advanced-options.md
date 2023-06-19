@@ -265,6 +265,15 @@ Use connection loader optimization
 		<td>
 Only enable this option upon request from our support team. 
 		</td>
+		</td>
+	</tr>
+	<tr>
+		<td>
+Use legacy folder images
+		</td>
+		<td>
+Enable this option to use the legacy folder images. 
+		</td>		
 	</tr>
 </table>
 

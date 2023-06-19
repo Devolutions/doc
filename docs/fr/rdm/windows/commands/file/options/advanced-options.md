@@ -253,6 +253,14 @@ Désactiver le message d'avertissement lorsque vous utilisez un raccourci.
 	</tr>
 	<tr>
 		<td>
+Utiliser les images héritées de dossiers.
+		</td>
+		<td>
+Activer cette option pour utiliser les images héritées de dossiers. 
+		</td>
+	</tr>
+	<tr>
+		<td>		
 Utiliser l'optimisation de chargement de connexion 
 		</td>
 		<td>
@@ -260,7 +268,7 @@ Activer cette option que sur demande de notre équipe de soutien technique de De
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td>		
 Vérifiez que KeePass est en cours d'exécution 
 		</td>
 		<td>
