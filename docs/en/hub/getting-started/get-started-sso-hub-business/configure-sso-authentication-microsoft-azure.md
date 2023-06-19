@@ -1,9 +1,11 @@
 ---
-title: Configure SSO Authentication With Microsoft Azure
+title: Configure SSO Authentication with Microsoft Azure
 description: Here are the steps to configure Azure with {{ en.DHUBB }} for SSO authentication and user provisioning.
 keywords:
 - Office 365
 - Office365
+- SSO
+- Azure
 ---
 Here are the steps to configure Azure with {{ en.DHUBB }} for SSO authentication and user provisioning.  
 
@@ -16,12 +18,11 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 **In {{ en.DHUBB }}**  
 
 1. Go to ***Administration – Authentication***. 
-1. In ***Single Sign-On (SSO)***, click on ***Microsoft Single Sign-On (SSO)***.  
-![Administration – Authentication – Single Sign-On (SSO) – Configure Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2187.png)  
-You will be directed to the configuration page.  
-![Configure Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2188.png)  
-1. ***Name*** your SSO configuration. This name will only appear in your {{ en.HUB }} SSO settings menu.  
-![Configuration Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2218.png)  
+1. In ***Single Sign-On (SSO)***, click on ***Microsoft Single Sign-On (SSO)***. You will be directed to the configuration page.  
+![Administration – Authentication – Single Sign-On (SSO) – Microsoft Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2218.png)  
+
+3. ***Name*** your SSO configuration. This name will only appear in your {{ en.HUB }} SSO settings menu. The default name is "Microsoft".  
+![Configuration Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2219.png)  
 
 {% snippet icon.badgeCaution %} 
 Do not close this setup page, as the following steps will show you where to find the information to enter in its fields. 
@@ -57,7 +58,7 @@ We recommend including either "Devolutions" or "{{ en.HUB }}" in the name.
 **In {{ en.DHUBB }}** 
 
 14. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Callback URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-![Copy the Callback URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2189.png)  
+![Copy the Callback URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2220.png)  
 
 **In Azure AD Portal** 
 
@@ -67,11 +68,11 @@ We recommend including either "Devolutions" or "{{ en.HUB }}" in the name.
 ![Token configuration – Add optional claim](https://webdevolutions.azureedge.net/docs/en/hub/Hub2147.png)  
 1. Under ***Token type***, select ***ID***. Then, in the list, select the following claims:  
 
-  * ***email*** 
-  * ***family_name*** 
-  * ***given_name*** 
-  * ***upn*** 
-  * ***xms_pl*** 
+  * ***email***
+  * ***family_name***
+  * ***given_name***
+  * ***upn***
+  * ***xms_pl***
   * ***xms_tpl***  
 ![Add optional claim](https://webdevolutions.azureedge.net/docs/en/hub/Hub2148.png)  
 
@@ -84,7 +85,7 @@ We recommend including either "Devolutions" or "{{ en.HUB }}" in the name.
 **In {{ en.DHUBB }}**  
 
 21. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Application (client) ID*** from the last step in the ***Client ID*** field.  
-![Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2154.png)  
+![Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2221.png)  
 
 **In Azure AD Portal**  
 
@@ -104,7 +105,7 @@ Note that when the client secret expires, no one will be able to connect to the 
 **In {{ en.DHUBB }}**  
 
 26. Back on the ***Configure Single Sign-On (SSO)*** page, paste the client secret ***Value*** from the last step in the ***Client secret Key*** field.  
-![Client secret Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub2155.png)  
+![Client secret Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub2222.png)  
 
 **In Azure AD Portal**  
 
@@ -116,23 +117,22 @@ Note that when the client secret expires, no one will be able to connect to the 
 **In {{ en.DHUBB }}**  
 
 29. Back on the ***Configure Single Sign-On (SSO)*** page, paste the URL from the last step in the ***Discovery URL*** field.  
-![Discovery URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2156.png)  
-1. In the ***User Scopes*** field, enter “User.Read“.  
-![User Scopes](https://webdevolutions.azureedge.net/docs/en/hub/Hub2157.png) 
-1. Test the connection to make sure this configuration is done correctly. If it is, your account will connect with Azure AD. 
-1. Click ***Save*** at the bottom.  
+![Discovery URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2223.png)  
 
-### Provisioning Configuration 
+1. Click on ***Test Configuration*** to make sure it is correct. If it is, your account will connect with Azure AD and you will see a summary of your configuration.
+![Test Configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2224.png)  
 
-To synchronize your users and user groups from your providers to the {{ en.DHUBB }}, follow the next steps.  
+### Provisioning configuration 
+
+To synchronize your users and user groups from your providers to the {{ en.HUB }}, follow the next steps.  
 
 **In {{ en.DHUBB }}**  
 
-1. Go to ***Administration – Authentication*** . 
-1. In ***Provisioning*** , click on ***Generate SCIM Token*** .  
+1. Go to ***Administration – Authentication***. 
+1. In ***Provisioning***, click on ***Generate SCIM Token***.  
 ![Administration – Authentication – Provisioning – Generate SCIM Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2190.png) 
 {% snippet icon.badgeCaution %} 
-Note that this ***SCIM Token*** will expire in 365 days following its generation. When it expires, the provisioning will stop working. You will then need to regenerate a new ***SCIM Token*** . We recommend that you set yourself a task reminder before the expiration date. 
+Note that this ***SCIM Token*** will expire in 365 days following its generation. When it expires, the provisioning will stop working. You will then need to regenerate a new ***SCIM Token***. We recommend that you set yourself a task reminder before the expiration date. 
 {% endsnippet %}
  
 3. In the ***Generate a SCIM Secret Token*** window, copy the ***Tenant URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
@@ -140,9 +140,9 @@ Note that this ***SCIM Token*** will expire in 365 days following its generation
 
 **In Azure AD Portal**  
 
-4. In the management of your Enterprise app, go to ***Provisioning*** and click on ***Get started*** .  
+4. In the management of your Enterprise app, go to ***Provisioning*** and click on ***Get started***.  
 ![Provisioning – Get started](https://webdevolutions.azureedge.net/docs/en/hub/Hub2163.png)  
-1. In the ***Provisioning Mode*** drop-down list, select ***Automatic*** . Then, paste the ***Tenant URL*** from [step 3]( in the ***Secret Token*** field.  
+1. In the ***Provisioning Mode*** drop-down list, select ***Automatic***. Then, paste the ***Tenant URL*** from step 3 in the ***Secret Token*** field.  
 ![Provisioning Mode and Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2166.png)  
 
 **In {{ en.DHUBB }}**  
@@ -154,7 +154,7 @@ Note that this ***SCIM Token*** will expire in 365 days following its generation
 
 7. Paste the token from the previous step in the ***Secret Token*** field.  
 ![Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2164.png)  
-1. Test the connection to make sure that it works, then click ***Save*** .  
+1. Test the connection to make sure that it works, then click ***Save***.  
 
 ### Add a user/group 
 
@@ -170,35 +170,35 @@ Nested groups are not supported, meaning that Azure provisioning will not synchr
  
 **In Azure AD Portal**  
 
-1. Select ***Users and groups*** in the left side menu, then click ***Add user/group*** .  
+1. Select ***Users and groups*** in the left side menu, then click ***Add user/group***.  
 ![Users and groups – Add user/group](https://webdevolutions.azureedge.net/docs/en/hub/Hub2167.png)  
-1. Under ***Add Assignment*** , click on ***None selected*** .  
+1. Under ***Add Assignment*** , click on ***None selected***.  
 ![Add Assignment](https://webdevolutions.azureedge.net/docs/en/hub/Hub2168.png)  
 1. Manually search for users and groups or use the ***Search*** bar. Click on ***Select*** when you have finished your selection.  
 ![Users and groups selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2169.png)  
 1. Click ***Assign*** when your selection is complete.  
 ![Assign users and groups](https://webdevolutions.azureedge.net/docs/en/hub/Hub2170.png)  
-1. Select ***Provisioning*** in the left side menu, then click ***Start provisioning*** .  
+1. Select ***Provisioning*** in the left side menu, then click ***Start provisioning***.  
 ![Start provisioning](https://webdevolutions.azureedge.net/docs/en/hub/Hub2171.png)  
 
 ### Synchronization between Azure and {{ en.HUB }} 
 
 **In {{ en.DHUBB }}**  
 
-1. Go to ***Administration – Authentication*** . 
-1. In ***Provisioning*** , ***Enable the synchronization*** .  
+1. Go to ***Administration – Authentication***. 
+1. In ***Provisioning*** , ***Enable the synchronization***.  
 ![Administration – Authentication – Provisioning – Enable the synchronization](https://webdevolutions.azureedge.net/docs/en/hub/Hub2191.png)  
 
-Azure 's provisioning frequency is at most 40 minutes. The user groups, including their members, will synchronize within this Azure provisioning time. We recommend that you to verify the first provisioning results.  
+Azure's provisioning frequency is at most 40 minutes. The user groups, including their members, will synchronize within this Azure provisioning time. We recommend that you to verify the first provisioning results.  
 
-In ***Administration – User Groups*** , the Azure user groups will be added. They are recognizable by the ***Is sync*** group icon next to the group name.  
-![Synced User Groups](https://webdevolutions.azureedge.net/docs/en/hub/Hub2182.png)  
+In ***Administration – User Groups***, the Azure user groups will be added. They are recognizable by the ***Is sync*** group icon next to the group name.  
+![Synced user groups](https://webdevolutions.azureedge.net/docs/en/hub/Hub2182.png)  
 
-In ***Administration – Users*** , all users in the Azure user group who are already part of your {{ en.DHUB }} will be flagged as synced with the ***Is sync*** icon next to their name. All new users part of the synchronized Azure user group who are not part of the {{ en.DHUB }} will be suggested as [new invitations](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) in ***Invitations required*** .  
-![Invitations required & Synced Users](https://webdevolutions.azureedge.net/docs/en/hub/Hub2175.png)  
+In ***Administration – Users*** , all users in the Azure user group who are already part of your {{ en.DHUB }} will be flagged as synced with the ***Is sync*** icon next to their name. All new users part of the synchronized Azure user group who are not part of the {{ en.DHUB }} will be suggested as [new invitations](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) in ***Invitations required***.  
+![Invitations required & synced users](https://webdevolutions.azureedge.net/docs/en/hub/Hub2175.png)  
 
 {% snippet icon.badgeNotice %} 
 All users who already had a {{ en.DA }} will see both login options: the {{ en.DA }} method and the Microsoft method. 
 {% endsnippet %}
  
-![Sign in with your Devolutions Account or with Microsoft](https://webdevolutions.azureedge.net/docs/en/hub/Hub4139.png)  
+![Sign in with your {{ en.DA }} or with Microsoft](https://webdevolutions.azureedge.net/docs/en/hub/Hub4139.png)  
