@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Ribbon default visibility
-  description: This topic covers every option in the Active Directory Synchronizer entry.
+  description: This topic describes how to change the Ribbon default visibility in Remote Desktop Manager. 
   keywords:
   - Ribbon
 ---
