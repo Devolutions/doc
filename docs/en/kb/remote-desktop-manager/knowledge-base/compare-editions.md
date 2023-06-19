@@ -8,7 +8,6 @@ Compare the features between our Free and Team Editions of {{ en.RDM }}.
 
 | Feature                              | Description | Free | Team |
 | ------------------------------------ | ----------- | ---- | ---- |
-| Access secure network with Jump      | Jump connects to remote host securely often called a Jump Box, Service Host, or a Bastion Server, which in turn connects to other hosts. |  | {{ icon.badgeNotice | safe}} |
 | Account brokering                    | Directly inject credentials into end servers, systems, applications and websites using our Devolutions Web Login browser extension. | {{ icon.badgeNotice | safe}} | {{ icon.badgeNotice | safe}} |
 | Activity log                         | Generate exhaustive access logs to keep track of privileged user activity. |  | {{ icon.badgeNotice | safe}} |
 | Audit trail                          | Capture all events surrounding privileged account operations, including login attempts and history. |  | {{ icon.badgeNotice | safe}} |
