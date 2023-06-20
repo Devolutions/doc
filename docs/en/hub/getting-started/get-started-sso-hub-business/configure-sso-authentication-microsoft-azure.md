@@ -13,7 +13,7 @@ Here are the steps to configure Azure with {{ en.DHUBB }} for SSO authentication
 An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights is required. 
 {% endsnippet %}
  
-### Configure Single Sign-On (SSO) 
+## Configure Single Sign-On (SSO) 
 
 **In {{ en.DHUBB }}**  
 
@@ -122,21 +122,26 @@ Note that when the client secret expires, no one will be able to connect to the 
 1. Click on ***Test Configuration*** to make sure it is correct. If it is, your account will connect with Azure AD and you will see a summary of your configuration.
 ![Test Configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2224.png)  
 
-### Provisioning configuration 
+1. In the ***Summary*** of your configuration, click ***Save***.
+
+## Provisioning configuration 
 
 To synchronize your users and user groups from your providers to the {{ en.HUB }}, follow the next steps.  
 
 **In {{ en.DHUBB }}**  
 
 1. Go to ***Administration – Authentication***. 
-1. In ***Provisioning***, click on ***Generate SCIM Token***.  
+1. In ***Provisioning***, enable ***SCIM provisioning***.
+1. In ***Provisioning synchronization setup***, copy the ***Tenant URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
+![Copy the Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2193.png)  
+
+
+click on ***Generate SCIM Token***.  
 ![Administration – Authentication – Provisioning – Generate SCIM Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2190.png) 
 {% snippet icon.badgeCaution %} 
 Note that this ***SCIM Token*** will expire in 365 days following its generation. When it expires, the provisioning will stop working. You will then need to regenerate a new ***SCIM Token***. We recommend that you set yourself a task reminder before the expiration date. 
 {% endsnippet %}
- 
-3. In the ***Generate a SCIM Secret Token*** window, copy the ***Tenant URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-![Copy the Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2193.png)  
+
 
 **In Azure AD Portal**  
 
@@ -148,6 +153,7 @@ Note that this ***SCIM Token*** will expire in 365 days following its generation
 **In {{ en.DHUBB }}**  
 
 6. Copy the ***Secret Token*** by clicking on the ***Copy to Clipboard*** icon next to it.  
+
 ![Copy the Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2192.png)  
 
 **In Azure AD Portal**  
@@ -156,7 +162,20 @@ Note that this ***SCIM Token*** will expire in 365 days following its generation
 ![Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2164.png)  
 1. Test the connection to make sure that it works, then click ***Save***.  
 
-### Add a user/group 
+**In {{ en.DHUBB }}**  
+
+6. Click ***Activate Synchronization***. When asked to confirm, click ***Start Synchronization***.
+![Copy the Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2192.png)  
+
+You can now see an overview of your provisioning synchronization. In this page, you have the options to ***Regenerate a SCIM Token*** or ***Delete the SCIM Provisioning***.
+
+![Copy the Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2192.png)  
+
+{% snippet icon.badgeCaution %} 
+Thee ***Secret Token*** will expire in 365 days following its generation. When it expires, the provisioning will stop working. You will then need to regenerate a new token. in the ***Provisioning synchronization overview*** page seen above. We recommend that you set yourself a task reminder before the expiration date. 
+{% endsnippet %}
+
+## Add a user/group 
 
 In this section, you will add your users and user groups to your Enterprise app.  
 
@@ -181,7 +200,7 @@ Nested groups are not supported, meaning that Azure provisioning will not synchr
 1. Select ***Provisioning*** in the left side menu, then click ***Start provisioning***.  
 ![Start provisioning](https://webdevolutions.azureedge.net/docs/en/hub/Hub2171.png)  
 
-### Synchronization between Azure and {{ en.HUB }} 
+## Synchronization between Azure and {{ en.HUB }} 
 
 **In {{ en.DHUBB }}**  
 
