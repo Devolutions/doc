@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Authentication changes causing login issues with {{ en.WS }}
 ---
-These issues are due to the fact that the authenfication has changed. This topic will cover <a href="#hub-business">{{ en.WS }} with {{ en.HUBB }}</a> and <a href="#hub-personal">{{ en.WS }} with {{ en.HUBP }}</a>.
+These issues are due to the fact that the authentication has changed. This topic will cover <a href="#hub-business">{{ en.WS }} with {{ en.HUBB }}</a> and <a href="#hub-personal">{{ en.WS }} with {{ en.HUBP }}</a>.
 ## {{ en.HUBB }}
 This section covers {{ en.HUBB }} troubleshooting for <a href="#workspace-mobile-for-hub-business">mobile</a> and <a href="#workspace-desktop-for-hub-business">desktop</a>. The connection to a {{ en.HUBB }} may fail, to fix this follow the steps below.
 ### {{ en.WS }} mobile for {{ en.HUBB }}
