@@ -7,5 +7,5 @@ eleventyComputed:
 ---
 
 The ribbon is set by default to ***Show Tabs Only*** in {{ en.RDM }}.
-![Ribbon layout](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6000.png)  
-Ribbon default visibility can be switched by clicking ***on Full Screen Mode*** or ***Always Show Ribbon***.
+![Ribbon Layout](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6000.png)  
+Ribbon default visibility can be switched by clicking on ***Full Screen Mode*** or ***Always Show Ribbon***.
