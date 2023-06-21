@@ -77,46 +77,8 @@ It is possible to add a ***Description***. The icon can also be changed by click
 
 1. Click on ***Generate base script*** and click on ***Edit*** to modify or add to it.  
 
-Here is a base script using the variables mentioned above:
-```
-[CmdletBinding()]
-       Param (
-         [Parameter(Mandatory = $True)][ValidateNotNullOrEmpty()][SecureString]$NewPassword,
-         [Parameter(Mandatory = $True)][ValidateNotNullOrEmpty()][String]$ComputerIP,
-         [Parameter(Mandatory = $True)][ValidateNotNullOrEmpty()][String]$Username,
-         [Parameter(Mandatory = $True)][ValidateNotNullOrEmpty()][SecureString]$Password,
-         [Parameter(Mandatory = $True)][ValidateNotNullOrEmpty()][String]$RootFolder,
-         [Parameter(Mandatory = $True)][ValidateNotNullOrEmpty()][String]$FileName,
-         [Parameter(Mandatory = $True)][ValidateNotNullOrEmpty()][String]$FilePath
-       )
+1. Click ***Save*** to save this configuration and close the window.
 
-# Create a PSCredential for the connection
-$credential = New-Object System.Management.Automation.PSCredential($Username, $Password)
-
-# Initialize new session to distant computer
-$session = New-PSSession -ComputerName $ComputerIP -Credential $credential
-
-# Convert the secure string to plaintext password
- $plainTextPassword = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($NewPassword))
-
-# Path where to save the file
-$completePath = "$RootFolder\$FilePath";
-
-# Command to save the content in a file on the distant computer
-Invoke-Command -Session $session -ScriptBlock {
-    param($content, $name, $path)
-    if (-not (Test-Path $path -PathType Container)) {
-        New-Item -Path $path -ItemType Directory | Out-Null
-    }
-    Set-Content -Path "$path\$name" -Value $content
-} -ArgumentList $plainTextPassword , $FileName, $completePath
-
-# Close the session
-Remove-PSSession $session
-
-# Return a string to ensure everything was done correctly
-return "Script ended successfully"
-```
 
 ## Azure Directory specific propagation
 {% snippet icon.badgeNotice %}
