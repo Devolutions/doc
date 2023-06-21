@@ -123,6 +123,7 @@ Note that when the client secret expires, no one will be able to connect to the 
 ![Test Configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2224.png)  
 
 1. In the ***Summary*** of your configuration, click ***Save***.
+![Save your configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2225.png)  
 
 ## Provisioning configuration 
 
@@ -132,29 +133,22 @@ To synchronize your users and user groups from your providers to the {{ en.HUB }
 
 1. Go to ***Administration – Authentication***. 
 1. In ***Provisioning***, enable ***SCIM provisioning***.
-1. In ***Provisioning synchronization setup***, copy the ***Tenant URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-![Copy the Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2193.png)  
+![Enable SCIM provisioning](https://webdevolutions.azureedge.net/docs/en/hub/Hub2226.png)  
 
-
-click on ***Generate SCIM Token***.  
-![Administration – Authentication – Provisioning – Generate SCIM Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2190.png) 
-{% snippet icon.badgeCaution %} 
-Note that this ***SCIM Token*** will expire in 365 days following its generation. When it expires, the provisioning will stop working. You will then need to regenerate a new ***SCIM Token***. We recommend that you set yourself a task reminder before the expiration date. 
-{% endsnippet %}
-
+1. In the ***Provisioning synchronization setup***, copy the ***Tenant URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
+![Copy the Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2227.png)  
 
 **In Azure AD Portal**  
 
 4. In the management of your Enterprise app, go to ***Provisioning*** and click on ***Get started***.  
 ![Provisioning – Get started](https://webdevolutions.azureedge.net/docs/en/hub/Hub2163.png)  
-1. In the ***Provisioning Mode*** drop-down list, select ***Automatic***. Then, paste the ***Tenant URL*** from step 3 in the ***Secret Token*** field.  
+1. Set the ***Provisioning Mode*** to ***Automatic***, then paste the URL from step 3 in the ***Tenant URL*** field.  
 ![Provisioning Mode and Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2166.png)  
 
 **In {{ en.DHUBB }}**  
 
 6. Copy the ***Secret Token*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-
-![Copy the Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2192.png)  
+![Copy the Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2228.png)  
 
 **In Azure AD Portal**  
 
@@ -164,15 +158,16 @@ Note that this ***SCIM Token*** will expire in 365 days following its generation
 
 **In {{ en.DHUBB }}**  
 
-6. Click ***Activate Synchronization***. When asked to confirm, click ***Start Synchronization***.
-![Copy the Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2192.png)  
+9. Click ***Activate Synchronization***.
+![Activate Synchronization](https://webdevolutions.azureedge.net/docs/en/hub/Hub2229.png)  
+1. When asked to confirm, click ***Start Synchronization***.
+![Start Synchronization](https://webdevolutions.azureedge.net/docs/en/hub/Hub2230.png)  
 
-You can now see an overview of your provisioning synchronization. In this page, you have the options to ***Regenerate a SCIM Token*** or ***Delete the SCIM Provisioning***.
-
-![Copy the Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2192.png)  
+You can now see an overview of your provisioning synchronization. Next to the ***Tenant URL***, you have the options to ***Regenerate a SCIM Token*** or ***Delete the SCIM Provisioning***.
+![Provisioning synchronization overview](https://webdevolutions.azureedge.net/docs/en/hub/Hub2231.png)  
 
 {% snippet icon.badgeCaution %} 
-Thee ***Secret Token*** will expire in 365 days following its generation. When it expires, the provisioning will stop working. You will then need to regenerate a new token. in the ***Provisioning synchronization overview*** page seen above. We recommend that you set yourself a task reminder before the expiration date. 
+The ***Secret Token*** will expire 365 days after its generation. When it does, the provisioning will stop working. You will then need to regenerate a new token in the ***Provisioning synchronization overview*** page seen above. We recommend that you set yourself a task reminder before the expiration date. 
 {% endsnippet %}
 
 ## Add a user/group 
@@ -191,7 +186,7 @@ Nested groups are not supported, meaning that Azure provisioning will not synchr
 
 1. Select ***Users and groups*** in the left side menu, then click ***Add user/group***.  
 ![Users and groups – Add user/group](https://webdevolutions.azureedge.net/docs/en/hub/Hub2167.png)  
-1. Under ***Add Assignment*** , click on ***None selected***.  
+1. Under ***Add Assignment***, click on ***None selected***.  
 ![Add Assignment](https://webdevolutions.azureedge.net/docs/en/hub/Hub2168.png)  
 1. Manually search for users and groups or use the ***Search*** bar. Click on ***Select*** when you have finished your selection.  
 ![Users and groups selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2169.png)  
@@ -202,18 +197,12 @@ Nested groups are not supported, meaning that Azure provisioning will not synchr
 
 ## Synchronization between Azure and {{ en.HUB }} 
 
-**In {{ en.DHUBB }}**  
-
-1. Go to ***Administration – Authentication***. 
-1. In ***Provisioning*** , ***Enable the synchronization***.  
-![Administration – Authentication – Provisioning – Enable the synchronization](https://webdevolutions.azureedge.net/docs/en/hub/Hub2191.png)  
-
-Azure's provisioning frequency is at most 40 minutes. The user groups, including their members, will synchronize within this Azure provisioning time. We recommend that you to verify the first provisioning results.  
+The synchronization starts automatically when the provisioning configuration is complete. Azure's provisioning frequency is at most 45 minutes and is determined by your Identity Provider. The user groups, including their members, will synchronize within this Azure provisioning time. We recommend that you to verify the first provisioning results.  
 
 In ***Administration – User Groups***, the Azure user groups will be added. They are recognizable by the ***Is sync*** group icon next to the group name.  
 ![Synced user groups](https://webdevolutions.azureedge.net/docs/en/hub/Hub2182.png)  
 
-In ***Administration – Users*** , all users in the Azure user group who are already part of your {{ en.DHUB }} will be flagged as synced with the ***Is sync*** icon next to their name. All new users part of the synchronized Azure user group who are not part of the {{ en.DHUB }} will be suggested as [new invitations](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) in ***Invitations required***.  
+In ***Administration – Users***, all users in the Azure user group who are already part of your {{ en.DHUB }} will be flagged as synced with the ***Is sync*** icon next to their name. All new users part of the synchronized Azure user group who are not part of the {{ en.DHUB }} will be suggested as [new invitations](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) in ***Invitations required***.  
 ![Invitations required & synced users](https://webdevolutions.azureedge.net/docs/en/hub/Hub2175.png)  
 
 {% snippet icon.badgeNotice %} 
