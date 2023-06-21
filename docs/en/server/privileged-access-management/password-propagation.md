@@ -15,50 +15,48 @@ This method covers all PAM account providers.
 ### Steps (with template)
 1. Download our [template .json file](https://github.com/Devolutions/PAM-Providers/tree/master/Propagation-Scripts/templates) from GitHub.
 1. Log in to {{ en.DVLS }} with an administrator account.
-1. Click on the ***Adminitration*** tab.  
-
-1. Go to ***Modules*** – ***Privileged Access*** – ***Propagation (Preview)***.  
-
+1. Go to ***Administration*** – ***Modules*** – ***Privileged Access*** – ***Propagation (Preview)***.  
+![Propagation (Preview)](https://webdevolutions.azureedge.net/docs/en/kb/KB0096.png)  
 1. Click on ***Script Templates***.  
-
+![Script Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB0097.png)  
 1. Click on ***Import***.  
-
+![Import](https://webdevolutions.azureedge.net/docs/en/kb/KB0098.png)  
 1. Select the previously downloaded template .json file and click ***Import***.  
-
+![Import button](https://webdevolutions.azureedge.net/docs/en/kb/KB0099.png)  
 1. Click ***Save***.
-
+![Save button](https://webdevolutions.azureedge.net/docs/en/kb/KB0100.png)  
 1. Go back to the ***Propagation (Preview)*** page.
 1. Click on ***Add***.  
-
+![Add](https://webdevolutions.azureedge.net/docs/en/kb/KB0101.png)  
 1. Select the desired template and click on ***Select***.  
-
+![Select button](https://webdevolutions.azureedge.net/docs/en/kb/KB0102.png)  
 1. In the ***General*** tab, name this configuration.
 1. In the ***Propagation Properties*** tab, enter the information for the remote machine.
 1. In the ***Property Mapping*** tab, click on ***Configure a PAM entry*** to select a privileged account type.  
-
+![Configure a PAM entry](https://webdevolutions.azureedge.net/docs/en/kb/KB0103.png)  
 1. Click on ***Continue***.
 1. Select the fields of the account (or provider) to associate with the variables and click ***Save***.
 1. Click ***Save*** to save this new configuration and close the window.  
-
+![Save button](https://webdevolutions.azureedge.net/docs/en/kb/KB0104.png)  
 1. Go to the ***Privileged Access*** tab and select an account type previously configured with ***Propagation***.
 1. Click on ***Edit***.
 1. Go to the Propagation tab and click on the "***+***" button.  
-
-1. Select the configuration to link to that account.  
-
+![+ button](https://webdevolutions.azureedge.net/docs/en/kb/KB0105.png)  
+1. Select the configuration to link to that account, and click ***Confirm***.  
+![Confirm button](https://webdevolutions.azureedge.net/docs/en/kb/KB0106.png)  
 {% snippet icon.badgeInfo %}
 It is possible to select multiple configurations.
 {% endsnippet %}
 
-22. Click ***OK*** to save the changes and close the window.
-
+22. Click ***OK*** to save the changes and close the window.  
+![OK button](https://webdevolutions.azureedge.net/docs/en/kb/KB0107.png)  
+{% snippet icon.badgeInfo %}
 To test if the link is successful, click on ***More*** and then ***Reset Password***. If working correctly, the newly created file will appear on the remote machine. If not, it is recommended to check the logs of the account.
+{% endsnippet %}
 
 ### Create a PowerShell template
 1. Log in to {{ en.DVLS }} with an administrator account.
-1. Click on the ***Adminitration*** tab.  
-
-1. Go to ***Modules*** – ***Privileged Access*** – ***Propagation (Preview)***.  
+1. Go to ***Administration*** – ***Modules*** – ***Privileged Access*** – ***Propagation (Preview)***.  
 
 1. Click on ***Script Templates***.  
 
@@ -69,7 +67,7 @@ To test if the link is successful, click on ***More*** and then ***Reset Passwor
 It is possible to add a ***Description***. The icon can also be changed by clicking on it.
 {% endsnippet %}
 
-7. In the ***Propagation Properties*** tab, add the variables for the script by clicking on ***+ Add property***. The variables added in this tab should represent the URL to the remote machine (i.e., ComputerIP, Username, Password and RootFolder).  
+6. In the ***Propagation Properties*** tab, add the variables for the script by clicking on ***+ Add property***. The variables added in this tab should represent the URL to the remote machine (i.e., ComputerIP, Username, Password and RootFolder).  
 
 1. In the ***Property Mapping*** tab, add the variables for the script by clicking on ***+ Add property***. The variables added in this tab should represent the ***Field Mapping*** of the remote machine (i.e., FileName and FilePath).  
 
@@ -77,8 +75,10 @@ It is possible to add a ***Description***. The icon can also be changed by click
 
 1. Click on ***Generate base script*** and click on ***Edit*** to modify or add to it.  
 
-1. Click ***Save*** to save this configuration and close the window.
-
+1. Click ***Save*** to save this configuration and close the window.  
+{% snippet icon.badgeInfo %}
+Learn more about custom scripts for this feature by visiting our [public GitHub](https://github.com/Devolutions/PAM-Providers/blob/master/Propagation-Scripts/Create-A-Template.md).
+{% endsnippet %}
 
 ## Azure Directory specific propagation
 {% snippet icon.badgeNotice %}
