@@ -33,7 +33,7 @@ The offline ***Documentation*** tab is now available in the ***Dashboard***.
 ![Documentation tab](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6003.png)  
 ##  Synchronize offline document  
  1. Choose the entry in the ***Navigation Pane***.   
- 1. Go to ***Administration – Vault Settings***
+ 1. Go to ***Administration – Vault Settings***.
  ![Vault Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6000.png) 
  1. In ***Security Settings – Offline – Synchronize document to offline***, select ***Yes***.  
  1. Click ***OK*** and close the window.  
