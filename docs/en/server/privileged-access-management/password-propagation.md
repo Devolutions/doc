@@ -57,11 +57,11 @@ To test if the link is successful, click on ***More*** and then ***Reset Passwor
 ### Create a PowerShell template
 1. Log in to {{ en.DVLS }} with an administrator account.
 1. Go to ***Administration*** – ***Modules*** – ***Privileged Access*** – ***Propagation (Preview)***.  
-
+![Propagation (Preview)](https://webdevolutions.azureedge.net/docs/en/kb/KB0096.png)  
 1. Click on ***Script Templates***.  
-
+![Script Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB0097.png)  
 1. Click on ***Add***.  
-
+![Add](https://webdevolutions.azureedge.net/docs/en/kb/KB0112.png)  
 1. In the General tab, add a ***Name*** for this template.
 {% snippet icon.badgeInfo %}
 It is possible to add a ***Description***. The icon can also be changed by clicking on it.
@@ -72,7 +72,6 @@ It is possible to add a ***Description***. The icon can also be changed by click
 1. In the ***Property Mapping*** tab, add the variables for the script by clicking on ***+ Add property***. The variables added in this tab should represent the ***Field Mapping*** of the remote machine (i.e., FileName and FilePath).  
 
 1. In the ***Script*** tab, the previous variables appear as well as the ***NewPassword*** variable. This new variable will contain the new password for the account on script execution.
-
 1. Click on ***Generate base script*** and click on ***Edit*** to modify or add to it.  
 
 1. Click ***Save*** to save this configuration and close the window.  
