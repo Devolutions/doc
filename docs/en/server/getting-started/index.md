@@ -37,7 +37,7 @@ Add domain users to the Active Directory groups.
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create a VaultOwner account that will be the owner of the database. Performing upgrades with this account will ensure the proper rights are held. 
+Create a VaultDBOwner account that will be the owner of the database. Performing upgrades with this account will ensure the proper rights are held. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Create a VaultOwner account that will be the owner of the database. Performing u
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create a VaultRunner account that will be used as the identity of the website. This will allow you to harden the permissions to what is minimally required. 
+Create a VaultDBRunner account that will be used as the identity of the website. This will allow you to harden the permissions to what is minimally required. 
 		</td>
 	</tr>
 </table>
@@ -91,7 +91,7 @@ Internet Information Services (IIS) 7.0 or better (see this Microsoft topic for 
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/) ). 
+Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/) . 
 		</td>
 	</tr>
 	<tr>

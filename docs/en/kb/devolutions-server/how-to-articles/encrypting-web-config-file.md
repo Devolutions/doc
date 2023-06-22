@@ -61,12 +61,12 @@ Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, l
 The appsettings.json file is encrypted at the same time.
 {% endsnippet %}
 
-The account set on the ***DevolutionsSchedulerService*** (referred to as the VaultScheduler account in Pre-Deployment Account Survey) will require permission to read the ***NetFrameworkConfigurationKey*** container.
+The account set on the ***DevolutionsSchedulerService*** (referred to as the VaultDBScheduler account in Pre-Deployment Account Survey) will require permission to read the ***NetFrameworkConfigurationKey*** container.
 
 Run the following command from an elevated Command Prompt:
 
 ```
-c:>"Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis" -pa "NetFrameworkConfigurationKey" "<YourDomain>\<VaultSchedulerAccount>"
+c:>"Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis" -pa "NetFrameworkConfigurationKey" "<YourDomain>\<VaultDBSchedulerAccount>"
 ```
 
 This should return:

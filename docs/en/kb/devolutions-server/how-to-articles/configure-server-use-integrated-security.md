@@ -6,13 +6,13 @@ In order for integrated security to be used to connect to the database, you must
 
 ## Steps
 
-To make these isteps simpler, we will name the domain account VaultRunner , please adapt to your requirements.
+To make these steps simpler, we will name the domain account VaultDBRunner , please adapt to your requirements.
 
-1. Create the VaultRunner account in the domain;
-1. Grant access to the SQL Server instance to VaultRunner;
-1. Grant access to the database to VaultRunner;
+1. Create the VaultDBunner account in the domain;
+1. Grant access to the SQL Server instance to VaultDBRunner;
+1. Grant access to the database to VaultDBRunner;
 1. In IIS Manager, expand the ***Application pool*** section and locate the application pool used by your {{ en.DVLS }} site. By default it has the same name as the name of the web application;
-1. In the ***Advanced Settings*** , edit the ***Identity*** setting to get the VaultRunner account.  
+1. In the ***Advanced Settings*** , edit the ***Identity*** setting to get the VaultDBRunner account.  
 ![!!KB4340.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4340.png)  
 
 {% snippet icon.badgeCaution %}

@@ -15,12 +15,12 @@ Ces recommandations sont valides seulement si l'instance de {{ fr.DVLS }} est h�
 ## Serveur SQL 
 
 * Activer uniquement le mode d'authentification Windows .  
-* Créer un compte de domaine qui sera utilisé pour créer une base de données ( VaultOwner ), ainsi qu'un autre compte qui sera utilisé par le serveur Web pour se connecter à la base de données ( VaultRunner ). Ce compte n'a besoin que des permissions minimales pour réaliser ses tâches.  
+* Créer un compte de domaine qui sera utilisé pour créer une base de données ( VaultDBOwner ), ainsi qu'un autre compte qui sera utilisé par le serveur Web pour se connecter à la base de données ( VaultDBRunner ). Ce compte n'a besoin que des permissions minimales pour réaliser ses tâches.  
 * Communiquer UNIQUEMENT à l'aide d'une connexion chiffrée. Veuillez consulter la section [Chiffrement des connexions vers le serveur SQL](/fr/server/getting-started/security-checklist/encrypting-connections-sql-server/) .  
 
 ## Serveur Web 
 
-* Configurer le pool d'applications de manière à utiliser les identifiants du domaine. Ce compte sera ajouté au serveur SQL en tant que connexion. Seules les permissions nécessaires y seront attribuées ( VaultRunner ).  
+* Configurer le pool d'applications de manière à utiliser les identifiants du domaine. Ce compte sera ajouté au serveur SQL en tant que connexion. Seules les permissions nécessaires y seront attribuées ( VaultDBRunner ).  
 * Distribuer le contenu via SSL (https). Voir la section [Configurer SSL](/kb/devolutions-server/how-to-articles/configure-ssl/) .  
 
 

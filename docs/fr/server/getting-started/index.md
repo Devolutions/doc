@@ -37,7 +37,7 @@ Ajouter des utilisateurs du domaine aux groupes d'Active Directory.
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer un compte VaultOwner qui sera le propriétaire de la base de données. Les droits sont suffisants pour effectuer les mises à niveau de la base de données. 
+Créer un compte VaultDBOwner qui sera le propriétaire de la base de données. Les droits sont suffisants pour effectuer les mises à niveau de la base de données. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Créer un compte VaultOwner qui sera le propriétaire de la base de données. Le
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer un compte VaultRunner qui agira en tant qu'identité du site Web. Vous pourrez ainsi limiter les permissions selon le principe d'accès minimal. 
+Créer un compte VaultDBRunner qui agira en tant qu'identité du site Web. Vous pourrez ainsi limiter les permissions selon le principe d'accès minimal. 
 		</td>
 	</tr>
 </table>
