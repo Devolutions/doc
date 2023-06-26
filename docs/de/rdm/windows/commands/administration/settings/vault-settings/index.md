@@ -1,0 +1,3 @@
+---
+title: Paramètres du coffre
+---

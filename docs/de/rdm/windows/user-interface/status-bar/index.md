@@ -1,0 +1,3 @@
+---
+title: Barre d'état
+---
