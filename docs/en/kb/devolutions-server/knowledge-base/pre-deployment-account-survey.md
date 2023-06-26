@@ -23,7 +23,7 @@ The ***Administration Credentials*** needs full read permissions on the AD struc
 | 1 | VaultDBOwner            | AD     | Account with full privileges on the DB.   | Interactive Windows session used to run the installation/upgrade of a DVLS instance. |
 | 2 | VaultDBRunner           | AD     | Least-privileged account to run the web application. Used to connect to the DB, and to read from the file system. | IIS Application pools that are running a DVLS Instance. |
 | 3 | VaultADReader         | AD     | Least-privileged account to query the AD. | DVLS Instance Settings - Administration credentials. |
-| 4 | VaultSchedulerService | AD     | Least-privileged account to operate the scheduler service. Used to connect to the DB, and to read/write from the file system. | Windows Service Control Manager. |
+| 4 | VaultDBSchedulerService | AD     | Least-privileged account to operate the scheduler service. Used to connect to the DB and to read/write from the file system. | Windows Service Control Manager. |
 
 ## Non-Domain Based Operation or Azure SQL environment
 
@@ -40,4 +40,4 @@ For Azure SQL hosted database, domain based operation (Integrated Security optio
 | 1 | VaultDBOwner            | SQL    | Account with full privileges on the DB.                | The DVLS.Console only for installation/upgrade sessions. |
 | 2 | VaultDBRunner           | SQL    | Least-privileged account to run the web application.   | The DVLS.Console for operation of the instance. |
 | 3 | VaultADReader         | AD     | Least-privileged account to query the AD through LDAP. | DVLS Instance Settings - Administration credentials. |
-| 4 | VaultSchedulerService | SQL    | Least-privileged account to operate the scheduler service. Used to read/write from the file system. | Windows Service Control Manager. The database access will be performed by the single ConnectionString that is the subject of the informational note above. |
+| 4 | VaultDBSchedulerService | SQL    | Least-privileged account to operate the scheduler service. Used to read/write from the file system. | Windows Service Control Manager. The database access will be performed by the single ConnectionString that is the subject of the informational note above. |
