@@ -10,7 +10,7 @@ When using SQL Server Login accounts, encrypting the web.config file is of the u
 
 - The web.config file stores the database connection strings, which contain the HostName of the database server (Data Source), the name of the database (Initial Catalogue), and the credentials (User ID and Password), thus the importance of encrypting it.
 
-However, since encrypting the web.config file uses ***RsaProtectedConfigurationProvider*** fromNET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
+However, since encrypting the web.config file uses ***RsaProtectedConfigurationProvider*** from .NET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
 
 {% snippet icon.badgeCaution %}
 Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, and will also cause this prompt when enabling the ***Encypt web.config file*** option.  
@@ -50,7 +50,7 @@ When using SQL Server Domain accounts, encrypting the web.config file is of the 
 
 - The web.config file store the database connection strings, which contain the HostName of the database server (Data Source) and the name of the database (Initial Catalogue).
 
-However, since encrypting the web.config file uses ***RsaProtectedConfigurationProvider*** fromNET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
+However, since encrypting the web.config file uses ***RsaProtectedConfigurationProvider*** from .NET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
 
 {% snippet icon.badgeCaution %}
 Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, likely giving this error from Windows Services Console:  

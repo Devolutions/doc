@@ -24,7 +24,7 @@ The following table lists the minimum recommended hardware specifications for {{
 * Azure SQL database is supported with SQL login accounts only. Azure Active Directory accounts are not supported. 
 * Windows 10, Windows 11, Windows Server 2012R2 (not compatible with Devolutions Gateway), 2016, 2019 and 2022. 
 * Windows Server 2012R2 domain and forest functional level or higher. 
-* Microsoft .NET Framework 4.8 (Please refer to the [requirements for the .Net Framework](https://msdn.microsoft.com/en-us/library/8z6watww%28v=vs.110%29.aspx) for operating systems). 
+* Microsoft .NET Framework 4.8 (Please refer to the [requirements for the .NET Framework](https://msdn.microsoft.com/en-us/library/8z6watww%28v=vs.110%29.aspx) for operating systems). 
 * Internet Information Services (IIS) 7.0 or better. 
 * {{ en.DVLSCONSOLE }} must be installed on the server to manage the {{ en.DVLS }} instance(s). 
 
