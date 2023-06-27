@@ -1,5 +1,13 @@
 ---
-title: Devolutions Server
-order: 20
-description: You can consult topics for the following categories about Devolutions Server':' How-To Articles, Troubleshooting Articles and Knowledge Base
+eleventyComputed:
+  title: Devolutions Server
+  order: 20
+  description: Sie finden hier Themen zu den folgenden {{ de.DVLS }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---
+![!!Devolutions Server logo]({{ locale[lang].projects.server.logo }})
+
+Sie finden hier Themen zu den folgenden {{ de.DVLS }}-Kategorien:  
+
+- How-To 
+- Troubleshooting 
+- Knowledge Base 

@@ -1,4 +1,4 @@
 ---
-title: General Knowledge Base
+title: Allgemeine Knowledge Base
 order: 60
 ---

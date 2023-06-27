@@ -1,6 +1,14 @@
 ---
 eleventyComputed:
-  title: Devolutions {{ en.HUBP }}
+  title: Devolutions {{ de.HUBP }}
   order: 35
-  description: You can consult topics for the following categories about {{ en.DHUBP }}':' How-To Articles, Troubleshooting Articles, and Knowledge Base.
+  description: Sie finden hier Themen zu den folgenden {{ de.DHUBP }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---
+
+![!!{{ de.HUBP }} Logo](https://webdevolutions.blob.core.windows.net/images/projects/devolutions-hub-personal/devolutions-hub-personal-color-shadow.svg)  
+
+Sie finden hier Themen zu den folgenden {{ de.DHUBP }}-Kategorien:  
+
+- How-To 
+- Troubleshooting 
+- Knowledge Base 
