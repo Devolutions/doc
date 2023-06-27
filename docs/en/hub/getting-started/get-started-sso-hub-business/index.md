@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Get Started with SSO in {{ en.HUBB }}
+  title: Get started with SSO in {{ en.HUBB }}
   order: 20
 ---
 {% snippet icon.badgeInfo %}

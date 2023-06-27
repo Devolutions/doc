@@ -1,5 +1,5 @@
 ---
-title: Configure SSO Authentication with Microsoft Azure
+title: Configure SSO authentication with Microsoft Azure
 description: Here are the steps to configure Azure with {{ en.DHUBB }} for SSO authentication and user provisioning.
 keywords:
 - Office 365

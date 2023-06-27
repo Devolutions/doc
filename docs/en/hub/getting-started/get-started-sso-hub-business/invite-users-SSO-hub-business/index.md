@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Invite Users for SSO in {{ en.HUBB }}
+  title: Invite users for SSO in {{ en.HUBB }}
 description: Once SSO is configured and enabled, invite your users on your Hub following these steps.
 keywords:
 - SSO

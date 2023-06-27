@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: End User Invitation Experience for SSO in {{ en.HUBB }}
+  title: End user invitation experience for SSO in {{ en.HUBB }}
   description: Users that are invited to join {{ en.HUBB }} receive an email from their administrator.
   keywords:
   - Office 365
