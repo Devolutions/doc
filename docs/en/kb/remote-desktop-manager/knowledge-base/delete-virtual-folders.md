@@ -1,10 +1,12 @@
 ---
+
 eleventyComputed:
   title: Delete virtual folders in {{ en.RDM }}
   description: This topic describes how to delete virtual folders in Remote Desktop Manager.
   keywords:
   - delete virtual folders
   - virtual folders
+
 ---
 
 ## Manual method 
@@ -162,8 +164,8 @@ foreach ($vault in $vaults)
 $afterCreatingGroups = Get-Date
 Write-Host "Time taken to convert virtual folders: $(($afterCreatingGroups).Subtract($beforeAllGroups).Seconds) second(s)"
 ```
-7. Click ***OK*** to apply the script.  
-8. Click ***OK*** the save the entry settings and close the window.  
-9. Click on ***Open Session*** to run the entry.  
+9. Click ***OK*** to apply the script.  
+1. Click ***OK*** the save the entry settings and close the window.  
+1. Click on ***Open Session*** to run the entry.  
 ![Open Session](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6018.png)  
 The script will now delete all virtual folders in the data source vaults.  
