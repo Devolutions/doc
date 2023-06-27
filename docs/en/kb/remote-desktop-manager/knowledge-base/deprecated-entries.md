@@ -25,15 +25,16 @@ FTP (Rebex)<br>
 Google Cloud<br>
 GoToAssist<br>
 HP Remote Graphics Receiver<br>
-Intel AMT<br>
+Intel AMT (KVM)<br>
 Microsoft Azure Table Storage<br>
 Microsoft VirtualPC<br>
 PC Anywhere<br>
-Putty<br>
+PuTTY<br>
 Remote Assistance<br>
 SCP (Rebex)<br>
 SFTP (Rebex)<br>
 SSH Shell (Rebex)<br>
+SMB (Server Message Block)<br>
 SSH Tunnel (Rebex)<br>
 Telnet (Rebex)<br>
 Windows Virtual PC<br>

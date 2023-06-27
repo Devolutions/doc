@@ -11,6 +11,7 @@ Here is how to display them in ***File – Data Sources – Add a New Data Sourc
 Here is the list of deprecated data sources:
 * Amazon S3
 * Devolutions Online Database (DODB)
+* Devolutions Online Drive (DOD)
 * FTP
 * [MariaDB](https://blog.devolutions.net/2022/02/news-deprecation-of-support-announcement-for-mysql-and-mariadb-data-sources-in-remote-desktop-manager/)
 * [MySQL](https://blog.devolutions.net/2022/02/news-deprecation-of-support-announcement-for-mysql-and-mariadb-data-sources-in-remote-desktop-manager/)
