@@ -1,3 +1,3 @@
 ---
-title: Scenarios
+title: Szenarien
 ---

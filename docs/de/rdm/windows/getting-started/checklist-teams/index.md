@@ -1,3 +1,3 @@
 ---
-title: Liste de vérification - Équipes
+title: Checkliste für Teams
 ---

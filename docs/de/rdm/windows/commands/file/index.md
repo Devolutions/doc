@@ -1,3 +1,3 @@
 ---
-title: Fichier
+title: Datei
 ---

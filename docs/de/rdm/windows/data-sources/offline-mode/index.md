@@ -1,3 +1,3 @@
 ---
-title: Mettre hors-ligne
+title: Offline Modus
 ---

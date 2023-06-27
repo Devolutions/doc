@@ -1,3 +1,3 @@
 ---
-title: Application client
+title: Anwendung Client
 ---

@@ -1,3 +1,3 @@
 ---
-title: Volet supérieur
+title: Menüleiste
 ---

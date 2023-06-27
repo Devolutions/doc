@@ -1,3 +1,3 @@
 ---
-title: Rechercher
+title: Suche
 ---

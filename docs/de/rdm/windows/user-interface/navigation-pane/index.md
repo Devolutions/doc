@@ -1,3 +1,3 @@
 ---
-title: Volet de navigation
+title: Navigationsbereich
 ---

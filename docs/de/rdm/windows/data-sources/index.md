@@ -1,4 +1,4 @@
 ---
-title: Sources de données
+title: Datenquellen
 order: 40
 ---

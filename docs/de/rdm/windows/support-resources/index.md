@@ -1,4 +1,4 @@
 ---
-title: Support/Resources
+title: Unterstützung / Ressourcen
 order: 90
 ---

@@ -1,3 +1,3 @@
 ---
-title: Gestion
+title: Verwaltung
 ---

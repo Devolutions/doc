@@ -1,4 +1,4 @@
 ---
-title: Commandes
+title: Befehle
 order: 50
 ---

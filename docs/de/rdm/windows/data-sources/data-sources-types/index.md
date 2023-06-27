@@ -1,4 +1,4 @@
 ---
-title: Type de source de données
+title: Datenquellentypen
 order: 20
 ---

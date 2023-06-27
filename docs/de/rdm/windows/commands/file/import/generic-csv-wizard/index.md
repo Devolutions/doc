@@ -1,3 +1,3 @@
 ---
-title: Assistant d'importation de CSV générique
+title: Allgemeiner CSV Import Assistent
 ---

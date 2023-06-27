@@ -1,3 +1,3 @@
 ---
-title: Licences
+title: Lizenzen
 ---

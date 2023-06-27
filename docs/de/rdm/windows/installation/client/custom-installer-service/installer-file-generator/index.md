@@ -1,3 +1,3 @@
 ---
-title: Générateur de fichier de configuration
+title: Konfigurationsdatei erstellen
 ---

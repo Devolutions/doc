@@ -1,3 +1,3 @@
 ---
-title: Général
+title: Allgemein
 ---

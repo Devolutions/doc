@@ -1,3 +1,3 @@
 ---
-title: Configuration du système
+title: Systemvoraussetzungen
 ---

@@ -1,4 +1,4 @@
 ---
-title: Sécuriser Devolutions Web Login
+title: Devolutions Web Login absichern
 order: 70
 ---

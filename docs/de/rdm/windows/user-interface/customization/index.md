@@ -1,3 +1,3 @@
 ---
-title: Personalisation de l'interface utilisateur
+title: Anpassen der Benutzeroberfläche
 ---

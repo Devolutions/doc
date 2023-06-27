@@ -1,4 +1,4 @@
 ---
-title: Authentification multifacteur
+title: Multi-Faktor Authentifizierung
 order: 30
 ---

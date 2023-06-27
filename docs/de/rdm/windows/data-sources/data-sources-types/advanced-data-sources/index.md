@@ -1,3 +1,3 @@
 ---
-title: Source de données avancées
+title: Erweiterte Datenquelle
 ---

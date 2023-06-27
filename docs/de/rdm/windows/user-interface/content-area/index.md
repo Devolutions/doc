@@ -1,3 +1,3 @@
 ---
-title: Zone de contenu
+title: Kontextbereich
 ---

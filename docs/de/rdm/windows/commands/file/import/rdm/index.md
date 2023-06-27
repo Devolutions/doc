@@ -1,3 +1,3 @@
 ---
-title: Import (.rdm)
+title: Importieren (.rdm)
 ---

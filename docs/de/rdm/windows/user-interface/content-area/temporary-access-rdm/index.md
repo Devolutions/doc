@@ -1,3 +1,3 @@
 ---
-title: Accès temporaire dans Remote Desktop Manager
+title: Temporärer Zugriff in Remote Desktop Manager
 ---

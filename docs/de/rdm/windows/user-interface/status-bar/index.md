@@ -1,3 +1,3 @@
 ---
-title: Barre d'état
+title: Statusleiste
 ---

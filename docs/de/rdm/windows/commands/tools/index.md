@@ -1,3 +1,3 @@
 ---
-title: Outils
+title: Werkzeuge
 ---

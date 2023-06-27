@@ -1,3 +1,3 @@
 ---
-title: Liste de vérification - Utilisation individuelle
+title: Checkliste für Einzelpersonen
 ---

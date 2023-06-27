@@ -1,3 +1,3 @@
 ---
-title: Service d'installateur personnalisé
+title: Benutzerdefinierter Installationsdienst
 ---

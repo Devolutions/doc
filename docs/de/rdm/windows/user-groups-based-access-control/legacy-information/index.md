@@ -1,3 +1,3 @@
 ---
-title: Information Legacy (ancien)
+title: Alte Information
 ---

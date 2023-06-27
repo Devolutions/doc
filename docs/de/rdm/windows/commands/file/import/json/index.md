@@ -1,3 +1,3 @@
 ---
-title: Import (.json)
+title: Importieren (.json)
 ---

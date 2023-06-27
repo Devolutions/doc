@@ -1,4 +1,4 @@
 ---
-title: Interface utilisateur
+title: Benutzeroberfläche
 order: 30
 ---

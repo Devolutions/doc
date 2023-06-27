@@ -1,4 +1,4 @@
 ---
-title: Introduction
+title: Einleitung
 order: 10
 ---

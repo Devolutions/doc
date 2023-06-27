@@ -1,4 +1,4 @@
 ---
-title: Scripts PowerShell
+title: PowerShell Scripting
 order: 80
 ---

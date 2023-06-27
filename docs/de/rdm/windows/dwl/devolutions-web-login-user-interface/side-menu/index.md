@@ -1,3 +1,3 @@
 ---
-title: Menu latéral
+title: Menü
 ---

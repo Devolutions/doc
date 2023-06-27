@@ -1,3 +1,3 @@
 ---
-title: Plus d'outils
+title: Weitere Werkzeuge
 ---

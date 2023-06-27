@@ -1,3 +1,3 @@
 ---
-title: Paramètres de mon compte
+title: Meine Kontoeinstellungen
 ---

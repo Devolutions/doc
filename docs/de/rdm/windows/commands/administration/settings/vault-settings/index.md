@@ -1,3 +1,3 @@
 ---
-title: Paramètres du coffre
+title: Tresor Einstellungen
 ---

@@ -1,4 +1,4 @@
 ---
-title: Édition Team
+title: Team Edition
 order: 10
 ---

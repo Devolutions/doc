@@ -1,3 +1,3 @@
 ---
-title: Paramètres
+title: Einstellungen
 ---
