@@ -19,8 +19,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 
 1. Go to ***Administration – Authentication – Single Sign-On (SSO)***, then click on ***Microsoft Single Sign-On (SSO)***. You will be directed to the configuration page.  
 ![Administration – Authentication – Single Sign-On (SSO) – Microsoft Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2218.png)  
-
-2. ***Name*** your SSO configuration. This name will only appear in your {{ en.HUB }} SSO settings menu. The default name is "Microsoft".  
+1. ***Name*** your SSO configuration. This name will only appear in your {{ en.HUB }} SSO settings menu. The default name is "Microsoft".  
 ![Configuration Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2219.png)  
 
 {% snippet icon.badgeCaution %} 
