@@ -10,6 +10,7 @@ The ***{{ en.DGW }} Tunnel*** can fulfill similar needs to SSH port forwarding/S
 {{ en.DGW }} needs to be set up in the {{ en.RDM }} data source and then configured through [inheritance](/kb/remote-desktop-manager/knowledge-base/inheritance/) or on the connection itself. The option is under ***Properties*** – ***Connection*** – ***VPN/Tunnel/Gateway*** – ***VPN/Tunnel/Gateway*** – ***General***.
 {% endsnippet %}  
 
+![{{ en.DGW }} Tunnel](https://webdevolutions.azureedge.net/docs/en/kb/KB0116.png)  
 ## Listeners
 {% snippet icon.badgeWarning %}
 If the ***Listener*** is set to 0.0.0.0, it will accept connections from any source within the network. Due to the difficulty in tracking accountability, it is recommended ***NOT*** to do this for multiple security reasons.
