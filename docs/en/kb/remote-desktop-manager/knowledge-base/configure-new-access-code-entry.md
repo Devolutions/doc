@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: Configure a access code entry in {{ en.RDM }}
-  description: Learn how to configure a new access code entry in {{ en.RDM }}
+  title: Configure an access code entry in {{ en.RDM }}
+  description: Learn how to configure an access code entry in {{ en.RDM }}
   keywords:
   - entry
   - new access code entry
