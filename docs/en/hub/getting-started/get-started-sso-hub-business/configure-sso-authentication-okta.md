@@ -34,7 +34,7 @@ DNS TXT Records can take a while to propagate. You can verify that your configur
 
 4. If everything matches up, click ***Verify domain***.
 1. ***Name*** your SSO configuration. This name will only appear in your {{ en.HUB }} SSO settings menu. The default name is "Okta".  
-![Configuration name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2237.png)
+![Configuration name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2248.png)
 
 {% snippet icon.badgeCaution %} 
 Do not close this setup page, as the following steps will show you where to find the information to enter in its fields. 
@@ -63,25 +63,25 @@ The app name does not need to match the one in {{ en.HUB }}. We recommend includ
 **In {{ en.DHUBB }}**  
 
 13. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Callback URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-![Copy the Callback URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2243.png)  
+![Copy the Callback URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2246.png)  
 
 ***In Okta***  
 
 14. Back in Okta, paste the ***Callback URL*** in the ***Sign-in redirect URIs*** field.  
-![Sign-in redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2244.png)  
+![Sign-in redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2243.png)  
 
 **In {{ en.DHUBB }}**  
 
 15. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Logout redirect URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-![Copy the Logout redirect URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2245.png)  
+![Copy the Logout redirect URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2247.png)  
 
 ***In Okta***  
 
 16. Back in Okta, paste the ***Logout redirect URL*** in the ***Sign-out redirect URIs*** field.  
-![Sign-out redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2246.png)  
+![Sign-out redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2244.png)  
 
 1. Under ***Assignments***, select the ***Controlled access*** option that best suits your needs. This choice is left to your discretion.  
-![Assignments](https://webdevolutions.azureedge.net/docs/en/hub/Hub2247.png)  
+![Assignments](https://webdevolutions.azureedge.net/docs/en/hub/Hub2245.png)  
 
 {% snippet icon.badgeCaution %} 
 If you choose to ***Allow everyone in your organization to access***, do **not** check the ***Enable immediate access with Federation Broker Mode*** option, as doing so would prevent you from enabling SCIM provisioning in the future.  
