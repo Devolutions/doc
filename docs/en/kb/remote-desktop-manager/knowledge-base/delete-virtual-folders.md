@@ -1,12 +1,7 @@
 ---
-
 eleventyComputed:
   title: Delete virtual folders in {{ en.RDM }}
   description: This topic describes how to delete virtual folders in Remote Desktop Manager.
-  keywords:
-  - delete virtual folders
-  - virtual folders
-
 ---
 
 ## Manual method 
@@ -17,6 +12,10 @@ Deleting virtual folders can be done by manually editing each virtual folder, sa
 
 {% snippet icon.badgeWarning %}
 This method deletes all virtual folders in the data source vaults.
+{% endsnippet %}
+
+{% snippet icon.badgeWarning %}
+Delete duplicate folders before running the PowerShell script from the new entry.
 {% endsnippet %}
 
 1. Launch {{ en.RDM }} as an administrator by right-clicking on the application and choosing ***Run as administrator***.  
