@@ -51,14 +51,14 @@ Do not close this setup page, as the following steps will show you where to find
 ![Application type – Web Application](https://webdevolutions.azureedge.net/docs/en/hub/Hub2240.png)  
 1. Click ***Next***. The ***New Web App Integration*** settings page will appear.
 1. Under ***General Settings***, enter an ***App integration name***.
-![App integration name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2241.png)  
+![App integration name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2249.png)  
 
 {% snippet icon.badgeNotice %} 
 The app name does not need to match the one in {{ en.HUB }}. We recommend including either "Devolutions" or "{{ en.HUB }}" in the name. 
 {% endsnippet %}
 
 12. In ***Grant type***, check ***Refresh Token*** and ***Implicit (hybrid)***.
-![Grant type](https://webdevolutions.azureedge.net/docs/en/hub/Hub2242.png)  
+![Grant type](https://webdevolutions.azureedge.net/docs/en/hub/Hub2250.png)  
 
 **In {{ en.DHUBB }}**  
 
@@ -68,7 +68,7 @@ The app name does not need to match the one in {{ en.HUB }}. We recommend includ
 ***In Okta***  
 
 14. Back in Okta, paste the ***Callback URL*** in the ***Sign-in redirect URIs*** field.  
-![Sign-in redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2243.png)  
+![Sign-in redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2251.png)  
 
 **In {{ en.DHUBB }}**  
 
@@ -78,10 +78,10 @@ The app name does not need to match the one in {{ en.HUB }}. We recommend includ
 ***In Okta***  
 
 16. Back in Okta, paste the ***Logout redirect URL*** in the ***Sign-out redirect URIs*** field.  
-![Sign-out redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2244.png)  
+![Sign-out redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2252.png)  
 
 1. Under ***Assignments***, select the ***Controlled access*** option that best suits your needs. This choice is left to your discretion.  
-![Assignments](https://webdevolutions.azureedge.net/docs/en/hub/Hub2245.png)  
+![Assignments](https://webdevolutions.azureedge.net/docs/en/hub/Hub2253.png)  
 
 {% snippet icon.badgeCaution %} 
 If you choose to ***Allow everyone in your organization to access***, do **not** check the ***Enable immediate access with Federation Broker Mode*** option, as doing so would prevent you from enabling SCIM provisioning in the future.  
@@ -108,4 +108,3 @@ If you choose to ***Limit access to selected groups*** or ***Skip group assignme
 22. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client secret*** from the last step in the ***Client secret Key*** field.  
 ![Client secret Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub.png)  
 1. In the 
-
