@@ -29,7 +29,7 @@ For example, if your employees' emails are in the format "bob@windjammer.co", yo
 3. Using the ***Hostname*** and ***TXT value***, create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider). This allows us to verify the ownership of the domain supplied.  
 ![Hostname and TXT value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2235.png)  
 
-DNS TXT Records can take a while to propagate. You can verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox. The first part of the Domain Name must match the ***Hostname*** in {{ en.HUB }}. The Record must match the ***TXT value*** in {{ en.HUB }}.  
+DNS TXT Records can take a while to propagate. You can verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's SuperTool TXT Lookup. The first part of the Domain Name must match the ***Hostname*** in {{ en.HUB }} and the Record must match the ***TXT value*** in {{ en.HUB }} as well.  
 ![DNS TXT Record in MXToolBox](https://webdevolutions.azureedge.net/docs/en/hub/Hub2236.png)  
 
 4. If everything matches up, click ***Verify domain***.
@@ -81,7 +81,6 @@ The app name does not need to match the one in {{ en.HUB }}. We recommend includ
 ![Sign-out redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2252.png)  
 
 1. Under ***Assignments***, select the ***Controlled access*** option that best suits your needs. This choice is left to your discretion.  
-![Assignments](https://webdevolutions.azureedge.net/docs/en/hub/Hub2253.png)  
 
 {% snippet icon.badgeCaution %} 
 If you choose to ***Allow everyone in your organization to access***, do **not** check the ***Enable immediate access with Federation Broker Mode*** option, as doing so would prevent you from enabling SCIM provisioning in the future.  
@@ -89,22 +88,59 @@ If you choose to ***Allow everyone in your organization to access***, do **not**
 If you choose to ***Limit access to selected groups*** or ***Skip group assignment for now***, you must manually assign to this app the users you wish to authorize to connect to your {{ en.HUBB}} via Okta.
 {% endsnippet %}
 
+![Assignments](https://webdevolutions.azureedge.net/docs/en/hub/Hub2253.png)  
+
 18. Click ***Save***. You will be redirected to your new SSO application.
 1. Copy the ***Client ID*** by clicking on the ***Copy to clipboard*** icon next to it.  
-![Copy the Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub.png)  
+![Copy the Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2254.png)  
 
 **In {{ en.DHUBB }}**  
 
 20. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client ID*** from the last step in the field of the same name.  
-![Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub.png)  
+![Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2255.png)  
 
 ***In Okta***  
 
 21. Back in Okta, copy the ***Client secret*** by clicking on the ***Copy to clipboard*** icon next to it.  
-![Copy the Client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub.png)  
+![Copy the Client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2256.png)  
+
+{% snippet icon.badgeCaution %} 
+Do not close this setup page, as the following steps will require you to make further changes in it. 
+{% endsnippet %}
 
 **In {{ en.DHUBB }}**  
 
 22. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client secret*** from the last step in the ***Client secret Key*** field.  
-![Client secret Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub.png)  
-1. In the 
+![Client secret Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub2257.png)  
+1. In ***Discovery URL***, enter the URL you use to access Okta, without the "-admin" part.  
+
+{% snippet icon.badgeCaution %} 
+Do not test the connection just yet, as a few additional steps are required in Okta.
+{% endsnippet %}  
+
+![Discovery URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2259.png)  
+
+***In Okta***  
+
+24. Click ***Edit*** in the ***General Settings*** section.  
+![Edit the General Settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2260.png)  
+1. Set the ***Refresh token behavior*** to ***Rotate token after every use***.  
+![Rotate token after every use](https://webdevolutions.azureedge.net/docs/en/hub/Hub2261.png)  
+1. Click ***Save***.  
+1. In the ***Assignment*** tab at the top, make sure each user you want to use to test the connection is assigned to the application. For more details, see Okta's own documentation on user management and application assignment.
+![Rotate token after every use](https://webdevolutions.azureedge.net/docs/en/hub/Hub2262.png)  
+
+**In {{ en.DHUBB }}**  
+
+28. Test the connection in {{ en.HUB }}.
+![Rotate token after every use](https://webdevolutions.azureedge.net/docs/en/hub/Hub2263.png)  
+A new window should open to connect you to {{ en.HUB }} through Okta. You will get a success message when connected.  
+1. Click ***Save*** in the ***Summary*** of your Okta SSO configuration.
+![Save the configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2263.png)  
+
+{% snippet icon.badgeCaution %} 
+The ***Domain Verification*** Status is ***Pending***. You will not be able to connect through Okta until the domain ownership is ***Verified***.
+{% endsnippet %}  
+
+
+
