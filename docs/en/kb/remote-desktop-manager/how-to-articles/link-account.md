@@ -28,7 +28,7 @@ Only one license is needed for each ***Linked Account*** pair.
 
 The accounts are now linked. It is possible to check which accounts are linked by going back to the ***User and Security Management*** window, which is under the ***Users*** button, and scrolling until the ***Linked Account*** column.
 {% snippet icon.badgeInfo %}
-There is no primary or secondary account functionality with this feature; meaning the order in which they are linked does not matter and each can be linked to a different account without issue.
+There is no primary or secondary account functionality with this feature; meaning the order in which they are linked does not matter and each can be unlinked to then be linked to a different account without issue.
 {% endsnippet %}  
 {% snippet icon.badgeInfo %}
 To switch between both linked accounts, it is recommended to have a corresponding data source using each credential.
