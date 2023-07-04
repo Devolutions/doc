@@ -127,20 +127,23 @@ Do not test the connection just yet, as a few additional steps are required in O
 1. Set the ***Refresh token behavior*** to ***Rotate token after every use***.  
 ![Rotate token after every use](https://webdevolutions.azureedge.net/docs/en/hub/Hub2261.png)  
 1. Click ***Save***.  
-1. In the ***Assignment*** tab at the top, make sure each user you want to use to test the connection is assigned to the application. For more details, see Okta's own documentation on user management and application assignment.
-![Rotate token after every use](https://webdevolutions.azureedge.net/docs/en/hub/Hub2262.png)  
+1. In the ***Assignment*** tab at the top, make sure each user you want to use to test the configuration is assigned to the application. For more details, see Okta's own documentation on user management and application assignment.
+![Assignment](https://webdevolutions.azureedge.net/docs/en/hub/Hub2262.png)  
 
 **In {{ en.DHUBB }}**  
 
-28. Test the connection in {{ en.HUB }}.
-![Rotate token after every use](https://webdevolutions.azureedge.net/docs/en/hub/Hub2263.png)  
-A new window should open to connect you to {{ en.HUB }} through Okta. You will get a success message when connected.  
+28. Test the configuration in {{ en.HUB }}. A new window should open to connect you to {{ en.HUB }} through Okta. You will get a success message when connected.  
 1. Click ***Save*** in the ***Summary*** of your Okta SSO configuration.
-![Save the configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2263.png)  
+![Save the configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2264.png)  
 
-{% snippet icon.badgeCaution %} 
-The ***Domain Verification*** Status is ***Pending***. You will not be able to connect through Okta until the domain ownership is ***Verified***.
-{% endsnippet %}  
+The hourglass icon means that the ***Domain Verification Status*** is ***Pending***. You will not be able to connect through Okta until the domain ownership is ***Verified***.  
+![Pending domain verification](https://webdevolutions.azureedge.net/docs/en/hub/Hub2265.png)  
 
+Domain verification might take up to 24 hours depending on your domain host. You can still save your SSO configuration and the domain verification will continue in the background. SSO will be activated upon successful domain verification.  
 
+{% snippet icon.badgeHelp %}
+If it takes longer than 24 hours, or if you need any help, contact our support team at [service@devolutions.net](mailto:service@devolutions.net).  
+{% endsnippet %}
 
+When the domain verification is done, the SSO configuration will get a green checkmark icon next to it. This means that your SSO configuration through Okta is now enabled on your {{ en.HUB }}.  
+![Active SSO configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2266.png)
