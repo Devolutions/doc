@@ -11,15 +11,17 @@
       "isTopic": false,
       "icon": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
       "logo": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg",
-      "url": "/fr/rdm/windows/",
-      "formattedName": "<b>Remote Desktop</b> Manager"
+      "url": "/fr/rdm/windows/overview/what-is-rdm/",
+      "formattedName": "<b>Remote Desktop</b> Manager",
+      "os": "windows"
     },
     "rdm/mac": {
       "isTopic": false,
       "icon": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
       "logo": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg",
-      "url": "/fr/rdm/mac/",
-      "formattedName": "<b>Remote Desktop</b> Manager"
+      "url": "/fr/rdm/mac/overview/what-is-rdm/",
+      "formattedName": "<b>Remote Desktop</b> Manager",
+      "os": "apple"
     },
     "kb": {
       "isTopic": true,

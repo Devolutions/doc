@@ -1,10 +1,29 @@
 ---
 title: Download Microsoft Edge Chromium
+description: When launching an entry in Remote Desktop Manager with Microsoft Edge Chromium it might require you to download the WebView2 Runtime from Microsoft.
+keywords: 
+-  Microsoft Edge Chromium
+-  WebView2 Runtime 
 ---
-When launching an entry in {{ en.RDM }} with Microsoft Edge Chromium it might require you to download the [WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section) from Microsoft.  
 
-The compatible download link for RDM is the one under the Evergreen Bootstrapper.  
-![!!KB4725.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4725.png)  
 {% snippet icon.badgeCaution %}
 {{ en.RDM }} will need to be restarted for this download to apply.
 {% endsnippet %}
+
+Many features in {{ en.RDM }} use Microsoft's [WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Its installation is highly recommended.
+
+The compatible download link for {{ en.RDM }} is the one under the Evergreen Bootstrapper.  
+![Evergreen Bootstrapper](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6021.png)  
+
+Here is a list of features that require ***WebView2 Runtime***:
+
+* Onboarding  
+* Dashboards  
+* Web browser (ex: Edge embedded)  
+* SAML authentication in CyberArk  
+* Reports  
+* Handbook / Documentation  
+* Compare prompt (ex: documentation)  
+* Help prompt  
+* Change history in available update prompt  
+

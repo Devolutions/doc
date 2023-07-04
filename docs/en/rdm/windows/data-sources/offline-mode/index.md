@@ -1,5 +1,5 @@
 ---
-title: Offline Mode
+title: Offline mode
 ---
 {% youtube 'W7jK8g4WbNQ' %}  
 
@@ -16,9 +16,9 @@ The offline cache is first encrypted using our own private key mixed with some i
 {% endsnippet %}
  
 
-For added security, offline files are set to expire after a delay. The default expiry is set to 7 days but can be modified via the [System Settings](/rdm/windows/commands/administration/settings/system-settings/application/offline/) .  
+For added security, offline files are set to expire after a delay. The default expiry is set to 7 days but can be modified via the [System Settings](/rdm/windows/commands/administration/settings/system-settings/application/offline/).  
 
-{{ en.RDM }} will prompt for offline mode when the application is unable to reach the data source but the offline mode can be toggled manually with ***File – Go Offline*** .  
+{{ en.RDM }} will prompt for offline mode when the application is unable to reach the data source but the offline mode can be toggled manually with ***File – Go Offline***.  
 
 Several features are not available in offline mode, such as:  
 
@@ -29,15 +29,15 @@ Several features are not available in offline mode, such as:
 
 The offline mode availability relies on several settings:  
 
-* The data source offline cache must be enabled in ***File – Data Sources – Advanced – Caching Mode – Intelligent*** . This step needs to be done before you export your data source to other computers) 
-* The user's account must be enabled in ***Administration – Users – Edit – Settings – Offline mode*** . 
-* The user groups policies (only for the {{ en.DVLS }} data source) in ***Administration – User groups – Edit – Settings – Offline mode*** . 
-* The data source ***System Settings*** in ***Administration – System Settings – Offline – Offline mode*** and ***Expiration*** . 
-* For each {{ en.VLT }} , ***Administration – Vault Settings – Security Settings – Allow offline*** . 
+* The data source offline cache must be enabled in ***File – Data Sources – Advanced – Caching Mode – Intelligent***. This step needs to be done before you export your data source to other computers) 
+* The user's account must be enabled in ***Administration – Users – Edit – Settings – Offline mode***. 
+* The user groups policies (only for the {{ en.DVLS }} data source) in ***Administration – User groups – Edit – Settings – Offline mode***. 
+* The data source ***System Settings*** in ***Administration – System Settings – Cache/Offline – Offline mode*** and ***Expiration***. 
+* For each {{ en.VLT }}, ***Administration – Vault Settings – Security Settings – Allow offline***. 
 
 The lowest setting (in terms of security) prevails over the others, which may prevent you from using the offline mode. If the ***Go Offline*** button is not available, please consult your administrator.  
 
-The   [Data Source Information](/rdm/windows/commands/file/my-data-source-information/) displays the size of the offline cache file along with the effective modes (disabled, read-only, or read/write).  
+The [Data Source Information](/rdm/windows/commands/file/my-data-source-information/) displays the size of the offline cache file along with the effective modes (disabled, read-only, or read/write).  
 ![File – My Data Source Information – Offline mode](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11278.png) 
 
 ### Caching mode 
@@ -278,8 +278,5 @@ Read/write
 </table>
 
 {% snippet icon.badgeNotice %} 
-To find out what offline mode is in effect when you are logged in, see [My Data Source Information](/rdm/windows/commands/file/my-data-source-information/) . 
+To find out what offline mode is in effect when you are logged in, see [My Data Source Information](/rdm/windows/commands/file/my-data-source-information/). 
 {% endsnippet %}
- 
-
-

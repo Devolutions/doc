@@ -123,7 +123,7 @@ Enter the number of time to try to wake the remote device.
 ### After Connect – Macro
 ![!!KB4620.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4620.png)  
 {% snippet icon.shieldWarning %}
-This feature simply uses a basic mechanism of sending keystrokes provided by theNET framework, emulating someone using the keyboard. It sends the keystrokes to the operating system itself, and they are handled by WHATEVER application has the focus at that time. If the focus is switched to another window, the credentials will most likely be revealed by being typed in a text area.  
+This feature simply uses a basic mechanism of sending keystrokes provided by the .NET Framework, emulating someone using the keyboard. It sends the keystrokes to the operating system itself, and they are handled by WHATEVER application has the focus at that time. If the focus is switched to another window, the credentials will most likely be revealed by being typed in a text area.  
 
 Be advised that using this feature in an environment where passwords must be hidden from the user is highly discouraged.
 {% endsnippet %}  

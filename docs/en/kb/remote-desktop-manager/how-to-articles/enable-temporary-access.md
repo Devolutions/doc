@@ -1,7 +1,7 @@
 ---
 title: Enable Temporary Access
 ---
-With the ***Temporary Access*** feature, you can provide a designated user with temporary access to an entry during a designated time frame. This is much more secure than changing the user’s access rightsà and then changing them back once the task is done.  
+With the ***Temporary Access*** feature, you can provide a designated user with temporary access to an entry during a designated time frame. This is much more secure than changing the user’s access rights and then changing them back once the task is done.  
 
 {% snippet icon.badgeCaution %}
 These settings are only available for the {{ en.DVLS }}, Microsoft SQL Server, and Microsoft Azure SQL advanced data sources.

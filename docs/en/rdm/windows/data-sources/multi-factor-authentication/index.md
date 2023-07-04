@@ -15,7 +15,7 @@ Go to the section that corresponds to you data source type:
 * [Azure SQL or SQL Server](#configure-multi-factor-authentication-on-a-microsoft-azure-sql-or-sql-server-sata-source) 
 * [SQLite](#configure-multi-factor-authentication-on-a-sqlite-data-source) 
 
-### Configure Multi-Factor Authentication on a Microsoft Azure SQL or SQL Server Sata Source 
+### Configure Multi-Factor Authentication on a Microsoft Azure SQL or SQL Server Data Source 
 
 1. In {{ en.RDM }} , go to the data source for which you want to configure the MFA. 
 1. Go to ***File – My Account Settings*** . 

@@ -10,7 +10,6 @@
   "devDependencies": {
     "@11ty/eleventy": "2.0.0",
     "@11ty/eleventy-fetch": "4.0.0",
-    "@fontsource/space-grotesk": "4.5.13",
     "algoliasearch": "^4.14.3",
     "dotenv": "^16.0.3",
     "highlight.js": "11.7.0",

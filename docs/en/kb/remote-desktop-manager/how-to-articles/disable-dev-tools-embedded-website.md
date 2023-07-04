@@ -7,7 +7,11 @@ eleventyComputed:
   - embedded website sessions
 ---
 
-{{ en.RDM }} has an internal browser where it is possible to open a developer tool on a page. To prevent a user from editing the code and seeing the autofill password, follow one of these two options.  
+{{ en.RDM }} has an internal browser where it is possible to open a developer tool on a page.
+
+{% snippet icon.shieldCaution %}
+To prevent a user from editing the code and seeing the autofill password, follow one of these two options.  
+{% endsnippet %}  
 
 ## System Settings 
 

@@ -10,8 +10,8 @@ To enable the attachment pane, navigate to ***View – Layout*** in the ribbon, 
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
 {% endsnippet %}
  
-{% snippet icon.badgeWarning %} 
-The files in attachments are not available in offline mode. 
+{% snippet icon.badgeInfo %} 
+The files in attachments are available in offline mode. 
 {% endsnippet %}
  
 ![Attachments](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2027.png) 

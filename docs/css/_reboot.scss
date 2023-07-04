@@ -8,10 +8,11 @@ html {
 
 html,
 body {
-  color: #494949;
-  font-family: $font-family-sans-serif;
+  color: var(--background-text);
+  font-family: $font-family-default;
   font-size: var(--font-size);
-  font-weight: normal;
+  font-weight: $font-weight-default;
+  letter-spacing: 0.02em;
   line-height: 1.4;
   margin: 0;
 }
@@ -53,13 +54,22 @@ h6,
 .h6 {
   color: #000000;
   font-family: $font-family-title;
-  font-weight: 400;
-  letter-spacing: -0.06em;
+  font-weight: $font-weight-title;
+  letter-spacing: -0.02em;
   max-width: 100%; // IE Fix
 }
 
 h1, .h1 {
-  font-size: 36px;
+  font-size: 34px;
+}
+
+b, strong, th {
+  font-weight: $font-weight-bold;
+}
+
+.font-product {
+  font-family: $font-family-product;
+  letter-spacing: -0.055em;
 }
 
 .web-site-width {

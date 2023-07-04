@@ -5,7 +5,7 @@ System.invalidoperationexception: this implementation is not part of the windows
 
 The problem could be related to the FIPS mode enabled.  
 
-{{ en.RDM }} uses the AES/Rijndael encryption and SHA-256 hashing algorithms, which are implemented by the MicrosoftNET Framework. If the local security policy on your system enforces FIPS compliant implementations, {{ en.RDM }} cannot run. As a result, you will receive this error message.
+{{ en.RDM }} uses the AES/Rijndael encryption and SHA-256 hashing algorithms, which are implemented by the Microsoft .NET Framework. If the local security policy on your system enforces FIPS compliant implementations, {{ en.RDM }} cannot run. As a result, you will receive this error message.
 ### Solution 1
 To fix this error, configure the Local Security Policy on your system to allow FIPS non-compliant algorithm implementations.  
 

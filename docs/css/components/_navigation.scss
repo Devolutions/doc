@@ -22,7 +22,7 @@
     cursor: pointer;
     display: flex;
     font-size: 14px;
-    padding: 10px 10px 10px 24px;
+    padding: 10px 10px 10px 20px;
     text-align: left;
     width: 100%;
 
@@ -32,7 +32,7 @@
 
     @for $i from 2 through 8 {
       &.level-#{$i} {
-        padding-left: (24 + $i * 8) + px;
+        padding-left: (20 + $i * 8) + px;
       }
     }
 

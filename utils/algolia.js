@@ -1,5 +1,5 @@
 const algoliaSearch = require('algoliasearch');
-const locales = ['en', 'fr'];
+const locales = ['en', 'fr', 'de'];
 const defaultLocale = 'en';
 
 const headingContentRe = /<(h[123])(|\s.*?)>([\s\S]*?)<\/h[123]>|<(p)(?:|\s.*?)>([\s\S]*?)<\/p>/gm;

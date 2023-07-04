@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: RDM {{ en.MAC }} Enable and Send RDP Logs
+  title: RDM {{ en.MAC }} Enable and Send Session Logs
 ---
 Follow these steps to send sessions logs to our support team when encountering an issue with {{ en.RDM }}  
 

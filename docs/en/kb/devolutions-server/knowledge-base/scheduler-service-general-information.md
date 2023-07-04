@@ -38,7 +38,7 @@ The ***Scheduler*** is a Windows Service. It is installed from the {{ en.DVLSCON
 This service requires access to the {{ en.DVLS }} database and to specific locations on the file system. Depending on whether {{ en.DVLS }} is configured to use Integrated Security or SQL accounts, different settings must be applied.
 
 {% snippet icon.badgeHelp %}
-Refer to the ***VaultSchedulerService*** account in [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/).
+Refer to the ***VaultDBSchedulerService*** account in [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/).
 {% endsnippet %}
 
 ### When using Integrated Security

@@ -23,7 +23,13 @@ layout: 'layouts/base.njk'
           {%- endif -%}
 
           <img src="{{ locale[lang].projects[doc.name].icon }}">
-          <span>{{ locale[lang].projects[doc.name].formattedName | safe }}</span>
+          <span class="font-product">{{ locale[lang].projects[doc.name].formattedName | safe }}</span>
+
+          {%- if locale[lang].projects[doc.name].os -%}
+            <div class="grid-list-os">
+              {{ icons[locale[lang].projects[doc.name].os] | safe }}
+            </div>
+          {%- endif -%}
 
           {%- if doc.links -%}
             </a>

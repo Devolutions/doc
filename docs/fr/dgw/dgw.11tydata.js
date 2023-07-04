@@ -8,6 +8,6 @@ module.exports = () => ({
   permalink: '{{ (page.filePathStem.replace("dgw/", tree + "/dgw/") if tree !== "dgw" else page.filePathStem) | localized }}/',
   trees: [
     'hub',
-    'server'
+    'server',
   ]
 });

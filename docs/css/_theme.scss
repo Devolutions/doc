@@ -1,11 +1,13 @@
+@use 'variables' as *;
+
 :root,
 body {
   --primary: #0068c3;
   --primary-rgb: 0, 104, 195;
   --primary-text: #ffffff;
-  --background-text: #494949;
+  --background-text: #000000;
   --header-height: 72px;
-
+  --font-size: 16px;
   --aa-primary-color: var(--primary);
   --aa-primary-color-rgb: var(--primary-rgb);
   --aa-selected-color-rgb: var(--primary-rgb);

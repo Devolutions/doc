@@ -1,7 +1,6 @@
 ---
 title: Broadcast Action in SSH
 ---
-# {{ en.TOPICTITLE }}
 {% youtube '9FrSyzRvw30' %}  
 
 In {{ en.RDM }} you can manage two or more active SSH session with ***Broadcast actions*** to send commands on all the sessions at the same time.  

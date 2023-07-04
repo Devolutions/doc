@@ -1,7 +1,7 @@
 ---
 title: Memory Usage - Windows
 ---
-{{ en.RDM }} is built using thenet framework, as such it presents the memory usage patterns typical of that framework.
+{{ en.RDM }} is built using the .NET Framework, as such it presents the memory usage patterns typical of that framework.
 
 ## .Net Memory usage patterns
 

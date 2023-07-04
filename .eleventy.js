@@ -16,7 +16,7 @@ module.exports = function (config) {
 
   config.addPassthroughCopy({
     'img': 'img',
-    'node_modules/@fontsource/space-grotesk/files': 'css/fonts'
+    'fonts': 'fonts'
   });
 
   config.amendLibrary('md', markdown);
