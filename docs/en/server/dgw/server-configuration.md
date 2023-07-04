@@ -16,7 +16,7 @@ To set up a free {{ en.DGW }}, it must be installed using the ***Side-by-side***
 
 This method supports more sessions if there is an available {{ en.DGW }} license(s). This installation process is the easier of the two. However, this method is recommended for simpler network layouts, and only one ***Side-by-side*** installation can be done per machine.
 1. From the {{ en.DVLSCONSOLE }}, click on the ***Companions*** tab.  
-![Companions Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0003.png)
+![Companions tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2083.png)
 1. In the {{ en.DGW }} section, click on ***Install***.  
 1. Choose ***Side-by-side Installation***.
 ![Side-by-side](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0004.png)

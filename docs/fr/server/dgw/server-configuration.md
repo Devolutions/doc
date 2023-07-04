@@ -7,7 +7,6 @@ eleventyComputed:
   - VPN
   - Listener
 ---
-
 Ce sujet décrit comment configurer {{ fr.DVLS }} pour se connecter avec {{ fr.DGW }}. Il y a deux façons d'installer un {{ fr.DGW }} : <a href="#étapes-pour-l'installation-côte-à-côte">l'installation côte à côte</a> et <a href="#étapes-pour-l'installation-autonome">l'installation autonome</a>.
 
 ## Étapes pour l'installation côte à côte
@@ -17,7 +16,7 @@ Pour mettre en place un {{ fr.DGW }} gratuit, il faut le configurer en utilisant
 
 Cette méthode permet également de gérer davantage de sessions si une ou plusieurs licences {{ fr.DGW }} sont disponibles. Cette procédure d'installation est la plus simple des deux. Cependant, cette méthode est recommandée pour les mises en page de réseau plus simples, et une seule installation ***côte à côte*** peut être effectuée par machine.
 1. Depuis la {{ fr.DVLSCONSOLE }}, cliquer sur l'onglet ***Compagnons***.  
-![Onglet Compagnons](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0003.png)
+![Onglet Compagnons](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2053.png)
 1. Dans la section {{ fr.DGW }}, cliquer sur ***Installer***.
 1. Choisir ***Installation côte à côte***.  
 ![Installation côte à côte](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0004.png)
