@@ -32,6 +32,10 @@ For example, if your employees' emails are in the format "bob@windjammer.co", yo
 DNS TXT Records can take a while to propagate. You can verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's SuperTool TXT Lookup. The first part of the Domain Name must match the ***Hostname*** in {{ en.HUB }} and the Record must match the ***TXT value*** in {{ en.HUB }} as well.  
 ![DNS TXT Record in MXToolBox](https://webdevolutions.azureedge.net/docs/en/hub/Hub2236.png)  
 
+{% snippet icon.badgeCaution %} 
+This validation lasts for 48 hours and does not restart after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired*** and you will be stuck. If that happens, see [Expired domain verification in Okta SSO configuration](/kb/hub-business/troubleshooting-articles/expired-domain-verification-okta-sso-configuration).
+{% endsnippet %}
+
 4. If everything matches up, click ***Verify domain***.
 1. ***Name*** your SSO configuration. This name will only appear in your {{ en.HUB }} SSO settings menu. The default name is "Okta".  
 ![Configuration name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2248.png)
