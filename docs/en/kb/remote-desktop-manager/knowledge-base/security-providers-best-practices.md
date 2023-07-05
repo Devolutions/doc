@@ -1,19 +1,22 @@
 ---
-title: Security Providers Best Practices
+eleventyComputed:
+  title: Security providers best practices
+  description: Security providers exist to encrypt the data at rest (the information stored on the database) using a key shared on every {{ en.RDM }} instance. This way, an attacker would need to compromise the database as well as the security provider to compromise the data.  
 ---
-***Security Providers*** exist to encrypt the data at rest (the information stored on the database) using a key shared on every {{ en.RDM }} instance. This way, an attacker need to compromise the database and the security provider in order to compromise the data.  
+***Security Providers*** exist to encrypt the data at rest (the information stored on the database) using a key shared on every {{ en.RDM }} instance. This way, an attacker would need to compromise the database as well as the security provider to compromise the data.  
 
-The list of ***Security type*** is:  
+Below is a list of available ***Security types***.
 
-* ***Default*** : Obfuscate the data  
-* ***Shared passphrase*** : Encrypts the data using a password stored on each {{ en.RDM }} instances.  
-* ***Certificate*** : Encrypts the data using the private key of a certificate installed on each workstation.  
-![!!KB4972.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4972.png)  
+* ***Default***: Does not set any security provider.
+* ***Shared passphrase***: Encrypts the data using a password stored on each {{ en.RDM }} instances. The ***v3*** uses a more secure hashing algorithm than the ***v2***.  
+* ***Certificate***: Encrypts the data using the private key of a certificate installed on each workstation. The ***v2*** uses a more secure encryption algorithm.  
+* ***Keyfile***: Encrypts the data using the a key stored in a file installed on each workstation.
+![Security types](https://webdevolutions.azureedge.net/docs/en/kb/KB2247.png)  
 
-The best practice is to use a ***Certificate*** , once installed in the Windows Certificate store, it’s harder to retrieve the key and the key is not bound to a passphrase, which may be reused somewhere or simply be weak.  
+To ensure secure deployment of RDM with SQL Server on workstations within an organization, it is recommended that an enterprise certificate be used for data encryption. This can be achieved by implementing an Active Directory configuration or using other methods such as a Mobile Device Management (MDM) software.
 
-However, this is not the typical use case for a certificate, so a lot of good practices around certificates don’t make sense here, mostly because it is not used as a means of verifying the identity of a server.  
+However, it is important to recognize that when a certificate is exposed to multiple workstations, there is an increased risk that it will be compromised by malicious actors. To mitigate this risk, we recommend using a Devolutions Server that effectively handles encryption at rest while safeguarding the encryption key from {{ en.RDM }} users.
 
-For instance, in the case of an {{ en.RDM }} security provider, the certificate does not need to be trusted by a Certificate Authority and does not have to still be valid (regarding the expiration date) because those are controls used to verify authenticity. Also, in order to use it as a shared key, the certificate needs to have the same private key for each workstation.  
-
-The good practice here is to generate a single self-signed RSA certificate and install it on every workstation that uses RDM.
+{% snippet icon.badgeHelp %}
+For more detailed information, please refer to [Security Model and Encryption (PDF)](https://cdndevolutions.blob.core.windows.net/documents/legal/security/security-encryption-en.pdf).
+{% endsnippet %}
