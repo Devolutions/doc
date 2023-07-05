@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Link accounts in {{ en.RDM }}
+  title: Link accounts in {{ en.RDM }} Windows
   description: The Linked Account feature allows users to associate another account under the same user profile.
   keywords:
   - Linked
@@ -24,7 +24,7 @@ Only one license is needed for each ***Linked Account*** pair.
 1. Go to the ***Linked Account*** tab.
 1. Select the other account from the dropdown.  
 ![Linked Account](https://webdevolutions.azureedge.net/docs/en/kb/KB0075.png)  
-1. Click ***OK*** to save the changes and close the window.
+1. Click ***OK*** to save the changes and close the window, then click ***Close***.
 
 The accounts are now linked. It is possible to check which accounts are linked by going back to the ***User and Security Management*** window, which is under the ***Users*** button, and scrolling until the ***Linked Account*** column.
 {% snippet icon.badgeInfo %}
