@@ -1,11 +1,12 @@
 ---
-title: Configure SSO authentication with Okta
-description: Here are the steps to configure Okta with {{ en.DHUBB }} for SSO authentication and user provisioning.
-keywords:
-- SSO
-- Okta
+eleventyComputed:
+  title: Configure SSO authentication with Okta
+  description: Here are the steps to configure Okta with {{ en.DHUBB }} for SSO authentication.
+  keywords:
+  - SSO
+  - Okta
 ---
-Here are the steps to configure Okta with {{ en.DHUBB }} for SSO authentication and user provisioning.
+Here are the steps to configure Okta with {{ en.DHUBB }} for SSO authentication.
 
 {% snippet icon.badgeCaution %} 
 An [Okta account](https://www.okta.com/) with the appropriate rights is required. 
@@ -44,7 +45,7 @@ This validation lasts for 48 hours and does not restart after that period. If yo
 Do not close this setup page, as the following steps will show you where to find the information to enter in its fields. 
 {% endsnippet %}
 
-***In Okta***  
+**In Okta**  
 
 6. Log in to your Okta account.
 1. In ***Applications***, click ***Create App Integration***.  
@@ -69,7 +70,7 @@ The app name does not need to match the one in {{ en.HUB }}. We recommend includ
 13. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Callback URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
 ![Copy the Callback URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2246.png)  
 
-***In Okta***  
+**In Okta**  
 
 14. Back in Okta, paste the ***Callback URL*** in the ***Sign-in redirect URIs*** field.  
 ![Sign-in redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2251.png)  
@@ -79,7 +80,7 @@ The app name does not need to match the one in {{ en.HUB }}. We recommend includ
 15. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Logout redirect URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
 ![Copy the Logout redirect URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2247.png)  
 
-***In Okta***  
+**In Okta**  
 
 16. Back in Okta, paste the ***Logout redirect URL*** in the ***Sign-out redirect URIs*** field.  
 ![Sign-out redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2252.png)  
@@ -103,7 +104,7 @@ If you choose to ***Limit access to selected groups*** or ***Skip group assignme
 20. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client ID*** from the last step in the field of the same name.  
 ![Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2255.png)  
 
-***In Okta***  
+**In Okta**  
 
 21. Back in Okta, copy the ***Client secret*** by clicking on the ***Copy to clipboard*** icon next to it.  
 ![Copy the Client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2256.png)  
@@ -124,7 +125,7 @@ Do not test the connection just yet, as a few additional steps are required in O
 
 ![Discovery URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2259.png)  
 
-***In Okta***  
+**In Okta**  
 
 24. Click ***Edit*** in the ***General Settings*** section.  
 ![Edit the General Settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2260.png)  
