@@ -2,11 +2,6 @@
 eleventyComputed:
   title: Multi-factor
   description: Configure multi-factor authentication in {{ en.DVLS }} to add an extra layer of security to the application.
-  keyword:
-  - multi-factor
-  - multifactor
-  - two-factor
-  - authentication
 ---
 {% snippet icon.badgeInfo %} 
 This feature is only available for {{ en.DVLS }} versions 2022.1 or later.
@@ -19,10 +14,10 @@ Configure multi-factor authentication (MFA) in {{ en.DVLS }} to add an extra lay
 ## Configure Multi-Factor Authentication From the Web Interface  
 
 1. To access the MFA configuration, navigate to ***Administration – Server Settings – Multi-factor***.
-1. The first option is to choose how you want to enforce multi-factor authentication. To do so, click on the information icon next to ***MFA usage*** to go to the ***Security Policies*** section.  
+1. The first option is to choose how you want to enforce multi-factor authentication. To do so, click on the information icon next to ***MFA usage*** to go to the ***Conditional Access Policies*** section.  
 ![MFA usage](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2061.png)  
 1. Select a ***Target*** (***Login*** or ***MFA***).  
-![Target](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2062.png) 
+![Target](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6001.png) 
 1. If you chose the ***MFA*** in the last step, select a ***Default action when no policy matches*** between the following:
 	* ***MFA Required***: MFA is enforced for all users. A default MFA type is set for all users.
 	* ***MFA Skipped***: MFA is not enforced.
@@ -32,10 +27,10 @@ Configure multi-factor authentication (MFA) in {{ en.DVLS }} to add an extra lay
 When MFA usage is set to ***MFA Optional per User***, the MFA method must be configured in ***Administration – Users*** for each user. Edit or add a user, then go to the ***Multi-factor*** section to configure it. You can also set an MFA type on the user if they are using a product different than the default method. See [Multi-factor (Edit User)](/server/web-interface/administration/security-management/users/edit-user-two-factor/).
 {% endsnippet %}  
 
-![Default action when no policy matches](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2063.png) 
+![Default action when no policy matches](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6003.png) 
 
 5. Back to the ***Multi-factor*** section, choose who to send the reset email to between ***Administrator(s)*** or a ***Specific email*** (in which case you must specify the email in the ***Specific email*** field).  
-![Send reset email to & Specific email](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2064.png) 
+![Send reset email to & Specific email](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp2064.png) 
 1. Check the boxes next to the supported authenticators that you want to enable. You can choose as many as necessary.
 
 {% snippet icon.badgeInfo %} 
@@ -45,6 +40,6 @@ The currently supported multi-factor authenticators are Authenticator (TOTP), Yu
 ![Supported MFA](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2065.png) 
 
 7. Select the ***Default*** MFA between the ones you enabled in the previous step.  
-1. Select alternate ways to log in betweem ***Email*** and [***Backup codes***](/server/web-interface/administration/configuration/server-settings/security/two-factor/backup-codes/). These options will be offered when users do not have access to their usual method.  
+1. Select alternate ways to log in between ***Email*** and [***Backup codes***](/server/web-interface/administration/configuration/server-settings/security/two-factor/backup-codes/). These options will be offered when users do not have access to their usual method.  
 ![Default and Alternate MFA](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2066.png)
 1. Click ***Save***.
