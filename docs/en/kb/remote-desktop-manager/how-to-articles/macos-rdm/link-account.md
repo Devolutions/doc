@@ -24,7 +24,7 @@ Only one license is needed for each ***Linked Account*** pair.
 ![Linked Account](https://webdevolutions.azureedge.net/docs/en/kb/KB0122.png)  
 1. Click ***OK*** to save the changes and close the window, then click on ***Close***.
 
-The accounts are now linked. It is possible to check which accounts are linked by going back to the ***Linked Account*** tab.
+The accounts are now linked. It is possible to check which accounts are linked by going back to the ***User and Security Management*** window, which is under the ***Users*** button, and scrolling until the ***Linked Account*** column.
 {% snippet icon.badgeInfo %}
 There is no primary or secondary account functionality with this feature; meaning the order in which they are linked does not matter and each can be unlinked to then be linked to a different account without issue.
 {% endsnippet %}  
