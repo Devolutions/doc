@@ -39,5 +39,5 @@ By default, shared vaults are set to private in the ***System Settings***.
 1. Click ***OK*** to save your changes.
 
 {% snippet icon.badgeHelp %} 
-If your vault is public, see how a user can [request access to the vault](/rdm/windows/user-interface/content-area/vault-access-rdm/request-vault-access) and how you can [approve this request](/rdm/windows/user-interface/content-area/vault-access-rdm/approve-vault-access).
+If your vault is public, see how a user can [request access to the vault](/rdm/windows/user-interface/content-area/vault-access/request-vault-access) and how you can [approve this request](/rdm/windows/user-interface/content-area/vault-access/approve-vault-access).
 {% endsnippet %}
