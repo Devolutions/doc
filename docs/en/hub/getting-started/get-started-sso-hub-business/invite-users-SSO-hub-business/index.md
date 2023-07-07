@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: Invite users for SSO in {{ en.HUBB }}
-description: Once SSO is configured and enabled, invite your users on your Hub following these steps.
-keywords:
-- SSO
-- invite users
-- organization
-- authentication
+  description: Once SSO is configured and enabled, invite your users on your {{ en.HUB }} following these steps.
+  keywords:
+  - SSO
+  - invite users
+  - organization
+  - authentication
 ---
 Once SSO is [configured and enabled](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/), you can use this specific invite for all your users.  
 

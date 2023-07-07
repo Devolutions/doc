@@ -1,11 +1,12 @@
 ---
-title: Configure SSO authentication with Microsoft Azure
-description: Here are the steps to configure Azure with {{ en.DHUBB }} for SSO authentication and user provisioning.
-keywords:
-- Office 365
-- Office365
-- SSO
-- Azure
+eleventyComputed:
+  title: Configure SSO authentication with Microsoft Azure
+  description: Here are the steps to configure Azure with {{ en.DHUBB }} for SSO authentication and user provisioning.
+  keywords:
+  - Office 365
+  - Office365
+  - SSO
+  - Azure
 ---
 Here are the steps to configure Azure with {{ en.DHUBB }} for SSO authentication and user provisioning.  
 
@@ -13,7 +14,7 @@ Here are the steps to configure Azure with {{ en.DHUBB }} for SSO authentication
 An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights is required. 
 {% endsnippet %}
  
-## Configure Single Sign-On (SSO) 
+## Single Sign-On (SSO) configuration
 
 **In {{ en.DHUBB }}**  
 
@@ -123,7 +124,7 @@ Note that when the client secret expires, no one will be able to connect to the 
 1. In the ***Summary*** of your configuration, click ***Save***.
 ![Save your configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2225.png)  
 
-## Provisioning configuration 
+## Provisioning configuration
 
 To synchronize your users and user groups from your providers to the {{ en.HUB }}, follow the next steps.  
 
@@ -167,7 +168,7 @@ You can now see an overview of your provisioning synchronization. Next to the **
 The ***Secret Token*** will expire 365 days after its generation. When it does, the provisioning will stop working. You will then need to regenerate a new token in the ***Provisioning synchronization overview*** page seen above. We recommend that you set yourself a task reminder before the expiration date. 
 {% endsnippet %}
 
-## Add a user/group 
+## Adding a user/group 
 
 In this section, you will add your users and user groups to your Enterprise app.  
 

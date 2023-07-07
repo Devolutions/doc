@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Introduction avec {{ fr.HUBB }}
-  order: 10
+  order: 20
 ---
 Voici une liste d'étapes pour vous aider à démarrer avec {{ fr.HUBB }} pour votre équipe. 
 

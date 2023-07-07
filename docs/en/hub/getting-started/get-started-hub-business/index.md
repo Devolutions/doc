@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Get started with {{ en.HUBB }}
-  order: 10
+  order: 20
 ---
 Here is a list of steps to help you get started with {{ en.HUBB }} for your team environment.  
 

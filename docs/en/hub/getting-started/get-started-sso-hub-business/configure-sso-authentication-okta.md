@@ -12,7 +12,7 @@ Here are the steps to configure Okta with {{ en.DHUBB }} for SSO authentication.
 An [Okta account](https://www.okta.com/) with the appropriate rights is required. 
 {% endsnippet %}
 
-## Configure Single Sign-On (SSO) 
+## Single Sign-On (SSO) configuration
 
 **In {{ en.DHUBB }}**  
 
@@ -157,3 +157,11 @@ If it takes longer than 24 hours, or if you need any help, contact our support t
 
 When the domain verification is done, the SSO configuration will get a green checkmark icon next to it. This means that your SSO configuration through Okta is now enabled on your {{ en.HUB }}.  
 ![Active SSO configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2266.png)
+
+## Provisioning configuration
+
+Synchronize your users and user groups from your providers to the {{ en.HUB }}.  
+
+{% snippet icon.badgeInfo %}
+This feature will be available soon!
+{% endsnippet %}
