@@ -153,7 +153,7 @@ Notez que ce jeton SCIM expirera dans les 365 jours suivant sa génération. À 
 ![Jeton secret](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2047.png) 
 1. Tester la connexion pour s'assurer qu'elle fonctionne, puis cliquer sur ***Enregistrer***. 
 
-## Ajouter un utilisateur/groupe 
+## Ajout d'un utilisateur/groupe 
 
 Dans cette section, vous pourrez ajouter vos utilisateurs et groupes d'utilisateurs à votre application d'entreprise.  
 
