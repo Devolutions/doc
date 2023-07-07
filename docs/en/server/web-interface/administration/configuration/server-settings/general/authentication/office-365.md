@@ -8,10 +8,9 @@ eleventyComputed:
 Microsoft Azure Active Directory subscription is required to configure Office365 authentication in {{ en.DVLS }}. One new app registration is required in Microsoft Azure Active Directory before completing the authentication settings. For more information about the app registrations, see [Azure portal configuration guide for Microsoft Authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/).
 {% endsnippet %}  
 
-The ***Microsoft Authentication*** tab allows {{ en.DVLS }} to authenticate users using Office365 authentication. All fields are mandatory except the ***Automatic User Creation*** section.
+The ***Microsoft Authentication*** tab allows {{ en.DVLS }} to authenticate users using Office365 authentication. The ***Display name***, ***Tenant ID***, ***Client ID*** and ***Secret value*** fields are mandatory.
 
-![Authentication - Configure Microsoft Authentication](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0021.png)  
-![!!png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0020.png)  
+![Authentication - Configure Microsoft Authentication](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0022.png)  
 
 ## Settings
 ### Parameters
@@ -125,6 +124,10 @@ Only users from this group will be created on first login (only available when <
 </table>  
 
 ### Microsoft Authentication Users and User Group Cache
+{% snippet icon.badgeInfo %}
+It is recommended to disable the cache feature, as the hybrid mode is more efficient. By default the option is already disabled.
+{% endsnippet %}  
+
 <table>
 	<tr>
 		<th>
@@ -152,8 +155,4 @@ Recurrence
 <b><i>Daily</b></i>: Updates the users and user groups data every day at the set time
 		</td>
 	</tr>
-</table>  
-
-{% snippet icon.badgeInfo %}
-It is recommended to disable the cache feature, as the hybrid mode is more efficient.
-{% endsnippet %}
+</table>
