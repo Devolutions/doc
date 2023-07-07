@@ -1,5 +1,5 @@
 ---
-title: Host with Templates
+title: Host with templates
 description: A Host Session entry will let you use templates to connect to the host. It will prompt you to choose which template to use to launch the host.
 keywords:
 - template
@@ -7,16 +7,14 @@ keywords:
 ---
 A ***Host Session*** entry will let you use templates to connect to the host. It will prompt you to choose which template to use to launch the host.
 
-## Create and Launch a Host Session Entry with Templates
-
-{% youtube 'dOuwGyYI61U' %}
+## Create and launch a Host Session entry with templates
 
 1. Create one or multiple [Templates](/rdm/windows/commands/file/templates/) via the ***File – Templates – Entry Templates*** menu. You may need to use variables like $HOST$ for the host name as well as $USERNAME$ and $PASSWORD$ for the username and password respectively.
 1. Go to ***Edit – New Entry – Add Session***.
 ![Edit – New Entry – Add Session](https://webdevolutions.azureedge.net/docs/en/kb/KB2200.png)
 1. Select the ***Host Session*** entry type. It should be located in the ***Session*** section, under ***General***. Click ***OK*** to create the new entry.
 ![Host Session](https://webdevolutions.azureedge.net/docs/en/kb/KB2201.png)
-1. In the ***General*** section of the entry settings, go to the ***Advanced*** tab and click on ***Select Templates***.
+1. In ***General***, go to the ***Advanced*** tab and click on ***Select Templates***.
 ![General – Advanced – Select Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB4269.png)
 1. Select the template(s) to add to your host session. To select multiple templates, hold down the **Ctrl** key while making your selection.
 ![Select Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB2202.png)
