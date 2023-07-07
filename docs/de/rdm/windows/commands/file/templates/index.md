@@ -3,8 +3,8 @@ title: Vorlagen
 ---
 Vorlagen sind nützlich, um beim Erstellen eines Eintrags vordefinierte Werte zu haben. Mit Vorlagen können Sie:  
 
-* [Vorkonfigurierte Einträge hinzufügen](#einen-neuen-eintrag-erstellen) . 
-* [Die Quick-Connect-Funktion verwenden ](#eine-quick-connect-sitzung-durchführen) . 
+* [Vorkonfigurierte Einträge hinzufügen](#einen-neuen-eintrag-erstellen). 
+* [Die Quick-Connect-Funktion verwenden](#eine-quick-connect-sitzung-durchfuhren). 
 * Einträge als Vorlage öffnen. 
 * Vorlagen für Passwörter erstellen. 
 
@@ -39,6 +39,7 @@ Die Vorlage kann auch vor der Erstellung des Eintrags ausgewählt werden. Verwen
 ![!!clip10266.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10266.png) 
 
 ### Eine Quick-Connect-Sitzung durchführen 
+<a name="QuickConnect"></a>
 
 Vorlagen können mit der ***Quick-Connect***-Funktion verwendet werden. So kann beispielsweise dieselbe Vorlage für die Verbindung zu verschiedenen Hosts genutzt werden.  
 ![!!clip10164.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10164.png) 
