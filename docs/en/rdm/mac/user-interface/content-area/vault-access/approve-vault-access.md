@@ -11,13 +11,14 @@ In {{ en.RDM }} for Mac, users can request access to a public vault. An administ
 ## View pending vault access requests
 
 To view all your past and current requests, you must use the following ***Pending Vault Access Requests*** box to open the ***Vault Access Requests*** window.  
-
+![Dashboard – Pending vault access requests](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2065.png)  
 In the ***Vault Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***Vault***, ***Username***, ***Data source user***, ***Date***, ***Authorizer username***, or ***Authorizer data source user***.  
+![Show vault access requests](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2066.png)  
 
 It is also possible to display only certain requests with the ***Status*** drop-down menu or with the search bar at the top.  
 
 Using the ***View messages*** button, you can view the ***Request message*** and the ***Authorization message*** of a specific request.  
-
+![Request messages](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2067.png)  
 Finally, clicking on the ***Approve*** and ***Deny*** buttons opens the vault access request response window, which is described next.  
 
 ## Approve/Deny vault access requests
@@ -33,8 +34,11 @@ To respond to a request, you need to open the vault access request response wind
 
 The first option is to use the ***Pending Vault Access Requests*** box (see image below) in your ***Dashboard***. Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the vault access request response window.  
 
+![Pending Access Requests](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2068.png)
+
 The second option requires you to go through the other ***Pending Vault Access Requests*** box described in the previous section. Whatever way you choose to access the response window, the result will be the same.  
 
+![Vault Access Request Response](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2069.png)
 This view is divided into two sections:
 
 * The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited.
