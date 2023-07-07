@@ -39,7 +39,6 @@ Die Vorlage kann auch vor der Erstellung des Eintrags ausgewählt werden. Verwen
 ![!!clip10266.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10266.png) 
 
 ### Eine Quick-Connect-Sitzung durchführen 
-<a name="QuickConnect"></a>
 
 Vorlagen können mit der ***Quick-Connect***-Funktion verwendet werden. So kann beispielsweise dieselbe Vorlage für die Verbindung zu verschiedenen Hosts genutzt werden.  
 ![!!clip10164.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10164.png) 
