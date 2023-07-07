@@ -6,7 +6,7 @@ eleventyComputed:
   keywords: 
   - vault access
 ---
-In {{ en.RDM }}, users can request access to a public vault. An administrator / vault owner then has to approve the request. Vault owners are configured in ***Vault Management***.
+In {{ en.RDM }}, users can request access to a public vault. An administrator / vault owner then has to approve the request. Vault owners are configured in the ***Vault Management*** when creating or editing a vault.
 
 ## View pending vault access requests
 
@@ -19,7 +19,7 @@ It is also possible to display only certain requests with the ***Status*** drop-
 
 Using the ***View messages*** button, you can view the ***Request message*** and the ***Authorization message*** of a specific request.
 ![Request Messages](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2076.png)  
-Finally, clicking on the ***Approve*** and ***Deny*** buttons open the ***Vault Access Request Response*** window, which is described next.
+Finally, clicking on the ***Approve*** and ***Deny*** buttons opens the ***Vault Access Request Response*** window, which is described next.
 
 ## Approve/Deny vault access requests
 
