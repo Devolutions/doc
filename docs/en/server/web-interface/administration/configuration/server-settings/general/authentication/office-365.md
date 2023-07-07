@@ -1,19 +1,20 @@
 ---
 eleventyComputed:
-  title: Office365 authentication with {{ en.DVLS }}
+  title: Microsoft Authentication with {{ en.DVLS }}
   keywords:
   - Roles
 ---
 {% snippet icon.badgeInfo %}
-Microsoft Azure Active Directory subscription is required to configure Office365 authentication in {{ en.DVLS }}. One new app registration is required in Microsoft Azure Active Directory before completing the authentication settings. For more information about the app registrations, see [Azure portal configuration guide for Microsoft authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/).
+Microsoft Azure Active Directory subscription is required to configure Office365 authentication in {{ en.DVLS }}. One new app registration is required in Microsoft Azure Active Directory before completing the authentication settings. For more information about the app registrations, see [Azure portal configuration guide for Microsoft Authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/).
 {% endsnippet %}  
 
 The ***Microsoft Authentication*** tab allows {{ en.DVLS }} to authenticate users using Office365 authentication. All fields are mandatory except the ***Automatic User Creation*** section.
 
-![Authentication - Configure Office365](https://webdevolutions.azureedge.net/docs/en/server/AuthenticationOffice365.png)
+![Authentication - Configure Microsoft Authentication](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0021.png)  
+![!!png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0020.png)  
 
 ## Settings
-### PARAMETERS
+### Parameters
 <table>
 	<tr>
 		<th>
@@ -28,7 +29,7 @@ Description
 Display name
 		</td>
 		<td>
-The name displayed in
+The name displayed for this configuration
 		</td>
 	</tr>
 	<tr>
@@ -36,7 +37,7 @@ The name displayed in
 Tenant ID
 		</td>
 		<td>
-The TenantID is the Directory ID of the Azure Active Directory.
+The TenantID is the Directory ID of the Azure Active Directory
 		</td>
 	</tr>
 	<tr>
@@ -44,7 +45,7 @@ The TenantID is the Directory ID of the Azure Active Directory.
 Client ID
 		</td>
 		<td>
-Application ID of the Azure AD application.
+Application ID of the Azure AD application
 		</td>
 	</tr>
 	<tr>
@@ -52,7 +53,7 @@ Application ID of the Azure AD application.
 Use specific client ID for users and user groups cache
 		</td>
 		<td>
-Only use this if the secret is in another Azure application.
+Only use this if the secret is in another Azure application
 		</td>
 	</tr>
 	<tr>
@@ -87,7 +88,7 @@ Test the connection given the current parameters
 	</tr>
 </table>  
 
-### AUTOMATIC USER CREATION
+### Automatic User Creation
 <table>
 	<tr>
 		<th>
@@ -102,7 +103,7 @@ Description
 Auto create on first login
 		</td>
 		<td>
-A
+Creates a user with the first login
 		</td>
 	</tr>
 	<tr>
@@ -110,7 +111,7 @@ A
 User type
 		</td>
 		<td>
-r
+Choose between <b><i>User</b></i> and <b><i>Read-only user</b></i> (only available when <b><i>Auto create on first login</b></i> is enabled)
 		</td>
 	</tr>
 	<tr>
@@ -118,12 +119,12 @@ r
 Only from this group
 		</td>
 		<td>
-R
+Only users from this group will be created on first login (only available when <b><i>Auto create on first login</b></i> is enabled)
 		</td>
 	</tr>
 </table>  
 
-### MICROSOFT AUTHENTICATION USERS AND USER GROUP CACHE
+### Microsoft Authentication Users and User Group Cache
 <table>
 	<tr>
 		<th>
@@ -135,31 +136,24 @@ Description
 	</tr>
 	<tr>
 		<td>
-Client ID
+Enable cache feature
 		</td>
 		<td>
-Application ID from the web app section of the Azure AD application.
+If enabled: Puts the users, groups and links between them in the database<br>
+If disabled: Hybrid mode
+		</td>
+	</tr>
+	<tr>
+		<td>
+Recurrence
+		</td>
+		<td>
+<b><i>Interval</b></i>: Updates the users and user groups data at timed intervals (hours and minutes)<br>
+<b><i>Daily</b></i>: Updates the users and user groups data every day at the set time
 		</td>
 	</tr>
 </table>  
 
-Client ID:
-Application ID of the Azure AD application.  
-
-Redirect URI:
-Redirect URI from the Azure AD application.  
-
-Secret Key:
-Key from the Password generated in Settings – Keys of the Azure AD application.  
-
-Auto create domain users in database:
-Automatically create the Office365 user account in the database on the first login attempt.  
-
-Create read-only user:
-Set the user account as a read-only account.  
-
-Default Vault:
-Will give access to that {{ en.VLT }} to the user.  
-
-Update users and groups data every:
-Set the hours and minutes period that the Office365 Users and User Groups Cache will be refreshed. Default value is set to 30 minutes.  
+{% snippet icon.badgeInfo %}
+It is recommended to disable the cache feature, as the hybrid mode is more efficient.
+{% endsnippet %}
