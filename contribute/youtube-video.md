@@ -1,6 +1,6 @@
-## How to embed YouTube Video in Markdown
+## How to embed a YouTube video in Markdown
 
-To embed a YouTube video, utilize the following shortcode, with the video ID specified as the parameter.  
+To embed a YouTube video, use the following shortcode, specifying the video's ID as the parameter.  
 
 ```markdown
 {% youtube 'video_id' %}
