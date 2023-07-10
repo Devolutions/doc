@@ -19,7 +19,7 @@ keywords: Specific topic keywords # Used by the Algolia application (internal us
 ## Markdown content
 ```
 
-Variables are listed in the [_data](https://github.com/Devolutions/doc/tree/master/docs/_data) folder. To add a variable in the front matter, insert "eleventyComputed:" (uppercase "C") at the top and add two spaces before the lines under it, as shown here:  
+Variables are listed in the [_data](https://github.com/Devolutions/doc/tree/master/docs/_data) folder. To add a variable in the front matter, insert "eleventyComputed:" (uppercase "C") at the top and add a tab before the lines under it, as shown here:  
 
 ```markdown
 ---
