@@ -5,7 +5,7 @@ Dans {{ fr.RDM }} , la ***Phrase secrète partagée (v3)*** pour le ***Fournisse
 
 Le menu ***Avancé*** est utilisé pour ajuster la dérivation afin de la rendre plus facile ou plus difficile à calculer.  
 
-![Administration - Fournisseur de sécurité - Phrase secrète partagée (v3) - Avancé.png](https://webdevolutions.azureedge.net/docs/fr/kb/kb2075.png)
+![Administration - Fournisseur de sécurité - Phrase secrète partagée (v3) - Avancé.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2075.png)
 ### Pourquoi la rendre plus difficile à calculer? 
 Supposons qu'un acteur malveillant obtienne l'accès à un ordinateur inscrit auprès du fournisseur. Cet attaquant aurait accès à la clé de chiffrement utilisée pour décrypter les données de la base de données, mais n'aurait pas directement accès à la phrase secrète elle-même en raison de la dérivation.  
 
