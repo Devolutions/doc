@@ -244,5 +244,16 @@
   svg {
     color: var(--primary);
   }
-}
 
+  .copied-div {
+    opacity: 1; 
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    z-index: 1;
+    font-size: 12px; 
+  }
+}
