@@ -2,19 +2,19 @@
 
 To generate a new snippet, use the following shortcode {% snippet %}{% endsnippet %}. Including an icon is entirely optional.  
 
-Please note that the snippet's content is treated as Markdown.  
+The snippet's content is treated as Markdown.  
 
 ```markdown
 {% snippet %}
-Here is the content of my snippet in Markdown
+Here is the content of my snippet in Markdown.
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
-Here is the content of my snippet in Markdown
+Here is the content of my snippet in Markdown.
 {% endsnippet %}
 ```
 
-The list of snippet icons are available in the [_data](https://github.com/Devolutions/doc/blob/master/docs/_data/icon.json) folder.  
+The list of snippet icons is available in the [_data](https://github.com/Devolutions/doc/blob/master/docs/_data/icon.json) folder.  
 
 ### Basic information snippet
 
