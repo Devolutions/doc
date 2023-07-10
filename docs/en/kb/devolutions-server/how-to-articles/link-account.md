@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Link accounts in {{ en.DVLS }}
-  description: The Linked Account feature allows users to associate another account under the same user profile.
+  description: The Linked Account feature allows users to associate another account under the same user.
 ---
-The ***Linked Account*** feature allows users to associate another account under the same user profile. This feature is particularly beneficial when a user needs to manage different accounts simultaneously. For instance, a user may have an account with the email address "bob@windjammer.co" and another account with the email address "_bob@windjammer.co", which serves as an elevated or privileged account.  
+The ***Linked Account*** feature allows users to associate another account under the same user. This feature is particularly beneficial when a user needs to manage different accounts simultaneously. For instance, a user may have an account with the email address "bob@windjammer.co" and another account with the email address "_bob@windjammer.co", which serves as an elevated or privileged account.  
 {% snippet icon.badgeInfo %}
 Both users need to be created before linking them together.
 {% endsnippet %}
