@@ -10,3 +10,4 @@ Sie finden hier Themen zu den folgenden {{ de.PS }} Modules-Kategorien:
 * {{ de.HUBB }} 
 * {{ de.DVLS }} 
 * {{ de.RDM }} 
+* {{ de.DGW }}
