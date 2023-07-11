@@ -1,19 +1,9 @@
 ---
-title: Roles and Permissions
-keywords:
-- contributor
-- manager
-- observer
-- operator
-- permission
-- reader
-- role
-- sensitive
-- sensitive information
-- view password
-- view sensitive
+eleventyComputed:
+  title: Roles and permissions
+  description: Each role in {{ en.HUB }} has its own set of permissions.
 ---
-Each ***Role*** in {{ en.HUB }} has its own set of ***Permissions*** . Here is a table summarizing them:  
+Each ***Role*** in {{ en.HUB }} has its own set of ***Permissions***. Here is a table summarizing them:  
 
 <table>
 	<tr>
@@ -419,7 +409,7 @@ Restore entries
 	</tr>
 	<tr>
 		<td>
-Temporary access authorizer 
+Temporary access approver 
 		</td>
 		<td>
 
@@ -439,11 +429,12 @@ Temporary access authorizer
 	</tr>
 </table>
 
-### Sensitive information permissions 
+## Sensitive information permissions 
 
-In {{ en.HUB }} , all sensitive information is hidden by default. Some can be viewed by anyone that has access to the entry by clicking on the eye icon, and others require ***View sensitive*** or ***View password*** permissions to be viewed.  
+In {{ en.HUB }}, all sensitive information is hidden by default. Some can be viewed by anyone that has access to the entry by clicking on the eye icon, and others require ***View sensitive*** or ***View password*** permissions to be viewed.  
 
-The ***View sensitive*** permission is granted to ***Reader*** , ***Operator*** , ***Contributor*** , and ***Manager*** roles, while the ***Contributor*** or ***Manager*** roles are required for the ***View password*** permission. Therefore, even if passwords are indeed sensitive information, you will not be able to view them with the ***View sensitive*** permission alone.  
+The ***View sensitive*** permission is granted to ***Reader***, ***Operator***, ***Contributor***, and ***Manager*** roles, while the ***Contributor*** or ***Manager*** roles are required for the ***View password*** permission. Therefore, even if passwords are indeed sensitive information, you will not be able to view them with the ***View sensitive*** permission alone.  
 
-Sensitive information requiring the ***View sensitive*** permission will have this icon next to it, while information requiring the ***View password*** permission will have this key icon . You can see both examples in the image below. 
+Sensitive information requiring the ***View sensitive*** permission will have this icon next to it, while information requiring the ***View password*** permission will have this key icon. You can see both examples in the image below. 
 
+![Sensible information icons](https://webdevolutions.azureedge.net/docs/en/hub/Hub2267.png)
