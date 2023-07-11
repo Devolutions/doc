@@ -23,5 +23,3 @@ In den folgenden Themen finden Sie weitere Informationen zu den einzelnen Option
 * [Import Sessions](/rdm/windows/commands/file/import/sessions/) 
 * [Import Logins](/rdm/windows/commands/file/import/logins/) 
 * [Import Contacts](/rdm/windows/commands/file/import/contacts/) 
-
-
