@@ -95,7 +95,7 @@ Cocher cette option pour vous authentifier à votre application {{ fr.RDM }} en 
 Nécessite une validation du TOTP ({{ fr.DWS }} or Google Authenticator) 
 		</td>
 		<td>
-Cocher cette option pour valider votre authentification à votre application {{ fr.RDM }} avec un mot de passe à usage unique basé sur le temps (TOTP) envoyé via {{ fr.DWS }} ou Google Authenticator. heck this option to validate your authentication to your {{ en.RDM }} application with a Time-based one-time password (TOTP) sent through {{ fr.DWS }} ou Google Authenticator. Utiliser le bouton <b><i>Configurer</i></b> sous cette option.
+Cocher cette option pour valider votre authentification à votre application {{ fr.RDM }} avec un mot de passe à usage unique basé sur le temps (TOTP) envoyé via {{ fr.DWS }} ou Google Authenticator. Utiliser le bouton <b><i>Configurer</i></b> sous cette option.
 		</td>
 	</tr>
 	<tr>
@@ -148,8 +148,7 @@ Cocher cette option pour verrouiller {{ fr.RDM }} après l'avoir minimiser. Dév
 Lorsque inactif 
 		</td>
 		<td>
-Cocher cette option pour verrouiller {{ fr.RDM }} après une inactivité d'une certaine durée (définir cette période sous cette option).
-Check this option to lock {{ en.RDM }} after it has been idle for a certain time (define that period under this option). Déverrouiller l'application en utilisant la méthode de sécurité configurée.
+Cocher cette option pour verrouiller {{ fr.RDM }} après une inactivité d'une certaine durée (définir cette période sous cette option). Déverrouiller l'application en utilisant la méthode de sécurité configurée.
 		</td>
 	</tr>
 	<tr>

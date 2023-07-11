@@ -55,7 +55,7 @@ Lors du premier démarrage, {{ fr.RDM }} utilise une source de données SQLite. 
 Étape 3 - Configurer Devolutions {{ fr.OBACK }}. 
 		</td>
 		<td>
-Devolutions [{{ en.OBACK }}](/fr/cloud/getting-started/devolutions-cloud-services/) vous permet de sauvegarder sécuritairement vos informations pour certaines sources de données. La copie de sauvegarde s’effectue automatiquement 30 secondes après une modification du contenu dans la source de données. En effet, il est recommandé de toujours faire une copie de sauvegarde de votre source de données.  
+Devolutions [{{ fr.OBACK }}](/fr/cloud/getting-started/devolutions-cloud-services/) vous permet de sauvegarder sécuritairement vos informations pour certaines sources de données. La copie de sauvegarde s’effectue automatiquement 30 secondes après une modification du contenu dans la source de données. En effet, il est recommandé de toujours faire une copie de sauvegarde de votre source de données.  
 
 {% youtube 'gWaSaRss0Wk' %}  
 		</td>

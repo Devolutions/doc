@@ -22,7 +22,7 @@ Dans cette section, vous pouvez accéder au ***Diagnostic du système*** de l'ap
 Vous pouvez également valider les informations de la source de données et les politiques appliquées. 
 
 ### Vérifier les mises à jour 
-Valider et télécharger les nouvelles versions de {{ en.LAUNCHER }}. 
+Valider et télécharger les nouvelles versions de {{ fr.LAUNCHER }}. 
 
 ### À propos 
 Afficher la version installée et les informations de {{ fr.LAUNCHER }}. 

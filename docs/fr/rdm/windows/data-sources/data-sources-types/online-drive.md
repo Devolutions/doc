@@ -139,12 +139,12 @@ Choisir entre:
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à {{ en.DOD }}.  
-![{{ en.DOD }} - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/DODVVPN.png) 
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à {{ fr.DOD }}.  
+![{{ fr.DOD }} - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/DODVVPN.png) 
 
 ### Avancé 
 
-![{{ en.DOD }} - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11335.png) 
+![{{ fr.DOD }} - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11335.png) 
 
 <table>
 	<tr>

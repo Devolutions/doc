@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Devolutions {{ en.HUBI }}
-  description: Devolutions {{ en.HUBI }} est un outil essentiel conçu pour importer vos données dans {{ fr.HUBB }}.
+  title: Devolutions {{ fr.HUBI }}
+  description: Devolutions {{ fr.HUBI }} est un outil essentiel conçu pour importer vos données dans {{ fr.HUBB }}.
 ---
 {% youtube 'zoNA11ql9Gk' %}  
 
-***{{ en.DHUBI }}*** est un outil essentiel conçu pour importer vos données dans {{ fr.HUBB }}.  
+***{{ fr.DHUBI }}*** est un outil essentiel conçu pour importer vos données dans {{ fr.HUBB }}.  
 
 {% snippet icon.badgeInfo %} 
 Disponible seulement sur Windows. 
@@ -29,5 +29,5 @@ Dans l'éventualité où vous auriez besoin d'importer les ***Paramètres Spéci
 {% endsnippet %}
  
 7. Sélectionner le ***Coffre cible***. 
-1. Cliquer ***Importer la sélection dans {{ en.HUB }}***. 
+1. Cliquer ***Importer la sélection dans {{ fr.HUB }}***. 
 

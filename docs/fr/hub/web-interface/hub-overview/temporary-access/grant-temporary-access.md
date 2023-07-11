@@ -4,7 +4,7 @@ eleventyComputed:
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit ensuite approuver ou refuser la demande.  
 ---
 {% snippet icon.badgeInfo %} 
-La fonction d'***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.HUBB }}. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.HUBB }}. Visitez [Accorder un accès temporaire à une entrée dans {{ en.RDM }}](/fr/rdm/windows/user-interface/content-area/temporary-access/grant-temporary-access/) pour en savoir plus. 
+La fonction d'***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.HUBB }}. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.HUBB }}. Visitez [Accorder un accès temporaire à une entrée dans {{ fr.RDM }}](/fr/rdm/windows/user-interface/content-area/temporary-access/grant-temporary-access/) pour en savoir plus. 
 {% endsnippet %}
  
 La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit ensuite approuver ou refuser la demande.  

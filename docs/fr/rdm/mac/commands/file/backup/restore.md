@@ -13,7 +13,7 @@ Avant de pouvoir restaurer une sauvegarde, vous ***DEVEZ*** créer une source de
 
 1. Pour restaurer une source de données à partir d'une sauvegarde, sélectionnez-la comme source de données actuelle. 
 1. Cliquer sur ***Fichier - Copie de sauvegarde - Restaurer*** pour afficher la liste de toutes vos sauvegardes.  
-![Devolutions {{ en.OBACK }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0233.png) 
+![Devolutions {{ fr.OBACK }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0233.png) 
 1. Sélectionner la sauvegarde que vous souhaitez restaurer et cliquer sur ***OK*** . 
 1. L'assistant de sauvegarde en ligne affiche une brève description de la sauvegarde ainsi que la destination de restauration.  
 ![Assistant de sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0234.png) 

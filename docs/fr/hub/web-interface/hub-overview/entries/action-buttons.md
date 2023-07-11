@@ -78,7 +78,7 @@ Modifier les propriétés de l'entrée sélectionnée
 ![!!activate-launch.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/activate-launch.png) 
 		</td>
 		<td>
-Ouvrir dans {{ en.LAUNCHER }} 
+Ouvrir dans {{ fr.LAUNCHER }} 
 		</td>
 		<td>
 Lancer une session dans l'outil connexe {{ fr.DEVL }}. 

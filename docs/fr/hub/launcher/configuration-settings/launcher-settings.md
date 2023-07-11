@@ -28,7 +28,7 @@ Vous pouvez également valider les informations de la source de données et les 
 
 ### Vérifier les mises à jour 
 
-Valider et télécharger les nouvelles versions de {{ en.LAUNCHER }}. 
+Valider et télécharger les nouvelles versions de {{ fr.LAUNCHER }}. 
 
 ### À propos 
 

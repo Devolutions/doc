@@ -17,7 +17,7 @@ Seuls les ***Administrateurs*** et les utilisateurs disposant de permissions dan
 ![!!Hub4008.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4008.png) 
 1. Coller la ***Licence*** et cliquer ***Ajouter***.  
 ![!!Hub4009.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4009.png) 
-1. Cliquer sur le bouton ***Modifier*** à côté de la licence de produit ***{{ en.LAUNCHER }}***.  
+1. Cliquer sur le bouton ***Modifier*** à côté de la licence de produit ***{{ fr.LAUNCHER }}***.  
 ![!!Hub4010.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4010.png) 
 1. Cliquer ***Assigné à*** et gérer l'accès aux licences de vos utilisateurs.  
 ![!!Hub4011.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4011.png) 
