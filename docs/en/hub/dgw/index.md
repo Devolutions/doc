@@ -1,4 +1,4 @@
 ---
 title: Devolutions Gateway
-order: 40
+order: 50
 ---

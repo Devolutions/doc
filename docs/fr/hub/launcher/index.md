@@ -1,6 +1,6 @@
 ---
 title: Devolutions Launcher
-order: 50
+order: 60
 ---
 ![!!{{ fr.DEVL }} logo](https://webdevolutions.blob.core.windows.net/images/projects/launcher/logos/launcher-color-shadow.svg)  
 

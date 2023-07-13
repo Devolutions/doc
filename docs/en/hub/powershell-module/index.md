@@ -4,7 +4,7 @@ eleventyComputed:
   description: The {{ en.PS }} module is a way to access, create, update, and remove elements in your {{ en.HUBB }}. This will help you to automate some operations/scripts.
   keywords:
   - PowerShell
-  order: 30
+  order: 40
 ---
 The {{ en.PS }} module is a way to access, create, update, and remove elements in your {{ en.HUBB }}. This will help you to automate some operations/scripts. After you install the {{ en.PS }} module, you will be ready to use the module and connect to your {{ en.HUBB }}.  
 
