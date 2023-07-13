@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Grant Temporary Access to an Entry in {{ en.HUBB }}
+  title: Approve Temporary Access to an Entry in {{ en.HUBB }}
 ---
 {% youtube '5XwhadoYKKc' %}  
 
 {% snippet icon.badgeInfo %} 
-The ***Temporary Access*** feature is also available in {{ en.RDM }} with {{ en.HUBB }}. You can view and approve temporary access requests in {{ en.RDM }} even if the request was made in {{ en.HUBB }}. Visit [this topic](/rdm/windows/user-interface/content-area/temporary-access-rdm/grant-temporary-access-to-an-entry/) to learn more. 
+The ***Temporary Access*** feature is also available in {{ en.RDM }} with {{ en.HUBB }}. You can view and approve temporary access requests in {{ en.RDM }} even if the request was made in {{ en.HUBB }}. Visit [this topic](/rdm/windows/user-interface/content-area/temporary-access-rdm/approve-temporary-access-to-an-entry/) to learn more. 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The authorizer must then approve or deny the request.  

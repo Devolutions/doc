@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Accorder un accès temporaire à une entrée dans {{ fr.HUBB }}
+  title: Approuver un accès temporaire à une entrée dans {{ fr.HUBB }}
 ---
 {% snippet icon.badgeInfo %} 
-La fonction d' ***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.HUBB }}. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.HUBB }}. Visitez [cette rubrique](/fr/rdm/windows/user-interface/content-area/temporary-access-rdm/grant-temporary-access-to-an-entry/) pour en savoir plus. 
+La fonction d'***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.HUBB }}. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.HUBB }}. Visitez [cette rubrique](/fr/rdm/windows/user-interface/content-area/temporary-access-rdm/approve-temporary-access-to-an-entry/) pour en savoir plus. 
 {% endsnippet %}
  
-La fonction d' ***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'autorisateur doit ensuite approuver ou refuser la demande.  
+La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'autorisateur doit ensuite approuver ou refuser la demande.  
 
 Pour apprendre comment afficher les demandes en attente, consultez la section [Afficher les demandes d'accès temporaire](#afficher-les-demandes-daccès-temporaire) .  
 

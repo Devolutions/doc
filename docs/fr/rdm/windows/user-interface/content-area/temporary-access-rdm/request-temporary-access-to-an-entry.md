@@ -6,7 +6,7 @@ eleventyComputed:
 Pour apprendre comment approuver ou refuser une demande, consultez notre rubrique [Accorder un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/rdm/windows/user-interface/content-area/temporary-access-rdm/grant-temporary-access-to-an-entry/) . 
 {% endsnippet %}
  
-La fonction d' ***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions d'exécution pour une entrée spécifique. L'autorisateur doit alors approuver ou refuser la demande.  
+La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions d'exécution pour une entrée spécifique. L'autorisateur doit alors approuver ou refuser la demande.  
 
 ### Demander un accès temporaire 
 
@@ -15,9 +15,14 @@ Suivez les étapes ci-dessous pour savoir comment faire une demande d'accès tem
 1. Dans le ***{{ fr.NPANE }}*** de {{ fr.RDM }} , ouvrir l'entrée à laquelle accéder en double cliquant dessus. 
 1. Un message s'affichera demandant si vous voulez envoyer une demande d'accès temporaire. Cliquer sur ***Oui*** .  
 ![Envoyer une demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2120.png) 
-1. Dans la fenêtre ***Demande d'accès temporaire*** , sélectionner la ***Durée d'accès*** ainsi que l'autorisateur à qui envoyer la demande.  
+1. Dans la fenêtre ***Demande d'accès temporaire*** , sélectionner la ***Durée d'accès*** ainsi que l'autorisateur à qui envoyer la demande.
+
+{% snippet icon.badgeInfo %} 
+La durée de ***l'accès temporaire*** commence dès que la demande est approuvée.
+{% endsnippet %}
+
 ![Demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2121.png) 
-1. Rédiger un court ***Message*** à l'intention de l'autorisateur expliquant les raisons de cette demande d'accès. Ce message est facultatif mais vivement recommandé, car il permet à l'autorisateur de prendre une décision plus éclairée. Lorsque terminé, cliquer sur ***Envoyer une demande*** . 
+1. Rédiger un court ***Message*** à l'intention de l'autorisateur expliquant les raisons de cette demande d'accès. Ce message est facultatif mais vivement recommandé, car il permet à l'autorisateur de prendre une décision plus éclairée. Lorsque terminé, cliquer sur ***Envoyer une demande***. 
 1. Un message indiquera que la demande a été envoyée à l'autorisateur. Cliquer sur ***OK*** pour le faire disparaître. 
 
 Vous devez maintenant attendre que l'autorisateur réponde à votre demande. En fonction de ses paramètres, vous serez peut-être averti par courriel lorsqu'il répondra, que la réponse soit positive ou négative.  

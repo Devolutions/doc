@@ -16,13 +16,18 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 Follow the steps below to learn how to make a temporary access request:  
 
-1. In the ***{{ en.NPANE }}*** of {{ en.RDM }} , open the entry you want access to by double clicking on it. 
-1. A message will pop up asking if you want to send a request to get temporary access. Click ***Yes*** .  
+1. In the ***{{ en.NPANE }}*** of {{ en.RDM }}, open the entry you want access to by double clicking on it. 
+1. A message will pop up asking if you want to send a request to get temporary access. Click ***Yes***.  
 ![Send a Temporary Access Request](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2059.png) 
 1. In the ***Temporary Access Request*** window, select the ***Access duration*** as well as the authorizer you want to send the request to.  
+
+{% snippet icon.badgeInfo %} 
+Please note that the duration of the ***Temporary Access*** begins when the request is approved.
+{% endsnippet %}  
+
 ![Temporary Access Request](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2060.png) 
-1. Write a short ***Message*** to the authorizer explaining why you want access to this entry. This is optional, but we strongly recommend it as it allows the authorizer to make a more informed decision. When you are done, click on ***Send Request*** . 
-1. A message will appear indicating that the request has been sent to the authorizer. Click ***OK*** to make it disappear. 
+4. Write a short ***Message*** to the authorizer explaining why you want access to this entry. This is optional, but we strongly recommend it as it allows the authorizer to make a more informed decision. When you are done, click on ***Send Request***.  
+5. A message will appear indicating that the request has been sent to the authorizer. Click ***OK*** to make it disappear. 
 
 You now have to wait for the authorizer to respond to your request. Depending on their settings, you may be notified by email when they respond, whether the answer is positive or negative.  
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Accorder un accès temporaire à une entrée dans {{ fr.RDM }}
+  title: Approuver un accès temporaire à une entrée dans {{ fr.RDM }}
 ---
 {% snippet icon.badgeInfo %} 
 Si une demande d'accès temporaire a été faite dans {{ fr.RDM }} à partir d'une base de données {{ fr.HUB }} , le processus d'autorisation doit être effectué dans {{ fr.HUB }} . Consultez notre rubrique [Accorder un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) . 
@@ -21,7 +21,7 @@ Pour apprendre comment répondre à une demande, consultez la section [Approuver
 Pour afficher toutes vos demandes passées et actuelles, vous devez utiliser la boîte ***Demandes d'accès en attente*** dans le ***Tableau de bord*** pour ouvrir la fenêtre ***Demandes d'accès temporaire*** .  
 ![Tableau de bord – Demandes d'accès en attente](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2124.png) 
 
-Dans la fenêtre ***Demandes d'accès temporaire*** , vous pouvez voir toutes les demandes d'accès temporaire et les trier par ***Statut*** , ***Nom d'utilisateur*** , ***Source de données de l'utilisateur*** , ***Entrée*** , ***Action*** , ***Date*** , ***Durée demandée*** , ***Durée de l'autorisation*** , ***Nom d'utilisateur de l'autorisateur*** ou ***Compte utilisateur connecté de l'autorisateur*** .  
+Dans la fenêtre ***Demandes d'accès temporaire*** , vous pouvez voir toutes les demandes d'accès temporaire et les trier par ***Statut***, ***Nom d'utilisateur***, ***Source de données de l'utilisateur***, ***Entrée*** , ***Action***, ***Date*** , ***Durée demandée***, ***Durée de l'autorisation***, ***Nom d'utilisateur de l'autorisateur*** ou ***Compte utilisateur connecté de l'autorisateur***.  
 ![Afficher les demandes d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2125.png) 
 
 Il est également possible d'afficher uniquement certaines demandes en utilisant le menu déroulant ***Statut*** ou avec la barre de filtre au haut de la fenêtre.  
@@ -29,17 +29,21 @@ Il est également possible d'afficher uniquement certaines demandes en utilisant
 Le bouton ***Afficher les messages*** vous permet de visualiser le ***Message de la demande*** et le ***Message d'autorisation*** d'une demande spécifique.  
 ![Messages des demandes](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2127.png) 
 
-Enfin, en cliquant sur les boutons ***Approuver*** et ***Refuser*** , vous ouvrez la fenêtre ***Réponse à la demande d'accès temporaire*** qui est décrite dans la [section suivante](#approuverrefuser-les-demandes-daccès-temporaire) . 
+Enfin, en cliquant sur les boutons ***Approuver*** et ***Refuser*** , vous ouvrez la fenêtre ***Réponse à la demande d'accès temporaire*** qui est décrite dans la [section suivante](#approuverrefuser-les-demandes-daccès-temporaire). 
 
 ### Approuver/refuser les demandes d'accès temporaire 
 
 {% snippet icon.badgeInfo %} 
-Lorsque vous utilisez des sources de données Microsoft SQL Server ou Microsoft Azure SQL, si vous voulez que les utilisateurs reçoivent automatiquement un courriel les informant de votre réponse, vous devez d'abord [Activer les notifications d'accès temporaire](/fr/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) dans {{ fr.RDM }} . 
+Lorsque vous utilisez des sources de données Microsoft SQL Server ou Microsoft Azure SQL, si vous voulez que les utilisateurs reçoivent automatiquement un courriel les informant de votre réponse, vous devez d'abord [Activer les notifications d'accès temporaire](/fr/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) dans {{ fr.RDM }}. 
+{% endsnippet %}
+
+{% snippet icon.badgeInfo %} 
+La durée de ***l'accès temporaire*** commence dès que la demande est approuvée.
 {% endsnippet %}
  
 Pour répondre à une demande, vous devez ouvrir la fenêtre ***Réponse à la demande d'accès temporaire*** . Il y a deux façons d'y accéder.  
 
-La première option consiste à utiliser la boîte ***Demandes d'accès en attente*** (voir image ci-dessous) dans l'onglet ***Aperçu*** de votre ***Tableau de bord*** . En cliquant sur la coche verte (approuver la demande) ou le "X" rouge (refuser la demande) à côté d'une demande, vous ouvrirez la fenêtre ***Réponse à la demande d'accès temporaire*** .  
+La première option consiste à utiliser la boîte ***Demandes d'accès en attente*** (voir image ci-dessous) dans l'onglet ***Aperçu*** de votre ***Tableau de bord*** . En cliquant sur la coche verte (approuver la demande) ou le "X" rouge (refuser la demande) à côté d'une demande, vous ouvrirez la fenêtre ***Réponse à la demande d'accès temporaire***.  
 ![Demandes d'accès en attente](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2128.png) 
 
 La deuxième option vous demande de passer par la boîte ***Demandes d'accès en attente*** décrite dans la [section précédente](#afficher-les-demandes-daccès-temporaire) . Quelle que soit la façon dont vous choisissez d'accéder à la fenêtre de réponse, le résultat sera le même.  

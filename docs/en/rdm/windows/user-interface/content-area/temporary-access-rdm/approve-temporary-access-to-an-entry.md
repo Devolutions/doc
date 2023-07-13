@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Grant Temporary Access to an Entry in {{ en.RDM }}
+  title: Approve Temporary Access to an Entry in {{ en.RDM }}
 ---
 {% youtube 'En3pmonz1f8' %}  
 
 {% snippet icon.badgeInfo %} 
-If a temporary access request was made in {{ en.RDM }} from a {{ en.HUB }} database, the authorization process must be performed in {{ en.HUB }} . See our [Grant Temporary Access to an Entry in {{ en.HUBB }}](/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) topic. 
+If a temporary access request was made in {{ en.RDM }} from a {{ en.HUB }} database, the authorization process must be performed in {{ en.HUB }} . See our [Approve Temporary Access to an Entry in {{ en.HUBB }}](/hub/web-interface/hub-overview/temporary-access-hub-business/approve-temporary-access-to-an-entry/) topic. 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The authorizer must then approve or deny the request. 
@@ -38,7 +38,10 @@ Finally, clicking on the ***Approve*** and ***Deny*** buttons open the ***Tempor
 {% snippet icon.badgeInfo %} 
 When using Microsoft SQL Server or Microsoft Azure SQL data sources, if you want users to automatically receive an email notifying them of your response, you must first [Enable Temporary Access Notifications](/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) in {{ en.RDM }} . 
 {% endsnippet %}
- 
+
+{% snippet icon.badgeInfo %} 
+Please note that the duration of the ***Temporary Access*** begins when the request is approved.
+{% endsnippet %}  
 
 To respond to a request, you need to open the ***Temporary Access Response*** window. There are two ways to access it.  
 

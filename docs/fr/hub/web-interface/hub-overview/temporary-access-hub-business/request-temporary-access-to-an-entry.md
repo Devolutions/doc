@@ -3,33 +3,33 @@ eleventyComputed:
   title: Demander un accès temporaire à une entrée dans {{ fr.HUBB }}
 ---
 {% snippet icon.badgeInfo %} 
-Pour apprendre comment approuver ou refuser une demande, consultez notre rubrique [Accorder un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) . 
+Pour apprendre comment approuver ou refuser une demande, consultez notre rubrique [Approuver un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access-hub-business/approve-temporary-access-to-an-entry/) . 
 {% endsnippet %}
  
-La fonction d ' ***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L 'autorisateur doit alors approuver ou refuser la demande. 
+La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L 'autorisateur doit alors approuver ou refuser la demande. 
 
 ### Demander un accès temporaire 
 
 Suivez les étapes ci-dessous pour savoir comment faire une demande d 'accès temporaire :  
 
-1. Dans l 'onglet ***Coffre*** , sélectionner l 'entrée à laquelle accéder dans le coffre de votre choix. 
-1. Cliquer sur le bouton ***Plus*** , puis sélectionner ***Demande d 'accès temporaire*** .  
+1. Dans l 'onglet ***Coffre***, sélectionner l 'entrée à laquelle accéder dans le coffre de votre choix. 
+1. Cliquer sur le bouton ***Plus***, puis sélectionner ***Demande d 'accès temporaire*** .  
 ![Demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2132.png) 
-1. Dans la fenêtre ***Demande d 'accès temporaire*** , sélectionner la ***Durée de l 'accès*** dans la liste déroulante.  
+1. Dans la fenêtre ***Demande d 'accès temporaire***, sélectionner la ***Durée de l 'accès*** dans la liste déroulante.  
 ![Durée de l'accès](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2133.png) 
 1. Sélectionner le niveau de ***Permissions*** à obtenir temporairement entre ***Lecteurs*** , ***Opérateurs*** et ***Collaborateurs*** à l 'aide de la liste déroulante.  
 ![Permissions](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2134.png) 
 
-En passant votre souris sur l 'icône de l 'œil alors qu 'un niveau de ***Permissions*** est sélectionné, vous pouvez voir quelles permissions il comprend. Par exemple, l 'image suivante montre les permissions pour le rôle d ' ***Opérateurs*** .  
+En passant votre souris sur l'icône de l 'œil alors qu 'un niveau de ***Permissions*** est sélectionné, vous pouvez voir quelles permissions il comprend. Par exemple, l 'image suivante montre les permissions pour le rôle d ' ***Opérateurs***.  
 ![Contenu des Permissions](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2135.png) 
 
-Pour vous aider à décider quel rôle sélectionner, vous pouvez vsiter la rubrique [Rôles et permissions](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/) .  
+Pour vous aider à décider quel rôle sélectionner, vous pouvez vsiter la rubrique [Rôles et permissions](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/).  
 
 5. Sélectionner l 'autorisateur à qui envoyer la demande en utilisant la liste déroulante. Il est possible d 'affiner la recherche en utilisant la barre de filtre. 
 ![Envoyer la demande à](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2136.png) 
-1. Rédiger un court ***Message*** à l 'intention de l 'autorisateur expliquant les raisons de cette demande d 'accès. Ce message est facultatif mais vivement recommandé, car il permet à l 'autorisateur de prendre une décision plus éclairée. Lorsque terminé, cliquer sur ***Envoyer une demande*** .  
+1. Rédiger un court ***Message*** à l'intention de l 'autorisateur expliquant les raisons de cette demande d 'accès. Ce message est facultatif mais vivement recommandé, car il permet à l 'autorisateur de prendre une décision plus éclairée. Lorsque terminé, cliquer sur ***Envoyer une demande*** .  
 
-Vous devez maintenant attendre que l 'autorisateur réponde à votre demande. Vous serez informé par courriel, que la réponse soit positive ou négative. La [section suivante](#réponse-à-votre-requête) détaille ce qu 'il faut faire une fois que vous avez reçu une réponse. 
+Vous devez maintenant attendre que l'autorisateur réponde à votre demande. Vous serez informé par courriel, que la réponse soit positive ou négative. La [section suivante](#réponse-à-votre-requête) détaille ce qu'il faut faire une fois que vous avez reçu une réponse. 
 
 ### Réponse à votre requête 
 

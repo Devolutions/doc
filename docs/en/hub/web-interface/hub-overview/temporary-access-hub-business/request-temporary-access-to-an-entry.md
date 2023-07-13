@@ -8,7 +8,7 @@ eleventyComputed:
 {% snippet icon.badgeNotice %} 
 This video includes information pertaining to both requesters and authorizers. A user wanting to request temporary access to an entry may find this visual aid useful, but watching the video is not essential since all the steps are described in this topic.  
 
-To learn how to approve or deny a request, visit our [Grant Temporary Access to an Entry in {{ en.HUBB }}](/hub/web-interface/hub-overview/temporary-access-hub-business/grant-temporary-access-to-an-entry/) topic. 
+To learn how to approve or deny a request, visit our [Approve Temporary Access to an Entry in {{ en.HUBB }}](/hub/web-interface/hub-overview/temporary-access-hub-business/approve-temporary-access-to-an-entry/) topic. 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The authorizer must then approve or deny the request.  
@@ -47,7 +47,7 @@ You can now perform your task with this elevated permission.
 
 The ***View Details*** button allows you to see information about your ***Temporary Access Request*** as well as revoke your access.  
 
-In the top section, you can see the ***Permissions*** level granted by the authorizer, the ***Requested duration*** , the ***Authorized duration*** , and the ***Time remaining*** on your temporary access.  
+In the top section, you can see the ***Permissions*** level approved by the authorizer, the ***Requested duration*** , the ***Authorized duration*** , and the ***Time remaining*** on your temporary access.  
 
 Further down, you can read the message you sent to the authorizer when you created your request as well as the approval message they sent back.  
 
