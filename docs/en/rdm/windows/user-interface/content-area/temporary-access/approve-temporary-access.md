@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Grant temporary access to an entry in {{ en.RDM }}
+  title: Approve temporary access to an entry in {{ en.RDM }}
   description: The Temporary Access feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request. 
 ---
 {% youtube 'En3pmonz1f8' %}  
 
 {% snippet icon.badgeInfo %} 
-If a temporary access request was made in {{ en.RDM }} from a {{ en.HUB }} database, the authorization process must be performed in {{ en.HUB }}. See [Grant temporary access to an entry in {{ en.HUBB }}](/hub/web-interface/hub-overview/temporary-access/grant-temporary-access/). 
+If a temporary access request was made in {{ en.RDM }} from a {{ en.HUB }} database, the authorization process must be performed in {{ en.HUB }}. See [Approve temporary access to an entry in {{ en.HUBB }}](/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request. 
@@ -35,6 +35,10 @@ Using ***View messages***, you can view the ***Request message*** and the ***Aut
 Finally, clicking on ***Approve*** or ***Deny*** opens the ***Temporary Access Response*** window, which is described in the [next section](#approvedeny-temporary-access-requests). 
 
 ## Approve/Deny temporary access requests 
+
+{% snippet icon.badgeInfo %} 
+The duration of temporary access begins when the request is approved.
+{% endsnippet %}
 
 To respond to a request, you need to open the ***Temporary Access Response*** window. There are two ways to access it.  
 

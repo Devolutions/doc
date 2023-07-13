@@ -4,12 +4,16 @@ eleventyComputed:
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions d'exécution pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande.  
 ---
 {% snippet icon.badgeInfo %} 
-Pour apprendre comment approuver ou refuser une demande, consultez [Accorder un accès temporaire à une entrée dans {{ fr.RDM }}](/fr/rdm/windows/user-interface/content-area/temporary-access/grant-temporary-access/). 
+Pour apprendre comment approuver ou refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ fr.RDM }}](/fr/rdm/windows/user-interface/content-area/temporary-access/grant-temporary-access/). 
 {% endsnippet %}
  
 La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions d'exécution pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande.  
 
 ## Demander un accès temporaire 
+
+{% snippet icon.badgeInfo %} 
+la durée de l'accès temporaire commence lorsque la demande est approuvée. 
+{% endsnippet %}
 
 Suivez les étapes ci-dessous pour savoir comment faire une demande d'accès temporaire :  
 
@@ -25,7 +29,7 @@ Vous devez maintenant attendre que l'approbateur réponde à votre demande. En f
 
 Si vous ne recevez pas de courriel, essayez d'accéder à l'entrée dans {{ fr.RDM }}. Si vous pouvez y accéder, cela signifie que l'approbateur a accepté votre demande. Dans le cas contraire, nous vous suggérons de le contacter pour savoir s'il l'a refusée ou s'il n'a simplement pas encore répondu.  
 
-Une fois que l'approbateur vous a accordé l'accès, vous pouvez aller directement à votre entrée dans {{ fr.RDM }}. Vous avez maintenant temporairement accès à l'entrée. 
+Une fois que l'approbateur vous a approuvé l'accès, vous pouvez aller directement à votre entrée dans {{ fr.RDM }}. Vous avez maintenant temporairement accès à l'entrée. 
 
 ## Révoquer votre accès temporaire 
 
