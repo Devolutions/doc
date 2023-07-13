@@ -1,6 +1,9 @@
 ---
-title: Security
+eleventyComputed:
+  title: Security
+  description: Security options in {{ en.RDM }} Mac
 ---
+
 Use File - Preferences - Security to configure the security of the application. 
 
 ## Settings 
@@ -65,10 +68,10 @@ Use a Yubikey device to get access to the application when it starts or when it'
 	</tr>
 	<tr>
 		<td>
-Require Google Authenticator 
+Require a TOTP validation 
 		</td>
 		<td>
-Use a Google Authenticator device to get access to the application when it starts or when it's locked. 
+Use Devolutions Workspace or Google Authenticator device to get access to the application when it starts or when it's locked. 
 		</td>
 	</tr>
 	<tr>
@@ -76,7 +79,7 @@ Use a Google Authenticator device to get access to the application when it start
 Override account name 
 		</td>
 		<td>
-If you wish to use a different Google Authenticator account than the one previously linked to your RDM account, you could override the account name but you will have to reconfigure Google Authenticator. 
+If you wish to use a different Devolutions Workspace or Google Authenticator account than the one previously linked to your RDM account, you could override the account name but you will have to reconfigure it.
 		</td>
 	</tr>
 </table>
