@@ -10,7 +10,7 @@ In {{ en.RDM }} there are the <a href="#credential-management">***Credential Man
 Email ***Authentication mode*** is now deprecated for ***Bitwarden*** entries.
 {% endsnippet %}  
 {% snippet icon.badgeInfo %}
-To learn more about creating and managing a Bitwarden account, please consult the documentation on their official website.
+To learn more about creating and managing a Bitwarden account, please consult the [documentation](https://bitwarden.com/help/) on their official website.
 {% endsnippet %}
 
 ## Credential Management
@@ -25,9 +25,9 @@ Here is a description for each field or option, in order from top to bottom. The
   * ***Default***: Default Bitwarden URL
   * ***Custom***: Custom URL for Bitwarden
 * ***Use "My Account Settings"***: Go to ***File*** – ***My Account Settings*** – ***Settings*** – ***Password Management*** and click on ***Bitwarden*** to set up this option first; replaces the ***Username*** and ***Password*** fields
-* ***Client ID***: Bitwarden's Client ID
-* ***Client secret***: Bitwarden's Client secret
-* ***Master password***: Bitwarden's master password
+* ***Client ID***: The API key’s Client ID
+* ***Client secret***: The API key’s Client Secret
+* ***Master password***: Bitwarden's master password for that account
 * ***Always ask password***: Always be prompted for the master password when accessing this entry
 * ***Credentials***
   * Click on the ellipsis button to pick a specific credential for this entry
