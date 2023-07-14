@@ -25,7 +25,9 @@ Follow the steps below to learn how to make a temporary access request:
 1. A message will pop up asking if you want to send a request to get temporary access. Click ***Yes***.  
 ![Send a temporary access request](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2059.png) 
 1. In the ***Temporary Access Request*** window, select ***Access duration***. You can click ***Set custom time frame*** if you need access for a specific period of time.
+
 1. Choose the approver you want to send the request to.  
+
 ![Temporary Access Request](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6011.png) 
 5. Write a short ***Message*** to the approver explaining why you want access to this entry and its dependencies. This is optional, but we strongly recommend it as it allows the approver to make a more informed decision. When you are done, click on ***Send Request***.  
 6. A message will appear indicating that the request has been sent to the approver. Click ***OK*** to make it disappear. 
