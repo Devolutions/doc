@@ -35,7 +35,7 @@ Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre
 ## Approuver/refuser les demandes d'accès temporaire 
 
 {% snippet icon.badgeInfo %} 
-La durée de l'accès temporaire commence lorsque la demande est approuvée.
+La durée de l'***Accès Temporaire*** commence lorsque la demande est approuvée.
 {% endsnippet %}
  
 Pour répondre à une demande, vous devez ouvrir la fenêtre ***Réponse à la demande d'accès temporaire***. Il y a deux façons d'y accéder.  

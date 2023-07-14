@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Grant temporary access to an entry in {{ en.HUBB }}
+  title: Approve temporary access to an entry in {{ en.HUBB }}
   description: The Temporary Access feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request.
 ---
 {% youtube '5XwhadoYKKc' %}  
 
 {% snippet icon.badgeInfo %} 
-The ***Temporary Access*** feature is also available in {{ en.RDM }} with {{ en.HUBB }}. You can view and approve temporary access requests in {{ en.RDM }} even if the request was made in {{ en.HUBB }}. Visit [Grant temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/grant-temporary-access/) to learn more. 
+The ***Temporary Access*** feature is also available in {{ en.RDM }} with {{ en.HUBB }}. You can view and approve temporary access requests in {{ en.RDM }} even if the request was made in {{ en.HUBB }}. Visit [Approve temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/approve-temporary-access/) to learn more. 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request.  
@@ -21,6 +21,10 @@ Note that you can also see all temporary access pending requests from a selected
 ![Temporary access request from the dashboard](https://webdevolutions.azureedge.net/docs/en/hub/Hub2036.png)  
 
 ## Approve/Deny temporary access requests 
+
+{% snippet icon.badgeInfo %} 
+The duration of ***Temporary Access*** begins when the request is approved.
+{% endsnippet %}
 
 When the entry is selected, clicking on ***View Details*** in the ***Temporary Access Request*** section allows you to see information about the request as well as ***Approve***/***Deny*** it.  
 ![View Details](https://webdevolutions.azureedge.net/docs/en/hub/Hub2042.png)  

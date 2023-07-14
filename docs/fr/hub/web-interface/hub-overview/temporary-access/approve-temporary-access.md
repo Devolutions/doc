@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
-  title: Accorder un accès temporaire à une entrée dans {{ fr.HUBB }}
+  title: Approuver un accès temporaire à une entrée dans {{ fr.HUBB }}
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit ensuite approuver ou refuser la demande.  
 ---
 {% snippet icon.badgeInfo %} 
-La fonction d'***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.HUBB }}. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.HUBB }}. Visitez [Accorder un accès temporaire à une entrée dans {{ fr.RDM }}](/fr/rdm/windows/user-interface/content-area/temporary-access/grant-temporary-access/) pour en savoir plus. 
+La fonction d'***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.HUBB }}. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.HUBB }}. Visitez [Approuver un accès temporaire à une entrée dans {{ fr.RDM }}](/fr/rdm/windows/user-interface/content-area/temporary-access/approve-temporary-access/) pour en savoir plus. 
 {% endsnippet %}
  
 La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit ensuite approuver ou refuser la demande.  
@@ -25,6 +25,10 @@ Notez que vous pouvez également voir toutes les demandes d'accès temporaire en
 ![Demande d'accès temporaire à partir du Tableau de bord](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2142.png) 
 
 ## Approuver/refuser les demandes d'accès temporaire 
+
+{% snippet icon.badgeInfo %} 
+La durée de l'***Accès temporaire*** commence lorsque la demande est approuvée.
+{% endsnippet %}
 
 Lorsque l'entrée est sélectionnée, cliquer sur ***Afficher les détails*** dans la section ***Demande d'accès temporaire*** vous permet de voir les informations sur la demande ainsi que d'approuver/refuser celle-ci.  
 ![Afficher les détails](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2143.png) 

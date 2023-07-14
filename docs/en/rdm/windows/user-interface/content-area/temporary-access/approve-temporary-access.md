@@ -37,7 +37,7 @@ Finally, clicking on ***Approve*** or ***Deny*** opens the ***Temporary Access R
 ## Approve/Deny temporary access requests 
 
 {% snippet icon.badgeInfo %} 
-The duration of temporary access begins when the request is approved.
+The duration of ***Temporary Access*** begins when the request is approved.
 {% endsnippet %}
 
 To respond to a request, you need to open the ***Temporary Access Response*** window. There are two ways to access it.  

@@ -4,12 +4,16 @@ eleventyComputed:
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande. 
 ---
 {% snippet icon.badgeInfo %} 
-Pour apprendre comment approuver ou refuser une demande, consultez [Accorder un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access/grant-temporary-access/). 
+Pour apprendre comment approuver ou refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
  
 La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande. 
 
 ## Demander un accès temporaire 
+
+{% snippet icon.badgeInfo %} 
+La durée de ***l'Accès temporaire*** commence lorsque la demande est approuvée.
+{% endsnippet %}
 
 Suivez les étapes ci-dessous pour apprendre comment demander un accès temporaire :  
 
@@ -46,7 +50,7 @@ Vous pouvez maintenant effectuer votre tâche avec cette permission élevée.
 
 ***Afficher les détails*** vous permet de consulter des informations sur votre demande d'accès temporaire et de révoquer votre accès.  
 
-Dans la section supérieure, vous pouvez voir le niveau de ***Permissions*** accordé par l'approbateur, la ***Durée demandée***, la ***Durée de l'autorisation*** et le ***Temps restant*** à votre accès temporaire.  
+Dans la section supérieure, vous pouvez voir le niveau de ***Permissions*** approuvé par l'approbateur, la ***Durée demandée***, la ***Durée de l'autorisation*** et le ***Temps restant*** à votre accès temporaire.  
 
 Plus bas, vous pouvez lire le message que vous avez envoyé à l'approbateur lorsque vous avez créé votre demande, ainsi que le message d'approbation qu'il vous a renvoyé.  
 

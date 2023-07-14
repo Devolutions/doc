@@ -16,7 +16,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 ## Request temporary access 
 
 {% snippet icon.badgeInfo %} 
-The duration of temporary access begins when the request is approved.
+The duration of ***Temporary Access*** begins when the request is approved.
 {% endsnippet %}
 
 Follow the steps below to learn how to make a temporary access request:  
