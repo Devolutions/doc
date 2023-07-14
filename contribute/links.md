@@ -8,7 +8,7 @@ Two link types can be used in our documentation:
 
 An internal link redirects to an anchor in the same topic. You place an anchor where you want the reader to be redirected after clicking your link.  
 
-You don't have to create an anchor to redirect to a heading, as headers are already anchors by default.  
+You don't have to create an anchor to redirect to a heading, as they already are considered anchors by default.  
 
 #### Link to a heading (same topic)
 
