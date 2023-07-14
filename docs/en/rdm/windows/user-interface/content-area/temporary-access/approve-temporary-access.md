@@ -21,11 +21,11 @@ To learn how to respond to a request, go to [Approve/Deny temporary access reque
 
 ## View temporary access requests 
 
-To view all your past and current requests, you must use the following ***Pending Access Requests*** box to open the ***Temporary Access Requests*** window.  
-![Dashboard – Pending Access Requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2072.png) 
+To view all your past and current requests, you must use the following ***pending access requests*** box to open the ***Temporary Access Requests*** window.  
+![Dashboard – pending access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6010.png) 
 
-In the ***Temporary Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***Username***, ***Data source user***, ***Entry***, ***Action***, ***Date***, ***Request duration***, ***Authorized duration***, ***Authorizer username***, or ***Authorizer data source user***.  
-![Show temporary access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2074.png) 
+In the ***Temporary Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***Username***, ***Data source user***, ***Entry***, ***Action***, ***Requested on***, ***Requested duration***, ***Requested start time***, ***Requested end time***, ***Authorized duration***, ***Authorized start time***, ***Authorized end time***, ***Authorizer username*** and ***Authorizer data source user***.
+![Show temporary access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6013.png) 
 
 It is also possible to display only certain requests with the ***Status*** drop-down menu or with the filter bar at the top.  
 
@@ -43,17 +43,18 @@ The duration of ***Temporary Access*** begins when the request is approved.
 To respond to a request, you need to open the ***Temporary Access Response*** window. There are two ways to access it.  
 
 The first option is to use the ***Pending Access Requests*** box (see image below) in the ***Overview*** tab of your ***Dashboard***. Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***Temporary Access Response*** window.  
-![Pending Access Requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2077.png) 
+![Pending Access Requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6015.png) 
 
 The second option requires you to go through the other ***Pending Access Requests*** box described in the [previous section](#view-temporary-access-requests). Whatever way you choose to access the response window, the result will be the same.  
-![Temporary Access Response](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2080.png) 
+![Temporary Access Response](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6014.png) 
 
 This view is divided into two sections: 
 
-* The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited. 
+* The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited. You can view the ***Entry's dependencies*** such as linked credentials and VPNs. Note that ***linked entries*** only come from the same vault, and not from PAM credentials linked to entries in regular vaults.
+
 * The ***Response Parameters*** section allows you to change the temporary access duration specified by the user. It is also possible to write a message to the user explaining your decision, but it remains optional. 
 
-Clicking on ***Send response*** will approve or deny the request, depending on what you selected earlier. A confirmation window will pop up which you can make disappear by clicking on ***OK***. 
+Clicking on ***Approve*** or ***Deny*** will approve or deny the request, depending on what you selected earlier. A confirmation window will pop up which you can make disappear by clicking on ***OK***. 
 
 {% snippet icon.badgeInfo %} 
 To learn more about the end user experience in {{ en.RDM }}, visit [Request temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/request-temporary-access/). 

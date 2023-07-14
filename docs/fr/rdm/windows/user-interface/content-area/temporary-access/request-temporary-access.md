@@ -4,7 +4,7 @@ eleventyComputed:
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions d'exécution pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande.  
 ---
 {% snippet icon.badgeInfo %} 
-Pour apprendre comment approuver ou refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ fr.RDM }}](/fr/rdm/windows/user-interface/content-area/temporary-access/grant-temporary-access/). 
+Pour apprendre comment approuver ou refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ fr.RDM }}](/fr/rdm/windows/user-interface/content-area/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
  
 La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions d'exécution pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande.  
@@ -12,7 +12,7 @@ La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une é
 ## Demander un accès temporaire 
 
 {% snippet icon.badgeInfo %} 
-la durée de l'accès temporaire commence lorsque la demande est approuvée. 
+la durée de l'***Accès temporaire*** commence lorsque la demande est approuvée. 
 {% endsnippet %}
 
 Suivez les étapes ci-dessous pour savoir comment faire une demande d'accès temporaire :  

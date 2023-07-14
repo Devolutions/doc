@@ -4,7 +4,7 @@ eleventyComputed:
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande. 
 ---
 {% snippet icon.badgeInfo %} 
-Si une demande d'accès temporaire a été faite dans {{ fr.RDM }} à partir d'une base de données {{ fr.HUB }}, le processus d'autorisation doit être effectué dans {{ fr.HUB }}. Consultez [Approuver un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access/approuver-temporary-access/). 
+Si une demande d'accès temporaire a été faite dans {{ fr.RDM }} à partir d'une base de données {{ fr.HUB }}, le processus d'autorisation doit être effectué dans {{ fr.HUB }}. Consultez [Approuver un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
  
 La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande. 
@@ -35,7 +35,7 @@ Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre
 ## Approuver/refuser les demandes d'accès temporaire 
 
 {% snippet icon.badgeInfo %} 
-La durée de l'***Accès Temporaire*** commence lorsque la demande est approuvée.
+La durée de l'***Accès temporaire*** commence lorsque la demande est approuvée.
 {% endsnippet %}
  
 Pour répondre à une demande, vous devez ouvrir la fenêtre ***Réponse à la demande d'accès temporaire***. Il y a deux façons d'y accéder.  
