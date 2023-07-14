@@ -12,7 +12,7 @@ La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une é
 ## Demander un accès temporaire 
 
 {% snippet icon.badgeInfo %} 
-la durée de l'***Accès temporaire*** commence lorsque la demande est approuvée. 
+La durée de l'***Accès temporaire*** commence lorsque la demande est approuvée. 
 {% endsnippet %}
 
 Suivez les étapes ci-dessous pour savoir comment faire une demande d'accès temporaire :  
@@ -20,9 +20,10 @@ Suivez les étapes ci-dessous pour savoir comment faire une demande d'accès tem
 1. Dans le ***{{ fr.NPANE }}*** de {{ fr.RDM }}, ouvrir l'entrée à laquelle accéder en double cliquant dessus. 
 1. Un message s'affichera demandant si vous voulez envoyer une demande d'accès temporaire. Cliquer sur ***Oui***.  
 ![Envoyer une demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2120.png) 
-1. Dans la fenêtre ***Demande d'accès temporaire***, sélectionner la ***Durée d'accès*** ainsi que l'approbateur à qui envoyer la demande.  
-![Demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2121.png) 
-1. Rédiger un court ***Message*** à l'intention de l'approbateur expliquant les raisons de cette demande d'accès. Ce message est facultatif mais vivement recommandé, car il permet à l'approbateur de prendre une décision plus éclairée. Lorsque terminé, cliquer sur ***Envoyer une demande***. 
+1. Dans la fenêtre ***Demande d'accès temporaire***, sélectionner la ***Durée d'accès***. Vous pouvez aussi cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'un accès pour une durée déterminée.
+1. Choisir l'approbateur à qui envoyer la demande.  
+![Demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin6004.png) 
+1. Rédiger un court ***Message*** à l'intention de l'approbateur expliquant les raisons de cette demande d'accès. Ce message est facultatif, mais vivement recommandé, car il permet à l'approbateur de prendre une décision plus éclairée. Lorsque terminé, cliquer sur ***Envoyer une demande***. 
 1. Un message indiquera que la demande a été envoyée à l'approbateur. Cliquer sur ***OK*** pour le faire disparaître. 
 
 Vous devez maintenant attendre que l'approbateur réponde à votre demande. En fonction de ses paramètres, vous serez peut-être averti par courriel lorsqu'il répondra, que la réponse soit positive ou négative.  
