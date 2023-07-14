@@ -26,7 +26,7 @@ You don't have to create an anchor to redirect to a heading, as they already are
 
 1. Click in the topic where you want the anchor to be.  
 1. Create the anchor `<a name="AnchorName"></a>`.  
-1. Replace `AnchorName` with an anchor name that relects the context.  
+1. Replace `AnchorName` with an anchor name that reflects the context.  
 1. In the same topic, create the link `[text](#AnchorName)`.  
 1. Replace `text` with the text of the link.  
 1. Replace `AnchorName` with the same anchor name previously created (leave the "#").  
@@ -35,7 +35,7 @@ You don't have to create an anchor to redirect to a heading, as they already are
 
 1. Click in the topic where you want the link to be.  
 1. Create the link following one of the templates below:  
-    * Link to a Devolutions help topic: `[text](/ProjectName/FoldersName/FileName/)`  
+    * Link to a Devolutions help topic: `[text](/ProjectName/FolderNames/FileName/)`  
       Example: `[RDM Security](/rdm/windows/overview/security/)`  
     * Link to any other URL: `[text](Complete URL)`  
       Example: `[Microsoft website](https://www.microsoft.com/)`  
