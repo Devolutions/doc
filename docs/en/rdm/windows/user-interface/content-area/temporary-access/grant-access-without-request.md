@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Grant temporary access to an entry in {{ en.RDM }}
+  order: 30
   description: Approvers can grant Temporary Access without request to a user and even if the user already has access.
 ---
 

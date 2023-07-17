@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Approve temporary access to an entry in {{ en.RDM }}
+  order: 20
   description: The Temporary Access feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request. 
 ---
 {% youtube 'En3pmonz1f8' %}  
@@ -50,7 +51,7 @@ The second option requires you to go through the other ***Pending Access Request
 
 This view is divided into two sections: 
 
-* The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited. You can view the ***Entry's dependencies*** such as linked credentials and VPNs. Note that ***linked entries*** can only come from the same vault. PAM credentials linked to entries in regular vaults are not included.
+* The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited. You can view the ***Entry's dependencies*** such as linked credentials and VPNs. Please be aware that ***linked entries*** are restricted to the same vault. PAM credentials linked to entries in regular vaults are not included.
 
 * The ***Response Parameters*** section allows you to change the temporary access duration specified by the user. It is also possible to write a message to the user explaining your decision, but it remains optional. 
 
