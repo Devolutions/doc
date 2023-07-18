@@ -24,7 +24,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
  4. Click on ***Set custom time frame*** if you need to grant access for a specific period of time and write a short ***Message*** to the user explaining why you grant access.  
 
  1. Click ***Grant Access*** to close the window.  
-![The temporary access has been granted](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6020.png)  
+![The temporary access has been granted](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6022.png)  
 The ***Temporary Access*** has been granted.  
 
 
