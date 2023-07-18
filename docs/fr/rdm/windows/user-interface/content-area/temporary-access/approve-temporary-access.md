@@ -1,8 +1,10 @@
 ---
 eleventyComputed:
   title: Approuver un accès temporaire à une entrée dans {{ fr.RDM }}
+  order: 20
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande. 
 ---
+
 {% snippet icon.badgeInfo %} 
 Si une demande d'accès temporaire a été faite dans {{ fr.RDM }} à partir d'une base de données {{ fr.HUB }}, le processus d'autorisation doit être effectué dans {{ fr.HUB }}. Consultez [Approuver un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
@@ -48,7 +50,7 @@ La deuxième option vous demande de passer par la boîte ***Demandes d'accès en
 
 Cette vue est divisée en deux sections :  
 
-* La section ***Demander des infos*** contient les informations à propos de la demande de l'utilisateur. Puisque cela a été fait du côté de l'utilisateur, les champs de cette section ne peuvent pas être modifiés. Vous pouvez voir les ***Dépendances de l'entrée***,  notamment les identifiants liés et les VPN. Il est important de préciser que les ***entrées liées*** ne peuvent provenir que du même coffre. Les identifiants PAM liés à des entrées ne sont pas pris en compte. 
+* La section ***Demander des infos*** contient les informations à propos de la demande de l'utilisateur. Puisque cela a été fait du côté de l'utilisateur, les champs de cette section ne peuvent pas être modifiés. Vous pouvez voir les ***Dépendances de l'entrée***,  notamment les identifiants liés et les VPN.  
 * La section ***Paramètres de la réponse*** vous permet de modifier la durée de l'accès temporaire spécifiée par l'utilisateur. Il est également possible de rédiger un court message à l'intention de l'utilisateur pour leur expliquer votre décision, mais cela reste facultatif. 
 
 Cliquer sur ***Approuver*** ou ***Refuser*** permet d'approuver ou de refuser la demande, en fonction de ce que vous avez sélectionné précédemment. Une fenêtre de confirmation s'affiche, que vous pouvez faire disparaître en cliquant sur ***OK***. 
