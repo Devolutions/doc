@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Approuver un accès temporaire à une entrée dans {{ fr.HUBB }}
+  order: 20
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit ensuite approuver ou refuser la demande.  
 ---
 {% snippet icon.badgeInfo %} 
