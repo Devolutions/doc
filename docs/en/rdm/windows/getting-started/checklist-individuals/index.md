@@ -1,5 +1,6 @@
 ---
-title: Checklist for Individuals
+title: Checklist for individuals
+order: 20
 ---
 Here's a checklist to help you get started with {{ en.RDM }} for individuals. 
 
