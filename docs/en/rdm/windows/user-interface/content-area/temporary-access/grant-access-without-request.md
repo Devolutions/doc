@@ -19,7 +19,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 1. Choose ***User*** and ***Duration*** in the ***Grant Temporary Access*** window.  
 ![Grant Temporary Access window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6021.png)  
 
- You can view the ***Entry's dependencies*** such as linked credentials and VPNs. Please be aware that ***linked entries*** are restricted to the same vault. PAM credentials linked to entries in regular vaults are not included. 
+ You can view the ***Entry's dependencies*** such as linked credentials and VPNs.
  
  4. Click on ***Set custom time frame*** if you need to grant access for a specific period of time and write a short ***Message*** to the user explaining why you grant access.  
 

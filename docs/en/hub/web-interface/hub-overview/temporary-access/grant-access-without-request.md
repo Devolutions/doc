@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Grant temporary access to an entry in {{ en.HUB }}
+  title: Grant temporary access to an entry in {{ en.HUBB }}
   order: 30
   description: Approvers can grant Temporary Access without request to a user and even if the user already has access.
 ---
@@ -15,9 +15,9 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 1. Select the vault you want to grant access to.  
 1. Click on ***More***, then select ***Grant Temporary Access***.  
-![Grant Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6013.png)  
-A number of options are available to customize your selection.  
-![Grant Temporary Access window](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6014.png)  
+![Grant Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6013.png)   
+You can view ***linked entries*** such as linked credentials and VPNs.  
+![Grant Temporary Access window](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6021.png)  
 1. Choose the ***Access duration*** in the drop-down menu.  
 ![Access duration](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6015.png)  
 You can also click ***Set custom time frame*** if you need to grant access for a specific period of time.  
