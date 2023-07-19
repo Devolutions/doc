@@ -2,15 +2,12 @@
 eleventyComputed: 
   title: Security Key and Windows Hello
   description: Configure a physical Security Key device to use as a new default password sign-in method for your {{ en.DA }}. 
-  keywords:
-  - Security key
-  - Windows Hello
 ---
 Configure a physical ***Security Key*** device to use as a new default password sign-in method for your {{ en.DA }}.  
 
 ## Desktop Security Key Installation 
 
-1. Connect to your {{ en.DA }} and click ***Security Key***.  
+1. Connect to your [{{ en.DA }}](https://portal.devolutions.com/) and click ***Security Key***.  
 ![Security Key](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4018.png) 
 1. Click ***Add a security key*** and accept all the Windows prompt. 
 1. Insert the key into the USB port (if prompted, enter your personal security key PIN). Press the key button.  

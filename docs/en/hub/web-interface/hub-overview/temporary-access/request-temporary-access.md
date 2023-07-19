@@ -57,7 +57,7 @@ You can now perform your task with this elevated permission.
 
 In the top section, you can view the details of your request such as ***User***, ***Permissions*** level and ***Duration***. You can also read the message you sent to the approver.
 
-Further down is the approver's reply.
+Further down is the approver's reply. The approver can modify your request if necessary.
  
 
 Finally, for any reason, you may revoke your temporary access by clicking on ***Revoke***. Be sure you want to do this first, since in order to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the approver.  
