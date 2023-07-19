@@ -20,10 +20,10 @@ Lorsqu'un utilisateur vous envoie une demande d'accès temporaire, vous en êtes
 ![Courriel de demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2140.png) 
 
 Une fois que vous êtes sur l'entrée, vous verrez une section ***Demande d'accès temporaire*** près du haut. Cliquer sur ***Afficher les détails*** ouvre la fenêtre ***Demande d'accès temporaire***, qui est décrite dans la [section suivante](#approuverrefuser-les-demandes-daccès-temporaire).  
-![Demande d'accès temporaire à partir de l'entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2141.png) 
+![Demande d'accès temporaire à partir de l'entrée](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6040.png) 
 
 Notez que vous pouvez également voir toutes les demandes d'accès temporaire en attente d'un coffre sélectionné dans la case ***Demande d'accès temporaire*** du ***Tableau de bord***. Cliquer sur une demande vous amène à l'entrée.  
-![Demande d'accès temporaire à partir du Tableau de bord](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2142.png) 
+![Demande d'accès temporaire à partir du Tableau de bord](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6041.png) 
 
 ## Approuver/refuser les demandes d'accès temporaire 
 
@@ -34,15 +34,13 @@ La durée de l'***Accès temporaire*** commence lorsque la demande est approuvé
 Lorsque l'entrée est sélectionnée, cliquer sur ***Afficher les détails*** dans la section ***Demande d'accès temporaire*** vous permet de voir les informations sur la demande ainsi que d'approuver/refuser celle-ci.  
 ![Afficher les détails](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2143.png) 
 
-Dans la section supérieure, vous pouvez voir le niveau de ***Permissions*** et la ***Durée demandée*** par l'utilisateur pour son accès temporaire. La durée d'accès peut être modifiée dans ***Durée de l'autorisation***. Le ***Temps restant*** est vide puisque vous n'avez pas encore approuvé la demande.  
-
-En dessous, le message que l'utilisateur vous a envoyé lorsqu'il a créé sa demande est visible sur la gauche. À droite, vous pouvez écrire un message à l'utilisateur expliquant votre décision, mais cela reste facultatif.  
+Dans la section supérieure, vous pouvez voir les détails de la demande tels que les ***Entrées liées***, l'***Utilisateur***, le niveau de ***Permissions*** et la ***Durée***. Il est possible de modifier le niveau de ***Permissions***, la ***Durée*** et de laisser un message à l'utilisateur.
 
 Enfin, vous pouvez ***Approuver*** ou ***Refuser*** la demande d'accès temporaire en cliquant sur le bouton correspondant.  
-![Approuver/Refuser la demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2144.png) 
+![Approuver/Refuser la demande d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6042.png) 
 
 Après l'approbation, pour quelque raison que ce soit, vous pouvez révoquer l'accès temporaire de l'utilisateur en cliquant à nouveau sur ***Afficher les détails***, puis en cliquant sur ***Révoquer***. Assurez-vous que d'abord que c'est bel et bien ce que vous voulez faire, car pour retrouver l'accès à l'entrée, l'utilisateur devra faire une autre demande. Sinon, leur accès prendra fin dans le délai fixé.  
-![Révoquer l'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2145.png) 
+![Révoquer l'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6043.png) 
 
 {% snippet icon.badgeInfo %} 
 Pour en apprendre davantage sur l'expérience de l'utilisateur final dans {{ fr.HUBB }}, consultez [Demander un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access/request-temporary-access/). 
