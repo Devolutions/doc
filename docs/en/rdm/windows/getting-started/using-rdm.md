@@ -5,6 +5,6 @@ eleventyComputed:
 ---
 {{ en.RDM }} is highly flexible and can work for both individuals and teams. Please follow the checklist that applies to your environment:  
 
-* [Checklist for Individuals](/rdm/windows/getting-started/checklist-individuals/) : For individuals but also for teams of three users or less that do not want to implement security. 
-* [Checklist for Teams](/rdm/windows/getting-started/checklist-teams/) : For a team environment that wishes to implement security. 
-
+* [Checklist for individuals](/rdm/windows/getting-started/checklist-individuals/): For individuals but also for teams of three users or less that do not want to implement security. 
+* [Checklist for small teams](/rdm/windows/getting-started/checklist-small-teams/): For small team environments only.
+* [Checklist for enterprises](/rdm/windows/getting-started/checklist-teams/): For any team environment that wishes to implement security. 

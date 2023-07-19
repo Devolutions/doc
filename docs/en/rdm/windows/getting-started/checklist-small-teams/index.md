@@ -10,8 +10,8 @@ First [download](https://devolutions.net/remote-desktop-manager/home/download/) 
 
 <table>
 	<tr>
-		<th style="width:30%">
-CHECKLIST FOR TEAMS 
+		<th>
+CHECKLIST FOR SMALL TEAMS 
 		</th>
 		<th>
 DESCRIPTION 
