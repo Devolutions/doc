@@ -31,7 +31,7 @@ It is also possible to display only certain requests with the ***Status*** drop-
 
 Using ***View messages***, you can view the ***Request message*** and the ***Authorization message*** of a specific request.  
 
-![View messages](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6015.png) 
+![View messages](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6016.png) 
 
 The ***Request message*** window opens.
 
