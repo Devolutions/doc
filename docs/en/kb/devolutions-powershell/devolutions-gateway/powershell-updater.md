@@ -8,7 +8,7 @@ eleventyComputed:
 This PowerShell script is meant to be registered as a scheduled task that runs once a day to check for updates, download and then install them. This script is especially useful when using multiple gateways as it saves a lot of time.
 
 {% snippet icon.badgeHelp %}
-Read more on the [full script](https://forum.devolutions.net/topics/39570/devolution-gateway-update#177356).
+Read this [GitHub](https://github.com/Devolutions/devolutions-gateway/blob/master/tools/updater/README.md) page for more details.
 {% endsnippet %}  
 
 ## Installing
