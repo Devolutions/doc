@@ -43,7 +43,7 @@ This option will accept the certificate for this session only.
 <b><i>Continue and Remember</b></i>
 		</td>
 		<td>
-This option will accept the certificate and remember your choice. To "forget" a certificate that had been previously added, you must clear the certificate exemption list using the <a href="#certificatesecurityrelatedoptions"><b><i>Certificate security</b></i> related options</a>.
+This option will accept the certificate and remember your choice. To "forget" a certificate that had been previously added, you must clear the certificate exemption list using the <a href="#certificatesecurityrelatedoptions"><b><i>Certificate security</b></i>-related options</a>.
 		</td>
 	</tr>
 	<tr>
@@ -97,7 +97,7 @@ In a PowerShell console, adapt the path for the certificate file, then run:
 `Test-Certificate -Cert $cert`
 
 ### Using CMD
-Adapt the path for the certificate file, then Run the following command:  
+Adapt the path for the certificate file, then run the following command:  
 
 `certutil -verify "%USERPROFILE%\Desktop\cert.cer"`  
 
@@ -133,10 +133,18 @@ Enable this option to disable the application certificate validation. This is no
 This option checks that the certificate has not been revoked. This is necessary if any of the URLs for <a href="#certificatecheck">Certificate Validation</a> are unavailable for any reason.
 		</td>
 	</tr>
+	<tr>
+		<td>
+<b><i>Reset Known Certificates</b></i>
+		</td>
+		<td>
+Use this option to clear the cached certificates. All certificates will need to be validated again.
+		</td>
+	</tr>
 </table>
 
 ## Verify the Certification Authority (CA)
-1. Open the certificate, then verify by which Certification Authority the certificate has been ***issued by***, in the ***General*** tab.  
+1. Open the certificate, then verify by which Certification Authority the certificate has been ***Issued by***, in the ***General*** tab.  
 ![Certificate Issued by](https://webdevolutions.azureedge.net/docs/en/kb/KB4448.png)
 1. Verify that the Certification Authority is properly installed in the certificate store.  
 ![Certificates](https://webdevolutions.azureedge.net/docs/en/kb/KB4449.png)
