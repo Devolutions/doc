@@ -1,5 +1,5 @@
 ---
-title: Select the data source type – Individuals
+title: Select a data source type – Individuals
 ---
 This topic is primarily intended for individuals, but also for teams of three users or less who do not wish to set up security.  
 

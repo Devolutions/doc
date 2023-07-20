@@ -1,5 +1,5 @@
 ---
-title: Select the data source type – Enterprises
+title: Select a data source type – Enterprises
 ---
 This topic is for enterprises that use the functionality offered by our Team Edition.  
 
