@@ -23,12 +23,12 @@ Step 1 - Configure and create the data source
 
 		</td>
 		<td>
-Upon first launch, {{ en.RDM }} prompts you to select a data source. Devolutions integrates the following [data source types for small team environments](/rdm/windows/getting-started/checklist-teams/select-data-source-type/):  
+Upon first launch, {{ en.RDM }} prompts you to select a data source. See [data source types for enterprise environments](/rdm/windows/getting-started/checklist-teams/select-data-source-type/):  
 
-* [Microsoft SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/)  
-* [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/)  
+* [{{ en.DHUBB }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sourceshub-business/)  
+* [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/)  
 
-You need to enter general data source information such as the name and the host.  
+You need to enter general data source information. For {{ en.DHUBB }}, enter your email
 
 For the first database user, create a SQL administrator account with the ***Database login mode***. Then, create the database and set up initial parameters for the default vault.  
 
