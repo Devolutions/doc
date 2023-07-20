@@ -4,7 +4,7 @@ title: SAML Configuration and Troubleshooting for CyberArk Dashboard
 SAML is available as authentication mode for your ***CyberArk Dashboard*** entry.
 
 {% snippet icon.badgeCaution %}
-Note that SAML authentication for CyberArk Privilege Cloud is currently **not** supported.
+SAML authentication for CyberArk Privilege Cloud requires {{ en.RDM }} 2023.2.17.0 or newer.
 {% endsnippet %}
 
 ## SAML Authentication Configuration

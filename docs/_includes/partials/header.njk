@@ -13,8 +13,8 @@
           </button>
           <div class="dwd-header-submenu" data-dwd-modal-target="Open language selection" data-dwd-modal-group="dwd-header">
             {% for l, item in locale %}
-              {% if l !== lang %}
-                <a class="dwd-header-submenu-item" href="{{ page.filePathStem | localizedUrl(l, lang, collections.all) }}">
+              {% if l !== lang and page.url %}
+                <a class="dwd-header-submenu-item" href="{{ page.url | localizedUrl(l, lang) }}">
                   {{ l }}
                 </a>
               {% endif %}

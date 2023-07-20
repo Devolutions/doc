@@ -33,7 +33,7 @@ Please note that we only support the CyberArk V12 API for now and that CyberArk 
 SAML authentication is supported with CyberArk since version 2022.3.25 of {{ en.RDM }}, but important improvements and bug fixes have been implemented in ulterior versions. We recommend to at least update to the 2023.1 version of {{ en.RDM }} if your current version is older. One of the improvements in version 2023.1 is that you no longer have to provide the ***IdP sign-in URL*** when configuring your SAML authentication. If you have trouble with your SAML authentication, try our [SAML Configuration and Troubleshooting](/kb/remote-desktop-manager/troubleshooting-articles/saml-configuration-troubleshooting-cyberark-dashboard/) topic.
 {% endsnippet %}
 {% snippet icon.badgeCaution %}
-SAML authentication for CyberArk Privilege Cloud is currently **not** supported.
+SAML authentication for CyberArk Privilege Cloud requires {{ en.RDM }} 2023.2.17 or newer.
 {% endsnippet %}
 {% snippet icon.badgeCaution %}
 Your CyberArk Vault administrator should provide you with the authentication model being used, but if, in the PVWA, you click on a link that matches your corporate domain name, this indicates that the LDAP model is being used. The icon looks like the following:

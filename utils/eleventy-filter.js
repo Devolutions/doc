@@ -12,11 +12,10 @@ module.exports = (config) => {
     return value;
   });
 
-  config.addFilter('localizedUrl', function (filePathStem, lang, currentLang, array) {
-    const localizedPathStem = filePathStem.replace(`/${currentLang}/`, `/${lang}/`);
-    const localized = array.find(e => e.page.filePathStem == localizedPathStem);
-
-    return localized?.page?.url ?? `/${lang}/`;
+  config.addFilter('localizedUrl', function (url, lang, currentLang) {
+    url = url.startsWith(`/${currentLang}/`) ? url.replace(`/${currentLang}/`, `/${lang}/`) : `/${lang}${url}`;
+    url = url.startsWith(`/en/`) ? url.replace(`/en/`, `/`) : url;
+    return url;
   });
 
   config.addFilter('toc', toc);
