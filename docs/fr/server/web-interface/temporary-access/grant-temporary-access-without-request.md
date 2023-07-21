@@ -21,7 +21,7 @@ Choisir l'***Utilisateur*** et la ***Durée de l'accès*** dans la fenêtre ***A
 
 Vous pouvez consulter les ***Dépendances de l'entrée***, comme que les identifiants et les VPN liés. À noter que les ***entrées liées*** doivent se trouver dans le même coffre. Les identifiants PAM liés à des coffres réguliers ne sont pas pris en compte.
  
- 4. Cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'accorder l'accès pour une durée déterminée et écrivez un court ***Message*** à l'utilisateur expliquant pourquoi vous accordez l'accès.  
+ 3. Cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'accorder l'accès pour une durée déterminée et écrivez un court ***Message*** à l'utilisateur expliquant pourquoi vous accordez l'accès.  
 
  1. Cliquer sur ***Accorder l'accès*** pour fermer la fenêtre. 
 
