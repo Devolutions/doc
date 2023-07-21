@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 
 {% snippet icon.badgeNotice %} 
-To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.DVLS }}](/server/user-interface/content-area/temporary-access/approve-temporary-access/). 
+To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.DVLS }}](/server/web-interface/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
 
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. Approvers can grant ***Temporary Access*** without request from a user and even if the user already has access.
@@ -17,7 +17,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 1. Click on ***More***, then select ***Grant Temporary Access***. 
 ![Grant Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6027.png)  
 1. Choose ***User*** and ***Access duration*** in the ***Grant Temporary Access*** window.  
-![Grant Temporary Access window](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6028.png)  
+![Grant Temporary Access window](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6030.png)  
 
  You can view the ***Entry's dependencies*** such as linked credentials and VPNs. Note that linked entries must be in the same vault. Credentials with PAM linked to regular vaults are not included.
  
