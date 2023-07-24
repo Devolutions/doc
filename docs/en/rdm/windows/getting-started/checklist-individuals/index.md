@@ -23,6 +23,7 @@ Step 1 - Register your license
 
 * [Team Registration](/rdm/windows/installation/client/registration/team-edition/) 
 * [Trial Registration](/rdm/windows/installation/client/registration/trial-request/) 
+
 		</td>
 		<td>
 {{ en.RDM }} Team Edition grants you a 30-day trial. If you decide not to register by the end of the trial, your data will not be altered or erased, and you will have full access to it once you provide a license key.  

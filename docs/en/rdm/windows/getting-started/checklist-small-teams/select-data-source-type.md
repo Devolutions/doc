@@ -1,10 +1,10 @@
 ---
-title: Select a data source type – Enterprises
+title: Select a data source type – Small teams
 description: To help you select a data source type, here is a set of concerns and the list of data sources that can serve in such a context.
 ---
-This topic is for enterprises that use the functionality offered by our Team Edition. 
+This topic is for small teams that use the functionality offered by our Team Edition. 
 
-To help you select a data source type, here is a set of concerns and the list of data sources that can serve in such a a context.  
+To help you select a data source type, here is a set of concerns and the list of SQL data sources that can serve in such a a context.  
 
 {% snippet icon.shieldWarning %} 
 When choosing any type of data source that is not on-premises, you must consider the security of the data at rest and in transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or a [security provider](/rdm/windows/commands/administration/settings/security-providers/) for [advanced data sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures that only you can read the data. 
@@ -15,9 +15,6 @@ When choosing any type of data source that is not on-premises, you must consider
 		<th>
 
 CONCERN 
-		</th>
-		<th style="text-align: center;">
-{{ en.DVLS }} 
 		</th>
 		<th style="text-align: center;">
 SQL 
@@ -31,9 +28,6 @@ AZURE
 	<tr>
 		<td>
 Database not accessible to end users 
-		</td>
-		<td align="center">
-![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td style="text-align: center;">
 Notes 1 and 2 
@@ -49,23 +43,6 @@ AD accounts used for authentication
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td align="center">
-![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-		<td>
-
-		</td>
-	</tr>
-	<tr>
-		<td>
-AD group membership used to assign permissions 
-		</td>
-		<td align="center">
-![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-		<td>
-
-		</td>
 		<td>
 
 		</td>
@@ -73,9 +50,6 @@ AD group membership used to assign permissions
 	<tr>
 		<td>
 Data stored on-premises 
-		</td>
-		<td align="center">
-![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
@@ -94,9 +68,6 @@ Activity Logs
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td align="center">
-![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
 	</tr>
 	<tr>
 		<td>
@@ -105,9 +76,6 @@ Data accessible globally
 		<td style="text-align: center;">
 Note 3 
 		</td>
-		<td style="text-align: center;">
-Note 4 
-		</td>
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
@@ -115,9 +83,6 @@ Note 4
 	<tr>
 		<td>
 Optional local cache of connections 
-		</td>
-		<td align="center">
-![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
@@ -141,9 +106,5 @@ Integrated security a Microsoft technology that allows access to an instance of 
 Our SQL Server data source provides a third authentication option, namely the ***Custom (Devolutions)*** user type. This allows the user to be impersonated and therefore not be made aware of the credentials used to connect to the database. See [User Management](/rdm/windows/commands/administration/management/user-management/) for details.  
 
 ### Note 3 
-
-You should not expose a {{ en.DVLS }} instance to the Internet without being able to protect it from DDoS attacks. Strong passwords must be used, as well as obscure account names that are not easily deduced by social data mining.  
-
-### Note 4 
 
 You can expose a database to the Internet, but you have to use SSL/TLS to encrypt the traffic and also protect against DDoS attacks. Cloud services like Azure have this concern at the forefront. The default firewall settings should be to block everything and then add exceptions and rules. It is also necessary to open the minimum number of required ports, add the numbers of those ports to the exception list, and filter all future requests based on their origin.  

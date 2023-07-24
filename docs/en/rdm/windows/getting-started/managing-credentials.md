@@ -1,5 +1,6 @@
 ---
 title: Managing credentials
+description: Depending on your organization's security policies, there are multiple ways of handling credentials.
 ---
 Depending on your organization's security policies, there are multiple ways of handling credentials. We can manage a wide range of scenarios; the most popular are listed below. It is critical to understand that these are the credentials used to connect to remote hosts, not the ones you use to launch {{ en.RDM }}. 
 
@@ -7,7 +8,7 @@ Depending on your organization's security policies, there are multiple ways of h
 Most of these selections do not exist in the Free edition of {{ en.RDM }} as they depend on features offered by an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
-Below are a few key points that the admin of the solution must be aware of: 
+Below are a few key points that the administrator of the solution must be aware of: 
 
 <table>
 	<tr>
@@ -37,7 +38,7 @@ When storing entries in the tree view, users with the View permissions on that e
 	</tr>
 	<tr>
 		<td>
-[User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) 
+User Specific Settings 
 		</td>
 		<td>
 [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) are partial overrides for your entry settings, including credentials. When you apply such an override, you can choose the type of credentials directly in the override or you can choose to instead link to credentials stored elsewhere, such as the [{{ en.UVLT }}](/rdm/windows/data-sources/user-vault/). 
