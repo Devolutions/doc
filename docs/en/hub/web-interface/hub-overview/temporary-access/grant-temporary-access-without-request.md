@@ -15,7 +15,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 1. Select the vault you want to grant access to.  
 1. Click on ***More***, then select ***Grant Temporary Access***.  
-![Grant Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6013.png)   
+![Grant Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6033.png)   
 You can view ***linked entries*** such as linked credentials and VPNs.  
 ![Grant Temporary Access window](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6021.png)  
 1. Choose the ***Access duration*** in the drop-down menu.  
@@ -30,5 +30,5 @@ To help you decide which role to select, you can visit [Roles and permissions](h
 1. Select the ***User***. You can also use the filter bar to refine your research.  
 ![User](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6019.png)  
 A short message can be left to the ***User*** explaining why you grant access.  
-![User](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6020.png)  
+![Message](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6020.png)  
 1. Click ***Grant Access*** to close the window.  

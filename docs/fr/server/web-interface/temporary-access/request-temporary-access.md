@@ -38,7 +38,7 @@ Une fois que l'approbateur vous a approuvé l'accès, vous pouvez aller directem
 
 Pour n'importe quelle raison, vous pouvez révoquer votre accès temporaire. Assurez-vous d'abord que ce soit bel et bien ce que vous voulez faire, car pour retrouver l'accès à votre entrée, vous devrez faire une autre demande. Sinon, votre accès prendra fin dans le délai fixé par vous et l'approbateur.
 
-1. Aller dans ***Rapport***.  
+1. Aller dans ***Rapports***.  
 ![Confirmer Révoquer l'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6002.png)
 2. Sélectionner ***Rapport des demandes d'accès temporaire***.
 ![Rapport des demandes d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6003.png)

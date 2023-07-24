@@ -25,7 +25,7 @@ Pour afficher toutes vos demandes passées et actuelles, vous devez utiliser la 
 ![Tableau de bord – demandes d'accès en attente](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6000.png) 
 
 Dans la fenêtre ***Demandes d'accès temporaire***, vous pouvez voir toutes les demandes d'accès temporaire et les trier par ***Statut***, ***Nom d'utilisateur***, ***Source de données de l'utilisateur***, ***Entrée***, ***Action***, ***Demandé le***, ***Durée demandée***, ***Heure de début demandée***, ***Heure de fin demandée***, ***Durée de l'autorisation***, ***Heure de début autorisée***, ***Heure de fin autorisée***, ***Nom d'utilisateur de l'autorisateur*** ou ***Compte utilisateur connecté de l'autorisateur***.  
-![Afficher les demandes d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin6001.png) 
+![Afficher les Demandes d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin6001.png) 
 
 Il est également possible d'afficher uniquement certaines demandes en utilisant le menu déroulant ***Statut*** ou avec la barre de filtre au haut de la fenêtre.  
 
@@ -50,7 +50,7 @@ La deuxième option vous demande de passer par la boîte ***Demandes d'accès en
 
 Cette vue est divisée en deux sections :  
 
-* La section ***Demander des infos*** contient les informations à propos de la demande de l'utilisateur. Puisque cela a été fait du côté de l'utilisateur, les champs de cette section ne peuvent pas être modifiés. Vous pouvez voir les ***Dépendances de l'entrée***,  notamment les identifiants liés et les VPN.  
+* La section ***Demander des infos*** contient les informations à propos de la demande de l'utilisateur. Puisque cela a été fait du côté de l'utilisateur, les champs de cette section ne peuvent pas être modifiés. Vous pouvez consulter les ***Dépendances de l'entrée***, comme que les identifiants et les VPN liés, dans le menu à gauche.
 * La section ***Paramètres de la réponse*** vous permet de modifier la durée de l'accès temporaire spécifiée par l'utilisateur. Il est également possible de rédiger un court message à l'intention de l'utilisateur pour leur expliquer votre décision, mais cela reste facultatif. 
 
 Cliquer sur ***Approuver*** ou ***Refuser*** permet d'approuver ou de refuser la demande, en fonction de ce que vous avez sélectionné précédemment. Une fenêtre de confirmation s'affiche, que vous pouvez faire disparaître en cliquant sur ***OK***. 

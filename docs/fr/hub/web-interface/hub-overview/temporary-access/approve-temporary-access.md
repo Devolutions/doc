@@ -19,8 +19,7 @@ Pour apprendre comment répondre à une demande, consultez [Approuver/refuser le
 Lorsqu'un utilisateur vous envoie une demande d'accès temporaire, vous en êtes automatiquement informé par courriel. Vous pouvez cliquer sur ***Aller au tableau de bord de l'entrée*** pour visualiser la demande directement dans l'entrée dans {{ fr.HUBB }}.  
 ![Courriel de demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2140.png) 
 
-Une fois que vous êtes sur l'entrée, vous verrez une section ***Demande d'accès temporaire*** près du haut. Cliquer sur ***Afficher les détails*** ouvre la fenêtre ***Demande d'accès temporaire***, qui est décrite dans la [section suivante](#approuverrefuser-les-demandes-daccès-temporaire).  
-![Demande d'accès temporaire à partir de l'entrée](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6040.png) 
+Une fois que vous êtes sur l'entrée, vous verrez une section ***Demande d'accès temporaire*** près du haut. Cliquer sur ***Afficher les détails*** ouvre la fenêtre ***Demande d'accès temporaire***, qui est décrite dans la [section suivante](#approuverrefuser-les-demandes-daccès-temporaire). 36![Demande d'accès temporaire à partir de l'entrée](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6040.png) 
 
 Notez que vous pouvez également voir toutes les demandes d'accès temporaire en attente d'un coffre sélectionné dans la case ***Demande d'accès temporaire*** du ***Tableau de bord***. Cliquer sur une demande vous amène à l'entrée.  
 ![Demande d'accès temporaire à partir du Tableau de bord](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6041.png) 

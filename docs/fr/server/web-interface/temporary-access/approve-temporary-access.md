@@ -17,11 +17,11 @@ Pour apprendre comment répondre à une demande, consultez [Approuver/refuser le
 
 ## Afficher les demandes d'accès temporaire 
 
-Pour afficher toutes vos demandes passées et actuelles, vous devez utiliser la boîte ***demandes d'accès en attente*** dans le ***Tableau de bord*** pour ouvrir la fenêtre ***Demandes d'accès temporaire***.
-![Tableau de bord – Demandes d'accès en attente](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6006.png) 
+Pour afficher toutes vos demandes passées et actuelles, vous devez utiliser la boîte ***Demandes d'accès en attente*** dans le ***Tableau de bord*** pour ouvrir la fenêtre ***Demandes d'accès temporaire***.
+![Demandes d'accès en attente](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6006.png) 
 
 Dans la fenêtre ***Rapport des demandes d'accès temporaire***, vous pouvez voir toutes les demandes d'accès temporaire et les trier par ***Statut***, ***Demandé par***, ***Nom de la connexion***, ***Demandé le***, ***Heure de début demandée***, ***Heure de fin demandée***, ***Durée demandée***, ***Durée de l'autorisation*** et ***Approbateur***.
-![Rapport des demandes d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6007.png) 
+![Rapport des demandes d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6018.png)
 
 Il est également possible d'afficher uniquement certaines demandes en utilisant le menu déroulant ***Statut*** ou avec la barre de filtre au haut de la fenêtre.
 
@@ -46,7 +46,7 @@ La deuxième option vous demande de passer par la boîte ***Demandes d'accès en
 
 Cette vue est divisée en deux sections :
 
-* La section ***Demander des infos*** contient les informations à propos de la demande de l'utilisateur. Puisque cela a été fait du côté de l'utilisateur, les champs de cette section ne peuvent pas être modifiés. Vous pouvez voir les ***Dépendances de l'entrée***, notamment les identifiants liés et les VPN. À noter que les entrées liées doivent se trouver dans le même coffre. Les identifiants PAM liés à des coffres réguliers ne sont pas pris en compte.
+* La section ***Demander des infos*** contient les informations à propos de la demande de l'utilisateur. Puisque cela a été fait du côté de l'utilisateur, les champs de cette section ne peuvent pas être modifiés. Vous pouvez voir les ***Dépendances de l'entrée***, notamment les identifiants liés et les VPN. À noter que les entrées liées doivent se trouver dans le même coffre. Les identifiants PAM liés à des coffres courants ne sont pas pris en compte.
 
 * La section ***Paramètres de la réponse*** vous permet de modifier la durée de l'accès temporaire spécifiée par l'utilisateur. Il est également possible de rédiger un court message à l'intention de l'utilisateur pour leur expliquer votre décision, mais cela reste facultatif.
 

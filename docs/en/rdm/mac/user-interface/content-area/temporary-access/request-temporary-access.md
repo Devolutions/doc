@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 
 {% snippet icon.badgeNotice %} 
-To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/approve-temporary-access/). 
+To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.RDM }}](/rdm/mac/user-interface/content-area/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions to execute for a specific entry. The approver must then approve or deny the request. 
@@ -22,13 +22,11 @@ Follow the steps below to learn how to make a temporary access request:
 1. In the ***{{ en.NPANE }}*** of {{ en.RDM }}, open the entry you want access to by double clicking on it. 
 1. A message will pop up asking if you want to send a request to get temporary access. Click ***Yes***.  
 ![Send a temporary access request](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6000.png) 
-1. In the ***Temporary Access Request*** window, select ***Access duration***. You can click ***Set custom time frame*** if you need access for a specific period of time.
-
+1. In the ***Temporary Access Request*** window, select ***Access duration***. You can click ***Set custom time frame*** if you need access for a specific period of time.  
 1. Choose the approver you want to send the request to.  
-
-![Temporary Access Request](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6001.png) 
-5. Write a short ***Message*** to the approver explaining why you want access to this entry and its dependencies. This is optional, but we strongly recommend it as it allows the approver to make a more informed decision. When you are done, click on ***Send Request***.  
-6. A message will appear indicating that the request has been sent to the approver. Click ***OK*** to make it disappear. 
+![Temporary Access Request](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6001.png)  
+1. Write a short ***Message*** to the approver explaining why you want access to this entry and its dependencies. This is optional, but we strongly recommend it as it allows the approver to make a more informed decision. When you are done, click on ***Send Request***.  
+1. A message will appear indicating that the request has been sent to the approver. Click ***OK*** to make it disappear.  
 
 You now have to wait for the approver to respond to your request. Depending on their settings, you may be notified by email when they respond, whether the answer is positive or negative.  
 

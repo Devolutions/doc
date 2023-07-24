@@ -18,15 +18,15 @@ To learn how to respond to a request, go to [Approve/Deny temporary access reque
 ## View temporary access requests 
 
 To view all your past and current requests, you must use the following ***Pending Access Requests*** box to open the ***Temporary Access Requests*** window. 
-![Dashboard – pending access requests](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6052.png) 
+![Pending access requests](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6052.png) 
 
 In the ***Temporary Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***Requested By***, ***Connection Name***, ***Requested on***, ***Requested start time***, ***Requested end time***, ***Requested duration***, ***Authorized duration*** and ***Approver***.
-![Show temporary access requests](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6049.png) 
+![Temporary Access Requests Report](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6049.png) 
 
 It is also possible to display only certain requests with the ***Status*** drop-down menu or with the filter bar at the top.  
 
 Using ***View*** (eye icon), you can view the ***Request message*** and the ***Authorization message*** of a specific request.  
-![Request messages](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6050.png) 
+![Temporary Access Request](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6050.png) 
 
 Finally, clicking on ***Approve request*** or ***Deny request*** opens the ***Temporary Access Response*** window, which is described in the [next section](#approvedeny-temporary-access-requests). 
 

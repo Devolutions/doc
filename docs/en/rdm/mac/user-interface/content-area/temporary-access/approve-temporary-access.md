@@ -25,17 +25,17 @@ To view all your past and current requests, you must use the following ***pendin
 ![Dashboard – pending access requests](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6005.png) 
 
 In the ***Pending Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***Username***, ***Data source user***, ***Entry***, ***Action***, ***Requested on***, ***Requested duration***, ***Requested start time***, ***Requested end time***, ***Authorized duration***, ***Authorized start time***, ***Authorized end time***, ***Authorizer username*** and ***Authorizer data source user***.
-![Show temporary access requests](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6006.png) 
+![Pending Access Requests](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6006.png) 
 
 It is also possible to display only certain requests with the ***Status*** drop-down menu or with the filter bar at the top.  
 
-Using ***View messages***, you can view the ***Request message*** and the ***Authorization message*** of a specific request.  
+Using ***View messages***, you can view the ***Request message*** and the ***Authorization message*** of a specific request by clicking on the eye icon.
 
 ![View messages](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6016.png) 
 
 The ***Request message*** window opens.
 
-![Request messages](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6007.png) 
+![Request message](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6007.png) 
 
 Finally, clicking on ***Approve*** or ***Deny*** opens the ***Temporary Access Response*** window, which is described in the [next section](#approvedeny-temporary-access-requests). 
 

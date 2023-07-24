@@ -17,9 +17,9 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 When a user sends you a temporary access request, you will be automatically notified by email. You can click on ***Go to entry dashboard*** to view the request directly in the entry in {{ en.HUBB }}.  
 ![Temporary access request email](https://webdevolutions.azureedge.net/docs/en/hub/Hub2035.png)  
 Once you are on the entry, you will see a ***Temporary Access Request*** section near the top. Clicking on ***View Details*** opens the ***Temporary Access Request*** window, which is described in the next section.  
-![Temporary access request from the entry](https://webdevolutions.azureedge.net/docs/en/hub/Hub2037.png)  
+![Temporary access request from the entry](https://webdevolutions.azureedge.net/docs/en/hub/Hub6030.png)  
 Note that you can also see all temporary access pending requests from a selected {{ en.VLT }} in the ***Temporary Access*** box of the ***Dashboard***. Clicking on a request brings you to the entry.  
-![Temporary access request from the dashboard](https://webdevolutions.azureedge.net/docs/en/hub/Hub6011.png)  
+![Temporary access request from the dashboard](https://webdevolutions.azureedge.net/docs/en/hub/Hub6031.png)  
 
 ## Approve/Deny temporary access requests 
 

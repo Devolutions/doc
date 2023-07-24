@@ -26,7 +26,7 @@ To view all your past and current requests, you must use the following ***pendin
 ![Dashboard – pending access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6010.png) 
 
 In the ***Temporary Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***Username***, ***Data source user***, ***Entry***, ***Action***, ***Requested on***, ***Requested duration***, ***Requested start time***, ***Requested end time***, ***Authorized duration***, ***Authorized start time***, ***Authorized end time***, ***Authorizer username*** and ***Authorizer data source user***.
-![Show temporary access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6013.png) 
+![Show Temporary Access Requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6013.png) 
 
 It is also possible to display only certain requests with the ***Status*** drop-down menu or with the filter bar at the top.  
 
@@ -51,7 +51,7 @@ The second option requires you to go through the other ***Pending Access Request
 
 This view is divided into two sections: 
 
-* The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited. You can view the ***Entry's dependencies*** such as linked credentials and VPNs.
+* The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited. ***Entry's dependencies***, such as credentials and linked VPNs, are listed on the left menu.
 
 * The ***Response Parameters*** section allows you to change the temporary access duration specified by the user. It is also possible to write a message to the user explaining your decision, but it remains optional. 
 
