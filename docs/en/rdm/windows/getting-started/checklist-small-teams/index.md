@@ -32,7 +32,7 @@ You need to enter general data source information such as the name and the host.
 
 For the first database user, create a SQL administrator account with the ***Database login mode***. Then, create the database and set up initial parameters for the default vault.  
 
-{% youtube 'BfFvtHJSzbs?t=81' %}  
+{% youtube 'BfFvtHJSzbs?start=81' %}  
 		</td>
 	</tr>
 	<tr>
@@ -46,7 +46,7 @@ Users will authenticate using the method of your choosing:
 * ***Integrated Security (Active Directory)***: Recommended for Azure SQL data sources. Uses the active user’s Microsoft AD account.  
 * [***Custom login***](/kb/remote-desktop-manager/how-to-articles/implement-custom-login-mode/): Recommended for SQL Server data sources. Allows for the creation of RDM accounts for users to authenticate with, but prevents them from having direct access to the SQL database through an external tool.  
 
-{% youtube 'BfFvtHJSzbs?t=174' %}  
+{% youtube 'BfFvtHJSzbs?start=174' %}  
 		</td>
 	</tr>
 	<tr>
@@ -63,7 +63,7 @@ You can enable the option to have licenses auto-assigned, so that when new users
 
 Assign a license to the administrator account previously created so that you can create more administrative accounts. This license can be freed up later on.  
 
-{% youtube 'BfFvtHJSzbs?t=312' %}  
+{% youtube 'BfFvtHJSzbs?start=313' %}  
 		</td>
 	</tr>
 	<tr>
@@ -74,7 +74,7 @@ Step 3 - Create the "custom login" RDM and SQL account
 		<td>
 Create a new administrative SQL user with just enough read/write permissions on the SQL side to accomplish what they need to do in {{ en.RDM }} without having complete control over the SQL server itself. Use the ***Database Authentication type*** for this account so it can create both a {{ en.RDM }} login and a SQL account login.  
 
-{% youtube 'BfFvtHJSzbs?t=359' %}  
+{% youtube 'BfFvtHJSzbs?start=359' %}  
 		</td>
 	</tr>
 	<tr>
@@ -89,7 +89,7 @@ Once this daily account is created, you can update the data source with the corr
 
 It is now safe to delete the first database account and to unassign the license of the administrative SQL user.  
 
-{% youtube 'BfFvtHJSzbs?t=412' %}  
+{% youtube 'BfFvtHJSzbs?start=412' %}  
 		</td>
 	</tr>
 	<tr>
@@ -100,7 +100,7 @@ Step 5 - Create remaining user accounts
 		<td>
 Add all other users one by one using the ***Authentication type*** of your choice. See the [Overview of Authentication and Login Types](https://youtu.be/BfFvtHJSzbs&t=174s) or [User Management](/rdm/windows/commands/administration/management/user-management/) for more information.  
 
-{% youtube 'BfFvtHJSzbs?t=514' %}  
+{% youtube 'BfFvtHJSzbs?start=514' %}  
 		</td>
 	</tr>
 	<tr>
@@ -111,7 +111,7 @@ Step 6 - Create user groups
 		<td>
 Create user groups and assign previously created users to those groups. Each user can be part of predefined permissions in user groups, which helps you manage who has access to which resources and what they can do with them without having to individually manage them.  
 
-{% youtube 'BfFvtHJSzbs?t=552' %}  
+{% youtube 'BfFvtHJSzbs?start=552' %}  
 		</td>
 	</tr>
 	<tr>
@@ -126,7 +126,7 @@ All users have access to the Default vault created after installing {{ en.RDM }}
 
 Access all vaults using the vault selector in the ***{{ en.NPANE }}***. Each user can also access their own ***{{ en.UVLT }}***. This vault is only accessible to them and is a great place to store business-related entries for the user, such as alarm codes, user credentials, websites, documents, etc.  
 
-{% youtube 'BfFvtHJSzbs?t=601' %}  
+{% youtube 'BfFvtHJSzbs?start=602' %}  
 		</td>
 	</tr>
 	<tr>
@@ -141,7 +141,7 @@ The permissions granted on the folder can be inherited by each entry set under t
 
 It is possible to [batch grant access](/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/) permissions and permission sets to users and user groups.  
 
-{% youtube 'BfFvtHJSzbs?t=700' %}  
+{% youtube 'BfFvtHJSzbs?start=700' %}  
 		</td>
 	</tr>
 	<tr>
@@ -154,7 +154,7 @@ Step 9 - Add a security provider for encryption
 
 The [***Security Provider***](/rdm/windows/commands/administration/settings/security-providers/) is an additional level of encryption to the already-encrypted passwords and sensitive information in {{ en.RDM }}. It can be configured using a passphrase, a certificate, or a keyfile. See our [Security providers best practices](/kb/remote-desktop-manager/knowledge-base/security-providers-best-practices/).  
 
-{% youtube 'BfFvtHJSzbs?t=933' %}  
+{% youtube 'BfFvtHJSzbs?start=933' %}  
 		</td>
 	</tr>
 	<tr>
@@ -167,7 +167,7 @@ Deploy {{ en.RDM }} to your end users using the [Custom Installer Service](/rdm/
 
 The MSI can then be manually installed or silently pushed to workstations using a deployment tool.  
 
-{% youtube 'BfFvtHJSzbs?t=1072' %}  
+{% youtube 'BfFvtHJSzbs?start=1072' %}  
 		</td>
 	</tr>
 </table>
