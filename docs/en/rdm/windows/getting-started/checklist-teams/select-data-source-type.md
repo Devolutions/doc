@@ -20,13 +20,30 @@ CONCERN
 {{ en.DVLS }} 
 		</th>
 		<th style="text-align: center;">
-SQL 
-SERVER 
+{{ en.DHUBB }}
 		</th>
-		<th style="text-align: center;">
-SQL 
-AZURE 
-		</th>
+	</tr>
+	<tr>
+		<td>
+Self-hosted data 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td>
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+Cloud-hosted data 
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
 	</tr>
 	<tr>
 		<td>
@@ -35,8 +52,38 @@ Database not accessible to end users
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td style="text-align: center;">
-Notes 1 and 2 
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Encryption at rest and in transit 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Zero-knowledge on sensitive data
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Privileged Access Management (PAM) module 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td style="text-align: center;">
 Note 1 
@@ -45,9 +92,6 @@ Note 1
 	<tr>
 		<td>
 AD accounts used for authentication 
-		</td>
-		<td align="center">
-![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
@@ -63,33 +107,13 @@ AD group membership used to assign permissions
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
-
-		</td>
-		<td>
-
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Data stored on-premises 
-		</td>
-		<td align="center">
-![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-		<td align="center">
-![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-		<td>
-
-		</td>
-	</tr>
-	<tr>
-		<td>
-Activity Logs 
-		</td>
-		<td align="center">
-![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+Activity logs 
 		</td>
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
@@ -103,10 +127,7 @@ Activity Logs
 Data accessible globally 
 		</td>
 		<td style="text-align: center;">
-Note 3 
-		</td>
-		<td style="text-align: center;">
-Note 4 
+Note 2 
 		</td>
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
@@ -114,10 +135,7 @@ Note 4
 	</tr>
 	<tr>
 		<td>
-Optional local cache of connections 
-		</td>
-		<td align="center">
-![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+Just-in-time (JIT) connections via {{ en.DGW }}
 		</td>
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
@@ -132,18 +150,8 @@ Optional local cache of connections
 
 ### Note 1 
 
-Administrators can create end user accounts without sharing passwords. A locked data source definition is imported for each end user. This requires a lot of manual work by the administrator.  
+The ***Privileged Access Management*** module in {{ en.DHUBB }} is currently in beta development. Please contact our [sales department](mailto:sales@devolutions.net) for further information.
 
 ### Note 2 
 
-Integrated security a Microsoft technology that allows access to an instance of SQL Server without sending credentials, using the token provided by the authentication in your Windows computer. This allows users to connect directly to the database using other tools. It should not be used if you need to prevent direct access to the database.  
-
-Our SQL Server data source provides a third authentication option, namely the ***Custom (Devolutions)*** user type. This allows the user to be impersonated and therefore not be made aware of the credentials used to connect to the database. See [User Management](/rdm/windows/commands/administration/management/user-management/) for details.  
-
-### Note 3 
-
 You should not expose a {{ en.DVLS }} instance to the Internet without being able to protect it from DDoS attacks. Strong passwords must be used, as well as obscure account names that are not easily deduced by social data mining.  
-
-### Note 4 
-
-You can expose a database to the Internet, but you have to use SSL/TLS to encrypt the traffic and also protect against DDoS attacks. Cloud services like Azure have this concern at the forefront. The default firewall settings should be to block everything and then add exceptions and rules. It is also necessary to open the minimum number of required ports, add the numbers of those ports to the exception list, and filter all future requests based on their origin.  

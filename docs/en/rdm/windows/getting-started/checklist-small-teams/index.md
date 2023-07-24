@@ -23,7 +23,7 @@ Step 1 - Configure and create the SQL data source
 
 		</td>
 		<td>
-Upon first launch, {{ en.RDM }} prompts you to select a data source. Devolutions integrates the following [data source types for small team environments](/rdm/windows/getting-started/checklist-teams/select-data-source-type/):  
+Upon first launch, {{ en.RDM }} prompts you to select a data source. Devolutions integrates the following [data source types for small team environments](/rdm/windows/getting-started/checklist-small-teams/select-data-source-type/):  
 
 * [Microsoft SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/)  
 * [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/)  
