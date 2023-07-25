@@ -34,7 +34,7 @@ Step 2 - Add your data source
 
 		</td>
 		<td>
-Warning: When choosing any [data source](/rdm/windows/data-sources/create-new-data-source/) type that is not on-premises, you need to think about the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions or a [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures only you can read the data.  
+Warning: When choosing any [data source](/rdm/windows/data-sources/create-new-data-source/) type that is not on-premises, you must consider the security of the data at rest and in transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or a [security provider](/rdm/windows/commands/administration/settings/security-providers/) for [advanced data sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures that only you can read the data.  
 
 Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different data sources are explained in [Data Sources](/rdm/windows/data-sources/). For help selecting a data source tailored to your needs, please see [Select a data source type - Enterprises](/rdm/windows/getting-started/checklist-teams/select-data-source-type/).  
 		</td>
@@ -65,7 +65,7 @@ Step 5 - Create your default settings
 
 		</td>
 		<td>
-In ***File – Options***, you can set options for {{ en.RDM }} and create [Default settings](/rdm/windows/commands/file/templates/default-settings/) templates. Each entry type is supported and can have a default template defined to fit your requirements. After you configure the options, use the [Custom Installer](/rdm/windows/installation/client/custom-installer-service/) to share the pre-configured version with your team.  
+In ***File – Options***, you can set options for {{ en.RDM }} and create [default settings templates](/rdm/windows/commands/file/templates/default-settings/). Each entry type is supported and can have a default template defined to fit your requirements. After you configure the options, use the [Custom Installer](/rdm/windows/installation/client/custom-installer-service/) to share the pre-configured version with your team.  
 		</td>
 	</tr>
 	<tr>
@@ -83,7 +83,7 @@ Step 7 - Create user groups
 
 		</td>
 		<td>
-Create [User Groups](/rdm/windows/commands/administration/management/user-groups-management/) to manage your security system. You can then assign users to User Groups, making it easy to grant permissions to a set of users instead of having to manage permissions individually.  
+Create [User Groups](/rdm/windows/commands/administration/management/user-groups-management/) to manage your security system. You can then assign users to user groups, making it easy to grant permissions to a set of users instead of having to manage permissions individually.  
 		</td>
 	</tr>
 	<tr>
@@ -92,7 +92,7 @@ Step 8 - Create entries
 
 		</td>
 		<td>
-An [entry](/rdm/windows/commands/edit/entries/creating-new-entry/) is how you save information about your sessions (e.g. RDP, SSH connections), credentials, websites, VPNs, synchronizers and documents.  
+An [entry](/rdm/windows/commands/edit/entries/creating-new-entry/) is how you save information about your sessions (e.g., RDP, SSH), credentials, websites, VPNs, synchronizers, and documents.  
 		</td>
 	</tr>
 	<tr>
@@ -110,7 +110,7 @@ Step 10 - Import your data
 
 		</td>
 		<td>
-The final step is to [import your data](/rdm/windows/commands/file/import/) into {{ en.RDM }}. You can import your sessions, logins and contacts in a few steps.  
+The final step is to [import your data](/rdm/windows/commands/file/import/) into {{ en.RDM }}. You can import your sessions, logins, and contacts in a few steps.  
 		</td>
 	</tr>
 </table>

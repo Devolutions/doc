@@ -1,35 +1,39 @@
 ---
-title: Select the Data Source Type – Individuals
+title: Select a data source type – Individuals
+description: To help you select a data source, here is a set of concerns and the list of data sources that can serve in such a context.
 ---
-This topic is primarily intended for individuals, but also for teams of three (3) users or less who do not wish to set up security.  
+This topic is primarily intended for individuals, but also for teams of three users or less who do not wish to set up security.  
 
-To help you select a data source, here is a set of concerns and the list of data sources that can serve in such context. If you have multiple concerns, create the intersection of all sets to isolate a list of choices. 
+To help you select a data source, here is a set of concerns and the list of data sources that can serve in such a context. If you have multiple concerns, create the intersection of all sets to isolate a list of choices. 
 
 {% snippet icon.shieldWarning %} 
-When choosing any data source type that is not on-premises, you need to think of the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions or a [Security Provider](/rdm/mac/commands/administration/security-provider/) for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). This ensures only you can read the data. 
+When choosing any data source type that is not on-premises, you must consider the security of the data at rest and in transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or a [security provider](/rdm/mac/commands/administration/security-provider/) for [advanced data sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). This ensures that only you can read the data.  
+
+For additional security features such as encryption at rest and in transit, no direct database access, and zero-knowkedge encryption, consider our [enterprise data sources](/rdm/mac/getting-started/checklist-teams/select-data-source-type/).
 {% endsnippet %}
  
 <table>
 	<tr>
 		<th>
+
 DATA SOURCE 
 		</th>
-		<th>
+		<th style="text-align: center;">
 LOCAL 
 		</th>
-		<th>
+		<th style="text-align: center;">
 SELF-HOSTED 
 		</th>
-		<th>
+		<th style="text-align: center;">
 CLOUD-BASED 
 		</th>
-		<th>
+		<th style="text-align: center;">
 SHARED BETWEEN YOUR COMPUTERS 
 		</th>
-		<th>
+		<th style="text-align: center;">
 WORKS OFFLINE 
 		</th>
-		<th>
+		<th style="text-align: center;">
 MULTI-USER 
 		</th>
 	</tr>
@@ -43,13 +47,13 @@ MULTI-USER
 		<td>
 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
@@ -60,7 +64,7 @@ MULTI-USER
 		<td>
 SQLite 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
@@ -72,7 +76,7 @@ SQLite
 		<td>
 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
@@ -83,7 +87,7 @@ SQLite
 		<td>
 XML 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
@@ -95,7 +99,7 @@ XML
 		<td>
 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
@@ -112,13 +116,13 @@ XML
 		<td>
 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
@@ -135,17 +139,40 @@ Dropbox
 		<td>
 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 
 		</td>
-		<td>
+		<td style="text-align: center;">
 Note 1 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Google Drive 
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td>
+
 		</td>
 	</tr>
 </table>
@@ -154,9 +181,8 @@ Note 1
 
 ### Note 1 
 
-There is no protection against data contention issues. The data source is designed for one user to access the data from multiple computers. It is therefore impossible for several users to use the data simultaneously. 
+There is no protection against data contention issues. The data source is designed to allow one user to access the data from multiple computers. Therefore, it is impossible for multiple users to use the data at the same time.  
 
 ### Note 2 
 
-The master XML is maintained by a single user and synchronized by {{ en.RDM }} to a website that is hosted as per your requirements. Accessing the data through a URL ensures it is read-only for other users. 
-
+The master XML file is maintained by a single user and synchronized by {{ en.RDM }} for Mac to a website that is hosted to your specifications. Access to the data via a URL ensures that it is read-only for other users.  

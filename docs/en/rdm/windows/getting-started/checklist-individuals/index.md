@@ -21,8 +21,8 @@ DESCRIPTION
 		<td>
 Step 1 - Register your license  
 
-* [Team Registration](/rdm/windows/installation/client/registration/team-edition/) 
-* [Trial Registration](/rdm/windows/installation/client/registration/trial-request/) 
+* [Team registration](/rdm/windows/installation/client/registration/team-edition/) 
+* [Trial request](/rdm/windows/installation/client/registration/trial-request/) 
 
 		</td>
 		<td>
@@ -37,7 +37,7 @@ Step 2 - Add your data source and set up your {{ en.DA }} and master key
 
 		</td>
 		<td>
-Warning: When choosing any data source type that is not on-premises, you need to think about the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions, or a [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures only you can read the data.  
+Warning: When choosing any data source type that is not on-premises, you must consider the security of the data at rest and in transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or a [security provider](/rdm/windows/commands/administration/settings/security-providers/) for [advanced data sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures that only you can read the data.  
 
 Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different data sources are explained in [Data Sources](/rdm/windows/data-sources/). For help selecting a data source tailored to your needs, please see [Choosing your data source (Individuals)](/rdm/windows/getting-started/checklist-individuals/select-data-source-type/).  
 
@@ -61,7 +61,7 @@ Step 4 - Create your default settings
 
 		</td>
 		<td>
-In ***File – Options***, you can create, modify or reset [default settings](/rdm/windows/commands/file/templates/default-settings/) for your templates. Each entry type is supported and can have a default template defined to fit your requirements.  
+In ***File – Options***, you can create, modify, or reset [default settings](/rdm/windows/commands/file/templates/default-settings/) for your templates. Each entry type is supported and can have a default template defined to fit your requirements.  
 
 {% youtube '4sib5cliffA' %}  
 		</td>
@@ -83,7 +83,7 @@ Step 6 - Import your data
 
 		</td>
 		<td>
-The final step is to [import your data into {{ en.RDM }}](/rdm/windows/commands/file/import/). You can import your sessions, logins and contacts in a few steps.  
+The final step is to [import your data into {{ en.RDM }}](/rdm/windows/commands/file/import/). You can import your sessions, logins, and contacts in a few steps.  
 
 {% youtube 'x4NLsBvF2tU' %}  
 		</td>
