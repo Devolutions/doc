@@ -8,7 +8,7 @@ eleventyComputed:
 ---
 You can request access to a public vault in {{ en.RDM }}. Follow the steps below to complete a request.
 
-1. If you have multiple data sources in {{ en.RDM }}, select the SQL data source that contains the vault you want access to in the ***{{ en.NPANE }}***.  
+1. If you have multiple data sources in {{ en.RDM }}, select an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) that contains the vault you want access to in the ***{{ en.NPANE }}***.  
 1. In the vault selector drop-down menu, click the ellipsis button to open a vault selection window.  
 ![Ellipsis in vault selector](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2153.png)
 1. Go to the ***Request Vault Access*** tab.  
