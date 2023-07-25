@@ -7,9 +7,9 @@ This topic is for small teams that use the functionality offered by our Team Edi
 To help you select a data source type, here is a set of concerns and the list of SQL data sources that can serve in such a a context.  
 
 {% snippet icon.shieldWarning %} 
-When choosing any type of data source that is not on-premises, you must consider the security of the data at rest and in transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or a [security provider](/rdm/windows/commands/administration/settings/security-providers/) for [advanced data sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures that only you can read the data.  
+When choosing any type of data source that is not on-premises, you must consider the security of the data at rest and in transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or a [security provider](/rdm/mac/commands/administration/security-provider/) for [advanced data sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). This ensures that only you can read the data.  
 
-For additional security features such as encryption at rest and in transit, no direct database access, and zero-knowkedge encryption, consider our [enterprise data sources](/rdm/windows/getting-started/checklist-teams/select-data-source-type/).
+For additional security features such as encryption at rest and in transit, no direct database access, and zero-knowkedge encryption, consider our [enterprise data sources](/rdm/mac/getting-started/checklist-teams/select-data-source-type-teams/).
 {% endsnippet %}
 
 <table>
@@ -105,7 +105,7 @@ Administrators can create end user accounts without sharing passwords. A locked 
 
 Integrated security a Microsoft technology that allows access to an instance of SQL Server without sending credentials, using the token provided by the authentication in your Windows computer. This allows users to connect directly to the database using other tools. It should not be used if you need to prevent direct access to the database.  
 
-Our SQL Server data source provides a third authentication option, namely the ***Custom (Devolutions)*** user type. This allows the user to be impersonated and therefore not be made aware of the credentials used to connect to the database. See [User Management](/rdm/windows/commands/administration/management/user-management/) for details.  
+Our SQL Server data source provides a third authentication option, namely the ***Custom (Devolutions)*** user type. This allows the user to be impersonated and therefore not be made aware of the credentials used to connect to the database. See [User Management](/rdm/mac/commands/administration/user-management/) for details.  
 
 ### Note 3 
 

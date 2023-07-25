@@ -58,11 +58,11 @@ The ***Integrated Security (Active Directory)*** method is only available with {
 		<td>
 Step 2 - Register your license  
 
-* [Team registration](/rdm/windows/installation/client/registration/team-edition/)  
-* [Trial request](/rdm/windows/installation/client/registration/trial-request/)  
+* [Team registration](/rdm/mac/installation/client/registration/team-edition/)  
+* [Trial request](/rdm/mac/installation/client/registration/trial-request/)  
 		</td>
 		<td>
-[Add your license](/rdm/windows/installation/client/registration/team-edition/) to the data source. A {{ en.RDM }} Team Edition [30-day trial](/rdm/windows/installation/client/registration/trial-request/) is available upon request.  
+[Add your license](/rdm/mac/installation/client/registration/team-edition/) to the data source. A {{ en.RDM }} Team Edition [30-day trial](/rdm/mac/installation/client/registration/trial-request/) is available upon request.  
 
 You can enable the option to have licenses auto-assigned, so that when new users are created they automatically receive a license.  
 
@@ -140,7 +140,7 @@ Step 8 - Assign permissions
 
 		</td>
 		<td>
-[Permissions](/rdm/windows/user-groups-based-access-control/permissions/) can be granted to users and user groups. They are set on the vault, folder, and entry levels.  
+[Permissions](/rdm/mac/commands/administration/user-management/permissions/) can be granted to users and user groups. They are set on the vault, folder, and entry levels.  
 
 The permissions granted on the folder can be inherited by each entry set under that folder.  
 
@@ -157,7 +157,7 @@ Step 9 - Add a security provider for encryption
 		<td>
 {{ en.RDM }} encrypts all passwords and sensitive information with AES-256 encryption, but some organizations may require for the whole database to be encrypted.  
 
-The [***Security Provider***](/rdm/windows/commands/administration/settings/security-providers/) is an additional level of encryption to the already-encrypted passwords and sensitive information in {{ en.RDM }}. It can be configured using a passphrase, a certificate, or a keyfile. See our [Security providers best practices](/kb/remote-desktop-manager/knowledge-base/security-providers-best-practices/).  
+The [***Security Provider***](/rdm/mac/commands/administration/security-provider/) is an additional level of encryption to the already-encrypted passwords and sensitive information in {{ en.RDM }}. It can be configured using a passphrase, a certificate, or a keyfile. See our [Security providers best practices](/kb/remote-desktop-manager/knowledge-base/security-providers-best-practices/).  
 
 {% youtube 'BfFvtHJSzbs?start=933' %}  
 		</td>

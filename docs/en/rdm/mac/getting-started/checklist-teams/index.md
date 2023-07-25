@@ -36,7 +36,7 @@ Step 2 - Add your data source
 		<td>
 Warning: When choosing any [data source](/rdm/mac/data-sources/create-new-data-source/) type that is not on-premises, you must consider the security of the data at rest and in transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or a [security provider](/rdm/mac/commands/administration/security-provider/) for [advanced data sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). This ensures that only you can read the data.  
 
-Upon first launch, {{ en.RDM }} for Mac uses an SQLite data source. The different data sources are explained in [Data Source Types](/rdm/mac/data-sources/data-sources-types/). For help selecting a data source tailored to your needs, please see [Select a data source type – Enterprises](/rdm/mac/getting-started/checklist-individuals/select-data-source-type-teams/).  
+Upon first launch, {{ en.RDM }} for Mac uses an SQLite data source. The different data sources are explained in [Data Source Types](/rdm/mac/data-sources/data-sources-types/). For help selecting a data source tailored to your needs, please see [Select a data source type – Enterprises](/rdm/mac/getting-started/checklist-teams/select-data-source-type-teams/).  
 		</td>
 	</tr>
 	<tr>
