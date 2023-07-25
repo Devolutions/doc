@@ -40,5 +40,5 @@ By default, shared vaults are set to private in the ***System Settings***.
 1. Click ***Update*** or ***Add*** to save your changes.
 
 {% snippet icon.badgeHelp %}
-If your vault is public, see how a user can [request access to the vault]() and how you can [approve this request]().
+If your vault is public, see how a user can [request access to the vault](/server/web-interface/vault-access/request-vault-access) and how you can [approve this request](/server/web-interface/vault-access/approve-vault-access).
 {% endsnippet %}
