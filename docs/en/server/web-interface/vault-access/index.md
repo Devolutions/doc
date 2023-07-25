@@ -19,23 +19,22 @@ You can change the ***Vault Visibility*** either system-wide or individually on 
 
 ## Configure vault visibility
 
-{% snippet icon.badgeInfo %} 
+{% snippet icon.badgeInfo %}
 By default, shared vaults are set to private in the ***System Settings***.
 {% endsnippet %}
 
 ### System-wide vault visibility
 
-1. In {{ en.DVLS }}, make sure you are connected to the right data source.
-1. Go to ***Administration*** – ***Configuration*** – ***System Settings*** – ***Vault Management*** – ***Default vault visibility***.
+1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
+1. Go to ***Administration*** – ***Configuration*** – ***System Settings*** – ***Vault Management***.
 1. Set the ***Default vault visibility*** to either ***Public - Allow Access Requests*** or ***Private - Invitation Only***.
-1. Click ***Save*** to save your changes.  
+1. Click ***Save*** to save your changes.
 
 ### Individual vault visibility
 
-1. In {{ en.DVLS }}, make sure you are connected to the right data source.
-1. Go to ***Administration*** – ***Vaults***.
-1. To modify an existing vault click on ***Edit***. To create a new vault, click on ***Add***.  
-
+1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
+1. Go to ***Administration*** – ***Security Management*** – ***Vaults***.
+1. To modify an existing vault click on ***Edit***. To create a new vault, click on ***Add***.
 1. In the ***General*** section, change the ***Visibility*** to ***Public - Allow Access Requests***, ***Private - Invitation Only***, or ***Defaut*** (which refers to the system-wide vault visibility setting described in the previous section).
 1. Click ***Update*** or ***Add*** to save your changes.
 
