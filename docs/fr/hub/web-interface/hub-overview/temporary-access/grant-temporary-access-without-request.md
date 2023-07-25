@@ -12,7 +12,7 @@ La fonction ***Accès temporaire*** permet aux utilisateurs de demander une él�
 
 ## Accorder un accès temporaire
 
-1. Sélectionner le coffre auquel vous souhaitez accorder l'accès.  
+1. Sélectionner l'entrée auquel vous souhaitez accorder l'accès.  
 1. Cliquer sur ***Plus***, puis sélectionner ***Accorder un accès temporaire***.  
 ![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6025.png)   
 Vous pouvez afficher les ***entrées liées*** telles que les identifiants liés et les VPN.  

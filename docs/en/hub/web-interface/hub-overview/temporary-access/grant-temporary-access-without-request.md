@@ -13,7 +13,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 ## Grant temporary access
 
-1. Select the vault you want to grant access to.  
+1. Select the entry you want to grant access to.  
 1. Click on ***More***, then select ***Grant Temporary Access***.  
 ![Grant Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6033.png)   
 You can view ***linked entries*** such as linked credentials and VPNs.  
