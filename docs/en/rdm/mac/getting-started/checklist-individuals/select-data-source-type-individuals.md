@@ -9,7 +9,7 @@ To help you select a data source, here is a set of concerns and the list of data
 {% snippet icon.shieldWarning %} 
 When choosing any data source type that is not on-premises, you must consider the security of the data at rest and in transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or a [security provider](/rdm/mac/commands/administration/security-provider/) for [advanced data sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). This ensures that only you can read the data.  
 
-For additional security features such as encryption at rest and in transit, no direct database access, and zero-knowkedge encryption, consider our [enterprise data sources](/rdm/mac/getting-started/checklist-teams/select-data-source-type/).
+For additional security features such as encryption at rest and in transit, no direct database access, and zero-knowkedge encryption, consider our [enterprise data sources](/rdm/mac/getting-started/checklist-teams/select-data-source-type-teams/).
 {% endsnippet %}
  
 <table>
