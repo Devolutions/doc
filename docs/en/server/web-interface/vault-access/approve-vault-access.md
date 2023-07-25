@@ -6,19 +6,15 @@ eleventyComputed:
   keywords: 
   - vault access
 ---
-In {{ en.DVLS }}, users can request access to a public vault. An administrator / vault owner then has to approve the request. Vault owners are configured in the ***Vault Management*** when creating or editing a vault.
+In {{ en.DVLS }}, users can request access to a public vault. An administrator / vault owner then has to approve the request. Vault owners are configured in ***Administration*** – ***Security Management*** – ***Vaults*** when creating or editing a vault, under the ***Vault Owners*** section.
 
 ## View pending vault access requests
 
-To view all your past and current requests, you must use the following ***Pending Vault Access Requests*** box to open the ***Vault Access Requests*** window.  
-  
-In the ***Vault Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***Vault***, ***Username***, ***Data source user***, ***Request date***, ***Authorizer username***, or ***Authorizer data source user***.  
-  
+To view the number of pending requests, you can look at the following ***Pending Vault Access Requests*** box in the top of the ***Dashboard***.  
 
-It is also possible to display only certain requests with the ***Status*** drop-down menu or with the filter bar at the top.
+To accept the pending requests, scroll down to the ***Pending Vault Access Requests*** section.
+Using the ***Messages*** button, you can view the ***Vault Access Request*** message of a specific request.  
 
-Using the ***View messages*** button, you can view the ***Request message*** and the ***Authorization message*** of a specific request.  
-  
 Finally, clicking on the ***Approve*** and ***Deny*** buttons opens the ***Vault Access Request Response*** window, which is described next.
 
 ## Approve/Deny vault access requests
@@ -30,22 +26,18 @@ Depending on the data source, administrators / vault owners may receive an email
 * With a SQL data source, no email is sent.
 {% endsnippet %}
 
-To respond to a request, you need to open the ***Vault Access Request Response*** window. There are two ways to access it.
+To respond to a request, you need to open the ***Vault Access Request Response*** window, or use the Pending Vault Access Requests box.
 
-The first option is to use the ***Pending Vault Access Requests*** box (see image below) in your ***Dashboard***. Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***Vault Access Request Response*** window.  
+The first option is to use the ***Pending Vault Access Requests*** section (see image below) in your ***Dashboard***, it can be found by scrolling down. Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***Vault Access Request Response*** window.  
 
-  
-
-The second option requires you to go through the other ***Pending Vault Access Requests*** box described in the previous section. Whatever way you choose to access the response window, the result will be the same.  
-
-  
+The second option requires you to go through the other ***Messages***. Whatever way you choose to access the response window, the result will be the same.  
 
 This view is divided into two sections:
 
 * The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited.
 * The ***Response Parameters*** section allows you to write a message to the user explaining your decision, but it remains optional.  
 
-Clicking on ***Send response*** will approve or deny the request, depending on what you selected earlier. A confirmation window will pop up which you can make disappear by clicking on ***OK***.
+The button to send the response (***Approve request*** or ***Deny request***) will change, depending on what you selected earlier.
 
 {% snippet icon.badgeHelp %}
 To learn more about the end user experience in {{ en.DVLS }}, visit [Request vault access in {{ en.DVLS }}](/server/web-interface/vault-access/request-vault-access).
