@@ -6,8 +6,8 @@ eleventyComputed:
 ---
 Here is a list of steps to help you get started with {{ en.HUBB }} for your team environment.  
 
-{% snippet icon.badgeNotice %} 
-Start your free {{ en.HUBB }} [trial](https://password.devolutions.net/business/sign-up) today! 
+{% snippet icon.badgeInfo %} 
+Start your [free {{ en.HUBB }} trial](https://password.devolutions.net/business/sign-up) today! 
 {% endsnippet %}  
 
 <table>
