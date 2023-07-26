@@ -2,13 +2,14 @@
 eleventyComputed:
   title: Get started with {{ en.HUBB }}
   order: 20
+  description: Here is a list of steps to help you get started with {{ en.HUBB }} for your team environment.
 ---
 Here is a list of steps to help you get started with {{ en.HUBB }} for your team environment.  
 
 {% snippet icon.badgeNotice %} 
-Start your free {{ en.HUBB }}    [trial](https://password.devolutions.net/business/sign-up) today! 
-{% endsnippet %}
- 
+Start your free {{ en.HUBB }} [trial](https://password.devolutions.net/business/sign-up) today! 
+{% endsnippet %}  
+
 <table>
 	<tr>
 		<th>
@@ -16,9 +17,6 @@ Steps
 		</th>
 		<th>
 Description 
-		</th>
-		<th>
-Video 
 		</th>
 	</tr>
 	<tr>
@@ -31,11 +29,9 @@ Step 1 - Setting up ***User Groups*** and ***Vaults***
 * [Create Vaults and Assign Permissions](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) 
 		</td>
 		<td>
-In this video, we will demonstrate the proper configuration for {{ en.HUBB }} as well as best practices for inviting an ***Administrator*** , creating ***User Groups*** , as well as setting up ***Shared Vaults*** , and assigning them ***Roles*** and ***Permissions*** . 
-		</td>
-		<td>
+In this video, we will demonstrate the proper configuration for {{ en.HUBB }} as well as best practices for inviting an ***Administrator***, creating ***User Groups***, as well as setting up ***Shared Vaults***, and assigning them ***Roles*** and ***Permissions***.  
 
-{% youtube 'fRW0FnnaGkc' %}
+{% youtube 'fRW0FnnaGkc' %}  
 		</td>
 	</tr>
 	<tr>
@@ -46,11 +42,9 @@ Step 2 - Inviting multiple ***Users***
 * [Invite Users](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/) 
 		</td>
 		<td>
-With this video, we will demonstrate how to add ***Users*** to your {{ en.HUBB }} for both those who already have a {{ en.DA }} , as well as those that don 't. 
-		</td>
-		<td>
+With this video, we will demonstrate how to add ***Users*** to your {{ en.HUBB }} for both those who already have a {{ en.DA }} as well as those that do not.  
 
-{% youtube 'IH71s3SDHgc' %}
+{% youtube 'IH71s3SDHgc' %}  
 		</td>
 	</tr>
 	<tr>
@@ -62,11 +56,9 @@ Step 3 - Filling ***Vaults*** with content
 * [Import Entries with {{ en.HUBI }}](/hub/web-interface/hub-overview/tools/hub-importer/) 
 		</td>
 		<td>
-At this stage we will show you four different ways to add and import ***Entries*** into your newly created {{ en.HUBB }}. We will also cover the ***Properties*** and ***Permissions*** of ***Entries*** . 
-		</td>
-		<td>
+At this stage, we will show you four different ways to add and import ***Entries*** into your newly created {{ en.HUBB }}. We will also cover the ***Properties*** and ***Permissions*** of ***Entries***.  
 
-{% youtube 'EysCvWKB5Ko' %}
+{% youtube 'EysCvWKB5Ko' %}  
 		</td>
 	</tr>
 	<tr>
@@ -80,13 +72,9 @@ Step 4 - ***Administration Settings*** and ***Reports***
 * [Tools](/hub/web-interface/hub-overview/tools/) 
 		</td>
 		<td>
-In this final video, we will show you some of the administration ***Management*** settings, ***Configuration*** , ***Tools*** and ***Reports*** that we think will benefit you as you finalize getting your {{ en.HUBB }} all set up. 
-		</td>
-		<td>
-{% youtube '86FV0yMzm1M' %}
+In this final video, we will show you some of the administration ***Management*** settings, ***Configuration***, ***Tools***, and ***Reports*** that we think will benefit you as you finalize getting your {{ en.HUBB }} all set up.  
+
+{% youtube '86FV0yMzm1M' %}  
 		</td>
 	</tr>
 </table>
-
-
-
