@@ -21,22 +21,25 @@ Depending on the data source, administrators / vault owners may receive an email
 * With a SQL data source, no email is sent.
 {% endsnippet %}
 
-To respond to a request, you can use the ***Pending Vault Access Requests*** box or open the ***Vault Access Request Response*** window.
+{% snippet icon.badgeInfo %}
+When requesting access to a vault with {{ en.HUBB }}, an approver must be picked from the list. Only administrators or vault owners are elligible.
+{% endsnippet %}  
 
-The first option is to use the ***Pending Vault Access Requests*** section (see image below) in your ***Dashboard***, it can be found by scrolling down. Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***Vault Access Request Response*** window.  
-![Pending Vault Access Requests](https://webdevolutions.azureedge.net/docs/en/hub/.png)  
-
-The second option requires you to go through the other ***Messages***. Whatever way you choose to access the response window, the result will be the same.  
-![Message](https://webdevolutions.azureedge.net/docs/en/hub/.png)  
+Use the ***Pending Vault Access Requests*** section (see image below) in your ***Dashboard***. Clicking on the request will open the ***Approval request*** window.  
+![Pending Vault Access Requests](https://webdevolutions.azureedge.net/docs/en/hub/Hub0000.png)  
 
 This view is divided into two sections:
 
-* The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited.
-* The ***Response Parameters*** section allows you to write a message to the user explaining your decision, but it remains optional.  
+* The ***For*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited.
+* The ***Awaiting approval*** section allows you to write a message to the user explaining your decision, but it remains optional.  
 
-![Approve or Deny the request](https://webdevolutions.azureedge.net/docs/en/hub/.png)  
+{% snippet icon.badgeInfo %}
+The ***Permissions*** level set by the user making the request can by modified by the approver. You can read more on [Roles and permissions](/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions).
+{% endsnippet %}  
 
-The button to send the response (***Approve request*** or ***Deny request***) will change, depending on what you selected earlier.
+![Approve or Deny the request](https://webdevolutions.azureedge.net/docs/en/hub/Hub0001.png)  
+
+Clicking on ***Approve*** or ***Deny*** will send the response with the selected parameters.
 
 {% snippet icon.badgeHelp %}
 To learn more about the end user experience in {{ en.HUBB }}, visit [Request vault access in {{ en.HUBB }}](/hub/web-interface/vault-access/request-vault-access).
