@@ -10,7 +10,7 @@ In {{ en.HUBB }}, users can request access to a public vault. An administrator /
 
 ## View pending vault access requests
 
-To accept the pending requests, click on a specific entry in the ***Pending Vault Access Requests*** section. This will open the ***Approval request*** window which is described in the next section.  
+To accept the pending requests, click on a specific entry in the ***Pending Vault Access Requests*** section, which is in the ***Dashboard***. This will open the ***Approval request*** window which is described in the next section.  
 
 {% snippet icon.badgeInfo %}
 Pending requests will only show up in the ***Dashboard*** if you are in a vault that a user has requested access to.
@@ -25,8 +25,11 @@ Depending on the data source, administrators / vault owners may receive an email
 * With a SQL data source, no email is sent.
 {% endsnippet %}
 
-Use the ***Pending Vault Access Requests*** section (see image below) in your ***Dashboard***. Clicking on the request will open the ***Approval request*** window.  
+To accept pending requests, use the ***Pending Vault Access Requests*** section (see image below) in your ***Dashboard***. Clicking on the request will open the ***Approval request*** window.  
+
 ![Pending Vault Access Requests](https://webdevolutions.azureedge.net/docs/en/hub/Hub0000.png)  
+
+![Approve or Deny the request](https://webdevolutions.azureedge.net/docs/en/hub/Hub0001.png)  
 
 This view is divided into two sections:
 
@@ -36,8 +39,6 @@ This view is divided into two sections:
 {% snippet icon.badgeInfo %}
 The ***Permissions*** level set by the user making the request can by modified by the approver. You can read more on [Roles and permissions](/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions).
 {% endsnippet %}  
-
-![Approve or Deny the request](https://webdevolutions.azureedge.net/docs/en/hub/Hub0001.png)  
 
 Clicking on ***Approve*** or ***Deny*** will send the response with the selected parameters.
 

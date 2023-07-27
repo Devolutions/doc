@@ -26,7 +26,7 @@ By default, shared vaults are set to private in the ***System Settings***.
 ### System-wide vault visibility
 
 1. In the web interface for {{ en.HUBB }}, make sure you are connected to the right data source.
-1. Go to ***Administration*** – ***Configuration & Security*** – ***System Settings*** – ***Vault**.
+1. Go to ***Administration*** – ***Configuration & Security*** – ***System Settings*** – ***Vault***.
 1. Set the ***Visibility*** to either ***Public - Allow access request*** or ***Private - Invitation only***.
 
 ### Individual vault visibility
