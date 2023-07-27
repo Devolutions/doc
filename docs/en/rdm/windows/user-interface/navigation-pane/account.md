@@ -24,11 +24,11 @@ Usage profile changes are applied to your account in the current data source. Th
 
 ***Usage profiles*** allow users to have a tailored experience in RDM and other Devolutions products based on their tasks and roles.  
 
-* ***IT professional***: This profile displays all entry types and options provided the user has the necessary permissions to access them. This profile offers all of what our solutions have to offer, advanced options, and access to all entries and information.  
-* ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries, administrative options, or advanced properties. Our interfaces have been streamlined to minimize options that are primarily intended for IT Professionals, allowing business users to focus on their daily tasks without unnecessary complexities.  
+* ***IT professional***: A comprehensive interface with full-fledged capabilities and all remote connection features.  
+* ***Business user***: A streamlined interface for managing sensitive information, such as passwords.  
 
 {% snippet icon.badgeHelp %} 
-For a more detailed overview of the characteristics of the profiles, see [Usage profiles](/rdm/windows/user-interface/customization/usage-profiles/).
+For a more detailed overview of the profiles, see [Usage profiles](/rdm/windows/user-interface/customization/usage-profiles/).
 {% endsnippet %}  
 
-The profile can also be selected during the RDM Onboarding process. If none is chosen, the user will be assigned the ***Default*** profile, which can be changed in ***File – Options – User Interface – Usage profile*** or in the web interface.  
+The profile can also be selected during the RDM Onboarding process. If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Options – User Interface – Usage profile*** or in the web interface.  
