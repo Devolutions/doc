@@ -1,5 +1,7 @@
 ---
-title: CSV Import Strategies and File Format
+eleventyComputed:
+  title: CSV Import strategies and file format
+  description: When importing CSV files into Remote Desktop Manager, there are some decisions to be made about the strategies to use and the format of the content. 
 ---
 When importing CSV files into {{ en.RDM }} , there are some decisions to be made about the strategies to use and the format of the content. 
 
@@ -16,13 +18,13 @@ In ***File – Import*** , we recommend you use the ***Import Generic Csv Wizard
 ![Import Csv Wizard](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4044.png) 
 {% endsnippet %}
  
-## File Content 
+## File content 
 
 {% snippet icon.badgeCaution %} 
 Some validations on entry settings are not in the business layer but rather in the property dialogs. This means that using the import process can result in invalid entries that trigger errors. Please validate the resulting entries carefully. 
 {% endsnippet %}
  
-In the CSV file, the ***Host*** and the ***Name*** fields are mandatory. If no template is specified, the RDP type will be used as a fallback type.  
+In the CSV file, the ***Host*** and the ***Name*** fields are mandatory. If no template is specified, the RDP type will be used as a fallback type. Fields must be separated by commas.
 
 We cannot provide the list of all supported fields for all entry types because {{ en.RDM }} uses an open architecture and is therefore not aware of all the entry type fields that are provided by our add-on system. A good method of finding out the field structure is creating an entry of the desired type, right-clicking it and selecting ***Clipboard – Copy*** , then pasting the content in your favorite editor. You will see the structure and the field names.  
 
