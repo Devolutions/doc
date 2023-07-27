@@ -14,7 +14,7 @@ You can request access to a public vault in {{ en.HUBB }}. Follow the steps belo
 1. Choose the vault you want to access, then click on ***Request Access***.  
 
    {% snippet icon.badgeInfo %}
-   When requesting access to a vault with {{ en.HUBB }}, an approver must be picked from the list. Only administrators or a vault owner are elligible.
+   When requesting access to a vault with {{ en.HUBB }}, an approver must be picked from the list. Only administrators or a vault owner are eligible.
    {% endsnippet %}  
 
 ![Request Access](https://webdevolutions.azureedge.net/docs/en/hub/Hub0003.png)  

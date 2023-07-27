@@ -25,10 +25,6 @@ Depending on the data source, administrators / vault owners may receive an email
 * With a SQL data source, no email is sent.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
-When requesting access to a vault with {{ en.HUBB }}, an approver must be picked from the list. Only administrators or vault owners are elligible.
-{% endsnippet %}  
-
 Use the ***Pending Vault Access Requests*** section (see image below) in your ***Dashboard***. Clicking on the request will open the ***Approval request*** window.  
 ![Pending Vault Access Requests](https://webdevolutions.azureedge.net/docs/en/hub/Hub0000.png)  
 
