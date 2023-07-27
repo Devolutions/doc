@@ -12,6 +12,10 @@ In {{ en.HUBB }}, users can request access to a public vault. An administrator /
 
 To accept the pending requests, click on a specific entry in the ***Pending Vault Access Requests*** section. This will open the ***Approval request*** window which is described in the next section.  
 
+{% snippet icon.badgeInfo %}
+Pending requests will only show up in the ***Dashboard*** if you are in a vault that a user has requested access to.
+{% endsnippet %}  
+
 ## Approve/Deny vault access requests
 
 {% snippet icon.badgeInfo %}
