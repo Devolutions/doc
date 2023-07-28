@@ -1,24 +1,28 @@
 ---
 eleventyComputed:
   title: Onboarding
-  description: When opening your application for the first time, an Onboarding process will begin to help you get started with {{ en.RDM }}.
+  description: When opening your RDM application for the first time, an Onboarding process will begin to help you get started with {{ en.RDM }}.
 ---
-When opening your application for the first time, an Onboarding process will begin to help you get started with {{ en.RDM }}. Here are the steps that you will go through during this initial configuration.
+When opening your RDM application for the first time, an Onboarding process will begin to help you get started with {{ en.RDM }}. Here are the steps that you will go through during this initial configuration.
 
-## Create your data source
+## Step 1: Create your data source
+
+![Create your data source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2174.png)  
 
 To get started, you must configure a data source. A dat source is at the heart of {{ en.RDM }}. It is the vault that contains all of your precious and sensitive data.  
 
 You will have to select between three option:  
 * ***Local (Free)***: Select this option if you intend to access your data source from this device only. You will then be guided to configure a [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) data source, which is fast and easy-to-use and accessible locally. 
 * ***Online (Free)***: Select this option if you intend to access your data source anywhere from many devices. You will then be guided to configure a [{{ en.DHUBP }}](/rdm/windows/data-sources/data-sources-types/hub-personal/) data source, which is a highly-secure, flexible and easy-to-use cloud-based password management solution.  
-* [***Team (Subscription)***](/rdm/windows/installation/onboarding/#team-subscription-advanced-data-source): Select this option if you want all your team members to be able to securely access the data source. You will then have a choice between different [advanced data sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
+* [***Team (Subscription)***](/rdm/windows/installation/onboarding/#team-subscription): Select this option if you want all your team members to be able to securely access the data source. You will then have a choice between different [advanced data sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 
 {% snippet icon.badgeInfo %}
 Skipping the creation of your data source will end the Onboarding process.
 {% endsnippet %}  
 
-### Team (Subscription) advanced data source
+### Team (Subscription)
+
+![Team (Subscription)](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2175.png)  
 
 Select the data source you are going to use:  
 * [***{{ en.DHUBB }}***](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/): Select {{ en.DHUBB }} for a highly-secure, flexible and easy-to-use cloud-based password management solution for team environments. You will then be prompted to enter your ***Email*** to connect to your {{ en.DA }}, and to select which of your {{ en.HUB }}s to use (if you have access to multiple ones).
@@ -26,7 +30,9 @@ Select the data source you are going to use:
 * ***Other***: Select this option if your data source does not appear in this list. You will then be prompted to select another data source type and to enter information to configure it. The information to provide depends on the data source.
 * ***Data Source Configuration (.rdd)***: Select this option if you have previously exported and saved a data source configuration file (.rdd) and want to import it in your RDM application. You will then be prompted to select the file on your computer.
 
-## Manage your entries
+## Step 2: Manage your entries
+
+![Manage your entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2176.png)  
 
 {% snippet icon.badgeInfo %}
 If you selected a data source configuration file (.rdd), this step is skipped.
@@ -44,7 +50,9 @@ If you decide to import entries, you must first have exported and saved a file i
 You can always import files later.
 {% endsnippet %}  
 
-## User Interface Profile
+## Step 3: User Interface Profile
+
+![User Interface Profile](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2177.png)  
 
 Usage profiles allow users to have a tailored experience in {{ en.RDM }} based on their tasks and roles. Select the user interface profile that best matches your needs:  
 * ***IT professional***: This profile displays all entry types and options provided the user has the necessary permissions to access them. This profile offers all of what our solutions have to offer, advanced options, and access to all entries and information.
@@ -55,11 +63,15 @@ Usage profiles allow users to have a tailored experience in {{ en.RDM }} based o
 For a detailed overview of both profiles, see [Usage profiles](/rdm/windows/user-interface/customization/usage-profiles/).
 {% endsnippet %}  
 
-## UI Options
+## Step 4: UI Options
 
-Select your favorite [theme](/rdm/windows/user-interface/customization/theme/) (***System***, ***Light***, or ***Dark***) and [menu display](/rdm/windows/user-interface/customization/style/) (***Ribbon*** or ***Menu***).
+![UI Options](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2178.png)  
 
-## Join the community
+Select your favorite [theme](/rdm/windows/user-interface/customization/theme/) (***System***, ***Light***, or ***Dark***) and [menu display](/rdm/windows/user-interface/customization/style/) (***Ribbon*** or ***Menu***). When you are done, click ***Continue*** to go to the last step.
+
+## Step 5: Join the community
+
+![Join the community](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2179.png)  
 
 In this last step, you can subscribe to our email list and join the Devolutions Force. Both are free!  
 
