@@ -4,6 +4,8 @@ description : User Template allows you to modify the user settings that are sele
 ---
 ***User Template*** allows you to modify the user settings that are selected by default when creating a new user in [***User Management***](/rdm/windows/commands/administration/management/user-management/).
 
+![Administration – System Settings – User Management – User Template](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2173.png)  
+
 <table>
 	<tr>
 		<th>
@@ -62,3 +64,8 @@ Disable user vault
 Defines if the user vault is disabled or not by default when creating a new user.
 		</td>
 	</tr>
+</table>
+
+{% snippet icon.badgeInfo %}
+Other options can be enabled/disabled depending on the data source type.
+{% endsnippet %}  
