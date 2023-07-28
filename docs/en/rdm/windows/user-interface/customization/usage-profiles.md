@@ -442,4 +442,291 @@ Help
 
 ### Entry properties
 
-The sections that are available in ***entry properties*** are different depending on your usage profile. 
+The sections that are available in ***entry properties*** are different depending on your usage profile. Business users see the simplified view of entry properties without the option to toggle to all properties, while IT professionals see all properties by default but have the option to toggle between this view and the simplified view.
+
+{% snippet icon.badgeInfo %} 
+The availability of entry property sections also depends on the type of entry as usual.
+{% endsnippet %}  
+
+<table>
+	<tr>
+		<th>
+
+ENTRY PROPERTIES
+		</th>
+		<th style="text-align: center;">
+BUSINESS USER
+		</th>
+		<th style="text-align: center;">
+IT PROFESSIONAL
+		</th>
+	</tr>
+	<tr>
+		<td>
+General
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Description
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+User Interface
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Custom Fields
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Entry Information
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Settings
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+VPN/Tunnel/Gateway
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Events
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+One Time Password
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Permissions / Inherited Permissions
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Password Management
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Security Settings
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Session Recording
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Asset
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Logs
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Documentation
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Home Page
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+IT Asset Management
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Remote Management
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Variables
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Tools
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Is Online (Ping/Port scan)
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Wake on LAN
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+	<tr>
+		<td>
+Advanced
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+		</td>
+	</tr>
+</table>
+
+### Remote tools
+
+Remote tools are unavailable with the ***Business user*** profile. This means that users will not see tools and tool sections in the ***Ribbon***, ***Dashboard***, entry properties, etc.
