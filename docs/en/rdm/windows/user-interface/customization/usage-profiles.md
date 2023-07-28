@@ -8,15 +8,25 @@ eleventyComputed:
 * ***IT professional***: This profile displays all entry types and options provided the user has the necessary permissions to access them. This profile offers all of what our solutions have to offer, advanced options, and access to all entries and information.  
 * ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries, administrative options, or advanced properties. Our interfaces have been streamlined to minimize options that are primarily intended for IT Professionals, allowing business users to focus on their daily tasks without unnecessary complexities.  
 
-The profile is first selected during the RDM Onboarding process. If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Options – User Interface – Usage profile*** or in the web interface.  
+The profile is first selected during the RDM Onboarding process. 
 
-Users can individually change this setting in the ***{{ en.NPANE }}*** [***Account***](/rdm/windows/user-interface/navigation-pane/account/) tab.
+![User Interface Profile selection in Onboarding](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2167.png) 
+
+If none is chosen or if the user decides to choose one later, they will be assigned the ***Default*** profile, which can be changed in ***File – Options – User Interface – Usage profile*** or in the web interface.  
+
+![File – Options – User Interface – Usage profile](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2168.png) 
+
+Users can individually change this setting in the [***Account***](/rdm/windows/user-interface/navigation-pane/account/) tab of the ***{{ en.NPANE }}***.
+
+![Account – User Interface Profile](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2166.png) 
 
 ## Detailed overview
 
 Below you can find tables detailing the differences between the ***Business user*** and ***IT professional*** usage profiles.
 
 ### New entries
+
+![New entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2169.png) 
 
 This table shows the entry types that can be created depending on your usage profile.  
 
@@ -184,6 +194,8 @@ Template
 
 ### Vault Dashboard widgets
 
+![Vault Dashboard widgets](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2170.png) 
+
 This table shows the different widgets that can be displayed in your ***Vault Dashboard*** depending on your usage profile.  
 
 <table>
@@ -346,6 +358,8 @@ Types
 
 ### Ribbon sections
 
+![Ribbon sections](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2171.png)
+
 This table shows the different sections that are available in your ***Ribbon*** depending on your usage profile.  
 
 <table>
@@ -418,7 +432,7 @@ Tools
 	</tr>
 	<tr>
 		<td>
-Windows
+Window
 		</td>
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
@@ -441,6 +455,8 @@ Help
 </table>
 
 ### Entry properties
+
+![Entry properties](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2172.png)
 
 The sections that are available in ***entry properties*** are different depending on your usage profile. Business users see the simplified view of entry properties without the option to toggle to all properties, while IT professionals see all properties by default but have the option to toggle between this view and the simplified view.
 
