@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Account
-  description: The ***Account*** tab gives you access to settings for customizing your {{ en.RDM }} interface.
+  description: The Account tab gives you access to settings for customizing your {{ en.RDM }} interface.
 ---
 The ***Account*** tab gives you access to settings for customizing your {{ en.RDM }} interface. At the top, information about the account connected to RDM is displayed.  
 ![Account tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2165.png)  

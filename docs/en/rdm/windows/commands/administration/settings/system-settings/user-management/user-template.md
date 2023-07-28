@@ -1,7 +1,6 @@
 ---
-eleventyComputed:
-  title: User Template
-  description : test
+title: User Template
+description : User Template allows you to modify the user settings that are selected by default when creating a new user.
 ---
 ***User Template*** allows you to modify the user settings that are selected by default when creating a new user in [***User Management***](/rdm/windows/commands/administration/management/user-management/).
 
