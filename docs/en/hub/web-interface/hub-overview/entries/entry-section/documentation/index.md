@@ -1,17 +1,21 @@
 ---
 title: Documentation
 ---
-The ***Documentation*** feature allows to store information regarding entries. The text is formatted using the [Markdown](/hub/web-interface/hub-overview/entries/entry-section/documentation/quick-guide-markdown/) text formatting syntax.  
+The ***Documentation*** feature allows to store information regarding entries.
+
+{% snippet icon.badgeInfo %} 
+This feature is also available with {{ en.DVLS }} and SQL Server data sources.  
+{% endsnippet %}
+ 
+{% snippet icon.badgeInfo %} 
+The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, Hub Business and Hub Personal data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 
+{% endsnippet %}
 
 ### Create documentation 
 
-1. Click ***Documentation*** in an entry. 
-1. Click ***Add*** . 
-1. Give the document a ***Title*** . 
-1. Enter the text following the [Markdown](/hub/web-interface/hub-overview/entries/entry-section/documentation/quick-guide-markdown/) text markup language. 
-{% snippet icon.badgeNotice %} 
-Click the ***Preview*** or ***Split vertically*** buttons to review the appearance of the document. 
-{% endsnippet %}
- 
-5. Click ***Add*** to save.  
-![!!Hub4123.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4123.png) 
+1. Choose the entry and click ***Add Documentation***.
+![Add Documentation](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6034.png) 
+1. Give the document a ***Title***. 
+1. Enter the text using ***Markdown*** or ***WYSIWYG*** text language.
+![Markdown and WYSIWYG](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6035.png) 
+5. Click ***Add*** to save the documentation. 

@@ -2,12 +2,25 @@
 title: Documentation
 order: 10
 ---
-The ***Documentation*** feature allows to store information regarding entries. The text is formatted using the [Markdown](/server/web-interface/vault/entries/entry-section/documentation/quick-guide-markdown/) text formatting syntax.  
+The ***Documentation*** feature allows to store information regarding entries.
 
-### Create documentation 
-1. Click ***Documentation*** in an entry. 
-1. Click ***Add*** . 
+{% snippet icon.badgeInfo %} 
+This feature is also available with Hub Business, Hub Personal and SQL Server data sources.  
+{% endsnippet %}
+ 
+{% snippet icon.badgeInfo %} 
+The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, Hub Business and Hub Personal data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 
+{% endsnippet %}
+ 
+{% snippet icon.badgeCaution %} 
+The feature for using ***Documentation*** in offline mode is available for documents that are stored in the database.  This property is set to be inherited by default.
+{% endsnippet %}
+
+### Add a new page 
+1. Choose the entry and select ***Documentation***.
+1. Click ***Add***.
+![Add documentation](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6053.png)  
 1. ***Name*** the document with a title. 
-1. Enter the text following the [Markdown](/server/web-interface/vault/entries/entry-section/documentation/quick-guide-markdown/) text markup language. 
-1. Click ***Save*** . 
-![!!ServerOp4027.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4027.png) 
+1. Enter the text using ***Markdown*** or ***WYSIWYG***.
+![Markdown and WYSIWYG](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6055.png)  
+1. Click ***Save*** to create your documentation page. 
