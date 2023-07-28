@@ -3,7 +3,7 @@ title: User Management
 ---
 {% youtube 'VXlN3PrDwiU' %}  
 
-The ***Users Management*** allows to create and manage users and their privileges. You can set the default privileges on the user type in ***Data Source Settings (System Settings)*** . {{ en.RDM }} offers advanced user rights management that allows for restricting access to entries. Please note that availability of some features depends on the active data source. 
+The ***User Management*** allows to create and manage users and their privileges. You can set the default privileges on the user type in ***Data Source Settings (System Settings)*** . {{ en.RDM }} offers advanced user rights management that allows for restricting access to entries. Please note that availability of some features depends on the active data source. 
 
 {% snippet icon.badgeInfo %} 
 This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
@@ -102,10 +102,32 @@ Select the license type of the user. Select between:
 	</tr>
 	<tr>
 		<td>
-Full name 
+Usage profile 
 		</td>
 		<td>
-Enter the First name and Last name of the user. 
+Select the [usage profile](/rdm/windows/user-interface/customization/usage-profiles/) of the user. Select between:  
+
+* ***Default*** 
+* ***IT professional*** 
+* ***Business user*** 
+
+Note that the usage profile can only be set when creating a user. Once the user is created, you cannot edit this setting.
+		</td>
+	</tr>
+	<tr>
+		<td>
+First name 
+		</td>
+		<td>
+Enter the first name of the user. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Last name 
+		</td>
+		<td>
+Enter the lat name of the user. 
 		</td>
 	</tr>
 	<tr>
