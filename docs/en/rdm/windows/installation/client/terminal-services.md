@@ -1,13 +1,5 @@
 ---
 title: Terminal Services / Remote Desktop Services
-keywords:
-- Citrix
-- RDS
-- Remote Desktop Services
-- RemoteApp
-- Terminal Service
-- TS
-- VDI
 ---
 {{ en.RDM }} has an excellent support for running under a Remote Desktop Services environment. A master configuration file can be created to distribute settings for all new users of the system or even to update existing user's configuration.  
 
@@ -44,7 +36,7 @@ Do not check the options to include   {{ en.DA }} Credentials as well as any dat
     1. To improve the {{ en.RDM }} startup performance, please see Solution #3 of the [Startup Performance](/kb/remote-desktop-manager/troubleshooting-articles/startup-performance/) article. 
     1. To limit the memory consumption of RDP entries, please see [Memory Tuning of RDP Sessions](/kb/remote-desktop-manager/knowledge-base/memory-tuning-rdp-sessions/) . 
 1. When {{ en.RDM }} is configured to your liking, use File – Options – Export Options . This will allow you to choose exactly the data sources to include, as well as the various categories of settings. Please refer to [Export Options](/rdm/windows/commands/file/options/export/) for further details. Save the file with the name default.cfg . 
-1. Move the ***default.cfg*** file in the installation folder of {{ en.RDM }} , if you have used the default installation settings, it is under the %appdata%\Devolutions\RemoteDesktopManager directory. 
+1. Move the ***default.cfg*** file in the installation folder of {{ en.RDM }}.
 
 ## Workflow 
 
