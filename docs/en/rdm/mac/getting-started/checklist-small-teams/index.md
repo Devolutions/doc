@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Checklist for small teams
   order: 30
-  description: Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} Mac for the first time when working in a small team environment using SQL Server.
+  description: Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} Mac for the first time when working in a small team of at most 15 users using SQL Server.
 ---
-Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} Mac for the first time when working in a small team environment using SQL Server.  
+Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} Mac for the first time when working in a small team of at most 15 users using SQL Server.  
 
 First [download](https://devolutions.net/remote-desktop-manager/home/download/) and install {{ en.RDM }} for Mac before proceeding.  
 
