@@ -3,7 +3,7 @@ eleventyComputed:
   title: Documentation
   description: The Documentation feature allows for storing information about resources in the data source.
 ---
-The ***Documentation*** feature allows for storing information about resources in the data source. To access an entry's documentation, select an entry in the [{{ en.NPANE }}](/rdm/windows/user-interface/navigation-pane/) , then select the ***Documentation*** tab in the ***Dashboard***. Alternatively, right-click an entry in the ***{{ en.NPANE }}***, then select ***View – Documentation***.  
+The ***Documentation*** feature allows for storing information about resources in the data source. To access an entry's documentation, select an entry in the [{{ en.NPANE }}](/rdm/windows/user-interface/navigation-pane/) , then select the ***Documentation*** tab in the ***Dashboard***. 
 
 The documentation is written using ***Markdown***, a plain text formatting syntax. ***Plain text*** and ***HTML*** are also available.
 
