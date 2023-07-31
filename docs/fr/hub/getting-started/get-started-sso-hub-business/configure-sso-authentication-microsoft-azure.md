@@ -116,6 +116,11 @@ Il est à noter que lorsque le secret client expire, personne ne pourra se conne
 1. Dans le champ ***Champs d'application de l'utilisateur***, saisir “User.Read“.  
 ![Champs d'application de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2152.png) 
 1. Tester la connexion pour s'assurer que la configuration est correcte. Une fenêtre contextuelle vous invitera à saisir vos identifiants de connexion.  
+
+   {% snippet icon.badgeCaution %} 
+   Si la fenêtre contextuelle ne s'affiche pas, il est possible que votre navigateur ou une extension de navigateur bloque son ouverture. Il vous faudra modifier vos paramètres de navigateur et/ou d'extension. Si cela ne fonctionne toujours pas, désactiver/supprimer l'extension ou changer de navigateur pourrait également régler le problème.
+   {% endsnippet %}
+
 1. Si la connexion réussie, votre compte se connectera à Azure AD et vous verrez un résumé de votre configuration.  
 1. Cliquer sur le bouton ***Enregistrer*** au bas de la fenêtre.  
 
