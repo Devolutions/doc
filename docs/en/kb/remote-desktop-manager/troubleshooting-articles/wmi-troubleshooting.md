@@ -1,5 +1,6 @@
 ---
-title: WMI Troubleshooting
+title: WMI troubleshooting
+description: In our environment, we basically run winrm quickconfig on all our machines. For those not joined to a domain, we also add them to the TrustedHosts list. For machines not joined to a domain, there is an added difficulty. If you are using the IP address instead of the host name, it definitely offers a few challenges.
 ---
 {% snippet icon.badgeInfo %}
 Note that remote tools in RDP sessions will not work in RDM if you do not have WMI. Consult this [guide on remote WMI](https://msdn.microsoft.com/en-us/library/aa389290.aspx).
@@ -7,9 +8,9 @@ Note that remote tools in RDP sessions will not work in RDM if you do not have W
 
 In our environment, we basically run winrm quickconfig on all our machines. For those not joined to a domain, we also add them to the TrustedHosts list. For machines not joined to a domain, there is an added difficulty. If you are using the IP address instead of the host name, it definitely offers a few challenges.  
 
-A good strategy is to get remoteWMI to work, then integrate it in {{ en.RDM }}. We like to use [WMIC](https://msdn.microsoft.com/en-us/library/aa394531(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/aa394531(v=vs.85).aspx).  
+A good strategy is to get remoteWMI to work, then integrate it in {{ en.RDM }}. We like to use [WMIC](https://msdn.microsoft.com/en-us/library/aa394531(v=vs.85).aspx).
 
-{% snippet icon.badgehelp %}
+{% snippet icon.badgeHelp %}
 Please contact us at [service@devolutions.net](mailto:service@devolutions.net) for more assistance.
 {% endsnippet %}  
 
@@ -22,7 +23,7 @@ You can also find troubleshoot tips in [WMI Troubleshooting (Windows)](https://d
 ### Problem 2
 Error getting products informations.
 ### Solution 2
-Invalid Class WMI or WMI class not found on Windows Server 2003. On Windows Server 2003, Win32_Product is not enabled by default. You can enable it by following the steps provided in this [Microsoft Forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/6fb0d3ea-1ccf-4554-bdf1-79c9e24388af/invalid-class-wmi-windows-2003-server](https://social.msdn.microsoft.com/Forums/vstudio/en-US/6fb0d3ea-1ccf-4554-bdf1-79c9e24388af/invalid-class-wmi-windows-2003-server).  
+Invalid Class WMI or WMI class not found on Windows Server 2003. On Windows Server 2003, Win32_Product is not enabled by default. You can enable it by following the steps provided in this [Microsoft Forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/6fb0d3ea-1ccf-4554-bdf1-79c9e24388af/invalid-class-wmi-windows-2003-server).  
 
 ### Problem 3
 Testing from a remote computer.
