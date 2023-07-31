@@ -115,7 +115,7 @@ Il est à noter que lorsque le secret client expire, personne ne pourra se conne
 ![URL de détection](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2151.png)  
 1. Dans le champ ***Champs d'application de l'utilisateur***, saisir “User.Read“.  
 ![Champs d'application de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2152.png) 
-1. Tester la connexion pour s'assurer que la configuration est correcte. Vous serez invité à saisir vos identifiants de connexion.  
+1. Tester la connexion pour s'assurer que la configuration est correcte. Une fenêtre contextuelle vous invitera à saisir vos identifiants de connexion.  
 1. Si la connexion réussie, votre compte se connectera à Azure AD et vous verrez un résumé de votre configuration.  
 1. Cliquer sur le bouton ***Enregistrer*** au bas de la fenêtre.  
 
