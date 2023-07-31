@@ -143,7 +143,12 @@ Do not test the connection just yet, as a few additional steps are required in O
 **In {{ en.DHUBB }}**  
 
 28. Test the configuration in {{ en.HUB }}. A new window should open to connect you to {{ en.HUB }} through Okta. You will get a success message when connected.  
-1. Click ***Save*** in the ***Summary*** of your Okta SSO configuration.
+
+   {% snippet icon.badgeCaution %} 
+   If the popup does not appear, your browser or browser extension may be blocking it. You will need to change your browser and/or extension settings. If this still does not work, deactivating/removing the extension or changing your browser may also solve the problem.
+   {% endsnippet %}  
+
+29. Click ***Save*** in the ***Summary*** of your Okta SSO configuration.
 ![Save the configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2264.png)  
 
 The hourglass icon means that the ***Domain Verification Status*** is ***Pending***. You will not be able to connect through Okta until the domain ownership is ***Verified***.  
