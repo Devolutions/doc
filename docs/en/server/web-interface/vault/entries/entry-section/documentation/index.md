@@ -11,11 +11,6 @@ This feature is also available with Hub Business, Hub Personal and SQL Server da
 {% snippet icon.badgeInfo %} 
 The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, Hub Business and Hub Personal data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 
 {% endsnippet %}
- 
-{% snippet icon.badgeCaution %} 
-The feature for using ***Documentation*** in offline mode is available for documents that are stored in the database.  This property is set to be inherited by default.
-{% endsnippet %}
-
 ### Add a new page 
 1. Choose the entry and select ***Documentation***.
 1. Click ***Add***.

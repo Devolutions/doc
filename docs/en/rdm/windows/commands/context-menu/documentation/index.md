@@ -23,7 +23,7 @@ The feature for using ***Documentation*** in offline mode is available for docum
  1. Choose the entry in the ***Navigation Pane***.  
  1. Go to the ***Documentation*** tab and click ***New page***.  
   ![Documentation tab – New page](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6029.png)  
- 1. Enter a name and select ***Documentation type***.  
+ 1. Enter a name and select a ***Documentation type***.  
   ![Documentation type](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6028.png)  
  1. Choose a ***Default template***.
   ![Default template](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6031.png)  

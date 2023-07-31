@@ -23,10 +23,10 @@ The feature for using ***Documentation*** in offline mode is available for docum
  1. Choose the entry in the ***Navigation Pane***.  
  1. Go to the ***Documentation*** tab and click ***New page***.  
   ![Documentation tab – New page](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6018.png)  
- 1. Enter a name and select ***Documentation type***.  
-  ![Documentation type](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6023.png)  
+ 1. Enter a name and select a ***Documentation type***.  
+  ![Documentation type](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6027.png)  
  1. Choose a ***Default template***.
-  ![Default template](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6024.png)  
+  ![Default template](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6028.png)  
 
 ***Tutorial*** creates a document containing generated text and ***Empty*** a blank document. The last option, ***Custom***, lets you select a custom template of your choice. 
 
