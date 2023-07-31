@@ -15,8 +15,8 @@ The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, Hub Busines
 ### Add a new page 
 1. Choose the entry and select ***Documentation***.
 1. Click ***Add***.
-![Add documentation](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6053.png)  
+![Add documentation](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6056.png)  
 1. ***Name*** the document with a title. 
 1. Enter the text using ***Markdown*** or ***WYSIWYG***.
-![Markdown and WYSIWYG](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6055.png)  
+![Markdown and WYSIWYG](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6057.png)  
 1. Click ***Save*** to create your documentation page. 
