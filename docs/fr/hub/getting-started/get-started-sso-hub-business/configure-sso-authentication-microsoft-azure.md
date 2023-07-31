@@ -112,11 +112,12 @@ Il est à noter que lorsque le secret client expire, personne ne pourra se conne
 **Dans {{ fr.DHUBB }}** 
 
 28. De retour dans la fenêtre ***Configurer l'authentification unique (SSO)***, coller l'URL de l'étape précédente dans le champ ***URL de détection***.  
-![URL de détection](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2151.png) 
+![URL de détection](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2151.png)  
 1. Dans le champ ***Champs d'application de l'utilisateur***, saisir “User.Read“.  
 ![Champs d'application de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2152.png) 
-1. Tester la connexion pour s'assurer que la configuration est correcte. Si c'est le cas, votre compte se connectera à Azure AD. 
-1. Cliquer sur le bouton ***Enregistrer*** au bas de la fenêtre. 
+1. Tester la connexion pour s'assurer que la configuration est correcte. Vous serez invité à saisir vos identifiants de connexion.  
+1. Si la connexion réussie, votre compte se connectera à Azure AD et vous verrez un résumé de votre configuration.  
+1. Cliquer sur le bouton ***Enregistrer*** au bas de la fenêtre.  
 
 ## Configuration du provisionnement 
 
