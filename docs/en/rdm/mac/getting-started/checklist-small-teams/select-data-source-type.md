@@ -2,7 +2,7 @@
 title: Select a data source type – Small teams
 description: To help you select a data source type, here is a set of concerns and the list of data sources that can serve in such a context.
 ---
-This topic is for small teams that use the functionality offered by our Team Edition. 
+This topic is for small teams of at most 15 users that use the functionality offered by our Team Edition.
 
 To help you select a data source type, here is a set of concerns and the list of SQL data sources that can serve in such a a context.  
 
