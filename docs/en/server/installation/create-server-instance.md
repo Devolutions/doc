@@ -31,8 +31,12 @@ All operations performed through the console are done with the credentials used 
 
 ### Basic Installation <a name="Basic"></a>
 
-1. If a SQL Server instance is not available on the machine where {{ en.DVLS }} is hosted, a SQL Server Express Edition instance will be installed by the wizard. ![Basic Installation dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8176.png)
-1. The following dialog provides the credentials created for the sa SQL account, the {{ en.DVLS }} administrator account and the Encryption Key password. Click on the ***Save As*** button to save the information in a file. ![Important credentials dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8177.png)
+1. If a SQL Server instance is not available on the machine where {{ en.DVLS }} is hosted, a SQL Server Express Edition instance will be installed by the wizard. ![Basic Installation dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8176.png) 
+1. The following dialog provides the credentials created for the sa SQL account, the {{ en.DVLS }} administrator account and the Encryption Key password. Click on the ***Save As*** button to save the information in a file. ![Important credentials dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8177.png) 
+1. The following dialog displays the SQL Server information, including the ***sa*** account credentials, that will used by {{ en.DVLS }} to create and connect to the SQL database.
+1. Once the installation is successfully completed, the wizard will display the installation summary and will automatically open the default browser to connect on the {{ en.DVLS }} web interface. ![Installation summary report](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8181.png) 
+1. On the {{ en.DVLS }} web interface, use the credentials provided in step 2 above to log in. Afterward, a prompt will request a password change before continuing with the login process. ![Change your password prompt](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8182.png) 
+
 
 
 ### Advanced Installation <a name="Advanced"></a>
