@@ -1,14 +1,15 @@
 ---
 title: Backup Manager
+description: The Backup Manager section allows administrators to configure the parameters to back up the database and the web application folder.
 ---
 The ***Backup Manager*** section allows administrators to configure the parameters to back up the database and the web application folder.  
 
-Click the ***Backup Now*** button to immediately create a backup of the SQL database and/or the web application folder.  
+Click the ***Backup Now*** button at the top to immediately create a backup of the SQL database and/or the web application folder.  
 
-![Administration - Backup Manager](https://webdevolutions.azureedge.net/docs/en/server/clip10403.png) 
+![Administration – Backup Manager](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2084.png) 
 
-## Settings 
-### Database Configuration 
+## Settings  
+### Database configuration  
 <table>
 	<tr>
 		<th>
@@ -23,7 +24,7 @@ Description
 Enable database backup 
 		</td>
 		<td>
-Activate the backup of the SQL database. 
+Activates the backup of the SQL database. 
 		</td>
 	</tr>
 	<tr>
@@ -31,18 +32,26 @@ Activate the backup of the SQL database.
 Backup database file path 
 		</td>
 		<td>
-The path to the folder where the backup of the SQL database will be saved.<br>
+This is the path to the folder where the backup of the SQL database will be saved.<br>
 
 We recommend the use of a shared network folder with proper permissions set on it to be able to save the backup file.  
 
-Note: As the backup command is running on the SQL Server and on the machine where {{ en.DVLS }} is hosted, this path must be accessible from both. We recommend configuring the database backup path using a UNC path.  
+Note: Since the backup command is running on the SQL Server and on the machine where {{ en.DVLS }} is hosted, this path must be accessible from both. We recommend configuring the database backup path using a UNC path.  
 
-If a service account is set on the ***Scheduler Service*** , the account needs write permission on the destination folder.  
+If a service account is set on the ***Scheduler Service***, the account needs the "write" permission on the destination folder.  
+		</td>
+	</tr>
+	<tr>
+		<td>
+Backup database password 
+		</td>
+		<td>
+The password protects the compressed ZIP backup file. You need to provide it to decompress the file. 
 		</td>
 	</tr>
 </table>
 
-### Web Configuration 
+### Web configuration 
 <table>
 	<tr>
 		<th>
@@ -57,7 +66,7 @@ Description
 Enable web backup 
 		</td>
 		<td>
-Activate the backup of the web application. 
+Activates the backup of the web application. 
 		</td>
 	</tr>
 	<tr>
@@ -69,12 +78,20 @@ The path to the folder where the backup of the web application will be saved.<br
 
 We recommend the use of a shared network folder with proper permissions set on it to be able to save the backup file.  
 
-Note: If service accounts are set on the ***Scheduler Service*** and on the ***IIS Application Pool Identity*** , both accounts needs write permission on the destination folder. 
+Note: If service accounts are set on the ***Scheduler Service*** and on the ***IIS Application Pool Identity***, both accounts need the "write" permission on the destination folder. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Backup web file password 
+		</td>
+		<td>
+The password protects the compressed ZIP backup file. You need to provide it to decompress the file. 
 		</td>
 	</tr>
 </table>
 
-### backup encryption Algorithm 
+### Backup encryption algorithm 
 <table>
 	<tr>
 		<th>
@@ -89,12 +106,12 @@ Description
 Encryption algorithm 
 		</td>
 		<td>
-AES-256 encryption algorithm used to encrypt the backup if a backup password is set. 
+This is the AES-256 encryption algorithm used to encrypt the backup if a backup password is set. 
 		</td>
 	</tr>
 </table>
 
-### notification 
+### Notification 
 <table>
 	<tr>
 		<th>
@@ -137,7 +154,7 @@ Description
 Backup start time 
 		</td>
 		<td>
-Date and time when the backup will be automatically started. 
+Date and time when the backup will be automatically launched. 
 		</td>
 	</tr>
 	<tr>
@@ -145,7 +162,7 @@ Date and time when the backup will be automatically started.
 Repeat every 
 		</td>
 		<td>
-The time interval between backups run. 
+The time interval between backup runs. 
 		</td>
 	</tr>
 </table>
@@ -181,9 +198,7 @@ Maximum number of backups that will be kept in the backup folder.
 Copy only database backup 
 		</td>
 		<td>
-An SQL Server backup that is independent of the sequence of conventional SQL Server backups. For more information, please see [Copy-Only Backups](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/) topic from Microsoft. 
+An SQL Server backup that is independent of the sequence of conventional SQL Server backups. For more information, please see the <a href="https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/copy-only-backups-sql-server?view=sql-server-ver16">Copy-Only Backups</a> Microsoft help page. 
 		</td>
 	</tr>
 </table>
-
-
