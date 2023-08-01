@@ -118,13 +118,13 @@ Note that when the client secret expires, no one will be able to connect to the 
 28. Back on the ***Configure Single Sign-On (SSO)*** page, paste the URL from the last step in the ***Discovery URL*** field.  
 ![Discovery URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2223.png)  
 
-1. Click on ***Test Configuration*** to make sure it is correct. You will be prompted by a popup window to enter your login credentials.
-![Test Configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2224.png)  
+1. Click on ***Test Configuration*** to make sure it is correct. You will be prompted by a popup window to enter your login credentials.  
 
    {% snippet icon.badgeCaution %} 
    If the popup does not appear, your browser or browser extension may be blocking it. You will need to change your browser and/or extension settings. If this still does not work, deactivating/removing the extension or changing your browser may also solve the problem.
-   {% endsnippet %}
+   {% endsnippet %}  
 
+   ![Test Configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2224.png)  
 1. If the connection is successful, your account will connect with Azure AD and you will see a summary of your configuration.  
 
 1. In the ***Summary*** of your configuration, click ***Save***.  
