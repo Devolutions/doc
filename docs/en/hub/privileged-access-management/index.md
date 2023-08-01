@@ -21,3 +21,5 @@ Here are some of its main features:
 * Automatic password reset
 * Secure password injection
 * Administration report
+
+Since {{ en.DHUBB }} is a cloud-based solution, you must download and install the [{{ en.DHUBS }}](https://devolutions.net/password-hub/home/download/) to establish communication between your {{ en.HUBB }} and your internal resources.

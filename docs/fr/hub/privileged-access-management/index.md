@@ -21,3 +21,5 @@ Voici quelques-unes de ses principales fonctionnalités :
 * Réinitialisation automatique du mot passe
 * Injection sécurisée de mot passe
 * Rapport d'administration
+
+Puisque {{ fr.DHUBB }} est une solution basée sur le nuage, vous devez télécharger et installer [{{ fr.DHUBS }}](https://devolutions.net/fr/password-hub/home/download/) pour établir la communication entre votre {{ fr.HUBB }} et vos ressources internes.
