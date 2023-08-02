@@ -167,6 +167,8 @@ When the domain verification is done, the SSO configuration will get a green che
 
 Synchronize your users and user groups from your providers to the {{ en.HUB }}.  
 
+### Settings
+
 {% snippet icon.badgeInfo %}
 This feature will be available soon!
 {% endsnippet %}
