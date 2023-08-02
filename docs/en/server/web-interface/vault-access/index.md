@@ -8,6 +8,10 @@ eleventyComputed:
 In {{ en.DVLS }}, users can request access to a public vault. An administrator / vault owner then has to approve the request.
 
 {% snippet icon.badgeInfo %}
+This feature is also available for [PAM](/server/privileged-access-management) vaults.
+{% endsnippet %}  
+
+{% snippet icon.badgeInfo %}
 Users can be set as vault owners to manage a specific vault without having access to data source administration. They are set in ***Vault Management*** when editing or creating a vault in {{ en.DVLS }}. For ***Entreprise*** data sources ({{ en.DVLS }} and {{ en.HUBB }}), they can also be configured in their respective web interfaces.
 {% endsnippet %}
 
