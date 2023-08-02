@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The ***Documentation*** feature allows for storing information about resources in the data source. To access an entry's documentation, select an entry in the [{{ en.NPANE }}](/rdm/mac/user-interface/navigation-pane/) , then select the ***Documentation*** tab in the ***Dashboard***. Alternatively, right-click an entry in the ***{{ en.NPANE }}***, then select ***View – Documentation***.  
 
-The documentation is written using ***Markdown***, a plain text formatting syntax. ***Plain text*** and ***HTML*** are also available.
+The documentation is written using ***Markdown*** or ***WYSIWYG***.  ***Plain text*** and ***HTML*** are also available.
 
 {% snippet icon.badgeInfo %} 
 This feature is also available with {{ en.DVLS }}, Hub Business, Hub Personal and SQL Server data sources.  
@@ -22,9 +22,12 @@ The feature for using ***Documentation*** in offline mode is available for docum
 ## Create a new page  
  1. Choose the entry in the ***Navigation Pane***.  
  1. Go to the ***Documentation*** tab and click ***New page***.  
-  ![Documentation tab – New page](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6029.png)  
+![Documentation tab – New page](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6029.png)  
  1. Enter a name and select a ***Documentation type***.  
-  ![Documentation type](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6028.png)  
+![Documentation type](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6028.png)  
+Note: You can switch between ***Markdown*** and ***WYSIWYG*** when you select ***Markdown*** in ***Documentation type***.
+![Markdown and WYSIWYG](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6037.png)
+
  1. Choose a ***Default template***.
   ![Default template](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6031.png)  
 
@@ -36,9 +39,9 @@ You can select ***Set as new default*** to save your preferences when you create
 ##  Synchronize offline documentation  
  1. Choose the entry in the ***Navigation Pane***.  
  1. Go to ***Administration – Vault Settings*** in the ribbon. 
- ![Vault Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6000.png)  
+![Vault Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6000.png)  
  1. In ***Security Settings – Offline – Synchronize documentation to offline***, select ***Yes***.  
- ![Synchronize documentation to offline](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6004.png)  
+![Synchronize documentation to offline](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6004.png)  
  1. Click ***OK*** and close the window.  
  
 The offline ***Documentation*** tab is now available in the ***Dashboard***.  
