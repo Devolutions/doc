@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 In {{ en.RDM }} there are the <a href="#credential-management">***Credential Management***</a> and <a href="#synchronizer">***Synchronizer***</a> entry types for Bitwarden, this topic will explain how each one works.
 {% snippet icon.badgeCaution %}
-Email ***Authentication mode*** is now deprecated for ***Bitwarden*** entries.
+Email ***Authentication mode*** is now deprecated for ***Bitwarden*** entries and unavailable from 2023.2 onwards.
 {% endsnippet %}  
 {% snippet icon.badgeInfo %}
 To learn more about creating and managing a Bitwarden account, please consult the [documentation](https://bitwarden.com/help/) on their official website.
