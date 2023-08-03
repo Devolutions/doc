@@ -42,7 +42,7 @@ To learn how to use the ***Password Generator*** when creating an account on a w
  
 ### About tab 
 
-The ***About*** tab has some useful links and information, namely a link to our [{{ en.RDM }} Devolutions Forum](https://forum.devolutions.net/product/rdm-mac) , a link to our [{{ en.RDM }} Online Help](/rdm/mac/overview/) , and the current version of {{ en.DWL }} .  
+The ***About*** tab has some useful links and information, namely a link to our [{{ en.RDM }} {{ en.DFORUM }}](https://forum.devolutions.net/product/rdm-mac) , a link to our [{{ en.RDM }} Online Help](/rdm/mac/overview/) , and the current version of {{ en.DWL }}.  
 ![About Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2044.png) 
 
 

@@ -73,14 +73,14 @@ Select your favorite [theme](/rdm/windows/user-interface/customization/theme/) (
 
 ![Join the community](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2179.png)  
 
-In this last step, you can subscribe to our email list and join the Devolutions Force. Both are free!  
+In this last step, you can subscribe to our email list and join the {{ en.DFORCE }}. Both are free!  
 
 Our email list unlocks exclusive access to:  
 * Product News  
 * Best Practices and Pro Tips  
 * Security Advisories  
 
-The Devolutions Force gets you VIP access to:  
+The {{ en.DFORCE }} gets you VIP access to:  
 * Promos, beta tests, and news  
 * The Devolutions Team  
 * Geeky rewards and Devolutions products  
