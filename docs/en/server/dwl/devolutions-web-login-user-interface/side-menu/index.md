@@ -45,7 +45,7 @@ You can access your vaults in two ways:
 
 When navigating in the folders, the [***Add Website***](/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/) button will appear at the bottom of the ***Content Area*** . You can also use the search bar at the top to search in the specific location.  
 
-![Vault Navigation via Devolutions Web Login](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2045.png)
+![Vault Navigation via {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2045.png)
 
 Back on the main view of the ***All Entries*** tab, the ***Select Vaults to Sync*** at the bottom of the ***Content Area*** allows you to individually select the {{ en.DVLS }} vaults to synchronize with {{ en.DWL }} . 
 

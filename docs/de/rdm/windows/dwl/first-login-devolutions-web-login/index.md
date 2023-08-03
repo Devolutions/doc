@@ -1,4 +1,5 @@
 ---
-title: Erste Schritte mit Devolutions Web Login
-order: 40
+eleventyComputed:
+  title: Erste Schritte mit {{ de.DWL }}
+  order: 40
 ---

@@ -1,9 +1,10 @@
 ---
-title: Installation de l'extension Web Login sur Edge
-description: Suivre les étapes ci-dessous afin d’installer Devolutions Web Login dans le navigateur Edge. 
-keywords:
-- Navigateur
-- Edge
+eleventyComputed:
+  title: Installation de l'extension Web Login sur Edge
+  description: Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Edge. 
+  keywords:
+  - Navigateur
+  - Edge
 ---
 Voici les étapes pour installer {{ fr.DWL }} sur Microsoft Edge. 
 1. Ouvrir une fenêtre dans Microsoft Edge. 

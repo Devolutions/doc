@@ -6,11 +6,11 @@ keywords:
 ---
 Les paramètres de {{ fr.DWL }} sont accessibles via le bouton ***Paramètres*** dans la fenêtre de l'extension de navigateur, peu importe quel produit Devolutions est utilisé avec {{ fr.DWL }} .  
 
-![Bouton Paramètres de Devolutions Web Login.png](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl2001.png)  
+![Bouton Paramètres de {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl2001.png)  
 
 Les ***Paramètres*** sont séparés en deux catégories : <a href="#configuration">***Configuration***</a> et <a href="#source">***Sources de données***</a>.  
 
-![Paramètres de Devolutions Web Login.png](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl4027.png)
+![Paramètres de {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl4027.png)
 
 ### Configuration <a name="configuration"></a>
 

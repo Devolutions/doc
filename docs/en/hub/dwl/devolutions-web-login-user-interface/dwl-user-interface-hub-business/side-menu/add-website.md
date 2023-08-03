@@ -126,7 +126,7 @@ Select how the entered URL is compared and matched to the website URL. Choose be
 	</tr>
 	<tr>
 		<td>
-Devolutions Web Login 
+{{ en.DWL }}
 		</td>
 		<td>
 Select from the drop-down list between ***Default*** , ***Disabled*** , or ***Enabled*** . If disabled, your credentials for this entry will not be suggested when accessing that particular website. We recommend to leave this option enabled. 

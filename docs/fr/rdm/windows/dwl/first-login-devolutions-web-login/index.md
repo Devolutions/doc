@@ -1,6 +1,7 @@
 ---
-title: Première connexion avec Devolutions Web Login
-order: 40
+eleventyComputed:
+  title: Première connexion avec {{ fr.DWL }}
+  order: 40
 ---
 ### Première connexion avec {{ fr.DWL }} 
 

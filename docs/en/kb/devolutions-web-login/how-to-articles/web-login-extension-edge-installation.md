@@ -1,9 +1,10 @@
 ---
-title: Web Login Extension Edge Installation
-description: Follow the steps to complete the installation of Devolutions Web Login in the Edge web browser. 
-keywords:
-- Browser
-- Edge
+eleventyComputed:
+  title: Devolutions Web Login Extension Edge Installation
+  description: Follow the steps to complete the installation of {{ en.DWL }} in the Edge web browser. 
+  keywords:
+  - Browser
+  - Edge
 ---
 
 Here are the steps to install {{ en.DWL }} on Microsoft Edge.

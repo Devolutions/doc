@@ -1,9 +1,10 @@
 ---
-title: Installation de l'extension Web Login sur Firefox
-description: Suivre les étapes ci-dessous afin d’installer Devolutions Web Login dans le navigateur Firefox. 
-keywords:
-- Navigateur
-- Firefox
+eleventyComputed:
+  title: Installation de l'extension Web Login sur Firefox
+  description: Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Firefox. 
+  keywords:
+  - Navigateur
+  - Firefox
 ---
 Suivre les étapes ci-dessous pour compléter l'installation de {{ fr.DWL }} dans le navigateur Firefox. 
 1. Ouvrir une fenêtre Firefox. 

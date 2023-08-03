@@ -1,9 +1,10 @@
 ---
-title: Web Login Extension Firefox Installation
-description: Follow the steps to complete the installation of Devolutions Web Login in the Firefox web browser. 
-keywords:
-- Browser
-- Firefox
+eleventyComputed:
+  title: Devolutions Web Login Extension Firefox Installation
+  description: Follow the steps to complete the installation of {{ en.DWL }} in the Firefox web browser. 
+  keywords:
+  - Browser
+  - Firefox
 ---
 
 Follow the steps below to complete the installation of {{ en.DWL }} in the Firefox web browser.

@@ -1,5 +1,5 @@
 ---
-title: Compare Editions
+title: Compare editions
 keywords:
 - Private vault
 - role
@@ -8,7 +8,7 @@ Compare the features between our Free and Team Editions of {{ en.RDM }}.
 
 | Feature                              | Description | Free | Team |
 | ------------------------------------ | ----------- | ---- | ---- |
-| Account brokering                    | Directly inject credentials into end servers, systems, applications and websites using our Devolutions Web Login browser extension. | {{ icon.badgeNotice | safe}} | {{ icon.badgeNotice | safe}} |
+| Account brokering                    | Directly inject credentials into end servers, systems, applications and websites using our {{ en.DWL }} browser extension. | {{ icon.badgeNotice | safe}} | {{ icon.badgeNotice | safe}} |
 | Activity log                         | Generate exhaustive access logs to keep track of privileged user activity. |  | {{ icon.badgeNotice | safe}} |
 | Audit trail                          | Capture all events surrounding privileged account operations, including login attempts and history. |  | {{ icon.badgeNotice | safe}} |
 | Automated macro                      | Automated typing macro on connect or disconnect. | {{ icon.badgeNotice | safe}} | {{ icon.badgeNotice | safe}} |

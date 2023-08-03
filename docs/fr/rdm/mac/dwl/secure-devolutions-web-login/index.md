@@ -1,6 +1,7 @@
 ---
-title: Sécuriser Devolutions Web Login
-order: 70
+eleventyComputed:
+  title: Sécuriser {{ fr.DWL }}
+  order: 70
 ---
 Dans {{ fr.RDM }} pour Mac versions 2021.1 et supérieures, nous avons changé la façon dont notre extension de navigateur, {{ fr.DWL }} , communique avec {{ fr.RDM }} pour remplir les identifiants dans les pages Web. Nous avons fait ces changements pour augmenter la sécurité de cette fonctionnalité. Visitez la rubrique [Première connexion](/fr/rdm/mac/dwl/first-login-devolutions-web-login/) pour les étapes de configuration.  
 
@@ -10,7 +11,7 @@ Si vous utilisez une version antérieure à 2021.1 et, comme indiquée dans la s
 Si vous insistez pour l'utiliser, il est essentiel que chaque utilisateur se voie attribuer un port distinct. Une clé d'application doit également être définie. La première application client qui démarre pourra utiliser exclusivement le port. TOUS les {{ fr.DWL }} appelant sur ce port obtiendront les réponses, sauf si une clé d'application est définie. Continuez à la [section suivante](#comment-configurer--frdwl--pour-une-version-antérieure-à-20211-et-pour-les-serveurs-bureau-à-distance) pour les étapes de configuration. 
 {% endsnippet %}
  
-### Comment configurer {{ fr.dwl }} pour une version antérieure à 2021.1 et pour les serveurs bureau à distance 
+### Comment configurer {{ fr.DWL }} pour une version antérieure à 2021.1 et pour les serveurs bureau à distance 
 
 {% snippet icon.shieldWarning %} 
 La clé de l'application est affichée en texte clair. Elle doit être gardée secrète par l'utilisateur. 
@@ -18,16 +19,13 @@ La clé de l'application est affichée en texte clair. Elle doit être gardée s
  
 Pour activer la couche de sécurité dans {{ fr.RDM }} pour Mac , procéder comme suit :  
 
-1. Dans {{ fr.RDM }} , accéder à ***Fichier – Préférences – Extensions de navigateur*** . 
-1. Sous la section ***{{ fr.DWL }}*** ***(Extensions du navigateur)*** , cliquer sur ***Par défaut*** . Saisir un ***Port*** et cliquer sur ***Compléter*** .  
+1. Dans {{ fr.RDM }}, accéder à ***Fichier – Préférences – Extensions de navigateur***. 
+1. Sous la section ***{{ fr.DWL }} (Extensions du navigateur)***, cliquer sur ***Par défaut***. Saisir un ***Port*** et cliquer sur ***Compléter***.  
 ![Port](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl2000.png) 
-1. Saisir la ***Clé de l'application*** . Vos changements ne seront appliqués qu'après le redémarrage de l'application.  
+1. Saisir la ***Clé de l'application***. Vos changements ne seront appliqués qu'après le redémarrage de l'application.  
 ![Clé de l'application](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl2001.png) 
-1. Dans votre navigateur, cliquer sur l'icône {{ fr.DWL }} et accédez à ***Paramètres – Sources de données –*** ***{{ fr.RDM }}*** . 
-1. Dans l'onglet ***Général*** , désactiver ***Utiliser le port par défaut (19443)*** , puis entrer le ***Port*** personnalisé créé précédemment dans {{ fr.RDM }} .  
+1. Dans votre navigateur, cliquer sur l'icône {{ fr.DWL }} et accédez à ***Paramètres – Sources de données – {{ fr.RDM }}***. 
+1. Dans l'onglet ***Général***, désactiver ***Utiliser le port par défaut (19443)***, puis entrer le ***Port*** personnalisé créé précédemment dans {{ fr.RDM }} .  
 ![Onglet Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl2002.png) 
-1. Dans l'onglet ***Avancé*** , entrer la même ***Clé de l'application*** que celle de {{ fr.RDM }} , puis cliquer sur ***Enregistrer*** .  
+1. Dans l'onglet ***Avancé***, entrer la même ***Clé de l'application*** que celle de {{ fr.RDM }} , puis cliquer sur ***Enregistrer***.  
 ![Onglet Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl2003.png) 
-
-
-

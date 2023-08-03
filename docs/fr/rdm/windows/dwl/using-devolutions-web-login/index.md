@@ -1,12 +1,13 @@
 ---
-title: Utiliser Devolutions Web Login
-order: 60
+eleventyComputed:
+  title: Utiliser {{ fr.DWL }}
+  order: 60
 ---
 {% snippet icon.badgeNotice %} 
-Cette rubrique suppose que vous avez préalablement [installé l'extension {{ fr.DWL }}](/fr/rdm/windows/dwl/installation/) dans votre navigateur et qu'elle est [connectée à {{ fr.RDM }}](/fr/rdm/windows/dwl/first-login-devolutions-web-login/) . 
+Cette rubrique suppose que vous avez préalablement [installé l'extension {{ fr.DWL }}](/fr/rdm/windows/dwl/installation/) dans votre navigateur et qu'elle est [connectée à {{ fr.RDM }}](/fr/rdm/windows/dwl/first-login-devolutions-web-login/). 
 {% endsnippet %}
  
-L'extension de navigateur {{ fr.DWL }} est l'outil de choix des utilisateurs pour interagir dans un contexte de gestion de mots de passe avec {{ fr.RDM }} . Elle permet :  
+L'extension de navigateur {{ fr.DWL }} est l'outil de choix des utilisateurs pour interagir dans un contexte de gestion de mots de passe avec {{ fr.RDM }}. Elle permet :  
 
 * la correspondance automatiquement des sites Web avec leurs identifiants enregistrés respectifs; 
 * la visualisation et le filtrage directs des comptes que les coffres contiennent; 

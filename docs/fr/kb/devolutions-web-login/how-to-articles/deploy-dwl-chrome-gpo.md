@@ -98,7 +98,7 @@ Tous les attributs peuvent avoir leur valeur modifiée ou leur clé supprimée.
      "rdmAutofillBasicAuthentication": false,  
      "rdmDefaultDestinationVaultIsPrivate": true,  
      "rdmDefaultPortUsage": true,  
-     "rdmDestinationFolder": "Devolutions Web Login",  
+     "rdmDestinationFolder": "{{ fr.DWL }}",  
      "activateBeta": false,  
      "rdmPort": 19443.  
      "rdmShowFavicon": false,  

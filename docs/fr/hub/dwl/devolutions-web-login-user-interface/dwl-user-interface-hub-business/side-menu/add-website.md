@@ -126,7 +126,7 @@ Sélectionner comment l'URL saisie est comparée et mise en correspondance avec 
 	</tr>
 	<tr>
 		<td>
-Devolutions Web Login 
+{{ fr.DWL }} 
 		</td>
 		<td>
 Dans la liste déroulante, sélectionner entre ***Par défaut*** , ***Désactivé*** ou ***Activé*** . Si cette option est désactivée, vos identifiants pour cette entrée ne seront pas suggérés lors de l'accès à ce site Web particulier. Il est donc recommandé de laisser cette option activée. 

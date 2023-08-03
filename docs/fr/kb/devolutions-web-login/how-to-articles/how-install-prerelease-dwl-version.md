@@ -55,7 +55,7 @@ La version 14 ou ultérieure de Safari est requise.
 1. Cocher l’option ***Afficher le menu Développement dans la barre des menus*** , puis fermer le panneau. 
 1. Se diriger vers l’onglet ***Développement*** . 
 1. Cliquer sur ***Autoriser les extensions non signées*** (cette option se désactive lors de la fermeture de Safari, elle devra donc être réactivée à sa prochaine ouverture. 
-1. Télécharger la version Safari sur Dropbox dans Devolutions-QA/PreReleases/DWL/X.X.X.X/Devolutions Web Login . 
+1. Télécharger la version Safari sur Dropbox dans Devolutions-QA/PreReleases/DWL/X.X.X.X/{{ fr.DWL }}. 
 1. Double-cliquer sur le fichier {{ fr.DWL }} et suivre les instructions.  
 
 Et le tour est joué! 

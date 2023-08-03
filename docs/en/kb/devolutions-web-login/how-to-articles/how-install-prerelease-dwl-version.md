@@ -62,7 +62,7 @@ Safari version 14+ is required.
 4. Check the ***Show Develop menu in menu bar*** option and close the panel.
 5. Go to the ***Develop*** tab.
 6. Click on ***Allow Unsigned Extensions*** (This setting is reset when you quit Safari; set it again the next time you launch Safari)
-7. Download the Safari version on Dropbox located at **Devolutions-QA/PreReleases/DWL/X.X.X.X/Devolutions Web Login**.
+7. Download the Safari version on Dropbox located at **Devolutions-QA/PreReleases/DWL/X.X.X.X/{{ en.DWL }}**.
 8. Double-click on the file {{ en.DWL }} and follow the instructions.
 
 You are now ready to go!

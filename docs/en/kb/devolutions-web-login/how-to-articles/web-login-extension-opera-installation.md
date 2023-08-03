@@ -1,9 +1,10 @@
 ---
-title: Web Login Extension Opera Installation
-description: Follow the steps to complete the installation of Devolutions Web Login in the Opera web browser. 
-keywords:
-- Browser
-- Opera
+eleventyComputed:
+  title: Devolutions Web Login Extension Opera Installation
+  description: Follow the steps to complete the installation of {{ en.DWL }} in the Opera web browser. 
+  keywords:
+  - Browser
+  - Opera
 ---
 Follow the steps below to complete the installation of {{ en.DWL }} in the Opera web browser.
 

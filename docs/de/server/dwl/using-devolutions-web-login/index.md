@@ -1,4 +1,5 @@
 ---
-title: Using Devolutions Web Login
-order: 50
+eleventyComputed:
+  title: Using {{ en.DWL }}
+  order: 50
 ---

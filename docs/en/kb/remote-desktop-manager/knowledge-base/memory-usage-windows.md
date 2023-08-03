@@ -11,7 +11,7 @@ The framework operates a Garbage Collector (GC) which reclaims freed memory regu
 
 * {{ en.RDM }} is mostly an integration of multiple technologies, this means that most of the features that are used invoke a third party technology of some sort. Each technology uses memory in a manner specific to its own architecture.
 * The type of data source and the number of entries that are loaded on startup is a big part of the equation. The size of each entry, as well as the presence of attachments, all have a great impact.
-* Out of the box, we host a web control to display a welcome page, there is a listener for interaction with Devolutions Web Login, we monitor for products updates, etc.  Turning off certain features may help reducing the footprint.
+* Out of the box, we host a web control to display a welcome page, there is a listener for interaction with {{ en.DWL }}, we monitor for products updates, etc.  Turning off certain features may help reducing the footprint.
 
 ## Clearing the unused memory
 

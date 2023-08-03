@@ -1,9 +1,10 @@
 ---
-title: Installation de l'extension Web Login sur Opera
-description: Suivre les étapes ci-dessous afin d’installer Devolutions Web Login dans le navigateur Opera. 
-keywords:
-- Navigateur
-- Opera
+eleventyComputed:
+  title: Installation de l'extension Web Login sur Opera
+  description: Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Opera. 
+  keywords:
+  - Navigateur
+  - Opera
 ---
 Suivre les étapes ci-dessous afin d'installer {{ fr.DWL }} dans le navigateur Opera. 
 1. Ouvrir une fenêtre Opera. 

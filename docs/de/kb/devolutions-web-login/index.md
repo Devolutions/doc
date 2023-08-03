@@ -5,7 +5,7 @@ eleventyComputed:
   description: Sie finden hier Themen zu den folgenden {{ de.DWL }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---
 
-![!!Devolutions Web Login logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)  
+![!!{{ de.DWL }} logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)  
 
 Sie finden hier Themen zu den folgenden {{ de.DWL }}-Kategorien:  
 

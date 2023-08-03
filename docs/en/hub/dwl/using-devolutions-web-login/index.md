@@ -1,6 +1,7 @@
 ---
-title: Using Devolutions Web Login
-order: 50
+eleventyComputed:
+  title: Using {{ en.DWL }}
+  order: 50
 ---
 {% snippet icon.badgeNotice %} 
 This topic assumes that you have previously [installed the {{ en.DWL }} extension](/hub/dwl/installation/) in your browser and that it is connected to [{{ en.HUBB }}](/hub/dwl/first-login-devolutions-web-login/hub-business/) or [{{ en.HUBP }}](/hub/dwl/first-login-devolutions-web-login/hub-personal/) . 
@@ -27,6 +28,3 @@ Consult these different topics to learn about useful {{ en.DWL }} features:
     * [Retrieve Credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/)  
 
 * [Keyboard Shortcuts](/hub/dwl/settings/keyboard-shortcuts/)  
-
-
-

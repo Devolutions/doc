@@ -1,9 +1,10 @@
 ---
-title: Installation de l'extension Web Login sur Chrome
-description: Suivre les étapes ci-dessous afin d’installer Devolutions Web Login dans le navigateur Chrome. 
-keywords:
-- Navigateur
-- Chrome
+eleventyComputed:
+  title: Installation de l'extension Web Login sur Chrome
+  description: Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Chrome. 
+  keywords:
+  - Navigateur
+  - Chrome
 ---
 Suivre les étapes ci-dessous pour compléter l'installation de {{ fr.DWL }} dans le navigateur Web Chrome. 
 1. Ouvrir Chrome. 

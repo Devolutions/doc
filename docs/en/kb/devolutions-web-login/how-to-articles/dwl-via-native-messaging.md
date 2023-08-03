@@ -19,7 +19,7 @@ title: DWL via Native Messaging
    ```
    {
      "name": "com.devolutions.rdmnativemessaging",
-     "description": "Devolutions Web Login",
+     "description": "{{ en.DWL }}",
      "path": "RemoteDesktopManager.NativeMessagingHost.exe",
      "type": "stdio",
      "allowed_origins": [

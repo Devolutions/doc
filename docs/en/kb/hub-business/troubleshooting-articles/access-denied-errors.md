@@ -58,8 +58,8 @@ There is no way to recover it if the Emergency reset kit cannot be located.<br>
 	</tr>
 </table>
 
-### Please contact your administrator to be allowed to use Devolutions Web Login.
-![Please contact your administrator to be allowed to use Devolutions Web Login.](https://webdevolutions.azureedge.net/docs/en/kb/KB2146.png)
+### Please contact your administrator to be allowed to use {{ en.DWL }}.
+![Please contact your administrator to be allowed to use {{ en.DWL }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2146.png)
 
 <table>
 		<td>

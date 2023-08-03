@@ -7,7 +7,7 @@ Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.DVLS }} , les onglets disponibles 
 
 Dans tous les onglets, à l'exception de l'onglet ***Générateur de mots de passe*** , lorsque vous passez le curseur sur une entrée, trois nouvelles options apparaissent : les boutons ***Copier le nom d'utilisateur***, ***Copier le mot de passe***, et ***Affichage***. Consultez la section [Fonctionnalités des entrées](#fonctionnalités-des-entrées) pour plus d'informations.  
 
-## Onglets Devolutions Web Login
+## Onglets {{ fr.DWL }}
 
 ### Onglet Correspondant 
 
@@ -43,7 +43,7 @@ Vous pouvez accéder à vos coffres de deux manières :
 * Pour accéder à un coffre dans {{ fr.DVLS }} , cliquer sur le bouton ***Ouvrir*** à côté d'un coffre pour l'ouvrir dans {{ fr.DVLS }} dans un nouvel onglet de navigateur.  
 
 * Pour accéder à un coffre dans {{ fr.DWL }} , cliquer sur ce coffre et naviguer dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.DVLS }} , sauf que seuls les chemins menant aux entrées de site Web seront affichés. Lorsque vous naviguez dans les dossiers, le bouton ***Ajouter un site Web*** apparaît au bas de la ***Zone de contenu*** . Vous pouvez également utiliser la barre du haut pour faire une recherche dans un emplacement spécifique.  
-![Navigation dans un coffre via Devolutions Web Login](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2013.png)  
+![Navigation dans un coffre via {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2013.png)  
 
 De retour sur la vue principale de l'onglet ***Toutes les entrées*** , le bouton ***Sélectionner les coffres à synchroniser*** en bas de la ***Zone de contenu*** vous permet de sélectionner individuellement les coffres de {{ fr.DVLS }} à synchroniser avec {{ fr.DWL }} .  
 

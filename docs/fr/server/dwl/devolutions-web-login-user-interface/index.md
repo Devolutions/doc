@@ -1,6 +1,7 @@
 ---
-title: Interface utilisateur de Devolutions Web Login
-order: 40
+eleventyComputed:
+  title: Interface utilisateur de {{ fr.DWL }}
+  order: 40
 ---
 L'interface utilisateur de {{ fr.DWL }} varie légèrement dans votre navigateur selon le produit Devolutions utilisé conjointement avec l'extension. Cette rubrique présentera l'interface utilisateur de {{ fr.DWL }} lors de son utilisation avec {{ fr.DVLS }} .  
 
@@ -13,24 +14,24 @@ La vue principale, qui est celle qui s'affiche lors de la première ouverture de
 
 ### Menu supérieur 
 
-Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez passer de l'un à l'autre en utilisant le Sélecteur de source de données situé à gauche du Menu supérieur . Une liste déroulante apparaîtra avec les autres produits que vous avez précédemment couplés avec {{ fr.DWL }} .  
+Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez passer de l'un à l'autre en utilisant le Sélecteur de source de données situé à gauche du Menu supérieur. Une liste déroulante apparaîtra avec les autres produits que vous avez précédemment couplés avec {{ fr.DWL }}.  
 ![Sélecteur de source de données](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2007.png) 
 
-À droite du Menu supérieur , le bouton ***Paramètres*** ouvre un nouvel onglet dans lequel vous pouvez configurer votre extension. Consultez la [liste complète des paramètres](/fr/server/dwl/settings/) .  
+À droite du Menu supérieur , le bouton ***Paramètres*** ouvre un nouvel onglet dans lequel vous pouvez configurer votre extension. Consultez la [liste complète des paramètres](/fr/server/dwl/settings/).  
 ![Bouton Paramètres](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2010.png) 
 
-À côté du bouton Paramètres se trouve le bouton de votre Compte . Cette section comporte quelques liens et informations utiles, à savoir :  
+À côté du bouton Paramètres se trouve le bouton de votre Compte. Cette section comporte quelques liens et informations utiles, à savoir :  
 
-* un bouton pour Se déconnecter de votre {{ fr.DA }} ; 
-* un lien vers votre {{ fr.DVLS }} ; 
-* un lien vers notre [forum de {{ fr.DVLS }}](https://forum.devolutions.net/product/server) ; 
-* un lien vers notre [Aide en ligne de {{ fr.DVLS }}](/fr/server/overview/what-is-server/) ; 
+* un bouton pour Se déconnecter de votre {{ fr.DA }}; 
+* un lien vers votre {{ fr.DVLS }}; 
+* un lien vers notre [{{ fr.DFORUM }} de {{ fr.DVLS }}](https://forum.devolutions.net/product/server); 
+* un lien vers notre [Aide en ligne de {{ fr.DVLS }}](/fr/server/overview/what-is-server/); 
 * la version actuelle de {{ fr.DWL }} .  
 ![Bouton Compte](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2009.png) 
 
 ### Menu latéral et zone de contenu 
 
-En utilisant les onglets du ***Menu latéral*** , vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }} .  
+En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }}.  
 ![Onglets du menu latéral](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2008.png) 
 
 Chaque onglet affiche une vue différente dans la Zone de contenu . Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.DVLS }} sont :  
