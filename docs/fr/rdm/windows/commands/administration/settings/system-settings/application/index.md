@@ -70,7 +70,7 @@ Désactive la fonction de connexion rapide pour tous les utilisateurs de la sour
 Désactiver RDM Agent et Jump 
 		</td>
 		<td>
-Désactive l'option d'activation d'une session en tant qu'Agent RDM ou Jump. 
+Désactive l'option d'activation d'une session en tant qu'{{ fr.RDMA }} ou Jump. 
 		</td>
 	</tr>
 	<tr>

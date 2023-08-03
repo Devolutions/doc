@@ -99,7 +99,7 @@ Opens the ***PowerShell (RDM CmdLet)*** .
 More Tools 
 		</td>
 		<td>
-The ***More Tools*** window contains a variety of application tools such as: [Chocolatey Console](/rdm/windows/commands/tools/tools/more-tools/chocolatey-console/) , [Local RDP/RemoteApp Manager](/rdm/windows/commands/tools/tools/more-tools/local-rdp-remoteapp-manager/) , [Playback (Ansi)](/rdm/windows/commands/tools/tools/more-tools/terminal-playback/) , [RDM Agent](/rdm/windows/commands/tools/tools/more-tools/rdm-agent/) and more. 
+The ***More Tools*** window contains a variety of application tools such as: [Chocolatey Console](/rdm/windows/commands/tools/tools/more-tools/chocolatey-console/) , [Local RDP/RemoteApp Manager](/rdm/windows/commands/tools/tools/more-tools/local-rdp-remoteapp-manager/) , [Playback (Ansi)](/rdm/windows/commands/tools/tools/more-tools/terminal-playback/), [{{ en.RDMA }}](/rdm/windows/commands/tools/tools/more-tools/rdm-agent/) and more. 
 		</td>
 	</tr>
 </table>

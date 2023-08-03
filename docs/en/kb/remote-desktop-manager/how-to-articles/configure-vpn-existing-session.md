@@ -19,4 +19,4 @@ You will need to first create a ***Website*** session entry with the URL and the
 1. Use the ellipsis (...) button to select the ***Website*** session entry you have created.  
 ![!!KB4492.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4492.png)  
 
-Once this is done, use the RDM Jump feature to launch your second RDP entry which will first open the ***Website*** session entry you have configured as a VPN to establish the connection.
+Once this is done, use the {{ en.RDMJ }} feature to launch your second RDP entry which will first open the ***Website*** session entry you have configured as a VPN to establish the connection.

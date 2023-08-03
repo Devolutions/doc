@@ -11,7 +11,7 @@ keywords:
 This can be compared to RD Gateway from Microsoft and to some extent SSH port forwarding.  
 
 {% snippet icon.badgeNotice %} 
-The Jump is performed through {{ en.RDMA }} . The Agent needs to be CURRENTLY EXECUTING in a Windows Session on the remote host, or set to automatically start upon login. We have decided NOT to have this available through a service at this time. 
+The Jump is performed through {{ en.RDMA }}. The Agent needs to be CURRENTLY EXECUTING in a Windows Session on the remote host, or set to automatically start upon login. We have decided NOT to have this available through a service at this time. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -24,7 +24,7 @@ The {{ en.RDMJ }} feature does not allow you to circumvent the need to properly 
  
 {% youtube 'AfpCDZGphA8' %}  
 
-Both instances of {{ en.RDMJ }} or {{ en.RDM }} and RDM Agent   running on the ***Jump Host***   communicate through an RDP channel. Commands are sent securely over the RDP channel and are then executed on the Service Host . Commands include running a script or opening a remote session of any type . It can even launch a VPN client on the Service Host prior to running the remote session.  
+Both instances of {{ en.RDMJ }} or {{ en.RDM }} and {{ en.RDMA }} running on the ***Jump Host*** communicate through an RDP channel. Commands are sent securely over the RDP channel and are then executed on the Service Host . Commands include running a script or opening a remote session of any type. It can even launch a VPN client on the Service Host prior to running the remote session.  
 
 * [Usage Scenarios](#usage-scenarios) 
 * [Configure a Jump Host](#configure-a-jump-host) 
@@ -120,13 +120,13 @@ Or
 
 ### Validate that the Jump Host works 
 
-1. Start the ***RDP*** session of the ***Jump Host Server*** . 
+1. Start the ***RDP*** session of the ***Jump Host Server***. 
 1. Wait for {{ en.RDMA }} to connect. 
-1. On the ***RDP*** tab, right click ***Agent Status*** . 
+1. On the ***RDP*** tab, right click ***Agent Status***. 
     1. {{ en.RDMA }} should be connected. 
 1. Keep the ***RDP*** tab open. 
 1. Start the ***Jump*** session. 
-    1. ***Jump*** session should start on the ***Jump Host Server*** . 
+    1. ***Jump*** session should start on the ***Jump Host Server***. 
 1. Close all sessions. 
 1. Start the ***Jump*** session directly. 
     1. ***Jump Host Server*** & ***Jump*** session should both start.  

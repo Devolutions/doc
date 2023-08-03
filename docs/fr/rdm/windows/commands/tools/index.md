@@ -83,7 +83,7 @@ Configurer un rapport ***Mon inventaire*** .
 Agent et Gestionnaire des clés SSH 
 		</td>
 		<td>
-Ouvre le [Gestionnaire de l'agent des clés](/fr/rdm/windows/commands/tools/tools/key-agent-manager/) . Il est utilisé pour conserver toutes vos clés SSH en mémoire, déjà décodées et prêtes à être utilisées. 
+Ouvre le [Gestionnaire de l'agent des clés](/fr/rdm/windows/commands/tools/tools/key-agent-manager/). Il est utilisé pour conserver toutes vos clés SSH en mémoire, déjà décodées et prêtes à être utilisées. 
 		</td>
 	</tr>
 	<tr>
@@ -91,7 +91,7 @@ Ouvre le [Gestionnaire de l'agent des clés](/fr/rdm/windows/commands/tools/tool
 PowerShell (RDM CmdLet) 
 		</td>
 		<td>
-Ouvre le [PowerShell (RDM CmdLet)](/fr/rdm/windows/commands/tools/tools/powershell/) . 
+Ouvre le [PowerShell (RDM CmdLet)](/fr/rdm/windows/commands/tools/tools/powershell/). 
 		</td>
 	</tr>
 	<tr>
@@ -99,7 +99,7 @@ Ouvre le [PowerShell (RDM CmdLet)](/fr/rdm/windows/commands/tools/tools/powershe
 Plus d'outils 
 		</td>
 		<td>
-La fenêtre ***Plus d'outils*** contient une variété d'outils d'application tels que: [Console Chocolatey](/fr/rdm/windows/commands/tools/tools/more-tools/chocolatey-console/) , [Gestionnaire RDP/RemoteApp local](/fr/rdm/windows/commands/tools/tools/more-tools/local-rdp-remoteapp-manager/) , [Lecture (Ansi)](/fr/rdm/windows/commands/tools/tools/more-tools/terminal-playback/) , [Agent RDM](/fr/rdm/windows/commands/tools/tools/more-tools/rdm-agent/) et plus encore. 
+La fenêtre ***Plus d'outils*** contient une variété d'outils d'application tels que [Console Chocolatey](/fr/rdm/windows/commands/tools/tools/more-tools/chocolatey-console/), [Gestionnaire RDP/RemoteApp local](/fr/rdm/windows/commands/tools/tools/more-tools/local-rdp-remoteapp-manager/), [Lecture (Ansi)](/fr/rdm/windows/commands/tools/tools/more-tools/terminal-playback/), [{{ fr.RDMA }}](/fr/rdm/windows/commands/tools/tools/more-tools/rdm-agent/) et plus encore. 
 		</td>
 	</tr>
 </table>
