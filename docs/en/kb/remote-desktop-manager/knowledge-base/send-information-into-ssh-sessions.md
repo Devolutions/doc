@@ -6,7 +6,7 @@ eleventyComputed:
 
 Remote Desktop Manager's Typing Macro is designed to facilitate the transfer of information in your SSH sessions with a single click.
 
-1. Create a ***Typing Macro*** entry. The entry can be found under ***New Entry*** – ***Macro/Scripts/Tool*** – ***Macro***.  
+1. Create a ***Typing Macro*** entry. It can be found under ***New Entry*** – ***Macro/Script/Tool*** – ***Macro***.  
 ![Typing Macro entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6050.png)  
 1. Click ***OK*** to save.
 1. Set your entry to any macro you want to input in your sessions.  
