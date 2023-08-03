@@ -41,10 +41,10 @@ Allow users/user groups to access the {{ en.VLT }} management.
 	</tr>
 	<tr>
 		<td>
-{{ en.SST }} 
+System Settings 
 		</td>
 		<td>
-Allow users/user groups to access {{ en.SST }} . 
+Allow users/user groups to access ***System Settings***. 
 		</td>
 	</tr>
 	<tr>

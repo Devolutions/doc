@@ -39,8 +39,6 @@ module.exports = {
     RDMA: 'Agent Remote Desktop Manager',
     RDMJ: 'Remote Desktop Manager Jump',
     RDMOS: 'Services en ligne de RDM',
-    SSP: 'Permissions du système',
-    SST: 'Paramètres du système',
     UVLT: "Coffre de l'utilisateur",
     VLT: 'Coffre',
     WS: 'Workspace'

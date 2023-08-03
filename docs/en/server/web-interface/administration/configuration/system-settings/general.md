@@ -3,7 +3,7 @@ title: General
 keywords:
 - Private vault
 ---
-The ***General*** section of the {{ en.SST }} allows the administrators to apply general policies for the whole data source. 
+The ***General*** section of the ***System Settings*** allows the administrators to apply general policies for the whole data source. 
 
 ![Administration – System Settings – General](https://webdevolutions.azureedge.net/docs/en/server/clip10373.png)
 

@@ -42,7 +42,7 @@ We recommend doing a backup of the Encryption Keys before any operation that cou
 
 * Ensure that the instance users have the offline mode enabled and that they all perform a full refresh of the cache ( Ctrl+F5 ). 
 * Have your team switch to the offline mode in {{ en.RDM }} , allowing them to work while the system is down. 
-* Update the Maximal version of {{ en.RDM }} in ***Administration – {{ en.SST }} – Version Management – Maximal version***, if this option was set before the upgrade.  
+* Update the Maximal version of {{ en.RDM }} in ***Administration – System Settings – Version Management – Maximal version***, if this option was set before the upgrade.  
 
 ### Phase 1 
 
@@ -82,4 +82,4 @@ If you have elected to use the Integrated Security for connecting to the databas
  
 * Have a user upgrade his workstation with the version of {{ en.RDM }} supported by the {{ en.DVLS }} version and test connectivity with the server instance. 
 * When you are satisfied with your tests, have the rest of the staff upgrade to the same version of {{ en.RDM }}. 
-* Update the Maximal/Minimal version of {{ en.RDM }} in ***Administration – {{ en.SST }} – Version Management***. 
+* Update the Maximal/Minimal version of {{ en.RDM }} in ***Administration – System Settings – Version Management***. 

@@ -8,14 +8,14 @@ The following recommendations are based on our experience with the system and th
 
 Here are the main key points of the user groups based security:  
 
-* Security is inherited : child items and folders are covered by a parent folder’s security. 
-* Permissions can be overridden : a permission set on a sub folder will override the parent item’s permission. 
-* Permissions are granular : multiple permissions can be set on entries at once.  
+* Security is inherited: child items and folders are covered by a parent folder’s security. 
+* Permissions can be overridden: a permission set on a sub folder will override the parent item’s permission. 
+* Permissions are granular: multiple permissions can be set on entries at once.  
 
 ## User groups configuration 
 When using {{ en.DVLS }} user groups based security, user groups are mostly used to control user access for multiple users at once. 
 ### Create the user groups 
-To create user groups, navigate to Administration – User Groups , then click Add. 
+To create user groups, navigate to ***Administration – User Groups***, then click ***Add***. 
 
 ![Create a User Group](https://webdevolutions.azureedge.net/docs/en/server/clip8034.png)  
 
@@ -23,15 +23,15 @@ All settings can be left to default unless the user group contains only administ
 
 ![Configure a User Group](https://webdevolutions.azureedge.net/docs/en/server/clip8035.png)  
 
-To assign users to the user group, click , then check the Is Member box of the respective user. With a user group created from an Active Directory group, there is no need to assign users as it is automatically managed by {{ en.DVLS }} .  
+To assign users to the user group, click , then check the Is Member box of the respective user. With a user group created from an Active Directory group, there is no need to assign users as it is automatically managed by {{ en.DVLS }}.  
 
 ![Assign a user to the User Group](https://webdevolutions.azureedge.net/docs/en/server/clip8036.png)  
 
 ## User configuration 
 ### User template 
-It is possible to change the default user template. To do so, navigate to Administration – {{ en.SST }} – User Template . These settings control the default settings of a new user. The best practice is to disable all privileges. 
+It is possible to change the default user template. To do so, navigate to ***Administration – System Settings – User Template***. These settings control the default settings of a new user. The best practice is to disable all privileges. 
 ### Create the user 
-To create users, navigate to Administration – Users , then click Add User . Enter a Login for the user, select the User type and enter an email address. 
+To create users, navigate to ***Administration – Users***, then click Add User. Enter a Login for the user, select the User type and enter an email address. 
 
 ![Create a user](https://webdevolutions.azureedge.net/docs/en/server/clip8037.png)  
 
@@ -65,11 +65,11 @@ When creating users, some key points must be taken into consideration. Ask yours
 ## Entry configuration 
 Access is granted or denied to users by setting permission on entries. Permissions can be set to users or user groups. The best practice is to grant permissions to user groups to control access for multiple users at once.  
 
-To set permissions on an entry, edit any entry, then navigate to the Security – Permissions section.  
+To set permissions on an entry, edit any entry, then navigate to the ***Security – Permissions*** section.  
 
 ![Entry's Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8042.png) 
 
-Permissions are usually set on folders, and apply to all child entries. A best practice is to set all the permissions of the vault folder to Never . As a result, all permissions of all entries are denied by default.  
+Permissions are usually set on folders, and apply to all child entries. A best practice is to set all the permissions of the vault folder to Never. As a result, all permissions of all entries are denied by default.  
 
 ![Root Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8043.png) 
 
