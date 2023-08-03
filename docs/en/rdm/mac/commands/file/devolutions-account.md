@@ -1,8 +1,8 @@
 ---
 title: Devolutions Account
 ---
-In ***File - Devolutions Account*** create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers.  
-![File - Devolutions Account](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4008.png) 
+In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers.  
+![File – {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4008.png) 
 
 <table>
 	<tr>
@@ -18,7 +18,7 @@ DESCRIPTION
 Sign-in 
 		</td>
 		<td>
-Sign-in your Devolutions Account. 
+Sign-in your {{ en.DA }}. 
 		</td>
 	</tr>
 	<tr>
@@ -26,15 +26,15 @@ Sign-in your Devolutions Account.
 Sign-out 
 		</td>
 		<td>
-Sign-out of your Devolutions Account. 
+Sign-out of your {{ en.DA }}. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Create Devolutions Account 
+Create {{ en.DA }} 
 		</td>
 		<td>
-Create a new Devolutions Account. 
+Create a new {{ en.DA }}. 
 		</td>
 	</tr>
 </table>

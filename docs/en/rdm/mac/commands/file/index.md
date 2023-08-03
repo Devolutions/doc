@@ -9,7 +9,7 @@ See the following topics to learn more about each setting:
 * [Go Offline](/rdm/mac/commands/file/go-offline/) 
 * [Lock Application](/rdm/mac/commands/file/lock-application/) 
 * [My Data Source Information](/rdm/mac/commands/file/data-source-information/) 
-* [Devolutions Account](/rdm/mac/commands/file/devolutions-account/) 
+* [{{ en.DA }}](/rdm/mac/commands/file/devolutions-account/) 
 * [Refresh](/rdm/mac/commands/file/backup/refresh/) 
 * [Data Sources](/rdm/mac/commands/file/data-sources/overview/) 
 * [Manage Passwords](/rdm/mac/commands/file/manage-password/) 

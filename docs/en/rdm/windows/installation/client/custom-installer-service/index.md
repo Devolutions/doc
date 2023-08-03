@@ -24,7 +24,7 @@ You can store and create up to six ***{{ en.CI }}*** configuration file packages
 {% endsnippet %}
  
 The {{ en.CIS }} can be found in with the {{ en.DA }} tools, located in ***File – {{ en.DA }} – Tools***. You must be signed in to access it.  
-![File – Devolutions Account – Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11245.png) 
+![File – {{ en.DA }} – Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11245.png) 
 
 The following topics will help you get started to set up your customized installers with {{ en.RDM }}.  
 

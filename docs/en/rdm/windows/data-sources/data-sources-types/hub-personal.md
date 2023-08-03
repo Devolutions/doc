@@ -34,7 +34,7 @@ Username
 		</td>
 		<td>
 
-Your [{{ en.DA }}](https://portal.devolutions.com/) Devolutions Account email address. You can create one for free, just follow the link provided. 
+Your [{{ en.DA }}](https://portal.devolutions.com/) email address. You can create one for free, just follow the link provided. 
 		</td>
 	</tr>
 </table>

@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 There are two methods to register your {{ en.DVLS }} Free license, with the [{{ en.DVLS }} console](#devolutions-server-console) or through the [{{ en.DVLS }} web interface](#devolutions-server-web-interface) .  
 
-Locate your {{ en.DVLS }} Free license in the ***Serials*** section of your [Devolutions Account](https://portal.devolutions.com/serials) .  
+Locate your {{ en.DVLS }} Free license in the ***Serials*** section of your [{{ en.DA }}](https://portal.devolutions.com/serials) .  
 
 ![!!ServerOp4019.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4019.png)  
 

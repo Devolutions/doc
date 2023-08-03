@@ -91,10 +91,10 @@ Inclus vos modèles locaux dans l'exportation.
 	</tr>
 	<tr>
 		<td>
-Identifiants du compte Devolutions 
+Identifiants du {{ fr.DA }} 
 		</td>
 		<td>
-Inclus vos identifiants du compte Devolutions. 
+Inclus vos identifiants du {{ fr.DA }}. 
 		</td>
 	</tr>
 	<tr>

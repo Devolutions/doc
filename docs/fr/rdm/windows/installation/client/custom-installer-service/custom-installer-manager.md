@@ -16,9 +16,9 @@ Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration 
 ## Créer un paquet d'installation 
 
 1. Dans {{ fr.RDM }} , cliquer sur ***Fichier –*** ***{{ fr.DA }}*** ***– Connectez-vous***   pour vous connecter à votre {{ fr.DA }}.  
-![Connextion au Compte Devolutions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4015.png) 
+![Connextion au {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4015.png) 
 1. Sous ***Outils***, cliquer sur ***{{ fr.CIM }}*** pour créer un nouvel {{ fr.CI }} avec des paramètres spécifiques.  
-![Fichier – Compte Devolutions – {{ fr.CIM }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11247.png) 
+![Fichier – {{ fr.DA }} – {{ fr.CIM }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11247.png) 
 1. Cliquer sur ***Nouveau kit***.  
 ![{{ fr.CIM }} – Nouveau kit](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11251.png) 
 1. Sélectionner la ***Version*** de l'application dans la liste déroulante. Un ***Nom*** sera automatiquement généré pour votre paquet. Il peut être modifié. Il est aussi possible d'ajouter une courte ***Description*** de votre paquet, mais cela reste optionnel.  

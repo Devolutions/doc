@@ -40,7 +40,7 @@ Name of the data source.
 Username 
 		</td>
 		<td>
-Your [{{ en.DA }}](https://portal.devolutions.com/) Devolutions Account email address. 
+Your [{{ en.DA }}](https://portal.devolutions.com/) email address. 
 		</td>
 	</tr>
 	<tr>

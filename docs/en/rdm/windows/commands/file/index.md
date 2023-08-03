@@ -24,7 +24,7 @@ For more information, please consult the [My Data Source Information](/rdm/windo
 
 ### {{ en.DA }} 
 
-Connect to a Devolutions Account, create {{ en.CI }} for {{ en.RDM }} , manage license serials, and more.  
+Connect to a {{ en.DA }}, create {{ en.CI }} for {{ en.RDM }}, manage license serials, and more.  
 
 For more information, please consult the [{{ en.DA }}](/rdm/windows/commands/file/devolutions-account/) topic. 
 

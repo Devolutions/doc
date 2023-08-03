@@ -336,7 +336,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Connexion au compte Devolutions 
+Connexion au {{ fr.DA }}
 		</td>
 		<td>
 Écrire l'URL de connexion de votre {{ fr.DA }} . 

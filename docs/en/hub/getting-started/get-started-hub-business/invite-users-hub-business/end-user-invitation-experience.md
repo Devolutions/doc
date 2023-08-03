@@ -33,7 +33,7 @@ Once the users have received their temporary password, they are ready to connect
 
 1. Access the {{ en.HUBB }} URL link. 
 1. Enter the temporary password, then click on ***Continue*** .  
-![Connection – No Devolutions Account](https://webdevolutions.azureedge.net/docs/en/hub/Hub2002.png) 
+![Connection – No {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2002.png) 
 1. Create a new password for the account by following the password restrictions, then click on ***Update Password*** .  
 ![Password Modification](https://webdevolutions.azureedge.net/docs/en/hub/Hub2003.png)  
 
@@ -42,7 +42,7 @@ Now that you have access to {{ en.HUBB }}, you can skip to the [First Steps in {
 ### Invitee with an existing {{ en.DA }} 
 
 If the user already has a {{ en.DA }}, they receive an invitation email with a link to {{ en.HUBB }}.  
-![Invitation Email – Existing Devolutions Account](https://webdevolutions.azureedge.net/docs/en/hub/Hub2004.png)  
+![Invitation Email – Existing {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2004.png)  
 
 1. Access the {{ en.HUBB }} URL link. 
 1. Enter your {{ en.DA }} credentials, then click on ***Continue*** .  

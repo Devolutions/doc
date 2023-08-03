@@ -31,7 +31,7 @@ Une fois que les utilisateurs ont reçu leur mot de passe temporaire, ils sont p
 
 1. Accéder au lien URL de {{ fr.HUBB }}. 
 1. Saisir le mot de passe temporaire, puis cliquer sur ***Continuer*** .  
-![Connexion – Aucun compte Devolutions](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2009.png) 
+![Connexion – Aucun {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2009.png) 
 1. Créer un nouveau mot de passe pour le compte en respectant les restrictions relatives au mot de passe, puis cliquer sur ***Mettre à jour mon mot de passe*** .  
 ![Modification du mot de passe](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2010.png) 
 
@@ -40,10 +40,10 @@ Maintenant que vous avez accès à {{ fr.HUBB }}, vous pouvez passer à la secti
 ### Invité avec un {{ fr.DA }} existant 
 
 Si l'utilisateur possède déjà un {{ fr.DA }} , il recevra un courriel d'invitation avec un lien vers {{ fr.HUBB }}.  
-![Courriel d'invitation – Compte Devolutions existant](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2006.png) 
+![Courriel d'invitation – {{ fr.DA }} existant](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2006.png) 
 1. Accéder au lien URL de {{ fr.HUBB }}. 
 1. Saisir vos identifiants de {{ fr.DA }} , puis cliquer sur ***Continuer*** .  
-![Connexion – Compte Devolutions existant](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2007.png) 
+![Connexion – {{ fr.DA }} existant](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2007.png) 
 
 Maintenant que vous avez accès à {{ fr.HUBB }}, vous pouvez continuer à la section suivante. 
 

@@ -38,7 +38,7 @@ Nom d'utilisateur
 		</td>
 		<td>
 
-Votre adresse courriel du [Compte Devolutions](https://portal.devolutions.com/) Devolutions Account . 
+Votre adresse courriel du [{{ fr.DA }}](https://portal.devolutions.com/). 
 		</td>
 	</tr>
 	<tr>

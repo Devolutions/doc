@@ -1,8 +1,8 @@
 ---
 title: Compte Devolutions
 ---
-Dans ***Fichier - Compte Devolutions*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }}. Le {{ fr.DA }} est gratuit pour les clients.  
-![Compte Devolutions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4006.png) 
+Dans ***Fichier - {{ fr.DA }}*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }}. Le {{ fr.DA }} est gratuit pour les clients.  
+![{{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4006.png) 
 
 <table>
 	<tr>
@@ -18,7 +18,7 @@ Description
 Connectez-vous 
 		</td>
 		<td>
-Se connecter à son compte Devolutions. 
+Se connecter à son {{ fr.DA }}. 
 		</td>
 	</tr>
 	<tr>
@@ -26,17 +26,15 @@ Se connecter à son compte Devolutions.
 Déconnectez-vous 
 		</td>
 		<td>
-Se déconnecter de son compte Devolutions. 
+Se déconnecter de son {{ fr.DA }}. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Créer un compte Devolutions 
+Créer un {{ fr.DA }} 
 		</td>
 		<td>
-Créer un nouveau compte Devolutions. 
+Créer un nouveau {{ fr.DA }}. 
 		</td>
 	</tr>
 </table>
-
-

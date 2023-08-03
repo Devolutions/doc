@@ -47,7 +47,7 @@ Nom de la source de données.
 Créer un compte gratuit 
 		</td>
 		<td>
-Créer un nouveau Compte Devolutions. 
+Créer un nouveau {{ fr.DA }}. 
 		</td>
 	</tr>
 	<tr>
@@ -55,7 +55,7 @@ Créer un nouveau Compte Devolutions.
 Nom d'utilisateur 
 		</td>
 		<td>
-Saisir votre nom d'utilisateur de Compte Devolutions. 
+Saisir votre nom d'utilisateur de {{ fr.DA }}. 
 		</td>
 	</tr>
 	<tr>

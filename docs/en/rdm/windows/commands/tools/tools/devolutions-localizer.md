@@ -6,7 +6,7 @@ Devolutions Localizer is our custom translation tool for our applications. We we
 Download the [Devolutions Localizer](https://devolutions.net/localizer) translation tool to get started! 
 
 {% snippet icon.badgeInfo %} 
-A free [Devolutions Account](/cloud/devolutions-account/create-devolutions-account/) is required to log in to the Devolutions Localizer tool. 
+A free [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/) is required to log in to the Devolutions Localizer tool. 
 {% endsnippet %}
  
 ### Translate 

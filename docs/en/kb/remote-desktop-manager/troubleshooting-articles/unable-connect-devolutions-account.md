@@ -1,10 +1,8 @@
 ---
-title: Unable to Connect with Devolutions Account
-keywords:
-- Export HAR
-- HAR
-- HAR file
-- HAR files
+eleventyComputed:
+  title: Unable to Connect with {{ en.DA }}
+  keywords:
+  - HAR
 ---
 You receive an error when trying to connect to {{ en.RDM }} with your {{ en.DA }}
 ### Solution
@@ -17,7 +15,7 @@ You receive an error when trying to connect to {{ en.RDM }} with your {{ en.DA }
 1. Go back to [Devolutions Login](https://login.devolutions.com/op/login)
 1. Clear the content of the ***Console*** and ***Network*** section of the ***Developer Tool*** window.  
 ![!!KB4830.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4830.png)
-1. Try to connect to your ***Devolutions Account*** once more by entering your email address on the login page.
+1. Try to connect to your ***{{ en.DA }}*** once more by entering your email address on the login page.
 1. When you get the error:
 * In the Network section, export the trace report with the ***Export HAR*** button (arrow down button).
 * In the Console section, right click on the error line and ***Save as***  

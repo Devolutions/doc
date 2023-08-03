@@ -17,7 +17,7 @@ A {{ en.HUBP }} access is required to continue.
 1. ***Log In*** to your account.  
 ![Connecting {{ en.HUBP }} to the {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4054.png)
 1. Enter your {{ en.DA }} credentials to continue.  
-![Entering Devolutions Account Credentials](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4023.png)
+![Entering {{ en.DA }} Credentials](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4023.png)
 1. When done, a login confirmation message will appear.  
 ![Successful Login to the {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4051.png)
 1. Click on the DWL icon in the toolbar of your web browser to validate that {{ en.DWL }} is now connected to {{ en.HUBP }}.  

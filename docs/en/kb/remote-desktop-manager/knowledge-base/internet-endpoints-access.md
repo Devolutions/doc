@@ -58,18 +58,18 @@ Devolutions Cloud - our online services
 https<area>://cloud.devolutions.net
 		</td>
 		<td>
-File – Devolutions Account
+File – {{ en.DA }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Devolutions Account Login
+{{ en.DA }} Login
 		</td>
 		<td>
 https<area>://login.devolutions.com
 		</td>
 		<td>
-File – Devolutions Account
+File – {{ en.DA }}
 		</td>
 	</tr>
 	<tr>

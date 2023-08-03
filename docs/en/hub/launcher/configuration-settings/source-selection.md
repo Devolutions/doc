@@ -10,7 +10,7 @@ When you finish the installation of {{ en.DEVL }}, you are prompted to choose a 
  
 1. Choose ***{{ en.DHUB }}***.  
 ![!!Hub4018.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4018.png) 
-1. Enter your Devolutions Account ***Username*** and follow the authentication process.  
+1. Enter your {{ en.DA }} ***Username*** and follow the authentication process.  
 ![!!Hub4019.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4019.png) 
 1. Next to the ***Host*** field click on the 3 dots to select your {{ en.DHUBB }} data source and click ***OK*** to save.  
 

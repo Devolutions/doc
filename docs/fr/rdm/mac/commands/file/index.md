@@ -9,7 +9,7 @@ Consulter les rubriques suivantes pour en savoir plus sur chaque paramètre:
 * [Mettre hors-ligne](/fr/rdm/mac/commands/file/go-offline/) 
 * [Verrouiller l'application](/fr/rdm/mac/commands/file/lock-application/) 
 * [Informations sur la source de données](/fr/rdm/mac/commands/file/data-source-information/) 
-* [Compte Devolutions](/fr/rdm/mac/commands/file/devolutions-account/) 
+* [{{ fr.DA }}](/fr/rdm/mac/commands/file/devolutions-account/) 
 * [Actualiser](/fr/rdm/mac/commands/file/backup/refresh/) 
 * [Sources de données](/fr/rdm/mac/commands/file/data-sources/overview/) 
 * [Modifier la clé maitresse](/fr/rdm/mac/commands/file/manage-password/) 

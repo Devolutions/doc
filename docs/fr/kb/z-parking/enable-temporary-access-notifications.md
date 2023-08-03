@@ -21,7 +21,7 @@ Cette notification est uniquement disponible pour les sources de données avanc�
 
 1. Avoir un [{{ fr.DA }}](/fr/cloud/devolutions-account/create-devolutions-account).
 1. Dans {{ fr.RDM }} :
-    1. Se connecter au {{ fr.DA }} dans ***Fichier – Compte Devolutions***.
+    1. Se connecter au {{ fr.DA }} dans ***Fichier – {{ fr.DA }}***.
     1. Définir les courriels des utilisateurs avec leur courriel {{ fr.DA }} dans ***Administration – Utilisateurs***.
 1. Dans le [{{ fr.DA }}](https://portal.devolutions.com/) :
     1. [Créer une organisation](/fr/cloud/organizations/create-organization).

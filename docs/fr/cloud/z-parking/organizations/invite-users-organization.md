@@ -5,7 +5,7 @@ Suivre ces étapes pour inviter et gérer des utilisateurs dans votre organisati
 
 ### Inviter des utilisateurs 
 
-1. Connectez-vous à votre [Compte Devolutions](https://portal.devolutions.com/) . 
+1. Connectez-vous à votre [{{ fr.DA }}](https://portal.devolutions.com/) . 
 {% snippet icon.badgeCaution %} 
 Vous devez être le propriétaire ou un administrateur de l'organisation pour gérer et inviter des utilisateurs. 
 {% endsnippet %}

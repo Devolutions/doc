@@ -5,8 +5,8 @@ When creating an installation package with the ***{{ en.CIM }}*** , an installer
 
 ### Creating an Installer File 
 
-1. In {{ en.RDM }} , click on File – {{ en.DA }} – Installer File Generator .  
-![File – Devolutions Account – Installer File Generator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11248.png) 
+1. In {{ en.RDM }}, click on ***File – {{ en.DA }} – Installer File Generator***.  
+![File – {{ en.DA }} – Installer File Generator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11248.png) 
 1. In the ***Miscellaneous*** section, check/uncheck options according to your needs and select the data sources to be included. Consult our [Option Selection](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/option-selection/) guide for help with this process.  
 ![Installer File Generator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11249.png) 
 1. Click ***Generate*** , then save the ***Package.rdi*** file on your computer. 

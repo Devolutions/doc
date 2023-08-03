@@ -5,7 +5,7 @@ You can create ***Groups*** to assign specific permissions and manage ***Users**
 
 ### Create groups 
 
-1. Connect to your [Devolutions Account](https://portal.devolutions.com/) . 
+1. Connect to your [{{ en.DA }}](https://portal.devolutions.com/) . 
 {% snippet icon.badgeCaution %} 
 You must be the owner or an administrator of the organization to create groups. 
 {% endsnippet %}

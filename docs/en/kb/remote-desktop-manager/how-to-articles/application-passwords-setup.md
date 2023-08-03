@@ -1,7 +1,7 @@
 ---
 title: Application Passwords Setup
 ---
-The ***Application Passwords*** is a way to quickly authenticate with other Devolutions applications like [{{ en.RDM }} Devolutions Account](#account) and the data sources [{{ en.DOD }}](#data) in {{ en.RDM }}.
+The ***Application Passwords*** is a way to quickly authenticate with other Devolutions applications like [{{ en.RDM }} {{ en.DA }}](#account) and the data sources [{{ en.DOD }}](#data) in {{ en.RDM }}.
 
 1. To create an ***Application Passwords***, connect to your [{{ en.DA }}](https://portal.devolutions.com/).
 1. In the menu, click ***Application Passwords***.
@@ -12,7 +12,7 @@ The ***Application Passwords*** is a way to quickly authenticate with other Devo
 1. Copy the code by clicking on the copy/paste icon and paste it in the application you created it for.  
 ![!!KB4796.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4796.png)
 
-## {{ en.RDM }} Devolutions account
+## {{ en.RDM }} {{ en.DA }}
 <a name="account"></a>
 
 1. In ***File - {{ en.DA }} - Use application password***.

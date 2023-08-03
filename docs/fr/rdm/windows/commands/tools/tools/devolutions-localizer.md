@@ -6,7 +6,7 @@ Devolutions Localizer est notre outil de traduction personnalisé pour nos appli
 Téléchargez l'outil de traduction [Devolutions Localizer](https://devolutions.net/fr/localizer) pour commencer!  
 
 {% snippet icon.badgeInfo %} 
-Un [Compte Devolutions](/fr/cloud/devolutions-account/create-devolutions-account/) gratuit est nécessaire pour se connecter à l'outil Devolutions Localizer. 
+Un [{{ fr.DA }}](/fr/cloud/devolutions-account/create-devolutions-account/) gratuit est nécessaire pour se connecter à l'outil Devolutions Localizer. 
 {% endsnippet %}
  
 ### Traduction 

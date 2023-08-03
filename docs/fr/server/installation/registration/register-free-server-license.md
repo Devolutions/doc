@@ -6,7 +6,7 @@ eleventyComputed:
 
 Il existe deux méthodes pour enregistrer votre licence {{ fr.DVLS }} Free, avec la [console {{ fr.DVLS }}](#console-devolutions-server) ou via l' [interface Web {{ fr.DVLS }}](#interface-web-devolutions-server) .  
 
-Trouver votre licence {{ fr.DVLS }} Free dans la section ***Clés de licence*** de votre [Compte Devolutions](https://portal.devolutions.com/serials) .  
+Trouver votre licence {{ fr.DVLS }} Free dans la section ***Clés de licence*** de votre [{{ fr.DA }}](https://portal.devolutions.com/serials) .  
 ![!!ServerOp4035.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4035.png) 
 
 ### Console {{ fr.DVLS }} 

@@ -45,7 +45,7 @@ Enter the name of the data source.
 Create an account for free 
 		</td>
 		<td>
-Create a new Devolutions Account. 
+Create a new {{ en.DA }}. 
 		</td>
 	</tr>
 	<tr>

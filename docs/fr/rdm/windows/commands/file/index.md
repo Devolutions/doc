@@ -22,11 +22,11 @@ Affiche les informations de configuration relatives à la source de données act
 
 Pour plus d'informations, veuillez consulter la rubrique [Informations sur la source de données](/fr/rdm/windows/commands/file/my-data-source-information/) . 
 
-### Compte devolutions 
+### {{ fr.DA }}
 
-Connectez-vous à un compte Devolutions et créer une installation personnalisée pour {{ fr.RDM }} .  
+Connectez-vous à un {{ fr.DA }} et créer une installation personnalisée pour {{ fr.RDM }} .  
 
-Pour plus d'informations, veuillez consulter la rubrique [Compte Devolutions](/fr/rdm/windows/commands/file/devolutions-account/) . 
+Pour plus d'informations, veuillez consulter la rubrique [{{ fr.DA }}](/fr/rdm/windows/commands/file/devolutions-account/) . 
 
 ### Actualiser 
 

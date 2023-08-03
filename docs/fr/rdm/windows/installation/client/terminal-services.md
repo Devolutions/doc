@@ -37,7 +37,7 @@ La redistribution d'un enregistrement de source de données doit suivre l'un des
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
-Ne cochez pas les options pour inclure les ***identifiants du compte Devolutions*** ainsi que toute source de données contenant des identifiants tout en activant également l'option ***Inclure les identifiants de la source de données*** . 
+Ne cochez pas les options pour inclure les ***identifiants du {{ fr.DA }}*** ainsi que toute source de données contenant des identifiants tout en activant également l'option ***Inclure les identifiants de la source de données*** . 
 {% endsnippet %}
  
 

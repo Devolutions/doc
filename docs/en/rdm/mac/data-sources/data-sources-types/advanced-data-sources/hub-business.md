@@ -37,7 +37,7 @@ Username
 		</td>
 		<td>
 
-Your [Devolutions Account](https://portal.devolutions.com/) Devolutions Account email address. 
+Your [{{ en.DA }}](https://portal.devolutions.com/) email address. 
 		</td>
 	</tr>
 	<tr>

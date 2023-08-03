@@ -14,7 +14,7 @@ This article describes how to send a copy of your {{ en.RDM }} configuration fil
 1. At the bottom of the navigation tree view, press ***Export Options***.
 1. In the dialog that appears, ensure that the following options are NOT checked: 
   - ***Saved templates*** 
-  - ***Devolutions Account credentials*** 
+  - ***{{ en.DA }} credentials*** 
   - ***Include data source credentials*** 
 4. Press ***Export***, give the file a meaningful name (If you have a ticket number, use it for a name). 
 5. Send that file to the support team by following the instructions in [Securely send a file to our team](/kb/devolutions-customer-success/securely-send-file/). 

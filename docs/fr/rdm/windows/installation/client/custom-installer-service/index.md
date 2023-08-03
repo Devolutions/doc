@@ -29,8 +29,8 @@ Vous devez créer un fichier d'installation à l'aide de {{ fr.RDM }}   avant de
 Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration d'***{{ fr.CI }}*** dans votre {{ fr.DA }}. 
 {% endsnippet %}
  
-Le {{ fr.CIS }} peut être trouvé dans les outils du {{ fr.DA }}, situés sous ***Fichier – Compte Devolutions – Outils***. Vous devez être connecté pour y accéder.  
-![Fichier – Compte Devolutions – Outils](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11245.png)
+Le {{ fr.CIS }} peut être trouvé dans les outils du {{ fr.DA }}, situés sous ***Fichier – {{ fr.DA }} – Outils***. Vous devez être connecté pour y accéder.  
+![Fichier – {{ fr.DA }} – Outils](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11245.png)
 
 Les rubriques suivantes vous aideront à commencer la configuration de vos programmes d'installation personnalisés avec {{ fr.RDM }}.  
 

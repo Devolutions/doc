@@ -34,7 +34,7 @@ Nom de la source de données.
 Nom d'utilisateur 
 		</td>
 		<td>
-L'adresse courriel de votre [Compte Devolutions](https://portal.devolutions.com/) Compte Devolutions . Vous pouvez en créer un gratuitement, suivez le lien fourni dans la fenêtre. 
+L'adresse courriel de votre [{{ fr.DA }}](https://portal.devolutions.com/). Vous pouvez en créer un gratuitement, suivez le lien fourni dans la fenêtre. 
 		</td>
 	</tr>
 </table>

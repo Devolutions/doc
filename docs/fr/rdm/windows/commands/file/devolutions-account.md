@@ -1,13 +1,13 @@
 ---
 title: Compte Devolutions
 ---
-Dans ***Fichier - Compte Devolutions*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }} . Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***{{ fr.CIM }}*** .  
+Dans ***Fichier - {{ fr.DA }}*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }} . Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***{{ fr.CIM }}*** .  
 
 ## Paramètres 
 
-![Compte Devolutions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10026.png) 
+![{{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10026.png) 
 
-### Compte Devolutions 
+### {{ fr.DA }}
 
 <table>
 	<tr>
@@ -28,7 +28,7 @@ Connectez ou déconnectez-vous avec votre {{ fr.DA }} .
 	</tr>
 	<tr>
 		<td>
-Créer un compte Devolutions 
+Créer un {{ fr.DA }}
 		</td>
 		<td>
 Créer un nouveau {{ fr.DA }} . 
@@ -36,7 +36,7 @@ Créer un nouveau {{ fr.DA }} .
 	</tr>
 	<tr>
 		<td>
-Modifier mon compte Devolutions 
+Modifier mon {{ fr.DA }}
 		</td>
 		<td>
 Modifier votre {{ fr.DA }} . 

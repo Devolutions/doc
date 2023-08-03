@@ -919,7 +919,7 @@ Si Email, AllowOfflineInRDM et UserSendMessageConfiguration sont fournis. Un seu
 
 Si PSInvitation est fourni, vous pouvez manuellement définir plus d'un courriel et assigner des groupes.  
 
-Cette commande fonctionnera seulement si l'option ***Activer l'authentification unique (SSO) pour l'organisation dans le compte Devolutions*** a été activée dans votre {{ fr.HUB }} et qu'une Organisation du {{ fr.DA }} y a été sélectionnée. 
+Cette commande fonctionnera seulement si l'option ***Activer l'authentification unique (SSO) pour l'organisation dans le {{ fr.DA }}*** a été activée dans votre {{ fr.HUB }} et qu'une Organisation du {{ fr.DA }} y a été sélectionnée. 
 		</td>
 		<td>
 
