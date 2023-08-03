@@ -1,5 +1,7 @@
 module.exports = {
-    CI: 'Custom Installer Service',
+    CI: 'Custom Installer',
+    CIM: 'Custom Installer Manager',
+    CIS: 'Custom Installer Service',
     CTOOL: 'Companion Tools',
     DA: 'Devolutions Account',
     DC: 'Devolutions Cloud',

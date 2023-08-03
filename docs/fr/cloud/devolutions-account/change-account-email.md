@@ -11,7 +11,7 @@ Pour modifier votre courriel de {{ fr.DA }} , vous devez [Créer un nouveau comp
 * [Factures](/fr/cloud/portal/invoices/) : Si certaines factures doivent être associées au nouveau compte, contacter notre [service des ventes](mailto:sales@devolutions.net).  
 * [{{ fr.HUBP }}](/fr/cloud/hub-personal/) : Importer et exporter vos entrées de source de données {{ fr.DHUBP }} [avec {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/export-import-entries/) ou au format Json directement [à partir de {{ fr.DHUBP }} (EN)](/kb/hub-business/how-to-articles/import-export-data-hub-personal/) dans ***Outils – Exporter***.  
 * [{{ fr.HUBB }}](/fr/cloud/hub-business/) : Si vous êtes le propriétaire d'un {{ fr.DHUBB }}, transférer la [Propriété](/fr/hub/web-interface/hub-overview/administration/management/users/hub-ownership/) à un autre administrateur puis demander une invitation avec le nouveau compte. 
-* [Installateur personnalisé](/fr/cloud/rdm-online-services/custom-installer/) : Télécharger localement le paquet de fichiers de configuration MSI de l'***Installateur personnalisé***. 
+* [{{ fr.CI }}](/fr/cloud/rdm-online-services/custom-installer/) : Télécharger localement le paquet de fichiers de configuration MSI de l'***{{ fr.CI }}***. 
 * [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) : Les sauvegardes sont stockées et liées à chaque {{ fr.DA }}. Pour cette raison, vous n'y aurez pas accès sous le nouveau {{ fr.DA }}.  
 
 {% snippet icon.badgeInfo %} 

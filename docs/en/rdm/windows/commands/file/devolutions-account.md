@@ -1,10 +1,10 @@
 ---
 title: Devolutions Account
 ---
-In File – Devolutions Account create and connect your {{ en.RDM }} to your {{ en.DA }} . The {{ en.DA }} is free for customers and includes access to the ***Custom Installer Manager*** .  
-![Devolutions Account](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10026.png) 
+In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers and includes access to the ***{{ en.CIM }}***.  
+![{{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10026.png) 
 
-### Devolutions Account 
+### {{ en.DA }}
 
 <table>
 	<tr>
@@ -20,7 +20,7 @@ DESCRIPTION
 Sign-in or Sign-out 
 		</td>
 		<td>
-Sign-in or out with your {{ en.DA }} . 
+Sign-in or out with your {{ en.DA }}. 
 		</td>
 	</tr>
 	<tr>
@@ -28,7 +28,7 @@ Sign-in or out with your {{ en.DA }} .
 Create a New {{ en.DA }} 
 		</td>
 		<td>
-Create a new {{ en.DA }} . 
+Create a new {{ en.DA }}. 
 		</td>
 	</tr>
 	<tr>
@@ -36,7 +36,7 @@ Create a new {{ en.DA }} .
 Edit {{ en.DA }} 
 		</td>
 		<td>
-Edit your {{ en.DA }} . 
+Edit your {{ en.DA }}. 
 		</td>
 	</tr>
 </table>
@@ -66,7 +66,7 @@ Automatically sign in to your {{ en.DA }} at the startup of the application.
 Keep me signed-in 
 		</td>
 		<td>
-Keep a token in memory to remain signed into your {{ en.DA }} . 
+Keep a token in memory to remain signed into your {{ en.DA }}. 
 		</td>
 	</tr>
 	<tr>
@@ -74,7 +74,7 @@ Keep a token in memory to remain signed into your {{ en.DA }} .
 Use application password 
 		</td>
 		<td>
-Use the [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) to connect to your {{ en.DA }} . 
+Use the [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) to connect to your {{ en.DA }}. 
 		</td>
 	</tr>
 </table>
@@ -96,15 +96,15 @@ DESCRIPTION
 Installer File Generator 
 		</td>
 		<td>
-Create a {{ en.RDM }} Installer File (.rdi). Consult topic [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/) . 
+Create a {{ en.RDM }} Installer File (.rdi). Consult topic [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Custom Installer Manager 
+{{ en.CIM }}
 		</td>
 		<td>
-Consult topic [Custom Installer Manager](/rdm/windows/installation/client/custom-installer-service/) . 
+Consult topic [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-service/). 
 		</td>
 	</tr>
 </table>

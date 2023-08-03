@@ -58,7 +58,7 @@ To configure the data source on other workstations, three methods are available:
 
 - Create the data source as done previously, making sure to check the ***Integrated Security (Active Directory)*** box.  
 - Export the data source from the initial workstation and import it into {{ en.RDM }} on all client workstations.  
-- Use our [Custom Installer Manager](/rdm/windows/installation/client/custom-installer-service/) service to help distribute the application and personalize the installation process.  
+- Use our [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-service/) service to help distribute the application and personalize the installation process.  
 
 ## Test the configuration
 

@@ -102,7 +102,7 @@ Include your data source credentials.
 ### Data Sources 
 
 {% snippet icon.shieldWarning %} 
-The data source configurations you select will be exported with the username/password as they are currently configured. If you are creating a file to quickly set up new employees, you must be careful not to give away your credentials. Using the [{{ en.CI }}](/rdm/windows/installation/client/custom-installer-service/) is recommended for this case. 
+The data source configurations you select will be exported with the username/password as they are currently configured. If you are creating a file to quickly set up new employees, you must be careful not to give away your credentials. Using the [{{ en.CIS }}](/rdm/windows/installation/client/custom-installer-service/) is recommended for this case. 
 {% endsnippet %}
  
 All your configured data sources will be displayed in this section. Select the one(s) that you want to include in the export. Please note that the content of the data source is not exported.  

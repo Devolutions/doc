@@ -110,7 +110,7 @@ Inclus vos identifiants de source de données.
 ### Source de données 
 
 {% snippet icon.shieldWarning %} 
-Les configurations de source de données que vous sélectionnez seront exportées avec le nom d'utilisateur/mot de passe tel qu'ils sont actuellement configurés. Si vous créez un fichier pour configurer rapidement de nouveaux employés, vous devez faire attention à ne pas divulguer vos identifiants. L'utilisation du [Service d'installateur personnalisé](/fr/rdm/windows/installation/client/custom-installer-service/) est recommandée dans ce cas. 
+Les configurations de source de données que vous sélectionnez seront exportées avec le nom d'utilisateur/mot de passe tel qu'ils sont actuellement configurés. Si vous créez un fichier pour configurer rapidement de nouveaux employés, vous devez faire attention à ne pas divulguer vos identifiants. L'utilisation du [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/) est recommandée dans ce cas. 
 {% endsnippet %}
  
 Toutes vos sources de données configurées seront affichées dans cette section. Sélectionner celle(s) que vous souhaitez inclure dans l'exportation. Veuillez noter que le contenu de la source de données n'est pas exporté.  

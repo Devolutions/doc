@@ -163,7 +163,7 @@ Step 10 - Deploy to workstations
 
 		</td>
 		<td>
-Deploy {{ en.RDM }} to your end users using the [{{ en.CI }}](/rdm/windows/installation/client/custom-installer-service/), which creates a customized MSI package that can be installed or deployed. It contains a fully packaged version of {{ en.RDM }} along with all of the data source information required for a user to access the database.  
+Deploy {{ en.RDM }} to your end users using the [{{ en.CIS }}](/rdm/windows/installation/client/custom-installer-service/), which creates a customized MSI package that can be installed or deployed. It contains a fully packaged version of {{ en.RDM }} along with all of the data source information required for a user to access the database.  
 
 The MSI can then be manually installed or silently pushed to workstations using a deployment tool.  
 

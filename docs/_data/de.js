@@ -1,5 +1,7 @@
 module.exports = {
-    CI: 'Benutzerdefinierter Installationsdienst',
+    CI: 'Benutzerdefinierte Installationen',
+    CIM: 'Benutzerdefinierte Installationen verwalten',
+    CIS: 'Benutzerdefinierter Installationsdienst',
     CTOOL: 'Begleitwerkzeuge',
     DA: 'Devolutions Account',
     DC: 'Devolutions Cloud',

@@ -1,10 +1,10 @@
 ---
 title: Option Selection
 ---
-When generating the installer file, you must decide what to include in the configuration. This process will replicate the configuration of the {{ en.RDM }} instance currently used and will generate an installer file (.rdi). Once it has been generated, the installer file can be used as many times as needed to create custom installers. For security reasons, some settings that may contain credentials such as ***Saved templates*** are disabled by default. Enable them based on your risk level. 
+When generating the installer file, you must decide what to include in the configuration. This process will replicate the configuration of the {{ en.RDM }} instance currently used and will generate an installer file (.rdi). Once it has been generated, the installer file can be used as many times as needed to create {{ en.CI }}s. For security reasons, some settings that may contain credentials such as ***Saved templates*** are disabled by default. Enable them based on your risk level. 
 
 {% snippet icon.shieldWarning %} 
-The same dialog is used for the {{ en.CI }} and for exporting the {{ en.RDM }} configuration file. Some options must NOT be used for the {{ en.CI }} to prevent sharing credentials that must stay confidential. Please read the documentation carefully. 
+The same dialog is used for the {{ en.CIS }} and for exporting the {{ en.RDM }} configuration file. Some options must NOT be used for the {{ en.CIS }} to prevent sharing credentials that must stay confidential. Please read the documentation carefully. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -13,7 +13,7 @@ The same dialog is used for the {{ en.CI }} and for exporting the {{ en.RDM }} c
  
 ## Options 
 
-You can open the ***Installer File Generator*** from ***File –*** ***{{ en.DA }}*** ***– Installer File Generator*** . It is also accessible when creating a installation package in ***File –*** ***{{ en.DA }}*** ***– Custom Installer Manager*** .  
+You can open the ***Installer File Generator*** from ***File –*** ***{{ en.DA }}*** ***– Installer File Generator*** . It is also accessible when creating a installation package in ***File –*** ***{{ en.DA }}*** ***– {{ en.CIM }}*** .  
 ![Installer File Generator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11249.png) 
 
 ### Miscellaneous 
@@ -59,7 +59,7 @@ Preserves your installation paths configured for external third party applicatio
 Saved templates 
 		</td>
 		<td>
-Includes your local templates in the custom installer. Database templates are stored in the data source and may be a better option if you need to share them. 
+Includes your local templates in the {{ en.CI }}. Database templates are stored in the data source and may be a better option if you need to share them. 
 		</td>
 	</tr>
 	<tr>
@@ -67,7 +67,7 @@ Includes your local templates in the custom installer. Database templates are st
 {{ en.DA }} credentials 
 		</td>
 		<td>
-Includes your {{ en.DA }} credentials used to create the custom installer. Consult the security warning above. 
+Includes your {{ en.DA }} credentials used to create the {{ en.CI }}. Consult the security warning above. 
 		</td>
 	</tr>
 	<tr>
@@ -97,7 +97,7 @@ Allows the administrator to force the users to use this new configuration file.
 </table>
 
 {% snippet icon.badgeInfo %} 
-Since version 2022.3 of {{ en.RDM }} , the license registration information is stored in the data source, which means it can no longer be included in a custom installer. Follow this [step-by-step guide](/rdm/windows/installation/client/registration/team-edition/) to add your license serial and assign it to your users from an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) .  
+Since version 2022.3 of {{ en.RDM }} , the license registration information is stored in the data source, which means it can no longer be included in a {{ en.CI }}. Follow this [step-by-step guide](/rdm/windows/installation/client/registration/team-edition/) to add your license serial and assign it to your users from an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) .  
 
 If your users each have their own individual data source ( {{ en.HUBP }}, SQLite), you need to provide them the license serial so they can manually register in ***Administration – Management – Licenses*** . 
 {% endsnippet %}

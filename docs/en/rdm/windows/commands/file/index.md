@@ -22,11 +22,11 @@ Display configuration information relative to the current data source.
 
 For more information, please consult the [My Data Source Information](/rdm/windows/commands/file/my-data-source-information/) topic. 
 
-### Devolutions Account 
+### {{ en.DA }} 
 
-Connect to a Devolutions Account, create custom installer for {{ en.RDM }} , manage license serials, and more.  
+Connect to a Devolutions Account, create {{ en.CI }} for {{ en.RDM }} , manage license serials, and more.  
 
-For more information, please consult the [Devolutions Account](/rdm/windows/commands/file/devolutions-account/) topic. 
+For more information, please consult the [{{ en.DA }}](/rdm/windows/commands/file/devolutions-account/) topic. 
 
 ### Refresh 
 

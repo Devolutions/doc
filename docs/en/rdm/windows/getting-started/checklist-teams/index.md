@@ -65,7 +65,7 @@ Step 5 - Create your default settings
 
 		</td>
 		<td>
-In ***File – Options***, you can set options for {{ en.RDM }} and create [default settings templates](/rdm/windows/commands/file/templates/default-settings/). Each entry type is supported and can have a default template defined to fit your requirements. After you configure the options, use the [Custom Installer](/rdm/windows/installation/client/custom-installer-service/) to share the pre-configured version with your team.  
+In ***File – Options***, you can set options for {{ en.RDM }} and create [default settings templates](/rdm/windows/commands/file/templates/default-settings/). Each entry type is supported and can have a default template defined to fit your requirements. After you configure the options, use the [{{ en.CI }}](/rdm/windows/installation/client/custom-installer-service/) to share the pre-configured version with your team.  
 		</td>
 	</tr>
 	<tr>

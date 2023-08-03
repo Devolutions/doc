@@ -1,5 +1,7 @@
 module.exports = {
-    CI: "Gestionnaire de paquets d'installation personnalisés",
+    CI: 'Installateur personnalisé',
+    CIM: "Gestionnaire de paquets d'installation personnalisés",
+    CIS: "Service d'installateur personnalisé",
     CTOOL: 'Outils connexes',
     DA: 'Compte Devolutions',
     DC: 'Devolutions Cloud',

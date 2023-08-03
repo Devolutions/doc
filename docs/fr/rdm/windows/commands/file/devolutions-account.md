@@ -1,7 +1,7 @@
 ---
 title: Compte Devolutions
 ---
-Dans ***Fichier - Compte Devolutions*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }} . Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***Gestionnaire de paquets d'installation personnalisés*** .  
+Dans ***Fichier - Compte Devolutions*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }} . Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***{{ fr.CIM }}*** .  
 
 ## Paramètres 
 
@@ -103,10 +103,10 @@ Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter la rubrique [Gé
 	</tr>
 	<tr>
 		<td>
-Gestionnaire de paquets d'installation personnalisés 
+{{ fr.CIM }} 
 		</td>
 		<td>
-Consulter la rubrique [Service d'installateur personnalisé](/fr/rdm/windows/installation/client/custom-installer-service/) . 
+Consulter la rubrique [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/) . 
 		</td>
 	</tr>
 </table>

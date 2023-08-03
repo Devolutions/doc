@@ -6,7 +6,7 @@ title: How to Export and Import Data Sources Configuration
 With this action, only the data source configuration is exported. The resulting .rdd file does not contain the database content. It contains only the configuration used to connect to the database.
 
 {% snippet icon.badgeInfo %}
-Instead of exporting and importing data sources and options separately, it is possible to create a custom installer. Our [{{ en.CI }}](/rdm/windows/installation/client/custom-installer-service/) replicates the configuration of a {{ en.RDM }} instance.
+Instead of exporting and importing data sources and options separately, it is possible to create a {{ en.CI }}. Our [{{ en.CIS }}](/rdm/windows/installation/client/custom-installer-service/) replicates the configuration of a {{ en.RDM }} instance.
 {% endsnippet %}
 
 1. From ***File – Data Sources***, click on the ***Export Data Source Configuration*** button, then save the *.rdd file on your computer.  

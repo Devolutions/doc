@@ -75,7 +75,7 @@ Une solide structure de sécurité se base sur la structure des dossiers de prem
 Étape 5 - Créer vos [Paramètres par défaut](/fr/rdm/windows/commands/file/templates/default-settings/). 
 		</td>
 		<td>
-Dans ***Fichier – Options*** , vous pouvez définir des options de {{ fr.RDM }} et créer des modèles de paramètres par défaut. Chaque type d'entrée est pris en charge et peut se définir selon vos critères. Après avoir configuré les options, utilisez [l’installateur personnalisé](/fr/rdm/windows/installation/client/custom-installer-service/) pour partager une version préconfigurée avec votre équipe. 
+Dans ***Fichier – Options*** , vous pouvez définir des options de {{ fr.RDM }} et créer des modèles de paramètres par défaut. Chaque type d'entrée est pris en charge et peut se définir selon vos critères. Après avoir configuré les options, utilisez [l’{{ fr.CI }}](/fr/rdm/windows/installation/client/custom-installer-service/) pour partager une version préconfigurée avec votre équipe. 
 		</td>
 	</tr>
 	<tr>

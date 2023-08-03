@@ -7,7 +7,7 @@ The application's configuration can be exported to replicate the configuration i
 {% snippet icon.shieldWarning %}
 The data source configurations you select will be exported with the credentials as they are currently configured. If you are creating a file to set up a new employee, you must be careful not to give away your credentials.  
 
-Using the [{{ en.CI }}](/rdm/windows/installation/client/custom-installer-service/) is recommended for this case.
+Using the [{{ en.CIS }}](/rdm/windows/installation/client/custom-installer-service/) is recommended for this case.
 {% endsnippet %}
 
 1. Go to ***File – Options – Export Options***.  

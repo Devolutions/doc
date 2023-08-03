@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: RDM {{ en.MAC }} Custom Installer
+  title: RDM {{ en.MAC }} {{ en.CI }}
 ---
-Unfortunately, there is no custom installer in the {{ en.RDM }} macOS version as we do have for the [Windows RDM application](/rdm/windows/installation/client/custom-installer-service/).
+Unfortunately, there is no {{ en.CI }} in the {{ en.RDM }} macOS version as we do have for the [Windows RDM application](/rdm/windows/installation/client/custom-installer-service/).
 
 The solution would be to copy the .cfg file and manually distribute it to the right folder.
 
