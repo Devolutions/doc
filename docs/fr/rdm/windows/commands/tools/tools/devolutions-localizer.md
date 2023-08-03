@@ -1,32 +1,32 @@
 ---
 title: Devolutions Localizer
 ---
-Devolutions Localizer est notre outil de traduction personnalisé pour nos applications. Nous vous invitons à contribuer à notre communauté Devolutions en traduisant nos outils pour faire bénéficier d'autres utilisateurs comme vous dans le monde.  
+{{ fr.DLOCALIZER }} est notre outil de traduction personnalisé pour nos applications. Nous vous invitons à contribuer à notre communauté Devolutions en traduisant nos outils pour faire bénéficier d'autres utilisateurs comme vous dans le monde.  
 
-Téléchargez l'outil de traduction [Devolutions Localizer](https://devolutions.net/fr/localizer) pour commencer!  
+Téléchargez l'outil de traduction [{{ fr.DLOCALIZER }}](https://devolutions.net/fr/localizer) pour commencer!  
 
 {% snippet icon.badgeInfo %} 
-Un [{{ fr.DA }}](/fr/cloud/devolutions-account/create-devolutions-account/) gratuit est nécessaire pour se connecter à l'outil Devolutions Localizer. 
+Un [{{ fr.DA }}](/fr/cloud/devolutions-account/create-devolutions-account/) gratuit est nécessaire pour se connecter à l'outil {{ fr.DLOCALIZER }}. 
 {% endsnippet %}
  
 ### Traduction 
 
-1. Dans ***File – Languages*** , sélectionner la ou les langue(s) à traduire, puis cliquer sur ***Ok*** .  
+1. Dans ***File – Languages***, sélectionner la ou les langue(s) à traduire, puis cliquer sur ***Ok***.  
 ![File – Languages](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2062.png) 
-1. Cliquer sur le bouton ***Translate*** .  
+1. Cliquer sur le bouton ***Translate***.  
 ![Translate](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2063.png) 
-1. Choisir le fichier à partir duquel vous souhaitez effectuer la traduction dans la liste déroulante ***File*** .  
+1. Choisir le fichier à partir duquel vous souhaitez effectuer la traduction dans la liste déroulante ***File***.  
 ![Sélection du fichier](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2064.png) 
 1. Dans la partie inférieure, vous pourrez filtrer et passer en revue le contenu déjà traduit ou nécessitant une traduction. Des informations sur chaque ligne de ***Ressource*** sont disponibles dans les différentes colonnes. Le champ ***Status*** peut prendre différentes valeurs en fonction de l'avancement de la traduction :  
 
 * ***Changed*** : Le texte dans sa langue originale a été modifié par Devolutions. Un traducteur local doit revoir la traduction localisée et y apporter des modifications si nécessaire. 
 * ***New*** : Le texte n'a pas encore été traduit dans la langue cible. 
 * ***Translated*** : Le texte a déjà été traduit dans la langue cible. 
-* ***Under review*** : Ce statut est destiné à aider les traducteurs à communiquer entre eux lorsqu'ils ne sont pas certains de la traduction et/ou de l'utilisation d'une valeur particulière. Grâce au champ ***Comment*** , les traducteurs peuvent également rédiger des notes de traduction. 
+* ***Under review*** : Ce statut est destiné à aider les traducteurs à communiquer entre eux lorsqu'ils ne sont pas certains de la traduction et/ou de l'utilisation d'une valeur particulière. Grâce au champ ***Comment***, les traducteurs peuvent également rédiger des notes de traduction. 
 * ***Use original*** : Le texte ne doit pas être traduit, il doit être conservé dans sa langue d'origine. Cela peut s'appliquer, par exemple, aux noms de produits ou aux noms de systèmes tiers.  
 ![Contenu à traduire ou traduit](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2065.png) 
 
-5. Pour commencer, sélectionner un ligne de ***Ressource*** dans la liste inférieure et cliquer sur ***Translate*** . Le texte original apparaîtra dans le champ ***Original*** .  
+5. Pour commencer, sélectionner un ligne de ***Ressource*** dans la liste inférieure et cliquer sur ***Translate***. Le texte original apparaîtra dans le champ ***Original***.  
 ![Sélection d'une ligne de Ressource](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2066.png) 
 
 {% snippet icon.badgeCaution %} 
@@ -51,7 +51,7 @@ Un bouton ***Bing*** est disponible pour vous aider à traduire votre texte.
 Vous pouvez prévisualiser vos modifications dans {{ fr.RDM }} avant la publication ou afficher celles déjà en place mais pas encore publiées.  
 
 1. Fermer {{ fr.RDM }} . 
-1. Dans le ***Dashboard*** de Devolutions Localizer, cliquer sur ***Deploy – Generate & Start*** pour afficher vos modifications ou sur ***Deploy – Start (use existing)*** pour afficher les modifications non publiées.  
+1. Dans le ***Dashboard*** de {{ fr.DLOCALIZER }}, cliquer sur ***Deploy – Generate & Start*** pour afficher vos modifications ou sur ***Deploy – Start (use existing)*** pour afficher les modifications non publiées.  
 
 Suivez les étapes suivantes si vous voulez changer la langue de votre application {{ fr.RDM }} afin de refléter celle que vous traduisiez:  
 
@@ -61,7 +61,7 @@ Suivez les étapes suivantes si vous voulez changer la langue de votre applicati
 
 ### Raccourcis clavier 
 
-Devolutions Localizer propose également plusieurs raccourcis clavier pour accélérer le processus de traduction:  
+{{ fr.DLOCALIZER }} propose également plusieurs raccourcis clavier pour accélérer le processus de traduction:  
 
 * Ctrl + D : Définir le statut ( ***Status*** ) de la ressource actuelle à ***Translated*** . 
 * Ctrl + E : Définir le statut ( ***Status*** ) de la ressource actuelle à ***Use original*** . Cela ignore tout texte de traduction et affiche la valeur d'origine telle quelle. 

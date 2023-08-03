@@ -1,12 +1,12 @@
 ---
 title: Devolutions Localizer
 ---
-Devolutions Localizer is our custom translation tool for our applications. We welcome you to contribute to the Devolutions community by translating our tools for the benefit of other users just like you around the world. 
+{{ en.DLOCALIZER }} is our custom translation tool for our applications. We welcome you to contribute to the Devolutions community by translating our tools for the benefit of other users just like you around the world. 
 
-Download the [Devolutions Localizer](https://devolutions.net/localizer) translation tool to get started! 
+Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translation tool to get started! 
 
 {% snippet icon.badgeInfo %} 
-A free [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/) is required to log in to the Devolutions Localizer tool. 
+A free [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/) is required to log in to the {{ en.DLOCALIZER }} tool. 
 {% endsnippet %}
  
 ### Translate 
@@ -49,7 +49,7 @@ A ***Bing*** button is available to assist you in translating your text.
 You can preview your changes in {{ en.RDM }} prior to the release or view the ones already in place but not yet released. 
 
 1. Close your {{ en.RDM }} . 
-1. In the Devolutions Localizer ***Dashboard*** , click ***Deploy – Generate & Start*** to view your changes, or ***Deploy – Start (use existing)*** to view unreleased changes.  
+1. In the {{ en.DLOCALIZER }} ***Dashboard*** , click ***Deploy – Generate & Start*** to view your changes, or ***Deploy – Start (use existing)*** to view unreleased changes.  
 
 Follow the next steps if you want to change the language of your {{ en.RDM }} application to reflect the one you were translating:  
 
@@ -59,7 +59,7 @@ Follow the next steps if you want to change the language of your {{ en.RDM }} ap
 
 ### Keyboard Shortcuts 
 
-Devolutions Localizer also features several keyboard shortcuts to speed up the translation process:  
+{{ en.DLOCALIZER }} also features several keyboard shortcuts to speed up the translation process:  
 
 * Ctrl + D : Set the ***Status*** of the current resource to ***Translated*** . 
 * Ctrl + E : Set the ***Status*** of the current resource to ***Use original*** . This ignores any translation text and displays the original value as is. 
