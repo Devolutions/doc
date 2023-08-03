@@ -5,7 +5,7 @@ order: 0
 
 ![!!Devolutions Cloud Services logo]({{ locale.fr.projects.cloud.logo }})
 
-Les Services en ligne de Devolutions sont le point d’entrée de tous les services en ligne de Devolutions. Il est composé de plusieurs services résumés ci-dessous.
+Les services en ligne de Devolutions sont le point d’entrée de tous les services en ligne de Devolutions. Il est composé de plusieurs services résumés ci-dessous.
 
 Le point commun entre tous ces services est qu'ils ne nécessitent que la possession d'un {{ fr.DA }} gratuit pour y accéder.
 
@@ -18,10 +18,10 @@ Le point commun entre tous ces services est qu'ils ne nécessitent que la posses
 | ![!!{{ fr.DFORCE }} Icon](https://devolutions.mo.cloudinary.net/images/projects/force/logos/force-icon-shadow.svg)                      | La {{ fr.DFORCE }} est un canal privé où vous pouvez communiquer et gagner des récompenses. Pour plus d'informations, veuillez consulter<br><br>[{{ fr.DFORCE }}](/fr/cloud/devolutions-force/). |
 | ![!!{{ fr.DHUBB }}](https://devolutions.mo.cloudinary.net/images/projects/password-hub-business/logos/password-hub-business-icon-shadow.svg) | {{ fr.DHUBB }} est un gestionnaire de mots de passe sécurisé infonuagique pour les équipes et les entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation.<br><br>Pour plus d'informations, veuillez consulter [{{ fr.DHUBB }}](/fr/cloud/hub-business/). |
 | ![!!{{ fr.DHUBP }}](https://devolutions.mo.cloudinary.net/images/projects/password-hub-personal/logos/password-hub-personal-icon-shadow.svg) | {{ fr.DHUBP }} est un gestionnaire de mots de passe gratuit, sécurisé et infonuagique pour les utilisateurs individuels qui souhaitent sécuriser leurs mots de passe personnels.<br><br>Pour plus d'informations, veuillez consulter [{{ fr.DHUBP }}](/fr/cloud/hub-personal/). |
-| ![!!RDM Online Services](https://devolutions.mo.cloudinary.net/images/projects/online-services/logos/online-services-icon-shadow.svg) | Les Services en ligne de RDM sont votre lien vers des outils tels que le programme d'installation personnalisé de {{ fr.RDM }} Windows, la Sauvegarde en ligne et le {{ fr.OD }}.<br><br>Pour plus d'informations, veuillez consulter les [Services en ligne de RDM](/fr/cloud/rdm-online-services/). |
+| ![!!{{ fr.RDMOS }}](https://devolutions.mo.cloudinary.net/images/projects/online-services/logos/online-services-icon-shadow.svg) | Les {{ fr.RDMOS }} sont votre lien vers des outils tels que le programme d'installation personnalisé de {{ fr.RDM }} Windows, la Sauvegarde en ligne et le {{ fr.OD }}.<br><br>Pour plus d'informations, veuillez consulter les [{{ fr.RDMOS }}](/fr/cloud/rdm-online-services/). |
 
 ## Menu des services en ligne
 
-Accéder à tous les Services en ligne à partir de l'icône du menu.
+Accéder à tous les services en ligne à partir de l'icône du menu.
 
 ![!!Cloud4013.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4013.png) 

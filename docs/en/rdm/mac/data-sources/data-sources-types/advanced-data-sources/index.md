@@ -1,7 +1,7 @@
 ---
 title: Advanced Data Sources
 ---
-***Advanced Data Sources*** are highly configurable data sources, typically running on an advanced management system, such as a database management system or our own Devolutions Online Services.  
+***Advanced Data Sources*** are highly configurable data sources, typically running on an advanced management system, such as a database management system or our own Devolutions online services.  
 
 Advanced Data Sources greatly increase the set of managing features available to administrators, such as:  
 

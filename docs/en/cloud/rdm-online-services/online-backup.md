@@ -8,7 +8,7 @@ The ***{{ en.OBACK }}*** allows you to backup your {{ en.DOD }}, SQLite, and XML
 
 It is available for free in {{ en.RDM }} Free and Team Editions. 
 
-You will be able to delete your backup files from your ***RDM Online Services***, but you will have to create the ***{{ en.OBACK }}*** from your {{ en.RDM }} application. 
+You will be able to delete your backup files from your ***{{ en.RDMOS }}***, but you will have to create the ***{{ en.OBACK }}*** from your {{ en.RDM }} application. 
 
 Consult [{{ en.OBACK }} Settings - Windows Edition](/rdm/windows/commands/file/backup/backup-settings/) or [{{ en.OBACK }} Settings - Mac Edition](/rdm/mac/commands/file/backup/settings/) for more information on the configuration.  
 

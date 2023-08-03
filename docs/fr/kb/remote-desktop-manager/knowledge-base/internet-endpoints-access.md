@@ -59,18 +59,18 @@ Devolutions Cloud - nos services en ligne
 https<area>://cloud.devolutions.net
 		</td>
 		<td>
-Fichier – Compte Devolutions
+Fichier – {{ fr.DA }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Connexion au compte Devolutions
+Connexion au {{ fr.DA }}
 		</td>
 		<td>
 https<area>://login.devolutions.com
 		</td>
 		<td>
-Fichier – Compte Devolutions
+Fichier – {{ fr.DA }}
 		</td>
 	</tr>
 	<tr>

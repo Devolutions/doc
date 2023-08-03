@@ -44,10 +44,10 @@ From here, there are two ways of downloading the package: you can download it di
 From the ***{{ en.CIM }}*** , click on ***Download MSI*** and save your file on your computer.  
 ![{{ en.CIM }} – Download MSI](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11257.png) 
 
-### Download From The Devolutions Online Services 
+### Download From The {{ en.RDMOS }} 
 
-You can click the ***Access Account*** button in the confirmation email to go straight to your Devolutions Online Services ***{{ en.CI }}*** list. You will need to sign in with your {{ en.DA }} credentials. You can also manually go there through the ***Other apps*** button in your [{{ en.DPORTAL }}](https://portal.devolutions.com/) you created the {{ en.CI }} with.  
+You can click the ***Access Account*** button in the confirmation email to go straight to your {{ en.RDMOS }} ***{{ en.CI }}*** list. You will need to sign in with your {{ en.DA }} credentials. You can also manually go there through the ***Other apps*** button in your [{{ en.DPORTAL }}](https://portal.devolutions.com/) you created the {{ en.CI }} with.  
 
 From there, click on ***.msi*** next to your package and save the file on your computer.  
-![Devolutions Online Services – {{ en.CI }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11258.png) 
+![{{ en.RDMOS }} – {{ en.CI }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11258.png) 
 
