@@ -20,6 +20,6 @@ The legacy security has been deprecated and will be completely removed starting 
        <HideMySQLWarning>true</HideMySQLWarning>
 ```  
 ![HideLegacySecurityWarning and HideMySQLWarning](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6057.png)  
-5. Save your file and open {{ en.RDM }}.  
+6. Save your file and open {{ en.RDM }}.  
 
 The legacy security removal warning box is now hidden.  
