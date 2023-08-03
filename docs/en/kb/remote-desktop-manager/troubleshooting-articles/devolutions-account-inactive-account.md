@@ -11,7 +11,7 @@ The deletion of the {{ en.DA }} will not affect any license agreements you may h
 
 ### Solution
 
-Log in  to the [Devolutions Portal](https://portal.devolutions.com/) within 30 days of receiving the email, and your {{ en.DA }} will remain active.  
+Log in  to the [{{ en.DPORTAL }}](https://portal.devolutions.com/) within 30 days of receiving the email, and your {{ en.DA }} will remain active.  
 
 {% snippet icon.badgeHelp %}
 In the event that you forgot your password, follow the ***Forgot Password*** section of the [Create your Account](/cloud/devolutions-account/create-devolutions-account/#password) topic.

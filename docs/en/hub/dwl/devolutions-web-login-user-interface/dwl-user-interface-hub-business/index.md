@@ -19,7 +19,7 @@ At the right of the ***Top Menu*** , the ***Settings*** button opens a new tab i
 ![Settings Button](https://webdevolutions.azureedge.net/docs/en/hub/Hub2099.png) 
 Next to the ***Settings*** button is your ***Account*** button. This section has some useful links and information, namely:  
 
-* a ***Manage Account*** button to view/edit your {{ en.DA }} through the Devolutions Portal. 
+* a ***Manage Account*** button to view/edit your {{ en.DA }} through the {{ en.DPORTAL }}. 
 * a list of the other accounts that were used to log in to {{ en.HUBB }} on your computer. 
 * an ***Add another account*** button to log in to {{ en.HUBB }} with an account that is not listed above. 
 * a ***Log Off*** button to sign out of your {{ en.DA }} . 

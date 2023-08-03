@@ -20,8 +20,8 @@ Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration 
 ![Fichier - {{ fr.DA }} - {{ fr.CIM }}](https://webdevolutions.blob.core.windows.net/docs/fr/cloud/Cloud6001.png)
 1. Sélectionner le fichier dans la liste, puis cliquer sur ***Télécharger MSI***.  
 ![{{ fr.CIM }} – Télécharger MSI](https://webdevolutions.blob.core.windows.net/docs/fr/cloud/Cloud6002.png)
-1. Aller dans ***Services en ligne de RDM – {{ fr.CI }}*** dans le [Devolutions Portal](https://portal.devolutions.com/).  
-![Devolutions Portal – Services en ligne de RDM](https://webdevolutions.blob.core.windows.net/docs/fr/cloud/Cloud6005.png)
+1. Aller dans ***Services en ligne de RDM – {{ fr.CI }}*** dans le [{{ fr.DPORTAL }}](https://portal.devolutions.com/).  
+![{{ fr.DPORTAL }} – Services en ligne de RDM](https://webdevolutions.blob.core.windows.net/docs/fr/cloud/Cloud6005.png)
 
 1. Cliquer sur ***.msi*** à côté du paquet et sauvegarder le fichier sur votre ordinateur. 
 ![Devolutions Online services – {{ fr.CI }}](https://webdevolutions.blob.core.windows.net/docs/fr/cloud/Cloud6006.png)

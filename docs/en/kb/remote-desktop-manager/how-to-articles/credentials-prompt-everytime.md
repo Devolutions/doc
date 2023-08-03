@@ -11,7 +11,7 @@ Learn more about [creating your {{ en.HUBP }}](https://docs.devolutions.net/hub/
 {% endsnippet %}
 
 ## Steps
-1. Connect to the [Devolutions Portal](https://portal.devolutions.com/profile) with the desired account.
+1. Connect to the [{{ en.DPORTAL }}](https://portal.devolutions.com/profile) with the desired account.
 1. Go to the ***{{ en.HUBP }}*** tab.
 1. Click on the ellipsis and then ***Settings***.  
 ![Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB0057.png)

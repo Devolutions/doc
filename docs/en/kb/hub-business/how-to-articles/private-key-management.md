@@ -1,11 +1,12 @@
 ---
-title: Private Key Management
-description: Your Private Key is mandatory in case you access your {{ en.DHUB }} from a new device or a private browsing session. You can configure its storage method(s) in your Devolutions Portal.
-keywords:
-- private key
-- qr code
-- push
-- mobile
+eleventyComputed:
+  title: Private Key Management
+  description: Your Private Key is mandatory in case you access your {{ en.DHUB }} from a new device or a private browsing session. You can configure its storage method(s) in your {{ en.DPORTAL }}.
+  keywords:
+  - private key
+  - qr code
+  - push
+  - mobile
 ---
 ## First Connection to {{ en.DHUB }}
 
@@ -23,7 +24,7 @@ When connecting to your {{ en.DHUB }} for the first time, a Private Key will be 
 
 ## Storage Management
 
-After the first connection, you can add/modify more methods. You can do this in your [Devolutions Portal](https://portal.devolutions.com/security/private-key).
+After the first connection, you can add/modify more methods. You can do this in your [{{ en.DPORTAL }}](https://portal.devolutions.com/security/private-key).
 
 All three methods can be enabled at the same time, and you will always have at least one configured storage method for your Private Key. Your active storage method will have a checkmark inside a green circle next to it, while an unconfigured one will have an "x" inside a red circle. 
 
@@ -41,7 +42,7 @@ This method is recommended because there is no need to remember a password or st
 
 Follow the steps below to configure this method.
 
-1. In the ***Private Key Storage Methods*** section of your Devolutions Portal, click ***Configure*** in the mobile device method box.  
+1. In the ***Private Key Storage Methods*** section of your {{ en.DPORTAL }}, click ***Configure*** in the mobile device method box.  
 ![Configure the Mobile Device Method](https://webdevolutions.azureedge.net/docs/en/kb/KB2188.png)
 1. [Download](https://devolutions.net/workspace/) on a mobile device the {{ en.DWS }} application.  
 ![Download {{ en.DWS }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2189.png)
@@ -62,7 +63,7 @@ At any moment, you can decide to delete that storage configuration by clicking o
 
 If you do not have access to a mobile device or if you want an additional method, this option is the best alternative. Follow the steps below to configure this method.
 
-1. In the ***Private Key Storage Methods*** section of your Devolutions Portal, click ***Configure*** in the QR code method box.  
+1. In the ***Private Key Storage Methods*** section of your {{ en.DPORTAL }}, click ***Configure*** in the QR code method box.  
 ![Configure the QR Code Method](https://webdevolutions.azureedge.net/docs/en/kb/KB2192.png)
 1. Either ***Download*** or ***Print*** the QR code. Whichever you choose, **be sure to keep it in a safe place**.
 ![Download or Print the QR Code](https://webdevolutions.azureedge.net/docs/en/kb/KB2193.png)
@@ -81,7 +82,7 @@ Generating a new QR code makes your old code unusable. We therefore recommend th
 
 Follow the steps below to configure this method.
 
-1. In the ***Private Key Storage Methods*** section of your Devolutions Portal, click ***Configure*** in the password method box.  
+1. In the ***Private Key Storage Methods*** section of your {{ en.DPORTAL }}, click ***Configure*** in the password method box.  
 ![Configure the Password Method](https://webdevolutions.azureedge.net/docs/en/kb/KB2195.png)
 1. In the ***Password*** fields, enter a password that follows the specified rules written underneath. **Be sure to keep it in a sake place.**  
 1. Click on ***Create password***.

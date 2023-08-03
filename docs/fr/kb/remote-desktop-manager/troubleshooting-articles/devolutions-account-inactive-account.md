@@ -11,7 +11,7 @@ La suppression du {{ fr.DA }} n'affectera pas les contrats de licence que vous p
 
 ### Solution
 
-Connectez-vous au [Devolutions Portal](https://portal.devolutions.com/) dans les 30 jours suivant la réception du courriel, et votre {{ fr.DA }} restera actif.  
+Connectez-vous au [{{ fr.DPORTAL }}](https://portal.devolutions.com/) dans les 30 jours suivant la réception du courriel, et votre {{ fr.DA }} restera actif.  
 
 {% snippet icon.badgeHelp %}
 Dans le cas où vous auriez oublié votre mot de passe, suivez la section ***Mot de passe oublié*** de la rubrique [Créer un compte](/fr/cloud/devolutions-account/create-devolutions-account/#password).

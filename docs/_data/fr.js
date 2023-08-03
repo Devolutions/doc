@@ -15,6 +15,7 @@ module.exports = {
     DHUBS: 'Devolutions Hub Services',
     DOD: 'Devolutions Online Drive',
     DODB: 'Devolutions Online Database',
+    DPORTAL: 'Devolutions Portal',
     DVLS: 'Devolutions Server',
     DVLSCONSOLE: 'Console de Devolutions Server',
     DWL: 'Devolutions Web Login',

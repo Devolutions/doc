@@ -6,7 +6,7 @@ eleventyComputed:
 Start your free {{ en.HUBB }} [trial](https://password.devolutions.net/business/sign-up) today!
 {% endsnippet %}
 
-1. Access the [Devolutions Portal](https://portal.devolutions.com/password-hub) section of your {{ en.DA }} to create your {{ en.HUBB }}.
+1. Access the [{{ en.DPORTAL }}](https://portal.devolutions.com/password-hub) section of your {{ en.DA }} to create your {{ en.HUBB }}.
 1. Click ***{{ en.HUBB }}*** in the left menu.
 1. Fill in your ***Company name*** in the free 30-day trial section.
 1. Choose a ***{{ en.HUB }} site*** name.

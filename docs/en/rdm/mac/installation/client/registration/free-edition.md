@@ -10,8 +10,8 @@ The Free Edition of {{ en.RDM }} for Mac is meant for individual users who do no
 ### Create your {{ en.DA }} 
 
 {% snippet icon.badgeInfo %} 
-While the Free Edition does not require a license, you will still need to [create a {{ en.DA }}](https://login.devolutions.com/op/register) through the Devolutions Portal. 
+While the Free Edition does not require a license, you will still need to [create a {{ en.DA }}](https://login.devolutions.com/op/register) through the {{ en.DPORTAL }}. 
 {% endsnippet %}
  
-The {{ en.DA }} is free. While using the Devolutions Portal, you can update your profile and preferences as well as access your [{{ en.DC }} Services](/cloud/getting-started/devolutions-cloud-services/). 
+The {{ en.DA }} is free. While using the {{ en.DPORTAL }}, you can update your profile and preferences as well as access your [{{ en.DC }} Services](/cloud/getting-started/devolutions-cloud-services/). 
 

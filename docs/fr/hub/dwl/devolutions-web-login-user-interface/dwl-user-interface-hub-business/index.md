@@ -19,7 +19,7 @@ Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez pa
 ![Bouton Paramètres](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2068.png)  
 À côté du bouton ***Paramètres*** se trouve le bouton de votre ***Compte***. Cette section comporte quelques liens et informations utiles, à savoir :  
 
-* un bouton ***Gérer le compte*** pour voir/modifier votre {{ fr.DA }} via Devolutions Portal; 
+* un bouton ***Gérer le compte*** pour voir/modifier votre {{ fr.DA }} via {{ fr.DPORTAL }}; 
 * une liste des autres compte qui ont été utilisés pour se connecter à {{ fr.HUBB }} sur votre ordinateur; 
 * un bouton ***Ajouter un nouveau compte*** pour se connecter à {{ fr.HUBB }} avec un compte qui n'est pas listé au-dessus; 
 * un bouton pour ***Se déconnecter*** de votre {{ fr.DA }}; 

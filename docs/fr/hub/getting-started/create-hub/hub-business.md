@@ -6,7 +6,7 @@ eleventyComputed:
 Commencer votre [essai gratuit](https://password.devolutions.net/fr/business/sign-up) {{ fr.HUBB }} dès aujourd'hui.
 {% endsnippet %}
 
-1. Accéder a la section [Devolutions Portal](https://portal.devolutions.com/password-hub) de votre {{ fr.DA }} pour créer votre {{ fr.HUBB }}.
+1. Accéder à la section [{{ fr.DPORTAL }}](https://portal.devolutions.com/password-hub) de votre {{ fr.DA }} pour créer votre {{ fr.HUBB }}.
 1. Cliquer sur ***{{ fr.HUBB }}*** dans le menu de gauche.
 1. Remplir le ***Nom de l'entreprise*** dans la section d'essai gratuit de 30 jours.
 1. Choisir un nom de ***Site du {{ fr.HUBB }}***.

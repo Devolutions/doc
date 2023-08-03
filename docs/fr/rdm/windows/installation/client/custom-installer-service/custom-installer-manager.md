@@ -46,7 +46,7 @@ Dans le ***{{ fr.CIM }}*** , cliquer sur ***Télécharger MSI*** et sauvegarder 
 
 ### Télécharger depuis les services en ligne Devolutions Online Services 
 
-Vous pouvez cliquer sur le bouton  dans le courriel de confirmation pour accéder directement à votre liste d'***Installateurs personnalisés*** dans Devolutions Online Services. Vous devrez vous connecter avec les informations d'identification de votre {{ fr.DA }} . Vous pouvez aussi y aller manuellement à partir du bouton ***Autres apps*** dans le Devolutions Portal avec lequel vous avez créé l'{{ fr.CI }}.  
+Vous pouvez cliquer sur le bouton  dans le courriel de confirmation pour accéder directement à votre liste d'***Installateurs personnalisés*** dans Devolutions Online Services. Vous devrez vous connecter avec les informations d'identification de votre {{ fr.DA }} . Vous pouvez aussi y aller manuellement à partir du bouton ***Autres apps*** dans le {{ fr.DPORTAL }} avec lequel vous avez créé l'{{ fr.CI }}.  
 
 À partir de là, il vous faudra cliquer sur ***.msi*** à côté de votre paquet et sauvegarder le fichier sur votre ordinateur.  
 ![Devolutions Online Services – {{ fr.CI }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11258.png) 

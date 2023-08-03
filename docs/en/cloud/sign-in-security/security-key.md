@@ -39,7 +39,7 @@ The security key has been removed.
 Windows Hello must be activated and configured on your computer for the window to open.
 {% endsnippet %}
 
-1.	Open Devolutions Portal.
+1.	Open {{ en.DPORTAL }}.
 1.	Click ***Security Key*** on the left menu.
 ![Click Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud4076.png) 
 1. Click ***Add a security key***.

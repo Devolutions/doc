@@ -191,7 +191,7 @@ Solution
 		</td>
 		<td>
 <ol>
-  <li>Go to <a href="https://portal.devolutions.com/security/private-key" target="_blank">Private Key Storage Methods</a> in your Devolutions Portal.</li>
+  <li>Go to <a href="https://portal.devolutions.com/security/private-key" target="_blank">Private Key Storage Methods</a> in your {{ en.DPORTAL }}.</li>
   <li>Delete the push entry related to the account on your phone.</li>
   <li>Remove the QR code or Password linked to the account, if any.</li>
   <li>Click on the <b><i>Forgot your phone</i></b> button in the <b><i>Store on a mobile device</i></b> method.</li>
