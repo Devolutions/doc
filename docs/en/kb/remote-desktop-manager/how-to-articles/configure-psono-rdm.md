@@ -1,7 +1,9 @@
 ---
-title: Configure Psono in Remote Desktop Manager
+eleventyComputed:
+  title: Configure Psono in {{ en.RDM }}
+  description: Configure and enable users to securely access all of your Psono entries and credentials directly from within {{ en.RDM }}.
 ---
-Configure and enable users to securely access all of your Psono entries and credentials directly from within {{ en.RDM }}  
+Configure and enable users to securely access all of your Psono entries and credentials directly from within {{ en.RDM }}.  
 
 {% snippet icon.badgeInfo %}
 Psono is integrated in {{ en.RDM }} versions 2022.1 and higher.

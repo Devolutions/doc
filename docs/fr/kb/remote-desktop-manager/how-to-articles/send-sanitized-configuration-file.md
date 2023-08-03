@@ -1,9 +1,10 @@
 ---
-title: Envoyer une copie expurgée de votre fichier de configuration
-description: Cet article décrit la procédure à suivre pour envoyer une copie de votre fichier de configuration Remote Desktop Manager qui est expurgée.
-keywords:
-- Copie expurgé
-- Configuration
+eleventyComputed:
+  title: Envoyer une copie expurgée de votre fichier de configuration
+  description: Cet article décrit la procédure à suivre pour envoyer une copie de votre fichier de configuration {{ fr.RDM }} qui est expurgée.
+  keywords:
+  - Copie expurgé
+  - Configuration
 ---
 Cet article décrit la procédure à suivre pour envoyer une copie de votre fichier de configuration {{ fr.RDM }} qui est expurgée, c'est-à-dire qu'elle ne contient pas d'identifiant. Notre équipe de soutien technique pourrait vous en demander une copie pour essayer de reproduire un problème. 
 ## Procédure 

@@ -11,12 +11,12 @@ This feature is not available for all the data sources.
 
 The offline mode file is first encrypted using our own private key mixed with some information taken from the local computer.  
 
-Please note that there is no Read/Write level permission for the Offline Mode on the Remote Desktop Manager for iOS application.  
+Please note that there is no Read/Write level permission for the Offline Mode on the {{ en.RDM }} for iOS application.  
 
 ### Offline Mode
 
 ![!!KB4158.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4158.png)  
 
-***Disabled*** : Prevents an offline cache from being used.  
+***Disabled***: Prevents an offline cache from being used.  
 
-***Read-only*** : Session data can be browsed and launched while not communicating back to the data source.
+***Read-only***: Session data can be browsed and launched while not communicating back to the data source.

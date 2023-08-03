@@ -6,7 +6,7 @@ During the configuration of your Password Manager Pro credential entry, make sur
 ![!!KB4113.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4113.png)
 ### WHEN YOU TRY TO CONNECT ON A REMOTE COMPUTER OR GET THE CREDENTIAL LIST, A WINDOW APPEARs WITH AN EMPTY TOKEN FIELD AND THE USERNAME AND WORKSTATION FIELD GREYED OUT.  
 ![!!KB4114.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4114.png)  
-The Host Name configured in your API user in Password Manager Pro is not the same that you have configured in {{ en.RDM }} in ***File – My Account Settings – Password Manager Pro*** Please consult the [How to Configure Password Manager Pro in Remote Desktop Manager](/kb/remote-desktop-manager/how-to-articles/rdm-mac-configure-password-manager-pro/) topic for more information on the configuration.
+The Host Name configured in your API user in Password Manager Pro is not the same that you have configured in {{ en.RDM }} in ***File – My Account Settings – Password Manager Pro*** Please consult the [How to Configure Password Manager Pro in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/rdm-mac-configure-password-manager-pro/) topic for more information on the configuration.
 ### SYSTEM.NET.WEBEXCEPTION: THE REQUEST WAS ABORTED: COULD NOT CREATE SSL/TLS SECURE CHANNEL.
 Password Manager Pro can be configured to use SSLv3, TLSv1.0, TLSv1.1 and TLSv1.2. If you have configured your Password Manager Pro server to use TLSv1.2 only, you will encounter this error message. You need to configure your Password Manager Pro to accept TLSv1.0, TLSv1.1 and TLSv1.2.
 ### API KEY RECEIVED IS NOT ASSOCIATED TO ANY USER. AUTHENTICATION FAILED.

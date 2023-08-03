@@ -2,7 +2,7 @@
 title: Survol
 order: 5
 ---
-![!!Devolutions Web Login logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
+![!!{{ fr.DWL }} logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
 
 {{ fr.DWL }} est une extension de navigateur Web pour les mots de passe. Utilisée conjointement avec {{ fr.RDM }} , {{ fr.DVLS }} et {{ fr.HUB }} , elle permet aux utilisateurs d'injecter en toute sécurité des identifiants, stockés dans leur coffres, dans des sites Web.  
 
@@ -11,20 +11,20 @@ Elle offre aux administrateurs système un contrôle total sur la gestion des mo
 <table>
 	<tr>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg" alt="!!Remote Desktop Manager Logo"><br>
+<img src="https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg" alt="!!{{ fr.RDM }} logo"><br>
 {{ fr.RDM }} <br>
 <br>
 Centralisez, gérez et lancez des connexions sécurisées à distance. 
 <br>
 		</th>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-icon-shadow.svg" alt="!!Devolutions Server Logo"><br>
+<img src="https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-icon-shadow.svg" alt="!!{{ fr.DVLS }} logo"><br>
 {{ fr.DVLS }} <br>
 <br>
 Sécurisez, gérez et surveillez les accès aux comptes privilégiés. <br>
 		</th>
 		<th>
-<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="!!Hub Logo"><br>
+<img src="https://webdevolutions.blob.core.windows.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg" alt="!!{{ fr.HUB }} logo"><br>
 {{ fr.HUB }} <br>
 <br>
 Stockez et gérez les mots de passe professionnels. <br>

@@ -1,9 +1,10 @@
 ---
-title: Comment télécharger le module d’extension de KeePass
-description: Le module d’extension de KeePass est requis pour envoyer les identifiants à Remote Desktop Manager.
-keywords:
-- KeePass
-- Extension
+eleventyComputed:
+  title: Comment télécharger le module d’extension de KeePass
+  description: Le module d’extension de KeePass est requis pour envoyer les identifiants à {{ fr.RDM }}.
+  keywords:
+  - KeePass
+  - Extension
 ---
 
 {% youtube 'J9BXNjsLYhI' %}

@@ -1,8 +1,9 @@
 ---
-title: Localisation du fichier de configuration
-description: Localisez votre fichier de configuration Remote Desktop Manager.
-keywords:
-- Fichier de configuration
+eleventyComputed:
+  title: Localisation du fichier de configuration
+  description: Localisez votre fichier de configuration {{ fr.RDM }}.
+  keywords:
+  - Fichier de configuration
 ---
 Dans certains cas, l'équipe de Devolutions aura besoin de votre fichier de configuration pour les aider à reproduire un problème particulier. 
 {% snippet icon.shieldWarning %} 

@@ -1,5 +1,7 @@
 ---
-title: Tableau de bord de sécurité Remote Desktop Manager
+eleventyComputed:
+  title: Tableau de bord de sécurité {{ fr.RDM }}
+  description: Le Tableau de bord de sécurité est un outil qui offre des conseils sur la manière d'améliorer la sécurité de la plateforme {{ fr.RDM }} ainsi que des astuces pour réduire la charge de travail des administrateurs.
 ---
 Le Tableau de bord de sécurité est un outil qui offre des conseils sur la manière d'améliorer la sécurité de la plateforme {{ fr.RDM }} ainsi que des astuces pour réduire la charge de travail des administrateurs. Certains conseils sont des bonnes pratiques communes en matière d'infosécurité, d'autres sont le fruit d'un consensus entre nos équipes propriétaires.  
 

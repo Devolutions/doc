@@ -1,9 +1,9 @@
 ---
-title: Understand Remote Desktop Manager Licensing
-description: Multiple types of licenses are available for Remote Desktop Manager purchase, depending on the number of users.
-keywords:
-- Remote Desktop Manager
-- Licensing
+eleventyComputed:
+  title: Understand {{ en.RDM }} Licensing
+  description: Multiple types of licenses are available for {{ en.RDM }} purchase, depending on the number of users.
+  keywords:
+  - Licensing
 ---
 {% snippet icon.badgeNotice %} 
 In the context of licensing, a user is an individual that uses {{ en.RDM }}. Credentials that are stored within {{ en.RDM }} have no impact on licensing. 

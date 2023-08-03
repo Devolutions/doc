@@ -1,9 +1,10 @@
 ---
-title: SSH Algorithm Support
-description: In versions 2020.3.13.0 and later of Remote Desktop Manager, an error message can appear when opening a Secure Shell (SSH) connection.
-keywords:
-- SSH
-- Algorithm
+eleventyComputed:
+  title: SSH Algorithm Support
+  description: In versions 2020.3.13.0 and later of {{ en.RDM }}, an error message can appear when opening a Secure Shell (SSH) connection.
+  keywords:
+  - SSH
+  - Algorithm
 ---
 In versions 2020.3.13.0 and later of {{ en.RDM }}, an error message can appear when opening a Secure Shell (SSH) connection: "An unexpected error has occurred: Error code SSH_FAIL_NO_MATCH (-3006) Unable to find a matching algorithm with the SSH server". 
 ## Local Solution for one entry 
@@ -57,4 +58,3 @@ $RDM.Save();
 4. Click ***OK***. 
 ![Custom PowerShell Command](https://webdevolutions.azureedge.net/docs/en/kb/KB4758.png) 
 1. A notification should confirm the success of the script. Click ***OK*** and retest your session. 
-

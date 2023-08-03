@@ -18,6 +18,6 @@ Lorsque la licence est stockée dans une [Source de données avancée](/fr/rdm/m
 1. Facultatif: Cocher la case ***Assignation automatique*** pour fournir automatiquement la clé de licence RDM à tous les utilisateurs nouvellement créés. 
 1. Cliquer sur ***OK*** pour enregistrer. 
 
-Votre licence est maintenant enregistrée dans la source de données avancée. Suivre la rubrique suivante pour [Assigner automatiquement les nouveaux utilisateurs](/fr/rdm/mac/commands/administration/licenses/assign/) sélectionnés, supprimant ainsi le besoin d'interagir localement avec leur Remote Desktop Manager. 
+Votre licence est maintenant enregistrée dans la source de données avancée. Suivre la rubrique suivante pour [Assigner automatiquement les nouveaux utilisateurs](/fr/rdm/mac/commands/administration/licenses/assign/) sélectionnés, supprimant ainsi le besoin d'interagir localement avec leur {{ fr.RDM }}. 
 
 

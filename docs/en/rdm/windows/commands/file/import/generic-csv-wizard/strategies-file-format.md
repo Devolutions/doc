@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: CSV Import strategies and file format
-  description: When importing CSV files into Remote Desktop Manager, there are some decisions to be made about the strategies to use and the format of the content. 
+  description: When importing CSV files into {{ en.RDM }}, there are some decisions to be made about the strategies to use and the format of the content. 
 ---
-When importing CSV files into {{ en.RDM }} , there are some decisions to be made about the strategies to use and the format of the content. 
+When importing CSV files into {{ en.RDM }}, there are some decisions to be made about the strategies to use and the format of the content. 
 
 ## Templates 
 

@@ -5,7 +5,7 @@ eleventyComputed:
   description: Sie finden hier Themen zu den folgenden {{ de.RDM }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---
 
-![!!Remote Desktop Manager logo](https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg)  
+![!!{{ de.RDM }} logo](https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg)  
 
 Sie finden hier Themen zu den folgenden {{ de.RDM }}-Kategorien:  
 

@@ -32,7 +32,7 @@ For now, the additional support is exclusively for the policies that require a n
 1. Go to C:\Program Files\Devolutions\Remote Desktop Manager\Policies\en-US.
 1. Copy the Devolutions.adml file.
 1. Paste the Devolutions.adml file in C:\Windows\PolicyDefinitions\en-US.
-1. Open your Group Policy Editor and go to ***Computer Configuration – Administrative Templates – Devolutions – Remote Desktop Manager – Sessions***.
+1. Open your Group Policy Editor and go to ***Computer Configuration – Administrative Templates – Devolutions – {{ en.RDM }} – Sessions***.
 1. In the ***Sessions*** folder, locate the specific policy that you wish to change.
 1. Right-click the specific policy, edit it accordingly, and save.  
 

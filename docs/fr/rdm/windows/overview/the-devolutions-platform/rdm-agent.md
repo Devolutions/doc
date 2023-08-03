@@ -1,19 +1,21 @@
 ---
-title: Agent Remote Desktop Manager
+eleventyComputed:
+  title: Agent {{ fr.RDM }}
+  description: L'{{ fr.RDMA }} exécute des commandes sur des hôtes distants, mais sa principale utilité réside dans sa capacité à envoyer des commandes à plusieurs hôtes simultanément. Puisque {{ fr.RDM }} utilise un canal de communication sécurisé RDP pour communiquer avec l'{{ fr.RDMA }}, alors l'{{ fr.RDMA }} n’est compatible qu’avec des hôtes Windows.
 ---
 {% snippet icon.badgeCaution %} 
-Veuillez noter que si votre profil Windows est corrompu, l' {{ fr.RDMA }} et {{ fr.RDMJ }} pourraient ne pas fonctionner correctement. 
+Veuillez noter que si votre profil Windows est corrompu, l'{{ fr.RDMA }} et {{ fr.RDMJ }} pourraient ne pas fonctionner correctement. 
 {% endsnippet %}
  
-L' {{ fr.RDMA }} exécute des commandes sur des hôtes distants, mais sa principale utilité réside dans sa capacité à envoyer des commandes à plusieurs hôtes simultanément. Puisque {{ fr.RDM }} utilise un canal de communication sécurisé RDP pour communiquer avec l' {{ fr.RDMA }} , alors l' {{ fr.RDMA }} n’est compatible qu’avec des hôtes Windows.  
+L'{{ fr.RDMA }} exécute des commandes sur des hôtes distants, mais sa principale utilité réside dans sa capacité à envoyer des commandes à plusieurs hôtes simultanément. Puisque {{ fr.RDM }} utilise un canal de communication sécurisé RDP pour communiquer avec l'{{ fr.RDMA }}, alors l'{{ fr.RDMA }} n’est compatible qu’avec des hôtes Windows.  
 
 Il prend en charge autant les variables d'environnement que les variables de {{ fr.RDM }} . Les valeurs des variables de {{ fr.RDM }} (c.-à-d. $HOST$, et toutes celles encadrées par des symboles de dollar) sont récupérées sur le client à partir de la session courante. Quant aux valeurs des variables d'environnement (c.-à-d. %windir%, et toutes celles encadrées par des symboles de pourcentage), elles sont récupérées sur l'hôte distant au moment de l'exécution. Vous pouvez utiliser les variables de {{ fr.RDM }} dans les commandes des fichiers de script (.ps1) destinés à l'hôte distant. Elles seront substituées par leur valeur dans les scripts avant qu'ils soient envoyés à l'hôte distant.  
-![Agent RDM](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11234.png) 
+![{{ fr.RDMA }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11234.png) 
 
 ## Mises en situation 
-L’{{ fr.RDMA }} peut être utilisé pour exécuter des scripts provenant d'une installation distincte de {{ fr.RDM }} . En utilisant un canal de communication RDP, il n'est pas nécessaire d'activer la gestion à distance ou d'ouvrir des ports dans votre pare-feu. Pour ce faire, vous pouvez installer l'Agent Remote Desktop Manager de façon autonome (méthodes 2 à 4 ci-dessous).  
+L’{{ fr.RDMA }} peut être utilisé pour exécuter des scripts provenant d'une installation distincte de {{ fr.RDM }} . En utilisant un canal de communication RDP, il n'est pas nécessaire d'activer la gestion à distance ou d'ouvrir des ports dans votre pare-feu. Pour ce faire, vous pouvez installer l'{{ fr.RDMA }} de façon autonome (méthodes 2 à 4 ci-dessous).  
 
-Il est aussi utilisé par [Remote Desktop Manager Jump](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump/) afin de prendre en charge plusieurs technologies. Cependant, il requiert une installation complète de {{ fr.RDM }} sur l’hôte distant pour ces fonctionnalités. 
+Il est aussi utilisé par [{{ fr.RDMJ }}](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump/) afin de prendre en charge plusieurs technologies. Cependant, il requiert une installation complète de {{ fr.RDM }} sur l’hôte distant pour ces fonctionnalités. 
 
 ## Installation 
 

@@ -12,7 +12,7 @@ Um auf Vorlagen zuzugreifen und sie zu verwalten, gehen Sie zu ***Datei – Vorl
 
 Es ist möglich, Vorlagen lokal und in der Datenbank zu erstellen.
 
-* Lokale Vorlagen werden in der Konfigurationsdatei des Remote Desktop Managers gespeichert. Sie sind nur für den aktuellen Benutzer des lokalen Rechners verfügbar. 
+* Lokale Vorlagen werden in der Konfigurationsdatei des {{ de.RDM }}s gespeichert. Sie sind nur für den aktuellen Benutzer des lokalen Rechners verfügbar. 
 * Datenbankvorlagen werden in der Datenbank gespeichert. Sie sind für alle Benutzer der Datenquelle verfügbar. 
 
 {% snippet icon.badgeInfo %} 

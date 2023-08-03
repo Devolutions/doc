@@ -1,9 +1,10 @@
 ---
-title: Download the KeePass Plugin
-description: You need the KeePass Plug-in to send the credential to Remote Desktop Manager.
-keywords:
-- KeePass
-- Plugin
+eleventyComputed:
+  title: Download the KeePass Plugin
+  description: You need the KeePass Plug-in to send the credential to {{ en.RDM }}.
+  keywords:
+  - KeePass
+  - Plugin
 ---
 {% youtube 'J9BXNjsLYhI' %}
 

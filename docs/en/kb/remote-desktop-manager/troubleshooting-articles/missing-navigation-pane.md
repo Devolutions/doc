@@ -2,7 +2,7 @@
 title: Missing Navigation Pane
 ---
 Several panes are missing in {{ en.RDM }} and you seem unable to bring them back.
-### Solution for Remote Desktop Manager Team Edition
+### Solution for {{ en.RDM }} Team Edition
 1. Close {{ en.RDM }}.
 1. In the ***File Explorer***, navigate to %localappdata%\Devolutions.
 1. Copy the RemoteDesktopManager folder on your desktop.
@@ -22,7 +22,7 @@ RemoteDesktopManager.ext
 Connections.db  
 
 This action will restore your configuration and your local data source.
-### Solution for Remote Desktop Manager Free Edition
+### Solution for {{ en.RDM }} Free Edition
 1. Close {{ en.RDM }}.
 1. In the ***File Explorer***, navigate to %localappdata%\Devolutions.
 1. Copy the RemoteDesktopManagerFree folder on your desktop.

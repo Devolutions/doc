@@ -35,7 +35,7 @@ Idéal pour les entreprises qui préfèrent stocker leurs données en interne, s
 
 Oui - [Essayez {{ fr.DVLS }} gratuitement](https://devolutions.net/server/fr/trial) 
 
-## {{ fr.DVLS }} inclut-il une licence client de remote desktop manager?
+## {{ fr.DVLS }} inclut-il une licence client de {{ fr.RDM }}?
 
 
 {{ fr.DVLS }} n'inclut aucune licence client. 

@@ -149,7 +149,7 @@ Display the Properties menu in the context menu when a session is selected.
 Use legacy edit context menu 
 		</td>
 		<td>
-Use the Legacy theme edit context menu (old Remote Desktop Manager interface). 
+Use the Legacy theme edit context menu (old {{ en.RDM }} interface). 
 		</td>
 	</tr>
 </table>

@@ -306,7 +306,7 @@ Waiting time before a command timeout.
 Allow beta database upgrade 
 		</td>
 		<td>
-Allow beta upgrade of the database (when using a beta version of Remote Desktop Manager). 
+Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}). 
 		</td>
 	</tr>
 	<tr>
@@ -353,7 +353,7 @@ Test the connection with the server to validate if the proper information has be
 Create Database 
 		</td>
 		<td>
-Create the database on the SQL server to use Remote Desktop Manager. 
+Create the database on the SQL server to use {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -361,7 +361,7 @@ Create the database on the SQL server to use Remote Desktop Manager.
 Update Database 
 		</td>
 		<td>
-Update the database on the SQL server, if required to use Remote Desktop Manager. 
+Update the database on the SQL server, if required to use {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>

@@ -10,11 +10,11 @@ There are three types of tools:
 * Build in tools 
 * Add-on session tools 
 * Session script tools  
-![Dashboard tabs - Macros/Scripts/Tools](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6060.png) 
+![Dashboard tabs – Macros/Scripts/Tools](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6060.png) 
 
 ### Built-in Tools 
 
-These tools are implemented directly in Remote Desktop Manager and are available without any installation or special configuration. 
+These tools are implemented directly in {{ en.RDM }} and are available without any installation or special configuration. 
 
 <table>
 	<tr>

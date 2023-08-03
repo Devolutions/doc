@@ -13,11 +13,11 @@ Après l' [installation](fr/rdm/mac/dwl/installation/) de {{ fr.DWL }} et son [c
 
 ## Paramètres 
 
-1. Cliquer sur l'icône de l'extension {{ fr.DWL }} dans la barre d'outils de votre navigateur, puis cliquer sur l'icône des ***Paramètres*** .  
+1. Cliquer sur l'icône de l'extension {{ fr.DWL }} dans la barre d'outils de votre navigateur, puis cliquer sur l'icône des ***Paramètres***.  
 ![Icône des Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2039.png) 
-1. Cliquer sur ***Général*** dans la section ***Configuration*** .  
+1. Cliquer sur ***Général*** dans la section ***Configuration***.  
 ![Paramètes – Configuration – Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2035.png) 
-1. Dans l'onglet ***Général*** , le paramètre ***Afficher l'icône dans les champs*** est activé par défaut. S'il n'est pas activé, cocher la case à côté de l'option. 
+1. Dans l'onglet ***Général***, le paramètre ***Afficher l'icône dans les champs*** est activé par défaut. S'il n'est pas activé, cocher la case à côté de l'option. 
 {% snippet icon.badgeNotice %} 
 Avec cette option activée, un icône {{ fr.DWL }} sera affiché dans chaque champ d'identifiants des sites Web que vous visitez. Il est ainsi plus facle de sélectionner l'entrée correcte à partir de laquelle récupérer vos identifiants, en particulier lorsque plusieurs entrées sont disponibles. 
 {% endsnippet %}
@@ -25,8 +25,8 @@ Avec cette option activée, un icône {{ fr.DWL }} sera affiché dans chaque cha
 ![Général – Afficher l'icône dans les champs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2036.png) 
 
 4. Cliquer sur ***Enregistrer*** . 
-1. Cliquer sur ***{{ fr.RDM }}*** dans la section des ***Sources de données*** .  
-![Paramètres – Sources de données – Remote Desktop Manager](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2037.png) 
+1. Cliquer sur ***{{ fr.RDM }}*** dans la section des ***Sources de données***.  
+![Paramètres – Sources de données – {{ fr.RDM }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2037.png) 
 1. Dans l'onglet ***Actions*** , activer les options ***Retrouver les identifiants automatiquement lors du chargement de la page*** et ***Remplir automatiquement les champs d'identifiants lors du chargement*** en cochant leurs cases respectives. Ci-dessous se trouve un description de chaque option : 
 * ***Retrouver les identifiants automatiquement lors du chargement de la page*** (activé par défaut) : Permet à {{ fr.DWL }} de rechercher automatiquement les identifiants disponibles lors du chargement d'une page Web. 
 * ***Remplir automatiquement les champs d'identifiants lors du chargement*** (désactivé par défaut) : Les champs d'identifiants sont automatiquement remplis lors du chargement d'une page Web. Cela ne fonctionne que s'il n'y a qu'une seule entrée d'identifiants pour un site Web donné.  
@@ -42,7 +42,7 @@ Vous pouvez maintenant continuer à la [prochaine section](#récupération-des-i
 ## Récupération des identifiants 
 
 {% snippet icon.badgeInfo %} 
-Cette section est basée sur les étapes de configuration de {{ fr.DWL }} qui se trouvent dans la [section précédente](#paramètres) . Nous vous recommandons fortement de les suivre avant de poursuivre, puisque certaines fonctionnalités pourraient différer entre votre expérience et ce qui est indiqué ci-dessous. 
+Cette section est basée sur les étapes de configuration de {{ fr.DWL }} qui se trouvent dans la [section précédente](#paramètres). Nous vous recommandons fortement de les suivre avant de poursuivre, puisque certaines fonctionnalités pourraient différer entre votre expérience et ce qui est indiqué ci-dessous. 
 {% endsnippet %}
  
 Vos identifiants peuvent être récupérés de {{ fr.RDM }} pour Mac automatiquement ou manuellement à partir de {{ fr.DWL }} . Suivez les étapes de la section qui correspond le mieux à vos besoins : 

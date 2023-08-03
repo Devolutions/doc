@@ -1,9 +1,10 @@
 ---
-title: Sending a Sanitized Copy of your Configuration File
-description: This article describes how to send a copy of your Remote Desktop Manager configuration file that does not have any credentials included.
-keywords:
-- Sanitized Copy
-- Configuration File
+eleventyComputed:
+  title: Sending a sanitized copy of your configuration file
+  description: This article describes how to send a copy of your {{ en.RDM }} configuration file that does not have any credentials included.
+  keywords:
+  - Sanitized copy
+  - Configuration file
 ---
 This article describes how to send a copy of your {{ en.RDM }} configuration file that does not have any credentials included. This may be requested by our support team to try and reproduce an issue. 
 
@@ -17,4 +18,3 @@ This article describes how to send a copy of your {{ en.RDM }} configuration fil
   - ***Include data source credentials*** 
 4. Press ***Export***, give the file a meaningful name (If you have a ticket number, use it for a name). 
 5. Send that file to the support team by following the instructions in [Securely send a file to our team](/kb/devolutions-customer-success/securely-send-file/). 
-

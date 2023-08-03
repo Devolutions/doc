@@ -16,7 +16,7 @@ Toutes les [Source de données avancées](/fr/rdm/windows/data-sources/data-sour
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
-Pour créer des utilisateurs et attribuer des droits, vous devez être administrateur non seulement de Remote Desktop Manager, mais également de la base de données sous-jacente.. 
+Pour créer des utilisateurs et attribuer des droits, vous devez être administrateur non seulement de {{ fr.RDM }}, mais également de la base de données sous-jacente.. 
 {% endsnippet %}
  
 ## Gérer les utilisateurs 

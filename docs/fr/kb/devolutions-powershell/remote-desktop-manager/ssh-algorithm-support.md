@@ -1,9 +1,10 @@
 ---
-title: Prise en charge des algorithmes SSH
-description: Pour les versions 2020.3.13.0 et ultérieures de Remote Desktop Manager, il se peut qu’un message d’erreur apparaisse lors de l’ouverture d’une session Secure Shell (SSH).
-keywords:
-- SSH
-- Algorithme
+eleventyComputed:
+  title: Prise en charge des algorithmes SSH
+  description: Pour les versions 2020.3.13.0 et ultérieures de {{ fr.RDM }}, il se peut qu’un message d’erreur apparaisse lors de l’ouverture d’une session Secure Shell (SSH).
+  keywords:
+  - SSH
+  - Algorithme
 ---
 Pour les versions 2020.3.13.0 et ultérieures de {{ fr.RDM }}, il se peut qu'un message d'erreur apparaisse lors de l'ouverture d'une session Secure Shell (SSH) : « Une erreur inattendue s’est produite : Code d'erreur SSH_FAIL_NO_MATCH (-3006) Unable to find a matching algorithm with the SSH server ». 
 ## Solution locale pour une seule entrée 

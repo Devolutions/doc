@@ -1,9 +1,10 @@
 ---
-title: Secret Server Entry Configuration
-description: Follow this step-by-step to configure your entries to use Secret Server credentials in Remote Desktop Manager.
-keywords:
-- secret server
-- credential
+eleventyComputed:
+  title: Secret server entry configuration
+  description: Follow this step-by-step to configure your entries to use Secret Server credentials in {{ en.RDM }}.
+  keywords:
+  - secret server
+  - credential
 ---
 The ***Secret Server*** integration is quite straightforward in {{ en.RDM }}. Follow this step-by-step to configure your entries to use ***Secret Server*** credentials. 
 

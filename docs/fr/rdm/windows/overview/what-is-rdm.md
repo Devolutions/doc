@@ -2,7 +2,7 @@
 title: Remote Desktop Manager
 order: 10
 ---
-![!!Remote Desktop Manager]({{ locale.fr.projects.rdm.logo }})
+![!!{{ fr.RDM }}]({{ locale.fr.projects.rdm.logo }})
 
 {{ fr.RDM }} est une application qui intègre un ensemble complet d'outils et de gestionnaires pour répondre aux besoins de toute équipe TI. Elle est conçue pour centraliser toutes vos connexions et vos identifiants. La plupart des connexions sont établies grâce à une librairie externe ou un logiciel tiers.  
 

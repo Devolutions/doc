@@ -1,8 +1,9 @@
 ---
-title: Locating Configuration File
-description: Locate your Remote Desktop Manager Configuration file.
-keywords:
-- Configuration file
+eleventyComputed:
+  title: Locating the configuration file
+  description: Locate your {{ en.RDM }} configuration file.
+  keywords:
+  - Configuration file
 ---
 In some cases, the Devolutions team will need your configuration file to help reproduce a particular issue. 
 {% snippet icon.shieldWarning %} 

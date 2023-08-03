@@ -1,4 +1,5 @@
 ---
-title: Mobile Remote Desktop Manager
-order: 20
+eleventyComputed:
+  title: Mobile {{ fr.RDM }}
+  order: 20
 ---

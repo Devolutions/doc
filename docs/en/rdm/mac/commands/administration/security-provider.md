@@ -52,7 +52,7 @@ The session data will not be encrypted except for the passwords.
 Basic 
 		</td>
 		<td>
-All of the data is encrypted with a key stored in Remote Desktop Manager and it's impossible for an external system to access it. 
+All of the data is encrypted with a key stored in {{ en.RDM }} and it is impossible for an external system to access it. 
 		</td>
 	</tr>
 	<tr>
@@ -91,7 +91,7 @@ All of the entries configuration data is encrypted with a mix of key stored in {
 
 ## Certificate 
 
-If you have chosen Certificate as your Security Provider,  it will encrypt the entry configuration data with a mix of key stored in Remote Desktop Manager and the private key contained in the certificate.  
+If you have chosen Certificate as your Security Provider,  it will encrypt the entry configuration data with a mix of key stored in {{ en.RDM }} and the private key contained in the certificate.  
 ![Certificate Security Provider](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10380.png) 
 
 <table>

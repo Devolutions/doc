@@ -1,11 +1,12 @@
 ---
-title: Définir une langue pour l'arborescence
-description: Dans Remote Desktop Manager, il est possible de spécifier une langue et un emplacement/type pour l'arborescence du Volet de navigation.
-keywords:
-- culture
-- langue
-- emplacement
-- région
+eleventyComputed:
+  title: Définir une langue pour l'arborescence
+  description: Dans {{ fr.RDM }}, il est possible de spécifier une langue et un emplacement/type pour l'arborescence du {{ fr.NPANE }}.
+  keywords:
+  - culture
+  - langue
+  - emplacement
+  - région
 ---
 Dans {{ fr.RDM }}, il est possible de spécifier une langue et un emplacement/type pour l'arborescence du ***{{ fr.NPANE }}***. Ceci peut être particulièrement utile pour les langues qui utilisent des caractères autres que l'alphabet A-Z.  
 {% snippet icon.badgeInfo %} 

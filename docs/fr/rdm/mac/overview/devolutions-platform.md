@@ -29,7 +29,7 @@ Windows, macOS, Linux, iOS, Android
 	<tr>
 		<td>
 
-[Remote Desktop Manager Agent](/fr/rdm/windows/overview/the-devolutions-platform/rdm-agent/) 
+[{{ fr.RDMA }}](/fr/rdm/windows/overview/the-devolutions-platform/rdm-agent/) 
 		</td>
 		<td>
 {{ fr.RDMA }} peut exécuter des commandes sur des hôtes à distances, et même envoyer des commandes à plusieurs hôtes en même temps. Puisque {{ fr.RDM }} utilise un canal de communication sécurisé RDP pour communiquer avec l' {{ fr.RDMA }} , il peut seulement fonctionner avec des hôtes Windows. 
@@ -40,7 +40,7 @@ Windows
 	</tr>
 	<tr>
 		<td>
-[Remote Desktop Manager Jump](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump/) 
+[{{ fr.RDMJ }}](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump/) 
 		</td>
 		<td>
 {{ fr.RDMJ }} se connecte à un hôte distant, souvent nommé Jump Box, Service Host, ou Bastion Server, qui, à son tour, se connecte à d'autres hôtes. {{ fr.RDMJ }} est en fait une RDP dans une RDP. 

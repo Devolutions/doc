@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Ribbon default visibility
-  description: This topic describes how to change the Ribbon default visibility in Remote Desktop Manager. 
+  description: This topic describes how to change the Ribbon's default visibility in {{ en.RDM }}. 
   keywords:
   - Ribbon
 ---

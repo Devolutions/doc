@@ -23,9 +23,9 @@ With this option enabled, a {{ en.DWL }} icon is displayed in every credential f
  
 ![General – Show icon in fields](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2028.png) 
 
-4. Click ***Save*** . 
+4. Click ***Save***. 
 1. Click on ***{{ en.RDM }}*** in the ***Data sources*** section.  
-![Settings – Data sources – Remote Desktop Manager](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2029.png) 
+![Settings – Data sources – {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2029.png) 
 1. In the ***Actions*** tab, enable the ***Automatically retrieve credentials on page load*** and ***Automatically fill in credentials on load*** options by checking the boxes next to them. Below is a description of each setting:  
 
 * ***Automatically retrieve credentials on page load*** (enabled by default): Allows {{ en.DWL }} to automatically search for available credentials when loading a web page. 
@@ -36,7 +36,7 @@ With this option enabled, a {{ en.DWL }} icon is displayed in every credential f
 If the ***Automatically submit the form after filling*** setting is enabled, the credentials are automatically submitted when the fields are filled. Enabling it is optional as it is not a best practice. 
 {% endsnippet %}
  
-7. Click ***Save*** .  
+7. Click ***Save***.  
 
 You can now continue to the [next section](#retrieving-credentials) to learn how to retrieve your website entry credentials. 
 

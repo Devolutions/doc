@@ -1,8 +1,9 @@
 ---
-title: Session Recording
-description: Session recording provides a record of what a user did while a remote connection was opened in Remote Desktop Manager.
-keywords:
-- Session Recording
+eleventyComputed:
+  title: Session recording
+  description: Session recording provides a record of what a user did while a remote connection was opened in {{ en.RDM }}.
+  keywords:
+  - Session recording
 ---
 Session recording provides a record of what a user did while a remote connection was opened in {{ en.RDM }}. It records one frame per second and creates a video in webm format.
 

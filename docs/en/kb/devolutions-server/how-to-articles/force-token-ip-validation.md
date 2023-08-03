@@ -1,18 +1,19 @@
 ---
-title: Prevent RDM and Workspace from Disconnecting when Switching Network
-description: When switching your computer from wired network to wifi, Remote Desktop Manager and Workspace will be disconnected from Devolutions Server and you will have to reconnect.
-keywords:
-- Switching Network
-- Public IP
-- Token
+eleventyComputed:
+  title: Prevent RDM and {{ en.WS }} from disconnecting when switching network
+  description: When switching your computer from wired network to wifi, {{ en.RDM }} and {{ en.WS }} will be disconnected from {{ en.DVLS }} and you will have to reconnect.
+  keywords:
+  - Switching Network
+  - Public IP
+  - Token
 ---
 ## Scenario 1
 
-When switching your computer from a wired network to wifi, {{ en.RDM }} and Workspace will be disconnected from {{ en.DVLS }} and you will have to reconnect.
+When switching your computer from a wired network to wifi, {{ en.RDM }} and {{ en.WS }} will be disconnected from {{ en.DVLS }} and you will have to reconnect.
 
 ## Scenario 2
 
-If you have multiple different public IP addresses, {{ en.RDM }} and Workspace will not be able to connect to {{ en.DVLS }}.
+If you have multiple different public IP addresses, {{ en.RDM }} and {{ en.WS }} will not be able to connect to {{ en.DVLS }}.
 
 ## Solution
 

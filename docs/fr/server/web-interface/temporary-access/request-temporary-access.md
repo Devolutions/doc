@@ -33,7 +33,7 @@ Vous devez maintenant attendre que l'approbateur réponde à votre demande. En f
 
 Si vous ne recevez pas de courriel, essayez d'accéder à l'entrée dans {{ fr.DVLS }}. Si vous pouvez y accéder, cela signifie que l'approbateur a accepté votre demande. Dans le cas contraire, nous vous suggérons de le contacter pour savoir s'il l'a refusée ou s'il n'a simplement pas encore répondu.
 
-Une fois que l'approbateur vous a approuvé l'accès, vous pouvez aller directement à votre entrée dans Remote Desktop Manager. Vous avez maintenant temporairement accès à l'entrée.
+Une fois que l'approbateur vous a approuvé l'accès, vous pouvez aller directement à votre entrée dans {{ fr.RDM }}. Vous avez maintenant temporairement accès à l'entrée.
 ## Révoquer votre accès temporaire 
 
 Pour n'importe quelle raison, vous pouvez révoquer votre accès temporaire. Assurez-vous d'abord que ce soit bel et bien ce que vous voulez faire, car pour retrouver l'accès à votre entrée, vous devrez faire une autre demande. Sinon, votre accès prendra fin dans le délai fixé par vous et l'approbateur.

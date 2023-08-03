@@ -18,7 +18,7 @@ DESCRIPTION
 Online Help 
 		</td>
 		<td>
-Send you directly to our Windows Remote Desktop Manager Online Help. 
+Send you directly to our Windows {{ en.RDM }} Online Help. 
 		</td>
 	</tr>
 	<tr>
@@ -26,7 +26,7 @@ Send you directly to our Windows Remote Desktop Manager Online Help.
 Register Version 
 		</td>
 		<td>
-Enter your Trial or Team license to register your Remote Desktop Manager version. 
+Enter your Trial or Team license to register your {{ en.RDM }} version. 
 		</td>
 	</tr>
 	<tr>
@@ -91,10 +91,7 @@ Verify if the latest version of {{ en.RDM }} for Mac is install on your computer
 About 
 		</td>
 		<td>
-Open a window containing multiple information regarding Remote Desktop Manager. It will display your Remote Desktop Manager version and your license information (if you are administrator). 
+Open a window containing multiple information regarding {{ en.RDM }}. It will display your {{ en.RDM }} version and your license information (if you are administrator). 
 		</td>
 	</tr>
 </table>
-
-
-

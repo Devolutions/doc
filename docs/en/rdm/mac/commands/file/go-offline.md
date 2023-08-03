@@ -11,7 +11,7 @@ There are settings in both the data source and the user account that may prevent
 There are security considerations to take into account when enabling the Offline Mode. 
 {% endsnippet %}
  
-Remote Desktop Manager will prompt for offline mode when the application is unable to reach the data source.  
+{{ en.RDM }} will prompt for offline mode when the application is unable to reach the data source.  
 
 You can manually activate the offline mode by using the menu File - Go Offline . When the connection is back online use the menu File - Go Online or the Refresh icon to reconnect to the data source.  
 

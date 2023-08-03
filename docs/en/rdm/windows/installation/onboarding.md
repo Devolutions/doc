@@ -38,7 +38,7 @@ Select the data source you are going to use:
 If you selected a data source configuration file (.rdd), this step is skipped.
 {% endsnippet %}  
 
-The next step involves managing your entries in your data source. Entries are used to store your information within Remote Desktop Manager. We offer multiple methods of creating entries, from imports to scans. You can also forego these methods and create entries manually.  
+The next step involves managing your entries in your data source. Entries are used to store your information within {{ en.RDM }}. We offer multiple methods of creating entries, from imports to scans. You can also forego these methods and create entries manually.  
 
 If you decide to import entries, you must first have exported and saved a file in one of these formats:  
 * [***CSV (.csv)***](/rdm/windows/commands/file/import/generic-csv-wizard/strategies-file-format/) (import a CSV file or paste CSV text)

@@ -25,7 +25,7 @@ With this option enabled, a {{ en.DWL }} icon is displayed in every credential f
 
 4. Click ***Save*** . 
 1. Click on ***{{ en.RDM }}*** in the ***Data sources*** section.  
-![Settings – Data sources – Remote Desktop Manager](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2114.png) 
+![Settings – Data sources – {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2114.png) 
 1. In the ***Actions*** tab, enable the ***Automatically retrieve credentials on page load*** and ***Automatically fill in credentials on load*** options by checking the boxes next to them. Below is a description of each setting:  
 
 * ***Automatically retrieve credentials on page load*** (enabled by default): Allows {{ en.DWL }} to automatically search for available credentials when loading a web page. 

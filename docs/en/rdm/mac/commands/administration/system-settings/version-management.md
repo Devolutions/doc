@@ -1,7 +1,7 @@
 ---
 title: Version Management
 ---
-You can manage your Remote Desktop Manager versions for Windows, Mac, Android or IOS. 
+You can manage your {{ en.RDM }} versions for Windows, Mac, Android or IOS. 
 
 ### Version Management 
 

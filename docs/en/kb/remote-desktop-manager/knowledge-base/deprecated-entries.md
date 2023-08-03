@@ -1,6 +1,7 @@
 ---
-title: Deprecated Entries
-description: For several reasons, multiple entries are tagged as deprecated in Remote Desktop Manager.
+eleventyComputed:
+  title: Deprecated entries
+  description: For several reasons, multiple entries are tagged as deprecated in {{ en.RDM }}.
 ---
 For several reasons, multiple entries are tagged as deprecated in {{ en.RDM }}.  
 Here is how to display them:

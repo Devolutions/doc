@@ -1,9 +1,10 @@
 ---
-title: Configuration de l'entrée Secret Server
-description: Suivre ces étapes pour configurer vos entrées afin d'utiliser les identifiants de Secret Server dans Remote Desktop Manager.
-keywords:
-- secret server
-- identifiant
+eleventyComputed:
+  title: Configuration de l'entrée Secret Server
+  description: Suivre ces étapes pour configurer vos entrées afin d'utiliser les identifiants de Secret Server dans {{ fr.RDM }}.
+  keywords:
+  - secret server
+  - identifiant
 ---
 L'intégration de ***Secret Server*** est assez simple dans {{ fr.RDM }}. Suivre ces étapes pour configurer vos entrées afin d'utiliser les identifiants de ***Secret Server***.
 ## Guide étape par étape

@@ -22,7 +22,7 @@ You can then turn on a single setting to see if it affects the performance negat
 
     If you use Trend Micro Business Security, add RemoteDesktopManager.exe, RemoteDesktopManager64.exe, and Embedded32.exe to the ***Process Exception List*** under ***Preferences – Global Settings*** and update the ***Trend client***  
 
-    If you use Symantec Norton Internet Security, ensure you allow Remote Desktop Manager to access the internet in the Program Rules.  
+    If you use Symantec Norton Internet Security, ensure you allow {{ en.RDM }} to access the internet in the Program Rules.  
 
 1. Uncheck all settings in the ***Local Resources*** tab.
 1. Check ***Disable display scaling*** on high DPI settings in the options.

@@ -13,7 +13,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 ## Grant temporary access
 
-1. In the ***Navigation Pane*** of Remote Desktop Manager, select the entry you want to grant access to.  
+1. In the ***{{ en.NPANE }}*** of {{ en.RDM }}, select the entry you want to grant access to.  
 1. Click ***Grant Temporary Access*** in the ribbon.  
 ![Grant Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6010.png)  
 1. Choose ***User*** and ***Access Duration*** in the ***Grant Temporary Access*** window. 

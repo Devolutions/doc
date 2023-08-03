@@ -1,9 +1,10 @@
 ---
-title: Download Microsoft Edge Chromium
-description: When launching an entry in Remote Desktop Manager with Microsoft Edge Chromium it might require you to download the WebView2 Runtime from Microsoft.
-keywords: 
--  Microsoft Edge Chromium
--  WebView2 Runtime 
+eleventyComputed:
+  title: Download Microsoft Edge Chromium
+  description: When launching an entry in {{ en.RDM }} with Microsoft Edge Chromium it might require you to download the WebView2 Runtime from Microsoft.
+  keywords: 
+  -  Microsoft Edge Chromium
+  -  WebView2 Runtime 
 ---
 
 {% snippet icon.badgeCaution %}

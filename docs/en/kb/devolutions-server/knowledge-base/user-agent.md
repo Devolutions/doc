@@ -1,8 +1,9 @@
 ---
-title: User Agent
-description: User Agent of Remote Desktop Manager Enterprise Edition for Windows.
-keywords:
-- User Agent
+eleventyComputed:
+  title: User Agent
+  description: User Agent of {{ en.RDM }} Enterprise Edition for Windows.
+  keywords:
+  - User Agent
 ---
 The User Agent used by {{ en.RDM }} Team Edition for Windows when it connects to {{ en.DVLS }} is:
 

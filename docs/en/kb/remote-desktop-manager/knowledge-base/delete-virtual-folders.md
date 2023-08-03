@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Delete virtual folders in {{ en.RDM }}
-  description: This topic describes how to delete virtual folders in Remote Desktop Manager.
+  description: This topic describes how to delete virtual folders in {{ en.RDM }}.
 ---
 
 ## Manual method 

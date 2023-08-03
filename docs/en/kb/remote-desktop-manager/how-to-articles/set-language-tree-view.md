@@ -1,11 +1,12 @@
 ---
-title: Set a Language for the Tree View
-description: In Remote Desktop Manager, you can specify a language (and a location) for the tree view in the Navigation Pane.
-keywords:
-- culture
-- language
-- location
-- region
+eleventyComputed:
+  title: Set a language for the tree view
+  description: In {{ en.RDM }}, you can specify a language (and a location) for the tree view in the {{ en.NPANE }}.
+  keywords:
+  - culture
+  - language
+  - location
+  - region
 ---
 In {{ en.RDM }}, you can specify a language (and a location) for the tree view in the ***{{ en.NPANE }}***. This is especially useful for languages that use characters other than or in addition to the A-Z alphabet.
 

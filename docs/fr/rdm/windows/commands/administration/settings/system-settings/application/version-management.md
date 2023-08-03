@@ -1,7 +1,7 @@
 ---
 title: Gestion de version
 ---
-Vous pouvez gérer vos versions de Remote Desktop Manager pour Windows, macOS ou Linux.  
+Vous pouvez gérer vos versions de R{{ fr.RDM }} pour Windows, macOS ou Linux.  
 
 ## Gestion de version 
 
