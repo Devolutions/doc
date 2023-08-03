@@ -31,7 +31,6 @@ module.exports = {
     LAUNCHER: 'Launcher',
     LOCALIZER: 'Localizer',
     MAC: 'macOS',
-    MKEY: 'Hauptschlüssel',
     NPANE: 'Navigationsbereich',
     OBACK: 'Online Backup',
     OD: 'Online Drive',
