@@ -1,6 +1,5 @@
 ---
 title: Authentification de Site Web
-order: 0
 ---
 La fonctionnalité de saisie automatique ne s’active pas systématiquement pour tous les sites Web. En effet, il faut garder à l’esprit que certains sites Web ne permettent pas la saisie automatique des identifiants.  
 
