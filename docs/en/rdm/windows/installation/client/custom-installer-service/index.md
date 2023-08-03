@@ -4,7 +4,7 @@ title: Custom Installer Service
 
 ![!!CustomInstallerServiceIcon.png](https://webdevolutions.blob.core.windows.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg) 
 
-* Generate and download custom installation packages for {{ en.RDM }} . 
+* Generate and download custom installation packages for {{ en.RDM }}. 
 * Include preconfigured data sources in the package for quick enterprise wide deployment. 
 * Download the installer as a Windows Installer (.msi file). 
 
@@ -20,16 +20,14 @@ You must create an installer file using {{ en.RDM }} before creating the install
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-You can store and create up to six ***Custom Installer*** configuration file packages in your {{ en.DA }} . 
+You can store and create up to six ***Custom Installer*** configuration file packages in your {{ en.DA }}. 
 {% endsnippet %}
  
-The {{ en.CI }} can be found in with the {{ en.DA }} tools, located in ***File –*** ***{{ en.DA }}*** ***– Tools*** . You must be signed in to access it.  
+The {{ en.CI }} can be found in with the {{ en.DA }} tools, located in ***File – {{ en.DA }} – Tools***. You must be signed in to access it.  
 ![File – Devolutions Account – Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11245.png) 
 
-The following topics will help you get started to set up your customized installers with {{ en.RDM }} .  
+The following topics will help you get started to set up your customized installers with {{ en.RDM }}.  
 
 * [Create an Installation Package](/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/) 
 * [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/) 
 * [Option Selection Dialog](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/option-selection/) 
-
-
