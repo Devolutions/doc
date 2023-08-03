@@ -1,11 +1,129 @@
 ---
 title: User Interface
+description: Use File – Preferences – User Interface to configure options related to the user interface.
 ---
-Use File - Preferences - User Interface to configure options related to the user interface. 
+Use ***File – Preferences – User Interface*** to configure options related to the user interface. 
 
 ## Settings 
 
-![Preferences - User Interface](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10318.png) 
+![File – Preferences – User Interface](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2091.png) 
+
+### User Interface 
+
+<table>
+	<tr>
+		<th>
+OPTION 
+		</th>
+		<th>
+DESCRIPTION 
+		</th>
+	</tr>
+	<tr>
+		<td>
+Theme 
+		</td>
+		<td>
+Choose between the <b><i>Dark</i></b> or <b><i>Light</i></b> themes, or use your <b><i>System</i></b>'s theme.
+		</td>
+	</tr>
+	<tr>
+		<td>
+User Interface 
+		</td>
+		<td>
+Choose between the <b><i>Classic</i></b> and the <b><i>Ribbon</i></b> interface for RDM's main menu header. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Hide footer 
+		</td>
+		<td>
+When using the <b><i>Ribbon User Interface</i></b>, select this option to hide your footer. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Language 
+		</td>
+		<td>
+Select {{ en.RDM }} for Mac's default application language. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Wait progress mode 
+		</td>
+		<td>
+Select how the progress when waiting is displayed. Choose between a <b><i>Status bar</i></b> or a <b><i>Window</i></b>. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Usage profile 
+		</td>
+		<td>
+Select the default usage profile usage will be assigned between <b><i>IT professional</i></b> and <b><i>Business user</i></b>. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Navigation toggle location 
+		</td>
+		<td>
+Specify the default location of the toolbar (right or left). 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Navigation tab location 
+		</td>
+		<td>
+Specify the default location of the <b><i>Navigation</i></b> tab (top or bottom of the <b><i>{{ en.NPANE }}</i></b>). 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Data source location 
+		</td>
+		<td>
+Specify the location of the data source on your screen (top or bottom of the <b><i>{{ en.NPANE }}</i></b>). 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Vault location 
+		</td>
+		<td>
+Specify the location of the vault on your screen (top or bottom of the <b><i>{{ en.NPANE }}</i></b>, or not visible). 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Show the tab bar on undocked windows 
+		</td>
+		<td>
+Display the tab bar when the session is undocked. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Allow tabs to be rearranged 
+		</td>
+		<td>
+Allow tabs to be moved from one position to another in the tab bar. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Allow tabs to leave the tab bar 
+		</td>
+		<td>
+Tabs can be move out of the tab bar. 
+		</td>
+	</tr>
+</table>
 
 ### Context Menu 
 
@@ -32,102 +150,6 @@ Use legacy edit context menu
 		</td>
 		<td>
 Use the Legacy theme edit context menu (old Remote Desktop Manager interface). 
-		</td>
-	</tr>
-</table>
-
-### User Interface 
-
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-User Interface 
-		</td>
-		<td>
-Choose between the Classic and the Ribbon User Interface. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hide footer 
-		</td>
-		<td>
-When using the Ribbon User Interface select this option to hide your footer. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Language 
-		</td>
-		<td>
-Select {{ en.RDM }} for Mac default application language. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Navigation toggle location 
-		</td>
-		<td>
-Specify the default location of the toolbar: 
-
-* Toolbar (right) 
-* Toolbar (left) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Navigation tab location 
-		</td>
-		<td>
-Specify the default location of the Navigation tab between: 
-
-* Navigation Pane (top) 
-* Navigation Pane (bottom) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Data Source location 
-		</td>
-		<td>
-Specify the location of the data source on your screen between: 
-
-* Navigation Pane (top) 
-* Navigation Pane (bottom) 
-* Status bar 
-* None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Show the tab bar on undocked windows 
-		</td>
-		<td>
-Display the tab bar when the session is undocked. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow tabs to be rearranged 
-		</td>
-		<td>
-Allow tabs to be moved from one position to another in the tab bar. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow tabs to leave the tab bar 
-		</td>
-		<td>
-Tabs can be move out of the tab bar. 
 		</td>
 	</tr>
 </table>
@@ -310,5 +332,3 @@ Session tool list will appear within the list of Sessions instead of in their ow
 		</td>
 	</tr>
 </table>
-
-
