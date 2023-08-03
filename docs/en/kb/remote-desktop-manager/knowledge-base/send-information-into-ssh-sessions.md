@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
-  title: Send information to your SSH sessions using Typing Macro in {{ en.RDM }}
-  description: Use the Typing Macro entry in Remote Desktop Manager to send information to your SSH sessions.
+  title: Send information to SSH sessions using Typing Macro in {{ en.RDM }}
+  description: Use the Typing Macro entry in Remote Desktop Manager to send information in SSH sessions.
 ---
 
-Remote Desktop Manager's Typing Macro is designed to facilitate the transfer of information in your SSH sessions with a single click.
+Remote Desktop Manager's Typing Macro is designed to facilitate the transfer of information in SSH sessions with a single click.
 
 1. Create a ***Typing Macro*** entry. It can be found under ***New Entry*** – ***Macro/Script/Tool*** – ***Macro***.  
 ![Typing Macro entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6050.png)  

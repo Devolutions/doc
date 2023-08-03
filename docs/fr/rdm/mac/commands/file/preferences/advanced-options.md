@@ -3,7 +3,7 @@ title: Avancé
 description: Utilisez Fichier – Paramètres – Avancé pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.
 ---
 Utilisez ***Fichier – Paramètres – Avancé*** pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.  
-![Fichier – Préférences – Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2053.png) 
+![Fichier – Préférences – Avancé](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6035.png) 
 
 ## Paramètres 
 <table>
@@ -137,10 +137,10 @@ Enregistrer et suivre les activités et les interactions des utilisateurs avec {
 	</tr>
 	<tr>
 		<td>
-Prompt Onboarding on startup 
+Lancer l'assistant de prise en main au démarrage
 		</td>
 		<td>
-Activer pour lancer la fenêtre d'accueil ( Onboarding ) au démarrage. 
+Activer pour lancer l'assistant de prise en main au démarrage. 
 		</td>
 	</tr>
 </table>
