@@ -2,13 +2,13 @@
 title: Prerequisites
 order: 10
 ---
-## {{ en.DEVL }} minimum requirements  
+## {{ en.DLAUNCHER }} minimum requirements  
 
 {{ en.DVLS }} 2019.1.X.X or later.  
 
 Most recent browsers are supported and so is Internet Explorer 11 or above.  
 
-## {{ en.DEVL }} minimum platform requirements 
+## {{ en.DLAUNCHER }} minimum platform requirements 
 
 ### Windows 
 

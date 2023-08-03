@@ -6,7 +6,7 @@ module.exports = {
     DA: 'Compte Devolutions',
     DC: 'Devolutions Cloud',
     DCS: 'Services en ligne Devolutions',
-    DEVL: 'Devolutions Launcher',
+    DLAUNCHER: 'Devolutions Launcher',
     DFORCE: 'Devolutions Force',
     DFORUM: 'Devolutions Forum',
     DGW: 'Devolutions Gateway',

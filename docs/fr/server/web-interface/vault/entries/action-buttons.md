@@ -79,7 +79,7 @@ Lancer une session RDP dans un nouvel onglet du navigateur.
 <img src="https://webdevolutions.azureedge.net/docs/fr/server/Icons/open-session.png" alt="!!open-session.png">
 		</td>
 		<td>
-Ouvrir session {{ fr.DEVL }}
+Ouvrir session {{ fr.DLAUNCHER }}
 		</td>
 		<td>
 Lancer une session dans {{ fr.LAUNCHER }}. 

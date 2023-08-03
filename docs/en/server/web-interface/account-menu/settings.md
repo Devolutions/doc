@@ -36,9 +36,9 @@ Launch connection with
 		<td>
 Choose the application that opens remote connections: <br>
 
-* Default: {{ en.DEVL }} 
+* Default: {{ en.DLAUNCHER }} 
 * {{ en.RDM }} 
-* {{ en.DEVL }} 
+* {{ en.DLAUNCHER }} 
 		</td>
 	</tr>
 	<tr>

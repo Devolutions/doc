@@ -5,7 +5,7 @@ Register and assign your {{ en.LAUNCHER }} license serial.
 
 ### {{ en.DHUBB }} {{ en.LAUNCHER }} license 
 
-To register a ***{{ en.DEVL }}*** license in {{ en.DHUBB }}, you need to add a ***Product Licenses*** and assign it to the users.  
+To register a ***{{ en.DLAUNCHER }}*** license in {{ en.DHUBB }}, you need to add a ***Product Licenses*** and assign it to the users.  
 
 {% snippet icon.badgeCaution %} 
 Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.DHUBB }}. 

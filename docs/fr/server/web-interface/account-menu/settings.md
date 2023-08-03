@@ -38,9 +38,9 @@ Lancer une connexion avec
 		<td>
 Choisir l'application qui ouvre les connexions à distance :  
 
-* ***Par défaut :*** ***{{ fr.DEVL }}*** 
+* ***Par défaut :*** ***{{ fr.DLAUNCHER }}*** 
 * ***{{ fr.RDM }}*** 
-* ***{{ fr.DEVL }}*** 
+* ***{{ fr.DLAUNCHER }}*** 
 		</td>
 	</tr>
 	<tr>

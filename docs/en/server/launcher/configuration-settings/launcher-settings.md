@@ -4,7 +4,7 @@ order: 30
 ---
 ### General 
 
-In the ***General*** section, you can personalize the color ***Theme*** and ***Language*** of {{ en.DEVL }}. You will need to close the application to activate the new settings. 
+In the ***General*** section, you can personalize the color ***Theme*** and ***Language*** of {{ en.DLAUNCHER }}. You will need to close the application to activate the new settings. 
 ![!!ServerOp4046.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4046.png) 
 
 ### Data Sources 

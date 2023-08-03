@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Enregistrement de licence {{ fr.DEVL }}
+  title: Enregistrement de licence {{ fr.DLAUNCHER }}
 ---
-Enregistrer votre licence {{ fr.DEVL }}.  
+Enregistrer votre licence {{ fr.DLAUNCHER }}.  
 
-### Enregistrement de la licence {{ fr.DEVL }} pour {{ fr.DHUBB }} 
+### Enregistrement de la licence {{ fr.DLAUNCHER }} pour {{ fr.DHUBB }} 
 
-Pour enregistrer une licence ***{{ fr.DEVL }}*** dans {{ fr.DHUBB }}, vous devez ajouter une ***Licence de produit*** et l'assigner aux utilisateurs.  
+Pour enregistrer une licence ***{{ fr.DLAUNCHER }}*** dans {{ fr.DHUBB }}, vous devez ajouter une ***Licence de produit*** et l'assigner aux utilisateurs.  
 
 {% snippet icon.badgeCaution %} 
 Seuls les ***Administrateurs*** et les utilisateurs disposant de permissions dans la section ***Permissions du système*** auront accès pour enregistrer une licence dans {{ fr.DHUBB }}. 

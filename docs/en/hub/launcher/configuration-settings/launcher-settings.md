@@ -4,7 +4,7 @@ order: 20
 ---
 ### General 
 
-In the ***General*** section, you can personalize the color ***Theme*** and ***Language*** of {{ en.DEVL }}. You will need to close the application to activate the new settings.  
+In the ***General*** section, you can personalize the color ***Theme*** and ***Language*** of {{ en.DLAUNCHER }}. You will need to close the application to activate the new settings.  
 ![!!Hub4016.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4016.png) 
 
 ### Data Sources 

@@ -2,11 +2,11 @@
 title: Launcher License Registration
 order: 30
 ---
-Register and assign your {{ en.DEVL }} license serial. 
+Register and assign your {{ en.DLAUNCHER }} license serial. 
 
 ### {{ en.DVLS }} {{ en.LAUNCHER }} License 
 
-To register a ***{{ en.DEVL }}*** license in {{ en.DVLS }}, you need to add a ***Licenses*** and assign it to the users. 
+To register a ***{{ en.DLAUNCHER }}*** license in {{ en.DVLS }}, you need to add a ***Licenses*** and assign it to the users. 
 
 1. In the web interface, of {{ en.DVLS }}, go to ***Administration - Licenses***. 
 1. Click the ***Add*** button. 

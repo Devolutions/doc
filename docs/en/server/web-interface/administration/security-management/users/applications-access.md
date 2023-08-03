@@ -33,7 +33,7 @@ Allow user to auto fill username and passwords on websites with {{ en.DWL }} .
 	</tr>
 	<tr>
 		<td>
-{{ en.DEVL }} 
+{{ en.DLAUNCHER }} 
 		</td>
 		<td>
 Allow user to open remote connections with {{ en.LAUNCHER }}. 

@@ -1,15 +1,15 @@
 ---
 title: Download and installation
 ---
-Follow these steps to download and install {{ en.DEVL }} : 
-1. Download [{{ en.DEVL }}](https://devolutions.net/launcher/download) or search the companion tools in the products section of our [Devolutions](https://devolutions.net/) Devolutions website.  
+Follow these steps to download and install {{ en.DLAUNCHER }} : 
+1. Download [{{ en.DLAUNCHER }}](https://devolutions.net/launcher/download) or search the companion tools in the products section of our [Devolutions](https://devolutions.net/) Devolutions website.  
 ![!!Hub4000.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4000.png) 
 2. Launch the executable file. 
 3. Click ***Next*** on the welcome page.  
 ![!!Hub4001.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4001.png) 
 4. Choose the setup type.  
 ![!!Hub4002.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4002.png) 
-5. Select the shortcuts for {{ en.DEVL }}.  
+5. Select the shortcuts for {{ en.DLAUNCHER }}.  
 ![!!Hub4003.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4003.png) 
 6. Accept the terms of the Software license agreement and click ***Next*** .  
 ![!!Hub4004.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4004.png) 

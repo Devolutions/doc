@@ -2,9 +2,9 @@
 title: Téléchargement et installation
 order: 20
 ---
-Suivre les étapes ci-dessous pour compléter l'installation {{ fr.DEVL }}.  
+Suivre les étapes ci-dessous pour compléter l'installation {{ fr.DLAUNCHER }}.  
 
-1. Télécharger [{{ fr.DEVL }}](https://devolutions.net/fr/launcher/download) ou rechercher dans les outils connexes dans la section ***Produits*** du site Web de [Devolutions](https://devolutions.net/fr). 
+1. Télécharger [{{ fr.DLAUNCHER }}](https://devolutions.net/fr/launcher/download) ou rechercher dans les outils connexes dans la section ***Produits*** du site Web de [Devolutions](https://devolutions.net/fr). 
 ![!!ServerOp4001.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4001.png) 
 1. Lancer le fichier exécutable. 
 1. Cliquer sur ***Suivant*** dans la page d'accueil. 

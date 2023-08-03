@@ -130,7 +130,7 @@ Open the specified website URL in a new tab.
 Open in {{ en.LAUNCHER }} 
 		</td>
 		<td>
-Launch a session in the {{ en.DEVL }} companion tool. 
+Launch a session in the {{ en.DLAUNCHER }} companion tool. 
 		</td>
 	</tr>
 	<tr>

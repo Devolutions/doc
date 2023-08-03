@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
-  title: Enregistrement de licence {{ fr.DEVL }}
+  title: Enregistrement de licence {{ fr.DLAUNCHER }}
   order: 30
 ---
-Enregistrer votre licence {{ fr.DEVL }}.  
+Enregistrer votre licence {{ fr.DLAUNCHER }}.  
 
-### Enregistrement de la licence {{ fr.DEVL }} pour {{ fr.DVLS }} 
+### Enregistrement de la licence {{ fr.DLAUNCHER }} pour {{ fr.DVLS }} 
 
-Pour enregistrer une licence ***{{ fr.DEVL }}*** dans {{ fr.DVLS }}, vous devez ajouter une ***Licence*** et l'assigner aux utilisateurs.  
+Pour enregistrer une licence ***{{ fr.DLAUNCHER }}*** dans {{ fr.DVLS }}, vous devez ajouter une ***Licence*** et l'assigner aux utilisateurs.  
 
 1. Dans l'interface Web, de {{ fr.DVLS }}, accéder à ***Administration - Licences***. 
 1. Cliquer sur le bouton ***Ajouter***.  

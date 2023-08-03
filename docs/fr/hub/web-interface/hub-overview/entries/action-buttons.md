@@ -81,7 +81,7 @@ Modifier les propriétés de l'entrée sélectionnée
 Ouvrir dans {{ fr.LAUNCHER }} 
 		</td>
 		<td>
-Lancer une session dans l'outil connexe {{ fr.DEVL }}. 
+Lancer une session dans l'outil connexe {{ fr.DLAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>

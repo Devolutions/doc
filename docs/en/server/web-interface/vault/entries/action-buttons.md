@@ -17,7 +17,7 @@ The display of ***Action Buttons*** for entries will vary depending on the type 
 | {{ icons.moreVert | safe }}           | More                             | Show more options for the selected entry: <br> <ul><li>Save as Template</li><li>Password History</li><li>User Specific Settings</li><li>Move to Vault</li><li>Export (.rdm)</li><li>Duplicate</li><li>Delete</li></ul> |
 | {{ icons.html | safe }}               | Navigate URL                     | Open the specified website URL in a new tab. |
 | {{ icons.entrySampleWeb | safe }}     | Open in Web Client (Preview)     | Launch a RDP session in a new browser tab.   |
-| {{ icons.openSession | safe }}        | Open Session ({{ en.DEVL }})     | Launch a session in {{ en.DEVL }}.       |
+| {{ icons.openSession | safe }}        | Open Session ({{ en.DLAUNCHER }})     | Launch a session in {{ en.DLAUNCHER }}.       |
 | {{ icons.edit | safe }}               | Properties                       | Modify the properties of the selected entry. |
 | {{ icons.status | safe }}             | Status                           | Change the ***Default*** status of the selected entry to: <br><ul><li>Locked</li><li>Disabled</li><li>Warning</li><li>Expired</li></ul> |
 | {{ icons.entrySampleView | safe }}    | View                             | Display the field of the selected entry.     |

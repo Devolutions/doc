@@ -3,7 +3,7 @@ title: Launcher paramètres
 order: 30
 ---
 ### Général 
-Dans la section ***Général***, vous pouvez personnaliser la couleur du ***Thème*** et choisir la langue de {{ fr.DEVL }}. Vous devrez fermer l'application pour activer le paramètre. 
+Dans la section ***Général***, vous pouvez personnaliser la couleur du ***Thème*** et choisir la langue de {{ fr.DLAUNCHER }}. Vous devrez fermer l'application pour activer le paramètre. 
 ![!!ServerOp4040.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4040.png)  
 
 ### Sources de données 

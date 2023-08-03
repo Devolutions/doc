@@ -34,7 +34,7 @@ Permettre à l'utilisateur de remplir automatiquement le nom d'utilisateur et le
 	</tr>
 	<tr>
 		<td>
-{{ fr.DEVL }} 
+{{ fr.DLAUNCHER }} 
 		</td>
 		<td>
 Autoriser l'utilisateur à ouvrir des connexions à distance avec {{ fr.LAUNCHER }} . 

@@ -2,7 +2,7 @@
 title: Launcher Session Menu
 order: 40
 ---
-To access the {{ en.DEVL }} session menu, right click on an open session tab.  
+To access the {{ en.DLAUNCHER }} session menu, right click on an open session tab.  
 
 ![!!ServerOp4048.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4048.png) 
 ### Docking 
