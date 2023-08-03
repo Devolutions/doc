@@ -2,14 +2,14 @@
 eleventyComputed:
   title: Devolutions Hub
   order: 10
-  description: Devolutions Hub is a highly secure team-based password manager that is part of the {{ en.DC }} services. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size.
+  description: Devolutions Hub is a highly secure team-based password manager that is part of the {{ en.DCS }}. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size.
   keywords:
   - cloud
 ---
 
 ![!!{{ en.DHUB }} Logo](https://webdevolutions.blob.core.windows.net/images/projects/devolutions-hub/devolutions-hub-color-shadow.svg)
 
-{{ en.DHUB }} is a highly secure team-based password manager that is part of the {{ en.DC }} services. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size. You can access and manage sensitive information from anywhere and with any supported web browser.  
+{{ en.DHUB }} is a highly secure team-based password manager that is part of the {{ en.DCS }}. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size. You can access and manage sensitive information from anywhere and with any supported web browser.  
 
 Your information is stored in entries of different types which are organized into vaults. Entries are managed directly from the web interface and no client application is required.  
 

@@ -6,7 +6,7 @@ Since version 2022.3 of {{ en.RDM }} , the [Free Edition](https://devolutions.ne
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-You will still need to [create a free {{ en.DA }}](https://login.devolutions.com/op/register) to use and access the [{{ en.DC }} Services](/cloud/getting-started/devolutions-cloud-services/) and the [{{ en.RDMOS }}](/cloud/rdm-online-services/) . 
+You will still need to [create a free {{ en.DA }}](https://login.devolutions.com/op/register) to use and access the [{{ en.DCS }}](/cloud/getting-started/devolutions-cloud-services/) and the [{{ en.RDMOS }}](/cloud/rdm-online-services/) . 
 {% endsnippet %}
  
 The Free Edition of {{ en.RDM }} is meant for individual users who do not need to share remote connections and privileged passwords with other IT professionals. The most popular remote access technologies are supported and passwords can be stored securely. To learn about each edition's features and differences, visit the [Compare Editions](https://devolutions.net/remote-desktop-manager/compare) page. 

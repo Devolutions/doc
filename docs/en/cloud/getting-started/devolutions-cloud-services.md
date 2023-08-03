@@ -2,9 +2,9 @@
 title: Devolutions Cloud Services
 ---
 
-![!!Devolutions Cloud Services logo]({{ locale.en.projects.cloud.logo }})
+![!!{{ en.DCS }} logo]({{ locale.en.projects.cloud.logo }})
 
-{{ en.DC }} Services is the central location for all Devolutions online services. It is comprised of multiple services as summarized below.
+{{ en.DCS }} is the central location for all Devolutions online services. It is comprised of multiple services as summarized below.
 
 The common feature between all of these services is that they only require the possession of a free {{ en.DA }} to be accessed.
 
@@ -19,8 +19,8 @@ The common feature between all of these services is that they only require the p
 | ![!!{{ en.DHUBP }}](https://devolutions.mo.cloudinary.net/images/projects/password-hub-personal/logos/password-hub-personal-icon-shadow.svg) | {{ en.DHUBP }} is a free, secure and cloud-based password manager for individual users who want to secure personal passwords.<br/><br/>For more information, please consult [{{ en.DHUBP }}](/cloud/hub-personal/). |
 | ![!!{{ en.RDMOS }}](https://devolutions.mo.cloudinary.net/images/projects/online-services/logos/online-services-icon-shadow.svg) | {{ en.RDMOS }} is your link to tools like {{ en.RDM }} Windows {{ en.CI }}, {{ en.OBACK }} and {{ en.OD }}.<br/><br/>For more information, please consult [{{ en.RDMOS }}](/cloud/rdm-online-services/). |
 
-## {{ en.DC }} services Menu
+## {{ en.DCS }} Menu
 
-Access all the {{ en.DC }} services through the menu icon.
+Access all the {{ en.DCS }} through the menu icon.
 
 ![!!Cloud4017.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4017.png)

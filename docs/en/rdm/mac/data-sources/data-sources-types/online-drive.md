@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Devolutions {{ en.OD }}
 ---
-The {{ en.OD }} stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.  
+The {{ en.OD }} stores and synchronizes your remote connections and credentials data in our cloud services. You can access your sessions from anywhere via an Internet connection.  
 
 It is an online file storage service dedicated to a single file type, {{ en.RDM }}’s connection list. {{ en.OD }} is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.  
 

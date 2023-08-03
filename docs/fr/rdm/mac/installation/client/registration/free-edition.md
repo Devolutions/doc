@@ -13,5 +13,5 @@ L'édition Free de {{ fr.RDM }} Mac est destinée aux utilisateurs uniques qui n
 Même si l'Édition Free ne requiert pas de licence, vous devrez quand même [créer un {{ fr.DA }}](https://login.devolutions.com/op/register) à travers le {{ fr.DPORTAL }}. 
 {% endsnippet %}
  
-Un {{ fr.DA }} est gratuit. En passant par le {{ fr.DPORTAL }}, vous pouvez mettre à jour votre profil et vos préférences en plus d'avoir accès aux [services {{ fr.DC }}](/fr/cloud/getting-started/devolutions-cloud-services/). 
+Un {{ fr.DA }} est gratuit. En passant par le {{ fr.DPORTAL }}, vous pouvez mettre à jour votre profil et vos préférences en plus d'avoir accès aux [{{ fr.DCS }}](/fr/cloud/getting-started/devolutions-cloud-services/). 
 

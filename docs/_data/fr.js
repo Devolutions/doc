@@ -5,6 +5,7 @@ module.exports = {
     CTOOL: 'Outils connexes',
     DA: 'Compte Devolutions',
     DC: 'Devolutions Cloud',
+    DCS: 'Services en ligne Devolutions',
     DEVL: 'Devolutions Launcher',
     DFORCE: 'Devolutions Force',
     DFORUM: 'Devolutions Forum',
