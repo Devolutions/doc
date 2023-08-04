@@ -61,7 +61,7 @@ La version 16 ou ultérieure de Safari est requise.
    1. Ouvrir Safari.
    1. Accéder à ***Safari – Réglages***. Dans les versions plus anciennes, il peut s'appeler ***Préférences***.
    1. Sélectionner l'onglet ***Avancées***.
-   1. Cocher la case ***Show features for web developers***.
+   1. Cocher la case ***Afficher les fonctionnalités de développement Web***.
    1. Sélectionner l'onglet ***Développement***.
    1. Cocher la case ***Autoriser les extensions non signées***.
    {% snippet icon.badgeCaution %}
