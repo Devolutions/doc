@@ -13,7 +13,7 @@ Bitte kontaktieren Sie uns unter [service@devolutions.net](mailto:service@devolu
 1. Die {{ de.DVLSCONSOLE }} kann [hier](https://server.devolutions.net/home/download) heruntergeladen werden. 
 1. Die [Voraussetzungen für {{ de.DVLS }}](/server/installation/installing-web-server-prerequisites/) sind bereits installiert. 
 1. Devolutions kann mehrere Konten verwenden, um für die verschiedenen Komponenten eine Verbindung zur Datenbank herzustellen. Diese Konten können Domain-Dienstkonten (integrierte Sicherheit) oder SQL-Konten sein. In dem Artikel [Kontoauswahl vor der Einrichtung](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) erfahren Sie mehr über die Konten. 
-1. Folgen Sie den Schritten in [Eine {{ de.DVLS }}-Instanz erstellen.](/server/installation/create-server-instance/).
+1. Folgen Sie den Schritten in [Eine {{ de.DVLS }}-Instanz erstellen.](/server/installation/create-server-instance/). 
 
 {% snippet icon.shieldInfo %}
 Stelle Sie sicher, dass die Schlüssel zur Verschlüsselung am Ende des Installationsprozesses exportiert und an einem sicheren Ort gespeichert werden. 

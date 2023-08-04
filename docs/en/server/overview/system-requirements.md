@@ -1,5 +1,6 @@
 ---
 title: System Requirements
+status: Topic available in German language
 ---
 ## Minimum Requirements
 
