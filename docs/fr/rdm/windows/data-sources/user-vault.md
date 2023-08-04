@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title:  Mon Coffre de l'utilisateur
+  status: Topic available in German language
 ---
 Le ***{{ fr.UVLT }}*** est un coffre personnalisé pour l'utilisateur pour les entrées de tout type. Il permet à chaque utilisateur de créer des entrées que lui seul peut voir. 
 

@@ -2,6 +2,7 @@
 eleventyComputed:
   title: Inheritance in {{ en.RDM }}
   description: Inheritance means that certain properties or attributes of a higher-level entry are automatically passed down to lower-level entries that inherit from it.
+  status: Topic available in German language
   keywords: 
   - rights
   - inherited

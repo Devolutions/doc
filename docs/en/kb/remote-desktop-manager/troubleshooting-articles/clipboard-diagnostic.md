@@ -1,5 +1,6 @@
 ---
 title: Clipboard Diagnostic
+status: Topic available in German language
 ---
 Using the ***Copy Username*** and ***Copy Password*** features in {{ en.RDM }} can sometimes not work properly because of other applications and process that are stealing values from the clipboard. The ***Clipboard Diagnostic*** tool helps to view all requests in real time and identify which application is involved.
 

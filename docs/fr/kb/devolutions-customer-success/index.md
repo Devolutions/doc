@@ -2,6 +2,7 @@
 title: Base de connaissances Devolutions
 order: 0
 description: L’équipe de l'expérience utilisateur de Devolutions est fière de présenter cette base de connaissances à notre communauté de plus de 800 000 utilisateurs!
+status: Topic available in German language
 keywords:
 - base de connaissances
 ---

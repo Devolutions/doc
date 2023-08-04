@@ -1,5 +1,6 @@
 ---
 title: Missing Sessions from Navigation Pane
+status: Topic available in German language
 ---
 Some or all entries are missing from the Navigation Pane. It is empty.
 ### Solution 1
