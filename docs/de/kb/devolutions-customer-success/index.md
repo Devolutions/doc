@@ -10,7 +10,11 @@ keywords:
 
 Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Community von über 800.000 Benutzern zu veröffentlichen!  
 
+## Allgemeine Informationen
 
+&nbsp; &nbsp;[Eine Datei sicher an unser Team senden](/de/kb/devolutions-customer-success/securely-send-file/)
+
+&nbsp; &nbsp;[Ticketsystem](/de/kb/devolutions-customer-success/ticketing-system/)
 
 ## Produkte 
 
