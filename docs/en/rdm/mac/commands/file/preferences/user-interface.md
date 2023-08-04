@@ -64,7 +64,7 @@ Select how the progress when waiting is displayed. Choose between a <b><i>Status
 Usage profile 
 		</td>
 		<td>
-Select the default usage profile usage will be assigned between <b><i>IT professional</i></b> and <b><i>Business user</i></b>. 
+Select the default usage profile users will be assigned between <b><i>IT professional</i></b> and <b><i>Business user</i></b>. 
 		</td>
 	</tr>
 	<tr>
