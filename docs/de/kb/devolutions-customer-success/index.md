@@ -12,9 +12,9 @@ Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Comm
 
 ## Allgemeine Informationen
 
-&nbsp; &nbsp;[Eine Datei sicher an unser Team senden](/de/kb/devolutions-customer-success/securely-send-file/)
+&nbsp; &nbsp;[Eine Datei sicher an unser Team senden](/de/kb/devolutions-customer-success/securely-send-file/)  
 
-&nbsp; &nbsp;[Ticketsystem](/de/kb/devolutions-customer-success/ticketing-system/)
+&nbsp; &nbsp;[Ticketsystem](/de/kb/devolutions-customer-success/ticketing-system/)  
 
 ## Produkte 
 
