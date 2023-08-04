@@ -1,5 +1,7 @@
 ---
-title: OTP Autofill with DWL
+eleventyComputed:
+  title: OTP autofill with {{ en.DWL }}
+  description: Devolutions Web Login allows to autofill a one-time password (OTP) request with a Website session entry and a Website (Legacy) information entry from {{ en.RDM }}.
 ---
 {{ en.DWL }} allows to autofill a one time password (OTP) request with a ***Website*** session entry and a ***Website (Legacy)*** information entry from {{ en.RDM }}.
 

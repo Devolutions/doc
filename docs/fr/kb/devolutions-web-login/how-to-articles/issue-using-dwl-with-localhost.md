@@ -1,5 +1,6 @@
 ---
-title: Problème lors de l'utilisation de DWL avec Localhost et HTTPS
+eleventyComputed:
+  title: Problème lors de l'utilisation de {{ fr.DWL }} avec Localhost et HTTPS
 ---
 Il est peu probable que {{ fr.DWL }} fonctionne un jour avec HTTPS. Voici quelques-unes des raisons :  
 1. Il est nécessaire de générer un certificat, ce qui entraîne de nombreux problèmes de communication avec les [Certificats pour localhost](https://letsencrypt.org/fr/docs/certificates-for-localhost/) des applications natives. 

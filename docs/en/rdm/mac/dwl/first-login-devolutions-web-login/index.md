@@ -25,7 +25,7 @@ A pop-up window will appear in {{ en.RDM }} to confirm that the request was real
  
 5. Click ***Yes*** in {{ en.RDM }} to accept the association request.  
 ![Association Request](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl4058.png) 
-1. If you click on the DWL icon in your web browser, you can validate that {{ en.DWL }} is now paired to your {{ en.RDM }} .  
+1. If you click on the {{ en.DWL }} icon in your web browser, you can validate that {{ en.DWL }} is now paired to your {{ en.RDM }} .  
 ![Successful Association of {{ en.RDM }} to Devolution Web Login](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl4059.png) 
 
 {% snippet icon.badgeInfo %} 

@@ -24,7 +24,7 @@ A {{ en.HUBB }} access is required to continue.
 ![Entering {{ en.DA }} Credentials](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4023.png) 
 1. Once completed, a login confirmation message will appear.  
 ![Successful Login to the {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4047.png) 
-1. Click on the DWL icon in the toolbar of your web browser to validate that {{ en.DWL }} is now connected to {{ en.HUBB }}.  
+1. Click on the {{ en.DWL }} icon in the toolbar of your web browser to validate that {{ en.DWL }} is now connected to {{ en.HUBB }}.  
 ![Successful Pairing of {{ en.HUBB }} to {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4026.png) 
 1. To select the vaults to be synchronized, click on the ***Vaults*** tab in the ***Side Menu*** , then click the ***Select Vaults to Sync*** button.  
 ![Vaults Tab](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4053.png) 

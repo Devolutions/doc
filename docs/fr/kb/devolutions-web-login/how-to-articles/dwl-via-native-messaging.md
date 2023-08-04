@@ -2,7 +2,7 @@
 title: DWL via la messagerie native
 ---
 {{ fr.DWL }} peut fonctionner sans employer le protocole HTTP(S) en utilisant la messagerie native. Voici comment s’y prendre : 
-1. Dans le navigateur, cliquer sur l’icône de l’extension DWL, puis cliquer sur ***Paramètres***. 
+1. Dans le navigateur, cliquer sur l’icône de l’extension {{ fr.DWL }}, puis cliquer sur ***Paramètres***. 
 1. Sous ***Sources de données***, cliquer sur ***{{ fr.RDM }}***. 
 1. Cliquer sur ***Avancé*** et cocher la case ***Activer la messagerie native*** et ***Enregistrer***.  
 ![!!KB4008.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4008.png) 
@@ -33,5 +33,5 @@ title: DWL via la messagerie native
 1. Vérifier que la clé com.devolutions.rdmnativemessaging existe bel et bien à cet endroit. Dans le cas contraire, en créer une avec le même nom. 
 1. Changer la valeur de chaîne par défaut pour qu’elle corresponde au chemin complet du fichier ***com.devolutions.rdmnativemessaging.json*** dans l’installation de RDM. 
 1. Redémarrer {{ fr.RDM }}. 
-1. Redémarrer {{ fr.DWL }} (ce redémarrage peut s’effectuer en désactivant, puis en réactivant DWL dans l’option ***Gérer les extensions*** du navigateur). 
+1. Redémarrer {{ fr.DWL }} (ce redémarrage peut s’effectuer en désactivant, puis en réactivant {{ fr.DWL }} dans l’option ***Gérer les extensions*** du navigateur). 
 

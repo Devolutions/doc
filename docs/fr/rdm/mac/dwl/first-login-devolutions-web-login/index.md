@@ -26,7 +26,7 @@ Une fenêtre contextuelle apparaîtra dans {{ fr.RDM }} pour confirmer que la re
  
 5. Cliquer sur ***Oui*** dans {{ fr.RDM }} pour accepter la demande d'association.  
 ![Demande d'association](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl4042.png) 
-1. Si vous cliquez sur l'icône DWL dans votre navigateur Web, vous pouvez valider que {{ fr.DWL }} est désormais associé à votre {{ fr.RDM }}.  
+1. Si vous cliquez sur l'icône de {{ fr.DWL }} dans votre navigateur Web, vous pouvez valider que {{ fr.DWL }} est désormais associé à votre {{ fr.RDM }}.  
 ![Association réussie de {{ fr.RDM }} à {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2008.png) 
 
 {% snippet icon.badgeInfo %} 

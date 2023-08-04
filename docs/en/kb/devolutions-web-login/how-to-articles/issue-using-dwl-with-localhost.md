@@ -1,5 +1,6 @@
 ---
-title: Issue Using DWL with Localhost with HTTPS
+eleventyComputed:
+  title: Issue using {{ en.DWL }} with Localhost with HTTPS
 ---
 
 {{ en.DWL }} will probably never work with HTTPS for a few reasons:

@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
   title: Deploy {{ en.DWL }} in Chrome using GPO
-keywords:
-- DWL
-- GPO
+  keywords:
+  - GPO
 ---
 
 {% snippet icon.badgeInfo %}

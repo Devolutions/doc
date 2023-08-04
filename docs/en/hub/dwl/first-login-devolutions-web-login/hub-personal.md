@@ -20,6 +20,6 @@ A {{ en.HUBP }} access is required to continue.
 ![Entering {{ en.DA }} Credentials](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4023.png)
 1. When done, a login confirmation message will appear.  
 ![Successful Login to the {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4051.png)
-1. Click on the DWL icon in the toolbar of your web browser to validate that {{ en.DWL }} is now connected to {{ en.HUBP }}.  
+1. Click on the {{ en.DWL }} icon in the toolbar of your web browser to validate that {{ en.DWL }} is now connected to {{ en.HUBP }}.  
 ![Successful Pairing of {{ en.HUBP }} to {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4052.png)
 
