@@ -1,4 +1,4 @@
 ---
-title: Templates
+title: Vorlagen
 order: 40
 ---

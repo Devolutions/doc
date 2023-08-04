@@ -1,4 +1,4 @@
 ---
-title: Reports
+title: Berichte
 order: 40
 ---

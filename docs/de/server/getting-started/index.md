@@ -1,4 +1,4 @@
 ---
-title: Getting Started
+title: Erste Schritte
 order: 10
 ---

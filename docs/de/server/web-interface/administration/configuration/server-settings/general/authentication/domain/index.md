@@ -1,4 +1,4 @@
 ---
-title: Domain
+title: Domäne
 order: 10
 ---

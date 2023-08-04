@@ -1,4 +1,4 @@
 ---
-title: Vault
+title: Tresor
 order: 60
 ---

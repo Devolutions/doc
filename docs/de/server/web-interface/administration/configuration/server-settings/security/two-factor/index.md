@@ -1,3 +1,3 @@
 ---
-title: Multi-factor
+title: Multi-Faktor
 ---

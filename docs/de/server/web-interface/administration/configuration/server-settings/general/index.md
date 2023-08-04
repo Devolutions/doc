@@ -1,4 +1,4 @@
 ---
-title: General
+title: Allgemein
 order: 10
 ---

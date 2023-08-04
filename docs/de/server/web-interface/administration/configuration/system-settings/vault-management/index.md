@@ -1,3 +1,3 @@
 ---
-title: Vault Management
+title: Tresor Verwaltung
 ---

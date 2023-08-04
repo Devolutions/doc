@@ -1,4 +1,4 @@
 ---
-title: Security Management
+title: Sicherheitsverwaltung
 order: 10
 ---

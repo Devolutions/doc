@@ -1,4 +1,4 @@
 ---
-title: User Groups Based Security
+title: Gruppenbasierte Sicherheit
 order: 50
 ---

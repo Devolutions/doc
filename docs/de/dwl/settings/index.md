@@ -1,4 +1,4 @@
 ---
-title: Settings
+title: Einstellungen
 order: 20
 ---

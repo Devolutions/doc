@@ -1,4 +1,4 @@
 ---
-title: System Settings
+title: Systemeinstellungen
 order: 10
 ---

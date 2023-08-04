@@ -1,4 +1,4 @@
 ---
-title: Advanced
+title: Erweitert
 order: 20
 ---

@@ -1,4 +1,4 @@
 ---
-title: Providers
+title: Anbieter
 order: 20
 ---

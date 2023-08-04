@@ -1,4 +1,4 @@
 ---
-title: Database Instance
+title: Datenbankinstanz
 order: 20
 ---

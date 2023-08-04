@@ -1,4 +1,4 @@
 ---
-title: Vaults
+title: Tresore
 order: 30
 ---

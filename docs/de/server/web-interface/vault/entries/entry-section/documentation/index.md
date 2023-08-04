@@ -1,4 +1,4 @@
 ---
-title: Documentation
+title: Dokumentation
 order: 10
 ---

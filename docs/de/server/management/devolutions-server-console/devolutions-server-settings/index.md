@@ -1,3 +1,3 @@
 ---
-title: Devolutions Server Settings
+title: Devolutions Server Einstellungen
 ---

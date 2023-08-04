@@ -1,4 +1,4 @@
 ---
-title: Entry Templates
+title: Vorlagen
 order: 20
 ---

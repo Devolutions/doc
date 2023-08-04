@@ -1,3 +1,3 @@
 ---
-title: Security Checklist
+title: Sicherheits-Checkliste
 ---

@@ -1,4 +1,4 @@
 ---
-title: Web Interface
+title: Weboberfläche
 order: 40
 ---

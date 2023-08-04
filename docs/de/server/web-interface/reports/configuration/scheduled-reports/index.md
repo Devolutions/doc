@@ -1,4 +1,4 @@
 ---
-title: Scheduled Reports
+title: Geplante Berichte
 order: 10
 ---

@@ -1,3 +1,3 @@
 ---
-title: Batch Grant Access
+title: Zugriff gewähren - Stapelverarbeitung
 ---

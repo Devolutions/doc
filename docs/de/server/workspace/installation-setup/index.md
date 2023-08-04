@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Devolutions Workspace installation and setup with {{ en.DVLS }}
+  title: Devolutions Workspace Installation und Konfiguration mit Devolutions Server
 ---

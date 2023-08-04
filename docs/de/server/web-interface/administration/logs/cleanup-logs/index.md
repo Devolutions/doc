@@ -1,3 +1,3 @@
 ---
-title: Cleanup Logs
+title: Protokolle bereinigen
 ---

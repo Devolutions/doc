@@ -1,4 +1,4 @@
 ---
-title: Logs
+title: Protokolle
 order: 60
 ---

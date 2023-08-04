@@ -1,4 +1,4 @@
 ---
-title: User Groups
+title: Gruppen
 order: 20
 ---

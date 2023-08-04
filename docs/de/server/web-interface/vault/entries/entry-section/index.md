@@ -1,4 +1,4 @@
 ---
-title: Entry Section
+title: Eintragsbereich
 order: 30
 ---

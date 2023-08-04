@@ -1,4 +1,4 @@
 ---
-title: Attachments
+title: Anhänge
 order: 20
 ---

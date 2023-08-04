@@ -1,4 +1,4 @@
 ---
-title: Database
+title: Datenbank
 order: 20
 ---

@@ -1,4 +1,4 @@
 ---
-title: System Permissions
+title: System Berechtigungen
 order: 30
 ---

@@ -1,3 +1,3 @@
 ---
-title: Side Menu
+title: Menü
 ---

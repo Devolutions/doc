@@ -1,4 +1,4 @@
 ---
-title: Account Menu
+title: Konto
 order: 20
 ---
