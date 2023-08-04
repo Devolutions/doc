@@ -10,4 +10,4 @@ Es fehlt die Spalte ***Name***.
 Klicken Sie auf ***Fenster - Layout zurücksetzen***, um die Spalte ***Name*** wieder anzuzeigen.  
 ![!!KB4086.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4086.png)
 ### Lösung 3
-Aktualisieren Sie den lokalen Cache. Weitere Informationen finden Sie unter [Caching](/kb/remote-desktop-manager/troubleshooting-articles/caching/).
+Aktualisieren Sie den lokalen Cache. Weitere Informationen finden Sie unter [Caching](/de/kb/remote-desktop-manager/troubleshooting-articles/caching/).

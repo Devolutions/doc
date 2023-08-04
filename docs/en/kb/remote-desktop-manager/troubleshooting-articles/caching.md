@@ -1,5 +1,6 @@
 ---
 title: Caching
+status: Topic available in German language
 ---
 You are not seeing the content that you're expecting to see in the Navigation pane.  
 
