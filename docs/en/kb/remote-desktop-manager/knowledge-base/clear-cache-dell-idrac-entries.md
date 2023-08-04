@@ -8,9 +8,10 @@ The Integrated Dell Remote Access Controller (iDRAC) provides secure on-site and
 
 1. In {{ en.RDM }}, select ***Files*** – ***Options***.
 1. Go to ***Types – Website – Google Chrome***.
-![Types – Website – Google Chrome](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6059.png) 
 1. Click ***Clear Cache***.
-![Clear Cache](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6060.png) 
-1. Click ***OK***.
+![Types – Website – Google Chrome](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6059.png)  
+A pop-up window opens to confirm that the cache of Dell iDrac entries has been cleared.
+![Clear Cache window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6060.png)  
+1. Click ***OK*** to close the window.  
 
-The cache of the Dell iDrac entries has been deleted. 
+The cache of Dell iDrac entries has been cleared.
