@@ -1,5 +1,6 @@
 ---
 title: Installation Requirements
+status: Topic available in German language
 ---
 The following describe what you will need to install before installing {{ en.DVLS }}.
 
