@@ -20,11 +20,11 @@ In der folgenden Tabelle sind die empfohlenen Mindestanforderungen an die Hardwa
 
 ## Software-Abhängigkeiten
 
-* Microsoft SQL Server 2012/2014/2016/[2017](https://www.microsoft.com/en-ca/sql-server/sql-server-2017-editions)/[2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022) (einschließlich Express-Editionen). 
+* Microsoft SQL Server 2012/2014/2016/[2017](https://www.microsoft.com/de-de/sql-server/sql-server-2017)/[2019](https://www.microsoft.com/de-de/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/de-de/sql-server/sql-server-2022) (einschließlich Express-Editionen). 
 * Azure SQL-Datenbank wird nur mit SQL-Anmeldekonten unterstützt. Azure Active Directory-Konten werden nicht unterstützt. 
 * Windows 10, Windows 11, Windows Server 2012R2 (nicht kompatibel mit Devolutions Gateway), 2016, 2019 und 2022. 
 * Funktionsebene von Domain und Gesamtstruktur mindestens Windows Server 2012R2 oder höher. 
-* Microsoft .NET Framework 4.8 (Bitte beachten Sie die [Voraussetzungen für das .NET Framework](https://msdn.microsoft.com/en-us/library/8z6watww%28v=vs.110%29.aspx) für Betriebssysteme). 
+* Microsoft .NET Framework 4.8 (Bitte beachten Sie die [Voraussetzungen für das .NET Framework](https://learn.microsoft.com/de-de/dotnet/framework/get-started/system-requirements) für Betriebssysteme). 
 * Microsoft .NET 6.0 (ASP.NET Core Runtime 6.0.19). 
 * Internetinformationsdienste (IIS) 7.0 oder höher. 
 * Zur Verwaltung der Instanz(en) von {{ de.DVLS }} muss die {{ de.DVLSCONSOLE }} auf dem Server installiert sein.. 
