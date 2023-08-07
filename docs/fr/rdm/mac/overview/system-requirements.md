@@ -1,7 +1,7 @@
 ---
 title: Configuration du système
 ---
-{{ fr.RDM }} Mac requiert la configuration suivante avant l'installation. 
+{{ fr.RDMMAC }} requiert la configuration suivante avant l'installation. 
 
 ## Configuration minimale 
 

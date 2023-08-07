@@ -6,7 +6,7 @@ eleventyComputed:
 The ***Access code*** is a credential entry that gives a simplified interface to users, providing only the ***View Password*** and ***Copy Password*** actions.  
 
 {% snippet icon.badgeInfo %}
-The configuration of the ***Access code*** entry is also valid for {{ en.RDM }} macOS.
+The configuration of the ***Access code*** entry is also valid for {{ en.RDMMAC }}.
 {% endsnippet %}
 
 1. Go to the data source vault in which you want to create the ***Access code entry*** in the ***Navigation Pane***.  

@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Checklist for individuals
   order: 20
-  description: Here is a checklist to help you get started with {{ en.RDM }} Mac for individuals.
+  description: Here is a checklist to help you get started with {{ en.RDMMAC }} for individuals.
 ---
-Here is a checklist to help you get started with {{ en.RDM }} Mac for individuals. 
+Here is a checklist to help you get started with {{ en.RDMMAC }} for individuals. 
 
 First [download](https://devolutions.net/remote-desktop-manager/home/download/) and install {{ en.RDMMAC }} before proceeding.
 
@@ -26,7 +26,7 @@ Step 1 - Register your license
 
 		</td>
 		<td>
-{{ en.RDM }} Team Edition for Mac grants you a 30-day trial. If you decide not to register by the end of the trial, your data will not be altered or erased, and you will have full access to it once you provide a license key.  
+{{ en.RDMMAC }} Team Edition grants you a 30-day trial. If you decide not to register by the end of the trial, your data will not be altered or erased, and you will have full access to it once you provide a license key.  
 		</td>
 	</tr>
 	<tr>

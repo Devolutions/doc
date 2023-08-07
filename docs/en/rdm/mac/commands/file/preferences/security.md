@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Security
-  description: Security options in {{ en.RDM }} Mac
+  description: Security options in {{ en.RDMMAC }}
 ---
 
 Use File - Preferences - Security to configure the security of the application. 

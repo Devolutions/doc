@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Checklist for enterprises
   order: 40
-  description: Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} Mac for the first time when working in an enterprise environment using a {{ en.DVLS }} or {{ en.DHUBB }} data source.  
+  description: Here is a checklist designed to help IT administrators install and configure {{ en.RDMMAC }} for the first time when working in an enterprise environment using a {{ en.DVLS }} or {{ en.DHUBB }} data source.  
 ---
-Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} Mac for the first time when working in an enterprise environment using a {{ en.DVLS }} or {{ en.DHUBB }} data source.  
+Here is a checklist designed to help IT administrators install and configure {{ en.RDMMAC }} for the first time when working in an enterprise environment using a {{ en.DVLS }} or {{ en.DHUBB }} data source.  
 
 First [download](https://devolutions.net/remote-desktop-manager/home/download/) and install {{ en.RDMMAC }} before proceeding.  
 
