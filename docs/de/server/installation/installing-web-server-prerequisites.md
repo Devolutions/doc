@@ -9,38 +9,36 @@ Die Installation von {{ de.DVLS }} wird von Windows 10, Windows 11, Windows Serv
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Als Webanwendung benötigt {{ de.DVLS }} den IIS Manager, das [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), das [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a), das [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) und bestimmte Web Server-Rollen auf dem Rechner, auf dem es gehostet wird. 
+Als Webanwendung benötigt {{ de.DVLS }} den IIS Manager, das [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), das [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a), das [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) und bestimmte Web Server-Rollen auf dem Rechner, auf dem es gehostet wird. Diese Voraussetzungen können über die {{ de.DVLSCONSOLE }}  installiert werden oder über ein vorhandenes Powershell-Skript, das mit der {{ de.DVLSCONSOLE }}  bereitgestellt wird. 
 {% endsnippet %}
  
-Es ist möglich, die Voraussetzungen zu installieren. Der IIS Manager und das URL Rewrite Module sind in der {{ de.DVLSCONSOLE }} enthalten oder werden durch ein PowerShell-Skript installiert, das mitgeliefert wird {{ de.DVLSCONSOLE }}.  
-
-![Web Roles needed for Devolutions Server](https://webdevolutions.azureedge.net/docs/de/server/clip10313.png) 
+![Für Devolutions Server benötigte Web-Rollen](https://webdevolutions.azureedge.net/docs/de/server/clip10313.png) 
 
 {% snippet icon.badgeInfo %} 
-Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/) or from the PowerShell script require internet access to download [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) , the [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) and [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) . 
+Die Installation der Voraussetzungen über die [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/) oder über das PowerShell-Skript erfordert einen Internetzugang zum Herunterladen des [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), des [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) und [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492). 
 {% endsnippet %}
  
-### Steps 
+### Schritte 
 
-Here are the two different methods available to install the prerequisites:  
+Hier sind die zwei verschiedenen Methoden zur Installation der Voraussetzungen:  
 
-1. {{ en.DVLSCONSOLE }} . 
-    1. Open the [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/) . 
-    1. Go in the Support tab and click on the IIS Diagnostic button.  
-![!!ServerOp8162.png](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8162.png)  
-    3. Click on the Install Prerequisites button to run the PowerShell script.  
+1. {{ en.DVLSCONSOLE }}.  
+    1. Öffnen Sie die [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/).  
+    1. Gehen Sie zur Registerkarte ***Support*** und klicken Sie auf ‚***IIS-Diagnose***.  
+    ![!!ServerOp8162.png](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8162.png)  
+    1. Klicken Sie auf ***Voraussetzungen installieren***, um das PowerShell-Skript auszuführen.  
 
 {% snippet icon.badgeInfo %} 
-This window will only appear if a prerequisite is missing during a new installation or an update. 
+Dieses Fenster wird nur angezeigt, wenn bei einer Neuinstallation oder einer Aktualisierung eine Voraussetzung fehlt.. 
 {% endsnippet %}
  
-![!!ServerOp8171.png](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8171.png)  
+   ![!!ServerOp8171.png](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8171.png)  
 
-2. PowerShell command line 
-    1. Run Windows PowerShell with elevated privileges. 
-    1. Change the current path to the sub-folder Scripts that is located in the current installation folder of {{ en.DVLSCONSOLE }} . ( C:\Program Files (x86)\Devolutions\Devolutions Server Console\Scripts ) 
-    ![Location of PowerShell script](https://webdevolutions.azureedge.net/docs/de/server/clip10311.png)  
-    1. Run the script DVLS-Prerequisites.ps1. 
-    1. The script will install the missing web roles and these components : IIS URL Rewrite Module, IIS Application Request Routing Module and IIS [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) Core Module. 
+2. PowerShell-Befehlszeile 
+    1. Führen Sie Windows PowerShell mit erweiterten Rechten aus. 
+    1. Ändern Sie den aktuellen Pfad zum Unterordner Scripts, der sich im aktuellen Installationsordner der Devolutions Server-Konsole befindet. (C:\Program Files (x86)\Devolutions\Devolutions Server Console\Scripts)  
+    ![Speicherort des PowerShell-Skripts](https://webdevolutions.azureedge.net/docs/de/server/clip10311.png)  
+    1. Führen Sie das Skript DVLS-Prerequisites.ps1. aus. 
+    1. Das Skript installiert die fehlenden Webrollen und diese Komponenten: IIS URL Rewrite Module, IIS Application Request Routing Module und IIS [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) Core Module. 
     ![!!ServerOp4020.png](https://webdevolutions.azureedge.net/docs/de/server/ServerOp4020.png) 
 
