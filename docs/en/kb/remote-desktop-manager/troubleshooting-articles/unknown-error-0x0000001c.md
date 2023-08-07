@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: RDM {{ en.MAC }} Unknown Error (0x0000001C)
+  title: Remote Desktop Manager {{ en.MAC }} Unknown Error (0x0000001C)
 ---
-When trying to connect to an RDP host in {{ en.RDM }} macOS you get the error message: Unknown error (0x0000001C).
+When trying to connect to an RDP host in {{ en.RDMMAC }} you get the error message: Unknown error (0x0000001C).
 ### Solution
 The workaround is to increase the default ***TCP acknowledgement timeout*** to 30 seconds (30000).  
 

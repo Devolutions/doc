@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: RDM {{ en.MAC }} Enable Smart Cards Authentication
+  title: Remote Desktop Manager {{ en.MAC }} Enable Smart Cards Authentication
 ---
-Here are the steps to enable the ***Smart Cards Authentication*** in {{ en.RDM }} for {{ en.MAC }}  
+Here are the steps to enable the ***Smart Cards Authentication*** in {{ en.RDMMAC }}:  
 
 1. In an RDP session, enable the ***Smart cards*** device under the ***Local Ressources*** tab.  
 ![!!KB4624.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4624.png)

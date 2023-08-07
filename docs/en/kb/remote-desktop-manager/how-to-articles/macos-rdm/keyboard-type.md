@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: RDM {{ en.MAC }} Keyboard Type
+  title: Remote Desktop Manager {{ en.MAC }} Keyboard Type
   description: Keyboard keycodes vary based on the type of keyboard used, with minor differences between them.
 ---
 Keyboard keycodes vary based on the type of keyboard used, with minor differences between them. Some keyboard types may have more significant differences in key placement or function.

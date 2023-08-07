@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: RDM {{ en.MAC }} Sound Issue
+  title: Remote Desktop Manager {{ en.MAC }} Sound Issue
 ---
-When launching an RDP entry, who is set up with approval for sound, {{ en.RDM }} macOS users cannot hear on the remote even though Windows detects remote audio.
+When launching an RDP entry, who is set up with approval for sound, {{ en.RDMMAC }} users cannot hear on the remote even though Windows detects remote audio.
 ### Solution
 A computer policy setting in Windows needs to be changed.  
 

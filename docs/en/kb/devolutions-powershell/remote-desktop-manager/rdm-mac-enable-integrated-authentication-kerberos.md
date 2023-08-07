@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: RDM {{ en.MAC }} Enable Integrated Authentication with Kerberos
+  title: Remote Desktop Manager {{ en.MAC }} Enable Integrated Authentication with Kerberos
 ---
 In order to use Integrated Authentication (Windows Authentication) on macOS, you will need to setup a ***Kerberos***   ***ticket*** linking your current user to a Windows domain account. A summary of key steps are included below.  
 

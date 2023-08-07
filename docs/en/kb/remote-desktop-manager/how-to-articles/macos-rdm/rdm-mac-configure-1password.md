@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: RDM {{ en.MAC }} Configure 1Password
+  title: Remote Desktop Manager {{ en.MAC }} Configure 1Password
 ---
-You can create 1Password credential entries in {{ en.RDM }} for Mac, however, 1Password needs to be configured to allow the sync of the database.  
+You can create 1Password credential entries in {{ en.RDMMAC }}, however, 1Password needs to be configured to allow the sync of the database.  
 
 1. Open 1Password and select the vault that you want to sync with {{ en.RDM }} for Mac.  
 ![!!KB4184.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4184.png)

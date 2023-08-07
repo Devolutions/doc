@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: RDM {{ en.MAC }} Typing Macro to Perform Authentication
+  title: Remote Desktop Manager {{ en.MAC }} Typing Macro to Perform Authentication
 ---
 With {{ en.RDM }} for Mac, it is possible to send the credential through a typing macro using variables.  
 
