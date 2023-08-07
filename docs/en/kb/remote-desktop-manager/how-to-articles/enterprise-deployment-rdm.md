@@ -1,5 +1,5 @@
 ---
-title: Enterprise Deployment of RDM
+title: Enterprise Deployment of Remote Desktop Manager
 keywords:
 - silent
 - unattended

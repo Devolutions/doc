@@ -8,4 +8,4 @@ By deleting a file, it is possible to clear the web browser cache, in the instal
 1. Close {{ en.RDM }}.
 2. Locate the file EO.WebBrowser.Cache.
 3. Delete the file.
-4. Restart RDM.
+4. Restart Remote Desktop Manager.

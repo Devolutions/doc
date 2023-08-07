@@ -24,7 +24,7 @@ The ***Redirect URI***   setting   MUST be configured ***Public client/native (m
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-In our example the ***Redirect URI***   is set to https<area>://mycompany.com, but we suggest you personalize it to the domain of your company home page. This will be necessary in the authentication step of the topic [Configure RDM Active Directory Interactive (with MFA)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-older-version-ad-interactive-mfa/) . 
+In our example the ***Redirect URI***   is set to https<area>://mycompany.com, but we suggest you personalize it to the domain of your company home page. This will be necessary in the authentication step of the topic [Configure Remote Desktop Manager Active Directory Interactive (with MFA)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-older-version-ad-interactive-mfa/) . 
 {% endsnippet %}
  
 ![!!RdmWin4053.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4053.png) 

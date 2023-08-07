@@ -1,5 +1,5 @@
 ---
-title: RDM Typing Macro to Perform Authentication
+title: Remote Desktop Manager Typing Macro to Perform Authentication
 ---
 With {{ en.RDM }} , it is possible to send credentials through a typing macro using variables.
 

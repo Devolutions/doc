@@ -1,5 +1,5 @@
 ---
-title: Force Quit RDM Application
+title: Force Quit Remote Desktop Manager Application
 ---
 Here are some steps to follow in the event {{ en.RDM }} crashes and you need to force quit the application.
 ### Solution
@@ -9,5 +9,5 @@ Here are some steps to follow in the event {{ en.RDM }} crashes and you need to 
 4. In the ***Processes*** tab, locate and ***End tasks*** on all {{ en.RDM }} applications that might be running.
 5. Launch {{ en.RDM }}  
 {% snippet icon.badgeHelp %}
-In the event {{ en.RDM }} still crashes at relaunch, try a [Portable RDM Installation](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/)
+In the event {{ en.RDM }} still crashes at relaunch, try a [Portable Remote Desktop Manager Installation](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/)
 {% endsnippet %}

@@ -1,5 +1,5 @@
 ---
-title: RDM Android Import Data Source Configuration
+title: Remote Desktop Manager Android Import Data Source Configuration
 ---
 It is possible to import data source configuration files for {{ en.RDM }} Android.
 
@@ -7,8 +7,8 @@ It is possible to import data source configuration files for {{ en.RDM }} Androi
 ![!!KB4181.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4181.png)
 1. Select the .rdd file exported from {{ en.RDM }} and transfer it on your Android via the Windows File Explorer.  
 
-   The file is now copied in the device but still needs to be imported in {{ en.RDM }} for Android file repository.
-3. From the Android device, launch {{ en.RDM }} for Android and tap ***Data Sources*** from the side menu.
+   The file is now copied in the device but still needs to be imported in {{ en.RDM }} Android file repository.
+3. From the Android device, launch {{ en.RDM }} Android and tap ***Data Sources*** from the side menu.
 1. Tap on the ***Ellipsis*** icon at the top right and tap ***Import***.
 1. Select the rdd file imported and tap ***Select***.  
 ![!!KB4182.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4182.png)

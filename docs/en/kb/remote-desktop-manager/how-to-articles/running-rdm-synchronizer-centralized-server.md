@@ -1,5 +1,5 @@
 ---
-title: Running RDM Synchronizer from a Centralized Server
+title: Running Remote Desktop Manager Synchronizer from a Centralized Server
 ---
 In order to prevent your computer from being overloaded by background tasks, such as Synchronizer, perform these tasks on centralized servers.
 

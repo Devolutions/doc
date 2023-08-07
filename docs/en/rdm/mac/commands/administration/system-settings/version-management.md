@@ -1,7 +1,7 @@
 ---
 title: Version Management
 ---
-You can manage your {{ en.RDM }} versions for Windows, Mac, Android or IOS. 
+You can manage your {{ en.RDM }} versions for Windows, Mac, Android or iOS. 
 
 ### Version Management 
 
@@ -50,10 +50,10 @@ Used in conjunction with the minimal or maximal version, once a minimal or maxim
 	</tr>
 	<tr>
 		<td>
-Allow access from RDM 
+Allow access from Remote Desktop Manager 
 		</td>
 		<td>
-Disable option to exclude some client on different platform like Windows, Mac, IOS or Android. 
+Disable option to exclude some client on different platform like Windows, Mac, iOS or Android. 
 		</td>
 	</tr>
 	<tr>

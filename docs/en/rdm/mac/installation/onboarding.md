@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Onboarding
-  description: When opening your RDM application for the first time, an Onboarding process will begin to help you get started with {{ en.RDMMAC }}.
+  description: When opening your Remote Desktop Manager application for the first time, an Onboarding process will begin to help you get started with {{ en.RDMMAC }}.
 ---
-When opening your RDM application for the first time, an Onboarding process will begin to help you get started with {{ en.RDMMAC }}. Here are the steps that you will go through during this initial configuration.
+When opening your Remote Desktop Manager application for the first time, an Onboarding process will begin to help you get started with {{ en.RDMMAC }}. Here are the steps that you will go through during this initial configuration.
 
 ## Step 1: Create your data source
 
@@ -28,7 +28,7 @@ Select the data source you are going to use:
 * [***{{ en.DHUBB }}***](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/): Select {{ en.DHUBB }} for a highly-secure, flexible and easy-to-use cloud-based password management solution for team environments. You will then be prompted to enter your ***Email*** to connect to your {{ en.DA }}, and to select which of your {{ en.HUB }}s to use (if you have access to multiple ones).
 * [***{{ en.DVLS }}***](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/): Select {{ en.DVLS }} for a highly-secure, self-hosted server application for team environments. You will then be prompted to enter the {{ en.DVLS }} ***Host*** and the ***Username*** you use to connect to it.
 * ***Other***: Select this option if your data source does not appear in this list. You will then be prompted to select another data source type and to enter information to configure it. The information to provide depends on the data source.
-* ***Data Source Configuration (.rdd)***: Select this option if you have previously exported and saved a data source configuration file (.rdd) and want to import it in your RDM application. You will then be prompted to select the file on your computer.
+* ***Data Source Configuration (.rdd)***: Select this option if you have previously exported and saved a data source configuration file (.rdd) and want to import it in your Remote Desktop Manager application. You will then be prompted to select the file on your computer.
 
 ## Step 2: Manage your entries
 

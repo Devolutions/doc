@@ -1,5 +1,5 @@
 ---
-title: Hung RDM Dump File Creation
+title: Hung Remote Desktop Manager Dump File Creation
 ---
 {% snippet icon.badgeCaution %}
 Follow this procedure ONLY when guided by a Devolutions support specialist.
@@ -13,7 +13,7 @@ The following procedure makes use of a tool offered by Microsoft's Technet, name
 1. Download and install the [Sysinternals Suite](https://learn.microsoft.com/en-ca/sysinternals/downloads/) utilities.
 1. From the installation folder start the application procexp64.exe or procexp.exe
 1. Launch {{ en.RDM }}
-1. Replicate the steps that trigger the issue in RDM.
+1. Replicate the steps that trigger the issue in Remote Desktop Manager.
 1. In the ***Process Explorer*** right-click the RemoteDesktopManager.exe process.
 1. Select ***Create Dump - Create Minidump***
 1. Save the RemoteDesktopManager.dmp file.

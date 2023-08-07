@@ -10,7 +10,7 @@ There are multiple problems that can be caused by high DPI in RDP sessions, the 
 * RDP connections are tiny 
 * RDP connections are big 
 * RDP connections always have a scroll bar 
-* RDM is blurry 
+* Remote Desktop Manager is blurry 
 * 4K resolution issues 
 ## Solution 
 There are multiple methods on how to solve these issues. 

@@ -22,7 +22,7 @@ Le ***Redirect URI*** DOIT être configuré avec ***Public client/native (mobile
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Dans notre exemple, l'URI de redirection est défini sur https<area>://mycompany.com, mais nous vous suggérons de le personnaliser en fonction du domaine de la page d'accueil de votre entreprise. Cela sera nécessaire dans l'étape d'authentification du sujet [Configurer RDM Active Directory Interactive (avec MFA)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/) . 
+Dans notre exemple, l'URI de redirection est défini sur https<area>://mycompany.com, mais nous vous suggérons de le personnaliser en fonction du domaine de la page d'accueil de votre entreprise. Cela sera nécessaire dans l'étape d'authentification du sujet [Configurer Remote Desktop Manager Active Directory Interactive (avec MFA)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/) . 
 {% endsnippet %}
  
 ![!!RdmWin4108.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4108.png) 

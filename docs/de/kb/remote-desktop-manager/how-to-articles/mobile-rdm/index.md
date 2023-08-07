@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Mobile {{ de.RDM }}
+  title: Remote Desktop Manager Mobile
   order: 20
 ---

@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP Sessions Work Using mstsc.exe but not in RDM
+title: Microsoft RDP Sessions Work Using mstsc.exe but not in Remote Desktop Manager
 ---
 This topic describes the troubleshooting steps for when establishing a session to a remote host reacts differently in {{ en.RDM }} than mstsc.exe.
 

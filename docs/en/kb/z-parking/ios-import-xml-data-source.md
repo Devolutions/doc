@@ -1,9 +1,9 @@
 ---
-title: RDM iOS Import XML Data Source
+title: Remote Desktop Manager iOS Import XML Data Source
 ---
-You can import an XML data source in {{ en.RDM }} for iOS by creating a new XML data source.  
+You can import an XML data source in {{ en.RDM }} iOS by creating a new XML data source.  
 
-1. To import an XML file in {{ en.RDM }} for iOS, connect your device on your computer and open iTunes.
+1. To import an XML file in {{ en.RDM }} iOS, connect your device on your computer and open iTunes.
 1. In iTunes, select your device and click on the ***Apps*** section.  
 ![!!KB4167.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4167.png)
 1. In the ***File Sharing*** section select {{ en.RDM }} and click ***Add***  

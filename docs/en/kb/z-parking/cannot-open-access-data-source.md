@@ -1,11 +1,11 @@
 ---
 title: Access data source cannot open
-description: The access data source is only supported by Microsoft in 32bit. Please use RDM 32bit instead.
+description: The access data source is only supported by Microsoft in 32bit. Please use Remote Desktop Manager 32bit instead.
 keywords:
 - Access data source
 - 32bit
 ---
-Receiving the following message upon opening an Access Datasource: ***The Access data source is only supported by Microsoft in 32bit. Please use RDM 32bit instead***.
+Receiving the following message upon opening an Access Datasource: ***The Access data source is only supported by Microsoft in 32bit. Please use Remote Desktop Manager 32bit instead***.
 
 ![RDM Access data source error window](https://webdevolutions.azureedge.net/docs/en/kb/KB2002.png) 
 

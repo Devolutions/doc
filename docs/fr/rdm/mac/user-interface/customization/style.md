@@ -14,10 +14,10 @@ Pour sélectionner le style d' ***Interface utilisateur*** , vous devez aller da
 ### Ruban 
 
 Les icônes et le texte facilitent l'exploration des fonctionnalités avec le style Ruban .  
-![Écran principal RDM - Style ruban](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4320.png) 
+![Écran principal Remote Desktop Manager - Style ruban](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4320.png) 
 
 ### Classique 
 
 Style classique de version précédente, il contient un menu standard pour invoquer des commandes.  
-![Écran principal RDM - Style classique](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4321.png) 
+![Écran principal Remote Desktop Manager - Style classique](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4321.png) 
 

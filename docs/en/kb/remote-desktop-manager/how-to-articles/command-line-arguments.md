@@ -65,7 +65,7 @@ Example #3 - Register the application
 
 `RemoteDesktopManager.exe /RegisterUser:"First name, Last name" /RegisterSerial:"xxxxx-xxxxx-xxxxx-xxxxx-xxxxx"`
 
-Example #4 - Start RDM with the profiler
+Example #4 - Start Remote Desktop Manager with the profiler
 
 `RemoteDesktopManager.exe /Profiler`
 

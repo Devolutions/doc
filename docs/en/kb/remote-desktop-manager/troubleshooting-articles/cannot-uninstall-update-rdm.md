@@ -1,5 +1,5 @@
 ---
-title: Cannot Uninstall/Update RDM
+title: Cannot Uninstall/Update Remote Desktop Manager
 ---
 This issue will appear when a user tries to Upgrade or Uninstall {{ en.RDM }} Uninstalling {{ en.RDM }} with Windows's Program and Features will not work.
 ## Solution

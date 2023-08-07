@@ -2,7 +2,7 @@
 title: Umstellung von Sicherheitsgruppen auf Nutzergruppen
 ---
 {% snippet icon.badgeInfo %}
-Sicherheitsgruppen sind ab der Version 2023.3 von RDM veraltet. 
+Sicherheitsgruppen sind ab der Version 2023.3 von Remote Desktop Manager veraltet. 
 {% endsnippet %}
 
 Im {{ de.RDM }} kann der Zugriff auf Ihre Objekte mithilfe der ***auf Nutzergruppen basierenden Zugriffskontrolle*** gesichert und verwaltet werden. Diese Art der Absicherung gibt Ihnen eine detailliertere Kontrolle über Ihre Sicherheit..  

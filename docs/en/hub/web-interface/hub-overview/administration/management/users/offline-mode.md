@@ -5,7 +5,7 @@ In the ***Users*** section, you can enable the offline mode for specific users. 
 
 1. Go to ***Administration – Users*** . 
 1. Click on the ***Edit*** pencil icon next to the user. 
-1. In the ***User*** section, check ***Allow offline in RDM*** . 
+1. In the ***User*** section, check ***Allow offline in Remote Desktop Manager*** . 
 1. Click ***Update*** to save. 
 
 {% snippet icon.badgeCaution %} 

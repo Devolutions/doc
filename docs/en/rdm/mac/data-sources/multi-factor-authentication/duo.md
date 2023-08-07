@@ -1,6 +1,6 @@
 ---
 title: Duo
-description: Remote Desktop Manager for Mac allows you to configure a Duo authentication to provide an additional security layer when opening a data source.
+description: Remote Desktop Manager macOS allows you to configure a Duo authentication to provide an additional security layer when opening a data source.
 keywords:
 - Duo authentication
 ---

@@ -79,7 +79,7 @@ Use Devolutions Workspace or Google Authenticator device to get access to the ap
 Override account name 
 		</td>
 		<td>
-If you wish to use a different Devolutions Workspace or Google Authenticator account than the one previously linked to your RDM account, you could override the account name but you will have to reconfigure it.
+If you wish to use a different Devolutions Workspace or Google Authenticator account than the one previously linked to your Remote Desktop Manager account, you could override the account name but you will have to reconfigure it.
 		</td>
 	</tr>
 </table>

@@ -102,7 +102,7 @@ In a Terminal Services environment, it should be saved at this location:
 
 * %APPDATA%\Devolutions\RemoteDesktopManager<Datasource ID>.shk 
 
-In a portable installation of RDM, the passphrase will be saved at the same location as the portable {{ en.RDM }} instance. 
+In a portable installation of Remote Desktop Manager, the passphrase will be saved at the same location as the portable {{ en.RDM }} instance. 
 
 ## Certificate 
 

@@ -1,7 +1,7 @@
 ---
 title: AdalException Error
 ---
-When using ***Integrated Security*** as an authentication method, RDM returns an error beginning with the following text:  
+When using ***Integrated Security*** as an authentication method, Remote Desktop Manager returns an error beginning with the following text:  
 
 AggregateException - One or more errors occurred following with an AdalException error.
 ### Solution

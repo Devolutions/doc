@@ -1,5 +1,5 @@
 ---
-title: RDM iOS Send RDP logs to Support
+title: Remote Desktop Manager iOS Send RDP logs to Support
 ---
 Follow these steps to send sessions logs to our support team when encountering an issue with RDP.  
 

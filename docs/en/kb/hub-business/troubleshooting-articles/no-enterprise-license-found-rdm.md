@@ -1,5 +1,5 @@
 ---
-title: No Team License Found in RDM with HUB
+title: No Team License Found in Remote Desktop Manager with HUB
 ---
 With a valid {{ en.RDM }} license, you get prompt with the error message ***No Team License Found*** in version 2022.3.X linked with a {{ en.HUBB }} data source.
 

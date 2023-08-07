@@ -33,4 +33,4 @@ The new jump integration will give you the possibility to jump through a DMZ zon
    4. The waiting time for the VPN session can be reduced by changing the Delay. The delay is set to 1 second below.  
       ![!!KB4227.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4227.png)  
 
-Both sessions are configured and you are ready to start the RDP session, everything else will be performed automatically by RDM.
+Both sessions are configured and you are ready to start the RDP session, everything else will be performed automatically by Remote Desktop Manager.

@@ -1,5 +1,5 @@
 ---
-title: Services en ligne de RDM
+title: Services en ligne de Remote Desktop Manager
 order: 110
 ---
 Depuis les ***{{ fr.RDMOS }}***, vous pouvez télécharger votre ***{{ fr.CI }}***, consulter et gérer votre ***{{ fr.OD }}*** et vos fichiers de ***Sauvegarde en ligne***. 

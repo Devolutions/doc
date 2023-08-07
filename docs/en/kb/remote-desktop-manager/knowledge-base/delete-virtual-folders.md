@@ -31,7 +31,7 @@ Delete duplicate folders before running the PowerShell script from the new entry
 1. Add the following script:  
 
 ```powershell
-#check if RDM PS module is installed
+#check if Remote Desktop Manager PS module is installed
 if(-not (Get-Module Devolutions.PowerShell -ListAvailable)){
     Install-Module Devolutions.PowerShell -Scope CurrentUser
 }

@@ -15,7 +15,7 @@ Avec la licence stockée dans une [Source de données avancée](/fr/rdm/windows/
 ![Gestion des usagers et de la sécurité – Licences](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4118.png) 
 1. Saisir la ***Licence*** .  
 ![Licence](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4000.png) 
-1. Facultatif: Cocher la case ***Assignation automatique*** pour fournir automatiquement la clé de licence RDM à tous les utilisateurs nouvellement créés. 
+1. Facultatif: Cocher la case ***Assignation automatique*** pour fournir automatiquement la clé de licence Remote Desktop Manager à tous les utilisateurs nouvellement créés. 
 1. Cliquer sur ***OK*** pour enregistrer. 
 
 Votre licence est maintenant enregistrée dans la source de données avancée. Suivre la rubrique suivante pour [Assigner automatiquement les nouveaux utilisateurs](/fr/rdm/windows/commands/administration/management/licenses/assign/) sélectionnés, supprimant ainsi le besoin d'interagir localement avec leur {{ fr.RDM }} . 

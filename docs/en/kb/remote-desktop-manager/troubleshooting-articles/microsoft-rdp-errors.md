@@ -15,9 +15,9 @@ Screen areas unresponsive in embedded sessions
 
 ### Solution 2
 
-This most often occurs on systems that use a DPI setting of more than 100%. To disable scaling in RDM you must adjust the compatibility settings on the Windows shortcut for RDM.  
+This most often occurs on systems that use a DPI setting of more than 100%. To disable scaling in Remote Desktop Manager you must adjust the compatibility settings on the Windows shortcut for Remote Desktop Manager.  
 
-1. Right-click on the shortcut to RDM.
+1. Right-click on the shortcut to Remote Desktop Manager.
 1. Select Properties.
 1. Go to the Compatibility tab.
 1. Check Disable display scaling on high DPI settings.  

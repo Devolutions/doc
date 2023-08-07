@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft VPN with Preshared Key
 ---
-The VPN L2TP configuration in RDM required a Phonebook file. We are also adding a PowerShell script in the VPN session to add the VPN in Windows and inject the Passphrase. Steps are simple but require precise information. In the first step, we need a Phonebook file. I do not cover this example as too many Google search examples exist.  
+The VPN L2TP configuration in Remote Desktop Manager required a Phonebook file. We are also adding a PowerShell script in the VPN session to add the VPN in Windows and inject the Passphrase. Steps are simple but require precise information. In the first step, we need a Phonebook file. I do not cover this example as too many Google search examples exist.  
 
 1. Create a phonebook entry with the PBK file.
 1. We will configure a Microsoft VPN session.

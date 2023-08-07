@@ -21,7 +21,7 @@ Ces exigences sont requises seulement si vous avez l'intention d'utiliser la cr�
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiques : RDM Admins, RDM Operators, RDM Users . 
+Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiques : Remote Desktop Manager Admins, Remote Desktop Manager Operators, Remote Desktop Manager Users . 
 		</td>
 	</tr>
 	<tr>

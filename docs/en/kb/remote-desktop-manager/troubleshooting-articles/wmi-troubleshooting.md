@@ -3,7 +3,7 @@ title: WMI troubleshooting
 description: In our environment, we basically run winrm quickconfig on all our machines. For those not joined to a domain, we also add them to the TrustedHosts list. For machines not joined to a domain, there is an added difficulty. If you are using the IP address instead of the host name, it definitely offers a few challenges.
 ---
 {% snippet icon.badgeInfo %}
-Note that remote tools in RDP sessions will not work in RDM if you do not have WMI. Consult this [guide on remote WMI](https://msdn.microsoft.com/en-us/library/aa389290.aspx).
+Note that remote tools in RDP sessions will not work in Remote Desktop Manager if you do not have WMI. Consult this [guide on remote WMI](https://msdn.microsoft.com/en-us/library/aa389290.aspx).
 {% endsnippet %}  
 
 In our environment, we basically run winrm quickconfig on all our machines. For those not joined to a domain, we also add them to the TrustedHosts list. For machines not joined to a domain, there is an added difficulty. If you are using the IP address instead of the host name, it definitely offers a few challenges.  

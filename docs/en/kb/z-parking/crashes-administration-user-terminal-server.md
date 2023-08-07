@@ -5,4 +5,4 @@ Occasionally, when you go in ***Administration - Users*** , {{ en.RDM }} crashes
 ### Solution
 You would need to implement a Group Policy Setting which Control RemoteFX in Terminal Servers.  
 ![!!KB4127.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4127.png)  
-You would have to completely disable RemoteFX in order for RDM to work without any problems. It also fixes performance issues.
+You would have to completely disable RemoteFX in order for Remote Desktop Manager to work without any problems. It also fixes performance issues.

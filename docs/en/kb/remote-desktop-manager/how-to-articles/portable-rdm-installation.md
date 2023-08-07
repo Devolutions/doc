@@ -1,5 +1,5 @@
 ---
-title: Portable RDM Installation
+title: Portable Remote Desktop Manager Installation
 ---
 The Devolutions support staff might request you to try a portable {{ en.RDM }} installation to isolate the application from a potential issue tied to a local file, configuration, or specific setting corruption.
 

@@ -1,5 +1,5 @@
 ---
-title: RDM Android set Offline Mode
+title: Remote Desktop Manager Android set Offline Mode
 ---
 The offline mode allows you to connect to a read only copy of the data source when the live database is unavailable.
 

@@ -1,5 +1,5 @@
 ---
-title: How to RDP to a Linux Machine with RDM
+title: How to RDP to a Linux Machine with Remote Desktop Manager
 ---
 You can establish a remote access to a Linux machine from {{ en.RDM }} Windows.
 ## Solution

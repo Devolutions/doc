@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Remote Desktop Manager {{ en.MAC }} {{ en.CI }}
 ---
-Unfortunately, there is no {{ en.CI }} in the {{ en.RDMMAC }} version as we do have for the [Windows RDM application](/rdm/windows/installation/client/custom-installer-service/).
+Unfortunately, there is no {{ en.CI }} in the {{ en.RDMMAC }} version as we do have for the [Windows Remote Desktop Manager application](/rdm/windows/installation/client/custom-installer-service/).
 
 The solution would be to copy the .cfg file and manually distribute it to the right folder.
 

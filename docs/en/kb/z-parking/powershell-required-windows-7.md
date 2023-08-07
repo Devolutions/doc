@@ -1,5 +1,5 @@
 ---
-title: Powershell Required for RDM 2019.2.12.0 - Windows 7
+title: Powershell Required for Remote Desktop Manager 2019.2.12.0 - Windows 7
 ---
 Unzip thisdll in your {{ en.RDM }} installation folder:  
 

@@ -12,7 +12,7 @@ title: How to Import Credentials from Keepass
 
 1. In the ***File*** menu, click ***Export***+  
 ![!!KB4250.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4250.png)
-1. Export Data to an external file. RDM supports two file types for KeePass: XML and CSV. An XML file will retain the folder structure from KeePass.  
+1. Export Data to an external file. Remote Desktop Manager supports two file types for KeePass: XML and CSV. An XML file will retain the folder structure from KeePass.  
    1. Choose desired file type: ***KeePass CSV (1.x)*** or ***KeePass XML (2.x)***.
    1. Select path to save the exported file.  
       ![!!KB4251.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4251.png)

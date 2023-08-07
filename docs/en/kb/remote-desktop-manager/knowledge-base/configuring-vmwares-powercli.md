@@ -1,5 +1,5 @@
 ---
-title: Configuring VMware's PowerCLI for use by RDM
+title: Configuring VMware's PowerCLI for use by Remote Desktop Manager
 ---
 The [VMware PowerCLI](http://www.vmware.com/support/developer/PowerCLI/index.html) is used by {{ en.RDM }} to interact with vSphere/vCenter in three distinct cases:
 1. Getting the list of virtual machines from a vSphere/vCenter;

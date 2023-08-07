@@ -26,7 +26,7 @@ The {{ en.RDMA }} must be configured to automatically start when a Windows sessi
 {% endsnippet %}
  
 
-1. Install {{ en.RDM }} and select Tools – More Tools – RDM Agent. It will launch and auto-register the Agent to automatically start with Windows. 
+1. Install {{ en.RDM }} and select Tools – More Tools – Remote Desktop Manager Agent. It will launch and auto-register the Agent to automatically start with Windows. 
 1. Download {{ en.RDMA }} from [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download), and install the agent on the remote computer. 
 1. Copy the files Devolutions.Utils.dll, Devolutions.Windows.Utils.dll and RDMAgent.exe from the installation folder of the {{ en.RDM }} version that is used by your team, or download the zip file containing those files at [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download) and deploy them on the remote host in the folder of your choice. 
 4. Via Chocolatey at [https://community.chocolatey.org/packages/rdmagent](https://community.chocolatey.org/packages/rdmagent).

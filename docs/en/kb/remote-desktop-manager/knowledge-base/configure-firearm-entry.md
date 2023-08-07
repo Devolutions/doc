@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Configure a Firearm entry in {{ en.RDM }}
-  description: Learn how to configure a Firearm entry in RDM
+  description: Learn how to configure a Firearm entry in Remote Desktop Manager
   keywords:
   - Firearm entry
 ---

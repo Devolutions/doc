@@ -17,7 +17,7 @@ order: 10
 |      |     |
 | ---- | --- |
 | Free | For individuals only, no information can be shared with colleagues. The most popular remote access technologies are supported and passwords can be stored securely. |
-| Team | Used by teams, this edition offers user permissions, user groups, advanced logging, etc. RDM uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for Cloud-Based storage or to get full Active Directory Integration. |
+| Team | Used by teams, this edition offers user permissions, user groups, advanced logging, etc. Remote Desktop Manager uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for Cloud-Based storage or to get full Active Directory Integration. |
 
 {{ en.RDM }} is also offered on multiple platforms, as seen below.
 

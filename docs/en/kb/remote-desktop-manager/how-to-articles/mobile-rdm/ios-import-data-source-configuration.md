@@ -1,5 +1,5 @@
 ---
-title: RDM iOS Import Data Source Configuration
+title: Remote Desktop Manager iOS Import Data Source Configuration
 ---
 It is possible to import data source configuration files for {{ en.RDM }} iOS.
 
@@ -11,7 +11,7 @@ It is possible to import data source configuration files for {{ en.RDM }} iOS.
 ![!!KB4174.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4174.png)
 1. Click ***Apps*** In the ***File Sharing*** area, select ***RDM*** and click ***Add*** file.  
 ![!!KB4175.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4175.png)
-1. Select therdd file exported from {{ en.RDM }} and click ***Open*** The file is now copied in the device but still needs to be imported in {{ en.RDM }} for iOS's file repository.
+1. Select therdd file exported from {{ en.RDM }} and click ***Open*** The file is now copied in the device but still needs to be imported in {{ en.RDM }} iOS's file repository.
 
 ### Import the data source
 
@@ -19,7 +19,7 @@ It is possible to import data source configuration files for {{ en.RDM }} iOS.
 ![!!KB4176.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4176.png)
 1. Tap on the Ellipsis button and select ***Import***  
 ![!!KB4177.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4177.png)
-1. Select therdd file and tap ***Done*** The file is now available to {{ en.RDM }} for iOS.  
+1. Select therdd file and tap ***Done*** The file is now available to {{ en.RDM }} iOS.  
 ![!!KB4178.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4178.png)
 1. Back in the ***More*** section, navigate to the ***Data sources*** list and tap ***Import***  
 ![!!KB4179.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4179.png)

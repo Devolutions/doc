@@ -31,7 +31,7 @@ Paramètre(s) / Action associé(s)
 	</tr>
 	<tr>
 		<td>
-Vérifier les mises à jour RDM
+Vérifier les mises à jour Remote Desktop Manager
 		</td>
 		<td>
 https<area>://devolutions.net
@@ -42,7 +42,7 @@ Fichier – Options – Démarrage de l'application – Activer la vérification
 	</tr>
 	<tr>
 		<td>
-Mise à jour RDM - téléchargement des paquets
+Mise à jour Remote Desktop Manager - téléchargement des paquets
 		</td>
 		<td>
 https<area>://cdn.devolutions.net
@@ -75,7 +75,7 @@ Fichier – {{ fr.DA }}
 	</tr>
 	<tr>
 		<td>
-Boutique Devolutions - Mise à niveau/achat pour RDM
+Boutique Devolutions - Mise à niveau/achat pour Remote Desktop Manager
 		</td>
 		<td>
 https<area>://store.devolutions.net

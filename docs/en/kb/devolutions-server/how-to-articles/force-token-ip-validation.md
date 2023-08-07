@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Prevent RDM and {{ en.WS }} from disconnecting when switching network
+  title: Prevent Remote Desktop Manager and {{ en.WS }} from disconnecting when switching network
   description: When switching your computer from wired network to wifi, {{ en.RDM }} and {{ en.WS }} will be disconnected from {{ en.DVLS }} and you will have to reconnect.
   keywords:
   - Switching Network

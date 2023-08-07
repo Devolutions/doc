@@ -17,13 +17,13 @@ Administrative Templates are registry settings that are enforced by domains. The
 
 To learn more on how to deploy the {{ en.RDM }} Administrative Templates on your domain, please refer to the Microsoft Online Help.
 
-## How to list RDM GPOs in the Local Group Policy Editor
+## How to list Remote Desktop Manager GPOs in the Local Group Policy Editor
 
 {% snippet icon.badgeInfo %}
 For now, the additional support is exclusively for the policies that require a numerical input higher than 0-1 (ex: ForceLockOnIdle).
 {% endsnippet %}
 
-{{ en.RDM }} includes an administrative template file (.admx), which describes the policies that are offered. You will find it in the policies subfolder. Before you can manage GPOs in RDM, you first need to list them in the Local Group Policy Editor. Here are the steps:
+{{ en.RDM }} includes an administrative template file (.admx), which describes the policies that are offered. You will find it in the policies subfolder. Before you can manage GPOs in Remote Desktop Manager, you first need to list them in the Local Group Policy Editor. Here are the steps:
 
 1. Go to your policies subfolder. By default, the path is C:\Program Files (x86)\Devolutions\Remote Desktop Manager\Policies.
 1. Copy the Devolutions.admx file.
@@ -782,7 +782,7 @@ Disable the option to open with parameters
 	</tr>
 	<tr>
 		<td>
-Disable the PowerShell RDM Cmdlet in the Tools menu
+Disable the PowerShell Remote Desktop Manager Cmdlet in the Tools menu
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableToolsPowershellRDMCmdlet
@@ -790,7 +790,7 @@ Disable the PowerShell RDM Cmdlet in the Tools menu
 	</tr>
 	<tr>
 		<td>
-Disable the RDM Agent in the Tools menu
+Disable the Remote Desktop Manager Agent in the Tools menu
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableToolsRDMAgent

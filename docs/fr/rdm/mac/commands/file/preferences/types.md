@@ -99,7 +99,7 @@ Vous pouvez ensuite choisir le moniteur préféré sur lequel afficher:
 
 * Moniteur primaire: C'est le moniteur qui est marqué comme affichage principal dans Windows 
 * Moniteur secondaire: L'autre moniteur non primaire, osbolète, utilise à la place le moniteur 1, 2, 3 ou 4 
-* Moniteur courant: Le moniteur dans lequel RDM s'exécute 
+* Moniteur courant: Le moniteur dans lequel Remote Desktop Manager s'exécute 
 * Configuré: Voir les options du système 
 * Par défaut: Ne déplacera pas l'application, ce sera le mode par défaut de Windows 
 * Moniteur 1: Le moniteur devient le principal 

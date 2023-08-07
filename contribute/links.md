@@ -42,7 +42,7 @@ An external link redirects to another Devolutions help topic or to an external U
 1. Click in the topic where you want the link to be and create the link `[text](/ProjectName/FolderName/FileName/)`.  
 1. Replace `text` with the text of the link. It should be representative of the link's content.  
 1. Replace `/ProjectName/FolderName/FileName/` with the path to the Devolutions topic, starting with the name of the project and finishing with the name of the topic file.  
-    Example: `[RDM Security](/rdm/windows/overview/security/)` would redirect to the [Security topic in RDM Windows' help](https://docs.devolutions.net/rdm/windows/overview/security/).
+    Example: `[RDM Security](/rdm/windows/overview/security/)` would redirect to the [Security topic in Remote Desktop Manager Windows' help](https://docs.devolutions.net/rdm/windows/overview/security/).
 
 #### Link to an external URL
 

@@ -1,5 +1,5 @@
 ---
-title: Configuration SSH pour la conformité de RDM avec FIPS 140-2
+title: Configuration SSH pour la conformité de Remote Desktop Manager avec FIPS 140-2
 ---
 Il est nécessaire d’effectuer des changements de configuration bien précis dans les options de {{ fr.RDM }} pour s’assurer que le client SSH de {{ fr.RDM }} soit conforme avec l’annexe A de la norme FIPS 140-2. 
 {% snippet icon.shieldNotice %} 

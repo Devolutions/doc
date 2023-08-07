@@ -22,7 +22,7 @@ PowerShell v.4.0 needs to be installed. To get your PowerShell version, execute 
 ### Problem 3
 None of the Powershell cmdlets in {{ en.RDM }} work after an update, even if they were running correctly prior to the update.
 ### Solution 3
-The first step is to check how many versions of the RDM snap-in are currently installed on the computer. Just type this command in Powershell (RDM CmdLet) :  
+The first step is to check how many versions of the Remote Desktop Manager snap-in are currently installed on the computer. Just type this command in Powershell (RDM CmdLet) :  
 
 Get-PSSnapin -name Remote.Desktop.Manager.*  
 ![!!KB4117.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4117.png)  
@@ -30,7 +30,7 @@ If there are more than one version of the snap-in installed, the result of the c
 ![!!KB4118.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4118.png)  
 To remove snap-ins that do not match with the actual version of {{ en.RDM }} installed on the computer, use the ***Remove-PSSnapin*** cmdlet, ensure you specify the specific version to remove.  
 ![!!KB4119.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4119.png)  
-Finally, verify if only the snap-in of the current version of RDM is installed with the Get-PSSnapin command.  
+Finally, verify if only the snap-in of the current version of Remote Desktop Manager is installed with the Get-PSSnapin command.  
 ![!!KB4120.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4120.png)  
 ### Problem 4
 Cannot be loaded because running scripts is disabled on this system.

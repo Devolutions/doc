@@ -1,5 +1,5 @@
 ---
-title: 2FA set on RDM Application Lost
+title: 2FA set on Remote Desktop Manager Application Lost
 ---
 This solution applies if you have set a 2FA or an Application password on your {{ en.RDM }} application in ***File – Options – Security*** and if you have lost your phone or locked yourself out of the application.
 ## Solution

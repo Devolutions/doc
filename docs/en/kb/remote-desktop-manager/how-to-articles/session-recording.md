@@ -61,7 +61,7 @@ We recommend choosing a custom file extension, for example on a shared network.
  
 * ***Inherited***: Setting is inherited from parent folder. 
 * ***Custom***: Paste the file destination path in the ***Destination*** box. 
-* ***Root (Default)***: Saves in Local App Data or in the data source folder if you are using a zip file of RDM. 
+* ***Root (Default)***: Saves in Local App Data or in the data source folder if you are using a zip file of Remote Desktop Manager. 
 6. Choose a ***Filename template*** or ***Prompt for name*** when user starts recording. 
 * ***Inherited***: Setting is inherited from parent folder. 
 * ***Connection Log ID***: Uses a multi-digit and letter identification number. 

@@ -1,9 +1,9 @@
 ---
-title: RDM Agent
+title: Remote Desktop Manager Agent
 ---
 
 The ***{{ en.RDMA }}*** is a very powerful tool that allows commands to be run on multiple machines.  
-![More Tools – RDM Agent](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11234.png) 
+![More Tools – Remote Desktop Manager Agent](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11234.png) 
 
 
 ## Settings 

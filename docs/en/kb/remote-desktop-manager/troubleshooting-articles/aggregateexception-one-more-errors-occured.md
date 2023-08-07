@@ -1,7 +1,7 @@
 ---
 title: AggregateException - One or more errors occurred
 ---
-During a connection to the Devolutions Cloud, RDM returns an error beginning with the following text :  
+During a connection to the Devolutions Cloud, Remote Desktop Manager returns an error beginning with the following text :  
 
 AggregateException - One or more errors occurred.  
 

@@ -155,7 +155,7 @@ Suivez les étapes suivantes pour automatiser la déconnexion lorsque le VPN s'o
 
 **Situation 2** : Le VPN se connecte lentement.  
 
-Voici les étapes pour modifier le temps que RDM attend pour que le VPN s’ouvre :  
+Voici les étapes pour modifier le temps que Remote Desktop Manager attend pour que le VPN s’ouvre :  
 
 1. Faire un clic droit sur l’entrée du dossier et sélectionner ***Propriétés*** . 
 1. Dans le menu de gauche, sous la section ***Connexion*** , cliquer sur ***VPN/SSH/Passerelle*** . 

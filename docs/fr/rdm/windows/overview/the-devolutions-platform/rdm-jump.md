@@ -85,7 +85,7 @@ Le ***Démarrage automatique*** doit être seulement activé pour {{ fr.RDMA }} 
 {% endsnippet %}
  
     a. Aller dans ***Outils – Plus d'outils***.  
-    b. Sélectionner ***Agent RDM***.  
+    b. Sélectionner ***Agent Remote Desktop Manager***.  
     c. Cliquer ***OK***.  
     d. Cliquer ***Oui***.  
     ![!!RdmWin4115.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4115.png) 
@@ -107,7 +107,7 @@ L'***Hôte Jump*** est prêt à être utilisé.
 ### Configurer une session pour utiliser avec un Hôte Jump 
 
 1. Créer une entrée ***RDP*** sur l'instance locale de {{ fr.RDM }}. 
-1. Définir l'***Hôte Jump*** en cliquant sur le bouton ***Paramètres RDM Jump***. 
+1. Définir l'***Hôte Jump*** en cliquant sur le bouton ***Paramètres Remote Desktop Manager Jump***. 
     * L'***Hôte Jump*** peut être ***Hérité*** s'il est défini dans le dossier parent.  
 
     ou  

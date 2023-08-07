@@ -1,12 +1,12 @@
 ---
-title: RDM Import Strategies and File Format
+title: Remote Desktop Manager Import Strategies and File Format
 ---
-When importing RDM files into {{ en.RDM }} , there are some specifications to follow regarding the content format. 
+When importing Remote Desktop Manager files into {{ en.RDM }} , there are some specifications to follow regarding the content format. 
 
 ## File Content 
 
 {% snippet icon.badgeCaution %} 
-Some validations on entry settings are not in the business layer but rather in the property dialogs. This means that using the import process can result in invalid entries that trigger errors. For RDM files, this could happen in the unlikely case that you import an RDM file that was exported from an older version of {{ en.RDM }} and that one of the entry types in the file now includes new mandatory fields. 
+Some validations on entry settings are not in the business layer but rather in the property dialogs. This means that using the import process can result in invalid entries that trigger errors. For Remote Desktop Manager files, this could happen in the unlikely case that you import an Remote Desktop Manager file that was exported from an older version of {{ en.RDM }} and that one of the entry types in the file now includes new mandatory fields. 
 {% endsnippet %}
  
 We cannot provide the list of all supported fields for all entry types because {{ en.RDM }} uses an open architecture and therefore is not even aware of all the entry type fields that are provided by our add-on system. A good method of finding out the field structure is creating an entry of the desired type, right-clicking it and selecting ***Clipboard – Copy*** , then pasting the content in your favorite editor. You will see the structure and the field names. 
@@ -22,7 +22,7 @@ Implementing support for all fields comes at a cost. The import process is time 
 All of our entries share a basic set of fields; the rest is tied to the specific technology being interfaced with (RDP, SSH, etc.). Some fields are grouped in structures, like the Information Tab. Those fields are accessible only when providing the structure name as a parent group, for example, " MetaInformation\OS " or " MetaInformation\PurchaseDate ". 
 
 {% snippet icon.badgeInfo %} 
-Note that the RDM file can contain our variables: they will be resolved upon saving. For instance, you could use the $HOST$ variable in fields like ***Description*** , ***URL*** , ***Putty\CustomSessionName*** , ... It will be replaced by the corresponding value. 
+Note that the Remote Desktop Manager file can contain our variables: they will be resolved upon saving. For instance, you could use the $HOST$ variable in fields like ***Description*** , ***URL*** , ***Putty\CustomSessionName*** , ... It will be replaced by the corresponding value. 
 {% endsnippet %}
  
 Below is a non-exhaustive list of some relevant fields. 

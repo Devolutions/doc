@@ -1,11 +1,11 @@
 ---
 title: PowerShell (RDM CmdLet)
 ---
-Le PowerShell (RDM CmLet) ouvre automatiquement une fenêtre PowerShell intégrée. Le composant logiciel enfichable RDM permet une automatisation rapide et robuste des actions telles que l'ajout/la modification/l'ouverture de sessions, les possibilités sont infinies.  
+Le PowerShell (RDM CmLet) ouvre automatiquement une fenêtre PowerShell intégrée. Le composant logiciel enfichable Remote Desktop Manager permet une automatisation rapide et robuste des actions telles que l'ajout/la modification/l'ouverture de sessions, les possibilités sont infinies.  
 
-Depuis sa sortie, cette fonctionnalité très demandée est devenue très utile pour résoudre les demandes des utilisateurs. Une recherche rapide sur notre forum révèle de nombreuses utilisations des applets de commande, telles que l'automatisation de la création de raccourcis du menu Démarrer de Windows pour chaque session RDM.  
+Depuis sa sortie, cette fonctionnalité très demandée est devenue très utile pour résoudre les demandes des utilisateurs. Une recherche rapide sur notre forum révèle de nombreuses utilisations des applets de commande, telles que l'automatisation de la création de raccourcis du menu Démarrer de Windows pour chaque session Remote Desktop Manager.  
 
-Pour en savoir plus, vous pouvez trouver la documentation complète de l'applet de commande RDM disponible via la rubrique [Scripts PowerShell](/rdm/windows/powershell-scripting/) ou directement dans PowerShell à l'aide de l'applet de commande Get-Help.  
+Pour en savoir plus, vous pouvez trouver la documentation complète de l'applet de commande Remote Desktop Manager disponible via la rubrique [Scripts PowerShell](/rdm/windows/powershell-scripting/) ou directement dans PowerShell à l'aide de l'applet de commande Get-Help.  
 
 ## Paramètres 
 

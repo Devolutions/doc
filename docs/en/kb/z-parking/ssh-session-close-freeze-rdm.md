@@ -1,5 +1,5 @@
 ---
-title: SSH Session Close Freeze RDM
+title: SSH Session Close Freeze Remote Desktop Manager
 ---
 {{ en.RDM }} completely freeze when closing an embedded SSH Shell session.
 ### Solution

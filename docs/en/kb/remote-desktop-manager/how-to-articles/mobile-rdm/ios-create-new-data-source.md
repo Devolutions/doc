@@ -1,5 +1,5 @@
 ---
-title: RDM iOS Create a new Data Source
+title: Remote Desktop Manager iOS Create a new Data Source
 ---
 The data source in {{ en.RDM }} can be a file or a database. You can configure multiple data sources within the application.  
 

@@ -1,7 +1,7 @@
 ---
-title: RDM Android Import XML Data Source
+title: Remote Desktop Manager Android Import XML Data Source
 ---
-You can import an XML data source in {{ en.RDM }} for Android by overwriting or by creating a new XML data source.
+You can import an XML data source in {{ en.RDM }} Android by overwriting or by creating a new XML data source.
 
 Please note that to be able to copy an XML data source file, the device has to be rooted, we are not responsible if a problem occurs at that point.
 
@@ -14,7 +14,7 @@ We suggest using a {{ en.DOD }} data source to import an XML data source from Wi
 1. Validate the data source file name (in our example it's Connections.xml).
 1. Copy the XML data source that you want to import from your Windows/MAC computer to your device. Make sure that the file you want to import has the same name as the current file on your Android device.
 1. Copy the file in data/data/com.devolutions.remotedesktopmanager/files on your Android device (this will overwrite the existing file).
-1. In {{ en.RDM }} for Android, open the connections section.
+1. In {{ en.RDM }} Android, open the connections section.
 1. Select the data source for which you imported the file or execute a refresh on the data source.  
 
 You should now see your imported connections.

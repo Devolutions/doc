@@ -1,5 +1,5 @@
 ---
-title: Lost RDM Configuration
+title: Lost Remote Desktop Manager Configuration
 ---
 You lost your configuration to your SQLite data source in {{ en.RDM }} and your navigation tree is showing empty.
 ### Solution

@@ -27,7 +27,7 @@ Here is a familiar scenario: your team has been using {{ en.RDM }} for months or
 We’ve made this extremely easy. Simply open Administration – Data Source Settings (System Settings) – Version Management Below, a description of some of the settings;  
 
 * Disable auto update notification – This will disable the "New version is available" message. (You’re welcome!)
-* Minimal version – This specifies the minimal acceptable version. If a member of your team runs an RDM version below this level, they’ll be prompted to upgrade.
+* Minimal version – This specifies the minimal acceptable version. If a member of your team runs an Remote Desktop Manager version below this level, they’ll be prompted to upgrade.
 * Download URL – This improves install speed by downloading the MSI onto your local network, and lets all of your team members easily upgrade from this path. In short, this saves time and avoids installing the wrong version.  
 
 The ***Administration – Data Source Settings (System Settings) – Serial Number*** section is useful if you have a Site or Global License, and keeps you from having to manually set the key on every client.

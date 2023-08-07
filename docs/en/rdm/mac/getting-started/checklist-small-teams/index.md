@@ -47,7 +47,7 @@ Overview of authentication and login types
 Users will authenticate using the method of your choosing:  
 
 * ***Database login***: Uses a SQL login to directly access the SQL server. The first database administrative user is created using this method.  
-* [***Custom login***](/kb/remote-desktop-manager/how-to-articles/implement-custom-login-mode/): Recommended for SQL Server data sources. Allows for the creation of RDM accounts for users to authenticate with, but prevents them from having direct access to the SQL database through an external tool.  
+* [***Custom login***](/kb/remote-desktop-manager/how-to-articles/implement-custom-login-mode/): Recommended for SQL Server data sources. Allows for the creation of Remote Desktop Manager accounts for users to authenticate with, but prevents them from having direct access to the SQL database through an external tool.  
 
 The ***Integrated Security (Active Directory)*** method is only available with {{ en.RDM }} for Windows.  
 
@@ -73,7 +73,7 @@ Assign a license to the administrator account previously created so that you can
 	</tr>
 	<tr>
 		<td>
-Step 3 - Create the "custom login" RDM and SQL account
+Step 3 - Create the "custom login" Remote Desktop Manager and SQL account
 
 		</td>
 		<td>
