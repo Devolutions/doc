@@ -267,7 +267,12 @@ Check this option to disable all events configured on session entries.
 Enable DPAPI cryptography on local files 
 		</td>
 		<td>
-DPAPI is an additional encryption that ensures that the configuration files containing sensitive information and the offline cache files can only be decrypted on your own machine. Enabling DPAPI and Offline Security will encrypt the files twice since DPAPI is a separated encryption step.
+		
+Encrypts {{ en.RDM }} configuration files on the workstation using Windows' native encryption capabilities (DPAPI - Data Protection API). This provides additional security for the sensitive information contained in these files (such as datasource connection information).  
+
+DPAPI is a robust additional encryption tool managed by the operating system that ensures that the configuration files containing sensitive information and the offline cache files can only be decrypted on your own machine. Enabling DPAPI and Offline Security will encrypt the files twice since DPAPI is a separated encryption step.  
+
+The feature is disabled by default, because under certain rare conditions (beyond RDM's control), data decrypted by DPAPI may be unrecoverable, preventing RDM from starting up.
 		</td>
 	</tr>
 	<tr>

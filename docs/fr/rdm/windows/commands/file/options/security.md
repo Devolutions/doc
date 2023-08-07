@@ -267,7 +267,12 @@ Cocher cette option pour désactiver tous les événements configurés sur les e
 Activer le chiffrement DPAPI sur les fichiers locaux 
 		</td>
 		<td>
-DPAPI est un chiffrement supplémentaire qui fait en sorte que vos fichiers ne puissent être déchiffrés que sur votre propre machine.
+
+Chiffre les fichiers de configuration {{ en.RDM }} sur le poste de travail en utilisant les capacités de chiffrement natives de Windows (DPAPI - Data Protection API). Cela permet de renforcer la sécurité des informations sensibles contenues dans ces fichiers (telles que les informations de connexion aux sources de données).  
+
+DPAPI est un outil de chiffrement supplémentaire robuste géré par le système d'exploitation qui garantit que les fichiers de configuration contenant des informations sensibles et les fichiers de cache hors ligne ne peuvent être déchiffrés que sur votre propre machine. L'activation de DPAPI et de la sécurité hors ligne chiffrera les fichiers deux fois puisque DPAPI est une étape de chiffrement séparée.  
+
+La fonction est désactivée par défaut, car dans certaines conditions rares (indépendantes de la volonté de RDM), les données déchiffrées par DPAPI peuvent être irrécupérables, empêchant ainsi le démarrage de RDM.
 		</td>
 	</tr>
 	<tr>
