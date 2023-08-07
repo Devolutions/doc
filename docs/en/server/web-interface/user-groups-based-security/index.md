@@ -1,6 +1,7 @@
 ---
 title: User Groups Based Security
 order: 50
+description: Devolutions Server user groups based security allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.  
 ---
 {{ en.DVLS }} user groups based security allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.  
 
@@ -31,34 +32,34 @@ To assign users to the user group, click , then check the Is Member box of the r
 ### User template 
 It is possible to change the default user template. To do so, navigate to ***Administration – System Settings – User Template***. These settings control the default settings of a new user. The best practice is to disable all privileges. 
 ### Create the user 
-To create users, navigate to ***Administration – Users***, then click Add User. Enter a Login for the user, select the User type and enter an email address. 
+To create users, navigate to ***Administration – Users***, then click ***Add User***. Enter a login for the user, select the user type, and enter an email address. 
 
 ![Create a user](https://webdevolutions.azureedge.net/docs/en/server/clip8037.png)  
 
-A user can be assigned to multiple user groups at once by checking the Is Member box of the respective user groups in the User Groups section of the User Management . As part of the Active Directory integration, there is no need to assign users to those user groups as it is automatically managed by {{ en.DVLS }} . 
+A user can be assigned to multiple user groups at once by checking the ***Is Member*** box of the respective user groups in the ***User Group***s section of the ***User Management***. As part of the Active Directory integration, there is no need to assign users to those user groups as it is automatically managed by {{ en.DVLS }}. 
 
 ![!!ServerOp4010.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4010.png) 
 
 ### Administrators 
 Administrators can do everything, regardless of the security. These users are usually the chief officers and senior management. 
 ### Restricted users 
-Restricted users have limited access to resources. They usually have the Add and Edit rights only. These users can be mid or first level executives, such as service desk and help desk. 
+Restricted users have limited access to resources. They usually have the Add and Edit rights only. These users can be mid or first level technicians, such as service desk and help desk. 
 ### Users 
-Users also have limited access to resources much like Restricted users . However, Users have by default the Add , Edit and Delete rights and can perform these actions on all unsecured entries. 
+Users also have limited access to resources, much like Restricted users. However, they have by default the Add, Edit, and Delete rights and can perform these actions on all unsecured entries. 
 ### Read only users 
 Read only users can only view and use resources, but cannot edit them. These users are usually external consultants. 
 ### Select the appropriate user type 
 When creating users, some key points must be taken into consideration. Ask yourself the following questions while configuring a new user:  
 
 * Should they be able to access any resource without restriction? 
-    * Administrators can access any resource without restriction. 
-    * Make a user administrator by selecting Administrator as the User type when creating the user. 
+    * ***Administrators*** can access any resource without restriction. 
+    * Select ***Administrator*** as the ***User type*** when creating the user. 
 
 ![Administrator user](https://webdevolutions.azureedge.net/docs/en/server/clip8039.png) 
 
-* Should they be able to add, edit, or delete entries? 
-    * Make a Restricted user by selecting Restricted user as the User type when creating the user. 
-    * Set up manually which rights are granted to the user. 
+* Should they have the right to add, edit, delete, add in root, and move entries? 
+    * If so, select ***User*** as the ***User type*** when creating the user. Users have all those rights by default.
+    * If not, select ***Restricted user*** as the ***User type*** when creating the user. You can then manually select which rights to grant to the user. 
 
 ![Restricted user](https://webdevolutions.azureedge.net/docs/en/server/clip8040.png) 
 
