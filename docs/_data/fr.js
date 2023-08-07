@@ -39,6 +39,7 @@ module.exports = {
     RDM: 'Remote Desktop Manager',
     RDMA: 'Agent Remote Desktop Manager',
     RDMJ: 'Remote Desktop Manager Jump',
+    RDMMAC: 'Remote Desktop Manager macOS',
     RDMOS: 'Services en ligne de RDM',
     UVLT: "Coffre de l'utilisateur",
     VLT: 'Coffre',
