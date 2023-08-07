@@ -42,7 +42,7 @@ We recommend to not store the encryption keys file and its password in your {{ e
 
 ![Export encryption keys](https://webdevolutions.azureedge.net/docs/en/kb/KB8052.png)  
 ![Filename and File password](https://webdevolutions.azureedge.net/docs/en/kb/KB8053.png)
-1. Once completed, verify again if the entries, the documents, and the attachments are available.  
+12. Once completed, verify again if the entries, the documents, and the attachments are available.  
 1. If the scheduler service has been uninstalled in step 3, install it back from the {{ en.DVLSCONSOLE }} in the ***Companions*** tab.  
 ![Install the scheduler](https://webdevolutions.azureedge.net/docs/en/kb/KB8084.png)
 1. On success, one last database backup and virtual machine screenshot can be done.  
