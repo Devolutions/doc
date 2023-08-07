@@ -1,7 +1,7 @@
 ---
 title: Client
 ---
-{{ en.RDM }} for Mac can be downloaded as a .dmg file via our [Devolutions website](https://devolutions.net/remote-desktop-manager/home/download) . 
+{{ en.RDMMAC }} can be downloaded as a .dmg file via our [Devolutions website](https://devolutions.net/remote-desktop-manager/home/download) . 
 
 ## Installation 
 
@@ -9,7 +9,7 @@ Depending on the downloaded media, either run the setup or extract the files fro
 
 ## License 
 
-{{ en.RDM }} for Mac Team Edition comes with a 30-day trial. If you possess a purchased license of the Team Edition, please follow the instructions in [Register Team Edition](/rdm/mac/installation/client/registration/team-edition/) . To register the Free Edition, please refer to [Register Free Edition](/rdm/mac/installation/client/registration/trial-request/) . 
+{{ en.RDMMAC }} Team Edition comes with a 30-day trial. If you possess a purchased license of the Team Edition, please follow the instructions in [Register Team Edition](/rdm/mac/installation/client/registration/team-edition/) . To register the Free Edition, please refer to [Register Free Edition](/rdm/mac/installation/client/registration/trial-request/) . 
 
 ## Data Source 
 

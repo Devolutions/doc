@@ -185,4 +185,4 @@ There is no protection against data contention issues. The data source is design
 
 ### Note 2 
 
-The master XML file is maintained by a single user and synchronized by {{ en.RDM }} for Mac to a website that is hosted to your specifications. Access to the data via a URL ensures that it is read-only for other users.  
+The master XML file is maintained by a single user and synchronized by {{ en.RDMMAC }} to a website that is hosted to your specifications. Access to the data via a URL ensures that it is read-only for other users.  

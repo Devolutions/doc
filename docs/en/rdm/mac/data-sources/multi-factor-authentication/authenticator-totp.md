@@ -1,7 +1,7 @@
 ---
 title: Authenticator (TOTP)
 ---
-{{ en.RDM }} for Mac allows you to use an Authenticator (TOTP) such as [Devolutions Workspace](https://devolutions.net/workspace/) or Google Authenticator to provide an additional security layer when opening a data source. 
+{{ en.RDMMAC }} allows you to use an Authenticator (TOTP) such as [Devolutions Workspace](https://devolutions.net/workspace/) or Google Authenticator to provide an additional security layer when opening a data source. 
 
 ## Settings 
 
@@ -16,5 +16,5 @@ Before you start the configuration, make sure you have installed the [Devolution
 1. Enter the ***Validation code*** provided by the ***Authenticator (TOTP)*** .  
 ![Authenticator Setup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10067.png) 
 1. Click ***Validate*** . 
-1. Relaunch {{ en.RDM }} for Mac to be prompted for the ***Authenticator (TOTP)*** code. 
+1. Relaunch {{ en.RDMMAC }} to be prompted for the ***Authenticator (TOTP)*** code. 
 

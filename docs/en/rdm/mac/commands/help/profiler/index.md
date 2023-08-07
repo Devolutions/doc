@@ -1,7 +1,7 @@
 ---
 title: Profiler
 ---
-{{ en.RDM }} for Mac has a built-in profiler to diagnose connectivity issues with a data source.  
+{{ en.RDMMAC }} has a built-in profiler to diagnose connectivity issues with a data source.  
 
 {% snippet icon.badgeInfo %} 
 Too many custom images could dramatically increase the size of the data source and cause load time issue. 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Approve temporary access to an entry in {{ en.RDM }} for Mac
+  title: Approve temporary access to an entry in {{ en.RDMMAC }}
   order: 20
   description: The Temporary Access feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request. 
 ---
@@ -62,5 +62,5 @@ This view is divided into two sections:
 Clicking on ***Approve*** or ***Deny*** will approve or deny the request, depending on what you selected earlier. A confirmation window will pop up which you can make disappear by clicking on ***OK***. 
 
 {% snippet icon.badgeInfo %} 
-To learn more about the end user experience in {{ en.RDM }}, visit [Request temporary access to an entry in {{ en.RDM }} for Mac](/rdm/mac/user-interface/content-area/temporary-access/request-temporary-access/). 
+To learn more about the end user experience in {{ en.RDM }}, visit [Request temporary access to an entry in {{ en.RDMMAC }}](/rdm/mac/user-interface/content-area/temporary-access/request-temporary-access/). 
 {% endsnippet %}

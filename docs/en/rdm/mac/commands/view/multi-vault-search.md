@@ -3,7 +3,7 @@ title: Multi Vault Search
 ---
 ![Multi Vault Search Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0025.png) 
 
-The Multi Vault Search feature of {{ en.RDM }} for Mac allows you to search for folders and entries in all the vaults of the selected data source at once.  
+The Multi Vault Search feature of {{ en.RDMMAC }} allows you to search for folders and entries in all the vaults of the selected data source at once.  
 ![Multi Vault Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0028.png) 
 
 ### Criteria Types 

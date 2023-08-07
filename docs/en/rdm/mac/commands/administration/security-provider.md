@@ -87,7 +87,7 @@ See below for more details.
 If the passphrase is lost, there is nothing that can be done to recover the data.  Always copy it to a secure location when putting it in place. 
 {% endsnippet %}
  
-All of the entries configuration data is encrypted with a mix of key stored in {{ en.RDM }} for Mac and the passphrase you've entered. The passphrase is required only when configuring the data source. 
+All of the entries configuration data is encrypted with a mix of key stored in {{ en.RDMMAC }} and the passphrase you've entered. The passphrase is required only when configuring the data source. 
 
 ## Certificate 
 

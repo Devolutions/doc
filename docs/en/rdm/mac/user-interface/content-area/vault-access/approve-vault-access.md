@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Approve vault access in {{ en.RDM }} for Mac
+  title: Approve vault access in {{ en.RDMMAC }}
   order: 20
-  description: In {{ en.RDM }} for Mac, users can request access to a public vault. An administrator / vault owner then has to approve the request.
+  description: In {{ en.RDMMAC }}, users can request access to a public vault. An administrator / vault owner then has to approve the request.
   keywords: 
   - vault access
 ---
-In {{ en.RDM }} for Mac, users can request access to a public vault. An administrator / vault owner then has to approve the request. Vault owners are configured in the ***Vault Management*** when creating or editing a vault.  
+In {{ en.RDMMAC }}, users can request access to a public vault. An administrator / vault owner then has to approve the request. Vault owners are configured in the ***Vault Management*** when creating or editing a vault.  
 
 ## View pending vault access requests
 
@@ -47,5 +47,5 @@ This view is divided into two sections:
 Clicking on ***Send response*** will approve or deny the request, depending on what you selected earlier. A confirmation window will pop up which you can make disappear by clicking on ***OK***.
 
 {% snippet icon.badgeHelp %} 
-To learn more about the end user experience in {{ en.RDM }}, visit [Request vault access in {{ en.RDM }} for Mac](/rdm/mac/user-interface/content-area/vault-access/request-vault-access).
+To learn more about the end user experience in {{ en.RDM }}, visit [Request vault access in {{ en.RDMMAC }}](/rdm/mac/user-interface/content-area/vault-access/request-vault-access).
 {% endsnippet %}

@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Request vault access in {{ en.RDM }} for Mac
+  title: Request vault access in {{ en.RDMMAC }}
   order: 10
-  description: You can request access to a public vault in {{ en.RDM }} for Mac.
+  description: You can request access to a public vault in {{ en.RDMMAC }}.
   keywords:
   - vault access
 ---
-You can request access to a public vault in {{ en.RDM }} for Mac. Follow the steps below to complete a request.
+You can request access to a public vault in {{ en.RDMMAC }}. Follow the steps below to complete a request.
 
 1. If you have multiple data sources in {{ en.RDM }}, select the SQL data source that contains the vault you want access to in the ***{{ en.NPANE }}***.  
 1. In the vault selector drop-down menu, click the ellipsis button to open a vault selection window.  

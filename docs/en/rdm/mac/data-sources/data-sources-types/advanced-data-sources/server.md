@@ -20,7 +20,7 @@ title: Devolutions Server
 * Can be deployed online. 
 * Support Windows authentication and Active Directory group integration. 
 * Client and server side caching optimization. 
-* Requires the {{ en.RDM }} for Mac Team Edition client installed for management. 
+* Requires the {{ en.RDMMAC }} Team Edition client installed for management. 
 
 {% snippet icon.badgeInfo %} 
 {{ en.DVLS }} supports only SQL Server as a data store at this time. 

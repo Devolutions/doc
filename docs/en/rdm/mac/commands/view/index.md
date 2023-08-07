@@ -1,7 +1,7 @@
 ---
 title: View
 ---
-The View tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDM }} for Mac.  
+The View tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDMMAC }}.  
 ![View Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10354.png) 
 
 ### Topics 
@@ -169,7 +169,7 @@ Open a window to access your local logs.
 </table>
 
 {% snippet icon.badgeInfo %} 
-Although they are windowed by default, all those panes can be dragged and docked anywhere within {{ en.RDM }} for Mac. 
+Although they are windowed by default, all those panes can be dragged and docked anywhere within {{ en.RDMMAC }}. 
 {% endsnippet %}
  
 

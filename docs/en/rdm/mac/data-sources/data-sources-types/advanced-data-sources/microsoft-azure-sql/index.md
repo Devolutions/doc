@@ -8,7 +8,7 @@ title: Microsoft SQL Azure
 ![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
-With a Microsoft Azure SQL data source, {{ en.RDM }} for Mac uses the Microsoft cloud platform to save and manage entries.  
+With a Microsoft Azure SQL data source, {{ en.RDMMAC }} uses the Microsoft cloud platform to save and manage entries.  
 
 The following features are also supported:  
 
@@ -20,7 +20,7 @@ The following features are also supported:
 	</tr>
 </table>
 
-## Minimum Requirement for Azure SQL Database for {{ en.RDM }} for Mac 
+## Minimum Requirement for Azure SQL Database for {{ en.RDMMAC }} 
 
 Microsoft Azure SQL offers different service tier in its purchase model for DTUS. We recommend at minimum a Standard tier package S0 for 5 users and more. Visit their website for more information.  
 
@@ -39,7 +39,7 @@ A proper database backup strategy should be implemented to prevent possible data
 {% endsnippet %}
  
  {% snippet icon.badgeCaution %} 
-AD Azure is not supported in {{ en.RDM }} for Mac. This feature is not yet implemented. 
+AD Azure is not supported in {{ en.RDMMAC }}. This feature is not yet implemented. 
 {% endsnippet %}
  
 ## Configuration 

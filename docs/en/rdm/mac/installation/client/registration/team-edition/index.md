@@ -2,10 +2,10 @@
 title: Team Edition
 order: 10
 ---
-When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , there is no need to register {{ en.RDM }} for Mac since the license serial is stored in the data source and retrieved directly from it. When launching the application for the first time, simply [add the data source](/rdm/mac/dwl/using-devolutions-web-login/create-account-website/) containing the serial. 
+When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , there is no need to register {{ en.RDMMAC }} since the license serial is stored in the data source and retrieved directly from it. When launching the application for the first time, simply [add the data source](/rdm/mac/dwl/using-devolutions-web-login/create-account-website/) containing the serial. 
 
 {% snippet icon.badgeCaution %} 
-The license menu to register {{ en.RDM }} for Mac is available for SQLite, but not for other individual data sources. 
+The license menu to register {{ en.RDMMAC }} is available for SQLite, but not for other individual data sources. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -18,13 +18,13 @@ It is possible to [request a trial](/rdm/mac/installation/client/registration/tr
 ![Add License Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0001.png) 
 1. Enter the license serial in the ***License*** field.  
 ![License Field](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0002.png) 
-1. Optional: Check the ***Auto assign*** box to automatically provide the {{ en.RDM }} for Mac serial to all newly created users.  
+1. Optional: Check the ***Auto assign*** box to automatically provide the {{ en.RDMMAC }} serial to all newly created users.  
 ![Auto Assign Setting](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0003.png) 
 1. Click ***OK*** . 
 1. Click the ***Edit*** button in the ***User and Security Management*** .  
 ![Edit Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0004.png) 
 1. Click ***Assigned To*** in the left menu. 
-1. Click ***Assign All*** or select in the ***Assigned*** column who should have a {{ en.RDM }} for Mac serial access. 
+1. Click ***Assign All*** or select in the ***Assigned*** column who should have a {{ en.RDMMAC }} serial access. 
 {% snippet icon.badgeNotice %} 
 This step will automatically assign the license to the selected users, removing the need to interact with each user. 
 {% endsnippet %}

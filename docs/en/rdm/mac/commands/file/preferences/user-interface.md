@@ -48,7 +48,7 @@ When using the <b><i>Ribbon User Interface</i></b>, select this option to hide y
 Language 
 		</td>
 		<td>
-Select {{ en.RDM }} for Mac's default application language. 
+Select {{ en.RDMMAC }}'s default application language. 
 		</td>
 	</tr>
 	<tr>

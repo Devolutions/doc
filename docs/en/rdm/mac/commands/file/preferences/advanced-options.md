@@ -20,7 +20,7 @@ DESCRIPTION
 Debug level 
 		</td>
 		<td>
-Set the level of debugging information that {{ en.RDM }} for Mac will capture. This should only be modified upon request from a Devolutions support technician as it might cause your system to slow down. 
+Set the level of debugging information that {{ en.RDMMAC }} will capture. This should only be modified upon request from a Devolutions support technician as it might cause your system to slow down. 
 		</td>
 	</tr>
 	<tr>
@@ -83,7 +83,7 @@ DESCRIPTION
 Allow multiple instances 
 		</td>
 		<td>
-Allow more than one instance of {{ en.RDM }} for Mac to run concurrently. This is not a recommended practice. 
+Allow more than one instance of {{ en.RDMMAC }} to run concurrently. This is not a recommended practice. 
 		</td>
 	</tr>
 	<tr>
@@ -132,7 +132,7 @@ Disable the pwned check feature if it is not forced by the administrator in ***A
 Enable session logging 
 		</td>
 		<td>
-Record and track users' activities and interactions with {{ en.RDM }} for Mac. 
+Record and track users' activities and interactions with {{ en.RDMMAC }}. 
 		</td>
 	</tr>
 	<tr>
@@ -199,7 +199,7 @@ DESCRIPTION
 Start agent on application start 
 		</td>
 		<td>
-The agent starts when you open {{ en.RDM }} for Mac. 
+The agent starts when you open {{ en.RDMMAC }}. 
 		</td>
 	</tr>
 </table>
@@ -244,7 +244,7 @@ Select a target number where mass opening sessions will demand confirmation.
 Automatically go offline on network change 
 		</td>
 		<td>
-When changing network, {{ en.RDM }} for Mac goes in Offline mode. 
+When changing network, {{ en.RDMMAC }} goes in Offline mode. 
 		</td>
 	</tr>
 </table>

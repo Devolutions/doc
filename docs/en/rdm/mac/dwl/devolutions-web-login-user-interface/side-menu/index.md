@@ -3,7 +3,7 @@ title: Side Menu
 ---
 Using the ***Side Menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area*** .  
 
-When using {{ en.DWL }} with {{ en.RDM }} for Mac, the available tabs are the [***Matching***](#matching-tab) tab, the [***Password Generator***](#password-generator-tab) tab, and the [***About***](#about-tab) tab.  
+When using {{ en.DWL }} with {{ en.RDMMAC }}, the available tabs are the [***Matching***](#matching-tab) tab, the [***Password Generator***](#password-generator-tab) tab, and the [***About***](#about-tab) tab.  
 
 ### Matching tab 
 
@@ -17,7 +17,7 @@ For methods of retrieving your credentials, visit [this topic](/rdm/mac/dwl/usin
 
 At the top, you can use the ***Filter*** bar to search through all your credentials, not just those applicable to the website. You can also use the ***Refresh*** button next to it to update the search results.  
 
-At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.RDM }} for Mac through the {{ en.DWL }} extension.  
+At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.RDMMAC }} through the {{ en.DWL }} extension.  
 
 {% snippet icon.badgeInfo %} 
 For a complete list of the available fields in the ***Add Website*** window, visit [this topic](/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/add-website/) . You can also find a step-by-step guide on [how to add a website entry](/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/) . 

@@ -1,7 +1,7 @@
 ---
 title: System Requirements
 ---
-{{ en.RDM }} for Mac requires the following prior to installation. 
+{{ en.RDMMAC }} requires the following prior to installation. 
 
 ## Minimum Requirements 
 

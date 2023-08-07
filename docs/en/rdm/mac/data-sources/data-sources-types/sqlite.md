@@ -8,7 +8,7 @@ title: SQLite
 ![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
-{{ en.RDM }} for Mac SQLite data source is ideal for single user in a stand alone situations . More powerful and more flexible than the XML file format, it also supports a few of the advanced data source options like Logs and Attachments. 
+{{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations . More powerful and more flexible than the XML file format, it also supports a few of the advanced data source options like Logs and Attachments. 
 		</td>
 	</tr>
 </table>
@@ -19,7 +19,7 @@ title: SQLite
 * The [{{ en.OBACK }} Service](/cloud/getting-started/devolutions-cloud-services/) is available for this data source 
 
 {% snippet icon.shieldInfo %} 
-All passwords are encrypted by default by {{ en.RDM }} for Mac . You can specify a custom password to fully encrypt the content of the SQLite database. 
+All passwords are encrypted by default by {{ en.RDMMAC }} . You can specify a custom password to fully encrypt the content of the SQLite database. 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
@@ -27,7 +27,7 @@ Password recovery is not possible, the data will be unrecoverable if you cannot 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-SQLite supports an unlimited number of simultaneous readers, but will only allow one writer at any instant in time. For this reason {{ en.RDM }} for Mac does not support sharing an SQLite data source between several users by storing it on a network drive. If you want to share your data and work in a team environment with your colleagues, please use one of the [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . Please consult [SQLite.org](https://www.sqlite.org/whentouse.html) for more information. 
+SQLite supports an unlimited number of simultaneous readers, but will only allow one writer at any instant in time. For this reason {{ en.RDMMAC }} does not support sharing an SQLite data source between several users by storing it on a network drive. If you want to share your data and work in a team environment with your colleagues, please use one of the [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . Please consult [SQLite.org](https://www.sqlite.org/whentouse.html) for more information. 
 {% endsnippet %}
  
 ## Password management 

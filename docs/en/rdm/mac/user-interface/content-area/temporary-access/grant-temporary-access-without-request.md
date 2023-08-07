@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Grant temporary access to an entry in {{ en.RDM }} for Mac
+  title: Grant temporary access to an entry in {{ en.RDMMAC }}
   order: 30
   description: Approvers can grant Temporary Access without request to a user and even if the user already has access.
 ---

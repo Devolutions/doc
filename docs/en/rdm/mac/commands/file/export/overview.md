@@ -1,7 +1,7 @@
 ---
 title: Overview
 ---
-Use the ***File – Export*** to export entries from {{ en.RDM }} for Mac. Below is a list of export options:  
+Use the ***File – Export*** to export entries from {{ en.RDMMAC }}. Below is a list of export options:  
 
 * Export All Entries (.rdm) 
 * Export Selection (.rdm) 
@@ -26,7 +26,7 @@ When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/ad
  
 ### Export All Entries (.rdm) 
 
-Export all entries in a .rdm file that can be imported into any {{ en.RDM }} for Mac data source. You can also include the credentials in this export format and secure your file with a master key.  
+Export all entries in a .rdm file that can be imported into any {{ en.RDMMAC }} data source. You can also include the credentials in this export format and secure your file with a master key.  
 
 {% snippet icon.badgeInfo %} 
 By default the credentials are NOT included. It's critical to check the Credentials option in order for the exported data to include the credentials. 
@@ -40,11 +40,11 @@ By default the credentials are NOT included. It's critical to check the Credenti
 
 ### Export Selection (.rdm) 
 
-Export the selected session in a .rdm file that can be imported into any {{ en.RDM }} for Mac data source. You can also include the credentials in this export format and secure your file with a master key. 
+Export the selected session in a .rdm file that can be imported into any {{ en.RDMMAC }} data source. You can also include the credentials in this export format and secure your file with a master key. 
 
 ### Export Entry as Remote Desktop File (.rdp) 
 
-Export the selected entry in a .rdp file to easily use it outside {{ en.RDM }} for Mac. 
+Export the selected entry in a .rdp file to easily use it outside {{ en.RDMMAC }}. 
 
 ### Export Special (.csv) 
 

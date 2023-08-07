@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Onboarding
-  description: When opening your RDM application for the first time, an Onboarding process will begin to help you get started with {{ en.RDM }} for Mac.
+  description: When opening your RDM application for the first time, an Onboarding process will begin to help you get started with {{ en.RDMMAC }}.
 ---
-When opening your RDM application for the first time, an Onboarding process will begin to help you get started with {{ en.RDM }} for Mac. Here are the steps that you will go through during this initial configuration.
+When opening your RDM application for the first time, an Onboarding process will begin to help you get started with {{ en.RDMMAC }}. Here are the steps that you will go through during this initial configuration.
 
 ## Step 1: Create your data source
 

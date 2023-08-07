@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Usage profiles
-  description: Usage profiles allow users to have a tailored experience in {{ en.RDM }} for Mac and other Devolutions products based on their tasks and roles.
+  description: Usage profiles allow users to have a tailored experience in {{ en.RDMMAC }} and other Devolutions products based on their tasks and roles.
 ---
-***Usage profiles*** allow users to have a tailored experience in {{ en.RDM }} for Mac and other Devolutions products based on their tasks and roles. There are two different profiles:  
+***Usage profiles*** allow users to have a tailored experience in {{ en.RDMMAC }} and other Devolutions products based on their tasks and roles. There are two different profiles:  
 
 * ***IT professional***: This profile displays all entry types and options provided the user has the necessary permissions to access them. This profile offers all of what our solutions have to offer, advanced options, and access to all entries and information.  
 * ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries, administrative options, or advanced properties. Our interfaces have been streamlined to minimize options that are primarily intended for IT Professionals, allowing business users to focus on their daily tasks without unnecessary complexities.  

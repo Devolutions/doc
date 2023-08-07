@@ -3,16 +3,16 @@ title: User Groups Management
 keywords:
 - role
 ---
-User Groups in {{ en.RDM }} for Mac are mainly used to reduce the time taken to manage users. The management of permissions granted to user groups are quite similar to the corresponding notions for users, but instead of a single user, they apply to all users to which you've assigned the user groups.  
+User Groups in {{ en.RDMMAC }} are mainly used to reduce the time taken to manage users. The management of permissions granted to user groups are quite similar to the corresponding notions for users, but instead of a single user, they apply to all users to which you've assigned the user groups.  
 ![Administration - User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10396.png) 
 
 {% snippet icon.badgeInfo %} 
 This feature is only available with an [SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) and a [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) data source. 
 {% endsnippet %}
  
-## User groups in {{ en.RDM }} for Mac 
+## User groups in {{ en.RDMMAC }} 
 
-User groups in {{ en.RDM }} for Mac are simply permission sets that you assign to a user. You can assign multiple user groups to each user and the end result is the union of all permissions.  
+User groups in {{ en.RDMMAC }} are simply permission sets that you assign to a user. You can assign multiple user groups to each user and the end result is the union of all permissions.  
 
 1. Create a new user groups in Administration - User Groups and click on the plus to create a new one .  
 ![Add User Group](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10397.png) 

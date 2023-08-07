@@ -1,9 +1,9 @@
 ---
 title: Add Website
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDM }} for Mac through {{ en.DWL }} .  
+The ***Add Website*** button is only available while in the [***Matching***](/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDMMAC }} through {{ en.DWL }} .  
 
-When {{ en.RDM }} for Mac is used as the data source, the entry configuration is done in the ***General*** tab.  
+When {{ en.RDMMAC }} is used as the data source, the entry configuration is done in the ***General*** tab.  
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2045.png) 
 
 See the table below to learn about each field/setting from this view. 
@@ -71,7 +71,7 @@ Open the ***Password Generator*** window, which allows you to create a strong an
 Destination folder 
 		</td>
 		<td>
-Enter the name of the folder in which your new entry will be stored in {{ en.RDM }} for Mac. 
+Enter the name of the folder in which your new entry will be stored in {{ en.RDMMAC }}. 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Enter the name of the folder in which your new entry will be stored in {{ en.RDM
 Vault 
 		</td>
 		<td>
-Choose to store your new website entry in your ***User Vault*** or in the currently selected ***Vault*** in {{ en.RDM }} for Mac. 
+Choose to store your new website entry in your ***User Vault*** or in the currently selected ***Vault*** in {{ en.RDMMAC }}. 
 		</td>
 	</tr>
 	<tr>

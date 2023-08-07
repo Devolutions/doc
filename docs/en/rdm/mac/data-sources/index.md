@@ -2,7 +2,7 @@
 title: Data Sources
 order: 40
 ---
-The data source is at the heart of {{ en.RDM }} for Mac , it is the container that holds all of your entries. 
+The data source is at the heart of {{ en.RDMMAC }} , it is the container that holds all of your entries. 
 
 ## Settings 
 
@@ -20,7 +20,7 @@ You can configure multiple data sources within the application. These data sourc
 
 ### Open Data Source at Startup 
 
-You may assign a data source to open automatically when {{ en.RDM }} for Mac starts. 
+You may assign a data source to open automatically when {{ en.RDMMAC }} starts. 
 
 <table>
 	<tr>

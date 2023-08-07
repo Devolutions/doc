@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Theme
-  description: The theme of {{ en.RDM }} for Mac can be changed to better suit your preferences. It modifies the color and shade of the user interface.
+  description: The theme of {{ en.RDMMAC }} can be changed to better suit your preferences. It modifies the color and shade of the user interface.
 ---
-The theme of {{ en.RDM }} for Mac can be changed to better suit your preferences. It modifies the color and shade of the user interface.  
+The theme of {{ en.RDMMAC }} can be changed to better suit your preferences. It modifies the color and shade of the user interface.  
 
 This ***Theme*** setting is available in ***File – Preferences – User Interface***. You can choose the ***Light*** theme or the ***Dark*** theme. You can also choose to mirror your system's theme if you prefer. The theme will be automatically applied once you click ***OK***.  
 ![File – Preferences – User Interface – Theme](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2071.png) 

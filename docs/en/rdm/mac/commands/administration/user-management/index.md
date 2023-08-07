@@ -5,14 +5,14 @@ description: User Management is available from Administration – Users and allo
 User Management is available from ***Administration – Users*** and allows you to create, manage, and assign rights to a user.  
 ![Administration – Users](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10381.png) 
 
-{{ en.RDM }} for Mac allows for advanced user right management allowing you to control how a session is employed by each user. Note that some visibility control will depend on the active data source. There is currently no way to inherit security rights from a group as they must be assigned individually for each user. If using the [{{ en.DVLS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.  
+{{ en.RDMMAC }} allows for advanced user right management allowing you to control how a session is employed by each user. Note that some visibility control will depend on the active data source. There is currently no way to inherit security rights from a group as they must be assigned individually for each user. If using the [{{ en.DVLS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.  
 
 {% snippet icon.badgeInfo %} 
 This feature requires an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-To create users and assign rights, you must be administrator of not only {{ en.RDM }} for Mac, but also of the underlying database. 
+To create users and assign rights, you must be administrator of not only {{ en.RDMMAC }}, but also of the underlying database. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

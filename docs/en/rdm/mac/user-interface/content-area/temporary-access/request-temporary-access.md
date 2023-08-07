@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Request temporary access to an entry in {{ en.RDM }} for Mac 
+  title: Request temporary access to an entry in {{ en.RDMMAC }} 
   order: 10
   description: The Temporary Access feature allows users to request a temporary elevation of their permissions to execute for a specific entry. The approver must then approve or deny the request. 
 ---

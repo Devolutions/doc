@@ -3,7 +3,7 @@ title: Uninstall
 ---
 ### Instructions 
 
-Move {{ en.RDM }} for Mac to the trash to uninstall the application.  
+Move {{ en.RDMMAC }} to the trash to uninstall the application.  
 
 You also need to delete the com.devolutions.remotedesktopmanager folder to removed all the application local files from your computer. This folder is located in Macintosh HD/Users/Username/Library/Application Support .  
 

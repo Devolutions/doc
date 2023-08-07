@@ -1,7 +1,7 @@
 ---
 title: Creating a New Entry
 ---
-When getting started with {{ en.RDM }} for Mac , you must first configure your entries. There are many type of entries; you should know what third party or technology you will use to connect remotely in order to choose the appropriate entry type(s) that you plan on configuring. 
+When getting started with {{ en.RDMMAC }} , you must first configure your entries. There are many type of entries; you should know what third party or technology you will use to connect remotely in order to choose the appropriate entry type(s) that you plan on configuring. 
 
 ## Creating a New Entry from the New Entry Menu 
 

@@ -8,7 +8,7 @@ title: XML
 ![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
-{{ en.RDM }} for Mac saves the settings directly in a file with the XML format. 
+{{ en.RDMMAC }} saves the settings directly in a file with the XML format. 
 		</td>
 	</tr>
 </table>

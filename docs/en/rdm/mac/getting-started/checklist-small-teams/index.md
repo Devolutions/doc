@@ -6,10 +6,10 @@ eleventyComputed:
 ---
 Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} Mac for the first time when working in a small team of at most 15 users using SQL Server.  
 
-First [download](https://devolutions.net/remote-desktop-manager/home/download/) and install {{ en.RDM }} for Mac before proceeding.  
+First [download](https://devolutions.net/remote-desktop-manager/home/download/) and install {{ en.RDMMAC }} before proceeding.  
 
 {% snippet icon.badgeInfo %}
-The video presented below shows how to set up {{ en.RDM }} for Windows. However, it can still be of help in setting up your {{ en.RDM }} for Mac.
+The video presented below shows how to set up {{ en.RDM }} for Windows. However, it can still be of help in setting up your {{ en.RDMMAC }}.
 {% endsnippet %}
 
 <table>
@@ -27,7 +27,7 @@ Step 1 - Configure and create the SQL data source
 
 		</td>
 		<td>
-Upon first launch, {{ en.RDM }} for Mac prompts you to select a data source. Devolutions integrates the following [data source types for small team environments](/rdm/mac/getting-started/checklist-small-teams/select-data-source-type/):  
+Upon first launch, {{ en.RDMMAC }} prompts you to select a data source. Devolutions integrates the following [data source types for small team environments](/rdm/mac/getting-started/checklist-small-teams/select-data-source-type/):  
 
 * [Microsoft SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/)  
 * [Microsoft Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/)  

@@ -19,4 +19,4 @@ You can create Password Manager Pro credential entries in {{ en.RDMMAC }}, howev
 1. Enter the API User that you have created in Password Manager Pro in the ***Username*** field. Paste the ***Auth Token key*** in the ***Token*** field and click on ***OK***.  
 ![!!KB4194.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4194.png)  
 
-You can now create a Password Manager Pro credential entry in {{ en.RDM }} for Mac.
+You can now create a Password Manager Pro credential entry in {{ en.RDMMAC }}.

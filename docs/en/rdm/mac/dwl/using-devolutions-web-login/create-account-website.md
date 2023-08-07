@@ -9,7 +9,7 @@ eleventyComputed:
 If you already have an account for a website, visit our [Add a Website Entry with {{ en.DWL }}](/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/) topic. 
 {% endsnippet %}
  
-Follow the steps below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.RDM }} for Mac.  
+Follow the steps below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.RDMMAC }}.  
 
 1. On the website for which you want to create your account, go to the registration/account creation page. This page will be different for each website; this topic will use the Atlassian website as an example.  
 ![Registration Page](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2008.png) 
@@ -37,8 +37,8 @@ Your password settings are now configured.
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2016.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
-1. Select if you want to save your entry in your ***User vault*** or in a ***Vault*** . Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDM }} for Mac. 
+1. Select if you want to save your entry in your ***User vault*** or in a ***Vault*** . Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDMMAC }}. 
 1. Click ***Save*** .  
 
-Your credentials are now securely stored in a new website entry in {{ en.RDM }} for Mac. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/) . 
+Your credentials are now securely stored in a new website entry in {{ en.RDMMAC }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/) . 
 

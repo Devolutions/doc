@@ -2,7 +2,7 @@
 title: Devolution Web Login User Interface
 order: 50
 ---
-The {{ en.DWL }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.DWL }} user interface when used with {{ en.RDM }} for Mac .  
+The {{ en.DWL }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.DWL }} user interface when used with {{ en.RDMMAC }} .  
 
 The main view, which is the one displayed when first opening {{ en.DWL }} in your browser, can be divided into three main sections:  
 
@@ -23,7 +23,7 @@ At the right of the ***Top Menu*** , the ***Settings*** button opens a new tab i
 
 Using the tabs of the ***Side Menu*** , you can access various {{ en.DWL }} features.  
 
-Each tab will display a different view in the ***Content Area*** . The tabs available when using {{ en.DWL }} with {{ en.RDM }} for Mac are:  
+Each tab will display a different view in the ***Content Area*** . The tabs available when using {{ en.DWL }} with {{ en.RDMMAC }} are:  
 
 * the ***Matching*** tab, where you find available credentials for a specific website. 
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account. 

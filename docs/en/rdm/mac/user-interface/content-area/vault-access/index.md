@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Vault access in {{ en.RDM }} for Mac
-  description: In {{ en.RDM }} for Mac, users can request access to a public vault. An administrator / vault owner then has to approve the request.
+  title: Vault access in {{ en.RDMMAC }}
+  description: In {{ en.RDMMAC }}, users can request access to a public vault. An administrator / vault owner then has to approve the request.
   keywords:
   - vault access
 ---
-In {{ en.RDM }} for Mac, users can request access to a public vault. An administrator / vault owner then has to approve the request.
+In {{ en.RDMMAC }}, users can request access to a public vault. An administrator / vault owner then has to approve the request.
 
 {% snippet icon.badgeInfo %} 
 Users can be set as vault owners to manage a specific vault without having access to data source administration. They are set in ***Vault Management*** when editing or creating a vault in {{ en.RDM }}. For ***Entreprise*** data sources ({{ en.DVLS }} and {{ en.HUBB }}), they can also be configured in their respective web interfaces.

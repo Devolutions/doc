@@ -2,10 +2,10 @@
 title: Managing credentials
 description: Depending on your organization's security policies, there are multiple ways of handling credentials.
 ---
-Depending on your organization's security policies, there are multiple ways of handling credentials. We can manage a wide range of scenarios; the most popular are listed below. It is critical to understand that these are the credentials used to connect to remote hosts, not the ones you use to launch {{ en.RDM }} for Mac. 
+Depending on your organization's security policies, there are multiple ways of handling credentials. We can manage a wide range of scenarios; the most popular are listed below. It is critical to understand that these are the credentials used to connect to remote hosts, not the ones you use to launch {{ en.RDMMAC }}. 
 
 {% snippet icon.badgeInfo %} 
-Most of these selections do not exist in the Free edition of {{ en.RDM }} for Mac as they depend on features offered by an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
+Most of these selections do not exist in the Free edition of {{ en.RDMMAC }} as they depend on features offered by an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 Below are a few key points that the administrator of the solution must be aware of: 

@@ -1,7 +1,7 @@
 ---
 title: Configuration File Location
 ---
-{{ en.RDM }} for Mac saves its configuration in a file named RemoteDesktopManager.cfg. This file contains most of the application settings.  
+{{ en.RDMMAC }} saves its configuration in a file named RemoteDesktopManager.cfg. This file contains most of the application settings.  
 
 You can find the configuration file by following these steps:  
 

@@ -83,7 +83,7 @@ Sends you directly to our Forum.
 Check for Updates 
 		</td>
 		<td>
-Verify if the latest version of {{ en.RDM }} for Mac is install on your computer. If not, the latest version can be install directly from this option. 
+Verify if the latest version of {{ en.RDMMAC }} is install on your computer. If not, the latest version can be install directly from this option. 
 		</td>
 	</tr>
 	<tr>

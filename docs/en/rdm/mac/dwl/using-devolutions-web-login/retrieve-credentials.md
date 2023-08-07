@@ -6,9 +6,9 @@ eleventyComputed:
 You need website entries in {{ en.RDM }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/) . 
 {% endsnippet %}
  
-{{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.RDM }} for Mac website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
+{{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.RDMMAC }} website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
 
-After the [installation](/rdm/mac/dwl/installation/) of {{ en.DWL }} and its [pairing](/rdm/mac/dwl/first-login-devolutions-web-login/) with {{ en.RDM }} for Mac, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials) .  
+After the [installation](/rdm/mac/dwl/installation/) of {{ en.DWL }} and its [pairing](/rdm/mac/dwl/first-login-devolutions-web-login/) with {{ en.RDMMAC }}, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials) .  
 
 ## Settings 
 

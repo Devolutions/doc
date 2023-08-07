@@ -1,7 +1,7 @@
 ---
 title: Export Entry
 ---
-Use the Export options to export selected entries from {{ en.RDM }} for Mac . 
+Use the Export options to export selected entries from {{ en.RDMMAC }} . 
 
 ## Settings 
 
@@ -29,7 +29,7 @@ Export your selected entries in a Remote Desktop File (.rdp) format.
 Export Selection (.rdm) 
 		</td>
 		<td>
-Export your selected entries in a .rdm file that can then be imported into any {{ en.RDM }} for Mac data source. You could choose to include the credentials of your entry in your export format and secure your file with a master key. 
+Export your selected entries in a .rdm file that can then be imported into any {{ en.RDMMAC }} data source. You could choose to include the credentials of your entry in your export format and secure your file with a master key. 
 		</td>
 	</tr>
 </table>

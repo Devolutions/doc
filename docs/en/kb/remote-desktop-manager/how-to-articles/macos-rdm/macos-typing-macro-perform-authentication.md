@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Remote Desktop Manager {{ en.MAC }} Typing Macro to Perform Authentication
 ---
-With {{ en.RDM }} for Mac, it is possible to send the credential through a typing macro using variables.  
+With {{ en.RDMMAC }}, it is possible to send the credential through a typing macro using variables.  
 
 1. Select a a ***Website*** session entry and click on ***Edit Entry*** in the ***Edit*** tab. Under ***General*** in the left menu, click on ***Website*** , then on the ***Login*** tab. Select ***Autofill login*** and uncheck the ***Auto submit*** option.  
 ![!!KB4217.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4217.png)

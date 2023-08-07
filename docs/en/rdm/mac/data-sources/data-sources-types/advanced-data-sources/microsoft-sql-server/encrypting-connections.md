@@ -1,7 +1,7 @@
 ---
 title: Encrypting connections to SQL Server
 ---
-To ensure that the communication between {{ en.RDM }} for Mac and the SQL Server database is encrypted, an extensive procedure must be followed on the SQL Server instance.  
+To ensure that the communication between {{ en.RDMMAC }} and the SQL Server database is encrypted, an extensive procedure must be followed on the SQL Server instance.  
 
 Please consult this Microsoft technet article that provides detailed instruction: [Encrypting Connection so SQL Server (technet)](https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/ms189067(v=sql.105)?redirectedfrom=MSDN).  
 

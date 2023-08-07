@@ -2,7 +2,7 @@
 title: Data Source Types
 order: 20
 ---
-{{ en.RDM }} for Mac supports multiple types of data source. First decide which data source you are going to use.  
+{{ en.RDMMAC }} supports multiple types of data source. First decide which data source you are going to use.  
 
 {% snippet icon.badgeNotice %} 
 Upon initial installation, you will be running from a local data source which is an SQLite database. 
@@ -34,7 +34,7 @@ PROS AND CONS
 {{ en.DOD }} 
 		</td>
 		<td>
-{{ en.RDM }} for Mac uses {{ en.DOD }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
+{{ en.RDMMAC }} uses {{ en.DOD }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
 
 For more information, please consult our [{{ en.OD }}](/cloud/rdm-online-services/online-drive/) topic. 
 		</td>
@@ -59,7 +59,7 @@ Cons:
 {{ en.DVLS }} 
 		</td>
 		<td>
-{{ en.RDM }} for Mac uses {{ en.DVLS }} to store session information.  
+{{ en.RDMMAC }} uses {{ en.DVLS }} to store session information.  
 
 For more information, please consult our [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) topic. 
 
@@ -86,7 +86,7 @@ Cons:
 Dropbox 
 		</td>
 		<td>
-{{ en.RDM }} for Mac uses the Dropbox API to retrieve the XML file from the configured repository.  
+{{ en.RDMMAC }} uses the Dropbox API to retrieve the XML file from the configured repository.  
 
 For more information, please consult our [Dropbox](/rdm/mac/data-sources/data-sources-types/dropbox/) topic. 
 		</td>
@@ -113,7 +113,7 @@ Cons:
 Microsoft Azure SQL 
 		</td>
 		<td>
-{{ en.RDM }} for Mac uses the Microsoft cloud platform to save and manage all sessions.  
+{{ en.RDMMAC }} uses the Microsoft cloud platform to save and manage all sessions.  
 
 For more information, please consult our Azure SQL topic. 
 		</td>
@@ -138,7 +138,7 @@ Cons:
 Microsoft SQL Server 
 		</td>
 		<td>
-{{ en.RDM }} for Mac uses SQL Server to save and manage all sessions. This is one of the available data source for a multi-user environment.  
+{{ en.RDMMAC }} uses SQL Server to save and manage all sessions. This is one of the available data source for a multi-user environment.  
 
 For more information, please consult our [SQL Server (MSSQL)](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) topic. 
 
@@ -165,7 +165,7 @@ Cons:
 {{ en.DHUBB }} 
 		</td>
 		<td>
-{{ en.RDM }} for Mac connects to the {{ en.DHUBB }} vault.  
+{{ en.RDMMAC }} connects to the {{ en.DHUBB }} vault.  
 
 Note that there are different subscription levels for this product.  
 
@@ -193,7 +193,7 @@ Cons:
 {{ en.DHUBP }} 
 		</td>
 		<td>
-{{ en.RDM }} for Mac uses {{ en.DHUBP }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
+{{ en.RDMMAC }} uses {{ en.DHUBP }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
 
 For more information, please consult our [{{ en.HUBP }}](/rdm/mac/data-sources/data-sources-types/hub-personal/) topic. 
 
@@ -219,7 +219,7 @@ Cons:
 SQLite 
 		</td>
 		<td>
-{{ en.RDM }} for Mac uses a SQLite database to store session information.  
+{{ en.RDMMAC }} uses a SQLite database to store session information.  
 
 For more information, please consult our [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) topic. 
 
@@ -246,7 +246,7 @@ Cons:
 XML 
 		</td>
 		<td>
-{{ en.RDM }} for Mac saves the settings directly in a file with the XML format.  
+{{ en.RDMMAC }} saves the settings directly in a file with the XML format.  
 
 For more information, please consult our [XML](/rdm/mac/data-sources/data-sources-types/xml/) topic. 
 

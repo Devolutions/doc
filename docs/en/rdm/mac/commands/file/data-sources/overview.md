@@ -1,7 +1,7 @@
 ---
 title: Overview
 ---
-Use File – Data Sources to manage your data sources. {{ en.RDM }} for Mac supports multiple types of data sources however some of them are only available in the Team Edition.  
+Use File – Data Sources to manage your data sources. {{ en.RDMMAC }} supports multiple types of data sources however some of them are only available in the Team Edition.  
 
 Please refer to the topic [Data Source Types](/rdm/mac/data-sources/data-sources-types/) for more details on all of our supported data sources.  
 ![Your active Data sources](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10014.png) 
@@ -42,5 +42,5 @@ Use the Export button to export one of your data source.
 
 ### On Start up 
 
-{{ en.RDM }} for Mac will automatically open the last used data source on startup or your can set a selected data source to open on startup. 
+{{ en.RDMMAC }} will automatically open the last used data source on startup or your can set a selected data source to open on startup. 
 
