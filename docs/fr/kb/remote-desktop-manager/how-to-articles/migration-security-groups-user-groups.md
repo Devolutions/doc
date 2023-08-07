@@ -1,5 +1,6 @@
 ---
 title: Migration des groupes de sécurité vers les groupes d'utilisateurs
+status: Topic available in German language
 ---
 {% snippet icon.badgeCaution %} 
 Pour une meilleure gestion de vos permissions d'utilisateurs, nous vous recommandons de passer de ***Groupes de sécurité*** (obsolète) à [***Permissions***](/fr/rdm/windows/user-groups-based-access-control/permissions/). Une fois la migration complétée, désactivez l'ancienne [sécurité](/fr/rdm/windows/commands/administration/settings/system-settings/general/security/) en désélectionnant ***Utiliser l'ancienne sécurité*** dans ***Administration - Paramètres du système - Paramètres de sécurité*** . 
