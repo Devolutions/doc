@@ -1,6 +1,7 @@
 ---
 title: Permissions du système
 order: 30
+status: Topic available in German language
 ---
 Les ***Permissions du système*** permettent d'accorder certaines permissions administratives aux utilisateurs standard sans en faire des administrateurs. Le paramètre par défaut hérite des permissions sur l'utilisateur ou le groupe d'utilsateur. Ceux-ci sont traités comme vous le feriez pour les permissions dans une entrée. 
 
