@@ -20,7 +20,7 @@ DESCRIPTION
 Niveau débogage 
 		</td>
 		<td>
-Définir le niveau des informations de débogage que {{ fr.RDM }} pour Mac capturera. Cela ne devrait être modifié que sur demande d'un technicien de l'équipe de soutien technique de Devolutions et pourrait ralentir votre système. 
+Définir le niveau des informations de débogage que {{ fr.RDMMAC }} capturera. Cela ne devrait être modifié que sur demande d'un technicien de l'équipe de soutien technique de Devolutions et pourrait ralentir votre système. 
 		</td>
 	</tr>
 	<tr>
@@ -62,7 +62,7 @@ Lorsqu'une session est déconnectée, l'onglet intégré se ferme automatiquemen
 Désactiver le message de confirmation de la déconnexion 
 		</td>
 		<td>
-Lorsque vous appuyez sur le bouton de fermeture de session dans une session RDP intégrée, {{ fr.RDM }} pour Mac déconnectera la session sans le message de confirmation de fermeture de session. 
+Lorsque vous appuyez sur le bouton de fermeture de session dans une session RDP intégrée, {{ fr.RDMMAC }} déconnectera la session sans le message de confirmation de fermeture de session. 
 		</td>
 	</tr>
 </table>
@@ -83,7 +83,7 @@ DESCRIPTION
 Permettre plusieurs instances 
 		</td>
 		<td>
-Permet à plusieurs instances de {{ fr.RDM }} pour Mac de s'exécuter simultanément. Ce n'est pas une pratique recommandée. 
+Permet à plusieurs instances de {{ fr.RDMMAC }} de s'exécuter simultanément. Ce n'est pas une pratique recommandée. 
 		</td>
 	</tr>
 	<tr>
@@ -132,7 +132,7 @@ Désactiver la fonction de vérification de compromission du mot de passe si ell
 Activer la journalisation de la session 
 		</td>
 		<td>
-Enregistrer et suivre les activités et les interactions des utilisateurs avec {{ fr.RDM }} pour Mac. 
+Enregistrer et suivre les activités et les interactions des utilisateurs avec {{ fr.RDMMAC }}. 
 		</td>
 	</tr>
 	<tr>
@@ -199,7 +199,7 @@ DESCRIPTION
 Démarrer l'agent au démarrage de l'application 
 		</td>
 		<td>
-L'agent démarre lorsque vous ouvrez {{ fr.RDM }} pour Mac. 
+L'agent démarre lorsque vous ouvrez {{ fr.RDMMAC }}. 
 		</td>
 	</tr>
 </table>
@@ -245,7 +245,7 @@ Sélectionner un nombre cible où les sessions d'ouverture de masse demanderont 
 Aller en mode hors ligne lors d'un changement de réseau 
 		</td>
 		<td>
-Lorsque vous changez de réseau, {{ fr.RDM }} pour Mac passe en mode hors ligne. 
+Lorsque vous changez de réseau, {{ fr.RDMMAC }} passe en mode hors ligne. 
 		</td>
 	</tr>
 </table>

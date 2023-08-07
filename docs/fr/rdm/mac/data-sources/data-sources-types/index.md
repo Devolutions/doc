@@ -2,7 +2,7 @@
 title: Type de source de données
 order: 20
 ---
-{{ fr.RDM }} pour Mac prend en charge plusieurs types de sources de données. Décidez d'abord de la source de données que vous utiliserez. 
+{{ fr.RDMMAC }} prend en charge plusieurs types de sources de données. Décidez d'abord de la source de données que vous utiliserez. 
 
 {% snippet icon.badgeNotice %} 
 Lors de l'installation initiale, vous exécuterez à partir d'une source de données locale qui est une base de données SQLite. 
@@ -34,7 +34,7 @@ AVANTAGES ET INCONVÉNIENTS
 {{ fr.DOD }} 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac utilise {{ fr.DOD }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet. 
+{{ fr.RDMMAC }} utilise {{ fr.DOD }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet. 
 Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.OD }}](/fr/cloud/rdm-online-services/online-drive/) . 
 		</td>
 		<td>
@@ -58,7 +58,7 @@ Inconvénients :
 {{ fr.DVLS }} 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac utilise {{ fr.DVLS }} pour stocker les informations de session.  
+{{ fr.RDMMAC }} utilise {{ fr.DVLS }} pour stocker les informations de session.  
 
 Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) . 
 		</td>
@@ -84,7 +84,7 @@ Inconvénients :
 Dropbox 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac utilise l'API Dropbox pour récupérer le fichier XML à partir du coffre configuré.  
+{{ fr.RDMMAC }} utilise l'API Dropbox pour récupérer le fichier XML à partir du coffre configuré.  
 
 Pour plus d'informations, veuillez consulter notre rubrique [Dropbox](/fr/rdm/mac/data-sources/data-sources-types/dropbox/) . 
 		</td>
@@ -111,7 +111,7 @@ Inconvénients :
 Microsoft Azure SQL 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.  
+{{ fr.RDMMAC }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.  
 
 Pour plus d'informations, veuillez consulter notre rubrique Azure SQL. 
 		</td>
@@ -136,7 +136,7 @@ Inconvénients :
 Microsoft SQL Server 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac utilise SQL Server pour enregistrer et gérer toutes les sessions. Il s'agit de l'une des sources de données disponibles pour un environnement multi-utilisateur.  
+{{ fr.RDMMAC }} utilise SQL Server pour enregistrer et gérer toutes les sessions. Il s'agit de l'une des sources de données disponibles pour un environnement multi-utilisateur.  
 
 Pour plus d'informations, consultez notre rubrique [SQL Server (MSSQL)](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) . 
 		</td>
@@ -162,7 +162,7 @@ Inconvénients :
 {{ fr.DHUBB }} 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac se connecte au coffre {{ fr.DHUBB }}.  
+{{ fr.RDMMAC }} se connecte au coffre {{ fr.DHUBB }}.  
 
 Notez qu'il existe différents niveaux d'abonnement pour ce produit.  
 
@@ -190,7 +190,7 @@ Inconvénients :
 {{ fr.DHUBP }} 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac utilise {{ fr.DHUBP }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet.  
+{{ fr.RDMMAC }} utilise {{ fr.DHUBP }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet.  
 
 Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.HUBP }}](/fr/rdm/mac/data-sources/data-sources-types/hub-personal/). 
 		</td>
@@ -215,7 +215,7 @@ Inconvénients :
 SQLite 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac utilise une base de données SQLite pour stocker les informations de session.  
+{{ fr.RDMMAC }} utilise une base de données SQLite pour stocker les informations de session.  
 
 Pour plus d'informations, veuillez consulter notre rubrique [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/) . 
 		</td>
@@ -241,7 +241,7 @@ Inconvénients :
 XML 
 		</td>
 		<td>
-{{ fr.RDM }} pour Mac enregistre les paramètres directement dans un fichier au format XML.  
+{{ fr.RDMMAC }} enregistre les paramètres directement dans un fichier au format XML.  
 
 Pour plus d'informations, veuillez consulter notre rubrique [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) . 
 		</td>

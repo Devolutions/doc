@@ -1,9 +1,9 @@
 ---
 title: Ajouter un site Web
 ---
-Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant*** , qui est l'onglet sélectionné à l'ouverture de l'extension. Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.RDM }} pour Mac via {{ fr.DWL }} .  
+Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant*** , qui est l'onglet sélectionné à l'ouverture de l'extension. Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.RDMMAC }} via {{ fr.DWL }} .  
 
-Lorsque {{ fr.RDM }} pour Mac est utilisé comme source de données, la configuration de l'entrée se fait dans l'onglet ***Général*** .  
+Lorsque {{ fr.RDMMAC }} est utilisé comme source de données, la configuration de l'entrée se fait dans l'onglet ***Général*** .  
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2022.png) 
 
 Consultez le tableau ci-dessous pour en savoir plus sur chaque champ/paramètre de cette vue. 
@@ -71,7 +71,7 @@ Ouvrir le ***Générateur de mots de passe*** qui permet de créer un mot de pas
 Dossier de destination 
 		</td>
 		<td>
-Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.RDM }} pour Mac. 
+Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.RDMMAC }}. 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Coffre 
 		</td>
 		<td>
-Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.UVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.RDM }} pour Mac . 
+Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.UVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.RDMMAC }} . 
 		</td>
 	</tr>
 	<tr>

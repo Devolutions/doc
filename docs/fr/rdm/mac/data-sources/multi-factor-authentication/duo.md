@@ -4,7 +4,7 @@ description: Remote Desktop Manager pour Mac vous permet de configurer une authe
 keywords:
 - Authentification Duo
 ---
-{{ fr.RDM }} pour Mac vous permet de configurer une authentification Duo pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données. 
+{{ fr.RDMMAC }} vous permet de configurer une authentification Duo pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données. 
 
 ## Paramètres 
 

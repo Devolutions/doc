@@ -1,7 +1,7 @@
 ---
 title: Journaux des connexions locales
 ---
-Lorsque vous utilisez {{ fr.RDM }} pour Mac avec une source de données sans base de données ou si vous ne possédez pas les autorisations correctes, les ***Journaux d'activité*** , qui se trouvent normalement dans l'onglet ***Affichage*** , ne sont pas disponibles. Dans cette situation, les ***Journaux de connexion locales*** apparaissent à la place dans l'onglet ***Affichage*** .  
+Lorsque vous utilisez {{ fr.RDMMAC }} avec une source de données sans base de données ou si vous ne possédez pas les autorisations correctes, les ***Journaux d'activité*** , qui se trouvent normalement dans l'onglet ***Affichage*** , ne sont pas disponibles. Dans cette situation, les ***Journaux de connexion locales*** apparaissent à la place dans l'onglet ***Affichage*** .  
 ![Bouton Journaux des connexions locales](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0014.png) 
 
 {% snippet icon.badgeInfo %} 

@@ -135,7 +135,7 @@ Les administrateurs peuvent créer des comptes aux utilisateurs sans divulguer l
 
 ### Note 2 
 
-La sécurité intégrée est le nom d'une technologie de Microsoft qui permet d'avoir accès à une instance de SQL Server sans envoyer les identifiants, mais plutôt en utilisant le jeton fourni par l'authentification à l'ordinateur Windows. Cette option n'est pas disponible dans {{ fr.RDM }} pour macOs. Cela permet aux utilisateurs de se connecter directement à la base de données à l'aide d'autres outils. Cette technologie ne devrait pas être utilisée si vous ne devez pas donner un accès direct à la base de données.  
+La sécurité intégrée est le nom d'une technologie de Microsoft qui permet d'avoir accès à une instance de SQL Server sans envoyer les identifiants, mais plutôt en utilisant le jeton fourni par l'authentification à l'ordinateur Windows. Cette option n'est pas disponible dans {{ fr.RDMMAC }}. Cela permet aux utilisateurs de se connecter directement à la base de données à l'aide d'autres outils. Cette technologie ne devrait pas être utilisée si vous ne devez pas donner un accès direct à la base de données.  
 
 Notre source de données SQL Server offre une troisième option d'authentification : le type le type ***Personnalisé (Custom Devolutions)***. Cette option permet d'utiliser une identité empruntée à un autre utilisateur sans connaître le mot de passe. Veuillez consulter la section concernant la gestion des utilisateurs pour plus d'informations. 
 

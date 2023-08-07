@@ -1,7 +1,7 @@
 ---
 title: Affichage
 ---
-L'onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l'affichage, les journaux et la disposition de {{ fr.RDM }} pour Mac.  
+L'onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l'affichage, les journaux et la disposition de {{ fr.RDMMAC }}.  
 ![Onglet Affichage](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4079.png) 
 
 ### Sujets 
@@ -169,7 +169,7 @@ Ouvrir une fenêtre pour accéder à vos journaux locaux.
 </table>
 
 {% snippet icon.badgeInfo %} 
-Bien qu'ils soient affichés par défaut dans une fenêtre, tous ces volets peuvent être glissés et ancrés n'importe où dans {{ fr.RDM }} pour Mac. 
+Bien qu'ils soient affichés par défaut dans une fenêtre, tous ces volets peuvent être glissés et ancrés n'importe où dans {{ fr.RDMMAC }}. 
 {% endsnippet %}
  
 

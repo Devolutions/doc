@@ -7,7 +7,7 @@ L'onglet ***Sessions ouvertes*** affiche les sessions en cours d'exécution par 
 Il est aussi situé dans l'onglet ***Affichage*** dans le ***Ruban*** .  
 ![Sessions ouvertes](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0031.png) 
 
-Vous pouvez attribuer le focus à une session ouverte en double-cliquant sur celle-ci dans la liste. Toutes les sessions intégrées sont répertoriées et les sessions externes apparaîtront si {{ fr.RDM }} pour Mac est capable de découvrir le type de session spécifique.  
+Vous pouvez attribuer le focus à une session ouverte en double-cliquant sur celle-ci dans la liste. Toutes les sessions intégrées sont répertoriées et les sessions externes apparaîtront si {{ fr.RDMMAC }} est capable de découvrir le type de session spécifique.  
 
 ## Sessions ouvertes
 
@@ -17,10 +17,10 @@ Vous pouvez attribuer le focus à une session ouverte en double-cliquant sur cel
 
 ### Sessions en cours d'exécution (Globales) 
 
-Avec les sources de données SQL Server, vous pouvez surveiller les sessions en cours d'exécution à condition qu'elles aient été ouvertes dans {{ fr.RDM }} pour Mac.  
+Avec les sources de données SQL Server, vous pouvez surveiller les sessions en cours d'exécution à condition qu'elles aient été ouvertes dans {{ fr.RDMMAC }}.  
 ![Sessions globales](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0034.png) 
 
-Pour de nombreuses raisons indépendantes de notre volonté, il est possible qu'une session se termine sans que {{ fr.RDM }} pour Mac en soit conscient. Cela peut se produire, par exemple, si {{ fr.RDM }} pour Mac n'est pas en cours d'exécution lorsqu'une autre application se termine. Par conséquent, toute session terminée restera répertoriée dans le journal. Vous pouvez la marquer manuellement comme fermée via le menu contextuel en sélectionnant ***Marquer comme fermé*** .  
+Pour de nombreuses raisons indépendantes de notre volonté, il est possible qu'une session se termine sans que {{ fr.RDMMAC }} en soit conscient. Cela peut se produire, par exemple, si {{ fr.RDMMAC }} n'est pas en cours d'exécution lorsqu'une autre application se termine. Par conséquent, toute session terminée restera répertoriée dans le journal. Vous pouvez la marquer manuellement comme fermée via le menu contextuel en sélectionnant ***Marquer comme fermé*** .  
 
 Pour consulter un journal détaillé, double-cliquez sur une entrée de session. 
 
@@ -36,6 +36,6 @@ Il est possible de voir l'état des entrées dans la base de données sélection
 
 ## Notes 
 
-* {{ fr.RDM }} pour Mac essaie de détecter les sessions ouvertes même si elles n'ont pas été lancées à partir de l'application. Il utilise le nom du processus pour accomplir cette tâche. 
+* {{ fr.RDMMAC }} essaie de détecter les sessions ouvertes même si elles n'ont pas été lancées à partir de l'application. Il utilise le nom du processus pour accomplir cette tâche. 
 * Les sessions VPN n'apparaissent pas dans la liste. 
 

@@ -1,11 +1,11 @@
 ---
 title: Chiffrement des connexions à SQL Server
 ---
-Pour garantir que la communication entre {{ fr.RDM }} for Mac et la base de données Microsoft SQL Server est cryptée, une procédure complète doit être suivie sur l'instance Microsoft SQL Server.  
+Pour garantir que la communication entre {{ fr.RDMMAC }} et la base de données Microsoft SQL Server est cryptée, une procédure complète doit être suivie sur l'instance Microsoft SQL Server.  
 
 Veuillez consulter cet article Microsoft technet qui fournit des instructions détaillées: [Encrypting Connections to SQL Server (technet)](https://technet.microsoft.com/en-us/library/ms189067(v=sql.105).aspx) .  
 
-Une fois qu'il a été correctement configuré, la seule modification à effectuer dans {{ fr.RDM }} for Mac consiste à définir une propriété dans ***Paramètres avancés*** de la source de données. 
+Une fois qu'il a été correctement configuré, la seule modification à effectuer dans {{ fr.RDMMAC }} consiste à définir une propriété dans ***Paramètres avancés*** de la source de données. 
 
 ## Procédure 
 

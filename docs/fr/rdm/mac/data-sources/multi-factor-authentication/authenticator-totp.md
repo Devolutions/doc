@@ -1,7 +1,7 @@
 ---
 title: Authenticator (TOTP)
 ---
-{{ fr.RDM }} pour Mac vous permet d'utiliser un Authenticator (TOTP)   tel que [Devolutions Workspace](https://devolutions.net/fr/workspace/) ou Google Authenticator pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données. 
+{{ fr.RDMMAC }} vous permet d'utiliser un Authenticator (TOTP)   tel que [Devolutions Workspace](https://devolutions.net/fr/workspace/) ou Google Authenticator pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données. 
 
 ## Paramètres 
 

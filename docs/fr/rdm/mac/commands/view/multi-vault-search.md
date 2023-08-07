@@ -3,7 +3,7 @@ title: Recherche multi-coffres
 ---
 ![Bouton Recherche multi-coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0020.png) 
 
-La fonctionnalité ***Recherche multi-coffres*** de {{ fr.RDM }} pour Mac permet de rechercher des dossiers et des entrées dans tous les coffres de la source de données sélectionnée à la fois.  
+La fonctionnalité ***Recherche multi-coffres*** de {{ fr.RDMMAC }} permet de rechercher des dossiers et des entrées dans tous les coffres de la source de données sélectionnée à la fois.  
 ![Recherche multi-coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0021.png) 
 
 ### Types de critères 

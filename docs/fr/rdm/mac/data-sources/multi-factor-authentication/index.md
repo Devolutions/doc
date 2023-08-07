@@ -8,7 +8,7 @@ Cette fonctionnalité est disponible pour les sources de données [{{ fr.DVLS }}
 
 L'authentification multifacteur (AMF) identifie les utilisateurs par au moins deux éléments différents : quelque chose que l'utilisateur connaît (souvent un mot de passe) et quelque chose que l'utilisateur possède (par exemple, un code de validation envoyé à un appareil mobile). Si l'un de ces éléments est manquant ou incorrect, l'identité de l'utilisateur n'est pas établie avec suffisamment de certitude et l'accès à la source de données restera alors bloqué.  
 
-L'AMF est définie au niveau de la source de données excepté dans {{ fr.DVLS }} , où elle est [définie sur l'utilisateur](/fr/server/web-interface/administration/configuration/server-settings/security/two-factor/) . {{ fr.RDM }} pour Mac prend en charge [Authenticator (TOTP)](/fr/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/) , [Yubikey](/fr/rdm/mac/data-sources/multi-factor-authentication/yubikey/) et [Duo](/fr/rdm/mac/data-sources/multi-factor-authentication/duo/) .  
+L'AMF est définie au niveau de la source de données excepté dans {{ fr.DVLS }} , où elle est [définie sur l'utilisateur](/fr/server/web-interface/administration/configuration/server-settings/security/two-factor/) . {{ fr.RDMMAC }} prend en charge [Authenticator (TOTP)](/fr/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/) , [Yubikey](/fr/rdm/mac/data-sources/multi-factor-authentication/yubikey/) et [Duo](/fr/rdm/mac/data-sources/multi-factor-authentication/duo/) .  
 
 Consultez la section qui correspond à votre type de source de données :  
 

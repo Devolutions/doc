@@ -1,7 +1,7 @@
 ---
 title: Emplacement du fichier de configuration
 ---
-{{ fr.RDM }} pour macOS enregistre sa configuration dans un fichier nommé RemoteDesktopManager.cfg. Ce fichier contient presque tous les paramètres de l'application.  
+{{ fr.RDMMAC }} enregistre sa configuration dans un fichier nommé RemoteDesktopManager.cfg. Ce fichier contient presque tous les paramètres de l'application.  
 
 You can find the configuration file by following these steps:  
 

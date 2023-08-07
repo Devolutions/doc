@@ -3,7 +3,7 @@ eleventyComputed:
   title: Interface utilisateur de {{ fr.DWL }}
   order: 50
 ---
-L'interface utilisateur de {{ fr.DWL }} varie légèrement dans votre navigateur selon le produit Devolutions utilisé conjointement avec l'extension. Cette rubrique présentera l'interface utilisateur de {{ fr.DWL }} lors de son utilisation avec {{ fr.RDM }} pour Mac.  
+L'interface utilisateur de {{ fr.DWL }} varie légèrement dans votre navigateur selon le produit Devolutions utilisé conjointement avec l'extension. Cette rubrique présentera l'interface utilisateur de {{ fr.DWL }} lors de son utilisation avec {{ fr.RDMMAC }}.  
 
 La vue principale, qui est celle qui s'affiche lors de la première ouverture de {{ fr.DWL }} dans votre navigateur, peut être divisée en trois sections principales :  
 
@@ -25,7 +25,7 @@ Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez pa
 En utilisant les onglets du ***Menu latéral*** , vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }} .  
 
 
-Chaque onglet affiche une vue différente dans la ***Zone de contenu*** . Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.RDM }} pour Mac sont :  
+Chaque onglet affiche une vue différente dans la ***Zone de contenu*** . Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.RDMMAC }} sont :  
 
 * l'onglet ***Correspondant*** , où vous pouvez trouver les identifiants disponibles pour un site Web spécifique; 
 * le ***Générateur de mots de passe*** , où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte; 

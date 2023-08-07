@@ -8,7 +8,7 @@ title: Microsoft SQL Azure
 ![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
-Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} pour Mac utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.  
+Avec une source de données Microsoft Azure SQL, {{ fr.RDMMAC }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.  
 
 Les fonctionnalités suivantes sont également prises en charge :  
 
@@ -20,7 +20,7 @@ Les fonctionnalités suivantes sont également prises en charge :
 	</tr>
 </table>
 
-## Configuration minimale requise de la source de donnée azure sql pour {{ fr.rdm }} pour mac 
+## Configuration minimale requise de la source de donnée azure sql pour {{ fr.RDMMAC }} 
 
 Microsoft Azure SQL propose différents niveaux de service dans son modèle d'achat pour DTUS. Nous recommandons au minimum un forfait de niveau standard S0 pour 5 utilisateurs et plus. Visitez leur site Web pour plus d'informations.  
 
@@ -39,7 +39,7 @@ Une stratégie de sauvegarde de base de données appropriée doit être mise en 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-AD Azure n'est pas pris en charge dans {{ fr.RDM }} pour Mac. Cette fonctionnalité n'est pas encore implémentée. 
+AD Azure n'est pas pris en charge dans {{ fr.RDMMAC }}. Cette fonctionnalité n'est pas encore implémentée. 
 {% endsnippet %}
  
 ## Configuration 

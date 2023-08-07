@@ -1,10 +1,10 @@
 ---
 title: Yubikey
 ---
-{{ fr.RDM }} pour Mac vous permet de configurer un Yubikey pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données.  
+{{ fr.RDMMAC }} vous permet de configurer un Yubikey pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données.  
 
 {% snippet icon.badgeCaution %} 
-Pour l'instant, {{ fr.RDM }} pour Mac ne prend en charge que Yubico OTP. 
+Pour l'instant, {{ fr.RDMMAC }} ne prend en charge que Yubico OTP. 
 {% endsnippet %}
  
 ## Paramètres 
@@ -20,5 +20,5 @@ Avant de commencer la configuration, assurez-vous d'avoir un ***Yubikey*** en vo
 1. Maintenir le bouton doré sur le ***Yubikey*** pour que le code s'insère dans le champ.  
 ![Programme d'installation Yubikey](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0192.png) 
 1. Cliquer sur ***Enregistrer*** . 
-1. Relancer {{ fr.RDM }} pour Mac pour être invité à entrer le code ***Yubikey*** . 
+1. Relancer {{ fr.RDMMAC }} pour être invité à entrer le code ***Yubikey*** . 
 

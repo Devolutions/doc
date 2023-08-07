@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Approuver un accès temporaire à une entrée dans {{ fr.RDM }} pour Mac
+  title: Approuver un accès temporaire à une entrée dans {{ fr.RDMMAC }}
   order: 20
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande. 
 ---

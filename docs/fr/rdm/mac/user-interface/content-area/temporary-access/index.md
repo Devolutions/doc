@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Accès temporaire dans {{ fr.RDM }} pour Mac
+  title: Accès temporaire dans {{ fr.RDMMAC }}
 ---

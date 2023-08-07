@@ -3,7 +3,7 @@ title: Menu latéral
 ---
 En utilisant les onglets du ***Menu latéral*** , vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }} . Chaque onglet affiche une vue différente dans la ***Zone de contenu*** .  
 
-Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.RDM }} pour Mac, les onglets disponibles sont l'onglet ***Correspondant*** , l'onglet ***Générateur de mots de passe*** et l'onglet ***À propos*** .  
+Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.RDMMAC }}, les onglets disponibles sont l'onglet ***Correspondant*** , l'onglet ***Générateur de mots de passe*** et l'onglet ***À propos*** .  
 
 ### Onglet Correspondant 
 
@@ -17,7 +17,7 @@ Pour connaître les méthodes de récupération de vos identifiants, consultez [
 
 En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher tous vos identifiants, pas seulement celles applicables au site Web. Vous pouvez également utiliser le bouton ***Actualiser*** situé à côté pour mettre à jour les résultats de la recherche.  
 
-En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.RDM }} pour Mac par le biais de l'extension {{ fr.DWL }} .  
+En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.RDMMAC }} par le biais de l'extension {{ fr.DWL }} .  
 
 {% snippet icon.badgeInfo %} 
 Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web*** , consultez [cette rubrique](/fr/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/add-website/) . Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 

@@ -9,7 +9,7 @@ eleventyComputed:
 Si vous avez déjà un compte pour le site Web, apprenez plutôt comment [Ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
 {% endsnippet %}
  
-Suivez les étapes ci-dessous pour créer un compte de site Web avec {{ fr.DWL }} et sauvegarder vos identifiants dans {{ fr.RDM }} pour Mac.  
+Suivez les étapes ci-dessous pour créer un compte de site Web avec {{ fr.DWL }} et sauvegarder vos identifiants dans {{ fr.RDMMAC }}.  
 
 1. Sur le site Web pour lequel vous souhaitez créer votre compte, aller à la page d'inscription/création de compte. Cette page sera différente pour chaque site Web; cette rubrique utilisera le site Web d'Atlassian comme exemple. 
 ![Page d'enregistrement](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2023.png) 
@@ -37,8 +37,8 @@ Vos paramètres de mot de passe sont maintenant configurés.
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2030.png) 
 1. Saisir un ***Nom*** pour l'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu'il reflète le contenu de l'entrée pour la retrouver plus facilement au besoin. 
 1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du coffre. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
-1. Spécifier si vous souhaitez enregistrer votre entrée dans votre ***Coffre d'utilisateur*** ou dans un ***Coffre*** . Notez que pour créer votre entrée dans le coffre de votre choix, le coffre correspondant doit être actuellement ouvert dans {{ fr.RDM }} pour Mac. 
+1. Spécifier si vous souhaitez enregistrer votre entrée dans votre ***Coffre d'utilisateur*** ou dans un ***Coffre*** . Notez que pour créer votre entrée dans le coffre de votre choix, le coffre correspondant doit être actuellement ouvert dans {{ fr.RDMMAC }}. 
 1. Cliquer sur ***Enregistrer*** . 
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.RDM }} pour Mac. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/) . 
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.RDMMAC }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/) . 
 

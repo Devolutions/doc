@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Demander un accès temporaire à une entrée dans {{ fr.RDM }} pour Mac
+  title: Demander un accès temporaire à une entrée dans {{ fr.RDMMAC }}
   order: 10
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions d'exécution pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande.  
 ---
 
 {% snippet icon.badgeInfo %} 
-Pour apprendre comment approuver ou refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ fr.RDM }} pour Mac](/fr/rdm/mac/user-interface/content-area/temporary-access/approve-temporary-access/). 
+Pour apprendre comment approuver ou refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ fr.RDMMAC }}](/fr/rdm/mac/user-interface/content-area/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
  
 La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions d'exécution pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande.  

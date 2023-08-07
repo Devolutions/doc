@@ -3,13 +3,13 @@ eleventyComputed:
   title: Récupérer des identifiants avec {{ fr.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-Vous avez besoin d'entrées de site Web dans {{ fr.RDM }} pour Mac pour pouvoir récupérer leurs identifiants. Si ce n'est pas le cas, commencez par [Ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/) . 
+Vous avez besoin d'entrées de site Web dans {{ fr.RDMMAC }} pour pouvoir récupérer leurs identifiants. Si ce n'est pas le cas, commencez par [Ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/) . 
 {% endsnippet %}
  
 
-{{ fr.DWL }} facilite l'accès à vos identifiants en faisant automatiquement correspondre les sites Web aux identifiants enregistrés dans les entrée de sites Web de {{ fr.RDM }} pour Mac. Il est également possible de filtrer vos entrées via {{ fr.DWL }} pour trouver manuellement vos identifiants.  
+{{ fr.DWL }} facilite l'accès à vos identifiants en faisant automatiquement correspondre les sites Web aux identifiants enregistrés dans les entrée de sites Web de {{ fr.RDMMAC }}. Il est également possible de filtrer vos entrées via {{ fr.DWL }} pour trouver manuellement vos identifiants.  
 
-Après l' [installation](fr/rdm/mac/dwl/installation/) de {{ fr.DWL }} et son [couplage](/fr/rdm/mac/dwl/first-login-devolutions-web-login/) avec {{ fr.RDM }} pour Mac, vous pouvez immédiatement utiliser l'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d'abord les étapes de la section [Paramètres](#paramètres) : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la [Récupération des identifiants](#récupération-des-identifiants) . 
+Après l' [installation](fr/rdm/mac/dwl/installation/) de {{ fr.DWL }} et son [couplage](/fr/rdm/mac/dwl/first-login-devolutions-web-login/) avec {{ fr.RDMMAC }}, vous pouvez immédiatement utiliser l'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d'abord les étapes de la section [Paramètres](#paramètres) : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la [Récupération des identifiants](#récupération-des-identifiants) . 
 
 ## Paramètres 
 
@@ -45,7 +45,7 @@ Vous pouvez maintenant continuer à la [prochaine section](#récupération-des-i
 Cette section est basée sur les étapes de configuration de {{ fr.DWL }} qui se trouvent dans la [section précédente](#paramètres). Nous vous recommandons fortement de les suivre avant de poursuivre, puisque certaines fonctionnalités pourraient différer entre votre expérience et ce qui est indiqué ci-dessous. 
 {% endsnippet %}
  
-Vos identifiants peuvent être récupérés de {{ fr.RDM }} pour Mac automatiquement ou manuellement à partir de {{ fr.DWL }} . Suivez les étapes de la section qui correspond le mieux à vos besoins : 
+Vos identifiants peuvent être récupérés de {{ fr.RDMMAC }} automatiquement ou manuellement à partir de {{ fr.DWL }} . Suivez les étapes de la section qui correspond le mieux à vos besoins : 
 
 * [Récupérer les identifiants automatiquement](#récupérer-les-identifiants-automatiquement) 
 * [Récupérer les identifiants manuellement](#récupérer-les-identifiants-manuellement) 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Accorder un accès temporaire à une entrée dans {{ fr.RDM }} pour Mac
+  title: Accorder un accès temporaire à une entrée dans {{ fr.RDMMAC }}
   order: 30
   description: Les approbateurs peuvent accorder un accès temporaire sans demande à un utilisateur et même si ce dernier dispose déjà d'un accès.
 ---

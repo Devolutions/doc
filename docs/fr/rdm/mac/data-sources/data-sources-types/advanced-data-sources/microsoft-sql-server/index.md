@@ -41,7 +41,7 @@ Une stratégie de sauvegarde de base de données appropriée doit être mise en 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Active directory dans une source de données SQL Server n'est plus pris en charge dans {{ fr.RDM }} pour macOS. 
+Active directory dans une source de données SQL Server n'est plus pris en charge dans {{ fr.RDMMAC }}. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
