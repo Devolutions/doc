@@ -1,5 +1,5 @@
 ---
-title: Sous-connexion
+title: Sous entrées
 ---
-L'onglet ***Sous-connexion*** est utilisé lorsque vous avez défini des sous-connexions pour votre entrée actuelle.  
-![Sous-connexion](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4510.png) 
+L'onglet ***Sous entrée*** est utilisé lorsque vous avez défini des sous entrées pour votre entrée actuelle.  
+![Sous entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4510.png) 

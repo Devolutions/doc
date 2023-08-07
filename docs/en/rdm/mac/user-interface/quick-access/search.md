@@ -30,6 +30,6 @@ It is possible to exclude results by choosing to display entries that match cert
 A search by types can be executed to include Sessions, Data Entries, Contacts, Documents, Credentials Entries, VPNs, Macros/Scripts/Tools, Show Sync.  
 ![Search - Type](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10563.png) 
 
-The Search Options will offer you the possibility to include the shortcuts, the sub connections, show only the favorites and/or make the search case sensitive.  
+The Search Options will offer you the possibility to include the shortcuts, the sub entries, show only the favorites and/or make the search case sensitive.  
 ![Search - Search Options](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10564.png) 
 

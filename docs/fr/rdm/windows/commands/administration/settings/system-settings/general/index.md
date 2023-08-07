@@ -71,10 +71,10 @@ Force les entrées à s'enregistrer automatiquement après un délai défini.
 	</tr>
 	<tr>
 		<td>
-Autoriser les sous-connexions 
+Autoriser les sous entrées 
 		</td>
 		<td>
-Autoriser les utilisateurs à créer des sous-connexions. 
+Autoriser les utilisateurs à créer des sous entrées. 
 		</td>
 	</tr>
 	<tr>

@@ -46,7 +46,7 @@ Should be used for backwards compatibility only, not listed
 	</tr>
 	<tr>
 		<td>
-Parent (only for sub-connections)
+Parent (only for sub entries)
 		</td>
 		<td>
 "E2CC9029-CA3A-4308-BA54-16D5029BC8ED"

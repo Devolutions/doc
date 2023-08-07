@@ -133,10 +133,10 @@ Autoriser le mode d'identifiants intégrés dans les entrées. Ce mode est obsol
 	</tr>
 	<tr>
 		<td>
-Autoriser les sous-connexions 
+Autoriser les sous entrées 
 		</td>
 		<td>
-Autoriser la création de sous-entrées. 
+Autoriser la création de sous entrées. 
 		</td>
 	</tr>
 	<tr>

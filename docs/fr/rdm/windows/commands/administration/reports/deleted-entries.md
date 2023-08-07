@@ -11,7 +11,7 @@ Les administrateurs peuvent supprimer définitivement certaines ou toutes les en
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Les sous-connexions ne sont pas conservées dans la fenêtre ***Entrées supprimées*** . Pour restaurer une sous-connexion, veuillez consulter l' ***Historique des entrées*** . 
+Les sous entrées ne sont pas conservées dans la fenêtre ***Entrées supprimées*** . Pour restaurer une sous entrée, veuillez consulter l'***Historique des entrées***. 
 {% endsnippet %}
  
 ## Paramètres 

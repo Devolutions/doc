@@ -37,7 +37,7 @@ The Notes tab contains only one control. A text area where you can enter any inf
 
 ### Custom Fields 
 
-The Custom tab contain five custom fields. The reason behind having discrete fields is that they are available via Field Variables and can therefore be accessed in sub connections while being defined in the parent connection (see Sub Connections Overview).  
+The Custom tab contain five custom fields. The reason behind having discrete fields is that they are available via Field Variables and can therefore be accessed in sub entries while being defined in the parent connection (see Sub entries overview).  
 ![Information -  Custom Fields](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6020.png) 
 
 ### Statistics 

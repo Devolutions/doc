@@ -30,5 +30,5 @@ Il est possible d'exclure des résultats en choisissant d'afficher les entrées 
 Une recherche par ***Options de navigation*** peut être exécutée pour inclure des Sessions, des Entrées de données, des Contacts, des Documents, des Entrées d'identifiants, des VPN, des Macros/Scripts/Outils et Sync.  
 ![Options de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4406.png) 
 
-Les ***Options de recherche*** vous offriront la possibilité d'inclure les raccourcis, les sous-connexions, d'afficher uniquement les favoris et/ou de rendre la recherche sensible à la casse.  
+Les ***Options de recherche*** vous offriront la possibilité d'inclure les raccourcis, les sous entrées, d'afficher uniquement les favoris et/ou de rendre la recherche sensible à la casse.  
 ![Options de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4407.png) 

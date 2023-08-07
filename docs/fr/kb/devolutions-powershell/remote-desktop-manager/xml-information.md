@@ -46,7 +46,7 @@ Dois être utilisé à des fins de rétrocompatibilité, pas répertorier
 	</tr>
 	<tr>
 		<td>
-Parent (uniquement pour les sous-connexions)
+Parent (uniquement pour les sous entrées)
 		</td>
 		<td>
 "E2CC9029-CA3A-4308-BA54-16D5029BC8ED"

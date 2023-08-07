@@ -9,7 +9,7 @@ This is useful when the number of managed entries becomes too great or when a st
 A shortcut to the ***Favorites*** tab of the ***{{ en.NPANE }}*** is located in the ***View*** tab.  
 ![View - Favorites](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2002.png) 
 
-The favorites view can be personalized to show the sub-connections when using the ***Search*** bar. Click on the ellipsis button and select ***Show Sub-Connections*** . You can also choose to ***Apply filter*** .  
+The favorites view can be personalized to show the sub entries when using the ***Search*** bar. Click on the ellipsis button and select ***Show Sub Entries*** . You can also choose to ***Apply filter*** .  
 ![Options](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2001.png) 
 
 ### Flag an Entry as Favorite 

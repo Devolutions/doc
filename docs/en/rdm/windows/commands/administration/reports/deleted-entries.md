@@ -12,7 +12,7 @@ Administrators can permanently delete some or all deleted entries.
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Sub-connections are not retained in the View Deleted window. To restore a sub-connection, please have a look at Entry History. 
+Sub entries are not retained in the View Deleted window. To restore a sub entry, please have a look at Entry History. 
 {% endsnippet %}
  
 ## Settings 

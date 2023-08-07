@@ -1,8 +1,7 @@
 ---
-title: Sub Connections
+title: Sub entries
 ---
-The Sub Connections footer pane is used when having define sub connections for your current entry.  
-![Footer - Sub Connections](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6022.png) 
+The sub entries footer pane is used when having define sub entries for your current entry.  
+![Footer - Sub entries](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6022.png) 
 
-Please refer to the Sub Connections topic for more information. 
-
+Please refer to the Sub entries topic for more information. 

@@ -69,10 +69,10 @@ Force checked out entries to check in automatically after a set delay.
 	</tr>
 	<tr>
 		<td>
-Allow sub connections 
+Allow sub entries 
 		</td>
 		<td>
-Allow users to create sub connections. 
+Allow users to create sub entries. 
 		</td>
 	</tr>
 	<tr>
