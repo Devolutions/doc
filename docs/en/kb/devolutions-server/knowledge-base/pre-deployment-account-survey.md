@@ -1,5 +1,6 @@
 ---
 title: Pre-Deployment Account Survey
+status: Topic available in German language
 ---
 Prior to deployment of a DVLS instance, some accounts are needed to operate the various services involved in a secure deployment of DVLS. The first decision is to use either domain accounts for operating the platform, or to use local SQL accounts paired with local service accounts. Since this decision is a matter of personal preference, we support both models.
 
