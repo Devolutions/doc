@@ -18,7 +18,7 @@ Here are mainly the approaches and techniques associated with them:
 
 ## Initial Import of Cyberark Connections From CSV
 ### Create the Cyberark PSM server entry (or multiple)  
-![!!KB4680.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4680.png)  
+![CyberArk PSM Server](https://webdevolutions.azureedge.net/docs/en/kb/KB4680.png)  
 Select the ***Connection Mode*** you elect on the server.  
 
 * Custom (AD Account with permissions to RDP into the PSM server and an associated account in Cyberark).  
@@ -28,30 +28,30 @@ In this example, Custom is in force; Username / domain / password has been popul
 
 Then choose an RDP Template created beforehand, this template defines the setting of the initial connection on the PSM server.  
 
-![!!KB4681.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4681.png)  
+![RDP Template created beforehand](https://webdevolutions.azureedge.net/docs/en/kb/KB4681.png)  
 
 Once the Cyberark PSM Server has been added, get the ID of the new entry ( ***Property - Entry Information*** ).  
 
 In our example, the ID is 33628378-d4a6-431f-8438-16b75921aef9.  
 
-![!!KB4682.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4682.png)  
+![ID of the new entry](https://webdevolutions.azureedge.net/docs/en/kb/KB4682.png)  
 
 ### Create the Cyberark PSM Connection Template
 <a name="psm"></a>
 
 1. Go to ***File - Templates - Templates***  
-![!!KB4683.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4683.png)  
+![File - Templates - Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB4683.png)  
 1. Add a new template.  
-![!!KB4684.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4684.png)
-1. Select ***Cyberark PSM Connection*** (Pro-tip: you can filter in the ***<Search>*** field).  
-![!!KB4685.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4685.png)
+![Add a new template](https://webdevolutions.azureedge.net/docs/en/kb/KB4684.png)
+1. Select ***CyberArk PSM Connection*** (Pro-tip: you can filter in the ***<Search>*** field).  
+![CyberArk PSM Connection](https://webdevolutions.azureedge.net/docs/en/kb/KB4685.png)
 1. Give the template a significant name, some of the remaining fields can be filled, but the CSV should be complete enough if filled properly.  
-![!!KB4686.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4686.png)
+![Template name](https://webdevolutions.azureedge.net/docs/en/kb/KB4686.png)
 
 ### Create a CSV File for the import
 <a name="csv"></a>
 
-To facilitate the process, here’s a template of the [CSV](https://api.devolutions.net/redirection/b88f0f80-67f1-4eb0-b803-e1179a19222b) file, populate it accordingly.  
+To facilitate the process, here’s a template of the [CSV](https://redirection.devolutions.com/37b5737c-78c2-44d9-9f3c-b208e6f5891c) file, populate it accordingly. The first line after the header is informational and should not be in the file at import time.
 
 The fields are mapped like this :  
 
@@ -117,14 +117,16 @@ End point Hostname / IP
 Once the PSM Server entry has been created, and the CSV File is populated.  
 
 1. Go to ***File - Import - Import Session Csv Wizard***  
-![!!KB4687.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4687.png)
+![File - Import - Import Session Csv Wizard](https://webdevolutions.azureedge.net/docs/en/kb/KB4687.png)  
 1. Browse and select the Csv File created beforehand, and click ***Next***  
-![!!KB4688.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4688.png)
-1. Select ***Selected template***
-2. Select the template we created and click ***Finish***  
-![!!KB4689.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4689.png)
+![Import Csv Wizard](https://webdevolutions.azureedge.net/docs/en/kb/KB4688.png)  
+1. Select ***Selected template***  
+2. Select the template we created and click ***Finish***.  
+![PSMImport](https://webdevolutions.azureedge.net/docs/en/kb/KB4689.png)  
+Note: You must tick the ***Generate Direct Mapping*** check box.  
+![Generate Direct Mapping check box](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6063.png)  
 1. And voila!  
-![!!KB4690.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4690.png)
+![Imported connections](https://webdevolutions.azureedge.net/docs/en/kb/KB4690.png)  
 
 ## Synchronization (Using RDM Synchronizer entry)  
 {% snippet icon.badgeInfo %}
@@ -147,12 +149,12 @@ Please refer to <a href="#psm">Create the Cyberark PSM Connection Template</a> i
 The template will contain the Privileged account, the PSM Server and Connection Component to use.  
 ### Create an Active Directory Synchronizer
 
-![!!KB4691.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4691.png)
+![Synchronizer- Active Directory](https://webdevolutions.azureedge.net/docs/en/kb/KB4691.png)
 
 1. Enter the domain related data in the ***General*** tab.
 1. Then in the ***Settings*** tab, select your destination folder for the new entries to be created.
 1. Select the PSM Connection Template.  
-![!!KB4692.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4692.png)
+![PSM Connection Template](https://webdevolutions.azureedge.net/docs/en/kb/KB4692.png)
 1. Fill in the rest of the options and save.  
 
 Then you only have to run the Synchronizer whenever you need to refresh the server list.  
@@ -171,7 +173,7 @@ Please refer to <a href="#psm">Create the Cyberark PSM Connection Template</a> i
 
 ### Create a CSV Synchronizer  
 
-![!!KB4693.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4693.png)  
+![Synchronizer – Comma-separated values (CSV)](https://webdevolutions.azureedge.net/docs/en/kb/KB4693.png)  
 
 Enter the file path, the template to use (created beforehand) and the destination folder.  
 
@@ -186,7 +188,7 @@ A Cyberark PSM Connection template is required beforehand.
 1. In ***Host*** , enter $QUICK_CONNECT$
 1. Set a privileged account to be used.
 1. Select the ***PSM Server*** that this PSM connection will be using and a ***Connection component***  
-![!!KB4694.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4694.png)  
+![File - Templates - Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB4694.png)  
 
 {% snippet icon.badgeInfo %}
 This approach would allow you to create multiple templates for PSM connections reflecting several ***Privileged Accounts*** and ***Connection components***
@@ -194,7 +196,7 @@ This approach would allow you to create multiple templates for PSM connections r
 
 ### Utilization
 Once a template has been created, it will be showing up in the ***Quick connect*** list of templates.  
-![!!KB4695.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4695.png)
+![Quick connect](https://webdevolutions.azureedge.net/docs/en/kb/KB4695.png)
 
 You can then type in the ***Host*** of the target endpoint, and launch the session.
 ## Host
@@ -206,9 +208,9 @@ What is actually interesting about this, is that a variable can be used to popul
 
 In this example I used the Custom Field #1 variable, here’s the template configuration:  
 
-![!!KB4696.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4696.png)  
+![Privileged account variable](https://webdevolutions.azureedge.net/docs/en/kb/KB4696.png)  
 
 And the ***Host*** entry:  
 
-![!!KB4697.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4697.png)  
-![!!KB4698.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4698.png)
+![Host entry](https://webdevolutions.azureedge.net/docs/en/kb/KB4697.png)  
+![Custom Fields](https://webdevolutions.azureedge.net/docs/en/kb/KB4698.png)
