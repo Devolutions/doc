@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
-  title: Enable debug WebView for embedded Safari in Remote Desktop Manager MacOS
-  description: 
+  title: Enable debug WebView for embedded Safari in Remote Desktop Manager macOS
+  description: Follow these steps to enable  debug WebView for embedded Safari in Remote Desktop Manager macOS
 ---
 
-Debugging a web page rendered within a WebView can be an invaluable exercise, especially when it comes to meticulously examining its layout, diving into the intricacies of its design, or addressing confusing JavaScript complications. Follow these steps to enable  debug WebView for embedded Safari in Remote Desktop Manager MacOS.
+Debugging a web page rendered within a WebView can be an invaluable exercise, especially when it comes to meticulously examining its layout, diving into the intricacies of its design, or addressing confusing JavaScript complications. Follow these steps to enable  debug WebView for embedded Safari in Remote Desktop Manager macOS.
 
 ## Enable Safari Developer Tools
 1. Open ***Safari***.
