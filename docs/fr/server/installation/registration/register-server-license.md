@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 Il existe deux méthodes pour enregistrer votre licence ***{{ fr.DVLS }}*** : avec la [{{ fr.DVLSCONSOLE }}](#console-devolutions-server) ou via l'[interface Web de {{ fr.DVLS }}](#interface-web-devolutions-server).  
 
-{% snippet icon.badgeHelp %}
+{% snippet icon.badgeInfo %}
 Depuis la version 2022.3 de {{ fr.DVLS }}, l'édition Free ne nécessite pas de licence.
 {% endsnippet %}  
 
