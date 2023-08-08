@@ -1,5 +1,6 @@
 ---
 title: Uninstall
+description : Descriptions of the best practices to uninstall Remote Desktop Manager 
 ---
 ### Instructions 
 
@@ -13,4 +14,16 @@ The application configuration files are saved in ***%LocalAppData%\Devolutions\R
 Please note that if you are using a local data source like [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) or [XML](/rdm/windows/data-sources/data-sources-types/xml/) , your data source may be saved in the configuration folder. Perform a backup of the data source prior to the deletion of the folder. 
 {% endsnippet %}
  
+## Uninstall and reinstall {{ en.RDM }} without the cfg file
 
+The cfg file is not deleted when {{ en.RDM }} is reinstalled or updated. This is intended to avoid deleting the configuration made by users. However, if the cfg file is deleted manually and {{ en.RDM }} is restarted, it will check the default location of the connections.db file (file that contains data of the local data source) to see if the creation of a local data source is required. 
+
+{% snippet icon.badgeCaution %}
+Since a local data source is required for {{ en.RDM }} to start, it will ***load the previous connections.db file*** if the default location is not changed.
+{% endsnippet %}  
+
+To encrypt the content of a local data source, a master key must be set. It will not be possible for anyone who doesn't have access to the master key to view the data contained in the connections.db file.
+
+{% snippet icon.badgeInfo %} 
+To configure a master key, [please refer to this topic](/rdm/windows/commands/file/change-master-key/). 
+{% endsnippet %}
