@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 There are two methods to register your {{ en.DVLS }} license: using the [{{ en.DVLSCONSOLE }}](#devolutions-server-console) or via the [{{ en.DVLS }} web interface](#devolutions-server-web-interface). 
 
-{% snippet icon.badgeHelp %}
+{% snippet icon.badgeInfo %}
 Since version 2022.3 of {{ en.DVLS }}, the Free Edition does not require a license.
 {% endsnippet %}  
 
