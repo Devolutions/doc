@@ -21,6 +21,10 @@ Elle est structurée selon nos divers produits, ainsi qu'en quelques sous-catég
 
 &nbsp; &nbsp;[{{ fr.RDM }}](/fr/kb/remote-desktop-manager/)
 
+&nbsp; &nbsp;[{{ en.RDMMAC }}](/fr/kb/remote-desktop-manager-macos/)
+
+&nbsp; &nbsp;[{{ en.RDM }} Mobile](/fr/kb/remote-desktop-manager-mobile/)
+
 &nbsp; &nbsp;[{{ fr.DVLS }}](/fr/kb/devolutions-server/)
 
 &nbsp; &nbsp;[{{ fr.DHUBB }}](/fr/kb/hub-business/)
