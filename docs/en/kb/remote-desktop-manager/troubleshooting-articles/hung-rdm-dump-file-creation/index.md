@@ -24,6 +24,9 @@ The size of the dump file should not generally exceed 100 MB to 300 MB. Files la
 1. Launch {{ en.RDM }}.
 1. Replicate the steps that trigger the issue in {{ en.RDM }}.
 1. In the ***Process Explorer***, right-click the ***RemoteDesktopManager.exe*** process.
+   {% snippet icon.shieldWarning %}
+   In the next step, make sure you create a minidump and **NOT** a full dump.
+   {% endsnippet %}
 1. Select ***Create Dump – Create Minidump***.  
    ![Create Dump – Create Minidump](https://webdevolutions.azureedge.net/docs/en/kb/KB2262.png)  
 1. Save the ***RemoteDesktopManager.dmp*** file.
