@@ -4,7 +4,7 @@ eleventyComputed:
   order: 10
   description: Enregistrez votre licence {{ fr.DVLS }} avec la {{ fr.DVLSCONSOLE }} ou via l'interface Web de {{ fr.DVLS }}.
 ---
-Il existe deux méthodes pour enregistrer votre licence ***{{ fr.DVLS }}*** : avec la [{{ fr.DVLSCONSOLE }}](#console-devolutions-server) ou via l'[interface Web de {{ fr.DVLS }}](#interface-web-devolutions-server).  
+Il existe deux méthodes pour enregistrer votre licence ***{{ fr.DVLS }}*** : avec la [{{ fr.DVLSCONSOLE }}](#console-de-devolutions-server) ou via l'[interface Web de {{ fr.DVLS }}](#interface-web-de-devolutions-server).  
 
 ## {{ fr.DVLSCONSOLE }} 
 
