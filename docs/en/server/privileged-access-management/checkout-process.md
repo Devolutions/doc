@@ -14,19 +14,6 @@ A pop-up will appear requesting information on the checkout request to be sent t
 Once the request is sent, the selected Approver will have the request in the ***Checkout*** field of his ***Privileged Access*** window.  
 ![Checkout Request](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6004.png) 
 
-1. To check out an entry requiring approbation, the user needs to go to the Privileged Access section on the {{ en.DVLS }}'s webpage. 
-1. The user then clicks on the Accounts panel.  
-![Privileged Access](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6001.png) 
-
-The user then locates the account they want to Check Out for temporary use and clicks the ***Check Out*** button on the entry.  
-![PAM Account Selection](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6002.png) 
-
-A pop-up will appear requesting information on the checkout request to be sent to an administrator for approval.  
-![Checkout Request](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6003.png) 
-
-Once the request is sent, the selected Approver will have the request in the "Checkout" field of his ***Privileged Access*** window.  
-![Checkout Request](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6004.png) 
-
 The approver gets the following pop-up when clicking on the request where it's possible to either ***Approve*** or ***Deny*** the request and leave an optional message.  
 ![Approve/Deny Window](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6005.png) 
 
