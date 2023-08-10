@@ -13,7 +13,7 @@ Follow these steps to manually delete the backup of the configuration:
 ![!!KB2042.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2042.png)  
 There’s one backup per Android device. The name of the backup can be the code of the device.
 1. Right-click on the backup and select ***Delete***
-1. Now that the backup is deleted, you can reinstall Remote Desktop Manager on your device.
+1. Now that the backup is deleted, you can reinstall {{ en.RDM }} on your device.
 
 ## Disable the automatic restore of the application configurations
 

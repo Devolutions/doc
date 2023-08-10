@@ -9,7 +9,7 @@ Any debug level other than zero will slow down the application and write a lot o
 The Ad hoc debugging method is sufficient in most cases, use the in-depth debugging method whenever you need to diagnose the startup or the initial connection.
 ## Solution
 ### Method AD HOC Debugging
-1. In Remote Desktop Manager, open ***Help – Profiler*** , move the window aside to clear the main window.  
+1. In {{ en.RDM }}, open ***Help – Profiler*** , move the window aside to clear the main window.  
 ![!!KB2022.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2022.png)
 1. In the ***Debug Only*** tab, click on the ellipsis button and activate the proper debug categories.
 1. In {{ en.RDM }} , perform the action that is under investigation.  

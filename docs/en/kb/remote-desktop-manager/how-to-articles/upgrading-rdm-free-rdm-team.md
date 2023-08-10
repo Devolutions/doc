@@ -1,5 +1,6 @@
 ---
-title: Upgrading from Remote Desktop Manager Free to Remote Desktop Manager Team
+eleventyComputed:
+  title: Upgrading from {{ en.RDM }} Free to {{ en.RDM }} Team
 ---
 {% snippet icon.badgeInfo %}
 Since version 2022.3 of {{ en.RDM }}, the Free Edition and Team Edition (previously Enterprise Edition) have been merged into [one single download](https://devolutions.net/remote-desktop-manager), allowing users to upgrade with more ease. To learn more about this change, you can read our blog post [{{ en.RDM }} Free and Enterprise Are Now Unified](https://blog.devolutions.net/2022/10/news-remote-desktop-manager-is-changing-for-the-better/).

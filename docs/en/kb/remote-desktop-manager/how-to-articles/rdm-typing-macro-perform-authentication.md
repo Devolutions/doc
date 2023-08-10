@@ -1,14 +1,14 @@
 ---
-title: Remote Desktop Manager Typing Macro to Perform Authentication
+title: Remote Desktop Manager typing macro to perform authentication
 ---
-With {{ en.RDM }} , it is possible to send credentials through a typing macro using variables.
+With {{ en.RDM }}, it is possible to send credentials through a typing macro using variables.
 
 1. Open the ***Properties*** of a ***Website*** session entry. In the left menu, make sure you are in ***Common – General***.
 1. Click the ***Login*** tab to access the ***Settings*** section.
 1. Check the ***Autofill login*** box and uncheck the ***Auto submit*** box.  
 ![!!KB4835.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4835.png)
 1. In the left menu, navigate to the ***Security – Security Settings*** section.
-1. Under ***Password*** , check the ***Allow password in variable*** option box. This option needs to be checked so that the typing macro can send the password to the remote session.  
+1. Under ***Password***, check the ***Allow password in variable*** option box. This option needs to be checked so that the typing macro can send the password to the remote session.  
 {% snippet icon.badgeCaution %}
 If the option is greyed out, you need to activate ***Allow password variables for all entries*** and ***Allow password variable in macros*** in ***Administration – System Settings – Password Policy***  
 

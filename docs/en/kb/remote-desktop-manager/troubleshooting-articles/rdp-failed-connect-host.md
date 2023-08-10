@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} RDP Failed to Connect to the Host
+  title: Remote Desktop Manager {{ en.MAC }} RDP failed to connect to the host
 ---
 Error silent: failed to connect to the host (131084) for {{ en.MAC }}  
 

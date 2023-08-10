@@ -138,7 +138,7 @@ Launch a session in the {{ en.DLAUNCHER }} companion tool.
 ![!!logo-rdm.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/logo-rdm.png) 
 		</td>
 		<td>
-Open in Remote Desktop Manager 
+Open in {{ en.RDM }} 
 		</td>
 		<td>
 Launch a session in {{ en.RDM }} . 

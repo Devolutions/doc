@@ -55,7 +55,7 @@ After the installation, if you run the command:
 
 You should get the output below:  
 ![!!KB4126.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4126.png)  
-If you restart Remote Desktop Manager with the current user (not running as admin) and open the VMware Dashboard entry, after 30 seconds, you should see all your servers.  
+If you restart {{ en.RDM }} with the current user (not running as admin) and open the VMware Dashboard entry, after 30 seconds, you should see all your servers.  
 
 If this does not work, create a PowerShell entry, the blue one, select ***Embedded Script*** and type the script below:  
 ```

@@ -7,7 +7,7 @@ eleventyComputed:
   - Permissions
 ---
 {% snippet icon.badgeInfo %}
-Security groups are deprecated as of version 2023.3 of Remote Desktop Manager.
+Security groups are deprecated as of version 2023.3 of {{ en.RDM }}.
 {% endsnippet %}
 
 This topic demonstrates how to safely migrate from ***Legacy Security*** to ***Permissions*** in {{ en.RDM }}.

@@ -1,7 +1,7 @@
 ---
-title: CyberArk PSM Integration Scenarios
+title: CyberArk PSM integration scenarios
 ---
-There are different approaches using Remote Desktop Manager’s Cyberark PSM Components.  
+There are different approaches using the {{ en.RDM }} Cyberark PSM Components.  
 
 Although this guide covers many ways and techniques, it cannot cover every possible avenue.  
 
@@ -9,7 +9,7 @@ Here are mainly the approaches and techniques associated with them:
 
 * Initial Import
 	* From CSV (give a csv template)
-* Synchronization (Using Remote Desktop Manager Synchronizer entry)
+* Synchronization (Using the {{ en.RDM }} Synchronizer entry)
 	* From Active Directory Synchronizer
 	* From Comma-Separate values (CSV) Synchronizer
 * Dynamic utilization
@@ -128,7 +128,7 @@ Note: You must tick the ***Generate Direct Mapping*** check box.
 1. And voila!  
 ![Imported connections](https://webdevolutions.azureedge.net/docs/en/kb/KB4690.png)  
 
-## Synchronization (Using Remote Desktop Manager Synchronizer entry)  
+## Synchronization (Using the {{ en.RDM }} Synchronizer entry)  
 {% snippet icon.badgeInfo %}
 Both those techniques are used to connect to a third party repository. The first one will connect to a domain controller, and list the servers and computers according to filters and settings.
 {% endsnippet %}  
@@ -137,7 +137,7 @@ The general approach and principle of using synchronizers are to keep a list of 
 
 Those entries are created following a template, created and configured beforehand.  
 
-It’s also granted that the Cyberark PSM integration is already configured and working (PSM Connection and Server Components, Remote Desktop Manager templates, etc.)  
+It’s also granted that the Cyberark PSM integration is already configured and working (PSM Connection and Server Components, {{ en.RDM }} templates, etc.)  
 
 ## From Active Directory Synchronizer
 This approach will create entries from an LDAP request on a domain controller.  

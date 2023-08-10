@@ -1,7 +1,7 @@
 ---
 title: SQL Server Always On Availability Groups
 ---
-Main Remote Desktop Manager clients and {{ en.DVLS }} are written using the .Net platform, which means that the capabilities are often derived from .Net libraries themselves.  
+Main {{ en.RDM }} clients and {{ en.DVLS }} are written using the .Net platform, which means that the capabilities are often derived from .Net libraries themselves.  
 
 As such, supported availability groups are a feature of the database driver used. All types are therefore supported:  
 

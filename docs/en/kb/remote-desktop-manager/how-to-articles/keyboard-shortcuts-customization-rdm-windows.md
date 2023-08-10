@@ -1,7 +1,8 @@
 ---
-title: Keyboard Shortcuts Customization in Remote Desktop Manager Windows
+eleventyComputed:
+  title: Keyboard shortcuts customization in {{ en.RDM }} Windows
 ---
-In {{ en.RDM }} for Windows, you can [customize individual shortcuts](#modify) and [create shortcut macros](#create). These options are found in ***File – Options – User Interface – Keyboard***.
+In {{ en.RDM }} Windows, you can [customize individual shortcuts](#modify) and [create shortcut macros](#create). These options are found in ***File – Options – User Interface – Keyboard***.
 
 {% snippet icon.badgeInfo %}
 For a list of default values for shortcuts, visit our [Keyboard Shortcuts](/rdm/windows/support-resources/keyboard-shortcuts/) topic.

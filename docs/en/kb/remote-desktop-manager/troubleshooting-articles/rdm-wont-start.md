@@ -1,5 +1,5 @@
 ---
-title: Remote Desktop Manager Won't Start
+title: Remote Desktop Manager does not start
 ---
 While modernizing our {{ en.RDM }} - Windows build process, an issue went undetected. A tool that performs actions against our code base has introduced an issue within the application.  
 

@@ -8,7 +8,7 @@ We strongly recommend to be careful with this migration as it affects all user a
 Before deploying this migration in your production environment, we recommend to have a working backup of the SQL database and the Encryption Keys if you need to restore your {{ en.DVLS }} instance.
 {% endsnippet %}  
 
-It is possible to efficiently migrate {{ en.DVLS }} Domain authentication to Microsoft authentication using the following steps. Some sections require to run PowerShell scripts or SQL statements. As those scripts may change according to the {{ en.DVLS }} version, please check our [GitHub Remote Desktop ManagerSamples-ps](https://github.com/Devolutions/RDMSamples-ps) repository to get them.
+It is possible to efficiently migrate {{ en.DVLS }} Domain authentication to Microsoft authentication using the following steps. Some sections require to run PowerShell scripts or SQL statements. As those scripts may change according to the {{ en.DVLS }} version, please check our [GitHub RDMSamples-ps](https://github.com/Devolutions/RDMSamples-ps) repository to get them.
 ### Preparation phase
 * Ask all users to export their User Vaults (formerly know as Private Vault) for safety measure.
 * Have all AAD security groups created in Azure.  

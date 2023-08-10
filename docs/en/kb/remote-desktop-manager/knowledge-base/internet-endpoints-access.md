@@ -74,7 +74,7 @@ File – {{ en.DA }}
 	</tr>
 	<tr>
 		<td>
-Devolutions Store - Upgrade/Buy Remote Desktop Manager
+Devolutions Store - Upgrade/Buy {{ en.RDM }}
 		</td>
 		<td>
 https<area>://store.devolutions.net

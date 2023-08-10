@@ -7,4 +7,4 @@ NullReferenceException - Object reference not set to an instance of an object.
 
 at Devolutions.RemoteDesktopManager.RDMOProxy.RDMOWebApiClient.Login  
 ## Solution
-{{ en.RDM }} 2019.1.41.0 contains the fix for that issue, you can download the latest Remote Desktop Manager version here : [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download)
+{{ en.RDM }} 2019.1.41.0 contains the fix for that issue, you can download the latest {{ en.RDM }} version here: [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download)
