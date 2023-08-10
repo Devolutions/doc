@@ -11,7 +11,7 @@ This feature is not available for all the data sources.
 
 The offline mode file is first encrypted using our own private key mixed with some information taken from the local computer.  
 
-Please note that there is no Read/Write level permission for the Offline Mode on the {{ en.RDM }} iOS application.  
+Please note that there is no Read/Write level permission for the Offline Mode on the {{ en.RDMIOS }} application.  
 
 ### Offline Mode
 

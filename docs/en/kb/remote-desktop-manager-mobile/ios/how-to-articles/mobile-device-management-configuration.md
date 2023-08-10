@@ -6,8 +6,8 @@ The Devolutions environment does not have a Mobile Device Management (MDM) tool 
 
 ### Solution
 
-1. Configure a {{ en.RDM }} iOS and/or Android device.
+1. Configure a {{ en.RDMIOS }} and/or Android device.
 1. Export the configuration in a MDM file.
-* In {{ en.RDM }} iOS go to ***Options - Advanced - Generate Managed App Configuration file***.
-* In {{ en.RDM }} Android go to ***Options - Generate Managed App Configuration file***.
+* In {{ en.RDMIOS }}, go to ***Options - Advanced - Generate Managed App Configuration file***.
+* In {{ en.RDMANDROID }}, go to ***Options - Generate Managed App Configuration file***.
 3. In your MDM application, use the exported MDM file to push it to all devices.

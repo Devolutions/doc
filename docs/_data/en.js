@@ -38,9 +38,13 @@ module.exports = {
     RBSS: 'User Groups Based Access Control',
     RDM: 'Remote Desktop Manager',
     RDMA: 'Remote Desktop Manager Agent',
+    RDMANDROID: 'Remote Desktop Manager Android',
+    RDMIOS: 'Remote Desktop Manager iOS',
     RDMJ: 'Remote Desktop Manager Jump',
+    RDMLINUX: 'Remote Desktop Manager Linux',
     RDMMAC: 'Remote Desktop Manager macOS',
     RDMOS: 'RDM Online Services',
+    RDMWIN: 'Remote Desktop Manager Windows',
     UVLT: 'User Vault',
     VLT: 'Vault',
     WS: 'Workspace'

@@ -3,9 +3,9 @@ title: Remote Desktop Manager Android Configure the Autofill
 ---
 {% youtube 'wioPUaLVuBA' %}
 
-Here's how to configure the autofill feature on {{ en.RDM }} Android.
+Here's how to configure the autofill feature on {{ en.RDMANDROID }}.
 
-1. Open {{ en.RDM }} Android.
+1. Open {{ en.RDMANDROID }}.
 1. In the ***Settings*** options, scroll down to the ***Other*** section.
 1. Select ***Autofill Service***.
 1. Toggle the switch on and select {{ en.RDM }} from the list of autofill services.
