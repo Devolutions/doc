@@ -1,5 +1,5 @@
 ---
-title: Hub Business
+title: Devolutions Hub Business
 ---
 {% youtube 'wI4Jn3zLC8U' %}  
 

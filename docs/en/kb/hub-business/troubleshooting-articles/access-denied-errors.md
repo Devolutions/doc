@@ -202,15 +202,15 @@ Solution
 	</tr>
 </table>
 
-### Workspace is disabled for this user on this {{ en.HUB }}.
-![Workspace is disabled for this user on this {{ en.HUB }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
+### {{ en.DWS }} is disabled for this user on this {{ en.HUB }}.
+![{{ en.DWS }} is disabled for this user on this {{ en.HUB }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
 
 <table>
 		<td>
 Description
 		</td>
 		<td>
-This user is not allowed to access this {{ en.HUBB }} via the {{ en.WS }} companion tool.
+This user is not allowed to access this {{ en.DHUBB }} via the {{ en.DWS }} companion tool.
 		</td>
 	</tr>
 	<tr>

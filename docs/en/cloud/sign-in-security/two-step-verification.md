@@ -37,10 +37,10 @@ Choose <a href="#push">Authenticator Push</a>, <a href="#app">Authenticator App<
 
 1. Click ***Authenticator Push*** .  
 ![Authenticator Push.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4032.png) 
-1. Download and install Devolutions Workspace on your mobile device.  
-![Devolutions Workspace.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4034.png)
-1. Use Devolutions Workspace to scan the barcode or enter manually the code.
-![Devolutions Workspace Barcode Scan.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4036.png)
+1. Download and install {{ en.DWS }} on your mobile device.  
+![{{ en.DWS }}](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4034.png)
+1. Use {{ en.DWS }} to scan the barcode or enter manually the code.
+![{{ en.DWS }} Barcode Scan.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4036.png)
 1. Wait for app synchronization and pairing request on the mobile device. Accept the pairing request, click ***Complete*** .  
 ![Application Synchronization.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4039.png)
 

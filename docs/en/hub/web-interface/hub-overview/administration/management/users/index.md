@@ -63,7 +63,7 @@ Allows the user to use the {{ en.HUB }} with our {{ en.DWL }} browser extension.
 	</tr>
 	<tr>
 		<td>
-Enable {{ en.WS }}
+Enable {{ en.DWS }}
 		</td>
 		<td>
 Allows the user to use the {{ en.HUB }} with our {{ en.DWS }} companion tool.

@@ -1,5 +1,5 @@
 ---
-title: Launch RemoteApp with Remote Desktop Manager
+title: Devolutions Launch RemoteApp with Remote Desktop Manager
 ---
 Here are the steps and information required to launch ***RemoteApp*** with {{ en.RDM }} in ***External*** mode.
 

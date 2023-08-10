@@ -11,7 +11,7 @@ Suivre les étapes ci-dessous pour compléter l'installation {{ fr.DLAUNCHER }}.
 ![!!ServerOp4053.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4053.png) 
 1. Choisir le type d'installation.  
 ![!!ServerOp4054.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4054.png) 
-1. Configurer les raccourcis pour {{ fr.LAUNCHER }}.  
+1. Configurer les raccourcis pour {{ fr.DLAUNCHER }}.  
 ![!!ServerOp4055.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4055.png) 
 1. Accepter les termes de la convention de licence et cliquer sur ***Suivant***.  
 ![!!ServerOp4056.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4056.png) 

@@ -4,7 +4,7 @@ order: 10
 ---
 When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choose a web source between {{ en.DHUB }} and {{ en.DVLS }} . 
 {% snippet icon.badgeInfo %} 
-***Web Source Selection*** is available in the ***Settings – Data Sources*** of {{ en.LAUNCHER }}. 
+***Web Source Selection*** is available in the ***Settings – Data Sources*** of {{ en.DLAUNCHER }}. 
 {% endsnippet %}
  
 1. Click ***{{ en.DVLS }}***. 
@@ -13,4 +13,4 @@ When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choo
 ![!!ServerOp4042.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4042.png) 
 1. Click ***OK*** to save.  
 
-You can close the ***Data Sources*** window, you are now connected to your {{ en.DVLS }} with {{ en.LAUNCHER }}.
+You can close the ***Data Sources*** window, you are now connected to your {{ en.DVLS }} with {{ en.DLAUNCHER }}.

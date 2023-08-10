@@ -1,9 +1,9 @@
 ---
-title: Hub Business
+title: Devolutions Hub Business
 ---
 {% youtube 'HOufQYIfmlE' %}  
 
-{{ fr.DHUBB }}, est pour les entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation  
+{{ fr.DHUBB }} est pour les entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation  
 
 Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr) pour plus d'informations sur ce service. 
 {% snippet icon.badgeInfo %} 

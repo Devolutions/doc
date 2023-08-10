@@ -2,7 +2,7 @@
 title: Survol
 order: 0
 ---
-![!!Devolutions Workspace logo](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
+![!!{{ fr.DWS }}  logo](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
 
 {{ fr.DWS }} est un authentificateur à 2 facteurs facile à utiliser pour tous vos comptes en ligne.  
 

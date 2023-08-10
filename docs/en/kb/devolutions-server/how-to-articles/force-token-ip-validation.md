@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: Prevent Remote Desktop Manager and {{ en.WS }} from disconnecting when switching network
-  description: When switching your computer from wired network to wifi, {{ en.RDM }} and {{ en.WS }} will be disconnected from {{ en.DVLS }} and you will have to reconnect.
+  title: Prevent {{ en.RDM }} and {{ en.DWS }} from disconnecting when switching network
+  description: When switching your computer from wired network to wifi, {{ en.RDM }} and {{ en.DWS }} will be disconnected from {{ en.DVLS }} and you will have to reconnect.
   keywords:
   - Switching Network
   - Public IP
@@ -9,11 +9,11 @@ eleventyComputed:
 ---
 ## Scenario 1
 
-When switching your computer from a wired network to wifi, {{ en.RDM }} and {{ en.WS }} will be disconnected from {{ en.DVLS }} and you will have to reconnect.
+When switching your computer from a wired network to wifi, {{ en.RDM }} and {{ en.DWS }} will be disconnected from {{ en.DVLS }} and you will have to reconnect.
 
 ## Scenario 2
 
-If you have multiple different public IP addresses, {{ en.RDM }} and {{ en.WS }} will not be able to connect to {{ en.DVLS }}.
+If you have multiple different public IP addresses, {{ en.RDM }} and {{ en.DWS }} will not be able to connect to {{ en.DVLS }}.
 
 ## Solution
 

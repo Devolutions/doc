@@ -4,7 +4,7 @@ order: 10
 ---
 Lorsque l'installation sera terminée, {{ fr.DLAUNCHER }} vous invitera à choisir une source Web entre {{ fr.DHUB }} et {{ fr.DVLS }}. 
 {% snippet icon.badgeInfo %} 
-La ***Sélection de la Source de données*** est disponible dans ***Paramètres – Source de données*** de {{ fr.LAUNCHER }}. 
+La ***Sélection de la Source de données*** est disponible dans ***Paramètres – Source de données*** de {{ fr.DLAUNCHER }}. 
 {% endsnippet %}
  
 1. Choisir ***{{ fr.DHUB }}***.  
@@ -13,5 +13,5 @@ La ***Sélection de la Source de données*** est disponible dans ***Paramètres 
 ![!!Hub4021.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4021.png) 
 1. À côté du champ ***Hôte***, cliquez sur les 3 points pour sélectionner votre source de données {{ fr.DHUBB }} et cliquer sur ***OK*** pour enregistrer.  
 
-Vous pouvez fermer la fenêtre ***Sources de données***, vous êtes maintenant connecté à votre {{ fr.DHUBB }} et {{ fr.LAUNCHER }}. 
+Vous pouvez fermer la fenêtre ***Sources de données***, vous êtes maintenant connecté à votre {{ fr.DHUBB }} et {{ fr.DLAUNCHER }}. 
 

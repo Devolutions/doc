@@ -1,5 +1,5 @@
 ---
-title: Launcher paramètres
+title: Devolutions Launcher paramètres
 order: 20
 ---
 ### Général 
@@ -13,7 +13,7 @@ Connecter à une source de données.
 
 ### Mes identifiants personnels 
 
-Ajouter un identifiant personnel a votre {{ fr.LAUNCHER }} à partir de la liste d'***Entrée d'identifiants***. 
+Ajouter un identifiant personnel a votre {{ fr.DLAUNCHER }} à partir de la liste d'***Entrée d'identifiants***. 
 
 ### Journaux 
 
@@ -28,8 +28,8 @@ Vous pouvez également valider les informations de la source de données et les 
 
 ### Vérifier les mises à jour 
 
-Valider et télécharger les nouvelles versions de {{ fr.LAUNCHER }}. 
+Valider et télécharger les nouvelles versions de {{ fr.DLAUNCHER }}. 
 
 ### À propos 
 
-Afficher la version installée et les informations de {{ fr.LAUNCHER }}. 
+Afficher la version installée et les informations de {{ fr.DLAUNCHER }}. 

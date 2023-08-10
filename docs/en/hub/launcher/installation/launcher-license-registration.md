@@ -1,9 +1,9 @@
 ---
-title: Launcher License Registration
+title: Devolutions Launcher License Registration
 ---
-Register and assign your {{ en.LAUNCHER }} license serial. 
+Register and assign your {{ en.DLAUNCHER }} license serial. 
 
-### {{ en.DHUBB }} {{ en.LAUNCHER }} license 
+### {{ en.DHUBB }} {{ en.DLAUNCHER }} license 
 
 To register a ***{{ en.DLAUNCHER }}*** license in {{ en.DHUBB }}, you need to add a ***Product Licenses*** and assign it to the users.  
 
@@ -16,7 +16,7 @@ Only ***Administrators*** and users with permissions in the ***System Permission
 ![!!Hub4007.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4007.png) 
 1. Paste the ***License*** and click ***Add*** .  
 ![!!Hub4008.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4008.png) 
-1. Click the ***Edit*** button next to the product ***{{ en.LAUNCHER }}*** license.  
+1. Click the ***Edit*** button next to the product ***{{ en.DLAUNCHER }}*** license.  
 ![!!Hub4010.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4010.png) 
 1. Click ***Assigned To*** and manage your users license access.  
 ![!!Hub4011.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4011.png) 

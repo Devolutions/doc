@@ -1,7 +1,7 @@
 ---
-title: Hub Ownership
+title: Devolutions Hub Ownership
 ---
-In ***Administration – Users*** , you can change the ownership of {{ en.HUBB }} to another administrator.  
+In ***Administration – Users***, you can change the ownership of {{ en.HUBB }} to another administrator.  
 
 To locate the actual owner, search for the crown icon next to a user.  
 
@@ -12,4 +12,3 @@ You can only have one owner at a time and only administrators can be owners.
 {% endsnippet %}
  
 ![!!Hub4105.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4105.png) 
-

@@ -61,7 +61,7 @@ Open the filter dialog window to allow you to do a quick search.
 	</tr>
 </table>
 
-Right-Click on any command to display the contextual menu. To remove an item from the quick access toolbar, right-click on the item and select ***Remove*** . To add an item to the quick access toolbar, right-click an item in the ribbon and select Add . Use this to customize your workspace with your preferences. 
+Right-Click on any command to display the contextual menu. To remove an item from the quick access toolbar, right-click on the item and select ***Remove***. To add an item to the quick access toolbar, right-click an item in the ribbon and select Add . Use this to customize your workspace with your preferences. 
 
 ### Quick Connect control 
 

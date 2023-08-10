@@ -11,7 +11,7 @@ Follow these steps to download and install {{ en.DLAUNCHER }}:
 ![!!ServerOp4032.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4032.png) 
 1. Choose the setup type.  
 ![!!ServerOp4033.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4033.png) 
-1. Select the shortcuts for {{ en.LAUNCHER }}.  
+1. Select the shortcuts for {{ en.DLAUNCHER }}.  
 ![!!ServerOp4034.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4034.png) 
 1. Accept the terms of the Software license agreement and click ***Next***. 
 ![!!ServerOp4035.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4035.png) 

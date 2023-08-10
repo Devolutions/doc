@@ -1,5 +1,5 @@
 ---
-title: Hub Personal
+title: Devolutions Hub Personal
 ---
 {{ en.DHUBP }}, for individual users who want to secure personal passwords in a secure vault for free.  
 

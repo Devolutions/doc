@@ -72,10 +72,10 @@ Insert your Client Access License keys.
 	</tr>
 	<tr>
 		<td>
-{{ en.LAUNCHER }} CAL 
+{{ en.DLAUNCHER }} CAL 
 		</td>
 		<td>
-Insert your {{ en.LAUNCHER }} License keys. 
+Insert your {{ en.DLAUNCHER }} License keys. 
 		</td>
 	</tr>
 </table>

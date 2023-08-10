@@ -1,5 +1,5 @@
 ---
-title: Hub Personal
+title: Devolutions Hub Personal
 order: 50
 ---
 ***{{ fr.DHUBP }}*** est destiné aux utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un coffre sécurisé. Il s'agit d'un outil de gestion des mots de passe infonuagique et facile à utiliser, lié à votre {{ fr.DA }} .  

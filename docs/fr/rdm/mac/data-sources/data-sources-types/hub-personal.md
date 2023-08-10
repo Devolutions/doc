@@ -1,5 +1,5 @@
 ---
-title: Hub Personal
+title: Devolutions Hub Personal
 ---
 {{ fr.DHUBP }}, pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un coffre.  
 

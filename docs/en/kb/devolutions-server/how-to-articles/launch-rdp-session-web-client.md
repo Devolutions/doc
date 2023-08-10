@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Launch an RDP Session in a Web Client
+  title: Devolutions Launch an RDP Session in a Web Client
   description: Since version 2023.1.3.0 of {{ en.DVLS }}, it is possible to launch RDP connections directly from the browser.
   keywords:
   - RDP

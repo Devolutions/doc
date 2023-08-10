@@ -6,7 +6,7 @@ eleventyComputed:
 {{ fr.DLAUNCHER }} et {{ fr.DVLS }} doivent être configurés ensemble. Le lancement de connexions peut être défini pour tous les utilisateurs dans les ***Paramètres de {{ fr.DVLS }}*** ou individuellement dans les ***Paramètres du compte***.  
 
 {% snippet icon.badgeInfo %} 
-Vous devez vous connecter au moins une fois à {{ fr.LAUNCHER }} pour que l'outil lance les sessions à partir de {{ fr.DVLS }}. 
+Vous devez vous connecter au moins une fois à {{ fr.DLAUNCHER }} pour que l'outil lance les sessions à partir de {{ fr.DVLS }}. 
 {% endsnippet %}
  
 ### Paramètres de {{ fr.DVLS }} 

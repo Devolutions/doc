@@ -10,7 +10,7 @@ Suivre les étapes ci-dessous pour compléter l'installation {{ fr.DLAUNCHER }}.
 ![!!Hub4000.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4000.png) 
 1. Choisir le type d 'installation.  
 ![!!Hub4001.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4001.png) 
-1. Configurer les raccourcis pour {{ fr.LAUNCHER }}.  
+1. Configurer les raccourcis pour {{ fr.DLAUNCHER }}.  
 ![!!Hub4002.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4002.png) 
 1. Accepter les termes de la convention de licence et cliquer sur ***Suivant***.  
 ![!!Hub4003.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4003.png) 

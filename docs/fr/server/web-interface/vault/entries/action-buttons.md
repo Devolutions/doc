@@ -82,7 +82,7 @@ Lancer une session RDP dans un nouvel onglet du navigateur.
 Ouvrir session {{ fr.DLAUNCHER }}
 		</td>
 		<td>
-Lancer une session dans {{ fr.LAUNCHER }}. 
+Lancer une session dans {{ fr.DLAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>
