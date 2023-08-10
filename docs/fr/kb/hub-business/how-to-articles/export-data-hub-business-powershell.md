@@ -48,7 +48,8 @@ Description
 $url 
 		</td>
 		<td>
-Saisir l'URL de votre Hub Business. Cette variable est automatiquement saisie, mais il est tout de même possible de la modifier. 
+
+Saisir l'URL de votre {{ fr.HUBB }}. Cette variable est automatiquement saisie, mais il est tout de même possible de la modifier. 
 		</td>
 	</tr>
 	<tr>

@@ -145,7 +145,7 @@ Is there another administrator or any user that has the permission to manage use
 
 The Emergency reset kit was provided at the first login after the initial creation of the {{ en.HUBB }}. It is a mandatory step in the creation process.<br>
 
-You can search for a PDF file titled "Devolutions Hub Emergency Kit huburlxxxx.devolutions.app".<br>
+You can search for a PDF file titled "{{ en.DHUB }} Emergency Kit huburlxxxx.devolutions.app".<br>
 * If you are a {{ en.HUBB }} owner and cannot locate your Emergency reset kit PDF file and do not have another administrator or any user that has the permission to manage users, please contact our [support team](mailto:service@devolutions.net) by email.<br>
 		</td>
 	</tr>
