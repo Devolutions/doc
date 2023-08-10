@@ -28,7 +28,7 @@ Description
 Outils de gestion 
 		</td>
 		<td>
-Identifiants qui permettent à la Console {{ fr.DVLS }} de communiquer avec la base de données SQL. Dois être un compte SQL. 
+Identifiants qui permettent à la {{ fr.DVLSCONSOLE }} de communiquer avec la base de données SQL. Dois être un compte SQL. 
 		</td>
 	</tr>
 	<tr>

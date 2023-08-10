@@ -1,9 +1,10 @@
 ---
-title: Unable to Retrieve Server Information
-description: Following the creation of a Devolutions Server instance, the web interface display the following error message. Unable to retrieve server information.
-keywords:
-- missing privileges
-- server information
+eleventyComputed:
+  title: Unable to Retrieve Server Information
+  description: Following the creation of a {{ en.DVLS }} instance, the web interface display the following error message. Unable to retrieve server information.
+  keywords:
+  - missing privileges
+  - server information
 ---
 Following the creation of a {{ en.DVLS }} instance, the web interface display the following error message.
 

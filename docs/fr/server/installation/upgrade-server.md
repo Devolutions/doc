@@ -4,7 +4,7 @@ eleventyComputed:
   order: 50
 ---
 {% snippet icon.badgeInfo %} 
-Veuillez installer la Console {{ fr.DVLS }} selon la version souhaité disponible sur la [page de téléchargement](https://devolutions.net/fr/server/home/download/) avant de mettre à jour l'instance web de {{ fr.DVLS }} . 
+Veuillez installer la {{ fr.DVLSCONSOLE }} selon la version souhaité disponible sur la [page de téléchargement](https://devolutions.net/fr/server/home/download/) avant de mettre à jour l'instance Web de {{ fr.DVLS }}. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -24,7 +24,7 @@ Nous vous recommandons fortement de tester le processus de mise à niveau dans u
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Les étapes de mise à niveau seront effectuées avec la Console de {{ fr.DVLS }} . Vous devrez mettre à niveau votre copie vers la dernière version correspondant à la version cible de {{ fr.DVLS }} que vous vous préparez à installer. Veuillez suivre attentivement les étapes. 
+Les étapes de mise à niveau seront effectuées avec la {{ fr.DVLSCONSOLE }}. Vous devrez mettre à niveau votre copie vers la dernière version correspondant à la version cible de {{ fr.DVLS }} que vous vous préparez à installer. Veuillez suivre attentivement les étapes. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
@@ -49,19 +49,19 @@ Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant to
 
 * Effectuer une sauvegarde complète de la base de données, prenez des précautions contre la suppression de ce fichier de sauvegarde par un plan de maintenance.  
 * Archiver le contenu du dossier de l'application web contenant l'instance {{ fr.DVLS }} , déplacez-le vers un endroit sûr.  
-* Installer la version appropriée de la Console de {{ fr.DVLS }} . Dans chacune des sous-rubriques liées à une version spécifique de {{ fr.DVLS }} , vous trouverez la version du client dont vous avez besoin.  
-* La Console de {{ fr.DVLS }} doit être exécuté avec des privilèges élevés.  
+* Installer la version appropriée de la {{ fr.DVLSCONSOLE }}. Dans chacune des sous-rubriques liées à une version spécifique de {{ fr.DVLS }} , vous trouverez la version du client dont vous avez besoin.  
+* La {{ fr.DVLSCONSOLE }} doit être exécuté avec des privilèges élevés.  
 
 ### Phase 2 
 
-1. Ouvrir la [{{ fr.DVLSCONSOLE }}](/fr/server/management/devolutions-server-console/) . 
+1. Ouvrir la [{{ fr.DVLSCONSOLE }}](/fr/server/management/devolutions-server-console/). 
 1. Sélectionner l'instance que vous souhaitez mettre à niveau. 
-1. Mettre l'instance en Mode hors ligne avec le bouton ***Mettre hors-ligne*** . Sur une topologie à haute disponibilité/équilibrage de charge, toutes les instances doivent être définies en mode hors ligne avant de démarrer le processus de mise à niveau. 
-1. Cliquer sur le bouton ***Mettre à jour*** .  
+1. Mettre l'instance en Mode hors ligne avec le bouton ***Mettre hors-ligne***. Sur une topologie à haute disponibilité/équilibrage de charge, toutes les instances doivent être définies en mode hors ligne avant de démarrer le processus de mise à niveau. 
+1. Cliquer sur le bouton ***Mettre à jour***.  
 ![{{ fr.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8064.png)  
 1. Sélectionner la source de mise à niveau. Vous pouvez utiliser la dernière version disponible en ligne ou spécifier le chemin d'accès à un fichier zip que vous avez téléchargé vous-même. Utilisez-le pour les versions bêta ou pour les versions antérieures.  
 ![{{ fr.DVLS }} Upgrade Wizard](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8066.png)  
-1. Appuyer sur ***Suivant*** . 
+1. Appuyer sur ***Suivant***. 
 1. Consulter le résumé et appuyer sur ***Mettre à niveau*** si vous êtes satisfait.  
 ![!!ServerOp4016.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4016.png) 
 

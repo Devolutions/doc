@@ -1,7 +1,7 @@
 ---
 title: Devolutions Server Console
 ---
-Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }} . 
+Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}. 
 
 ## Usage 
 
@@ -13,9 +13,9 @@ The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is now 
 Since {{ en.DVLS }} 2019.x, many features can only be managed from the web interface. Please see [Administration - Server Settings](/server/web-interface/administration/configuration/server-settings/) . 
 {% endsnippet %}
  
-The {{ en.DVLSCONSOLE }} manages the IIS metabase, it must be started with elevated privileges when the console needs to be used. Elevated privileges are granted when you use ***Run as administrator*** to launch the application. You can modify the shortcut to always start it in this manner.  
+The {{ en.DVLSCONSOLE }} manages the IIS metabase, it must be started with elevated privileges when the {{ en.DVLSCONSOLE }} needs to be used. Elevated privileges are granted when you use ***Run as administrator*** to launch the application. You can modify the shortcut to always start it in this manner.  
 
-## Console 
+## {{ en.DVLSCONSOLE }}
 
 ![{{ en.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8005.png) 
 
@@ -39,7 +39,7 @@ Description
 Refresh 
 		</td>
 		<td>
-Refresh the list of {{ en.DVLS }} instances in the {{ en.DVLSCONSOLE }} . 
+Refresh the list of {{ en.DVLS }} instances in the {{ en.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>

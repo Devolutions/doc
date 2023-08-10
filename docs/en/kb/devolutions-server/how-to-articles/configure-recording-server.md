@@ -39,7 +39,7 @@ The {{ en.DVLSCONSOLE }} is required to install the Recording Server.
 
 6. Set the ***Server URL*** and ***Administration Credentials*** account that will create the ***Application Key*** to allow the Recording Server to communicate with the {{ en.DVLS }} instance, then click ***Next***  
 ![!!KB8019.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8019.png)
-   | Devolutions Server Credentials | Description |
+   | {{ en.DVLS }} Credentials | Description |
    | ------------------------------ | ----------- |
    | Server URL                     | URL of the {{ en.DVLS }} instance. |
 
@@ -53,7 +53,7 @@ The {{ en.DVLSCONSOLE }} is required to install the Recording Server.
    | Use existing Application Credentials                          | Enable the usage of an existing ***Application Credentials*** in {{ en.DVLS }} |
    | Application key                                               | Key of the ***Application Credentials*** |
    | Application secret                                            | Secret key of the ***Application Credentials*** |
-   | Devolutions Server uses a different path to access recordings | Enable this option to be able to download the recording files using a different access path. |
+   | {{ en.DVLS }} uses a different path to access recordings | Enable this option to be able to download the recording files using a different access path. |
    | Public Output Folder                                          | Set the public folder from which the users can download the recording files. This could be a UNC path. |
 
 7. Click on the ***Install*** button to start the installation of the Recording Server.  

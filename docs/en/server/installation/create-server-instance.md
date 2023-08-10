@@ -14,20 +14,20 @@ If you have recently received your serial licenses keys, please refer to the [Ge
 For more information about any of the features in the deploy wizard, please consult their respective topic under the [Server Settings](/server/management/devolutions-server-console/devolutions-server-settings/general/) chapter. 
 {% endsnippet %}
  
-Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own Web Application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }} .  
+Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own Web Application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }}.  
 
 ## Procedure 
 
 1. Install {{ en.DVLSCONSOLE }} on the web server. It is available from the [Download](https://server.devolutions.net/home/download) page. 
-1. Execute {{ en.DVLSCONSOLE }} with elevated privileges (run as administrator). This is performed by right-clicking on the application, and selecting ***Run as administrator*** . 
+1. Execute {{ en.DVLSCONSOLE }} with elevated privileges (run as administrator). This is performed by right-clicking on the application, and selecting ***Run as administrator***. 
 {% snippet icon.shieldWarning %} 
-All operations performed through the console are done with the credentials used to launch {{ en.DVLSCONSOLE }} . If you must use other credentials, you will need to launch another Windows session. The ***RunAs*** command does not offer the option of starting a process with elevated privileges. The Run as different user option can work only if the account is a member of the server's local Administrator group. 
+All operations performed through the {{ en.DVLSCONSOLE }} are done with the credentials used to launch {{ en.DVLSCONSOLE }} . If you must use other credentials, you will need to launch another Windows session. The ***RunAs*** command does not offer the option of starting a process with elevated privileges. The Run as different user option can work only if the account is a member of the server's local Administrator group. 
 {% endsnippet %}
  
 ![Run as administrator](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8175.png)  
 
 3. In the {{ en.DVLSCONSOLE }}, click on the ***New*** button or the ***Install New Instance*** blue link to deploy a new server instance using the <a href="#Basic">***Basic Installation***</a> wizard. It is also possible to create an instance using the <a href="#Advanced">***Advanced Installation***</a> wizard by selecting it from the drop down menu of the ***New*** button.
-![Deploy a new Devolutions Server](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8048.png)  
+![Deploy a new {{ en.DVLS }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8048.png)  
 
 ### Basic Installation <a name="Basic"></a>
 
@@ -44,7 +44,7 @@ All operations performed through the console are done with the credentials used 
 1. For the first step, the installation wizard will run diagnostics on the server to verify if the IIS Server has all the necessary Web User Groups prerequisites installed and is ready to run {{ en.DVLS }}. Missing features are marked with an error icon. The Install Prerequisites button will install all missing features using a PowerShell script.Click on Close to continue. An internet connection is required for [IIS Application Request Routing (ARR)](https://api.devolutions.net/redirection/f19f07f3-5ea4-436d-a3ba-4bb69d373321) , [IIS Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) and [IIS ASP.NET Core Module (ANCM)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer). 
 ![IIS Features Diagnostic Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8049.png)  
 1. The License Agreement needs to be accepted to proceed.  
-![Devolutions Server License Agreement Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8050.png)  
+![{{ en.DVLS }} License Agreement Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8050.png)  
 1. Under ***Database*** , enter the server and database information. The user account used to create the database must have sysadmin privileges in the SQL Server instance. Consult the [Database](/server/management/devolutions-server-console/devolutions-server-settings/database/) topic for more information. To use ***Windows Authentication*** to connect to the database, it is important to change the Application Pool Identity in the IIS Manager and set the proper permission of the service account on the SQL database. Please consult [How to Configure {{ en.DVLS }} to use integrated security](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/) . The following article about [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) describe which accounts that can be created prior to deploy {{ en.DVLS }}. 
 ![Database Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8054.png)  
 1. Under ***General*** , enter a custom ***Name*** and ***Description*** . Under ***Serial*** , provide a license serial that has been received by email upon buying the product. If you did not buy any {{ en.DVLS }} license yet, you may [Request a 30-days trial](https://server.devolutions.net/trial) . 
@@ -80,7 +80,7 @@ Once the installation is complete, a summary indicates if the {{ en.DVLS }} has 
 ### Test the installation 
 To test the server installation, click on navigate to the instance URL (e.g.: http://<Machine_Name>/<InstanceName>) with any web browser or click on the Navigate to Website button in the {{ en.DVLSCONSOLE }} .  
 
-![Devolutions Server Console](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8060.png)   
+![{{ en.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8060.png)   
 
 {% snippet icon.badgeNotice %} 
 In some situations, the web page may not load properly. Ensure that the IIS IUSRS local built-in group has full read access on the encryption.config file located in the App_Data sub folder located in the {{ en.DVLS }} web application folder (i.e. c:\inetpub\wwwroot\dvls\App_Data). If there is still an issue, contact us at [service@devolutions.net](mailto:service@devolutions.net) 

@@ -14,7 +14,7 @@ As a web application, {{ en.DVLS }} requires the IIS Manager, the [URL Rewrite M
 {% endsnippet %}
  
 
-![Web Roles needed for Devolutions Server](https://webdevolutions.azureedge.net/docs/en/server/clip10313.png) 
+![Web Roles needed for {{ en.DVLS }}](https://webdevolutions.azureedge.net/docs/en/server/clip10313.png) 
 
 {% snippet icon.badgeInfo %} 
 Installing prerequisites from [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/) or from the PowerShell script require internet access to download [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) , the [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) and [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) . 

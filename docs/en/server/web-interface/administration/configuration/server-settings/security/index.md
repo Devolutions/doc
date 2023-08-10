@@ -4,7 +4,7 @@ order: 20
 ---
 The Security section allows the administrator to configure the allowed and denied IPs addresses.  
 
-![Administration - Devolutions Server Settings - Security](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8045.png) 
+![Administration – {{ en.DVLS }} Settings – Security](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8045.png) 
 
 ## Settings 
 ### IP 

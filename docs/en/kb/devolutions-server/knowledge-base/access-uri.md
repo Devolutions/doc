@@ -9,7 +9,7 @@ During the upgrade process or the installation process of {{ en.DVLS }} , we mus
 
 ## Settings
 
-1. In the {{ en.DVLS }} console go to ***Server - Edit - IIS***.
+1. In the {{ en.DVLSCONSOLE }}, go to ***Server - Edit - IIS***.
 1. Enter the ***Access URI*** in the text field following the format provided in the Scenarios.  
 
 {% snippet icon.badgeNotice %}
@@ -20,7 +20,7 @@ The Access URI is case sensitive and must respect the certificate host name. Ens
 There can be more than one Access URI. Click the ellipsis button to add or manage additional ***Access URI***
 {% endsnippet %}  
 
-![Server - Edit - ISS.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5020.png)
+![Server – Edit – ISS.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5020.png)
 1. Click ***OK***.
 {start="3"}
 

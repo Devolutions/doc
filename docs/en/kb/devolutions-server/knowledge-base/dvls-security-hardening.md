@@ -18,7 +18,7 @@ The minimum recommended hardware and software specifications for {{ en.DVLS }} m
 
 ## Administration Accounts Settings
 
-Prior to deployment of a {{ en.DVLS }} instance, some accounts are needed to operate the various services involved in a secure deployment of DVLS.
+Prior to deployment of a {{ en.DVLS }} instance, some accounts are needed to operate the various services involved in a secure deployment of {{ en.DVLS }}.
 
 The administrator count should be no more than 5. Limiting the number of active administrators within the platform will reduce the attack surface of an attacker to only those accounts configured. Having more than 5 administrators can also be a sign of poor segregation of duty within the business unit or organization.
 
@@ -84,13 +84,13 @@ An email server configuration is required to transmit important application mess
 
 ## {{ en.DVLSCONSOLE }} Password
 
-It is recommended to add another layer of security by enabling and setting a password for the {{ en.DVLSCONSOLE }}. Learn about this password setting and all other console settings in [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/).
+It is recommended to add another layer of security by enabling and setting a password for the {{ en.DVLSCONSOLE }}. Learn about this password setting and all other {{ en.DVLSCONSOLE }} settings in [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/).
 
-![Set Console Password](https://webdevolutions.azureedge.net/docs/en/kb/KB2218.png)
+![Set a {{ en.DVLSCONSOLE }} password](https://webdevolutions.azureedge.net/docs/en/kb/KB2218.png)
 
 ## {{ en.DVLS }} Security Dashboard
 
-The [{{ en.DVLS }} Security Dashboard](/kb/devolutions-server/knowledge-base/server-security-dashboard/) is a tool to offer guidance on how to improve the security of the Devolutions Server platform and also tips on reducing the workload for administrators. Some tips are common infosec best practices, others are a consensus between our own teams. It can be accessed at any time in the Devolutions Server web interface, in ***Administration – Security Management – Security Dashboard***.
+The [{{ en.DVLS }} Security Dashboard](/kb/devolutions-server/knowledge-base/server-security-dashboard/) is a tool to offer guidance on how to improve the security of the {{ en.DVLS }} platform and also tips on reducing the workload for administrators. Some tips are common infosec best practices, others are a consensus between our own teams. It can be accessed at any time in the {{ en.DVLS }} web interface, in ***Administration – Security Management – Security Dashboard***.
 
 The scores are admittedly open to question and we do not pretend each topic has the same relative value for all community members. Achieving 100% is surely not an end goal in itself, we simply aim to raise awareness and provide ideas for your own security hardening.
 

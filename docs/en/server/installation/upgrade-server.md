@@ -53,13 +53,13 @@ We recommend doing a backup of the Encryption Keys before any operation that cou
 
 ### Phase 2 
 
-1. Open the [{{ en.DVLS }} Console](/server/management/devolutions-server-console/). 
+1. Open the [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/). 
 1. Select the instance that you wish to upgrade. 
 1. Set the instance in ***Offline Mode*** with the ***Go Offline*** button. On a High Availability/Load Balancing topology, all instances must be set to Offline mode before starting the upgrade process. 
 1. Click the ***Upgrade Server*** button. 
-![Devolutions Server Console](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8064.png)  
+![{{ en.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8064.png)  
 1. Select the ***Upgrade Source***. You can either use the latest General Availability release that is available online automatically or specify the path to a zip file that you have downloaded yourself. Use this for beta releases or for earlier versions. 
-![Devolutions Server Upgrade Wizard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8066.png)  
+![{{ en.DVLS }} Upgrade Wizard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8066.png)  
 1. Press ***Next***. 
 1. BREAKING CHANGE: If you upgrade from version 2021.2.14 or older to version 2022.1 or higher, you will have to provide the [Access URI](/kb/devolutions-server/knowledge-base/access-uri/) to reach the {{ en.DVLS }} web page. 
 ![!!ServerOp8099.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8099.png) 

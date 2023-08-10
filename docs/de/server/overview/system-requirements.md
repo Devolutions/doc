@@ -15,7 +15,7 @@ In der folgenden Tabelle sind die empfohlenen Mindestanforderungen an die Hardwa
 
 |Basis-implementierung {width=200px} |Mittlere implementierung {width=250px} |Umfassende implementierung    |
 |:--------------------------: |:------------------------: |:---------------------: |
-|(1-20 Nutzer gleichzeitig)<br>mit eigenständigem SQL Server<br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(21-75 Nutzer gleichzeitig)<br>Wmit eigenständigem SQL Server <br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(75+ Nutzer gleichzeitig) <br>Wir empfehlen den Einsatz von mehreren Devolutions Servern in einer ausbalancierten Anordnung mit einen SQL-Server mit hoher Verfügbarkeit.|
+|(1-20 Nutzer gleichzeitig)<br>mit eigenständigem SQL Server<br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(21-75 Nutzer gleichzeitig)<br>Wmit eigenständigem SQL Server <br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(75+ Nutzer gleichzeitig) <br>Wir empfehlen den Einsatz von mehreren {{ de.DVLS }} in einer ausbalancierten Anordnung mit einen SQL-Server mit hoher Verfügbarkeit.|
 |Mit auf demselben Rechner installierten SQL-Server.<br>4-Kern-Prozessoren<br>16 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|Mit auf demselben Rechner installierten SQL-Server.<br>4-Kern-Prozessoren<br>16 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>||
 
 ## Software-Abhängigkeiten

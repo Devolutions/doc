@@ -41,7 +41,7 @@ Alternatively, you can export the data source information and then import the fi
 
 ### Connection 
 
-![Devolutions Server Connection tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6023.png) 
+![{{ en.DVLS }} Connection tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6023.png) 
 
 <table>
 	<tr>
@@ -112,11 +112,11 @@ Always ask for the password when connecting to the data source.
 
 ### Settings 
 
-![Devolutions Server - Settings tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6024.png) 
+![{{ en.DVLS }} – Settings tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6024.png) 
 
 ### Advanced 
 
-![Devolutions Server - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6025.png) 
+![{{ en.DVLS }} – Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6025.png) 
 
 <table>
 	<tr>
@@ -187,14 +187,14 @@ Select your remote tools access mode between:
 Manage Cache 
 		</td>
 		<td>
-Manage your cache on your computer to analyse, vacuum, repair or delete it. This can be very helpful when experiencing offline issues. For more information please follow this [link](Manage-Cache) . 
+Manage your cache on your computer to analyse, vacuum, repair or delete it. This can be very helpful when experiencing offline issues. For more information please follow this [link](Manage-Cache). 
 		</td>
 	</tr>
 </table>
 
 ### {{ en.UVLT }} 
 
-![Devolutions Server - User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6026.png) 
+![{{ en.DVLS }} – {{ en.UVLT }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6026.png) 
 
 <table>
 	<tr>

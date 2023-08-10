@@ -8,7 +8,7 @@ eleventyComputed:
 
 ***Conditional Access Policies*** generally consider various factors to assess whether to allow or deny access to a specific resource or service. By implementing them, organizations can effectively enforce security measures that align with their unique needs and requirements.
 
-1. To view Devolutions Server's ***Conditional Access Policies*** in the web interface, go to ***Administration – Configuration– Server Settings***.
+1. To view {{ en.DVLS }}'s ***Conditional Access Policies*** in the web interface, go to ***Administration – Configuration– Server Settings***.
 
 ![Administration – Configuration – Server Settings](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6004.png)  
 

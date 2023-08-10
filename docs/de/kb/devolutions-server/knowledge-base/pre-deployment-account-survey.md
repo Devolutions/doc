@@ -1,7 +1,7 @@
 ---
 title: Kontoauswahl vor der Einrichtung
 ---
-Vor der Einrichtung einer DVLS-Instanz werden einige Konten benötigt, um die verschiedenen Dienste zu betreiben, die an einer sicheren Bereitstellung von DVLS beteiligt sind. Zunächst muss entschieden werden, ob Domain-Konten für den Betrieb der Plattform genutzt werden sollen oder lokale SQL-Konten in Verbindung mit lokalen Dienstkonten. Da dies eine Frage der persönlichen Vorliebe ist, unterstützen wir beide Modelle.  
+Vor der Einrichtung einer {{ de.DVLS }}-Instanz werden einige Konten benötigt, um die verschiedenen Dienste zu betreiben, die an einer sicheren Bereitstellung von {{ de.DVLS }} beteiligt sind. Zunächst muss entschieden werden, ob Domain-Konten für den Betrieb der Plattform genutzt werden sollen oder lokale SQL-Konten in Verbindung mit lokalen Dienstkonten. Da dies eine Frage der persönlichen Vorliebe ist, unterstützen wir beide Modelle.  
 
 {% snippet icon.badgeInfo %}
 Die in diesem Leitfaden verwendeten Namen dienen dem besseren Verständnis der Rolle, die das Konto spielt. In unserer Dokumentation werden die gleichen Namen verwendet, aber es ist nicht nötig, dass Sie sie verwenden.
@@ -21,9 +21,9 @@ Bisher besteht die einfachste Lösung darin, volle Administratorrechte zu gewäh
 
 | # | Name                  | Herkunft | Beschreibung                               | Eingerichtet in... |
 | - | --------------------- | -------- | ------------------------------------------ | ------------------ |
-| 1 | VaultDBOwner            | AD     | Konto mit allen Berechtigungen auf der DB. | Interaktive Windows-Sitzungen zum Installieren/Aktualisieren einer DVLS-Instanz. |
-| 2 | VaultDBRunner           | AD     | Am wenigsten privilegiertes Konto zur Ausführung der Webanwendung. Wird zur Verbindung mit der DB und zum Lesen aus dem Dateisystem verwendet. | IIS-Anwendungspools, die eine DVLS-Instanz ausführen. |
-| 3 | VaultADReader         | AD     | Am wenigsten privilegiertes Konto zur Abfrage der AD. | DVLS-Instanz-Einstellungen - Administrator-Anmeldeinformationen. |
+| 1 | VaultDBOwner            | AD     | Konto mit allen Berechtigungen auf der DB. | Interaktive Windows-Sitzungen zum Installieren/Aktualisieren einer {{ de.DVLS }}-Instanz. |
+| 2 | VaultDBRunner           | AD     | Am wenigsten privilegiertes Konto zur Ausführung der Webanwendung. Wird zur Verbindung mit der DB und zum Lesen aus dem Dateisystem verwendet. | IIS-Anwendungspools, die eine {{ de.DVLS }}-Instanz ausführen. |
+| 3 | VaultADReader         | AD     | Am wenigsten privilegiertes Konto zur Abfrage der AD. | {{ de.DVLS }}-Instanz-Einstellungen - Administrator-Anmeldeinformationen. |
 | 4 | VaultDBSchedulerService | AD     | Am wenigsten privilegiertes Konto zum Betrieb des Planungsdienstes. Wird für die Verbindung zur DB und zum Lesen/Schreiben aus dem Dateisystem genutzt. | Windows Service Control Manager. |
 
 ## Nicht Domain-basierter Betrieb oder Azure SQL-Umgebung
@@ -38,7 +38,7 @@ Für von Azur SQL gehostete Datenbanken wird der Domain-basierte Betrieb (Option
 
 | # | Name                  | Herkunft | Beschreibung                               | Eingerichtet in... |
 | - | --------------------- | -------- | ------------------------------------------ | ------------------ |
-| 1 | VaultDBOwner            | SQL    | Konto mit vollen Rechten auf der DB.                | DVLS-Konsole nur für Sitzungen zur Installation/Aktualisierung. |
-| 2 | VaultDBRunner           | SQL    | Am wenigsten privilegiertes Konto zur Ausführung der Webanwendung.   | DVLS-Konsole zum Betrieb der Instanz. |
-| 3 | VaultADReader         | AD     | Am wenigsten privilegiertes Konto zur Abfrage der AD durch LDAP. | DVLS-Instanz-Einstellungen - Administrator-Anmeldeinformationen. |
+| 1 | VaultDBOwner            | SQL    | Konto mit vollen Rechten auf der DB.                | {{ de.DVLSCONSOLE }} nur für Sitzungen zur Installation/Aktualisierung. |
+| 2 | VaultDBRunner           | SQL    | Am wenigsten privilegiertes Konto zur Ausführung der Webanwendung.   | {{ de.DVLSCONSOLE }} zum Betrieb der Instanz. |
+| 3 | VaultADReader         | AD     | Am wenigsten privilegiertes Konto zur Abfrage der AD durch LDAP. | {{ de.DVLS }}-Instanz-Einstellungen - Administrator-Anmeldeinformationen. |
 | 4 | VaultDBSchedulerService | SQL    | Am wenigsten privilegiertes Konto zum Betrieb des Planungsdienstes. Wird zum Lesen/Schreiben aus dem Dateisystem genutzt. | Windows Service Control Manager. Der Zugriff auf die Datenbank erfolgt über eine einzelnen Verbindungszeichenfolge, welche Gegenstand der oben genannten Notiz ist. |

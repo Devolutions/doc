@@ -56,5 +56,3 @@ Allow users/user groups to use console management tools.
 		</td>
 	</tr>
 </table>
-
-

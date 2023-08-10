@@ -15,8 +15,8 @@ Nous utilisons une approche de « meilleur effort » pour maintenir cette liste 
 
 | Description                    | URL                                                                            | Paramètre(s) / Action associé(s) |
 | ------------------------------ | ------------------------------------------------------------------------------ | ------------------------- |
-| DVLS update check              | https<area>://devolutions.net                                                  | {{ fr.DVLSCONSOLE }} – Support – Vérifier les mises à jour |
-| DVLS update - package download | https<area>://cdn.devolutions.net                                              | Action de l'utilisateur dans la fenêtre de mise à jour |
+| {{ fr.DVLS }} update check              | https<area>://devolutions.net                                                  | {{ fr.DVLSCONSOLE }} – Support – Vérifier les mises à jour |
+| {{ fr.DVLS }} update - package download | https<area>://cdn.devolutions.net                                              | Action de l'utilisateur dans la fenêtre de mise à jour |
 | Block Tor clients              | https<area>://cloud.devolutions.net                                            | Administration – Paramètres Serveur – Fonctionnalités |
 | Authentification Azure         | https<area>://login.microsoftonline.com<br>https<area>://graph.microsoft.com   | Administration – Paramètres Serveur – Authentification – Authentification Microsoft |
 | Authentification Okta          | https<area>://< domain >.okta.com                                              | Administration – Paramètres Serveur – Authentification |

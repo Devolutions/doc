@@ -11,13 +11,13 @@ With the {{ en.PS }} module, it is possible to connect to a {{ en.DVLS }} instan
 
 1. In {{ en.RDM }}, go to ***File – Data Sources***. 
 1. Click the ***Add a New Data Source*** button.  
-![File – Data Sources – Add a New Data Source.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2117.png) 
+![File – Data Sources – Add a New Data Source](https://webdevolutions.azureedge.net/docs/en/kb/KB2117.png) 
 1. In the next window, select the ***{{ en.DVLS }}*** team data source, then click ***OK***.  
-![Devolutions Server Data Source.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2118.png) 
+![{{ en.DVLS }} data source](https://webdevolutions.azureedge.net/docs/en/kb/KB2118.png) 
 1. In the ***General*** tab, enter a ***Name***, a ***Host***, and a ***Username*** for your new data source. You can then click on the ***Test Connection*** button to confirm that the connection is working.  
-![General Tab.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2120.png) 
+![General tab](https://webdevolutions.azureedge.net/docs/en/kb/KB2120.png) 
 1. Click on the ***PowerShell*** tab.  
-![PowerShell Tab.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2119.png) 
+![PowerShell tab](https://webdevolutions.azureedge.net/docs/en/kb/KB2119.png) 
 1. Enter your [***Application key and Application Secret***](/server/web-interface/administration/security-management/applications/) in the ***Tenant ID*** field and the ***Password*** field respectively, then click ***OK***.  
 
 Your new {{ en.DVLS }} data source is now created. You can now connect to your {{ en.DVLS }} and run your scripts.

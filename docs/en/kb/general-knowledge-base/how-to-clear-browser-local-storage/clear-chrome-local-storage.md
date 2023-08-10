@@ -1,5 +1,5 @@
 ---
-title: Clear Google Chrome Local Storage
+title: Clear Google Chrome's local storage
 description: Follow the steps to clear your local storage in the Google Chrome browser.
 keywords:
 - Local storage

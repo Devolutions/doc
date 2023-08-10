@@ -3,9 +3,9 @@ title: Devolutions Server - édition Team
 keywords:
 - rôle
 ---
-Après l'achat d'une licence de {{ fr.DVLS }} édition Team, un courriel vous est envoyé contenant la clé de licence. Cette clé vous permet de créer une nouvelle instance de {{ fr.DVLS }} .  
+Après l'achat d'une licence de {{ fr.DVLS }} édition Team, un courriel vous est envoyé contenant la clé de licence. Cette clé vous permet de créer une nouvelle instance de {{ fr.DVLS }}.  
 
-La procédure d'installation est disponible dans la section [Installation de {{ fr.DVLS }}](/fr/server/installation/) .  
+La procédure d'installation est disponible dans la section [Installation de {{ fr.DVLS }}](/fr/server/installation/).  
 
 {% snippet icon.badgeCaution %} 
 Veuillez vérifier vos courriels indésirables si vous ne voyez pas un courriel dans votre boîte de réception. 
@@ -22,7 +22,7 @@ Ces exigences sont requises seulement si vous avez l'intention d'utiliser la cr�
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiques : Remote Desktop Manager Admins, Remote Desktop Manager Operators, Remote Desktop Manager Users . 
+Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiques : {{ fr.RDM }} Admins, {{ fr.RDM }} Operators, {{ fr.RDM }} Users. 
 		</td>
 	</tr>
 	<tr>

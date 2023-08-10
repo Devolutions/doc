@@ -65,7 +65,7 @@ This may take some time to execute depending on how many connection history you 
 ![!!KB4735.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4735.png)
 1. Wait for the migration to complete. When done, you can close the ***Data Migration Assistant***.
 ![!!KB4736.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4736.png)
-1. You are now ready to create the new data source in <a href="#rdm">{{ en.RDM }}</a> or update the <a href="#dvls">{{ en.DVLS }}</a> console.
+1. You are now ready to create the new data source in <a href="#rdm">{{ en.RDM }}</a> or update the <a href="#dvls">{{ en.DVLSCONSOLE }}</a>.
 
 ### Solution 2 [BACPAC](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications?view=sql-server-ver15#bacpac) <a name="ssms"></a>
 
@@ -76,7 +76,7 @@ This may take some time to execute depending on how many connection history you 
 1. Using SSMS, connect to the destination SQL Server.
 1. Right-click on the ***Databases (node) – Import Data-tier Application…***.
 1. Follow the wizard steps.
-1. You are now ready to create the new data source in <a href="#rdm">{{ en.RDM }}</a> or update the <a href="#dvls">{{ en.DVLS }}</a> console.
+1. You are now ready to create the new data source in <a href="#rdm">{{ en.RDM }}</a> or update the <a href="#dvls">{{ en.DVLSCONSOLE }}</a>.
 
 ### Solution 3  
 {% snippet icon.badgeCaution %}
@@ -88,7 +88,7 @@ You cannot use this Wizard to move databases between local instances of SQL Serv
 1. Using Microsoft SQL Server Management Studio (SSMS).
 1. Right-click on the ***database name (node) – Tasks – Deploy Database to Microsoft Azure SQL Database…***
 1. Follow the wizard steps.
-1. You are now ready to create the new data source in <a href="#rdm">{{ en.RDM }}</a> or update the <a href="#dvls">{{ en.DVLS }}</a> console.  
+1. You are now ready to create the new data source in <a href="#rdm">{{ en.RDM }}</a> or update the <a href="#dvls">{{ en.DVLSCONSOLE }}</a>.  
 
 ### Connect to {{ en.RDM }} <a name="rdm"></a>
 
@@ -102,5 +102,5 @@ This may take some time to execute depending on how many connection history you 
 
 ### Connect to {{ en.DVLS }} <a name="dvls"></a>
 
-Update the ***Host*** and ***Database*** name for the {{ en.DVLS }} console in ***Server – Edit – Database***.
+Update the ***Host*** and ***Database*** name for the {{ en.DVLSCONSOLE }} in ***Server – Edit – Database***.
 ![!!KB4971.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4971.png)

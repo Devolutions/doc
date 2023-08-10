@@ -3,14 +3,14 @@ title: Create a Scheduled Report
 ---
 Create ***Scheduled Reports*** to run automatically and manage when and who will receive the data from your {{ en.DVLS }} . 
 {% snippet icon.badgeCaution %} 
-For this feature to work, it is mandatory to enable the [***Scheduler Service***](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) in the {{ en.DVLS }} console ***Companions*** tab. 
+For this feature to work, it is mandatory to enable the [***Scheduler Service***](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) in the {{ en.DVLSCONSOLE }} ***Companions*** tab. 
 {% endsnippet %}
  
 ### Create a Scheduled Report 
-1. Go to ***Reports – Scheduled Reports*** . 
+1. Go to ***Reports – Scheduled Reports***. 
 2. Click on the ***Add*** button. 
 ![!!ServerOp4077.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4077.png) 
-1. Select a report in the ***General*** drop down menu. 
+1. Select a report in the ***General*** drop-down menu. 
 {% snippet icon.badgeInfo %} 
 Available options upon report selection will differ from one to another. 
 {% endsnippet %}

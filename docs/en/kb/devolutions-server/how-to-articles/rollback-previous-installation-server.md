@@ -10,12 +10,12 @@ Client would need these files to be able to restore {{ en.DVLS }} to the previou
 
 - Functional database backup.
 - Backup of the Encryption keys file.
-- DPS console installer and offline zip files according to the version that was running before the crash. These files can be requested to our support team.
+- {{ en.DVLSCONSOLE }} installer and offline zip files according to the version that was running before the crash. These files can be requested to our support team.
 
 Here are the steps to follow:
 
 1. Restore the SQL database.
-1. Install the previous working version of the DVLS Console.
+1. Install the previous working version of the {{ en.DVLSCONSOLE }}.
 1. Create a new {{ en.DVLS }} instance and connect it to the restored database.
    1. Use steps 3 to 6 on the following [page](/server/installation/create-server-instance/).  
       ![!!KB4647.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4647.png)

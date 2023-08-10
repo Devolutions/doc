@@ -39,7 +39,7 @@ Export the data source, then import the file in your client workstations as desc
 
 ### General 
 
-![Devolutions Server - General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11355.png) 
+![{{ en.DVLS }} – General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11355.png) 
 
 <table>
 	<tr>
@@ -64,7 +64,7 @@ Enter a name for the data source.
 Host 
 		</td>
 		<td>
-Enter the URL of the DVLS instance.  
+Enter the URL of the {{ en.DVLS }} instance.  
 
 Example: http<area>://<hostname or IP address>/<instance name> 
 		</td>
@@ -133,7 +133,7 @@ Test the connection with {{ en.DVLS }} to validate the credentials.
 
 ### Settings 
 
-![Devolutions Server - Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11356.png) 
+![{{ en.DVLS }} – Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11356.png) 
 
 <table>
 	<tr>
@@ -165,7 +165,7 @@ Manage the data source cache. On large data sources caching is a must and will i
 
 ### {{ en.UVLT }} 
 
-![Devolutions Server – User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3603.png) 
+![{{ en.DVLS }} – {{ en.UVLT }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3603.png) 
 
 <table>
 	<tr>
@@ -194,11 +194,11 @@ Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DVLS }}.  
-![Devolutions Server - VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DPSVPN.png) 
+![{{ en.DVLS }} – VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DPSVPN.png) 
 
 ### Advanced 
 
-![Devolutions Server - Avanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10815.png) 
+![{{ en.DVLS }} – Avanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10815.png) 
 
 <table>
 	<tr>

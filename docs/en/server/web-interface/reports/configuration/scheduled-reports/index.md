@@ -7,7 +7,7 @@ The ***Scheduled Reports*** will generate a report and send it by email to any s
 With this feature, you can set dates, filters and various customized settings to schedule recurring reports over any desired period.  
 
 {% snippet icon.badgeCaution %} 
-For this feature to work, it is mandatory to enable the [***Scheduler Service***](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) in the {{ en.DVLS }} console ***Companions*** tab. 
+For this feature to work, it is mandatory to enable the [***Scheduler Service***](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) in the {{ en.DVLSCONSOLE }} ***Companions*** tab. 
 {% endsnippet %}
 
 ![Reports - Scheduled Reports](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8133.png) 

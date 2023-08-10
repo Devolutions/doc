@@ -19,7 +19,7 @@ A {{ en.DVLS }} access is required to continue.
 1. ***Log In*** to your account. 
 ![{{ en.DWL }} Login](https://webdevolutions.azureedge.net/docs/en/server/Dwl4018.png)
 1. Enter your {{ en.DVLS }} credentials and click ***Log In***. 
-![Devolutions Server Login](https://webdevolutions.azureedge.net/docs/en/server/Dwl4019.png)
+![{{ en.DVLS }} Login](https://webdevolutions.azureedge.net/docs/en/server/Dwl4019.png)
 1. If you click on the {{ en.DWL }} icon in your web browser, you can validate that {{ en.DWL }} is now connected to your {{ en.DVLS }}. 
 ![Successful Association of {{ en.DVLS }} to {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/server/Dwl4048.png)
 1. To select the vaults to be synchronized, click on the ***Vaults*** tab, then click the ***Select Vaults to Sync*** button. 

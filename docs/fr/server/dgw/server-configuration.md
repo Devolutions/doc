@@ -62,7 +62,7 @@ Ne partager pas la clé privée avec d'autres utilisateurs, car elle peut être 
 
 8. Cliquer sur ***Suivant***.
 1. Choisir entre :
-    * ***Utiliser la clé publique de l'instance DVLS 'Devolutions Server'*** : cette option est utilisée si {{ fr.DGW }} installé est sur le même serveur que le {{ fr.DVLS }} ;  
+    * ***Utiliser la clé publique de l'instance {{ fr.DVLS }} '{{ fr.DVLS }}'*** : cette option est utilisée si {{ fr.DGW }} installé est sur le même serveur que le {{ fr.DVLS }} ;  
     * ***À partir du fichier*** : Si l'installation de {{ fr.DGW }} se fait sur un autre ordinateur, télécharger la clé publique du {{ fr.DVLS }} que qui doit être couplé avec ce {{ fr.DGW }}.  
 ![Télécharger la clé publique](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0011.png)
 1. Cliquer sur ***Suivant***.  
@@ -81,7 +81,7 @@ Ne partager pas la clé privée avec d'autres utilisateurs, car elle peut être 
     1. ***Description***: Description de la passerelle.
     1. ***Définir par défaut***: Si l'option est cochée, cette passerelle sera sélectionnée par défaut lors de la configuration de {{ fr.RDM }}.
     1. ***URL de {{ fr.DGW }}***: L'URL {{ fr.DVLS }} à laquelle la passerelle se connectera.
-    1. ***Port d'écoute TCP***: Définir le port avec la même valeur de port TCP que celui configuré dans la console.
+    1. ***Port d'écoute TCP***: Définir le port avec la même valeur de port TCP que celui configuré dans la {{ fr.DVLSCONSOLE }}.
 1. Cliquer sur ***Enregistrer***.  
 ![Bouton Enregistrer](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0016.png)
 

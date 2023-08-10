@@ -1,9 +1,9 @@
 ---
-title: SQL Azure as the Back-end Users Cannot Login
+title: SQL Azure as the back-end users cannot login
 ---
 Since the release of {{ en.DVLS }} 6.0.0, some users have experienced failed connection from {{ en.RDM }} However connection through the Web Application works well.  
 
-The error below might appear in {{ en.DVLS }} Console Log:
+The error below might appear in {{ en.DVLSCONSOLE }} Log:
 ```
 ServiceException - Code: Authorization_RequestDenied
 Message: Insufficient privileges to complete the operation.

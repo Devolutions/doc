@@ -1,8 +1,9 @@
 ---
-title: Sauvegarde en ligne
-description: La Sauvegarde en ligne vous permet de sauvegarder vos sources de données Devolutions Online Drive, SQLite et XML dans un stockage infonuagique en ligne sécurisé.  
-keywords:
-- Sauvegarde en ligne
+eleventyComputed:
+  title: Sauvegarde en ligne
+  description: La Sauvegarde en ligne vous permet de sauvegarder vos sources de données {{ fr.DOD }}, SQLite et XML dans un stockage infonuagique en ligne sécurisé.  
+  keywords:
+  - Sauvegarde en ligne
 ---
 La ***Sauvegarde en ligne*** vous permet de sauvegarder vos sources de données {{ fr.DOD }}, SQLite et XML dans un stockage infonuagique en ligne sécurisé. Il enregistrera automatiquement vos sessions lorsque vous effectuez une modification dans {{ fr.RDM }}.  
 

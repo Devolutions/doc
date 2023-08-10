@@ -27,9 +27,9 @@ For a high availability of the database, Database Mirroring can be used which re
 ## Load Balancing Topology
 
 To ensure maximum performance of the {{ en.DVLS }} , it can be deployed as a load balancing {{ en.DVLS }} topology as illustrated in the image below. It can either be a physical or software load balancing system.  
-![Load Balancing Devolutions Server Topology](https://webdevolutions.azureedge.net/docs/en/server/RecommendedTopology-4.png)
+![Load Balancing {{ en.DVLS }} Topology](https://webdevolutions.azureedge.net/docs/en/server/RecommendedTopology-4.png)
 
 ## {{ en.DVLS }} Instance Manual Failover
 
 For customers that do not wish to purchase a load balancer or are seeking a more simplified topology for their system, you can simply utilize two {{ en.DVLS }} instances on two different web servers and direct them to the same SQL Server database. By registering both instances as separate data sources in the client applications, users can manually toggle between servers in the scenario that one becomes unresponsive.  
-![Manual Failover with Two Devolutions Servers](https://webdevolutions.azureedge.net/docs/en/server/RecommendedTopology-5.png)
+![Manual Failover with Two {{ en.DVLS }}s](https://webdevolutions.azureedge.net/docs/en/server/RecommendedTopology-5.png)

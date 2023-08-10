@@ -4,4 +4,4 @@ order: 20
 ---
 The ***Server Settings*** page allows to manage the {{ en.DVLS }} configuration remotely. 
 
-![Administration - Devolutions Server Settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8034.png)
+![Administration – {{ en.DVLS }} Settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8034.png)

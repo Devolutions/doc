@@ -50,7 +50,7 @@ Okta is used to authenticate the user.
 Authenticate with {{ en.DVLS }} user 
 		</td>
 		<td>
-The {{ en.DVLS }} is used to authenticate the user. You must create the initial user through the console. 
+The {{ en.DVLS }} is used to authenticate the user. You must create the initial user through the {{ en.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>

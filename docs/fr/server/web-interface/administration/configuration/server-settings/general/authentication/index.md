@@ -40,7 +40,7 @@ AzureAD est utilisé pour authentifier l'utilisateur.
 S'authentifier avec l'authentification {{ fr.DVLS }} 
 		</td>
 		<td>
-{{ fr.DVLS }} est utilisé pour authentifier l'utilisateur. Vous devez créer l'utilisateur initial via la console. 
+{{ fr.DVLS }} est utilisé pour authentifier l'utilisateur. Vous devez créer l'utilisateur initial via la {{ fr.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>
@@ -48,7 +48,7 @@ S'authentifier avec l'authentification {{ fr.DVLS }}
 Authentification Windows 
 		</td>
 		<td>
-L'application utilisera l'utilisateur actuellement authentifié Windows pour s'authentifier auprès de l'instance {{ fr.DVLS }} . 
+L'application utilisera l'utilisateur actuellement authentifié Windows pour s'authentifier auprès de l'instance {{ fr.DVLS }}. 
 		</td>
 	</tr>
 </table>

@@ -8,7 +8,7 @@ keywords:
 - roles
 ---
 
-![!!Devolutions Server logo]({{ locale[lang].projects.server.logo }})
+![!!{{ en.DVLS }} logo]({{ locale[lang].projects.server.logo }})
 
 {{ en.DVLS }} is an on‑premise vault for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease.  
 

@@ -33,7 +33,7 @@ La disponibilité du mode hors ligne repose sur plusieurs paramètres:
 
 * Le mode de la cache hors ligne de la source de données doit être activé dans ***Fichier – Source de données – Avancé – Mode de la cache – Intelligente*** . ( Cette étape doit être effectuée avant d'exporter votre source de données vers d'autres) 
 * Le compte de l'utilisateur doit être activé dans ***Administration – Utilisateurs – Modifier – Paramètres – Mode hors connexion*** . 
-* Les stratégies de groupe d'utilisateurs (seulement pour la data source DVLS) dans ***Administration – Groupe d'utilisateurs – Modifier – Paramètres – Mode hors connexion*** . 
+* Les stratégies de groupe d'utilisateurs (seulement pour la data source {{ fr.DVLS }}) dans ***Administration – Groupe d'utilisateurs – Modifier – Paramètres – Mode hors connexion*** . 
 * Les paramètres de la source de données dans ***Administration – Paramètres du système – Hors connexion – Mode Hors connexion*** et ***Expiration*** . 
 * Pour chaque coffre dans ***Administration – Paramètres du coffre – Paramètres de sécurité – Autoriser le mode hors ligne*** . 
 

@@ -41,7 +41,7 @@ Vous pouvez également exporter les informations sur la source de données, puis
 
 ### CONNEXION 
 
-![Devolutions Server - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4261.png) 
+![{{ fr.DVLS }} – Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4261.png) 
 
 <table>
 	<tr>

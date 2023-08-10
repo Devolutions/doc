@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 
 {% snippet icon.badgeInfo %} 
-Lorsque vous utilisez une source de données Devolutions Server, Microsoft SQL Server ou Microsoft Azure SQL, vous devez d'abord  [ Activer l'accès temporaire dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/). 
+Lorsque vous utilisez une source de données {{ fr.DVLS }}, Microsoft SQL Server ou Microsoft Azure SQL, vous devez d'abord  [ Activer l'accès temporaire dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/). 
 {% endsnippet %}
 
 La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande.

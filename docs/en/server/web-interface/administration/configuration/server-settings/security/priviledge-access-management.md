@@ -3,7 +3,7 @@ title: Privileged Access Management
 ---
 This section is dedicated to enable and configure the Privileged Access Management.  
 
-![Administration - Devolutions Server Settings - Privileged Access Management](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8047.png) 
+![Administration – {{ en.DVLS }} Settings – Privileged Access Management](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8047.png) 
 
 ## Settings 
 ### General 

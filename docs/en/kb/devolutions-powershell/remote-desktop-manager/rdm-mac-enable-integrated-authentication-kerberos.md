@@ -19,7 +19,7 @@ Run on: Windows PC that is joined to your Active Directory Domain. Note that any
 ### Manual Discovery  
 
 {% snippet icon.badgeInfo %}
-nltest.exe is a console utility that you can run using the basic command interpreter or PowerShell
+**nltest.exe** is a console utility that you can run using the basic command interpreter or PowerShell.
 {% endsnippet %}  
 
 Run nltest in the command shell of your choice.  

@@ -1,9 +1,9 @@
 ---
-title: Devolutions Server Console Crash with DevExpress
+title: Devolutions Server Console crash with DevExpress
 ---
-After the DVLS Console installation version 2019.2.12.0, it is not possible to launch the DVLS Console anymore.
+After the {{ en.DVLSCONSOLE }} installation version 2019.2.12.0, it is not possible to launch the {{ en.DVLSCONSOLE }} anymore.
 
-Here is the call stack the DVLS Console should trigger in the Windows Event logs
+Here is the call stack the {{ en.DVLSCONSOLE }} should trigger in the Windows Event logs
 
 Event 1000 – Application Error
 
@@ -31,9 +31,9 @@ at DevExpress.Utils.Win.Hook.HookManager.WndHook(Int32, IntPtr, IntPtr)
 
 ## Solution
 
-Follow these instructions to be able to open the DVLS Console.
+Follow these instructions to be able to open the {{ en.DVLSCONSOLE }}.
 
 1. On the server where your {{ en.DVLS }} instance is hosted, navigate to the following folder.
 %appdata%\Devolutions\DPSConsole
 1. Delete the DPSConsole.ext file.
-2. Restart the DVLS Console.
+2. Restart the {{ en.DVLSCONSOLE }}.
