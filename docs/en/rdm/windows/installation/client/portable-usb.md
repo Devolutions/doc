@@ -8,7 +8,7 @@ The portable installation mode allows you to run multiple versions of {{ en.RDM 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-To install a single portable {{ en.RDM }} application, follow this topic: [Portable Remote Desktop Manager Installation](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/) . 
+To install a single portable {{ en.RDM }} application, follow this topic: [Portable {{ en.RDM }} installation](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 

@@ -51,10 +51,10 @@ Location (OU) where the temporary Active Directory group will exist in the Activ
   
 ### Example
 
-The domain provider Just-In-Time Elevation configuration will allow privileged accounts to request elevation to being member of the following Active Directory Groups : Remote Desktop Manager Admins; Remote Desktop Manager Service Desk or Remote Desktop Manager Admins - Universal. The temporary group name will start with RDM_JIT and will be created in the **Domain Groups\Vaults\Internal** OU.
+The domain provider Just-In-Time Elevation configuration will allow privileged accounts to request elevation to being member of the following Active Directory Groups : {{ en.RDM }} Admins; {{ en.RDM }} Service Desk or {{ en.RDM }} Admins - Universal. The temporary group name will start with RDM_JIT and will be created in the **Domain Groups\Vaults\Internal** OU.
 
 ![Just-In-Time Elevation settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8179.png) 
 
-The _backupoperator15 privileged account checkout process is requesting a 2 hours elevation to be part of the Remote Desktop Manager Admins Active Directory group.
+The _backupoperator15 privileged account checkout process is requesting a 2 hours elevation to be part of the {{ en.RDM }} Admins Active Directory group.
 
 ![Just-In-Time Elevation settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8180.png) 

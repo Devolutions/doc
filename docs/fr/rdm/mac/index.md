@@ -1,3 +1,4 @@
 ---
-title: Remote Desktop Manager macOS
+eleventyComputed:
+  title: Remote Desktop Manager {{ fr.MAC }}
 ---

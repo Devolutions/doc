@@ -8,7 +8,7 @@ Le mode d'installation portable vous permet d'exécuter plusieurs versions de {{
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Pour installer une seule application portable de {{ fr.RDM }} , suivre cette rubrique: [Installation de Remote Desktop Manager portable](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/) . 
+Pour installer une seule application portable de {{ fr.RDM }} , suivre cette rubrique: [Installation de {{ fr.RDM }} portable](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -30,12 +30,12 @@ Les étapes suivantes garantissent une véritable portabilité et une facilité 
 ![!!clip11586.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11586.png) 
 1. Créer un dossier RemoteDesktopManager sur votre appareil portable. 
 1. Dans le dossier d'installation créé à l'étape 2, créer deux dossiers: 
-    1. Un dossier config . 
-    1. Un dossier data . 
+    1. Un dossier config. 
+    1. Un dossier data. 
     1. Et un dossier tools (facultatif, uniquement si vous avez l'intention d'utiliser des outils externes comme Filezilla). 
 1. Décompresser {{ fr.RDM }} dans le dossier d'installation. 
 1. Créer un fichier texte nommé ***override.cfg*** dans le dossier d'installation. Définir le contenu du fichier a .\config 
-1. Ouvrir {{ fr.RDM }} et afficher la fenêtre des sources de données à l'aide de ***Fichier - Sources de données*** . 
+1. Ouvrir {{ fr.RDM }} et afficher la fenêtre des sources de données à l'aide de ***Fichier - Sources de données***. 
 1. Créer une nouvelle source de données d'un type pouvant être stocké sur votre appareil portable. c'est-à-dire SQLite, XML, etc. 
 1. Configurer la source de données à l'aide d'un chemin d'accès relatif afin qu'elle soit stockée sur le périphérique portable: .\Data\Connections.db  
 ![!!clip11276.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11276.png) 

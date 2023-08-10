@@ -79,7 +79,7 @@ Use {{ en.DWS }} or Google Authenticator device to get access to the application
 Override account name 
 		</td>
 		<td>
-If you wish to use a different {{ en.DWS }} or Google Authenticator account than the one previously linked to your Remote Desktop Manager account, you could override the account name but you will have to reconfigure it.
+If you wish to use a different {{ en.DWS }} or Google Authenticator account than the one previously linked to your {{ en.RDM }} account, you could override the account name but you will have to reconfigure it.
 		</td>
 	</tr>
 </table>

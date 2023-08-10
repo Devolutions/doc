@@ -21,7 +21,7 @@ These requirements apply only if you intend to use Automatic User Account Creati
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create Active Directory groups to manage your instance. Typical examples are: Remote Desktop Manager Admins, Remote Desktop Manager Operators, Remote Desktop Manager Users . 
+Create Active Directory groups to manage your instance. Typical examples are: {{ en.RDM }} Admins, {{ en.RDM }} Operators, {{ en.RDM }} Users . 
 		</td>
 	</tr>
 	<tr>

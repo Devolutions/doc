@@ -44,7 +44,7 @@ Users will authenticate using the method of your choosing:
 
 * ***Database login***: Uses a SQL login to directly access the SQL server. The first database administrative user is created using this method.  
 * ***Integrated Security (Active Directory)***: Recommended for Azure SQL data sources. Uses the active user’s Microsoft AD account.  
-* [***Custom login***](/kb/remote-desktop-manager/how-to-articles/implement-custom-login-mode/): Recommended for SQL Server data sources. Allows for the creation of Remote Desktop Manager accounts for users to authenticate with, but prevents them from having direct access to the SQL database through an external tool.  
+* [***Custom login***](/kb/remote-desktop-manager/how-to-articles/implement-custom-login-mode/): Recommended for SQL Server data sources. Allows for the creation of {{ en.RDM }} accounts for users to authenticate with, but prevents them from having direct access to the SQL database through an external tool.  
 
 {% youtube 'BfFvtHJSzbs?start=174' %}  
 		</td>
@@ -68,7 +68,7 @@ Assign a license to the administrator account previously created so that you can
 	</tr>
 	<tr>
 		<td>
-Step 3 - Create the "custom login" Remote Desktop Manager and SQL account
+Step 3 - Create the "custom login" {{ en.RDM }} and SQL account
 
 		</td>
 		<td>

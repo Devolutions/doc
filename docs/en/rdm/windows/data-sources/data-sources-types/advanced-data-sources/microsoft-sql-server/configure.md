@@ -22,7 +22,7 @@ If the database is created using a system administrator (example: SA), we recomm
 ![Create a {{ en.RDM }} Administrator Account](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3415.png) 
 
 5. Connect to the Microsoft SQL Server database with the {{ en.RDM }} administrator account. To do so, edit the data source used to create the database and change the login information for the administrator account created with {{ en.RDM }} .  
-![Connection to the Database with the Remote Desktop Manager Administrator Account](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11497.png) 
+![Connection to the Database with the {{ en.RDM }} Administrator Account](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11497.png) 
 
 The Microsoft SQL Server data source is now correctly configured. 
 

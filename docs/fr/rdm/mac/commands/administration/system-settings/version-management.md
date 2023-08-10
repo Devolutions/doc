@@ -50,7 +50,7 @@ Utilisé en conjonction avec la version minimale ou maximale. Une fois qu'une ex
 	</tr>
 	<tr>
 		<td>
-Autoriser accès de Remote Desktop Manager 
+Autoriser accès de {{ fr.RDM }}
 		</td>
 		<td>
 Désactiver l'option pour exclure certains clients sur différentes plates-formes telles que Windows, macOS, iOS ou Android. 

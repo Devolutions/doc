@@ -67,10 +67,10 @@ Désactive la fonction de connexion rapide pour tous les utilisateurs de la sour
 	</tr>
 	<tr>
 		<td>
-Désactiver Remote Desktop Manager Agent et Jump 
+Désactiver {{ fr.RDMA }} et {{ fr.RDMJ }} 
 		</td>
 		<td>
-Désactive l'option d'activation d'une session en tant qu'{{ fr.RDMA }} ou Jump. 
+Désactive l'option d'activation d'une session en tant qu'{{ fr.RDMA }} ou {{ fr.RDMJ }}. 
 		</td>
 	</tr>
 	<tr>
@@ -180,7 +180,7 @@ Définir l'application à verrouiller:
 Aller en mode hors ligne si disponible lors de la déconnexion 
 		</td>
 		<td>
-Va basculer Remote Desktop Manager du mode en ligne au mode hors ligne si disponible lors de la déconnexion. 
+Va basculer {{ fr.RDM }} du mode en ligne au mode hors ligne si disponible lors de la déconnexion. 
 		</td>
 	</tr>
 	<tr>

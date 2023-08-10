@@ -5,7 +5,7 @@ The ***PowerShell (RDM CmLet)*** automatically opens an embedded PowerShell wind
 
 Since its release, this highly-requested feature has become very useful in solving user requests. A quick search through our forum reveals many usages of the cmdlets, such as automating the creation of Windows Start Menu shortcuts for every {{ en.RDM }} session.  
 
-To learn more, you can find full Remote Desktop Manager cmdlet documentation available via the [PowerShell Scripting](/rdm/windows/powershell-scripting/) topic or directly in PowerShell using the Get-Help cmdlet. 
+To learn more, you can find full {{ en.RDM }} cmdlet documentation available in [PowerShell scripting](/rdm/windows/powershell-scripting/) or directly in PowerShell using the Get-Help cmdlet. 
 
 ## Settings 
 

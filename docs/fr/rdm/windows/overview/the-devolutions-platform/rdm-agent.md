@@ -25,7 +25,7 @@ L’installation d’ {{ fr.RDMA }} sur un hôte distant peut s’effectuer de q
 L’ {{ fr.RDMA }} doit être configuré pour un lancement automatique au démarrage de la session d'utilisateur Windows. La première méthode, décrite ci-dessous, permet de le configurer automatiquement. Dans certains cas, une configuration manuelle pourrait être requise en utilisant le dossier de démarrage ou une clé de registre Windows. Pour plus d'informations, veuillez consulter la documentation de votre système d'exploitation à ce sujet. 
 {% endsnippet %}
  
-1. Installer {{ fr.RDM }} et cliquer sur Outils – Plus d'outils – Agent Remote Desktop Manager. Il lancera et enregistrera automatiquement l'Agent au démarrage de Windows. 
+1. Installer {{ fr.RDM }} et cliquer sur Outils – Plus d'outils – {{ fr.RDMA }}. Il lancera et enregistrera automatiquement l'Agent au démarrage de Windows. 
 1. Télécharger l' {{ fr.RDMA }} à partir de [https://devolutions.net/remote-desktop-manager/fr/home/download](https://devolutions.net/remote-desktop-manager/fr/home/download) , puis installer l’agent sur l’ordinateur distant. 
 1. Copier les fichiers Devolutions.Utils.dll, Devolutions.Windows.Utils.dll et RDMAgent.exe du dossier d'installation de la version de {{ fr.RDM }} utilisée par votre équipe, ou télécharger le fichier ZIP contenant ces fichiers à [https://devolutions.net/remote-desktop-manager/fr/home/download](https://devolutions.net/remote-desktop-manager/fr/home/download) et les déployer dans le dossier de votre choix sur l’hôte distant. 
 1. Par le biais de Chocolatey à [https://community.chocolatey.org/packages/rdmagent](https://community.chocolatey.org/packages/rdmagent) .  

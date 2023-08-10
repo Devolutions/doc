@@ -1,15 +1,16 @@
 ---
-title: Se déconnecter de Microsoft RDP bloque les fenêtres Remote Desktop Manager
-description: Les deux causes sont les modules d’extension RDP et l'utilisation de l'UDP dans certaines conditions.
-keywords:
-- RDP
+eleventyComputed:
+  title: Se déconnecter de Microsoft RDP bloque les fenêtres de {{ fr.RDM }}
+  description: Les deux causes sont les modules d’extension RDP et l'utilisation de l'UDP dans certaines conditions.
+  keywords:
+  - RDP
 ---
 Les deux causes sont les modules d'extension RDP et l'utilisation de l'UDP dans certaines conditions. 
 ## Solution pour les modules d'extension RDP 
 Dirigez-vous vers l'onglet ***Expérience*** de votre session RDP et définir ***Charger plug-ins en mode intégré*** à ***Non***. Cette solution a un faible impact. 
 ![Charger plug-ins en mode intégré](https://webdevolutions.azureedge.net/docs/fr/kb/KB4021.png) 
 ## Solution pour l'utilisation d'UDP 
-Il existe une option pour désactiver l'UDP dans Remote Desktop Manager. 
+Il existe une option pour désactiver l'UDP dans {{ fr.RDM }}. 
 1. Ouvrir {{ fr.RDM }} en tant qu’administrateur. 
 2. Cliquer sur ***Outils – Plus d'outils – Gestionnaire RDP/RemoteApp local***. 
 3. Cliquer sur ***Désactivé*** pour désactiver les ***Paramètres UDP***. 
