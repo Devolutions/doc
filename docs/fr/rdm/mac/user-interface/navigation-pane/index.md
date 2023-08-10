@@ -1,10 +1,10 @@
 ---
 title: Volet de navigation
 ---
-Le ***Volet de navigation*** est au cœur de l'interface utilisateur de {{ fr.RDM }} .  
-![Volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4409.png) 
+Le ***{{ fr.NPANE }}*** est au cœur de l'interface utilisateur de {{ fr.RDM }} .  
+![{{ fr.NPANE }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4409.png) 
 
-Au bas du Volet de navigation, vous remarquerez différentes icônes qui ouvriront différents affichages/onglets dans votre Volet de navigation. Pour en savoir plus sur chaque onglet, suivez les liens ci-dessous:  
+Au bas du ***{{ fr.NPANE }}***, vous remarquerez différentes icônes qui ouvriront différents affichages/onglets dans votre ***{{ fr.NPANE }}***. Pour en savoir plus sur chaque onglet, suivez les liens ci-dessous:  
 
 * [Coffre](/fr/rdm/mac/commands/view/vaults/) 
 * [{{ fr.UVLT }}](/fr/rdm/mac/user-interface/navigation-pane/user-vault/) 

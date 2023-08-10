@@ -4,7 +4,7 @@ title: Modifier le lot
 Utiliser l'option ***Modifier - Modifier le lot*** dans le menu contextuel ou le ruban pour modifier les paramètres de plusieurs sessions en une seule opération. Il peut être utilisé par exemple pour supprimer ou mettre à jour tous les identifiants d'un groupe de sessions.  
 ![Modifier - Modifier le lot](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4068.png) 
 
-Vous pouvez également modifier:  
+Vous pouvez également modifier :  
 
 * Nom d'hôte 
 * Identifiants 
@@ -16,10 +16,10 @@ Vous pouvez également modifier:
 
 ## Recherche avancée 
 
-Vous pouvez sélectionner plusieurs entrées dans le volet de navigation. Pour une méthode avec un peu plus de puissance, utiliser notre boîte de dialogue [Recheche avancée](/fr/rdm/mac/commands/view/advanced-search/) , accessible depuis ***Affichage - Recherche avancée*** . La recherche avancée vous permet de sélectionner plusieurs critères à la fois.  
+Vous pouvez sélectionner plusieurs entrées dans le ***{{ fr.NPANE }}***. Pour une méthode avec un peu plus de puissance, utiliser notre boîte de dialogue [Recheche avancée](/fr/rdm/mac/commands/view/advanced-search/), accessible depuis ***Affichage - Recherche avancée***. La recherche avancée vous permet de sélectionner plusieurs critères à la fois.  
 ![Recherche avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip5068.png) 
 
-Après avoir modifié vos critères pour obtenir les résultats souhaités, appuyer sur ***Sélectionner dans le volet de navigation*** , puis sur ***Modifier - Modier par lot*** . 
+Après avoir modifié vos critères pour obtenir les résultats souhaités, appuyer sur ***Sélectionner dans le {{ fr.NPANE }}***, puis sur ***Modifier - Modier par lot***. 
 
 ## Paramètres 
 

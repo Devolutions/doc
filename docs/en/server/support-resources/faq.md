@@ -5,7 +5,7 @@ keywords:
 ---
 ## What is {{ en.DVLS }}?
 
-{{ en.DVLS }} is a specialized data source for our various client applications of the   {{ en.RDM }} platform. 
+{{ en.DVLS }} is a specialized data source for our various client applications of the {{ en.RDM }} platform. 
 
 ## Why buy {{ en.DVLS }}?
 

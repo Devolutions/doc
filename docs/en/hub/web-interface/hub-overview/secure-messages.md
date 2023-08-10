@@ -19,7 +19,7 @@ Send and receive ***Secure Messages*** with users from your {{ en.HUB }} . Click
 
 You can send a copy of one of your entries to other users with secure messages.  
 
-1. Select the entry in your {{ en.NPANE }} . 
+1. Select the entry in your ***{{ en.NPANE }}***. 
 1. Click the ***More*** button.  
 ![!!Hub4129.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4129.png) 
 1. Click ***Send*** .  

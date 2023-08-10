@@ -5,7 +5,7 @@ When holding a great number of entries in your data source it is a best practice
 
 ## Settings 
 
-1. Open the data source you wish to optimize. In ***Administration*** , click on ***Pack Data Source (Optimize)***   and then click on ***Analyze*** .  
+1. Open the data source you wish to optimize. In ***Administration*** , click on ***Pack Data Source (Optimize)*** and then click on ***Analyze***.  
 ![Pack Data Source (Optimize) - Analyze](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10764.png) 
-1. Once the Analyze is completed click on ***Optimize*** to proceed with the optimization of your data source. You can select which ***{{ en.VLT }}*** you wish to ***Analyze*** and ***Optimize*** , or use the ***Optimize All*** feature to perform the ***Optimize*** action on all available ***{{ en.VLT }}s*** . 
+1. Once the Analyze is completed click on ***Optimize*** to proceed with the optimization of your data source. You can select which ***{{ en.VLT }}*** you wish to ***Analyze*** and ***Optimize***, or use the ***Optimize All*** feature to perform the ***Optimize*** action on all available ***{{ en.VLT }}s***. 
 

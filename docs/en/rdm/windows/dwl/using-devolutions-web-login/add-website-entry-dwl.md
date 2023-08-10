@@ -20,12 +20,12 @@ Learn how to add a website entry by following the instructions from these sectio
 1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example.  
 ![Login Page](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2093.png) 
 1. Websites usually ask for information such as an email address/username and a password. Follow the website’s login process until you log in to your account. 
-1. A {{ en.DWL }}   ***Add Website*** window will pop up in the corner of your web browser.  
+1. A {{ en.DWL }} ***Add Website*** window will pop up in the corner of your web browser.  
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2092.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
-1. Select if you want to save your entry in your ***User vault*** or in a ***Vault*** . Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDM }} . 
-1. Click ***Save*** . 
+1. Select if you want to save your entry in your ***User vault*** or in a ***Vault***. Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDM }}. 
+1. Click ***Save***. 
 
 Your credentials are now securely stored in a new website entry in {{ en.RDM }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/) . 
 
@@ -35,14 +35,14 @@ Your credentials are now securely stored in a new website entry in {{ en.RDM }} 
 ![Login Page](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2093.png) 
 1. Click on the {{ en.DWL }} extension icon in your browser and, in the ***Matching*** tab, click on the ***Add Website*** button.  
 ![Add Website Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2095.png) 
-1. The {{ en.DWL }}   ***Add Website*** tab will open in your browser.  
+1. The {{ en.DWL }} ***Add Website*** tab will open in your browser.  
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2096.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. The ***URL*** field is automatically filled in with the login page URL from step 1. 
 1. Provide the ***Username*** and ***Password*** you use to log in to the website. Depending on the website, your username may be your email address. 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
-1. Select if you want to save your entry in your ***User vault*** or in a ***Vault*** . Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDM }} . 
-1. Click ***Save*** . 
+1. Select if you want to save your entry in your ***User vault*** or in a ***Vault*** . Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDM }}. 
+1. Click ***Save***. 
 
-Your credentials are now securely stored in a new website entry in {{ en.RDM }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/) . 
+Your credentials are now securely stored in a new website entry in {{ en.RDM }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/). 
 

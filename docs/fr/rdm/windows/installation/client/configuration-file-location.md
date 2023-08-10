@@ -74,7 +74,7 @@ Le fichier de configuration est enregistré dans le dossier désigné.
 . 
 		</td>
 		<td>
-Le point est utilisé pour spécifier le dossier d'installation de   {{ fr.RDM }} . 
+Le point est utilisé pour spécifier le dossier d'installation de {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>

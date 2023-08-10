@@ -102,10 +102,10 @@ Reset all your fields to proceed with a new search.
 	</tr>
 	<tr>
 		<td>
-Select in {{ en.NPANE }} 
+Select in ***{{ en.NPANE }}*** 
 		</td>
 		<td>
-Select your search result in your ***{{ en.NPANE }}*** . This option can be used in combination with a Batch Edit. 
+Select your search result in your ***{{ en.NPANE }}***. This option can be used in combination with a Batch Edit. 
 		</td>
 	</tr>
 </table>

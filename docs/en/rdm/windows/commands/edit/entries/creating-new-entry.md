@@ -7,7 +7,7 @@ When getting started with {{ en.RDM }} , you must configure your entries. There 
 
 ## Creating an entry from the context menu 
 
-On the main application window, right-click on the name of the data source and select ***Add***   from   the menu. To initialize a new session, you can specify either the type of session or a template. You will be prompted to customize your settings in the entry properties window.  
+On the main application window, right-click on the name of the data source and select ***Add*** from the menu. To initialize a new session, you can specify either the type of session or a template. You will be prompted to customize your settings in the entry properties window.  
 ![Adding a new entry](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11224.png) 
 
 ## Creating an entry with drag & drop 
@@ -19,5 +19,4 @@ It is possible that drag and drop will not work because of your security setting
  
 ## Creating an entry by importing its configuration 
 
-You can also import entries by using the [Import Computer Wizard](/rdm/windows/commands/file/import/computer-wizard/) , or by importing its configuration directly from any compatible applications supported by our import tools. You can learn more in the [Import](/rdm/windows/commands/file/import/sessions/) section. 
-
+You can also import entries by using the [Import Computer Wizard](/rdm/windows/commands/file/import/computer-wizard/), or by importing its configuration directly from any compatible applications supported by our import tools. You can learn more in the [Import](/rdm/windows/commands/file/import/sessions/) section. 

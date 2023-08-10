@@ -10,9 +10,9 @@ We recommend using vaults for improved organization and security. {{ en.VLT }} s
 To access the {{ en.VLT }}s management, navigate to [Administration – Vaults](/server/web-interface/administration/security-management/vaults/) . 
 {% endsnippet %}
  
-***{{ en.VLT }}*** ***s*** are divided in two parts:  
+***{{ en.VLT }}s*** are divided in two parts:  
 
-* The ***Navigation Pane*** (left) lists the entries available in the data source (current {{ en.VLT }} ).  
+* The ***{{ en.NPANE }}*** (left) lists the entries available in the data source (current {{ en.VLT }} ).  
 * The ***Content Area*** (right) displays information regarding the selected entry.  
 
 ![Vaults](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8023.png) 

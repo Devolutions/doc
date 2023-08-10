@@ -9,10 +9,10 @@ The following topic contains the procedure to configure Azure and {{ en.DVLS }} 
 ## Creation of azure ad applications and {{ en.DVLS }} microsoft configuration.
 1. Log in to your Microsoft Azure Portal using administrator credentials at [https://portal.azure.com](https://portal.azure.com)
 1. To simplify the configuration steps and to easily copy and paste all the required parameters, please have side by side the Azure Portal and the {{ en.DVLS }} web UI opened in ***Administration - Server Settings - Authentication - Microsoft Authentication***
-1. Once logged in, go to ***Azure Active Directory - Properties***  
+1. Once logged in, go to ***Azure Active Directory - Properties***.  
 3.1. Click on the ***Copy to clipboard*** button beside the ***Tenant ID*** property.  
 ![!!KB4401.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4401.png)
-3.2. Paste this value in the ***Tenant ID*** field of the {{ en.DVLS }}   ***Microsoft Authentication*** configuration page.  
+3.2. Paste this value in the ***Tenant ID*** field of the {{ en.DVLS }} ***Microsoft Authentication*** configuration page.  
 {% snippet icon.badgeInfo %}
 The ***Use specific client ID for users and user groups cache*** option should only be check to support configurations when migrating from an older {{ en.DVLS }} version.
 {% endsnippet %}  
@@ -34,7 +34,7 @@ The ***Use specific client ID for users and user groups cache*** option should o
 
 5.6. Click on the ***Copy to clipboard*** button next to the ***Application (client) ID***  
 ![!!KB4407.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4407.png)
-5.7. Paste the ***Application (client) ID*** in the ***Client ID*** field of the Web application section of the {{ en.DVLS }}   ***Microsoft Authentication*** configuration page.  
+5.7. Paste the ***Application (client) ID*** in the ***Client ID*** field of the Web application section of the {{ en.DVLS }} ***Microsoft Authentication*** configuration page.  
 ![!!KB4984.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4984.png)
 5.8. Select the ***Authentication*** tab of the Azure Web application and enable the ***ID tokens*** under the ***Implicit grant and hybrid flows*** section.  
 ![!!KB4418.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4418.png)
@@ -46,7 +46,7 @@ The ***Use specific client ID for users and user groups cache*** option should o
 ![!!KB4423.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4423.png)
 5.12. Click on the ***Copy to clipboard*** button of the ***Value*** Be sure to save the ***Value*** in a safe place as once you will switch to another page of the Azure portal, the copy button will no longer be available.  
 ![!!KB4424.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4424.png)
-5.13. Paste the ***Value*** in the ***Secret key*** field of the Web application section of the {{ en.DVLS }}   ***Microsoft Authentication*** configuration page.  
+5.13. Paste the ***Value*** in the ***Secret key*** field of the Web application section of the {{ en.DVLS }} ***Microsoft Authentication*** configuration page.  
 ![!!KB4985.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4985.png)
 5.14. Select the ***API permissions*** tab of the Azure Web application and click on the ***Add a permissions*** button.  
 ![!!KB4427.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4427.png)
@@ -61,13 +61,13 @@ The ***Use specific client ID for users and user groups cache*** option should o
 ![!!KB4432.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4432.png)
 5.19. Confirm the removal by clicking ***Yes, remove*** since this permission isn't required for the Sync application.  
 
-5.20. If the ***Status*** of the ***User.Read.All*** and ***Group.Read.All*** permissions are at ***Not granted*** , an administrator must grant consent.  
+5.20. If the ***Status*** of the ***User.Read.All*** and ***Group.Read.All*** permissions are at ***Not granted***, an administrator must grant consent.  
 {% snippet icon.shieldCaution %}
 It may be possible that the newly added permissions require an Azure administrator to consent. If the account used to create the application is already an administrator in Azure, click on the ***Grant admin consent for <your organization>*** button.
 {% endsnippet %}  
 
 ![!!KB8010.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8010.png)
-6. This is how the {{ en.DVLS }}   ***Microsoft Authentication*** configuration page should look like. Click ***Save***  
+6. This is how the {{ en.DVLS }} ***Microsoft Authentication*** configuration page should look like. Click ***Save***  
 ![!!KB4981.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4981.png)
 7. You will then be able to use the ***Microsoft*** button on the web interface.  
 {% snippet icon.badgeCaution %}

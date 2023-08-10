@@ -70,7 +70,7 @@ Choose a format: <br>
 Use vault image in tree view 
 		</td>
 		<td>
-Enable to view the vaults images in the navigation pane. 
+Enable to view the vaults images in the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>

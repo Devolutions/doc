@@ -8,7 +8,7 @@ Vous pouvez créer une Liste d'exécution locale ou partagée dans {{ fr.RDM }} 
 * Modifier une Liste d'exécution existante 
 
 {% snippet icon.badgeInfo %} 
-Vous pouvez également utiliser le menu contextuel pour créer et modifier votre ***Liste d'exécution*** . Lorsque vos entrées sont sélectionnées, cliquer avec le bouton droit dans le volet de navigation et sélectionner ***Liste d'exécution - Nouveau*** ou ***Ajouter à la liste d'exécution*** . 
+Vous pouvez également utiliser le menu contextuel pour créer et modifier votre ***Liste d'exécution*** . Lorsque vos entrées sont sélectionnées, cliquer avec le bouton droit dans le ***{{ fr.NPANE }}*** et sélectionner ***Liste d'exécution - Nouveau*** ou ***Ajouter à la liste d'exécution*** . 
 {% endsnippet %}
  
 ## Paramètres 
@@ -59,9 +59,9 @@ La Liste d'exécution est enregistrée dans votre {{ fr.UVLT }} et n'est accessi
 
 ### Créer une liste d'exécution en fonction de l'état et de la sélection des entrées 
 
-1. Si vous souhaitez prédéterminer une liste d'entrées, sélectionner-les pour votre liste d'exécution dans le volet de navigation.  
-![Sélection d'entrées dans le volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10902.png) 
-1. Dans le menu du ruban ***Modifier*** , cliquer sur ***Liste d'exécution*** , puis sélectionner le paramètre que vous préférez.  
+1. Si vous souhaitez prédéterminer une liste d'entrées, sélectionner-les pour votre liste d'exécution dans le ***{{ fr.NPANE }}***.  
+![Sélection d'entrées dans le {{ fr.NPANE }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10902.png) 
+1. Dans le menu du ruban ***Modifier***, cliquer sur ***Liste d'exécution***, puis sélectionner le paramètre que vous préférez.  
 ![Modifier - Liste d'exécution - Nouveau](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10792.png) 
 
 <table>
@@ -86,7 +86,7 @@ Créer une nouvelle Liste d'exécution directement, une invite de fenêtre vous 
 Ajouter à la liste d'exécution (X entrées) 
 		</td>
 		<td>
-Invite une fenêtre dans laquelle vous pouvez sélectionner les Listes d'exécution actuellement accessibles et ajoute la sélection du volet de navigation à la Liste d'exécution. 
+Invite une fenêtre dans laquelle vous pouvez sélectionner les Listes d'exécution actuellement accessibles et ajoute la sélection du ***{{ fr.NPANE }}*** à la Liste d'exécution. 
 		</td>
 	</tr>
 	<tr>
@@ -102,7 +102,7 @@ Ouvre le Gestionnaire de listes d'exécution avec les dernières connexions ouve
 3. Choisir si vous souhaitez enregistrer votre Liste d'exécution localement, dans un coffre partagé ou dans votre {{ fr.UVLT }} . L'enregistrer localement ouvrira une fenêtre différente. Cette fenêtre contiendra tout le nécessaire pour une Liste d'exécution local.  
 ![Enregistrer la Liste d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10255.png) 
 1. La fenêtre suivante vous permet de choisir comment vous voulez que votre sélection actuelle ou les sessions ouvertes affectent votre Liste d'exécution.  
-![Selection des entrées dans le volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10256.png) 
+![Selection des entrées dans le {{ fr.NPANE }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10256.png) 
 
 <table>
 	<tr>
@@ -115,10 +115,10 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Entrées sélectionnées dans le volet de Navigation 
+Entrées sélectionnées dans le <b><i>{{ fr.NPANE }}</i></b> 
 		</td>
 		<td>
-Toutes les entrées actuellement sélectionnées dans le volet de navigation seront déjà sélectionnées pour votre Liste d'exécution. Vous pouvez toujours ajouter et supprimer des entrées dans la Liste d'exécution si vous le souhaitez. 
+Toutes les entrées actuellement sélectionnées dans le <b><i>{{ fr.NPANE }}</i></b> seront déjà sélectionnées pour votre Liste d'exécution. Vous pouvez toujours ajouter et supprimer des entrées dans la Liste d'exécution si vous le souhaitez. 
 		</td>
 	</tr>
 	<tr>

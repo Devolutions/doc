@@ -1,8 +1,8 @@
 ---
 title: Volet de navigation
 ---
-Le ***Volet de navigation*** est l'un des principaux composants de l'interface utilisateur de {{ fr.RDM }} . Il répertorie toutes les entrées disponibles dans la source de données actuelle et permet de basculer vers une autre source de données ou coffre.  
-![Volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11204.png) 
+Le ***{{ fr.NPANE }}*** est l'un des principaux composants de l'interface utilisateur de {{ fr.RDM }} . Il répertorie toutes les entrées disponibles dans la source de données actuelle et permet de basculer vers une autre source de données ou coffre.  
+![{{ fr.NPANE }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11204.png) 
 
 <table>
 	<tr>

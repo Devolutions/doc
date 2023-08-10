@@ -1,7 +1,7 @@
 ---
 title: Search/Filter
 ---
-It is possible to apply a filter in the {{ en.NPANE }} tree view by typing some characters in the filter box. The filter is applied using the specified settings in the application ***File – Options – User Interface – Filter*** . 
+It is possible to apply a filter in the ***{{ en.NPANE }}*** tree view by typing some characters in the filter box. The filter is applied using the specified settings in the application ***File – Options – User Interface – Filter***. 
 
 ### Ellipsis Button 
 
@@ -31,7 +31,7 @@ The Search Options offers the chance to customize your search, such as including
 
 Use the keyboard shortcut CTRL+F to quickly have access to the Search / Filter control. This can be disabled in ***File - Options - User Interface - Keyboard.***  
 
-You can set the focus back on the {{ en.NPANE }} by using the keyboard shortcut Ctrl+L, this also can be disabled in the options. 
+You can set the focus back on the ***{{ en.NPANE }}*** by using the keyboard shortcut Ctrl+L, this also can be disabled in the options. 
 
 ## Boolean Filter 
 

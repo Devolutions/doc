@@ -36,7 +36,7 @@ Avec cette option activée, un icône {{ fr.DWL }} sera affiché dans chaque cha
 Si l'option ***Soumettre automatiquement le formulaire après la saisie*** est activée, les identifiants seront automatiquement soumis lorsque les champs sont remplis. Son activation est facultative, car il ne s'agit pas d'une pratique recommandée. 
 {% endsnippet %}
  
-7. Cliquer sur ***Enregistrer*** .   
+7. Cliquer sur ***Enregistrer***.  
 
 Vous pouvez maintenant continuer à la prochaine section pour apprendre comment récupérer vos identifiants d'entrée de site Web.  
 

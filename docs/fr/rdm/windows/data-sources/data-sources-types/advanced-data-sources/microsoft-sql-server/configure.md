@@ -11,7 +11,7 @@ Pour plus de sécurité, vous pouvez activer le cryptage SSL pour communiquer av
 {% endsnippet %}
  
 
-2. Cliquer sur les points de suspension dans le volet de navigation ou aller dans ***Fichier – Sources de données***.  
+2. Cliquer sur les points de suspension dans le ***{{ fr.NPANE }}*** ou aller dans ***Fichier – Sources de données***.  
 ![Menu des sources de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11364.png) 
 1. Cliquer sur le signe plus pour créer une nouvelle source de données.  
 ![Nouvelle source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10816.png) 

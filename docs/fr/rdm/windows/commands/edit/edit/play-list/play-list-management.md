@@ -36,10 +36,10 @@ Remplacer la sélection d'affichage des entrées dans les listes d'exécution et
 	</tr>
 	<tr>
 		<td>
-Sélectionner dans le volet de navigation 
+Sélectionner dans le ***{{ fr.NPANE }}*** 
 		</td>
 		<td>
-Sélectionner toutes les entrées contenues dans la liste d'exécution dans le volet de navigation. 
+Sélectionner toutes les entrées contenues dans la liste d'exécution dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>

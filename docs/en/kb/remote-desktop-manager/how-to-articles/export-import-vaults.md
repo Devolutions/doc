@@ -13,7 +13,7 @@ Administration rights are required to export and import multiple vaults.
 
 ## Export
 
-1. In {{ en.RDM }} ***Navigation Pane***, select your data source.
+1. In the {{ en.RDM }} ***{{ en.NPANE }}***, select your data source.
 1. Go to ***Administration - Export All Vaults (.rdx)***.
 1. Select the vaults from the prompted list and click ***OK***.
 1. For a typical migration, you would check the options ***Include credentials, Include attachments and documents*** and ***Encrypt with master key***  
@@ -31,7 +31,7 @@ Specifying a master key will encrypt the whole content of the ***.rdx*** file to
 
 ## Import
 
-1. In the ***Navigation Pane***, select the data source you wish to import the vaults in.
+1. In the ***{{ en.NPANE }}***, select the data source you wish to import the vaults in.
 1. Go to ***Administration - Import Multiple Vaults (.rdx)***.
 1. Locate the ***.rdx*** saved file on your computer and click ***Open***.
 1. Set the ***Mappings*** of the vaults.  

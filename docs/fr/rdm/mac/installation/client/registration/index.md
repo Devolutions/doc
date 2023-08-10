@@ -8,7 +8,7 @@ Veuillez vous référer à la rubrique [Édition Team](/fr/rdm/mac/installation/
 
 ### Demander une version d'essai 
 
-Il est possible de demander une période de [30 jours pour essayer](https://devolutions.net/remote-desktop-manager/fr/trial)   {{ fr.RDM }} Édition Team avec toutes ses fonctionnalités. Pour plus d'informations, veuillez consulter la rubrique [Demande d'essai](/fr/rdm/mac/installation/client/registration/trial-request/) . 
+Il est possible de demander une période de [30 jours pour essayer](https://devolutions.net/remote-desktop-manager/fr/trial) {{ fr.RDM }} Édition Team avec toutes ses fonctionnalités. Pour plus d'informations, veuillez consulter la rubrique [Demande d'essai](/fr/rdm/mac/installation/client/registration/trial-request/). 
 
 ### {{ fr.RDMMAC }} édition Free 
 

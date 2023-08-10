@@ -102,10 +102,10 @@ Réinitialiser tous vos champs pour procéder à une nouvelle recherche.
 	</tr>
 	<tr>
 		<td>
-Sélectionner dans le volet de navigation 
+Sélectionner dans le ***{{ fr.NPANE }}*** 
 		</td>
 		<td>
-Sélectionner votre résultat de recherche dans votre ***{{ fr.NPANE }}*** . Cette option peut être utilisée en combinaison avec une modification par lot. 
+Sélectionner votre résultat de recherche dans votre ***{{ fr.NPANE }}***. Cette option peut être utilisée en combinaison avec une modification par lot. 
 		</td>
 	</tr>
 </table>
@@ -118,4 +118,3 @@ Il y aura une liste déroulante à côté de certains champs des critères (ex :
 * ***Expression exacte*** - trouvera des noms qui correspondent à chaque caractère que vous avez entré, exactement comme il a été entré. 
 * ***Ne contient pas*** - tout nom qui ne contient pas les caractères que vous avez saisis. 
 * ***Expression régulière*** (regex) - toute chaîne de caractères spécifiant, selon une syntaxe précise, un ensemble de chaînes de caractères possibles. 
-

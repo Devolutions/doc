@@ -10,5 +10,5 @@ You will start with two vaults:
 * One ***{{ en.UVLT }}*** , which is user-centric and is used to store information such as personal account credentials. The ***{{ en.UVLT }}*** prevents users from using a non-secured tool to manage their personal passwords at work. The ***{{ en.UVLT }}*** can be disabled in ***Administration – System Settings – User Vault*** . 
 
 The two vault types can also be found in the ***{{ en.NPANE }}*** menu.  
-![Navigation Pane Vault Tabs](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2051.png) 
+![{{ en.NPANE }} Vault Tabs](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2051.png) 
 

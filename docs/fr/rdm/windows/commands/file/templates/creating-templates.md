@@ -24,7 +24,7 @@ Il existe de nombreuses façons de créer un modèle pour les entrées. Vous pou
 
 Il est possible d'enregistrer des entrées en tant que modèles pour utiliser leurs propriétés dans d'autres entrées. En outre, cela peut être réalisé sur les dossiers pour inclure tous leurs éléments enfants dans le modèle.  
 
-Dans le volet de navigation, cliquer avec le bouton droit sur une entrée et sélectionner ***Ajouter - Enregistrer comme modèle*** .  
+Dans le ***{{ fr.NPANE }}***, cliquer avec le bouton droit sur une entrée et sélectionner ***Ajouter - Enregistrer comme modèle*** .  
 ![Enregistrer comme modèle](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3410.png) 
 
 ## Importer un modèle 

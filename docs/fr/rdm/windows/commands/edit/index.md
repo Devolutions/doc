@@ -145,8 +145,8 @@ Remplacez les propriétés de l'entrée sélectionnée par des paramètres spéc
 
 
 {% snippet icon.badgeInfo %} 
-Une colonne ***Paramètres spécifiques*** peut être ajoutée dans le volet de navigation. Faire un clic droit sur la colonne ***Nom*** dans le volet de navigation et choisir Sélecteur de colonnes. Double-cliquer sur ***Paramètres spécifiques*** pour ajouter la colonne. Maintenant, si un paramètre spécifique est appliqué à une entrée, il s'affiche à côté du nom de l'entrée.  
-![Volet de navigation - Sélecteur de colonnes](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SpecificSettingsColumnChooser.png) 
+Une colonne ***Paramètres spécifiques*** peut être ajoutée dans le ***{{ fr.NPANE }}***. Faire un clic droit sur la colonne ***Nom*** dans le ***{{ fr.NPANE }}*** et choisir Sélecteur de colonnes. Double-cliquer sur ***Paramètres spécifiques*** pour ajouter la colonne. Maintenant, si un paramètre spécifique est appliqué à une entrée, il s'affiche à côté du nom de l'entrée.  
+![{{ fr.NPANE }} - Sélecteur de colonnes](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SpecificSettingsColumnChooser.png) 
 {% endsnippet %}
  
 

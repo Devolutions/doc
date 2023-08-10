@@ -10,7 +10,7 @@ You can create Local or Shared play List in {{ en.RDM }} . There's several metho
 * Edit an existing Play List. 
 
 {% snippet icon.badgeInfo %} 
-You can also use the context menu to create and edit your Play List . When your entries are selected, right-click in the {{ en.NPANE }} and select ***Play List –*** Add Selection to Existing Play List . 
+You can also use the context menu to create and edit your Play List . When your entries are selected, right-click in the ***{{ en.NPANE }}*** and select ***Play List –*** Add Selection to Existing Play List . 
 {% endsnippet %}
  
 ## Settings 
@@ -61,9 +61,9 @@ The Play List is saved in your {{ en.UVLT }} and can only be accessed by the use
 
 ### Create Play List depending on entries state and selection 
 
-1. If you wish to pre-determine a list of entries, select them for your Play List in the {{ en.UVLT }} .  
-![Selected Entries in the Navigation Pane](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10902.png) 
-1. In the ***Edit*** ribbon menu, click ***Play List*** ,   then select whichever setting you prefer.  
+1. If you wish to pre-determine a list of entries, select them for your Play List in the {{ en.UVLT }}.  
+![Selected Entries in the {{ en.NPANE }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10902.png) 
+1. In the ***Edit*** ribbon menu, click ***Play List***, then select whichever setting you prefer.  
 ![Edit - Play List - New](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10792.png) 
 
 <table>
@@ -104,7 +104,7 @@ Prompts a window where you can select currently accessible Play Lists and adds t
 3. Choose if you wish to save your Play List locally, in a shared {{ en.VLT }} or in your {{ en.UVLT }} . Saving it locally will prompt a different window. This window will contain everything needed for a local Play List.  
 ![Save New Play List](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10255.png) 
 1. The next window lets you choose how you want your current selection or opened sessions to affect your playlist.  
-![Selected Entries in Navigation Pane](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10256.png) 
+![Selected Entries in {{ en.NPANE }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10256.png) 
 
 <table>
 	<tr>
@@ -117,10 +117,10 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Selected Entries in {{ en.NPANE }} 
+Selected Entries in <b><i>{{ en.NPANE }}</i></b> 
 		</td>
 		<td>
-All currently selected entries in the {{ en.NPANE }} will already be selected for your Play List. You can still add and remove entries to the Play List if you desire. 
+All currently selected entries in the <b><i>{{ en.NPANE }}</i></b> will already be selected for your Play List. You can still add and remove entries to the Play List if you desire. 
 		</td>
 	</tr>
 	<tr>
@@ -151,9 +151,9 @@ And there you have it, your ***Play List*** is ready for use.
 
 ### Edit Existing Play List 
 
-1. In ***Edit*** , click   ***Play List Management*** .    
+1. In ***Edit***, click ***Play List Management***.  
 ![View - Play List Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11490.png) 
-1. Select the ***Play List*** you wish to modify and click ***Edit*** .  
+1. Select the ***Play List*** you wish to modify and click ***Edit***.  
 ![Play List Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10259.png) 
 
 {% snippet icon.badgeInfo %} 

@@ -1,7 +1,7 @@
 ---
 title: Search
 ---
-It is possible to apply a filter in the [Navigation Pane](/rdm/mac/user-interface/navigation-pane/) tree view by typing some characters in the filter box. The filter is applied using the specified settings in the application Filter options. 
+It is possible to apply a filter in the [***{{ en.NPANE }}***](/rdm/mac/user-interface/navigation-pane/) tree view by typing some characters in the filter box. The filter is applied using the specified settings in the application Filter options. 
 
 ## Settings 
 

@@ -48,7 +48,7 @@ Click on your avatar to edit your {{ en.DA }} settings and lock or log off your 
 	</tr>
 	<tr>
 		<td>
-{{ en.NPANE }} 
+***{{ en.NPANE }}*** 
 		</td>
 		<td>
 View the entries available in the selected vault. 
@@ -59,7 +59,7 @@ View the entries available in the selected vault.
 Vault Interactions 
 		</td>
 		<td>
-Select the vault in the {{ en.NPANE }} to view the vault interactions. 
+Select the vault in the ***{{ en.NPANE }}*** to view the vault interactions. 
 		</td>
 	</tr>
 	<tr>

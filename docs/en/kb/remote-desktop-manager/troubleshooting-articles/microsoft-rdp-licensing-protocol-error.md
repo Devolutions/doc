@@ -23,7 +23,7 @@ Try to check/uncheck the ***NLA*** option located under the ***Connection*** tab
 
 ### Solution 4
 
-In some cases, and sometimes depending on the host OS, the ***CredSSP*** setting may interfere. Change its value in ***Session properties - General -*** ***Advanced*** Tab.
+In some cases, and sometimes depending on the host OS, the ***CredSSP*** setting may interfere. Change its value in ***Session properties - General - Advanced*** Tab.
 
 ### Solution 5
 

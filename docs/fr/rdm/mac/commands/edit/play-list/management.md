@@ -27,28 +27,28 @@ Les éléments s'ouvriront tous en utilisant le mode intégré.
 		</td>
 	</tr>
 		<td>
-Sélectionner dans le volet de navigation 
+Sélectionner dans le <b><i>{{ fr.NPANE }}</i></b> 
 		</td>
 		<td>
-Les éléments seront sélectionnés dans le volet de navigation, ce qui vous permet de choisir une autre commande à exécuter sur la section dans un deuxième temps. 
+Les éléments seront sélectionnés dans le <b><i>{{ fr.NPANE }}</i></b>, ce qui vous permet de choisir une autre commande à exécuter sur la section dans un deuxième temps. 
 		</td>
 	</tr>
 </table>
 
 ### Ouvrir 
 
-Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution , sélectionner la liste et cliquer ***Ouvrir*** .  
+Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution , sélectionner la liste et cliquer ***Ouvrir***.  
 ![Ouvrir la liste d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0273.png) 
 
 ### Ouvrir en mode intégré 
 
-Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution , sélectionner la liste et cliquer ***Ouvrir en mode intégré*** .  
+Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution , sélectionner la liste et cliquer ***Ouvrir en mode intégré***.  
 ![Ouvrir la liste d'exécution mode intégré](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0274.png) 
 
-### Ouvrir en Sélectionnant dans le volet de navigation 
+### Ouvrir en Sélectionnant dans le ***{{ fr.NPANE }}*** 
 
-Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution , sélectionner la liste et cliquer ***Sélectionner dans le volet de navigation*** . Sélectionner les entrées dans le volet de navigation.  
-![Sélectionner dans le volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0275.png) 
+Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution , sélectionner la liste et cliquer ***Sélectionner dans le {{ fr.NPANE }}***. Sélectionner les entrées dans le ***{{ fr.NPANE }}***.  
+![Sélectionner dans le {{ fr.NPANE }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0275.png) 
 
 ## Menu 
 

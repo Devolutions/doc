@@ -4,7 +4,7 @@ description: Here are the default keyboard shortcuts for various commands.
 keywords:
 - Keyboard Shortcuts
 ---
-Here are the default keyboard shortcuts for various commands. These can be modified in File   –   Options   –   User Interface   –   Keyboard .  
+Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Options – User Interface – Keyboard***.  
 
 The ***Disable All*** button allows you to disable all shortcuts. The ***Reset Default*** button returns shortcuts to their default values.  
 
@@ -617,7 +617,7 @@ F7
 	</tr>
 	<tr>
 		<td>
-Navigation Pane 
+<b><i>{{ en.NPANE }}</i></b> 
 		</td>
 		<td>
 Alt+F8 

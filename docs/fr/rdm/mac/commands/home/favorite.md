@@ -8,10 +8,10 @@ Cela est utile lorsque le nombre d'entrées gérées devient trop important ou s
 
 ### Ajouter une entrée dans les favoris 
 
-Sélectionner votre entrée dans votre volet de navigation, puis cliquer sur ***Favoris*** dans le ruban pour ajouter l'entrée à la liste. Vous pouvez également sélectionner votre entrée, faire un clic droit puis sélectionné ***Favoris*** .  
+Sélectionner votre entrée dans votre ***{{ fr.NPANE }}***, puis cliquer sur ***Favoris*** dans le ruban pour ajouter l'entrée à la liste. Vous pouvez également sélectionner votre entrée, faire un clic droit puis sélectionné ***Favoris*** .  
 ![Ajouter aux Favoris](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4043.png) 
 
 ### Afficher les Favoris 
 
-Pour afficher une liste de toutes vos entrées favorites, cliquer sur l'étoile au bas de votre volet de navigation.  
+Pour afficher une liste de toutes vos entrées favorites, cliquer sur l'étoile au bas de votre ***{{ fr.NPANE }}***.  
 ![Liste des Favoris](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4044.png) 

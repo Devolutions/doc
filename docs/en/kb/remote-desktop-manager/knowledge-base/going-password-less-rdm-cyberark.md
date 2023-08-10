@@ -29,7 +29,7 @@ A discussion on the PSM is surely too broad to fit in this blog, so I will again
 
 If you have chosen AAM option 1 above, you must use the User Specific Settings in {{ en.RDM }} to create the link between the PSM-Server entry and the AAM Entry that is stored in the User Vault.  
 
-If you have rather selected options 2a or 2b, I believe that the best option is to set the PSM-Server entry to use ***Credential Repository*** , paired with   ***prompt on connection*** This makes the experience better for new users, and experienced users will know how to switch to User Specific Settings to make their choice more permanent.
+If you have rather selected options 2a or 2b, I believe that the best option is to set the PSM-Server entry to use ***Credential Repository***, paired with ***prompt on connection*** This makes the experience better for new users, and experienced users will know how to switch to User Specific Settings to make their choice more permanent.
 ### CyberArk Webservices SDK configuration
 When you stay within the confines of your CyberArk ecosystem, you typically do not need to use this type, but it was decided to still offer you the capability. This has just recently been modified and therefore is only in the 2020.3 release, which is in the beta cycle at this time.  
 

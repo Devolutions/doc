@@ -747,7 +747,7 @@ Si UserId est fourni, définit un PSVaultRole prédéfini ou une permission du c
 Si GroupId est fourni, définit un PSVaultRole prédéfini ou une permission du coffre personnalisée pour ce groupe.  
 		</td>
 		<td>
-Avec une vaultPermission personnalisée :   
+Avec une vaultPermission personnalisée :  
 
 ```$newVaultPermission = [Devolutions.Hub.Clients.VaultPermission]@{ AddEntries = $true } ```  
 

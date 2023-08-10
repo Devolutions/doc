@@ -1,20 +1,20 @@
 ---
 title: Authentification
 ---
-La section ***Authentification*** vous permet de configurer la manière dont vos utilisateurs se connecteront à votre {{ fr.HUB }} . 
+La section ***Authentification*** vous permet de configurer la manière dont vos utilisateurs se connecteront à votre {{ fr.HUB }}. 
 
 ## Général 
 
-Dans la section ***Général*** , vous pouvez activer les paramètres de connexion pour vos utilisateurs.  
+Dans la section ***Général***, vous pouvez activer les paramètres de connexion pour vos utilisateurs.  
 ![Administration – Authentification – Général](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2157.png) 
 
-* ***Forcer la demande de connexion*** impose une demande de connexion à tous les utilisateurs. S 'ils ont configuré leur vérification en deux étapes dans leur {{ fr.DA }} , seule cette dernière sera demandée. 
-* ***Appliquer la validation en 2 étapes sur le*** ***{{ fr.DA }}*** oblige les utilisateur à configurer la vérification en deux étapes sur leur {{ fr.DA }} . 
+* ***Forcer la demande de connexion*** impose une demande de connexion à tous les utilisateurs. S 'ils ont configuré leur vérification en deux étapes dans leur {{ fr.DA }}, seule cette dernière sera demandée. 
+* ***Appliquer la validation en 2 étapes sur le {{ fr.DA }}*** oblige les utilisateur à configurer la vérification en deux étapes sur leur {{ fr.DA }}. 
 {% snippet icon.badgeCaution %} 
-Le paramètre ***Appliquer la validation en 2 étapes sur le*** ***{{ fr.DA }}*** ne s 'applique pas aux utilisateurs qui se connectent avec l 'authentification unique. 
+Le paramètre ***Appliquer la validation en 2 étapes sur le {{ fr.DA }}*** ne s'applique pas aux utilisateurs qui se connectent avec l 'authentification unique. 
 {% endsnippet %}
  
-Il est également possible de régler le ***Temps d 'inactivité avant la déconnexion*** sur différentes valeurs allant de 5 minutes à 4 heures ou de le laisser ***Désactivé*** . 
+Il est également possible de régler le ***Temps d 'inactivité avant la déconnexion*** sur différentes valeurs allant de 5 minutes à 4 heures ou de le laisser ***Désactivé***. 
 
 ## Authentification unique (SSO) 
 
@@ -44,12 +44,11 @@ L ' [authentification unique](#authentification-unique-sso) doit d 'abord ête c
  
 ![Administration – Authentification – Approvisionnement](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2161.png) 
 
-Après avoir activé le SSO, vous pouvez générer un ***jeton SCIM*** . Vous pouvez toujours supprimer ce jeton et en régénérer un nouveau.  
+Après avoir activé le SSO, vous pouvez générer un ***jeton SCIM***. Vous pouvez toujours supprimer ce jeton et en régénérer un nouveau.  
 ![Générer le jeton SCIM](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2162.png) 
 
 Vous aurez alors accès à l ' ***URL locataire*** en plus du jeton pour [configurer le provisionnement dans Azure](/fr/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/) .  
 ![URL locataire et jeton SCIM](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2163.png) 
 
-Lorsque tout a été configuré, vous pouvez ***Activer la synchronisation*** des utilisateurs et des groupes de votre {{ fr.HUB }}    avec ceux d 'Azure AD.  
+Lorsque tout a été configuré, vous pouvez ***Activer la synchronisation*** des utilisateurs et des groupes de votre {{ fr.HUB }} avec ceux d'Azure AD.  
 ![Activer la synchronisation](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2164.png) 
-

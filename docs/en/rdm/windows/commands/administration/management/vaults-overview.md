@@ -59,7 +59,7 @@ The ***Allow offline*** option is enabled by default. If it is disabled, the new
 ### Navigate between vaults
 
 In the ***{{ en.NPANE }}***, you can use the vault selector to move between vaults.  
-![Navigation Pane Vault Selector](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3602.png)  
+![{{ en.NPANE }} Vault Selector](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3602.png)  
 You can change the location of the vault selector in ***File – Options – User Interface – {{ en.VLT }}s – {{ en.VLT }} location***. By default, the selector is at the bottom of the ***{{ en.NPANE }}***.  
 ![File – Options – User Interface – Vaults – Vault location](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2141.png)
 

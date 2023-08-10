@@ -11,7 +11,7 @@ Lorsque vous utilisez une source de données {{ fr.DVLS }}, Microsoft SQL Server
 
 La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande.
  
-Pour apprendre comment afficher les demandes en attente, consultez [Afficher les demandes d'accès temporaire](#view-temporary-access-requests).   
+Pour apprendre comment afficher les demandes en attente, consultez [Afficher les demandes d'accès temporaire](#view-temporary-access-requests).  
 
 Pour apprendre comment répondre à une demande, consultez [Approuver/refuser les demandes d'accès temporaire](#approvedeny-temporary-access-requests).  
 

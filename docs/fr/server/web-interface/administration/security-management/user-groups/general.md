@@ -20,7 +20,7 @@ Type d'authentification
 
 Sélectionner le type d'authentification du groupe d'utilisateurs:  
 
-* ***{{ fr.DVLS }}***   : Créer un groupe d'utilisateur dans {{ fr.DVLS }}.  
+* ***{{ fr.DVLS }}*** : Créer un groupe d'utilisateur dans {{ fr.DVLS }}.  
 * ***Domaine*** : Groupe d'utilisateurs Active Directory.  
 * ***Office 365*** : Groupe d'utilisateurs Office 365.  
 		</td>

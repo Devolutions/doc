@@ -9,8 +9,8 @@ Follow the steps below to learn how to convert your ***Website (Legacy)*** entry
 To convert several entries at once, you can perform a batch conversion by searching by ***Connection type*** with the ***Advanced Search*** feature. If your entries are in different vaults, you can use the ***Multi Vault Search*** to get the same results. First make sure your vault(s) contain ***Website (Legacy)*** entries, otherwise the entry type will not appear in the search options. Visit our [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/) topic for more information. 
 {% endsnippet %}
  
-1. Select the entry you want to convert in the {{ en.NPANE }} . It is possible to select multiple entries at once, provided they are of the same type. 
-1. Right-click the entry and select ***Edit – Edit (Special Actions)*** . Alternatively, you can use the ***Ribbon*** by clicking on ***Edit (Special Actions)*** in the ***Batch*** section of the ***Edit*** tab.  
+1. Select the entry you want to convert in the ***{{ en.NPANE }}***. It is possible to select multiple entries at once, provided they are of the same type. 
+1. Right-click the entry and select ***Edit – Edit (Special Actions)***. Alternatively, you can use the ***Ribbon*** by clicking on ***Edit (Special Actions)*** in the ***Batch*** section of the ***Edit*** tab.  
 ![Edit – Edit (Special Actions)](https://webdevolutions.azureedge.net/docs/en/kb/KB2076.png) 
 1. In the ***Web*** section, select ***Convert Website (legacy)*** to ***Website*** and click ***OK***. 
 ![Convert Website (legacy) to Website](https://webdevolutions.azureedge.net/docs/en/kb/KB2077.png) 

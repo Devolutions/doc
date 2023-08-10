@@ -10,5 +10,5 @@ Vous commencerez avec deux coffres :
 * Un ***{{ fr.UVLT }}*** qui est centré sur l'utilisateur et utilisé pour stocker des informations telles que des informations d'identification de compte personnel. Le ***{{ fr.UVLT }}*** empêche les utilisateurs de se servir d'un outil non sécurisé pour gérer leurs mots de passe personnels au travail. Le ***{{ fr.UVLT }}*** peut être désactivé dans ***Administration – Paramètres du système – Coffre d'utilisateur*** . 
 
 Les deux types de coffres sont aussi accessibles à partir des onglets du ***{{ fr.NPANE }}*** .  
-![Onglets Coffres dans le Volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0007.png) 
+![Onglets Coffres dans le {{ fr.NPANE }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0007.png) 
 

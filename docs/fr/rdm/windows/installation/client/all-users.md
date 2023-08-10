@@ -11,7 +11,7 @@ Cette procédure enregistre toutes les associations de types de fichiers, cela s
  
 
 1. Copier le programme d'installation dans un dossier disponible pour tous les utilisateurs de la station de travail. Par exemple c:\Deploy . 
-1. Ouvrer une Invite de commande   élevée (cliquer avec le bouton droit sur le raccourci et sélectionner ***Exécuter en tant qu'administrateur*** ). 
+1. Ouvrer une Invite de commande élevée (cliquer avec le bouton droit sur le raccourci et sélectionner ***Exécuter en tant qu'administrateur*** ). 
 1. Exécuter la commande suivante, adaptée à la version que vous installez:  
 
 `msiexec /i Setup.{APPNAME}.{VERSION}.msi /Quiet /Passive INSTALLMODE=Complete`  

@@ -19,7 +19,7 @@ You could also change:
 You can select multiple entries by using Command and mouse click. For a method with a little more power, use our [Advanced Search](/rdm/mac/commands/view/advanced-search/) dialog, accessible from View - Advanced Search . The Advanced Search allows you to select multiple criteria at once.  
 ![Advanced Search](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10605.png) 
 
-After you've tweaked your criteria to get the results you want, press on Select in Navigation Pane and then Action - Batch Edit . 
+After you've tweaked your criteria to get the results you want, press on Select in ***{{ en.NPANE }}*** and then Action - Batch Edit . 
 
 ## Settings 
 

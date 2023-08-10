@@ -5,7 +5,7 @@ Si vous souhaitez déplacer une entrée sous un autre dossier, vous avez la poss
 
 ## Paramètres 
 
-1. Sélectionner votre entrée dans votre volet de navigation, puis utilisez le menu ***Modifier - Déplacer***.  
+1. Sélectionner votre entrée dans votre ***{{ fr.NPANE }}***, puis utilisez le menu ***Modifier - Déplacer***.  
 ![Modifier - Déplacer](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4100.png) 
 1. Sélectionner le dossier sous lequel vous souhaitez déplacer votre entrée, puis cliquer sur Sélectionner pour confirmer.  
 ![Sélectionner un dossier](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0255.png) 

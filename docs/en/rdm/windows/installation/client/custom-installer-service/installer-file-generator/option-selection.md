@@ -1,5 +1,5 @@
 ---
-title: Option Selection
+title: Option selection
 ---
 When generating the installer file, you must decide what to include in the configuration. This process will replicate the configuration of the {{ en.RDM }} instance currently used and will generate an installer file (.rdi). Once it has been generated, the installer file can be used as many times as needed to create {{ en.CI }}s. For security reasons, some settings that may contain credentials such as ***Saved templates*** are disabled by default. Enable them based on your risk level. 
 
@@ -8,18 +8,18 @@ The same dialog is used for the {{ en.CIS }} and for exporting the {{ en.RDM }} 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-{{ en.RDM }} may install required add-ons automatically when it detects that they are needed (configured in ***File – Options – Paths*** ). If you need to customize the application's installation path of an add-on, you must first perform the modification, then create the installation package. This setting will be replicated in the installer file (*.rdi). 
+{{ en.RDM }} may install required add-ons automatically when it detects that they are needed (configured in ***File – Options – Paths***). If you need to customize the application's installation path of an add-on, you must first perform the modification, then create the installation package. This setting will be replicated in the installer file (*.rdi). 
 {% endsnippet %}
  
 ## Options 
 
-You can open the ***Installer File Generator*** from ***File –*** ***{{ en.DA }}*** ***– Installer File Generator*** . It is also accessible when creating a installation package in ***File –*** ***{{ en.DA }}*** ***– {{ en.CIM }}*** .  
+You can open the ***Installer File Generator*** from ***File – {{ en.DA }} – Installer File Generator***. It is also accessible when creating a installation package in ***File – {{ en.DA }} – {{ en.CIM }}***.  
 ![Installer File Generator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11249.png) 
 
 ### Miscellaneous 
 
 {% snippet icon.shieldWarning %} 
-Do not redistribute the ***{{ en.DA }}*** ***credentials*** . Doing so would share these to all users having access to the online account used to create the installer package. 
+Do not redistribute the ***{{ en.DA }} credentials***. Doing so would share these to all users having access to the online account used to create the installer package. 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 

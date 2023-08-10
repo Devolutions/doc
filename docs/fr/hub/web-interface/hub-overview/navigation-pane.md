@@ -1,7 +1,7 @@
 ---
 title: Volet de navigation
 ---
-Le ***Volet de navigation*** affiche les entrées auxquelles les utilisateurs ont accès depuis le coffre sélectionné.  
+Le ***{{ fr.NPANE }}*** affiche les entrées auxquelles les utilisateurs ont accès depuis le coffre sélectionné.  
 
 Raffiner vos recherches des entrées avec le ***Filtre*** ou les ***Étiquettes*** dans le ***Paramètres d 'affichage*** .  
 

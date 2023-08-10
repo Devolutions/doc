@@ -230,7 +230,7 @@ Alt+F6
 	</tr>
 	<tr>
 		<td>
-Volet de navigation 
+<b><i>{{ fr.NPANE }}</i></b> 
 		</td>
 		<td>
 Alt+F8 

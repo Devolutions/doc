@@ -74,14 +74,13 @@ Rechercher en tapant une partie ou la totalité d'un mot contenu dans le nom des
 
 ### Affichage des résultats 
 
-Les résultats s'affichent après avoir appuyé sur le bouton ***Recherche*** . Une fois effectué, le nom des entrées et dossiers et le coffre dans lequel ils se trouvent sont affichés dans le champ des résultats.  
+Les résultats s'affichent après avoir appuyé sur le bouton ***Recherche***. Une fois effectué, le nom des entrées et dossiers et le coffre dans lequel ils se trouvent sont affichés dans le champ des résultats.  
 ![Bouton Recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0024.png) 
 
-Il est possible de sélectionner plusieurs entrées à la fois avec Maj+Clic ou toutes les entrées avec le raccourci Cmd+A . Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}*** . 
+Il est possible de sélectionner plusieurs entrées à la fois avec Maj+Clic ou toutes les entrées avec le raccourci Cmd+A . Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***. 
 
 ### Autres fonctionnalités 
 
-Le bouton ***Sélectionner dans le volet de navigation*** , lorsqu'il est utilisé, vous renvoie directement à l'entrée ou au dossier sélectionné dans le ***{{ fr.NPANE }}*** du coffre sélectionné.  
+Le bouton ***Sélectionner dans le {{ fr.NPANE }}***, lorsqu'il est utilisé, vous renvoie directement à l'entrée ou au dossier sélectionné dans le ***{{ fr.NPANE }}*** du coffre sélectionné.  
 
 Le bouton ***Réinitialiser*** efface les résultats et options de recherche, ce qui vous permet de repartir à zéro pour une nouvelle recherche. 
-

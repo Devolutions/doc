@@ -22,7 +22,7 @@ Suivez les étapes ci-dessous pour créer un nouveau {{ fr.VLT }}.
 Pour des raisons de sécurité et de performance, nous recommandons de créer un coffre différent pour chaque client et/ou département, dépendamment de votre utilisation de {{ fr.RDM }}.
 {% endsnippet %}
  
-1. Dans le ***Ruban***, accéder à ***Administration*** – ***Gestion*** – ***{{ fr.VLT }}s***.  
+1. Dans le ***Ruban***, accéder à ***Administration – Gestion – {{ fr.VLT }}s***.  
 ![Administration – Gestion – Coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4087.png) 
 
 {% snippet icon.badgeHelp %} 
@@ -38,12 +38,12 @@ Pour utiliser un modèle de {{ fr.VLT }} existant, vous pouvez le sélectionner 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %}
-L'option ***Autoriser le mode hors-ligne*** est activée par défaut. Si vous la désactivez, le nouveau coffre ne pourra pas être utilisé en [mode hors-ligne](/fr/rdm/windows/data-sources/offline-mode/). Ce paramètre peut être modifié après la création du coffre en allant dans ***Administration*** – ***Gestion*** – ***{{ fr.VLT }}s***, puis en sélectionnant le coffre à modifier et en cliquant sur ***Modifier les paramètres du coffre***. 
+L'option ***Autoriser le mode hors-ligne*** est activée par défaut. Si vous la désactivez, le nouveau coffre ne pourra pas être utilisé en [mode hors-ligne](/fr/rdm/windows/data-sources/offline-mode/). Ce paramètre peut être modifié après la création du coffre en allant dans ***Administration – Gestion – {{ fr.VLT }}s***, puis en sélectionnant le coffre à modifier et en cliquant sur ***Modifier les paramètres du coffre***. 
 {% endsnippet %}
 
 ![Gestion du coffre – Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4089.png) 
 
-4. Facultatif : Des options d'***Utilisateurs et groupes d'utilisateurs*** ainsi que de ***Sécurité*** sont disponibles dans les autres onglets du menu de gauche. Ils sont à configurer selon vos besoins maintenant ou plus tard en allant dans ***Administration*** – ***Gestion*** – ***{{ fr.VLT }}s***, puis en sélectionnant le coffre à modifier et en cliquant sur ***Modifier les paramètres du coffre***.  
+4. Facultatif : Des options d'***Utilisateurs et groupes d'utilisateurs*** ainsi que de ***Sécurité*** sont disponibles dans les autres onglets du menu de gauche. Ils sont à configurer selon vos besoins maintenant ou plus tard en allant dans ***Administration – Gestion – {{ fr.VLT }}s***, puis en sélectionnant le coffre à modifier et en cliquant sur ***Modifier les paramètres du coffre***.  
     1. ***Utilisateurs et groupes d'utilisateurs*** : Sélectionner quels utilisateurs et groupes d'utilisateurs auront accès à ce coffre en les cochant/décochant. 
 {% snippet icon.shieldInfo %} 
 Pour des raisons de sécurité, les administrateurs ont toujours accès aux coffres. 
@@ -61,15 +61,15 @@ Pour des raisons de sécurité, les administrateurs ont toujours accès aux coff
 ### Naviguer entre les Coffres
 
 Dans le ***{{ fr.NPANE }}***, vous pouvez utiliser le sélecteur de coffres pour vous déplacer entre les coffres.  
-![Sélecteur de coffre dans le Volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4090.png) 
+![Sélecteur de coffre dans le {{ fr.NPANE }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4090.png) 
 
-Vous pouvez modifier l'emplacement du sélecteur de coffres dans ***Fichier*** – ***Options*** – ***Interface utilisateur*** – ***{{ fr.VLT }}s*** – ***Emplacement du coffre***. Par défaut, le sélecteur se trouve au bas du ***{{ fr.NPANE }}***.  
+Vous pouvez modifier l'emplacement du sélecteur de coffres dans ***Fichier – Options – Interface utilisateur – {{ fr.VLT }}s – Emplacement du coffre***. Par défaut, le sélecteur se trouve au bas du ***{{ fr.NPANE }}***.  
 ![Fichier – Options – Interface utilisateur – Coffres – Emplacement du coffre](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2077.png) 
 
 ### Déplacer des entrées vers différents Coffres
 
 1. Dans le ***{{ fr.NPANE }}***, aller dans le coffre duquel vous souhaitez transférer des entrées. 
-1. Dans le ***Ruban***, aller dans ***Modifier*** – ***Lot*** – ***Déplacer vers le coffre***.  
+1. Dans le ***Ruban***, aller dans ***Modifier – Lot – Déplacer vers le coffre***.  
 ![Modifier – Lot – Déplacer vers le coffre](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4091.png) 
 1. Sélectionner le coffre vers lequel vous souhaitez déplacer les entrées, puis cliquer sur ***Suivant***.  
 ![Sélection du coffre de destination](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4092.png) 
@@ -85,7 +85,7 @@ Les {{ fr.VLT }}s simplifient la gestion des utilisateurs puisque les groupes Az
 
 Suivez les étapes ci-dessous pour affecter des ***Utilisateurs*** et des ***Rôles*** à des coffres.  
 
-1. Dans le ***Ruban***, aller dans ***Administration*** – ***Gestion*** – ***{{ fr.VLT }}s***.  
+1. Dans le ***Ruban***, aller dans ***Administration – Gestion – {{ fr.VLT }}s***.  
 ![Administration – Gestion – Coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4087.png) 
 {% snippet icon.badgeInfo %} 
 Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.HUBB }}, la gestion des coffres est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez nos rubriques de [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.HUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) traitant des coffres. 
@@ -115,12 +115,12 @@ Si vous avez accès à plusieurs coffres, vous pouvez créer des raccourcis de c
 
 * Centraliser tous les raccourcis de coffres à l'intérieur d'un même coffre principal (par défaut). 
 * Dans chaque coffre, ajouter une entrée de ***Coffre (Raccourci)*** qui renvoie l'utilisateur au coffre principal. 
-* Retirez la liste déroulante des sources de données lorsque vous utilisez les raccourcis de coffres. Pour ce faire, accédez à ***Fichier*** – ***Options*** – ***Interface utilisateur*** – ***Sources de données*** et sélectionner ***Non visible*** dans la liste déroulante ***Emplacement de source de données***. Ensuite, le sélecteur de coffre peut être [déplacé au-dessus du {{ fr.NPANE }}](#déplacer-des-entrées-vers-différents-coffres) pour un meilleur accès. 
+* Retirez la liste déroulante des sources de données lorsque vous utilisez les raccourcis de coffres. Pour ce faire, accédez à ***Fichier – Options – Interface utilisateur – Sources de données*** et sélectionner ***Non visible*** dans la liste déroulante ***Emplacement de source de données***. Ensuite, le sélecteur de coffre peut être [déplacé au-dessus du {{ fr.NPANE }}](#déplacer-des-entrées-vers-différents-coffres) pour un meilleur accès. 
 
 Suivez les étapes ci-dessous pour créer une entrée ***Coffre (Raccourci)***. 
 
 1. Dans le ***{{ fr.NPANE }}***, aller sur la source de données et le coffre dans lesquels le raccourci sera créé. 
-1. Dans le ***Ruban***, aller dans ***Modifier*** – ***Ajouter*** – ***Nouvelle entrée***.  
+1. Dans le ***Ruban***, aller dans ***Modifier – Ajouter – Nouvelle entrée***.  
 ![Edit – Add – New Entry](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2073.png) 
 1. Dans l'onglet ***Divers***, sélectionner l'entrée de session ***Coffre (Raccourci)***, puis cliquer sur ***OK***.  
 ![Divers – Coffre (Raccourci)](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4098.png) 

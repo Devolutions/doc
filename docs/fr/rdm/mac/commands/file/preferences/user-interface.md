@@ -90,8 +90,8 @@ Emplacement d'onglet de navigation
 		<td>
 Spécifier l'emplacement par défaut de l'onglet navigation entre:  
 
-* Volet de navigation (en haut) 
-* Volet de navigation (en bas) 
+* ***{{ fr.NPANE }}*** (en haut) 
+* ***{{ fr.NPANE }}*** (en bas) 
 		</td>
 	</tr>
 	<tr>
@@ -101,8 +101,8 @@ Emplacement de source de données
 		<td>
 Spécifier l'emplacement de la source de données sur votre écran entre:  
 
-* Volet de navigation (en haut) 
-* Volet de navigation (en bas) 
+* ***{{ fr.NPANE }}*** (en haut) 
+* ***{{ fr.NPANE }}*** (en bas) 
 * Par défaut 
 		</td>
 	</tr>

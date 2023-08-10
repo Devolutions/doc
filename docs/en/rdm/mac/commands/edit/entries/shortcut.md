@@ -1,7 +1,7 @@
 ---
 title: Shortcut Entries
 ---
-There are many scenarios where it makes sense for an entry to appear more than once in the Navigation Pane. For example, you might want to:  
+There are many scenarios where it makes sense for an entry to appear more than once in the ***{{ en.NPANE }}***. For example, you might want to:  
 
 * Assign different access to the folder; 
 * Create a favorite folder with everything centralized; 

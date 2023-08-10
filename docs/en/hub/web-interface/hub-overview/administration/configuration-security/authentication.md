@@ -9,10 +9,10 @@ In the ***General*** section, you can enable login settings for your users.
 ![Administration – Authentication – General](https://webdevolutions.azureedge.net/docs/en/hub/Hub2194.png)  
 
 * ***Force prompt login*** enforces a login prompt for all users. If users have set up their 2-step verification in their {{ en.DA }} , this will only prompt 2-step verification. 
-* ***Enforce 2-step verification on*** ***{{ en.DA }}*** enforces all users to set a multi-factor verification on their {{ en.DA }} . 
+* ***Enforce 2-step verification on {{ en.DA }}*** enforces all users to set a multi-factor verification on their {{ en.DA }} . 
 
 {% snippet icon.badgeCaution %} 
-The ***Enforce 2-step verification on*** ***{{ en.DA }}*** setting does not apply to users that log in with Single Sign-on (SSO). 
+The ***Enforce 2-step verification on {{ en.DA }}*** setting does not apply to users that log in with Single Sign-on (SSO). 
 {% endsnippet %}
  
 It is also possible to set the ***Inactivity Logout Time*** to different values ranging from 5 minutes to 4 hours or to leave it ***Off*** .  

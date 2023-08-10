@@ -16,11 +16,11 @@ The blue star indicates a shared favorite and the yellow star a local favorite.
 
 ## Adding a session to the Favorites 
 
-Select your entry in your Navigation Pane and then click on Favorites to add the entry to your Shared or Local list. You could also select your entry, do a right click and then select  
+Select your entry in your ***{{ en.NPANE }}*** and then click on Favorites to add the entry to your Shared or Local list. You could also select your entry, do a right click and then select  
 ![Add to favorite](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10328.png) 
 
 ## View Favorites 
 
-To view a list of all your favorite entries, click on the star at the bottom of your Navigation Pane.  
+To view a list of all your favorite entries, click on the star at the bottom of your ***{{ en.NPANE }}***.  
 ![View Favorite List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10329.png) 
 

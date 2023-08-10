@@ -1,5 +1,6 @@
 ---
-title: Missing Navigation Pane
+eleventyComputed:
+  title: Missing {{ en.NPANE }}
 ---
 Several panes are missing in {{ en.RDM }} and you seem unable to bring them back.
 ### Solution for {{ en.RDM }} Team Edition

@@ -9,7 +9,7 @@ Ceci est utile lorsque le nombre d'entrées gérées devient trop important ou l
 
 Favoriser une entrée de deux manières :  
 
-* en cliquant avec le bouton droit de la souris sur une entrée du ***Volet de navigation*** , puis en sélectionnant ***Ajouter aux favoris*** ; 
+* en cliquant avec le bouton droit de la souris sur une entrée du ***{{ fr.NPANE }}***, puis en sélectionnant ***Ajouter aux favoris***; 
 * en cliquant sur l'icône étoile ***Ajouter aux favoris*** dans le menu des boutons d'action de l'entrée. 
 
 ### Organiser les favoris 

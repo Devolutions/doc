@@ -82,5 +82,5 @@ C:\windows\system32\WindowsPowerShell\v1.0\Modules
 Get-RDMInstance  
 PS C:\RemoteDesktopManager\2023.1\Devolutions.RemoteDesktopManager.Bin.2023.1.11.0> Get-RDMInstance  
 ApplicationVersion OptionFilename  
-2023.1.0.14          C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  
+2023.1.0.14 C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  
 ```

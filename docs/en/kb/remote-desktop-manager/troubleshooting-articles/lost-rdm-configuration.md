@@ -13,4 +13,4 @@ For more information on how to [Create a Data Source](/rdm/windows/data-sources/
 ![!!KB4923.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4923.png)
 1. Finish the configuration.  
 
-You should now see your entries in the navigation pane.
+You should now see your entries in the ***{{ en.NPANE }}***.

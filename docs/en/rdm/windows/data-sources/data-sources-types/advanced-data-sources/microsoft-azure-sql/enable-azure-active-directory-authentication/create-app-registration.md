@@ -29,7 +29,7 @@ In our example the ***Redirect URI*** is set to https<area>://mycompany.com, but
  
 ![!!RdmWin4053.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4053.png) 
 
-6.   Select ***APIs my organization uses***, then type Azure and select ***Azure SQL Database***.  
+6. Select ***APIs my organization uses***, then type Azure and select ***Azure SQL Database***.  
 ![APIs my organization uses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5017.png) 
 1. Select Delegated permissions – user_impersonation and click ***Add permissions***.  
 ![user_impersonation](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5018.png) 

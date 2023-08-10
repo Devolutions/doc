@@ -20,7 +20,7 @@ Envoyer et réceptionner des ***Messages sécurisés*** avec des utilisateurs de
 
 Vous pouvez envoyer une copie de l 'une de vos entrées à d 'autres utilisateurs avec des messages sécurisés.  
 
-1. Sélectionner l 'entrée dans votre volet de navigation. 
+1. Sélectionner l 'entrée dans votre ***{{ fr.NPANE }}***. 
 1. Cliquer sur le bouton ***Plus*** .  
 ![!!Hub4115.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4115.png) 
 1. Cliquer ***Envoyer*** .  

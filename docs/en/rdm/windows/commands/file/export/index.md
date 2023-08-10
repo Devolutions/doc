@@ -1,10 +1,10 @@
 ---
 title: Export
 ---
-Use File – Export to export vaults from {{ en.RDM }} . 
+Use File – Export to export vaults from {{ en.RDM }}. 
 
 {% snippet icon.badgeInfo %} 
-The export feature is only active if the ***Import*** and ***Export***   ***Privileges*** has been enabled inside the ***User Management*** account. 
+The export feature is only active if the ***Import*** and ***Export Privileges*** has been enabled inside the ***User Management*** account. 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 

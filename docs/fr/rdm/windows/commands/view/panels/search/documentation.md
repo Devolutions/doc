@@ -32,7 +32,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-1. {{ fr.NPANE }} 
+1. <i><b>{{ fr.NPANE }}</b></i> 
 		</td>
 		<td>
 Répertorie les résultats de la recherche par entrée. 
@@ -56,11 +56,10 @@ Liste les différents titres de pages. Lorsqu'une entrée contient plusieurs pag
 	</tr>
 </table>
 
-Il est possible de sélectionner plusieurs entrées à la fois avec Maj+Clic ou toutes les entrées avec le raccourci Ctrl+A . Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}*** .
+Il est possible de sélectionner plusieurs entrées à la fois avec Maj+Clic ou toutes les entrées avec le raccourci Ctrl+A . Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***.
 
 ### Autres fonctionnalités 
 
-Le bouton ***Sélectionner dans le volet de navigation*** , lorsqu'il est utilisé, vous renvoie directement à l'entrée ou au dossier sélectionné dans le ***{{ fr.NPANE }}*** du coffre sélectionné.  
+Le bouton ***Sélectionner dans le {{ fr.NPANE }}***, lorsqu'il est utilisé, vous renvoie directement à l'entrée ou au dossier sélectionné dans le ***{{ fr.NPANE }}*** du coffre sélectionné.  
 
 Le bouton ***Réinitialiser*** efface les résultats et options de recherche, ce qui vous permet de repartir à zéro pour une nouvelle recherche. 
-

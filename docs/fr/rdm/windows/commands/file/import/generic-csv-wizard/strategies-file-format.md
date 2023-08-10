@@ -23,7 +23,7 @@ Dans ***Fichier – Importer*** , nous vous recommandons d'utiliser d'abord l'op
 Certaines validations sur les paramètres d'entrée ne se trouvent pas dans la couche de gestion, mais plutôt dans les boîtes de dialogue de propriétés. Cela signifie que l'utilisation du processus d'importation peut entraîner des entrées non valides qui déclencheront des erreurs. Veuillez valider soigneusement les entrées résultantes. 
 {% endsnippet %}
  
-Dans le fichier CSV, les champs ***Host***   et   ***Name*** sont obligatoires. Si aucun modèle n'est spécifié, le type RDP sera utilisé comme type de secours.  
+Dans le fichier CSV, les champs ***Host*** et ***Name*** sont obligatoires. Si aucun modèle n'est spécifié, le type RDP sera utilisé comme type de secours.  
 
 Nous ne pouvons pas fournir la liste de tous les champs pris en charge pour tous les types d'entrées, car {{ fr.RDM }} utilise une architecture ouverte et n'est donc pas au courant de tous les champs des types d'entrées fournis par notre gestionnaire de modules. Une bonne méthode pour découvrir la structure du champ consiste à créer une entrée du type souhaité, faire un clic droit sur l'entrée et sélectionner ***Presse-papiers – Copier*** , puis coller le contenu dans votre éditeur préféré. Vous verrez la structure et les noms des champs. 
 

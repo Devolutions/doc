@@ -12,7 +12,7 @@ La section ***Général*** permet à l'administrateur de modifier le nom ou la d
 <table>
 	<tr>
 		<th>
-        
+
 Option 
 		</th>
 		<th>

@@ -1,7 +1,7 @@
 ---
 title: Recherche / Filtre
 ---
-Il est possible d'appliquer un filtre dans le volet de navigation en tapant certains caractères dans la zone de filtre. Le filtre est appliqué en utilisant les paramètres spécifiés dans l'application ***Fichier - Options - Interface utilisateur - Filtre*** . 
+Il est possible d'appliquer un filtre dans le ***{{ fr.NPANE }}*** en tapant certains caractères dans la zone de filtre. Le filtre est appliqué en utilisant les paramètres spécifiés dans l'application ***Fichier - Options - Interface utilisateur - Filtre***. 
 
 ### Bouton à points de suspension 
 
@@ -29,9 +29,9 @@ Les options de recherche offrent la possibilité de personnaliser votre recherch
 
 ### Raccourci clavier 
 
-Utilisez le raccourci clavier ***CTRL + F*** pour accéder rapidement à Recherche / Filtre. Cela peut être désactivé dans ***Fichier - Options - Interface utilisateur - Clavier*** .  
+Utilisez le raccourci clavier ***CTRL + F*** pour accéder rapidement à Recherche / Filtre. Cela peut être désactivé dans ***Fichier - Options - Interface utilisateur - Clavier***.  
 
-Vous pouvez redéfinir le focus sur le volet de navigation en utilisant le raccourci clavier ***Ctrl + L*** , cela peut également être désactivé dans les options. 
+Vous pouvez redéfinir le focus sur le ***{{ fr.NPANE }}*** en utilisant le raccourci clavier ***Ctrl + L***, cela peut également être désactivé dans les options. 
 
 ## Filtre booléen 
 

@@ -7,7 +7,7 @@ Security groups are used to protect sessions from a subset of system users. Assi
 
 Security groups are used to classify sessions and restrict access to certain users. There is no direct relationship between Active Directory and Security Groups. By default, every session is created without an assigned security group, and therefore is visible to all connected users.  
 
-Each entry in the navigation pane can be assigned to a single security group. Best practices dictates that you assign security groups to groups/folders that way all the entries they contain will inherit the same security group.  
+Each entry in the ***{{ en.NPANE }}*** can be assigned to a single security group. Best practices dictates that you assign security groups to groups/folders that way all the entries they contain will inherit the same security group.  
 
 Security groups are used to protect sessions from a subset of system users. Assign sessions to security groups then control who has access and how much control they have on each security group.  
 ![Administration – Security Groups](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10392.png) 

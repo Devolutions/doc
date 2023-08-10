@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} Caching
+  title: Remote Desktop Manager {{ en.MAC }} caching
 ---
-You are not seeing the content that you're expecting to see in the Navigation Pane
+You are not seeing the content that you're expecting to see in the ***{{ en.NPANE }}***.
 
 ## Solutions
 

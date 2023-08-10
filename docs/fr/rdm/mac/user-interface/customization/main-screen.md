@@ -7,7 +7,6 @@ Vous trouverez ci-dessous une illustration de l'écran principal de {{ fr.RDM }}
 Reportez-vous aux rubriques suivantes pour plus de détails:  
 
 * [Accès rapide](/fr/rdm/mac/user-interface/quick-access/) 
-* [Volet de navigation](/fr/rdm/mac/user-interface/navigation-pane/) 
+* [***{{ fr.NPANE }}***](/fr/rdm/mac/user-interface/navigation-pane/) 
 * [Zone de contenu](/fr/rdm/mac/user-interface/content-area/) 
 * [Bas de page](/fr/rdm/mac/user-interface/footer/) 
-

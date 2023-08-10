@@ -33,12 +33,12 @@ Your password settings are now configured.
 ![Copy to Clipboard](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2090.png) 
 1. Paste your password in the website's corresponding field.  
 ![Paste Password](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2091.png) 
-1. Follow the rest of the website's registration steps until the {{ en.DWL }}   ***Add Website*** window pops up in the corner of your web browser.  
+1. Follow the rest of the website's registration steps until the {{ en.DWL }} ***Add Website*** window pops up in the corner of your web browser.  
 ![!!RDMWin2092.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2092.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
-1. Select if you want to save your entry in your ***User vault*** or in a ***Vault*** . Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDM }} . 
-1. Click ***Save*** . 
+1. Select if you want to save your entry in your ***User vault*** or in a ***Vault***. Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDM }}. 
+1. Click ***Save***. 
 
-Your credentials are now securely stored in a new website entry in {{ en.RDM }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/) . 
+Your credentials are now securely stored in a new website entry in {{ en.RDM }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/). 
 

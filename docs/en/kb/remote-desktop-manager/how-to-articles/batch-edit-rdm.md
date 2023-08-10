@@ -43,7 +43,7 @@ To filter your search by folder type, you must use the ***Advanced Search*** fea
 {% endsnippet %}  
  
 3. Select the entries/folders you want to edit. To select all of them, click anywhere in the results field and use the Ctrl+A keyboard shortcut. 
-1. When your selection is complete, click the ***Select in*** ***{{ en.NPANE }}*** button in the bottom right corner of the window.  
+1. When your selection is complete, click the ***Select in {{ en.NPANE }}*** button in the bottom right corner of the window.  
 
 Proceed to the [Batch Edit Actions](#edit) section for the next steps or continue to read about the other selection methods.
 

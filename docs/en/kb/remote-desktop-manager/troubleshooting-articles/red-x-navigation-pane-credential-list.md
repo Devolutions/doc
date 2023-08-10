@@ -1,9 +1,10 @@
 ---
-title: Red X in Navigation Pane or Credential List
+eleventyComputed:
+  title: Red X in the {{ en.NPANE }} or credential List
 ---
 {% youtube '6MVSl2zqD-o' %}  
 
-There is a huge Red "X" in the Navigation Pane or in the Credential List
+There is a red "X" in the ***{{ en.NPANE }}*** or in the credential list.
 ## Solution
 There are a few things you can try to get rid of the red X.  
 

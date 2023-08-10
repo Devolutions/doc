@@ -4,7 +4,7 @@ title: Modifier (Actions spéciales)
 Utiliser les options ***Modifier - Modifier (Actions spéciales)*** pour modifier les paramètres de plusieurs entrées en une seule opération. Il peut être utilisé pour une commande d'action par lots sur un groupe d'entrée.  
 
 {% snippet icon.badgeInfo %} 
-Les modifications par lots sont appliquées qu'aux entrées actuellement sélectionnées dans votre volet de navigation. 
+Les modifications par lots sont appliquées qu'aux entrées actuellement sélectionnées dans votre ***{{ fr.NPANE }}***. 
 {% endsnippet %}
  
 ![Modifier - Modifier (Actions spéciales)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4074.png) 

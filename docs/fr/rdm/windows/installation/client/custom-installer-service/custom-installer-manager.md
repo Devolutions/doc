@@ -15,7 +15,7 @@ Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration 
  
 ## Créer un paquet d'installation 
 
-1. Dans {{ fr.RDM }} , cliquer sur ***Fichier –*** ***{{ fr.DA }}*** ***– Connectez-vous***   pour vous connecter à votre {{ fr.DA }}.  
+1. Dans {{ fr.RDM }} , cliquer sur ***Fichier – {{ fr.DA }} – Connectez-vous*** pour vous connecter à votre {{ fr.DA }}.  
 ![Connextion au {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4015.png) 
 1. Sous ***Outils***, cliquer sur ***{{ fr.CIM }}*** pour créer un nouvel {{ fr.CI }} avec des paramètres spécifiques.  
 ![Fichier – {{ fr.DA }} – {{ fr.CIM }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11247.png) 

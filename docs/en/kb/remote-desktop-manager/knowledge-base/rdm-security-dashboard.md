@@ -372,7 +372,7 @@ It is preferable to provide rights to users as needed. When enabling this option
 Mitigation
 		</td>
 		<td>
-In Administration -   System Settings - Security , check Create vaults with restricted access by default
+In Administration - System Settings - Security , check Create vaults with restricted access by default
 		</td>
 	</tr>
 </table>

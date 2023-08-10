@@ -133,7 +133,7 @@ Open a window to access your messages.
 [Navigation](/rdm/mac/user-interface/navigation-pane/) 
 		</td>
 		<td>
-Toggle the {{ en.NPANE }} . 
+Toggle the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>

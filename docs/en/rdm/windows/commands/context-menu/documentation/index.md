@@ -20,7 +20,7 @@ The feature for using ***Documentation*** in offline mode is available for docum
 {% endsnippet %}
 
 ## Create a new page  
- 1. Choose the entry in the ***Navigation Pane***.  
+ 1. Choose the entry in the ***{{ en.NPANE }}***.  
  1. Go to the ***Documentation*** tab and click ***New page***.  
 ![Documentation tab – New page](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6029.png)  
  1. Enter a name and select a ***Documentation type***.  
@@ -37,7 +37,7 @@ You can select ***Set as new default*** to save your preferences when you create
 
  5. Click ***OK*** to close the window.
 ##  Synchronize offline documentation  
- 1. Choose the entry in the ***Navigation Pane***.  
+ 1. Choose the entry in the ***{{ en.NPANE }}***.  
  1. Go to ***Administration – Vault Settings*** in the ribbon. 
 ![Vault Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6000.png)  
  1. In ***Security Settings – Offline – Synchronize documentation to offline***, select ***Yes***.  
@@ -47,7 +47,7 @@ You can select ***Set as new default*** to save your preferences when you create
 The offline ***Documentation*** tab is now available in the ***Dashboard***.  
 ![Documentation tab](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6003.png)  
 ##  Synchronize offline document  
- 1. Choose the entry in the ***Navigation Pane***.   
+ 1. Choose the entry in the ***{{ en.NPANE }}***.  
  1. Go to ***Administration – Vault Settings***.  
  ![Vault Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6000.png)  
  1. In ***Security Settings – Offline – Synchronize document to offline***, select ***Yes***.  

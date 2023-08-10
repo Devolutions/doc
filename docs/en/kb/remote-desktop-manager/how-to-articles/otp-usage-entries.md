@@ -33,7 +33,7 @@ Choose the ***Custom*** option to save the OTP credentials in the entry itself.
 The ***Inherited*** option will climb up the navigation tree until it has access to a set of OTP credentials in a parent folder in the ***Connection - One Time Password*** section.  
 
 {% snippet icon.badgeInfo %}
-***For the*** ***Source*** inheritance to work, the ***Connection - One Time Password - Source*** needs to be set to ***Inherited*** for every parent folder until it reaches the desired configuration.
+***For the Source*** inheritance to work, the ***Connection - One Time Password - Source*** needs to be set to ***Inherited*** for every parent folder until it reaches the desired configuration.
 {% endsnippet %}  
 
 ![!!KB5009.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5009.png)

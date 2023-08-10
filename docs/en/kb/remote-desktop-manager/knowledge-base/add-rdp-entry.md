@@ -19,6 +19,6 @@ Here are the basics to get you started.
 
 6. Enter the ***Host*** address.
 ### Open a RDP session
-Click ***Open Session*** on the ***Home*** ***tab or*** ***Dashboard***  
+Click ***Open Session*** on the ***Home*** tab or in the ***Dashboard***.  
 
 You can open more than one session at once. With embedded sessions you can switch between the tabs or monitor connections simultaneously: use thumbnail view or [rearrange open sessions with split screen](/rdm/windows/user-interface/content-area/embedded-sessions/)

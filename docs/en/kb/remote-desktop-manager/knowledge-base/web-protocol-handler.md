@@ -139,7 +139,7 @@ Give the focus to a tab in the dashboard after the application has completed the
 * ***Edit*** : edit the specified connection.
 * ***View*** : view the password of the specified entry.
 * ***OpenWithMacro*** : open the specified with a macro.
-* ***Select*** : select a connection in the navigation pane (allows to select a tab in the dashboard as well).  
+* ***Select*** : select a connection in the ***{{ en.NPANE }}*** (allows to select a tab in the dashboard as well).  
 
 ## Syntax
 

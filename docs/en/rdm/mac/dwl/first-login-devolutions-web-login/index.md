@@ -19,7 +19,7 @@ This name can be used to identify a particular association and to deny access to
  
 ![Association with {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl4057.png) 
 
-4. Click on ***Associate with*** ***{{ en.RDM }}***. 
+4. Click on ***Associate with {{ en.RDM }}***. 
 {% snippet icon.badgeInfo %} 
 A pop-up window will appear in {{ en.RDM }} to confirm that the request was really sent by you. 
 {% endsnippet %}

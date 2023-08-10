@@ -30,28 +30,28 @@ Items will all open using the embedded mode.
 	</tr>
 	<tr>
 		<td>
-Select in Navigation Pane 
+Select in <i><b>{{ en.NPANE }}</b></i> 
 		</td>
 		<td>
-Items will be selected in the Navigation Pane, this allow you to choose another command to run on the section as a second step. 
+Items will be selected in the <i><b>{{ en.NPANE }}</b></i>, this allow you to choose another command to run on the section as a second step. 
 		</td>
 	</tr>
 </table>
 
 ### Open items in default mode 
 
-In View - Play List and   select the Play List to open and click on Open  
+In View - Play List and select the Play List to open and click on Open  
 ![Open Default Mode](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10115.png) 
 
 ### Open items in Embedded mode 
 
-In View - Play List   select the Play List to open and click on Open Embedded .  
+In View - Play List select the Play List to open and click on Open Embedded .  
 ![Open Embedded Mode](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10116.png) 
 
-### Open items with Select in Navigation Pane 
+### Open items with Select in ***{{ en.NPANE }}*** 
 
-In View - Play List select the Play List to open and click on Select in   Navigation Pane . Then select the desired entries in your Navigation Pane using Command + click.  
-![Select in Navigation Pane](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10117.png) 
+In View - Play List select the Play List to open and click on Select in ***{{ en.NPANE }}***. Then select the desired entries in your ***{{ en.NPANE }}*** using Command + click.  
+![Select in ***{{ en.NPANE }}***](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10117.png) 
 
 ## Menu 
 

@@ -36,7 +36,7 @@ Ceci est pour l'image dans la barre d'outils avec une largeur maximale de 145 px
 
 Voici un exemple de cette fonctionnalité avec des images chargées dans les paramètres d'administration.  
 ![!!ServerOp4028.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4028.png) 
-Le résultat de la page de connexion {{ fr.DVLS }}   :  
+Le résultat de la page de connexion {{ fr.DVLS }} :  
 ![!!ServerOp4026.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4026.png) 
 Et pour le logo de la barre d'outils :  
 ![!!ServerOp4027.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4027.png) 

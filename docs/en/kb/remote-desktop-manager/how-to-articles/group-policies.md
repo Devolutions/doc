@@ -934,7 +934,7 @@ Hide the Task panel located in the Dashboard
 	</tr>
 	<tr>
 		<td>
-Select the default tab for the {{ en.NPANE }} on launch
+Select the default tab for the ***{{ en.NPANE }}*** on launch
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DefaultNavigationPaneTab

@@ -12,7 +12,7 @@ For added security, you can enable SSL Encryption to communicate with your insta
 {% endsnippet %}
  
 
-2. Click on the setting button in the Navigation Pane or go in File - Data Sources .  
+2. Click on the setting button in the ***{{ en.NPANE }}*** or go in ***File - Data Sources*** .  
 ![Setting button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10487.png) 
 1. Click on the plus to Add a New Data Source.  
 ![Data Source – Add a new data source](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10488.png) 

@@ -107,7 +107,7 @@ DESCRIPTION
 Paramètres du coffre 
 		</td>
 		<td>
-Le dossier du coffre est celui situé en haut du volet de navigation (dans l'arborescence). C'est celui dont proviennent toutes les entrées et les dossiers. Par défaut, les dossiers de niveau inférieur héritent des paramètres et de la sécurité du dossier parent jusqu'à atteindre la racine du coffre. Par conséquent, l'utilisation des autorisations sur le dossier racine permet de sécuriser toutes les entrées en dessous du niveau racine. Reportez-vous à [Permissions par défaut du coffre](/fr/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/) pour plus d'informations. 
+Le dossier du coffre est celui situé en haut du ***{{ fr.NPANE }}*** (dans l'arborescence). C'est celui dont proviennent toutes les entrées et les dossiers. Par défaut, les dossiers de niveau inférieur héritent des paramètres et de la sécurité du dossier parent jusqu'à atteindre la racine du coffre. Par conséquent, l'utilisation des autorisations sur le dossier racine permet de sécuriser toutes les entrées en dessous du niveau racine. Reportez-vous à [Permissions par défaut du coffre](/fr/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

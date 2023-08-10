@@ -116,7 +116,7 @@ Microsoft Azure SQL
 		</td>
 		<td>
 {{ fr.RDM }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions. 
-Pour plus d'informations, veuillez consulter notre rubrique   [Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) . 
+Pour plus d'informations, veuillez consulter notre rubrique [Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) . 
 
 		</td>
 		<td>

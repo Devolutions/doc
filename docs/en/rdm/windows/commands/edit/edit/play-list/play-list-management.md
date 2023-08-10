@@ -36,10 +36,10 @@ Overrides the display selection of entries inside the Play Lists and launches th
 	</tr>
 	<tr>
 		<td>
-Select in {{ en.NPANE }} 
+Select in ***{{ en.NPANE }}*** 
 		</td>
 		<td>
-Selects all entries the Play List contains in the {{ en.NPANE }} . 
+Selects all entries the Play List contains in the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>

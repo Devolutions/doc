@@ -33,7 +33,7 @@ Your password settings are now configured.
 ![Copy to Clipboard](https://webdevolutions.azureedge.net/docs/en/hub/Hub2066.png)  
 1. Paste your password in the website’s corresponding field.  
 ![Paste Password](https://webdevolutions.azureedge.net/docs/en/hub/Hub2053.png)  
-1. Follow the rest of the website’s registration steps until the {{ en.DWL }}    ***Add Website*** window pops up in the corner of your web browser.  
+1. Follow the rest of the website’s registration steps until the {{ en.DWL }} ***Add Website*** window pops up in the corner of your web browser.  
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/hub/Hub2183.png)  
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. The ***Username*** and the ***Password*** fields are automatically filled in with the information you previously entered. Verify that they are correct. 

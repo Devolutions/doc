@@ -26,5 +26,5 @@ Configurer votre chemin d'installation pour toutes les applications externes que
 
 ## Terminal Services / Services Bureau à distance 
 
-Veuillez consulter la rubrique   [Terminal Services / Services Bureau à distance](/fr/rdm/windows/installation/client/terminal-services/) . 
+Veuillez consulter la rubrique [Terminal Services / Services Bureau à distance](/fr/rdm/windows/installation/client/terminal-services/) . 
 

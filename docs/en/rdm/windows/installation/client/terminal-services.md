@@ -28,7 +28,7 @@ Redistributing a data source registration should follow one of the patterns belo
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
-Do not check the options to include   {{ en.DA }} Credentials as well as any data source that contains saved credentials while also enabling Include data source credentials. 
+Do not check the options to include {{ en.DA }} Credentials as well as any data source that contains saved credentials while also enabling Include data source credentials. 
 {% endsnippet %}
  
 

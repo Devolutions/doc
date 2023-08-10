@@ -2,7 +2,7 @@
 title: Configurer Azure SQL
 ---
 1. Assurez-vous que vous disposez d'un abonnement Azure SQL valide pour pouvoir créer votre base de données. 
-1. Cliquer sur le bouton de réglage dans le volet de navigation ou aller dans ***Fichier - Sources de données*** .  
+1. Cliquer sur le bouton de réglage dans le ***{{ fr.NPANE }}*** ou aller dans ***Fichier - Sources de données*** .  
 ![Bouton sources de données](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4241.png) 
 1. Cliquer sur le signe plus pour créer une nouvelle source de données.  
 ![Nouvelle source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4243.png) 

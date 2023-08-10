@@ -9,9 +9,9 @@ The ribbon has been hidden and I don't know how to make it visible.
 ### Solution 1
 Use Alt + F11 or use the system menu of the application, check the ***Top Pane*** command.
 ### Problem 2
-The tree view has disappeared from the ***Navigation Pane***
+The tree view has disappeared from the ***{{ en.NPANE }}***.
 ### Solution 2
-The ***Navigation Pane*** can be displayed in many modes:  
+The ***{{ en.NPANE }}*** can be displayed in many modes:  
 
 Select the tree view with ***View – Vault – Tree View*** or use the default shortcut F7.  
 ![!!KB4094.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4094.png)
@@ -30,7 +30,7 @@ The quick access toolbar needs to be reset.
 ### Solution 4
 To reset the quick access toolbar, close the application and delete the file remotedesktopmanager.qtb in %LocalAppData%\Devolutions\RemoteDesktopManager
 ### Problem 5
-The navigation pane displays only my favorites.
+The ***{{ en.NPANE }}*** displays only my favorites.
 ### Solution 5
 Only your favorites are displayed, the root node is also entitled ***Favorites***  
 ![!!KB4097.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4097.png)  

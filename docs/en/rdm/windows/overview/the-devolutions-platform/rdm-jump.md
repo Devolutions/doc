@@ -86,17 +86,17 @@ There is no need to create a data source on the ***Jump Host*** . {{ en.RDM }} w
 {% endsnippet %}
  
 
-    a. Go to ***Tools - More Tools*** .  
-    b. Select {{ en.RDMA }} .  
-    c. Click ***OK*** .  
-    d. Click ***Yes*** .  
+    a. Go to ***Tools - More Tools***.  
+    b. Select {{ en.RDMA }}.  
+    c. Click ***OK***.  
+    d. Click ***Yes***.  
     ![!!RdmWin4058.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4058.png) 
 
 8. Right-click the {{ en.RDMA }} icon in the taskbar. 
     1. Check ***Auto Start*** . 
 1. Adjust the user interface of the ***Jump Host*** to maximize the area to display remote sessions. 
 * Make the application full screen. 
-* Hide the ***Navigation Pane*** in the ***View*** tab. 
+* Hide the ***{{ en.NPANE }}*** in the ***View*** tab. 
 * Hide the ***Ribbon*** in the ***View*** tab. 
     * To show the ***Ribbon*** again, click the {{ en.RDM }} icon at the top left corner. 
 {% snippet icon.badgeNotice %} 
@@ -135,7 +135,7 @@ All should be working correctly. If any of the steps fails, it is where you need
 
 ### Pro Tips 
 
-* To gain more space for the dashboard, in the ***View*** tab, hide the ***Ribbon*** and ***Navigation Pane*** since the menus are not needed. 
+* To gain more space for the dashboard, in the ***View*** tab, hide the ***Ribbon*** and ***{{ en.NPANE }}*** since the menus are not needed. 
 * Use the same {{ en.RDM }} license on the local and the remote instances. The Jump Host acts as a relay between the local and the remote systems, allowing to use the {{ en.RDM }} license that has been used on the local workstation to register the application on the Jump Host. 
-* There is no need to create a data source on the Jump Host. {{ en.RDM }} will open for the first time with a default ***SQLite***   ***Local Data Source*** . This is sufficient because the application on the Jump Host only acts as an intermediate between the local and the remote hosts. 
+* There is no need to create a data source on the Jump Host. {{ en.RDM }} will open for the first time with a default ***SQLite Local Data Source***. This is sufficient because the application on the Jump Host only acts as an intermediate between the local and the remote hosts. 
 

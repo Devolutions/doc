@@ -20,11 +20,11 @@ The application key is displayed in clear text. It must be kept secret by the us
 To enable the security layer in {{ en.RDM }} , follow these steps:  
 
 1. In {{ en.RDM }} , navigate to ***File – Preferences – Browser Extensions*** . 
-1. Under the ***{{ en.DWL }}*** ***(Browser Extensions)*** section, click ***Default*** . Enter a custom ***Port*** and click ***Done*** .  
+1. Under the ***{{ en.DWL }} (Browser Extensions)*** section, click ***Default*** . Enter a custom ***Port*** and click ***Done*** .  
 ![Port](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2021.png) 
 1. Type an ***Application key*** . Your changes will only be applied after an application restart.  
 ![Application Key](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2023.png) 
-1. In your browser, click the {{ en.DWL }} icon and go to ***Settings – Data sources –*** ***{{ en.RDM }}*** . 
+1. In your browser, click the {{ en.DWL }} icon and go to ***Settings – Data sources – {{ en.RDM }}*** . 
 1. In the ***General*** tab, uncheck ***Use default port*** , then enter the custom ***Port*** created earlier in {{ en.RDM }} .  
 ![General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl40434png.png) 
 1. In the ***Advanced*** tab, enter the same ***Application key*** as in {{ en.RDM }} , then click ***Save*** . 

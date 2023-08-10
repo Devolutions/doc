@@ -1,7 +1,7 @@
 ---
-title: Import Sessions
+title: Import sessions
 ---
-Use the File - Import - Import Sessions From to import sessions into   {{ en.RDMMAC }} .  
+Use the File - Import - Import Sessions From to import sessions into {{ en.RDMMAC }}.  
 
 ## Settings 
 

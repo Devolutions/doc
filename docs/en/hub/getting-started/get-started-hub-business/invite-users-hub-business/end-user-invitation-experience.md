@@ -63,7 +63,7 @@ You can also access your ***User Vault*** , which is user centric and is used to
 {{ en.DWL }} is our web browser password plugin. It is the preferred client to use in conjunction with {{ en.HUBB }} to create and manage website credentials entries. Visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) for steps on how to add a website entry with {{ en.DWL }} , or visit [Create Entries Manually](/hub/web-interface/hub-overview/entries/create-entries-manually/) for how to create them directly within {{ en.HUBB }}. You can also follow the steps below to manually create an entry in your ***User Vault*** :  
 
 1. Select the folder where you want to create the new entry, if applicable. If not, skip this first step. 
-1. Click on the ***Add*** button located in the {{ en.NPANE }} .  
+1. Click on the ***Add*** button located in the ***{{ en.NPANE }}***.  
 ![Add Button](https://webdevolutions.azureedge.net/docs/en/hub/Hub2008.png)  
 1. Select the type of entry you wish to create. You can search by categories with the side menu or apply a filter with the search bar. Click on ***Continue*** when your entry type is selected. 
 {% snippet icon.badgeInfo %} 

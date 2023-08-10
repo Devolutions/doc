@@ -7,7 +7,7 @@ Below is an illustration of {{ en.RDMMAC }}'s main screen.
 Refer to the the following topics for additional details:  
 
 * [Quick Access](/rdm/mac/user-interface/quick-access/) 
-* [Navigation Pane](/rdm/mac/user-interface/navigation-pane/) 
+* [{{ en.NPANE }}](/rdm/mac/user-interface/navigation-pane/) 
 * [Content Area](/rdm/mac/user-interface/content-area/) 
 * [Footer](/rdm/mac/user-interface/footer/) 
 

@@ -43,7 +43,7 @@ Close the active session tab.
 Expand All 
 		</td>
 		<td>
-Expand all the groups in the Navigation pane when the Tree view mode is used. 
+Expand all the groups in the <i><b>{{ en.NPANE }}</b></i> when the Tree view mode is used. 
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ Expand all the groups in the Navigation pane when the Tree view mode is used.
 Collapse All 
 		</td>
 		<td>
-Collapse all the groups in the Navigation pane when the Tree view mode is used. 
+Collapse all the groups in the <i><b>{{ en.NPANE }}</b></i> when the Tree view mode is used. 
 		</td>
 	</tr>
 </table>

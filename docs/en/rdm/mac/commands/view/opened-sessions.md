@@ -19,13 +19,13 @@ You can give the focus to an opened session by double-clicking it from the list.
 
 With the SQL Server data sources, you can monitor currently running sessions, provided they have been opened within {{ en.RDMMAC }}.  
 
-For many reasons beyond our control, it is possible for a session to be terminated without {{ en.RDMMAC }} being aware that this has occurred. This can happen, for example, if {{ en.RDMMAC }} is not running when another application ends. Therefore, any terminated session will remain listed in the log. You may manually mark it as closed via the contextual menu by selecting ***Flag as Closed*** .  
+For many reasons beyond our control, it is possible for a session to be terminated without {{ en.RDMMAC }} being aware that this has occurred. This can happen, for example, if {{ en.RDMMAC }} is not running when another application ends. Therefore, any terminated session will remain listed in the log. You may manually mark it as closed via the contextual menu by selecting ***Flag as Closed***.  
 
 To review a detailed log, double click on a session entry. 
 
 ### Hidden Session tab 
 
-***Some sessions, like*** ***SSH Port Forward*** , can be hidden from the dashboard when the connection is established. When these sessions are hidden, they are not displayed in the ***Local Sessions*** . Select ***Hidden Sessions*** from the combo box above the entry list to display hidden sessions only.  
+Some sessions, like ***SSH Port Forward***, can be hidden from the dashboard when the connection is established. When these sessions are hidden, they are not displayed in the ***Local Sessions***. Select ***Hidden Sessions*** from the combo box above the entry list to display hidden sessions only.  
 ![Local session / Hidden session](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0015.png) 
 
 ### Entry States 
@@ -38,4 +38,3 @@ You can see the status of the entries in the selected database. There are differ
 * {{ en.RDMMAC }} tries to detect opened sessions even if they were not launched from the application. It uses the name of the process to accomplish this task.  
 
 * VPN sessions do not appear in the list. 
-

@@ -5,7 +5,7 @@ title: Emplacement du fichier de configuration
 
 You can find the configuration file by following these steps:  
 
-1. Ouvrir Finder   
+1. Ouvrir Finder. 
 1. Cliquer sur le menu Aller (Go) 
 1. Sélectionner Aller au dossier (Go to Folder) 
 1. Copier le chemin suivant: ~/Library/Application Support 

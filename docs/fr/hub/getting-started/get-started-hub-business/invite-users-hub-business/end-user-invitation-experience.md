@@ -59,7 +59,7 @@ Vous pouvez aussi accéder à votre ***Coffre d'utilisateur*** , qui est centré
 {{ fr.DWL }} est notre extension de navigateur Web pour les mots de passe. Il s'agit du client privilégié à utiliser en conjonction avec {{ fr.HUBB }} pour créer et gérer les entrées d'identifiants de sites Web. Consultez cette rubrique (à venir) pour connaître les étapes permettant d'ajouter une entrée de site Web avec {{ fr.DWL }} , ou consultez la rubrique [Créer des entrées manuellement](/fr/hub/web-interface/hub-overview/entries/create-entries-manually/) pour savoir comment les créer directement dans {{ fr.HUBB }}. Vous pouvez également suivre les étapes ci-dessous pour créer manuellement une entrée dans votre ***Coffre d'utilisateur*** .  
 
 1. Sélectionner le dossier dans lequel vous voulez créer la nouvelle entrée, le cas échéant. Sinon, passez cette première étape. 
-1. Cliquer sur le bouton ***Ajouter*** situé dans le {{ fr.NPANE }} .  
+1. Cliquer sur le bouton ***Ajouter*** situé dans le ***{{ fr.NPANE }}***.  
 ![Bouton Ajouter](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2003.png) 
 1. Sélectionner le type d'entrée que vous voulez créer. Vous pouvez effectuer une recherche par catégories avec le menu latéral ou appliquer un filtre avec la barre de recherche. Cliquer sur ***Continuer*** lorsque votre type d'entrée est sélectionné. 
 {% snippet icon.badgeInfo %} 

@@ -41,14 +41,14 @@ Ferme l'onglet de session active.
 Développer tout 
 		</td>
 		<td>
-Développe tous les groupes dans le Volet de navigation lorsque le mode arborescence est utilisé 
+Développe tous les groupes dans le <i><b>{{ fr.NPANE }}</b></i> lorsque le mode arborescence est utilisé 
 		</td>
 	</tr>
 		<td>
 Réduire tout 
 		</td>
 		<td>
-Réduis tous les groupes dans le Volet de navigation lorsque le mode arborescence est utilisé. 
+Réduis tous les groupes dans le <i><b>{{ fr.NPANE }}</b></i> lorsque le mode arborescence est utilisé. 
 		</td>
 	</tr>
 </table>

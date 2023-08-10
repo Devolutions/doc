@@ -7,7 +7,7 @@ Les groupes de sécurité sont utilisés pour protéger les sessions contre un s
 
 Les groupes de sécurité sont utilisés pour classer les sessions et restreindre l'accès à certains utilisateurs. Il n'y a pas de relation directe entre Active Directory et les groupes de sécurité. Par défaut, chaque session est créée sans groupe de sécurité et est donc visible pour tous les utilisateurs connectés.  
 
-Chaque entrée du volet de navigation peut être assignée à un seul groupe de sécurité. Les meilleures pratiques exigent que vous affectiez des groupes de sécurité à des dossiers de manière à ce que toutes les entrées qu'ils contiennent héritent du même groupe de sécurité.  
+Chaque entrée du <i><b>{{ fr.NPANE }}</b></i> peut être assignée à un seul groupe de sécurité. Les meilleures pratiques exigent que vous affectiez des groupes de sécurité à des dossiers de manière à ce que toutes les entrées qu'ils contiennent héritent du même groupe de sécurité.  
 ![Administration - Groupes de sécurité (Ancien)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4124.png) 
 
 {% snippet icon.badgeInfo %} 

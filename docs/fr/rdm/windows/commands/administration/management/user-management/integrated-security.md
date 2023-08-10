@@ -4,7 +4,7 @@ title: Sécurité intégrée
 La Sécurité intégrée est le nom que Microsoft donne à la technologie qui utilise les identifiants de votre session en cours d'exécution et les transmet automatiquement aux ressources distantes pour l'authentification.  
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité nécessite une source de données [SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/)   ou [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) . 
+Cette fonctionnalité nécessite une source de données [SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) ou [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) . 
 {% endsnippet %}
  
 ## Paramètres 

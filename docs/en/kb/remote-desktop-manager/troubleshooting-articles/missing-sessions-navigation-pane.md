@@ -1,8 +1,9 @@
 ---
-title: Missing Sessions from Navigation Pane
-status: Topic available in German language
+eleventyComputed:
+  title: Missing sessions from {{ en.NPANE }}
+  status: Topic available in German language
 ---
-Some or all entries are missing from the Navigation Pane. It is empty.
+Some or all entries are missing from the ***{{ en.NPANE }}***. It is empty.
 ### Solution 1
 Click on ***Window - Reset Layout*** This action might take the application a minute to refresh and apply the reset.
 ### Solution 2

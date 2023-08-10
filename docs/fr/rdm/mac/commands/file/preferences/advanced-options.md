@@ -178,7 +178,7 @@ L'icône du fichier sera « déduite » de l'extension du fichier plutôt que 
 Utiliser l'image du coffre dans l'arborescence 
 		</td>
 		<td>
-L'image du {{ fr.VLT }} sera affichée à côté du nom du {{ fr.VLT }} dans le {{ fr.NPANE }}. 
+L'image du {{ fr.VLT }} sera affichée à côté du nom du {{ fr.VLT }} dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 </table>

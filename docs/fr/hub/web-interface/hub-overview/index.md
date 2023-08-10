@@ -48,7 +48,7 @@ Cliquer sur votre avatar pour modifier les paramètres de votre {{ fr.DA }} , le
 	</tr>
 	<tr>
 		<td>
-Volet de navigation 
+***{{ fr.NPANE }}***
 		</td>
 		<td>
 Afficher les entrées disponibles dans le coffre sélectionné. 
@@ -59,7 +59,7 @@ Afficher les entrées disponibles dans le coffre sélectionné.
 Interactions avec le coffre 
 		</td>
 		<td>
-Sélectionner un coffre dans le volet de navigation pour afficher les interactions du coffre. 
+Sélectionner un coffre dans le ***{{ fr.NPANE }}*** pour afficher les interactions du coffre. 
 		</td>
 	</tr>
 	<tr>

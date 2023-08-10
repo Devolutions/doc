@@ -36,11 +36,11 @@ Mode
 		<td>
 Chose a ***Mode*** setting for the passwords.  
 
-* ***Default***   : Customize the length and the minimum number of characters per type you would want the passwords to have. 
-* ***Advanced settings*** : Select the length, type and number of characters to include in the passwords. Include and exclude specific characters. 
-* ***Readable password***   : Generate passwords that are readable but are not actual words. 
+* ***Default***: Customize the length and the minimum number of characters per type you would want the passwords to have. 
+* ***Advanced settings***: Select the length, type and number of characters to include in the passwords. Include and exclude specific characters. 
+* ***Readable password***: Generate passwords that are readable but are not actual words. 
 * <a href="/server/web-interface/administration/templates/password-templates/use-a-pattern-password/" target="_blank">***Use a pattern***</a>: Select any pattern you need to create the passwords, you can also exclude certain characters if desired. A list of the most recent used pattern will also be created. 
-* ***Pronounceable password*** : Generate passwords that are pronounceable, but are not actual words. 
+* ***Pronounceable password***: Generate passwords that are pronounceable, but are not actual words. 
 		</td>
 	</tr>
 	<tr>

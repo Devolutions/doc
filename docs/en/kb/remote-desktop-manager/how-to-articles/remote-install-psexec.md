@@ -31,7 +31,7 @@ A few notes on that command line:
 1. Replace the path to launch PSExec.
 1. Add the appropriate credentials in the ***Tools*** section of your session, if left blank it will use your current Windows session credentials.
 1. Indicate the appropriate server shared to get the *.msi or *.exe.
-1. When you are ready to deploy your application on the remote computer, you just need to select the appropriate session in the navigation pane and launch the ***Macros/Scripts/Tools*** from the Dashboard. The ***Macros/Scripts/Tools*** entry can also be launched via the {{ en.RDMA }}.
+1. When you are ready to deploy your application on the remote computer, you just need to select the appropriate session in the ***{{ en.NPANE }}*** and launch the ***Macros/Scripts/Tools*** from the Dashboard. The ***Macros/Scripts/Tools*** entry can also be launched via the {{ en.RDMA }}.
 
 ## Usage
 

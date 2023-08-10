@@ -1,7 +1,7 @@
 ---
 title: Zone de contenu
 ---
-La ***Zone de contenu*** contient les différents tableaux de bord pour gérer {{ fr.RDM }} ainsi que les sessions intégrées. Un seul tableau de bord est actif à la fois en fonction du nœud actuellement sélectionné dans le volet de navigation.  
+La ***Zone de contenu*** contient les différents tableaux de bord pour gérer {{ fr.RDM }} ainsi que les sessions intégrées. Un seul tableau de bord est actif à la fois en fonction du nœud actuellement sélectionné dans le ***{{ fr.NPANE }}***.  
 
 Les tableaux de bord existants sont décrits plus en détail dans leurs propres rubriques d'aide:  
 

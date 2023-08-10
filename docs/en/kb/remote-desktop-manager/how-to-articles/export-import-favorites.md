@@ -5,7 +5,7 @@ Learn how to export and import the entries tag ***Favorites*** when migrating da
 
 ## Export
 
-1. In {{ en.RDM }} ***Navigation Pane*** , select your data source.
+1. In the {{ en.RDM }} ***{{ en.NPANE }}***, select your data source.
 1. Click the ***Favorites*** icon.  
 ![!!KB4924.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4924.png)
 1. Click the ellipsis button.  
@@ -15,7 +15,7 @@ Learn how to export and import the entries tag ***Favorites*** when migrating da
 
 ## Import
 
-1. In the ***Navigation Pane***, select your new data source.
+1. In the ***{{ en.NPANE }}***, select your new data source.
 1. Click the ***Favorites*** icon.
 1. Click the ellipsis button.  
 ![!!KB4926.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4926.png)

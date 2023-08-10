@@ -65,28 +65,28 @@ Comme mentionné ci-dessus, TOUTES les permissions du dossier du coffre sont dé
 La permission d'affichage pour le dossier Windjammer est définie pour ServiceDesk uniquement, car nous voulons qu'ils puissent utiliser les entrées enfants. Nous ne voulons pas que ServiceDesk ajoute, modifie ou supprime quoi que ce soit. Nous laissons les permissions ***Ajouter*** , ***Modifier*** et ***Supprimer*** à ***Hérité*** afin que seuls les administrateurs puissent effectuer ces actions sur le dossier Windjammer et ses éléments enfants.  
 ![Windjammer - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3398.png) 
 
-* ***Affichage: Personnalisé*** ***;***   ServiceDesk. 
-* ***Ajouter: Hérité; Jamais*** hérité du coffre. Seul l'administrateur peut ajouter des entrées. 
-* ***Modifier:***   ***Hérité; Jamais*** hérité du coffre. Seul l'administrateur peut modifier des entrées. 
-* ***Supprimer:***   ***Hérité; Jamais*** hérité du coffre. Seul l'administrateur peut supprimer des entrées. 
+* ***Affichage : Personnalisé***; ServiceDesk. 
+* ***Ajouter : Hérité***; Jamais hérité du coffre. Seul l'administrateur peut ajouter des entrées. 
+* ***Modifier : Hérité***; Jamais hérité du coffre. Seul l'administrateur peut modifier des entrées. 
+* ***Supprimer : Hérité***; Jamais hérité du coffre. Seul l'administrateur peut supprimer des entrées. 
 
 Pour Downhill Pro, nous accordons des permissions au ServiceDesk et au HelpDesk.  
 ![Downhill Pro - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3399.png) 
 
-* ***Affichage: Personnalisé*** ***;***   HelpDesk, ServiceDesk. 
-* ***Ajouter: Personnalisé*** ***;*** ServiceDesk. 
-* ***Modifier:***   ***Personnalisé*** ***;*** ServiceDesk. 
-* ***Supprimer:***   ***Hérité; Jamais*** hérité du coffre. Seul l'administrateur peut supprimer des entrées. 
+* ***Affichage : Personnalisé***; HelpDesk, ServiceDesk. 
+* ***Ajouter : Personnalisé***; ServiceDesk. 
+* ***Modifier : Personnalisé***; ServiceDesk. 
+* ***Supprimer : Hérité***; Jamais hérité du coffre. Seul l'administrateur peut supprimer des entrées. 
 
 Nous avons déjà un bon exemple de la flexibilité de la sécurité de {{ fr.RDM }} . Les utilisateurs de ServiceDesk et HelpDesk peuvent afficher et utiliser toutes les entrées du dossier Downhill Pro, même les entrées d'identifiants, mais ils ne verront jamais de mots de passe car les utilisateurs de ServiceDesk et HelpDesk n'ont pas le privilège de révéler les mots de passe.  
 
 Ensuite, pour le dossier Telemark, nous accordons des permissions au ServiceDesk, au HelpDesk et aux consultants. C'est là que les choses deviennent complexes. Si nous voulons que les consultants ne puissent voir que le dossier de Montréal, qui est un élément enfant du télémark, nous devons accorder aux consultants la permission d'afficher le dossier parent, donc tout le contenu du télémark. Ensuite, nous accorderons des permissions sur les éléments enfants uniquement au groupe d'utilisateurs qui devrait avoir accès à ces éléments. Cette dernière étape refusera la permission de visualisation pour les consultants sur les articles enfants.  
 ![Telemark - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3400.png) 
 
-* ***Affichage: Personnalisé*** ***;***   Consultants, HelpDesk, ServiceDesk. 
-* ***Ajouter: Personnalisé*** ***;*** ServiceDesk. 
-* ***Modifier:***   ***Personnalisé*** ***;*** ServiceDesk. 
-* ***Supprimer:***   ***Hérité; Jamais*** hérité du coffre. Seul l'administrateur peut supprimer des entrées. 
+* ***Affichage : Personnalisé***; Consultants, HelpDesk, ServiceDesk. 
+* ***Ajouter : Personnalisé***; ServiceDesk. 
+* ***Modifier : Personnalisé***; ServiceDesk. 
+* ***Supprimer : Hérité***; Jamais hérité du coffre. Seul l'administrateur peut supprimer des entrées. 
 
 **Articles enfants de Telemark** 
 
@@ -95,26 +95,26 @@ Puisque nous voulons que les utilisateurs puissent utiliser les entrées d'ident
 Les permissions ***Ajouter*** et ***Modifier*** sont définies sur ***Jamais*** et la permission ***Supprimer*** peut être laissée à ***Hérité*** car elle hérite des paramètres ***Jamais*** du coffre. Seuls les administrateurs peuvent effectuer ces actions dans des groupes/dossiers contenant des identifiants.  
 ![Telemark / Credentials - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3401.png) 
 
-* ***Affichage: Personnalisé*** ***;***   HelpDesk, ServiceDesk. 
-* ***Ajouter*** ***:*** ***Jamais*** ***;*** Seuls les administrateurs peuvent ajouter des entrées d'identifiants. 
-* ***Modifier*** ***:*** ***Jamais*** ***;*** Seuls les administrateurs peuvent modifier les entrées. 
-* ***Supprimer:***   ***Hérité; Jamais*** hérité du coffre. Seul l'administrateur peut supprimer des entrées.  
+* ***Affichage : Personnalisé***; HelpDesk, ServiceDesk. 
+* ***Ajouter : Jamais***; Seuls les administrateurs peuvent ajouter des entrées d'identifiants. 
+* ***Modifier : Jamais***; Seuls les administrateurs peuvent modifier les entrées. 
+* ***Supprimer : Hérité***; Jamais hérité du coffre. Seul l'administrateur peut supprimer des entrées.  
 
-Nous voulons que ServiceDesk puisse utiliser l'entrée d'identifiant de domaine , mais pas le HelpDesk. Pour cela, nous devons accorder la permission ***Affichage*** au ServiceDesk. Le ServiceDesk peut toujours utiliser l'entrée d'identifiant mais ne verra jamais le mot de passe.  
+Nous voulons que ServiceDesk puisse utiliser l'entrée d'identifiant de domaine, mais pas le HelpDesk. Pour cela, nous devons accorder la permission ***Affichage*** au ServiceDesk. Le ServiceDesk peut toujours utiliser l'entrée d'identifiant mais ne verra jamais le mot de passe.  
 ![Telemark / Credentials / Admin - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3402.png) 
 
-* ***Affichage: Personnalisé*** ***;***   ServiceDesk. 
-* ***Ajouter: Personnalisé*** ***;***   ***Jamais*** hérité du coffre. Seuls les administrateurs peuvent ajouter des entrées d'identifiants. 
-* ***Modifier:***   ***Personnalisé*** ***;***   ***Jamais*** hérité du coffre. Seuls les administrateurs peuvent modifier des entrées d'identifiants. 
-* ***Supprimer:***   ***Hérité; Jamais*** hérité de Telemark\Credentials. Seuls les administrateurs peuvent supprimer des entrées d'identifiants.  
+* ***Affichage : Personnalisé***; ServiceDesk. 
+* ***Ajouter : Personnalisé***; Jamais hérité du coffre. Seuls les administrateurs peuvent ajouter des entrées d'identifiants. 
+* ***Modifier : Personnalisé***; Jamais hérité du coffre. Seuls les administrateurs peuvent modifier des entrées d'identifiants. 
+* ***Supprimer : Hérité***; Jamais hérité de Telemark\Credentials. Seuls les administrateurs peuvent supprimer des entrées d'identifiants.  
 
 La dernière étape pour les éléments enfants Telemark consiste à définir la permission ***Affichage*** sur ServiceDesk et HelpDesk sur le dossier Boston et laisser toutes les autres permissions de ce dossier à ***Hérité*** . Cela empêche les consultants d'afficher le dossier Boston. Désormais, les consultants ne peuvent afficher et ouvrir des entrées que dans le dossier Montréal.  
 ![Telemark / Boston - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3403.png) 
 
-* ***Affichage: Personnalisé*** ***;***   HelpDesk, ServiceDesk. 
-* ***Ajouter*** ***:*** ***Hérité*** ***;*** ServiceDesk hérité de Telemark. 
-* ***Modifier*** ***:*** ***Hérité*** ***;*** ServiceDesk hérité de Telemark. 
-* ***Supprimer:***   ***Hérité; Jamais*** hérité du coffre. 
+* ***Affichage : Personnalisé***; HelpDesk, ServiceDesk. 
+* ***Ajouter : Hérité***; ServiceDesk hérité de Telemark. 
+* ***Modifier : Hérité***; ServiceDesk hérité de Telemark. 
+* ***Supprimer : Hérité***; Jamais hérité du coffre. 
 
 {% snippet icon.shieldCaution %} 
 Chaque fois qu'un nouveau dossier est ajouté, la permission ***Affichage*** doit être définie pour ServiceDesk et HelpDesk pour masquer le nouveau dossier et son contenu aux consultants. 

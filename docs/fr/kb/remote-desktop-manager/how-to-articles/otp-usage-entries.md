@@ -25,10 +25,10 @@ L'option ***Demander*** ouvre une liste d'identifiants OTP disponibles à chaque
 
 ### Hérité 
 
-L'option ***Hérité*** remontera dans l'arborescence de navigation jusqu'à ce qu'elle ait accès à un identifiants OTP dans un dossier parent de la section ***Connexion - Mot de passe à usage unique*** . 
+L'option ***Hérité*** remontera dans l'arborescence de navigation jusqu'à ce qu'elle ait accès à un identifiants OTP dans un dossier parent de la section ***Connexion - Mot de passe à usage unique***. 
 
 {% snippet icon.badgeInfo %} 
-***Pour que l'héritage de la*** ***Source*** fonctionne, le paramètre ***Connexion - Mot de passe à usage unique - Source*** doit être défini sur ***Hérité*** pour chaque dossier parent jusqu'à ce qu'elle atteigne la configuration souhaitée. 
+Pour que l'héritage de la ***Source*** fonctionne, le paramètre ***Connexion - Mot de passe à usage unique - Source*** doit être défini sur ***Hérité*** pour chaque dossier parent jusqu'à ce qu'elle atteigne la configuration souhaitée. 
 {% endsnippet %}
  
 ![!!KB4049.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4049.png) 

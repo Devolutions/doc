@@ -1,11 +1,11 @@
 ---
 title: Audit
 ---
-The ***Audit*** section allows all users to use the ***Entry Security Analyzer*** ***  *** and ***Password Analyzer*** ***  *** tools. To access the ***Users Permissions*** , ***Vaults Permissions*** , and ***Vault Health*** tools, administrator rights will be required.  
+The ***Audit*** section allows all users to use the ***Entry Security Analyzer*** and ***Password Analyzer*** tools. To access the ***Users Permissions***, ***Vaults Permissions***, and ***Vault Health*** tools, administrator rights will be required.  
 
 ### Entry Security Analyzer 
 
-In the ***Entry Security Analyzer*** , validate and manage the occurrence and the strength of passwords being used and saved in entries by your users.  
+In the ***Entry Security Analyzer***, validate and manage the occurrence and the strength of passwords being used and saved in entries by your users.  
 
 Click the entry ***Name*** to be redirected and to manage the entry properties. For reporting purposes, you can also refine your search with the filters and create a CSV document by clicking the ***Export*** button.  
 ![!!Hub4156.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4156.png) 
@@ -18,7 +18,7 @@ Click the ***Reveal password*** eye icon to view the password saved in the entri
 
 Click the ***More Information*** arrow to view all the entries where the password is being used simultaneously. Click the ***Go to*** arrow to be redirected and manage the entry properties.  
 
-In the ***Data breach*** section, you can check if the password has been in a data breach with the tool [HaveIBeenPwned](https://haveibeenpwned.com/) .  
+In the ***Data breach*** section, you can check if the password has been in a data breach with the tool [HaveIBeenPwned](https://haveibeenpwned.com/).  
 ![!!Hub4157.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4157.png) 
 
 ### Users Permissions 
