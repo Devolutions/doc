@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager macOS
+  title: Remote Desktop Manager {{ en.MAC }}
   order: 15
   description: Sie finden hier Themen zu den folgenden {{ de.RDMMAC }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---

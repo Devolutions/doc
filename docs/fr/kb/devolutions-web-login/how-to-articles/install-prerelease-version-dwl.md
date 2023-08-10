@@ -84,7 +84,7 @@ La version 16 ou ultérieure de Safari est requise.
 Et le tour est joué! 
 
 {% snippet icon.badgeHelp %}
-Source (EN) : [Running your Safari web extension - Configure Safari in macOS to run unsigned extensions](https://developer.apple.com/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension#3744467)
+Source (EN) : [Running your Safari web extension - Configure Safari in {{ fr.MAC }} to run unsigned extensions](https://developer.apple.com/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension#3744467)
 {% endsnippet %}
 
 ### Versions 16 et antérieures de Safari
@@ -110,5 +110,5 @@ Source (EN) : [Running your Safari web extension - Configure Safari in macOS to 
 Et le tour est joué! 
 
 {% snippet icon.badgeHelp %}
-Source (EN) : [Running your Safari web extension - Configure Safari in macOS to run unsigned extensions](https://developer.apple.com/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension#3744467)
+Source (EN) : [Running your Safari web extension - Configure Safari in {{ fr.MAC }} to run unsigned extensions](https://developer.apple.com/documentation/safariservices/safari_web_extensions/running_your_safari_web_extension#3744467)
 {% endsnippet %}

@@ -5,7 +5,7 @@ title: Configuration du système
 
 ## Configuration minimale 
 
-* Système d'exploitation : macOS Catalina (10.15) 
+* Système d'exploitation : {{ fr.MAC }} Catalina (10.15) 
 * Processeur : 1 GHz 
 * Mémoire vive (RAM) : 4 Go 
 * Résolution d'écran : 1440 x 900 px 

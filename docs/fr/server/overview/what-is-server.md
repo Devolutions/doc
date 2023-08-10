@@ -47,7 +47,7 @@ Avec l'extension de navigateur {{ fr.DWL }}, les identifiants peuvent être auto
 		<td>
 Accédez aux ressources stockées dans un coffre grâce à l'une de nos applications clientes qui sont reliées aux services Web de {{ fr.DVLS }} . 
 
-L'application cliente, {{ fr.RDM }} , doit être installée localement pour gérer la source de données. Elle est disponible pour Windows, macOS, Android et iOS.  
+L'application cliente, {{ fr.RDM }} , doit être installée localement pour gérer la source de données. Elle est disponible pour Windows, {{ fr.MAC }}, Android et iOS.  
 		</td>
 	</tr>
 	<tr>

@@ -1,7 +1,7 @@
 ---
 title: Gestion de version
 ---
-Vous pouvez gérer vos versions de {{ fr.RDM }} pour Windows, macOS, Android ou iOS. 
+Vous pouvez gérer vos versions de {{ fr.RDM }} pour Windows, {{ fr.MAC }}, Android ou iOS. 
 
 ### Gestion de version 
 
@@ -53,7 +53,7 @@ Utilisé en conjonction avec la version minimale ou maximale. Une fois qu'une ex
 Autoriser accès de {{ fr.RDM }}
 		</td>
 		<td>
-Désactiver l'option pour exclure certains clients sur différentes plates-formes telles que Windows, macOS, iOS ou Android. 
+Désactiver l'option pour exclure certains clients sur différentes plates-formes telles que Windows, {{ fr.MAC }}, iOS ou Android. 
 		</td>
 	</tr>
 	<tr>

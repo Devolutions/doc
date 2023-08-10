@@ -68,7 +68,7 @@ Windows
 	</tr>
 	<tr>
 		<td>
-macOS 
+{{ fr.MAC }} 
 		</td>
 		<td>
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 

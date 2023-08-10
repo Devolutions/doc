@@ -24,7 +24,7 @@ INSTALLATION
 Application used to manage and centralize remote access technologies, privileged passwords, documents and shared information. 
 		</td>
 		<td>
-Windows, macOS, Linux, iOS, Android 
+Windows, {{ en.MAC }}, Linux, iOS, Android 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ Windows
 {{ en.DHUBB }} is a secure and cloud-based password manager for teams. It empowers your organization to easily and securely vault and manage business-user passwords, along with other sensitive information, through a user-friendly web interface that can be quickly, easily and securely accessed via any browser. 
 		</td>
 		<td>
-Windows, macOS 
+Windows, {{ en.MAC }} 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Windows, macOS
 {{ en.DWL }} is a free browser plugin used in conjunction with {{ en.RDM }} , {{ en.DVLS }} and {{ en.DHUB }} , which allows users to securely inject passwords into websites using credentials stored in their vaults. 
 		</td>
 		<td>
-Windows, macOS 
+Windows, {{ en.MAC }}
 		</td>
 	</tr>
 </table>

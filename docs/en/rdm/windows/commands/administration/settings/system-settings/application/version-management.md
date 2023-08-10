@@ -3,7 +3,7 @@ title: Version Management
 ---
 The ***Version Management*** allows the administrators to manage the data source availability in other versions of {{ en.RDM }} . 
 
-## Windows and macOS 
+## Windows and {{ en.MAC }} 
 
 ![Version Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5008.png) 
 

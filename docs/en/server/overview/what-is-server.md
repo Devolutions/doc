@@ -45,7 +45,7 @@ Access vaulted resources from a web browser using a Client Access License (CAL).
 With the {{ en.DWL }} browser extension, credentials can be automatically submitted when connecting to a website. 
 		</td>
 		<td>
-Access vaulted resources using our client applications which communicate with {{ en.DVLS }} web services. A local installation of a client application such as {{ en.RDM }} is required to manage the data source and its resources. Note that we offer Windows, macOS, Android and iOS editions.  
+Access vaulted resources using our client applications which communicate with {{ en.DVLS }} web services. A local installation of a client application such as {{ en.RDM }} is required to manage the data source and its resources. Note that we offer Windows, {{ en.MAC }}, Android and iOS editions.  
 
 Use any type of entry, manage all aspects of the data source and monitor user activity all in the same application. 
 		</td>

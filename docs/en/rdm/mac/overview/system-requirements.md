@@ -5,7 +5,7 @@ title: System Requirements
 
 ## Minimum Requirements 
 
-* Operating system: macOS Catalina (10.15) 
+* Operating system: {{ en.MAC }} Catalina (10.15) 
 * Processor: 1 GHz 
 * RAM: 4 GB 
 * Screen resolution: 1440 x 900 px 

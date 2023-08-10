@@ -20,7 +20,7 @@ Here are the steps to stop your built-in browser password manager from asking to
 ## Firefox
 <a name="firefox"></a>
 
-1. Click the Firefox menu in the toolbar and choose ***Options*** ( ***Preferences*** in macOs).
+1. Click the Firefox menu in the toolbar and choose ***Options*** ( ***Preferences*** in {{ en.MAC }}).
 2. Click ***Privacy & Security***
 3. Turn off ***Ask to save logins and passwords for websites***  
 ![!!KB4612.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4612.png)

@@ -23,7 +23,7 @@ INSTALLATION
 Application qui gère les technologies de connexion à distance, des mots de passe privilégiés, les documents et le partage d'information. 
 		</td>
 		<td>
-Windows, macOS, Linux, iOS, Android 
+Windows, {{ fr.MAC }}, Linux, iOS, Android 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ Windows
 {{ fr.DHUBB }} est une solution infonuagique de gestion sécuritaire de mots de passe conçue pour les équipes. Grâce à son interface Web conviviale, vous pourrez stocker et gérer des informations confidentielles, dont les mots de passe de l’entreprise, en toute tranquillité d’esprit. 
 		</td>
 		<td>
-Windows, macOS 
+Windows, {{ fr.MAC }} 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Windows, macOS
 {{ fr.DWL }} est un module d'extension de navigateur gratuit à utiliser avec {{ fr.RDM }} , {{ fr.DVLS }} ou {{ fr.DHUB }} . Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
 		</td>
 		<td>
-Windows, macOS 
+Windows, {{ fr.MAC }} 
 		</td>
 	</tr>
 </table>
