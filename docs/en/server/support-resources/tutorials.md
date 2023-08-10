@@ -1,5 +1,6 @@
 ---
 title: Tutorials
+status: Topic available in German language
 ---
 Our tutorials are published on the [Devolutions YouTube channel](https://www.youtube.com/user/Devolutions).  
 
