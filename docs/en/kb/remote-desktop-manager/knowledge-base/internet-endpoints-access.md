@@ -52,7 +52,7 @@ User action in the upgrade available dialog
 	</tr>
 	<tr>
 		<td>
-Devolutions Cloud - our online services
+{{ en.DC }} - our online services
 		</td>
 		<td>
 https<area>://cloud.devolutions.net

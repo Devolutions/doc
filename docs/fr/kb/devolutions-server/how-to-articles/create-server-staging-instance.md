@@ -15,7 +15,7 @@ Les étapes suivantes décrivent comment créer une instance de test hébergée 
 1. Fournir, au moment prévu à cet effet, le fichier des clés de chiffrement exportées au point 3.  
 ![Clés de chiffrement pour base de données existante.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB8113.png)
 1. Lorsque la création est terminée, faites une copie de sauvegarde de la base de données de test.
-1. Enfin, installez toutes les fonctionnalités supplémentaires pour les tester comme le service Scheduler, le Recording Server et le Devolutions Gateway.  
+1. Enfin, installez toutes les fonctionnalités supplémentaires pour les tester comme le service Scheduler, le Recording Server et le {{ fr.DGW }}.  
 
 À partir de ce moment, vous pouvez effectuer la mise à jour de la console de {{ fr.DVLS }} et mettre à jour l'instance de test. La console est conçue pour supporter les anciennes versions de {{ fr.DVLS }}.
 

@@ -9,7 +9,7 @@ eleventyComputed:
 Since version 2023.1.3.0 of {{ en.DVLS }}, it is possible to launch RDP connections directly from the browser.
 
 {% snippet icon.badgeInfo %}
-Based on [IronRDP](https://github.com/Devolutions/IronRDP) (Rust implementation of the RDP protocol) and its web assembly component, the web client, passing through a Devolutions Gateway, ensures a secure communication using the protocol directly. No conversion of packages or images takes place, which ensures very good performance.
+Based on [IronRDP](https://github.com/Devolutions/IronRDP) (Rust implementation of the RDP protocol) and its web assembly component, the web client, passing through a {{ en.DGW }}, ensures a secure communication using the protocol directly. No conversion of packages or images takes place, which ensures very good performance.
 {% endsnippet %} 
 
 {% snippet icon.badgeCaution %}

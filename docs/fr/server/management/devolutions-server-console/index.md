@@ -219,7 +219,7 @@ Parcourir le dossier dans lequel les fichiers d'enregistrement sont stockés.
 <table>
 	<tr>
 		<td>
-Devolutions Gateway 
+{{ fr.DGW }} 
 		</td>
 		<td>
 Description 
@@ -230,7 +230,7 @@ Description
 Installer 
 		</td>
 		<td>
-Installer le Devolutions Gateway. 
+Installer le {{ fr.DGW }}. 
 		</td>
 	</tr>
 	<tr>
@@ -238,7 +238,7 @@ Installer le Devolutions Gateway.
 Modifier 
 		</td>
 		<td>
-Modifier la configuration du Devolutions Gateway. 
+Modifier la configuration du {{ fr.DGW }}. 
 		</td>
 	</tr>
 	<tr>
@@ -246,7 +246,7 @@ Modifier la configuration du Devolutions Gateway.
 Mettre à jour 
 		</td>
 		<td>
-Mettre à jour le Devolutions Gateway. 
+Mettre à jour le {{ fr.DGW }}. 
 		</td>
 	</tr>
 	<tr>
@@ -254,7 +254,7 @@ Mettre à jour le Devolutions Gateway.
 Désinstaller 
 		</td>
 		<td>
-Désinstaller le Devolutions Gateway. 
+Désinstaller le {{ fr.DGW }}. 
 		</td>
 	</tr>
 </table>

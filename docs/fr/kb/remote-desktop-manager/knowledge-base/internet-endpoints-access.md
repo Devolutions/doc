@@ -53,7 +53,7 @@ Action de l'utilisateur dans la boîte de dialogue de mise à niveau disponible
 	</tr>
 	<tr>
 		<td>
-Devolutions Cloud - nos services en ligne
+{{ fr.DC }} - nos services en ligne
 		</td>
 		<td>
 https<area>://cloud.devolutions.net

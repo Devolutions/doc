@@ -3,11 +3,11 @@ title: Survol
 description: Devolutions Gateway fournit un accès juste à temps aux ressources dans les réseaux segmentés.
 order: 10
 ---
-![!!Devolutions Gateway logo](https://webdevolutions.blob.core.windows.net/images/projects/gateway/logos/gateway-color-shadow.svg)
+![!!{{ fr.DGW }} logo](https://webdevolutions.blob.core.windows.net/images/projects/gateway/logos/gateway-color-shadow.svg)
 
 {{ fr.DGW }} fournit un accès juste à temps aux ressources dans les réseaux segmentés.  
 
-Les principaux avantages de Devolutions Gateway sont les suivants :  
+Les principaux avantages de {{ fr.DGW }} sont les suivants :  
 
 * Réduit l’exposition aux ressources du réseau interne grâce à des connexions RDP juste à temps.  
 * Remplace les règles statiques des RPV et des pare-feux par des règles d’accès dynamiques contrôlées par Devolutions Server.  

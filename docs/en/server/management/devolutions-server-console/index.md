@@ -219,7 +219,7 @@ Browse the folder where the recording files are stored.
 <table>
 	<tr>
 		<td>
-Devolutions Gateway 
+{{ en.DGW }} 
 		</td>
 		<td>
 Description 
@@ -230,7 +230,7 @@ Description
 Install 
 		</td>
 		<td>
-Install the Devolutions Gateway. 
+Install the {{ en.DGW }}. 
 		</td>
 	</tr>
 	<tr>
@@ -238,7 +238,7 @@ Install the Devolutions Gateway.
 Edit 
 		</td>
 		<td>
-Edit the Devolutions Gateway configuration. 
+Edit the {{ en.DGW }} configuration. 
 		</td>
 	</tr>
 	<tr>
@@ -246,7 +246,7 @@ Edit the Devolutions Gateway configuration.
 Update 
 		</td>
 		<td>
-Update the Devolutions Gateway. 
+Update the {{ en.DGW }}. 
 		</td>
 	</tr>
 	<tr>
@@ -254,7 +254,7 @@ Update the Devolutions Gateway.
 Uninstall 
 		</td>
 		<td>
-Uninstall the Devolutions Gateway. 
+Uninstall the {{ en.DGW }}. 
 		</td>
 	</tr>
 </table>

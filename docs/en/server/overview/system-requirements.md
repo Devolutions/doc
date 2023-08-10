@@ -23,7 +23,7 @@ The following table lists the minimum recommended hardware specifications for {{
 
 * Microsoft SQL Server 2012/2014/2016/[2017](https://www.microsoft.com/en-ca/sql-server/sql-server-2017-editions)/[2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022) (including Express editions). 
 * Azure SQL database is supported with SQL login accounts only. Azure Active Directory accounts are not supported. 
-* Windows 10, Windows 11, Windows Server 2012R2 (not compatible with Devolutions Gateway), 2016, 2019 and 2022. 
+* Windows 10, Windows 11, Windows Server 2012R2 (not compatible with {{ en.DGW }}), 2016, 2019 and 2022. 
 * Windows Server 2012R2 domain and forest functional level or higher. 
 * Microsoft .NET Framework 4.8 (Please refer to the [requirements for the .NET Framework](https://msdn.microsoft.com/en-us/library/8z6watww%28v=vs.110%29.aspx) for operating systems). 
 * Microsoft .NET 6.0 (ASP.NET Core Runtime 6.0.19).

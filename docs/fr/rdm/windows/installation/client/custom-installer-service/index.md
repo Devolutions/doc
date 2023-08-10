@@ -15,7 +15,7 @@ title: Service d'installateur personnalisé
 	</tr>
 </table>
 
-Le {{ fr.CIS }}, proposé à partir de nos services Devolutions Cloud, reproduit la configuration à partir d'une instance de {{ fr.RDM }}. Cette configuration est utilisée pour créer un fichier d'installation (*.rdi) qui sera utilisé pour créer le paquet d'installation destiné à la distribution. La configuration peut contenir les sources de données, les informations d'identifiants, les modèles de base de données et plus encore. Il est recommandé d'utiliser une installation type de {{ fr.RDM }} pour créer le paquet d'installation. 
+Le {{ fr.CIS }}, proposé à partir de nos services {{ fr.DC }}, reproduit la configuration à partir d'une instance de {{ fr.RDM }}. Cette configuration est utilisée pour créer un fichier d'installation (*.rdi) qui sera utilisé pour créer le paquet d'installation destiné à la distribution. La configuration peut contenir les sources de données, les informations d'identifiants, les modèles de base de données et plus encore. Il est recommandé d'utiliser une installation type de {{ fr.RDM }} pour créer le paquet d'installation. 
 
 {% snippet icon.shieldWarning %} 
 Le {{ fr.CIS }} télécharge un fichier de configuration sur nos services en ligne. Vous ne devez pas utiliser le service pour redistribuer des mots de passe pour des sources de données. 

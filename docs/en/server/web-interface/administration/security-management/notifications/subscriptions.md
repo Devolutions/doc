@@ -52,7 +52,7 @@ Category of the subscription. This can be one of the following possibilities.
 * System Settings 
 * Administration Log 
 * Data Source Log 
-* Devolutions Gateway 
+* {{ en.DGW }} 
 * PAM Checkout Policy 
 * PAM OTP Template 
 		</td>

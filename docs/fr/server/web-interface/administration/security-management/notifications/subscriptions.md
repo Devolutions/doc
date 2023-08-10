@@ -50,7 +50,7 @@ Liste des différentes catégories d'abonnement. On ne peut que sélectionner un
 * ***Paramètres du système*** 
 * ***Journal administratif*** 
 * ***Journal de la source de données*** 
-* ***Devolutions Gateway*** 
+* ***{{ fr.DGW }}*** 
 * ***Politique de réservation - PAM*** 
 * ***Modèle de mot de passe à usage unique - PAM*** 
 		</td>

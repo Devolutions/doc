@@ -50,7 +50,7 @@ The installer should be run on the server hosting {{ en.DGW }}.
 1. Click ***Install***.  
 ![Install Button](https://webdevolutions.azureedge.net/docs/en/hub/DGW0035.png)
 1. Click ***Finish*** when the setup is complete. 
-1. Go back to the ***Administration – Devolutions Gateway*** page in {{ en.HUBB }}. 
+1. Go back to the ***Administration – {{ en.DGW }}*** page in {{ en.HUBB }}. 
 1. Input the correct information.  
 ![Information Fields](https://webdevolutions.azureedge.net/docs/en/hub/DGW0036.png) 
 ![Information Fields](https://webdevolutions.azureedge.net/docs/en/hub/DGW0041.png) 

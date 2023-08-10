@@ -17,7 +17,7 @@ Les instructions suivantes expliquent comment utiliser {{ fr.DGW }} dans une ses
 ![{{ fr.DGW }}](https://webdevolutions.azureedge.net/docs/fr/server/DGW0008.png) 
 1. Dans la même section, définir l'option ***Se connecter*** sur ***Toujours connecté***.  
 ![Toujours connecté](https://webdevolutions.azureedge.net/docs/fr/server/DGW0009.png) 
-1. Dans l'onglet ***Paramètres (Devolutions Gateway)***, sélectionner la passerelle configurée dans la [Configuration pour le {{ fr.DVLS }}](/fr/server/dgw/server-configuration/).  
+1. Dans l'onglet ***Paramètres ({{ fr.DGW }})***, sélectionner la passerelle configurée dans la [Configuration pour le {{ fr.DVLS }}](/fr/server/dgw/server-configuration/).  
 ![Paramètres](https://webdevolutions.azureedge.net/docs/fr/server/DGW0007.png) 
 {% snippet icon.badgeInfo %}
 Pour supprimer le délai de cinq secondes lors de l'ouverture d'une connexion, définir la valeur ***Délai*** comme 0 dans l'onglet ***Avancé***.

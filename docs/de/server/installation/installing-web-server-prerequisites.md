@@ -15,15 +15,15 @@ Als Webanwendung benötigt {{ de.DVLS }} den IIS Manager, das [URL Rewrite Modul
 ![Für Devolutions Server benötigte Web-Rollen](https://webdevolutions.azureedge.net/docs/de/server/clip10313.png) 
 
 {% snippet icon.badgeInfo %} 
-Die Installation der Voraussetzungen über die [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/) oder über das PowerShell-Skript erfordert einen Internetzugang zum Herunterladen des [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), des [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) und [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492). 
+Die Installation der Voraussetzungen über die [{{ de.DVLSCONSOLE }}](/server/management/devolutions-server-console/) oder über das PowerShell-Skript erfordert einen Internetzugang zum Herunterladen des [URL Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0), des [Application Request Routing](https://api.devolutions.net/redirection/52ba9ac0-fb5f-44c1-9521-972caf763b1a) und [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492). 
 {% endsnippet %}
  
 ### Schritte 
 
 Hier sind die zwei verschiedenen Methoden zur Installation der Voraussetzungen:  
 
-1. {{ en.DVLSCONSOLE }}.  
-    1. Öffnen Sie die [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/).  
+1. {{ de.DVLSCONSOLE }}.  
+    1. Öffnen Sie die [{{ de.DVLSCONSOLE }}](/server/management/devolutions-server-console/).  
     1. Gehen Sie zur Registerkarte ***Support*** und klicken Sie auf ‚***IIS-Diagnose***.  
     ![!!ServerOp8162.png](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8162.png)  
     1. Klicken Sie auf ***Voraussetzungen installieren***, um das PowerShell-Skript auszuführen.  
