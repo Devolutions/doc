@@ -2,7 +2,7 @@
 title: Installateur personnalisé
 order: 10
 ---
-Le ***{{ fr.CIM }}*** permettra de générer et de télécharger des paquets d'installation personnalisés pour {{ fr.RDM }} Windows. 
+Le ***{{ fr.CIM }}*** permettra de générer et de télécharger des paquets d'installation personnalisés pour {{ fr.RDMWIN }}. 
 {% snippet icon.shieldWarning %} 
 Le ***{{ fr.CIM }}*** téléverse un fichier de configuration vers nos services en ligne. Vous ne devez pas utiliser ce service à des fins de redistribution de mots de passe de vos sources de données. 
 {% endsnippet %}

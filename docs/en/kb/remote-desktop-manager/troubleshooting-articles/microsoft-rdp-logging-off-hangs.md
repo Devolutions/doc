@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Microsoft RDP logging off hangs {{ en.RDM }} Windows
+  title: Microsoft RDP logging off hangs {{ en.RDMWIN }}
   description: The two causes are RDP plug-ins and UDP usage under certain conditions.
   keywords:
   - Hangs

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Link accounts in {{ en.RDM }} Windows
+  title: Link accounts in {{ en.RDMWIN }}
   description: The Linked Account feature allows users to associate another account under the same user.
   keywords:
   - Linked

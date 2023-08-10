@@ -2,7 +2,7 @@
 title: Custom Installer
 order: 10
 ---
-The ***{{ en.CIM }}*** will allow you to generate and download custom installation packages for {{ en.RDM }} Windows. 
+The ***{{ en.CIM }}*** will allow you to generate and download custom installation packages for {{ en.RDMWIN }}. 
 
 {% snippet icon.shieldWarning %} 
 The ***{{ en.CIM }}*** uploads a configuration file to our online services. You should not use the service to redistribute passwords for data sources. 

@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Keyboard shortcuts customization in {{ en.RDM }} Windows
+  title: Keyboard shortcuts customization in {{ en.RDMWIN }}
 ---
-In {{ en.RDM }} Windows, you can [customize individual shortcuts](#modify) and [create shortcut macros](#create). These options are found in ***File – Options – User Interface – Keyboard***.
+In {{ en.RDMWIN }}, you can [customize individual shortcuts](#modify) and [create shortcut macros](#create). These options are found in ***File – Options – User Interface – Keyboard***.
 
 {% snippet icon.badgeInfo %}
 For a list of default values for shortcuts, visit our [Keyboard Shortcuts](/rdm/windows/support-resources/keyboard-shortcuts/) topic.
