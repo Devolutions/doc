@@ -1,7 +1,7 @@
 ---
-title: Applications Access
+title: Applications access
 ---
-Allow or deny the user access to different applications and companion tools:  
+Allow or deny the user access to different applications and {{ en.CTOOLS }}:  
 
 ![Edit User - Applications](https://webdevolutions.azureedge.net/docs/en/server/ServerOp7008.png) 
 
@@ -19,7 +19,7 @@ Description
 {{ en.RDM }} 
 		</td>
 		<td>
-Allow user to access {{ en.DVLS }} through {{ en.RDM }} . 
+Allow user to access {{ en.DVLS }} through {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -28,7 +28,7 @@ Allow user to access {{ en.DVLS }} through {{ en.RDM }} .
 [{{ en.DWL }}](/server/dwl/overview/) 
 		</td>
 		<td>
-Allow user to auto fill username and passwords on websites with {{ en.DWL }} . 
+Allow user to auto fill username and passwords on websites with {{ en.DWL }}. 
 		</td>
 	</tr>
 	<tr>

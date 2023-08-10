@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: Command Line Interface
-  description: A Command Line Interface (CLI) is a Companion Tool which allows {{ en.DVLS }} users to access credentials with the command line.
+  description: A Command Line Interface (CLI) is a {{ en.CTOOL }} which allows {{ en.DVLS }} users to access credentials with the command line.
   keywords:
   - CLI
   - Command Line Interface
 ---
-A Command Line Interface (CLI) is a Companion Tool which allows {{ en.DVLS }} users to access credentials with the command line.  
+A Command Line Interface (CLI) is a {{ en.CTOOL }} which allows {{ en.DVLS }} users to access credentials with the command line.  
 Listed below are the available command line: 
 
 ## Config 

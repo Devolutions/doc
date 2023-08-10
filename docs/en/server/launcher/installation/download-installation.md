@@ -1,10 +1,10 @@
 ---
-title: Download and Installation
+title: Download and installation
 order: 20
 ---
 Follow these steps to download and install {{ en.DLAUNCHER }}:  
 
-1. Download [{{ en.DLAUNCHER }}](https://devolutions.net/launcher/download) or search the companion tools in the products section of our [Devolutions](https://devolutions.net/) website. 
+1. Download [{{ en.DLAUNCHER }}](https://devolutions.net/launcher/download) or search the {{ en.CTOOLS }} in the products section of our [Devolutions](https://devolutions.net/) website. 
 ![!!ServerOp4031.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4031.png) 
 1. Launch the executable file. 
 1. Click ***Next*** on the welcome page. 
@@ -19,4 +19,3 @@ Follow these steps to download and install {{ en.DLAUNCHER }}:
 ![!!ServerOp4036.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4036.png) 
 1. Click ***Finish*** to complete the installation. 
 ![!!ServerOp4037.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4037.png) 
-

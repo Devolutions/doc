@@ -4,7 +4,7 @@ title: Tools
 The ***Tools*** section is full of resources for {{ en.HUBB }} to download, export, and get in touch with our ***Support Center***.  
 ![!!Hub4046.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4046.png) 
 
-* Download [***Companion Tools***](https://devolutions.net/password-hub/companion-tools), which are additional applications that work hand in hand with our products. 
+* Download [***{{ en.CTOOLS }}***](https://devolutions.net/password-hub/companion-tools), which are additional applications that work hand in hand with our products. 
     * [***{{ en.DWL }}***](/hub/dwl/overview/)is a free browser plugin which allows users to securely inject passwords into websites using credentials stored in their vaults. 
     * With ***{{ en.DLAUNCHER }}*** , all users can open secure remote sessions. 
     * ***Devolutions Worskpace*** provides users with added security by implementing a two-factor authentication. 

@@ -6,7 +6,7 @@ The following guide explains how to move the {{ en.DVLS }} web application on th
 
 ## Step-by-step guide
 
-1. From the {{ en.DVLSCONSOLE }}, uninstall the Scheduler in the Companions tab.  
+1. From the {{ en.DVLSCONSOLE }}, uninstall the Scheduler in the ***Companions*** tab.  
 ![!!KB4144.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4144.png)
 1. Close the {{ en.DVLSCONSOLE }}.
 1. Open IIS Manager.

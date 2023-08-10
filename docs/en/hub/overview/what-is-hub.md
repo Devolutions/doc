@@ -17,7 +17,7 @@ Security is at the core of {{ en.HUB }} since it is hosted by [Microsoft Azure](
 
 {{ en.HUB }} possesses powerful user management features, reports, and accessibility options. Users can be assigned roles and permissions and can also be members of user groups with predefined roles and permissions, streamlining the onboarding process.  
 
-{{ en.HUB }} can be used in combination with our {{ en.RDM }} as a data source as well as with other Devolutions products and companion tools, which you can find below.  
+{{ en.HUB }} can be used in combination with our {{ en.RDM }} as a data source as well as with other Devolutions products and {{ en.CTOOLS }}, which you can find below.  
 
 {% youtube '5vpGXoULNSU' %}  
 

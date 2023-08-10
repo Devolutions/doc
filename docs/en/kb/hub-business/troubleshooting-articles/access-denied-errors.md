@@ -66,7 +66,7 @@ There is no way to recover it if the Emergency reset kit cannot be located.<br>
 Description
 		</td>
 		<td>
-This user is not allowed to access this {{ en.HUBB }} via the {{ en.DWL }} companion tool.
+This user is not allowed to access this {{ en.HUBB }} via the {{ en.DWL }} {{ en.CTOOL }}.
 		</td>
 	</tr>
 	<tr>
@@ -210,7 +210,7 @@ Solution
 Description
 		</td>
 		<td>
-This user is not allowed to access this {{ en.DHUBB }} via the {{ en.DWS }} companion tool.
+This user is not allowed to access this {{ en.DHUBB }} via the {{ en.DWS }} {{ en.CTOOL }}.
 		</td>
 	</tr>
 	<tr>

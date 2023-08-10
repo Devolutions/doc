@@ -7,7 +7,7 @@ The following steps will describe the options to install the Recording Server fo
 The {{ en.DVLSCONSOLE }} is required to install the Recording Server.
 {% endsnippet %}
 
-1. In the {{ en.DVLSCONSOLE }} , select the ***Companions*** tab and click on the ***Install*** button of the ***Recording Server*** section.  
+1. In the {{ en.DVLSCONSOLE }}, select the ***Companions*** tab and click on the ***Install*** button of the ***Recording Server*** section.  
 ![!!KB8014.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8014.png)
 
 1. Agree to the terms of the ***License Agreement*** and click ***Next***  

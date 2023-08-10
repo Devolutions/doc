@@ -15,7 +15,7 @@ La sécurité est au coeur de {{ fr.HUB }} puisque l'application est hébergée 
 
 {{ fr.HUB }} possède de puissantes fonctionnalités de gestion des utilisateurs, de rapports et des options d'accessibilités. Les utilisateurs peuvent se voir attribuer des rôles et permissions et peuvent également être membres de groupes d 'utilisateurs avec des rôles et permissions prédéfinis, ce qui simplifie le processus d'intégration.  
 
-{{ fr.HUB }} peut être utilisé en combinaison avec notre {{ fr.RDM }} comme source de données ainsi qu'avec d'autres produits et outils connexes Devolutions que vous pouvez trouver ci-dessous.  
+{{ fr.HUB }} peut être utilisé en combinaison avec notre {{ fr.RDM }} comme source de données ainsi qu'avec d'autres produits et {{ fr.CTOOLS }} Devolutions que vous pouvez trouver ci-dessous.  
 
 {% youtube 'P9Zu2u6IGYw' %}  
 
