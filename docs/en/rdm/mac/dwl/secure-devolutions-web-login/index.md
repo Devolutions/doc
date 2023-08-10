@@ -1,6 +1,7 @@
 ---
-title: Secure Devolution Web Login
-order: 70
+eleventyComputed:
+  title: Secure {{ en.DWL }}
+  order: 70
 ---
 In {{ en.RDM }} versions 2021.1 and above, we changed how our browser extension {{ en.DWL }} communicates with {{ en.RDM }} to fill in credentials inside web pages. We made these changes to increase the security of this feature. Visit the [First Login](/rdm/mac/dwl/first-login-devolutions-web-login/) topic for the setup steps.  
 

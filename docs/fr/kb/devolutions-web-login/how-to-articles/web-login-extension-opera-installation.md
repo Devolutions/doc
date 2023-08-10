@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Installation de l'extension Web Login sur Opera
+  title: Installation de l'extension {{ fr.DWL }} sur Opera
   description: Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Opera. 
   keywords:
   - Navigateur

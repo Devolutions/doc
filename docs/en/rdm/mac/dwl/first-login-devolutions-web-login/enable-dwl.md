@@ -5,4 +5,4 @@ eleventyComputed:
 
 The {{ en.DWL }} extension is enabled by default in the {{ en.RDM }} entry properties. If it is disabled, you can re-enable it by selecting ***Default (Enabled)*** or ***Enabled*** from the {{ en.DWL }} drop-down list. 
 
-![Enable Devolution Web Login](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl4031.png) 
+![Enable {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl4031.png) 

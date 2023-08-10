@@ -1,5 +1,5 @@
 ---
-title: DWL via Native Messaging
+title: Devolutions Web Login via Native Messaging
 ---
 
 {{ en.DWL }} can work without HTTP(S) by using native messaging. Here are the steps:

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Installation de l'extension Web Login sur Firefox
+  title: Installation de l'extension {{ fr.DWL }} sur Firefox
   description: Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Firefox. 
   keywords:
   - Navigateur
@@ -14,7 +14,7 @@ Suivre les étapes ci-dessous pour compléter l'installation de {{ fr.DWL }} dan
 1. Cliquer sur ***Ajouter***. 
 ![Ajouter l'extension](https://webdevolutions.azureedge.net/docs/fr/kb/KB4039.png) 
 1. Une fois installée, accéder à l'extension en cliquant sur l'icône dans le coin supérieur droit du navigateur Firefox.  
-![Extension Web Login](https://webdevolutions.azureedge.net/docs/fr/kb/KB4040.png) 
+![Extension {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/kb/KB4040.png) 
 
 
 

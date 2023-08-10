@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Installation de l'extension Web Login sur Edge
+  title: Installation de l'extension {{ fr.DWL }} sur Edge
   description: Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Edge. 
   keywords:
   - Navigateur
