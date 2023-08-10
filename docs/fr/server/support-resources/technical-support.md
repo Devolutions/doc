@@ -1,5 +1,6 @@
 ---
 title: Soutien technique
+status: Topic available in German language
 ---
 
 Heures: Lundi au vendredi de 7 h 30 à 18 h HAE  
