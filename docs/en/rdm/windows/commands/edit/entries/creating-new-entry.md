@@ -1,5 +1,5 @@
 ---
-title: Creating an Entry
+title: Creating an entry
 ---
 {% youtube '-3Dfoy1qaQ0' %}  
 
