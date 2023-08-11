@@ -72,7 +72,7 @@ Force checked out entries to check in automatically after a set delay.
 Allow sub entries 
 		</td>
 		<td>
-Allow users to create sub entries. 
+Allow the creation of sub entries. 
 		</td>
 	</tr>
 	<tr>
