@@ -1,6 +1,7 @@
 ---
 title: Remote Desktop Manager 
 order: 10
+status: Topic available in German language
 ---
 ![!!{{ en.RDM }} logo]({{ locale.en.projects.rdm.logo }})
 

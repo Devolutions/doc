@@ -80,7 +80,7 @@ Do not share the private key with other users, as it can be used to decrypt the 
     1. ***Name***: Name of the gateway that will be displayed in {{ en.RDM }}.
     1. ***Description***: Description of the gateway.
     1. ***Set as default***: If enabled, this gateway will be selected by default when configuring {{ en.RDM }}.
-    1. ***{{ en.DGW }} URL***: The {{ en.DVLS }} URL that the gateway will connect to.
+    1. ***{{ en.DGW }} URL***: The {{ en.DGW }} URL and Port that {{ en.DVLS }} will connect to, for example: **https://gateway.example.com:7171**.
     1. ***TCP Listening Port***: Set the port with the same TCP port value configured in the {{ en.DVLSCONSOLE }}.
 1. Click on ***Save***.  
 ![{{ en.DGW }} Information](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0015.png)
