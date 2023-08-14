@@ -1,5 +1,6 @@
 ---
-title: Configure an older {{ en.RDM }} version AD Interactive (with MFA)
+eleventyComputed:
+  title: Configure an older {{ en.RDM }} version AD Interactive (with MFA)
 ---
 {% snippet icon.badgeInfo %} 
 This topic is for {{ en.RDM }} versions lower than 2022.1. If you are using 2022.1 and higher please follow this [topic](DataSources_Advanced_SqlAzure_ConfigureSqlAzureForADConnections) instead. 
