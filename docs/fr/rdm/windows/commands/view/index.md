@@ -1,7 +1,7 @@
 ---
 title: Affichage
 ---
-L'onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l'affichage, les journaux et la disposition de {{ fr.RDM }} .  
+L'onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l'affichage, les journaux et la disposition de {{ fr.RDM }}.  
 ![Onglet Affichage](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10768.png) 
 
 Reportez-vous aux rubriques suivantes pour plus d'informations :  
@@ -36,7 +36,7 @@ Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le [coffre](/fr/rdm/wi
 Mon {{ fr.UVLT }} 
 		</td>
 		<td>
-Afficher votre ***{{ fr.UVLT }}*** dans le [***{{ fr.NPANE }}***](/fr/rdm/windows/commands/view/panels/vault/) . 
+Afficher votre ***{{ fr.UVLT }}*** dans le [***{{ fr.NPANE }}***](/fr/rdm/windows/commands/view/panels/vault/). 
 		</td>
 	</tr>
 	<tr>
@@ -44,7 +44,7 @@ Afficher votre ***{{ fr.UVLT }}*** dans le [***{{ fr.NPANE }}***](/fr/rdm/window
 Sessions ouvertes 
 		</td>
 		<td>
-Afficher les [sessions actuellement ouvertes](/fr/rdm/windows/commands/view/panels/opened-sessions/) dans le ***{{ fr.NPANE }}*** . 
+Afficher les [sessions actuellement ouvertes](/fr/rdm/windows/commands/view/panels/opened-sessions/) dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -52,7 +52,7 @@ Afficher les [sessions actuellement ouvertes](/fr/rdm/windows/commands/view/pane
 Tableau de bord PAM 
 		</td>
 		<td>
-Se connecter à un compte privilégié, copier son mot de passe et gérer son processus de réservation/restitution par un [tableau de bord de gestion des accès privilégiés](/fr/rdm/windows/commands/view/panels/pam-dashboard/) . 
+Se connecter à un compte privilégié, copier son mot de passe et gérer son processus de réservation/restitution par un [tableau de bord de gestion des accès privilégiés](/fr/rdm/windows/commands/view/panels/pam-dashboard/). 
 		</td>
 	</tr>
 	<tr>
@@ -60,7 +60,7 @@ Se connecter à un compte privilégié, copier son mot de passe et gérer son pr
 Favoris 
 		</td>
 		<td>
-Afficher vos [entrées favorites](/fr/rdm/windows/user-interface/navigation-pane/favorite-entries/) dans le ***{{ fr.NPANE }}*** . 
+Afficher vos [entrées favorites](/fr/rdm/windows/user-interface/navigation-pane/favorite-entries/) dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ Afficher vos [entrées favorites](/fr/rdm/windows/user-interface/navigation-pane
 Récent 
 		</td>
 		<td>
-Afficher vos [entrées les plus récemment utilisées](/fr/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/) dans le ***{{ fr.NPANE }}*** . 
+Afficher vos [entrées les plus récemment utilisées](/fr/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/) dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -106,7 +106,7 @@ DESCRIPTION
 Connexion rapide 
 		</td>
 		<td>
-Lancer une session de [***Connexion rapide***](/fr/rdm/windows/commands/view/view/quick-connect/) . 
+Lancer une session de [***Connexion rapide***](/fr/rdm/windows/commands/view/view/quick-connect/). 
 		</td>
 	</tr>
 	<tr>
@@ -114,7 +114,7 @@ Lancer une session de [***Connexion rapide***](/fr/rdm/windows/commands/view/vie
 Journaux d'activité 
 		</td>
 		<td>
-Ouvrir les [***Journaux d'activité***](/fr/rdm/windows/commands/view/view/activity-logs/) . 
+Ouvrir les [***Journaux d'activité***](/fr/rdm/windows/commands/view/view/activity-logs/). 
 		</td>
 	</tr>
 	<tr>
@@ -215,7 +215,7 @@ DESCRIPTION
 Navigation 
 		</td>
 		<td>
-Basculer le [***{{ fr.NPANE }}***](/fr/rdm/windows/user-interface/navigation-pane/) . 
+Basculer le [***{{ fr.NPANE }}***](/fr/rdm/windows/user-interface/navigation-pane/). 
 		</td>
 	</tr>
 	<tr>
@@ -223,7 +223,7 @@ Basculer le [***{{ fr.NPANE }}***](/fr/rdm/windows/user-interface/navigation-pan
 Tableau de bord 
 		</td>
 		<td>
-Basculer le [***Tableau de bord***](/fr/rdm/windows/user-interface/content-area/dashboards/) . 
+Basculer le [***Tableau de bord***](/fr/rdm/windows/user-interface/content-area/dashboards/). 
 		</td>
 	</tr>
 	<tr>
@@ -231,7 +231,7 @@ Basculer le [***Tableau de bord***](/fr/rdm/windows/user-interface/content-area/
 Miniatures 
 		</td>
 		<td>
-Basculer les ***Miniatures*** . 
+Basculer les ***Miniatures***. 
 		</td>
 	</tr>
 	<tr>
@@ -239,7 +239,7 @@ Basculer les ***Miniatures*** .
 Volet supérieur (Ruban/Barre de menu) 
 		</td>
 		<td>
-Basculer le ***Ruban*** (cliquer avec le bouton droit sur l'en-tête de l'application pour la récupérer ou utiliser Alt+F11 ). 
+Basculer le ***Ruban*** (cliquer avec le bouton droit sur l'en-tête de l'application pour la récupérer ou utiliser Alt+F11). 
 		</td>
 	</tr>
 	<tr>
@@ -255,7 +255,7 @@ Basculer la [***Barre d'onglets groupés***](/fr/rdm/windows/commands/view/layou
 Barre d'état 
 		</td>
 		<td>
-Basculer la ***Barre d'état*** . 
+Basculer la ***Barre d'état***. 
 		</td>
 	</tr>
 	<tr>
@@ -263,7 +263,7 @@ Basculer la ***Barre d'état*** .
 Description 
 		</td>
 		<td>
-Basculer le volet ***Description*** . 
+Basculer le volet ***Description***. 
 		</td>
 	</tr>
 	<tr>
@@ -271,7 +271,7 @@ Basculer le volet ***Description*** .
 Actif 
 		</td>
 		<td>
-Basculer le volet ***Actif*** . 
+Basculer le volet ***Actif***. 
 		</td>
 	</tr>
 	<tr>
@@ -279,7 +279,7 @@ Basculer le volet ***Actif*** .
 Pièces jointes 
 		</td>
 		<td>
-Basculer le volet [***Pièces jointes***](/fr/rdm/windows/commands/view/layout/attachments/) . 
+Basculer le volet [***Pièces jointes***](/fr/rdm/windows/commands/view/layout/attachments/). 
 		</td>
 	</tr>
 	<tr>
@@ -287,7 +287,7 @@ Basculer le volet [***Pièces jointes***](/fr/rdm/windows/commands/view/layout/a
 Journaux 
 		</td>
 		<td>
-Basculer le volet [***Journaux***](/fr/rdm/windows/commands/view/layout/logs/) . 
+Basculer le volet [***Journaux***](/fr/rdm/windows/commands/view/layout/logs/). 
 		</td>
 	</tr>
 	<tr>
@@ -295,13 +295,13 @@ Basculer le volet [***Journaux***](/fr/rdm/windows/commands/view/layout/logs/) .
 Tâche 
 		</td>
 		<td>
-Basculer le volet [***Tâche***](/fr/rdm/windows/commands/view/layout/task/) . 
+Basculer le volet [***Tâche***](/fr/rdm/windows/commands/view/layout/task/). 
 		</td>
 	</tr>
 </table>
 
 {% snippet icon.badgeInfo %} 
-Bien qu'ils soient affichés par défaut dans une fenêtre, tous ces volets peuvent être glissés et ancrés n'importe où dans {{ fr.RDM }} . 
+Bien qu'ils soient affichés par défaut dans une fenêtre, tous ces volets peuvent être glissés et ancrés n'importe où dans {{ fr.RDM }}. 
 {% endsnippet %}
  
 

@@ -5,7 +5,7 @@ title: Export and Import User Specific Settings
 The ***Export*** and ***Import*** features for the ***User Specific Settings*** are vault specific, which means that you must select the vault from or into which you want to export or import your settings.
 {% endsnippet %}
 
-If you or your ***Users*** are overriding entry properties with ***User Specific Settings*** in {{ en.RDM }} , everyone will be required to export and import the ***User Specific Settings List*** when migrating data.
+If you or your ***Users*** are overriding entry properties with ***User Specific Settings*** in {{ en.RDM }}, everyone will be required to export and import the ***User Specific Settings List*** when migrating data.
 
 - [Export](#export)
 - [Import](#import)

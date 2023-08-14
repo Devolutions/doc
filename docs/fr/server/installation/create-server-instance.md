@@ -4,18 +4,18 @@ eleventyComputed:
   order: 30
 ---
 {% snippet icon.badgeInfo %} 
-Si vous venez tout juste de recevoir vos clés de licence, veuillez d'abord consulter la section [Introduction](/fr/server/getting-started/) . 
+Si vous venez tout juste de recevoir vos clés de licence, veuillez d'abord consulter la section [Introduction](/fr/server/getting-started/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Pour plus d'informations à propos de chaque fonctionnalité dans l'assistant de déploiement, veuillez consulter les sections respectives dans le chapitre [Paramètres du serveur](/fr/server/management/devolutions-server-console/devolutions-server-settings/general/) . 
+Pour plus d'informations à propos de chaque fonctionnalité dans l'assistant de déploiement, veuillez consulter les sections respectives dans le chapitre [Paramètres du serveur](/fr/server/management/devolutions-server-console/devolutions-server-settings/general/). 
 {% endsnippet %}
  
 Plusieurs instances de {{ fr.DVLS }} peuvent être installées sur le même serveur. Chaque instance a sa propre application Web dans IIS. Les étapes suivantes requièrent l'utilisation de la ***{{ fr.DVLSCONSOLE }}***.  
 
 ## Procédure 
 
-1. Installer la ***{{ fr.DVLSCONSOLE }}***  sur le serveur Web. Elle est téléchargeable sur la [page de téléchargement](https://server.devolutions.net/fr/home/download) . 
+1. Installer la ***{{ fr.DVLSCONSOLE }}***  sur le serveur Web. Elle est téléchargeable sur la [page de téléchargement](https://server.devolutions.net/fr/home/download). 
 1. Exécuter la ***{{ fr.DVLSCONSOLE }}*** avec des privilèges élevés (Exécuter en tant qu'administrateur). Cliquer avec le bouton droit sur l'icône de l'application, puis sélectionner Exécuter en tant qu'administrateur . 
 
 {% snippet icon.shieldWarning %} 
@@ -49,9 +49,9 @@ Nous vous déconseillons de définir le dossier d'installation sur C:\Program Fi
  
 ![Source et Destination de l'installation](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8053.png)  
 
-10. Sous ***Identifiants d'administration***, remplir les informations pour créer un compte administrateur {{ fr.DVLS }} . Tous les champs sont requis.  
+10. Sous ***Identifiants d'administration***, remplir les informations pour créer un compte administrateur {{ fr.DVLS }}. Tous les champs sont requis.  
 ![Créer un administrateur](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4018.png) 
-1. Sous ***Sauvegarde***, sélectionner le dossier de destination et le nom de fichier du fichier de clés de chiffrement {{ fr.DVLS }} . Et définir un mot de passe pour protéger ce fichier.  
+1. Sous ***Sauvegarde***, sélectionner le dossier de destination et le nom de fichier du fichier de clés de chiffrement {{ fr.DVLS }}. Et définir un mot de passe pour protéger ce fichier.  
 {% snippet icon.shieldNotice %} 
 Nous vous recommandons de protéger les clés de chiffrement dans un coffre pour éviter toute perte de données si {{ fr.DVLS }} doit être restauré. 
 {% endsnippet %}

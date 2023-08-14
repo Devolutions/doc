@@ -4,7 +4,7 @@ description: Voici les raccourcis clavier par défaut pour diverses commandes
 keywords:
 - Raccourcis clavier
 ---
-Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Options – Interface utilisateur – Clavier*** .  
+Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Options – Interface utilisateur – Clavier***.  
 
 Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis. Le bouton ***Réinitialiser par défaut*** permet de rétablir les valeurs par défaut des raccourcis. 
 
@@ -13,7 +13,7 @@ Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effacent 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Consultez notre rubrique sur la [personnalisation de vos raccourcis (EN)](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/) . 
+Consultez notre rubrique sur la [personnalisation de vos raccourcis (EN)](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/). 
 {% endsnippet %}
  
 ![Raccourcis clavier](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2061.png) 

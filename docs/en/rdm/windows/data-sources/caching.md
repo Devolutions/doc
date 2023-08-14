@@ -4,7 +4,7 @@ title: Caching
 The caching mode will determine how the client will refresh the content of the data source when changes are detected. On large data sources, caching is essential as it increases performance significantly. 
 
 {% snippet icon.badgeInfo %} 
-This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 

@@ -1,7 +1,7 @@
 ---
 title: Messages sécurisés
 ---
-Envoyer et réceptionner des ***Messages sécurisés*** avec des utilisateurs depuis votre {{ fr.HUB }} . Cliquer sur l'icône ***Messages*** en haut de votre avatar pour créer et lire des messages sécurisés.  
+Envoyer et réceptionner des ***Messages sécurisés*** avec des utilisateurs depuis votre {{ fr.HUB }}. Cliquer sur l'icône ***Messages*** en haut de votre avatar pour créer et lire des messages sécurisés.  
 
 ![!!Hub4114.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4114.png) 
 
@@ -21,9 +21,9 @@ Envoyer et réceptionner des ***Messages sécurisés*** avec des utilisateurs de
 Vous pouvez envoyer une copie de l'une de vos entrées à d'autres utilisateurs avec des messages sécurisés.  
 
 1. Sélectionner l'entrée dans votre ***{{ fr.NPANE }}***. 
-1. Cliquer sur le bouton ***Plus*** .  
+1. Cliquer sur le bouton ***Plus***.  
 ![!!Hub4115.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4115.png) 
-1. Cliquer ***Envoyer*** .  
+1. Cliquer ***Envoyer***.  
 ![!!Hub4116.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4116.png) 
 1. Sélectionner le receveur par son nom. 
 1. Remplir le Sujet et ajouter un Message sécurisé . 

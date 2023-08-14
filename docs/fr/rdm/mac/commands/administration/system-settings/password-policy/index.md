@@ -1,7 +1,7 @@
 ---
 title: Politique de mot de passe
 ---
-La ***Politique de mot de passe*** vous permet de gérer les différentes politiques et paramètres de mot de passe pour votre source de données. Pour plus d'informations sur les [Modèles de mot de passe](/fr/rdm/mac/commands/administration/system-settings/password-policy/password-complexity/) , suivez ce lien.  
+La ***Politique de mot de passe*** vous permet de gérer les différentes politiques et paramètres de mot de passe pour votre source de données. Pour plus d'informations sur les [Modèles de mot de passe](/fr/rdm/mac/commands/administration/system-settings/password-policy/password-complexity/), suivez ce lien.  
 
 Certains de ces paramètres peuvent être remplacés à l'aide de stratégies de groupe. 
 
@@ -32,7 +32,7 @@ Désactiver l'enregistrement de mot de passe (paramètres spécifiques de l'util
 		</td>
 		<td>
 
-Les utilisateurs ne pourront pas enregistrer de mot de passe dans les [Paramètres spécifiques à l'utilisateur](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/) . 
+Les utilisateurs ne pourront pas enregistrer de mot de passe dans les [Paramètres spécifiques à l'utilisateur](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/). 
 		</td>
 	</tr>
 	<tr>

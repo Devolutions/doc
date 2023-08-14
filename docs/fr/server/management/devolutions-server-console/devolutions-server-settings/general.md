@@ -2,7 +2,7 @@
 title: Général
 order: 10
 ---
-La section de l'onglet ***Général*** contient les informations de base de l'instance {{ fr.DVLS }} tels que le ***Nom*** , la ***Description*** , les ***Licences*** , etc.  
+La section de l'onglet ***Général*** contient les informations de base de l'instance {{ fr.DVLS }} tels que le ***Nom***, la ***Description***, les ***Licences***, etc.  
 
 ![Paramètres Serveur - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8006.png) 
 
@@ -98,7 +98,7 @@ Affiche l'édition {{ fr.DVLS }} en fonction de votre clé de licence.
 Expiration 
 		</td>
 		<td>
-Date d'expiration de la clé de licence de {{ fr.DVLS }} . 
+Date d'expiration de la clé de licence de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 </table>

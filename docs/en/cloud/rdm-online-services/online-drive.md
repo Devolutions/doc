@@ -17,7 +17,7 @@ The {{ en.OD }} is for single users only, and it cannot share files.
 
 1. From {{ en.RDM }} in ***File - Data Sources***, create a new ***{{ en.DOD }}*** data source.  
 ![!!clip4017.png](https://webdevolutions.azureedge.net/docs/en/cloud/clip4017.png) 
-1. Enter your {{ en.DA }} credentials, or change the ***Connection mode*** to use the [Application password](/cloud/sign-in-security/application-passwords/) .  
+1. Enter your {{ en.DA }} credentials, or change the ***Connection mode*** to use the [Application password](/cloud/sign-in-security/application-passwords/).  
 ![!!Cloud4056.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4056.png) 
 {% snippet icon.badgeNotice %} 
 Consult the [{{ en.OD }} Settings](/rdm/windows/data-sources/data-sources-types/online-drive/) topic for more information on the configuration settings. 

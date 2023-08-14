@@ -2,7 +2,7 @@
 title: Configure Azure SQL
 ---
 1. Make sure you have a valid Azure SQL subscription to be able to create your database. 
-1. Click on the gear button in the ***{{ en.NPANE }}*** or go to ***File – Data sources*** .  
+1. Click on the gear button in the ***{{ en.NPANE }}*** or go to ***File – Data sources***.  
 ![!!RDMMac4033.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4033.png) 
 1. Click on the plus sign to create a new data source.  
 ![!!RDMMac4034.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4034.png) 

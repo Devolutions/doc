@@ -35,7 +35,7 @@ To fix this, change the DEP settings for the application as follows:
 ### Problem 5
 Launched external windows (such as ie) popup in the background.
 ### Solution 5
-You may have noticed that when you launch items such as IE windows from within {{ en.RDM }} , they pop-up in the background.  
+You may have noticed that when you launch items such as IE windows from within {{ en.RDM }}, they pop-up in the background.  
 
 The ForegroundLockTimeout registry value for the User’s Profile has to be modified from the default of 200000 down to 0:  
 
@@ -51,4 +51,4 @@ Enable the option: ***Use embedded Microsoft Edge for overview panel*** in ***Fi
 
 Enable the option: ***Enable context menu in Overview*** in ***File - Options - User Interface - Dashboard***  
 
-Open the ***Internet Properties*** dialogue. Go to ***Security - Custom level*** , scroll down to ***Allow Programmatic clipboard access*** and select ***Enable***
+Open the ***Internet Properties*** dialogue. Go to ***Security - Custom level***, scroll down to ***Allow Programmatic clipboard access*** and select ***Enable***

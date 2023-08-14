@@ -3,7 +3,7 @@ title: Entrées supprimées
 ---
 L'option ***Administration - Entrées supprimées*** vous permet d'afficher les entrées supprimées ainsi que de les restaurer. 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -11,7 +11,7 @@ Les administrateurs peuvent supprimer définitivement certaines ou toutes les en
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Les sous entrées ne sont pas conservées dans la fenêtre ***Entrées supprimées*** . Pour restaurer une sous entrée, veuillez consulter l'***Historique des entrées***. 
+Les sous entrées ne sont pas conservées dans la fenêtre ***Entrées supprimées***. Pour restaurer une sous entrée, veuillez consulter l'***Historique des entrées***. 
 {% endsnippet %}
  
 ## Paramètres 

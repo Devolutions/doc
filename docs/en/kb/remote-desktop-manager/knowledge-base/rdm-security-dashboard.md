@@ -101,7 +101,7 @@ The application password should be used to encrypt sensitive information in {{ e
 Mitigation
 		</td>
 		<td>
-In File - Options - Security - Application Security (local) , choose Use application password and check Encrypt local files using the application password
+In File - Options - Security - Application Security (local), choose Use application password and check Encrypt local files using the application password
 		</td>
 	</tr>
 </table>
@@ -385,7 +385,7 @@ In Administration - System Settings - Security , check Create vaults with restri
 Description
 		</td>
 		<td>
-When presented with an unknown certificate, the RDP client should be configured to either present a warning ( Warn me ) or abort the connection ( Do not connect ).
+When presented with an unknown certificate, the RDP client should be configured to either present a warning (Warn me) or abort the connection (Do not connect).
 		</td>
 	</tr>
 	<tr>

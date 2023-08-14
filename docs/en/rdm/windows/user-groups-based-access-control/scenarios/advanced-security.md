@@ -2,7 +2,7 @@
 title: Advanced Security
 ---
 {% snippet icon.badgeInfo %} 
-This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -24,9 +24,9 @@ Here is an example of user configuration. To create users, navigate to ***Admini
 In this scenario, all the options in the ***Privileges*** section of the ***User Management*** are set to ***None***. 
 {% endsnippet %}
  
-Here we select the user type to give them the most basic rights ( ***Add***, ***Edit***, and ***Delete*** ).  
+Here we select the user type to give them the most basic rights (***Add***, ***Edit***, and ***Delete***).  
 
-***ServiceDesk*** users are ***Restricted users*** . They have the ***Add*** and ***Edit*** rights. However, they cannot add entries into the {{ en.VLT }} folder.  
+***ServiceDesk*** users are ***Restricted users***. They have the ***Add*** and ***Edit*** rights. However, they cannot add entries into the {{ en.VLT }} folder.  
 ![User Management - ServiceDesk - Restricted User](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3393.png) 
 
 ***HelpDesk*** users are ***Restricted Users*** as well. They only have the ***Add*** right. However, they cannot add entries into the {{ en.VLT }} folder.  
@@ -42,7 +42,7 @@ Now that the users are created, we will add the user groups which we will later 
 * HelpDesk 
 * Consultants 
 
-To add a user group, click the ***Add User Group*** button, enter a name for the user group, and click ***Ok*** .  
+To add a user group, click the ***Add User Group*** button, enter a name for the user group, and click ***Ok***.  
 
 To assign users to a user group, select a user group and click the ***Assign User Groups*** button. Use the ***Is Member*** check boxes to add users to the user group.  
 ![User and Security Management - User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3472.png) 
@@ -67,7 +67,7 @@ The permission to view the Windjammer folder is set for the ServiceDesk only sin
 ![Windjammer - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3398.png) 
 
 * ***View: Custom***; ServiceDesk. 
-* ***Add: Inherited***; Never inherited from {{ en.VLT }} . Only the administrator can add entries. 
+* ***Add: Inherited***; Never inherited from {{ en.VLT }}. Only the administrator can add entries. 
 * ***Edit: Inherited***; Never inherited from {{ en.VLT }}. Only the administrator can edit entries. 
 * ***Delete: Inherited***; Never inherited from {{ en.VLT }}. Only the administrator can delete entries. 
 
@@ -77,7 +77,7 @@ For Downhill Pro, we grant permissions to the ServiceDesk and the HelpDesk.
 * ***View: Custom***; HelpDesk, ServiceDesk. 
 * ***Add: Custom***; ServiceDesk. 
 * ***Edit: Custom***; ServiceDesk. 
-* ***Delete: Inherited***; Never inherited from {{ en.VLT }} . Only the administrator can delete entries.  
+* ***Delete: Inherited***; Never inherited from {{ en.VLT }}. Only the administrator can delete entries.  
 
 We already have a good example of the flexibility of {{ en.RDM }} Security. ServiceDesk and HelpDesk users can view and use all the entries in the Downhill Pro folder, even the credential entries, but they will never see any passwords since the ServiceDesk and HelpDesk users do not have the privilege to reveal passwords.  
 
@@ -87,7 +87,7 @@ Next, for the Telemark folder, we grant permissions to the ServiceDesk, the Help
 * ***View: Custom***; Consultants, HelpDesk, ServiceDesk. 
 * ***Add: Custom***; ServiceDesk. 
 * ***Edit: Custom***; ServiceDesk. 
-* ***Delete: Inherited***; Never inherited from {{ en.VLT }} . Only the administrator can delete entries. 
+* ***Delete: Inherited***; Never inherited from {{ en.VLT }}. Only the administrator can delete entries. 
 
 **Telemark Child Items** 
 

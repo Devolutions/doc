@@ -55,7 +55,7 @@ This will prompt for you to select the ***Typing Macro*** (exclusively) you wish
 Launch at startup 
 		</td>
 		<td>
-Here you can select a specific Play List you would like launched whenever the application starts. You can also default back to ***None*** or ***Last opened Connections*** . 
+Here you can select a specific Play List you would like launched whenever the application starts. You can also default back to ***None*** or ***Last opened Connections***. 
 		</td>
 	</tr>
 </table>

@@ -22,7 +22,7 @@ Description
 Log de débogage 
 		</td>
 		<td>
-Activer les journaux de l'instance {{ fr.DVLS }} . Lorsqu'elle est activée, cela augmentera le niveau de débogage et fournira plus d'entrées de journal. 
+Activer les journaux de l'instance {{ fr.DVLS }}. Lorsqu'elle est activée, cela augmentera le niveau de débogage et fournira plus d'entrées de journal. 
 		</td>
 	</tr>
 	<tr>

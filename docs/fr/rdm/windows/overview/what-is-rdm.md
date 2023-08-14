@@ -7,7 +7,7 @@ status: Topic available in German language
 
 {{ fr.RDM }} est une application qui intègre un ensemble complet d'outils et de gestionnaires pour répondre aux besoins de toute équipe TI. Elle est conçue pour centraliser toutes vos connexions et vos identifiants. La plupart des connexions sont établies grâce à une librairie externe ou un logiciel tiers.  
 
-{{ fr.RDM }} est compatible avec plusieurs des technologies et outils les plus populaires, dont Apple Remote Desktop , Citrix , Dameware , FTP , Hyper-V , LogMeIn , Radmin , RDP (Microsoft Remote Desktop) , redirection de port SSH , SSH Shell , TeamViewer, Telnet , Terminal Services , VMware , VNC , SCP , X Windows et bien d'autres! 
+{{ fr.RDM }} est compatible avec plusieurs des technologies et outils les plus populaires, dont Apple Remote Desktop , Citrix , Dameware , FTP , Hyper-V , LogMeIn , Radmin , RDP (Microsoft Remote Desktop), redirection de port SSH , SSH Shell , TeamViewer, Telnet , Terminal Services , VMware , VNC , SCP , X Windows et bien d'autres! 
 
 {% youtube 'AFZnD0TEetw' %}
 

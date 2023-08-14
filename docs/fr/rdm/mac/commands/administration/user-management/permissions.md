@@ -33,7 +33,7 @@ Permets à l'utilisateur de visualiser ET D'UTILISER les entrées de ce groupe d
 Ajouter 
 		</td>
 		<td>
-Permets à l'utilisateur d'ajouter des entrées dans un dossier pour ce groupe de sécurité. Accordera également le privilège Ajouter aux groupes publics. Contrôle également la visibilité de la colonne Ajouter dans la grille Groupes. Le privilège Ajouter doit être coché si l'utilisateur doit ajouter des entrées dans le {{ fr.UVLT }} . 
+Permets à l'utilisateur d'ajouter des entrées dans un dossier pour ce groupe de sécurité. Accordera également le privilège Ajouter aux groupes publics. Contrôle également la visibilité de la colonne Ajouter dans la grille Groupes. Le privilège Ajouter doit être coché si l'utilisateur doit ajouter des entrées dans le {{ fr.UVLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -41,7 +41,7 @@ Permets à l'utilisateur d'ajouter des entrées dans un dossier pour ce groupe d
 Modifier 
 		</td>
 		<td>
-Permets à l'utilisateur de modifier des entrées dans un dossier pour ce groupe de sécurité. Accordera également le privilège de modifier les groupes publics. Contrôle également la visibilité de la colonne Modifier dans la grille Groupes. Le privilège de modification doit être coché si l'utilisateur doit modifier des entrées dans le {{ fr.UVLT }} . 
+Permets à l'utilisateur de modifier des entrées dans un dossier pour ce groupe de sécurité. Accordera également le privilège de modifier les groupes publics. Contrôle également la visibilité de la colonne Modifier dans la grille Groupes. Le privilège de modification doit être coché si l'utilisateur doit modifier des entrées dans le {{ fr.UVLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +49,7 @@ Permets à l'utilisateur de modifier des entrées dans un dossier pour ce groupe
 Supprimer 
 		</td>
 		<td>
-Permets à l'utilisateur de supprimer des entrées dans un dossier pour ce groupe de sécurité. Accordera également le privilège de supprimer les groupes publics. Contrôle également la visibilité de la colonne Supprimer dans la grille Groupes. Le privilège de suppression doit être coché si l'utilisateur doit supprimer des entrées dans le {{ fr.UVLT }} . 
+Permets à l'utilisateur de supprimer des entrées dans un dossier pour ce groupe de sécurité. Accordera également le privilège de supprimer les groupes publics. Contrôle également la visibilité de la colonne Supprimer dans la grille Groupes. Le privilège de suppression doit être coché si l'utilisateur doit supprimer des entrées dans le {{ fr.UVLT }}. 
 		</td>
 	</tr>
 </table>

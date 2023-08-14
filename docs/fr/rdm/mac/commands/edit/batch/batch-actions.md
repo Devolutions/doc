@@ -45,7 +45,7 @@ Analysera toutes vos entrées dans votre base de données actuelle pour détecte
 ### Web 
 
 {% snippet icon.badgeInfo %} 
-Ces options ne fonctionnent qu'avec l'entrée de session ***Site Web*** , PAS avec l'entrée d'informations ***Site Web (Ancien)*** . 
+Ces options ne fonctionnent qu'avec l'entrée de session ***Site Web***, PAS avec l'entrée d'informations ***Site Web (Ancien)***. 
 {% endsnippet %}
  
 ![Modifier - Web](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0249.png) 

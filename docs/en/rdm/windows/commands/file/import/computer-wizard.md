@@ -2,7 +2,7 @@
 title: Import Computer Wizard
 ---
 {% snippet icon.badgeInfo %} 
-This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 The ***Import Computer Wizard*** allows you to create sessions for computers using one of the following sources:  

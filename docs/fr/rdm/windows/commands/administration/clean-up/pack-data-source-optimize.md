@@ -5,7 +5,7 @@ Lorsque vous conservez un grand nombre d'entrées dans votre source de données,
 
 ## Paramètres 
 
-1. Ouvrir la source de données que vous souhaitez optimiser. Dans ***Administration*** , cliquer sur ***Optimiser la source de données*** , puis sur ***Analyser*** .  
+1. Ouvrir la source de données que vous souhaitez optimiser. Dans ***Administration***, cliquer sur ***Optimiser la source de données***, puis sur ***Analyser***.  
 ![Optimiser la source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10764.png) 
-1. Une fois l'analyse terminée, cliquer sur ***Optimiser*** pour poursuivre l'optimisation de votre source de données. Vous pouvez sélectionner le coffre que vous souhaitez analyser et optimiser, ou utiliser la fonction ***Optimiser tout*** pour effectuer l'action ***Optimiser sur tous les coffres disponibles*** . 
+1. Une fois l'analyse terminée, cliquer sur ***Optimiser*** pour poursuivre l'optimisation de votre source de données. Vous pouvez sélectionner le coffre que vous souhaitez analyser et optimiser, ou utiliser la fonction ***Optimiser tout*** pour effectuer l'action ***Optimiser sur tous les coffres disponibles***. 
 

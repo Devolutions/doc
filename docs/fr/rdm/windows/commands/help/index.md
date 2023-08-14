@@ -1,7 +1,7 @@
 ---
 title: Aide
 ---
-L'onglet d' ***Aide*** contient des liens vers le ***Forum Devolutions*** et l' ***Aide en ligne*** , ainsi que de nombreuses fonctionnalités liées au support, telles que les ***Journaux des applications*** , le ***Profileur*** et l' ***Enregistreur*** .  
+L'onglet d'***Aide*** contient des liens vers le ***Forum Devolutions*** et l'***Aide en ligne***, ainsi que de nombreuses fonctionnalités liées au support, telles que les ***Journaux des applications***, le ***Profileur*** et l'***Enregistreur***.  
 ![Aide](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11352.png) 
 
 ### Aide 
@@ -21,7 +21,7 @@ DESCRIPTION
 Aide en ligne 
 		</td>
 		<td>
-Lancer la documentation d' [Aide en ligne](/fr/rdm/windows/overview/what-is-rdm/) pour {{ fr.RDM }} . 
+Lancer la documentation d'[Aide en ligne](/fr/rdm/windows/overview/what-is-rdm/) pour {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -59,7 +59,7 @@ Ouvrir les [Journaux des applications](/fr/rdm/windows/commands/help/support/app
 Diagnostic 
 		</td>
 		<td>
-Lance la fonction [Diagnostic](/fr/rdm/windows/commands/help/support/diagnostic/) . 
+Lance la fonction [Diagnostic](/fr/rdm/windows/commands/help/support/diagnostic/). 
 		</td>
 	</tr>
 	<tr>
@@ -83,7 +83,7 @@ Utiliser le [Profileur](/fr/rdm/windows/commands/help/support/profiler/) pour ac
 Commencer l'enregistrement 
 		</td>
 		<td>
-Utiliser l' [Enregistreur](/fr/rdm/windows/commands/help/support/record/) pour aider notre équipe de support Devolutions à dépanner le trouble. 
+Utiliser l'[Enregistreur](/fr/rdm/windows/commands/help/support/record/) pour aider notre équipe de support Devolutions à dépanner le trouble. 
 		</td>
 	</tr>
 	<tr>
@@ -136,7 +136,7 @@ Valide si des mises à jour sont disponible.
 À propos 
 		</td>
 		<td>
-En savoir plus sur {{ fr.RDM }} . 
+En savoir plus sur {{ fr.RDM }}. 
 		</td>
 	</tr>
 </table>

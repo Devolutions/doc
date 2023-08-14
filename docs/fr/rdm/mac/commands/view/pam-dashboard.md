@@ -12,7 +12,7 @@ Le ***Tableau de bord PAM*** n'est disponible qu'avec notre [{{ fr.DVLS }}](http
 La fonction ***Tableau de bord PAM*** se situe dans l'onglet ***Affichage***.  
 ![Bouton Tableau de bord PAM](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0016.png) 
 
-Dans le ***Tableau de bord PAM*** , pour chaque compte privilégié, il est possible de se connecter au compte, de copier le mot de passe et de gérer le processus de réservation/restitution.  
+Dans le ***Tableau de bord PAM***, pour chaque compte privilégié, il est possible de se connecter au compte, de copier le mot de passe et de gérer le processus de réservation/restitution.  
 
 Pour accéder aux comptes utilisateurs, il faut d'abord sélectionner un dossier PAM. Si vous avez plusieurs dossiers, il peut être utile d'utiliser la barre de recherche pour trouver celui que vous cherchez. Notez que ce sont les mêmes dossiers que dans votre {{ fr.DVLSCONSOLE }}. Vous pouvez consulter notre [rubrique sur la gestion des accès privilégiés dans {{ fr.DVLS }} (EN)](/server/privileged-access-management/) pour en savoir plus.  
 ![Tableau de bord PAM](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0017.png) 

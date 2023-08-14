@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Exporter des données de {{ fr.HUBB }} avec PowerShell
 ---
-Dans {{ fr.HUBB }}, vous pouvez exporter vos données au format Json ou Csv à l'aide d'un script [PowerShell](https://learn.microsoft.com/fr-ca/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2) . Cette fonctionnalité est accessible via l'onglet ***Outils*** , sous la section ***Exporter*** .  
+Dans {{ fr.HUBB }}, vous pouvez exporter vos données au format Json ou Csv à l'aide d'un script [PowerShell](https://learn.microsoft.com/fr-ca/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2). Cette fonctionnalité est accessible via l'onglet ***Outils***, sous la section ***Exporter***.  
 ![Exporter avec Powershell.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2076.png)
 ## Étapes 
 Avant d'exporter vos données, si ce n'est pas déjà fait, [créez un utilisateur d'application](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) et assignez-lui le rôle de ***Gestionnaire*** du coffre souhaité. 
@@ -17,11 +17,11 @@ Allez à la section qui correspond à vos besoins :
 
 ### Remplissage automatique des informations 
 <a name="automatique"></a>
-1. Dans ***Outils – Exporter avec PowerShell*** , sélectionner l'onglet ***Automatique*** .  
+1. Dans ***Outils – Exporter avec PowerShell***, sélectionner l'onglet ***Automatique***.  
 ![Exportation Automatique.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2077.png)
 1. Saisir la ***Clé secrète d'application*** et la ***Clé de l'application*** de votre utilisateur d'application dans les champs correspondants. 
 1. Saisir le ***Chemin du dossier de destination*** dans le champ correspondant. C'est à cet endroit que vos données seront exportées. 
-1. Choisir entre les formats d'exportation ***Json*** ou ***Csv*** . 
+1. Choisir entre les formats d'exportation ***Json*** ou ***Csv***. 
 1. Cliquer sur le bouton ***Télécharger*** pour télécharger le script PowerShell. 
 1. Exécuter le script à l'aide de PowerShell 7.  
 
@@ -29,7 +29,7 @@ Vos données ont maintenant été exportées dans le dossier de destination spé
 
 ### Remplissage manuel des informations 
 <a name="manuel"></a>
-1. Dans ***Outils – Exporter avec PowerShell*** , sélectionner l'onglet ***Manuelle*** .  
+1. Dans ***Outils – Exporter avec PowerShell***, sélectionner l'onglet ***Manuelle***.  
 ![Exportation Manuelle.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2078.png)
 1. Choisir entre les formats d'exportation ***Json*** ou ***Csv***. 
 1. Copier/coller le script dans un fichier PowerShell (.ps1). 

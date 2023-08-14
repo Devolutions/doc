@@ -1,7 +1,7 @@
 ---
 title: Outils/Scipts/Macros
 ---
-Les outils de session sont disponibles dans les onglets du tableau de bord et dans le menu contextuel de la session ***Outils/Scipts/Macros*** . 
+Les outils de session sont disponibles dans les onglets du tableau de bord et dans le menu contextuel de la session ***Outils/Scipts/Macros***. 
 
 ## Paramètres 
 

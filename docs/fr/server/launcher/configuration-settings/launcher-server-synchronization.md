@@ -13,7 +13,7 @@ Vous devez vous connecter au moins une fois à {{ fr.DLAUNCHER }} pour que l'out
 
 Cette méthode définit comment tous les utilisateurs lanceront les connexions.  
 
-Dans ***Administration - Paramètres Serveur - Avancé***, utiliser le menu déroulant ***Lancer une connexion avec*** pour sélectionner ***{{ fr.DLAUNCHER }}*** .  
+Dans ***Administration - Paramètres Serveur - Avancé***, utiliser le menu déroulant ***Lancer une connexion avec*** pour sélectionner ***{{ fr.DLAUNCHER }}***.  
 ![!!ServerOp4007.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4007.png)  
 
 ### Paramètres du compte 

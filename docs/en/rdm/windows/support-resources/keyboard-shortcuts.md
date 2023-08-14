@@ -13,7 +13,7 @@ Both the ***Disable All*** and ***Reset Default*** buttons will erase your custo
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Visit our topic about [shortcut customization](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/) . 
+Visit our topic about [shortcut customization](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/). 
 {% endsnippet %}
  
 ![Keyboard Shortcuts](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2101.png) 

@@ -1,11 +1,11 @@
 ---
 title: Configurer une source de données client
 ---
-1. Dans {{ fr.RDM }} sélectionner ***Fichiers - Sources de données*** .  
+1. Dans {{ fr.RDM }} sélectionner ***Fichiers - Sources de données***.  
 ![!!KB4011.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4011.png)  
-1. ***Ajouter une nouvelle source de données*** .  
+1. ***Ajouter une nouvelle source de données***.  
 ![!!KB4012.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4012.png) 
-1. Sélectionner la source de données ***{{ fr.DVLS }}*** .  
+1. Sélectionner la source de données ***{{ fr.DVLS }}***.  
 ![!!KB4013.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4013.png) 
 1. Définir les paramètres. 
 {% snippet icon.badgeInfo %} 

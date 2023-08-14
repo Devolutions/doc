@@ -12,7 +12,7 @@ This cipher is incredibly secure. AES/Rijndael became effective as a U.S. Federa
 ## Tips 
 
 {% snippet icon.shieldWarning %} 
-Encryption of data while in transit is offered natively by our cloud services. Whenever you decide to use an on-premises solution, implementing encryption of data in transit must be implemented by using the tools involving your chosen technologies. Most customers that have security concerns already choose one of the supported [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , follow instructions specific to the chosen solution. 
+Encryption of data while in transit is offered natively by our cloud services. Whenever you decide to use an on-premises solution, implementing encryption of data in transit must be implemented by using the tools involving your chosen technologies. Most customers that have security concerns already choose one of the supported [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), follow instructions specific to the chosen solution. 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
@@ -25,7 +25,7 @@ We recommend you follow these steps to ensure security:
 * Use encrypted communication with the database when available. 
 * Use the [Data Source Settings](/rdm/mac/commands/administration/system-settings/) to control many settings impacting security. 
 * Use the [Security Provider](/rdm/mac/commands/administration/security-provider/) to encrypt entries completely instead of just the password. 
-* If using the offline mode, add your own password for an additional layer of protection to the local cache. Go to ***File - Preferences - Security*** . 
-* Require a password to launch the application and even require two-factor authentication. Go to ***File - Preferences - Security*** . 
+* If using the offline mode, add your own password for an additional layer of protection to the local cache. Go to ***File - Preferences - Security***. 
+* Require a password to launch the application and even require two-factor authentication. Go to ***File - Preferences - Security***. 
 * If your data source supports it, choose not to save password in the data source, which will prompt for the credential on the first connection. 
 

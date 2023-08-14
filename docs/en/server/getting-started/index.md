@@ -3,16 +3,16 @@ title: Getting Started
 order: 10
 ---
 {% snippet icon.badgeInfo %} 
-This topic is for {{ en.DVLS }} Enterprise Edition. If you have purchased {{ en.DVLS }} Team Edition instead, please consult [Team Edition](/server/getting-started/team-edition/) . 
+This topic is for {{ en.DVLS }} Enterprise Edition. If you have purchased {{ en.DVLS }} Team Edition instead, please consult [Team Edition](/server/getting-started/team-edition/). 
 {% endsnippet %}
  
 After completing your purchase of {{ en.DVLS }} Enterprise Edition, you will receive an email with three license serials. Each license serial allows for running a {{ en.DVLS }} instance. An instance is in itself a web server application which acts as a back-end for our client applications. You can think of it as a specialized database for your data. All instances can be installed on the same physical server or spread across many.  
 
-{{ en.DVLS }} can be installed through different [topologies](/server/overview/topologies/) .  
+{{ en.DVLS }} can be installed through different [topologies](/server/overview/topologies/).  
 
 ## Domain requirements 
 
-These requirements apply especially if you intend to use Automatic User Account Creation (see [Authentication](/server/web-interface/administration/configuration/server-settings/general/authentication/) ) and/or User Groups to manage your instance.  
+These requirements apply especially if you intend to use Automatic User Account Creation (see [Authentication](/server/web-interface/administration/configuration/server-settings/general/authentication/)) and/or User Groups to manage your instance.  
 
 <table>
 	<tr>
@@ -69,7 +69,7 @@ Microsoft .NET Framework 4.8.
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Microsoft SQL Server (see [Database Instance](/server/installation/database-instance/) ) if you intend to host the solution on a single server (see [Topologies](/server/overview/topologies/) ). 
+Microsoft SQL Server (see [Database Instance](/server/installation/database-instance/)) if you intend to host the solution on a single server (see [Topologies](/server/overview/topologies/)). 
 		</td>
 	</tr>
 	<tr>
@@ -77,7 +77,7 @@ Microsoft SQL Server (see [Database Instance](/server/installation/database-inst
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Internet Information Services (IIS) 7.0 or better (see this Microsoft topic for more information: [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules) ). 
+Internet Information Services (IIS) 7.0 or better (see this Microsoft topic for more information: [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules)). 
 		</td>
 	</tr>
 </table>
@@ -91,7 +91,7 @@ Internet Information Services (IIS) 7.0 or better (see this Microsoft topic for 
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/) . 
+Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/). 
 		</td>
 	</tr>
 	<tr>
@@ -99,7 +99,7 @@ Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} Instance](/ser
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create a {{ en.DVLS }} administrator account in the [User Management](/server/web-interface/administration/security-management/users/) . 
+Create a {{ en.DVLS }} administrator account in the [User Management](/server/web-interface/administration/security-management/users/). 
 		</td>
 	</tr>
 	<tr>
@@ -107,7 +107,7 @@ Create a {{ en.DVLS }} administrator account in the [User Management](/server/we
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create [User Groups](/server/web-interface/administration/security-management/user-groups/) . 
+Create [User Groups](/server/web-interface/administration/security-management/user-groups/). 
 		</td>
 	</tr>
 	<tr>
@@ -115,7 +115,7 @@ Create [User Groups](/server/web-interface/administration/security-management/us
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Add domain users or built-in users (see [User Management](/server/web-interface/administration/security-management/users/) ). 
+Add domain users or built-in users (see [User Management](/server/web-interface/administration/security-management/users/)). 
 		</td>
 	</tr>
 </table>

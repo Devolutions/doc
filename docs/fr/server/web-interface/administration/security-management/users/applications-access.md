@@ -20,7 +20,7 @@ Description
 {{ fr.RDM }} 
 		</td>
 		<td>
-Autoriser l'utilisateur à accéder au {{ fr.DVLS }} via {{ fr.RDM }} . 
+Autoriser l'utilisateur à accéder au {{ fr.DVLS }} via {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -29,7 +29,7 @@ Autoriser l'utilisateur à accéder au {{ fr.DVLS }} via {{ fr.RDM }} .
 [{{ fr.DWL }}](/fr/server/dwl/overview/) 
 		</td>
 		<td>
-Permettre à l'utilisateur de remplir automatiquement le nom d'utilisateur et les mots de passe sur les sites Web avec {{ fr.DWL }} . 
+Permettre à l'utilisateur de remplir automatiquement le nom d'utilisateur et les mots de passe sur les sites Web avec {{ fr.DWL }}. 
 		</td>
 	</tr>
 	<tr>
@@ -37,7 +37,7 @@ Permettre à l'utilisateur de remplir automatiquement le nom d'utilisateur et le
 {{ fr.DLAUNCHER }} 
 		</td>
 		<td>
-Autoriser l'utilisateur à ouvrir des connexions à distance avec {{ fr.DLAUNCHER }} . 
+Autoriser l'utilisateur à ouvrir des connexions à distance avec {{ fr.DLAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Autoriser l'utilisateur à ouvrir des connexions à distance avec {{ fr.DLAUNCHE
 Web 
 		</td>
 		<td>
-Autoriser l'utilisateur à utiliser l'interface Web de {{ fr.DVLS }} . 
+Autoriser l'utilisateur à utiliser l'interface Web de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>

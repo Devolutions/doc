@@ -6,7 +6,7 @@ eleventyComputed:
 
 Le {{ fr.DOD }} stocke et synchronise vos connexions à distance et vos identifiants en ligne. Vous pouvez accéder à vos sessions de n'importe où via une connexion Internet.  
 
-Il s'agit d'un service de stockage de fichiers en ligne dédiée à un seul type de fichier, la liste de connexion de {{ fr.RDM }} . {{ fr.DOD }} est entièrement gratuit et n'a aucune limite quant au nombre de sessions que vous pourriez avoir, il est destiné aux utilisateurs uniques, car vous ne pourrez pas partager de fichiers.  
+Il s'agit d'un service de stockage de fichiers en ligne dédiée à un seul type de fichier, la liste de connexion de {{ fr.RDM }}. {{ fr.DOD }} est entièrement gratuit et n'a aucune limite quant au nombre de sessions que vous pourriez avoir, il est destiné aux utilisateurs uniques, car vous ne pourrez pas partager de fichiers.  
 
 Veuillez consulter la rubrique [{{ fr.DOD }}](/fr/cloud/rdm-online-services/online-drive/) pour plus d'informations sur ce service. 
 
@@ -63,7 +63,7 @@ Saisir votre nom d'utilisateur de {{ fr.DA }}.
 Mode de connexion 
 		</td>
 		<td>
-Choisir la méthode par Défaut ou le [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) . 
+Choisir la méthode par Défaut ou le [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/). 
 		</td>
 	</tr>
 	<tr>
@@ -71,7 +71,7 @@ Choisir la méthode par Défaut ou le [Mot de passe d'application](/fr/kb/remote
 Mot de passe d'application 
 		</td>
 		<td>
-Entrer votre [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) . 
+Entrer votre [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/). 
 		</td>
 	</tr>
 	<tr>

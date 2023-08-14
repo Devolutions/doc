@@ -7,7 +7,7 @@ La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) vous perm
 
 ### Connectez-vous 
 
-1. Cliquer sur ***Fichier - Copie de sauvegarde - Connectez-vous*** pour vous connecter avec votre [{{ fr.DA }}](/fr/cloud/devolutions-account/create-devolutions-account/) . 
+1. Cliquer sur ***Fichier - Copie de sauvegarde - Connectez-vous*** pour vous connecter avec votre [{{ fr.DA }}](/fr/cloud/devolutions-account/create-devolutions-account/). 
 
 ### Configuration de la sauvegarde 
 

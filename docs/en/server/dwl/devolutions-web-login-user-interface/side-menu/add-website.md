@@ -2,7 +2,7 @@
 title: Add Website
 ---
 
-The Add Website button is only available while in the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab">Matching</a> tab., which is the tab selected when opening the extension, or when browsing through the vaults of the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#all-entries-tab">All Entries</a> tab. It opens a new tab in your browser that allows you to add a website entry in {{ en.DVLS }} through {{ en.DWL }} .  
+The Add Website button is only available while in the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab">Matching</a> tab., which is the tab selected when opening the extension, or when browsing through the vaults of the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#all-entries-tab">All Entries</a> tab. It opens a new tab in your browser that allows you to add a website entry in {{ en.DVLS }} through {{ en.DWL }}.  
 
 When {{ en.DVLS }} is used as the data source, the entry configuration is done in the General tab. 
 
@@ -23,7 +23,7 @@ DESCRIPTION
 Name 
 		</td>
 		<td>
-Enter a name for your entry. This field is automatically filled in by {{ en.DWL }} , but can still be modified. 
+Enter a name for your entry. This field is automatically filled in by {{ en.DWL }}, but can still be modified. 
 		</td>
 	</tr>
 	<tr>
@@ -31,7 +31,7 @@ Enter a name for your entry. This field is automatically filled in by {{ en.DWL 
 URL 
 		</td>
 		<td>
-Enter the URL of the website’s login page. This field is automatically filled in by {{ en.DWL }} , but can still be modified. 
+Enter the URL of the website’s login page. This field is automatically filled in by {{ en.DWL }}, but can still be modified. 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ This button is only displayed next to the Equivalent URLs field after having cli
 Credentials 
 		</td>
 		<td>
-In the drop-down list, select Custom , Linked (Vault) , Inherited , Linked (User Vault) , Find by name (User Vault) , or None to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
+In the drop-down list, select Custom , Linked (Vault), Inherited , Linked (User Vault), Find by name (User Vault), or None to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
 		</td>
 	</tr>
 	<tr>
@@ -88,7 +88,7 @@ This field is only available if Linked (Vault) or Linked (User Vault) is selecte
 User vault search credentials 
 		</td>
 		<td>
-Enter the name of the credential in your {{ en.UVLT }} and {{ en.DWL }} will search in it for the specified name. If the field is left empty, when launched, a Credential list will open with all available credentials entries from your {{ en.UVLT }} .  
+Enter the name of the credential in your {{ en.UVLT }} and {{ en.DWL }} will search in it for the specified name. If the field is left empty, when launched, a Credential list will open with all available credentials entries from your {{ en.UVLT }}.  
 
 This field is only available if Find by name (User Vault) is selected in the Credentials drop-down list. 
 		</td>
@@ -141,7 +141,7 @@ Enter a description for your new entry.
 Vault 
 		</td>
 		<td>
-Choose to store your new website entry in your User Vault or in the currently selected Vault in {{ en.DVLS }} . 
+Choose to store your new website entry in your User Vault or in the currently selected Vault in {{ en.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -149,7 +149,7 @@ Choose to store your new website entry in your User Vault or in the currently se
 Destination folder 
 		</td>
 		<td>
-Enter the name of the folder in which your new entry will be stored in {{ en.DVLS }} . 
+Enter the name of the folder in which your new entry will be stored in {{ en.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -171,7 +171,7 @@ Cancel the creation of a new website entry and clear all unsaved changes to sett
 </table>
 
 {% snippet icon.badgeInfo %} 
-Follow our step-by-step guide on how to [add a website entry with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
+Follow our step-by-step guide on how to [add a website entry with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
 {% endsnippet %}
  
 

@@ -15,8 +15,8 @@ Configurer l'authentification à deux facteurs dans {{ fr.DVLS }} pour ajouter u
 
 ## Paramètres 
 
-1. Pour accéder à la configuration, allez dans ***Administration – Paramètres du serveur de mots de passe – Deux facteurs*** . 
-1. Choisir la manière dont vous souhaitez appliquer l'authentification à deux facteurs dans l' ***Utilisation de 2FA*** . 
+1. Pour accéder à la configuration, allez dans ***Administration – Paramètres du serveur de mots de passe – Deux facteurs***. 
+1. Choisir la manière dont vous souhaitez appliquer l'authentification à deux facteurs dans l'***Utilisation de 2FA***. 
 
 <table>
 	<tr>
@@ -57,12 +57,12 @@ L'option est appliquée pour tous les utilisateurs. Un type d'authentification �
 </table>
 
 3. Sélectionner qui reçoit les demandes de réinitialisation des utilisateurs. Vous pouvez choisir d'envoyer le courriel à tous les administrateurs de {{ fr.DVLS }} ou à un courriel spécifique . 
-1. Si vous avez choisi d'envoyer des demandes de réinitialisation à une adresse courriel au lieu des administrateurs de {{ fr.DVLS }} , saisir l'adresse courriel dans ***Courriel spécifique*** . 
+1. Si vous avez choisi d'envoyer des demandes de réinitialisation à une adresse courriel au lieu des administrateurs de {{ fr.DVLS }}, saisir l'adresse courriel dans ***Courriel spécifique***. 
 1. Sélectionner les types d'authentification a deux facteurs avec lesquels les utilisateurs peuvent s'authentifier. Choisissez-en autant que nécessaire. 
-1. Si vous avez choisi l'utilisation comme obligatoire à l' étape 3, choisir le type d'authentification par défaut. 
+1. Si vous avez choisi l'utilisation comme obligatoire à l'étape 3, choisir le type d'authentification par défaut. 
 1. Sélectionner d'autres méthodes de connexion. Ces options seront proposées lorsque les utilisateurs n'auront pas accès à la méthode habituelle.  
 ![Administration - Paramètres de {{ fr.DVLS }}](https://webdevolutions.azureedge.net/docs/fr/server/clip10390.png)  
-1. Lorsque l'utilisation de l'authentification à deux facteurs est définie sur ***Optionnel par utilisateur*** , la méthode doit être configurée dans ***Administration - Utilisateurs - Deux facteurs*** pour chaque utilisateur. Vous pouvez également définir un type sur l'utilisateur s'il utilise un produit différent de la méthode par défaut. Voir [Modifier les utilisateurs](/fr/server/web-interface/administration/security-management/users/edit-user-two-factor/) pour plus d'informations.  
+1. Lorsque l'utilisation de l'authentification à deux facteurs est définie sur ***Optionnel par utilisateur***, la méthode doit être configurée dans ***Administration - Utilisateurs - Deux facteurs*** pour chaque utilisateur. Vous pouvez également définir un type sur l'utilisateur s'il utilise un produit différent de la méthode par défaut. Voir [Modifier les utilisateurs](/fr/server/web-interface/administration/security-management/users/edit-user-two-factor/) pour plus d'informations.  
 ![Modifier l'utilisateur - 2 facteurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp7014.png)  
 
 

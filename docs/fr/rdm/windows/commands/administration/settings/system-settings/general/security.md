@@ -18,7 +18,7 @@ DESCRIPTION
 Créer un coffre avec un accès restreint par défaut 
 		</td>
 		<td>
-Sécuriser automatiquement les paramètres du coffre lors de la création d'un coffre. Par conséquent, les paramètres d'autorisations sont définis sur ***Jamais*** . 
+Sécuriser automatiquement les paramètres du coffre lors de la création d'un coffre. Par conséquent, les paramètres d'autorisations sont définis sur ***Jamais***. 
 		</td>
 	</tr>
 	<tr>
@@ -44,7 +44,7 @@ Utiliser l'ancienne sécurité
 		<td>
 Utiliser l'ancien système de gestion des privilèges: les Groupes de sécurité (obsolète).  
 
-* Pour gérer les permissions de vos utilisateurs, nous vous recommandons de migrer de Groupes de sécurité (obsolète) à ***Permissions*** . Une fois la migration effectuée, désactiver les Groupes de sécurité, en décochant ***Utiliser l'ancienne sécurité*** . 
+* Pour gérer les permissions de vos utilisateurs, nous vous recommandons de migrer de Groupes de sécurité (obsolète) à ***Permissions***. Une fois la migration effectuée, désactiver les Groupes de sécurité, en décochant ***Utiliser l'ancienne sécurité***. 
 		</td>
 	</tr>
 </table>

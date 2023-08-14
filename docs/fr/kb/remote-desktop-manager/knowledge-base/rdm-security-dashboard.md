@@ -134,7 +134,7 @@ Certaines normes de sécurité exigent que les mots de passe soient modifiés à
 Mesures d'atténuation 
 		</td>
 		<td>
-L'expiration du mot de passe peut être configurée dans Administration - Paramètres du système - Paramètres de sécurité - Expiration du mot de passe de l'utilisateur personnalisé (jours) . 
+L'expiration du mot de passe peut être configurée dans Administration - Paramètres du système - Paramètres de sécurité - Expiration du mot de passe de l'utilisateur personnalisé (jours). 
 		</td>
 	</tr>
 </table>
@@ -210,7 +210,7 @@ L'algorithme ZipCryto est considéré comme peu sûr : AES est préférable. Il 
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Fichier - Options - Avancé , décochez Utiliser la compression ZipCrypto (non recommandé) . 
+Dans Fichier - Options - Avancé , décochez Utiliser la compression ZipCrypto (non recommandé). 
 		</td>
 	</tr>
 </table>
@@ -236,7 +236,7 @@ Par défaut le mode hors-ligne est activé, les identifiants sont mis automatiqu
 Description 
 		</td>
 		<td>
-Lorsqu'un certificat inconnu est présenté, le client RDP doit être configuré pour afficher un avertissement ( M'avertir ) ou interrompre la connexion ( Ne pas connecter ). 
+Lorsqu'un certificat inconnu est présenté, le client RDP doit être configuré pour afficher un avertissement (M'avertir) ou interrompre la connexion (Ne pas connecter). 
 		</td>
 	</tr>
 	<tr>
@@ -320,7 +320,7 @@ Dans Administration - Paramètres du système - Paramètres de sécurité , déf
 Description 
 		</td>
 		<td>
-Le mot de passe de l'application devrait être utilisé pour chiffrer les informations sensibles dans les fichiers de configuration {{ fr.RDM }} . 
+Le mot de passe de l'application devrait être utilisé pour chiffrer les informations sensibles dans les fichiers de configuration {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -328,7 +328,7 @@ Le mot de passe de l'application devrait être utilisé pour chiffrer les inform
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Fichier - Options - Sécurité - Sécurité de l'application (local) , choisir Utiliser le mot de passe d'application et cochez Chiffrer les fichiers locaux en utilisant le mot de passe de l'application . 
+Dans Fichier - Options - Sécurité - Sécurité de l'application (local), choisir Utiliser le mot de passe d'application et cochez Chiffrer les fichiers locaux en utilisant le mot de passe de l'application . 
 		</td>
 	</tr>
 </table>

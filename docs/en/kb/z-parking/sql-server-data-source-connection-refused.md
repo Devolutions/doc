@@ -3,7 +3,7 @@ title: SQL Server Data Source Connection Refused
 ---
 Unable to connect from {{ en.RDM }}. Connection refused.  
 
-When you try to connect from {{ en.RDM }} , you receive the following message;  
+When you try to connect from {{ en.RDM }}, you receive the following message;  
 ![!!KB4082.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4082.png)
 ### Solution  
 {% snippet icon.badgeInfo %}

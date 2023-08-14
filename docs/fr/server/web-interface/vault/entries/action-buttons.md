@@ -1,7 +1,7 @@
 ---
 title: Boutons d'action
 ---
-L'affichage des ***Boutons d'action*** pour les entrées varie en fonction du type d'entrée sélectionné et de vos paramètres de {{ fr.DVLS }} .
+L'affichage des ***Boutons d'action*** pour les entrées varie en fonction du type d'entrée sélectionné et de vos paramètres de {{ fr.DVLS }}.
 
 ![Boutons d'action d'entrée](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4089.png)
 

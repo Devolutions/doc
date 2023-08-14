@@ -4,7 +4,7 @@ title: Mode de la cache
 Le mode de la cache déterminera comment le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances.  
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
@@ -61,12 +61,12 @@ Il existe trois moteurs pour la cache:
 * MCDF (offline.mcdf) 
 * MCDF v2.0 (offline.mcdf2) 
 
-Si vous utilisez une version de {{ fr.RDM }} antérieure à 11.2, le moteur par défaut sera ***SQLite*** , dans ce cas, la base de données est chiffrée à l'aide d'un hachage de clé calculée non portable.  
+Si vous utilisez une version de {{ fr.RDM }} antérieure à 11.2, le moteur par défaut sera ***SQLite***, dans ce cas, la base de données est chiffrée à l'aide d'un hachage de clé calculée non portable.  
 
-Si vous utilisez la version 11.2 ou une version plus récente de {{ fr.RDM }} , le moteur de cache par défaut sera les fichiers ***Microsoft Compound Document Format (MCDF)*** .  
+Si vous utilisez la version 11.2 ou une version plus récente de {{ fr.RDM }}, le moteur de cache par défaut sera les fichiers ***Microsoft Compound Document Format (MCDF)***.  
 
 {% snippet icon.shieldNotice %} 
-Vous pouvez améliorer la sécurité du fichier hors ligne en définissant la sécurité renforcée dans ***Fichier – Options – Sécurité – Sécurité hors connexion*** . 
+Vous pouvez améliorer la sécurité du fichier hors ligne en définissant la sécurité renforcée dans ***Fichier – Options – Sécurité – Sécurité hors connexion***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

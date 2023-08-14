@@ -18,7 +18,7 @@ Because of its Web Architecture you have the possibility to offer it only from y
 
 {% youtube 'bOTKsqdPulI' %}  
 
-There are two ways of using {{ en.DVLS }} : 
+There are two ways of using {{ en.DVLS }}: 
 
 <table>
 	<tr>

@@ -5,12 +5,12 @@ title: Analyseur de sécurité d'entrées
 Les informations de cette rubrique décrivent le fonctionnement du mode "Legacy" d'analyse de mot de passe. Le mode peut être modifié dans les ***Paramètres Système*** pour ZXCVBN. Le mode "Legacy" n'est pas le mode par défaut. 
 {% endsnippet %}
  
-L' ***Analyseur de sécurité d'entrées*** est disponible dans le menu ***Outils*** . Il affichera l'indicateur de force pour tous les mots de passe stockés dans votre source de données.  
+L'***Analyseur de sécurité d'entrées*** est disponible dans le menu ***Outils***. Il affichera l'indicateur de force pour tous les mots de passe stockés dans votre source de données.  
 
 Un contrôle de l'analyseur est également affiché sous la plupart des champs d'entrées de mot de passe.  
 ![!!clip3448.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3448.png) 
 
-L' ***Analyseur de sécurité d'entrées*** suit un ensemble de règles pour déterminer la force du mot de passe avec un score de 0 à 100. Il existe deux catégories de règles.  
+L'***Analyseur de sécurité d'entrées*** suit un ensemble de règles pour déterminer la force du mot de passe avec un score de 0 à 100. Il existe deux catégories de règles.  
 
 ### Renforcer 
 

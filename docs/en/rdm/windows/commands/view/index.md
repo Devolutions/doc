@@ -1,7 +1,7 @@
 ---
 title: View
 ---
-The ***View*** tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDM }} .  
+The ***View*** tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDM }}.  
 ![View](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10768.png) 
 
 Refer to the following topics for more information:  
@@ -28,7 +28,7 @@ DESCRIPTION
 {{ en.VLT }} 
 		</td>
 		<td>
-Access the view mode of the ***{{ en.NPANE }}*** for the current [vault](/rdm/windows/commands/view/panels/vault/) . 
+Access the view mode of the ***{{ en.NPANE }}*** for the current [vault](/rdm/windows/commands/view/panels/vault/). 
 		</td>
 	</tr>
 	<tr>
@@ -36,7 +36,7 @@ Access the view mode of the ***{{ en.NPANE }}*** for the current [vault](/rdm/wi
 {{ en.UVLT }} 
 		</td>
 		<td>
-Display your [***{{ en.UVLT }}***](/rdm/windows/commands/view/panels/vault/) in the ***{{ en.NPANE }}*** . 
+Display your [***{{ en.UVLT }}***](/rdm/windows/commands/view/panels/vault/) in the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -44,7 +44,7 @@ Display your [***{{ en.UVLT }}***](/rdm/windows/commands/view/panels/vault/) in 
 Opened Sessions 
 		</td>
 		<td>
-Display the [currently opened sessions](/rdm/windows/commands/view/panels/opened-sessions/) in the ***{{ en.NPANE }}*** . 
+Display the [currently opened sessions](/rdm/windows/commands/view/panels/opened-sessions/) in the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -52,7 +52,7 @@ Display the [currently opened sessions](/rdm/windows/commands/view/panels/opened
 PAM Dashboard 
 		</td>
 		<td>
-Connect to a privileged account, copy its password, and manage its checkout/check-in process through a [privileged access management dashboard](/rdm/windows/commands/view/panels/pam-dashboard/) . 
+Connect to a privileged account, copy its password, and manage its checkout/check-in process through a [privileged access management dashboard](/rdm/windows/commands/view/panels/pam-dashboard/). 
 		</td>
 	</tr>
 	<tr>
@@ -60,7 +60,7 @@ Connect to a privileged account, copy its password, and manage its checkout/chec
 Favorites 
 		</td>
 		<td>
-Display your [favorite entries](/rdm/windows/user-interface/navigation-pane/favorite-entries/) and folders in the ***{{ en.NPANE }}*** . 
+Display your [favorite entries](/rdm/windows/user-interface/navigation-pane/favorite-entries/) and folders in the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ Display your [favorite entries](/rdm/windows/user-interface/navigation-pane/favo
 Recent 
 		</td>
 		<td>
-Display your [most recently used entries](/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/) in the ***{{ en.NPANE }}*** . 
+Display your [most recently used entries](/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/) in the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -76,7 +76,7 @@ Display your [most recently used entries](/rdm/windows/user-interface/navigation
 Task List 
 		</td>
 		<td>
-Display a list of your current [tasks](/rdm/windows/commands/view/panels/task-list/) . 
+Display a list of your current [tasks](/rdm/windows/commands/view/panels/task-list/). 
 		</td>
 	</tr>
 	<tr>
@@ -114,7 +114,7 @@ Launch a [***Quick Connect***](/rdm/windows/commands/view/view/quick-connect/) s
 Activity Logs 
 		</td>
 		<td>
-Open the [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/) . 
+Open the [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/). 
 		</td>
 	</tr>
 	<tr>
@@ -215,7 +215,7 @@ DESCRIPTION
 Navigation 
 		</td>
 		<td>
-Toggle the [***{{ en.NPANE }}***](/rdm/windows/user-interface/navigation-pane/) . 
+Toggle the [***{{ en.NPANE }}***](/rdm/windows/user-interface/navigation-pane/). 
 		</td>
 	</tr>
 	<tr>
@@ -223,7 +223,7 @@ Toggle the [***{{ en.NPANE }}***](/rdm/windows/user-interface/navigation-pane/) 
 Dashboard 
 		</td>
 		<td>
-Toggle the [***Dashboard***](/rdm/windows/user-interface/content-area/dashboards/) . 
+Toggle the [***Dashboard***](/rdm/windows/user-interface/content-area/dashboards/). 
 		</td>
 	</tr>
 	<tr>
@@ -231,7 +231,7 @@ Toggle the [***Dashboard***](/rdm/windows/user-interface/content-area/dashboards
 Thumbnails 
 		</td>
 		<td>
-Toggle the ***Thumbnails*** . 
+Toggle the ***Thumbnails***. 
 		</td>
 	</tr>
 	<tr>
@@ -239,7 +239,7 @@ Toggle the ***Thumbnails*** .
 Top Pane (Ribbon/Menubar) 
 		</td>
 		<td>
-Toggle the ***Ribbon*** (right-click the application header to bring it back or use Alt+F11 ). 
+Toggle the ***Ribbon*** (right-click the application header to bring it back or use Alt+F11). 
 		</td>
 	</tr>
 	<tr>
@@ -255,7 +255,7 @@ Toggle the [***Grouped Tab Bar***](/rdm/windows/commands/view/layout/grouped-tab
 Status Bar 
 		</td>
 		<td>
-Toggle the ***Status bar*** . 
+Toggle the ***Status bar***. 
 		</td>
 	</tr>
 	<tr>
@@ -301,7 +301,7 @@ Toggle the [***Task***](/rdm/windows/commands/view/layout/task/) pane.
 </table>
 
 {% snippet icon.badgeInfo %} 
-Although they are windowed by default, all those panes can be dragged and docked anywhere within {{ en.RDM }} . 
+Although they are windowed by default, all those panes can be dragged and docked anywhere within {{ en.RDM }}. 
 {% endsnippet %}
  
 

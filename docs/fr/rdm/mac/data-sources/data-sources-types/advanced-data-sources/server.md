@@ -8,7 +8,7 @@ title: Devolutions Server
 ![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
-{{ fr.DVLS }} est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr) . 
+{{ fr.DVLS }} est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr). 
 		</td>
 	</tr>
 </table>
@@ -16,7 +16,7 @@ title: Devolutions Server
 ### Points forts 
 
 * Serveur de sécurité haut de gamme pour votre entreprise. 
-* Prise en charge des facteurs AzureMFA 2 pour {{ fr.DVLS }} . 
+* Prise en charge des facteurs AzureMFA 2 pour {{ fr.DVLS }}. 
 * Partager vos sessions avec plusieurs utilisateurs. 
 * Peut être déployé en ligne. 
 * Prends en charge l'authentification Windows et l'intégration de groupe Active Directory. 
@@ -65,7 +65,7 @@ Nom de la source de données.
 Hôte 
 		</td>
 		<td>
-Nom de l'hôte de {{ fr.DVLS }} . 
+Nom de l'hôte de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -128,7 +128,7 @@ Description
 Type de connexion 
 		</td>
 		<td>
-Si vous utilisez des {{ fr.UVLT }} , cliquer sur les flèches pour sélectionner votre Coffre.
+Si vous utilisez des {{ fr.UVLT }}, cliquer sur les flèches pour sélectionner votre Coffre.
 		</td>
 	</tr>
 </table>
@@ -198,7 +198,7 @@ Sélectionner votre mode d'accès aux outils à distance entre:
 Gérer la cache 
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/) . 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/). 
 		</td>
 	</tr>
 </table>

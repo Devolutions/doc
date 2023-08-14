@@ -8,7 +8,7 @@ If the Recovery Model is set to Full, it is critical that regular backup of BOTH
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-For further information regarding SQL Recovery Models, refer to [https://msdn.microsoft.com/en-CA/library/ms189275.aspx](https://msdn.microsoft.com/en-CA/library/ms189275.aspx) . 
+For further information regarding SQL Recovery Models, refer to [https://msdn.microsoft.com/en-CA/library/ms189275.aspx](https://msdn.microsoft.com/en-CA/library/ms189275.aspx). 
 {% endsnippet %}
  
 

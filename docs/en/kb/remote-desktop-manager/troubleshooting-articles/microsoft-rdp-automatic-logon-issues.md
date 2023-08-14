@@ -23,7 +23,7 @@ We have discovered that enabling the ***Public mode*** option in the ***Advanced
 
 ### Ensure credentials are entered properly
 
-RDM allows for advanced credential management. Depending on your choice of: ***Custom*** , ***Linked (Vault)*** , ***Embedded*** or ***Inherited*** ensure the credentials are properly entered.  
+RDM allows for advanced credential management. Depending on your choice of: ***Custom***, ***Linked (Vault)***, ***Embedded*** or ***Inherited*** ensure the credentials are properly entered.  
 
 {% snippet icon.badgeCaution %}
 Ensure that ***Always ask password*** is not checked.

@@ -19,7 +19,7 @@ title: SQLite
 * The [{{ en.OBACK }} Service](/cloud/rdm-online-services/online-backup/) is available for this data source. 
 
 {% snippet icon.shieldInfo %} 
-All passwords are encrypted by default by {{ en.RDM }} . You can specify a custom password to fully encrypt the content of the SQLite database. 
+All passwords are encrypted by default by {{ en.RDM }}. You can specify a custom password to fully encrypt the content of the SQLite database. 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
@@ -27,7 +27,7 @@ Password recovery is not possible, the data will be unrecoverable if you cannot 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-SQLite supports an unlimited number of simultaneous readers, but will only allow one writer at any instant in time. For this reason {{ en.RDM }} does not support sharing a SQLite data source between several users by storing it on a network drive. If you want to share your data and work in a team environment with your colleagues, please use one of the [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . Please consult [SQLite.org](https://www.sqlite.org/whentouse.html) for more information. 
+SQLite supports an unlimited number of simultaneous readers, but will only allow one writer at any instant in time. For this reason {{ en.RDM }} does not support sharing a SQLite data source between several users by storing it on a network drive. If you want to share your data and work in a team environment with your colleagues, please use one of the [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Please consult [SQLite.org](https://www.sqlite.org/whentouse.html) for more information. 
 {% endsnippet %}
  
 ## Password management 
@@ -124,9 +124,9 @@ Backup
 
 Select between:  
 
-* None : No backup of your data source will be created. 
-* File backup : Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
-* {{ en.OBACK }} : An {{ en.OBACK }} (using [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) ) will automatically be created. 
+* None: No backup of your data source will be created. 
+* File backup: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
+* {{ en.OBACK }}: An {{ en.OBACK }} (using [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/)) will automatically be created. 
 		</td>
 	</tr>
 </table>

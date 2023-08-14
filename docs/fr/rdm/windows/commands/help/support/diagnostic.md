@@ -1,7 +1,7 @@
 ---
 title: Diagnostic
 ---
-Si vous rencontrez un problème avec {{ fr.RDM }} , vous pouvez exécuter un Diagnostic du système, disponible dans ***Aide – Diagnostic***. Cela pourrait aider à diagnostiquer ou à indiquer le type de problèmes que vous pourriez rencontrer. 
+Si vous rencontrez un problème avec {{ fr.RDM }}, vous pouvez exécuter un Diagnostic du système, disponible dans ***Aide – Diagnostic***. Cela pourrait aider à diagnostiquer ou à indiquer le type de problèmes que vous pourriez rencontrer. 
 
 ### Système 
 
@@ -15,7 +15,7 @@ Si un [{{ fr.RDMJ }}](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump
 ![Diagnostic du système – Système](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10814.png) 
 
 {% snippet icon.badgeInfo %} 
-Veuillez lire la rubrique Troubleshooting si vous rencontrez des problèmes avec {{ fr.RDM }} , il répertorie les messages d'erreur et peut contenir le correctif/solution de contournement pour votre problème. 
+Veuillez lire la rubrique Troubleshooting si vous rencontrez des problèmes avec {{ fr.RDM }}, il répertorie les messages d'erreur et peut contenir le correctif/solution de contournement pour votre problème. 
 {% endsnippet %}
  
 

@@ -1,7 +1,7 @@
 ---
 title: Applications
 ---
-La section ***Applications*** gère la disponibilité des différentes fonctionnalités liées à l'application {{ fr.RDM }} .  
+La section ***Applications*** gère la disponibilité des différentes fonctionnalités liées à l'application {{ fr.RDM }}.  
 ![Paramètres du système - Applications](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3561.png) 
 
 <table>
@@ -38,7 +38,7 @@ DESCRIPTION
 Permettre paramètres spécifiques locaux 
 		</td>
 		<td>
-Permets l'utilisation des [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Permets l'utilisation des [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 	<tr>

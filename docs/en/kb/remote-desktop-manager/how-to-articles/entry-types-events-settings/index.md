@@ -159,8 +159,8 @@ Type
 		</td>
 		<td>
 Select how the macro is executed. Select between:<br>
-Default : enter a typing macro manually.<br>
-Link : select an existing Macros/Scripts/Tools from the data source.<br>
+Default: enter a typing macro manually.<br>
+Link: select an existing Macros/Scripts/Tools from the data source.<br>
 		</td>
 	</tr>
 	<tr>

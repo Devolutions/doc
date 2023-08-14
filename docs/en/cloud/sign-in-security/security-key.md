@@ -23,7 +23,7 @@ The next time you connect to the {{ en.DA }}, insert your security key to authen
 1. Hover the key behind the mobile device (if prompted, enter your personal security key PIN). 
 1. ***Allow*** the use of the key.  
 
-The next time you connect to the {{ en.DA }} , hover your NFC security key to authenticate. 
+The next time you connect to the {{ en.DA }}, hover your NFC security key to authenticate. 
 
 ### Uninstall 
 

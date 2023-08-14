@@ -3,7 +3,7 @@ title: Creating an Entry
 ---
 {% youtube '-3Dfoy1qaQ0' %}  
 
-When getting started with {{ en.RDM }} , you must configure your entries. There are many types of entries; you should know what third party or technology you will use in order to choose the appropriate entry type(s) that you plan on configuring. 
+When getting started with {{ en.RDM }}, you must configure your entries. There are many types of entries; you should know what third party or technology you will use in order to choose the appropriate entry type(s) that you plan on configuring. 
 
 ## Creating an entry from the context menu 
 

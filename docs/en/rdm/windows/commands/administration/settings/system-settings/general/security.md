@@ -18,7 +18,7 @@ DESCRIPTION
 Create {{ en.VLT }} with restricted access by default 
 		</td>
 		<td>
-Automatically secure the {{ en.VLT }} settings when creating a repository. Therefore, the permissions settings are set to ***Never*** . 
+Automatically secure the {{ en.VLT }} settings when creating a repository. Therefore, the permissions settings are set to ***Never***. 
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ Use legacy security
 		</td>
 		<td>
 Use the old system of managing privileges: Security groups (deprecated). 
-* To manage your users permissions, we recommend you switch from Security groups (deprecated) to ***Permissions*** . Once the migration done, disable the legacy security, by unchecking ***Use legacy security*** . 
+* To manage your users permissions, we recommend you switch from Security groups (deprecated) to ***Permissions***. Once the migration done, disable the legacy security, by unchecking ***Use legacy security***. 
 		</td>
 	</tr>
 </table>
@@ -65,8 +65,8 @@ Time of day
 		<td>
 Select the hours which the data source is limited to. Select between:  
 
-* ***Any time*** : the session can be used at any hour. 
-* ***Custom*** : manually select the time frame the session is available for. 
+* ***Any time***: the session can be used at any hour. 
+* ***Custom***: manually select the time frame the session is available for. 
 		</td>
 	</tr>
 	<tr>
@@ -76,10 +76,10 @@ Time of week
 		<td>
 Select which days the data source is available for. Select between:  
 
-* ***Any day*** : the session can be used any day of the week or week-end. 
-* ***Week days*** : the session can be used only the week days. 
-* ***Week ends*** : the session can be used only the week ends. 
-* ***Custom*** : manually select each day the session is available for. 
+* ***Any day***: the session can be used any day of the week or week-end. 
+* ***Week days***: the session can be used only the week days. 
+* ***Week ends***: the session can be used only the week ends. 
+* ***Custom***: manually select each day the session is available for. 
 		</td>
 	</tr>
 	<tr>

@@ -19,7 +19,7 @@ This solution is ideal if you do this often, you can create a batch file with th
 The RunAs command has many parameters to change its behaviour, we won't cover them all here, but if you have an advanced scenario we suggest you consult the Windows help.
 
 1. Open a command prompt.
-1. Type runas /netonly /user:{your username here}. Usage of the NetOnly parameter signals that the credentials will be used for network access only. Ensure your username is entered as your infrastructure requires. Typically its {domain}\{user} , i.e. windjammer\david  
+1. Type runas /netonly /user:{your username here}. Usage of the NetOnly parameter signals that the credentials will be used for network access only. Ensure your username is entered as your infrastructure requires. Typically its {domain}\{user}, i.e. windjammer\david  
 1. Append the full path to {{ en.RDM }}, typically %ProgramFiles(x86)%\Devolutions\Remote Desktop Manager\RemoteDesktopManager.exe , but you must ensure this is correct for your machine.  
 1. When you press enter, you are prompted for the password, then the application will launch.  
 ![!!KB4584.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4584.png)

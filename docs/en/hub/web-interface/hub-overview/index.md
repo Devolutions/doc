@@ -19,7 +19,7 @@ Side bar menu
 		</td>
 		<td>
         
-Click on the menu icon to navigate the ***Search, Vault, User Vault, Reports, Administration*** , and ***Tools*** sections. 
+Click on the menu icon to navigate the ***Search, Vault, User Vault, Reports, Administration***, and ***Tools*** sections. 
 		</td>
 	</tr>
 	<tr>
@@ -27,7 +27,7 @@ Click on the menu icon to navigate the ***Search, Vault, User Vault, Reports, Ad
 Vault Selector 
 		</td>
 		<td>
-Click the vault selector, at the top middle section of your browser, to switch between all your vaults and access your {{ en.UVLT }} . 
+Click the vault selector, at the top middle section of your browser, to switch between all your vaults and access your {{ en.UVLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -35,7 +35,7 @@ Click the vault selector, at the top middle section of your browser, to switch b
 Messages 
 		</td>
 		<td>
-Send and receive secure messages with users from your {{ en.HUB }} . 
+Send and receive secure messages with users from your {{ en.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ Send and receive secure messages with users from your {{ en.HUB }} .
 {{ en.DA }} 
 		</td>
 		<td>
-Click on your avatar to edit your {{ en.DA }} settings and lock or log off your {{ en.HUB }} . 
+Click on your avatar to edit your {{ en.DA }} settings and lock or log off your {{ en.HUB }}. 
 		</td>
 	</tr>
 	<tr>

@@ -1,7 +1,7 @@
 ---
 title: Add Website
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the vaults and entries of the [***Vaults***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***User vault***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.HUBB }} through {{ en.DWL }} .  
+The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the vaults and entries of the [***Vaults***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***User vault***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.HUBB }} through {{ en.DWL }}.  
 
 When {{ en.HUBB }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
 ![New Entry - Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2132.png) 
@@ -24,7 +24,7 @@ DESCRIPTION
 Name 
 		</td>
 		<td>
-Enter a name for your entry. This field is automatically filled in by {{ en.DWL }} , but can still be modified. 
+Enter a name for your entry. This field is automatically filled in by {{ en.DWL }}, but can still be modified. 
 		</td>
 	</tr>
 	<tr>
@@ -33,7 +33,7 @@ Vault
 		</td>
 		<td>
 
-Choose the vault in which to store your new website entry in {{ en.HUBB }}. You can select any available vault, including your ***User vault*** . 
+Choose the vault in which to store your new website entry in {{ en.HUBB }}. You can select any available vault, including your ***User vault***. 
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +49,7 @@ Enter the name of the folder in which your new entry will be stored in {{ en.HUB
 Host 
 		</td>
 		<td>
-Select in the drop-down list how {{ en.DWL }} will fetch the host between ***Custom*** , ***Linked (Vault)*** , or ***Inherited*** . If you select ***Custom*** , the ***URL*** field (see below) will appear. If you select ***Linked (Vault)*** , a drop-down list will appear in which you will be able to select the host. 
+Select in the drop-down list how {{ en.DWL }} will fetch the host between ***Custom***, ***Linked (Vault)***, or ***Inherited***. If you select ***Custom***, the ***URL*** field (see below) will appear. If you select ***Linked (Vault)***, a drop-down list will appear in which you will be able to select the host. 
 		</td>
 	</tr>
 	<tr>
@@ -57,7 +57,7 @@ Select in the drop-down list how {{ en.DWL }} will fetch the host between ***Cus
 URL 
 		</td>
 		<td>
-Enter the URL of the website’s login page. This field is automatically filled in by {{ en.DWL }} , but can still be modified. 
+Enter the URL of the website’s login page. This field is automatically filled in by {{ en.DWL }}, but can still be modified. 
 		</td>
 	</tr>
 	<tr>
@@ -65,7 +65,7 @@ Enter the URL of the website’s login page. This field is automatically filled 
 Credentials 
 		</td>
 		<td>
-Select in the drop-down list between ***Custom*** , ***Linked (Vault)*** , ***Inherited*** , ***My personal credentials*** , ***Find by name (User Vault)*** , or ***None*** to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
+Select in the drop-down list between ***Custom***, ***Linked (Vault)***, ***Inherited***, ***My personal credentials***, ***Find by name (User Vault)***, or ***None*** to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
 		</td>
 	</tr>
 	<tr>
@@ -121,7 +121,7 @@ Open the ***Password Generator*** window, which allows you to create a strong an
 Compare type 
 		</td>
 		<td>
-Select how the entered URL is compared and matched to the website URL. Choose between ***Default*** , ***Base domain*** , ***Compare regex with URL domain*** , ***Compare regex with full URL*** , ***Host*** , ***Start with*** , ***Exact*** , or ***Never*** . 
+Select how the entered URL is compared and matched to the website URL. Choose between ***Default***, ***Base domain***, ***Compare regex with URL domain***, ***Compare regex with full URL***, ***Host***, ***Start with***, ***Exact***, or ***Never***. 
 		</td>
 	</tr>
 	<tr>
@@ -129,7 +129,7 @@ Select how the entered URL is compared and matched to the website URL. Choose be
 {{ en.DWL }}
 		</td>
 		<td>
-Select from the drop-down list between ***Default*** , ***Disabled*** , or ***Enabled*** . If disabled, your credentials for this entry will not be suggested when accessing that particular website. We recommend to leave this option enabled. 
+Select from the drop-down list between ***Default***, ***Disabled***, or ***Enabled***. If disabled, your credentials for this entry will not be suggested when accessing that particular website. We recommend to leave this option enabled. 
 		</td>
 	</tr>
 </table>
@@ -161,7 +161,7 @@ Autofill login
 		<td>
 Enable this option if you want {{ en.DWL }} to automatically fill in your credentials when loading the website login page. This only applies to that specific entry.  
 
-***Autofill login*** is similar to the ***Automatically fill in credentials on load*** feature in the {{ en.DWL }} [***Settings***](/hub/dwl/settings/) , with the difference that the former applies only to the specific entry and the latter applies to all your entries. Note that the {{ en.DWL }} setting overrides the ***Autofill login*** setting. 
+***Autofill login*** is similar to the ***Automatically fill in credentials on load*** feature in the {{ en.DWL }} [***Settings***](/hub/dwl/settings/), with the difference that the former applies only to the specific entry and the latter applies to all your entries. Note that the {{ en.DWL }} setting overrides the ***Autofill login*** setting. 
 		</td>
 	</tr>
 	<tr>
@@ -171,7 +171,7 @@ Auto submit
 		<td>
 Enable this option if you want {{ en.DWL }} to automatically submit your credentials after they are filled in. This only applies to that specific entry.  
 
-***Auto submit*** is similar to the ***Automatically submit the form after filling*** feature in the {{ en.DWL }} [***Settings***](/hub/dwl/settings/) , with the difference that the former applies only to the specific entry and the latter applies to all your entries. Note that the {{ en.DWL }} setting overrides the ***Auto submit*** setting. 
+***Auto submit*** is similar to the ***Automatically submit the form after filling*** feature in the {{ en.DWL }} [***Settings***](/hub/dwl/settings/), with the difference that the former applies only to the specific entry and the latter applies to all your entries. Note that the {{ en.DWL }} setting overrides the ***Auto submit*** setting. 
 		</td>
 	</tr>
 	<tr>
@@ -228,7 +228,7 @@ Compare type
 		</td>
 		<td>
 
-Select how the entered URL is compared and matched to the website URL. Choose between ***Default*** , ***Base domain*** , ***Compare regex with URL domain*** , ***Compare regex with full URL*** , ***Host*** , ***Start with*** , ***Exact*** , or ***Never*** . 
+Select how the entered URL is compared and matched to the website URL. Choose between ***Default***, ***Base domain***, ***Compare regex with URL domain***, ***Compare regex with full URL***, ***Host***, ***Start with***, ***Exact***, or ***Never***. 
 		</td>
 	</tr>
 </table>
@@ -250,7 +250,7 @@ Add
 		</td>
 		<td>
 
-Add a new ***Custom Control*** . 
+Add a new ***Custom Control***. 
 		</td>
 	</tr>
 	<tr>
@@ -274,7 +274,7 @@ Enter the ***Control ID*** of the login website.
 Input type 
 		</td>
 		<td>
-Select the ***Input type*** between ***text*** , ***email*** , or ***password*** . 
+Select the ***Input type*** between ***text***, ***email***, or ***password***. 
 		</td>
 	</tr>
 	<tr>
@@ -282,7 +282,7 @@ Select the ***Input type*** between ***text*** , ***email*** , or ***password***
 Value 
 		</td>
 		<td>
-Enter the ***Value*** for your ***Custom Control*** . 
+Enter the ***Value*** for your ***Custom Control***. 
 		</td>
 	</tr>
 	<tr>
@@ -392,7 +392,7 @@ Source
 		</td>
 		<td>
 
-Select the OTP ***Source*** in the drop-down list between ***None*** , ***Custom*** , ***Linked (Vault)*** , ***Current session*** , ***Prompt*** , or ***Inherited*** . Selecting ***Custom*** gives you access to the other settings in this table. 
+Select the OTP ***Source*** in the drop-down list between ***None***, ***Custom***, ***Linked (Vault)***, ***Current session***, ***Prompt***, or ***Inherited***. Selecting ***Custom*** gives you access to the other settings in this table. 
 		</td>
 	</tr>
 	<tr>
@@ -400,7 +400,7 @@ Select the OTP ***Source*** in the drop-down list between ***None*** , ***Custom
 Key 
 		</td>
 		<td>
-Enter your OTP ***Key*** .  
+Enter your OTP ***Key***.  
 
 This field is only available if ***Custom*** is selected in the ***Source*** drop-down list. 
 		</td>
@@ -430,7 +430,7 @@ This field is only available if ***Custom*** is selected in the ***Source*** dro
 QR Code - Application 
 		</td>
 		<td>
-Enter your OTP ***QR Code*** .  
+Enter your OTP ***QR Code***.  
 
 This field is only available if ***Custom*** is selected in the ***Source*** drop-down list. 
 		</td>
@@ -450,7 +450,7 @@ This field is only available if ***Custom*** is selected in the ***Source*** dro
 Code size 
 		</td>
 		<td>
-Select the size of the code, between ***6 Digits*** or ***8 Digits*** .  
+Select the size of the code, between ***6 Digits*** or ***8 Digits***.  
 
 This drop-down list is only available if ***Custom*** is selected in the ***Source*** drop-down list. 
 		</td>
@@ -460,11 +460,11 @@ This drop-down list is only available if ***Custom*** is selected in the ***Sour
 Hash algorithm 
 		</td>
 		<td>
-Select the secure hash algorithm (SHA) between ***SHA-1*** , ***SHA-256*** , or ***SHA-512*** .  
+Select the secure hash algorithm (SHA) between ***SHA-1***, ***SHA-256***, or ***SHA-512***.  
 
 This drop-down list is only available if ***Custom*** is selected in the ***Source*** drop-down list.  
 
-To learn about secure hash algorithm, visit [our topic on SHA-256](/kb/general-knowledge-base/what-is-sha-256/) . 
+To learn about secure hash algorithm, visit [our topic on SHA-256](/kb/general-knowledge-base/what-is-sha-256/). 
 		</td>
 	</tr>
 </table>
@@ -512,7 +512,7 @@ This button is only available for ***Hidden Custom Fields*** (see below).
 Add 
 		</td>
 		<td>
-Create a new custom field using this button. You can select between ***Text*** or ***Hidden*** . Both of them allow you to enter a value for your custom field. Selecting ***Text*** gives you more text options in the ***Value*** field, while selecting ***Hidden*** gives you access to the ***Hide/Reveal*** option (see setting above). 
+Create a new custom field using this button. You can select between ***Text*** or ***Hidden***. Both of them allow you to enter a value for your custom field. Selecting ***Text*** gives you more text options in the ***Value*** field, while selecting ***Hidden*** gives you access to the ***Hide/Reveal*** option (see setting above). 
 		</td>
 	</tr>
 </table>
@@ -602,7 +602,7 @@ Cancel the creation of a new website entry and clear all unsaved changes to sett
 </table>
 
 {% snippet icon.badgeInfo %} 
-Follow our step-by-step guide explaining [how to add a website entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) in {{ en.HUBB }} with {{ en.DWL }} . 
+Follow our step-by-step guide explaining [how to add a website entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) in {{ en.HUBB }} with {{ en.DWL }}. 
 {% endsnippet %}
  
 

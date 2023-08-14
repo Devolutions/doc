@@ -1,7 +1,7 @@
 ---
 title: Panels
 ---
-In {{ en.RDM }} , the ***Panels*** section of the ***View*** tab allows you to browse and search the vaults, sessions, and entries in the ***{{ en.NPANE }}*** .  
+In {{ en.RDM }}, the ***Panels*** section of the ***View*** tab allows you to browse and search the vaults, sessions, and entries in the ***{{ en.NPANE }}***.  
 ![Panels Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2012.png) 
 
 Below are the different features available in this section:  

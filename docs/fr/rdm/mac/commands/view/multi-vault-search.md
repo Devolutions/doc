@@ -8,7 +8,7 @@ La fonctionnalité ***Recherche multi-coffres*** de {{ fr.RDMMAC }} permet de re
 
 ### Types de critères 
 
-Les critères suivants sont disponibles afin d'affiner votre recherche : ***Type de connexion*** , ***Date de création*** , ***Dossier*** , ***Date de la dernière mise à jour*** , ***Nom*** et ***Logiciel*** . 
+Les critères suivants sont disponibles afin d'affiner votre recherche : ***Type de connexion***, ***Date de création***, ***Dossier***, ***Date de la dernière mise à jour***, ***Nom*** et ***Logiciel***. 
 
 {% snippet icon.badgeInfo %} 
 Au moins un critère doit être utilisé pour filtrer vos résultats et un maximum de quatre critères peuvent être appliqués à une même recherche. 
@@ -17,7 +17,7 @@ Au moins un critère doit être utilisé pour filtrer vos résultats et un maxim
 ![Critères de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0022.png) 
 
 {% snippet icon.badgeInfo %} 
-Avec une base de donnée ***Hub*** , seulement le critère de recherche ***Nom*** peut être sélectionné. 
+Avec une base de donnée ***Hub***, seulement le critère de recherche ***Nom*** peut être sélectionné. 
 {% endsnippet %}
  
 Des listes déroulantes apparaissent lors de la sélection de certains critères pour vous donner plus d'options de recherche.  

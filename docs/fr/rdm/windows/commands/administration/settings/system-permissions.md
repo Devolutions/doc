@@ -4,7 +4,7 @@ title: Permissions du système
 Les ***Permissions du système*** permettent d'accorder certaines autorisations administratives aux utilisateurs standard sans en faire des administrateurs. Le paramètre ***Par défaut*** hérite des permissions de l'utilisateur ou du groupe d'utilisateurs. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 ### Entrées 
@@ -167,7 +167,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils de gest
 ### Administration 
 
 {% snippet icon.badgeHelp %} 
-La valeur ***Par défaut*** dans ***Gestion*** est équivalente à ***Jamais*** . 
+La valeur ***Par défaut*** dans ***Gestion*** est équivalente à ***Jamais***. 
 {% endsnippet %}
  
 ![Permissions du système - Gestion](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3433.png) 

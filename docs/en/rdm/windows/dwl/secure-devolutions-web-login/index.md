@@ -16,7 +16,7 @@ If you insist on using these older versions, it is critical that each user be as
 The application key is displayed in clear text. It must be kept secret by the user. 
 {% endsnippet %}
  
-To enable the security layer in {{ en.RDM }} , follow these steps:  
+To enable the security layer in {{ en.RDM }}, follow these steps:  
 
 1. In {{ en.RDM }}, navigate to ***File – Options – Browser Extensions***. 
 1. Under the ***{{ en.DWL }} (Browser Extensions)*** section, uncheck ***Use default port***.  

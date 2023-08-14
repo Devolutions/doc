@@ -4,7 +4,7 @@ title: Entry History
 Entry History feature allows you to view details regarding different version of your sessions and also gives you the option of performing compares between different versions. 
 
 {% snippet icon.badgeInfo %} 
-This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

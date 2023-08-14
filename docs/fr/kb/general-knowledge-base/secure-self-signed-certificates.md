@@ -40,7 +40,7 @@ Email Address []:security@acme.com
 ```
 Votre certificat sera généré dans le fichier ca.crt. 
 
-3.[Installer le certificat](/fr/kb/general-knowledge-base/install-root-certificates/) . Il est à noter que le certificat doit être installé sur le serveur et sur tous les clients pour pouvoir valider la légitimité des certificats émis. Certains navigateurs possèdent aussi certaines particularités qui sont décrites dans la rubrique. 
+3.[Installer le certificat](/fr/kb/general-knowledge-base/install-root-certificates/). Il est à noter que le certificat doit être installé sur le serveur et sur tous les clients pour pouvoir valider la légitimité des certificats émis. Certains navigateurs possèdent aussi certaines particularités qui sont décrites dans la rubrique. 
 
 ### Certificat de serveur 
 <a name="serveur"></a>

@@ -11,10 +11,10 @@ L'utilisateur effectuant la mise à jour doit disposer de privilèges administra
  
 ## Paramètres 
 
-Sélectionner la source de données pour laquelle vous souhaitez procéder à une mise à niveau et cliquer sur ***Modifier*** .  
+Sélectionner la source de données pour laquelle vous souhaitez procéder à une mise à niveau et cliquer sur ***Modifier***.  
 ![Modifier la source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4011.png) 
 
-Cliquer sur l'onglet ***Mise à niveau*** .  
+Cliquer sur l'onglet ***Mise à niveau***.  
 ![Onglet Mise à niveau](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4012.png) 
 
 <table>
@@ -52,7 +52,7 @@ Suivre ces étapes pour réussir une mise à jour de version:
 
 1. Assurez-vous que vous êtes le seul utilisateur de la base de données pendant le processus de mise à niveau. 
 1. Sauvegarder votre base de données à l'aide des outils DBSM. 
-1. Ouvrir {{ fr.RDM }} en étant connecté comme utilisateur disposant de droits d'administration. Vous devez également être ***SYSDBA*** ou ***DB_OWNER*** . 
+1. Ouvrir {{ fr.RDM }} en étant connecté comme utilisateur disposant de droits d'administration. Vous devez également être ***SYSDBA*** ou ***DB_OWNER***. 
 1. Un message de mise à niveau peut vous être demandé lors de l'accès à votre source de données. Si c'est le cas, accepter la mise à niveau. 
 1. Mettre à jour le logiciel client sur tous les postes de travail. 
 		</td>
@@ -62,7 +62,7 @@ Suivre ces étapes pour réussir une mise à jour de version:
 Tester base de données 
 		</td>
 		<td>
-Tester la connexion à la base de données pour valider si les informations appropriées ont été fournies. La base de données de test utilise le nom de la base de données dans l'onglet ***Général*** . 
+Tester la connexion à la base de données pour valider si les informations appropriées ont été fournies. La base de données de test utilise le nom de la base de données dans l'onglet ***Général***. 
 		</td>
 	</tr>
 	<tr>

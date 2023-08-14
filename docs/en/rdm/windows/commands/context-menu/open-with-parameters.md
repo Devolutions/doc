@@ -18,7 +18,7 @@ DESCRIPTION
 Open (External) 
 		</td>
 		<td>
-Open a session as an external process, with no direct link to {{ en.RDM }} . 
+Open a session as an external process, with no direct link to {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>

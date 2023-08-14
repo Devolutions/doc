@@ -1,9 +1,9 @@
 ---
 title: Ajouter un site Web
 ---
-Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant*** , qui est l'onglet sélectionné à l'ouverture de l'extension. Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.RDMMAC }} via {{ fr.DWL }} .  
+Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension. Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.RDMMAC }} via {{ fr.DWL }}.  
 
-Lorsque {{ fr.RDMMAC }} est utilisé comme source de données, la configuration de l'entrée se fait dans l'onglet ***Général*** .  
+Lorsque {{ fr.RDMMAC }} est utilisé comme source de données, la configuration de l'entrée se fait dans l'onglet ***Général***.  
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2022.png) 
 
 Consultez le tableau ci-dessous pour en savoir plus sur chaque champ/paramètre de cette vue. 
@@ -22,7 +22,7 @@ DESCRIPTION
 Nom 
 		</td>
 		<td>
-Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.DWL }} , mais il peut tout de même être modifié. 
+Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.DWL }}, mais il peut tout de même être modifié. 
 		</td>
 	</tr>
 	<tr>
@@ -30,7 +30,7 @@ Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.
 URL 
 		</td>
 		<td>
-Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiquement par {{ fr.DWL }} , mais il peut tout de même être modifié. 
+Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiquement par {{ fr.DWL }}, mais il peut tout de même être modifié. 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Coffre 
 		</td>
 		<td>
-Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.UVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.RDMMAC }} . 
+Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.UVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.RDMMAC }}. 
 		</td>
 	</tr>
 	<tr>
@@ -101,7 +101,7 @@ Annuler la création d'une nouvelle entrée de site Web et effacer toute les mod
 </table>
 
 {% snippet icon.badgeInfo %} 
-Consultez notre guide étape par étape pour [ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-dwl/) . 
+Consultez notre guide étape par étape pour [ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
 {% endsnippet %}
  
 

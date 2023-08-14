@@ -9,7 +9,7 @@ The only inbound port that is needed for {{ en.DVLS }} is for http or https comm
 
 ## Outbound
 
-Two technologies are in play for proper operation of {{ en.DVLS }} : SQL Server, LDAP.
+Two technologies are in play for proper operation of {{ en.DVLS }}: SQL Server, LDAP.
 
 ### SQL Server
 
@@ -24,7 +24,7 @@ For more information please consult [SQL Server Configuration Manager on Technet
 
 ### LDAP/LDAPS
 
-As indicated in [LDAPS on Technet](http://social.technet.microsoft.com/wiki/contents/articles/2980.ldap-over-ssl-ldaps-certificate.aspx) , LDAP communications are by nature insecure under certain conditions:
+As indicated in [LDAPS on Technet](http://social.technet.microsoft.com/wiki/contents/articles/2980.ldap-over-ssl-ldaps-certificate.aspx), LDAP communications are by nature insecure under certain conditions:
 
 ```
 By default, LDAP communications between client and server applications are not encrypted.

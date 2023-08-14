@@ -5,7 +5,7 @@ keywords:
 ---
 The Permissions panel can be found in every entry properties in the Security – Permissions section.  
 
-It is also possible to allow administrators to grant administrative permissions to standard users without making them administrators with [System Permissions](/server/web-interface/administration/configuration/system-permissions/) .  
+It is also possible to allow administrators to grant administrative permissions to standard users without making them administrators with [System Permissions](/server/web-interface/administration/configuration/system-permissions/).  
 
 The user groups based permissions system can give a very accurate control of the security. Here is an overview of the permissions window:  
 
@@ -27,10 +27,10 @@ Description
 		<td>
 Sets the permission mode. This must be set to Custom in order to change the discrete permissions below. Select between:  <br>
 
-* Inherited (Default) : will inherit the permissions from the parent groups. 
-* Custom : lets you specify a custom value for each of the permission. 
-* Everyone : everyone will be granted all the permissions below. 
-* Never : no one but the administrators will be granted the permissions 
+* Inherited (Default): will inherit the permissions from the parent groups. 
+* Custom: lets you specify a custom value for each of the permission. 
+* Everyone: everyone will be granted all the permissions below. 
+* Never: no one but the administrators will be granted the permissions 
 		</td>
 	</tr>
 	<tr>
@@ -40,10 +40,10 @@ Sets the permission mode. This must be set to Custom in order to change the disc
 		<td>
 Lets you choose who you want to grant permissions to. These combo boxes are available only if the above Permission combo box is set to Custom . Select between: <br>
 
-* Inherited (Default) : will inherit the permissions from the parent groups/folders. 
-* Custom : lets you specify a custom value for the permission. 
-* Everyone : everyone will be granted the permission 
-* Never : no one but the administrators will be granted the permission. 
+* Inherited (Default): will inherit the permissions from the parent groups/folders. 
+* Custom: lets you specify a custom value for the permission. 
+* Everyone: everyone will be granted the permission 
+* Never: no one but the administrators will be granted the permission. 
 		</td>
 	</tr>
 	<tr>

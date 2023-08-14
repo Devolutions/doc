@@ -2,7 +2,7 @@
 title: Créer une entrée
 ---
 
-Après l'installation de {{ fr.RDM }} , il faut configurer vos entrées. Il existe plusieurs types d'entrées: vous devez savoir quelle technologie ou quel tiers vous utiliserez pour vous connecter à distance. Ainsi, vous serez en mesure de choisir le type d'entrée le plus approprié selon votre future configuration.  
+Après l'installation de {{ fr.RDM }}, il faut configurer vos entrées. Il existe plusieurs types d'entrées: vous devez savoir quelle technologie ou quel tiers vous utiliserez pour vous connecter à distance. Ainsi, vous serez en mesure de choisir le type d'entrée le plus approprié selon votre future configuration.  
 
 {{ fr.RDMMAC }} prend en charge plusieurs types d'entrées. 
 

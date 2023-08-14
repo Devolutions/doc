@@ -41,7 +41,7 @@ A proper database backup strategy should be implemented to prevent possible data
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly in order to maintain the health of the database. Please consult [Recovery Model](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/) . 
+Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly in order to maintain the health of the database. Please consult [Recovery Model](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/). 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
@@ -146,7 +146,7 @@ Enter the name of the Azure SQL database.
 Two factor 
 		</td>
 		<td>
-Enable the [Multi-Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/) . 
+Enable the [Multi-Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/). 
 		</td>
 	</tr>
 	<tr>
@@ -366,7 +366,7 @@ Ask to use the data source in offline mode when the user connects to the data so
 Allow beta database upgrade 
 		</td>
 		<td>
-Allow beta upgrade of the database (when using a beta version of {{ en.RDM }} ). 
+Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}). 
 		</td>
 	</tr>
 	<tr>

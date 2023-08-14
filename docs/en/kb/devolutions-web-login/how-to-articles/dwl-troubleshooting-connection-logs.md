@@ -7,7 +7,7 @@ When an issue occurs with {{ en.DWL }}, the support personnel may ask you to pro
 1. Click on ***Manage Extension***
 1. Toggle on the ***Developer mode***  
 ![!!KB4786.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4786.png)
-1. In the same window, under ***Inspect views*** , click on the ***background/background.html*** link. This will open the browser ***DevTools*** window.  
+1. In the same window, under ***Inspect views***, click on the ***background/background.html*** link. This will open the browser ***DevTools*** window.  
 ![!!KB4787.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4787.png)
 1. In the {{ en.DWL }} pop-up menu, click on the ***Refresh*** button.  
 ![!!KB4788.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4788.png)

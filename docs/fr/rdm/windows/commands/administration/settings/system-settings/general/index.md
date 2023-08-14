@@ -1,7 +1,7 @@
 ---
 title: Général
 ---
-Les ***Paramètres du système*** sont disponibles dans ***Administration - Paramètres du système*** .  
+Les ***Paramètres du système*** sont disponibles dans ***Administration - Paramètres du système***.  
 
 Les ***Paramètres du système*** vous permettent de contrôler de nombreux aspects globaux de la source de données, tels que le mode hors ligne, les politiques de mot de passe et la gestion des versions. Vous pouvez définir des stratégies générales applicables à l'ensemble de la source de données. 
 
@@ -26,7 +26,7 @@ DESCRIPTION
 Permettre les Paramètres spécifiques de l'usager 
 		</td>
 		<td>
-Permets l'utilisation des [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Permets l'utilisation des [Paramètres spécifiques de l'usager](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 	<tr>
@@ -58,7 +58,7 @@ Autoriser le verrouillage des entrées lorsqu'elles sont utilisées ou modifiée
 Permettre les dossiers virtuels 
 		</td>
 		<td>
-Permet de stocker des entrées dans des dossiers virtuels. (Non pris en charge avec {{ fr.DVLS }} .) 
+Permet de stocker des entrées dans des dossiers virtuels. (Non pris en charge avec {{ fr.DVLS }}.) 
 		</td>
 	</tr>
 	<tr>
@@ -90,7 +90,7 @@ Autoriser les utilisateurs à créer des connexionx favorites.
 Autoriser le mode d'identifiants intégrés (obsolète) 
 		</td>
 		<td>
-Intégrer une entrée d' ***Identifiants*** dans l'entrée elle-même. Ce mode est obsolète et déconseillé. Veuillez consulter les autres [Options d'identifiants](/fr/rdm/windows/commands/edit/entries/entry-credentials-options/) disponibles. 
+Intégrer une entrée d'***Identifiants*** dans l'entrée elle-même. Ce mode est obsolète et déconseillé. Veuillez consulter les autres [Options d'identifiants](/fr/rdm/windows/commands/edit/entries/entry-credentials-options/) disponibles. 
 		</td>
 	</tr>
 	<tr>

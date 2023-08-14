@@ -80,7 +80,7 @@ Cela vous permet d'utiliser un seul ensemble d'identifiants pour remplacer ou é
 Utiliser la recherche dans le {{ fr.UVLT }} 
 		</td>
 		<td>
-Utiliser les identifiants stockés dans votre {{ fr.UVLT }} . 
+Utiliser les identifiants stockés dans votre {{ fr.UVLT }}. 
 		</td>
 	</tr>
 	<tr>

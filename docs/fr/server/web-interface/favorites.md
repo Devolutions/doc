@@ -14,7 +14,7 @@ Favoriser une entrée de deux manières :
 
 ### Organiser les favoris 
 
-Pour organiser vos entrées favorites, cliquer sur ***Ajouter un dossier*** , dans la section ***Favoris*** . Nommer le dossier, puis faites-les glisser et déposer dans la liste des favoris pour les organiser.  
+Pour organiser vos entrées favorites, cliquer sur ***Ajouter un dossier***, dans la section ***Favoris***. Nommer le dossier, puis faites-les glisser et déposer dans la liste des favoris pour les organiser.  
 
 Lorsqu'une structure de ***Favoris*** existe et que vous favorisez une nouvelle entrée, il suffit de sélectionner le dossier dans la liste pour l'y enregistrer. 
 

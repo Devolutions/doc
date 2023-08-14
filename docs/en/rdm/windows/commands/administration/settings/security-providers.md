@@ -6,7 +6,7 @@ title: Security Providers
 The ***Security Provider*** allows for encrypting the data source content. To access the security provider, navigate to Administration – Security Provider . 
 
 {% snippet icon.badgeInfo %} 
-This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -159,7 +159,7 @@ Select an existing RSA certificate.
 
 ### Create Certificate 
 
-It is possible to create a Self Signed certificate by clicking on ***Create Certificate*** .  
+It is possible to create a Self Signed certificate by clicking on ***Create Certificate***.  
 ![Self Signed Certificate](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10288.png) 
 
 <table>

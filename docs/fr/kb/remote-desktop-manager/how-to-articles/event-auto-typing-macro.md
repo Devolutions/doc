@@ -16,11 +16,11 @@ Il est donc fortement déconseillé d’utiliser cette fonctionnalité dans un e
 
 ### Macro clavier 
 
-Les touches du clavier sont représentées par des balises prédéfinies entre des accolades. Pour un caractère spécifique, saisissez-le simplement sans accolades. Par exemple, saisissez la lettre ***A*** pour représenter la lettre « A » dans la macro clavier. Pour représenter plus d’un caractère (ex. : ***Bonjour*** ), attachez chaque nouveau caractère à celui qui le précède.  
+Les touches du clavier sont représentées par des balises prédéfinies entre des accolades. Pour un caractère spécifique, saisissez-le simplement sans accolades. Par exemple, saisissez la lettre ***A*** pour représenter la lettre « A » dans la macro clavier. Pour représenter plus d’un caractère (p. ex. : ***Bonjour***), attachez chaque nouveau caractère à celui qui le précède.  
 
 ### Touches spéciales 
 
-Pour saisir des caractères qui n'apparaissent pas normalement (comme Entrée ou Tab ) ainsi que ceux qui représentent des actions, veuillez vous référer au tableau suivant :  
+Pour saisir des caractères qui n'apparaissent pas normalement (comme Entrée ou Tab) ainsi que ceux qui représentent des actions, veuillez vous référer au tableau suivant :  
 
 <table>
 	<tr>

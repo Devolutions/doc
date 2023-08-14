@@ -159,7 +159,7 @@ Disable the form editor cache and force {{ en.RDM }} to always fetch the informa
 Disable log off confirmation message 
 		</td>
 		<td>
-When pressing the logoff button in an embedded RDP session, {{ en.RDM }} , will disconnect the session without the logoff confirmation message. 
+When pressing the logoff button in an embedded RDP session, {{ en.RDM }}, will disconnect the session without the logoff confirmation message. 
 		</td>
 	</tr>
 	<tr>
@@ -462,7 +462,7 @@ When adding a new document by selecting a file supported by a Microsoft Office a
 Use ZipCrypto compression (not recommended) 
 		</td>
 		<td>
-Enable this option to allow the ZipCrypto compression in {{ en.RDM }} . We do not recommend enabling this option. Here is a blog written by our security team about the subject: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/). 
+Enable this option to allow the ZipCrypto compression in {{ en.RDM }}. We do not recommend enabling this option. Here is a blog written by our security team about the subject: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/). 
 		</td>
 	</tr>
 </table>

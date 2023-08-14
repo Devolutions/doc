@@ -73,7 +73,7 @@ Communicate with the default port 19443 between the application.
 Add entry in user vault by default 
 		</td>
 		<td>
-Save new entries in the {{ en.UVLT }} . 
+Save new entries in the {{ en.UVLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -81,7 +81,7 @@ Save new entries in the {{ en.UVLT }} .
 Destination folder 
 		</td>
 		<td>
-Choose the folder where the credentials are stored in the {{ en.VLT }} . 
+Choose the folder where the credentials are stored in the {{ en.VLT }}. 
 		</td>
 	</tr>
 </table>
@@ -137,7 +137,7 @@ DESCRIPTION
 Application key 
 		</td>
 		<td>
-Secure the port with an application key by using the same code in {{ en.RDM }} and {{ en.DWL }} .<br>
+Secure the port with an application key by using the same code in {{ en.RDM }} and {{ en.DWL }}.<br>
 
 Navigate to <b><i>File – Options – Browser Extensions</b></i> in {{ en.RDM }} to set the application key. 
 		</td>
@@ -155,7 +155,7 @@ Exchange messages with a native application installed on the user's computer.
 Use legacy API 
 		</td>
 		<td>
-Use the old browser extension API for compatibility with older versions of {{ en.RDM }} . 
+Use the old browser extension API for compatibility with older versions of {{ en.RDM }}. 
 		</td>
 	</tr>
 </table>
@@ -176,7 +176,7 @@ DESCRIPTION
 Enable {{ en.DVLS }} 
 		</td>
 		<td>
-Retrieve entries from {{ en.DVLS }} . 
+Retrieve entries from {{ en.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -184,7 +184,7 @@ Retrieve entries from {{ en.DVLS }} .
 Destination folder 
 		</td>
 		<td>
-Choose the folder where the credentials are stored in the {{ en.VLT }} . 
+Choose the folder where the credentials are stored in the {{ en.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -256,7 +256,7 @@ Set a default comparing option type between <b><i>Base domain , Host , Starts wi
 Sync all available vaults 
 		</td>
 		<td>
-Enable to synchronize all the available {{ en.VLT }}s from {{ en.DVLS }} . 
+Enable to synchronize all the available {{ en.VLT }}s from {{ en.DVLS }}. 
 		</td>
 	</tr>
 </table>
@@ -355,7 +355,7 @@ Display the {{ en.DWL }} favicon.
 {{ en.DWL }} 
 		</td>
 		<td>
-Enable or disable {{ en.DWL }} with {{ en.HUB }} . 
+Enable or disable {{ en.DWL }} with {{ en.HUB }}. 
 		</td>
 	</tr>
 	<tr>

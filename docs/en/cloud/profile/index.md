@@ -7,7 +7,7 @@ In the [***Profile***](https://portal.devolutions.com/profile) section you can m
 To change the Gravatar (image) associated to your account, we use the Gravatar system, please visit [Gravatar](http://en.gravatar.com/) to get yours.  
 
 {% snippet icon.badgeWarning %} 
-You can also delete your {{ en.DA }} .  
+You can also delete your {{ en.DA }}.  
 
 THIS CANNOT BE UNDONE!  
 

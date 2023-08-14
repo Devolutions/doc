@@ -8,7 +8,7 @@ Dans ce scénario, toutes les options de la section ***Privilèges*** des propri
 Bien que cet exemple puisse convenir à de nombreuses entreprises, veuillez garder à l'esprit que tout privilège ne devrait être accordé qu'en cas de besoin. Soyez extrêmement prudent lorsque vous accordez des permissions à un utilisateur ou à un groupe d'utilisateurs. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité est disponible que lors de l'utilisation d'une [/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/](DataSources_Advanced) . 
+Cette fonctionnalité est disponible que lors de l'utilisation d'une [/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/](DataSources_Advanced). 
 {% endsnippet %}
  
 ## Étapes 
@@ -73,9 +73,9 @@ Pour Downhill Pro, nous accorderons des permissions au ServiceDesk et au HelpDes
 * ***View (Affichage)*** : HelpDesk, ServiceDesk 
 * ***Add (Ajouter)*** : ServiceDesk 
 * ***Edit (Modifier)*** : ServiceDesk 
-* ***Delete (Supprimer)*** : Aucun utilisateur n'ayant le droit de supprimer, nous pouvons laisser cette permission ***Par défaut (Default)*** . 
+* ***Delete (Supprimer)*** : Aucun utilisateur n'ayant le droit de supprimer, nous pouvons laisser cette permission ***Par défaut (Default)***. 
 
-Nous avons déjà un bon exemple de la flexibilité de la sécurité de {{ fr.RDM }} . Un utilisateur de ServiceDesk peut afficher et ouvrir toutes les entrées du dossier Downhill Pro, même l'entrée d'identifiants, mais il ne pourra jamais voir de mot de passe.  
+Nous avons déjà un bon exemple de la flexibilité de la sécurité de {{ fr.RDM }}. Un utilisateur de ServiceDesk peut afficher et ouvrir toutes les entrées du dossier Downhill Pro, même l'entrée d'identifiants, mais il ne pourra jamais voir de mot de passe.  
 
 Ensuite, pour le dossier Telemark, nous accorderons des permissions au ServiceDesk, au HelpDesk et au MontrealConsultant. C'est là que les choses deviennent plus complexes. Si nous voulons que le consultant de Montréal ne puisse voir que le dossier de Montréal qui est un élément enfant du télémark, nous devons accorder au consultant la permission de visualiser le contenu complet du télémark. Ensuite, nous accorderons des permissions sur les éléments enfants uniquement au groupe d'utilisateurs qui devrait avoir accès à ces éléments. Cette dernière étape refusera la permission de visualisation pour le consultant sur les éléments enfants.  
 ![Telemark - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11111.png) 
@@ -95,7 +95,7 @@ Les permissions ***Ajouter*** et ***Modifier*** peuvent être laissées à ***Pa
 * ***Edit (Modifier)*** : Default (Par défaut) 
 * ***Delete (Supprimer)*** : Default (Par défaut) 
 
-Nous voulons que ServiceDesk puisse également utiliser les identifiants d'administrateur de domaine, mais pas le HelpDesk. Pour cela, nous devons accorder la permission ***Affichage*** uniquement à ServiceDesk et modifier la permission ***Ajouter*** et ***Modifier*** sur ***Jamais*** . Le ServiceDesk pourra toujours modifier l'entrée d'identifiant, mais ne verra jamais le mot de passe. Si vous préférez, vous pouvez définir la permission ***Modifier*** sur un utilisateur ou un groupe d'utilisateurs administrateur pour la refuser au ServiceDesk.  
+Nous voulons que ServiceDesk puisse également utiliser les identifiants d'administrateur de domaine, mais pas le HelpDesk. Pour cela, nous devons accorder la permission ***Affichage*** uniquement à ServiceDesk et modifier la permission ***Ajouter*** et ***Modifier*** sur ***Jamais***. Le ServiceDesk pourra toujours modifier l'entrée d'identifiant, mais ne verra jamais le mot de passe. Si vous préférez, vous pouvez définir la permission ***Modifier*** sur un utilisateur ou un groupe d'utilisateurs administrateur pour la refuser au ServiceDesk.  
 ![Telemark / Credentials / Admin - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11113.png) 
 
 * ***View (Affichage)*** : ServiceDesk 
@@ -103,7 +103,7 @@ Nous voulons que ServiceDesk puisse également utiliser les identifiants d'admin
 * ***Edit (Modifier)*** : Default (Par défaut) ou utilisateur/groupes d'utilisateurs d'Administrateur 
 * ***Delete (Supprimer)*** : Default (Par défaut) 
 
-La dernière étape pour les éléments enfants de Telemark serait de définir la permission ***Affichage*** sur ServiceDesk et HelpDesk sur le dossier Boston et de laisser toutes les autres permissions sur ***Par défaut*** .  
+La dernière étape pour les éléments enfants de Telemark serait de définir la permission ***Affichage*** sur ServiceDesk et HelpDesk sur le dossier Boston et de laisser toutes les autres permissions sur ***Par défaut***.  
 
 Désormais, le MontrealConsultant ne pourra voir et ouvrir les entrées que dans le dossier de Montréal. Chaque fois qu'un nouveau dossier est ajouté, la permission ***Affichage*** doit être définie pour ServiceDesk et HelpDesk pour masquer le nouveau dossier et son contenu au consultant.  
 ![Telemark / Boston - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11114.png) 

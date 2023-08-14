@@ -159,7 +159,7 @@ Read-only
 		</td>
 		<td>
 
-A read-only cache is allowed for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+A read-only cache is allowed for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 		</td>
 	</tr>
 	<tr>
@@ -167,7 +167,7 @@ A read-only cache is allowed for [Advanced Data Sources](/rdm/mac/data-sources/d
 Read/Write 
 		</td>
 		<td>
-An advanced cache, with change synchronization, is allowed for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+An advanced cache, with change synchronization, is allowed for [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 		</td>
 	</tr>
 </table>
@@ -188,5 +188,5 @@ User groups in {{ en.DVLS }} are in fact links to Active Directory groups. By le
 Please note that the Unsecured group permissions (the ones above the grid) are ignored. You must set them on each user individually. 
 {% endsnippet %}
  
-For more information please see [{{ en.DVLS }} User Groups Management](/server/web-interface/administration/security-management/user-groups/) . 
+For more information please see [{{ en.DVLS }} User Groups Management](/server/web-interface/administration/security-management/user-groups/). 
 

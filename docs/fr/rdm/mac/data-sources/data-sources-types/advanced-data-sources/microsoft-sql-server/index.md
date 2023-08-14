@@ -45,7 +45,7 @@ Active directory dans une source de données SQL Server n'est plus pris en charg
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Selon le “Recovery Model“ de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées pour s'exécuter régulièrement afin de maintenir l'intégrité de la base de données. Veuillez consulter [Recovery Model](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/) . 
+Selon le “Recovery Model“ de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées pour s'exécuter régulièrement afin de maintenir l'intégrité de la base de données. Veuillez consulter [Recovery Model](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -53,7 +53,7 @@ La création d'utilisateurs de base de données comme mentionné dans cet [artic
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Pour configurer une source de données Serveur SQL, veuillez lire la [Configurer SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) . 
+Pour configurer une source de données Serveur SQL, veuillez lire la [Configurer SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/). 
 {% endsnippet %}
  
 ## Paramètres 
@@ -133,7 +133,7 @@ Nom de la base de données créée en ligne. Vous devez utiliser le bouton engre
 		</td>
 		<td>
 
-Activer l' [Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
+Activer l'[Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -247,7 +247,7 @@ Temps d'attente avant un délai de commande.
 Gérer la cache 
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/) . 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/). 
 		</td>
 	</tr>
 	<tr>
@@ -286,7 +286,7 @@ Tester la connexion avec le serveur pour valider si les informations appropriée
 Créer base de données 
 		</td>
 		<td>
-Créer la base de données pour utiliser {{ fr.RDM }} . 
+Créer la base de données pour utiliser {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -294,7 +294,7 @@ Créer la base de données pour utiliser {{ fr.RDM }} .
 Mettre à jour base de données 
 		</td>
 		<td>
-Mettre à jour la base de données, si nécessaire pour utiliser {{ fr.RDM }} . 
+Mettre à jour la base de données, si nécessaire pour utiliser {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>

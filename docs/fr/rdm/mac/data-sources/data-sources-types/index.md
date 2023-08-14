@@ -35,7 +35,7 @@ AVANTAGES ET INCONVÉNIENTS
 		</td>
 		<td>
 {{ fr.RDMMAC }} utilise {{ fr.DOD }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet. 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.OD }}](/fr/cloud/rdm-online-services/online-drive/) . 
+Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.OD }}](/fr/cloud/rdm-online-services/online-drive/). 
 		</td>
 		<td>
 Avantages :  
@@ -60,7 +60,7 @@ Inconvénients :
 		<td>
 {{ fr.RDMMAC }} utilise {{ fr.DVLS }} pour stocker les informations de session.  
 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) . 
+Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/). 
 		</td>
 		<td>
 Avantages : 
@@ -68,7 +68,7 @@ Avantages :
 * Rapide 
 * Fiable 
 * Sécuritaire. 
-* Prend en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/server/web-interface/reports/) , le [Mode hors-ligne](/fr/server/web-interface/administration/security-management/user-groups/settings/) et la [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/) . 
+* Prend en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/server/web-interface/reports/), le [Mode hors-ligne](/fr/server/web-interface/administration/security-management/user-groups/settings/) et la [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/). 
 * Intégration Active Directory. 
 
 Inconvénients : 
@@ -86,7 +86,7 @@ Dropbox
 		<td>
 {{ fr.RDMMAC }} utilise l'API Dropbox pour récupérer le fichier XML à partir du coffre configuré.  
 
-Pour plus d'informations, veuillez consulter notre rubrique [Dropbox](/fr/rdm/mac/data-sources/data-sources-types/dropbox/) . 
+Pour plus d'informations, veuillez consulter notre rubrique [Dropbox](/fr/rdm/mac/data-sources/data-sources-types/dropbox/). 
 		</td>
 		<td>
 Avantages : 
@@ -99,7 +99,7 @@ Inconvénients :
 
 * Pas de gestion de la sécurité. 
 * Il existe une possibilité de conflit ou de corruption de données. 
-* Ne prend pas en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/) , le [mode hors-ligne](/fr/rdm/mac/commands/file/go-offline/) et la [Gestion des utilisateurs](A/fr/rdm/mac/commands/administration/user-management/) . 
+* Ne prend pas en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/), le [mode hors-ligne](/fr/rdm/mac/commands/file/go-offline/) et la [Gestion des utilisateurs](A/fr/rdm/mac/commands/administration/user-management/). 
 * L'intégration Dropbox utilise le SDK Dropbox, donc les fonctionnalités exclusives aux éditions Business ou Enterprise ne sont PAS prises en charge. 
 		</td>
 	</tr>
@@ -121,7 +121,7 @@ Avantages :
 * Rapide. 
 * Fiable. 
 * Sécuritaire. 
-* Prend en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/) , le [mode hors-ligne](/fr/rdm/mac/commands/file/go-offline/) et la [Gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/) . 
+* Prend en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/), le [mode hors-ligne](/fr/rdm/mac/commands/file/go-offline/) et la [Gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/). 
 
 Inconvénients : 
 
@@ -138,7 +138,7 @@ Microsoft SQL Server
 		<td>
 {{ fr.RDMMAC }} utilise SQL Server pour enregistrer et gérer toutes les sessions. Il s'agit de l'une des sources de données disponibles pour un environnement multi-utilisateur.  
 
-Pour plus d'informations, consultez notre rubrique [SQL Server (MSSQL)](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) . 
+Pour plus d'informations, consultez notre rubrique [SQL Server (MSSQL)](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/). 
 		</td>
 		<td>
 Avantages : 
@@ -146,7 +146,7 @@ Avantages :
 * Rapide. 
 * Fiable. 
 * Sécuritaire. 
-* Prend en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/) , le [mode hors-ligne](/fr/rdm/mac/commands/file/go-offline/) et la [Gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/) . 
+* Prend en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/), le [mode hors-ligne](/fr/rdm/mac/commands/file/go-offline/) et la [Gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/). 
 * SQL Server Express est gratuit. 
 
 Inconvénients : 
@@ -217,7 +217,7 @@ SQLite
 		<td>
 {{ fr.RDMMAC }} utilise une base de données SQLite pour stocker les informations de session.  
 
-Pour plus d'informations, veuillez consulter notre rubrique [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/) . 
+Pour plus d'informations, veuillez consulter notre rubrique [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/). 
 		</td>
 		<td>
 Avantages : 
@@ -225,7 +225,7 @@ Avantages :
 * Rapide. 
 * Fiable. 
 * Base de données gratuite. 
-* Prend en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/) , le [mode hors-ligne](/fr/rdm/mac/commands/file/go-offline/) et la [Gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/) . 
+* Prend en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/), le [mode hors-ligne](/fr/rdm/mac/commands/file/go-offline/) et la [Gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/). 
 
 Inconvénients : 
 
@@ -243,7 +243,7 @@ XML
 		<td>
 {{ fr.RDMMAC }} enregistre les paramètres directement dans un fichier au format XML.  
 
-Pour plus d'informations, veuillez consulter notre rubrique [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) . 
+Pour plus d'informations, veuillez consulter notre rubrique [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/). 
 		</td>
 		<td>
 Avantages : 
@@ -257,7 +257,7 @@ Inconvénients :
 * Pas de possibilité de partage. 
 * Pas de gestion de la sécurité. 
 * Il existe une possibilité de conflit ou de corruption de données. 
-* Ne prend pas en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/) , le [mode hors-ligne](/fr/rdm/mac/commands/file/go-offline/) et la [Gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/) . 
+* Ne prend pas en charge toutes les fonctionnalités, telles que les pièces jointes, les [Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/), le [mode hors-ligne](/fr/rdm/mac/commands/file/go-offline/) et la [Gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/). 
 		</td>
 	</tr>
 </table>

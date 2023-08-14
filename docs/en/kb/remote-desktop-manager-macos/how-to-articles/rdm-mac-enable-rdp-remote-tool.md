@@ -14,7 +14,7 @@ Prior to your configuration in {{ en.RDMMAC }}, a Devolutions Proxy needs to be 
 
 1. After the deployment of your Devolutions Proxy, open {{ en.RDMMAC }} and click on ***{{ en.RDM }} – Preferences***.  
 ![!!KB4209.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4209.png)
-1. Click on ***Tools - Remote Tools*** and in the ***Access mode*** , select ***Via custom Devolutions Proxy***  
+1. Click on ***Tools - Remote Tools*** and in the ***Access mode***, select ***Via custom Devolutions Proxy***  
 ![!!KB4210.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4210.png)
 1. Enter the ***Server*** name where your Devolutions Proxy has been deployed and ***Save***  
 ![!!KB4211.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4211.png)
@@ -40,7 +40,7 @@ After the deployment of your Devolutions Proxy, open {{ en.RDMMAC }} and create 
 1. When the Devolutions Proxy session is created, right-click your RDP session, click ***Properties***.  
 1. Click on ***Remote Tools***.  
 ![!!KB4213.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4213.png)
-1. In ***Access mode*** , select ***Via Devolutions Proxy*** and select your Devolutions Proxy session.  
+1. In ***Access mode***, select ***Via Devolutions Proxy*** and select your Devolutions Proxy session.  
 ![!!KB4215.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4215.png)  
 
 The Remote Tools will now be available via the Dashboard for this RDP session.

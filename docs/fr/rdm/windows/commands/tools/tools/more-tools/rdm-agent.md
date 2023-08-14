@@ -2,12 +2,12 @@
 eleventyComputed:
   title: Agent {{ fr.RDM }}
 ---
-L' {{ fr.RDMA }} est un outil très puissant qui permet d'exécuter des commandes sur plusieurs machines.  
+L'{{ fr.RDMA }} est un outil très puissant qui permet d'exécuter des commandes sur plusieurs machines.  
 ![Outils - Plus d'outils - {{ fr.RDMA }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11234.png) 
 
 ## Paramètres 
 
-Pour lancer un script via l'{{ fr.RDMA }}, vous devez d'abord ouvrir une connexion RDP sur toutes les machines sur lesquelles vous souhaitez exécuter le script. Une fois ouverte, sélectionner toutes les sessions ouvertes dans le ***{{ fr.NPANE }}***, cliquer dessus avec le bouton droit et sélectionner ***Exécuter le script par Agent*** .  
+Pour lancer un script via l'{{ fr.RDMA }}, vous devez d'abord ouvrir une connexion RDP sur toutes les machines sur lesquelles vous souhaitez exécuter le script. Une fois ouverte, sélectionner toutes les sessions ouvertes dans le ***{{ fr.NPANE }}***, cliquer dessus avec le bouton droit et sélectionner ***Exécuter le script par Agent***.  
 
 {% snippet icon.badgeInfo %} 
 L'exécution du script via l'Agent a besoin seulement de l'{{ fr.RDMA }} que lorsque le script est exécuté à partir de l'onglet Quick Script. {{ fr.RDM }} doit être entièrement installé sur l'ordinateur distant lorsque le script est exécuté à partir de l'onglet Outils/Scripts/Macros. 
@@ -197,7 +197,7 @@ DESCRIPTION
 Scripts/Outils 
 		</td>
 		<td>
-Sélectionner un script ou un outil de session que vous avez déjà créé dans {{ fr.RDM }} . 
+Sélectionner un script ou un outil de session que vous avez déjà créé dans {{ fr.RDM }}. 
 		</td>
 	</tr>
 </table>

@@ -4,7 +4,7 @@ title: Security Provider
 The security provider is available from Administration - Security Provider . The security provider is responsible for encrypting the data in the database. 
 
 {% snippet icon.badgeInfo %} 
-This features requires an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+This features requires an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

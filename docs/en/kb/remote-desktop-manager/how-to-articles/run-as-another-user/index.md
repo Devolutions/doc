@@ -18,11 +18,11 @@ The ***Run As*** command has many parameters to change its behaviour, we won't c
 
 ## Options
 
-You have two options when it comes to ***Run As*** :
+You have two options when it comes to ***Run As***:
 
 ### Built-In Run As
 
-In {{ en.RDM }} , some sessions/tools types support the ***Run As*** functionality. For a complete list and configuration information see the [Built-In Run As](/kb/remote-desktop-manager/how-to-articles/run-as-another-user/built-in-runas/) help topic.
+In {{ en.RDM }}, some sessions/tools types support the ***Run As*** functionality. For a complete list and configuration information see the [Built-In Run As](/kb/remote-desktop-manager/how-to-articles/run-as-another-user/built-in-runas/) help topic.
 
 ### Manual Run As
 

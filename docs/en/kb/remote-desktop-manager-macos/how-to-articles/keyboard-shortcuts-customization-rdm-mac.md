@@ -15,7 +15,7 @@ For a list of default values for shortcuts, visit our [Keyboard Shortcuts](/rdm/
 
 1. Select the shortcut you want to modify from the list. You can search for it using the ***Search*** bar at the top.
 1. In the drop-down list, select ***Custom*** to specify a new key combination, ***None*** to disable the shortcut, or ***Default*** to return the shortcut to its default value. If you selected the ***None*** or ***Default*** options, skip to step 4. For the ***Custom*** option, continue to step 3.
-1. To the right of the drop-down list, specify your unique new key combination for the shortcut by selecting/deselecting the ***Shift*** , ***Ctrl*** , ***Alt*** , and ***Cmd*** buttons and by entering a key from your keyboard. For example, the image below represents the ***About*** function being assigned the Shift+Cmd+A shortcut.
+1. To the right of the drop-down list, specify your unique new key combination for the shortcut by selecting/deselecting the ***Shift***, ***Ctrl***, ***Alt***, and ***Cmd*** buttons and by entering a key from your keyboard. For example, the image below represents the ***About*** function being assigned the Shift+Cmd+A shortcut.
 ![Shortcut Customization Example.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2094.png)
 1. Repeat the steps above for each new shortcut.  
 {% snippet icon.badgeInfo %}

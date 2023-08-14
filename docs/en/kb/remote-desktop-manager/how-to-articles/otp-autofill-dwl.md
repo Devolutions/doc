@@ -16,13 +16,13 @@ For this topic, we will be using Google Chrome to inspect the field.
 ![!!KB4818.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4818.png)
 1. Look for the OTP ID in the ***Elements*** window and copy the information. In this example the ID to copy is passField.  
 ![!!KB4819.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4819.png)
-1. In {{ en.RDM }} , save the information in:
+1. In {{ en.RDM }}, save the information in:
    - a ***Website*** session entry in ***Login - Html Control ID - One time password ID***.  
       ![!!KB4821.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4821.png)
    - a ***Website (Legacy)*** information session entry in the ***More Settings - One time password***..  
       ![!!KB4820.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4820.png)  
 {% snippet icon.badgeInfo %}
-If your ***Credentials*** are set to ***Linked (Vault)*** , you also need to configure and set the ***One Time Password (OTP)*** link in the ***General*** tab section.
+If your ***Credentials*** are set to ***Linked (Vault)***, you also need to configure and set the ***One Time Password (OTP)*** link in the ***General*** tab section.
 {% endsnippet %}  
 
 6. Click ***OK*** to save.

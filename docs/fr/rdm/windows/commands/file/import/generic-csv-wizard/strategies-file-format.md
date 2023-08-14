@@ -1,7 +1,7 @@
 ---
 title: Stratégies d'importation de CSV et format de fichier
 ---
-Lors de l'importation de fichiers CSV dans {{ fr.RDM }} , vous devez prendre certaines décisions concernant les stratégies à utiliser et le format du contenu. 
+Lors de l'importation de fichiers CSV dans {{ fr.RDM }}, vous devez prendre certaines décisions concernant les stratégies à utiliser et le format du contenu. 
 
 ## Modèles 
 
@@ -12,7 +12,7 @@ Les deux méthodes d'importation à partir de CSV vous permettent de choisir un 
 Si vous avez besoin d'un contrôle plus précis, vous pouvez spécifier le modèle à utiliser dans une colonne ***Modèle*** du fichier CSV, mais, comme vous pouvez spécifier le type d'entrée dans le fichier CSV, cela pourrait ne pas être nécessaire.  
 
 {% snippet icon.badgeNotice %} 
-Dans ***Fichier – Importer*** , nous vous recommandons d'utiliser d'abord l'option ***Assistant d'importation de Csv générique*** . Vous pouvez modifier au besoin l' ***Instruction du format en-tête*** .  
+Dans ***Fichier – Importer***, nous vous recommandons d'utiliser d'abord l'option ***Assistant d'importation de Csv générique***. Vous pouvez modifier au besoin l'***Instruction du format en-tête***.  
 ![Assistant d'importation de CSV](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4042.png) 
 {% endsnippet %}
  
@@ -25,7 +25,7 @@ Certaines validations sur les paramètres d'entrée ne se trouvent pas dans la c
  
 Dans le fichier CSV, les champs ***Host*** et ***Name*** sont obligatoires. Si aucun modèle n'est spécifié, le type RDP sera utilisé comme type de secours.  
 
-Nous ne pouvons pas fournir la liste de tous les champs pris en charge pour tous les types d'entrées, car {{ fr.RDM }} utilise une architecture ouverte et n'est donc pas au courant de tous les champs des types d'entrées fournis par notre gestionnaire de modules. Une bonne méthode pour découvrir la structure du champ consiste à créer une entrée du type souhaité, faire un clic droit sur l'entrée et sélectionner ***Presse-papiers – Copier*** , puis coller le contenu dans votre éditeur préféré. Vous verrez la structure et les noms des champs. 
+Nous ne pouvons pas fournir la liste de tous les champs pris en charge pour tous les types d'entrées, car {{ fr.RDM }} utilise une architecture ouverte et n'est donc pas au courant de tous les champs des types d'entrées fournis par notre gestionnaire de modules. Une bonne méthode pour découvrir la structure du champ consiste à créer une entrée du type souhaité, faire un clic droit sur l'entrée et sélectionner ***Presse-papiers – Copier***, puis coller le contenu dans votre éditeur préféré. Vous verrez la structure et les noms des champs. 
 
 {% snippet icon.badgeInfo %} 
 Les valeurs par défaut des champs ne sont pas sérialisées. Cela signifie qu'elles sont simplement exclues de la structure sérialisée. 
@@ -99,7 +99,7 @@ Description de l'entrée.
 Open (Embedded) 
 		</td>
 		<td>
-Valeur booléenne ( true ou false ) qui indique d'ouvrir la session intégrée. La valeur par défaut est false, ce qui signifie que le client natif sera utilisé en fonction de la technologie (MSTSC.EXE, par exemple). 
+Valeur booléenne (true ou false) qui indique d'ouvrir la session intégrée. La valeur par défaut est false, ce qui signifie que le client natif sera utilisé en fonction de la technologie (MSTSC.EXE, par exemple). 
 		</td>
 	</tr>
 	<tr>

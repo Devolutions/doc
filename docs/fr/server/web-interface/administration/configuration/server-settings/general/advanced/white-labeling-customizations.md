@@ -2,7 +2,7 @@
 title: Personnalisations des Logos
 ---
 Vous pouvez personnaliser les logos de l'interface Web {{ fr.DVLS }} pour mieux servir vos clients. 
-L'intégration de votre marque est possible dans ***Administration – Paramètres Serveurs – Avancé*** .  
+L'intégration de votre marque est possible dans ***Administration – Paramètres Serveurs – Avancé***.  
 ![!!ServerOp4025.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4025.png)  
 
 Il est compatible avec les extensions de fichiers les plus populaires, telles que JPEG, GIF, PNG et TIFF. 

@@ -38,7 +38,7 @@ DESCRIPTION
 Allow local Specific Settings 
 		</td>
 		<td>
-Allow users to save [Local Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Allow users to save [Local Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 	<tr>
@@ -170,10 +170,10 @@ Disconnect data source
 		<td>
 Set the application to lock:  
 
-* ***On Minimize*** : l ock application when minimized in the taskbar for all users of the data source. 
-* ***On Idle*** : a utomatically lock the application when it is not used after a determined amount of time. 
-* ***On Windows lock*** : l ock the application on Windows lock. 
-* ***On standby*** : l ock the application when on standby. 
+* ***On Minimize***: l ock application when minimized in the taskbar for all users of the data source. 
+* ***On Idle***: a utomatically lock the application when it is not used after a determined amount of time. 
+* ***On Windows lock***: l ock the application on Windows lock. 
+* ***On standby***: l ock the application when on standby. 
 		</td>
 	</tr>
 	<tr>

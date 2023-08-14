@@ -18,7 +18,7 @@ Il existe une option pour désactiver l'UDP dans {{ fr.RDM }}.
 
 Certains utilisateurs disent que le problème ne survient que lors de l’utilisation d’un VPN. D’autres précisent qu’il ne se produit que lorsque Windows 8 est associé à un serveur Gateway. Cette solution semble néanmoins fonctionner pour plusieurs de nos utilisateurs.  
 
-Un changement au Registre Windows est nécessaire, alors usez de toutes les précautions habituelles ( ***gardez une copie!*** ). Veuillez consulter cet [article d’aide Microsoft](https://docs.microsoft.com/fr-ca/troubleshoot/windows-server/performance/windows-registry-advanced-users) pour plus d’information. 
+Un changement au Registre Windows est nécessaire, alors usez de toutes les précautions habituelles (***gardez une copie!***). Veuillez consulter cet [article d’aide Microsoft](https://docs.microsoft.com/fr-ca/troubleshoot/windows-server/performance/windows-registry-advanced-users) pour plus d’information. 
 ### La solution consiste à désactiver le protocole UDP sur le poste de travail client: 
 1. Accéder à HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\Client. 
 2. Créer un DWORD nommé fClientDisableUDP, puis lui assigner une valeur de 1. 

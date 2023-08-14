@@ -5,7 +5,7 @@ Lorsque vous utilisez un VPN sur votre session, cela vous permet de remplacer le
 
 ## Paramètres 
 
-Sélectionner les identifiants que vous souhaitez utiliser pour remplacer vos identifiants VPN. Pour plus d'informations, veuillez consulter [Subtituer identifiants](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/) . 
+Sélectionner les identifiants que vous souhaitez utiliser pour remplacer vos identifiants VPN. Pour plus d'informations, veuillez consulter [Subtituer identifiants](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/). 
 
 La substitution d'identifiants du Coffre personnel n'est disponible que dans les conditions suivantes: 
 

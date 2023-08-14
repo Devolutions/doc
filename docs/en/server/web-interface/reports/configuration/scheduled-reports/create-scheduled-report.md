@@ -1,7 +1,7 @@
 ---
 title: Create a Scheduled Report
 ---
-Create ***Scheduled Reports*** to run automatically and manage when and who will receive the data from your {{ en.DVLS }} . 
+Create ***Scheduled Reports*** to run automatically and manage when and who will receive the data from your {{ en.DVLS }}. 
 {% snippet icon.badgeCaution %} 
 For this feature to work, it is mandatory to enable the [***Scheduler Service***](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) in the {{ en.DVLSCONSOLE }} ***Companions*** tab. 
 {% endsnippet %}
@@ -184,5 +184,5 @@ Set when the scheduled report will terminate.
 	</tr>
 </table>
 
-5. Click ***Save*** . 
+5. Click ***Save***. 
 

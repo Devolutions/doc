@@ -1,10 +1,10 @@
 ---
 title: Exporter
 ---
-tiliser ***Fichier - Exporter*** pour exporter les coffres à partir de {{ fr.RDM }} . 
+tiliser ***Fichier - Exporter*** pour exporter les coffres à partir de {{ fr.RDM }}. 
 
 {% snippet icon.badgeInfo %} 
-La fonction d'exportation n'est active que si les ***Privilèges*** d'importation et d'exportation ont été activés dans le compte de ***Gestion des utilisateurs*** . 
+La fonction d'exportation n'est active que si les ***Privilèges*** d'importation et d'exportation ont été activés dans le compte de ***Gestion des utilisateurs***. 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
@@ -16,12 +16,12 @@ Les formats appropriés pour réimporter les coffres dans {{ fr.RDM }} sont les 
 ![Fichier - Exporter](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10502.png) 
 
 {% snippet icon.badgeInfo %} 
-Lorsque vous utilisez une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) , les capacités d'exportation peuvent être désactivées via des politiques de sécurité au niveau de la source de données (personne ne peut exporter) ou au niveau de l'utilisateur (certains utilisateurs ne peuvent pas exporter). 
+Lorsque vous utilisez une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), les capacités d'exportation peuvent être désactivées via des politiques de sécurité au niveau de la source de données (personne ne peut exporter) ou au niveau de l'utilisateur (certains utilisateurs ne peuvent pas exporter). 
 {% endsnippet %}
  
 ### Exporter le coffre (.RDM) 
 
-Exporter le coffre dans un fichier .rdm qui peut être importé dans n'importe quelle source de données {{ fr.RDM }} . Vous pouvez également inclure les identifiants dans ce format d'exportation et sécuriser votre fichier avec une clé maîtresse. 
+Exporter le coffre dans un fichier .rdm qui peut être importé dans n'importe quelle source de données {{ fr.RDM }}. Vous pouvez également inclure les identifiants dans ce format d'exportation et sécuriser votre fichier avec une clé maîtresse. 
 
 {% snippet icon.badgeInfo %} 
 Par défaut, les identifiants ne sont PAS inclus. Il est essentiel de cocher l'option ***Inclure identifiants*** afin que les données exportées les incluent. 
@@ -46,7 +46,7 @@ Exporter une simple liste d'hôtes en format .csv. Vous serez invité à voir si
 Exporter le coffre à l'aide du fichier au format .csv. Pour des raisons de sécurité, le fichier .csv sera contenu dans un fichier zip chiffré par mot de passe. Ce type de sécurité peut être piraté à l'aide d'attaques par force brute, il ne doit être utilisé que lorsque le fichier zip est sous votre contrôle exclusif. 
 
 {% snippet icon.badgeInfo %} 
-Veuillez noter que les colonnes csv varient en fonction des types d'entrées exportés. Cela en fait le mauvais format si jamais vous souhaitez réimporter les données dans {{ fr.RDM }} . Utilisez-le uniquement pour migrer vers un autre système. 
+Veuillez noter que les colonnes csv varient en fonction des types d'entrées exportés. Cela en fait le mauvais format si jamais vous souhaitez réimporter les données dans {{ fr.RDM }}. Utilisez-le uniquement pour migrer vers un autre système. 
 {% endsnippet %}
  
 ### Exporter le coffre (.html) 

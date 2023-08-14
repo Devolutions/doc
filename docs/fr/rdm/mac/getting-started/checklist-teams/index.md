@@ -40,7 +40,7 @@ L’édition Team de {{ fr.RDM }} offre une période d’essai de 30 jours. Si v
 		<td>
 Attention : Lorsque vous choisissez une source de données qui n'est pas déployée sur site, il est important de penser à la protection des données au repos et en transit. Nous vous recommandons fortement de chiffrer vos données stockées dans des fichiers à l’aide d’une clé maîtresse ou d'utiliser un [Fournisseur de sécurité](/fr/rdm/mac/commands/administration/security-provider/) pour les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Ainsi, vous serez la seule personne qui peut voir les données.  
 
-Lors du premier démarrage, {{ fr.RDM }} utilise une source de données SQLite. Les différentes sources de données sont expliquées dans la section [Sources de données](/fr/rdm/mac/data-sources/) . Afin de sélectionner une source de données adaptée à vos besoins, veuillez consulter la section [Choisir le type de source de données - Équipes](/fr/rdm/mac/getting-started/checklist-teams/select-data-source-type-teams/). 
+Lors du premier démarrage, {{ fr.RDM }} utilise une source de données SQLite. Les différentes sources de données sont expliquées dans la section [Sources de données](/fr/rdm/mac/data-sources/). Afin de sélectionner une source de données adaptée à vos besoins, veuillez consulter la section [Choisir le type de source de données - Équipes](/fr/rdm/mac/getting-started/checklist-teams/select-data-source-type-teams/). 
 		</td>
 	</tr>
 	<tr>
@@ -128,7 +128,7 @@ Une fois que les utilisateurs sont créés, il est possible de leur attribuer de
 Étape 10 - [Importer vos données](/fr/rdm/mac/commands/file/import/sessions/). 
 		</td>
 		<td>
-L’étape finale consiste à importer toutes vos données dans {{ fr.RDM }} . Vous pouvez importer vos sessions, vos identifiants et vos contacts en quelques étapes. 
+L’étape finale consiste à importer toutes vos données dans {{ fr.RDM }}. Vous pouvez importer vos sessions, vos identifiants et vos contacts en quelques étapes. 
 		</td>
 	</tr>
 </table>

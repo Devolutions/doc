@@ -50,5 +50,5 @@ Change the template name to distinguish the copy from the original, and edit the
 
 It is possible to save a set of selected entries or a folder and all its child items to a unique template.  
 
-Right-click a selection of entries or a folder, select ***Add*** , then ***Save as Template*** . 
+Right-click a selection of entries or a folder, select ***Add***, then ***Save as Template***. 
 

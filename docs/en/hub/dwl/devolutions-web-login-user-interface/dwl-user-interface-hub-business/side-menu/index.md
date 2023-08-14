@@ -1,7 +1,7 @@
 ---
 title: Side Menu
 ---
-Using the ***Side Menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area*** .  
+Using the ***Side Menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  
 
 When using {{ en.DWL }} with {{ en.HUBB }}, the available tabs are the ***Matching*** tab, the ***Vaults*** tab, the ***User vault*** tab, and the ***Password Generator*** tab.  
 
@@ -13,7 +13,7 @@ In all tabs except the ***Password Generator*** tab, when hovering over an entry
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.  
 
 {% snippet icon.badgeInfo %} 
-For methods of retrieving your credentials, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/) . 
+For methods of retrieving your credentials, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/). 
 {% endsnippet %}
  
 ![Matching Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2110.png) 
@@ -23,13 +23,13 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.HUBB }} through the {{ en.DWL }} extension.  
 
 {% snippet icon.badgeInfo %} 
-For a complete list of the available fields in the ***Add Website*** window, visit [this topic](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/) . You can also consult our step-by-step guide on [how to add a website entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) . 
+For a complete list of the available fields in the ***Add Website*** window, visit [this topic](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/). 
 {% endsnippet %}
  
 ### Vaults tab 
 
 {% snippet icon.badgeHelp %} 
-When accessing the ***Vaults*** tab for the first time, you need to select the {{ en.HUBB }} vaults you want to synchronize with {{ en.DWL }} . Learn more about it in our [First Login with {{ en.DWL }}](/hub/dwl/first-login-devolutions-web-login/hub-business/) topic. 
+When accessing the ***Vaults*** tab for the first time, you need to select the {{ en.HUBB }} vaults you want to synchronize with {{ en.DWL }}. Learn more about it in our [First Login with {{ en.DWL }}](/hub/dwl/first-login-devolutions-web-login/hub-business/) topic. 
 {% endsnippet %}
  
 The ***Vaults*** tab allows you to browse through all your synchronized vaults for your entries.  
@@ -37,27 +37,27 @@ The ***Vaults*** tab allows you to browse through all your synchronized vaults f
 
 At the top, you can use the ***Filter*** bar to search through all your vaults for entries.  
 
-To access a vault in {{ en.DWL }} , click on it and navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.HUBB }}.  
+To access a vault in {{ en.DWL }}, click on it and navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.HUBB }}.  
 
-When navigating in the folders, the [***Add Website***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/)button will appear at the bottom of the ***Content Area*** .  
+When navigating in the folders, the [***Add Website***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/)button will appear at the bottom of the ***Content Area***.  
 
 ### User vault tab 
 
-The ***User vault*** tab works the same way as the ***Vaults*** tab, except that you navigate through your ***User vault*** instead of your other vaults. You also do not have to select vaults to synchronize as the only vault available in this tab is your own ***User vault*** .  
+The ***User vault*** tab works the same way as the ***Vaults*** tab, except that you navigate through your ***User vault*** instead of your other vaults. You also do not have to select vaults to synchronize as the only vault available in this tab is your own ***User vault***.  
 ![User Vault Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2120.png) 
 
 At the top, you can use the ***Filter*** bar to search through all your folders and entries.  
 
-To access an entry in {{ en.DWL }} , navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.HUBB }}.  
+To access an entry in {{ en.DWL }}, navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.HUBB }}.  
 
-When navigating in the folders, the [***Add Website***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/) button will appear at the bottom of the ***Content Area*** .  
+When navigating in the folders, the [***Add Website***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/) button will appear at the bottom of the ***Content Area***.  
 
 ### Password Generator tab 
 
 The ***Password Generator*** tab assists you in creating a strong and secure password adapted to your needs and to website requirements for your new account.  
 ![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2111.png) 
 
-Your custom password is generated at the top of the ***Content Area*** with a strenght indicator below it. You can copy it or generate a new one using the ***Copy to Clipboard*** and ***Generate Password*** buttons respectively. The ***Password lenght*** , which is set to 12 by default, can also be adjusted.  
+Your custom password is generated at the top of the ***Content Area*** with a strenght indicator below it. You can copy it or generate a new one using the ***Copy to Clipboard*** and ***Generate Password*** buttons respectively. The ***Password lenght***, which is set to 12 by default, can also be adjusted.  
 
 In the ***General*** drop-down section, you are able to select the types of characters that your password must contain as well as the minimum number of characters of each type that must be included.  
 ![General Section](https://webdevolutions.azureedge.net/docs/en/hub/Hub2114.png) 
@@ -66,7 +66,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://webdevolutions.azureedge.net/docs/en/hub/Hub2115.png) 
 
 {% snippet icon.badgeInfo %} 
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/) . 
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/). 
 {% endsnippet %}
  
 ### Entry functionalities 

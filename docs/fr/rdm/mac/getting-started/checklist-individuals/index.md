@@ -1,7 +1,7 @@
 ---
 title: Liste de vérification - Utilisation individuelle
 ---
-Pour vous aider à installer et configurer {{ fr.RDM }} , nous avons créé une liste de vérification. Elle s’adresse surtout aux individus. 
+Pour vous aider à installer et configurer {{ fr.RDM }}, nous avons créé une liste de vérification. Elle s’adresse surtout aux individus. 
 
 <table>
 	<tr>
@@ -84,7 +84,7 @@ Les dossiers de premier niveau sont la base d'une structure de sécurité solide
 Étape 6 - [Importer vos données](/fr/rdm/mac/commands/file/import/sessions/). 
 		</td>
 		<td>
-L’étape finale consiste à importer toutes vos données dans {{ fr.RDM }} . Vous pouvez importer vos sessions, vos identifiants et vos contacts en quelques étapes. 
+L’étape finale consiste à importer toutes vos données dans {{ fr.RDM }}. Vous pouvez importer vos sessions, vos identifiants et vos contacts en quelques étapes. 
 		</td>
 	</tr>
 </table>

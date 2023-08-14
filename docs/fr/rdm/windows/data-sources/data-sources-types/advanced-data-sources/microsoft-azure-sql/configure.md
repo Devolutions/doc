@@ -9,7 +9,7 @@ title: Configurer SQL Azure
 1. Sélectionner Microsoft Azure SQL dans les types de sources de données et cliquer sur ***OK***.  
 ![Ajouter une nouvelle source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11365.png) 
 1. Configurer tous vos paramètres de connexion. 
-1. Sélectionner l'onglet ***Mise à niveau*** et cliquer sur le bouton ***Créer une base de données*** . Si la base de données est déjà créée sur Microsoft Azure SQL, cliquer sur le bouton ***Mettre à jour la base de données*** pour ajouter les tables appropriées à la base de données.  
+1. Sélectionner l'onglet ***Mise à niveau*** et cliquer sur le bouton ***Créer une base de données***. Si la base de données est déjà créée sur Microsoft Azure SQL, cliquer sur le bouton ***Mettre à jour la base de données*** pour ajouter les tables appropriées à la base de données.  
 ![Mise à niveau](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10377.png) 
 1. Une fois la base de données créée, créez un compte d'administrateur {{ fr.RDM }} via le menu ***Administration - Utilisateurs***. 
 {% snippet icon.badgeInfo %} 

@@ -7,7 +7,7 @@ eleventyComputed:
 This topic assumes that you have previously [installed the {{ en.DWL }} extension](/rdm/windows/dwl/installation/) in your browser and that it is [connected to {{ en.RDM }}](/rdm/windows/dwl/first-login-devolutions-web-login/). 
 {% endsnippet %}
  
-The {{ en.DWL }} browser extension is the tool of choice for users to interact in a password management context with {{ en.RDM }} . It allows for:  
+The {{ en.DWL }} browser extension is the tool of choice for users to interact in a password management context with {{ en.RDM }}. It allows for:  
 
 * automatically matching websites to their respective saved credentials. 
 * directly viewing and filtering through the accounts that their vaults contain. 

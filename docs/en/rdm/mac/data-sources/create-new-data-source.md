@@ -17,5 +17,5 @@ order: 10
 1. Once you have completed all the steps, you can select your newly created data source by clicking on the arrow next to the data source combo box.  
 ![Select your active data source](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10482.png) 
 
-You may have to [add a license](/rdm/mac/commands/administration/licenses/) to your data source. If you are using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , there is no need to add a license in {{ en.RDM }} as the license serial is retrieved directly from the data source. 
+You may have to [add a license](/rdm/mac/commands/administration/licenses/) to your data source. If you are using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), there is no need to add a license in {{ en.RDM }} as the license serial is retrieved directly from the data source. 
 

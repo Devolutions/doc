@@ -4,7 +4,7 @@ title: Mode de la cache
 Le mode de la cache déterminera comment le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
@@ -61,7 +61,7 @@ Vous pouvez ensuite ouvrir le dossier: com.devolutions.remotedesktopmanager et s
 Le fichier est une base de données SQLite chiffrée à l'aide d'un hachage de clé calculée non portable.  
 
 {% snippet icon.shieldNotice %} 
-Vous pouvez améliorer la sécurité du fichier hors ligne en définissant la sécurité renforcée dans les paramètres [Sécurité](/fr/rdm/mac/commands/file/preferences/security/) . 
+Vous pouvez améliorer la sécurité du fichier hors ligne en définissant la sécurité renforcée dans les paramètres [Sécurité](/fr/rdm/mac/commands/file/preferences/security/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

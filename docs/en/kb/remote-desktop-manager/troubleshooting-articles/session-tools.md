@@ -1,7 +1,7 @@
 ---
 title: Session Tools
 ---
-When you attempt to use ***Computer Management*** , you receive the error below:  
+When you attempt to use ***Computer Management***, you receive the error below:  
 ![!!KB4083.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4083.png)
 ### Solution
 To get this working, you need to check this option in the ***Management Tools*** tab of the RDP session.  

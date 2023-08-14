@@ -39,7 +39,7 @@ The CSV file must have only one column with the title set as Name.
 
 The full path must be specified for each sub folder.  
 
-Here is an example of this CSV file :  
+Here is an example of this CSV file:  
 ![CSV File example](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11585.png) 
 
 ## cmdlets reference 

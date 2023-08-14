@@ -2,10 +2,10 @@
 title: Assistant d'importation pour l'ordinateur
 ---
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité est seulement disponible lors de l'utilisation d'une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité est seulement disponible lors de l'utilisation d'une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
-L' ***Assistant d'importation pour l'ordinateur*** vous permet de créer des sessions pour les ordinateurs à l'aide de l'une des sources suivantes :  
+L'***Assistant d'importation pour l'ordinateur*** vous permet de créer des sessions pour les ordinateurs à l'aide de l'une des sources suivantes :  
 
 * [Voisinage réseau](#voisinage-réseau) 
 * [Activer répertoire](#activer-répertoire) (votre domaine actuel ou un autre domaine sur votre réseau) 
@@ -35,7 +35,7 @@ Reportez-vous aux sections ci-dessous en fonction de la source choisie.
 L'écran suivant sera immédiatement rempli avec le résultat de la découverte du réseau.  
 ![!!clip10737.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10737.png) 
 
-Si vous préférez que vos sessions utilisent l'adresse IP au lieu du nom d'hôte pour se connecter aux périphériques, cocher l'option ***Résoudre l'adresse IP*** . Cela nécessite que ***Résoudre l'adresse IP*** soit sélectionné dans le premier écran de l'assistant. Sélectionner les ordinateurs pour lesquels vous souhaitez créer une session et passez à la [Sélection de modèles](#sélection-de-modèles) ci-dessous. La sélection multiple est autorisée en utilisant Ctrl+Clic et Maj+Clic . 
+Si vous préférez que vos sessions utilisent l'adresse IP au lieu du nom d'hôte pour se connecter aux périphériques, cocher l'option ***Résoudre l'adresse IP***. Cela nécessite que ***Résoudre l'adresse IP*** soit sélectionné dans le premier écran de l'assistant. Sélectionner les ordinateurs pour lesquels vous souhaitez créer une session et passez à la [Sélection de modèles](#sélection-de-modèles) ci-dessous. La sélection multiple est autorisée en utilisant Ctrl+Clic et Maj+Clic . 
 
 ### Activer répertoire 
 
@@ -45,7 +45,7 @@ L'écran suivant vous permet de sélectionner le domaine à interroger, après q
 Une fois la requête exécutée, les résultats sont affichés dans cette fenêtre.  
 ![!!clip10094.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10094.png) 
 
-Si vous préférez que vos sessions utilisent l'adresse IP au lieu du nom d'hôte pour se connecter aux périphériques, cocher l'option ***Résoudre l'adresse IP*** . Cela nécessite que ***Résoudre l'adresse IP*** soit sélectionné dans le premier écran de l'assistant. Sélectionner les ordinateurs pour lesquels vous souhaitez créer une session et passez à la [Sélection de modèles](#sélection-de-modèles) ci-dessous. La sélection multiple est autorisée en utilisant CTRL-clic et MAJ-clic. 
+Si vous préférez que vos sessions utilisent l'adresse IP au lieu du nom d'hôte pour se connecter aux périphériques, cocher l'option ***Résoudre l'adresse IP***. Cela nécessite que ***Résoudre l'adresse IP*** soit sélectionné dans le premier écran de l'assistant. Sélectionner les ordinateurs pour lesquels vous souhaitez créer une session et passez à la [Sélection de modèles](#sélection-de-modèles) ci-dessous. La sélection multiple est autorisée en utilisant CTRL-clic et MAJ-clic. 
 
 ### Liste des hôtes 
 
@@ -58,5 +58,5 @@ Passer à la [Sélection de modèles](#sélection-de-modèles) ci-dessous.
 
 La sélection du modèle est une étape facultative, mais c'est la seule façon de choisir un type de protocole autre que RDP. Il vous permet également de définir vos préférences et de les faire utiliser par toutes les sessions créées. En fait, nous vous recommandons d'importer par lots pour chaque type de session que vous devez importer.  
 
-Si vous avez l'intention de modifier chacune de vos sessions importées lors de leur création, cochez l'option ***Modifier l'entrée importée*** . Noter que chaque session sera affichée séquentiellement afin que vous puissiez effectuer votre modification et enregistrer. [Modifier le lot](/fr/rdm/windows/commands/edit/batch/batch-edit/) est probablement préférable si vous avez plus de quelques sessions à importer. 
+Si vous avez l'intention de modifier chacune de vos sessions importées lors de leur création, cochez l'option ***Modifier l'entrée importée***. Noter que chaque session sera affichée séquentiellement afin que vous puissiez effectuer votre modification et enregistrer. [Modifier le lot](/fr/rdm/windows/commands/edit/batch/batch-edit/) est probablement préférable si vous avez plus de quelques sessions à importer. 
 

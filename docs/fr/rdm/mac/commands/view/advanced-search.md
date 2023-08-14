@@ -1,10 +1,10 @@
 ---
 title: Recherche avancée
 ---
-La fonction de ***Recherche avancée*** vous permet de rechercher des entrées et des dossiers en fonction de plusieurs critères dans un coffre à la fois. Pour effectuer des recherches dans plusieurs coffres simultanément, veuillez vous référer à la rubrique [***Recherche multi-coffres***](/fr/rdm/mac/commands/view/multi-vault-search/) .  
+La fonction de ***Recherche avancée*** vous permet de rechercher des entrées et des dossiers en fonction de plusieurs critères dans un coffre à la fois. Pour effectuer des recherches dans plusieurs coffres simultanément, veuillez vous référer à la rubrique [***Recherche multi-coffres***](/fr/rdm/mac/commands/view/multi-vault-search/).  
 ![Recherche avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0025.png) 
 
-Il est possible de sélectionner plusieurs entrées à la fois avec Maj+Clic ou toutes les entrées avec le raccourci Cmd+A . Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}*** .  
+Il est possible de sélectionner plusieurs entrées à la fois avec Maj+Clic ou toutes les entrées avec le raccourci Cmd+A . Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***.  
 ![Fenêtre de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0026.png) 
 
 ### Search tab 

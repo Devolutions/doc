@@ -16,7 +16,7 @@ Go to the section that corresponds to your needs:
 ### Import Data
 <a name="import"></a>
 
-1. In ***Tools – Import*** , select the source from which you want to import your data in the drop-down list.
+1. In ***Tools – Import***, select the source from which you want to import your data in the drop-down list.
 ![Import Source.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2084.png)
 1. Upload your .csv or .json file.  
 ![File Upload.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2085.png)
@@ -35,7 +35,7 @@ Your data has been imported to the destination folder you previously specified.
 ### Export Data
 <a name="export"></a>
 
-1. In ***Tools – Export*** , select the file ***Export type*** in the drop-down list.  
+1. In ***Tools – Export***, select the file ***Export type*** in the drop-down list.  
 ![!!KB2088.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2088.png)  
 {% snippet icon.shieldCaution %}
 The ***Obfuscate sensitive values*** box is checked by default, meaning your sensitive information will be harder to decypher. For security purposes, it is recommended to leave it checked.
@@ -43,6 +43,6 @@ The ***Obfuscate sensitive values*** box is checked by default, meaning your sen
 
 2. Select which entry to export from your {{ en.HUBP }}.  
 ![Entry Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2089.png)
-1. Click ***Export*** , then save your file when prompted.  
+1. Click ***Export***, then save your file when prompted.  
 
 Your data has been exported to the specified location.

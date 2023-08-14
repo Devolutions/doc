@@ -3,16 +3,16 @@ title: Utilisateurs
 ---
 {% youtube 'd2tiGsk3M2g' %}  
 
-La gestion des utilisateurs est disponible dans le menu ***Administration - Utilisateurs*** . La gestion des utilisateurs vous permet de créer, gérer et attribuer des droits à un utilisateur.  
+La gestion des utilisateurs est disponible dans le menu ***Administration - Utilisateurs***. La gestion des utilisateurs vous permet de créer, gérer et attribuer des droits à un utilisateur.  
 
 {{ fr.RDM }} permet une gestion avancée des droits d'utilisateur vous permettant de contrôler la façon dont une session est utilisée par chaque utilisateur. Noter que certains contrôles de visibilité dépendent de la source de données active.  
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Toutes les [Source de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/windows/commands/administration/management/user-management/integrated-security/) . 
+Toutes les [Source de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/windows/commands/administration/management/user-management/integrated-security/). 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
@@ -56,7 +56,7 @@ Sélectionner le type d'authentification de l'utilisateur:
 Nom d'utilisateur 
 		</td>
 		<td>
-Saisir le nom de l'utilisateur. Lorsque vous utilisez la [Sécurité intégrée](/fr/rdm/windows/commands/administration/management/user-management/integrated-security/) , l'utilisateur doit être sélectionné dans le répertoire. 
+Saisir le nom de l'utilisateur. Lorsque vous utilisez la [Sécurité intégrée](/fr/rdm/windows/commands/administration/management/user-management/integrated-security/), l'utilisateur doit être sélectionné dans le répertoire. 
 		</td>
 	</tr>
 	<tr>
@@ -71,7 +71,7 @@ Sélectionner le type d'utilisateur à créer, choisir entre:
 * ***Utilisateur accès restreint:*** Sélectionner les droits à accorder à l'utilisateur. 
 * ***Utilisateur:*** Accorder tous les droits de base à l'utilisateur (Ajouter, Modifier, Supprimer).  
 
-Pour plus d'informations, veuillez consulter la rubrique [Types d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/user-types/) . 
+Pour plus d'informations, veuillez consulter la rubrique [Types d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/user-types/). 
 		</td>
 	</tr>
 	<tr>
@@ -106,7 +106,7 @@ Insérer l'adresse courriel de l'utilisateur.
 
 ### Entrée de données 
 
-Saisir toutes les informations nécessaires concernant votre nouvel utilisateur. La section est divisée en trois sous-sections: ***Détails, Adresse*** et ***Téléphone*** .  
+Saisir toutes les informations nécessaires concernant votre nouvel utilisateur. La section est divisée en trois sous-sections: ***Détails, Adresse*** et ***Téléphone***.  
 ![Gestion des utilisateurs - Entrée de données - Détails](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10728.png) 
 
 ### Groupes d'utilisateurs 
@@ -141,7 +141,7 @@ Sélectionner les ***Coffres*** auxquels l'utilisateur a accès.
 
 ### Accès à l'application 
 
-La section d' ***Accès aux applications*** permet de restreindre l'accès à {{ fr.RDM }} ou à [{{ fr.DWL }}](/fr/rdm/windows/dwl/overview/) .  
+La section d'***Accès aux applications*** permet de restreindre l'accès à {{ fr.RDM }} ou à [{{ fr.DWL }}](/fr/rdm/windows/dwl/overview/).  
 ![Gestion des utilisateurs - Accès à l'application](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3625.png) 
 
 <table>
@@ -159,7 +159,7 @@ DESCRIPTION
 {{ fr.RDM }} 
 		</td>
 		<td>
-Sélectionner si l'utilisateur peut accéder à la source de données à partir de {{ fr.RDM }} . 
+Sélectionner si l'utilisateur peut accéder à la source de données à partir de {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -167,7 +167,7 @@ Sélectionner si l'utilisateur peut accéder à la source de données à partir 
 [{{ fr.DWL }}](/fr/rdm/windows/dwl/overview/) 
 		</td>
 		<td>
-Sélectionner si l'utilisateur peut accéder au formulaire de source de données {{ fr.DWL }} . 
+Sélectionner si l'utilisateur peut accéder au formulaire de source de données {{ fr.DWL }}. 
 		</td>
 	</tr>
 </table>
@@ -209,7 +209,7 @@ Permets d'enregistrer un cache de la source de données, mais pas le mode hors l
 Lecture seule 
 		</td>
 		<td>
-Un cache en lecture seule est autorisé pour les [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Un cache en lecture seule est autorisé pour les [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 		</td>
 	</tr>
 	<tr>
@@ -217,7 +217,7 @@ Un cache en lecture seule est autorisé pour les [Sources de données avancées]
 Lecture/écriture 
 		</td>
 		<td>
-Un cache avancé, avec synchronisation des modifications, est autorisé pour les [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Un cache avancé, avec synchronisation des modifications, est autorisé pour les [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 		</td>
 	</tr>
 </table>

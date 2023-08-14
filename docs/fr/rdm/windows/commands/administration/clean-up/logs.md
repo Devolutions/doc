@@ -16,7 +16,7 @@ Vous devez être administrateur de la source de données pour effectuer cette ac
 1. Vous devez confirmer votre choix avant de supprimer définitivement vos journaux de source de données.  
 ![Nettoyer les journaux d'activité](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10342.png) 
 {% snippet icon.shieldWarning %} 
-Une sauvegarde de votre journal sera créée sous forme de fichier XML bien qu'il soit alors impossible d'importer ce fichier dans {{ fr.RDM }} . 
+Une sauvegarde de votre journal sera créée sous forme de fichier XML bien qu'il soit alors impossible d'importer ce fichier dans {{ fr.RDM }}. 
 {% endsnippet %}
  
 2. Une fois que vous avez entré votre nom de fichier de sauvegarde et procédé au nettoyage, une fenêtre de résultat de suppression du journal apparaîtra.  

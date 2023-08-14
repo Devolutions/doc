@@ -9,7 +9,7 @@ eleventyComputed:
 If you already have an account for the website, visit our [Add a Website Entry with {{ en.DWL }}](/rdm/windows/dwl/using-devolutions-web-login/add-website-entry-dwl/) topic. 
 {% endsnippet %}
  
-Follow the instructions below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.RDM }} .  
+Follow the instructions below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.RDM }}.  
 
 1. On the website for which you want to create your account, go to the registration/account creation page. This page will be different for each website; this topic will use the Atlassian website as an example.  
 ![Registration Page](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2084.png) 
@@ -17,7 +17,7 @@ Follow the instructions below to learn how to create a website account with {{ e
 1. Click on the {{ en.DWL }} icon in your browser toolbar, then select the ***Password Generator*** in the ***Side Menu*** of the extension.  
 ![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2085.png) 
 1. You can now customize the password generation settings, but this is optional since the default settings already generate very strong passwords. That being said, it may be necessary to adjust the settings to meet the specific requirements of some websites. If you do not wish to customize the generation settings, you can skip to <a href="#5">step 5</a>. 
-    1. Select a ***Password length*** . The default value is set to 12.  
+    1. Select a ***Password length***. The default value is set to 12.  
     ![Password length](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2086.png) 
     1. In the ***General*** settings, select the types of characters that your password must contain. The default is set to include uppercase letters, lowercase letters, and numbers, but there is also the option to include special characters in your password.  
     ![General Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2087.png) 
@@ -40,5 +40,5 @@ Your password settings are now configured.
 1. Select if you want to save your entry in your ***User vault*** or in a ***Vault***. Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDM }}. 
 1. Click ***Save***. 
 
-Your credentials are now securely stored in a new website entry in {{ en.RDM }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/). 
+Your credentials are now securely stored in a new website entry in {{ en.RDM }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/). 
 

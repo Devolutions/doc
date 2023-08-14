@@ -31,7 +31,7 @@ Afficher le menu Propriétés dans le menu contextuel lorsqu'une session est sé
 Utiliser le menu contextuel de modification antérieure 
 		</td>
 		<td>
-Utiliser le menu contextuel de modification antérieure de l'ancienne interface {{ fr.RDM }} . 
+Utiliser le menu contextuel de modification antérieure de l'ancienne interface {{ fr.RDM }}. 
 		</td>
 	</tr>
 </table>
@@ -68,7 +68,7 @@ Lorsque vous utilisez l'interface utilisateur Ruban, sélectionner cette option 
 Langue 
 		</td>
 		<td>
-Sélectionner la langue par défaut de l'application {{ fr.RDM }} . 
+Sélectionner la langue par défaut de l'application {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>

@@ -118,7 +118,7 @@ Re-intégrer votre session lorsque votre session est désancré. Cette option ap
 Plein écran 
 		</td>
 		<td>
-Afficher votre session en plein écran en dehors de {{ fr.RDM }} . 
+Afficher votre session en plein écran en dehors de {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>

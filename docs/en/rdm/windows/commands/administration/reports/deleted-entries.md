@@ -4,7 +4,7 @@ title: Deleted Entries
 The **Administration** – **Deleted Entries** option allows you to view the deleted entries as well as restoring them.  
 
 {% snippet icon.badgeInfo %} 
-This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

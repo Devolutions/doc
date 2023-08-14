@@ -33,7 +33,7 @@ Allows the user to View AND USE the entries for that security group.
 Add 
 		</td>
 		<td>
-Allows the user to add entries in group/folders for that security group. Will also grant the Add privilege for public groups. Also controls the visibility of the Add column in the Groups grid. The Add privilege need to be check if the user need to add sessions in the {{ en.UVLT }} . 
+Allows the user to add entries in group/folders for that security group. Will also grant the Add privilege for public groups. Also controls the visibility of the Add column in the Groups grid. The Add privilege need to be check if the user need to add sessions in the {{ en.UVLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -41,7 +41,7 @@ Allows the user to add entries in group/folders for that security group. Will al
 Edit 
 		</td>
 		<td>
-Allows the user to edit entries in groups/folders for that security group. Will also grant the Edit privilege for public groups. Also controls the visibility of the Edit column in the Groups grid. The Edit privilege need to be check if the user need to edit sessions in the {{ en.UVLT }} . 
+Allows the user to edit entries in groups/folders for that security group. Will also grant the Edit privilege for public groups. Also controls the visibility of the Edit column in the Groups grid. The Edit privilege need to be check if the user need to edit sessions in the {{ en.UVLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +49,7 @@ Allows the user to edit entries in groups/folders for that security group. Will 
 Delete 
 		</td>
 		<td>
-Allows the user to delete entries in groups/folders for that security group. Will also grant the Delete privilege for public groups. Also controls the visibility of the Delete column in the Groups grid. The Delete privilege need to be check if the user need to delete sessions in the {{ en.UVLT }} . 
+Allows the user to delete entries in groups/folders for that security group. Will also grant the Delete privilege for public groups. Also controls the visibility of the Delete column in the Groups grid. The Delete privilege need to be check if the user need to delete sessions in the {{ en.UVLT }}. 
 		</td>
 	</tr>
 </table>

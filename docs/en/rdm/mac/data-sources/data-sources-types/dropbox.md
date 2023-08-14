@@ -162,7 +162,7 @@ Manage Cache
 		</td>
 		<td>
 
-You can clear the output, analyse, repair or delete the cache of your Dropbox. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/) . 
+You can clear the output, analyse, repair or delete the cache of your Dropbox. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/). 
 		</td>
 	</tr>
 </table>

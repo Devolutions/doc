@@ -4,7 +4,7 @@ eleventyComputed:
   order: 50
 ---
 {% snippet icon.badgeNotice %} 
-This topic assumes that you have previously [installed the {{ en.DWL }} extension](/hub/dwl/installation/) in your browser and that it is connected to [{{ en.HUBB }}](/hub/dwl/first-login-devolutions-web-login/hub-business/) or [{{ en.HUBP }}](/hub/dwl/first-login-devolutions-web-login/hub-personal/) . 
+This topic assumes that you have previously [installed the {{ en.DWL }} extension](/hub/dwl/installation/) in your browser and that it is connected to [{{ en.HUBB }}](/hub/dwl/first-login-devolutions-web-login/hub-business/) or [{{ en.HUBP }}](/hub/dwl/first-login-devolutions-web-login/hub-personal/). 
 {% endsnippet %}
  
 The {{ en.DWL }} browser extension is the tool of choice for users to interact in a password management context with {{ en.HUBB }} and {{ en.DHUBP }}. It allows for:  

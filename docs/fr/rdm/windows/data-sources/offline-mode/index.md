@@ -16,11 +16,11 @@ Le cache hors ligne est d'abord chiffré à l'aide de notre propre clé privée 
 {% endsnippet %}
  
 
-Pour plus de sécurité, les fichiers hors connexion sont définis pour expirer après un certain délai. L'expiration par défaut est fixée à 7 jours, mais peut être modifiée via les [Paramètres du système](/fr/rdm/windows/commands/administration/settings/system-settings/application/offline/) .  
+Pour plus de sécurité, les fichiers hors connexion sont définis pour expirer après un certain délai. L'expiration par défaut est fixée à 7 jours, mais peut être modifiée via les [Paramètres du système](/fr/rdm/windows/commands/administration/settings/system-settings/application/offline/).  
 
 {{ fr.RDM }} demandera le mode hors-ligne lorsque l'application ne parvient pas à atteindre la source de données.  
 
-Vous pouvez activer manuellement le mode hors-ligne dans le menu ***Fichier – Mettre hors ligne*** . Lorsque la connexion est de nouveau en ligne, utiliser le menu ***Fichier – Aller en ligne*** ou l'icône ***Actualiser*** pour vous reconnecter à la source de données.  
+Vous pouvez activer manuellement le mode hors-ligne dans le menu ***Fichier – Mettre hors ligne***. Lorsque la connexion est de nouveau en ligne, utiliser le menu ***Fichier – Aller en ligne*** ou l'icône ***Actualiser*** pour vous reconnecter à la source de données.  
 
 Certaines options ne seront pas disponibles en mode hors ligne:  
 
@@ -31,15 +31,15 @@ Certaines options ne seront pas disponibles en mode hors ligne:
 
 La disponibilité du mode hors ligne repose sur plusieurs paramètres:  
 
-* Le mode de la cache hors ligne de la source de données doit être activé dans ***Fichier – Source de données – Avancé – Mode de la cache – Intelligente*** . ( Cette étape doit être effectuée avant d'exporter votre source de données vers d'autres) 
-* Le compte de l'utilisateur doit être activé dans ***Administration – Utilisateurs – Modifier – Paramètres – Mode hors connexion*** . 
-* Les stratégies de groupe d'utilisateurs (seulement pour la data source {{ fr.DVLS }}) dans ***Administration – Groupe d'utilisateurs – Modifier – Paramètres – Mode hors connexion*** . 
-* Les paramètres de la source de données dans ***Administration – Paramètres du système – Hors connexion – Mode Hors connexion*** et ***Expiration*** . 
-* Pour chaque coffre dans ***Administration – Paramètres du coffre – Paramètres de sécurité – Autoriser le mode hors ligne*** . 
+* Le mode de la cache hors ligne de la source de données doit être activé dans ***Fichier – Source de données – Avancé – Mode de la cache – Intelligente*** (cette étape doit être effectuée avant d'exporter votre source de données vers d'autres). 
+* Le compte de l'utilisateur doit être activé dans ***Administration – Utilisateurs – Modifier – Paramètres – Mode hors connexion***. 
+* Les stratégies de groupe d'utilisateurs (seulement pour la data source {{ fr.DVLS }}) dans ***Administration – Groupe d'utilisateurs – Modifier – Paramètres – Mode hors connexion***. 
+* Les paramètres de la source de données dans ***Administration – Paramètres du système – Hors connexion – Mode Hors connexion*** et ***Expiration***. 
+* Pour chaque coffre dans ***Administration – Paramètres du coffre – Paramètres de sécurité – Autoriser le mode hors ligne***. 
 
 Le paramètre le plus bas (en termes de sécurité) prévaut sur les autres, ce qui peut vous empêcher d'utiliser le mode hors ligne. Si le bouton ***Mettre hors-ligne*** n'est pas disponible, veuillez consulter votre administrateur.  
 
-Dans ***Fichier – Informations sur la source de données*** , le ***Mode hors ligne*** affiche la taille du fichier hors ligne ainsi que le mode effectif (désactivé, en lecture seule ou accessible en écriture).  
+Dans ***Fichier – Informations sur la source de données***, le ***Mode hors ligne*** affiche la taille du fichier hors ligne ainsi que le mode effectif (désactivé, en lecture seule ou accessible en écriture).  
 ![Fichier – Informations de la source de données – Mode hors ligne](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11278.png) 
 
 ### Mode de la cache 
@@ -282,7 +282,7 @@ Lecture/Écriture
 </table>
 
 {% snippet icon.badgeNotice %} 
-Pour connaître le mode hors ligne en vigueur lorsque vous êtes connecté, voir [Informations sur ma source de données](/fr/rdm/windows/commands/file/my-data-source-information/) . 
+Pour connaître le mode hors ligne en vigueur lorsque vous êtes connecté, voir [Informations sur ma source de données](/fr/rdm/windows/commands/file/my-data-source-information/). 
 {% endsnippet %}
  
 

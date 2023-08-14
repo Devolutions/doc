@@ -17,6 +17,6 @@ There is one backup per Android device. The name of the backup can be the code o
 
 ## Disable the automatic restore of the application configurations
 
-1. In the devices ***Settings*** , use the search function to find ***Google Backup***.
+1. In the devices ***Settings***, use the search function to find ***Google Backup***.
 1. In ***App data***, disable the ***Automatic restore*** setting.  
 ![!!KB2043.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2043.png)

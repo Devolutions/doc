@@ -3,7 +3,7 @@ title: White Labeling Customizations
 ---
 You can customize the {{ en.DVLS }} web interface logo's to better serve your own customers.  
 
-Brandring is possible in ***Administration – Server Settings – Advanced*** .  
+Brandring is possible in ***Administration – Server Settings – Advanced***.  
 
 ![!!ServerOp4011.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4011.png)  
 

@@ -20,9 +20,9 @@ Authentication type
 		<td>
 Select the user group's authentication type:  
 
-* {{ en.DVLS }} : create a user group in {{ en.DVLS }} . 
-* Domain : Active Directory group. 
-* Office365/Azure AD : Azure AD group. 
+* {{ en.DVLS }}: create a user group in {{ en.DVLS }}. 
+* Domain: Active Directory group. 
+* Office365/Azure AD: Azure AD group. 
 		</td>
 	</tr>
 	<tr>

@@ -8,7 +8,7 @@ La ***Recherche dans la documentation*** est disponible avec les sources de donn
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-La fonctionnalité ***Documentation*** est chiffrée uniquement pour la source de données {{ fr.DVLS }} . Si vous utilisez des sources de données comme SQL Server ou Azure SQL, cette fonctionnalité n'est pas chiffrée. 
+La fonctionnalité ***Documentation*** est chiffrée uniquement pour la source de données {{ fr.DVLS }}. Si vous utilisez des sources de données comme SQL Server ou Azure SQL, cette fonctionnalité n'est pas chiffrée. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

@@ -13,7 +13,7 @@ You can create and force a [***Password Templates***](/server/web-interface/admi
 
 1. Go to the ***General*** section in the ***Properties*** of an entry. 
 1. Next to the ***Password*** field, click the three-dot menu to access the ***Password generator*** tool. 
-1. Customize all the criteria you would want your password to have and click ***Generate*** . 
+1. Customize all the criteria you would want your password to have and click ***Generate***. 
 1. In the proposed list, choose and click on a password. 
 {% snippet icon.badgeInfo %} 
 At the bottom of the list, you can review the strength and phonetic of the password selected. 
@@ -40,7 +40,7 @@ Template
 		</td>
 		<td>
 
-Choose a ***Password Templates*** . 
+Choose a ***Password Templates***. 
 		</td>
 	</tr>
 	<tr>
@@ -50,11 +50,11 @@ Mode
 		<td>
 
 Chose a ***Mode*** setting for the passwords. 
-* ***Default*** : Customize the length and the minimum number of characters per type you would want the passwords to have. 
-* ***Advanced settings*** : Select the length, type and number of characters to include in the passwords. Include and exclude specific characters. 
-* ***Readable password*** : Generate passwords that are readable but are not actual words. 
+* ***Default***: Customize the length and the minimum number of characters per type you would want the passwords to have. 
+* ***Advanced settings***: Select the length, type and number of characters to include in the passwords. Include and exclude specific characters. 
+* ***Readable password***: Generate passwords that are readable but are not actual words. 
 * <a href="/server/web-interface/administration/templates/password-templates/use-a-pattern-password/" target="_blank">***Use a pattern***</a>: Select any pattern you need to create the passwords, you can also exclude certain characters if desired. A list of the most recent used pattern will also be created. 
-* ***Pronounceable password*** : Generate passwords that are pronounceable, but are not actual words. 
+* ***Pronounceable password***: Generate passwords that are pronounceable, but are not actual words. 
 		</td>
 	</tr>
 	<tr>

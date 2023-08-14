@@ -11,7 +11,7 @@ Trop d'images personnalisées pourraient considérablement augmenter la taille d
 
 1. Sélectionner Aide - Profileur .  
 ![Aide - Profileur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4233.png) 
-1. Déplacer la fenêtre sur le côté afin d'afficher la fenêtre principale de {{ fr.RDM }} et actualiser la source de données en utilisant le bouton ***Actualiser*** ou en utilisant ***Fichier - Actualiser*** . 
+1. Déplacer la fenêtre sur le côté afin d'afficher la fenêtre principale de {{ fr.RDM }} et actualiser la source de données en utilisant le bouton ***Actualiser*** ou en utilisant ***Fichier - Actualiser***. 
 {% snippet icon.badgeInfo %} 
 Maintenir la touche ***CTRL*** pendant l'exécution de l'actualisation forcera un rechargement complet de la source de données, ignorant ainsi le cache. 
 {% endsnippet %}
@@ -25,6 +25,6 @@ Maintenir la touche ***CTRL*** pendant l'exécution de l'actualisation forcera u
 
 ### Débogage seulement 
 
-Pour en savoir plus sur l'option de débogage, consulter [Débogage seulement](/fr/rdm/mac/commands/help/profiler/debug-only/) . 
+Pour en savoir plus sur l'option de débogage, consulter [Débogage seulement](/fr/rdm/mac/commands/help/profiler/debug-only/). 
 
 

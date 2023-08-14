@@ -4,10 +4,10 @@ title: Task List
 Create a ***Task List*** to keep track of work that needs to be done by the team. Toggle the ***Task List*** pane in the ***View*** tab.  
 ![Task List Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0016.png) 
 
-You can perform a search to filter out the list of displayed tasks. You can search by ***Due Date*** , ***Status*** , or ***Username*** .  
+You can perform a search to filter out the list of displayed tasks. You can search by ***Due Date***, ***Status***, or ***Username***.  
 
 {% snippet icon.badgeInfo %} 
-This feature is only available for the following data sources: [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) , [Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) , [SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) , and [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) . 
+This feature is only available for the following data sources: [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/), [Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/), [SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/), and [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/). 
 {% endsnippet %}
  
 ![Task List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0017.png) 
@@ -42,7 +42,7 @@ Entry
 		</td>
 		<td>
 
-Displays the entry currently selected in the ***{{ en.NPANE }}*** . The task is assigned to this entry. It is a read-only field. 
+Displays the entry currently selected in the ***{{ en.NPANE }}***. The task is assigned to this entry. It is a read-only field. 
 		</td>
 	</tr>
 	<tr>

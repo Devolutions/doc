@@ -20,8 +20,8 @@ The [bitness](https://en.wiktionary.org/wiki/bitness) of both {{ en.RDM }} and t
 {% endsnippet %}  
 
 1. Ensure that PowerShell's script execution policy is configured. Please refer to Script Execution Policy.
-1. Launch VMware vSphere PowerCLI using the shortcut on your system, this is the 64 bit version (using ***Run As Administrator*** ).
-1. Launch VMware vSphere PowerCLI (32-Bit), adjust both windows side by side(using ***Run As Administrator*** ).
+1. Launch VMware vSphere PowerCLI using the shortcut on your system, this is the 64 bit version (using ***Run As Administrator***).
+1. Launch VMware vSphere PowerCLI (32-Bit), adjust both windows side by side(using ***Run As Administrator***).
 1. In both windows, set the SSL certificate setting of your choice. Obviously deploying a valid certificate on the vSphere server and trusting the Certification Authority is the most secure route. In secure environments or in a low-risk setting, we simply set to ignore.  
 
     `set-PowerCLIConfiguration -invalidCertificateAction "ignore" -confirm:$false`

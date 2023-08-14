@@ -430,7 +430,7 @@ Activer cette option que sur demande de notre équipe de soutien technique Devol
 Utiliser la compression ZipCrypto (non recommandé) 
 		</td>
 		<td>
-Activer cette option pour autoriser la compression ZipCrypto dans {{ fr.RDM }} . Nous vous déconseillons d'activer cette option. Voici un blogue écrit par notre équipe de sécurité sur le sujet: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/). 
+Activer cette option pour autoriser la compression ZipCrypto dans {{ fr.RDM }}. Nous vous déconseillons d'activer cette option. Voici un blogue écrit par notre équipe de sécurité sur le sujet: [Why you should never use the native .Zip Crypto in Windows](https://blog.devolutions.net/2020/08/why-you-should-never-use-zipcrypto/). 
 		</td>
 	</tr>
 	<tr>

@@ -3,9 +3,9 @@ title: Ancillary Files
 ---
 {{ en.RDM }} generates ancillary files on your workstation. The table below lists out an example of ancillary files and their locations.  
 
-As described in [Configuration File Location](/rdm/windows/installation/client/configuration-file-location/) , the default path for most of these files are customizable. For this reason, we use the [CONFIG] token in this documentation to denote when a file is stored in a configuration folder that can be relocated, or the [PROFILE] token to indicate that they are stored in the local profile. By default, these point to the same exact folder . The only method to separate them is by using a customized configuration.  
+As described in [Configuration File Location](/rdm/windows/installation/client/configuration-file-location/), the default path for most of these files are customizable. For this reason, we use the [CONFIG] token in this documentation to denote when a file is stored in a configuration folder that can be relocated, or the [PROFILE] token to indicate that they are stored in the local profile. By default, these point to the same exact folder . The only method to separate them is by using a customized configuration.  
 
-Since you can also deploy on a portable device, sometimes known as using the XCOPY deployment model, we will use the [INSTALLDIR] token to indicate that the file is in the same location as {{ en.RDM }} .  
+Since you can also deploy on a portable device, sometimes known as using the XCOPY deployment model, we will use the [INSTALLDIR] token to indicate that the file is in the same location as {{ en.RDM }}.  
 
 The Override Source column indicates if an available mechanism can relocate the files of that category elsewhere.  
 

@@ -18,7 +18,7 @@ Description
 Version minimale 
 		</td>
 		<td>
-Version minimale de {{ fr.RDM }} requise pour se connecter à l'instance {{ fr.DVLS }} . 
+Version minimale de {{ fr.RDM }} requise pour se connecter à l'instance {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -34,7 +34,7 @@ Message personnalisé affiché dans {{ fr.RDM }} lorsque la version utilisé ne 
 Version maximale 
 		</td>
 		<td>
-Version maximale de {{ fr.RDM }} autorisée pour se connecter à l'instance {{ fr.DVLS }} . 
+Version maximale de {{ fr.RDM }} autorisée pour se connecter à l'instance {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -50,7 +50,7 @@ Message personnalisé affiché dans {{ fr.RDM }} lorsque la version utilisé ne 
 Désactivé la notification de la mise à jour automatique 
 		</td>
 		<td>
-Désactive la notification de nouvelle version dans {{ fr.RDM }} . 
+Désactive la notification de nouvelle version dans {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -58,7 +58,7 @@ Désactive la notification de nouvelle version dans {{ fr.RDM }} .
 Chemin d'installation du client / URL 
 		</td>
 		<td>
-Dossier ou URL du fichier d'installation de {{ fr.RDM }} . Les chemins UNC sont supportés. 
+Dossier ou URL du fichier d'installation de {{ fr.RDM }}. Les chemins UNC sont supportés. 
 		</td>
 	</tr>
 </table>

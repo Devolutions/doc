@@ -13,7 +13,7 @@ Since they use the Powershell technology, we provides samples in this section be
 
 ```powershell
 $connection.Web.OnlySendPasswordInPasswordField = $false; 
-$RDM.Save ( ) ; 
+$RDM.Save () ; 
 ```
 
 ### Enable View Url Embedded (Information Entries) 

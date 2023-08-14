@@ -9,7 +9,7 @@ When importing RDM files into {{ en.RDM }}, there are some specifications to fol
 Some validations on entry settings are not in the business layer but rather in the property dialogs. This means that using the import process can result in invalid entries that trigger errors. For RDM files, this could happen in the unlikely case that you import a RDM file that was exported from an older version of {{ en.RDM }} and that one of the entry types in the file now includes new mandatory fields. 
 {% endsnippet %}
  
-We cannot provide the list of all supported fields for all entry types because {{ en.RDM }} uses an open architecture and therefore is not even aware of all the entry type fields that are provided by our add-on system. A good method of finding out the field structure is creating an entry of the desired type, right-clicking it and selecting ***Clipboard – Copy*** , then pasting the content in your favorite editor. You will see the structure and the field names. 
+We cannot provide the list of all supported fields for all entry types because {{ en.RDM }} uses an open architecture and therefore is not even aware of all the entry type fields that are provided by our add-on system. A good method of finding out the field structure is creating an entry of the desired type, right-clicking it and selecting ***Clipboard – Copy***, then pasting the content in your favorite editor. You will see the structure and the field names. 
 
 {% snippet icon.badgeInfo %} 
 Default values for fields are not serialized, meaning that they are simply left out of the serialized structure. 
@@ -82,7 +82,7 @@ Description of the entry.
 Open (Embedded) 
 		</td>
 		<td>
-Boolean value ( true or false ) that indicates to open the session embedded. The default value is false, meaning that the native client will be used depending on the technology (MSTSC.EXE, for instance). 
+Boolean value (true or false) that indicates to open the session embedded. The default value is false, meaning that the native client will be used depending on the technology (MSTSC.EXE, for instance). 
 		</td>
 	</tr>
 	<tr>

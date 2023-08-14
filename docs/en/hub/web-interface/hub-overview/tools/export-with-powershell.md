@@ -10,11 +10,11 @@ In the {{ en.HUBB }} ***Tools*** tab, you can find under the ***Export*** sectio
 
 You will first need to create an application user with the ***Manager*** role.  
 
-Once done, you have the choice to automatically or manually fill in your information in the PowerShell script. Whichever option you choose, you will need access to your ***Application Secret*** and your ***Application key*** and to know the ***Destination folder path*** .  
+Once done, you have the choice to automatically or manually fill in your information in the PowerShell script. Whichever option you choose, you will need access to your ***Application Secret*** and your ***Application key*** and to know the ***Destination folder path***.  
 ![Steps to Export with PowerShell](https://webdevolutions.azureedge.net/docs/en/hub/Hub2078.png) 
 
 {% snippet icon.badgeInfo %} 
-Visit our step-by-step guide on how to [Export Data from {{ en.HUBB }} with PowerShell](/kb/hub-business/how-to-articles/export-data-hub-business-powershell/) . 
+Visit our step-by-step guide on how to [Export Data from {{ en.HUBB }} with PowerShell](/kb/hub-business/how-to-articles/export-data-hub-business-powershell/). 
 {% endsnippet %}
  
 

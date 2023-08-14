@@ -5,7 +5,7 @@ title: Access URI
 This issue is related to upgrading from a version prior to 2022.1 to 2022.2.
 {% endsnippet %}
 
-During the upgrade process or the installation process of {{ en.DVLS }} , we must provide an Access URI. This URI is a redirect URL that is used by the OAuth system and redirects the authentication traffic to the Access URI.
+During the upgrade process or the installation process of {{ en.DVLS }}, we must provide an Access URI. This URI is a redirect URL that is used by the OAuth system and redirects the authentication traffic to the Access URI.
 
 ## Settings
 

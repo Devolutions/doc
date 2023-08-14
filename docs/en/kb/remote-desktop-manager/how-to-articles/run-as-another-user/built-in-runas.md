@@ -32,7 +32,7 @@ Sessions that support Run As will have a Run As tab where you specify which cred
 
 ## Macros/Scripts/Tools
 
-With tools session types you only need to specify ***Run as different user*** in ***Advanced*** tab. At execution time the credentials will be resolved and used to start the Windows Credentials unless you select ***Use session credentials*** , in which case it will use those active for the session.  
+With tools session types you only need to specify ***Run as different user*** in ***Advanced*** tab. At execution time the credentials will be resolved and used to start the Windows Credentials unless you select ***Use session credentials***, in which case it will use those active for the session.  
 ![!!KB4567.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4567.png)  
 
 With tools session types you only need to specify ***Run as different user*** At execution time the credentials will be resolved and used to start the Run As process.

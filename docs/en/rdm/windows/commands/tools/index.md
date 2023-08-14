@@ -29,7 +29,7 @@ Opens the [Password Generator](/rdm/windows/commands/tools/generators/password/)
 SSH Key Generator 
 		</td>
 		<td>
-Launches the [SSH Key Generator](/rdm/windows/commands/tools/generators/ssh-key/) . SSH keys provide a secure way of logging into a virtual private server with SSH than using a password alone. 
+Launches the [SSH Key Generator](/rdm/windows/commands/tools/generators/ssh-key/). SSH keys provide a secure way of logging into a virtual private server with SSH than using a password alone. 
 		</td>
 	</tr>
 	<tr>
@@ -37,7 +37,7 @@ Launches the [SSH Key Generator](/rdm/windows/commands/tools/generators/ssh-key/
 Certificate Generator 
 		</td>
 		<td>
-Launches the [Certificate Generator](/rdm/windows/commands/tools/generators/certificate/) . With this you can create a self-signed certificate, which is an identity certificate that is signed by the same entity whose identity is certified. 
+Launches the [Certificate Generator](/rdm/windows/commands/tools/generators/certificate/). With this you can create a self-signed certificate, which is an identity certificate that is signed by the same entity whose identity is certified. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Launches the [Certificate Generator](/rdm/windows/commands/tools/generators/cert
 Port Generator 
 		</td>
 		<td>
-Launches the [Port Generator](/rdm/windows/commands/tools/generators/port/) . With this you can generate ports for your connections. 
+Launches the [Port Generator](/rdm/windows/commands/tools/generators/port/). With this you can generate ports for your connections. 
 		</td>
 	</tr>
 </table>
@@ -67,7 +67,7 @@ Entry Security Analyzer
 		</td>
 		<td>
 
-Opens the ***Entry Security Analyzer*** . This is used to evaluate the strength of passwords stored in the data source. 
+Opens the ***Entry Security Analyzer***. This is used to evaluate the strength of passwords stored in the data source. 
 		</td>
 	</tr>
 	<tr>
@@ -83,7 +83,7 @@ Set up a ***My Inventory*** report.
 SSH Key Agent and Manager 
 		</td>
 		<td>
-Opens the ***Key Agent Manager*** . This is used to hold all your SSH Keys in memory, already decoded and ready for them to be used. 
+Opens the ***Key Agent Manager***. This is used to hold all your SSH Keys in memory, already decoded and ready for them to be used. 
 		</td>
 	</tr>
 	<tr>
@@ -91,7 +91,7 @@ Opens the ***Key Agent Manager*** . This is used to hold all your SSH Keys in me
 PowerShell (RDM CmdLet) 
 		</td>
 		<td>
-Opens the ***PowerShell (RDM CmdLet)*** . 
+Opens the ***PowerShell (RDM CmdLet)***. 
 		</td>
 	</tr>
 	<tr>
@@ -99,7 +99,7 @@ Opens the ***PowerShell (RDM CmdLet)*** .
 More Tools 
 		</td>
 		<td>
-The ***More Tools*** window contains a variety of application tools such as: [Chocolatey Console](/rdm/windows/commands/tools/tools/more-tools/chocolatey-console/) , [Local RDP/RemoteApp Manager](/rdm/windows/commands/tools/tools/more-tools/local-rdp-remoteapp-manager/) , [Playback (Ansi)](/rdm/windows/commands/tools/tools/more-tools/terminal-playback/), [{{ en.RDMA }}](/rdm/windows/commands/tools/tools/more-tools/rdm-agent/) and more. 
+The ***More Tools*** window contains a variety of application tools such as: [Chocolatey Console](/rdm/windows/commands/tools/tools/more-tools/chocolatey-console/), [Local RDP/RemoteApp Manager](/rdm/windows/commands/tools/tools/more-tools/local-rdp-remoteapp-manager/), [Playback (Ansi)](/rdm/windows/commands/tools/tools/more-tools/terminal-playback/), [{{ en.RDMA }}](/rdm/windows/commands/tools/tools/more-tools/rdm-agent/) and more. 
 		</td>
 	</tr>
 </table>
@@ -121,7 +121,7 @@ Add-on Manager
 		</td>
 		<td>
 
-Opens the ***Add-on Manager*** . It is used to simplify the management of different add-ons. 
+Opens the ***Add-on Manager***. It is used to simplify the management of different add-ons. 
 		</td>
 	</tr>
 	<tr>
@@ -129,7 +129,7 @@ Opens the ***Add-on Manager*** . It is used to simplify the management of differ
 Extensions Manager 
 		</td>
 		<td>
-Opens the ***Extensions Manager*** . This is used to simplify the management and installation of Web Browser extensions and other miscellaneous extensions. 
+Opens the ***Extensions Manager***. This is used to simplify the management and installation of Web Browser extensions and other miscellaneous extensions. 
 		</td>
 	</tr>
 </table>

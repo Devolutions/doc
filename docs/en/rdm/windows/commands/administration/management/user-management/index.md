@@ -3,18 +3,18 @@ title: User Management
 ---
 {% youtube 'VXlN3PrDwiU' %}  
 
-The ***User Management*** allows to create and manage users and their privileges. You can set the default privileges on the user type in ***Data Source Settings (System Settings)*** . {{ en.RDM }} offers advanced user rights management that allows for restricting access to entries. Please note that availability of some features depends on the active data source. 
+The ***User Management*** allows to create and manage users and their privileges. You can set the default privileges on the user type in ***Data Source Settings (System Settings)***. {{ en.RDM }} offers advanced user rights management that allows for restricting access to entries. Please note that availability of some features depends on the active data source. 
 
 {% snippet icon.badgeInfo %} 
-This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-A user can be created using default security (specify the password) or [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/) . Not all [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) support the use of [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/) . 
+A user can be created using default security (specify the password) or [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/). Not all [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) support the use of [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/). 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
-In order to create users and assign rights, you must be administrator of not only {{ en.RDM }} , but also of the underlying database. 
+In order to create users and assign rights, you must be administrator of not only {{ en.RDM }}, but also of the underlying database. 
 {% endsnippet %}
  
 ## Manage Users 
@@ -45,8 +45,8 @@ Authentication type
 		<td>
 Select the user's authentication type:  
 
-* Custom (Devolutions) : create a user specific to {{ en.RDM }} without creating an SQL login. 
-* Database (SQL Server) : authenticate using the SQL login from your SQL Server. 
+* Custom (Devolutions): create a user specific to {{ en.RDM }} without creating an SQL login. 
+* Database (SQL Server): authenticate using the SQL login from your SQL Server. 
 		</td>
 	</tr>
 	<tr>
@@ -62,7 +62,7 @@ Enter the username for the user. When using [Integrated Security](/rdm/windows/c
 Integrated security (Active Directory) 
 		</td>
 		<td>
-Specifie to use Active Directory to authenticate to the data source. Applies only to SQL Server and {{ en.DVLS }} , depending on their configuration. For more information, please consult the [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/) topic. 
+Specifie to use Active Directory to authenticate to the data source. Applies only to SQL Server and {{ en.DVLS }}, depending on their configuration. For more information, please consult the [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/) topic. 
 		</td>
 	</tr>
 	<tr>
@@ -70,7 +70,7 @@ Specifie to use Active Directory to authenticate to the data source. Applies onl
 Password 
 		</td>
 		<td>
-Enter the user's password. This field is disabled when using [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/) . 
+Enter the user's password. This field is disabled when using [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/). 
 		</td>
 	</tr>
 	<tr>
@@ -142,7 +142,7 @@ Insert the user's email address.
 
 ### Information 
 
-The ***Information*** section allows to store information regarding the users, such as their name, address, and more. The Information section is divided in three sub-sections: ***Details, Address, Phone*** .  
+The ***Information*** section allows to store information regarding the users, such as their name, address, and more. The Information section is divided in three sub-sections: ***Details, Address, Phone***.  
 ![User Management - Information - Details](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10728.png) 
 
 ### User Groups 
@@ -177,7 +177,7 @@ Select which repositories the user has access to. For more information, please c
 
 ### Application Access 
 
-The application access section allows to restrain access to {{ en.RDM }} or [{{ en.DWL }}](/rdm/windows/dwl/overview/) .  
+The application access section allows to restrain access to {{ en.RDM }} or [{{ en.DWL }}](/rdm/windows/dwl/overview/).  
 ![User Management - Application Access](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3625.png) 
 
 <table>
@@ -195,7 +195,7 @@ DESCRIPTION
 {{ en.RDM }} 
 		</td>
 		<td>
-Select if the user can access to the data source from {{ en.RDM }} . 
+Select if the user can access to the data source from {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -203,7 +203,7 @@ Select if the user can access to the data source from {{ en.RDM }} .
 [{{ en.DWL }}](/rdm/windows/dwl/overview/) 
 		</td>
 		<td>
-Select if the user can access to the data source form {{ en.DWL }} . 
+Select if the user can access to the data source form {{ en.DWL }}. 
 		</td>
 	</tr>
 </table>

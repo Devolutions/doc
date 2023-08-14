@@ -9,7 +9,7 @@ Lors de l'importation de fichiers RDM dans {{ fr.RDM }}, quelques spécification
 Certaines validations sur les paramètres d'entrée ne se trouvent pas dans la couche de gestion, mais plutôt dans les boîtes de dialogue de propriétés. Cela signifie que l'utilisation du processus d'importation peut entraîner des entrées non valides qui déclencheront des erreurs. Pour des fichiers RDM, cela pourrait se produire dans le cas peu probable où vous importez un fichier RDM qui a été exporté à partir d'une ancienne version de {{ fr.RDM }} et que l'un des types d'entrée du fichier comprend maintenant de nouveaux champs obligatoires. 
 {% endsnippet %}
  
-Nous ne pouvons pas fournir la liste de tous les champs pris en charge pour tous les types d'entrées, car {{ fr.RDM }} utilise une architecture ouverte et n'est donc pas au courant de tous les champs des types d'entrées fournis par notre gestionnaire de modules. Une bonne méthode pour découvrir la structure du champ consiste à créer une entrée du type souhaité, faire un clic droit sur l'entrée et sélectionner ***Presse-papiers – Copier*** , puis coller le contenu dans votre éditeur préféré. Vous verrez la structure et les noms des champs. 
+Nous ne pouvons pas fournir la liste de tous les champs pris en charge pour tous les types d'entrées, car {{ fr.RDM }} utilise une architecture ouverte et n'est donc pas au courant de tous les champs des types d'entrées fournis par notre gestionnaire de modules. Une bonne méthode pour découvrir la structure du champ consiste à créer une entrée du type souhaité, faire un clic droit sur l'entrée et sélectionner ***Presse-papiers – Copier***, puis coller le contenu dans votre éditeur préféré. Vous verrez la structure et les noms des champs. 
 
 {% snippet icon.badgeInfo %} 
 Les valeurs par défaut des champs ne sont pas sérialisées. Cela signifie qu'elles sont simplement exclues de la structure sérialisée. 
@@ -82,7 +82,7 @@ Description de l'entrée.
 Open (Embedded) 
 		</td>
 		<td>
-Valeur booléenne ( true ou false ) qui indique d'ouvrir la session intégrée. La valeur par défaut est false, ce qui signifie que le client natif sera utilisé en fonction de la technologie (MSTSC.EXE, par exemple). 
+Valeur booléenne (true ou false) qui indique d'ouvrir la session intégrée. La valeur par défaut est false, ce qui signifie que le client natif sera utilisé en fonction de la technologie (MSTSC.EXE, par exemple). 
 		</td>
 	</tr>
 	<tr>

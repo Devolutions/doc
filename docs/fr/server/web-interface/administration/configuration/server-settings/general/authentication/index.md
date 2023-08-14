@@ -70,7 +70,7 @@ Domaine
 		</td>
 		<td>
 		
-Configurer le type de [Domaine](/fr/server/web-interface/administration/configuration/server-settings/general/authentication/domain/) . 
+Configurer le type de [Domaine](/fr/server/web-interface/administration/configuration/server-settings/general/authentication/domain/). 
 		</td>
 	</tr>
 	<tr>
@@ -78,7 +78,7 @@ Configurer le type de [Domaine](/fr/server/web-interface/administration/configur
 Office365 
 		</td>
 		<td>
-Configurer le type [Office365](/fr/server/web-interface/administration/configuration/server-settings/general/authentication/office-365/) . 
+Configurer le type [Office365](/fr/server/web-interface/administration/configuration/server-settings/general/authentication/office-365/). 
 		</td>
 	</tr>
 </table>

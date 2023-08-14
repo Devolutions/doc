@@ -22,7 +22,7 @@ Go to the section that corresponds to your needs:
 ### Automatically fill in the information
 <a name="automatic"></a>
 
-1. In ***Tools – Export with PowerShell*** , select the ***Automatic*** tab.  
+1. In ***Tools – Export with PowerShell***, select the ***Automatic*** tab.  
 ![Automatic Export.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2080.png)
 1. Enter your application user's ***Application Secret*** and ***Application key*** in the corresponding fields.
 1. Enter the ***Destination folder path*** in the corresponding field. This is where your data will be exported.
@@ -34,7 +34,7 @@ Your data has been exported to the destination folder you specified in step 3.
 ### Manually fill in the information
 <a name="manual"></a>
 
-1. In ***Tools – Export with PowerShell*** , select the ***Manual*** tab.  
+1. In ***Tools – Export with PowerShell***, select the ***Manual*** tab.  
 ![Manual Export.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2081.png)
 1. Choose to export in ***Json*** or ***Csv*** format.
 1. Copy and paste the script in a PowerShell file (.ps1).

@@ -3,7 +3,7 @@ title: Ancillary Files
 ---
 {{ en.RDMMAC }} generates ancillary files on your workstation. The table below lists out an example of ancillary files and their locations.  
 
-As described in [Configuration File Location](/rdm/mac/installation/client/configuration-file-location/) , the default path for most of these files are customizable. For this reason, we use the %CONFIG% variable to denote when a file is stored in a configuration folder that can be relocated, or %PROFILE% to indicate that they are stored in the local profile.  By default, these point to the same exact folder . The only method to separate them is by using a customized configuration.  
+As described in [Configuration File Location](/rdm/mac/installation/client/configuration-file-location/), the default path for most of these files are customizable. For this reason, we use the %CONFIG% variable to denote when a file is stored in a configuration folder that can be relocated, or %PROFILE% to indicate that they are stored in the local profile.  By default, these point to the same exact folder . The only method to separate them is by using a customized configuration.  
 
 The Override column indicates if an available mechanism can relocate the files of that category elsewhere. 
 

@@ -15,7 +15,7 @@ Les fonctionnalités suivantes sont également prises en charge :
 * ***Groupe de disponibilité "Always on"*** ; 
 * ***Regroupement*** ; 
 * **Expédition des journaux*** ; 
-* ***Mise en miroir de bases de données*** . 
+* ***Mise en miroir de bases de données***. 
 		</td>
 	</tr>
 </table>
@@ -31,7 +31,7 @@ Microsoft Azure SQL propose différents niveaux de service dans son modèle d'ac
 * Prise en charge des journaux de connexions et des pièces jointes. 
 
 {% snippet icon.badgeHelp %} 
-Obtenez plus de détails sur [Microsoft Azure SQL](https://azure.microsoft.com/fr-ca/products/azure-sql/database/) . 
+Obtenez plus de détails sur [Microsoft Azure SQL](https://azure.microsoft.com/fr-ca/products/azure-sql/database/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -40,7 +40,7 @@ Une stratégie de sauvegarde de base de données appropriée doit être mise en 
  
 ## Configuration 
 
-Pour configurer une source de données Azure SQL, veuillez lire la rubrique [Configurer Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/) . 
+Pour configurer une source de données Azure SQL, veuillez lire la rubrique [Configurer Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/). 
 
 ## Paramètres 
 
@@ -133,7 +133,7 @@ Nom de la base de données Azure SQL.
 2 facteurs 
 		</td>
 		<td>
-Activer l' [Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
+Activer l'[Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -337,7 +337,7 @@ Chaque fois que vous vous connecterez à votre source de données, vous serez in
 Autoriser mise à niveau de la base de donnés beta 
 		</td>
 		<td>
-Autoriser la mise à niveau beta de la base de données (lors de l'utilisation d'une version beta de {{ fr.RDM }} ). 
+Autoriser la mise à niveau beta de la base de données (lors de l'utilisation d'une version beta de {{ fr.RDM }}). 
 		</td>
 	</tr>
 	<tr>
@@ -345,7 +345,7 @@ Autoriser la mise à niveau beta de la base de données (lors de l'utilisation d
 Gérer la cache 
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/manage-cache/) . 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/manage-cache/). 
 		</td>
 	</tr>
 	<tr>

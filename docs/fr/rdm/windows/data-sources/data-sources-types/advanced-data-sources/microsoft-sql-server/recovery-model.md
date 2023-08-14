@@ -8,7 +8,7 @@ Si le "Recovery Model" est défini sur "Full", il est essentiel que des sauvegar
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Pour plus d'informations sur les modèles de récupération SQL, consultez [https://learn.microsoft.com/fr-fr/sql/relational-databases/backup-restore/recovery-models-sql-server?view=sql-server-ver15](https://learn.microsoft.com/fr-fr/sql/relational-databases/backup-restore/recovery-models-sql-server?view=sql-server-ver15) . 
+Pour plus d'informations sur les modèles de récupération SQL, consultez [https://learn.microsoft.com/fr-fr/sql/relational-databases/backup-restore/recovery-models-sql-server?view=sql-server-ver15](https://learn.microsoft.com/fr-fr/sql/relational-databases/backup-restore/recovery-models-sql-server?view=sql-server-ver15). 
 {% endsnippet %}
  
 

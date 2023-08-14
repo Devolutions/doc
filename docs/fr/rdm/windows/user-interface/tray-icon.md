@@ -1,7 +1,7 @@
 ---
 title: Barre des tâches
 ---
-{{ fr.RDM }} permet à l'utilisateur de contrôler l'application à partir de la barre des tâches Windows. Vous pouvez également [personnaliser son contenu](#préférences-de-la-barre-de-tâches) . 
+{{ fr.RDM }} permet à l'utilisateur de contrôler l'application à partir de la barre des tâches Windows. Vous pouvez également [personnaliser son contenu](#préférences-de-la-barre-de-tâches). 
 
 ## Menu contextuel de la barre des tâches 
 
@@ -47,7 +47,7 @@ Répertorie toutes les sessions actuellement ouvertes.
 Récent 
 		</td>
 		<td>
-Répertorie les [Entrées les plus récemment utilisées](/fr/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/) . 
+Répertorie les [Entrées les plus récemment utilisées](/fr/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/). 
 		</td>
 	</tr>
 	<tr>
@@ -95,7 +95,7 @@ Invite la boîte de dialogue Connexion rapide à ouvrir une connexion supplémen
 Filtrer 
 		</td>
 		<td>
-Lance la fonction [Recherche/Filtre](/fr/rdm/windows/user-interface/status-bar/search-filter/) . 
+Lance la fonction [Recherche/Filtre](/fr/rdm/windows/user-interface/status-bar/search-filter/). 
 		</td>
 	</tr>
 	<tr>
@@ -134,5 +134,5 @@ Ferme l'application.
 
 ## Préférences de la barre de tâches 
 
-Les options d'application contiennent de nombreux paramètres qui permettent de personnaliser les préférences de la barre de tâches du système. Pour les modifier, accéder à ***Fichier - Options - Interface utilisateur - Trayicon/barre de tâches*** . 
+Les options d'application contiennent de nombreux paramètres qui permettent de personnaliser les préférences de la barre de tâches du système. Pour les modifier, accéder à ***Fichier - Options - Interface utilisateur - Trayicon/barre de tâches***. 
 

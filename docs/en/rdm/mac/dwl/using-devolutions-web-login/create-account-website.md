@@ -17,7 +17,7 @@ Follow the steps below to learn how to create a website account with {{ en.DWL }
 1. Click on the {{ en.DWL }} icon in your browser toolbar, then select the Password Generator in the ***Side Menu*** of the extension.  
 ![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2009.png) 
 1. You can now customize the password generation settings, but this is optional since the default settings already generate very strong passwords. That being said, it may be necessary to adjust the settings to meet the specific requirements of some websites. If you do not wish to customize the generation settings, you can skip to <a href="#5">step 5</a>. 
-    1. Select a ***Password length*** . The default value is set to 12.  
+    1. Select a ***Password length***. The default value is set to 12.  
     ![Password length](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2010.png) 
     1. In the ***General*** settings, select the types of characters that your password must contain. The default is set to include uppercase letters, lowercase letters, and numbers, but there is also the option to include special characters in your password.  
     ![General Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2011.png) 

@@ -12,7 +12,7 @@ This is something that we have no control over. You can look for Large Memory Aw
 
 This problem is something that we have also experienced under those conditions (our testing environment is virtual and has minimal memory for each guest).  
 
-In the ***Experience*** tab of your RDP session, disable everything that is not used. A good method is to select the ***Modem connection speed*** , this will disable all settings that are related to appearance.  
+In the ***Experience*** tab of your RDP session, disable everything that is not used. A good method is to select the ***Modem connection speed***, this will disable all settings that are related to appearance.  
 
 You can then turn on a single setting to see if it affects the performance negatively. Repeat until you find the combination that works best for you.  
 

@@ -20,7 +20,7 @@ Please consult [Mozilla's Knowledge Base article](https://support.mozilla.org/en
 1. In the ***Available snap-ins*** box, select ***Certificates***.
 1. Click the ***Add*** button.
 1. In the wizard, select ***Computer Account***, then click ***Next***.
-1. Select ***Local computer*** , then click ***Finish*** to end the wizard.
+1. Select ***Local computer***, then click ***Finish*** to end the wizard.
 1. Click ***OK*** to save your changes. This action will also close the ***Add or Remove Snap-ins*** dialog.
 1. In the console, select ***Certificates (Local Computer)***.
 1. In the ***Logical Store Name*** box, right-click ***Trusted Root Certification Authorities*** and select ***All Tasks – Import***.

@@ -8,22 +8,21 @@ La gestion des utilisateurs et des permissions peuvent être simplifiées avec l
 
 ### Créer des groupes d'utilisateurs 
 
-1. Aller dans ***Administration - Groupes d'utilisateurs*** . 
-1. Cliquer ***Ajouter*** .  
+1. Aller dans ***Administration - Groupes d'utilisateurs***. 
+1. Cliquer ***Ajouter***.  
 ![!!Hub4158.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4158.png) 
-1. Nommer le ***Groupe d'utilisateurs*** . 
-1. Sélectionner les ***Utilisateurs*** .  
+1. Nommer le ***Groupe d'utilisateurs***. 
+1. Sélectionner les ***Utilisateurs***.  
 ![!!Hub4159.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4159.png) 
-1. Cliquer ***Ajouter*** . 
+1. Cliquer ***Ajouter***. 
 
 ### Gérer les groupes d'utilisateurs 
 
 La gestion et l'ajout d'utilisateurs aux ***Groupes d'utilisateurs*** dans {{ fr.HUBB }} peuvent être effectués de plusieurs manières: 
 {% snippet icon.badgeInfo %} 
-Pour gérer les ***Permissions*** des ***Coffres*** avec des ***Groupes d'utilisateurs*** , consulter cette rubrique: [Créer et gérer des coffres](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) . 
+Pour gérer les ***Permissions*** des ***Coffres*** avec des ***Groupes d'utilisateurs***, consulter cette rubrique: [Créer et gérer des coffres](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/). 
 {% endsnippet %}
  
-* Dans ***Administration - Groupes d'utilisateurs*** , sélectionner le ***Groupe d'utilisateurs*** et cliquer sur le bouton ***Modifier*** . 
-* Dans ***Administration - Utilisateurs*** , sélectionner l' ***Utilisateur*** et cliquer sur le bouton ***Modifier*** . Dans l'onglet ***Groupes d'utilisateurs*** , gérer les groupes. 
+* Dans ***Administration - Groupes d'utilisateurs***, sélectionner le ***Groupe d'utilisateurs*** et cliquer sur le bouton ***Modifier***. 
+* Dans ***Administration - Utilisateurs***, sélectionner l'***Utilisateur*** et cliquer sur le bouton ***Modifier***. Dans l'onglet ***Groupes d'utilisateurs***, gérer les groupes. 
 * Dans le processus d'invitation, sélectionner les ***Groupes d'utilisateurs*** pour le nouvel utilisateur. 
-

@@ -6,7 +6,7 @@ La fonctionnalité ***Recherche multi-coffres*** de {{ fr.RDM }} permet de reche
 
 ### Types de critères 
 
-Les critères suivants sont disponibles afin d'affiner votre recherche : ***Type de connexion*** , ***Date de création*** , ***Description*** , ***Dossier*** , ***Date de la dernière mise à jour*** et ***Nom*** .  
+Les critères suivants sont disponibles afin d'affiner votre recherche : ***Type de connexion***, ***Date de création***, ***Description***, ***Dossier***, ***Date de la dernière mise à jour*** et ***Nom***.  
 
 {% snippet icon.badgeInfo %} 
 Au moins un critère doit être utilisé pour filtrer vos résultats et un maximum de quatre critères peuvent être appliqués à une même recherche. 
@@ -15,7 +15,7 @@ Au moins un critère doit être utilisé pour filtrer vos résultats et un maxim
 ![Critères pour Recherche multi-coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWIN2011.png) 
 
 {% snippet icon.badgeInfo %} 
-Avec une base de donnée ***Hub*** , seulement le critère de recherche ***Nom*** peut être sélectionné. 
+Avec une base de donnée ***Hub***, seulement le critère de recherche ***Nom*** peut être sélectionné. 
 {% endsnippet %}
  
 Des listes déroulantes apparaissent lors de la sélection de certains critères pour vous donner plus d'options de recherche.  

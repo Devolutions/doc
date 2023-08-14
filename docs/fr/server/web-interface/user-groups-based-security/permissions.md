@@ -3,9 +3,9 @@ title: Permissions
 keywords:
 - Rôle
 ---
-Le panneau ***Permissions*** se trouve dans toutes les propriétés d'entrée de la section ***Sécurité – Permissions*** .  
+Le panneau ***Permissions*** se trouve dans toutes les propriétés d'entrée de la section ***Sécurité – Permissions***.  
 
-Il est également possible d'autoriser les administrateurs à accorder des permissions administratives aux utilisateurs standard sans en faire des administrateurs avec les [Permissions du système](/fr/server/web-interface/administration/configuration/system-permissions/) .  
+Il est également possible d'autoriser les administrateurs à accorder des permissions administratives aux utilisateurs standard sans en faire des administrateurs avec les [Permissions du système](/fr/server/web-interface/administration/configuration/system-permissions/).  
 
 Le système d'autorisations basé sur les groupes d'utilisateurs peut donner un contrôle très précis de la sécurité. Voici un aperçu de la fenêtre des permissions:  
 
@@ -39,7 +39,7 @@ Définis le mode de permission. Dois être défini sur ***Personnalisé*** afin 
 Général 
 		</td>
 		<td>
-Vous permet de choisir à qui vous souhaitez accorder des permissions. Ces zones de liste déroulante sont disponibles uniquement si la permission ci-dessus est définie sur ***Personnalisé*** . Choisir entre:  
+Vous permet de choisir à qui vous souhaitez accorder des permissions. Ces zones de liste déroulante sont disponibles uniquement si la permission ci-dessus est définie sur ***Personnalisé***. Choisir entre:  
 
 * ***Hérité (Autorisé)*** : Héritera des permissions des groupes/dossiers parents. 
 * ***Personnalisé*** : Vous permet de spécifier une valeur personnalisée pour la permission. 
@@ -52,7 +52,7 @@ Vous permet de choisir à qui vous souhaitez accorder des permissions. Ces zones
 Sélecteur Utilisateurs/Groupes d'utilisateurs 
 		</td>
 		<td>
-Vous permet de sélectionner les utilisateurs/groupes d'utilisateurs pour lesquels la permission est accordée. Disponible uniquement si la permission est définie sur ***Personnalisé*** . 
+Vous permet de sélectionner les utilisateurs/groupes d'utilisateurs pour lesquels la permission est accordée. Disponible uniquement si la permission est définie sur ***Personnalisé***. 
 		</td>
 	</tr>
 </table>

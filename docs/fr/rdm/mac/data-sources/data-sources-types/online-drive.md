@@ -53,7 +53,7 @@ Mode de connexion
 		</td>
 		<td>
 
-Choisir la méthode par Défaut ou le [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) . 
+Choisir la méthode par Défaut ou le [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/). 
 		</td>
 	</tr>
 	<tr>
@@ -61,7 +61,7 @@ Choisir la méthode par Défaut ou le [Mot de passe d'application](/fr/kb/remote
 Mot de passe d'application 
 		</td>
 		<td>
-Entrer votre [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) . 
+Entrer votre [Mot de passe d'application](/fr/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/). 
 		</td>
 	</tr>
 	<tr>
@@ -121,7 +121,7 @@ Sauvegarde
 Choisir entre:  
 
 * Aucun : Aucune sauvegarde de votre source de données ne sera créée. 
-* Sauvegarde en ligne : Une sauvegarde en ligne (à l'aide du service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) ) sera automatiquement créée. 
+* Sauvegarde en ligne : Une sauvegarde en ligne (à l'aide du service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/)) sera automatiquement créée. 
 * Sauvegarde du fichier : Votre sauvegarde sera enregistrée dans un fichier choisi, mais ne fera pas automatiquement sauvegarder toutes les 30 secondes. 
 		</td>
 	</tr>

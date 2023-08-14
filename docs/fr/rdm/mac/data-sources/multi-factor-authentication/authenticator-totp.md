@@ -16,4 +16,4 @@ Avant de commencer la configuration, assurez-vous d'avoir installé l'applicatio
 1. Saisir le ***Code de validation*** fourni par l'***Authenticator (TOTP)***.  
 ![Configuration de compte Authenticator](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0190.png) 
 1. Cliquer sur ***Valider***. 
-1. Relancer {{ fr.RDM }} pour être invité à entrer le code d' Authenticator (TOTP). 
+1. Relancer {{ fr.RDM }} pour être invité à entrer le code d'Authenticator (TOTP). 

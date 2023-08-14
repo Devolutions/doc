@@ -15,7 +15,7 @@ Les fonctionnalités suivantes sont également prises en charge :
 * ***Groupe de disponibilité “Always on“*** ; 
 * ***Regroupement*** ; 
 * ***Expédition des journaux*** ; 
-* ***Mise en miroir de bases de données*** . 
+* ***Mise en miroir de bases de données***. 
 		</td>
 	</tr>
 </table>
@@ -31,7 +31,7 @@ Microsoft Azure SQL propose différents niveaux de service dans son modèle d'ac
 * Prise en charge des journaux de connexions et des pièces jointes. 
 
 {% snippet icon.badgeHelp %} 
-Obtenez plus de détails sur [Microsoft Azure SQL](https://azure.microsoft.com/fr-ca/products/azure-sql/database/) . 
+Obtenez plus de détails sur [Microsoft Azure SQL](https://azure.microsoft.com/fr-ca/products/azure-sql/database/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -44,7 +44,7 @@ AD Azure n'est pas pris en charge dans {{ fr.RDMMAC }}. Cette fonctionnalité n'
  
 ## Configuration 
 
-Pour configurer une source de données Azure SQL, veuillez lire la rubrique [Configurer Azure SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure-azure-sql/) . 
+Pour configurer une source de données Azure SQL, veuillez lire la rubrique [Configurer Azure SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure-azure-sql/). 
 
 ## Paramètres 
 
@@ -123,7 +123,7 @@ Nom de la base de données créée en ligne. Vous devez utiliser le bouton engre
 		</td>
 		<td>
 
-Activer l' [Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
+Activer l'[Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -237,7 +237,7 @@ Temps d'attente avant un délai de commande.
 Gérer la cache 
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/) . 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/mac/data-sources/manage-cache/). 
 		</td>
 	</tr>
 	<tr>
@@ -276,7 +276,7 @@ Tester la connexion avec le serveur pour valider si les informations appropriée
 Créer base de données 
 		</td>
 		<td>
-Créer la base de données pour utiliser {{ fr.RDM }} . 
+Créer la base de données pour utiliser {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -284,7 +284,7 @@ Créer la base de données pour utiliser {{ fr.RDM }} .
 Mettre à jour base de données 
 		</td>
 		<td>
-Mettre à jour la base de données, si nécessaire pour utiliser {{ fr.RDM }} . 
+Mettre à jour la base de données, si nécessaire pour utiliser {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>

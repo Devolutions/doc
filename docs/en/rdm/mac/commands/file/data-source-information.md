@@ -4,7 +4,7 @@ title: My Data Source Information
 Use the File - My Data Source Information to display the data source information details like the current username and security access. The My Data Source Information screen will also give you the data source configuration information such as database version and the effective Offline mode.  
 
 {% snippet icon.badgeInfo %} 
-The display of My Data Source Information can be different depending on the [Data Source Types](/rdm/mac/data-sources/data-sources-types/) . 
+The display of My Data Source Information can be different depending on the [Data Source Types](/rdm/mac/data-sources/data-sources-types/). 
 {% endsnippet %}
  
 ## Settings 

@@ -61,7 +61,7 @@ When it comes to Azure AD joined devices (registered devices). Azure AD may or m
  
 3. In the ***Username*** field, paste the ***Active Directory admin*** email you created in the Microsoft Azure SQL databases. 
 {% snippet icon.badgeInfo %} 
-On first connect, the username must be the Active Directory Admin as defined in the [Configure the Active Directory Admin](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/) . Once you add other AD user in {{ en.RDM }} they will be able to connect. 
+On first connect, the username must be the Active Directory Admin as defined in the [Configure the Active Directory Admin](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/). Once you add other AD user in {{ en.RDM }} they will be able to connect. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
@@ -73,7 +73,7 @@ If you get this message error: Unable to connect to the database! Login failed f
 {% snippet icon.badgeCaution %} 
 When you receive this error: ***AADSTS70001 - Application with Identifier was not found in the directory…***  
 
-Validate that your ***Application ID*** in {{ en.RDM }} is identical to the ***App Registration's Application (client) ID*** (step 11 of [Create an Azure Active Directory App Registration](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/) ). 
+Validate that your ***Application ID*** in {{ en.RDM }} is identical to the ***App Registration's Application (client) ID*** (step 11 of [Create an Azure Active Directory App Registration](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/)). 
 {% endsnippet %}
  
 ![App Registration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5010.png) 

@@ -3,11 +3,11 @@ title: Refresh
 ---
 Refreshing the data source allows for updating its content. Data sources are usually refreshed automatically after a set period of time.  
 
-To refresh the data source, use ***File – Refresh*** . Do a refresh to make sure that the data source is up to date. 
+To refresh the data source, use ***File – Refresh***. Do a refresh to make sure that the data source is up to date. 
 
 ### Simple refresh 
 
-A simple refresh updates the data source to retrieve only the modified content. Use the above-mentioned ***File – Refresh*** or the refresh button in the ***Quick Access Toolbar*** .  
+A simple refresh updates the data source to retrieve only the modified content. Use the above-mentioned ***File – Refresh*** or the refresh button in the ***Quick Access Toolbar***.  
 ![Refresh the Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11279.png) 
 
 ### Local cache refresh 

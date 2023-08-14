@@ -2,13 +2,13 @@
 title: Specific Settings
 status: Topic available in German language
 ---
-***Specific Settings*** are used to override the properties of an entry. Several settings can be overridden, such as the credentials or the display mode. There are two types of ***Specific Settings*** : user specific settings and local machine specific settings.  
+***Specific Settings*** are used to override the properties of an entry. Several settings can be overridden, such as the credentials or the display mode. There are two types of ***Specific Settings***: user specific settings and local machine specific settings.  
 
 * ***User Specific Settings*** override an entry's properties for a single user. 
 * ***Local Specific Settings*** override an entry's properties for all users of a specific device. 
 
 {% snippet icon.badgeInfo %} 
-This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . A setting on the data source allows usage of ***Specific Settings*** . Contact your administrator if the menu is grayed out. 
+This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). A setting on the data source allows usage of ***Specific Settings***. Contact your administrator if the menu is grayed out. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

@@ -11,7 +11,7 @@ Les ***Coffres*** permettent de partager des entrées avec des utilisateurs et d
 
 ### Créer un coffre 
 
-1. Aller dans ***Administration - Coffres*** . 
+1. Aller dans ***Administration - Coffres***. 
 1. Cliquer sur ***Ajouter*** en haut à droite de l'écran.  
 ![!!Hub4139.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4139.png) 
 1. Nommer le coffre. 
@@ -21,11 +21,11 @@ Les ***Coffres*** permettent de partager des entrées avec des utilisateurs et d
 
 ### Ajouter des permissions à un coffre 
 
-1. Aller dans ***Administration - Coffres*** . 
+1. Aller dans ***Administration - Coffres***. 
 1. Cliquer sur le crayon ***Modifier*** à côté du coffre. 
-1. Dans la section de l'onglet ***Modifier*** , cliquer sur le menu déroulant à côté de chaque ***Permissions*** prédéfinie pour attribuer des utilisateurs et des groupes d'utilisateurs ou sélectionner et configurer un rôle personnalisé pour votre organisation. 
+1. Dans la section de l'onglet ***Modifier***, cliquer sur le menu déroulant à côté de chaque ***Permissions*** prédéfinie pour attribuer des utilisateurs et des groupes d'utilisateurs ou sélectionner et configurer un rôle personnalisé pour votre organisation. 
 {% snippet icon.badgeNotice %} 
-Cliquez sur le bouton ***Afficher la définition des rôles*** pour choisir dans la liste. Vous pouvez également consulter notre rubrique [Rôles et permissions](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/) . 
+Cliquez sur le bouton ***Afficher la définition des rôles*** pour choisir dans la liste. Vous pouvez également consulter notre rubrique [Rôles et permissions](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/). 
 {% endsnippet %}
  
 ![!!Hub4141.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4141.png)  
@@ -34,7 +34,7 @@ Cliquez sur le bouton ***Afficher la définition des rôles*** pour choisir dans
 
 ### Modifier un coffre 
 
-1. Aller dans ***Administration - Coffres*** . 
+1. Aller dans ***Administration - Coffres***. 
 1. Cliquer sur le crayon ***Modifier*** à côté du coffre.  
 ![!!Hub4142.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4142.png) 
 1. Cliquer ***Mettre à jour*** pour enregistrer. 

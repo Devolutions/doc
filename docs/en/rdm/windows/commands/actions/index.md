@@ -112,7 +112,7 @@ Re-embed your session when your session is undocked. This option will only appea
 Full Screen 
 		</td>
 		<td>
-Display your session in full screen outside {{ en.RDM }} . 
+Display your session in full screen outside {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>

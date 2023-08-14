@@ -98,7 +98,7 @@ Choisir entre:
 
 * ***Aucun*** : Aucune sauvegarde de votre source de données ne sera créée. 
 * ***Sauvegarde du fichier*** : Votre sauvegarde sera enregistrée dans un fichier choisi, mais ne fera pas automatiquement sauvegarder toutes les 30 secondes. 
-* ***Sauvegarde en ligne*** : Une sauvegarde en ligne (à l'aide du service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) ) sera automatiquement créée. 
+* ***Sauvegarde en ligne*** : Une sauvegarde en ligne (à l'aide du service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/)) sera automatiquement créée. 
 		</td>
 	</tr>
 	<tr>

@@ -3,7 +3,7 @@ title: Exemples d'actions par lot
 ---
 Les modifications par lots permettent de modifier rapidement plusieurs sessions à la fois, dans {{ fr.RDM }} lui-même.  
 
-Pour pouvoir créer votre script PowerShell, vous aurez besoin du nom du ou des champs que vous souhaitez mettre à jour. Pour récupérer le nom exact du champ, cliquer avec le bouton droit sur votre session et sélectionnez ***Presse - papiers - Copier*** . Vous pouvez ensuite coller les informations dans un éditeur de texte pour récupérer le nom du ou des champs que vous souhaitez modifier via la commande PowerShell personnalisée.  
+Pour pouvoir créer votre script PowerShell, vous aurez besoin du nom du ou des champs que vous souhaitez mettre à jour. Pour récupérer le nom exact du champ, cliquer avec le bouton droit sur votre session et sélectionnez ***Presse - papiers - Copier***. Vous pouvez ensuite coller les informations dans un éditeur de texte pour récupérer le nom du ou des champs que vous souhaitez modifier via la commande PowerShell personnalisée.  
 
 Puisqu'ils utilisent la technologie Powershell, nous fournissons des exemples dans cette section, car les champs sont les mêmes lorsqu'ils sont accessibles via nos modifications par lots ou via Powershell. 
 
@@ -60,15 +60,15 @@ TerminalLogOverwriteMode: 0 = Par défaul, 1 = Invite, 2 = Ajouter, 3 = Remplace
 Voici également d'autres options que vous pouvez modifier;  
 
 ```powershell
-$connection.Terminal.BellMode = 'Visual'  
-$connection.Terminal.CloseOnDisconnect = $false  
+$connection.Terminal.BellMode = 'Visual';
+$connection.Terminal.CloseOnDisconnect = $false; 
 ```
 
 ### Convertir des sessions de site web en sessions LogMeIn 
 
 ```powershell
 $connection.ConnectionType = 'LogMeIn';
-$connection.ConnectionSubType = '' ;
+$connection.ConnectionSubType = '';
 $connection.LogMeIn.Url = $connection.WebBrowserUrl;
 $RDM.Save();
 ```

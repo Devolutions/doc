@@ -4,7 +4,7 @@ title: Informations sur la source de données
 Utiliser ***Fichier - Informations sur la source de données*** pour afficher les détails des informations sur la source de données comme le nom d'utilisateur actuel et l'accès de sécurité. L'écran ***Informations sur la source de données*** vous donnera également les informations de configuration de la source de données telles que la version de la base de données et le mode hors ligne.  
 
 {% snippet icon.badgeInfo %}
-L'affichage des ***Informations sur la source de données*** peut être différent selon les [Types de sources de données](/fr/rdm/mac/data-sources/data-sources-types/) . 
+L'affichage des ***Informations sur la source de données*** peut être différent selon les [Types de sources de données](/fr/rdm/mac/data-sources/data-sources-types/). 
 {% endsnippet %}
  
 

@@ -19,7 +19,7 @@ title: SQLite
 * The [{{ en.OBACK }} Service](/cloud/getting-started/devolutions-cloud-services/) is available for this data source 
 
 {% snippet icon.shieldInfo %} 
-All passwords are encrypted by default by {{ en.RDMMAC }} . You can specify a custom password to fully encrypt the content of the SQLite database. 
+All passwords are encrypted by default by {{ en.RDMMAC }}. You can specify a custom password to fully encrypt the content of the SQLite database. 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
@@ -27,7 +27,7 @@ Password recovery is not possible, the data will be unrecoverable if you cannot 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-SQLite supports an unlimited number of simultaneous readers, but will only allow one writer at any instant in time. For this reason {{ en.RDMMAC }} does not support sharing an SQLite data source between several users by storing it on a network drive. If you want to share your data and work in a team environment with your colleagues, please use one of the [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . Please consult [SQLite.org](https://www.sqlite.org/whentouse.html) for more information. 
+SQLite supports an unlimited number of simultaneous readers, but will only allow one writer at any instant in time. For this reason {{ en.RDMMAC }} does not support sharing an SQLite data source between several users by storing it on a network drive. If you want to share your data and work in a team environment with your colleagues, please use one of the [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Please consult [SQLite.org](https://www.sqlite.org/whentouse.html) for more information. 
 {% endsnippet %}
  
 ## Password management 
@@ -210,7 +210,7 @@ Manage SQLite File
 		</td>
 		<td>
 
-Manage all your SQLite file to analyse, vacuum, repair or delete them. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/) . 
+Manage all your SQLite file to analyse, vacuum, repair or delete them. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/). 
 		</td>
 	</tr>
 	<tr>

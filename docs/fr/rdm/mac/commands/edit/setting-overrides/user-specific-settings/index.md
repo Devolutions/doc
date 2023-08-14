@@ -3,13 +3,13 @@ title: Paramètres de l'usager
 ---
 Permets le remplacement des paramètres de session pour un utilisateur. Plusieurs paramètres peuvent être remplacés, tels que le nom d'utilisateur, le mot de passe ou l'affichage.  
 
-Dans le volet navigation, sélectionner l'entrée que vous souhaitez remplacer, puis faites un clic droit ***Modifier - Paramètres spécifiques de l'usager*** ou dans le ruban, sélectionner ***Modifier - Paramètres spécifiques de l'usager*** .  
+Dans le volet navigation, sélectionner l'entrée que vous souhaitez remplacer, puis faites un clic droit ***Modifier - Paramètres spécifiques de l'usager*** ou dans le ruban, sélectionner ***Modifier - Paramètres spécifiques de l'usager***.  
 ![Modifier - Paramètres de l'usager](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4000.png) 
 
 ## Paramètres 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . Un paramètre sur la source de données permet l'utilisation des paramètres spécifiques à la machine locale. Contacter votre administrateur si le menu est grisé. 
+Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Un paramètre sur la source de données permet l'utilisation des paramètres spécifiques à la machine locale. Contacter votre administrateur si le menu est grisé. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 

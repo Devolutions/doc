@@ -4,7 +4,7 @@ order: 20
 keywords:
 - Coffre privé
 ---
-Les paramètres de {{ fr.DWL }} sont accessibles via le bouton ***Paramètres*** dans la fenêtre de l'extension de navigateur, peu importe quel produit Devolutions est utilisé avec {{ fr.DWL }} .  
+Les paramètres de {{ fr.DWL }} sont accessibles via le bouton ***Paramètres*** dans la fenêtre de l'extension de navigateur, peu importe quel produit Devolutions est utilisé avec {{ fr.DWL }}.  
 
 ![Bouton Paramètres de {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl2001.png)  
 
@@ -73,7 +73,7 @@ Communiquer avec le port par défaut 19443 entre les applications.
 Ajouter une entrée dans le coffre d'utilisateur par défaut 
 		</td>
 		<td>
-Enregistrer les nouvelles entrées dans le {{ fr.UVLT }} . 
+Enregistrer les nouvelles entrées dans le {{ fr.UVLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -137,7 +137,7 @@ DESCRIPTION
 Clé de l'application 
 		</td>
 		<td>
-Sécuriser le port avec une clé d'application en utilisant le même code dans {{ fr.RDM }} et {{ fr.DWL }} . <br>
+Sécuriser le port avec une clé d'application en utilisant le même code dans {{ fr.RDM }} et {{ fr.DWL }}. <br>
 
 Accéder à <b><i>Fichier – Options – Extensions de navigateur</b></i> dans {{ fr.RDM }} pour inscrire la clé d'application. 
 		</td>
@@ -155,7 +155,7 @@ Activer la messagerie native
 Utiliser l’ancienne API 
 		</td>
 		<td>
-Utiliser l'ancien API du navigateur pour être compatible avec les versions plus anciennes de {{ fr.RDM }} . 
+Utiliser l'ancien API du navigateur pour être compatible avec les versions plus anciennes de {{ fr.RDM }}. 
 		</td>
 	</tr>
 </table>
@@ -176,7 +176,7 @@ DESCRIPTION
 Activer {{ fr.DVLS }} 
 		</td>
 		<td>
-Récupérer les entrées de {{ fr.DVLS }} . 
+Récupérer les entrées de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -256,7 +256,7 @@ Définir un type d'option de comparaison par défaut entre <b><i>Domaine de base
 Synchroniser tous les coffres disponibles 
 		</td>
 		<td>
-Activer pour synchroniser tous les coffres disponibles depuis {{ fr.DVLS }} . 
+Activer pour synchroniser tous les coffres disponibles depuis {{ fr.DVLS }}. 
 		</td>
 	</tr>
 </table>
@@ -277,7 +277,7 @@ DESCRIPTION
 Activer {{ fr.DHUBB }}/Personal 
 		</td>
 		<td>
-Récupérer les entrées de {{ fr.HUB }} . 
+Récupérer les entrées de {{ fr.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -293,7 +293,7 @@ Entrer l'URL du {{ fr.HUBB }} auquel se connecter.
 Nom d'utilisateur 
 		</td>
 		<td>
-Entrer un nom d'utilisateur avec lequel se connecter à {{ fr.HUB }} . 
+Entrer un nom d'utilisateur avec lequel se connecter à {{ fr.HUB }}. 
 		</td>
 	</tr>
 </table>
@@ -339,7 +339,7 @@ DESCRIPTION
 Connexion au {{ fr.DA }}
 		</td>
 		<td>
-Écrire l'URL de connexion de votre {{ fr.DA }} . 
+Écrire l'URL de connexion de votre {{ fr.DA }}. 
 		</td>
 	</tr>
 	<tr>
@@ -347,7 +347,7 @@ Connexion au {{ fr.DA }}
 Afficher le favicône 
 		</td>
 		<td>
-Afficher le favicône de {{ fr.DWL }} . 
+Afficher le favicône de {{ fr.DWL }}. 
 		</td>
 	</tr>
 	<tr>
@@ -355,7 +355,7 @@ Afficher le favicône de {{ fr.DWL }} .
 {{ fr.DWL }} 
 		</td>
 		<td>
-Activer ou désactiver {{ fr.DWL }} avec {{ fr.HUB }} . 
+Activer ou désactiver {{ fr.DWL }} avec {{ fr.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -371,7 +371,7 @@ Définir un type d'option de comparaison par défaut entre <b><i>Domaine de base
 Synchroniser tous les coffres disponibles (disponible avec {{ fr.HUBB }} seulement) 
 		</td>
 		<td>
-Activer pour synchroniser tous les coffres disponibles depuis {{ fr.HUBB }} . 
+Activer pour synchroniser tous les coffres disponibles depuis {{ fr.HUBB }}. 
 		</td>
 	</tr>
 </table>

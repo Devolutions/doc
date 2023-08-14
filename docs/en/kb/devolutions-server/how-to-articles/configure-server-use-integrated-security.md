@@ -12,7 +12,7 @@ To make these steps simpler, we will name the domain account VaultDBRunner , ple
 1. Grant access to the SQL Server instance to VaultDBRunner;
 1. Grant access to the database to VaultDBRunner;
 1. In IIS Manager, expand the ***Application pool*** section and locate the application pool used by your {{ en.DVLS }} site. By default it has the same name as the name of the web application;
-1. In the ***Advanced Settings*** , edit the ***Identity*** setting to get the VaultDBRunner account.  
+1. In the ***Advanced Settings***, edit the ***Identity*** setting to get the VaultDBRunner account.  
 ![!!KB4340.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4340.png)  
 
 {% snippet icon.badgeCaution %}

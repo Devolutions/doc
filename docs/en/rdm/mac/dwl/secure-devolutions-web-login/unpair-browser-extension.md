@@ -1,7 +1,7 @@
 ---
 title: Unpair a browser extension
 ---
-In the event that you want to deny access to {{ en.RDM }} from a previously paired browser extension, you need to delete it from {{ en.RDM }} .  
+In the event that you want to deny access to {{ en.RDM }} from a previously paired browser extension, you need to delete it from {{ en.RDM }}.  
 
 1. In {{ en.RDM }}, go to ***File – Preferences – Browser Extensions***. 
 1. In the ***{{ en.DWL }} Associations*** section, right-click the entry and select ***Remove***. Close the window to save the modifications.  

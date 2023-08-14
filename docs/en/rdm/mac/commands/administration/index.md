@@ -3,7 +3,7 @@ title: Administration
 ---
 The Administration ribbon is only available for the Administrator of the data source since it is mostly used to manage settings and users of a data source. If the options are grayed out contact your administrator.  
 
-Also most features contained in the Administration menu requires an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) .  
+Also most features contained in the Administration menu requires an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).  
 ![Administration ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10372.png) 
 
 Refer to the following topics for more information:  

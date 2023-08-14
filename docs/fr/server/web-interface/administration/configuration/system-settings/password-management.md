@@ -107,7 +107,7 @@ Description
 Modèle p. déf. 
 		</td>
 		<td>
-Modèle de mots de passe par défault utilisé par le système. Des modèles peuvent être créés dans [Modèles de mot de passe](/fr/server/web-interface/administration/templates/password-templates/) . 
+Modèle de mots de passe par défault utilisé par le système. Des modèles peuvent être créés dans [Modèles de mot de passe](/fr/server/web-interface/administration/templates/password-templates/). 
 		</td>
 	</tr>
 	<tr>

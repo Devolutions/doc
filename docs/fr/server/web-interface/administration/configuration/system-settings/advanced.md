@@ -17,7 +17,7 @@ Description
 Désactiver la trace de la pile 
 		</td>
 		<td>
-Sert à désactiver la trace de la pile de {{ fr.DVLS }} dans les journaux d'erreurs de {{ fr.RDM }} . 
+Sert à désactiver la trace de la pile de {{ fr.DVLS }} dans les journaux d'erreurs de {{ fr.RDM }}. 
 		</td>
 	</tr>
 </table>

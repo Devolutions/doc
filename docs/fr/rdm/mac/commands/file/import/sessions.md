@@ -1,7 +1,7 @@
 ---
 title: Importer des sessions
 ---
-Utiliser ***Fichier - Importer - Importer les sessions de*** pour importer des sessions dans {{ fr.RDM }} . 
+Utiliser ***Fichier - Importer - Importer les sessions de*** pour importer des sessions dans {{ fr.RDM }}. 
 
 ## Paramètres 
 

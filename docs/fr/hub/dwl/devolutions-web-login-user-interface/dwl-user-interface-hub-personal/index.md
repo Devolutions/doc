@@ -26,21 +26,21 @@ Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez pa
 * un lien vers votre {{ fr.HUBP }};  
 * un lien vers notre [forum de {{ fr.HUB }}](https://forum.devolutions.net/product/password-hub) ;  
 * un lien vers notre [Aide en ligne de {{ fr.HUB }}](/fr/hub/overview/what-is-hub/) ;  
-* la version actuelle de {{ fr.DWL }} .  
+* la version actuelle de {{ fr.DWL }}.  
 ![Bouton Compte](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2071.png)  
 
 ### Menu latéral et Zone de contenu 
 
-En utilisant les onglets du ***Menu latéral*** , vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }} .  
+En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }}.  
 ![Onglets du Menu latéral](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2072.png)  
-Chaque onglet affiche une vue différente dans la ***Zone de contenu*** . Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.HUBP }} sont :  
+Chaque onglet affiche une vue différente dans la ***Zone de contenu***. Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.HUBP }} sont :  
 
-* l'onglet ***Corresponsant*** , où vous pouvez trouver les identifiants disponibles pour un site Web spécifique;  
-* l'onglet ***Toute les entrées*** , où vous pouvez trouver toutes les entrées de votre {{ fr.HUBP }} réparties dans vos différents coffres et dossiers;  
-* l'onglet ***Favoris*** , où vous pouvez trouver une liste de vos entrées favorites;  
-* l'onglet ***Récent*** , où vous pouvez trouver une liste des entrées que vous avez récemment utilisées;  
-* l'onglet ***Corbeille*** , où vous pouvez ***Supprimer*** des entrées et dossiers ou ***Restaurer*** ceux qui ont été précédemment supprimés;  
-* l'onglet ***Générateur de mots de passe*** , où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte.  
+* l'onglet ***Corresponsant***, où vous pouvez trouver les identifiants disponibles pour un site Web spécifique;  
+* l'onglet ***Toute les entrées***, où vous pouvez trouver toutes les entrées de votre {{ fr.HUBP }} réparties dans vos différents coffres et dossiers;  
+* l'onglet ***Favoris***, où vous pouvez trouver une liste de vos entrées favorites;  
+* l'onglet ***Récent***, où vous pouvez trouver une liste des entrées que vous avez récemment utilisées;  
+* l'onglet ***Corbeille***, où vous pouvez ***Supprimer*** des entrées et dossiers ou ***Restaurer*** ceux qui ont été précédemment supprimés;  
+* l'onglet ***Générateur de mots de passe***, où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte.  
 
 Consultez notre rubrique [Menu latéral](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 
 

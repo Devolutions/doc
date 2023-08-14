@@ -8,8 +8,8 @@ This is useful when the number of managed entries becomes too great or if you mu
 
 There are two types of favorite sessions: 
 
-* Shared favorites : Shared by all users who are connected to the data source, and are directly configured from the session. 
-* Local favorites : Flagged locally on the current machine by the current user. The settings are saved in the application settings. 
+* Shared favorites: Shared by all users who are connected to the data source, and are directly configured from the session. 
+* Local favorites: Flagged locally on the current machine by the current user. The settings are saved in the application settings. 
 
 The blue star indicates a shared favorite and the yellow star a local favorite.  
 ![Local and Shared favorite](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10444.png) 

@@ -90,7 +90,7 @@ Tester le chemin d'accès et le mot de passe de la base de données pour la conn
 2 facteurs 
 		</td>
 		<td>
-Activer l' [Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
+Activer l[Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
 		</td>
 	</tr>
 </table>
@@ -118,7 +118,7 @@ Choisir entre:
 ***Aucun*** : Aucune sauvegarde de votre source de données ne sera créée.  
 
 * Sauvegarde du fichier : Votre sauvegarde sera enregistrée dans un fichier choisi, mais ne fera pas automatiquement sauvegarder toutes les 30 secondes. 
-* Sauvegarde en ligne : Une sauvegarde en ligne (à l'aide du service de [Sauvegarde en ligne](/fr/cloud/getting-started/devolutions-cloud-services/) ) sera automatiquement créée. 
+* Sauvegarde en ligne : Une sauvegarde en ligne (à l'aide du service de [Sauvegarde en ligne](/fr/cloud/getting-started/devolutions-cloud-services/)) sera automatiquement créée. 
 		</td>
 	</tr>
 </table>

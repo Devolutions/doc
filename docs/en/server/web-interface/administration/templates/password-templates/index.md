@@ -2,12 +2,12 @@
 title: Password Templates
 order: 10
 ---
-***Password Templates*** are used by administrators to create predefined settings for the [***Password Generator***](/server/web-interface/administration/templates/password-templates/password-generator/) of {{ en.DVLS }} .  
+***Password Templates*** are used by administrators to create predefined settings for the [***Password Generator***](/server/web-interface/administration/templates/password-templates/password-generator/) of {{ en.DVLS }}.  
 
 ![Administration – Password Templates](https://webdevolutions.azureedge.net/docs/en/server/clip10401.png) 
 
 ### Create password templates 
-To create ***Password Templates*** , go to ***Administration – Password Templates*** and click on the ***Add*** button. You can also create a ***Password Template*** when using the ***Password Generator*** . Just customize the settings and click on ***Add template*** .  
+To create ***Password Templates***, go to ***Administration – Password Templates*** and click on the ***Add*** button. You can also create a ***Password Template*** when using the ***Password Generator***. Just customize the settings and click on ***Add template***.  
 
 ![Password Templates](https://webdevolutions.azureedge.net/docs/en/server/clip10402.png) 
 
@@ -26,7 +26,7 @@ Name
 		</td>
 		<td>
 
-Name of the ***Password Templates*** . 
+Name of the ***Password Templates***. 
 		</td>
 	</tr>
 	<tr>
@@ -153,8 +153,8 @@ Forcefully excludes characters from the password.
 
 Force a default ***Password Template*** for all {{ en.DVLS }} users.  
 
-1. Go to ***Administration – System Settings – Password Management – Password Template*** . 
-2. Choose a ***Default template*** . 
-3. Check ***Force default template*** and ***Save*** . 
+1. Go to ***Administration – System Settings – Password Management – Password Template***. 
+2. Choose a ***Default template***. 
+3. Check ***Force default template*** and ***Save***. 
 
 ![Default Password Template](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4087.png) 

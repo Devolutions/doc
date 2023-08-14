@@ -43,28 +43,28 @@ Un bouton ***Bing*** est disponible pour vous aider à traduire votre texte.
  
 ![Traduction](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2067.png) 
 
-7. Lorsque vous avez terminé, changer le ***Status*** de cette ressource à ***Translated*** et cliquez sur le bouton ***Save Changes*** . Cela enverra votre traduction à notre serveur et elle sera déployée avec la prochaine version de nos applications.  
+7. Lorsque vous avez terminé, changer le ***Status*** de cette ressource à ***Translated*** et cliquez sur le bouton ***Save Changes***. Cela enverra votre traduction à notre serveur et elle sera déployée avec la prochaine version de nos applications.  
 ![Changer le statut et sauvegarder les changements](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2068.png) 
 
 ### Aperçu 
 
 Vous pouvez prévisualiser vos modifications dans {{ fr.RDM }} avant la publication ou afficher celles déjà en place mais pas encore publiées.  
 
-1. Fermer {{ fr.RDM }} . 
+1. Fermer {{ fr.RDM }}. 
 1. Dans le ***Dashboard*** de {{ fr.DLOCALIZER }}, cliquer sur ***Deploy – Generate & Start*** pour afficher vos modifications ou sur ***Deploy – Start (use existing)*** pour afficher les modifications non publiées.  
 
 Suivez les étapes suivantes si vous voulez changer la langue de votre application {{ fr.RDM }} afin de refléter celle que vous traduisiez:  
 
-1. Accéder à ***Fichier – Options – Interface utilisateur*** (en anglais, ***File – Options – User Interface*** ). 
-1. Dans la liste déroulante ***Langue*** (en anglais, ***Language*** ), sélectionner la langue et cliquez sur ***OK*** . 
+1. Accéder à ***Fichier – Options – Interface utilisateur*** (en anglais, ***File – Options – User Interface***). 
+1. Dans la liste déroulante ***Langue*** (en anglais, ***Language***), sélectionner la langue et cliquez sur ***OK***. 
 1. Redémarrer l'application pour que cela prenne effet. 
 
 ### Raccourcis clavier 
 
 {{ fr.DLOCALIZER }} propose également plusieurs raccourcis clavier pour accélérer le processus de traduction:  
 
-* Ctrl + D : Définir le statut ( ***Status*** ) de la ressource actuelle à ***Translated*** . 
-* Ctrl + E : Définir le statut ( ***Status*** ) de la ressource actuelle à ***Use original*** . Cela ignore tout texte de traduction et affiche la valeur d'origine telle quelle. 
+* Ctrl + D : Définir le statut (***Status***) de la ressource actuelle à ***Translated***. 
+* Ctrl + E : Définir le statut (***Status***) de la ressource actuelle à ***Use original***. Cela ignore tout texte de traduction et affiche la valeur d'origine telle quelle. 
 * Ctrl + Bas : Passer à la ressource suivante. 
 * Ctrl + Haut : Revenir à la ressource précédente. 
 * Ctrl + B : Demande une traduction Bing pour la ressource actuelle. 

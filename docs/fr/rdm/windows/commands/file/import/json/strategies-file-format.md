@@ -1,7 +1,7 @@
 ---
 title: Stratégies d'importation de JSON et format de fichier
 ---
-Lors de l'importation de fichiers JSON dans {{ fr.RDM }} , quelques spécifications sont à respecter concernant le format du contenu. 
+Lors de l'importation de fichiers JSON dans {{ fr.RDM }}, quelques spécifications sont à respecter concernant le format du contenu. 
 
 ## Contenu du fichier 
 
@@ -9,7 +9,7 @@ Lors de l'importation de fichiers JSON dans {{ fr.RDM }} , quelques spécificati
 Certaines validations sur les paramètres d'entrée ne se trouvent pas dans la couche de gestion, mais plutôt dans les boîtes de dialogue de propriétés. Cela signifie que l'utilisation du processus d'importation peut entraîner des entrées non valides qui déclencheront des erreurs. Veuillez valider soigneusement les entrées résultantes. 
 {% endsnippet %}
  
-Nous ne pouvons pas fournir la liste de tous les champs pris en charge pour tous les types d'entrées, car {{ fr.RDM }} utilise une architecture ouverte et n'est donc pas au courant de tous les champs des types d'entrées fournis par notre gestionnaire de modules. Une bonne méthode pour découvrir la structure du champ consiste à créer une entrée du type souhaité, faire un clic droit sur l'entrée et sélectionner ***Presse-papiers – Copier*** , puis coller le contenu dans votre éditeur préféré. Vous verrez la structure et les noms des champs. 
+Nous ne pouvons pas fournir la liste de tous les champs pris en charge pour tous les types d'entrées, car {{ fr.RDM }} utilise une architecture ouverte et n'est donc pas au courant de tous les champs des types d'entrées fournis par notre gestionnaire de modules. Une bonne méthode pour découvrir la structure du champ consiste à créer une entrée du type souhaité, faire un clic droit sur l'entrée et sélectionner ***Presse-papiers – Copier***, puis coller le contenu dans votre éditeur préféré. Vous verrez la structure et les noms des champs. 
 
 {% snippet icon.badgeInfo %} 
 Les valeurs par défaut des champs ne sont pas sérialisées. Cela signifie qu'elles sont simplement exclues de la structure sérialisée. 
@@ -82,7 +82,7 @@ Description de l'entrée.
 Open (Embedded) 
 		</td>
 		<td>
-Valeur booléenne ( true ou false ) qui indique d'ouvrir la session intégrée. La valeur par défaut est false, ce qui signifie que le client natif sera utilisé en fonction de la technologie (MSTSC.EXE, par exemple). 
+Valeur booléenne (true ou false) qui indique d'ouvrir la session intégrée. La valeur par défaut est false, ce qui signifie que le client natif sera utilisé en fonction de la technologie (MSTSC.EXE, par exemple). 
 		</td>
 	</tr>
 	<tr>

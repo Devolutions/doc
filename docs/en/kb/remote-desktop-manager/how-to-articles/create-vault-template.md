@@ -15,7 +15,7 @@ This feature is not available with the {{ en.DVLS }} data source.
 1. Name the ***Vault template*** and set the options for this template.
 1. Click ***OK***.  
 ![!!KB4939.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4939.png)
-When creating a new vault in ***Administration - Vaults*** , click ***Template*** to select your ***Vault Template*** from the list.  
+When creating a new vault in ***Administration - Vaults***, click ***Template*** to select your ***Vault Template*** from the list.  
 ![!!KB4940.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4940.png)
 
 ## Vault template workaround for {{ en.RDM }} version lower than 2022.1.11

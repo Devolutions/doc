@@ -8,7 +8,7 @@ Vous avez besoin d'entrées de site Web dans {{ fr.HUBB }} pour pouvoir récupé
  
 {{ fr.DWL }} facilite l'accès à vos identifiants en faisant automatiquement correspondre les sites Web aux identifiants enregistrés dans les entrée de sites Web de {{ fr.HUBB }}. Il est également possible de filtrer vos entrées via {{ fr.DWL }} pour trouver manuellement vos identifiants.  
 
-Après l' [installation](/fr/hub/dwl/installation/) de {{ fr.DWL }} et son [couplage](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) avec {{ fr.HUBB }}, vous pouvez immédiatement utiliser l'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d'abord les étapes de la section [Paramètres](#paramètres) : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la [Récupération des identifiants](#récupération-des-identifiants).  
+Après l'[installation](/fr/hub/dwl/installation/) de {{ fr.DWL }} et son [couplage](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) avec {{ fr.HUBB }}, vous pouvez immédiatement utiliser l'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d'abord les étapes de la section [Paramètres](#paramètres) : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la [Récupération des identifiants](#récupération-des-identifiants).  
 
 ## Paramètres 
 
@@ -23,8 +23,8 @@ Avec cette option activée, un icône {{ fr.DWL }} sera affiché dans chaque cha
  
 ![Général – Afficher l'icône dans les champs](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2119.png)  
 
-4. Cliquer sur ***Enregistrer*** . 
-1. Cliquer sur ***{{ fr.HUBB }}*** dans la section des ***Sources de données*** .  
+4. Cliquer sur ***Enregistrer***. 
+1. Cliquer sur ***{{ fr.HUBB }}*** dans la section des ***Sources de données***.  
 ![Paramètres – Sources de données – {{ fr.HUBB }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2120.png) 
 1. Dans l'onglet ***Actions***, activer l'option ***Remplir automatiquement les champs d'identifiants lors du chargement*** en cochant la case à côté. Avec ce paramètre activé, les identifiants seront automatiquement remplis lors du chargement d'une page Web. Cela ne fonctionne que si vous n'avez qu'une seule entrée d'identifiants pour un site Web donné.  
 ![Actions – Remplir automatiquement les champs d'identifiants lors du chargement](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2121.png) 

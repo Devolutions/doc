@@ -1,7 +1,7 @@
 ---
 title: Modèles
 ---
-Les modèles sont disponibles dans le menu ***Fichier - Modèles*** .  
+Les modèles sont disponibles dans le menu ***Fichier - Modèles***.  
 ![Fichier - Modèles](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/cli4035.png) 
 
 Cela vous permet de créer une configuration prédéfinie tel que:  
@@ -16,10 +16,10 @@ Cela vous permet de créer des modèles prédéfinis disponibles avec la connexi
 
 ## Paramètres 
 
-Cliquer sur ***Modèles*** , puis sur ***Nouveau*** pour créer un nouveau modèle.  
+Cliquer sur ***Modèles***, puis sur ***Nouveau*** pour créer un nouveau modèle.  
 ![Modèles - Nouveau](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4035.png) 
 
-Vous pouvez choisir de créer un modèle ***Local*** ou un modèle ***Partagé*** .  
+Vous pouvez choisir de créer un modèle ***Local*** ou un modèle ***Partagé***.  
 ![Choisir Partagé ou Local](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0501.png) 
 
 <table>

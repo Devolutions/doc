@@ -19,7 +19,7 @@ Description
 Mode hors ligne 
 		</td>
 		<td>
-Cette option affectera seulement l'application {{ fr.RDM }} .  
+Cette option affectera seulement l'application {{ fr.RDM }}.  
 
 Les valeurs possibles sont :  
 

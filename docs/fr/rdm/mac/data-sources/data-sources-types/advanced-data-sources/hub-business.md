@@ -6,7 +6,7 @@ title: Devolutions Hub Business
 Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr) pour plus d'informations sur ce service. 
 
 {% snippet icon.badgeInfo %} 
-Pour commencer dès aujourd'hui votre essai gratuit de {{ fr.DHUBB }}, [cliquez ici](https://devolutions.net/password-hub/fr/business/sign-up) . 
+Pour commencer dès aujourd'hui votre essai gratuit de {{ fr.DHUBB }}, [cliquez ici](https://devolutions.net/password-hub/fr/business/sign-up). 
 {% endsnippet %}
  
 ## Paramètres 
@@ -53,7 +53,7 @@ Copier dans ***Hôte*** votre URL {{ fr.DHUBB }} (ex: https<area>://windjammer.d
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DHUBB }} .  
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DHUBB }}.  
 ![!!RDMMac4024.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4024.png) 
 
 ### Avancé 

@@ -65,7 +65,7 @@ Vous pouvez sélectionner le mode de calibrage d'écran entre:
 
 ### Passerelle 
 
-La ***Passerelle*** vous permet de personnaliser les identifiants de la passerelle RDP utilisée sur la session distante. Vous devez sélectionner les nouveaux identifiants à utiliser. Pour en savoir plus sur les options de remplacement des identifiants, veuillez suivre ce [lien](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/) . 
+La ***Passerelle*** vous permet de personnaliser les identifiants de la passerelle RDP utilisée sur la session distante. Vous devez sélectionner les nouveaux identifiants à utiliser. Pour en savoir plus sur les options de remplacement des identifiants, veuillez suivre ce [lien](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/). 
 
 {% snippet icon.badgeInfo %}
 ***Substituer la passerelle*** est visible que pour les sessions RDP. 

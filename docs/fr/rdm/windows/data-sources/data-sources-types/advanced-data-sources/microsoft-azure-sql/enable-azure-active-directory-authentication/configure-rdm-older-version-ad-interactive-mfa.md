@@ -62,16 +62,16 @@ En ce qui concerne les appareils joints à Azure AD (appareils enregistrés). Az
 {% endsnippet %}
  
 
-3. Dans le champ ***Nom d'utilisateur*** , coller le courriel d' ***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases.  
+3. Dans le champ ***Nom d'utilisateur***, coller le courriel d'***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases.  
 
 {% snippet icon.badgeInfo %} 
-Lors de la première connexion, le nom d'utilisateur doit être l'administrateur Active Directory tel que défini dans la [Configuration de l'administrateur Active Directory](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/) . Une fois que vous avez ajouté un autre utilisateur AD dans {{ fr.RDM }}, ils pourront se connecter. 
+Lors de la première connexion, le nom d'utilisateur doit être l'administrateur Active Directory tel que défini dans la [Configuration de l'administrateur Active Directory](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/). Une fois que vous avez ajouté un autre utilisateur AD dans {{ fr.RDM }}, ils pourront se connecter. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
 ![!!RdmWin4032.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4032.png) 
 
-Si vous obtenez ce message d'erreur: Unable to connect to the database! Login failed for user '<token-identified principal>' c'est parce que vous n'utilisez pas le courriel d' ***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases. 
+Si vous obtenez ce message d'erreur: Unable to connect to the database! Login failed for user '<token-identified principal>' c'est parce que vous n'utilisez pas le courriel d'***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases. 
 {% endsnippet %}
  
 
@@ -80,7 +80,7 @@ Si vous obtenez ce message d'erreur: Unable to connect to the database! Login fa
 {% snippet icon.badgeCaution %} 
 Lorsque vous recevez cette erreur: ***AADSTS70001 - Application with Identifier was not found in the directory…***  
 
-Vérifier que votre ***ID d'application*** dans {{ fr.RDM }} est identique à l'***App Registration's Application (client) ID*** (étape 11 de [Créer une inscription d'application Azure Active Directory](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/) ) 
+Vérifier que votre ***ID d'application*** dans {{ fr.RDM }} est identique à l'***App Registration's Application (client) ID*** (étape 11 de [Créer une inscription d'application Azure Active Directory](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/)) 
 {% endsnippet %}
  
 ![Inscription d'application](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip5010.png) 

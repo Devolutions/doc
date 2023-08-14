@@ -10,21 +10,21 @@ If your {{ en.HUBB }} is configured with SSO Authentication Azure AD Office 365 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-We strongly recommend that you invite at least one other administrator. Learn how in [this topic](/hub/web-interface/hub-overview/administration/management/users/administrator-invite/) . 
+We strongly recommend that you invite at least one other administrator. Learn how in [this topic](/hub/web-interface/hub-overview/administration/management/users/administrator-invite/). 
 {% endsnippet %}
  
 ### Invite users 
-1. Go to ***Administration – Users*** . 
-1. Click ***Add Users*** .  
+1. Go to ***Administration – Users***. 
+1. Click ***Add Users***.  
 ![!!Hub4181.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4181.png) 
 1. Type the user's email address. 
 {% snippet icon.badgeInfo %} 
-It is possible to paste a list of email addresses of ***Users*** that will be part of the same [User Groups](/hub/web-interface/hub-overview/administration/management/user-groups/) . Each email address is required to be separated by a semicolon (;) or a comma (,). 
+It is possible to paste a list of email addresses of ***Users*** that will be part of the same [User Groups](/hub/web-interface/hub-overview/administration/management/user-groups/). Each email address is required to be separated by a semicolon (;) or a comma (,). 
 {% endsnippet %}
  
 4. Press ***Enter***. 
 {% snippet icon.badgeInfo %} 
-This step will validate if the user has a {{ en.DA }} .  
+This step will validate if the user has a {{ en.DA }}.  
 
 * If yes, it will link the account to {{ en.HUBB }} and the user will receive an invitation email. 
 * If not, it will automatically create a {{ en.DA }} with a ***Temporary Password***, which you can choose how to handle. You can manage how ***Temporary Passwords*** are handled in ***Administration – System Settings – General***. 

@@ -10,19 +10,19 @@ Quelques étapes sont nécessaires afin d’envoyer correctement les noms d’ut
 
 ### Se connecter automatiquement à un site Web 
 
-1. Saisir les identifiants dans l'onglet ***Général*** de l'entrée ***Site Web*** .  
+1. Saisir les identifiants dans l'onglet ***Général*** de l'entrée ***Site Web***.  
 ![!!KB2045.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2045.png)  
 
 {% snippet icon.badgeInfo %} 
-L'extension {{ fr.DWL }} est activée par défaut. Il est possible de la désactiver à partir du même onglet en sélectionnant ***Désactivée*** dans le menu déroulant ***{{ fr.DWL }}*** . 
+L'extension {{ fr.DWL }} est activée par défaut. Il est possible de la désactiver à partir du même onglet en sélectionnant ***Désactivée*** dans le menu déroulant ***{{ fr.DWL }}***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
 Le [***Type de correspondance***](/fr/kb/devolutions-web-login/how-to-articles/how-to-use-urls-comparing-types/) sert à déterminer si {{ fr.DWL }} doit considérer l'entrée valide pour la saisie automatique. 
 {% endsnippet %}
  
-2. Sélectionner ***Formulaire*** dans le menu déroulant ***Authentification*** de l'onglet ***Connexion*** . 
-1. Vérifier que les options ***Remplissage automatique des identifiants*** et ***Soumission automatique*** sont activées dans l'onglet ***Connexion – Paramètres*** .  
+2. Sélectionner ***Formulaire*** dans le menu déroulant ***Authentification*** de l'onglet ***Connexion***. 
+1. Vérifier que les options ***Remplissage automatique des identifiants*** et ***Soumission automatique*** sont activées dans l'onglet ***Connexion – Paramètres***.  
 ![!!KB2046.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2046.png) 
 <table>
 	<tr>
@@ -83,7 +83,7 @@ Définir un délai entre l’ouverture de la page Web et la tentative de remplis
 	</tr>
 </table>
 
-4. Dans l'onglet ***Connexion – ID du contrôle HTML*** , cliquer sur le bouton ***Découvrir*** pour définir les champs appropriés.  
+4. Dans l'onglet ***Connexion – ID du contrôle HTML***, cliquer sur le bouton ***Découvrir*** pour définir les champs appropriés.  
 
 ![!!KB2047.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2047.png)  
 
@@ -97,11 +97,11 @@ Cette deuxième méthode consiste à identifier manuellement les ID correspondan
 
 Pour cet exemple, Google Chrome sera utilisé pour inspecter les champs de connexion.  
 
-Vous devrez faire un clic droit dans les champs de nom d’utilisateur et de mot de passe du site Web et cliquer sur ***Inspecter*** .  
+Vous devrez faire un clic droit dans les champs de nom d’utilisateur et de mot de passe du site Web et cliquer sur ***Inspecter***.  
 
 ![!!KB2048.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2048.png)  
 
-Vous verrez les ID correspondants à utiliser dans l'onglet ***ID du contrôle HTML*** de la session ***Site Web*** dans {{ fr.RDM }} .  
+Vous verrez les ID correspondants à utiliser dans l'onglet ***ID du contrôle HTML*** de la session ***Site Web*** dans {{ fr.RDM }}.  
 
 Vous trouverez ci-dessous un exemple d’inspection pour le champ Username . Vous pouvez y voir que l'ID du nom d'utilisateur est « username ».  
 

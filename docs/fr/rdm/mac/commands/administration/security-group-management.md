@@ -1,7 +1,7 @@
 ---
 title: Groupes de sécurité (Ancien)
 ---
-La gestion des ***Groupes de sécurité (Ancien)*** est disponible dans le menu ***Administration - Groupes de sécurité (Ancien)*** .  
+La gestion des ***Groupes de sécurité (Ancien)*** est disponible dans le menu ***Administration - Groupes de sécurité (Ancien)***.  
 
 Les groupes de sécurité sont utilisés pour protéger les sessions contre un sous-ensemble d'utilisateurs du système. Attribuez des sessions aux groupes de sécurité, puis contrôlez qui a accès et quel contrôle ils ont sur chaque groupe de sécurité.  
 
@@ -11,7 +11,7 @@ Chaque entrée du <i><b>{{ fr.NPANE }}</b></i> peut être assignée à un seul g
 ![Administration - Groupes de sécurité (Ancien)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4124.png) 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité nécessite une [Source de données avancées](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité nécessite une [Source de données avancées](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
@@ -22,7 +22,7 @@ Cette fonctionnalité nécessite une [Source de données avancées](/rdm/mac/dat
 
 ### Créer un groupe de sécurité 
 
-Les groupes de sécurité sont créés à partir du menu ***Administration - Groupe de sécurité*** .  
+Les groupes de sécurité sont créés à partir du menu ***Administration - Groupe de sécurité***.  
 
 Les groupes de sécurité de {{ fr.RDM }} sont des conteneurs pour les sessions, pas pour les utilisateurs. Les dossiers sont étroitement liés aux groupes de sécurité, il y a donc un chevauchement d'utilisation. Les points clés sont:  
 

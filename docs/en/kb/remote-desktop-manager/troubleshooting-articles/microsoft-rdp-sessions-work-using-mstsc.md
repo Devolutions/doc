@@ -18,7 +18,7 @@ When you use the External display mode, {{ en.RDM }} will create a temporary RDP
 1. Set the display mode to ***External***.
 1. Launch the session.
 
-The file will be deleted when you close {{ en.RDM }} , you need to copy it before then.  
+The file will be deleted when you close {{ en.RDM }}, you need to copy it before then.  
 
 4. Open %TMP%\RDM, copy your file in another folder.
 1. Open the file in your editor of choice and compare it to a file created using mstsc.exe

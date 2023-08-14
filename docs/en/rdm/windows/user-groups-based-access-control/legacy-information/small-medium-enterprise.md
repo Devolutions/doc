@@ -26,14 +26,14 @@ The administrator:
 * When creating the user, select the ***Administrator*** in the dropdown menu to give it access to everything.  
 ![Administrator Permission](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11238.png) 
 
-The ServiceDesk : 
+The ServiceDesk: 
 
 * ***Add*** 
 * ***Edit*** 
 * ***Deny add entry in root folder***  
 ![ServiceDesk Rights](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11239.png) 
 
-The HelpDesk :  
+The HelpDesk:  
 
 * ***Add*** 
 * ***Deny add entry in root folder***  
@@ -65,48 +65,48 @@ We will begin with the root level groups/folders: Downhill Pro, Telemark and Win
 For Downhill Pro, we will grant permissions to the ServiceDesk and the HelpDesk.  
 ![Downhill Pro - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11110.png) 
 
-* ***View*** : HelpDesk, ServiceDesk 
-* ***Add*** : ServiceDesk 
-* ***Edit*** : ServiceDesk 
-* ***Delete*** : Since no user have the delete right we can leave this permission to ***Default*** .  
+* ***View***: HelpDesk, ServiceDesk 
+* ***Add***: ServiceDesk 
+* ***Edit***: ServiceDesk 
+* ***Delete***: Since no user have the delete right we can leave this permission to ***Default***.  
 
 We already have a good example of the flexibility of {{ en.RDM }} ’s Security. A ServiceDesk user can view and open all the entries in the Downhill Pro folder, even the credential entry, but it will never be able to see any password.  
 
 Next for the Telemark folder, we will grant permissions to the ServiceDesk, the HelpDesk and the MontrealConsultant. This is where things get complex. If we want the MontrealConsultant to be able to view only the Montreal folder which is a child item of Telemark, we must grant to the consultant the permission to view the entire Telemark content. Then we will grant permissions on child items only to the user group that should have access to these items. This last step will deny the view permission for the consultant on the child items.  
 ![Telemark - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11111.png) 
 
-* ***View*** : HelpDesk, MontrealConsultant, ServiceDesk 
-* ***Add*** : ServiceDesk 
-* ***Edit*** : ServiceDesk 
-* ***Delete*** : Default 
+* ***View***: HelpDesk, MontrealConsultant, ServiceDesk 
+* ***Add***: ServiceDesk 
+* ***Edit***: ServiceDesk 
+* ***Delete***: Default 
 
 Since we want the users to be able to use the credential entries, we will grant the ServiceDesk and the HelpDesk the permission to View the Credentials folder. This way they will be able to use the entries without being able to view the passwords.  
 
 The ***Add*** and ***Edit*** permissions can be left to ***Default*** since the ServiceDesk is the only user group that has been granted these permissions in the parent folder.  
 ![Telemark / Credentials - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11112.png) 
 
-* ***View*** : HelpDesk, ServiceDesk 
-* ***Add*** : Default 
-* ***Edit*** : Default 
-* ***Delete*** : Default 
+* ***View***: HelpDesk, ServiceDesk 
+* ***Add***: Default 
+* ***Edit***: Default 
+* ***Delete***: Default 
 
-We want the ServiceDesk to be able to use the Domain Admin credential entry as well but not the HelpDesk. For this we must grant the ***View*** permission to the ServiceDesk only and change the ***Add*** and ***Edit*** permission to ***Never*** . The ServiceDesk will still be able to edit the credential entry but will never see the password. If you prefer you can set the ***Edit*** permission to an Administrator user or user group to deny it to the ServiceDesk.  
+We want the ServiceDesk to be able to use the Domain Admin credential entry as well but not the HelpDesk. For this we must grant the ***View*** permission to the ServiceDesk only and change the ***Add*** and ***Edit*** permission to ***Never***. The ServiceDesk will still be able to edit the credential entry but will never see the password. If you prefer you can set the ***Edit*** permission to an Administrator user or user group to deny it to the ServiceDesk.  
 ![Telemark / Credentials / Admin - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11113.png) 
 
-* ***View*** : ServiceDesk 
-* ***Add*** : Default (ServiceDesk) 
-* ***Edit*** : Default or Administrator user/user group 
-* ***Delete*** : Default 
+* ***View***: ServiceDesk 
+* ***Add***: Default (ServiceDesk) 
+* ***Edit***: Default or Administrator user/user group 
+* ***Delete***: Default 
 
-The last step for the Telemark child items would be to set the ***View*** permission to the ServiceDesk and the HelpDesk on the Boston folder and leave every other permission to ***Default*** .  
+The last step for the Telemark child items would be to set the ***View*** permission to the ServiceDesk and the HelpDesk on the Boston folder and leave every other permission to ***Default***.  
 
 Now the MontrealConsultant will be able to view and open entries only in the Montreal folder. Every time a new folder is added the ***View*** permission must be set for ServiceDesk and HelpDesk to hide the new folder and its content from the consultant.  
 ![Telemark / Boston - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11114.png) 
 
-* ***View*** : HelpDesk, ServiceDesk 
-* ***Add*** : Default (ServiceDesk) 
-* ***Edit*** : Default (ServiceDesk) 
-* ***Delete*** : Default 
+* ***View***: HelpDesk, ServiceDesk 
+* ***Add***: Default (ServiceDesk) 
+* ***Edit***: Default (ServiceDesk) 
+* ***Delete***: Default 
 
 No need to set any permissions on the Montreal folder, since they are inherited from the parent folders.  
 ![Telemark / Montreal - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3372.png) 

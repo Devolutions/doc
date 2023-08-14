@@ -3,10 +3,10 @@ title: Fournisseur de sécurité
 ---
 {% youtube 'uaM3UoyghFc' %}  
 
-Le ***Fournisseur de sécurité*** est disponible dans ***Administration - Fournisseur de sécurité*** . Il est responsable du cryptage des données dans la base de données. 
+Le ***Fournisseur de sécurité*** est disponible dans ***Administration - Fournisseur de sécurité***. Il est responsable du cryptage des données dans la base de données. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -138,7 +138,7 @@ Sélectionner un certificat RSA qui existe déjà pour l'utiliser dans le chiffr
 
 ### Créer un certificat 
 
-Il est possible de créer un certificat auto-signé en cliquant sur ***Créer le certificat*** .  
+Il est possible de créer un certificat auto-signé en cliquant sur ***Créer le certificat***.  
 ![Certificat d'auto-signature](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10288.png) 
 
 <table>

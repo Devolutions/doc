@@ -38,6 +38,6 @@ Système d'exploitation: 64 bits
 
 ## Déploiement manuel/portable 
 
-Le déploiement manuel, à partir d'un fichier zip, est documenté dans la section [Portable (USB)](/fr/rdm/windows/installation/client/portable-usb/) . Les prérequis devront être installés manuellement. Veuillez consulter la section [Logiciel prérequis](/fr/rdm/windows/overview/system-requirements/prerequisite-software/) pour plus d'information. 
+Le déploiement manuel, à partir d'un fichier zip, est documenté dans la section [Portable (USB)](/fr/rdm/windows/installation/client/portable-usb/). Les prérequis devront être installés manuellement. Veuillez consulter la section [Logiciel prérequis](/fr/rdm/windows/overview/system-requirements/prerequisite-software/) pour plus d'information. 
 
 

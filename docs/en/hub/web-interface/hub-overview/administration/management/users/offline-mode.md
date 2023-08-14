@@ -3,9 +3,9 @@ title: Offline Mode
 ---
 In the ***Users*** section, you can enable the offline mode for specific users. This will allow a read-only cache of the entries of the {{ en.HUBB }}.  
 
-1. Go to ***Administration – Users*** . 
+1. Go to ***Administration – Users***. 
 1. Click on the ***Edit*** pencil icon next to the user. 
-1. In the ***User*** section, check ***Allow offline in {{ en.RDM }}*** . 
+1. In the ***User*** section, check ***Allow offline in {{ en.RDM }}***. 
 1. Click ***Update*** to save. 
 
 {% snippet icon.badgeCaution %} 

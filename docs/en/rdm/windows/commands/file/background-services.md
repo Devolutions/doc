@@ -3,7 +3,7 @@ title: Background Services
 ---
 The Synchronizers feature centralizes all your synchronizers entry in one place.  
 
-When experiencing a performance degradation with {{ en.RDM }} , you will be able to verify if a synchronizer is running in the background causing the system to slow down.  
+When experiencing a performance degradation with {{ en.RDM }}, you will be able to verify if a synchronizer is running in the background causing the system to slow down.  
 ![Synchronizers](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11280.png) 
 
 ## Is Online 

@@ -36,7 +36,7 @@ The {{ en.UVLT }} Play List is saved inside your {{ en.UVLT }} which is a user c
 ![{{ en.NPANE }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10111.png) 
 1. Right click in your ***{{ en.NPANE }}*** and select Play List - Create Play List .  
 ![Create Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10363.png) 
-1. Choose if you wish to save your Play List Locally, Shared or in your {{ en.UVLT }} .  
+1. Choose if you wish to save your Play List Locally, Shared or in your {{ en.UVLT }}.  
 ![Save Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10364.png) 
 1. Then click on Selected Entries in ***{{ en.NPANE }}***.  
 ![Selected Entries in ***{{ en.NPANE }}***](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10108.png) 
@@ -64,7 +64,7 @@ You could also create a new Play List by using the View - Play List and then cli
 
 1. Right click in your ***{{ en.NPANE }}*** and select Play List - Create Play List .  
 ![Create Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10363.png) 
-1. Choose if you wish to save your Play List Locally, Shared or in your {{ en.UVLT }} .  
+1. Choose if you wish to save your Play List Locally, Shared or in your {{ en.UVLT }}.  
 ![Save Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10364.png) 
 1. In Entry - Play List - Create Play List select the option No Selection.  
 ![No Selection](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10024.png) 

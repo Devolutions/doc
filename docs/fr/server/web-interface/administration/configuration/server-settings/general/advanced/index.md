@@ -30,7 +30,7 @@ C'est la durée du jeton. À l'expiration du jeton, l'utilisateur doit à nouvea
 Déconnecter automatiquement les utilisateurs inactifs après (minutes) 
 		</td>
 		<td>
-Saisir le délai de déconnexion de l'utilisateur du serveur s'il est inactif. Ce paramètre s'applique qu'aux sessions web ou sessions depuis [{{ fr.DWL }}](/fr/server/dwl/overview/) . Sur modification de ce paramètre, l'instance {{ fr.DVLS }} doit être redémarrée avec le bouton ***Arrêter le serveur/Démarrer le serveur*** depuis la {{ fr.DVLSCONSOLE }}. 
+Saisir le délai de déconnexion de l'utilisateur du serveur s'il est inactif. Ce paramètre s'applique qu'aux sessions web ou sessions depuis [{{ fr.DWL }}](/fr/server/dwl/overview/). Sur modification de ce paramètre, l'instance {{ fr.DVLS }} doit être redémarrée avec le bouton ***Arrêter le serveur/Démarrer le serveur*** depuis la {{ fr.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>
@@ -54,7 +54,7 @@ Définit l'application qui ouvre les connexions à distance: {{ fr.RDM }} ou {{ 
 Logo du serveur (Grand)/Logo du serveur (Petit) 
 		</td>
 		<td>
-Pour plus d'information voir [Personnalisations des Logos](/fr/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/) . 
+Pour plus d'information voir [Personnalisations des Logos](/fr/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/). 
 		</td>
 	</tr>
 </table>

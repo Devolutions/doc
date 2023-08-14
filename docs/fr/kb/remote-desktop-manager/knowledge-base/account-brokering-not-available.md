@@ -1,6 +1,6 @@
 ---
 title: Injection des identifiants indisponible pour certains outils
-description: Il est souvent déconseillé d’autoriser l’affichage des mots de passe avec les solutions de gestion d’accès privilégiés ( Privileged Access Management ou PAM).
+description: Il est souvent déconseillé d’autoriser l’affichage des mots de passe avec les solutions de gestion d’accès privilégiés (Privileged Access Management ou PAM).
 keywords:
 - Privileged Access Management
 - PAM

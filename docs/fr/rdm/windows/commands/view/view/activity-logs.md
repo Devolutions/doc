@@ -1,16 +1,16 @@
 ---
 title: Journaux d'activité
 ---
-Les ***Journaux d'activité*** offrent une solution robuste de journalisation. Grâce à cette fonctionnalité, il est possible de surveiller une session ouverte pour tous les utilisateurs qui utilisent des [Sources de données avancées](DataSources_Advanced) . Le journal est disponible pour des sessions spécifiques dans le menu contextuel ***Affichage – Journaux d'activité*** , dans les propriétés de la session (volet ***Journaux d'activité*** ) et dans le ***Tableau de bord*** .  
+Les ***Journaux d'activité*** offrent une solution robuste de journalisation. Grâce à cette fonctionnalité, il est possible de surveiller une session ouverte pour tous les utilisateurs qui utilisent des [Sources de données avancées](DataSources_Advanced). Le journal est disponible pour des sessions spécifiques dans le menu contextuel ***Affichage – Journaux d'activité***, dans les propriétés de la session (volet ***Journaux d'activité***) et dans le ***Tableau de bord***.  
 ![Bouton Journaux d'activité](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2021.png) 
 
 {% snippet icon.badgeInfo %} 
-En fonction des permissions dont dispose chaque utilisateur, il se peut qu'il ne puisse accéder qu'aux [***Journaux des connexions locales***](/fr/rdm/windows/commands/view/logs/) . 
+En fonction des permissions dont dispose chaque utilisateur, il se peut qu'il ne puisse accéder qu'aux [***Journaux des connexions locales***](/fr/rdm/windows/commands/view/logs/). 
 {% endsnippet %}
  
 ### Recherche 
 
-Toutes les activités dans la source de données s'affichent automatiquement lors de l'ouverture des ***Journaux d'activité*** , sans avoir à appliquer de paramètres. Toutefois, des champs de recherche sont disponibles et peuvent s'avérer utiles lorsqu'il y a beaucoup d'entrées d'activités. Ainsi, les résultats peuvent être affinés en spécifiant la ***Date*** ou une période personnalisée, le ***Nom d'utilisateur*** , le ***Message*** , le ***Nom de l'ordinateur*** , le ***Dossier*** , le ***Commentaire d'ouverture*** , le ***Commentaire de fermeture*** et le ***Billet #*** . Sélectionnez ***Tous les coffres*** pour voir les entrées de tous les autres coffres auxquels vous avez accès. Il est également possible de choisir entre l' ***Heure locale*** et l' ***Heure UTC*** et de rechercher dans tous les coffres ou seulement dans le coffre actuel. Lorsque tous les critères ont été choisis, le bouton ***Recherche*** les appliquera aux résultats.  
+Toutes les activités dans la source de données s'affichent automatiquement lors de l'ouverture des ***Journaux d'activité***, sans avoir à appliquer de paramètres. Toutefois, des champs de recherche sont disponibles et peuvent s'avérer utiles lorsqu'il y a beaucoup d'entrées d'activités. Ainsi, les résultats peuvent être affinés en spécifiant la ***Date*** ou une période personnalisée, le ***Nom d'utilisateur***, le ***Message***, le ***Nom de l'ordinateur***, le ***Dossier***, le ***Commentaire d'ouverture***, le ***Commentaire de fermeture*** et le ***Billet #***. Sélectionnez ***Tous les coffres*** pour voir les entrées de tous les autres coffres auxquels vous avez accès. Il est également possible de choisir entre l'***Heure locale*** et l'***Heure UTC*** et de rechercher dans tous les coffres ou seulement dans le coffre actuel. Lorsque tous les critères ont été choisis, le bouton ***Recherche*** les appliquera aux résultats.  
 ![Champs de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10252.png) 
 
 ### Journaux 
@@ -99,7 +99,7 @@ Indique la date et l'heure de fermeture de votre session ou de l'entrée.
 Temps actif 
 		</td>
 		<td>
-Cette information est disponible uniquement pour les sessions en mode intégré. Le temps actif de votre session, c'est-à-dire l'heure à laquelle votre session a été ouverte en mode intégré et la période durant laquelle vous avez été actif dans votre session, sera enregistré. Si votre session est ouverte, mais que vous vous trouvez sur l'onglet ***Tableau de bord*** , par exemple, et non sur votre onglet de session, aucune heure active ne sera enregistrée. 
+Cette information est disponible uniquement pour les sessions en mode intégré. Le temps actif de votre session, c'est-à-dire l'heure à laquelle votre session a été ouverte en mode intégré et la période durant laquelle vous avez été actif dans votre session, sera enregistré. Si votre session est ouverte, mais que vous vous trouvez sur l'onglet ***Tableau de bord***, par exemple, et non sur votre onglet de session, aucune heure active ne sera enregistrée. 
 		</td>
 	</tr>
 	<tr>
@@ -107,7 +107,7 @@ Cette information est disponible uniquement pour les sessions en mode intégré.
 Durée 
 		</td>
 		<td>
-Cette information est disponible uniquement pour les sessions en mode intégré. Lorsque les sessions sont ouvertes en mode intégré, la durée de la session sera enregistrée. Cela signifie que même si vous vous trouvez sur l'onglet ***Tableau de bord*** , par exemple, et que vous ne travaillez pas activement dans votre session, mais que votre onglet de session est ouvert, la durée d'ouverture sera enregistrée. 
+Cette information est disponible uniquement pour les sessions en mode intégré. Lorsque les sessions sont ouvertes en mode intégré, la durée de la session sera enregistrée. Cela signifie que même si vous vous trouvez sur l'onglet ***Tableau de bord***, par exemple, et que vous ne travaillez pas activement dans votre session, mais que votre onglet de session est ouvert, la durée d'ouverture sera enregistrée. 
 		</td>
 	</tr>
 	<tr>

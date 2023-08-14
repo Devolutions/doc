@@ -10,7 +10,7 @@ Dans la section ***Général***, vous pouvez personnaliser la couleur du ***Thè
 Connecter à une source de données. 
 
 ### Mes identifiants personnels 
-Ajouter un identifiant personnel à votre {{ fr.DLAUNCHER }} à partir de la liste d' ***Entrée d'identifiants***. 
+Ajouter un identifiant personnel à votre {{ fr.DLAUNCHER }} à partir de la liste d'***Entrée d'identifiants***. 
 
 ### Journaux 
 L'information de la section ***Journaux*** est principalement destinée aux administrateurs et aux développeurs d'applications. Vous pouvez localiser le fichier journal en cliquant sur le bouton ***Ouvrir*** ou en suivant le lien fourni au bas de la fenêtre ***Journaux des connexions locales***. 

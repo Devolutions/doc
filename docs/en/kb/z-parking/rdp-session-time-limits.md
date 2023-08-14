@@ -17,7 +17,7 @@ What follows is the procedure to perform on a single host computer.
    | Set time limit for active but idle Remote Desktop Services sessions | This policy setting allows you to specify the maximum amount of time that an active Remote Desktop Services session can be idle (without user input) before it is automatically disconnected. |
    | Set time limit for active Remote Desktop Services sessions | This policy setting allows you to specify the maximum amount of time that a Remote Desktop Services session can be active before it is automatically disconnected. |
    | End session when time limits are reached | This policy setting specifies whether to end a Remote Desktop Services session that has timed out instead of disconnecting it. |
-1. Double click on the setting (or right-click, ***Edit*** ), an edition form will appear.  
+1. Double click on the setting (or right-click, ***Edit***), an edition form will appear.  
 ![!!KB4562.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4562.png)
 1. Select ***Enabled***, this will enable the control in the lower section.  
 ![!!KB4563.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4563.png)  

@@ -1,7 +1,7 @@
 ---
 title: Lecture (Ansi)
 ---
-La ***Lecture (Ansi)*** est disponible dans ***Outils - Plus d' outils - Lecture (Ansi)*** .  
+La ***Lecture (Ansi)*** est disponible dans ***Outils - Plus d'outils - Lecture (Ansi)***.  
 
 ## Paramètres 
 
@@ -35,7 +35,7 @@ Sélectionner la police pour la lecture du terminal.
 Options 
 		</td>
 		<td>
-Voir la section ***Options*** . 
+Voir la section ***Options***. 
 		</td>
 	</tr>
 		<td>

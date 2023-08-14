@@ -35,7 +35,7 @@ In our example the ***Redirect URI*** is set to https<area>://mycompany.com, but
 ![user_impersonation](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5018.png) 
 1. The ***API permissions*** should look like this. You will see the new permission we just added and the preexisting Microsoft Graph.  
 ![API / Permissions Name](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5019.png) 
-1. Optional step : Click on the ***Authentication*** section and switch to ***Yes***, if you desire the ***Integrated Windows Authentification (IWA)*** option.  
+1. Optional step: Click on the ***Authentication*** section and switch to ***Yes***, if you desire the ***Integrated Windows Authentification (IWA)*** option.  
 ![Authentication](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5013.png) 
 1. Your Azure Active Directory App Registration is now completed. 
 1. Copy the ***App Registration's Application (client) ID*** needed in {{ en.RDM }} in the next step.  

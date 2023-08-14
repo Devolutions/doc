@@ -19,7 +19,7 @@ Menu de la barre latérale
 		</td>
 		<td>
 
-Cliquer sur l'icône de menu pour naviguer dans les sections ***Recherche*** , ***Coffre*** , ***Coffre d'utilisateur*** , ***Rapports*** , ***Administration*** et ***Outils*** . 
+Cliquer sur l'icône de menu pour naviguer dans les sections ***Recherche***, ***Coffre***, ***Coffre d'utilisateur***, ***Rapports***, ***Administration*** et ***Outils***. 
 		</td>
 	</tr>
 	<tr>
@@ -27,7 +27,7 @@ Cliquer sur l'icône de menu pour naviguer dans les sections ***Recherche*** , *
 Sélecteur de coffre 
 		</td>
 		<td>
-Cliquer sur le sélecteur de coffre, dans la partie centrale supérieure de votre navigateur, pour basculer entre tous vos coffres et accéder à votre ***Coffre d'utilisateur*** . 
+Cliquer sur le sélecteur de coffre, dans la partie centrale supérieure de votre navigateur, pour basculer entre tous vos coffres et accéder à votre ***Coffre d'utilisateur***. 
 		</td>
 	</tr>
 	<tr>
@@ -35,7 +35,7 @@ Cliquer sur le sélecteur de coffre, dans la partie centrale supérieure de votr
 Messages 
 		</td>
 		<td>
-Envoyer et réceptionner des messages sécurisés avec des utilisateurs depuis votre {{ fr.HUB }} . 
+Envoyer et réceptionner des messages sécurisés avec des utilisateurs depuis votre {{ fr.HUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ Envoyer et réceptionner des messages sécurisés avec des utilisateurs depuis v
 {{ fr.DA }} 
 		</td>
 		<td>
-Cliquer sur votre avatar pour modifier les paramètres de votre {{ fr.DA }} , le verrouiller ou se déconnecter de votre {{ fr.HUB }} . 
+Cliquer sur votre avatar pour modifier les paramètres de votre {{ fr.DA }}, le verrouiller ou se déconnecter de votre {{ fr.HUB }}. 
 		</td>
 	</tr>
 	<tr>

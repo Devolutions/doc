@@ -29,7 +29,7 @@ Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le coffre actuel.
 [Mon {{ fr.UVLT }}](/fr/rdm/mac/commands/view/vaults/) 
 		</td>
 		<td>
-Afficher votre ***{{ fr.UVLT }}*** dans le ***{{ fr.NPANE }}*** . 
+Afficher votre ***{{ fr.UVLT }}*** dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -37,7 +37,7 @@ Afficher votre ***{{ fr.UVLT }}*** dans le ***{{ fr.NPANE }}*** .
 [Sessions Ouvertes](/fr/rdm/mac/commands/view/opened-sessions/) 
 		</td>
 		<td>
-Afficher les sessions actuellement ouvertes dans le ***{{ fr.NPANE }}*** . 
+Afficher les sessions actuellement ouvertes dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Afficher les sessions actuellement ouvertes dans le ***{{ fr.NPANE }}*** .
 [Favoris](/fr/rdm/mac/user-interface/navigation-pane/favorite-entries/) 
 		</td>
 		<td>
-Afficher vos entrées favorites dans le ***{{ fr.NPANE }}*** . 
+Afficher vos entrées favorites dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +53,7 @@ Afficher vos entrées favorites dans le ***{{ fr.NPANE }}*** .
 [Récent](/fr/rdm/mac/user-interface/navigation-pane/most-recently-used-entries/) 
 		</td>
 		<td>
-Afficher vos entrées les plus récemment utilisées dans le ***{{ fr.NPANE }}*** . 
+Afficher vos entrées les plus récemment utilisées dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -93,7 +93,7 @@ Recherchez des articles dans plusieurs coffres-forts de votre base de données e
 [Connexions rapide](/fr/rdm/mac/commands/view/quick-connect/) 
 		</td>
 		<td>
-Lancer une session de ***Connexion rapide*** . 
+Lancer une session de ***Connexion rapide***. 
 		</td>
 	</tr>
 	<tr>
@@ -101,7 +101,7 @@ Lancer une session de ***Connexion rapide*** .
 [Journaux d'activité](/fr/rdm/mac/commands/view/activity-logs/) 
 		</td>
 		<td>
-Ouvrir les ***Journaux d'activité*** . 
+Ouvrir les ***Journaux d'activité***. 
 		</td>
 	</tr>
 	<tr>
@@ -133,7 +133,7 @@ Ouvrir une fenêtre pour accéder à vos messages.
 [Navigation](/fr/rdm/mac/user-interface/navigation-pane/) 
 		</td>
 		<td>
-Basculer le ***{{ fr.NPANE }}*** . 
+Basculer le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -141,7 +141,7 @@ Basculer le ***{{ fr.NPANE }}*** .
 [Tableau de bord](/fr/rdm/mac/user-interface/content-area/dashboard/) 
 		</td>
 		<td>
-Basculer le ***Tableau de bord*** . 
+Basculer le ***Tableau de bord***. 
 		</td>
 	</tr>
 </table>

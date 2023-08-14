@@ -145,7 +145,7 @@ Description
 Autoriser un {{ fr.UVLT }} 
 		</td>
 		<td>
-Autoriser les usagers à utiliser [Mon {{ fr.UVLT }}](/fr/server/web-interface/user-vault/) . 
+Autoriser les usagers à utiliser [Mon {{ fr.UVLT }}](/fr/server/web-interface/user-vault/). 
 		</td>
 	</tr>
 	<tr>
@@ -161,7 +161,7 @@ Inclure les journaux du {{ fr.UVLT }} pour tous les usagers de la source de donn
 Permettre les identifiants "Liés (coffre)" dans le {{ fr.UVLT }} 
 		</td>
 		<td>
-Autoriser le référentiel d'identifiants pour les sessions dans le {{ fr.UVLT }} . 
+Autoriser le référentiel d'identifiants pour les sessions dans le {{ fr.UVLT }}. 
 		</td>
 	</tr>
 </table>
@@ -191,7 +191,7 @@ Créer un coffre avec un accès restreint par défaut.
 Sécurité de la source de données 
 		</td>
 		<td>
-Utiliser l'ancienne sécurité. Cette option existe à des fins de rétro-compatibilité et nous suggérons de ne pas activer cette option. Nous recommendons fortement d'utiliser le [système de sécurité basé sur les groupes d'utilisateurs](/fr/server/web-interface/administration/configuration/system-permissions/) . 
+Utiliser l'ancienne sécurité. Cette option existe à des fins de rétro-compatibilité et nous suggérons de ne pas activer cette option. Nous recommendons fortement d'utiliser le [système de sécurité basé sur les groupes d'utilisateurs](/fr/server/web-interface/administration/configuration/system-permissions/). 
 		</td>
 	</tr>
 	<tr>

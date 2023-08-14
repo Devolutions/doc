@@ -190,7 +190,7 @@ Allow offline mode
 		</td>
 		<td>
 
-Allow the data source to be used in [Offline mode](/rdm/windows/data-sources/offline-mode/) . 
+Allow the data source to be used in [Offline mode](/rdm/windows/data-sources/offline-mode/). 
 		</td>
 	</tr>
 </table>

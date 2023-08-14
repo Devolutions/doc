@@ -5,4 +5,4 @@ When trying to use the ***Start Agent*** button in the ***Key Agent Manager*** w
 
 ### Solution
 
-The ***Key Agent*** cannot start if another process, such as ***Pageant*** , is already using the socket.
+The ***Key Agent*** cannot start if another process, such as ***Pageant***, is already using the socket.

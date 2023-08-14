@@ -4,11 +4,11 @@ title: Portable (USB)
 {{ fr.RDM }} peut être utilisé comme une application portable. Voici les étapes nécessaires pour garantir son bon fonctionnement: 
 
 {% snippet icon.badgeInfo %} 
-Le mode d'installation portable vous permet d'exécuter plusieurs versions de {{ fr.RDM }} , en utilisant diverses clés de licence et configurations. 
+Le mode d'installation portable vous permet d'exécuter plusieurs versions de {{ fr.RDM }}, en utilisant diverses clés de licence et configurations. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Pour installer une seule application portable de {{ fr.RDM }} , suivre cette rubrique: [Installation de {{ fr.RDM }} portable](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/). 
+Pour installer une seule application portable de {{ fr.RDM }}, suivre cette rubrique: [Installation de {{ fr.RDM }} portable](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 

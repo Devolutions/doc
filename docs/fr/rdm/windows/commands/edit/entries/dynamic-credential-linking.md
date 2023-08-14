@@ -39,7 +39,7 @@ Une connexion d'identifiant dynamique peut également être appliquée à un dos
  
 ## Paramètres 
 
-1. Créer une entrée d'identifiant et cocher ***Toujours choisir de la liste*** .  
+1. Créer une entrée d'identifiant et cocher ***Toujours choisir de la liste***.  
 ![!!RdmWin4060.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4060.png) 
 1. Lors de la création d'une entrée, sélectionner Lié (Coffre) dans la liste déroulante d'identifiants, puis sélectionner l'entrée d'identifiants créée à l'étape précédente. Noter qu'une nouvelle action apparaît juste en dessous de la liste déroulante de sélection des identifiants.  
 ![!!RdmWin4061.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4061.png) 

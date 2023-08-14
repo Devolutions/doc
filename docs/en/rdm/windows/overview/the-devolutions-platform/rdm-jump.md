@@ -15,7 +15,7 @@ The Jump is performed through {{ en.RDMA }}. The Agent needs to be CURRENTLY EXE
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-The {{ en.RDMJ }} feature does not allow you to circumvent the need to properly license your remote host to allow more than two RDP connection at a time. There is no other way except for installing remote desktop session host role on the server and purchasing RDS CAL (per user) for the remote connection. For more information please consult this Microsoft link: [Activate the Remote Desktop Services license server](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-activate-license-server) . 
+The {{ en.RDMJ }} feature does not allow you to circumvent the need to properly license your remote host to allow more than two RDP connection at a time. There is no other way except for installing remote desktop session host role on the server and purchasing RDS CAL (per user) for the remote connection. For more information please consult this Microsoft link: [Activate the Remote Desktop Services license server](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-activate-license-server). 
 {% endsnippet %}
  
 {% snippet icon.badgeHelp %} 
@@ -53,30 +53,30 @@ These limitations make it impossible to use multiple VPN clients concurrently on
 
 ### Configure a Jump Host 
 
-1. Create an ***RDP*** entry for the ***Jump Host*** . 
-1. Fill the entry with a ***Name*** , ***Host*** and the ***Credentials*** . 
+1. Create an ***RDP*** entry for the ***Jump Host***. 
+1. Fill the entry with a ***Name***, ***Host*** and the ***Credentials***. 
 {% snippet icon.badgeCaution %} 
 For ***Jumps*** to work, you need to supply the credentials via the ***Jump Host*** session. If the RDP sessions prompt you for the credentials after the start, the ***Jump*** will fail. 
 {% endsnippet %}
  
 ![!!RdmWin4056.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4056.png) 
 
-3. In the ***Jump Host*** section, check ***Is Jump host*** . 
+3. In the ***Jump Host*** section, check ***Is Jump host***. 
 ![!!RdmWin4057.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4057.png) 
-1. Click ***OK*** . 
+1. Click ***OK***. 
 1. Launch the ***Jump Host*** session. 
-1. Install {{ en.RDM }} on the ***Jump Host*** . 
+1. Install {{ en.RDM }} on the ***Jump Host***. 
 {% snippet icon.badgeNotice %} 
-The ***Jump Host*** acts as a relay between the local and the remote systems, allowing to use the {{ en.RDM }} license that has been used on the local workstation to register the application on the ***Jump Host*** .  
+The ***Jump Host*** acts as a relay between the local and the remote systems, allowing to use the {{ en.RDM }} license that has been used on the local workstation to register the application on the ***Jump Host***.  
 
-Install {{ en.RDM }} on the ***Jump Host*** , perform your first jump and {{ en.RDM }} will be unlocked/licensed automatically via the jump communication/handshake. 
+Install {{ en.RDM }} on the ***Jump Host***, perform your first jump and {{ en.RDM }} will be unlocked/licensed automatically via the jump communication/handshake. 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
-There is no need to create a data source on the ***Jump Host*** . {{ en.RDM }} will open for the first time with a default ***SQLite Local Data Source*** . This is sufficient because the application on the ***Jump Host*** only acts as an intermediate between the local and the remote hosts. 
+There is no need to create a data source on the ***Jump Host***. {{ en.RDM }} will open for the first time with a default ***SQLite Local Data Source***. This is sufficient because the application on the ***Jump Host*** only acts as an intermediate between the local and the remote hosts. 
 {% endsnippet %}
  
-7. Confirm {{ en.RDMA }} is started and set to ***Auto Start*** . 
+7. Confirm {{ en.RDMA }} is started and set to ***Auto Start***. 
 
 {% snippet icon.badgeCaution %} 
 ***Auto Start*** must only be activated for the {{ en.RDMA }} or {{ en.RDM }} but not for both. In the case where {{ en.RDM }} is set to ***Auto Start*** please make sure to delete the shortcuts form either/both the following locations:  
@@ -93,14 +93,14 @@ There is no need to create a data source on the ***Jump Host*** . {{ en.RDM }} w
     ![!!RdmWin4058.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4058.png) 
 
 8. Right-click the {{ en.RDMA }} icon in the taskbar. 
-    1. Check ***Auto Start*** . 
+    1. Check ***Auto Start***. 
 1. Adjust the user interface of the ***Jump Host*** to maximize the area to display remote sessions. 
 * Make the application full screen. 
 * Hide the ***{{ en.NPANE }}*** in the ***View*** tab. 
 * Hide the ***Ribbon*** in the ***View*** tab. 
     * To show the ***Ribbon*** again, click the {{ en.RDM }} icon at the top left corner. 
 {% snippet icon.badgeNotice %} 
-To reset the layout, in the ***Window*** tab, click ***Reset Layout*** . 
+To reset the layout, in the ***Window*** tab, click ***Reset Layout***. 
 {% endsnippet %}
  
 The ***Jump Host*** is ready to use. 

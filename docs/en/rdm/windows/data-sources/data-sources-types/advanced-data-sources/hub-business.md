@@ -55,7 +55,7 @@ Copy in the ***Host*** your {{ en.DHUBB }} URL (ex: https<area>://windjammer.dev
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your {{ en.DHUB }} .  
+Open a VPN to access your data prior to connecting to your {{ en.DHUB }}.  
 ![!!RdmWin7068.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin7068.png) 
 
 ### Advanced 

@@ -22,7 +22,7 @@ Here are mainly the approaches and techniques associated with them:
 Select the ***Connection Mode*** you elect on the server.  
 
 * Custom (AD Account with permissions to RDP into the PSM server and an associated account in Cyberark).  
-* AAM (Passwordless, see this [article](https://blog.devolutions.net/2020/10/going-passwordless-with-remote-desktop-manager-and-cyberark) ).  
+* AAM (Passwordless, see this [article](https://blog.devolutions.net/2020/10/going-passwordless-with-remote-desktop-manager-and-cyberark)).  
 
 In this example, Custom is in force; Username / domain / password has been populated manually.  
 
@@ -30,7 +30,7 @@ Then choose an RDP Template created beforehand, this template defines the settin
 
 ![RDP Template created beforehand](https://webdevolutions.azureedge.net/docs/en/kb/KB4681.png)  
 
-Once the Cyberark PSM Server has been added, get the ID of the new entry ( ***Property - Entry Information*** ).  
+Once the Cyberark PSM Server has been added, get the ID of the new entry (***Property - Entry Information***).  
 
 In our example, the ID is 33628378-d4a6-431f-8438-16b75921aef9.  
 
@@ -53,7 +53,7 @@ In our example, the ID is 33628378-d4a6-431f-8438-16b75921aef9.
 
 To facilitate the process, here’s a template of the [CSV](https://redirection.devolutions.com/37b5737c-78c2-44d9-9f3c-b208e6f5891c) file, populate it accordingly. The first line after the header is informational and should not be in the file at import time.
 
-The fields are mapped like this :  
+The fields are mapped like this:  
 
 <table>
 	<tr>
@@ -184,8 +184,8 @@ Via the ***Quick Connect*** toolbar, you can open an ad-hoc session by specifyin
 
 A Cyberark PSM Connection template is required beforehand.  
 
-1. Go to ***File - Templates - Templates*** , and add a new template.
-1. In ***Host*** , enter $QUICK_CONNECT$
+1. Go to ***File - Templates - Templates***, and add a new template.
+1. In ***Host***, enter $QUICK_CONNECT$
 1. Set a privileged account to be used.
 1. Select the ***PSM Server*** that this PSM connection will be using and a ***Connection component***  
 ![File - Templates - Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB4694.png)  
@@ -202,7 +202,7 @@ You can then type in the ***Host*** of the target endpoint, and launch the sessi
 ## Host
 Take a look at this [link](/kb/remote-desktop-manager/how-to-articles/multiple-types-connections/host-with-templates/) to implement using a host for PSM Integration.  
 
-Steps are very similar to the ***Quick connect*** , the creation of the template is the exact same, except that the ***Host*** field will remain empty.  
+Steps are very similar to the ***Quick connect***, the creation of the template is the exact same, except that the ***Host*** field will remain empty.  
 
 What is actually interesting about this, is that a variable can be used to populate the ***Privileged account***  
 

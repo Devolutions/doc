@@ -1,7 +1,7 @@
 ---
 title: Logs
 ---
-The ***Logs*** section provides tools to perform ***Activity Logs Report*** , view ***User Activity*** , and ***Administration Logs*** .  
+The ***Logs*** section provides tools to perform ***Activity Logs Report***, view ***User Activity***, and ***Administration Logs***.  
 
 You can refine your search with the filters for each reports and click the ***Export*** button of each section to create a CSV report.  
 

@@ -4,7 +4,7 @@ title: How to Export and Import Vaults
 It is possible to export and import multiple vaults from one type of advanced data source to another.
 
 {% snippet icon.badgeCaution %}
-If you have ***Users*** and they are overriding entries properties with ***User Specific Settings*** , they will be required to export and import their ***User Specific Settings List*** Follow this topic to learn how to [Export and Import User Specific Settings](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/)
+If you have ***Users*** and they are overriding entries properties with ***User Specific Settings***, they will be required to export and import their ***User Specific Settings List*** Follow this topic to learn how to [Export and Import User Specific Settings](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/)
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
@@ -39,7 +39,7 @@ Specifying a master key will encrypt the whole content of the ***.rdx*** file to
 At this step, if needed, you can add vaults by clicking on the ***Add Vault*** button.
 {% endsnippet %}  
 {% snippet icon.badgeCaution %}
-If you have ***Users*** and they are overriding entries properties with ***User Specific Settings*** , uncheck ***Change ID***
+If you have ***Users*** and they are overriding entries properties with ***User Specific Settings***, uncheck ***Change ID***
 {% endsnippet %}  
 
 5. Click ***Finish***.

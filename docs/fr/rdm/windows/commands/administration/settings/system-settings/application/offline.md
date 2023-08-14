@@ -44,7 +44,5 @@ Force l'utilisateur à fournir son 2FA avant de se déconnecter.
 </table>
 
 {% snippet icon.badgeCaution %} 
-Il n'est pas recommandé de définir l' ***Expiration*** à 0, car cela désactivera l'expiration du cache hors ligne. 
+Il n'est pas recommandé de définir l'***Expiration*** à 0, car cela désactivera l'expiration du cache hors ligne. 
 {% endsnippet %}
- 
-

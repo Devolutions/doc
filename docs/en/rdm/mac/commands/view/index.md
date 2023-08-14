@@ -29,7 +29,7 @@ Access the view mode of the ***{{ en.NPANE }}*** for the current vault.
 [{{ en.UVLT }}](/rdm/mac/commands/view/vaults/) 
 		</td>
 		<td>
-Display your ***{{ en.UVLT }}*** in the ***{{ en.NPANE }}*** . 
+Display your ***{{ en.UVLT }}*** in the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -37,7 +37,7 @@ Display your ***{{ en.UVLT }}*** in the ***{{ en.NPANE }}*** .
 [Opened Sessions](/rdm/mac/commands/view/opened-sessions/) 
 		</td>
 		<td>
-Display the currently opened sessions in the ***{{ en.NPANE }}*** . 
+Display the currently opened sessions in the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Display the currently opened sessions in the ***{{ en.NPANE }}*** .
 [Favorites](/rdm/mac/user-interface/navigation-pane/favorite-entries/) 
 		</td>
 		<td>
-Display your favorite entries and folders in the ***{{ en.NPANE }}*** . 
+Display your favorite entries and folders in the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +53,7 @@ Display your favorite entries and folders in the ***{{ en.NPANE }}*** .
 [Recent](/rdm/mac/user-interface/navigation-pane/most-recently-used-entries/) 
 		</td>
 		<td>
-Display your most recently used entries in the ***{{ en.NPANE }}*** . 
+Display your most recently used entries in the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -101,7 +101,7 @@ Launch a ***Quick Connect*** session.
 [Activity Logs](/rdm/mac/commands/view/activity-logs/) 
 		</td>
 		<td>
-Open the ***Activity Logs*** . 
+Open the ***Activity Logs***. 
 		</td>
 	</tr>
 	<tr>
@@ -141,7 +141,7 @@ Toggle the ***{{ en.NPANE }}***.
 [Dashboard](/rdm/mac/user-interface/content-area/dashboard/) 
 		</td>
 		<td>
-Toggle the ***Dashboard*** . 
+Toggle the ***Dashboard***. 
 		</td>
 	</tr>
 </table>

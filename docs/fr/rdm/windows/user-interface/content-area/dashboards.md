@@ -6,7 +6,7 @@ Le ***Tableau de bord*** affiche les commandes et les informations relatives à 
 
 Les différents onglets disponibles dans le tableau de bord:  
 
-* Actions: Ajouter des actions d'ouverture spéciales au tableau de bord, comme ***Ouvrir une session*** ou ***Propriétés*** dans le menu contextuel. Configurer dans un ***Fichier - Options - Interface utilisateur*** . 
+* Actions: Ajouter des actions d'ouverture spéciales au tableau de bord, comme ***Ouvrir une session*** ou ***Propriétés*** dans le menu contextuel. Configurer dans un ***Fichier - Options - Interface utilisateur***. 
 * Aperçu 
 * Documentation 
 * Outils/Scripts/Macros 

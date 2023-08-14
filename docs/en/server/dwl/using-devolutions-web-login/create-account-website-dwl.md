@@ -9,7 +9,7 @@ eleventyComputed:
 If you already have an account for the website, learn how to [Add a Website Entry with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/) instead. 
 {% endsnippet %}
  
-Follow the steps below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.DVLS }} .  
+Follow the steps below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.DVLS }}.  
 
 1. On the website for which you want to create your account, go to the registration/account creation page. This page will be different for each website; this topic will use the Atlassian website as an example 
 ![Registration Page](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2000.png)
@@ -17,7 +17,7 @@ Follow the steps below to learn how to create a website account with {{ en.DWL }
 1. Click on the {{ en.DWL }} icon in your browser toolbar, then select the ***Password Generator*** tab in the ***Side Menu*** of the extension. 
 ![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2001.png)
 1. You can now customize the password generation settings, but this is optional since the default settings already generate very strong passwords. That being said, it may be necessary to adjust the settings to meet the specific requirements of some websites. If you do not wish to customize the generation settings, you can skip to <a href="#5">step 5</a>. 
-    1. Set a ***Password length*** . The default value is set to 12. 
+    1. Set a ***Password length***. The default value is set to 12. 
     ![Password length](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2002.png)
     1. In the ***General*** settings, select the types of characters that your password must contain. The default is set to include uppercase letters, lowercase letters, and numbers, but it is also possible to include special characters in your password. 
      ![General Settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2003.png)
@@ -38,7 +38,7 @@ Your password settings are now configured.
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Select the ***Vault*** you want to save your credentials into. 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
-1. Click ***Save*** .  
+1. Click ***Save***.  
 
-Your credentials are now securely stored in a new website entry in {{ en.DVLS }} . The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) . 
+Your credentials are now securely stored in a new website entry in {{ en.DVLS }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/). 
 

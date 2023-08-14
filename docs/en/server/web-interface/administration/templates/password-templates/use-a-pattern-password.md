@@ -1,7 +1,7 @@
 ---
 title: Use a Pattern Password
 ---
-When selecting the ***Use a pattern*** mode for ***Password Templates*** and ***Password Generator*** , the following keys are the supported patterns.  
+When selecting the ***Use a pattern*** mode for ***Password Templates*** and ***Password Generator***, the following keys are the supported patterns.  
 
 <table>
 	<tr>

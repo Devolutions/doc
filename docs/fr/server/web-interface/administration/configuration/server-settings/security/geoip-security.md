@@ -25,7 +25,7 @@ Choisir votre méthode de GeoIP entre:
 
 Aucun : N'utilisera pas la sécurité GeoIP.  
 
-MaxMind : Utiliser la base de données GeoIP de MaxMind pour rechercher la ville, le numéro AS et d'autres informations pour une adresse IP. Connectez-vous à votre compte en saisissant votre ID de l'utilisateur et votre clé de licence dans le champ approprié, puis sélectionner les pays dans lesquels vous souhaitez accorder l'accès à votre {{ fr.DVLS }} .  
+MaxMind : Utiliser la base de données GeoIP de MaxMind pour rechercher la ville, le numéro AS et d'autres informations pour une adresse IP. Connectez-vous à votre compte en saisissant votre ID de l'utilisateur et votre clé de licence dans le champ approprié, puis sélectionner les pays dans lesquels vous souhaitez accorder l'accès à votre {{ fr.DVLS }}.  
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +49,7 @@ Clé de licence pour se connecter sur MaxMind.
 Pays 
 		</td>
 		<td>
-Sélectionner tous les pays autorisés pour se connecter à l'instance {{ fr.DVLS }} . 
+Sélectionner tous les pays autorisés pour se connecter à l'instance {{ fr.DVLS }}. 
 		</td>
 	</tr>
 </table>

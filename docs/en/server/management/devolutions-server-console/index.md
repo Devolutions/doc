@@ -6,11 +6,11 @@ Because {{ en.DVLS }} is in fact a web application, the management interface is 
 ## Usage 
 
 {% snippet icon.badgeInfo %} 
-The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is now available on the [Download page](https://server.devolutions.net/home/download) . 
+The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is now available on the [Download page](https://server.devolutions.net/home/download). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Since {{ en.DVLS }} 2019.x, many features can only be managed from the web interface. Please see [Administration - Server Settings](/server/web-interface/administration/configuration/server-settings/) . 
+Since {{ en.DVLS }} 2019.x, many features can only be managed from the web interface. Please see [Administration - Server Settings](/server/web-interface/administration/configuration/server-settings/). 
 {% endsnippet %}
  
 The {{ en.DVLSCONSOLE }} manages the IIS metabase, it must be started with elevated privileges when the {{ en.DVLSCONSOLE }} needs to be used. Elevated privileges are granted when you use ***Run as administrator*** to launch the application. You can modify the shortcut to always start it in this manner.  
@@ -451,7 +451,7 @@ Run the IIS Diagnostic.
 Check For Update 
 		</td>
 		<td>
-Check for available updates for the {{ en.DVLSCONSOLE }} . 
+Check for available updates for the {{ en.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>

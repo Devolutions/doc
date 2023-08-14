@@ -34,7 +34,7 @@ eleventyComputed:
 
 ![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6015.png) 
 
-4. Choose from the drop-down menu whether the rule applies to :
+4. Choose from the drop-down menu whether the rule applies to:
   * ***Authentication type***
   * ***Time***
   * ***IP Addresses***
@@ -109,7 +109,7 @@ The currently supported multi-factor authenticators are Authenticator (TOTP), Yu
 
 ![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6015.png) 
 
-11. Choose from the drop-down menu whether the rule applies to :
+11. Choose from the drop-down menu whether the rule applies to:
   * ***Authentication type***
   * ***Time***
   * ***IP Addresses***

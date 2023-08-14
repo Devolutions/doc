@@ -6,7 +6,7 @@ eleventyComputed:
 Please note that if your Windows profile is corrupted, {{ en.RDMA }} and {{ en.RDMJ }} might not work. 
 {% endsnippet %}
  
-The {{ en.RDMA }} can run commands on remote hosts, but what is really useful is that it can send commands to multiple hosts at the same time. Since {{ en.RDM }} uses a secure RDP channel to communicate with the {{ en.RDMA }} , it can only operate against Windows-based hosts.  
+The {{ en.RDMA }} can run commands on remote hosts, but what is really useful is that it can send commands to multiple hosts at the same time. Since {{ en.RDM }} uses a secure RDP channel to communicate with the {{ en.RDMA }}, it can only operate against Windows-based hosts.  
 
 It supports both environment and {{ en.RDM }} variables. {{ en.RDM }} variables (i.e. $HOST$, basically all the ones surrounded by dollar signs) are resolved on the client against the running session, while environment variables (i.e. %windir%, basically all the ones surrounded by percent signs) will be resolved on the remote host at execution time. You can use {{ en.RDM }} variables while running file based scripts (.ps1) within the command. The file based script variables (.ps1) will be resolved prior to sending the script to the destination host.  
 ![{{ en.RDMA }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11234.png) 
@@ -22,7 +22,7 @@ It is also used by [{{ en.RDMJ }}](/rdm/windows/overview/the-devolutions-platfor
 Installing {{ en.RDMA }} on a remote host can be achieved in 4 different ways:  
 
 {% snippet icon.badgeNotice %} 
-The {{ en.RDMA }} must be configured to automatically start when a Windows session is established. Method 1 below performs that automatically, but in other cases, you must configure this manually using Windows features ( startup folder or Run registry key). Please consult the documentation of your operating system for details. 
+The {{ en.RDMA }} must be configured to automatically start when a Windows session is established. Method 1 below performs that automatically, but in other cases, you must configure this manually using Windows features (startup folder or Run registry key). Please consult the documentation of your operating system for details. 
 {% endsnippet %}
  
 

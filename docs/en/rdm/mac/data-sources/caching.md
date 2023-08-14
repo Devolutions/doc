@@ -4,7 +4,7 @@ title: Caching
 The caching mode will determine how the client will re-load entries when changes are detected. On large data sources caching is a must and will increase performance significantly. 
 
 {% snippet icon.badgeInfo %} 
-This feature is only available when using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature is only available when using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
@@ -60,7 +60,7 @@ You can then follow the path Application Support/com.devolutions.remotedesktopma
 The file is a SQLite database encrypted using a non-portable computed key hash.  
 
 {% snippet icon.shieldNotice %} 
-You can enhance the security of the offline file by setting the Enhanced security in the Data Sources Preferences – [Offline Security](/rdm/mac/commands/file/preferences/security/) . 
+You can enhance the security of the offline file by setting the Enhanced security in the Data Sources Preferences – [Offline Security](/rdm/mac/commands/file/preferences/security/). 
 {% endsnippet %}
  
 {% snippet icon.badgeHelp %} 

@@ -24,7 +24,7 @@ DESCRIPTION
 Allow user Specific Settings 
 		</td>
 		<td>
-Allow users to save [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Allow users to save [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 	<tr>
@@ -56,7 +56,7 @@ Allow entries to be locked when used or edited.
 Allow virtual folders 
 		</td>
 		<td>
-Allow to store entries in virtual folders (not supported with {{ en.DVLS }} ). 
+Allow to store entries in virtual folders (not supported with {{ en.DVLS }}). 
 		</td>
 	</tr>
 	<tr>

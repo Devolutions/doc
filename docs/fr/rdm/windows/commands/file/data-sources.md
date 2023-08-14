@@ -1,7 +1,7 @@
 ---
 title: Sources de données
 ---
-Utiliser ***Fichier – Sources de données*** pour gérer les sources de données. {{ fr.RDM }} prend en charge plusieurs types de sources de données. La plupart sont disponibles uniquement avec l'Édition Team de {{ fr.RDM }} .  
+Utiliser ***Fichier – Sources de données*** pour gérer les sources de données. {{ fr.RDM }} prend en charge plusieurs types de sources de données. La plupart sont disponibles uniquement avec l'Édition Team de {{ fr.RDM }}.  
 
 Consulter la rubrique [Types de sources de données](/fr/rdm/windows/data-sources/data-sources-types/) pour plus d'informations sur tous les types de sources de données pris en charge.  
 ![Sources de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10080.png) 
@@ -23,7 +23,7 @@ Seule la configuration sera supprimée, mais le fichier ou la base de données r
 
 ### Importer / Exporter la configuration de la source de données 
 
-Utiliser les boutons Importer/Exporter respectivement pour importer ou exporter la configuration de la source de données sélectionnée. La configuration est exportée sous forme de fichier ***.RDD*** . 
+Utiliser les boutons Importer/Exporter respectivement pour importer ou exporter la configuration de la source de données sélectionnée. La configuration est exportée sous forme de fichier ***.RDD***. 
 
 ### Verrouiller la source de données 
 

@@ -12,7 +12,7 @@ Voici les étapes pour créer et attribuer des ***Utilisateurs d'application*** 
 1. Copier la ***Clé secrète d'application*** et la ***Clé de l'application*** ou télécharger le fichier PDF fourni pour l'enregistrer dans un endroit sécuritaire.  
 ![Nom de l'utilisateur d'application](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2053.png) 
 {% snippet icon.badgeCaution %} 
-Conservez sécuritairement les informations nouvellement créées de l' ***Utilisateur d'application***. 
+Conservez sécuritairement les informations nouvellement créées de l'***Utilisateur d'application***. 
 {% endsnippet %}
  
 4. ***Fermer*** la fenêtre. 

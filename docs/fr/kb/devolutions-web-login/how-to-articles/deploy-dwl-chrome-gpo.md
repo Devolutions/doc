@@ -10,26 +10,26 @@ Les paramètres déployés avec l'objet de stratégie de groupe (GPO) ne sont ap
 {% endsnippet %}  
  
 ### Configuration des extensions par stratégie sur Windows 10 pour Chrome 
-1. Ouvrir ***Gestion de stratégie de groupe*** ( ***Démarrer – Exécuter – GPMC.msc*** ). 
-1. Faire un clic droit dans la liste des objets de stratégie de groupe, puis cliquer sur ***Nouveau*** . 
-1. Dans la fenêtre ***Nouvel objet GPO*** , créer votre nouvel objet, puis cliquer sur ***OK*** . 
-1. Faire un clic droit sur votre nouvel objet de stratégie de groupe et cliquer sur ***Modifier*** . 
+1. Ouvrir ***Gestion de stratégie de groupe*** (***Démarrer – Exécuter – GPMC.msc***). 
+1. Faire un clic droit dans la liste des objets de stratégie de groupe, puis cliquer sur ***Nouveau***. 
+1. Dans la fenêtre ***Nouvel objet GPO***, créer votre nouvel objet, puis cliquer sur ***OK***. 
+1. Faire un clic droit sur votre nouvel objet de stratégie de groupe et cliquer sur ***Modifier***. 
 1. Sélectionner ***Registre*** situé dans ***Configuration ordinateur – Préférences – Paramètres Windows – Registre*** OU ***Configuration utilisateur – Préférences – Paramètres Windows – Registre*** selon vos besoins. 
-1. Faire un clic droit dans la liste des éléments du ***Registre*** et cliquer sur ***Nouveau – Élément Registre*** . 
+1. Faire un clic droit dans la liste des éléments du ***Registre*** et cliquer sur ***Nouveau – Élément Registre***. 
 1. Définir le paramètre ***Action*** à ***Remplacer*** pour changer la règle ou pour la créer si elle n’existe pas. 
 1. Définir le paramètre ***Ruche*** à ***HKEY_LOCAL_MACHINE*** ou ***HKEY_CURRENT_USER*** selon vos besoins. 
-1. Entrer ***SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\neimonjjffhehnojilepgfejkneaidmo\policy*** dans le champ ***Chemin d’accès de la clé*** . 
-1. Entrer ***Settings*** dans le champ ***Nom de valeur*** . 
-1. Sélectionner ***REG_SZ*** dans la liste déroulante ***Type de valeur*** . 
-1. Écrire la chaîne de paramètres JSON dans le champ ***Données de valeur*** . Voir la section <a href="valeurs">Valeurs</a> plus bas pour un exemple. 
-1. Cliquer sur ***OK*** .  
+1. Entrer ***SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\neimonjjffhehnojilepgfejkneaidmo\policy*** dans le champ ***Chemin d’accès de la clé***. 
+1. Entrer ***Settings*** dans le champ ***Nom de valeur***. 
+1. Sélectionner ***REG_SZ*** dans la liste déroulante ***Type de valeur***. 
+1. Écrire la chaîne de paramètres JSON dans le champ ***Données de valeur***. Voir la section <a href="valeurs">Valeurs</a> plus bas pour un exemple. 
+1. Cliquer sur ***OK***.  
 ![!!KB2043.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2043.png) 
-1. Dans ***Gestion de stratégie de groupe*** , configurer les ***Liaisons*** et le ***Filtrage de sécurité*** des objets de stratégie de groupe selon vos besoins.  
+1. Dans ***Gestion de stratégie de groupe***, configurer les ***Liaisons*** et le ***Filtrage de sécurité*** des objets de stratégie de groupe selon vos besoins.  
 
 ### Exemple <a name="Exemple"></a>
 
-* Activer {{ fr.DVLS }} . 
-* Définir ***https<area>://localhost/mydvlsurl*** comme URL de {{ fr.DVLS }} . 
+* Activer {{ fr.DVLS }}. 
+* Définir ***https<area>://localhost/mydvlsurl*** comme URL de {{ fr.DVLS }}. 
 * Désactiver la page des paramètres. 
 * Toujours remplacer les paramètres de la section ***settings*** au démarrage de l'extension. 
 ```
@@ -143,8 +143,8 @@ Valeurs possibles :
 1. Sélectionner ***Registre*** situé dans ***Configuration ordinateur – Préférences – Paramètres Windows – Registre*** OU ***Configuration utilisateur – Préférences – Paramètres Windows – Registre*** selon vos besoins. 
 1. Dans les paramètres de registre, définir le paramètre ***Action*** à ***Remplacer*** pour changer la règle ou pour la créer si elle n’existe pas. 
 1. Définir le paramètre ***Ruche*** à ***HKEY_LOCAL_MACHINE*** ou ***HKEY_CURRENT_USER*** selon vos besoins. 
-1. Entrer ***ExtensionSettings*** dans le champ ***Nom de valeur*** . 
-1. Sélectionner ***REG_SZ*** dans la liste déroulante ***Type de valeur*** . 
+1. Entrer ***ExtensionSettings*** dans le champ ***Nom de valeur***. 
+1. Sélectionner ***REG_SZ*** dans la liste déroulante ***Type de valeur***. 
 1. Écrire la chaîne de paramètres JSON suivante dans le champ ***Données de valeur*** : 
 ```
 {"neimonjjffhehnojilepgfejkneaidmo": {"installation_mode":  

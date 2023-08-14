@@ -1,7 +1,7 @@
 ---
 title: Journaux des applications
 ---
-En cas d'erreur, vous pouvez vérifier le journal d'application local, disponible dans le menu ***Aide - Journaux des applications*** .  
+En cas d'erreur, vous pouvez vérifier le journal d'application local, disponible dans le menu ***Aide - Journaux des applications***.  
 ![Aide - Journaux des applications](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4226.png) 
 
 ## Paramètres 
@@ -13,6 +13,6 @@ Ces journaux sont enregistrés dans Macintosh HD/Users/Username/Library/Applicat
 
 À la demande d'un employé de Devolutions lors d'un processus de support, il peut vous être demandé d'augmenter le niveau de débogage de l'application à un niveau supérieur.  
 
-Cela peut être fait à partir de Fichier - Préférences - [Avancée](/fr/rdm/mac/commands/file/preferences/advanced-options/) .  
+Cela peut être fait à partir de Fichier - Préférences - [Avancée](/fr/rdm/mac/commands/file/preferences/advanced-options/).  
 ![Avancée - Niveau débogage](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4228.png) 
 

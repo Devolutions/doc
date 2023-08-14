@@ -11,11 +11,11 @@ keywords:
 Cela peut être comparé au Remote Desktop Gateway de Microsoft et, dans une certaine mesure, à de la redirection de port SSH. 
 
 {% snippet icon.badgeNotice %} 
-Le ***Jump*** est fait à partir de l' {{ fr.RDMA }} . L'Agent DOIT ÊTRE DÉMARRÉ dans une session Windows, sur l'hôte distant, ou configuré de façon à démarrer automatiquement lors de l'ouverture de la session. Nous n'offrons pas cette fonctionnalité en tant que service à ce stade-ci. 
+Le ***Jump*** est fait à partir de l'{{ fr.RDMA }}. L'Agent DOIT ÊTRE DÉMARRÉ dans une session Windows, sur l'hôte distant, ou configuré de façon à démarrer automatiquement lors de l'ouverture de la session. Nous n'offrons pas cette fonctionnalité en tant que service à ce stade-ci. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-La fonctionnalité {{ fr.RDMJ }} ne vous permet pas de contourner la nécessité d'attribuer une licence appropriée à votre hôte distant pour autoriser plus de deux connexions RDP à la fois. Il n'y a pas d'autre moyen que d'installer un hôte distant de bureau à distance sur le serveur et d'acheter des LAC RDS (par utilisateur) pour la connexion à distance. Pour plus d'informations, veuillez consulter ce lien Microsoft : [Activer le serveur de licences des Services Bureau à distance](https://learn.microsoft.com/fr-fr/windows-server/remote/remote-desktop-services/rds-activate-license-server) . 
+La fonctionnalité {{ fr.RDMJ }} ne vous permet pas de contourner la nécessité d'attribuer une licence appropriée à votre hôte distant pour autoriser plus de deux connexions RDP à la fois. Il n'y a pas d'autre moyen que d'installer un hôte distant de bureau à distance sur le serveur et d'acheter des LAC RDS (par utilisateur) pour la connexion à distance. Pour plus d'informations, veuillez consulter ce lien Microsoft : [Activer le serveur de licences des Services Bureau à distance](https://learn.microsoft.com/fr-fr/windows-server/remote/remote-desktop-services/rds-activate-license-server). 
 {% endsnippet %}
  
 {% snippet icon.badgeHelp %} 
@@ -39,7 +39,7 @@ Il existe deux mises en situation:
 Ceci permet d'avoir une politique de pare-feu stricte autorisant les connexions à partir d'une seule adresse IP. Cette configuration vous permettra d'accéder uniquement aux hôtes distants accessibles par la Jump Box. Prétendons que vous avez l'infrastructure suivante:  
 ![!!clip10825.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10825.png) 
 
-Vous devez accéder à des hôtes distants, mais vous souhaitez limiter les risques et exposer uniquement l'Hôte Jump au trafic Internet. En utilisant {{ fr.RDMJ }} , seul l'Hôte Jump est exposé. Cela vous permet de configurer des règles de pare-feu strictes et de n'ouvrir qu'un seul port. Par contre, vous devez obligatoirement vous connecter au Hôte Jump en premier avant d'avoir accès aux hôtes distants.  
+Vous devez accéder à des hôtes distants, mais vous souhaitez limiter les risques et exposer uniquement l'Hôte Jump au trafic Internet. En utilisant {{ fr.RDMJ }}, seul l'Hôte Jump est exposé. Cela vous permet de configurer des règles de pare-feu strictes et de n'ouvrir qu'un seul port. Par contre, vous devez obligatoirement vous connecter au Hôte Jump en premier avant d'avoir accès aux hôtes distants.  
 ![!!clip10826.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10826.png) 
 
 {{ fr.RDMJ }} aide à atteindre cet objectif simplement et efficacement.  
@@ -51,7 +51,7 @@ Ces limitations rendent impossible l'utilisation simultanée de plusieurs client
 
 ### Configurer l'Hôte Jump 
 
-1. Créer une entrée ***RDP*** pour l'***Hôte Jump*** . 
+1. Créer une entrée ***RDP*** pour l'***Hôte Jump***. 
 1. Remplir l'entrée avec un ***Nom***, un ***Hôte*** et les ***Identifiants***. 
 {% snippet icon.badgeCaution %} 
 Pour que les ***Jumps*** fonctionnent, vous devez fournir les identifiants via la session de l'***Hôte Jump***. Si les sessions RDP vous demandent les identifiants après le démarrage, le ***Jump*** échouera. 

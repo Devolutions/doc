@@ -42,14 +42,14 @@ You can now continue to the next section to learn how to retrieve your website e
 This section is based on the {{ en.DWL }} configuration steps from the previous section. We highly recommend that you follow them before going forward, as some features may differ between your experience and what is shown below. 
 {% endsnippet %}
  
-Credentials can be retrieved from {{ en.DHUBP }} automatically or manually via {{ en.DWL }} . Follow the steps from the section that best suits your needs: 
+Credentials can be retrieved from {{ en.DHUBP }} automatically or manually via {{ en.DWL }}. Follow the steps from the section that best suits your needs: 
 
 ### Automatically Retrieving Credentials 
 
 1. Go to the login page of the website you want to access. This page will be different for each website; this section will use the Atlassian website as an example. One of two scenarios can happen:  
     1. If you only have one set of credentials for this website, the login fields should already be filled in with your credentials. If that is the case, follow the login process of the website until you successfully log in to your account. You do not have to follow the next step.  
     ![Automatically Filled Credentials Fields](https://webdevolutions.azureedge.net/docs/en/hub/Hub2088.png)  
-    1. If you have more than one set of credentials or if your credentials are not filled in, click on the {{ en.DWL }} icon in the credential field and select the entry that contains your credentials for that website. If multiple entries are available, you can search for the one you want using the ***Filter*** bar. Follow the rest of the website 's login process until you successfully log in to your account. 
+    1. If you have more than one set of credentials or if your credentials are not filled in, click on the {{ en.DWL }} icon in the credential field and select the entry that contains your credentials for that website. If multiple entries are available, you can search for the one you want using the ***Filter*** bar. Follow the rest of the website's login process until you successfully log in to your account. 
     ![Entry Filter and Selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2184.png)  
 
 ### Manually Retrieving Credentials 
@@ -64,5 +64,5 @@ Depending on the options you have enabled/disabled, you may need to retrieve you
 If needed, you can also use the icons that appear when hovering over the entry to copy your username , copy your password , or get an overview of the entry. 
 {% endsnippet %}
  
-4. Your credentials will be transferred to the credentials fields of the website. Follow the rest of the website 's login process until you successfully log in to your account.  
+4. Your credentials will be transferred to the credentials fields of the website. Follow the rest of the website's login process until you successfully log in to your account.  
 ![Credentials Tranfer in Corresponding Fields](https://webdevolutions.azureedge.net/docs/en/hub/Hub2091.png)  

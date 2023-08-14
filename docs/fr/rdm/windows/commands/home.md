@@ -6,5 +6,5 @@ L'onglet du ruban ***Accueil*** vous permet d'appliquer une action sur la sessio
 
 * Se connecter 
 * Macros 
-* Presse-papiers: Configurer le dans ***Fichier - Options - Application*** . 
+* Presse-papiers: Configurer le dans ***Fichier - Options - Application***. 
 * Divers 

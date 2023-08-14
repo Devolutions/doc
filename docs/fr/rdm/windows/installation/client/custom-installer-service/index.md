@@ -8,7 +8,7 @@ title: Service d'installateur personnalisé
 ![!!CustomInstallerServiceIcon.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/CustomInstallerServiceIcon.png) 
 		</td>
 		<td>
-* Générer et télécharger des paquets d'installation personnalisés pour {{ fr.RDM }} . 
+* Générer et télécharger des paquets d'installation personnalisés pour {{ fr.RDM }}. 
 * Inclure des sources de données préconfigurées dans le paquet pour un déploiement rapide à l'échelle de l'entreprise. 
 * Télécharger le programme d'installation en tant que Windows Installer (fichier .msi). 
 		</td>
@@ -22,7 +22,7 @@ Le {{ fr.CIS }} télécharge un fichier de configuration sur nos services en lig
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Vous devez créer un fichier d'installation à l'aide de {{ fr.RDM }} avant de créer l'installateur sur le portail Web. Cette procédure est décrite dans notre rubrique traitant du [Générateur de fichier de configuration](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/) . 
+Vous devez créer un fichier d'installation à l'aide de {{ fr.RDM }} avant de créer l'installateur sur le portail Web. Cette procédure est décrite dans notre rubrique traitant du [Générateur de fichier de configuration](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

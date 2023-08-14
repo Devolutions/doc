@@ -43,7 +43,7 @@ View Application Log
 		</td>
 		<td>
 
-To learn more please see [Application Logs](/rdm/mac/commands/help/application-logs/) . 
+To learn more please see [Application Logs](/rdm/mac/commands/help/application-logs/). 
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ To learn more please see [Application Logs](/rdm/mac/commands/help/application-l
 Diagnostic 
 		</td>
 		<td>
-To learn more please see [Diagnostic](/rdm/mac/commands/help/diagnostic/) . 
+To learn more please see [Diagnostic](/rdm/mac/commands/help/diagnostic/). 
 		</td>
 	</tr>
 	<tr>
@@ -59,7 +59,7 @@ To learn more please see [Diagnostic](/rdm/mac/commands/help/diagnostic/) .
 Profiler 
 		</td>
 		<td>
-To learn more please see [Profiler](/rdm/mac/commands/help/profiler/) . 
+To learn more please see [Profiler](/rdm/mac/commands/help/profiler/). 
 		</td>
 	</tr>
 	<tr>

@@ -2,7 +2,7 @@
 title: Domain
 order: 10
 ---
-The domain is used to authenticate the user. This is the most secure, flexible and easiest to manage . No need to sync users between the domain and {{ en.DVLS }} . With the Automatic User Creation On First Login option enabled, on first use of the {{ en.DVLS }} data source, the user will be created and be given access rights according to their role in the organization as defined on the domain. You simply need to grant appropriate permissions to your user groups in {{ en.DVLS }} . Upon authentication we will validate the AD groups to which the user belongs and for any that have a corresponding user group we will grant the permissions to the user.  
+The domain is used to authenticate the user. This is the most secure, flexible and easiest to manage . No need to sync users between the domain and {{ en.DVLS }}. With the Automatic User Creation On First Login option enabled, on first use of the {{ en.DVLS }} data source, the user will be created and be given access rights according to their role in the organization as defined on the domain. You simply need to grant appropriate permissions to your user groups in {{ en.DVLS }}. Upon authentication we will validate the AD groups to which the user belongs and for any that have a corresponding user group we will grant the permissions to the user.  
 
 {% snippet icon.badgeNotice %} 
 The Multi Domain feature requires the {{ en.DVLS }} Platinum Edition license. Please see [Multi Domain](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/multi-domain/) for more information about its configuration. 
@@ -74,9 +74,9 @@ Enable the LDAP over SSL communication.
 Port 
 		</td>
 		<td>
-Default : LDAPS default communication port.  <br>
+Default: LDAPS default communication port.  <br>
 
-Custom : Set a specific port value. 
+Custom: Set a specific port value. 
 		</td>
 	</tr>
 </table>
@@ -131,11 +131,11 @@ Username Format
 		<td>
 Select the username format that will be created in the database.  <br>
 
-* UPN : The user will be created using the UPN format ex: bill@windjammer.loc.  <br>
+* UPN: The user will be created using the UPN format ex: bill@windjammer.loc.  <br>
 
-* NetBios : The user will be created using the NetBios format ex: WINDJAMMER\bill.  <br>
+* NetBios: The user will be created using the NetBios format ex: WINDJAMMER\bill.  <br>
 
-* Username : The user will be created using the SAM account name.  
+* Username: The user will be created using the SAM account name.  
 		</td>
 	</tr>
 </table>
@@ -164,9 +164,9 @@ Enable the Domain users and user group cache.
 Recurrence 
 		</td>
 		<td>
-Interval : Refresh the cache based on the refresh rate set with Hours and minutes parameters.  <br>
+Interval: Refresh the cache based on the refresh rate set with Hours and minutes parameters.  <br>
 
-Daily : Refresh the cache based on the refresh rate set with Every X days and At parameters. 
+Daily: Refresh the cache based on the refresh rate set with Every X days and At parameters. 
 		</td>
 	</tr>
 	<tr>

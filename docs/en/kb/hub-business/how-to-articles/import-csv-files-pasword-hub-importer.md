@@ -19,7 +19,7 @@ In the event that you need to import the ***Specific Settings***, leave the ***C
 
 ![CSV Import Type.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2112.png)
 
-2. In the ***Import Csv Wizard*** window, select the ***Header format instruction*** (***Session***, ***Credential***, ***Information***, or ***Template*** ) from the drop-down list.  
+2. In the ***Import Csv Wizard*** window, select the ***Header format instruction*** (***Session***, ***Credential***, ***Information***, or ***Template***) from the drop-down list.  
 ![Header Format Instruction Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2114.png)
 1. Click on the ellipsis button next to the ***Open CSV file*** field to select your files to import.
 ![Open CSV File.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2115.png)

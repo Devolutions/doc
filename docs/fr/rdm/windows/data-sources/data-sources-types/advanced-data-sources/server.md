@@ -8,7 +8,7 @@ title: Devolutions Server
 ![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
-***{{ fr.DVLS }}*** est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr) . 
+***{{ fr.DVLS }}*** est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr). 
 		</td>
 	</tr>
 </table>
@@ -162,7 +162,7 @@ Sélectionner votre mode d'accès aux outils à distance entre:
 Gérer la cache 
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/manage-cache/) . 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/manage-cache/). 
 		</td>
 	</tr>
 </table>
@@ -197,7 +197,7 @@ Sélectionner le type de [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/data-sourc
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DVLS }} .  
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DVLS }}.  
 ![{{ fr.DVLS }} - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/DPSVPN.png) 
 
 ### Avancé 

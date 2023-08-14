@@ -97,12 +97,12 @@ Permettra à l'administrateur de forcer les utilisateurs à utiliser ce nouveau 
 </table>
 
 {% snippet icon.badgeInfo %} 
-Depuis la version 2022.3 de {{ fr.RDM }} , les informations d'enregistrement de la licence sont stockées dans la source de données, ce qui signifie qu'elles ne peuvent plus être incluses dans un programme d'installation personnalisé. Suivez ce [guide étape par étape](/fr/rdm/windows/installation/client/registration/team-edition/) pour ajouter votre numéro de licence et l'attribuer à vos utilisateurs à partir d'une [source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Depuis la version 2022.3 de {{ fr.RDM }}, les informations d'enregistrement de la licence sont stockées dans la source de données, ce qui signifie qu'elles ne peuvent plus être incluses dans un programme d'installation personnalisé. Suivez ce [guide étape par étape](/fr/rdm/windows/installation/client/registration/team-edition/) pour ajouter votre numéro de licence et l'attribuer à vos utilisateurs à partir d'une [source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 ### Sources de données 
 
-Sélectionner les sources de données qui doivent être incluses dans la configuration. Dans la colonne ***Description*** , vous verrez des détails sur chaque source de données. 
+Sélectionner les sources de données qui doivent être incluses dans la configuration. Dans la colonne ***Description***, vous verrez des détails sur chaque source de données. 
 
 {% snippet icon.shieldWarning %} 
 Vous devez uniquement partager les sources de données qui utilisent soit la Sécurité intégrée, soit une variable d'environnement pour le nom d'utilisateur. Les mots de passe pour accéder à une source de données ne doivent jamais être partagés. 

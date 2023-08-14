@@ -2,7 +2,7 @@
 title: Data Sources
 order: 40
 ---
-The data source is at the heart of {{ en.RDMMAC }} , it is the container that holds all of your entries. 
+The data source is at the heart of {{ en.RDMMAC }}, it is the container that holds all of your entries. 
 
 ## Settings 
 

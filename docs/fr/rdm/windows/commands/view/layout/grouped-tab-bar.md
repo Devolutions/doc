@@ -6,23 +6,23 @@ title: Barre d'onglets groupés
 
 Lorsque vous atteignez un certain nombre de sessions en cours d'exécution, il peut toutefois devenir difficile de les identifier en utilisant uniquement leur nom. Pour améliorer votre expérience utilisateur, la fonction ***Barre d'onglets groupés*** a été créée pour filtrer les pages d'onglets.  
 
-Pour activer la ***Barre d'onglets groupés*** , naviguez jusqu'à ***Affichage – Disposition*** dans le ruban, puis sélectionnez ***Barre d'onglets groupés*** .  
+Pour activer la ***Barre d'onglets groupés***, naviguez jusqu'à ***Affichage – Disposition*** dans le ruban, puis sélectionnez ***Barre d'onglets groupés***.  
 ![Bouton Barre d'onglets groupés](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2041.png) 
 
 {% snippet icon.badgeInfo %} 
-La ***Barre d'onglets groupés*** n'apparaît que si une session faisant partie d'un groupe d'onglets (autre que l'onglet ***Tout*** ) est active. Pour qu'elle s'affiche en permanence, cochez la case ***Toujours afficher la barre d'onglets groupés*** dans ***Fichier – Options – Interface utilisateur – Avancé*** . 
+La ***Barre d'onglets groupés*** n'apparaît que si une session faisant partie d'un groupe d'onglets (autre que l'onglet ***Tout***) est active. Pour qu'elle s'affiche en permanence, cochez la case ***Toujours afficher la barre d'onglets groupés*** dans ***Fichier – Options – Interface utilisateur – Avancé***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-La fonction ***Groupes d'onglets*** dans ***Affichage – Affichage*** vous permet de consulter une vue arborescente des différents groupes d'onglets. Pour plus d'informations, consultez la rubrique [***Affichage***](/fr/rdm/windows/commands/view/view/) . 
+La fonction ***Groupes d'onglets*** dans ***Affichage – Affichage*** vous permet de consulter une vue arborescente des différents groupes d'onglets. Pour plus d'informations, consultez la rubrique [***Affichage***](/fr/rdm/windows/commands/view/view/). 
 {% endsnippet %}
  
 ### Configuration d'un groupe d'onglets 
 
-Les paramètres de ***Groupe d'onglets*** se trouvent dans le menu latéral ***Interface utilisateur*** , dans les propriétés de votre session. Vous trouverez l'option ***Propriétés...*** en cliquant avec le bouton droit sur une entrée.  
+Les paramètres de ***Groupe d'onglets*** se trouvent dans le menu latéral ***Interface utilisateur***, dans les propriétés de votre session. Vous trouverez l'option ***Propriétés...*** en cliquant avec le bouton droit sur une entrée.  
 ![Propriétés – Commun – Interface utilisateur – Page de l'onglet](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2042.png) 
 
-Le champ ***Groupe d'onglets*** vous permet de choisir entre un groupe d'onglets personnalisé ou hérité. Si vous souhaitez spécifier un nom personnalisé, vous pouvez simplement taper un nom ou en choisir un déjà existant dans le champ ***Nom du groupe d'onglets*** pour créer un groupe d'onglets lors du lancement d'une instance, puis cliquer sur ***OK*** .  
+Le champ ***Groupe d'onglets*** vous permet de choisir entre un groupe d'onglets personnalisé ou hérité. Si vous souhaitez spécifier un nom personnalisé, vous pouvez simplement taper un nom ou en choisir un déjà existant dans le champ ***Nom du groupe d'onglets*** pour créer un groupe d'onglets lors du lancement d'une instance, puis cliquer sur ***OK***.  
 
 Lorsque l'onglet ***Tout*** est sélectionné, il n'effectue aucun filtrage. Toutes les sessions en cours sont visibles dans cet onglet.  
 ![Onglet Tout](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2043.png) 

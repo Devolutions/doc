@@ -8,7 +8,7 @@ This feature is available with the [SQL Server](/rdm/windows/data-sources/data-s
 {% endsnippet %}
  
 ## Settings 
-To use the ***Integrated Security*** , enable the ***Integrated Security*** box in the ***User Management*** window. The ***Password*** field is disabled because the operating system will provide a cached copy automatically.  
+To use the ***Integrated Security***, enable the ***Integrated Security*** box in the ***User Management*** window. The ***Password*** field is disabled because the operating system will provide a cached copy automatically.  
 ![Integrated Security](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10291.png) 
 
 When the option is activated, an ellipsis button either appears or is enabled. Click this button to display the ***Select User*** dialog .  
@@ -18,5 +18,5 @@ When the option is activated, an ellipsis button either appears or is enabled. C
 Ensure the appropriate domain is displayed in the ***From this location*** field. Sometime the location defaults to the local computer. Click the ***Locations*** button to browse for the domain instead. 
 {% endsnippet %}
  
-When using ***Integrated Security*** , the currently running windows session must be from a user of the domain. If you need to use other credentials, {{ en.RDM }} must be started using the RUNAS command as described in Running {{ en.RDM }} as Another User. 
+When using ***Integrated Security***, the currently running windows session must be from a user of the domain. If you need to use other credentials, {{ en.RDM }} must be started using the RUNAS command as described in Running {{ en.RDM }} as Another User. 
 

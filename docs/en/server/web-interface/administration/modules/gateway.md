@@ -13,7 +13,7 @@ The following tools are available to monitor any {{ en.DGW }} using the advanced
 
 ### Logs 
 
-This provide the logs of the selected {{ en.DGW }} . The Download button allows to download the logs and save it in a .log text file. 
+This provide the logs of the selected {{ en.DGW }}. The Download button allows to download the logs and save it in a .log text file. 
 
 ![{{ en.DGW }} Logs](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8082.png)
 

@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Batch Edit in {{ en.RDM }}
 ---
-In {{ en.RDM }} , you can edit the properties of multiple entries or folders at once using the ***[Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/)*** or ***Edit (Special Actions)*** features.  
+In {{ en.RDM }}, you can edit the properties of multiple entries or folders at once using the ***[Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/)*** or ***Edit (Special Actions)*** features.  
 
 ![Edit (Special Actions) and Batch Edit.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2104.png)
 
@@ -53,7 +53,7 @@ Proceed to the [Batch Edit Actions](#edit) section for the next steps or continu
 ![Multi Vault Search.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2109.png)  
 The [***Multi Vault Search***](/rdm/windows/commands/view/panels/search/multi-vault/) feature allows you to search in all the vaults of the selected database at once.
 
-1. In {{ en.RDM }} , go to ***View – Search – Multi Vault Search*** or press the F12 key shortcut. 
+1. In {{ en.RDM }}, go to ***View – Search – Multi Vault Search*** or press the F12 key shortcut. 
 1. Select and specify criteria to filter your search, then click ***Search***. 
 {% snippet icon.badgeInfo %} 
 To filter your search by folder type, you must use the ***[Advanced Search](#advanced)*** feature. 
@@ -95,7 +95,7 @@ Your entries/folders have now been modified.
 ![Home – Clipboard – Copy.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2105.png) 
 1. In the ***Copy Options*** window, go to the ***Preview*** tab. 
 1. Select all the content of the box, then copy and paste it in a text editor to retrieve the name of the field(s) that you would like to edit in a subsequent step. 
-1. In {{ en.RDM }} , close the ***Copy Options*** window, but make sure that you keep your entries selected in the ***{{ en.NPANE }}***. 
+1. In {{ en.RDM }}, close the ***Copy Options*** window, but make sure that you keep your entries selected in the ***{{ en.NPANE }}***. 
 1. With your entries still selected, go to ***Edit – Batch – Edit (Special Actions)*** in the ribbon. Alternatively, you can right-click your entry selection and select ***Edit – Edit (Special Actions)***. 
 1. In the ***General*** section, select ***Custom PowerShell Command***, then click ***OK***.  
 ![Special Action Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2106.png) 

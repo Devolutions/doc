@@ -13,8 +13,8 @@ title: Yubikey
 Before you start the configuration, make sure you have a ***Yubikey*** in your possession. 
 {% endsnippet %}
  
-1. If not already done, follow these [Multi-Factor Authentication Configuration steps](/rdm/windows/data-sources/multi-factor-authentication/) . 
-1. After having selected the ***Yubikey*** MFA type, click ***Configure*** .  
+1. If not already done, follow these [Multi-Factor Authentication Configuration steps](/rdm/windows/data-sources/multi-factor-authentication/). 
+1. After having selected the ***Yubikey*** MFA type, click ***Configure***.  
 ![Configure Multi-Factor Authentication](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10014.png) 
 1. Insert the ***Yubikey*** into a USB port of your computer. 
 1. Hold the gold button on the ***Yubikey*** to have the code filled in the field.  

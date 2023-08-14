@@ -46,7 +46,7 @@ Enregistrer l'entrée sélectionnée en tant que modèle local ou de la base de 
 </table>
 
 
-Un raccourci est la réitération d'une entrée existante. Contrairement à une entrée dupliquée, qui a son propre ID et ses propres propriétés, un raccourci est un lien vers une entrée et ses propriétés. Vous pouvez facilement créer des raccourcis en cliquant avec le bouton droit sur l'entrée ***Modifier - Créer un raccourci*** ou en utilisant le bouton susmentionné dans l'onglet ***Modifier*** . Il existe quelques scénarios dans lesquels un utilisateur souhaiterait utiliser la même entrée différemment, comme se connecter à deux hôtes différents avec une seule session RDP.  
+Un raccourci est la réitération d'une entrée existante. Contrairement à une entrée dupliquée, qui a son propre ID et ses propres propriétés, un raccourci est un lien vers une entrée et ses propriétés. Vous pouvez facilement créer des raccourcis en cliquant avec le bouton droit sur l'entrée ***Modifier - Créer un raccourci*** ou en utilisant le bouton susmentionné dans l'onglet ***Modifier***. Il existe quelques scénarios dans lesquels un utilisateur souhaiterait utiliser la même entrée différemment, comme se connecter à deux hôtes différents avec une seule session RDP.  
 
 Par exemple, il est possible de:  
 
@@ -131,14 +131,14 @@ DESCRIPTION
 Paramètres spécifiques de l'usager 
 		</td>
 		<td>
-Remplacer les propriétés de l'entrée sélectionnée par des paramètres spécifiques à l'utilisateur actuel. Pour plus d'informations, veuillez consulter la rubrique [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Remplacer les propriétés de l'entrée sélectionnée par des paramètres spécifiques à l'utilisateur actuel. Pour plus d'informations, veuillez consulter la rubrique [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 		<td>
 Paramètres spécifiques locaux 
 		</td>
 		<td>
-Remplacez les propriétés de l'entrée sélectionnée par des paramètres spécifiques à la machine locale. Pour plus d'informations, veuillez consulter la rubrique [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Remplacez les propriétés de l'entrée sélectionnée par des paramètres spécifiques à la machine locale. Pour plus d'informations, veuillez consulter la rubrique [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 </table>
@@ -166,14 +166,14 @@ DESCRIPTION
 Modifier (Actions spéciales) 
 		</td>
 		<td>
-Effectuer des actions spéciales sur les entrées sélectionnées, telles que changer le type, exécuter un script, etc. Pour plus d'informations, veuillez consulter les [Exemples d'actions par lot](/fr/rdm/windows/powershell-scripting/custom-powershell-commands/batch-actions-samples/) . 
+Effectuer des actions spéciales sur les entrées sélectionnées, telles que changer le type, exécuter un script, etc. Pour plus d'informations, veuillez consulter les [Exemples d'actions par lot](/fr/rdm/windows/powershell-scripting/custom-powershell-commands/batch-actions-samples/). 
 		</td>
 	</tr>
 		<td>
 Modifier le lot 
 		</td>
 		<td>
-Effectuer une modification sur plusieurs entrées à la fois. Cela est particulièrement utile pour effectuer des modifications en masse des entrées (comme changer le mode d'affichage après avoir modifié l'espace de travail ou leurs entrées d'identifiants lors du changement de vos mots de passe). Plusieurs entrées doivent être sélectionnées pour que cette fonction soit visible. Pour plus d'informations, veuillez consulter la rubrique [Modifier le lot](/fr/rdm/windows/commands/edit/batch/batch-edit/) . 
+Effectuer une modification sur plusieurs entrées à la fois. Cela est particulièrement utile pour effectuer des modifications en masse des entrées (comme changer le mode d'affichage après avoir modifié l'espace de travail ou leurs entrées d'identifiants lors du changement de vos mots de passe). Plusieurs entrées doivent être sélectionnées pour que cette fonction soit visible. Pour plus d'informations, veuillez consulter la rubrique [Modifier le lot](/fr/rdm/windows/commands/edit/batch/batch-edit/). 
 		</td>
 	</tr>
 		<td>
@@ -208,7 +208,7 @@ Exporter les entrées sélectionnées dans un format de fichier Remote Desktop (
 Exporter la sélection (.rdm) 
 		</td>
 		<td>
-Exporter les entrées sélectionnées dans un fichier .rdm qui peut ensuite être importé dans n'importe quelle source de données {{ fr.RDM }} . Vous pouvez choisir d'inclure les identifiants de votre entrée dans votre format d'exportation et de sécuriser votre fichier avec un mot de passe de source de données. 
+Exporter les entrées sélectionnées dans un fichier .rdm qui peut ensuite être importé dans n'importe quelle source de données {{ fr.RDM }}. Vous pouvez choisir d'inclure les identifiants de votre entrée dans votre format d'exportation et de sécuriser votre fichier avec un mot de passe de source de données. 
 		</td>
 	</tr>
 </table>

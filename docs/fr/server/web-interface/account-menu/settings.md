@@ -2,7 +2,7 @@
 title: Paramètres
 ---
 
-Dans la section ***Paramètres*** , modifiez les éléments de l'interface utilisateur Web. 
+Dans la section ***Paramètres***, modifiez les éléments de l'interface utilisateur Web. 
 
 ![Paramètres de l'interface utilisateur](https://webdevolutions.azureedge.net/docs/fr/server/clip7005.png) 
 

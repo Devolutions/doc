@@ -4,7 +4,7 @@ title: Barre d'état
 La barre d'état se trouve au bas de l'application. Elle est composée de plusieurs parties:  
 
 * Recherche / Filtre. 
-* Version de {{ fr.RDM }} . 
+* Version de {{ fr.RDM }}. 
 * La bascule En ligne / Hors ligne. 
 * La bascule de Saisie de l'entrée clavier. 
 

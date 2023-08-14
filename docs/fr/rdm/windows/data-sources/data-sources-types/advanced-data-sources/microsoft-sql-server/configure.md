@@ -27,7 +27,7 @@ Si votre base de données a été créée à l'aide d'un Super Utilisateur (exem
  
 ![Créer un compte administrateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3415.png) 
 
-8. Connectez-vous à la source de données SQL Server avec le compte d'administrateur {{ fr.RDM }} . Pour ce faire, allez dans {{ fr.RDM }} et cliquer sur le bouton de paramétrage pour éditer votre source de données SQL. Entrer ensuite le compte administrateur {{ fr.RDM }} que vous avez créé dans le nom d'utilisateur.  
+8. Connectez-vous à la source de données SQL Server avec le compte d'administrateur {{ fr.RDM }}. Pour ce faire, allez dans {{ fr.RDM }} et cliquer sur le bouton de paramétrage pour éditer votre source de données SQL. Entrer ensuite le compte administrateur {{ fr.RDM }} que vous avez créé dans le nom d'utilisateur.  
 ![Nom d'utilisateur et Mot de passe de l'administrateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11497.png) 
 
 La source de données Microsoft SQL Server est désormais correctement configurée. 

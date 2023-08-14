@@ -21,14 +21,14 @@ Paramètres spécifiques de l'usager
 		</td>
 		<td>
 
-Permets le remplacement des paramètres de session pour un usager. Pour plus d'informations, voir ***Paramètres spécifiques de l'usager*** . 
+Permets le remplacement des paramètres de session pour un usager. Pour plus d'informations, voir ***Paramètres spécifiques de l'usager***. 
 		</td>
 	</tr>
 		<td>
 Paramètres spécifiques locaux 
 		</td>
 		<td>
-Permets le remplacement des paramètres de session pour la machine locale. Pour plus d'informations, voir ***Paramètres spécifiques locaux*** . 
+Permets le remplacement des paramètres de session pour la machine locale. Pour plus d'informations, voir ***Paramètres spécifiques locaux***. 
 		</td>
 	</tr>
 </table>

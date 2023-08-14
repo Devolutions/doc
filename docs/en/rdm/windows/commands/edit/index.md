@@ -1,7 +1,7 @@
 ---
 title: Edit
 ---
-The ***Edit*** tab contains operations to quickly ***Add*** , ***Edit*** , ***Override*** , ***Batch Edit*** , or ***Export*** entries.  
+The ***Edit*** tab contains operations to quickly ***Add***, ***Edit***, ***Override***, ***Batch Edit***, or ***Export*** entries.  
 ![Ribbon - Edit](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10207.png) 
 
 ### Add 
@@ -174,7 +174,7 @@ DESCRIPTION
 Edit (Special Actions) 
 		</td>
 		<td>
-Perform special actions on the selected entries, such as change the type, run a script, and more. For more information, please consult the [Batch Actions Samples](/rdm/windows/powershell-scripting/custom-powershell-commands/batch-actions-samples/) . 
+Perform special actions on the selected entries, such as change the type, run a script, and more. For more information, please consult the [Batch Actions Samples](/rdm/windows/powershell-scripting/custom-powershell-commands/batch-actions-samples/). 
 		</td>
 	</tr>
 	<tr>

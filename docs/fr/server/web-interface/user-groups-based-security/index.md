@@ -4,7 +4,7 @@ order: 50
 ---
 La sécurité basée sur les groupes d'utilisateurs de {{ fr.DVLS }} permet de créer un système de protection granulaire assez flexible. Cependant, la flexibilité a un prix et parfois faire de mauvais choix peut augmenter le temps nécessaire à la gestion du système.  
 
-Les recommandations suivantes sont basées sur notre expérience avec le système et les idées partagées par notre communauté. Suivre ces instructions, car elles vous aideront à utiliser efficacement la sécurité basée sur les groupes d'utilisateurs de {{ fr.DVLS }} .  
+Les recommandations suivantes sont basées sur notre expérience avec le système et les idées partagées par notre communauté. Suivre ces instructions, car elles vous aideront à utiliser efficacement la sécurité basée sur les groupes d'utilisateurs de {{ fr.DVLS }}.  
 
 Voici les principaux points clés de la sécurité basée sur les groupes d'utilisateurs:  
 
@@ -14,19 +14,19 @@ Voici les principaux points clés de la sécurité basée sur les groupes d'util
 
 ## Configuration des groupes d'utilisateurs 
 
-Lors de l'utilisation de la sécurité basée sur les groupes d'utilisateurs de {{ fr.DVLS }} , les groupes d'utilisateurs sont principalement utilisés pour contrôler l'accès des utilisateurs pour plusieurs utilisateurs à la fois. 
+Lors de l'utilisation de la sécurité basée sur les groupes d'utilisateurs de {{ fr.DVLS }}, les groupes d'utilisateurs sont principalement utilisés pour contrôler l'accès des utilisateurs pour plusieurs utilisateurs à la fois. 
 
 ### Créer les groupes d'utilisateurs 
 
-Pour créer des groupes d'utilisateurs, accéder à ***Administration – Groupes d'utilisateurs*** , puis cliquer sur le bouton ***Ajouter*** pour ajouter un groupe. 
+Pour créer des groupes d'utilisateurs, accéder à ***Administration – Groupes d'utilisateurs***, puis cliquer sur le bouton ***Ajouter*** pour ajouter un groupe. 
 
 ![Ajouter un groupe d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/clip8034.png)
 
-Tous les paramètres peuvent être laissés à la valeur par défaut, sauf si le groupe contient uniquement des administrateurs. Dans ce cas, cochez la case ***Administrateur*** lors de la configuration du groupe. Entrer un nom pour le groupe d'utilisateurs, puis cliquer sur ***OK*** . Pour les groupes Active Directory, le domaine doit être fourni. 
+Tous les paramètres peuvent être laissés à la valeur par défaut, sauf si le groupe contient uniquement des administrateurs. Dans ce cas, cochez la case ***Administrateur*** lors de la configuration du groupe. Entrer un nom pour le groupe d'utilisateurs, puis cliquer sur ***OK***. Pour les groupes Active Directory, le domaine doit être fourni. 
 
 ![Configurer un groupe d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/clip8035.png)
 
-Pour attribuer des utilisateurs au groupe d'utilisateurs, cliquer sur ***Groupes d'utilisateurs***, puis cocher la case ***Est membre*** de l'utilisateur concerné. Avec un groupe d'utilisateurs créé à partir d'un groupe Active Directory, il n'est pas nécessaire d'attribuer des utilisateurs, car il est automatiquement géré par {{ fr.DVLS }} . 
+Pour attribuer des utilisateurs au groupe d'utilisateurs, cliquer sur ***Groupes d'utilisateurs***, puis cocher la case ***Est membre*** de l'utilisateur concerné. Avec un groupe d'utilisateurs créé à partir d'un groupe Active Directory, il n'est pas nécessaire d'attribuer des utilisateurs, car il est automatiquement géré par {{ fr.DVLS }}. 
 
 ![Attribution de groupe d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/clip8036.png)
 
@@ -34,15 +34,15 @@ Pour attribuer des utilisateurs au groupe d'utilisateurs, cliquer sur ***Groupes
 
 ### Modèle utilisateur 
 
-Il est possible de modifier le modèle utilisateur par défaut. Pour ce faire, accéder à ***Administration – Paramètres du système – Modèle utilisateur*** . Ces paramètres contrôlent les paramètres par défaut d'un nouvel utilisateur. La meilleure pratique consiste à désactiver tous les privilèges. 
+Il est possible de modifier le modèle utilisateur par défaut. Pour ce faire, accéder à ***Administration – Paramètres du système – Modèle utilisateur***. Ces paramètres contrôlent les paramètres par défaut d'un nouvel utilisateur. La meilleure pratique consiste à désactiver tous les privilèges. 
 
 ### Créer l'utilisateur 
 
-Pour créer des utilisateurs, accéder à ***Administration – Utilisateurs*** , puis cliquer sur ***Ajouter un utilisateur*** . Entrer un nom d'utilisateur, sélectionner le type d'utilisateur et entrer une adresse courriel. 
+Pour créer des utilisateurs, accéder à ***Administration – Utilisateurs***, puis cliquer sur ***Ajouter un utilisateur***. Entrer un nom d'utilisateur, sélectionner le type d'utilisateur et entrer une adresse courriel. 
 
 ![Ajouter un utilisateur](https://webdevolutions.azureedge.net/docs/fr/server/clip8037.png)
 
-Un utilisateur peut être affecté à plusieurs groupes d'utilisateurs à la fois en cochant la case ***Est membre*** des groupes respectifs dans la section ***Groupe d'utilisateurs*** de la ***Gestion des utilisateurs*** . Dans le cadre de l'intégration d'Active Directory, il n'est pas nécessaire d'attribuer des utilisateurs à ces groupes car il est automatiquement géré par {{ fr.DVLS }} . 
+Un utilisateur peut être affecté à plusieurs groupes d'utilisateurs à la fois en cochant la case ***Est membre*** des groupes respectifs dans la section ***Groupe d'utilisateurs*** de la ***Gestion des utilisateurs***. Dans le cadre de l'intégration d'Active Directory, il n'est pas nécessaire d'attribuer des utilisateurs à ces groupes car il est automatiquement géré par {{ fr.DVLS }}. 
 
 ![!!ServerOp4015.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4015.png) 
 
@@ -80,11 +80,11 @@ Lors de la création d'utilisateurs, certains points clés doivent être pris en
 
 L'accès est accordé ou refusé aux utilisateurs en définissant une permission sur les entrées. Les permissions peuvent être définies pour les utilisateurs ou les groupes d'utilisateurs. La meilleure pratique consiste à accorder des permissions aux groupes d'utilisateurs pour contrôler l'accès de plusieurs utilisateurs à la fois.  
 
-Pour définir des permissions sur une entrée, modifier une entrée, puis accéder à la section ***Sécurité – Permissions*** .  
+Pour définir des permissions sur une entrée, modifier une entrée, puis accéder à la section ***Sécurité – Permissions***.  
 
 ![Entrée - Sécurité - Permissions](https://webdevolutions.azureedge.net/docs/fr/server/clip8042.png)  
 
-Les permissions sont généralement définies sur les dossiers et s'appliquent à toutes les entrées enfants. Une meilleure pratique consiste à définir toutes les autorisations du dossier racine sur ***Jamais*** . Par conséquent, toutes les permissions de toutes les entrées sont refusées par défaut. 
+Les permissions sont généralement définies sur les dossiers et s'appliquent à toutes les entrées enfants. Une meilleure pratique consiste à définir toutes les autorisations du dossier racine sur ***Jamais***. Par conséquent, toutes les permissions de toutes les entrées sont refusées par défaut. 
 
 ![Racine - Sécurité - Permissions](https://webdevolutions.azureedge.net/docs/fr/server/clip8043.png)  
 

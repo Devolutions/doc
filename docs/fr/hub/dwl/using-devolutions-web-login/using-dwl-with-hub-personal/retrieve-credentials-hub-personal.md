@@ -42,7 +42,7 @@ Vous pouvez maintenant continuer à la [prochaine section](#récupération-des-i
 Cette section est basée sur les étapes de configuration de {{ fr.DWL }} qui se trouvent dans la [section précédente](#paramètres). Nous vous recommandons fortement de les suivre avant de poursuivre, puisque certaines fonctionnalités pourraient différer entre votre expérience et ce qui est indiqué ci-dessous. 
 {% endsnippet %}
  
-Vos identifiants peuvent être récupérés de {{ fr.HUBP }} automatiquement ou manuellement à partir de {{ fr.DWL }} . Suivez les étapes de la section qui correspond le mieux à vos besoins :  
+Vos identifiants peuvent être récupérés de {{ fr.HUBP }} automatiquement ou manuellement à partir de {{ fr.DWL }}. Suivez les étapes de la section qui correspond le mieux à vos besoins :  
 
 * [Récupérer les identifiants automatiquement](#récupérer-les-identifiants-automatiquement)  
 * [Récupérer les identifiants manuellement](#récupérer-les-identifiants-manuellement)  
@@ -52,7 +52,7 @@ Vos identifiants peuvent être récupérés de {{ fr.HUBP }} automatiquement ou 
 1. Aller à la page de connexion du site Web. Cette page sera différente pour chaque site Web; cette section utilisera le site Web d'Atlassian comme exemple. L'un des deux scénarios suivants peut se produire : 
     1. S'il n'y a qu'une seule entrée d'identifiants pour ce site Web, les champs de connexion devraient déjà être remplis avec les identifiants. Si c'est le cas, suivre le processus de connexion du site Web jusqu'à la connexion au compte. L'étape suivante peut alors être sautée. 
     ![Champs d'identifiants remplis automatiquement](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2122.png) 
-    1. S'il y a plusieurs entrées d'identifiants disponibles ou si vos identifiants ne sont pas remplis dans les champs, cliquer sur l'icône de {{ fr.DWL }} dans le champ d'identifiant et sélectionner l'entrée qui contient les identifiants pour ce site Web. Si plusieurs entrées sont disponibles, il est possible de faire une recherche en utilisant la barre de ***Filtre*** . Suivre le reste du processus de connexion du site Web jusqu'à la connexion au compte. 
+    1. S'il y a plusieurs entrées d'identifiants disponibles ou si vos identifiants ne sont pas remplis dans les champs, cliquer sur l'icône de {{ fr.DWL }} dans le champ d'identifiant et sélectionner l'entrée qui contient les identifiants pour ce site Web. Si plusieurs entrées sont disponibles, il est possible de faire une recherche en utilisant la barre de ***Filtre***. Suivre le reste du processus de connexion du site Web jusqu'à la connexion au compte. 
     ![Filtrer et sélectionner les entrées](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2129.png) 
 
 ### Récupérer les identifiants manuellement 
@@ -61,7 +61,7 @@ Selon les options que vous avez activées/désactivées, il est possible que vou
 
 1. Aller à la page de connexion du site Web. Cette page sera différente pour chaque site Web; cette section utilisera le site Web d'Atlassian comme exemple. 
 1. Cliquer sur l'extension {{ fr.DWL }} dans la barre d'outils de votre navigateur. Les entrées de site Web qui sont liées à ce site Web apparaitront. 
-1. Cliquer sur l'entrée de site Web qui contient les identifiants recherchés pour ce site Web. Si plusieurs entrées sont disponibles, il est possible de faire une recherche en utilisant la barre de ***Filtre*** .  
+1. Cliquer sur l'entrée de site Web qui contient les identifiants recherchés pour ce site Web. Si plusieurs entrées sont disponibles, il est possible de faire une recherche en utilisant la barre de ***Filtre***.  
 ![Sélection de l'entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2130.png)  
 
 {% snippet icon.badgeInfo %} 

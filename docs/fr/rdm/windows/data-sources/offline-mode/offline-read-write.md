@@ -7,16 +7,16 @@ Le mode ***Lecture/Écriture*** hors ligne permet à l'utilisateur d'ajouter, de
 Certaines fonctionnalités ne sont pas disponibles hors ligne et vous ne pourrez peut-être pas effectuer toutes les actions. Notez que le ***{{ fr.UVLT }}*** est toujours disponible en mode hors ligne. 
 {% endsnippet %}
  
-Une fois hors ligne, les paramètres de sécurité des utilisateurs s'appliquent toujours. Les privilèges d'ajout/modification/suppression accordés par l'administrateur sont toujours en vigueur. Voir [Gestion des utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/) .  
+Une fois hors ligne, les paramètres de sécurité des utilisateurs s'appliquent toujours. Les privilèges d'ajout/modification/suppression accordés par l'administrateur sont toujours en vigueur. Voir [Gestion des utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/).  
 
 ## Modifications hors connexion 
 
 Lorsqu'une entrée est modifiée par un utilisateur en ligne alors qu'un autre utilisateur est hors ligne, la version locale de l'entrée stockée dans le cache hors ligne devient différente de la version en ligne. Cela provoque un conflit lorsque l'utilisateur hors ligne se reconnecte.  
 
 1. Se connecter à la source de données. 
-1. Se mettre hors-ligne dans ***Fichier - Mettre hors-ligne*** . 
+1. Se mettre hors-ligne dans ***Fichier - Mettre hors-ligne***. 
 1. Modifier une entrée. 
-1. Se remettre en ligne dans ***Fichier - Aller en ligne*** . 
+1. Se remettre en ligne dans ***Fichier - Aller en ligne***. 
 
 La fenêtre ***Modifications hors connexion*** s'affiche:  
 ![Modifications hors connexion](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10394.png) 
@@ -44,5 +44,5 @@ Lorsque le conflit se produit, l'utilisateur doit décider d'accepter ou de reje
 
 ### Comparer les versions d'une entrée 
 
-Cliquer sur le bouton ***Comparer*** pour comparer les versions d'une entrée en conflit. Analyser la structure XML de l'entrée pour décider d' accepter ou de rejeter les modifications. 
+Cliquer sur le bouton ***Comparer*** pour comparer les versions d'une entrée en conflit. Analyser la structure XML de l'entrée pour décider d'accepter ou de rejeter les modifications. 
 

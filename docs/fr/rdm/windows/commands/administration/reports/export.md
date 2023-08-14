@@ -3,7 +3,7 @@ title: Exporter des rapports
 ---
 Les ***Rapports*** d'exportation sont un moyen d'exécuter et d'exporter des rapports via une ligne de commande. Vous pouvez utiliser cette fonctionnalité dans un raccourci ou dans un fichier de commandes et utiliser le planificateur de tâches Windows pour l'exécuter.  
 
-Vous pourrez exporter le rapport de données, le rapport d'inventaire ainsi que la plupart des rapports trouvés dans notre liste ***Générer le rapport*** , à l'exception du groupe d'utilisation et de sécurité des mots de passe.  
+Vous pourrez exporter le rapport de données, le rapport d'inventaire ainsi que la plupart des rapports trouvés dans notre liste ***Générer le rapport***, à l'exception du groupe d'utilisation et de sécurité des mots de passe.  
 
 {% snippet icon.badgeInfo %} 
 Vous devez avoir les droits pour exécuter le rapport dans {{ fr.RDM }} pour utiliser cette fonctionnalité. 
@@ -13,7 +13,7 @@ Vous devez avoir les droits pour exécuter le rapport dans {{ fr.RDM }} pour uti
 
 Pour les rapports contenant des paramètres, vous devrez commencer par exporter vos paramètres de rapport pour créer le fichier ****.rdr*** que la ligne de commande utilise pour générer les rapports.  
 
-1. Sélectionner votre rapport dans ***Administrations - Rapports*** , puis sélectionner l'option ***Paramètres d'exportation*** dans le bouton ***Plus*** . Il créera un fichier * .rdr contenant tous vos paramètres de rapport. C'est également là que se trouve votre ID du rapport (cela sera utile plus tard).  
+1. Sélectionner votre rapport dans ***Administrations - Rapports***, puis sélectionner l'option ***Paramètres d'exportation*** dans le bouton ***Plus***. Il créera un fichier .rdr contenant tous vos paramètres de rapport. C'est également là que se trouve votre ID du rapport (cela sera utile plus tard).  
 ![Paramètres d'exportation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10006.png) 
 1. Dans votre invite de commandes Windows, entrer la ligne de commande suivante:  
 
@@ -78,7 +78,7 @@ Cette commande fermera {{ fr.RDM }} si l'application a été démarrée à parti
 	</tr>
 </table>
 
-Pour trouver votre ID de source de données et la ligne de commande utilisée pour démarrer {{ fr.RDM }} , aller dans les propriétés d'une de vos sessions depuis votre source de données et sélectionner la section ***Informations de l'entrée*** .  
+Pour trouver votre ID de source de données et la ligne de commande utilisée pour démarrer {{ fr.RDM }}, aller dans les propriétés d'une de vos sessions depuis votre source de données et sélectionner la section ***Informations de l'entrée***.  
 ![Session RDP - Informations de l'entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10008.png) 
 
 Voici une liste des types de rapports que vous pouvez trouver dans {{ fr.RDM }} et le nom à entrer dans la ligne de commande pour générer le rapport:  

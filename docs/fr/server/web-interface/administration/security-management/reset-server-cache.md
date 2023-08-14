@@ -33,7 +33,7 @@ Domaine
 Office365  
 		</td>
 		<td>
-Lors de la réinitialisation du cache du ***Domaine*** ou d' ***Office365*** , il effacera les informations enregistrées dans la base de données et rechargera toutes les appartenances d'utilisateurs et de groupes extraites d'Active Directory ou d'Azure AD. 
+Lors de la réinitialisation du cache du ***Domaine*** ou d'***Office365***, il effacera les informations enregistrées dans la base de données et rechargera toutes les appartenances d'utilisateurs et de groupes extraites d'Active Directory ou d'Azure AD. 
 		</td>
 	</tr>
 </table>

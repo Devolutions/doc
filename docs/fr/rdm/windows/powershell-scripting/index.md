@@ -23,9 +23,9 @@ Module {{ fr.PS }} : Il s'agit d'un module qui expose de nombreuses cmdlets util
 [Actions personnalisées](/fr/rdm/windows/powershell-scripting/custom-powershell-commands/) 
 		</td>
 		<td>
-Il s'agit d'extraits de code PowerShell pouvant être exécutés directement dans {{ fr.RDM }} . Les actions peuvent être lancées à l'aide de la commande ***Modifier – Modifier – (Actions spéciales) – Commande PowerShell personnalisée***. Les avantages de cette approche sont les suivants :  
+Il s'agit d'extraits de code PowerShell pouvant être exécutés directement dans {{ fr.RDM }}. Les actions peuvent être lancées à l'aide de la commande ***Modifier – Modifier – (Actions spéciales) – Commande PowerShell personnalisée***. Les avantages de cette approche sont les suivants :  
 
-1. Il n'est pas nécessaire de gérer le chargement du module approprié pour l'instance de {{ fr.RDM }} . 
+1. Il n'est pas nécessaire de gérer le chargement du module approprié pour l'instance de {{ fr.RDM }}. 
 1. Il n'est pas nécessaire de gérer le filtrage des entrées. La plupart du temps, vous effectuerez une sélection manuelle directement dans votre ***{{ fr.NPANE }}*** ou, mieux encore, vous utiliserez la recherche avancée pour sélectionner les entrées en une seule fois. 
 		</td>
 	</tr>

@@ -6,7 +6,7 @@ eleventyComputed:
 
 ### Première connexion avec {{ fr.DWL }} 
 
-Suivez ces étapes pour connecter {{ fr.HUBB }} à l'extension {{ fr.DWL }} .  
+Suivez ces étapes pour connecter {{ fr.HUBB }} à l'extension {{ fr.DWL }}.  
 
 1. Cliquer sur l'extension {{ fr.DWL }} dans la barre d'outils de votre navigateur.  
 {% snippet icon.badgeNotice %} 

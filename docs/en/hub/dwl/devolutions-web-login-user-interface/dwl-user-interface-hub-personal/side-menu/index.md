@@ -1,7 +1,7 @@
 ---
 title: Side Menu
 ---
-Using the ***Side Menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area*** .  
+Using the ***Side Menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  
 
 When using {{ en.DWL }} with {{ en.HUBP }}, the available tabs are the ***Matching*** tab, the ***All Entries*** tab, the ***Favorites*** tab, the ***Recent*** tab, the ***Trash*** tab, and the ***Password Generator*** tab.  
 
@@ -14,7 +14,7 @@ In all tabs except the ***Password Generator*** tab, when hovering over an entry
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.  
 
 {% snippet icon.badgeInfo %} 
-For methods of retrieving your credentials, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) . 
+For methods of retrieving your credentials, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/). 
 {% endsnippet %}
  
 ![Matching Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2121.png) 
@@ -24,7 +24,7 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 At the bottom, the ***New Entry*** button gives you access to entry types that, when selected, open a new browser tab that allows you to manually add an entry in {{ en.HUBP }} through the {{ en.DWL }} extension.  
 
 {% snippet icon.badgeInfo %} 
-For a complete list of the available entries and fields in the ***New Entry*** window, visit [this topic](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/) . You can also consult our step-by-step guide on [how to add an entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/) . 
+For a complete list of the available entries and fields in the ***New Entry*** window, visit [this topic](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/). You can also consult our step-by-step guide on [how to add an entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/). 
 {% endsnippet %}
  
 ### All Entries tab 
@@ -33,9 +33,9 @@ The ***All Entries*** tab allows you to browse through all your folders and entr
 ![All Entries Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2122.png)  
 At the top, you can use the ***Filter*** bar to search through all your folders and entries.  
 
-To access an entry in {{ en.DWL }} , navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.HUBP }}.  
+To access an entry in {{ en.DWL }}, navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.HUBP }}.  
 
-When navigating in the folders, the [***New Entry***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/) button will appear at the bottom of the ***Content Area*** .  
+When navigating in the folders, the [***New Entry***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/) button will appear at the bottom of the ***Content Area***.  
 
 ### Favorites tab 
 
@@ -70,7 +70,7 @@ The ***Resurrect*** button allows you to bring back previously deleted entries. 
 The ***Password Generator*** tab assists you in creating a strong and secure password adapted to your needs and to website requirements for your new account.  
 ![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2126.png)  
 
-Your custom password is generated at the top of the ***Content Area*** with a strenght indicator below it. You can copy it or generate a new one using the ***Copy to Clipboard*** and ***Generate Password*** buttons respectively. The ***Password lenght*** , which is set to 12 by default, can also be adjusted.  
+Your custom password is generated at the top of the ***Content Area*** with a strenght indicator below it. You can copy it or generate a new one using the ***Copy to Clipboard*** and ***Generate Password*** buttons respectively. The ***Password lenght***, which is set to 12 by default, can also be adjusted.  
 
 In the ***General*** drop-down section, you are able to select the types of characters that your password must contain as well as the minimum number of characters of each type that must be included.  
 ![General Section](https://webdevolutions.azureedge.net/docs/en/hub/Hub2114.png)  
@@ -79,7 +79,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://webdevolutions.azureedge.net/docs/en/hub/Hub2115.png)  
 
 {% snippet icon.badgeInfo %} 
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/) . 
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/). 
 {% endsnippet %}
  
 ### Entry functionalities 
@@ -92,7 +92,7 @@ The ***Copy Username*** and ***Copy Password*** buttons copy the username/passwo
 The ***View*** button gives you an overview of the entry as well as additional functionalities. The availability of information and functionalities depends on the type of entry and the information provided in the entry, although some of them are always available:  
 
 * ***Edit*** / ***Delete*** the entry with the ellipses button at the top right. 
-* Mark your entry as favorite by clicking on the ***Add to Favorites*** icon next to the entry name. The entry will then show in the ***Favorites*** [tab](#favorites-tab) . 
+* Mark your entry as favorite by clicking on the ***Add to Favorites*** icon next to the entry name. The entry will then show in the ***Favorites*** [tab](#favorites-tab). 
 * View the location of your entry under the ***Folder*** section (if it is located under a folder). 
 * See when the entry was last modified and created under the ***Last Modified On*** and ***Created on*** sections respectively. 
 * Access and view files attached to the entry using the ***Attachments*** button.  

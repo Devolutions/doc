@@ -4,7 +4,7 @@ description: Here are the default keyboard shortcuts for various commands.
 keywords:
 - Keyboard Shortcuts
 ---
-Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Preferences – User Interface – Shortcuts*** .  
+Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Preferences – User Interface – Shortcuts***.  
 
 The ***Reset*** button undoes any shortcut custom changes that have not yet been saved. The ***Restore Defaults*** button returns all shortcuts to their default values.  
 
@@ -13,7 +13,7 @@ The ***Reset*** and ***Restore Defaults*** buttons erase your custom shortcuts, 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Visit our topic about [shortcut customization](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/) . 
+Visit our topic about [shortcut customization](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/). 
 {% endsnippet %}
  
 ![Keyboard Shortcuts](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2025.png) 

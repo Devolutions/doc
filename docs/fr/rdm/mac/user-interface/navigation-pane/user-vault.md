@@ -3,7 +3,7 @@ title: Coffre de l'utilisateur
 ---
 Le ***{{ fr.UVLT }}*** est un coffre personnalisé pour l'utilisateur pour les entrées de tout type. Il permet à chaque utilisateur de créer des entrées que lui seul peut voir.  
 
-Pour créer une nouvelle entrée dans votre {{ fr.UVLT }} , cliquer sur {{ fr.UVLT }} dans votre ***{{ fr.NPANE }}*** et créer votre nouvelle entrée directement à partir de là.  
+Pour créer une nouvelle entrée dans votre {{ fr.UVLT }}, cliquer sur {{ fr.UVLT }} dans votre ***{{ fr.NPANE }}*** et créer votre nouvelle entrée directement à partir de là.  
 
 {% snippet icon.badgeInfo %} 
 Le {{ fr.UVLT }} est uniquement disponible pour les sources de données suivantes: [SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/). 

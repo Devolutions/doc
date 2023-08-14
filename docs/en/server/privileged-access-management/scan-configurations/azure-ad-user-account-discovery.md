@@ -52,8 +52,8 @@ Search Mode
 
 The Search can be set by Groups or Roles .  
 
-* Groups : Retrieves the Azure AD accounts that are members of the selected groups. 
-* Roles : Retrieves the Azure AD accounts to which the selected roles have been assigned 
+* Groups: Retrieves the Azure AD accounts that are members of the selected groups. 
+* Roles: Retrieves the Azure AD accounts to which the selected roles have been assigned 
 		</td>
 	</tr>
 </table>

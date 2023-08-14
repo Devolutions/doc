@@ -8,7 +8,7 @@ Les ***Paramètres spécifiques*** sont utilisés pour remplacer les propriété
 * ***Paramètres spécifiques locaux*** remplacent les propriétés d'une entrée pour tous les utilisateurs d'un périphérique spécifique. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité est disponible seulement lors de l'utilisation d'une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . Un paramètre sur la source de données permet l'utilisation des Paramètres spécifiques. Contacter votre administrateur si le menu est grisé. 
+Cette fonctionnalité est disponible seulement lors de l'utilisation d'une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Un paramètre sur la source de données permet l'utilisation des Paramètres spécifiques. Contacter votre administrateur si le menu est grisé. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -16,7 +16,7 @@ Si les Paramètres spécifiques de l'usager et les Paramètres spécifiques loca
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Vous pouvez également y accéder en utilisant le clic droit sur une entrée et en allant dans ***Modifier - Paramètres spécifiques de l'usager/locaux*** . 
+Vous pouvez également y accéder en utilisant le clic droit sur une entrée et en allant dans ***Modifier - Paramètres spécifiques de l'usager/locaux***. 
 {% endsnippet %}
  
 ![Modifier – Paramètres spécifiques de l'usager/locaux](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10214.png) 

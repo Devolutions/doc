@@ -8,7 +8,7 @@ The {{ en.UVLT }} Search allows to link a {{ en.UVLT }} credential entry to a se
 
 ## Settings 
 
-1. Create a credential entry in the {{ en.UVLT }} .  
+1. Create a credential entry in the {{ en.UVLT }}.  
 ![User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6004.png) 
 1. In the remote session, set the Credentials property to {{ en.UVLT }} search and enter the exact name of the {{ en.UVLT }} credential. The search is not case sensitive, if more than one entry has the same name or if no entry matches the searched name, you will be prompted with a list of all available {{ en.UVLT }} credentials. Variables are supported as well.  
 ![RDP Session - User Vault Search](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6006.png) 

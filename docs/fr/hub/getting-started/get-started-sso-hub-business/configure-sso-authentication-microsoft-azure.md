@@ -14,7 +14,7 @@ Un [compte Azure AD](https://azure.microsoft.com/fr-fr/) avec les droits appropr
 **Dans {{ fr.DHUBB }}** 
 
 1. Accéder à ***Administration – Authentification***. 
-1. Dans ***Authentification unique (SSO)***, cliquer sur ***Configurer l'authentification unique (SSO)*** .  
+1. Dans ***Authentification unique (SSO)***, cliquer sur ***Configurer l'authentification unique (SSO)***.  
 ![Administration – Authentification – Authentification unique (SSO) – Configurer l'authentification unique (SSO)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2146.png) 
 
 Un fenêtre de configuration s'ouvrira.  
@@ -189,12 +189,12 @@ Les groupes imbriqués ne sont pas supportés, ce qui signifie que le provisionn
 **Dans {{ fr.DHUBB }}** 
 
 1. Accéder à ***Administration – Authentification***. 
-1. Dans ***Approvisionnement*** , ***Activer la synchronisation***.  
+1. Dans ***Approvisionnement***, ***Activer la synchronisation***.  
 ![Administration – Authentification – Approvisionnement – Activer la synchronisation](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2156.png) 
 
 La fréquence de provisionnement d'Azure est d'au plus 40 minutes. Les groupes d'utilisateurs, y compris leurs membres, se synchroniseront dans ce délai de provisionnement d'Azure. Nous vous recommandons de vérifier les premiers résultats du provisionnement.  
 
-Dans ***Administration – Groupes d'utilisateurs*** , les groupes d'utilisateurs Azure seront ajoutés. Ils sont reconnaissables à l'icône du groupe ***Est synchronisée*** à côté du nom du groupe.  
+Dans ***Administration – Groupes d'utilisateurs***, les groupes d'utilisateurs Azure seront ajoutés. Ils sont reconnaissables à l'icône du groupe ***Est synchronisée*** à côté du nom du groupe.  
 ![Groupes d'utilisateurs synchronisés](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2055.png) 
 
 Dans ***Administration – Utilisateurs***, tous les utilisateurs du groupe d'utilisateurs Azure qui font déjà partie du {{ fr.DHUB }} seront marqués comme synchronisés avec l'icône ***Est synchronisée*** à côté de leur nom. Tous les nouveaux utilisateurs faisant partie du groupe d'utilisateurs Azure synchronisé qui ne font pas partie du {{ fr.DHUB }} seront suggérés comme de [nouvelles invitations](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) dans ***Invitations nécessaires***.  

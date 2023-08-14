@@ -2,7 +2,7 @@
 title: Simplified Security
 ---
 {% snippet icon.badgeInfo %} 
-This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
@@ -17,17 +17,17 @@ The following tree structure represents entries which users have access to once 
 
 ### User Configuration 
 
-Here is an example for user configuration. To create users, navigate to ***Administration – Users – Add User*** .  
+Here is an example for user configuration. To create users, navigate to ***Administration – Users – Add User***.  
 
-The following rights selection is available when setting a user to ***Restricted user*** .  
+The following rights selection is available when setting a user to ***Restricted user***.  
 ![User Management - Rights Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3380.png) 
 
-***Administrators*** : administrators have a lot more access than regular users. When creating these users, set the User type to ***Administrator*** to give them access to everything. The administrator can access all entries, regardless of permissions.  
+***Administrators***: administrators have a lot more access than regular users. When creating these users, set the User type to ***Administrator*** to give them access to everything. The administrator can access all entries, regardless of permissions.  
 ![User Management - Administrator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3381.png) 
 
-***Regular users (User)*** : these users have fewer rights than administrators. They essentially have all the basic rights (except for ***View Password*** ) but are susceptible to all denied permissions. Later, we will deny these rights by specifying which users can actually perform these actions.  
+***Regular users (User)***: these users have fewer rights than administrators. They essentially have all the basic rights (except for ***View Password***) but are susceptible to all denied permissions. Later, we will deny these rights by specifying which users can actually perform these actions.  
 
-***Consultants*** : consultants can only view a subset of entries, we will set those as ***Read-Only*** . They cannot add, edit or otherwise affect the information in any way.  
+***Consultants***: consultants can only view a subset of entries, we will set those as ***Read-Only***. They cannot add, edit or otherwise affect the information in any way.  
 
 ### User Groups Configuration 
 

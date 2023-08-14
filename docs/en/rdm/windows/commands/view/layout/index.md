@@ -1,10 +1,10 @@
 ---
 title: Layout
 ---
-The ***Layout*** section located in the ***View*** tab includes several options for changing the display of {{ en.RDM }} . It is possible to enable/disable certain windows and tabs to customize your experience.  
+The ***Layout*** section located in the ***View*** tab includes several options for changing the display of {{ en.RDM }}. It is possible to enable/disable certain windows and tabs to customize your experience.  
 ![Layout Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2026.png) 
 
-Most tabbed windows can be moved and docked as you wish. This applies to the default styles ( ***Ribbon*** or ***Menu*** ). To learn more about this feature, see our [Docking](/rdm/windows/user-interface/customization/docking/) topic. The table below lists each option available in this section and provides a brief description of each. 
+Most tabbed windows can be moved and docked as you wish. This applies to the default styles (***Ribbon*** or ***Menu***). To learn more about this feature, see our [Docking](/rdm/windows/user-interface/customization/docking/) topic. The table below lists each option available in this section and provides a brief description of each. 
 
 <table>
 	<tr>
@@ -21,7 +21,7 @@ DESCRIPTION
 Navigation 
 		</td>
 		<td>
-Enable/disable the ***{{ en.NPANE }}*** . The keyboard shortcut Alt+F8 can also be used to perform these actions. See the [***{{ en.NPANE }}***](/rdm/windows/user-interface/navigation-pane/) topic for more information. 
+Enable/disable the ***{{ en.NPANE }}***. The keyboard shortcut Alt+F8 can also be used to perform these actions. See the [***{{ en.NPANE }}***](/rdm/windows/user-interface/navigation-pane/) topic for more information. 
 		</td>
 	</tr>
 	<tr>
@@ -29,7 +29,7 @@ Enable/disable the ***{{ en.NPANE }}*** . The keyboard shortcut Alt+F8 can also 
 Dashboard 
 		</td>
 		<td>
-Enable/disable the ***Dashboard*** . The keyboard shortcut Alt+F6 can also be used to perform these actions. See the [***Dashboard***](/rdm/windows/user-interface/content-area/dashboards/) topic for more information. 
+Enable/disable the ***Dashboard***. The keyboard shortcut Alt+F6 can also be used to perform these actions. See the [***Dashboard***](/rdm/windows/user-interface/content-area/dashboards/) topic for more information. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Enable/disable the ***Thumbnails*** pane. This option displays all active sessio
 Top Pane (Ribbon/Menubar) 
 		</td>
 		<td>
-Enable/disable the ***Top Pane*** . To make it reappear, simply right click on the {{ en.RDM }} title bar (the top bar), then select the ***Top Pane (Ribbon/Menubar)*** from the menu. The keyboard shortcut Alt+F11 can also be used to perform these actions. See the [***Top Pane***](/rdm/windows/user-interface/top-pane/) topic for more information. 
+Enable/disable the ***Top Pane***. To make it reappear, simply right click on the {{ en.RDM }} title bar (the top bar), then select the ***Top Pane (Ribbon/Menubar)*** from the menu. The keyboard shortcut Alt+F11 can also be used to perform these actions. See the [***Top Pane***](/rdm/windows/user-interface/top-pane/) topic for more information. 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +53,7 @@ Enable/disable the ***Top Pane*** . To make it reappear, simply right click on t
 Grouped Tab Bar 
 		</td>
 		<td>
-Enable/disable the ***Grouped Tab Bar*** . See the [***Grouped Tab Bar***](/rdm/windows/commands/view/layout/grouped-tab-bar/) topic for more information. 
+Enable/disable the ***Grouped Tab Bar***. See the [***Grouped Tab Bar***](/rdm/windows/commands/view/layout/grouped-tab-bar/) topic for more information. 
 		</td>
 	</tr>
 	<tr>
@@ -61,7 +61,7 @@ Enable/disable the ***Grouped Tab Bar*** . See the [***Grouped Tab Bar***](/rdm/
 Status Bar 
 		</td>
 		<td>
-Enable/disable the ***Status Bar*** . The keyboard shortcut Alt+F7 can also be used to perform these actions. See the [***Status Bar***](/rdm/windows/user-interface/status-bar/) topic for more information. 
+Enable/disable the ***Status Bar***. The keyboard shortcut Alt+F7 can also be used to perform these actions. See the [***Status Bar***](/rdm/windows/user-interface/status-bar/) topic for more information. 
 		</td>
 	</tr>
 	<tr>
@@ -77,7 +77,7 @@ Enable/disable the ***Description*** pane. This option allows you to add a descr
 Asset 
 		</td>
 		<td>
-Enable/disable the ***Asset*** pane. This option allows you to view ***Asset*** , ***Software*** , ***Hardware*** , ***Contact*** , and ***Purchase*** information as well as ***Notes*** related to the entry. It is not possible to edit information from this view. 
+Enable/disable the ***Asset*** pane. This option allows you to view ***Asset***, ***Software***, ***Hardware***, ***Contact***, and ***Purchase*** information as well as ***Notes*** related to the entry. It is not possible to edit information from this view. 
 		</td>
 	</tr>
 	<tr>

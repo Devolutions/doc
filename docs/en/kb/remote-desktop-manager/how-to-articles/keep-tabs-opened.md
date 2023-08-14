@@ -15,9 +15,9 @@ Enable the ***Keep tab on disconnect*** to be able to perform a logoff or restar
 
 This panel offers multiple actions:  
 
-* Close : You changed your mind and want to close the tab.
-* Connect : Connect the session.
-* Connect When Available : Pings the host until it becomes available, then connects the session.  
+* Close: You changed your mind and want to close the tab.
+* Connect: Connect the session.
+* Connect When Available: Pings the host until it becomes available, then connects the session.  
 
 If you wish to have the option enabled by default, edit your session and set the ***Keep tab page opened on disconnect*** option in ***Files - Options - Types*** to ***Yes***  
 

@@ -5,7 +5,7 @@ L'option ***Administration - Entrées supprimées*** vous permet d'afficher les 
 ![Administration - Entrées supprimées](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4208.png) 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

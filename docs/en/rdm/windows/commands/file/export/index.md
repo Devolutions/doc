@@ -16,7 +16,7 @@ The only appropriate formats to import vaults back into {{ en.RDM }} are the .rd
 ![File - Export](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10502.png) 
 
 {% snippet icon.badgeInfo %} 
-When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) , export capabilities can be disabled via security policies at the data source level (no one can export) or at a user level (particular users cannot export). 
+When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), export capabilities can be disabled via security policies at the data source level (no one can export) or at a user level (particular users cannot export). 
 {% endsnippet %}
  
 ### Export vault (.rdm) 
@@ -45,7 +45,7 @@ Export a simple host list in .csv format. You will be prompted to see if you wis
 
 Export the vault using the .csv format file. For security reasons the .csv file will be contained within a password encrypted zip file. This type of security can be hacked using brute force attacks, it should be used only when the zip file is under your exclusive control. 
 {% snippet icon.badgeInfo %} 
-Please note that the csv columns will vary depending on entry types being exported. This makes it the wrong format if ever you want to import the data back in {{ en.RDM }} . Use this only to migrate to another system. 
+Please note that the csv columns will vary depending on entry types being exported. This makes it the wrong format if ever you want to import the data back in {{ en.RDM }}. Use this only to migrate to another system. 
 {% endsnippet %}
  
 ### Export Vault (.html) 
@@ -63,7 +63,7 @@ Export all attachments or all document entries that are linked to your data sour
 
 ### Export "my personal credentials" (.rdm) 
 
-Export your ***My Personal Credentials*** in a .rdm file and encrypt with a ***Master key*** . 
+Export your ***My Personal Credentials*** in a .rdm file and encrypt with a ***Master key***. 
 {% snippet icon.badgeWarning %} 
 A ***Master key*** will encrypt the .rdm file to protect its content. The key is absolutely necessary for decryption. 
 {% endsnippet %}

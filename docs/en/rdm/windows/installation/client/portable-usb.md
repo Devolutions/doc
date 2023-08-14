@@ -4,7 +4,7 @@ title: Portable (USB)
 {{ en.RDM }} can be used as a portable application. Here are the steps required to ensure that it runs correctly: 
 
 {% snippet icon.badgeInfo %} 
-The portable installation mode allows you to run multiple versions of {{ en.RDM }} , using various license serials and configurations. 
+The portable installation mode allows you to run multiple versions of {{ en.RDM }}, using various license serials and configurations. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

@@ -8,7 +8,7 @@ The Multi Vault Search feature of {{ en.RDMMAC }} allows you to search for folde
 
 ### Criteria Types 
 
-The following criteria are available to refine your search: ***Connection type*** , ***Creation date*** , ***Folder*** , ***Last update date*** , ***Name*** and ***Software*** . 
+The following criteria are available to refine your search: ***Connection type***, ***Creation date***, ***Folder***, ***Last update date***, ***Name*** and ***Software***. 
 {% snippet icon.badgeInfo %} 
 At least one criterion must be used to filter your results, and a maximum of four criteria can be applied at once. 
 {% endsnippet %}
@@ -75,11 +75,11 @@ Search by typing part or all of a word in the name of the entries or folders or 
 The results are displayed when the ***Search*** button is pressed. Once done, the name of all entries and the vault in which they are located are shown in the results field.  
 ![Search Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0031.png) 
 
-It is possible to select multiple entries at once by shift-clicking or all of them with the Cmd+A shortcut. Right-clicking one or more entries shows the same menu and options as in the ***{{ en.NPANE }}*** . 
+It is possible to select multiple entries at once by shift-clicking or all of them with the Cmd+A shortcut. Right-clicking one or more entries shows the same menu and options as in the ***{{ en.NPANE }}***. 
 
 ### Other functions 
 
-The ***Select in {{ en.NPANE }}*** button, when pressed, takes you directly to the selected entry or folder in the corresponding vault's ***{{ en.NPANE }}*** .  
+The ***Select in {{ en.NPANE }}*** button, when pressed, takes you directly to the selected entry or folder in the corresponding vault's ***{{ en.NPANE }}***.  
 
 The ***Reset*** button clears all your search results and options, giving you a clean slate for a new search. 
 

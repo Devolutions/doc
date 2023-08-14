@@ -2,7 +2,7 @@
 title: General
 order: 10
 ---
-The ***General*** tab section contains the basics information of the {{ en.DVLS }} instance such as the ***Name*** , ***Description*** , ***License*** , etc. 
+The ***General*** tab section contains the basics information of the {{ en.DVLS }} instance such as the ***Name***, ***Description***, ***License***, etc. 
 
 ![Server Settings - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8006.png) 
 

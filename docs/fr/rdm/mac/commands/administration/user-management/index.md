@@ -1,21 +1,21 @@
 ---
 title: Gestion des utilisateurs
 ---
-La gestion des utilisateurs est disponible dans le menu ***Administration - Utilisateurs*** . La gestion des utilisateurs vous permet de créer, gérer et attribuer des droits à un utilisateur.  
+La gestion des utilisateurs est disponible dans le menu ***Administration - Utilisateurs***. La gestion des utilisateurs vous permet de créer, gérer et attribuer des droits à un utilisateur.  
 ![Administration - Utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4113.png) 
 
-{{ fr.RDM }} permet une gestion avancée des droits d'utilisateur vous permettant de contrôler la façon dont une session est utilisée par chaque utilisateur. Noter que certains contrôles de visibilité dépendent de la source de données active. Il n'existe actuellement aucun moyen d'hériter des droits de sécurité d'un groupe, car ils doivent être attribués individuellement à chaque utilisateur. Si vous utilisez le [{{ fr.DVLS }}](/fr/server/overview/what-is-server/) , vous pourrez alors utiliser la sécurité intégrée avec Active Directory. 
+{{ fr.RDM }} permet une gestion avancée des droits d'utilisateur vous permettant de contrôler la façon dont une session est utilisée par chaque utilisateur. Noter que certains contrôles de visibilité dépendent de la source de données active. Il n'existe actuellement aucun moyen d'hériter des droits de sécurité d'un groupe, car ils doivent être attribués individuellement à chaque utilisateur. Si vous utilisez le [{{ fr.DVLS }}](/fr/server/overview/what-is-server/), vous pourrez alors utiliser la sécurité intégrée avec Active Directory. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Pour créer des utilisateurs et attribuer des droits, vous devez être administrateur non seulement de {{ fr.RDM }} , mais également de la base de données sous-jacente. 
+Pour créer des utilisateurs et attribuer des droits, vous devez être administrateur non seulement de {{ fr.RDM }}, mais également de la base de données sous-jacente. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) . 
+Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/). 
 {% endsnippet %}
  
 
@@ -23,11 +23,11 @@ Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources
 
 ### Créer des utilisateurs 
 
-Pour créer un nouvel utilisateur, cliquez sur le plus. Vous pouvez créer un utilisateur en utilisant la sécurité par défaut (en spécifiant le mot de passe) ou la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) . Consulter la rubrique [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) pour plus d'informations sur les droits qui peuvent être ajoutése à un utilisateur. Vous pouvez attribuer différentes options de sécurité à l'utilisateur, telles que lui permettre d'utiliser le mode Hors connexion .  
+Pour créer un nouvel utilisateur, cliquez sur le plus. Vous pouvez créer un utilisateur en utilisant la sécurité par défaut (en spécifiant le mot de passe) ou la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/). Consulter la rubrique [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) pour plus d'informations sur les droits qui peuvent être ajoutése à un utilisateur. Vous pouvez attribuer différentes options de sécurité à l'utilisateur, telles que lui permettre d'utiliser le mode Hors connexion .  
 ![Gestion des usagers et de la sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0292.png) 
 
 {% snippet icon.badgeInfo %} 
-Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) . 
+Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/). 
 {% endsnippet %}
  
 ## Paramètres 
@@ -62,7 +62,7 @@ Sélectionner votre type d'authentification entre:
 Connexion 
 		</td>
 		<td>
-Nom de connexion de l'utilisateur. Lorsque vous utilisez la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) , vous devez sélectionner l'utilisateur dans le répertoire. 
+Nom de connexion de l'utilisateur. Lorsque vous utilisez la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/), vous devez sélectionner l'utilisateur dans le répertoire. 
 		</td>
 	</tr>
 	<tr>
@@ -70,7 +70,7 @@ Nom de connexion de l'utilisateur. Lorsque vous utilisez la [Sécurité intégr�
 Sécurité intégrée 
 		</td>
 		<td>
-Spécifie d'utiliser l'authentification intégrée de Windows pour s'authentifier auprès de la source de données. S'applique uniquement à SQL Server et {{ fr.DVLS }} , selon leur configuration. Lorsque cette case est cochée, un bouton de sélection apparaît pour vous permettre de rechercher le compte d'utilisateur dans le répertoire. Consultez la rubrique [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) pour plus d'informations. 
+Spécifie d'utiliser l'authentification intégrée de Windows pour s'authentifier auprès de la source de données. S'applique uniquement à SQL Server et {{ fr.DVLS }}, selon leur configuration. Lorsque cette case est cochée, un bouton de sélection apparaît pour vous permettre de rechercher le compte d'utilisateur dans le répertoire. Consultez la rubrique [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -86,7 +86,7 @@ Insérer l'adresse courriel de l'utilisateur.
 Mot de passe 
 		</td>
 		<td>
-Saisir le mot de passe de l'utilisateur. Ce champ est désactivé lors de l'utilisation de la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) . 
+Saisir le mot de passe de l'utilisateur. Ce champ est désactivé lors de l'utilisation de la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/). 
 		</td>
 	</tr>
 	<tr>
@@ -176,7 +176,7 @@ Importer
 		</td>
 		<td>
 
-Permets à l'utilisateur d' [Importer](/fr/rdm/mac/commands/file/import/overview/) des entrées ( [Presse-papiers](/fr/rdm/mac/commands/home/clipboard/) - Coller également). 
+Permets à l'utilisateur d'[Importer](/fr/rdm/mac/commands/file/import/overview/) des entrées ([Presse-papiers](/fr/rdm/mac/commands/home/clipboard/) - Coller également). 
 Le menu d'importation (Fichier - Importer) et la fonction d'importation dans le menu contextuel seront grisés si l'option n'est pas active. 
 		</td>
 	</tr>
@@ -185,7 +185,7 @@ Le menu d'importation (Fichier - Importer) et la fonction d'importation dans le 
 Exporter 
 		</td>
 		<td>
-Permets à l'utilisateur d' [Exporter](/fr/rdm/mac/commands/file/export/overview/) des entrées ( [Presse-papiers](/fr/rdm/mac/commands/home/clipboard/) - Copier également). 
+Permets à l'utilisateur d'[Exporter](/fr/rdm/mac/commands/file/export/overview/) des entrées ([Presse-papiers](/fr/rdm/mac/commands/home/clipboard/) - Copier également). 
 Le menu d'exportation (Fichier - Exporter) et la fonction d'exportation dans le menu contextuel seront grisés si l'option n'est pas active. 
 		</td>
 	</tr>
@@ -227,7 +227,7 @@ Lecture seule
 		</td>
 		<td>
 
-Un cache en lecture seule est autorisé pour les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+Un cache en lecture seule est autorisé pour les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 		</td>
 	</tr>
 	<tr>
@@ -235,7 +235,7 @@ Un cache en lecture seule est autorisé pour les [Sources de données avancées]
 Lecture/Écriture 
 		</td>
 		<td>
-Un cache avancé, avec synchronisation des modifications, est autorisé pour les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+Un cache avancé, avec synchronisation des modifications, est autorisé pour les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 		</td>
 	</tr>
 </table>
