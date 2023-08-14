@@ -1,5 +1,5 @@
 ---
-title: Configure the Active Directory Admin
+title: Configure the Azure Active Directory administrator
 ---
 To enable SQL Server Azure Active Directory Authentication, you must first configure the Azure Active Directory admin of the server. 
 {% snippet icon.badgeInfo %} 
