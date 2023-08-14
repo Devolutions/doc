@@ -1,15 +1,15 @@
 ---
 title: Nouvelle entrée
 ---
-Le bouton ***Nouvelle entrée*** n 'est que disponible dans l 'onglet [***Correspondant***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#onglet-correspondant) , qui est l 'onglet sélectionné à l 'ouverture de l 'extension, ou lorsque vous parcourez les entrées dans l 'onglet [***Toutes les entrées***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#onglet-toutes-les-entrées) . Vous pouvez choisir de crééer une nouvelle entrée de ***Site Web*** , de ***Carte de crédit*** , de ***Contact*** ou de ***Note sécurisée*** .  
+Le bouton ***Nouvelle entrée*** n'est que disponible dans l'onglet [***Correspondant***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#onglet-correspondant) , qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les entrées dans l'onglet [***Toutes les entrées***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#onglet-toutes-les-entrées) . Vous pouvez choisir de crééer une nouvelle entrée de ***Site Web*** , de ***Carte de crédit*** , de ***Contact*** ou de ***Note sécurisée*** .  
 ![Sélection du type de nouvelle entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2091.png) 
 
-Lorsque le type d 'entrée est sélectionné, un nouvel onglet est ouvert dans votre navigateur qui vous permet d 'ajouter une entrée de ce type dans {{ fr.HUBP }} via {{ fr.DWL }} .  
+Lorsque le type d'entrée est sélectionné, un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de ce type dans {{ fr.HUBP }} via {{ fr.DWL }} .  
 
-Lorsque {{ fr.HUBP }} est utilisé comme source de données, la configuration de base de l 'entrée est exécutée dans l 'onglet ***Général*** , mais des paramètres supplémentaires sont aussi disponibles dans d 'autres onglets. Vous trouverez ci-dessous un exemple des paramètres de l 'onglet ***Général*** lors de la création d 'une entrée de site Web.  
+Lorsque {{ fr.HUBP }} est utilisé comme source de données, la configuration de base de l'entrée est exécutée dans l'onglet ***Général*** , mais des paramètres supplémentaires sont aussi disponibles dans d'autres onglets. Vous trouverez ci-dessous un exemple des paramètres de l'onglet ***Général*** lors de la création d'une entrée de site Web.  
 ![Nouvelle entrée - Site Web (onglet Général)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2092.png) 
 
-Les tableaux ci-dessous répertorient tous les champs/paramètres disponibles dans la fenêtre ***Nouvelle entrée - Site Web*** . Les différentes sections et sous-sections représentent respectivement les types d 'entrées et les onglets du menu de gauche.  
+Les tableaux ci-dessous répertorient tous les champs/paramètres disponibles dans la fenêtre ***Nouvelle entrée - Site Web*** . Les différentes sections et sous-sections représentent respectivement les types d'entrées et les onglets du menu de gauche.  
 
 ## Entrée de site Web 
 
@@ -45,7 +45,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Sélectionner un dossier 
 		</td>
 		<td>
-Sélectionner dans l 'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
+Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
 		</td>
 	</tr>
 	<tr>
@@ -54,7 +54,7 @@ Hôte
 		</td>
 		<td>
 
-Dans la liste déroulante, sélectionner la manière dont {{ fr.DWL }} récupérera l 'hôte entre ***Personnalisé*** , ***Liés (coffre)*** ou ***Hérité*** . Si vous sélectionnez ***Personnalisé*** , le champ ***URL*** (voir ci-dessous) apparaîtra. Si vous sélectionnez ***Liés (coffre)*** , une liste déroulante apparaîtra dans laquelle vous pourrez sélectionner l 'hôte. 
+Dans la liste déroulante, sélectionner la manière dont {{ fr.DWL }} récupérera l'hôte entre ***Personnalisé*** , ***Liés (coffre)*** ou ***Hérité*** . Si vous sélectionnez ***Personnalisé*** , le champ ***URL*** (voir ci-dessous) apparaîtra. Si vous sélectionnez ***Liés (coffre)*** , une liste déroulante apparaîtra dans laquelle vous pourrez sélectionner l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -62,7 +62,7 @@ Dans la liste déroulante, sélectionner la manière dont {{ fr.DWL }} récupér
 URL 
 		</td>
 		<td>
-Saisir l 'URL de la page de connexion du site Web. Ce champ est rempli automatiquement par {{ fr.DWL }} , mais il peut tout de même être modifié. 
+Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiquement par {{ fr.DWL }} , mais il peut tout de même être modifié. 
 		</td>
 	</tr>
 	<tr>
@@ -75,12 +75,12 @@ Dans la liste déroulante, sélectionner ***Personnalisé*** , ***Lié (Coffre)*
 	</tr>
 	<tr>
 		<td>
-Nom d 'utilisateur 
+Nom d'utilisateur 
 		</td>
 		<td>
-Saisir le nom d 'utilisateur utilisé pour se connecter au site Web.  
+Saisir le nom d'utilisateur utilisé pour se connecter au site Web.  
 
-Ce champ n 'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Identifiants*** . 
+Ce champ n'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Identifiants*** . 
 		</td>
 	</tr>
 	<tr>
@@ -90,7 +90,7 @@ Domaine
 		<td>
 Saisir le domaine du site Web.  
 
-Ce champ n 'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Identifiants*** . 
+Ce champ n'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Identifiants*** . 
 		</td>
 	</tr>
 	<tr>
@@ -100,7 +100,7 @@ Mot de passe
 		<td>
 Saisir le mot de passe utilisé pour se connecter au site Web. Le mot de passe sera caché. Sous le champ se trouve un indicateur de force pour votre mot de passe.  
 
-Ce champ n 'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Identifiants*** . 
+Ce champ n'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Identifiants*** . 
 		</td>
 	</tr>
 	<tr>
@@ -110,7 +110,7 @@ Afficher/Masquer le mot de passe
 		<td>
 Afficher ou masquer le mot de passe qui a été saisi.  
 
-Ce champ n 'est disponible à côté du champ ***Mot de passe*** que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Identifiants*** . 
+Ce champ n'est disponible à côté du champ ***Mot de passe*** que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Identifiants*** . 
 		</td>
 	</tr>
 	<tr>
@@ -126,7 +126,7 @@ Ouvrir le ***Générateur de mots de passe*** qui permet de créer un mot de pas
 Type de correspondance 
 		</td>
 		<td>
-Sélectionner comment l 'URL saisie est comparée et mise en correspondance avec l 'URL du site Web. Choisir entre ***Par défaut*** , ***Domaine de base*** , ***Comparer le regex avec le domaine de l 'URL*** , ***Comparer le regex avec l 'URL complète*** , ***Hôte*** , ***Commencer par*** , ***Exact*** ou ***Jamais*** . 
+Sélectionner comment l'URL saisie est comparée et mise en correspondance avec l'URL du site Web. Choisir entre ***Par défaut*** , ***Domaine de base*** , ***Comparer le regex avec le domaine de l'URL*** , ***Comparer le regex avec l'URL complète*** , ***Hôte*** , ***Commencer par*** , ***Exact*** ou ***Jamais*** . 
 		</td>
 	</tr>
 	<tr>
@@ -134,7 +134,7 @@ Sélectionner comment l 'URL saisie est comparée et mise en correspondance avec
 {{ fr.DWL }} 
 		</td>
 		<td>
-Dans la liste déroulante, sélectionner entre ***Par défaut*** , ***Désactivé*** ou ***Activé*** . Si cette option est désactivée, vos identifiants pour cette entrée ne seront pas suggérés lors de l 'accès à ce site Web particulier. Il est donc recommandé de laisser cette option activée. 
+Dans la liste déroulante, sélectionner entre ***Par défaut*** , ***Désactivé*** ou ***Activé*** . Si cette option est désactivée, vos identifiants pour cette entrée ne seront pas suggérés lors de l'accès à ce site Web particulier. Il est donc recommandé de laisser cette option activée. 
 		</td>
 	</tr>
 </table>
@@ -156,7 +156,7 @@ Authentification
 		</td>
 		<td>
 
-Sélectionner l 'authentification ***Formulaire*** ou ***Basic*** en fonction du site Web. La valeur par défaut est ***Formulaire*** et, dans la plupart des cas, il n 'est pas nécessaire de la modifier. 
+Sélectionner l'authentification ***Formulaire*** ou ***Basic*** en fonction du site Web. La valeur par défaut est ***Formulaire*** et, dans la plupart des cas, il n'est pas nécessaire de la modifier. 
 		</td>
 	</tr>
 	<tr>
@@ -164,9 +164,9 @@ Sélectionner l 'authentification ***Formulaire*** ou ***Basic*** en fonction du
 Remplissage automatique des identifiants 
 		</td>
 		<td>
-Activer cette option si vous voulez que {{ fr.DWL }} remplisse automatiquement vos identifiants lors du chargement de la page de connexion du site Web. Cela ne s 'appliquera qu 'à cette entrée spécifique.  
+Activer cette option si vous voulez que {{ fr.DWL }} remplisse automatiquement vos identifiants lors du chargement de la page de connexion du site Web. Cela ne s'appliquera qu'à cette entrée spécifique.  
 
-L 'option ***Remplissage automatique des identifiants*** est similaire à l 'option ***Remplir automatiquement les champs d 'identifiants lors du chargement*** dans les [***Paramètres***](/fr/hub/dwl/settings/) de {{ fr.DWL }} , à la différence que la première s 'applique uniquement à l 'entrée spécifique et que la seconde s 'applique à toutes vos entrées. Notez que le paramètre {{ fr.DWL }} prévaut sur le ***Remplissage automatique des identifiants*** . 
+L'option ***Remplissage automatique des identifiants*** est similaire à l'option ***Remplir automatiquement les champs d'identifiants lors du chargement*** dans les [***Paramètres***](/fr/hub/dwl/settings/) de {{ fr.DWL }} , à la différence que la première s'applique uniquement à l'entrée spécifique et que la seconde s'applique à toutes vos entrées. Notez que le paramètre {{ fr.DWL }} prévaut sur le ***Remplissage automatique des identifiants*** . 
 		</td>
 	</tr>
 	<tr>
@@ -174,9 +174,9 @@ L 'option ***Remplissage automatique des identifiants*** est similaire à l 'opt
 Soumission automatique 
 		</td>
 		<td>
-Activer cette option si vous voulez que {{ fr.DWL }} soumette automatiquement vos identifiants après qu 'ils soient remplis dans les champs. Cela ne s 'appliquera qu 'à cette entrée spécifique.  
+Activer cette option si vous voulez que {{ fr.DWL }} soumette automatiquement vos identifiants après qu'ils soient remplis dans les champs. Cela ne s'appliquera qu'à cette entrée spécifique.  
 
-L 'option ***Soumission automatique*** est similaire à l 'option ***Soumettre automatiquement le formulaire après la saisie*** dans les [***Paramètres***](/fr/hub/dwl/settings/) de {{ fr.DWL }} , à la différence que la première s 'applique uniquement à l 'entrée spécifique et que la seconde s 'applique à toutes vos entrées. Notez que le paramètre {{ fr.DWL }} prévaut sur la ***Soumission automatique*** . 
+L'option ***Soumission automatique*** est similaire à l'option ***Soumettre automatiquement le formulaire après la saisie*** dans les [***Paramètres***](/fr/hub/dwl/settings/) de {{ fr.DWL }} , à la différence que la première s'applique uniquement à l'entrée spécifique et que la seconde s'applique à toutes vos entrées. Notez que le paramètre {{ fr.DWL }} prévaut sur la ***Soumission automatique*** . 
 		</td>
 	</tr>
 	<tr>
@@ -184,9 +184,9 @@ L 'option ***Soumission automatique*** est similaire à l 'option ***Soumettre a
 Encoder les identifiants en URL 
 		</td>
 		<td>
-Activer cette option pour encoder les identifiants dans l 'URL du site Web.  
+Activer cette option pour encoder les identifiants dans l'URL du site Web.  
 
-Cette option n 'est disponible que si ***Basic*** est sélectionné dans la liste déroulante ***Authentification*** . 
+Cette option n'est disponible que si ***Basic*** est sélectionné dans la liste déroulante ***Authentification*** . 
 		</td>
 	</tr>
 	<tr>
@@ -196,7 +196,7 @@ Délai de remplissage automatique
 		<td>
 Activer cette option pour appliquer un délai avant que {{ fr.DWL }} ne remplisse automatiquement vos identifiants.  
 
-Cette option n 'est disponible que si ***Formulaire*** est sélectionné dans la liste déroulante ***Authentification*** . 
+Cette option n'est disponible que si ***Formulaire*** est sélectionné dans la liste déroulante ***Authentification*** . 
 		</td>
 	</tr>
 </table>
@@ -234,7 +234,7 @@ Saisir une URL qui mène à la même page ou qui est équivalente à celle du ch
 Type de comparaison 
 		</td>
 		<td>
-Sélectionner comment l 'URL saisie est comparée et mise en correspondance avec l 'URL du site Web. Choisir entre ***Par défaut*** , ***Domaine de base*** , ***Comparer le regex avec le domaine de l 'URL*** , ***Comparer le regex avec l 'URL complète*** , ***Hôte*** , ***Commencer par*** , ***Exact*** ou ***Jamais*** . 
+Sélectionner comment l'URL saisie est comparée et mise en correspondance avec l'URL du site Web. Choisir entre ***Par défaut*** , ***Domaine de base*** , ***Comparer le regex avec le domaine de l'URL*** , ***Comparer le regex avec l'URL complète*** , ***Hôte*** , ***Commencer par*** , ***Exact*** ou ***Jamais*** . 
 		</td>
 	</tr>
 </table>
@@ -264,7 +264,7 @@ Ajouter un nouveau ***Contrôle personnalisé*** .
 ID de la forme 
 		</td>
 		<td>
-Saisir l ' ***ID de la forme*** du site Web de connexion. 
+Saisir l' ***ID de la forme*** du site Web de connexion. 
 		</td>
 	</tr>
 	<tr>
@@ -272,15 +272,15 @@ Saisir l ' ***ID de la forme*** du site Web de connexion.
 ID du contrôle 
 		</td>
 		<td>
-Saisir l ' ***ID du contrôle*** du site Web de connexion. 
+Saisir l' ***ID du contrôle*** du site Web de connexion. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Type d 'entrée 
+Type d'entrée 
 		</td>
 		<td>
-Sélectionner le ***Type d 'entrée*** entre ***text*** , ***email*** et ***password*** . 
+Sélectionner le ***Type d'entrée*** entre ***text***, ***email*** et ***password***. 
 		</td>
 	</tr>
 	<tr>
@@ -288,7 +288,7 @@ Sélectionner le ***Type d 'entrée*** entre ***text*** , ***email*** et ***pass
 Valeur 
 		</td>
 		<td>
-Saisir une ***Valeur*** pour votre ***Contrôle personnalisé*** . 
+Saisir une ***Valeur*** pour votre ***Contrôle personnalisé***. 
 		</td>
 	</tr>
 	<tr>
@@ -296,7 +296,7 @@ Saisir une ***Valeur*** pour votre ***Contrôle personnalisé*** .
 Masquer les informations 
 		</td>
 		<td>
-Activer cette option pour cacher les informations présentes dans le champ ***Valeur*** . L 'activation de cette option fait aussi apparaître le bouton ***Afficher/Masquer le mot de passe*** et un indicateur de force de mot de passe. 
+Activer cette option pour cacher les informations présentes dans le champ ***Valeur***. L'activation de cette option fait aussi apparaître le bouton ***Afficher/Masquer le mot de passe*** et un indicateur de force de mot de passe. 
 		</td>
 	</tr>
 	<tr>
@@ -306,7 +306,7 @@ Afficher/Masquer le mot de passe
 		<td>
 Afficher ou masquer le mot de passe qui a été saisi.  
 
-Ce champ n 'est disponible à côté du champ ***Valeur*** que si l 'option ***Masquer les informations*** est activée. 
+Ce champ n'est disponible à côté du champ ***Valeur*** que si l'option ***Masquer les informations*** est activée. 
 		</td>
 	</tr>
 	<tr>
@@ -314,7 +314,7 @@ Ce champ n 'est disponible à côté du champ ***Valeur*** que si l 'option ***M
 Toujours demander les valeurs 
 		</td>
 		<td>
-Activer cette option pour que l 'on vous demande de saisir la valeur à chaque fois au lieu de remplir le champ ***Valeur*** plus haut. 
+Activer cette option pour que l'on vous demande de saisir la valeur à chaque fois au lieu de remplir le champ ***Valeur*** plus haut. 
 		</td>
 	</tr>
 </table>
@@ -336,15 +336,15 @@ ID de la forme
 		</td>
 		<td>
 
-Saisir l ' ***ID de la forme*** du site Web de connexion. 
+Saisir l' ***ID de la forme*** du site Web de connexion. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-ID de l 'utilisateur 
+ID de l'utilisateur 
 		</td>
 		<td>
-Saisir l ' ***ID de l 'utilisateur*** du site Web de connexion. 
+Saisir l' ***ID de l'utilisateur*** du site Web de connexion. 
 		</td>
 	</tr>
 	<tr>
@@ -352,7 +352,7 @@ Saisir l ' ***ID de l 'utilisateur*** du site Web de connexion.
 ID domaine 
 		</td>
 		<td>
-Saisir l ' ***ID du domaine*** du site Web de connexion. 
+Saisir l' ***ID du domaine*** du site Web de connexion. 
 		</td>
 	</tr>
 	<tr>
@@ -360,7 +360,7 @@ Saisir l ' ***ID du domaine*** du site Web de connexion.
 ID du mot de passe 
 		</td>
 		<td>
-Saisir l ' ***ID du mot de passe*** du site Web de connexion. 
+Saisir l' ***ID du mot de passe*** du site Web de connexion. 
 		</td>
 	</tr>
 	<tr>
@@ -368,7 +368,7 @@ Saisir l ' ***ID du mot de passe*** du site Web de connexion.
 ID du mot de passe à usage unique (OTP) 
 		</td>
 		<td>
-Saisir l ' ***ID du mot de passe à usage unique (OTP)*** du site Web de connexion. 
+Saisir l' ***ID du mot de passe à usage unique (OTP)*** du site Web de connexion. 
 		</td>
 	</tr>
 	<tr>
@@ -376,7 +376,7 @@ Saisir l ' ***ID du mot de passe à usage unique (OTP)*** du site Web de connexi
 ID bouton connexion 
 		</td>
 		<td>
-Saisir l ' ***ID du bouton de connexion*** du site Web de connexion. 
+Saisir l' ***ID du bouton de connexion*** du site Web de connexion. 
 		</td>
 	</tr>
 </table>
@@ -398,7 +398,7 @@ Question
 		</td>
 		<td>
 
-Saisir une ***Question*** personnalisée pour sécuriser l 'entrée. 
+Saisir une ***Question*** personnalisée pour sécuriser l'entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -446,7 +446,7 @@ Clé
 		<td>
 Saisir la ***Clé*** du mot de passe à usage unique (OTP).  
 
-Ce champ n 'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
+Ce champ n'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
 		</td>
 	</tr>
 	<tr>
@@ -456,7 +456,7 @@ Afficher/Masquer le mot de passe
 		<td>
 Afficher ou masquer la clé du mot de passe à usage unique (OTP) saisi dans le champ ***Clé*** .  
 
-Ce bouton n 'est disponible à côté du champ ***Clé*** que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
+Ce bouton n'est disponible à côté du champ ***Clé*** que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
 		</td>
 	</tr>
 	<tr>
@@ -466,7 +466,7 @@ Compte
 		<td>
 Saisir vos informations de ***Compte*** .  
 
-Ce champ n 'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
+Ce champ n'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
 		</td>
 	</tr>
 	<tr>
@@ -476,7 +476,7 @@ Code QR - Application
 		<td>
 Saisir le ***Code QR*** de votre mot de passe à usage unique (OTP).  
 
-Ce champ n 'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
+Ce champ n'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
 		</td>
 	</tr>
 	<tr>
@@ -486,7 +486,7 @@ Délai
 		<td>
 Définir la durée de validité de chaque mot de passe (en secondes). Cette valeur doit être fixée à au moins 15 secondes.  
 
-Ce champ n 'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
+Ce champ n'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
 		</td>
 	</tr>
 	<tr>
@@ -496,7 +496,7 @@ Taille du code
 		<td>
 Sélectionner la taille du code entre ***6 chiffres*** ou ***8 chiffres*** .  
 
-Ce champ n 'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
+Ce champ n'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** . 
 		</td>
 	</tr>
 	<tr>
@@ -504,11 +504,11 @@ Ce champ n 'est disponible que si ***Personnalisé*** est sélectionné dans la 
 Algorithme de hachage 
 		</td>
 		<td>
-Sélectionner l 'algorithme de hachage sécurisé (SHA) entre ***SHA-1*** , ***SHA-256*** ou ***SHA-512*** .  
+Sélectionner l'algorithme de hachage sécurisé (SHA) entre ***SHA-1*** , ***SHA-256*** ou ***SHA-512*** .  
 
-Ce champ n 'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** .  
+Ce champ n'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source*** .  
 
-Pour en apprendre davantage sur l 'algorithme de hachage sécurisé, visitez [notre rubrique sur le SHA-256](/fr/kb/general-knowledge-base/what-is-sha-256/) . 
+Pour en apprendre davantage sur l'algorithme de hachage sécurisé, visitez [notre rubrique sur le SHA-256](/fr/kb/general-knowledge-base/what-is-sha-256/) . 
 		</td>
 	</tr>
 </table>
@@ -593,7 +593,7 @@ Masquer/Afficher
 		<td>
 
 Masquer ou afficher la valeur du champ personnalisé. 
-Ce bouton n 'est disponible que pour les ***Champs personnalisés cachés*** (voir ci-dessous). 
+Ce bouton n'est disponible que pour les ***Champs personnalisés cachés*** (voir ci-dessous). 
 		</td>
 	</tr>
 	<tr>
@@ -601,7 +601,7 @@ Ce bouton n 'est disponible que pour les ***Champs personnalisés cachés*** (vo
 Ajouter 
 		</td>
 		<td>
-Créer un nouveau champ personnalisé à l 'aide de ce bouton. Vous pouvez choisir entre ***Texte*** et ***Caché*** . Les deux vous permettent de saisir une valeur pour votre champ personnalisé. Sélectionner ***Texte*** vous donne plus d 'options de texte dans le champ ***Valeur*** , tandis que sélectionner ***Caché*** vous donne accès à l 'option ***Masquer/Afficher*** (voir le paramètre ci-dessus). 
+Créer un nouveau champ personnalisé à l'aide de ce bouton. Vous pouvez choisir entre ***Texte*** et ***Caché*** . Les deux vous permettent de saisir une valeur pour votre champ personnalisé. Sélectionner ***Texte*** vous donne plus d'options de texte dans le champ ***Valeur*** , tandis que sélectionner ***Caché*** vous donne accès à l'option ***Masquer/Afficher*** (voir le paramètre ci-dessus). 
 		</td>
 	</tr>
 </table>
@@ -639,7 +639,7 @@ Ajouter des mots clés (étiquettes) pour vous aider à trouver vos entrées ou 
 Expire après 
 		</td>
 		<td>
-Activer cette option pour fixer une date d 'expiration pour l 'entrée. Vous pouvez sélectionner la date dans le champ à côté de ce paramètre. 
+Activer cette option pour fixer une date d'expiration pour l'entrée. Vous pouvez sélectionner la date dans le champ à côté de ce paramètre. 
 		</td>
 	</tr>
 	<tr>
@@ -647,7 +647,7 @@ Activer cette option pour fixer une date d 'expiration pour l 'entrée. Vous pou
 Hôte 
 		</td>
 		<td>
-Saisir le nom de l 'hôte. 
+Saisir le nom de l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -655,14 +655,14 @@ Saisir le nom de l 'hôte.
 Employé 
 		</td>
 		<td>
-Saisir le nom de l 'employé. 
+Saisir le nom de l'employé. 
 		</td>
 	</tr>
 </table>
 
 ### Autres 
 
-Les boutons suivants se trouvent au bas de la fenêtre ***Nouvelle entrée - Site Web*** et sont présents peu importe l 'onglet sélectionné.  
+Les boutons suivants se trouvent au bas de la fenêtre ***Nouvelle entrée - Site Web*** et sont présents peu importe l'onglet sélectionné.  
 
 <table>
 	<tr>
@@ -678,7 +678,7 @@ DESCRIPTION
 Ajouter 
 		</td>
 		<td>
-Enregistrer les paramètres de la nouvelle entrée de site Web et créer l 'entrée. 
+Enregistrer les paramètres de la nouvelle entrée de site Web et créer l'entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -725,7 +725,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Sélectionner un dossier 
 		</td>
 		<td>
-Sélectionner dans l 'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
+Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
 		</td>
 	</tr>
 	<tr>
@@ -763,10 +763,10 @@ Afficher ou masque le ***Numéro de carte*** saisi.
 	</tr>
 	<tr>
 		<td>
-Date d 'expiration 
+Date d'expiration 
 		</td>
 		<td>
-Saisir une ***Date d 'expiration*** pour la carte. 
+Saisir une ***Date d'expiration*** pour la carte. 
 		</td>
 	</tr>
 	<tr>
@@ -822,7 +822,7 @@ Masquer/Afficher
 
 Masquer ou afficher la valeur du champ personnalisé.  
 
-Ce bouton n 'est disponible que pour les ***Champs personnalisés cachés*** (voir ci-dessous). 
+Ce bouton n'est disponible que pour les ***Champs personnalisés cachés*** (voir ci-dessous). 
 		</td>
 	</tr>
 	<tr>
@@ -830,7 +830,7 @@ Ce bouton n 'est disponible que pour les ***Champs personnalisés cachés*** (vo
 Ajouter 
 		</td>
 		<td>
-Créer un nouveau champ personnalisé à l 'aide de ce bouton. Vous pouvez choisir entre ***Texte*** et ***Caché*** . Les deux vous permettent de saisir une valeur pour votre champ personnalisé. Sélectionner ***Texte*** vous donne plus d 'options de texte dans le champ ***Valeur*** , tandis que sélectionner ***Caché*** vous donne accès à l 'option ***Masquer/Afficher*** (voir le paramètre ci-dessus). 
+Créer un nouveau champ personnalisé à l'aide de ce bouton. Vous pouvez choisir entre ***Texte*** et ***Caché*** . Les deux vous permettent de saisir une valeur pour votre champ personnalisé. Sélectionner ***Texte*** vous donne plus d'options de texte dans le champ ***Valeur*** , tandis que sélectionner ***Caché*** vous donne accès à l'option ***Masquer/Afficher*** (voir le paramètre ci-dessus). 
 		</td>
 	</tr>
 </table>
@@ -868,7 +868,7 @@ Ajouter des mots clés (étiquettes) pour vous aider à trouver vos entrées ou 
 Expire après 
 		</td>
 		<td>
-Activer cette option pour fixer une date d 'expiration pour l 'entrée. Vous pouvez sélectionner la date dans le champ à côté de ce paramètre. 
+Activer cette option pour fixer une date d'expiration pour l'entrée. Vous pouvez sélectionner la date dans le champ à côté de ce paramètre. 
 		</td>
 	</tr>
 	<tr>
@@ -876,7 +876,7 @@ Activer cette option pour fixer une date d 'expiration pour l 'entrée. Vous pou
 Hôte 
 		</td>
 		<td>
-Saisir le nom de l 'hôte. 
+Saisir le nom de l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -884,14 +884,14 @@ Saisir le nom de l 'hôte.
 Employé 
 		</td>
 		<td>
-Saisir le nom de l 'employé. 
+Saisir le nom de l'employé. 
 		</td>
 	</tr>
 </table>
 
 ### Autres 
 
-Les boutons suivants se trouvent au bas de la fenêtre ***Nouvelle entrée - Carte de crédit*** et sont présents peu importe l 'onglet sélectionné.  
+Les boutons suivants se trouvent au bas de la fenêtre ***Nouvelle entrée - Carte de crédit*** et sont présents peu importe l'onglet sélectionné.  
 
 <table>
 	<tr>
@@ -907,7 +907,7 @@ DESCRIPTION
 Ajouter 
 		</td>
 		<td>
-Enregistrer les paramètres de la nouvelle entrée de site Web et créer l 'entrée. 
+Enregistrer les paramètres de la nouvelle entrée de site Web et créer l'entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -954,7 +954,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Sélectionner un dossier 
 		</td>
 		<td>
-Sélectionner dans l 'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
+Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
 		</td>
 	</tr>
 	<tr>
@@ -995,7 +995,7 @@ Saisir le ***Nom*** du contact.
 Courriel 
 		</td>
 		<td>
-Saisir l 'adresse ***Courriel*** du contact. 
+Saisir l'adresse ***Courriel*** du contact. 
 		</td>
 	</tr>
 	<tr>
@@ -1011,7 +1011,7 @@ Saisir le ***Pays*** du contact.
 État 
 		</td>
 		<td>
-Saisir l ' ***État*** du contact. 
+Saisir l' ***État*** du contact. 
 		</td>
 	</tr>
 	<tr>
@@ -1035,7 +1035,7 @@ Saisir le ***Code postal*** du contact.
 Adresse 
 		</td>
 		<td>
-Saisir l ' ***Adresse*** du contact. 
+Saisir l' ***Adresse*** du contact. 
 		</td>
 	</tr>
 	<tr>
@@ -1122,7 +1122,7 @@ Masquer/Afficher
 		<td>
 Masquer ou afficher la valeur du champ personnalisé.  
 
-Ce bouton n 'est disponible que pour les ***Champs personnalisés cachés*** (voir ci-dessous). 
+Ce bouton n'est disponible que pour les ***Champs personnalisés cachés*** (voir ci-dessous). 
 		</td>
 	</tr>
 	<tr>
@@ -1130,7 +1130,7 @@ Ce bouton n 'est disponible que pour les ***Champs personnalisés cachés*** (vo
 Ajouter 
 		</td>
 		<td>
-Créer un nouveau champ personnalisé à l 'aide de ce bouton. Vous pouvez choisir entre ***Texte*** et ***Caché*** . Les deux vous permettent de saisir une valeur pour votre champ personnalisé. Sélectionner ***Texte*** vous donne plus d 'options de texte dans le champ ***Valeur*** , tandis que sélectionner ***Caché*** vous donne accès à l 'option ***Masquer/Afficher*** (voir le paramètre ci-dessus). 
+Créer un nouveau champ personnalisé à l'aide de ce bouton. Vous pouvez choisir entre ***Texte*** et ***Caché*** . Les deux vous permettent de saisir une valeur pour votre champ personnalisé. Sélectionner ***Texte*** vous donne plus d'options de texte dans le champ ***Valeur*** , tandis que sélectionner ***Caché*** vous donne accès à l'option ***Masquer/Afficher*** (voir le paramètre ci-dessus). 
 		</td>
 	</tr>
 </table>
@@ -1167,7 +1167,7 @@ Ajouter des mots clés (étiquettes) pour vous aider à trouver vos entrées ou 
 
 ### Autres 
 
-Les boutons suivants se trouvent au bas de la fenêtre ***Nouvelle entrée - Contact*** et sont présents peu importe l 'onglet sélectionné.  
+Les boutons suivants se trouvent au bas de la fenêtre ***Nouvelle entrée - Contact*** et sont présents peu importe l'onglet sélectionné.  
 
 <table>
 	<tr>
@@ -1183,7 +1183,7 @@ DESCRIPTION
 Ajouter 
 		</td>
 		<td>
-Enregistrer les paramètres de la nouvelle entrée de site Web et créer l 'entrée. 
+Enregistrer les paramètres de la nouvelle entrée de site Web et créer l'entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -1230,7 +1230,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Sélectionner un dossier 
 		</td>
 		<td>
-Sélectionner dans l 'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
+Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
 		</td>
 	</tr>
 	<tr>
@@ -1286,7 +1286,7 @@ Masquer/Afficher
 		<td>
 
 Masquer ou afficher la valeur du champ personnalisé. 
-Ce bouton n 'est disponible que pour les ***Champs personnalisés cachés*** (voir ci-dessous). 
+Ce bouton n'est disponible que pour les ***Champs personnalisés cachés*** (voir ci-dessous). 
 		</td>
 	</tr>
 	<tr>
@@ -1294,7 +1294,7 @@ Ce bouton n 'est disponible que pour les ***Champs personnalisés cachés*** (vo
 Ajouter 
 		</td>
 		<td>
-Créer un nouveau champ personnalisé à l 'aide de ce bouton. Vous pouvez choisir entre ***Texte*** et ***Caché*** . Les deux vous permettent de saisir une valeur pour votre champ personnalisé. Sélectionner ***Texte*** vous donne plus d 'options de texte dans le champ ***Valeur*** , tandis que sélectionner ***Caché*** vous donne accès à l 'option ***Masquer/Afficher*** (voir le paramètre ci-dessus). 
+Créer un nouveau champ personnalisé à l'aide de ce bouton. Vous pouvez choisir entre ***Texte*** et ***Caché*** . Les deux vous permettent de saisir une valeur pour votre champ personnalisé. Sélectionner ***Texte*** vous donne plus d'options de texte dans le champ ***Valeur*** , tandis que sélectionner ***Caché*** vous donne accès à l'option ***Masquer/Afficher*** (voir le paramètre ci-dessus). 
 		</td>
 	</tr>
 </table>
@@ -1332,7 +1332,7 @@ Ajouter des mots clés (étiquettes) pour vous aider à trouver vos entrées ou 
 Expire après 
 		</td>
 		<td>
-Activer cette option pour fixer une date d 'expiration pour l 'entrée. Vous pouvez sélectionner la date dans le champ à côté de ce paramètre. 
+Activer cette option pour fixer une date d'expiration pour l'entrée. Vous pouvez sélectionner la date dans le champ à côté de ce paramètre. 
 		</td>
 	</tr>
 	<tr>
@@ -1340,7 +1340,7 @@ Activer cette option pour fixer une date d 'expiration pour l 'entrée. Vous pou
 Hôte 
 		</td>
 		<td>
-Saisir le nom de l 'hôte. 
+Saisir le nom de l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -1348,14 +1348,14 @@ Saisir le nom de l 'hôte.
 Employé 
 		</td>
 		<td>
-Saisir le nom de l 'employé. 
+Saisir le nom de l'employé. 
 		</td>
 	</tr>
 </table>
 
 ### Autres 
 
-Les boutons suivants se trouvent au bas de la fenêtre ***Nouvelle entrée - Note sécurisée*** et sont présents peu importe l 'onglet sélectionné.  
+Les boutons suivants se trouvent au bas de la fenêtre ***Nouvelle entrée - Note sécurisée*** et sont présents peu importe l'onglet sélectionné.  
 
 <table>
 	<tr>
@@ -1371,7 +1371,7 @@ DESCRIPTION
 Ajouter 
 		</td>
 		<td>
-Enregistrer les paramètres de la nouvelle entrée de site Web et créer l 'entrée. 
+Enregistrer les paramètres de la nouvelle entrée de site Web et créer l'entrée. 
 		</td>
 	</tr>
 	<tr>

@@ -1,9 +1,9 @@
 ---
 title: Mode de réservation
 ---
-Le ***Mode de réservation*** verrouille une entrée pendant qu 'elle est utilisée ou modifiée. Il empêche les utilisateurs d 'utiliser ou de modifier une entrée en même temps.  
+Le ***Mode de réservation*** verrouille une entrée pendant qu'elle est utilisée ou modifiée. Il empêche les utilisateurs d'utiliser ou de modifier une entrée en même temps.  
 
-Il peut être activé sur les entrées de type ***Général***, de ***Session***, d' ***Information*** et d' ***Identifiant***. 
+Il peut être activé sur les entrées de type ***Général***, de ***Session***, d'***Information*** et d'***Identifiant***. 
 {% snippet icon.badgeInfo %} 
 Les administrateurs peuvent ***Forcer la restitution*** des entrées ***Réserver*** par les utilisateurs. Sélectionner l'entrée ***Réserver***, dans la bannière supérieure, cliquer sur ***Forcer la restitution***. 
 {% endsnippet %}

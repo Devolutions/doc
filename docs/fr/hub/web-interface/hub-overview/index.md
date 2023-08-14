@@ -19,7 +19,7 @@ Menu de la barre latérale
 		</td>
 		<td>
 
-Cliquer sur l 'icône de menu pour naviguer dans les sections ***Recherche*** , ***Coffre*** , ***Coffre d 'utilisateur*** , ***Rapports*** , ***Administration*** et ***Outils*** . 
+Cliquer sur l'icône de menu pour naviguer dans les sections ***Recherche*** , ***Coffre*** , ***Coffre d'utilisateur*** , ***Rapports*** , ***Administration*** et ***Outils*** . 
 		</td>
 	</tr>
 	<tr>
@@ -27,7 +27,7 @@ Cliquer sur l 'icône de menu pour naviguer dans les sections ***Recherche*** , 
 Sélecteur de coffre 
 		</td>
 		<td>
-Cliquer sur le sélecteur de coffre, dans la partie centrale supérieure de votre navigateur, pour basculer entre tous vos coffres et accéder à votre ***Coffre d 'utilisateur*** . 
+Cliquer sur le sélecteur de coffre, dans la partie centrale supérieure de votre navigateur, pour basculer entre tous vos coffres et accéder à votre ***Coffre d'utilisateur*** . 
 		</td>
 	</tr>
 	<tr>
@@ -67,7 +67,7 @@ Sélectionner un coffre dans le ***{{ fr.NPANE }}*** pour afficher les interacti
 Tableau de bord des entrées 
 		</td>
 		<td>
-Sélectionner une entrée pour l 'afficher, la lancer et interagir avec elle. 
+Sélectionner une entrée pour l'afficher, la lancer et interagir avec elle. 
 		</td>
 	</tr>
 </table>

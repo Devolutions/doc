@@ -37,7 +37,7 @@ Chaque onglet affiche une vue différente dans la ***Zone de contenu*** . Les on
 
 * l 'onglet ***Corresponsant***, où vous pouvez trouver les identifiants disponibles pour un site Web spécifique; 
 * l 'onglet ***Coffres***, où vous pouvez trouver toutes les entrées de {{ fr.HUBB }} que vous avez synchronisées, réparties dans vos différents coffres et dossiers; 
-* l 'onglet ***Coffre d 'utilisateur***, où vous pouvez trouver les entrées que vous avez stockées dans votre ***Coffre d 'utilisateur*** de {{ fr.HUBB }}, réparties dans vos différents dossiers; 
+* l 'onglet ***Coffre d'utilisateur***, où vous pouvez trouver les entrées que vous avez stockées dans votre ***Coffre d'utilisateur*** de {{ fr.HUBB }}, réparties dans vos différents dossiers; 
 * l 'onglet ***Générateur de mots de passe***, où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte.  
 
-Consultez notre rubrique [Menu latéral](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/) pour obtenir davantage d 'informations sur chacun des onglets. 
+Consultez notre rubrique [Menu latéral](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 

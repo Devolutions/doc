@@ -8,7 +8,7 @@ eleventyComputed:
 
 Suivez ces étapes pour connecter {{ fr.HUBB }} à l'extension {{ fr.DWL }} .  
 
-1. Cliquer sur l'extension {{ fr.DWL }} dans la barre d 'outils de votre navigateur.  
+1. Cliquer sur l'extension {{ fr.DWL }} dans la barre d'outils de votre navigateur.  
 {% snippet icon.badgeNotice %} 
 Un accès à {{ fr.HUBB }} est requis pour continuer. 
 {% endsnippet %}
@@ -23,7 +23,7 @@ Un accès à {{ fr.HUBB }} est requis pour continuer.
 ![Entrée des identifiants de {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4024.png) 
 1. Une fois terminé, un message confirmant votre connexion apparaîtra.  
 ![Connexion réussie au {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4053.png) 
-1. Cliquer sur l 'icône dans la barre d 'outils du navigateur Web pour valider que {{ fr.DWL }} est désormais connecté à {{ fr.HUBB }}.  
+1. Cliquer sur l'icône dans la barre d'outils du navigateur Web pour valider que {{ fr.DWL }} est désormais connecté à {{ fr.HUBB }}.  
 ![Association réussie de {{ fr.HUBB }} à {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4058.png) 
 1. Pour sélectionner les coffres à synchroniser, cliquer sur l'onglet ***Coffres*** dans le ***Menu latéral***, puis cliquer sur le bouton ***Sélectionner des coffres à synchroniser***.  
 ![Onglet Coffres](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4059.png) 

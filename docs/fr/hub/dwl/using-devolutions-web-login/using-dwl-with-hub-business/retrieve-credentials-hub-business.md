@@ -6,9 +6,9 @@ eleventyComputed:
 Vous avez besoin d'entrées de site Web dans {{ fr.HUBB }} pour pouvoir récupérer leurs identifiants. Si ce n'est pas le cas, commencez par [Ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/). 
 {% endsnippet %}
  
-{{ fr.DWL }} facilite l 'accès à vos identifiants en faisant automatiquement correspondre les sites Web aux identifiants enregistrés dans les entrée de sites Web de {{ fr.HUBB }}. Il est également possible de filtrer vos entrées via {{ fr.DWL }} pour trouver manuellement vos identifiants.  
+{{ fr.DWL }} facilite l'accès à vos identifiants en faisant automatiquement correspondre les sites Web aux identifiants enregistrés dans les entrée de sites Web de {{ fr.HUBB }}. Il est également possible de filtrer vos entrées via {{ fr.DWL }} pour trouver manuellement vos identifiants.  
 
-Après l ' [installation](/fr/hub/dwl/installation/) de {{ fr.DWL }} et son [couplage](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) avec {{ fr.HUBB }}, vous pouvez immédiatement utiliser l'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d'abord les étapes de la section [Paramètres](#paramètres) : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la [Récupération des identifiants](#récupération-des-identifiants).  
+Après l' [installation](/fr/hub/dwl/installation/) de {{ fr.DWL }} et son [couplage](/fr/hub/dwl/first-login-devolutions-web-login/hub-business/) avec {{ fr.HUBB }}, vous pouvez immédiatement utiliser l'extension pour retrouver vos identifiants. Cependant, vous voudrez peut-être modifier certains des paramètres pour personnaliser votre expérience. Nous vous recommandons de suivre d'abord les étapes de la section [Paramètres](#paramètres) : elles vous guideront dans la configuration de {{ fr.DWL }} en vous suggérant les meilleures pratiques pour récupérer les identifiants. Vous pouvez également sauter la configuration et passer directement à la [Récupération des identifiants](#récupération-des-identifiants).  
 
 ## Paramètres 
 
@@ -65,7 +65,7 @@ Selon les options que vous avez activées/désactivées, il est possible que vou
 ![Sélection de l'entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2125.png) 
 
 {% snippet icon.badgeInfo %} 
-Si nécessaire, vous pouvez également utiliser les icônes qui apparaissent lorsque vous passez la souris sur l 'entrée pour copier votre nom d 'utilisateur, copier votre mot de passe ou obtenir un aperçu de l 'entrée. 
+Si nécessaire, vous pouvez également utiliser les icônes qui apparaissent lorsque vous passez la souris sur l'entrée pour copier votre nom d'utilisateur, copier votre mot de passe ou obtenir un aperçu de l'entrée. 
 {% endsnippet %}
  
 4. Les identifiants seront transférés dans les champs d'identifiants du site Web. Suivre le reste du processus de connexion du site Web jusqu'à la connexion au compte.  

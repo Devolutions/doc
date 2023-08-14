@@ -5,7 +5,7 @@ La section ***Audit*** permet à tous les utilisateurs d'utiliser les outils ***
 
 ## Analyseur de sécurité d'entrées 
 
-Dans l'***Analyseur de sécurité d 'entrées***, valider et gérer l'occurrence et la force des mots de passe utilisés et enregistrés dans les entrées par vos utilisateurs.  
+Dans l'***Analyseur de sécurité d'entrées***, valider et gérer l'occurrence et la force des mots de passe utilisés et enregistrés dans les entrées par vos utilisateurs.  
 
 Cliquer sur le ***Nom*** de l'entrée pour être redirigé et gérer les propriétés de l'entrée. Vous pouvez également, à des fins de rapports, affiner votre recherche avec les filtres et créer un document CSV en cliquant sur le bouton ***Exporter***.  
 ![!!Hub4104.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4104.png) 
