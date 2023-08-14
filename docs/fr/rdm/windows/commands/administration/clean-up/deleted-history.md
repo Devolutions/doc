@@ -1,7 +1,7 @@
 ---
 title: Nettoyer l'historique d'entrées supprimées
 ---
-L'***Historique d'entrées supprimées*** supprime définitivement les entrées précédemment supprimées. L'historique complet est toujours conservé, car chaque "version" d'entrée est conservée dans des tableaux historiques. 
+L'***Historique d'entrées supprimées*** supprime définitivement les entrées précédemment supprimées. L'historique complet est toujours conservé, car chaque « version » d'entrée est conservée dans des tableaux historiques. 
 
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 

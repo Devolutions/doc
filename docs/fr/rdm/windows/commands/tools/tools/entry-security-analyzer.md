@@ -2,7 +2,7 @@
 title: Analyseur de sécurité d'entrées
 ---
 {% snippet icon.badgeInfo %} 
-Les informations de cette rubrique décrivent le fonctionnement du mode "Legacy" d'analyse de mot de passe. Le mode peut être modifié dans les ***Paramètres Système*** pour ZXCVBN. Le mode "Legacy" n'est pas le mode par défaut. 
+Les informations de cette rubrique décrivent le fonctionnement du mode « Legacy » d'analyse de mot de passe. Le mode peut être modifié dans les ***Paramètres Système*** pour ZXCVBN. Le mode « Legacy » n'est pas le mode par défaut. 
 {% endsnippet %}
  
 L'***Analyseur de sécurité d'entrées*** est disponible dans le menu ***Outils***. Il affichera l'indicateur de force pour tous les mots de passe stockés dans votre source de données.  

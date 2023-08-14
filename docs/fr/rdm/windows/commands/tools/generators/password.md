@@ -277,7 +277,7 @@ Utiliser le caractère suivant tel quel
 Échappement (répéter) 
 		</td>
 		<td>
-Répéter le caractère précédent "n" fois 
+Répéter le caractère précédent « n » fois 
 		</td>
 	</tr>
 	<tr>

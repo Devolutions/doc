@@ -26,7 +26,7 @@ DESCRIPTION
 Activer la vérification de la disponibilité des serveurs 
 		</td>
 		<td>
-Le serveur fait un ping pour déterminer s'ils sont disponibles. Le serveur sera affiché en "rouge" dans l'arborescence s'il n'est pas disponible. 
+Le serveur fait un ping pour déterminer s'ils sont disponibles. Le serveur sera affiché en rouge dans l'arborescence s'il n'est pas disponible. 
 		</td>
 	</tr>
 	<tr>

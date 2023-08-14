@@ -16,7 +16,7 @@ X.X.X.X correspond au numéro de la version (p. ex., 2023.2.1.0).
 1. Télécharger la version Chrome dans le OneDrive située dans **Devolutions-QA/Prereleases/DWL/X.X.X.X/DevolutionsWebLoginChrome.X.X.X.X.zip**. 
 1. Décompresser le fichier ZIP. 
 1. Ouvrir Chrome. 
-1. Saisir "chrome://extensions/" dans la barre d’adresse. 
+1. Saisir « chrome://extensions/ » dans la barre d’adresse. 
 1. Activer le ***Mode développeur*** (situé dans le coin supérieur droit). 
 1. Cliquer sur ***Charger l’extension non empaquetée***. 
 1. Sélectionner le fichier décompressé à l’étape 2. 
@@ -27,7 +27,7 @@ Et le tour est joué!
 
 1. Télécharger la version Firefox dans le OneDrive située dans **Devolutions-QA/Prereleases/DWL/X.X.X.X/DevolutionsWebLoginFirefox.X.X.X.X.xpi**. 
 1. Ouvrir Firefox. 
-1. Saisir "about:debugging" dans la barre d’adresse. 
+1. Saisir « about:debugging » dans la barre d’adresse. 
 1. Cliquer sur ***Ce Firefox***. 
 1. Cliquer sur ***Charger un module complémentaire temporaire***. 
 1. Sélectionner le fichier ***DevolutionsWebLoginFirefox.X.X.X.X.xpi***.  
@@ -42,7 +42,7 @@ Le module temporaire sera automatiquement supprimé à la fermeture de Firefox. 
 
 1. Télécharger la version Opera dans le OneDrive située dans **Devolutions-QA/Prereleases/DWL/X.X.X.X/DevolutionsWebLoginOpera.X.X.X.X.crx**. 
 1. Ouvrir Opera. 
-1. Saisir "opera://extensions" dans la barre d’adresse. 
+1. Saisir « opera://extensions » dans la barre d’adresse. 
 1. Glisser-déposer ***DevolutionsWebLoginOpera.X.X.X.X.crx*** dans la fenêtre d’Opera. 
 
 Et le tour est joué! 
@@ -79,7 +79,7 @@ La version 16 ou ultérieure de Safari est requise.
    1. Sélectionner l'onglet ***Extensions***.
    1. Repérer l'extension {{ fr.DWL }} dans la liste de gauche et l'activer en cochant la case.
    1. Fermer les réglages de Safari.
-1. Double-cliquer sur "{{ fr.DWL }}" dans le dossier décompressé.
+1. Double-cliquer sur « {{ fr.DWL }} » dans le dossier décompressé.
 
 Et le tour est joué! 
 
@@ -105,7 +105,7 @@ Source (EN) : [Running your Safari web extension - Configure Safari in {{ fr.MAC
    1. Dans les réglages de Safari, sélectionner l'onglet ***Extensions***.
    1. Repérer l'extension {{ fr.DWL }} dans la liste de gauche et l'activer en cochant la case.
    1. Fermer les réglages de Safari.
-1. Double-cliquer sur "{{ fr.DWL }}" dans le dossier décompressé.
+1. Double-cliquer sur « {{ fr.DWL }} » dans le dossier décompressé.
 
 Et le tour est joué! 
 

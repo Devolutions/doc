@@ -19,10 +19,10 @@ Les valeurs par défaut des champs ne sont pas sérialisées. Cela signifie qu'e
 La mise en œuvre du support pour tous les domaines a un coût. Le processus d'importation prend du temps en raison de tous les accès dynamiques aux champs qui ont lieu. Une importation initiale massive d'entrées doit être séparée en lots de tailles gérables. Veuillez effectuer des essais et régler le nombre d'entrées pour obtenir des performances acceptables. 
 {% endsnippet %}
  
-Toutes nos entrées partagent un ensemble de champs de base; les autres sont liées à la technologie spécifique avec laquelle elles sont interfacées (RDP, SSH, etc.). Certains champs sont regroupés dans des structures, comme l'onglet Informations. Cela signifie que ces champs sont accessibles uniquement lorsque vous fournissez le nom de la structure en tant que groupe parent, par exemple, " MetaInformation\OS " ou " MetaInformation\PurchaseDate ". 
+Toutes nos entrées partagent un ensemble de champs de base; les autres sont liées à la technologie spécifique avec laquelle elles sont interfacées (RDP, SSH, etc.). Certains champs sont regroupés dans des structures, comme l'onglet Informations. Cela signifie que ces champs sont accessibles uniquement lorsque vous fournissez le nom de la structure en tant que groupe parent, par exemple, « MetaInformation\OS » ou « MetaInformation\PurchaseDate ». 
 
 {% snippet icon.badgeInfo %} 
-Notez que le contenu du fichier RDM peut contenir nos variables : elles seront résolues lors de l'enregistrement. Par exemple, vous pouvez utiliser la variable $HOST$ dans des champs tels que Description , URL , Putty\CustomSessionName , etc. Elle sera remplacée par la valeur correspondante. 
+Notez que le contenu du fichier RDM peut contenir nos variables : elles seront résolues lors de l'enregistrement. Par exemple, vous pouvez utiliser la variable $HOST$ dans des champs tels que Description, URL, Putty\CustomSessionName, etc. Elle sera remplacée par la valeur correspondante. 
 {% endsnippet %}
  
 Voici une liste non exhaustive de quelques champs pertinents : 

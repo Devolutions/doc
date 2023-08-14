@@ -63,7 +63,7 @@ Empêcher les utilisateurs d'enregistrer les mots de passe dans les paramètres 
 Permettre de voir les identifiants (si activé dans l'entrée) 
 		</td>
 		<td>
-Afficher les identifiants si la case "Autoriser les identifiants" est cochée dans l'entrée. 
+Afficher les identifiants si la case « Autoriser les identifiants » est cochée dans l'entrée. 
 		</td>
 	</tr>
 	<tr>

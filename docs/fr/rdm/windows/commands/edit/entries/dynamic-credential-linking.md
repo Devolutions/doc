@@ -44,5 +44,5 @@ Une connexion d'identifiant dynamique peut également être appliquée à un dos
 1. Lors de la création d'une entrée, sélectionner Lié (Coffre) dans la liste déroulante d'identifiants, puis sélectionner l'entrée d'identifiants créée à l'étape précédente. Noter qu'une nouvelle action apparaît juste en dessous de la liste déroulante de sélection des identifiants.  
 ![!!RdmWin4061.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4061.png) 
 1. Sélectionner un identifiant dans la liste. 
-1. Le lien est remplacé par le nom de l'identifiant. Pour supprimer les identifiants liés et ramener l'invite de liste automatique, cliquer sur le "X". 
+1. Le lien est remplacé par le nom de l'identifiant. Pour supprimer les identifiants liés et ramener l'invite de liste automatique, cliquer sur le « X ». 
 

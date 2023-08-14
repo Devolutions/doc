@@ -9,14 +9,14 @@ Puisqu'ils utilisent la technologie Powershell, nous fournissons des exemples da
 
 ## Échantillons 
 
-### Désactiver l'option "only send password in html password field" dans les sessions de site web 
+### Désactiver l'option « only send password in html password field » dans les sessions de site web 
 
 ```powershell
 $connection.Web.OnlySendPasswordInPasswordField = $false;
 $RDM.Save ( ) ;
 ```
 
-### Activer "view url embedded" (entrées d'informations) 
+### Activer « view url embedded » (entrées d'informations) 
 
 ```powershell
 $connection.DataEntry.ViewUrlDisplayMode = "Default";
@@ -27,7 +27,7 @@ $RDM.Save();
 ViewUrlDisplayMode: "Default" = Intégré, "External" = Externe. 
 ```
 
-### "Open url (external)" pour la connexion web (entrées d'informations) 
+### « Open url (external) » pour la connexion web (entrées d'informations) 
 
 ```powershell
 $connection.DataEntry.DefaultAction = "OpenUrlExternal";
@@ -73,7 +73,7 @@ $connection.LogMeIn.Url = $connection.WebBrowserUrl;
 $RDM.Save();
 ```
 
-Activer "Hide script errors in all your LogMeIn sessions" 
+Activer « Hide script errors in all your LogMeIn sessions » 
 
 ```powershell
 $connection.LogMeIn.ScriptErrorsSuppressed = $true;
@@ -150,7 +150,7 @@ $connection.MetaInformation.CustomField3Title = "MyField"
 $RDM.Save();
 ```
 
-Veuillez noter que vous devrez modifier "MyField" pour la valeur que vous souhaitez remplacer.  Le champ personnalisé #3 par exemple. 
+Veuillez noter que vous devrez modifier « MyField » pour la valeur que vous souhaitez remplacer.  Le champ personnalisé #3 par exemple. 
 
 ### Mettre à jour en lot les informations de nom de domaine complet sur les sessions 
 
@@ -233,4 +233,3 @@ $RDM.Save();
 $connection.KeyboardHook = "OnTheRemoteComputer";
 $RDM.Save();
 ```
-

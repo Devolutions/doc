@@ -158,7 +158,7 @@ Inclure les journaux du {{ fr.UVLT }} pour tous les usagers de la source de donn
 	</tr>
 	<tr>
 		<td>
-Permettre les identifiants "Liés (coffre)" dans le {{ fr.UVLT }} 
+Permettre les identifiants « Liés (coffre) » dans le {{ fr.UVLT }} 
 		</td>
 		<td>
 Autoriser le référentiel d'identifiants pour les sessions dans le {{ fr.UVLT }}. 

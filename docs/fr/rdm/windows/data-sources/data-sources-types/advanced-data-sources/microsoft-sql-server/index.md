@@ -22,7 +22,7 @@ SQL Server de Microsoft pris en charge:
 
 Nous prenons également en charge les fonctionnalités suivantes:  
 
-* Groupe de disponibilité "Always on" 
+* Groupe de disponibilité « Always on » 
 * Regroupement 
 * Expédition des journaux 
 * Mise en miroir de bases de données 
@@ -42,7 +42,7 @@ Une stratégie de sauvegarde de base de données appropriée doit être mise en 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Selon le "Recovery Model" de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées pour s'exécuter régulièrement afin de maintenir l'intégrité de la base de données. Veuillez consulter [Recovery Model](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/). 
+Selon le « Recovery Model » de la base de données sous-jacente, certaines opérations de maintenance peuvent devoir être planifiées pour s'exécuter régulièrement afin de maintenir l'intégrité de la base de données. Veuillez consulter [Recovery Model](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/). 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 

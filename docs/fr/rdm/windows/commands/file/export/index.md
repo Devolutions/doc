@@ -63,7 +63,7 @@ Parce qu'il a semé la confusion dans notre base d'utilisateurs, ce format d'exp
 
 Exporter toutes les pièces jointes ou toutes les entrées de document liées à votre source de données. 
 
-### Exporter "mes identifiants personnels" (.rdm) 
+### Exporter « mes identifiants personnels » (.rdm) 
 
 Exporter ***Mes Identifiants Personnels*** dans un fichier .rdm et cryptez-les avec une clé maîtresse. 
 

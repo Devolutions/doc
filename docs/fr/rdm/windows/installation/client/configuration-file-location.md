@@ -25,7 +25,7 @@ EMPLACEMENT DU FICHIER DE CONFIGURATION
 	</tr>
 	<tr>
 		<td>
-Installé sous "Program Files" ou "Program Files (x86)" 
+Installé sous **Program Files** ou **Program Files (x86)**
 		</td>
 		<td>
 %LocalAppData%\Devolutions\RemoteDesktopManager 
@@ -36,7 +36,7 @@ Installé sous "Program Files" ou "Program Files (x86)"
 Application exécutée sur Terminal Server 
 		</td>
 		<td>
-%AppData%\Devolutions\RemoteDesktopManager .  Il s'agit du profil itinérant et évite les conflits multi-utilisateurs. 
+%AppData%\Devolutions\RemoteDesktopManager.  Il s'agit du profil itinérant et évite les conflits multi-utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +53,7 @@ Dossier d'installation
 
 Il existe deux façons de modifier le dossier dans lequel le fichier de configuration est stocké:  
 
-1. Créez un fichier nommé "Override.cfg" dans le dossier de l'application. {{ fr.RDM }} ouvre ce fichier et lit la première ligne. Il doit contenir le dossier d'installation souhaité (sans le nom du fichier). Si vous souhaitez utiliser le chemin d'installation actuel, mettez un point dans le fichier. Voici quelques exemples: 
+1. Créez un fichier nommé **Override.cfg** dans le dossier de l'application. {{ fr.RDM }} ouvre ce fichier et lit la première ligne. Il doit contenir le dossier d'installation souhaité (sans le nom du fichier). Si vous souhaitez utiliser le chemin d'installation actuel, mettez un point dans le fichier. Voici quelques exemples: 
 
 <table>
 	<tr>

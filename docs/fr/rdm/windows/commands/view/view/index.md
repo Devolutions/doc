@@ -30,7 +30,7 @@ Pour apprendre comment créer un groupe d'onglets, visitez notre rubrique [***Ba
 
 ### Notification 
 
-La fonction ***Notification*** ouvre une fenêtre montrant diverses notifications (des entrées ou tâches expirées ou près d'être expirées, par exemple). Cliquer avec le bouton de droite sur une notification affiche plus d'options. Si un double clic est fait sur une notification de "licence expirée", une page de navigateur s'ouvrira pour vous renvoyer à votre compte {{ fr.DVLS }}. Les notifications peuvent être triées ou recherchées par ***Texte***, ***Source***, ***Dossier***, ***Niveau***, ***Type***, ***Date***, ***Heure*** ou ***Jours***.  
+La fonction ***Notification*** ouvre une fenêtre montrant diverses notifications (des entrées ou tâches expirées ou près d'être expirées, par exemple). Cliquer avec le bouton de droite sur une notification affiche plus d'options. Si un double clic est fait sur une notification de « licence expirée », une page de navigateur s'ouvrira pour vous renvoyer à votre compte {{ fr.DVLS }}. Les notifications peuvent être triées ou recherchées par ***Texte***, ***Source***, ***Dossier***, ***Niveau***, ***Type***, ***Date***, ***Heure*** ou ***Jours***.  
 ![Notifications](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2019.png) 
 
 Bien qu'il soit fenêtré par défaut, le volet ***Notification*** peut être glissé et ancré n'importe où dans {{ fr.RDM }}. 

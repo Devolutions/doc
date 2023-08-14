@@ -120,7 +120,7 @@ ID du locataire Azure.
 ID de l'utilisateur 
 		</td>
 		<td>
-ID de l'utilisateur figurant dans la section "De" du courriel.
+ID de l'utilisateur figurant dans la section « De » du courriel.
 		</td>
 	</tr>
 	<tr>

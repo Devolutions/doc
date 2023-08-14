@@ -87,7 +87,7 @@ Indique ce qui se passe lorsque le texte atteint le bord droit de la fenêtre. C
 		</td>
 	</tr>
 		<td>
-"Backspace wrap" 
+« Backspace wrap » 
 		</td>
 		<td>
 Cette option vous permet de choisir ce que vous voulez faire lorsque vous appuyez sur retour arrière. Certains terminaux pensent que la touche de retour arrière devrait envoyer la même chose au serveur que Control-H (code ASCII 8). D'autres terminaux pensent que la clé de retour arrière devrait envoyer le code ASCII 127 (généralement connu sous le nom de Control-?) Afin qu'elle puisse être distinguée de Control-H. Choisir entre:  
