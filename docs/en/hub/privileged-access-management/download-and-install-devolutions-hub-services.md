@@ -8,7 +8,7 @@ The Hub Service installer facilitates the installation and integration of our mo
 
 ## Create an Application User
 
-1. Go to Devolutions Hub.
+1. Go to Devolutions {{ en.HUB }}.
 1. Click ***Administration*** – ***Application Users***.  
 ![Administration – Application Users](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6039.png)  
 1. Select ***Add Application User (+)***.  
@@ -24,7 +24,7 @@ In the ***Application User*** window under ***User***, ***Is enabled*** enables 
 
 ## Edit Permissions for the Application User
 
-1. Go to Devolutions Hub.
+1. Go to Devolutions {{ en.HUB }}.
 1. Click ***Administration*** – ***System Permissions***.
 ![Administration – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
 1. Go to the edit form.
@@ -37,9 +37,9 @@ In the ***Application User*** window under ***User***, ***Is enabled*** enables 
 You need to grant permission on the vault either at ***System level*** or ***Individual PAM vault level***. 
 {% endsnippet %}  
 
-## From all system vauts
+## From all system vaults
 
-1. In Devolutions Hub, go to ***Administration*** – ***Configuration & Security*** – ***System Permissions***.
+1. In Devolutions {{ en.HUB }}, go to ***Administration*** – ***Configuration & Security*** – ***System Permissions***.
 ![Administration – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
 1. Go to the edit form.
 ![Edit form](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6049.png)
@@ -50,7 +50,7 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 
 ## For a specific Pam vault
 
-1. In Devolutions Hub, go to ***Administration*** – ***Management*** – ***Vaults***.
+1. In Devolutions {{ en.HUB }}, go to ***Administration*** – ***Management*** – ***Vaults***.
 ![Administration – Vaults](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6044.png)
 1. Go to the edit form of the specific PAM vault.
 1. Select the ***Edit*** tab at the ***Permissions*** section.
@@ -69,7 +69,7 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 1. Select ***PAM*** in the ***Custom Setup***. Note that the ***Encryption*** feature is currently unavailable.
 1. Click ***Next***.
 1. Enter your ***Host*** URL.
-1. Enter the ***Application User Secret*** and ***Key of your Application user*** previously saved.
+1. Enter the ***Application Secret*** and ***Application key*** previously saved.
 1. Click ***Finish*** to complete the installation.
 1. Click ***Test Connection***.
 1. If your connection is successful, press ***Next***.
