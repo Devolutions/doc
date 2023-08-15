@@ -28,7 +28,7 @@ It is possible that drag and drop will not work because of your security setting
  
 ### By importing a configuration
 
-You can also import entries by using the [Import Computer Wizard](/rdm/windows/commands/file/import/computer-wizard/), or by importing its configuration directly from any compatible applications supported by our import tools. Learn more in [Import](/rdm/windows/commands/file/import/sessions/). 
+You can also import entries by using the [Import Computer Wizard](/rdm/windows/commands/file/import/computer-wizard/), or by importing its configuration directly from any compatible applications supported by our import tools. Learn more in [Import](/rdm/windows/commands/file/import/). 
 
 ## Create a sub entry
 

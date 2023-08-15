@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Créer une entrée
-  description: 
+  description: Après l'installation de {{ fr.RDMMAC }}, il vous faut configurer vos entrées. Il existe plusieurs types d'entrées; vous devez savoir quel tiers ou quelle technologie vous utiliserez pour choisir le(s) type(s) d'entrée(s) approprié(s) que vous envisagez de configurer. 
 ---
-Après l'installation de {{ fr.RDM }}, il vous faut configurer vos entrées. Il existe plusieurs types d'entrées; vous devez savoir quel tiers ou quelle technologie vous utiliserez pour choisir le(s) type(s) d'entrée(s) approprié(s) que vous envisagez de configurer. 
+Après l'installation de {{ fr.RDMMAC }}, il vous faut configurer vos entrées. Il existe plusieurs types d'entrées; vous devez savoir quel tiers ou quelle technologie vous utiliserez pour choisir le(s) type(s) d'entrée(s) approprié(s) que vous envisagez de configurer. 
 
 ## Créer une entrée
 
