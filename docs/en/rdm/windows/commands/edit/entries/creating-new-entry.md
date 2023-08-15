@@ -11,7 +11,7 @@ When getting started with {{ en.RDM }}, you must configure your entries. There a
 
 ### From the Ribbon
 
-In the ***{{ en.NPANE }}***, select where you wish the entry to be located. In the ***Ribbon***, go to ***Edit*** and click on ***New Entry***. Then, customize your settings in the entry properties window. You will be prompted to customize your settings in the entry properties window.  
+In the ***{{ en.NPANE }}***, select where you wish the entry to be located. In the ***Ribbon***, go to ***Edit*** and click on ***New Entry***. You will be prompted to customize your settings in the entry properties window.  
 ![Add an entry from the Ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2182.png) 
 
 ### From the contextual menu
@@ -26,7 +26,7 @@ You can also create a session by dragging and dropping an RDP file in the ***{{ 
 It is possible that drag and drop will not work because of your security settings. They may prevent applications running in different contexts from interacting. For example, if {{ en.RDM }} is running in an elevated context (administrator mode) and Internet Explorer is running in default mode, Windows will not allow you to drag a URL link in the application. 
 {% endsnippet %}
  
-### By importing the configuration
+### By importing a configuration
 
 You can also import entries by using the [Import Computer Wizard](/rdm/windows/commands/file/import/computer-wizard/), or by importing its configuration directly from any compatible applications supported by our import tools. Learn more in [Import](/rdm/windows/commands/file/import/sessions/). 
 
@@ -48,7 +48,7 @@ You cannot create a sub entry under another sub entry.
 
 ### From the Ribbon
 
-In the ***{{ en.NPANE }}***, select the entry under which you wish to place a sub entry. In the ***Ribbon***, go to ***Edit*** and click on ***New Entry***. Since you have selected before the parent entry, you will be prompted to choose either to create a sub entry or an entry. Select ***New Sub Entry***. Then, customize your settings in the entry properties window.  
+In the ***{{ en.NPANE }}***, select the entry under which you wish to place a sub entry. In the ***Ribbon***, go to ***Edit*** and click on ***New Entry***. Since you have previously selected the parent entry, you will be prompted to choose either to create a sub entry or an entry. Select ***New Sub Entry***. Then, customize your settings in the entry properties window.  
 ![Add a sub entry from the Ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2182.png) 
 ![New Sub Entry prompt](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2184.png) 
 
