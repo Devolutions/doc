@@ -13,7 +13,7 @@ Le {{ fr.UVLT }} est disponible pour toutes les [Sources de données avancées](
 
 ### Une note sur les identifiants 
 
-Les identifiants dans le {{ fr.UVLT }} peuvent être utilisés de deux manières:  
+Les identifiants dans le {{ fr.UVLT }} peuvent être utilisés de deux manières :  
 
 1. À partir d'une session dans le {{ fr.UVLT }}. 
 1. Lors de l'utilisation des [Paramètres spécifiques de l'usager](/rdm/windows/commands/edit/setting-overrides/specific-settings/). 

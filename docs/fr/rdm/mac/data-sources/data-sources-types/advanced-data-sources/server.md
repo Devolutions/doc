@@ -26,7 +26,7 @@ title: Devolutions Server
 À l'heure actuelle, {{ fr.DVLS }} prend uniquement en charge SQL Server et Azure SQL en tant que base de données. 
 {% endsnippet %}
  
-Pour plus d'informations, veuillez consulter ces rubriques:  
+Pour plus d'informations, veuillez consulter ces rubriques :  
 
 * [Installation de {{ fr.DVLS }}](/fr/server/installation/) 
 * [Liste de vérification relative à la sécurité](/fr/server/getting-started/security-checklist/) 
@@ -168,7 +168,7 @@ Détermine comment les entrées seront rechargées dans la source de données. V
 Mode ping en ligne 
 		</td>
 		<td>
-Indique le mode de ping préféré en ligne. Choisir entre:  
+Indique le mode de ping préféré en ligne. Choisir entre :  
 
 * Aucun 
 * Requête web 
@@ -187,7 +187,7 @@ Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement h
 Mode d'accès outils à distances 
 		</td>
 		<td>
-Sélectionner votre mode d'accès aux outils à distance entre:  
+Sélectionner votre mode d'accès aux outils à distance entre :  
 
 * Local 
 * Via une source de données 

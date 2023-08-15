@@ -23,7 +23,7 @@ Here is a list of features that require ***WebView2 Runtime***:
 * Web browser (ex: Edge embedded)  
 * SAML authentication in CyberArk  
 * Reports  
-* Handbook / Documentation  
+* Handbook/Documentation  
 * Compare prompt (ex: documentation)  
 * Help prompt  
 * Change history in available update prompt  

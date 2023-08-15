@@ -11,4 +11,4 @@ For example, if you changed your path to
 
 C:\Users\*User*\AppData\Local\Temp\RDM\record-$DATE_TEXT$-$TIME-TEXT$.mp4  
 
-The name of your recording would look something like " record-2202020-100257.mp4 " This will ensure that each recording has a unique name.
+The name of your recording would look something like "record-2202020-100257.mp4". This will ensure that each recording has a unique name.

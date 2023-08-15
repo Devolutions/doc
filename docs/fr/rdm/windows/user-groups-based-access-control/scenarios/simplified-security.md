@@ -10,9 +10,9 @@ Bien que le scénario suivant soit pertinent pour les petites et moyennes entrep
 {% endsnippet %}
  
 
-Notre société fictive, Windjammer, a quatre groupes d'utilisateurs: HelpDesk (Bureau d'aide), ServiceDesk (Bureau de service), Administrations et Consultants. Il existe deux sociétés clientes: Downhill Pro et Telemark.  
+Notre société fictive, Windjammer, a quatre groupes d'utilisateurs : HelpDesk (Bureau d'aide), ServiceDesk (Bureau de service), Administrations et Consultants. Il existe deux sociétés clientes : Downhill Pro et Telemark.  
 
-L'arborescence suivante représente les entrées auxquelles les utilisateurs ont accès une fois que toutes les permissions sont définies:  
+L'arborescence suivante représente les entrées auxquelles les utilisateurs ont accès une fois que toutes les permissions sont définies :  
 ![!!clip3379.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3379.png) 
 
 ### Configuration utilisateur 
@@ -46,49 +46,49 @@ Maintenant, tout est prêt à accorder ou à refuser l'accès aux groupes d'util
 * Le HelpDesk sera autorisé à afficher et à ouvrir des entrées dans les groupes/dossiers clients uniquement et ne pourra pas les modifier. 
 * Les consultants auront la permission de visualiser et d'ouvrir les entrées dans le dossier de Montréal uniquement, mais ne pourront pas le modifier ni ses éléments enfants. 
 
-Nous allons commencer par les dossiers au niveau du coffre: Downhill Pro, Telemark et Windjammer.  
+Nous allons commencer par les dossiers au niveau du coffre : Downhill Pro, Telemark et Windjammer.  
 
 La permission d'afficher le dossier Windjammer sera définie pour ServiceDesk uniquement, car nous voulons qu'ils puissent utiliser ses entrées enfants. Nous ne voulons pas que ServiceDesk ajoute ou modifie quoi que ce soit. Nous définirons les permissions ***Ajouter***, ***Modifier*** et ***Supprimer*** sur ***Jamais***. Seul l'administrateur pourra ajouter ou modifier des entrées dans le dossier Windjammer.  
 ![Windjammer - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3385.png) 
 
-* ***Affichage*** : ***Personnalisé*** ; ServiceDesk. 
-* ***Ajouter*** : ***Jamais*** ; Seul l'administrateur peut ajouter des entrées. 
-* ***Modifier*** : ***Jamais*** ; Seul l'administrateur peut modifier des entrées. 
-* ***Supprimer*** : ***Jamais*** ; Seul l'administrateur peut supprimer des entrées. 
+* ***Affichage*** : ***Personnalisé***; ServiceDesk. 
+* ***Ajouter*** : ***Jamais***; Seul l'administrateur peut ajouter des entrées. 
+* ***Modifier*** : ***Jamais***; Seul l'administrateur peut modifier des entrées. 
+* ***Supprimer*** : ***Jamais***; Seul l'administrateur peut supprimer des entrées. 
 
 Pour Downhill Pro, nous accorderons des permissions au ServiceDesk et au HelpDesk.  
 ![Downhill Pro - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3386.png) 
 
-* ***Affichage*** : ***Personnalisé*** ; HelpDesk, ServiceDesk. 
-* ***Ajouter*** : ***Personnalisé*** ; ServiceDesk. 
-* ***Modifier*** : ***Personnalisé*** ; ServiceDesk. 
-* ***Supprimer*** : ***Jamais*** ; Seul l'administrateur peut supprimer des entrées. 
+* ***Affichage*** : ***Personnalisé***; HelpDesk, ServiceDesk. 
+* ***Ajouter*** : ***Personnalisé***; ServiceDesk. 
+* ***Modifier*** : ***Personnalisé***; ServiceDesk. 
+* ***Supprimer*** : ***Jamais***; Seul l'administrateur peut supprimer des entrées. 
 
 Nous avons déjà un bon exemple de la flexibilité de la sécurité de {{ fr.RDM }}. Un utilisateur de ServiceDesk peut afficher et utiliser toutes les entrées du dossier Downhill Pro, même les entrées d'identifiants, mais il ne pourra jamais voir aucun mot de passe car ***Afficher le mot de passe*** est interdit (à partir du dossier du coffre).  
 
 Ensuite, pour le dossier Telemark, nous accorderons des permissions au ServiceDesk, au HelpDesk et aux consultants. C'est là que les choses deviennent complexes. Si nous voulons que les consultants ne puissent voir que le dossier de Montréal, qui est un élément enfant du télémark, nous devons accorder aux consultants la permission de visualiser l'intégralité du contenu du télémark. Ensuite, nous accorderons des permissions sur les éléments enfants uniquement au groupe d'utilisateurs qui devrait avoir accès à ces éléments. Cette dernière étape refusera la permission de visualisation pour les consultants sur les éléments enfants.  
 ![Telemark - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3387.png) 
 
-* ***Affichage*** : ***Personnalisé*** ; Consultants, HelpDesk, ServiceDesk. 
-* ***Ajouter*** : ***Personnalisé*** ; ServiceDesk. 
-* ***Modifier*** : ***Personnalisé*** ; ServiceDesk. 
-* ***Supprimer*** : ***Jamais*** ; Seul l'administrateur peut supprimer des entrées. 
+* ***Affichage*** : ***Personnalisé***; Consultants, HelpDesk, ServiceDesk. 
+* ***Ajouter*** : ***Personnalisé***; ServiceDesk. 
+* ***Modifier*** : ***Personnalisé***; ServiceDesk. 
+* ***Supprimer*** : ***Jamais***; Seul l'administrateur peut supprimer des entrées. 
 
 Puisque nous voulons que les utilisateurs puissent utiliser les entrées d'identifiants, nous accordons au ServiceDesk et au HelpDesk la permission d'afficher le dossier Credentials. De cette façon, ServiceDesk et HelpDesk pourront utiliser les entrées du dossier sans révéler les mots de passe. Par conséquent, en spécifiant que seuls HelpDesk et ServiceDesk disposent de la permission ***Affichage***, nous refusons l'accès en vue à tout groupe d'utilisateurs ou utilisateur qui ne figure pas dans la liste de permission.  
 
 Les permissions ***Ajouter***, ***Modifier*** et ***Supprimer*** peuvent être laissées à ***Hérité*** car elles héritent des paramètres du dossier parent Telemark. Le ServiceDesk est le seul groupe d'utilisateurs qui a reçu la permission ***Ajouter*** et ***Modifier*** dans le dossier parent et la permission ***Supprimer*** hérite du paramètre ***Jamais***.  
 ![Telemark - Permissions des identifiants](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3388.png) 
 
-* ***Affichage*** : ***Personnalisé*** ; HelpDesk, ServiceDesk. 
-* ***Ajouter*** : ***Hérité*** ; ServiceDesk hérité du dossier Telemark. 
-* ***Modifier*** : ***Hérité*** ; ServiceDesk hérité du dossier Telemark. 
-* ***Supprimer*** : ***Hérité*** ; Jamais hérité du dossier Telemark. 
+* ***Affichage*** : ***Personnalisé***; HelpDesk, ServiceDesk. 
+* ***Ajouter*** : ***Hérité***; ServiceDesk hérité du dossier Telemark. 
+* ***Modifier*** : ***Hérité***; ServiceDesk hérité du dossier Telemark. 
+* ***Supprimer*** : ***Hérité***; Jamais hérité du dossier Telemark. 
 
 Nous voulons que ServiceDesk puisse également utiliser les informations d'identifiant d'administrateur de domaine, mais pas le HelpDesk. Pour cela, nous devons accorder la permission ***Affichage*** au ServiceDesk. Le ServiceDesk pourra toujours modifier l'entrée d'identifiant, mais ne verra jamais le mot de passe. La permission de suppression est définie sur ***Jamais***.  
 ![!!clip3392.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3392.png) 
 
 La dernière étape pour les éléments enfants Telemark consiste à définir la permission ***Affichage*** sur ServiceDesk et HelpDesk sur le dossier Boston et laisser toutes les autres permissions de ce dossier sur ***Par défaut***. Cela empêche les consultants d'afficher le dossier Boston. Désormais, les consultants ne pourront voir et ouvrir les entrées que dans le dossier Montréal.  
-![Telemark / Boston - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3389.png) 
+![Telemark/Boston - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3389.png) 
 
 {% snippet icon.shieldCaution %} 
 Chaque fois qu'un nouveau dossier est ajouté, la permission ***Affichage*** doit être définie pour ServiceDesk et HelpDesk pour masquer le nouveau dossier et son contenu aux consultants. 
@@ -97,7 +97,7 @@ Chaque fois qu'un nouveau dossier est ajouté, la permission ***Affichage*** doi
 Pas besoin de définir des permissions sur le dossier Montréal, car elles sont héritées des dossiers parents. 
 
 ### Conclusion 
-Les permissions sont désormais correctement définies. Notez que chaque entrée ajoutée au niveau du coffre n'aura aucune sécurité par défaut. Cela signifie qu'ils seraient disponibles pour n'importe qui, même pour les consultants. Cela peut être confirmé en regardant la capture d'écran ci-dessous dans laquelle la routine quotidienne d'entrée est disponible pour tout le monde. Voici ce que chaque utilisateur devrait voir dans l'arborescence:  
+Les permissions sont désormais correctement définies. Notez que chaque entrée ajoutée au niveau du coffre n'aura aucune sécurité par défaut. Cela signifie qu'ils seraient disponibles pour n'importe qui, même pour les consultants. Cela peut être confirmé en regardant la capture d'écran ci-dessous dans laquelle la routine quotidienne d'entrée est disponible pour tout le monde. Voici ce que chaque utilisateur devrait voir dans l'arborescence :  
 ![Navigation des groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3391.png) 
 
 Vous pouvez personnaliser davantage vos permissions en utilisant l'onglet ***Paramètres de sécurité*** lors de la modification des entrées ou l'onglet ***Journaux*** pour ajouter plus de traces des entrées et des sorties. Comme toujours, il faut faire très attention lors de l'octroi des permissions. 

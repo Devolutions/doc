@@ -24,7 +24,7 @@ Select the ***Connection Mode*** you elect on the server.
 * Custom (AD Account with permissions to RDP into the PSM server and an associated account in Cyberark).  
 * AAM (Passwordless, see this [article](https://blog.devolutions.net/2020/10/going-passwordless-with-remote-desktop-manager-and-cyberark)).  
 
-In this example, Custom is in force; Username / domain / password has been populated manually.  
+In this example, Custom is in force; Username/domain/password has been populated manually.  
 
 Then choose an RDP Template created beforehand, this template defines the setting of the initial connection on the PSM server.  
 
@@ -108,7 +108,7 @@ Privileged account to use
 Host
 		</td>
 		<td>
-End point Hostname / IP
+End point Hostname/IP
 		</td>
 	</tr>
 </table>
@@ -162,7 +162,7 @@ Then you only have to run the Synchronizer whenever you need to refresh the serv
 ## From Comma-Separate values (CSV) Synchronizer
 This approach is a mix between the CSV import and the synchronizer.  
 
-In most cases, the CSV file will be generated from an external system, and then edited / processed to add and complete the information.  
+In most cases, the CSV file will be generated from an external system, and then edited/processed to add and complete the information.  
 
 Please refer to <a href="#csv">Create the Cyberark PSM Connection Template</a> from the previous section for an example of a CSV Template.  
 

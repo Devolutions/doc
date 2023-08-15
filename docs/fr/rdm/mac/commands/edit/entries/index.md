@@ -46,7 +46,7 @@ Lier votre entrée à plusieurs dossiers. Voir [Créer un raccourci](/fr/rdm/mac
 Enregistrer comme modèle 
 		</td>
 		<td>
-Enregistrer votre entrée sélectionnée en tant que [Modèles](/fr/rdm/mac/commands/file/templates/) local ou partagé . 
+Enregistrer votre entrée sélectionnée en tant que [Modèles](/fr/rdm/mac/commands/file/templates/) local ou partagé. 
 		</td>
 	</tr>
 </table>

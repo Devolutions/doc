@@ -4,7 +4,7 @@ title: Manage Cache
 This option allows you to manage your cache which decides how the client will re-load entries when changes are detected. On large data sources caching is a must and will increase performance significantly. 
 
 {% snippet icon.badgeNotice %} 
-This feature is only available when the offline engine is set to use SQLite. We are phasing out this engine because of multiple issues reported by customers. We recommend you use MCDFv2 . 
+This feature is only available when the offline engine is set to use SQLite. We are phasing out this engine because of multiple issues reported by customers. We recommend you use MCDFv2. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

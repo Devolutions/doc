@@ -1,7 +1,7 @@
 ---
 title: Configure SQL Server
 ---
-1. Install Microsoft SQL Server or Microsoft SQL Server Express . 
+1. Install Microsoft SQL Server or Microsoft SQL Server Express. 
 {% snippet icon.badgeInfo %} 
 Newly installed Microsoft SQL Server instances do not allow remote connections. Please follow the directions in SQL Server. 
 {% endsnippet %}

@@ -59,7 +59,7 @@ Chose a ***Mode*** setting for the passwords.
 	</tr>
 	<tr>
 		<td>
-Upper-case (A, B, ...) 
+Upper-case (A, B...) 
 		</td>
 		<td>
 Will include uppercase letters for password generation. 
@@ -99,7 +99,7 @@ Will include brackets characters for password generation.
 	</tr>
 	<tr>
 		<td>
-Digits (0, 1, 2, ...) 
+Digits (0, 1, 2...) 
 		</td>
 		<td>
 Will include digits for password generation. 
@@ -107,7 +107,7 @@ Will include digits for password generation.
 	</tr>
 	<tr>
 		<td>
-Special (!, $, %, &, ...) 
+Special (!, $, %, &...) 
 		</td>
 		<td>
 Will include special characters for password generation. 
@@ -115,7 +115,7 @@ Will include special characters for password generation.
 	</tr>
 	<tr>
 		<td>
-Lower-case (a, b, c, ...) 
+Lower-case (a, b, c...) 
 		</td>
 		<td>
 Will include lowercase letters for password generation. 

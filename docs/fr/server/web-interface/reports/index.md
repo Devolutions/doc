@@ -8,7 +8,7 @@ La section ***Rapports*** fournit aux administrateurs des outils pour effectuer 
 
 ### Personnalisation du rapport 
 
-La plupart des rapports disponibles peuvent être personnalisés. Il est possible de filtrer et trier les données, de définir un interval de temps ou même d'exporter les rapports dans un fichier .CSV.  
+La plupart des rapports disponibles peuvent être personnalisés. Il est possible de filtrer et trier les données, de définir un interval de temps ou même d'exporter les rapports dans un fichier CSV.  
 
 Affiner votre recherche à l'aide des filtres et cliquer sur le bouton de tri pour trier les colonnes.  
 
@@ -17,4 +17,3 @@ Affiner votre recherche à l'aide des filtres et cliquer sur le bouton de tri po
 Sélectionner un intervalle de temps prédéfini ou créer une ligne de temps personnalisée sur laquelle le rapport sera basé. 
 
 ![Bouton d'intervalle de temps](https://webdevolutions.azureedge.net/docs/fr/server/clip10367.png) 
-

@@ -105,7 +105,7 @@ Effacer tous les mots de passe existants pour les sessions sélectionnées.
 
 ![Modifier les entrées (paramètres généraux)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4070.png) 
 
-***Modifier les entrées (paramètres généraux)*** vous permet de modifier simultanément les paramètres des sessions courantes. La session peut être de n'importe quel type, car un ensemble commun d'options est partagé entre les sessions. Les paramètres généraux communs suivants peuvent être modifiés:  
+***Modifier les entrées (paramètres généraux)*** vous permet de modifier simultanément les paramètres des sessions courantes. La session peut être de n'importe quel type, car un ensemble commun d'options est partagé entre les sessions. Les paramètres généraux communs suivants peuvent être modifiés :  
 
 * Dossier 
 * Affichage 

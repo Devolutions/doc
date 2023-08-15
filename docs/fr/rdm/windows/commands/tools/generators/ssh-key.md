@@ -21,11 +21,11 @@ DESCRIPTION
 Type de clé 
 		</td>
 		<td>
-Vous pouvez choisir entre:  
+Vous pouvez choisir entre :  
 
 RSA : Peut être utilisé pour la signature/vérification et également pour le chiffrement/déchiffrement. Lors de l'utilisation de RSA, il est recommandé d'utiliser une taille de clé de 2048 bits.  
 
-DSA : Il ne peut être utilisé que pour la signature/vérification, il ne crypte ni ne décrypte . Lorsque vous utilisez DSA, il est recommandé d'utiliser une taille de clé de 1024 bits. 
+DSA : Il ne peut être utilisé que pour la signature/vérification, il ne crypte ni ne décrypte. Lorsque vous utilisez DSA, il est recommandé d'utiliser une taille de clé de 1024 bits. 
 		</td>
 	</tr>
 		<td>
@@ -60,7 +60,7 @@ L'enregistrement de la clé publique générera un fichier .pub. Entrer un nom d
 Enregistrer la clé privée 
 		</td>
 		<td>
-Vous aurez la possibilité de sauvegarder votre clé privée sous différents formats, choisissez entre:  
+Vous aurez la possibilité de sauvegarder votre clé privée sous différents formats, choisissez entre :  
 
 * Clé privé PKCS (*.pri) 
 * Clé privé Putty (*.ppk) 

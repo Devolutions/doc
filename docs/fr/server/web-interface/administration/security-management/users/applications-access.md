@@ -1,7 +1,7 @@
 ---
 title: Accès à l'application
 ---
-Autoriser ou refuser à l'utilisateur l'accès à différentes applications et outils associés:  
+Autoriser ou refuser à l'utilisateur l'accès à différentes applications et outils associés :  
 ![Modifier l'utilisateur - Accès à l'application](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp7008.png) 
 
 ### Accès 
@@ -75,7 +75,7 @@ Description
 Jours 
 		</td>
 		<td>
-Autoriser l'utilisateur d'accéder à l'instance selon les choix suivants:  
+Autoriser l'utilisateur d'accéder à l'instance selon les choix suivants :  
 
 * ***N'importe quel jour*** 
 * ***Jours de semaine*** 
@@ -88,7 +88,7 @@ Autoriser l'utilisateur d'accéder à l'instance selon les choix suivants:
 Temps 
 		</td>
 		<td>
-Permettre à l'utilisateur d'accéder à l'instance selon les choix suivants:  
+Permettre à l'utilisateur d'accéder à l'instance selon les choix suivants :  
 
 * ***À tout moment*** 
 * ***Personnalisé*** 

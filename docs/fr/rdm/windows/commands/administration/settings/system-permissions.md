@@ -132,7 +132,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils de gest
 	</tr>
 	<tr>
 		<td>
-Outils intégrés (Wake On LAN, NetStat, Ping, ...) 
+Outils intégrés (Wake On LAN, NetStat, Ping...) 
 		</td>
 		<td>
 Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils liés à la session. 

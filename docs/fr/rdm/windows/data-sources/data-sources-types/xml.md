@@ -18,7 +18,7 @@ title: XML
 * Il est possible de configurer un intervalle d'actualisation automatique. 
 * La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) est disponible pour cette source de données. 
 {% snippet icon.badgeCaution %} 
-Il n'y a pas de gestion des conflits pour le fichier de configuration. Si vous partagez avec d'autres utilisateurs, vous pouvez obtenir des conflits de mise à jour et rencontrer des problèmes. Ce type de source de données est destiné à un seul utilisateur utilisant plusieurs ordinateurs, et non plusieurs utilisateurs . 
+Il n'y a pas de gestion des conflits pour le fichier de configuration. Si vous partagez avec d'autres utilisateurs, vous pouvez obtenir des conflits de mise à jour et rencontrer des problèmes. Ce type de source de données est destiné à un seul utilisateur utilisant plusieurs ordinateurs, et non plusieurs utilisateurs. 
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 
@@ -94,7 +94,7 @@ DESCRIPTION
 Copie de sauvegarde 
 		</td>
 		<td>
-Choisir entre:  
+Choisir entre :  
 
 * ***Aucun*** : Aucune sauvegarde de votre source de données ne sera créée. 
 * ***Sauvegarde du fichier*** : Votre sauvegarde sera enregistrée dans un fichier choisi, mais ne fera pas automatiquement sauvegarder toutes les 30 secondes. 
@@ -113,7 +113,7 @@ Spécifier le nom de sauvegarde qui vous permettra d'enregistrer automatiquement
 
 ### VPN  
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à XML .  
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à XML.  
 ![XML - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/XMLVPN.png) 
 
 ### Avancée 

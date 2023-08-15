@@ -9,7 +9,7 @@ title: Microsoft SQL Server
 		</td>
 		<td>
 {{ fr.RDM }} utilise la puissance de SQL Server de Microsoft pour enregistrer et gérer toutes les sessions. 
-SQL Server de Microsoft pris en charge:  
+SQL Server de Microsoft pris en charge :  
 
 * 2019 sur Windows et Linux (toutes éditions) 
 * 2017 sur Windows et Linux (toutes éditions) 
@@ -17,7 +17,7 @@ SQL Server de Microsoft pris en charge:
 * 2014 Service Pack 3 
 * 2012 Service Pack 4 
 
-Nous prenons également en charge les fonctionnalités suivantes:  
+Nous prenons également en charge les fonctionnalités suivantes :  
 
 * Groupe de disponibilité “Always on“ 
 * Regroupement 
@@ -180,7 +180,7 @@ Définir l'intervalle d'actualisation automatique.
 Mode ping en ligne 
 		</td>
 		<td>
-Indique le mode de ping préféré en ligne. Choisir entre:  
+Indique le mode de ping préféré en ligne. Choisir entre :  
 
 * Aucun 
 * Scan du port 

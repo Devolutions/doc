@@ -69,8 +69,8 @@ Proceed to the [Batch Edit Actions](#edit) section for the next steps.
 
 The ***Batch Edit*** feature allows you to perform the following actions:
 
-- Change Saved Host Name / Credentials 
-- Reset All Saved Credentials / Passwords 
+- Change Saved Host Name/Credentials 
+- Reset All Saved Credentials/Passwords 
 - Edit Entries (General Settings / Session Type Settings / Security Group Legacy / Asset / User Specific Settings / Local Specific Settings)  
 
 Continue to the [following section](#batchedit) if the ***Batch Edit*** options cover your needs. If not, you can go to [this section](#editspecialactions) to use a custom PowerShell command in ***Edit (Special Actions)***.

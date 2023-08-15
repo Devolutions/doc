@@ -15,7 +15,7 @@ Pour les rapports contenant des paramètres, vous devrez commencer par exporter 
 
 1. Sélectionner votre rapport dans ***Administrations - Rapports***, puis sélectionner l'option ***Paramètres d'exportation*** dans le bouton ***Plus***. Il créera un fichier .rdr contenant tous vos paramètres de rapport. C'est également là que se trouve votre ID du rapport (cela sera utile plus tard).  
 ![Paramètres d'exportation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10006.png) 
-1. Dans votre invite de commandes Windows, entrer la ligne de commande suivante:  
+1. Dans votre invite de commandes Windows, entrer la ligne de commande suivante :  
 
 `C:\*** /DataSource:*** /report:***/reportoutput:"***" /reportsettings:"***.rdr" /closeapp` 
 
@@ -81,7 +81,7 @@ Cette commande fermera {{ fr.RDM }} si l'application a été démarrée à parti
 Pour trouver votre ID de source de données et la ligne de commande utilisée pour démarrer {{ fr.RDM }}, aller dans les propriétés d'une de vos sessions depuis votre source de données et sélectionner la section ***Informations de l'entrée***.  
 ![Session RDP - Informations de l'entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10008.png) 
 
-Voici une liste des types de rapports que vous pouvez trouver dans {{ fr.RDM }} et le nom à entrer dans la ligne de commande pour générer le rapport:  
+Voici une liste des types de rapports que vous pouvez trouver dans {{ fr.RDM }} et le nom à entrer dans la ligne de commande pour générer le rapport :  
 
 <table>
 	<tr>
@@ -174,7 +174,7 @@ SharedConnectionLog
 	</tr>
 </table>
 
-Voici un exemple de ligne de commande pour un rapport d'informations d'entrée: 
+Voici un exemple de ligne de commande pour un rapport d'informations d'entrée : 
 
 ```
 C:\Program Files (x86)\Devolutions\Remote Desktop Manager\RemoteDesktopManager.exe /DataSource:8a4f2f70-5e8a-4d6c-9c7b-119080a4c879 /report:EntryInformation /reportoutput:C:\dev\devolutions\Rapport\rapportEntry.csv /reportsettings:C:\dev\devolutions\Rapport\SettingsEntryInformation.rdr /closeapp 

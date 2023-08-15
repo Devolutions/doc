@@ -1,7 +1,7 @@
 ---
 title: Gestionnaire RDP/RemoteApp local
 ---
-Les paramètres RDP locaux et les paramètres RemoteApp sont disponibles dans ***Outils - Plus d'outils - Local*** RDP/RemoteApp Manager .  
+Les paramètres RDP locaux et les paramètres RemoteApp sont disponibles dans ***Outils - Plus d'outils - Local*** RDP/RemoteApp Manager.  
 
 Si vous exécutez {{ fr.RDM }} sur une machine Windows Server 2008, la console TS RemoteApp MMC sera lancée.  
 

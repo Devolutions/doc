@@ -19,7 +19,7 @@ Il est possible de [demander un essai](/fr/rdm/windows/installation/client/regis
 ![Bouton Ajouter une licence](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4118.png) 
 1. Saisir la ***Licence*** dans le champ approprié.  
 ![Champ Licence](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin0000.png) 
-1. Facultatif: Cocher la case ***Assignation automatique*** pour fournir automatiquement une clé de licence {{ fr.RDM }} à tous les utilisateurs nouvellement créés.  
+1. Facultatif : Cocher la case ***Assignation automatique*** pour fournir automatiquement une clé de licence {{ fr.RDM }} à tous les utilisateurs nouvellement créés.  
 ![Paramètre Assignation automatique](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4117.png) 
 1. Cliquer ***Assigné à*** dans le menu à gauche. 
 1. Cliquer ***Assigner tout*** ou sélectionner dans la colonne ***Assignée*** qui doit avoir un accès à {{ fr.RDM }}. 

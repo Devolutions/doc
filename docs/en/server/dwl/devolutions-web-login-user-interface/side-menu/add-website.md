@@ -68,7 +68,7 @@ This button is only displayed next to the Equivalent URLs field after having cli
 Credentials 
 		</td>
 		<td>
-In the drop-down list, select Custom , Linked (Vault), Inherited , Linked (User Vault), Find by name (User Vault), or None to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
+In the drop-down list, select Custom, Linked (Vault), Inherited, Linked (User Vault), Find by name (User Vault), or None to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
 		</td>
 	</tr>
 	<tr>

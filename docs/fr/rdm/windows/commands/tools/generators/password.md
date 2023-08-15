@@ -24,7 +24,7 @@ Chaque mot de passe généré sera lisible, mais ne sera pas un mot dans le dict
 Appuyer sur le bouton information et sélectionner le modèle dont vous avez besoin pour créer vos mots de passe. Une liste des modèles utilisés les plus récents sera également créée.  
 ![Générateur de mot de passe - Utiliser un modèle](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10385.png) 
 
-Voici les modèles pris en charge: 
+Voici les modèles pris en charge : 
 
 <table>
 	<tr>

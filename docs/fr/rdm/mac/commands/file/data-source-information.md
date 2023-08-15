@@ -14,7 +14,7 @@ L'affichage des ***Informations sur la source de données*** peut être différe
 
 ![Informations de la source de données - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4017.png) 
 
-L'onglet ***Général*** affiche des informations sur la source de données telles que:  
+L'onglet ***Général*** affiche des informations sur la source de données telles que :  
 
 * Utilisateur 
 * Description 
@@ -26,7 +26,7 @@ L'onglet ***Général*** affiche des informations sur la source de données tell
 
 ![Informations de la source de données - Entrées](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4018.png) 
 
-L'onglet ***Entrées*** affichera les droits d'utilisateur sur les sessions tels que:  
+L'onglet ***Entrées*** affichera les droits d'utilisateur sur les sessions tels que :  
 
 * Ajouter des entrées 
 * Modifier des entrées 

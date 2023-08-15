@@ -41,7 +41,7 @@ DESCRIPTION
 Delimiter
 		</td>
 		<td>
-Select a delimiter between a Comma , a Semicolon , or a Custom symbol.
+Select a delimiter between a Comma, a Semicolon, or a Custom symbol.
 		</td>
 	</tr>
 	<tr>

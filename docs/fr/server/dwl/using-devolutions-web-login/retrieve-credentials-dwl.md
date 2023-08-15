@@ -43,7 +43,7 @@ Vous pouvez maintenant continuer à la prochaine section pour apprendre comment 
 ## Récupération des identifiants 
 
 {% snippet icon.badgeInfo %} 
-Cette section est basée sur les étapes de configuration de {{ fr.DWL }} qui se trouvent dans la section précédente . Nous vous recommandons fortement de les suivre avant de poursuivre, puisque certaines fonctionnalités pourraient différer entre votre expérience et ce qui est indiqué ci-dessous. 
+Cette section est basée sur les étapes de configuration de {{ fr.DWL }} qui se trouvent dans la section précédente. Nous vous recommandons fortement de les suivre avant de poursuivre, puisque certaines fonctionnalités pourraient différer entre votre expérience et ce qui est indiqué ci-dessous. 
 {% endsnippet %}
  
 Vos identifiants peuvent être récupérés de {{ fr.DVLS }} automatiquement ou manuellement à partir de {{ fr.DWL }}. Suivez les étapes de la section qui correspond le mieux à vos besoins : 

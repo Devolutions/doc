@@ -5,14 +5,14 @@ title: Configuration du système
 
 ## Configuration minimale 
 
-**Windows Desktop:** 
+**Windows Desktop** 
 
 * Windows 11 
     * Version 21H2 
 * Windows 10 
     * Versions 20H2, 21H1 et 21H2 
 
-**Windows Server:** 
+**Windows Server** 
 
 * Windows Server 2022 
 * Windows Server 
@@ -25,11 +25,11 @@ title: Configuration du système
 * 2012 
 
 Microsoft .NET Framework 4.8  
-Processeur: 1 GHz ou plus puissant  
-Mémoire vive: 4 Go  
-Résolution d'écran: 1024 x 768  
-Espace de disque dur: 500 Mo  
-Système d'exploitation: 64 bits  
+Processeur : 1 GHz ou plus puissant  
+Mémoire vive : 4 Go  
+Résolution d'écran : 1024 x 768  
+Espace de disque dur : 500 Mo  
+Système d'exploitation : 64 bits  
 [Microsoft Edge WebView2 Runtime](/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/) 
 
 ## Prise en charge des Terminal Services et des clients légers 

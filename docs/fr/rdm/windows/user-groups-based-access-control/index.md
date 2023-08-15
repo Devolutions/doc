@@ -6,7 +6,7 @@ Le contrôle d'accès basé sur les groupes d'utilisateurs de {{ fr.RDM }} perme
 
 Les recommandations suivantes sont basées sur notre expérience avec le système et les idées partagées par notre communauté. Suivez ces instructions, car elles vous aideront à utiliser efficacement le contrôle d'accès basé sur les groupes d'utilisateurs.  
 
-Voici les principaux points clés du contrôle d'accès basé sur les groupes d'utilisateurs:  
+Voici les principaux points clés du contrôle d'accès basé sur les groupes d'utilisateurs :  
 
 * La sécurité est héritée : les éléments et dossiers enfants sont couverts par la sécurité d'un dossier parent. 
 * Les autorisations peuvent être remplacées : un ensemble de permission sur un sous-dossier remplacera l'autorisation de l'élément parent. 
@@ -14,7 +14,7 @@ Voici les principaux points clés du contrôle d'accès basé sur les groupes d'
 
 ### Améliorer la sécurité 
 
-Bien que le contrôle d'accès basé sur les groupes d'utilisateurs soit une fonctionnalité intéressante pour sécuriser l'accès aux entrées, de nombreuses autres fonctionnalités peuvent être utilisées pour ajouter davantage de couches de sécurité. Pour plus d'informations, veuillez consulter les rubriques suivantes:  
+Bien que le contrôle d'accès basé sur les groupes d'utilisateurs soit une fonctionnalité intéressante pour sécuriser l'accès aux entrées, de nombreuses autres fonctionnalités peuvent être utilisées pour ajouter davantage de couches de sécurité. Pour plus d'informations, veuillez consulter les rubriques suivantes :  
 
 * [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) 
 * Dépôt d'identifiant 
@@ -26,7 +26,7 @@ Bien que le contrôle d'accès basé sur les groupes d'utilisateurs soit une fon
 
 En raison de la grande flexibilité de notre système, il devient difficile de décrire comment obtenir le système de sécurité exact qui correspond à vos besoins. Pour cette raison, nous avons choisi de décrire les systèmes les plus populaires que nous avons vus en usage dans notre communauté actuelle d'utilisateurs. Nous espérons que l'un d'entre eux répondra à vos besoins. Vous pouvez évidemment mélanger et assortir les différentes stratégies utilisées dans nos scénarios pour répondre à vos besoins.  
 
-Veuillez consulter:  
+Veuillez consulter :  
 
 * [Sécurité simplifiée](RoleBasedSecuritySystem_SimplifiedSecurity) 
 * [Sécurité avancée](RoleBasedSecuritySystem_AdvancedSecurity) 
@@ -35,7 +35,7 @@ Veuillez consulter:
 
 Lorsque vous utilisez le contrôle d'accès basé sur les groupes d'utilisateurs, les groupes d'utilisateurs sont principalement utilisés pour contrôler l'accès utilisateur pour plusieurs utilisateurs à la fois.  
 
-Les groupes d'utilisateurs courants peuvent être:  
+Les groupes d'utilisateurs courants peuvent être :  
 
 * Bureau de service : un point de contact unique pour gérer les incidents, problèmes et questions du personnel et des clients. Fournissez une interface pour des activités telles que les demandes de modification, les licences logicielles, la gestion de la configuration, etc. 
 * Bureau d'aide : gérer, coordonner et résoudre les demandes d'assistance. 
@@ -51,7 +51,7 @@ Pour créer des groupes d'utilisateurs, accéder à ***Administration - Groupes 
 Tous les paramètres peuvent être laissés par défaut, sauf si le groupe d'utilisateurs ne contient que des administrateurs. Dans ce cas, cochez la case ***Administrateur*** lors de la configuration du groupe d'utilisateur. Saisir un nom pour le groupe d'utilisateurs, puis cliquer sur ***OK***.  
 ![Gestion des Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3473.png) 
 
-Pour attribuer des groupes d'utilisateurs aux utilisateurs, cliquer sur le bouton groupe d'utilisateurs , puis cocher la case ***Est membre*** de l'utilisateur respectif.  
+Pour attribuer des groupes d'utilisateurs aux utilisateurs, cliquer sur le bouton groupe d'utilisateurs, puis cocher la case ***Est membre*** de l'utilisateur respectif.  
 ![Assignation des groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3474.png) 
 
 ## Configuration utilisateur 
@@ -87,9 +87,9 @@ Les utilisateurs en lecture seule peuvent uniquement afficher et utiliser les re
 
 ### Sélectionner le type d'utilisateur approprié 
 
-Lors de la création d'utilisateurs, certains points clés doivent être pris en considération. Posez-vous les questions suivantes lors de la configuration d'un nouvel utilisateur:  
-* Doivent-ils pouvoir accéder à n'importe quelle ressource sans restriction? Ce sont vos administrateurs . 
-* Doivent-ils être en mesure d'ajouter, de modifier ou de supprimer des entrées? Un utilisateur aurait tout cela. Alternativement, vous pouvez sélectionner des droits spécifiques avec l'utilisateur restreint . 
+Lors de la création d'utilisateurs, certains points clés doivent être pris en considération. Posez-vous les questions suivantes lors de la configuration d'un nouvel utilisateur :  
+* Doivent-ils pouvoir accéder à n'importe quelle ressource sans restriction? Ce sont vos administrateurs. 
+* Doivent-ils être en mesure d'ajouter, de modifier ou de supprimer des entrées? Un utilisateur aurait tout cela. Alternativement, vous pouvez sélectionner des droits spécifiques avec l'utilisateur restreint. 
 * Devraient-ils être en mesure de voir des informations sensibles ou d'importer et d'exporter des entrées? Les utilisateurs en lecture seule sont mieux pour ceux qui devraient avoir un accès très limité. 
 
 ## Configuration d'entrée 
@@ -106,10 +106,10 @@ L'accès est refusé aux utilisateurs en accordant expressément l'accès à d'a
 
 Pour qu'un utilisateur ait accès à un sous-dossier, l'utilisateur doit avoir au moins la permission d'affichage sur tous les dossiers parents.  
 
-Considérer la structure suivante:  
+Considérer la structure suivante :  
 ![!!clip3482.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3482.png) 
 
-Il existe trois niveaux de dossiers: les éléments du coffre, Telemark et enfant du Telemark.  
+Il existe trois niveaux de dossiers : les éléments du coffre, Telemark et enfant du Telemark.  
 
 Supposons qu'un utilisateur, tel qu'un consultant, doit avoir accès au dossier Montréal uniquement. Le consultant doit également être autorisé à consulter le dossier Telemark. Toutefois, accorder l'accès à la vue au dossier Telemark donne au consultant les autorisations pour afficher tous les éléments enfants de Telemark. Pour refuser les autorisations d'affichage pour le consultant sur des éléments enfants spécifiques, les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs.  
 ![!!clip3483.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3483.png) 

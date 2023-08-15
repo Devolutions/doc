@@ -26,7 +26,7 @@ You can choose between:
 
 RSA: RSA can be used for signing/verification and also for encryption/decryption. When using RSA it is recommended to use a 2048 bits key size.  
 
-DSA: It is faster in signing but slower in verifying. It can only be used for signing/verification it does not encrypt/decrypt . When using DSA it is a recommended to use a 1024 bits key size. 
+DSA: It is faster in signing but slower in verifying. It can only be used for signing/verification it does not encrypt/decrypt. When using DSA it is a recommended to use a 1024 bits key size. 
 		</td>
 	</tr>
 	<tr>

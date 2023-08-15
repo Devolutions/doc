@@ -103,7 +103,7 @@ DESCRIPTION
 Emplacement 
 		</td>
 		<td>
-Indiquer l'emplacement du certificat. Choisir entre:  
+Indiquer l'emplacement du certificat. Choisir entre :  
 
 * Utilisateur actuel 
 * Machine locale 
@@ -114,7 +114,7 @@ Indiquer l'emplacement du certificat. Choisir entre:
 Boutique 
 		</td>
 		<td>
-Indiquer l'emplacement de la boutique du certificat. Choisir entre:  
+Indiquer l'emplacement de la boutique du certificat. Choisir entre :  
 
 * Carnet d'adresses 
 * Racine de l'autorisation 

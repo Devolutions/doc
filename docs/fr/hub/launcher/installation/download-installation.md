@@ -3,7 +3,7 @@ title: Téléchargement et installation
 ---
 Suivre les étapes ci-dessous pour compléter l'installation {{ fr.DLAUNCHER }}.  
 
-1. Télécharger [{{ fr.DLAUNCHER }}](https://devolutions.net/fr/launcher/download) ou rechercher dans les {{ fr.CTOOLS }} dans la section ***Produits*** du site Web de [Devolutions](https://devolutions.net/fr) Devolutions .  
+1. Télécharger [{{ fr.DLAUNCHER }}](https://devolutions.net/fr/launcher/download) ou rechercher dans les {{ fr.CTOOLS }} dans la section ***Produits*** du site Web de [Devolutions](https://devolutions.net/fr) Devolutions.  
 ![!!Hub4007.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4007.png) 
 1. Lancer le fichier exécutable. 
 1. Cliquer sur ***Suivant*** dans la page d'accueil.  

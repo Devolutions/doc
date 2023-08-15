@@ -14,7 +14,7 @@ This feature is only available with an [SQL Server](/rdm/mac/data-sources/data-s
 
 User groups in {{ en.RDMMAC }} are simply permission sets that you assign to a user. You can assign multiple user groups to each user and the end result is the union of all permissions.  
 
-1. Create a new user groups in Administration - User Groups and click on the plus to create a new one .  
+1. Create a new user groups in Administration - User Groups and click on the plus to create a new one.  
 ![Add User Group](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10397.png) 
 
 ## User groups Management 
@@ -174,10 +174,10 @@ An advanced cache, with change synchronization, is allowed for [Advanced Data So
 
 ## Assign a user groups 
 
-To assign user group to a user or to manage user groups for a user go in Administration - User groups  and click on Assign user groups .  
+To assign user group to a user or to manage user groups for a user go in Administration - User groups  and click on Assign user groups.  
 ![User and Security Management - User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10404.png) 
 
-It's possible to assign a user group to multiple users at the same time. Select the users you wish to apply the selected user group or you can simply click Select All or Unselect All .  
+It's possible to assign a user group to multiple users at the same time. Select the users you wish to apply the selected user group or you can simply click ***Select All*** or ***Unselect All***.  
 ![User Group Assignment](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10405.png) 
 
 ### User groups in {{ en.DVLS }} 
@@ -189,4 +189,3 @@ Please note that the Unsecured group permissions (the ones above the grid) are i
 {% endsnippet %}
  
 For more information please see [{{ en.DVLS }} User Groups Management](/server/web-interface/administration/security-management/user-groups/). 
-

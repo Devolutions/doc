@@ -65,7 +65,7 @@ Le processus est le même pour tous les types d'entrées, mais les informations 
 ![Nouvelle entrée de Carte de crédit, de Contact ou de Note sécurisée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2115.png) 
 1. L'onglet ***Nouvelle entrée*** de {{ fr.DWL }} s'ouvrira dans votre navigateur. À titre d'exemple, l'image ci-dessous représente l'onglet pour une entrée de carte de crédit qui diffère légèrement des onglets d'autres types d'entrées.  
 ![Nouvelle entrée - Carte de crédit (onglet Général)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2116.png) 
-1. Remplir les informations relatives à votre entrée. La seule information obligatoire est le ***Nom*** ; toutes les autres informations sont facultatives, vous pouvez donc saisir uniquement les informations qui vous sont utiles. Nous vous recommandons d'indiquer également le ***Dossier*** dans lequel votre entrée sera sauvegardée pour un accès facile.  
+1. Remplir les informations relatives à votre entrée. La seule information obligatoire est le ***Nom***; toutes les autres informations sont facultatives, vous pouvez donc saisir uniquement les informations qui vous sont utiles. Nous vous recommandons d'indiquer également le ***Dossier*** dans lequel votre entrée sera sauvegardée pour un accès facile.  
 
 {% snippet icon.badgeInfo %} 
 Pour une entrée de ***Note sécurisée***, vous pouvez spécifier un ***Type*** de texte pour votre note. À moins que vous ne sachiez utiliser ***Markdown*** (un langage de balisage pour le formatage du texte), sélectionnez ***Texte brut***. 

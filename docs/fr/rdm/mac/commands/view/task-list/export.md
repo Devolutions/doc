@@ -14,9 +14,8 @@ Sélectionner les tâches et faire un clic droit pour choisir le format d“expo
 
 ### Type de fichier d'exportation 
 
-Vous pouvez exporter des tâches dans ces formats de fichiers:  
+Vous pouvez exporter des tâches dans ces formats de fichiers :  
 
 * CSV 
 * HTML 
 * XML 
-

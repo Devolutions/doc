@@ -4,7 +4,7 @@ title: Modèles
 Les modèles sont disponibles dans le menu ***Fichier - Modèles***.  
 ![Fichier - Modèles](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/cli4035.png) 
 
-Cela vous permet de créer une configuration prédéfinie tel que:  
+Cela vous permet de créer une configuration prédéfinie tel que :  
 
 * Créer une nouvelle session 
 * Se connecter rapidement 

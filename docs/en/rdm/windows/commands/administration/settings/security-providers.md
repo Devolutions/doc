@@ -3,7 +3,7 @@ title: Security Providers
 ---
 {% youtube 'phg2jL9fsIQ' %}  
 
-The ***Security Provider*** allows for encrypting the data source content. To access the security provider, navigate to Administration – Security Provider . 
+The ***Security Provider*** allows for encrypting the data source content. To access the security provider, navigate to ***Administration – Security Provider***. 
 
 {% snippet icon.badgeInfo %} 
 This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 

@@ -147,7 +147,7 @@ Syntax:
 
 `rdm://<action><parameter1>=<value>[&<parameter2>=<value>]`  
 
-The base syntax of the protocol handler requires the application protocol , an action and at least one parameter to work with.  
+The base syntax of the protocol handler requires the application protocol, an action and at least one parameter to work with.  
 
 There are three rules to follow when constructing an URL for the protocol handler:  
 

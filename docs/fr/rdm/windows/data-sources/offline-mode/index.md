@@ -22,14 +22,14 @@ Pour plus de sécurité, les fichiers hors connexion sont définis pour expirer 
 
 Vous pouvez activer manuellement le mode hors-ligne dans le menu ***Fichier – Mettre hors ligne***. Lorsque la connexion est de nouveau en ligne, utiliser le menu ***Fichier – Aller en ligne*** ou l'icône ***Actualiser*** pour vous reconnecter à la source de données.  
 
-Certaines options ne seront pas disponibles en mode hors ligne:  
+Certaines options ne seront pas disponibles en mode hors ligne :  
 
 * Pièces jointes et journaux. 
 * [Gestion des usagers](/fr/rdm/windows/commands/administration/management/user-management/) (Ajouter/Modifier/Supprimer des utilisateurs). 
 
 ## Disponibilité 
 
-La disponibilité du mode hors ligne repose sur plusieurs paramètres:  
+La disponibilité du mode hors ligne repose sur plusieurs paramètres :  
 
 * Le mode de la cache hors ligne de la source de données doit être activé dans ***Fichier – Source de données – Avancé – Mode de la cache – Intelligente*** (cette étape doit être effectuée avant d'exporter votre source de données vers d'autres). 
 * Le compte de l'utilisateur doit être activé dans ***Administration – Utilisateurs – Modifier – Paramètres – Mode hors connexion***. 
@@ -129,7 +129,7 @@ Permets d'afficher, d'utiliser et de modifier des entrées. Les conflits causés
 	</tr>
 </table>
 
-Au-delà des stratégies de groupe, le mode hors-ligne est contrôlé à ces niveaux:  
+Au-delà des stratégies de groupe, le mode hors-ligne est contrôlé à ces niveaux :  
 
 * Permissions des utilisateurs 
 * Paramètres du système 

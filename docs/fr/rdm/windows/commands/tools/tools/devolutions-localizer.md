@@ -53,7 +53,7 @@ Vous pouvez prévisualiser vos modifications dans {{ fr.RDM }} avant la publicat
 1. Fermer {{ fr.RDM }}. 
 1. Dans le ***Dashboard*** de {{ fr.DLOCALIZER }}, cliquer sur ***Deploy – Generate & Start*** pour afficher vos modifications ou sur ***Deploy – Start (use existing)*** pour afficher les modifications non publiées.  
 
-Suivez les étapes suivantes si vous voulez changer la langue de votre application {{ fr.RDM }} afin de refléter celle que vous traduisiez:  
+Suivez les étapes suivantes si vous voulez changer la langue de votre application {{ fr.RDM }} afin de refléter celle que vous traduisiez :  
 
 1. Accéder à ***Fichier – Options – Interface utilisateur*** (en anglais, ***File – Options – User Interface***). 
 1. Dans la liste déroulante ***Langue*** (en anglais, ***Language***), sélectionner la langue et cliquez sur ***OK***. 
@@ -61,7 +61,7 @@ Suivez les étapes suivantes si vous voulez changer la langue de votre applicati
 
 ### Raccourcis clavier 
 
-{{ fr.DLOCALIZER }} propose également plusieurs raccourcis clavier pour accélérer le processus de traduction:  
+{{ fr.DLOCALIZER }} propose également plusieurs raccourcis clavier pour accélérer le processus de traduction :  
 
 * Ctrl + D : Définir le statut (***Status***) de la ressource actuelle à ***Translated***. 
 * Ctrl + E : Définir le statut (***Status***) de la ressource actuelle à ***Use original***. Cela ignore tout texte de traduction et affiche la valeur d'origine telle quelle. 

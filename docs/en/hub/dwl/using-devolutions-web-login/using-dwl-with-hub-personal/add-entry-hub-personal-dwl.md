@@ -65,7 +65,7 @@ The process is the same for all entry types, but the information to be filled in
 ![New Credit Card, Contact, or Secure Note Entry](https://webdevolutions.azureedge.net/docs/en/hub/Hub2074.png) 
 1. The {{ en.DWL }} ***New Entry*** tab will open in your browser. As an example, the image below represents the tab for a credit card entry which differs slightly from the tabs for other types of entries.  
 ![New Entry - Credit Card (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2075.png) 
-1. Fill in your entry information. The only mandatory information is the ***Name*** ; all other information is optional, so you can enter only the information that is useful to you. We recommend that you also specify the ***Folder*** in which your entry will be saved for easy access.  
+1. Fill in your entry information. The only mandatory information is the ***Name***; all other information is optional, so you can enter only the information that is useful to you. We recommend that you also specify the ***Folder*** in which your entry will be saved for easy access.  
 
 {% snippet icon.badgeInfo %} 
 For a ***Secure Note*** entry, you can specify a ***Type*** of text for your note. Unless you know how to use ***Markdown*** (a markup language for formatting text), select ***Plain text***. 

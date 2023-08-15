@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Module de base {{ fr.PS }}
-  descriptions: Le module PowerShell doit maintenant être téléchargé à partir de la PowerShell Gallery. En effet, le module n’est plus inclus dans le paquet d’installation de {{ fr.RDM }}.
+  description: Le module PowerShell doit maintenant être téléchargé à partir de la PowerShell Gallery. En effet, le module n’est plus inclus dans le paquet d’installation de {{ fr.RDM }}.
   keywords: 
   - PowerShell
 ---

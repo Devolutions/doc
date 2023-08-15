@@ -12,9 +12,9 @@ Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} utilise la platefo
 
 Les fonctionnalités suivantes sont également prises en charge :  
 
-* ***Groupe de disponibilité « Always on »*** ; 
-* ***Regroupement*** ; 
-* **Expédition des journaux*** ; 
+* ***Groupe de disponibilité « Always on »***; 
+* ***Regroupement***; 
+* ***Expédition des journaux***; 
 * ***Mise en miroir de bases de données***. 
 		</td>
 	</tr>
@@ -79,7 +79,7 @@ Nom du serveur sur lequel la source de données sera stockée.
 Mode de connexion 
 		</td>
 		<td>
-Sélectionner votre mode de connexion. Choisir entre:  
+Sélectionner votre mode de connexion. Choisir entre :  
 
 * ***Connexion à la base de données*** 
 * ***Connexion personnalisée*** 
@@ -173,7 +173,7 @@ Entrer le nom d'un dossier de niveau racine pour afficher uniquement les entrée
 Mode ping en ligne 
 		</td>
 		<td>
-Indique le mode de ping préféré en ligne. Choisir entre:  
+Indique le mode de ping préféré en ligne. Choisir entre :  
 
 * Aucun 
 * Ping 
@@ -209,7 +209,7 @@ DESCRIPTION
 Type 
 		</td>
 		<td>
-Sélectionner le type de [{{ fr.UVLT }}](DataSources_Advanced_PrivateVault) à utiliser. Choisir entre:  
+Sélectionner le type de [{{ fr.UVLT }}](DataSources_Advanced_PrivateVault) à utiliser. Choisir entre :  
 
 * ***Par défaut*** : utilise le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données. 
 * ***Aucun*** : désactive le {{ fr.UVLT }} pour tous les utilisateurs. 
@@ -275,7 +275,7 @@ Afficher le script de mise à jour.
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à Microsoft Azure SQL .  
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à Microsoft Azure SQL.  
 ![Microsoft Azure SQL - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SQLAzureVPN.png) 
 
 ### Avancé 

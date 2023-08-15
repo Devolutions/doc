@@ -21,10 +21,10 @@ Pour sauter les instruction de connexion et accéder directement aux fonctionnal
 
 Si l'utilisateur ne possède pas de {{ fr.DA }}, il aura besoin d'un [mot de passe temporaire](/fr/hub/web-interface/hub-overview/administration/management/users/create-invite-users/temporary-password/) pour accéder à {{ fr.HUBB }}. L'administrateur qui a invité l'utilisateur peut inclure ou non ce mot de passe dans le courriel d'invitation.  
 
-Si le mot de passe temporaire est inclus , l'utilisateur reçoit un courriel d'invitation contenant un lien vers {{ fr.HUBB }} avec son mot de passe temporaire.  
+Si le mot de passe temporaire est inclus, l'utilisateur reçoit un courriel d'invitation contenant un lien vers {{ fr.HUBB }} avec son mot de passe temporaire.  
 ![Courriel d'invitation – Mot de passe temporaire inclus](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2008.png) 
 
-Si le mot de passe temporaire n'est pas inclus , l'utilisateur reçoit un courriel d'invitation avec un lien vers {{ fr.HUBB }} ainsi qu'un avis indiquant que l'administrateur lui transmettra bientôt le mot de passe temporaire.  
+Si le mot de passe temporaire n'est pas inclus, l'utilisateur reçoit un courriel d'invitation avec un lien vers {{ fr.HUBB }} ainsi qu'un avis indiquant que l'administrateur lui transmettra bientôt le mot de passe temporaire.  
 ![Courriel d'invitation – Mot de passe temporaire non inclus](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2011.png) 
 
 Une fois que les utilisateurs ont reçu leur mot de passe temporaire, ils sont prêts à se connecter à {{ fr.HUBB }}.  

@@ -38,7 +38,7 @@ Sets the permission mode. This must be set to Custom in order to change the disc
 2. Discrete permissions 
 		</td>
 		<td>
-Lets you choose who you want to grant permissions to. These combo boxes are available only if the above Permission combo box is set to Custom . Select between: <br>
+Lets you choose who you want to grant permissions to. These combo boxes are available only if the above Permission combo box is set to Custom. Select between: <br>
 
 * Inherited (Default): will inherit the permissions from the parent groups/folders. 
 * Custom: lets you specify a custom value for the permission. 
@@ -51,7 +51,7 @@ Lets you choose who you want to grant permissions to. These combo boxes are avai
 3. Users / User groups selector 
 		</td>
 		<td>
-Lets you select Users / User Groups to be granted the permission. Available only if the permission is set to Custom . 
+Lets you select Users / User Groups to be granted the permission. Available only if the permission is set to Custom. 
 		</td>
 	</tr>
 	<tr>
@@ -122,7 +122,7 @@ Allow users/user groups to delete entries.
 View password 
 		</td>
 		<td>
-Allow users/user groups to view entry password . 
+Allow users/user groups to view entry password. 
 		</td>
 	</tr>
 	<tr>
@@ -161,7 +161,7 @@ Allow users/user groups to edit permissions.
 Entry history 
 		</td>
 		<td>
-Allow users/user groups to view and use entry history . 
+Allow users/user groups to view and use entry history. 
 		</td>
 	</tr>
 	<tr>
@@ -169,7 +169,7 @@ Allow users/user groups to view and use entry history .
 Password History 
 		</td>
 		<td>
-Allow users/user groups to view the Password History . 
+Allow users/user groups to view the Password History. 
 		</td>
 	</tr>
 </table>
@@ -192,7 +192,7 @@ Description
 Remote tools 
 		</td>
 		<td>
-Allow users/user groups to use Remote Tools . 
+Allow users/user groups to use Remote Tools. 
 		</td>
 	</tr>
 	<tr>

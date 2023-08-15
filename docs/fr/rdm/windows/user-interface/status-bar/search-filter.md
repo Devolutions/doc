@@ -1,5 +1,5 @@
 ---
-title: Recherche / Filtre
+title: Recherche/Filtre
 ---
 Il est possible d'appliquer un filtre dans le ***{{ fr.NPANE }}*** en tapant certains caractères dans la zone de filtre. Le filtre est appliqué en utilisant les paramètres spécifiés dans l'application ***Fichier - Options - Interface utilisateur - Filtre***. 
 
@@ -8,7 +8,7 @@ Il est possible d'appliquer un filtre dans le ***{{ fr.NPANE }}*** en tapant cer
 Sélectionner le bouton à points de suspension pour afficher les options.  
 ![Bouton à points de suspension](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11003.png) 
 
-L'expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que:  
+L'expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que :  
 
 * Rechercher plusieurs ou tous les coffres à la fois. 
 * Options du champ (Inclure le dossier, l'Hôte, Nom d'utilisateur, etc.). 
@@ -16,7 +16,7 @@ L'expression du filtre est mise en correspondance avec les champs sélectionnés
 * Coordonnées du contact (Nom du contact, Courriel, Téléphone, etc.). 
 * Informations matérielles (Numéro de série, Fabricant, etc.).  
 
-Il est possible d'exclure des résultats en choisissant d'afficher les entrées correspondant à certains critères:  
+Il est possible d'exclure des résultats en choisissant d'afficher les entrées correspondant à certains critères :  
 
 * Types de session (Identifiants, Outils scripts, VPN, etc.) 
 * Si la session est marquée comme Favoris 
@@ -29,19 +29,19 @@ Les options de recherche offrent la possibilité de personnaliser votre recherch
 
 ### Raccourci clavier 
 
-Utilisez le raccourci clavier ***CTRL + F*** pour accéder rapidement à Recherche / Filtre. Cela peut être désactivé dans ***Fichier - Options - Interface utilisateur - Clavier***.  
+Utilisez le raccourci clavier ***CTRL + F*** pour accéder rapidement à Recherche/Filtre. Cela peut être désactivé dans ***Fichier - Options - Interface utilisateur - Clavier***.  
 
 Vous pouvez redéfinir le focus sur le ***{{ fr.NPANE }}*** en utilisant le raccourci clavier ***Ctrl + L***, cela peut également être désactivé dans les options. 
 
 ## Filtre booléen 
 
-Voici quelques notes d'implémentation du filtre booléen:  
+Voici quelques notes d'implémentation du filtre booléen :  
 
 * Nous utilisons la nomenclature C# (&& pour AND, || pour OR) 
 * Évalué de gauche à droite 
 * Aucune correspondance de parenthèse 
 * Les guillemets doubles (") ne sont pas requis ou supprimés, ils font partie du filtre de texte, ne les utilisez pas sauf si vous recherchez un guillemet double. 
-* Les espaces avant / arrière sont coupés 
+* Les espaces avant/arrière sont coupés 
 
 ### Exemples (cela fonctionnera comme prévu) 
 

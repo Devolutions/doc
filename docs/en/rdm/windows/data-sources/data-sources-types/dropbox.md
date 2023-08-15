@@ -27,7 +27,7 @@ The Dropbox integration uses the Dropbox SDK, so any feature that is exclusive t
 * Each Dropbox data source can use a different Dropbox account. 
 
 {% snippet icon.badgeCaution %} 
-Although it can be shared between multiple locations, there is no conflict management for the configuration. If you share with other users you may get update conflicts and run into issues. This data source type is meant for a single user using multiple computers, not multiple users . 
+Although it can be shared between multiple locations, there is no conflict management for the configuration. If you share with other users you may get update conflicts and run into issues. This data source type is meant for a single user using multiple computers, not multiple users. 
 {% endsnippet %}
  
 ## Settings 
@@ -136,7 +136,7 @@ Activate this option if you wish to compress your database file.
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your Dropbox .  
+Open a VPN to access your data prior to connecting to your Dropbox.  
 ![Dropbox - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DropboxVPN.png) 
 
 ### Advanced 

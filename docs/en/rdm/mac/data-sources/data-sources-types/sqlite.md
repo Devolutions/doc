@@ -8,7 +8,7 @@ title: SQLite
 ![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
-{{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations . More powerful and more flexible than the XML file format, it also supports a few of the advanced data source options like Logs and Attachments. 
+{{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations. More powerful and more flexible than the XML file format, it also supports a few of the advanced data source options like Logs and Attachments. 
 		</td>
 	</tr>
 </table>

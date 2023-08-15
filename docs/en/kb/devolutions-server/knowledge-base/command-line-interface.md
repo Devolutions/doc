@@ -121,7 +121,7 @@ Update the credentials of an entry.
 
 The entry's id can be found in its advance property or in the last part of its URL.
 
-![Credentials – Username / Password – Advanced](https://webdevolutions.azureedge.net/docs/en/kb/KB4357.png) 
+![Credentials – Username/Password – Advanced](https://webdevolutions.azureedge.net/docs/en/kb/KB4357.png) 
 
 **Options:**
 

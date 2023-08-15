@@ -6,7 +6,7 @@ La sécurité basée sur les groupes d'utilisateurs de {{ fr.DVLS }} permet de c
 
 Les recommandations suivantes sont basées sur notre expérience avec le système et les idées partagées par notre communauté. Suivre ces instructions, car elles vous aideront à utiliser efficacement la sécurité basée sur les groupes d'utilisateurs de {{ fr.DVLS }}.  
 
-Voici les principaux points clés de la sécurité basée sur les groupes d'utilisateurs:  
+Voici les principaux points clés de la sécurité basée sur les groupes d'utilisateurs :  
 
 * La sécurité est héritée : Les éléments et dossiers enfants sont couverts par la sécurité d'un dossier parent. 
 * Les permissions peuvent être outrepassées : Une permission définie sur un sous-dossier outrepassera la permission de l'élément parent. 
@@ -64,7 +64,7 @@ Les utilisateurs en lecture seule peuvent uniquement afficher et utiliser les re
 
 ### Sélectionner le type d'utilisateur approprié 
 
-Lors de la création d'utilisateurs, certains points clés doivent être pris en considération. Posez-vous les questions suivantes lors de la configuration d'un nouvel utilisateur:  
+Lors de la création d'utilisateurs, certains points clés doivent être pris en considération. Posez-vous les questions suivantes lors de la configuration d'un nouvel utilisateur :  
 
 * Doivent-ils pouvoir accéder à n'importe quelle ressource sans restriction? 
     * Les administrateurs peuvent accéder à n'importe quelle ressource sans restriction. 
@@ -92,11 +92,11 @@ L'accès est refusé aux utilisateurs en accordant expressément l'accès à d'a
 
 Pour qu'un utilisateur ait accès à un sous-dossier, l'utilisateur doit avoir au moins la permission d'affichage sur tous les dossiers parents.  
 
-Considérer la structure suivante:  
+Considérer la structure suivante :  
 
 ![!!clip8044.png](https://webdevolutions.azureedge.net/docs/fr/server/clip8044.png) 
 
-Il existe trois niveaux de dossiers: les éléments racine, Telemark et enfant du Telemark.  
+Il existe trois niveaux de dossiers : les éléments racine, Telemark et enfant du Telemark.  
 
 Supposons qu'un utilisateur, tel qu'un consultant, doit avoir accès au dossier Montréal uniquement. Le consultant doit également être autorisé à consulter le dossier Telemark. Toutefois, accorder l'accès à la vue au dossier Telemark donne au consultant les autorisations pour afficher tous les éléments enfants de Telemark. Pour refuser les autorisations d'affichage pour le consultant sur des éléments enfants spécifiques, les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs.  
 

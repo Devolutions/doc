@@ -94,7 +94,7 @@ Next, for the Telemark folder, we grant permissions to the ServiceDesk, the Help
 Since we want the users to be able to use the credential entries, we grant the ServiceDesk and the HelpDesk the permission to view the Credentials folder. Therefore, the ServiceDesk and HelpDesk are able to use the entries in the folder without revealing the passwords. By specifying that only the HelpDesk and ServiceDesk have the ***View*** permission, we deny the view access to any user group or user that is not on the list of the permission.  
 
 The ***Add*** and ***Edit*** permissions are set to ***Never*** and the ***Delete*** permission can be left to ***Inherited*** since it inherits the ***Never*** settings from the {{ en.VLT }}. Only the administrators can perform these actions in groups/folders containing credentials.  
-![Telemark / Credentials - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3401.png) 
+![Telemark/Credentials - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3401.png) 
 
 * ***View: Custom***; HelpDesk, ServiceDesk. 
 * ***Add: Never***; Only administrators can add credential entries. 
@@ -102,7 +102,7 @@ The ***Add*** and ***Edit*** permissions are set to ***Never*** and the ***Delet
 * ***Delete: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can delete entries. 
 
 We want the ServiceDesk to be able to use the ***Domain admin*** credential entry, but not the HelpDesk. For this, we must grant the ***View*** permission to the ServiceDesk. The ServiceDesk is still be able to use the credential entry but will never see the password.  
-![Telemark / Credentials / Admin - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3402.png) 
+![Telemark/Credentials/Admin - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3402.png) 
 
 * ***View: Custom***; ServiceDesk. 
 * ***Add: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can add credential entries. 
@@ -110,7 +110,7 @@ We want the ServiceDesk to be able to use the ***Domain admin*** credential entr
 * ***Delete: Inherited***; Never inherited from Telemark\Credentials. Only administrators can delete credential entries.  
 
 The last step for the Telemark child items is to set the ***View*** permission to the ServiceDesk and the HelpDesk on the Boston folder and leave every other permissions of this folder to ***Inherited***. This denies the Consultants to view the Boston folder. Now, the Consultants are able to view and open entries only in the Montreal folder.  
-![Telemark / Boston - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3403.png) 
+![Telemark/Boston - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3403.png) 
 
 * ***View: Custom***; HelpDesk, ServiceDesk. 
 * ***Add: Inherited***; ServiceDesk inherited from Telemark. 
@@ -122,7 +122,7 @@ Every time a new folder is added as a child of the Telemark folder, the ***View*
 {% endsnippet %}
  
 There is no need to set any permissions on the Montreal folder, since they all inherit values from parent folders.  
-![Telemark / Montreal - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3404.png) 
+![Telemark/Montreal - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3404.png) 
 
 ### In Conclusion 
 The permissions are now correctly set. Note that every entry added at {{ en.VLT }} level are inheriting from the {{ en.VLT }} as well. This means they would be available to admins only, unless their permissions were modified. This can be confirmed by looking at the screenshot below, in which the entry ***Daily routine*** is available for everyone (It's permissions have been changed to Everyone). Here is what each user should see in the tree view:  

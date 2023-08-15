@@ -1,3 +1,3 @@
 ---
-title: Importieren / Exportieren
+title: Importieren/Exportieren
 ---

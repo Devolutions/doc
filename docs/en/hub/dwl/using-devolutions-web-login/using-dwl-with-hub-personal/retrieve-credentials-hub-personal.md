@@ -61,7 +61,7 @@ Depending on the options you have enabled/disabled, you may need to retrieve you
 ![Entry Selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2096.png)  
 
 {% snippet icon.badgeInfo %} 
-If needed, you can also use the icons that appear when hovering over the entry to copy your username , copy your password , or get an overview of the entry. 
+If needed, you can also use the icons that appear when hovering over the entry to copy your username, copy your password, or get an overview of the entry. 
 {% endsnippet %}
  
 4. Your credentials will be transferred to the credentials fields of the website. Follow the rest of the website's login process until you successfully log in to your account.  

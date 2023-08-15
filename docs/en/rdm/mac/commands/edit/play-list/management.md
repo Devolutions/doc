@@ -45,7 +45,7 @@ In View - Play List and select the Play List to open and click on Open
 
 ### Open items in Embedded mode 
 
-In View - Play List select the Play List to open and click on Open Embedded .  
+In View - Play List select the Play List to open and click on ***Open Embedded***.  
 ![Open Embedded Mode](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10116.png) 
 
 ### Open items with Select in ***{{ en.NPANE }}*** 

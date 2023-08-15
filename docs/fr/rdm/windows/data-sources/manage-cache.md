@@ -58,7 +58,7 @@ Cela exécutera une commande SQLite pour réduire la taille de votre cache. L'op
 Réparer 
 		</td>
 		<td>
-La réparation exécutera ces commandes SQLite différentes pour réparer un cache corrompu:  
+La réparation exécutera ces commandes SQLite différentes pour réparer un cache corrompu :  
 
 * PRAGMA integrigy_check 
 * REINDEX DatabaseInfo 
@@ -66,5 +66,3 @@ La réparation exécutera ces commandes SQLite différentes pour réparer un cac
 		</td>
 	</tr>
 </table>
-
-

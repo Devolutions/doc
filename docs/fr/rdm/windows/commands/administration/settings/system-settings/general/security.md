@@ -42,7 +42,7 @@ Affiche le nom d'utilisateur et le mot de passe extraits d'une entrée d'identif
 Utiliser l'ancienne sécurité 
 		</td>
 		<td>
-Utiliser l'ancien système de gestion des privilèges: les Groupes de sécurité (obsolète).  
+Utiliser l'ancien système de gestion des privilèges : les Groupes de sécurité (obsolète).  
 
 * Pour gérer les permissions de vos utilisateurs, nous vous recommandons de migrer de Groupes de sécurité (obsolète) à ***Permissions***. Une fois la migration effectuée, désactiver les Groupes de sécurité, en décochant ***Utiliser l'ancienne sécurité***. 
 		</td>
@@ -64,7 +64,7 @@ DESCRIPTION
 Temps 
 		</td>
 		<td>
-Sélectionner les heures auxquelles la source de données est limitée. Choisir entre:  
+Sélectionner les heures auxquelles la source de données est limitée. Choisir entre :  
 
 * ***À tout moment*** : La session peut être utilisée à toute heure. 
 * ***Personnalisé*** : Sélectionner manuellement la période pendant laquelle la session est disponible. 
@@ -75,7 +75,7 @@ Sélectionner les heures auxquelles la source de données est limitée. Choisir 
 Jours 
 		</td>
 		<td>
-Sélectionner les jours pendant lesquels la source de données est disponible. Choisir entre:  
+Sélectionner les jours pendant lesquels la source de données est disponible. Choisir entre :  
 
 * ***N'importe quel jour*** : La session peut être utilisée n'importe quel jour de la semaine ou le week-end. 
 * ***Jours de semaine*** : La session peut être utilisée que les jours de semaine. 

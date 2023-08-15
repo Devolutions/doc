@@ -40,7 +40,7 @@ Il est suggéré d'inclure soit « Devolutions » ou « {{ fr.HUB }} » dans l
  
 ![Nom de l'application](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2025.png) 
 
-8. Dans ***Propriétés***, définir le paramètre ***Affectation requise ?*** selon vos besoins. Pour en savoir davantage sur ce paramètre, survoler l'icône d'information située à côté avec votre curseur.  
+8. Dans ***Propriétés***, définir le paramètre ***Affectation requise?*** selon vos besoins. Pour en savoir davantage sur ce paramètre, survoler l'icône d'information située à côté avec votre curseur.  
 ![Propriétés – Affectation requise](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2026.png) 
 1. Sauvegarder les modifications, le cas échéant, en utilisant le bouton ***Enregistrer*** en haut de la page. 
 1. Toujours dans ***Propriétés***, cliquer sur ***inscription de l'application*** dans le texte du haut.  

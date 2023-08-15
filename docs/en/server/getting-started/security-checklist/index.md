@@ -14,7 +14,7 @@ These recommendations are valid ONLY if the {{ en.DVLS }} instance is hosted on 
 
 ## SQL Server 
 
-* Enable only the Windows Authentication Mode . 
+* Enable only the ***Windows Authentication Mode***. 
 * Create a domain account that will be used to create the database (VaultDBOwner), as well as another account that will be used by the web server to connect to the database (VaultDBRunner). The latter must have only the minimal set of permissions to perform its tasks. 
 * Communicate ONLY through an encrypted connection, please see [Encrypting Connections to SQL Server](/server/getting-started/security-checklist/encrypting-connections-sql-server/). 
 

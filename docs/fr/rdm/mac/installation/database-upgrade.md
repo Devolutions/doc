@@ -6,7 +6,7 @@ Cette section s'applique aux installations avec des sources de données qui util
 Certaines versions de {{ fr.RDM }} doivent modifier la structure de la base de données. Celles-ci sont effectuées automatiquement pour vous, mais il est recommandé d'effectuer une sauvegarde de votre source de données au préalable. De plus, si vous êtes dans un environnement d'équipe, vous devez être le seul utilisateur connecté à la base de données pendant la mise à niveau.  
 
 {% snippet icon.badgeNotice %} 
-L'utilisateur effectuant la mise à jour doit disposer de privilèges administratifs sur la base de données et être SYSDBA ou DB_OWNER . 
+L'utilisateur effectuant la mise à jour doit disposer de privilèges administratifs sur la base de données et être SYSDBA ou DB_OWNER. 
 {% endsnippet %}
  
 ## Paramètres 
@@ -48,7 +48,7 @@ Mettre à jour base de données
 		</td>
 		<td>
 
-Suivre ces étapes pour réussir une mise à jour de version:  
+Suivre ces étapes pour réussir une mise à jour de version :  
 
 1. Assurez-vous que vous êtes le seul utilisateur de la base de données pendant le processus de mise à niveau. 
 1. Sauvegarder votre base de données à l'aide des outils DBSM. 

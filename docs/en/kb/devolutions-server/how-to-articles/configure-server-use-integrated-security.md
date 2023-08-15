@@ -6,7 +6,7 @@ In order for integrated security to be used to connect to the database, you must
 
 ## Steps
 
-To make these steps simpler, we will name the domain account VaultDBRunner , please adapt to your requirements.
+To make these steps simpler, we will name the domain account VaultDBRunner, please adapt to your requirements.
 
 1. Create the VaultDBunner account in the domain;
 1. Grant access to the SQL Server instance to VaultDBRunner;

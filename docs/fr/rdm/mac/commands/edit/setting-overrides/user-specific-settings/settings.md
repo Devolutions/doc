@@ -52,7 +52,7 @@ Définir la hauteur personnalisée de la fenêtre.
 Mode de calibrage d'écran 
 		</td>
 		<td>
-Vous pouvez sélectionner le mode de calibrage d'écran entre:  
+Vous pouvez sélectionner le mode de calibrage d'écran entre :  
 
 * Barre de défilement 
 * Résolution intelligente 

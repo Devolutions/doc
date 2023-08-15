@@ -9,7 +9,7 @@ Templates are useful to have predefined values when creating an entry. Use templ
 * Open entries as a template. 
 * Create password templates. 
 
-To access and manage templates, navigate to File – Templates .  
+To access and manage templates, navigate to ***File – Templates***.  
 
 It is possible to create local and database templates.  
 

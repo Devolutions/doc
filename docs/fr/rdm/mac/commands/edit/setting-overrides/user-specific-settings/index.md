@@ -18,7 +18,7 @@ Si les ***Paramètres spécifiques de l'usager et locaux*** sont définis sur la
  
 ![Paramètres spécifiques de l'usager](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip5057.png) 
 
-Veuillez consulter chaque onglet pour plus d'informations:  
+Veuillez consulter chaque onglet pour plus d'informations :  
 
 * [Substituer identifiants](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/) 
 * [Général](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/general/) 

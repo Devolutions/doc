@@ -16,7 +16,7 @@ For added security, you can enable SSL Encryption to communicate with your insta
 ![Setting button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10487.png) 
 1. Click on the plus to Add a New Data Source.  
 ![Data Source – Add a new data source](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10488.png) 
-1. Select Microsoft SQL Server .  
+1. Select ***Microsoft SQL Server***.  
 ![Select SQL Server data source](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10489.png) 
 1. Provide the connection information for the SQL Server with a user having enough privileges to create the database.  
 ![SQL Server data source configuration](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6042.png) 

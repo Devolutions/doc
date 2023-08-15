@@ -114,7 +114,7 @@ DESCRIPTION
 Copie de sauvegarde 
 		</td>
 		<td>
-Choisir entre: 
+Choisir entre : 
 ***Aucun*** : Aucune sauvegarde de votre source de données ne sera créée.  
 
 * Sauvegarde du fichier : Votre sauvegarde sera enregistrée dans un fichier choisi, mais ne fera pas automatiquement sauvegarder toutes les 30 secondes. 
@@ -125,7 +125,7 @@ Choisir entre:
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à SQLite .  
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à SQLite.  
 ![SQLite - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SQLiteVPN.png) 
 
 ### Avancée 

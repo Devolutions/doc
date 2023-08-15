@@ -34,7 +34,7 @@ The following steps ensure true portability and ease of maintenance. It can easi
     1. A tools folder (optional, only if you intend to use external tools like Filezilla). 
 1. Unzip {{ en.RDM }} in the installation folder. 
 1. Create a text file named override.cfg in the installation folder. Set the content of the file to .\config 
-1. Open {{ en.RDM }} and display the data sources window using File – Data sources . 
+1. Open {{ en.RDM }} and display the data sources window using ***File – Data sources***. 
 1. Create a new data source of a type that can be stored on your portable device. i.e. SQLite, XML, etc. 
 1. Configure the data source using a relative path so it is stored on the portable device: .\Data\Connections.db 
 ![!!clip11276.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11276.png) 

@@ -28,7 +28,7 @@ L'intégration Dropbox utilise le SDK Dropbox, donc toutes les fonctionnalités 
 * Chaque source de données Dropbox peut utiliser un compte Dropbox différent 
 
 {% snippet icon.badgeCaution %} 
-Bien qu'il puisse être partagé entre plusieurs emplacements, il n'y a pas de gestion des conflits pour la configuration. Si vous partagez avec d'autres utilisateurs, vous pouvez obtenir des conflits de mise à jour et rencontrer des problèmes. Ce type de source de données est destiné à un seul utilisateur utilisant plusieurs ordinateurs, et non plusieurs utilisateurs . 
+Bien qu'il puisse être partagé entre plusieurs emplacements, il n'y a pas de gestion des conflits pour la configuration. Si vous partagez avec d'autres utilisateurs, vous pouvez obtenir des conflits de mise à jour et rencontrer des problèmes. Ce type de source de données est destiné à un seul utilisateur utilisant plusieurs ordinateurs, et non plusieurs utilisateurs. 
 {% endsnippet %}
  
 ## Paramètres 
@@ -126,7 +126,7 @@ Désactiver la fonctionnalité de révélation du mot de passe lorsqu'un utilisa
 Autoriser le mode déconnecté 
 		</td>
 		<td>
-Autoriser la source de données à être utilisée en mode hors ligne . 
+Autoriser la source de données à être utilisée en mode hors ligne. 
 		</td>
 	</tr>
 	<tr>

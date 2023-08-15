@@ -4,7 +4,7 @@ title: Liste de vérification relative à la sécurité
 Pour atteindre le plus haut niveau de sécurité, vous devez suivre les recommandations suivantes.  
 
 {% snippet icon.shieldWarning %} 
-Ces recommandations sont valides seulement si l'instance de {{ fr.DVLS }} est hébergé EXCLUSIVEMENT sur votre intranet . Vous devez impliquer une personne spécialisée dans la sécurité d'Internet afin d'héberger sécuritairement toute application sur Internet. Vous devez protéger le site Web contre les attaques par Déni de service (DoS) en utilisant un appareil ou un module de sécurité externe à {{ fr.DVLS }}. 
+Ces recommandations sont valides seulement si l'instance de {{ fr.DVLS }} est hébergé EXCLUSIVEMENT sur votre intranet. Vous devez impliquer une personne spécialisée dans la sécurité d'Internet afin d'héberger sécuritairement toute application sur Internet. Vous devez protéger le site Web contre les attaques par Déni de service (DoS) en utilisant un appareil ou un module de sécurité externe à {{ fr.DVLS }}. 
 {% endsnippet %}
  
 ## Général 
@@ -14,7 +14,7 @@ Ces recommandations sont valides seulement si l'instance de {{ fr.DVLS }} est h�
 
 ## Serveur SQL 
 
-* Activer uniquement le mode d'authentification Windows .  
+* Activer uniquement le mode d'authentification Windows.  
 * Créer un compte de domaine qui sera utilisé pour créer une base de données (VaultDBOwner), ainsi qu'un autre compte qui sera utilisé par le serveur Web pour se connecter à la base de données (VaultDBRunner). Ce compte n'a besoin que des permissions minimales pour réaliser ses tâches.  
 * Communiquer UNIQUEMENT à l'aide d'une connexion chiffrée. Veuillez consulter la section [Chiffrement des connexions vers le serveur SQL](/fr/server/getting-started/security-checklist/encrypting-connections-sql-server/).  
 

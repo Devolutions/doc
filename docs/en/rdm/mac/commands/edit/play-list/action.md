@@ -18,7 +18,7 @@ Local Play List is saved on the local computer and is not available to other use
 ### Shared Play List  
 
 
-The Shared Play List is saved in the database and can be used by all users. The Shared Play List can be launched from the ***{{ en.NPANE }}*** as well as from the menu View - Play List .  
+The Shared Play List is saved in the database and can be used by all users. The Shared Play List can be launched from the ***{{ en.NPANE }}*** as well as from the menu ***View - Play List***.  
 
 Please consult the Play List Entry topic for more information on the Shared Play List session.  
 ![Play List Management - Shared Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10361.png) 
@@ -34,7 +34,7 @@ The {{ en.UVLT }} Play List is saved inside your {{ en.UVLT }} which is a user c
 
 1. Select the entries for your Play List in your ***{{ en.NPANE }}*** using Command + click.  
 ![{{ en.NPANE }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10111.png) 
-1. Right click in your ***{{ en.NPANE }}*** and select Play List - Create Play List .  
+1. Right click in your ***{{ en.NPANE }}*** and select ***Play List - Create Play List***.  
 ![Create Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10363.png) 
 1. Choose if you wish to save your Play List Locally, Shared or in your {{ en.UVLT }}.  
 ![Save Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10364.png) 
@@ -57,23 +57,23 @@ You could also create a new Play List by using the View - Play List and then cli
 ![Play List - Create from Opened Sessions](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10367.png) 
 1. Select if you wish to save your Play List Locally, Shared or in your {{ en.UVLT }}.  
 ![Save Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10364.png) 
-1. You will notice that your opened sessions are already preselected in your Play List Editor. Provide a name and a short description to your Play List and click OK .  
+1. You will notice that your opened sessions are already preselected in your Play List Editor. Provide a name and a short description to your Play List and click ***OK***.  
 ![Play List Editor](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10368.png) 
 
 ### Create Play List with No Selection 
 
-1. Right click in your ***{{ en.NPANE }}*** and select Play List - Create Play List .  
+1. Right click in your ***{{ en.NPANE }}*** and select ***Play List - Create Play List***.  
 ![Create Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10363.png) 
 1. Choose if you wish to save your Play List Locally, Shared or in your {{ en.UVLT }}.  
 ![Save Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10364.png) 
-1. In Entry - Play List - Create Play List select the option No Selection.  
+1. In ***Entry - Play List - Create Play List***, select the option No Selection.  
 ![No Selection](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10024.png) 
-1. Select the entries you wish too add to your Play List by checking the box beside the entry name. Provide a name and a short description to your Play List and click OK .  
+1. Select the entries you wish too add to your Play List by checking the box beside the entry name. Provide a name and a short description to your Play List and click OK.  
 ![Play List Editor](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10025.png) 
 
 ### Edit an existing Play List 
 
-1. You can edit a Play List in View - Play List .  
+1. You can edit a Play List in ***View - Play List***.  
 ![View - Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10369.png) 
 1. Select the Play List you wish to modify and then click on the wheel to edit the entry.  
 ![Play List Management - Edit](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10114.png) 

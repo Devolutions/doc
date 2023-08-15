@@ -16,7 +16,7 @@ If both ***User Specific Settings*** and ***Local Specific Settings*** are defin
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-These can also be accessed by using the right-click on an entry and going to Edit – User/Local Specific Settings . 
+These can also be accessed by using the right-click on an entry and going to ***Edit – User/Local Specific Settings***. 
 {% endsnippet %}
  
 ![Context menu – Edit – User and Local Specific Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10214.png) 

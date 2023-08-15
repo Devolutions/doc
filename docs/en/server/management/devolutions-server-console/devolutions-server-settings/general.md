@@ -123,7 +123,7 @@ Display an overlay icon that an update is available.
 Release Type 
 		</td>
 		<td>
-Select between Current , Beta , or Long Term Support version. 
+Select between Current, Beta, or Long Term Support version. 
 		</td>
 	</tr>
 </table>

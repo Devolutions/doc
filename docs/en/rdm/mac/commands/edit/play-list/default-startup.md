@@ -1,5 +1,5 @@
 ---
-title: Default at Startup
+title: Default at startup
 ---
 A Play List can be set to be launched when {{ en.RDMMAC }} is opened. 
 
@@ -7,7 +7,7 @@ A Play List can be set to be launched when {{ en.RDMMAC }} is opened.
 
 ### Default Play List at startup 
 
-To define a default Play List, click Edit - Play List - Play List Management . Then select your Play List in the Default at startup drop down .  
+To define a default Play List, click ***Edit - Play List - Play List Management***. Then select your Play List in the Default at startup drop-down.  
 ![Default at startup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10124.png) 
 
 {% snippet icon.badgeInfo %} 

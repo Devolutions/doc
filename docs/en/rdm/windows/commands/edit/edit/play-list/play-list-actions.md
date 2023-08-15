@@ -1,5 +1,5 @@
 ---
-title: Play List Actions
+title: Play List actions
 ---
 {% youtube 'VTGPUMl5zKY' %}  
 
@@ -10,7 +10,7 @@ You can create Local or Shared play List in {{ en.RDM }}. There's several method
 * Edit an existing Play List. 
 
 {% snippet icon.badgeInfo %} 
-You can also use the context menu to create and edit your Play List . When your entries are selected, right-click in the ***{{ en.NPANE }}*** and select ***Play List –*** Add Selection to Existing Play List . 
+You can also use the context menu to create and edit your Play List. When your entries are selected, right-click in the ***{{ en.NPANE }}*** and select ***Play List – Add Selection to Existing Play List***. 
 {% endsnippet %}
  
 ## Settings 

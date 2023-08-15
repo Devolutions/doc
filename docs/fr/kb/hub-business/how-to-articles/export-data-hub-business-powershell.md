@@ -73,7 +73,7 @@ Saisir la <b><i>Clé de l'application</b></i> de l'utilisateur d'application.
 $pathToExportedFolder 
 		</td>
 		<td>
-Saisir le <b><i>Chemin du dossier de destination</b></i> . C'est à cet endroit que vos données seront exportées. 
+Saisir le <b><i>Chemin du dossier de destination</b></i>. C'est à cet endroit que vos données seront exportées. 
 		</td>
 	</tr>
 </table>

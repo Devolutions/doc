@@ -21,7 +21,7 @@ Ces exigences sont requises seulement si vous avez l'intention d'utiliser la cr�
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiques : {{ fr.RDM }} Admins, {{ fr.RDM }} Operators, {{ fr.RDM }} Users . 
+Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiques : {{ fr.RDM }} Admins, {{ fr.RDM }} Operators, {{ fr.RDM }} Users. 
 		</td>
 	</tr>
 	<tr>
@@ -77,7 +77,7 @@ Si vous avez l'intention d'héberger la solution sur un seul serveur, installer 
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Microsoft pour plus d'information: [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules)). 
+Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Microsoft pour plus d'information : [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules)). 
 		</td>
 	</tr>
 </table>

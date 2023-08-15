@@ -55,7 +55,7 @@ Utilise le cache hors ligne uniquement pour les modifications récentes. Le cach
 
 Vous pouvez trouver le fichier de configuration dans %LocalAppData%\Devolutions\RemoteDesktopManager\[GUID:DataSourceID]  
 
-Il existe trois moteurs pour la cache:  
+Il existe trois moteurs pour la cache :  
 
 * SQLite (offline.db) 
 * MCDF (offline.mcdf) 

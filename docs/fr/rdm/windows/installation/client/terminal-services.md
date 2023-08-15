@@ -29,11 +29,11 @@ Chaque utilisateur doit disposer d'un dossier de données d'application unique (
 
 Lorsque vous utilisez des [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), pour des méthodes de journalisation efficaces, une sécurité de session appropriée et des fonctionnalités basées sur l'utilisateur, il est CRITIQUE que chaque utilisateur dispose de son propre compte pour s'authentifier auprès de la source de données.  
 
-La redistribution d'un enregistrement de source de données doit suivre l'un des modèles ci-dessous:  
+La redistribution d'un enregistrement de source de données doit suivre l'un des modèles ci-dessous :  
 
 * La source de données est configurée pour toujours demander le nom d'utilisateur et le mot de passe; 
 * Vous utilisez la sécurité intégrée contre SQL Server; 
-* Vous utilisez des variables d'environnement pour le nom d'utilisateur et vous exigez le mot de passe. (Nous recommandons: USERDOMAIN%\%USERNAME% or %USERDNSDOMAIN%\%USERNAME%) 
+* Vous utilisez des variables d'environnement pour le nom d'utilisateur et vous exigez le mot de passe. (Nous recommandons : USERDOMAIN%\%USERNAME% or %USERDNSDOMAIN%\%USERNAME%) 
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
@@ -67,8 +67,7 @@ Si l'utilisateur choisit d'ignorer le nouveau fichier de configuration lorsqu'il
 Si la principale  préoccupation est le déploiement d'une nouvelle clé de licence et que vous utilisez des [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), vous devriez plutôt utiliser Licences dans Administration. 
 {% endsnippet %}
  
-Chaque fois que {{ fr.RDM }} est démarré et qu'il détecte un nouveau fichier ***default.cfg***, la boîte de dialogue suivante apparaît:  
+Chaque fois que {{ fr.RDM }} est démarré et qu'il détecte un nouveau fichier ***default.cfg***, la boîte de dialogue suivante apparaît :  
 ![Nouveau default.cfg détecté](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10368.png) 
 
-En sélectionnant ***Use New Configuration (Lose Mine)***, la configuration de l'utilisateur est remplacée. Si vous souhaitez uniquement mettre à jour la clé de licence de {{ fr.RDM }} après un renouvellement, choisir Retrieve New Registration Only . 
-
+En sélectionnant ***Use New Configuration (Lose Mine)***, la configuration de l'utilisateur est remplacée. Si vous souhaitez uniquement mettre à jour la clé de licence de {{ fr.RDM }} après un renouvellement, choisir ***Retrieve New Registration Only***. 

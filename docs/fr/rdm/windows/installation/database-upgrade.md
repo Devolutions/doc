@@ -20,12 +20,12 @@ Si votre organisation autorise un cache hors ligne en lecture/écriture, assurez
  
 ## Étapes 
 
-Suivre ces étapes pour réussir une mise à jour de version: 
+Suivre ces étapes pour réussir une mise à jour de version : 
 
 1. Assurez-vous d'être le seul utilisateur de la base de données pendant le processus de mise à niveau. Si votre environnement autorise une utilisation hors ligne, demandez à votre équipe de passer en mode hors ligne; ou les faire basculer vers une autre source de données. 
 1. Sauvegarder votre base de données à l'aide des outils de base de données. 
 1. Installer la version souhaitée de {{ fr.RDM }}, l'utilisation du modèle de déploiement [Portable (USB)](/fr/rdm/windows/installation/client/portable-usb/) peut être souhaitable si vous effectuez cette opération sur votre poste de travail personnel. 
-1. Ouvrir {{ fr.RDM }} tout en étant connecté en tant qu'utilisateur avec des droits administratifs. Vous devez également être SYSDBA ou DB_OWNER . 
+1. Ouvrir {{ fr.RDM }} tout en étant connecté en tant qu'utilisateur avec des droits administratifs. Vous devez également être SYSDBA ou DB_OWNER. 
 1. Un message de mise à niveau peut vous apparaitre lors de l'accès à votre source de données. Si c'est le cas, acceptez la mise à niveau.  
     **ou**  
     À l'aide de ***Fichier – Sources de données***, rechercher votre source de données à mettre à niveau et ouvrez sa fenêtre de propriétés. Cliquer sur l'onglet ***Mise à niveau***, puis sur ***Mettre à jour la base de données***. 

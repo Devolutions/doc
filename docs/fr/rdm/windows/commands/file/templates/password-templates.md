@@ -1,7 +1,7 @@
 ---
 title: Modèles de mot de passe
 ---
-Les ***Modèles de mot de passe*** définissent les exigences pour le format du mot de passe: utilisation des caractères, mode, lisibilité.  
+Les ***Modèles de mot de passe*** définissent les exigences pour le format du mot de passe : utilisation des caractères, mode, lisibilité.  
 
 Les ***Modèles de mot de passe*** sont disponibles dans le générateur de mot de passe et peuvent être facultatifs ou obligatoires. 
 

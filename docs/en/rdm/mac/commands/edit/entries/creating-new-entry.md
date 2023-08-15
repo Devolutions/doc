@@ -5,7 +5,7 @@ When getting started with {{ en.RDMMAC }}, you must first configure your entries
 
 ## Creating a New Entry from the New Entry Menu 
 
-1. The simplest way to create a new entry is through the Edit Ribbon menu and New Entry .  
+1. The simplest way to create a new entry is through the ***Edit Ribbon*** menu and ***New Entry***.  
 ![Add a New Entry](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip11000.png) 
 1. Select the type of entry or template you wish to create.  
 ![Entry type](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip11001.png) 
@@ -15,4 +15,3 @@ When getting started with {{ en.RDMMAC }}, you must first configure your entries
 ## Creating a Session via Import menu 
 
 You can also import a session by using the Import menu in File - Import. For more information, refer to the [Import](/rdm/mac/commands/file/import/sessions/) topic. 
-

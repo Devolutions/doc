@@ -84,7 +84,7 @@ Entrer le port de votre serveur Syslog pour vous connecter.
 Protocole 
 		</td>
 		<td>
-Sélectionner votre mode de protocole préféré entre:  
+Sélectionner votre mode de protocole préféré entre :  
 
 * TCP 
 * UDP 

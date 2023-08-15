@@ -15,7 +15,7 @@ Les ***Coffres*** permettent de partager des entrées avec des utilisateurs et d
 1. Cliquer sur ***Ajouter*** en haut à droite de l'écran.  
 ![!!Hub4139.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4139.png) 
 1. Nommer le coffre. 
-    1. Facultatif: rédiger une courte ***Description*** de l'utilité de ce coffre.  
+    1. Facultatif : rédiger une courte ***Description*** de l'utilité de ce coffre.  
     ![!!Hub4140.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4140.png) 
 1. Cliquer ***Ajouter*** pour enregistrer. 
 

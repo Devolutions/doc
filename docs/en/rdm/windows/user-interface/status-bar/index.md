@@ -10,7 +10,7 @@ The status bar rests at the bottom of the application. It is composed of multipl
 
 ![Status bar](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10988.png)  
 
-## Search / Filter 
+## Search/Filter 
 
 Please consult the [Search/Filter](/rdm/windows/user-interface/status-bar/search-filter/) for detailed explanations. 
 

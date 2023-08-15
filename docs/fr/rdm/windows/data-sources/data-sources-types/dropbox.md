@@ -26,7 +26,7 @@ L'intégration Dropbox utilise le SDK Dropbox, donc toutes les fonctionnalités 
 * Pas besoin d'installer le client Dropbox pour utiliser la source de données Dropbox 
 * Chaque source de données Dropbox peut utiliser un compte Dropbox différent 
 {% snippet icon.badgeCaution %} 
-Bien qu'il puisse être partagé entre plusieurs emplacements, il n'y a pas de gestion des conflits pour la configuration. Si vous partagez avec d'autres utilisateurs, vous pouvez obtenir des conflits de mise à jour et rencontrer des problèmes. Ce type de source de données est destiné à un seul utilisateur utilisant plusieurs ordinateurs, et non plusieurs utilisateurs . 
+Bien qu'il puisse être partagé entre plusieurs emplacements, il n'y a pas de gestion des conflits pour la configuration. Si vous partagez avec d'autres utilisateurs, vous pouvez obtenir des conflits de mise à jour et rencontrer des problèmes. Ce type de source de données est destiné à un seul utilisateur utilisant plusieurs ordinateurs, et non plusieurs utilisateurs. 
 {% endsnippet %}
  
 ## paramètres 
@@ -62,7 +62,7 @@ Nom de la source de données.
 Mode 
 		</td>
 		<td>
-Sélectionner le mode préféré pour configurer la source de données. Choisir entre:  
+Sélectionner le mode préféré pour configurer la source de données. Choisir entre :  
 
 * Compte 
 * Local 
@@ -136,7 +136,7 @@ Activer cette option si vous souhaitez compresser votre fichier de base de donn�
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à Dropbox .  
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à Dropbox.  
 ![Dropbox - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/DropboxVPN.png) 
 
 ### Avancée 

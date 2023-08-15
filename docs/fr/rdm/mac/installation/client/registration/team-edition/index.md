@@ -18,7 +18,7 @@ Il est possible de [demander un essai](/fr/rdm/mac/installation/client/registrat
 ![Bouton Ajouter une licence](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0001.png) 
 1. Saisir la ***Licence*** dans le champ approprié.  
 ![Champ Licence](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0003.png) 
-1. Facultatif: Cocher la case ***Assignation automatique*** pour fournir automatiquement une clé de licence {{ fr.RDM }} à tous les utilisateurs nouvellement créés.  
+1. Facultatif : Cocher la case ***Assignation automatique*** pour fournir automatiquement une clé de licence {{ fr.RDM }} à tous les utilisateurs nouvellement créés.  
 ![Paramètre Assignation automatique](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0004.png) 
 1. Cliquer ***OK***. 
 1. Cliquer sur le bouton ***Modifier*** dans la fenêtre de ***Gestion des usagers et de la sécurité***.  

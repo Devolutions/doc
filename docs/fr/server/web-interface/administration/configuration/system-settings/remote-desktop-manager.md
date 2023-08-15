@@ -19,7 +19,7 @@ Description
 Déconnecter la source de données 
 		</td>
 		<td>
-Définir l'application à verrouiller:  
+Définir l'application à verrouiller :  
 
 * ***Lors de la réduction de la fenêtre*** : Verrouiller automatiquement l'application lorsqu'elle est réduite dans la barre des tâches. 
 * ***Lors du verrouillage de Windows*** : Verrouiller l'application sur le verrouillage Windows. 

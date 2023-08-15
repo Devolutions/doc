@@ -56,7 +56,7 @@ L'option est appliquée pour tous les utilisateurs. Un type d'authentification �
 	</tr>
 </table>
 
-3. Sélectionner qui reçoit les demandes de réinitialisation des utilisateurs. Vous pouvez choisir d'envoyer le courriel à tous les administrateurs de {{ fr.DVLS }} ou à un courriel spécifique . 
+3. Sélectionner qui reçoit les demandes de réinitialisation des utilisateurs. Vous pouvez choisir d'envoyer le courriel à tous les administrateurs de {{ fr.DVLS }} ou à un courriel spécifique. 
 1. Si vous avez choisi d'envoyer des demandes de réinitialisation à une adresse courriel au lieu des administrateurs de {{ fr.DVLS }}, saisir l'adresse courriel dans ***Courriel spécifique***. 
 1. Sélectionner les types d'authentification a deux facteurs avec lesquels les utilisateurs peuvent s'authentifier. Choisissez-en autant que nécessaire. 
 1. Si vous avez choisi l'utilisation comme obligatoire à l'étape 3, choisir le type d'authentification par défaut. 

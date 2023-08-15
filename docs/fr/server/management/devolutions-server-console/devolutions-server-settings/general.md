@@ -127,7 +127,7 @@ Afficher une icône en superposition indiquant qu'une mise à jour est disponibl
 Type de publication 
 		</td>
 		<td>
-Choisir entre la version Courante , Bêta et Version stable . 
+Choisir entre la version Courante, Bêta et Version stable. 
 		</td>
 	</tr>
 </table>

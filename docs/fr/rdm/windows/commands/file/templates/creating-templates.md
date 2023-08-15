@@ -13,7 +13,7 @@ Il existe de nombreuses façons de créer un modèle pour les entrées. Vous pou
 
 1. Accéder à ***Fichier - Modèles*** et sélectionner ***Modèles***.  
 ![Fichier - Modèles](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3405.png) 
-1. Dans la fenêtre ***Modèles***, cliquer sur le bouton Ajouter un modèle .  
+1. Dans la fenêtre ***Modèles***, cliquer sur le bouton Ajouter un modèle.  
 ![Ajouter modèle](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3406.png) 
 1. Sélectionner une entrée pour laquelle vous désirez créer le modèle.  
 ![Ajouter une nouvelle entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3408.png) 

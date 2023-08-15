@@ -13,7 +13,7 @@ Puisqu'ils utilisent la technologie Powershell, nous fournissons des exemples da
 
 ```powershell
 $connection.Web.OnlySendPasswordInPasswordField = $false;
-$RDM.Save ( ) ;
+$RDM.Save ( );
 ```
 
 ### Activer « view url embedded » (entrées d'informations) 
@@ -50,14 +50,14 @@ $RDM.Save();
 
 Voici quelques valeurs que vous pouvez modifier pour cette commande;  
 
-LogPath: votre chemin entre ' ' (guillemets simples). Vous pouvez également utiliser des variables. c'est-à-dire %USERPROFILE%, $NAME$, etc. Dans cet exemple, $LOGPATH$ est une variable personnalisée définie dans les paramètres de la source de données (Paramètres du système).  
+LogPath : votre chemin entre ' ' (guillemets simples). Vous pouvez également utiliser des variables. c'est-à-dire %USERPROFILE%, $NAME$, etc. Dans cet exemple, $LOGPATH$ est une variable personnalisée définie dans les paramètres de la source de données (Paramètres du système).  
 
 ```powershell
 LogMode: 1 = Sortie imprimable, 0 = Événement  
 TerminalLogOverwriteMode: 0 = Par défaul, 1 = Invite, 2 = Ajouter, 3 = Remplacer  
 ```
 
-Voici également d'autres options que vous pouvez modifier;  
+Voici également d'autres options que vous pouvez modifier :  
 
 ```powershell
 $connection.Terminal.BellMode = 'Visual';

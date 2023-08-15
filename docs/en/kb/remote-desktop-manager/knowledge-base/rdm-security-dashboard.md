@@ -25,7 +25,7 @@ Password templates set requirements for passwords generated with the password ge
 Mitigation
 		</td>
 		<td>
-In File - Templates , select Password Templates to create a template. Then, the default template can be selected in Administration - System Settings - Password Templates
+In File - Templates, select Password Templates to create a template. Then, the default template can be selected in Administration - System Settings - Password Templates
 		</td>
 	</tr>
 </table>
@@ -144,7 +144,7 @@ Security groups have been replaced by the permissions system. Legacy security is
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - Security Settings ,  uncheck Use legacy security
+In Administration - System Settings - Security Settings,  uncheck Use legacy security
 		</td>
 	</tr>
 </table>
@@ -165,7 +165,7 @@ Multi-factor authentication (MFA) requires an additional mean of authentication 
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - Security Settings , enable Force data source 2-factor configuration
+In Administration - System Settings - Security Settings, enable Force data source 2-factor configuration
 		</td>
 	</tr>
 </table>
@@ -220,7 +220,7 @@ Some entry events can perform powerful actions such as running an external progr
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - Security Settings , set Risky events to Disabled or Enabled with warnings
+In Administration - System Settings - Security Settings, set Risky events to Disabled or Enabled with warnings
 		</td>
 	</tr>
 </table>
@@ -275,7 +275,7 @@ When this option is enabled, the variable DATA_SOURCE_PASSWORD will resolve to t
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - Password Policy , uncheck Allow data source password variable
+In Administration - System Settings - Password Policy, uncheck Allow data source password variable
 		</td>
 	</tr>
 </table>
@@ -296,7 +296,7 @@ Zxcvbn is recommended over the legacy password strength analyzer as it is more r
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - Password Policy , set Password strength calculator to Zxcvbn
+In Administration - System Settings - Password Policy, set Password strength calculator to Zxcvbn
 		</td>
 	</tr>
 </table>
@@ -317,7 +317,7 @@ Validating certificates guarantees that the connection is established with the i
 Mitigation
 		</td>
 		<td>
-In File - Options - Security - Certificate security , uncheck Ignore application certificate errors
+In File - Options - Security - Certificate security, uncheck Ignore application certificate errors
 		</td>
 	</tr>
 </table>
@@ -351,7 +351,7 @@ Activity logs on user vaults can provide additional information during incident 
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - User Vault , check Log user vault activities
+In Administration - System Settings - User Vault, check Log user vault activities
 		</td>
 	</tr>
 </table>
@@ -372,7 +372,7 @@ It is preferable to provide rights to users as needed. When enabling this option
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - Security , check Create vaults with restricted access by default
+In Administration - System Settings - Security, check Create vaults with restricted access by default
 		</td>
 	</tr>
 </table>
@@ -393,7 +393,7 @@ When presented with an unknown certificate, the RDP client should be configured 
 Mitigation
 		</td>
 		<td>
-In File - Options - Types - Remote Desktop , set Authentication level to Warn me or Do not connect
+In File - Options - Types - Remote Desktop, set Authentication level to Warn me or Do not connect
 		</td>
 	</tr>
 </table>
@@ -414,7 +414,7 @@ The ZipCrypto algorithm is considered insecure and AES should be used instead. I
 Mitigation
 		</td>
 		<td>
-In File - Options - Advanced , uncheck Use ZipCrypto compression (not recommended)
+In File - Options - Advanced, uncheck Use ZipCrypto compression (not recommended)
 		</td>
 	</tr>
 </table>

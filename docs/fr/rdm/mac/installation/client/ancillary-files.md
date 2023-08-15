@@ -3,7 +3,7 @@ title: Fichier connexes
 ---
 {{ fr.RDM }} génère des fichiers auxiliaires sur votre poste de travail. Le tableau ci-dessous répertorie un exemple de fichiers auxiliaires et leur emplacement.  
 
-Comme décrit dans [Emplacement du fichier de configuration](/fr/rdm/mac/installation/client/configuration-file-location/), le chemin par défaut pour la plupart de ces fichiers est personnalisable. Pour cette raison, nous utilisons le jeton ***[CONFIG]*** dans cette documentation pour indiquer quand un fichier est stocké dans un dossier de configuration qui peut être déplacé, ou le jeton ***[PROFILE]*** pour indiquer qu'ils sont stockés dans le profil local. Par défaut, ceux-ci pointent vers le même dossier . La seule méthode pour les séparer consiste à utiliser une configuration personnalisée.  
+Comme décrit dans [Emplacement du fichier de configuration](/fr/rdm/mac/installation/client/configuration-file-location/), le chemin par défaut pour la plupart de ces fichiers est personnalisable. Pour cette raison, nous utilisons le jeton ***[CONFIG]*** dans cette documentation pour indiquer quand un fichier est stocké dans un dossier de configuration qui peut être déplacé, ou le jeton ***[PROFILE]*** pour indiquer qu'ils sont stockés dans le profil local. Par défaut, ceux-ci pointent vers le même dossier. La seule méthode pour les séparer consiste à utiliser une configuration personnalisée.  
 
 Étant donné que vous pouvez également déployer sur un périphérique portable, parfois connu sous le nom de modèle de déploiement XCOPY, nous utiliserons le jeton ***[INSTALLDIR]*** pour indiquer que le fichier se trouve au même emplacement que {{ fr.RDM }}.  
 

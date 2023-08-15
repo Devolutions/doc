@@ -27,6 +27,6 @@ Le champ ***Groupe d'onglets*** vous permet de choisir entre un groupe d'onglets
 Lorsque l'onglet ***Tout*** est sélectionné, il n'effectue aucun filtrage. Toutes les sessions en cours sont visibles dans cet onglet.  
 ![Onglet Tout](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2043.png) 
 
-Lorsqu'un autre onglet de groupe est sélectionné, il masque toutes les sessions qui ne correspondent pas au filtre. Dans l'exemple ci-dessous, seules deux sessions apparaissent dans l'onglet de groupe personnalisé Windjammer .  
+Lorsqu'un autre onglet de groupe est sélectionné, il masque toutes les sessions qui ne correspondent pas au filtre. Dans l'exemple ci-dessous, seules deux sessions apparaissent dans l'onglet de groupe personnalisé Windjammer.  
 ![Onglet groupe personnalisé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2044.png) 
 

@@ -1,7 +1,7 @@
 ---
 title: Créer et modifier une liste d'exécution
 ---
-Vous pouvez créer une Liste d'exécution locale ou partagée dans {{ fr.RDM }}. Il existe plusieurs méthodes pour créer ou modifier une Liste d'exécution:  
+Vous pouvez créer une Liste d'exécution locale ou partagée dans {{ fr.RDM }}. Il existe plusieurs méthodes pour créer ou modifier une Liste d'exécution :  
 
 * Utiliser le Gestionnaire de listes d'exécution 
 * Créer une Liste d'exécution en fonction de l'état et de la sélection des entrées 
@@ -18,7 +18,7 @@ Vous pouvez également utiliser le menu contextuel pour créer et modifier votre
 Vous pouvez y accéder en sélectionnant ***Gestionnaire de la liste d'exécution*** dans le ruban ***Modifier***.  
 ![Gestionnaire de listes d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10253.png) 
 
-Les Listes d'exécution peuvent être enregistrées de trois manières différentes: 
+Les Listes d'exécution peuvent être enregistrées de trois manières différentes : 
 
 <table>
 	<tr>
@@ -139,7 +139,7 @@ Aucune sélection prédéterminée ne sera prise en compte, créez votre Liste d
 	</tr>
 </table>
 
-5. Remplir les informations de la Liste d'exécution:  
+5. Remplir les informations de la Liste d'exécution :  
 	a. Saisir un nom pour votre liste d'exécution.  
 	b. Vous pouvez consulter, ajouter ou supprimer des entrées de la liste d'exécution sur l'onglet ***Connexions***.  
 	c. Dans ***Avancée***, vous pouvez définir la façon dont les entrées s'ouvrent.  

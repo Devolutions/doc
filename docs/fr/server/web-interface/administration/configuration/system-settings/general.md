@@ -47,7 +47,7 @@ Restitution automatique d'une session réservée après le temps définit.
 Ajouter un mode d'entrée 
 		</td>
 		<td>
-Sélectionner si les utilisateurs sont invités à choisir un modèle lors de la création d'une nouvelle entrée. Choisir entre:  
+Sélectionner si les utilisateurs sont invités à choisir un modèle lors de la création d'une nouvelle entrée. Choisir entre :  
 
 * ***Par défaut*** 
 * ***Liste des modèles (incluant les vides)*** 
@@ -212,12 +212,12 @@ Période d'utilisation (Entrées)
 		</td>
 		<td>
 * ***Zone de temps*** : Sélectionner le fuseau horaire dans lequel vous vous trouvez actuellement.  
-* ***Jours*** : Sélectionner les jours pour lesquels la session est disponible. Choisir entre:  
+* ***Jours*** : Sélectionner les jours pour lesquels la session est disponible. Choisir entre :  
 	***N'importe quel jour*** : La session peut être utilisée n'importe quel jour de la semaine ou de fin de semaine.  
 	***Jours de semaine*** : La session peut être utilisée seulement les jours de la semaine.  
 	***Jours de fin de semaine*** : La session peut être utilisée seulement la fin de semaine.  
 	***Personnalisé*** : Sélectionner manuellement chaque jour pour lequel la session est disponible.  
-* ***Heure du jour*** : Sélectionner les heures auxquelles la session est limitée. Choisir entre:  
+* ***Heure du jour*** : Sélectionner les heures auxquelles la session est limitée. Choisir entre :  
 	***N'importe quand*** : La session peut être utilisée à toute heure.  
 	***Personnalisé*** : Sélectionner manuellement la période pendant laquelle la session est disponible.  
 		</td>

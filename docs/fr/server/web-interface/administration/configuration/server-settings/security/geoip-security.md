@@ -21,7 +21,7 @@ Description
 Mode de GeoIP 
 		</td>
 		<td>
-Choisir votre méthode de GeoIP entre:  
+Choisir votre méthode de GeoIP entre :  
 
 Aucun : N'utilisera pas la sécurité GeoIP.  
 

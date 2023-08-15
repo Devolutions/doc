@@ -23,10 +23,10 @@ To skip the login instructions and go straight to essential features of {{ en.HU
 
 If the user does not have a {{ en.DA }}, they will need a [Temporary Password](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/temporary-password/) to access {{ en.HUBB }}. The administrator who invited the user may include this password in the invitation email or not.  
 
-If the temporary password is included , the user receives an invitation email with a link to {{ en.HUBB }} with their temporary password.  
+If the temporary password is included, the user receives an invitation email with a link to {{ en.HUBB }} with their temporary password.  
 ![Invitation Email – Temporary Password Included](https://webdevolutions.azureedge.net/docs/en/hub/Hub2000.png) 
 
-If the temporary password is not included , the user receives an invitation email with a link to {{ en.HUBB }} and a notice that the administrator will soon forward them the temporary password.  
+If the temporary password is not included, the user receives an invitation email with a link to {{ en.HUBB }} and a notice that the administrator will soon forward them the temporary password.  
 ![Invitation Email – Temporary Password Not Included](https://webdevolutions.azureedge.net/docs/en/hub/Hub2001.png) 
 
 Once the users have received their temporary password, they are ready to connect to {{ en.HUBB }}.  

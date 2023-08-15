@@ -133,7 +133,7 @@ Select between:
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your SQLite .  
+Open a VPN to access your data prior to connecting to your SQLite.  
 ![SQLite - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SQLiteVPN.png) 
 
 ### Advanced 

@@ -25,7 +25,7 @@ title: Devolutions Server
 À l'heure actuelle, {{ fr.DVLS }} prend uniquement en charge SQL Server et Azure SQL en tant que base de données. 
 {% endsnippet %}
  
-Pour plus d'informations, veuillez consulter ces rubriques:  
+Pour plus d'informations, veuillez consulter ces rubriques :  
 
 * [Installation de {{ fr.DVLS }}](/fr/server/installation/) 
 * [Liste de vérification relative à la sécurité](/fr/server/getting-started/security-checklist/) 
@@ -83,7 +83,7 @@ Utiliser les mêmes identifiants que votre utilisateur Windows actuel.
 Utiliser l'authentification Office365 
 		</td>
 		<td>
-Utiliser les mêmes identifiants que votre utilisateur Office365 actuel. Choisir une option d'authentification:  
+Utiliser les mêmes identifiants que votre utilisateur Office365 actuel. Choisir une option d'authentification :  
 
 * ***Par défaut*** : Créer un nouveau jeton d'authentification à chaque fois et le conserve uniquement en mémoire. 
 * ***Permanent*** : Prends le jeton enregistré, s'il n'existe pas, en crée un nouveau et l'enregistre. 
@@ -151,7 +151,7 @@ DESCRIPTION
 Mode d'accès outils à distances 
 		</td>
 		<td>
-Sélectionner votre mode d'accès aux outils à distance entre:  
+Sélectionner votre mode d'accès aux outils à distance entre :  
 
 * Local 
 * Via une source de données 
@@ -186,7 +186,7 @@ DESCRIPTION
 Type 
 		</td>
 		<td>
-Sélectionner le type de [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre:  
+Sélectionner le type de [{{ fr.UVLT }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) à utiliser. Choisir entre :  
 
 * ***Par défaut*** : utilise le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données. 
 * ***Aucun*** : désactive le {{ fr.UVLT }} pour tous les utilisateurs. 
@@ -227,7 +227,7 @@ Détermine comment les entrées seront rechargées dans la source de données. V
 Mode ping en ligne 
 		</td>
 		<td>
-Indique le mode de ping préféré en ligne. Choisir entre: 
+Indique le mode de ping préféré en ligne. Choisir entre : 
 
 * Aucun 
 * Requête Web 
@@ -238,7 +238,7 @@ Indique le mode de ping préféré en ligne. Choisir entre:
 Fenêtre expiration de licence 
 		</td>
 		<td>
-Déterminer comment l'application vous informe de l'expiration de la licence. Choisir entre: 
+Déterminer comment l'application vous informe de l'expiration de la licence. Choisir entre : 
 
 * Tous 
 * Administrateur(s) seulement 

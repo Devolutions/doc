@@ -23,7 +23,7 @@ DESCRIPTION
 Permissions 
 		</td>
 		<td>
-Définir le mode d'***Autorisation***. Choisir entre:  
+Définir le mode d'***Autorisation***. Choisir entre :  
 
 * ***Hérité*** : héritera des permissions des dossiers parents. 
 * ***Personnalisé*** : permet de spécifier une valeur personnalisée pour chacune des permissions. 

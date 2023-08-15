@@ -13,7 +13,7 @@ La fonction d'importation est active que si la [Permissions du système](/fr/rdm
 
 ### Importer des entrées 
 
-Importer des entrées est utilisé pour importer des sessions stockées dans des fichiers tels que:  
+Importer des entrées est utilisé pour importer des sessions stockées dans des fichiers tels que :  
 
 * .rdm (format d'exportation natif de {{ fr.RDM }}) 
 * .pvm (format d'exportation natif de P assword Vault Manager) 
@@ -21,7 +21,7 @@ Importer des entrées est utilisé pour importer des sessions stockées dans des
 
 ### Importer un Assistant d'ordinateur 
 
-Vous pouvez importer des ordinateurs à partir de différentes sources. Ces sources comprennent:  
+Vous pouvez importer des ordinateurs à partir de différentes sources. Ces sources comprennent :  
 
 * Voisinage réseau 
 * Liste des hôtes 

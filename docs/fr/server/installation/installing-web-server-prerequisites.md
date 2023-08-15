@@ -21,11 +21,11 @@ L'installation des prérequis à partir de la {{ fr.DVLSCONSOLE }} ou du script 
  
 ### Étapes 
 
-Voici les deux méthodes disponibles pour installer les prérequis:  
+Voici les deux méthodes disponibles pour installer les prérequis :  
 
 1. {{ fr.DVLSCONSOLE }}. 
     1. Ouvrir la [{{ fr.DVLSCONSOLE }}](/fr/server/management/devolutions-server-console/). 
-    1. Sélectionner le menu Soutien et cliquer le bouton Diagnostic d'IIS .  
+    1. Sélectionner le menu Soutien et cliquer le bouton Diagnostic d'IIS.  
 ![!!ServerOp8153.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8153.png) 
 
     1. Cliquer sur le bouton ***Installer les pré-requis*** pour exécuter le script PowerShell.  
@@ -42,6 +42,6 @@ Cette fenêtre apparaitra seulement si un prérequis est manquant lors d'une nou
 ![Emplacement du script PowerShell](https://webdevolutions.azureedge.net/docs/fr/server/clip10311.png) 
 
     1. Exécuter le script DVLS-Prerequisites.ps1. 
-    1. Le script installera les rôles Web manquants et ces composants: le module de réécriture d'URL IIS, l'Application Request Routing Module IIS et le module IIS [APS.Net](http://aps.net/) Core (.Net 6.0).  
+    1. Le script installera les rôles Web manquants et ces composants : le module de réécriture d'URL IIS, l'Application Request Routing Module IIS et le module IIS [APS.Net](http://aps.net/) Core (.Net 6.0).  
 ![!!ServerOp4038.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4038.png) 
 

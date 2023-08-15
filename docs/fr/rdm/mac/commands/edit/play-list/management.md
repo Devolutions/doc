@@ -1,7 +1,7 @@
 ---
 title: Gestionnaire
 ---
-Il existe 3 façons d'ouvrir une liste d'exécution: 
+Il existe 3 façons d'ouvrir une liste d'exécution : 
 
 <table>
 	<tr>
@@ -37,17 +37,17 @@ Les éléments seront sélectionnés dans le <b><i>{{ fr.NPANE }}</i></b>, ce qu
 
 ### Ouvrir 
 
-Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution , sélectionner la liste et cliquer ***Ouvrir***.  
+Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution, sélectionner la liste et cliquer ***Ouvrir***.  
 ![Ouvrir la liste d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0273.png) 
 
 ### Ouvrir en mode intégré 
 
-Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution , sélectionner la liste et cliquer ***Ouvrir en mode intégré***.  
+Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution, sélectionner la liste et cliquer ***Ouvrir en mode intégré***.  
 ![Ouvrir la liste d'exécution mode intégré](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0274.png) 
 
 ### Ouvrir en Sélectionnant dans le ***{{ fr.NPANE }}*** 
 
-Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution , sélectionner la liste et cliquer ***Sélectionner dans le {{ fr.NPANE }}***. Sélectionner les entrées dans le ***{{ fr.NPANE }}***.  
+Dans Modifier - Liste d'exécution - Gestionnaire de listes d'exécution, sélectionner la liste et cliquer ***Sélectionner dans le {{ fr.NPANE }}***. Sélectionner les entrées dans le ***{{ fr.NPANE }}***.  
 ![Sélectionner dans le {{ fr.NPANE }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0275.png) 
 
 ## Menu 

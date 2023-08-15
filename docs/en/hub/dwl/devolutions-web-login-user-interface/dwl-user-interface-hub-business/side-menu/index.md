@@ -78,7 +78,7 @@ The ***Copy Username*** and ***Copy Password*** buttons copy the username/passwo
 
 The ***View*** button gives you an overview of the entry as well as additional functionalities. The availability of information and functionalities depends on the type of entry and the information provided in the entry, although some of them are always available:  
 
-* ***Edit*** / ***Delete*** the entry with the ellipses button at the top right. 
+* ***Edit***/***Delete*** the entry with the ellipses button at the top right. 
 * View the location of your entry under the ***Vault*** and ***Folder*** (if it is located under a folder) sections. 
 * See when the entry was last modified and created under the ***Last Modified On*** and ***Created on*** sections respectively.  
 

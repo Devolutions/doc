@@ -50,7 +50,7 @@ Les journaux d'activité des coffres d’utilisateur ne sont pas activés par d�
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - Coffre d'utilisateur , cochez Journaliser les activités du coffre d'utilisateur . 
+Dans Administration - Paramètres du système - Coffre d'utilisateur, cochez Journaliser les activités du coffre d'utilisateur. 
 		</td>
 	</tr>
 </table>
@@ -71,7 +71,7 @@ Zxcvbn est fortement recommandé comparé à l’ancien analyseur de mots de pas
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - Politique de mot de passe , définir le Calculateur de force de mot de passe a Zxcvbn . 
+Dans Administration - Paramètres du système - Politique de mot de passe, définir le Calculateur de force de mot de passe a Zxcvbn. 
 		</td>
 	</tr>
 </table>
@@ -92,7 +92,7 @@ Les groupes de sécurité ont été remplacés par le système de permissions. L
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - Paramètres de sécurité ,  décochez Utiliser l'ancienne sécurité . 
+Dans Administration - Paramètres du système - Paramètres de sécurité,  décochez Utiliser l'ancienne sécurité. 
 		</td>
 	</tr>
 </table>
@@ -113,7 +113,7 @@ L'authentification à 2 facteurs (MFA) exige un moyen d'authentification supplé
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - Paramètres de sécurité , cochez Forcer la configuration de 2-factor sur la source de données . 
+Dans Administration - Paramètres du système - Paramètres de sécurité, cochez Forcer la configuration de 2-factor sur la source de données. 
 		</td>
 	</tr>
 </table>
@@ -155,7 +155,7 @@ La validation des certificats garantit que la connexion est établie avec la par
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Fichier - Options - Sécurité - Sécurité du certificat , décochez Ignorer les erreurs de certificats de l'application . 
+Dans Fichier - Options - Sécurité - Sécurité du certificat, décochez Ignorer les erreurs de certificats de l'application. 
 		</td>
 	</tr>
 </table>
@@ -176,7 +176,7 @@ Lorsque cette option est activée, la variable DATA_SOURCE_PASSWORD correspondra
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - Politique de mot de passe , décochez Autoriser des variables des mots de passe pour toutes les entrées . 
+Dans Administration - Paramètres du système - Politique de mot de passe, décochez Autoriser des variables des mots de passe pour toutes les entrées. 
 		</td>
 	</tr>
 </table>
@@ -210,7 +210,7 @@ L'algorithme ZipCryto est considéré comme peu sûr : AES est préférable. Il 
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Fichier - Options - Avancé , décochez Utiliser la compression ZipCrypto (non recommandé). 
+Dans Fichier - Options - Avancé, décochez Utiliser la compression ZipCrypto (non recommandé). 
 		</td>
 	</tr>
 </table>
@@ -244,7 +244,7 @@ Lorsqu'un certificat inconnu est présenté, le client RDP doit être configuré
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Fichier - Options - Types - Bureau à distance , définir le Niveau d'authentification a M'avertir ou Ne pas connecter . 
+Dans Fichier - Options - Types - Bureau à distance, définir le Niveau d'authentification a M'avertir ou Ne pas connecter. 
 		</td>
 	</tr>
 </table>
@@ -265,7 +265,7 @@ Il est préférable de fournir des droits aux utilisateurs seulement au besoin. 
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - Paramètres de sécurité , cochez Créer un coffre avec un accès restreint par défaut . 
+Dans Administration - Paramètres du système - Paramètres de sécurité, cochez Créer un coffre avec un accès restreint par défaut. 
 		</td>
 	</tr>
 </table>
@@ -307,7 +307,7 @@ Certains événements d'entrée peuvent effectuer des actions puissantes telles 
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - Paramètres de sécurité , définir Événements à risque à Désactivé ou Activé avec des avertissements . 
+Dans Administration - Paramètres du système - Paramètres de sécurité, définir Événements à risque à Désactivé ou Activé avec des avertissements. 
 		</td>
 	</tr>
 </table>
@@ -328,7 +328,7 @@ Le mot de passe de l'application devrait être utilisé pour chiffrer les inform
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Fichier - Options - Sécurité - Sécurité de l'application (local), choisir Utiliser le mot de passe d'application et cochez Chiffrer les fichiers locaux en utilisant le mot de passe de l'application . 
+Dans Fichier - Options - Sécurité - Sécurité de l'application (local), choisir Utiliser le mot de passe d'application et cochez Chiffrer les fichiers locaux en utilisant le mot de passe de l'application. 
 		</td>
 	</tr>
 </table>
@@ -362,7 +362,7 @@ Par défaut, les mots de passe ne sont pas protégés. Lorsqu'un fournisseur de 
 Mesures d'atténuation 
 		</td>
 		<td>
-Les Fourniseurs de sécurité sont configurées dans Administration - Fourniseurs de sécurité . 
+Les Fourniseurs de sécurité sont configurées dans Administration - Fourniseurs de sécurité. 
 		</td>
 	</tr>
 </table>
@@ -383,7 +383,7 @@ Les modèles de mots de passe définissent les exigences relatives aux mots de p
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Fichier - Modèles , sélectionnez Modèles de mot de passe pour créer un modèle. Ensuite, le modèle par défaut peut être sélectionné dans Administration - Paramètres du système - Modèles de mot de passe . 
+Dans Fichier - Modèles, sélectionnez Modèles de mot de passe pour créer un modèle. Ensuite, le modèle par défaut peut être sélectionné dans Administration - Paramètres du système - Modèles de mot de passe. 
 		</td>
 	</tr>
 </table>
@@ -404,7 +404,7 @@ L'utilisation d'une clé maîtresse permet de crypter le contenu sensible des fi
 Mesures d'atténuation 
 		</td>
 		<td>
-La clé maîtresse peut être définie sous Fichier - Modifier la clé maîtresse . 
+La clé maîtresse peut être définie sous Fichier - Modifier la clé maîtresse. 
 		</td>
 	</tr>
 </table>

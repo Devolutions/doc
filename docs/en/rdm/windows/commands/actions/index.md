@@ -165,7 +165,7 @@ Automatically reconnect your session with the most appropriate band.
 Windows Key on the Remote Computer 
 		</td>
 		<td>
-When enabling Windows key , it will send the function to your host instead of running it on your computer. 
+When enabling Windows key, it will send the function to your host instead of running it on your computer. 
 		</td>
 	</tr>
 </table>

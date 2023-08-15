@@ -22,7 +22,7 @@ La mise en œuvre du support pour tous les domaines a un coût. Le processus d'i
 Toutes nos entrées partagent un ensemble de champs de base; les autres sont liées à la technologie spécifique avec laquelle elles sont interfacées (RDP, SSH, etc.). Certains champs sont regroupés dans des structures, comme l'onglet Informations. Cela signifie que ces champs sont accessibles uniquement lorsque vous fournissez le nom de la structure en tant qu'objet parent, par exemple, « MetaInformation\OS » ou « MetaInformation\PurchaseDate ».  
 
 {% snippet icon.badgeInfo %} 
-Notez que le contenu du fichier JSON peut contenir nos variables : elles seront résolues lors de l'enregistrement. Par exemple, vous pouvez utiliser la variable $HOST$ dans des champs tels que Description , URL , Putty\CustomSessionName , etc. Elle sera remplacée par la valeur correspondante. 
+Notez que le contenu du fichier JSON peut contenir nos variables : elles seront résolues lors de l'enregistrement. Par exemple, vous pouvez utiliser la variable $HOST$ dans des champs tels que Description, URL, Putty\CustomSessionName, etc. Elle sera remplacée par la valeur correspondante. 
 {% endsnippet %}
  
 Voici une liste non exhaustive de quelques champs pertinents : 

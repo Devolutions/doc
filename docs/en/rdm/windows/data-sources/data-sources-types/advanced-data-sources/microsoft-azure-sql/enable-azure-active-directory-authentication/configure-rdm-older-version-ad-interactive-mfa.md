@@ -56,7 +56,7 @@ Azure AD will prompt the user for credentials only when necessary. If a token th
 </table>
 
 {% snippet icon.badgeCaution %} 
-When it comes to Azure AD joined devices (registered devices). Azure AD may or may not prompt for MFA. This is entirely controlled by Azure AD , there is nothing we can do in {{ en.RDM }} to force or bypass the MFA other than the ***Default*** or ***Automatic*** options mentioned above. 
+When it comes to Azure AD joined devices (registered devices). Azure AD may or may not prompt for MFA. This is entirely controlled by Azure AD, there is nothing we can do in {{ en.RDM }} to force or bypass the MFA other than the ***Default*** or ***Automatic*** options mentioned above. 
 {% endsnippet %}
  
 3. In the ***Username*** field, paste the ***Active Directory admin*** email you created in the Microsoft Azure SQL databases. 

@@ -118,7 +118,7 @@ Sauvegarde
 		</td>
 		<td>
 
-Choisir entre:  
+Choisir entre :  
 
 * Aucun : Aucune sauvegarde de votre source de données ne sera créée. 
 * Sauvegarde en ligne : Une sauvegarde en ligne (à l'aide du service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/)) sera automatiquement créée. 

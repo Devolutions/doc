@@ -113,7 +113,7 @@ Specify the backup name that will allow you to automatically save your sessions 
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your XML .  
+Open a VPN to access your data prior to connecting to your XML.  
 ![XML - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/XMLVPN.png) 
 
 ### Advanced 

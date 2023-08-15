@@ -56,7 +56,7 @@ Utilise le cache hors ligne uniquement pour les modifications récentes. Le cach
 
 Vous pouvez trouver le fichier de configuration en faisant un clic droit sur votre ***Finder - Aller - Aller dans le dossier*** et dans la boîte de dialogue taper ~ / Library / Application Support.  
 
-Vous pouvez ensuite ouvrir le dossier: com.devolutions.remotedesktopmanager et sélectionner la base de données correspondante où vous trouverez le fichier offline.db.  
+Vous pouvez ensuite ouvrir le dossier com.devolutions.remotedesktopmanager et sélectionner la base de données correspondante où vous trouverez le fichier offline.db.  
 
 Le fichier est une base de données SQLite chiffrée à l'aide d'un hachage de clé calculée non portable.  
 

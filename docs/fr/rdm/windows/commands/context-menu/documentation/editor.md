@@ -13,14 +13,14 @@ Un paragraphe est constitué d'une ou plusieurs lignes consécutives. Les paragr
 
 ### Accentuation 
 
-Deux méthodes d'accentuation du texte sont disponibles:  
+Deux méthodes d'accentuation du texte sont disponibles :  
 
 ```
 **Texte en gras** 
 *Texte en italique* 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4072.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4072.png) 
 
 ### En-têtes 
@@ -37,7 +37,7 @@ En-tête de deuxième niveau
 ------------------- 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4073.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4073.png) 
 
 Plus de niveaux d'en-têtes peuvent être créés en utilisant un à cinq symboles dièse (#) au début de la ligne.  
@@ -54,7 +54,7 @@ Plus de niveaux d'en-têtes peuvent être créés en utilisant un à cinq symbol
 ##### En-tête de cinquième niveau 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4074.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4074.png) 
 
 ### Listes 
@@ -75,7 +75,7 @@ ou
 - Objet 3 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4075.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4075.png) 
 
 Utiliser des nombres réguliers, suivis de points, pour créer une liste à puces ordonnée.  
@@ -86,7 +86,7 @@ Utiliser des nombres réguliers, suivis de points, pour créer une liste à puce
 3. Objet 3 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4076.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4076.png) 
 
 ### Barres horizontales 
@@ -101,7 +101,7 @@ ou
 --- 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4077.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4077.png) 
 
 ### Liens 
@@ -110,13 +110,13 @@ Utiliser des crochets pour délimiter le texte que vous souhaitez transformer en
 
 Il existe deux manières de créer des liens : en ligne et de référence.  
 
-Utiliser des parenthèses immédiatement après le texte du lien pour les liens en ligne:  
+Utiliser des parenthèses immédiatement après le texte du lien pour les liens en ligne :  
 
 ```
 Naviguer sur le site internet [Devolutions](https://devolutions.net). 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4078.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4078.png) 
 
 Optionnellement, un attribut de titre peut être inclus entre parenthèses. 
@@ -125,7 +125,7 @@ Optionnellement, un attribut de titre peut être inclus entre parenthèses.
 Naviguer sur le site internet [Devolutions](https://devolutions.net "Devolutions"). 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4079.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4079.png) 
 
 Pour les liens de style référence, définir les liens ailleurs dans le document, puis faites référence à un lien par son nom dans un autre ensemble de crochets.  
@@ -137,7 +137,7 @@ Naviguer sur le site internet [Devolutions][siteinternet] ou le [Forum][siteforu
 [siteforum]: https://forum.devolutions.net/ "Forum Devolutions" 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4080.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4080.png) 
 
 L'attribut du titre est facultatif. Les noms de liens peuvent contenir des lettres, des chiffres et des espaces, mais ne sont pas sensibles à la casse. 
@@ -159,7 +159,7 @@ Citer un texte de citation en saisissant un symbole supérieur à (>) au début 
 > Citation du texte  
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4082.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4082.png) 
 
 Les citations en bloc peuvent être imbriquées.  
@@ -169,7 +169,7 @@ Les citations en bloc peuvent être imbriquées.
 >> Imbrication du texte de la citation 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4083.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4083.png) 
 
 ### Exemples de code 
@@ -180,7 +180,7 @@ Le code en ligne est créé en entourant le texte d'un accent grave (`).
 En ligne `code`. 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4084.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4084.png) 
 
 Les blocs de code sont créés en indentant le texte avec quatre espaces au début de chaque ligne. Il doit y avoir une ligne vide avant.  
@@ -195,7 +195,7 @@ Les blocs de code sont créés en indentant le texte avec quatre espaces au déb
     } 
 ```
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4086.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4086.png) 
 
 Une coloration syntaxique spécifique peut également être spécifiée.  
@@ -205,6 +205,5 @@ var s = "JavaScript coloration syntaxique";
 alerte(s); 
 ``` 
 
-Affichage:  
+Affichage :  
 ![!!RdmWin4085.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4085.png) 
-

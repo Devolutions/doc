@@ -103,7 +103,7 @@ Vous devrez faire un clic droit dans les champs de nom d’utilisateur et de mot
 
 Vous verrez les ID correspondants à utiliser dans l'onglet ***ID du contrôle HTML*** de la session ***Site Web*** dans {{ fr.RDM }}.  
 
-Vous trouverez ci-dessous un exemple d’inspection pour le champ Username . Vous pouvez y voir que l'ID du nom d'utilisateur est « username ».  
+Vous trouverez ci-dessous un exemple d’inspection pour le champ Username. Vous pouvez y voir que l'ID du nom d'utilisateur est « username ».  
 
 ![!!KB2049.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2049.png) 
 

@@ -50,12 +50,10 @@ Si l'option est activée, l'application vérifiera si le serveur est en ligne.
 Détection en ligne 
 		</td>
 		<td>
-Si l'option ***Détection en ligne*** est activée, sélectionner la méthode de détection entre:  
+Si l'option ***Détection en ligne*** est activée, sélectionner la méthode de détection entre :  
 
 * Ping 
 * Scan des ports 
 		</td>
 	</tr>
 </table>
-
-

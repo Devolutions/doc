@@ -1,14 +1,14 @@
 ---
 title: Application Logs
 ---
-When encountering errors, you can verify the local application log, which is available in Help – Application Logs .  
+When encountering errors, you can verify the local application log, which is available in ***Help – Application Logs***.  
 
-These logs are saved in %LocalAppData%\Devolutions\RemoteDesktopManager\RemoteDesktopManager.log.db . Logs are displayed as a list which can be filtered by date, message, version,or type of log.  
+These logs are saved in **%LocalAppData%\Devolutions\RemoteDesktopManager\RemoteDesktopManager.log.db**. Logs are displayed as a list which can be filtered by date, message, version,or type of log.  
 ![View Application Log dialog](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10432.png) 
 
 ### Report 
 
-A report of the logs can be saved in a text file as well . Simply navigate to the ***Report*** tab of the application log, then click on the ***Save*** button to select a location to save the file.  
+A report of the logs can be saved in a text file as well. Simply navigate to the ***Report*** tab of the application log, then click on the ***Save*** button to select a location to save the file.  
 ![!!clip3568.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3568.png) 
 
 ### Clean up 

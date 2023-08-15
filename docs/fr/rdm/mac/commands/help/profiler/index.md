@@ -9,7 +9,7 @@ Trop d'images personnalisées pourraient considérablement augmenter la taille d
  
 ## Procédure 
 
-1. Sélectionner Aide - Profileur .  
+1. Sélectionner ***Aide - Profileur***.  
 ![Aide - Profileur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4233.png) 
 1. Déplacer la fenêtre sur le côté afin d'afficher la fenêtre principale de {{ fr.RDM }} et actualiser la source de données en utilisant le bouton ***Actualiser*** ou en utilisant ***Fichier - Actualiser***. 
 {% snippet icon.badgeInfo %} 

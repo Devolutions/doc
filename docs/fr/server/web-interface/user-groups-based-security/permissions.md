@@ -7,7 +7,7 @@ Le panneau ***Permissions*** se trouve dans toutes les propriétés d'entrée de
 
 Il est également possible d'autoriser les administrateurs à accorder des permissions administratives aux utilisateurs standard sans en faire des administrateurs avec les [Permissions du système](/fr/server/web-interface/administration/configuration/system-permissions/).  
 
-Le système d'autorisations basé sur les groupes d'utilisateurs peut donner un contrôle très précis de la sécurité. Voici un aperçu de la fenêtre des permissions:  
+Le système d'autorisations basé sur les groupes d'utilisateurs peut donner un contrôle très précis de la sécurité. Voici un aperçu de la fenêtre des permissions :  
 
 ![Sécurité - Permissions](https://webdevolutions.azureedge.net/docs/fr/server/clip8046.png)  
 
@@ -26,7 +26,7 @@ Permission
 		</td>
 		<td>
 
-Définis le mode de permission. Dois être défini sur ***Personnalisé*** afin de modifier les permissions ci-dessous. Choisir entre:  
+Définis le mode de permission. Dois être défini sur ***Personnalisé*** afin de modifier les permissions ci-dessous. Choisir entre :  
 
 * ***Par défaut*** : Héritera des permissions des groupes parents. 
 * ***Personnalisé*** : Vous permet de spécifier une valeur personnalisée pour chacune des permissions. 
@@ -39,7 +39,7 @@ Définis le mode de permission. Dois être défini sur ***Personnalisé*** afin 
 Général 
 		</td>
 		<td>
-Vous permet de choisir à qui vous souhaitez accorder des permissions. Ces zones de liste déroulante sont disponibles uniquement si la permission ci-dessus est définie sur ***Personnalisé***. Choisir entre:  
+Vous permet de choisir à qui vous souhaitez accorder des permissions. Ces zones de liste déroulante sont disponibles uniquement si la permission ci-dessus est définie sur ***Personnalisé***. Choisir entre :  
 
 * ***Hérité (Autorisé)*** : Héritera des permissions des groupes/dossiers parents. 
 * ***Personnalisé*** : Vous permet de spécifier une valeur personnalisée pour la permission. 
@@ -163,7 +163,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à afficher et à utiliser l'h
 Historique des mots de passe 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à afficher l'historique des mots de passe . 
+Autoriser les utilisateurs/groupes d'utilisateurs à afficher l'historique des mots de passe. 
 		</td>
 	</tr>
 </table>

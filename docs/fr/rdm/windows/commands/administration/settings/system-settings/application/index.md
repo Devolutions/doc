@@ -167,12 +167,12 @@ Obliger un appareil Google Authenticator pour accéder à l'application lorsqu'e
 Déconnecter la source de données 
 		</td>
 		<td>
-Définir l'application à verrouiller:  
+Définir l'application à verrouiller :  
 
-* Lors de la réduction de la fenêtre: Verrouiller automatiquement l'application lorsqu'elle est réduite dans la barre des tâches. 
-* Lorsqu'inactive: Verrouiller automatiquement l'application lorsqu'elle n'est pas utilisée après un nombre de minutes déterminé. 
-* Lors du verrouillage de Windows: Verrouiller l'application sur le verrouillage Windows. 
-* En mode veille: Verrouiller l'application lorsqu'en veille. 
+* Lors de la réduction de la fenêtre : Verrouiller automatiquement l'application lorsqu'elle est réduite dans la barre des tâches. 
+* Lorsqu'inactive : Verrouiller automatiquement l'application lorsqu'elle n'est pas utilisée après un nombre de minutes déterminé. 
+* Lors du verrouillage de Windows : Verrouiller l'application sur le verrouillage Windows. 
+* En mode veille : Verrouiller l'application lorsqu'en veille. 
 		</td>
 	</tr>
 	<tr>

@@ -16,7 +16,7 @@ Suivez les étapes ci-dessous pour créer un compte de site Web avec {{ fr.DWL }
 1. Suivre le processus d'enregistrement du site Web jusqu'à atteindre le champ du mot de passe. 
 1. Cliquer sur l'icône {{ fr.DWL }} dans la barre d'outils de votre navigateur, puis sélectionner l'onglet ***Générateur de mots de passe*** dans le ***Menu latéral*** de l'extension.  
 ![Onglet du Générateur de mots de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2024.png) 
-1. Il est maintenant possible de personnaliser les paramètres de génération du mot de passe, mais cette opération est facultative puisque les paramètres par défaut génèrent déjà des mots de passe très forts. Cela dit, il peut être nécessaire d'ajuster les paramètres pour répondre aux exigences spécifiques de certains sites Web. Si vous ne souhaitez pas personnaliser les paramètres de génération, vous pouvez passer à l'<a href="#5">étape 5</a> . 
+1. Il est maintenant possible de personnaliser les paramètres de génération du mot de passe, mais cette opération est facultative puisque les paramètres par défaut génèrent déjà des mots de passe très forts. Cela dit, il peut être nécessaire d'ajuster les paramètres pour répondre aux exigences spécifiques de certains sites Web. Si vous ne souhaitez pas personnaliser les paramètres de génération, vous pouvez passer à l'<a href="#5">étape 5</a>. 
     1. Définir la ***Longueur du mot de passe***. La valeur par défaut est fixée à 12.  
     ![Longueur du mot de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2025.png) 
     1. Dans la section ***Général***, sélectionner les types de caractères que votre mot de passe doit contenir. Par défaut, les lettres majuscules, les lettres minuscules et les chiffres sont inclus, mais il est aussi possible d'inclure des caractères spéciaux dans votre mot de passe.  
@@ -27,7 +27,7 @@ Suivez les étapes ci-dessous pour créer un compte de site Web avec {{ fr.DWL }
 
 Vos paramètres de mot de passe sont maintenant configurés. 
 
-5. <a name="5"></a>Si souhaité, pour modifier le mot de passe actuel, cliquer sur le bouton ***Générer un mot de passe*** jusqu'à ce que le résultat soit satisfaisant.  .
+5. <a name="5"></a>Si souhaité, pour modifier le mot de passe actuel, cliquer sur le bouton ***Générer un mot de passe*** jusqu'à ce que le résultat soit satisfaisant. 
 ![Générer un mot de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2028.png) 
 1. Cliquer sur le bouton ***Copier dans le presse-papiers*** pour copier le mot de passe.  
 ![Copier dans le presse-papiers](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2029.png) 

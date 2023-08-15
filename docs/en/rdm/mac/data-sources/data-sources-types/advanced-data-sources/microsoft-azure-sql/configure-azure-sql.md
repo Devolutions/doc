@@ -6,7 +6,7 @@ title: Configure Azure SQL
 ![!!RDMMac4033.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4033.png) 
 1. Click on the plus sign to create a new data source.  
 ![!!RDMMac4034.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4034.png) 
-1. Select Microsoft Azure SQL .  
+1. Select ***Microsoft Azure SQL***.  
 ![!!RDMMac4035.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4035.png) 
 1. Configure the connection to your Azure SQL with a user with sufficient privileges to create the database.  
 ![!!RDMMac4036.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4036.png) 

@@ -73,7 +73,7 @@ Save your search locally to reuse it.
 Save As 
 		</td>
 		<td>
-Save a previously saved search but under a different name . 
+Save a previously saved search but under a different name. 
 		</td>
 	</tr>
 	<tr>

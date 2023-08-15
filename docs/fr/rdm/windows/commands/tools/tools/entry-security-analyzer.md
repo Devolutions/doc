@@ -14,7 +14,7 @@ L'***Analyseur de sécurité d'entrées*** suit un ensemble de règles pour dét
 
 ### Renforcer 
 
-Ce sont les règles qui renforcent les mots de passe:  
+Ce sont les règles qui renforcent les mots de passe :  
 
 * La longueur du mot de passe 
 * Le nombre de lettres majuscules (A-Z) 
@@ -24,7 +24,7 @@ Ce sont les règles qui renforcent les mots de passe:
 * Le nombre de chiffres ou de symboles dans le milieu du mot de passe 
 * Trois ou plusieurs des règles ci-dessus sont remplies 
 
-Les conditions minimales exigées pour un mot de passe ***Fort*** sont:  
+Les conditions minimales exigées pour un mot de passe ***Fort*** sont :  
 
 * Le mot de passe est au moins 5 caractères 
 * Le mot de passe contient des majuscules et des caractères minuscules 
@@ -32,7 +32,7 @@ Les conditions minimales exigées pour un mot de passe ***Fort*** sont:
 
 ### Affaiblir 
 
-Ce sont les règles qui rendent les mots de passe plus faibles: 
+Ce sont les règles qui rendent les mots de passe plus faibles : 
 
 * Le mot de passe ne contient que des lettres 
 * Le mot de passe ne contient que des chiffres 

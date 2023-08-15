@@ -18,14 +18,14 @@ Lorsqu'une entrée est modifiée par un utilisateur en ligne alors qu'un autre u
 1. Modifier une entrée. 
 1. Se remettre en ligne dans ***Fichier - Aller en ligne***. 
 
-La fenêtre ***Modifications hors connexion*** s'affiche:  
+La fenêtre ***Modifications hors connexion*** s'affiche :  
 ![Modifications hors connexion](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10394.png) 
 
 Utiliser cette boîte de dialogue pour ***Accepter/Rejeter*** vos modifications hors ligne.  
 
 Vous pouvez utiliser l'action ***Comparer*** pour avoir une comparaison côte à côte de vos modifications de l'entrée actuelle.  
 
-Les statuts possibles des entrées sont:  
+Les statuts possibles des entrées sont :  
 
 * ***Accepter*** :  lorsqu'aucun changement extérieur n'a été détecté. 
 * ***Conflit*** : lorsque des modifications extérieures ont été détectées depuis votre dernière connexion. 
@@ -34,7 +34,7 @@ Les statuts possibles des entrées sont:
 
 Lorsque plusieurs utilisateurs modifient simultanément la même entrée hors ligne, un conflit se produit lorsque le deuxième utilisateur est de nouveau en ligne.  
 
-Voici un exemple d'un tel cas pour aider à résoudre correctement les conflits:  
+Voici un exemple d'un tel cas pour aider à résoudre correctement les conflits :  
 
 Lorsque le premier utilisateur revient en ligne, la fenêtre ***Modifications hors connexion*** s'affiche. Les modifications sont acceptées par défaut.  
 

@@ -2,7 +2,7 @@
 title: Domaine
 order: 10
 ---
-Le domaine est utilisé pour authentifier l'utilisateur. C'est le plus sûr, le plus flexible et le plus simple à gérer . Pas besoin de synchroniser les utilisateurs entre le domaine et {{ fr.DVLS }}. Lors de la première utilisation de la source de données {{ fr.DVLS }}, l'utilisateur sera créé et se verra attribuer des droits d'accès en fonction de son rôle dans l'organisation tel que défini sur le domaine. Vous devez accorder les autorisations appropriées à vos groupes d'utilisateurs dans {{ fr.DVLS }}. Lors de l'authentification, nous validerons les groupes AD auxquels appartient l'utilisateur et pour tous ceux qui ont un groupe correspondant, nous accorderons les permissions à l'utilisateur. 
+Le domaine est utilisé pour authentifier l'utilisateur. C'est le plus sûr, le plus flexible et le plus simple à gérer. Pas besoin de synchroniser les utilisateurs entre le domaine et {{ fr.DVLS }}. Lors de la première utilisation de la source de données {{ fr.DVLS }}, l'utilisateur sera créé et se verra attribuer des droits d'accès en fonction de son rôle dans l'organisation tel que défini sur le domaine. Vous devez accorder les autorisations appropriées à vos groupes d'utilisateurs dans {{ fr.DVLS }}. Lors de l'authentification, nous validerons les groupes AD auxquels appartient l'utilisateur et pour tous ceux qui ont un groupe correspondant, nous accorderons les permissions à l'utilisateur. 
 
 ![Authentification de domaine](https://webdevolutions.azureedge.net/docs/fr/server/AuthenticationDomain.png) 
 
@@ -162,8 +162,8 @@ Format du nom d'utilisateur
 		</td>
 		<td>
 Sélectionner le format de nom d'utilisateur qui sera créé dans la base de données. 
-* UPN : L'utilisateur sera créé en utilisant le format UPN ex: bill@windjammer.loc. 
-* NetBios : L'utilisateur sera créé en utilisant le format NetBios ex: WINDJAMMER\bill. 
+* UPN : L'utilisateur sera créé en utilisant le format UPN, p. ex. bill@windjammer.loc. 
+* NetBios : L'utilisateur sera créé en utilisant le format NetBios, p. ex. WINDJAMMER\bill. 
 * Username : L'utilisateur sera créé en utilisant le nom du compte SAM. 
 		</td>
 	</tr>

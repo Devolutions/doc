@@ -17,7 +17,7 @@ La vue principale, qui est celle qui s'affiche lors de la première ouverture de
 Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez passer de l'un à l'autre en utilisant le Sélecteur de source de données situé à gauche du Menu supérieur. Une liste déroulante apparaîtra avec les autres produits que vous avez précédemment couplés avec {{ fr.DWL }}.  
 ![Sélecteur de source de données](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2007.png) 
 
-À droite du Menu supérieur , le bouton ***Paramètres*** ouvre un nouvel onglet dans lequel vous pouvez configurer votre extension. Consultez la [liste complète des paramètres](/fr/server/dwl/settings/).  
+À droite du Menu supérieur, le bouton ***Paramètres*** ouvre un nouvel onglet dans lequel vous pouvez configurer votre extension. Consultez la [liste complète des paramètres](/fr/server/dwl/settings/).  
 ![Bouton Paramètres](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2010.png) 
 
 À côté du bouton Paramètres se trouve le bouton de votre Compte. Cette section comporte quelques liens et informations utiles, à savoir :  
@@ -34,7 +34,7 @@ Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez pa
 En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }}.  
 ![Onglets du menu latéral](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2008.png) 
 
-Chaque onglet affiche une vue différente dans la Zone de contenu . Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.DVLS }} sont :  
+Chaque onglet affiche une vue différente dans la Zone de contenu. Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.DVLS }} sont :  
 
 * l'onglet ***Correspondant***, où vous pouvez trouver les identifiants disponibles pour un site Web spécifique; 
 * l'onglet ***Toutes les entrées***, où vous pouvez trouver toutes les entrées {{ fr.DVLS }} que vous avez synchronisées, réparties dans vos différents coffres et dossiers; 

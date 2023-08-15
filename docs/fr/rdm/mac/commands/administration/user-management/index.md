@@ -23,7 +23,7 @@ Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources
 
 ### Créer des utilisateurs 
 
-Pour créer un nouvel utilisateur, cliquez sur le plus. Vous pouvez créer un utilisateur en utilisant la sécurité par défaut (en spécifiant le mot de passe) ou la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/). Consulter la rubrique [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) pour plus d'informations sur les droits qui peuvent être ajoutése à un utilisateur. Vous pouvez attribuer différentes options de sécurité à l'utilisateur, telles que lui permettre d'utiliser le mode Hors connexion .  
+Pour créer un nouvel utilisateur, cliquez sur le plus. Vous pouvez créer un utilisateur en utilisant la sécurité par défaut (en spécifiant le mot de passe) ou la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/). Consulter la rubrique [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) pour plus d'informations sur les droits qui peuvent être ajoutése à un utilisateur. Vous pouvez attribuer différentes options de sécurité à l'utilisateur, telles que lui permettre d'utiliser le mode ***Hors connexion***.  
 ![Gestion des usagers et de la sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0292.png) 
 
 {% snippet icon.badgeInfo %} 
@@ -51,7 +51,7 @@ Type d'authentification
 		</td>
 		<td>
 
-Sélectionner votre type d'authentification entre: 
+Sélectionner votre type d'authentification entre : 
 
 * Personnalisé (Devolutions) : Si vous souhaitez ajouter une couche de sécurité supplémentaire sans utiliser la sécurité intégrée ou sans avoir à créer de nouvelle connexion SQL dans votre serveur SQL, le type d'authentification personnalisée sera votre meilleure option. Vous n'aurez qu'à créer un compte SQL dans SQL Server. 
 * Base de données (SQL Server) : Authentifiez-vous à l'aide de la connexion SQL à partir de votre serveur SQL. 
@@ -202,7 +202,7 @@ Consulter la rubrique [Permissions](/fr/rdm/mac/commands/administration/user-man
 
 ![Gestion des utilisateurs - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4120.png) 
 
-Autoriser l'utilisateur à activer le mode Hors connexion sur les sources de données. Cela dépend également de la source de données configurée pour l'autoriser. Vous pouvez choisir entre:  
+Autoriser l'utilisateur à activer le mode Hors connexion sur les sources de données. Cela dépend également de la source de données configurée pour l'autoriser. Vous pouvez choisir entre :  
 
 <table>
 	<tr>

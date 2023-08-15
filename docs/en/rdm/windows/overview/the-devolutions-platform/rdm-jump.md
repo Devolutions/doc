@@ -6,7 +6,7 @@ keywords:
 - Jump server
 - Service host
 ---
-{{ en.RDMJ }} connects to a remote host, often called a Jump Box, Service Host, or a Bastion Server , which in turn connects to other hosts. {{ en.RDMJ }} is actually an RDP in an RDP.  
+{{ en.RDMJ }} connects to a remote host, often called a Jump Box, Service Host, or a Bastion Server, which in turn connects to other hosts. {{ en.RDMJ }} is actually an RDP in an RDP.  
 
 This can be compared to RD Gateway from Microsoft and to some extent SSH port forwarding.  
 
@@ -24,7 +24,7 @@ The {{ en.RDMJ }} feature does not allow you to circumvent the need to properly 
  
 {% youtube 'AfpCDZGphA8' %}  
 
-Both instances of {{ en.RDMJ }} or {{ en.RDM }} and {{ en.RDMA }} running on the ***Jump Host*** communicate through an RDP channel. Commands are sent securely over the RDP channel and are then executed on the Service Host . Commands include running a script or opening a remote session of any type. It can even launch a VPN client on the Service Host prior to running the remote session.  
+Both instances of {{ en.RDMJ }} or {{ en.RDM }} and {{ en.RDMA }} running on the ***Jump Host*** communicate through an RDP channel. Commands are sent securely over the RDP channel and are then executed on the Service Host. Commands include running a script or opening a remote session of any type. It can even launch a VPN client on the Service Host prior to running the remote session.  
 
 * [Usage Scenarios](#usage-scenarios) 
 * [Configure a Jump Host](#configure-a-jump-host) 

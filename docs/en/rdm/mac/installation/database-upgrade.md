@@ -6,7 +6,7 @@ This topic applies to installations with data sources that are using a database 
 Some {{ en.RDMMAC }} releases must alter the database structure. These are performed automatically for you but it is a best practice to perform a backup of your data source beforehand. Additionally, If you are in a team environment you must be the sole user connected to the database during the upgrade.  
 
 {% snippet icon.badgeWarning %} 
-The user performing the actions on this screen must have administrative privileges on the database management system.  You must also be SYSDBA or DB_OWNER . 
+The user performing the actions on this screen must have administrative privileges on the database management system. You must also be SYSDBA or DB_OWNER. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -24,7 +24,7 @@ Follow these steps for a successful version update:
 1. Ensure you are the sole user of the database during the upgrade process. If you environment allows for offline use, have your team switch to the offline mode; or have them switch to another datasource 
 1. Backup your database using the database tools. 
 1. Open {{ en.RDMMAC }} while logged on as a user with administrative rights. You must also be SYSDBA or DB_OWNER. 
-1. You may be prompted with an upgrade message when your data source is accessed. If so accept the upgrade or using File - Data sources , locate and edit your data source to upgrade.  
+1. You may be prompted with an upgrade message when your data source is accessed. If so accept the upgrade or using File - Data sources, locate and edit your data source to upgrade.  
 ![Edit your data source](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip11015.png) 
 1. Switch to the Upgrade tab, then click on Update Database  
 ![Upgrade tab - Upgrade Database](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip11016.png) 
@@ -64,7 +64,7 @@ Follow these steps for a successful version update:
 
 1. Ensure you are the sole user of the database during the upgrade process. 
 1. Backup your database using the DBMS tools. 
-1. Open {{ en.RDMMAC }} while logged on as a user with administrative rights. You must also be SYSDBA or DB_OWNER . 
+1. Open {{ en.RDMMAC }} while logged on as a user with administrative rights. You must also be SYSDBA or DB_OWNER. 
 1. You may be prompted with an upgrade message when your data source is accessed. If so accept the upgrade. 
 1. Update the client software on all workstations. 
 		</td>

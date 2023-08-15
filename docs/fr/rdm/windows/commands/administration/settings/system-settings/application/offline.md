@@ -17,7 +17,7 @@ DESCRIPTION
 Mode hors connexion 
 		</td>
 		<td>
-Définir la disponibilité du [Mode hors connexion](/rdm/windows/data-sources/offline-mode/) de la source de données globale . Le mode hors ligne est utile lors de l'utilisation d'une connexion VPN qui rend impossible l'utilisation du réseau local. 
+Définir la disponibilité du [Mode hors connexion](/rdm/windows/data-sources/offline-mode/) de la source de données globale. Le mode hors ligne est utile lors de l'utilisation d'une connexion VPN qui rend impossible l'utilisation du réseau local. 
 		</td>
 	</tr>
 		<td>

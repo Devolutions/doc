@@ -35,7 +35,7 @@ Reportez-vous aux sections ci-dessous en fonction de la source choisie.
 L'écran suivant sera immédiatement rempli avec le résultat de la découverte du réseau.  
 ![!!clip10737.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10737.png) 
 
-Si vous préférez que vos sessions utilisent l'adresse IP au lieu du nom d'hôte pour se connecter aux périphériques, cocher l'option ***Résoudre l'adresse IP***. Cela nécessite que ***Résoudre l'adresse IP*** soit sélectionné dans le premier écran de l'assistant. Sélectionner les ordinateurs pour lesquels vous souhaitez créer une session et passez à la [Sélection de modèles](#sélection-de-modèles) ci-dessous. La sélection multiple est autorisée en utilisant Ctrl+Clic et Maj+Clic . 
+Si vous préférez que vos sessions utilisent l'adresse IP au lieu du nom d'hôte pour se connecter aux périphériques, cocher l'option ***Résoudre l'adresse IP***. Cela nécessite que ***Résoudre l'adresse IP*** soit sélectionné dans le premier écran de l'assistant. Sélectionner les ordinateurs pour lesquels vous souhaitez créer une session et passez à la [Sélection de modèles](#sélection-de-modèles) ci-dessous. La sélection multiple est autorisée en utilisant Ctrl+Clic et Maj+Clic. 
 
 ### Activer répertoire 
 

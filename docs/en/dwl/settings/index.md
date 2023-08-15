@@ -248,7 +248,7 @@ DESCRIPTION
 Default compare type 
 		</td>
 		<td>
-Set a default comparing option type between <b><i>Base domain , Host , Starts with , RegEx , Exact</b></i> , and <b><i>Never</b></i> . 
+Set a default comparing option type between <b><i>Base domain</b></i>, <b><i>Host</b></i>, <b><i>Starts with</b></i>, <b><i>RegEx</b></i>, <b><i>Exact</b></i>, and <b><i>Never</b></i>. 
 		</td>
 	</tr>
 	<tr>
@@ -363,7 +363,7 @@ Enable or disable {{ en.DWL }} with {{ en.HUB }}.
 Default compare type 
 		</td>
 		<td>
-Set a default comparing option type between <b><i>Base domain , Host , Starts with , RegEx , Exact</b></i> , and <b><i>Never</b></i> 
+Set a default comparing option type between <b><i>Base domain</b></i>, <b><i>Host</b></i>, <b><i>Starts with</b></i>, <b><i>RegEx</b></i>, <b><i>Exact</b></i>, and <b><i>Never</b></i> 
 		</td>
 	</tr>
 	<tr>
@@ -375,6 +375,3 @@ Enable to synchronize all the available {{ en.VLT }}s from {{ en.HUBB }}.
 		</td>
 	</tr>
 </table>
-
-
-

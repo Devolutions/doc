@@ -105,7 +105,7 @@ Description
 Default template 
 		</td>
 		<td>
-Default password template used by the system. Password Templates can be created in <a href="/server/web-interface/administration/templates/password-templates/" target="_blank">Password Templates</a> . 
+Default password template used by the system. Password Templates can be created in <a href="/server/web-interface/administration/templates/password-templates/" target="_blank">Password Templates</a>. 
 		</td>
 	</tr>
 	<tr>

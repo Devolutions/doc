@@ -65,7 +65,7 @@ La version 16 ou ultérieure de Safari est requise.
    1. Sélectionner l'onglet ***Développement***.
    1. Cocher la case ***Autoriser les extensions non signées***.
    {% snippet icon.badgeCaution %}
-   Le réglage ***Autoriser les extensions non signées*** se réinitialise lorsque vous quittez Safari ; réglez-le à nouveau la prochaine fois que vous lancerez Safari.
+   Le réglage ***Autoriser les extensions non signées*** se réinitialise lorsque vous quittez Safari; réglez-le à nouveau la prochaine fois que vous lancerez Safari.
    {% endsnippet %}  
 
 1. Activer l'extension {{ fr.DWL }} :
@@ -98,7 +98,7 @@ Source (EN) : [Running your Safari web extension - Configure Safari in {{ fr.MAC
    1. Dans la barre des menus, accéder à l'onglet ***Développement***.
    1. Cliquer sur ***Autoriser les extensions non signées***.
    {% snippet icon.badgeCaution %}
-   Le réglage ***Autoriser les extensions non signées*** se réinitialise lorsque vous quittez Safari ; réglez-le à nouveau la prochaine fois que vous lancerez Safari.
+   Le réglage ***Autoriser les extensions non signées*** se réinitialise lorsque vous quittez Safari; réglez-le à nouveau la prochaine fois que vous lancerez Safari.
    {% endsnippet %}  
 
 1. Activer l'extension {{ fr.DWL }} :

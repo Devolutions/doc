@@ -5,7 +5,7 @@ The Password Generator enables you to create random passwords that are secured a
 
 You can also create password generator templates to generate more rapidly your passwords. After you have selected your mode and settings, you can create your template.  
 
-Password Generator is available in Tools - Password Generator .  
+Password Generator is available in ***Tools - Password Generator***.  
 ![Tools - Password Generator](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10459.png) 
 
 ## Settings 

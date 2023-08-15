@@ -91,7 +91,7 @@ The ***Copy Username*** and ***Copy Password*** buttons copy the username/passwo
 
 The ***View*** button gives you an overview of the entry as well as additional functionalities. The availability of information and functionalities depends on the type of entry and the information provided in the entry, although some of them are always available:  
 
-* ***Edit*** / ***Delete*** the entry with the ellipses button at the top right. 
+* ***Edit***/***Delete*** the entry with the ellipses button at the top right. 
 * Mark your entry as favorite by clicking on the ***Add to Favorites*** icon next to the entry name. The entry will then show in the ***Favorites*** [tab](#favorites-tab). 
 * View the location of your entry under the ***Folder*** section (if it is located under a folder). 
 * See when the entry was last modified and created under the ***Last Modified On*** and ***Created on*** sections respectively. 

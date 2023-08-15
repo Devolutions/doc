@@ -6,7 +6,7 @@ En cas d'erreur, vous pouvez vérifier le journal d'application local, disponibl
 
 ## Paramètres 
 
-Ces journaux sont enregistrés dans Macintosh HD/Users/Username/Library/Application Support/com.devolutions.remotedesktopmanager/RemoteDesktopManager.log . Vous pouvez l'afficher sous la forme d'une liste qui peut ensuite être filtrée par Date, Message, Version, Info, Erreur ou Erreur silencieuse.  
+Ces journaux sont enregistrés dans Macintosh HD/Users/Username/Library/Application Support/com.devolutions.remotedesktopmanager/RemoteDesktopManager.log. Vous pouvez l'afficher sous la forme d'une liste qui peut ensuite être filtrée par Date, Message, Version, Info, Erreur ou Erreur silencieuse.  
 ![Journaux de l'application](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4227.png) 
 
 ## Augmenter le niveau de débogage 

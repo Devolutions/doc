@@ -98,7 +98,7 @@ Intégrer une entrée d'***Identifiants*** dans l'entrée elle-même. Ce mode es
 Ajouter un mode d'entrée 
 		</td>
 		<td>
-Sélectionner si les utilisateurs sont invités à choisir un modèle lors de la création d'une nouvelle entrée. Choisir entre:  
+Sélectionner si les utilisateurs sont invités à choisir un modèle lors de la création d'une nouvelle entrée. Choisir entre :  
 
 * ***Par défaut*** 
 * ***Liste des modèles (incluant les vides)*** 

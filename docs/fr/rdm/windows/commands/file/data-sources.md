@@ -12,7 +12,7 @@ Consulter la rubrique [Types de sources de données](/fr/rdm/windows/data-source
 
 Utiliser le bouton ***Nouvelle source de données*** pour créer une configuration de source de données. 
 
-### Modifier / Dupliquer / Supprimer la source de données 
+### Modifier/Dupliquer/Supprimer la source de données 
 
 Utiliser les boutons respectivement pour modifier, dupliquer ou supprimer la configuration de la source de données sélectionnée.  
 
@@ -21,7 +21,7 @@ Seule la configuration sera supprimée, mais le fichier ou la base de données r
 {% endsnippet %}
  
 
-### Importer / Exporter la configuration de la source de données 
+### Importer/Exporter la configuration de la source de données 
 
 Utiliser les boutons Importer/Exporter respectivement pour importer ou exporter la configuration de la source de données sélectionnée. La configuration est exportée sous forme de fichier ***.RDD***. 
 

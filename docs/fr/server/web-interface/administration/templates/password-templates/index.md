@@ -40,7 +40,7 @@ Mode
 	</tr>
 	<tr>
 		<td>
-Majuscule (A, B, C, ...) 
+Majuscule (A, B, C...) 
 		</td>
 		<td>
 Inclura des lettres majuscules pour la génération de mot de passe. 
@@ -80,7 +80,7 @@ Inclura des caractères crochets pour la génération de mot de passe.
 	</tr>
 	<tr>
 		<td>
-Chiffres (0, 1, 2, ...) 
+Chiffres (0, 1, 2...) 
 		</td>
 		<td>
 Inclura des chiffres pour la génération de mot de passe. 
@@ -88,7 +88,7 @@ Inclura des chiffres pour la génération de mot de passe.
 	</tr>
 	<tr>
 		<td>
-Spécial (!, $, %, &, ...) 
+Spécial (!, $, %, &...) 
 		</td>
 		<td>
 Inclura des caractères spéciaux pour la génération de mot de passe. 
@@ -96,7 +96,7 @@ Inclura des caractères spéciaux pour la génération de mot de passe.
 	</tr>
 	<tr>
 		<td>
-Minuscules (a, b, c, ...) 
+Minuscules (a, b, c...) 
 		</td>
 		<td>
 Inclura des lettres minuscules pour la génération de mot de passe. 

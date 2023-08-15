@@ -11,7 +11,7 @@ This feature is available with the [SQL Server](/rdm/windows/data-sources/data-s
 To use the ***Integrated Security***, enable the ***Integrated Security*** box in the ***User Management*** window. The ***Password*** field is disabled because the operating system will provide a cached copy automatically.  
 ![Integrated Security](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10291.png) 
 
-When the option is activated, an ellipsis button either appears or is enabled. Click this button to display the ***Select User*** dialog .  
+When the option is activated, an ellipsis button either appears or is enabled. Click this button to display the ***Select User*** dialog.  
 ![Select User](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10294.png) 
 
 {% snippet icon.badgeInfo %} 

@@ -58,7 +58,7 @@ Azure AD invite l'utilisateur à fournir des identifiants uniquement lorsque cel
 </table>
 
 {% snippet icon.badgeCaution %} 
-En ce qui concerne les appareils joints à Azure AD (appareils enregistrés). Azure AD peut demander ou non une MFA. Ceci est entièrement contrôlé par Azure AD , il n'y a rien que nous puissions faire dans {{ fr.RDM }} pour forcer ou contourner le MFA autre que les options ***Par défaut*** ou ***Automatique*** mentionnées ci-dessus. 
+En ce qui concerne les appareils joints à Azure AD (appareils enregistrés). Azure AD peut demander ou non une MFA. Ceci est entièrement contrôlé par Azure AD, il n'y a rien que nous puissions faire dans {{ fr.RDM }} pour forcer ou contourner le MFA autre que les options ***Par défaut*** ou ***Automatique*** mentionnées ci-dessus. 
 {% endsnippet %}
  
 
@@ -71,14 +71,14 @@ Lors de la première connexion, le nom d'utilisateur doit être l'administrateur
 {% snippet icon.badgeCaution %} 
 ![!!RdmWin4032.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4032.png) 
 
-Si vous obtenez ce message d'erreur: Unable to connect to the database! Login failed for user '<token-identified principal>' c'est parce que vous n'utilisez pas le courriel d'***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases. 
+Si vous obtenez ce message d'erreur : Unable to connect to the database! Login failed for user '<token-identified principal>' c'est parce que vous n'utilisez pas le courriel d'***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases. 
 {% endsnippet %}
  
 
 4. Cliquer sur ***Aucun*** pour définir les paramètres d'application Azure et entrer ***l'ID d'application*** à partir de l'inscription de l'application Azure Active Directory et l'adresse correspondante de l'URI. 
 
 {% snippet icon.badgeCaution %} 
-Lorsque vous recevez cette erreur: ***AADSTS70001 - Application with Identifier was not found in the directory…***  
+Lorsque vous recevez cette erreur : ***AADSTS70001 - Application with Identifier was not found in the directory…***  
 
 Vérifier que votre ***ID d'application*** dans {{ fr.RDM }} est identique à l'***App Registration's Application (client) ID*** (étape 11 de [Créer une inscription d'application Azure Active Directory](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/)) 
 {% endsnippet %}

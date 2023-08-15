@@ -12,7 +12,7 @@ Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source d
 Dans la majorité des cas, cette boîte de dialogue apparaîtra.  
 ![Paramètres spécifiques locaux](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4067.png) 
 
-Veuillez consulter chaque rubrique pour plus d'informations:  
+Veuillez consulter chaque rubrique pour plus d'informations :  
 
 * [Substituer identifiants](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/) 
 * [Général](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/general/) 

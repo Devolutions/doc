@@ -1,7 +1,7 @@
 ---
 title: Local RDP/RemoteApp Manager
 ---
-The local RDP settings and the RemoteApp settings are available from Tools – More Tools – Local RDP/RemoteApp Manager .  
+The local RDP settings and the RemoteApp settings are available from ***Tools – More Tools – Local RDP/RemoteApp Manager***.  
 
 If you run {{ en.RDM }} on a Windows Server 2008 machine the TS RemoteApp MMC console will be launched.  
 

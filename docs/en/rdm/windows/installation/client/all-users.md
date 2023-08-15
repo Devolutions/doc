@@ -9,7 +9,7 @@ title: Installation for All Users
 This procedure registers all file types associations, this mean that rdp files will from now on be opened with {{ en.RDM }}. If you wish to avoid this, install manually using the Custom mode, and choose every option but that rdp association. 
 {% endsnippet %}
  
-1. Copy the installer to a folder available for all users of the workstation. e.g. c:\Deploy . 
+1. Copy the installer to a folder available for all users of the workstation (e.g., **c:\Deploy**). 
 1. Open an Elevated Command prompt (right click on the shortcut and select ***Run as administrator***). 
 1. Run the following command, adapted for the version that you are installing  
 

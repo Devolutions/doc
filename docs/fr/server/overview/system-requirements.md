@@ -18,7 +18,7 @@ Le tableau suivant énumère les spécifications matérielles minimales recomman
 |Avec le Serveur SQL installé sur la même machine.<br>Processeurs à 4 coeurs<br>16 Go RAM<br>Adaptateur de réseau (1 Go)<br>|Avec le Serveur SQL installé sur la même machine.<br>Processeurs à 4 coeurs<br>16 Go RAM<br>Adaptateur de réseau (1 Go)<br>||
  
 ## Dépendances 
-* Microsoft SQL Server 2012/2014/2016/ [2017](https://www.microsoft.com/en-ca/sql-server/sql-server-2017-editions) / [2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019) (incluant les éditions Express). 
+* Microsoft SQL Server 2012/2014/2016/[2017](https://www.microsoft.com/en-ca/sql-server/sql-server-2017-editions)/[2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019) (incluant les éditions Express). 
 * Base de données Azure SQL est supportée avec seulement des comptes d'authentification SQL. Les comptes de type Azure Active Directory ne sont pas supportés. 
 * Windows 10, Windows 11, Windows Server 2012R2 (non compatible avec {{ fr.DGW }}), 2016, 2019 et 2022. 
 * Windows Server 2012R2 ou plus récent sur le domaine. 

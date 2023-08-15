@@ -1,8 +1,8 @@
 ---
-title: Multi-Factor Authentication
+title: Multi-factor authentication
 ---
 {% snippet icon.badgeInfo %} 
-This feature is only available for [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/), [Microsoft SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/), and [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) data sources . 
+This feature is only available for [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/), [Microsoft SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/), and [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) data sources. 
 {% endsnippet %}
  
 Multi-factor authentication (MFA) identifies users by at least two different components: something that the user knows (often a password) and something that the user possesses (e.g., a validation code sent to a mobile device). If one of the components is missing or supplied incorrectly, the user's identity is not established with sufficient certainty and access to the data source will remain blocked.  

@@ -1,7 +1,7 @@
 ---
 title: Barre de connexion rapide
 ---
-La ***Barre de connexion rapide***, qui se trouve en haut de l'application, est composée de plusieurs parties:  
+La ***Barre de connexion rapide***, qui se trouve en haut de l'application, est composée de plusieurs parties :  
 
 * Icône du menu système. 
 * Commandes favorites. 
@@ -11,7 +11,7 @@ La ***Barre de connexion rapide***, qui se trouve en haut de l'application, est 
 ![Barre de connexion rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11177.png) 
 
 {% snippet icon.badgeInfo %} 
-Les boutons de la ***Barre de connexion rapide*** sont signalés localement sur la machine actuelle par l'utilisateur actuel. Ces boutons locaux sont enregistrés dans un fichier nommé ***RemoteDesktopManager.qtb***. Par défaut, ce fichier se trouve dans %localappdata%\Devolutions\RemoteDesktopManager . 
+Les boutons de la ***Barre de connexion rapide*** sont signalés localement sur la machine actuelle par l'utilisateur actuel. Ces boutons locaux sont enregistrés dans un fichier nommé ***RemoteDesktopManager.qtb***. Par défaut, ce fichier se trouve dans %localappdata%\Devolutions\RemoteDesktopManager. 
 {% endsnippet %}
  
 ### Commandes favorites 

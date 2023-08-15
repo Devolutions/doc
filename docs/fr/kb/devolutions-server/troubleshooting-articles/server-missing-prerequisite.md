@@ -7,8 +7,8 @@ La cause de cette erreur est que le pré-requis IIS Rewrite Module et/ou le pré
 ![Diagnostique des fonctionnalités IIS.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB8103.png)
 ## Solution 
 1. Depuis la {{ fr.DVLSCONSOLE }}, modifier l'instance. 
-1. Sélectionner l'onglet IIS . 
-1. Cliquer sur le bouton Diagnostic d'IIS . 
+1. Sélectionner l'onglet IIS. 
+1. Cliquer sur le bouton Diagnostic d'IIS. 
 1. Cliquer sur le bouton Installer les pré-requis 
 ![Diagnostique des fonctionnalités ISS.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB8104.png)
 1. Si le fait d'exécuter un script PowerShell depuis {{ fr.DVLSCONSOLE }} est bloqué par une restriction sur le système, vous trouverez le script dans le dossier Scripts du dossier d'installation de la {{ fr.DVLSCONSOLE }}. 

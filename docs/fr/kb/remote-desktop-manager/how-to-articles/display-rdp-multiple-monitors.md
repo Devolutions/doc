@@ -21,7 +21,7 @@ Les identifiants des moniteurs ne sont pas nécessairement les mêmes pour RDP e
 
 Veuillez utiliser la commande mstsc /l pour connaître vos paramètres d’écrans RDP.  
 ![!!KB4042.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4042.png)  
-Une fois l’option Utiliser plusieurs écrans pour la session à distance activée, vous pourrez choisir entre Tout et Sélectionné .  
+Une fois l’option Utiliser plusieurs écrans pour la session à distance activée, vous pourrez choisir entre Tout et Sélectionné.  
 
 Si vous choisissez ***Sélectionné*** dans le menu déroulant, vous pourrez alors utiliser une espace ou une virgule pour identifier les écrans. L’hôte distant sera affiché sur le moniteur que vous saisissez dans ce champ. 
 {% snippet icon.badgeCaution %} 

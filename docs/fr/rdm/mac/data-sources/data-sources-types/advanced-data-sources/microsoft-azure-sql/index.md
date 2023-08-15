@@ -12,9 +12,9 @@ Avec une source de données Microsoft Azure SQL, {{ fr.RDMMAC }} utilise la plat
 
 Les fonctionnalités suivantes sont également prises en charge :  
 
-* ***Groupe de disponibilité “Always on“*** ; 
-* ***Regroupement*** ; 
-* ***Expédition des journaux*** ; 
+* ***Groupe de disponibilité “Always on“***; 
+* ***Regroupement***; 
+* ***Expédition des journaux***; 
 * ***Mise en miroir de bases de données***. 
 		</td>
 	</tr>
@@ -170,7 +170,7 @@ Définir l'intervalle d'actualisation automatique.
 Mode ping en ligne 
 		</td>
 		<td>
-Indique le mode de ping préféré en ligne. Choisir entre:  
+Indique le mode de ping préféré en ligne. Choisir entre : 
 
 * Aucun 
 * Scan du port 

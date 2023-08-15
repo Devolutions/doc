@@ -13,7 +13,7 @@ In the ***PowerShell script*** window, copy the script provided below and click 
 
 ```
 $date = Get-Date -DisplayHint Date
-$RDM.Connection.TabTitle = $RDM.Connection.Name + " (" + $date + ")"
+$RDM.Connection.TabTitle = $RDM.Connection.Name + "(" + $date + ")"
 ```
 ![!!KB4701.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4701.png)
 

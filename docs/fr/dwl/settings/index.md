@@ -32,7 +32,7 @@ La ***Liste des sites exclus*** affiche la liste des sites Web ajoutés localeme
 * Les choix disponibles sont ***Ne jamais ajouter de site, Ne jamais remplir automatiquement, Ne jamais rien faire*** ou ***Ne jamais afficher les icônes dans les champs***.  
 * Les options de correspondance sont ***Domaine de base, Hôte, Commence par, RegEx*** et ***Exact***.  
 
-Les ***Paramètres d'importation / d'exportation*** permettent de sauvegarder et de transférer vos configurations prédéfinies de l'application.  
+Les ***Paramètres d'importation/d'exportation*** permettent de sauvegarder et de transférer vos configurations prédéfinies de l'application.  
 
 * Importer les paramètres d'autres navigateurs ou utilisateurs.  
 * Exporter les ***Paramètres*** de {{ fr.DWL }}, le ***Générateur de mot de passe*** et la ***Liste des sites exclus***.  
@@ -248,7 +248,7 @@ DESCRIPTION
 Type de comparaison par défaut 
 		</td>
 		<td>
-Définir un type d'option de comparaison par défaut entre <b><i>Domaine de base, Hôte, Commence par, RegEx, Exact</b></i> et <b><i>Jamais</b></i> . 
+Définir un type d'option de comparaison par défaut entre <b><i>Domaine de base, Hôte, Commence par, RegEx, Exact</b></i> et <b><i>Jamais</b></i>. 
 		</td>
 	</tr>
 	<tr>

@@ -9,7 +9,7 @@ La section ***Permissions*** vous permet d'attribuer des permissions. Les contr�
 
 ![Gestion des utilisateurs - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4121.png) 
 
-Les options situées directement au-dessus de la grille concernent les dossiers publics , ce qui signifie que tout dossier auquel aucun groupe de sécurité n'a été affecté se verra attribuer ces droits. Ils agissent également comme la permission la plus élémentaire que vous pouvez attribuer, car ils sont nécessaires pour autoriser les permissions pour chacun des groupes de sécurité répertoriés dessous, lorsqu'ils ne sont pas cochés, la colonne correspondante de la grille est grisée. 
+Les options situées directement au-dessus de la grille concernent les dossiers publics, ce qui signifie que tout dossier auquel aucun groupe de sécurité n'a été affecté se verra attribuer ces droits. Ils agissent également comme la permission la plus élémentaire que vous pouvez attribuer, car ils sont nécessaires pour autoriser les permissions pour chacun des groupes de sécurité répertoriés dessous, lorsqu'ils ne sont pas cochés, la colonne correspondante de la grille est grisée. 
 
 <table>
 	<tr>

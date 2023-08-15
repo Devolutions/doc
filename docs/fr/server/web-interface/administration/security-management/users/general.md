@@ -18,7 +18,7 @@ Description
 Type d'authentification 
 		</td>
 		<td>
-Sélectionner le type d'authentification de l'utilisateur:  
+Sélectionner le type d'authentification de l'utilisateur :  
 
 * ***{{ fr.DVLS }}*** : Créer un utilisateur dans {{ fr.DVLS }} sans créer de connexion SQL. 
 * ***Domaine*** : Authentifiez-vous à l'aide du compte d'utilisateur Active Directory. 

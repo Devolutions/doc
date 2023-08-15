@@ -6,7 +6,7 @@ La fonction Liste d'exécution dans {{ fr.RDM }} ressemble beaucoup à une liste
 La fonction ***Liste d'exécution*** est accessible depuis ***Modifier - Liste d'exécution***.  
 ![Ruban Modifier - Liste d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4086.png) 
 
-Pour plus d'informations, veuillez consulter les rubriques suivantes:  
+Pour plus d'informations, veuillez consulter les rubriques suivantes :  
 
 * [Actions](/fr/rdm/mac/commands/edit/play-list/action/) 
 * [Gestionnaire](/fr/rdm/mac/commands/edit/play-list/management/) 

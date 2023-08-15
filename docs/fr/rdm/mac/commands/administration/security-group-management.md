@@ -24,10 +24,10 @@ Cette fonctionnalité nécessite une [Source de données avancées](/rdm/mac/dat
 
 Les groupes de sécurité sont créés à partir du menu ***Administration - Groupe de sécurité***.  
 
-Les groupes de sécurité de {{ fr.RDM }} sont des conteneurs pour les sessions, pas pour les utilisateurs. Les dossiers sont étroitement liés aux groupes de sécurité, il y a donc un chevauchement d'utilisation. Les points clés sont:  
+Les groupes de sécurité de {{ fr.RDM }} sont des conteneurs pour les sessions, pas pour les utilisateurs. Les dossiers sont étroitement liés aux groupes de sécurité, il y a donc un chevauchement d'utilisation. Les points clés sont :  
 
-* La sécurité est héritée: les dossiers et les éléments enfants sont couverts par le groupe de sécurité d'un dossier parent. 
-* La sécurité est additive: un groupe de sécurité ajouté à un sous-dossier ne remplace pas le parent, il y ajoute. 
+* La sécurité est héritée : les dossiers et les éléments enfants sont couverts par le groupe de sécurité d'un dossier parent. 
+* La sécurité est additive : un groupe de sécurité ajouté à un sous-dossier ne remplace pas le parent, il y ajoute. 
 * Un dossier a un seul groupe de sécurité: utiliser des raccourcis pour contourner cette limitation. 
 
 1. Cliquer sur le signe plus pour créer un nouveau groupe de sécurité.  

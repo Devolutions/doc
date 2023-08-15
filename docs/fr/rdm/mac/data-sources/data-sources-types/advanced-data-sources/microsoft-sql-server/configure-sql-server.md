@@ -23,7 +23,7 @@ Pour plus de sécurité, vous pouvez activer le cryptage SSL pour communiquer av
 ![SQL Server - Mise à niveau](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4021.png) 
 1. Une fois la base de données créée, créez un compte d'administrateur {{ fr.RDM }} via le menu ***Administration - Utilisateurs***. 
 {% snippet icon.badgeInfo %} 
-Si votre base de données a été créée à l'aide d'un Super Utilisateur (exemple: SA), nous vous recommandons de conserver cet utilisateur uniquement pour la création de la base de données et/ou pour la mise à niveau de la base de données. Un compte administrateur {{ fr.RDM }} doit d'abord être créé, puis les utilisateurs doivent être créés avec ce compte administrateur {{ fr.RDM }}. 
+Si votre base de données a été créée à l'aide d'un Super Utilisateur (exemple : SA), nous vous recommandons de conserver cet utilisateur uniquement pour la création de la base de données et/ou pour la mise à niveau de la base de données. Un compte administrateur {{ fr.RDM }} doit d'abord être créé, puis les utilisateurs doivent être créés avec ce compte administrateur {{ fr.RDM }}. 
 {% endsnippet %}
  
 8. Connectez-vous à la source de données SQL Server avec le compte d'administrateur {{ fr.RDM }}. Pour ce faire, allez dans ***Fichier - Source de données*** et cliquer sur le bouton de paramétrage pour éditer votre source de données SQL. Entrer ensuite le compte administrateur {{ fr.RDM }} que vous avez créé dans le nom d'utilisateur.  

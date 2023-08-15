@@ -9,7 +9,7 @@ Si vous avez utilisé la version {{ fr.RDM }} avec la fonction du synchroniseur 
 1. Copier l'***ID de l'entrée*** dans ***Information de l'entrée***.  
 ![!!RdmWin4058.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4058.png) 
 1. Sélectionner vos entrées et accéder à la boîte de dialogue Commande PowerShell personnalisée comme décrit dans [Commandes PowerShell personnalisées](/fr/rdm/windows/powershell-scripting/custom-powershell-commands/). 
-1. Écrire la ligne suivante pour votre commande Powershell: 
+1. Écrire la ligne suivante pour votre commande Powershell : 
 
 ```powershell
 $connection.CreationSource = "ID de l'entrée du synchroniseur"

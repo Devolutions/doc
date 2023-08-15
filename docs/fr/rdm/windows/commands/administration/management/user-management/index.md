@@ -45,7 +45,7 @@ DESCRIPTION
 Type d'authentification 
 		</td>
 		<td>
-Sélectionner le type d'authentification de l'utilisateur:  
+Sélectionner le type d'authentification de l'utilisateur :  
 
 * Personnalisé (Devolutions) : Créer un utilisateur spécifique à {{ fr.RDM }} sans créer de connexion SQL. 
 * Base de données : A uthentifiez-vous à l'aide de la connexion de votre base de données. 
@@ -64,12 +64,12 @@ Saisir le nom de l'utilisateur. Lorsque vous utilisez la [Sécurité intégrée]
 Type d'utilisateur 
 		</td>
 		<td>
-Sélectionner le type d'utilisateur à créer, choisir entre:  
+Sélectionner le type d'utilisateur à créer, choisir entre :  
 
-* ***Administrateur:*** Accorder tous les droits administratifs à l'utilisateur. 
-* ***Utilisateur lecture seulement:*** Accorder uniquement l'accès en lecture seul à l'utilisateur. 
-* ***Utilisateur accès restreint:*** Sélectionner les droits à accorder à l'utilisateur. 
-* ***Utilisateur:*** Accorder tous les droits de base à l'utilisateur (Ajouter, Modifier, Supprimer).  
+* ***Administrateur :*** Accorder tous les droits administratifs à l'utilisateur. 
+* ***Utilisateur lecture seulement :*** Accorder uniquement l'accès en lecture seul à l'utilisateur. 
+* ***Utilisateur accès restreint :*** Sélectionner les droits à accorder à l'utilisateur. 
+* ***Utilisateur :*** Accorder tous les droits de base à l'utilisateur (Ajouter, Modifier, Supprimer).  
 
 Pour plus d'informations, veuillez consulter la rubrique [Types d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/user-types/). 
 		</td>
@@ -79,7 +79,7 @@ Pour plus d'informations, veuillez consulter la rubrique [Types d'utilisateurs](
 Type de licence utilisateur 
 		</td>
 		<td>
-Sélectionner le type de licence de l'utilisateur. Choisir entre:  
+Sélectionner le type de licence de l'utilisateur. Choisir entre :  
 
 * ***Par défaut*** 
 * ***Gestion de connexions*** 
@@ -106,7 +106,7 @@ Insérer l'adresse courriel de l'utilisateur.
 
 ### Entrée de données 
 
-Saisir toutes les informations nécessaires concernant votre nouvel utilisateur. La section est divisée en trois sous-sections: ***Détails, Adresse*** et ***Téléphone***.  
+Saisir toutes les informations nécessaires concernant votre nouvel utilisateur. La section est divisée en trois sous-sections : ***Détails, Adresse*** et ***Téléphone***.  
 ![Gestion des utilisateurs - Entrée de données - Détails](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10728.png) 
 
 ### Groupes d'utilisateurs 
@@ -176,7 +176,7 @@ Sélectionner si l'utilisateur peut accéder au formulaire de source de données
 
 ![Gestion des utilisateurs - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11304.png) 
 
-Autoriser l'utilisateur à activer le mode Hors connexion sur les sources de données. Cela dépend également de la source de données configurée pour l'autoriser. Vous pouvez choisir entre:  
+Autoriser l'utilisateur à activer le mode Hors connexion sur les sources de données. Cela dépend également de la source de données configurée pour l'autoriser. Vous pouvez choisir entre :  
 
 <table>
 	<tr>

@@ -62,7 +62,7 @@ Base de données Microsoft SQL Server (voir [Instance de la base de données](/f
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Microsoft pour plus d'information: [Install IIS and ASP.NET Modules](https://technet.microsoft.com/en-ca/library/hh831475.aspx#InstallIIS)). 
+Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Microsoft pour plus d'information : [Install IIS and ASP.NET Modules](https://technet.microsoft.com/en-ca/library/hh831475.aspx#InstallIIS)). 
 		</td>
 	</tr>
 </table>

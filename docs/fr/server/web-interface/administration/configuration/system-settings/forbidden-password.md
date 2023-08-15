@@ -27,7 +27,7 @@ Rendre le mode de vérification sensible à la casse.
 Mode de vérification 
 		</td>
 		<td>
-Sélectionner le mode de vérification entre:  
+Sélectionner le mode de vérification entre :  
 
 Contiens : Le mot de passe sera interdit s'il contient un mot de la liste.  
 

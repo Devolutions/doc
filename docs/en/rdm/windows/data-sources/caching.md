@@ -61,7 +61,7 @@ There are three engines for the cache:
 * MCDF (offline.mcdf) 
 * MCDF v2.0 (offline.mcdf2) 
 
-If using a version of {{ en.RDM }} prior to 11.2, the default engine will be the SQLite , in that case the database is encrypted using a non-portable computed key hash.  
+If using a version of {{ en.RDM }} prior to 11.2, the default engine will be the SQLite, in that case the database is encrypted using a non-portable computed key hash.  
 
 If using version 11.2 or newer of {{ en.RDM }} the default cache engine will be the Microsoft Compound Document Format (MCDF) files.  
 
@@ -72,5 +72,3 @@ You can enhance the security of the offline file by setting the Enhanced securit
 {% snippet icon.badgeInfo %} 
 Depending on the configuration of the Caching mode & the [Offline mode](/rdm/windows/data-sources/offline-mode/) the offline file may still exist since the file servers as a dual purpose caching & offline line support. 
 {% endsnippet %}
- 
-

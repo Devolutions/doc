@@ -8,7 +8,7 @@ title: SQLite
 ![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
-La source de données SQLite de {{ fr.RDM }} est idéale pour un seul utilisateur dans des situations autonomes . Plus puissant et plus flexible que le format de fichier XML, il prend également en charge quelques-unes des options avancées de source de données comme les journaux et les pièces jointes. 
+La source de données SQLite de {{ fr.RDM }} est idéale pour un seul utilisateur dans des situations autonomes. Plus puissant et plus flexible que le format de fichier XML, il prend également en charge quelques-unes des options avancées de source de données comme les journaux et les pièces jointes. 
 		</td>
 	</tr>
 </table>
@@ -110,7 +110,7 @@ Description
 Sauvegarde 
 		</td>
 		<td>
-Choisir entre:  
+Choisir entre :  
 
 * Aucun : Aucune sauvegarde de votre source de données ne sera créée. 
 * Sauvegarde en ligne : Une sauvegarde en ligne (à l'aide du service de [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/)) sera automatiquement créée. 

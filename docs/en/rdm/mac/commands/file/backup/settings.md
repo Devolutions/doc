@@ -7,7 +7,7 @@ The [{{ en.OBACK }}](/rdm/mac/commands/file/backup/) allows you to backup your [
 
 ### Sign in 
 
-1. Click on File - Backup - Sign-in to Sign-in with your [{{ en.DA }}](/cloud/devolutions-account/). 
+1. Click on ***File - Backup - Sign-in*** to Sign-in with your [{{ en.DA }}](/cloud/devolutions-account/). 
 
 ### View Subscription 
 
@@ -19,7 +19,7 @@ The [{{ en.OBACK }}](/rdm/mac/commands/file/backup/) allows you to backup your [
 
 ### Execute Backup 
 
-4. Once the backup name has been set, perform a change in the data source to properly activate the {{ en.OBACK }} and then click on File - Execute Backup . 
+4. Once the backup name has been set, perform a change in the data source to properly activate the {{ en.OBACK }} and then click on ***File - Execute Backup***. 
 
 ### View History 
 

@@ -77,7 +77,7 @@ Emplacement de bascule de navigation
 		</td>
 		<td>
 
-Spécifier l'emplacement par défaut de la barre d'outils:  
+Spécifier l'emplacement par défaut de la barre d'outils :  
 
 * Barre d'outils (droite) 
 * Barre d'outils (gauche) 
@@ -88,7 +88,7 @@ Spécifier l'emplacement par défaut de la barre d'outils:
 Emplacement d'onglet de navigation 
 		</td>
 		<td>
-Spécifier l'emplacement par défaut de l'onglet navigation entre:  
+Spécifier l'emplacement par défaut de l'onglet navigation entre :  
 
 * ***{{ fr.NPANE }}*** (en haut) 
 * ***{{ fr.NPANE }}*** (en bas) 
@@ -99,7 +99,7 @@ Spécifier l'emplacement par défaut de l'onglet navigation entre:
 Emplacement de source de données 
 		</td>
 		<td>
-Spécifier l'emplacement de la source de données sur votre écran entre:  
+Spécifier l'emplacement de la source de données sur votre écran entre :  
 
 * ***{{ fr.NPANE }}*** (en haut) 
 * ***{{ fr.NPANE }}*** (en bas) 
@@ -198,7 +198,7 @@ Inclus un sous-menu pour les sessions ouvertes.
 	</tr>
 	<tr>
 		<td>
-Inclure un menu afficher / masquer 
+Inclure un menu afficher/masquer 
 		</td>
 		<td>
 Inclus un menu pour afficher et masquer certaines options. 
@@ -278,7 +278,7 @@ Description
 Superposition de raccourcis 
 		</td>
 		<td>
-Déterminer sur quels éléments l'icône de raccourci est visible. Choisir entre:  
+Déterminer sur quels éléments l'icône de raccourci est visible. Choisir entre :  
 
 * Tous 
 * Aucun 

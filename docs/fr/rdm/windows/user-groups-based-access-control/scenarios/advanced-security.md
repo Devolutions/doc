@@ -11,9 +11,9 @@ Le scénario suivant est conçu pour les grandes entreprises. Pour un scénario 
  
 Bien que cet exemple convient aux grandes entreprises, veuillez garder à l'esprit que tout privilège ne devrait être accordé que si nécessaire. Soyez prudent lorsque vous accordez des permissions à un utilisateur ou à un groupe d'utilisateurs.  
 
-Notre société fictive, Windjammer, a trois groupes d'utilisateurs: HelpDesk (Bureau d'aide), ServiceDesk (Bureau de service), Consultants. Il existe deux sociétés clientes: Downhill Pro et Telemark.  
+Notre société fictive, Windjammer, a trois groupes d'utilisateurs : HelpDesk (Bureau d'aide), ServiceDesk (Bureau de service), Consultants. Il existe deux sociétés clientes : Downhill Pro et Telemark.  
 
-L'arborescence suivante représente les entrées auxquelles les utilisateurs ont accès une fois que toutes les permissions sont définies:  
+L'arborescence suivante représente les entrées auxquelles les utilisateurs ont accès une fois que toutes les permissions sont définies :  
 ![!!clip3379.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3379.png) 
 
 ### Configuration Utilisateur 
@@ -93,7 +93,7 @@ Ensuite, pour le dossier Telemark, nous accordons des permissions au ServiceDesk
 Puisque nous voulons que les utilisateurs puissent utiliser les entrées d'identifiants, nous accordons au ServiceDesk et au HelpDesk la permission d'afficher le dossier Credentials. Par conséquent, ServiceDesk et HelpDesk peuvent utiliser les entrées du dossier sans révéler les mots de passe. En spécifiant que seuls HelpDesk et ServiceDesk disposent de la permission d'***Affichage***, nous refusons l'accès en vue à tout groupe d'utilisateurs ou utilisateur qui ne figure pas dans la liste de permission.  
 
 Les permissions ***Ajouter*** et ***Modifier*** sont définies sur ***Jamais*** et la permission ***Supprimer*** peut être laissée à ***Hérité*** car elle hérite des paramètres ***Jamais*** du coffre. Seuls les administrateurs peuvent effectuer ces actions dans des groupes/dossiers contenant des identifiants.  
-![Telemark / Credentials - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3401.png) 
+![Telemark/Credentials - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3401.png) 
 
 * ***Affichage : Personnalisé***; HelpDesk, ServiceDesk. 
 * ***Ajouter : Jamais***; Seuls les administrateurs peuvent ajouter des entrées d'identifiants. 
@@ -101,7 +101,7 @@ Les permissions ***Ajouter*** et ***Modifier*** sont définies sur ***Jamais*** 
 * ***Supprimer : Hérité***; Jamais hérité du coffre. Seul l'administrateur peut supprimer des entrées.  
 
 Nous voulons que ServiceDesk puisse utiliser l'entrée d'identifiant de domaine, mais pas le HelpDesk. Pour cela, nous devons accorder la permission ***Affichage*** au ServiceDesk. Le ServiceDesk peut toujours utiliser l'entrée d'identifiant mais ne verra jamais le mot de passe.  
-![Telemark / Credentials / Admin - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3402.png) 
+![Telemark/Credentials/Admin - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3402.png) 
 
 * ***Affichage : Personnalisé***; ServiceDesk. 
 * ***Ajouter : Personnalisé***; Jamais hérité du coffre. Seuls les administrateurs peuvent ajouter des entrées d'identifiants. 
@@ -109,7 +109,7 @@ Nous voulons que ServiceDesk puisse utiliser l'entrée d'identifiant de domaine,
 * ***Supprimer : Hérité***; Jamais hérité de Telemark\Credentials. Seuls les administrateurs peuvent supprimer des entrées d'identifiants.  
 
 La dernière étape pour les éléments enfants Telemark consiste à définir la permission ***Affichage*** sur ServiceDesk et HelpDesk sur le dossier Boston et laisser toutes les autres permissions de ce dossier à ***Hérité***. Cela empêche les consultants d'afficher le dossier Boston. Désormais, les consultants ne peuvent afficher et ouvrir des entrées que dans le dossier Montréal.  
-![Telemark / Boston - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3403.png) 
+![Telemark/Boston - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3403.png) 
 
 * ***Affichage : Personnalisé***; HelpDesk, ServiceDesk. 
 * ***Ajouter : Hérité***; ServiceDesk hérité de Telemark. 
@@ -121,7 +121,7 @@ Chaque fois qu'un nouveau dossier est ajouté, la permission ***Affichage*** doi
 {% endsnippet %}
  
 Pas besoin de définir des permissions sur le dossier Montréal, car elles sont héritées des dossiers parents.  
-![Telemark / Montreal - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3404.png) 
+![Telemark/Montreal - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3404.png) 
 
 ### Conclusion 
 

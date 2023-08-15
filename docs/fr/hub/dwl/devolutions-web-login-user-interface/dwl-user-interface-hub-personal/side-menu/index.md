@@ -84,7 +84,7 @@ Les boutons ***Copier le nom d'utilisateur*** et ***Copier le mot de passe*** co
 
 Le bouton ***Affichage*** vous donne un aperçu de l'entrée ainsi que des fonctionnalités supplémentaires. La disponibilité des informations et des fonctionnalités dépend du type d'entrée et des informations fournies dans l'entrée, bien que certaines d'entre elles soient toujours disponibles :  
 
-* ***Modifier*** / ***Supprimer*** l'entrée en passant par le bouton des points de suspension verticaux en haut à droite. 
+* ***Modifier***/***Supprimer*** l'entrée en passant par le bouton des points de suspension verticaux en haut à droite. 
 * Marquer votre entrée comme favorite en cliquant sur l'icône ***Ajouter aux favoris*** à côté du nom de l'entrée. L'entrée s'affichera alors dans l'onglet [***Favoris***](#onglet-favoris). 
 * Visualiser l'emplacement de votre entrée dans la section ***Dossier*** (si elle est située dans un dossier). 
 * Voir quand l'entrée a été modifiée pour la dernière fois et quand elle a été créée dans les sections ***Dernière modification le*** et ***Créé le*** respectivement. 

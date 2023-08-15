@@ -16,6 +16,6 @@ Use the debugging method whenever you need to diagnose the start-up or initial c
 ![Help - Profiler - Debug only](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10474.png) 
 1. In {{ en.RDMMAC }}, click on Flags to check what perform the action that is under investigation.  
 ![Performance Profiling - Debug level](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10475.png) 
-1. Then, click on Send trace to support . In the following dialog, ensure you specify enough information to link the report to the appropriate ticket, if the process was started from the forum include your forum user name.  
+1. Then, click on Send trace to support. In the following dialog, ensure you specify enough information to link the report to the appropriate ticket, if the process was started from the forum include your forum user name.  
 ![Send trace to support](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10609.png) 
 

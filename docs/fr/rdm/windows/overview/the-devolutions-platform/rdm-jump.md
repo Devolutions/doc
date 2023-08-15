@@ -6,7 +6,7 @@ keywords:
 - Jump server
 - Service host
 ---
-{{ fr.RDMJ }} se connecte à un hôte distant, souvent nommé Jump Box, Service Host, ou Bastion Server , qui, à son tour, se connecte à d'autres hôtes. {{ fr.RDMJ }} est en fait une RDP dans une RDP.  
+{{ fr.RDMJ }} se connecte à un hôte distant, souvent nommé Jump Box, Service Host, ou Bastion Server, qui, à son tour, se connecte à d'autres hôtes. {{ fr.RDMJ }} est en fait une RDP dans une RDP.  
 
 Cela peut être comparé au Remote Desktop Gateway de Microsoft et, dans une certaine mesure, à de la redirection de port SSH. 
 
@@ -32,11 +32,11 @@ Les instances de {{ fr.RDMJ }} ou {{ fr.RDM }} et l'{{ fr.RDMA }} exécutés sur
 
 ### Scénarios d’utilisation 
 
-Il existe deux mises en situation:  
+Il existe deux mises en situation :  
 
 1. Accéder à un réseau sécurisé à partir d'un seul hôte.  
 
-Ceci permet d'avoir une politique de pare-feu stricte autorisant les connexions à partir d'une seule adresse IP. Cette configuration vous permettra d'accéder uniquement aux hôtes distants accessibles par la Jump Box. Prétendons que vous avez l'infrastructure suivante:  
+Ceci permet d'avoir une politique de pare-feu stricte autorisant les connexions à partir d'une seule adresse IP. Cette configuration vous permettra d'accéder uniquement aux hôtes distants accessibles par la Jump Box. Prétendons que vous avez l'infrastructure suivante :  
 ![!!clip10825.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10825.png) 
 
 Vous devez accéder à des hôtes distants, mais vous souhaitez limiter les risques et exposer uniquement l'Hôte Jump au trafic Internet. En utilisant {{ fr.RDMJ }}, seul l'Hôte Jump est exposé. Cela vous permet de configurer des règles de pare-feu strictes et de n'ouvrir qu'un seul port. Par contre, vous devez obligatoirement vous connecter au Hôte Jump en premier avant d'avoir accès aux hôtes distants.  
@@ -72,7 +72,7 @@ Installer {{ fr.RDM }} sur l'***Hôte Jump***, effectuer votre premier jump et {
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
-Il n'est pas nécessaire de créer une source de données sur le ***Hôte Jump***. {{ fr.RDM }} s'ouvrira pour la première fois avec une ***Source de données locale SQLite*** par défaut . Cela est suffisant, car l'application sur le ***Hôte Jump*** agit uniquement comme intermédiaire entre les hôtes locaux et distants. 
+Il n'est pas nécessaire de créer une source de données sur le ***Hôte Jump***. {{ fr.RDM }} s'ouvrira pour la première fois avec une ***Source de données locale SQLite*** par défaut. Cela est suffisant, car l'application sur le ***Hôte Jump*** agit uniquement comme intermédiaire entre les hôtes locaux et distants. 
 {% endsnippet %}
  
 
@@ -80,8 +80,8 @@ Il n'est pas nécessaire de créer une source de données sur le ***Hôte Jump**
 {% snippet icon.badgeCaution %} 
 Le ***Démarrage automatique*** doit être seulement activé pour {{ fr.RDMA }} ou {{ fr.RDM }}, pas pour les deux. Dans le cas où {{ fr.RDM }} est réglé sur ***Démarrage automatique***, assurez-vous de supprimer les raccourcis des emplacements suivants :  
 
-* Exécuter une commande: shell:startup 
-* Exécuter une commande: shell:common startup 
+* Exécuter une commande : shell:startup 
+* Exécuter une commande : shell:common startup 
 {% endsnippet %}
  
     a. Aller dans ***Outils – Plus d'outils***.  

@@ -46,7 +46,7 @@ Votre adresse courriel du [{{ fr.DA }}](https://portal.devolutions.com/).
 Hôte 
 		</td>
 		<td>
-Copier dans ***Hôte*** votre URL {{ fr.DHUBB }} (ex: https<area>://windjammer.devolutions.app/) ou cliquer sur l'écrou pour obtenir une liste déroulante à sélectionner. 
+Copier dans ***Hôte*** votre URL {{ fr.DHUBB }} (p. ex. https<area>://windjammer.devolutions.app/) ou cliquer sur l'écrou pour obtenir une liste déroulante à sélectionner. 
 		</td>
 	</tr>
 </table>

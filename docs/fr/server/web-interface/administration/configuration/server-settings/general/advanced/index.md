@@ -46,7 +46,7 @@ Sélectionner le type de licence. La valeur par défaut est la ***Gestion des co
 Lancer une connexion avec 
 		</td>
 		<td>
-Définit l'application qui ouvre les connexions à distance: {{ fr.RDM }} ou {{ fr.DLAUNCHER }}. La valeur par défaut fait référence à {{ fr.DLAUNCHER }}. 
+Définit l'application qui ouvre les connexions à distance : {{ fr.RDM }} ou {{ fr.DLAUNCHER }}. La valeur par défaut fait référence à {{ fr.DLAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>

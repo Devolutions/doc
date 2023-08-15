@@ -49,22 +49,22 @@ All operations performed through the {{ en.DVLSCONSOLE }} are done with the cred
 ![Database Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8054.png)  
 1. Under ***General***, enter a custom ***Name*** and ***Description***. Under ***Serial***, provide a license serial that has been received by email upon buying the product. If you did not buy any {{ en.DVLS }} license yet, you may [Request a 30-days trial](https://server.devolutions.net/trial). 
 ![General and Registration Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8051.png)  
-1. Under ***Installation Source***, select to either Download from the web (latest version) or Install from zip file available from the [Download](https://server.devolutions.net/home/download) page . 
+1. Under ***Installation Source***, select to either Download from the web (latest version) or Install from zip file available from the [Download](https://server.devolutions.net/home/download) page. 
 ![Source Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8053.png)  
-1. Under General , select the Website , Web Application Name and [Access URI](/kb/devolutions-server/knowledge-base/access-uri/) required to reach the {{ en.DVLS }} web page. Under Installation Destination , set the Installation Folder where the instance's files will be located. The process to run Web sites has been granted the proper permissions under c:\inetpub\wwwroot . We recommend to create a new folder beneath it and create the {{ en.DVLS }} instance within this folder . Under Application Pool , set the Application Pool Name. 
+1. Under General, select the Website, Web Application Name and [Access URI](/kb/devolutions-server/knowledge-base/access-uri/) required to reach the {{ en.DVLS }} web page. Under Installation Destination, set the Installation Folder where the instance's files will be located. The process to run Web sites has been granted the proper permissions under c:\inetpub\wwwroot. We recommend to create a new folder beneath it and create the {{ en.DVLS }} instance within this folder. Under Application Pool, set the Application Pool Name. 
 {% snippet icon.badgeCaution %} 
 We do not recommend to set the installation folder to C:\Program Files or C:\Program Files (x86). {{ en.DVLS }} is a web application and this could result in unwanted behavior and issues because IIS do not have enough permissions to run web applications that are located under those folders. If you want to set the web application folder in a location different than the default C:\Inetpub\wwwroot folder, the IIS_IUSRS builtin local machine group will need Read and Read & Execute permissions on the entire {{ en.DVLS }} web application folder structure. 
 {% endsnippet %} 
 
 ![Destination dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8170.png)  
 
-10. Under Administration Credentials , fill in the information to create a {{ en.DVLS }} Custom administrator account . All fields are required.  
+10. Under Administration Credentials, fill in the information to create a {{ en.DVLS }} Custom administrator account. All fields are required.  
 ![Create An Administrator User](https://webdevolutions.azureedge.net/docs/en/server/clip10323.png)  
-1. Under Scheduler Service , when enabling the Install Scheduler service option, please set the proper Service Account. The following features depend on the Scheduler: [Backup manager](/server/web-interface/administration/backup/backup-manager/), [Domain Users and Users Groups cache](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/), [Office365 Users and User Groups cache](/server/web-interface/administration/configuration/server-settings/general/authentication/office-365/), [Email notifications](/server/web-interface/administration/security-management/notifications/), [Cleanup Logs](/server/web-interface/administration/logs/cleanup-logs/) and [Privileged Access Management](/server/privileged-access-management/). 
+1. Under Scheduler Service, when enabling the Install Scheduler service option, please set the proper Service Account. The following features depend on the Scheduler: [Backup manager](/server/web-interface/administration/backup/backup-manager/), [Domain Users and Users Groups cache](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/), [Office365 Users and User Groups cache](/server/web-interface/administration/configuration/server-settings/general/authentication/office-365/), [Email notifications](/server/web-interface/administration/security-management/notifications/), [Cleanup Logs](/server/web-interface/administration/logs/cleanup-logs/) and [Privileged Access Management](/server/privileged-access-management/). 
 ![Scheduler Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8055.png)  
 1. Choosing to not install the Scheduler, you will get the following warning message.  
 ![Scheduler Warning](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8056.png)  
-1. Under Recovery Kit , select the destination folder and file name of the {{ en.DVLS }} recovery kit file. Set a password to protect the Encryption Keys. If the Include sensitive data option is enabled, the SQL authentication credentials will be included in the recovery kit. 
+1. Under Recovery Kit, select the destination folder and file name of the {{ en.DVLS }} recovery kit file. Set a password to protect the Encryption Keys. If the Include sensitive data option is enabled, the SQL authentication credentials will be included in the recovery kit. 
 {% snippet icon.shieldNotice %} 
 We recommend to protect the Recovery Kit file in a safe to avoid data loss if {{ en.DVLS }} has to be restored. 
 {% endsnippet %} 
@@ -83,8 +83,7 @@ To test the server installation, click on navigate to the instance URL (e.g.: ht
 ![{{ en.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8060.png)   
 
 {% snippet icon.badgeNotice %} 
-In some situations, the web page may not load properly. Ensure that the IIS IUSRS local built-in group has full read access on the encryption.config file located in the App_Data sub folder located in the {{ en.DVLS }} web application folder (i.e. c:\inetpub\wwwroot\dvls\App_Data). If there is still an issue, contact us at [service@devolutions.net](mailto:service@devolutions.net) 
+In some situations, the web page may not load properly. Ensure that the IIS IUSRS local built-in group has full read access on the encryption.config file located in the App_Data sub folder located in the {{ en.DVLS }} web application folder (i.e., **c:\inetpub\wwwroot\dvls\App_Data**). If there is still an issue, contact us at [service@devolutions.net](mailto:service@devolutions.net) 
 {% endsnippet %}
  
 To test the connection from a client by creating a data source in {{ en.RDM }}. Please consult the [How to Configure Client Data Source](/kb/devolutions-server/how-to-articles/configure-client-data-source/) for more information. 
-

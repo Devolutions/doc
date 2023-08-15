@@ -16,7 +16,7 @@ Il y a des considérations de sécurité à prendre en compte lors de l'activati
 
 Vous pouvez activer manuellement le mode hors ligne dans le menu ***Fichier - Mettre hors ligne***. Lorsque la connexion est de nouveau en ligne, utiliser le menu ***Fichier - Aller en ligne*** ou l'icône ***Actualiser*** pour vous reconnecter à la source de données.  
 
-Certaines options ne seront pas disponibles en mode hors ligne:  
+Certaines options ne seront pas disponibles en mode hors ligne :  
 
 * Documents. 
 * Pièces jointes et journaux 

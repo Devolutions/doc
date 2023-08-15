@@ -22,7 +22,7 @@ Implementing support for all fields comes at a cost. The import process is time 
 All of our entries share a basic set of fields; the rest is tied to the specific technology being interfaced with (RDP, SSH, etc.). Some fields are grouped in structures, like the Information Tab. Those fields are accessible only when providing the structure name as a parent group, for example, "MetaInformation\OS" or "MetaInformation\PurchaseDate". 
 
 {% snippet icon.badgeInfo %} 
-Note that the RDM file can contain our variables: they will be resolved upon saving. For instance, you could use the $HOST$ variable in fields like ***Description***, ***URL***, ***Putty\CustomSessionName***, ... It will be replaced by the corresponding value. 
+Note that the RDM file can contain our variables: they will be resolved upon saving. For instance, you could use the $HOST$ variable in fields like ***Description***, ***URL***, ***Putty\CustomSessionName***... It will be replaced by the corresponding value. 
 {% endsnippet %}
  
 Below is a non-exhaustive list of some relevant fields. 

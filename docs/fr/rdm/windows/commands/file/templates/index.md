@@ -2,7 +2,7 @@
 title: Modèles
 status: Topic available in German language
 ---
-Les modèles sont utiles pour avoir des valeurs prédéfinies lors de la création d'une entrée. Utiliser des modèles pour:  
+Les modèles sont utiles pour avoir des valeurs prédéfinies lors de la création d'une entrée. Utiliser des modèles pour :  
 
 * [Créer des entrées préconfigurées](#créer-des-entrées-préconfigurées) 
 * [Utiliser avec la fonction de connexion rapide](#exécuter-une-session-avec-une-connexion-rapide) 
@@ -29,7 +29,7 @@ Lors de la création d'un modèle, sa disponibilité peut être spécifiée dans
 
 ## Usage 
 
-Les modèles peuvent être utilisés dans les cas suivants: 
+Les modèles peuvent être utilisés dans les cas suivants : 
 
 ### Créer des entrées préconfigurées 
 

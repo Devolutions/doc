@@ -5,7 +5,7 @@ order: 10
 Créer votre {{ fr.DA }} gratuit.  
 
 1. Cliquer sur le lien [{{ fr.DA }}](https://portal.devolutions.com/). 
-1. Cliquer sur Créer un compte .  
+1. Cliquer sur ***Créer un compte***.  
 ![{{ fr.DA }} - Créer un compte.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4015.png)
 1. Remplir les champs obligatoires du formulaire et cliquer ***Créer mon compte***. 
 {% snippet icon.badgeCaution %} 
@@ -21,7 +21,7 @@ Si vous n'avez pas reçu le courriel dans votre boîte de réception, veuillez d
 
 Pour les comptes Gmail, veuillez consulter le dossier ***Promotions***.  
 
-Dans l'éventualité que vous n'ayez pas reçu le courriel d'activation, suivre les étapes <a href="#key">Mot de passe oublié</a> .  
+Dans l'éventualité que vous n'ayez pas reçu le courriel d'activation, suivre les étapes <a href="#key">Mot de passe oublié</a>.  
 {% endsnippet %}  
 ![{{ fr.DA }} - Activation.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4021.png)  
 4. Confirmer la création de votre compte en cliquant sur ***Activer***. 

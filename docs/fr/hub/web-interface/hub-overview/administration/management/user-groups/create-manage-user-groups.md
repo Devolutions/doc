@@ -18,9 +18,9 @@ La gestion des utilisateurs et des permissions peuvent être simplifiées avec l
 
 ### Gérer les groupes d'utilisateurs 
 
-La gestion et l'ajout d'utilisateurs aux ***Groupes d'utilisateurs*** dans {{ fr.HUBB }} peuvent être effectués de plusieurs manières: 
+La gestion et l'ajout d'utilisateurs aux ***Groupes d'utilisateurs*** dans {{ fr.HUBB }} peuvent être effectués de plusieurs manières : 
 {% snippet icon.badgeInfo %} 
-Pour gérer les ***Permissions*** des ***Coffres*** avec des ***Groupes d'utilisateurs***, consulter cette rubrique: [Créer et gérer des coffres](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/). 
+Pour gérer les ***Permissions*** des ***Coffres*** avec des ***Groupes d'utilisateurs***, consulter cette rubrique : [Créer et gérer des coffres](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/). 
 {% endsnippet %}
  
 * Dans ***Administration - Groupes d'utilisateurs***, sélectionner le ***Groupe d'utilisateurs*** et cliquer sur le bouton ***Modifier***. 

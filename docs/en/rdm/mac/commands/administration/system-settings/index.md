@@ -1,7 +1,7 @@
 ---
 title: System Settings
 ---
-Data Source Settings are available from Administration - Data Source Settings .  
+Data Source Settings are available from ***Administration - Data Source Settings***.  
 
 Data source settings allows you to control many global aspects of the data source, such as Offline Mode, password policies and version management. properties. You can define general policies applicable for the whole data source.  
 

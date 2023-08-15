@@ -304,7 +304,7 @@ Send your schema to our support team.
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your Microsoft SQL Server .  
+Open a VPN to access your data prior to connecting to your Microsoft SQL Server.  
 ![Microsoft SQL Server – VPN tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SQLServVPN.png) 
 
 ### Advanced 

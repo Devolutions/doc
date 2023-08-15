@@ -9,7 +9,7 @@ You can refer to the [original Microsoft article](https://support.microsoft.com/
 
 ### How to set the server LDAP signing requirement
 
-1. Click ***Start***, click ***Run***, type mmc.exe , and then click ***OK***
+1. Click ***Start***, click ***Run***, type mmc.exe, and then click ***OK***
 1. On the File menu, click ***Add/Remove Snap-in***
 1. In the ***Add*** or ***Remove Snap-ins*** dialog box, click ***Group Policy Management Editor***, and then click ***Add***
 1. In the ***Select Group Policy Object*** dialog box, click ***Browse***
@@ -23,7 +23,7 @@ You can refer to the [original Microsoft article](https://support.microsoft.com/
 
 ### How to set the client LDAP signing requirement through local computer policy
 
-1. Click ***Start***, click ***Run***, type mmc.exe , and then click ***OK***
+1. Click ***Start***, click ***Run***, type mmc.exe, and then click ***OK***
 1. On the ***File*** menu, click ***Add/Remove Snap-in***
 1. In the ***Add or Remove Snap-ins*** dialog box, click ***Group Policy Object Editor***, and then click ***Add***
 1. Click ***Finish***
@@ -35,7 +35,7 @@ You can refer to the [original Microsoft article](https://support.microsoft.com/
 
 ### How to set the client LDAP signing requirement through a domain Group Policy Object
 
-1. Click ***Start***, click ***Run***, type mmc.exe , and then click ***OK***
+1. Click ***Start***, click ***Run***, type mmc.exe, and then click ***OK***
 1. On the ***File*** menu, click ***Add/Remove Snap-in***
 1. In the ***Add or Remove Snap-ins*** dialog box, click ***Group Policy Object Editor***, and then click ***Add***
 1. Click ***Browse***, and then select ***Default Domain Policy*** (or the ***Group Policy Object*** for which you want to enable client LDAP signing).

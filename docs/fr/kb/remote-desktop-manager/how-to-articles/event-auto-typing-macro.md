@@ -4,7 +4,7 @@ title: Événement de Macro clavier
 La ***Macro clavier*** s'exécute automatiquement lorsqu'une connexion a été établie.  
 
 {% snippet icon.shieldWarning %} 
-Cette fonctionnalité envoie simplement des frappes de clavier fournies par le .NET Framework, comme si quelqu’un se servait réellement de son clavier. Les frappes sont envoyées directement au système d’exploitation. Ces dernières sont ensuite prises en charge par l’application actuellement en focus, peu importe laquelle . Si une autre fenêtre fait l’objet de ce focus, alors les identifiants seront probablement dévoilés lors de leur saisie dans une zone de texte.  
+Cette fonctionnalité envoie simplement des frappes de clavier fournies par le .NET Framework, comme si quelqu’un se servait réellement de son clavier. Les frappes sont envoyées directement au système d’exploitation. Ces dernières sont ensuite prises en charge par l’application actuellement en focus, peu importe laquelle. Si une autre fenêtre fait l’objet de ce focus, alors les identifiants seront probablement dévoilés lors de leur saisie dans une zone de texte.  
 
 Il est donc fortement déconseillé d’utiliser cette fonctionnalité dans un environnement où les utilisateurs ne doivent pas connaître les mots de passe. 
 {% endsnippet %}  
@@ -16,7 +16,7 @@ Il est donc fortement déconseillé d’utiliser cette fonctionnalité dans un e
 
 ### Macro clavier 
 
-Les touches du clavier sont représentées par des balises prédéfinies entre des accolades. Pour un caractère spécifique, saisissez-le simplement sans accolades. Par exemple, saisissez la lettre ***A*** pour représenter la lettre « A » dans la macro clavier. Pour représenter plus d’un caractère (p. ex. : ***Bonjour***), attachez chaque nouveau caractère à celui qui le précède.  
+Les touches du clavier sont représentées par des balises prédéfinies entre des accolades. Pour un caractère spécifique, saisissez-le simplement sans accolades. Par exemple, saisissez la lettre ***A*** pour représenter la lettre « A » dans la macro clavier. Pour représenter plus d’un caractère (p. ex. ***Bonjour***), attachez chaque nouveau caractère à celui qui le précède.  
 
 ### Touches spéciales 
 
@@ -439,5 +439,5 @@ Cette commande met en focus la fenêtre qui contient le nom spécifié après le
 
 ### Mot de passe macro  
 
-Vous pouvez définir un mot de passe qui sera utilisé exclusivement dans la macro de saisie. Pour ce faire, utilisez la variable $MACRO_PASSWORD$ . 
+Vous pouvez définir un mot de passe qui sera utilisé exclusivement dans la macro de saisie. Pour ce faire, utilisez la variable $MACRO_PASSWORD$. 
 

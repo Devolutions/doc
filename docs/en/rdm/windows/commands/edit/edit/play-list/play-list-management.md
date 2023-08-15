@@ -3,7 +3,7 @@ title: Play List Management
 ---
 ### Using a Play List 
 
-First, open your Play List Management in Edit – Play List – Play List Management .  
+First, open your Play List Management in ***Edit – Play List – Play List Management***.  
 
 There are five methods of using your Play List.  
 ![Default Mode](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10260.png) 

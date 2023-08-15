@@ -62,5 +62,3 @@ Dossier ou URL du fichier d'installation de {{ fr.RDM }}. Les chemins UNC sont s
 		</td>
 	</tr>
 </table>
-
-

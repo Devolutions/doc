@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Import/Export Data with {{ en.HUBP }}
 ---
-You can import new data to your {{ en.HUBP }} and export your existing data to the Json format. These features are accessible via the ***Tools*** tab, under the ***Import / Export*** section.
+You can import new data to your {{ en.HUBP }} and export your existing data to the Json format. These features are accessible via the ***Tools*** tab, under the ***Import/Export*** section.
 
 ![Import/Export.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2083.png)
 
