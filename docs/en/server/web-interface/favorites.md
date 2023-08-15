@@ -7,7 +7,7 @@ This is useful when the number of managed entries becomes too great or when a st
 
 ![!!ServerOp4053.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4053.png)  
 
-Favorite an entry in two ways :  
+Favorite an entry in two ways:  
 
 * by right-clicking an entry in the ***{{ en.NPANE }}***, then selecting ***Add to Favorites***. 
 * by clicking the ***Add to Favorites*** star icon in the action button menu of the entry.  

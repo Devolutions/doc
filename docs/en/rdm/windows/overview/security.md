@@ -3,7 +3,7 @@ title: Security
 ---
 All passwords stored in the data sources are encrypted using a strong encryption algorithm, to the extent that if a user attempts to access the data directly in the database, it will be considered unreadable.  
 
-If you choose to store passwords locally, {{ en.RDM }} will use the same mechanism used by mstsc.exe ( {{ en.RDM }} client), which stores the passwords in the Windows Credential Manager. It must be noted that the password will not be able to be viewed due to being encrypted by Windows. For obvious reasons, this choice also means that credentials stored in this fashion are not shared.  
+If you choose to store passwords locally, {{ en.RDM }} will use the same mechanism used by mstsc.exe ({{ en.RDM }} client), which stores the passwords in the Windows Credential Manager. It must be noted that the password will not be able to be viewed due to being encrypted by Windows. For obvious reasons, this choice also means that credentials stored in this fashion are not shared.  
 
 ## U.S. Federal Government Approved Encryption 
 
@@ -14,7 +14,7 @@ This cipher is proven to be very secure. AES/Rijndael became effective as a U.S.
 ## Tips 
 
 {% snippet icon.shieldWarning %} 
-Encryption of data while in transit is offered natively by our cloud services. Whenever you decide to use an on-premises solution, encryption of data in transit must be implemented by using the tools involving your chosen technologies. Most customers with security concerns choose [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . Follow instructions specific to the chosen solution. 
+Encryption of data while in transit is offered natively by our cloud services. Whenever you decide to use an on-premises solution, encryption of data in transit must be implemented by using the tools involving your chosen technologies. Most customers with security concerns choose [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Follow instructions specific to the chosen solution. 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 

@@ -9,5 +9,5 @@ Pour en savoir plus, vous pouvez trouver la documentation complète de l'applet 
 
 ## Paramètres 
 
-Vous trouverez sur le [Forum](https://forum.devolutions.net/product/powershell-module) plusieurs scripts PowerShell pour importer modifier ou interagir avec les données de {{ fr.RDM }} . 
+Vous trouverez sur le [Forum](https://forum.devolutions.net/product/powershell-module) plusieurs scripts PowerShell pour importer modifier ou interagir avec les données de {{ fr.RDM }}. 
 ![PowerShell](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10369.png) 

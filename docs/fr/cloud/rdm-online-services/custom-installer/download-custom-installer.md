@@ -16,7 +16,7 @@ Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration 
  
 ### Paramètres 
 
-1. Dans {{ fr.RDM }} , cliquer sur ***Fichier – {{ fr.DA }} – {{ fr.CIM }}***.  
+1. Dans {{ fr.RDM }}, cliquer sur ***Fichier – {{ fr.DA }} – {{ fr.CIM }}***.  
 ![Fichier - {{ fr.DA }} - {{ fr.CIM }}](https://webdevolutions.blob.core.windows.net/docs/fr/cloud/Cloud6001.png)
 1. Sélectionner le fichier dans la liste, puis cliquer sur ***Télécharger MSI***.  
 ![{{ fr.CIM }} – Télécharger MSI](https://webdevolutions.blob.core.windows.net/docs/fr/cloud/Cloud6002.png)

@@ -1,7 +1,7 @@
 ---
 title: Advanced Configuration
 ---
-The ***Advanced*** configuration allows to set individual clean up parameters for all the different logs of {{ en.DVLS }} . 
+The ***Advanced*** configuration allows to set individual clean up parameters for all the different logs of {{ en.DVLS }}. 
 
 ![Cleanup Logs - Advanced](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8161.png) 
 
@@ -43,7 +43,7 @@ The Login Attempt relates to all unsuccessful logins to the {{ en.DVLS }} data s
 Login History 
 		</td>
 		<td>
-The Login History logs related to each user that has been connected to the {{ en.DVLS }} . 
+The Login History logs related to each user that has been connected to the {{ en.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ The Login History logs related to each user that has been connected to the {{ en
 Message Logs 
 		</td>
 		<td>
-Message Logs relates to the data source logs of {{ en.DVLS }} . 
+Message Logs relates to the data source logs of {{ en.DVLS }}. 
 		</td>
 	</tr>
 	<tr>

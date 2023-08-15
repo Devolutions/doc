@@ -10,7 +10,7 @@ The smart folder updates dynamically; each time you open the folder it searches.
 ## Add a smart folder
 
 1. Click ***New Entry***.
-1. Click ***Miscellaneous*** , then select ***Smart Folder***.
+1. Click ***Miscellaneous***, then select ***Smart Folder***.
 1. Name the smart folder. This is how the smart folder name will appear in the ***{{ en.NPANE }}***. It is not for the search terms.
 1. Enter a search parameter: ***Tags*** or ***Entry name***.
 

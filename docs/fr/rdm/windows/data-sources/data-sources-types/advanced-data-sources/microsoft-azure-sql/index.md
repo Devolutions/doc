@@ -12,10 +12,10 @@ Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} utilise la platefo
 
 Les fonctionnalités suivantes sont également prises en charge :  
 
-* ***Groupe de disponibilité "Always on"*** ; 
-* ***Regroupement*** ; 
-* **Expédition des journaux*** ; 
-* ***Mise en miroir de bases de données*** . 
+* ***Groupe de disponibilité « Always on »***; 
+* ***Regroupement***; 
+* ***Expédition des journaux***; 
+* ***Mise en miroir de bases de données***. 
 		</td>
 	</tr>
 </table>
@@ -31,7 +31,7 @@ Microsoft Azure SQL propose différents niveaux de service dans son modèle d'ac
 * Prise en charge des journaux de connexions et des pièces jointes. 
 
 {% snippet icon.badgeHelp %} 
-Obtenez plus de détails sur [Microsoft Azure SQL](https://azure.microsoft.com/fr-ca/products/azure-sql/database/) . 
+Obtenez plus de détails sur [Microsoft Azure SQL](https://azure.microsoft.com/fr-ca/products/azure-sql/database/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -40,7 +40,7 @@ Une stratégie de sauvegarde de base de données appropriée doit être mise en 
  
 ## Configuration 
 
-Pour configurer une source de données Azure SQL, veuillez lire la rubrique [Configurer Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/) . 
+Pour configurer une source de données Azure SQL, veuillez lire la rubrique [Configurer Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/). 
 
 ## Paramètres 
 
@@ -79,7 +79,7 @@ Nom du serveur sur lequel la source de données sera stockée.
 Mode de connexion 
 		</td>
 		<td>
-Sélectionner votre mode de connexion. Choisir entre:  
+Sélectionner votre mode de connexion. Choisir entre :  
 
 * ***Connexion à la base de données*** 
 * ***Connexion personnalisée*** 
@@ -133,7 +133,7 @@ Nom de la base de données Azure SQL.
 2 facteurs 
 		</td>
 		<td>
-Activer l' [Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
+Activer l'[Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -173,7 +173,7 @@ Entrer le nom d'un dossier de niveau racine pour afficher uniquement les entrée
 Mode ping en ligne 
 		</td>
 		<td>
-Indique le mode de ping préféré en ligne. Choisir entre:  
+Indique le mode de ping préféré en ligne. Choisir entre :  
 
 * Aucun 
 * Ping 
@@ -209,7 +209,7 @@ DESCRIPTION
 Type 
 		</td>
 		<td>
-Sélectionner le type de [{{ fr.UVLT }}](DataSources_Advanced_PrivateVault) à utiliser. Choisir entre:  
+Sélectionner le type de [{{ fr.UVLT }}](DataSources_Advanced_PrivateVault) à utiliser. Choisir entre :  
 
 * ***Par défaut*** : utilise le {{ fr.UVLT }} par défaut, qui est stocké dans la base de données. 
 * ***Aucun*** : désactive le {{ fr.UVLT }} pour tous les utilisateurs. 
@@ -275,7 +275,7 @@ Afficher le script de mise à jour.
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à Microsoft Azure SQL .  
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à Microsoft Azure SQL.  
 ![Microsoft Azure SQL - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SQLAzureVPN.png) 
 
 ### Avancé 
@@ -337,7 +337,7 @@ Chaque fois que vous vous connecterez à votre source de données, vous serez in
 Autoriser mise à niveau de la base de donnés beta 
 		</td>
 		<td>
-Autoriser la mise à niveau beta de la base de données (lors de l'utilisation d'une version beta de {{ fr.RDM }} ). 
+Autoriser la mise à niveau beta de la base de données (lors de l'utilisation d'une version beta de {{ fr.RDM }}). 
 		</td>
 	</tr>
 	<tr>
@@ -345,7 +345,7 @@ Autoriser la mise à niveau beta de la base de données (lors de l'utilisation d
 Gérer la cache 
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/manage-cache/) . 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/manage-cache/). 
 		</td>
 	</tr>
 	<tr>

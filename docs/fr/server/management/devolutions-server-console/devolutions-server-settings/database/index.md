@@ -2,7 +2,7 @@
 title: Base de données
 order: 20
 ---
-La section de l'onglet ***Base de données*** contient les informations du serveur SQL, les identifiants SQL et le nom de la base de données utilisé par {{ fr.DVLS }} .  
+La section de l'onglet ***Base de données*** contient les informations du serveur SQL, les identifiants SQL et le nom de la base de données utilisé par {{ fr.DVLS }}.  
 
 ![Paramètres Serveur - Base de données](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8002.png) 
 
@@ -41,7 +41,7 @@ Paramètres avancés
 		</td>
 		<td>
 
-Accéder aux [Paramètres avancés](/fr/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-settings/) . 
+Accéder aux [Paramètres avancés](/fr/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-settings/). 
 		</td>
 	</tr>
 	<tr>
@@ -74,7 +74,7 @@ Sauvegarder le schéma
 		</td>
 		<td>
 
-Sauvegarder le schéma de la base de données dans un fichier pour l'envoyer à l' [équipe de support Devolutions](mailto:service@devolutions.net) . 
+Sauvegarder le schéma de la base de données dans un fichier pour l'envoyer à l'[équipe de support Devolutions](mailto:service@devolutions.net). 
 		</td>
 	</tr>
 	<tr>
@@ -90,7 +90,7 @@ Afficher la version actuelle de la base de données.
 ### Identifiants 
 
 {% snippet icon.badgeInfo %} 
-Prendre note que les paramètres de sécurité intégrée ou des identifiants affectent la manière dont {{ fr.DVLS }} communique avec la base de données SQL. Ces options n'ont aucun impact sur la manière dont les utilisateurs s'authentifieront sur l'instance de {{ fr.DVLS }} . 
+Prendre note que les paramètres de sécurité intégrée ou des identifiants affectent la manière dont {{ fr.DVLS }} communique avec la base de données SQL. Ces options n'ont aucun impact sur la manière dont les utilisateurs s'authentifieront sur l'instance de {{ fr.DVLS }}. 
 {% endsnippet %}
  
 <table>
@@ -108,7 +108,7 @@ Description
 Type d'authentification 
 		</td>
 		<td>
-Sélectionner entre Authentification Windows ou Authentification SQL Server pour l'authentification a la base de données. Pour que l' [Authentification Windows](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/) soit utilisée pour se connecter à la base de données, vous devez définir un compte de domaine comme identité du Pool d'application dans le gestionnaire IIS. 
+Sélectionner entre Authentification Windows ou Authentification SQL Server pour l'authentification a la base de données. Pour que l'[Authentification Windows](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/) soit utilisée pour se connecter à la base de données, vous devez définir un compte de domaine comme identité du Pool d'application dans le gestionnaire IIS. 
 		</td>
 	</tr>
 	<tr>

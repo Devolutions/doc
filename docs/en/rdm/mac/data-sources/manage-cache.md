@@ -71,7 +71,7 @@ The repair will run four different SQLite commands to repair a corrupted cache:
 Delete 
 		</td>
 		<td>
-This option will delete the physical file (offline.db). Please not that this will empty your Offline mode cache, always verify that your database is available before running a Delete . 
+This option will delete the physical file (offline.db). Please not that this will empty your Offline mode cache, always verify that your database is available before running a ***Delete***. 
 		</td>
 	</tr>
 </table>

@@ -26,7 +26,7 @@ For a high availability of the database, Database Mirroring can be used which re
 
 ## Load Balancing Topology
 
-To ensure maximum performance of the {{ en.DVLS }} , it can be deployed as a load balancing {{ en.DVLS }} topology as illustrated in the image below. It can either be a physical or software load balancing system.  
+To ensure maximum performance of the {{ en.DVLS }}, it can be deployed as a load balancing {{ en.DVLS }} topology as illustrated in the image below. It can either be a physical or software load balancing system.  
 ![Load Balancing {{ en.DVLS }} Topology](https://webdevolutions.azureedge.net/docs/en/server/RecommendedTopology-4.png)
 
 ## {{ en.DVLS }} Instance Manual Failover

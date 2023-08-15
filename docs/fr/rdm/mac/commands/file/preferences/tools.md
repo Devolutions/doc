@@ -69,7 +69,7 @@ Journal d'évènement
 		</td>
 		<td>
 
-Sélectionner le journal des événements préféré à ouvrir par défaut lors du lancement de l'événement sur un ordinateur distant:  
+Sélectionner le journal des événements préféré à ouvrir par défaut lors du lancement de l'événement sur un ordinateur distant :  
 
 * Tout 
 * Application 
@@ -89,7 +89,7 @@ Sélectionner le journal des événements préféré à ouvrir par défaut lors 
 Type d'évènement 
 		</td>
 		<td>
-Sélectionner le type d'événement préféré à ouvrir par défaut lors du lancement de l'événement sur un ordinateur distant:  
+Sélectionner le type d'événement préféré à ouvrir par défaut lors du lancement de l'événement sur un ordinateur distant :  
 
 * Tous 
 * Erreur 
@@ -104,7 +104,7 @@ Sélectionner le type d'événement préféré à ouvrir par défaut lors du lan
 Plage horaire 
 		</td>
 		<td>
-Définir la plage horaire pour l'événement distant:  
+Définir la plage horaire pour l'événement distant :  
 
 * Semaine dernière 
 * Aujourd'hui 

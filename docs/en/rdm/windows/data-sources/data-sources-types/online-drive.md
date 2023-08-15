@@ -132,14 +132,14 @@ Choose the backup mode. Select between:
 
 * None: No backup of the data source will be created. 
 * File backup: The backup will be saved to a local file when a modification occurs in the data source. 
-* {{ en.OBACK }}: An {{ en.OBACK }} (using the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) ) will automatically be created when a modification occurs in the data source. 
+* {{ en.OBACK }}: An {{ en.OBACK }} (using the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/)) will automatically be created when a modification occurs in the data source. 
 		</td>
 	</tr>
 </table>
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your {{ en.DOD }} .  
+Open a VPN to access your data prior to connecting to your {{ en.DOD }}.  
 ![{{ en.DOD }} - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DODVVPN.png) 
 
 ### Advanced 
@@ -177,7 +177,7 @@ Allow offline mode
 		</td>
 		<td>
 
-Allows the data source to be used in [Offline mode](/rdm/windows/data-sources/offline-mode/) . 
+Allows the data source to be used in [Offline mode](/rdm/windows/data-sources/offline-mode/). 
 		</td>
 	</tr>
 	<tr>

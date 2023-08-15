@@ -31,7 +31,7 @@ Microsoft Azure SQL offers different service tier in its purchase model for DTUS
 * Supports entry logs and attachments. 
 
 {% snippet icon.badgeHelp %} 
-Get more information on [Microsoft Azure SQL](https://azure.microsoft.com/en-us/services/sql-database/) . 
+Get more information on [Microsoft Azure SQL](https://azure.microsoft.com/en-us/services/sql-database/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -123,7 +123,7 @@ Two factor
 		</td>
 		<td>
 
-Enable the [2-Factor Authentication](/rdm/mac/data-sources/multi-factor-authentication/) . 
+Enable the [2-Factor Authentication](/rdm/mac/data-sources/multi-factor-authentication/). 
 		</td>
 	</tr>
 	<tr>
@@ -225,7 +225,7 @@ DESCRIPTION
 Create Database 
 		</td>
 		<td>
-Create the database on the SQL server to use {{ en.RDM }} . 
+Create the database on the SQL server to use {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -233,7 +233,7 @@ Create the database on the SQL server to use {{ en.RDM }} .
 Update Database 
 		</td>
 		<td>
-Update the database on the SQL server, if required to use {{ en.RDM }} . 
+Update the database on the SQL server, if required to use {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -302,7 +302,7 @@ Set the delay of the command timeout.
 Allow beta database upgrade 
 		</td>
 		<td>
-Allow beta upgrade of the database (when using a beta version of {{ en.RDM }} ). 
+Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}). 
 		</td>
 	</tr>
 	<tr>

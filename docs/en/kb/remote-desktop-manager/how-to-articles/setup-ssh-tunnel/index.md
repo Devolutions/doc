@@ -26,7 +26,7 @@ Set up the properties as follows:
 
 | Option        | Description |
 | ------------- | ----------- |
-| Mode          | Select between: Local , Remote or Dynamic |
+| Mode          | Select between: Local, Remote or Dynamic |
 | Local address | The local address must be left to 127.0.0.1. (please refer to 1 in the Tunnel diagram) |
 | Local port    | In most cases leave the local port to its default value 3390. (please refer to ‚ in the Tunnel diagram) |
 | Remote host   | Enter the host or IP address of your remote client. (please refer to … in the Tunnel diagram) |

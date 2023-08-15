@@ -4,7 +4,7 @@ order: 20
 ---
 ### Général 
 
-Dans la section ***Général***, vous pouvez personnaliser la couleur du ***Thème*** et choisir la langue de {{ fr.DLAUNCHER }}. Vous devrez fermer l 'application pour activer le paramètre.  
+Dans la section ***Général***, vous pouvez personnaliser la couleur du ***Thème*** et choisir la langue de {{ fr.DLAUNCHER }}. Vous devrez fermer l'application pour activer le paramètre.  
 ![!!Hub4013.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4013.png) 
 
 ### Sources de données 

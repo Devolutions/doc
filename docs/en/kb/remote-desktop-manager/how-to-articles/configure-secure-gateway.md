@@ -15,7 +15,7 @@ The new jump integration will give you the possibility to jump through a DMZ zon
 
    The Jump server (Secure Gateway) is now configured and ready to use.  
 
-2. The second step is to configure the target machine session, we support ***RDP, SSH Shell, SFTP, FTP, SCP*** , and ***Website*** (session entry) over the ***Secure Gateway*** feature.  
+2. The second step is to configure the target machine session, we support ***RDP, SSH Shell, SFTP, FTP, SCP***, and ***Website*** (session entry) over the ***Secure Gateway*** feature.  
 
    The configuration contains two steps: the first one is the general configuration, the second step is the Secure Gateway configuration. You will be able to repeat this second step for every additional session that uses the Secure Gateway.  
 

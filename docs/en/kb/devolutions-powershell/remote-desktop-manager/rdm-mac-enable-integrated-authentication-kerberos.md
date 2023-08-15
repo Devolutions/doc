@@ -44,10 +44,10 @@ Write-Output "Domain name $($dcinfo.Domain)"
 Write-Output "Domain Controller $($dcinfo.HostName)"
 Write-Output "`nSuggested krb5.conf content`n-----------------------------------------"
 Write-Output "[libdefaults]"
-Write-Output "  default_realm = $($dcinfo.Domain.ToUpper())"
+Write-Output "default_realm = $($dcinfo.Domain.ToUpper())"
 Write-Output "
 Write-Output "[realms]`n$($dcinfo.Domain.ToUpper()) = {"
-Write-Output "  kds = $($dcinfo.HostName)"
+Write-Output "kds = $($dcinfo.HostName)"
 Write-Output "}"
 ```
 ## Setup Kerberos on Mac

@@ -1,9 +1,9 @@
 ---
 title: Getting Started
 ---
-In this topic, you will find the steps on how to get started with the ***Privileged Access Management*** features in {{ en.DVLS }} .  
+In this topic, you will find the steps on how to get started with the ***Privileged Access Management*** features in {{ en.DVLS }}.  
 
-First, you will need to be logged as an administrator in your {{ en.DVLS }} . 
+First, you will need to be logged as an administrator in your {{ en.DVLS }}. 
 
 ## PAM Settings Configuration 
 
@@ -14,7 +14,7 @@ First, you will need to be logged as an administrator in your {{ en.DVLS }} .
 ![!!ServerOp8087.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8087.png) 
 ![!!ServerUs6011.png](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6011.png) 
 1. Next, head to ***Administration – System Permissions – Modules***. 
-1. Configure the accesses to the PAM system for the users/admins and manage privileged accounts rights on who can edit the privileged entries. Then, click ***Save*** .  
+1. Configure the accesses to the PAM system for the users/admins and manage privileged accounts rights on who can edit the privileged entries. Then, click ***Save***.  
 ![PAM Access configuration](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6012.png) 
 
 ## Add a provider 
@@ -50,5 +50,5 @@ In the ***PAM Vaults*** section of ***Administration - Privileged Accounts***, y
 ![Import Users](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6018.png) 
 Once imported, you can click into the v ault and manually check the ***Synchronization Status*** in the top right of the screen. You will know the accounts are well synchronized when the credentials doesn't have an Out of sync red warning next to them.  
 ![PAM Account Sync Check](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6019.png)  
-You are now ready to use the privileged access management portion of {{ en.DVLS }} . 
+You are now ready to use the privileged access management portion of {{ en.DVLS }}. 
 

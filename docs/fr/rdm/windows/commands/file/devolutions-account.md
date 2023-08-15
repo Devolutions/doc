@@ -1,7 +1,7 @@
 ---
 title: Compte Devolutions
 ---
-Dans ***Fichier - {{ fr.DA }}*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }} . Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***{{ fr.CIM }}*** .  
+Dans ***Fichier - {{ fr.DA }}*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }}. Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***{{ fr.CIM }}***.  
 
 ## Paramètres 
 
@@ -23,7 +23,7 @@ DESCRIPTION
 Connexion ou Déconnection 
 		</td>
 		<td>
-Connectez ou déconnectez-vous avec votre {{ fr.DA }} . 
+Connectez ou déconnectez-vous avec votre {{ fr.DA }}. 
 		</td>
 	</tr>
 	<tr>
@@ -31,7 +31,7 @@ Connectez ou déconnectez-vous avec votre {{ fr.DA }} .
 Créer un {{ fr.DA }}
 		</td>
 		<td>
-Créer un nouveau {{ fr.DA }} . 
+Créer un nouveau {{ fr.DA }}. 
 		</td>
 	</tr>
 	<tr>
@@ -39,7 +39,7 @@ Créer un nouveau {{ fr.DA }} .
 Modifier mon {{ fr.DA }}
 		</td>
 		<td>
-Modifier votre {{ fr.DA }} . 
+Modifier votre {{ fr.DA }}. 
 		</td>
 	</tr>
 </table>
@@ -98,7 +98,7 @@ DESCRIPTION
 Générateur de fichier de configuration 
 		</td>
 		<td>
-Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter la rubrique [Générateur de fichiers d'installation](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/) . 
+Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter la rubrique [Générateur de fichiers d'installation](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
 		</td>
 	</tr>
 	<tr>
@@ -106,7 +106,7 @@ Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter la rubrique [Gé
 {{ fr.CIM }} 
 		</td>
 		<td>
-Consulter la rubrique [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/) . 
+Consulter la rubrique [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/). 
 		</td>
 	</tr>
 </table>

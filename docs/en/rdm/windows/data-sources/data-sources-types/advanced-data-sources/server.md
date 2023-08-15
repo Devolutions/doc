@@ -8,7 +8,7 @@ title: Devolutions Server
 ![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
-{{ en.DVLS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the product's web site [here](https://devolutions.net/server/) . 
+{{ en.DVLS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the product's web site [here](https://devolutions.net/server/). 
 		</td>
 	</tr>
 </table>
@@ -33,7 +33,7 @@ For more information, please consult these topics:
 ## Configure the server data source on all your client machines 
 Enter a name of the data source and the URL for the Host. Ensure you use the correct protocol if SSL is required by the server (https).  
 
-Export the data source, then import the file in your client workstations as described [Import/Export Data Source](/rdm/windows/data-sources/data-sources-types/import-export/) . 
+Export the data source, then import the file in your client workstations as described [Import/Export Data Source](/rdm/windows/data-sources/data-sources-types/import-export/). 
 
 ## Settings 
 
@@ -84,9 +84,9 @@ Use Office365 authentication
 		<td>
 Use the same credentials as your current Office365 user. Choose an authentication option: 
 
-* Default : Create a new authentication token each time and keeps it in the memory only. 
-* Persistent : Takes the saved token, if it does not exist, will create a new one and save it. 
-* Linked account : Takes a saved token from Windows (registry). 
+* Default: Create a new authentication token each time and keeps it in the memory only. 
+* Persistent: Takes the saved token, if it does not exist, will create a new one and save it. 
+* Linked account: Takes a saved token from Windows (registry). 
 		</td>
 	</tr>
 	<tr>
@@ -184,9 +184,9 @@ Type
 		<td>
 Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) to use. Select between:  
 
-* ***Default*** : use the default {{ en.UVLT }} , which is stored in the database. 
-* ***None*** : disable the {{ en.UVLT }} for all users. 
-* ***{{ en.OD }}*** : use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
+* ***Default***: use the default {{ en.UVLT }}, which is stored in the database. 
+* ***None***: disable the {{ en.UVLT }} for all users. 
+* ***{{ en.OD }}***: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
 		</td>
 	</tr>
 </table>

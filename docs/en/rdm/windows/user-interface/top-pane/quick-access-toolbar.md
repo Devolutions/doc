@@ -1,7 +1,7 @@
 ---
 title: Quick Access Toolbar
 ---
-The Quick Access Toolbar , which is found at the top of the application, It is composed of multiple parts:  
+The ***Quick Access Toolbar*** found at the top of the application is composed of multiple parts:  
 
 * System menu icon. 
 * Favorite commands. 
@@ -9,12 +9,12 @@ The Quick Access Toolbar , which is found at the top of the application, It is c
 * Lock command. 
 
 {% snippet icon.badgeInfo %} 
-Quick Access Toolbar buttons are flagged locally on the current machine by the current user. These local buttons are saved in a file named RemoteDesktopManager.qtb . By default, this file is located in %localappdata%\Devolutions\RemoteDesktopManager . 
+***Quick Access Toolbar*** buttons are flagged locally on the current machine by the current user. These local buttons are saved in a file named **RemoteDesktopManager.qtb**. By default, this file is located in **%localappdata%\Devolutions\RemoteDesktopManager**. 
 {% endsnippet %}
  
 ### Favorite commands 
 
-Commands contained in the ribbon can be added in the quick access toolbar. These are the favorite commands. To add a command to the quick access toolbar, right-click any icon in the ribbon the select Add .  
+Commands contained in the ribbon can be added in the quick access toolbar. These are the favorite commands. To add a command to the quick access toolbar, right-click any icon in the ribbon the select ***Add***.  
 ![Favorite Commands](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11178.png) 
 
 <table>
@@ -61,7 +61,7 @@ Open the filter dialog window to allow you to do a quick search.
 	</tr>
 </table>
 
-Right-Click on any command to display the contextual menu. To remove an item from the quick access toolbar, right-click on the item and select ***Remove***. To add an item to the quick access toolbar, right-click an item in the ribbon and select Add . Use this to customize your workspace with your preferences. 
+Right-Click on any command to display the contextual menu. To remove an item from the quick access toolbar, right-click on the item and select ***Remove***. To add an item to the quick access toolbar, right-click an item in the ribbon and select ***Add***. Use this to customize your workspace with your preferences. 
 
 ### Quick Connect control 
 

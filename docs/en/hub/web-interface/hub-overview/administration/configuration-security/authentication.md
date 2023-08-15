@@ -1,21 +1,21 @@
 ---
 title: Authentication
 ---
-The ***Authentication*** section allows you to configure how your users will log into your {{ en.HUB }} .  
+The ***Authentication*** section allows you to configure how your users will log into your {{ en.HUB }}.  
 
 ## General 
 
 In the ***General*** section, you can enable login settings for your users.  
 ![Administration – Authentication – General](https://webdevolutions.azureedge.net/docs/en/hub/Hub2194.png)  
 
-* ***Force prompt login*** enforces a login prompt for all users. If users have set up their 2-step verification in their {{ en.DA }} , this will only prompt 2-step verification. 
-* ***Enforce 2-step verification on {{ en.DA }}*** enforces all users to set a multi-factor verification on their {{ en.DA }} . 
+* ***Force prompt login*** enforces a login prompt for all users. If users have set up their 2-step verification in their {{ en.DA }}, this will only prompt 2-step verification. 
+* ***Enforce 2-step verification on {{ en.DA }}*** enforces all users to set a multi-factor verification on their {{ en.DA }}. 
 
 {% snippet icon.badgeCaution %} 
 The ***Enforce 2-step verification on {{ en.DA }}*** setting does not apply to users that log in with Single Sign-on (SSO). 
 {% endsnippet %}
  
-It is also possible to set the ***Inactivity Logout Time*** to different values ranging from 5 minutes to 4 hours or to leave it ***Off*** .  
+It is also possible to set the ***Inactivity Logout Time*** to different values ranging from 5 minutes to 4 hours or to leave it ***Off***.  
 
 ## Single Sign-On (SSO) 
 
@@ -30,10 +30,10 @@ When setting up SSO, you will have to fill in some fields in the ***Configure Si
 
 After having configured and saved your SSO settings, it is still possible to edit them or even delete them.  
 
-By default, SSO will be enabled once you complete the configuration. You can also ***Force SSO on all users*** .  
+By default, SSO will be enabled once you complete the configuration. You can also ***Force SSO on all users***.  
 
 {% snippet icon.badgeWarning %} 
-If you enable ***Force SSO on all users*** , users will not have access to {{ en.HUBB }} in case of misconfiguration or downtime of your SSO provider. We strongly recommend that you inform all existing users in your {{ en.HUBB }} of this new authentication method prior to activating it. 
+If you enable ***Force SSO on all users***, users will not have access to {{ en.HUBB }} in case of misconfiguration or downtime of your SSO provider. We strongly recommend that you inform all existing users in your {{ en.HUBB }} of this new authentication method prior to activating it. 
 {% endsnippet %}
  
 ![Configured Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2198.png)  
@@ -48,10 +48,10 @@ Synchronize and automate the provisioning and deprovisioning process of your {{ 
  
 ![Administration – Authentication – Provisioning](https://webdevolutions.azureedge.net/docs/en/hub/Hub2195.png)  
 
-After having enabled SSO, you can generate a ***SCIM Token*** . You can always delete that token and regenerate a new one.  
+After having enabled SSO, you can generate a ***SCIM Token***. You can always delete that token and regenerate a new one.  
 ![Generate SCIM Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2199.png)  
 
-You will then get access to the ***Tenant URL*** in addition to the token to [configure the provisioning in Azure](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/) .  
+You will then get access to the ***Tenant URL*** in addition to the token to [configure the provisioning in Azure](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/).  
 ![Tenant URL and SCIM Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2200.png)  
 
 When everything has been configured, you can ***Enable the synchronization*** of your {{ en.HUB }}  's users and groups with the ones in Azure AD.  

@@ -5,6 +5,6 @@ title: Unable to Delete the License
 ### Solution
 1. In ***Administration - Licenses*** select the license, delete it and close this window.  
 ![!!KB4844.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4844.png)
-1. In ***Administration - System Settings - Serial Number*** , you should see the same serial. Select, erase and click ***OK*** to save.  
+1. In ***Administration - System Settings - Serial Number***, you should see the same serial. Select, erase and click ***OK*** to save.  
 
 The license should now be deleted. You can validate in ***Administration - Licenses***

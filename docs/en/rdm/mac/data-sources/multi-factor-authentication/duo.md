@@ -32,9 +32,9 @@ Before you start the configuration, make sure you have created a Duo account and
 1. Select the device to use for the multi-factor authentication by clicking on ***Use this device***. 
 1. Select the method by which to receive the Duo Passcode:  
 
-    * Duo Push : The code is “pushed“ to the Duo application. 
-    * Send SMS : The code is sent by SMS on the registered phone number. 
-    * Phone : The code is sent by phone call; a computer generated voice will dictate the code. 
+    * Duo Push: The code is “pushed“ to the Duo application. 
+    * Send SMS: The code is sent by SMS on the registered phone number. 
+    * Phone: The code is sent by phone call; a computer generated voice will dictate the code. 
 1. <a name="10"></a>Click ***Close*** when done.  
 ![Close the Multi-Factor Configuration Window](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2060.png) 
 

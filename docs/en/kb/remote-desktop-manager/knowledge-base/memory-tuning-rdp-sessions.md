@@ -41,7 +41,7 @@ The protocol is limited to using the Windows 7 with SP1 RemoteFX codec and a sma
 Small cache
 		</td>
 		<td>
-The protocol is the same as ***Full mode*** , except it uses a smaller cache.
+The protocol is the same as ***Full mode***, except it uses a smaller cache.
 		</td>
 	</tr>
 </table>

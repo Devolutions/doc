@@ -3,7 +3,7 @@ eleventyComputed:
   title: Inviter des utilisateurs dans {{ fr.HUBB }}
 ---
 {% snippet icon.badgeInfo %} 
-L'invitation d 'un utilisateur et l'expérience d'invitation de l'utilisateur final dans {{ fr.HUB }} sont différentes avec l'identification unique (SSO). Veuillez vous référer à nos sujets connexes ci-dessous si vous utilisez le SSO :  
+L'invitation d'un utilisateur et l'expérience d'invitation de l'utilisateur final dans {{ fr.HUB }} sont différentes avec l'identification unique (SSO). Veuillez vous référer à nos sujets connexes ci-dessous si vous utilisez le SSO :  
 
 * [Expérience d'invitation de l'utilisateur final pour SSO dans {{ fr.HUBB }}](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/)  
 

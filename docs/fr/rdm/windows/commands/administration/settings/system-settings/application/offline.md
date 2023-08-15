@@ -17,7 +17,7 @@ DESCRIPTION
 Mode hors connexion 
 		</td>
 		<td>
-Définir la disponibilité du [Mode hors connexion](/rdm/windows/data-sources/offline-mode/) de la source de données globale . Le mode hors ligne est utile lors de l'utilisation d'une connexion VPN qui rend impossible l'utilisation du réseau local. 
+Définir la disponibilité du [Mode hors connexion](/rdm/windows/data-sources/offline-mode/) de la source de données globale. Le mode hors ligne est utile lors de l'utilisation d'une connexion VPN qui rend impossible l'utilisation du réseau local. 
 		</td>
 	</tr>
 		<td>
@@ -44,7 +44,5 @@ Force l'utilisateur à fournir son 2FA avant de se déconnecter.
 </table>
 
 {% snippet icon.badgeCaution %} 
-Il n'est pas recommandé de définir l' ***Expiration*** à 0, car cela désactivera l'expiration du cache hors ligne. 
+Il n'est pas recommandé de définir l'***Expiration*** à 0, car cela désactivera l'expiration du cache hors ligne. 
 {% endsnippet %}
- 
-

@@ -1,7 +1,7 @@
 ---
 title: Paramètres d'identifiants par défaut
 ---
-Vous pouvez accéder aux Paramètres d'identifiants par défaut dans ***Fichier - Modèles - Paramètres d'identifiants par défaut*** .  
+Vous pouvez accéder aux Paramètres d'identifiants par défaut dans ***Fichier - Modèles - Paramètres d'identifiants par défaut***.  
 
 Cela vous permet de modifier ou de réinitialiser les paramètres par défaut de vos identifiants qui sont utilisés chaque fois qu'une nouvelle entrée est créée. Chaque type d'identifiants est pris en charge et peut avoir un modèle par défaut défini.  
 
@@ -16,9 +16,9 @@ Noter qu'un avis ***Pas de valeur par défaut*** s'affiche sous chaque type d'id
 
 ### Avec modèle défini 
 
-Tous les identifiants avec l'avis ***Pas de valeur par défaut*** ont un modèle par défaut. Vous pouvez double-cliquer sur le type pour modifier le modèle ou appuyer sur le bouton ***Modifier*** .  
+Tous les identifiants avec l'avis ***Pas de valeur par défaut*** ont un modèle par défaut. Vous pouvez double-cliquer sur le type pour modifier le modèle ou appuyer sur le bouton ***Modifier***.  
 ![Modèle - Modifier](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0043.png) 
 
-Si vous souhaitez supprimer le modèle de paramètres par défaut, appuyer sur le bouton ***Supprimer*** .  
+Si vous souhaitez supprimer le modèle de paramètres par défaut, appuyer sur le bouton ***Supprimer***.  
 ![Modèle - Supprimer](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0046.png) 
 

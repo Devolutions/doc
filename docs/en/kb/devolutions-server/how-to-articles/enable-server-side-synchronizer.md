@@ -17,5 +17,5 @@ The following steps describe how to enable server side synchronizer to be run by
 1. Go in General - Schedule
 1. Check the Enable box and set the occurrence and the time of the execution of the Synchronizer.  
 ![Synchronizer - Schedule.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8057.png)
-1. In {{ en.RDM }} , this option can be configured in General - Schedule.  
+1. In {{ en.RDM }}, this option can be configured in General - Schedule.  
 ![!!KB8058.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8058.png)

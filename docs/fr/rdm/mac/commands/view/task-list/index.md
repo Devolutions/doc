@@ -1,20 +1,20 @@
 ---
 title: Liste des tâches
 ---
-Créez une ***Liste des tâches*** pour assurer le suivi du travail qui doit être effectué par l'équipe. Basculez le volet ***Liste des tâches*** dans l'onglet ***Affichage*** .  
+Créez une ***Liste des tâches*** pour assurer le suivi du travail qui doit être effectué par l'équipe. Basculez le volet ***Liste des tâches*** dans l'onglet ***Affichage***.  
 ![Liste des tâches](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0027.png) 
 
-Vous pouvez effectuer une recherche pour filtrer les tâches affichées. Vous pouvez effectuer une recherche par ***Échéance*** , ***Statut*** ou ***Nom d'utilisateur*** . 
+Vous pouvez effectuer une recherche pour filtrer les tâches affichées. Vous pouvez effectuer une recherche par ***Échéance***, ***Statut*** ou ***Nom d'utilisateur***. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité n'est disponible que pour les sources de données suivantes : [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) , [Azure SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) , [SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/) . 
+Cette fonctionnalité n'est disponible que pour les sources de données suivantes : [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/), [Azure SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/), [SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/). 
 {% endsnippet %}
  
 ![Tâche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0028.png) 
 
 ### Création d'une tâche 
 
-1. Cliquer sur ***Nouveau*** pour ouvrir la fenêtre ***Gestion des tâches*** .  
+1. Cliquer sur ***Nouveau*** pour ouvrir la fenêtre ***Gestion des tâches***.  
 ![Nouvelle tâche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0029.png) 
 1. Entrer vos informations de tâche, comme le nom de la tâche, la priorité, la date d'échéance, la description, etc.  
 ![Gestion des tâches](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0030.png) 
@@ -42,7 +42,7 @@ Entrée
 		</td>
 		<td>
 
-Afficher l'entrée actuellement sélectionnée dans le ***{{ fr.NPANE }}*** . La tâche est assignée à cette entrée. Il s'agit d'un champ en lecture seule. 
+Afficher l'entrée actuellement sélectionnée dans le ***{{ fr.NPANE }}***. La tâche est assignée à cette entrée. Il s'agit d'un champ en lecture seule. 
 		</td>
 	</tr>
 	<tr>

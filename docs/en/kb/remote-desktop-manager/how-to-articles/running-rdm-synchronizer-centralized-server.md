@@ -26,7 +26,7 @@ These instructions are for team data sources
 1. Configure ***Settings*** as desired.
     1. Set the schedule for the trigger. In our example, we used Weekly, every Sunday, at 1:00:00 am.
     1. Check ***Stop task if it runs longer than*** and set value to 30 minutes.
-    1. Check ***Enabled*** , then click ***OK***.  
+    1. Check ***Enabled***, then click ***OK***.  
       ![!!KB4200.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4200.png)  
 1. On the ***Actions tab***, click ***New***.  
 ![!!KB4201.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4201.png)

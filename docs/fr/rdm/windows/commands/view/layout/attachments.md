@@ -3,11 +3,11 @@ title: Pièces jointes
 ---
 Les fichiers sont joints à l'entrée et sont stockés directement dans la base de données.  
 
-Pour activer le volet des pièces jointes, accéder à ***Affichage – Disposition*** dans le ruban, puis sélectionner ***Pièces jointes*** .  
+Pour activer le volet des pièces jointes, accéder à ***Affichage – Disposition*** dans le ruban, puis sélectionner ***Pièces jointes***.  
 ![Bouton Pièces jointes](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3565.png) 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -20,7 +20,7 @@ Le type et la taille des pièces jointes sont limités uniquement par votre band
 
 * à partir du menu contextuel de la session; 
 * à partir des propriétés de la session; ou 
-* directement sur le ***Tableau de bord*** . 
+* directement sur le ***Tableau de bord***. 
 
 Le bouton d'actualisation vous permet de mettre à jour directement le document sélectionné. Utilisez-le pour enregistrer vos modifications locales. 
 

@@ -41,7 +41,7 @@ Description
 Access 
 		</td>
 		<td>
-Possible values :  
+Possible values:  
 
 * Custom 
 * Everyone 
@@ -65,7 +65,7 @@ Description
 View sensitive information on checkout 
 		</td>
 		<td>
-Possible values :  
+Possible values:  
 
 * Custom 
 * Everyone 
@@ -77,7 +77,7 @@ Possible values :
 Credentials brokering 
 		</td>
 		<td>
-Possible values :  
+Possible values:  
 
 * Custom 
 * Everyone 
@@ -102,7 +102,7 @@ Description
 Default approval mode 
 		</td>
 		<td>
-Possible values :  
+Possible values:  
 
 * none 
 * mandatory 
@@ -113,7 +113,7 @@ Possible values :
 Default reason mode 
 		</td>
 		<td>
-Possible values :  
+Possible values:  
 
 * none 
 * mandatory 

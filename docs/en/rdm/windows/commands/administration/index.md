@@ -4,7 +4,7 @@ title: Administration
 The ***Administration*** tab allows to manage settings and users of a data source, view reports such as the activity logs, and much more. This tab is only available to administrators of the data source. 
 
 {% snippet icon.badgeInfo %} 
-Most features contained in the ***Administration*** tab are only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Most features contained in the ***Administration*** tab are only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 ![Ribbon - Administration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10692.png) 
@@ -12,7 +12,7 @@ Most features contained in the ***Administration*** tab are only available when 
 ### Management 
 
 {% snippet icon.badgeInfo %} 
-These feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+These feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 <table>
@@ -30,7 +30,7 @@ DESCRIPTION
 Users 
 		</td>
 		<td>
-Opens the [User Management](/rdm/windows/commands/administration/management/user-management/) . 
+Opens the [User Management](/rdm/windows/commands/administration/management/user-management/). 
 		</td>
 	</tr>
 	<tr>
@@ -62,7 +62,7 @@ Opens the [User Groups Management](/rdm/windows/commands/administration/manageme
 ### Reports 
 
 {% snippet icon.badgeInfo %} 
-The logs feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+The logs feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 <table>
@@ -88,7 +88,7 @@ Open the [***Reports***](/rdm/windows/commands/administration/reports/) section 
 Administration Logs 
 		</td>
 		<td>
-Opens the ***Administration Logs*** . 
+Opens the ***Administration Logs***. 
 		</td>
 	</tr>
 	<tr>
@@ -104,7 +104,7 @@ Open a log of all [***Deleted Entries***](/rdm/windows/commands/administration/r
 ### Settings 
 
 {% snippet icon.badgeInfo %} 
-These feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+These feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 <table>
@@ -122,7 +122,7 @@ DESCRIPTION
 {{ en.VLT }} Settings 
 		</td>
 		<td>
-Opens the {{ en.VLT }} Settings. The {{ en.VLT }} Folder is the one at the top of the ***{{ en.NPANE }}*** (in Tree View). It is the one from which all entries and folder stem. By default, lower level folders inherit settings and security from parent folder until reaching the {{ en.VLT }} . Therefore, using permissions on the {{ en.VLT }} folder allows to secure all entries below the {{ en.VLT }} level. Refer to [Default security for entries](/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/) for more information. 
+Opens the {{ en.VLT }} Settings. The {{ en.VLT }} Folder is the one at the top of the ***{{ en.NPANE }}*** (in Tree View). It is the one from which all entries and folder stem. By default, lower level folders inherit settings and security from parent folder until reaching the {{ en.VLT }}. Therefore, using permissions on the {{ en.VLT }} folder allows to secure all entries below the {{ en.VLT }} level. Refer to [Default security for entries](/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/) for more information. 
 		</td>
 	</tr>
 	<tr>
@@ -138,7 +138,7 @@ Opens the System Settings. There are many features here, all meant to help you c
 System Permissions 
 		</td>
 		<td>
-Modify [System Permissions](/rdm/windows/commands/administration/settings/system-permissions/) . 
+Modify [System Permissions](/rdm/windows/commands/administration/settings/system-permissions/). 
 		</td>
 	</tr>
 	<tr>
@@ -154,7 +154,7 @@ Set up a [Security Provider](/rdm/windows/commands/administration/settings/secur
 ### Clean Up 
 
 {% snippet icon.badgeInfo %} 
-This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 <table>
@@ -172,7 +172,7 @@ DESCRIPTION
 Clean Up Deleted History 
 		</td>
 		<td>
-Perform a partial or full clean up of the [Deleted History](/rdm/windows/commands/administration/clean-up/deleted-history/) . 
+Perform a partial or full clean up of the [Deleted History](/rdm/windows/commands/administration/clean-up/deleted-history/). 
 		</td>
 	</tr>
 	<tr>
@@ -180,7 +180,7 @@ Perform a partial or full clean up of the [Deleted History](/rdm/windows/command
 Clean Up Entry History 
 		</td>
 		<td>
-Perform a partial or full clean up of the [Entry History](/rdm/windows/commands/administration/clean-up/entries-history/) . 
+Perform a partial or full clean up of the [Entry History](/rdm/windows/commands/administration/clean-up/entries-history/). 
 		</td>
 	</tr>
 	<tr>
@@ -188,7 +188,7 @@ Perform a partial or full clean up of the [Entry History](/rdm/windows/commands/
 Clean Up Activity Logs 
 		</td>
 		<td>
-Perform a partial or full clean up of the [Activity Logs](/rdm/windows/commands/administration/clean-up/logs/) . You also have the option to clean up the ***Administration Logs*** if desired. 
+Perform a partial or full clean up of the [Activity Logs](/rdm/windows/commands/administration/clean-up/logs/). You also have the option to clean up the ***Administration Logs*** if desired. 
 		</td>
 	</tr>
 	<tr>

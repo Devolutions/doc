@@ -9,7 +9,7 @@ keywords:
 
 ### Create a Vault 
 
-1. Go to ***Administration – Vaults*** . 
+1. Go to ***Administration – Vaults***. 
 1. Click on the ***Add*** icon at the top right of the screen.  
 ![!!Hub4098.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4098.png) 
 1. ***Name*** the vault. 
@@ -19,7 +19,7 @@ keywords:
 
 ### Add Permissions to a vault 
 
-1. Go to ***Administration – Vaults*** . 
+1. Go to ***Administration – Vaults***. 
 1. Click the ***Edit*** pencil icon next to the vault. 
 1. In the ***Edit*** tab section, click the drop-down menu next to each of the predefined ***Permissions*** to assign users and user groups or select and configure a custom role for your organization. 
 {% snippet icon.badgeNotice %} 
@@ -32,7 +32,7 @@ Click the ***View Roles Definition*** button to choose from the list. You can al
 
 ### Edit a Vault 
 
-1. Go to ***Administration – Vaults*** . 
+1. Go to ***Administration – Vaults***. 
 1. Click the ***Edit*** pencil icon next to the vault. 
 ![!!Hub4100.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4100.png) 
 1. Click ***Update*** to save. 

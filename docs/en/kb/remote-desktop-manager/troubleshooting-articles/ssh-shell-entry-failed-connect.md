@@ -12,7 +12,7 @@ Errors appear when connecting with an SSH Shell in {{ en.RDM }} 2019.X.
 ### Cause
 ***Interactive authentication*** in terminal is set to ***True*** under ***Advanced*** tab.  
 
-Under ***File – Options – Types – Terminal*** , interactive authentication in terminal is also configurable.
+Under ***File – Options – Types – Terminal***, interactive authentication in terminal is also configurable.
 ### Solution
 Change the value to ***False*** if Interactive authentication in terminal is not required.
 ### Alternative Solution  
@@ -20,7 +20,7 @@ Change the value to ***False*** if Interactive authentication in terminal is not
 Adding lines in SSH server may break the authentication process. Never perform this without a backup.
 {% endsnippet %}  
 
-If interactive authentication is required to confirm that the SSH server includes lines :  
+If interactive authentication is required to confirm that the SSH server includes lines:  
 
 KbdInteractiveAuthentication yes  
 ChallengeResponseAuthentication yes  

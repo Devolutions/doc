@@ -48,7 +48,7 @@ Copy/paste between a remote session and my local computer stopped working.
 
 This issue arises when a program called RDPClip becomes unstable. You can kill its process and launch a new instance.  
 
-1. On the affected system, load up task manager (right click in taskbar and select ***Task Manager*** ).
+1. On the affected system, load up task manager (right-click in taskbar and select ***Task Manager***).
 1. Go to the ***Processes*** tab.
 1. Select rdpclip.exe.
 1. Click ***End Process***

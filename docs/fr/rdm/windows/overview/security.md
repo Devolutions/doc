@@ -3,7 +3,7 @@ title: Sécurité
 ---
 Tous les mots de passe sauvegardés dans les sources de données de l'application sont chiffrés grâce à un puissant algorithme de chiffrement rendant le contenu illisible à un utilisateur qui tenterait d'accéder aux données directement dans la base de données.  
 
-Si vous choisissez de stocker les mots de passe localement, {{ fr.RDM }} utilisera le même mécanisme que mstsc.exe (client {{ fr.RDM }} ) qui stocke les mots de passe dans le gestionnaire d'informations d'identification Windows. Notez que le mot de passe ne sera pas visible en raison du chiffrement effectué par Windows. Pour des raisons évidentes, ce choix de stockage signifie que les identifiants ne seront pas partagés.  
+Si vous choisissez de stocker les mots de passe localement, {{ fr.RDM }} utilisera le même mécanisme que mstsc.exe (client {{ fr.RDM }}) qui stocke les mots de passe dans le gestionnaire d'informations d'identification Windows. Notez que le mot de passe ne sera pas visible en raison du chiffrement effectué par Windows. Pour des raisons évidentes, ce choix de stockage signifie que les identifiants ne seront pas partagés.  
 
 ## Chiffrement approuvé par le Gouvernement fédéral des États-Unis 
 

@@ -6,7 +6,7 @@ The ***Multi Vault Search*** feature of {{ en.RDM }} allows you to search for fo
 
 ### Criteria Types 
 
-The following criteria are available to refine your search: ***Connection type*** , ***Creation date*** , ***Description*** , ***Folder*** , ***Last update date*** and ***Name*** . 
+The following criteria are available to refine your search: ***Connection type***, ***Creation date***, ***Description***, ***Folder***, ***Last update date*** and ***Name***. 
 
 {% snippet icon.badgeInfo %} 
 At least one criterion must be used to filter your results, and a maximum of four criteria can be applied at once. 

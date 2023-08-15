@@ -1,7 +1,7 @@
 ---
 title: Add Website
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDMMAC }} through {{ en.DWL }} .  
+The ***Add Website*** button is only available while in the [***Matching***](/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDMMAC }} through {{ en.DWL }}.  
 
 When {{ en.RDMMAC }} is used as the data source, the entry configuration is done in the ***General*** tab.  
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2045.png) 
@@ -22,7 +22,7 @@ DESCRIPTION
 Name 
 		</td>
 		<td>
-Enter a name for your entry. This field is automatically filled in by {{ en.DWL }} , but can still be modified. 
+Enter a name for your entry. This field is automatically filled in by {{ en.DWL }}, but can still be modified. 
 		</td>
 	</tr>
 	<tr>
@@ -30,7 +30,7 @@ Enter a name for your entry. This field is automatically filled in by {{ en.DWL 
 URL 
 		</td>
 		<td>
-Enter the URL of the website’s login page. This field is automatically filled in by {{ en.DWL }} , but can still be modified. 
+Enter the URL of the website’s login page. This field is automatically filled in by {{ en.DWL }}, but can still be modified. 
 		</td>
 	</tr>
 	<tr>
@@ -101,7 +101,7 @@ Cancel the creation of a new website entry and clears all unsaved changes to set
 </table>
 
 {% snippet icon.badgeInfo %} 
-Follow our step-by-step guide on how to [add a website entry with {{ en.DWL }}](/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/) . 
+Follow our step-by-step guide on how to [add a website entry with {{ en.DWL }}](/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/). 
 {% endsnippet %}
  
 

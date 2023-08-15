@@ -7,10 +7,10 @@ La fonction de modification par lots modifie les paramètres de plusieurs entré
 
 ## Sélection avancée 
 
-Sélectionner plusieurs entrées en utilisant le ***Ctrl/Shift + clic gauche*** habituel, etc. Pour une méthode avec un peu plus de puissance, utiliser la fonction de [Recherche avancée](Advanced_Search) , qui permet de sélectionner plusieurs entrées à la fois, en fonction des critères définis. La recherche avancée est disponible dans ***Affichage - Recherche avancée*** . Si nécessaire, vous pouvez obtenir un résultat similaire avec la ***Recherche avancée multi-coffres*** .  
+Sélectionner plusieurs entrées en utilisant le ***Ctrl/Shift + clic gauche*** habituel, etc. Pour une méthode avec un peu plus de puissance, utiliser la fonction de [Recherche avancée](Advanced_Search), qui permet de sélectionner plusieurs entrées à la fois, en fonction des critères définis. La recherche avancée est disponible dans ***Affichage - Recherche avancée***. Si nécessaire, vous pouvez obtenir un résultat similaire avec la ***Recherche avancée multi-coffres***.  
 ![Recherche avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10379.png) 
 
-Appuyer sur ***Sélectionner dans le {{ fr.NPANE }}*** pour sélectionner les mêmes entrées que dans la boîte de dialogue ***Recherche avancée*** . Utiliser ensuite ***Modifier - Modifier le lot*** pour modifier toutes les entrées sélectionnées. 
+Appuyer sur ***Sélectionner dans le {{ fr.NPANE }}*** pour sélectionner les mêmes entrées que dans la boîte de dialogue ***Recherche avancée***. Utiliser ensuite ***Modifier - Modifier le lot*** pour modifier toutes les entrées sélectionnées. 
 
 ## Paramètres 
 

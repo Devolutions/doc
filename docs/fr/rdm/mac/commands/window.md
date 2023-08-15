@@ -1,7 +1,7 @@
 ---
 title: Fenêtre
 ---
-Le menu ***Fenêtre*** vous permet de gérer l'affichage global de {{ fr.RDM }} . 
+Le menu ***Fenêtre*** vous permet de gérer l'affichage global de {{ fr.RDM }}. 
 
 ## Paramètres 
 

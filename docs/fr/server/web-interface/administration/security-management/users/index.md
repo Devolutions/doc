@@ -2,7 +2,7 @@
 title: Utilisateurs
 order: 10
 ---
-***Utilisateurs*** est l'endroit où vous pouvez créer, importer et gérer des utilisateurs. Pour accéder à la gestion des utilisateurs, naviguer dans le menu ***Administration – Utilisateurs*** . Cliquer sur un utilisateur pour configurer des paramètres et des autorisations spécifiques. 
+***Utilisateurs*** est l'endroit où vous pouvez créer, importer et gérer des utilisateurs. Pour accéder à la gestion des utilisateurs, naviguer dans le menu ***Administration – Utilisateurs***. Cliquer sur un utilisateur pour configurer des paramètres et des autorisations spécifiques. 
 
 ## Paramètres 
 ![Administration - Utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/clip10340.png) 

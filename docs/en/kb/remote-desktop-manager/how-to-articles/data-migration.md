@@ -47,8 +47,8 @@ Ensure that you do not forget the ***Master Key*** as you will not be able to de
 <a name="import"></a>
 
 1. Validate that your new data source is created and selected in the ***{{ en.NPANE }}***.
-1. Select ***File – Import – Import (.rdm )***.  
-![File – Import – Import (.rdm )](https://webdevolutions.azureedge.net/docs/en/kb/KB4542.png)
+1. Select ***File – Import – Import (.rdm)***.  
+![File – Import – Import (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4542.png)
 1. Find your previously saved file on your computer, select it, then click ***Open***.
 1. In ***Import Entries***, select if you wish to ***Import in root***, ***Import in current folder***, or ***Import in specific folder***.  
 ![Import Entries](https://webdevolutions.azureedge.net/docs/en/kb/KB4543.png)  

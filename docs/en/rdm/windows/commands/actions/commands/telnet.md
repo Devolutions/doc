@@ -68,7 +68,7 @@ DESCRIPTION
 Ansi Recording 
 		</td>
 		<td>
-Will record all of the activity in the SSH session using the Ansi format. This can be replayed like a video using Tools – Tools – Terminal playback (Ansi) . 
+Will record all of the activity in the SSH session using the Ansi format. This can be replayed like a video using Tools – Tools – Terminal playback (Ansi). 
 		</td>
 	</tr>
 	<tr>

@@ -7,7 +7,7 @@ You can create a Microsoft L2TP VPN entry with {{ en.RDM }} versions 2021.1.1.0 
 1. In the ***General - Connection*** section, use the drop down menu next to the ***VPN type***, and select ***L2TP*** instead of ***Automatic***.
 1. Enter your ***Pre-shared key*** provided from Microsoft.  
 ![!!KB4703.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4703.png)
-1. Fill in the information for the ***Username*** , ***Domain*** and ***Password***
+1. Fill in the information for the ***Username***, ***Domain*** and ***Password***
 1. Optional: The ***Auth method*** can be different for each user (it is by default set to ***PAP***), depending on your Microsoft VPN configuration. Use the drop down menu to change it.  
    ![!!KB4704.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4704.png)
    | Option | Description |

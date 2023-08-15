@@ -3,25 +3,25 @@ title: Mode réservation
 ---
 Le ***Mode réservation*** verrouille une entrée pendant qu'elle est utilisée ou modifiée. Il empêche les utilisateurs d'utiliser ou de modifier une entrée en même temps.  
 
-Le ***Mode réservation*** peut être activé pour des entrées de type ***Sessions*** , ***Documents*** , ***Identifiants*** et d' ***Informations*** .  
+Le ***Mode réservation*** peut être activé pour des entrées de type ***Sessions***, ***Documents***, ***Identifiants*** et d'***Informations***.  
 
 Vous pouvez définir le ***Mode réservation*** au niveau du coffre, du dossier ou de l'entrée. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité est seulement disponible avec une source de données telles que Microsoft SQL Server ou {{ fr.DVLS }} . 
+Cette fonctionnalité est seulement disponible avec une source de données telles que Microsoft SQL Server ou {{ fr.DVLS }}. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Les administrateurs peuvent définir la ***Restitution automatique après*** un certain nombre de minutes dans ***Administration - Paramètres du système - Coffre*** . 
+Les administrateurs peuvent définir la ***Restitution automatique après*** un certain nombre de minutes dans ***Administration - Paramètres du système - Coffre***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Les administrateurs peuvent forcer la restitution des entrées qui sont réservées par d'autres utilisateurs. Cliquer avec le bouton droit sur l'entrée à restituer, cliquer sur ***Restitution*** . 
+Les administrateurs peuvent forcer la restitution des entrées qui sont réservées par d'autres utilisateurs. Cliquer avec le bouton droit sur l'entrée à restituer, cliquer sur ***Restitution***. 
 {% endsnippet %}
  
 ### Les paramètres de sécurité 
 
-Pour accéder au ***Mode réservation*** , modifier une entrée qui prend en charge la réservation et accéder à la section ***Paramètres de sécurité*** .  
+Pour accéder au ***Mode réservation***, modifier une entrée qui prend en charge la réservation et accéder à la section ***Paramètres de sécurité***.  
 ![!!RdmWin4052.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4052.png) 
 
 ### Réservation 

@@ -1,7 +1,7 @@
 ---
 title: Importer des connexions
 ---
-Vous pouvez accéder à ***Fichier – Importer – Connexions*** pour importer différentes connexions ou identifiants d'autres logiciels dans {{ fr.RDM }} . 
+Vous pouvez accéder à ***Fichier – Importer – Connexions*** pour importer différentes connexions ou identifiants d'autres logiciels dans {{ fr.RDM }}. 
 
 {% snippet icon.badgeInfo %} 
 La fonction d'importation n'est active que si le ***Privilège*** d'importation a été activé dans le compte d'utilisateur. 

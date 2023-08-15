@@ -25,5 +25,5 @@ An information entry can contain various items like account information, emails 
 
 ### Session 
 
-In the early days of {{ en.RDM }} , it was mainly aimed at managing Microsoft Remote Desktop. A session was a term that was in use back then to describe a connection to Microsoft Remote Desktop Services. It appears widely in our documentation. Any technology that connects and that needs to use authentication is a session. 
+In the early days of {{ en.RDM }}, it was mainly aimed at managing Microsoft Remote Desktop. A session was a term that was in use back then to describe a connection to Microsoft Remote Desktop Services. It appears widely in our documentation. Any technology that connects and that needs to use authentication is a session. 
 

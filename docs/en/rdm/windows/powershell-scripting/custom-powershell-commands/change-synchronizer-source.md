@@ -5,7 +5,7 @@ If you have been using the {{ en.RDM }} version with the Synchronizer ***Action 
 
 ## Settings 
 
-1. Select your Synchronizer entry in your Tree view, right click and select ***Properties*** . 
+1. Select your Synchronizer entry in your Tree view, right click and select ***Properties***. 
 1. Copy the ***Entry ID*** in the ***Entry Information*** menu (you will then need that ID number to insert in your Powershell Command).  
 ![Advanced - Session ID](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10577.png) 
 1. Select your entries and reach the Custom PowerShell Command dialog as described in [Custom PowerShell Commands](/rdm/windows/powershell-scripting/custom-powershell-commands/) 

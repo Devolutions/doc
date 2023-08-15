@@ -5,7 +5,7 @@ La section ***Outils*** regorge de ressources pour {{ fr.HUBB }}. Télécharger,
 ![!!Hub4042.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4042.png) 
 
 * Télécharger les [***{{ fr.CTOOLS }}***](/fr/hub/web-interface/hub-overview/administration/management/users/companion-tools-access/), ce sont des applications complémentaires qui fonctionnent main dans la main avec nos produits.  
-    * [***{{ fr.DWL }}***](/fr/hub/dwl/overview/) est une extension de navigateur gratuite qui permet aux utilisateurs d 'injecter en toute sécurité des identifiants, contenus dans leur coffre, dans des sites Web.  
+    * [***{{ fr.DWL }}***](/fr/hub/dwl/overview/) est une extension de navigateur gratuite qui permet aux utilisateurs d'injecter en toute sécurité des identifiants, contenus dans leur coffre, dans des sites Web.  
     * Avec ***{{ fr.DLAUNCHER }}***, tous les utilisateurs peuvent ouvrir des sessions à distance sécurisées.  
     * ***{{ fr.DWS }}*** offre aux utilisateurs une sécurité accrue en implémentant l'authentification à 2 facteurs.  
     * Importer vos entrées et données avec [***{{ fr.HUBI }}***](/fr/hub/web-interface/hub-overview/tools/hub-importer/).  

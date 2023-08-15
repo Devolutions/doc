@@ -7,7 +7,7 @@ The ***Search*** function in the ***Panels*** section of the ***View*** tab allo
 When using the ***Search*** function, a tree view is also displayed, showing exactly where the results of your search are located in the database. Filter options are also available when clicking on the ellipsis button. Learn more about them in our [Search/Filter](/rdm/windows/user-interface/status-bar/search-filter/) topic.  
 ![Filter Dialog Window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2004.png) 
 
-It is also possible to do a ***Quick Search*** , which allows you to search through the database without displaying the tree view. The results are therefore more concise. 
+It is also possible to do a ***Quick Search***, which allows you to search through the database without displaying the tree view. The results are therefore more concise. 
 
 {% snippet icon.badgeNotice %} 
 Pro tip: Use the following shortcuts while selecting an entry for an even quicker search  

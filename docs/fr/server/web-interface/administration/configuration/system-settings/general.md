@@ -47,7 +47,7 @@ Restitution automatique d'une session réservée après le temps définit.
 Ajouter un mode d'entrée 
 		</td>
 		<td>
-Sélectionner si les utilisateurs sont invités à choisir un modèle lors de la création d'une nouvelle entrée. Choisir entre:  
+Sélectionner si les utilisateurs sont invités à choisir un modèle lors de la création d'une nouvelle entrée. Choisir entre :  
 
 * ***Par défaut*** 
 * ***Liste des modèles (incluant les vides)*** 
@@ -145,7 +145,7 @@ Description
 Autoriser un {{ fr.UVLT }} 
 		</td>
 		<td>
-Autoriser les usagers à utiliser [Mon {{ fr.UVLT }}](/fr/server/web-interface/user-vault/) . 
+Autoriser les usagers à utiliser [Mon {{ fr.UVLT }}](/fr/server/web-interface/user-vault/). 
 		</td>
 	</tr>
 	<tr>
@@ -158,10 +158,10 @@ Inclure les journaux du {{ fr.UVLT }} pour tous les usagers de la source de donn
 	</tr>
 	<tr>
 		<td>
-Permettre les identifiants "Liés (coffre)" dans le {{ fr.UVLT }} 
+Permettre les identifiants « Liés (coffre) » dans le {{ fr.UVLT }} 
 		</td>
 		<td>
-Autoriser le référentiel d'identifiants pour les sessions dans le {{ fr.UVLT }} . 
+Autoriser le référentiel d'identifiants pour les sessions dans le {{ fr.UVLT }}. 
 		</td>
 	</tr>
 </table>
@@ -191,7 +191,7 @@ Créer un coffre avec un accès restreint par défaut.
 Sécurité de la source de données 
 		</td>
 		<td>
-Utiliser l'ancienne sécurité. Cette option existe à des fins de rétro-compatibilité et nous suggérons de ne pas activer cette option. Nous recommendons fortement d'utiliser le [système de sécurité basé sur les groupes d'utilisateurs](/fr/server/web-interface/administration/configuration/system-permissions/) . 
+Utiliser l'ancienne sécurité. Cette option existe à des fins de rétro-compatibilité et nous suggérons de ne pas activer cette option. Nous recommendons fortement d'utiliser le [système de sécurité basé sur les groupes d'utilisateurs](/fr/server/web-interface/administration/configuration/system-permissions/). 
 		</td>
 	</tr>
 	<tr>
@@ -212,12 +212,12 @@ Période d'utilisation (Entrées)
 		</td>
 		<td>
 * ***Zone de temps*** : Sélectionner le fuseau horaire dans lequel vous vous trouvez actuellement.  
-* ***Jours*** : Sélectionner les jours pour lesquels la session est disponible. Choisir entre:  
+* ***Jours*** : Sélectionner les jours pour lesquels la session est disponible. Choisir entre :  
 	***N'importe quel jour*** : La session peut être utilisée n'importe quel jour de la semaine ou de fin de semaine.  
 	***Jours de semaine*** : La session peut être utilisée seulement les jours de la semaine.  
 	***Jours de fin de semaine*** : La session peut être utilisée seulement la fin de semaine.  
 	***Personnalisé*** : Sélectionner manuellement chaque jour pour lequel la session est disponible.  
-* ***Heure du jour*** : Sélectionner les heures auxquelles la session est limitée. Choisir entre:  
+* ***Heure du jour*** : Sélectionner les heures auxquelles la session est limitée. Choisir entre :  
 	***N'importe quand*** : La session peut être utilisée à toute heure.  
 	***Personnalisé*** : Sélectionner manuellement la période pendant laquelle la session est disponible.  
 		</td>

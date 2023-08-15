@@ -1,7 +1,7 @@
 ---
 title: Sessions
 ---
-Dans la fenêtre ***Sessions*** , vous pouvez visualiser et valider toutes les sessions ouvertes en cours associées à votre {{ fr.DA }} .  
+Dans la fenêtre ***Sessions***, vous pouvez visualiser et valider toutes les sessions ouvertes en cours associées à votre {{ fr.DA }}.  
 
 Le ***Niveau d'Assurance d'Authentification*** (AAL) dépendra du nombre et du type de facteurs d'authentification activés sur l'appareil.  
 

@@ -10,5 +10,5 @@ Tous les plans d'abonnement de {{ fr.DVLS }} offrent une maintenance du logiciel
 
 Vous devez renouveler votre contrat d'abonnement à l'expiration. Si vous ne renouvelez pas votre abonnement, l'accès à vos données sera limité à lecture seulement.  
 
-Cela dit, vous pourrez exporter vos données si vous choisissez de migrer vers un autre type de source de données que {{ fr.DVLS }} .  
+Cela dit, vous pourrez exporter vos données si vous choisissez de migrer vers un autre type de source de données que {{ fr.DVLS }}.  
 

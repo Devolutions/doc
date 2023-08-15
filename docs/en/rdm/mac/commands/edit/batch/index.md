@@ -16,10 +16,10 @@ You could also change:
 
 ## Advanced Search 
 
-You can select multiple entries by using Command and mouse click. For a method with a little more power, use our [Advanced Search](/rdm/mac/commands/view/advanced-search/) dialog, accessible from View - Advanced Search . The Advanced Search allows you to select multiple criteria at once.  
+You can select multiple entries by using Command and mouse click. For a method with a little more power, use our [Advanced Search](/rdm/mac/commands/view/advanced-search/) dialog, accessible from ***View - Advanced Search***. The Advanced Search allows you to select multiple criteria at once.  
 ![Advanced Search](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10605.png) 
 
-After you've tweaked your criteria to get the results you want, press on Select in ***{{ en.NPANE }}*** and then Action - Batch Edit . 
+After you've tweaked your criteria to get the results you want, press on Select in ***{{ en.NPANE }}*** and then ***Action - Batch Edit***. 
 
 ## Settings 
 
@@ -81,7 +81,7 @@ Use {{ en.UVLT }} search
 		</td>
 		<td>
 
-Use credentials stored in your [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) . 
+Use credentials stored in your [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/). 
 		</td>
 	</tr>
 	<tr>

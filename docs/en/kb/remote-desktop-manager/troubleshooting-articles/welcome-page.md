@@ -12,5 +12,5 @@ Or go in ***File - Options - User Interface*** and uncheck ***Show Welcome page 
 ### Custom welcome page
 It is possible to display your own welcome page at startup.  
 
-Under ***Administration*** in the ribbon, choose ***Data Source Settings (System Settings)*** Then, in ***Applications*** , under the ***Welcome Page*** section, enter the URL that points to your custom welcome page.  
+Under ***Administration*** in the ribbon, choose ***Data Source Settings (System Settings)*** Then, in ***Applications***, under the ***Welcome Page*** section, enter the URL that points to your custom welcome page.  
 ![!!KB4111.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4111.png)

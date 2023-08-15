@@ -35,7 +35,7 @@ Viele Kunden fragen oft, wie sie ihren Server verschiedenen Topologien richtig a
 
 Für eine möglichst genaue Schätzung müssen folgende Aspekte berücksichtigt werden:  
 
-* Die Anzahl der in Ihrer Instanz gespeicherten Einträge (Serverdetails, Anmeldeinformationen usw.) .  
+* Die Anzahl der in Ihrer Instanz gespeicherten Einträge (Serverdetails, Anmeldeinformationen usw.).  
 * Die Fluktuation dieser Einträge; erstellen Sie täglich Einträge oder bleiben diese eher unverändert?  
 * Die Anzahl der gleichzeitigen Nutzer, die in Spitzenzeiten auf die Instanz von {{ de.DVLS }} zugreifen.  
 * Die Nutzung der Informationen durch die Nutzer. Starten sie 10 Sitzungen gleichzeitig, führen sie eine Stapelverarbeitung aus, die einige Minuten beansprucht und wiederholen dann den Vorgang, oder öffnen sie nur einige wenige Sitzungen, arbeiten aber den ganzen Tag lang darin? Dies führt zu Schreibvorgängen in unseren Protokollen. Daher ist der erstgenannte Fall aufwändiger als der letztgenannte.  

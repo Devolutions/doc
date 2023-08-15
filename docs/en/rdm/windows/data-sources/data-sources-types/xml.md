@@ -96,9 +96,9 @@ Backup
 
 Select between:  
 
-* None : No backup of your data source will be created. 
-* File backup : Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
-* {{ en.OBACK }} : An {{ en.OBACK }} (using [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) ) will automatically be created. 
+* None: No backup of your data source will be created. 
+* File backup: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
+* {{ en.OBACK }}: An {{ en.OBACK }} (using [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/)) will automatically be created. 
 		</td>
 	</tr>
 	<tr>
@@ -113,7 +113,7 @@ Specify the backup name that will allow you to automatically save your sessions 
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your XML .  
+Open a VPN to access your data prior to connecting to your XML.  
 ![XML - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/XMLVPN.png) 
 
 ### Advanced 

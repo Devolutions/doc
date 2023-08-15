@@ -2,7 +2,7 @@
 title: Keyboard Shortcuts
 ---
 
-Here is the list of keyboard shortcuts available for {{ en.DWL }} :  
+Here is the list of keyboard shortcuts available for {{ en.DWL }}:  
 
 ### Ctrl+Shift+Z
 

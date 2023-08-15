@@ -17,7 +17,7 @@ DESCRIPTION
 Disponibilité de type 
 		</td>
 		<td>
-Les entrées exclues ne seront pas dans la fenêtre ***Ajouter une nouvelle entrée*** . 
+Les entrées exclues ne seront pas dans la fenêtre ***Ajouter une nouvelle entrée***. 
 		</td>
 	</tr>
 </table>

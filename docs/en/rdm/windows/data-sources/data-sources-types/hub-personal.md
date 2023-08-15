@@ -41,7 +41,7 @@ Your [{{ en.DA }}](https://portal.devolutions.com/) email address. You can creat
 
 ### VPN 
 
-Open a ***VPN*** to access your data prior to connecting to your {{ en.DHUB }} .  
+Open a ***VPN*** to access your data prior to connecting to your {{ en.DHUB }}.  
 ![!!RdmWin4041.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4041.png) 
 
 ### Advanced 

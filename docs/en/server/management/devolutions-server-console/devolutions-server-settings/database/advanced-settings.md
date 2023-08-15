@@ -68,7 +68,7 @@ Controls the number of reconnection attempts after the client identifies an idle
 Connection retry interval 
 		</td>
 		<td>
-Specifies the time between each connection retry attempt (ConnectRetryCount). Valid values are 1 to 60 seconds ( the default is 10), applied after the first reconnection attempt. When a broken connection is detected, the client immediately attempts to reconnect; this is the first reconnection attempt and only occurs if ConnectRetryCount is greater than 0. If the first reconnection attempt fails and ConnectRetryCount is greater than 1, the client waits ConnectRetryInterval to try the second and subsequent reconnection attempts. 
+Specifies the time between each connection retry attempt (ConnectRetryCount). Valid values are 1 to 60 seconds (the default is 10), applied after the first reconnection attempt. When a broken connection is detected, the client immediately attempts to reconnect; this is the first reconnection attempt and only occurs if ConnectRetryCount is greater than 0. If the first reconnection attempt fails and ConnectRetryCount is greater than 1, the client waits ConnectRetryInterval to try the second and subsequent reconnection attempts. 
 		</td>
 	</tr>
 	<tr>

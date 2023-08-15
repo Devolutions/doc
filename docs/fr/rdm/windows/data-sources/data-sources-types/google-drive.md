@@ -102,6 +102,6 @@ Indique le nom de fichier utilisé pour stocker les données sur la source de do
 
 ### VPN 
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à Google Drive .  
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à Google Drive.  
 ![Google Drive - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/GoogleDriveVPN.png) 
 

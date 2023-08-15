@@ -1,7 +1,7 @@
 ---
 title: Raccourcis clavier
 ---
-Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Préférences – Interface utilisateur – Raccourcis*** .  
+Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Préférences – Interface utilisateur – Raccourcis***.  
 
 Le bouton ***Réinitialiser*** annule toute modification de personnalisation des raccourcis qui n'a pas encore été enregistrée. Le bouton ***Restaurer tout par défaut*** ramène tous les raccourcis à leurs valeurs par défaut.  
 
@@ -10,7 +10,7 @@ Les boutons ***Réinitialiser*** et ***Restaurer tout par défaut*** effacent vo
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Consultez notre rubrique sur la [personnalisation de vos raccourcis (EN)](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/) . 
+Consultez notre rubrique sur la [personnalisation de vos raccourcis (EN)](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/). 
 {% endsnippet %}
  
 ![Raccourcis clavier](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2009.png)

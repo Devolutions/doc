@@ -2,10 +2,10 @@
 title: Modifier le courriel d'un compte
 ---
 {% snippet icon.shieldWarning %} 
-Pour des raisons de sécurité, nous n'effectuons plus de changement de courriel de {{ fr.DA }} . 
+Pour des raisons de sécurité, nous n'effectuons plus de changement de courriel de {{ fr.DA }}. 
 {% endsnippet %}
  
-Pour modifier votre courriel de {{ fr.DA }} , vous devez [Créer un nouveau compte](/fr/cloud/devolutions-account/create-devolutions-account/) et transférer les données que vous souhaitez conserver. Voici une liste de certaines des données les plus courantes qui pourraient devoir être transférées :  
+Pour modifier votre courriel de {{ fr.DA }}, vous devez [Créer un nouveau compte](/fr/cloud/devolutions-account/create-devolutions-account/) et transférer les données que vous souhaitez conserver. Voici une liste de certaines des données les plus courantes qui pourraient devoir être transférées :  
 
 * [Clés de licence](/fr/cloud/portal/serials/) : Ajouter manuellement les clés de licence des produits Devolutions que vous avez achetés précédemment à votre nouveau compte.  
 * [Factures](/fr/cloud/portal/invoices/) : Si certaines factures doivent être associées au nouveau compte, contacter notre [service des ventes](mailto:sales@devolutions.net).  

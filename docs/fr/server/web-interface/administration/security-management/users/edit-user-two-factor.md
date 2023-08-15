@@ -5,7 +5,7 @@ Si vous définissez l'authentification à [deux facteurs](/fr/server/web-interfa
 
 ## Paramètres 
 
-1. Sélectionner ***2 facteurs*** dans la liste et changer le ***Type*** .  
+1. Sélectionner ***2 facteurs*** dans la liste et changer le ***Type***.  
 ![Modifier l'utilisateur - 2 facteurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp7003.png) 
 1. Choisir si vous souhaitez que l'utilisateur configure le 2 facteurs la prochaine fois qu'il se connectera ou compléter la configuration maintenant.  
 ![Modifier l'utilisateur - 2 facteurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp7004.png) 

@@ -141,7 +141,7 @@ Launch a session in the {{ en.DLAUNCHER }} {{ en.CTOOL }}.
 Open in {{ en.RDM }} 
 		</td>
 		<td>
-Launch a session in {{ en.RDM }} . 
+Launch a session in {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>

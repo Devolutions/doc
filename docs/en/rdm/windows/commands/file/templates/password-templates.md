@@ -55,7 +55,7 @@ Settings for syllables, numbers and symbols.
 Use a pattern 
 		</td>
 		<td>
-Set a pattern for the passwords using the [key](Tools_PasswordGenerator) . 
+Set a pattern for the passwords using the [key](Tools_PasswordGenerator). 
 		</td>
 	</tr>
 	<tr>
@@ -70,7 +70,7 @@ Settings for length, case, digits, and characters.
 
 6. Choose specific settings.  
 ![!!RdmWin7018.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin7018.png) 
-1. The password is now available in the ***Password Generator*** ( ***Tools*** menu). 
+1. The password is now available in the ***Password Generator*** (***Tools*** menu). 
 
 ### Use a Password Template with the Password Generator 
 

@@ -36,7 +36,7 @@ The ***Administration – Data Source Settings (System Settings) – Serial Numb
 
 The general tab of the ***Administration – Data Source Settings (System Settings)*** form allows you to easily control security aspects.  
 
-A great team feature here is the System Message , which allows an administrator to inform users of upcoming system downtime, policy change or anything else. Each user will get the message when they perform the next action (open, edit, refresh, …) of the data source. Use it to display company confidentially clauses or, if you wish, create chaos with a message like the one below. A little bit of chaos is good for the soul.  
+A great team feature here is the System Message, which allows an administrator to inform users of upcoming system downtime, policy change or anything else. Each user will get the message when they perform the next action (open, edit, refresh, …) of the data source. Use it to display company confidentially clauses or, if you wish, create chaos with a message like the one below. A little bit of chaos is good for the soul.  
 
 ![!!KB4599.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4599.png)
 

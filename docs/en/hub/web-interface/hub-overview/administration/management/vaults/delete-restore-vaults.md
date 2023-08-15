@@ -9,7 +9,7 @@ title: Delete and Restore Vaults
 
 ### Delete a Vault 
 
-1. Go to ***Administration – Vaults*** . 
+1. Go to ***Administration – Vaults***. 
 1. Click the ***Delete*** recycling bin icon next to the vault.  
 ![!!Hub4102.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4102.png) 
 1. Click ***Delete*** to confirm.  
@@ -17,8 +17,8 @@ title: Delete and Restore Vaults
 
 ### Restore a deleted vault 
 
-1. Go to ***Administration – Vaults*** . 
+1. Go to ***Administration – Vaults***. 
 1. Change the filter ***Type*** to ***All*** and the ***Status*** to ***Deleted*** to view the list of all the deleted vaults.  
 ![!!Hub4103.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4103.png) 
-1. Locate your vault and click ***Restore*** . 
+1. Locate your vault and click ***Restore***. 
 

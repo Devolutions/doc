@@ -41,7 +41,7 @@ L'adresse courriel de votre [{{ fr.DA }}](https://portal.devolutions.com/). Vous
 
 ### VPN 
 
-Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à votre {{ fr.DHUBP }} .  
+Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à votre {{ fr.DHUBP }}.  
 ![!!RDMMac4027.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4027.png) 
 
 ### Avancée 

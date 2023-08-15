@@ -12,7 +12,7 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 
 ## Configuring extensions by policy on Windows 10 for Chrome
 
-1. Open ***Group Policy Management*** ( ***Start - Run - GPMC.msc*** ).
+1. Open ***Group Policy Management*** (***Start - Run - GPMC.msc***).
 1. Right-click on the GPO list and select ***New***
 1. In the ***New GPO*** window, create your new object then click on ***OK***
 1. Right-click on your new GPO and select ***Edit***
@@ -26,7 +26,7 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 1. Write the JSON settings string in the ***Value data*** text field. See the <a href="#values">Values</a> section below for an example.
 1. Click on ***OK***  
 ![!!KB8106.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8106.png)
-1. In ***Group Policy Management*** , configure the GPO ***Links*** and ***Security Filtering*** according to your needs.
+1. In ***Group Policy Management***, configure the GPO ***Links*** and ***Security Filtering*** according to your needs.
 
 ## Example <a name="Example"></a>
 
@@ -147,8 +147,8 @@ Set when the GPO settings are used.
 Possible values:
 
 - OnInstall (default): Set the value the GPO settings when the extension is installed.
-- AlwaysOverride : Always override the value from the GPO settings when the extension is started.
-- AlwaysUseDefaultAndOverride : Use the default settings for all settings not in the GPO and override the values from the GPO when the extension is started.
+- AlwaysOverride: Always override the value from the GPO settings when the extension is started.
+- AlwaysUseDefaultAndOverride: Use the default settings for all settings not in the GPO and override the values from the GPO when the extension is started.
 
 ## Configuring {{ en.DWL }} extension to be automatically pinned on the Chrome toolbar
 

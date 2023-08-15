@@ -3,7 +3,7 @@ title: Administration
 ---
 Le ruban ***Administration*** n'est disponible que pour l'administrateur de la source de données, car il est principalement utilisé pour gérer les paramètres et les utilisateurs d'une source de données. Si les options sont grisées, contactez votre administrateur.  
 
-De plus, la plupart des fonctionnalités contenues dans le menu Administration nécessitent une [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) .  
+De plus, la plupart des fonctionnalités contenues dans le menu Administration nécessitent une [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).  
 ![Administration](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10692.png) 
 
 ### Gestion 
@@ -77,7 +77,7 @@ Ouvre la section [Rapports](/fr/rdm/windows/commands/administration/reports/) po
 Journaux d'administration 
 		</td>
 		<td>
-Ouvre les ***Journaux d'administration*** . 
+Ouvre les ***Journaux d'administration***. 
 		</td>
 	</tr>
 	<tr>
@@ -123,7 +123,7 @@ Il existe de nombreuses fonctionnalités ici, toutes destinées à vous aider à
 Permissions du système 
 		</td>
 		<td>
-Modifier les [Permissions du système](/fr/rdm/windows/commands/administration/settings/system-permissions/) . 
+Modifier les [Permissions du système](/fr/rdm/windows/commands/administration/settings/system-permissions/). 
 		</td>
 	</tr>
 	<tr>
@@ -153,7 +153,7 @@ DESCRIPTION
 Nettoyer l'historique d'entrées supprimées 
 		</td>
 		<td>
-Effectuer un nettoyage partiel ou complet avec [Nettoyer l'historique d'entrées supprimées](/fr/rdm/windows/commands/administration/clean-up/deleted-history/) . 
+Effectuer un nettoyage partiel ou complet avec [Nettoyer l'historique d'entrées supprimées](/fr/rdm/windows/commands/administration/clean-up/deleted-history/). 
 		</td>
 	</tr>
 	<tr>
@@ -161,7 +161,7 @@ Effectuer un nettoyage partiel ou complet avec [Nettoyer l'historique d'entrées
 Nettoyer l'historique d'entrées 
 		</td>
 		<td>
-Effectuer un nettoyage partiel ou complet des entrées avec [Nettoyer l'historique d'entrées](/fr/rdm/windows/commands/administration/clean-up/entries-history/) . 
+Effectuer un nettoyage partiel ou complet des entrées avec [Nettoyer l'historique d'entrées](/fr/rdm/windows/commands/administration/clean-up/entries-history/). 
 		</td>
 	</tr>
 	<tr>
@@ -169,7 +169,7 @@ Effectuer un nettoyage partiel ou complet des entrées avec [Nettoyer l'historiq
 Nettoyer les journaux d'activité 
 		</td>
 		<td>
-Effectuer un nettoyage partiel ou complet avec [Nettoyer les journaux d'activité](/fr/rdm/windows/commands/administration/clean-up/logs/) . Si vous le souhaitez, vous avez également la possibilité de nettoyer les ***Journaux d'administration*** . 
+Effectuer un nettoyage partiel ou complet avec [Nettoyer les journaux d'activité](/fr/rdm/windows/commands/administration/clean-up/logs/). Si vous le souhaitez, vous avez également la possibilité de nettoyer les ***Journaux d'administration***. 
 		</td>
 	</tr>
 	<tr>

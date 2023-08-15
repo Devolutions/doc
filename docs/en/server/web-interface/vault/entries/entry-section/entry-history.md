@@ -14,6 +14,6 @@ The ***Compare Session Modifications*** window shows the changes between the sel
 To delete an entry, press the ***Delete*** button. 
 ![Delete Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0001.png) 
 ### Exporting 
-To save the ***Entry History*** , click ***Export*** . A .csv file will be downloaded. 
+To save the ***Entry History***, click ***Export***. A .csv file will be downloaded. 
 ![Export Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0002.png) 
 

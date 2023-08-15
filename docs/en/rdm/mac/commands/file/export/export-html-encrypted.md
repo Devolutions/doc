@@ -9,7 +9,7 @@ With a secure encrypted document you can freely send the information via email o
  
 ## Settings 
 
-Select the entries to export or export all entries. Right-click and select Export - Export Special - Export All Entries (.html) or use File - Export - Export All Entries (.html) . You will be prompted for a password for the symmetric encryption key. Select the file name for the new document. Once the export is completed the file will open in your default browser. 
+Select the entries to export or export all entries. Right-click and select Export - Export Special - Export All Entries (.html) or use File - Export - Export All Entries (.html). You will be prompted for a password for the symmetric encryption key. Select the file name for the new document. Once the export is completed the file will open in your default browser. 
 
 {% snippet icon.badgeWarning %} 
 Ensure you do not forget the password as you will not be able to decrypt the data without it. 

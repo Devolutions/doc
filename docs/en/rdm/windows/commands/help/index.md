@@ -136,7 +136,7 @@ Validate if a {{ en.RDM }} update is available.
 About 
 		</td>
 		<td>
-Learn about {{ en.RDM }} . 
+Learn about {{ en.RDM }}. 
 		</td>
 	</tr>
 </table>

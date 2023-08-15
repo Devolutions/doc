@@ -2,7 +2,7 @@
 title: Authentication
 order: 10
 ---
-The Authentication section allows the administrator to select which authentication types will be used to connect on {{ en.DVLS }} .  
+The Authentication section allows the administrator to select which authentication types will be used to connect on {{ en.DVLS }}.  
 
 ![Adminsitration – Server Settings – Authentication](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8100.png)
 

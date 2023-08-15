@@ -20,6 +20,6 @@ For an overview of the Devolutions Privileged Access Management, please watch th
 {% youtube 'zxdZHAqv-rw' %}  
 
 ## Privileged Access Page
-The Privileged Access page provides a quick overview of the current PAM Vault Accounts , current Check-outs and the Recent Activities . 
+The Privileged Access page provides a quick overview of the current PAM Vault Accounts, current Check-outs and the Recent Activities. 
 
 ![Privileged Access Management Dashboard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8138.png)

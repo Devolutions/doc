@@ -2,7 +2,7 @@
 title: Général
 order: 10
 ---
-La section ***Général*** permet à l'administrateur de modifier le nom ou la description de l'instance {{ fr.DVLS }} .  
+La section ***Général*** permet à l'administrateur de modifier le nom ou la description de l'instance {{ fr.DVLS }}.  
 ![Adminsitration - Paramètres de {{ fr.DVLS }} - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8041.png) 
 
 ## Paramètres 
@@ -24,7 +24,7 @@ Description
 Nom 
 		</td>
 		<td>
-Entrer le nom de votre serveur, il sera affiché dans la zone ***Contenu*** . 
+Entrer le nom de votre serveur, il sera affiché dans la zone ***Contenu***. 
 		</td>
 	</tr>
 	<tr>

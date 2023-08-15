@@ -3,12 +3,12 @@ eleventyComputed:
   title: Retrieve Credentials with {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-You need website entries in {{ en.RDM }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/) . 
+You need website entries in {{ en.RDM }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/). 
 {% endsnippet %}
  
 {{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.RDMMAC }} website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
 
-After the [installation](/rdm/mac/dwl/installation/) of {{ en.DWL }} and its [pairing](/rdm/mac/dwl/first-login-devolutions-web-login/) with {{ en.RDMMAC }}, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials) .  
+After the [installation](/rdm/mac/dwl/installation/) of {{ en.DWL }} and its [pairing](/rdm/mac/dwl/first-login-devolutions-web-login/) with {{ en.RDMMAC }}, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials).  
 
 ## Settings 
 
@@ -43,10 +43,10 @@ You can now continue to the [next section](#retrieving-credentials) to learn how
 ## Retrieving Credentials 
 
 {% snippet icon.badgeInfo %} 
-This section is based on the {{ en.DWL }} configuration steps from the [previous section](#settings) . We highly recommend that you follow them before going forward, as some features may differ between your experience and what is shown below. 
+This section is based on the {{ en.DWL }} configuration steps from the [previous section](#settings). We highly recommend that you follow them before going forward, as some features may differ between your experience and what is shown below. 
 {% endsnippet %}
  
-Credentials can be retrieved from {{ en.RDM }} automatically or manually via {{ en.DWL }} . Follow the steps from the section that best suits your needs:  
+Credentials can be retrieved from {{ en.RDM }} automatically or manually via {{ en.DWL }}. Follow the steps from the section that best suits your needs:  
 
 * [Automatically retrieving credentials](#automatically-retrieving-credentials) 
 * [Manually retrieving credentials](#manually-retrieving-credentials) 

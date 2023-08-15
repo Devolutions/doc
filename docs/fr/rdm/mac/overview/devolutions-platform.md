@@ -32,7 +32,7 @@ Windows, {{ fr.MAC }}, Linux, iOS, Android
 [{{ fr.RDMA }}](/fr/rdm/windows/overview/the-devolutions-platform/rdm-agent/) 
 		</td>
 		<td>
-{{ fr.RDMA }} peut exécuter des commandes sur des hôtes à distances, et même envoyer des commandes à plusieurs hôtes en même temps. Puisque {{ fr.RDM }} utilise un canal de communication sécurisé RDP pour communiquer avec l' {{ fr.RDMA }} , il peut seulement fonctionner avec des hôtes Windows. 
+{{ fr.RDMA }} peut exécuter des commandes sur des hôtes à distances, et même envoyer des commandes à plusieurs hôtes en même temps. Puisque {{ fr.RDM }} utilise un canal de communication sécurisé RDP pour communiquer avec l'{{ fr.RDMA }}, il peut seulement fonctionner avec des hôtes Windows. 
 		</td>
 		<td>
 Windows 
@@ -76,7 +76,7 @@ Windows, {{ fr.MAC }}
 [{{ fr.DWL }} (DWL)](/fr/rdm/mac/dwl/overview/) 
 		</td>
 		<td>
-{{ fr.DWL }} est un module d'extension de navigateur gratuit à utiliser avec {{ fr.RDM }} , {{ fr.DVLS }} ou {{ fr.DHUB }} . Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
+{{ fr.DWL }} est un module d'extension de navigateur gratuit à utiliser avec {{ fr.RDM }}, {{ fr.DVLS }} ou {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
 		</td>
 		<td>
 Windows, {{ fr.MAC }} 

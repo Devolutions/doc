@@ -42,7 +42,7 @@ Forcer les utilisateurs de la source de données à utiliser une version maximal
 	</tr>
 	<tr>
 		<td>
-Chemin d'installation du client / URL 
+Chemin d'installation du client/URL 
 		</td>
 		<td>
 Utilisé en conjonction avec la version minimale ou maximale. Une fois qu'une exigence de version minimale ou maximale n'est pas remplie, le système informera l'utilisateur que la version n'est plus valide et ouvrira le lien (chemin URL) pour télécharger la plus récente ou la plus ancienne version. 

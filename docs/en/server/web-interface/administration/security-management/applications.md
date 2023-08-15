@@ -21,7 +21,7 @@ Description
 Name 
 		</td>
 		<td>
-Display name of the Application key . 
+Display name of the Application key. 
 		</td>
 	</tr>
 	<tr>
@@ -37,7 +37,7 @@ Application key to be use in the application to communicate with {{ en.DVLS }} i
 Application Secret 
 		</td>
 		<td>
-Secret key to be use in combination with the Application key . Available only on Application key creation. 
+Secret key to be use in combination with the Application key. Available only on Application key creation. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Secret key to be use in combination with the Application key . Available only on
 Enabled 
 		</td>
 		<td>
-Activate the Application key . 
+Activate the Application key. 
 		</td>
 	</tr>
 	<tr>
@@ -57,5 +57,3 @@ Allow the Application key to save session's recordings.
 		</td>
 	</tr>
 </table>
-
-

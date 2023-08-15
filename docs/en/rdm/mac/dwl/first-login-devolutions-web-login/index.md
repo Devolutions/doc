@@ -14,7 +14,7 @@ Follow these steps to connect {{ en.RDM }} to the {{ en.DWL }} extension. You wi
 ![First Login](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl4056.png) 
 1. Enter a name for this association in the text box. 
 {% snippet icon.badgeNotice %} 
-This name can be used to identify a particular association and to deny access to it from {{ en.RDM }} . The default name is the name of the web browser running {{ en.DWL }} . 
+This name can be used to identify a particular association and to deny access to it from {{ en.RDM }}. The default name is the name of the web browser running {{ en.DWL }}. 
 {% endsnippet %}
  
 ![Association with {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl4057.png) 

@@ -12,11 +12,11 @@ L’utilisation de ces paramètres n’est conseillée que pour les environnemen
 {% endsnippet %}
  
 {% snippet icon.badgeHelp %} 
-Ces valeurs proviennent de la documentation de Microsoft concernant la norme [FIPS 140-2 annexe A](https://docs.microsoft.com/fr-ca/cpp/linux/set-up-fips-compliant-secure-remote-linux-development?view=msvc-160) . 
+Ces valeurs proviennent de la documentation de Microsoft concernant la norme [FIPS 140-2 annexe A](https://docs.microsoft.com/fr-ca/cpp/linux/set-up-fips-compliant-secure-remote-linux-development?view=msvc-160). 
 {% endsnippet %}
  
 ### Paramètres 
-1. Dans {{ fr.RDM }} , aller dans ***Fichier - Options - Types - Terminal - Prise en charge des algorithmes***. 
+1. Dans {{ fr.RDM }}, aller dans ***Fichier - Options - Types - Terminal - Prise en charge des algorithmes***. 
 1. Dans l'onglet ***Chiffrement***, décocher : 
 * Chacha20 Poly1305 (openssh<area><area>.com) 
 * Aes256 Gcm (openssh<area>.com) 

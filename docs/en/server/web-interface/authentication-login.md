@@ -1,7 +1,7 @@
 ---
 title: Authentication Login
 ---
-To connect to the {{ en.DVLS }} ***Web Interface*** , users will need to choose an authentication method. The authentication methods available for login will depend upon the administrator authentication type setup made in ***Administration - Server Settings - Authentication*** . 
+To connect to the {{ en.DVLS }} ***Web Interface***, users will need to choose an authentication method. The authentication methods available for login will depend upon the administrator authentication type setup made in ***Administration - Server Settings - Authentication***. 
 
 {% snippet icon.badgeHelp %} 
 Follow this [link](/server/web-interface/administration/configuration/server-settings/general/authentication/) to learn on how to set an authentication type. 
@@ -25,5 +25,5 @@ Click ***Choose your authentication method*** to go back to the list of authenti
 {% endsnippet %}
  
 ![!!ServerOp4022.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4022.png) 
-4. Click ***Sign In*** . 
+4. Click ***Sign In***. 
 

@@ -10,17 +10,17 @@ Also, let’s start with a caveat that the password-less part is in regards to C
 ### Overview
 A diagram is necessary to properly illustrate the solution.  
 ![!!KB4661.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4661.png)
-1. The user is authenticated to {{ en.RDM }} with a ***Least Privilege Account*** , this gives them a view into the {{ en.RDM }} content as per the permissions set in our User Groups Based Access Control.
+1. The user is authenticated to {{ en.RDM }} with a ***Least Privilege Account***, this gives them a view into the {{ en.RDM }} content as per the permissions set in our User Groups Based Access Control.
 1. When their ***Privileged Account*** is required to launch a supported technology, {{ en.RDM }} will obtain the appropriate Private Key from the workstation, it must be held in the certificate store for the user.
 1. The PK is used to authenticate against the CyberArk Vault. It’s configured as an ***Application*** object that is essentially a ***user proxy*** used to query the Vault.
-1. {{ en.RDM }} obtains the details of a ***Privileged Account*** , what is key is that the user does not know the password for their own privileged account.
+1. {{ en.RDM }} obtains the details of a ***Privileged Account***, what is key is that the user does not know the password for their own privileged account.
 1. {{ en.RDM }} uses the ***Privileged Account*** and launches either: a PSM Connection; connects to the PVWA; or even launches a session supported by {{ en.RDM }}, all the while still hiding the password from the user.
 ### CyberArk Application Access Manager (AAM) Configuration
 First, you must issue PKs for each of your users and deploy them to their workstations.  The source of truth for these matters is surely the CyberArk documentation, but we have included basic instructions in our integration guide. As for the {{ en.RDM }} side, again we support different methods of managing the PK:  
 
 1. PK information stored an entry which exists in the user’s user vault. This is surely the most simple as you have a one-to-one relationship between users/keys/accounts, but it has to be done by the users themselves.
-1. PK information stored in ***My accounts settings*** : This method allows the administrators to create the AAM entries within {{ en.RDM }}, while each user sets their own PK details in their own personal settings. Since the account lookup uses keywords specified in the AAM entry, it means that you have a few options still :
-    1. Handled in CyberArk : for each user there need to exist a single Privileged Account, accessible from the same keywords. The burden is on the administrator to isolate those in various safes and to ensure that everyone’s account has the same keywords.
+1. PK information stored in ***My accounts settings***: This method allows the administrators to create the AAM entries within {{ en.RDM }}, while each user sets their own PK details in their own personal settings. Since the account lookup uses keywords specified in the AAM entry, it means that you have a few options still:
+    1. Handled in CyberArk: for each user there need to exist a single Privileged Account, accessible from the same keywords. The burden is on the administrator to isolate those in various safes and to ensure that everyone’s account has the same keywords.
     1. Handled in {{ en.RDM }}: administrators need to create a unique AAM entry per user with the keywords to find their Privileged Account.  Our User Groups Base Access Control must be used to ensure that users can view and use only appropriate entries.  
 
 As always with {{ en.RDM }}, you can mix and match approaches depending on your own requirements.

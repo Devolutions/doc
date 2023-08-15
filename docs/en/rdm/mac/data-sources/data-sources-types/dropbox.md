@@ -27,7 +27,7 @@ The Dropbox integration uses the Dropbox SDK, so any features that are exclusive
 * Each Dropbox data source can use a different Dropbox account  
 
 {% snippet icon.badgeWarning %} 
-Although it can be shared between multiple locations, there is no conflict management for the configuration. If you share with other users you may get update conflicts and run into issues. This data source type is meant for a single user using multiple computers, not multiple users . 
+Although it can be shared between multiple locations, there is no conflict management for the configuration. If you share with other users you may get update conflicts and run into issues. This data source type is meant for a single user using multiple computers, not multiple users. 
 {% endsnippet %}
  
 ## Settings 
@@ -162,7 +162,7 @@ Manage Cache
 		</td>
 		<td>
 
-You can clear the output, analyse, repair or delete the cache of your Dropbox. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/) . 
+You can clear the output, analyse, repair or delete the cache of your Dropbox. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/). 
 		</td>
 	</tr>
 </table>

@@ -10,7 +10,7 @@ Ensure that you have read and understood the content of [{{ en.CIS }}](/rdm/wind
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-You can store and create up to six ***{{ en.CI }}*** configuration file packages in your {{ en.DA }} . 
+You can store and create up to six ***{{ en.CI }}*** configuration file packages in your {{ en.DA }}. 
 {% endsnippet %}
  
 ## Create an Installation Package 
@@ -41,7 +41,7 @@ From here, there are two ways of downloading the package: you can download it di
 
 ### Download With The {{ en.CIM }} 
 
-From the ***{{ en.CIM }}*** , click on ***Download MSI*** and save your file on your computer.  
+From the ***{{ en.CIM }}***, click on ***Download MSI*** and save your file on your computer.  
 ![{{ en.CIM }} – Download MSI](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11257.png) 
 
 ### Download From The {{ en.RDMOS }} 

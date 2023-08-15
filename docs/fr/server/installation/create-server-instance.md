@@ -4,19 +4,19 @@ eleventyComputed:
   order: 30
 ---
 {% snippet icon.badgeInfo %} 
-Si vous venez tout juste de recevoir vos clés de licence, veuillez d'abord consulter la section [Introduction](/fr/server/getting-started/) . 
+Si vous venez tout juste de recevoir vos clés de licence, veuillez d'abord consulter la section [Introduction](/fr/server/getting-started/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Pour plus d'informations à propos de chaque fonctionnalité dans l'assistant de déploiement, veuillez consulter les sections respectives dans le chapitre [Paramètres du serveur](/fr/server/management/devolutions-server-console/devolutions-server-settings/general/) . 
+Pour plus d'informations à propos de chaque fonctionnalité dans l'assistant de déploiement, veuillez consulter les sections respectives dans le chapitre [Paramètres du serveur](/fr/server/management/devolutions-server-console/devolutions-server-settings/general/). 
 {% endsnippet %}
  
 Plusieurs instances de {{ fr.DVLS }} peuvent être installées sur le même serveur. Chaque instance a sa propre application Web dans IIS. Les étapes suivantes requièrent l'utilisation de la ***{{ fr.DVLSCONSOLE }}***.  
 
 ## Procédure 
 
-1. Installer la ***{{ fr.DVLSCONSOLE }}***  sur le serveur Web. Elle est téléchargeable sur la [page de téléchargement](https://server.devolutions.net/fr/home/download) . 
-1. Exécuter la ***{{ fr.DVLSCONSOLE }}*** avec des privilèges élevés (Exécuter en tant qu'administrateur). Cliquer avec le bouton droit sur l'icône de l'application, puis sélectionner Exécuter en tant qu'administrateur . 
+1. Installer la ***{{ fr.DVLSCONSOLE }}***  sur le serveur Web. Elle est téléchargeable sur la [page de téléchargement](https://server.devolutions.net/fr/home/download). 
+1. Exécuter la ***{{ fr.DVLSCONSOLE }}*** avec des privilèges élevés (Exécuter en tant qu'administrateur). Cliquer avec le bouton droit sur l'icône de l'application, puis sélectionner Exécuter en tant qu'administrateur. 
 
 {% snippet icon.shieldWarning %} 
 Toutes les opérations effectuées via la ***{{ fr.DVLSCONSOLE }}***  seront faites avec l'identifiant qui a lancé la ***{{ fr.DVLSCONSOLE }}***. Si vous devez utiliser un autre identifiant pour lancer la ***{{ fr.DVLSCONSOLE }}***, vous devez quitter la session Windows et vous reconnecter avec l'identifiant en question. La commande RunAs n'offre pas la possibilité de démarrer une application en tant qu'administrateur. La commande Exécuter en tant qu'autre utilisateur fonctionne seulement si le compte utilisé est membre du groupe d'administrateurs local de la machine. 
@@ -41,7 +41,7 @@ Pour utiliser la Sécurité intégrée pour se connecter à la base de données,
 ![Assistant d'installation de {{ fr.DVLS }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8051.png) 
 1. Sous ***Source de l'installation***, choisir de télécharger la dernière version à partir du Web ou d'installer à partir d'un fichier zip local disponible depuis la [page de téléchargement](https://server.devolutions.net/fr/home/download).  
 ![Sélectionner un fichier d'installation](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4017.png) 
-1. Sous ***Général***, sélectionner le ***Site Web*** et le ***Nom de l'application web***. Sous ***Destination de l'installation***, choisir le dossier de destination ou l'instance sera situé. Le processus d'exécution des sites Web a reçu les autorisations appropriées sous c:\inetpub\wwwroot . Nous vous recommandons de créer un nouveau dossier en dessous et de créer l'instance {{ fr.DVLS }} dans ce dossier. Sous ***Pool d'applications***, choisir le ***Nom***.  
+1. Sous ***Général***, sélectionner le ***Site Web*** et le ***Nom de l'application web***. Sous ***Destination de l'installation***, choisir le dossier de destination ou l'instance sera situé. Le processus d'exécution des sites Web a reçu les autorisations appropriées sous **c:\inetpub\wwwroot**. Nous vous recommandons de créer un nouveau dossier en dessous et de créer l'instance {{ fr.DVLS }} dans ce dossier. Sous ***Pool d'applications***, choisir le ***Nom***.  
 
 {% snippet icon.badgeCaution %} 
 Nous vous déconseillons de définir le dossier d'installation sur C:\Program Files ou C:\Program Files (x86). {{ fr.DVLS }} est une application Web et cela peut entraîner un comportement indésirable et des problèmes, car IIS ne dispose pas des autorisations suffisantes pour exécuter les applications Web qui se trouvent sous ces dossiers. 
@@ -49,9 +49,9 @@ Nous vous déconseillons de définir le dossier d'installation sur C:\Program Fi
  
 ![Source et Destination de l'installation](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8053.png)  
 
-10. Sous ***Identifiants d'administration***, remplir les informations pour créer un compte administrateur {{ fr.DVLS }} . Tous les champs sont requis.  
+10. Sous ***Identifiants d'administration***, remplir les informations pour créer un compte administrateur {{ fr.DVLS }}. Tous les champs sont requis.  
 ![Créer un administrateur](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4018.png) 
-1. Sous ***Sauvegarde***, sélectionner le dossier de destination et le nom de fichier du fichier de clés de chiffrement {{ fr.DVLS }} . Et définir un mot de passe pour protéger ce fichier.  
+1. Sous ***Sauvegarde***, sélectionner le dossier de destination et le nom de fichier du fichier de clés de chiffrement {{ fr.DVLS }}. Et définir un mot de passe pour protéger ce fichier.  
 {% snippet icon.shieldNotice %} 
 Nous vous recommandons de protéger les clés de chiffrement dans un coffre pour éviter toute perte de données si {{ fr.DVLS }} doit être restauré. 
 {% endsnippet %}

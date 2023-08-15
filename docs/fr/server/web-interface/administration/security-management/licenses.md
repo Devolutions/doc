@@ -54,7 +54,7 @@ Description
 Filtre 
 		</td>
 		<td>
-Filtre la liste selon la colonne ***Nom*** ou ***Description*** . 
+Filtre la liste selon la colonne ***Nom*** ou ***Description***. 
 		</td>
 	</tr>
 	<tr>

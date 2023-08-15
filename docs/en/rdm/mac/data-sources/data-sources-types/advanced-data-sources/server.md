@@ -8,7 +8,7 @@ title: Devolutions Server
 ![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
-{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the product's web site [here](https://devolutions.net/server) . 
+{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the product's web site [here](https://devolutions.net/server). 
 		</td>
 	</tr>
 </table>
@@ -35,7 +35,7 @@ For more information, please consult these topics
 
 Enter a name of the data source and the URL for the server. Ensure you use the correct protocol if SSL is required by the server (https).  
 
-Alternatively, you can export the data source information and then import the file in your client workstations as described [Import/Export Data Source](/rdm/mac/data-sources/import-export/) .  
+Alternatively, you can export the data source information and then import the file in your client workstations as described [Import/Export Data Source](/rdm/mac/data-sources/import-export/).  
 
 ## Settings 
 

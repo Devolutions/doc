@@ -17,7 +17,7 @@ Once the request is sent, the selected Approver will have the request in the ***
 The approver gets the following pop-up when clicking on the request where it's possible to either ***Approve*** or ***Deny*** the request and leave an optional message.  
 ![Approve/Deny Window](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6005.png) 
 
-If the request is denied, the user will see that their request on the account is no longer pending and was denied in the recent activity field of the main ***Privileged Access*** page. If approved, they will be able to access the account by clicking on the same button they used to submit the request. They'll now get this ***Active Checkout*** window instead of the request one :  
+If the request is denied, the user will see that their request on the account is no longer pending and was denied in the recent activity field of the main ***Privileged Access*** page. If approved, they will be able to access the account by clicking on the same button they used to submit the request. They'll now get this ***Active Checkout*** window instead of the request one:  
 ![Checkout Active](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6006.png) 
 
 Once done with the account, they can use the ***CheckIn*** button on the last window to release their hold on the checkout.  

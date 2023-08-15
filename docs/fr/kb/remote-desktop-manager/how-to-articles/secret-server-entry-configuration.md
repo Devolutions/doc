@@ -21,7 +21,7 @@ Il s'agira soit de https<area>://server, soit de https<area>://server/SecretServ
   <li>Configuration des identifiants :  
     <ol>
       <li>Si vous êtes le seul à utiliser cette entrée, vous pouvez placer vos identifiants directement sous l'onglet <b><i>Général</i></b>.</li>
-      <li>Dans une équipe en partage, sélectionner l'option <b><i>Utiliser "Mes Configurations de Compte"</i></b> sous l'onglet <b><i>Général</i></b>. Une fois l'entrée terminée, chaque utilisateur devra aller dans <b><i>Fichier – Paramètres de mon compte – Secret Server</i></b> pour entrer ses informations.</li>
+      <li>Dans une équipe en partage, sélectionner l'option <b><i>Utiliser « Mes Configurations de Compte »</i></b> sous l'onglet <b><i>Général</i></b>. Une fois l'entrée terminée, chaque utilisateur devra aller dans <b><i>Fichier – Paramètres de mon compte – Secret Server</i></b> pour entrer ses informations.</li>
     </ol>
   </li>
 

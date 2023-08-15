@@ -13,7 +13,7 @@ To resolve this, you have to create a reg file with the content below and merge 
 
 As a preliminary step, you could open the registry to confirm that the DocObject keys are indeed missing.  
 
-The keys below are respectively for : Word, Excel, PowerPoint, Visio, and Project:  
+The keys below are respectively for: Word, Excel, PowerPoint, Visio, and Project:  
 
 ```
 [HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{F4754C9B-64F5-4B40-8AF4-679732AC0607}\DocObject]  

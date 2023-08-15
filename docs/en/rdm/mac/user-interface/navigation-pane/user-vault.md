@@ -6,10 +6,10 @@ keywords:
 ---
 The {{ en.UVLT }} is a user centric vault for entries of any type. It allows each user o create entries that only them can access.  
 
-To create a new entry in your {{ en.UVLT }} , simply click on {{ en.UVLT }} in your ***{{ en.NPANE }}*** and create your new entry directly from there.  
+To create a new entry in your {{ en.UVLT }}, simply click on {{ en.UVLT }} in your ***{{ en.NPANE }}*** and create your new entry directly from there.  
 
 {% snippet icon.badgeInfo %} 
-The {{ en.UVLT }} is only available for all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+The {{ en.UVLT }} is only available for all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 ![{{ en.NPANE }} – User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6003.png) 

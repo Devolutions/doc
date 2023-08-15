@@ -29,7 +29,7 @@ You can perform this only if you have more than 2 GB of RAM.
 The memory parameter can be any value between 2048 (2 GB) and 3072 (3 GB). If you have 3GB of RAM you must reserve some for your system. If you have 3 GB of RAM, allocate 2560 Mb, for 4 GB systems use 3072.
 {% endsnippet %}  
 
-1. With ***Administrator*** rights, open command prompt (go to ***Programs, Accessories*** , right-click on ***Command Prompt*** and select ***Run as Administrator*** ).
+1. With ***Administrator*** rights, open command prompt (go to ***Programs, Accessories***, right-click on ***Command Prompt*** and select ***Run as Administrator***).
 1. Enter the following at the prompt and press enter:
 bcdedit /set IncreaseUserVA 2560
 1. Close the prompt.

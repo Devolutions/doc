@@ -10,7 +10,7 @@ order: 10
 ![Menu des sources de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11364.png) 
 1. Cliquer sur le signe plus  pour créer une nouvelle source de données.  
 ![Nouvelle source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10816.png) 
-1. Sélectionner le type de source de données que vous souhaitez créer et cliquez sur ***OK*** .  
+1. Sélectionner le type de source de données que vous souhaitez créer et cliquez sur ***OK***.  
 ![Ajouter une nouvelle source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11365.png) 
 1. Configurer tous vos paramètres de connexion. Vous pouvez vérifier la validité des informations entrées en utilisant ***Tester l'hôte*** ou ***Tester base de données*** (selon le type de source de données que vous créez).  
 ![Microsoft SQL Server - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11366.png) 

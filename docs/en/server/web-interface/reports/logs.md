@@ -1,7 +1,7 @@
 ---
 title: Logs
 ---
-The ***Logs*** section provides tools to view ***Activity*** , ***Data Sources*** , ***Administration*** and ***Last Usage Logs*** . The ***Deleted Entries*** section is where you will manage all the deleted entries from the users.  
+The ***Logs*** section provides tools to view ***Activity***, ***Data Sources***, ***Administration*** and ***Last Usage Logs***. The ***Deleted Entries*** section is where you will manage all the deleted entries from the users.  
 
 You can refine your search with the filters for each report and click the ***Export*** button of each section to create a CSV report.  
 

@@ -16,7 +16,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-Outils intégrés (Wake On Lan, NetStat, Ping, ...) 
+Outils intégrés (Wake On Lan, NetStat, Ping...) 
 		</td>
 		<td>
 Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils liés à la session. 

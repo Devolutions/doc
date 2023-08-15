@@ -25,7 +25,7 @@ Description
 Étape 1 - Configuration des ***Groupes d'utilisateurs*** et des ***Coffres***  
 
 * [Inviter un administrateur](/fr/hub/web-interface/hub-overview/administration/management/users/administrator-invite/) 
-* [Créer et gérer des Groupes d 'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/create-manage-user-groups/) 
+* [Créer et gérer des Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/create-manage-user-groups/) 
 * [Créer et gérer des Coffres](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) 
 		</td>
 		<td>

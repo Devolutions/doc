@@ -70,7 +70,7 @@ Pros:
 * Quick. 
 * Reliable. 
 * Secure. 
-* Supports all features, such as attachments, [Usage Logs](/server/web-interface/reports/) , [Offline Mode](/server/web-interface/administration/security-management/user-groups/settings/) and [User Management](/server/web-interface/administration/security-management/users/) . 
+* Supports all features, such as attachments, [Usage Logs](/server/web-interface/reports/), [Offline Mode](/server/web-interface/administration/security-management/user-groups/settings/) and [User Management](/server/web-interface/administration/security-management/users/). 
 * Active Directory integration. 
 
 Cons: 
@@ -101,7 +101,7 @@ Cons:
 
 * No security management. 
 * There is a possibility for conflict or data corruption to occur. 
-* Does not support all features, such as attachments, [Usage Logs](/rdm/mac/commands/view/activity-logs/) , [Offline Mode](/rdm/mac/commands/file/go-offline/) and [User Management](/rdm/mac/commands/administration/user-management/) . 
+* Does not support all features, such as attachments, [Usage Logs](/rdm/mac/commands/view/activity-logs/), [Offline Mode](/rdm/mac/commands/file/go-offline/) and [User Management](/rdm/mac/commands/administration/user-management/). 
 * Dropbox integration uses the Dropbox SDK, so features exclusive to the Business or Enterprise editions are NOT supported. 
 		</td>
 	</tr>
@@ -123,7 +123,7 @@ Pros:
 * Quick. 
 * Reliable. 
 * Secure. 
-* Supports all features, such as attachments, [Usage Logs](/rdm/mac/commands/view/activity-logs/) , [Offline Mode](/rdm/mac/commands/file/go-offline/) and [User Management](/rdm/mac/commands/administration/user-management/) . 
+* Supports all features, such as attachments, [Usage Logs](/rdm/mac/commands/view/activity-logs/), [Offline Mode](/rdm/mac/commands/file/go-offline/) and [User Management](/rdm/mac/commands/administration/user-management/). 
 
 Cons: 
 
@@ -149,7 +149,7 @@ Pros:
 * Quick. 
 * Reliable. 
 * Secure. 
-* Supports all features, such as attachments, [Usage Logs](/rdm/mac/commands/view/activity-logs/) , [Offline Mode](/rdm/mac/commands/file/go-offline/) and [User Management](/rdm/mac/commands/administration/user-management/) . 
+* Supports all features, such as attachments, [Usage Logs](/rdm/mac/commands/view/activity-logs/), [Offline Mode](/rdm/mac/commands/file/go-offline/) and [User Management](/rdm/mac/commands/administration/user-management/). 
 * SQLServer Express is free. 
 
 Cons: 
@@ -230,7 +230,7 @@ Pros:
 * Quick. 
 * Reliable. 
 * Free database. 
-* Supports all features, such as attachments and [Usage Logs](/rdm/mac/commands/view/activity-logs/) , [Offline Mode](/rdm/mac/commands/file/go-offline/) and [User Management](/rdm/mac/commands/administration/user-management/) . 
+* Supports all features, such as attachments and [Usage Logs](/rdm/mac/commands/view/activity-logs/), [Offline Mode](/rdm/mac/commands/file/go-offline/) and [User Management](/rdm/mac/commands/administration/user-management/). 
 
 Cons: 
 
@@ -263,7 +263,7 @@ Cons:
 * No possibility of sharing. 
 * No security management. 
 * There is a possibility for conflict or data corruption to occur. 
-* Does not support all features, such as attachments, [Usage Logs](/rdm/mac/commands/view/activity-logs/) , [Offline Mode](/rdm/mac/commands/file/go-offline/) and [User Management](/rdm/mac/commands/administration/user-management/) . 
+* Does not support all features, such as attachments, [Usage Logs](/rdm/mac/commands/view/activity-logs/), [Offline Mode](/rdm/mac/commands/file/go-offline/) and [User Management](/rdm/mac/commands/administration/user-management/). 
 		</td>
 	</tr>
 </table>

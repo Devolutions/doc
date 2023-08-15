@@ -1,7 +1,7 @@
 ---
 title: Analyseur de sécurité d'entrées
 ---
-L' ***Analyseur de sécurité d'entrées*** est disponible dans le menu ***Outils*** . Il affichera l'indicateur de force pour tous les mots de passe stockés dans votre source de données.  
+L'***Analyseur de sécurité d'entrées*** est disponible dans le menu ***Outils***. Il affichera l'indicateur de force pour tous les mots de passe stockés dans votre source de données.  
 ![!!clip4222.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4222.png) 
 
 ## Paramètres 

@@ -11,7 +11,7 @@ Le filtre de ***Recherche*** est accessible à partir de la barre d'accès rapid
 Cliquer sur la flèche dans la zone de ***Recherche*** pour afficher vos options de recherche.  
 ![Menu d'options de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4404.png) 
 
-L'expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que:  
+L'expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que :  
 
 * Dossier 
 * Type 
@@ -22,7 +22,7 @@ L'expression du filtre est mise en correspondance avec les champs sélectionnés
 * Mots-clés 
 * Référence de contact 
 
-Il est possible d'exclure des résultats en choisissant d'afficher les entrées correspondant à certains critères:  
+Il est possible d'exclure des résultats en choisissant d'afficher les entrées correspondant à certains critères :  
 
 * Type de sessions (Identifiants, Outils de script, VPN, etc.) 
 * Si la session est marquée comme Favorites 

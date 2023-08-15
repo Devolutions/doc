@@ -7,7 +7,7 @@ Here are the steps to import credentials from a CSV file using a credential temp
 ![!!KB4029.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4029.png)
 1. Click on the + button to add a new template.  
 ![!!KB4030.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4030.png)
-1. Select ***Username / Password*** in the ***Credential Entry*** section.  
+1. Select ***Username/Password*** in the ***Credential Entry*** section.  
 ![!!KB4031.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4031.png)
 1. Set all required parameters and the template name and then click ***OK*** to save the template.  
 ![!!KB4032.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4032.png)

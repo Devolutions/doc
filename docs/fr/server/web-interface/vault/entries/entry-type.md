@@ -1,7 +1,7 @@
 ---
 title: Type d'entrée
 ---
-Il existe plusieurs types d' ***Entrées*** , qui répondent tous à des objectifs différents pour votre convenance. 
+Il existe plusieurs types d'***Entrées***, qui répondent tous à des objectifs différents pour votre convenance. 
 
 ![Nouvelle entrée](https://webdevolutions.azureedge.net/docs/fr/server/clip10074.png) 
 

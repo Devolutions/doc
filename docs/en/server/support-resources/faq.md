@@ -21,7 +21,7 @@ Ideal for businesses that would prefer to store their data in-house, want to dep
 * Operating System 
 * Firewall / Application Delivery 
 * Load Balancing / Fault tolerant environment for the web server layer. 
-* Database, including clustering / failover capabilities. 
+* Database, including clustering/failover capabilities. 
 * Backups 
 * SSL certificates  
 

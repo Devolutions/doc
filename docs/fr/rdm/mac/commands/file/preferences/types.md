@@ -24,7 +24,7 @@ Action fermer tout par défaut
 		</td>
 		<td>
 
-Sélectionner l'action ***Par défaut*** pour le bouton ***Fermer tout*** lorsque plusieurs onglets sont ouverts en même temps dans le tableau de bord:  
+Sélectionner l'action ***Par défaut*** pour le bouton ***Fermer tout*** lorsque plusieurs onglets sont ouverts en même temps dans le tableau de bord :  
 
 * Déconnecter (Déconnecter toutes les sessions à onglets ouverts) 
 * Fermer la session (Fermer la session dans les onglets ouverts) 
@@ -76,7 +76,7 @@ Mode de calibrage d'écran
 		</td>
 		<td>
 
-Vous pouvez choisir un mode de dimensionnement d'écran préféré pour votre session RDP entre:  
+Vous pouvez choisir un mode de dimensionnement d'écran préféré pour votre session RDP entre :  
 
 * Barre de défilement 
 * Résolution intelligente 
@@ -88,14 +88,14 @@ Vous pouvez choisir un mode de dimensionnement d'écran préféré pour votre se
 Affichage 
 		</td>
 		<td>
-Déterminer l'affichage préféré pour la session. Choisir entre: 
+Déterminer l'affichage préféré pour la session. Choisir entre : 
 
 * Par défaut 
 * Externe 
 * Intégré (à onglets) 
 * Désancré 
 
-Vous pouvez ensuite choisir le moniteur préféré sur lequel afficher:  
+Vous pouvez ensuite choisir le moniteur préféré sur lequel afficher :  
 
 * Moniteur primaire : C'est le moniteur qui est marqué comme affichage principal dans Windows 
 * Moniteur secondaire : L'autre moniteur non primaire, osbolète, utilise à la place le moniteur 1, 2, 3 ou 4 
@@ -131,7 +131,7 @@ Si vous utilisez OpenGL sur votre Mac, activez cette option pour améliorer les 
 Moteur RDP 
 		</td>
 		<td>
-Choisir entre:  
+Choisir entre :  
 
 * Hérité 
 * Moderne 
@@ -142,7 +142,7 @@ Choisir entre:
 Passerelle Transport 
 		</td>
 		<td>
-Choisir entre:  
+Choisir entre :  
 
 * Auto 
 * Http 

@@ -12,7 +12,7 @@ La {{ fr.DVLSCONSOLE }} est désormais proposée en tant qu'application autonome
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Depuis {{ fr.DVLS }} 2019.x, de nombreuses fonctionnalités peuvent seulement être gérées à partir de l'interface Web. Veuillez consulter [Administration - Paramètres Serveur](/fr/server/web-interface/administration/configuration/server-settings/) . 
+Depuis {{ fr.DVLS }} 2019.x, de nombreuses fonctionnalités peuvent seulement être gérées à partir de l'interface Web. Veuillez consulter [Administration - Paramètres Serveur](/fr/server/web-interface/administration/configuration/server-settings/). 
 {% endsnippet %}
  
 La {{ fr.DVLSCONSOLE }} gère la métabase IIS, elle doit être démarrée avec des privilèges élevés lorsque la {{ fr.DVLSCONSOLE }} doit être utilisée. Des privilèges élevés sont accordés lorsque vous utilisez ***exécuter en tant qu'administrateur*** pour lancer l'application. Vous pouvez modifier le raccourci pour toujours démarrer de cette manière.  
@@ -49,7 +49,7 @@ Actualiser la liste des instances de {{ fr.DVLS }} dans la {{ fr.DVLSCONSOLE }}.
 Nouveau 
 		</td>
 		<td>
-Créer une nouvelle instance de {{ fr.DVLS }} . 
+Créer une nouvelle instance de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -81,7 +81,7 @@ Désinstaller l'instance {{ fr.DVLS }} sélectionnée.
 Mot de passe 
 		</td>
 		<td>
-Définir, Modifier ou Désactiver le mot de passe de l'instance {{ fr.DVLS }} . 
+Définir, Modifier ou Désactiver le mot de passe de l'instance {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -121,7 +121,7 @@ Ouvrir l'interface Web dans le navigateur par défaut.
 Explorer 
 		</td>
 		<td>
-Ouvrir l'explorateur de fichiers et pointer-le vers le dossier d'installation de l'instance {{ fr.DVLS }} . 
+Ouvrir l'explorateur de fichiers et pointer-le vers le dossier d'installation de l'instance {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -129,7 +129,7 @@ Ouvrir l'explorateur de fichiers et pointer-le vers le dossier d'installation de
 Ouvrir le fichier de réponse 
 		</td>
 		<td>
-Ouvrir le fichier de réponse pour rouler des commandes sur l'instance {{ fr.DVLS }} . 
+Ouvrir le fichier de réponse pour rouler des commandes sur l'instance {{ fr.DVLS }}. 
 		</td>
 	</tr>
 </table>
@@ -358,7 +358,7 @@ Description
 Utilisateurs 
 		</td>
 		<td>
-Ouvrir la page de [Gestion des Utilisateurs](/fr/server/web-interface/administration/security-management/users/) sur l'interface Web de {{ fr.DVLS }} . 
+Ouvrir la page de [Gestion des Utilisateurs](/fr/server/web-interface/administration/security-management/users/) sur l'interface Web de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -366,7 +366,7 @@ Ouvrir la page de [Gestion des Utilisateurs](/fr/server/web-interface/administra
 Groupes d'utilisateurs 
 		</td>
 		<td>
-Ouvrir la page de [Gestion des Groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) sur l'interface Web de {{ fr.DVLS }} . 
+Ouvrir la page de [Gestion des Groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) sur l'interface Web de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -374,7 +374,7 @@ Ouvrir la page de [Gestion des Groupes d'utilisateurs](/fr/server/web-interface/
 Coffres 
 		</td>
 		<td>
-Ouvrir la page de [Gestion des Coffres](/fr/server/web-interface/administration/security-management/vaults/) sur l'interface Web de {{ fr.DVLS }} . 
+Ouvrir la page de [Gestion des Coffres](/fr/server/web-interface/administration/security-management/vaults/) sur l'interface Web de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -382,7 +382,7 @@ Ouvrir la page de [Gestion des Coffres](/fr/server/web-interface/administration/
 Paramètres du système 
 		</td>
 		<td>
-Ouvrir la page des [Paramètres du système](/fr/server/web-interface/administration/configuration/system-settings/) sur l'interface Web de {{ fr.DVLS }} . 
+Ouvrir la page des [Paramètres du système](/fr/server/web-interface/administration/configuration/system-settings/) sur l'interface Web de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -390,7 +390,7 @@ Ouvrir la page des [Paramètres du système](/fr/server/web-interface/administra
 Permissions du système 
 		</td>
 		<td>
-Ouvrir la page des [Permissions du système](/fr/server/web-interface/administration/configuration/system-permissions/) sur l'interface Web de {{ fr.DVLS }} . 
+Ouvrir la page des [Permissions du système](/fr/server/web-interface/administration/configuration/system-permissions/) sur l'interface Web de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -398,7 +398,7 @@ Ouvrir la page des [Permissions du système](/fr/server/web-interface/administra
 Gestionnaire de copies de sauvegarde 
 		</td>
 		<td>
-Ouvrir la page du [Gestionnaire de sauvegardes](/fr/server/web-interface/administration/backup/backup-manager/) sur l'interface Web de {{ fr.DVLS }} . 
+Ouvrir la page du [Gestionnaire de sauvegardes](/fr/server/web-interface/administration/backup/backup-manager/) sur l'interface Web de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 </table>

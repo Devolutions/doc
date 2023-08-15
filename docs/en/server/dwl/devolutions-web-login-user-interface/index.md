@@ -2,7 +2,7 @@
 title: Devolutions Web Login User Interface
 order: 40
 ---
-The {{ en.DWL }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.DWL }} user interface when used with {{ en.DVLS }} .  
+The {{ en.DWL }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.DWL }} user interface when used with {{ en.DVLS }}.  
 
 Testtesttest
 
@@ -15,23 +15,23 @@ The main view, which is the one displayed when first opening {{ en.DWL }} in you
 
 ### Top Menu 
 
-If you use multiple Devolutions products with the extension, you can switch between them using the ***Data Source Selector*** at the left of the ***Top Menu*** . A drop-down list will appear with the other products you have previously paired with {{ en.DWL }} . 
+If you use multiple Devolutions products with the extension, you can switch between them using the ***Data Source Selector*** at the left of the ***Top Menu***. A drop-down list will appear with the other products you have previously paired with {{ en.DWL }}. 
 ![Data Source Selector](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2029.png)
-At the right of the ***Top Menu*** , the ***Settings*** button opens a new tab in which you can configure your extension. Consult the [full settings list](/server/dwl/settings/). 
+At the right of the ***Top Menu***, the ***Settings*** button opens a new tab in which you can configure your extension. Consult the [full settings list](/server/dwl/settings/). 
 ![Settings Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2030.png)
 Next to the ***Settings*** button is your ***Account*** button. This section has some useful links and information, namely: 
 
-* a ***Log Off*** button to sign out of your {{ en.DA }} .  
-* a link to your {{ en.DVLS }} .  
-* a link to our [{{ en.DVLS }} Forum](https://forum.devolutions.net/product/server) .  
-* a link to our [{{ en.DVLS }} Online Help](/server/) .  
-* the current version of {{ en.DWL }} .  
+* a ***Log Off*** button to sign out of your {{ en.DA }}.  
+* a link to your {{ en.DVLS }}.  
+* a link to our [{{ en.DVLS }} Forum](https://forum.devolutions.net/product/server).  
+* a link to our [{{ en.DVLS }} Online Help](/server/).  
+* the current version of {{ en.DWL }}.  
 
 ![Account Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2031.png)
 ### Side Menu and Content Area 
-Using the tabs of the ***Side Menu*** , you can access various {{ en.DWL }} features. 
+Using the tabs of the ***Side Menu***, you can access various {{ en.DWL }} features. 
 ![Side Menu Tabs](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2032.png)
-Each tab will display a different view in the ***Content Area*** . The tabs available when using {{ en.DWL }} with {{ en.DVLS }} are:  
+Each tab will display a different view in the ***Content Area***. The tabs available when using {{ en.DWL }} with {{ en.DVLS }} are:  
 
 * the ***Matching*** tab, where you can find available credentials for a specific website.  
 * the ***All Entries*** tab,  where you can find all the {{ en.DVLS }} entries you synchronized, divided into your different vaults and folders.  

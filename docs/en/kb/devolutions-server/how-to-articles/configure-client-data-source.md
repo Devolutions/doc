@@ -4,7 +4,7 @@ title: Configure Client Data Source
 1. In {{ en.RDM }} select ***File - Data Sources***.  
 ![!!KB4365.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4365.png)
 
-1. Add a ***New Data Source*** .  
+1. Add a ***New Data Source***.  
 ![!!KB4366.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4366.png)
 
 1. Select the ***{{ en.DVLS }}*** data source.  

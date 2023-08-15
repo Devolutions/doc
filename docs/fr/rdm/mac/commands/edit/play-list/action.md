@@ -2,7 +2,7 @@
 title: Actions
 ---
 
-Vous pouvez créer une ***Liste d'exécution*** locale ou partagée dans {{ fr.RDM }} . Il existe plusieurs méthodes pour créer ou modifier une ***Liste d'exécution*** :  
+Vous pouvez créer une ***Liste d'exécution*** locale ou partagée dans {{ fr.RDM }}. Il existe plusieurs méthodes pour créer ou modifier une ***Liste d'exécution*** :  
 
 * Créer en sélectionnant des entrées dans le ***{{ fr.NPANE }}*** 
 * Créer avec des sessions à onglets ouvertes 
@@ -18,7 +18,7 @@ La liste d'exécution locale est enregistrée sur l'ordinateur local et n'est pa
 
 ### Liste d'exécution Partagée 
 
-La ***Liste d'exécution partagée*** est enregistrée dans la base de données et peut être utilisée par tous les utilisateurs. La ***Liste d'exécution*** partagée peut être lancée à partir du ***{{ fr.NPANE }}*** ainsi que du menu ***Modifier - Liste d'exécution*** .  
+La ***Liste d'exécution partagée*** est enregistrée dans la base de données et peut être utilisée par tous les utilisateurs. La ***Liste d'exécution*** partagée peut être lancée à partir du ***{{ fr.NPANE }}*** ainsi que du menu ***Modifier - Liste d'exécution***.  
 ![Gestionnaire de listes d'exécution - Partagé](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4088.png) 
 
 ### Liste d'exécution {{ fr.UVLT }} 

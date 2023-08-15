@@ -6,7 +6,7 @@ order: 40
 The [Email](/server/web-interface/administration/configuration/server-settings/general/email/) feature must be enabled and properly configured to get the ***Notifications*** working. 
 {% endsnippet %}
  
-With {{ en.DVLS }} , it is possible to get email notifications based on user activities with the ***Notifications*** feature.  
+With {{ en.DVLS }}, it is possible to get email notifications based on user activities with the ***Notifications*** feature.  
 
 ![Notifications](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8153.png)  
 

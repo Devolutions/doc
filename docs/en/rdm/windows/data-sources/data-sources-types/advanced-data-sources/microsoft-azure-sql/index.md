@@ -31,7 +31,7 @@ Microsoft Azure SQL offers different service tier in its purchase model for DTUS
 * Supports entry logs and attachments. 
 
 {% snippet icon.badgeHelp %} 
-Get more information on [Microsoft Azure SQL](https://azure.microsoft.com/en-us/services/sql-database/) . 
+Get more information on [Microsoft Azure SQL](https://azure.microsoft.com/en-us/services/sql-database/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -133,7 +133,7 @@ Enter the name of the Azure SQL database.
 Two factor 
 		</td>
 		<td>
-Enable the [Multi Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/) . 
+Enable the [Multi Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/). 
 		</td>
 	</tr>
 	<tr>
@@ -219,9 +219,9 @@ Type
 		<td>
 Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) to use. Select between:  
 
-* ***Default***: use the default {{ en.UVLT }} , which is stored in the database. 
+* ***Default***: use the default {{ en.UVLT }}, which is stored in the database. 
 * ***None***: disable the {{ en.UVLT }} for all users. 
-* ***{{ en.OD }}***: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }} . 
+* ***{{ en.OD }}***: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
 		</td>
 	</tr>
 </table>
@@ -244,7 +244,7 @@ DESCRIPTION
 Create Database 
 		</td>
 		<td>
-Create the database on the SQL server to use {{ en.RDM }} . 
+Create the database on the SQL server to use {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -252,7 +252,7 @@ Create the database on the SQL server to use {{ en.RDM }} .
 Update Database 
 		</td>
 		<td>
-Update the database on the SQL server, if required to use {{ en.RDM }} . 
+Update the database on the SQL server, if required to use {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -337,7 +337,7 @@ Ask to use the data source in offline mode when a user connects to the data sour
 Allow beta database upgrade 
 		</td>
 		<td>
-Allow beta upgrade of the database (when using a beta version of {{ en.RDM }} ). 
+Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}). 
 		</td>
 	</tr>
 	<tr>

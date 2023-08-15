@@ -61,7 +61,7 @@ Une session expirée ne peut pas être ouverte. Il peut être défini manuelleme
 </table>
 
 {% snippet icon.shieldCaution %} 
-Si vous utilisez l'option ***Verrouillé*** , la session sera verrouillée pour les autres utilisateurs uniquement, mais le détenteur du verrou peut toujours l'utiliser. 
+Si vous utilisez l'option ***Verrouillé***, la session sera verrouillée pour les autres utilisateurs uniquement, mais le détenteur du verrou peut toujours l'utiliser. 
 {% endsnippet %}
   
 

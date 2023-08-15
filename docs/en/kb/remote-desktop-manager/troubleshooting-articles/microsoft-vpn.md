@@ -7,7 +7,7 @@ You can refer to this Microsoft TechNet article for more information on RASDIAL:
 
 Sometimes you need to accept a message or make a choice upon first use, but that typically occurs only the first time. This makes running the command manually once mandatory on all machines.  
 
-If you have elected to store the PBK in {{ en.RDM }} , we extract it to %TMP%\RDM upon usage. After trying to establish a connection once, you should see your phone book in that folder.  
+If you have elected to store the PBK in {{ en.RDM }}, we extract it to %TMP%\RDM upon usage. After trying to establish a connection once, you should see your phone book in that folder.  
 
 By default, it uses RASDIAL, what happens if you run the following at the command prompt?  
 

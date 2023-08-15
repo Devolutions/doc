@@ -23,7 +23,7 @@ The ***Template*** that you will create (Database template only) will need to ha
 
 ## Method
 
-1. In the ***Ribbon*** , go under ***Edit - New Entry - Add Macros/Scripts/Tools***.  
+1. In the ***Ribbon***, go under ***Edit - New Entry - Add Macros/Scripts/Tools***.  
 ![!!KB5002.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5002.png)
 1. Select ***Template Macro/Script/Tool*** in the ***Tool*** section and click ***OK***.  
 ![!!KB5003.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5003.png)

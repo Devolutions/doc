@@ -35,7 +35,7 @@ Before following the steps below, in a folder, create a VPN entry and remote ses
    | Confirm disconnect | The VPN prompts to close the VPN when the session is closed. |
 
 1. Create a ***VPN group*** so the VPN only closes when the last session in the ***VPN group*** is closed.
-   - Click the plus sign to add a new ***VPN group*** , then enter a group name. Click ***OK*** when the name is entered.  
+   - Click the plus sign to add a new ***VPN group***, then enter a group name. Click ***OK*** when the name is entered.  
 {% snippet icon.badgeHelp %}
 Watch this [YouTube video](https://youtu.be/5jKREtc63ks) for a demonstration on the ***VPN group*** option.
 {% endsnippet %}  
@@ -43,7 +43,7 @@ Watch this [YouTube video](https://youtu.be/5jKREtc63ks) for a demonstration on 
 7. If you need to use specific credentials, in a team environment, you can define them in the ***Credentials (VPN/SSH/Gateway)***
 1. Click the ***Settings*** tab.  
 ![!!KB2064.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2064.png)
-1. In ***Session*** , select the VPN entry you created.
+1. In ***Session***, select the VPN entry you created.
 1. Click ***OK***
 
 ### Perform a batch edit to configure the session entries
@@ -62,7 +62,7 @@ Watch this [YouTube video](https://youtu.be/5jKREtc63ks) for a demonstration on 
 
 There are many options to accommodate a range of VPN types. Here are two common situations and options to make using the VPN more efficient.  
 
-Situation 1 : You lose connection to the data source when the VPN is active.
+Situation 1: You lose connection to the data source when the VPN is active.
 
 Follow the steps below to automate going offline when the VPN opens.
 
@@ -72,7 +72,7 @@ Follow the steps below to automate going offline when the VPN opens.
 1. In the ***Advanced Settings*** section, check the ***Go Offline on connection*** and ***Go online on disconnect after X sec*** options. In this last option, specify the number of seconds, then click ***OK***.  
 ![!!KB2066.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2066.png)  
 
-Situation 2 : The VPN is slow to connect.
+Situation 2: The VPN is slow to connect.
 
 Follow the steps below to change the time {{ en.RDM }} waits for the VPN to open.
 

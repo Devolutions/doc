@@ -18,14 +18,14 @@ DESCRIPTION
 Modifier 
 		</td>
 		<td>
-Modifier les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Modifier les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 		<td>
 Supprimer 
 		</td>
 		<td>
-Supprimer les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Supprimer les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 		<td>

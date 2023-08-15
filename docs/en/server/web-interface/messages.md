@@ -1,7 +1,7 @@
 ---
 title: Messages
 ---
-Send and receive ***Secure Messages*** with users from your {{ en.DVLS }} .  
+Send and receive ***Secure Messages*** with users from your {{ en.DVLS }}.  
 
 ![!!ServerOp4009.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4009.png)  
 

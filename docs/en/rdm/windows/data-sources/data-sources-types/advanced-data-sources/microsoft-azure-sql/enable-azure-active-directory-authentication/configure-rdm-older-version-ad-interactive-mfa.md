@@ -1,5 +1,6 @@
 ---
-title: Configure an older {{ en.RDM }} version AD Interactive (with MFA)
+eleventyComputed:
+  title: Configure an older {{ en.RDM }} version AD Interactive (with MFA)
 ---
 {% snippet icon.badgeInfo %} 
 This topic is for {{ en.RDM }} versions lower than 2022.1. If you are using 2022.1 and higher please follow this [topic](DataSources_Advanced_SqlAzure_ConfigureSqlAzureForADConnections) instead. 
@@ -55,12 +56,12 @@ Azure AD will prompt the user for credentials only when necessary. If a token th
 </table>
 
 {% snippet icon.badgeCaution %} 
-When it comes to Azure AD joined devices (registered devices). Azure AD may or may not prompt for MFA. This is entirely controlled by Azure AD , there is nothing we can do in {{ en.RDM }} to force or bypass the MFA other than the ***Default*** or ***Automatic*** options mentioned above. 
+When it comes to Azure AD joined devices (registered devices). Azure AD may or may not prompt for MFA. This is entirely controlled by Azure AD, there is nothing we can do in {{ en.RDM }} to force or bypass the MFA other than the ***Default*** or ***Automatic*** options mentioned above. 
 {% endsnippet %}
  
 3. In the ***Username*** field, paste the ***Active Directory admin*** email you created in the Microsoft Azure SQL databases. 
 {% snippet icon.badgeInfo %} 
-On first connect, the username must be the Active Directory Admin as defined in the [Configure the Active Directory Admin](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/) . Once you add other AD user in {{ en.RDM }} they will be able to connect. 
+On first connect, the username must be the Active Directory Admin as defined in the [Configure the Active Directory Admin](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/). Once you add other AD user in {{ en.RDM }} they will be able to connect. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
@@ -72,7 +73,7 @@ If you get this message error: Unable to connect to the database! Login failed f
 {% snippet icon.badgeCaution %} 
 When you receive this error: ***AADSTS70001 - Application with Identifier was not found in the directory…***  
 
-Validate that your ***Application ID*** in {{ en.RDM }} is identical to the ***App Registration's Application (client) ID*** (step 11 of [Create an Azure Active Directory App Registration](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/) ). 
+Validate that your ***Application ID*** in {{ en.RDM }} is identical to the ***App Registration's Application (client) ID*** (step 11 of [Create an Azure Active Directory App Registration](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/)). 
 {% endsnippet %}
  
 ![App Registration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5010.png) 

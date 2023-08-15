@@ -2,7 +2,7 @@
 title: Database
 order: 20
 ---
-The ***Database*** tab section contains the information of the SQL Server, the SQL credentials information and the database name used by {{ en.DVLS }} . 
+The ***Database*** tab section contains the information of the SQL Server, the SQL credentials information and the database name used by {{ en.DVLS }}. 
 
 ![Server Settings - Database](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8002.png) 
 
@@ -39,7 +39,7 @@ Advanced Settings
 		</td>
 		<td>
 
-Access the [Advanced Settings](/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-settings/) . 
+Access the [Advanced Settings](/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-settings/). 
 		</td>
 	</tr>
 	<tr>

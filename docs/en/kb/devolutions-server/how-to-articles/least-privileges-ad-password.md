@@ -23,7 +23,7 @@ To manage domain administrator accounts as privileged accounts in the PAM module
 ![!!KB8026.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8026.png)
 1. In the ***Permissions*** dialog, select the ***General*** option. Select ***Change password*** and ***Reset password*** items. Then unchecked the ***General*** option.  
 ![!!KB8027.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8027.png)
-1. Again in the Permissions dialog, select the Property-specific option. Find and select the following items : 
+1. Again in the Permissions dialog, select the Property-specific option. Find and select the following items: 
    - ***Read lockout Time***
    - ***Write lockout Time***
    - ***Read pwdLastSet***

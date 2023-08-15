@@ -20,7 +20,7 @@ Execute a selected macro or script in the current tab.
 
 ### Copy 
 
-For more information on all the copy options please see [Clipboard](/rdm/mac/commands/home/clipboard/) . 
+For more information on all the copy options please see [Clipboard](/rdm/mac/commands/home/clipboard/). 
 
 ### Open VPN 
 
@@ -32,17 +32,17 @@ This feature is enabled when a VPN is configured inside your session, it will cl
 
 ### Status 
 
-For more information please see [Status](/rdm/mac/commands/home/status/) . 
+For more information please see [Status](/rdm/mac/commands/home/status/). 
 
 ### Favorite 
 
-For more information please see [Favorite](/rdm/mac/commands/home/favorite/) . 
+For more information please see [Favorite](/rdm/mac/commands/home/favorite/). 
 
 ### New Playlist 
 
-For more information please see [Playlist](/rdm/mac/commands/edit/play-list/) . 
+For more information please see [Playlist](/rdm/mac/commands/edit/play-list/). 
 
 ### Insert Log Comment 
 
-Add a log comment to the session that will be saved in the session logs, for more information please see [Insert Log Comment](/rdm/mac/commands/home/insert-log-comment/) . 
+Add a log comment to the session that will be saved in the session logs, for more information please see [Insert Log Comment](/rdm/mac/commands/home/insert-log-comment/). 
 

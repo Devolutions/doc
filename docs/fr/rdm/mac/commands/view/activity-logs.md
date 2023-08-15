@@ -1,16 +1,16 @@
 ---
 title: Journaux d'activité
 ---
-Les ***Journaux d'activité*** offrent une solution robuste de journalisation. Grâce à cette fonctionnalité, il est possible de surveiller une session ouverte pour tous les utilisateurs qui utilisent des [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . Le journal est disponible dans l'onglet ***Affichage*** .  
+Les ***Journaux d'activité*** offrent une solution robuste de journalisation. Grâce à cette fonctionnalité, il est possible de surveiller une session ouverte pour tous les utilisateurs qui utilisent des [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Le journal est disponible dans l'onglet ***Affichage***.  
 ![Bouton Journaux d'activité](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0037.png) 
 
 {% snippet icon.badgeInfo %} 
-En fonction des permissions dont dispose chaque utilisateur, il se peut qu'il ne puisse accéder qu'aux ***Journaux des connexions locales*** . 
+En fonction des permissions dont dispose chaque utilisateur, il se peut qu'il ne puisse accéder qu'aux ***Journaux des connexions locales***. 
 {% endsnippet %}
  
 ### Recherche 
 
-Toutes les activités dans la source de données s'affichent automatiquement lors de l'ouverture des ***Journaux d'activité*** , sans avoir à appliquer de paramètres. Toutefois, des champs de recherche sont disponibles et peuvent s'avérer utiles lorsqu'il y a beaucoup d'entrées d'activités. Ainsi, les résultats peuvent être affinés en spécifiant la ***Date*** ou une période personnalisée, le ***Nom d'utilisateur*** , le ***Message*** , l' ***Hôte*** , le ***Dossier*** , le ***Commentaire d'ouverture*** et le ***Commentaire de fermeture*** . Il est également possible de choisir entre l' ***Heure locale*** , l' ***Heure d'orgine*** et l' ***Heure UTC*** et de rechercher dans tous les coffres ou seulement dans le coffre actuel. Lorsque tous les critères ont été choisis, le bouton ***Recherche*** les appliquera aux résultats.  
+Toutes les activités dans la source de données s'affichent automatiquement lors de l'ouverture des ***Journaux d'activité***, sans avoir à appliquer de paramètres. Toutefois, des champs de recherche sont disponibles et peuvent s'avérer utiles lorsqu'il y a beaucoup d'entrées d'activités. Ainsi, les résultats peuvent être affinés en spécifiant la ***Date*** ou une période personnalisée, le ***Nom d'utilisateur***, le ***Message***, l'***Hôte***, le ***Dossier***, le ***Commentaire d'ouverture*** et le ***Commentaire de fermeture***. Il est également possible de choisir entre l'***Heure locale***, l'***Heure d'orgine*** et l'***Heure UTC*** et de rechercher dans tous les coffres ou seulement dans le coffre actuel. Lorsque tous les critères ont été choisis, le bouton ***Recherche*** les appliquera aux résultats.  
 ![Journaux d'activité champs de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0038.png) 
 
 ### Journaux 
@@ -90,7 +90,7 @@ Indique la date et l'heure de fermeture de votre session ou de l'entrée.
 Temps actif 
 		</td>
 		<td>
-Cette information est disponible uniquement pour les sessions en mode intégré. Le temps actif de votre session, c'est-à-dire l'heure à laquelle votre session a été ouverte en mode intégré et la période durant laquelle vous avez été actif dans votre session, sera enregistré. Si votre session est ouverte, mais que vous vous trouvez sur l'onglet ***Tableau de bord*** , par exemple, et non sur votre onglet de session, aucune heure active ne sera enregistrée. 
+Cette information est disponible uniquement pour les sessions en mode intégré. Le temps actif de votre session, c'est-à-dire l'heure à laquelle votre session a été ouverte en mode intégré et la période durant laquelle vous avez été actif dans votre session, sera enregistré. Si votre session est ouverte, mais que vous vous trouvez sur l'onglet ***Tableau de bord***, par exemple, et non sur votre onglet de session, aucune heure active ne sera enregistrée. 
 		</td>
 	</tr>
 	<tr>
@@ -98,7 +98,7 @@ Cette information est disponible uniquement pour les sessions en mode intégré.
 Durée 
 		</td>
 		<td>
-Cette information est disponible uniquement pour les sessions en mode intégré. Lorsque les sessions sont ouvertes en mode intégré, la durée de la session sera enregistrée. Cela signifie que même si vous vous trouvez sur l'onglet ***Tableau de bord*** , par exemple, et que vous ne travaillez pas activement dans votre session, mais que votre onglet de session est ouvert, la durée d'ouverture sera enregistrée. 
+Cette information est disponible uniquement pour les sessions en mode intégré. Lorsque les sessions sont ouvertes en mode intégré, la durée de la session sera enregistrée. Cela signifie que même si vous vous trouvez sur l'onglet ***Tableau de bord***, par exemple, et que vous ne travaillez pas activement dans votre session, mais que votre onglet de session est ouvert, la durée d'ouverture sera enregistrée. 
 		</td>
 	</tr>
 	<tr>

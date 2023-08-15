@@ -49,7 +49,7 @@ In this topic we will assume that your instance of {{ en.DVLS }} is configured i
 1. Once created, copy the ***Token Value*** in a safe place.  
 
 {% snippet icon.badgeCaution %}
-If you do not copy the ***Token Value*** , you will not be able to find it afterward. You will have to create a new one.
+If you do not copy the ***Token Value***, you will not be able to find it afterward. You will have to create a new one.
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}

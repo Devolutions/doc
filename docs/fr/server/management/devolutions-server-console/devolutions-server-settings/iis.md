@@ -2,7 +2,7 @@
 title: IIS
 order: 30
 ---
-Les paramètres ***IIS*** font partie des prérequis au niveau de l'installation. La plupart de ce qui se trouve dans cet onglet est automatiquement rempli par les informations fournies lors de la configuration de votre serveur {{ fr.DVLS }} , l'onglet ***IIS*** est davantage utilisé comme source d'information que comme configuration.  
+Les paramètres ***IIS*** font partie des prérequis au niveau de l'installation. La plupart de ce qui se trouve dans cet onglet est automatiquement rempli par les informations fournies lors de la configuration de votre serveur {{ fr.DVLS }}, l'onglet ***IIS*** est davantage utilisé comme source d'information que comme configuration.  
 
 ![Paramètres Serveur - IIS](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8010.png) 
 
@@ -32,7 +32,7 @@ Nom du site Web IIS.
 Diagnostic d'IIS 
 		</td>
 		<td>
-Ouvre la boîte de dialogue du Diagnostic d'IIS qui répertorie les prérequis de {{ fr.DVLS }} . 
+Ouvre la boîte de dialogue du Diagnostic d'IIS qui répertorie les prérequis de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -48,7 +48,7 @@ Nom de l'Application Pool d'IIS.
 URI d'accès 
 		</td>
 		<td>
-URI d'accès utilisé pour accéder à la page Web de {{ fr.DVLS }} . 
+URI d'accès utilisé pour accéder à la page Web de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 </table>
@@ -69,7 +69,7 @@ Description
 Dossier d'installation 
 		</td>
 		<td>
-Dossier où se trouvent les fichiers de l'application Web de {{ fr.DVLS }} . 
+Dossier où se trouvent les fichiers de l'application Web de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 </table>

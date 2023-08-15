@@ -1,7 +1,7 @@
 ---
 title: Abonnements
 ---
-Les abonnements sont destinés à envoyer des notifications par courriels liés aux activités dans {{ fr.DVLS }} . Cela peut être des activités reliées aux entrées, utilisateurs, configuration système, etc.  
+Les abonnements sont destinés à envoyer des notifications par courriels liés aux activités dans {{ fr.DVLS }}. Cela peut être des activités reliées aux entrées, utilisateurs, configuration système, etc.  
 ![Notifications - Abonnements](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8076.png)  
 
 ![Fenêtre de dialogue des propriétés d'un abonnement](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8149.png)  
@@ -60,7 +60,7 @@ Liste des différentes catégories d'abonnement. On ne peut que sélectionner un
 Filtres 
 		</td>
 		<td>
-Les filtres sont liés aux différentes catégories et chacune d'elles possède ses filtres respectifs. Pour ajouter un filtre, cliquez sur le bouton ***Ajouter un filtre*** . Veuillez noter que les filtres sont cumulatifs. 
+Les filtres sont liés aux différentes catégories et chacune d'elles possède ses filtres respectifs. Pour ajouter un filtre, cliquez sur le bouton ***Ajouter un filtre***. Veuillez noter que les filtres sont cumulatifs. 
 		</td>
 	</tr>
 </table>

@@ -4,7 +4,7 @@ title: Gérer la cache
 Cette option vous permet de gérer votre cache qui décide de la manière dont le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances. 
 
 {% snippet icon.badgeNotice %} 
-Cette fonctionnalité est disponible que lorsque le moteur hors ligne est configuré pour utiliser SQLite. Nous supprimons progressivement ce moteur en raison de plusieurs problèmes signalés par les clients. Nous vous recommandons d'utiliser ***MCDFv2*** . 
+Cette fonctionnalité est disponible que lorsque le moteur hors ligne est configuré pour utiliser SQLite. Nous supprimons progressivement ce moteur en raison de plusieurs problèmes signalés par les clients. Nous vous recommandons d'utiliser ***MCDFv2***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -58,7 +58,7 @@ Cela exécutera une commande SQLite pour réduire la taille de votre cache. L'op
 Réparer 
 		</td>
 		<td>
-La réparation exécutera ces commandes SQLite différentes pour réparer un cache corrompu:  
+La réparation exécutera ces commandes SQLite différentes pour réparer un cache corrompu :  
 
 * PRAGMA integrigy_check 
 * REINDEX DatabaseInfo 
@@ -66,5 +66,3 @@ La réparation exécutera ces commandes SQLite différentes pour réparer un cac
 		</td>
 	</tr>
 </table>
-
-

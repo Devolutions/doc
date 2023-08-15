@@ -13,13 +13,13 @@ Les scores sont évidemment sujets à caution et nous ne prétendons pas que cha
 
 |             |     |
 | ----------- | --- |
-| Description | Le protocole LDAPS devrait toujours être utilisé pour assurer la confidentialité et l'intégrité des communications sur le réseau. Autrement, des actions, comme des réinitialisations de mots de passe, pourraient envoyer le mot de passe en texte clair sur le réseau. | Mesures d'atténuation | Dans l'interface Web ***Administration - Paramètres Serveur - Authentification - Domaines*** , cochez la case ***Activer LDAPS*** . |
+| Description | Le protocole LDAPS devrait toujours être utilisé pour assurer la confidentialité et l'intégrité des communications sur le réseau. Autrement, des actions, comme des réinitialisations de mots de passe, pourraient envoyer le mot de passe en texte clair sur le réseau. | Mesures d'atténuation | Dans l'interface Web ***Administration - Paramètres Serveur - Authentification - Domaines***, cochez la case ***Activer LDAPS***. |
 
 ### La destination de journalisation externe devrait être configurée
 
 |             |     |
 | ----------- | --- |
-| Description | L'envoi des journaux à un système externe est préconisé pour préserver l'intégrité et la disponibilité des informations sur les événements. | Mesures d'atténuation | La journalisation est configurée dans l'interface web ***Administration - Paramètres Serveur - Journalisation*** . |
+| Description | L'envoi des journaux à un système externe est préconisé pour préserver l'intégrité et la disponibilité des informations sur les événements. | Mesures d'atténuation | La journalisation est configurée dans l'interface web ***Administration - Paramètres Serveur - Journalisation***. |
 
 ### Le compte de base de données mssql « sa » par défaut devrait être évité
 
@@ -55,7 +55,7 @@ Les scores sont évidemment sujets à caution et nous ne prétendons pas que cha
 
 |             |     |
 | ----------- | --- |
-| Description | Une configuration de serveur de messagerie est nécessaire pour transmettre les messages importants de l'application, tels que les événements ou les erreurs de sécurité. | Mesures d'atténuation | Les paramètres du serveur de courrier électronique se trouvent dans l'interface Web ***Administration - Paramètres Serveur - Courriel*** . |
+| Description | Une configuration de serveur de messagerie est nécessaire pour transmettre les messages importants de l'application, tels que les événements ou les erreurs de sécurité. | Mesures d'atténuation | Les paramètres du serveur de courrier électronique se trouvent dans l'interface Web ***Administration - Paramètres Serveur - Courriel***. |
 
 ### Les sauvegardes devraient être activées et configurées
 

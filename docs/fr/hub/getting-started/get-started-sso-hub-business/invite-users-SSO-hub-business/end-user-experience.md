@@ -31,7 +31,7 @@ C'est pourquoi nous souhaitons que l'utilisateur stocke cette ***Clé Privée***
 ## Méthode avec l'application {{ fr.DWS }} 
 
 1. Télécharger, sur un appareil mobile, l'application ***{{ fr.DWS }}***. 
-1. Cliquer ***Continuer*** .  
+1. Cliquer ***Continuer***.  
 ![Téléchargez {{ fr.DWS }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4177.png) 
 3. Dans l'application ***{{ fr.DWS }}***, accéder à l'espace ***Authenticator***, puis cliquer sur ***Ajouter***. 
 1. De retour à la page du navigateur, choisir l'option ***Application mobile***. 

@@ -1,7 +1,7 @@
 ---
 title: Modifier la clé maitresse
 ---
-Vous pouvez appliquer une clé maitresse pour crypter les fichiers de données de la source de données suivante: 
+Vous pouvez appliquer une clé maitresse pour crypter les fichiers de données de la source de données suivante : 
 
 * [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) 
 * [Dropbox](/fr/rdm/mac/data-sources/data-sources-types/dropbox/) 

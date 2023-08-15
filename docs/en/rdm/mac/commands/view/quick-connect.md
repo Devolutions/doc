@@ -10,7 +10,7 @@ title: Quick Connect
 Note that the ***Quick Connect*** tool only lets you specify a host, a computer, and a session type.To have access to the other options available in the windowed version, you have to use the ***Quick Connect*** icon in the ***View*** tab. 
 {% endsnippet %}
  
-When opening ***Quick Connect*** via the ***View*** tab, a window appears where you can specify your session ***Host*** , ***Username*** and ***Password*** .  
+When opening ***Quick Connect*** via the ***View*** tab, a window appears where you can specify your session ***Host***, ***Username*** and ***Password***.  
 ![Quick Connect Window](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0037.png) 
 
 Clicking on the first button next to the ***Host*** field opens yet another window where you will be able to select a computer to connect to in a list.  

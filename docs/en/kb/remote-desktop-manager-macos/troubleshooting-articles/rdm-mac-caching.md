@@ -17,4 +17,4 @@ Hold the ***Shift*** button on your keyboard and click on the refresh button in 
 
 ### Method 3
 
-You can manage the local cache by doing a ***Vaccum*** , a ***Repair*** or a ***Delete***
+You can manage the local cache by doing a ***Vaccum***, a ***Repair*** or a ***Delete***

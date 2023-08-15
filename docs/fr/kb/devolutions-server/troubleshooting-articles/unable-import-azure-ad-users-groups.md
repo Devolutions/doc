@@ -11,7 +11,7 @@ Si vous venez d'activer l'option d'Authentification Microsoft, le chargement du 
 ![!!KB4052.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4052.png) 
 1. Sur l'interface web {{ fr.DVLS }}, aller dans ***Administration – Paramètres Serveur – Journalisation*** et activer l'option ***Log de débogage***.  
 ![!!KB4053.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4053.png) 
-1. Aller dans ***Administration – Réinitialiser le cache du serveur*** et réinitialiser le cache d' ***Authentification de Microsoft***.  
+1. Aller dans ***Administration – Réinitialiser le cache du serveur*** et réinitialiser le cache d'***Authentification de Microsoft***.  
 ![!!KB4054.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4054.png) 
 1. Dans ***Rapports – Journaux de la source de données***, surveiller les journaux jusqu'à ce que vous obteniez l'entrée de journal de fin de mise à jour du cache d'Azure. 
 {% snippet icon.badgeInfo %} 

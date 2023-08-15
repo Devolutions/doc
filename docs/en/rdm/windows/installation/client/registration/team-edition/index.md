@@ -2,7 +2,7 @@
 title: Team Edition
 order: 10
 ---
-When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) , there is no need to register {{ en.RDM }} since the license serial is stored in the data source and retrieved directly from it. When launching the application for the first time, simply [add the data source](/rdm/windows/data-sources/create-new-data-source/) containing the serial. 
+When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), there is no need to register {{ en.RDM }} since the license serial is stored in the data source and retrieved directly from it. When launching the application for the first time, simply [add the data source](/rdm/windows/data-sources/create-new-data-source/) containing the serial. 
 
 {% snippet icon.badgeCaution %} 
 The license menu to register {{ en.RDM }} is available for SQLite and {{ en.HUBP }}, but not for other individual data sources. 
@@ -13,9 +13,9 @@ It is possible to [request a trial](/rdm/windows/installation/client/registratio
 {% endsnippet %}
  
 
-1. To add a license serial to the data source, navigate to ***Administration – Management – Licenses*** .  
+1. To add a license serial to the data source, navigate to ***Administration – Management – Licenses***.  
 ![Administration – Management – Licenses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3417.png) 
-1. Click ***Add License*** .  
+1. Click ***Add License***.  
 ![Add License Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4060.png) 
 1. Enter the license serial in the ***License*** field.  
 ![License Field](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0000.png) 

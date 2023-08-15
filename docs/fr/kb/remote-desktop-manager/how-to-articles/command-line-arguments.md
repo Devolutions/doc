@@ -101,7 +101,7 @@ Change le nom d’enregistrement de {{ fr.RDM }}. La valeur doit être saisie en
 /RegisterSerial:"{serial number}" 
 		</td>
 		<td>
-Change le numéro de licence de {{ fr.RDM }} . La valeur doit être saisie entre guillemets anglais (ex. : "123456789"). 
+Change le numéro de licence de {{ fr.RDM }}. La valeur doit être saisie entre guillemets anglais (ex. : "123456789"). 
 		</td>
 	</tr>
 	<tr>
