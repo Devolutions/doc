@@ -1,5 +1,7 @@
 ---
-title: Create an entry
+eleventyComputed:
+  title: Create an entry
+  description: When getting started with {{ en.RDM }}, you must configure your entries. There are many types of entries; you should know what third party or technology you will use to choose the appropriate entry type(s) that you plan on configuring.
 ---
 {% youtube '-3Dfoy1qaQ0' %}  
 

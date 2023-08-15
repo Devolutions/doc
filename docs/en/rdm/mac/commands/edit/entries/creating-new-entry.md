@@ -1,5 +1,7 @@
 ---
-title: Create an entry
+eleventyComputed:
+  title: Create an entry
+  description: When getting started with {{ en.RDMMAC }}, you must configure your entries. There are many types of entries; you should know what third party or technology you will use to choose the appropriate entry type(s) that you plan on configuring.
 ---
 When getting started with {{ en.RDMMAC }}, you must first configure your entries. There are many type of entries; you should know what third party or technology you will use to choose the appropriate entry type(s) that you plan on configuring. 
 
