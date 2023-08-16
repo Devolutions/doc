@@ -24,4 +24,4 @@ Créer des entrées manuellement et enregistrer vos données dans {{ fr.DVLS }}.
 
 Les sous entrées sont des entrées à part entière, indépendantes, situées sous une entrée « parent » dans l'arborescence. Elles se réfèrent à leur parent par un ID. Elles sont compatibles avec les pièces jointes, la documentation, l'historique complet, etc.
 
-Vous ne pouvez pas créer de sous entrées via l'interface Web de {{ fr.DVLS }}. Vous devez utiliser {{ fr.RDM }} avec une source de données {{ fr.DVLS }}. Voir [Créer une entrée (Windows)](/fr/rdm/windows/commands/edit/entries/creating-new-entry/) ou [Créer une entrée ({{ fr.MAC}})](/fr/rdm/windows/commands/edit/entries/creating-new-entry/).
+Vous ne pouvez pas créer de sous entrées via l'interface Web de {{ fr.DVLS }}. Vous devez utiliser {{ fr.RDM }} avec une source de données {{ fr.DVLS }}. Voir [Créer une entrée (Windows)](/fr/rdm/windows/commands/edit/entries/creating-new-entry/) ou [Créer une entrée ({{ fr.MAC}})](/fr/rdm/mac/commands/edit/entries/creating-new-entry/).
