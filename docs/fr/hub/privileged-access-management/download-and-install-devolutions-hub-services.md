@@ -1,7 +1,6 @@
 ---
 eleventyComputed:
   title: Télécharger et installer Devolutions Hub Services
-
   description: L'installateur de service Devolutions Hub facilite l'installation et l'intégration de nos modules, à commencer par celui de gestion des accès privilégiés (Beta). Une fois installé, le service permet la communication entre votre Hub Business et vos ressources internes.
 ---
 
@@ -11,7 +10,6 @@ L'installateur de service {{ fr.HUB }} facilite l'installation et l'intégration
 
 1. Aller dans Devolutions {{ fr.HUB }}.
 1. Cliquer ***Administration*** – ***Utilisateurs d'application***.  
-
 ![Administration – Utilisateurs d'application](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6044.png)  
 1. Sélectionner ***Ajouter un utilisateur d'application (+)***.  
 ![Ajouter un utilisateur d'application (+)](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6045.png)  
@@ -27,7 +25,6 @@ L'option ***Activité*** situé dans la fenêtre ***Utilisateur d'application***
 ## Modifier les Permissions pour l'Utilisateur d'application
 1. Aller dans Devolutions {{ fr.HUB }}.
 1. Cliquer ***Administration*** – ***Permissions du système***.
-
 ![Administration – Permissions du système](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6049.png)
 1. Aller dans le formulaire de modification.
 ![Formulaire de modification](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6050.png)
@@ -42,7 +39,6 @@ Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PA
 ## Pour tous les coffres du système
 
 1. Dans Devolutions {{ fr.HUB }}, aller dans ***Administration*** – ***Configuration et sécurité*** – ***Permissions du système***.
-
 ![Administration – Permissions du système](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6049.png)
 1. Aller dans le formulaire de modification.
 ![Formulaire de modification](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6050.png)
@@ -55,7 +51,6 @@ Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PA
 ## Pour un coffre PAM
 
 1. Dans Devolutions {{ fr.HUB }}, aller dans ***Administration*** – ***Gestion*** – ***Coffres***.
-
 ![Administration – Coffres](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6053.png)
 1. Aller dans le formulaire de modification du coffre PAM.
 1. Sélectionner l'onglet ***Modifier*** dans la section ***Permissions***.
@@ -75,16 +70,15 @@ Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PA
 1. Cliquer ***Next***.
 1. Entrer votre URL ***Host***.
 
-1. Entrer votre ***Clé secrète d'application*** et la ***Clé de l'application*** enregistrés précédemment.
+1. Entrer votre ***Clé secrète d'application*** et la ***Clé de l'application*** enregistrées précédemment.
 1. Cliquer ***Finir*** pour compléter l'installation.
-1. Cliquer ***Tester la connection***.
+1. Cliquer ***Tester la connexion***.
 
-1. Cliquer ***Next*** si votre connection est validée.
-![Connection validée](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6055.png) 
+1. Cliquer ***Next*** si votre connexion est validée.
+![Connexion validée](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6055.png) 
 ## Vérifier les journaux de Devolutions Hub Services
 
-Les journaux de Devolutions Hub Services sont disponibles dans ***Windows Event Viewer***. Le service devrait être capable de se connecter au fournisseur précédemment créé.
-
+Les journaux de Devolutions Hub Services sont disponibles dans ***Windows Event Viewer***. Le service devrait être capable de se connecter au fournisseur précédemment créé.  
 
 Il est également possible de voir Devolutions Hub Services en tant que service dans la fenêtre ***Services*** de Windows. Vous pouvez également afficher l'état actuel et démarrer ou arrêter le service.
 
