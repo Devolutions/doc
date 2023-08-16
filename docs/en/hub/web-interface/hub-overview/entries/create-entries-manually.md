@@ -9,7 +9,9 @@ Create entries manually and save your data in {{ en.HUBB }}.
 
 1. Select the {{ en.VLT }} / {{ en.UVLT }} and the folder in which you wish to create the new entry.
 1. Click on the ***Add*** button located in the ***{{ en.NPANE }}***.
+   ![Add](https://webdevolutions.azureedge.net/docs/en/hub/Hub2285.png)
 1. Select an [entry type](/hub/web-interface/hub-overview/entries/entry-type/) from the list.
+   ![Entry type](https://webdevolutions.azureedge.net/docs/en/hub/Hub2286.png)
 1. Click ***Continue***.
 1. Configure the entry with all the required information.
 1. Click ***Add*** to save.
