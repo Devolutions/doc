@@ -1,23 +1,50 @@
 ---
-title: Créer une entrée
+eleventyComputed:
+  title: Créer une entrée
+  description: Après l'installation de {{ fr.RDMMAC }}, il vous faut configurer vos entrées. Il existe plusieurs types d'entrées; vous devez savoir quel tiers ou quelle technologie vous utiliserez pour choisir le(s) type(s) d'entrée(s) approprié(s) que vous envisagez de configurer. 
 ---
+Après l'installation de {{ fr.RDMMAC }}, il vous faut configurer vos entrées. Il existe plusieurs types d'entrées; vous devez savoir quel tiers ou quelle technologie vous utiliserez pour choisir le(s) type(s) d'entrée(s) approprié(s) que vous envisagez de configurer. 
 
-Après l'installation de {{ fr.RDM }}, il faut configurer vos entrées. Il existe plusieurs types d'entrées : vous devez savoir quelle technologie ou quel tiers vous utiliserez pour vous connecter à distance. Ainsi, vous serez en mesure de choisir le type d'entrée le plus approprié selon votre future configuration.  
+## Créer une entrée
 
-{{ fr.RDMMAC }} prend en charge plusieurs types d'entrées. 
+### À partir du Ruban
 
-## Créer une entrée à partir du menu Nouvelle Entrée 
+Dans le ***{{ fr.NPANE }}***, sélectionnez l'endroit où vous souhaitez que l'entrée soit située. Dans le ***Ruban***, allez dans ***Modifier*** et cliquez sur ***Nouvelle entrée***. Vous serez invité à personnaliser vos paramètres dans la fenêtre des propriétés de l'entrée.  
+![Ajouter une entrée à partir du Ruban](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2054.png) 
 
-La méthode la plus simple consiste à : 
+### À partir du menu contextuel
 
-1. Créer une entrée à partir du menu Modifier dans le Ruban, puis sélectionner ***Nouvelle Entrée***.  
-![Menu Modifier - Ajouter une session](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip9008.png) 
-1. Cliquer sur le type d'entrée ou le modèle désiré pour lancer une session.  
-![Sélectionner le type d'entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip9007.png) 
-1. Dans la fenêtre des propriétés de la session, personnaliser les paramètres.  
-![Paramètres de la session](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip9009.png) 
+Dans le ***{{ fr.NPANE }}***, faites un clic droit à l'endroit où vous souhaitez que l'entrée soit située et sélectionnez ***Ajouter*** dans le menu. Pour initialiser une nouvelle session, vous pouvez spécifier le type de session ou un modèle. Vous serez invité à personnaliser vos paramètres dans la fenêtre des propriétés de l'entrée.  
+![Ajouter une entrée à partir du menu contextuel](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2055.png) 
 
-## Créer une session en important la configuration 
+### En important une configuration
 
-Vous pouvez aussi importer une session dans le menu ***Fichier - Importer***. Pour plus d'informations, consultez la section [Importer](/fr/rdm/mac/commands/file/import/sessions/). 
+Vous pouvez également importer des entrées dans ***Fichier – Importer***. Pour en savoir plus, consultez [Importer](/rdm/mac/commandes/file/import/sessions/).
 
+## Créer une sous entrée
+
+{% snippet icon.badgeInfo %}
+Depuis la version 2022.3 de {{ fr.RDMMAC }}, les sous entrées ont remplacé les sous connexions. Elles sont différentes dans la mesure où les sous connexions étaient stockées en XML dans leur entrée parente, ce qui n'est pas le cas des sous entrées. Celles-ci sont beaucoup plus polyvalentes.  
+
+La migration des sous connexions préexistantes vers les nouvelles sous entrées est automatique lors de la mise à jour de {{ en.RDM }} de la version 2022.2 ou antérieure vers la version 2022.3 ou ultérieure.
+{% endsnippet %}  
+
+Les sous entrées sont des entrées à part entière, indépendantes, situées sous une entrée « parent » dans l'arborescence. Elles se réfèrent à leur parent par un ID. Elles sont compatibles avec les pièces jointes, la documentation, l'historique complet, etc. 
+
+Elles se trouvent sous l'entrée parent ou dans l'onglet ***Sous entrées*** du [***Tableau de bord***](/rdm/mac/user-interface/content-area/dashboard/) de l'entrée parent.
+
+{% snippet icon.badgeInfo %}
+Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
+{% endsnippet %}  
+
+### À partir du Ruban
+
+Dans le ***{{ fr.NPANE }}***, sélectionnez l'entrée sous laquelle vous souhaitez placer une sous entrée. Dans le ***Ruban***, allez dans ***Modifier*** et cliquez sur ***Nouvelle entrée***. Comme vous avez précédemment sélectionné l'entrée parente, vous serez invité à choisir entre la création d'une sous entrée ou d'une entrée. Sélectionnez ***Nouvelle sous entrée***. Ensuite, personnalisez vos paramètres dans la fenêtre des propriétés de l'entrée.  
+![Ajouter une sous entrée à partir du Ruban](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2054.png) 
+![Invitation à créer une nouvelle sous entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2057.png) 
+
+### À partir du menu contextuel
+
+Dans le ***{{ fr.NPANE }}***, faites un clic droit sur l'entrée sous laquelle vous souhaitez placer une sous entrée et sélectionnez ***Ajouter*** dans le menu. Pour initialiser une nouvelle session, vous pouvez spécifier le type de session ou un modèle. Vous serez invité à choisir entre la création d'une sous entrée ou d'une entrée. Sélectionnez ***Nouvelle sous entrée***. Ensuite, personnalisez vos paramètres dans la fenêtre des propriétés de l'entrée.  
+![Ajouter une sous entrée à partir du menu contextuel](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2056.png) 
+![Invitation à créer une nouvelle sous entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2057.png) 

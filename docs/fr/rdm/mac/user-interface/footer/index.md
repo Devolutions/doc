@@ -8,4 +8,3 @@ Veuillez consulter les rubriques suivantes pour plus d'informations :
 
 * [Description](/fr/rdm/mac/user-interface/footer/description/) 
 * [Information](/fr/rdm/mac/user-interface/footer/information/) 
-* [Sous entrée](/fr/rdm/mac/user-interface/footer/sub-connections/) 

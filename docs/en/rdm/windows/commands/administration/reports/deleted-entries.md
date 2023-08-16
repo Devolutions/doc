@@ -1,7 +1,7 @@
 ---
-title: Deleted Entries
+title: Deleted entries
 ---
-The **Administration** – **Deleted Entries** option allows you to view the deleted entries as well as restoring them.  
+The ***Administration – Deleted Entries*** option allows you to view the deleted entries as well as restoring them.  
 
 {% snippet icon.badgeInfo %} 
 This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
@@ -9,15 +9,11 @@ This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-s
  
 {% snippet icon.badgeInfo %} 
 Administrators can permanently delete some or all deleted entries. 
-{% endsnippet %}
- 
-{% snippet icon.badgeCaution %} 
-Sub entries are not retained in the View Deleted window. To restore a sub entry, please have a look at Entry History. 
-{% endsnippet %}
- 
+{% endsnippet %} 
+
 ## Settings 
 
-### Manage Deleted Entries 
+### Manage deleted entries 
 
 The ***Deleted Entries*** will generate a list containing all the entries previously deleted from your data source. You may resurrect an entry, meaning it will become an active entry again and will be shown in your data source. You may also chose to permanently delete your entries, once you have permanently deleted your entries you won't be able to resurrect them afterward.  
 ![Deleted Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10308.png) 
@@ -63,5 +59,4 @@ Deleted entries can be resurrected as long as the [Security Provider](/rdm/windo
  
 ### Export deleted entries list 
 
-You can r ight-click on one or several lines to export them in CSV, HTML or XML format. 
-
+You can right-click on one or several lines to export them in CSV, HTML, or XML format. 
