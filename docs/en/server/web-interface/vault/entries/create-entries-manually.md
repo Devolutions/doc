@@ -1,20 +1,24 @@
 ---
-title: Create Entries Manually
-keywords:
-- Private vault
+eleventyComputed:
+  title: Create entries manually
+  description: Create entries manually and save your data in {{ en.DVLS }}.
 ---
-Create entries manually and save your data in {{ en.DVLS }}. 
-### Create an entry 
-1. Select the {{ en.VLT }} or {{ en.UVLT }} and the folder where you want to create the new entry. 
-1. Click on the ***Add*** button to create a new entry. 
-{% snippet icon.badgeInfo %} 
-Hovering the mouse over the ***Add*** button will display a list of shortcuts for common entries. 
-{% endsnippet %}
+Create entries manually and save your data in {{ en.DVLS }}.
 
-![Add a new Entry](https://webdevolutions.azureedge.net/docs/en/server/clip10073.png) 
- 
-1. Select an entry from the [Entry Type](/server/web-interface/vault/entries/entry-type/) in the list. 
-1. Click ***Continue***. 
-1. Configure the entry with all the specification required. 
-1. Click ***Add*** to save. 
+## Create an entry
 
+1. Select the {{ en.VLT }} or {{ en.UVLT }} and the folder in which you wish to create the new entry.
+1. Click on the ***Add*** button located in the ***{{ en.NPANE }}***.
+   {% snippet icon.badgeInfo %}
+   Hovering over the ***Add*** button will display shortcuts for common entry types.
+   {% endsnippet %}
+1. Select an [entry type](/server/web-interface/vault/entries/entry-type/) from the list.
+1. Click ***Continue***.
+1. Configure the entry with all the required information.
+1. Click ***Add*** to save.
+
+## Create a sub entry
+
+Sub entries are full-fledged, independant entries located bewlow a "parent" entry in the tree view. They refer to their parent with an ID. They are compatible with attachments, documentation, full history, etc.
+
+You cannot create sub entries via the {{ en.DVLS }} web interface. You must use {{ en.RDM }} with a {{ en.DVLS }} data source. See [Create an entry (Windows)](/rdm/windows/commands/edit/entries/creating-new-entry/) or [Create an entry ({{ en.MAC}})](/rdm/mac/commands/edit/entries/creating-new-entry/).

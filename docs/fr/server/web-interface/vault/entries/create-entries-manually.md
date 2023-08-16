@@ -1,23 +1,24 @@
 ---
-title: Créer des entrées manuellement
-keywords:
-- Coffre privé
+eleventyComputed:
+  title: Créer des entrées manuellement
+  description: Créer des entrées manuellement et enregistrer vos données dans {{ fr.DVLS }}.
 ---
-Créer des entrées manuellement et enregistrer vos données dans {{ fr.DVLS }}. 
+Créer des entrées manuellement et enregistrer vos données dans {{ fr.DVLS }}.
 
-### Créer une entrée 
+## Créer une entrée
 
-1. Sélectionner le ***{{ fr.VLT }}*** ou ***{{ fr.UVLT }}*** et le dossier dans lequel vous souhaitez créer la nouvelle entrée. 
-1. Cliquer sur le bouton ***Ajouter*** pour créer une nouvelle entrée. 
+1. Sélectionner le {{ fr.VLT }} / {{ fr.UVLT }} et le dossier dans lequel vous souhaitez créer la nouvelle entrée.
+1. Cliquer sur le bouton ***Ajouter*** situé dans le ***{{ fr.NPANE }}***.
+   {% snippet icon.badgeInfo %} 
+   En survolant le bouton ***Ajouter***, des raccourcis pour les types d'entrée les plus courants s'affichent.
+   {% endsnippet %}
+1. Sélectionner un [type d'entrée](/fr/server/web-interface/vault/entries/entry-type/) dans la liste.
+1. Cliquer sur ***Continuer***.
+1. Configurer l'entrée avec toutes les informations requises.
+1. Cliquer sur ***Ajouter*** pour enregistrer.
 
-{% snippet icon.badgeInfo %} 
-Survoler le bouton ***Ajouter*** pour afficher une liste de raccourcis pour les entrées courantes. 
-{% endsnippet %}
+## Créer une sous entrée
 
-![Ajouter une nouvelle entrée](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4087.png) 
+Les sous entrées sont des entrées à part entière, indépendantes, situées sous une entrée « parent » dans l'arborescence. Elles se réfèrent à leur parent par un ID. Elles sont compatibles avec les pièces jointes, la documentation, l'historique complet, etc.
 
-3. Sélectionner une entrée dans la liste de [Type d'entrée](/fr/server/web-interface/vault/entries/entry-type/). 
-1. Cliquer ***Continuer***. 
-1. Configurer l'entrée avec toutes les spécifications requises. 
-1. Cliquer ***Ajouter*** pour sauvegarder. 
-
+Vous ne pouvez pas créer de sous entrées via l'interface Web de {{ fr.DVLS }}. Vous devez utiliser {{ fr.RDM }} avec une source de données {{ fr.DVLS }}. Voir [Créer une entrée (Windows)](/fr/rdm/windows/commands/edit/entries/creating-new-entry/) ou [Créer une entrée ({{ fr.MAC}})](/fr/rdm/windows/commands/edit/entries/creating-new-entry/).
