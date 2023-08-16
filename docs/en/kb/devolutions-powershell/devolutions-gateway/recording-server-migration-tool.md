@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Legacy recording server migration tool
-  description: 
+  description: This PowerShell script transforms session recording files from the legacy Devolutions recording server to the {{ en.DGW }} session recording format
 ---
 This PowerShell script transforms session recording files from the legacy Devolutions recording server to the {{ en.DGW }} session recording format, allowing you to migrate without losing previous recordings. Once the files are converted to the new format, they'll need to be re-indexed from {{ en.DVLS }} such that they can be found in their new location for playback from {{ en.DGW }}.
 
