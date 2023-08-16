@@ -43,17 +43,29 @@ Les sous entrées sont des entrées à part entière, indépendantes, situées s
 Elles se trouvent sous l'entrée parent ou dans l'onglet ***Sous entrées*** du [***Tableau de bord***](/fr/rdm/windows/user-interface/content-area/dashboards/) de l'entrée parent.
 
 {% snippet icon.badgeInfo %}
-Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
-{% endsnippet %}  
+Pour créer des sous entrées, assurez-vous que l'option ***Autoriser les sous entrées*** est activée dans la liste d'options dans ***Fichier - Options - Avancé***.  
+
+Pour voir les sous entrées dans le ***{{ fr.NPANE }}***, assurez-vous que l'option ***Charger les sous entrées dans l'arborescence*** est activée dans la liste d'options dans ***Fichier - Options - Interface utilisateur - Arborescence***.
+{% endsnippet %}
 
 ### À partir du Ruban
 
 Dans le ***{{ fr.NPANE }}***, sélectionnez l'entrée sous laquelle vous souhaitez placer une sous entrée. Dans le ***Ruban***, allez dans ***Modifier*** et cliquez sur ***Nouvelle entrée***. Comme vous avez précédemment sélectionné l'entrée parente, vous serez invité à choisir entre la création d'une sous entrée ou d'une entrée. Sélectionnez ***Nouvelle sous entrée***. Ensuite, personnalisez vos paramètres dans la fenêtre des propriétés de l'entrée.  
+
+{% snippet icon.badgeInfo %}
+Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
+{% endsnippet %}  
+
 ![Ajouter une sous entrée à partir du Ruban](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2134.png) 
 ![Invitation à créer une nouvelle sous entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2136.png) 
 
 ### À partir du menu contextuel
 
 Dans le ***{{ fr.NPANE }}***, faites un clic droit sur l'entrée sous laquelle vous souhaitez placer une sous entrée et sélectionnez ***Ajouter*** dans le menu. Pour initialiser une nouvelle session, vous pouvez spécifier le type de session ou un modèle. Vous serez invité à choisir entre la création d'une sous entrée ou d'une entrée. Sélectionnez ***Nouvelle sous entrée***. Ensuite, personnalisez vos paramètres dans la fenêtre des propriétés de l'entrée.  
+
+{% snippet icon.badgeInfo %}
+Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.
+{% endsnippet %}  
+
 ![Ajouter une sous entrée à partir du menu contextuel](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2137.png) 
 ![Invitation à créer une nouvelle sous entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2136.png) 

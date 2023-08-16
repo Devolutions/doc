@@ -40,11 +40,21 @@ You cannot create a sub entry under another sub entry.
 ### From the Ribbon
 
 In the ***{{ en.NPANE }}***, select the entry under which you wish to place a sub entry. In the ***Ribbon***, go to ***Edit*** and click on ***New Entry***. Since you have previously selected the parent entry, you will be prompted to choose either to create a sub entry or an entry. Select ***New Sub Entry***. Then, customize your settings in the entry properties window.  
+
+{% snippet icon.badgeInfo %}
+You cannot create a sub entry under another sub entry.
+{% endsnippet %}  
+
 ![Add a sub entry from the Ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2092.png) 
 ![New Sub Entry prompt](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2096.png) 
 
 ### From the contextual menu
 
 In the ***{{ en.NPANE }}***, right-click the entry under which you wish to place a sub entry and select ***Add*** from the menu. To initialize a new session, you can specify either the type of session or a template. You will be prompted to choose either to create a sub entry or an entry. Select ***New Sub Entry***. Then, customize your settings in the entry properties window.  
+
+{% snippet icon.badgeInfo %}
+You cannot create a sub entry under another sub entry.
+{% endsnippet %}  
+
 ![Add a sub entry from the contextual menu](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2095.png) 
 ![New Sub Entry prompt](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2096.png) 
