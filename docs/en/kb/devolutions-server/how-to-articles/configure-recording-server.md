@@ -1,19 +1,28 @@
 ---
 title: Configure Recording Server
 ---
-The following steps will describe the options to install the ***Recording Server*** for {{ en.DVLS }}. It is possible to install the ***Recording Server*** on a stand alone machine. It is recommended to install the ***Recording Server*** using using the [{{ en.DGW }} method](#endgw--installation) since the [{{ en.DVLS }} format](#endvlsconsole--installation) is now deprecated.
+The following steps will describe the options to install the ***Recording Server*** for {{ en.DVLS }}. It is possible to install the it on a stand alone machine. It is recommended to install the ***Recording Server*** using the [{{ en.DGW }} method](#devolutions-gateway-installation) since the [{{ en.DVLS }} format](#devolutions-server-console-installation) is now deprecated.
 
 ## {{ en.DGW }} installation
-{% snippet icon.badgeInfo %}
+{% snippet icon.badgeHelp %}
 A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first needs be installed before starting this process.
 {% endsnippet %}  
 
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
-1. 
+1. Go to ***Administration*** – ***System Settings*** – ***Recording Server***.
+1. Click on ***Enable {{ en.DGW }} recording***.  
+![Enable {{ en.DGW }} recording](https://webdevolutions.azureedge.net/docs/en/kb/KB0130.png)
+   {% snippet icon.badgeHelp %}
+   It is possible to [migrate legacy session recording files](/kb/devolutions-powershell/devolutions-gateway/recording-server-migration-tool).
+   {% endsnippet %}  
+
+1. Disable the ***Enable legacy recording server*** option.
+1. Click ***Save***.  
+![Save](https://webdevolutions.azureedge.net/docs/en/kb/KB0131.png)
 
 ## {{ en.DVLSCONSOLE }} installation
-{% snippet icon.badgeInfo %}
-This ***Recording Server*** format is only recommended for versions 2022.3 and prior.
+{% snippet icon.badgeCaution %}
+As it is now deprecated, this ***Recording Server*** format is only recommended for versions 2022.3 and prior.
 {% endsnippet %}  
 
 {% snippet icon.badgeInfo %}
@@ -38,10 +47,10 @@ The {{ en.DVLSCONSOLE }} is required to install the ***Recording Server***.
    | Installation Folder         | ***Recording Server*** application installation folder |
    | Output Folder               | Destination folder of the recorded sessions |
 
-   | Certificate              | Description |
-   | ------------------------ | ----------- |
-   | Use Existing Certificate | Path to an existing certificate file |
-   | Cert. Password           | Certificate password |
+   | Certificate                 | Description |
+   | --------------------------- | ----------- |
+   | Use Existing Certificate    | Path to an existing certificate file |
+   | Cert. Password              | Certificate password |
 
    | Advanced                | Description |
    | ----------------------- | ----------- |
