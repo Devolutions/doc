@@ -1,11 +1,11 @@
 ---
 title: Configure Recording Server
 ---
-The following steps will describe the options to install the ***Recording Server*** for {{ en.DVLS }}. It is possible to install the it on a stand alone machine. It is recommended to install the ***Recording Server*** using the [{{ en.DGW }} method](#devolutions-gateway-installation) since the [{{ en.DVLS }} format](#devolutions-server-console-installation) is now deprecated.
+The following steps will describe the options to install the ***Recording Server*** for {{ en.DVLS }}. It is possible to install it on a standalone machine. It is recommended to install the ***Recording Server*** using the [{{ en.DGW }} method](#devolutions-gateway-installation) since the [{{ en.DVLS }} format](#devolutions-server-console-installation) is now deprecated.
 
 ## {{ en.DGW }} installation
 {% snippet icon.badgeHelp %}
-A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first needs be installed before starting this process.
+A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first needs to be installed before starting this process.
 {% endsnippet %}  
 
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
@@ -22,7 +22,7 @@ A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first
 
 ## {{ en.DVLSCONSOLE }} installation
 {% snippet icon.badgeCaution %}
-As it is now deprecated, this ***Recording Server*** format is only recommended for versions 2022.3 and prior.
+As it is now deprecated, this ***Recording Server*** format is only recommended for version 2022.3 and prior.
 {% endsnippet %}  
 
 {% snippet icon.badgeInfo %}
@@ -47,10 +47,10 @@ The {{ en.DVLSCONSOLE }} is required to install the ***Recording Server***.
    | Installation Folder         | ***Recording Server*** application installation folder |
    | Output Folder               | Destination folder of the recorded sessions |
 
-   | Certificate                 | Description |
-   | --------------------------- | ----------- |
-   | Use Existing Certificate    | Path to an existing certificate file |
-   | Cert. Password              | Certificate password |
+   | Certificate              | Description |
+   | ------------------------ | ----------- |
+   | Use Existing Certificate | Path to an existing certificate file |
+   | Cert. Password           | Certificate password |
 
    | Advanced                | Description |
    | ----------------------- | ----------- |
