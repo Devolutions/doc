@@ -19,7 +19,7 @@ Dans le ***{{ fr.NPANE }}***, faites un clic droit à l'endroit où vous souhait
 
 ### En important une configuration
 
-Vous pouvez également importer des entrées dans ***Fichier – Importer***. Pour en savoir plus, consultez [Importer](/rdm/mac/commandes/file/import/sessions/).
+Vous pouvez également importer des entrées dans ***Fichier – Importer***. Pour en savoir plus, consultez [Importer](/fr/rdm/mac/commands/file/import/sessions/).
 
 ## Créer une sous entrée
 
@@ -31,7 +31,7 @@ La migration des sous connexions préexistantes vers les nouvelles sous entrées
 
 Les sous entrées sont des entrées à part entière, indépendantes, situées sous une entrée « parent » dans l'arborescence. Elles se réfèrent à leur parent par un ID. Elles sont compatibles avec les pièces jointes, la documentation, l'historique complet, etc. 
 
-Elles se trouvent sous l'entrée parent ou dans l'onglet ***Sous entrées*** du [***Tableau de bord***](/rdm/mac/user-interface/content-area/dashboard/) de l'entrée parent.
+Elles se trouvent sous l'entrée parent ou dans l'onglet ***Sous entrées*** du [***Tableau de bord***](/fr/rdm/mac/user-interface/content-area/dashboard/) de l'entrée parent.
 
 ### À partir du Ruban
 
