@@ -1,5 +1,5 @@
 ---
-title: Installer les rôles serveur Web prérequis
+title: Installation des rôles serveur Web prérequis
 order: 40
 status: Topic available in German language
 ---
@@ -42,6 +42,8 @@ Cette fenêtre apparaitra seulement si un prérequis est manquant lors d'une nou
 ![Emplacement du script PowerShell](https://webdevolutions.azureedge.net/docs/fr/server/clip10311.png) 
 
     1. Exécuter le script DVLS-Prerequisites.ps1. 
-    1. Le script installera les rôles Web manquants et ces composants : le module de réécriture d'URL IIS, l'Application Request Routing Module IIS et le module IIS [APS.Net](http://aps.net/) Core (.Net 6.0).  
+    1. Le script installera les rôles Web manquants et les composants suivants :
+        * le module de réécriture d'URL IIS
+        * l'Application Request Routing Module IIS
+        * le module IIS [APS.Net](http://aps.net/) Core (.Net 6.0).  
 ![!!ServerOp4038.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4038.png) 
-
