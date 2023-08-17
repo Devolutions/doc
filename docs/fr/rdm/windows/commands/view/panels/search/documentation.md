@@ -56,7 +56,7 @@ Liste les différents titres de pages. Lorsqu'une entrée contient plusieurs pag
 	</tr>
 </table>
 
-Il est possible de sélectionner plusieurs entrées à la fois avec Maj+Clic ou toutes les entrées avec le raccourci Ctrl+A. Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***.
+Il est possible de sélectionner plusieurs entrées à la fois avec Maj+clic ou toutes les entrées avec le raccourci Ctrl+A. Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***.
 
 ### Autres fonctionnalités 
 

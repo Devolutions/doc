@@ -15,7 +15,7 @@ Firefox does not trust the same certificates as Windows and a setting must be ap
 Please consult [Mozilla's Knowledge Base article](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).
 {% endsnippet %}  
 
-1. Open the Microsoft Management Console by searching for ***MMC*** in the ***Start*** menu. Another way is to press the Win+R keys on your keyboard and, in the ***Run*** window, search for ***MMC***.
+1. Open the Microsoft Management Console by searching for ***MMC*** in the ***Start*** menu. Another way is to press the Windows+R keys on your keyboard and, in the ***Run*** window, search for ***MMC***.
 1. Select ***File – Add/Remove Snap-in***.
 1. In the ***Available snap-ins*** box, select ***Certificates***.
 1. Click the ***Add*** button.

@@ -1,5 +1,5 @@
 ---
-title: How to Export and Import Entries
+title: How to export and import entries
 ---
 {% youtube 'jipoCzhIEs8' %}  
 
@@ -18,7 +18,7 @@ The first method is done directly <a href="#Export/Import Through {{ en.RDM }}">
    To export the entire vault, go to ***File – Export – Export Vault (.rdm)*** and skip to <a href="#step4">step 4</a>
    {% endsnippet %}
 
-1. Select the entries and/or folders you wish to export. Use the Ctrl+Click shortcut to select multiple items at once.
+1. Select the entries and/or folders you wish to export. Use the Ctrl+click shortcut to select multiple items at once.
 1. Right-click on the selection. In the contextual menu, select ***Export – Export Selection (.rdm)***.  
 ![Export Selection (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4998.png)
 1. <a name="step4"></a>In the ***Export Entries*** window, check the options that you want to enable. For a typical migration, check the ***Include credentials, Include attachments and documents***, and ***Encrypt with master key*** options.

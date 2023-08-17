@@ -35,7 +35,7 @@ Refer to the sections below depending on the chosen source.
 The next screen will immediately be populated with the result of the network discovery.  
 ![!!clip10737.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10737.png) 
 
-If you prefer your sessions to use the IP address instead of the Host name to connect to the devices, check the ***Select by IP address*** option. This requires that the ***Resolve by IP address*** was selected in the first screen of the wizard. Select the computers for which you want to create session and proceed to [Template Selection](#template-selection) below. Multi-select is allowed by using Ctrl+Click and Shift-Click. 
+If you prefer your sessions to use the IP address instead of the Host name to connect to the devices, check the ***Select by IP address*** option. This requires that the ***Resolve by IP address*** was selected in the first screen of the wizard. Select the computers for which you want to create session and proceed to [Template Selection](#template-selection) below. Multi-select is allowed by using Ctrl+click and Shift-Click. 
 
 ### Active directory 
 
@@ -45,7 +45,7 @@ The following screen allows you to select the domain to interrogate after which 
 After the query is executed, the results are displayed in the grid.  
 ![!!clip10094.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10094.png) 
 
-If you prefer your sessions to use the IP address instead of the Host name to connect to the devices, check the ***Select by IP address*** option. This requires that the ***Resolve by IP address*** was selected in the first screen of the wizard. Select the computers for which you want to create session and proceed to [Template Selection](#template-selection) below. Multi-select is allowed by using Ctrl+Click and Shift-click. 
+If you prefer your sessions to use the IP address instead of the Host name to connect to the devices, check the ***Select by IP address*** option. This requires that the ***Resolve by IP address*** was selected in the first screen of the wizard. Select the computers for which you want to create session and proceed to [Template Selection](#template-selection) below. Multi-select is allowed by using Ctrl+click and Shift-click. 
 
 ### Host list 
 

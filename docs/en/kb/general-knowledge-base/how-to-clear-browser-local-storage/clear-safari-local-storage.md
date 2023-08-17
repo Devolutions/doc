@@ -9,7 +9,7 @@ keywords:
 Here are the steps to clear your local storage in the Safari browser:  
 
 1. Open a Safari browser page.
-1. Use your keyboard **Option+Command+C** keys to open the Safari Javascript Console.  
+1. Use your keyboard **Alt+Cmd+C** keys to open the Safari Javascript Console.  
 ![Safari Javascript Console](https://webdevolutions.azureedge.net/docs/en/kb/KB4877.png)  
 1. Click ***Storage*** in the console's top menu.  
 ![Console – Storage](https://webdevolutions.azureedge.net/docs/en/kb/KB4878.png)  

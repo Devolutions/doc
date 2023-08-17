@@ -6,7 +6,7 @@ Il est possible pour {{ fr.RDM }} d’afficher plusieurs écrans à distance lor
 
 Vous devez cependant posséder autant de moniteurs que le bureau à distance auquel vous souhaitez vous connecter. Si, par exemple, vous ne disposez que d’un seul moniteur localement, vous ne verrez que l’écran principal du bureau à distance. 
 {% snippet icon.badgeInfo %} 
-Pour voir une application qui ne s’affiche pas automatiquement sur le moniteur, nous avons déniché cette [discussion](https://superuser.com/questions/53585/how-to-move-windows-that-open-up-offscreen) dans laquelle il est conseillé d’utiliser la combinaison Windows+Maj+Flèche gauche/droite. Pour de nombreuses applications, il est possible d’effectuer un clic droit sur leur icône dans la barre des tâches et de sélectionner l’option ***Déplacer sur l’écran actuel***. 
+Pour voir une application qui ne s’affiche pas automatiquement sur le moniteur, nous avons déniché cette [discussion](https://superuser.com/questions/53585/how-to-move-windows-that-open-up-offscreen) dans laquelle il est conseillé d’utiliser la combinaison Windows+Maj+Gauche/Droite. Pour de nombreuses applications, il est possible d’effectuer un clic droit sur leur icône dans la barre des tâches et de sélectionner l’option ***Déplacer sur l’écran actuel***. 
 {% endsnippet %}
 
 1. Dans les ***Propriétés*** d’une entrée RDP, définir l’ ***Affichage*** à ***Externe***. 

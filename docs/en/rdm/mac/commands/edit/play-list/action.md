@@ -32,7 +32,7 @@ The {{ en.UVLT }} Play List is saved inside your {{ en.UVLT }} which is a user c
 
 ### Create Play List by selecting entries in the ***{{ en.NPANE }}***  
 
-1. Select the entries for your Play List in your ***{{ en.NPANE }}*** using Command + click.  
+1. Select the entries for your Play List in your ***{{ en.NPANE }}*** using Cmd+click.  
 ![{{ en.NPANE }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10111.png) 
 1. Right click in your ***{{ en.NPANE }}*** and select ***Play List - Create Play List***.  
 ![Create Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10363.png) 

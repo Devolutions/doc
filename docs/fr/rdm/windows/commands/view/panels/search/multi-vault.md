@@ -75,7 +75,7 @@ Rechercher en tapant une partie ou la totalité d'un mot contenu dans le nom des
 Les résultats s'affichent après avoir appuyé sur le bouton ***Recherche***. Une fois effectué, le nom des entrées et dossiers et le coffre dans lequel ils se trouvent sont affichés dans le champ des résultats. Les chemins d'accès aux entrées et dossiers sont également affichés au-dessus de chaque résultat ou groupe de résultats.  
 ![!!RDMWin2013.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2013.png) 
 
-Il est possible de sélectionner plusieurs entrées à la fois avec Maj+Clic ou toutes les entrées avec le raccourci Ctrl+A. Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***. 
+Il est possible de sélectionner plusieurs entrées à la fois avec Maj+clic ou toutes les entrées avec le raccourci Ctrl+A. Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***. 
 
 ### Autres fonctionnalités 
 

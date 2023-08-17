@@ -6,7 +6,7 @@ You are not seeing the content that you're expecting to see in the ***{{ en.NPAN
 
 ## Method 1
 
-Press Command+Shift+R on your keyboard.
+Press Cmd+Shift+R on your keyboard.
 
 ## Method 2
 

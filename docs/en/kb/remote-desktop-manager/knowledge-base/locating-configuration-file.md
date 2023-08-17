@@ -19,7 +19,7 @@ Note that if you are storing passwords to your datasource(s) and/or your {{ en.D
 Note that this example assumes that {{ en.RDM }} was installed with the default settings. 
 {% endsnippet %}
  
-1. Press the ***Windows key + R***. 
+1. Press Windows+R. 
 1. Type "***%LOCALAPPDATA%\Devolutions\RemoteDesktopManager***" in the ***Run*** window and press ***OK***. 
 ![Run window](https://webdevolutions.azureedge.net/docs/en/kb/KB2028.png) 
 1. In the folder, locate the RemoteDesktopManager.cfg file.  

@@ -7,7 +7,7 @@ In {{ en.RDM }} it is possible to display multiple remote screens from an RDP se
 You will need to have as many monitors locally. For example, if you only have one local monitor, and the remote has two, you will only be able to see the primary screen of the remote.
 
 {% snippet icon.badgeInfo %}
-To view an application that does not present itself on the displayed monitor we found this [topic](https://superuser.com/questions/53585/how-to-move-windows-that-open-up-offscreen) that uses the key combination ***Windows+Shift+Left arrow*** or ***Right arrow*** Also many applications let you right-click on the icon in the task bar and use the ***Move to the current display*** option.
+To view an application that does not present itself on the displayed monitor we found this [topic](https://superuser.com/questions/53585/how-to-move-windows-that-open-up-offscreen) that uses the key combination Windows+Shift+Left/Right  Also many applications let you right-click on the icon in the task bar and use the ***Move to the current display*** option.
 {% endsnippet %}
 
 1. In the ***Properties*** of an RDP entry, change the local ***Display*** for ***External***  

@@ -4,6 +4,6 @@ eleventyComputed:
   description: When using a terminal or console through {{ en.RDM }}, it is possible to make selections using shortcuts.
 ---
 When using a terminal or console through {{ en.RDM }}, it is possible to make selections using these shortcuts:  
-* Ctrl+Shift+Left-click and drag: Selection
-* Shift+Left-click and drag: Continue selection
-* Alt+Left-click and drag: Rectangular selection
+* Ctrl+Shift+left-click and drag: Selection
+* Shift+left-click and drag: Continue selection
+* Alt+left-click and drag: Rectangular selection

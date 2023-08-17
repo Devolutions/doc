@@ -11,7 +11,7 @@ Using the ***Copy Username*** and ***Copy Password*** features in {{ en.RDM }} c
 1. Paste the information in ***Notepad***.
 1. The ***Blocklisted*** and ***Allowlisted*** boxes should display all involved applications.  
 
-In this screen shot you see "notepad++" Windows Clipboard History (WindowsKey + V), it's blocked by default. In your case, ***Notepad*** should be allowlisted but you most likely have another process either blocklisted or allowlisted.  
+In this screen shot you see "notepad++" Windows Clipboard History (Windows+V), it's blocked by default. In your case, ***Notepad*** should be allowlisted but you most likely have another process either blocklisted or allowlisted.  
 
 ![!!KB8042.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8042.png)  
 
