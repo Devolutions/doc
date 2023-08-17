@@ -17,7 +17,7 @@ The following table lists the minimum recommended hardware specifications for {{
 |Basic implementation {width=200px} |Mid-Range implementation {width=250px} |Large implementation    |
 |:--------------------------: |:------------------------: |:---------------------: |
 |(1-20 concurrent users)<br>With a standalone SQL Server<br>4 core processors<br>8 GB RAM<br>Network adapter (1 GB)<br>|(21-75 concurrent users)<br>With a standalone SQL Server<br>4 core processors<br>8 GB RAM<br>Network adapter (1 GB)<br>|(75+ concurrent users) <br>We recommend deploying multiple {{ en.DVLS }}s in a load-balancing topology with a high-availability SQL Server.|
-|With a SQL Server installed on the same machine.<br>4 core processors<br>16 GB RAM<br>Network adapter (1 GB)<br>|With a SQL Server installed on the same machine.<br>4 core processors<br>16 GB RAM<br>Network adapter (1 GB)<br>|See [High availability topology](/server/overview/topologies/#high-availability-topology).|
+|With a SQL Server installed on the same machine.<br>4 core processors<br>16 GB RAM<br>Network adapter (1 GB)<br>|With a SQL Server installed on the same machine.<br>4 core processors<br>16 GB RAM<br>Network adapter (1 GB)<br>|See [High-availability topology](/server/overview/topologies/#high-availability-topology).|
 
 ## Software dependencies
 
