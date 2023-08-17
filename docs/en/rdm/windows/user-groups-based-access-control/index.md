@@ -17,7 +17,7 @@ Here are the main key points of the user group based access system:
 While the user group based access control is a great feature to secure access to entries, many other features can be used to add more security layers. For more information, please consult the following topics:  
 
 * [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) 
-* Credential repository 
+* Vault Link 
 * [Password Templates](/rdm/windows/commands/file/templates/password-templates/) 
 * [Two-factor authentication](/rdm/windows/data-sources/multi-factor-authentication/) 
 * One-time password 
@@ -95,21 +95,21 @@ When creating users, some key points must be taken into consideration. Ask yours
 Access is granted or denied to users by setting permission on entries. ***Permissions*** can be set to users or user groups. The best practice is to grant permissions to user groups to control access for multiple users at once.  
 
 To set permissions on an entry, edit any entry, then navigate to the ***Permissions*** section.  
-![Entry's Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3480.png) 
+![Entry's Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6038.png) 
 
 Permissions are usually set on folders, and apply to all child entries. A best practice is to set all the permissions of the {{ en.VLT }} folder to ***Never***. As a result, all permissions of all entries are denied by default.  
-![Vault Settings Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3481.png) 
+![Vault Settings Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6039.png) 
 
 Access is denied to users by expressly granting the access to other users. In other words, all users that are not on the list of a permission have the access denied.  
 
 For a user to have access to a sub folder, the user must have at least the view permission on all parent folders.  
 
 Consider the following structure:  
-![!!clip3482.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3482.png) 
+![Three levels of folders](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6041.png) 
 
 There are three levels of folders: the {{ en.VLT }}, Telemark, and child items of Telemark.  
 
 Suppose that a user, such as a consultant, must have access to the Montreal folder only. The consultant must be granted the view permission on the Telemark folder as well. However, granting the view access to the Telemark folder gives to the consultant the permissions to view all child items of Telemark. To deny the view permissions for the consultant on specific child items, the view permissions of these items must be expressly set for other users.  
-![!!clip3483.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3483.png) 
+![The view permissions of these items must be expressly set for other users](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6042.png) 
 
 
