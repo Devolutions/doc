@@ -2,15 +2,15 @@
 title: PAM Dashboard
 ---
 {% snippet icon.badgeNotice %} 
-A license is now required to enable the Privileged Access Management (PAM) module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license. 
+A license is now required to enable the Privileged Access Management (PAM) module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license.
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The ***PAM Dashboard*** is only available with our [{{ en.DVLS }}](https://devolutions.net/server). 
+The ***PAM Dashboard*** is only available with our [{{ en.DVLS }}](https://devolutions.net/server).
 {% endsnippet %}
 
 The ***PAM Dashboard*** feature can be found in ***View – Panels – PAM Dashboard***.  
-![PAM Dashboard](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2053.png) 
+![PAM Dashboard](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2053.png)
 
 In the ***PAM Dashboard***, for every privileged account, it is possible to connect to the account, copy the password, and manage the checkout/check-in process.  
 
@@ -23,7 +23,7 @@ When the folder is selected, all the accounts in that folder will appear. It is 
 If there are multiple accounts in the folder, you can use the filter bar to display only the accounts containing what you typed. You can push your search even further by filtering the accounts by credential type.  
 ![Filter Bar](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2056.png) 
 
-## PAM Check Out request with custom time
+## Check Out request with custom time
 
 It is possible to make a ***Check Out*** request for a certain time slot while in a PAM vault. This feature is very useful for planned maintenance outside of normal work hours, when approvers aren't available.
 
