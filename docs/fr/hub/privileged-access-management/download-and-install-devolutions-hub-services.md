@@ -15,7 +15,7 @@ L'installateur de service {{ fr.HUB }} facilite l'installation et l'intégration
 ![Ajouter un utilisateur d'application (+)](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6045.png)  
 1. Ajouter un nom et cliquer ***Ajouter***.  
 
-L'option ***Activité*** situé dans la fenêtre ***Utilisateur d'application*** sous ***Utilisateur*** permet d'activer l'utilisateur. L'option ***Peut accéder aux coffres des utilisateurs*** octroie l'accès aux coffres des utilisateurs à l'utilisateur.
+L'option ***Activité*** située dans la fenêtre ***Utilisateur d'application*** sous ***Utilisateur*** permet d'activer l'utilisateur. L'option ***Peut accéder aux coffres des utilisateurs*** octroie l'accès aux coffres des utilisateurs à l'utilisateur.
 ![Utilisateur](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6046.png)  
 ***Groupe d'utilisateurs*** assigne l'utilisateur à des groupes.  
 ![Groupe d'utilisateurs](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6047.png)  
@@ -39,7 +39,7 @@ Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PA
 ## Pour tous les coffres du système
 
 1. Dans Devolutions {{ fr.HUB }}, aller dans ***Administration*** – ***Configuration et sécurité*** – ***Permissions du système***.
-![Administration – Permissions du système](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6049.png)
+![Administration – Configuration et sécurité – Permissions du système](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6049.png)
 1. Aller dans le formulaire de modification.
 ![Formulaire de modification](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6050.png)
 1. Sélectionner ***Coffres***.
@@ -51,7 +51,7 @@ Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PA
 ## Pour un coffre PAM
 
 1. Dans Devolutions {{ fr.HUB }}, aller dans ***Administration*** – ***Gestion*** – ***Coffres***.
-![Administration – Coffres](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6053.png)
+![Administration – Gestion – Coffres](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6053.png)
 1. Aller dans le formulaire de modification du coffre PAM.
 1. Sélectionner l'onglet ***Modifier*** dans la section ***Permissions***.
 1. Choisir votre ***Utilisateur d'application*** dans le menu déroulant sous la section ***Collaborateurs***.
@@ -60,7 +60,7 @@ Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PA
 
 ## Installation de Devolutions Hub Services Beta
 
-1. Télécharger [Devolutions Hub Services Beta](https://devolutions.net/password-hub/home/download/).
+1. Télécharger [Devolutions Hub Services Beta](https://devolutions.net/fr/password-hub/home/download/).
 1. Lancer l'installateur.
 ![Installateur Devolutions Hub Service](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6038.png) 
 1. Cliquer ***Next***.
