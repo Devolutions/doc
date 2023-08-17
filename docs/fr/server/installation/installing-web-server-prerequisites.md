@@ -25,25 +25,25 @@ Voici les deux méthodes disponibles pour installer les prérequis :
 
 1. {{ fr.DVLSCONSOLE }}. 
     1. Ouvrir la [{{ fr.DVLSCONSOLE }}](/fr/server/management/devolutions-server-console/). 
-    1. Sélectionner le menu Soutien et cliquer le bouton Diagnostic d'IIS.  
+    1. Sélectionner le menu ***Soutien*** et cliquer le bouton ***Diagnostic d'IIS***.  
 ![!!ServerOp8153.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8153.png) 
 
     1. Cliquer sur le bouton ***Installer les pré-requis*** pour exécuter le script PowerShell.  
 
-{% snippet icon.badgeInfo %} 
-Cette fenêtre apparaitra seulement si un prérequis est manquant lors d'une nouvelle installation ou d'une mise à jour. 
-{% endsnippet %}
+   {% snippet icon.badgeInfo %} 
+   Cette fenêtre apparaitra seulement si un prérequis est manquant lors d'une nouvelle installation ou d'une mise à jour. 
+   {% endsnippet %}
  
-![!!ServerOp8154.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8154.png) 
+   ![!!ServerOp8154.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8154.png) 
 
 2. Ligne de commande PowerShell. 
     1. Exécuter Windows PowerShell avec des privilèges élevés. 
-    1. Modifier l'emplacement vers le sous-dossier Scripts qui se trouve dans le dossier d'installation de la {{ fr.DVLSCONSOLE }}. (**C:\Program Files (x86)\Devolutions\Devolutions Server Console\Scripts**)  
+    1. Modifier l'emplacement vers le sous-dossier Scripts qui se trouve dans le dossier d'installation de la {{ fr.DVLSCONSOLE }} (**C:\Program Files (x86)\Devolutions\Devolutions Server Console\Scripts**).  
 ![Emplacement du script PowerShell](https://webdevolutions.azureedge.net/docs/fr/server/clip10311.png) 
 
-    1. Exécuter le script DVLS-Prerequisites.ps1. 
+    1. Exécuter le script **DVLS-Prerequisites.ps1**. 
     1. Le script installera les rôles Web manquants et les composants suivants :
-        * le module de réécriture d'URL IIS
-        * l'Application Request Routing Module IIS
+        * le module de réécriture d'URL IIS.
+        * l'Application Request Routing Module IIS.
         * le module IIS [APS.Net](http://aps.net/) Core (.Net 6.0).  
 ![!!ServerOp4038.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4038.png) 
