@@ -12,9 +12,9 @@ status: Topic available in German language
 
 Le tableau suivant énumère les spécifications matérielles minimales recommandées pour {{ fr.DVLS }}. Ces spécifications peuvent varier en fonction de l'utilisation de l'application, comme indiqué plus loin dans la rubrique.
 
-|Implémentation de base{width=220px} |Implémentation moyenne{width=250px} |Implémentation large|
+|Implémentation de base{width=228px} |Implémentation moyenne{width=240px} |Implémentation large|
 |:--------------------------: |:------------------------: |:---------------------: |
-|(1-20 utilisateurs simultanés)<br>Avec un SQL Server autonome<br>Processeurs à 4 coeurs<br>8 Go RAM<br>Adaptateur de réseau (1 Go)<br>|(21-75 utilisateurs simultanés)<br>Avec un SQL Server autonome<br>Processeurs à 4 coeurs<br>8 Go RAM<br>Adaptateur de réseau (1 Go)<br>|(75+ utilisateurs simultanés) <br>Nous recommandons le déploiement de plusieurs {{ fr.DVLS }}s dans une topologie d'équilibrage de charge avec un SQL Server à haute disponibilité.|
+|(1-20 utilisateurs simultanés)<br>Avec un SQL Server autonome<br>Processeurs à 4 coeurs<br>8 Go RAM<br>Adaptateur de réseau (1 Go)<br>|(21-75 utilisateurs simultanés)<br>Avec un SQL Server autonome<br>Processeurs à 4 coeurs<br>8 Go RAM<br>Adaptateur de réseau (1 Go)<br>|(75+ utilisateurs simultanés) <br>Nous conseillons de déployer plusieurs {{ fr.DVLS }}s dans une topologie d'équilibrage de charge avec un SQL Server à haute disponibilité.|
 |Avec le SQL Server installé sur la même machine.<br>Processeurs à 4 coeurs<br>16 Go RAM<br>Adaptateur de réseau (1 Go)<br>|Avec un SQL Server installé sur la même machine.<br>Processeurs à 4 coeurs<br>16 Go RAM<br>Adaptateur de réseau (1 Go)<br>|Voir [Topologie de haute disponibilité](/fr/server/overview/topologies/#topologie-de-haute-disponibilite).|
  
 ## Dépendances 
@@ -33,7 +33,11 @@ Pour bien estimer les besoins, il faut prendre en compte les points suivants :
 * Nombre d'entrées stockées dans votre instance (détails du serveur, identifiants, etc.). 
 * Nombre de fois qu'on modifie les entrées : si l'on en crée à tous les jours ou si elles restent inchangées. 
 * Nombre d'utilisateurs qui accèdent simultanément à l'instance de {{ fr.DVLS }} pendant les périodes de pointe. 
-* La façon dont les utilisateurs manipulent les informations. Lancent-ils 10 sessions à la fois, puis exécutent une opération par lot qui prend quelques minutes et répètent ce cycle? Ou n'ouvrent-ils que quelques sessions dans lesquelles ils travaillent toute la journée? Ces manipulations entraînent des opérations d'écriture dans nos journaux. Par conséquent, le premier scénario d'utilisation exige de plus grandes ressources que le second. 
+* Le comportement des utilisateurs :  
+  * Lancent-ils 10 sessions à la fois, puis exécutent une opération par lot qui prend quelques minutes et répètent ce cycle; ou 
+  * N'ouvrent-ils que quelques sessions dans lesquelles ils travaillent toute la journée?  
+
+  Ces manipulations entraînent des opérations d'écriture dans nos journaux. Par conséquent, le premier scénario d'utilisation exige de plus grandes ressources que le second. 
 
 ## Version 64 bits 
 {{ fr.DVLS }} est compatible avec toutes les versions 64 bits de Windows. 

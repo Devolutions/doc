@@ -14,7 +14,7 @@ status: Topic available in German language
 
 The following table lists the minimum recommended hardware specifications for {{ en.DVLS }}. These specifications may vary depending on the usage of the application, as indicated later in the topic. 
 
-|Basic implementation {width=200px} |Mid-Range implementation {width=250px} |Large implementation    |
+|Basic implementation {width=225px} |Mid-Range implementation {width=235px} |Large implementation    |
 |:--------------------------: |:------------------------: |:---------------------: |
 |(1-20 concurrent users)<br>With a standalone SQL Server<br>4 core processors<br>8 GB RAM<br>Network adapter (1 GB)<br>|(21-75 concurrent users)<br>With a standalone SQL Server<br>4 core processors<br>8 GB RAM<br>Network adapter (1 GB)<br>|(75+ concurrent users) <br>We recommend deploying multiple {{ en.DVLS }}s in a load-balancing topology with a high-availability SQL Server.|
 |With a SQL Server installed on the same machine.<br>4 core processors<br>16 GB RAM<br>Network adapter (1 GB)<br>|With a SQL Server installed on the same machine.<br>4 core processors<br>16 GB RAM<br>Network adapter (1 GB)<br>|See [High-availability topology](/server/overview/topologies/#high-availability-topology).|
@@ -39,7 +39,11 @@ For a proper estimate, the following aspects must be considered:
 * Number of entries stored in your instance (server details, credentials, etc.).  
 * Churn of these entries; do you create entries daily or are they quite static?  
 * Number of concurrent users that connect to the {{ en.DVLS }} instance during peak times.  
-* Usage of information by the users. Are they launching 10 sessions at a time, doing a batch operation that takes a few minutes and then repeating the cycle, or are they opening only a few sessions but working within them all day long. This results in write operations to our logs; therefore, the former case is more intensive then the latter.  
+* User behavior:
+  * Are they launching 10 sessions at a time, doing a batch operation that takes a few minutes and then repeating the cycle; or
+  * Are they opening only a few sessions but working within them all day long?  
+
+  This results in write operations to our logs; therefore, the former case is more intensive then the latter.  
 
 ## 64-bit support
 

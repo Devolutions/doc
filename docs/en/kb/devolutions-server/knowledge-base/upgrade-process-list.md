@@ -22,7 +22,7 @@ Confirm that all minimum requirements are installed and dependencies reach the s
 
 The following bullet list describe each steps a support technician will follow to assist a customer to upgrade the {{ en.DVLS }} instance.
 
-1. Ensure that the Domain functional level is at least at version Windows Server 2012R2 if [Domain Authentication](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/) is configured in {{ en.DVLS }}.
+1. Ensure that the Domain functional level is at least at version Windows Server 2012 R2 if [Domain Authentication](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/) is configured in {{ en.DVLS }}.
 1. Confirm for database and web application folder backups. Ensure that the Copy only backup option is enabled in SQL Server Management Studio to get a stand alone backup that is not part from a backup set.
 1. Make sure everyone is in offline mode in {{ en.RDM }} if properly configured or disconnected from the {{ en.DVLS }} web interface.
 1. Modify the Maximal version in the Administration - System Settings if configured.

@@ -5,7 +5,7 @@ keywords:
 - Roles
 ---
 {% snippet icon.badgeInfo %} 
-Die Installation von {{ de.DVLS }} wird von Windows 10, Windows 11, Windows Server 2012R2, 2016, 2019 und 2022 unterstützt.  
+Die Installation von {{ de.DVLS }} wird von Windows 10, Windows 11, Windows Server 2012 R2, 2016, 2019 und 2022 unterstützt.  
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
