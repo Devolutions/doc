@@ -10,7 +10,7 @@ keywords:
 
 ![!!{{ fr.DVLS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg)
 
-{{ fr.DVLS }} est un coffre, déployable dans votre infrastructure, servant à stocker et à partager des informations entre les différentes équipes de votre organisation. Cette solution permet également de gérer des connexions à distance, des identifiants et des informations confidentielles en toute sécurité.  
+{{ fr.DVLS }} est un coffre déployable dans votre infrastructure servant à stocker et à partager des informations entre les différentes équipes de votre organisation. Cette solution permet également de gérer des connexions à distance, des identifiants et des informations confidentielles en toute sécurité.  
 
 Notre système de contrôle d'accès basé sur des groupes d'utilisateurs permet d'attribuer des permissions de façon granulaire. Une journalisation avancée des activités de tous les utilisateurs est incluse afin d'offrir une excellente visibilité dans tous les aspects de la solution.  
 

@@ -1,5 +1,5 @@
 ---
-title: Authentication Login
+title: Authentication login
 ---
 To connect to the {{ en.DVLS }} ***Web Interface***, users will need to choose an authentication method. The authentication methods available for login will depend upon the administrator authentication type setup made in ***Administration - Server Settings - Authentication***. 
 

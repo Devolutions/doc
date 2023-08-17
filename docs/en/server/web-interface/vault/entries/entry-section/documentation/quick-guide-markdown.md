@@ -1,5 +1,5 @@
 ---
-title: Quick Guide to Markdown
+title: Quick guide to Markdown
 ---
 Markdown is a lightweight markup language used for ***Documentation*** in entries.  
 

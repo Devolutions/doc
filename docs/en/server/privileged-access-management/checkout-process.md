@@ -1,5 +1,5 @@
 ---
-title: Checkout Process
+title: Checkout process
 ---
 1. To check out an entry requiring approbation, the user needs to go to the ***Privileged Access*** section on the {{ en.DVLS }}'s webpage. 
 1. The user then clicks on the ***Accounts*** panel.  

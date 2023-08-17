@@ -1,5 +1,5 @@
 ---
-title: Technical Support
+title: Technical support
 status: Topic available in German language
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Windows Users Provider
+title: Windows users provider
 ---
 The Windows Users Provider allows {{ en.DVLS }} to store the Windows account credentials to be used for Windows local accounts discovery or to achieve password rotation. See the [Create Windows users provider](/kb/devolutions-server/how-to-articles/create-windows-users-provider/) knowledge base article for more information on its configuration.  
 ![!!ServerOp8089.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8089.png) 

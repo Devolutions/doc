@@ -1,5 +1,5 @@
 ---
-title: Just-In-Time (JIT) Elevation
+title: Just-In-Time (JIT) elevation
 ---
 
 {% snippet icon.badgeCaution %}

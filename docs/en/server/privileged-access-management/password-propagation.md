@@ -1,5 +1,5 @@
 ---
-title: Password Propagation
+title: Password propagation
 keyword: 
 - propagation
 ---
