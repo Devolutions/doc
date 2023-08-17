@@ -60,7 +60,7 @@ Le programme d'installation doit être exécuté sur le serveur hébergeant {{ f
 ![Tester connexion](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0050.png)
 1. Cliquer sur le bouton ***Ajouter*** pour relier votre installation {{ fr.DGW }} à votre {{ fr.HUBB }}.  
 ![Ajouter](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0051.png)
-1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} {{fr.HUB}}.  
+1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} {{ fr.HUB }}.  
 ![Connexion réussie](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0033.png)
 
 {% snippet icon.badgeInfo %} 

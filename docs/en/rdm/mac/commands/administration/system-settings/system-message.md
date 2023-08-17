@@ -21,7 +21,7 @@ DESCRIPTION
 System message 
 		</td>
 		<td>
-The message will be displayed every time the data source is opened or when the message changes. Use Ctrl+ENTER to create a new line. 
+The message will be displayed every time the data source is opened or when the message changes. Use Ctrl+Enter to create a new line. 
 		</td>
 	</tr>
 	<tr>

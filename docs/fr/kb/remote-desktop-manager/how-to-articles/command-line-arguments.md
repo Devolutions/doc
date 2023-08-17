@@ -15,7 +15,7 @@ Il est possible d'obtenir les identifiants d'une ***base de données***, de la *
 ![!!KB2018.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2018.png) 
 1. Une ligne de commande peut être créée en utilisant les informations affichées dans cette fenêtre. Sinon, il suffit de copier la ***Ligne de commande*** offerte par {{ fr.RDM }} grâce au bouton ***Copier***.  
 ![!!KB2019.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2019.png) 
-1. Coller la ligne de commande dans l'invite de commande de Windows et appuyer sur ***Entrée*** pour créer un exécutable selon vos paramètres.  
+1. Coller la ligne de commande dans l'invite de commande de Windows et appuyer sur Entrée pour créer un exécutable selon vos paramètres.  
 ![!!KB2020.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2020.png) 
 
 ### Récupérer l'identifiant d'une source de données 

@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Expired domain verification in Okta SSO configuration
-  description: When configuring single sign-on (SSO) with Okta in your {{ en.HUBB }}, the first step is to verify your domain. This validation lasts for 48 hours and does not restart after that period. If you do not configure your TXT record within those 48 hours, your validation status will be expired and you will be stuck.
+  title: Expired domain verification in SSO configuration
+  description: When configuring single sign-on (SSO) in your {{ en.HUBB }}, the first step is to verify your domain. This validation lasts for 48 hours and does not restart after that period. If you do not configure your TXT record within those 48 hours, your validation status will be expired and you will be stuck.
 ---
-When configuring single sign-on (SSO) with Okta in your {{ en.HUBB }}, the first step is to ***Verify your domain***. This validation lasts for 48 hours and does not restart after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired*** and you will be stuck.
+When configuring single sign-on (SSO) in your {{ en.HUBB }}, the first step is to ***Verify your domain***. This validation lasts for 48 hours and does not restart after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired*** and you will be stuck.
 
 Follow these steps for a workaround:
 

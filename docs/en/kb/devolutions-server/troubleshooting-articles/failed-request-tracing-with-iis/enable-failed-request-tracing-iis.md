@@ -2,7 +2,7 @@
 title: Enable Failed Request Tracing in IIS
 ---
 {% snippet icon.badgeInfo %}
-The following steps are applicable on Windows Server 2012R2
+The following steps are applicable on Windows Server 2012 R2
 {% endsnippet %}
 
 1. Open the ***Server Manager*** Choose ***Add Roles and Features*** from the ***Manage*** menu.  

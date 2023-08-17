@@ -26,10 +26,10 @@ Empêche la session de recevoir des entrées du clavier ou de la souris. Cette f
 	</tr>
 	<tr>
 		<td>
-Envoyer Ctrl-Alt-Suppr 
+Envoyer Ctrl+Alt+Suppr. 
 		</td>
 		<td>
-Envoie la combinaison de touches CTRL-ALT-SUPPR à l'hôte. 
+Envoie la combinaison de touches Ctrl+Alt+Suppr. à l'hôte. 
 		</td>
 	</tr>
 	<tr>

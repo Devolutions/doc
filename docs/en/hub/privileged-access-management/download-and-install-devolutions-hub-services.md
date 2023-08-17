@@ -40,7 +40,7 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 ## From all system vaults
 
 1. In Devolutions {{ en.HUB }}, go to ***Administration*** – ***Configuration & Security*** – ***System Permissions***.
-![Administration – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
+![Administration – Configuration & Security – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
 1. Go to the edit form.
 ![Edit form](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6049.png)
 1. Select ***Vaults***.
@@ -51,7 +51,7 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 ## For a specific Pam vault
 
 1. In Devolutions {{ en.HUB }}, go to ***Administration*** – ***Management*** – ***Vaults***.
-![Administration – Vaults](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6044.png)
+![Administration – Management – Vaults](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6044.png)
 1. Go to the edit form of the specific PAM vault.
 1. Select the ***Edit*** tab at the ***Permissions*** section.
 1. Choose your ***Application User*** in the drop-down menu under the ***Contributor*** section.
@@ -64,7 +64,7 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 1. Launch the installer that you downloaded.
 ![Devolutions Hub Service Setup](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6038.png) 
 1. Click ***Next***.
-1. Read the ***End-User License Agreement*** and Click ***I accept the terms in the License Agreement***.
+1. Read the ***End-User License Agreement*** and click ***I accept the terms in the License Agreement***.
 1. Click ***Next***.
 1. Select ***PAM*** in the ***Custom Setup***. Note that the ***Encryption*** feature is currently unavailable.
 1. Click ***Next***.

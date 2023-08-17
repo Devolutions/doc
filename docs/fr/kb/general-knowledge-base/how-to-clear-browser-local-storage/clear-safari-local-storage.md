@@ -9,7 +9,7 @@ keywords:
 Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Safari :  
 
 1. Ouvrir une page du navigateur Safari.  
-1. Utiliser les touches **Option+Commande+C** de votre clavier pour ouvrir la console Javascript de Safari.  
+1. Utiliser les touches **Alt+Cmd+C** de votre clavier pour ouvrir la console Javascript de Safari.  
 ![Console Javascript de Safari](https://webdevolutions.azureedge.net/docs/fr/kb/KB2066.png) 
 1. Cliquer sur ***Stockage*** dans le menu supérieur de la console.  
 ![Console – Stockage](https://webdevolutions.azureedge.net/docs/fr/kb/KB2067.png) 
@@ -17,4 +17,3 @@ Voici les étapes à suivre pour effacer votre stockage local dans le navigateur
 ![Console – Stockage – Stockage local](https://webdevolutions.azureedge.net/docs/fr/kb/KB2068.png) 
 1. Sélectionner votre site et cliquer sur ***Effacer le stockage local***. 
 ![Stockage local – Effacer le stockage local](https://webdevolutions.azureedge.net/docs/fr/kb/KB2069.png) 
-

@@ -8,7 +8,7 @@ This feature is only available when using an [Advanced Data Source](/rdm/windows
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
-If the cache is outdated, press ***Ctrl+Refresh*** or ***Ctrl+F5*** to refresh the local cache. This will force the application to retrieve the entire content of the data source to recreate the cache. 
+If the cache is outdated, press Ctrl+Refresh or Ctrl+F5 to refresh the local cache. This will force the application to retrieve the entire content of the data source to recreate the cache. 
 {% endsnippet %}
  
 ## Settings 

@@ -29,5 +29,5 @@ In the event that you need to import the ***Specific Settings***, leave the ***C
 {% endsnippet %}
  
 7. Select the ***Target Vault***. 
-1. Click ***Import Selection to {{ en.HUB}}***. 
+1. Click ***Import Selection to {{ en.HUB }}***. 
 

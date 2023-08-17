@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Create {{ en.DVLS }} Instance
+  title: Create a {{ en.DVLS }} instance
   order: 30
 keywords:
 - Roles

@@ -24,9 +24,9 @@ The RunAs command has many parameters to change its behaviour, we won't cover th
 1. When you press enter, you are prompted for the password, then the application will launch.  
 ![!!KB4584.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4584.png)
 
-## Solution B - Shift+Right Click on the shortcut or executable to ## {{ en.RDM }}
+## Solution B - Shift+right-click on the shortcut or executable to ## {{ en.RDM }}
 
-When you press Shift + Right Click on an executable, you'll notice an additional menu item for Run as different user  
+When you press Shift+right-click on an executable, you'll notice an additional menu item for Run as different user  
 ![!!KB4585.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4585.png)  
 
 You are presented with a logon form in which you must specify the username and password.  

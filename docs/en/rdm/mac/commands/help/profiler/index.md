@@ -13,7 +13,7 @@ Too many custom images could dramatically increase the size of the data source a
 ![Help – Profiler](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10470.png) 
 1. Move the window to the side in order to display the {{ en.RDM }} main window and refresh the data source by using the refresh button or by using ***File – Refresh***. 
 {% snippet icon.badgeInfo %} 
-Holding the CTRL key while performing the refresh will force a full reload of the data source, thereby ignoring the cache. 
+Holding the Ctrl key while performing the refresh will force a full reload of the data source, thereby ignoring the cache. 
 {% endsnippet %}
  
 ![Perfromance Profiling](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10471.png) 

@@ -38,18 +38,18 @@ Un ***Utilisateur d'application*** est nécessaire pour continuer. S'il n'a pas 
 1. Cliquer sur ***Télécharger***.  
 ![Télécharger](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0029.png)
 1. Exécuter le script téléchargé avec PowerShell 7 en mode administrateur. (Il doit être installé sur le serveur hébergeant le site {{ fr.DGW }}.) 
-1. Le script vous demandera ***Do you want to set a certification?***. Saisir ***Y*** et appuyer sur ***Entrée***. 
+1. Le script vous demandera ***Do you want to set a certification?***. Saisir ***Y*** et appuyer sur Entrée. 
 1. Saisir le chemin d'accès au fichier du certificat. 
-1. Saisir le mot de passe du certificat. (Si le mot de passe a été copié dans le presse-papiers, ne faites pas CTRL+V, un clique droit suffira.) 
-1. Appuyer sur ***Entrée*** lorsque le ***Statut de la demande Web*** est terminé. 
-1. Si l'installation est réussie, le message suivant s'affiche : ***Installation du {{ fr.DGW }} terminée!***. Appuyer sur ***Entrée***. 
+1. Saisir le mot de passe du certificat. (Si le mot de passe a été copié dans le presse-papiers, ne faites pas Ctrl+V, un clique droit suffira.) 
+1. Appuyer sur Entrée lorsque le ***Statut de la demande Web*** est terminé. 
+1. Si l'installation est réussie, le message suivant s'affiche : ***Installation du {{ fr.DGW }} terminée!***. Appuyer sur Entrée. 
 1. Retourner à la page web {{ fr.DGW }} et cliquer sur ***Actualiser***.  
 ![Actualiser](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0030.png)
 1. La page {{ fr.DGW }} s'affiche avec un cercle rouge pour indiquer que la passerelle est hors ligne. Cliquer sur ***Modifier***.  
 ![Modifier](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0031.png)
 1. Descendre au bas de la page et cliquer sur ***Tester connexion***. Une boîte de message avec ***Connexion réussie*** devrait apparaître en haut à droite.  
 ![Tester connexion](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0032.png)
-1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} {{ fr.HUB}}.  
+1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} {{ fr.HUB }}.  
 ![Connexion réussie](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0033.png)
 
 {% snippet icon.badgeInfo %} 

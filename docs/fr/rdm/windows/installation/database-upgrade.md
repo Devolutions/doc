@@ -32,7 +32,7 @@ Suivre ces étapes pour réussir une mise à jour de version :
 1. Attendre une boîte de dialogue de confirmation. 
 1. Fermer la boîte de dialogue. 
 1. Assurez-vous que votre application {{ fr.RDM }} utilise actuellement cette source de données. 
-1. Appuyer CTRL+F5 pour forcer une actualisation complète. 
+1. Appuyer Ctrl+F5 pour forcer une actualisation complète. 
 1. Valider le contenu et effectuez une vérification des technologies critiques dans votre environnement. 
 1. Mettre à jour le logiciel client sur tous les postes de travail. 
 

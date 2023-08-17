@@ -63,11 +63,10 @@ Suivez les étapes suivantes si vous voulez changer la langue de votre applicati
 
 {{ fr.DLOCALIZER }} propose également plusieurs raccourcis clavier pour accélérer le processus de traduction :  
 
-* Ctrl + D : Définir le statut (***Status***) de la ressource actuelle à ***Translated***. 
-* Ctrl + E : Définir le statut (***Status***) de la ressource actuelle à ***Use original***. Cela ignore tout texte de traduction et affiche la valeur d'origine telle quelle. 
-* Ctrl + Bas : Passer à la ressource suivante. 
-* Ctrl + Haut : Revenir à la ressource précédente. 
-* Ctrl + B : Demande une traduction Bing pour la ressource actuelle. 
-* Ctrl + S : Enregistrer toutes les modifications en attente. 
-* Ctrl + F : Activer/désactiver le filtrage. 
-
+* Ctrl+D : Définir le statut (***Status***) de la ressource actuelle à ***Translated***. 
+* Ctrl+E : Définir le statut (***Status***) de la ressource actuelle à ***Use original***. Cela ignore tout texte de traduction et affiche la valeur d'origine telle quelle. 
+* Ctrl+Bas : Passer à la ressource suivante. 
+* Ctrl+Haut : Revenir à la ressource précédente. 
+* Ctrl+B : Demande une traduction Bing pour la ressource actuelle. 
+* Ctrl+S : Enregistrer toutes les modifications en attente. 
+* Ctrl+F : Activer/désactiver le filtrage. 

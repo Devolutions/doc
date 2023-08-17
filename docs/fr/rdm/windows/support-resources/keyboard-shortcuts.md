@@ -456,7 +456,7 @@ F2
 Supprimer... 
 		</td>
 		<td>
-Ctrl+Suppr 
+Ctrl+Suppr. 
 		</td>
 	</tr>
 </table>

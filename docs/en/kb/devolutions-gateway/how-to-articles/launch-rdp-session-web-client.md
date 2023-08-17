@@ -31,7 +31,7 @@ In order to use this feature, certain requirements must be met, namely:
 Follow the steps below to properly configure your RDP session to launch it in a browser:
 
 {% snippet icon.badgeInfo %}
-The steps below assume that you already have an RDP session entry. If you have not yet created it and want to learn how, see [Create Entries Manually](/server/web-interface/vault/entries/create-entries-manually/).
+The steps below assume that you already have an RDP session entry. If you have not yet created it and want to learn how, see [Create entries manually](/server/web-interface/vault/entries/create-entries-manually/).
 {% endsnippet %} 
 
 1. In the {{ en.DVLS }} web interface, go to the ***Properties*** of your RDP entry.

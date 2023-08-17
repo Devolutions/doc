@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Getting started
 ---
 In this topic, you will find the steps on how to get started with the ***Privileged Access Management*** features in {{ en.DVLS }}.  
 

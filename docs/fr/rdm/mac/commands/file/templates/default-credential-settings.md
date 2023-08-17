@@ -21,4 +21,3 @@ Tous les identifiants avec l'avis ***Pas de valeur par défaut*** ont un modèle
 
 Si vous souhaitez supprimer le modèle de paramètres par défaut, appuyer sur le bouton ***Supprimer***.  
 ![Modèle - Supprimer](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0046.png) 
-

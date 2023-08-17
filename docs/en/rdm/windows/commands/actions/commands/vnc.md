@@ -34,10 +34,10 @@ Open the Start menu on the host computer.
 	</tr>
 	<tr>
 		<td>
-Send Ctrl-Alt-Delete 
+Send Ctrl+Alt+Delete 
 		</td>
 		<td>
-Send the key combination CTRL+ALT+DELETE to the host. 
+Send the key combination Ctrl+Alt+Delete to the host. 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +53,7 @@ Send custom keys combination to the host.
 Alt 
 		</td>
 		<td>
-Send ALT to the host. 
+Send Alt to the host. 
 		</td>
 	</tr>
 	<tr>
@@ -61,7 +61,7 @@ Send ALT to the host.
 Ctrl 
 		</td>
 		<td>
-Send CTRL to the host. 
+Send Ctrl to the host. 
 		</td>
 	</tr>
 	<tr>

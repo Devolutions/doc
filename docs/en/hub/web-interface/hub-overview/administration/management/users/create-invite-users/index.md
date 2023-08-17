@@ -22,7 +22,7 @@ We strongly recommend that you invite at least one other administrator. Learn ho
 It is possible to paste a list of email addresses of ***Users*** that will be part of the same [User Groups](/hub/web-interface/hub-overview/administration/management/user-groups/). Each email address is required to be separated by a semicolon (;) or a comma (,). 
 {% endsnippet %}
  
-4. Press ***Enter***. 
+4. Press Enter. 
 {% snippet icon.badgeInfo %} 
 This step will validate if the user has a {{ en.DA }}.  
 

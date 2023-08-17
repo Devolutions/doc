@@ -51,47 +51,50 @@ module.exports = function (results) {
             docLabel = "Devolutions Server";
             break;
         }
+        if (!result.content.includes("<main class=\"markdown\"></main>")) {  
+        
+          for (;;) {
+            const headingContentMatch = headingContentRe.exec(result.content.replace(/\r?\n|\r/g, ""));
+            let content;
+            
+            if (!headingContentMatch) {
+              break;
+            }
 
-        for (;;) {
-          const headingContentMatch = headingContentRe.exec(result.content.replace(/\r?\n|\r/g, ""));
-          let content;
+            if (headingContentMatch[1]) {
+              const idMatch = idRe.exec(headingContentMatch[2]);
+              const id = idMatch ? idMatch[1] : undefined;
 
-          if (!headingContentMatch) {
-            break;
-          }
+              title = title = headingContentMatch[3].replace(/<[^>]*>?/gm, '').trim();
 
-          if (headingContentMatch[1]) {
-            const idMatch = idRe.exec(headingContentMatch[2]);
-            const id = idMatch ? idMatch[1] : undefined;
+              if (id) {
+                url = `${result.url}#${id}`;
+              }
+            }
 
-            title = title = headingContentMatch[3].replace(/<[^>]*>?/gm, '').trim();
+            if (headingContentMatch[4]) {
+              content = headingContentMatch[5].replace(/<[^>]*>?/gm, '').trim();
 
-            if (id) {
-              url = `${result.url}#${id}`;
+              if (content.length > 512) {
+                content = `${content.substring(0, 509)}...`
+              }
+            } 
+
+            const found = objects.find(o => o.title === title && o.url === url && !o.content);
+
+            if (found) {
+              found.content = content;
+            } else {
+              objects.push({ doc: docLabel, icon, title, url, content });
             }
           }
 
-          if (headingContentMatch[4]) {
-            content = headingContentMatch[5].replace(/<[^>]*>?/gm, '').trim();
-
-            if (content.length > 512) {
-              content = `${content.substring(0, 509)}...`
-            }
-          }
-
-          const found = objects.find(o => o.title === title && o.url === url && !o.content);
-
-          if (found) {
-            found.content = content;
-          } else {
-            objects.push({ doc: docLabel, icon, title, url, content });
-          }
+          algoliaDoc[locale] = algoliaDoc[locale] || [];
+          algoliaDoc[locale] = algoliaDoc[locale].concat(objects);
         }
-
-        algoliaDoc[locale] = algoliaDoc[locale] || [];
-        algoliaDoc[locale] = algoliaDoc[locale].concat(objects);
       }
     })
+
 
     const client = algoliaSearch(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_ADMIN_KEY);
 

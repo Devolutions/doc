@@ -10,7 +10,7 @@ Es kann vorkommen, dass die Funktionen ***Benutzername kopieren*** und ***Passwo
 1. Fügen Sie die Information in ***Notepad*** ein.
 1. In den Feldern ***Verboten*** und ***Zugelassen*** sollten nun alle beteiligten Anwendungen angezeigt werden.  
 
-In diesem Bildschirmfoto sehen Sie „notepad++“. Der Windows-Zwischenablageverlauf (Windows-Taste + V) ist standardmäßig blockiert. In Ihrem Fall sollte ***Notepad*** als zugelassen aufgeführt sein, aber höchstwahrscheinlich haben Sie einen anderen Eintrag entweder als Blockiert oder Zugelassen aufgelistet.
+In diesem Bildschirmfoto sehen Sie „notepad++“. Der Windows-Zwischenablageverlauf (Windows+V) ist standardmäßig blockiert. In Ihrem Fall sollte ***Notepad*** als zugelassen aufgeführt sein, aber höchstwahrscheinlich haben Sie einen anderen Eintrag entweder als Blockiert oder Zugelassen aufgelistet.
 
 ![!!KB8042.png](https://webdevolutions.azureedge.net/docs/de/kb/KB8042.png)  
 

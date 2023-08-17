@@ -13,8 +13,8 @@ Un menu contextuel devient disponible pour gérer la fenêtre désancrer.
 
 ![!!Hub4016.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4016.png) 
 
-### Ctrl-Alt-Suppr 
+### Ctrl+Alt+Suppr. 
 
-Pour utiliser le raccourci Ctrl-Alt-Suppr dans une session, faire un clic droit sur l'onglet de la session pour ouvrir le menu de sélection. Cliquer sur ***Commandes spéciales - Envoyer Ctrl-Alt-Suppr***.  
+Pour utiliser le raccourci Ctrl+Alt+Suppr. dans une session, faire un clic droit sur l'onglet de la session pour ouvrir le menu de sélection. Cliquer sur ***Commandes spéciales - Envoyer Ctrl+Alt+Suppr.***  
 ![!!Hub4017.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4017.png) 
 

@@ -1,5 +1,5 @@
 ---
-title: Windows Users Account Discovery
+title: Windows users account discovery
 ---
 The Windows Users Account Discovery allows {{ en.DVLS }} to scan the host to find accounts. The accounts will not be automatically added in the Privileged Access Management folders.  
 ![!!ServerOp8098.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8098.png) 

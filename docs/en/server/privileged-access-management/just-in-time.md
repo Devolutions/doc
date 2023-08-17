@@ -1,12 +1,12 @@
 ---
-title: Just-In-Time (JIT) Elevation
+title: Just-In-Time (JIT) elevation
 ---
 
 {% snippet icon.badgeCaution %}
 The ***Just-in-time Elevation*** feature is only available for Domain accounts.
 {% endsnippet %}
 
-Just-In-Time Elevation is a security concept that pertains to providing temporary access to resources or services, ensuring that permissions are granted only for the specific time they are required and not a moment more. The Just-In-Time feature in {{ en.DVLS}} grant a temporary membership to a selected Active Directory group from a specified groups list.  
+Just-In-Time Elevation is a security concept that pertains to providing temporary access to resources or services, ensuring that permissions are granted only for the specific time they are required and not a moment more. The Just-In-Time feature in {{ en.DVLS }} grant a temporary membership to a selected Active Directory group from a specified groups list.  
 
 ![Just-In-Time Elevation settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8178.png) 
   

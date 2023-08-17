@@ -4,7 +4,7 @@ title: Recherche avancée
 La fonction de ***Recherche avancée*** vous permet de rechercher des entrées et des dossiers en fonction de plusieurs critères dans un coffre à la fois. Pour effectuer des recherches dans plusieurs coffres simultanément, veuillez vous référer à la rubrique [***Recherche multi-coffres***](/fr/rdm/windows/commands/view/panels/search/multi-vault/).  
 ![Fenêtre de recherche avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10250.png) 
 
-Il est possible de sélectionner plusieurs entrées à la fois avec Maj+Clic ou toutes les entrées avec le raccourci Ctrl+A. Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***. 
+Il est possible de sélectionner plusieurs entrées à la fois avec Maj+clic ou toutes les entrées avec le raccourci Ctrl+A. Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***. 
 
 ### Onglet Recherche 
 

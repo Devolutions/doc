@@ -50,7 +50,7 @@ In View - Play List select the Play List to open and click on ***Open Embedded**
 
 ### Open items with Select in ***{{ en.NPANE }}*** 
 
-In View - Play List select the Play List to open and click on Select in ***{{ en.NPANE }}***. Then select the desired entries in your ***{{ en.NPANE }}*** using Command + click.  
+In View - Play List select the Play List to open and click on Select in ***{{ en.NPANE }}***. Then select the desired entries in your ***{{ en.NPANE }}*** using Cmd+click.  
 ![Select in ***{{ en.NPANE }}***](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10117.png) 
 
 ## Menu 

@@ -20,7 +20,7 @@ It is possible to get the IDs of a ***database***, ***data source***, ***entry**
 ![!!KB2056.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2056.png)
 1. A command line can be created using information displayed in this window. Otherwise, you can simply copy the ***Command Line*** provided by {{ en.RDM }} using the ***Copy*** button.  
 ![!!KB2057.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2057.png)
-1. All that remains is to paste your command line into the Windows Command Prompt and press ***Enter*** to create an executable according to your parameters.  
+1. All that remains is to paste your command line into the Windows Command Prompt and press Enter to create an executable according to your parameters.  
 ![!!KB2058.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2058.png)
 
 ## Retrieve a data source ID
