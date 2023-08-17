@@ -1,11 +1,12 @@
 ---
-title: Command Line Interface
-description: A Command Line Interface (CLI) is a Companion Tool which allows Devolutions Server users to access credentials with the command line.
-keywords:
-- CLI
-- Command Line Interface
+eleventyComputed:
+  title: Command Line Interface
+  description: A Command Line Interface (CLI) is a {{ en.CTOOL }} which allows {{ en.DVLS }} users to access credentials with the command line.
+  keywords:
+  - CLI
+  - Command Line Interface
 ---
-A Command Line Interface (CLI) is a Companion Tool which allows DVLS users to access credentials with the command line.  
+A Command Line Interface (CLI) is a {{ en.CTOOL }} which allows {{ en.DVLS }} users to access credentials with the command line.  
 Listed below are the available command line: 
 
 ## Config 
@@ -29,7 +30,7 @@ The command output will be formatted in JSON format.
 
 **Examples:**
 
-![Devolutions Server CLI examples](https://webdevolutions.azureedge.net/docs/en/kb/KB8006.png) 
+![{{ en.DVLS }} CLI examples](https://webdevolutions.azureedge.net/docs/en/kb/KB8006.png) 
 
 ## Get 
 
@@ -120,7 +121,7 @@ Update the credentials of an entry.
 
 The entry's id can be found in its advance property or in the last part of its URL.
 
-![Credentials – Username / Password – Advanced](https://webdevolutions.azureedge.net/docs/en/kb/KB4357.png) 
+![Credentials – Username/Password – Advanced](https://webdevolutions.azureedge.net/docs/en/kb/KB4357.png) 
 
 **Options:**
 

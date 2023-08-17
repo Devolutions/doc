@@ -1,8 +1,9 @@
 ---
-title: Enterprise Deployment of Remote Desktop Manager
-keywords:
-- silent
-- unattended
+eleventyComputed:
+  title: Enterprise deployment of {{ en.RDM }}
+  keywords:
+  - silent
+  - unattended
 ---
 The ***{{ en.CIS }}***, offered through our Devolutions Customer Portal services, replicates the configuration from a {{ en.RDM }} instance. This configuration is used to create an installer file (*.rdi), which will be used to create the installation package intended for distribution.
 

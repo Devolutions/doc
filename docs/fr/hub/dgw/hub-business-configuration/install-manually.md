@@ -50,7 +50,7 @@ Le programme d'installation doit être exécuté sur le serveur hébergeant {{ f
 1. Cliquer sur ***Installer***.  
 ![Installer](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0046.png)
 1. Cliquer sur ***Terminer*** lorsque l'installation est terminée. 
-1. Retourner à la page ***Administration - Devolutions Gateway*** dans {{ fr.HUBB }}. 
+1. Retourner à la page ***Administration - {{ fr.DGW }}*** dans {{ fr.HUBB }}. 
 1. Saisir les informations correctes.  
 ![Champs d'information](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0047.png)
 ![Champs d'information](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0048.png)

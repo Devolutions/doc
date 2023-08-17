@@ -1,13 +1,13 @@
 ---
 title: Settings
 ---
-The [{{ en.OBACK }}](/rdm/mac/commands/file/backup/) allows you to backup your [{{ en.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/) , [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in a safe online storage. The backup option is available through the File - Backup menu. 
+The [{{ en.OBACK }}](/rdm/mac/commands/file/backup/) allows you to backup your [{{ en.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in a safe online storage. The backup option is available through the File - Backup menu. 
 
 ## Settings 
 
 ### Sign in 
 
-1. Click on File - Backup - Sign-in to Sign-in with your [{{ en.DA }}](/cloud/devolutions-account/). 
+1. Click on ***File - Backup - Sign-in*** to Sign-in with your [{{ en.DA }}](/cloud/devolutions-account/). 
 
 ### View Subscription 
 
@@ -19,7 +19,7 @@ The [{{ en.OBACK }}](/rdm/mac/commands/file/backup/) allows you to backup your [
 
 ### Execute Backup 
 
-4. Once the backup name has been set, perform a change in the data source to properly activate the {{ en.OBACK }} and then click on File - Execute Backup . 
+4. Once the backup name has been set, perform a change in the data source to properly activate the {{ en.OBACK }} and then click on ***File - Execute Backup***. 
 
 ### View History 
 

@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} Enable Integrated Authentication with Kerberos
+  title: Remote Desktop Manager {{ en.MAC }} enable integrated authentication with Kerberos
 ---
-In order to use Integrated Authentication (Windows Authentication) on macOS, you will need to setup a ***Kerberos***   ***ticket*** linking your current user to a Windows domain account. A summary of key steps are included below.  
+In order to use Integrated Authentication (Windows Authentication) on {{ en.MAC }}, you will need to setup a ***Kerberos ticket*** linking your current user to a Windows domain account. A summary of key steps are included below.  
 
 {% snippet icon.badgeWarning %}
-This experimental feature has worked in our internal tests and is a workaround to the integrated security feature which does not work on macOS with SQL Server.  
+This experimental feature has worked in our internal tests and is a workaround to the integrated security feature which does not work on {{ en.MAC }} with SQL Server.  
 
 That being said, the initial implementation of Kerberos was meant to help our community with using this authentication method. However, multiple changes have been made on the Kerberos side since the implementation, so it is possible that this method is now outdated.
 {% endsnippet %}  
@@ -19,7 +19,7 @@ Run on: Windows PC that is joined to your Active Directory Domain. Note that any
 ### Manual Discovery  
 
 {% snippet icon.badgeInfo %}
-nltest.exe is a console utility that you can run using the basic command interpreter or PowerShell
+**nltest.exe** is a console utility that you can run using the basic command interpreter or PowerShell.
 {% endsnippet %}  
 
 Run nltest in the command shell of your choice.  
@@ -44,10 +44,10 @@ Write-Output "Domain name $($dcinfo.Domain)"
 Write-Output "Domain Controller $($dcinfo.HostName)"
 Write-Output "`nSuggested krb5.conf content`n-----------------------------------------"
 Write-Output "[libdefaults]"
-Write-Output "  default_realm = $($dcinfo.Domain.ToUpper())"
+Write-Output "default_realm = $($dcinfo.Domain.ToUpper())"
 Write-Output "
 Write-Output "[realms]`n$($dcinfo.Domain.ToUpper()) = {"
-Write-Output "  kds = $($dcinfo.HostName)"
+Write-Output "kds = $($dcinfo.HostName)"
 Write-Output "}"
 ```
 ## Setup Kerberos on Mac

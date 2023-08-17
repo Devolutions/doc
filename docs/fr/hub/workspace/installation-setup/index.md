@@ -5,9 +5,9 @@ eleventyComputed:
 ---
 {{ fr.DWS }} est un outil d'application mobile et de bureau disponible sur notre [page de téléchargement de {{ fr.DWS }}](https://devolutions.net/fr/workspace/).
 
-Configurez votre {{ fr.HUBB }} ou {{ fr.HUBP }} avec {{ fr.WS }} à partir des guides suivants:
+Configurez votre {{ fr.DHUBB }} ou {{ fr.DHUBP }} avec {{ fr.DWS }} à partir des guides suivants:
 
-* [{{ fr.WS }} de bureau avec {{ fr.HUBB }}](/fr/hub/workspace/installation-setup/setup-desktop-hub-business/)
-* [{{ fr.WS }} de bureau avec {{ fr.HUBP }}](/fr/hub/workspace/installation-setup/setup-desktop-hub-personal/)
-* [{{ fr.WS }} mobile avec {{ fr.HUBB }}](/fr/hub/workspace/installation-setup/setup-mobile-hub-business/)
-* [{{ fr.WS }} mobile avec {{ fr.HUBP }}](/fr/hub/workspace/installation-setup/setup-mobile-hub-personal/)
+* [{{ fr.DWS }} de bureau avec {{ fr.DHUBB }}](/fr/hub/workspace/installation-setup/setup-desktop-hub-business/)
+* [{{ fr.DWS }} de bureau avec {{ fr.DHUBP }}](/fr/hub/workspace/installation-setup/setup-desktop-hub-personal/)
+* [{{ fr.DWS }} mobile avec {{ fr.DHUBB }}](/fr/hub/workspace/installation-setup/setup-mobile-hub-business/)
+* [{{ fr.DWS }} mobile avec {{ fr.DHUBP }}](/fr/hub/workspace/installation-setup/setup-mobile-hub-personal/)

@@ -9,7 +9,7 @@ The following guide describe how to add a PowerShell script in a Custom Credenti
 
 ## Steps
 
-1. In {{ en.RDM }} , create a new Custom Credential entry.  
+1. In {{ en.RDM }}, create a new Custom Credential entry.  
 ![Create a Custom Credential entry.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8115.png)  
 1. Add the following PowerShell script in General - Command.
    - Please note that it uses the $HOST$ variable for the -ComputerName switch of the Get-AdmPwdPassword cmdlet and use the $PARAMETER1$ variable for the username (see step 3 below).  

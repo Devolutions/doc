@@ -17,21 +17,21 @@ Administrative Templates are registry settings that are enforced by domains. The
 
 To learn more on how to deploy the {{ en.RDM }} Administrative Templates on your domain, please refer to the Microsoft Online Help.
 
-## How to list Remote Desktop Manager GPOs in the Local Group Policy Editor
+## How to list {{ en.RDM }} GPOs in the Local Group Policy Editor
 
 {% snippet icon.badgeInfo %}
 For now, the additional support is exclusively for the policies that require a numerical input higher than 0-1 (ex: ForceLockOnIdle).
 {% endsnippet %}
 
-{{ en.RDM }} includes an administrative template file (.admx), which describes the policies that are offered. You will find it in the policies subfolder. Before you can manage GPOs in Remote Desktop Manager, you first need to list them in the Local Group Policy Editor. Here are the steps:
+{{ en.RDM }} includes an administrative template file (.admx), which describes the policies that are offered. You will find it in the policies subfolder. Before you can manage GPOs in {{ en.RDM }}, you first need to list them in the Local Group Policy Editor. Here are the steps:
 
-1. Go to your policies subfolder. By default, the path is C:\Program Files (x86)\Devolutions\Remote Desktop Manager\Policies.
+1. Go to your policies subfolder. By default, the path is **C:\Program Files (x86)\Devolutions\Remote Desktop Manager\Policies**.
 1. Copy the Devolutions.admx file.
-1. Go to C:\Windows\PolicyDefinitions.
-1. Paste the Devolutions.admx file in the root of C:\Windows\PolicyDefinitions.
-1. Go to C:\Program Files\Devolutions\Remote Desktop Manager\Policies\en-US.
+1. Go to **C:\Windows\PolicyDefinitions**.
+1. Paste the Devolutions.admx file in the root of **C:\Windows\PolicyDefinitions**.
+1. Go to **C:\Program Files\Devolutions\Remote Desktop Manager\Policies\en-US**.
 1. Copy the Devolutions.adml file.
-1. Paste the Devolutions.adml file in C:\Windows\PolicyDefinitions\en-US.
+1. Paste the Devolutions.adml file in **C:\Windows\PolicyDefinitions\en-US**.
 1. Open your Group Policy Editor and go to ***Computer Configuration – Administrative Templates – Devolutions – {{ en.RDM }} – Sessions***.
 1. In the ***Sessions*** folder, locate the specific policy that you wish to change.
 1. Right-click the specific policy, edit it accordingly, and save.  
@@ -782,7 +782,7 @@ Disable the option to open with parameters
 	</tr>
 	<tr>
 		<td>
-Disable the PowerShell Remote Desktop Manager Cmdlet in the Tools menu
+Disable the PowerShell {{ en.RDM }} Cmdlet in the Tools menu
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableToolsPowershellRDMCmdlet
@@ -790,7 +790,7 @@ Disable the PowerShell Remote Desktop Manager Cmdlet in the Tools menu
 	</tr>
 	<tr>
 		<td>
-Disable the Remote Desktop Manager Agent in the Tools menu
+Disable the {{ en.RDMA }} in the Tools menu
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableToolsRDMAgent
@@ -934,7 +934,7 @@ Hide the Task panel located in the Dashboard
 	</tr>
 	<tr>
 		<td>
-Select the default tab for the {{ en.NPANE }} on launch
+Select the default tab for the ***{{ en.NPANE }}*** on launch
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DefaultNavigationPaneTab

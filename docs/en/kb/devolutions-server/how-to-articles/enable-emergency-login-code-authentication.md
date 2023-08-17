@@ -6,7 +6,7 @@ In {{ en.DVLS }} you can enable the feature for an emergency access to allow log
 1. In the {{ en.DVLS }} Web interface, validate that you have an email server (SMTP) configured under ***Administration - Server Settings - Email***
 1. Enable the feature ***Enable Emergency Code authentication*** in ***Administration - Server Settings - Authentication***  
 ![!!KB4988.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4988.png)
-1. In ***Administration - Users - General*** , enable the option ***Enable Emergency Login*** for each administrator.  
+1. In ***Administration - Users - General***, enable the option ***Enable Emergency Login*** for each administrator.  
 {% snippet icon.badgeCaution %}
 The user must be an administrator. Having administrator rights only via a ***User Groups*** will not work.
 {% endsnippet %}  
@@ -28,7 +28,7 @@ For Active Directory systems, the ***Username*** must be entered following the U
 
 ![!!KB4991.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4991.png)
 
-3. Paste the ***Emergency code*** , received by email, and click ***Log In***  
+3. Paste the ***Emergency code***, received by email, and click ***Log In***  
 ![!!KB4992.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4992.png)
 
 A log will be shown in the audit and in the administration email that an emergency login was used.

@@ -1,27 +1,27 @@
 ---
-title: Umstellung von Sicherheitsgruppen auf Nutzergruppen
+title: Migration von Sicherheitsgruppen zu Gruppen
 ---
 {% snippet icon.badgeInfo %}
-Sicherheitsgruppen sind ab der Version 2023.3 von Remote Desktop Manager veraltet. 
+Sicherheitsgruppen sind seit {{ de.RDM }} Version 2023.3 veraltet. 
 {% endsnippet %}
 
-Im {{ de.RDM }} kann der Zugriff auf Ihre Objekte mithilfe der ***auf Nutzergruppen basierenden Zugriffskontrolle*** gesichert und verwaltet werden. Diese Art der Absicherung gibt Ihnen eine detailliertere Kontrolle über Ihre Sicherheit..  
+In {{ de.RDM }} kann der Zugriff auf Einträge mithilfe von ***Gruppen*** gesichert und verwaltet werden. Dies gibt Ihnen eine granulare Kontrolle über die Sicherheit und Berechtigungen.
 {% snippet icon.badgeHelp %}
-Weitere Informationen finden Sie unter [auf Nutzergruppen basierenden Zugriffskontrolle](/rdm/windows/user-groups-based-access-control/). 
+Weitere Informationen finden Sie unter [Gruppenbasierter Zugriffskontrolle](/rdm/windows/user-groups-based-access-control/). 
 {% endsnippet %}  
 
-## Umstellung auf Nutzergruppen
-1. Klicken Sie unter ***Verwaltung - Management*** auf ***Nutzergruppen***. 
-1. Erstellen Sie die Gruppen und klicken Sie auf Anwenden. 
-1. Klicken Sie im Bereich ***Verwaltung*** auf ***Sicherheitsgruppen (veraltet)***. 
-1. Löschen Sie jede Sicherheitsgruppe, indem Sie sie markieren und auf ***Sicherheitsgruppe löschen*** klicken. 
+## Migration von Sicherheitsgruppen
+1. Klicken Sie unter ***Administration - Verwaltung*** auf ***Gruppen***. 
+1. Erstellen Sie die Gruppen und klicken Sie auf OK.
+1. Klicken Sie im Bereich ***Verwaltung*** auf ***Sicherheitsgruppen (Veraltet)***. 
+1. Löschen Sie jede Sicherheitsgruppe, indem Sie sie markieren und ***Sicherheitsgruppe löschen*** auswählen.
 {% snippet icon.badgeCaution %}
-Um die Berechtigungen Ihrer Nutzer zu verwalten, empfehlen wir Ihnen den Wechsel von ***Sicherheitsgruppen***
-(veraltet) zu [***Berechtigungen***](/rdm/windows/user-groups-based-access-control/permissions/). Sobald der Wechsel vollzogen ist, deaktivieren Sie bitte das [***Veraltete Sicherheitssystem***](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
+Um die Berechtigungen Ihrer Benutzer zu verwalten, empfehlen wir Ihnen den Wechsel von ***Sicherheitsgruppen*** (Veraltet) zu [***Berechtigungen***](/rdm/windows/user-groups-based-access-control/permissions/). Sobald die Migration abgeschlossen ist, deaktivieren Sie bitte das [***alte Sicherheitssystem***](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
 
-{% endsnippet %}  
+{% endsnippet %}
 
-Hier sind zwei Szenarien, um Ihnen den Einstieg in diese Art von Sicherheit zu erleichtern:  
+Hier sind zwei Szenarien, um Ihnen den Einstieg in diese Art von Sicherheit zu erleichtern:
 
-* [Vereinfachte Sicherheit ](/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/)  
-* [Erweiterte Sicherheit](/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/)  
+* [Vereinfachte Sicherheit ](/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/)
+* [Erweiterte Sicherheit](/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/)
+  

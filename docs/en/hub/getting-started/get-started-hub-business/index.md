@@ -52,8 +52,8 @@ With this video, we will demonstrate how to add ***Users*** to your {{ en.HUBB }
 
 Step 3 - Filling ***Vaults*** with content  
 
-* [Create Entries Manually](/hub/web-interface/hub-overview/entries/create-entries-manually/) 
-* [Import Entries with {{ en.HUBI }}](/hub/web-interface/hub-overview/tools/hub-importer/) 
+* [Create entries manually](/hub/web-interface/hub-overview/entries/create-entries-manually/) 
+* [Import entries with {{ en.HUBI }}](/hub/web-interface/hub-overview/tools/hub-importer/) 
 		</td>
 		<td>
 At this stage, we will show you four different ways to add and import ***Entries*** into your newly created {{ en.HUBB }}. We will also cover the ***Properties*** and ***Permissions*** of ***Entries***.  

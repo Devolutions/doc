@@ -1,7 +1,7 @@
 ---
-title: Unable to Validate the License Online
+title: Unable to validate the license online
 ---
-You are unable to validate the license online for {{ en.RDM }} Windows.  
+You are unable to validate the license online for {{ en.RDMWIN }}.  
 
 ### Solution
 

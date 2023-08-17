@@ -5,7 +5,7 @@ Here are the steps to configure your SQL Server to allow your ***Protected Users
 
 According to Microsoft ***Protected Users*** blocks the use of [NTLM hashes](https://docs.microsoft.com/en-us/windows-server/security/credentials-protection-and-management/protected-users-security-group#domain-controller-protections-for-protected-users) It is however possible to configure SQL Server to also use [Kerberos for Integrated Security](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/register-a-service-principal-name-for-kerberos-connections) The good news is that this is supported out-of-the-box by {{ en.RDM }}.
 
-For SQL Server to support Kerberos authentication, SPNs need to be created. By default, the service runs under accounts that lack the required permissions. We suspect you might have the following messages when SQL Server starts (you can see the logs in SSMS under ***Management SQL Server Logs*** ).
+For SQL Server to support Kerberos authentication, SPNs need to be created. By default, the service runs under accounts that lack the required permissions. We suspect you might have the following messages when SQL Server starts (you can see the logs in SSMS under ***Management SQL Server Logs***).
 
 ![!!KB4657.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4657.png)  
 

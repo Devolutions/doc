@@ -1,13 +1,13 @@
 ---
-title: Launcher paramètres de session
+title: Devolutions Launcher paramètres de session
 order: 30
 ---
-Pour accéder au menu de la session {{ fr.LAUNCHER }}, faire un clic droit sur un onglet de session ouvert.  
+Pour accéder au menu de la session {{ fr.DLAUNCHER }}, faire un clic droit sur un onglet de session ouvert.  
 ![!!Hub4015.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4015.png) 
 
 ### Désancrer 
 
-Pour désancrer une session dans {{ fr.LAUNCHER }}, cliquer avec le bouton droit sur l'onglet pour ouvrir le menu de sélection et cliquer sur ***Désancrer***.  
+Pour désancrer une session dans {{ fr.DLAUNCHER }}, cliquer avec le bouton droit sur l'onglet pour ouvrir le menu de sélection et cliquer sur ***Désancrer***.  
 
 Un menu contextuel devient disponible pour gérer la fenêtre désancrer. 
 

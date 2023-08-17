@@ -35,7 +35,7 @@ RECEIVED BY API
 		<td>
 &#x2022 SecurID code: 123<br>
 &#x2022 Password: abc<br>
-&#x2022 <b><i>MFA delimiter</b></i>: ,
+&#x2022 <b><i>MFA delimiter</b></i>: , 
 		</td>
 		<td>
 &#x2022 Received: 123,abc

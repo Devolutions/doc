@@ -37,6 +37,19 @@
       margin-left: -12px;
       width: 100px;
     }
+    .burger-menu-logo {
+      display: flex;
+      align-items: center; 
+      cursor: pointer;
+      margin-right: 10px; 
+      color: rgba(255,255,255,.8);
+      &:hover {
+        color: white; 
+      }
+      @media (min-width: 1200px) {
+        display: none; 
+      }
+    }
   }
 
   .dwd-header-right {
@@ -366,4 +379,6 @@
     width: 100%;
     z-index: 999;
   }
+
+ 
 }

@@ -1,7 +1,7 @@
 ---
 title: Options d'importation
 ---
-Sélectionner l' [Emplacement du fichier de configuration](/fr/rdm/windows/installation/client/configuration-file-location/) à importer dans {{ fr.RDM }} et cliquer sur ***Ouvrir*** .   
+Sélectionner l'[Emplacement du fichier de configuration](/fr/rdm/windows/installation/client/configuration-file-location/) à importer dans {{ fr.RDM }} et cliquer sur ***Ouvrir***.   
 ![Importateur de fichiers d'options](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10186.png) 
 
 <table>

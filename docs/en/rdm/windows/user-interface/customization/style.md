@@ -8,7 +8,7 @@ title: Style
 
 ## Configuration 
 
-To select the ***User Interface*** style you must go in File – Options – User Interface and modify the Main header .  
+To select the ***User Interface*** style you must go in ***File – Options – User Interface*** and modify the ***Main header***.  
 ![Options - User Interface](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11406.png) 
 
 ## Existing styles 

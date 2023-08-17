@@ -15,6 +15,6 @@ Set-Location "Cert:\CurrentUser\My\"
 # Store the certificate with the thumbprint <your certificate thumbprint> in a variable ($Cert).
 $Cert = Get-ChildItem | Where-Object {$_.Thumbprint -eq "<your thumbprint>"}
 
-#then est the Invoke-RestMethod -Method Get ...
+#then est the Invoke-RestMethod -Method Get...
 Invoke-RestMethod -Method Get -Uri "<your Cyberark PasswordVaukt>AIMWebService/api/Accounts" -Certificate $cert -Body @{AppID = "<Your APP ID>"; Safe = "<Your Safe>"; Object = "<Object name>"}
 ```

@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Duplicate {{ en.DVLS }} Instance
 ---
-When you open the {{ en.DVLS }} Console, two instances of the same {{ en.DVLS }} are visible in the console. One with only a "/" as the Web Application Name.  
+When you open the {{ en.DVLSCONSOLE }}, two instances of the same {{ en.DVLS }} are visible in the {{ en.DVLSCONSOLE }}. One with only a "/" as the Web Application Name.  
 ![!!KB4298.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4298.png)
 
 ## Cause 1
@@ -20,7 +20,7 @@ Change the path of the Web Site in the IIS Manager.
 ![!!KB4301.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4301.png)
 1. **Restart your IIS Server**.  
 ![!!KB4302.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4302.png)
-1. On the {{ en.DVLS }} Console, click on the ***Refresh*** button and just one instance should be displayed.
+1. On the {{ en.DVLSCONSOLE }}, click on the ***Refresh*** button and just one instance should be displayed.
 ![!!KB4303.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4303.png)
 
 ## Cause 2
@@ -41,5 +41,5 @@ To have only one {{ en.DVLS }} instance without any duplicate, the Physical path
 ![!!KB4308.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4308.png)
 1. To restart your IIS Server, select the root in the **Tree View** and click on ***Restart*** in the ***Actions*** panel on the right.  
 ![!!KB4309.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4309.png)
-1. On the {{ en.DVLS }} Console, click on the ***Refresh*** button and just one instance should be displayed.  
+1. On the {{ en.DVLSCONSOLE }}, click on the ***Refresh*** button and just one instance should be displayed.  
 ![!!KB4310.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4310.png)

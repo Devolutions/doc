@@ -17,7 +17,7 @@ User Groups in {{ en.DVLS }} are in fact links to Active Directory groups. By le
 Please note that the Unsecured group permissions (the ones above the grid) are ignored. You must set them on each user individually. 
 {% endsnippet %}
  
-For more information please see [{{ en.DVLS }} User Groups Management](/server/web-interface/administration/security-management/user-groups/) . 
+For more information please see [{{ en.DVLS }} User Groups Management](/server/web-interface/administration/security-management/user-groups/). 
 
 ## Create User Groups 
 

@@ -1,7 +1,7 @@
 ---
 title: Aide
 ---
-L'onglet ***Aide*** contient des liens vers notre site web Devolutions et notre Aide en ligne. Il comprend également tous les liens pour nous suivre sur différentes plateformes de médias sociaux. Notre équipe d'assistance peut également vous demander d'effectuer certaines opérations que vous trouverez dans l'onglet ***Aide*** .  
+L'onglet ***Aide*** contient des liens vers notre site web Devolutions et notre Aide en ligne. Il comprend également tous les liens pour nous suivre sur différentes plateformes de médias sociaux. Notre équipe d'assistance peut également vous demander d'effectuer certaines opérations que vous trouverez dans l'onglet ***Aide***.  
 ![Menu Aide](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4225.png) 
 
 <table>
@@ -18,7 +18,7 @@ Description
 Aide en ligne 
 		</td>
 		<td>
-Vous redirige vers l'Aide en ligne de {{ fr.RDM }} . 
+Vous redirige vers l'Aide en ligne de {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -27,7 +27,7 @@ Enregistrer le produit
 		</td>
 		<td>
 
-Entrer votre licence d'essai ou d'Édition Team pour enregistrer votre version de {{ fr.RDM }} . Pour plus d'informations, veuillez consulter [Édition Team](/fr/rdm/mac/installation/client/registration/team-edition/) ou [Demande d'essai](/fr/rdm/mac/installation/client/registration/trial-request/) . 
+Entrer votre licence d'essai ou d'Édition Team pour enregistrer votre version de {{ fr.RDM }}. Pour plus d'informations, veuillez consulter [Édition Team](/fr/rdm/mac/installation/client/registration/team-edition/) ou [Demande d'essai](/fr/rdm/mac/installation/client/registration/trial-request/). 
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ Vous redirige sur la page d'accueil de notre site web Devolutions.
 Journaux des applications 
 		</td>
 		<td>
-Pour en savoir plus, consultez les [Journaux des applications](/fr/rdm/mac/commands/help/application-logs/) . 
+Pour en savoir plus, consultez les [Journaux des applications](/fr/rdm/mac/commands/help/application-logs/). 
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ Pour en savoir plus, consultez les [Journaux des applications](/fr/rdm/mac/comma
 Diagnostic 
 		</td>
 		<td>
-Pour en savoir plus, consultez [Diagnostic](/fr/rdm/mac/commands/help/diagnostic/) . 
+Pour en savoir plus, consultez [Diagnostic](/fr/rdm/mac/commands/help/diagnostic/). 
 		</td>
 	</tr>
 	<tr>
@@ -59,7 +59,7 @@ Pour en savoir plus, consultez [Diagnostic](/fr/rdm/mac/commands/help/diagnostic
 Profileur 
 		</td>
 		<td>
-Pour en savoir plus, consultez le [Profileur](/fr/rdm/mac/commands/help/profiler/) . 
+Pour en savoir plus, consultez le [Profileur](/fr/rdm/mac/commands/help/profiler/). 
 		</td>
 	</tr>
 	<tr>
@@ -91,7 +91,7 @@ Vérifie si la dernière version de {{ fr.RDM }} est installée sur votre ordina
 À propos 
 		</td>
 		<td>
-Ouvre une fenêtre contenant plusieurs informations concernant {{ fr.RDM }} . Il affichera votre version de {{ fr.RDM }} et vos informations de licence (si vous êtes administrateur). 
+Ouvre une fenêtre contenant plusieurs informations concernant {{ fr.RDM }}. Il affichera votre version de {{ fr.RDM }} et vos informations de licence (si vous êtes administrateur). 
 		</td>
 	</tr>
 </table>

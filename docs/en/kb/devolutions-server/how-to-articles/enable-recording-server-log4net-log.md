@@ -7,11 +7,11 @@ keywords:
 - Logging
 - Logs
 ---
-The following procedure describe how to enable the logging utility for the Devolutions Server Recording Server.  
+The following procedure describe how to enable the logging utility for the {{ en.DVLS }} Recording Server.  
 
 ## Steps
 
-1. Edit the log4net.config file located of the Collector and Processor application installation folders. Click on the Explore button of the Recording Server section of the Companions tab on the Devolutions Server Console. 
+1. Edit the log4net.config file located of the Collector and Processor application installation folders. Click on the Explore button of the Recording Server section of the ***Companions*** tab on the {{ en.DVLSCONSOLE }}. 
 
 ![!!KB8120.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8120.png)
 

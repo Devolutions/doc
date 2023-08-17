@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Web Login Extension Firefox Installation
+  title: Devolutions Web Login extension Firefox installation
   description: Follow the steps to complete the installation of {{ en.DWL }} in the Firefox web browser. 
   keywords:
   - Browser
@@ -16,4 +16,4 @@ Follow the steps below to complete the installation of {{ en.DWL }} in the Firef
 1. Click ***Add***, when prompted to add {{ en.DWL }} to the extension.  
 ![Add the Extension](https://webdevolutions.azureedge.net/docs/en/kb/KB4813.png)  
 1. Once installed, access the extension by clicking the {{ en.DWL }} button icon in the top-right corner of Firefox.  
-![Web Login Extension](https://webdevolutions.azureedge.net/docs/en/kb/KB4814.png)  
+![{{ en.DWL }} extension](https://webdevolutions.azureedge.net/docs/en/kb/KB4814.png)  

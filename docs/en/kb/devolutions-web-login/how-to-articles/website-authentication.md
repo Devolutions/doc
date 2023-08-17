@@ -19,7 +19,7 @@ The [***Comparing type***](/kb/devolutions-web-login/how-to-articles/how-to-use-
 {% endsnippet %}  
 
 2. In the ***Login*** tab, set the ***Authentication*** to ***Form***
-1. In the ***Login – Settings*** tab, verify that the   ***Autofill login*** and ***Auto submit*** options are enabled.  
+1. In the ***Login – Settings*** tab, verify that the ***Autofill login*** and ***Auto submit*** options are enabled.  
 ![!!KB4607.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4607.png)
 <table>
 	<tr>

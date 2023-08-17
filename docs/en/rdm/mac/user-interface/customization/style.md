@@ -8,7 +8,7 @@ title: User Interface Style
 
 ## Configuration 
 
-To select the User Interface style you must go in File - Preferences - User Interface .  
+To select the User Interface style you must go in ***File - Preferences - User Interface***.  
 ![User Interface - Options](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6001.png) 
 
 ### Ribbon 

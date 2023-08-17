@@ -4,7 +4,7 @@ title: Batch Actions
 Use the Edit - Batch Edit - Batch Actions to change the settings of multiple sessions in one operation. It can be used for a batch action command on a group of sessions. 
 
 {% snippet icon.badgeInfo %} 
-Batch Actions are only applied to entries currently selected in your navigation pane. 
+Batch Actions are only applied to entries currently selected in your ***{{ en.NPANE }}***. 
 {% endsnippet %}
  
 ![Batch Edit - Batch Actions](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10350.png) 

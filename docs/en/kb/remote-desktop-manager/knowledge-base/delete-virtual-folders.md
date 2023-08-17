@@ -19,7 +19,7 @@ Delete duplicate folders before running the PowerShell script from the new entry
 {% endsnippet %}
 
 1. Launch {{ en.RDM }} as an administrator by right-clicking on the application and choosing ***Run as administrator***.  
-1. Select the data source vaults from which you want to delete all virtual folders in the ***Navigation Pane***.  
+1. Select the data source vaults from which you want to delete all virtual folders in the ***{{ en.NPANE }}***.  
 1. Add a new entry.  
 1. Go to ***Session – PowerShell*** to create a PowerShell session entry.  
 ![PowerShell session entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6014.png)  

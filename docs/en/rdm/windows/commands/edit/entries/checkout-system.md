@@ -5,20 +5,20 @@ title: Checkout System
 
 The ***Checkout system*** locks an entry while it is being used or modified. It prevents users from using or editing an entry at the same time.  
 
-The checkout system can be enabled for ***Sessions*** , ***Documents*** , ***Credentials*** ,   and ***Information***   entries.  
+The checkout system can be enabled for ***Sessions***, ***Documents***, ***Credentials***, and ***Information*** entries.  
 
-You can set the check out mode at the {{ en.VLT }} , folder or entry level. 
+You can set the check out mode at the {{ en.VLT }}, folder or entry level. 
 
 {% snippet icon.badgeInfo %} 
 This feature is only available when using [SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) or [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) data sources. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Administrators can set ***Automatic check in after*** a number of minutes in ***Administration – System Settings – Vault*** . 
+Administrators can set ***Automatic check in after*** a number of minutes in ***Administration – System Settings – Vault***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Administrators can force ***Check In*** entries that are ***Check Out*** by other users. Right-click the entry that is check out, click ***Check In*** . 
+Administrators can force ***Check In*** entries that are ***Check Out*** by other users. Right-click the entry that is check out, click ***Check In***. 
 {% endsnippet %}
  
 ### Security Settings 
@@ -92,7 +92,7 @@ Offers the option to check out an entry manually or use (open and edit) the entr
 
 ### Checkout prompt 
 
-***Checkout prompt*** sets if a user must enter a comment when they check out the entry. Administrators can monitor the comments through the logs available on the entry or the ***Activity Logs*** .  
+***Checkout prompt*** sets if a user must enter a comment when they check out the entry. Administrators can monitor the comments through the logs available on the entry or the ***Activity Logs***.  
 ![!!clip3522.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3522.png) 
 
 <table>

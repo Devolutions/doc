@@ -1,10 +1,11 @@
 ---
-title: The INSERT Statement Conflicted with the FOREIGN KEY
-description: As an administrator of the Devolutions Server instance, you receive this error message. SqlException - The INSERT statement conflicted with the FOREIGN KEY
-keywords:
-- INSERT Statement
-- SqlException
-- Foreign key
+eleventyComputed:
+  title: The INSERT statement conflicted with the FOREIGN KEY
+  description: As an administrator of the {{ en.DVLS }} instance, you receive this error message. SqlException - The INSERT statement conflicted with the FOREIGN KEY
+  keywords:
+  - INSERT Statement
+  - SqlException
+  - Foreign key
 ---
 As an administrator of the {{ en.DVLS }} instance, you receive this error message.
 

@@ -32,7 +32,7 @@ Choose between the <b><i>Dark</i></b> or <b><i>Light</i></b> themes, or use your
 User Interface 
 		</td>
 		<td>
-Choose between the <b><i>Classic</i></b> and the <b><i>Ribbon</i></b> interface for Remote Desktop Manager's main menu header. 
+Choose between the <b><i>Classic</i></b> and the <b><i>Ribbon</i></b> interface for {{ en.RDM }}'s main menu header. 
 		</td>
 	</tr>
 	<tr>

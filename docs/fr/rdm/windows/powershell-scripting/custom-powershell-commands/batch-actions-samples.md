@@ -3,20 +3,20 @@ title: Exemples d'actions par lot
 ---
 Les modifications par lots permettent de modifier rapidement plusieurs sessions à la fois, dans {{ fr.RDM }} lui-même.  
 
-Pour pouvoir créer votre script PowerShell, vous aurez besoin du nom du ou des champs que vous souhaitez mettre à jour. Pour récupérer le nom exact du champ, cliquer avec le bouton droit sur votre session et sélectionnez ***Presse - papiers - Copier*** . Vous pouvez ensuite coller les informations dans un éditeur de texte pour récupérer le nom du ou des champs que vous souhaitez modifier via la commande PowerShell personnalisée.  
+Pour pouvoir créer votre script PowerShell, vous aurez besoin du nom du ou des champs que vous souhaitez mettre à jour. Pour récupérer le nom exact du champ, cliquer avec le bouton droit sur votre session et sélectionnez ***Presse - papiers - Copier***. Vous pouvez ensuite coller les informations dans un éditeur de texte pour récupérer le nom du ou des champs que vous souhaitez modifier via la commande PowerShell personnalisée.  
 
 Puisqu'ils utilisent la technologie Powershell, nous fournissons des exemples dans cette section, car les champs sont les mêmes lorsqu'ils sont accessibles via nos modifications par lots ou via Powershell. 
 
 ## Échantillons 
 
-### Désactiver l'option "only send password in html password field" dans les sessions de site web 
+### Désactiver l'option « only send password in html password field » dans les sessions de site web 
 
 ```powershell
 $connection.Web.OnlySendPasswordInPasswordField = $false;
-$RDM.Save ( ) ;
+$RDM.Save ( );
 ```
 
-### Activer "view url embedded" (entrées d'informations) 
+### Activer « view url embedded » (entrées d'informations) 
 
 ```powershell
 $connection.DataEntry.ViewUrlDisplayMode = "Default";
@@ -27,7 +27,7 @@ $RDM.Save();
 ViewUrlDisplayMode: "Default" = Intégré, "External" = Externe. 
 ```
 
-### "Open url (external)" pour la connexion web (entrées d'informations) 
+### « Open url (external) » pour la connexion web (entrées d'informations) 
 
 ```powershell
 $connection.DataEntry.DefaultAction = "OpenUrlExternal";
@@ -50,30 +50,30 @@ $RDM.Save();
 
 Voici quelques valeurs que vous pouvez modifier pour cette commande;  
 
-LogPath: votre chemin entre ' ' (guillemets simples). Vous pouvez également utiliser des variables. c'est-à-dire %USERPROFILE%, $NAME$, etc. Dans cet exemple, $LOGPATH$ est une variable personnalisée définie dans les paramètres de la source de données (Paramètres du système).  
+LogPath : votre chemin entre ' ' (guillemets simples). Vous pouvez également utiliser des variables. c'est-à-dire %USERPROFILE%, $NAME$, etc. Dans cet exemple, $LOGPATH$ est une variable personnalisée définie dans les paramètres de la source de données (Paramètres du système).  
 
 ```powershell
 LogMode: 1 = Sortie imprimable, 0 = Événement  
 TerminalLogOverwriteMode: 0 = Par défaul, 1 = Invite, 2 = Ajouter, 3 = Remplacer  
 ```
 
-Voici également d'autres options que vous pouvez modifier;  
+Voici également d'autres options que vous pouvez modifier :  
 
 ```powershell
-$connection.Terminal.BellMode = 'Visual'  
-$connection.Terminal.CloseOnDisconnect = $false  
+$connection.Terminal.BellMode = 'Visual';
+$connection.Terminal.CloseOnDisconnect = $false; 
 ```
 
 ### Convertir des sessions de site web en sessions LogMeIn 
 
 ```powershell
 $connection.ConnectionType = 'LogMeIn';
-$connection.ConnectionSubType = '' ;
+$connection.ConnectionSubType = '';
 $connection.LogMeIn.Url = $connection.WebBrowserUrl;
 $RDM.Save();
 ```
 
-Activer "Hide script errors in all your LogMeIn sessions" 
+Activer « Hide script errors in all your LogMeIn sessions » 
 
 ```powershell
 $connection.LogMeIn.ScriptErrorsSuppressed = $true;
@@ -150,7 +150,7 @@ $connection.MetaInformation.CustomField3Title = "MyField"
 $RDM.Save();
 ```
 
-Veuillez noter que vous devrez modifier "MyField" pour la valeur que vous souhaitez remplacer.  Le champ personnalisé #3 par exemple. 
+Veuillez noter que vous devrez modifier « MyField » pour la valeur que vous souhaitez remplacer.  Le champ personnalisé #3 par exemple. 
 
 ### Mettre à jour en lot les informations de nom de domaine complet sur les sessions 
 
@@ -233,4 +233,3 @@ $RDM.Save();
 $connection.KeyboardHook = "OnTheRemoteComputer";
 $RDM.Save();
 ```
-

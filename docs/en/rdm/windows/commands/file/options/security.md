@@ -272,7 +272,7 @@ Encrypts {{ en.RDM }} configuration files on the workstation using Windows' nati
 
 DPAPI is a robust additional encryption tool managed by the operating system that ensures that the configuration files containing sensitive information and the offline cache files can only be decrypted on your own machine. Enabling DPAPI and Offline Security will encrypt the files twice since DPAPI is a separated encryption step.  
 
-The feature is disabled by default, because under certain rare conditions (beyond Remote Desktop Manager's control), data decrypted by DPAPI may be unrecoverable, preventing Remote Desktop Manager from starting up.
+The feature is disabled by default, because under certain rare conditions (beyond {{ en.RDM }}'s control), data decrypted by DPAPI may be unrecoverable, preventing {{ en.RDM }} from starting up.
 		</td>
 	</tr>
 	<tr>

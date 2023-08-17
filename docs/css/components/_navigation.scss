@@ -10,15 +10,50 @@
   width: 300px;
   z-index: 10;
 
+
   @media (max-width: 1199px) {
     transform: translateX(-100%);
+
+    &.active {
+      transform: translateX(0);
+      top: calc((var(--header-height)));
+      height: calc(100% - (var(--header-height)));
+      z-index: 1000;
+
+      + .markdown-container {
+        &::after {
+          background-color: rgba(0, 0, 0, 0.3);
+          content: "";
+          height: 100%;
+          position: fixed;
+          top: 52px;
+          width: 100%;
+          z-index: 999;
+        }
+      }
+    }
+  }
+
+  .nav-item-sub-container {
+    display: flex;
+    align-items: center;
+
+    .expand-more {
+      align-self: stretch;
+      align-items: center;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      width: 44px;
+
+    }
   }
 
   .nav-item {
     align-items: center;
     background-color: transparent;
-    color: #212121;
     border: none;
+    color: #212121;
     cursor: pointer;
     display: flex;
     font-size: 14px;
@@ -28,6 +63,9 @@
 
     &:hover {
       background-color: #f5f5f5;
+      & + .expand-more {
+        background-color: #f5f5f5;
+      }
     }
 
     @for $i from 2 through 8 {
@@ -39,22 +77,34 @@
     &.active {
       background-color: #f5f5f5;
 
-      &.current {
-        color: #ffffff;
-        background-color: #0068c3;
+      + .expand-more {
+        background-color: #f5f5f5;
       }
 
-      svg {
-        transform: rotate(0deg);
+      &.current {
+        background-color: #0068c3;
+        color: #ffffff;
+
+        + .expand-more {
+          background-color: #0068c3;
+          color: #ffffff;
+        }
+      }
+       
+      & + .expand-more {
+        svg {
+          transform: rotate(0deg);
+        }
       }
     }
 
-    svg {
-      height: 18px;
-      margin-left: auto;
-      min-width: 18px;
-      transform: rotate(-90deg);
-      width: 18px;
+    & + .expand-more {
+     svg {
+        height: 18px;
+        min-width: 18px;
+        transform: rotate(-90deg);
+        width: 18px;
+      }
     }
   }
 
@@ -65,6 +115,7 @@
     &.active {
       background-color: #f5f5f5;
       height: auto;
+
     }
   }
 }

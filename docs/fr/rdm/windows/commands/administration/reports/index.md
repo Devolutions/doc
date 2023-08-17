@@ -4,7 +4,7 @@ title: Rapports
 La section ***Rapports*** génère automatiquement des rapports concernant vos identifiants, entrées, journaux et sécurité. Vous aurez également la possibilité d'exporter votre rapport généré qui est un moyen d'exécuter et d'exporter des rapports via une ligne de commande.  
 
 {% snippet icon.badgeInfo %} 
-Consulter la rubrique [Tableau de bord de la sécurité {{ fr.RDM }}](/fr/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/) pour en savoir plus sur le rapport ***Sécurité des applications et des sources de données*** . 
+Consulter la rubrique [Tableau de bord de la sécurité {{ fr.RDM }}](/fr/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/) pour en savoir plus sur le rapport ***Sécurité des applications et des sources de données***. 
 {% endsnippet %}
  
 ![Générer le rapport](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10335.png) 

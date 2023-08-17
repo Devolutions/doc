@@ -25,7 +25,7 @@ You must be the owner or an administrator of the organization to manage and invi
 
 ### Manage Users 
 
-As an administrator, you can review and edit the ***Pending invitations*** . Once the users have connected and joined, they will be added automatically to the ***Users*** list of the organization where you will be able to manage them by clicking the vertical ellipsis button to the right of each user.  
+As an administrator, you can review and edit the ***Pending invitations***. Once the users have connected and joined, they will be added automatically to the ***Users*** list of the organization where you will be able to manage them by clicking the vertical ellipsis button to the right of each user.  
 
 You will be able to edit the ***Groups*** they belong too, ***Transfer the ownership*** of the organization to another user, set this user as an ***Administrator*** or ***Remove users*** from the organization.  
 

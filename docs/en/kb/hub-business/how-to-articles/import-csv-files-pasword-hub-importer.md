@@ -6,7 +6,7 @@ eleventyComputed:
 This topic assumes that your CSV files are ready to be imported. For tips and recommendations on how to prepare your CSV files for importation, visit [this topic](/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/)
 {% endsnippet %}  
 
-{{ en.HUBI }} is our essential companion tool designed to import files into your {{ en.HUB }}. Follow the steps below to learn how to import CSV files in {{ en.HUBB }}.  
+{{ en.HUBI }} is our essential {{ en.CTOOL }} designed to import files into your {{ en.HUB }}. Follow the steps below to learn how to import CSV files in {{ en.HUBB }}.  
 
 {% snippet icon.badgeInfo %}
 If you do not have {{ en.HUBI }}, [download and install it](https://devolutions.net/password-hub-importer) first. Then, after launching the application, select your ***{{ en.HUBB }} Host*** and log in with your {{ en.DA }}.
@@ -19,7 +19,7 @@ In the event that you need to import the ***Specific Settings***, leave the ***C
 
 ![CSV Import Type.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2112.png)
 
-2. In the ***Import Csv Wizard*** window, select the ***Header format instruction*** (***Session***, ***Credential***, ***Information***, or ***Template*** ) from the drop-down list.  
+2. In the ***Import Csv Wizard*** window, select the ***Header format instruction*** (***Session***, ***Credential***, ***Information***, or ***Template***) from the drop-down list.  
 ![Header Format Instruction Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2114.png)
 1. Click on the ellipsis button next to the ***Open CSV file*** field to select your files to import.
 ![Open CSV File.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2115.png)
@@ -41,7 +41,7 @@ DESCRIPTION
 Delimiter
 		</td>
 		<td>
-Select a delimiter between a Comma , a Semicolon , or a Custom symbol.
+Select a delimiter between a Comma, a Semicolon, or a Custom symbol.
 		</td>
 	</tr>
 	<tr>

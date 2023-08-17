@@ -1,10 +1,10 @@
 ---
 title: Nettoyer l'historique d'entrées
 ---
-L' ***Historique d'entrées*** efface l'historique attaché à votre entrée, vous pouvez trouver l'historique avec un clic droit sur votre entrée et en sélectionnant ***Affichage - Historique de l'entrée*** . 
+L'***Historique d'entrées*** efface l'historique attaché à votre entrée, vous pouvez trouver l'historique avec un clic droit sur votre entrée et en sélectionnant ***Affichage - Historique de l'entrée***. 
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -20,5 +20,3 @@ Vous devez être administrateur de la source de données pour effectuer cette ac
 {% snippet icon.badgeWarning %} 
 Il n'y aura pas de sauvegarde de votre historique. Nous vous recommandons fortement de faire une [Copie de sauvegarde](/rdm/windows/commands/file/backup/) avant de continuer. 
 {% endsnippet %}
- 
-

@@ -2,7 +2,7 @@
 title: Installateur personnalisé
 order: 10
 ---
-Le ***{{ fr.CIM }}*** permettra de générer et de télécharger des paquets d'installation personnalisés pour {{ fr.RDM }} Windows. 
+Le ***{{ fr.CIM }}*** permettra de générer et de télécharger des paquets d'installation personnalisés pour {{ fr.RDMWIN }}. 
 {% snippet icon.shieldWarning %} 
 Le ***{{ fr.CIM }}*** téléverse un fichier de configuration vers nos services en ligne. Vous ne devez pas utiliser ce service à des fins de redistribution de mots de passe de vos sources de données. 
 {% endsnippet %}
@@ -12,7 +12,7 @@ Pour des raisons de stabilité, dans les grandes bases d'installation, la derni�
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration d'***{{ fr.CI }}*** dans votre {{ fr.DA }} . 
+Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration d'***{{ fr.CI }}*** dans votre {{ fr.DA }}. 
 {% endsnippet %}
  
 ### Paramètres 
@@ -21,7 +21,7 @@ Le ***{{ fr.CIM }}*** réplique les paramètres l'instance de {{ fr.RDM }} utili
 
 Vous pouvez aller dans ***Fichier – {{ fr.DA }} – Outils*** pour accéder au ***{{ fr.CIM }}***.  
 ![Fichier – {{ fr.DA }} – {{ fr.CIM }}](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4060.png)  
-Veuillez consulter notre [guide de création d'un paquet d'installation](/fr/rdm/windows/installation/client/custom-installer-service/) .  
+Veuillez consulter notre [guide de création d'un paquet d'installation](/fr/rdm/windows/installation/client/custom-installer-service/).  
 
-Si le paquet a déjà été généré, vous pouvez le télécharger directement depuis le portail comme décrit dans [Télécharger le paquet de l'{{ fr.CI }}](/fr/cloud/rdm-online-services/custom-installer/download-custom-installer/) . 
+Si le paquet a déjà été généré, vous pouvez le télécharger directement depuis le portail comme décrit dans [Télécharger le paquet de l'{{ fr.CI }}](/fr/cloud/rdm-online-services/custom-installer/download-custom-installer/). 
 

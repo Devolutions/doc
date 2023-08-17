@@ -5,7 +5,7 @@ keywords:
 ---
 ## What is {{ en.DVLS }}?
 
-{{ en.DVLS }} is a specialized data source for our various client applications of the   {{ en.RDM }} platform. 
+{{ en.DVLS }} is a specialized data source for our various client applications of the {{ en.RDM }} platform. 
 
 ## Why buy {{ en.DVLS }}?
 
@@ -21,7 +21,7 @@ Ideal for businesses that would prefer to store their data in-house, want to dep
 * Operating System 
 * Firewall / Application Delivery 
 * Load Balancing / Fault tolerant environment for the web server layer. 
-* Database, including clustering / failover capabilities. 
+* Database, including clustering/failover capabilities. 
 * Backups 
 * SSL certificates  
 

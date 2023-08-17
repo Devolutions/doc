@@ -1,7 +1,7 @@
 ---
 title: Général
 ---
-Dans le menu ***Général*** , vous pourrez gérer différents droits d'accès spécifiques à la source de données.  
+Dans le menu ***Général***, vous pourrez gérer différents droits d'accès spécifiques à la source de données.  
 
 ![Paramètres du système - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4104.png) 
 
@@ -22,7 +22,7 @@ Permettre les Paramètres spécifiques de l'usager
 		</td>
 		<td>
 
-Permets l'utilisation des ***Paramètres spécifiques de l'usager*** . Voir [Paramètres spécifiques de l'usager](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/) pour plus d'informations. 
+Permets l'utilisation des ***Paramètres spécifiques de l'usager***. Voir [Paramètres spécifiques de l'usager](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -30,7 +30,7 @@ Permets l'utilisation des ***Paramètres spécifiques de l'usager*** . Voir [Par
 Permettre Paramètres spécifiques locaux 
 		</td>
 		<td>
-Permets l'utilisation de ***Paramètres spécifiques locaux*** . 
+Permets l'utilisation de ***Paramètres spécifiques locaux***. 
 		</td>
 	</tr>
 	<tr>

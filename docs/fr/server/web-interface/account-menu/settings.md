@@ -2,7 +2,7 @@
 title: Paramètres
 ---
 
-Dans la section ***Paramètres*** , modifiez les éléments de l'interface utilisateur Web. 
+Dans la section ***Paramètres***, modifiez les éléments de l'interface utilisateur Web. 
 
 ![Paramètres de l'interface utilisateur](https://webdevolutions.azureedge.net/docs/fr/server/clip7005.png) 
 
@@ -38,7 +38,7 @@ Lancer une connexion avec
 		<td>
 Choisir l'application qui ouvre les connexions à distance :  
 
-* ***Par défaut :*** ***{{ fr.DLAUNCHER }}*** 
+* ***Par défaut : {{ fr.DLAUNCHER }}*** 
 * ***{{ fr.RDM }}*** 
 * ***{{ fr.DLAUNCHER }}*** 
 		</td>
@@ -72,7 +72,7 @@ Choisir un format :
 Utiliser l'image du coffre dans l'arborescence 
 		</td>
 		<td>
-Activer pour afficher les images des coffres dans le volet de navigation. 
+Activer pour afficher les images des coffres dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>

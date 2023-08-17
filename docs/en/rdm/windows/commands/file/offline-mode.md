@@ -1,7 +1,7 @@
 ---
 title: Go Offline/Online
 ---
-Toggle the data source [Offline Mode](/rdm/windows/data-sources/offline-mode/) .  
+Toggle the data source [Offline Mode](/rdm/windows/data-sources/offline-mode/).  
 
 Use the offline mode to connect to a local copy of the data source when the remote database is unavailable. This is useful when working from a remote location and the network is unreachable or if there is any kind of connectivity issue. 
 

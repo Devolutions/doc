@@ -15,7 +15,7 @@ Avant de commencer la configuration, assurez-vous d'avoir créé un compte Duo e
 1. Se connecter au ***Duo Admin Panel***.  
 1. Dans ***Applications***, cliquer sur ***Protect an Application***.
 ![Protect an Application](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/clip6000.png)  
-1. Protéger l’application ***Partner Auth API***.   
+1. Protéger l’application ***Partner Auth API***.  
 ![Protéger l'application Partner Auth API](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/clip6001.png)  
 1. Si ce n'est pas déjà fait, suivre ces [étapes de configuration de l'authentification multifacteur](/fr/rdm/mac/data-sources/multi-factor-authentication/). 
 1. Après avoir sélectionné le type d'AMF ***Duo***, cliquer sur ***Appliquer***.  

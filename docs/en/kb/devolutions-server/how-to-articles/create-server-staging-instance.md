@@ -6,7 +6,7 @@ In order to perform testing on an instance of {{ en.DVLS }} without altering the
 
 The following steps describe how to create a test instance hosted on the same machine as the production instance.
 
-## STEPS
+## Steps
 
 1. Perform a full backup of the production database.
 1. Restore the database under a new name.
@@ -16,7 +16,7 @@ The following steps describe how to create a test instance hosted on the same ma
 1. Provide, once prompted for it, the encryption key file exported in step 3.  
 ![Encryption keys for existing database.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8113.png)
 1. When the creation is complete, make a full backup of the staging database.
-1. Finally, install all the additional features to test them like the Scheduler service, the Recording Server and the Devolutions Gateway.  
+1. Finally, install all the additional features to test them like the Scheduler service, the Recording Server and the {{ en.DGW }}.  
 
 From this point on, you can perform the {{ en.DVLSCONSOLE }} upgrade and [update the test instance](/server/installation/upgrade-server/) The console is designed to support older versions of {{ en.DVLS }}.
 

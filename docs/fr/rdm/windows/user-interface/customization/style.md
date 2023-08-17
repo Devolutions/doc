@@ -8,14 +8,14 @@ title: Style
 
 ## Configuration 
 
-Pour sélectionner le style d'Interface utilisateur, vous devez aller dans ***Fichier – Options – Interface utilisateur*** et modifier l ***'En-tête principal*** .  
+Pour sélectionner le style d'Interface utilisateur, vous devez aller dans ***Fichier – Options – Interface utilisateur*** et modifier l ***'En-tête principal***.  
 ![Options - Interface utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11406.png) 
 
 ## Styles existants 
 
 ### Ruban 
 
-Les icônes et le texte facilitent l'exploration des fonctionnalités avec le style ***Ruban*** .  
+Les icônes et le texte facilitent l'exploration des fonctionnalités avec le style ***Ruban***.  
 ![Interface utilisateur Ruban](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11407.png) 
 
 ### Menu 

@@ -1,13 +1,14 @@
 ---
-title: Move DVLS Web Site at Default Web Site Root
+eleventyComputed:
+  title: Move the {{ en.DVLS }} website at default website root
 ---
 The following guide explains how to move the {{ en.DVLS }} web application on the root and set it as a web site. We recommend to first have a working {{ en.DVLS }} instance according to this guide for [Creating {{ en.DVLS }} Instance](/server/installation/create-server-instance/) We highly recommend to backup your current working installation before modifying any parameters in IIS Manager.
 
 ## Step-by-step guide
 
-1. From the console, uninstall the Scheduler in the Companions tab.  
+1. From the {{ en.DVLSCONSOLE }}, uninstall the Scheduler in the ***Companions*** tab.  
 ![!!KB4144.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4144.png)
-1. Close the console.
+1. Close the {{ en.DVLSCONSOLE }}.
 1. Open IIS Manager.
 1. Expand the root node and select Application Pools.
 1. Stop the DefaultAppPool and the Devolutions Password application pool (DVLS on the following screen capture) using the Stop button in the Actions pane.  
@@ -29,7 +30,7 @@ The following guide explains how to move the {{ en.DVLS }} web application on th
 ![!!KB4151.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4151.png)
 1. From the Actions pane, open the Advanced Settings dialog.
 1. Select the {{ en.DVLS }} Application pool.
-1. Remove the %SystemDrive% environment variable from the path and set it with c: instead as the console cannot access the environment variables.  
+1. Remove the %SystemDrive% environment variable from the path and set it with c: instead as the {{ en.DVLSCONSOLE }} cannot access the environment variables.  
 ![!!KB4152.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4152.png)
 1. Before starting the Default Web Site, it is possible to rename it. But it's not mandatory.  
 ![!!KB4153.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4153.png)

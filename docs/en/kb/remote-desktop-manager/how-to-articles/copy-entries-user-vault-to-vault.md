@@ -3,7 +3,7 @@ title: Copy Entries from User Vault to a Vault
 keywords:
 - Private vault
 ---
-In order to be able to copy some entries stored in your {{ en.UVLT }} to another vault without doing an Export/Import in {{ en.RDM }} , you would need to do the following:  
+In order to be able to copy some entries stored in your {{ en.UVLT }} to another vault without doing an Export/Import in {{ en.RDM }}, you would need to do the following:  
 {% snippet icon.badgeCaution %}
 For this to work, some permissions in ***Administration - System Permissions*** needs to be allowed for standard users.  
 

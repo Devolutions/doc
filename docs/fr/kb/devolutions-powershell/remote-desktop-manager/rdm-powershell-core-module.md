@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Module de base {{ fr.PS }}
-  descriptions: Le module PowerShell doit maintenant être téléchargé à partir de la PowerShell Gallery. En effet, le module n’est plus inclus dans le paquet d’installation de {{ fr.RDM }}.
+  description: Le module PowerShell doit maintenant être téléchargé à partir de la PowerShell Gallery. En effet, le module n’est plus inclus dans le paquet d’installation de {{ fr.RDM }}.
   keywords: 
   - PowerShell
 ---
@@ -82,5 +82,5 @@ C:\windows\system32\WindowsPowerShell\v1.0\Modules
 Get-RDMInstance  
 PS C:\RemoteDesktopManager\2023.1\Devolutions.RemoteDesktopManager.Bin.2023.1.11.0> Get-RDMInstance  
 ApplicationVersion OptionFilename  
-2023.1.0.14          C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  
+2023.1.0.14 C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  
 ```

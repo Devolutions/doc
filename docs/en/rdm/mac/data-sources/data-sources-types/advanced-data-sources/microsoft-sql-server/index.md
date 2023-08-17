@@ -44,7 +44,7 @@ Active directory in a SQL Server data source is no longer supported in {{ en.RDM
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly in order to maintain the health of the database. Please consult [Recovery Model](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/) . 
+Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly in order to maintain the health of the database. Please consult [Recovery Model](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/). 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
@@ -147,7 +147,7 @@ Password used to access the SQL server.
 Database 
 		</td>
 		<td>
-Name of the database on the SQL server for the utilization of {{ en.RDMMAC }} . 
+Name of the database on the SQL server for the utilization of {{ en.RDMMAC }}. 
 		</td>
 	</tr>
 	<tr>
@@ -314,7 +314,7 @@ Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}).
 Manage Cache 
 		</td>
 		<td>
-Manage your cache on your computer to analyse, vacuum, repair or delete it. This can be very helpful if you have offline issues. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/) . 
+Manage your cache on your computer to analyse, vacuum, repair or delete it. This can be very helpful if you have offline issues. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/). 
 		</td>
 	</tr>
 	<tr>
@@ -403,7 +403,7 @@ Type
 
 Select the type of {{ en.UVLT }} to use. Select between:  
 
-* Default: use the default {{ en.UVLT }} , which is stored in the database. 
+* Default: use the default {{ en.UVLT }}, which is stored in the database. 
 * None: disable the {{ en.UVLT }} for all users. 
 * {{ en.OD }}: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
 		</td>

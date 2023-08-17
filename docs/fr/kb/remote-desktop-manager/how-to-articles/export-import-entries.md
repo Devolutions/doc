@@ -33,7 +33,7 @@ La saisie d’une clé maîtresse permet de chiffrer tout le contenu du fichier 
 
 5. Cliquer sur ***OK***. 
 1. Enregistrer le fichier **.rdm** sur l'ordinateur. 
-1. Dans le {{ fr.NPANE }}, sélectionner la source de données et le coffre dans lesquels importer les entrées. 
+1. Dans le ***{{ fr.NPANE }}***, sélectionner la source de données et le coffre dans lesquels importer les entrées. 
 1. Faire un clic droit sur la sélection et sélectionner ***Importer – Importer (.rdm)***.  
 ![Importer (.rdm)](https://webdevolutions.azureedge.net/docs/fr/kb/KB2008.png)
 {% snippet icon.badgeNotice %} 

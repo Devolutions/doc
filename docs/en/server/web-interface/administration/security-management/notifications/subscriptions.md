@@ -3,7 +3,7 @@ title: Subscriptions
 keywords:
 - Roles
 ---
-The ***Subscriptions*** are intended to send email according to activities on {{ en.DVLS }} . It could be activities on entries, user accounts, system settings, etc. 
+The ***Subscriptions*** are intended to send email according to activities on {{ en.DVLS }}. It could be activities on entries, user accounts, system settings, etc. 
 
 ![Notifications - Subscriptions](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8073.png)  
 
@@ -52,7 +52,7 @@ Category of the subscription. This can be one of the following possibilities.
 * System Settings 
 * Administration Log 
 * Data Source Log 
-* Devolutions Gateway 
+* {{ en.DGW }} 
 * PAM Checkout Policy 
 * PAM OTP Template 
 		</td>

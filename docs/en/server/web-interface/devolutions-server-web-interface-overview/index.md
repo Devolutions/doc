@@ -1,5 +1,5 @@
 ---
-title: Devolutions Server Web Interface Overview
+title: Devolutions Server web interface overview
 order: 10
 ---
 

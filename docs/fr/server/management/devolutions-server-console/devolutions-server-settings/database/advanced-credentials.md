@@ -8,7 +8,7 @@ Les Identifiants avancés sont utilisés pour permettre à {{ fr.DVLS }} de comm
 Seuls les comptes de connexion SQL peuvent être utilisés. 
 {% endsnippet %}
  
-Pour plus d'informations sur ces comptes, veuillez consulter [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) (en anglais) .  
+Pour plus d'informations sur ces comptes, veuillez consulter [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) (en anglais).  
 
 ![Identifiants avancés](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4032.png) 
 
@@ -28,7 +28,7 @@ Description
 Outils de gestion 
 		</td>
 		<td>
-Identifiants qui permettent à la Console {{ fr.DVLS }} de communiquer avec la base de données SQL. Dois être un compte SQL. 
+Identifiants qui permettent à la {{ fr.DVLSCONSOLE }} de communiquer avec la base de données SQL. Dois être un compte SQL. 
 		</td>
 	</tr>
 	<tr>

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Version Schema Compatibility for {{ en.RDM }} and {{ en.DVLS }}
+  title: Version schema compatibility for {{ en.RDM }} and {{ en.DVLS }}
 keywords:
 - Schema
 ---
@@ -10,7 +10,7 @@ Here is a schema compatibility board explaining which version of {{ en.RDM }} sh
 The first two version numbers must match (202X.X) for {{ en.RDM }} and {{ en.DVLS }} to work together properly.
 {% endsnippet %}
 
-### {{ en.DVLS }}
+## {{ en.DVLS }}
 <table>
 	<tr>
 		<th>
@@ -20,19 +20,19 @@ Database version
 {{ en.DVLS }} version
 		</th>
 		<th>
-RDM Windows version
+{{ en.RDMWIN }} version
 		</th>
 		<th>
-RDM Mac version
+{{ en.RDMMAC }} version
 		</th>
 		<th>
-RDM iOS version
+{{ en.RDMIOS }} version
 		</th>
 		<th>
-RDM Android version
+{{ en.RDMANDROID }} version
 		</th>
 		<th>
-RDM Linux version
+{{ en.RDMLINUX }} version
 		</th>
 	</tr>
 	<tr>
@@ -472,7 +472,7 @@ RDM Linux version
 	</tr>
 </table>
 
-### SQL Server and Azure SQL
+## SQL Server and Azure SQL
 
 <table>
 	<tr>
@@ -481,19 +481,19 @@ SQL Server/Azure SQL
 Database version
 		</th>
 		<th>
-RDM Windows version
+{{ en.RDMWIN }} version
 		</th>
 		<th>
-RDM Mac version
+{{ en.RDMMAC }} version
 		</th>
 		<th>
-RDM iOS version
+{{ en.RDMIOS }} version
 		</th>
 		<th>
-RDM Android version
+{{ en.RDMANDROID }} version
 		</th>
 		<th>
-RDM Linux version
+{{ en.RDMLINUX }} version
 		</th>
 	</tr>
 		<tr>
@@ -775,4 +775,3 @@ RDM Linux version
 		</td>
 	</tr>
 </table>
-

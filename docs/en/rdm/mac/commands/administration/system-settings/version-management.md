@@ -50,7 +50,7 @@ Used in conjunction with the minimal or maximal version, once a minimal or maxim
 	</tr>
 	<tr>
 		<td>
-Allow access from Remote Desktop Manager 
+Allow access from {{ en.RDM }} 
 		</td>
 		<td>
 Disable option to exclude some client on different platform like Windows, Mac, iOS or Android. 

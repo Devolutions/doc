@@ -1,7 +1,7 @@
 ---
 title: Assign Licenses
 ---
-{{ en.RDM }} licenses are stored in the [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) located in ***Administration – Licenses*** . Therefore there is no need to register {{ en.RDM }} locally as the license serial is retrieved directly from it. When launching the application for the first time, connect to the data source containing the serial.  
+{{ en.RDM }} licenses are stored in the [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) located in ***Administration – Licenses***. Therefore there is no need to register {{ en.RDM }} locally as the license serial is retrieved directly from it. When launching the application for the first time, connect to the data source containing the serial.  
 
 1. Manage and assign the user's licenses in ***Administration – Licenses***.  
 ![Administration – Licenses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3417.png) 

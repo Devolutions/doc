@@ -4,7 +4,7 @@ order: 10
 ---
 The General section allows the Administrator to modify the name or the description of the {{ en.DVLS }} instance. 
 
-![Administration - Devolutions Server Settings - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8041.png)
+![Administration – {{ en.DVLS }} Settings – General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8041.png)
 
 ## Settings 
 ### General 
@@ -72,10 +72,10 @@ Insert your Client Access License keys.
 	</tr>
 	<tr>
 		<td>
-{{ en.LAUNCHER }} CAL 
+{{ en.DLAUNCHER }} CAL 
 		</td>
 		<td>
-Insert your {{ en.LAUNCHER }} License keys. 
+Insert your {{ en.DLAUNCHER }} License keys. 
 		</td>
 	</tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP Errors
+title: Microsoft RDP errors
 ---
 ### Problem 1
 
@@ -15,9 +15,9 @@ Screen areas unresponsive in embedded sessions
 
 ### Solution 2
 
-This most often occurs on systems that use a DPI setting of more than 100%. To disable scaling in Remote Desktop Manager you must adjust the compatibility settings on the Windows shortcut for Remote Desktop Manager.  
+This most often occurs on systems that use a DPI setting of more than 100%. To disable scaling in {{ en.RDM }} you must adjust the compatibility settings on the Windows shortcut for {{ en.RDM }}.  
 
-1. Right-click on the shortcut to Remote Desktop Manager.
+1. Right-click on the shortcut to {{ en.RDM }}.
 1. Select Properties.
 1. Go to the Compatibility tab.
 1. Check Disable display scaling on high DPI settings.  
@@ -48,7 +48,7 @@ Copy/paste between a remote session and my local computer stopped working.
 
 This issue arises when a program called RDPClip becomes unstable. You can kill its process and launch a new instance.  
 
-1. On the affected system, load up task manager (right click in taskbar and select ***Task Manager*** ).
+1. On the affected system, load up task manager (right-click in taskbar and select ***Task Manager***).
 1. Go to the ***Processes*** tab.
 1. Select rdpclip.exe.
 1. Click ***End Process***

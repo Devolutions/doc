@@ -4,7 +4,7 @@ description: Here are the default keyboard shortcuts for various commands.
 keywords:
 - Keyboard Shortcuts
 ---
-Here are the default keyboard shortcuts for various commands. These can be modified in File   –   Options   –   User Interface   –   Keyboard .  
+Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Options – User Interface – Keyboard***.  
 
 The ***Disable All*** button allows you to disable all shortcuts. The ***Reset Default*** button returns shortcuts to their default values.  
 
@@ -13,7 +13,7 @@ Both the ***Disable All*** and ***Reset Default*** buttons will erase your custo
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Visit our topic about [shortcut customization](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/) . 
+Visit our topic about [shortcut customization](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/). 
 {% endsnippet %}
  
 ![Keyboard Shortcuts](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2101.png) 
@@ -617,7 +617,7 @@ F7
 	</tr>
 	<tr>
 		<td>
-Navigation Pane 
+<b><i>{{ en.NPANE }}</i></b> 
 		</td>
 		<td>
 Alt+F8 

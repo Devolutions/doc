@@ -1,5 +1,5 @@
 ---
-title: Hub Business
+title: Devolutions Hub Business
 ---
 {{ en.DHUBB }} is for businesses who need to share passwords and credentials within their organization. 
 Please consult our [website](https://devolutions.net/password-hub/) for more information on this service. 
@@ -52,7 +52,7 @@ Copy in the ***Host*** your {{ en.DHUBB }} URL (ex: https<area>://windjammer.dev
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your {{ en.DHUB }} .  
+Open a VPN to access your data prior to connecting to your {{ en.DHUB }}.  
 ![!!RDMMac4021.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4021.png) 
 
 ### Advanced 

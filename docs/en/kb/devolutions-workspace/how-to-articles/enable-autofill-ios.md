@@ -8,9 +8,9 @@ eleventyComputed:
 1. Scroll to ***Passwords***.
 1. Tap on ***Password Options***.  
 ![Password Options](https://webdevolutions.azureedge.net/docs/en/kb/KB0045.png)
-1. Select ***{{ en.WS }}***.  
-![{{ en.WS }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0046.png)
-1. Go into the ***Workspace*** app.
+1. Select ***{{ en.DWS }}***.  
+![{{ en.DWS }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0046.png)
+1. Go into the ***{{ en.DWS }}*** app.
 1. Tap the menu button.  
 ![Menu Button](https://webdevolutions.azureedge.net/docs/en/kb/KB0047.png)
 1. Go to the ***Settings***.  

@@ -9,7 +9,7 @@ The cause of this error is because the IIS Rewrite Module and/or the IIS ASP.NET
 
 ## Solution
 
-1. From the {{ en.DVLSCONSOLE }} , edit the instance.
+1. From the {{ en.DVLSCONSOLE }}, edit the instance.
 1. Select the IIS tab.
 1. Click on the IIS Diagnostic button.
 1. Click on the Install Prerequisites button.  

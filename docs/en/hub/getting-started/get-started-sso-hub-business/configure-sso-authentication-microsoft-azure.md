@@ -20,6 +20,29 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 
 1. Go to ***Administration – Authentication – Single Sign-On (SSO)***, then click on ***Microsoft Single Sign-On (SSO)***. You will be directed to the configuration page.  
 ![Administration – Authentication – Single Sign-On (SSO) – Microsoft Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2218.png)  
+
+1. Fill in your ***Domain***, then click ***Continue***.
+![Domain](https://webdevolutions.azureedge.net/docs/en/hub/Hub2283.png)  
+
+   {% snippet icon.shieldInfo %} 
+   For security purposes, only emails that end with your domain name will be allowed to log in to {{ en.HUB }} using Okta authentication. For example, if your employees' emails are in the format "bob@windjammer.co", your domain is "windjammer.co".
+   {% endsnippet %}
+
+1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Hostname*** and ***TXT value***. This allows us to verify the ownership of the domain supplied.  
+![Hostname and TXT value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2284.png)  
+
+   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's SuperTool TXT Lookup. The first part of the Domain Name must match the ***Hostname*** in {{ en.HUB }} and the Record must match the ***TXT value*** in {{ en.HUB }} as well.  
+   {% snippet icon.badgeCaution %} 
+   DNS TXT Records can take a while to propagate.
+   {% endsnippet %}
+
+   ![DNS TXT Record in MXToolBox](https://webdevolutions.azureedge.net/docs/en/hub/Hub2236.png)  
+
+   {% snippet icon.badgeCaution %} 
+   This validation lasts for 48 hours and does not restart after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired*** and you will be stuck. If that happens, see [Expired domain verification in SSO configuration](/kb/hub-business/troubleshooting-articles/expired-domain-verification-okta-sso-configuration).
+   {% endsnippet %}  
+
+1. If everything matches up, click ***Verify domain***.
 1. ***Name*** your SSO configuration. This name will only appear in your {{ en.HUB }} SSO settings menu. The default name is "Microsoft".  
 ![Configuration Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2219.png)  
 

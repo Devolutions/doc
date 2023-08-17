@@ -4,7 +4,7 @@ title: Advanced Search
 The Advanced Search allows you to search for entries and folders based on multiple criteria in one vault at a time. To search multiple vaults simultaneously, please refer to the [***Multi Vault Search***](/rdm/mac/commands/view/multi-vault-search/) topic.  
 ![Advanced Search](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0027.png) 
 
-It is possible to select multiple entries at once by shift-clicking or all of them with the Cmd+A shortcut. Right-clicking one or more entries shows the same menu and options as in the ***{{ en.NPANE }}*** .  
+It is possible to select multiple entries at once by shift-clicking or all of them with the Cmd+A shortcut. Right-clicking one or more entries shows the same menu and options as in the ***{{ en.NPANE }}***.  
 ![Advanced Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10358.png) 
 
 ### Search tab 
@@ -73,7 +73,7 @@ Save your search locally to reuse it.
 Save As 
 		</td>
 		<td>
-Save a previously saved search but under a different name . 
+Save a previously saved search but under a different name. 
 		</td>
 	</tr>
 	<tr>
@@ -102,10 +102,10 @@ Reset all your fields to proceed with a new search.
 	</tr>
 	<tr>
 		<td>
-Select in {{ en.NPANE }} 
+Select in ***{{ en.NPANE }}*** 
 		</td>
 		<td>
-Select your search result in your ***{{ en.NPANE }}*** . This option can be used in combination with a Batch Edit. 
+Select your search result in your ***{{ en.NPANE }}***. This option can be used in combination with a Batch Edit. 
 		</td>
 	</tr>
 </table>

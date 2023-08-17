@@ -45,10 +45,10 @@ The default port for TCP/IP is 1433
 1. Select ***Inbound Rules*** in the left pane.
 1. Right-click ***Inbound Rules*** and select ***New Rule***  
 ![!!KB4278.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4278.png)
-1. In the ***Rule Type*** page, select ***Port*** , then click ***Next***  
+1. In the ***Rule Type*** page, select ***Port***, then click ***Next***  
 ![!!KB4279.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4279.png)
 1. In the ***Protocol and Ports*** page, select ***TCP***
-1. Select ***Specific local ports*** , then type the port number of the instance of the Database Engine, then click ***Next***  
+1. Select ***Specific local ports***, then type the port number of the instance of the Database Engine, then click ***Next***  
 {% snippet icon.badgeNotice %}
 The SQL Server default instance listens on port 1433
 {% endsnippet %}  
@@ -58,7 +58,7 @@ If you have an Anti-virus running on your server, you should also make sure that
 
 ![!!KB4280.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4280.png)  
 
-7. In the ***Action*** page, select ***Allow the connection*** , then click ***Next***  
+7. In the ***Action*** page, select ***Allow the connection***, then click ***Next***  
 ![!!KB4281.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4281.png)
 1. In the ***Profile*** page, select the profiles that describe the computer connection environment, then click ***Next***  
 ![!!KB4282.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4282.png)
@@ -94,7 +94,7 @@ Do not include space characters in the name of the file. A warning that changing
 5. Double-click the ***.udl*** file to open the ***Data Link Properties*** dialog box.
 1. In the ***Provider*** tab, select the ***Microsoft OLE DB Provider for ODBC Drivers*** provider.  
 ![!!KB4248.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4248.png)
-1. In the ***Connection*** tab, select ***Use connection string*** , and enter a custom connection string.  
+1. In the ***Connection*** tab, select ***Use connection string***, and enter a custom connection string.  
 {% snippet icon.badgeNotice %}
 Example of valid connection string: Driver={SQL Server};Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
 {% endsnippet %}  
@@ -110,7 +110,7 @@ Validate that the server name is type correctly (known as the Instance name).
 ![!!KB4275.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4275.png)
 1. In the ***Connection*** tab, use the ***Test Connection*** button to test the SQL Server connectivity.  
 ![!!KB4276.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4276.png)
-1. Click ***OK*** to save the connection string to the Universal Data Link ( ***.udl*** ) file.
+1. Click ***OK*** to save the connection string to the Universal Data Link (***.udl***) file.
 ### Login failed for user – reason: token-based server access validation failed
 <a name="token"></a>
 

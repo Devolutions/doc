@@ -10,7 +10,7 @@ Before version 2022.1.11, to move an entry, you needed only the permission to:
 
 This made it so giving a user the ***Edit*** permission was quite risky, as a user could move an entry in a different folder, which would change the inheritance of permissions, and possibly allow them to do more with the entry than they should be able to.  
 
-With the addition of the ***Move Permission on Entries*** , this makes it so the following permissions are required:  
+With the addition of the ***Move Permission on Entries***, this makes it so the following permissions are required:  
 
 * Edit the "source" entry  
 * Add in the destination  

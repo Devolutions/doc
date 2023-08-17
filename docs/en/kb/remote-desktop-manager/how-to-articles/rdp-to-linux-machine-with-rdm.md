@@ -1,7 +1,8 @@
 ---
-title: How to RDP to a Linux Machine with Remote Desktop Manager
+eleventyComputed:
+  title: How to RDP to a Linux machine with {{ en.RDM }}
 ---
-You can establish a remote access to a Linux machine from {{ en.RDM }} Windows.
+You can establish a remote access to a Linux machine from {{ en.RDMWIN }}.
 ## Solution
 1. You will first need to run the following commands on your Linux machine to be able to connect:
 1. sudo apt install xrdp

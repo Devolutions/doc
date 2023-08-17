@@ -1,5 +1,6 @@
 ---
-title: SSH Configuration for Remote Desktop Manager's FIPS 140-2 Compliance
+eleventyComputed:
+  title: SSH configuration for {{ en.RDM }}'s FIPS 140-2 Compliance
 ---
 For the {{ en.RDM }} SSH client to be compliant with the FIPS 140-2 annex A standard, you need to apply specific configuration changes in {{ en.RDM }} options.
 

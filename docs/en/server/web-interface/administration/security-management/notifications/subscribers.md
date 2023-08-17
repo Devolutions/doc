@@ -3,7 +3,7 @@ title: Subscribers
 ---
 At least one subscriber must exist to receive notifications about {{ en.DVLS }} activities.  
 
-To create a new ***Subscriber*** , click on the ***Add*** button.  
+To create a new ***Subscriber***, click on the ***Add*** button.  
 
 ![Create a Subscriber](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8154.png)  
 

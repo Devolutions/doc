@@ -6,7 +6,7 @@ Allow session setting override for the local machine. Several settings can be ov
 ## Local Machine Specific Settings 
 
 {% snippet icon.badgeInfo %}
-This feature is only available when using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . A setting on the data source allows usage of Local Machine Specific Settings, Contact your administrator if the menu is grayed out. 
+This feature is only available when using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). A setting on the data source allows usage of Local Machine Specific Settings, Contact your administrator if the menu is grayed out. 
 {% endsnippet %}
  
 In the majority of cases this dialog will appear.  

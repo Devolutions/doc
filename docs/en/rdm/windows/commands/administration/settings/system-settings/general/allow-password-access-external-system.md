@@ -2,7 +2,7 @@
 title: Allow Password Access From External System
 ---
 {% snippet icon.badgeInfo %} 
-This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 Accessing passwords stored in your data source by querying the underlying database is not possible because of the encryption we apply on the passwords. For those of you that need to access passwords directly in the database, for example by a CRM system, we have created a way to achieve this. 
@@ -11,7 +11,7 @@ Accessing passwords stored in your data source by querying the underlying databa
 
 The session information, which is an XML structure, is stored in the ***Data*** field of the ***Connections*** table in the underlying database.  
 
-However, getting the encrypted password from the database requires the   ***Allow password for external system*** to be configured.  
+However, getting the encrypted password from the database requires the ***Allow password for external system*** to be configured.  
 ![Password Policy - Allow Password For External System](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10280.png) 
 
 Enter an encryption key in the ***Key*** field. Once a key is provided it will cause the system to extract a copy of the password from our XML structure, this will then be re-encrypted using the ***Key*** you have provided and stored back into the ***UnsafePassword*** field of the ***Connections*** table.  

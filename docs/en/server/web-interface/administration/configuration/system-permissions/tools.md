@@ -17,7 +17,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-Buit-in tools (Wake On Lan, NetStat, Ping, ...) 
+Buit-in tools (Wake On Lan, NetStat, Ping...) 
 		</td>
 		<td>
 Allow users/user groups to use session related tools. 
@@ -56,5 +56,3 @@ Allow users/user groups to use console management tools.
 		</td>
 	</tr>
 </table>
-
-

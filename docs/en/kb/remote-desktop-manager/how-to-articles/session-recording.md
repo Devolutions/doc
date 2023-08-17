@@ -53,7 +53,7 @@ Some options are only available with a {{ en.DVLS }} data source.
 * ***Local***: The recording files will be saved locally according to the ***Destination*** and ***Filename*** parameters below. 
 * ***Remote***: The recording sessions will be managed by the ***Recording Server***. All following options will no longer be available. 
 * ***Root (Default)***: Refers to root. 
-5. Choose the file ***Destination*** . 
+5. Choose the file ***Destination***. 
 {% snippet icon.badgeInfo %} 
 By default, the file saves locally, not in the database.  
 We recommend choosing a custom file extension, for example on a shared network. 
@@ -61,7 +61,7 @@ We recommend choosing a custom file extension, for example on a shared network.
  
 * ***Inherited***: Setting is inherited from parent folder. 
 * ***Custom***: Paste the file destination path in the ***Destination*** box. 
-* ***Root (Default)***: Saves in Local App Data or in the data source folder if you are using a zip file of Remote Desktop Manager. 
+* ***Root (Default)***: Saves in Local App Data or in the data source folder if you are using a ZIP file of {{ en.RDM }}. 
 6. Choose a ***Filename template*** or ***Prompt for name*** when user starts recording. 
 * ***Inherited***: Setting is inherited from parent folder. 
 * ***Connection Log ID***: Uses a multi-digit and letter identification number. 

@@ -1,7 +1,7 @@
 ---
-title: Content Area
+title: Content area
 ---
-The Content Area contains the various dashboards to manage {{ en.RDMMAC }} as well as embedded sessions. There is a single dashboard active at a time depending on the currently selected node in the navigation pane.  
+The Content area contains the various dashboards to manage {{ en.RDMMAC }} as well as embedded sessions. There is a single dashboard active at a time depending on the currently selected node in the ***{{ en.NPANE }}***. 
 
 Existing dashboards are described further in their own help topics:  
 

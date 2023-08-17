@@ -37,7 +37,7 @@ Name          $_.Moref.Value
 MACHINE1      18  
 MACHINE2      19  
 
-### Script B - :Launching the vmrc
+### Script B -:Launching the vmrc
 CONNECTVMRCFROMPOWERCLI.PS1  
 
 ```

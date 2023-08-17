@@ -13,7 +13,7 @@ Any user (domain, local machine or SQL user) that has a server role of ***sysadm
 
 The first step is to create the database that will store all your entries.
 
-Click on the ***ellipsis*** button in the navigation pane, then click on ***Add a new data source***  
+Click on the ***ellipsis*** button in the ***{{ en.NPANE }}***, then click on ***Add a new data source***  
 ![!!KB4587.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4587.png)  
 
 Select the ***Microsoft SQL Server*** data source and click ***OK***  
@@ -28,7 +28,7 @@ If the logged-on Windows User is not part of the SQL Server ***sysadmin*** role 
 
 - From the upgrade tab, click ***Test Server*** then ***Create Database*** to create the SQL Server database.  
 ![!!KB4590.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4590.png)  
-Press ***OK*** to close the dialogs. In the navigation pane, select the newly created data source from the data source drop down list.  
+Press ***OK*** to close the dialogs. In the ***{{ en.NPANE }}***, select the newly created data source from the data source drop down list.  
 ![!!KB4591.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4591.png)
 
 ## Create users
@@ -42,7 +42,7 @@ Click ***Add Users***
 Check the ***Integrated security (Active Directory)*** box and click the ellipsis button to select the domain user to add.  
 ![!!KB4594.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4594.png)  
 
-Select the ***User type*** Grant the ***Add*** , ***Edit*** , and ***Delete*** rights (optional, restricted user only). For more information on user types and rights, please consult the [Administration – Users](/rdm/windows/commands/administration/management/user-management/) topic.  
+Select the ***User type*** Grant the ***Add***, ***Edit***, and ***Delete*** rights (optional, restricted user only). For more information on user types and rights, please consult the [Administration – Users](/rdm/windows/commands/administration/management/user-management/) topic.  
 
 {% snippet icon.badgeInfo %}
 Keep the ***Create SQL Server Login and User*** box checked. This will in effect cause {{ en.RDM }} to map a new login to the domain account and link it to a user.  

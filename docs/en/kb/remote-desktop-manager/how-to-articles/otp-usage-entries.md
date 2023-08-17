@@ -33,7 +33,7 @@ Choose the ***Custom*** option to save the OTP credentials in the entry itself.
 The ***Inherited*** option will climb up the navigation tree until it has access to a set of OTP credentials in a parent folder in the ***Connection - One Time Password*** section.  
 
 {% snippet icon.badgeInfo %}
-***For the*** ***Source*** inheritance to work, the ***Connection - One Time Password - Source*** needs to be set to ***Inherited*** for every parent folder until it reaches the desired configuration.
+***For the Source*** inheritance to work, the ***Connection - One Time Password - Source*** needs to be set to ***Inherited*** for every parent folder until it reaches the desired configuration.
 {% endsnippet %}  
 
 ![!!KB5009.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5009.png)
@@ -58,10 +58,10 @@ The ***Prompt*** option opens a credential list of available OTP credentials eve
 
 One Time Password ***Usage*** is an option to affix the OTP code. Here is the list of possible actions:  
 
-* ***None*** : No action is done. This is the set default setting.
-* ***Append to the password*** : Affix the OTP after the password.
-* ***Prepend to the password*** : Affix the OTP before the password.
-* ***Specific to session*** : If selected, the OTP will, if it applies, be used in a manner specific to the session being launched. This option is specific for OpenVPN and SophosVPN.
-* ***Inherited*** : Will climb up the navigation tree until it has access to a ***Usage*** setting in a parent folder in the ***Connection - One Time Password*** section. For the ***Usage*** inheritance to work, the ***Connection - One Time Password - Usage*** needs to be set to ***Inherited*** for every parent folder until it reaches the desired configuration.
-* ***Append to the username*** : Affix the OTP after the username.
-* ***Prepend to the username*** : Affix the OTP before the username.
+* ***None***: No action is done. This is the set default setting.
+* ***Append to the password***: Affix the OTP after the password.
+* ***Prepend to the password***: Affix the OTP before the password.
+* ***Specific to session***: If selected, the OTP will, if it applies, be used in a manner specific to the session being launched. This option is specific for OpenVPN and SophosVPN.
+* ***Inherited***: Will climb up the navigation tree until it has access to a ***Usage*** setting in a parent folder in the ***Connection - One Time Password*** section. For the ***Usage*** inheritance to work, the ***Connection - One Time Password - Usage*** needs to be set to ***Inherited*** for every parent folder until it reaches the desired configuration.
+* ***Append to the username***: Affix the OTP after the username.
+* ***Prepend to the username***: Affix the OTP before the username.

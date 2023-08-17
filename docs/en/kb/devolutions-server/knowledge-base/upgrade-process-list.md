@@ -35,7 +35,7 @@ The following bullet list describe each steps a support technician will follow t
 1. Open the {{ en.DVLSCONSOLE }} and tell the user to upgrade it.
 1. Upgrade the {{ en.DVLS }} instance with the Update button on the {{ en.DVLSCONSOLE }}
 1. [Install Prerequisites](/server/installation/installing-web-server-prerequisites/) for {{ en.DVLS }} if required.
-1. Check if {{ en.DVLS }} is back Online in the console.
+1. Check if {{ en.DVLS }} is back Online in the {{ en.DVLSCONSOLE }}.
 1. Test web page login directly on the server or from the customer's computer with the Navigate to Website button on the {{ en.DVLSCONSOLE }}
 1. If required, install the latest {{ en.RDM }} version that belongs to the {{ en.DVLS }} version.
 1. Test connectivity from {{ en.RDM }} to the {{ en.DVLS }} data source.

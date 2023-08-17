@@ -13,7 +13,7 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 ## Grant temporary access
 
-1. In the ***Navigation Pane*** of {{ en.DVLS }}, select the entry you want to grant access to.  
+1. In the ***{{ en.NPANE }}*** of {{ en.DVLS }}, select the entry you want to grant access to.  
 1. Click on ***More***, then select ***Grant Temporary Access***. 
 ![Grant Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6027.png)  
 1. Choose ***User*** and ***Access duration*** in the ***Grant Temporary Access*** window.  

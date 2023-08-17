@@ -1,7 +1,7 @@
 ---
 title: Gestion de version
 ---
-Vous pouvez gérer vos versions de {{ fr.RDM }} pour Windows, macOS, Android ou iOS. 
+Vous pouvez gérer vos versions de {{ fr.RDM }} pour Windows, {{ fr.MAC }}, Android ou iOS. 
 
 ### Gestion de version 
 
@@ -42,7 +42,7 @@ Forcer les utilisateurs de la source de données à utiliser une version maximal
 	</tr>
 	<tr>
 		<td>
-Chemin d'installation du client / URL 
+Chemin d'installation du client/URL 
 		</td>
 		<td>
 Utilisé en conjonction avec la version minimale ou maximale. Une fois qu'une exigence de version minimale ou maximale n'est pas remplie, le système informera l'utilisateur que la version n'est plus valide et ouvrira le lien (chemin URL) pour télécharger la plus récente ou la plus ancienne version. 
@@ -50,10 +50,10 @@ Utilisé en conjonction avec la version minimale ou maximale. Une fois qu'une ex
 	</tr>
 	<tr>
 		<td>
-Autoriser accès de Remote Desktop Manager 
+Autoriser accès de {{ fr.RDM }}
 		</td>
 		<td>
-Désactiver l'option pour exclure certains clients sur différentes plates-formes telles que Windows, macOS, iOS ou Android. 
+Désactiver l'option pour exclure certains clients sur différentes plates-formes telles que Windows, {{ fr.MAC }}, iOS ou Android. 
 		</td>
 	</tr>
 	<tr>

@@ -17,7 +17,7 @@ Follow the steps below to learn how to create a website account with {{ en.DWL }
 1. Click on the {{ en.DWL }} icon in your browser toolbar, then select the Password Generator in the ***Side Menu*** of the extension.  
 ![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2009.png) 
 1. You can now customize the password generation settings, but this is optional since the default settings already generate very strong passwords. That being said, it may be necessary to adjust the settings to meet the specific requirements of some websites. If you do not wish to customize the generation settings, you can skip to <a href="#5">step 5</a>. 
-    1. Select a ***Password length*** . The default value is set to 12.  
+    1. Select a ***Password length***. The default value is set to 12.  
     ![Password length](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2010.png) 
     1. In the ***General*** settings, select the types of characters that your password must contain. The default is set to include uppercase letters, lowercase letters, and numbers, but there is also the option to include special characters in your password.  
     ![General Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2011.png) 
@@ -31,14 +31,14 @@ Your password settings are now configured.
 ![Generate Password](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2013.png) 
 1. Click on the ***Copy to Clipboard*** button to copy the password.  
 ![Copy to Clipboard](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2014.png) 
-1. Paste your password in the website's corresponding field.  .
+1. Paste your password in the website's corresponding field.
 ![Paste Password](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2015.png) 
-1. Follow the rest of the website’s registration steps until the {{ en.DWL }}   ***Add Website*** window pops up in the corner of your web browser.  
+1. Follow the rest of the website’s registration steps until the {{ en.DWL }} ***Add Website*** window pops up in the corner of your web browser.  
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2016.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
-1. Select if you want to save your entry in your ***User vault*** or in a ***Vault*** . Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDMMAC }}. 
-1. Click ***Save*** .  
+1. Select if you want to save your entry in your ***User vault*** or in a ***Vault***. Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDMMAC }}. 
+1. Click ***Save***.  
 
-Your credentials are now securely stored in a new website entry in {{ en.RDMMAC }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/) . 
+Your credentials are now securely stored in a new website entry in {{ en.RDMMAC }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/). 
 

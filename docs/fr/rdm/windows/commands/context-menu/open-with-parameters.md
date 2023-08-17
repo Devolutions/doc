@@ -19,7 +19,7 @@ DESCRIPTION
 Ouvrir (externe) 
 		</td>
 		<td>
-Ouvrir une session en tant que processus externe, sans lien direct avec {{ fr.RDM }} . 
+Ouvrir une session en tant que processus externe, sans lien direct avec {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -35,7 +35,7 @@ Ouvrir la session dans le tableau de bord {{ fr.RDM }} et affichez les onglets e
 Ouvrir via Jump... 
 		</td>
 		<td>
-Ouvrir la session via un hôte [Jump](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump/) . 
+Ouvrir la session via un hôte [Jump](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump/). 
 		</td>
 	</tr>
 	<tr>

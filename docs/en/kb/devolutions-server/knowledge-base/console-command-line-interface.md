@@ -1,15 +1,13 @@
 ---
-title: Console Command Line Interface
-description: The Devolutions Server Console Command Line Interface (CLI) is a Companion Tool which allows administrators to interact with Devolutions Server instances.
+title: Devolutions Server Console Command Line Interface
+description: The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances.
 keywords:
 - CLI
 - Command Line Interface
-- Devolutions Server Console
-- Companion tool
 ---
-The {{ en.DVLS }} Console Command Line Interface (CLI) is a Companion Tool which allows administrators to interact with {{ en.DVLS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DVLS }} Console. The DPS.Console.CLI.exe file is located in the {{ en.DVLSCONSOLE }} application installation folder. The ***/help*** switch will list all available commands and parameters. 
+The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DVLSCONSOLE }}. The DPS.Console.CLI.exe file is located in the {{ en.DVLSCONSOLE }} application installation folder. The ***/help*** switch will list all available commands and parameters. 
 
-![Devolutions Server Console CLI commands list](https://webdevolutions.azureedge.net/docs/en/kb/KB8032.png) 
+![{{ en.DVLSCONSOLE }} CLI commands list](https://webdevolutions.azureedge.net/docs/en/kb/KB8032.png) 
 
 The ***/help*** switch can be used to list command's parameters. 
 

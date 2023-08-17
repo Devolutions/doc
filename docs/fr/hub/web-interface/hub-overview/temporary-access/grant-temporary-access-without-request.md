@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Accorder un accès temporaire à une entrée dans {{ en.HUBB }}
+  title: Accorder un accès temporaire à une entrée dans {{ fr.HUBB }}
   order: 30
   description: Les approbateurs peuvent accorder un accès temporaire sans requête à un utilisateur même si ce dernier dispose déjà d'un accès.
 ---
 {% snippet icon.badgeInfo %} 
-Pour apprendre comment approuver ou refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ en.HUBB }}](http://localhost:8080/fr/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/).
+Pour apprendre comment approuver ou refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ fr.HUBB }}](http://localhost:8080/fr/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/).
 {% endsnippet %}
 
 La fonction ***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. Les approbateurs peuvent accorder un ***Accès temporaire*** sans demande de la part de l'utilisateur et même si ce dernier dispose déjà d'un accès.

@@ -1,10 +1,10 @@
 ---
-title: Creating a Shared One-Time Password Entry
+title: Creating a shared one-time password entry
 ---
 
 Add a layer of security to your {{ en.DA }} by setting up a shared one-time password entry (OTP). To create one for your application, follow the steps below.
 
-1. In your Devolutions Workspace application, choose the application and vault of your choice, then tap the green "add" icon to access the ***Add New Entry*** interface.
+1. In your {{ en.DWS }} application, choose the application and vault of your choice, then tap the green "add" icon to access the ***Add New Entry*** interface.
 1. Tap the ***OTP*** icon under the ***Credentials*** section.  
 ![!!KB2045.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2045.png)
 1. Create a name for your new entry.  

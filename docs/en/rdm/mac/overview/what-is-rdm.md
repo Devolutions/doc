@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager macOS
+  title: Remote Desktop Manager {{ fr.MAC }}
   order: 10
 ---
 ![!!{{ en.RDM }} logo](https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg)
@@ -27,7 +27,7 @@ For individuals only, no information can be shared with colleagues. The most pop
 Team 
 		</td>
 		<td>
-Used by teams, this edition offers permissions, security groups, advanced logging, etc. Remote Desktop Manager uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for either Cloud-Based storage or to get full Active Directory Integration. 
+Used by teams, this edition offers permissions, security groups, advanced logging, etc. {{ en.RDM }} uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for either Cloud-Based storage or to get full Active Directory Integration. 
 		</td>
 	</tr>
 </table>
@@ -68,7 +68,7 @@ Windows
 	</tr>
 	<tr>
 		<td>
-macOS 
+{{ en.MAC }} 
 		</td>
 		<td>
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 

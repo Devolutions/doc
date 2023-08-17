@@ -12,7 +12,7 @@ The {{ en.PS }} module is a way to access, create, update, and remove elements i
 
 * PowerShell 7.2 or later installed:  
     * [Windows](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) 
-    * [macOS](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos) 
+    * [{{ en.MAC }}](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos) 
     * [Linux](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux) 
 * An [Application User](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) 
 

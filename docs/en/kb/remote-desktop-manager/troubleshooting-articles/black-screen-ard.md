@@ -5,7 +5,7 @@ Black screen appear after connecting with Apple Remote Desktop
 
 ## Solution
 
-Activating logging on the mac may help our support team or the engineering department resolving this issue. In order to activate the logging server side, execute the following command in Terminal :  
+Activating logging on the mac may help our support team or the engineering department resolving this issue. In order to activate the logging server side, execute the following command in Terminal:  
 
 ***sudo defaults write /Library/Preferences/com.apple.RemoteManagement ARDCollectLogs -bool YES***  
 

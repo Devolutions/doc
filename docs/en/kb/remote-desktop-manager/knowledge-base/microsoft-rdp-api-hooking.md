@@ -3,7 +3,7 @@ title: Microsoft RDP API Hooking
 ---
 Since {{ en.RDM }} 2022.2, Microsoft RDP API hooking is available and enabled by default. API hooking is required to extend the functionality of the Microsoft RDP client in both embedded (ActiveX) and external modes (mstsc).  
 
-If you have disabled it, you can enable it again by going in {{ en.RDM }}   ***File – Options – Types – Remote Desktop – API Hooking*** and setting ***Enable API hooking*** to ***Enabled*** or ***Default***  
+If you have disabled it, you can enable it again by going in {{ en.RDM }} ***File – Options – Types – Remote Desktop – API Hooking*** and setting ***Enable API hooking*** to ***Enabled*** or ***Default***  
 
 Restart {{ en.RDM }} to apply the change.  
 
@@ -21,9 +21,9 @@ The Microsoft RDP API hooking module will be loaded on the first Microsoft RDP c
 
 Microsoft RDP API hooking makes it possible to log internal events and options that were not possible previously. If you encounter issues, go to ***File – Options – Types – Remote Desktop – API Hooking*** and set the ***Log level*** to ***Debug*** Restart {{ en.RDM }} to obtain log files under %LocalAppData%\MsRdpEx which you can then send to the [support team](mailto:service@devolutions.net) to help diagnose issues.
 
-### Devolutions Gateway
+### {{ en.DGW }}
 
-Microsoft RDP API hooking should be enabled for Devolutions Gateway connections, as it fixes the server name used for validation by the RDP client. This can fix the Kerberos name mismatch issue, but it can also fix TLS certificate validation. This is particularly important for customers using the ***Force using IP address for RDP connections*** option, as it fixes the underlying issue:  
+Microsoft RDP API hooking should be enabled for {{ en.DGW }} connections, as it fixes the server name used for validation by the RDP client. This can fix the Kerberos name mismatch issue, but it can also fix TLS certificate validation. This is particularly important for customers using the ***Force using IP address for RDP connections*** option, as it fixes the underlying issue:  
 
 Once Microsoft RDP API hooking is enabled, the ***Force using IP address for RDP connections*** option should be disabled. In cases where the Kerberos name mismatch issue occurred, Kerberos should now work just fine.  
 

@@ -7,12 +7,12 @@ Advanced Data Sources greatly increase the set of managing features available to
 
 * Document uploads and entry attachments. 
 * Audit and logging. 
-* Advanced security with [User Management](/rdm/mac/commands/administration/user-management/) and [Security Group Management](/rdm/mac/commands/administration/security-group-management/) .  
-* [Offline mode](/rdm/mac/commands/file/go-offline/) . 
-* [2-Factor Authentication](/rdm/mac/data-sources/multi-factor-authentication/) .  
+* Advanced security with [User Management](/rdm/mac/commands/administration/user-management/) and [Security Group Management](/rdm/mac/commands/administration/security-group-management/).  
+* [Offline mode](/rdm/mac/commands/file/go-offline/). 
+* [2-Factor Authentication](/rdm/mac/data-sources/multi-factor-authentication/).  
 
 Currently, the Advanced Data Sources are:  
-* [{{ en.DHUBB }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/) . 
-* [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) . 
-* [Microsoft Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) . 
-* [Microsoft SQL Server (MSSQL)](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) . 
+* [{{ en.DHUBB }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
+* [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/). 
+* [Microsoft Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/). 
+* [Microsoft SQL Server (MSSQL)](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/). 

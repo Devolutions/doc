@@ -155,7 +155,7 @@ Include the logs of the <a href="/server/web-interface/user-vault/" target="_bla
 Allow credential repository in {{ en.UVLT }} 
 		</td>
 		<td>
-Allow credential repository for sessions in the <a href="/server/web-interface/user-vault/" target="_blank">{{ en.UVLT }}</a> . 
+Allow credential repository for sessions in the <a href="/server/web-interface/user-vault/" target="_blank">{{ en.UVLT }}</a>. 
 		</td>
 	</tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 title: Window
 ---
-The Window menu allows you to manage the overall display of {{ en.RDMMAC }} .  
+The Window menu allows you to manage the overall display of {{ en.RDMMAC }}.  
 ![Windows ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10461.png) 
 
 ## Settings 
@@ -43,7 +43,7 @@ Close the active session tab.
 Expand All 
 		</td>
 		<td>
-Expand all the groups in the Navigation pane when the Tree view mode is used. 
+Expand all the groups in the <i><b>{{ en.NPANE }}</b></i> when the Tree view mode is used. 
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ Expand all the groups in the Navigation pane when the Tree view mode is used.
 Collapse All 
 		</td>
 		<td>
-Collapse all the groups in the Navigation pane when the Tree view mode is used. 
+Collapse all the groups in the <i><b>{{ en.NPANE }}</b></i> when the Tree view mode is used. 
 		</td>
 	</tr>
 </table>

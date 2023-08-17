@@ -76,7 +76,7 @@ Utiliser un appareil Google Authenticator pour accéder à l'application lorsqu'
 Substituer le nom de compte 
 		</td>
 		<td>
-Si vous souhaitez utiliser un compte Google Authenticator différent de celui précédemment associé à votre compte Remote Desktop Manager, vous pouvez substituer le nom du compte, mais vous devrez reconfigurer Google Authenticator. 
+Si vous souhaitez utiliser un compte Google Authenticator différent de celui précédemment associé à votre compte {{ fr.RDM }}, vous pouvez substituer le nom du compte, mais vous devrez reconfigurer Google Authenticator. 
 		</td>
 	</tr>
 </table>

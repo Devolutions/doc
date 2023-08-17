@@ -1,7 +1,7 @@
 ---
 title: User Specific Settings List
 ---
-The ***User Specific Settings List*** feature will provide all entries that are overridden with user ***Specific Settings*** .  
+The ***User Specific Settings List*** feature will provide all entries that are overridden with user ***Specific Settings***.  
 ![User Specific Settings List dialog](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin8001.png) 
 
 <table>
@@ -19,7 +19,7 @@ Edit
 		</td>
 		<td>
 
-Edit the selected [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Edit the selected [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 	<tr>
@@ -27,7 +27,7 @@ Edit the selected [User Specific Settings](/rdm/windows/commands/edit/setting-ov
 Delete 
 		</td>
 		<td>
-Delete the selected [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Delete the selected [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 	<tr>

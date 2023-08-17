@@ -6,14 +6,14 @@ eleventyComputed:
 {{ fr.DLAUNCHER }} et {{ fr.DVLS }} doivent être configurés ensemble. Le lancement de connexions peut être défini pour tous les utilisateurs dans les ***Paramètres de {{ fr.DVLS }}*** ou individuellement dans les ***Paramètres du compte***.  
 
 {% snippet icon.badgeInfo %} 
-Vous devez vous connecter au moins une fois à {{ fr.LAUNCHER }} pour que l'outil lance les sessions à partir de {{ fr.DVLS }}. 
+Vous devez vous connecter au moins une fois à {{ fr.DLAUNCHER }} pour que l'outil lance les sessions à partir de {{ fr.DVLS }}. 
 {% endsnippet %}
  
 ### Paramètres de {{ fr.DVLS }} 
 
 Cette méthode définit comment tous les utilisateurs lanceront les connexions.  
 
-Dans ***Administration - Paramètres Serveur - Avancé***, utiliser le menu déroulant ***Lancer une connexion avec*** pour sélectionner ***{{ fr.DLAUNCHER }}*** .  
+Dans ***Administration - Paramètres Serveur - Avancé***, utiliser le menu déroulant ***Lancer une connexion avec*** pour sélectionner ***{{ fr.DLAUNCHER }}***.  
 ![!!ServerOp4007.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4007.png)  
 
 ### Paramètres du compte 

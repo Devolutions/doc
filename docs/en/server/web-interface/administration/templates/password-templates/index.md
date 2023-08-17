@@ -2,12 +2,12 @@
 title: Password Templates
 order: 10
 ---
-***Password Templates*** are used by administrators to create predefined settings for the [***Password Generator***](/server/web-interface/administration/templates/password-templates/password-generator/) of {{ en.DVLS }} .  
+***Password Templates*** are used by administrators to create predefined settings for the [***Password Generator***](/server/web-interface/administration/templates/password-templates/password-generator/) of {{ en.DVLS }}.  
 
 ![Administration – Password Templates](https://webdevolutions.azureedge.net/docs/en/server/clip10401.png) 
 
 ### Create password templates 
-To create ***Password Templates*** , go to ***Administration – Password Templates*** and click on the ***Add*** button. You can also create a ***Password Template*** when using the ***Password Generator*** . Just customize the settings and click on ***Add template*** .  
+To create ***Password Templates***, go to ***Administration – Password Templates*** and click on the ***Add*** button. You can also create a ***Password Template*** when using the ***Password Generator***. Just customize the settings and click on ***Add template***.  
 
 ![Password Templates](https://webdevolutions.azureedge.net/docs/en/server/clip10402.png) 
 
@@ -26,7 +26,7 @@ Name
 		</td>
 		<td>
 
-Name of the ***Password Templates*** . 
+Name of the ***Password Templates***. 
 		</td>
 	</tr>
 	<tr>
@@ -36,16 +36,16 @@ Mode
 		<td>
 Chose a ***Mode*** setting for the passwords.  
 
-* ***Default***   : Customize the length and the minimum number of characters per type you would want the passwords to have. 
-* ***Advanced settings*** : Select the length, type and number of characters to include in the passwords. Include and exclude specific characters. 
-* ***Readable password***   : Generate passwords that are readable but are not actual words. 
+* ***Default***: Customize the length and the minimum number of characters per type you would want the passwords to have. 
+* ***Advanced settings***: Select the length, type and number of characters to include in the passwords. Include and exclude specific characters. 
+* ***Readable password***: Generate passwords that are readable but are not actual words. 
 * <a href="/server/web-interface/administration/templates/password-templates/use-a-pattern-password/" target="_blank">***Use a pattern***</a>: Select any pattern you need to create the passwords, you can also exclude certain characters if desired. A list of the most recent used pattern will also be created. 
-* ***Pronounceable password*** : Generate passwords that are pronounceable, but are not actual words. 
+* ***Pronounceable password***: Generate passwords that are pronounceable, but are not actual words. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Upper-case (A, B, ...) 
+Upper-case (A, B...) 
 		</td>
 		<td>
 Will include uppercase letters for password generation. 
@@ -85,7 +85,7 @@ Will include brackets characters for password generation.
 	</tr>
 	<tr>
 		<td>
-Digits (0, 1, 2, ...) 
+Digits (0, 1, 2...) 
 		</td>
 		<td>
 Will include digits for password generation. 
@@ -93,7 +93,7 @@ Will include digits for password generation.
 	</tr>
 	<tr>
 		<td>
-Special (!, $, %, &, ...) 
+Special (!, $, %, &...) 
 		</td>
 		<td>
 Will include special characters for password generation. 
@@ -101,7 +101,7 @@ Will include special characters for password generation.
 	</tr>
 	<tr>
 		<td>
-Lower-case (a, b, c, ...) 
+Lower-case (a, b, c...) 
 		</td>
 		<td>
 Will include lowercase letters for password generation. 
@@ -153,8 +153,8 @@ Forcefully excludes characters from the password.
 
 Force a default ***Password Template*** for all {{ en.DVLS }} users.  
 
-1. Go to ***Administration – System Settings – Password Management – Password Template*** . 
-2. Choose a ***Default template*** . 
-3. Check ***Force default template*** and ***Save*** . 
+1. Go to ***Administration – System Settings – Password Management – Password Template***. 
+2. Choose a ***Default template***. 
+3. Check ***Force default template*** and ***Save***. 
 
 ![Default Password Template](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4087.png) 

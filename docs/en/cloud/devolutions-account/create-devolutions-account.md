@@ -33,7 +33,7 @@ Your account has been created.
 In the event that you did not receive the activation email or forgot your password, follow these steps: 
 
 1. Click this link [{{ en.DA }} Log in](https://portal.devolutions.com/). 
-1. Enter your ***Username*** ( {{ en.DA }} email address) and click ***Continue***.  
+1. Enter your ***Username*** ({{ en.DA }} email address) and click ***Continue***.  
 ![!!Cloud4001.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4001.png) 
 1. Click ***Forgot your password?***.  
 ![{{ en.DA }} - Forgot Password.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4024.png) 

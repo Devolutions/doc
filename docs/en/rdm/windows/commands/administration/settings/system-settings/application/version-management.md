@@ -1,9 +1,9 @@
 ---
 title: Version Management
 ---
-The ***Version Management*** allows the administrators to manage the data source availability in other versions of {{ en.RDM }} . 
+The ***Version Management*** allows the administrators to manage the data source availability in other versions of {{ en.RDM }}. 
 
-## Windows and macOS 
+## Windows and {{ en.MAC }} 
 
 ![Version Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5008.png) 
 
@@ -21,7 +21,7 @@ DESCRIPTION
 Minimal version 
 		</td>
 		<td>
-Forces users of the data source to use a minimal version of {{ en.RDM }} . Enter the entire version number (2019.1.0.0) to force a specific version. Use this to disable connecting to the data source with an older version. 
+Forces users of the data source to use a minimal version of {{ en.RDM }}. Enter the entire version number (2019.1.0.0) to force a specific version. Use this to disable connecting to the data source with an older version. 
 		</td>
 	</tr>
 	<tr>

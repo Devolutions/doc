@@ -9,7 +9,7 @@ The ***Access code*** is a credential entry that gives a simplified interface to
 The configuration of the ***Access code*** entry is also valid for {{ en.RDMMAC }}.
 {% endsnippet %}
 
-1. Go to the data source vault in which you want to create the ***Access code entry*** in the ***Navigation Pane***.  
+1. Go to the data source vault in which you want to create the ***Access code entry*** in the ***{{ en.NPANE }}***.  
 1. Select ***Access code*** under ***New Entry – Credential Management – General***.  
 ![New Entry – Credential Management – General – Access code](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6024.png)  
 2. Name the entry and select its folder.

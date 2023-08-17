@@ -63,15 +63,15 @@ Allows the user to use the {{ en.HUB }} with our {{ en.DWL }} browser extension.
 	</tr>
 	<tr>
 		<td>
-Enable {{ en.WS }}
+Enable {{ en.DWS }}
 		</td>
 		<td>
-Allows the user to use the {{ en.HUB }} with our {{ en.DWS }} companion tool.
+Allows the user to use the {{ en.HUB }} with our {{ en.DWS }} {{ en.CTOOL }}.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Allow offline in Remote Desktop Manager 
+Allow offline in {{ en.RDM }} 
 		</td>
 		<td>
 Allows the user to use the {{ en.HUB }} as a data source in offline mode in {{ en.RDM }}.

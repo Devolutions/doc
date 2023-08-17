@@ -1,15 +1,15 @@
 ---
-title: LastPass Two Factor Authentication
+title: LastPass two-factor authentication
 ---
 Every time I use a device referencing to my LastPass integration, it asks for my Two Factor Authentication (2FA) every single time.
 
 ## Solution
 
-This behavior is caused by the recent changes made to the two-factor authentication mode of LastPass in Remote Desktop Manager 2020.1.20.  
+This behavior is caused by the recent changes made to the two-factor authentication mode of LastPass in {{ en.RDM }} 2020.1.20.  
 
-You can now go under ***File - Options - Types - Credentials*** , under the LastPass section to decide how you want to manage your 2FA.  
+You can now go under ***File - Options - Types - Credentials***, under the LastPass section to decide how you want to manage your 2FA.  
 
-![LastPass two factor authentication mode.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4000.png)
+![LastPass two-factor authentication mode](https://webdevolutions.azureedge.net/docs/en/kb/KB4000.png)
 
 Here is a brief overview of what each mode does:  
 

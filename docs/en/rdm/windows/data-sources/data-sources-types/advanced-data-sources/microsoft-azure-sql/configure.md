@@ -7,13 +7,13 @@ title: Configure SQL Azure
 ![Upgrade Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10377.png) 
 1. Once the database is created, create an administrator account for the database via the ***Administration – User Management*** menu. 
 {% snippet icon.badgeInfo %} 
-If the database is created using a system administrator (example: SA), we recommend to keep this user only for the database creation and the [database upgrade](/rdm/windows/installation/database-upgrade/) . A {{ en.RDM }} administrator account must be created first. Then, regular users are created with this administrator account. 
+If the database is created using a system administrator (example: SA), we recommend to keep this user only for the database creation and the [database upgrade](/rdm/windows/installation/database-upgrade/). A {{ en.RDM }} administrator account must be created first. Then, regular users are created with this administrator account. 
 {% endsnippet %}
  
 ![Create a {{ en.RDM }} Administrator Account](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3415.png) 
 
 5. Connect on the Microsoft Azure SQL database with the {{ en.RDM }} administrator account. To do so, edit the data source used to create the database and change the login information for the administrator account that you have created.  
-![Connection to the Database with the Remote Desktop Manager Administrator Account](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11501.png) 
+![Connection to the Database with the {{ en.RDM }} Administrator Account](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11501.png) 
 
 The Microsoft Azure SQL data source is now correctly configured. 
 

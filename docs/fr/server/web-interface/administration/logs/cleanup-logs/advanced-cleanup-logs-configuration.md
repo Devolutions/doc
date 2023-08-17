@@ -1,7 +1,7 @@
 ---
 title: Configuration avancée
 ---
-La configuration avancée permet de sélectionner des paramètres d'archivage individuellement pour chacun des journaux de {{ fr.DVLS }} .  
+La configuration avancée permet de sélectionner des paramètres d'archivage individuellement pour chacun des journaux de {{ fr.DVLS }}.  
 ![Effacer les journaux - Configuration avancée](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8152.png) 
 
 ### Journaux 
@@ -45,7 +45,7 @@ Table contenant toutes les tentatives de connexions à {{ fr.DVLS }} ayant écho
 LOGIN HISTORY 
 		</td>
 		<td>
-Table contenant toutes les connexions à {{ fr.DVLS }} . 
+Table contenant toutes les connexions à {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +53,7 @@ Table contenant toutes les connexions à {{ fr.DVLS }} .
 MESSAGE LOGS 
 		</td>
 		<td>
-Tables contenant les journaux de la source de données {{ fr.DVLS }} . 
+Tables contenant les journaux de la source de données {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -61,7 +61,7 @@ Tables contenant les journaux de la source de données {{ fr.DVLS }} .
 PAM LOGS 
 		</td>
 		<td>
-Tables contenant les journaux de la fonctionnalité PAM de {{ fr.DVLS }} . 
+Tables contenant les journaux de la fonctionnalité PAM de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 </table>

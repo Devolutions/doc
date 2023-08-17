@@ -2,9 +2,9 @@
 title: Advanced
 order: 20
 ---
-The ***Advanced*** section allows the administrator to configure the Refresh token lifetime parameter and some other specific parameters like the [Labelling](/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/) . 
+The ***Advanced*** section allows the administrator to configure the Refresh token lifetime parameter and some other specific parameters like the [Labelling](/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/). 
 
-![Administration - Devolutions Server Settings - Advanced](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8044.png) 
+![Administration – {{ en.DVLS }} Settings – Advanced](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8044.png) 
 
 ## Settings 
 ### Features 
@@ -23,7 +23,7 @@ Description
 Refresh token lifetime (minutes) 
 		</td>
 		<td>
-This the duration time of the token. At the expiration of the token, the user must again authenticate himself on the {{ en.DVLS }} instance. When updated, the {{ en.DVLS }} needs to be restarted using the Stop Server/Start Server button on the console. 
+This the duration time of the token. At the expiration of the token, the user must again authenticate himself on the {{ en.DVLS }} instance. When updated, the {{ en.DVLS }} needs to be restarted using the Stop Server/Start Server button on the {{ en.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>
@@ -31,7 +31,7 @@ This the duration time of the token. At the expiration of the token, the user mu
 Automatically logout idle users after (minutes) 
 		</td>
 		<td>
-Enter the delay for the user to be disconnected from the server if inactive. This value must be lower than the Refresh token lifetime parameter. This parameter is applied on the web interface or with the <a href="/server/dwl/overview/" target="_blank">{{ en.DWL }}</a> browser companion tool. It has no effect on {{ en.RDM }} . When updated, the {{ en.DVLS }} needs to be restarted using the Stop Server/Start Server button on the console. 
+Enter the delay for the user to be disconnected from the server if inactive. This value must be lower than the Refresh token lifetime parameter. This parameter is applied on the web interface or with the <a href="/server/dwl/overview/" target="_blank">{{ en.DWL }}</a> browser {{ en.CTOOL }}. It has no effect on {{ en.RDM }}. When updated, the {{ en.DVLS }} needs to be restarted using the Stop Server/Start Server button on the {{ en.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>
@@ -39,7 +39,7 @@ Enter the delay for the user to be disconnected from the server if inactive. Thi
 User license type 
 		</td>
 		<td>
-Select the license type. Default is Connection Management . 
+Select the license type. Default is Connection Management. 
 		</td>
 	</tr>
 	<tr>
@@ -47,7 +47,7 @@ Select the license type. Default is Connection Management .
 Launch connection with 
 		</td>
 		<td>
-Sets the application that opens remote connections: {{ en.RDM }} or {{ en.DLAUNCHER }}. Default refers to {{ en.LAUNCHER }}. 
+Sets the application that opens remote connections: {{ en.RDM }} or {{ en.DLAUNCHER }}. Default refers to {{ en.DLAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>
@@ -59,7 +59,3 @@ See the <a href="/server/web-interface/administration/configuration/server-setti
 		</td>
 	</tr>
 </table>
-
-
-
-

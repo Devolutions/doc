@@ -9,7 +9,7 @@ Get access to a one-click ***Custom Tool*** which would apply a ***Template*** a
 1. Select ***Open with a Template***.
 1. Choose the ***Template*** you wish to use in the list.
 
-The method below, will give you a quick access in Remote Desktop Manager’s Dashboard ***Macros/Scripts/Tools*** section of the entry. It will allow you to click on the ***Custom Tool*** and open the connection that currently has focus with the parameters specified in your ***Templates***.
+The method below, will give you a quick access in the {{ en.RDM }} Dashboard ***Macros/Scripts/Tools*** section of the entry. It will allow you to click on the ***Custom Tool*** and open the connection that currently has focus with the parameters specified in your ***Templates***.
 
 {% snippet icon.badgeInfo %}
 In order to use this method, you will first need to create a ***Template*** under ***File - Templates*** For more information, please consult this [link](/rdm/windows/commands/file/templates/)
@@ -23,7 +23,7 @@ The ***Template*** that you will create (Database template only) will need to ha
 
 ## Method
 
-1. In the ***Ribbon*** , go under ***Edit - New Entry - Add Macros/Scripts/Tools***.  
+1. In the ***Ribbon***, go under ***Edit - New Entry - Add Macros/Scripts/Tools***.  
 ![!!KB5002.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5002.png)
 1. Select ***Template Macro/Script/Tool*** in the ***Tool*** section and click ***OK***.  
 ![!!KB5003.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5003.png)

@@ -70,7 +70,7 @@ Indiquer l'emplacement et le magasin où enregistrer le certificat.
 Emplacement 
 		</td>
 		<td>
-Indique l'emplacement du certificat. Choisir entre:  
+Indique l'emplacement du certificat. Choisir entre :  
 
 * Utilisateur actuel 
 * Machine locale 

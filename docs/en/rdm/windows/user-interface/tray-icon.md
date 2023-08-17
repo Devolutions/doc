@@ -1,7 +1,7 @@
 ---
 title: Tray Icon
 ---
-{{ en.RDM }} allows the user to control the application from the Windows system tray. You can also [customize its content](#tray-icon-preferences) .  
+{{ en.RDM }} allows the user to control the application from the Windows system tray. You can also [customize its content](#tray-icon-preferences).  
 
 ## Tray Icon Context Menu 
 
@@ -47,7 +47,7 @@ Lists all the currently open sessions.
 Recent 
 		</td>
 		<td>
-Lists the [Most Recently Used Entries](/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/) . 
+Lists the [Most Recently Used Entries](/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/). 
 		</td>
 	</tr>
 	<tr>
@@ -126,5 +126,5 @@ Closes the application.
 
 ## Tray Icon Preferences 
 
-The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Options – User Interface – Trayicon/Taskbar*** . 
+The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Options – User Interface – Trayicon/Taskbar***. 
 

@@ -1,7 +1,7 @@
 ---
 title: Export Entry
 ---
-Use the Export options to export selected entries from {{ en.RDMMAC }} . 
+Use the Export options to export selected entries from {{ en.RDMMAC }}. 
 
 ## Settings 
 

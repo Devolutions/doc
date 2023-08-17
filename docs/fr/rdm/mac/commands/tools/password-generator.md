@@ -5,7 +5,7 @@ Le ***Générateur de mots de passe*** vous permet de créer des mots de passe a
 
 Vous pouvez également créer des modèles de générateur de mots de passe pour générer plus rapidement vos mots de passe. Après avoir sélectionné votre mode et vos paramètres, vous pouvez créer votre modèle.  
 
-Le ***Générateur de mots de passe*** est disponible dans Outils - Générateur de mots de passe .  
+Le ***Générateur de mots de passe*** est disponible dans Outils - Générateur de mots de passe.  
 ![Outils - Générateur de mots de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4221.png) 
 
 ## Paramètres 
@@ -25,7 +25,7 @@ Chaque mot de passe généré sera lisible, mais ne sera pas un mot dans le dict
 Appuyer sur le bouton et sélectionner le modèle dont vous avez besoin pour créer vos mots de passe. Une liste des modèles utilisés les plus récents sera également créée.  
 ![Générateur de mot de passe - Utiliser un modèle](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0109.png) 
 
-Voici les modèles pris en charge:  
+Voici les modèles pris en charge :  
 
 <table>
 	<tr>

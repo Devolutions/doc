@@ -1,17 +1,17 @@
 ---
 title: Recherche
 ---
-Il est possible d'appliquer un filtre dans le [Volet de navigation](/fr/rdm/mac/user-interface/navigation-pane/) en tapant certains caractères dans la zone de filtre. Le filtre est appliqué en utilisant les paramètres spécifiés dans l'application. 
+Il est possible d'appliquer un filtre dans le [***{{ fr.NPANE }}***](/fr/rdm/mac/user-interface/navigation-pane/) en tapant certains caractères dans la zone de filtre. Le filtre est appliqué en utilisant les paramètres spécifiés dans l'application. 
 
 ## Paramètres 
 
-Le filtre de ***Recherche*** est accessible à partir de la barre d'accès rapide de {{ fr.RDM }} .  
+Le filtre de ***Recherche*** est accessible à partir de la barre d'accès rapide de {{ fr.RDM }}.  
 ![Recherche/ Filtre](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4402.png) 
 
 Cliquer sur la flèche dans la zone de ***Recherche*** pour afficher vos options de recherche.  
 ![Menu d'options de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4404.png) 
 
-L'expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que:  
+L'expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que :  
 
 * Dossier 
 * Type 
@@ -22,7 +22,7 @@ L'expression du filtre est mise en correspondance avec les champs sélectionnés
 * Mots-clés 
 * Référence de contact 
 
-Il est possible d'exclure des résultats en choisissant d'afficher les entrées correspondant à certains critères:  
+Il est possible d'exclure des résultats en choisissant d'afficher les entrées correspondant à certains critères :  
 
 * Type de sessions (Identifiants, Outils de script, VPN, etc.) 
 * Si la session est marquée comme Favorites 

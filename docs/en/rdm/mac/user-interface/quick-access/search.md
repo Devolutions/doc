@@ -1,11 +1,11 @@
 ---
 title: Search
 ---
-It is possible to apply a filter in the [Navigation Pane](/rdm/mac/user-interface/navigation-pane/) tree view by typing some characters in the filter box. The filter is applied using the specified settings in the application Filter options. 
+It is possible to apply a filter in the [***{{ en.NPANE }}***](/rdm/mac/user-interface/navigation-pane/) tree view by typing some characters in the filter box. The filter is applied using the specified settings in the application Filter options. 
 
 ## Settings 
 
-The Search filter is accessible from the {{ en.RDMMAC }} Quick Access [Toolbar](/rdm/mac/user-interface/quick-access/) .  
+The Search filter is accessible from the {{ en.RDMMAC }} Quick Access [Toolbar](/rdm/mac/user-interface/quick-access/).  
 ![Quick Access - Search](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10561.png) 
 
 Click on the arrow in the Search box to display your search options.  

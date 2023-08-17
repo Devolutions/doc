@@ -8,7 +8,7 @@ eleventyComputed:
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request. 
 
 {% snippet icon.badgeInfo %} 
-When using {{ en.DVLS }} , Microsoft SQL Server or Microsoft Azure SQL data sources, you must first [Enable temporary access](/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) in {{ en.RDM }}. 
+When using {{ en.DVLS }}, Microsoft SQL Server or Microsoft Azure SQL data sources, you must first [Enable temporary access](/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/) in {{ en.RDM }}. 
 {% endsnippet %}
  
 To learn how to view your past and current requests, go to [View temporary access requests](#view-temporary-access-requests).   

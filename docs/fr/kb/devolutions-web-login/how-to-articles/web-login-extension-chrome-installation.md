@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Installation de l'extension Web Login sur Chrome
+  title: Installation de l'extension {{ fr.DWL }} sur Chrome
   description: Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Chrome. 
   keywords:
   - Navigateur

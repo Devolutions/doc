@@ -66,7 +66,7 @@ There is no way to recover it if the Emergency reset kit cannot be located.<br>
 Description
 		</td>
 		<td>
-This user is not allowed to access this {{ en.HUBB }} via the {{ en.DWL }} companion tool.
+This user is not allowed to access this {{ en.HUBB }} via the {{ en.DWL }} {{ en.CTOOL }}.
 		</td>
 	</tr>
 	<tr>
@@ -145,7 +145,7 @@ Is there another administrator or any user that has the permission to manage use
 
 The Emergency reset kit was provided at the first login after the initial creation of the {{ en.HUBB }}. It is a mandatory step in the creation process.<br>
 
-You can search for a PDF file titled "Devolutions Hub Emergency Kit huburlxxxx.devolutions.app".<br>
+You can search for a PDF file titled "{{ en.DHUB }} Emergency Kit huburlxxxx.devolutions.app".<br>
 * If you are a {{ en.HUBB }} owner and cannot locate your Emergency reset kit PDF file and do not have another administrator or any user that has the permission to manage users, please contact our [support team](mailto:service@devolutions.net) by email.<br>
 		</td>
 	</tr>
@@ -202,15 +202,15 @@ Solution
 	</tr>
 </table>
 
-### Workspace is disabled for this user on this {{ en.HUB }}.
-![Workspace is disabled for this user on this {{ en.HUB }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
+### {{ en.DWS }} is disabled for this user on this {{ en.HUB }}.
+![{{ en.DWS }} is disabled for this user on this {{ en.HUB }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
 
 <table>
 		<td>
 Description
 		</td>
 		<td>
-This user is not allowed to access this {{ en.HUBB }} via the {{ en.WS }} companion tool.
+This user is not allowed to access this {{ en.DHUBB }} via the {{ en.DWS }} {{ en.CTOOL }}.
 		</td>
 	</tr>
 	<tr>

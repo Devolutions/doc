@@ -27,7 +27,7 @@ Implementing support for all fields comes at a cost. The import process is time 
 All of our entries share a basic set of fields; the rest is tied to the specific technology being interfaced with (RDP, SSH, etc). Some fields are grouped in structures like the Information Tab, for instance. Those fields are accessible only when providing the structure name as a prefix, for example: "MetaInformation\OS" or "MetaInformation\PurchaseDate".
 
 {% snippet icon.badgeInfo %}
-Note that the CSV file can contain our variables: they will be resolved upon saving. For instance, you could use the $HOST$ variable in fields like ***Description***, ***URL***, ***Putty\CustomSessionName*** ... It will be replaced by the corresponding value. 
+Note that the CSV file can contain our variables: they will be resolved upon saving. For instance, you could use the $HOST$ variable in fields like ***Description***, ***URL***, ***Putty\CustomSessionName***... It will be replaced by the corresponding value. 
 {% endsnippet %}
  
 Here is a list of some relevant fields.
@@ -39,7 +39,7 @@ Here is a list of some relevant fields.
 | ConnectionType               | Token representing the connection type. It is best to use the ***Clipboard – Copy*** method to obtain the acceptable values. |
 | Group                        | Destination folder. Note that if the import process itself had a destination folder defined as well, the folder listed here would be created below the one from the process. |
 | Description                  | Description of the entry. |
-| Open (Embedded)              | Boolean value ( true or false ) that indicates to open the session embedded. The default value is false, meaning that the native client will be used depending on the technology (MSTSC.EXE, for instance). |
+| Open (Embedded)              | Boolean value (true or false) that indicates to open the session embedded. The default value is false, meaning that the native client will be used depending on the technology (MSTSC.EXE, for instance). |
 | Username                     | Username used to open a session to the device. |
 | Domain                       | Domain used to open a session to the device. |
 | Password                     | Password used to open a session to the device. Please note that this field is encrypted and stored into another field upon being imported. |

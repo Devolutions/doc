@@ -1,14 +1,15 @@
 ---
-title: TLS Management
-description: TLS can be blocked inside organization and they request Devolutions help regarding the managements of TLS inside DVLS or any other Devolutions product.
-keywords:
-- TLS
-- .NET Framework
-- Windows Operating System
-- Nartac
-- IIS Crypto
+eleventyComputed:
+  title: TLS Management
+  description: TLS can be blocked inside organization and they request Devolutions help regarding the managements of TLS inside {{ en.DVLS }} or any other Devolutions product.
+  keywords:
+  - TLS
+  - .NET Framework
+  - Windows Operating System
+  - Nartac
+  - IIS Crypto
 ---
-TLS can be blocked inside organization and they request Devolutions help regarding the managements of TLS inside DVLS or any other Devolutions product.
+TLS can be blocked inside organization and they request Devolutions help regarding the managements of TLS inside {{ en.DVLS }} or any other Devolutions product.
 
 ## Solution
 

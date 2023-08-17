@@ -3,7 +3,7 @@ title: Gestionnaire de listes d'exécution
 ---
 ### Utilisation d'une liste d'exécution 
 
-Tout d'abord, ouvrez votre Gestionnaire de listes d'exécution dans ***Modifier - Liste d'exécution - Gestionnaire de listes d'exécution*** .  
+Tout d'abord, ouvrez votre Gestionnaire de listes d'exécution dans ***Modifier - Liste d'exécution - Gestionnaire de listes d'exécution***.  
 
 Il existe cinq méthodes pour utiliser votre liste d'exécution.  
 ![Mode par défaut](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10260.png) 
@@ -36,10 +36,10 @@ Remplacer la sélection d'affichage des entrées dans les listes d'exécution et
 	</tr>
 	<tr>
 		<td>
-Sélectionner dans le volet de navigation 
+Sélectionner dans le ***{{ fr.NPANE }}*** 
 		</td>
 		<td>
-Sélectionner toutes les entrées contenues dans la liste d'exécution dans le volet de navigation. 
+Sélectionner toutes les entrées contenues dans la liste d'exécution dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -55,7 +55,7 @@ Cela vous demandera de sélectionner la ***Macro de frappe*** (exclusivement) qu
 Lancer au démarrage 
 		</td>
 		<td>
-Ici, vous pouvez sélectionner une liste d'exécution spécifique que vous souhaitez lancer au démarrage de l'application. Vous pouvez également revenir par défaut à ***Aucun*** ou ***Dernières connexions ouvertes*** . 
+Ici, vous pouvez sélectionner une liste d'exécution spécifique que vous souhaitez lancer au démarrage de l'application. Vous pouvez également revenir par défaut à ***Aucun*** ou ***Dernières connexions ouvertes***. 
 		</td>
 	</tr>
 </table>

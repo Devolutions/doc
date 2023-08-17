@@ -6,7 +6,7 @@ eleventyComputed:
 
 Follow these steps to connect {{ en.HUBP }} to the {{ en.DWL }} extension:  
 
-1. Click on the {{ en.DWL }} extension in your browser 's toolbar.  
+1. Click on the {{ en.DWL }} extension in your browser's toolbar.  
 
 {% snippet icon.badgeNotice %} 
 A {{ en.HUBP }} access is required to continue. 

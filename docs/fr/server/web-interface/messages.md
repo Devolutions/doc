@@ -1,7 +1,7 @@
 ---
 title: Messages
 ---
-Envoyer et recevoir des ***Messages Sécurisés*** avec les utilisateurs de votre {{ fr.DVLS }} . 
+Envoyer et recevoir des ***Messages Sécurisés*** avec les utilisateurs de votre {{ fr.DVLS }}. 
 
 ![!!ServerOp4048.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4048.png) 
 

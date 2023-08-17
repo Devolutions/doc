@@ -1,12 +1,12 @@
 ---
-title: Launcher Session Menu
+title: Devolutions Launcher Session Menu
 order: 40
 ---
 To access the {{ en.DLAUNCHER }} session menu, right click on an open session tab.  
 
 ![!!ServerOp4048.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4048.png) 
 ### Docking 
-To undock a session in {{ en.LAUNCHER }}, right click the tab to open the selection menu and click ***Undock***.  
+To undock a session in {{ en.DLAUNCHER }}, right click the tab to open the selection menu and click ***Undock***.  
 
 A shortcut menu becomes available to manage the undock window.  
 

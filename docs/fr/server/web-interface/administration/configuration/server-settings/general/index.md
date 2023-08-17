@@ -2,7 +2,7 @@
 title: Général
 order: 10
 ---
-La section ***Général*** permet à l'administrateur de modifier le nom ou la description de l'instance {{ fr.DVLS }} .  
+La section ***Général*** permet à l'administrateur de modifier le nom ou la description de l'instance {{ fr.DVLS }}.  
 ![Adminsitration - Paramètres de {{ fr.DVLS }} - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8041.png) 
 
 ## Paramètres 
@@ -12,7 +12,7 @@ La section ***Général*** permet à l'administrateur de modifier le nom ou la d
 <table>
 	<tr>
 		<th>
-        
+
 Option 
 		</th>
 		<th>
@@ -24,7 +24,7 @@ Description
 Nom 
 		</td>
 		<td>
-Entrer le nom de votre serveur, il sera affiché dans la zone ***Contenu*** . 
+Entrer le nom de votre serveur, il sera affiché dans la zone ***Contenu***. 
 		</td>
 	</tr>
 	<tr>
@@ -74,10 +74,10 @@ Insérer vos clés de licence d'accès client.
 	</tr>
 	<tr>
 		<td>
-{{ fr.LAUNCHER }} LAC 
+{{ fr.DLAUNCHER }} LAC 
 		</td>
 		<td>
-Insérer vos clés de licence {{ fr.LAUNCHER }}. 
+Insérer vos clés de licence {{ fr.DLAUNCHER }}. 
 		</td>
 	</tr>
 </table>

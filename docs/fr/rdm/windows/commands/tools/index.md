@@ -1,7 +1,7 @@
 ---
 title: Outils
 ---
-L'onglet ***Outils*** contient votre ***Gestionnaire d'extensions*** , les générateurs et plusieurs outils utiles.  
+L'onglet ***Outils*** contient votre ***Gestionnaire d'extensions***, les générateurs et plusieurs outils utiles.  
 ![!!clip11429.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11429.png) 
 
 ### Générateurs 
@@ -21,7 +21,7 @@ DESCRIPTION
 Générateur de mots de passe 
 		</td>
 		<td>
-Ouvre la fenêtre [Générateur de mots de passe](/fr/rdm/windows/commands/tools/generators/password/) . Vous pouvez l'utiliser pour générer un mot de passe selon des critères prédéterminés pour une meilleure sécurité. 
+Ouvre la fenêtre [Générateur de mots de passe](/fr/rdm/windows/commands/tools/generators/password/). Vous pouvez l'utiliser pour générer un mot de passe selon des critères prédéterminés pour une meilleure sécurité. 
 		</td>
 	</tr>
 	<tr>
@@ -29,7 +29,7 @@ Ouvre la fenêtre [Générateur de mots de passe](/fr/rdm/windows/commands/tools
 Générateur de clé SSH 
 		</td>
 		<td>
-Lance le [Générateur de clé SSH](/fr/rdm/windows/commands/tools/generators/ssh-key/) . Les clés SSH offrent un moyen sécurisé de se connecter à un serveur privé virtuel avec SSH plutôt que d'utiliser un mot de passe seul. 
+Lance le [Générateur de clé SSH](/fr/rdm/windows/commands/tools/generators/ssh-key/). Les clés SSH offrent un moyen sécurisé de se connecter à un serveur privé virtuel avec SSH plutôt que d'utiliser un mot de passe seul. 
 		</td>
 	</tr>
 	<tr>
@@ -37,7 +37,7 @@ Lance le [Générateur de clé SSH](/fr/rdm/windows/commands/tools/generators/ss
 Générateur de certificat 
 		</td>
 		<td>
-Lance le [Générateur de certificat](/fr/rdm/windows/commands/tools/generators/certificate/) . Avec cela, vous pouvez créer un certificat d'auto-signature, qui est un certificat d'identité signé par la même entité dont l'identité est certifiée. 
+Lance le [Générateur de certificat](/fr/rdm/windows/commands/tools/generators/certificate/). Avec cela, vous pouvez créer un certificat d'auto-signature, qui est un certificat d'identité signé par la même entité dont l'identité est certifiée. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Lance le [Générateur de certificat](/fr/rdm/windows/commands/tools/generators/
 Générateur de port 
 		</td>
 		<td>
-Lance le [Générateur de port](/fr/rdm/windows/commands/tools/generators/port/) . Avec cela, vous pouvez générer des ports pour vos connexions. 
+Lance le [Générateur de port](/fr/rdm/windows/commands/tools/generators/port/). Avec cela, vous pouvez générer des ports pour vos connexions. 
 		</td>
 	</tr>
 </table>
@@ -67,7 +67,7 @@ DESCRIPTION
 Analyseur de sécurité d'entrées 
 		</td>
 		<td>
-Ouvre l' [Analyseur de sécurité d'entrées](/fr/rdm/windows/commands/tools/tools/entry-security-analyzer/) . Ceci est utilisé pour évaluer la force des mots de passe stockés dans la source de données. 
+Ouvre l'[Analyseur de sécurité d'entrées](/fr/rdm/windows/commands/tools/tools/entry-security-analyzer/). Ceci est utilisé pour évaluer la force des mots de passe stockés dans la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -75,7 +75,7 @@ Ouvre l' [Analyseur de sécurité d'entrées](/fr/rdm/windows/commands/tools/too
 Mon inventaire 
 		</td>
 		<td>
-Configurer un rapport ***Mon inventaire*** . 
+Configurer un rapport ***Mon inventaire***. 
 		</td>
 	</tr>
 	<tr>
@@ -129,7 +129,7 @@ Ouvre le Gestionnaire de modules. Il est utilisé pour simplifier la gestion des
 Gestionnaire d'extensions 
 		</td>
 		<td>
-Ouvre le ***Gestionnaire d'extensions*** . Il est utilisé pour simplifier la gestion et l'installation des extensions du navigateur Web et d'autres extensions diverses. 
+Ouvre le ***Gestionnaire d'extensions***. Il est utilisé pour simplifier la gestion et l'installation des extensions du navigateur Web et d'autres extensions diverses. 
 		</td>
 	</tr>
 </table>

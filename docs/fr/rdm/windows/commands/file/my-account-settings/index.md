@@ -1,7 +1,7 @@
 ---
 title: Paramètres de mon compte
 ---
-Utiliser ***Fichier - Paramètres de mon compte*** pour configurer les comptes qui se connectent à différentes plates-formes Web. Configurer les paramètres de compte une fois et utilisez-les dans les entrées autant de fois que nécessaire. Cette section permet également de gérer ***Mes identifiants personnels*** , ***Ma clé privée personnelle*** et les ***Listes des paramètres spécifiques*** . 
+Utiliser ***Fichier - Paramètres de mon compte*** pour configurer les comptes qui se connectent à différentes plates-formes Web. Configurer les paramètres de compte une fois et utilisez-les dans les entrées autant de fois que nécessaire. Cette section permet également de gérer ***Mes identifiants personnels***, ***Ma clé privée personnelle*** et les ***Listes des paramètres spécifiques***. 
 
 ## Paramètres 
 
@@ -64,7 +64,7 @@ Configurer une clé privée personnelle pour une utilisation ultérieure dans le
 Liste de paramètres spécifiques de l'utilisateur 
 		</td>
 		<td>
-Fournie une liste de tous les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) de l'utilisateur configuré dans {{ fr.RDM }} . 
+Fournie une liste de tous les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) de l'utilisateur configuré dans {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -72,7 +72,7 @@ Fournie une liste de tous les [Paramètres spécifiques](/fr/rdm/windows/command
 Liste des paramètres spécifiques locaux 
 		</td>
 		<td>
-Fournie une liste de tous les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) locaux configurés dans {{ fr.RDM }} . 
+Fournie une liste de tous les [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) locaux configurés dans {{ fr.RDM }}. 
 		</td>
 	</tr>
 </table>

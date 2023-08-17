@@ -8,7 +8,7 @@ eleventyComputed:
 * ***IT professional***: This profile displays all entry types and options provided the user has the necessary permissions to access them. This profile offers all of what our solutions have to offer, advanced options, and access to all entries and information.  
 * ***Business user***: This profile is specifically designed for users who do not require access to view remote connection entries, administrative options, or advanced properties. Our interfaces have been streamlined to minimize options that are primarily intended for IT Professionals, allowing business users to focus on their daily tasks without unnecessary complexities.  
 
-The profile is first selected during the Remote Desktop Manager Onboarding process. 
+The profile is first selected during the {{ en.RDM }} Onboarding process. 
 
 ![User Interface Profile selection in Onboarding](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2076.png) 
 

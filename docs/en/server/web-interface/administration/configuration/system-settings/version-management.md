@@ -19,7 +19,7 @@ Description
 Minimal version 
 		</td>
 		<td>
-Forces users of the data source to use a minimal version of {{ en.RDM }} . Enter the entire version number (2019.1.0.0) to force a specific version. Use this to disable connecting to the data source with an older version. 
+Forces users of the data source to use a minimal version of {{ en.RDM }}. Enter the entire version number (2019.1.0.0) to force a specific version. Use this to disable connecting to the data source with an older version. 
 		</td>
 	</tr>
 	<tr>

@@ -1,16 +1,17 @@
 ---
-title: Launch RemoteApp with Remote Desktop Manager
+eleventyComputed:
+  title: Launch RemoteApp with {{ en.RDM }}
 ---
 Here are the steps and information required to launch ***RemoteApp*** with {{ en.RDM }} in ***External*** mode.
 
-1. When you download an RDP file from a ***RemoteApp RD Web server*** , you will notice that it will populate the file with the ***RD Connection Broker’s*** server address.  
+1. When you download an RDP file from a ***RemoteApp RD Web server***, you will notice that it will populate the file with the ***RD Connection Broker’s*** server address.  
 {% snippet icon.badgeInfo %}
 In this example the ***RD Connection Broker*** role and the ***RD Web Access*** role are installed on the same server.
 {% endsnippet %}  
 
 ![!!KB4742.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4742.png)  
 ![!!KB4743.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4743.png)
-2. When creating a new RDP host entry in {{ en.RDM }} if you attempt to use the same configuration from the RDP file downloaded from the RDS website it will fail. Remote Desktop Manager needs to be pointed to the session host server that actually hosts the application you are attempting to launch via RemoteApp. In this case, our DNS application is installed on the server RDS-SESSION.CONTOSO.COM , so that is the server address we will use for the host entry.  
+2. When creating a new RDP host entry in {{ en.RDM }} if you attempt to use the same configuration from the RDP file downloaded from the RDS website it will fail. {{ en.RDM }} needs to be pointed to the session host server that actually hosts the application you are attempting to launch via RemoteApp. In this case, our DNS application is installed on the server RDS-SESSION.CONTOSO.COM, so that is the server address we will use for the host entry.  
 {% snippet icon.badgeCaution %}
 RemoteApp’s will only launch in external mode, set the ***Display*** field to ***External***
 {% endsnippet %}  

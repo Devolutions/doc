@@ -10,6 +10,6 @@ The workaround is to increase the default ***TCP acknowledgement timeout*** to 3
 
 ![!!KB5018.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5018.png)  
 
-* Or changed locally, in the entries properties ***Common*** section, by going in ***RDP (Microsoft Remote Desktop) - Advanced - Connection***    
+* Or changed locally, in the entries properties ***Common*** section, by going in ***RDP (Microsoft Remote Desktop) - Advanced - Connection***.  
 
 ![!!KB5019.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5019.png)

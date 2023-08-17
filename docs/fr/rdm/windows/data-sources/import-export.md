@@ -7,7 +7,7 @@ Vous trouverez dans ***Fichier - Source de données*** l'accès pour l'importati
 ![Source de données - Importer/Exporter](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11263.png) 
 
 {% snippet icon.badgeCaution %} 
-Le fait que les utilisateurs puissent ou non lire/écrire en mode hors ligne est d'abord décidé au niveau du mode de mise en cache de la source de données. Cela ne peut pas être modifié à distance . Si vous souhaitez empêcher ou autoriser les utilisateurs distants à utiliser la fonction de Lecture/Écriture hors ligne, vous devez le faire avant d'exporter votre source de données. 
+Le fait que les utilisateurs puissent ou non lire/écrire en mode hors ligne est d'abord décidé au niveau du mode de mise en cache de la source de données. Cela ne peut pas être modifié à distance. Si vous souhaitez empêcher ou autoriser les utilisateurs distants à utiliser la fonction de Lecture/Écriture hors ligne, vous devez le faire avant d'exporter votre source de données. 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 

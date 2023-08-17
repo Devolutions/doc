@@ -10,7 +10,7 @@ keywords:
 
 ![!!{{ fr.DVLS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg)
 
-{{ fr.DVLS }} est un coffre, déployable dans votre infrastructure, servant à stocker et à partager des informations entre les différentes équipes de votre organisation. Cette solution permet également de gérer des connexions à distance, des identifiants et des informations confidentielles en toute sécurité.  
+{{ fr.DVLS }} est un coffre déployable dans votre infrastructure servant à stocker et à partager des informations entre les différentes équipes de votre organisation. Cette solution permet également de gérer des connexions à distance, des identifiants et des informations confidentielles en toute sécurité.  
 
 Notre système de contrôle d'accès basé sur des groupes d'utilisateurs permet d'attribuer des permissions de façon granulaire. Une journalisation avancée des activités de tous les utilisateurs est incluse afin d'offrir une excellente visibilité dans tous les aspects de la solution.  
 
@@ -45,9 +45,9 @@ Accédez aux ressources stockées dans un coffre à partir d'un navigateur Web g
 Avec l'extension de navigateur {{ fr.DWL }}, les identifiants peuvent être automatiquement saisis lors de la connexion à un site Web. 
 		</td>
 		<td>
-Accédez aux ressources stockées dans un coffre grâce à l'une de nos applications clientes qui sont reliées aux services Web de {{ fr.DVLS }} . 
+Accédez aux ressources stockées dans un coffre grâce à l'une de nos applications clientes qui sont reliées aux services Web de {{ fr.DVLS }}. 
 
-L'application cliente, {{ fr.RDM }} , doit être installée localement pour gérer la source de données. Elle est disponible pour Windows, macOS, Android et iOS.  
+L'application cliente, {{ fr.RDM }}, doit être installée localement pour gérer la source de données. Elle est disponible pour Windows, {{ fr.MAC }}, Android et iOS.  
 		</td>
 	</tr>
 	<tr>
@@ -83,7 +83,7 @@ Contrairement au navigateur Web, {{ fr.RDM }} peut lancer des connexions à dist
 	</tr>
 	<tr>
 		<td>
-À installer sur votre serveur d'application. Stockez des entrées dans un nombre illimité de coffres et gérer les accès grâce à notre système de {{ fr.RBSS }} . 
+À installer sur votre serveur d'application. Stockez des entrées dans un nombre illimité de coffres et gérer les accès grâce à notre système de {{ fr.RBSS }}. 
 		</td>
 		<td>
 Les utilisateurs se verront attribuer des permissions en fonction de leur appartenance aux groupes Active Directory. 
@@ -112,7 +112,7 @@ Possibilité de publier {{ fr.DVLS }} soit dans votre intranet, soit sur Interne
 	<tr>
 		<td>
 
-Grand éventail de technologies d' [authentification à 2 facteurs](/fr/server/web-interface/administration/configuration/server-settings/security/two-factor/). 
+Grand éventail de technologies d'[authentification à 2 facteurs](/fr/server/web-interface/administration/configuration/server-settings/security/two-factor/). 
 		</td>
 		<td>
 Recevez des notifications par courriel pour toute activité dans les comptes, les coffres, etc. 

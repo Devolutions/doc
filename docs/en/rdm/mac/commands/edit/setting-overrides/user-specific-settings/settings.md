@@ -66,7 +66,7 @@ You can select the screen sizing mode between:
 
 ### Gateway 
 
-Override gateway allows you to customize the RDP Gateway credentials used on the remote session. You must select the new credentials to be used, to learn more about the options for credentials override please follow this [link](UserSpecificSettings_Overridecredentials) .  
+Override gateway allows you to customize the RDP Gateway credentials used on the remote session. You must select the new credentials to be used, to learn more about the options for credentials override please follow this [link](UserSpecificSettings_Overridecredentials).  
 
 {% snippet icon.badgeInfo %}
 Override gateway is only visible for RDP sessions. 

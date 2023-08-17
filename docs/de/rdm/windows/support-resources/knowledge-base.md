@@ -20,9 +20,9 @@ Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Comm
 
 &nbsp; &nbsp;[{{ de.RDM }}](/de/kb/remote-desktop-manager/)  
 
-&nbsp; &nbsp;[{{ en.RDMMAC }}](/de/kb/remote-desktop-manager-macos/)  
+&nbsp; &nbsp;[{{ de.RDMMAC }}](/de/kb/remote-desktop-manager-macos/)  
 
-&nbsp; &nbsp;[{{ en.RDM }} Mobile](/de/kb/remote-desktop-manager-mobile/)  
+&nbsp; &nbsp;[{{ de.RDM }} Mobile](/de/kb/remote-desktop-manager-mobile/)  
 
 &nbsp; &nbsp;[{{ de.DVLS }}](/de/kb/devolutions-server/)  
 

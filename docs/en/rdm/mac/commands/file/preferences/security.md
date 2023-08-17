@@ -71,7 +71,7 @@ Use a Yubikey device to get access to the application when it starts or when it'
 Require a TOTP validation 
 		</td>
 		<td>
-Use Devolutions Workspace or Google Authenticator device to get access to the application when it starts or when it's locked. 
+Use {{ en.DWS }} or Google Authenticator device to get access to the application when it starts or when it's locked. 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Use Devolutions Workspace or Google Authenticator device to get access to the ap
 Override account name 
 		</td>
 		<td>
-If you wish to use a different Devolutions Workspace or Google Authenticator account than the one previously linked to your Remote Desktop Manager account, you could override the account name but you will have to reconfigure it.
+If you wish to use a different {{ en.DWS }} or Google Authenticator account than the one previously linked to your {{ en.RDM }} account, you could override the account name but you will have to reconfigure it.
 		</td>
 	</tr>
 </table>

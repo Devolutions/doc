@@ -7,26 +7,38 @@ eleventyImport:
   {%- macro nav(item, index) -%}
     <div class="nav-item-container">
       {%- if item.hasData -%}
-        <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }} {{ 'current' if page.url === item.url }}" href="{{ item.url }}" {{ ['data-dwd-tab data-dwd-tab-group=', item.url,' data-dwd-tab-target=', item.url] | join if item.children.length > 0 }}>
-          {{- item.title -}}
+        <div class="nav-item-sub-container">
+          <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }} {{ 'current' if page.url === item.url }}" href="{{ item.url }}" {{ ['data-dwd-tab data-dwd-tab-group=', item.url,' data-dwd-tab-target=', item.url] | join if item.children.length > 0 }}>
+            {{- item.title -}}
+          </a>
           {%- if item.children.length > 0 -%}
-            {{- icon['expandMore'] | safe -}}
+          <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+              {{- icon['expandMore'] | safe -}}
+          </div>
           {%- endif -%}
-        </a>
+        </div>
       {%- endif -%}
       {%- if item.children.length > 0 -%}
         {%- if not item.hasData -%}
           {% set firstChildrenUrl = item | findFirstChildrenUrlTree %}
           {% if item.redirect or firstChildrenUrl != item.url %}
+          <div class="nav-item-sub-container">
             <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" href="{{ item.redirect if item.redirect else firstChildrenUrl }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
               {{- item.title -}}
-              {{- icon['expandMore'] | safe -}}
             </a>
+            <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+              {{- icon['expandMore'] | safe -}}
+            </div>
+          </div>
           {% else %}
+          <div class="nav-item-sub-container">
             <button class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
               {{- item.title -}}
-              {{- icon['expandMore'] | safe -}}
             </button>
+            <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+              {{- icon['expandMore'] | safe -}}
+            </div>
+          </div>
           {% endif %}
         {%- endif -%}
         <div class="nav-item-items {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
@@ -39,7 +51,7 @@ eleventyImport:
   {%- endmacro -%}
 
   {%- if tree and page.url -%}
-    <nav class="navigation">
+    <nav class="navigation" data-dwd-modal-group="mobile-menu" data-dwd-modal-target="all">
       {%- for item in collections.eleventyNavigationTree | filterTree(lang, tree) | sortTree -%}
         {{- nav(item, 1) -}}
       {%- endfor -%}

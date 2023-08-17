@@ -129,7 +129,7 @@ Backup
 Choose the backup mode. Select between:  
 
 * None: No backup of your data source will be created. 
-* {{ en.OBACK }}: An {{ en.OBACK }} (using [{{ en.OBACK }} Service](/rdm/mac/commands/file/backup/) ) will automatically be created. 
+* {{ en.OBACK }}: An {{ en.OBACK }} (using [{{ en.OBACK }} Service](/rdm/mac/commands/file/backup/)) will automatically be created. 
 * Save to file: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
 		</td>
 	</tr>

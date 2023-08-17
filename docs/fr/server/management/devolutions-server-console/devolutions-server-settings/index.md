@@ -1,4 +1,5 @@
 ---
-title: Paramètres de Devolutions Server
+eleventyComputed:
+  title: Paramètres de {{ fr.DVLS }}
 ---
 

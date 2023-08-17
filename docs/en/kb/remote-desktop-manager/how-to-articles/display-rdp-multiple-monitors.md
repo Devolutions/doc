@@ -27,7 +27,7 @@ To discover your own RDP screen settings, please use the command mstsc /l
 
 When enabling the ***Use multiple monitors for the remote session*** option in the remote ***Display*** section. You can choose between ***All*** or ***Selected***.  
 
-If you choose ***Selected*** , in the drop down menu, you can use a space or a comma between the monitors to identify them. It will display your remote host on the monitor specified in the field.
+If you choose ***Selected***, in the drop down menu, you can use a space or a comma between the monitors to identify them. It will display your remote host on the monitor specified in the field.
 
 {% snippet icon.badgeCaution %}
 Remote host will only display and span from the first local monitor selected.
@@ -40,5 +40,5 @@ Remote host will only display and span from the first local monitor selected.
 In ***External*** display mode, you can select, with the first drop down menu, on which local monitor you want the session to display.  
 ![!!KB4740.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4740.png)  
 
-The second drop down menu should always be left to ***Current Desktop*** , unless you wish to display on a local virtual desktop.  
+The second drop down menu should always be left to ***Current Desktop***, unless you wish to display on a local virtual desktop.  
 ![!!KB4741.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4741.png)

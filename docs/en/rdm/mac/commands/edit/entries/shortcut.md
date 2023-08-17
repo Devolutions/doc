@@ -1,7 +1,7 @@
 ---
 title: Shortcut Entries
 ---
-There are many scenarios where it makes sense for an entry to appear more than once in the Navigation Pane. For example, you might want to:  
+There are many scenarios where it makes sense for an entry to appear more than once in the ***{{ en.NPANE }}***. For example, you might want to:  
 
 * Assign different access to the folder; 
 * Create a favorite folder with everything centralized; 
@@ -15,7 +15,7 @@ Creating shortcuts is simplified by saving the entry once in the database while 
 One way to create a shortcut is by doing a right-click on the chosen entry and then using the menu Edit-Create Shortcut...  
 ![Context menu - Create Shortcut](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10334.png) 
 
-Another way to create a shortcut is using the Edit menu - Create Shortcut .  
+Another way to create a shortcut is using the ***Edit menu - Create Shortcut***.  
 ![Edit ribbon - Create Shortcut](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10335.png) 
 
 {% snippet icon.badgeInfo %}

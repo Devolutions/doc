@@ -102,6 +102,5 @@ Enter the Google Drive path of the data source's file.
 
 ### VPN 
 
-Open a VPN to access your data prior to connecting to your Google Drive .  
+Open a VPN to access your data prior to connecting to your Google Drive.  
 ![Google Drive - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/GoogleDriveVPN.png) 
-

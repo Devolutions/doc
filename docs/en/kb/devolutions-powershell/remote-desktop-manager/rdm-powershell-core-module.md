@@ -62,7 +62,7 @@ Default: %ProgramFiles%\Devolutions\Remote Desktop Manager\RemoteDesktopManager.
 ```
 $override = Get-RDMPowerShellOverride  
 $override.OptionFilePath = "PathToCfg" # C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  
-$override.RemoteDesktopManagerExecutablePath = "Path to desired Remote Desktop Manager version" # C:\RemoteDesktopManager\2023.1\Devolutions.RemoteDesktopManager.Bin.2023.1.11.0\RemoteDesktopManager64.exe  
+$override.RemoteDesktopManagerExecutablePath = "Path to desired {{ en.RDM }} version" # C:\RemoteDesktopManager\2023.1\Devolutions.RemoteDesktopManager.Bin.2023.1.11.0\RemoteDesktopManager64.exe  
 Set-RDMPowerShellOverride  
 # Restart Powershell  
 ```
@@ -82,5 +82,5 @@ C:\windows\system32\WindowsPowerShell\v1.0\Modules
 Get-RDMInstance  
 PS C:\RemoteDesktopManager\2023.1\Devolutions.RemoteDesktopManager.Bin.2023.1.11.0> Get-RDMInstance  
 ApplicationVersion OptionFilename  
-2023.1.0.14        C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  
+2023.1.0.14 C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  
 ```

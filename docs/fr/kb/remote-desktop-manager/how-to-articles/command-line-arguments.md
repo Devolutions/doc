@@ -101,7 +101,7 @@ Change le nom d’enregistrement de {{ fr.RDM }}. La valeur doit être saisie en
 /RegisterSerial:"{serial number}" 
 		</td>
 		<td>
-Change le numéro de licence de {{ fr.RDM }} . La valeur doit être saisie entre guillemets anglais (ex. : "123456789"). 
+Change le numéro de licence de {{ fr.RDM }}. La valeur doit être saisie entre guillemets anglais (ex. : "123456789"). 
 		</td>
 	</tr>
 	<tr>
@@ -164,7 +164,7 @@ Exemple n° 3 – Enregistrer l’application
 
 RemoteDesktopManager.exe /RegisterUser:"First name, Last name" /RegisterSerial:"xxxxx-xxxxx-xxxxx-xxxxx-xxxxx"  
 
-Exemple n° 4 – Démarrer Remote Desktop Manager avec le profileur  
+Exemple n° 4 – Démarrer {{ fr.RDM }} avec le profileur  
 
 RemoteDesktopManager.exe /Profiler  
 

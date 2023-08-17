@@ -1,5 +1,5 @@
 ---
-title: End of License
+title: End of license
 order: 40
 ---
 Some of our {{ en.DVLS }} users could wonder, what will happen with their data when the license expires.  
@@ -9,5 +9,5 @@ All {{ en.DVLS }} subscription plans offer software maintenance for the duration
 
 You need to renew your subscription agreement upon expiry. If you don’t renew your subscription, access to your data will be limited to view only.  
 
-That being said, you will be able to export your data if you choose to migrate to another type of data source than {{ en.DVLS }} . 
+That being said, you will be able to export your data if you choose to migrate to another type of data source than {{ en.DVLS }}. 
 

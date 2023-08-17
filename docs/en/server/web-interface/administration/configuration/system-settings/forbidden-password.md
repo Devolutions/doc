@@ -28,8 +28,8 @@ Verification mode
 		</td>
 		<td>
 Select the verification mode between: <br>
-Contains : the password will be forbidden if it contains a word in the blacklist. <br>
-Exact match : the password will be forbidden if it matches a word in the blacklist. <br>
+Contains: the password will be forbidden if it contains a word in the blacklist. <br>
+Exact match: the password will be forbidden if it matches a word in the blacklist. <br>
 		</td>
 	</tr>
 	<tr>

@@ -8,7 +8,7 @@ keywords:
 - roles
 ---
 
-![!!Devolutions Server logo]({{ locale[lang].projects.server.logo }})
+![!!{{ en.DVLS }} logo]({{ locale[lang].projects.server.logo }})
 
 {{ en.DVLS }} is an on‑premise vault for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease.  
 
@@ -18,7 +18,7 @@ Because of its Web Architecture you have the possibility to offer it only from y
 
 {% youtube 'bOTKsqdPulI' %}  
 
-There are two ways of using {{ en.DVLS }} : 
+There are two ways of using {{ en.DVLS }}: 
 
 <table>
 	<tr>
@@ -45,7 +45,7 @@ Access vaulted resources from a web browser using a Client Access License (CAL).
 With the {{ en.DWL }} browser extension, credentials can be automatically submitted when connecting to a website. 
 		</td>
 		<td>
-Access vaulted resources using our client applications which communicate with {{ en.DVLS }} web services. A local installation of a client application such as {{ en.RDM }} is required to manage the data source and its resources. Note that we offer Windows, macOS, Android and iOS editions.  
+Access vaulted resources using our client applications which communicate with {{ en.DVLS }} web services. A local installation of a client application such as {{ en.RDM }} is required to manage the data source and its resources. Note that we offer Windows, {{ en.MAC }}, Android and iOS editions.  
 
 Use any type of entry, manage all aspects of the data source and monitor user activity all in the same application. 
 		</td>

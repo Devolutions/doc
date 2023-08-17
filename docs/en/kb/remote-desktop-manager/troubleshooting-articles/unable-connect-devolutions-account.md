@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Unable to Connect with {{ en.DA }}
+  title: Unable to connect with {{ en.DA }}
   keywords:
   - HAR
 ---
-You receive an error when trying to connect to {{ en.RDM }} with your {{ en.DA }}
-### Solution
+You receive an error when trying to connect to {{ en.RDM }} with your {{ en.DA }}.  
+## Solution
 1. Close {{ en.RDM }}
 1. Validate that you are able to connect to your ***{{ en.DA }}*** through a browser using this link: [Devolutions Login](https://login.devolutions.com/op/login)
 1. If you get redirected to https<area>://account.devolutions.net, you must delete your browser cookies and retry the link provided at step 1.

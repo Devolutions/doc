@@ -1,6 +1,7 @@
 ---
-title: Remote Desktop Manager macOS
-order: 10
+eleventyComputed:
+  title: Remote Desktop Manager {{ fr.MAC }}
+  order: 10
 ---
 ![!!{{ fr.RDM }} logo](https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg)
 
@@ -26,7 +27,7 @@ Pour une utilisation individuelle seulement, aucune information ne peut être pa
 Team 
 		</td>
 		<td>
-Utilisée par les équipes, cette édition permet de gérer les permissions des utilisateurs, les groupes d'utilisateurs, les options avancées de journalisation, etc. Remote Desktop Manager utilise un système de gestion de base de données (DBMS) pour stocker les données et les partager selon vos exigences en matière de sécurité. Devolutions offre aussi deux services spécialisés pour du stockage infonuagique et pour une intégration complète d'Active Directory. 
+Utilisée par les équipes, cette édition permet de gérer les permissions des utilisateurs, les groupes d'utilisateurs, les options avancées de journalisation, etc. {{ fr.RDM }} utilise un système de gestion de base de données (DBMS) pour stocker les données et les partager selon vos exigences en matière de sécurité. Devolutions offre aussi deux services spécialisés pour du stockage infonuagique et pour une intégration complète d'Active Directory. 
 		</td>
 	</tr>
 </table>
@@ -67,7 +68,7 @@ Windows
 	</tr>
 	<tr>
 		<td>
-macOS 
+{{ fr.MAC }} 
 		</td>
 		<td>
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 

@@ -46,7 +46,7 @@ Link your entry to more than one group. See [Shortcut/Linked Entries](/rdm/mac/c
 Save as Template 
 		</td>
 		<td>
-Save your selected entry as a local or shared [template](/rdm/mac/commands/file/templates/) . 
+Save your selected entry as a local or shared [template](/rdm/mac/commands/file/templates/). 
 		</td>
 	</tr>
 </table>

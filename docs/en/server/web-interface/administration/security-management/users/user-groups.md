@@ -3,7 +3,7 @@ title: User Groups
 keywords:
 - Roles
 ---
-Assign users to ***User Groups*** . 
+Assign users to ***User Groups***. 
 
 ![Edit User - User Groups](https://webdevolutions.azureedge.net/docs/en/server/ServerOp7007.png) 
 

@@ -8,7 +8,7 @@ title: Devolutions Server
 ![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
-{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the product's web site [here](https://devolutions.net/server) . 
+{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the product's web site [here](https://devolutions.net/server). 
 		</td>
 	</tr>
 </table>
@@ -35,13 +35,13 @@ For more information, please consult these topics
 
 Enter a name of the data source and the URL for the server. Ensure you use the correct protocol if SSL is required by the server (https).  
 
-Alternatively, you can export the data source information and then import the file in your client workstations as described [Import/Export Data Source](/rdm/mac/data-sources/import-export/) .  
+Alternatively, you can export the data source information and then import the file in your client workstations as described [Import/Export Data Source](/rdm/mac/data-sources/import-export/).  
 
 ## Settings 
 
 ### Connection 
 
-![Devolutions Server Connection tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6023.png) 
+![{{ en.DVLS }} Connection tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6023.png) 
 
 <table>
 	<tr>
@@ -112,11 +112,11 @@ Always ask for the password when connecting to the data source.
 
 ### Settings 
 
-![Devolutions Server - Settings tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6024.png) 
+![{{ en.DVLS }} – Settings tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6024.png) 
 
 ### Advanced 
 
-![Devolutions Server - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6025.png) 
+![{{ en.DVLS }} – Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6025.png) 
 
 <table>
 	<tr>
@@ -187,14 +187,14 @@ Select your remote tools access mode between:
 Manage Cache 
 		</td>
 		<td>
-Manage your cache on your computer to analyse, vacuum, repair or delete it. This can be very helpful when experiencing offline issues. For more information please follow this [link](Manage-Cache) . 
+Manage your cache on your computer to analyse, vacuum, repair or delete it. This can be very helpful when experiencing offline issues. For more information please follow this [link](Manage-Cache). 
 		</td>
 	</tr>
 </table>
 
 ### {{ en.UVLT }} 
 
-![Devolutions Server - User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6026.png) 
+![{{ en.DVLS }} – {{ en.UVLT }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6026.png) 
 
 <table>
 	<tr>

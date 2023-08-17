@@ -32,7 +32,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-1. {{ en.NPANE }} 
+1. <b><i>{{ en.NPANE }}</i></b> 
 		</td>
 		<td>
 Lists search results by location and entry. 
@@ -56,11 +56,10 @@ Lists the different page titles. When an entry contains multiple documentation p
 	</tr>
 </table>
 
-It is possible to select multiple entries at once by shift-clicking or all of them with the Ctrl+A shortcut. Right-clicking one or more entries shows the same menu and options as the ***{{ en.NPANE }}*** . 
+It is possible to select multiple entries at once by shift-clicking or all of them with the Ctrl+A shortcut. Right-clicking one or more entries shows the same menu and options as the ***{{ en.NPANE }}***. 
 
 ### Other functions 
 
-The ***Select in*** ***{{ en.NPANE }}*** button, when pressed, takes you directly to the selected entry or folder in the corresponding vault's ***{{ en.NPANE }}*** .  
+The ***Select in {{ en.NPANE }}*** button, when pressed, takes you directly to the selected entry or folder in the corresponding vault's ***{{ en.NPANE }}***.  
 
 The ***Reset*** button clears all your search results and options, giving you a clean slate for a new search. 
-

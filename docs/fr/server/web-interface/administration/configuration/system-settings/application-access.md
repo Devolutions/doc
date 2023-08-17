@@ -21,7 +21,7 @@ Description
 Activer l'application dans les groupes d'utilisateurs 
 		</td>
 		<td>
-Activer l'accès pour les applications dans les paramètres des [groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) . 
+Activer l'accès pour les applications dans les paramètres des [groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/). 
 		</td>
 	</tr>
 	<tr>
@@ -29,7 +29,7 @@ Activer l'accès pour les applications dans les paramètres des [groupes d'utili
 Priorité 
 		</td>
 		<td>
-***Autoriser*** ou ***Refuser*** . 
+***Autoriser*** ou ***Refuser***. 
 		</td>
 	</tr>
 </table>

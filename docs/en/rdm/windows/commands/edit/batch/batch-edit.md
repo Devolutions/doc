@@ -9,10 +9,10 @@ The ***Batch Edit*** feature changes the settings of multiple entries in one ope
 
 ## Advanced Search Selection 
 
-Select multiple entries by using the usual ***Ctrl/Shift + Left-click*** , etc. For a method with a little more power, use the [***Advanced Search***](/rdm/windows/commands/view/panels/search/advanced/) feature, which allows to select multiple entries at once, based on the defined criteria. The ***Advanced Search*** is available in ***View – Advanced Search*** . If required, you can achieve similar results with the   [***Multi Vault Search***](/rdm/windows/commands/view/panels/search/multi-vault/) .  
+Select multiple entries by using the usual ***Ctrl/Shift + Left-click***, etc. For a method with a little more power, use the [***Advanced Search***](/rdm/windows/commands/view/panels/search/advanced/) feature, which allows to select multiple entries at once, based on the defined criteria. The ***Advanced Search*** is available in ***View – Advanced Search***. If required, you can achieve similar results with the [***Multi Vault Search***](/rdm/windows/commands/view/panels/search/multi-vault/).  
 ![Advanced Search](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10379.png) 
 
-Click ***Select in*** ***{{ en.NPANE }}*** to select the same entries as in the ***Advanced Search*** dialog. Then use ***Edit – Batch Edit*** to edit all the selected entries. Go to [this topic](/kb/remote-desktop-manager/how-to-articles/batch-edit-rdm/) for the steps. 
+Click ***Select in {{ en.NPANE }}*** to select the same entries as in the ***Advanced Search*** dialog. Then use ***Edit – Batch Edit*** to edit all the selected entries. Go to [this topic](/kb/remote-desktop-manager/how-to-articles/batch-edit-rdm/) for the steps. 
 
 ## Batch Edit Options 
 
@@ -23,17 +23,17 @@ You can change the ***Host*** names.
 
 ### Change Saved Credentials 
 
-You can change the ***Credential mode*** and credentials ( ***Username*** , ***Domain*** , and ***Password*** ) or reset them.  
+You can change the ***Credential mode*** and credentials (***Username***, ***Domain***, and ***Password***) or reset them.  
 ![Batch Edit – Change Saved Credentials](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2102.png) 
 
 ### Reset All Saved Credentials 
 
-You can clear all the credentials by selecting ***Yes*** .  
+You can clear all the credentials by selecting ***Yes***.  
 ![Batch Edit – Reset All Saved Credentials](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2103.png) 
 
 ### Reset All Saved Passwords 
 
-You can clear all the passwords by selecting ***Yes*** .  
+You can clear all the passwords by selecting ***Yes***.  
 ![Batch Edit – Reset All Saved Passwords](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2104.png) 
 
 ### Edit Entries (General Settings) 

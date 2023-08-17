@@ -17,5 +17,5 @@ Please consult Display Mode for more information on available settings and their
 
 ### Credential 
 
-For more information on Override credentials follow this [link](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/) . 
+For more information on Override credentials follow this [link](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/override-credentials/). 
 

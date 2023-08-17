@@ -2,8 +2,8 @@
 title: Avancée
 order: 20
 ---
-La section ***Avancée*** permet à l'administrateur de configurer le paramètre de la   ***durée de vie du jeton ainsi que d'autres paramètres avancés ou la*** ***Personnalisations des Logos*** .  
-![Administration - Paramètres de {{ fr.DVLS }} - Avancée](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8044.png) 
+La section ***Avancée*** permet à l'administrateur de configurer le paramètre de la durée de vie du jeton ainsi que d'autres paramètres avancés ou la ***Personnalisations des Logos***.  
+![Administration – Paramètres de {{ fr.DVLS }} – Avancée](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8044.png) 
 
 ## Paramètres 
 
@@ -19,10 +19,10 @@ Description
 	</tr>
 	<tr>
 		<td>
-Actuailser la durée du jeton (minutes) 
+Actualiser la durée du jeton (minutes) 
 		</td>
 		<td>
-C'est la durée du jeton. À l'expiration du jeton, l'utilisateur doit à nouveau s'authentifier sur l'instance {{ fr.DVLS }} . Sur modification de ce paramètre, l'instance {{ fr.DVLS }} doit être redémarrée avec le bouton Arrêter le serveur/Démarrer le serveur depuis la console. 
+C'est la durée du jeton. À l'expiration du jeton, l'utilisateur doit à nouveau s'authentifier sur l'instance {{ fr.DVLS }}. Sur modification de ce paramètre, l'instance {{ fr.DVLS }} doit être redémarrée avec le bouton ***Arrêter le serveur/Démarrer le serveur*** depuis la {{ fr.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>
@@ -30,7 +30,7 @@ C'est la durée du jeton. À l'expiration du jeton, l'utilisateur doit à nouvea
 Déconnecter automatiquement les utilisateurs inactifs après (minutes) 
 		</td>
 		<td>
-Saisir le délai de déconnexion de l'utilisateur du serveur s'il est inactif. Ce paramètre s'applique qu'aux sessions web ou sessions depuis [{{ fr.DWL }}](/fr/server/dwl/overview/) . Sur modification de ce paramètre, l'instance {{ fr.DVLS }} doit être redémarrée avec le bouton Arrêter le serveur/Démarrer le serveur depuis la console. 
+Saisir le délai de déconnexion de l'utilisateur du serveur s'il est inactif. Ce paramètre s'applique qu'aux sessions web ou sessions depuis [{{ fr.DWL }}](/fr/server/dwl/overview/). Sur modification de ce paramètre, l'instance {{ fr.DVLS }} doit être redémarrée avec le bouton ***Arrêter le serveur/Démarrer le serveur*** depuis la {{ fr.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>
@@ -46,7 +46,7 @@ Sélectionner le type de licence. La valeur par défaut est la ***Gestion des co
 Lancer une connexion avec 
 		</td>
 		<td>
-Définit l'application qui ouvre les connexions à distance: {{ fr.RDM }} ou {{ fr.DLAUNCHER }}. La valeur par défaut fait référence à {{ fr.LAUNCHER }}. 
+Définit l'application qui ouvre les connexions à distance : {{ fr.RDM }} ou {{ fr.DLAUNCHER }}. La valeur par défaut fait référence à {{ fr.DLAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>
@@ -54,7 +54,7 @@ Définit l'application qui ouvre les connexions à distance: {{ fr.RDM }} ou {{ 
 Logo du serveur (Grand)/Logo du serveur (Petit) 
 		</td>
 		<td>
-Pour plus d'information voir [Personnalisations des Logos](/fr/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/) . 
+Pour plus d'information voir [Personnalisations des Logos](/fr/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/). 
 		</td>
 	</tr>
 </table>

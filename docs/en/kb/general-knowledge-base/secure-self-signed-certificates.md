@@ -88,7 +88,7 @@ These steps are usually performed on each server or device for which you intend 
 ### Client certificate
 <a name="client"></a>
 
-Follow the same procedure as for the [Server]( above, but you must adapt two attributes of the information you enter to your needs, namely the Common Name and the Email Address
+Follow the same procedure as for the Server above, but you must adapt two attributes of the information you enter to your needs, namely the Common Name and the Email Address
 
 `Common Name (e.g. server FQDN or YOUR name) []:John Doe`  
 `Email Address []:JohnDoe@acme.com`  

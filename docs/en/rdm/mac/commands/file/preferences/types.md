@@ -100,7 +100,7 @@ You can then choose the preferred monitor to display on:
 
 * Primary monitor: This is the monitor that is marked as main display in Windows 
 * Secondary monitor: The other non-primary monitor, osbolete, use Monitor 1, 2, 3 or 4 instead 
-* Current monitor: The monitor that Remote Desktop Manager is running in 
+* Current monitor: The monitor that {{ en.RDM }} is running in 
 * Configured: See Systems Options 
 * Default: Will not move the application, it will be Windows default mode 
 * Monitor 1: Monitor 1 is primary 

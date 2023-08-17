@@ -26,7 +26,7 @@ Under ***Administration – System Settings – Applications – Security – Fo
 Under ***Administration – System Settings – Security Settings – Security – Force data source 2-factor configuration***  
 ![!!KB4908.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4908.png)
 
-## Prompt MFA before going offline / Offline Mode
+## Prompt MFA before going offline/Offline Mode
 Under ***Administration – System Settings – Cache/Offline – Prompt for MFA before going offline***  
 
 

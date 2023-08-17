@@ -268,11 +268,11 @@ Activer le chiffrement DPAPI sur les fichiers locaux
 		</td>
 		<td>
 
-Chiffre les fichiers de configuration {{ en.RDM }} sur le poste de travail en utilisant les capacités de chiffrement natives de Windows (DPAPI - Data Protection API). Cela permet de renforcer la sécurité des informations sensibles contenues dans ces fichiers (telles que les informations de connexion aux sources de données).  
+Chiffre les fichiers de configuration {{ fr.RDM }} sur le poste de travail en utilisant les capacités de chiffrement natives de Windows (DPAPI - Data Protection API). Cela permet de renforcer la sécurité des informations sensibles contenues dans ces fichiers (telles que les informations de connexion aux sources de données).  
 
 DPAPI est un outil de chiffrement supplémentaire robuste géré par le système d'exploitation qui garantit que les fichiers de configuration contenant des informations sensibles et les fichiers de cache hors ligne ne peuvent être déchiffrés que sur votre propre machine. L'activation de DPAPI et de la sécurité hors ligne chiffrera les fichiers deux fois puisque DPAPI est une étape de chiffrement séparée.  
 
-La fonction est désactivée par défaut, car dans certaines conditions rares (indépendantes de la volonté de Remote Desktop Manager), les données déchiffrées par DPAPI peuvent être irrécupérables, empêchant ainsi le démarrage de Remote Desktop Manager.
+La fonction est désactivée par défaut, car dans certaines conditions rares (indépendantes de la volonté de {{ fr.RDM }}), les données déchiffrées par DPAPI peuvent être irrécupérables, empêchant ainsi le démarrage de {{ fr.RDM }}.
 		</td>
 	</tr>
 	<tr>

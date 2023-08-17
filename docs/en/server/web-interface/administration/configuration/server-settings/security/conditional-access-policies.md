@@ -8,7 +8,7 @@ eleventyComputed:
 
 ***Conditional Access Policies*** generally consider various factors to assess whether to allow or deny access to a specific resource or service. By implementing them, organizations can effectively enforce security measures that align with their unique needs and requirements.
 
-1. To view Devolutions Server's ***Conditional Access Policies*** in the web interface, go to ***Administration – Configuration– Server Settings***.
+1. To view {{ en.DVLS }}'s ***Conditional Access Policies*** in the web interface, go to ***Administration – Configuration– Server Settings***.
 
 ![Administration – Configuration – Server Settings](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6004.png)  
 
@@ -34,7 +34,7 @@ eleventyComputed:
 
 ![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6015.png) 
 
-4. Choose from the drop-down menu whether the rule applies to :
+4. Choose from the drop-down menu whether the rule applies to:
   * ***Authentication type***
   * ***Time***
   * ***IP Addresses***
@@ -109,7 +109,7 @@ The currently supported multi-factor authenticators are Authenticator (TOTP), Yu
 
 ![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6015.png) 
 
-11. Choose from the drop-down menu whether the rule applies to :
+11. Choose from the drop-down menu whether the rule applies to:
   * ***Authentication type***
   * ***Time***
   * ***IP Addresses***

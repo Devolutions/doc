@@ -1,7 +1,7 @@
 ---
 title: Templates
 ---
-Templates are available from the menu File - Templates .  
+Templates are available from the menu ***File - Templates***.  
 ![File - Templates](https://webdevolutions.azureedge.net/docs/en/rdm/mac/cli4035.png) 
 
 This allows you to create predefined configuration such as:  

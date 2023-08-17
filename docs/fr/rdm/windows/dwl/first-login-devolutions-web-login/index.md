@@ -16,7 +16,7 @@ Suivez ces étapes pour connecter {{ fr.RDM }} à l'extension {{ fr.DWL }}. V ou
 ![Première connexion](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/Dwl4014.png) 
 1. Saisir un nom pour cette association dans la zone de texte. 
 {% snippet icon.badgeNotice %} 
-Ce nom peut être utilisé pour identifier une association particulière et pour en refuser l'accès à partir de {{ fr.RDM }} . Le nom par défaut est celui du navigateur Web qui exécute {{ fr.DWL }} . 
+Ce nom peut être utilisé pour identifier une association particulière et pour en refuser l'accès à partir de {{ fr.RDM }}. Le nom par défaut est celui du navigateur Web qui exécute {{ fr.DWL }}. 
 {% endsnippet %}
  
 ![Associer avec {{ fr.RDM }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/Dwl4041.png) 

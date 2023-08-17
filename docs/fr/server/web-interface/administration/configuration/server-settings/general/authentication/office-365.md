@@ -2,10 +2,10 @@
 title: Office365
 ---
 {% snippet icon.badgeInfo %} 
-Un abonnement Microsoft Azure Active Directory est requis pour configurer l'authentification Office365 dans {{ fr.DVLS }} . Vous devez créer trois nouvelles inscriptions d'applications dans Microsoft Azure Active Directory avant de terminer les paramètres d'authentification. 
+Un abonnement Microsoft Azure Active Directory est requis pour configurer l'authentification Office365 dans {{ fr.DVLS }}. Vous devez créer trois nouvelles inscriptions d'applications dans Microsoft Azure Active Directory avant de terminer les paramètres d'authentification. 
 {% endsnippet %}
  
-L'onglet ***Office365*** permet à {{ fr.DVLS }} d'authentifier les utilisateurs à l'aide de l' ***authentification Office365*** . Tous les champs sont obligatoires .  
+L'onglet ***Office365*** permet à {{ fr.DVLS }} d'authentifier les utilisateurs à l'aide de l'***authentification Office365***. Tous les champs sont obligatoires.  
 
 ![Authentification - Office365](https://webdevolutions.azureedge.net/docs/fr/server/AuthenticationOffice365.png) 
 

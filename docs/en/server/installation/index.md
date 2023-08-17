@@ -12,15 +12,15 @@ A {{ en.DVLS }} instance is actually a web application. This allows for exposing
 The recommended [Topology](/server/overview/topologies/) is the use of two servers: a Database server and a Web server. For smaller installations, a single server can be used, but resources will be shared between the two user groups, thereby affecting performance.  
 
 {% snippet icon.badgeInfo %} 
-The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is available on the [Devolutions download page](https://server.devolutions.net/home/download) . 
+The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is available on the [Devolutions download page](https://server.devolutions.net/home/download). 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Please ensure before starting the installation that you have .NET 4.8 installed on your machine. Available to download from this Microsoft link: [.NET Framework 4.8 Offline Installer](https://api.devolutions.net/redirection/a2ad328a-b3a3-4e04-977a-a3e8681f00dc) . 
+Please ensure before starting the installation that you have .NET 4.8 installed on your machine. Available to download from this Microsoft link: [.NET Framework 4.8 Offline Installer](https://api.devolutions.net/redirection/a2ad328a-b3a3-4e04-977a-a3e8681f00dc). 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
-It is highly recommended to enable SSL Encryption in order to protect communication with the instance of the SQL Server. Please follow the instructions from Microsoft on [How to enable SSL encryption](http://support.microsoft.com/kb/316898) . Note that we recommend this be done after the initial setup is complete. 
+It is highly recommended to enable SSL Encryption in order to protect communication with the instance of the SQL Server. Please follow the instructions from Microsoft on [How to enable SSL encryption](http://support.microsoft.com/kb/316898). Note that we recommend this be done after the initial setup is complete. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

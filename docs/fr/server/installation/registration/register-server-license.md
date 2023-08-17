@@ -9,7 +9,7 @@ Il existe deux méthodes pour enregistrer votre licence ***{{ fr.DVLS }}*** : av
 ## {{ fr.DVLSCONSOLE }} 
 
 Dans la {{ fr.DVLSCONSOLE }}, enregistrer la licence {{ fr.DVLS }} dans ***Serveur – Modifier – Général – Licence***.  
-![Licence {{ fr.DVLS }} dans la console](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2054.png) 
+![Licence {{ fr.DVLS }} dans la {{ fr.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2054.png) 
 
 ## Interface Web de {{ fr.DVLS }} 
 

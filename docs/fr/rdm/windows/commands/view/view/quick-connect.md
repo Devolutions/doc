@@ -1,16 +1,16 @@
 ---
 title: Connexion rapide
 ---
-La ***Connexion rapide*** vous permet d'ouvrir une session ad hoc en spécifiant l'hôte et le type de session. Cette fonctionnalité est accessible via la barre d'outils ***Connexion rapide*** ou dans la section ***Affichage*** de l'onglet ***Affichage*** dans {{ fr.RDM }} .  
+La ***Connexion rapide*** vous permet d'ouvrir une session ad hoc en spécifiant l'hôte et le type de session. Cette fonctionnalité est accessible via la barre d'outils ***Connexion rapide*** ou dans la section ***Affichage*** de l'onglet ***Affichage*** dans {{ fr.RDM }}.  
 ![Connexion rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2023.png) 
 
 ### Paramètres 
 
 {% snippet icon.badgeInfo %} 
-Notez que la barre d'outils ***Connexion rapide*** vous laisse spécifier uniquement un hôte, un ordinateur et un type de session. Pour avoir accès aux autres options disponibles dans la version fenêtrée, il faut utiliser l'icône ***Connexion rapide*** qui se trouve dans la section ***Affichage*** de l'onglet ***Affichage*** . 
+Notez que la barre d'outils ***Connexion rapide*** vous laisse spécifier uniquement un hôte, un ordinateur et un type de session. Pour avoir accès aux autres options disponibles dans la version fenêtrée, il faut utiliser l'icône ***Connexion rapide*** qui se trouve dans la section ***Affichage*** de l'onglet ***Affichage***. 
 {% endsnippet %}
  
-Lors de l'ouverture de la ***Connexion rapide*** via l'onglet ***Affichage*** , une fenêtre apparaît dans laquelle il est possible de spécifier un ***Hôte*** , un ***Nom d'utilisateur*** , un ***Mot de passe*** et un ***Domaine*** .  
+Lors de l'ouverture de la ***Connexion rapide*** via l'onglet ***Affichage***, une fenêtre apparaît dans laquelle il est possible de spécifier un ***Hôte***, un ***Nom d'utilisateur***, un ***Mot de passe*** et un ***Domaine***.  
 ![Fenêtre de connexion rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2024.png) 
 
 Cliquer sur le premier bouton à droite du champ ***Hôte*** ouvre une nouvelle fenêtre dans laquelle vous pouvez choisir un ordinateur auquel se connecter dans la liste.  

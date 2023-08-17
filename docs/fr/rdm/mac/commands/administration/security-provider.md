@@ -1,10 +1,10 @@
 ---
 title: Fournisseur de sécurité
 ---
-Le fournisseur de sécurité est disponible dans ***Administration - Fournisseur de sécurité*** . Le fournisseur de sécurité est responsable du cryptage des données dans la base de données.  
+Le fournisseur de sécurité est disponible dans ***Administration - Fournisseur de sécurité***. Le fournisseur de sécurité est responsable du cryptage des données dans la base de données.  
 
 {% snippet icon.badgeInfo %} 
-Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

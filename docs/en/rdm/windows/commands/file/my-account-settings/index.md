@@ -1,7 +1,7 @@
 ---
 title: My Account Settings
 ---
-Use ***File – My Account Settings*** to configure accounts that connect to different web platforms. Set up account settings one time and use it in entries as many time as required. This section also allows to manage   ***Personal Credentials*** , ***Personal Private Key*** and ***Specific Settings*** lists. 
+Use ***File – My Account Settings*** to configure accounts that connect to different web platforms. Set up account settings one time and use it in entries as many time as required. This section also allows to manage ***Personal Credentials***, ***Personal Private Key***, and ***Specific Settings*** lists. 
 
 ## Settings 
 
@@ -64,7 +64,7 @@ Configure a personal private key for further use in sessions.
 User Specific Settings List 
 		</td>
 		<td>
-Provide a list of all the [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) configured in {{ en.RDM }} . 
+Provide a list of all the [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) configured in {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -72,7 +72,7 @@ Provide a list of all the [User Specific Settings](/rdm/windows/commands/edit/se
 Local Specific Settings list 
 		</td>
 		<td>
-Provide a list of all the [Local Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) configured in {{ en.RDM }} . 
+Provide a list of all the [Local Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) configured in {{ en.RDM }}. 
 		</td>
 	</tr>
 </table>

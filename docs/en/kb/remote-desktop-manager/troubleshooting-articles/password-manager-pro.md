@@ -10,13 +10,13 @@ The Host Name configured in your API user in Password Manager Pro is not the sam
 ### SYSTEM.NET.WEBEXCEPTION: THE REQUEST WAS ABORTED: COULD NOT CREATE SSL/TLS SECURE CHANNEL.
 Password Manager Pro can be configured to use SSLv3, TLSv1.0, TLSv1.1 and TLSv1.2. If you have configured your Password Manager Pro server to use TLSv1.2 only, you will encounter this error message. You need to configure your Password Manager Pro to accept TLSv1.0, TLSv1.1 and TLSv1.2.
 ### API KEY RECEIVED IS NOT ASSOCIATED TO ANY USER. AUTHENTICATION FAILED.
-Edit your API user in Password Manager Pro and generate a new ***Authentication Token*** , save your API user and save this new token in {{ en.RDM }} in ***File – My Account Settings – Password Manager Pro***
+Edit your API user in Password Manager Pro and generate a new ***Authentication Token***, save your API user and save this new token in {{ en.RDM }} in ***File – My Account Settings – Password Manager Pro***
 ### USER IS NOT ALLOWED TO ACCESS FROM THIS HOST.
 During the creation of an API User in Password Manager Pro, a ***Host*** (Computer name) is necessary to create the user. In Password Manager Pro it may be registered using the ***Fully Qualified Domain Name (FQDN)*** of the computer. In {{ en.RDM }} on the other hand, you must set it exactly the same as the %COMPUTERNAME% environment variable.  
 
 Another reason for this error we have seen is that the DNS name of the server was specified, but it would work perfectly fine if you were using the IP address instead. Please test it with the procedure described below.
 ### TESTING PROCEDURE WITH POWERSHELL.
-Here is a script that you can use to test your access from a client workstation. Save the following code in a file called PMPTest.ps1. The technology used in the script is the same as is used from within {{ en.RDM }} , therefore it's the most conclusive test. If you contact Password Manager Pro support, they can provide a Java based test fixture. It is not as useful except to prove that the server basically responds to your queries.  
+Here is a script that you can use to test your access from a client workstation. Save the following code in a file called PMPTest.ps1. The technology used in the script is the same as is used from within {{ en.RDM }}, therefore it's the most conclusive test. If you contact Password Manager Pro support, they can provide a Java based test fixture. It is not as useful except to prove that the server basically responds to your queries.  
 
 ```
 [CmdletBinding()]  
@@ -31,7 +31,7 @@ Param(
 add-type @"  
 using System.Net;  
 using System.Security.Cryptography.X509Certificates;  
-public class TrustAllCertsPolicy : ICertificatePolicy {  
+public class TrustAllCertsPolicy: ICertificatePolicy {  
 public bool CheckValidationResult(  
 ServicePoint srvPoint, X509Certificate certificate,  
 WebRequest request, int certificateProblem) {  

@@ -1,11 +1,12 @@
 ---
-title: Devolutions Server
-order: 20
-description: You can consult topics for the following categories about Devolutions Server':' How-To Articles, Troubleshooting Articles and Knowledge Base
-status: Topic available in German language
+eleventyComputed:
+  title: Devolutions Server
+  order: 20
+  description: You can consult topics for the following categories about {{ en.DVLS }}':' How-To Articles, Troubleshooting Articles, and Knowledge Base
+  status: Topic available in German language
 ---
 
-![!!Devolutions Server logo]({{ locale[lang].projects.server.logo }})
+![!!{{ en.DVLS }} logo]({{ locale[lang].projects.server.logo }})
 
 You can consult topics for the following categories about {{ en.DVLS }}:
 

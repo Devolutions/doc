@@ -57,7 +57,7 @@ Cela exécutera une commande SQLite pour réduire la taille de votre cache. L'op
 Réparer 
 		</td>
 		<td>
-La réparation exécutera ces commandes SQLite différentes pour réparer un cache corrompu:  
+La réparation exécutera ces commandes SQLite différentes pour réparer un cache corrompu :  
 
 * PRAGMA integrigy_check 
 * REINDEX DatabaseInfo 
@@ -69,7 +69,7 @@ La réparation exécutera ces commandes SQLite différentes pour réparer un cac
 Supprimer 
 		</td>
 		<td>
-Cette option supprimera le fichier physique (offline.db). Veuillez noter que cela videra votre cache en mode hors ligne, vérifier toujours que votre base de données est disponible avant d'exécuter une suppression . 
+Cette option supprimera le fichier physique (offline.db). Veuillez noter que cela videra votre cache en mode hors ligne, vérifier toujours que votre base de données est disponible avant d'exécuter une suppression. 
 		</td>
 	</tr>
 </table>

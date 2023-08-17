@@ -1,5 +1,5 @@
 ---
-title: Launcher Settings
+title: Devolutions Launcher Settings
 order: 20
 ---
 ### General 
@@ -13,7 +13,7 @@ Connect to a data sources.
 
 ### My personal credentials 
 
-Add a personal credential to your {{ en.LAUNCHER }} from the ***Credential Entry*** list. 
+Add a personal credential to your {{ en.DLAUNCHER }} from the ***Credential Entry*** list. 
 
 ### Logs 
 
@@ -28,8 +28,8 @@ You can also validate the data source information and the policies applied.
 
 ### Check for Updates 
 
-Validate and download new {{ en.LAUNCHER }} versions. 
+Validate and download new {{ en.DLAUNCHER }} versions. 
 
 ### About 
 
-View {{ en.LAUNCHER }} installed version and information. 
+View {{ en.DLAUNCHER }} installed version and information. 

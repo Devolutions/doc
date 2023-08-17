@@ -1,5 +1,5 @@
 ---
-title: Action Buttons
+title: Action buttons
 ---
 The display of ***Action Buttons*** for entries will vary depending on the type of entry selected and your {{ en.DVLS }} settings. 
 

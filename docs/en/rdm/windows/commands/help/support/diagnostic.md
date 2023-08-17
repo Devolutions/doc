@@ -1,7 +1,7 @@
 ---
 title: Diagnostic
 ---
-If you encounter a problem with {{ en.RDM }} , you can run a system diagnostic, which is available in Help – Diagnostic. This could help diagnose or give a pointer to what kind of issues you might be experiencing. 
+If you encounter a problem with {{ en.RDM }}, you can run a system diagnostic, which is available in Help – Diagnostic. This could help diagnose or give a pointer to what kind of issues you might be experiencing. 
 
 ### System 
 
@@ -14,12 +14,12 @@ If you have a [{{ en.RDMJ }}](/rdm/windows/overview/the-devolutions-platform/rdm
 ![System Diagnostic – System](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10814.png) 
 
 {% snippet icon.badgeInfo %} 
-Please read the Troubleshooting topic if experiencing issues with {{ en.RDM }} , it lists error messages and could contain the fix/workaround for your problem. 
+Please read the Troubleshooting topic if experiencing issues with {{ en.RDM }}, it lists error messages and could contain the fix/workaround for your problem. 
 {% endsnippet %}
  
 ### Data Source 
 
-The   ***Data Source*** tab contains information regarding the current data source, such as the number of entries it contains, the size of your data source, the number of custom images and the offline state. 
+The ***Data Source*** tab contains information regarding the current data source, such as the number of entries it contains, the size of your data source, the number of custom images and the offline state. 
 
 {% snippet icon.badgeInfo %} 
 Too many custom images could dramatically increase the size of the data source and cause load time issue. 

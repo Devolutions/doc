@@ -1,5 +1,6 @@
 ---
 title: Documentation
+description: The Documentation feature allows to store information regarding entries.
 ---
 The ***Documentation*** feature allows to store information regarding entries.
 
@@ -8,7 +9,7 @@ This feature is also available with {{ en.DVLS }} and SQL Server data sources.
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, Hub Business and Hub Personal data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 
+The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.HUBB }} and {{ en.HUBP }} data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 
 {% endsnippet %}
 
 ### Create documentation 

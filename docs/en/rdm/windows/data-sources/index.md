@@ -2,7 +2,7 @@
 title: Data Sources
 order: 40
 ---
-The data sources are at the heart of {{ en.RDM }} . They are the container that holds entries. 
+The data sources are at the heart of {{ en.RDM }}. They are the container that holds entries. 
 
 ### Settings 
 

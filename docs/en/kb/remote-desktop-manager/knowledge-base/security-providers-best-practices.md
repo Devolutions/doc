@@ -13,9 +13,9 @@ Below is a list of available ***Security types***.
 * ***Keyfile***: Encrypts the data using the a key stored in a file installed on each workstation.
 ![Security types](https://webdevolutions.azureedge.net/docs/en/kb/KB2247.png)  
 
-To ensure secure deployment of Remote Desktop Manager with SQL Server on workstations within an organization, it is recommended that an enterprise certificate be used for data encryption. This can be achieved by implementing an Active Directory configuration or using other methods such as a Mobile Device Management (MDM) software.
+To ensure secure deployment of {{ en.RDM }} with SQL Server on workstations within an organization, it is recommended that an enterprise certificate be used for data encryption. This can be achieved by implementing an Active Directory configuration or using other methods such as a Mobile Device Management (MDM) software.
 
-However, it is important to recognize that when a certificate is exposed to multiple workstations, there is an increased risk that it will be compromised by malicious actors. To mitigate this risk, we recommend using a Devolutions Server that effectively handles encryption at rest while safeguarding the encryption key from {{ en.RDM }} users.
+However, it is important to recognize that when a certificate is exposed to multiple workstations, there is an increased risk that it will be compromised by malicious actors. To mitigate this risk, we recommend using a {{ en.DVLS }} that effectively handles encryption at rest while safeguarding the encryption key from {{ en.RDM }} users.
 
 {% snippet icon.badgeHelp %}
 For more detailed information, please refer to [Security Model and Encryption (PDF)](https://cdndevolutions.blob.core.windows.net/documents/legal/security/security-encryption-en.pdf).

@@ -5,7 +5,7 @@ title: Console Chocolatey
 [Chocolatey](https://chocolatey.org/) doit être installé sur votre ordinateur pour utiliser la console Chocolatey. 
 {% endsnippet %}
  
-La Console Chocolatey est disponible dans le menu ***Outils - Plus d'outils - Console Chocolatey*** . Il vous permet d'installer toutes les applications prises en charge de Chocolatey directement depuis {{ fr.RDM }} . 
+La Console Chocolatey est disponible dans le menu ***Outils - Plus d'outils - Console Chocolatey***. Il vous permet d'installer toutes les applications prises en charge de Chocolatey directement depuis {{ fr.RDM }}. 
 
 ## Paramètres 
 

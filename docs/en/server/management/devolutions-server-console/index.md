@@ -1,21 +1,21 @@
 ---
 title: Devolutions Server Console
 ---
-Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }} . 
+Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}. 
 
 ## Usage 
 
 {% snippet icon.badgeInfo %} 
-The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is now available on the [Download page](https://server.devolutions.net/home/download) . 
+The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is now available on the [Download page](https://server.devolutions.net/home/download). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Since {{ en.DVLS }} 2019.x, many features can only be managed from the web interface. Please see [Administration - Server Settings](/server/web-interface/administration/configuration/server-settings/) . 
+Since {{ en.DVLS }} 2019.x, many features can only be managed from the web interface. Please see [Administration - Server Settings](/server/web-interface/administration/configuration/server-settings/). 
 {% endsnippet %}
  
-The {{ en.DVLSCONSOLE }} manages the IIS metabase, it must be started with elevated privileges when the console needs to be used. Elevated privileges are granted when you use ***Run as administrator*** to launch the application. You can modify the shortcut to always start it in this manner.  
+The {{ en.DVLSCONSOLE }} manages the IIS metabase, it must be started with elevated privileges when the {{ en.DVLSCONSOLE }} needs to be used. Elevated privileges are granted when you use ***Run as administrator*** to launch the application. You can modify the shortcut to always start it in this manner.  
 
-## Console 
+## {{ en.DVLSCONSOLE }}
 
 ![{{ en.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8005.png) 
 
@@ -39,7 +39,7 @@ Description
 Refresh 
 		</td>
 		<td>
-Refresh the list of {{ en.DVLS }} instances in the {{ en.DVLSCONSOLE }} . 
+Refresh the list of {{ en.DVLS }} instances in the {{ en.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>
@@ -219,7 +219,7 @@ Browse the folder where the recording files are stored.
 <table>
 	<tr>
 		<td>
-Devolutions Gateway 
+{{ en.DGW }} 
 		</td>
 		<td>
 Description 
@@ -230,7 +230,7 @@ Description
 Install 
 		</td>
 		<td>
-Install the Devolutions Gateway. 
+Install the {{ en.DGW }}. 
 		</td>
 	</tr>
 	<tr>
@@ -238,7 +238,7 @@ Install the Devolutions Gateway.
 Edit 
 		</td>
 		<td>
-Edit the Devolutions Gateway configuration. 
+Edit the {{ en.DGW }} configuration. 
 		</td>
 	</tr>
 	<tr>
@@ -246,7 +246,7 @@ Edit the Devolutions Gateway configuration.
 Update 
 		</td>
 		<td>
-Update the Devolutions Gateway. 
+Update the {{ en.DGW }}. 
 		</td>
 	</tr>
 	<tr>
@@ -254,7 +254,7 @@ Update the Devolutions Gateway.
 Uninstall 
 		</td>
 		<td>
-Uninstall the Devolutions Gateway. 
+Uninstall the {{ en.DGW }}. 
 		</td>
 	</tr>
 </table>
@@ -451,7 +451,7 @@ Run the IIS Diagnostic.
 Check For Update 
 		</td>
 		<td>
-Check for available updates for the {{ en.DVLSCONSOLE }} . 
+Check for available updates for the {{ en.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>

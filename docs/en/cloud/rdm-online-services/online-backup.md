@@ -1,8 +1,9 @@
 ---
-title: Online Backup
-description: The Online Backup allows you to backup your Devolutions Online Drive, SQLite, and XML data sources in a safe online cloud storage. 
-keywords:
-- Online Backup
+eleventyComputed:
+  title: Online Backup
+  description: The Online Backup allows you to backup your {{ en.DOD }}, SQLite, and XML data sources in a safe online cloud storage. 
+  keywords:
+  - Online Backup
 ---
 The ***{{ en.OBACK }}*** allows you to backup your {{ en.DOD }}, SQLite, and XML data sources in a safe online cloud storage. It will automatically save your sessions when you initiate a change in {{ en.RDM }}. 
 

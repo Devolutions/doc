@@ -52,7 +52,7 @@ User action in the upgrade available dialog
 	</tr>
 	<tr>
 		<td>
-Devolutions Cloud - our online services
+{{ en.DC }} - our online services
 		</td>
 		<td>
 https<area>://cloud.devolutions.net
@@ -74,7 +74,7 @@ File – {{ en.DA }}
 	</tr>
 	<tr>
 		<td>
-Devolutions Store - Upgrade/Buy Remote Desktop Manager
+Devolutions Store - Upgrade/Buy {{ en.RDM }}
 		</td>
 		<td>
 https<area>://store.devolutions.net

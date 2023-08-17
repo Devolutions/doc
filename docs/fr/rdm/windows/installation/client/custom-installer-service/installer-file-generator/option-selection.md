@@ -1,25 +1,25 @@
 ---
 title: Sélection des options
 ---
-Lors de la génération du fichier d'installation, vous devez décider quoi inclure dans la configuration. Ce processus répliquera la configuration de l'instance de {{ fr.RDM }} présentement utilisée et générera un fichier d'installation (.rdi). Une fois qu'il a été généré, le fichier d'installation peut être utilisé autant de fois que nécessaire pour créer des d'installations personnalisées. Pour des raisons de sécurité, certains paramètres pouvant contenir des identifiants, tels que les ***Modèles enregistrés*** , sont désactivés par défaut. Activez-les basé sur votre niveau de risques.  
+Lors de la génération du fichier d'installation, vous devez décider quoi inclure dans la configuration. Ce processus répliquera la configuration de l'instance de {{ fr.RDM }} présentement utilisée et générera un fichier d'installation (.rdi). Une fois qu'il a été généré, le fichier d'installation peut être utilisé autant de fois que nécessaire pour créer des d'installations personnalisées. Pour des raisons de sécurité, certains paramètres pouvant contenir des identifiants, tels que les ***Modèles enregistrés***, sont désactivés par défaut. Activez-les basé sur votre niveau de risques.  
 
 {% snippet icon.shieldWarning %} 
 La même boîte de dialogue est utilisée pour le {{ fr.CIS }} et pour l'exportation du fichier de configuration de {{ fr.RDM }}. Certaines options NE doivent PAS être utilisées pour le {{ fr.CIS }} pour prévenir le partage d'identifiants qui doivent rester confidentiels. Veuillez lire la documentation attentivement. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-{{ fr.RDM }} peut installer automatiquement des modules complémentaires requis lorsqu'il détecte qu'ils sont nécessaires (configuré dans ***Fichier – Options – Chemins*** ). Si vous devez personnaliser le chemin d'installation de l'application d'un module complémentaire, vous devez d'abord effectuer la modification, puis créer le paquet d'installation. Ce paramètre sera répliqué dans le fichier d'installation (*.rdi). 
+{{ fr.RDM }} peut installer automatiquement des modules complémentaires requis lorsqu'il détecte qu'ils sont nécessaires (configuré dans ***Fichier – Options – Chemins***). Si vous devez personnaliser le chemin d'installation de l'application d'un module complémentaire, vous devez d'abord effectuer la modification, puis créer le paquet d'installation. Ce paramètre sera répliqué dans le fichier d'installation (*.rdi). 
 {% endsnippet %}
  
 ## Options 
 
-Vous pouvez ouvrir le ***Générateur de fichier d'installateur*** à partir de ***Fichier –*** ***{{ fr.DA }}*** ***– Générateur de fichier de configuration*** . Cette fenêtre est aussi accessible lors de la création d'un paquet d'installation dans ***Fichier –*** ***{{ fr.DA }}*** ***– {{ fr.CIM }}*** .  
+Vous pouvez ouvrir le ***Générateur de fichier d'installateur*** à partir de ***Fichier – {{ fr.DA }} – Générateur de fichier de configuration***. Cette fenêtre est aussi accessible lors de la création d'un paquet d'installation dans ***Fichier – {{ fr.DA }} – {{ fr.CIM }}***.  
 ![Générateur de fichier d'installateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11249.png) 
 
 ### Divers 
 
 {% snippet icon.shieldWarning %} 
-Ne redistribuez pas les ***Identifiants du*** ***{{ fr.DA }}*** . Cela les partagerait avec tous les utilisateurs ayant accès au compte en ligne utilisé pour créer le paquet d'installation. 
+Ne redistribuez pas les ***Identifiants du {{ fr.DA }}***. Cela les partagerait avec tous les utilisateurs ayant accès au compte en ligne utilisé pour créer le paquet d'installation. 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
@@ -97,12 +97,12 @@ Permettra à l'administrateur de forcer les utilisateurs à utiliser ce nouveau 
 </table>
 
 {% snippet icon.badgeInfo %} 
-Depuis la version 2022.3 de {{ fr.RDM }} , les informations d'enregistrement de la licence sont stockées dans la source de données, ce qui signifie qu'elles ne peuvent plus être incluses dans un programme d'installation personnalisé. Suivez ce [guide étape par étape](/fr/rdm/windows/installation/client/registration/team-edition/) pour ajouter votre numéro de licence et l'attribuer à vos utilisateurs à partir d'une [source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
+Depuis la version 2022.3 de {{ fr.RDM }}, les informations d'enregistrement de la licence sont stockées dans la source de données, ce qui signifie qu'elles ne peuvent plus être incluses dans un programme d'installation personnalisé. Suivez ce [guide étape par étape](/fr/rdm/windows/installation/client/registration/team-edition/) pour ajouter votre numéro de licence et l'attribuer à vos utilisateurs à partir d'une [source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 ### Sources de données 
 
-Sélectionner les sources de données qui doivent être incluses dans la configuration. Dans la colonne ***Description*** , vous verrez des détails sur chaque source de données. 
+Sélectionner les sources de données qui doivent être incluses dans la configuration. Dans la colonne ***Description***, vous verrez des détails sur chaque source de données. 
 
 {% snippet icon.shieldWarning %} 
 Vous devez uniquement partager les sources de données qui utilisent soit la Sécurité intégrée, soit une variable d'environnement pour le nom d'utilisateur. Les mots de passe pour accéder à une source de données ne doivent jamais être partagés. 

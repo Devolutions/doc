@@ -1,7 +1,7 @@
 ---
 title: Applications
 ---
-La section ***Applications*** gère la disponibilité des différentes fonctionnalités liées à l'application {{ fr.RDM }} .  
+La section ***Applications*** gère la disponibilité des différentes fonctionnalités liées à l'application {{ fr.RDM }}.  
 ![Paramètres du système - Applications](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3561.png) 
 
 <table>
@@ -38,7 +38,7 @@ DESCRIPTION
 Permettre paramètres spécifiques locaux 
 		</td>
 		<td>
-Permets l'utilisation des [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Permets l'utilisation des [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 	<tr>
@@ -67,10 +67,10 @@ Désactive la fonction de connexion rapide pour tous les utilisateurs de la sour
 	</tr>
 	<tr>
 		<td>
-Désactiver Remote Desktop Manager Agent et Jump 
+Désactiver {{ fr.RDMA }} et {{ fr.RDMJ }} 
 		</td>
 		<td>
-Désactive l'option d'activation d'une session en tant qu'{{ fr.RDMA }} ou Jump. 
+Désactive l'option d'activation d'une session en tant qu'{{ fr.RDMA }} ou {{ fr.RDMJ }}. 
 		</td>
 	</tr>
 	<tr>
@@ -167,12 +167,12 @@ Obliger un appareil Google Authenticator pour accéder à l'application lorsqu'e
 Déconnecter la source de données 
 		</td>
 		<td>
-Définir l'application à verrouiller:  
+Définir l'application à verrouiller :  
 
-* Lors de la réduction de la fenêtre: Verrouiller automatiquement l'application lorsqu'elle est réduite dans la barre des tâches. 
-* Lorsqu'inactive: Verrouiller automatiquement l'application lorsqu'elle n'est pas utilisée après un nombre de minutes déterminé. 
-* Lors du verrouillage de Windows:   Verrouiller l'application sur le verrouillage Windows. 
-* En mode veille:   Verrouiller l'application lorsqu'en veille. 
+* Lors de la réduction de la fenêtre : Verrouiller automatiquement l'application lorsqu'elle est réduite dans la barre des tâches. 
+* Lorsqu'inactive : Verrouiller automatiquement l'application lorsqu'elle n'est pas utilisée après un nombre de minutes déterminé. 
+* Lors du verrouillage de Windows : Verrouiller l'application sur le verrouillage Windows. 
+* En mode veille : Verrouiller l'application lorsqu'en veille. 
 		</td>
 	</tr>
 	<tr>
@@ -180,7 +180,7 @@ Définir l'application à verrouiller:
 Aller en mode hors ligne si disponible lors de la déconnexion 
 		</td>
 		<td>
-Va basculer Remote Desktop Manager du mode en ligne au mode hors ligne si disponible lors de la déconnexion. 
+Va basculer {{ fr.RDM }} du mode en ligne au mode hors ligne si disponible lors de la déconnexion. 
 		</td>
 	</tr>
 	<tr>

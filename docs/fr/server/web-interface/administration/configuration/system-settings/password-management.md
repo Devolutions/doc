@@ -63,7 +63,7 @@ Empêcher les utilisateurs d'enregistrer les mots de passe dans les paramètres 
 Permettre de voir les identifiants (si activé dans l'entrée) 
 		</td>
 		<td>
-Afficher les identifiants si la case "Autoriser les identifiants" est cochée dans l'entrée. 
+Afficher les identifiants si la case « Autoriser les identifiants » est cochée dans l'entrée. 
 		</td>
 	</tr>
 	<tr>
@@ -107,7 +107,7 @@ Description
 Modèle p. déf. 
 		</td>
 		<td>
-Modèle de mots de passe par défault utilisé par le système. Des modèles peuvent être créés dans [Modèles de mot de passe](/fr/server/web-interface/administration/templates/password-templates/) . 
+Modèle de mots de passe par défault utilisé par le système. Des modèles peuvent être créés dans [Modèles de mot de passe](/fr/server/web-interface/administration/templates/password-templates/). 
 		</td>
 	</tr>
 	<tr>

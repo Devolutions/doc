@@ -8,7 +8,7 @@ It is possible to [request a trial](/rdm/mac/installation/client/registration/tr
 {% endsnippet %}
  
 
-With the license stored in an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , there is no need to register {{ en.RDM }} as the license serial is retrieved directly from it. When launching the application for the first time, add the data source containing the serial.  
+With the license stored in an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), there is no need to register {{ en.RDM }} as the license serial is retrieved directly from it. When launching the application for the first time, add the data source containing the serial.  
 
 1. To add a license serial, navigate to ***Administration – Licenses***.  
 ![Administration – Licenses](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6031.png) 

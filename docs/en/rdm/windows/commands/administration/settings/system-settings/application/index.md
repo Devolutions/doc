@@ -38,7 +38,7 @@ DESCRIPTION
 Allow local Specific Settings 
 		</td>
 		<td>
-Allow users to save [Local Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) . 
+Allow users to save [Local Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 	<tr>
@@ -67,7 +67,7 @@ Disable the Quick Connect feature for all users of the data source.
 	</tr>
 	<tr>
 		<td>
-Disable Remote Desktop Manager Agent and Jump 
+Disable  {{ en.RDMA }} and Jump 
 		</td>
 		<td>
 Disable the option to activate a session as a {{ en.RDMA }} or Jump. 
@@ -170,10 +170,10 @@ Disconnect data source
 		<td>
 Set the application to lock:  
 
-* ***On Minimize*** : l ock application when minimized in the taskbar for all users of the data source. 
-* ***On Idle*** : a utomatically lock the application when it is not used after a determined amount of time. 
-* ***On Windows lock*** : l ock the application on Windows lock. 
-* ***On standby*** : l ock the application when on standby. 
+* ***On Minimize***: l ock application when minimized in the taskbar for all users of the data source. 
+* ***On Idle***: a utomatically lock the application when it is not used after a determined amount of time. 
+* ***On Windows lock***: l ock the application on Windows lock. 
+* ***On standby***: l ock the application when on standby. 
 		</td>
 	</tr>
 	<tr>
@@ -181,7 +181,7 @@ Set the application to lock:
 Go into offline mode if available when disconnecting 
 		</td>
 		<td>
-Will switch Remote Desktop Manager from online to offline mode if available when disconnecting. 
+Will switch {{ en.RDM }} from online to offline mode if available when disconnecting. 
 		</td>
 	</tr>
 	<tr>

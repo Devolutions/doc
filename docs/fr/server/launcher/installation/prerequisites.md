@@ -1,5 +1,5 @@
 ---
-title: Logiciels prérequis
+title: Prérequis
 order: 10
 ---
 ## {{ fr.DLAUNCHER }} configuration minimale 
@@ -12,7 +12,6 @@ La plupart des navigateurs Web sont compatibles ainsi qu'Internet Explorer 11 ou
 
 * Windows 8 ou plus récent 
 * Microsoft .NET Framework 4.8 
-* Puissance de processeur: 1GHz ou plus rapide 
-* Mémoire vive: 2Go 
-* Espace de disque dur: 100Mo 
-
+* Puissance de processeur : 1 GHz ou plus rapide 
+* Mémoire vive : 2 Go 
+* Espace de disque dur : 100 Mo 

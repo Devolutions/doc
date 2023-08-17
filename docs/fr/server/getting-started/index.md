@@ -6,9 +6,9 @@ order: 10
 Cette section couvre {{ fr.DVLS }} édition Entreprise. Si vous avez acheté une licence de {{ fr.DVLS }} édition Team, veuillez consulter la section [Introduction à l'édition Team](/fr/server/getting-started/team-edition/). 
 {% endsnippet %}
  
-Après avoir complété l'achat de {{ fr.DVLS }} édition Entreprise, un courriel contenant trois clés de licence vous sera envoyé. Chaque licence donne le droit de créer une instance de {{ fr.DVLS }} . Dans ce cas-ci, une instance est un serveur applicatif utilisé par nos applications clientes. C'est en sorte de base de données spécialisée pour vos données. Toutes les instances peuvent être installées sur le même serveur physique ou réparties sur plusieurs serveurs.  
+Après avoir complété l'achat de {{ fr.DVLS }} édition Entreprise, un courriel contenant trois clés de licence vous sera envoyé. Chaque licence donne le droit de créer une instance de {{ fr.DVLS }}. Dans ce cas-ci, une instance est un serveur applicatif utilisé par nos applications clientes. C'est en sorte de base de données spécialisée pour vos données. Toutes les instances peuvent être installées sur le même serveur physique ou réparties sur plusieurs serveurs.  
 
-{{ fr.DVLS }} peut être installé selon différentes [topologies](/fr/server/overview/topologies/) .  
+{{ fr.DVLS }} peut être installé selon différentes [topologies](/fr/server/overview/topologies/).  
 
 ## Configuration requise du domaine 
 
@@ -21,7 +21,7 @@ Ces exigences sont requises seulement si vous avez l'intention d'utiliser la cr�
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiques : Remote Desktop Manager Admins, Remote Desktop Manager Operators, Remote Desktop Manager Users . 
+Créer des groupes d'Active Directory pour gérer votre instance. Exemples typiques : {{ fr.RDM }} Admins, {{ fr.RDM }} Operators, {{ fr.RDM }} Users. 
 		</td>
 	</tr>
 	<tr>
@@ -69,7 +69,7 @@ Microsoft .NET Framework 4.8.
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Si vous avez l'intention d'héberger la solution sur un seul serveur, installer Microsoft SQL Server (voir les sections [Instance de la base de données](/fr/server/installation/database-instance/) et [Topologies](/fr/server/overview/topologies/) ). 
+Si vous avez l'intention d'héberger la solution sur un seul serveur, installer Microsoft SQL Server (voir les sections [Instance de la base de données](/fr/server/installation/database-instance/) et [Topologies](/fr/server/overview/topologies/)). 
 		</td>
 	</tr>
 	<tr>
@@ -77,7 +77,7 @@ Si vous avez l'intention d'héberger la solution sur un seul serveur, installer 
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Microsoft pour plus d'information: [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules) ). 
+Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Microsoft pour plus d'information : [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules)). 
 		</td>
 	</tr>
 </table>
@@ -91,7 +91,7 @@ Internet Information Services (IIS) 7.0 ou plus récent (visiter cette page Micr
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer une instance de {{ fr.DVLS }} (voir [Créer une instance de {{ fr.DVLS }}](/server/installation/create-server-instance/) ). 
+Créer une instance de {{ fr.DVLS }} (voir [Créer une instance de {{ fr.DVLS }}](/server/installation/create-server-instance/)). 
 		</td>
 	</tr>
 	<tr>
@@ -99,7 +99,7 @@ Créer une instance de {{ fr.DVLS }} (voir [Créer une instance de {{ fr.DVLS }}
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer un compte administrateur de {{ fr.DVLS }} avec [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/) . 
+Créer un compte administrateur de {{ fr.DVLS }} avec [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/). 
 		</td>
 	</tr>
 	<tr>
@@ -107,7 +107,7 @@ Créer un compte administrateur de {{ fr.DVLS }} avec [Gestion des utilisateurs]
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Créer des [Groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/) . 
+Créer des [Groupes d'utilisateurs](/fr/server/web-interface/administration/security-management/user-groups/). 
 		</td>
 	</tr>
 	<tr>
@@ -115,7 +115,7 @@ Créer des [Groupes d'utilisateurs](/fr/server/web-interface/administration/secu
 ![!!clip10129.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10129.png) 
 		</td>
 		<td>
-Ajouter des utilisateurs du domaine ou des utilisateurs intégrés (voir la section [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/) ). 
+Ajouter des utilisateurs du domaine ou des utilisateurs intégrés (voir la section [Gestion des utilisateurs](/fr/server/web-interface/administration/security-management/users/)). 
 		</td>
 	</tr>
 </table>

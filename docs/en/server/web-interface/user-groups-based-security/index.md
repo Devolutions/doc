@@ -1,5 +1,5 @@
 ---
-title: User Groups Based Security
+title: User groups based security
 order: 50
 description: Devolutions Server user groups based security allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.  
 ---
@@ -20,11 +20,11 @@ To create user groups, navigate to ***Administration – User Groups***, then cl
 
 ![Create a User Group](https://webdevolutions.azureedge.net/docs/en/server/clip8034.png)  
 
-All settings can be left to default unless the user group contains only administrators. In this case, check the Administrator box when configuring the user group. Enter a name for the user group, then click OK . For Active Directory groups, the domain must be provided like the following.  
+All settings can be left to default unless the user group contains only administrators. In this case, check the Administrator box when configuring the user group. Enter a name for the user group, then click ***OK***. For Active Directory groups, the domain must be provided like the following.  
 
 ![Configure a User Group](https://webdevolutions.azureedge.net/docs/en/server/clip8035.png)  
 
-To assign users to the user group, click , then check the Is Member box of the respective user. With a user group created from an Active Directory group, there is no need to assign users as it is automatically managed by {{ en.DVLS }}.  
+To assign users to the user group, click, then check the Is Member box of the respective user. With a user group created from an Active Directory group, there is no need to assign users as it is automatically managed by {{ en.DVLS }}.  
 
 ![Assign a user to the User Group](https://webdevolutions.azureedge.net/docs/en/server/clip8036.png)  
 

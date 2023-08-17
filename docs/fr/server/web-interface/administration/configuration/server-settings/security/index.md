@@ -23,7 +23,7 @@ Description
 Permettre IP unique 
 		</td>
 		<td>
-Si vous souhaitez restreindre l'accès au serveur {{ fr.DVLS }} à certaines adresses IP uniquement, saisissez-les ici. Si rien n'est entré dans ce champ, toutes les adresses IP seront autorisées à se connecter au {{ fr.DVLS }} . 
+Si vous souhaitez restreindre l'accès au serveur {{ fr.DVLS }} à certaines adresses IP uniquement, saisissez-les ici. Si rien n'est entré dans ce champ, toutes les adresses IP seront autorisées à se connecter au {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>
@@ -31,7 +31,7 @@ Si vous souhaitez restreindre l'accès au serveur {{ fr.DVLS }} à certaines adr
 Permettre IP masqué 
 		</td>
 		<td>
-Si vous souhaitez restreindre l'accès à certaines adresses IP masquées uniquement (en divisant la partie hôte d'une adresse IP en un sous-réseau et une adresse d'hôte) sur {{ fr.DVLS }} , saisir ces adresses IP masquées ici. Le format CIDR n'est pas supporté, par exemple 10.10.10.0/24, veuillez utiliser : 10.10.10.0;255.255.255.0 
+Si vous souhaitez restreindre l'accès à certaines adresses IP masquées uniquement (en divisant la partie hôte d'une adresse IP en un sous-réseau et une adresse d'hôte) sur {{ fr.DVLS }}, saisir ces adresses IP masquées ici. Le format CIDR n'est pas supporté, par exemple 10.10.10.0/24, veuillez utiliser : 10.10.10.0;255.255.255.0 
 		</td>
 	</tr>
 	<tr>

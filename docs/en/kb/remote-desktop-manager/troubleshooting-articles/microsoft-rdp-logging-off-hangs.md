@@ -1,16 +1,17 @@
 ---
-title: Microsoft RDP Logging Off Hangs Remote Desktop Manager Windows
-description: The two causes are RDP plug-ins and UDP usage under certain conditions.
-keywords:
-- Hangs
-- RDP
+eleventyComputed:
+  title: Microsoft RDP logging off hangs {{ en.RDMWIN }}
+  description: The two causes are RDP plug-ins and UDP usage under certain conditions.
+  keywords:
+  - Hangs
+  - RDP
 ---
 The two causes are RDP plug-ins and UDP usage under certain conditions. 
 ## Solution for RDP plug-ins 
 Go in the ***Experience*** tab of your RDP sessions and set ***Load plug-ins in embedded mode*** to ***No***. This solution has a low impact. 
 ![Load plug-ins in embedded mode](https://webdevolutions.azureedge.net/docs/en/kb/KB4054.png) 
 ## Solution for UDP usage 
-There's an option in Remote Desktop Manager to disable UDP usage. 
+There is an option in {{ en.RDM }} to disable UDP usage. 
 1. Open {{ en.RDM }} as an administrator. 
 1. Click on ***Tools – More Tools – Local RDP/RemoteApp Manager***. 
 1. Click on ***Disable*** to disable the ***UDP Settings***. 

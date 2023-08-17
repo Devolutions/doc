@@ -66,7 +66,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-Ajouter "+" 
+Ajouter « + » 
 		</td>
 		<td>
 Permet de créer une liste personnalisée de permissions qui peut être appliqués aux permissions d'une entrée, d'un dossier ou d'un coffre en passant par la fonctionnalité <b><i>Accorder l'accès en lot</i></b>. Certains ensembles de permissions existent déjà par défaut.

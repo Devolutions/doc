@@ -1,5 +1,6 @@
 ---
-title: Citrix Infrastructure with Black Border in Remote Desktop Manager
+eleventyComputed:
+  title: Citrix infrastructure with black border in {{ en.RDM }}
 ---
 A black border appears around {{ en.RDM }} when the application is used as a published app.
 ## Solution
@@ -22,7 +23,7 @@ Otherwise, the main lines are:
 
 With the tool ***Winspector*** (run server-side) we could find out what the application ID is and which you had to use. Will look like WindowsForms10.Window.0.app.0.xxxxx  
 
-Then you need to add a key of Remote Desktop Manager in HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CITRIX\wfshell\TWI  
+Then you need to add a key of {{ en.RDM }} in HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CITRIX\wfshell\TWI  
 
 Also, String Value and DWORD (1000) are necessary.  
 

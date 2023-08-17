@@ -1,5 +1,6 @@
 ---
-title: Preventing SQL Timeouts with DVLS
+eleventyComputed:
+  title: Preventing SQL timeouts with {{ en.DVLS }}
 ---
 Managing a lot of entries in one single operation or having a high number of connected users could lead to SQL Timeout error messages with {{ en.DVLS }}
 The following modification on the database advanced parameters could help to prevent getting SQL Timeouts.
@@ -9,4 +10,4 @@ The following modification on the database advanced parameters could help to pre
 1. The last one is the ***Connection retry count*** as it will repeat each ***Connection timeout*** delay before generating an error. By setting it to 5, the {{ en.DVLS }} instance will wait 150 seconds before raising an SQL Timeout.  
 ![!!KB4157.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4157.png)  
 
-For more information about these parameters, please see [Database - Advanced Settings](/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-settings/).
+For more information about these parameters, please see [Database – Advanced Settings](/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-settings/).

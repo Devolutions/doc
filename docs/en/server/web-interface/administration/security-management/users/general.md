@@ -20,9 +20,9 @@ Authentication type
 		<td>
 Select the user's authentication type: 
 
-* ***{{ en.DVLS }}*** : create a user in {{ en.DVLS }} without creating an SQL login. 
-* ***Domain*** : authenticate using the Active Directory user account. 
-* ***Office365/Azure AD*** : authenticate using the Azure AD user account. 
+* ***{{ en.DVLS }}***: create a user in {{ en.DVLS }} without creating an SQL login. 
+* ***Domain***: authenticate using the Active Directory user account. 
+* ***Office365/Azure AD***: authenticate using the Azure AD user account. 
 		</td>
 	</tr>
 	<tr>
@@ -40,10 +40,10 @@ User type
 		<td>
 Choose the user type: 
 
-* ***Administrator*** : grant full administrative rights to the user. 
-* ***Read only user*** : grant only the ***View*** access to the user. 
-* ***Restricted user*** : select which rights to grant to the user. 
-* ***User*** : grant all basic rights to the user ( ***Add*** , ***Edit*** , ***Delete*** ). 
+* ***Administrator***: grant full administrative rights to the user. 
+* ***Read only user***: grant only the ***View*** access to the user. 
+* ***Restricted user***: select which rights to grant to the user. 
+* ***User***: grant all basic rights to the user (***Add***, ***Edit***, ***Delete***). 
 		</td>
 	</tr>
 	<tr>
@@ -53,9 +53,9 @@ User license type
 		<td>
 Select the type of the license that the user has: 
 
-* ***Default*** : Connection Management. 
-* ***Connection Management*** : for users who open remote connections. 
-* ***Password Management*** : for users who only use {{ en.DVLS }} as a password manager. 
+* ***Default***: Connection Management. 
+* ***Connection Management***: for users who open remote connections. 
+* ***Password Management***: for users who only use {{ en.DVLS }} as a password manager. 
 		</td>
 	</tr>
 	<tr>

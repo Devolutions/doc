@@ -5,7 +5,7 @@ The Administration - View deleted option allows you to view the deleted entries 
 ![Administration - View Deleted](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10447.png) 
 
 {% snippet icon.badgeInfo %} 
-This feature is only available when using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
+This feature is only available when using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
