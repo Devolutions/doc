@@ -45,7 +45,7 @@ L'écran suivant vous permet de sélectionner le domaine à interroger, après q
 Une fois la requête exécutée, les résultats sont affichés dans cette fenêtre.  
 ![!!clip10094.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10094.png) 
 
-Si vous préférez que vos sessions utilisent l'adresse IP au lieu du nom d'hôte pour se connecter aux périphériques, cocher l'option ***Résoudre l'adresse IP***. Cela nécessite que ***Résoudre l'adresse IP*** soit sélectionné dans le premier écran de l'assistant. Sélectionner les ordinateurs pour lesquels vous souhaitez créer une session et passez à la [Sélection de modèles](#sélection-de-modèles) ci-dessous. La sélection multiple est autorisée en utilisant CTRL-clic et MAJ-clic. 
+Si vous préférez que vos sessions utilisent l'adresse IP au lieu du nom d'hôte pour se connecter aux périphériques, cocher l'option ***Résoudre l'adresse IP***. Cela nécessite que ***Résoudre l'adresse IP*** soit sélectionné dans le premier écran de l'assistant. Sélectionner les ordinateurs pour lesquels vous souhaitez créer une session et passez à la [Sélection de modèles](#sélection-de-modèles) ci-dessous. La sélection multiple est autorisée en utilisant Ctrl+Clic et Maj-Clic. 
 
 ### Liste des hôtes 
 

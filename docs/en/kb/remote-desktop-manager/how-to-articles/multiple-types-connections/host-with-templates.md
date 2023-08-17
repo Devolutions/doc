@@ -16,7 +16,7 @@ A ***Host Session*** entry will let you use templates to connect to the host. It
 ![Host Session](https://webdevolutions.azureedge.net/docs/en/kb/KB2201.png)
 1. In ***General***, go to the ***Advanced*** tab and click on ***Select Templates***.
 ![General – Advanced – Select Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB4269.png)
-1. Select the template(s) to add to your host session. To select multiple templates, hold down the **Ctrl** key while making your selection.
+1. Select the template(s) to add to your host session. To select multiple templates, hold down the Ctrl key while making your selection.
 ![Select Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB2202.png)
 1. When you have completed your selection, click ***OK***. The templates will then be added to your host session.
 ![Selected Templates View](https://webdevolutions.azureedge.net/docs/en/kb/KB4270.png)

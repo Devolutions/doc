@@ -513,7 +513,7 @@ Désactiver la disposition des onglets configurée manuellement et restaure les 
 	</tr>
 	<tr>
 		<td>
-Désactiver le sélecteur de document (Ctrl + Tab) 
+Désactiver le sélecteur de document (Ctrl+Tab) 
 		</td>
 		<td>
 Lorsque l’option est décochée, elle permet de naviguer entre plusieurs onglets de connexions actifs dans le tableau de bord. 

@@ -44,15 +44,15 @@ This method covers all PAM account providers.
 ![+ button](https://webdevolutions.azureedge.net/docs/en/kb/KB0105.png)  
 1. Select the configuration to link to that account, and click ***Confirm***.  
 ![Confirm button](https://webdevolutions.azureedge.net/docs/en/kb/KB0106.png)  
-{% snippet icon.badgeInfo %}
-It is possible to select multiple configurations.
-{% endsnippet %}
+   {% snippet icon.badgeInfo %}
+   It is possible to select multiple configurations.
+   {% endsnippet %}
 
-21. Click ***OK*** to save the changes and close the window.  
+1. Click ***OK*** to save the changes and close the window.  
 ![OK button](https://webdevolutions.azureedge.net/docs/en/kb/KB0107.png)  
-{% snippet icon.badgeInfo %}
-To test if the link is successful, click on ***More*** and then ***Reset Password***. If working correctly, the newly created file will appear on the remote machine. If not, it is recommended to check the logs of the account.
-{% endsnippet %}
+   {% snippet icon.badgeInfo %}
+   To test if the link is successful, click on ***More*** and then ***Reset Password***. If working correctly, the newly created file will appear on the remote machine. If not, it is recommended to check the logs of the account.
+   {% endsnippet %}  
 
 ### Create a PowerShell template
 1. Log in to {{ en.DVLS }} with an administrator account.
@@ -63,25 +63,25 @@ To test if the link is successful, click on ***More*** and then ***Reset Passwor
 1. Click on ***Add***.  
 ![Add](https://webdevolutions.azureedge.net/docs/en/kb/KB0112.png)  
 1. In the General tab, add a ***Name*** for this template.
-{% snippet icon.badgeInfo %}
-It is possible to add a ***Description***. The icon can also be changed by clicking on it.
-{% endsnippet %}
+   {% snippet icon.badgeInfo %}
+   It is possible to add a ***Description***. The icon can also be changed by clicking on it.
+   {% endsnippet %}
 
-6. In the ***Propagation Properties*** tab, add the variables for the script by clicking on ***+ Add property***. The variables added in this tab should represent the URL to the remote machine (i.e., ComputerIP, Username, Password and RootFolder).  
+1. In the ***Propagation Properties*** tab, add the variables for the script by clicking on ***+ Add property***. The variables added in this tab should represent the URL to the remote machine (i.e., ComputerIP, Username, Password and RootFolder).  
 ![Propagation Properties](https://webdevolutions.azureedge.net/docs/en/kb/KB0113.png)  
 1. In the ***Property Mapping*** tab, add the variables for the script by clicking on ***+ Add property***. The variables added in this tab should represent the ***Field Mapping*** of the remote machine (i.e., FileName and FilePath).  
 ![Property Mapping](https://webdevolutions.azureedge.net/docs/en/kb/KB0114.png)  
 1. In the ***Script*** tab, the previous variables appear as well as the ***NewPassword*** variable. This new variable will contain the new password for the account on script execution.
 1. Click on ***Generate base script***.  
 ![Generate base script](https://webdevolutions.azureedge.net/docs/en/kb/KB0115.png)  
-{% snippet icon.badgeInfo %}
-Click on ***Edit*** to modify or add to the script.
-{% endsnippet %}
+   {% snippet icon.badgeInfo %}
+   Click on ***Edit*** to modify or add to the script.
+   {% endsnippet %}
 
-10. Click ***Save*** to save this configuration and close the window.  
-{% snippet icon.badgeInfo %}
-Learn more about custom scripts for this feature by visiting our [public GitHub](https://github.com/Devolutions/PAM-Providers/blob/master/Propagation-Scripts/Create-A-Template.md).
-{% endsnippet %}
+1. Click ***Save*** to save this configuration and close the window.  
+   {% snippet icon.badgeInfo %}
+   Learn more about custom scripts for this feature by visiting our [public GitHub](https://github.com/Devolutions/PAM-Providers/blob/master/Propagation-Scripts/Create-A-Template.md).
+   {% endsnippet %}
 
 ## Azure Directory specific propagation
 {% snippet icon.badgeNotice %}

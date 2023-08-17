@@ -61,11 +61,10 @@ Follow the next steps if you want to change the language of your {{ en.RDM }} ap
 
 {{ en.DLOCALIZER }} also features several keyboard shortcuts to speed up the translation process:  
 
-* Ctrl + D: Set the ***Status*** of the current resource to ***Translated***. 
-* Ctrl + E: Set the ***Status*** of the current resource to ***Use original***. This ignores any translation text and displays the original value as is. 
-* Ctrl + Down: Jump to the next resource. 
-* Ctrl + Up: Jump to the previous resource. 
-* Ctrl + B: Request a Bing translation for the current resource. 
-* Ctrl + S: Save all pending changes. 
-* Ctrl + F: Enable/disable filtering. 
-
+* Ctrl+D: Set the ***Status*** of the current resource to ***Translated***. 
+* Ctrl+E: Set the ***Status*** of the current resource to ***Use original***. This ignores any translation text and displays the original value as is. 
+* Ctrl+Down: Jump to the next resource. 
+* Ctrl+Up: Jump to the previous resource. 
+* Ctrl+B: Request a Bing translation for the current resource. 
+* Ctrl+S: Save all pending changes. 
+* Ctrl+F: Enable/disable filtering. 

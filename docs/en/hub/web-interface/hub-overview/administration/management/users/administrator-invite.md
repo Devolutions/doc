@@ -7,7 +7,7 @@ Administrators can invite specific users to become administrator of the {{ en.HU
 1. Click ***Add Administrator***.  
 ![!!Hub4171.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4171.png) 
 1. Type the administrator's email address. 
-1. Press ***Enter***. 
+1. Press Enter. 
 {% snippet icon.badgeInfo %} 
 This step will validate if the user has a {{ en.DA }}.  
 

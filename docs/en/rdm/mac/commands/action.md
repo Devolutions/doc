@@ -89,7 +89,7 @@ DESCRIPTION
 Send Ctrl+Alt+Delete 
 		</td>
 		<td>
-Send the key combination CTRL+ALT+DELETE to the host. 
+Send the key combination Ctrl+Alt+Delete to the host. 
 		</td>
 	</tr>
 	<tr>

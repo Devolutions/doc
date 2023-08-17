@@ -65,10 +65,10 @@ Description
 		</td>
 	</tr>
 		<td>
-Envoyer Ctrl-Alt-Suppr 
+Envoyer Ctrl+Alt+Suppr 
 		</td>
 		<td>
-Envoie la combinaison des touches CTRL-ALT-SUPPR à l'hôte. 
+Envoie la combinaison des touches Ctrl+Alt+Suppr à l'hôte. 
 		</td>
 	</tr>
 		<td>

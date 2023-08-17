@@ -21,7 +21,7 @@ Créer des entrées manuellement et enregistrer vos données dans {{ fr.HUBB }}.
 Les sous entrées sont des entrées à part entière, indépendantes, situées sous une entrée « parent » dans l'arborescence. Elles se réfèrent à leur parent par un ID. Elles sont compatibles avec les pièces jointes, la documentation, l'historique complet, etc.
 
 * Dans l'interface Web de {{ fr.DHUB }}, créez une entrée normale en suivant les instructions ci-dessus, puis glissez-déposez l'entrée sur une autre.
-* Dans {{ fr.RDM }} avec une source de données {{ fr.DHUB }}, voir [Créer une entrée (Windows)](/fr/rdm/windows/commands/edit/entries/creating-new-entry/) ou [Créer une entrée ({{ fr.MAC}})](/fr/rdm/mac/commands/edit/entries/creating-new-entry/).
+* Dans {{ fr.RDM }} avec une source de données {{ fr.DHUB }}, voir [Créer une entrée (Windows)](/fr/rdm/windows/commands/edit/entries/creating-new-entry/) ou [Créer une entrée ({{ fr.MAC }})](/fr/rdm/mac/commands/edit/entries/creating-new-entry/).
 
 {% snippet icon.badgeInfo %}
 Vous ne pouvez pas créer une sous entrée sous une autre sous entrée.

@@ -24,4 +24,4 @@ Create entries manually and save your data in {{ en.DVLS }}.
 
 Sub entries are full-fledged, independant entries located bewlow a "parent" entry in the tree view. They refer to their parent with an ID. They are compatible with attachments, documentation, full history, etc.
 
-You cannot create sub entries via the {{ en.DVLS }} web interface. You must use {{ en.RDM }} with a {{ en.DVLS }} data source. See [Create an entry (Windows)](/rdm/windows/commands/edit/entries/creating-new-entry/) or [Create an entry ({{ en.MAC}})](/rdm/mac/commands/edit/entries/creating-new-entry/).
+You cannot create sub entries via the {{ en.DVLS }} web interface. You must use {{ en.RDM }} with a {{ en.DVLS }} data source. See [Create an entry (Windows)](/rdm/windows/commands/edit/entries/creating-new-entry/) or [Create an entry ({{ en.MAC }})](/rdm/mac/commands/edit/entries/creating-new-entry/).

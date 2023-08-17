@@ -20,7 +20,7 @@ Nous vous recommandons fortement d'inviter au moins un autre administrateur. Voi
 Il est possible de coller une liste d'adresses courriel d'***Utilisateurs*** qui feront partie des mêmes [Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/). Chaque adresse courriel doit être séparée par un point-virgule (;) ou une virgule (,). 
 {% endsnippet %}
  
-4. Appuyer sur ***Entrée***. 
+4. Appuyer sur Entrée. 
 {% snippet icon.badgeInfo %} 
 Cette étape validera si l'utilisateur a un {{ fr.DA }}.  
 

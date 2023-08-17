@@ -29,9 +29,9 @@ Les options de recherche offrent la possibilité de personnaliser votre recherch
 
 ### Raccourci clavier 
 
-Utilisez le raccourci clavier ***CTRL + F*** pour accéder rapidement à Recherche/Filtre. Cela peut être désactivé dans ***Fichier - Options - Interface utilisateur - Clavier***.  
+Utilisez le raccourci clavier Ctrl+F pour accéder rapidement à Recherche/Filtre. Cela peut être désactivé dans ***Fichier - Options - Interface utilisateur - Clavier***.  
 
-Vous pouvez redéfinir le focus sur le ***{{ fr.NPANE }}*** en utilisant le raccourci clavier ***Ctrl + L***, cela peut également être désactivé dans les options. 
+Vous pouvez redéfinir le focus sur le ***{{ fr.NPANE }}*** en utilisant le raccourci clavier Ctrl+L, cela peut également être désactivé dans les options. 
 
 ## Filtre booléen 
 

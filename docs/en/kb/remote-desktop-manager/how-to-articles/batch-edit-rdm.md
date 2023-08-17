@@ -27,7 +27,7 @@ To edit the information of folders, you MUST go through the ***[Advanced Search]
 ### Manual selection 
 <a name="manual"></a>
 
-In {{ en.RDM }}, select all entries/folders manually in the ***{{ en.NPANE }}***. Use **Ctrl+Left-Click** to select them one by one or **Shift+Left-Click** to select a bunch of them at the same time. Note that by selecting a folder, you are editing the information of its child entries and not the information of the folder.
+In {{ en.RDM }}, select all entries/folders manually in the ***{{ en.NPANE }}***. Use Ctrl+Left-click to select them one by one or Shift+Left-click to select a bunch of them at the same time. Note that by selecting a folder, you are editing the information of its child entries and not the information of the folder.
 
 Proceed to the [Batch Edit Actions](#edit) section for the next steps or continue to read about the other selection methods.
 

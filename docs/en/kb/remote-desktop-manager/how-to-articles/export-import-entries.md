@@ -14,43 +14,43 @@ The first method is done directly <a href="#Export/Import Through {{ en.RDM }}">
 
 1. In {{ en.RDM }}, select your data source in the ***{{ en.NPANE }}***.
 
-{% snippet icon.badgeNotice %}
-To export the entire vault, go to ***File – Export – Export Vault (.rdm)*** and skip to <a href="#step4">step 4</a>
-{% endsnippet %}
+   {% snippet icon.badgeNotice %}
+   To export the entire vault, go to ***File – Export – Export Vault (.rdm)*** and skip to <a href="#step4">step 4</a>
+   {% endsnippet %}
 
-2. Select the entries and/or folders you wish to export. Use the **Ctrl+Click** shortcut to select multiple items at once.
+1. Select the entries and/or folders you wish to export. Use the Ctrl+Click shortcut to select multiple items at once.
 1. Right-click on the selection. In the contextual menu, select ***Export – Export Selection (.rdm)***.  
 ![Export Selection (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4998.png)
 1. <a name="step4"></a>In the ***Export Entries*** window, check the options that you want to enable. For a typical migration, check the ***Include credentials, Include attachments and documents***, and ***Encrypt with master key*** options.
 
-{% snippet icon.badgeInfo %}
-By default, credentials are **not** included. It is critical to check the ***Include credentials*** option for the exported data to include them.
-{% endsnippet %}  
-{% snippet icon.shieldWarning %}
-Specifying a master key will encrypt the entire content of the **.rdm** file to protect it. It is highly recommended as a backup measure, but the key is absolutely necessary for decryption. Store it in a separate storage device for added security.
-{% endsnippet %}  
+   {% snippet icon.badgeInfo %}
+   By default, credentials are **not** included. It is critical to check the ***Include credentials*** option for the exported data to include them.
+   {% endsnippet %}  
+   {% snippet icon.shieldWarning %}
+   Specifying a master key will encrypt the entire content of the **.rdm** file to protect it. It is highly recommended as a backup measure, but the key is absolutely necessary for decryption. Store it in a separate storage device for added security.
+   {% endsnippet %}  
 
-![Entry Export Options](https://webdevolutions.azureedge.net/docs/en/kb/KB4839.png)
+   ![Entry Export Options](https://webdevolutions.azureedge.net/docs/en/kb/KB4839.png)
 
-5. Click ***OK***.
+1. Click ***OK***.
 1. Save the **.rdm** file on your computer.
 1. In the ***{{ en.NPANE }}***, select the data source and vault in which to import the entries.
 1. Right-click on the folder and select ***Import – Import (.rdm)***.
 ![Import (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4999.png)
-{% snippet icon.badgeNotice %}
-You can import the entire vault in ***File – Import – Import (.rdm)***.
-{% endsnippet %}  
+   {% snippet icon.badgeNotice %}
+   You can import the entire vault in ***File – Import – Import (.rdm)***.
+   {% endsnippet %}  
 
-9. Locate the **.rdm** file saved on your computer and click ***Open***.
+1. Locate the **.rdm** file saved on your computer and click ***Open***.
 1. Select if you wish to ***Import in root***, ***Import in current folder***, or ***Import in specific folder***.
 ![Location of Imported Entries](https://webdevolutions.azureedge.net/docs/en/kb/KB5000.png)
 1. Click ***OK***.
 1. In the next dialog, you will be presented with a list of all the entries that are in the data file. You can select specific entries you wish to import or ***Select All*** to import all your entries.
-{% snippet icon.badgeCaution %}
-If you have users who override entry properties with ***User Specific Settings***, uncheck ***Change ID***.
-{% endsnippet %}
+   {% snippet icon.badgeCaution %}
+   If you have users who override entry properties with ***User Specific Settings***, uncheck ***Change ID***.
+   {% endsnippet %}
 
-13. Click ***OK***.
+1. Click ***OK***.
 
 ## Export/Import Using PowerShell
 
@@ -62,27 +62,28 @@ Before being able to export the entries from the data source, some preparations 
 1. Update the password in the script.
 1. Adapt the destination path in the script where the **.rdm** files will be saved.
 1. Save the PowerShell script in a **.ps1** file on the computer on which it will run.
-1. Create a scheduled task to run the script on a regular basis.
-```
-Import-Module 'C:\Program Files (x86)\Devolutions\Remote Desktop Manager\RemoteDesktopManager.PowerShellModule.psd1'
+1. Create a scheduled task to run the script on a regular basis.  
 
-$ds = Get-RDMDataSource -Name "NameOfYourDataSourceHere"
-Set-RDMCurrentDataSource $ds
+   ```
+   Import-Module 'C:\Program Files (x86)\Devolutions\Remote Desktop Manager\RemoteDesktopManager.PowerShellModule.psd1'
 
-# Update the password
-$passwd = ConvertTo-SecureString -AsPlainText -Force "YourPasswordHere"
+   $ds = Get-RDMDataSource -Name "NameOfYourDataSourceHere"
+   Set-RDMCurrentDataSource $ds
 
-$repos = Get-RDMRepository
+   # Update the password
+   $passwd = ConvertTo-SecureString -AsPlainText -Force "YourPasswordHere"
 
-foreach ($repo in $repos)
-{
-    Set-RDMCurrentRepository $repo
-    Update-RDMUI
+   $repos = Get-RDMRepository
 
-    $sessions = Get-RDMSession
-    $reponame = $repo.name
+   foreach ($repo in $repos)
+   {
+       Set-RDMCurrentRepository $repo
+       Update-RDMUI
 
-    # Adapt the destination path for the .rdm files
-    Export-RDMSession -Path "C:\temp\$reponame.rdm" -Sessions $sessions -IncludeCredentials -XML -Password $passwd
-}
-```
+       $sessions = Get-RDMSession
+       $reponame = $repo.name
+
+       # Adapt the destination path for the .rdm files
+       Export-RDMSession -Path "C:\temp\$reponame.rdm" -Sessions $sessions -IncludeCredentials -XML -Password $passwd
+   }
+   ```

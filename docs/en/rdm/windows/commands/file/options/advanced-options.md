@@ -542,7 +542,7 @@ Disable the loading of any custom images in the tree view. Too many custom image
 	</tr>
 	<tr>
 		<td>
-Disable document selector (Ctrl + Tab) 
+Disable document selector (Ctrl+Tab) 
 		</td>
 		<td>
 When left enabled, it will allow to switch from multiple open tab connections. 

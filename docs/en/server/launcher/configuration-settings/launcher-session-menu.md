@@ -1,5 +1,5 @@
 ---
-title: Devolutions Launcher Session Menu
+title: Devolutions Launcher session menu
 order: 40
 ---
 To access the {{ en.DLAUNCHER }} session menu, right click on an open session tab.  
@@ -11,7 +11,7 @@ To undock a session in {{ en.DLAUNCHER }}, right click the tab to open the selec
 A shortcut menu becomes available to manage the undock window.  
 
 ![!!ServerOp4049.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4049.png) 
-### Ctrl-Alt-Delete 
-To use the shortcut Ctrl-Alt-Delete in a session, right click on the session tab to open the selection menu. Select ***Special Commands - Send Ctrl-Alt-Delete***. 
+### Ctrl+Alt+Delete 
+To use the shortcut Ctrl+Alt+Delete in a session, right click on the session tab to open the selection menu. Select ***Special Commands - Send Ctrl+Alt+Delete***. 
 ![!!ServerOp4050.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4050.png) 
 

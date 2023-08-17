@@ -7,7 +7,7 @@ Les administrateurs peuvent inviter des utilisateurs spécifiques à devenir adm
 1. Cliquer ***Ajouter un administrateur***.  
 ![!!Hub4157.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4157.png) 
 1. Saisir l'adresse courriel de l'administrateur. 
-1. Appuyer sur ***Entrée***. 
+1. Appuyer sur Entrée. 
 {% snippet icon.badgeInfo %} 
 Cette étape vérifiera si l'utilisateur a un {{ fr.DA }}. 
 * Si oui, il liera le compte au {{ fr.HUB }}. 
@@ -17,4 +17,3 @@ Cette étape vérifiera si l'utilisateur a un {{ fr.DA }}.
 5. Cliquer ***Suivant***. 
 1. Sélectionner des ***Options*** supplémentaires. 
 1. Cliquer ***Envoyer une invitation***. 
-

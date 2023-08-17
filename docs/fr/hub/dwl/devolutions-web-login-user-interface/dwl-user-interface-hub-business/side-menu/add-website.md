@@ -542,7 +542,7 @@ Saisir une description pour la nouvelle entrée.
 		</td>
 		<td>
 
-Ajouter des mots clés (étiquettes) pour vous aider à trouver vos entrées ou pour mieux les classer. Appuyer sur la touche ***Entrée*** après avoir saisi chaque étiquette pour les séparer. 
+Ajouter des mots clés (étiquettes) pour vous aider à trouver vos entrées ou pour mieux les classer. Appuyer sur la touche Entrée après avoir saisi chaque étiquette pour les séparer. 
 		</td>
 	</tr>
 	<tr>
