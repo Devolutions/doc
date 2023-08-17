@@ -18,17 +18,29 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
 
 ### ***General*** Tab
 
-![General Tab](https://webdevolutions.azureedge.net/docs/en/kb/KB2068.png)
+![General Tab](https://webdevolutions.azureedge.net/docs/en/kb/KB2068.png)  
+3. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://<server name>.<our domain>.loc/".
 
-1. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://<server name>.<our domain>.loc/".
-1. Enter a ***Virtual directory*** if applicable. Most of the time, this field can remain empty.
-1. Select a ***Version*** in the drop-down list. This refers to the CyberArk PVWA version seen on the CyberArk authentication page.
+{% snippet icon.badgeInfo %}
+The following is what your ***Web services URL*** will be, depending on your CyberArk subscription:
+
+- ***SelfHosted*** : Short URL
+
+- ***PrivilegeCloud*** : Short URL if the URL doesn't end with "cyberark.cloud"
+
+- ***PrivilegeCloud*** /PrivilegeCloud if the URL ends with "cyberark.cloud".
+
+- ***PrivilegeCloud ISSPS*** : /privilegecloud.
+{% endsnippet %}  
+
+4. Enter a ***Virtual directory***. This field is either /privilegecloud or empty.
+5. Select a ***Version*** in the drop-down list. This refers to the CyberArk PVWA version seen on the CyberArk authentication page.
 
 {% snippet icon.badgeInfo %}
 Please note that we only support the CyberArk V12 API for now and that CyberArk version 12.1 is required.
 {% endsnippet %}  
 
-4. Select the ***Authentication mode*** used to connect to the CyberArk instance (***CyberArk***, ***Windows***, ***LDAP***, ***RADIUS***, or ***SAML***).
+6. Select the ***Authentication mode*** used to connect to the CyberArk instance (***CyberArk***, ***Windows***, ***LDAP***, ***RADIUS***, or ***SAML***).
 {% snippet icon.badgeNotice %}
 SAML authentication is supported with CyberArk since version 2022.3.25 of {{ en.RDM }}, but important improvements and bug fixes have been implemented in ulterior versions. We recommend to at least update to the 2023.1 version of {{ en.RDM }} if your current version is older. One of the improvements in version 2023.1 is that you no longer have to provide the ***IdP sign-in URL*** when configuring your SAML authentication. If you have trouble with your SAML authentication, try our [SAML Configuration and Troubleshooting](/kb/remote-desktop-manager/troubleshooting-articles/saml-configuration-troubleshooting-cyberark-dashboard/) topic.
 {% endsnippet %}
@@ -40,15 +52,15 @@ Your CyberArk Vault administrator should provide you with the authentication mod
 ![LDAP CyberArk Icon](https://webdevolutions.azureedge.net/docs/en/kb/iconldapcyberark.png)
 {% endsnippet %}
 
-5. In the ***Authentication credentials*** drop-down list, select ***Custom*** to enter your credentials below or select them using a {{ en.RDM }} mechanism. This list is not available with the ***SAML Authentication mode***.
+7. In the ***Authentication credentials*** drop-down list, select ***Custom*** to enter your credentials below or select them using a {{ en.RDM }} mechanism. This list is not available with the ***SAML Authentication mode***.
 
 {% snippet icon.badgeNotice %}
 As with all ***Dashboard*** entries in {{ en.RDM }}, if you are creating an entry that will be visible to multiple users, we recommend choosing ***My Account Settings PVWA***, then visiting ***File – My Account Settings – CyberArk PVWA*** to enter your personal CyberArk credentials.
 {% endsnippet %}
 
-6. Follow this step if you selected ***Custom*** in the ***Authentication credentials*** list. If not, skip to the <a href="#advanced-tab">***Advanced*** Tab</a> section.
+8. Follow this step if you selected ***Custom*** in the ***Authentication credentials*** list. If not, skip to the <a href="#advanced-tab">***Advanced*** Tab</a> section.
     1. Enter your ***Username*** and ***Password*** in the corresponding fields. Use the ***Password generator*** to help you create a secure password.
-    1. Check the ***Always ask password*** box to be prompted for you password each time you connect.
+    1. Check the ***Always ask password*** box to be prompted for your password each time you connect.
     1. If you have a RSA SecurID code, check the ***Append RSA SecurID code to password*** box, then select below the ***RSA SecurID source***.
 
 ### ***Advanced*** Tab
@@ -60,10 +72,11 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 ![Advanced Tab – General](https://webdevolutions.azureedge.net/docs/en/kb/KB4930.png)
 
 1. The ***Auto refresh*** option is enabled by default. It maintains the connection to your CyberArk environment and removes the need to enter 2FA credentials on every connection. It is recommended to leave it enabled.
-1. Check ***Open sessions externally*** if you do not want your sessions to open in embedded mode in {{ en.RDM }}. This is mostly useful for technologies that only support being open externally, such as PSMP (PSM-SSH) and PSM-<Custom Connectors>.
+1. Check ***Open sessions externally*** if you do not want your sessions to open in embedded mode in {{ en.RDM }}. This is mostly useful for applications that only support being open externally, such as PSMP (PSM-SSH) and PSM. It is required to connect to remote applications using PVWA connections.
 1. Check ***Allow connect to host*** if you want to allow a direct connection to the remote machine, meaning that the currently logged on user needs to have the right to view the password; it is therefore less secure and is not recommended by the CyberArk team.
 1. Check ***Ask for reason*** if you are required to have a reason to establish a connection.
-1. Check ***Ask for ticket number*** if you are required to provide a ticket number to establish a connection. The ***Ticketing system*** field that is paired with this option is a string value that makes sense in your environment. It is informative and we send it along with the number.
+1. Check ***Ask for ticket number*** if you are required to provide a ticket number to establish a connection depending of your CyberArk configuration. The ***Ticketing system*** field that is paired with this option is a string value that makes sense in your environment. It is informative and we send it along with the number.
+1. The ***Default Save*** loads your Safes. You can also check the ***Load favorites by default*** box to load your favorite safes.
 1. Set the default ***Username format*** to be able to connect to the remote machine. It can also be changed in the dashboard for ad hoc connections, but this will be the default format for this dashboard instance.
 1. Select the ***Domain search method*** in the drop-down list.
 1. The ***Domain field*** drop-down list is only relevant when the ***Username format*** is set to the ***Field*** value. Depending on how your {{ en.VLT }} was set up, there can be various CyberArk fields used to hold the domain information. Choose the value that corresponds to your {{ en.VLT }} settings.
@@ -72,7 +85,7 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 
 ![Advanced Tab – PVWA](https://webdevolutions.azureedge.net/docs/en/kb/KB4931.png)
 
-1. The ***Allow direct connections (PVWA)*** option is enabled by default. It allows the exact same action as the ***Connect*** button offers in PVWA.
+1. The ***Allow direct connections (PVWA)*** option is enabled by default and is the recommended method. It allows the exact same action as the ***Connect*** button offers in PVWA.
 1. In the ***Connection components*** box, enter the components you wish to use for your connections. We initialize the field with the default components of a vanilla CyberArk installation, but this list MUST match the components configured in your vault.
 
 #### ***PSM***
@@ -80,6 +93,14 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 ![Advanced Tab – PSM](https://webdevolutions.azureedge.net/docs/en/kb/KB4932.png)
 
 1. The ***Allow connect using PSM (alternate shell)*** option is disabled by default. Enable it if you want to allow connections via PSM, but using the legacy method of providing an alternate shell.
+
+Here are the restrictions related to PSM:  
+
+`PSM Alternate Shell PSM /u <account to use> /a <endpoint> /c <component> restrictions`
+
+- A user must connect to the PSM server via RDP and be granted permission to do so.
+- PSM has to be able to link the LDAP account with a CyberArk PVWA profile (could work with a SAML Azure AD when LDAP is cloned on Azure AD)
+- The ***account to use*** (/u) must be found without any ambiguity in the CyberArk Vault.
 
 {% snippet icon.badgeCaution %}
 This is provided as a convenience and is not recommended by the CyberArk team. It has some limitations when compared to the ***Connect*** action from PVWA which uses a limited lifetime token.
@@ -109,7 +130,7 @@ Please note that for the sake of clarity, this section will only provide informa
     * Allow or disallow the session to ***Open externally*** (not embedded in {{ en.RDM }}).
     * Refresh the content of the safe.
     * Enable or disable the ***Auto refresh***. If disabled, PSM connections may require MFA upon every connection.
-1. The content area allows you to see and interact withe the accounts within a safe or group. You can see the ***Account***, its ***Address***, its ***Platform***, and the ***Safe*** in which it is located.
+1. The content area allows you to see and interact with the accounts within a safe or group. You can see the ***Account***, its ***Address***, its ***Platform***, and the ***Safe*** in which it is located.
 
 ### Selecting a Safe
 With the safe selector, you can browse your safes and select the one you wish to use.  
