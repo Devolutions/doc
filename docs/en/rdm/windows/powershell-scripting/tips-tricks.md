@@ -1,5 +1,6 @@
 ---
 title: List of property names for PowerShell script
+status: Topic available in German language
 keywords:
 - PowerShell
 - GUID
