@@ -39,7 +39,7 @@ Export a vault in a .json file format. You can also include credentials in this 
 
 ### Export All Host List (.csv) 
 
-Export a simple host list in .csv format. You will be prompted to see if you wish the export to be slightly more detailed and include the following information: Host, Description, Display Name, Group, Security Group. 
+Export a simple host list in .csv format. You will be prompted to see if you wish the export to be slightly more detailed and include the following information: Host, Description, Display Name, Group, User Groups. 
 
 ### Export vault (.csv) 
 

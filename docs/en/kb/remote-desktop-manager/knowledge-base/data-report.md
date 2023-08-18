@@ -18,5 +18,5 @@ Specify the parameters by setting the name, type and default value of all parame
 ![!!KB4547.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4547.png)  
 Enter the query in the Query tab, which features an SQL syntax-highlighted text box with line numbers.  
 {% snippet icon.badgeInfo %}
-Ensure that your DBA sets the proper security groups, and that each specific user(s) has access to it
+Ensure that your DBA sets the proper user groups, and that each specific user(s) has access to it.
 {% endsnippet %}

@@ -27,7 +27,7 @@ For individuals only, no information can be shared with colleagues. The most pop
 Team 
 		</td>
 		<td>
-Used by teams, this edition offers permissions, security groups, advanced logging, etc. {{ en.RDM }} uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for either Cloud-Based storage or to get full Active Directory Integration. 
+Used by teams, this edition offers permissions, user groups, advanced logging, etc. {{ en.RDM }} uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for either Cloud-Based storage or to get full Active Directory Integration. 
 		</td>
 	</tr>
 </table>

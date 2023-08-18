@@ -1,6 +1,10 @@
 ---
-title: Groupes de sécurité (Ancien)
+title: Groupes de sécurité (ancien)
 ---
+{% snippet icon.badgeWarning %}
+La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
+{% endsnippet %}  
+
 La gestion des ***Groupes de sécurité (Ancien)*** est disponible dans le menu ***Administration - Groupes de sécurité (Ancien)***.  
 
 Les groupes de sécurité sont utilisés pour protéger les sessions contre un sous-ensemble d'utilisateurs du système. Attribuez des sessions aux groupes de sécurité, puis contrôlez qui a accès et quel contrôle ils ont sur chaque groupe de sécurité.  

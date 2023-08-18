@@ -44,7 +44,7 @@ Use legacy security
 		<td>
 Use the old system of managing privileges: Security groups (deprecated).  
 
-Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. To manage your users permissions, we recommend you switch from security groups to [Permissions](/rdm/windows/user-groups-based-access-control/permissions/). Once the migration is done, [Migrate from legacy security to permissions in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/) by disabling ***Use legacy security***.
+Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See <a href="/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/" target="_blank">Migrate from security groups (legacy) to user groups</a>.
 		</td>
 	</tr>
 </table>

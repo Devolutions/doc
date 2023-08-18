@@ -39,7 +39,7 @@ The Sessions tab will display user rights on the sessions such as:
 
 ### Groups 
 
-The Groups tab displays which rights the user has into which security groups.  
+The Groups tab displays which rights the user has into which user groups.  
 ![My Data Source Information - Groups](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10307.png) 
 
 ### User groups 

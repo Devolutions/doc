@@ -40,7 +40,7 @@ You can select multiple different criteria at once to tweak your search:
 * Name 
 * OS 
 * Password strength 
-* Security group (legacy) 
+* Security group (legacy)*
 * Serial Number 
 * Server role 
 * Status 
@@ -49,7 +49,9 @@ You can select multiple different criteria at once to tweak your search:
 * Version 
 * IP 
 * MAC 
-* Software 
+* Software
+
+*Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 		</td>
 	</tr>
 	<tr>
@@ -118,4 +120,3 @@ There will be a drop-down list next to certain criteria fields (ex: Name) to giv
 * ***Exact expression*** - any name exactly matching every character you have entered. 
 * ***Does not contain*** - any name that does not include the characters you have entered. 
 * ***Regular expression*** (regex) - any sequence of characters specifying a search pattern. 
-

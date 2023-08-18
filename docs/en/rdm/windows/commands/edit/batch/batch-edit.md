@@ -48,7 +48,10 @@ You can modify the ***Session Type Settings*** of the entries, which are setting
 
 ### Edit Entries (Security Group Legacy) 
 
-***Security Groups*** are deprecated, but you can still modify them with this option. Visit our [Migration from Security Groups to User Groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/) topic to switch to ***User Groups*** instead.  
+{% snippet icon.badgeWarning %}
+Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See <a href="/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/" target="_blank">Migrate from security groups (legacy) to user groups</a>.
+{% endsnippet %}  
+
 ![Batch Edit – Edit Entries (Security Group Legacy)](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2107.png) 
 
 ### Edit Entries (Asset) 

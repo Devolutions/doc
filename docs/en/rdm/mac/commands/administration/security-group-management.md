@@ -1,6 +1,10 @@
 ---
-title: Security Group Management
+title: Security Group Management (Legacy)
 ---
+{% snippet icon.badgeWarning %}
+Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
+{% endsnippet %}  
+
 The Security Group Management is available from the menu ***Administration – Security Groups***.  
 
 Security groups are used to protect sessions from a subset of system users. Assign sessions to security groups then control who has access and how much control they have on each security group.  

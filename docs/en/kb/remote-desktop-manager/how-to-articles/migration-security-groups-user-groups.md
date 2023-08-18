@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Migrate from security groups to user groups
+  title: Migrate from security groups (legacy) to user groups
   description: In {{ en.RDM }} the access to your objects can be secured and managed using the User Groups Based Access Control.
   status: Topic available in German language
 ---
