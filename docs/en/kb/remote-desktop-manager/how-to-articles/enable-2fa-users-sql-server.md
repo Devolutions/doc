@@ -2,6 +2,7 @@
 eleventyComputed:
   title: Enable 2FA for users
   description: While it is still not possible to force the configuration of a 2FA at the user level without the {{ en.DVLS }}, a few options have been added in {{ en.RDM }} that could suit your needs.
+  status: Topic available in German language
 ---
 While it is still not possible to force the configuration of a 2FA at the user level without the {{ en.DVLS }}, a few options have been added in {{ en.RDM }} that could suit your needs.  
 
