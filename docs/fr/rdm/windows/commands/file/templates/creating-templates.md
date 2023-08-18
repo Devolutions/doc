@@ -1,5 +1,6 @@
 ---
 title: Gérer les modèles
+status: Topic available in German language
 ---
 Il existe de nombreuses façons de créer un modèle pour les entrées. Vous pouvez créer un nouveau modèle, enregistrer une entrée en tant que modèle, importer des entrées en tant que modèles et dupliquer un modèle existant. Il est également possible de créer des modèles en groupe.  
 
