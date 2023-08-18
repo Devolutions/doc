@@ -42,9 +42,9 @@ Affiche le nom d'utilisateur et le mot de passe extraits d'une entrée d'identif
 Utiliser l'ancienne sécurité 
 		</td>
 		<td>
-Utiliser l'ancien système de gestion des privilèges : les Groupes de sécurité (obsolète).  
+Utiliser l'ancien système de gestion des privilèges : les groupes de sécurité (obsolète).  
 
-* Pour gérer les permissions de vos utilisateurs, nous vous recommandons de migrer de Groupes de sécurité (obsolète) à ***Permissions***. Une fois la migration effectuée, désactiver les Groupes de sécurité, en décochant ***Utiliser l'ancienne sécurité***. 
+L'ancienne sécurité et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Pour gérer les autorisations de vos utilisateurs, nous vous recommandons de passer des groupes de sécurité aux [Permissions](/fr/rdm/windows/user-groups-based-access-control/permissions/). Une fois la migration effectuée, effectuez une [migration de la sécurité ancienne vers les permissions dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/) en désactivant ***Utiliser l'ancienne sécurité***.
 		</td>
 	</tr>
 </table>

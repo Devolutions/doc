@@ -60,7 +60,7 @@ All of the data is encrypted with a key stored in {{ en.RDM }} and it is impossi
 Default 
 		</td>
 		<td>
-This is the legacy security provider. The data is encrypted if the entry configuration is set accordingly in the advanced settings of the entries. 
+This is the default security mode. The XML is not encrypted by default. Please note that the passwords are always encrypted. 
 		</td>
 	</tr>
 	<tr>

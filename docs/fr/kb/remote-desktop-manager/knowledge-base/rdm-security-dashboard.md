@@ -84,7 +84,7 @@ Dans Administration - Paramètres du système - Politique de mot de passe, défi
 Description 
 		</td>
 		<td>
-Les groupes de sécurité ont été remplacés par le système de permissions. L'ancienne sécurité est dépréciée et sera supprimée dans une prochaine version. 
+L'ancienne sécurité a été dépréciée et sera complètement supprimée à partir de la version 2023.3 de {{ fr.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -92,7 +92,7 @@ Les groupes de sécurité ont été remplacés par le système de permissions. L
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - Paramètres de sécurité,  décochez Utiliser l'ancienne sécurité. 
+Dans <i><b>Administration – Paramètres système – Gestion des coffres – Paramètres de sécurité – Sécurité</b></i>, désactiver <i><b>Utiliser l'ancienne sécurité</b></i>. Voir <a href="/fr/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Migration de l'ancienne sécurité vers les permissions dans {{ fr.RDM }}</a>.
 		</td>
 	</tr>
 </table>
