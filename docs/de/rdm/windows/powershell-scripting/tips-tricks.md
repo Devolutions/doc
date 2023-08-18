@@ -5,7 +5,7 @@ Wir werden oft um eine vollständige Liste der Eigenschaftsnamen gebeten, aber e
 
 ## Reverse-Engineering einer Eintragsstruktur
 
-1. 1Erstellen Sie einen Eintrag des gewünschten Typs, fügen Sie zu diesem Zeitpunkt nur die obligatorischen Daten hinzu. Klicken Sie auf ***OK***, um den Eintrag zu speichern.
+1. Erstellen Sie einen Eintrag des gewünschten Typs, fügen Sie zu diesem Zeitpunkt nur die obligatorischen Daten hinzu. Klicken Sie auf ***OK***, um den Eintrag zu speichern.
 1. Klicken Sie mit der rechten Maustaste auf den Eintrag und wählen Sie ***Zwischenablage – Kopieren***.
 1. Wechseln Sie im darauf angezeigten Dialog zur Registerkarte ***Vorschau*** und kopieren Sie die XML-Struktur in eine Textdatei. Dies ist die AUSGANGSVERSION.
 1. Nehmen Sie die Änderungen, die mit PowerShell automatisiert werden sollen, manuell vor und speichern Sie den Eintrag.
