@@ -1,8 +1,7 @@
 ---
 title: Soutien technique
 ---
-
-Heures : Lundi au vendredi de 7 h 30 à 18 h HAE  
+Heures : lundi au vendredi de 7 h 30 à 18 h HAE  
 
 Base de connaissances : Trouver des informations et des procédures utiles concernant nos [produits](/fr/kb/hub-business/).  
 
