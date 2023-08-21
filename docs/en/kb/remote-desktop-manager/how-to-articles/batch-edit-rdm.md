@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Batch Edit in {{ en.RDM }}
+  status: Topic available in German language
 ---
 In {{ en.RDM }}, you can edit the properties of multiple entries or folders at once using the ***[Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/)*** or ***Edit (Special Actions)*** features.  
 
