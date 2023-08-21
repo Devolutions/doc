@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Remote Desktop Manager Mobile
-  order: 18
+  order: 30
   description: You can consult topics for the following categories about {{ en.RDM }} Mobile':' How-To Articles, Troubleshooting Articles and Knowledge Base
   status: Topic available in German language
 ---

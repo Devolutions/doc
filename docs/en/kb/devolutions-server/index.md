@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Devolutions Server
-  order: 20
+  order: 40
   description: You can consult topics for the following categories about {{ en.DVLS }}':' How-To Articles, Troubleshooting Articles, and Knowledge Base
   status: Topic available in German language
 ---
