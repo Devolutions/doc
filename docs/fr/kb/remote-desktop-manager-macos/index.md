@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Remote Desktop Manager {{ fr.MAC }}
-  order: 15
+  order: 20
   description: Vous pouvez accéder aux catégories suivantes concernant {{ fr.RDMMAC }} ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
   status: Topic available in German language
 ---
