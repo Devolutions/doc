@@ -1,12 +1,14 @@
 ---
-title: Technical Support
-order: 130
+title: Technical support
 ---
-
 Hours: Monday to Friday 7:30 a.m. to 6:00 p.m. EDT  
+
 Language: English-Français-Deutsch  
+
 Email: [service@devolutions.net](mailto:service@devolutions.net)  
+
 Forum: [https://forum.devolutions.net/](https://forum.devolutions.net/)  
+
 Phone: +1 844 463.0419  
 
 ## Extended and Premium support plans 
@@ -16,4 +18,3 @@ Subscribers of a paid support plan receive an email address and a plan ID. You s
 Please consult our [Support Policy](https://devolutions.net/legal/software-license-agreements) for more information.  
 
 ![!!Support4001.png](https://webdevolutions.azureedge.net/docs/en/cloud/Support4001.png) 
-
