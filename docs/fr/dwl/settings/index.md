@@ -1,6 +1,7 @@
 ---
 title: Paramètres
 order: 20
+status: Topic available in German language
 keywords:
 - Coffre privé
 ---
