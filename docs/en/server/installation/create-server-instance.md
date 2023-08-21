@@ -2,6 +2,7 @@
 eleventyComputed:
   title: Create a {{ en.DVLS }} instance
   order: 30
+  status: Topic available in German language
 keywords:
 - Roles
 ---

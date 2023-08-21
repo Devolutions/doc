@@ -2,6 +2,7 @@
 eleventyComputed:
   title: Créer une instance de {{ fr.DVLS }}
   order: 30
+  status: Topic available in German language
 ---
 {% snippet icon.badgeInfo %} 
 Si vous venez tout juste de recevoir vos clés de licence, veuillez d'abord consulter la section [Introduction](/fr/server/getting-started/). 
