@@ -1,12 +1,14 @@
 ---
 title: Soutien technique
-order: 130
 ---
+Heures : lundi au vendredi de 7 h 30 à 18 h HAE  
 
-Heures : Lundi au vendredi de 7 h 30 à 18 h HAE  
 Langue : English-Français-Deutsch  
+
 Courriel : [service@devolutions.net](mailto:service@devolutions.net)  
+
 Forum :[https://forum.devolutions.net/](https://forum.devolutions.net/)  
+
 Téléphone : +1 844 463.0419  
 
 ## Plans de soutien Prioritaire et Premium 
