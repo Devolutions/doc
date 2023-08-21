@@ -1,4 +1,4 @@
-## How to add links in Markdown
+## Add links in Markdown
 
 You can add links in our documentation that redirect to useful information further down the topic or elsewhere. Please note that for security reasons, any links added will be reviewed by our security team.
 
