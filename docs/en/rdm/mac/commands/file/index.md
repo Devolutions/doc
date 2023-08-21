@@ -16,6 +16,7 @@ See the following topics to learn more about each setting:
 * [Import](/rdm/mac/commands/file/import/overview/) 
 * [Export](/rdm/mac/commands/file/export/overview/) 
 * [Preferences](/rdm/mac/commands/file/preferences/general/) 
-* [My Account Settings](/rdm/mac/commands/file/my-account-settings/) 
+* [My Account Settings](/rdm/mac/commands/file/my-account-settings/)
+* [Workspaces](/rdm/mac/commands/file/workspaces/) 
 * [Templates](/rdm/mac/commands/file/templates/) 
 
