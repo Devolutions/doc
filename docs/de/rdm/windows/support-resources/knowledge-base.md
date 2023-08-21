@@ -26,6 +26,8 @@ Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Comm
 
 &nbsp; &nbsp;[{{ de.DVLS }}](/de/kb/devolutions-server/)  
 
+&nbsp; &nbsp;[{{ de.DGW }}](/de/kb/devolutions-gateway/)  
+
 &nbsp; &nbsp;[{{ de.DHUBB }}](/de/kb/hub-business/)  
 
 &nbsp; &nbsp;[{{ de.DHUBP }}](/de/kb/hub-personal/)  

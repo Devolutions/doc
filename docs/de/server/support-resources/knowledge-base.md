@@ -5,7 +5,6 @@ description: Das Devolutions Experience-Team ist stolz, diese Knowledge Base fü
 keywords:
 - Knowledge base
 ---
-
 ![!!Devolutions Knowledge Base Logo](https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)  
 
 Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Community von über 800.000 Benutzern zu veröffentlichen!  
@@ -25,6 +24,8 @@ Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Comm
 &nbsp; &nbsp;[{{ de.RDM }} Mobile](/de/kb/remote-desktop-manager-mobile/)  
 
 &nbsp; &nbsp;[{{ de.DVLS }}](/de/kb/devolutions-server/)  
+
+&nbsp; &nbsp;[{{ de.DGW }}](/de/kb/devolutions-gateway/)  
 
 &nbsp; &nbsp;[{{ de.DHUBB }}](/de/kb/hub-business/)  
 
