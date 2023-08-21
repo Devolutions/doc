@@ -28,6 +28,8 @@ Elle est structurée selon nos divers produits, ainsi qu'en quelques sous-catég
 
 &nbsp; &nbsp;[{{ fr.DVLS }}](/fr/kb/devolutions-server/)
 
+&nbsp; &nbsp;[{{ fr.DGW }}](/fr/kb/devolutions-gateway/)
+
 &nbsp; &nbsp;[{{ fr.DHUBB }}](/fr/kb/hub-business/)
 
 &nbsp; &nbsp;[{{ fr.DHUBP }}](/fr/kb/hub-personal/)
