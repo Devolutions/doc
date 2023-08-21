@@ -28,6 +28,8 @@ It is structured around our various products, as well as a few sub-categories.
 
 &nbsp; &nbsp;[{{ en.DVLS }}](/kb/devolutions-server/)
 
+&nbsp; &nbsp;[{{ en.DGW }}](/kb/devolutions-gateway/)
+
 &nbsp; &nbsp;[{{ en.DHUBB }}](/kb/hub-business/)
 
 &nbsp; &nbsp;[{{ en.DHUBP }}](/kb/hub-personal/)
