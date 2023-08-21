@@ -1,4 +1,4 @@
 ---
 title: Devolutions Hub PowerShell
-order: 30
+order: 40
 ---

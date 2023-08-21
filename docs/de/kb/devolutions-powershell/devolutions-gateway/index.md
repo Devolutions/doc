@@ -1,4 +1,4 @@
 ---
-title: Devolutions Gateway
-order: 40
+title: Devolutions Gateway PowerShell
+order: 30
 ---
