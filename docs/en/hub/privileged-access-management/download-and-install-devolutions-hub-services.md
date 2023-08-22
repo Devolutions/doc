@@ -14,8 +14,7 @@ The {{ en.DHUBS }} installer facilitates the installation and integration of our
 1. Select ***Add Application User (+)***.  
 ![Add Application User (+)](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6040.png)  
 
-1. Enter a name and click ***Add***.   
-1. Save the given ***Application Secret*** and ***Application key*** to your clipboard or as a PDF file. It will be needed during Devolutions Hub Services' installation.   
+1. Enter a name and click ***Add***.    
 1. Save the given ***Application Secret*** and ***Application key*** to your clipboard or as a PDF file. It will be needed during {{ en.DHUBS }}' installation.   
 ![Save the given Application Secret and Application key](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6043.png)  
 
@@ -48,12 +47,12 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 ## For a specific Pam vault
 
 1. In {{ en.DHUB }}, go to ***Administration*** – ***Management*** – ***Vaults***.
-![Administration – Management – Vaults](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6044.png)
-1. Select ***Add PAM vault*** in the menu to create your PAM vault.
-![Administration – Management – Vaults – Add PAM vault](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6059.png)
-1. Select the ***Edit*** tab at the ***Permissions*** section.
-1. Choose your ***Application User*** in the drop-down menu under the ***Contributor*** section.
-![Contributor section](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6056.png)
+![Administration – Management – Vaults](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6044.png)  
+1. Select ***Add PAM vault*** in the menu to create your PAM vault.  
+![Administration – Management – Vaults – Add PAM vault](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6059.png)  
+1. Select the ***Edit*** tab at the ***Permissions*** section.  
+1. Choose your ***Application User*** in the drop-down menu under the ***Contributor*** section.  
+![Contributor section](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6056.png)  
 1. Click ***Update*** to close the window. 
 
 ## Installation of {{ en.DHUBS }} Beta
@@ -74,7 +73,8 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 ![Connection successful](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6055.png) 
 ## Check {{ en.DHUBS }} logs
 
-{{ en.DHUBS }}' logs are available in ***Windows Event Viewer***. The service should be able to connect to the previously created provider.
+{{ en.DHUBS }}' logs are available in ***Windows Event Viewer***. The service should be able to connect to the created provider. The provider need to be added in {{ en.DHUB }}.
+
 It's also possible to see the {{ en.DHUBS }} as a service in the Services window of Windows which shows the current status and where it can be started or stopped.
 
 
