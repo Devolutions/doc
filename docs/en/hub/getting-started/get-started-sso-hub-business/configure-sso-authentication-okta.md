@@ -37,7 +37,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
    ![DNS TXT Record in MXToolBox](https://webdevolutions.azureedge.net/docs/en/hub/Hub2236.png)  
 
    {% snippet icon.badgeCaution %} 
-   This validation lasts for 48 hours and does not restart after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired*** and you will be stuck. If that happens, see [Expired domain verification in Okta SSO configuration](/kb/hub-business/troubleshooting-articles/expired-domain-verification-okta-sso-configuration).
+   This validation lasts for 48 hours and does not restart after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired*** and you will be stuck. If that happens, see [Expired domain verification in SSO configuration](/kb/hub-business/troubleshooting-articles/expired-domain-verification-sso-configuration).
    {% endsnippet %}  
 
 1. If everything matches up, click ***Verify domain***.

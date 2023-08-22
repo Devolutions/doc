@@ -7,7 +7,7 @@ When configuring single sign-on (SSO) in your {{ en.HUBB }}, the first step is t
 
 Follow these steps for a workaround:
 
-1. In {{ en.HUBB }}, go to ***Administration – Authentication – Single Sign-On (SSO)*** and select ***Okta Single Sign-On (SSO)***.
+1. In {{ en.HUBB }}, go to ***Administration – Authentication – Single Sign-On (SSO)*** and select either ***Okta Single Sign-On (SSO)*** or ***Microsoft Single Sign-On (SSO)*** depending on your IAM solution (the screenshots below show the process with Okta).
 1. In the first configuration step, change the ***Domain*** name, then click ***Continue***.
 ![Changed domain name](https://webdevolutions.azureedge.net/docs/en/kb/KB2243.png)
 
