@@ -23,11 +23,6 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 
 1. Fill in your ***Domain***, then click ***Continue***.
 ![Domain](https://webdevolutions.azureedge.net/docs/en/hub/Hub2283.png)  
-
-   {% snippet icon.shieldInfo %} 
-   For security purposes, only emails that end with your domain name will be allowed to log in to {{ en.HUB }} using Okta authentication. For example, if your employees' emails are in the format "bob@windjammer.co", your domain is "windjammer.co".
-   {% endsnippet %}
-
 1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Hostname*** and ***TXT value***. This allows us to verify the ownership of the domain supplied.  
 ![Hostname and TXT value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2284.png)  
 
