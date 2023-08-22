@@ -1,5 +1,5 @@
 ---
-title: Creating Shortcuts
+title: Creating shortcuts
 ---
 There are a many scenarios where it makes sense for an entry to appear more than once in the UI. For example, you might want to:  
 
@@ -16,7 +16,7 @@ Fortunately, {{ en.RDM }} makes creating shortcuts simple and quick! It works by
 
 ### Option 1
 
-One way to create a shortcut is by using the menu ***Edit – Create Shortcut***  
+One way to create a shortcut is by using the menu ***Edit – Create Shortcut***.  
 ![!!KB4537.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4537.png)  
 
 Choose the destination folder for the shortcut. {{ en.RDM }} will automatically refresh and display the new shortcut in the list.

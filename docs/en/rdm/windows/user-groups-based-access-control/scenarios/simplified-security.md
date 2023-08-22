@@ -47,7 +47,7 @@ Now, everything is ready to grant or deny access to the user groups.
 
 We will begin with the {{ en.VLT }} level folders: Downhill Pro, Telemark and Windjammer.  
 
-The permission to view the Windjammer folder will be set for the ServiceDesk only since we want them to be able to use its child entries. We don’t want the ServiceDesk to add or edit anything. We will set the ***Add***, ***Edit***, and ***Delete*** permissions to ***Never***. Only the administrator will be able to add or edit entries in the Windjammer folder.  
+The permission to view the Windjammer folder will be set for the ServiceDesk only since we want them to be able to use its child entries. We do not want the ServiceDesk to add or edit anything. We will set the ***Add***, ***Edit***, and ***Delete*** permissions to ***Never***. Only the administrator will be able to add or edit entries in the Windjammer folder.  
 ![Windjammer - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3385.png) 
 
 * ***View: Custom***; ServiceDesk. 

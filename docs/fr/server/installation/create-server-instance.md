@@ -16,11 +16,11 @@ Plusieurs instances de {{ fr.DVLS }} peuvent être installées sur le même serv
 
 ## Procédure 
 
-1. Installer la ***{{ fr.DVLSCONSOLE }}***  sur le serveur Web. Elle est téléchargeable sur la [page de téléchargement](https://server.devolutions.net/fr/home/download). 
+1. Installer la ***{{ fr.DVLSCONSOLE }}*** sur le serveur Web. Elle est téléchargeable sur la [page de téléchargement](https://server.devolutions.net/fr/home/download). 
 1. Exécuter la ***{{ fr.DVLSCONSOLE }}*** avec des privilèges élevés (Exécuter en tant qu'administrateur). Cliquer avec le bouton droit sur l'icône de l'application, puis sélectionner Exécuter en tant qu'administrateur. 
 
 {% snippet icon.shieldWarning %} 
-Toutes les opérations effectuées via la ***{{ fr.DVLSCONSOLE }}***  seront faites avec l'identifiant qui a lancé la ***{{ fr.DVLSCONSOLE }}***. Si vous devez utiliser un autre identifiant pour lancer la ***{{ fr.DVLSCONSOLE }}***, vous devez quitter la session Windows et vous reconnecter avec l'identifiant en question. La commande RunAs n'offre pas la possibilité de démarrer une application en tant qu'administrateur. La commande Exécuter en tant qu'autre utilisateur fonctionne seulement si le compte utilisé est membre du groupe d'administrateurs local de la machine. 
+Toutes les opérations effectuées via la ***{{ fr.DVLSCONSOLE }}*** seront faites avec l'identifiant qui a lancé la ***{{ fr.DVLSCONSOLE }}***. Si vous devez utiliser un autre identifiant pour lancer la ***{{ fr.DVLSCONSOLE }}***, vous devez quitter la session Windows et vous reconnecter avec l'identifiant en question. La commande RunAs n'offre pas la possibilité de démarrer une application en tant qu'administrateur. La commande Exécuter en tant qu'autre utilisateur fonctionne seulement si le compte utilisé est membre du groupe d'administrateurs local de la machine. 
 {% endsnippet %}
  
 ![Exécuter en tant qu'administrateur](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8139.png) 

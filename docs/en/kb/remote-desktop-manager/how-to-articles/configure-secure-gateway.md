@@ -10,7 +10,7 @@ The new jump integration will give you the possibility to jump through a DMZ zon
    1. Create an SSH Tunnel entry by entering the SSH server information that we have to authenticate through for access to the DMZ zone (#1). Then in the Outgoing Tunnel Settings configure the Mode to Dynamic and the Source to 127.0.0.1 (#2).  
    ![!!KB4222.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4222.png)  
 
-   2. A nice feature for Secure Gateway is keeping the Secure Gateway window hidden. To do go to the ***Advanced*** tab and check ***Hide when connection successful***  
+   2. A nice feature for Secure Gateway is keeping the Secure Gateway window hidden. To do go to the ***Advanced*** tab and check ***Hide when connection successful***.  
    ![!!KB4223.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4223.png)  
 
    The Jump server (Secure Gateway) is now configured and ready to use.  

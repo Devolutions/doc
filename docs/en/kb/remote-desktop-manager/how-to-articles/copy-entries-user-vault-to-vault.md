@@ -14,7 +14,7 @@ Paste feature: Allow ***Import*** and ***Add*** permissions on the destination f
 
 1. Select the entries from your {{ en.UVLT }} that you wish to add to your main.
 1. Right-click on them.
-1. Select ***Clipboard - Copy***
+1. Select ***Clipboard - Copy***.
 1. Make sure that the ***Change ID*** option is checked in the ***Copy Options*** window.
 1. Move to your main vault, select the folder in which you wish to add your entries and right-click on it.
-1. Select ***Clipboard - Paste***
+1. Select ***Clipboard - Paste***.

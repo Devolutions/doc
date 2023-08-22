@@ -168,7 +168,7 @@ Indicate the prefer ping online. Select between:
 Auto go offline 
 		</td>
 		<td>
-If the ping online method doesn’t work it will automatically go offline. 
+If the ping online method does not work it will automatically go offline. 
 		</td>
 	</tr>
 	<tr>

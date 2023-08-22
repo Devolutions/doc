@@ -16,7 +16,7 @@ Administration rights are required to export and import multiple vaults.
 1. In the {{ en.RDM }} ***{{ en.NPANE }}***, select your data source.
 1. Go to ***Administration - Export All Vaults (.rdx)***.
 1. Select the vaults from the prompted list and click ***OK***.
-1. For a typical migration, you would check the options ***Include credentials, Include attachments and documents*** and ***Encrypt with master key***  
+1. For a typical migration, you would check the options ***Include credentials, Include attachments and documents*** and ***Encrypt with master key***.  
 {% snippet icon.badgeInfo %}
 By default the credentials are NOT included. It's critical to check the ***Include credentials*** option in order for the exported data to include the credentials.
 {% endsnippet %}  
@@ -39,7 +39,7 @@ Specifying a master key will encrypt the whole content of the ***.rdx*** file to
 At this step, if needed, you can add vaults by clicking on the ***Add Vault*** button.
 {% endsnippet %}  
 {% snippet icon.badgeCaution %}
-If you have ***Users*** and they are overriding entries properties with ***User Specific Settings***, uncheck ***Change ID***
+If you have ***Users*** and they are overriding entries properties with ***User Specific Settings***, uncheck ***Change ID***.
 {% endsnippet %}  
 
 5. Click ***Finish***.

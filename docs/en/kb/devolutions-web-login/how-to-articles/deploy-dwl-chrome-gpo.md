@@ -13,18 +13,18 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 ## Configuring extensions by policy on Windows 10 for Chrome
 
 1. Open ***Group Policy Management*** (***Start - Run - GPMC.msc***).
-1. Right-click on the GPO list and select ***New***
-1. In the ***New GPO*** window, create your new object then click on ***OK***
-1. Right-click on your new GPO and select ***Edit***
-1. Select Registry located in Computer Configuration – Preferences – Windows Settings – Registry or User Configuration – Preferences – Windows Settings – Registry according to your needs.
-1. Right-click in the ***Registry*** items list and select ***New – Registry Item***
+1. Right-click on the GPO list and select ***New***.
+1. In the ***New GPO*** window, create your new object then click on ***OK***.
+1. Right-click on your new GPO and select ***Edit***.
+1. Select ***Registry*** located in ***Computer Configuration – Preferences – Windows Settings – Registry or User Configuration – Preferences – Windows Settings – Registry*** according to your needs.
+1. Right-click in the ***Registry*** items list and select ***New – Registry Item***.
 1. Set the ***Action*** parameter to Replace to modify the existing rule or to create it if it does not exist.
 1. Set the ***Hive*** parameter to ***HKEY_LOCAL_MACHINE*** or ***HKEY_CURRENT_USER*** according to your needs.
 1. Enter ***SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\neimonjjffhehnojilepgfejkneaidmo\policy*** in the ***Key Path*** text field.
 1. Enter ***Settings*** in the ***Value name*** text field.
 1. Select REG_SZ in the ***Value type*** drop-down list.
 1. Write the JSON settings string in the ***Value data*** text field. See the <a href="#values">Values</a> section below for an example.
-1. Click on ***OK***  
+1. Click on ***OK***.  
 ![!!KB8106.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8106.png)
 1. In ***Group Policy Management***, configure the GPO ***Links*** and ***Security Filtering*** according to your needs.
 

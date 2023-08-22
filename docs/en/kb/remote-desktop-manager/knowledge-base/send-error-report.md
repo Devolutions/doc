@@ -1,5 +1,5 @@
 ---
-title: Send Error Report
+title: Send an error report
 status: Topic available in German language
 ---
 An error report is created when an application error occurs in {{ en.RDM }} You can send that error report to the our support team to help reproduce the issue more easily.  
@@ -11,5 +11,5 @@ When sending your error report please make sure to include as many details as po
 When an error dialog appears in {{ en.RDM }} follow these steps to send it to the support team.
 1. Press the ***Send Error Report*** button.  
 ![!!KB4439.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4439.png)
-1. Fill in your contact information along with a detailed explanation on the issue and press ***OK***  
+1. Fill in your contact information along with a detailed explanation on the issue and press ***OK***.  
 ![!!KB4440.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4440.png)

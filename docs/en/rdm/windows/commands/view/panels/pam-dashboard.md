@@ -25,7 +25,7 @@ If there are multiple accounts in the folder, you can use the filter bar to disp
 
 ## Check Out request with custom time
 
-It is possible to make a ***Check Out*** request for a certain time slot while in a PAM vault. This feature is very useful for planned maintenance outside of normal work hours, when approvers aren't available.
+It is possible to make a ***Check Out*** request for a certain time slot while in a PAM vault. This feature is very useful for planned maintenance outside of normal work hours, when approvers are not available.
 
 {% snippet icon.badgeInfo %}
 Making a ***Check Out*** request in advance is only available in PAM vaults.

@@ -26,7 +26,7 @@ Use the button duplicate to duplicate a data source configuration.
 
 ### Lock data source 
 
-Use the Lock button to lock the data source with a password to prevent any modification of a data source configuration. This is useful when you have some sensitive credentials that you don't want to share with the user. 
+Use the Lock button to lock the data source with a password to prevent any modification of a data source configuration. This is useful when you have some sensitive credentials that you do not want to share with the user. 
 
 ### Unlock data source 
 

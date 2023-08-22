@@ -36,7 +36,7 @@ You should see 4 VMware modules listed in PowerShell as shown in the image above
 
 You can test to see if PowerShell recognizes the Connect-ViServer command.  
 ![!!KB4123.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4123.png)  
-By typing the command, we see that PowerShell doesn't have the proper module installed.  
+By typing the command, we see that PowerShell does not have the proper module installed.  
 
 In the PowerShell Window, install the PowerCLI modules by using the Install-Module command. Many step by step instructions can be found on Google.  
 

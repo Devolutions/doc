@@ -59,7 +59,7 @@ Aucun identifiant ne pourra être enregistré ou lié à cette entrée
 Rechercher par nom (Coffre d'utilisateur)
 		</td>
 		<td>
-Recherche le nom spécifié dans le ***Coffre d'utilisateurs***. Si la case est laissée vide, lors du lancement, une liste d'identifiant s'ouvre avec toutes les entrées d'identifiants disponibles dans le ***Coffre d'utilisateur***
+Recherche le nom spécifié dans le ***Coffre d'utilisateurs***. Si la case est laissée vide, lors du lancement, une liste d'identifiant s'ouvre avec toutes les entrées d'identifiants disponibles dans le ***Coffre d'utilisateur***.
 		</td>
 	</tr>
 	<tr>
@@ -75,7 +75,7 @@ Utilise un compte privilégié préexistant provenant de la même source de donn
 Mon compte privilégié
 		</td>
 		<td>
-Utilise la combinaison nom d'utilisateur/mot de passe choisie. Doit d'abord être configuré dans ***Fichier*** – ***Paramètres de mon compte*** – ***Mes paramètres par défaut*** – ***Mon compte privilégié***
+Utilise la combinaison nom d'utilisateur/mot de passe choisie. Doit d'abord être configuré dans ***Fichier*** – ***Paramètres de mon compte*** – ***Mes paramètres par défaut*** – ***Mon compte privilégié***.
 		</td>
 	</tr>
 </table>

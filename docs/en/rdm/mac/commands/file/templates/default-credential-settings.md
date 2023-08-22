@@ -11,7 +11,7 @@ By editing your default template, you will be able to save settings that you wan
 
 ### No template defined 
 
-Notice that a [No default] notice is displayed below each credential type that doesn’t have a default template defined.  
+Notice that a [No default] notice is displayed below each credential type that does not have a default template defined.  
 ![Default Template - No default](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10009.png) 
 
 ### Template defined 

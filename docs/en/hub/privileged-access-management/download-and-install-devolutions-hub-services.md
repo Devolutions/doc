@@ -29,7 +29,7 @@ In the ***Application User*** window under ***User***, ***Is enabled*** enables 
 ![Administration – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
 1. Go to the edit form.
 ![Edit form](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6049.png)
-1. Select ***System***
+1. Select ***System***.
 1. Select your ***Application User*** in the drop-down menu under ***Manage privileged access providers***. 
 ![System Permissions – Manage privileged access providers](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6051.png)
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP can't Store Password on Local Computer
+title: Microsoft RDP cannot store passwords on the local computer
 ---
 In a Microsoft RDP session, you want to store the password on the local computer. However the "save password" button is grayed out.  
 

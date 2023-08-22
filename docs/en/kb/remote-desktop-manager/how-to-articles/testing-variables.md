@@ -6,8 +6,8 @@ Variables are only supported for ***Advanced Data Sources*** like SQL Server and
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
-For the password to be available as a variable, you must go in the ***Security Settings*** of the entry and check ***Allow password in variable***
-If the option is greyed out, you need to activate ***Allow password variables for all entries*** and ***Allow password variable in macros*** in ***Administration - System Settings - Password Policy***
+For the password to be available as a variable, you must go in the ***Security Settings*** of the entry and check ***Allow password in variable***.
+If the option is greyed out, you need to activate ***Allow password variables for all entries*** and ***Allow password variable in macros*** in ***Administration - System Settings - Password Policy***.
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}

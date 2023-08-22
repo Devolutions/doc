@@ -2,14 +2,14 @@
 title: Built-in RunAs
 ---
 {% snippet icon.badgeInfo %}
-This article describes the built in method of using ***Run As*** For sessions types that don't yet support the built in method you can follow the manual steps outlined [here](/kb/remote-desktop-manager/how-to-articles/run-as-another-user/)
+This article describes the built in method of using ***Run As*** For sessions types that do not yet support the built in method you can follow the manual steps outlined [here](/kb/remote-desktop-manager/how-to-articles/run-as-another-user/)
 {% endsnippet %}
 
 ## Settings
 
 ### Supported Types
 
-The following types currently support ***Run As***
+The following types currently support ***Run As***:
 
 | Option               | Description |
 | -------------------- | ----------- |
@@ -49,7 +49,7 @@ Click on ***Run as different user*** to modify the ***Run As*** settings.
 
 Run as Different User and Run As Administrator are mutually exclusive.
 
-Run as Different User doesn't allow for Shell Execute
+Run as Different User does not allow for Shell Execute
 
 ### Example: Command line session with Run as different user on the same workgroup/domain
 

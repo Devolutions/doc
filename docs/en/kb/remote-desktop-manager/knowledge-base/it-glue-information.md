@@ -13,5 +13,5 @@ Whenever you send a request to the API, you send your key with it so that we kno
 
 Therefore there are 2 choices when using IT Glue in {{ en.RDM }}  
 
-1. Everyone is an administrator. Since you do not want to share the API Key with everyone, you can create a session in an ***Always prompt with list*** mode. However, this way everyone can access all credentials stored in the selected IT Glue organization. This isn't the best solution as far as security is concerned.
+1. Everyone is an administrator. Since you do not want to share the API Key with everyone, you can create a session in an ***Always prompt with list*** mode. However, this way everyone can access all credentials stored in the selected IT Glue organization. This is not the best solution as far as security is concerned.
 1. Have the administrator or someone trustworthy create specific entries targeting specific IT Glue credentials in {{ en.RDM }} Then you can use the {{ en.RDM }} permissions to decide who can ***View*** the entry and who can ***View Password*** If you choose this option, you would have to make sure to block the ***Edit*** permissions on all IT Glue entries as to ensure no one can edit the entry and choose a password which is not meant for them.

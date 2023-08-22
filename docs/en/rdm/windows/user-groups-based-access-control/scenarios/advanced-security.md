@@ -63,7 +63,7 @@ As mentioned above, ALL {{ en.VLT }} settings folder permissions are set to ***N
 
 **Windjammer Downhill Pro, and Telemark, the {{ en.VLT }} level groups/folders** 
 
-The permission to view the Windjammer folder is set for the ServiceDesk only since we want them to be able to use the child entries. We don’t want the ServiceDesk to add, edit or delete anything. We leave the ***Add***, ***Edit***, and ***Delete*** permissions to ***Inherited*** so only the administrators can perform these action on the Windjammer folder and its child items.  
+The permission to view the Windjammer folder is set for the ServiceDesk only since we want them to be able to use the child entries. We do not want the ServiceDesk to add, edit or delete anything. We leave the ***Add***, ***Edit***, and ***Delete*** permissions to ***Inherited*** so only the administrators can perform these action on the Windjammer folder and its child items.  
 ![Windjammer - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3398.png) 
 
 * ***View: Custom***; ServiceDesk. 

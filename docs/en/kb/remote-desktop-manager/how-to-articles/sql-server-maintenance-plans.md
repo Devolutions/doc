@@ -8,7 +8,7 @@ If maintenance is not performed regularly, the database files will grow and grow
 We are NOT a DBA shop. Asking the question "What is the best maintenance plan I can implement?" to seasoned DBAs will invariably result in an answer similar to "It depends".
 
 {% snippet icon.shieldWarning %}
-These "pointers" are provided as is and we cannot be held responsible if they don’t meet your requirements. You must consult a qualified database administrator to confirm your needs and how to meet them.
+These "pointers" are provided as is and we cannot be held responsible if they do not meet your requirements. You must consult a qualified database administrator to confirm your needs and how to meet them.
 {% endsnippet %}
 
 The backup strategy really depends on the amount of data you are comfortable with losing in the event of failure, yes... expect to lose data, the cost of a system that does NOT lose any data is quite high and is not in the scope of this topic.

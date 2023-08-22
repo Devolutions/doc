@@ -50,6 +50,6 @@ Choosing ***Thin client*** is therefore the choice that limits memory consumptio
 
 ![!!KB4455.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4455.png)  
 
-You might wish to set this for all sessions. In this case, go to File - Options - Types - Remote Desktop to assign the default value, then in all of your sessions use ***Default***  
+You might wish to set this for all sessions. In this case, go to File - Options - Types - Remote Desktop to assign the default value, then in all of your sessions use ***Default***.  
 
 ![!!KB4456.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4456.png)

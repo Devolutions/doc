@@ -19,5 +19,5 @@ In the ***Advanced*** tab of your session, set the ***Algorithm support*** optio
 
 It's also possible to globally reactivate all the algorithms in {{ en.RDM }} via the ***File - Options - Types - Terminal - Algorithm support*** menu.  
 ![!!KB4654.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4654.png)
-If you are still unable to connect after enabling the algorithm, go into the entry ***Properties - Advanced*** tab and check the ***Skip environment variable setup***  
+If you are still unable to connect after enabling the algorithm, go into the entry ***Properties - Advanced*** tab and check the ***Skip environment variable setup***.  
 ![!!KB4702.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4702.png)

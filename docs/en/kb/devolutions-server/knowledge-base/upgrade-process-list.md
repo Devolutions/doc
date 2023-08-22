@@ -8,7 +8,7 @@ Please visit the [Upgrading {{ en.DVLS }}](/server/installation/upgrade-server/)
 
 {{ en.DVLS }} upgrades are not overly complicated, but certain steps must be planned carefully.
 
-Please contact us at [service@devolutions.net](mailto:service@devolutions.net) to book a session where we'll help out.
+Please contact us at [service@devolutions.net](mailto:service@devolutions.net) to book a session where we will help out.
 
 {% snippet icon.shieldWarning %}
 {{ en.DVLS }} is used by teams, this means that other users must be taken into account before starting with the upgrade.

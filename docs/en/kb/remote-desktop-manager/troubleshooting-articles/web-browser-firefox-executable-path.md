@@ -1,7 +1,7 @@
 ---
-title: Web Browser Firefox Executable Path
+title: Web browser Firefox executable path
 ---
-Launching Firefox in embedded mode prompts for an executable path in {{ en.RDM }}  
+Launching Firefox in embedded mode prompts for an executable path in {{ en.RDM }}.  
 {% snippet icon.badgeCaution %}
 The Firefox web browser is deprecated in embedded mode.
 {% endsnippet %}  
@@ -9,8 +9,8 @@ The Firefox web browser is deprecated in embedded mode.
 ### Solution
 1. To workaround this issue, you need to download thezip [Firefox embedded package](https://cdn.devolutions.net/download/Firefox/FirefoxRunner2021.1.0.zip)
 1. Extract the content in a folder on your computer.
-1. In {{ en.RDM }} go to ***File - Options - Paths - Configure Installation Path***
-1. Find the ***Firefox Xul Runner Installation Path***  
+1. In {{ en.RDM }} go to ***File - Options - Paths - Configure Installation Path***.
+1. Find the ***Firefox Xul Runner Installation Path***.  
 ![!!KB4950.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4950.png)
 1. Click on the ellipsis box to select the path where thezip file was extracted.
-1. Click ***OK***
+1. Click ***OK***.

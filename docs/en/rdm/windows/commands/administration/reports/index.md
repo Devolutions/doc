@@ -14,7 +14,7 @@ From this window, you can browse and select a wide variety of Report Types. Expl
 Once Generated, a report will provide you with all the information you selected during this step. These final results can take various shapes and have different features (such as editing a specific entry or printing the result) depending on what the report actually is.  
 
 {% snippet icon.badgeInfo %} 
-These logs are still restricted by user rights. A user with restricted access wouldn't be able to select Password and Security for example. 
+These logs are still restricted by user rights. A user with restricted access would not be able to select Password and Security for example. 
 {% endsnippet %}
  
 

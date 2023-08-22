@@ -5,7 +5,7 @@ keywords:
 ---
 The ***My Personal Credentials*** feature is a single credential entry which is locally stored on your computer in your Windows profile.  
 
-It is typically used to hold the Windows credentials for your running sessions because {{ en.RDM }} can't access them. If you can't use integrated security then you must store your credentials in ***My Personal Credentials***.  
+It is typically used to hold the Windows credentials for your running sessions because {{ en.RDM }} cannot access them. If you cannot use integrated security then you must store your credentials in ***My Personal Credentials***.  
 
 This allows you to centralize one special credential to replace or emulate the ones for your Windows session. When a password change is needed you simply need to change it once in ***My Personal Credentials***. 
 

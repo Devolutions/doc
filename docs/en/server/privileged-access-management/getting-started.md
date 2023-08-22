@@ -37,7 +37,7 @@ For more information, please refer to the [Scan Configurations](/server/privileg
 
 ## Add vault in the pam vaults section 
 
-In the ***PAM Vaults*** section of ***Administration - Privileged Accounts***, you need to create at least one PAM Vault to contain the accounts. You can customize that particular [folder's security options](/server/privileged-access-management/accounts/) if you don't want to give them the defaults you set during the initial configuration. You can also [customize the approvers on the folder](/server/privileged-access-management/accounts/) directly which will give you a list of the administrators.  
+In the ***PAM Vaults*** section of ***Administration - Privileged Accounts***, you need to create at least one PAM Vault to contain the accounts. You can customize that particular [folder's security options](/server/privileged-access-management/accounts/) if you do not want to give them the defaults you set during the initial configuration. You can also [customize the approvers on the folder](/server/privileged-access-management/accounts/) directly which will give you a list of the administrators.  
 ![PAM Vaults](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6015.png) 
 
 ## Import accounts from a scan 
@@ -48,7 +48,7 @@ In the ***PAM Vaults*** section of ***Administration - Privileged Accounts***, y
 ![Import Selected Entries](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6017.png) 
 1. You can put them in the vault of your choice. You can also choose whether to reset password on import or on check-in (recommended). That way, the password is safe the moment the user checks it back in.  
 ![Import Users](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6018.png) 
-Once imported, you can click into the v ault and manually check the ***Synchronization Status*** in the top right of the screen. You will know the accounts are well synchronized when the credentials doesn't have an Out of sync red warning next to them.  
+Once imported, you can click into the v ault and manually check the ***Synchronization Status*** in the top right of the screen. You will know the accounts are well synchronized when the credentials does not have an Out of sync red warning next to them.  
 ![PAM Account Sync Check](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6019.png)  
 You are now ready to use the privileged access management portion of {{ en.DVLS }}. 
 

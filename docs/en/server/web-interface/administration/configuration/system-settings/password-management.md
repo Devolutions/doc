@@ -142,8 +142,8 @@ Password template check
 		<td> 
 
 * None: No template will be used when creating a password. 
-* Required: When a user creates a password, he will get a warning that the password doesn't respect the template. The user cannot save the password. 
-* Warning: When a user creates a password, he will get a warning that the password doesn't respect the template. The user can save the password. 
+* Required: When a user creates a password, he will get a warning that the password does not respect the template. The user cannot save the password. 
+* Warning: When a user creates a password, he will get a warning that the password does not respect the template. The user can save the password. 
 		</td>
 	</tr>
 	<tr>

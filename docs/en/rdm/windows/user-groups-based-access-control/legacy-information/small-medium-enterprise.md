@@ -109,7 +109,7 @@ Now the MontrealConsultant will be able to view and open entries only in the Mon
 No need to set any permissions on the Montreal folder, since they are inherited from the parent folders.  
 ![Telemark/Montreal - Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6074.png) 
 
-Finally, the permission to view the Windjammer folder will be set for the ServiceDesk only since we want them to be able to use its child entries. We don’t want them to add or edit anything so we will set the ***Add*** and ***Edit*** permissions to the Administrator user/user group.  
+Finally, the permission to view the Windjammer folder will be set for the ServiceDesk only since we want them to be able to use its child entries. We do not want them to add or edit anything so we will set the ***Add*** and ***Edit*** permissions to the Administrator user/user group.  
 ![Windjammer - Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6053.png) 
 
 ### In Conclusion 

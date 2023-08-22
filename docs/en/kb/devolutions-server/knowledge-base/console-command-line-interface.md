@@ -15,7 +15,7 @@ The ***/help*** switch can be used to list command's parameters.
 
 The following sample command launch the upgrade process from a zip file available in c:\temp folder.
 
-***.\DPS.Console.CLI.exe server upgrade --dps "Default Web Site/dps" --zip "C:\temp\DVLS.2020.3.17.0.zip" --accept-eula -quiet -verbose***
+***.\DPS.Console.CLI.exe server upgrade --dps "Default Web Site/dps" --zip "C:\temp\DVLS.2020.3.17.0.zip" --accept-eula -quiet -verbose***.
 
 The following command will create a new {{ en.DVLS }} instance from a JSON response file (see below) that contains the required parameters. It can be used with any of the main commands of the CLI.
 

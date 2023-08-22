@@ -16,10 +16,10 @@ The smart folder updates dynamically; each time you open the folder it searches.
 
 To choose tags, click ***More options*** A list of tags you have used is available.
 
-To add tags for individual entries, go to the ***More*** section in ***Properties***
+To add tags for individual entries, go to the ***More*** section in ***Properties***.
 
 {% snippet icon.badgeNotice %}
-A tag will automatically be deleted from the list of tags when not used by any entry. To remove a tag from the list, do an Advanced search by Tags. Select all the entries, in the result window, and by right-clicking select ***Edit – Batch Edit – Override the tags*** in the ***Description*** menu, deselect the tag you want to delete and click ***OK***
+A tag will automatically be deleted from the list of tags when not used by any entry. To remove a tag from the list, do an Advanced search by Tags. Select all the entries, in the result window, and by right-clicking select ***Edit – Batch Edit – Override the tags*** in the ***Description*** menu, deselect the tag you want to delete and click ***OK***.
 {% endsnippet %}
 
 ```

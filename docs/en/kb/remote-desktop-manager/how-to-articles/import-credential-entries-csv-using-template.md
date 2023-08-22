@@ -3,7 +3,7 @@ title: Import Credential Entries from a CSV File Using Template
 ---
 Here are the steps to import credentials from a CSV file using a credential template.  
 
-1. Go in ***File - Templates - Entry Templates***  
+1. Go in ***File - Templates - Entry Templates***.  
 ![!!KB4029.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4029.png)
 1. Click on the + button to add a new template.  
 ![!!KB4030.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4030.png)
@@ -11,13 +11,13 @@ Here are the steps to import credentials from a CSV file using a credential temp
 ![!!KB4031.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4031.png)
 1. Set all required parameters and the template name and then click ***OK*** to save the template.  
 ![!!KB4032.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4032.png)
-1. Create the CSV file that contains all credentials you want to import in {{ en.RDM }}  
+1. Create the CSV file that contains all credentials you want to import in {{ en.RDM }}.  
 ![!!KB4033.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4033.png)
-1. Go in ***File - Import - Import Generic Csv Wizard***  
+1. Go in ***File - Import - Import Generic Csv Wizard***.  
 ![!!KB4034.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4034.png)
 1. Select the file you want to import.
-1. Select ***Template*** in the drop down menu and click ***Next***  
+1. Select ***Template*** in the drop down menu and click ***Next***.  
 ![!!KB4035.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4035.png)
 1. Select the ***Credential template*** from the ***Shared*** or ***Local*** tab.
-1. Click ***Next*** and on the ***Finish*** button to import the ***Credential entries***  
+1. Click ***Next*** and on the ***Finish*** button to import the ***Credential entries***.  
 ![!!KB4036.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4036.png)

@@ -20,7 +20,7 @@ Deleted entries can be restored as long as they haven been permanently deleted a
 
 ### Manage Deleted Entries 
 
-The View deleted will generate a list containing all the entries previously deleted from your data source. You may resurrect an entry, meaning it will become an active entry again and will be shown in your data source. You may also chose to permanently delete your entries, once you have permanently deleted your entries you won't be able to resurrect them afterward.  
+The View deleted will generate a list containing all the entries previously deleted from your data source. You may resurrect an entry, meaning it will become an active entry again and will be shown in your data source. You may also chose to permanently delete your entries, once you have permanently deleted your entries you will not be able to resurrect them afterward.  
 ![View Deleted](https://webdevolutions.azureedge.net/docs/en/rdm/mac/2015-09-22_09-58-08.png)  
 
 <table>

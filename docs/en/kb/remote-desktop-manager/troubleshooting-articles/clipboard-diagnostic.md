@@ -21,7 +21,7 @@ The ***Add*** created a persistent rule to always ignore clipboard request from 
 
 ![!!KB4949.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4949.png)  
 
-6. In the ***Configuration*** tab, there is a section called ***Delays***, this is useful for applications like Chrome that asks for the clipboard content more than once. That is used to set a delay for how long we will allow Chrome, for example, to ask for the content of the clipboard. The same logic applies to select which rules are used. We match on process and if supplied the command line and apply the delay. The default is 100 ms, so if for some reason you paste into Chrome but only the password is pasted, try increasing the delay by starting with 150 ms, ***Save*** then try ***Copy Username & Password***
+6. In the ***Configuration*** tab, there is a section called ***Delays***, this is useful for applications like Chrome that asks for the clipboard content more than once. That is used to set a delay for how long we will allow Chrome, for example, to ask for the content of the clipboard. The same logic applies to select which rules are used. We match on process and if supplied the command line and apply the delay. The default is 100 ms, so if for some reason you paste into Chrome but only the password is pasted, try increasing the delay by starting with 150 ms, ***Save*** then try ***Copy Username & Password***.
 1. Did it work? If yes you are done, if not try 200 ms.
 1. If it still fails at 200 ms, set the ***Process name*** to ***Starts with*** instead of ***Equals*** and increase the ***Delay*** to 500 ms.  
 

@@ -1,16 +1,16 @@
 ---
-title: Cisco AnyConnect Connection Issue
+title: Cisco AnyConnect connection issue
 ---
 The Cisco AnyConnect is having issues at connection.
 ### The cisco anyconnect entry is missing from the new entry window
-Make sure that the Add-on is enabled by going under ***Tools - Add-on Manager - VPN***, select ***Cisco AnyConnect VPN Client*** and click ***Activate Add-on***  
+Make sure that the Add-on is enabled by going under ***Tools - Add-on Manager - VPN***, select ***Cisco AnyConnect VPN Client*** and click ***Activate Add-on***.  
 
 ![!!KB4832.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4832.png)
 
 ### The vpn does not start
 1. Make sure that the installation path of your Cisco AnyConnect VPN Client is valid by going under ***File - Options - Paths - Configure Installation Path - Applications - VPN***, select ***Cisco AnyConnect VPN Client*** and use the ellipsis button to choose the correct installation path.  
 {% snippet icon.badgeInfo %}
-This step only applies if you are not using the default installation path “C:\Program Files (x86)\Cisco\Cisco Anyconnect VPN Client\”
+This step only applies if you are not using the default installation path “C:\Program Files (x86)\Cisco\Cisco Anyconnect VPN Client\”.
 {% endsnippet %}  
 
 ![!!KB4833.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4833.png)

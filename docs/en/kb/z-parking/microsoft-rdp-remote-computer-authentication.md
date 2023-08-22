@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP Remote Computer Requires Authentication
+title: Microsoft RDP remote computer requires authentication
 ---
 The connection cannot proceed because authentication is not enabled and the remote computer requires that authentication be enabled to connect.
 
@@ -11,7 +11,7 @@ In modern versions of Windows, like Windows 10 or Windows Server 2016, the RDP d
 
 ### Option 1
 
-In the RDP session check mark ***Activate network level authentication*** than ***OK***  
+In the RDP session check mark ***Activate network level authentication*** than ***OK***.  
 
 ![!!KB4057.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4057.png)
 ### Option 2

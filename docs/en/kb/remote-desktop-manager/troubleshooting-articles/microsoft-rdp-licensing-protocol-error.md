@@ -15,7 +15,7 @@ When you connect to a remote workstation, you receive one of the errors below.
 
 ### Solution 2
 
-In ***File - Options - Types - RDP*** change the RDP engine to ***RDP (FreeRDP Latest)***
+In ***File - Options - Types - RDP*** change the RDP engine to ***RDP (FreeRDP Latest)***.
 
 ### Solution 3
 
@@ -27,4 +27,4 @@ In some cases, and sometimes depending on the host OS, the ***CredSSP*** setting
 
 ### Solution 5
 
-Try to check/uncheck the ***Open Console*** option and see if the error message disappear or is still the same in the ***General*** settings of the ***Properties***
+Try to check/uncheck the ***Open Console*** option and see if the error message disappear or is still the same in the ***General*** settings of the ***Properties***.

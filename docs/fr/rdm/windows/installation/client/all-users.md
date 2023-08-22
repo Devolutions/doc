@@ -22,6 +22,6 @@ Si vous souhaitez poursuivre les mises à niveau à partir de {{ fr.RDM }}, elle
 
 ## Notes 
 
-La technologie d'installation Microsoft copie le paquet d'installation sous un nouveau nom aléatoire et l'enregistre dans une base de données. Notre expérience montre que cette copie peut disparaître et que la base de données devient corrompue. Nous devons souvent demander à notre communauté d'utiliser [Résoudre les problèmes empêchant l’installation ou la suppression de programmes](https://support.microsoft.com/fr-fr/windows/r%C3%A9soudre-les-probl%C3%A8mes-emp%C3%AAchant-l-installation-ou-la-suppression-de-programmes-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d)  
+La technologie d'installation Microsoft copie le paquet d'installation sous un nouveau nom aléatoire et l'enregistre dans une base de données. Notre expérience montre que cette copie peut disparaître et que la base de données devient corrompue. Nous devons souvent demander à notre communauté d'utiliser [Résoudre les problèmes empêchant l’installation ou la suppression de programmes](https://support.microsoft.com/fr-fr/windows/r%C3%A9soudre-les-probl%C3%A8mes-emp%C3%AAchant-l-installation-ou-la-suppression-de-programmes-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d).  
 
 Les paramètres ***Silencieux*** et ***Passif*** sont juste pour vous assurer que vous n'avez pas à faire de choix lors de l'installation. Nous avons constaté que cela réduit le risque d'erreurs. 

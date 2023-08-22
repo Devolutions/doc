@@ -1,7 +1,7 @@
 ---
 title: HTML Export Using Symmetric Encryption
 ---
-As we all know, email isn't secure. But it’s convenient, fast and free – and so many of us ignore the security risks.  
+As we all know, email is not secure. But it’s convenient, fast and free – and so many of us ignore the security risks.  
 
 Yet when you step back and think about it, ask yourself: Would you ever think of sending cash through the regular mail? Even sending it through a courier is risky! But if you send sensitive information via email, that’s pretty much what you’re doing.  
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} Enable RDP Remote Tools
+  title: Remote Desktop Manager {{ en.MAC }} enable RDP Remote Tools
 ---
 {% snippet icon.badgeInfo %}
 Devolutions Proxy is deprecated, this function will work with {{ en.DVLS }}.
@@ -14,9 +14,9 @@ Prior to your configuration in {{ en.RDMMAC }}, a Devolutions Proxy needs to be 
 
 1. After the deployment of your Devolutions Proxy, open {{ en.RDMMAC }} and click on ***{{ en.RDM }} – Preferences***.  
 ![!!KB4209.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4209.png)
-1. Click on ***Tools - Remote Tools*** and in the ***Access mode***, select ***Via custom Devolutions Proxy***  
+1. Click on ***Tools - Remote Tools*** and in the ***Access mode***, select ***Via custom Devolutions Proxy***.  
 ![!!KB4210.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4210.png)
-1. Enter the ***Server*** name where your Devolutions Proxy has been deployed and ***Save***  
+1. Enter the ***Server*** name where your Devolutions Proxy has been deployed and ***Save***.  
 ![!!KB4211.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4211.png)
 1. Go in the ***{{ en.NPANE }}***, edit your RDP session entry and click on ***Remote Tools*** Set the ***Access mode*** to ***Default*** to use the Devolutions Proxy.  
 ![!!KB4212.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4212.png)  
@@ -28,7 +28,7 @@ The Remote Tools will now be available via the Dashboard for your RDP sessions.
 1. After the deployment of your Devolutions Proxy, open {{ en.RDMMAC }}. Right-click your RDP session, click ***Properties***.  
 1. Click on ***Remote Tools***.  
 ![!!KB4213.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4213.png)
-1. In ***Access Mode***, select ***Via custom Devolutions Proxy*** and enter the ***Server*** name for the Devolutions Proxy, ***Save***  
+1. In ***Access Mode***, select ***Via custom Devolutions Proxy*** and enter the ***Server*** name for the Devolutions Proxy, ***Save***.  
 ![!!KB4214.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4214.png)  
 
 The Remote Tools will now be available via the Dashboard for this RDP session.

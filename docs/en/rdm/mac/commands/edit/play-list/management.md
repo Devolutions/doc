@@ -1,7 +1,7 @@
 ---
 title: Management
 ---
-There's 3 way to Open a Play List: 
+There are 3 way to Open a Play List: 
 
 <table>
 	<tr>

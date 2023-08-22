@@ -54,7 +54,7 @@ LogMode: 1 = Printable Output, 0 = Event
 TerminalLogOverwriteMode: 0 = default, 1 = prompt, 2 = append, 3 = overwrite  
 ```
 
-Here's also other options that you can modify; 
+Here are also other options that you can modify; 
 
 ```powershell
 $connection.Terminal.BellMode = 'Visual' 

@@ -13,7 +13,7 @@ In this example the ***RD Connection Broker*** role and the ***RD Web Access*** 
 ![!!KB4743.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4743.png)
 2. When creating a new RDP host entry in {{ en.RDM }} if you attempt to use the same configuration from the RDP file downloaded from the RDS website it will fail. {{ en.RDM }} needs to be pointed to the session host server that actually hosts the application you are attempting to launch via RemoteApp. In this case, our DNS application is installed on the server RDS-SESSION.CONTOSO.COM, so that is the server address we will use for the host entry.  
 {% snippet icon.badgeCaution %}
-RemoteApp’s will only launch in external mode, set the ***Display*** field to ***External***
+RemoteApp’s will only launch in external mode, set the ***Display*** field to ***External***.
 {% endsnippet %}  
 
 ![!!KB4744.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4744.png)

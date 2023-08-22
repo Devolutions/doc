@@ -23,6 +23,6 @@ The process may take some time depending on the number of groups and users in Az
 5. Once completed, try to import a user or a group.
 6. On success, adapt the refresh rate in ***Administration - Server Settings - Authentication - Microsoft Authentication - Microsoft Authentication Users and User Groups Cache*** to allow enough time to completely refresh the AAD cache.  
 ![!!KB5014.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5014.png)
-1. Back in the {{ en.DVLSCONSOLE }}, go in the ***Companions*** to start the ***Scheduler Service***  
+1. Back in the {{ en.DVLSCONSOLE }}, go in the ***Companions*** to start the ***Scheduler Service***.  
 ![!!KB5015.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5015.png)
 1. On the {{ en.DVLS }} web interface, go in ***Administration - Server Settings - Logging*** and disable the ***Log debug information*** option.

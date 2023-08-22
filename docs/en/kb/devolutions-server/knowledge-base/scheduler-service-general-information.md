@@ -16,8 +16,8 @@ The ***Scheduler Service*** is a {{ en.DVLS }} component in charge of several fe
   * Mandatory when using ***PAM features***.
 * [Backup Manager](/server/web-interface/administration/backup/backup-manager/)
   * Mandatory when the ***Backup Manager*** is enabled through the {{ en.DVLS }} web UI in ***Administration – Backup – Backup Manager***, either for:
-    * ***Enable database backup***
-    * ***Enable web backup***
+    * ***Enable database backup***.
+    * ***Enable web backup***.
       ![Enable database backup / Enable web backup](https://webdevolutions.azureedge.net/docs/en/kb/KB4955.png)
 * Notifications
   * Mandatory when any ***Notification*** is set.

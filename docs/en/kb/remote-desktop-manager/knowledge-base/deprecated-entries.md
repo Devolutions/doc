@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 For several reasons, multiple entries are tagged as deprecated in {{ en.RDM }}.  
 Here is how to display them:
-1. Got to ***Edit*** and click on ***New Entry***
+1. Go to ***Edit*** and click on ***New Entry***.
 1. Click on the ellipsis at the bottom left of the ***Add New Entry*** window.
 1. Select ***Show Deprecated Entries***.  
 

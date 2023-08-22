@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Even if Ubuntu is the only officially supported distro for {{ en.RDM }}, we know Linux is all about choices and we would not want to change that.  
 
-In that optic, here's a little guide to help you install {{ en.RDMLINUX }} on your preferred, unsupported distro.  
+In that optic, here is a little guide to help you install {{ en.RDMLINUX }} on your preferred, unsupported distro.  
 
 First of all, dependencies:  
 

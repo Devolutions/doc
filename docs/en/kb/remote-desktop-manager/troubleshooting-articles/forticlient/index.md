@@ -13,7 +13,7 @@ Company terminology:
 ### Solution
 The CLI for FortiSSL is not included anymore with the download of FortiClient. You need to download the tools related to the current version of FortiClient [here](https://support.fortinet.com/login/UserLogin.aspx)  
 {% snippet icon.badgeInfo %}
-You need to have a support plan with Fortinet to download the tools. If you don't have a support plan, try to contact Fortinet directly and ask them to send you the file.
+You need to have a support plan with Fortinet to download the tools. If you do not have a support plan, try to contact Fortinet directly and ask them to send you the file.
 {% endsnippet %}  
 
 The file FortiSSLVPNClient.exe needs to be saved in the installation folder of FortiClient.

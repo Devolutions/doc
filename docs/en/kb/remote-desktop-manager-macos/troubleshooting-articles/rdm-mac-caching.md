@@ -10,7 +10,7 @@ Press Cmd+Shift+R on your keyboard.
 
 ## Method 2
 
-Hold Shift on your keyboard and click on the refresh button in the ***Quick Access Toolbar***
+Hold Shift on your keyboard and click on the refresh button in the ***Quick Access Toolbar***.
 ![!!KB2000.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2000.png)
 
 ## Method 3

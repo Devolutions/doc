@@ -3,7 +3,7 @@ title: Play List actions
 ---
 {% youtube 'VTGPUMl5zKY' %}  
 
-You can create Local or Shared play List in {{ en.RDM }}. There's several methods to create or edit a Play List:  
+You can create Local or Shared play List in {{ en.RDM }}. There are several methods to create or edit a Play List:  
 
 * Using the Play List Management. 
 * Create Play List depending on entries state and selection. 

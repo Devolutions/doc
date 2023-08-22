@@ -6,7 +6,7 @@ description: This topic will cover both the PAM checkout process and the PAM che
 A license is required to enable the Privileged Access Management (PAM) module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license. 
 {% endsnippet %}  
 
-This topic will cover both the [PAM checkout process](#checkout) and the [PAM checkout using a custom time frame](#checkout-with-custom-time). The latter option is especially useful for planned maintenance outside of normal work hours, when approvers aren't available.
+This topic will cover both the [PAM checkout process](#checkout) and the [PAM checkout using a custom time frame](#checkout-with-custom-time). The latter option is especially useful for planned maintenance outside of normal work hours, when approvers are not available.
 
 ## Checkout
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.

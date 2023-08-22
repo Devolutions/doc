@@ -42,8 +42,8 @@ Your data has been exported to the destination folder you specified in step 3.
    | Variable                | Description |
    | ----------------------- | ----------- |
    | `$url`                  | Enter your {{ en.DHUBB }} URL. This variable is automatically filled in, but it is still possible to change it. |
-   | `$appSecret`            | Enter the application user's ***Application Secret*** |
-   | `$appKey`               | Enter the application user's ***Application key***    |
+   | `$appSecret`            | Enter the application user's ***Application Secret***. |
+   | `$appKey`               | Enter the application user's ***Application key***. |
    | `$pathToExportedFolder` | Enter the ***Destination folder path*** This is where your data will be exported. |
 
    ![Variables in PowerShell](https://webdevolutions.azureedge.net/docs/en/kb/KB2082.png)
