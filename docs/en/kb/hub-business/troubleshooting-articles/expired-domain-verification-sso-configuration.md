@@ -14,7 +14,7 @@ Follow these steps for a workaround:
 1. Next, follow the complete verification steps **without** changing the TXT record (click ***Next*** and ignore the data).
 ![Verification steps](https://webdevolutions.azureedge.net/docs/en/kb/KB2244.png)
 
-1. Go back to your Okta configuration page.
+1. Go back to your provider's configuration page.
 1. In the first configuration step, change the ***Domain*** name to the correct one, then click ***Continue***.
 ![Correct domain name](https://webdevolutions.azureedge.net/docs/en/kb/KB2245.png)
 
