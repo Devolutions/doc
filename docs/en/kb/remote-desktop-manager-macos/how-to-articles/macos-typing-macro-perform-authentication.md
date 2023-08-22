@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} Typing Macro to Perform Authentication
+  title: Remote Desktop Manager {{ en.MAC }} typing macro to perform authentication
 ---
 With {{ en.RDMMAC }}, it is possible to send the credential through a typing macro using variables.  
 
@@ -8,5 +8,5 @@ With {{ en.RDMMAC }}, it is possible to send the credential through a typing mac
 ![!!KB4217.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4217.png)
 1. In the ***Security – Security Settings – Others*** section of the left menu, check the ***Allow password in variable*** option. This option needs to be checked so that the typing macro can send the password to the remote session.  
 ![!!KB4218.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4218.png)
-1. In the ***Connection – Events*** section, click on the ***After open*** tab and add in the ***Typing macro*** section: $USERNAME${TAB}$PASSWORD${ENTER}. Click on ***Save***  
+1. In the ***Connection – Events*** section, click on the ***After open*** tab and add in the ***Typing macro*** section: $USERNAME${TAB}$PASSWORD${ENTER}. Click on ***Save***.  
 ![!!KB4219.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4219.png)

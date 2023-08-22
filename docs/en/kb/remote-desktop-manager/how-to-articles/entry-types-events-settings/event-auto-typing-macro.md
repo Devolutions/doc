@@ -14,7 +14,7 @@ Be advised that using this feature in an environment where passwords must be hid
 ### Typing macro
 Keyboard keys are represented by predefined tags between braces. To specify a single keyboard character, use the character itself without braces. For example, represent the letter ***A*** by typing the "A" character in the typing macro. To represent more than one character, such as ***Hello***, append each additional character to the preceding one: "Hello".
 ### Special keys
-To specify characters that aren't displayed when you press a key, such as ENTER or TAB, as well as the keys that represents actions rather than characters, refer to the codes in the following table.  
+To specify characters that are not displayed when you press a key, such as ENTER or TAB, as well as the keys that represents actions rather than characters, refer to the codes in the following table.  
 
 <table>
 	<tr>

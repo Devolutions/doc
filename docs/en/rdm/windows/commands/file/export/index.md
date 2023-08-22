@@ -1,7 +1,7 @@
 ---
 title: Export
 ---
-Use File – Export to export vaults from {{ en.RDM }}. 
+Use ***File – Export*** to export vaults from {{ en.RDM }}. 
 
 {% snippet icon.badgeInfo %} 
 The export feature is only active if the ***Import*** and ***Export Privileges*** has been enabled inside the ***User Management*** account. 
@@ -54,7 +54,7 @@ Export the vault with an AES-256 to encrypt self contained html file. See [Expor
 
 ### Export vault (.xml) 
 
-Because it brought confusion to our user base, this export format has been converted to perform the exact same export as the ***Export Vault***  but sets the file extension to .xml instead. 
+Because it brought confusion to our user base, this export format has been converted to perform the exact same export as the ***Export Vault*** but sets the file extension to .xml instead. 
 
 ### Export All Documents 
 
@@ -67,6 +67,3 @@ Export your ***My Personal Credentials*** in a .rdm file and encrypt with a ***M
 {% snippet icon.badgeWarning %} 
 A ***Master key*** will encrypt the .rdm file to protect its content. The key is absolutely necessary for decryption. 
 {% endsnippet %}
- 
-
-

@@ -59,7 +59,7 @@ No credentials will be allowed to be saved or linked to this entry
 Find by name (User Vault)
 		</td>
 		<td>
-Will search the ***User Vault*** for the name specified. If the box is left empty, when launch, a ***Credential list*** will open with all available ***Credentials*** entry from the ***User Vault***
+Will search the ***User Vault*** for the name specified. If the box is left empty, when launch, a ***Credential list*** will open with all available ***Credentials*** entry from the ***User Vault***.
 		</td>
 	</tr>
 	<tr>
@@ -75,7 +75,7 @@ Will use pre-existing Privileged account from the same data source
 My privileged account
 		</td>
 		<td>
-Will use the chosen username/password combo. Needs to first be set up in ***File*** – ***My Account Settings*** – ***My Defaults*** – ***My Privileged Account***
+Will use the chosen username/password combo. Needs to first be set up in ***File*** – ***My Account Settings*** – ***My Defaults*** – ***My Privileged Account***.
 		</td>
 	</tr>
 </table>

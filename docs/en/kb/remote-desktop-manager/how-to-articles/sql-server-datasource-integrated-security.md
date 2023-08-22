@@ -13,17 +13,17 @@ Any user (domain, local machine or SQL user) that has a server role of ***sysadm
 
 The first step is to create the database that will store all your entries.
 
-Click on the ***ellipsis*** button in the ***{{ en.NPANE }}***, then click on ***Add a new data source***  
+Click on the ***ellipsis*** button in the ***{{ en.NPANE }}***, then click on ***Add a new data source***.  
 ![!!KB4587.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4587.png)  
 
-Select the ***Microsoft SQL Server*** data source and click ***OK***  
+Select the ***Microsoft SQL Server*** data source and click ***OK***.  
 ![!!KB4588.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4588.png)  
 
-- Specify the ***Name, Server*** and ***Database***  
+- Specify the ***Name, Server*** and ***Database***.  
 - Authenticate with a user that is part of the ***sysadmin*** role.  
 ![!!KB4589.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4589.png)  
 {% snippet icon.badgeInfo %}
-If the logged-on Windows User is not part of the SQL Server ***sysadmin*** role and you've configured the server to use SQL Server and Windows Authentication Mode, then use a SQL Server user (SA for example) that has the appropriate user groups assigned. You can then add yourself as a {{ en.RDM }} user later and change the data source to use Integrated security.
+If the logged-on Windows User is not part of the SQL Server ***sysadmin*** role and you have configured the server to use SQL Server and Windows Authentication Mode, then use a SQL Server user (SA for example) that has the appropriate user groups assigned. You can then add yourself as a {{ en.RDM }} user later and change the data source to use Integrated security.
 {% endsnippet %}  
 
 - From the upgrade tab, click ***Test Server*** then ***Create Database*** to create the SQL Server database.  
@@ -33,10 +33,10 @@ Press ***OK*** to close the dialogs. In the ***{{ en.NPANE }}***, select the new
 
 ## Create users
 
-To create users, navigate to Administration – Users  
+To create users, navigate to ***Administration – Users***.  
 ![!!KB4592.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4592.png)  
 
-Click ***Add Users***  
+Click ***Add Users***.  
 ![!!KB4593.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4593.png)  
 
 Check the ***Integrated security (Active Directory)*** box and click the ellipsis button to select the domain user to add.  

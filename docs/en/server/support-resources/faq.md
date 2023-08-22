@@ -41,7 +41,7 @@ Yes, {{ en.DVLS }} is subscription based. You can subscribe for one (1) year or 
 
 ## What if I no longer want/need a {{ en.DVLS }}? is my data still accessible?
 
-You need to renew your subscription agreement upon expiry. If you don’t renew your subscription, access to your data will be limited to view only. That being said, you will be able to export your data if you choose to migrate to another type of data source than {{ en.DVLS }}. 
+You need to renew your subscription agreement upon expiry. If you do not renew your subscription, access to your data will be limited to view only. That being said, you will be able to export your data if you choose to migrate to another type of data source than {{ en.DVLS }}. 
 
 ## Can I upgrade from a sql server data source to {{ en.DVLS }}?
 

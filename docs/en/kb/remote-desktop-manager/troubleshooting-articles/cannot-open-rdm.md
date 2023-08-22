@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Cannot open {{ en.RDM }}
 ---
-{{ en.RDM }} doesn't open after the splash screen.
+{{ en.RDM }} does not open after the splash screen.
 ### Solution
 This is due to an issue with the {{ en.RDM }} configuration file. The file is located in ***%localappdata% – Devolutions – RemoteDesktopManager*** and is called RemoteDesktopManager.cfg.  
 

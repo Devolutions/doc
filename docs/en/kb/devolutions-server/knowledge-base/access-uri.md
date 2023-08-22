@@ -17,7 +17,7 @@ The Access URI is case sensitive and must respect the certificate host name. Ens
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-There can be more than one Access URI. Click the ellipsis button to add or manage additional ***Access URI***
+There can be more than one Access URI. Click the ellipsis button to add or manage additional ***Access URI***.
 {% endsnippet %}  
 
 ![Server – Edit – ISS.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5020.png)

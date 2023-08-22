@@ -20,16 +20,16 @@ Go to the section that corresponds to your needs:
 ![Import Source.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2084.png)
 1. Upload your .csv or .json file.  
 ![File Upload.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2085.png)
-1. Select a ***Destination folder***  
+1. Select a ***Destination folder***.  
 ![Destination Folder.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2086.png)
-1. Click ***Next***
+1. Click ***Next***.
 1. Select which entry to import in your {{ en.DHUBP }}.  
 ![Entry Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2087.png)  
 {% snippet icon.shieldCaution %}
 The ***Change ID*** box at the bottom left of the window is checked by default, meaning your entry IDs will be changed upon import. For security purposes, it is recommended to leave it checked.
 {% endsnippet %}  
 
-6. Click ***Import***
+6. Click ***Import***.
 Your data has been imported to the destination folder you previously specified.
 
 ### Export Data

@@ -4,7 +4,7 @@ status: Topic available in German language
 ---
 The following describe what you will need to install before installing {{ en.DVLS }}.
 
-Please contact us at [service@devolutions.net](mailto:service@devolutions.net) to book a session where we'll help out to install {{ en.DVLS }}.
+Please contact us at [service@devolutions.net](mailto:service@devolutions.net) to book a session where we will help out to install {{ en.DVLS }}.
 
 ## STEPS
 

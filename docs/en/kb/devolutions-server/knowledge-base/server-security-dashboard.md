@@ -33,14 +33,14 @@ The scores are admittedly open to question and we do not pretend each topic has 
 |             |     |
 | ----------- | --- |
 | Description | An email server configuration is required to transmit important application messages such as security events or errors. |
-| Mitigation  | Email server settings are in the web interface ***Administration - Server Settings - Email***                           |
+| Mitigation  | Email server settings are in the web interface ***Administration - Server Settings - Email***.                           |
 
 ### External logging destination should be configured
 
 |             |     |
 | ----------- | --- |
 | Description | Sending logs to an external system is recommended to maintain integrity and availability of event information. |
-| Mitigation  | Logging is configured in the web interface ***Administration - Server Settings - Logging***                    |
+| Mitigation  | Logging is configured in the web interface ***Administration - Server Settings - Logging***.                    |
 
 ### Secure https communications should be enabled
 

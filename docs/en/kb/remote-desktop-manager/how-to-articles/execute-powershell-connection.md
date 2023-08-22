@@ -1,7 +1,7 @@
 ---
 title: Execute a PowerShell Prior to Open a Connection
 ---
-It's possible to execute a PowerShell script before establishing a connection, cancel the launching or even import external PowerShell scripts. To accomplish this you would need to go into the ***Properties*** of the entry under ***Events - Before Open - PowerShell***.
+It is possible to execute a PowerShell script before establishing a connection, cancel the launching or even import external PowerShell scripts. To accomplish this you would need to go into the ***Properties*** of the entry under ***Events - Before Open - PowerShell***.
 
 Using the $RDM.connection property, the script temporarily changes any of the session properties in the context of the session launch only. When the session is closed, the properties revert back to their original values.
 

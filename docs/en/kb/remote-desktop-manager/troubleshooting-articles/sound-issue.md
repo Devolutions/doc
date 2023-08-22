@@ -6,9 +6,9 @@ When launching an RDP entry, who is set up with approval for sound, {{ en.RDMMAC
 ### Solution
 A computer policy setting in Windows needs to be changed.  
 
-1. Open the Windows ***Local Group Policy Editor***
-1. Go to ***Computer Configuration - Administrative Templates - Windows Components - App Privacy***
-1. Enable ***Let Windows apps make phone calls***
+1. Open the Windows ***Local Group Policy Editor***.
+1. Go to ***Computer Configuration - Administrative Templates - Windows Components - App Privacy***.
+1. Enable ***Let Windows apps make phone calls***.
 1. Set it to ***User is in control*** and save.  
 
 {% snippet icon.badgeCaution %}

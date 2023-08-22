@@ -6,7 +6,7 @@ When trying to connect to an RDP host in {{ en.RDMMAC }} you get the error messa
 ### Solution
 The workaround is to increase the default ***TCP acknowledgement timeout*** to 30 seconds (30000).  
 
-* This setting can be changed globally for all RDP entries in ***File - Preferences - Types - RDP - Connection***  
+* This setting can be changed globally for all RDP entries in ***File - Preferences - Types - RDP - Connection***.  
 
 ![!!KB5018.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5018.png)  
 

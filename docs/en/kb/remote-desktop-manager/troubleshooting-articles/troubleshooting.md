@@ -2,13 +2,13 @@
 title: Troubleshooting
 ---
 ### Problem 1
-My mapped network drive(s) are not available when using run as administrator to launch {{ en.RDM }}
+My mapped network drive(s) are not available when using run as administrator to launch {{ en.RDM }}.
 ### Solution 1
 This is because of User Access Control (UAC), a built-in security layer of Windows. Effectively you are considered a different user with different preferences, the Mapped network drives being one such preference.  
 
 In order to have the same mapped drives, you have a few options:  
 
-1. Using an elevated command prompt, recreate the same mapped drive(s) using the NET USE {DRIVENAME} {SHARENAME} /PERSISTENT:YES command
+1. Using an elevated command prompt, recreate the same mapped drive(s) using the NET USE {DRIVENAME} {SHARENAME} /PERSISTENT:YES command.
 1. Modifying the registry to link connections between the accounts, see [https://support.microsoft.com/en-us/kb/937624](https://support.microsoft.com/en-us/kb/937624)
 ### Problem 2
 Could not load file or assembly "system.enterpriseservices.wrapper.dll or one of its dependencies". The system cannot find the path specified.
@@ -25,11 +25,11 @@ The end result should look like:
 
 `<startup useLegacyV2RuntimeActivationPolicy="true">`
 ### Problem 4
-Can't paste in any fields of {{ en.RDM }}
+Cannot paste in any fields of {{ en.RDM }}.
 ### Solution 4
 Webroot SecureAnywhere AntiVirus may cause the issue because of the Identity Protection module. Set remotedesktopmanager.exe to ***Allow*** and it will let you paste again in the application.
 ### Problem 5
 All of my sessions open in embedded and/or external mode.
 ### Solution 5
-This can be changed by going in ***File - Options - User Interface - {{ en.NPANE }} - Default connect action***  
+This can be changed by going in ***File - Options - User Interface - {{ en.NPANE }} - Default connect action***.  
 ![!!KB4080.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4080.png)

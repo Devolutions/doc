@@ -5,8 +5,8 @@ title: Add an RDP Entry
 
 Here are the basics to get you started.  
 
-1. On the ***Edit*** tab, click ***New Entry***
-1. Choose ***RDP (Microsoft Remote Desktop)***
+1. On the ***Edit*** tab, click ***New Entry***.
+1. Choose ***RDP (Microsoft Remote Desktop)***.
 1. Enter a n ame for the session.
 1. Choose a ***Display*** mode, the most common are:
     * ***Embedded*** (tabbed) opens a new tab in {{ en.RDM }}.
@@ -21,4 +21,4 @@ Here are the basics to get you started.
 ### Open a RDP session
 Click ***Open Session*** on the ***Home*** tab or in the ***Dashboard***.  
 
-You can open more than one session at once. With embedded sessions you can switch between the tabs or monitor connections simultaneously: use thumbnail view or [rearrange open sessions with split screen](/rdm/windows/user-interface/content-area/embedded-sessions/)
+You can open more than one session at once. With embedded sessions you can switch between the tabs or monitor connections simultaneously: use thumbnail view or [rearrange open sessions with split screen](/rdm/windows/user-interface/content-area/embedded-sessions/).

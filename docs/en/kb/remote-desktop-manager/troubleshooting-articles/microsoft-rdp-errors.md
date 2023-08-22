@@ -7,7 +7,7 @@ Cannot copy <filename>: windows cannot find ‘%1!|s!’. Check the spelling and
 
 ### Solution 1
 
-This is a bug in the Microsoft Remote Desktop Client. The workaround is to enable the ***Smart Card*** in Windows, even if it's not required for the connection.
+This is a bug in the Microsoft Remote Desktop Client. The workaround is to enable the ***Smart Card*** in Windows, even if it is not required for the connection.
 
 ### Problem 2
 
@@ -28,7 +28,7 @@ I have multiple sessions to the same computer with different credentials, but it
 
 ### Solution 3
 
-This issue stems from the fact that the Windows Credential repository holds only one entry per Windows user for a remote computer. If you use the Embedded (tabbed) display mode and store the password in the database, you'll be able to work around this limitation.
+This issue stems from the fact that the Windows Credential repository holds only one entry per Windows user for a remote computer. If you use the Embedded (tabbed) display mode and store the password in the database, you will be able to work around this limitation.
 
 ### Problem 4
 
@@ -36,7 +36,7 @@ The windows shortcuts are being performed in the session but always on my comput
 
 ### Solution 4
 
-You must configure the ***Keyboard*** setting in the ***Local Resources*** tab of the session settings. You can select ***On the remote computer*** or In ***full screen only***  
+You must configure the ***Keyboard*** setting in the ***Local Resources*** tab of the session settings. You can select ***On the remote computer*** or In ***full screen only***.  
 
 ![!!KB4073.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4073.png)
 
@@ -51,11 +51,11 @@ This issue arises when a program called RDPClip becomes unstable. You can kill i
 1. On the affected system, load up task manager (right-click in taskbar and select ***Task Manager***).
 1. Go to the ***Processes*** tab.
 1. Select rdpclip.exe.
-1. Click ***End Process***
+1. Click ***End Process***.
 1. Go to the ***Application*** tab.
-1. Click ***New Process***
+1. Click ***New Process***.
 1. Type rdpclip.
-1. Click ***Ok***
+1. Click ***Ok***.
 
 ### Problem 6
 
@@ -63,7 +63,7 @@ Copy/paste operation within the remote host are extremely slow.
 
 ### Solution 6
 
-We've isolated the issue to ***Serial Ports*** being enabled. Turn off ***Serial port sharing*** and see if the performance is improved.
+We have isolated the issue to ***Serial Ports*** being enabled. Turn off ***Serial port sharing*** and see if the performance is improved.
 
 ### Problem 7
 
@@ -71,10 +71,10 @@ Log on username on windows server 2012 is sent incorrectly
 
 ### Solution 7
 
-When you try to connect to a Windows Server 2012, you see the following result. There are several spaces that shouldn't be there.  
+When you try to connect to a Windows Server 2012, you see the following result. There are several spaces that should not be there.  
 
 ![!!KB4074.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4074.png)  
 
-To fix this issue, go in ***Properties – General – Advanced*** and change the option ***Enable CredSSP support*** to ***True***  
+To fix this issue, go in ***Properties – General – Advanced*** and change the option ***Enable CredSSP support*** to ***True***.  
 
 ![!!KB4075.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4075.png)

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Office has to be Installed
+title: Microsoft Office has to be installed
 ---
 When the embedded mode is used, an error is displayed that office has to be installed, yet it already is.  
 
@@ -7,7 +7,7 @@ Under certain conditions which we cannot identify, an Office 2013 32 bit Edition
 
 ## Solution
 
-This can be confirmed by going in ***Help – Application Logs*** to view the full error message. It should be something like ***System.Runtime.InteropServices.COMException: The associated COM server does not support ActiveX Document embedding***  
+This can be confirmed by going in ***Help – Application Logs*** to view the full error message. It should be something like ***System.Runtime.InteropServices.COMException: The associated COM server does not support ActiveX Document embedding***.  
 
 To resolve this, you have to create a reg file with the content below and merge it in your registry. A restart may be required.  
 

@@ -13,7 +13,7 @@ You can now go under ***File - Options - Types - Credentials***, under the LastP
 
 Here is a brief overview of what each mode does:  
 
-1. Don't trust this device: You will be prompted for your 2FA every time you will use your LastPass entry.
+1. Do not trust this device: You will be prompted for your 2FA every time you will use your LastPass entry.
 1. Trust this device: You will be prompted once for your 2FA on this device.
 1. Trust this device (clear on application close): You will be prompted once for your 2FA on this device but the token will be cleared when you will close the application.  
 

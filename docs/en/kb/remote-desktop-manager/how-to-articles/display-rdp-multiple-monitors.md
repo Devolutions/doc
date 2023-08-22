@@ -7,22 +7,22 @@ In {{ en.RDM }} it is possible to display multiple remote screens from an RDP se
 You will need to have as many monitors locally. For example, if you only have one local monitor, and the remote has two, you will only be able to see the primary screen of the remote.
 
 {% snippet icon.badgeInfo %}
-To view an application that does not present itself on the displayed monitor we found this [topic](https://superuser.com/questions/53585/how-to-move-windows-that-open-up-offscreen) that uses the key combination Windows+Shift+Left/Right  Also many applications let you right-click on the icon in the task bar and use the ***Move to the current display*** option.
+To view an application that does not present itself on the displayed monitor we found this [topic](https://superuser.com/questions/53585/how-to-move-windows-that-open-up-offscreen) that uses the key combination Windows+Shift+Left/Right. Also, many applications let you right-click on the icon in the task bar and use the ***Move to the current display*** option.
 {% endsnippet %}
 
-1. In the ***Properties*** of an RDP entry, change the local ***Display*** for ***External***  
+1. In the ***Properties*** of an RDP entry, change the local ***Display*** for ***External***.  
 {% snippet icon.badgeCaution %}
 The multiple monitor display is only available in ***External*** display mode.
 {% endsnippet %}  
 
-2. In the remote ***Display*** section enable the option ***Span on multiple screens if possible***  
+2. In the remote ***Display*** section enable the option ***Span on multiple screens if possible***.  
 ![!!KB4711.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4711.png)
 
 ## Use multiple monitors for the remote session
 
 The Windows screen display ID are not necessarily the same as the RDP. The RDP monitors ID will also start with 0, not 1.
 
-To discover your own RDP screen settings, please use the command mstsc /l  
+To discover your own RDP screen settings, please use the command mstsc /l.  
 ![!!KB4757.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4757.png)  
 
 When enabling the ***Use multiple monitors for the remote session*** option in the remote ***Display*** section. You can choose between ***All*** or ***Selected***.  

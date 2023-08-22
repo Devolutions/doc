@@ -18,7 +18,7 @@ These values originate from the Microsoft’s documentation [FIPS140.2 annex A s
 
 ## Settings
 
-1. In {{ en.RDM }}, go to ***File - Options - Types - Terminal - Algorithm Support***
+1. In {{ en.RDM }}, go to ***File - Options - Types - Terminal - Algorithm Support***.
 1. In the ***Cipher*** tab, uncheck:
     * Chacha20 Poly1305 (openssh<area>.com)
     * Aes256 Gcm (openssh<area>.com)
@@ -44,4 +44,4 @@ These values originate from the Microsoft’s documentation [FIPS140.2 annex A s
     * Hmac Md5 96
     * Hmac Md5  
 ![!!KB4864.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4864.png)
-1. Click ***OK***
+1. Click ***OK***.

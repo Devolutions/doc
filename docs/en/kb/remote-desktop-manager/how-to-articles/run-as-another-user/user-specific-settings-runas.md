@@ -12,9 +12,9 @@ The ***User Specific Settings*** feature does not give you access to the ***Run 
 
 1. Configure a ***Command Line*** session.  
 ![!!KB4663.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4663.png)
-1. Click on the ***Run as*** tab and set the ***Credentials*** to ***Current session*** then click ***OK***  
+1. Click on the ***Run as*** tab and set the ***Credentials*** to ***Current session*** then click ***OK***.  
 ![!!KB4664.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4664.png)
-1. In the ***Edit - User Specific Settings*** window, override the credentials and enter your own set and click ***OK***  
+1. In the ***Edit - User Specific Settings*** window, override the credentials and enter your own set and click ***OK***.  
 ![!!KB4665.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4665.png)  
 This is the result from our example:  
 ![!!KB4666.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4666.png)

@@ -1,5 +1,5 @@
 ---
-title: Adding New Entry in User Vault on SQL Azure Doesn't Work
+title: Adding New Entry in User Vault on SQL Azure does not Work
 ---
 You are able to create new entries inside the shared vault, but not in the {{ en.UVLT }} You create the new entry, but it never appears under the {{ en.UVLT }}
 ### Solution

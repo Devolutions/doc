@@ -12,5 +12,5 @@ Wenn im {{ de.RDM }} ein Fehlerdialog erscheint, gehen Sie folgendermaßen vor, 
 
 1. Klicken Sie auf ***Fehlerbericht senden***.  
 ![!!KB4439.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4439.png)
-1. Geben Sie Ihre Kontaktinformationen und eine ausführliche Beschreibung des Problems ein und drücken Sie auf ***Senden***
+1. Geben Sie Ihre Kontaktinformationen und eine ausführliche Beschreibung des Problems ein und drücken Sie auf ***Senden***.
 ![!!KB4440.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4440.png)

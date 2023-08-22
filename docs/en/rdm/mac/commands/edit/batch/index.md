@@ -19,7 +19,7 @@ You could also change:
 You can select multiple entries by using Command and mouse click. For a method with a little more power, use our [Advanced Search](/rdm/mac/commands/view/advanced-search/) dialog, accessible from ***View - Advanced Search***. The Advanced Search allows you to select multiple criteria at once.  
 ![Advanced Search](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10605.png) 
 
-After you've tweaked your criteria to get the results you want, press on Select in ***{{ en.NPANE }}*** and then ***Action - Batch Edit***. 
+After you have tweaked your criteria to get the results you want, press on Select in ***{{ en.NPANE }}*** and then ***Action - Batch Edit***. 
 
 ## Settings 
 
@@ -64,7 +64,7 @@ Use a Credential entry linked entry which can can be external credentials like K
 Use inherited 
 		</td>
 		<td>
-Use the credentials of it's parent entry or group. 
+Use the credentials of its parent entry or group. 
 		</td>
 	</tr>
 	<tr>
@@ -129,7 +129,7 @@ Edit Sessions Session Type Settings is only available for specific session types
 
 ### Edit Sessions (User Specific Settings) 
 
-User Specific Settings can be modified in a batch if they're supported by the session type.  
+User Specific Settings can be modified in a batch if they are supported by the session type.  
 ![Batch Edit - User Specific settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10349.png) 
 
 ### Edit Sessions (Security Group Legacy) 

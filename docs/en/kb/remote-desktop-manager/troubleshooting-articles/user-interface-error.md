@@ -5,7 +5,7 @@ For many cases of user interface error in {{ en.RDM }}, click on ***Windows*** -
 ![!!KB4095.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4095.png)  
 ![!!KB4753.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4753.png)  
 ### Problem 1
-The ribbon has been hidden and I don't know how to make it visible.
+The ribbon has been hidden and I do not know how to make it visible.
 ### Solution 1
 Use Alt+F11 or use the system menu of the application, check the ***Top Pane*** command.
 ### Problem 2
@@ -32,7 +32,7 @@ To reset the quick access toolbar, close the application and delete the file rem
 ### Problem 5
 The ***{{ en.NPANE }}*** displays only my favorites.
 ### Solution 5
-Only your favorites are displayed, the root node is also entitled ***Favorites***  
+Only your favorites are displayed, the root node is also entitled ***Favorites***.  
 ![!!KB4097.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4097.png)  
 
 You may have enabled a filter.  

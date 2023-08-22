@@ -21,4 +21,4 @@ To manually edit default.cfg, adjust the path and add the line below in <Option>
 
 Whenever {{ en.RDM }} is started and it detects a new default.cfg file, a dialog window will appear.  
 
-By selecting Use new configuration (lose mine), the user's configuration is simply overwritten. If you only wish to update the {{ en.RDM }} license key after a renewal, choose ***Retrieve new registration only***
+By selecting Use new configuration (lose mine), the user's configuration is simply overwritten. If you only wish to update the {{ en.RDM }} license key after a renewal, choose ***Retrieve new registration only***.

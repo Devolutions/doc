@@ -5,7 +5,7 @@ title: Web traffic
 Do not use this without a specific request from Devolution's support personnel.
 {% endsnippet %}  
 {% snippet icon.badgeInfo %}
-The trace file must NOT have a path specified, this requires that {{ en.RDM }} be installed in a folder other than Program Files. (Running with elevated privileges doesn't circumvent the UAC.)
+The trace file must NOT have a path specified, this requires that {{ en.RDM }} be installed in a folder other than Program Files. (Running with elevated privileges does not circumvent the UAC.)
 {% endsnippet %}  
 
 ### Solution

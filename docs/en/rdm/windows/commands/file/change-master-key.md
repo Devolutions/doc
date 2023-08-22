@@ -3,7 +3,7 @@ title: Change Master Key
 ---
 Use ***File – Change Master Key*** to encrypt the data source.  
 
-The master key prevents unauthorized users to access the data source without knowing the master key. It is highly recommended to apply a master key to the data source if you're using {{ en.RDM }} in a portable environment (i.e., USB Flash Drive, USB Hard Drive).  
+The master key prevents unauthorized users to access the data source without knowing the master key. It is highly recommended to apply a master key to the data source if you are using {{ en.RDM }} in a portable environment (i.e., USB Flash Drive, USB Hard Drive).  
 
 A master key can be used with the following data sources:  
 

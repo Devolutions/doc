@@ -14,7 +14,7 @@ To learn more about creating and managing a Bitwarden account, please consult th
 {% endsnippet %}
 
 ## Credential Management
-Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Credential Management*** – ***Password Management***  
+Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Credential Management*** – ***Password Management***.  
 ![Credential Management](https://webdevolutions.azureedge.net/docs/en/kb/KB0066.png)  
 ![General tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0067.png)  
 * ***Name***: Entry name in {{ en.RDM }}

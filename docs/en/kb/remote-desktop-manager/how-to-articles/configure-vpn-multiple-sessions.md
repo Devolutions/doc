@@ -40,11 +40,11 @@ Before following the steps below, in a folder, create a VPN entry and remote ses
 Watch this [YouTube video](https://youtu.be/5jKREtc63ks) for a demonstration on the ***VPN group*** option.
 {% endsnippet %}  
 
-7. If you need to use specific credentials, in a team environment, you can define them in the ***Credentials (VPN/SSH/Gateway)***
+7. If you need to use specific credentials, in a team environment, you can define them in the ***Credentials (VPN/SSH/Gateway)***.
 1. Click the ***Settings*** tab.  
 ![!!KB2064.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2064.png)
 1. In ***Session***, select the VPN entry you created.
-1. Click ***OK***
+1. Click ***OK***.
 
 ### Perform a batch edit to configure the session entries
 
@@ -81,7 +81,7 @@ Follow the steps below to change the time {{ en.RDM }} waits for the VPN to open
 1. Go to the ***Advanced*** tab.
 1. In the ***After Execute Wait*** section, enter the time in seconds, then click ***OK***.  
 {% snippet icon.badgeInfo %}
-The ***-1*** sec value is the default time (5 seconds). You can change the default time for all VPN entries in ***File - Options - Types - VPN - VPN default pause***
+The ***-1*** sec value is the default time (5 seconds). You can change the default time for all VPN entries in ***File - Options - Types - VPN - VPN default pause***.
 {% endsnippet %}  
 
 ![!!KB2067.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2067.png)

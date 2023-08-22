@@ -16,7 +16,7 @@ Regardless of the selected security provider, passwords stored in data sources a
 {% snippet icon.badgeHelp %} 
 When configuring a Certificate Security Provider in a published app environment (Citrix, RemoteApp, XenApp) as a Security Provider, the user who will run {{ en.RDM }} in the RemoteApp environment (Citrix) will require a ***Read permission*** on the certificate.  
 
-If the ***Read permission*** isn't correctly set, {{ en.RDM }} will generate the CryptographicException - Keyset does not exist error dialog. Follow the [Certificate Security Provider in a Published app Environment](/kb/remote-desktop-manager/how-to-articles/certificate-security-provider-published-app-environment/) topic to resolve the issue. 
+If the ***Read permission*** is not correctly set, {{ en.RDM }} will generate the CryptographicException - Keyset does not exist error dialog. Follow the [Certificate Security Provider in a Published app Environment](/kb/remote-desktop-manager/how-to-articles/certificate-security-provider-published-app-environment/) topic to resolve the issue. 
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 
@@ -85,7 +85,7 @@ If the passphrase is lost, nothing that can be done to recover the data. When us
  
 ![Security Provider - Shared Passphrase](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3436.png) 
 
-Entries configuration data is encrypted using a mix of a key stored in {{ en.RDM }} and the passphrase you've entered.  
+Entries configuration data is encrypted using a mix of a key stored in {{ en.RDM }} and the passphrase you have entered.  
 
 The passphrase is required only when configuring the data source. A policy can be enabled to always prompt for the passphrase when connecting to the data source.  
 

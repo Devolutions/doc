@@ -15,7 +15,7 @@ Select the entries to export or export the vault. Right-click and select Export 
 Ensure you do not forget the password as you will not be able to decrypt the data without it. 
 {% endsnippet %}
  
-When exporting multiple entries that are all contained within the same file, at decrypt time, each encrypted value must be decrypted individually for security reasons. Once you're done with the sensitive data simply hit the F5 key on your keyboard to refresh the file or simply close it. Your data is now safe from prying eyes. 
+When exporting multiple entries that are all contained within the same file, at decrypt time, each encrypted value must be decrypted individually for security reasons. Once you are done with the sensitive data simply hit the F5 key on your keyboard to refresh the file or simply close it. Your data is now safe from prying eyes. 
 
 ### AES-256 
 

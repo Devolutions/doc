@@ -18,7 +18,7 @@ In most cases, this is caused by the migration process causing a ***Validation C
 ![!!KB4784.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4784.png)
 1. Click on ***Export Nonmigrated User Vault*** to create a password protectedrdm file.
 1. Import the data file in an empty Local Data source to test and ensure the integrity of the data.
-1. When your validation is conclusive, click on ***Delete Nonmigrated User Vault***
+1. When your validation is conclusive, click on ***Delete Nonmigrated User Vault***.
 1. Import therdm file in the {{ en.DVLS }} data source.
 
 ### Empty User Vault in {{ en.RDM }}, but it is showing on the web {{ en.DVLS }} UI
@@ -30,7 +30,7 @@ Usually, this issue is organization wide, and is caused by a ***Security Provide
 Available in {{ en.DVLS }} 2021.1.10 and higher or the 2020.3.19 LTS version.
 {% endsnippet %}  
 
-1. In the {{ en.DVLSCONSOLE }} click on ***Tools – Remove Security Provider***  
+1. In the {{ en.DVLSCONSOLE }} click on ***Tools – Remove Security Provider***.  
 {% snippet icon.shieldWarning %}
 Removing the ***Security Provider*** will leave your database unencrypted.
 {% endsnippet %}  

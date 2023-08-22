@@ -1,7 +1,7 @@
 ---
 title: Memory Tuning of RDP Sessions
 ---
-By default, the RDP protocol will reserve a sizable chunk of memory right from the start of a session for caching purposes, but we have some level of control over that. In the ***Experience*** tab of the RDP session, there is a ***Cache*** setting that you can use to control the behavior. It's values are as follows:  
+By default, the RDP protocol will reserve a sizable chunk of memory right from the start of a session for caching purposes, but we have some level of control over that. In the ***Experience*** tab of the RDP session, there is a ***Cache*** setting that you can use to control the behavior. Its values are as follows:  
 
 <table>
 	<tr>
@@ -50,6 +50,6 @@ Choosing ***Thin client*** is therefore the choice that limits memory consumptio
 
 ![!!KB4455.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4455.png)  
 
-You might wish to set this for all sessions. In this case, go to File - Options - Types - Remote Desktop to assign the default value, then in all of your sessions use ***Default***  
+You might wish to set this for all sessions. In this case, go to File - Options - Types - Remote Desktop to assign the default value, then in all of your sessions use ***Default***.  
 
 ![!!KB4456.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4456.png)

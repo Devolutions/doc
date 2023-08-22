@@ -1,5 +1,5 @@
 ---
-title: SQL Server Connectivity Troubleshooting
+title: SQL Server connectivity troubleshooting
 ---
 SQL Server installs with limited network connectivity. Therefore, when initially installed, the Database Engine cannot be accessed from another device.  
 
@@ -14,7 +14,7 @@ Before everything, try to access the database via SQL Server Management Studio.
 * <a href="#token">Login failed for user – reason: token-based server access validation failed</a>
 * <a href="#untrusted">Login failed. the login is from an untrusted domain and cannot be used with windows authentication</a>
 * <a href="#firewall">Open a communication port in the firewall</a>
-* <a href="#udl">Test the connection with a universal data link (.udl) file]</a>
+* <a href="#udl">Test the connection with a universal data link (.udl) file</a>
 * <a href="#unable">Unable to connect to sql server</a>
 
 ### Allow Remote Access
@@ -25,12 +25,12 @@ On older versions of SQL Server, remote connections must be allowed manually. Fo
 <a name="protocols"></a>
 
 To connect to the Database Engine from another device, a protocol, such as TCP/IP, must be enabled.
-1. Open the ***SQL Server Configuration Manager***  
+1. Open the ***SQL Server Configuration Manager***.  
 ![!!KB4060.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4060.png)
-1. Expand the ***SQL Server Network Configuration***
+1. Expand the ***SQL Server Network Configuration***.
 1. Select an instance.  
 ![!!KB4245.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4245.png)
-1. Right-click the desired protocol, then select ***Enable***  
+1. Right-click the desired protocol, then select ***Enable***.  
 ![!!KB4230.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4230.png)
 ### Open a communication port in the firewall
 <a name="firewall"></a>
@@ -40,17 +40,17 @@ To connect to an SQL Server from another device, a communication port must be op
 The default port for TCP/IP is 1433
 {% endsnippet %}  
 
-1. Open the ***Windows Firewall with Advanced Security***  
+1. Open the ***Windows Firewall with Advanced Security***.  
 ![!!KB4277.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4277.png)
 1. Select ***Inbound Rules*** in the left pane.
-1. Right-click ***Inbound Rules*** and select ***New Rule***  
+1. Right-click ***Inbound Rules*** and select ***New Rule***.  
 ![!!KB4278.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4278.png)
-1. In the ***Rule Type*** page, select ***Port***, then click ***Next***  
+1. In the ***Rule Type*** page, select ***Port***, then click ***Next***.  
 ![!!KB4279.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4279.png)
-1. In the ***Protocol and Ports*** page, select ***TCP***
-1. Select ***Specific local ports***, then type the port number of the instance of the Database Engine, then click ***Next***  
+1. In the ***Protocol and Ports*** page, select ***TCP***.
+1. Select ***Specific local ports***, then type the port number of the instance of the Database Engine, then click ***Next***.  
 {% snippet icon.badgeNotice %}
-The SQL Server default instance listens on port 1433
+The SQL Server default instance listens on port 1433.
 {% endsnippet %}  
 {% snippet icon.badgeInfo %}
 If you have an Anti-virus running on your server, you should also make sure that the port is allowed.
@@ -58,18 +58,18 @@ If you have an Anti-virus running on your server, you should also make sure that
 
 ![!!KB4280.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4280.png)  
 
-7. In the ***Action*** page, select ***Allow the connection***, then click ***Next***  
+7. In the ***Action*** page, select ***Allow the connection***, then click ***Next***.  
 ![!!KB4281.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4281.png)
-1. In the ***Profile*** page, select the profiles that describe the computer connection environment, then click ***Next***  
+1. In the ***Profile*** page, select the profiles that describe the computer connection environment, then click ***Next***.  
 ![!!KB4282.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4282.png)
-1. In the ***Name*** page, enter a ***Name*** and ***Description*** for the rule, then click ***Finish***  
+1. In the ***Name*** page, enter a ***Name*** and ***Description*** for the rule, then click ***Finish***.  
 ![!!KB4283.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4283.png)
 ### Unable to connect to sql server
 <a name="unable"></a>
 
 * Ensure that each SQL Server instances are started and running.
-* Go in ***Help - View Application Log*** to see if relevant error messages are present. There's a good chance that you will see <a href="#network">A network-related or instance-specific error occurred...</a>
-* Create a Universal Data Link (.udl) file to test your SQL Connection (see <a href="#udl">Universal Data Link (.udl) file</a>
+* Go in ***Help - View Application Log*** to see if relevant error messages are present. There is a good chance that you will see <a href="#network">A network-related or instance-specific error occurred...</a>
+* Create a Universal Data Link (.udl) file to test your SQL Connection (see <a href="#udl">Universal Data Link (.udl) file</a>).
 * An Anti-virus or a Firewall could be blocking the application.
 * Check the network settings connectivity.
 ### Test the connection with a universal data link (.udl) file
@@ -77,11 +77,11 @@ If you have an Anti-virus running on your server, you should also make sure that
 
 This will test that the instance is allowing your workstation to connect. Firewalls and anti-virus software may still prevent {{ en.RDM }} from accessing the network even though the Universal Data Link test is conclusive.  
 
-1. Open the ***Windows File Explorer***
+1. Open the ***Windows File Explorer***.
 1. Navigate to the folder in which the ***.udl*** file will be created and stored.
-1. Select the ***Home*** tab and using the ***New item*** menu, create a ***Text Document***  
+1. Select the ***Home*** tab and using the ***New item*** menu, create a ***Text Document***.  
 ![!!KB4246.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4246.png)
-1. Rename this file and change its file extension to ***.udl***  
+1. Rename this file and change its file extension to ***.udl***.  
 {% snippet icon.badgeInfo %}
 File name extensions might be hidden by the ***Windows File Explorer*** To show the file name extensions, go to the ***View*** tab of the ***File Explorer*** and enable the ***File name extensions*** option.
 {% endsnippet %}  
@@ -129,7 +129,7 @@ AND state_desc = 'DENY'
 <a name="untrusted"></a>
 
 ![!!KB2009.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2009.png)  
-The following error message appear when you can't access {{ en.RDM }} data source with Integrated Authentication when connected to a Dialup VPN.  
+The following error message appear when you cannot access {{ en.RDM }} data source with Integrated Authentication when connected to a Dialup VPN.  
 
 1. Locate your VPN connectionspbk file.
 1. You can find it here: %APPDATA%\Microsoft\Network\Connections\Pbk or if you have it set to allow all users to use the connection, you can find it here: C:\ProgramData\Microsoft\Network\Connections\Pbk

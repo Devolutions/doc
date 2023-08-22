@@ -14,13 +14,13 @@ For a list of default values for shortcuts, visit our [Keyboard Shortcuts](/rdm/
 <a name="modify"></a>
 
 1. Under the ***Keyboard*** section, find the shortcut you want to modify from the list.
-1. To change the ***Mode*** of the shortcut, click on the mode to make a drop-down list appear. Select the mode between ***Default***, ***When not in session***, ***Global hotkey***, and ***None***
+1. To change the ***Mode*** of the shortcut, click on the mode to make a drop-down list appear. Select the mode between ***Default***, ***When not in session***, ***Global hotkey***, and ***None***.
 ![Shortcute mode Customization.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2096.png)
 1. To change the ***Shortcut***, click on the shortcut to make a drop-down list appear. Select the key combination from the list.  
 ![Shortcut Key Combination Costumization.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2097.png)
 1. Click ***OK*** to save your changes.  
 {% snippet icon.badgeInfo %}
-If you change your mind, you can use the ***Reset Default*** button to cancel all saved and unsaved changed. You can also use the ***Disable All*** button to change the ***Mode*** and ***Shortcut*** of all actions to ***None***
+If you change your mind, you can use the ***Reset Default*** button to cancel all saved and unsaved changed. You can also use the ***Disable All*** button to change the ***Mode*** and ***Shortcut*** of all actions to ***None***.
 {% endsnippet %}
 
 ## Create Shortcut Macros

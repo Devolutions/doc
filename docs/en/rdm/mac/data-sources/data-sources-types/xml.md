@@ -16,7 +16,7 @@ title: XML
 ## Highlights 
 
 * It is a free data source. 
-* It's possible to configure an auto refresh interval. 
+* It is possible to configure an auto refresh interval. 
 * The [{{ en.OBACK }} Service](/rdm/mac/commands/file/backup/) is available for this data source. 
 
 {% snippet icon.badgeCaution %} 
@@ -24,7 +24,7 @@ Although it can be share between multiple locations, there is no conflict manage
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 
-All passwords are encrypted by default. You can specify a custom password (master key) to fully encrypt the content of the file.It's impossible to recover the data if the master key is lost. Please make sure to remember or backup the master key in a safe place. 
+All passwords are encrypted by default. You can specify a custom password (master key) to fully encrypt the content of the file.It is impossible to recover the data if the master key is lost. Please make sure to remember or backup the master key in a safe place. 
 {% endsnippet %}
  
 ## Settings 

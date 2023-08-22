@@ -39,7 +39,7 @@ In our example, the ID is 33628378-d4a6-431f-8438-16b75921aef9.
 ### Create the Cyberark PSM Connection Template
 <a name="psm"></a>
 
-1. Go to ***File - Templates - Templates***  
+1. Go to ***File - Templates - Templates***.  
 ![File - Templates - Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB4683.png)  
 1. Add a new template.  
 ![Add a new template](https://webdevolutions.azureedge.net/docs/en/kb/KB4684.png)
@@ -116,16 +116,16 @@ End point Hostname/IP
 ### Import
 Once the PSM Server entry has been created, and the CSV File is populated.  
 
-1. Go to ***File - Import - Import Session Csv Wizard***  
+1. Go to ***File - Import - Import Session Csv Wizard***.  
 ![File - Import - Import Session Csv Wizard](https://webdevolutions.azureedge.net/docs/en/kb/KB4687.png)  
-1. Browse and select the Csv File created beforehand, and click ***Next***  
+1. Browse and select the Csv File created beforehand, and click ***Next***.  
 ![Import Csv Wizard](https://webdevolutions.azureedge.net/docs/en/kb/KB4688.png)  
-1. Select ***Selected template***  
+1. Select ***Selected template***.  
 2. Select the template we created and click ***Finish***.  
 ![PSMImport](https://webdevolutions.azureedge.net/docs/en/kb/KB4689.png)  
 Note: You must tick the ***Generate Direct Mapping*** check box.  
 ![Generate Direct Mapping check box](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6063.png)  
-1. And voila!  
+
 ![Imported connections](https://webdevolutions.azureedge.net/docs/en/kb/KB4690.png)  
 
 ## Synchronization (Using the {{ en.RDM }} Synchronizer entry)  
@@ -187,11 +187,11 @@ A Cyberark PSM Connection template is required beforehand.
 1. Go to ***File - Templates - Templates***, and add a new template.
 1. In ***Host***, enter $QUICK_CONNECT$
 1. Set a privileged account to be used.
-1. Select the ***PSM Server*** that this PSM connection will be using and a ***Connection component***  
+1. Select the ***PSM Server*** that this PSM connection will be using and a ***Connection component***.  
 ![File - Templates - Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB4694.png)  
 
 {% snippet icon.badgeInfo %}
-This approach would allow you to create multiple templates for PSM connections reflecting several ***Privileged Accounts*** and ***Connection components***
+This approach would allow you to create multiple templates for PSM connections reflecting several ***Privileged Accounts*** and ***Connection components***.
 {% endsnippet %}  
 
 ### Utilization
@@ -204,7 +204,7 @@ Take a look at this [link](/kb/remote-desktop-manager/how-to-articles/multiple-t
 
 Steps are very similar to the ***Quick connect***, the creation of the template is the exact same, except that the ***Host*** field will remain empty.  
 
-What is actually interesting about this, is that a variable can be used to populate the ***Privileged account***  
+What is actually interesting about this, is that a variable can be used to populate the ***Privileged account***.  
 
 In this example I used the Custom Field #1 variable, here’s the template configuration:  
 

@@ -3,7 +3,7 @@ title: Quick guide to Markdown
 ---
 Markdown is a lightweight markup language used for ***Documentation*** in entries.  
 
-For your convenience, we've added formatting buttons with fonts, styles and inserts. To use, click on a formatting button and insert your data.  
+For your convenience, we have added formatting buttons with fonts, styles and inserts. To use, click on a formatting button and insert your data.  
 
 ![!!ServerOp4028.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4028.png) 
 

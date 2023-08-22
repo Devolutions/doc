@@ -25,9 +25,9 @@ The {{ en.DHUBS }} installer facilitates the installation and integration of our
 ![Administration – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
 1. Go to the edit form.
 ![Edit form](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6049.png)
-1. Select ***System***
-1. Select your ***Application User*** in the drop-down menu under ***Manage privileged access tasks*** and ***Manage privileged access providers***. 
-![System Permissions – Manage privileged access tasks and Manage privileged access providers](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6057.png)
+1. Select ***System***.
+1. Select your ***Application User*** in the drop-down menu under ***Manage privileged access providers***. 
+![System Permissions – Manage privileged access providers](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6051.png)
 
 {% snippet icon.badgeInfo %}
 You need to grant permission on the vault either at ***System level*** or ***Individual PAM vault level***. 
@@ -76,6 +76,3 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 {{ en.DHUBS }}' logs are available in ***Windows Event Viewer***. The service should be able to connect to the created provider. The provider need to be added in {{ en.DHUB }}.
 
 It's also possible to see the {{ en.DHUBS }} as a service in the Services window of Windows which shows the current status and where it can be started or stopped.
-
-
-

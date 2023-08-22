@@ -2,7 +2,7 @@
 title: Restore a User Vault
 ---
 
-It's possible to get access to the user vault of a {{ en.DHUBB }} user, who has left your organization without the need of connecting with their account, and restore it as a shared vault.
+It is possible to get access to the user vault of a {{ en.DHUBB }} user, who has left your organization without the need of connecting with their account, and restore it as a shared vault.
 
 ### Steps
 

@@ -16,7 +16,7 @@ In order to use this method, you will first need to create a ***Template*** unde
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The ***Template*** that you will create (Database template only) will need to have the option ***Available in Macros/Scripts/Tools*** enabled in the ***Template Settings – Availability*** section in order for it to be shown in your ***Dashboard***
+The ***Template*** that you will create (Database template only) will need to have the option ***Available in Macros/Scripts/Tools*** enabled in the ***Template Settings – Availability*** section in order for it to be shown in your ***Dashboard***.
 {% endsnippet %}
 
 ![!!KB4667.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4667.png)

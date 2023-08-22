@@ -90,7 +90,7 @@ Validate the email address with the Dropbox account.
 Dropbox directory 
 		</td>
 		<td>
-Indicate the folder in Dropbox. It should not contains any drive since it's stored online. Leave it empty to use the default Dropbox root. 
+Indicate the folder in Dropbox. It should not contains any drive since it is stored online. Leave it empty to use the default Dropbox root. 
 		</td>
 	</tr>
 	<tr>

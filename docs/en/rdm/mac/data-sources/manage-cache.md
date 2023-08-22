@@ -49,7 +49,7 @@ Analyze will generate a report of everything that is contained in the cache. It 
 Vacuum 
 		</td>
 		<td>
-This will run an SQLite command to reduce your cache size. The Vacuum should only be used after trying to execute a Repair of your cache. If the repair hasn't solved your issue running a Vacuum will usually solve issues when dealing with a corrupted cache. 
+This will run an SQLite command to reduce your cache size. The Vacuum should only be used after trying to execute a Repair of your cache. If the repair has not solved your issue running a Vacuum will usually solve issues when dealing with a corrupted cache. 
 		</td>
 	</tr>
 	<tr>

@@ -1,5 +1,5 @@
 ---
-title: Unable to Delete the License
+title: Unable to delete the license
 ---
 {{ en.RDM }} allows you to delete the license, but it always comes back in the list.
 ### Solution
@@ -7,4 +7,4 @@ title: Unable to Delete the License
 ![!!KB4844.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4844.png)
 1. In ***Administration - System Settings - Serial Number***, you should see the same serial. Select, erase and click ***OK*** to save.  
 
-The license should now be deleted. You can validate in ***Administration - Licenses***
+The license should now be deleted. You can validate in ***Administration - Licenses***.
