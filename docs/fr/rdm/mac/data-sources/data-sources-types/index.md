@@ -35,7 +35,7 @@ AVANTAGES ET INCONVÉNIENTS
 		</td>
 		<td>
 {{ fr.RDMMAC }} utilise {{ fr.DOD }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet. 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.OD }}](/fr/cloud/rdm-online-services/online-drive/). 
+Pour plus d'informations, veuillez consulter [{{ fr.DOD }}](/fr/cloud/rdm-online-services/online-drive/). 
 		</td>
 		<td>
 Avantages :  

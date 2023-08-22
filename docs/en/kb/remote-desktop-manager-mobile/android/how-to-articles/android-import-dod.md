@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Remote Desktop Manager Android Import {{ en.DOD }}
 ---
-The {{ en.OD }} stores and synchronizes your remote connections and credentials online.
+The {{ en.DOD }} stores and synchronizes your remote connections and credentials online.
 
 1. Create a {{ en.DOD }} data source using your {{ en.RDM }}  
 

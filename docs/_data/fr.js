@@ -24,17 +24,9 @@ module.exports = {
     DVLSCONSOLE: 'Console de Devolutions Server',
     DWL: 'Devolutions Web Login',
     DWS: 'Devolutions Workspace',
-    HUB: 'Hub',
-    HUBB: 'Hub Business',
-    HUBI: 'Hub Importer',
-    HUBP: 'Hub Personal',
-    HUBS: 'Hub Services',
-    LAUNCHER: 'Launcher',
-    LOCALIZER: 'Localizer',
     MAC: 'macOS',
     NPANE: 'Volet de navigation',
     OBACK: 'Online Backup',
-    OD: 'Online Drive',
     PS: 'Devolutions.PowerShell',
     RBSS: "contrôle d'accès basé sur les Groupes d'utilisateurs",
     RDM: 'Remote Desktop Manager',
@@ -48,5 +40,4 @@ module.exports = {
     RDMWIN: 'Remote Desktop Manager Windows',
     UVLT: "Coffre de l'utilisateur",
     VLT: 'Coffre',
-    WS: 'Workspace'
   }

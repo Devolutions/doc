@@ -38,7 +38,7 @@ PROS AND CONS
 		<td>
 {{ en.RDM }} uses {{ en.DOD }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
 
-For more information, please consult our [{{ en.OD }}](/cloud/rdm-online-services/online-drive/) topic. 
+For more information, please consult [{{ en.DOD }}](/cloud/rdm-online-services/online-drive/). 
 		</td>
 		<td>
 Pros: 
