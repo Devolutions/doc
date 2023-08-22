@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Inviter des utilisateurs pour SSO dans {{ fr.HUBB }}
+  title: Inviter des utilisateurs pour SSO dans {{ fr.DHUBB }}
 description: Une fois l'authentification unique (SSO) confighurée et activée, invitez vos utilisateurs dans votre Hub en suivant ces étapes.
 keywords:
 - SSO
@@ -10,9 +10,9 @@ keywords:
 ---
 Une fois l'authentification unique (SSO) [configurée et activée](HUB_Connect_AzureAD_Office365_Authentification), vous pouvez désormais utiliser cette invitation spécifique pour tous vos utilisateurs.  
 
-Cette méthode enverra un courriel préformaté à tous les destinataires. Il fournira votre URL de {{ fr.HUBB }} avec un ID d'invitation et une clé à utiliser.  
+Cette méthode enverra un courriel préformaté à tous les destinataires. Il fournira votre URL de {{ fr.DHUBB }} avec un ID d'invitation et une clé à utiliser.  
 {% snippet icon.badgeCaution %} 
-L'ID d'invitation et la clé servent à préapprouver l'accès à {{ fr.HUBB }}. Ils expirent 7 jours après la date d'envoi. 
+L'ID d'invitation et la clé servent à préapprouver l'accès à {{ fr.DHUBB }}. Ils expirent 7 jours après la date d'envoi. 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
@@ -38,16 +38,16 @@ Cela est possible uniquement si l'application d'entreprise dans Azure a l'***Ass
 ![Étape 3 - Options](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2060.png)  
 5. ***Étape 4 - Groupes d'utilisateurs*** : Les utilisateurs synchronisés n'ont pas besoin d'être assignés aux ***Groupes d'utilisateurs*** synchronisés. Ils seront ajoutés automatiquement lors de leur connexion. Si vous avez des ***Groupes d'utilisateurs*** personnalisés, vous pouvez leur assigner des utilisateurs.  
 {% snippet icon.badgeInfo %} 
-Les ***Groupes d'utilisateurs*** personnalisés doivent être définis au préalable dans {{ fr.HUBB }}. Pour plus d'informations, voir [Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/). 
+Les ***Groupes d'utilisateurs*** personnalisés doivent être définis au préalable dans {{ fr.DHUBB }}. Pour plus d'informations, voir [Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/). 
 {% endsnippet %}  
 
 ![Étape 4 - Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2061.png)  
 
 6. Cliquer sur ***Envoyer une invitation*** au bas de la fenêtre.  
 
-{{ fr.HUBB }} enverra un courriel contenant les informations essentielles aux destinataires, incluant l'URL du {{ fr.HUBB }}, l'ID d'invitation et la clé.  
+{{ fr.DHUBB }} enverra un courriel contenant les informations essentielles aux destinataires, incluant l'URL du {{ fr.DHUBB }}, l'ID d'invitation et la clé.  
 {% snippet icon.badgeCaution %} 
-Les utilisateurs devront remplir une configuration de {{ fr.DA }}. Consultez notre rubrique [Expérience d'invitation de l'utilisateur final pour SSO dans {{ fr.HUBB }}](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/). 
+Les utilisateurs devront remplir une configuration de {{ fr.DA }}. Consultez notre rubrique [Expérience d'invitation de l'utilisateur final pour SSO dans {{ fr.DHUBB }}](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/). 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
@@ -55,14 +55,14 @@ Le destinataire fera seulement partie de votre {{ fr.HUB }} lorsqu'il s'y connec
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
-Tout utilisateur qui essaie d'accéder à votre {{ fr.HUBB }} avec son URL pour la première fois sans recevoir d'invitation déclenchera une demande d'approbation, seulement s'il est dans le même fournisseur d'identité.  
+Tout utilisateur qui essaie d'accéder à votre {{ fr.DHUBB }} avec son URL pour la première fois sans recevoir d'invitation déclenchera une demande d'approbation, seulement s'il est dans le même fournisseur d'identité.  
 
 Un courriel sera envoyé à tous les administrateurs. Il peut être approuvé ou refusé dans ***Administration – Utilisateurs***. 
 {% endsnippet %}  
  
 ## Inviter des utilisateurs ne faisant pas partie du fournisseur d'authentification
 
-Il est possible d'ajouter des utilisateurs à votre {{ fr.HUBB }} qui sont hors de votre fournisseur d'authentification.  
+Il est possible d'ajouter des utilisateurs à votre {{ fr.DHUBB }} qui sont hors de votre fournisseur d'authentification.  
 
 {% snippet icon.badgeInfo %} 
 Cette option est possible seulement si vous n'activez pas ***Forcer l'authentification unique à tous les utilisateurs***, puisque ces utilisateurs ne font pas partie de votre fournisseur d'authentification.

@@ -5,9 +5,9 @@ eleventyComputed:
 ---
 Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DA }}, and configuring some security settings.
 
-## {{ en.DWS }} Setup
+## {{ en.DWS }} setup
 
-Follow the steps below to perform the initial configuration of your {{ en.DWS }} mobile application with {{ en.HUBB }}:
+Follow the steps below to perform the initial configuration of your {{ en.DWS }} mobile application with {{ en.DHUBB }}:
 
 1. [Download and install {{ en.DWS }}](https://devolutions.net/workspace/) if you have not already done so.
 1. After the installation is complete, open the application.

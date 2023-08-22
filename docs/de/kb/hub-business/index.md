@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions {{ de.HUBB }}
+  title: Devolutions Hub Business
   order: 60
   description: Sie finden hier Themen zu den folgenden {{ de.DHUBB }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---

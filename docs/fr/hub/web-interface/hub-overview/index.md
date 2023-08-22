@@ -1,7 +1,8 @@
 ---
-title: Survol Hub
+eleventyComputed:
+  title: Survol de {{ fr.DHUB }}
 ---
-Naviguer et explorer les menus à travers les différentes sections de {{ fr.HUBB }} et gérer vos données.  
+Naviguer et explorer les menus à travers les différentes sections de {{ fr.DHUBB }} et gérer vos données.  
 ![!!Hub4118.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4118.png) 
 
 <table>

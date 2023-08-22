@@ -22,4 +22,4 @@ Voici quelques-unes de ses principales fonctionnalités :
 * Injection sécurisée de mot passe
 * Rapport d'administration
 
-Puisque {{ fr.DHUBB }} est une solution basée sur le nuage, vous devez télécharger et installer [{{ fr.DHUBS }}](https://docs.devolutions.net/fr/hub/privileged-access-management/download-and-install-devolutions-hub-services/?l=fr) pour établir la communication entre votre {{ fr.HUBB }} et vos ressources internes.
+Puisque {{ fr.DHUBB }} est une solution basée sur le nuage, vous devez télécharger et installer [{{ fr.DHUBS }}](https://docs.devolutions.net/fr/hub/privileged-access-management/download-and-install-devolutions-hub-services/?l=fr) pour établir la communication entre votre {{ fr.DHUBB }} et vos ressources internes.

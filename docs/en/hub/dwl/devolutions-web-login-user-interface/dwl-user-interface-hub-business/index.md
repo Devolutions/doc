@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Devolutions Web Login user interface with {{ en.HUBB }}
+  title: Devolutions Web Login user interface with {{ en.DHUBB }}
 ---
-The {{ en.DWL }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.DWL }} user interface when used with {{ en.HUBB }}.  
+The {{ en.DWL }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.DWL }} user interface when used with {{ en.DHUBB }}.  
 
 The main view, which is the one displayed when first opening {{ en.DWL }} in your browser, can be divided into three main sections:  
 
@@ -20,10 +20,10 @@ At the right of the ***Top Menu***, the ***Settings*** button opens a new tab in
 Next to the ***Settings*** button is your ***Account*** button. This section has some useful links and information, namely:  
 
 * a ***Manage Account*** button to view/edit your {{ en.DA }} through the {{ en.DPORTAL }}. 
-* a list of the other accounts that were used to log in to {{ en.HUBB }} on your computer. 
-* an ***Add another account*** button to log in to {{ en.HUBB }} with an account that is not listed above. 
+* a list of the other accounts that were used to log in to {{ en.DHUBB }} on your computer. 
+* an ***Add another account*** button to log in to {{ en.DHUBB }} with an account that is not listed above. 
 * a ***Log Off*** button to sign out of your {{ en.DA }}. 
-* a link to your {{ en.HUBB }}. 
+* a link to your {{ en.DHUBB }}. 
 * a link to our [{{ en.HUB }} Forum](https://forum.devolutions.net/product/password-hub). 
 * a link to our [{{ en.HUB }} Online Help](/hub/overview/what-is-hub/). 
 * the current version of {{ en.DWL }}.  
@@ -33,14 +33,11 @@ Next to the ***Settings*** button is your ***Account*** button. This section has
 
 Using the tabs of the ***Side Menu***, you can access various {{ en.DWL }} features.  
 ![Side Menu Tabs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2101.png) 
-Each tab will display a different view in the ***Content Area***. The tabs available when using {{ en.DWL }} with {{ en.HUBB }} are:  
+Each tab will display a different view in the ***Content Area***. The tabs available when using {{ en.DWL }} with {{ en.DHUBB }} are:  
 
 * the ***Matching*** tab, where you find available credentials for a specific website. 
-* the ***Vaults*** tab,  where you can find all the {{ en.HUBB }} entries you synchronized, divided into your different vaults and folders. 
-* the ***User vault*** tab, where you can find the entries you stored in your {{ en.HUBB }} ***User Vault***, divided into your different folders. 
+* the ***Vaults*** tab,  where you can find all the {{ en.DHUBB }} entries you synchronized, divided into your different vaults and folders. 
+* the ***User vault*** tab, where you can find the entries you stored in your {{ en.DHUBB }} ***User Vault***, divided into your different folders. 
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  
 
 See our [Side Menu](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/) topic for more information on each of the tabs. 
-
-
-

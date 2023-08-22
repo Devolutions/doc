@@ -1,7 +1,7 @@
 ---
-title: Administrator Invite
+title: Administrator invite
 ---
-Administrators can invite specific users to become administrator of the {{ en.HUBB }}. We strongly recommend that you invite at least one other administrator.  
+Administrators can invite specific users to become administrator of the {{ en.DHUBB }}. We strongly recommend that you invite at least one other administrator.  
 
 1. Go to ***Administration – Users***. 
 1. Click ***Add Administrator***.  

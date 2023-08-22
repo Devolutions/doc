@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Create an Account for a Website in {{ en.HUBB }} with {{ en.DWL }}
+  title: Create an account for a website in {{ en.DHUBB }} with {{ en.DWL }}
   order: 10
 ---
 {{ en.DWL }} assists you in creating a new account when you register on a website. It gives you the ability to create a secure password and save your new credentials.  

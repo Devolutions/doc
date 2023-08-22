@@ -2,34 +2,34 @@
 eleventyComputed:
   title: Authentication changes causing login issues with {{ en.DWS }}
 ---
-These issues are due to the fact that the authentication has changed. It is possible that {{ en.DWS }} will have problems loading the vaults, ***Account*** page or connecting at all. This topic will cover how to troubleshoot this issue for: <a href="#hub-business">{{ en.DWS }} with {{ en.HUBB }}</a>, <a href="#hub-personal">{{ en.DWS }} with {{ en.HUBP }}</a> and <a href="#devolutions-server">{{ en.DWS }} with {{ en.DVLS }}</a>.
-## {{ en.HUBB }}
-This section covers {{ en.HUBB }} troubleshooting for <a href="#workspace-mobile-for-hub-business">mobile</a> and <a href="#workspace-desktop-for-hub-business">desktop</a>. The connection to a {{ en.HUBB }} may fail, to fix this follow the steps below.
-### {{ en.DWS }} mobile for {{ en.HUBB }}
-1. Long press the {{ en.HUBB }} space.  
-![{{ en.HUBB }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0094.png)  
+These issues are due to the fact that the authentication has changed. It is possible that {{ en.DWS }} will have problems loading the vaults, ***Account*** page or connecting at all. This topic will cover how to troubleshoot this issue for: <a href="#hub-business">{{ en.DWS }} with {{ en.DHUBB }}</a>, <a href="#hub-personal">{{ en.DWS }} with {{ en.DHUBP }}</a> and <a href="#devolutions-server">{{ en.DWS }} with {{ en.DVLS }}</a>.
+## {{ en.DHUBB }}
+This section covers {{ en.DHUBB }} troubleshooting for <a href="#workspace-mobile-for-hub-business">mobile</a> and <a href="#workspace-desktop-for-hub-business">desktop</a>. The connection to a {{ en.DHUBB }} may fail, to fix this follow the steps below.
+### {{ en.DWS }} mobile for {{ en.DHUBB }}
+1. Long press the {{ en.DHUBB }} space.  
+![{{ en.DHUBB }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0094.png)  
 1. Press the ***Remove space*** button.
 ![Remove space](https://webdevolutions.azureedge.net/docs/en/kb/KB0095.png)  
 1. Press ***Add Space***.
-### {{ en.DWS }} desktop for {{ en.HUBB }}
+### {{ en.DWS }} desktop for {{ en.DHUBB }}
 1. Click on the ***Menu*** button.
-1. ***Log Off*** from {{ en.HUBB }}.  
+1. ***Log Off*** from {{ en.DHUBB }}.  
 ![Log Off](https://webdevolutions.azureedge.net/docs/en/kb/KB0093.png)  
 1. Press ***Add Space***.
 
-## {{ en.HUBP }}
-This section covers {{ en.HUBP }} troubleshooting for <a href="#workspace-mobile-for-hub-personal">mobile</a> and <a href="#workspace-desktop-for-hub-personal">desktop</a>. The vault will appear empty, to fix this follow the steps below.
-### {{ en.DWS }} mobile for {{ en.HUBP }}
+## {{ en.DHUBP }}
+This section covers {{ en.DHUBP }} troubleshooting for <a href="#workspace-mobile-for-hub-personal">mobile</a> and <a href="#workspace-desktop-for-hub-personal">desktop</a>. The vault will appear empty, to fix this follow the steps below.
+### {{ en.DWS }} mobile for {{ en.DHUBP }}
 1. Press the three horizontal lines.  
 ![Menu](https://webdevolutions.azureedge.net/docs/en/kb/KB0089.png)  
-1. Long press the {{ en.HUBP }} space.  
-![{{ en.HUBP }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0090.png)  
+1. Long press the {{ en.DHUBP }} space.  
+![{{ en.DHUBP }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0090.png)  
 1. Press the ***Remove space*** button.
 ![Remove space](https://webdevolutions.azureedge.net/docs/en/kb/KB0091.png)  
 1. Press ***Add Space***.
-### {{ en.DWS }} desktop for {{ en.HUBP }}
+### {{ en.DWS }} desktop for {{ en.DHUBP }}
 1. Click on the ***Menu*** button.
-1. ***Log Off*** from {{ en.HUBP }}.  
+1. ***Log Off*** from {{ en.DHUBP }}.  
 ![Log Off](https://webdevolutions.azureedge.net/docs/en/kb/KB0092.png)  
 1. Press ***Add Space***.
 

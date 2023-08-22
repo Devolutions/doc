@@ -1,7 +1,7 @@
 ---
 title: Offline Mode
 ---
-In the ***Users*** section, you can enable the offline mode for specific users. This will allow a read-only cache of the entries of the {{ en.HUBB }}.  
+In the ***Users*** section, you can enable the offline mode for specific users. This will allow a read-only cache of the entries of the {{ en.DHUBB }}.  
 
 1. Go to ***Administration – Users***. 
 1. Click on the ***Edit*** pencil icon next to the user. 
@@ -13,4 +13,3 @@ A restart of {{ en.RDM }} may be needed to activate the offline mode.
 {% endsnippet %}
  
 ![!!Hub4069.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4069.png) 
-

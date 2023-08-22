@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Install with Script
   order: 10
-  description: The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.HUBB }}.
+  description: The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.DHUBB }}.
 ---
-The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.HUBB }}.
+The following instructions explain how to install {{ en.DGW }} with the use of a script through {{ en.DHUBB }}.
 
 ## Steps for Script Install
 
@@ -12,7 +12,7 @@ The following instructions explain how to install {{ en.DGW }} with the use of a
 The script install requires the use of PowerShell 7.
 {% endsnippet %}
  
-1. Log in with your administrator {{ en.HUBB }} account. 
+1. Log in with your administrator {{ en.DHUBB }} account. 
 1. Access the ***Administration*** tab on the left.  
 ![Administration Tab](https://webdevolutions.azureedge.net/docs/en/hub/DGW0020.png) 
 {% snippet icon.badgeCaution %} 

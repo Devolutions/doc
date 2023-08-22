@@ -4,9 +4,9 @@ title: New Entry
 The ***New Entry*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the entries of the [***All Entries***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#all-entries-tab) tab. You can choose to create a new ***Website***, ***Credit Card***, ***Contact***, or ***Secure Note*** entry.  
 ![New Entry Type Selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2134.png) 
 
-When the entry type is selected, a new tab opens in your browser that allows you to add an entry of that type in {{ en.HUBP }} through {{ en.DWL }}.  
+When the entry type is selected, a new tab opens in your browser that allows you to add an entry of that type in {{ en.DHUBP }} through {{ en.DWL }}.  
 
-When {{ en.HUBP }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
+When {{ en.DHUBP }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
 ![New Entry - Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2135.png) 
 
 The tables below list all fields/settings available in the ***New Entry*** windows. The different sections and subsections represent the entry types and the left menu tabs respectively.  
@@ -36,7 +36,7 @@ Enter a name for your entry. This field is automatically filled in by {{ en.DWL 
 Folder 
 		</td>
 		<td>
-Enter the name of the folder in which your new entry will be stored in {{ en.HUBP }}. 
+Enter the name of the folder in which your new entry will be stored in {{ en.DHUBP }}. 
 		</td>
 	</tr>
 	<tr>
@@ -44,7 +44,7 @@ Enter the name of the folder in which your new entry will be stored in {{ en.HUB
 Select Folder 
 		</td>
 		<td>
-Select in a tree view the folder in which your new entry will be stored in {{ en.HUBP }}. You can also create a new folder and edit or delete existing ones. 
+Select in a tree view the folder in which your new entry will be stored in {{ en.DHUBP }}. You can also create a new folder and edit or delete existing ones. 
 		</td>
 	</tr>
 	<tr>
@@ -715,7 +715,7 @@ Enter a name for your entry. This field is automatically filled in by {{ en.DWL 
 Folder 
 		</td>
 		<td>
-Enter the name of the folder in which your new entry will be stored in {{ en.HUBP }}. 
+Enter the name of the folder in which your new entry will be stored in {{ en.DHUBP }}. 
 		</td>
 	</tr>
 	<tr>
@@ -723,7 +723,7 @@ Enter the name of the folder in which your new entry will be stored in {{ en.HUB
 Select Folder 
 		</td>
 		<td>
-Select in a tree view the folder in which your new entry will be stored in {{ en.HUBP }}. You can also create a new folder and edit or delete existing ones. 
+Select in a tree view the folder in which your new entry will be stored in {{ en.DHUBP }}. You can also create a new folder and edit or delete existing ones. 
 		</td>
 	</tr>
 	<tr>
@@ -943,7 +943,7 @@ Enter a name for your entry. This field is automatically filled in by {{ en.DWL 
 Folder 
 		</td>
 		<td>
-Enter the name of the folder in which your new entry will be stored in {{ en.HUBP }}. 
+Enter the name of the folder in which your new entry will be stored in {{ en.DHUBP }}. 
 		</td>
 	</tr>
 	<tr>
@@ -951,7 +951,7 @@ Enter the name of the folder in which your new entry will be stored in {{ en.HUB
 Select Folder 
 		</td>
 		<td>
-Select in a tree view the folder in which your new entry will be stored in {{ en.HUBP }}. You can also create a new folder and edit or delete existing ones. 
+Select in a tree view the folder in which your new entry will be stored in {{ en.DHUBP }}. You can also create a new folder and edit or delete existing ones. 
 		</td>
 	</tr>
 	<tr>
@@ -1218,7 +1218,7 @@ Enter a name for your entry. This field is automatically filled in by {{ en.DWL 
 Folder 
 		</td>
 		<td>
-Enter the name of the folder in which your new entry will be stored in {{ en.HUBP }}. 
+Enter the name of the folder in which your new entry will be stored in {{ en.DHUBP }}. 
 		</td>
 	</tr>
 	<tr>
@@ -1226,7 +1226,7 @@ Enter the name of the folder in which your new entry will be stored in {{ en.HUB
 Select Folder 
 		</td>
 		<td>
-Select in a tree view the folder in which your new entry will be stored in {{ en.HUBP }}. You can also create a new folder and edit or delete existing ones. 
+Select in a tree view the folder in which your new entry will be stored in {{ en.DHUBP }}. You can also create a new folder and edit or delete existing ones. 
 		</td>
 	</tr>
 	<tr>
@@ -1380,7 +1380,5 @@ Cancel the creation of a new website entry and clear all unsaved changes to sett
 </table>
 
 {% snippet icon.badgeInfo %} 
-Follow our step-by-step guide explaining [how to add an entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/) in {{ en.HUBP }} with {{ en.DWL }}. 
+Follow our step-by-step guide explaining [how to add an entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/) in {{ en.DHUBP }} with {{ en.DWL }}. 
 {% endsnippet %}
- 
-

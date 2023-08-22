@@ -1,20 +1,20 @@
 ---
 eleventyComputed:
-  title: Request vault access in {{ en.HUBB }}
+  title: Request vault access in {{ en.DHUBB }}
   order: 10
-  description: You can request access to a public vault in {{ en.HUBB }}.
+  description: You can request access to a public vault in {{ en.DHUBB }}.
   keywords:
   - vault access
 ---
-You can request access to a public vault in {{ en.HUBB }}. Follow the steps below to complete a request.
+You can request access to a public vault in {{ en.DHUBB }}. Follow the steps below to complete a request.
 
-1. Connect to the {{ en.HUBB }} that contains the vault you want access to.
+1. Connect to the {{ en.DHUBB }} that contains the vault you want access to.
 1. In the vault selector drop-down menu, click ***More*** and then click on ***Browse All Vaults***.  
 ![More](https://webdevolutions.azureedge.net/docs/en/hub/Hub0002.png)  
 1. Choose the vault you want to access, then click on ***Request Access***.  
 ![Request Access](https://webdevolutions.azureedge.net/docs/en/hub/Hub0003.png)  
    {% snippet icon.badgeInfo %}
-   When requesting access to a vault with {{ en.HUBB }}, an approver must be picked from the list. Only administrators or a vault owner are eligible.
+   When requesting access to a vault with {{ en.DHUBB }}, an approver must be picked from the list. Only administrators or a vault owner are eligible.
    {% endsnippet %}  
 
 1. Write a short message to the approver explaining why the access to this vault is needed. The message is optional, but we recommend it as it allows the administrator or vault owner to make a more informed decision.

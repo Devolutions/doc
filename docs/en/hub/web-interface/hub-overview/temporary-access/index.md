@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Temporary access in {{ en.HUBB }}
+  title: Temporary access in {{ en.DHUBB }}
 ---

@@ -7,7 +7,7 @@ Before using your application, you will have to complete a quick setup that invo
 
 ## {{ en.DWS }} Setup
 
-Follow the steps below to perform the initial configuration of your {{ en.DWS }} desktop application with {{ en.HUBP }}:
+Follow the steps below to perform the initial configuration of your {{ en.DWS }} desktop application with {{ en.DHUBP }}:
 
 1. [Download and install {{ en.DWS }}](https://devolutions.net/workspace/) if you have not already done so.
 1. After the installation is complete, in the ***{{ en.DWS }} Setup*** window, check ***{{ en.DHUBP }}***, then click on ***Start Setup***.
@@ -20,7 +20,7 @@ During the setup, you can always click on ***Skip This Step*** to configure that
 3. If you do not have a {{ en.DA }}, click on ***Create an account*** and follow the steps in your browser to create your account. If you do have an account, click on ***Login*** to authenticate in your browser.
 ![{{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2208.png)
 1. Back to the {{ en.DWS }} setup, choose to either back up your entries on {{ en.DHUBP }} or not back them up. Backing up your entries on {{ en.DHUBP }} is recommended as you will be able to access them from any device.  
-![Back up entries on {{ en.HUBP }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2209.png)
+![Back up entries on {{ en.DHUBP }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2209.png)
 1. Click ***Next***.
 1. Choose to use a biometric lock (Windows Hello, Touch ID, etc.) or a master password.  
 ![Security settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2206.png)

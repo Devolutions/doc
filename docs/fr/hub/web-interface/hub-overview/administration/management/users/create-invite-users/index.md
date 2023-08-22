@@ -1,9 +1,9 @@
 ---
 title: Créer et inviter des utilisateurs
 ---
-Créer et inviter des ***Utilisateurs*** dans votre {{ fr.HUBB }} avec leur adresse courriel. 
+Créer et inviter des ***Utilisateurs*** dans votre {{ fr.DHUBB }} avec leur adresse courriel. 
 {% snippet icon.badgeCaution %} 
-Si votre {{ fr.HUBB }} est configurée avec les identifiants d'authentification SSO d'Azure AD Office 365, suivre le processus spécifique pour inviter des utilisateurs avec cette rubrique : [Inviter des utilisateurs pour SSO](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/). 
+Si votre {{ fr.DHUBB }} est configurée avec les identifiants d'authentification SSO d'Azure AD Office 365, suivre le processus spécifique pour inviter des utilisateurs avec cette rubrique : [Inviter des utilisateurs pour SSO](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/). 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
@@ -24,7 +24,7 @@ Il est possible de coller une liste d'adresses courriel d'***Utilisateurs*** qui
 {% snippet icon.badgeInfo %} 
 Cette étape validera si l'utilisateur a un {{ fr.DA }}.  
 
-* Si oui, il liera le compte au {{ fr.HUBB }} et l'utilisateur recevra un courriel d'invitation.  
+* Si oui, il liera le compte au {{ fr.DHUBB }} et l'utilisateur recevra un courriel d'invitation.  
 * Sinon, il créera automatiquement un {{ fr.DA }} avec un ***Mot de passe temporaire***, que vous pouvez choisir comment gérer. Vous pouvez gérer la gestion des ***Mots de passe temporaires*** dans ***Administration - Paramètres du système - Général***. 
 {% endsnippet %}
  
@@ -43,4 +43,4 @@ Les ***Groupes d'utilisateurs*** doivent être définis au préalable en tant qu
 
 9. Cliquer ***Envoyer une invitation***.  
 
-{{ fr.HUB }} enverra un courriel contenant les informations essentielles aux utilisateurs invités; le lien pour accéder à {{ fr.HUBB }}, l'ID et la clé d'invitation. 
+{{ fr.HUB }} enverra un courriel contenant les informations essentielles aux utilisateurs invités; le lien pour accéder à {{ fr.DHUBB }}, l'ID et la clé d'invitation. 

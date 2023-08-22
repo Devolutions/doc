@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Approve vault access in {{ en.HUBB }}
+  title: Approve vault access in {{ en.DHUBB }}
   order: 20
-  description: In {{ en.HUBB }}, users can request access to a public vault. An administrator / vault owner then has to approve the request.
+  description: In {{ en.DHUBB }}, users can request access to a public vault. An administrator / vault owner then has to approve the request.
   keywords: 
   - vault access
 ---
-In {{ en.HUBB }}, users can request access to a public vault. An administrator / vault owner then has to approve the request. Vault owners are configured in ***Administration*** – ***Management*** – ***Vaults*** when creating or editing a vault, under the ***Visibility*** option.
+In {{ en.DHUBB }}, users can request access to a public vault. An administrator / vault owner then has to approve the request. Vault owners are configured in ***Administration*** – ***Management*** – ***Vaults*** when creating or editing a vault, under the ***Visibility*** option.
 
 ## View pending vault access requests
 
@@ -20,7 +20,7 @@ Pending requests will only show up in the ***Dashboard*** if you are in a vault 
 
 {% snippet icon.badgeInfo %}
 Depending on the data source, administrators / vault owners may receive an email informing them of the vault access request:  
-* With a {{ en.HUBB }} data source, a vault access request email is sent to the administrator / vault owner to whom the request has been addressed.
+* With a {{ en.DHUBB }} data source, a vault access request email is sent to the administrator / vault owner to whom the request has been addressed.
 * With a {{ en.DVLS }} data source, all administrators / vault owners receive a vault access request email.
 * With a SQL data source, no email is sent.
 {% endsnippet %}
@@ -43,5 +43,5 @@ The ***Permissions*** level set by the user making the request can by modified b
 Clicking on ***Approve*** or ***Deny*** will send the response with the selected parameters.
 
 {% snippet icon.badgeHelp %}
-To learn more about the end user experience in {{ en.HUBB }}, visit [Request vault access in {{ en.HUBB }}](/hub/web-interface/vault-access/request-vault-access).
+To learn more about the end user experience in {{ en.DHUBB }}, visit [Request vault access in {{ en.DHUBB }}](/hub/web-interface/vault-access/request-vault-access).
 {% endsnippet %}

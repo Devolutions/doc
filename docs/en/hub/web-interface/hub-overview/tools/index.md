@@ -1,7 +1,7 @@
 ---
 title: Tools
 ---
-The ***Tools*** section is full of resources for {{ en.HUBB }} to download, export, and get in touch with our ***Support Center***.  
+The ***Tools*** section is full of resources for {{ en.DHUBB }} to download, export, and get in touch with our ***Support Center***.  
 ![!!Hub4046.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4046.png) 
 
 * Download [***{{ en.CTOOLS }}***](https://devolutions.net/password-hub/companion-tools), which are additional applications that work hand in hand with our products. 
@@ -11,4 +11,4 @@ The ***Tools*** section is full of resources for {{ en.HUBB }} to download, expo
     * Import your entries and data with [***{{ en.DHUBI }}***](/hub/web-interface/hub-overview/tools/hub-importer/). 
 * Export your data with our [{{ en.PS }} module](/hub/powershell-module/). 
 * Looking for help? Consult our [***Support Center***](https://devolutions.net/support)for ***Online Help*** and ***Knowledge base*** documentation, share with the community on our ***Forum***, or contact our ***Support***. 
-* Consult the {{ en.HUBB }} ***Release Notes***. 
+* Consult the {{ en.DHUBB }} ***Release Notes***. 

@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Installation manuelle
   order: 20
-  description: Les instructions suivantes expliquent comment installer manuellement {{ fr.DGW }} via {{ fr.HUBB }}.
+  description: Les instructions suivantes expliquent comment installer manuellement {{ fr.DGW }} via {{ fr.DHUBB }}.
 ---
-Les instructions suivantes expliquent comment installer manuellement {{ fr.DGW }} via {{ fr.HUBB }}.
+Les instructions suivantes expliquent comment installer manuellement {{ fr.DGW }} via {{ fr.DHUBB }}.
 
 ## Étapes de l'installation manuelle
 
@@ -12,7 +12,7 @@ Les instructions suivantes expliquent comment installer manuellement {{ fr.DGW }
 Cette méthode ne fonctionne que pour Windows. 
 {% endsnippet %} 
 
-1. Se connecter avec un compte administrateur {{ fr.HUBB }}. 
+1. Se connecter avec un compte administrateur {{ fr.DHUBB }}. 
 1. Accéder à l'onglet ***Administration*** sur la gauche.  
 ![Onglet Administration](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0020.png)
 1. Cliquer sur {{ fr.DGW }}, qui se trouve sous la section ***Gestion***.  
@@ -23,7 +23,7 @@ Cette méthode ne fonctionne que pour Windows.
 ![Installation manuelle](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0034.png)
 1. Télécharger ***l'installateur*** du {{ fr.DGW }} et l'exécuter.  
 ![L'installateur](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0035.png)
-1. <a name="7"></a> Cliquer sur ***Générer la clé publique de Gateway et la télécharger***. Cette clé est unique pour le compte {{ fr.HUBB }} et ne peut être générée qu'une seule fois. Si elle a déjà été générée, la clé peut être téléchargée à nouveau, si nécessaire.  
+1. <a name="7"></a> Cliquer sur ***Générer la clé publique de Gateway et la télécharger***. Cette clé est unique pour le compte {{ fr.DHUBB }} et ne peut être générée qu'une seule fois. Si elle a déjà été générée, la clé peut être téléchargée à nouveau, si nécessaire.  
 ![Clé publique de Gateway](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0036.png)
 {% snippet icon.badgeInfo %} 
 Le programme d'installation doit être exécuté sur le serveur hébergeant {{ fr.DGW }}. 
@@ -50,7 +50,7 @@ Le programme d'installation doit être exécuté sur le serveur hébergeant {{ f
 1. Cliquer sur ***Installer***.  
 ![Installer](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0046.png)
 1. Cliquer sur ***Terminer*** lorsque l'installation est terminée. 
-1. Retourner à la page ***Administration - {{ fr.DGW }}*** dans {{ fr.HUBB }}. 
+1. Retourner à la page ***Administration - {{ fr.DGW }}*** dans {{ fr.DHUBB }}. 
 1. Saisir les informations correctes.  
 ![Champs d'information](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0047.png)
 ![Champs d'information](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0048.png)
@@ -58,7 +58,7 @@ Le programme d'installation doit être exécuté sur le serveur hébergeant {{ f
 ![Par défaut](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0049.png)
 1. Tester si la passerelle est accessible en cliquant sur ***Tester connexion***.  
 ![Tester connexion](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0050.png)
-1. Cliquer sur le bouton ***Ajouter*** pour relier votre installation {{ fr.DGW }} à votre {{ fr.HUBB }}.  
+1. Cliquer sur le bouton ***Ajouter*** pour relier votre installation {{ fr.DGW }} à votre {{ fr.DHUBB }}.  
 ![Ajouter](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0051.png)
 1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} {{ fr.HUB }}.  
 ![Connexion réussie](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0033.png)

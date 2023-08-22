@@ -99,7 +99,7 @@ Allows the administrator to force the users to use this new configuration file.
 {% snippet icon.badgeInfo %} 
 Since version 2022.3 of {{ en.RDM }}, the license registration information is stored in the data source, which means it can no longer be included in a {{ en.CI }}. Follow this [step-by-step guide](/rdm/windows/installation/client/registration/team-edition/) to add your license serial and assign it to your users from an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).  
 
-If your users each have their own individual data source ({{ en.HUBP }}, SQLite), you need to provide them the license serial so they can manually register in ***Administration – Management – Licenses***. 
+If your users each have their own individual data source ({{ en.DHUBP }}, SQLite), you need to provide them the license serial so they can manually register in ***Administration – Management – Licenses***. 
 {% endsnippet %}
  
 ### Data sources 

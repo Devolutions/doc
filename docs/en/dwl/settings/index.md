@@ -40,7 +40,7 @@ The ***Import/Export Settings*** allow to save and transfer your currently set p
 
 ### Data sources <a name="source"></a>
 
-The ***Data sources*** settings are used to customize {{ en.DWL }} interactions with <a href="#rdm">{{ en.RDM }}</a>, <a href="#server">{{ en.DVLS }}</a>, and <a href="#hub">{{ en.HUBB }} or {{ en.HUBP }}</a>.
+The ***Data sources*** settings are used to customize {{ en.DWL }} interactions with <a href="#rdm">{{ en.RDM }}</a>, <a href="#server">{{ en.DVLS }}</a>, and <a href="#hub">{{ en.DHUBB }} or {{ en.DHUBP }}</a>.
 
 ### {{ en.RDM }} <a name="rdm"></a>
 
@@ -262,7 +262,7 @@ Enable to synchronize all the available {{ en.VLT }}s from {{ en.DVLS }}.
 	</tr>
 </table>
 
-### {{ en.HUBB }} and {{ en.HUBP }} <a name="hub"></a>
+### {{ en.DHUBB }} and {{ en.DHUBP }} <a name="hub"></a>
 
 <table>
 	<tr>
@@ -283,10 +283,10 @@ Retrieve entries from {{ en.HUB }}.
 	</tr>
 	<tr>
 		<td>
-Server URL (available with {{ en.HUBB }} only) 
+Server URL (available with {{ en.DHUBB }} only) 
 		</td>
 		<td>
-Enter the URL of the {{ en.HUBB }} instance to connect to. 
+Enter the URL of the {{ en.DHUBB }} instance to connect to. 
 		</td>
 	</tr>
 	<tr>
@@ -369,10 +369,10 @@ Set a default comparing option type between <b><i>Base domain</b></i>, <b><i>Hos
 	</tr>
 	<tr>
 		<td>
-Sync all available vaults (available with {{ en.HUBB }} only) 
+Sync all available vaults (available with {{ en.DHUBB }} only) 
 		</td>
 		<td>
-Enable to synchronize all the available {{ en.VLT }}s from {{ en.HUBB }}. 
+Enable to synchronize all the available {{ en.VLT }}s from {{ en.DHUBB }}. 
 		</td>
 	</tr>
 </table>

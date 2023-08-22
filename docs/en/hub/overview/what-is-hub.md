@@ -80,7 +80,7 @@ Centralize, Manage, and Secure Remote Connections
 	</tr>
 	<tr>
 		<td>
-{{ en.DWS }} is a mobile and desktop application that brings together Authenticator, {{ en.HUBB }}, {{ en.HUBP }}, and {{ en.VLS }} into a single, centralized, cloud-based location. 
+{{ en.DWS }} is a mobile and desktop application that brings together Authenticator, {{ en.DHUBB }}, {{ en.DHUBP }}, and {{ en.DVLS }} into a single, centralized, cloud-based location. 
 		</td>
 		<td>
 {{ en.RDM }} centralizes all remote connections on a single platform that is securely shared between users and across the entire team. {{ en.HUB }} can be used as a data source in {{ en.RDM }}. 

@@ -18,7 +18,7 @@ In {{ en.DHUB }}, many situations can trigger an ***Access denied*** error. Here
 Description
 		</td>
 		<td>
-The two-factor authentication login was enforced on the {{ en.HUBB }}.
+The two-factor authentication login was enforced on the {{ en.DHUBB }}.
 		</td>
 	</tr>
 	<tr>
@@ -26,7 +26,7 @@ The two-factor authentication login was enforced on the {{ en.HUBB }}.
 Solution
 		</td>
 		<td>
-All users that connect to this {{ en.HUBB }} need to have a two-factor authentication configured on their {{ en.DA }}. Please follow the displayed instructions.
+All users that connect to this {{ en.DHUBB }} need to have a two-factor authentication configured on their {{ en.DA }}. Please follow the displayed instructions.
 		</td>
 	</tr>
 </table>
@@ -39,7 +39,7 @@ All users that connect to this {{ en.HUBB }} need to have a two-factor authentic
 Description
 		</td>
 		<td>
-This user did a Forgot password on their {{ en.DA }} for their {{ en.HUBP }}.
+This user did a Forgot password on their {{ en.DA }} for their {{ en.DHUBP }}.
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +49,7 @@ Solution
 		<td>
 Enter your Emergency reset code.<br>
 
-The Emergency reset kit was provided at the first login after the initial creation of the {{ en.HUBP }}. It is a mandatory step in the creation process.<br>
+The Emergency reset kit was provided at the first login after the initial creation of the {{ en.DHUBP }}. It is a mandatory step in the creation process.<br>
 
 You can search for a PDF file titled "{{ en.DHUBP }} Emergency Kit".<br>
 
@@ -66,7 +66,7 @@ There is no way to recover it if the Emergency reset kit cannot be located.<br>
 Description
 		</td>
 		<td>
-This user is not allowed to access this {{ en.HUBB }} via the {{ en.DWL }} {{ en.CTOOL }}.
+This user is not allowed to access this {{ en.DHUBB }} via the {{ en.DWL }} {{ en.CTOOL }}.
 		</td>
 	</tr>
 	<tr>
@@ -74,7 +74,7 @@ This user is not allowed to access this {{ en.HUBB }} via the {{ en.DWL }} {{ en
 Solution
 		</td>
 		<td>
-The user needs to contact their {{ en.HUBB }} administrator or any user that has the permission to manage users to enable their access.
+The user needs to contact their {{ en.DHUBB }} administrator or any user that has the permission to manage users to enable their access.
 		</td>
 	</tr>
 </table>
@@ -87,7 +87,7 @@ The user needs to contact their {{ en.HUBB }} administrator or any user that has
 Description
 		</td>
 		<td>
-This user was disabled in {{ en.HUBB }}.
+This user was disabled in {{ en.DHUBB }}.
 		</td>
 	</tr>
 	<tr>
@@ -95,7 +95,7 @@ This user was disabled in {{ en.HUBB }}.
 Solution
 		</td>
 		<td>
-The user needs to contact their {{ en.HUBB }} administrator or any user that has the permission to manage users to enable their access.
+The user needs to contact their {{ en.DHUBB }} administrator or any user that has the permission to manage users to enable their access.
 		</td>
 	</tr>
 </table>
@@ -108,7 +108,7 @@ The user needs to contact their {{ en.HUBB }} administrator or any user that has
 Description
 		</td>
 		<td>
-This user account does not exist in the {{ en.HUBB }}.
+This user account does not exist in the {{ en.DHUBB }}.
 		</td>
 	</tr>
 	<tr>
@@ -116,7 +116,7 @@ This user account does not exist in the {{ en.HUBB }}.
 Solution
 		</td>
 		<td>
-An administrator or any user that has the permission to manage users needs to invite the user with their {{ en.DA }} in this {{ en.HUBB }}.
+An administrator or any user that has the permission to manage users needs to invite the user with their {{ en.DA }} in this {{ en.DHUBB }}.
 		</td>
 	</tr>
 </table>
@@ -130,7 +130,7 @@ An administrator or any user that has the permission to manage users needs to in
 Description
 		</td>
 		<td>
-This user did a Forgot password on his {{ en.DA }} and is the owner of the {{ en.HUBB }}.
+This user did a Forgot password on his {{ en.DA }} and is the owner of the {{ en.DHUBB }}.
 		</td>
 	</tr>
 	<tr>
@@ -143,10 +143,10 @@ Is there another administrator or any user that has the permission to manage use
 * **Yes**: Ask the other administrator or user with enough rights to re-invite the owner.<br>
 * **No**: The owner will need to enter their Emergency reset code.<br>
 
-The Emergency reset kit was provided at the first login after the initial creation of the {{ en.HUBB }}. It is a mandatory step in the creation process.<br>
+The Emergency reset kit was provided at the first login after the initial creation of the {{ en.DHUBB }}. It is a mandatory step in the creation process.<br>
 
 You can search for a PDF file titled "{{ en.DHUB }} Emergency Kit huburlxxxx.devolutions.app".<br>
-* If you are a {{ en.HUBB }} owner and cannot locate your Emergency reset kit PDF file and do not have another administrator or any user that has the permission to manage users, please contact our [support team](mailto:service@devolutions.net) by email.<br>
+* If you are a {{ en.DHUBB }} owner and cannot locate your Emergency reset kit PDF file and do not have another administrator or any user that has the permission to manage users, please contact our [support team](mailto:service@devolutions.net) by email.<br>
 		</td>
 	</tr>
 </table>
@@ -159,9 +159,9 @@ You can search for a PDF file titled "{{ en.DHUB }} Emergency Kit huburlxxxx.dev
 Description
 		</td>
 		<td>
-This user did a Forgot password on their {{ en.DA }} and is not the owner. This action cuts the link with the {{ en.HUBB }}.<br>
+This user did a Forgot password on their {{ en.DA }} and is not the owner. This action cuts the link with the {{ en.DHUBB }}.<br>
 
-Note: If the {{ en.DA }} has more than one {{ en.HUB }} ({{ en.HUBB }} and {{ en.HUBP }}), it will cut the link to all of them.
+Note: If the {{ en.DA }} has more than one {{ en.HUB }}, it will cut the link to all of them.
 		</td>
 	</tr>
 	<tr>
@@ -169,7 +169,7 @@ Note: If the {{ en.DA }} has more than one {{ en.HUB }} ({{ en.HUBB }} and {{ en
 Solution
 		</td>
 		<td>
-An administrator or any user that has the permission to manage users needs to re-invite this user. This invitation will establish the link with the {{ en.HUBB }}.
+An administrator or any user that has the permission to manage users needs to re-invite this user. This invitation will establish the link with the {{ en.DHUBB }}.
 		</td>
 	</tr>
 </table>
@@ -196,7 +196,7 @@ Solution
   <li>Remove the QR code or Password linked to the account, if any.</li>
   <li>Click on the <b><i>Forgot your phone</i></b> button in the <b><i>Store on a mobile device</i></b> method.</li>
   <li>Follow the push notification configuration process.</li>
-  <li>Ask an administrator or any user that has the permission to manage users for a new invitation to the {{ en.HUBB }}.</li>
+  <li>Ask an administrator or any user that has the permission to manage users for a new invitation to the {{ en.DHUBB }}.</li>
 </ol>
 		</td>
 	</tr>
@@ -218,7 +218,7 @@ This user is not allowed to access this {{ en.DHUBB }} via the {{ en.DWS }} {{ e
 Solution
 		</td>
 		<td>
-The user needs to contact their {{ en.HUBB }} administrator or any user that has the permission to manage users to enable their access.
+The user needs to contact their {{ en.DHUBB }} administrator or any user that has the permission to manage users to enable their access.
 		</td>
 	</tr>
 </table>
@@ -239,7 +239,7 @@ The IP address of this user is not in the IP Allowlist.
 Solution
 		</td>
 		<td>
-The user needs to contact their {{ en.HUBB }} administrator.
+The user needs to contact their {{ en.DHUBB }} administrator.
 		</td>
 	</tr>
 </table>
@@ -252,7 +252,7 @@ The user needs to contact their {{ en.HUBB }} administrator.
 Description
 		</td>
 		<td>
-The trial or paid license for {{ en.HUBB }} has expired.
+The trial or paid license for {{ en.DHUBB }} has expired.
 		</td>
 	</tr>
 	<tr>
@@ -260,7 +260,7 @@ The trial or paid license for {{ en.HUBB }} has expired.
 Solution
 		</td>
 		<td>
-The {{ en.HUBB }} owner must <a href="https://store.devolutions.net/store">buy or renew</a> the license.
+The {{ en.DHUBB }} owner must <a href="https://store.devolutions.net/store">buy or renew</a> the license.
 		</td>
 	</tr>
 </table>
@@ -273,7 +273,7 @@ The {{ en.HUBB }} owner must <a href="https://store.devolutions.net/store">buy o
 Description
 		</td>
 		<td>
-This {{ en.HUBB }} was locked or a bug occurred between the license and the link to the {{ en.HUBB }}.
+This {{ en.DHUBB }} was locked or a bug occurred between the license and the link to the {{ en.DHUBB }}.
 		</td>
 	</tr>
 	<tr>

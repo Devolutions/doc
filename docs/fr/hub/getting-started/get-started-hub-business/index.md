@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
-  title: Introduction avec {{ fr.HUBB }}
+  title: Introduction avec {{ fr.DHUBB }}
   order: 20
-  description: Voici une liste d'étapes pour vous aider à démarrer avec {{ fr.HUBB }} pour votre équipe.
+  description: Voici une liste d'étapes pour vous aider à démarrer avec {{ fr.DHUBB }} pour votre équipe.
 ---
-Voici une liste d'étapes pour vous aider à démarrer avec {{ fr.HUBB }} pour votre équipe. 
+Voici une liste d'étapes pour vous aider à démarrer avec {{ fr.DHUBB }} pour votre équipe. 
 
 {% snippet icon.badgeInfo %} 
-Commencez votre [essai gratuit de {{ fr.HUBB }}](https://devolutions.net/password-hub/fr/business/sign-up) dès aujourd'hui! 
+Commencez votre [essai gratuit de {{ fr.DHUBB }}](https://devolutions.net/password-hub/fr/business/sign-up) dès aujourd'hui! 
 {% endsnippet %}  
  
 <table>
@@ -29,7 +29,7 @@ Description
 * [Créer et gérer des Coffres](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) 
 		</td>
 		<td>
-Dans cette vidéo (EN), nous montrerons la configuration appropriée pour {{ fr.HUBB }} ainsi que les meilleures pratiques pour inviter un ***Administrateur***, créer des ***Groupes d'utilisateurs***, configurer des ***Coffres*** partagés et leur attribuer des ***Rôles*** et des ***Permissions***. 
+Dans cette vidéo (EN), nous montrerons la configuration appropriée pour {{ fr.DHUBB }} ainsi que les meilleures pratiques pour inviter un ***Administrateur***, créer des ***Groupes d'utilisateurs***, configurer des ***Coffres*** partagés et leur attribuer des ***Rôles*** et des ***Permissions***. 
 
 {% youtube 'fRW0FnnaGkc' %}  
 		</td>
@@ -42,7 +42,7 @@ Dans cette vidéo (EN), nous montrerons la configuration appropriée pour {{ fr.
 * [Inviter des Utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/users/create-invite-users/) 
 		</td>
 		<td>
-Avec cette vidéo (EN), nous vous montrerons comment ajouter des ***Utilisateurs*** à votre {{ fr.HUBB }} pour ceux qui ont déjà un {{ fr.DA }}, ainsi que pour ceux qui n'en ont pas.  
+Avec cette vidéo (EN), nous vous montrerons comment ajouter des ***Utilisateurs*** à votre {{ fr.DHUBB }} pour ceux qui ont déjà un {{ fr.DA }}, ainsi que pour ceux qui n'en ont pas.  
 
 {% youtube 'IH71s3SDHgc' %}  
 		</td>
@@ -56,7 +56,7 @@ Avec cette vidéo (EN), nous vous montrerons comment ajouter des ***Utilisateurs
 * [Importer des entrées avec {{ fr.DHUBI }}](/fr/hub/web-interface/hub-overview/tools/hub-importer/) 
 		</td>
 		<td>
-À ce stade, cette vidéo (EN) vous montrera quatre façons différentes d'ajouter et d'importer des ***Entrées*** dans votre {{ fr.HUBB }} nouvellement créée. Nous couvrirons également les ***Propriétés*** et les ***Permissions*** des ***Entrées***.  
+À ce stade, cette vidéo (EN) vous montrera quatre façons différentes d'ajouter et d'importer des ***Entrées*** dans votre {{ fr.DHUBB }} nouvellement créée. Nous couvrirons également les ***Propriétés*** et les ***Permissions*** des ***Entrées***.  
 
 {% youtube 'zLL3TdL54n0' %}  
 		</td>
@@ -72,7 +72,7 @@ Avec cette vidéo (EN), nous vous montrerons comment ajouter des ***Utilisateurs
 * [Outils](/fr/hub/web-interface/hub-overview/tools/) 
 		</td>
 		<td>
-Dans cette dernière vidéo (EN), nous vous montrerons certains des paramètres de gestion de l'***Administration***, de la ***Configuration***, des ***Outils*** et des ***Rapports*** qui, selon nous, vous seront utiles lorsque vous finaliserez la configuration de votre  {{ fr.HUBB }}.  
+Dans cette dernière vidéo (EN), nous vous montrerons certains des paramètres de gestion de l'***Administration***, de la ***Configuration***, des ***Outils*** et des ***Rapports*** qui, selon nous, vous seront utiles lorsque vous finaliserez la configuration de votre {{ fr.DHUBB }}.  
 
 {% youtube '86FV0yMzm1M' %}  
 		</td>

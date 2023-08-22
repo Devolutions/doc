@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: End user invitation experience for SSO in {{ en.HUBB }}
-  description: Users that are invited to join {{ en.HUBB }} receive an email from their administrator.
+  title: End user invitation experience for SSO in {{ en.DHUBB }}
+  description: Users that are invited to join {{ en.DHUBB }} receive an email from their administrator.
   keywords:
   - Office 365
   - Office365
@@ -11,14 +11,14 @@ eleventyComputed:
 ---
 {% youtube 'EJgx-xLMNc0' %}  
 
-Users that are invited to join {{ en.HUBB }} receive this email from their administrator.  
+Users that are invited to join {{ en.DHUBB }} receive this email from their administrator.  
 ![Invitation Email](https://webdevolutions.azureedge.net/docs/en/hub/Hub4146.png) 
-1. Access the {{ en.HUBB }} URL link. 
+1. Access the {{ en.DHUBB }} URL link. 
 1. Log in using the ***Sign in with Microsoft*** button.  
 ![Sign in with Microsoft](https://webdevolutions.azureedge.net/docs/en/hub/Hub4147.png) 
 
 {% snippet icon.badgeInfo %} 
-New users accessing {{ en.HUBB }} through Azure AD sign in will go through this configuration if they do not have a {{ en.DA }}. Since you do not want the user to define a password for this account, you need to have a way to store the ***Private Key***. It is usually kept with the password account. This special and unique key for each user is needed when the user changes device or browser. On a daily basis, the device and browser recognize the current user, but not a new one.  
+New users accessing {{ en.DHUBB }} through Azure AD sign in will go through this configuration if they do not have a {{ en.DA }}. Since you do not want the user to define a password for this account, you need to have a way to store the ***Private Key***. It is usually kept with the password account. This special and unique key for each user is needed when the user changes device or browser. On a daily basis, the device and browser recognize the current user, but not a new one.  
 
 This is why the user needs to store this ***Private Key*** on the mobile application ***{{ en.DWS }}***. It will be much more convenient for the user to do a push notification to accept the new device or browser. 
 {% endsnippet %}
@@ -63,4 +63,4 @@ You are now ready to continue to the next section.
 ![Invitation id and Invitation key](https://webdevolutions.azureedge.net/docs/en/hub/Hub4154.png)  
 1. Click ***Unlock***.  
 
-The user in now connected and is ready to use {{ en.HUBB }}. 
+The user in now connected and is ready to use {{ en.DHUBB }}. 

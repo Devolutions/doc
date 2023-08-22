@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Invite users for SSO in {{ en.HUBB }}
+  title: Invite users for SSO in {{ en.DHUBB }}
   description: Once SSO is configured and enabled, invite your users on your {{ en.HUB }} following these steps.
   keywords:
   - SSO
@@ -10,14 +10,14 @@ eleventyComputed:
 ---
 Once SSO is [configured and enabled](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/), you can use this specific invite for all your users.  
 
-This method will send a preformatted email to all the recipients. It will provide your {{ en.HUBB }} URL with an invitation ID and a key for them to use.  
+This method will send a preformatted email to all the recipients. It will provide your {{ en.DHUBB }} URL with an invitation ID and a key for them to use.  
 
 {% snippet icon.badgeCaution %} 
-The invitation ID and key are for pre-approving access to {{ en.HUBB }}. They expire 7 days from the day they are sent. 
+The invitation ID and key are for pre-approving access to {{ en.DHUBB }}. They expire 7 days from the day they are sent. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-As part of the creation process, a {{ en.DA }} will be created since it is required to access {{ en.HUBB }}, but it will not be necessary to set a password since your users will authenticate via Azure AD. 
+As part of the creation process, a {{ en.DA }} will be created since it is required to access {{ en.DHUBB }}, but it will not be necessary to set a password since your users will authenticate via Azure AD. 
 {% endsnippet %}
  
 ## Invite Organization Users 
@@ -37,17 +37,17 @@ This is only possible if the enterprise application in Azure has the ***Assignme
 ![Step 3 - Options](https://webdevolutions.azureedge.net/docs/en/hub/Hub2178.png)  
 1. ***Step 4 - User groups***: Synchronized users do not need to be assigned to the synced ***User Groups***. They will be added automatically as they log in. If you have custom ***User Groups***, you can assign them users.  
 {% snippet icon.badgeInfo %}  
-Custom ***User groups*** need to be defined beforehand in {{ en.HUBB }}. For more information, see [User Groups](/hub/web-interface/hub-overview/administration/management/users/). 
+Custom ***User groups*** need to be defined beforehand in {{ en.DHUBB }}. For more information, see [User Groups](/hub/web-interface/hub-overview/administration/management/users/). 
 {% endsnippet %}
  
 ![Step 4 - User groups](https://webdevolutions.azureedge.net/docs/en/hub/Hub2179.png) 
 
 6. Click ***Send invite*** at the bottom.  
 
-{{ en.HUBB }} will send an email with essential information to the recipients, including the URL of your {{ en.HUBB }}, the invitation ID, and the key.  
+{{ en.DHUBB }} will send an email with essential information to the recipients, including the URL of your {{ en.DHUBB }}, the invitation ID, and the key.  
 
 {% snippet icon.badgeCaution %} 
-Users will be required to complete a {{ en.DA }} setup. See the [End User Invitation Experience for SSO in {{ en.HUBB }}](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/) topic. 
+Users will be required to complete a {{ en.DA }} setup. See the [End User Invitation Experience for SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/) topic. 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
@@ -55,14 +55,14 @@ The recipient will be part of your {{ en.HUB }} only when they connect to it for
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
-Any user that tries to access your {{ en.HUBB }} with its URL for the first time without receiving an invitation will trigger a request approval, only if they are in the same identity provider.  
+Any user that tries to access your {{ en.DHUBB }} with its URL for the first time without receiving an invitation will trigger a request approval, only if they are in the same identity provider.  
 
 An email will then be sent to all the administrators. It can be either approved or denied in ***Administration – Users***. 
 {% endsnippet %}  
  
 ## Invite Users That Are Not Part of Your Authentication Provider
 
-It is possible to add users to your {{ en.HUBB }} that are outside of your authentication provider.  
+It is possible to add users to your {{ en.DHUBB }} that are outside of your authentication provider.  
 
 {% snippet icon.badgeInfo %} 
 This option is only possible if you do not set a ***Force SSO on all users***, since those users are not part of your authentication provider.

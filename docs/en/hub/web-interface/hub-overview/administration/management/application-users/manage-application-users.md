@@ -1,7 +1,7 @@
 ---
 title: Manage Application Users
 ---
-Here are the steps to create and assign ***Application Users*** for {{ en.HUBB }}.  
+Here are the steps to create and assign ***Application Users*** for {{ en.DHUBB }}.  
 
 ### Create an Application user 
 
@@ -28,4 +28,3 @@ Depending on the actions that this application user needs to perform, you need t
 * [Assign application user vault permissions](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/)  
 
 When permissions have been assigned, you are ready to access {{ en.HUB }} with the [{{ en.PS }} module](/hub/powershell-module/) and your application user. 
-

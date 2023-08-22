@@ -1,6 +1,4 @@
 ---
 eleventyComputed:
-  title: Using {{ en.DWL }} with {{ en.HUBB }}
+  title: Using {{ en.DWL }} with {{ en.DHUBB }}
 ---
-
-

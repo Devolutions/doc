@@ -1,7 +1,7 @@
 ---
 title: Configurer un SSO existant pour le provisionnement d'Azure AD
 ---
-Si vous avez activé l'authentification unique (SSO) avec {{ fr.DHUBB }} avant le 9 janvier 2023, elle n'est pas configurée pour le provisionnement avec Azure AD. Pour bénéficier de cette fonctionnalité, vous devez créer une nouvelle configuration avec Azure AD qui synchronisera vos ***Groupes d'utilisateurs*** souhaités avec {{ fr.HUBB }}.
+Si vous avez activé l'authentification unique (SSO) avec {{ fr.DHUBB }} avant le 9 janvier 2023, elle n'est pas configurée pour le provisionnement avec Azure AD. Pour bénéficier de cette fonctionnalité, vous devez créer une nouvelle configuration avec Azure AD qui synchronisera vos ***Groupes d'utilisateurs*** souhaités avec {{ fr.DHUBB }}.
 
 ### Créer une application d'entreprise dans Azure AD et modifier la configuration OpenID
 
@@ -10,7 +10,7 @@ Si vous avez activé l'authentification unique (SSO) avec {{ fr.DHUBB }} avant l
 * Une fois la synchronisation effectuée, vérifiez que tous vos utilisateurs existants sont marqués comme synchronisés et qu'ils sont dans leurs ***Groupes d'utilisateurs*** Azure respectifs. Si certains utilisateurs ne sont pas marqués comme synchronisés, cela signifie qu'ils ne sont pas membres d'un groupe Azure qui fait partie de l'application d'entreprise dans Azure.
 
 {% snippet icon.badgeCaution %}
-Pour éviter tout temps d'arrêt lors de cette nouvelle configuration, vous devez compléter la configuration dans {{ fr.HUBB }}. Une fois les valeurs enregistrées, l'authentification Microsoft changera l'application d'entreprise et devrait être transparente.
+Pour éviter tout temps d'arrêt lors de cette nouvelle configuration, vous devez compléter la configuration dans {{ fr.DHUBB }}. Une fois les valeurs enregistrées, l'authentification Microsoft changera l'application d'entreprise et devrait être transparente.
 {% endsnippet %}
 
 ### Remplacer les groupes d'utilisateurs personnalisés de {{ fr.HUB }} avec les groupes d'utilisateurs d'Azure 

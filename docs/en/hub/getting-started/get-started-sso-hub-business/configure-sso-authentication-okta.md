@@ -91,7 +91,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 1. Under ***Assignments***, select the ***Controlled access*** option that best suits your needs. This choice is left to your discretion.  
 
    {% snippet icon.badgeCaution %} 
-   If you choose to ***Allow everyone in your organization to access***, do **not** check the ***Enable immediate access with Federation Broker Mode*** option, as doing so would prevent you from enabling SCIM provisioning in the future. If you choose to ***Limit access to selected groups*** or ***Skip group assignment for now***, you must manually assign to this app the users you wish to authorize to connect to your {{ en.HUBB }} via Okta.
+   If you choose to ***Allow everyone in your organization to access***, do **not** check the ***Enable immediate access with Federation Broker Mode*** option, as doing so would prevent you from enabling SCIM provisioning in the future. If you choose to ***Limit access to selected groups*** or ***Skip group assignment for now***, you must manually assign to this app the users you wish to authorize to connect to your {{ en.DHUBB }} via Okta.
    {% endsnippet %}
 
    ![Assignments](https://webdevolutions.azureedge.net/docs/en/hub/Hub2253.png)  
