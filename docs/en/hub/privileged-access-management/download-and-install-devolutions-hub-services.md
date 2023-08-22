@@ -13,13 +13,10 @@ The {{ en.DHUBS }} installer facilitates the installation and integration of our
 ![Administration – Application Users](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6039.png)  
 1. Select ***Add Application User (+)***.  
 ![Add Application User (+)](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6040.png)  
-1. Enter a name and click ***Add***.  
 
-In the ***Application User*** window under ***User***, ***Is enabled*** enables the user. ***Can access user vaults*** give him access to user vaults.   
-![User](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6053.png)  
-***User groups*** assigns the user to groups.  
-![User groups](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6054.png)  
-5. Save the given ***Application Secret*** and ***Application key*** to your clipboard or as a PDF file. It will be needed during {{ en.DHUBS }}' installation.   
+1. Enter a name and click ***Add***.   
+1. Save the given ***Application Secret*** and ***Application key*** to your clipboard or as a PDF file. It will be needed during Devolutions Hub Services' installation.   
+1. Save the given ***Application Secret*** and ***Application key*** to your clipboard or as a PDF file. It will be needed during {{ en.DHUBS }}' installation.   
 ![Save the given Application Secret and Application key](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6043.png)  
 
 ## Edit Permissions for the Application User
@@ -37,7 +34,7 @@ In the ***Application User*** window under ***User***, ***Is enabled*** enables 
 You need to grant permission on the vault either at ***System level*** or ***Individual PAM vault level***. 
 {% endsnippet %}  
 
-## From all system vaults
+## For all system vaults
 
 1. In {{ en.DHUB }}, go to ***Administration*** – ***Configuration & Security*** – ***System Permissions***.
 ![Administration – Configuration & Security – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
@@ -52,7 +49,8 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 
 1. In {{ en.DHUB }}, go to ***Administration*** – ***Management*** – ***Vaults***.
 ![Administration – Management – Vaults](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6044.png)
-1. Go to the edit form of the specific PAM vault.
+1. Select ***Add PAM vault*** in the menu to create your PAM vault.
+![Administration – Management – Vaults – Add PAM vault](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6059.png)
 1. Select the ***Edit*** tab at the ***Permissions*** section.
 1. Choose your ***Application User*** in the drop-down menu under the ***Contributor*** section.
 ![Contributor section](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6056.png)
@@ -79,5 +77,3 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 {{ en.DHUBS }}' logs are available in ***Windows Event Viewer***. The service should be able to connect to the previously created provider.
 
 It is also possible to see the {{ en.DHUBS }} as a service in the Services window of Windows which shows the current status and where it can be started or stopped.
-
-
