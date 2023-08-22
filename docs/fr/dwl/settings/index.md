@@ -40,7 +40,7 @@ Les ***Paramètres d'importation/d'exportation*** permettent de sauvegarder et d
 
 ### Sources de données <a name="source"></a>
 
-Les paramètres de ***Sources de données*** permettent de personnaliser les interactions de {{ fr.DWL }} avec <a href="#rdm">{{ fr.RDM }}</a>, <a href="#server">{{ fr.DVLS }}</a> et <a href="#hub">{{ fr.HUBB }} ou {{ fr.HUBP }}</a>.  
+Les paramètres de ***Sources de données*** permettent de personnaliser les interactions de {{ fr.DWL }} avec <a href="#rdm">{{ fr.RDM }}</a>, <a href="#server">{{ fr.DVLS }}</a> et <a href="#hub">{{ fr.DHUBB }} ou {{ fr.DHUBP }}</a>.  
 
 ### {{ fr.RDM }} <a name="rdm"></a>
 
@@ -262,7 +262,7 @@ Activer pour synchroniser tous les coffres disponibles depuis {{ fr.DVLS }}.
 	</tr>
 </table>
 
-### {{ fr.HUBB }} et {{ fr.HUBP }} <a name="hub"></a>
+### {{ fr.DHUBB }} et {{ fr.DHUBP }} <a name="hub"></a>
 
 <table>
 	<tr>
@@ -278,15 +278,15 @@ DESCRIPTION
 Activer {{ fr.DHUBB }}/Personal 
 		</td>
 		<td>
-Récupérer les entrées de {{ fr.HUB }}. 
+Récupérer les entrées de {{ fr.DHUB }}. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-URL du serveur (disponible avec {{ fr.HUBB }} seulement) 
+URL du serveur (disponible avec {{ fr.DHUBB }} seulement) 
 		</td>
 		<td>
-Entrer l'URL du {{ fr.HUBB }} auquel se connecter. 
+Entrer l'URL du {{ fr.DHUBB }} auquel se connecter. 
 		</td>
 	</tr>
 	<tr>
@@ -294,7 +294,7 @@ Entrer l'URL du {{ fr.HUBB }} auquel se connecter.
 Nom d'utilisateur 
 		</td>
 		<td>
-Entrer un nom d'utilisateur avec lequel se connecter à {{ fr.HUB }}. 
+Entrer un nom d'utilisateur avec lequel se connecter à {{ fr.DHUB }}. 
 		</td>
 	</tr>
 </table>
@@ -356,7 +356,7 @@ Afficher le favicône de {{ fr.DWL }}.
 {{ fr.DWL }} 
 		</td>
 		<td>
-Activer ou désactiver {{ fr.DWL }} avec {{ fr.HUB }}. 
+Activer ou désactiver {{ fr.DWL }} avec {{ fr.DHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -369,10 +369,10 @@ Définir un type d'option de comparaison par défaut entre <b><i>Domaine de base
 	</tr>
 	<tr>
 		<td>
-Synchroniser tous les coffres disponibles (disponible avec {{ fr.HUBB }} seulement) 
+Synchroniser tous les coffres disponibles (disponible avec {{ fr.DHUBB }} seulement) 
 		</td>
 		<td>
-Activer pour synchroniser tous les coffres disponibles depuis {{ fr.HUBB }}. 
+Activer pour synchroniser tous les coffres disponibles depuis {{ fr.DHUBB }}. 
 		</td>
 	</tr>
 </table>

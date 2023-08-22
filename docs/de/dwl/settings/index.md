@@ -37,7 +37,7 @@ Die ***Import-/Export-Einstellungen*** ermöglichen das Speichern und Übertrage
 
 ### Datenquellen <a name="source"></a>
 
-Die Einstellungen für ***Datenquellen*** dienen der Anpassung der Interaktionen von {{ de.DWL }} mit <a href="#rdm">{{ de.RDM }}</a>, <a href="#server">{{ de.DVLS }}</a>, und <a href="#hub">{{ de.HUBB }} oder {{ de.HUBP }}</a>. 
+Die Einstellungen für ***Datenquellen*** dienen der Anpassung der Interaktionen von {{ de.DWL }} mit <a href="#rdm">{{ de.RDM }}</a>, <a href="#server">{{ de.DVLS }}</a>, und <a href="#hub">{{ de.DHUBB }} oder {{ de.DHUBP }}</a>. 
 
 ### {{ de.RDM }} <a name="rdm"></a>
 
@@ -263,7 +263,7 @@ Synchronisiert alle verfügbaren Tresore von {{ de.DVLS }}.
 	</tr>
 </table>
 
-### {{ de.HUBB }} und {{ de.HUBP }} <a name="hub"></a>
+### {{ de.DHUBB }} und {{ de.DHUBP }} <a name="hub"></a>
 
 <table>
 	<tr>
@@ -279,15 +279,15 @@ BESCHREIBUNG
 {{ de.DHUBB }}/Personal aktivieren 
 		</td>
 		<td>
-Einträge vom {{ de.HUB }} abrufen. 
+Einträge vom {{ de.DHUB }} abrufen. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Server-URL (nur mit {{ de.HUBB }} verfügbar) 
+Server-URL (nur mit {{ de.DHUBB }} verfügbar) 
 		</td>
 		<td>
-Geben Sie die URL der {{ de.HUBB }}-Instanz ein, um eine Verbindung herzustellen.
+Geben Sie die URL der {{ de.DHUBB }}-Instanz ein, um eine Verbindung herzustellen.
  
 		</td>
 	</tr>
@@ -296,7 +296,7 @@ Geben Sie die URL der {{ de.HUBB }}-Instanz ein, um eine Verbindung herzustellen
 Nutzername 
 		</td>
 		<td>
-Geben Sie einen Nutzernamen ein, um sich mit dem {{ de.HUB }} zu verbinden. 
+Geben Sie einen Nutzernamen ein, um sich mit dem hub zu verbinden. 
 		</td>
 	</tr>
 </table>
@@ -359,7 +359,7 @@ Zeigt das Favicon von {{ de.DWL }} an.
 {{ de.DWL }} 
 		</td>
 		<td>
-Aktivieren oder deaktivieren Sie {{ de.DWL}} mit {{ de.HUB }}. 
+Aktivieren oder deaktivieren Sie {{ de.DWL}} mit {{ de.DHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -373,10 +373,10 @@ Legen Sie einen Standard-Vergleichstyp fest zwischen <b><i>Basis-Domain</b></i>,
 	</tr>
 	<tr>
 		<td>
-Alle verfügbaren Tresore synchronisieren (nur mit {{ de.HUBB }} verfügbar) 
+Alle verfügbaren Tresore synchronisieren (nur mit {{ de.DHUBB }} verfügbar) 
 		</td>
 		<td>
-Synchronisiert alle verfügbaren Tresore von {{ de.HUBB }}. 
+Synchronisiert alle verfügbaren Tresore von {{ de.DHUBB }}. 
 		</td>
 	</tr>
 </table>

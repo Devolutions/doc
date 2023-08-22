@@ -1,7 +1,7 @@
 ---
 title: Créer et gérer des Groupes d'utilisateurs
 ---
-La gestion des utilisateurs et des permissions peuvent être simplifiées avec les ***Groupes d'utilisateurs*** dans {{ fr.HUBB }}.  
+La gestion des utilisateurs et des permissions peuvent être simplifiées avec les ***Groupes d'utilisateurs*** dans {{ fr.DHUBB }}.  
 
 * [Créer des Groupes d'utilisateurs](#créer-des-groupes-dutilisateurs) 
 * [Gérer les Groupes d'utilisateurs](#gérer-les-groupes-dutilisateurs)  
@@ -18,7 +18,7 @@ La gestion des utilisateurs et des permissions peuvent être simplifiées avec l
 
 ### Gérer les groupes d'utilisateurs 
 
-La gestion et l'ajout d'utilisateurs aux ***Groupes d'utilisateurs*** dans {{ fr.HUBB }} peuvent être effectués de plusieurs manières : 
+La gestion et l'ajout d'utilisateurs aux ***Groupes d'utilisateurs*** dans {{ fr.DHUBB }} peuvent être effectués de plusieurs manières : 
 {% snippet icon.badgeInfo %} 
 Pour gérer les ***Permissions*** des ***Coffres*** avec des ***Groupes d'utilisateurs***, consulter cette rubrique : [Créer et gérer des coffres](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/). 
 {% endsnippet %}

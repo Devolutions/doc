@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Installation avec un script
   order: 10
-  description: Les instructions suivantes expliquent comment installer un {{ fr.DGW }} à l'aide d'un script via {{ fr.HUBB }}.
+  description: Les instructions suivantes expliquent comment installer un {{ fr.DGW }} à l'aide d'un script via {{ fr.DHUBB }}.
 ---
-Les instructions suivantes expliquent comment installer un {{ fr.DGW }} à l'aide d'un script via {{ fr.HUBB }}.
+Les instructions suivantes expliquent comment installer un {{ fr.DGW }} à l'aide d'un script via {{ fr.DHUBB }}.
 
 ## Étapes de l'installation avec un script
 
@@ -12,7 +12,7 @@ Les instructions suivantes expliquent comment installer un {{ fr.DGW }} à l'aid
 L'installation du script nécessite l'utilisation de PowerShell 7.
 {% endsnippet %} 
 
-1. Se connecter avec un compte administrateur {{ fr.HUBB }}. 
+1. Se connecter avec un compte administrateur {{ fr.DHUBB }}. 
 1. Accéder à l'onglet ***Administration*** sur la gauche.  
 ![Onglet Administration](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0020.png)
 {% snippet icon.badgeCaution %} 
@@ -49,7 +49,7 @@ Un ***Utilisateur d'application*** est nécessaire pour continuer. S'il n'a pas 
 ![Modifier](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0031.png)
 1. Descendre au bas de la page et cliquer sur ***Tester connexion***. Une boîte de message avec ***Connexion réussie*** devrait apparaître en haut à droite.  
 ![Tester connexion](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0032.png)
-1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} {{ fr.HUB }}.  
+1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} de votre hub.  
 ![Connexion réussie](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0033.png)
 
 {% snippet icon.badgeInfo %} 

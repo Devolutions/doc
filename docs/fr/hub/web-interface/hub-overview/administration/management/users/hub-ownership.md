@@ -1,7 +1,7 @@
 ---
-title: Propriétaire du Hub
+title: Propriétaire du hub
 ---
-Dans ***Administration - Utilisateurs***, vous pouvez transférer la propriété de {{ fr.HUBB }} à un autre administrateur.  
+Dans ***Administration - Utilisateurs***, vous pouvez transférer la propriété de {{ fr.DHUBB }} à un autre administrateur.  
 
 Pour localiser le propriétaire actuel, rechercher l'icône de la couronne à côté d'un utilisateur.  
 
@@ -12,4 +12,3 @@ Vous ne pouvez avoir qu'un seul propriétaire à la fois et seul un administrate
 {% endsnippet %}
  
 ![!!Hub4134.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4134.png) 
-

@@ -25,7 +25,7 @@ Finally, clicking on the ***Approve*** and ***Deny*** buttons opens the vault ac
 
 {% snippet icon.badgeInfo %} 
 Depending on the data source, administrators / vault owners may receive an email informing them of the vault access request:  
-* With a {{ en.HUBB }} data source, a vault access request email is sent to the administrator / vault owner to whom the request has been addressed.
+* With a {{ en.DHUBB }} data source, a vault access request email is sent to the administrator / vault owner to whom the request has been addressed.
 * With a {{ en.DVLS }} data source, all administrators / vault owners receive a vault access request email.
 * With a SQL data source, no email is sent.
 {% endsnippet %}  

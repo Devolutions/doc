@@ -4,9 +4,9 @@ title: Nouvelle entrée
 Le bouton ***Nouvelle entrée*** n'est que disponible dans l'onglet [***Correspondant***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#onglet-correspondant), qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les entrées dans l'onglet [***Toutes les entrées***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#onglet-toutes-les-entrées). Vous pouvez choisir de crééer une nouvelle entrée de ***Site Web***, de ***Carte de crédit***, de ***Contact*** ou de ***Note sécurisée***.  
 ![Sélection du type de nouvelle entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2091.png) 
 
-Lorsque le type d'entrée est sélectionné, un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de ce type dans {{ fr.HUBP }} via {{ fr.DWL }}.  
+Lorsque le type d'entrée est sélectionné, un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de ce type dans {{ fr.DHUBP }} via {{ fr.DWL }}.  
 
-Lorsque {{ fr.HUBP }} est utilisé comme source de données, la configuration de base de l'entrée est exécutée dans l'onglet ***Général***, mais des paramètres supplémentaires sont aussi disponibles dans d'autres onglets. Vous trouverez ci-dessous un exemple des paramètres de l'onglet ***Général*** lors de la création d'une entrée de site Web.  
+Lorsque {{ fr.DHUBP }} est utilisé comme source de données, la configuration de base de l'entrée est exécutée dans l'onglet ***Général***, mais des paramètres supplémentaires sont aussi disponibles dans d'autres onglets. Vous trouverez ci-dessous un exemple des paramètres de l'onglet ***Général*** lors de la création d'une entrée de site Web.  
 ![Nouvelle entrée - Site Web (onglet Général)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2092.png) 
 
 Les tableaux ci-dessous répertorient tous les champs/paramètres disponibles dans la fenêtre ***Nouvelle entrée - Site Web***. Les différentes sections et sous-sections représentent respectivement les types d'entrées et les onglets du menu de gauche.  
@@ -37,7 +37,7 @@ Entrer un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.
 Dossier 
 		</td>
 		<td>
-Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. 
+Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.DHUBP }}. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Sélectionner un dossier 
 		</td>
 		<td>
-Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
+Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.DHUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
 		</td>
 	</tr>
 	<tr>
@@ -717,7 +717,7 @@ Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.
 Dossier 
 		</td>
 		<td>
-Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. 
+Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.DHUBP }}. 
 		</td>
 	</tr>
 	<tr>
@@ -725,7 +725,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Sélectionner un dossier 
 		</td>
 		<td>
-Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
+Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.DHUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
 		</td>
 	</tr>
 	<tr>
@@ -946,7 +946,7 @@ Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.
 Dossier 
 		</td>
 		<td>
-Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. 
+Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.DHUBP }}. 
 		</td>
 	</tr>
 	<tr>
@@ -954,7 +954,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Sélectionner un dossier 
 		</td>
 		<td>
-Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
+Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.DHUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
 		</td>
 	</tr>
 	<tr>
@@ -1222,7 +1222,7 @@ Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.
 Dossier 
 		</td>
 		<td>
-Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. 
+Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.DHUBP }}. 
 		</td>
 	</tr>
 	<tr>
@@ -1230,7 +1230,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Sélectionner un dossier 
 		</td>
 		<td>
-Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.HUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
+Sélectionner dans l'arborescence le dossier dans lequel votre nouvelle entrée sera stockée dans {{ fr.DHUBP }}. Vous pouvez aussi créer un nouveau dossier et modifier ou supprimer des dossiers existants. 
 		</td>
 	</tr>
 	<tr>
@@ -1385,7 +1385,5 @@ Annuler la création de la nouvelle entrée de site Web et effacer toutes les mo
 </table>
 
 {% snippet icon.badgeInfo %} 
-Vous pouvez suivre notre guide étape par étape expliquant [comment ajouter une entrée](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/) dans {{ fr.HUBP }} avec {{ fr.DWL }}. 
+Vous pouvez suivre notre guide étape par étape expliquant [comment ajouter une entrée](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/) dans {{ fr.DHUBP }} avec {{ fr.DWL }}. 
 {% endsnippet %}
- 
-

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Add an Entry in {{ en.HUBP }} with {{ en.DWL }}
+  title: Add an entry in {{ en.DHUBP }} with {{ en.DWL }}
 ---
 Website, credit card, contact, and secure note entries can be created with {{ en.DWL }} in {{ en.DHUBP }}. To add a website entry, continue to the [next section](#add-a-website-entry). For all other types of entries, go to [this section](#add-another-type-of-entry) instead.  
 

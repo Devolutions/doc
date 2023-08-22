@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Export Data from {{ en.HUBB }} with PowerShell
+  title: Export Data from {{ en.DHUBB }} with PowerShell
 ---
 
-In {{ en.HUBB }}, you can export your data in the Json or Csv format using a [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2&viewFallbackFrom=powershell-7.1) script. This feature is accessible via the ***Tools*** tab, under the ***Export*** section.  
+In {{ en.DHUBB }}, you can export your data in the Json or Csv format using a [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2&viewFallbackFrom=powershell-7.1) script. This feature is accessible via the ***Tools*** tab, under the ***Export*** section.  
 ![Export with PowerShell.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2079.png)
 
 ## Steps
@@ -41,7 +41,7 @@ Your data has been exported to the destination folder you specified in step 3.
 1. In your copied script, change the variables with the appropriate information. See the table below.  
    | Variable                | Description |
    | ----------------------- | ----------- |
-   | `$url`                  | Enter your {{ en.HUBB }} URL. This variable is automatically filled in, but it is still possible to change it. |
+   | `$url`                  | Enter your {{ en.DHUBB }} URL. This variable is automatically filled in, but it is still possible to change it. |
    | `$appSecret`            | Enter the application user's ***Application Secret*** |
    | `$appKey`               | Enter the application user's ***Application key***    |
    | `$pathToExportedFolder` | Enter the ***Destination folder path*** This is where your data will be exported. |

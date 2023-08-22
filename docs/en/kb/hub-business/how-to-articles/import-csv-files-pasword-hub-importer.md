@@ -1,15 +1,15 @@
 ---
 eleventyComputed:
-  title: Import CSV Files in {{ en.HUBB }} with {{ en.HUBI }}
+  title: Import CSV files in {{ en.DHUBB }} with {{ en.DHUBI }}
 ---
 {% snippet icon.badgeInfo %}
 This topic assumes that your CSV files are ready to be imported. For tips and recommendations on how to prepare your CSV files for importation, visit [this topic](/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/)
 {% endsnippet %}  
 
-{{ en.HUBI }} is our essential {{ en.CTOOL }} designed to import files into your {{ en.HUB }}. Follow the steps below to learn how to import CSV files in {{ en.HUBB }}.  
+{{ en.DHUBI }} is our essential {{ en.CTOOL }} designed to import files into your {{ en.DHUB }}. Follow the steps below to learn how to import CSV files in {{ en.DHUBB }}.  
 
 {% snippet icon.badgeInfo %}
-If you do not have {{ en.HUBI }}, [download and install it](https://devolutions.net/password-hub-importer) first. Then, after launching the application, select your ***{{ en.HUBB }} Host*** and log in with your {{ en.DA }}.
+If you do not have {{ en.DHUBI }}, [download and install it](https://devolutions.net/password-hub-importer) first. Then, after launching the application, select your ***{{ en.DHUBB }} Host*** and log in with your {{ en.DA }}.
 {% endsnippet %}  
 
 1. Once logged in, select the ***CSV*** format in the ***Import Type*** menu. Then, click on the ellipsis button next to the ***Source*** field to open the ***Import Csv Wizard***.  
@@ -83,7 +83,7 @@ Apply the changes made to the parameters to the entries preview.
 1. In the ***Target Vault*** drop-down list, select the vault in which to import your entries.
 ![Target Vault Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2116.png)
 1. Select which entry you want to import. You can use the ***Select All*** and ***Unselect All*** buttons at the bottom or select/unselect them one by one by checking/unchecking the box next to the entry.
-1. When done selecting, click on ***Import Selection to {{ en.HUB }}***
+1. When done selecting, click on ***Import Selection to {{ en.DHUB }}***.
 1. When the import process is complete, a window will pop up to inform you. You can close it by pressing ***OK***.
 
 Your CSV file entries have now successfully been imported. Repeat these steps for each CSV file you want to import.

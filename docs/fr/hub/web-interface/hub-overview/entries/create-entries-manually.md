@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Créer des entrées manuellement
-  description: Créer des entrées manuellement et enregistrer vos données dans {{ fr.HUBB }}.
+  description: Créer des entrées manuellement et enregistrer vos données dans {{ fr.DHUBB }}.
 ---
-Créer des entrées manuellement et enregistrer vos données dans {{ fr.HUBB }}.
+Créer des entrées manuellement et enregistrer vos données dans {{ fr.DHUBB }}.
 
 ## Créer une entrée
 

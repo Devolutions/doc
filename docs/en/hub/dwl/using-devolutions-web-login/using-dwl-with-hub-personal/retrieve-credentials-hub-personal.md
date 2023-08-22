@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Retrieve Credentials from {{ en.HUBP }} with {{ en.DWL }}
+  title: Retrieve credentials from {{ en.DHUBP }} with {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
 You need website entries in {{ en.DHUBP }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](Add_Entry_HUBPersonal_with_DWL). 
@@ -21,10 +21,10 @@ After the [installation](/hub/dwl/installation/) of {{ en.DWL }} and its [pairin
 With this option enabled, a {{ en.DWL }} icon is displayed in every credential fields on the websites you visit. This makes it easier to select the correct entry from which to retrieve your credentials, especially when more than one is available. 
 {% endsnippet %}
  
-![Settings – Data sources – {{ en.HUBP }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2082.png)  
+![Settings – Data sources – {{ en.DHUBP }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2082.png)  
 
 4. Click ***Save***. 
-1. Click on ***{{ en.HUBP }}*** in the ***Data sources*** section.  
+1. Click on ***{{ en.DHUBP }}*** in the ***Data sources*** section.  
 ![General – Show icon in fields](https://webdevolutions.azureedge.net/docs/en/hub/Hub2094.png)  
 1. In the ***Actions*** tab, enable the ***Automatically fill in credentials on load*** option by checking the box next to it. With this setting enabled, credentials will be automatically filled in when loading a web page. This only works if you only have one set of credentials for a given website.  
 ![Actions – Automatically fill in credentials on load](https://webdevolutions.azureedge.net/docs/en/hub/Hub2092.png)  

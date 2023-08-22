@@ -1,9 +1,9 @@
 ---
-title: Create and Manage Vaults
+title: Create and manage vaults
 keywords:
 - role
 ---
-***Vaults*** are for sharing entries with users and user groups of your organization in {{ en.HUBB }}.  
+***Vaults*** are for sharing entries with users and user groups of your organization in {{ en.DHUBB }}.  
 
 ## Manage Vaults
 

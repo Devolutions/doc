@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Retrieve Credentials from {{ en.HUBB }} with {{ en.DWL }}
+  title: Retrieve credentials from {{ en.DHUBB }} with {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-You need website entries in {{ en.HUBB }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/). 
+You need website entries in {{ en.DHUBB }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/). 
 {% endsnippet %}
  
-{{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.HUBB }} website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
+{{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.DHUBB }} website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
 
 After the [installation](/hub/dwl/installation/) of {{ en.DWL }} and its [pairing](/hub/dwl/first-login-devolutions-web-login/hub-business/) with {{ en.DHUBB }}, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials).  
 
@@ -24,8 +24,8 @@ With this option enabled, a {{ en.DWL }} icon is displayed in every credential f
 ![General – Show icon in fields](https://webdevolutions.azureedge.net/docs/en/hub/Hub2082.png)  
 
 4. Click ***Save***. 
-1. Click on ***{{ en.HUBB }}*** in the ***Data sources*** section.  
-![Settings – Data sources – {{ en.HUBB }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2083.png)  
+1. Click on ***{{ en.DHUBB }}*** in the ***Data sources*** section.  
+![Settings – Data sources – {{ en.DHUBB }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2083.png)  
 1. In the ***Actions*** tab, enable the ***Automatically fill in credentials on load*** option by checking the box next to it. With this setting enabled, credentials will be automatically filled in when loading a web page. This only works if you only have one set of credentials for a given website.  
 ![Actions – Automatically fill in credentials on load](https://webdevolutions.azureedge.net/docs/en/hub/Hub2084.png)  
 {% snippet icon.badgeInfo %} 

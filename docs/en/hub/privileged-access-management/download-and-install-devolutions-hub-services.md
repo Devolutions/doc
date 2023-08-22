@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
-  title: Download and install Devolutions Hub Services
-  description: The Hub Service installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your Hub Business and your internal resources.
+  title: Download and install {{ en.DHUBS }}
+  description: The {{ en.DHUBS }} installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your {{ en.DHUBB }} and your internal resources.
 ---
 
-The Hub Service installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your Hub Business and your internal resources.
+The {{ en.DHUBS }} installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your {{ en.DHUBB }} and your internal resources.
 
 ## Create an Application User
 
@@ -13,8 +13,10 @@ The Hub Service installer facilitates the installation and integration of our mo
 ![Administration – Application Users](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6039.png)  
 1. Select ***Add Application User (+)***.  
 ![Add Application User (+)](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6040.png)  
+
 1. Enter a name and click ***Add***.   
 1. Save the given ***Application Secret*** and ***Application key*** to your clipboard or as a PDF file. It will be needed during Devolutions Hub Services' installation.   
+1. Save the given ***Application Secret*** and ***Application key*** to your clipboard or as a PDF file. It will be needed during {{ en.DHUBS }}' installation.   
 ![Save the given Application Secret and Application key](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6043.png)  
 
 ## Edit Permissions for the Application User
@@ -54,11 +56,11 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 ![Contributor section](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6056.png)
 1. Click ***Update*** to close the window. 
 
-## Installation of Devolutions Hub Services Beta
+## Installation of {{ en.DHUBS }} Beta
 
-1. Download {{ en.DHUB }} Services Beta [here](https://devolutions.net/password-hub/home/download/).
+1. Download {{ en.DHUBS }} Beta [here](https://devolutions.net/password-hub/home/download/).
 1. Launch the installer that you downloaded.
-![Devolutions Hub Service Setup](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6038.png) 
+![{{ en.DHUBS }} setup](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6038.png) 
 1. Click ***Next***.
 1. Read the ***End-User License Agreement*** and click ***I accept the terms in the License Agreement***.
 1. Click ***Next***.
@@ -70,10 +72,10 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 1. Click ***Test Connection***.
 1. If your connection is successful, press ***Next***.
 ![Connection successful](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6055.png) 
-## Check Devolutions Hub Services logs
+## Check {{ en.DHUBS }} logs
 
-{{ en.DHUB }} Services' logs are available in ***Windows Event Viewer***. The service should be able to connect to the created provider. The provider need to be added in {{ en.DHUB }}.
+{{ en.DHUBS }}' logs are available in ***Windows Event Viewer***. The service should be able to connect to the previously created provider.
+It's also possible to see the {{ en.DHUBS }} as a service in the Services window of Windows which shows the current status and where it can be started or stopped.
 
-It's also possible to see the {{ en.DHUB }} Services as a service in the Services window of Windows which shows the current status and where it can be started or stopped.
 
 

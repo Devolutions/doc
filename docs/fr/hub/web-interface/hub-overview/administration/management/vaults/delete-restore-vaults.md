@@ -1,7 +1,7 @@
 ---
 title: Supprimer et restaurer des coffres
 ---
-Les ***Coffres*** peuvent être supprimés et restaurés par les administrateurs dans {{ fr.HUBB }}.  
+Les ***Coffres*** peuvent être supprimés et restaurés par les administrateurs dans {{ fr.DHUBB }}.  
 
 * [Supprimer un coffre](#supprimer-un-coffre)  
 * [Restaurer un coffre supprimé](#restaurer-un-coffre-supprimé)  
@@ -20,4 +20,3 @@ Les ***Coffres*** peuvent être supprimés et restaurés par les administrateurs
 2. Changer le filtre du ***Type*** a ***Tout*** et le ***Statut*** a ***Supprimé*** pour afficher la liste de tous les coffres supprimés.  
 ![!!Hub4138.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4138.png) 
 1. Trouver votre coffre et cliquer sur ***Restaurer***. 
-

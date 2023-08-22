@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions {{ en.HUBB }}
+  title: Devolutions Hub Business
   order: 60
   description: You can consult topics for the following categories about {{ en.DHUBB }}':' How-To Articles, Troubleshooting Articles, and Knowledge Base.
   status: Topic available in German language

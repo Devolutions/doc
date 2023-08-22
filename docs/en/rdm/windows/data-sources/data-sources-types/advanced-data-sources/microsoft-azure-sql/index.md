@@ -221,7 +221,7 @@ Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/
 
 * ***Default***: use the default {{ en.UVLT }}, which is stored in the database. 
 * ***None***: disable the {{ en.UVLT }} for all users. 
-* ***{{ en.OD }}***: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
+* ***{{ en.DOD }}***: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
 		</td>
 	</tr>
 </table>

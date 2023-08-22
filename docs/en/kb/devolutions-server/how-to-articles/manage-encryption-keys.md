@@ -23,7 +23,7 @@ Encryption keys must be the same as each {{ en.DVLS }} instance of your High Ava
 ![Tools – Export](https://webdevolutions.azureedge.net/docs/en/kb/KB2252.png)
 1. Enter a destination ***Filename*** and path, then set a password to protect the file.  
    {% snippet icon.shieldCaution %}
-   We strongly recommend storing the encryption keys file in a secure storage outside of {{ en.DVLS }} such as {{ en.HUBB }}, Azure Key Vault, or AWS Key Management Service.
+   We strongly recommend storing the encryption keys file in a secure storage outside of {{ en.DVLS }} such as {{ en.DHUBB }}, Azure Key Vault, or AWS Key Management Service.
    {% endsnippet %}  
 
    ![File name and password](https://webdevolutions.azureedge.net/docs/en/kb/KB2253.png)  
@@ -60,7 +60,7 @@ There may be scenarios where you need to regenerate the encryption keys, such as
 
 1. Enter a destination ***Filename*** and path, then set a password to protect the file.  
    {% snippet icon.shieldCaution %}
-   We strongly recommend storing the encryption keys file in a secure storage outside of {{ en.DVLS }} such as {{ en.HUBB }}, Azure Key Vault, or AWS Key Management Service.
+   We strongly recommend storing the encryption keys file in a secure storage outside of {{ en.DVLS }} such as {{ en.DHUBB }}, Azure Key Vault, or AWS Key Management Service.
    {% endsnippet %}  
 
    ![Backup file name and password](https://webdevolutions.azureedge.net/docs/en/kb/KB2259.png)

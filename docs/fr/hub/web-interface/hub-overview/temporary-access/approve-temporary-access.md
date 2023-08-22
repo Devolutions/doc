@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Approuver un accès temporaire à une entrée dans {{ fr.HUBB }}
+  title: Approuver un accès temporaire à une entrée dans {{ fr.DHUBB }}
   order: 20
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit ensuite approuver ou refuser la demande.  
 ---
 {% snippet icon.badgeInfo %} 
-La fonction d'***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.HUBB }}. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.HUBB }}. Visitez [Approuver un accès temporaire à une entrée dans {{ fr.RDM }}](/fr/rdm/windows/user-interface/content-area/temporary-access/approve-temporary-access/) pour en savoir plus. 
+La fonction d'***Accès temporaire*** est également disponible dans {{ fr.RDM }} avec {{ fr.DHUBB }}. Vous pouvez afficher et approuver les demandes d'accès temporaire dans {{ fr.RDM }} même si la demande a été faite dans {{ fr.DHUBB }}. Visitez [Approuver un accès temporaire à une entrée dans {{ fr.RDM }}](/fr/rdm/windows/user-interface/content-area/temporary-access/approve-temporary-access/) pour en savoir plus. 
 {% endsnippet %}
  
 La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit ensuite approuver ou refuser la demande.  
@@ -16,7 +16,7 @@ Pour apprendre comment répondre à une demande, consultez [Approuver/refuser le
 
 ## Afficher les demandes d'accès temporaire 
 
-Lorsqu'un utilisateur vous envoie une demande d'accès temporaire, vous en êtes automatiquement informé par courriel. Vous pouvez cliquer sur ***Aller au tableau de bord de l'entrée*** pour visualiser la demande directement dans l'entrée dans {{ fr.HUBB }}.  
+Lorsqu'un utilisateur vous envoie une demande d'accès temporaire, vous en êtes automatiquement informé par courriel. Vous pouvez cliquer sur ***Aller au tableau de bord de l'entrée*** pour visualiser la demande directement dans l'entrée dans {{ fr.DHUBB }}.  
 ![Courriel de demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2140.png) 
 
 Une fois que vous êtes sur l'entrée, vous verrez une section ***Demande d'accès temporaire*** près du haut. Cliquer sur ***Afficher les détails*** ouvre la fenêtre ***Demande d'accès temporaire***, qui est décrite dans la [section suivante](#approuverrefuser-les-demandes-daccès-temporaire). 36![Demande d'accès temporaire à partir de l'entrée](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6040.png) 
@@ -42,5 +42,5 @@ Après l'approbation, pour quelque raison que ce soit, vous pouvez révoquer l'a
 ![Révoquer l'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6043.png) 
 
 {% snippet icon.badgeInfo %} 
-Pour en apprendre davantage sur l'expérience de l'utilisateur final dans {{ fr.HUBB }}, consultez [Demander un accès temporaire à une entrée dans {{ fr.HUBB }}](/fr/hub/web-interface/hub-overview/temporary-access/request-temporary-access/). 
+Pour en apprendre davantage sur l'expérience de l'utilisateur final dans {{ fr.DHUBB }}, consultez [Demander un accès temporaire à une entrée dans {{ fr.DHUBB }}](/fr/hub/web-interface/hub-overview/temporary-access/request-temporary-access/). 
 {% endsnippet %}

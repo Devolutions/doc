@@ -1,7 +1,8 @@
 ---
-title: Survol Hub
+eleventyComputed:
+  title: Survol de {{ fr.DHUB }}
 ---
-Naviguer et explorer les menus à travers les différentes sections de {{ fr.HUBB }} et gérer vos données.  
+Naviguer et explorer les menus à travers les différentes sections de {{ fr.DHUBB }} et gérer vos données.  
 ![!!Hub4118.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4118.png) 
 
 <table>
@@ -35,7 +36,7 @@ Cliquer sur le sélecteur de coffre, dans la partie centrale supérieure de votr
 Messages 
 		</td>
 		<td>
-Envoyer et réceptionner des messages sécurisés avec des utilisateurs depuis votre {{ fr.HUB }}. 
+Envoyer et réceptionner des messages sécurisés avec des utilisateurs depuis votre hub. 
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +44,7 @@ Envoyer et réceptionner des messages sécurisés avec des utilisateurs depuis v
 {{ fr.DA }} 
 		</td>
 		<td>
-Cliquer sur votre avatar pour modifier les paramètres de votre {{ fr.DA }}, le verrouiller ou se déconnecter de votre {{ fr.HUB }}. 
+Cliquer sur votre avatar pour modifier les paramètres de votre {{ fr.DA }}, le verrouiller ou se déconnecter de votre hub. 
 		</td>
 	</tr>
 	<tr>

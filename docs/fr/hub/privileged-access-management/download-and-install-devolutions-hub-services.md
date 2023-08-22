@@ -1,14 +1,13 @@
 ---
 eleventyComputed:
-  title: Télécharger et installer Devolutions Hub Services
-  description: L'installateur de service Devolutions Hub facilite l'installation et l'intégration de nos modules, à commencer par celui de gestion des accès privilégiés (Beta). Une fois installé, le service permet la communication entre votre Hub Business et vos ressources internes.
+  title: Télécharger et installer {{ fr.DHUBS }}
+  description: L'installateur de {{ fr.DHUBS }} facilite l'installation et l'intégration de nos modules, à commencer par celui de gestion des accès privilégiés (Beta). Une fois installé, le service permet la communication entre votre {{ fr.DHUBB }} et vos ressources internes.
 ---
-
-L'installateur de service {{ fr.HUB }} facilite l'installation et l'intégration de nos modules, à commencer par celui de gestion des accès privilégiés (Beta). Une fois installé, le service permet la communication entre votre Hub Business et vos ressources internes.
+L'installateur de {{ fr.DHUBS }} facilite l'installation et l'intégration de nos modules, à commencer par celui de gestion des accès privilégiés (Beta). Une fois installé, le service permet la communication entre votre {{ fr.DHUBB }} et vos ressources internes.
 
 ## Créer un Utilisateur d'application
 
-1. Aller dans Devolutions {{ fr.HUB }}.
+1. Aller dans {{ fr.DHUB }}.
 1. Cliquer ***Administration*** – ***Utilisateurs d'application***.  
 ![Administration – Utilisateurs d'application](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6044.png)  
 1. Sélectionner ***Ajouter un utilisateur d'application (+)***.  
@@ -19,11 +18,11 @@ L'option ***Activité*** située dans la fenêtre ***Utilisateur d'application**
 ![Utilisateur](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6046.png)  
 ***Groupe d'utilisateurs*** assigne l'utilisateur à des groupes.  
 ![Groupe d'utilisateurs](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6047.png)  
-5. Enregistrer la ***Clé secrète d'application*** et la ***Clé de l'application*** dans votre presse-papiers ou dans un fichier PDF. Ils seront nécessaires lors de l'installation de Devolutions Hub Services.
+5. Enregistrer la ***Clé secrète d'application*** et la ***Clé de l'application*** dans votre presse-papiers ou dans un fichier PDF. Ils seront nécessaires lors de l'installation de {{ fr.DHUBS }}.
 ![Enregistrer la Clé secrète d'application et la Clé de l'application](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6048.png)  
 
 ## Modifier les Permissions pour l'Utilisateur d'application
-1. Aller dans Devolutions {{ fr.HUB }}.
+1. Aller dans {{ fr.DHUB }}.
 1. Cliquer ***Administration*** – ***Permissions du système***.
 ![Administration – Permissions du système](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6049.png)
 1. Aller dans le formulaire de modification.
@@ -38,7 +37,7 @@ Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PA
 
 ## Pour tous les coffres du système
 
-1. Dans Devolutions {{ fr.HUB }}, aller dans ***Administration*** – ***Configuration et sécurité*** – ***Permissions du système***.
+1. Dans {{ fr.DHUB }}, aller dans ***Administration*** – ***Configuration et sécurité*** – ***Permissions du système***.
 ![Administration – Configuration et sécurité – Permissions du système](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6049.png)
 1. Aller dans le formulaire de modification.
 ![Formulaire de modification](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6050.png)
@@ -50,7 +49,7 @@ Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PA
 
 ## Pour un coffre PAM
 
-1. Dans Devolutions {{ fr.HUB }}, aller dans ***Administration*** – ***Gestion*** – ***Coffres***.
+1. Dans {{ fr.DHUB }}, aller dans ***Administration*** – ***Gestion*** – ***Coffres***.
 ![Administration – Gestion – Coffres](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6053.png)
 1. Aller dans le formulaire de modification du coffre PAM.
 1. Sélectionner l'onglet ***Modifier*** dans la section ***Permissions***.
@@ -58,11 +57,11 @@ Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PA
 ![Section Collaborateurs](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6058.png)
 1. Cliquer ***Mise à jour*** pour fermer la fenêtre.  
 
-## Installation de Devolutions Hub Services Beta
+## Installation de {{ fr.DHUBS }} Beta
 
-1. Télécharger [Devolutions Hub Services Beta](https://devolutions.net/fr/password-hub/home/download/).
+1. Télécharger [{{ fr.DHUBS }} Beta](https://devolutions.net/fr/password-hub/home/download/).
 1. Lancer l'installateur.
-![Installateur Devolutions Hub Service](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6038.png) 
+![Installateur {{ fr.DHUBS }}](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6038.png) 
 1. Cliquer ***Next***.
 1. Lire le ***End-User License Agreement*** et cliquer ***I accept the terms in the License Agreement***.
 1. Cliquer ***Next***.
@@ -76,12 +75,8 @@ Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PA
 
 1. Cliquer ***Next*** si votre connexion est validée.
 ![Connexion validée](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6055.png) 
-## Vérifier les journaux de Devolutions Hub Services
+## Vérifier les journaux de {{ fr.DHUBS }}
 
-Les journaux de Devolutions Hub Services sont disponibles dans ***Windows Event Viewer***. Le service devrait être capable de se connecter au fournisseur précédemment créé.  
+Les journaux de {{ fr.DHUBS }} sont disponibles dans ***Windows Event Viewer***. Le service devrait être capable de se connecter au fournisseur précédemment créé.  
 
-Il est également possible de voir Devolutions Hub Services en tant que service dans la fenêtre ***Services*** de Windows. Vous pouvez également afficher l'état actuel et démarrer ou arrêter le service.
-
-
-
-
+Il est également possible de voir {{ fr.DHUBS }} en tant que service dans la fenêtre ***Services*** de Windows. Vous pouvez également afficher l'état actuel et démarrer ou arrêter le service.

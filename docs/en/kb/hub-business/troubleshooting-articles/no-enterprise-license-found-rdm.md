@@ -10,13 +10,13 @@ To learn more about this major improvement, read our latest Devolutions blog [{{
 
 ## Solution
 
-Save the {{ en.RDM }} product license in {{ en.HUB }} and assign it to users.
+Save the {{ en.RDM }} product license in {{ en.DHUB }} and assign it to users.
 
 {% snippet icon.badgeCaution %}
 Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.DHUBB }}.
 {% endsnippet %}
 
-1. In {{ en.RDM }}, click ***Administration – License*** to be redirected to the {{ en.HUB }} web interface.
+1. In {{ en.RDM }}, click ***Administration – License*** to be redirected to the {{ en.DHUB }} web interface.
 1. Click the ***Add*** button.  
 ![Administration – Licenses.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5024.png)  
 1. Paste the {{ en.RDM }} ***License*** and click ***Add***.  

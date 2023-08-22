@@ -5,9 +5,9 @@ eleventyComputed:
 ---
 Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DA }}, and configuring some security settings.
 
-## {{ en.DWS }} Setup
+## {{ en.DWS }} setup
 
-Follow the steps below to perform the initial configuration of your {{ en.DWS }} mobile application with {{ en.HUBB }}:
+Follow the steps below to perform the initial configuration of your {{ en.DWS }} mobile application with {{ en.DHUBB }}:
 
 1. [Download and install {{ en.DWS }}](https://devolutions.net/workspace/) if you have not already done so.
 1. After the installation is complete, open the application.
@@ -22,8 +22,8 @@ During the setup, you can always tap on ***Skip This Step*** to configure that s
 ![Email address](https://webdevolutions.azureedge.net/docs/en/hub/Hub2211.png)
 1. Log in using your {{ en.DA }} password, then tap ***Continue***.
 ![{{ en.DA }} login](https://webdevolutions.azureedge.net/docs/en/hub/Hub2212.png)
-1. Select the {{ en.HUB }} you want to connect to, then tap ***Next***.
-![{{ en.HUB }} selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2213.png)
+1. Select the hub you want to connect to, then tap ***Next***.
+![Hub selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2213.png)
 1. Optionally, enable the use of a ***Biometric lock*** (Touch/Face ID). It is a recommended practice. Your device will prompt you to authenticate using this method. It must first be configured on your device to work with {{ en.DWS }}.  
 ![Security settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2214.png)
 1. Tap ***Done*** to finish the initial setup.

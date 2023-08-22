@@ -15,7 +15,7 @@ The [{{ en.PS }} module](/hub/powershell-module) needs to be installed to use th
 Proper permissions are also required to perform some of these commands. Please refer to [Application Users](/hub/web-interface/hub-overview/administration/management/application-users/). 
 {% endsnippet %}
  
-PSHubContext is an object that specifies your authentication information. You will need a valid PSHubContext to connect to your {{ en.DHUBB }}. You can have many PSHubContext connected in your PowerShell session, but only one is used when you use {{ en.HUB }} cmdlets.  
+PSHubContext is an object that specifies your authentication information. You will need a valid PSHubContext to connect to your {{ en.DHUBB }}. You can have many PSHubContext connected in your PowerShell session, but only one is used when you use {{ en.DHUB }} cmdlets.  
 
 In this object, you have the following:
 
@@ -64,11 +64,11 @@ Connect-HubAccount
 		</td>
 		<td>
 
-If PSHubContext is provided, tries to connect to {{ en.HUB }} with it.  
+If PSHubContext is provided, tries to connect to {{ en.DHUB }} with it.  
 
 	or  
 
-If PSHubContext is **not** provided, creates a PSHubContext with information received and tries to connect to {{ en.HUB }} afterward.  
+If PSHubContext is **not** provided, creates a PSHubContext with information received and tries to connect to {{ en.DHUB }} afterward.  
 		</td>
 		<td>
 ```$PSHubContext = [Devolutions.Hub.PowerShell.Entities.PowerShell.PSHubContext]@{ApplicationKey=“24526a88-7f18-4356-95bd-11690f7bc59b;468ce2d5-ea4b-42ff-bc02-d93c71b4e554“; ApplicationSecret=“U4nmdOjqPAcL0GfbvNC2u8e0FCZjhEJFTnn6YHpIZDY=“; Url=“https<area>://<YourPasswordHubUrl>.devolutions.app“} ```  
@@ -133,7 +133,7 @@ Get-HubContext
 
 If ListAvailable is provided, lists all PSHubContext set the in PowerShell session.  
 
-If ListAvailable is **not** provided, retrieves the current PSHubContext which will be used for all other {{ en.HUB }} commands. 
+If ListAvailable is **not** provided, retrieves the current PSHubContext which will be used for all other {{ en.DHUB }} commands. 
 		</td>
 		<td>
 		</td>
@@ -159,7 +159,7 @@ Select-HubContext
 * ApplicationKey 
 		</td>
 		<td>
-Selects another PSHubContext to change the current PSHubContext which will be used for all {{ en.HUB }} commands. 
+Selects another PSHubContext to change the current PSHubContext which will be used for all {{ en.DHUB }} commands. 
 		</td>
 		<td>
 		</td>
@@ -292,7 +292,7 @@ Set-HubSystemSettings
 * PSSystemSettings 
 		</td>
 		<td>
-Sets the provided system settings to {{ en.HUB }}. 
+Sets the provided system settings to {{ en.DHUB }}. 
 		</td>
 		<td>
 
@@ -567,7 +567,7 @@ New-HubGateway
 * PsDecryptedGateway 
 		</td>
 		<td>
-Adds a new {{ en.DGW }} to {{ en.HUB }}. 
+Adds a new {{ en.DGW }} to {{ en.DHUB }}. 
 		</td>
 		<td>
 ```$newDevolutionsGateway = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSGatewayMetadata]@{ Name =  'Test Gateway From PS ' }} ```  
@@ -700,7 +700,7 @@ Remove-HubVault
 * VaultId 
 		</td>
 		<td>
-Removes this vault from {{ en.HUB }}. 
+Removes this vault from {{ en.DHUB }}. 
 		</td>
 		<td>
 		</td>
@@ -945,13 +945,13 @@ New-HubOrganizationUser
 		</td>
 		<td>
 
-Invites a user from a {{ en.DA }} Organization set in your {{ en.HUB }}.  
+Invites a user from a {{ en.DA }} Organization set in your hub.  
 
 If Email, AllowOfflineInRDM and UserSendMessageConfiguration are provided. A single email will be sent.  
 
 If PSInvitation is provided, you can manually set more than one email and assign groups.  
 
-This command will only work if ***Enable SSO with {{ en.DA }} Organization*** has been enabled in your {{ en.HUB }} and a valid {{ en.DA }} Organization has been selected.
+This command will only work if ***Enable SSO with {{ en.DA }} Organization*** has been enabled in your hub and a valid {{ en.DA }} Organization has been selected.
 		</td>
 		<td>
 
@@ -970,7 +970,7 @@ Remove-HubUser
 * UserId 
 		</td>
 		<td>
-Removes this user from {{ en.HUB }}. 
+Removes this user from {{ en.DHUB }}. 
 		</td>
 		<td>
 		</td>
@@ -1043,7 +1043,7 @@ New-HubGroup
 * GroupUserIds  
 		</td>
 		<td>
-Adds a new group to the {{ en.HUB }} with users, if provided. 
+Adds a new group to the hub with users, if provided. 
 		</td>
 		<td>
 		</td>
@@ -1056,7 +1056,7 @@ Remove-HubGroup
 * GroupId 
 		</td>
 		<td>
-Removes this group from the {{ en.HUB }}. 
+Removes this group from the hub. 
 		</td>
 		<td>
 		</td>
@@ -1161,7 +1161,7 @@ New-HubEntry
 * DocumentPath  
 		</td>
 		<td>
-Adds a new entry to a specific {{ en.HUB }} vault with the provided PSDecryptedEntry entry.
+Adds a new entry to a specific hub vault with the provided PSDecryptedEntry entry.
 		</td>
 		<td>
 

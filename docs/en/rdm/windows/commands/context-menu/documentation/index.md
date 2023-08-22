@@ -8,11 +8,11 @@ The ***Documentation*** feature allows for storing information about resources i
 The documentation is written using ***Markdown*** or ***WYSIWYG***.  ***Plain text*** and ***HTML*** are also available.
 
 {% snippet icon.badgeInfo %} 
-This feature is also available with {{ en.DVLS }}, {{ en.HUBB }}, {{ en.HUBP }} and SQL Server data sources.  
+This feature is also available with {{ en.DVLS }}, {{ en.DHUBB }}, {{ en.DHUBP }} and SQL Server data sources.  
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.HUBB }}, and {{ en.HUBP }} data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 
+The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.DHUBB }}, and {{ en.DHUBP }} data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 

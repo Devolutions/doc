@@ -38,7 +38,7 @@ AVANTAGES ET INCONVÉNIENTS
 		</td>
 		<td>
 {{ fr.RDM }} utilise {{ fr.DOD }} pour stocker et synchroniser vos sessions. Accéder à vos sessions où que vous soyez en utilisant une connexion Internet. 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.OD }}](/fr/cloud/rdm-online-services/online-drive/). 
+Pour plus d'informations, veuillez consulter [{{ fr.DOD }}](/fr/cloud/rdm-online-services/online-drive/). 
 
 		</td>
 		<td>
@@ -168,7 +168,7 @@ Inconvénients :
 		<td>
 {{ fr.RDM }} se connecte au coffre {{ fr.DHUBB }}. 
 Notez qu'il existe différents niveaux d'abonnement pour ce produit. 
-Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou notre rubrique [{{ fr.HUBB }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
+Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou notre rubrique [{{ fr.DHUBB }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
 		</td>
 		<td>
 Avantages : 
@@ -193,7 +193,7 @@ Inconvénients :
 		</td>
 		<td>
 {{ fr.RDM }} utilise {{ fr.DHUBP }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet. 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.HUBP }}](/fr/rdm/windows/data-sources/data-sources-types/hub-personal/). 
+Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DdHUBP }}](/fr/rdm/windows/data-sources/data-sources-types/hub-personal/). 
 
 		</td>
 		<td>

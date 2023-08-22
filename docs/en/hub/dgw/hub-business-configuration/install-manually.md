@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Install Manually
   order: 20
-  description: The following instructions explain how to manually install {{ en.DGW }} through {{ en.HUBB }}.
+  description: The following instructions explain how to manually install {{ en.DGW }} through {{ en.DHUBB }}.
 ---
-The following instructions explain how to manually install {{ en.DGW }} through {{ en.HUBB }}.  
+The following instructions explain how to manually install {{ en.DGW }} through {{ en.DHUBB }}.  
 
 ## Steps for Manual Install
 
@@ -12,7 +12,7 @@ The following instructions explain how to manually install {{ en.DGW }} through 
 This method only works for Windows. 
 {% endsnippet %}
  
-1. Log in with your administrator {{ en.HUBB }} account. 
+1. Log in with your administrator {{ en.DHUBB }} account. 
 1. Access the ***Administration*** tab on the left.  
 ![Administration Tab](https://webdevolutions.azureedge.net/docs/en/hub/DGW0020.png)
 1. Click on {{ en.DGW }}, which is under the ***Management*** section.  
@@ -23,7 +23,7 @@ This method only works for Windows.
 ![Install Manually](https://webdevolutions.azureedge.net/docs/en/hub/DGW0023.png)
 1. Download the {{ en.DGW }} ***installer*** and execute it.  
 ![Installer](https://webdevolutions.azureedge.net/docs/en/hub/DGW0027.png)
-1. <a name="7"></a>Click on ***Generate Gateway Public Key and download***. This key is unique to the {{ en.HUBB }} account and can only be generated once. If already generated, the key can be downloaded again, if necessary.  
+1. <a name="7"></a>Click on ***Generate Gateway Public Key and download***. This key is unique to the {{ en.DHUBB }} account and can only be generated once. If already generated, the key can be downloaded again, if necessary.  
 ![Gateway Public Key](https://webdevolutions.azureedge.net/docs/en/hub/DGW0028.png)
 {% snippet icon.badgeInfo %} 
 The installer should be run on the server hosting {{ en.DGW }}. 
@@ -50,7 +50,7 @@ The installer should be run on the server hosting {{ en.DGW }}.
 1. Click ***Install***.  
 ![Install Button](https://webdevolutions.azureedge.net/docs/en/hub/DGW0035.png)
 1. Click ***Finish*** when the setup is complete. 
-1. Go back to the ***Administration – {{ en.DGW }}*** page in {{ en.HUBB }}. 
+1. Go back to the ***Administration – {{ en.DGW }}*** page in {{ en.DHUBB }}. 
 1. Input the correct information.  
 ![Information Fields](https://webdevolutions.azureedge.net/docs/en/hub/DGW0036.png) 
 ![Information Fields](https://webdevolutions.azureedge.net/docs/en/hub/DGW0041.png) 
@@ -58,7 +58,7 @@ The installer should be run on the server hosting {{ en.DGW }}.
 ![Default](https://webdevolutions.azureedge.net/docs/en/hub/DGW0037.png) 
 1. Make certain the gateway can be reached by clicking ***Test Connection***.  
 ![Test Connection Button](https://webdevolutions.azureedge.net/docs/en/hub/DGW0038.png) 
-1. Click the ***Add*** button to link your {{ en.DGW }} installation to your {{ en.HUBB }}.  
+1. Click the ***Add*** button to link your {{ en.DGW }} installation to your {{ en.DHUBB }}.  
 ![Add Button](https://webdevolutions.azureedge.net/docs/en/hub/DGW0039.png) 
 1. A rectangle will show the information for every {{ en.DGW }} Hub link(s).  
 ![Successful Link](https://webdevolutions.azureedge.net/docs/en/hub/DGW0040.png) 
