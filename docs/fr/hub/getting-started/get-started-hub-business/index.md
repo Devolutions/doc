@@ -53,7 +53,7 @@ Avec cette vidéo (EN), nous vous montrerons comment ajouter des ***Utilisateurs
 Étape 3 - Ajouter des données dans les ***Coffres***  
 
 * [Créer des entrées manuellement](/fr/hub/web-interface/hub-overview/entries/create-entries-manually/) 
-* [Importer des entrées avec {{ fr.HUBI }}](/fr/hub/web-interface/hub-overview/tools/hub-importer/) 
+* [Importer des entrées avec {{ fr.DHUBI }}](/fr/hub/web-interface/hub-overview/tools/hub-importer/) 
 		</td>
 		<td>
 À ce stade, cette vidéo (EN) vous montrera quatre façons différentes d'ajouter et d'importer des ***Entrées*** dans votre {{ fr.HUBB }} nouvellement créée. Nous couvrirons également les ***Propriétés*** et les ***Permissions*** des ***Entrées***.  

@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
-  title: CSV Files Import Strategies and Format with {{ en.HUBI }}
+  title: CSV files import strategies and format with {{ en.DHUBI }}
 ---
 The most important decision is about if and how to apply a template as part of the process.
 
-Importing CSV files with {{ en.HUBI }} allows you to choose a template for newly created entries. If you do choose a template as part of the process, it will be applied to ALL entries created from that batch. Sometimes, it may be a good strategy to split the entries in different CSV files by grouping them by entry types you wish to create.
+Importing CSV files with {{ en.DHUBI }} allows you to choose a template for newly created entries. If you do choose a template as part of the process, it will be applied to ALL entries created from that batch. Sometimes, it may be a good strategy to split the entries in different CSV files by grouping them by entry types you wish to create.
 
 If you need finer control, you can specify the template to use in a ***Template*** column of the CSV file but, since you are able to specify the entry type from within the CSV file, it may not be necessary.
 

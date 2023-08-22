@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: Devolutions {{ en.HUBI }}
-  descripion: Devolutions {{ en.HUBI }} is the essential tool designed to import your data in {{ en.HUBB }}.
+  title: Devolutions Hub Importer
+  descripion: Devolutions Hub Importer is the essential tool designed to import your data in {{ en.HUBB }}.
 ---
 {% youtube 'zoNA11ql9Gk' %}  
 
@@ -21,7 +21,7 @@ Only available on Windows.
 1. Click the 3 dots to select the ***Source***.  
 ![!!Hub4110.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4110.png) 
 {% snippet icon.badgeInfo %} 
-Each ***Import Type*** has a different ***Source*** importing setup. Please follow the steps in your {{ en.HUBI }}. 
+Each ***Import Type*** has a different ***Source*** importing setup. Please follow the steps in {{ en.DHUBI }}. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
