@@ -6,7 +6,7 @@ title: Permission
 The Permission window which is only available in an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), can be found in every entry properties in the ***Permission*** section.  
 
 The user group based permission system can give a very accurate control of the security. Here is an overview of the permission window:  
-![Permission panel](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11102.png) 
+![Permission panel](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6083.png) 
 
 <table>
 	<tr>
@@ -57,4 +57,4 @@ Lets you select Users / User groups to be granted the permission. Available only
 	</tr>
 </table>
 
-![Batch Grant Access](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4015.png) 
+![Batch Grant Access](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6082.png) 
