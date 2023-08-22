@@ -26,7 +26,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Hostname*** and ***TXT value***. This allows us to verify the ownership of the domain supplied.  
 ![Hostname and TXT value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2284.png)  
 
-   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's SuperTool TXT Lookup. The first part of the Domain Name must match the ***Hostname*** in {{ en.HUB }} and the Record must match the ***TXT value*** in {{ en.HUB }} as well.  
+   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's SuperTool TXT Lookup. The first part of the Domain Name must match the ***Hostname*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.  
    {% snippet icon.badgeCaution %} 
    DNS TXT Records can take a while to propagate.
    {% endsnippet %}
@@ -38,7 +38,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
    {% endsnippet %}  
 
 1. If everything matches up, click ***Verify domain***.
-1. ***Name*** your SSO configuration. This name will only appear in your {{ en.HUB }} SSO settings menu. The default name is "Microsoft".  
+1. ***Name*** your SSO configuration. This name will only appear in your {{ en.DHUB }} SSO settings menu. The default name is "Microsoft".  
 ![Configuration Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2219.png)  
 
 {% snippet icon.badgeCaution %} 
@@ -57,7 +57,7 @@ Do not close this setup page, as the following steps will show you where to find
 1. Enter the name of this new application, then click on ***Create***.  
 
 {% snippet icon.badgeNotice %} 
-We recommend including either "Devolutions" or "{{ en.HUB }}" in the name. 
+We recommend including either "Devolutions" or "Hub" in the name. 
 {% endsnippet %}
  
 ![Application Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2139.png)  
@@ -110,7 +110,7 @@ We recommend including either "Devolutions" or "{{ en.HUB }}" in the name.
 ![Certificates & secrets – Client secrets – New client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2151.png)  
 1. In the ***Add a client secret*** window, enter a ***Description*** (for example, the name of your Enterprise app) and select an expiration date for this client secret, as per your best internal security practices. 
 {% snippet icon.badgeCaution %} 
-Note that when the client secret expires, no one will be able to connect to the associated {{ en.HUB }}. You will then need to create a new client secret. We recommend that you set yourself a task reminder before the expiration date. 
+Note that when the client secret expires, no one will be able to connect to the associated hub. You will then need to create a new client secret. We recommend that you set yourself a task reminder before the expiration date. 
 {% endsnippet %}
  
 ![Add a client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2152.png)  
@@ -150,7 +150,7 @@ Note that when the client secret expires, no one will be able to connect to the 
 
 ## Provisioning configuration
 
-To synchronize your users and user groups from your providers to the {{ en.HUB }}, follow the next steps.  
+To synchronize your users and user groups from your providers to the hub, follow the next steps.  
 
 **In {{ en.DHUBB }}**  
 
@@ -217,7 +217,7 @@ Nested groups are not supported, meaning that Azure provisioning will not synchr
 1. Select ***Provisioning*** in the left side menu, then click ***Start provisioning***.  
 ![Start provisioning](https://webdevolutions.azureedge.net/docs/en/hub/Hub2171.png)  
 
-## Synchronization between Azure and {{ en.HUB }} 
+## Synchronization between Azure and {{ en.DHUB }} 
 
 The synchronization starts automatically when the provisioning configuration is complete. Azure's provisioning frequency is at most 45 minutes and is determined by your Identity Provider. The user groups, including their members, will synchronize within this Azure provisioning time. We recommend that you to verify the first provisioning results.  
 

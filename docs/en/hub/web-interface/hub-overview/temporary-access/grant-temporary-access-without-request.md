@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 
 {% snippet icon.badgeInfo %} 
-To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.HUB }}](https://docs.devolutions.net/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/).
+To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.DHUB }}](https://docs.devolutions.net/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/).
 {% endsnippet %}
 
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. Approvers can grant ***Temporary Access*** without request from a user and even if the user already has access.

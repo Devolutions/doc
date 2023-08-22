@@ -13,11 +13,11 @@ eleventyComputed:
 
 Your information is stored in entries of different types which are organized into vaults. Entries are managed directly from the web interface and no client application is required.  
 
-Security is at the core of {{ en.HUB }} since it is hosted by [Microsoft Azure](/kb/hub-business/knowledge-base/hosting-region-password-hub/), a highly trusted cloud services provider, and encrypted with the strongest encryption standard: AES-256.  
+Security is at the core of {{ en.DHUB }} since it is hosted by [Microsoft Azure](/kb/hub-business/knowledge-base/hosting-region-password-hub/), a highly trusted cloud services provider, and encrypted with the strongest encryption standard: AES-256.  
 
-{{ en.HUB }} possesses powerful user management features, reports, and accessibility options. Users can be assigned roles and permissions and can also be members of user groups with predefined roles and permissions, streamlining the onboarding process.  
+{{ en.DHUB }} possesses powerful user management features, reports, and accessibility options. Users can be assigned roles and permissions and can also be members of user groups with predefined roles and permissions, streamlining the onboarding process.  
 
-{{ en.HUB }} can be used in combination with our {{ en.RDM }} as a data source as well as with other Devolutions products and {{ en.CTOOLS }}, which you can find below.  
+{{ en.DHUB }} can be used in combination with our {{ en.RDM }} as a data source as well as with other Devolutions products and {{ en.CTOOLS }}, which you can find below.  
 
 {% youtube '5vpGXoULNSU' %}  
 
@@ -48,13 +48,13 @@ Data Importer
 	</tr>
 	<tr>
 		<td>
-[{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with {{ en.HUB }}, which allows users to securely inject passwords into websites using credentials stored in their vaults. 
+[{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their vaults. 
 		</td>
 		<td>
-The application provides users with a simple method of launching remote sessions from the {{ en.HUB }} web interface. 
+The application provides users with a simple method of launching remote sessions from the {{ en.DHUB }} web interface. 
 		</td>
 		<td>
-The essential tool designed to easily and quickly import credentials into your {{ en.HUB }} from multiple third-party applications or services. 
+The essential tool designed to easily and quickly import credentials into your hub from multiple third-party applications or services. 
 		</td>
 	</tr>
 </table>
@@ -83,7 +83,7 @@ Centralize, Manage, and Secure Remote Connections
 {{ en.DWS }} is a mobile and desktop application that brings together Authenticator, {{ en.DHUBB }}, {{ en.DHUBP }}, and {{ en.DVLS }} into a single, centralized, cloud-based location. 
 		</td>
 		<td>
-{{ en.RDM }} centralizes all remote connections on a single platform that is securely shared between users and across the entire team. {{ en.HUB }} can be used as a data source in {{ en.RDM }}. 
+{{ en.RDM }} centralizes all remote connections on a single platform that is securely shared between users and across the entire team. {{ en.DHUB }} can be used as a data source in {{ en.RDM }}. 
 		</td>
 	</tr>
 </table>

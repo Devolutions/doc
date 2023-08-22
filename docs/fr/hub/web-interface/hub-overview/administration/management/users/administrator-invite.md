@@ -10,7 +10,7 @@ Les administrateurs peuvent inviter des utilisateurs spécifiques à devenir adm
 1. Appuyer sur Entrée. 
 {% snippet icon.badgeInfo %} 
 Cette étape vérifiera si l'utilisateur a un {{ fr.DA }}. 
-* Si oui, il liera le compte au {{ fr.HUB }}. 
+* Si oui, il liera le compte au hub. 
 * Sinon, il créera un {{ fr.DA }} automatiquement avec un ***Mot de passe temporaire***, que vous pouvez choisir de gérer. Vous pouvez gérer comment les ***Mot de passe temporaire*** sont envoyés dans ***Administration - Paramètres système - Général***. 
 {% endsnippet %}
  

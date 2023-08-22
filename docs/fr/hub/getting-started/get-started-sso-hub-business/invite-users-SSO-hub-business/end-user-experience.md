@@ -37,9 +37,9 @@ C'est pourquoi nous souhaitons que l'utilisateur stocke cette ***Clé Privée***
 1. De retour à la page du navigateur, choisir l'option ***Application mobile***. 
 1. Scanner le ***Code QR*** dans ***{{ fr.DWS }}***.  
 ![Scannez ce code QR dans votre {{ fr.DWS }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4178.png) 
-6. Attendre que le compte et l'authentificateur soient associés. Une fois cette configuration terminée, elle fournira un accès au {{ fr.HUB }}.  
+6. Attendre que le compte et l'authentificateur soient associés. Une fois cette configuration terminée, elle fournira un accès au hub.  
 
-Vous pouvez maintenant aller à la section [Premier Accès au {{ fr.HUB }}](#premier-accès-au-hub). 
+Vous pouvez maintenant aller à la section [Premier accès au hub](#premier-accès-au-hub). 
 
 ## Méthode avec code QR
 
@@ -50,13 +50,12 @@ Vous pouvez maintenant aller à la section [Premier Accès au {{ fr.HUB }}](#pre
 
 Le fichier PDF sera nommé *devolutions-qr-code.pdf*. Veuillez vous assurer de le conserver en lieu sûr. 
 
-## Premier accès au Hub 
+## Premier accès au hub 
 
 1. Étant donné que l'utilisateur a été invité avec un ID d'invitation et une clé, cliquer ***Oui***.  
 ![Approbation requise](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4171.png) 
-2. Puisque le {{ fr.HUB }} a été ouvert à partir de votre courriel, l'***ID de l'invitation*** et la ***Clé d'invitation*** devraient être remplis automatiquement. Si ce n'est pas le cas, copier le code et le coller dans les champs appropriés.  
+2. Puisque le hub a été ouvert à partir de votre courriel, l'***ID de l'invitation*** et la ***Clé d'invitation*** devraient être remplis automatiquement. Si ce n'est pas le cas, copier le code et le coller dans les champs appropriés.  
 ![ID de l'invitation et Clé de l'invitation](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4172.png) 
 3. Cliquer ***Déverrouiller***.  
 
-L'utilisateur est maintenant connecté et prêt à utiliser {{ fr.HUB }}. 
-
+L'utilisateur est maintenant connecté et prêt à utiliser {{ fr.DHUB }}. 

@@ -11,7 +11,7 @@ Commencer votre [essai gratuit](https://password.devolutions.net/fr/business/sig
 1. Remplir le ***Nom de l'entreprise*** dans la section d'essai gratuit de 30 jours.
 1. Choisir un nom de ***Site du {{ fr.DHUBB }}***.
 {% snippet icon.badgeCaution %}
-Le nom du ***site {{ fr.DHUBB }}*** devient l'adresse de votre site Web et ne peut pas être modifié après le déploiement de votre {{ fr.HUB }}.
+Le nom du ***site {{ fr.DHUBB }}*** devient l'adresse de votre site Web et ne peut pas être modifié après le déploiement de votre {{ fr.DHUB }}.
 {% endsnippet %}
 
 5. Sélectionner la région d'[hébergement](/fr/kb/hub-business/knowledge-base/hosting-region-password-hub/) de vos données et accepter les ***Conditions d'utilisation des services en ligne*** et la ***Politique relative à la vie privée de Devolutions***.  

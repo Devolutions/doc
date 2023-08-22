@@ -1,7 +1,7 @@
 ---
 title: Authentification
 ---
-La section ***Authentification*** vous permet de configurer la manière dont vos utilisateurs se connecteront à votre {{ fr.HUB }}. 
+La section ***Authentification*** vous permet de configurer la manière dont vos utilisateurs se connecteront à votre hub. 
 
 ## Général 
 
@@ -18,7 +18,7 @@ Il est également possible de régler le ***Temps d'inactivité avant la déconn
 
 ## Authentification unique (SSO) 
 
-Dans la section ***Authentification unique (SSO)***, vous pouvez ***Configurer l'authentification unique (SSO)*** pour vos utilisateur de {{ fr.HUB }}. Ils pourront alors se connecter à votre {{ fr.HUB }} en utilisant leurs identifiants Azure AD en plus de pouvoir le faire avec leurs identifiants {{ fr.DA }}.  
+Dans la section ***Authentification unique (SSO)***, vous pouvez ***Configurer l'authentification unique (SSO)*** pour vos utilisateur de {{ fr.DHUB }}. Ils pourront alors se connecter à votre hub en utilisant leurs identifiants Azure AD en plus de pouvoir le faire avec leurs identifiants {{ fr.DA }}.  
 ![Administration – Authentification – Authentification unique (SSO)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2158.png) 
 {% snippet icon.badgeHelp %} 
 Lors de la configuration du SSO, vous devrez remplir certains champs de la page ***Configurer l'authentification unique (SSO)***. Consultez notre rubrique [Introduction à SSO avec {{ fr.DHUBB }}](/fr/hub/getting-started/get-started-sso-hub-business/) pour plus d'informations. 
@@ -37,7 +37,7 @@ Si vous activez ***Forcer l'authentification unique à tous les utilisateurs***,
 
 ## Approvisionnement 
 
-Synchronisez et automatisez le processus de provisionnement et de déprovisionnement des utilisateurs et des groupes de votre {{ fr.HUB }} en configurant votre fournisseur d'identité (Azure Active Directory) avec votre {{ fr.HUB }} en utilisant la spécification SCIM (système de gestion des identités inter-domaines) sous vos configurations idP (fournisseur d'identité). 
+Synchronisez et automatisez le processus de provisionnement et de déprovisionnement des utilisateurs et des groupes de votre hub en configurant votre fournisseur d'identité (Azure Active Directory) avec votre hub en utilisant la spécification SCIM (système de gestion des identités inter-domaines) sous vos configurations idP (fournisseur d'identité). 
 {% snippet icon.badgeInfo %} 
 L'[authentification unique](#authentification-unique-sso) doit d'abord ête configurée et activée pour mettre en place le provisionnement. 
 {% endsnippet %}
@@ -50,5 +50,5 @@ Après avoir activé le SSO, vous pouvez générer un ***jeton SCIM***. Vous pou
 Vous aurez alors accès à l'***URL locataire*** en plus du jeton pour [configurer le provisionnement dans Azure](/fr/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/).  
 ![URL locataire et jeton SCIM](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2163.png) 
 
-Lorsque tout a été configuré, vous pouvez ***Activer la synchronisation*** des utilisateurs et des groupes de votre {{ fr.HUB }} avec ceux d'Azure AD.  
+Lorsque tout a été configuré, vous pouvez ***Activer la synchronisation*** des utilisateurs et des groupes de votre hub avec ceux d'Azure AD.  
 ![Activer la synchronisation](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2164.png) 

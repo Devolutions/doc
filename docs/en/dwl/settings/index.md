@@ -278,7 +278,7 @@ DESCRIPTION
 Enable {{ en.DHUBB }}/Personal 
 		</td>
 		<td>
-Retrieve entries from {{ en.HUB }}. 
+Retrieve entries from {{ en.DHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -294,7 +294,7 @@ Enter the URL of the {{ en.DHUBB }} instance to connect to.
 Username 
 		</td>
 		<td>
-Enter a username to connect to {{ en.HUB }} with. 
+Enter a username to connect to {{ en.DHUB }} with. 
 		</td>
 	</tr>
 </table>
@@ -356,7 +356,7 @@ Display the {{ en.DWL }} favicon.
 {{ en.DWL }} 
 		</td>
 		<td>
-Enable or disable {{ en.DWL }} with {{ en.HUB }}. 
+Enable or disable {{ en.DWL }} with {{ en.DHUB }}. 
 		</td>
 	</tr>
 	<tr>

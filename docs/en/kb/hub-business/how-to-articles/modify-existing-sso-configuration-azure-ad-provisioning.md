@@ -13,7 +13,7 @@ If you have enabled Single Sign-on (SSO) with {{ en.DHUBB }} prior to January 9,
 To avoid any downtime during this new setup, you need to complete the configuration in {{ en.DHUBB }}. Once the new values are saved, the Microsoft authentication will change the enterprise application and should be seamless.
 {% endsnippet %}
 
-## Replace {{ en.HUB }} Custom User Groups with Azure User Groups
+## Replace {{ en.DHUB }} Custom User Groups with Azure User Groups
 
 {% snippet icon.badgeNotice %}
 Note that this task can be done whenever you have the opportunity, a group at a time.

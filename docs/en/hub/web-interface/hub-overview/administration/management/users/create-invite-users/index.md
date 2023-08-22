@@ -44,7 +44,7 @@ To set a usage profile for a user, you will need to create and invite them first
 1. Click ***Next***. 
 1. Assign ***User Groups***. 
 {% snippet icon.badgeInfo %} 
-***User Groups*** need to be defined beforehand as a custom group in {{ en.HUB }}. For more information, see [User Groups](/hub/web-interface/hub-overview/administration/management/user-groups/). 
+***User Groups*** need to be defined beforehand as a custom group in {{ en.DHUB }}. For more information, see [User Groups](/hub/web-interface/hub-overview/administration/management/user-groups/). 
 {% endsnippet %}
  
 
@@ -52,4 +52,4 @@ To set a usage profile for a user, you will need to create and invite them first
 
 9. Click ***Send Invite***.  
 
-{{ en.HUB }} will send an email with essential information to the invited users; the link to access the {{ en.DHUBB }}, the invitation ID, and the key. 
+{{ en.DHUB }} will send an email with essential information to the invited users; the link to access the {{ en.DHUBB }}, the invitation ID, and the key. 

@@ -279,7 +279,7 @@ BESCHREIBUNG
 {{ de.DHUBB }}/Personal aktivieren 
 		</td>
 		<td>
-Einträge vom {{ de.HUB }} abrufen. 
+Einträge vom {{ de.DHUB }} abrufen. 
 		</td>
 	</tr>
 	<tr>
@@ -296,7 +296,7 @@ Geben Sie die URL der {{ de.DHUBB }}-Instanz ein, um eine Verbindung herzustelle
 Nutzername 
 		</td>
 		<td>
-Geben Sie einen Nutzernamen ein, um sich mit dem {{ de.HUB }} zu verbinden. 
+Geben Sie einen Nutzernamen ein, um sich mit dem hub zu verbinden. 
 		</td>
 	</tr>
 </table>
@@ -359,7 +359,7 @@ Zeigt das Favicon von {{ de.DWL }} an.
 {{ de.DWL }} 
 		</td>
 		<td>
-Aktivieren oder deaktivieren Sie {{ de.DWL}} mit {{ de.HUB }}. 
+Aktivieren oder deaktivieren Sie {{ de.DWL}} mit {{ de.DHUB }}. 
 		</td>
 	</tr>
 	<tr>

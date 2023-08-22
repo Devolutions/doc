@@ -7,7 +7,7 @@ In the ***Licenses*** section, you will be able to register your {{ en.DHUBB }} 
 * [Register Product Licenses](/hub/web-interface/hub-overview/administration/management/licenses/register-product-licenses/) 
 
 {% snippet icon.badgeCaution %} 
-Only ***Administrators*** and users with permissions in the ***System Permissions – System – Manage Devolutions {{ en.HUB }} license*** section will have access to register a license in {{ en.DHUBB }}. 
+Only ***Administrators*** and users with permissions in the ***System Permissions – System – Manage {{ en.DHUB }} license*** section will have access to register a license in {{ en.DHUBB }}. 
 {% endsnippet %}
   
 ![!!Hub4111.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4111.png) 

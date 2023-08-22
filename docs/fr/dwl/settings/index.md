@@ -278,7 +278,7 @@ DESCRIPTION
 Activer {{ fr.DHUBB }}/Personal 
 		</td>
 		<td>
-Récupérer les entrées de {{ fr.HUB }}. 
+Récupérer les entrées de {{ fr.DHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -294,7 +294,7 @@ Entrer l'URL du {{ fr.DHUBB }} auquel se connecter.
 Nom d'utilisateur 
 		</td>
 		<td>
-Entrer un nom d'utilisateur avec lequel se connecter à {{ fr.HUB }}. 
+Entrer un nom d'utilisateur avec lequel se connecter à {{ fr.DHUB }}. 
 		</td>
 	</tr>
 </table>
@@ -356,7 +356,7 @@ Afficher le favicône de {{ fr.DWL }}.
 {{ fr.DWL }} 
 		</td>
 		<td>
-Activer ou désactiver {{ fr.DWL }} avec {{ fr.HUB }}. 
+Activer ou désactiver {{ fr.DWL }} avec {{ fr.DHUB }}. 
 		</td>
 	</tr>
 	<tr>

@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
   title: Download and install {{ en.DHUBS }}
-  description: The {{ en.DHUBS }} installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your Hub Business and your internal resources.
+  description: The {{ en.DHUBS }} installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your {{ en.DHUBB }} and your internal resources.
 ---
 
-The {{ en.DHUBS }} installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your Hub Business and your internal resources.
+The {{ en.DHUBS }} installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your {{ en.DHUBB }} and your internal resources.
 
 ## Create an Application User
 
-1. Go to Devolutions {{ en.HUB }}.
+1. Go to {{ en.DHUB }}.
 1. Click ***Administration*** – ***Application Users***.  
 ![Administration – Application Users](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6039.png)  
 1. Select ***Add Application User (+)***.  
@@ -24,7 +24,7 @@ In the ***Application User*** window under ***User***, ***Is enabled*** enables 
 
 ## Edit Permissions for the Application User
 
-1. Go to Devolutions {{ en.HUB }}.
+1. Go to {{ en.DHUB }}.
 1. Click ***Administration*** – ***System Permissions***.
 ![Administration – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
 1. Go to the edit form.
@@ -39,7 +39,7 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 
 ## From all system vaults
 
-1. In Devolutions {{ en.HUB }}, go to ***Administration*** – ***Configuration & Security*** – ***System Permissions***.
+1. In {{ en.DHUB }}, go to ***Administration*** – ***Configuration & Security*** – ***System Permissions***.
 ![Administration – Configuration & Security – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
 1. Go to the edit form.
 ![Edit form](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6049.png)
@@ -50,7 +50,7 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 
 ## For a specific Pam vault
 
-1. In Devolutions {{ en.HUB }}, go to ***Administration*** – ***Management*** – ***Vaults***.
+1. In {{ en.DHUB }}, go to ***Administration*** – ***Management*** – ***Vaults***.
 ![Administration – Management – Vaults](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6044.png)
 1. Go to the edit form of the specific PAM vault.
 1. Select the ***Edit*** tab at the ***Permissions*** section.

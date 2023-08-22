@@ -161,7 +161,7 @@ Description
 		<td>
 This user did a Forgot password on their {{ en.DA }} and is not the owner. This action cuts the link with the {{ en.DHUBB }}.<br>
 
-Note: If the {{ en.DA }} has more than one {{ en.HUB }}, it will cut the link to all of them.
+Note: If the {{ en.DA }} has more than one hub, it will cut the link to all of them.
 		</td>
 	</tr>
 	<tr>
@@ -202,8 +202,8 @@ Solution
 	</tr>
 </table>
 
-### {{ en.DWS }} is disabled for this user on this {{ en.HUB }}.
-![{{ en.DWS }} is disabled for this user on this {{ en.HUB }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
+### {{ en.DWS }} is disabled for this user on this hub.
+![{{ en.DWS }} is disabled for this user on this hub.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
 
 <table>
 		<td>
@@ -265,8 +265,8 @@ The {{ en.DHUBB }} owner must <a href="https://store.devolutions.net/store">buy 
 	</tr>
 </table>
 
-### Your {{ en.HUB }} has been disabled; contact your administrator.
-![Your {{ en.HUB }} has been disabled; contact your administrator.](https://webdevolutions.azureedge.net/docs/en/kb/KB4769.png)
+### Your hub has been disabled; contact your administrator.
+![Your hub has been disabled; contact your administrator.](https://webdevolutions.azureedge.net/docs/en/kb/KB4769.png)
 
 <table>
 		<td>

@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Invite users for SSO in {{ en.DHUBB }}
-  description: Once SSO is configured and enabled, invite your users on your {{ en.HUB }} following these steps.
+  description: Once SSO is configured and enabled, invite your users on your hub following these steps.
   keywords:
   - SSO
   - invite users
@@ -51,7 +51,7 @@ Users will be required to complete a {{ en.DA }} setup. See the [End User Invita
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
-The recipient will be part of your {{ en.HUB }} only when they connect to it for the first time. Only then will you be able to see them in ***Administration – Users***. 
+The recipient will be part of your hub only when they connect to it for the first time. Only then will you be able to see them in ***Administration – Users***. 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 

@@ -36,7 +36,7 @@ Cliquer sur le sélecteur de coffre, dans la partie centrale supérieure de votr
 Messages 
 		</td>
 		<td>
-Envoyer et réceptionner des messages sécurisés avec des utilisateurs depuis votre {{ fr.HUB }}. 
+Envoyer et réceptionner des messages sécurisés avec des utilisateurs depuis votre hub. 
 		</td>
 	</tr>
 	<tr>
@@ -44,7 +44,7 @@ Envoyer et réceptionner des messages sécurisés avec des utilisateurs depuis v
 {{ fr.DA }} 
 		</td>
 		<td>
-Cliquer sur votre avatar pour modifier les paramètres de votre {{ fr.DA }}, le verrouiller ou se déconnecter de votre {{ fr.HUB }}. 
+Cliquer sur votre avatar pour modifier les paramètres de votre {{ fr.DA }}, le verrouiller ou se déconnecter de votre hub. 
 		</td>
 	</tr>
 	<tr>

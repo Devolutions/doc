@@ -16,7 +16,7 @@ L'ID d'invitation et la clé servent à préapprouver l'accès à {{ fr.DHUBB }}
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
-Dans le cadre du processus de création, un {{ fr.DA }} sera créé, car il est obligatoire pour accéder à {{ fr.HUB }}, mais il ne sera pas nécessaire de définir un mot de passe puisque vos utilisateurs s'authentifieront via Azure AD. 
+Dans le cadre du processus de création, un {{ fr.DA }} sera créé, car il est obligatoire pour accéder à {{ fr.DHUB }}, mais il ne sera pas nécessaire de définir un mot de passe puisque vos utilisateurs s'authentifieront via Azure AD. 
 {% endsnippet %}  
  
 ## Inviter des utilisateurs de l'organisation 
@@ -51,7 +51,7 @@ Les utilisateurs devront remplir une configuration de {{ fr.DA }}. Consultez not
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
-Le destinataire fera seulement partie de votre {{ fr.HUB }} lorsqu'il s'y connectera pour la première fois. Ce n'est qu'alors que vous pourrez le voir dans ***Administration – Utilisateurs***.
+Le destinataire fera seulement partie de votre hub lorsqu'il s'y connectera pour la première fois. Ce n'est qu'alors que vous pourrez le voir dans ***Administration – Utilisateurs***.
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 

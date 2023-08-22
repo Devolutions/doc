@@ -1,7 +1,7 @@
 ---
 title: Authentication
 ---
-The ***Authentication*** section allows you to configure how your users will log into your {{ en.HUB }}.  
+The ***Authentication*** section allows you to configure how your users will log into your hub.  
 
 ## General 
 
@@ -19,7 +19,7 @@ It is also possible to set the ***Inactivity Logout Time*** to different values 
 
 ## Single Sign-On (SSO) 
 
-In the ***Single Sign-On (SSO)*** section, you can ***Configure Single Sign-On (SSO)*** for your {{ en.HUB }} users. They will then be able to log in to your {{ en.HUB }} using their Azure AD credentials in addition to being able to do so with their {{ en.DA }} credentials.  
+In the ***Single Sign-On (SSO)*** section, you can ***Configure Single Sign-On (SSO)*** for your {{ en.DHUB }} users. They will then be able to log in to your hub using their Azure AD credentials in addition to being able to do so with their {{ en.DA }} credentials.  
 ![Administration – Authentication – Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2196.png)  
 
 {% snippet icon.badgeHelp %} 
@@ -40,7 +40,7 @@ If you enable ***Force SSO on all users***, users will not have access to {{ en.
 
 ## Provisioning 
 
-Synchronize and automate the provisioning and deprovisioning process of your {{ en.HUB }}  's users and groups by configuring your Identity Provider (Azure Active Directory) with your {{ en.HUB }} using the SCIM (System for Cross-domain Identity Management) specification under your idP (Identity Provider) configurations.  
+Synchronize and automate the provisioning and deprovisioning process of your hub users and groups by configuring your Identity Provider (Azure Active Directory) with your hub using the SCIM (System for Cross-domain Identity Management) specification under your idP (Identity Provider) configurations.  
 
 {% snippet icon.badgeInfo %} 
 [Single Sign-on](#single-sign-on-sso) must first be configured and enabled to set up the provisioning. 
@@ -54,6 +54,5 @@ After having enabled SSO, you can generate a ***SCIM Token***. You can always de
 You will then get access to the ***Tenant URL*** in addition to the token to [configure the provisioning in Azure](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/).  
 ![Tenant URL and SCIM Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2200.png)  
 
-When everything has been configured, you can ***Enable the synchronization*** of your {{ en.HUB }}  's users and groups with the ones in Azure AD.  
+When everything has been configured, you can ***Enable the synchronization*** of your hub users and groups with the ones in Azure AD.  
 ![Enable the synchronization](https://webdevolutions.azureedge.net/docs/en/hub/Hub2201.png)  
-

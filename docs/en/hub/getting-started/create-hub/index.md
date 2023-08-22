@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Create your {{ en.HUB }}
+  title: Create your hub
   order: 10
 ---
 {{ en.DHUB }} is offered in two versions, {{ en.DHUBB }} and {{ en.DHUBP }} (free). Both are secure, cloud-based password managers that link to your {{ en.DA }}.  

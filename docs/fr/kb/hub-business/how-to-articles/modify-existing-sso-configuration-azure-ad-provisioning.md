@@ -5,7 +5,7 @@ Si vous avez activé l'authentification unique (SSO) avec {{ fr.DHUBB }} avant l
 
 ### Créer une application d'entreprise dans Azure AD et modifier la configuration OpenID
 
-* Comme vous avez déjà configuré le SSO, vous devrez créer une nouvelle application d'entreprise dans Azure AD en suivant les étapes de [Configurer l'authentification SSO avec Microsoft Azure](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/) et modifier la configuration OpenID actuelle dans {{ fr.HUB }}.
+* Comme vous avez déjà configuré le SSO, vous devrez créer une nouvelle application d'entreprise dans Azure AD en suivant les étapes de [Configurer l'authentification SSO avec Microsoft Azure](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/) et modifier la configuration OpenID actuelle dans {{ fr.DHUB }}.
 * La fonction de provisionnement avec Azure AD doit être faite dans cette nouvelle application d'entreprise.
 * Une fois la synchronisation effectuée, vérifiez que tous vos utilisateurs existants sont marqués comme synchronisés et qu'ils sont dans leurs ***Groupes d'utilisateurs*** Azure respectifs. Si certains utilisateurs ne sont pas marqués comme synchronisés, cela signifie qu'ils ne sont pas membres d'un groupe Azure qui fait partie de l'application d'entreprise dans Azure.
 
@@ -13,7 +13,7 @@ Si vous avez activé l'authentification unique (SSO) avec {{ fr.DHUBB }} avant l
 Pour éviter tout temps d'arrêt lors de cette nouvelle configuration, vous devez compléter la configuration dans {{ fr.DHUBB }}. Une fois les valeurs enregistrées, l'authentification Microsoft changera l'application d'entreprise et devrait être transparente.
 {% endsnippet %}
 
-### Remplacer les groupes d'utilisateurs personnalisés de {{ fr.HUB }} avec les groupes d'utilisateurs d'Azure 
+### Remplacer les groupes d'utilisateurs personnalisés de {{ fr.DHUB }} avec les groupes d'utilisateurs d'Azure 
 {% snippet icon.badgeNotice %}
 Notez que cette tâche peut être effectuée lorsque que vous en avez l'occasion, un groupe à la fois.
 {% endsnippet %}

@@ -29,4 +29,4 @@ Dans l'éventualité où vous auriez besoin d'importer les ***Paramètres Spéci
 {% endsnippet %}
  
 7. Sélectionner le ***Coffre cible***. 
-1. Cliquer ***Importer la sélection dans {{ fr.HUB }}***. 
+1. Cliquer ***Importer la sélection dans {{ fr.DHUB }}***. 

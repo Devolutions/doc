@@ -24,8 +24,8 @@ Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez pa
 * un bouton ***Ajouter un nouveau compte*** pour se connecter à {{ fr.DHUBP }} avec un compte qui n'est pas listé au-dessus;  
 * un bouton pour ***Se déconnecter*** de votre {{ fr.DA }};  
 * un lien vers votre {{ fr.DHUBP }};  
-* un lien vers notre [forum de {{ fr.HUB }}](https://forum.devolutions.net/product/password-hub);  
-* un lien vers notre [Aide en ligne de {{ fr.HUB }}](/fr/hub/overview/what-is-hub/);  
+* un lien vers notre [forum de {{ fr.DHUB }}](https://forum.devolutions.net/product/password-hub);  
+* un lien vers notre [Aide en ligne de {{ fr.DHUB }}](/fr/hub/overview/what-is-hub/);  
 * la version actuelle de {{ fr.DWL }}.  
 ![Bouton Compte](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2071.png)  
 

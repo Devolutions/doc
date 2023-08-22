@@ -36,11 +36,11 @@ Cette étape validera si l'utilisateur a un {{ fr.DA }}.
 1. Cliquer ***Suivant***. 
 1. Assigner des ***Groupes d'utilisateurs***.  
 {% snippet icon.badgeInfo %} 
-Les ***Groupes d'utilisateurs*** doivent être définis au préalable en tant que groupe personnalisé dans {{ fr.HUB }}. Pour plus d'informations, voir [Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/). 
+Les ***Groupes d'utilisateurs*** doivent être définis au préalable en tant que groupe personnalisé dans {{ fr.DHUB }}. Pour plus d'informations, voir [Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/). 
 {% endsnippet %}
  
 ![!!Hub4183.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4183.png) 
 
 9. Cliquer ***Envoyer une invitation***.  
 
-{{ fr.HUB }} enverra un courriel contenant les informations essentielles aux utilisateurs invités; le lien pour accéder à {{ fr.DHUBB }}, l'ID et la clé d'invitation. 
+{{ fr.DHUB }} enverra un courriel contenant les informations essentielles aux utilisateurs invités; le lien pour accéder à {{ fr.DHUBB }}, l'ID et la clé d'invitation. 

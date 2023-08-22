@@ -38,10 +38,10 @@ This is why the user needs to store this ***Private Key*** on the mobile applica
 1. Back on the browser page, click on ***Mobile App***. 
 1. Scan the QR code in ***{{ en.DWS }}***.  
 ![Scan this QR code in {{ en.DWS }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub4151.png) 
-6. Wait for the account and the authenticator to pair. Once this setup is completed, it will provide access to the {{ en.HUB }}.   
+6. Wait for the account and the authenticator to pair. Once this setup is completed, it will provide access to the hub.   
 ![Pairing](https://webdevolutions.azureedge.net/docs/en/hub/Hub4152.png) 
 
-You can now skip to the [First access to {{ en.HUB }}](#first-access-to--enphub) section. 
+You can now skip to [First access to {{ en.DHUB }}](#first-access-to--enphub). 
 
 ## QR Code method 
 
@@ -55,11 +55,11 @@ Here is an example of the content of the PDF file. It will be named *devolutions
 
 You are now ready to continue to the next section. 
 
-## First access to {{ en.HUB }} 
+## First access to {{ en.DHUB }} 
 
 1. Since the user was invited with an invitation ID and key, click ***Yes***.  
 ![Approval required](https://webdevolutions.azureedge.net/docs/en/hub/Hub4153.png) 
-1. Since the {{ en.HUB }} was opened from your email, ***Invitation id*** and ***Invitation key*** should be autofilled. If that is not the case, copy the code and paste it in the appropriate fields.
+1. Since the hub was opened from your email, ***Invitation id*** and ***Invitation key*** should be autofilled. If that is not the case, copy the code and paste it in the appropriate fields.
 ![Invitation id and Invitation key](https://webdevolutions.azureedge.net/docs/en/hub/Hub4154.png)  
 1. Click ***Unlock***.  
 

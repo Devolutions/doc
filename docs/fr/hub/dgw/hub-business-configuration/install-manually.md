@@ -58,9 +58,9 @@ Le programme d'installation doit être exécuté sur le serveur hébergeant {{ f
 ![Par défaut](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0049.png)
 1. Tester si la passerelle est accessible en cliquant sur ***Tester connexion***.  
 ![Tester connexion](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0050.png)
-1. Cliquer sur le bouton ***Ajouter*** pour relier votre installation {{ fr.DGW }} à votre {{ fr.DHUBB }}.  
+1. Cliquer sur le bouton ***Ajouter*** pour relier votre installation {{ fr.DGW }} à votre hub.  
 ![Ajouter](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0051.png)
-1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} {{ fr.HUB }}.  
+1. Un rectangle affichera les informations pour chaque {{ fr.DGW }} de votre hub.  
 ![Connexion réussie](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0033.png)
 
 {% snippet icon.badgeInfo %} 

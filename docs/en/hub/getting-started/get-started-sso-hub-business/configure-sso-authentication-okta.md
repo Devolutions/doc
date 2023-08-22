@@ -23,13 +23,13 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 ![Domain](https://webdevolutions.azureedge.net/docs/en/hub/Hub2234.png)  
 
    {% snippet icon.shieldInfo %} 
-   For security purposes, only emails that end with your domain name will be allowed to log in to {{ en.HUB }} using Okta authentication. For example, if your employees' emails are in the format "bob@windjammer.co", your domain is "windjammer.co".
+   For security purposes, only emails that end with your domain name will be allowed to log in to {{ en.DHUB }} using Okta authentication. For example, if your employees' emails are in the format "bob@windjammer.co", your domain is "windjammer.co".
    {% endsnippet %}
 
 1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Hostname*** and ***TXT value***. This allows us to verify the ownership of the domain supplied.  
 ![Hostname and TXT value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2235.png)  
 
-   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's SuperTool TXT Lookup. The first part of the Domain Name must match the ***Hostname*** in {{ en.HUB }} and the Record must match the ***TXT value*** in {{ en.HUB }} as well.  
+   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's SuperTool TXT Lookup. The first part of the Domain Name must match the ***Hostname*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.  
    {% snippet icon.badgeCaution %} 
    DNS TXT Records can take a while to propagate.
    {% endsnippet %}
@@ -41,7 +41,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
    {% endsnippet %}  
 
 1. If everything matches up, click ***Verify domain***.
-1. ***Name*** your SSO configuration. This name will only appear in your {{ en.HUB }} SSO settings menu. The default name is "Okta".  
+1. ***Name*** your SSO configuration. This name will only appear in your {{ en.DHUB }} SSO settings menu. The default name is "Okta".  
 ![Configuration name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2248.png)
 
    {% snippet icon.badgeCaution %} 
@@ -62,7 +62,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
    ![App integration name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2249.png)  
 
    {% snippet icon.badgeNotice %} 
-   The app name does not need to match the one in {{ en.HUB }}. We recommend including either "Devolutions" or "{{ en.HUB }}" in the name. 
+   The app name does not need to match the one in {{ en.DHUB }}. We recommend including either "Devolutions" or "Hub" in the name. 
    {% endsnippet %}
 
 12. In ***Grant type***, check ***Refresh Token*** and ***Implicit (hybrid)***.
@@ -138,7 +138,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 
 **In {{ en.DHUBB }}**  
 
-28. Test the configuration in {{ en.HUB }}. A new window should open to connect you to {{ en.HUB }} through Okta. You will get a success message when connected.
+28. Test the configuration in {{ en.DHUB }}. A new window should open to connect you to {{ en.DHUB }} through Okta. You will get a success message when connected.
    {% snippet icon.badgeCaution %} 
    If the popup does not appear, your browser or browser extension may be blocking it. You will need to change your browser and/or extension settings. If this still does not work, deactivating/removing the extension or changing your browser may also solve the problem.
    {% endsnippet %}  
@@ -155,12 +155,12 @@ Domain verification might take up to 24 hours depending on your domain host. You
 If it takes longer than 24 hours, or if you need any help, contact our support team at [service@devolutions.net](mailto:service@devolutions.net).  
 {% endsnippet %}
 
-When the domain verification is done, the SSO configuration will get a green checkmark icon next to it. This means that your SSO configuration through Okta is now enabled on your {{ en.HUB }}.  
+When the domain verification is done, the SSO configuration will get a green checkmark icon next to it. This means that your SSO configuration through Okta is now enabled on your hub.  
 ![Active SSO configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2266.png)
 
 ## Provisioning configuration
 
-Synchronize your users and user groups from your providers to the {{ en.HUB }}.  
+Synchronize your users and user groups from your providers to the hub.  
 
 ### Settings
 

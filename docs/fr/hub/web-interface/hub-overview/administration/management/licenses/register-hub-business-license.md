@@ -34,4 +34,4 @@ Seuls les ***Administrateurs*** et les utilisateurs disposant des ***Permissions
 3. Coller votre nouvelle licence {{ fr.DHUBB }}. 
 1. Cliquer ***Enregistrer***.  
 
-Vous serez automatiquement connecté à votre {{ fr.HUB }}. 
+Vous serez automatiquement connecté à votre hub. 

@@ -34,4 +34,4 @@ Only ***Administrators*** and users with the ***System Permissions*** to ***Mana
 3. Paste your new {{ en.DHUBB }} license. 
 1. Click the padlock to save.  
 
-You will automatically be connected to your {{ en.HUB }}. 
+You will automatically be connected to your hub. 
