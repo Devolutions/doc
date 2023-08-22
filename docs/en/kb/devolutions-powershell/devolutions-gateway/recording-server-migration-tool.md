@@ -6,7 +6,7 @@ eleventyComputed:
 This PowerShell script transforms session recording files from the legacy Devolutions recording server to the {{ en.DGW }} session recording format, allowing you to migrate without losing previous recordings. Once the files are converted to the new format, they will need to be re-indexed from {{ en.DVLS }} such that they can be found in their new location for playback from {{ en.DGW }}.
 
 {% snippet icon.badgeInfo %}
-Re-indexing enables the detection of records present on the {{ en.DGW }} side, making it possible to manually transfer the files and then re-index. However, it's not feasible to simply drag & drop the files into the folder; a specific format needs to be adhered to.
+Re-indexing enables the detection of records present on the {{ en.DGW }} side, making it possible to manually transfer the files and then re-index. However, it is not feasible to simply drag & drop the files into the folder; a specific format needs to be adhered to.
 {% endsnippet %}  
 
 ## Script

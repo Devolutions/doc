@@ -71,7 +71,7 @@ Start-Sleep -s 10
 Disconnect-VIServer $VMHost -Force -Confirm:$false  
 ```
 ### Example use
-You must send the MoRef.Value which was obtained using Script A, in our example, let's start MACHINE2 which has 19 for ID.  
+You must send the MoRef.Value which was obtained using Script A, in our example, start MACHINE2 which has 19 for ID.  
 
 .\ConnectVMRCFromPowerCLI.ps1 [SERVER_NAME] [USER_NAME] [PASSWORD] 19  
 

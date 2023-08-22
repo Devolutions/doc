@@ -1,7 +1,7 @@
 ---
 title: View sensitive data vs. account brokering
 ---
-It is important to learn the differences between the 2 sets of permissions known as ***View sensitive data on checkout*** and ***Credential Brokering***. In this topic, you will find an explanation of the way they're used.  
+It is important to learn the differences between the 2 sets of permissions known as ***View sensitive data on checkout*** and ***Credential Brokering***. In this topic, you will find an explanation of the way they are used.  
 
 Giving access to ***View Sensitive Data on Checkout*** to a user will let that user see the password when the entry is checked out.  
 ![With Access](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6007.png)

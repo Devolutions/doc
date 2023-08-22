@@ -63,7 +63,7 @@ DESCRIPTION
 Require Yubikey authentication 
 		</td>
 		<td>
-Use a Yubikey device to get access to the application when it starts or when it's locked. 
+Use a Yubikey device to get access to the application when it starts or when it is locked. 
 		</td>
 	</tr>
 	<tr>
@@ -71,7 +71,7 @@ Use a Yubikey device to get access to the application when it starts or when it'
 Require a TOTP validation 
 		</td>
 		<td>
-Use {{ en.DWS }} or Google Authenticator device to get access to the application when it starts or when it's locked. 
+Use {{ en.DWS }} or Google Authenticator device to get access to the application when it starts or when it is locked. 
 		</td>
 	</tr>
 	<tr>

@@ -12,7 +12,7 @@ Some steps are required to properly send the username and password. Depending on
 1. Enter the credentials in the ***General*** tab of the ***Website*** entry.  
 ![!!KB4606.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4606.png)  
 {% snippet icon.badgeInfo %}
-The {{ en.DWL }} extension is enabled by default. It's disabling is done through the same tab by selecting ***Disabled*** in the ***{{ en.DWL }}*** drop-down menu.
+The {{ en.DWL }} extension is enabled by default. To disable it, select ***Disabled*** in the ***{{ en.DWL }}*** drop-down menu.
 {% endsnippet %}  
 {% snippet icon.badgeInfo %}
 The [***Comparing type***](/kb/devolutions-web-login/how-to-articles/how-to-use-urls-comparing-types/) determines if {{ en.DWL }} should offer the entry as an available entry to perform autofill.

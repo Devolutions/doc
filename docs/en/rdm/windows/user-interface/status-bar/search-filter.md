@@ -16,7 +16,7 @@ The filter expression is matched against fields as selected in the filter option
 * Contact Information (Name, Email, Phone number, etc.). 
 * Hardware Information (Serial number, Manufacturer, etc.). 
 
-It's possible to exclude results by choosing to display entries that match certain criteria:  
+It is possible to exclude results by choosing to display entries that match certain criteria:  
 
 * Session types (credentials, script tools, VPN, etc.) 
 * If the session is marked as a ***Favorites*** 

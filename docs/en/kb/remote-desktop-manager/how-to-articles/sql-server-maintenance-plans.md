@@ -23,11 +23,11 @@ If you want something a little more robust, we have seen the following:
 
 If you need to be able to recover data that is minutes in the past, then you really need a qualified DBA to help you.
 
-Again, these are examples of how we've seen backups planned for non-critical systems. If it does not meet your specific requirements. You must monitor: the time the backups take to complete; the free space left on the backup device; and so on and so on!  
+Again, these are examples of how we have seen backups planned for non-critical systems. If it does not meet your specific requirements. You must monitor: the time the backups take to complete; the free space left on the backup device; and so on and so on!  
 
-Also, a backup strategy involves actually going through the recovery process regularly to prove that it works. Backups usually work fine, it is the restoring process that is difficult, imagine having a boss breathing down your neck while you are searching for the proper sequence of actions because you've never done this before...  
+Also, a backup strategy involves actually going through the recovery process regularly to prove that it works. Backups usually work fine, it is the restoring process that is difficult, imagine having a boss breathing down your neck while you are searching for the proper sequence of actions because you have never done this before...  
 
-If you look at our first ever sysadminotaur, (at [http://blog.devolutions.net/2012/08/sysadminotaur.html](http://blog.devolutions.net/2012/08/sysadminotaur.html)) you can guess that we've heard of bad backup plans before...
+If you look at our first ever sysadminotaur, (at [http://blog.devolutions.net/2012/08/sysadminotaur.html](http://blog.devolutions.net/2012/08/sysadminotaur.html)) you can guess that we have heard of bad backup plans before...
 
 {% snippet icon.shieldWarning %}
 Backup plans must be monitored and Recovery plans must be enacted to confirm they actually work!

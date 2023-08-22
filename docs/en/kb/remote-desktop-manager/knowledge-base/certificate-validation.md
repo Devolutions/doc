@@ -108,7 +108,7 @@ The resulting output from the tools mentioned above can be used to obtain more i
 Navigate to ***File*** – ***Options*** – ***Security*** – ***Certificate security*** to manage options related to certificates.  
 ![Certificate security options](https://webdevolutions.azureedge.net/docs/en/kb/KB0129.png)  
 {% snippet icon.badgeInfo %}
-The ***Reset Known Certificates*** option only appears if you've selected ***Continue and Remember*** on one or more certificate.
+The ***Reset Known Certificates*** option only appears if you have selected ***Continue and Remember*** on one or more certificate.
 {% endsnippet %}  
 
 <table>

@@ -38,7 +38,7 @@ There are two targeted scenarios:
 
 1. Accessing a secure network through a single host  
 
-This allows you to have a strict firewall policy that allows connections only from a specific IP address. This configuration only grants you access to hosts that are accessible from the Jump Box. Let's imagine you have the following infrastructure:  
+This allows you to have a strict firewall policy that allows connections only from a specific IP address. This configuration only grants you access to hosts that are accessible from the Jump Box. Imagine you have the following infrastructure:  
 ![!!clip10825.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10825.png) 
 
 You need to access the remote hosts, but you want to limit risks and expose only the Jump Host to the internet traffic. This allows you to create strict firewall rules and to open only a single port. Therefore, it forces you to connect to the Jump Host before hopping to a remote host.  

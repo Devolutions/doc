@@ -8,7 +8,7 @@ The webcam redirection option will redirect all of your connected webcams. Event
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
-We've made a fix, in version 2021.1.18 and higher, that prevented some webcams to be redirected. We suspect the issue was caused by the RemoteFX redirection, which is not supported by all webcams. Unfortunately, RemoteFX seems to be required for ActiveX (which we use for embedded sessions), so this fix will only apply to external sessions.
+We have made a fix, in version 2021.1.18 and higher, that prevented some webcams to be redirected. We suspect the issue was caused by the RemoteFX redirection, which is not supported by all webcams. Unfortunately, RemoteFX seems to be required for ActiveX (which we use for embedded sessions), so this fix will only apply to external sessions.
 {% endsnippet %}
 
 ## Steps

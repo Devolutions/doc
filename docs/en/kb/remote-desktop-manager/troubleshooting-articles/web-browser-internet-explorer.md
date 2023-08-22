@@ -22,7 +22,7 @@ By default {{ en.RDM }} does not use the latest IE version (emulation mode). Thi
 ### Problem 4
 Accessviolationexception - attempted to read or write protected memory.
 ### Solution 4
-When a crash occurs in {{ en.RDM }} while using some ActiveX in IE, it's often caused by Data Execution Prevention (DEP). DEP is a security feature included in Windows. It is used to prevent an application or service from executing code from a non-executable memory region.  
+When a crash occurs in {{ en.RDM }} while using some ActiveX in IE, it is often caused by Data Execution Prevention (DEP). DEP is a security feature included in Windows. It is used to prevent an application or service from executing code from a non-executable memory region.  
 
 To fix this, change the DEP settings for the application as follows:  
 

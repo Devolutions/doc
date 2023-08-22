@@ -8,7 +8,7 @@ This features requires an [Advanced Data Source](/rdm/mac/data-sources/data-sour
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Regardless of the security provider you've selected, the passwords that are stored in the data store are ALWAYS encrypted using AES 256 bit encryption. 
+Regardless of the security provider you have selected, the passwords that are stored in the data store are ALWAYS encrypted using AES 256 bit encryption. 
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 
@@ -87,7 +87,7 @@ See below for more details.
 If the passphrase is lost, there is nothing that can be done to recover the data.  Always copy it to a secure location when putting it in place. 
 {% endsnippet %}
  
-All of the entries configuration data is encrypted with a mix of key stored in {{ en.RDMMAC }} and the passphrase you've entered. The passphrase is required only when configuring the data source. 
+All of the entries configuration data is encrypted with a mix of key stored in {{ en.RDMMAC }} and the passphrase you have entered. The passphrase is required only when configuring the data source. 
 
 ## Certificate 
 

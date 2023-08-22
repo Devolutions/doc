@@ -1,7 +1,7 @@
 ---
 title: Unable to Import Azure AD Users or Groups
 ---
-It's possible that the Azure AD cache stored in {{ en.DVLS }} is not properly loaded. Here are the steps to troubleshoot this problem.
+It is possible that the Azure AD cache stored in {{ en.DVLS }} is not properly loaded. Here are the steps to troubleshoot this problem.
 
 {% snippet icon.badgeCaution %}
 If you just activated the Microsoft Authentication option, it may take a while (about an hour) for the cache to load before being able to import users and user groups.

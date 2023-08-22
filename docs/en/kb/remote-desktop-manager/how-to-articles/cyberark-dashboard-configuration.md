@@ -12,7 +12,7 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
 ## Configuration
 
 1. Create a new ***CyberArk Dashboard*** entry or go to the ***Properties*** of your existing one.
-1. In the ***General*** section, specify a ***Name*** and ***Folder*** for your entry if that's not already done.
+1. In the ***General*** section, specify a ***Name*** and ***Folder*** for your entry if that is not already done.
 
 ![CyberArk Dashboard Properties – General – Name and Folder](https://webdevolutions.azureedge.net/docs/en/kb/KB2166.png)
 

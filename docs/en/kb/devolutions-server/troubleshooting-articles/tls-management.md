@@ -23,4 +23,4 @@ In your environment, you do have a multi-tiered topology, so for your question a
 
 Note that the Server OS must be fully patched, as well as the .NET Framework.
 
-I would strongly recommend that the tool mentioned in the blog be used for these changes, [Nartac Software IIS Crypto](https://www.nartac.com/Products/IISCrypto), hacking the registry should be done with care and sadly that's what Microsoft is providing as guidance.
+I would strongly recommend that the tool mentioned in the blog be used for these changes, [Nartac Software IIS Crypto](https://www.nartac.com/Products/IISCrypto), hacking the registry should be done with care and sadly that is what Microsoft is providing as guidance.

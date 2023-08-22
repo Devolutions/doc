@@ -1,7 +1,7 @@
 ---
 title: VMware
 ---
-VMware tools make assumptions that their scripts are run in an interactive session and also present warnings the first time that they are run. As it stands today, you have to run commands interactively after you've installed or upgraded their tools.  
+VMware tools make assumptions that their scripts are run in an interactive session and also present warnings the first time that they are run. As it stands today, you have to run commands interactively after you have installed or upgraded their tools.  
 
 The PowerCLI configuration has multiple scopes: ***Session***, ***User***, and ***AllUsers*** Please refer to their documentation for details and on how to properly configure as per your requirements.
 ### Connection to the server failed!

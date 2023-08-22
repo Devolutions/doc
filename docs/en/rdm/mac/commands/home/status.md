@@ -45,7 +45,7 @@ This allow the user who has locked the session to use it and block the others
 Disabled 
 		</td>
 		<td>
-A disabled session cannot be opened. It's mostly used when you do not want to delete it but avoid any unattended connection. It's also useful to disable an account for one of your former customer. 
+A disabled session cannot be opened. It is mostly used when you do not want to delete it but avoid any unattended connection. It is also useful to disable an account for one of your former customer. 
 		</td>
 	</tr>
 	<tr>

@@ -7,7 +7,7 @@ Yet when you step back and think about it, ask yourself: Would you ever think of
 
 Fortunately, there’s a solution!  
 
-We've developed a feature that allows for symmetric encryption of sensitive information, so that it can then be securely sent via email (or any other protocol) while keeping the data safe.  
+We have developed a feature that allows for symmetric encryption of sensitive information, so that it can then be securely sent via email (or any other protocol) while keeping the data safe.  
 
 This feature can also be used to save/export/backup sensitive information to disk.  
 

@@ -78,6 +78,6 @@ You need to grant permission on the vault either at ***System level*** or ***Ind
 
 {{ en.DHUBS }}' logs are available in ***Windows Event Viewer***. The service should be able to connect to the previously created provider.
 
-It's also possible to see the {{ en.DHUBS }} as a service in the Services window of Windows which shows the current status and where it can be started or stopped.
+It is also possible to see the {{ en.DHUBS }} as a service in the Services window of Windows which shows the current status and where it can be started or stopped.
 
 

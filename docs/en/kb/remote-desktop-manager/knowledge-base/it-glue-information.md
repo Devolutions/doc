@@ -8,7 +8,7 @@ For more information please look into this article under the section [Generating
 The important thing to remember is the following: All API endpoints require authentication using a private API key.  
 
 {% snippet icon.shieldWarning %}
-Whenever you send a request to the API, you send your key with it so that we know it's you. This means that anyone who has your key can access your data, so it’s important to keep it private. You can revoke an old API key and generate a new one at any time from your IT Glue account. Any requests made using your old key will no longer work.
+Whenever you send a request to the API, you send your key with it so that we know it is you. This means that anyone who has your key can access your data, so it’s important to keep it private. You can revoke an old API key and generate a new one at any time from your IT Glue account. Any requests made using your old key will no longer work.
 {% endsnippet %}  
 
 Therefore there are 2 choices when using IT Glue in {{ en.RDM }}  

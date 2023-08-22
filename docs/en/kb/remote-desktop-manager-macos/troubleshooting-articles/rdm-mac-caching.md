@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Remote Desktop Manager {{ en.MAC }} caching
 ---
-You are not seeing the content that you're expecting to see in the ***{{ en.NPANE }}***.
+You are not seeing the content that you are expecting to see in the ***{{ en.NPANE }}***.
 
 ## Method 1
 

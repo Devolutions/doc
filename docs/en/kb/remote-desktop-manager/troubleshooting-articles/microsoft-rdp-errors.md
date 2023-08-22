@@ -7,7 +7,7 @@ Cannot copy <filename>: windows cannot find ‘%1!|s!’. Check the spelling and
 
 ### Solution 1
 
-This is a bug in the Microsoft Remote Desktop Client. The workaround is to enable the ***Smart Card*** in Windows, even if it's not required for the connection.
+This is a bug in the Microsoft Remote Desktop Client. The workaround is to enable the ***Smart Card*** in Windows, even if it is not required for the connection.
 
 ### Problem 2
 
@@ -63,7 +63,7 @@ Copy/paste operation within the remote host are extremely slow.
 
 ### Solution 6
 
-We've isolated the issue to ***Serial Ports*** being enabled. Turn off ***Serial port sharing*** and see if the performance is improved.
+We have isolated the issue to ***Serial Ports*** being enabled. Turn off ***Serial port sharing*** and see if the performance is improved.
 
 ### Problem 7
 

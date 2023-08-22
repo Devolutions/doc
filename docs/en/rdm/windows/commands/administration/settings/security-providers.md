@@ -85,7 +85,7 @@ If the passphrase is lost, nothing that can be done to recover the data. When us
  
 ![Security Provider - Shared Passphrase](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3436.png) 
 
-Entries configuration data is encrypted using a mix of a key stored in {{ en.RDM }} and the passphrase you've entered.  
+Entries configuration data is encrypted using a mix of a key stored in {{ en.RDM }} and the passphrase you have entered.  
 
 The passphrase is required only when configuring the data source. A policy can be enabled to always prompt for the passphrase when connecting to the data source.  
 
