@@ -7,7 +7,7 @@ It is possible to send us images. However, know that to ensure consistency throu
 ### Image guidelines
 
 Nevertheless, if you wish to send us images, here are some basic guidelines to follow regarding your screenshots:  
-* Hide any personal and/or sensitive information: names, email addresses, credentials, serial/license numbers, physical location, etc.
+* Hide any personal and/or sensitive information: names, email/IP/physical addresses, credentials, serial/license numbers, locations, etc.
 * Make sure that everything you want to show is clearly visible. It may help to resize your window to include more information in the screenshot.
 * To ensure quality, use the best screen resolution you can and do not change the size of your image(s).
 * Use the default theme of the website/application you are taking a screenshot of.
