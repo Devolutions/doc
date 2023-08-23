@@ -21,12 +21,13 @@ To learn more about creating and managing an Azure Key Vault account, please con
     * ***Client ID***: The ID of your Azure Key Vault
     * ***Client secret***: An application secret from your Azure AD  
 ![Azure Key Vault](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0039.png)
+4. Verify the ***Response File*** section.
    {% snippet icon.badgeInfo %}
    Checking the ***Include sensitive data*** option will include passwords for the database credentials only if it is an SQL database, otherwise no passwords can be saved.
    {% endsnippet %}  
-1. Enter the ***Password*** and the enter the same one in the ***Confirm Password*** field.  
+1. Enter the ***Password***, then enter the same one in the ***Confirm Password*** field.  
    {% snippet icon.badgeCaution %}
-   If this password is lost, it will be impossible to use the backup for restoration purposes.
+   If this password is lost, it will be impossible to use the backup.
    {% endsnippet %}  
 1. Click ***OK*** to save this configuration and create the backup.
 1. Click ***Close*** once the generation is done.  
@@ -39,7 +40,7 @@ To learn more about creating and managing an Azure Key Vault account, please con
 1. The ***Filename*** field serves to choose the destination folder where the ***Azure Key Vault*** backup will be saved as well as naming said backup file.  
 ![Recovery Kit - Download](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0042.png)
    {% snippet icon.badgeInfo %}
-   Clicking the ellipsis button opens a Save As dialog.
+   Clicking the ellipsis button in the ***Filename*** field opens a Save As dialog.
    {% endsnippet %}  
 1. Enter the correct information in the Azure Key Vault section;
   * ***URL***: The URL to your Azure Key Vault
@@ -47,4 +48,4 @@ To learn more about creating and managing an Azure Key Vault account, please con
   * ***Client ID***: The ID of your Azure Key Vault
   * ***Client secret***: An application secret from your Azure AD
   * ***Secret name***: The name of the application secret
-1. Click ***OK*** to download the specific backup zip file.
+5. Click ***OK*** to download the specific backup zip file.
