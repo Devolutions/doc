@@ -86,7 +86,7 @@ You cannot use this Wizard to move databases between local instances of SQL Serv
 {% endsnippet %}  
 
 1. Using Microsoft SQL Server Management Studio (SSMS).
-1. Right-click on the ***database name (node) – Tasks – Deploy Database to Microsoft Azure SQL Database…***
+1. Right-click on the ***database name (node) – Tasks – Deploy Database to Microsoft Azure SQL Database…***.
 1. Follow the wizard steps.
 1. You are now ready to create the new data source in <a href="#rdm">{{ en.RDM }}</a> or update the <a href="#dvls">{{ en.DVLSCONSOLE }}</a>.  
 

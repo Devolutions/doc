@@ -1,7 +1,7 @@
 ---
 title: Export
 ---
-Use File – Export to export vaults from {{ en.RDM }}. 
+Use ***File – Export*** to export vaults from {{ en.RDM }}. 
 
 {% snippet icon.badgeInfo %} 
 The export feature is only active if the ***Import*** and ***Export Privileges*** has been enabled inside the ***User Management*** account. 
@@ -39,7 +39,7 @@ Export a vault in a .json file format. You can also include credentials in this 
 
 ### Export All Host List (.csv) 
 
-Export a simple host list in .csv format. You will be prompted to see if you wish the export to be slightly more detailed and include the following information: Host, Description, Display Name, Group, Security Group. 
+Export a simple host list in .csv format. You will be prompted to see if you wish the export to be slightly more detailed and include the following information: Host, Description, Display Name, Group, User Groups. 
 
 ### Export vault (.csv) 
 
@@ -54,7 +54,7 @@ Export the vault with an AES-256 to encrypt self contained html file. See [Expor
 
 ### Export vault (.xml) 
 
-Because it brought confusion to our user base, this export format has been converted to perform the exact same export as the ***Export Vault***  but sets the file extension to .xml instead. 
+Because it brought confusion to our user base, this export format has been converted to perform the exact same export as the ***Export Vault*** but sets the file extension to .xml instead. 
 
 ### Export All Documents 
 
@@ -67,6 +67,3 @@ Export your ***My Personal Credentials*** in a .rdm file and encrypt with a ***M
 {% snippet icon.badgeWarning %} 
 A ***Master key*** will encrypt the .rdm file to protect its content. The key is absolutely necessary for decryption. 
 {% endsnippet %}
- 
-
-

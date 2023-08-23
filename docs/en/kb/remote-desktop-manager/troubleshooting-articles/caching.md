@@ -2,7 +2,7 @@
 title: Caching
 status: Topic available in German language
 ---
-You are not seeing the content that you're expecting to see in the ***{{ en.NPANE }}***.  
+You are not seeing the content that you are expecting to see in the ***{{ en.NPANE }}***.  
 
 This issue can be caused by a corruption of the local cache. There are several methods to refresh the local cache in {{ en.RDM }}.
 ## Solution

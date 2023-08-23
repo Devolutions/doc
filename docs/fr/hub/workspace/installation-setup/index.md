@@ -7,7 +7,7 @@ eleventyComputed:
 
 Configurez votre {{ fr.DHUBB }} ou {{ fr.DHUBP }} avec {{ fr.DWS }} à partir des guides suivants:
 
-* [{{ fr.DWS }} de bureau avec {{ fr.DHUBB }}](/fr/hub/workspace/installation-setup/setup-desktop-hub-business/)
-* [{{ fr.DWS }} de bureau avec {{ fr.DHUBP }}](/fr/hub/workspace/installation-setup/setup-desktop-hub-personal/)
-* [{{ fr.DWS }} mobile avec {{ fr.DHUBB }}](/fr/hub/workspace/installation-setup/setup-mobile-hub-business/)
-* [{{ fr.DWS }} mobile avec {{ fr.DHUBP }}](/fr/hub/workspace/installation-setup/setup-mobile-hub-personal/)
+* [{{ fr.DWSDESKTOP }} avec {{ fr.DHUBB }}](/fr/hub/workspace/installation-setup/setup-desktop-hub-business/)
+* [{{ fr.DWSDESKTOP }} avec {{ fr.DHUBP }}](/fr/hub/workspace/installation-setup/setup-desktop-hub-personal/)
+* [{{ fr.DWSMOBILE }} avec {{ fr.DHUBB }}](/fr/hub/workspace/installation-setup/setup-mobile-hub-business/)
+* [{{ fr.DWSMOBILE }} avec {{ fr.DHUBP }}](/fr/hub/workspace/installation-setup/setup-mobile-hub-personal/)

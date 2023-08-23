@@ -15,7 +15,7 @@ Bitte wählen Sie den entsprechenden Bereich aus:
 ## Domänenkonten (Integrierte Sicherheit) 
 
 {% snippet icon.badgeInfo %}
-Die ***Administrative Anmeldeinformationen***  benötigen Leserecht für die AD-Struktur, dies führt aber zu KEINER Änderungen in Ihrem Verzeichnis. Leider gibt es aufgrund eines durch die Struktur der Net Directory Services hervorgerufenen Nebeneffekts ein Problem, wenn dieses Konto versucht, Eigenschaften von AD-Gruppen zu lesen, die sich möglicherweise in einem geschützten Bereich Ihres Verzeichnisses befinden.
+Die ***Administrative Anmeldeinformationen*** benötigen Leserecht für die AD-Struktur, dies führt aber zu KEINER Änderungen in Ihrem Verzeichnis. Leider gibt es aufgrund eines durch die Struktur der Net Directory Services hervorgerufenen Nebeneffekts ein Problem, wenn dieses Konto versucht, Eigenschaften von AD-Gruppen zu lesen, die sich möglicherweise in einem geschützten Bereich Ihres Verzeichnisses befinden.
 Bisher besteht die Lösung darin, volle Administratorrechte für dieses Konto zu konfigurieren. Wir arbeiten aber derzeit daran, eine bessere Notfallstrategie für den Fall zu implementieren, dass der Zugriff verweigert wird. Den Text in Rot ersetzten durch: Möglicherweise sind höhere Berechtigungen erforderlich als die Zugehörigkeit zur von den Nutzern der Domain eingerichteten Active Directory-Gruppe. In den meisten Fällen sollte dies aber ausreichen. 
 {% endsnippet %}
 

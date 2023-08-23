@@ -42,8 +42,9 @@ Displays username and password fetched from a Credential repository in the entry
 Use legacy security 
 		</td>
 		<td>
-Use the old system of managing privileges: Security groups (deprecated). 
-* To manage your users permissions, we recommend you switch from Security groups (deprecated) to ***Permissions***. Once the migration done, disable the legacy security, by unchecking ***Use legacy security***. 
+Use the old system of managing privileges: Security groups (deprecated).  
+
+Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See <a href="/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/" target="_blank">Migrate from security groups (legacy) to user groups</a>.
 		</td>
 	</tr>
 </table>

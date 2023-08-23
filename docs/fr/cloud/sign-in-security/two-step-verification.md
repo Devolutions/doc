@@ -36,7 +36,7 @@ Choisir <a href="#push">Notification Push</a>, <a href="#app">Application d'auth
 
 1. Cliquer sur ***Notification Push***.  
 ![Notification push](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4030.png)
-1. Télécharger et installer {{ fr.DWS }} sur votre appareil mobile.  
+1. Télécharger et installer {{ fr.DWSMOBILE }}.  
 ![{{ fr.DWS }}](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4031.png)
 1. Utiliser {{ fr.DWS }} pour scanner le code ou entrer la clé manuellement.  
 ![{{ fr.DWS }} scanner le code](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4032.png)

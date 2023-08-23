@@ -11,6 +11,10 @@ La section ***Permissions*** vous permet d'attribuer des permissions. Les contr�
 
 Les options situées directement au-dessus de la grille concernent les dossiers publics, ce qui signifie que tout dossier auquel aucun groupe de sécurité n'a été affecté se verra attribuer ces droits. Ils agissent également comme la permission la plus élémentaire que vous pouvez attribuer, car ils sont nécessaires pour autoriser les permissions pour chacun des groupes de sécurité répertoriés dessous, lorsqu'ils ne sont pas cochés, la colonne correspondante de la grille est grisée. 
 
+{% snippet icon.badgeWarning %}
+La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
+{% endsnippet %}  
+
 <table>
 	<tr>
 		<td>

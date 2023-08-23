@@ -53,5 +53,4 @@ One {{ en.DGW }} can handle up to 75 concurrent sessions with good performance.
 
 ### Prerequisites 
 
-* Each {{ en.HUB }} license comes with a {{ en.DGW }} which supports up to 5 concurrent sessions. Contact our [sales department](mailto:sales@devolutions.net) for more concurrent sessions. 
-
+* Each {{ en.DHUB }} license comes with a {{ en.DGW }} which supports up to 5 concurrent sessions. Contact our [sales department](mailto:sales@devolutions.net) for more concurrent sessions. 

@@ -20,15 +20,15 @@ In this topic we will assume that your instance of {{ en.DVLS }} is configured i
 1. Log into your Okta administration account.
 1. Go to ***Applications*** in the ***Applications*** submenu and click on the ***Create App Integration*** button.
 ![!!KB4105.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4105.png)
-1. In the ***Sign-in method*** section select ***OIDC - OpenID Connect***
-1. In the ***Application type*** section select ***Single-Page Application***
+1. In the ***Sign-in method*** section select ***OIDC - OpenID Connect***.
+1. In the ***Application type*** section select ***Single-Page Application***.
 1. Click ***Next*** to continue.  
 ![!!KB4106.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4106.png)
 1. In the ***New Single-Page App Integration*** page presenting the configuration of the new application:  
 
     a. First, name the application in the ***App integration name*** field in order to find it in your application list in Okta.  
 
-    b. Leave the ***Grant type*** option to ***Authorization Code***  
+    b. Leave the ***Grant type*** option to ***Authorization Code***.  
 
     c. Add the URI in the ***Sign-in redirect URIs*** section. In our example we added https<area>://www.contoso.com/dvls/api/external-provider-response  
 
@@ -36,15 +36,15 @@ In this topic we will assume that your instance of {{ en.DVLS }} is configured i
 
     e. In the ***Assignments*** section, we recommend that you select ***Allow everyone in your organization to access*** and then check ***Enable immediate access with Federation Broker Mode*** This will save you from having to assign each user to the application manually.  
     
-    f. Click ***Save***  
+    f. Click ***Save***.  
 ![!!KB4128.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4128.png)
 
 ## Configuration of an API Key in okta
 
-1. In the left side menu go to ***Security - Api***
+1. In the left side menu go to ***Security - Api***.
 1. In the ***Tokens*** tab click on the ***Create token*** button.  
 ![!!KB4216.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4216.png)
-1. Name the token to find it in your list then click ***Create token***  
+1. Name the token to find it in your list then click ***Create token***.  
 ![!!KB4195.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4195.png)
 1. Once created, copy the ***Token Value*** in a safe place.  
 
@@ -63,12 +63,12 @@ The token inherits the rights of the user who creates it. This is important beca
 Once the application and Api token are created, you can configure the {{ en.DVLS }} web interface.
 
 1. Log into the {{ en.DVLS }} instance with an administrator account.
-1. Go to the ***Administration - Server Settings - Authentication***
-1. Check ***Authentication with Okta user***
-1. In the ***Configuration*** section, click ***Okta Authentication***  
+1. Go to the ***Administration - Server Settings - Authentication***.
+1. Check ***Authentication with Okta user***.
+1. In the ***Configuration*** section, click ***Okta Authentication***.  
 ![!!KB4229.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4229.png)
 1. Optional: You can input an information in the ***Display Name*** field. This will be replacing the word ***Okta*** in the login page.
-1. In the ***Authentication Configuration*** section, enter your Okta ***Domain***  
+1. In the ***Authentication Configuration*** section, enter your Okta ***Domain***.  
 {% snippet icon.badgeInfo %}
 To find your ***Domain*** go to your Okta account. In the top right corner of the screen, click on your user menu. Your domain should be visible.
 {% endsnippet %}

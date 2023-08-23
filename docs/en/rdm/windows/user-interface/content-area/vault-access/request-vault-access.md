@@ -16,7 +16,7 @@ You can request access to a public vault in {{ en.RDM }}. Follow the steps below
 1. Select the vault you want to access, then click on ***Send Access Request***.  
 ![Send Access Request](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2155.png)  
    {% snippet icon.badgeInfo %}
-   If you are using a {{ en.HUBB }} data source, select from the list an administrator / vault owner to send the request to. For other data source types, the request is sent to all administrators and vault owners.
+   If you are using a {{ en.DHUBB }} data source, select from the list an administrator / vault owner to send the request to. For other data source types, the request is sent to all administrators and vault owners.
    {% endsnippet %}
 
 1. Write a short message to the approver explaining why you want access to this vault. This is optional, but we recommend it as it allows them to make a more informed decision.  

@@ -28,4 +28,4 @@ The option ***Always prompt with list*** allows users to select the credential e
 1. Select your desired ***Login type*** (Vault Login, Enterprise SSO or Enterprise SSO (Domain)).
 1. Enter the required information, based on the ***Login type*** selected.
 1. Use the ***Credentials*** field to specify which credential should be retrieved from Keeper or use the ***Always prompt with list*** option to select which credential to retrieve each time the Keeper entry is used.
-1. Click ***OK***
+1. Click ***OK***.

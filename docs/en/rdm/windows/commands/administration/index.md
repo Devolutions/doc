@@ -38,7 +38,7 @@ Opens the [User Management](/rdm/windows/commands/administration/management/user
 Security Groups (Legacy) 
 		</td>
 		<td>
-Security Groups are now a Legacy option, and although we have left documentation in the online help to help users identify it, we strongly recommend switching to User Groups instead. 
+Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 		</td>
 	</tr>
 	<tr>

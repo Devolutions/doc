@@ -1,5 +1,5 @@
 ---
-title: Net Runtime Optimization Service Issue
+title: Net Runtime Optimization Service issue
 ---
 Some user will have an issue on Windows 7 with {{ en.RDM }} and receive the following error message:  
 
@@ -12,7 +12,7 @@ Use the compatibility mode as a workaround.
 1. Right click {{ en.RDM }} shortcut.
 1. Select ***Properties*** from the context menu.
 1. Click the ***Compatibility*** tab.
-1. Check ***Run this program in compatibility mode for***
+1. Check ***Run this program in compatibility mode for***.
 1. Select the version of Windows in the drop down menu.
-1. Click ***OK***  
+1. Click ***OK***.  
 ![!!KB4922.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4922.png)

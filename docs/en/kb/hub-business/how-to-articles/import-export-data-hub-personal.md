@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Import/Export Data with {{ en.HUBP }}
+  title: Import/Export Data with {{ en.DHUBP }}
 ---
-You can import new data to your {{ en.HUBP }} and export your existing data to the Json format. These features are accessible via the ***Tools*** tab, under the ***Import/Export*** section.
+You can import new data to your {{ en.DHUBP }} and export your existing data to the Json format. These features are accessible via the ***Tools*** tab, under the ***Import/Export*** section.
 
 ![Import/Export.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2083.png)
 
@@ -10,8 +10,8 @@ You can import new data to your {{ en.HUBP }} and export your existing data to t
 
 Go to the section that corresponds to your needs:
 
-- [Import data to {{ en.HUBP }}](#import)
-- [Export data from {{ en.HUBP }}](#export)
+- [Import data to {{ en.DHUBP }}](#import)
+- [Export data from {{ en.DHUBP }}](#export)
 
 ### Import Data
 <a name="import"></a>
@@ -20,16 +20,16 @@ Go to the section that corresponds to your needs:
 ![Import Source.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2084.png)
 1. Upload your .csv or .json file.  
 ![File Upload.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2085.png)
-1. Select a ***Destination folder***  
+1. Select a ***Destination folder***.  
 ![Destination Folder.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2086.png)
-1. Click ***Next***
-1. Select which entry to import in your {{ en.HUBP }}.  
+1. Click ***Next***.
+1. Select which entry to import in your {{ en.DHUBP }}.  
 ![Entry Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2087.png)  
 {% snippet icon.shieldCaution %}
 The ***Change ID*** box at the bottom left of the window is checked by default, meaning your entry IDs will be changed upon import. For security purposes, it is recommended to leave it checked.
 {% endsnippet %}  
 
-6. Click ***Import***
+6. Click ***Import***.
 Your data has been imported to the destination folder you previously specified.
 
 ### Export Data
@@ -41,7 +41,7 @@ Your data has been imported to the destination folder you previously specified.
 The ***Obfuscate sensitive values*** box is checked by default, meaning your sensitive information will be harder to decypher. For security purposes, it is recommended to leave it checked.
 {% endsnippet %}  
 
-2. Select which entry to export from your {{ en.HUBP }}.  
+2. Select which entry to export from your {{ en.DHUBP }}.  
 ![Entry Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2089.png)
 1. Click ***Export***, then save your file when prompted.  
 

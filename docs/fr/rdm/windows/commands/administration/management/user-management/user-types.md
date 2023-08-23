@@ -53,7 +53,11 @@ Accorde uniquement l'accès en lecture seule à l'utilisateur.
 
 Lorsque vous définissez un utilisateur comme ***Utilisateur accès restreint***, les droits doivent être accordés manuellement. Ces droits ont une influence immédiate sur les actions que l'utilisateur peut effectuer sur les entrées non sécurisées. Par conséquent, des droits doivent être accordés pour que les utilisateurs puissent effectuer des actions sur les entrées, car les autorisations ne peuvent pas remplacer l'absence de droit.  
 
-Une fois les droits accordés, ils peuvent être limités avec le [Contrôle d'accès basé sur les groupes d'utilisateurs](/fr/rdm/windows/user-groups-based-access-control/) ou les groupes de sécurité.  
+Une fois les droits accordés, ils peuvent être limités avec le [Contrôle d'accès basé sur les groupes d'utilisateurs](/fr/rdm/windows/user-groups-based-access-control/) ou les groupes de sécurité (anciens).  
+
+{% snippet icon.badgeWarning %}
+La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
+{% endsnippet %}  
 
 Le droit ***Ajouter*** affiche également l'option ***Ajouter au coffre***. Cela doit être activé pour que les utilisateurs puissent ajouter des entrées dans le coffre de la source de données.  
 ![Gestion des utilisateurs - Droits](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3424.png) 

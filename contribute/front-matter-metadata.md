@@ -1,4 +1,4 @@
-## How to manage the front matter metadata
+## Manage the front matter metadata
 
 We use metadata for discoverability of the content via search and for driving aspects of the site experience. In the case of Eleventy (11ty), global variables are managed in the front matter, which is located on line 1 of the file and is enclosed between `---` at the beginning and end.  
 

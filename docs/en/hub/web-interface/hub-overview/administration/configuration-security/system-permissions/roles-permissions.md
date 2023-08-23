@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Roles and permissions
-  description: Each role in {{ en.HUB }} has its own set of permissions.
+  description: Each role in {{ en.DHUB }} has its own set of permissions.
 ---
-Each ***Role*** in {{ en.HUB }} has its own set of ***Permissions***. Here is a table summarizing them:  
+Each ***Role*** in {{ en.DHUB }} has its own set of ***Permissions***. Here is a table summarizing them:  
 
 <table>
 	<tr>
@@ -431,7 +431,7 @@ Temporary access approver
 
 ## Sensitive information permissions 
 
-In {{ en.HUB }}, all sensitive information is hidden by default. Some can be viewed by anyone that has access to the entry by clicking on the eye icon, and others require ***View sensitive*** or ***View password*** permissions to be viewed.  
+In {{ en.DHUB }}, all sensitive information is hidden by default. Some can be viewed by anyone that has access to the entry by clicking on the eye icon, and others require ***View sensitive*** or ***View password*** permissions to be viewed.  
 
 The ***View sensitive*** permission is granted to ***Reader***, ***Operator***, ***Contributor***, and ***Manager*** roles, while the ***Contributor*** or ***Manager*** roles are required for the ***View password*** permission. Therefore, even if passwords are indeed sensitive information, you will not be able to view them with the ***View sensitive*** permission alone.  
 

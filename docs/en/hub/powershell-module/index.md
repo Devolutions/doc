@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: PowerShell Module
-  description: The {{ en.PS }} module is a way to access, create, update, and remove elements in your {{ en.HUBB }}. This will help you to automate some operations/scripts.
+  description: The {{ en.PS }} module is a way to access, create, update, and remove elements in your {{ en.DHUBB }}. This will help you to automate some operations/scripts.
   keywords:
   - PowerShell
   order: 40
 ---
-The {{ en.PS }} module is a way to access, create, update, and remove elements in your {{ en.HUBB }}. This will help you to automate some operations/scripts. After you install the {{ en.PS }} module, you will be ready to use the module and connect to your {{ en.HUBB }}.  
+The {{ en.PS }} module is a way to access, create, update, and remove elements in your {{ en.DHUBB }}. This will help you to automate some operations/scripts. After you install the {{ en.PS }} module, you will be ready to use the module and connect to your {{ en.DHUBB }}.  
 
 ### Prerequisites 
 
@@ -18,7 +18,7 @@ The {{ en.PS }} module is a way to access, create, update, and remove elements i
 
 ## Tutorials 
 
-### Connecting to Your {{ en.HUBB }} 
+### Connecting to Your {{ en.DHUBB }} 
 
 {% snippet icon.badgeHelp %} 
 For the full list of available commands, see [PowerShell Commands](/hub/powershell-module/powershell-commands/). 
@@ -34,7 +34,7 @@ For the full list of available commands, see [PowerShell Commands](/hub/powershe
 Other installation options can be found in the [PowerShell Gallery](https://www.powershellgallery.com/packages/devolutions.powershell/). 
 {% endsnippet %}
  
-2. Connect to your {{ en.HUBB }} using the command below. If you do not see an error, it means you are connected to your {{ en.HUBB }}. 
+2. Connect to your {{ en.DHUBB }} using the command below. If you do not see an error, it means you are connected to your {{ en.DHUBB }}. 
 
 `Connect-HubAccount -Url https<area>://yourhub.devolutions.app/ -ApplicationSecret [YOUR_APPLICATION_SECRET] -ApplicationKey [YOUR_APPLICATION_KEY]` 
 
@@ -57,9 +57,9 @@ If you have more than one entry, you will see an array of entries.
  
 ![Get-HubEntry Command](https://webdevolutions.azureedge.net/docs/en/hub/Hub4064.png) 
 
-3. To view specific information, you can put the {{ en.HUBB }} command return to a variable and retrieve what you need, like the connection ID in this example:  
-![{{ en.HUBB }} Command Return Variable](https://webdevolutions.azureedge.net/docs/en/hub/Hub4065.png) 
+3. To view specific information, you can put the {{ en.DHUBB }} command return to a variable and retrieve what you need, like the connection ID in this example:  
+![{{ en.DHUBB }} Command Return Variable](https://webdevolutions.azureedge.net/docs/en/hub/Hub4065.png) 
 1. To edit this entry, you can change the object and update it with the `Set-HubEntry` command. 
 ![Set-HubEntry Command](https://webdevolutions.azureedge.net/docs/en/hub/Hub4066.png) 
 
-At any moment, you can validate in your web version of {{ en.HUBB }} that the changes have been made. 
+At any moment, you can validate in your web version of {{ en.DHUBB }} that the changes have been made. 

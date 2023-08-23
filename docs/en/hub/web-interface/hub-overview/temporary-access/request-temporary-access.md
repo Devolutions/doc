@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Request temporary access to an entry in {{ en.HUBB }}
+  title: Request temporary access to an entry in {{ en.DHUBB }}
   order: 10
   description: The Temporary Access feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request.  
 ---
@@ -10,7 +10,7 @@ eleventyComputed:
 {% snippet icon.badgeNotice %} 
 This video includes information pertaining to both requesters and approvers. A user wanting to request temporary access to an entry may find this visual aid useful, but watching the video is not essential since all the steps are described in this topic.  
 
-To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.HUBB }}](/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/). 
+To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request.  
@@ -44,7 +44,7 @@ You now have to wait for the approver to respond to your request. You will be no
 
 ## Response to your request 
 
-If your request is approved, your email will have a button at the bottom that will bring you directly to your entry in {{ en.HUBB }}. It is also possible to manually go to your entry.  
+If your request is approved, your email will have a button at the bottom that will bring you directly to your entry in {{ en.DHUBB }}. It is also possible to manually go to your entry.  
 ![Confirmation email](https://webdevolutions.azureedge.net/docs/en/hub/Hub2022.png)  
 Once you are on the entry in the {{ en.VLT }}, you will see a ***Temporary Access Request*** section near the top. A check mark validates that your request was approved. Next to the check mark is the ***Time remaining*** on your request. There is also a ***View Details*** option which is described in the next section.  
 

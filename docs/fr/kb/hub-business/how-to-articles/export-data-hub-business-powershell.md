@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Exporter des données de {{ fr.HUBB }} avec PowerShell
+  title: Exporter des données de {{ fr.DHUBB }} avec PowerShell
 ---
-Dans {{ fr.HUBB }}, vous pouvez exporter vos données au format Json ou Csv à l'aide d'un script [PowerShell](https://learn.microsoft.com/fr-ca/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2). Cette fonctionnalité est accessible via l'onglet ***Outils***, sous la section ***Exporter***.  
+Dans {{ fr.DHUBB }}, vous pouvez exporter vos données au format Json ou Csv à l'aide d'un script [PowerShell](https://learn.microsoft.com/fr-ca/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2). Cette fonctionnalité est accessible via l'onglet ***Outils***, sous la section ***Exporter***.  
 ![Exporter avec Powershell.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2076.png)
 ## Étapes 
 Avant d'exporter vos données, si ce n'est pas déjà fait, [créez un utilisateur d'application](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) et assignez-lui le rôle de ***Gestionnaire*** du coffre souhaité. 
@@ -49,7 +49,7 @@ $url
 		</td>
 		<td>
 
-Saisir l'URL de votre {{ fr.HUBB }}. Cette variable est automatiquement saisie, mais il est tout de même possible de la modifier. 
+Saisir l'URL de votre {{ fr.DHUBB }}. Cette variable est automatiquement saisie, mais il est tout de même possible de la modifier. 
 		</td>
 	</tr>
 	<tr>

@@ -13,5 +13,5 @@ This feature requires a {{ en.DVLS }} data source.
 In the User Management window when activating the Integrated Security checkbox, the password field will be disabled because the operating system will provide a cached copy automatically.  
 ![User Management - Integrated Security](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10391.png) 
 
-When using Integrated Security, you're currently running windows session must be from a user of that domain. 
+When using Integrated Security, you are currently running windows session must be from a user of that domain. 
 

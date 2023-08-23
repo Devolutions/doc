@@ -7,5 +7,5 @@ eleventyComputed:
 
 Set up your {{ en.DVLS }} with {{ en.DWS }} through one of the following guides:
 
-* [{{ en.DWS }} Desktop with {{ en.DVLS }}](/server/workspace/installation-setup/setup-desktop-devolutions-server/)
-* [{{ en.DWS }} Mobile with {{ en.DVLS }}](/server/workspace/installation-setup/setup-mobile-devolutions-server/)
+* [{{ en.DWSDESKTOP }} with {{ en.DVLS }}](/server/workspace/installation-setup/setup-desktop-devolutions-server/)
+* [{{ en.DWSMOBILE }} with {{ en.DVLS }}](/server/workspace/installation-setup/setup-mobile-devolutions-server/)

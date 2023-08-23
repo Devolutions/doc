@@ -45,7 +45,7 @@ This allow the user who has locked the session to use it and block the others
 Disabled 
 		</td>
 		<td>
-A disabled session can't be opened. It's mostly used when you don't want to delete it but avoid any unattended connection. It's also useful to disable an account for one of your former customer. 
+A disabled session cannot be opened. It is mostly used when you do not want to delete it but avoid any unattended connection. It is also useful to disable an account for one of your former customer. 
 		</td>
 	</tr>
 	<tr>
@@ -61,7 +61,7 @@ This status allows the session to be used, but displays a message to the user be
 Expired 
 		</td>
 		<td>
-An expired session can't be opened. It can be set manually or automatically if the session expiration date is set in his property. 
+An expired session cannot be opened. It can be set manually or automatically if the session expiration date is set in his property. 
 		</td>
 	</tr>
 </table>

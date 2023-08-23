@@ -8,7 +8,7 @@ title: Importieren
 Unterstützt werden eine Vielzahl von unterschiedlichen Importformaten. Für den Fall, dass wir das entsprechende Format oder das eines Drittanbieters nicht unterstützen, bieten wir einen Assistenten zum Importieren aus einer CSV-Datei.
 
 {% snippet icon.badgeInfo %} 
-Die Importfunktion ist nur aktiv, wenn der Benutzer über die erforderlichen ***Berechtigungen*** zum Importieren verfügt. Siehe [System Berechtigungen (EN)](/rdm/windows/commands/administration/settings/system-permissions).
+Die Importfunktion ist nur aktiv, wenn der Benutzer über die erforderlichen ***Berechtigungen*** zum Importieren verfügt. Siehe [System Berechtigungen](/de/rdm/windows/commands/administration/settings/system-permissions).
 {% endsnippet %}
  
 ![Datei – Importieren](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip11281.png) 

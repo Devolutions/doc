@@ -11,7 +11,7 @@ To manage domain administrator accounts as privileged accounts in the PAM module
 
 1. Open the Active Directory Users and Computers console.
 1. Select the Organizational Unit (OU) in which the privileged accounts are located or a higher OU level to encompass all OUs the PAM Provider account should have the ability to rotate account's passwords.
-1. From the OU's context menu, select ***Delegate Control***  
+1. From the OU's context menu, select ***Delegate Control***.  
 ![!!KB8022.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8022.png)
 1. On the ***Welcome*** dialog, then click Next.  
 ![!!KB8023.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8023.png)
@@ -39,5 +39,5 @@ To manage domain administrator accounts as privileged accounts in the PAM module
 ![!!KB8031.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8031.png)  
 
 {% snippet icon.shieldInfo %}
-The password rotation feature will use the default built-in {{ en.DVLS }} password rules. To level-up the password rules to respect your domain password rules, create a password template in ***Administration - System Settings - Password Template*** Then set it as the default password template in ***Administration - System Settings Password Management - Password Template***
+The password rotation feature will use the default built-in {{ en.DVLS }} password rules. To level-up the password rules to respect your domain password rules, create a password template in ***Administration - System Settings - Password Template*** Then set it as the default password template in ***Administration - System Settings Password Management - Password Template***.
 {% endsnippet %}

@@ -3,7 +3,11 @@ title: Report Export
 ---
 The Export Reports is a way to execute and export reports through a command line. You can use this feature in a shortcut or in a batch file and use the Windows task scheduler to execute it.  
 
-You will be able to export Data Report, Inventory report as well as most of the reports found in our Generate Report list except for the Password Usage and Security Group. 
+You will be able to export Data Report, Inventory report as well as most of the reports found in our Generate Report list except for the Password Usage and Security Group (Legacy). 
+
+{% snippet icon.badgeWarning %}
+Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
+{% endsnippet %}  
 
 {% snippet icon.badgeInfo %} 
 You must have the rights to run report in {{ en.RDM }} to use this feature. 

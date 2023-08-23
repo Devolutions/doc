@@ -2,6 +2,7 @@
 eleventyComputed:
   title: Première connexion avec {{ fr.DWL }}
   order: 40
+  status: Topic available in German language
 ---
 ### Première connexion avec {{ fr.DWL }} 
 

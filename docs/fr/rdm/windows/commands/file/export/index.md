@@ -39,7 +39,7 @@ Exporter un coffre dans un format de fichier .json. Vous pouvez également inclu
 
 ### Exporter la liste de tous les hôtes (.csv) 
 
-Exporter une simple liste d'hôtes en format .csv. Vous serez invité à voir si vous souhaitez que l'exportation soit un peu plus détaillée et inclure les informations suivantes : hôte, description, nom d'affichage, groupe, groupe de sécurité. 
+Exporter une simple liste d'hôtes en format .csv. Vous serez invité à voir si vous souhaitez que l'exportation soit un peu plus détaillée et inclure les informations suivantes : hôte, description, nom d'affichage, groupe, groupe d'utilisateur. 
 
 ### Exporter le coffre (.csv) 
 

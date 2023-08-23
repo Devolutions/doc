@@ -19,6 +19,24 @@ A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first
 1. Disable the ***Enable legacy recording server*** option.
 1. Click ***Save***.  
 ![Save](https://webdevolutions.azureedge.net/docs/en/kb/KB0131.png)
+1. In {{ en.RDM }}, go into the ***Properties*** – ***Security*** – ***Session Recording*** – ***Session Recording*** section of supported entry types;
+    * Apple Remote Desktop
+    * Azure Blob Storage
+    * Chrome
+    * FTP
+    * Google Drive
+    * RDP
+    * S3
+    * SCP
+    * SFTP
+    * SSH Shell
+    * Telnet
+    * VNC
+    * WebDav
+1. Set the ***Mode*** to ***Required***.
+1. Set the ***Recording*** to ***Remote***.
+![Session Recording](https://webdevolutions.azureedge.net/docs/en/kb/KB0132.png)
+1. Click ***OK*** to save the changes and close the window.
 
 ## {{ en.DVLSCONSOLE }} installation
 {% snippet icon.badgeCaution %}

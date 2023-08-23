@@ -1,7 +1,7 @@
 ---
 title: Unable to Import Azure AD Users or Groups
 ---
-It's possible that the Azure AD cache stored in {{ en.DVLS }} is not properly loaded. Here are the steps to troubleshoot this problem.
+It is possible that the Azure AD cache stored in {{ en.DVLS }} is not properly loaded. Here are the steps to troubleshoot this problem.
 
 {% snippet icon.badgeCaution %}
 If you just activated the Microsoft Authentication option, it may take a while (about an hour) for the cache to load before being able to import users and user groups.
@@ -23,6 +23,6 @@ The process may take some time depending on the number of groups and users in Az
 5. Once completed, try to import a user or a group.
 6. On success, adapt the refresh rate in ***Administration - Server Settings - Authentication - Microsoft Authentication - Microsoft Authentication Users and User Groups Cache*** to allow enough time to completely refresh the AAD cache.  
 ![!!KB5014.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5014.png)
-1. Back in the {{ en.DVLSCONSOLE }}, go in the ***Companions*** to start the ***Scheduler Service***  
+1. Back in the {{ en.DVLSCONSOLE }}, go in the ***Companions*** to start the ***Scheduler Service***.  
 ![!!KB5015.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5015.png)
 1. On the {{ en.DVLS }} web interface, go in ***Administration - Server Settings - Logging*** and disable the ***Log debug information*** option.

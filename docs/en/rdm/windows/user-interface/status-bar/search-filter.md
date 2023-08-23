@@ -16,7 +16,7 @@ The filter expression is matched against fields as selected in the filter option
 * Contact Information (Name, Email, Phone number, etc.). 
 * Hardware Information (Serial number, Manufacturer, etc.). 
 
-It's possible to exclude results by choosing to display entries that match certain criteria:  
+It is possible to exclude results by choosing to display entries that match certain criteria:  
 
 * Session types (credentials, script tools, VPN, etc.) 
 * If the session is marked as a ***Favorites*** 
@@ -29,7 +29,7 @@ The Search Options offers the chance to customize your search, such as including
 
 ### Keyboard Shortcut 
 
-Use the keyboard shortcut Ctrl+F to quickly have access to the Search/Filter control. This can be disabled in ***File - Options - User Interface - Keyboard.***  
+Use the keyboard shortcut Ctrl+F to quickly have access to the Search/Filter control. This can be disabled in ***File - Options - User Interface - Keyboard.***.  
 
 You can set the focus back on the ***{{ en.NPANE }}*** by using the keyboard shortcut Ctrl+L, this also can be disabled in the options. 
 

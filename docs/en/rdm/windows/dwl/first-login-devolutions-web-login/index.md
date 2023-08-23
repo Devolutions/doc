@@ -2,6 +2,7 @@
 eleventyComputed:
   title: First Login with {{ en.DWL }}
   order: 40
+  status: Topic available in German language
 ---
 Follow these steps to connect {{ en.RDM }} to the {{ en.DWL }} extension. You will be prompted to pair the two applications.  
 

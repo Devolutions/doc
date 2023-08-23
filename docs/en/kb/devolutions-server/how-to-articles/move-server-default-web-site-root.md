@@ -32,7 +32,7 @@ The following guide explains how to move the {{ en.DVLS }} web application on th
 1. Select the {{ en.DVLS }} Application pool.
 1. Remove the %SystemDrive% environment variable from the path and set it with c: instead as the {{ en.DVLSCONSOLE }} cannot access the environment variables.  
 ![!!KB4152.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4152.png)
-1. Before starting the Default Web Site, it is possible to rename it. But it's not mandatory.  
+1. Before starting the Default Web Site, it is possible to rename it. But it is not mandatory.  
 ![!!KB4153.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4153.png)
 1. Start the Default Web Site and the {{ en.DVLS }} application pool.
 1. Browse to the web site and it should load the {{ en.DVLS }} login page like the following screen capture.  

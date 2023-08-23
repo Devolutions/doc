@@ -30,7 +30,7 @@ For security reasons, only current administrators can be set as owners.
 
 ![Edit](https://webdevolutions.azureedge.net/docs/en/hub/Hub2274.png) 
 
-When editing a user, you can add a short description of the user, their roles and responsibilities, etc. You can also change some of what they are able to do with the {{ en.HUB }}.  
+When editing a user, you can add a short description of the user, their roles and responsibilities, etc. You can also change some of what they are able to do within the hub.  
 
 In the ***User groups*** tab, you can assign them to one or more user groups with defined permissions and access.
 
@@ -50,7 +50,7 @@ DESCRIPTION
 Is enabled
 		</td>
 		<td>
-Enables the user in the {{ en.HUB }}.
+Enables the user in the hub.
 		</td>
 	</tr>
 	<tr>
@@ -58,7 +58,7 @@ Enables the user in the {{ en.HUB }}.
 Enable {{ en.DWL }}
 		</td>
 		<td>
-Allows the user to use the {{ en.HUB }} with our {{ en.DWL }} browser extension.
+Allows the user to use the hub with our {{ en.DWL }} browser extension.
 		</td>
 	</tr>
 	<tr>
@@ -66,7 +66,7 @@ Allows the user to use the {{ en.HUB }} with our {{ en.DWL }} browser extension.
 Enable {{ en.DWS }}
 		</td>
 		<td>
-Allows the user to use the {{ en.HUB }} with our {{ en.DWS }} {{ en.CTOOL }}.
+Allows the user to use the hub with our {{ en.DWS }} {{ en.CTOOL }}.
 		</td>
 	</tr>
 	<tr>
@@ -74,7 +74,7 @@ Allows the user to use the {{ en.HUB }} with our {{ en.DWS }} {{ en.CTOOL }}.
 Allow offline in {{ en.RDM }} 
 		</td>
 		<td>
-Allows the user to use the {{ en.HUB }} as a data source in offline mode in {{ en.RDM }}.
+Allows the user to use the hub as a data source in offline mode in {{ en.RDM }}.
 		</td>
 	</tr>
 	<tr>
@@ -82,7 +82,7 @@ Allows the user to use the {{ en.HUB }} as a data source in offline mode in {{ e
 Is administrator
 		</td>
 		<td>
-Sets the user as an administrator of the {{ en.HUB }}. This option cannot be changed if the user is the owner of the {{ en.HUB }} (as seen in the image above).
+Sets the user as an administrator of the hub. This option cannot be changed if the user is the owner of the hub (as seen in the image above).
 		</td>
 	</tr>
 	<tr>
@@ -108,16 +108,16 @@ Select the user's usage profile between <b><i>IT professional</i></b>, <b><i>Bus
 
 ![Delete](https://webdevolutions.azureedge.net/docs/en/hub/Hub2275.png) 
 
-If you click on the ***Delete*** icon, you will be asked if you really want to delete this user from this {{ en.HUB }}. Click ***Delete*** to confirm.
+If you click on the ***Delete*** icon, you will be asked if you really want to delete this user from this hub. Click ***Delete*** to confirm.
 
 ![Delete confirmation](https://webdevolutions.azureedge.net/docs/en/hub/Hub2278.png) 
 
 {% snippet icon.shieldInfo %}
-For security reasons, it is not possible to delete yourself nor the owner of the {{ en.HUB }}.
+For security reasons, it is not possible to delete yourself nor the owner of the hub.
 {% endsnippet %}  
 
 ## Re-invite a user
 
 ![Re-invite user](https://webdevolutions.azureedge.net/docs/en/hub/Hub2276.png) 
 
-As soon as you click on this icon, the user is sent a new invitation email. They then have to open the {{ en.HUB }} via this invitation.
+As soon as you click on this icon, the user is sent a new invitation email. They then have to open the hub via this invitation.

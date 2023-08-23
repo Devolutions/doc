@@ -4,7 +4,7 @@ module.exports = function() {
     trees: ['rdm/windows'],
     tree: 'rdm/windows',
     searchTags: [
-      { 'label': 'Remote Desktop Manager', 'facet': 'doc' }
+      { 'label': 'Remote Desktop Manager (Windows)', 'facet': 'doc' }
     ]
   }
 }

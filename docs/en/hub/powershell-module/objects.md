@@ -43,7 +43,7 @@ Url
 String 
 		</td>
 		<td>
-This is the URL of the {{ en.HUB }} you want to connect to with your application user. 
+This is the URL of the hub you want to connect to with your application user. 
 		</td>
 	</tr>
 	<tr>
@@ -54,7 +54,7 @@ ApplicationKey
 String 
 		</td>
 		<td>
-These are the credentials that you will need to connect to {{ en.HUB }}. These are available when an application user is created. 
+These are the credentials that you will need to connect to {{ en.DHUB }}. These are available when an application user is created. 
 		</td>
 	</tr>
 	<tr>
@@ -65,7 +65,7 @@ ApplicationSecret
 String 
 		</td>
 		<td>
-These are the credentials that you will need to connect to {{ en.HUB }}. These are available when an application user is created. 
+These are the credentials that you will need to connect to {{ en.DHUB }}. These are available when an application user is created. 
 		</td>
 	</tr>
 </table>
@@ -91,7 +91,7 @@ AllowUserVault
 Boolean 
 		</td>
 		<td>
-Flag that handle if you want to allow {{ en.UVLT }} in {{ en.HUB }}. 
+Flag that handles if you want to allow the {{ en.UVLT }} in {{ en.DHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -124,7 +124,7 @@ DisableReason
 Enum(HubDisableReason) 
 		</td>
 		<td>
-ReadOnly - Enum that shows what is the reason of the disabled {{ en.HUB }}. 
+ReadOnly - Enum that shows the reason for the disabled hub. 
 		</td>
 	</tr>
 	<tr>
@@ -190,7 +190,7 @@ NetworkFilters
 Array of Object(NetworkFilter) 
 		</td>
 		<td>
-Array of object NetworkFilter that handles IpAdress filtering to {{ en.HUB }}. 
+Array of object NetworkFilter that handles IpAdress filtering to {{ en.DHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -223,7 +223,7 @@ PasswordTemplateId
 Guid 
 		</td>
 		<td>
-ID of a password template you want to set and activate in {{ en.HUB }}. 
+ID of a password template you want to set and activate in {{ en.DHUB }}. 
 		</td>
 	</tr>
 	<tr>
@@ -294,7 +294,7 @@ CanAccessOffline
 Boolean 
 		</td>
 		<td>
-Flag that handles if users can access {{ en.HUB }} offline in {{ en.RDM }}. 
+Flag that handles if users can access {{ en.DHUB }} offline in {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>

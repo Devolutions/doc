@@ -19,7 +19,7 @@ DESCRIPTION
 Send temporary password by email
 		</td>
 		<td>
-Select how the temporary password is sent to your users when creating their {{ en.DA }} from an invite in {{ en.HUBB }}.
+Select how the temporary password is sent to your users when creating their {{ en.DA }} from an invite in {{ en.DHUBB }}.
 
 * ***Ask***: When creating a new {{ en.DA }}, a prompt will appear to send the user's temporary password by email or not.  
 * ***Send***: When creating a new {{ en.DA }}, users will receive their temporary passwords by email.  

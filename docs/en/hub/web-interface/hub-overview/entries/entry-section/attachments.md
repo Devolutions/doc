@@ -1,7 +1,7 @@
 ---
 title: Attachments
 ---
-Manage, view, and download file ***Attachments*** stored directly in {{ en.HUB }} for an entry.  
+Manage, view, and download file ***Attachments*** stored directly in {{ en.DHUB }} for an entry.  
 ![!!Hub4122.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4122.png) 
 
 ### Add an attachment 
@@ -14,4 +14,3 @@ Manage, view, and download file ***Attachments*** stored directly in {{ en.HUB }
 1. Optional: add a ***Password***. 
 1. Click ***Add*** to save. 
 ![!!Hub4121.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4121.png) 
-

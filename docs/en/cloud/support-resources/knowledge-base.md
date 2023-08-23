@@ -1,6 +1,5 @@
 ---
 title: Devolutions Knowledge Base
-order: 120
 description: The Devolutions User Experience team is proud to publish this knowledge base for our community of over 800k users!
 status: Topic available in German language
 keywords:
@@ -24,9 +23,11 @@ It is structured around our various products, as well as a few sub-categories.
 
 &nbsp; &nbsp;[{{ en.RDMMAC }}](/kb/remote-desktop-manager-macos/)
 
-&nbsp; &nbsp;[{{ en.RDM }} Mobile](/kb/remote-desktop-manager-mobile/)
+&nbsp; &nbsp;[{{ en.RDMMOBILE }}](/kb/remote-desktop-manager-mobile/)
 
 &nbsp; &nbsp;[{{ en.DVLS }}](/kb/devolutions-server/)
+
+&nbsp; &nbsp;[{{ en.DGW }}](/kb/devolutions-gateway/)
 
 &nbsp; &nbsp;[{{ en.DHUBB }}](/kb/hub-business/)
 

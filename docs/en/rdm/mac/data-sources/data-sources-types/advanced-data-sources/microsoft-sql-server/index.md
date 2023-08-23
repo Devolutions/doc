@@ -230,7 +230,7 @@ Use the data source in offline mode when the ping method does not respond.
 Disable lock 
 		</td>
 		<td>
-Disable the option to lock the data source directly. You can still lock the application but you won't be prompted for the database password if this option is disabled. 
+Disable the option to lock the data source directly. You can still lock the application but you will not be prompted for the database password if this option is disabled. 
 		</td>
 	</tr>
 </table>
@@ -405,10 +405,7 @@ Select the type of {{ en.UVLT }} to use. Select between:
 
 * Default: use the default {{ en.UVLT }}, which is stored in the database. 
 * None: disable the {{ en.UVLT }} for all users. 
-* {{ en.OD }}: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
+* {{ en.DOD }}: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
 		</td>
 	</tr>
 </table>
-
-
-

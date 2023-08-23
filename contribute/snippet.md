@@ -1,4 +1,4 @@
-## How to manage snippets in Markdown
+## Manage snippets in Markdown
 
 To generate a new snippet, use the following shortcode {% snippet %}{% endsnippet %}. Including an icon is entirely optional.  
 

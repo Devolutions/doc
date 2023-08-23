@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: Module PowerShell
-  description: Le module {{ fr.PS }} est un moyen d'accéder, de créer, de mettre à jour et de supprimer des éléments dans votre {{ fr.HUBB }}. Cela vous aidera à automatiser certains processus/scripts.
+  description: Le module {{ fr.PS }} est un moyen d'accéder, de créer, de mettre à jour et de supprimer des éléments dans votre {{ fr.DHUBB }}. Cela vous aidera à automatiser certains processus/scripts.
   keywords:
   - PowerShell
   order: 40
 ---
-Le module {{ fr.PS }} est un moyen d'accéder, de créer, de mettre à jour et de supprimer des éléments dans votre {{ fr.HUBB }}. Cela vous aidera à automatiser certains processus/scripts. Après avoir installé le module {{ fr.PS }}, vous serez prêt à utiliser le module et à vous connecter à votre {{ fr.HUBB }}.  
+Le module {{ fr.PS }} est un moyen d'accéder, de créer, de mettre à jour et de supprimer des éléments dans votre {{ fr.DHUBB }}. Cela vous aidera à automatiser certains processus/scripts. Après avoir installé le module {{ fr.PS }}, vous serez prêt à utiliser le module et à vous connecter à votre {{ fr.DHUBB }}.  
 
 ### Prérequis 
 
@@ -18,7 +18,7 @@ Le module {{ fr.PS }} est un moyen d'accéder, de créer, de mettre à jour et d
 
 ## Tutoriels 
 
-### Connexion à votre {{ fr.HUBB }} 
+### Connexion à votre {{ fr.DHUBB }} 
 
 {% snippet icon.badgeHelp %} 
 Pour obtenir la liste complète des commandes disponibles, consultez [Commandes PowerShell](/fr/hub/powershell-module/powershell-commands/). 
@@ -34,7 +34,7 @@ Pour obtenir la liste complète des commandes disponibles, consultez [Commandes 
 D'autres options d'installation se trouvent dans la [PowerShell Gallery](https://www.powershellgallery.com/packages/devolutions.powershell/). 
 {% endsnippet %}
  
-2. Se connecter au {{ fr.HUBB }} avec la commande suivante. Si vous ne voyez aucune erreur, cela signifie que vous êtes connecté à votre {{ fr.HUBB }}. 
+2. Se connecter au {{ fr.DHUBB }} avec la commande suivante. Si vous ne voyez aucune erreur, cela signifie que vous êtes connecté à votre {{ fr.DHUBB }}. 
 
 `Connect-HubAccount -Url https<area>://yourhub.devolutions.app/ -ApplicationSecret [YOUR_APPLICATION_SECRET] -ApplicationKey [YOUR_APPLICATION_KEY]`  
 
@@ -57,9 +57,9 @@ Si vous avez plus d'une entrée, vous verrez un groupe d'entrées.
  
 ![Commande Get-HubEntry](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4061.png) 
 
-3. Pour afficher des informations spécifiques, vous pouvez passer la commande de retour {{ fr.HUBB }} dans une variable et récupérer ce dont vous avez besoin, comme l'ID de connexion dans cet exemple :  
-![Commande de retour {{ fr.HUBB }} dans une variable](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4062.png)
+3. Pour afficher des informations spécifiques, vous pouvez passer la commande de retour {{ fr.DHUBB }} dans une variable et récupérer ce dont vous avez besoin, comme l'ID de connexion dans cet exemple :  
+![Commande de retour {{ fr.DHUBB }} dans une variable](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4062.png)
 1. Pour modifier cette entrée, vous pouvez modifier l'objet et le mettre à jour avec la commande `Set-HubEntry`.  
 ![Commande Set-HubEntry](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4063.png)
 
-À tout moment, vous pouvez valider dans votre version Web de {{ fr.HUBB }} que les modifications ont été effectuées. 
+À tout moment, vous pouvez valider dans votre version Web de {{ fr.DHUBB }} que les modifications ont été effectuées. 

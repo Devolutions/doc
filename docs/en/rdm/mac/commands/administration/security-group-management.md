@@ -1,6 +1,10 @@
 ---
-title: Security Group Management
+title: Security Group Management (Legacy)
 ---
+{% snippet icon.badgeWarning %}
+Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
+{% endsnippet %}  
+
 The Security Group Management is available from the menu ***Administration – Security Groups***.  
 
 Security groups are used to protect sessions from a subset of system users. Assign sessions to security groups then control who has access and how much control they have on each security group.  
@@ -26,7 +30,7 @@ All sessions without security groups are considered public, meaning anyone with 
 
 Security groups are created from the menu ***Administration – Security Groups***.  
 
-{{ en.RDM }}'s security groups are container for sessions, not for users. Folders are closely tied with Security Groups, so there's an overlap in usage. The key points are:  
+{{ en.RDM }}'s security groups are container for sessions, not for users. Folders are closely tied with Security Groups, so there is an overlap in usage. The key points are:  
 
 * Security is inherited: child items and folders are covered by a parent folder's security group. 
 * Security is additive: a security group added to a sub folder does not override the parent, it adds to it. 

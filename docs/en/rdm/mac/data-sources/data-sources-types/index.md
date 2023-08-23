@@ -36,7 +36,7 @@ PROS AND CONS
 		<td>
 {{ en.RDMMAC }} uses {{ en.DOD }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
 
-For more information, please consult our [{{ en.OD }}](/cloud/rdm-online-services/online-drive/) topic. 
+For more information, please consult our [{{ en.DOD }}](/cloud/rdm-online-services/online-drive/) topic. 
 		</td>
 		<td>
 Pros: 
@@ -169,7 +169,7 @@ Cons:
 
 Note that there are different subscription levels for this product.  
 
-For more information, please see the [products features and highlights](https://devolutions.net/password-hub) and consult our [{{ en.HUBB }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/) topic. 
+For more information, please see the [products features and highlights](https://devolutions.net/password-hub) and consult our [{{ en.DHUBB }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/) topic. 
 		</td>
 		<td>
 Pros: 
@@ -195,7 +195,7 @@ Cons:
 		<td>
 {{ en.RDMMAC }} uses {{ en.DHUBP }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
 
-For more information, please consult our [{{ en.HUBP }}](/rdm/mac/data-sources/data-sources-types/hub-personal/) topic. 
+For more information, please consult our [{{ en.DHUBP }}](/rdm/mac/data-sources/data-sources-types/hub-personal/) topic. 
 
 		</td>
 		<td>

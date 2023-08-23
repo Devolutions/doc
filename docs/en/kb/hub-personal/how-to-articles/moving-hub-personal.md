@@ -1,17 +1,17 @@
 ---
 eleventyComputed:
-  title: Moving to {{ en.HUBP }}
+  title: Moving to {{ en.DHUBP }}
 ---
-The {{ en.HUBP }} is for individual users who want to use a secure personal password manager. Here are the steps for moving your data to {{ en.HUBP }} in {{ en.RDM }}.
+The {{ en.DHUBP }} is for individual users who want to use a secure personal password manager. Here are the steps for moving your data to {{ en.DHUBP }} in {{ en.RDM }}.
 
 {% snippet icon.badgeHelp %}
-Get started with creating a [{{ en.HUBP }}](/hub/getting-started/create-hub/hub-personal/).
+Get started with creating a [{{ en.DHUBP }}](/hub/getting-started/create-hub/hub-personal/).
 {% endsnippet %}  
 
-### Add {{ en.HUBP }} in {{ en.RDM }} as a Data Source
+### Add {{ en.DHUBP }} in {{ en.RDM }} as a Data Source
 1. In {{ en.RDM }}, go to ***File - Data Sources*** and click on the plus sign to ***Add a New Data Source***.
-1. Select the ***{{ en.HUBP }}*** data source and click ***OK***.  
-![{{ en.HUBP }}](https://webdevolutions.azureedge.net/docs/en/kb/KB4823.png)
+1. Select the ***{{ en.DHUBP }}*** data source and click ***OK***.  
+![{{ en.DHUBP }}](https://webdevolutions.azureedge.net/docs/en/kb/KB4823.png)
 1. Fill in the fields in the ***General*** section and click ***OK*** when done.
     1. ***Name***: Name of the data source.
     1. ***Username***: Email address.  

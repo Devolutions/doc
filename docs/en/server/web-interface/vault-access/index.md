@@ -12,7 +12,7 @@ This feature is also available for [PAM](/server/privileged-access-management) v
 {% endsnippet %}  
 
 {% snippet icon.badgeInfo %}
-Users can be set as vault owners to manage a specific vault without having access to data source administration. They are set in ***Vault Management*** when editing or creating a vault in {{ en.DVLS }}. For ***Entreprise*** data sources ({{ en.DVLS }} and {{ en.HUBB }}), they can also be configured in their respective web interfaces.
+Users can be set as vault owners to manage a specific vault without having access to data source administration. They are set in ***Vault Management*** when editing or creating a vault in {{ en.DVLS }}. For ***Entreprise*** data sources ({{ en.DVLS }} and {{ en.DHUBB }}), they can also be configured in their respective web interfaces.
 {% endsnippet %}
 
 Vault visibility is of great importance in {{ en.DVLS }}, as access requests can only be performed for public vaults and not private ones.

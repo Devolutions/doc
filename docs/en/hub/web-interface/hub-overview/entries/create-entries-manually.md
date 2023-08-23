@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Create entries manually
-  description: Create entries manually and save your data in {{ en.HUBB }}.
+  description: Create entries manually and save your data in {{ en.DHUBB }}.
 ---
-Create entries manually and save your data in {{ en.HUBB }}.
+Create entries manually and save your data in {{ en.DHUBB }}.
 
 ## Create an entry
 

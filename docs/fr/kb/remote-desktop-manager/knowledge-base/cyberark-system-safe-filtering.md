@@ -26,4 +26,3 @@ PasswordManagerShared
 PasswordManager_Pending  
 
 Si vous croyez que cette liste doit être modifiée, veuillez nous en informer à l'adresse [service@devolutions.net](mailto:service@devolutions.net). 
-

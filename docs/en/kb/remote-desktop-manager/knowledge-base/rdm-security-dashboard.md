@@ -122,8 +122,8 @@ HTTPS is used to protect the communication between the client and the server hos
 Mitigation
 		</td>
 		<td>
-Configure a TLS certificate on the server and set the data source URL to start with https://
-See <a href="/kb/devolutions-server/how-to-articles/configure-ssl/" target="_blank">Configure SSL</a>
+Configure a TLS certificate on the server and set the data source URL to start with https://.
+See <a href="/kb/devolutions-server/how-to-articles/configure-ssl/" target="_blank">Configure SSL</a>.
 		</td>
 	</tr>
 </table>
@@ -136,7 +136,7 @@ See <a href="/kb/devolutions-server/how-to-articles/configure-ssl/" target="_bla
 Description
 		</td>
 		<td>
-Security groups have been replaced by the permissions system. Legacy security is deprecated and will be removed in a future version.
+Legacy security has been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -144,7 +144,7 @@ Security groups have been replaced by the permissions system. Legacy security is
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - Security Settings,  uncheck Use legacy security
+In <i><b>Administration – System Settings – Vault Management – Security Settings – Security</b></i>, disable <i><b>Use legacy security</b></i>.See <a href="/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Migrate from legacy security to permissions in {{ en.RDM }}</a>.
 		</td>
 	</tr>
 </table>

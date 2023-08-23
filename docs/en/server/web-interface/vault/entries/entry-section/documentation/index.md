@@ -6,11 +6,11 @@ description: The Documentation feature allows to store information regarding ent
 The ***Documentation*** feature allows to store information regarding entries.
 
 {% snippet icon.badgeInfo %} 
-This feature is also available with {{ en.HUBB }}, {{ en.HUBP }}, and SQL Server data sources.  
+This feature is also available with {{ en.DHUBB }}, {{ en.DHUBP }}, and SQL Server data sources.  
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.HUBB }}, and {{ en.HUBP }} data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 
+The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.DHUBB }}, and {{ en.DHUBP }} data sources. If you are using data sources like SQL Server or Azure SQL, the ***Documentation*** feature is not encrypted. 
 {% endsnippet %}
 
 ### Add a new page 

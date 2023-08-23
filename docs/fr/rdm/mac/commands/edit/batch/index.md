@@ -132,6 +132,9 @@ Les ***Paramètres spécifiques à l'utilisateur*** peuvent être modifiés dans
 
 ### Modifier les entrées (groupe de sécurité) 
 
+{% snippet icon.badgeWarning %}
+La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
+{% endsnippet %}  
+
 Utiliser l'option ***Modifier les entrées (groupe de sécurité)*** pour appliquer un nouveau groupe de sécurité sur plusieurs sessions. 
 ![Modifier les entrées (groupe de sécurité)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0100.png) 
-

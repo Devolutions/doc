@@ -18,7 +18,7 @@ if (autocompleteElement) {
           getTag({ item }) {
             return item;
           },
-        },
+        }
       ];
     }
   });
@@ -58,6 +58,8 @@ if (autocompleteElement) {
       .join(` ${operator} `)
   }
 
+  
+
   autocomplete({
     container: '#algolia-autocomplete',
     placeholder: autocompleteElement.dataset.placeholder,
@@ -68,7 +70,9 @@ if (autocompleteElement) {
       const tagsByFacet = groupBy(
         state.context.tagsPlugin.tags,
         (tag) => tag.facet
+        
       );
+      
 
       return [
         {
@@ -87,7 +91,7 @@ if (autocompleteElement) {
                   facet: 'doc',
                   params: {
                     facetQuery: query,
-                    maxFacetHits: 5,
+                    maxFacetHits: 6,
                     filters: mapToAlgoliaNegativeFilters(
                       state.context.tagsPlugin.tags,
                       ['doc']
@@ -96,7 +100,17 @@ if (autocompleteElement) {
                 }
               ],
               transformResponse({ facetHits }) {
-                return facetHits[0].map((hit) => ({ ...hit, facet: 'doc' }));
+                const order = ['Remote Desktop Manager (Windows)', 'Remote Desktop Manager (macOS)', 'Devolutions Server', 'Devolutions Hub', 'Knowledge Base', 'Cloud Services'];
+                const map = new Map();
+                order.forEach((x, i) => map.set(x, i));
+                return facetHits[0].map((hit) => ({ ...hit, facet: 'doc' })).sort((x, y) => {
+                  if (map.get(x.label) !== undefined && map.get(y.label) !== undefined) {
+                    return map.get(x.label) - map.get(y.label); 
+                  } else if (map.get(x.label) !== undefined) {
+                    return -1;
+                  }
+                  return 0;
+                });
               }
             });
           },
@@ -112,7 +126,7 @@ if (autocompleteElement) {
                 <div class="aa-ItemContent">
                   <div class="aa-ItemContentBody">
                     <div class="aa-ItemContentTitle">
-                      ${components.Highlight({ hit: item, attribute: 'label' })}
+                      ${components.Highlight({ hit: item, attribute: 'label' })}               
                     </div>
                   </div>
                 </div>
@@ -139,6 +153,7 @@ if (autocompleteElement) {
         {
           sourceId: 'hits',
           getItems({ query }) {
+          
             if (query != "" || state.context.tagsPlugin.tags.length > 0) {
               return getAlgoliaResults({
                 searchClient,

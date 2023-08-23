@@ -71,7 +71,7 @@ If you get this message error: Unable to connect to the database! Login failed f
  
 4. Click on ***Configure*** to set the [Azure App Settings](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/) and enter the application ID from the Azure Active Directory App Registration and the corresponding Redirect URI. 
 {% snippet icon.badgeCaution %} 
-When you receive this error: ***AADSTS70001 - Application with Identifier was not found in the directory…***  
+When you receive this error: ***AADSTS70001 - Application with Identifier was not found in the directory…***.  
 
 Validate that your ***Application ID*** in {{ en.RDM }} is identical to the ***App Registration's Application (client) ID*** (step 11 of [Create an Azure Active Directory App Registration](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/)). 
 {% endsnippet %}

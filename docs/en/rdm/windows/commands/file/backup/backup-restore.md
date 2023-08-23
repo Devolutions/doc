@@ -2,7 +2,7 @@
 title: Backup Restore
 ---
 {% snippet icon.badgeCaution %} 
-Before being able to restore a backup, you MUST create an empty data source and define the backup name before being able to use it. You need to c reate a new SQLite, XML or {{ en.OD }} data source in ***File – Data Sources***. 
+Before being able to restore a backup, you MUST create an empty data source and define the backup name before being able to use it. You need to create a new SQLite, XML, or {{ en.DOD }} data source in ***File – Data Sources***. 
 {% endsnippet %}
  
 At some point, you may need to restore a backup of your [{{ en.DOD }}](/rdm/windows/data-sources/data-sources-types/online-drive/), [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) or [XML](/rdm/windows/data-sources/data-sources-types/xml/) data sources. The restore option is accessible from the menu File – Backup – Restore. 

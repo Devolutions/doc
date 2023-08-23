@@ -24,7 +24,7 @@ This method supports more sessions if there is an available {{ en.DGW }} license
 It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DVLS }}.
 {% endsnippet %}  
 
-4. If default values don't work for your environment, enter the desired settings.
+4. If default values do not work for your environment, enter the desired settings.
     1. ***HTTP Listener***: HTTP(s) port to reach the Gateway. (7171 is default)
     1. ***TCP Listener***: port used for the RDP sessions. (8181 is default)
 1. Click ***Ok***.  
@@ -36,7 +36,7 @@ It is possible to download an [.msi](https://devolutions.net/gateway/download) f
 ![Ping](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0007.png)
 
 ## Steps for Standalone Installation
-Installing by using the ***Standalone*** method will allow to install {{ en.DGW }} on a separate server than {{ en.DVLS }}. It could be for performance purposes or access networks that {{ en.DVLS }} can't access. Many {{ en.DGW }} can be used by {{ en.DVLS }}, but only one {{ en.DGW }} can be installed on a machine.
+Installing by using the ***Standalone*** method will allow to install {{ en.DGW }} on a separate server than {{ en.DVLS }}. It could be for performance purposes or access networks that {{ en.DVLS }} cannot access. Many {{ en.DGW }} can be used by {{ en.DVLS }}, but only one {{ en.DGW }} can be installed on a machine.
 1. From the {{ en.DVLSCONSOLE }}, click on the ***Companions*** tab.  
 ![Companions Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0018.png)
 1. In the {{ en.DGW }} section, click on ***Install***.

@@ -1,5 +1,6 @@
 ---
 title: System Permissions
+status: Topic available in German language
 ---
 The ***System Permissions*** allows to grant some administrative permissions to standard users without making them administrators. The ***Default*** setting inherits the permission set on the user or user groups. For more information about permissions, consult General Security.  
 
@@ -191,11 +192,11 @@ Allow users/user groups to access the user management.
 	</tr>
 	<tr>
 		<td>
-Security Group 
+Security Group (Legacy)
 		</td>
 		<td>
-Allow users/user groups to access the security groups management. 
-		</td>
+Allow users/user groups to access the security groups management.  
+Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See <a href="/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/" target="_blank">Migrate from security groups (legacy) to user groups</a>.
 	</tr>
 	<tr>
 		<td>

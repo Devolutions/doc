@@ -1,9 +1,9 @@
 ---
-title: Edit Hosts File
+title: Edit hosts file
 ---
 IT technicians, as well as web developers, often need to edit the Windows hosts file. This requires starting your favorite editor using elevated privileges (obviously only if UAC is active), browsing for the hosts file which is deep in the windows folder and enclosed in a hidden folder on top of that.
 
-For your own machine, you can create a shortcut to achieve this goal, but experience tells us that most people don't bother with it, ending up losing precious time when they must modify the hosts file.
+For your own machine, you can create a shortcut to achieve this goal, but experience tells us that most people do not bother with it, ending up losing precious time when they must modify the hosts file.
 
 What better tool than one that you use every day, which is already running in the notification area, to implement a solution with. If the machines you work on have the same setup, this will work for all of them.
 

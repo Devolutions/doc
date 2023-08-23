@@ -11,9 +11,9 @@ Before deploying this migration in your production environment, we recommend to 
 It is possible to efficiently migrate {{ en.DVLS }} Domain authentication to Microsoft authentication using the following steps. Some sections require to run PowerShell scripts or SQL statements. As those scripts may change according to the {{ en.DVLS }} version, please check our [GitHub RDMSamples-ps](https://github.com/Devolutions/RDMSamples-ps) repository to get them.
 ### Preparation phase
 * Ask all users to export their User Vaults (formerly know as Private Vault) for safety measure.
-* Have all AAD security groups created in Azure.  
+* Have all AAD groups created in Azure.  
 
-  * Make sure to not use commas as part of the AAD security group name.
+  * Make sure to not use commas as part of the AAD group name.
 * Have Azure Apps created for {{ en.DVLS }}.
 [Configure Microsoft authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/) in {{ en.DVLS }}.
 * Enable [Offline Mode](/rdm/windows/data-sources/offline-mode/) feature for the transition period (optional).  
@@ -33,7 +33,7 @@ It is possible to efficiently migrate {{ en.DVLS }} Domain authentication to Mic
 * Migrate all existing user accounts to Microsoft authentication UPN username format.  
 
   * We provide an SQL statement for this migration step. Please send an email to [service@devolutions.net](mailto:service@devolutions.net) to get it.
-* Migrate User groups (formerly known as Roles) to the new AAD security groups names.  
+* Migrate User groups (formerly known as Roles) to the new AAD group names.  
 
   * We provide a PowerShell script to update all permissions to use all newly named User groups. You can download the [script here](https://github.com/Devolutions/RDMSamples-ps/blob/main/module/security/SetPermissionsonFoldersInVault.ps1)
   * Manually update vaults access permissions to use the newly named User groups.

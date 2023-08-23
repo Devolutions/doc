@@ -35,7 +35,7 @@ Accès par le navigateur Web et [{{ fr.DWL }}](/fr/server/dwl/overview/)
 
 ## Gestion de sessions  
 
-Application cliente (Bureau ou mobile) 
+Application cliente (de bureau ou mobile) 
 		</td>
 	</tr>
 	<tr>

@@ -168,7 +168,7 @@ Indicate the prefer ping online. Select between:
 Auto go offline 
 		</td>
 		<td>
-If the ping online method doesn’t work it will automatically go offline. 
+If the ping online method does not work it will automatically go offline. 
 		</td>
 	</tr>
 	<tr>
@@ -215,7 +215,7 @@ Select the type of {{ en.UVLT }} to use. Select between:
 
 * Default: use the default {{ en.UVLT }} which is stored in the database. 
 * None: disable the {{ en.UVLT }} for all users. 
-* {{ en.OD }}: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
+* {{ en.DOD }}: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
 		</td>
 	</tr>
 </table>

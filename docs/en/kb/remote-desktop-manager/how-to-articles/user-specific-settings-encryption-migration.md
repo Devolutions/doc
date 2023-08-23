@@ -11,7 +11,7 @@ The ***User Specific Settings***, in {{ en.RDM }} 2022.2, are being migrated to 
 Options:
 
 * ***Yes***: Will delete the existing ***User Specific Settings*** and save a new encrypted version. This will prevent the user to utilize the ***User Specific Settings*** with an older version of {{ en.RDM }}  
-* ***No***: This option will save a new encrypted version of the ***User Specific Settings***, but will not delete the existing one. This will allow the user to keep on utilizing the previous ***User Specific Settings*** on an older version or on the {{ en.RDM }} mobile version who are not yet updated.  
+* ***No***: This option will save a new encrypted version of the ***User Specific Settings***, but will not delete the existing one. This will allow the user to keep on utilizing the previous ***User Specific Settings*** on an older version or on the {{ en.RDMMOBILE }} version who are not yet updated.  
 
 2. While connecting, {{ en.RDM }} detects ***User Specific Settings*** that are encrypted from an older {{ en.RDM }} version.  
 ![!!KB4948.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4948.png)  

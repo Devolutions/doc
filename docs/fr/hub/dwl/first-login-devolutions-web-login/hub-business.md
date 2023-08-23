@@ -1,30 +1,30 @@
 ---
 eleventyComputed:
-  title: Première connexion à {{ fr.HUBB }} avec {{ fr.DWL }}
+  title: Première connexion à {{ fr.DHUBB }} avec {{ fr.DWL }}
 ---
 {% youtube 'De9ySexT4F0' %}  
 
 ### Première connexion avec {{ fr.DWL }} 
 
-Suivez ces étapes pour connecter {{ fr.HUBB }} à l'extension {{ fr.DWL }}.  
+Suivez ces étapes pour connecter {{ fr.DHUBB }} à l'extension {{ fr.DWL }}.  
 
 1. Cliquer sur l'extension {{ fr.DWL }} dans la barre d'outils de votre navigateur.  
 {% snippet icon.badgeNotice %} 
-Un accès à {{ fr.HUBB }} est requis pour continuer. 
+Un accès à {{ fr.DHUBB }} est requis pour continuer. 
 {% endsnippet %}
  
-2. Choisir ***{{ fr.HUBB }}*** dans la liste, puis cliquer sur ***Enregistrer***.  
+2. Choisir ***{{ fr.DHUBB }}*** dans la liste, puis cliquer sur ***Enregistrer***.  
 ![Première connexion](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4055.png) 
-1. Saisir l'adresse de votre {{ fr.HUBB }}, puis cliquer sur ***Enregistrer***.  
-![Adresse du serveur de {{ fr.HUBB }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4057.png) 
+1. Saisir l'adresse de votre {{ fr.DHUBB }}, puis cliquer sur ***Enregistrer***.  
+![Adresse du serveur de {{ fr.DHUBB }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4057.png) 
 1. ***Se connecter*** à votre {{ fr.DA }}.  
-![Connexion de {{ fr.HUBB }} au {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4056.png) 
+![Connexion de {{ fr.DHUBB }} au {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4056.png) 
 1. Entrer les identifiants de votre {{ fr.DA }} pour continuer.  
 ![Entrée des identifiants de {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4024.png) 
 1. Une fois terminé, un message confirmant votre connexion apparaîtra.  
 ![Connexion réussie au {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4053.png) 
-1. Cliquer sur l'icône dans la barre d'outils du navigateur Web pour valider que {{ fr.DWL }} est désormais connecté à {{ fr.HUBB }}.  
-![Association réussie de {{ fr.HUBB }} à {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4058.png) 
+1. Cliquer sur l'icône dans la barre d'outils du navigateur Web pour valider que {{ fr.DWL }} est désormais connecté à {{ fr.DHUBB }}.  
+![Association réussie de {{ fr.DHUBB }} à {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4058.png) 
 1. Pour sélectionner les coffres à synchroniser, cliquer sur l'onglet ***Coffres*** dans le ***Menu latéral***, puis cliquer sur le bouton ***Sélectionner des coffres à synchroniser***.  
 ![Onglet Coffres](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4059.png) 
 1. Cliquer sur ***Sélectionner tout*** ou cocher individuellement les coffres à synchroniser. La barre de ***Filtre*** peut être utile pour rechercher des coffres.  

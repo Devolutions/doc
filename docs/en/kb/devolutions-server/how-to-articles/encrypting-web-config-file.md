@@ -18,7 +18,7 @@ Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, a
 {% endsnippet %}
 
 {% snippet icon.shieldWarning %}
-Granting access to the ***NetFrameworkConfigurationKey*** container could be a security concern, therefore it is recommended to not grant this permission to ***Network Service*** or ***Local Service***
+Granting access to the ***NetFrameworkConfigurationKey*** container could be a security concern, therefore it is recommended to not grant this permission to ***Network Service*** or ***Local Service***.
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}

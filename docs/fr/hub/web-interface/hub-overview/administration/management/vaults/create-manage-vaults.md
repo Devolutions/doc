@@ -3,7 +3,7 @@ title: Créer et gérer des coffres
 keywords:
 - rôle
 ---
-Les ***Coffres*** permettent de partager des entrées avec des utilisateurs et des groupes d'utilisateurs de votre organisation dans {{ fr.HUBB }}.  
+Les ***Coffres*** permettent de partager des entrées avec des utilisateurs et des groupes d'utilisateurs de votre organisation dans {{ fr.DHUBB }}.  
 
 * [Créer un coffre](#créer-un-coffre)  
 * [Ajouter des permissions à un coffre](#ajouter-des-permissions-à-un-coffre)  

@@ -1,7 +1,7 @@
 ---
 title: Action
 ---
-You can create Local or Shared play List in {{ en.RDM }}. There's several methods to create or edit a Play List:  
+You can create Local or Shared play List in {{ en.RDM }}. There are several methods to create or edit a Play List:  
 
 * Create Play List by selecting entries in the ***{{ en.NPANE }}*** 
 * Create Play List with Opened Tabbed Sessions 
@@ -30,7 +30,7 @@ The {{ en.UVLT }} Play List is saved inside your {{ en.UVLT }} which is a user c
 
 ## Actions 
 
-### Create Play List by selecting entries in the ***{{ en.NPANE }}***  
+### Create Play List by selecting entries in the ***{{ en.NPANE }}***.  
 
 1. Select the entries for your Play List in your ***{{ en.NPANE }}*** using Cmd+click.  
 ![{{ en.NPANE }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10111.png) 
@@ -40,7 +40,7 @@ The {{ en.UVLT }} Play List is saved inside your {{ en.UVLT }} which is a user c
 ![Save Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10364.png) 
 1. Then click on Selected Entries in ***{{ en.NPANE }}***.  
 ![Selected Entries in ***{{ en.NPANE }}***](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10108.png) 
-1. You will notice that all your preselected entries from your ***{{ en.NPANE }}*** are already selected in the Play List Editor. Provide a name and a short description for your Play List and click OK  
+1. You will notice that all your preselected entries from your ***{{ en.NPANE }}*** are already selected in the Play List Editor. Provide a name and a short description for your Play List and click ***OK***.  
 ![Play List Editor](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10365.png) 
 
 {% snippet icon.badgeInfo %} 

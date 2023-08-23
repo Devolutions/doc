@@ -1,7 +1,7 @@
 ---
 title: Delete and Restore Vaults
 ---
-***Vaults*** can be deleted and restored by administrators in {{ en.HUBB }}.  
+***Vaults*** can be deleted and restored by administrators in {{ en.DHUBB }}.  
 
 * [Delete a vault](#delete-a-vault) 
 * [Restore a deleted vault](#restore-a-deleted-vault) 
@@ -21,4 +21,3 @@ title: Delete and Restore Vaults
 1. Change the filter ***Type*** to ***All*** and the ***Status*** to ***Deleted*** to view the list of all the deleted vaults.  
 ![!!Hub4103.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4103.png) 
 1. Locate your vault and click ***Restore***. 
-

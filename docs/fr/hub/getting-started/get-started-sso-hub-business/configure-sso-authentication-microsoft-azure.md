@@ -35,7 +35,7 @@ Ne pas fermer cette fenêtre de configuration, car les étapes suivantes indique
 ![Créer votre propre application](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2024.png) 
 1. Saisir le nom de la nouvelle application, puis cliquer sur ***Créer***. 
 {% snippet icon.badgeNotice %} 
-Il est suggéré d'inclure soit « Devolutions » ou « {{ fr.HUB }} » dans le nom. 
+Il est suggéré d'inclure soit « Devolutions » ou « Hub » dans le nom. 
 {% endsnippet %}
  
 ![Nom de l'application](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2025.png) 
@@ -88,7 +88,7 @@ Il est suggéré d'inclure soit « Devolutions » ou « {{ fr.HUB }} » dans l
 ![Certificats & secrets – Secrets client – Nouveau secret client](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2035.png) 
 1. Dans la fenêtre ***Ajouter un secret client***, saisir une ***Description*** (le nom de l'application d'entreprise, par exemple) et sélectionner une ***Date d'expiration*** pour ce secret client, conformément à vos meilleures pratiques de sécurité interne. 
 {% snippet icon.badgeCaution %} 
-Il est à noter que lorsque le secret client expire, personne ne pourra se connecter au {{ fr.HUB }} associé. Il faudra alors créer un nouveau secret client. Il est recommandé de se fixer un rappel de tâche avant la date d'expiration. 
+Il est à noter que lorsque le secret client expire, personne ne pourra se connecter au hub associé. Il faudra alors créer un nouveau secret client. Il est recommandé de se fixer un rappel de tâche avant la date d'expiration. 
 {% endsnippet %}
  
 ![Ajouter un secret client](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2036.png) 
@@ -184,7 +184,7 @@ Les groupes imbriqués ne sont pas supportés, ce qui signifie que le provisionn
 1. Sélectionner ***Approvisionnement*** dans le menu latéral gauche, puis cliquer sur ***Démarrer le provisionnement***.  
 ![Démarrer le provisionnement](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2052.png) 
 
-## Synchronisation entre Azure et {{ fr.HUB }} 
+## Synchronisation entre Azure et {{ fr.DHUB }} 
 
 **Dans {{ fr.DHUBB }}** 
 

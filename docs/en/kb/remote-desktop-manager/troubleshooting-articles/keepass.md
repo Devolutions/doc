@@ -7,7 +7,7 @@ You are prompted twice to open KeePass when connecting to a session.
 
 ### Solution 1
 
-In KeePass, click on ***Tools - Options***, go to the ***Advanced*** tab and uncheck ***Remember*** and ***Automatically open last used database on startup***
+In KeePass, click on ***Tools - Options***, go to the ***Advanced*** tab and uncheck ***Remember*** and ***Automatically open last used database on startup***.
 
 ### Problem 2
 
@@ -38,5 +38,5 @@ For this to work, you will need to have your ***Key Derivation function*** set t
     * Argon2d  
     
 {% snippet icon.badgeInfo %}
-If you're using a ***Keyfile*** it needs to be in v1.
+If you are using a ***Keyfile*** it needs to be in v1.
 {% endsnippet %}

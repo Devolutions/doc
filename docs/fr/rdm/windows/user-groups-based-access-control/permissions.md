@@ -6,7 +6,7 @@ title: Permissions
 Le tableau de bord des permissions ***,*** qui est seulement disponible dans une [source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), se trouve dans la section ***Permissions*** des propriétés de toutes les entrées.  
 
 Le système de contrôle d'accès basé sur les groupes d'utilisateurs permet d'attribuer granulairement les permissions. Voici un aperçu de la fenêtre des ***Permissions***.  
-![Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11102.png) 
+![Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6014.png) 
 
 <table>
 	<tr>
@@ -57,4 +57,4 @@ Permets la sélection des groupes d'utilisateurs ou des utilisateurs pour appliq
 	</tr>
 </table>
 
-![Accorder l'accès en lot](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4019.png) 
+![Accorder l'accès en lot](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6015.png) 

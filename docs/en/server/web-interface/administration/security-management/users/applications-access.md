@@ -65,10 +65,10 @@ Allow user to connect through [{{ en.PS }} module](https://www.powershellgallery
 	</tr>
 	<tr>
 		<td>
-Workspace 
+{{ en.DWS }} 
 		</td>
 		<td>
-Allow user to use the {{ en.DWS }} mobile application. 
+Allow users to use the {{ en.DWSMOBILE }} application. 
 		</td>
 	</tr>
 </table>

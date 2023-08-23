@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configuration de {{ fr.DWS }} de bureau avec {{ fr.DVLS }}
+  title: Configuration de {{ fr.DWSDESKTOP }} avec {{ fr.DVLS }}
   description: description
 ---
 Bientôt disponible!

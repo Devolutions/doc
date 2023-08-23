@@ -12,7 +12,7 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
 ## Configuration
 
 1. Create a new ***CyberArk Dashboard*** entry or go to the ***Properties*** of your existing one.
-1. In the ***General*** section, specify a ***Name*** and ***Folder*** for your entry if that's not already done.
+1. In the ***General*** section, specify a ***Name*** and ***Folder*** for your entry if that is not already done.
 
 ![CyberArk Dashboard Properties – General – Name and Folder](https://webdevolutions.azureedge.net/docs/en/kb/KB2166.png)
 
@@ -26,7 +26,7 @@ The following is what your ***Web services URL*** will be, depending on your Cyb
 
 - ***SelfHosted*** : Short URL
 
-- ***PrivilegeCloud*** : Short URL if the URL doesn't end with "cyberark.cloud"
+- ***PrivilegeCloud*** : Short URL if the URL does not end with "cyberark.cloud"
 
 - ***PrivilegeCloud*** /PrivilegeCloud if the URL ends with "cyberark.cloud".
 
@@ -137,7 +137,7 @@ With the safe selector, you can browse your safes and select the one you wish to
 
 ![Safe Selector](https://webdevolutions.azureedge.net/docs/en/kb/KB2069.png)
 
-1. The upper section of the drop-down list contains a subset of the safes that one has access to. You can also see and manage the list of excluded safes in ***File – Options – Types – CyberArk***
+1. The upper section of the drop-down list contains a subset of the safes that one has access to. You can also see and manage the list of excluded safes in ***File – Options – Types – CyberArk***.
 1. ***Favorites*** will display accounts that have been tagged as favorites, but from within {{ en.RDM }}. This is not a CyberArk functionality.
 1. ***Show all*** will list all accounts that the user has access to. For certain users, this we be a sizeable list and will not be a quick operation. It is provided for users that have access to a finite list of accounts.
 1. ***Browse...*** will display the safe selection dialog, where there is paging and filtering to help the user to locate the relevant safe. Again, they are listed by default in the order received from CyberArk.

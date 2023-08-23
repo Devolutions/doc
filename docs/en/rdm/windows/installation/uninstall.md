@@ -23,7 +23,7 @@ The CFG file is not deleted when {{ en.RDM }} is reinstalled or updated. This is
 Since a local data source is required for {{ en.RDM }} to start, it will ***load the previous connections.db file*** if the default location is not changed.
 {% endsnippet %}  
 
-To encrypt the content of a local data source, a master key must be set. It will not be possible for anyone who doesn't have access to the master key to view the data contained in the **connections.db** file.
+To encrypt the content of a local data source, a master key must be set. It will not be possible for anyone who does not have access to the master key to view the data contained in the **connections.db** file.
 
 {% snippet icon.badgeHelp %} 
 To configure a master key, please refer to [Change Master Key](/rdm/windows/commands/file/change-master-key/). 
