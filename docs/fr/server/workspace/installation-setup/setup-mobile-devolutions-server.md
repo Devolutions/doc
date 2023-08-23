@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configuration de {{ fr.DWS }} mobile avec {{ fr.DVLS }}
+  title: Configuration de {{ fr.DWSMOBILE }} avec {{ fr.DVLS }}
   description: description
 ---
 Bientôt disponible!

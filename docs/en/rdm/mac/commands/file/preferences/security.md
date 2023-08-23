@@ -71,7 +71,7 @@ Use a Yubikey device to get access to the application when it starts or when it 
 Require a TOTP validation 
 		</td>
 		<td>
-Use {{ en.DWS }} or Google Authenticator device to get access to the application when it starts or when it is locked. 
+Use {{ en.DWS }} or Google Authenticator on your device to get access to the application when it starts or when it is locked. 
 		</td>
 	</tr>
 	<tr>
@@ -83,5 +83,3 @@ If you wish to use a different {{ en.DWS }} or Google Authenticator account than
 		</td>
 	</tr>
 </table>
-
-

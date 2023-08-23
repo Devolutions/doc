@@ -62,7 +62,7 @@ Cet outil incontournable est conçu pour importer facilement et rapidement des i
 	<tr>
 		<td>
 
-![!!workspace-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/workspace-icon-shadow.png)  
+![!!devolutions-workspace-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/workspace-icon-shadow.png)  
 
 ## {{ fr.DWS }}  
 

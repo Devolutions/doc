@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
-  title: Devolutions Workspace setup for desktop with {{ en.DHUBP }}
+  title: Devolutions Workspace desktop setup with {{ en.DHUBP }}
   description: Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DA }}, and configuring some security settings.
 ---
 Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DA }}, and configuring some security settings.
 
 ## {{ en.DWS }} Setup
 
-Follow the steps below to perform the initial configuration of your {{ en.DWS }} desktop application with {{ en.DHUBP }}:
+Follow the steps below to perform the initial configuration of your {{ en.DWSDESKTOP }} application with {{ en.DHUBP }}:
 
 1. [Download and install {{ en.DWS }}](https://devolutions.net/workspace/) if you have not already done so.
 1. After the installation is complete, in the ***{{ en.DWS }} Setup*** window, check ***{{ en.DHUBP }}***, then click on ***Start Setup***.

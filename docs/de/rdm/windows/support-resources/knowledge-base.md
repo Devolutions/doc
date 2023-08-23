@@ -22,7 +22,7 @@ Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Comm
 
 &nbsp; &nbsp;[{{ de.RDMMAC }}](/de/kb/remote-desktop-manager-macos/)  
 
-&nbsp; &nbsp;[{{ de.RDM }} Mobile](/de/kb/remote-desktop-manager-mobile/)  
+&nbsp; &nbsp;[{{ de.RDMMOBILE }}](/de/kb/remote-desktop-manager-mobile/)  
 
 &nbsp; &nbsp;[{{ de.DVLS }}](/de/kb/devolutions-server/)  
 

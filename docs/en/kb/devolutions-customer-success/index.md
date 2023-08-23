@@ -24,7 +24,7 @@ It is structured around our various products, as well as a few sub-categories.
 
 &nbsp; &nbsp;[{{ en.RDMMAC }}](/kb/remote-desktop-manager-macos/)
 
-&nbsp; &nbsp;[{{ en.RDM }} Mobile](/kb/remote-desktop-manager-mobile/)
+&nbsp; &nbsp;[{{ en.RDMMOBILE }}](/kb/remote-desktop-manager-mobile/)
 
 &nbsp; &nbsp;[{{ en.DVLS }}](/kb/devolutions-server/)
 

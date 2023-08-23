@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configuration de {{ fr.DWS }} mobile avec {{ fr.DHUBP }}
+  title: Configuration de {{ fr.DWSMOBILE }} avec {{ fr.DHUBP }}
   description: description
 ---
 Bientôt disponible!

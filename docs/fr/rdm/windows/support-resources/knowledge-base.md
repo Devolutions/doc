@@ -22,7 +22,7 @@ Elle est structurée selon nos divers produits, ainsi qu'en quelques sous-catég
 
 &nbsp; &nbsp;[{{ fr.RDMMAC }}](/fr/kb/remote-desktop-manager-macos/)
 
-&nbsp; &nbsp;[{{ fr.RDM }} Mobile](/fr/kb/remote-desktop-manager-mobile/)
+&nbsp; &nbsp;[{{ fr.RDMMOBILE }}](/fr/kb/remote-desktop-manager-mobile/)
 
 &nbsp; &nbsp;[{{ fr.DVLS }}](/fr/kb/devolutions-server/)
 

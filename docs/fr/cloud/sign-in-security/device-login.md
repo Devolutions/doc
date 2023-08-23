@@ -6,4 +6,3 @@ La section ***Connexion d'appareil*** est pour configurer la sauvegarde cloud de
 Une fois déverrouillée, accédez à votre application {{ fr.DWS }} et créez une sauvegarde. Cela vous permettra de restaurer la sauvegarde précédente.  
 
 ![!!Cloud4079.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4079.png) 
-

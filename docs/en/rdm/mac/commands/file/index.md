@@ -19,4 +19,3 @@ See the following topics to learn more about each setting:
 * [My Account Settings](/rdm/mac/commands/file/my-account-settings/)
 * [Workspaces](/rdm/mac/commands/file/workspaces/) 
 * [Templates](/rdm/mac/commands/file/templates/) 
-

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Enable autofill for {{ en.DWS }} on iOS
+  title: Enable autofill for {{ en.DWSIOS }}
   keywords: 
   - autofill
 ---
@@ -10,7 +10,7 @@ eleventyComputed:
 ![Password Options](https://webdevolutions.azureedge.net/docs/en/kb/KB0045.png)
 1. Select ***{{ en.DWS }}***.  
 ![{{ en.DWS }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0046.png)
-1. Go into the ***{{ en.DWS }}*** app.
+1. Go into the ***{{ en.DWSIOS }}*** app.
 1. Tap the menu button.  
 ![Menu Button](https://webdevolutions.azureedge.net/docs/en/kb/KB0047.png)
 1. Go to the ***Settings***.  

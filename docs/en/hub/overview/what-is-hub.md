@@ -64,7 +64,7 @@ The essential tool designed to easily and quickly import credentials into your h
 	<tr>
 		<td>
 
-![!!workspace-icon-shadow.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/workspace-icon-shadow.png)  
+![!!devolutions-workspace-icon-shadow.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/workspace-icon-shadow.png)  
 
 ## {{ en.DWS }}  
 
