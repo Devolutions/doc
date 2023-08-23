@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Send application logs from {{ en.DWSMOBLIE }}
+  title: Send application logs from {{ en.DWSMOBILE }}
   description: This topic explains how to send logs from {{ en.DWSMOBILE }}.
 ---
 If you contact our support, it is possible that they ask you for application logs. This topic covers how to send them.
