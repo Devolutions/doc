@@ -1,468 +1,476 @@
 ---
 title: Devolutions Server Console
 ---
-Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}. 
+Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}.  
+![{{ en.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0043.png)
 
-## Usage 
+## Usage
 
-{% snippet icon.badgeInfo %} 
-The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is now available on the [Download page](https://server.devolutions.net/home/download). 
+{% snippet icon.badgeInfo %}
+The {{ en.DVLSCONSOLE }} is now offered as a stand alone application. It is now available on the [Download page](https://server.devolutions.net/home/download).
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-Since {{ en.DVLS }} 2019.x, many features can only be managed from the web interface. Please see [Administration - Server Settings](/server/web-interface/administration/configuration/server-settings/). 
+
+{% snippet icon.badgeInfo %}
+Since {{ en.DVLS }} 2019.x, many features can only be managed from the web interface. Please see [Administration – Server Settings](/server/web-interface/administration/configuration/server-settings/).
 {% endsnippet %}
- 
+
 The {{ en.DVLSCONSOLE }} manages the IIS metabase, it must be started with elevated privileges when the {{ en.DVLSCONSOLE }} needs to be used. Elevated privileges are granted when you use ***Run as administrator*** to launch the application. You can modify the shortcut to always start it in this manner.  
 
-## {{ en.DVLSCONSOLE }}
+## Settings
 
-![{{ en.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8005.png) 
+### Server
 
-## Settings 
-
-### Server 
-
-![Server](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8163.png) 
+![Server](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0044.png)
 
 <table>
 	<tr>
+		<th>
+Option
+		</th>
+		<th>
+Description
+		</th>
+	</tr>
+	<tr>
 		<td>
-Option 
+Refresh
 		</td>
 		<td>
-Description 
+Refresh the list of {{ en.DVLS }} instances in the {{ en.DVLSCONSOLE }}.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Refresh 
+New
 		</td>
 		<td>
-Refresh the list of {{ en.DVLS }} instances in the {{ en.DVLSCONSOLE }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-New 
-		</td>
-		<td>
-Create a new {{ en.DVLS }} instance. 
+Create a new <a href="https://docs.devolutions.net/server/installation/create-server-instance/">{{ en.DVLS }}</a> instance or migrate an SQL Data Source.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Edit 
+Edit
 		</td>
 		<td>
-Edit the selected {{ en.DVLS }} instance's properties. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Update 
-		</td>
-		<td>
-Update the selected {{ en.DVLS }} instance. 
+Edit the selected {{ en.DVLS }} instance's properties.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Uninstall 
+Update
 		</td>
 		<td>
-Uninstall the selected {{ en.DVLS }} instance. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password 
-		</td>
-		<td>
-Set, Change or Disable the {{ en.DVLS }} instance password. 
+Update the selected {{ en.DVLS }} instance.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Go Offline 
+Uninstall
 		</td>
 		<td>
-Toggle the selected {{ en.DVLS }} instance to offline/online mode. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Stop Server / Start Server 
-		</td>
-		<td>
-Stop/Start the {{ en.DVLS }} IIS Application Pool. 
+Uninstall the selected {{ en.DVLS }} instance.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Logs 
+Password
 		</td>
 		<td>
-View the Data Source Logs of the selected {{ en.DVLS }} instance. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Navigate to Website 
-		</td>
-		<td>
-Open the web interface in the default browser. 
+Set, Change or Disable the {{ en.DVLS }} instance password.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Explore 
+Go Offline
 		</td>
 		<td>
-Open the file explorer and points it to the {{ en.DVLS }} instance installation folder. 
+Toggle the selected {{ en.DVLS }} instance to offline/online mode.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Open Response File 
+Stop Server / Start Server
 		</td>
 		<td>
-Open a response file to run commands on the {{ en.DVLS }} instance. 
+Stop/Start the {{ en.DVLS }} IIS Application Pool.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Logs
+		</td>
+		<td>
+View the Data Source Logs of the selected {{ en.DVLS }} instance.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Navigate to Website
+		</td>
+		<td>
+Open the web interface in the default browser.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Explore
+		</td>
+		<td>
+Open the file explorer and points it to the {{ en.DVLS }} instance installation folder.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Open Response File
+		</td>
+		<td>
+Open a response file to run commands on the {{ en.DVLS }} instance.
 		</td>
 	</tr>
 </table>
 
-### Companions 
+### Companions
 
-![!!ServerOp8164.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8164.png) 
+![Companions](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0045.png)
 
+#### Scheduler Service
 <table>
 	<tr>
+		<th>
+Option
+		</th>
+		<th>
+Description
+		</th>
+	</tr>
+	<tr>
 		<td>
-Scheduler Service 
+Install
 		</td>
 		<td>
-Description 
+Install the Scheduler Service.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Install 
+Uninstall
 		</td>
 		<td>
-Install the Scheduler Service. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Uninstall 
-		</td>
-		<td>
-Uninstall the Scheduler Service. 
+Uninstall the Scheduler Service.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Start/Stop 
+Start/Stop
 		</td>
 		<td>
-Start or Stop the Scheduler Service. 
+Start or Stop the Scheduler Service.
 		</td>
     </tr>
 </table>
-  <br>
-  
+<br>
+
+#### Recording Server
 <table>
 	<tr>
+		<th>
+Option
+		</th>
+		<th>
+Description
+		</th>
+	</tr>
+	<tr>
 		<td>
-Recording Server 
+Install
 		</td>
 		<td>
-Description 
+Install the Recording Service.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Install 
+Update
 		</td>
 		<td>
-Install the Recording Service. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Update 
-		</td>
-		<td>
-Update the Recording Service. 
+Update the Recording Service.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Uninstall 
+Uninstall
 		</td>
 		<td>
-Uninstall the Recording Service. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Explore 
-		</td>
-		<td>
-Browse the folder where the recording files are stored. 
-		</td>
-	</tr>
-</table>
-  <br>
-  
-<table>
-	<tr>
-		<td>
-{{ en.DGW }} 
-		</td>
-		<td>
-Description 
+Uninstall the Recording Service.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Install 
+Explore
 		</td>
 		<td>
-Install the {{ en.DGW }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Edit 
-		</td>
-		<td>
-Edit the {{ en.DGW }} configuration. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Update 
-		</td>
-		<td>
-Update the {{ en.DGW }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Uninstall 
-		</td>
-		<td>
-Uninstall the {{ en.DGW }}. 
-		</td>
-	</tr>
-</table>
-
-### Tools 
-
-![!!ServerOp8165.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8165.png) 
-
-<table>
-	<tr>
-		<td>
-Keys Management 
-		</td>
-		<td>
-Description 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Import 
-		</td>
-		<td>
-Import the encryption keys. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Export 
-		</td>
-		<td>
-Export the encryption keys. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Regenerate 
-		</td>
-		<td>
-Regenerate the encryption keys. 
+Browse the folder where the recording files are stored.
 		</td>
 	</tr>
 </table>
 <br>
 
+#### {{ en.DGW }}
 <table>
 	<tr>
+		<th>
+Option
+		</th>
+		<th>
+Description
+		</th>
+	</tr>
+	<tr>
 		<td>
-Database 
+Install
 		</td>
 		<td>
-Description 
+Install the <a href="https://docs.devolutions.net/server/dgw/server-configuration/">{{ en.DGW }}</a>.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Rebuild Indexes 
+Edit
 		</td>
 		<td>
-Rebuild indexes of the SQL database tables. 
+Edit the {{ en.DGW }} configuration.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Update
+		</td>
+		<td>
+Update the {{ en.DGW }}.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Uninstall
+		</td>
+		<td>
+Uninstall the {{ en.DGW }}.
+		</td>
+	</tr>
+</table>
+
+### Tools
+
+![Tools](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0046.png)
+
+#### Keys Management
+<table>
+	<tr>
+		<th>
+Option
+		</th>
+		<th>
+Description
+		</th>
+	</tr>
+	<tr>
+		<td>
+Import
+		</td>
+		<td>
+Import the encryption keys.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Export
+		</td>
+		<td>
+Export the encryption keys.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Regenerate
+		</td>
+		<td>
+Regenerate the encryption keys.
 		</td>
 	</tr>
 </table>
 <br>
 
+#### Database
 <table>
 	<tr>
+		<th>
+Option
+		</th>
+		<th>
+Description
+		</th>
+	</tr>
+	<tr>
 		<td>
-Security Provider 
+Rebuild Indexes
 		</td>
 		<td>
-Description 
+Rebuild indexes of the SQL database tables.
+		</td>
+	</tr>
+</table>
+<br>
+
+#### Recovery Kit
+<table>
+	<tr>
+		<th>
+Option
+		</th>
+		<th>
+Description
+		</th>
+	</tr>
+	<tr>
+		<td>
+Generate
+		</td>
+		<td>
+Generate a local or Azure Key Vault <a href="https://docs.devolutions.net/server/management/recovery-kit/">Recovery Kit</a>.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Remove Security Provider 
+Download
 		</td>
 		<td>
-Remove the Security Provider that was previously used to encrypt a part of the data in the SQL database. 
+Download a previously generated Azure Key Vault Recovery Kit.
 		</td>
 	</tr>
 </table>
 
-### Administration 
+### Administration
 
-![!!ServerOp8166.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8166.png) 
+![Administration](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0047.png)
 
 <table>
+	<tr>
+		<th>
+Option
+		</th>
+		<th>
+Description
+		</th>
+	</tr>
+	<tr>
 		<td>
-
-Option 
+Users
 		</td>
 		<td>
-Description 
+Will open the <a href="/server/web-interface/administration/security-management/users/">Users management</a> page on the {{ en.DVLS }} web interface.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Users 
+User Groups
 		</td>
 		<td>
-Will open the [Users management](/server/web-interface/administration/security-management/users/) page on the {{ en.DVLS }} web interface. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-User Groups 
-		</td>
-		<td>
-Will open the [User Groups management](/server/web-interface/administration/security-management/user-groups/) page on the {{ en.DVLS }} web interface. 
+Will open the <a href="/server/web-interface/administration/security-management/user-groups/">User Groups management</a> page on the {{ en.DVLS }} web interface.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Vaults 
+Vaults
 		</td>
 		<td>
-Will open the [Vaults management](/server/web-interface/administration/security-management/vaults/) page on the {{ en.DVLS }} web interface. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-System Settings 
-		</td>
-		<td>
-Will open the [System Settings](/server/web-interface/administration/configuration/system-settings/) page on the {{ en.DVLS }} web interface. 
+Will open the <a href="/server/web-interface/administration/security-management/vaults/">Vaults management</a> page on the {{ en.DVLS }} web interface.
 		</td>
 	</tr>
 	<tr>
 		<td>
-System Permissions 
+System Settings
 		</td>
 		<td>
-Will open the [System Permissions](/server/web-interface/administration/configuration/system-permissions/) page on the {{ en.DVLS }} web interface. 
+Will open the <a href="/server/web-interface/administration/configuration/system-settings/">System Settings</a> page on the {{ en.DVLS }} web interface.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Backup Manager 
+System Permissions
 		</td>
 		<td>
-Will open the [Backup Manager](/server/web-interface/administration/backup/backup-manager/) page on the {{ en.DVLS }} web interface. 
+Will open the <a href="/server/web-interface/administration/configuration/system-permissions/">System Permissions</a> page on the {{ en.DVLS }} web interface.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Backup Manager
+		</td>
+		<td>
+Will open the <a href="/server/web-interface/administration/backup/backup-manager/">Backup Manager</a> page on the {{ en.DVLS }} web interface.
 		</td>
 	</tr>
 </table>
 
-### Support 
+### Support
 
-![!!ServerOp8167.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8167.png) 
+![Support](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0048.png)
 
 <table>
 	<tr>
+		<th>
+Option
+		</th>
+		<th>
+Description
+		</th>
+	</tr>
+	<tr>
 		<td>
-Option 
+Application Logs
 		</td>
 		<td>
-Description 
+Open the {{ en.DVLSCONSOLE }} Application Logs dialog.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Application Logs 
+Open Installation Backup Folder
 		</td>
 		<td>
-Open the {{ en.DVLSCONSOLE }} Application Logs dialog. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Open Installation Backup Folder 
-		</td>
-		<td>
-Open the Installation Backup Folder in the Windows File Explorer. 
+Open the Installation Backup Folder in the Windows File Explorer.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Save Diagnostic Information 
+Save Diagnostic Information
 		</td>
 		<td>
-Save the Diagnostic report in a text file. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-IIS Diagnostic 
-		</td>
-		<td>
-Run the IIS Diagnostic. 
+Save the Diagnostic report in a text file.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Check For Update 
+IIS Diagnostic
 		</td>
 		<td>
-Check for available updates for the {{ en.DVLSCONSOLE }}. 
+Run the IIS Diagnostic.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Options 
+Check For Update
 		</td>
 		<td>
-Language setting and Update type options. 
+Check for available updates for the {{ en.DVLSCONSOLE }}.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Options
+		</td>
+		<td>
+Language setting and Update type options.
 		</td>
 	</tr>
 </table>
-
-
-
