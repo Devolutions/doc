@@ -98,7 +98,7 @@ The ***Add***, ***Edit***, and ***Delete*** permissions can be left to ***Inheri
 We want the ServiceDesk to be able to use the Domain Admin credential entry as well but not the HelpDesk. For this we must grant the ***View*** permission to the ServiceDesk. The ServiceDesk will still be able to edit the credential entry but will never see the password. The delete permission is set to ***Never***.  
 ![Domain Admin credential entry](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin60108.png) 
 
-The last step for the Telemark child items is to set the ***View*** permission to the ServiceDesk and the HelpDesk on the Boston folder and leave every other permission of this folder to ***Default***. This denies the Consultants to view the Boston folder. Now, the Consultants will be able to view and open entries only in the Montreal folder.  
+The last step for the Telemark child items is to set the ***View*** permission to the ServiceDesk and the HelpDesk on the Boston folder and leave every other permission of this folder to ***Inherited***. This denies the Consultants to view the Boston folder. Now, the Consultants will be able to view and open entries only in the Montreal folder.  
 ![Telemark/Boston - Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin60109.png) 
 
 {% snippet icon.shieldCaution %} 
