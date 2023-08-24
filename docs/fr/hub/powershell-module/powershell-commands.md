@@ -551,7 +551,7 @@ New-HubGateway
 Ajoute un nouveau {{ fr.DGW }} au hub.
 		</td>
 		<td>
-```$newDevolutionsGateway = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSGatewayMetadata]@{ Name =  'Test Gateway From PS ' }} ```  
+```$newDevolutionsGateway = [Devolutions.Hub.CryptoUtils.Models.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.CryptoUtils.Models.PSGatewayMetadata]@{ Name =  'Test Gateway From PS ' }} ```  
 
 ```New-HubGateway -PSDecryptedGateway $newDevolutionsGateway```  
 		</td>
@@ -925,7 +925,7 @@ Cette commande fonctionnera seulement si l'option ***Activer l'authentification 
 
 Ajouter avec une PSInvitation. 
 
-```$psInvitation = [Devolutions.Hub.PowerShell.Entities.Hub.PSInvitation]@{AllowOfflineInRDM = $true; UserSendMessageConfiguration = [Devolutions.Hub.Clients.UserSendMessagePermission]::MessagesWithEntries; Groups = @(“1f017956-1d36-4787-acaa-22b16c73cce5“); Emails = @(“bob@windjammer.co“);} ```  
+```$psInvitation = [Devolutions.Hub.CryptoUtils.Models.PSInvitation]@{AllowOfflineInRDM = $true; UserSendMessageConfiguration = [Devolutions.Hub.Clients.UserSendMessagePermission]::MessagesWithEntries; Groups = @(“1f017956-1d36-4787-acaa-22b16c73cce5“); Emails = @(“bob@windjammer.co“);} ```  
 
 ```New-HubOrganizationUser -PSInvitation $psInvitation ```
 		</td>
@@ -1129,7 +1129,7 @@ New-HubEntry
 Ajoute une nouvelle entrée à un coffre spécifique de {{ fr.DHUB }} avec l'entrée PSDecryptedEntry fournie. 
 		</td>
 		<td>
-```$t = [Devolutions.Hub.PowerShell.Entities.Hub.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.PowerShell.Entities.Hub.PSEntryMetadata]@{ Name = “Test Cred“; ParentId = “9df41856-125a-490a-8589-93afc3059924“; ConnectionType = [Devolutions.Generated.Enums.ConnectionType]::Credential }; Connection = [Devolutions.Generated.Models.Connection]@{ Credentials = [Devolutions.Generated.Models.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.Enums.CredentialResolverConnectionType]::Default; Password = “passworddepowershell“ } } } ```  
+```$t = [Devolutions.Hub.CryptoUtils.Models.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.CryptoUtils.Models.PSEntryMetadata]@{ Name = “Test Cred“; ParentId = “9df41856-125a-490a-8589-93afc3059924“; ConnectionType = [Devolutions.Generated.Enums.ConnectionType]::Credential }; Connection = [Devolutions.Generated.Models.Connection]@{ Credentials = [Devolutions.Generated.Models.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.Enums.CredentialResolverConnectionType]::Default; Password = “passworddepowershell“ } } } ```  
 
 ```New-HubEntry -VaultId d334f44c-fb84-4559-b576-e1e8b68baf65 -Connection $ff ```
 		</td>
