@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Download {{ en.CI }} Package
+  title: Download {{ en.CI }} package
   description: The {{ en.CIM }} allows you to download the package directly from {{ en.RDM }} or from our website.
   keywords:
   - Custom Installer Manager
@@ -14,7 +14,7 @@ Please note that you must create a file in {{ en.RDM }} before creating the inst
 You can store and create up to six ***{{ en.CI }}*** configuration file packages in your {{ en.DA }}. 
 {% endsnippet %}
  
-### Settings 
+## Settings 
 
 1. In {{ en.RDM }}, click on ***File – {{ en.DA }} – {{ en.CIM }}***.
 ![File – {{ en.DA }} – {{ en.CIM }}](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud6003.png)  

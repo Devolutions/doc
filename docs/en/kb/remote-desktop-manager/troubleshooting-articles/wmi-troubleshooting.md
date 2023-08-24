@@ -14,20 +14,20 @@ A good strategy is to get remoteWMI to work, then integrate it in {{ en.RDM }}. 
 Please contact us at [service@devolutions.net](mailto:service@devolutions.net) for more assistance.
 {% endsnippet %}  
 
-### Problem 1
+## Problem 1
 Access denied error.
-### Solution 1
+### Solution
 Make sure that the user account has the necessary permissions to access a computer remotely. See [Securing a Remote WMI Connection (Windows)](https://docs.microsoft.com/fr-fr/windows/win32/wmisdk/securing-a-remote-wmi-connection?redirectedfrom=MSDN#setting_dcom_security_to_allow_a_user_to_access_a_computer_remotely).  
 
 You can also find troubleshoot tips in [WMI Troubleshooting (Windows)](https://docs.microsoft.com/en-us/windows/win32/wmisdk/wmi-troubleshooting?redirectedfrom=MSDN).
-### Problem 2
+## Problem 2
 Error getting products informations.
-### Solution 2
+### Solution
 Invalid Class WMI or WMI class not found on Windows Server 2003. On Windows Server 2003, Win32_Product is not enabled by default. You can enable it by following the steps provided in this [Microsoft Forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/6fb0d3ea-1ccf-4554-bdf1-79c9e24388af/invalid-class-wmi-windows-2003-server).  
 
-### Problem 3
+## Problem 3
 Testing from a remote computer.
-### Solution 3
+### Solution
 The WMIC command is used to test if you have access to the machine through WMI. You need to enter the following command:  
 
 `wmic /NODE:"ComputerName" bios get serialnumber`  
@@ -35,9 +35,9 @@ The WMIC command is used to test if you have access to the machine through WMI. 
 Below is an example with other credentials:  
 
 `wmic /NODE:"ComputerName" /user:"username" /password:"password" bios get serialnumber`
-### Problem 4
+## Problem 4
 Load from inventory does not work. Error getting Bios information.
-### Solution 4
+### Solution
 This error can have several origins. Please validate the following:  
 
 * Sessions must be RDP.

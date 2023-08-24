@@ -3,12 +3,12 @@ title: User Specific Settings RunAs
 ---
 You wish to be able to run a command stored in your shared vault but with your own set of credentials instead of those set in the entry.
 
-## Current Limitation
+## Current limitation
 
 The ***User Specific Settings*** feature does not give you access to the ***Run As*** tab.  
 ![!!KB4662.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4662.png)
 
-## Work Around
+## Workaround
 
 1. Configure a ***Command Line*** session.  
 ![!!KB4663.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4663.png)

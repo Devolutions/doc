@@ -44,30 +44,30 @@ Ne cochez pas les options pour inclure les ***identifiants du {{ fr.DA }}*** ain
 3. Lors de l'utilisation de {{ fr.RDM }} sous un environnement Remote Desktop Services, nous devons améliorer les paramètres des entrées de type RDP afin d'utiliser le moins de ressources possibles ou d'améliorer les performances de démarrage de l'application. 
     1. Pour améliorer le démarrage de {{ fr.RDM }}, veuillez consulter la solution #3 de l'article [Startup Performance](/kb/remote-desktop-manager/troubleshooting-articles/startup-performance/). 
     1. Afin de limiter la consommation de la mémoire par les entrées de type RDP, veuillez consulter l'article [Memory Tuning of RDP Sessions](/kb/remote-desktop-manager/knowledge-base/memory-tuning-rdp-sessions/). 
-1. Lorsque {{ fr.RDM }} est configuré à votre gout, utiliser ***Fichier – Options – Exporter les options***. Cela vous permettra de choisir exactement les sources de données à inclure, ainsi que les différentes catégories de paramètres. Veuillez vous référer aux [Options d'exportation](/fr/rdm/windows/commands/file/options/export/) pour plus de détails. Enregistrez le fichier sous le nom ***default.cfg***. 
-1. Déplacer le fichier ***default.cfg*** dans le dossier d'installation de {{ fr.RDM }}, si vous avez utilisé les paramètres d'installation par défaut, il se trouve sous le répertoire %appdata%\Devolutions\RemoteDesktopManager. 
+1. Lorsque {{ fr.RDM }} est configuré à votre gout, utiliser ***Fichier – Options – Exporter les options***. Cela vous permettra de choisir exactement les sources de données à inclure, ainsi que les différentes catégories de paramètres. Veuillez vous référer aux [Options d'exportation](/fr/rdm/windows/commands/file/options/export/) pour plus de détails. Enregistrez le fichier sous le nom **default.cfg**. 
+1. Déplacer le fichier **default.cfg** dans le dossier d'installation de {{ fr.RDM }}, si vous avez utilisé les paramètres d'installation par défaut, il se trouve sous le répertoire **%appdata%\Devolutions\RemoteDesktopManager**. 
 
 ## Processus 
 
 ### Nouveaux utilisateurs 
 
-Chaque fois qu'un nouvel utilisateur crée un profil sur le système, {{ fr.RDM }} détecte la présence du fichier ***default.cfg*** et l'utilise comme modèle pour créer le fichier de configuration de l'utilisateur. 
+Chaque fois qu'un nouvel utilisateur crée un profil sur le système, {{ fr.RDM }} détecte la présence du fichier **default.cfg** et l'utilise comme modèle pour créer le fichier de configuration de l'utilisateur. 
 
 ### Utilisateurs existants 
 
 {% snippet icon.badgeInfo %} 
-Une politique de groupe existe pour forcer les nouvelles configurations à être acceptées automatiquement. Consultez la page [How to Apply Policies](/kb/remote-desktop-manager/how-to-articles/group-policies/) pour connaître le fonctionnement et le paramètre Force the loading of the default.cfg file. 
+Une politique de groupe existe pour forcer les nouvelles configurations à être acceptées automatiquement. Consultez la page [Apply Policies (EN)](/kb/remote-desktop-manager/how-to-articles/group-policies/) pour connaître le fonctionnement et le paramètre Force the loading of the default.cfg file. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Si l'utilisateur choisit d'ignorer le nouveau fichier de configuration lorsqu'il est présenté avec la boîte de dialogue ci-dessous, il ne lui sera pas proposé avec le choix jusqu'à la date/heure du fichier ***default.cfg*** ait changé. 
+Si l'utilisateur choisit d'ignorer le nouveau fichier de configuration lorsqu'il est présenté avec la boîte de dialogue ci-dessous, il ne lui sera pas proposé avec le choix jusqu'à la date/heure du fichier **default.cfg** ait changé. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
 Si la principale  préoccupation est le déploiement d'une nouvelle clé de licence et que vous utilisez des [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), vous devriez plutôt utiliser Licences dans Administration. 
 {% endsnippet %}
  
-Chaque fois que {{ fr.RDM }} est démarré et qu'il détecte un nouveau fichier ***default.cfg***, la boîte de dialogue suivante apparaît :  
+Chaque fois que {{ fr.RDM }} est démarré et qu'il détecte un nouveau fichier **default.cfg**, la boîte de dialogue suivante apparaît :  
 ![Nouveau default.cfg détecté](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10368.png) 
 
 En sélectionnant ***Use New Configuration (Lose Mine)***, la configuration de l'utilisateur est remplacée. Si vous souhaitez uniquement mettre à jour la clé de licence de {{ fr.RDM }} après un renouvellement, choisir ***Retrieve New Registration Only***. 

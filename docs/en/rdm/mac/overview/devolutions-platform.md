@@ -1,5 +1,5 @@
 ---
-title: The Devolutions Platform
+title: The Devolutions platform
 ---
 Our platform offers multiple products to help managing all of the aspects of an IT infrastructure. 
 

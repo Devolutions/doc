@@ -1,5 +1,5 @@
 ---
-title: Background Services
+title: Background services
 ---
 The Synchronizers feature centralizes all your synchronizers entry in one place.  
 

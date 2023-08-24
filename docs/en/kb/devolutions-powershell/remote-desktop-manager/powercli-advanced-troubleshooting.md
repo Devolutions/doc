@@ -1,10 +1,10 @@
 ---
-title: PowerCLI Advanced Troubleshooting
+title: PowerCLI advanced troubleshooting
 ---
 {{ en.RDM }} calls PowerCLI's cmdlets and presents the results in its user interface.  
 
 Here are steps to help isolate issues when the integration is not working as expected.
-### Script A: Get the list of virtual machines
+## Script A: Get the list of virtual machines
 GETVMS.PS1  
 
 ```
@@ -29,7 +29,7 @@ catch
 }  
 Disconnect-VIServer $VMHost -Force -Confirm:$false  
 ```
-### Example use
+## Example use
 `.\GetVMs.ps1 [SERVER_NAME] [USER_NAME] [PASSWORD]`
 
 Name          $_.Moref.Value  
@@ -37,7 +37,7 @@ Name          $_.Moref.Value
 MACHINE1      18  
 MACHINE2      19  
 
-### Script B -:Launching the vmrc
+## Script B -:Launching the vmrc
 CONNECTVMRCFROMPOWERCLI.PS1  
 
 ```
@@ -70,7 +70,7 @@ catch
 Start-Sleep -s 10  
 Disconnect-VIServer $VMHost -Force -Confirm:$false  
 ```
-### Example use
+## Example use
 You must send the MoRef.Value which was obtained using Script A, in our example, start MACHINE2 which has 19 for ID.  
 
 .\ConnectVMRCFromPowerCLI.ps1 [SERVER_NAME] [USER_NAME] [PASSWORD] 19  

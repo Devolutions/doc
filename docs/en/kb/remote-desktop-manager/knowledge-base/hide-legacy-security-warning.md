@@ -1,7 +1,6 @@
 ---
 eleventyComputed:
   title: Hide the legacy security removal warning box in {{ en.RDM }}
-  description: How to hide the legacy security removal warning in {{ en.RDM }}.
 ---
 {% snippet icon.badgeWarning %}
 Legacy security has been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from legacy security to permissions in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).

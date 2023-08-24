@@ -1,8 +1,8 @@
 ---
-title: Performance Diagnostic
+title: Performance diagnostic
 ---
 Sometimes when a performance issue occurs while using {{ en.RDM }}, the support personnel may ask you to send information. Here are three sources or information that the support team requires to help diagnose your issue.
-### Procedure
+## Procedure
 My Data Source Information  
 ![!!KB4076.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4076.png)  
 1. Open ***File – My Data Source Information***.

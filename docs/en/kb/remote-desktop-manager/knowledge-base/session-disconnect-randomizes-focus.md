@@ -1,5 +1,5 @@
 ---
-title: Session Disconnect Randomizes the Focus on Tabs
+title: Session disconnect randomizes the focus on tabs
 description: When disconnecting from a remote session, the focus of the active tab is not necessarily the one that you would like. It gives the impression that {{ en.RDM }} select the tab randomly.
 keywords:
 - focus

@@ -19,7 +19,7 @@ Avant de commencer l'installation, veuillez vérifier que .NET 4.8 est installé
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
-Il est fortement recommandé d'activer l'option Activer SSL afin de protéger les communications avec l'instance du serveur SQL. Veuillez suivre les instructions sur la page Microsoft suivante : [How to enable SSL encryption](http://support.microsoft.com/kb/316898). Notez que nous recommandons d'activer l'option après l'installation complète de base. 
+Il est fortement recommandé d'activer l'option Activer SSL afin de protéger les communications avec l'instance du serveur SQL. Veuillez suivre les instructions sur la page Microsoft [Configurer le moteur de base de données SQL Server pour le chiffrement des connexions](https://learn.microsoft.com/fr-ca/sql/database-engine/configure-windows/configure-sql-server-encryption). Notez que nous recommandons d'activer l'option après l'installation complète de base. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

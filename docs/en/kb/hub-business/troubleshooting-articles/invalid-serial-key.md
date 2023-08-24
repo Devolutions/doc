@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Invalid {{ en.DHUBB }} Serial Key
+  title: Invalid {{ en.DHUBB }} serial key
 ---
 When trying to add a serial key to {{ en.DHUBB }}, if there are already a greater number of users created for that {{ en.DHUB }} than the maximum number of users for that key, it will give the "Invalid {{ en.DHUBB }} serial key" error.
 

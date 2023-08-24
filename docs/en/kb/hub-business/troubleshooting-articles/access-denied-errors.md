@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: Access Denied Errors
-  description: In {{ en.DHUB }}, many situations can trigger an ***Access denied*** error. Here are the most common messages and their solutions.
+  title: Access denied errors
+  description: In {{ en.DHUB }}, many situations can trigger an Access denied error. Here are the most common messages and their solutions.
   keywords:
   - Access Denied
   - Error

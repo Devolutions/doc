@@ -42,23 +42,23 @@ Do not check the options to include {{ en.DA }} Credentials as well as any data 
 
 ### New users 
 
-Whenever a new user creates a profile on the system, {{ en.RDM }} detects the presence of the default.cfg file and uses it as a template to create the user's configuration file. 
+Whenever a new user creates a profile on the system, {{ en.RDM }} detects the presence of the **default.cfg** file and uses it as a template to create the user's configuration file. 
 
 ### Existing users 
 
 {% snippet icon.badgeInfo %} 
-A group policy exists to force the new configurations to be accepted automatically. Please see the [How to Apply Policies](/kb/remote-desktop-manager/how-to-articles/group-policies/) article to know how to deploy the Force the loading of the default.cfg file parameter. 
+A group policy exists to force the new configurations to be accepted automatically. Please see [Apply Policies](/kb/remote-desktop-manager/how-to-articles/group-policies/) to know how to deploy the Force the loading of the **default.cfg** file parameter. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-If the user chooses to ignore the new configuration file when presented with the dialog below, he will not be presented with the choice until the date/time of the default.cfg file has changed. 
+If the user chooses to ignore the new configuration file when presented with the dialog below, he will not be presented with the choice until the date/time of the **default.cfg** file has changed. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
 If the main concern is deploying a new license key, and you are using an [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), you should rather use the feature to store it in ***Administration – Licenses***. 
 {% endsnippet %}
  
-Whenever {{ en.RDM }} is started and it detects a new default.cfg file, the following dialog will appear:  
+Whenever {{ en.RDM }} is started and it detects a new **default.cfg** file, the following dialog will appear:  
 ![New default.cfg detected](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10368.png) 
 
 By selecting Use New Configuration (Lose Mine), the user's configuration is simply overwritten. If you only wish to update the {{ en.RDM }} license key after a renewal, choose Retrieve New Registration Only. 

@@ -11,7 +11,7 @@ If you are using a version below 2021.1, as mentioned in the [{{ en.DWL }} Overv
 If you insist on using these older versions, it is critical that each user be assigned a distinct port. An application key must be set as well. The first client application that starts will be able to use the port exclusively. ALL {{ en.DWL }} calling on that port will get the responses unless an application key is set. Continue to the [following section](#how-to-set-up--endwl--for-versions-below-20211-and-for-remote-desktop-servers) for the setup steps. 
 {% endsnippet %}
  
-### How to set up {{ en.DWL }} for versions below 2021.1 and for Remote Desktop Servers 
+### Set up {{ en.DWL }} for versions below 2021.1 and for Remote Desktop Servers 
 {% snippet icon.shieldWarning %} 
 The application key is displayed in clear text. It must be kept secret by the user. 
 {% endsnippet %}

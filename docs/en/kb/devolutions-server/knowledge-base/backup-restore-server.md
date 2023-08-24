@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Backup and Restore {{ en.DVLS }}
+  title: Backup and restore {{ en.DVLS }}
 ---
 The following topic describes the requirements and the step to properly configure the {{ en.DVLS }} Backup Scheduler and instructions on how to restore your {{ en.DVLS }} instance succeeding a disaster.
 

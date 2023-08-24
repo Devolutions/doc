@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Enable {{ en.RDM }} to Receive New Update
+  title: Enable {{ en.RDM }} to receive new update
 ---
 {{ en.RDM }} frequently offers new updates to release new features, improvements, as well as fixes. If you always want to use the latest version of {{ en.RDM }}, follow the steps below.
 

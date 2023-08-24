@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: 2FA set and lost on {{ en.DA }} ({{ en.DOD }})
+  title: 2FA set and lost on {{ en.DA }} or ({{ en.DOD }})
 ---
 This solution applies if you have set a 2FA on your {{ en.DA }} or {{ en.DOD }} and are lockout.
 ## Solution

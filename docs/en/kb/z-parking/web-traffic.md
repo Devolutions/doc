@@ -8,7 +8,7 @@ Do not use this without a specific request from Devolution's support personnel.
 The trace file must NOT have a path specified, this requires that {{ en.RDM }} be installed in a folder other than Program Files. (Running with elevated privileges does not circumvent the UAC.)
 {% endsnippet %}  
 
-### Solution
+## Solution
 ```
 <system.diagnostics>  
 <trace autoflush="true" />  
@@ -31,7 +31,7 @@ initializeData="System.Net.trace.log"
 </switches>  
 </system.diagnostics>  
 ```
-### ADVANCED MODE
+## Advanced mode
 To use with SvcTraceViewer.exe  
 
 ```

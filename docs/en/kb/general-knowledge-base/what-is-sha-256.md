@@ -12,5 +12,5 @@ To compare the hash of your file, click on the SHA-256 icon on our Devolutions w
 For more information and to know how to get the SHA-256 from a file, here is the [Get-FileHash](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.2) topic from Microsoft.
 
 {% snippet icon.badgeNotice %}
-The command should look similar to this: Get-FileHash C:\Users\user1\Downloads\Setup.RemoteDesktopManager.exe -Algorithm SHA256 | Format-List 
+The command should look similar to this: Get-FileHash C:\Users\user1\Downloads\Setup.RemoteDesktopManager.exe -Algorithm SHA256 | Format-List. 
 {% endsnippet %}

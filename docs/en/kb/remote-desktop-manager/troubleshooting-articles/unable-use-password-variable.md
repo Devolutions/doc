@@ -2,7 +2,7 @@
 title: Unable to use the $PASSWORD$ variable
 ---
 When used as part of a ***Typing macro***, the $PASSWORD$ variable might not retrieve the password and instead send the variable as is. This is a security feature that is enabled by default, but it can be disabled.
-### Solution
+## Solution
 Follow the steps below to be able to use passwords in variables:
 1. In {{ en.RDM }}, right-click on your entry and select ***Properties***.
 1. In the left menu, navigate to ***Security – Security Settings***.

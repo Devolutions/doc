@@ -11,7 +11,7 @@ Only the latest version of KeePass is compatible with the {{ en.RDM }} plugins.
 ## Steps
 1. Install the latest [KeePass 2](https://keepass.info/download.html) version.
 {% snippet icon.badgeCaution %}
-The installation folder for KeePass should use the default path (e.g., C:\Program Files\KeePass Password Safe 2). This will ensure that the {{ en.RDM }} integration works properly.
+The installation folder for KeePass should use the default path (e.g., **C:\Program Files\KeePass Password Safe 2**). This will ensure that the {{ en.RDM }} integration works properly.
 {% endsnippet %}  
 
 2. Once the installation is done, create the [KeePass database](https://keepass.info/help/base/firststeps.html).

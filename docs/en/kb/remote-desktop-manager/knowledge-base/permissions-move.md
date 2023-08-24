@@ -1,5 +1,5 @@
 ---
-title: Permissions Move
+title: Move permission
 ---
 The permission ***Move Permission on Entries*** in {{ en.RDM }} can be configured on your vault or in your entries and it is enabled by default.  
 

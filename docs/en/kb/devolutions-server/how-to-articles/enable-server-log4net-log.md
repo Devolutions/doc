@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Enable {{ en.DVLS }} Log4Net Log
+  title: Enable the {{ en.DVLS }} Log4Net log
 keywords:
 - Log
 - Log4Net

@@ -1,6 +1,6 @@
 ---
-title: SqlException - Column, Parameter or Variable
+title: SqlException - Column, parameter, or variable
 ---
 SqlException - Column, parameter, or variable #16: Cannot find data type datetime2.
-### Solution
+## Solution
 This error occurs when you are using an SQL Server 2005, which is not supported. You will at least need SQL Server 2012.

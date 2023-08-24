@@ -20,7 +20,7 @@ User management and permissions can be made easier with ***User Groups*** in {{ 
 
 Managing and adding users to ***User Groups*** in {{ en.DHUBB }} can be done through multiple ways:  
 {% snippet icon.badgeInfo %} 
-To manage ***Vaults Permissions*** with ***User Groups***, look into this topic: [Create and Manage Vaults](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/). 
+To manage ***Vaults Permissions*** with ***User Groups***, look into [Create and manage vaults](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/). 
 {% endsnippet %}
  
 * In ***Administration – User Groups***, select the ***User Groups*** and click the ***Edit*** button.  

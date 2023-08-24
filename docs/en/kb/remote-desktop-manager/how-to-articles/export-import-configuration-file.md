@@ -1,5 +1,5 @@
 ---
-title: How to Export and Import Configuration File
+title: Export and import the configuration file
 ---
 {% youtube 'DFsRwLKWX7M' %}  
 
@@ -14,8 +14,8 @@ Using the [{{ en.CIS }}](/rdm/windows/installation/client/custom-installer-servi
 ![!!KB4260.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4260.png)
 1. Validate the settings and the data sources you wish to include and click ***Export***.  
 ![!!KB4838.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4838.png)
-1. Save the RemoteDesktopManager.cfg file on your computer.
+1. Save the **RemoteDesktopManager.cfg** file on your computer.
 1. To import the configuration file, go to ***File – Options – Import Options***.
-1. Select ***Import from a different file*** and select the exported RemoteDesktopManager.cfg file you created.
+1. Select ***Import from a different file*** and select the exported **RemoteDesktopManager.cfg** file you created.
 1. Select ***Use the selected configuration file as the new one*** and click ***Apply***.
 1. Restart {{ en.RDM }}.

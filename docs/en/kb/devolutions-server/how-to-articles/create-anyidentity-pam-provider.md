@@ -1,5 +1,5 @@
 ---
-title: Create an AnyIdentity PAM Provider
+title: Create an AnyIdentity PAM provider
 ---
 To create an AnyIdentity PAM Provider, you first need to create a provider template or import an existing one.
 

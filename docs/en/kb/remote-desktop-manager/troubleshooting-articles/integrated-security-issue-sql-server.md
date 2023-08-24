@@ -1,5 +1,5 @@
 ---
-title: Integrated Security Issue with SQL Server
+title: Integrated Security issues with SQL Server
 ---
 Since issues can arise from multiple sources, when setting up integrated security on an SQL server data source, we detailed a couple of steps to help out and diagnose the source.
 ## Steps

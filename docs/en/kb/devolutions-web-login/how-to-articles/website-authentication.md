@@ -1,13 +1,12 @@
 ---
-title: Website Authentication
+title: Website authentication
 status: Topic available in German language
 ---
 For some websites, the auto fill function does not work automatically. It is important to note that some website will prevent you from autofilling your credentials.  
 
 Some steps are required to properly send the username and password. Depending on the website, the process can be automatic or may require additional steps.  
 
-### Method 1
-### Automatically log into a website
+## Method 1
 
 1. Enter the credentials in the ***General*** tab of the ***Website*** entry.  
 ![!!KB4606.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4606.png)  
@@ -87,7 +86,7 @@ The ***Discover*** command searches the fields in the web page that correspond t
 
 Once all the necessary steps have been completed, upon launching the session, the credentials will automatically be entered and logged into the site.  
 
-### Method 2
+## Method 2
 The second method requires to manually identify the IDs corresponding to the logon fields on the login web page.  
 
 For this example, Google Chrome will be used to inspect the logon fields.  

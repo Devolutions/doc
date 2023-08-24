@@ -1,3 +1,3 @@
 ---
-title: How to Clear a Browser Local Storage
+title: Clear the local storage of a browser
 ---

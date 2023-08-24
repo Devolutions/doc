@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} sound issue
+  title: Remote Desktop Manager {{ en.MAC }} sound issues
 ---
 When launching an RDP entry, who is set up with approval for sound, {{ en.RDMMAC }} users cannot hear on the remote even though Windows detects remote audio.
-### Solution
+## Solution
 A computer policy setting in Windows needs to be changed.  
 
 1. Open the Windows ***Local Group Policy Editor***.

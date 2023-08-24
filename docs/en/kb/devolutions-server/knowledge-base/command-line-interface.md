@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Command Line Interface
+  title: Command line interface
   description: A Command Line Interface (CLI) is a {{ en.CTOOL }} which allows {{ en.DVLS }} users to access credentials with the command line.
   keywords:
   - CLI

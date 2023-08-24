@@ -11,7 +11,7 @@ When you connect to your PC by using a Remote Desktop client, you are creating a
 
 Port forwarding maps the port on your router's IP address (your public IP) to the port and IP address of the PC you want to access.
 
-Specific steps for enabling port forwarding depend on the router you are using, so you will need to search online for your router's instructions. For a general discussion of the steps, check out [wikiHow to Set Up Port Forwarding on a Router](https://www.wikihow.com/Set-Up-Port-Forwarding-on-a-Router)
+Specific steps for enabling port forwarding depend on the router you are using, so you will need to search online for your router's instructions. For a general discussion of the steps, check out wikiHow's [How to Forward a Port on Any Router: Easy Guide](https://www.wikihow.com/Set-Up-Port-Forwarding-on-a-Router).
 
 Before you map the port, you will need the following:
 

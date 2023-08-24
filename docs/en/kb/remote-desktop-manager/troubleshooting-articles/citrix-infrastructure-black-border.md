@@ -23,7 +23,7 @@ Otherwise, the main lines are:
 
 With the tool ***Winspector*** (run server-side) we could find out what the application ID is and which you had to use. Will look like WindowsForms10.Window.0.app.0.xxxxx  
 
-Then you need to add a key of {{ en.RDM }} in HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CITRIX\wfshell\TWI  
+Then you need to add a key of {{ en.RDM }} in **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CITRIX\wfshell\TWI**  
 
 Also, String Value and DWORD (1000) are necessary.  
 
@@ -33,4 +33,4 @@ This reg key has to be added on the server-side.
 
 This string above is the user base as the string is randomized per username.  
 
-We are not recommending it, but the global string can also be used with the key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Citrix\wfshell\TWI\WindowsForms10.Window.0.app\
+We are not recommending it, but the global string can also be used with the key **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Citrix\wfshell\TWI\WindowsForms10.Window.0.app**.

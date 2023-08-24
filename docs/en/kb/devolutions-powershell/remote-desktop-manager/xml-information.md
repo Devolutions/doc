@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Essential information about Credential property GUIDs in {{ en.RDM }}
+  title: Essential information about credential property GUIDs in {{ en.RDM }}
   keywords: 
   - GUID
   - XML

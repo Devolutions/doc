@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configure {{ en.DWS }} 2-Factor Authentication
+  title: Configure {{ en.DWS }} 2-factor authentication
 ---
 {% youtube 'Oi27Y8FfcNg' %}
 

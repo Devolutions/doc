@@ -1,3 +1,3 @@
 ---
-title: Configure an SMTP Server
+title: Configure an SMTP server
 ---

@@ -8,7 +8,7 @@ Les instances SQL Server nouvellement installées n'autorisent pas les connexion
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Pour plus de sécurité, vous pouvez activer le cryptage SSL pour communiquer avec votre instance de SQL Server. Cependant, en raison d'une limitation du cadre, cela n'est pas compatible avec nos versions iOS et Android de {{ fr.RDM }}. Veuillez suivre les instructions sur [https://support.microsoft.com/en-us/kb/316898](https://support.microsoft.com/en-us/kb/316898). 
+Pour plus de sécurité, vous pouvez activer le cryptage SSL pour communiquer avec votre instance de SQL Server. Cependant, en raison d'une limitation du cadre, cela n'est pas compatible avec nos versions iOS et Android de {{ fr.RDM }}. Veuillez suivre les instructions sur [Configurer le moteur de base de données SQL Server pour le chiffrement des connexions](https://learn.microsoft.com/fr-ca/sql/database-engine/configure-windows/configure-sql-server-encryption). 
 {% endsnippet %}
  
 2. Cliquer sur le bouton de réglage dans le ***{{ fr.NPANE }}*** ou aller dans ***Fichier - Sources de données***.  

@@ -181,6 +181,3 @@ La fonctionnalité [Optimiser la source de données](/fr/rdm/windows/commands/ad
 		</td>
 	</tr>
 </table>
-
-
-

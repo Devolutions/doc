@@ -16,7 +16,7 @@ The ***Grouped Tab Bar*** will only appear if a session that is part of a ***Tab
 The ***Tab Groups*** feature in the ***View*** section lets you see a tree view of the various tab groups. For more information, visit the [***View***](/rdm/windows/commands/view/view/) topic. 
 {% endsnippet %}
  
-### Setting up a Tab group 
+## Setting up a Tab group 
 
 The ***Tab group*** settings are found in the ***User Interface*** side menu of your session properties. The ***Properties*** option can be found when right-clicking on an entry.  
 ![Properties – Common – User Interface – Tab Page](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2041.png) 

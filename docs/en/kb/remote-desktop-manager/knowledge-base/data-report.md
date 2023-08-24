@@ -1,7 +1,7 @@
 ---
 title: Data Report
 ---
-The Data Report session type can be used to empower any/all users to generate reports, without having to grant them access to the actual server.
+The ***Data Report*** session type can be used to empower any/all users to generate reports, without having to grant them access to the actual server.
 ## Settings
 ### General  
 ![!!KB4545.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4545.png)  

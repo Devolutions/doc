@@ -53,7 +53,7 @@ Use the offline cache only for recent changes. The cache will write on the disk.
 
 ### Location 
 
-The client cache is persisted to disk in `%LocalAppData%\Devolutions\RemoteDesktopManager\[GUID:DataSourceID]`  
+The client cache is persisted to disk in **%LocalAppData%\Devolutions\RemoteDesktopManager\[GUID:DataSourceID]**  
 
 There are three engines for the cache:  
 

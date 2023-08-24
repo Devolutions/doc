@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Allow {{ en.DWL }} in Incognito Mode
+  title: Allow Incognito mode with {{ en.DWL }}
   description: You need to allow the {{ en.DWL }} extension in Chrome to use it in Incognito mode, because the browser by default disables extensions.
 ---
 You need to allow the {{ en.DWL }} extension in Chrome to use it in Incognito mode, because the browser by default disables extensions.

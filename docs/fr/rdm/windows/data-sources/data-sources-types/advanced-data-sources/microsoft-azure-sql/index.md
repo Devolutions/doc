@@ -357,6 +357,3 @@ Modifier directement les valeurs de chaîne de connexion.
 		</td>
 	</tr>
 </table>
-
-
-

@@ -6,7 +6,7 @@ keywords:
 - FAIL
 ---
 In version 2020.3.12.0 and higher of {{ en.RDM }} an error message when opening a ssh connection can appear: "An unexpected error has occurred: Error code FAIL (-1) non specific error".
-### Solution  
+## Solution  
 {% snippet icon.badgeCaution %}
 {{ en.RDM }} has now a selection of algorithms for the SSH session type. Please note that the unsecured ones are not enabled by default. We therefore recommend that you check the algorithms directly on your server for security purpose. Otherwise, you can follow the steps below to resolve this issue.
 {% endsnippet %}  

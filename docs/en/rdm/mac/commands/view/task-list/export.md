@@ -1,9 +1,9 @@
 ---
-title: Export Task List
+title: Export task list
 ---
 Tasks can be exported in different types of files for printing or for reviewing. 
 
-## How to export tasks 
+## Export tasks 
 
 {% snippet icon.badgeInfo %} 
 Before exporting tasks, you can perform a [Search](/rdm/mac/commands/view/task-list/search/) to filter out the task list. 
@@ -19,4 +19,3 @@ You can export tasks in these file formats:
 * CSV 
 * HTML 
 * XML 
-

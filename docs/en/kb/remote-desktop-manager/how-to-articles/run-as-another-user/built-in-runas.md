@@ -7,7 +7,7 @@ This article describes the built in method of using ***Run As*** For sessions ty
 
 ## Settings
 
-### Supported Types
+### Supported types
 
 The following types currently support ***Run As***:
 
@@ -37,7 +37,7 @@ With tools session types you only need to specify ***Run as different user*** in
 
 With tools session types you only need to specify ***Run as different user*** At execution time the credentials will be resolved and used to start the Run As process.
 
-## Session Add-on
+## Session add-on
 
 SQL Server Management Studio supports Run As. Configure it like you would configure a normal session.  
 ![!!KB4568.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4568.png)  

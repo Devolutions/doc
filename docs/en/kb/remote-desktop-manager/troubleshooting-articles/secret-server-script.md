@@ -1,5 +1,5 @@
 ---
-title: Secret Server Script
+title: Secret Server script
 ---
 Testing procedure with PowerShell 
 

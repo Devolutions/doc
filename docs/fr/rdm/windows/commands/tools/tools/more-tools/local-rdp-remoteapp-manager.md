@@ -50,4 +50,3 @@ Activer ou désactiver UDP (User Datagram Protocol) localement sur votre ordinat
 ![!!clip10423.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10423.png) 
 1. Créer une nouvelle session RDP et sélectionner l'onglet ***Programmes***. Activer l'option ***Utiliser RemoteApp***, puis entrer le nom du programme RemoteApp et enregistrer la session. Lorsque la session est lancée, la RemoteApp s'exécute localement.  
 ![RDP  - Général - Programmes](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10812.png) 
-

@@ -1,11 +1,11 @@
 ---
-title: Devolutions Server Console Command Line Interface
+title: Devolutions Server Console command line interface
 description: The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances.
 keywords:
 - CLI
 - Command Line Interface
 ---
-The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DVLSCONSOLE }}. The DPS.Console.CLI.exe file is located in the {{ en.DVLSCONSOLE }} application installation folder. The ***/help*** switch will list all available commands and parameters. 
+The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances, the Scheduler, the Recording Server or the Gateway with create, configure or delete operations. It is automatically available with the installation of the {{ en.DVLSCONSOLE }}. The **DPS.Console.CLI.exe** file is located in the {{ en.DVLSCONSOLE }} application installation folder. The ***/help*** switch will list all available commands and parameters. 
 
 ![{{ en.DVLSCONSOLE }} CLI commands list](https://webdevolutions.azureedge.net/docs/en/kb/KB8032.png) 
 
@@ -13,9 +13,9 @@ The ***/help*** switch can be used to list command's parameters.
 
 ![CLI command parameters](https://webdevolutions.azureedge.net/docs/en/kb/KB8033.png) 
 
-The following sample command launch the upgrade process from a zip file available in c:\temp folder.
+The following sample command launch the upgrade process from a zip file available in **C:\temp folder**.
 
-***.\DPS.Console.CLI.exe server upgrade --dps "Default Web Site/dps" --zip "C:\temp\DVLS.2020.3.17.0.zip" --accept-eula -quiet -verbose***.
+**.\DPS.Console.CLI.exe server upgrade --dps "Default Web Site/dps" --zip "C:\temp\DVLS.2020.3.17.0.zip" --accept-eula -quiet -verbose**.
 
 The following command will create a new {{ en.DVLS }} instance from a JSON response file (see below) that contains the required parameters. It can be used with any of the main commands of the CLI.
 
@@ -50,7 +50,7 @@ Sample of a JSON response file for creating a new {{ en.DVLS }} instance.
   "dpsPath": "C:\\inetpub\\wwwroot\\dvls",
   "dpsWebsiteName": "Default Web Site",
   "installZip": null,
-  "keysPath": "c:\\temp\\DVLS_EncryptionKeys.bin",
+  "keysPath": "C:\\temp\\DVLS_EncryptionKeys.bin",
   "keysPassword": "MyKeysPassword",
   "quiet": false,
   "scheduler": true,

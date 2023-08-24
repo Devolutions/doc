@@ -1,5 +1,5 @@
 ---
-title: PowerShell Scripting
+title: PowerShell scripting
 order: 80
 ---
 {% snippet icon.badgeHelp %} 

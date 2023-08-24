@@ -14,7 +14,7 @@ at Devolutions.RemoteDesktopManager.Forms.FrmMainDocumentManager.cae3b4c7c167cf0
 at System.Windows.Forms.Timer.OnTick(EventArgs e)  
 at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)  
 at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)  
-### Solution
+## Solution
 ### Method 1
 Many issues related to it have been addressed in the latest version which you can download here; [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download).
 ### Method 2

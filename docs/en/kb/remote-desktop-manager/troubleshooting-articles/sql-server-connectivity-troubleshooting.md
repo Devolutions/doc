@@ -17,11 +17,11 @@ Before everything, try to access the database via SQL Server Management Studio.
 * <a href="#udl">Test the connection with a universal data link (.udl) file</a>
 * <a href="#unable">Unable to connect to sql server</a>
 
-### Allow Remote Access
+## Allow Remote Access
 <a name="allow"></a>
 
 On older versions of SQL Server, remote connections must be allowed manually. Follow [these instructions](https://msdn.microsoft.com/en-CA/library/ms191464.aspx) to enable connectivity.
-### Enable protocols
+## Enable protocols
 <a name="protocols"></a>
 
 To connect to the Database Engine from another device, a protocol, such as TCP/IP, must be enabled.
@@ -32,7 +32,7 @@ To connect to the Database Engine from another device, a protocol, such as TCP/I
 ![!!KB4245.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4245.png)
 1. Right-click the desired protocol, then select ***Enable***.  
 ![!!KB4230.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4230.png)
-### Open a communication port in the firewall
+## Open a communication port in the firewall
 <a name="firewall"></a>
 
 To connect to an SQL Server from another device, a communication port must be opened in the firewall.  
@@ -64,7 +64,7 @@ If you have an Anti-virus running on your server, you should also make sure that
 ![!!KB4282.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4282.png)
 1. In the ***Name*** page, enter a ***Name*** and ***Description*** for the rule, then click ***Finish***.  
 ![!!KB4283.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4283.png)
-### Unable to connect to sql server
+## Unable to connect to sql server
 <a name="unable"></a>
 
 * Ensure that each SQL Server instances are started and running.
@@ -72,7 +72,7 @@ If you have an Anti-virus running on your server, you should also make sure that
 * Create a Universal Data Link (.udl) file to test your SQL Connection (see <a href="#udl">Universal Data Link (.udl) file</a>).
 * An Anti-virus or a Firewall could be blocking the application.
 * Check the network settings connectivity.
-### Test the connection with a universal data link (.udl) file
+## Test the connection with a universal data link (.udl) file
 <a name="udl"></a>
 
 This will test that the instance is allowing your workstation to connect. Firewalls and anti-virus software may still prevent {{ en.RDM }} from accessing the network even though the Universal Data Link test is conclusive.  
@@ -111,7 +111,7 @@ Validate that the server name is type correctly (known as the Instance name).
 1. In the ***Connection*** tab, use the ***Test Connection*** button to test the SQL Server connectivity.  
 ![!!KB4276.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4276.png)
 1. Click ***OK*** to save the connection string to the Universal Data Link (***.udl***) file.
-### Login failed for user – reason: token-based server access validation failed
+## Login failed for user – reason: token-based server access validation failed
 <a name="token"></a>
 
 Finding the true reason for this is quite a process. A web search reveals so many solutions to attempt, and it is easy to get lost is all those steps. The thing to keep in mind is that the error message is misleading and the cause is often a simple thing.  
@@ -125,17 +125,17 @@ select princ.*, perm.* from sys.server_principals princ, sys.server_permissions 
 where perm.grantee_principal_id = princ.principal_id  
 AND state_desc = 'DENY'  
 ```
-### Login failed. the login is from an untrusted domain and cannot be used with windows authentication  
+## Login failed. the login is from an untrusted domain and cannot be used with windows authentication  
 <a name="untrusted"></a>
 
 ![!!KB2009.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2009.png)  
 The following error message appear when you cannot access {{ en.RDM }} data source with Integrated Authentication when connected to a Dialup VPN.  
 
 1. Locate your VPN connectionspbk file.
-1. You can find it here: %APPDATA%\Microsoft\Network\Connections\Pbk or if you have it set to allow all users to use the connection, you can find it here: C:\ProgramData\Microsoft\Network\Connections\Pbk
+1. You can find it in **%APPDATA%\Microsoft\Network\Connections\Pbk** or if you have it set to allow all users to use the connection, you can find it in **C:\ProgramData\Microsoft\Network\Connections\Pbk**.
 1. Edit thepkb file with a text editor and find the line UseRasCredentials=1
 1. Disable this setting by changing the 1 to 0: UseRasCredentials=0
-### A network-related or instance-specific error occurred...
+## A network-related or instance-specific error occurred...
 <a name="network"></a>
 
 This error message means that the server could not be reached, the possible causes are numerous.  
@@ -198,7 +198,7 @@ Check in the Anti-Virus logs to see blocked threats.
 Firewall is preventing {{ en.RDM }} to connect.
 		</td>
 		<td>
-Adjust your firewall to allow RemoteDesktopManager.exe and RemoteDesktopManager64.exe to communicate with external services.
+Adjust your firewall to allow <b>RemoteDesktopManager.exe</b> and <b>RemoteDesktopManager64.exe</b> to communicate with external services.
 		</td>
 	</tr>
 	<tr>
@@ -210,4 +210,3 @@ Validate that both the client and the server side are using the same IPv4 or IPv
 		</td>
 	</tr>
 </table>
-

@@ -1,9 +1,9 @@
 ---
-title: Tray Icon
+title: Tray icon
 ---
 {{ en.RDM }} allows the user to control the application from the Windows system tray. You can also [customize its content](#tray-icon-preferences).  
 
-## Tray Icon Context Menu 
+## Tray icon context menu 
 
 Right-click on the Windows tray menu bar to access the context menu. You can launch sessions, change data source, use the ***Quick Connect*** feature, and more.  
 ![Tray Icon Context Menu](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11271.png) 
@@ -124,7 +124,6 @@ Closes the application.
 	</tr>
 </table>
 
-## Tray Icon Preferences 
+## Tray icon preferences 
 
 The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Options – User Interface – Trayicon/Taskbar***. 
-

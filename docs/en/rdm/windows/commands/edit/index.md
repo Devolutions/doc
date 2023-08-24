@@ -4,7 +4,7 @@ title: Edit
 The ***Edit*** tab contains operations to quickly ***Add***, ***Edit***, ***Override***, ***Batch Edit***, or ***Export*** entries.  
 ![Ribbon - Edit](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10207.png) 
 
-### Add 
+## Add 
 
 <table>
 	<tr>
@@ -64,7 +64,7 @@ Entries reiterated this way also have both folder paths indicated in their Folde
 There is no visual differences between the shortcut and the original entry. Therefore, you’ll need to delete all entries to completely remove said entry. You will be asked for confirmation when attempting to delete said shortcut. 
 {% endsnippet %}
  
-### Edit 
+## Edit 
 
 <table>
 	<tr>
@@ -122,7 +122,7 @@ The ***Play List*** feature in {{ en.RDM }} is a lot like a music play list. It 
 * [Create and Edit a Play List](/rdm/windows/commands/edit/edit/play-list/play-list-actions/) 
 * [Using a Play List](/rdm/windows/commands/edit/edit/play-list/play-list-management/) 
 
-### Setting Overrides 
+## Setting Overrides 
 
 <table>
 	<tr>
@@ -157,7 +157,7 @@ A Specific Settings column can be added in the ***{{ en.NPANE }}***. Right-click
 ![{{ en.NPANE }} - Column Chooser](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SpecificSettingsColumnChooser.png) 
 {% endsnippet %}
  
-### Batch 
+## Batch 
 
 <table>
 	<tr>
@@ -195,7 +195,7 @@ Transfer the selected entries to another {{ en.VLT }} in the database.
 	</tr>
 </table>
 
-### Export 
+## Export 
 
 <table>
 	<tr>

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Activate the Offline Mode in {{ en.DOD }}
+  title: Enable Offline Mode in {{ en.DOD }}
 ---
 To do so, edit your Devolutions Online Cloud Data Source (***File - Data Sources***).  
 ![!!KB4220.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4220.png)  

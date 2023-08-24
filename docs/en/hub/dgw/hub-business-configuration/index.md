@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Gateway configuration With {{ en.DHUBB }}
+  title: Devolutions Gateway configuration with {{ en.DHUBB }}
   order: 30
   description: Devolutions Gateway provides a flexible and secure alternative to VPNs, allowing for easy access management and efficient use of network resources.
 ---

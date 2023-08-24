@@ -16,7 +16,7 @@ Le module d’extension de KeePass est requis pour envoyer les identifiants à {
 KeePass 1.X n’est pas pris en charge. 
 {% endsnippet %}
  
-1. En raison de certains changements effectués dans {{ fr.RDM }}, le module d’extension de KeePass doit être téléchargé manuellement à l’aide du lien suivant : [module d’extension Keepass](https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.KeePassPlugin.2.1.2.0.zip). 
+1. En raison de certains changements effectués dans {{ fr.RDM }}, le module d’extension de KeePass doit être téléchargé manuellement à l’aide du lien suivant : [module d’extension KeePass](https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.KeePassPlugin.2.1.2.0.zip). 
 1. Une fois le téléchargement terminé, copier les fichiers .dll dans le fichier d’installation de KeePass (vous pouvez localiser votre dossier d'installation de KeePass avec le centre d’aide de KeePass). 
 {% snippet icon.badgeCaution %} 
 L’application KeePass doit être en cours d’exécution et la base de données ouverte. 

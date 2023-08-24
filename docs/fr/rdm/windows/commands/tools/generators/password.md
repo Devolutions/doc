@@ -302,4 +302,3 @@ L'application générera un mot de passe prononçable.
 
 L'application générera un mot de passe de 8 caractères avec des alphanumériques à casse mixte et des caractères spéciaux.  
 ![Générateur de mot de passe - Mot de passe fort](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10387.png) 
-

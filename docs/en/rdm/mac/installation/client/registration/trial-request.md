@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Trial Request
+  title: Trial request
   description: If you are not ready to buy {{ en.RDMMAC }}, you can use the Free Edition or follow these steps to request a free 30-day trial to use the Team Edition.
   keywords:
   - trial

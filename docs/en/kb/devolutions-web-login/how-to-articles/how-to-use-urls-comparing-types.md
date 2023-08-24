@@ -1,9 +1,8 @@
 ---
-title: How to use the URLs Comparing Types
+title: URL comparing types
 keywords:
 - matching
 ---
-
 Each URL in a ***Website*** entry has a comparing type associated to it. The comparing type determines if {{ en.DWL }} should offer the entry as an available entry to perform autofill.
 
 {% snippet icon.badgeCaution %}

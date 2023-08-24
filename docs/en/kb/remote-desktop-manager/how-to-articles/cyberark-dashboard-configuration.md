@@ -1,5 +1,5 @@
 ---
-title: CyberArk Dashboard Configuration and Use
+title: CyberArk Dashboard configuration and use
 ---
 The purpose of the ***CyberArk Dashboard*** entry is to provide {{ en.RDM }} users with an interface that eliminates the need to use Password Vault Web Access (PVWA) to see the list of safes and credentials that the currently logged on user has access to. Combined with password-less scenarios and/or our rich role-based access control (RBAC), this means that a user does NOT need to know the CyberArk credentials to be presented with a list of accounts they have access to. Additionally, since the dashboard is meant to authenticate once to your server and, most importantly, maintain an active session for as long as it is active, it has the significant advantage of only requiring MFA once when you launch the dashboard.
 

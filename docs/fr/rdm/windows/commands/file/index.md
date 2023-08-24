@@ -85,5 +85,3 @@ Pour plus d'informations, veuillez consulter la rubrique [Modèles](/fr/rdm/wind
 Modifier les options de l'application.  
 
 Pour plus d'informations, veuillez consulter la rubrique [Options](/fr/rdm/windows/commands/file/options/). 
-
-

@@ -1,13 +1,13 @@
 ---
-title: Sonicwall Global VPN Client
+title: Sonicwall Global VPN client
 ---
 The connection is not established.
-### Solution
+## Solution
 {{ en.RDM }} calls the command line interface (CLI) with supported parameters.  
 
 At this time (v4.9), the executable can be found in:  
 
-C:\Program Files\Dell SonicWALL\Global VPN Client\SWGVC.exe  
+**C:\Program Files\Dell SonicWALL\Global VPN Client\SWGVC.exe**  
 
 Call it as follows:  
 

@@ -1,5 +1,5 @@
 ---
-title: Import CSV as Password List with Hostnames
+title: Import a CSV file as a Password List with hostnames
 ---
 Here are the steps to import ***Password List*** entries with hostname.
 

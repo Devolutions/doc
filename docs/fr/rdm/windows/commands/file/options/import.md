@@ -18,7 +18,7 @@ DESCRIPTION
 Utiliser le fichier de configuration sélectionné comme une nouvelle 
 		</td>
 		<td>
-Utiliser le fichier RemoteDesktopManager.cfg comme nouveau fichier de configuration pour votre application. 
+Utiliser le fichier **RemoteDesktopManager.cfg** comme nouveau fichier de configuration pour votre application. 
 		</td>
 	</tr>
 	<tr>
@@ -26,7 +26,7 @@ Utiliser le fichier RemoteDesktopManager.cfg comme nouveau fichier de configurat
 Choisissez les options pour remplacer 
 		</td>
 		<td>
-Sélectionner les options à remplacer dans votre fichier RemoteDesktopManager.cfg. Voir ci-dessous pour plus d'informations. 
+Sélectionner les options à remplacer dans votre fichier **RemoteDesktopManager.cfg**. Voir ci-dessous pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -34,7 +34,7 @@ Sélectionner les options à remplacer dans votre fichier RemoteDesktopManager.c
 Créer une sauvegarde (.old) 
 		</td>
 		<td>
-Créer une sauvegarde de votre ancien RemoteDesktopManager.cfg 
+Créer une sauvegarde de votre ancien **RemoteDesktopManager.cfg**. 
 		</td>
 	</tr>
 </table>
@@ -43,5 +43,4 @@ Créer une sauvegarde de votre ancien RemoteDesktopManager.cfg
 
 ![Importateur de fichiers d'options](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10187.png) 
 
-Décider quelles options remplacer par celle de RemoteDesktopManager.cfg que vous souhaitez importer. Sélectionner ***Remplacer*** pour remplacer un paramètre existant par un nouveau ou sélectionner ***Ignorer*** si vous souhaitez conserver le paramètre que vous avez déjà. 
-
+Décider quelles options remplacer par celle de **RemoteDesktopManager.cfg** que vous souhaitez importer. Sélectionner ***Remplacer*** pour remplacer un paramètre existant par un nouveau ou sélectionner ***Ignorer*** si vous souhaitez conserver le paramètre que vous avez déjà. 

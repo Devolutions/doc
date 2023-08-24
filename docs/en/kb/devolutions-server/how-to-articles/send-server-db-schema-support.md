@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Send {{ en.DVLS }} Database Schema to Support
+  title: Send {{ en.DVLS }} database schema to Devolutions support
 ---
 Sometimes the support staff will ask for the {{ en.DVLS }} database schema. The following procedure describe how to export the database schema of your {{ en.DVLS }} instance.
 

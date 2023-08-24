@@ -1,18 +1,18 @@
 ---
-title: Setup an SSH Tunnel
+title: Set up an SSH tunnel
 ---
 SSH tunnelling is used to create an encrypted connection over an untrusted network. It consists of an encrypted tunnel created through an SSH protocol, providing secure connections for data transfer. The SSH Tunnel can be used to establish sort of a virtual private network (VPN) to access services across firewalls.  
 
 This is the procedure to establish a basic SSH Tunnel to reach a remote machine.  
 ![!!KB4520.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4520.png)
-## Create an SSH Tunnel
+## Create an SSH tunnel
 To create an SSH tunnel, local connections through a specified port must be forwarded to an SSH server.  
 
 To create an SSH tunnel a given port of one machine needs to be forwarded to a port on the other machine which will be the other end of the tunnel. Once the SSH tunnel has been established, the user can connect to earlier specified port at first machine to access the network service.
 1. Create an ***SSH Tunnel*** entry.  
 ![!!KB4521.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4521.png)  
 Set up the properties as follows:
-### SSH Server Settings
+### SSH server settings
 
 | Option         | Description |
 | -------------- | ----------- |
@@ -22,7 +22,7 @@ Set up the properties as follows:
 | Username       | Enter the SSH server username to connect. |
 | Password       | Enter the SSH server password to connect. |
 
-### Outgoing Tunnel Settings
+### Outgoing tunnel settings
 
 | Option        | Description |
 | ------------- | ----------- |

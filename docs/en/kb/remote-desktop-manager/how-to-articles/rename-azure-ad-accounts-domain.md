@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Rename Azure AD Accounts Domain
+  title: Rename Azure AD accounts domain
   description: If you are using {{ en.RDM }} with the Azure AD integration and change your Azure domain name and tenant, you will need to change them in {{ en.RDM }}.
 ---
 If you are using {{ en.RDM }} with the Azure AD integration and change your Azure domain name and tenant, you will need to change them in your database for users to be able to log in.

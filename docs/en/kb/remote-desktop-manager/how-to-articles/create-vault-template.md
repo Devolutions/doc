@@ -1,7 +1,7 @@
 ---
 title: Create a Vault Template
 ---
-Vault templates are available in {{ en.RDM }} 2022.1.11 and higher with advanced data sources. For lower versions of {{ en.RDM }} follow this [workaround](#workaround).
+***Vault Templates*** are available in {{ en.RDM }} 2022.1.11 and higher with advanced data sources. For lower versions of {{ en.RDM }} follow this [workaround](#workaround).
 
 {% snippet icon.badgeInfo %}
 This feature is not available with the {{ en.DVLS }} data source.

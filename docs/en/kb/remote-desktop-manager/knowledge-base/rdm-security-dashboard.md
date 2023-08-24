@@ -7,7 +7,7 @@ The scores are admittedly open to question and we do not pretend each topic has 
 
 ![!!KB4707.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4707.png)
 
-## Improvement Actions Items
+## Improvement actions items
 
 ### A default password template should be configured
 
@@ -114,7 +114,7 @@ In File - Options - Security - Application Security (local), choose Use applicat
 Description
 		</td>
 		<td>
-HTTPS is used to protect the communication between the client and the server hosting the data source. Traffic over HTTP is unencrypted and is susceptible to be intercepted and tampered by a malicious third-party.
+HTTPS is used to protect the communication between the client and the server hosting the data source. Traffic over HTTP is unencrypted and is susceptible to be intercepted and tampered by a malicious third party.
 		</td>
 	</tr>
 	<tr>

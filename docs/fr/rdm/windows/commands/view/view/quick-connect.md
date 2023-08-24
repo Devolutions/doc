@@ -4,7 +4,7 @@ title: Connexion rapide
 La ***Connexion rapide*** vous permet d'ouvrir une session ad hoc en spécifiant l'hôte et le type de session. Cette fonctionnalité est accessible via la barre d'outils ***Connexion rapide*** ou dans la section ***Affichage*** de l'onglet ***Affichage*** dans {{ fr.RDM }}.  
 ![Connexion rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2023.png) 
 
-### Paramètres 
+## Paramètres 
 
 {% snippet icon.badgeInfo %} 
 Notez que la barre d'outils ***Connexion rapide*** vous laisse spécifier uniquement un hôte, un ordinateur et un type de session. Pour avoir accès aux autres options disponibles dans la version fenêtrée, il faut utiliser l'icône ***Connexion rapide*** qui se trouve dans la section ***Affichage*** de l'onglet ***Affichage***. 
@@ -22,7 +22,6 @@ Cliquer sur le deuxième bouton à droite du champ ***Hôte*** affiche un menu p
 Cliquer sur le troisième bouton à droite du champ ***Hôte*** affiche un menu pour sélectionner une option précise pour ouvrir la session.  
 ![Menu déroulant du troisième bouton](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin0001.png 
 
-### Autres fonctions 
+## Autres fonctions 
 
 Vous pouvez choisir de cocher la case ***Fermer après la connexion*** dans le bas à gauche de la fenêtre ***Connexion rapide*** si vous désirez que la fenêtre se ferme par elle-même après avoir appuyé sur le bouton ***Se connecter*** et lorsque vous êtes connectés à la session. 
-

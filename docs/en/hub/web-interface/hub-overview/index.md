@@ -1,5 +1,5 @@
 ---
-title: Devolutions Hub Overview
+title: Devolutions Hub overview
 ---
 Navigate and explore the menus through the different sections of {{ en.DHUBB }} and manage your data.  
 ![!!Hub4093.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4093.png) 

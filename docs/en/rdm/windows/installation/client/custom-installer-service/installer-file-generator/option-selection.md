@@ -51,7 +51,7 @@ Includes your Internet proxy settings. This option is enabled by default.
 Saved installation paths 
 		</td>
 		<td>
-Preserves your installation paths configured for external third party applications. Use this only when all of the user's machines use the same paths. This option is enabled by default. 
+Preserves your installation paths configured for external third-party applications. Use this only when all of the user's machines use the same paths. This option is enabled by default. 
 		</td>
 	</tr>
 	<tr>

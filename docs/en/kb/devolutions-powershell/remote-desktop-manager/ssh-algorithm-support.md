@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: SSH Algorithm Support
+  title: SSH algorithm support
   description: In versions 2020.3.13.0 and later of {{ en.RDM }}, an error message can appear when opening a Secure Shell (SSH) connection.
   keywords:
   - SSH

@@ -25,7 +25,7 @@ The RunAs command is invoked from an entry of the ***Command line*** type. Creat
 
 ### Example 1: Running a command prompt as another user of the same workgroup/domain
 
-1. You can use the ellipsis button to browse for the runas.exe command, but if you are in a shared data source and the session is used on various operating systems, it is better to type in "%systemroot%\system32\runas.exe" because it will work on all of them.
+1. You can use the ellipsis button to browse for the runas.exe command, but if you are in a shared data source and the session is used on various operating systems, it is better to type in "**%systemroot%\system32\runas.exe**" because it will work on all of them.
 1. Append /user:$DOMAIN$\$USERNAME$, keeping it outside of the quotes. Note the use of two variables that will pull the appropriate value from other fields of the same session. For more information please consult the Variables topic.
 1. Append the name of the executable you want to run. Enclose it in quotes if the full path contains spaces. In our case we can simply add ***CMD***.  
 ![!!KB4573.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4573.png)
@@ -48,10 +48,10 @@ There are minor differences with Example 1, but here is the full procedure to ma
 Note that most of our entries now support NetOnly as a built in feature.
 {% endsnippet %}  
 
-1. You can use the ellipsis button to browse for the runas.exe command, but if you are in a shared data source and the session will be used on various operating systems, it is better to type in "%systemroot%\system32\runas.exe" because it will work on all of them.
+1. You can use the ellipsis button to browse for the runas.exe command, but if you are in a shared data source and the session will be used on various operating systems, it is better to type in "**%systemroot%\system32\runas.exe**" because it will work on all of them.
 1. Append /netonly /user:$DOMAIN$\$USERNAME$, keeping it outside of the quotes. Note the use of two variables that will pull the appropriate value from other fields of the same session. For more information please consult the Variables topic. Also note the use of the NetOnly parameter, it signals that the credentials will be used for network access only.
 1. Append the name of the Management Studio executable and its parameters. All this needs to be within the same double quotes
-    * SQL Server Management studio is located at "C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\Ssms.exe" on most machines, adapt to your situation if it is not the same.
+    * SQL Server Management studio is located at **C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\Ssms.exe** on most machines, adapt to your situation if it is not the same.
     * My parameters look like this: -S sql.windjammer.loc -E -S is for the server name, -E is to use windows authentication, you can even specify the database using -d __DB_NAME__ (i.e. -d rdm).  
 
 The result is **C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\Ssms.exe -S sql.windjammer.loc -E**.

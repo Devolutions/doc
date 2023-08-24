@@ -1,8 +1,8 @@
 ---
-title: Unable to Uninstall Missing MSI File
+title: Unable to uninstall – Missing MSI file
 ---
 Unable to uninstall {{ en.RDM }} from your computer because of a missing MSI file.
-### Solution
+## Solution
 To fix issues that you may encounter with the installation, removal of the application or missing MSI file, run the Microsoft Troubleshooting tool on your computer.  
 
 [https://support.microsoft.com/en-us/mats/program_install_and_uninstall](https://support.microsoft.com/en-us/mats/program_install_and_uninstall)  

@@ -17,4 +17,3 @@ You will be required to save the serial into the appropriate Devolutions applica
 To add a license click on the plus icon at the top right corner of the window. Then manually fill or import from the invoice the information to save.  
 
 ![!!Cloud4050.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4050.png) 
-

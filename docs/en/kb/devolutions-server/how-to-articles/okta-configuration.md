@@ -1,5 +1,5 @@
 ---
-title: Okta Configuration
+title: Okta configuration
 ---
 The following steps will describe how to configure Okta as an authenticator for {{ en.DVLS }}
 
@@ -53,7 +53,7 @@ If you do not copy the ***Token Value***, you will not be able to find it afterw
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The token inherits the rights of the user who creates it. This is important because your user must be able to list groups and users. Okta recommends the creation of a ***Service user*** for the creation of Api tokens. You can read more on the subject from this Okta topic: [Create an API token](https://developer.okta.com/docs/guides/create-an-api-token/main/)
+The token inherits the rights of the user who creates it. This is important because your user must be able to list groups and users. Okta recommends the creation of a ***Service user*** for the creation of Api tokens. You can read more on the subject on Okta's website from [Create an API token](https://developer.okta.com/docs/guides/create-an-api-token/main/).
 {% endsnippet %}
 
 ![!!KB4143.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4143.png)

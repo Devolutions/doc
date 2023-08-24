@@ -1,5 +1,5 @@
 ---
-title: Certificate Security Provider in a Published app Environment
+title: Certificate Security Provider in a published app environment
 ---
 When configuring a Certificate Security Provider in a published app environment (Citrix, RemoteApp, XenApp) as a Security Provider, the user who will run {{ en.RDM }} in the RemoteApp environment (Citrix) will require a Read permission on the certificate. If the Read permission is not correctly set, {{ en.RDM }} will generate the CryptographicException - Keyset does not exist error dialog.  
 ![!!KB4208.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4208.png)

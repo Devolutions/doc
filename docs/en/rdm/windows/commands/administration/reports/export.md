@@ -1,5 +1,5 @@
 ---
-title: Report Export
+title: Report export
 ---
 The Export Reports is a way to execute and export reports through a command line. You can use this feature in a shortcut or in a batch file and use the Windows task scheduler to execute it.  
 
@@ -38,7 +38,7 @@ DESCRIPTION
 C:\ 
 		</td>
 		<td>
-Enter the path used to start your {{ en.RDM }} application (path of the RemoteDesktopManager<area>.exe file) 
+Enter the path used to start your {{ en.RDM }} application (path of the RemoteDesktopManager.exe file) 
 		</td>
 	</tr>
 	<tr>

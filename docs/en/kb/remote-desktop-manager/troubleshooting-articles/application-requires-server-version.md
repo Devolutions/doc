@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Application Requires {{ en.DVLS }} Version Greater or Equal
+  title: Application requires {{ en.DVLS }} version greater or equal than...
 ---
 This application requires a {{ en.DVLS }} version greater or equal than...  
 ![!!KB4045.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4045.png)  

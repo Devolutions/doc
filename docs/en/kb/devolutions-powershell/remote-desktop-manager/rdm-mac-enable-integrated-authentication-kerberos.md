@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} enable integrated authentication with Kerberos
+  title: Remote Desktop Manager {{ en.MAC }} – Enable integrated authentication with Kerberos
 ---
-In order to use Integrated Authentication (Windows Authentication) on {{ en.MAC }}, you will need to setup a ***Kerberos ticket*** linking your current user to a Windows domain account. A summary of key steps are included below.  
+To use Integrated Authentication (Windows Authentication) on {{ en.MAC }}, you will need to setup a ***Kerberos ticket*** linking your current user to a Windows domain account. A summary of key steps are included below.  
 
 {% snippet icon.badgeWarning %}
 This experimental feature has worked in our internal tests and is a workaround to the integrated security feature which does not work on {{ en.MAC }} with SQL Server.  

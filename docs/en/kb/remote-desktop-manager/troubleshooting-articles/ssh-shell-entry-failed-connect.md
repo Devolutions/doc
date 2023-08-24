@@ -9,7 +9,7 @@ No authentication method available
 
 Errors appear when connecting with an SSH Shell in {{ en.RDM }} 2019.X.  
 ![!!KB4099.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4099.png)
-### Cause
+## Cause
 ***Interactive authentication*** in terminal is set to ***True*** under ***Advanced*** tab.  
 
 Under ***File – Options – Types – Terminal***, interactive authentication in terminal is also configurable.

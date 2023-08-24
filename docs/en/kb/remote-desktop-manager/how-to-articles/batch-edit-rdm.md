@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
-  title: Batch Edit in {{ en.RDM }}
+  title: Batch edit in {{ en.RDM }}
   status: Topic available in German language
 ---
-In {{ en.RDM }}, you can edit the properties of multiple entries or folders at once using the ***[Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/)*** or ***Edit (Special Actions)*** features.  
+In {{ en.RDM }}, you can edit the properties of multiple entries or folders at once using the [***Batch Edit***](/rdm/windows/commands/edit/batch/batch-edit/) or ***Edit (Special Actions)*** features.  
 
 ![Edit (Special Actions) and Batch Edit.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2104.png)
 
-## Entry/Folder Selection 
+## Entry/Folder selection 
 
 Entries and folders to be edited can be selected using the methods below. Choose the one that best suits your needs.
 
@@ -65,7 +65,7 @@ To filter your search by folder type, you must use the ***[Advanced Search](#adv
 
 Proceed to the [Batch Edit Actions](#edit) section for the next steps.
 
-## Batch Edit Actions
+## Batch Edit actions
 <a name="edit"></a>
 
 The ***Batch Edit*** feature allows you to perform the following actions:

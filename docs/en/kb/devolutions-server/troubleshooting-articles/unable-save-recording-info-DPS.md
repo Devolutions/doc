@@ -1,8 +1,9 @@
 ---
-title: Unable to Save Recording Info to DPS
-description: In {{ en.DVLS }}, in the processor.log file of the Recording Server, you may encounter the error message "Unable to save recording info to DPS".
-keywords:
-- recording server
+eleventyComputed:
+  title: Unable to save recording info to {{ en.DVLS }}
+  description: In {{ en.DVLS }}, in the processor.log file of the Recording Server, you may encounter the error message "Unable to save recording info to DPS".
+  keywords:
+  - recording server
 ---
 In {{ en.DVLS }}, in the processor.log file of the Recording Server, you may encounter the error message `Unable to save recording info to DPS`.
 ```
@@ -16,7 +17,7 @@ In {{ en.DVLS }}, in the processor.log file of the Recording Server, you may enc
 
 ## Solution
 
-Make sure that the DPSURL parameter in the processor.config file contains a URL that is reachable from the machine where the Recording Server is installed and that the URL does not end with "/".
+Make sure that the DPSURL parameter in the **processor.config** file contains a URL that is reachable from the machine where the Recording Server is installed and that the URL does not end with "/".
 ```
 <?xml version="1.0"?>
 <Settings>

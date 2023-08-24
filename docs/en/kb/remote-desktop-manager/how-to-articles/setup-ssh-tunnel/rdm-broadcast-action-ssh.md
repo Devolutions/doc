@@ -1,5 +1,5 @@
 ---
-title: Broadcast Action in SSH
+title: Broadcast actions in SSH sessions
 ---
 {% youtube '9FrSyzRvw30' %}  
 

@@ -4,10 +4,10 @@ title: VMware
 VMware tools make assumptions that their scripts are run in an interactive session and also present warnings the first time that they are run. As it stands today, you have to run commands interactively after you have installed or upgraded their tools.  
 
 The PowerCLI configuration has multiple scopes: ***Session***, ***User***, and ***AllUsers*** Please refer to their documentation for details and on how to properly configure as per your requirements.
-### Connection to the server failed!
+## Connection to the server failed!
 This error message is displayed for various reasons. For a quick diagnostic, launch the VMware vSphere PowerCLI shortcut of the same bitness (64 bit) as your {{ en.RDM }} Some commands will be listed in the table below to diagnose issues in sequence.  
 ![!!KB4121.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4121.png)
-### In the PowerShell window: error message appear but it is impossible to read them before the window closes
+## In the PowerShell window: error message appear but it is impossible to read them before the window closes
 {{ en.RDM }} ultimately sends a few commands in an encoded script, you can open a PowerShell window and type the following commands sequentially. This way you will have time to see the error messages.  
 
 The first command connects with the server, a password prompt will appear:  
@@ -17,17 +17,17 @@ The first command connects with the server, a password prompt will appear:
 The second command lists the virtual machines present on the server. It displays the Name and the ID.  
 
     Get-View -ViewType VirtualMachine |  select -Property Name, {$_.Moref.Value};
-### In the PowerShell window: there were one or many problem with the server certificates
+## In the PowerShell window: there were one or many problem with the server certificates
 You also see a message related to ***Set-PowerCLIConfiguration*** Please consult [https://www.vmware.com/support/developer/PowerCLI/PowerCLI51/html/Set-PowerCLIConfiguration.html](https://www.vmware.com/support/developer/PowerCLI/PowerCLI51/html/Set-PowerCLIConfiguration.html) and make an informed decision as what is the best course of action when you take your security concerns into account. For users that are comfortable in leaving the default certificate on the VMware server, you can launch a PowerShell command window and run the following:  
 
     set-PowerCLIConfiguration -invalidCertificateAction "ignore" -confirm:$false
-### In the PowerShell window: there is a question about multiple server support
+## In the PowerShell window: there is a question about multiple server support
 As described in their message, it will be the default value in a coming release. Please consult their documentation and make an informed decision, but most users should accept the Multiple option.
 ## Issues with vmware powercli
 The term 'connect-viserver' is not recognized as the name of a cmdlet, function, script file, or operable program. check the spelling of the name, or if a path was included, verify that the path is correct and try again
-### CAUSE
+### Cause
 This error occurs because the PowerCLI modules are not linked with PowerShell or the PowerCLI Module for the Connect-ViServer command is missing.
-### SOLUTION
+### Solution
 Check is VMware PowerCLI is installed.  
 
 Running Get-Module VM* -ListAvailable in PowerShell shows the list of VMware modules installed.  

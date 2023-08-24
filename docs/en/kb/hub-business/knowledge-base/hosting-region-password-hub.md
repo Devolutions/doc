@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Hosting Region for {{ en.DHUBB }}
+  title: Hosting region for {{ en.DHUBB }}
 ---
 {{ en.DHUBB }} is a cloud-based solution hosted with Microsoft Azure, a highly trusted cloud services provider, and encrypted with the strongest encryption standard: AES-256.
 

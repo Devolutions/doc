@@ -7,7 +7,7 @@ title: Désinstallation
 
 Vous pouvez exécuter le programme de désinstallation s'il a été installé avec le fichier de configuration par défaut ou supprimer le dossier d'installation directement s'il a été installé à partir des fichiers binaires.  
 
-Les fichiers de configuration d'application sont enregistrés par défaut dans ***%LocalAppData%\Devolutions\RemoteDesktopManager*** ou ***%AppData%\Devolutions\RemoteDesktopManager***. Si vous le souhaitez, il est possible de supprimer ce dossier pour une désinstallation complète. 
+Les fichiers de configuration d'application sont enregistrés par défaut dans **%LocalAppData%\Devolutions\RemoteDesktopManager** ou **%AppData%\Devolutions\RemoteDesktopManager**. Si vous le souhaitez, il est possible de supprimer ce dossier pour une désinstallation complète. 
 
 {% snippet icon.badgeInfo %} 
 Veuillez noter que si vous utilisez une source de données locale comme [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/) ou [XML](/fr/rdm/windows/data-sources/data-sources-types/xml/), votre source de données peut être enregistrée dans le dossier de configuration. Effectuez une sauvegarde de la source de données avant la suppression du dossier. 

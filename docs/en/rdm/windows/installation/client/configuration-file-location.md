@@ -4,7 +4,7 @@ keywords:
 - Terminal Service
 ---
 
-{{ en.RDM }} saves its configuration in a file named RemoteDesktopManager.cfg. This file contains most of the application settings. 
+{{ en.RDM }} saves its configuration in a file named **RemoteDesktopManager.cfg**. This file contains most of the application settings. 
 
 {% snippet icon.badgeInfo %} 
 You can retrieve the installation folder of {{ en.RDM }} by clicking ***File – Options – Advanced***. A hyperlink displays the installation folder. 
@@ -26,7 +26,7 @@ CONFIGURATION FILE LOCATION
 	</tr>
 	<tr>
 		<td>
-Installed under "Program Files" or "Program Files (x86)" 
+Installed under "**Program Files**" or "**Program Files (x86)**" 
 		</td>
 		<td>
 ```%LocalAppData%\Devolutions\RemoteDesktopManager```
@@ -56,7 +56,7 @@ Installation folder
 
 There are two ways to change the folder where the configuration file is stored:  
 
-1. Create a file named "Override.cfg" in the application folder. {{ en.RDM }} opens this file and reads the first line. It should contain the desired installation folder (without the file name). If you wish to use the current installation path, put a period in the file. Here are a few examples:  
+1. Create a file named "**Override.cfg**" in the application folder. {{ en.RDM }} opens this file and reads the first line. It should contain the desired installation folder (without the file name). If you wish to use the current installation path, put a period in the file. Here are a few examples:  
 
 <table>
 	<tr>
@@ -67,7 +67,7 @@ EXAMPLES
 	</tr>
 	<tr>
 		<td>
-c:\RDM 
+C:\RDM 
 		</td>
 		<td>
 The config file is saved in the designated folder. 
@@ -83,7 +83,7 @@ The period is used to specify the {{ en.RDM }} installation folder.
 	</tr>
 	<tr>
 		<td>
-%AppData%\Devolutions\RemoteDesktopManager 
+**%AppData%\Devolutions\RemoteDesktopManager** 
 		</td>
 		<td>
 Specify the application roaming data folder. 

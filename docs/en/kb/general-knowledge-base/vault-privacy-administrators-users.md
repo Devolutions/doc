@@ -1,5 +1,5 @@
 ---
-title: Vault Privacy for Administrators and Users
+title: Vault privacy for administrators and users
 ---
 The connection and password management solutions provided by Devolutions ({{ en.RDM }}, {{ en.DVLS }}, {{ en.DHUBB }}) offer a robust system that empowers administrators with complete and secure control over user vault management. However, it is natural for some customers to have concerns regarding the potential access to their "private" vaults by a malicious administrator. It is crucial to clarify the intended purpose of these "private" or "user" vaults, as they are primarily designed for personal corporate usage rather than personal private usage.  
 

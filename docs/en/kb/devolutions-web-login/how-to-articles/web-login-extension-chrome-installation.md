@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Web Login Extension Chrome Installation
+  title: Devolutions Web Login installation on Google Chrome
   description: Follow the steps to complete the installation of {{ en.DWL }} in the Chrome web browser. 
   keywords:
   - Browser

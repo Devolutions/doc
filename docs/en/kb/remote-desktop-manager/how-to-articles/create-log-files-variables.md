@@ -1,5 +1,5 @@
 ---
-title: Create Log Files with Variables
+title: Create log files with variables
 ---
 Our client often ask us what are the variables set to add the year, month, day and time to the name of their log files.
 The variable that must be used are:
@@ -20,4 +20,4 @@ $HOST$
 
 An example would be:
 
-C:\Users\Documents\$DATE_YEAR$.$DATE_MONTH$.$DATE_DAY$.$TIME_TEXT_ISO$.$NAME$.$HOST$.log
+**C:\Users\Documents\$DATE_YEAR$.$DATE_MONTH$.$DATE_DAY$.$TIME_TEXT_ISO$.$NAME$.$HOST$.log**

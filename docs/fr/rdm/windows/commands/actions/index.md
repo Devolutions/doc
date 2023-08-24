@@ -131,7 +131,6 @@ Ce mode vous permet d'ouvrir la connexion en plein écran, mais aussi d'avoir ac
 	</tr>
 </table>
 
-
 ### Paramètres 
 
 <table>
@@ -246,5 +245,3 @@ Enregistre votre écran en format MP4. Nous vous recommandons d'utiliser un lect
 
 Alternativement, ces actions sont également disponibles en cliquant avec le bouton droit sur l'onglet d'une session intégrée.  
 ![Menu Actions d'une session intégré](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10184.png) 
-
-

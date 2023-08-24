@@ -36,4 +36,4 @@ We also have GPOs that could help you achieve your goal. An example in this case
 
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceApplicationMFA  
 
-For more information about the configuration, consult [How to apply policies](/kb/remote-desktop-manager/how-to-articles/group-policies/).
+For more information about the configuration, consult [Apply policies](/kb/remote-desktop-manager/how-to-articles/group-policies/).

@@ -31,7 +31,7 @@ Dans cet objet, vous avez ce qui suit :
 `Show-Command <CommandName>`  
 {% endsnippet %}
  
-### Connexion 
+## Connexion 
 
 <table>
 	<tr>
@@ -103,7 +103,7 @@ Si All est fourni, déconnecte et supprime tous les PSHubContext de la session P
 	</tr>
 </table>
 
-### Contexte 
+## Contexte 
 
 <table>
 	<tr>
@@ -248,7 +248,7 @@ Avec l'argument SecurePassword, qui demandera la saisie du mot de passe sécuris
 	</tr>
 </table>
 
-### Paramètres système 
+## Paramètres système 
 
 Cette section concerne les commandes permettant de gérer les paramètres système. 
 
@@ -520,7 +520,7 @@ Si GroupId est fourni, définit une permission système pour ce groupe.
 	</tr>
 </table>
 
-### {{ fr.DGW }} 
+## {{ fr.DGW }} 
 
 Cette section concerne les commandes permettant de gérer {{ fr.DGW }}.  
 
@@ -638,7 +638,7 @@ Récupère les paramètres de {{ fr.DGW }}.
 	</tr>
 </table>
 
-### Coffre 
+## Coffre 
 
 Cette section concerne les commandes permettant de gérer les coffres.  
 
@@ -862,7 +862,7 @@ Si RoleId n'est pas fourni, récupère tous les rôles du coffre.
 	</tr>
 </table>
 
-### Utilisateur 
+## Utilisateur 
 
 Cette section concerne les commandes permettant de gérer les utilisateurs.  
 
@@ -981,7 +981,7 @@ Désactiver un utilisateur et enregistrer.
 	</tr>
 </table>
 
-### Groupe 
+## Groupe 
 
 Cette section concerne les commandes pour gérer les groupes.  
 
@@ -1096,7 +1096,7 @@ Supprime un ou des utilisateurs d'un groupe spécifique.
 	</tr>
 </table>
 
-### Entrée 
+## Entrée 
 
 Cette section concerne les commandes pour gérer les entrées. 
 

@@ -1,5 +1,5 @@
 ---
-title: Migration From One Type of Database to Another
+title: Migrate from one type of database to another
 ---
 {% snippet icon.badgeCaution %}
 For security, usability, and efficiency reasons, multiple data sources are tagged as deprecated in {{ en.RDM }}. Read more about it in the [Deprecated Data Sources](/kb/remote-desktop-manager/knowledge-base/deprecated-data-sources/) topic.

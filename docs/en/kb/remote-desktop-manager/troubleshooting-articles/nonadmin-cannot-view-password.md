@@ -1,5 +1,5 @@
 ---
-title: Non-admin users cannot view passwords
+title: Non-admin users are unable to view passwords
 keywords:
 - role
 ---

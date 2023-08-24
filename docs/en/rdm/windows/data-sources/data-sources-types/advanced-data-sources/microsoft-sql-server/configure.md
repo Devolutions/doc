@@ -8,7 +8,7 @@ Newly installed Microsoft SQL Server instances do not allow remote connections. 
  
 {% snippet icon.badgeInfo %} 
 For added security, you can enable SSL Encryption to communicate with your instance of SQL Server. However, due to a framework limitation, this is not compatible with our iOS and Android versions of {{ en.RDM }}. 
-Please follow directions on [https://support.microsoft.com/en-us/kb/316898](https://support.microsoft.com/en-us/kb/316898). 
+Please follow directions on [Configure SQL Server Database Engine for encrypting connections](https://learn.microsoft.com/en-US/sql/database-engine/configure-windows/configure-sql-server-encryption). 
 {% endsnippet %}
  
 2. Follow the steps in the [Create a data source](/rdm/windows/data-sources/create-new-data-source/) topic. On Step 4, after having configured the connection settings but before testing the server or otherwise verifying the connection, continue with the steps below. 

@@ -3,7 +3,7 @@ title: Password Policy
 ---
 Password Policy allows you to manage the different password policy and settings for your data source. For more information regarding the Password Complexity follow this link.  
 
-Some of these settings could be overridden using Group Policies. For more information see How to modify Group Policy Templates. 
+Some of these settings could be overridden using Group Policies.
 
 ## Settings 
 

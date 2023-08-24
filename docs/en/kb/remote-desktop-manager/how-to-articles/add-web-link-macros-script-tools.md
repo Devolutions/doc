@@ -1,5 +1,5 @@
 ---
-title: Add a Web Link in Macros/Script/Tools Session
+title: Add web links in Macros/Script/Tools sessions
 ---
 Macros/Scripts/Tools sessions can be used to open web links in {{ en.RDM }}.
 

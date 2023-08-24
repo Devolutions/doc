@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Move the {{ en.DVLS }} website at default website root
+  title: Move the {{ en.DVLS }} website at the default website root
 ---
 The following guide explains how to move the {{ en.DVLS }} web application on the root and set it as a web site. We recommend to first have a working {{ en.DVLS }} instance according to this guide for [Creating {{ en.DVLS }} Instance](/server/installation/create-server-instance/) We highly recommend to backup your current working installation before modifying any parameters in IIS Manager.
 
@@ -18,8 +18,8 @@ The following guide explains how to move the {{ en.DVLS }} web application on th
 1. Remove the {{ en.DVLS }} web application under Default Web Site.  
 ![!!KB4147.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4147.png)
 1. Open the File Explorer.
-1. Navigate to the installation folder of the {{ en.DVLS }} web application (i.e. c:\inetpub\wwwroot\dvls for this installation). The web application folder may differ according to your installation.
-1. Select all files and folders and move them under the root folder of the Default Web Site, c:\inetpub\wwwroot for this installation.  
+1. Navigate to the installation folder of the {{ en.DVLS }} web application (i.e., **C:\inetpub\wwwroot\dvls** for this installation). The web application folder may differ according to your installation.
+1. Select all files and folders and move them under the root folder of the Default Web Site, **C:\inetpub\wwwroot** for this installation.  
 ![!!KB4148.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4148.png)
 1. Navigate to the Default Web Site folder.
 1. Delete the iis-85.png and iisstart.htm files.  

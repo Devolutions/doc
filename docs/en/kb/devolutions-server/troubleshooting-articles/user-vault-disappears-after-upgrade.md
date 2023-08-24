@@ -1,5 +1,5 @@
 ---
-title: User Vault disappears after upgrade
+title: User vault disappears after upgrade
 ---
 With {{ en.DVLS }} 2021 came a remodeling of the User Vaults. After upgrading to 2021.1.x and higher some user could no longer be able to access their ***User Vault***.  
 

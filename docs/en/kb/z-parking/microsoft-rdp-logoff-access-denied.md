@@ -3,7 +3,7 @@ title: Microsoft RDP Logoff Access Denied
 ---
 Logoff access denied error or "unable to enumerate remote sessions".  
 
-This error occurs when using qwinsta.exe/rwinsta.exe or WTSOpenServer Windows API function to access to a Windows XP SP2 PC.  
+This error occurs when using **qwinsta.exe/rwinsta.exe** or WTSOpenServer Windows API function to access to a Windows XP SP2 PC.  
 
 The same thing happens when trying to connect to a Windows XP SP2 using Terminal Services Manager from a Windows 2003 Server. This is because qwinsta.exe command calls WTS functions (WTSOpenServer, WTSEnumerateSessions, …), you will encounter the same error when using either the command or the API.  
 
@@ -29,7 +29,7 @@ The same thing happens when trying to connect to a Windows XP SP2 using Terminal
 
     Local security policy: run secpol.msc > Security Settings > Local Policies > Security Options > Network access: Sharing and security model for local accounts, and set to Classic.  
 
-    Registry: find forceguest item in HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa, and set it to 0.  
+    Registry: find forceguest item in **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa**, and set it to 0.  
 
     Both methods are equivalent. If this option is set to 1, remote logging in user will be impersonated as Guest account (and if Guest account is disabled, login fails). Set it to 0 enables user logging in as themselves.  
 
@@ -41,6 +41,6 @@ The same thing happens when trying to connect to a Windows XP SP2 using Terminal
 
     This means the remote RPC component failed to execute the requested operation. It is because in Windows XP SP2, it is not allowed to operate on terminal service (Remote Desktop) through RPC by default. To modify this setting to enable Remote Desktop API through RPC, you need to find the following registry key:  
 
-    HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server  
+    **HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server**  
 
     Then add a DWORD value named “AllowRemoteRPC” and change its value to 1.  

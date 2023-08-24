@@ -3,7 +3,7 @@ title: Remote Desktop Manager iOS import data source configuration
 ---
 It is possible to import data source configuration files for {{ en.RDMIOS }}.
 
-### Export the data source
+## Export the data source
 
 1. In {{ en.RDM }} navigate to ***File - Data Sources***, select the data source to import on the iOS device, click on ***Export Data Source Configuration***, and ***Save*** therdd file on the computer.  
 ![!!KB4173.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4173.png)
@@ -13,7 +13,7 @@ It is possible to import data source configuration files for {{ en.RDMIOS }}.
 ![!!KB4175.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4175.png)
 1. Select therdd file exported from {{ en.RDM }} and click ***Open*** The file is now copied in the device but still needs to be imported in {{ en.RDMIOS }}'s file repository.
 
-### Import the data source
+## Import the data source
 
 1. From the iOS device, launch {{ en.RDM }} and tap ***More*** Navigate to the ***Tools*** section and select ***File Repository***.  
 ![!!KB4176.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4176.png)

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: How to apply policies
+  title: Apply policies
   description: Administrative Templates facilitate the management of registry-based policy settings, which can be applied on the computer and/or user configuration. Group policy (GPO) is a tool that enables your organization to enforce global settings on all computers, and at the same time, harden {{ en.RDM }} security.
   keywords:
   - silent
@@ -17,7 +17,7 @@ Administrative Templates are registry settings that are enforced by domains. The
 
 To learn more on how to deploy the {{ en.RDM }} Administrative Templates on your domain, please refer to the Microsoft Online Help.
 
-## How to list {{ en.RDM }} GPOs in the Local Group Policy Editor
+## List {{ en.RDM }} GPOs in the Local Group Policy Editor
 
 {% snippet icon.badgeInfo %}
 For now, the additional support is exclusively for the policies that require a numerical input higher than 0-1 (ex: ForceLockOnIdle).
@@ -944,4 +944,4 @@ Select the default tab for the ***{{ en.NPANE }}*** on launch
 
 ### Notes
 
-Note 1: For each GPO’s corresponding Registry Key, the %Root% can either be HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER, depending on how you want to enforce the policy. Please refer to [Microsoft's online documentation](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users) to make the best choice for your organization's requirements.
+Note 1: For each GPO’s corresponding Registry Key, the **%Root%** can either be **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER**, depending on how you want to enforce the policy. Please refer to [Microsoft's online documentation](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users) to make the best choice for your organization's requirements.

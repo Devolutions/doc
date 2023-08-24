@@ -2,7 +2,6 @@
 eleventyComputed:
   title: Issue using {{ en.DWL }} with Localhost with HTTPS
 ---
-
 {{ en.DWL }} will probably never work with HTTPS for a few reasons:
 
 1. Need to generate a certificate which will cause a lot of issues when communicating with native apps [Certificates for localhost](https://letsencrypt.org/docs/certificates-for-localhost/)

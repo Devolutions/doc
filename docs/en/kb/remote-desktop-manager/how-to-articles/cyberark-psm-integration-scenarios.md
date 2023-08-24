@@ -130,7 +130,7 @@ Note: You must tick the ***Generate Direct Mapping*** check box.
 
 ## Synchronization (Using the {{ en.RDM }} Synchronizer entry)  
 {% snippet icon.badgeInfo %}
-Both those techniques are used to connect to a third party repository. The first one will connect to a domain controller, and list the servers and computers according to filters and settings.
+Both those techniques are used to connect to a third-party repository. The first one will connect to a domain controller, and list the servers and computers according to filters and settings.
 {% endsnippet %}  
 
 The general approach and principle of using synchronizers are to keep a list of servers updated from an external information repository, such as Domain Controller, VM host, or even a simple CSV file exported periodically from another system.  

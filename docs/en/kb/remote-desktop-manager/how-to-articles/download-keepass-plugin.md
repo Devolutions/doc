@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Download the KeePass Plugin
+  title: Download the KeePass plugin
   description: You need the KeePass Plug-in to send the credential to {{ en.RDM }}.
   keywords:
   - KeePass
@@ -10,14 +10,14 @@ eleventyComputed:
 
 You need the KeePass Plug-in to send the credential to {{ en.RDM }} (RDM).
 
-![Keepass plug-in is not installed](https://webdevolutions.azureedge.net/docs/en/kb/KB4021.png) 
+![KeePass plug-in is not installed](https://webdevolutions.azureedge.net/docs/en/kb/KB4021.png) 
 
 {% snippet icon.badgeCaution %}
 KeePass 1.X is not supported.
 {% endsnippet %}
  
-1. Due to the changes made in {{ en.RDM }} with add-on, you will need to download the Keepass plugin manually using this link: [KeePass Plugin](https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.KeePassPlugin.2.1.2.0.zip).
-1. When the download is finished, copy the .dll files in the Keepass installation folder (you can locate your KeePass installation folder with the help of the Keepass Help Center). 
+1. Due to the changes made in {{ en.RDM }} with add-on, you will need to download the KeePass plugin manually using this link: [KeePass Plugin](https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.KeePassPlugin.2.1.2.0.zip).
+1. When the download is finished, copy the .dll files in the KeePass installation folder (you can locate your KeePass installation folder with the help of the KeePass Help Center). 
 {% snippet icon.badgeCaution %} 
 The KeePass application must be running and the database must be opened. 
 {% endsnippet %}

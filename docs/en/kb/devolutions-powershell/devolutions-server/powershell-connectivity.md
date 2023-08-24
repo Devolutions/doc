@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: PowerShell Connectivity Methods to {{ en.DVLS }}
+  title: PowerShell connectivity methods to {{ en.DVLS }}
   description: The following methods describe how to connect to {{ en.DVLS }} using PowerShell.
   keywords:
   - PowerShell

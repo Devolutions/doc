@@ -1,11 +1,11 @@
 ---
-title: Remote Install with PSExec
+title: Remote installation with PSExec
 ---
 When you need to perform a remote installation, you have multiple options. Such as a domain policy, a logon script or PSExec.
 
 Depending on the way the security is configured on the remote computer, you may run into issues where even an administrator cannot install an application properly. For these cases, you need to run PSExec in the context of the system account.
 
-First of all, you will need to install the Sysinternals tools from Microsoft, because you will need the help of PSExec.exe in the execution of this script. ([https://technet.microsoft.com/en-us/sysinternals/bb842062](https://technet.microsoft.com/en-us/sysinternals/bb842062))
+First of all, you will need to install the Sysinternals tools from Microsoft, because you will need the help of **PSExec.exe** in the execution of this script. ([https://technet.microsoft.com/en-us/sysinternals/bb842062](https://technet.microsoft.com/en-us/sysinternals/bb842062))
 
 Then, download the *.msi or the *.exe of the application you wish to install and save the file on a shared drive that is accessible from the remote computer.
 

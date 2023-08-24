@@ -4,7 +4,7 @@ title: Key not present in the dictionary
 After upgrading, {{ en.RDM }} gives the following error message: The given key was not present in the dictionary.  
 ![!!KB4900.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4900.png)
 
-### Solution
+## Solution
 
 This is a Microsoft bug, but there is a workaround.  
 

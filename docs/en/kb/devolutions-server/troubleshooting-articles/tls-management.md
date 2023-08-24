@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: TLS Management
+  title: TLS management
   description: TLS can be blocked inside organization and they request Devolutions help regarding the managements of TLS inside {{ en.DVLS }} or any other Devolutions product.
   keywords:
   - TLS

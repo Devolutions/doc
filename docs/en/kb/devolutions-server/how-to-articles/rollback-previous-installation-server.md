@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: How-to Rollback to a Previous Installation of {{ en.DVLS }}
+  title: Roll back to a previous installation of {{ en.DVLS }}
 ---
 You have performed a {{ en.DVLS }} upgrade or the hosting machine crashed, but for any reason, you would like to go back to the previous version that you were running.
 

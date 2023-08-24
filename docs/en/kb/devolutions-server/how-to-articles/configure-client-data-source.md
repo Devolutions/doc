@@ -1,5 +1,5 @@
 ---
-title: Configure Client Data Source
+title: Configure a client data source
 ---
 1. In {{ en.RDM }} select ***File - Data Sources***.  
 ![!!KB4365.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4365.png)
@@ -19,4 +19,4 @@ If you specify %USERDOMAIN%\%USERNAME% in the user credential text area, the val
 
 ## Notes
 
-If the server is configured to only allow SSL, ensure you specify the protocol by using https:// as the protocol. 
+If the server is configured to only allow SSL, ensure you specify the protocol by using https:// as the protocol.

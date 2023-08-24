@@ -1,5 +1,5 @@
 ---
-title: Upgrade Process Issue
+title: Upgrade process issues
 ---
 Following an upgrade of {{ en.DVLS }}, it triggers error messages like SQLException - Invalid column name in the logs or Error: cannot read property 'children' of null error message on the {{ en.DVLS }} web interface.
 

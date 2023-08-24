@@ -1,5 +1,5 @@
 ---
-title: Remote Desktop Manager Android Import Data Source Configuration
+title: Remote Desktop Manager Android import data source configuration
 ---
 It is possible to import data source configuration files for {{ en.RDMANDROID }}.
 

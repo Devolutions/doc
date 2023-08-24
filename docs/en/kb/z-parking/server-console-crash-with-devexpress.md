@@ -34,6 +34,6 @@ at DevExpress.Utils.Win.Hook.HookManager.WndHook(Int32, IntPtr, IntPtr)
 Follow these instructions to be able to open the {{ en.DVLSCONSOLE }}.
 
 1. On the server where your {{ en.DVLS }} instance is hosted, navigate to the following folder.
-%appdata%\Devolutions\DPSConsole
-1. Delete the DPSConsole.ext file.
+**%appdata%\Devolutions\DPSConsole**
+1. Delete the **DPSConsole.ext** file.
 2. Restart the {{ en.DVLSCONSOLE }}.

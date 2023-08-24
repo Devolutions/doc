@@ -29,5 +29,3 @@ Au lieu de sélectionner une source de données par défaut, vous pouvez sélect
 ### Paramètres des Sources de données 
 
 Les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) peuvent contenir des paramètres spécialisés ou des stratégies globales. Ces paramètres sont enregistrés directement dans la base de données. 
-
-

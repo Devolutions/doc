@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Run {{ en.RDM }} under Application Verifier
-  description: The Microsoft Remote Destop Protocol (MSRDP) loads a lot of systems and third party codes when it runs; and a misbehaving or buggy driver or module can cause crashes and other weird behaviour inside the Microsoft Terminal Services Client (MSTSC). When this happens in {{ en.RDM }}, it causes the application to crash.
+  description: The Microsoft Remote Destop Protocol (MSRDP) loads a lot of systems and third-party codes when it runs; and a misbehaving or buggy driver or module can cause crashes and other weird behaviour inside the Microsoft Terminal Services Client (MSTSC). When this happens in {{ en.RDM }}, it causes the application to crash.
 ---
-Microsoft Remote Destop Protocol (MSRDP) loads a lot of systems and third party codes when it runs; and a misbehaving or buggy driver or module can cause crashes and other weird behaviour inside Microsoft Terminal Services Client (MSTSC). When this happens in {{ en.RDM }}, it causes the application to crash.  
+Microsoft Remote Destop Protocol (MSRDP) loads a lot of systems and third-party codes when it runs; and a misbehaving or buggy driver or module can cause crashes and other weird behaviour inside Microsoft Terminal Services Client (MSTSC). When this happens in {{ en.RDM }}, it causes the application to crash.  
 
 ## Solution
 
@@ -19,9 +19,9 @@ Follow the instructions below to obtain the information you need to send to our 
 1. Once the installation is complete, open Application Verifier.  
 1. Go to ***File – Add Application*** or use the Ctrl+A shortcut.  
 ![File – Add Application](https://webdevolutions.azureedge.net/docs/en/kb/KB2249.png)  
-1. In the file chooser, select the {{ en.RDM }} application (C:\Program Files\Devolutions\Remote Desktop Manager\RemoteDesktopManager.exe). It will be added to the ***Applications*** list on the left.  
+1. In the file chooser, select the {{ en.RDM }} application (**C:\Program Files\Devolutions\Remote Desktop Manager\RemoteDesktopManager.exe**). It will be added to the ***Applications*** list on the left.  
 ![RemoteDesktopManager.exe](https://webdevolutions.azureedge.net/docs/en/kb/KB2250.png)  
-1. Select RemoteDesktopManager.exe in the ***Applications*** list, then under ***Tests***, ensure that all check boxes under ***Basics*** are selected.
+1. Select **RemoteDesktopManager.exe** in the ***Applications*** list, then under ***Tests***, ensure that all check boxes under ***Basics*** are selected.
 ![Basics](https://webdevolutions.azureedge.net/docs/en/kb/KB2251.png)  
 1. Click ***Save***. You can close Application Verifier after the configuration is done.  
 

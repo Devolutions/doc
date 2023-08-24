@@ -13,7 +13,7 @@ The offline mode file is first encrypted using our own private key mixed with so
 
 Please note that there is no Read/Write level permission for the Offline Mode on the {{ en.RDMIOS }} application.  
 
-### Offline Mode
+## Offline Mode
 
 ![!!KB4158.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4158.png)  
 

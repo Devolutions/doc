@@ -1,5 +1,5 @@
 ---
-title: Syslog Documentation
+title: Syslog documentation
 ---
 The following information describes the Message type and the subtype of records sent from {{ en.DVLS }} to a Syslog server.
 

@@ -19,19 +19,19 @@ What happens if you run the following at the command prompt?
 
 `rasphone -d <connectionname> -f <phonebookpath>`  
 
-### Problem 1
+## Problem 1
 
 Remote access error 623.  
 
 ![!!KB4079.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4079.png)
-### Solution 1
+### Solution
 
 Ensure that within the phonebook, the vpn definition name does contain a space character.
 
-### Problem 2
+## Problem 2
 
 Password with quotation marks.
 
-### Solution 2
+### Solution
 
 Quotation mark (") is not a valid character and should not be used in the password of a Microsoft VPN entry.

@@ -1,9 +1,9 @@
 ---
-title: Keeper Credential Entry Settings
+title: Keeper Credential Entry settings
 ---
 Keeper is one of the multiple external password managers integrated in {{ en.RDM }}
 
-### Settings
+## Settings
 
 ***Login type*** determines the method that {{ en.RDM }} will use to connect to Keeper.  
 

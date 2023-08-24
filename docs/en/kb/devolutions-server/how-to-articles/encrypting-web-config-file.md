@@ -1,16 +1,16 @@
 ---
-title: Encrypting the web.config File
+title: Encrypting the web.config file
 description: When using SQL Server Login or Domain accounts, encrypting the web.config file is of the utmost importance.
 keywords:
 - encryption
 ---
 ## Using SQL Server Login Accounts
 
-When using SQL Server Login accounts, encrypting the web.config file is of the utmost importance.
+When using SQL Server Login accounts, encrypting the **web.config** file is of the utmost importance.
 
-- The web.config file stores the database connection strings, which contain the HostName of the database server (Data Source), the name of the database (Initial Catalogue), and the credentials (User ID and Password), thus the importance of encrypting it.
+- The **web.config** file stores the database connection strings, which contain the HostName of the database server (Data Source), the name of the database (Initial Catalogue), and the credentials (User ID and Password), thus the importance of encrypting it.
 
-However, since encrypting the web.config file uses ***RsaProtectedConfigurationProvider*** from .NET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
+However, since encrypting the **web.config** file uses ***RsaProtectedConfigurationProvider*** from .NET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
 
 {% snippet icon.badgeCaution %}
 Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, and will also cause this prompt when enabling the ***Encypt web.config file*** option.  
@@ -22,7 +22,7 @@ Granting access to the ***NetFrameworkConfigurationKey*** container could be a s
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The appsettings.json file is encrypted at the same time.
+The **appsettings.json** file is encrypted at the same time.
 {% endsnippet %}
 
 We recommend to use a dedicated account for the ***DevolutionsSchedulerService*** service, and set this account to run the service under.  
@@ -46,11 +46,11 @@ Succeeded!
 
 ## Using SQL Server Domain Accounts (Integrated Security)
 
-When using SQL Server Domain accounts, encrypting the web.config file is of the utmost importance.
+When using SQL Server Domain accounts, encrypting the **web.config** file is of the utmost importance.
 
-- The web.config file store the database connection strings, which contain the HostName of the database server (Data Source) and the name of the database (Initial Catalogue).
+- The **web.config** file store the database connection strings, which contain the HostName of the database server (Data Source) and the name of the database (Initial Catalogue).
 
-However, since encrypting the web.config file uses ***RsaProtectedConfigurationProvider*** from .NET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
+However, since encrypting the **web.config** file uses ***RsaProtectedConfigurationProvider*** from .NET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
 
 {% snippet icon.badgeCaution %}
 Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, likely giving this error from Windows Services Console:  
@@ -58,7 +58,7 @@ Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, l
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The appsettings.json file is encrypted at the same time.
+The **appsettings.json** file is encrypted at the same time.
 {% endsnippet %}
 
 The account set on the ***DevolutionsSchedulerService*** (referred to as the VaultDBScheduler account in Pre-Deployment Account Survey) will require permission to read the ***NetFrameworkConfigurationKey*** container.

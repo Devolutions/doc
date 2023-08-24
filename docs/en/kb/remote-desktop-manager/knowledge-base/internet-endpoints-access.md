@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: List of Internet Endpoints Accessed by {{ en.RDM }}
+  title: List of Internet endpoints accessed by {{ en.RDM }}
   description: This is the list of addresses that are accessed by {{ en.RDM }} during normal operation, as well as the setting(s) to disable/prevent this access.
   keywords: 
   - endpoints

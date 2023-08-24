@@ -1,8 +1,8 @@
 ---
-title: Enable Emergency Login Code Authentication
+title: Enable emergency login code authentication
 ---
 In {{ en.DVLS }} you can enable the feature for an emergency access to allow login for administrators even if providers are down (Azure or AD).
-### Settings
+## Settings
 1. In the {{ en.DVLS }} Web interface, validate that you have an email server (SMTP) configured under ***Administration - Server Settings - Email***.
 1. Enable the feature ***Enable Emergency Code authentication*** in ***Administration - Server Settings - Authentication***.  
 ![!!KB4988.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4988.png)
@@ -16,7 +16,7 @@ Each administrator will have to configure an email to receive the emergency code
 
 ![!!KB4989.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4989.png)
 
-### End User Experience
+## End User Experience
 On login, the option to do an ***Emergency Login*** will become available.  
 
 1. Click ***Emergency Login***.  

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:  
-  title: Scheduler Service General Information
+  title: Scheduler Service general information
   description: The Scheduler Service is a {{ en.DVLS }} component in charge of several features of {{ en.DVLS }}.
   keywords:
   - scheduler
@@ -54,7 +54,7 @@ Refer to [Encrypting the web.config File](/kb/devolutions-server/how-to-articles
 ### When using SQL Accounts
 
 * The identity used against the database is set in the {{ en.DVLSCONSOLE }} in ***Server – Edit – Database***, ***Scheduler Service***.
-* The service runs by default with Network Service. This account cannot decrypt a web.config file by default, and it is not recommended to do so without proper knowledge.
+* The service runs by default with Network Service. This account cannot decrypt a **web.config** file by default, and it is not recommended to do so without proper knowledge.
 
 {% snippet icon.badgeHelp %}
 Refer to [Encrypting the web.config File](/kb/devolutions-server/how-to-articles/encrypting-web-config-file/).
@@ -63,7 +63,7 @@ Refer to [Encrypting the web.config File](/kb/devolutions-server/how-to-articles
 ## Enable Scheduler Logging
 
 1. In the {{ en.DVLS }} web UI, go to ***Administration – Server Settings – Logging***.
-1. Check ***Log debug information***, then specify a ***Scheduler log path*** to store the log files. The folder location is relative to the scheduler service (C:\ is the C drive of the server).
+1. Check ***Log debug information***, then specify a ***Scheduler log path*** to store the log files. The folder location is relative to the scheduler service (**C:\** is the C drive of the server).
 ![Log debug information and Scheduler log path](https://webdevolutions.azureedge.net/docs/en/kb/KB2237.png)
 1. Save your changes before leaving the ***Logging*** section.
 1. If it is not already the case, configure the identity running the scheduler so that it has the ***Write*** permission since it must write in the folder.

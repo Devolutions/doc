@@ -20,26 +20,26 @@ The paths mentioned in this topic are for those that have installed using the de
 Please ensure you close the application before going further.
 {% endsnippet %}
 
-1. Download {{ en.RDM }} Team Edition from our [website](https://devolutions.net/remote-desktop-manager/home/download)
+1. Download {{ en.RDM }} Team Edition from our [website](https://devolutions.net/remote-desktop-manager/home/download).
 1. Install {{ en.RDM }} Team Edition.
 1. Launch the application once to have its own configuration folder initialized, then close it.
-1. Open an explorer window to %localappdata%\Devolutions\RemoteDesktopManagerFree.
-1. Open a second explorer window to %localappdata%\Devolutions\RemoteDesktopManager.
-1. From the Free Edition explorer window, copy the following files to the RemoteDesktopManager folder:  
+1. Open an explorer window to **%localappdata%\Devolutions\RemoteDesktopManagerFree**.
+1. Open a second explorer window to **%localappdata%\Devolutions\RemoteDesktopManager**.
+1. From the Free Edition explorer window, copy the following files to the **RemoteDesktopManager** folder:  
 
-* RemoteDesktopManagerFree.cfg  
-* RemoteDesktopManagerFree.stv  
-* RemoteDesktopManagerFree.enc  
-* RemoteDesktopManagerFree.ext  
-* Connections.db. (default name of the Local Data Source)  
-* Any and ALL other data source files identified in the Data sources list  
+* **RemoteDesktopManagerFree.cfg**  
+* **RemoteDesktopManagerFree.stv**  
+* **RemoteDesktopManagerFree.enc**  
+* **RemoteDesktopManagerFree.ext**  
+* **Connections.db. (default name of the local data source)**  
+* Any and ALL other data source files identified in the data sources list  
 
 7. Rename the copied files to remove the "Free" suffix:  
 
-* RemoteDesktopManagerFree.cfg to RemoteDesktopManager.cfg  
-* RemoteDesktopManagerFree.stv to RemoteDesktopManager.stv  
-* RemoteDesktopManagerFree.enc to RemoteDesktopManager.enc  
-* RemoteDesktopManagerFree.ext to RemoteDesktopManager.ext  
+* **RemoteDesktopManagerFree.cfg** to **RemoteDesktopManager.cfg**  
+* **RemoteDesktopManagerFree.stv** to **RemoteDesktopManager.stv**  
+* **RemoteDesktopManagerFree.enc** to **RemoteDesktopManager.enc**  
+* **RemoteDesktopManagerFree.ext** to **RemoteDesktopManager.ext**  
 
 8. Run the Team Edition and ensure all of your data sources are available.
 1. Uninstall the Free Edition only when you are sure that everything is working as expected.  

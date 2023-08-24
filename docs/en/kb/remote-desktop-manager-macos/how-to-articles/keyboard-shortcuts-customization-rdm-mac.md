@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Keyboard Shortcuts Customization in {{ en.RDMMAC }}
+  title: Keyboard shortcuts customization in {{ en.RDMMAC }}
 ---
 In {{ en.RDMMAC }}, you can <a href="#modify">customize individual shortcuts</a> and <a href="#ignore">specify key combinations to be ignored</a> by embedded sessions. These options are found in ***File – Preferences – User Interface – Shortcuts***.
 

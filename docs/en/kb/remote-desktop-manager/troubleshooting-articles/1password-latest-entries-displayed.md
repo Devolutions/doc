@@ -1,5 +1,5 @@
 ---
-title: 1Password Latest Entries are Displayed
+title: 1Password – Only latest entries are displayed
 ---
 When you create a new 1Password Credential entry, only the latest entries added to 1Password are displayed.
 ## Solution

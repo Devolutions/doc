@@ -31,7 +31,7 @@ Les scores sont évidemment sujets à caution et nous ne prétendons pas que cha
 
 |             |     |
 | ----------- | --- |
-| Description | Les informations sensibles sont stockées dans le fichier de configuration web.config. Il est recommandé d'activer le chiffrement pour empêcher toute altération et garantir la confidentialité. |
+| Description | Les informations sensibles sont stockées dans le fichier de configuration **web.config**. Il est recommandé d'activer le chiffrement pour empêcher toute altération et garantir la confidentialité. |
 
 ### Le nombre d'administrateurs ne devrait pas dépasser 5
 

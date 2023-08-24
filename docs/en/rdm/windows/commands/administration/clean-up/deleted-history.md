@@ -1,5 +1,5 @@
 ---
-title: Clean Up Deleted History
+title: Clean up deleted history
 ---
 The ***Deleted History*** permanently delete entries that had been previously deleted. Full history is always preserved because every entry “version“ is kept in historical tables. 
 
@@ -20,5 +20,3 @@ You must be an administrator of the data source to perform this action.
 {% snippet icon.badgeWarning %} 
 There will be no backup of your History. We strongly recommend to do a [Backup](/rdm/windows/commands/file/backup/) before proceeding. 
 {% endsnippet %}
- 
-

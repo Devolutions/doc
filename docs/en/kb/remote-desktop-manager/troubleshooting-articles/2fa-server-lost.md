@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: 2FA set on {{ en.DVLS }} lost
+  title: Lost the 2FA set on {{ en.DVLS }}
 ---
 This solution applies if you have set a 2FA on a {{ en.DVLS }} users and they lost their phone or lock themselves out of the data source.
 ## Solution

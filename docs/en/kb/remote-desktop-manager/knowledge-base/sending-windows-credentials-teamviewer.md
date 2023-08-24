@@ -1,5 +1,5 @@
 ---
-title: Sending Windows Credentials Inside TeamViewer
+title: Sending Windows credentials to TeamViewer
 ---
 Many users have requested the ability to automate the login process on a Windows system through TeamViewer.  
 

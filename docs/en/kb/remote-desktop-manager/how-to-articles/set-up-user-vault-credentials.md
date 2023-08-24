@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Set Up {{ en.UVLT }} Credentials in {{ en.RDM }}
+  title: Set up {{ en.UVLT }} credentials in {{ en.RDM }}
   description: You can configure an entry to apply credentials that are in your {{ en.UVLT }} without affecting other users' settings.
   keywords:
   - User Vault credentials

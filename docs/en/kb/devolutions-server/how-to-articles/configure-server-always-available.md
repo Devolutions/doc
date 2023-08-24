@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configure {{ en.DVLS }} to be Always Available
+  title: Configure {{ en.DVLS }} to always be available
 ---
 To prevent that the {{ en.DVLS }} web application will recycle periodically and to be on idle mode, please follow these instructions.
 

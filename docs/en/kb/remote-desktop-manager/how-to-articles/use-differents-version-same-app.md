@@ -1,5 +1,5 @@
 ---
-title: Use Differents Version of Same Application
+title: Use different versions of the same application
 ---
 You have 2 different version of an application installed on your workstation and you want to be able to use both versions inside {{ en.RDM }}
 
@@ -11,4 +11,4 @@ When you configure your application installation path in ***File – Options –
 
 ### Example
 
-C:\Program Files\Appsv1 ; D:\Program Files\Appsv2
+**C:\Program Files\Appsv1 ; D:\Program Files\Appsv2**

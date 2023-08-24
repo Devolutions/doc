@@ -1,5 +1,5 @@
 ---
-title: How to Export and Import Vaults
+title: Export and import vaults
 ---
 It is possible to export and import multiple vaults from one type of advanced data source to another.
 

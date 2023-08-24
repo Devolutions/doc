@@ -21,7 +21,7 @@ DESCRIPTION
 Use the selected configuration file as the new one 
 		</td>
 		<td>
-Use the RemoteDesktopManager.cfg file as a new configuration file for your application. 
+Use the <b>RemoteDesktopManager.cfg</b> file as a new configuration file for your application. 
 		</td>
 	</tr>
 	<tr>
@@ -29,7 +29,7 @@ Use the RemoteDesktopManager.cfg file as a new configuration file for your appli
 Choose options to replace 
 		</td>
 		<td>
-Select which options to replace in your actual RemoteDesktopManager.cfg file. See below for more information. 
+Select which options to replace in your actual <b>RemoteDesktopManager.cfg</b> file. See below for more information. 
 		</td>
 	</tr>
 	<tr>
@@ -37,7 +37,7 @@ Select which options to replace in your actual RemoteDesktopManager.cfg file. Se
 Create a backup (.old) 
 		</td>
 		<td>
-Create a backup of your old RemoteDesktopManager.cfg. 
+Create a backup of your old <b>RemoteDesktopManager.cfg</b>. 
 		</td>
 	</tr>
 </table>
@@ -46,5 +46,4 @@ Create a backup of your old RemoteDesktopManager.cfg.
 
 ![Application Options File Importer](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10187.png) 
 
-Decide which options to replace with the one from RemoteDesktopManager.cfg that you wish to import. Select ***Replace*** to replace an existing setting with a new one or select ***Ignore*** if you want to keep the setting that you already have. 
-
+Decide which options to replace with the one from <b>RemoteDesktopManager.cfg</b> that you wish to import. Select ***Replace*** to replace an existing setting with a new one or select ***Ignore*** if you want to keep the setting that you already have. 

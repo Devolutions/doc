@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager Android Import {{ en.DOD }}
+  title: Remote Desktop Manager Android import {{ en.DOD }}
 ---
 The {{ en.DOD }} stores and synchronizes your remote connections and credentials online.
 

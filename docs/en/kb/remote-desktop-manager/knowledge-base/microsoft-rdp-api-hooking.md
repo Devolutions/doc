@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP API Hooking
+title: Microsoft RDP API hooking
 ---
 Since {{ en.RDM }} 2022.2, Microsoft RDP API hooking is available and enabled by default. API hooking is required to extend the functionality of the Microsoft RDP client in both embedded (ActiveX) and external modes (mstsc).  
 
@@ -19,7 +19,7 @@ The Microsoft RDP API hooking module will be loaded on the first Microsoft RDP c
 
 ### Microsoft RDP Logging
 
-Microsoft RDP API hooking makes it possible to log internal events and options that were not possible previously. If you encounter issues, go to ***File – Options – Types – Remote Desktop – API Hooking*** and set the ***Log level*** to ***Debug*** Restart {{ en.RDM }} to obtain log files under %LocalAppData%\MsRdpEx which you can then send to the [support team](mailto:service@devolutions.net) to help diagnose issues.
+Microsoft RDP API hooking makes it possible to log internal events and options that were not possible previously. If you encounter issues, go to ***File – Options – Types – Remote Desktop – API Hooking*** and set the ***Log level*** to ***Debug*** Restart {{ en.RDM }} to obtain log files under **%LocalAppData%\MsRdpEx** which you can then send to the [support team](mailto:service@devolutions.net) to help diagnose issues.
 
 ### {{ en.DGW }}
 
@@ -31,4 +31,4 @@ Once Microsoft RDP API hooking is enabled, the ***Force using IP address for RDP
 
 ### RDP Fresh Credentials GPO
 
-RDP API hooking fixes the issue where the RDP ***Always prompt for password upon connection*** group policy prevents credential injection from {{ en.RDM }} This group policy is intended to force mstsc.exe to prompt fresh credentials on every connection, but it has the unintended side effect of breaking credential injection. A workaround is applied through API hooking to make it work.
+RDP API hooking fixes the issue where the RDP ***Always prompt for password upon connection*** group policy prevents credential injection from {{ en.RDM }} This group policy is intended to force **mstsc.exe** to prompt fresh credentials on every connection, but it has the unintended side effect of breaking credential injection. A workaround is applied through API hooking to make it work.

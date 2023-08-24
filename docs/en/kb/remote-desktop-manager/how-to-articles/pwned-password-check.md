@@ -1,5 +1,5 @@
 ---
-title: Pwned Password Check
+title: Pwned password check
 ---
 {% youtube 'D2PnLXJY100' %}
 
@@ -7,7 +7,7 @@ In the InfoSec world, a pwned password is a password that has been exposed in da
 
 Using a pwned password significantly increases the chances of being the victim of a data breach. Pwned Check leverages Troy Hunt’s Pnwed Passwords API and automatically checks to see if a password that you’re using (or are thinking of using) has been pwned by hackers. If it has, you will be notified and can be proactive and choose something else to stay out of harm’s way. There are over half a billion passwords in the Pwned Passwords database.
 
-## How to set up the pwned password check
+## Set up the pwned password check
 
 In existing databases, Pwned check is not turned on automatically.
 

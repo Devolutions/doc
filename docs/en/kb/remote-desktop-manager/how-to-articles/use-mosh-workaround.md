@@ -46,8 +46,8 @@ Windows 11 users should already have Windows Terminal preinstalled, but Windows 
 Though recommended to update to {{ en.RDM }} 2023, this method can be used to attempt to make the workaround function with {{ en.RDM }} 2022.
 1. Create a ***Command Line (External Application)*** entry, which is located  under ***New Entry*** – ***Miscellaneous***.
 1. The ***Display*** option must be set to ***Embedded (tabbed)***.
-1. Input `"C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.16.10262.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe"` into the ***Run*** field.
-1. Input `C:\Windows\system32\wsl.exe -d Debian mosh user@myserver.example.com` into the ***Arguments*** field. It is recommended to check the paths to make sure they are accurate in the particular environment.
+1. Input **C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.16.10262.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe** into the ***Run*** field.
+1. Input **C:\Windows\system32\wsl.exe -d Debian mosh user@myserver.example.com** into the ***Arguments*** field. It is recommended to check the paths to make sure they are accurate in the particular environment.
 1. Click ***OK*** to save and close the window.  
 {% snippet icon.badgeInfo %}
 It is possible that an update to {{ en.RDM }} 2023 will be needed to make this integration work properly.

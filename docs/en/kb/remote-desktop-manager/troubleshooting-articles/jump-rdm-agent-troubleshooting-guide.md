@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Jump ({{ en.RDMA }}) Troubleshooting Guide
+  title: Jump ({{ en.RDMA }}) troubleshooting guide
   description: Here is a quick troubleshooting guide to diagnose any issue with Jump ({{ en.RDMA }}).
   keywords:
   - Jump

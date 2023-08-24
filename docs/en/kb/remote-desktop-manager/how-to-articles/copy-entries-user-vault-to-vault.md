@@ -1,5 +1,5 @@
 ---
-title: Copy Entries from User Vault to a Vault
+title: Copy entries from your user vault to a vault
 keywords:
 - Private vault
 ---

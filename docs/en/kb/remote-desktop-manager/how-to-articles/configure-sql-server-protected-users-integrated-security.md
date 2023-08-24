@@ -16,6 +16,6 @@ You will need to configure the SQL Server service to run under ***Network Servic
 However, on our server, SQL Server was still reporting that it was unable to register the SPNs. We used [Microsoft Kerberos Configuration Manager for SQL Server](https://www.microsoft.com/en-ca/download/details.aspx?id=39046) to fix the SPNs. It shows clickable buttons in the Action columns.  
 ![!!KB4660.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4660.png)  
 
-After restarting the SQL Server service, you should see “The SQL Server Network Interface library successfully registered the Service Principal Name (SPN) [ MSSQLSvc/vdownsrv-sql3.downhill.loc:1433 ] for the SQL Server service.” in the logs.
+After restarting the SQL Server service, you should see “The SQL Server Network Interface library successfully registered the Service Principal Name (SPN) [ **MSSQLSvc/vdownsrv-sql3.downhill.loc:1433** ] for the SQL Server service.” in the logs.
 
 At this point the connection should work again in {{ en.RDM }}.

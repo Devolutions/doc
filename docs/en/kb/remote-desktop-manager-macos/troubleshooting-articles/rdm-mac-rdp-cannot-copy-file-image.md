@@ -1,16 +1,16 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} RDP Cannot Copy File/Image
+  title: Remote Desktop Manager {{ en.MAC }} RDP cannot copy file/image
 ---
 Cannot copy file or images from local computer to remote session.  
 
 The copy of files between a Mac and a Windows remote session is not supported. Only text can be transferred via copy/paste.
 
-### Solution 1
+## Solution 1
 
 Update your {{ en.RDMMAC }} to version 2022.1.13 and higher.
 
-### Solution 2
+## Solution 2
 
 Enable the redirection of your hard drive or the folder.  
 

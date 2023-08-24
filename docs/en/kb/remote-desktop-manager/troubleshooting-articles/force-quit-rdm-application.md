@@ -2,7 +2,7 @@
 title: Force quit the {{ en.RDM }} application
 ---
 Here are some steps to follow in the event {{ en.RDM }} crashes and you need to force quit the application.
-### Solution
+## Solution
 1. Open your ***Windows Event Viewer***.
 2. Click ***Windows Logs - Application*** and validate there are no issues linked with the crash.
 3. Launch ***Task Manager***.

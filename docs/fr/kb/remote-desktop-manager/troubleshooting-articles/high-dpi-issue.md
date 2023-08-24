@@ -24,7 +24,7 @@ Si vous ne pouvez pas voir ce paramètre en raison de problèmes d'affichage, vo
 Pour localiser votre fichier de configuration, reportez-vous à [Localisation du fichier de configuration](/fr/kb/remote-desktop-manager/knowledge-base/locating-configuration-file/). 
 {% endsnippet %}
  
-2. Une fois que vous avez trouvé le bon dossier, ouvrir RemoteDesktopManager.cfg avec votre éditeur de texte favori. 
+2. Une fois que vous avez trouvé le bon dossier, ouvrir **RemoteDesktopManager.cfg** avec votre éditeur de texte favori. 
 3. Sous la ligne <CreationDate>XXXX-XX-XXT00:00:00-00:00</CreationDate>, changer le <DPIAwareness>Default</DPIAwareness> à <DPIAwareness>None</DPIAwareness> et sauvegarder le document. 
 4. Redémarrer {{ fr.RDM }}. 
 ### Méthode 2 

@@ -1,9 +1,9 @@
 ---
-title: Unable to Export Entries
+title: Unable to export entries
 ---
 Unable to export entries in {{ en.RDM }} with administrator rights or receiving error message stating: ***No entry to export***.
 
-### Solution
+## Solution
 
 Validate all the following settings and policies for the export to work.
 

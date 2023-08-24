@@ -1,9 +1,9 @@
 ---
-title: Create an Azure AD PAM Provider
+title: Create an Azure AD PAM provider
 ---
 The following guide provides steps to create an Azure AD user PAM provider for {{ en.DVLS }}.
 
-## CREATE AN AZURE AD PAM PROVIDER
+## Create an Azure AD PAM provider
 
 **In Azure AD Portal**
 1. In a browser page, open the [Microsoft Azure AD Portal](https://azure.microsoft.com) and sign in to your account.

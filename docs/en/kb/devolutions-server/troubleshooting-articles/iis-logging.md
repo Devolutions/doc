@@ -1,5 +1,5 @@
 ---
-title: IIS Logging
+title: IIS logging
 ---
 Here is the description of desired settings when we troubleshoot a performance/connectivity issue related to the client application.
 

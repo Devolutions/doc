@@ -23,7 +23,7 @@ If you cannot see the setting because of display issues, you can add the line in
 To locate your config file refer to [Configuration File Location](/kb/remote-desktop-manager/knowledge-base/locating-configuration-file/). 
 {% endsnippet %}
  
-2. Once you have found the right folder, open RemoteDesktopManager.cfg with your preferred text editor. 
+2. Once you have found the right folder, open **RemoteDesktopManager.cfg** with your preferred text editor. 
 3. Under the line <CreationDate>XXXX-XX-XXT00:00:00-00:00</CreationDate> change to None the <DPIAwareness>Default</DPIAwareness> and save. 
 4. Restart {{ en.RDM }}. 
 ### Method 2 

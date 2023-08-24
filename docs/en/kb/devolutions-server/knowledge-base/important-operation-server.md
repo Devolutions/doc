@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Important Operations with {{ en.DVLS }}
+  title: Important operations with {{ en.DVLS }}
 ---
 During important operations on a {{ en.DVLS }} instance, it becomes important to perform certain preparation tasks to protect the environment and to be able to restore the application or data if a problem occurs.
 

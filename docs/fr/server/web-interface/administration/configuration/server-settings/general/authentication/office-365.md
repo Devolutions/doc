@@ -179,5 +179,3 @@ Définir la période en heures et en minutes pendant laquelle le cache des utili
 		</td>
 	</tr>
 </table>
-
-

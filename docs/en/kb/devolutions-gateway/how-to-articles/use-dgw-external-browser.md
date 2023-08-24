@@ -1,12 +1,11 @@
 ---
 eleventyComputed:
-  title: How To Use {{ en.DGW }} With an External Browser
+  title: Use {{ en.DGW }} with an external browser
   description: It is possible to use {{ en.DGW }} with an external browser but at the moment there are a few limitations to be aware of because of the browser design
   keywords:
   - external browser
   - web browser
 ---
-
 It is possible to use {{ en.DGW }} with an external browser, but at the moment there are a few limitations to be aware of because of the browser design:
 * It only works with Google Chrome.
 * Google Chrome must be closed when opening a website from {{ en.RDM }}. A solution to this can be found in the <a href="#workaround-to-set-up-without-having-to-close-chrome">workaround</a>.

@@ -241,4 +241,3 @@ Entrer le délai entre l'ouverture de chaque session sélectionnée.
 
 Ouvrir une session RDP, cliquer avec le bouton droit sur cette session unique et sélectionner ***État de l'Agent***. L'État de l'agent vous montrera que {{ fr.RDM }} est installé sur l'ordinateur distant ou non, que l'{{ fr.RDMA }} est actif ou non et combien de sessions {{ fr.RDMJ }} sont ouvertes.  
 ![État de l'Agent](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10413.png) 
-

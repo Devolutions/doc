@@ -1,5 +1,5 @@
 ---
-title: How to export and import entries
+title: Export and import entries
 ---
 {% youtube 'jipoCzhIEs8' %}  
 

@@ -1,5 +1,5 @@
 ---
-title: Account Brokering not Available for Certain Tools
+title: Account brokering not available for certain tools
 description: With Privileged Access Management (PAM) solutions, it is often times undesirable to allow passwords to be viewed under any circumstances.
 keywords:
 - Privileged Access Management

@@ -1,5 +1,5 @@
 ---
-title: How to Register Licenses in Older Versions
+title: Register licenses in earlier versions
 ---
 Managing {{ en.RDM }} registration globally for all your users can be done with a [License serial](/rdm/windows/commands/administration/management/licenses/) stored in an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) This is the preferred method. That being said, this feature may not be available in your current {{ en.RDM }} version.
 

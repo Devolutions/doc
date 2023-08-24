@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Service Scheduler Not Showing in Dashboard
+  title: Service Scheduler not showing in the Dashboard
   description: If the Service Scheduler is not showing in your Dashboard, it may be because it was installed using an older version of the {{ en.DVLSCONSOLE }}.
   keywords:
   - service scheduler

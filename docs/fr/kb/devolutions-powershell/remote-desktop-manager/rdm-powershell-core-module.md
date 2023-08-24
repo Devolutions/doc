@@ -28,7 +28,7 @@ Sur certains ordinateurs, il peut être nécessaire d'installer manuellement le 
 * {{ fr.RDM }} versions **2023.1 et ultérieures** : 
   1. Télécharger le [fichier NUPKG du module {{ fr.PS }}](https://www.powershellgallery.com/packages/Devolutions.PowerShell/) depuis la PowerShell Gallery.
   1. Changer l'extension du fichier en .zip. 
-  1. Extraire dans C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\ <version>. 
+  1. Extraire dans **C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\version**. 
   1. Débloquer tous les fichiers nouvellement extraits. 
   ```
   cd c:\program files\WindowsPowerShell\modules\devolutions.powershell\<version>  
@@ -37,7 +37,7 @@ Sur certains ordinateurs, il peut être nécessaire d'installer manuellement le 
 * {{ fr.RDM }} versions **antérieures à 2023.1** : 
   1. Télécharger le [fichier NUPKG du module RemoteDesktopManager](https://www.powershellgallery.com/packages/RemoteDesktopManager) depuis la PowerShell Gallery. 
   1. Changer l'extension du fichier en .zip. 
-  1. Extraire dans C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\ <version>. 
+  1. Extraire dans **C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\version**. 
   1. Débloquer tous les fichiers nouvellement extraits. 
   ```
   cd c:\program files\WindowsPowerShell\modules\remotedesktopmanager\<version>  
@@ -52,13 +52,13 @@ En utilisant les commandes `Get-RDMPowerShellOverride` et `Set-RDMPowerShellOver
 
 Les deux propriétés sont optionnelles et leurs valeurs par défaut seront appliquées si elles demeurent vides.  
 
-* OptionFilePath : le chemin complet vers le fichier RemoteDesktopManager.cfg  
+* OptionFilePath : le chemin complet vers le fichier **RemoteDesktopManager.cfg**  
 
-Default:  %LOCALAPPDATA%\Devolutions\RemoteDesktopManager  
+Default:  **%LOCALAPPDATA%\Devolutions\RemoteDesktopManager**  
 
 * RemoteDesktopManagerExecutablePath : pour utiliser `Start-RDMSession` ou `Start-RDMProcess`  
 
-Default:  %ProgramFiles%\Devolutions\Remote Desktop Manager\RemoteDesktopManager.exe  
+Default:  **%ProgramFiles%\Devolutions\Remote Desktop Manager\RemoteDesktopManager.exe**  
 ```
 $override = Get-RDMPowerShellOverride  
 $override.OptionFilePath = "PathToCfg" # C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  

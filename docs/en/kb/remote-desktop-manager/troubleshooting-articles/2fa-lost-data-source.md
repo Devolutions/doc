@@ -1,5 +1,5 @@
 ---
-title: 2FA set on Data Source Lost
+title: Lost the 2FA set on the data source
 ---
 The user lost their phone that contains the 2FA for their data source.
 ## Solution  
@@ -19,6 +19,6 @@ Please refer to this [topic](/kb/remote-desktop-manager/troubleshooting-articles
     * RemoteDesktopManager.enc  
 {% snippet icon.badgeInfo %}
 If the application was installed by default, you can locate the file:
-For the Team Edition: %localappdata%\Devolutions\RemoteDesktopManager
-For the Free Edition: %localappdata%\Devolutions\RemoteDesktopManager\Free
+For the Team Edition: **%localappdata%\Devolutions\RemoteDesktopManager**
+For the Free Edition: **%localappdata%\Devolutions\RemoteDesktopManager\Free**
 {% endsnippet %}

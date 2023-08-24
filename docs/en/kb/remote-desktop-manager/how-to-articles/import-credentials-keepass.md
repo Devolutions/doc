@@ -1,9 +1,9 @@
 ---
-title: How to Import Credentials from Keepass
+title: Import credentials from KeePass
 ---
-{{ en.RDM }} imports credentials from Keepass. It is a simple way to build your data. The imported information can be converted into three types of entry: ***Username/Password*** and ***Website*** The entries include credentials, URL addresses and notes.
+{{ en.RDM }} imports credentials from KeePass. It is a simple way to build your data. The imported information can be converted into three types of entry: ***Username/Password*** and ***Website*** The entries include credentials, URL addresses and notes.
 
-### How to import various entries
+### Import various entries
 {% youtube '0Oq4gLkF88A' %}  
 
 ## Procedure

@@ -28,7 +28,7 @@ EMPLACEMENT DU FICHIER DE CONFIGURATION
 Installé sous **Program Files** ou **Program Files (x86)**
 		</td>
 		<td>
-%LocalAppData%\Devolutions\RemoteDesktopManager 
+**%LocalAppData%\Devolutions\RemoteDesktopManager** 
 		</td>
 	</tr>
 	<tr>
@@ -36,7 +36,7 @@ Installé sous **Program Files** ou **Program Files (x86)**
 Application exécutée sur Terminal Server 
 		</td>
 		<td>
-%AppData%\Devolutions\RemoteDesktopManager.  Il s'agit du profil itinérant et évite les conflits multi-utilisateurs. 
+**%AppData%\Devolutions\RemoteDesktopManager**. Il s'agit du profil itinérant et évite les conflits multi-utilisateurs. 
 		</td>
 	</tr>
 	<tr>
@@ -63,7 +63,7 @@ EXEMPLES
 	</tr>
 	<tr>
 		<td>
-c:\RDM 
+C:\RDM 
 		</td>
 		<td>
 Le fichier de configuration est enregistré dans le dossier désigné. 
@@ -79,7 +79,7 @@ Le point est utilisé pour spécifier le dossier d'installation de {{ fr.RDM }}.
 	</tr>
 	<tr>
 		<td>
-%AppData%\Devolutions\RemoteDesktopManager 
+<b>%AppData%\Devolutions\RemoteDesktopManager</b> 
 		</td>
 		<td>
 Spécifier le dossier de données itinérantes de l'application. 

@@ -110,5 +110,3 @@ Consulter la rubrique [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-
 		</td>
 	</tr>
 </table>
-
-

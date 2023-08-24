@@ -4,7 +4,7 @@ title: Quick Connect
 ***Quick Connect*** allows you to open an ad-hoc session by specifying the host and session type. This feature is accessible via the ***Quick Connect*** toolbar or in the ***View*** section of the ***View*** tab in {{ en.RDM }}.  
 ![Quick Connect Toolbar & Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2022.png) 
 
-### Settings 
+## Settings 
 
 {% snippet icon.badgeInfo %} 
 Note that the ***Quick Connect*** toolbar only lets you specify a host, a computer, and a session type.To have access to the other options available in the windowed version, you have to use the ***Quick Connect*** icon in the ***View*** section of the ***View*** tab. 
@@ -22,7 +22,6 @@ Clicking on the second button next to the ***Host*** field shows a menu where yo
 Clicking on the third button next to the ***Host*** field shows a menu where you can select options to open your session.  
 ![Quick Connect Second Dropdown Menu](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0002.png) 
 
-### Other functions 
+## Other functions 
 
 You can choose to check the ***Close after connect*** box at the bottom left of the ***Quick Connect*** window if you want the window to close itself after you press the ***Connect*** button and you are connected to the session. 
-

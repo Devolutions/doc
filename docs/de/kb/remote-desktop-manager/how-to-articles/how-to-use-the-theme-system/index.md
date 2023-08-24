@@ -1,3 +1,3 @@
 ---
-title: How to use the Theme System
+title: Use the Theme system
 ---

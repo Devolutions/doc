@@ -3,7 +3,7 @@ eleventyComputed:
   title: Lost {{ en.RDM }} configuration
 ---
 You lost your configuration to your SQLite data source in {{ en.RDM }} and your navigation tree is showing empty.
-### Solution
+## Solution
 1. Create a new SQLite data source in ***File - Data Sources - Add New Data Source***.  
 {% snippet icon.badgeHelp %}
 For more information on how to [Create a Data Source](/rdm/windows/data-sources/create-new-data-source/)

@@ -1,5 +1,5 @@
 ---
-title: Update your Registration Serial after a Renewal
+title: Update your registration serial after a renewal
 ---
 {{ en.DVLS }} is licensed as a yearly subscription which must be kept up-to-date. A new license key is provided when you renew. The new license key needs to be entered in the {{ en.DVLSCONSOLE }}.
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Private Key Management
+  title: Private key management
   description: Your Private Key is mandatory in case you access your {{ en.DHUB }} from a new device or a private browsing session. You can configure its storage method(s) in your {{ en.DPORTAL }}.
   keywords:
   - private key

@@ -1,5 +1,5 @@
 ---
-title: How to activate the Offline mode for an advanced data source
+title: Enable Offline mode for an advanced data source
 ---
 
 {% youtube 'W7jK8g4WbNQ' %}

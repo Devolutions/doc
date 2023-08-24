@@ -1,5 +1,5 @@
 ---
-title: Change the listening port of the recording server after installation
+title: Change the listening port of the Recording Server after installation
 ---
 This topic explains how to change the listening port of the recording server after having installed {{ en.DVLS }} with the {{ en.DVLSCONSOLE }}.
 
@@ -8,7 +8,7 @@ This topic explains how to change the listening port of the recording server aft
 1. In the ***Recording Server*** section, click on ***Explore***.  
 ![Explore](https://webdevolutions.azureedge.net/docs/en/kb/KB0062.png)
 1. This will open a Windows Explorer window, open the ***collector*** folder.
-1. Right-click on ***collector.cfg*** and open it with an editor.
+1. Right-click on **collector.cfg** and open it with an editor.
 1. Change the ***<Port></Port>*** value to the desired one.
 1. Close the document and save the changes.
 1. Log in to the {{ en.DVLS }} web UI as an administrator.

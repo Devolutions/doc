@@ -8,7 +8,7 @@ The portable installation mode allows you to run multiple versions of {{ en.RDM 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-To install a single portable {{ en.RDM }} application, follow this topic: [Portable {{ en.RDM }} installation](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/). 
+To install a single portable {{ en.RDM }} application, follow [Portable {{ en.RDM }} installation](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -33,7 +33,7 @@ The following steps ensure true portability and ease of maintenance. It can easi
     1. A data folder. 
     1. A tools folder (optional, only if you intend to use external tools like Filezilla). 
 1. Unzip {{ en.RDM }} in the installation folder. 
-1. Create a text file named override.cfg in the installation folder. Set the content of the file to .\config 
+1. Create a text file named **override.cfg** in the installation folder. Set the content of the file to .\config 
 1. Open {{ en.RDM }} and display the data sources window using ***File – Data sources***. 
 1. Create a new data source of a type that can be stored on your portable device. i.e. SQLite, XML, etc. 
 1. Configure the data source using a relative path so it is stored on the portable device: .\Data\Connections.db 

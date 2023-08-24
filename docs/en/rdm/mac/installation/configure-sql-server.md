@@ -11,7 +11,7 @@ Newly installed SQL Server instances do not allow remote connections. Please fol
  
 {% snippet icon.shieldNotice %} 
 For added security, you can enable SSL Encryption to communicate with your instance of SQL Server. 
-Please follow directions on [http://support.microsoft.com/kb/316898](http://support.microsoft.com/kb/316898) 
+Please follow directions on [Configure SQL Server Database Engine for encrypting connections](https://learn.microsoft.com/en-US/sql/database-engine/configure-windows/configure-sql-server-encryption). 
 {% endsnippet %}
  
 2. To create an empty database, select ***File - Data Sources - Add***.  

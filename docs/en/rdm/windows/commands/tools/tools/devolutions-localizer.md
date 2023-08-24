@@ -23,7 +23,7 @@ A free [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/) is 
 * ***New***: The text has not yet been translated in the target language. 
 * ***Translated***: The text has already been translated in the target language. 
 * ***Under review***: This status is intended to help translators communicate with each other when they are unsure of the translation and/or use of a particular value. Through the ***Comment*** field, translators can also write translation notes. 
-* ***Use original***: The text should not be translated, it should be kept in its original language. For example, this can apply to product names or third party system names.  
+* ***Use original***: The text should not be translated, it should be kept in its original language. For example, this can apply to product names or third-party system names.  
 ![Content to Translate or Translated](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4050.png) 
 5. To start, select a ***Resource*** line in the bottom list and click ***Translate***. The original text will appear in the ***Original*** box.  
 ![Resource Line Selection](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2133.png) 

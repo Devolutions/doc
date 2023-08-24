@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Sending a sanitized copy of your configuration file
+  title: Send a sanitized copy of your configuration file
   description: This article describes how to send a copy of your {{ en.RDM }} configuration file that does not have any credentials included.
   keywords:
   - Sanitized copy

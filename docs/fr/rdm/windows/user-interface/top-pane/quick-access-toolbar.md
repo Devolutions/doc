@@ -11,7 +11,7 @@ La ***Barre de connexion rapide***, qui se trouve en haut de l'application, est 
 ![Barre de connexion rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11177.png) 
 
 {% snippet icon.badgeInfo %} 
-Les boutons de la ***Barre de connexion rapide*** sont signalés localement sur la machine actuelle par l'utilisateur actuel. Ces boutons locaux sont enregistrés dans un fichier nommé ***RemoteDesktopManager.qtb***. Par défaut, ce fichier se trouve dans %localappdata%\Devolutions\RemoteDesktopManager. 
+Les boutons de la ***Barre de connexion rapide*** sont signalés localement sur la machine actuelle par l'utilisateur actuel. Ces boutons locaux sont enregistrés dans un fichier nommé ***RemoteDesktopManager.qtb***. Par défaut, ce fichier se trouve dans **%localappdata%\Devolutions\RemoteDesktopManager**. 
 {% endsnippet %}
  
 ### Commandes favorites 

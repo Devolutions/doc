@@ -1,11 +1,10 @@
 ---
-title: How to Clear a Browser Local Storage
+title: Clear the local storage of a browser
 description: Click on your browser type to follow the steps to clear your browser local storage.
 keywords:
 - Local storage
 - Browser
 ---
-
 Click on your browser type to follow the steps to clear your browser local storage:  
 
 - [Google Chrome](/kb/general-knowledge-base/how-to-clear-browser-local-storage/clear-chrome-local-storage/)

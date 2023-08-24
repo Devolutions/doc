@@ -134,5 +134,3 @@ Ouvre un double de l'onglet de votre session ouverte.
 		</td>
 	</tr>
 </table>
-
-

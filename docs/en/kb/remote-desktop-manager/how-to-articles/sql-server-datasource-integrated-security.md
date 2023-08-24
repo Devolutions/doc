@@ -1,5 +1,5 @@
 ---
-title: SQL Server Data Source with Integrated Security
+title: SQL Server data source with Integrated Security
 keywords:
 - role
 ---

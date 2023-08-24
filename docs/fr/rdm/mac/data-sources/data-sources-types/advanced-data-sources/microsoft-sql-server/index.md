@@ -314,6 +314,3 @@ Afficher le script de mise à jour.
 		</td>
 	</tr>
 </table>
-
-
-

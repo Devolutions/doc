@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP Printer Redirection
+title: Microsoft RDP printer redirection
 ---
 You are attempting to use printers inside your remote sessions but they seem to be missing.
 ## Solution

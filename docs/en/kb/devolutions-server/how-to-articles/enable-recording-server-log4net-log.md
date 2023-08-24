@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Enable Recording Server Log
+  title: Enable the Recording Server log
 keywords:
 - Log
 - Log4Net
@@ -11,7 +11,7 @@ The following procedure describe how to enable the logging utility for the {{ en
 
 ## Steps
 
-1. Edit the log4net.config file located of the Collector and Processor application installation folders. Click on the Explore button of the Recording Server section of the ***Companions*** tab on the {{ en.DVLSCONSOLE }}. 
+1. Edit the **log4net.config** file located of the Collector and Processor application installation folders. Click on the Explore button of the Recording Server section of the ***Companions*** tab on the {{ en.DVLSCONSOLE }}. 
 
 ![!!KB8120.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8120.png)
 

@@ -8,7 +8,7 @@ Newly installed SQL Server instances do not allow remote connections. Please fol
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-For added security, you can enable SSL Encryption to communicate with your instance of SQL Server. However, due to a framework limitation, this is not compatible with our iOS and Android versions of {{ en.RDMMAC }}. Please follow directions on [https://support.microsoft.com/en-us/kb/316898](https://support.microsoft.com/en-us/kb/316898). 
+For added security, you can enable SSL Encryption to communicate with your instance of SQL Server. However, due to a framework limitation, this is not compatible with our iOS and Android versions of {{ en.RDMMAC }}. Please follow directions on [Configure SQL Server Database Engine for encrypting connections](https://learn.microsoft.com/en-US/sql/database-engine/configure-windows/configure-sql-server-encryption). 
 {% endsnippet %}
  
 

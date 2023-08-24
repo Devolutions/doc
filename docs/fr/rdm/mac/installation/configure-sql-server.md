@@ -10,7 +10,7 @@ Les instances SQL Server nouvellement installées n'autorisent pas les connexion
  
 {% snippet icon.shieldNotice %} 
 Pour plus de sécurité, vous pouvez activer le cryptage SSL pour communiquer avec votre instance de SQL Server. 
-Veuillez suivre les instructions sur [http://support.microsoft.com/kb/316898](http://support.microsoft.com/kb/316898) 
+Veuillez suivre les instructions sur [Configurer le moteur de base de données SQL Server pour le chiffrement des connexions](https://learn.microsoft.com/fr-ca/sql/database-engine/configure-windows/configure-sql-server-encryption). 
 {% endsnippet %}
  
 2. Pour créer une base de données vide, sélectionner ***Fichier - Sources de données - Ajouter***.  

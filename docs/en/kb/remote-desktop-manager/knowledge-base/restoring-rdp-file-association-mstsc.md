@@ -1,5 +1,5 @@
 ---
-title: Restoring the RDP File Association with mstsc.exe
+title: Restore the RDP file association with mstsc.exe
 ---
 If you have elected to do so during the installation, the *.rdp file extension has been associated with {{ en.RDM }}, this means that it does not use the mstsc.exe client from Microsoft anymore.
 ## Solution

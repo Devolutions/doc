@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Create a {{ en.DVLS }} Data Source with an Application Key
+  title: Create a {{ en.DVLS }} data source with an application key
 ---
 With the {{ en.PS }} module, it is possible to connect to a {{ en.DVLS }} instance using an [***Application key and Application Secret***](/server/web-interface/administration/security-management/applications/). You can create a {{ en.DVLS }} data source [in {{ en.RDM }}](#rdm) or manually [using PowerShell](#powershell). Follow the method that best suits your needs.
 

@@ -6,7 +6,7 @@ Launching Firefox in embedded mode prompts for an executable path in {{ en.RDM }
 The Firefox web browser is deprecated in embedded mode.
 {% endsnippet %}  
 
-### Solution
+## Solution
 1. To workaround this issue, you need to download thezip [Firefox embedded package](https://cdn.devolutions.net/download/Firefox/FirefoxRunner2021.1.0.zip)
 1. Extract the content in a folder on your computer.
 1. In {{ en.RDM }} go to ***File - Options - Paths - Configure Installation Path***.

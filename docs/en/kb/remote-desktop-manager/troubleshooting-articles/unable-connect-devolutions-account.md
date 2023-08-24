@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Unable to connect with {{ en.DA }}
+  title: Unable to connect with your {{ en.DA }}
   keywords:
   - HAR
 ---

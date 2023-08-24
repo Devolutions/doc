@@ -1,7 +1,7 @@
 ---
-title: ARD unable to connect to host
+title: ARD is unable to connect to a host
 ---
-Unable to connect to host.  
+Unable to connect to a host.  
 
 You received this error message although all other settings are valid for your connection.  
 

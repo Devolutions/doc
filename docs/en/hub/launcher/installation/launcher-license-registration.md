@@ -1,5 +1,5 @@
 ---
-title: Devolutions Launcher License Registration
+title: Devolutions Launcher license registration
 ---
 Register and assign your {{ en.DLAUNCHER }} license serial. 
 
@@ -21,4 +21,3 @@ Only ***Administrators*** and users with permissions in the ***System Permission
 1. Click ***Assigned To*** and manage your users license access.  
 ![!!Hub4011.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4011.png) 
 1. Click ***Update*** to save. 
-

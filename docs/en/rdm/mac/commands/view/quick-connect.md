@@ -4,7 +4,7 @@ title: Quick Connect
 ***Quick Connect*** allows you to open an ad-hoc session by specifying the host and session type. This feature is accessible via the ***Quick Connect*** toolbar or in the ***View*** tab in {{ en.RDMMAC }}.  
 ![Quick Connect Tool & Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0036.png) 
 
-### Settings 
+## Settings 
 
 {% snippet icon.badgeInfo %} 
 Note that the ***Quick Connect*** tool only lets you specify a host, a computer, and a session type.To have access to the other options available in the windowed version, you have to use the ***Quick Connect*** icon in the ***View*** tab. 
@@ -18,4 +18,3 @@ Clicking on the first button next to the ***Host*** field opens yet another wind
 
 Clicking on the second button next to the ***Host*** field shows a menu where you can select your session type. It is also possible to create a ***Template*** and establish connection with it. See [Quick Connect](/kb/remote-desktop-manager/knowledge-base/quick-connect/) to learn more about this option. You can also learn how to create a template.  
 ![Quick Connect Dropdown Menu](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0039.png) 
-

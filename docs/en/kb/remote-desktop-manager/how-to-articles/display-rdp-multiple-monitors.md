@@ -1,5 +1,5 @@
 ---
-title: Display RDP on Multiple Monitors
+title: Display RDP on multiple monitors
 ---
 ## Multiple monitor Span display feature
 

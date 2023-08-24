@@ -91,16 +91,16 @@ The passphrase is required only when configuring the data source. A policy can b
 
 When configuring a security provider with a shared passphrase, you have the choice of whether or not you wish to save it in the registry. {{ en.RDM }} will try first to save it on the LOCAL_MACHINE, if unable it will save it in the CURRENT_USER instead.  
 
-* HKEY_CURRENT_USER\SOFTWARE\RemoteDesktopManager<Datasource ID>.shk 
-* HKEY_LOCAL_MACHINE\SOFTWARE\RemoteDesktopManager<Datasource ID>.shk 
+* **HKEY_CURRENT_USER\SOFTWARE\RemoteDesktopManager<Datasource ID>.shk** 
+* **HKEY_LOCAL_MACHINE\SOFTWARE\RemoteDesktopManager<Datasource ID>.shk** 
 
 If the option is not enabled, then the passphrase is saved locally at the following location:  
 
-* %LOCALAPPDATA%\Devolutions\RemoteDesktopManager<Datasource ID>.shk 
+* **%LOCALAPPDATA%\Devolutions\RemoteDesktopManager<Datasource ID>.shk** 
 
 In a Terminal Services environment, it should be saved at this location:  
 
-* %APPDATA%\Devolutions\RemoteDesktopManager<Datasource ID>.shk 
+* **%APPDATA%\Devolutions\RemoteDesktopManager<Datasource ID>.shk** 
 
 In a portable installation of {{ en.RDM }}, the passphrase will be saved at the same location as the portable {{ en.RDM }} instance. 
 

@@ -1,9 +1,9 @@
 ---
-title: Keep Tabs Opened
+title: Keep tabs opened
 ---
 {{ en.RDM }} offers you the possibility of keeping a tab open even when disconnected, allowing you to restart a remote device or simply keep your worksapce set up to quickly resume after a work interruption.
 
-### Workflow
+## Workflow
 
 Your session must be running in embedded mode. Once your session is open, you will notice the ***Keep tab on disconnect*** option in the ***Settings*** section of your ***Actions*** tab.  
 

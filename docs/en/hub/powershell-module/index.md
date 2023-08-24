@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: PowerShell Module
+  title: PowerShell module
   description: The {{ en.PS }} module is a way to access, create, update, and remove elements in your {{ en.DHUBB }}. This will help you to automate some operations/scripts.
   keywords:
   - PowerShell
@@ -21,7 +21,7 @@ The {{ en.PS }} module is a way to access, create, update, and remove elements i
 ### Connecting to Your {{ en.DHUBB }} 
 
 {% snippet icon.badgeHelp %} 
-For the full list of available commands, see [PowerShell Commands](/hub/powershell-module/powershell-commands/). 
+For the full list of available commands, see [PowerShell commands](/hub/powershell-module/powershell-commands/). 
 {% endsnippet %}
  
 1. Once PowerShell 7.2 or later is installed, open a PowerShell terminal and install the {{ en.PS }} module with the following command:  

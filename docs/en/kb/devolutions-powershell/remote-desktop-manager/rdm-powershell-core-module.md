@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions.PowerShell Core Module
+  title: Devolutions.PowerShell core module
   description: The PowerShell module now needs to be downloaded from the PowerShell Gallery. It is no longer included in the {{ en.RDM }} installation package.
   keywords:
   - PowerShell
@@ -11,7 +11,7 @@ The PowerShell module now needs to be downloaded from the [PowerShell Gallery](h
 To connect to an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), the account used to connect to the data source must have an assigned {{ en.RDM }} license. The use of an [application key](/server/web-interface/administration/security-management/applications/) with a {{ en.DVLS }} data source does not require a license.
 {% endsnippet %}  
 
-## How to Install
+## Installation
 
 {% snippet icon.badgeCaution %} 
 Starting with {{ en.RDM }} 2023.1, PowerShell 7.2 or later is required to install the module. For {{ en.RDM }} versions prior to 2023.1, PowerShell 5.1 or later is required.
@@ -28,7 +28,7 @@ On some machines, it may be required to install the PowerShell module manually. 
 * {{ en.RDM }} versions **2023.1 and later**: 
   1. Download the [{{ en.PS }} module NUPKG file](https://www.powershellgallery.com/packages/Devolutions.PowerShell/) from the PowerShell Gallery.
   1. Change the file extension to .zip.
-  1. Extract the file in C:\Program Files\WindowsPowerShell\Modules\devolutions.powershell\ <version>.
+  1. Extract the file in **C:\Program Files\WindowsPowerShell\Modules\devolutions.powershell\version**.
   1. Unblock all newly extracted files.
   ```
   cd c:\program files\WindowsPowerShell\modules\devolutions.powershell\<version>  
@@ -37,7 +37,7 @@ On some machines, it may be required to install the PowerShell module manually. 
 * {{ en.RDM }} versions **before 2023.1**:  
   1. Download the [RemoteDesktopManager module NUPKG file](https://www.powershellgallery.com/packages/RemoteDesktopManager) from the PowerShell Gallery.
   1. Change the file extension to .zip.
-  1. Extract the file in C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\ <version>.
+  1. Extract the file in **C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\version**.
   1. Unblock all newly extracted files.
   ```
   cd c:\program files\WindowsPowerShell\modules\remotedesktopmanager\<version>  
@@ -52,13 +52,13 @@ By using the cmdlets `Get-RDMPowerShellOverride` and `Set-RDMPowerShellOverride`
 
 Both properties are optional, and their default values are applied when left empty.  
 
-* OptionFilePath: the full path to the RemoteDesktopManager.cfg file  
+* OptionFilePath: the full path to the **RemoteDesktopManager.cfg** file  
 
-Default: %LOCALAPPDATA%\Devolutions\RemoteDesktopManager  
+Default: **%LOCALAPPDATA%\Devolutions\RemoteDesktopManager**  
 
 * RemoteDesktopManagerExecutablePath: for the use of `Start-RDMSession` or `Start-RDMProcess`  
 
-Default: %ProgramFiles%\Devolutions\Remote Desktop Manager\RemoteDesktopManager.exe  
+Default: **%ProgramFiles%\Devolutions\Remote Desktop Manager\RemoteDesktopManager.exe**  
 ```
 $override = Get-RDMPowerShellOverride  
 $override.OptionFilePath = "PathToCfg" # C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  

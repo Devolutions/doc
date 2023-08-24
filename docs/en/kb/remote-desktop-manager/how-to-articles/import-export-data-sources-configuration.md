@@ -1,5 +1,5 @@
 ---
-title: How to Export and Import Data Sources Configuration
+title: Export and import data sources configuration
 ---
 {% youtube 'pQyj-btxhWA' %}
 

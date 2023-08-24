@@ -1,5 +1,5 @@
 ---
-title: Checkout System
+title: Checkout system
 ---
 {% youtube '-QbEyscBx8s' %}  
 

@@ -10,7 +10,7 @@ It is possible to get access to the Remote Tools such as Terminal Services, Remo
 
 Prior to your configuration in {{ en.RDMMAC }}, a Devolutions Proxy needs to be configured via {{ en.RDM }} for Windows.  
 
-### Method 1
+## Method 1
 
 1. After the deployment of your Devolutions Proxy, open {{ en.RDMMAC }} and click on ***{{ en.RDM }} – Preferences***.  
 ![!!KB4209.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4209.png)
@@ -23,7 +23,7 @@ Prior to your configuration in {{ en.RDMMAC }}, a Devolutions Proxy needs to be 
 
 The Remote Tools will now be available via the Dashboard for your RDP sessions.  
 
-### Method 2
+## Method 2
 
 1. After the deployment of your Devolutions Proxy, open {{ en.RDMMAC }}. Right-click your RDP session, click ***Properties***.  
 1. Click on ***Remote Tools***.  
@@ -33,7 +33,7 @@ The Remote Tools will now be available via the Dashboard for your RDP sessions.
 
 The Remote Tools will now be available via the Dashboard for this RDP session.
 
-### Method 3
+## Method 3
 
 After the deployment of your Devolutions Proxy, open {{ en.RDMMAC }} and create a new Devolutions Proxy session.  
 

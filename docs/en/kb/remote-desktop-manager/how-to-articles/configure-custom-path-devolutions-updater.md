@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configure a Custom Download Path for Devolutions Updater
+  title: Configure a custom download path for Devolutions Updater
   description: Since {{ en.RDM }} version 2023.1.7, it is possible to set a custom download path for Devolutions Updater instead of downloading in %TEMP%.
   keywords:
   - update

@@ -6,7 +6,7 @@ Il est possible que le cache d'Azure AD stocké dans {{ fr.DVLS }} ne soit pas c
 Si vous venez d'activer l'option d'Authentification Microsoft, le chargement du cache peut prendre un certain temps (environ une heure) avant de permettre d'importer des utilisateurs et des groupes d'utilisateurs. 
 {% endsnippet %}
  
-### Solution 
+## Solution 
 1. Sur la {{ fr.DVLSCONSOLE }}, aller dans l'onglet ***Compagnons*** et arrêter le ***Service de planification***. 
 ![!!KB4052.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4052.png) 
 1. Sur l'interface web {{ fr.DVLS }}, aller dans ***Administration – Paramètres Serveur – Journalisation*** et activer l'option ***Log de débogage***.  

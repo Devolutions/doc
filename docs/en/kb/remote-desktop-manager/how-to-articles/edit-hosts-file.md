@@ -11,7 +11,7 @@ Simply create a session with the proper settings.
 
 ## Steps
 
-1. Create a new ***Command Line (External Application)*** session and enter a session name. In the ***General*** tab,click on the ellipsis button and select your editor of choice in the Run text box. Then, paste the following after the name of the program: "c:\Windows\System32\drivers\etc\hosts". Ensure a blank space separates the two and includes the double quotes.  
+1. Create a new ***Command Line (External Application)*** session and enter a session name. In the ***General*** tab,click on the ellipsis button and select your editor of choice in the Run text box. Then, paste the following after the name of the program: "**C:\Windows\System32\drivers\etc\hosts**". Ensure a blank space separates the two and includes the double quotes.  
 ![!!KB4548.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4548.png)
 1. In the ***Advanced*** tab, check the ***Run as Administrator*** option.  
 ![!!KB4549.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4549.png)  
@@ -30,6 +30,6 @@ Some people wish to use the parameters tab because, upon launching, it will disp
 ![!!KB4550.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4550.png)
 1. In the ***General*** tab,click on the ellipsis button and select your editor of choice in the ***Run*** text box. Then enter "{1}" after the name of the executable, keeping a space between the two values and including the quotes.  
 ![!!KB4551.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4551.png)
-1. In the ***Parameters*** tab, set Parameter # 1 type to ***Text*** and then enter the following in the Default Value: c:\Windows\System32\drivers\etc\hosts  
+1. In the ***Parameters*** tab, set Parameter # 1 type to ***Text*** and then enter the following in the Default Value: **C:\Windows\System32\drivers\etc\hosts**.  
 ![!!KB4552.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4552.png)  
 This is helpful when mostly using the tool with a certain file, but occasionally need to edit another file. You could have separate entry for each file you commonly edit, but this shows how flexible {{ en.RDM }} can be.

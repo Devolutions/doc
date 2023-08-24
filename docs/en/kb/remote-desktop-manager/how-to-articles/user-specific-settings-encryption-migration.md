@@ -1,5 +1,5 @@
 ---
-title: User Specific Settings Encryption Migration
+title: User Specific Settings encryption migration
 ---
 The ***User Specific Settings***, in {{ en.RDM }} 2022.2, are being migrated to a newer encryption format.
 

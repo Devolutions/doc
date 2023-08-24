@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: How to RDP to a Linux machine with {{ en.RDM }}
+  title: Establish a remote access to a Linux machine with {{ en.RDM }}
 ---
 You can establish a remote access to a Linux machine from {{ en.RDMWIN }}.
 ## Solution

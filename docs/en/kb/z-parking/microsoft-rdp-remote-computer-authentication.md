@@ -21,6 +21,6 @@ In the Windows Server 2016:
 1. Open the registry (regedit.exe)
 1. Navigate to:  
 
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TerminalServer\WinStations\RDP-Tcp  
+**HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TerminalServer\WinStations\RDP-Tcp**  
 
 3. Change the SecurityLayer to 0.

@@ -1,5 +1,5 @@
 ---
-title: Passcode Prompt when Opening an Entry
+title: Passcode prompt when opening an entry
 ---
 Sometimes you want to ensure that your users are really opening the right session.
 

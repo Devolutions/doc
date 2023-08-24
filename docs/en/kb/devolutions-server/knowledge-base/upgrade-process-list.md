@@ -1,7 +1,6 @@
 ---
-title: Upgrade Process Bullet List
+title: Upgrade process bullet list
 ---
-
 ## Upgrading an instance of {{ en.DVLS }}
 
 Please visit the [Upgrading {{ en.DVLS }}](/server/installation/upgrade-server/) page for informational steps of the upgrade procedure.
@@ -14,7 +13,7 @@ Please contact us at [service@devolutions.net](mailto:service@devolutions.net) t
 {{ en.DVLS }} is used by teams, this means that other users must be taken into account before starting with the upgrade.
 {% endsnippet %}
 
-## STEPS
+## Steps
 
 {% snippet icon.badgeNotice %}
 Confirm that all minimum requirements are installed and dependencies reach the supported versions according to the [System Requirements](/server/overview/system-requirements/) page.

@@ -1,9 +1,9 @@
 ---
-title: Data Recovery
+title: Data recovery
 ---
 In the event of data loss due to hardware failure, it is still possible to recover data from your storage device if it is still useable.
 ## Solution
-1. On the storage device that failed, navigate to C:\Users\%USERNAME%\AppData\Local\Devolutions and copy the entire RemoteDesktopManager or RemoteDesktopManagerFree folder.  
+1. On the storage device that failed, navigate to **C:\Users\%USERNAME%\AppData\Local\Devolutions** and copy the entire RemoteDesktopManager or RemoteDesktopManagerFree folder.  
 
 This folder will contain the local data source (SQLite or XML) as well as your configuration file.
 2. Paste this folder at the same place on your new computer and you should retrieve your data.  

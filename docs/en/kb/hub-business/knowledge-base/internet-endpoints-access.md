@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: List of Internet Endpoints Accessed by {{ en.DHUB }}
+  title: List of Internet endpoints accessed by {{ en.DHUB }}
   description: This is the list of addresses that are accessed by {{ en.DHUB }} during normal operation.
   keywords: 
   - endpoints

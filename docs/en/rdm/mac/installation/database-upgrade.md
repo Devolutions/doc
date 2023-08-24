@@ -1,5 +1,5 @@
 ---
-title: Database Upgrade
+title: Database upgrade
 ---
 This topic applies to installations with data sources that are using a database as their data store.  
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Locating the configuration file
+  title: Locate the configuration file
   description: Locate your {{ en.RDM }} configuration file.
   keywords:
   - Configuration file
@@ -20,9 +20,9 @@ Note that this example assumes that {{ en.RDM }} was installed with the default 
 {% endsnippet %}
  
 1. Press Windows+R. 
-1. Type "***%LOCALAPPDATA%\Devolutions\RemoteDesktopManager***" in the ***Run*** window and press ***OK***. 
+1. Type "**%LOCALAPPDATA%\Devolutions\RemoteDesktopManager**" in the ***Run*** window and press ***OK***. 
 ![Run window](https://webdevolutions.azureedge.net/docs/en/kb/KB2028.png) 
-1. In the folder, locate the RemoteDesktopManager.cfg file.  
+1. In the folder, locate the **RemoteDesktopManager.cfg** file.  
 ![RemoteDesktopManager.cfg file](https://webdevolutions.azureedge.net/docs/en/kb/KB2029.png) 
 1. Please send us the file securely by following the instructions in [Securely send a file to our team](/kb/devolutions-customer-success/securely-send-file/). 
 

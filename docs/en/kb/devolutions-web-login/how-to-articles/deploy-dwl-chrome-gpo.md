@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Deploy {{ en.DWL }} in Chrome using GPO
+  title: Deploy {{ en.DWL }} in Google Chrome using GPOs
   keywords:
   - GPO
 ---
@@ -19,7 +19,7 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 1. Select ***Registry*** located in ***Computer Configuration – Preferences – Windows Settings – Registry or User Configuration – Preferences – Windows Settings – Registry*** according to your needs.
 1. Right-click in the ***Registry*** items list and select ***New – Registry Item***.
 1. Set the ***Action*** parameter to Replace to modify the existing rule or to create it if it does not exist.
-1. Set the ***Hive*** parameter to ***HKEY_LOCAL_MACHINE*** or ***HKEY_CURRENT_USER*** according to your needs.
+1. Set the ***Hive*** parameter to **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER** according to your needs.
 1. Enter ***SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\neimonjjffhehnojilepgfejkneaidmo\policy*** in the ***Key Path*** text field.
 1. Enter ***Settings*** in the ***Value name*** text field.
 1. Select REG_SZ in the ***Value type*** drop-down list.
@@ -155,7 +155,7 @@ Possible values:
 1. Create a new GPO rule to have the {{ en.DWL }} extension automatically pinned on the Chrome toolbar.
 1. Select Registry located in Computer Configuration – Preferences – Windows Settings – Registry or User Configuration – Preferences – Windows Settings – Registry according to your needs.
 1. In the registry properties, set the Action parameter to ***Replace*** to change the existing rule or to create it if it does not exist.
-1. Set the Hive parameter to ***HKEY_LOCAL_MACHINE*** or ***HKEY_CURRENT_USER*** according to your needs.
+1. Set the Hive parameter to **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER** according to your needs.
 1. Enter ExtensionSettings in the ***Value name*** text field.
 1. Select REG_SZ in the ***Value type*** drop-down list.
 1. Enter the following JSON settings string in the Value data text field:

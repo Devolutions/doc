@@ -1,5 +1,5 @@
 ---
-title: Ports and Firewalls
+title: Ports and firewalls
 ---
 {{ en.DVLS }} in itself does not dictate which ports to use for any of the resources that it accesses. You must consult with your system administrator to ascertain which adjustments need to be made in order for the system to inter-operate with your infrastructure.
 
@@ -38,4 +38,4 @@ Follow the instructions for your operating system in order to establish LDAPS. I
 
 LDAP by default uses port 389. Even when you enable LDAPS, it may use plain LDAP therefore it needs to be disabled, please consult [Enforcing usage of LDAPS](/kb/devolutions-server/how-to-articles/enforcing-usage-ldaps/).
 
-LDAPS by default uses port 636 for typical domains, but will use port 3269 when communicating with a Global Catalog Server (basically when you have a Forest). Your domain administrator should be able to provide you with details of your domain infrastructure, especially if custom ports were used. You can also use ldp.exe to perform connectivity tests.
+LDAPS by default uses port 636 for typical domains, but will use port 3269 when communicating with a Global Catalog Server (basically when you have a Forest). Your domain administrator should be able to provide you with details of your domain infrastructure, especially if custom ports were used. You can also use **ldp.exe** to perform connectivity tests.

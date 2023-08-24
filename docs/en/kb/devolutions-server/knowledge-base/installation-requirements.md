@@ -1,12 +1,12 @@
 ---
-title: Installation Requirements
+title: Installation requirements
 status: Topic available in German language
 ---
 The following describe what you will need to install before installing {{ en.DVLS }}.
 
 Please contact us at [service@devolutions.net](mailto:service@devolutions.net) to book a session where we will help out to install {{ en.DVLS }}.
 
-## STEPS
+## Steps
 
 1. SQL Server already available (Express Edition is supported). For supported SQL Server versions, please see [System Requirements](/server/overview/system-requirements/).
 1. If not, install SQL Server and SQL Server Management Studio.

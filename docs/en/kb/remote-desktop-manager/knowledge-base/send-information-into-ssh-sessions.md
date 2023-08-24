@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Send information to SSH sessions using Typing Macro in {{ en.RDM }}
+  title: Send information to SSH sessions using a Typing Macro in {{ en.RDM }}
   description: Use the Typing Macro entry in {{ en.RDM }} to send information in SSH sessions.
 ---
 {{ en.RDM }}'s Typing Macro is designed to facilitate the transfer of information in SSH sessions with a single click.

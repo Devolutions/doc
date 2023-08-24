@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Understand {{ en.RDM }} Licensing
+  title: Understand {{ en.RDM }} licensing
   description: Multiple types of licenses are available for {{ en.RDM }} purchase, depending on the number of users.
   keywords:
   - Licensing

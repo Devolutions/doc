@@ -270,5 +270,3 @@ Utiliser la source de données en mode hors ligne lorsque la méthode ping ne r�
 		</td>
 	</tr>
 </table>
-
-

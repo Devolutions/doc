@@ -61,5 +61,3 @@ Invite l'utilisateur à choisir à quelle source de données se connecter.
 ### Paramètres des sources de données 
 
 Les [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) peuvent contenir des paramètres spécialisés ou des stratégies globales relatifs à la sécurité. Ces paramètres sont enregistrés directement dans la base de données. 
-
-

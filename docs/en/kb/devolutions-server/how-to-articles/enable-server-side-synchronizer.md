@@ -1,5 +1,5 @@
 ---
-title: Enable Server Side Synchronizer
+title: Enable the server-side synchronizer
 ---
 {% snippet icon.badgeCaution %}
 The {{ en.DVLS }} Scheduler must be installed and running to have this feature enabled.
@@ -9,7 +9,7 @@ The {{ en.DVLS }} Scheduler must be installed and running to have this feature e
 Only Active Directory and VMWare synchronizer entry types are supported by this feature.
 {% endsnippet %}
 
-The following steps describe how to enable server side synchronizer to be run by the {{ en.DVLS }} Scheduler.
+The following steps describe how to enable the server side synchronizer to be run by the {{ en.DVLS }} Scheduler.
 
 1. From the {{ en.DVLS }} web interface, create a new Synchronizer entry.  
 ![New Synchronizer entry.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8056.png)

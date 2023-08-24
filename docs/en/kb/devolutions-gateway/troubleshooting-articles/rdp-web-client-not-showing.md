@@ -1,5 +1,5 @@
 ---
-title: RDP Web Client Not Showing
+title: RDP web client not showing
 description: If you are unable to launch the RDP web client, check if you have the necessary requirements.
 keywords:
 - rdp
@@ -19,7 +19,7 @@ You must have at least a <a href="/rdm/windows/commands/administration/managemen
 
 {{ en.DGW }} is required to open a RDP session in the web client of {{ en.DVLS }}. If you do have a Gateway installed, check its <a href="https://docs.devolutions.net/server/dgw/server-configuration/" target="_blank">configuration</a>.
 
-### View Password Permission
+### View Password permission
 
 You need to have the ***View password*** permission to launch the RDP session.
 
