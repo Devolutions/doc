@@ -15,7 +15,7 @@ Consultez la section qui correspond à votre type de source de données :
 * [Azure SQL ou SQL Server](#configuration-de-lauthentification-multifacteur-sur-une-source-de-données-microsoft-azure-sql-ou-sql-server) 
 * [SQLite](#configuration-de-lauthentification-multifacteur-sur-une-source-de-données-sqlite) 
 
-### Configuration de l'authentification multifacteur sur une source de données microsoft azure sql ou SQL Server 
+## Configuration de l'authentification multifacteur sur une source de données microsoft azure sql ou SQL Server 
 
 1. Dans {{ fr.RDM }}, accéder à la source de données pour laquelle l'AMF doit être configurée. 
 1. Accéder à ***Fichier – Paramètres de mon compte***. 
@@ -30,7 +30,7 @@ Consultez la section qui correspond à votre type de source de données :
     * [Yubikey](/fr/rdm/windows/data-sources/multi-factor-authentication/yubikey/) 
     * [Duo](/fr/rdm/windows/data-sources/multi-factor-authentication/duo/) 
 
-### Configuration de l'authentification multifacteur sur une source de données SQLite 
+## Configuration de l'authentification multifacteur sur une source de données SQLite 
 
 1. Dans {{ fr.RDM }}, accéder à la source de données pour laquelle l'AMF doit être configurée. 
 1. Accéder à ***Fichier – Sources de données***. 
@@ -46,5 +46,3 @@ Consultez la section qui correspond à votre type de source de données :
     * [Authenticator (TOTP)](/fr/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/) 
     * [Yubikey](/fr/rdm/windows/data-sources/multi-factor-authentication/yubikey/) 
     * [Duo](/fr/rdm/windows/data-sources/multi-factor-authentication/duo/) 
-
-
