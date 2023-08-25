@@ -58,7 +58,7 @@ Maintenant, tout est prêt à accorder ou à refuser l'accès aux groupes d'util
 **Paramètres du coffre** 
 
 Comme mentionné ci-dessus, TOUTES les permissions du dossier du coffre sont définies sur ***Jamais***. Cela refuse l'accès par défaut aux autres utilisateurs.  
-![Paramètres du coffre - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6065.png) 
+![Paramètres du coffre - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6066.png) 
 
 **Windjammer Downhill Pro et Telemark, les groupes/dossiers de niveau du coffre** 
 
