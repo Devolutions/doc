@@ -470,7 +470,7 @@ Check for available updates for the {{ en.DVLSCONSOLE }}.
 Options
 		</td>
 		<td>
-Language setting and Update type options.
+Language setting, theme and update type options.
 		</td>
 	</tr>
 </table>
