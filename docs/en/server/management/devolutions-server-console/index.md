@@ -24,7 +24,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase, it must be started with eleva
 
 <table>
 	<tr>
-		<th>
+		<th width="150px">
 Option
 		</th>
 		<th>
@@ -136,7 +136,7 @@ Open a response file to run commands on the {{ en.DVLS }} instance.
 #### Scheduler Service
 <table>
 	<tr>
-		<th>
+		<th width="150px">
 Option
 		</th>
 		<th>
@@ -173,7 +173,7 @@ Start or Stop the Scheduler Service.
 #### Recording Server
 <table>
 	<tr>
-		<th>
+		<th width="150px">
 Option
 		</th>
 		<th>
@@ -218,7 +218,7 @@ Browse the folder where the recording files are stored.
 #### {{ en.DGW }}
 <table>
 	<tr>
-		<th>
+		<th width="150px">
 Option
 		</th>
 		<th>
@@ -266,7 +266,7 @@ Uninstall the {{ en.DGW }}.
 #### Keys Management
 <table>
 	<tr>
-		<th>
+		<th width="150px">
 Option
 		</th>
 		<th>
@@ -303,7 +303,7 @@ Regenerate the encryption keys.
 #### Database
 <table>
 	<tr>
-		<th>
+		<th width="150px">
 Option
 		</th>
 		<th>
@@ -324,7 +324,7 @@ Rebuild indexes of the SQL database tables.
 #### Recovery Kit
 <table>
 	<tr>
-		<th>
+		<th width="150px">
 Option
 		</th>
 		<th>
@@ -355,7 +355,7 @@ Download a previously generated Azure Key Vault Recovery Kit.
 
 <table>
 	<tr>
-		<th>
+		<th width="150px">
 Option
 		</th>
 		<th>
@@ -418,7 +418,7 @@ Will open the <a href="/server/web-interface/administration/backup/backup-manage
 
 <table>
 	<tr>
-		<th>
+		<th width="150px">
 Option
 		</th>
 		<th>
