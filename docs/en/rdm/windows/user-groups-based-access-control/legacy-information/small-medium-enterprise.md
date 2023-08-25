@@ -36,7 +36,7 @@ The ServiceDesk:
 The HelpDesk:  
 
 * ***Add***  
-![HelpDesk Rights](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6081.png) 
+![HelpDesk Rights](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin60121.png) 
 
 The MontrealConsultant has read-only access. He cannot see any password or entry detail.  
  
