@@ -119,5 +119,3 @@ Custom variables option has been implemented to customize your own variables in 
 		</td>
 	</tr>
 </table>
-
-

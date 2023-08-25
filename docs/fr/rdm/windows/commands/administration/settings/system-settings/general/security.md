@@ -92,5 +92,3 @@ Sélectionner le fuseau horaire dans lequel vous vous trouvez actuellement.
 		</td>
 	</tr>
 </table>
-
-

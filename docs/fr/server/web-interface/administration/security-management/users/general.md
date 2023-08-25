@@ -107,5 +107,3 @@ Langage de l'interface Web de l'utilisateur.
 		</td>
 	</tr>
 </table>
-
-

@@ -6,7 +6,6 @@ eleventyComputed:
   - Browser
   - Firefox
 ---
-
 Follow the steps below to complete the installation of {{ en.DWL }} in the Firefox web browser.
 
 1. Open a Firefox window.

@@ -59,5 +59,3 @@ Here you can select a specific Play List you would like launched whenever the ap
 		</td>
 	</tr>
 </table>
-
-

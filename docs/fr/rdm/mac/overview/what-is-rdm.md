@@ -111,5 +111,3 @@ Android
 		</td>
 	</tr>
 </table>
-
-

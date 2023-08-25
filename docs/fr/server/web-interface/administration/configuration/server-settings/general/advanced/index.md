@@ -58,7 +58,3 @@ Pour plus d'information voir [Personnalisations des Logos](/fr/server/web-interf
 		</td>
 	</tr>
 </table>
-
-
-
-

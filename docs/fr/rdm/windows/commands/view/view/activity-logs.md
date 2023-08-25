@@ -167,5 +167,3 @@ Indique l'identifiant unique du journal de connexions.
 		</td>
 	</tr>
 </table>
-
-

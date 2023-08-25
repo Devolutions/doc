@@ -54,5 +54,3 @@ Télécharger immédiatement la nouvelle version et l'installer.
 		</td>
 	</tr>
 </table>
-
-

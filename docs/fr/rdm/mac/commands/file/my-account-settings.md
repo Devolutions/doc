@@ -31,5 +31,3 @@ Avec une configuration de clé privée personnelle, vous pouvez sélectionner Ma
 		</td>
 	</tr>
 </table>
-
-

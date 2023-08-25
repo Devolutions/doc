@@ -39,5 +39,3 @@ An advanced cache, with change synchronization. This mode is allowed for <a href
 		</td>
 	</tr>
 </table>
-
-

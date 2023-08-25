@@ -3,7 +3,6 @@ eleventyComputed:
   title: Configure a Credential Redirection entry in {{ en.RDM }}
   description: Learn how to configure a Credential Redirection entry in {{ en.RDM }}
 ---
-
 The ***Credential Redirection entry*** enables autofill from any password manager and with a favorite Web browser.  
 
 ## Create a Credential Redirection entry

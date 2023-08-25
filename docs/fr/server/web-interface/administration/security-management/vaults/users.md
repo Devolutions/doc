@@ -22,5 +22,3 @@ Lorsque coché, assigne le coffre à l'utilisateur.
 		</td>
 	</tr>
 </table>
-
-

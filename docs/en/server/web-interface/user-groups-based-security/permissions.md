@@ -266,5 +266,3 @@ Allow users/user groups to edit documentation.
 		</td>
 	</tr>
 </table>
-
-

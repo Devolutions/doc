@@ -102,5 +102,3 @@ Refresh the attachments list.
 		</td>
 	</tr>
 </table>
-
-

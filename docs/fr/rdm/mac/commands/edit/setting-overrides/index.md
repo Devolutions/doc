@@ -32,6 +32,3 @@ Permets le remplacement des paramètres de session pour la machine locale. Pour 
 		</td>
 	</tr>
 </table>
-
-
-

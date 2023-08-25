@@ -38,5 +38,3 @@ Create a new {{ en.DA }}.
 		</td>
 	</tr>
 </table>
-
-

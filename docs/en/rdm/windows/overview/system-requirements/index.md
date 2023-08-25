@@ -38,5 +38,3 @@ Microsoft .NET Framework 4.8
 ## Manual/Portable Deployment 
 
 Deploying manually using our zip file is documented as being a [Portable (USB)](/rdm/windows/installation/client/portable-usb/) deployment. In this case, the prerequisites will need to be handled manually as well. Please consult [Prerequisite Software](/rdm/windows/overview/system-requirements/prerequisite-software/) for details. 
-
-

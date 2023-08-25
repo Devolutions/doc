@@ -634,5 +634,3 @@ Shortcut to access the configuration folder directly.
 		</td>
 	</tr>
 </table>
-
-

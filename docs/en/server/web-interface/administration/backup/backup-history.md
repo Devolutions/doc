@@ -63,5 +63,3 @@ A check mark will indicate a successful backup, while an X will indicate that th
 		</td>
 	</tr>
 </table>
-
-

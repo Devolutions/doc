@@ -24,5 +24,3 @@ Consultez les rubriques suivantes pour obtenir plus d'informations sur chaque op
 * [Importer des sessions](/fr/rdm/windows/commands/file/import/sessions/) 
 * [Importer des connexions](/fr/rdm/windows/commands/file/import/logins/) 
 * [Importer des contacts](/fr/rdm/windows/commands/file/import/contacts/) 
-
-

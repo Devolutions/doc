@@ -4,7 +4,6 @@ eleventyComputed:
   order: 30
   description: Approvers can grant Temporary Access without request to a user and even if the user already has access.
 ---
-
 {% snippet icon.badgeNotice %} 
 To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.DVLS }}](/server/web-interface/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
@@ -23,7 +22,3 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
  
  4. Click on ***Set custom time frame*** if you need to grant access for a specific period of time and write a short ***Message*** to the user explaining why you grant access.  
  1. Click ***Grant Access*** to close the window.  
-
-
-
-

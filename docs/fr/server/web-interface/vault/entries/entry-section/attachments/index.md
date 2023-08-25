@@ -19,5 +19,3 @@ Par défaut, le ***Titre*** sera le nom du fichier joint.
 1. Facultatif : Dans les ***Paramètres***, vous pouvez sécuriser la pièce jointe avec un ***Mot de passe***. 
 1. Cliquer ***Ajouter*** pour enregistrer.  
 ![!!ServerOp4093.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4093.png) 
-
-

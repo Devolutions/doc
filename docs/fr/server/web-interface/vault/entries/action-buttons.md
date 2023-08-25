@@ -199,5 +199,3 @@ Afficher le mot de passe de l'entrée sélectionnée.
 		</td>
 	</tr>
 </table>
-
-

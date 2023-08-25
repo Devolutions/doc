@@ -55,5 +55,3 @@ The offline ***Documentation*** tab is now available in the ***Dashboard***.
 ![Synchronize document to offline](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6005.png)  
 The offline ***Documentation*** tab is now available in the ***Dashboard***.  
 ![Documentation tab](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6003.png)  
-
-

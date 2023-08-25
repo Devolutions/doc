@@ -53,5 +53,3 @@ Sélectionner tous les pays autorisés pour se connecter à l'instance {{ fr.DVL
 		</td>
 	</tr>
 </table>
-
-

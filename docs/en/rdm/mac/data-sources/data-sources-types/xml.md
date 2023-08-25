@@ -158,5 +158,3 @@ This will enable the loading of any custom images in the tree view.
 		</td>
 	</tr>
 </table>
-
-

@@ -82,6 +82,3 @@ Configurer le type [Office365](/fr/server/web-interface/administration/configura
 		</td>
 	</tr>
 </table>
-
-
-

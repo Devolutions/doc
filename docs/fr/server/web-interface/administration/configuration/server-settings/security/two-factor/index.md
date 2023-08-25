@@ -64,6 +64,3 @@ L'option est appliquée pour tous les utilisateurs. Un type d'authentification �
 ![Administration - Paramètres de {{ fr.DVLS }}](https://webdevolutions.azureedge.net/docs/fr/server/clip10390.png)  
 1. Lorsque l'utilisation de l'authentification à deux facteurs est définie sur ***Optionnel par utilisateur***, la méthode doit être configurée dans ***Administration - Utilisateurs - Deux facteurs*** pour chaque utilisateur. Vous pouvez également définir un type sur l'utilisateur s'il utilise un produit différent de la méthode par défaut. Voir [Modifier les utilisateurs](/fr/server/web-interface/administration/security-management/users/edit-user-two-factor/) pour plus d'informations.  
 ![Modifier l'utilisateur - 2 facteurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp7014.png)  
-
-
-

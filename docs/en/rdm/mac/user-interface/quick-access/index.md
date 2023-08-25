@@ -57,5 +57,3 @@ Please refer to [Search](/rdm/mac/user-interface/quick-access/search/).
 
 ![Quick Access - Lock Application](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10555.png) 
 Please refer to [Lock Application](/rdm/mac/commands/file/lock-application/). 
-
-

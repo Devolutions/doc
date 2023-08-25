@@ -1,7 +1,6 @@
 ---
 title: Dropbox
 ---
-
 <table>
 	<tr>
 		<td>
@@ -147,5 +146,3 @@ Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer o
 		</td>
 	</tr>
 </table>
-
-

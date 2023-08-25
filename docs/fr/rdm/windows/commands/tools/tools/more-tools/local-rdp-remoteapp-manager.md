@@ -41,7 +41,6 @@ Vous devez activer RemoteApp pour pouvoir créer un nouveau paramètre RemoteApp
 Activer ou désactiver UDP (User Datagram Protocol) localement sur votre ordinateur. UDP est un protocole de communication qui offre une quantité limitée de services lorsque des messages sont échangés entre des ordinateurs d'un réseau qui utilise le protocole Internet (IP).  
 ![Paramètres UDP est désactivé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11351.png) 
 
-
 ## Utilisation 
 
 1. Cliquer sur ***Déployer un nouveau RemoteApp***.  

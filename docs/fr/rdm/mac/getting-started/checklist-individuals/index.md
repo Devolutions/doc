@@ -88,7 +88,3 @@ L’étape finale consiste à importer toutes vos données dans {{ fr.RDM }}. Vo
 		</td>
 	</tr>
 </table>
-
-
-
-

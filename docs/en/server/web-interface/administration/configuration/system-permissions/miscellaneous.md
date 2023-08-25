@@ -3,7 +3,6 @@ title: Miscellaneous
 keywords:
 - Roles
 ---
-
 ![Administration - System Permissions - Miscellaneous](https://webdevolutions.azureedge.net/docs/en/server/clip8055.png) 
 
 <table>
@@ -64,5 +63,3 @@ Allow users/user groups to be able to check in entries.
 		</td>
 	</tr>
 </table>
-
-

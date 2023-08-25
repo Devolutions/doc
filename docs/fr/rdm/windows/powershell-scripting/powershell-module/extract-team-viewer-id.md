@@ -3,7 +3,6 @@ title: Extraire l'ID TeamViewer
 ---
 Vous pouvez utiliser Powershell pour extraire l'ID TeamViewer d'une session. 
 
-
 ## Paramètres 
 Voici un script pour extraire l'ID TeamViewer d'une session :  
 

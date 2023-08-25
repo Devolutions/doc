@@ -239,5 +239,3 @@ Allow users/user groups to create and manage password templates.
 		</td>
 	</tr>
 </table>
-
-

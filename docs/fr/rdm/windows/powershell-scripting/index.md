@@ -30,6 +30,3 @@ Il s'agit d'extraits de code PowerShell pouvant être exécutés directement dan
 		</td>
 	</tr>
 </table>
-
-
-

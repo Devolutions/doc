@@ -133,5 +133,3 @@ Ouvre le ***Gestionnaire d'extensions***. Il est utilisé pour simplifier la ges
 		</td>
 	</tr>
 </table>
-
-

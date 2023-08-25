@@ -239,6 +239,3 @@ Un cache avancé, avec synchronisation des modifications, est autorisé pour les
 		</td>
 	</tr>
 </table>
-
-
-

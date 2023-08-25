@@ -22,5 +22,3 @@ Lorsque coché, assigne le coffre au groupe d'utilisateurs.
 		</td>
 	</tr>
 </table>
-
-

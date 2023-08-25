@@ -101,6 +101,3 @@ Avancée
 		</td>
 	</tr>
 </table>
-
-
-

@@ -162,5 +162,3 @@ Forcefully excludes characters from the password.
 		</td>
 	</tr>
 </table>
-
-

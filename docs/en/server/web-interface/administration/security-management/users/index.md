@@ -109,6 +109,3 @@ Delete user.
 		</td>
 	</tr>
 </table>
-
-
-

@@ -5,16 +5,13 @@ keywords:
 ---
 ## Qu'est-ce que {{ fr.DVLS }}?
 
-
 {{ fr.DVLS }} est une source de données spécialisée pour nos différentes applications clientes de la plateforme {{ fr.RDM }}. 
 
 ## Pourquoi acheter {{ fr.DVLS }}?
 
-
 Idéal pour les entreprises qui préfèrent stocker leurs données en interne, souhaitent déployer leur propre certificat SSL ou pare-feu ou qui ont besoin d'une intégration Active Directory avec la gestion des groupes d'utilisateurs. 
 
 ## Quels sont les principaux avantages de {{ fr.DVLS }}?
-
 
 {{ fr.DVLS }} est installé sur votre matériel, dans votre environnement ou chez votre FSI pour vous donner un contrôle total sur tout, y compris : 
 
@@ -32,16 +29,13 @@ Idéal pour les entreprises qui préfèrent stocker leurs données en interne, s
 
 ## Puis-je obtenir un essai de {{ fr.DVLS }}?
 
-
 Oui - [Essayez {{ fr.DVLS }} gratuitement](https://devolutions.net/server/fr/trial) 
 
 ## {{ fr.DVLS }} inclut-il une licence client de {{ fr.RDM }}?
 
-
 {{ fr.DVLS }} n'inclut aucune licence client. 
 
 ## Est-ce que {{ fr.DVLS }} est offert en abonnement?
-
 
 Oui, {{ fr.DVLS }} est offert en abonnement. Vous pouvez vous abonner pour un (1) an ou trois (3) ans à la fois. Vous offrant une connectivité client illimitée pendant cette période. 
 
@@ -51,6 +45,3 @@ Vous devez renouveler votre contrat d'abonnement à son expiration. Si vous ne r
 
 ## Puis-je mettre à niveau d'une source de données sql server vers {{ fr.DVLS }}?
 Non, nous vous recommandons de créer une nouvelle instance {{ fr.DVLS }} et d'exporter les données de la source de données SQL et de les importer dans la nouvelle instance {{ fr.DVLS }}. Contactez-nous à [service@devolutions.net](mailto:service@devolutions.net) pour plus d'informations sur le processus de migration. 
-
-
-

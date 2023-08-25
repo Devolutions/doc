@@ -52,5 +52,3 @@ Display the password that you have in your blacklisted forbidden password.
 		</td>
 	</tr>
 </table>
-
-

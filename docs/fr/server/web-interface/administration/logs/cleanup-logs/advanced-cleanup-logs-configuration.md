@@ -139,5 +139,3 @@ Supprimer les journaux directement dont la date de création est plus ancienne q
 		</td>
 	</tr>
 </table>
-
-

@@ -65,5 +65,3 @@ Un X indiquera que la sauvegarde a échoué.
 		</td>
 	</tr>
 </table>
-
-

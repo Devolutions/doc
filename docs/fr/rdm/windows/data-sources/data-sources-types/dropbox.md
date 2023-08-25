@@ -194,5 +194,3 @@ Autoriser la source de données à être utilisée en mode hors ligne.
 		</td>
 	</tr>
 </table>
-
-

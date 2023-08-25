@@ -113,5 +113,3 @@ Il existe trois niveaux de dossiers : les éléments du coffre, Telemark et enfa
 
 Supposons qu'un utilisateur, tel qu'un consultant, doit avoir accès au dossier Montréal uniquement. Le consultant doit également être autorisé à consulter le dossier Telemark. Toutefois, accorder l'accès à la vue au dossier Telemark donne au consultant les autorisations pour afficher tous les éléments enfants de Telemark. Pour refuser les autorisations d'affichage pour le consultant sur des éléments enfants spécifiques, les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs.  
 ![Les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6042.png) 
-
-

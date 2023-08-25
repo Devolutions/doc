@@ -85,5 +85,3 @@ Indiquer l'emplacement de la boutique du certificat
 		</td>
 	</tr>
 </table>
-
-

@@ -264,6 +264,3 @@ Cons:
 		</td>
 	</tr>
 </table>
-
-
-

@@ -76,6 +76,3 @@ Le bouton ***Affichage*** vous donne un aperçu de l'entrée ainsi que des fonct
 
 Les autres informations et fonctionnalités dépendront de ce que vous avez fourni lors de la création de l'entrée (nom d'utilisateur, mot de passe, étiquettes, description, etc.).  
 ![Aperçu de l'entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2081.png)  
-
-
-

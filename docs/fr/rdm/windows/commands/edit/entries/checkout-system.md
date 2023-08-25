@@ -135,5 +135,3 @@ Hérite le paramètre du dossier parent.
 		</td>
 	</tr>
 </table>
-
-

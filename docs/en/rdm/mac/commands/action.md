@@ -162,5 +162,3 @@ Open a duplicate tab your opened session.
 		</td>
 	</tr>
 </table>
-
-

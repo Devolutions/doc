@@ -104,5 +104,3 @@ Ajouter des utilisateurs du domaine ou des utilisateurs intégrés (voir [Gestio
 		</td>
 	</tr>
 </table>
-
-

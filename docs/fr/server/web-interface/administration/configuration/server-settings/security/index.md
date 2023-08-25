@@ -79,6 +79,3 @@ Entrer le nombre de tentatives infructueuses permises avant de verrouiller le se
 		</td>
 	</tr>
 </table>
-
-
-

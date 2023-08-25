@@ -95,5 +95,3 @@ Permettre à l'utilisateur d'accéder à l'instance selon les choix suivants :
 		</td>
 	</tr>
 </table>
-
-

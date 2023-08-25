@@ -86,6 +86,3 @@ Supprimer le groupe d'utilisateur.
 		</td>
 	</tr>
 </table>
-
-
-

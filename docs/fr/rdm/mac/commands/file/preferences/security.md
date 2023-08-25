@@ -146,5 +146,3 @@ Cette case à cocher force l'utilisateur à entrer le mot de passe avant d'accé
 		</td>
 	</tr>
 </table>
-
-

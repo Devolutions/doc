@@ -54,5 +54,3 @@ Jeton d'authentification pour le serveur d'enregistrements.
 		</td>
 	</tr>
 </table>
-
-

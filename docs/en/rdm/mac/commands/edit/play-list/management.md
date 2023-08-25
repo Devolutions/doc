@@ -111,5 +111,3 @@ Copy the selected Play List.
 		</td>
 	</tr>
 </table>
-
-

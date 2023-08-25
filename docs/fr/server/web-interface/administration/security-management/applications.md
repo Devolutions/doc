@@ -56,5 +56,3 @@ Permet à la clé d'application de sauvegarder des enregistrements de sessions.
 		</td>
 	</tr>
 </table>
-
-

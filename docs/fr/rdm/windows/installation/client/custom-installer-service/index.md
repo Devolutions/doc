@@ -37,5 +37,3 @@ Les rubriques suivantes vous aideront à commencer la configuration de vos progr
 * [Créer un paquet d'installation](/fr/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/) 
 * [Générateur de fichier de configuration](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/) 
 * [Sélection des options](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/option-selection/) 
-
-

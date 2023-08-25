@@ -33,5 +33,3 @@ Export your selected entries in a .rdm file that can then be imported into any {
 		</td>
 	</tr>
 </table>
-
-

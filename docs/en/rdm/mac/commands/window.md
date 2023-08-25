@@ -55,5 +55,3 @@ Collapse all the groups in the <i><b>{{ en.NPANE }}</b></i> when the Tree view m
 		</td>
 	</tr>
 </table>
-
-

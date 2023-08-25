@@ -103,5 +103,3 @@ Actualiser la liste des pièces jointes.
 		</td>
 	</tr>
 </table>
-
-

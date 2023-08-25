@@ -6,7 +6,6 @@ eleventyComputed:
   - Browser
   - Edge
 ---
-
 Here are the steps to install {{ en.DWL }} on Microsoft Edge.
 
 1. Open a Microsoft Edge window. 

@@ -15,7 +15,3 @@ Suivre les étapes ci-dessous pour compléter l'installation de {{ fr.DWL }} dan
 ![Ajouter l'extension](https://webdevolutions.azureedge.net/docs/fr/kb/KB4039.png) 
 1. Une fois installée, accéder à l'extension en cliquant sur l'icône dans le coin supérieur droit du navigateur Firefox.  
 ![Extension {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/kb/KB4040.png) 
-
-
-
-

@@ -79,5 +79,3 @@ Template entries is where your custom template entries are located.
 		</td>
 	</tr>
 </table>
-
-

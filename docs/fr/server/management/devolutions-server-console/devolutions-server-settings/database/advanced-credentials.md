@@ -72,5 +72,3 @@ Génèrera un script SQL pouvant être exécuté sur la base de données SQL pou
 		</td>
 	</tr>
 </table>
-
-

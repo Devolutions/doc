@@ -50,5 +50,3 @@ Copy the logs to your clipboard as they appear in the ***Local Connection Logs**
 		</td>
 	</tr>
 </table>
-
-

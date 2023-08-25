@@ -150,5 +150,3 @@ Purchase date in a ISO8601 format (i.e., yyyy-mm-dd).
 		</td>
 	</tr>
 </table>
-
-

@@ -248,5 +248,3 @@ When changing network, {{ en.RDMMAC }} goes in Offline mode.
 		</td>
 	</tr>
 </table>
-
-

@@ -2,7 +2,6 @@
 title: Services en ligne Devolutions
 order: 0
 ---
-
 ![!!{{ fr.DCS }} logo]({{ locale.fr.projects.cloud.logo }})
 
 Les {{ fr.DCS }} sont le point d’entrée de tous les services infonuagiques (Cloud) de Devolutions. Il est composé de plusieurs services résumés ci-dessous.

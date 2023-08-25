@@ -20,5 +20,3 @@ If you have users who override entry properties with ***User Specific Settings**
  
 6. Click ***OK***. 
 The import will proceed using your chosen settings. 
-
-

@@ -74,5 +74,3 @@ Autoriser l'affichage du script mis à jour avant le lancement de la mise à jou
 		</td>
 	</tr>
 </table>
-
-

@@ -23,5 +23,3 @@ Master password to protect vault's modifications.
 		</td>
 	</tr>
 </table>
-
-

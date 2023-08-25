@@ -118,5 +118,3 @@ L'option de variables personnalisées a été implémentée pour personnaliser v
 		</td>
 	</tr>
 </table>
-
-

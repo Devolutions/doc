@@ -133,7 +133,3 @@ Access the [Advanced Credentials](/server/management/devolutions-server-console/
 		</td>
 	</tr>
 </table>
-
-
-
-

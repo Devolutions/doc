@@ -199,5 +199,3 @@ Contains multiple SQLite commands to facilitate managing. You should usually onl
 		</td>
 	</tr>
 </table>
-
-

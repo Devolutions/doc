@@ -44,7 +44,6 @@ When a second user returns online, a conflict occurs and the ***Offline Edits***
 
 When the conflict occurs, the user must decide to accept or reject the changes. The different versions of the entry can be compared to view which changes has been made.  
 
-
 ### Compare Versions of an Entry 
 
 Click the ***Compare*** button to compare the versions of a conflicted entry. Analyze the XML structure of the entry to decide to ***Accept*** or ***Reject*** the changes.  

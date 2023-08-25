@@ -6,7 +6,6 @@ eleventyComputed:
   - KeePass
   - Extension
 ---
-
 {% youtube 'J9BXNjsLYhI' %}
 
 Le module d’extension de KeePass est requis pour envoyer les identifiants à {{ fr.RDM }} (RDM). 

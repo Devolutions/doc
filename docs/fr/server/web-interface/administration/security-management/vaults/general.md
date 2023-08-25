@@ -38,5 +38,3 @@ Permet d'accéder au coffre en mode hors-ligne avec {{ fr.RDM }}. Veuillez consu
 		</td>
 	</tr>
 </table>
-
-

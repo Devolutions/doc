@@ -13,7 +13,6 @@ Les scores sont évidemment sujets à caution et nous ne prétendons pas que cha
 
 ### Https devrait être utilisé pour se connecter à la source de données
 
-
 <table>
 	<tr>
 		<td>

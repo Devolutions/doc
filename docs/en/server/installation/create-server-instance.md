@@ -6,7 +6,6 @@ eleventyComputed:
 keywords:
 - Roles
 ---
-
 {% snippet icon.badgeInfo %} 
 If you have recently received your serial licenses keys, please refer to the [Getting Started](/server/getting-started/) topic. 
 {% endsnippet %}
@@ -37,8 +36,6 @@ All operations performed through the {{ en.DVLSCONSOLE }} are done with the cred
 1. The following dialog displays the SQL Server information, including the ***sa*** account credentials, that will used by {{ en.DVLS }} to create and connect to the SQL database.
 1. Once the installation is successfully completed, the wizard will display the installation summary and will automatically open the default browser to connect on the {{ en.DVLS }} web interface. ![Installation summary report](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8181.png) 
 1. On the {{ en.DVLS }} web interface, use the credentials provided in step 2 above to log in. Afterward, a prompt will request a password change before continuing with the login process. ![Change your password prompt](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8182.png) 
-
-
 
 ### Advanced Installation <a name="Advanced"></a>
 

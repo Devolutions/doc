@@ -37,5 +37,3 @@ When resetting the Domain or the Office365 cache, it will wipe out the informati
 		</td>
 	</tr>
 </table>
-
-

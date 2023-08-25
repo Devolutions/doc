@@ -114,6 +114,3 @@ Migrate the authentication method of the existing user account to another authen
 		</td>
 	</tr>
 </table>
-
-
-

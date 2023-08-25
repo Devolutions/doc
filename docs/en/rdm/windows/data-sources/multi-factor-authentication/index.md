@@ -46,5 +46,3 @@ Go to the section that corresponds to you data source type:
     * [Authenticator (TOTP)](/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/) 
     * [Yubikey](/rdm/windows/data-sources/multi-factor-authentication/yubikey/) 
     * [Duo](/rdm/windows/data-sources/multi-factor-authentication/duo/) 
-
-

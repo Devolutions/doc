@@ -32,5 +32,3 @@ Chaque onglet affiche une vue différente dans la ***Zone de contenu***. Les ong
 * l'onglet ***À propos***, où vous pouvez trouver des liens vers des outils et des informations utiles sur {{ fr.DWL }}. 
 
 Consultez notre rubrique [Menu latéral](/fr/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 
-
-

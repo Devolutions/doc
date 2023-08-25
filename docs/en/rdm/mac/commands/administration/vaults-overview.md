@@ -2,7 +2,6 @@
 title: Vaults overview
 description: Vaults are containers that organize your folders and entries. They help divide your Advanced Data Sources into multiple compartments.
 ---
-
 {{ en.VLT }}s are containers that organize your folders and entries. They help divide your ***Advanced Data Sources*** into multiple compartments. {{ en.VLT }}s improve the security and user experience of {{ en.RDM }}, as well as its performance by limiting the amount of entries that load at once.
 
 {% snippet icon.badgeHelp %}

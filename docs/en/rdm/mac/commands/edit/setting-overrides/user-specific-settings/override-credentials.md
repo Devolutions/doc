@@ -63,5 +63,3 @@ Use a [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) crede
 		</td>
 	</tr>
 </table>
-
-

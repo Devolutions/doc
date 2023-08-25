@@ -64,5 +64,3 @@ Les filtres sont liés aux différentes catégories et chacune d'elles possède 
 		</td>
 	</tr>
 </table>
-
-

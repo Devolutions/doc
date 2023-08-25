@@ -17,7 +17,6 @@ Local Play List is saved on the local computer and is not available to other use
 
 ### Shared Play List  
 
-
 The Shared Play List is saved in the database and can be used by all users. The Shared Play List can be launched from the ***{{ en.NPANE }}*** as well as from the menu ***View - Play List***.  
 
 Please consult the Play List Entry topic for more information on the Shared Play List session.  

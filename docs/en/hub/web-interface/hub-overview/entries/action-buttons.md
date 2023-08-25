@@ -156,5 +156,3 @@ Display the field of the selected entry.
 		</td>
 	</tr>
 </table>
-
-

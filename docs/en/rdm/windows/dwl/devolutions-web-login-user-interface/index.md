@@ -31,5 +31,3 @@ Each tab will display a different view in the ***Content Area***. The tabs avail
 * the ***About*** tab, where you will find links to useful tools and information about {{ en.DWL }}.  
 
 See our [Side Menu](/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/) topic for more information on each of the tabs. 
-
-

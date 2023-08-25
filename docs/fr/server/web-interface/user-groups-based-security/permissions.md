@@ -260,5 +260,3 @@ Autoriser les utilisateurs/groupes d'utilisateurs à modifier la documentation.
 		</td>
 	</tr>
 </table>
-
-

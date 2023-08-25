@@ -41,5 +41,3 @@ Pour plus d'informations, veuillez consulter [Favoris](/fr/rdm/mac/commands/home
 ### Insérer un commentaire d'enregistrement 
 
 Ajouter un commentaire de journal à la session qui sera enregistrée dans les journaux de session, pour plus d'informations, veuillez consulter [Insérer un commentaire d'enregistrement](/fr/rdm/mac/commands/home/insert-log-comment/). 
-
-

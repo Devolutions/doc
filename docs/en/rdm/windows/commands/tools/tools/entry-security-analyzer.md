@@ -109,5 +109,3 @@ Export the password analyzer settings.
 		</td>
 	</tr>
 </table>
-
-

@@ -214,5 +214,3 @@ Compresser et nettoyer le fichier de base de données actuel.
 		</td>
 	</tr>
 </table>
-
-

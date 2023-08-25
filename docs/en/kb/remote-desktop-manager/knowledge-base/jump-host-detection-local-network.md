@@ -3,7 +3,6 @@ eleventyComputed:
   title: Automatically detect and bypass jump host for direct connections in local network
   description: 
 ---
-
 A jump host acts as a gate between two trusted networks, allowing access, but only with the permission of the jump host.
 
 However, in the case of maintaining multiple connections through a jump host on the same network, the current procedure requires disabling the jump host or resorting to the direct connection (without jump host) alternative. Learn how to bypass the jump host below.

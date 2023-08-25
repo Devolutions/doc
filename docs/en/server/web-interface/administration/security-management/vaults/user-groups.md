@@ -23,5 +23,3 @@ Grant access to the user group on the vault when enabled.
 		</td>
 	</tr>
 </table>
-
-

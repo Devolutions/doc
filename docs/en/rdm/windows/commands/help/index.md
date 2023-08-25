@@ -140,6 +140,3 @@ Learn about {{ en.RDM }}.
 		</td>
 	</tr>
 </table>
-
-
-

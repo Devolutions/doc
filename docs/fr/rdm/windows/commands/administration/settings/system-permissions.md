@@ -223,5 +223,3 @@ Autoriser les utilisateurs/groupes d'utilisateurs à accéder aux paramètres de
 		</td>
 	</tr>
 </table>
-
-

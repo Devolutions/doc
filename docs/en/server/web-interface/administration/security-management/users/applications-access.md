@@ -109,5 +109,3 @@ Allow access to the instance according to the given possibilities:
 		</td>
 	</tr>
 </table>
-
-

@@ -1,7 +1,6 @@
 ---
 title: Importer à partir d'une recherche réseau
 ---
-
 L'***importation à partir d'une recherche réseau*** vous permet d'effectuer une analyse du réseau basée sur une plage d'adresses IP prédéfinie pour trouver les sessions à importer.  
 
 Une fois l'analyse terminée, vous pouvez sélectionner les sessions que vous souhaitez importer (par défaut, chaque session sera sélectionnée) et cliquer sur ***OK*** pour importer ces sessions dans votre source de données.  

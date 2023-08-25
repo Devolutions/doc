@@ -4,7 +4,6 @@ eleventyComputed:
   keywords:
   - GPO
 ---
-
 {% snippet icon.badgeInfo %}
 IMPORTANT NOTE (for {{ en.DWL }} versions prior to 2021.2.3.0)
 The settings deployed with the group policy object (GPO) are only enforced when the extension is used for the first time. This means that the settings will not be enforced and changed if you change the settings in the GPO and the extension has already been used by a user at least once.

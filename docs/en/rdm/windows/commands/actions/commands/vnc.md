@@ -113,5 +113,3 @@ Open the window containing information regarding your VNC connection status and 
 		</td>
 	</tr>
 </table>
-
-

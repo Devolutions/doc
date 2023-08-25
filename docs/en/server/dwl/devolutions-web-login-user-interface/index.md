@@ -40,6 +40,3 @@ Each tab will display a different view in the ***Content Area***. The tabs avail
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  
 
 See our [Side Menu](/server/dwl/devolutions-web-login-user-interface/side-menu/) topic for more information on each of the tabs. 
-
-
-

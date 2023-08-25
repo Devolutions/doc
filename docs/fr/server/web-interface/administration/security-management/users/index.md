@@ -108,7 +108,3 @@ Supprimer l'utilisateur.
 		</td>
 	</tr>
 </table>
-
-
-
-

@@ -117,5 +117,3 @@ Partager un ou plusieurs disques durs spécifiques dans la session à distance.
 		</td>
 	</tr>
 </table>
-
-

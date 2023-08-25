@@ -81,5 +81,3 @@ Durée (en secondes) d'attente d'une connexion au serveur avant de mettre fin à
 		</td>
 	</tr>
 </table>
-
-

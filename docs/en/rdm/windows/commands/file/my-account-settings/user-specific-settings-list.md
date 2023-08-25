@@ -48,5 +48,3 @@ Export a list of user Specific Settings into a .rds file. A password is required
 		</td>
 	</tr>
 </table>
-
-

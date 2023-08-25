@@ -1,7 +1,6 @@
 ---
 title: General
 ---
-
 ![Edit Users - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp7005.png) 
 
 <table>
@@ -107,5 +106,3 @@ Language of the user's web interface.
 		</td>
 	</tr>
 </table>
-
-

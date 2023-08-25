@@ -21,6 +21,3 @@ Consult these different topics to learn about useful {{ en.DWL }} features:
 * [Add a Website Entry](/rdm/windows/dwl/using-devolutions-web-login/add-website-entry-dwl/) 
 * [Retrieve Credentials](/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/) 
 * [Keyboard Shortcuts](/rdm/windows/dwl/settings/keyboard-shortcuts/) 
-
-
-

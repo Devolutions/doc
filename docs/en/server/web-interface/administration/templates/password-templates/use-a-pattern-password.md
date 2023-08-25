@@ -269,5 +269,3 @@ Define a custom character sequence
 		</td>
 	</tr>
 </table>
-
-

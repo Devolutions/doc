@@ -229,5 +229,3 @@ Indicate the location and the store to save the certificate.
 		</td>
 	</tr>
 </table>
-
-

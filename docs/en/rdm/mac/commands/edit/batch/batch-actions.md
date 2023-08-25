@@ -110,5 +110,3 @@ It will automatically convert your selected SSH/Telnet/PortForward sessions into
 		</td>
 	</tr>
 </table>
-
-

@@ -49,5 +49,3 @@ Include the ports that are already used by other sessions.
 		</td>
 	</tr>
 </table>
-
-

@@ -689,5 +689,3 @@ Ctrl+Maj+Droite
 		</td>
 	</tr>
 </table>
-
-

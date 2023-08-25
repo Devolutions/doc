@@ -86,7 +86,6 @@ Possible values:
 	</tr>
 </table>
 
-
 ### Check Out 
 <table>
 	<tr>
@@ -128,5 +127,3 @@ Default checkout time (minutes)
 		</td>
 	</tr>
 </table>
-
-

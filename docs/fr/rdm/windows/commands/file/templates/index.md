@@ -43,5 +43,3 @@ Le modèle peut également être sélectionné avant de créer l'entrée. Utilis
 
 Les modèles peuvent être utilisés avec la fonction de ***Connexion rapide***. Par exemple, le même modèle peut être utilisé pour se connecter à différents hôtes.  
 ![!!clip10164.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10164.png) 
-
-

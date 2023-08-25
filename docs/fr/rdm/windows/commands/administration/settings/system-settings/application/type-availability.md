@@ -21,5 +21,3 @@ Les entrées exclues ne seront pas dans la fenêtre ***Ajouter une nouvelle entr
 		</td>
 	</tr>
 </table>
-
-

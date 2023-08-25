@@ -145,5 +145,3 @@ Aucun
 		</td>
 	</tr>
 </table>
-
-

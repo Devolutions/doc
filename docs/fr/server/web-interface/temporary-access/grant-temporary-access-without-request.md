@@ -4,7 +4,6 @@ eleventyComputed:
   order: 30
   description:  Les approbateurs peuvent accorder un accès temporaire sans demande à un utilisateur et même si ce dernier dispose déjà d'un accès.
 ---
-
 {% snippet icon.badgeNotice %} 
 Pour apprendre comment approuver et refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ fr.DVLS }}](/fr/server/web-interface/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
@@ -26,6 +25,3 @@ Vous pouvez consulter les ***Dépendances de l'entrée***, comme que les identif
  1. Cliquer sur ***Accorder l'accès*** pour fermer la fenêtre. 
 
 L'***accès temporaire*** a été accordé.
-
-
-

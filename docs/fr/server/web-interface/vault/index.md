@@ -15,5 +15,3 @@ Les ***{{ fr.VLT }}s*** sont divisés en deux parties :
 * Le ***{{ fr.NPANE }}*** (à gauche) répertorie les entrées disponibles dans la source de données (***{{ fr.VLT }}*** actuel). 
 * La ***Zone de contenu*** (à droite) affiche les informations relatives à l'entrée sélectionnée.  
 ![!!ServerOp4086.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4086.png) 
-
-

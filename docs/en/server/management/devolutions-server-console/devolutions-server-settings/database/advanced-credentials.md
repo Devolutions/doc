@@ -71,5 +71,3 @@ Will generate an SQL script that can be run on the SQL database for the Schedule
 		</td>
 	</tr>
 </table>
-
-

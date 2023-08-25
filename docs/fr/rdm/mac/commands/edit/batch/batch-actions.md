@@ -110,5 +110,3 @@ Convertira automatiquement vos sessions SSH/Telnet/PortForward sélectionnées e
 		</td>
 	</tr>
 </table>
-
-

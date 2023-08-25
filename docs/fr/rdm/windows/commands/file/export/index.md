@@ -70,6 +70,3 @@ Exporter ***Mes Identifiants Personnels*** dans un fichier .rdm et cryptez-les a
 {% snippet icon.badgeWarning %} 
 Une ***Clé maîtresse*** cryptera le fichier .rdm pour protéger son contenu. La clé est absolument nécessaire pour le décryptage. 
 {% endsnippet %}
- 
-
-

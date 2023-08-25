@@ -69,5 +69,3 @@ A message box will open on startup for the data source selection.
 		</td>
 	</tr>
 </table>
-
-

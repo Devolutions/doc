@@ -72,5 +72,3 @@ Sélectionner une entrée pour l'afficher, la lancer et interagir avec elle.
 		</td>
 	</tr>
 </table>
-
-

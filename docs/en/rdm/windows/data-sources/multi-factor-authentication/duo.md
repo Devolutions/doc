@@ -4,7 +4,6 @@ description: Remote Desktop Manager allows you to configure a Duo authentication
 keywords:
 - Duo authentication
 ---
-
 {{ en.RDM }} allows you to configure a ***Duo*** authentication to provide an additional security layer when opening a data source. 
 
 ## Settings 

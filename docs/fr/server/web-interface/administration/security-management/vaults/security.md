@@ -22,5 +22,3 @@ Mot de passe pour protéger les modifications sur le coffre.
 		</td>
 	</tr>
 </table>
-
-

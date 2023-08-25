@@ -65,5 +65,3 @@ Disable option to deny access to your data source from Password Vault Management
 		</td>
 	</tr>
 </table>
-
-

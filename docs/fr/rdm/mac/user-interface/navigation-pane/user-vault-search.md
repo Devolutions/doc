@@ -2,7 +2,6 @@
 eleventyComputed:
   title: Coffre de l'utilisateur Recherche
 ---
-
 La recherche dans le ***{{ fr.UVLT }}*** permet de lier une entrée d'identifiants du coffre de l'utilisateur à une session en fournissant le nom de l'entrée d'identifiants. Une fois l'identifiant trouvé, il sera automatiquement utilisé pour ouvrir votre session à distance.  
 
 ## Paramètres 

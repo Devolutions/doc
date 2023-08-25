@@ -101,6 +101,3 @@ Enter the number of failed attempts before locking down the Server.
 		</td>
 	</tr>
 </table>
-
-
-

@@ -21,6 +21,3 @@ Consultez ces différentes rubriques pour en apprendre sur les fonctionnalités 
 * [Ajouter une entrée de site Web](/fr/rdm/windows/dwl/using-devolutions-web-login/add-website-entry-dwl/) 
 * [Récupérer des identifiants](/fr/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/) 
 * [Raccourcis clavier](/fr/rdm/windows/dwl/settings/keyboard-shortcuts/) 
-
-
-

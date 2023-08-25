@@ -197,5 +197,3 @@ Clear the offline cache on the local computer. This can be very helpful when enc
 		</td>
 	</tr>
 </table>
-
-

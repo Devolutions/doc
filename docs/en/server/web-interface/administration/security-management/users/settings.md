@@ -1,7 +1,6 @@
 ---
 title: Settings
 ---
-
 ![Edit User - Settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp7012.png) 
 
 Allow the user to enable [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the data source. The data source also needs to be configured to permit offline mode. There are multiple modes available: 
@@ -40,5 +39,3 @@ An advanced cache, with change synchronization. This mode is allowed for [Advanc
 		</td>
 	</tr>
 </table>
-
-

@@ -105,6 +105,3 @@ Enable/disable the ***Task*** pane. See the [***Task***](/rdm/windows/commands/v
 		</td>
 	</tr>
 </table>
-
-
-

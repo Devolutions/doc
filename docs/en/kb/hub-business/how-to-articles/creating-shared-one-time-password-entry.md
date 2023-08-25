@@ -1,7 +1,6 @@
 ---
 title: Creating a shared one-time password entry
 ---
-
 Add a layer of security to your {{ en.DA }} by setting up a shared one-time password entry (OTP). To create one for your application, follow the steps below.
 
 1. In your {{ en.DWSMOBILE }} application, choose the application and vault of your choice, then tap the green "add" icon to access the ***Add New Entry*** interface.

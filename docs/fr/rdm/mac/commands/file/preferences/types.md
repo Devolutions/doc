@@ -171,5 +171,3 @@ Lorsque vous utilisez une session ARD, vous serez invité à savoir quel afficha
 		</td>
 	</tr>
 </table>
-
-

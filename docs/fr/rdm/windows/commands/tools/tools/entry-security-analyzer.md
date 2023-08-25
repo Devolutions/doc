@@ -106,5 +106,3 @@ Exporter les paramètres de l'analyseur de mot de passe.
 		</td>
 	</tr>
 </table>
-
-

@@ -143,6 +143,3 @@ Nombre de mots de passe qui seront générés.
 		</td>
 	</tr>
 </table>
-
-
-

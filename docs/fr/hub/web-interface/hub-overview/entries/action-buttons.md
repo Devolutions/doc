@@ -1,7 +1,6 @@
 ---
 title: Boutons d'action
 ---
-
 L'affichage des ***Boutons d'action*** pour les entrées varie en fonction du type d'entrée sélectionné et de vos paramètres de {{ fr.DHUB }}.  
 ![Boutons d'action d'entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2000.png)
 
@@ -157,5 +156,3 @@ Télécharger une copie du fichier contenu dans l'entrée.
 		</td>
 	</tr>
 </table>
-
-

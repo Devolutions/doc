@@ -67,5 +67,3 @@ The repair will run four different SQLite commands to repair a corrupted cache:
 		</td>
 	</tr>
 </table>
-
-

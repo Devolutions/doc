@@ -99,5 +99,3 @@ Sélectionner un certificat qui existe déjà pour l'utiliser dans le chiffremen
 		</td>
 	</tr>
 </table>
-
-

@@ -25,5 +25,3 @@ Add a new custom variable to use in your data source configuration or with any t
 		</td>
 	</tr>
 </table>
-
-

@@ -322,6 +322,3 @@ Edit the connection string values directly.
 		</td>
 	</tr>
 </table>
-
-
-

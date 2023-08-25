@@ -46,6 +46,3 @@ You need to renew your subscription agreement upon expiry. If you do not renew y
 ## Can I upgrade from a sql server data source to {{ en.DVLS }}?
 
 No, we recommend creating a new {{ en.DVLS }} instance and export the data from the SQL data source and import it in the new {{ en.DVLS }} instance. Contact us at [service@devolutions.net](mailto:service@devolutions.net) for more information on the migration process. 
-
-
-

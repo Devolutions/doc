@@ -223,5 +223,3 @@ Période d'utilisation (Entrées)
 		</td>
 	</tr>
 </table>
-
-

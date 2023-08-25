@@ -42,5 +42,3 @@ Numéro de téléphone.
 		</td>
 	</tr>
 </table>
-
-

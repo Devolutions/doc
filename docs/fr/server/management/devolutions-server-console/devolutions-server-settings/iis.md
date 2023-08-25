@@ -102,5 +102,3 @@ Activer cette option si vous souhaitez ajouter une couche de sécurité supplém
 		</td>
 	</tr>
 </table>
-
-

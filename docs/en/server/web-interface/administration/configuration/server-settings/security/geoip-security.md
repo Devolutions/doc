@@ -52,5 +52,3 @@ Select all authorized countries to connect to the {{ en.DVLS }} instance.
 		</td>
 	</tr>
 </table>
-
-

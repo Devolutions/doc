@@ -161,5 +161,3 @@ View the private key file on your computer.
 		</td>
 	</tr>
 </table>
-
-

@@ -95,6 +95,3 @@ Ouvre une fenêtre contenant plusieurs informations concernant {{ fr.RDM }}. Il 
 		</td>
 	</tr>
 </table>
-
-
-

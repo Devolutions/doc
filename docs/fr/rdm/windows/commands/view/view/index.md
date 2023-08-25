@@ -41,5 +41,3 @@ La fonction ***Message*** ouvre une fenêtre qui vous permet d'accéder à vos m
 ![Messages](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2020.png) 
 
 Bien qu'il soit fenêtré par défaut, le volet ***Message*** peut être glissé et ancré n'importe où dans {{ fr.RDM }}. 
-
-

@@ -101,5 +101,3 @@ Select between:
 		</td>
 	</tr>
 </table>
-
-

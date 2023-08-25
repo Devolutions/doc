@@ -1,7 +1,6 @@
 ---
 title: Add Website
 ---
-
 The Add Website button is only available while in the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab">Matching</a> tab., which is the tab selected when opening the extension, or when browsing through the vaults of the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#all-entries-tab">All Entries</a> tab. It opens a new tab in your browser that allows you to add a website entry in {{ en.DVLS }} through {{ en.DWL }}.  
 
 When {{ en.DVLS }} is used as the data source, the entry configuration is done in the General tab. 

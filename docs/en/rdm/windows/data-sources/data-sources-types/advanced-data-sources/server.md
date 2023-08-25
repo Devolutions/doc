@@ -274,5 +274,3 @@ Disable the option to lock the data source directly. The application still can b
 		</td>
 	</tr>
 </table>
-
-

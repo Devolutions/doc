@@ -59,5 +59,3 @@ Utilisé en conjonction avec la version minimale ou maximale. Une fois qu'une ex
 		</td>
 	</tr>
 </table>
-
-

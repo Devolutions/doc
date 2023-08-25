@@ -153,6 +153,3 @@ Limiter la taille des pièces jointes et des entrées de document pour éviter d
 		</td>
 	</tr>
 </table>
-
-
-

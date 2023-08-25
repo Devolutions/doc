@@ -134,5 +134,3 @@ Date d'achat en format ISO8601 (c'est-à-dire aaaa-mm-jj).
 		</td>
 	</tr>
 </table>
-
-

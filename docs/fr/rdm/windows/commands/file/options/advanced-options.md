@@ -642,5 +642,3 @@ Raccourci pour accéder directement au dossier de configuration.
 		</td>
 	</tr>
 </table>
-
-

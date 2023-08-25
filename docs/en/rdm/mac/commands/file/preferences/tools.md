@@ -119,5 +119,3 @@ Define the time range for the Remote Event:
 		</td>
 	</tr>
 </table>
-
-

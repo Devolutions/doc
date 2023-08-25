@@ -162,5 +162,3 @@ Définir la source de données en lecture seule. Aucune nouvelle entrée ne peut
 		</td>
 	</tr>
 </table>
-
-

@@ -162,5 +162,3 @@ Set the data source in read only. No new entry can be created and the existing d
 		</td>
 	</tr>
 </table>
-
-

@@ -76,6 +76,3 @@ Provide a list of all the [Local Specific Settings](/rdm/windows/commands/edit/s
 		</td>
 	</tr>
 </table>
-
-
-

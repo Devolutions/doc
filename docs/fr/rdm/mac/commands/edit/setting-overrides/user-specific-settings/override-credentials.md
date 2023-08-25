@@ -65,5 +65,3 @@ Utiliser une entrée d'identifiant du {{ fr.UVLT }}.
 		</td>
 	</tr>
 </table>
-
-

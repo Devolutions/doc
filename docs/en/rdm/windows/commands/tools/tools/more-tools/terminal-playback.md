@@ -132,5 +132,3 @@ Some servers only send LF, and expect the terminal to move the cursor over to th
 		</td>
 	</tr>
 </table>
-
-

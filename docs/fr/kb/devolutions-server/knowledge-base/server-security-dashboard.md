@@ -68,5 +68,3 @@ Les scores sont évidemment sujets à caution et nous ne prétendons pas que cha
 |             |     |
 | ----------- | --- |
 | Description | Une durée de session exagérée peut permettre une exposition au-delà du nécessaire à un utilisateur non autorisé. La durée de vie du jeton de rafraîchissement devrait donc être configurée dans les 24 heures (1440 min). |
-
-

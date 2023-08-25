@@ -83,6 +83,3 @@ Windows, {{ fr.MAC }}
 		</td>
 	</tr>
 </table>
-
-
-

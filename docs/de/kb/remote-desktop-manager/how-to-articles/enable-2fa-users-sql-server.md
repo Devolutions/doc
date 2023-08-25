@@ -30,7 +30,6 @@ Unter ***Verwaltung – Systemeinstellungen – Anwendungen – Sicherheit – 2
 
 Unter ***Verwaltung – Systemeinstellungen – Cache/Offline – MFA-Abfrage vor dem Offline-Gehen***.  
 
-
 ## Mit Gruppenrichtlinien (GPO) erzwingen
 
 Wir haben auch GPOs, die Ihnen helfen können, Ihr Ziel zu erreichen. Ein Beispiel für diesen Fall ist die ***Erzwingung der Multi-Faktor-Authentifizierung beim Anmelden bei der Anwendung***.  

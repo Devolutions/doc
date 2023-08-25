@@ -30,5 +30,3 @@ Cette étape attribuera automatiquement la licence aux utilisateurs sélectionn�
 ![Onglet Assigné à](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4119.png) 
 
 7. Cliquer ***OK*** et fermer la fenêtre ***Gestion des usagers et sécurité***. 
-
-

@@ -26,5 +26,3 @@ Maintenir la touche Ctrl pendant l'exécution de l'actualisation forcera un rech
 ### Débogage seulement 
 
 Pour en savoir plus sur l'option de débogage, consulter [Débogage seulement](/fr/rdm/mac/commands/help/profiler/debug-only/). 
-
-

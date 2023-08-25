@@ -119,6 +119,3 @@ Add domain users or built-in users (see [User Management](/server/web-interface/
 		</td>
 	</tr>
 </table>
-
-
-

@@ -23,5 +23,3 @@ Grant access to the application on the vault when enabled.
 		</td>
 	</tr>
 </table>
-
-

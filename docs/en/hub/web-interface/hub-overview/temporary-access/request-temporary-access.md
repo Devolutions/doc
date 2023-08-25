@@ -4,7 +4,6 @@ eleventyComputed:
   order: 10
   description: The Temporary Access feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request.  
 ---
-
 {% youtube '5XwhadoYKKc' %}  
 
 {% snippet icon.badgeNotice %} 

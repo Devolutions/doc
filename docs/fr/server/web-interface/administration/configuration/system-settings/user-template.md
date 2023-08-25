@@ -61,5 +61,3 @@ Sélectionner la langue par défault du nouveau compte utilisateur.
 		</td>
 	</tr>
 </table>
-
-

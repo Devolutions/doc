@@ -8,7 +8,7 @@ In {{ en.RDM }} versions 2021.1 and above, we changed how our browser extension 
 {% snippet icon.shieldWarning %} 
 If you are using a version below 2021.1, as mentioned in the [{{ en.DWL }} Overview](/rdm/mac/dwl/overview/) topic, installing the extension in a Remote Desktop Services (Terminal Services) environment can introduce security risks. In such environments, each user must have a distinct port assigned as well as an application key to prevent any other {{ en.DWL }} from listening in.  
 
-If you insist on using these older versions, it is critical that each user be assigned a distinct port. An application key must be set as well. The first client application that starts will be able to use the port exclusively. ALL {{ en.DWL }} calling on that port will get the responses unless an application key is set. Continue to the [next section](#how-to-set-up--endwl--for-versions-below-20211-and-for-remote-desktop-servers) for the setup steps. 
+If you insist on using these older versions, it is critical that each user be assigned a distinct port. An application key must be set as well. The first client application that starts will be able to use the port exclusively. ALL {{ en.DWL }} calling on that port will get the responses unless an application key is set. Continue to the [next section](#set-up--endwl--for-versions-below-20211-and-for-remote-desktop-servers) for the setup steps. 
 {% endsnippet %}
  
 ### Set up {{ en.DWL }} for versions below 2021.1 and for Remote Desktop servers 
@@ -29,5 +29,3 @@ To enable the security layer in {{ en.RDM }}, follow these steps:
 ![General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl40434png.png) 
 1. In the ***Advanced*** tab, enter the same ***Application key*** as in {{ en.RDM }}, then click ***Save***. 
 ![Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl4033.png) 
-
-

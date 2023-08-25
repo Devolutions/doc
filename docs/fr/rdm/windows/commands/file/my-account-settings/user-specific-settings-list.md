@@ -44,5 +44,3 @@ Exporter une liste de paramètres spécifiques à l'utilisateur dans un fichier 
 		</td>
 	</tr>
 </table>
-
-

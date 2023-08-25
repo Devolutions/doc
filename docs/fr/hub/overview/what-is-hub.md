@@ -4,7 +4,6 @@ eleventyComputed:
   order: 10
   description: Devolutions Hub est un gestionnaire de mots de passe d'équipe hautement sécurisé qui fait partie des {{ fr.DCS }}. Il a été conçu pour que les administrateurs TI ainsi que les utilisateurs finaux puissent stocker et partager des informations dans toute l'organisation, quelle que soit sa taille.
 ---
-
 ![!!{{ fr.DHUB }} Logo](https://webdevolutions.blob.core.windows.net/images/projects/devolutions-hub/devolutions-hub-color-shadow.svg)
 
 {{ fr.DHUB }} est un gestionnaire de mots de passe d'équipe hautement sécurisé qui fait partie des {{ fr.DCS }}. Il a été conçu pour que les administrateurs TI ainsi que les utilisateurs finaux puissent stocker et partager des informations dans toute l'organisation, quelle que soit sa taille. Vous pouvez accéder aux informations sensibles et les gérer de n'importe où et avec n'importe quel navigateur Web pris en charge.  
@@ -56,7 +55,6 @@ Cet outil incontournable est conçu pour importer facilement et rapidement des i
 		</td>
 	</tr>
 </table>
-
 
 <table>
 	<tr>

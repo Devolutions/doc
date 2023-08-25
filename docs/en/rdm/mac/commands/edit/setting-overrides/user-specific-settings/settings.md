@@ -118,5 +118,3 @@ Share one or more specific hard drives that you want in the remote session.
 		</td>
 	</tr>
 </table>
-
-

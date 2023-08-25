@@ -30,6 +30,3 @@ Snippets of PowerShell code that can be executed directly in {{ en.RDM }}. The a
 		</td>
 	</tr>
 </table>
-
-
-
