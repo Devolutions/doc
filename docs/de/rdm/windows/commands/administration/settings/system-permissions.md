@@ -238,5 +238,3 @@ Erlaubt Nutzern/Nutzergruppen, Passwort-Vorlagen zu erstellen und zu verwalten.
 		</td>
 	</tr>
 </table>
-
-

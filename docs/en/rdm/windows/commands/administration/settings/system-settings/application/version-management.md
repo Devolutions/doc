@@ -65,5 +65,3 @@ Use in conjunction with the minimal or maximal version, once a minimal or maxima
 		</td>
 	</tr>
 </table>
-
-

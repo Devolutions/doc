@@ -261,5 +261,3 @@ Inconvénients :
 		</td>
 	</tr>
 </table>
-
-

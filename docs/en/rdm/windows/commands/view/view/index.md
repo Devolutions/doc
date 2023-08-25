@@ -41,5 +41,3 @@ The ***Message*** feature opens a window to let you access your messages. You ca
 ![Message Window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2019.png) 
 
 Although it is windowed by default, the ***Message*** pane can be dragged and docked anywhere within {{ en.RDM }}. 
-
-

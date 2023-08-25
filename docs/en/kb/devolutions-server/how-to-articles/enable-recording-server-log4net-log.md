@@ -39,5 +39,3 @@ The following procedure describe how to enable the logging utility for the {{ en
 ```
 
 Ensure to set the level value back to ERROR and restart the services once the investigation is completed.  
-
-

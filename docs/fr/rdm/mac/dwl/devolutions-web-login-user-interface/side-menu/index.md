@@ -43,5 +43,3 @@ Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la cr�
 
 L'onglet ***À propos*** contient quelques liens et informations utiles, à savoir un lien vers notre [{{ fr.DFORUM }} de {{ fr.RDM }}](https://forum.devolutions.net/product/rdm-mac), un lien vers notre [Aide en ligne de {{ fr.RDM }}](/fr/rdm/mac/overview/what-is-rdm/) et la version actuelle de {{ fr.DWL }}.  
 ![Onglet À propos](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2021.png) 
-
-

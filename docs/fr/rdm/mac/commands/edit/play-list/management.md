@@ -103,5 +103,3 @@ Copier la liste d'exécution sélectionnée.
 		</td>
 	</tr>
 </table>
-
-

@@ -33,5 +33,3 @@ Delete the system message.
 		</td>
 	</tr>
 </table>
-
-

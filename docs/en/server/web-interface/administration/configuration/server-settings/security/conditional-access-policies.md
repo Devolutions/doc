@@ -1,11 +1,9 @@
 ---
-
 eleventyComputed:
   title: Conditional Access Policies
   description: Conditional access policies generally consider various factors to assess whether to allow or deny access to a specific resource or service.
 
 ---
-
 ***Conditional Access Policies*** generally consider various factors to assess whether to allow or deny access to a specific resource or service. By implementing them, organizations can effectively enforce security measures that align with their unique needs and requirements.
 
 1. To view {{ en.DVLS }}'s ***Conditional Access Policies*** in the web interface, go to ***Administration – Configuration– Server Settings***.
@@ -67,7 +65,6 @@ Select ***MFA*** in the ***Target*** drop-down menu.
 	* ***MFA Required***: MFA is enforced for all users. A default MFA type is set for all users.
 	* ***MFA Skipped***: MFA is not enforced.
 	* ***MFA Optional per User***: MFA is enforced on an individual basis. The administrator chooses who uses MFA and what product or technology they use. Choose this option if not all users are set up for multi-factor authentication.
-
 
 {% snippet icon.badgeInfo %} 
 When MFA usage is set to ***MFA Optional per User***, the MFA method must be configured in ***Administration – Users*** for each user. Edit or add a user, then go to the ***Multi-factor*** section to configure it. You can also set an MFA type on the user if they are using a product different than the default method. See [Multi-factor (Edit User)](/server/web-interface/administration/security-management/users/edit-user-two-factor/).

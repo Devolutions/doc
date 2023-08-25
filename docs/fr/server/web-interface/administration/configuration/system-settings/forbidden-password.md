@@ -51,5 +51,3 @@ Exporter votre liste de mots de passe interdits. Par défaut, la liste sera expo
 		</td>
 	</tr>
 </table>
-
-

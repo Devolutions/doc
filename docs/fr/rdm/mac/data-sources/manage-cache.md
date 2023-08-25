@@ -73,5 +73,3 @@ Cette option supprimera le fichier physique (offline.db). Veuillez noter que cel
 		</td>
 	</tr>
 </table>
-
-

@@ -191,5 +191,3 @@ Contiens plusieurs commandes SQLite pour faciliter la gestion. Vous ne devez gé
 		</td>
 	</tr>
 </table>
-
-

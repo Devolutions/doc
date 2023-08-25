@@ -3,7 +3,6 @@ eleventyComputed:
   title: Delete virtual folders in {{ en.RDM }}
   description: This topic describes how to delete virtual folders in {{ en.RDM }}.
 ---
-
 ## Manual method 
 
 Deleting virtual folders can be done by manually editing each virtual folder, saving the changes and converting them into real folders. This conversion allows you to delete them. However, this process becomes time-consuming when dealing with a significant number of virtual folders, as it requires repeating the steps for each one.

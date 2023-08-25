@@ -166,5 +166,3 @@ You can clear the output, analyse, repair or delete the cache of your Dropbox. F
 		</td>
 	</tr>
 </table>
-
-

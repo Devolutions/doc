@@ -92,5 +92,3 @@ Select the time zone you are currently in.
 		</td>
 	</tr>
 </table>
-
-

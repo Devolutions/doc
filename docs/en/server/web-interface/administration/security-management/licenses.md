@@ -82,5 +82,3 @@ Remove the license for all accounts.
 		</td>
 	</tr>
 </table>
-
-

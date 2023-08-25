@@ -16,6 +16,3 @@ Once Generated, a report will provide you with all the information you selected 
 {% snippet icon.badgeInfo %} 
 These logs are still restricted by user rights. A user with restricted access would not be able to select Password and Security for example. 
 {% endsnippet %}
- 
-
-

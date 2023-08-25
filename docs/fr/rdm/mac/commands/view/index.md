@@ -117,7 +117,7 @@ Ouvrir une fenêtre qui affiche toutes les entrées des identifiants.
 [Téléchargements](/fr/rdm/mac/commands/view/downloads/) 
 		</td>
 		<td>
-Ouvre une fenêtre pour visualiser les fichiers téléchargés par l'intermédiaire d'une entrée de navigateur web. 
+Ouvre une fenêtre pour visualiser les fichiers téléchargés par l'intermédiaire d'une entrée de navigateur Web. 
 		</td>
 	</tr>
 	<tr>
@@ -171,6 +171,3 @@ Ouvrir une fenêtre pour accéder à vos journaux locaux.
 {% snippet icon.badgeInfo %} 
 Bien qu'ils soient affichés par défaut dans une fenêtre, tous ces volets peuvent être glissés et ancrés n'importe où dans {{ fr.RDMMAC }}. 
 {% endsnippet %}
- 
-
-

@@ -57,5 +57,3 @@ If the ***Check is online*** option is enable, select the detection method betwe
 		</td>
 	</tr>
 </table>
-
-

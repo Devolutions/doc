@@ -75,6 +75,3 @@ Indicates the maximum saved password history count. See Password History for mor
 		</td>
 	</tr>
 </table>
-
-
-

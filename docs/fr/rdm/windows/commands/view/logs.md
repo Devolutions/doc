@@ -50,5 +50,3 @@ Copie les journaux dans votre presse-papiers tels qu'ils apparaissent dans la fe
 		</td>
 	</tr>
 </table>
-
-

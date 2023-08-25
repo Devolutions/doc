@@ -49,5 +49,3 @@ Supprimer l'entrée sélectionnée. Une fenêtre de confirmation apparaîtra pou
 		</td>
 	</tr>
 </table>
-
-

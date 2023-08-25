@@ -7,7 +7,6 @@ eleventyComputed:
 ---
 ![!!{{ fr.DVLS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg)
 
-
 Vous pouvez accéder aux catégories suivantes concernant {{ fr.DVLS }} :  
 
 * Guides d'utilisation

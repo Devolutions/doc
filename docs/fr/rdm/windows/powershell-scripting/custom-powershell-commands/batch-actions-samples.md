@@ -9,7 +9,7 @@ Puisqu'ils utilisent la technologie Powershell, nous fournissons des exemples da
 
 ## Échantillons 
 
-### Désactiver l'option « only send password in html password field » dans les sessions de site web 
+### Désactiver l'option « only send password in html password field » dans les sessions de site Web 
 
 ```powershell
 $connection.Web.OnlySendPasswordInPasswordField = $false;
@@ -27,7 +27,7 @@ $RDM.Save();
 ViewUrlDisplayMode: "Default" = Intégré, "External" = Externe. 
 ```
 
-### « Open url (external) » pour la connexion web (entrées d'informations) 
+### « Open url (external) » pour la connexion Web (entrées d'informations) 
 
 ```powershell
 $connection.DataEntry.DefaultAction = "OpenUrlExternal";
@@ -64,7 +64,7 @@ $connection.Terminal.BellMode = 'Visual';
 $connection.Terminal.CloseOnDisconnect = $false; 
 ```
 
-### Convertir des sessions de site web en sessions LogMeIn 
+### Convertir des sessions de site Web en sessions LogMeIn 
 
 ```powershell
 $connection.ConnectionType = 'LogMeIn';

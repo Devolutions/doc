@@ -65,5 +65,3 @@ Désactiver l'option pour refuser l'accès à votre source de données à partir
 		</td>
 	</tr>
 </table>
-
-

@@ -3,7 +3,6 @@ eleventyComputed:
   title: Connect with su-user in SSH sessions
   description: Learn how to connect with su-user in SSH sessions.
 ---
-
 The Unix command ***su***, derived from ***substitute user***, grants a user the ability to execute commands with the privileges of another user account.
 
 ## Connect with su-user in SSH sessions

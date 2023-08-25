@@ -25,5 +25,3 @@ Please consult each tabs for more information:
 * [Settings](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/settings/) 
 * [More](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/more/) 
 * [VPN](/rdm/mac/commands/edit/setting-overrides/user-specific-settings/vpn/) 
-
-

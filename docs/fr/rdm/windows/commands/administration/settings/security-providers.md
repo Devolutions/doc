@@ -199,5 +199,3 @@ Indiquer l'emplacement et le magasin où enregistrer le certificat.
 		</td>
 	</tr>
 </table>
-
-

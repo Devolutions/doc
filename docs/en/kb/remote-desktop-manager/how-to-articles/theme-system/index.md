@@ -1,5 +1,5 @@
 ---
-title: Use the Theme system
+title: Theme system
 ---
 The ***Theme system*** of {{ en.RDM }} is still in its infancy and will evolve in future releases. You can override most images used by {{ en.RDM }} simply by providing an image in the ***Theme*** folder, the only requirement is that the file uses a specific name. Most images come in pairs, a small one and a large one. You must override both in order to be consistent.  
 
@@ -27,4 +27,4 @@ The file name is standardized as: {EntryType}{Size}.png
 
 For instance, for the ***Folder*** type, the image names are: GroupFolderLarge.png and GroupFolderSmall.png Another example is for RDP sessions, their name is RDPConfigured, resulting in SessionRDPConfiguredLarge.png and SessionRDPConfiguredSmall.png.  
 
-Please consult [Image List](/kb/remote-desktop-manager/how-to-articles/how-to-use-the-theme-system/image-list/) to see a list of most images.
+Please consult [Image List](/kb/remote-desktop-manager/how-to-articles/theme-system/image-list/) to see a list of most images.

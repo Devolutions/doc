@@ -24,5 +24,3 @@ Pour plus d'informations à propos des autres méthodes de recherche, consultez 
 * [***Recherche multi-coffres***](/fr/rdm/windows/commands/view/panels/search/multi-vault/) 
 * [***Recherche avancée***](/fr/rdm/windows/commands/view/panels/search/advanced/) 
 * [***Recherche dans la documentation***](/fr/rdm/windows/commands/view/panels/search/documentation/) 
-
-

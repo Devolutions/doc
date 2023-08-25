@@ -50,6 +50,3 @@ Enregistrer votre entrée sélectionnée en tant que [Modèles](/fr/rdm/mac/comm
 		</td>
 	</tr>
 </table>
-
-
-

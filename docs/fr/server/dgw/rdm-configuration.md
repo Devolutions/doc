@@ -23,5 +23,5 @@ Les instructions suivantes expliquent comment utiliser {{ fr.DGW }} dans une ses
 Pour supprimer le délai de cinq secondes lors de l'ouverture d'une connexion, définir la valeur ***Délai*** comme 0 dans l'onglet ***Avancé***.
 {% endsnippet %}  
 
-6. Une fois la session RDP connectée, l'entrée de journal suivante doit se trouver dans ***Rapports – Journaux de la source de données***, qui sont situés dans l'interface web de {{ fr.DVLS }}.  
+6. Une fois la session RDP connectée, l'entrée de journal suivante doit se trouver dans ***Rapports – Journaux de la source de données***, qui sont situés dans l'interface Web de {{ fr.DVLS }}.  
 ![Rapports – Journaux de la source de données](https://webdevolutions.azureedge.net/docs/fr/server/DGW0010.png) 

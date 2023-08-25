@@ -21,5 +21,3 @@ Enable users that are not administrators to activate the synchronization.
 		</td>
 	</tr>
 </table>
-
-

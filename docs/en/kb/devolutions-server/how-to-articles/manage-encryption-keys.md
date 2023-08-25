@@ -2,14 +2,14 @@
 title: Manage encryption keys
 description: Encryption keys are used to encrypt data entries (connections, private vaults, documentation, and attachments). They are generated and stored in the encryption.config file on the server only.
 ---
-Encryption keys are used to encrypt data entries (connections, private vaults, documentation, and attachments). They are generated and stored in the encryption.config file on the server only. To encrypt the data stored in the database, we use our [open-source cryptography library](https://github.com/Devolutions/devolutions-crypto).
+Encryption keys are used to encrypt data entries (connections, private vaults, documentation, and attachments). They are generated and stored in the **encryption.config** file on the server only. To encrypt the data stored in the database, we use our [open-source cryptography library](https://github.com/Devolutions/devolutions-crypto).
 
 {% snippet icon.shieldNotice %}
 We recommend to do a backup of the SQL database before any operation that could modify the information it contains (***Import*** or ***Regenerate***). During this operation, all users must be in offline mode or disconnected from the {{ en.DVLS }} data source to avoid data loss.
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The encryption.config file cannot be moved to another system, as it is encrypted with the data protection application programming interface (DPAPI), which prevents the file from being read outside of the system where it has been encrypted. You must export the file then import it to the other system.
+The **encryption.config** file cannot be moved to another system, as it is encrypted with the data protection application programming interface (DPAPI), which prevents the file from being read outside of the system where it has been encrypted. You must export the file then import it to the other system.
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}

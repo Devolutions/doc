@@ -73,5 +73,3 @@ Sur serveur Windows 8 ou Windows 2012, bascule d'une application à une autre.
 		</td>
 	</tr>
 </table>
-
-

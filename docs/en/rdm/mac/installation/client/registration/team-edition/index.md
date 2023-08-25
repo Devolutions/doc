@@ -32,5 +32,3 @@ This step will automatically assign the license to the selected users, removing 
 ![Assigned To Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0005.png) 
 
 9. Click ***OK*** and ***Close*** the ***User and Security Management*** window. 
-
-

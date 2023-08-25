@@ -134,5 +134,3 @@ Indique le type de connexion utilisé.
 		</td>
 	</tr>
 </table>
-
-

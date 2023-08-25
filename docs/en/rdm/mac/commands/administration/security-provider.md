@@ -112,5 +112,3 @@ Select a certificate that already exist to use it for the encryption.
 		</td>
 	</tr>
 </table>
-
-

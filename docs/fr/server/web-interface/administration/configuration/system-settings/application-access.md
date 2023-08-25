@@ -33,5 +33,3 @@ Priorité
 		</td>
 	</tr>
 </table>
-
-

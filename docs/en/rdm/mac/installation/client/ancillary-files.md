@@ -143,5 +143,3 @@ None
 		</td>
 	</tr>
 </table>
-
-

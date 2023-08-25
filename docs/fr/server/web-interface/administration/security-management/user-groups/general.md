@@ -58,5 +58,3 @@ Accorde le privilège d'administrateur aux utilisateurs membres du groupe d'util
 		</td>
 	</tr>
 </table>
-
-

@@ -39,5 +39,3 @@ Un cache avancé, avec synchronisation des modifications. Ce mode est autorisé 
 		</td>
 	</tr>
 </table>
-
-

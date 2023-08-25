@@ -8,7 +8,7 @@ Consulter les ***Journaux*** et ***Insérer des commentaires d'enregistrements**
 ### Insérer un commentaire d'enregistrement 
 
 {% snippet icon.badgeCaution %} 
-Les ***Commentaires d'enregistrement*** pour les entrées dans l'interface web {{ fr.DVLS }} ne peuvent être que visualisés. Ils ne peuvent pas être supprimés ni modifiés une fois enregistrés. D'autres options, comme l'édition des notes, sont disponibles dans {{ fr.RDM }}. 
+Les ***Commentaires d'enregistrement*** pour les entrées dans l'interface Web {{ fr.DVLS }} ne peuvent être que visualisés. Ils ne peuvent pas être supprimés ni modifiés une fois enregistrés. D'autres options, comme l'édition des notes, sont disponibles dans {{ fr.RDM }}. 
 {% endsnippet %}
  
 1. Cliquer sur ***Journaux*** dans une entrée. 

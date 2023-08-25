@@ -23,8 +23,8 @@ L'installateur de {{ fr.DHUBS }} facilite l'installation et l'intégration de no
 1. Aller dans le formulaire de modification.
 ![Formulaire de modification](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6050.png)
 1. Sélectionner ***Système***.
-1. Sélectionner votre ***Utilisateur d'application*** dans le menu déroulant sous ***Gérer les tâches d'accès priviligié*** et ***Gérer les fournisseurs d'accès privilégiés***. 
-![Permissions du système – Gérer les fournisseurs d'accès privilégiés](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6062.png)
+1. Sélectionner votre ***Utilisateur d'application*** dans le menu déroulant sous ***Gérer les tâches d'accès privilégié*** et ***Gérer les fournisseurs d'accès privilégiés***. 
+![Permissions du système – Gérer les tâches d'accès privilégié and Gérer les fournisseurs d'accès privilégiés](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6062.png)
 
 {% snippet icon.badgeInfo %}
 Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PAM***.

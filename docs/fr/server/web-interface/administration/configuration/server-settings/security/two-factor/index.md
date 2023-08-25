@@ -9,7 +9,7 @@ Configurer l'authentification à deux facteurs dans {{ fr.DVLS }} pour ajouter u
 
 {{ fr.DVLS }} en charge plusieurs types d'authentification a deux facteurs. Vous pouvez configurer un type par défaut pour l'ensemble de votre organisation ou par utilisateur. Lorsque l'authentification à deux facteurs est configurée, les utilisateurs se connectent avec leur nom d'utilisateur/mot de passe ainsi qu'un produit d'authentification a deux facteurs.  
 
-### Comment configurer un deux facteurs à partir de l'interface web 
+### Configuration d'une authentification à deux facteurs à partir de l'interface Web 
 
 {% youtube 'qb7umoKbUdg' %}  
 
@@ -64,6 +64,3 @@ L'option est appliquée pour tous les utilisateurs. Un type d'authentification �
 ![Administration - Paramètres de {{ fr.DVLS }}](https://webdevolutions.azureedge.net/docs/fr/server/clip10390.png)  
 1. Lorsque l'utilisation de l'authentification à deux facteurs est définie sur ***Optionnel par utilisateur***, la méthode doit être configurée dans ***Administration - Utilisateurs - Deux facteurs*** pour chaque utilisateur. Vous pouvez également définir un type sur l'utilisateur s'il utilise un produit différent de la méthode par défaut. Voir [Modifier les utilisateurs](/fr/server/web-interface/administration/security-management/users/edit-user-two-factor/) pour plus d'informations.  
 ![Modifier l'utilisateur - 2 facteurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp7014.png)  
-
-
-

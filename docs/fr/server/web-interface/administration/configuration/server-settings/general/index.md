@@ -81,6 +81,3 @@ Insérer vos clés de licence {{ fr.DLAUNCHER }}.
 		</td>
 	</tr>
 </table>
-
-
-

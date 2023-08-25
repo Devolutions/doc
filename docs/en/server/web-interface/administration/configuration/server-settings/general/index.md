@@ -79,6 +79,3 @@ Insert your {{ en.DLAUNCHER }} License keys.
 		</td>
 	</tr>
 </table>
-
-
-

@@ -57,5 +57,3 @@ Permanently delete all deleted entries.
 		</td>
 	</tr>
 </table>
-
-

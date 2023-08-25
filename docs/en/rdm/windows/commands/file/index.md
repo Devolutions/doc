@@ -81,5 +81,3 @@ For more information, please consult the [Options](/rdm/windows/commands/file/op
 Edit templates and default settings for entries.  
 
 For more information, please consult the [Templates](/rdm/windows/commands/file/templates/) topic. 
-
-

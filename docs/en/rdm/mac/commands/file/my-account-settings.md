@@ -57,5 +57,3 @@ Configure the username to connect on Secret Server.
 		</td>
 	</tr>
 </table>
-
-

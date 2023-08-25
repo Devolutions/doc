@@ -123,5 +123,3 @@ Automatically lock the application when it is not used after a determined number
 		</td>
 	</tr>
 </table>
-
-

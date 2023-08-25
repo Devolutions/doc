@@ -23,7 +23,6 @@ Avec une base de donnée ***Hub***, seulement le critère de recherche ***Nom***
 Des listes déroulantes apparaissent lors de la sélection de certains critères pour vous donner plus d'options de recherche.  
 ![Listes déroulantes pour Recherche multi-coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0023.png) 
 
-
 Vous trouverez ci-dessous une description de l'utilité de chacun de ces types de listes déroulantes. 
 
 <table>

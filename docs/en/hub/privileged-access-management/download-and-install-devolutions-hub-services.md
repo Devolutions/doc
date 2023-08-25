@@ -3,7 +3,6 @@ eleventyComputed:
   title: Download and install {{ en.DHUBS }}
   description: The {{ en.DHUBS }} installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your {{ en.DHUBB }} and your internal resources.
 ---
-
 The {{ en.DHUBS }} installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your {{ en.DHUBB }} and your internal resources.
 
 ## Create an Application User
@@ -27,7 +26,7 @@ The {{ en.DHUBS }} installer facilitates the installation and integration of our
 ![Edit form](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6049.png)
 1. Select ***System***.
 1. Select your ***Application User*** in the drop-down menu under ***Manage privileged access tasks*** and ***Manage privileged access providers***. 
-![System Permissions – Manage privileged access providers](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6060.png)
+![System Permissions – Manage privileged access tasks and Manage privileged access providers](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6060.png)
 
 {% snippet icon.badgeInfo %}
 You need to grant permission on the vault either at ***System level*** or ***Individual PAM vault level***. 

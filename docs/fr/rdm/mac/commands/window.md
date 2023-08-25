@@ -52,5 +52,3 @@ Réduis tous les groupes dans le <i><b>{{ fr.NPANE }}</b></i> lorsque le mode ar
 		</td>
 	</tr>
 </table>
-
-

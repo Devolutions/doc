@@ -171,7 +171,3 @@ Open a window to access your local logs.
 {% snippet icon.badgeInfo %} 
 Although they are windowed by default, all those panes can be dragged and docked anywhere within {{ en.RDMMAC }}. 
 {% endsnippet %}
- 
-
-
-

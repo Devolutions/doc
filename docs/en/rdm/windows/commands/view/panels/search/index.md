@@ -24,5 +24,3 @@ For information about other search methods, see our related topics:
 * [***Multi Vault Search***](/rdm/windows/commands/view/panels/search/multi-vault/) 
 * [***Advanced Search***](/rdm/windows/commands/view/panels/search/advanced/) 
 * [***Documentation Search***](/rdm/windows/commands/view/panels/search/documentation/) 
-
-

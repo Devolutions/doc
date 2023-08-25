@@ -6,7 +6,6 @@ eleventyComputed:
   keywords:
   - cloud
 ---
-
 ![!!{{ en.DHUB }} Logo](https://webdevolutions.blob.core.windows.net/images/projects/devolutions-hub/devolutions-hub-color-shadow.svg)
 
 {{ en.DHUB }} is a highly secure team-based password manager that is part of the {{ en.DCS }}. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size. You can access and manage sensitive information from anywhere and with any supported web browser.  
@@ -58,7 +57,6 @@ The essential tool designed to easily and quickly import credentials into your h
 		</td>
 	</tr>
 </table>
-
 
 <table>
 	<tr>

@@ -33,7 +33,6 @@ Description of the Provider.
 	</tr>
 </table>
 
-
 ### Password settings 
 
 <table>

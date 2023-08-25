@@ -45,5 +45,3 @@ Restreindre l'accès aux propriétés du coffre à certains utilisateurs.
 		</td>
 	</tr>
 </table>
-
-

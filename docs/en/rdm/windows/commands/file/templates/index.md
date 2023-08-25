@@ -43,5 +43,3 @@ The template can be selected before creating the entry as well. Use the ***Templ
 
 Templates can be used with the ***Quick Connect*** feature. For example, the same template can be used to connect to different hosts.  
 ![!!clip10164.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10164.png) 
-
-

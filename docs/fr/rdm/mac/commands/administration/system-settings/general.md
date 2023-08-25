@@ -124,5 +124,3 @@ Verrouiller automatiquement l'application lorsqu'elle n'est pas utilisée après
 		</td>
 	</tr>
 </table>
-
-

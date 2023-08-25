@@ -196,5 +196,3 @@ Vider la cache hors ligne de votre ordinateur. Cela peut être très utile lorsq
 		</td>
 	</tr>
 </table>
-
-

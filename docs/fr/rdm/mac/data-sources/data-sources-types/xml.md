@@ -159,5 +159,3 @@ Permettre à l'utilisateur d'utiliser des images personnalisées. Trop d'images 
 		</td>
 	</tr>
 </table>
-
-

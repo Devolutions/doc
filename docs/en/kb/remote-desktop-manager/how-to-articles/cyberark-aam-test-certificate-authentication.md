@@ -3,7 +3,6 @@ eleventyComputed:
   title: CyberArk AAM test certificate authentication
   description: A good way of testing Cyberark’s rest API for AAM, is from Windows Powershell, or Powershell ISE.
 ---
-
 A REST API is an API that complies with the design principles of the REST, or Representational State Transfer, architectural style. REST APIs are therefore sometimes referred to as RESTful APIs. 
 
 A convenient way to test CyberArk's Rest API for AAM (Application Access Manager) is from ***Windows Powershell*** or ***Powershell ISE***.

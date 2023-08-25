@@ -71,5 +71,3 @@ A message box will open on startup for the data source selection. Une boîte de 
 		</td>
 	</tr>
 </table>
-
-

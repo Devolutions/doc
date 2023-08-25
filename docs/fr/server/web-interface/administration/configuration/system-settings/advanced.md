@@ -21,5 +21,3 @@ Sert à désactiver la trace de la pile de {{ fr.DVLS }} dans les journaux d'err
 		</td>
 	</tr>
 </table>
-
-

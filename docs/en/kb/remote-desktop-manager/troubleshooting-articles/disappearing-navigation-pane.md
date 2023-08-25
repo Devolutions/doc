@@ -5,7 +5,6 @@ eleventyComputed:
   keywords:
   - Reset Layout
 ---
-
 If the ***{{ en.NPANE }}*** has disappeared and the ***Reset Layout*** button does not seem to fix the issue, here is the solution:  
 
 1. Close {{ en.RDM }}. 

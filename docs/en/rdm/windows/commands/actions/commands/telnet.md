@@ -80,5 +80,3 @@ Will record all of the activity in the SSH session using a text format.
 		</td>
 	</tr>
 </table>
-
-

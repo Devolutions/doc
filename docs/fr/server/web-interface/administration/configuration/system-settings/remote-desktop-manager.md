@@ -49,5 +49,3 @@ Taille maximum de chaque documents sauvegardés dans la base de données qui ser
 		</td>
 	</tr>
 </table>
-
-

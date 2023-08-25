@@ -5,7 +5,6 @@ eleventyComputed:
   keyword:
   - trial
 ---
-
 Si vous n'êtes pas prêt à acheter {{ fr.RDMMAC }}, vous pouvez utiliser l'[Édition Free](/fr/rdm/mac/installation/client/registration/free-edition/) ou suivre les étapes suivantes pour obtenir un essai gratuit de 30 jours de l'Édition Team.
 
 {% snippet icon.badgeInfo %} 

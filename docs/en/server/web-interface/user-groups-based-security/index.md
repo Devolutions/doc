@@ -87,6 +87,3 @@ There are three levels of folders: the Vault, Telemark, and child items of Telem
 Suppose that a user, such as a consultant, must have access to the Montreal folder only. The consultant must be granted the View permission on the Telemark folder as well. However, granting the View access to the Telemark folder gives to the consultant the permissions to view all child items of Telemark. To deny the View permissions for the consultant on specific child items, the View permissions of these items must be expressly set for other users.  
 
 ![Permissions Structure](https://webdevolutions.azureedge.net/docs/en/server/clip8045.png) 
-
-
-

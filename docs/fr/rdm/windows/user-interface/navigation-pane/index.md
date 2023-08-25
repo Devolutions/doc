@@ -64,5 +64,3 @@ Pour plus d'informations sur chaque onglet, veuillez consulter les rubriques sui
 * [Sessions ouvertes](/fr/rdm/windows/commands/view/panels/opened-sessions/) 
 * [Entrées favorites](/fr/rdm/windows/user-interface/navigation-pane/favorite-entries/) 
 * [Entrées les plus récemment utilisées](/fr/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/) 
-
-

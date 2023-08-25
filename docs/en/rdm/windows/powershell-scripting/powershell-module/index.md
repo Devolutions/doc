@@ -42,6 +42,3 @@ Get-Command -Module Devolutions.PowerShell `
     | ForEach-Object { get-help -name $_.Name -full } ` 
     | out-file -append $env:temp\pshelp.txt 
 ```
-
-
-

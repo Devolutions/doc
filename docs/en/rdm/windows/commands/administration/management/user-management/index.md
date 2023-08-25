@@ -257,6 +257,3 @@ An advanced cache, with change synchronization. This mode is allowed for [Advanc
 		</td>
 	</tr>
 </table>
-
-
-

@@ -149,5 +149,3 @@ Nom du canal Slack où les journaux seront publiés.
 		</td>
 	</tr>
 </table>
-
-

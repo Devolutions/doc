@@ -55,5 +55,3 @@ Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils de gest
 		</td>
 	</tr>
 </table>
-
-

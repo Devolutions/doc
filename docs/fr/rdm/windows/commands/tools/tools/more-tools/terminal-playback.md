@@ -121,5 +121,3 @@ Certains serveurs n'envoient que du LF et s'attendent à ce que le terminal dép
 		</td>
 	</tr>
 </table>
-
-

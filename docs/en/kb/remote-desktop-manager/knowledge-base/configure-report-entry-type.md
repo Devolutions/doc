@@ -3,7 +3,6 @@ eleventyComputed:
   title: Configure a Report entry in {{ en.RDM }}
   description: The Report entry type generates a customized report with the appropriated properties and, if needed, specific criteria for selecting the entries to be included in the report. 
 ---
-
 The ***Report entry*** generates a customized report with the appropriated properties and, if needed, specific criteria for selecting the entries to be included in the report. 
 
 1. To fetch the property's names of your entries, go to {{ en.RDM }}.

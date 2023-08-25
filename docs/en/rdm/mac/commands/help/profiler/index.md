@@ -26,5 +26,3 @@ Holding the Ctrl key while performing the refresh will force a full reload of th
 ### Debug only 
 
 To learn more about the debug option please see [Debug only](/rdm/mac/commands/help/profiler/debug-only/). 
-
-

@@ -45,7 +45,6 @@ Enregistrer l'entrée sélectionnée en tant que modèle local ou de la base de 
 	</tr>
 </table>
 
-
 Un raccourci est la réitération d'une entrée existante. Contrairement à une entrée dupliquée, qui a son propre ID et ses propres propriétés, un raccourci est un lien vers une entrée et ses propriétés. Vous pouvez facilement créer des raccourcis en cliquant avec le bouton droit sur l'entrée ***Modifier - Créer un raccourci*** ou en utilisant le bouton susmentionné dans l'onglet ***Modifier***. Il existe quelques scénarios dans lesquels un utilisateur souhaiterait utiliser la même entrée différemment, comme se connecter à deux hôtes différents avec une seule session RDP.  
 
 Par exemple, il est possible de :  
@@ -109,7 +108,6 @@ Utiliser les différentes fonctionnalités de la liste d'exécution.
 	</tr>
 </table>
 
-
 La fonction ***Liste d'exécution*** dans {{ fr.RDM }} ressemble beaucoup à une liste de lecture de musique. Elle ouvre automatiquement une liste d'entrées, dans un ordre spécifique. La liste d'exécution peut être utilisée pour créer des groupes de sessions pour une tâche spécifique ou pour des raisons de sécurité. Vous pouvez créer votre propre liste d'exécution et démarrer toutes les entrées à partir d'une liste d'exécution en même temps.  
 
 * [Créer et modifier une liste d'exécution](/fr/rdm/windows/commands/edit/edit/play-list/play-list-actions/) 
@@ -142,7 +140,6 @@ Remplacez les propriétés de l'entrée sélectionnée par des paramètres spéc
 		</td>
 	</tr>
 </table>
-
 
 {% snippet icon.badgeInfo %} 
 Une colonne ***Paramètres spécifiques*** peut être ajoutée dans le ***{{ fr.NPANE }}***. Faire un clic droit sur la colonne ***Nom*** dans le ***{{ fr.NPANE }}*** et choisir Sélecteur de colonnes. Double-cliquer sur ***Paramètres spécifiques*** pour ajouter la colonne. Maintenant, si un paramètre spécifique est appliqué à une entrée, il s'affiche à côté du nom de l'entrée.  
@@ -184,7 +181,6 @@ Transférer les entrées sélectionnées vers un autre coffre de la base de donn
 		</td>
 	</tr>
 </table>
-
 
 ### Exporter 
 

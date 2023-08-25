@@ -4,7 +4,6 @@ eleventyComputed:
   order: 10
   description: La fonction d'Accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions d'exécution pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande. 
 ---
-
 {% snippet icon.badgeNotice %}
 
 Pour apprendre comment approuver ou refuser une demande, consultez [Approuver un accès temporaire à une entrée dans {{ fr.DVLS }}](/fr/server/web-interface/temporary-access/approve-temporary-access/). 

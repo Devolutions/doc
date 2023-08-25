@@ -22,5 +22,3 @@ Select entry types to exclude. Excluded entries will not be in the ***Add New En
 		</td>
 	</tr>
 </table>
-
-

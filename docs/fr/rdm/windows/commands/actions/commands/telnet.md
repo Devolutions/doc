@@ -57,5 +57,3 @@ Modifie le paramétrage du journal.
 		</td>
 	</tr>
 </table>
-
-

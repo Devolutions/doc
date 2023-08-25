@@ -167,5 +167,3 @@ Indicates the unique identifier of the connection log.
 		</td>
 	</tr>
 </table>
-
-

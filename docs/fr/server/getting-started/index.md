@@ -119,6 +119,3 @@ Ajouter des utilisateurs du domaine ou des utilisateurs intégrés (voir la sect
 		</td>
 	</tr>
 </table>
-
-
-

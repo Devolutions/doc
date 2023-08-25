@@ -3,7 +3,6 @@ title: Management
 keywords:
 - Roles
 ---
-
 ![Administration - System Permissions - Management](https://webdevolutions.azureedge.net/docs/en/server/clip8053.png) 
 
 <table>
@@ -64,5 +63,3 @@ Allow users/user groups to create and manage password templates.
 		</td>
 	</tr>
 </table>
-
-

@@ -22,6 +22,3 @@ Consultez ces différentes rubriques pour en apprendre sur les fonctionnalités 
 * [Ajouter une entrée de site Web](/fr/rdm/mac/dwl/using-devolutions-web-login/create-account-website/) 
 * [Récupérer des identifiants](/fr/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/) 
 * [Raccourcis clavier](/fr/rdm/mac/dwl/settings/keyboard-shortcuts/) 
-
-
-

@@ -242,5 +242,3 @@ Record your screen in an MP4 format. We recommend the use of a VLC player to vie
 
 Alternatively, these actions are also available by right-clicking on the tab of an embedded session.  
 ![Actions Context Menu of an Embedded Session](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10184.png) 
-
-

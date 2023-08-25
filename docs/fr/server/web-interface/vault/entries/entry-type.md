@@ -79,5 +79,3 @@ Le type modèle est l'endroit où se trouvent vos entrées modèles personnalis�
 		</td>
 	</tr>
 </table>
-
-

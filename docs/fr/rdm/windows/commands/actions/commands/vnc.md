@@ -65,5 +65,3 @@ Empêche la session de recevoir des entrées du clavier ou de la souris. Cette f
 		</td>
 	</tr>
 </table>
-
-

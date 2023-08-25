@@ -108,5 +108,3 @@ Consult topic [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-s
 		</td>
 	</tr>
 </table>
-
-

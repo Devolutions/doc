@@ -171,7 +171,7 @@ Mode ping en ligne
 Indique le mode de ping préféré en ligne. Choisir entre :  
 
 * Aucun 
-* Requête web 
+* Requête Web 
 		</td>
 	</tr>
 	<tr>
@@ -202,5 +202,3 @@ Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer o
 		</td>
 	</tr>
 </table>
-
-

@@ -61,6 +61,3 @@ When the user will release the account on Check-In, the password will be reset.
 		</td>
 	</tr>
 </table>
-
-
-

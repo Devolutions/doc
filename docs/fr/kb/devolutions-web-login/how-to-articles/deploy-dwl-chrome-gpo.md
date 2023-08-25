@@ -2,7 +2,6 @@
 eleventyComputed:
   title: Déployer {{ fr.DWL }} dans Chrome à l'aide d'un GPO
 ---
-
 {% snippet icon.badgeInfo %} 
 REMARQUE IMPORTANTE (pour les versions de {{ fr.DWL }} antérieures à 2021.2.3.0)  
 

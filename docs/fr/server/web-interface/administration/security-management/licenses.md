@@ -82,5 +82,3 @@ Supprime la licence pour tous les utilisateurs.
 		</td>
 	</tr>
 </table>
-
-

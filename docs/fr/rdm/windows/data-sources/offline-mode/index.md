@@ -284,6 +284,3 @@ Lecture/Écriture
 {% snippet icon.badgeNotice %} 
 Pour connaître le mode hors ligne en vigueur lorsque vous êtes connecté, voir [Informations sur ma source de données](/fr/rdm/windows/commands/file/my-data-source-information/). 
 {% endsnippet %}
- 
-
-

@@ -1,7 +1,6 @@
 ---
 title: Login
 ---
-
 The ***Login*** section provides tools to audit ***Connected User List***, ***Login Attempt***, ***Login History***, and ***Last Login***.  
 
 You can refine your search with the filters for each report and click the ***Export*** button of each section to create a CSV file.  

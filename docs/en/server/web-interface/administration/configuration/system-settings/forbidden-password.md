@@ -49,5 +49,3 @@ Export your forbidden password list. By default the list will be exported in a p
 		</td>
 	</tr>
 </table>
-
-

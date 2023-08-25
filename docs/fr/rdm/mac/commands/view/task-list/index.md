@@ -118,5 +118,3 @@ Saisir un commentaire pour la tâche.
 		</td>
 	</tr>
 </table>
-
-

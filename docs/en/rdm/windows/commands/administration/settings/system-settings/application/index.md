@@ -193,6 +193,3 @@ Instead of using the manual refresh button, after an idle time, activate the opt
 		</td>
 	</tr>
 </table>
-
-
-

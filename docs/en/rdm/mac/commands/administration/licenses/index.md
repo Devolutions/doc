@@ -21,5 +21,3 @@ With the license stored in an [Advanced Data Source](/rdm/mac/data-sources/data-
 ![Warning window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6030.png)  
 
 Your license is now saved in the advanced data source. Follow this next topic to automatically [Assign Licenses](/rdm/mac/commands/administration/licenses/assign/) to selected users, removing the need to interact locally with their {{ en.RDM }}. 
-
-

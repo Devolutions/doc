@@ -31,5 +31,3 @@ Exporter vos entrées sélectionnées dans un fichier .rdm qui peut ensuite êtr
 		</td>
 	</tr>
 </table>
-
-

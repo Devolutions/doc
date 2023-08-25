@@ -23,5 +23,5 @@ Les instructions suivantes expliquent comment utiliser {{ fr.DGW }} dans une ses
 Pour supprimer le délai de cinq secondes lors de l'ouverture d'une connexion, définir la valeur ***Délai*** comme 0 dans l'onglet ***Avancé***.
 {% endsnippet %}  
 
-6. Une fois la session RDP connectée, l'entrée de journal suivante doit se trouver dans ***Rapports – Sessions de Gateway***, qui sont situés dans l'interface web de {{ fr.DHUB }}.  
+6. Une fois la session RDP connectée, l'entrée de journal suivante doit se trouver dans ***Rapports – Sessions de Gateway***, qui sont situés dans l'interface Web de {{ fr.DHUB }}.  
 ![Rapports – Sessions de Gateway](https://webdevolutions.azureedge.net/docs/fr/hub/DGW0011.png)

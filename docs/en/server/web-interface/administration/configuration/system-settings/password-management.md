@@ -155,5 +155,3 @@ Verify if the used passwords have already been exposed to data breaches.
 		</td>
 	</tr>
 </table>
-
-

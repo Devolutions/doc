@@ -33,5 +33,3 @@ List of the selected session's type that are available for the Quick add buttons
 		</td>
 	</tr>
 </table>
-
-

@@ -50,6 +50,3 @@ Save your selected entry as a local or shared [template](/rdm/mac/commands/file/
 		</td>
 	</tr>
 </table>
-
-
-

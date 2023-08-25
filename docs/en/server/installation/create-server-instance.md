@@ -18,7 +18,6 @@ For more information about any of the features in the deploy wizard, please cons
 Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own Web Application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }}.  
 
 ## First step
-
 1. Install {{ en.DVLSCONSOLE }} on the web server. It is available from the [Download](https://server.devolutions.net/home/download) page. 
 1. Execute {{ en.DVLSCONSOLE }} with elevated privileges (run as administrator). This is performed by right-clicking on the application, and selecting ***Run as administrator***.
    {% snippet icon.shieldWarning %}
@@ -30,13 +29,11 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 ![Deploy a new {{ en.DVLS }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0049.png)  
 
 ### Basic Installation <a name="Basic"></a>
-
-1. If a SQL Server instance is not available on the machine where {{ en.DVLS }} is hosted, a SQL Server Express Edition instance will be installed by the wizard. ![Basic Installation dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8176.png) 
+1. If an SQL Server instance is not available on the machine where {{ en.DVLS }} is hosted, a SQL Server Express Edition instance will be installed by the wizard. ![Basic Installation dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8176.png) 
 1. The following dialog provides the credentials created for the sa SQL account, the {{ en.DVLS }} administrator account and the Encryption Key password. Click on the ***Save As*** button to save the information in a file. ![Important credentials dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8177.png)
 1. The following dialog displays the SQL Server information, including the ***sa*** account credentials, that will be used by {{ en.DVLS }} to create and connect to the SQL database.
 1. Once the installation is successfully completed, the wizard will display the installation summary and will automatically open the default browser to connect on the {{ en.DVLS }} web interface. ![Installation summary report](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8181.png)
 1. On the {{ en.DVLS }} web interface, use the credentials provided in step 2 to log in. Afterward, a prompt will request a password change before continuing with the login process. ![Change your password prompt](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8182.png)
-
 
 ### Advanced Installation <a name="Advanced"></a>
 1. For the first step, the installation wizard will run diagnostics on the server to verify if the IIS Server has all the necessary Web User Groups prerequisites installed and is ready to run {{ en.DVLS }}. Missing features are marked with an error icon. The Install Prerequisites button will install all missing features using a PowerShell script.Click on Close to continue. An internet connection is required for [IIS Application Request Routing (ARR)](https://api.devolutions.net/redirection/f19f07f3-5ea4-436d-a3ba-4bb69d373321), [IIS Rewrite Module](https://api.devolutions.net/redirection/3cb42413-5dfd-4b1b-bd20-4e5968274ed0) and [IIS ASP.NET Core Module (ANCM)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).

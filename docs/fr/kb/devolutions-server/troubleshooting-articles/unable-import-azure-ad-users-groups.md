@@ -9,7 +9,7 @@ Si vous venez d'activer l'option d'Authentification Microsoft, le chargement du 
 ## Solution 
 1. Sur la {{ fr.DVLSCONSOLE }}, aller dans l'onglet ***Compagnons*** et arrêter le ***Service de planification***. 
 ![!!KB4052.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4052.png) 
-1. Sur l'interface web {{ fr.DVLS }}, aller dans ***Administration – Paramètres Serveur – Journalisation*** et activer l'option ***Log de débogage***.  
+1. Sur l'interface Web {{ fr.DVLS }}, aller dans ***Administration – Paramètres Serveur – Journalisation*** et activer l'option ***Log de débogage***.  
 ![!!KB4053.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4053.png) 
 1. Aller dans ***Administration – Réinitialiser le cache du serveur*** et réinitialiser le cache d'***Authentification de Microsoft***.  
 ![!!KB4054.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4054.png) 

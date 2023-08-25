@@ -16,6 +16,3 @@ Une fois généré, un rapport vous fournira toutes les informations que vous av
 {% snippet icon.badgeInfo %} 
 Ces journaux sont toujours limités par les droits des utilisateurs. Un utilisateur avec un accès restreint ne pourrait pas sélectionner le mot de passe et la sécurité par exemple. 
 {% endsnippet %}
- 
-
-

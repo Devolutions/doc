@@ -31,5 +31,3 @@ Cette étape attribuera automatiquement la licence aux utilisateurs sélectionn�
 {% endsnippet %}
  
 9. Cliquer ***OK*** et fermer la fenêtre de ***Gestion des usagers et de la sécurité***. 
-
-

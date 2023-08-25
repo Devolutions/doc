@@ -53,5 +53,3 @@ Afficher les mots de passe interdits que vous avez dans votre liste de mots de p
 		</td>
 	</tr>
 </table>
-
-

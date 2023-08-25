@@ -78,5 +78,3 @@ Fournie une liste de tous les [Paramètres spécifiques](/fr/rdm/windows/command
 </table>
 
 Nous prenons en charge des paramètres spécifiques pour une variété d'identifiants. 
-
-

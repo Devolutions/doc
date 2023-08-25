@@ -25,5 +25,3 @@ Ajouter une nouvelle variable personnalisée à utiliser dans votre configuratio
 		</td>
 	</tr>
 </table>
-
-

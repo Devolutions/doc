@@ -219,5 +219,3 @@ Select the type of {{ en.UVLT }} to use. Select between:
 		</td>
 	</tr>
 </table>
-
-

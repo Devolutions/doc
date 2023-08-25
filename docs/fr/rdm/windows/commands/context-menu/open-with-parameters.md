@@ -87,5 +87,3 @@ Ouvrir à partir d'un modèle que vous avez déjà créé.
 		</td>
 	</tr>
 </table>
-
-

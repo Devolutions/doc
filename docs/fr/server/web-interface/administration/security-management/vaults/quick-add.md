@@ -32,5 +32,3 @@ Type de session qui sélectionné pour les boutons d'ajout rapide.
 		</td>
 	</tr>
 </table>
-
-

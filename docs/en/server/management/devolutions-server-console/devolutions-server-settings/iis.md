@@ -98,5 +98,3 @@ Activate this option if you wish to add an extra layer of security to your confi
 		</td>
 	</tr>
 </table>
-
-

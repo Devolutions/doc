@@ -37,5 +37,3 @@ Allow to have access to the vault in offline mode with {{ en.RDM }}. Please see 
 		</td>
 	</tr>
 </table>
-
-

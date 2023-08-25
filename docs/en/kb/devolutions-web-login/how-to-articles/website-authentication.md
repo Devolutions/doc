@@ -14,7 +14,7 @@ Some steps are required to properly send the username and password. Depending on
 The {{ en.DWL }} extension is enabled by default. To disable it, select ***Disabled*** in the ***{{ en.DWL }}*** drop-down menu.
 {% endsnippet %}  
 {% snippet icon.badgeInfo %}
-The [***Comparing type***](/kb/devolutions-web-login/how-to-articles/how-to-use-urls-comparing-types/) determines if {{ en.DWL }} should offer the entry as an available entry to perform autofill.
+The [***Comparing type***](/kb/devolutions-web-login/how-to-articles/urls-comparing-types/) determines if {{ en.DWL }} should offer the entry as an available entry to perform autofill.
 {% endsnippet %}  
 
 2. In the ***Login*** tab, set the ***Authentication*** to ***Form***.

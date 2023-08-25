@@ -41,5 +41,3 @@ Delete your selected entry. A confirmation window will appear to confirm the del
 		</td>
 	</tr>
 </table>
-
-

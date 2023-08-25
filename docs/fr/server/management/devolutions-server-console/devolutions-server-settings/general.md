@@ -131,5 +131,3 @@ Choisir entre la version Courante, Bêta et Version stable.
 		</td>
 	</tr>
 </table>
-
-

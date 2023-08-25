@@ -137,5 +137,3 @@ Inherits the setting from a parent folder.
 		</td>
 	</tr>
 </table>
-
-

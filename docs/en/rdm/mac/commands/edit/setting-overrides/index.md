@@ -33,6 +33,3 @@ Allow session setting override for the local machine. For more information see L
 		</td>
 	</tr>
 </table>
-
-
-

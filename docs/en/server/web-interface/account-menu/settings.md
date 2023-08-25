@@ -1,7 +1,6 @@
 ---
 title: Settings
 ---
-
 In the ***Settings*** section, modify the user web interface elements. 
 
 ![User Interface Settings](https://webdevolutions.azureedge.net/docs/en/server/clip7005.png)

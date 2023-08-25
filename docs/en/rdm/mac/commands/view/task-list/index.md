@@ -118,5 +118,3 @@ Enter a comment for the task.
 		</td>
 	</tr>
 </table>
-
-

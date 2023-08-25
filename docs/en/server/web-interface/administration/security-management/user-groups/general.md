@@ -1,7 +1,6 @@
 ---
 title: General
 ---
-
 ![User Group - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8009.png)
 
 <table>
@@ -50,5 +49,3 @@ When enabled, grant administrator rights to the members of the user group.
 		</td>
 	</tr>
 </table>
-
-

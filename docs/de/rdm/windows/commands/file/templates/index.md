@@ -42,5 +42,3 @@ Die Vorlage kann auch direkt beim Erstellen im Abschnitt ***Vorlage*** im Fenste
 
 Vorlagen können mit der ***Schnellverbindung***-Funktion verwendet werden. So kann beispielsweise dieselbe Vorlage für die Verbindung zu verschiedenen Hosts genutzt werden.  
 ![!!clip10164.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10164.png) 
-
-

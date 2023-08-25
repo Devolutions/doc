@@ -31,5 +31,3 @@ Il existe d'autres formats d'étiquettes.
 4. Cliquer sur ***OK*** dans la fenêtre ***Arborescence*** pour sauvegarder vos changements et redémarrer {{ fr.RDM }} pour les appliquer.  
 
 Vous avez maintenant modifié la langue de l'arborescence.  
-
-

@@ -25,5 +25,3 @@ Check the Is Member box to assign the user group to the user. Only user groups c
 		</td>
 	</tr>
 </table>
-
-

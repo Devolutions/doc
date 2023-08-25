@@ -30,5 +30,3 @@ This step will automatically assign the license to the selected users, removing 
 ![Assigned To Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4062.png) 
 
 7. Click ***OK*** and ***Close*** the ***User and Security Management*** window. 
-
-

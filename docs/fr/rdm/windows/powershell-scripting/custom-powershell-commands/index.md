@@ -15,5 +15,3 @@ Une commande Powershell personnalisée agira sur les entrées sélectionnées da
 * En appuyant sur ***OK***, une boîte de dialogue récapitulative apparaît pour indiquer le succès ou l'échec de la commande.  
 ![!!RdmWin4047.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4047.png) 
 ![!!RdmWin4048.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4048.png) 
-
-

@@ -192,6 +192,3 @@ Au lieu d'utiliser le bouton d'actualisation manuelle, après une période d'ina
 		</td>
 	</tr>
 </table>
-
-
-

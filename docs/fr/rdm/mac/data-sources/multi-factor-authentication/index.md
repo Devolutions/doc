@@ -15,7 +15,7 @@ Consultez la section qui correspond à votre type de source de données :
 * [SQL Server](#configuration-de-lauthentification-multifacteur-sur-une-source-de-données-microsoft-sql-server) 
 * [SQLite](#configuration-de-lauthentification-multifacteur-sur-une-source-de-données-sqlite) 
 
-### Configuration de l'authentification multifacteur sur une source de données Microsoft SQL Server 
+## Configuration de l'authentification multifacteur sur une source de données Microsoft SQL Server 
 
 1. Dans {{ fr.RDM }}, accéder à la source de données pour laquelle l'AMF doit être configurée. 
 1. Accéder à ***Fichier – Paramètres de mon compte – Source de données AMF***.  
@@ -29,7 +29,7 @@ Consultez la section qui correspond à votre type de source de données :
 * [Yubikey](/fr/rdm/mac/data-sources/multi-factor-authentication/yubikey/) 
 * [Duo](/fr/rdm/mac/data-sources/multi-factor-authentication/duo/) 
 
-### Configuration de l'authentification multifacteur sur une source de données SQLite 
+## Configuration de l'authentification multifacteur sur une source de données SQLite 
 
 1. Dans {{ fr.RDM }}, accéder à ***Fichier – Sources de données***. 
 1. Sélectionner la source de données SQLite dans le menu de gauche, puis cliquer sur le bouton ***Modifier la source de données***.  
@@ -44,5 +44,3 @@ Consultez la section qui correspond à votre type de source de données :
 * [Authenticator (TOTP)](/fr/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/) 
 * [Yubikey](/fr/rdm/mac/data-sources/multi-factor-authentication/yubikey/) 
 * [Duo](/fr/rdm/mac/data-sources/multi-factor-authentication/duo/) 
-
-

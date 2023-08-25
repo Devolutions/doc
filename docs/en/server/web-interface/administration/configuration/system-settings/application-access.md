@@ -32,5 +32,3 @@ Allow or Denied.
 		</td>
 	</tr>
 </table>
-
-

@@ -32,5 +32,3 @@ Liste des abonnés qui sont membres du groupe d'abonnés. Ceci inclut autant des
 		</td>
 	</tr>
 </table>
-
-

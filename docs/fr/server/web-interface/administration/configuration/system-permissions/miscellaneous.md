@@ -63,5 +63,3 @@ Autoriser les utilisateurs/groupes d'utilisateurs à archiver des entrées.
 		</td>
 	</tr>
 </table>
-
-

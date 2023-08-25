@@ -72,7 +72,6 @@ The User Info History logs relate to the user accounts update history.
 	</tr>
 </table>
 
-
 <table>
 	<tr>
 		<th>
@@ -91,7 +90,6 @@ Enable to allow setting specific archiving and deleting parameters for the selec
 		</td>
 	</tr>
 </table>
-
 
 <table>
 	<tr>
@@ -161,5 +159,3 @@ Will permanently delete all logs older than the selected value in the drop down 
 		</td>
 	</tr>
 </table>
-
-

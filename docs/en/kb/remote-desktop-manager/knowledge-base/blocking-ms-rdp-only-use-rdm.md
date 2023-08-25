@@ -15,4 +15,3 @@ Our best solution involves going through a gateway that is protected by a passwo
 SSH tunnels are a very good approach since they can run on a VM using any *nix distribution and require limited ram and hdd space.  
 
 This will also force your user to use {{ en.RDM }} because the credentials to use a SSH Tunnel cannot be a domain credential and the information to authenticate will be saved in {{ en.RDM }}
-

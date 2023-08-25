@@ -60,5 +60,3 @@ A message box will open on startup for the data source selection.
 ### Data Source Settings 
 
 The [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) can contain specific  settings or global policies. Those settings are saved directly in the database, see Data Source Settings topic for more information. 
-
-

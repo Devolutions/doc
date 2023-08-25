@@ -99,5 +99,3 @@ The ***View*** button gives you an overview of the entry as well as additional f
 
 Other information and functionalities will depend on what you provided when creating the entry (username, password, tags, description, etc.). 
 ![Entry Overview](https://webdevolutions.azureedge.net/docs/en/hub/Hub2129.png) 
-
-

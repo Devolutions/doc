@@ -45,5 +45,3 @@ Inclure les ports déjà utilisés par d'autres sessions.
 		</td>
 	</tr>
 </table>
-
-

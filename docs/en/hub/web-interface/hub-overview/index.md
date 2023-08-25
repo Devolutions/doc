@@ -71,5 +71,3 @@ Select an entry to view, launch, and interact with it.
 		</td>
 	</tr>
 </table>
-
-

@@ -40,5 +40,3 @@ Autoriser la documentation d'une page d'aide de l'API Web
 		</td>
 	</tr>
 </table>
-
-

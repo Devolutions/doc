@@ -24,7 +24,6 @@ Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez pa
 
 En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }}.  
 
-
 Chaque onglet affiche une vue différente dans la ***Zone de contenu***. Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.RDMMAC }} sont :  
 
 * l'onglet ***Correspondant***, où vous pouvez trouver les identifiants disponibles pour un site Web spécifique; 
@@ -32,5 +31,3 @@ Chaque onglet affiche une vue différente dans la ***Zone de contenu***. Les ong
 * l'onglet ***À propos***, où vous pouvez trouver des liens vers des outils et des informations utiles sur {{ fr.DWL }}. 
 
 Consultez notre rubrique [Menu latéral](/fr/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 
-
-

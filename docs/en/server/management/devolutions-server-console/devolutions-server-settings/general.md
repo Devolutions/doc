@@ -127,5 +127,3 @@ Select between Current, Beta, or Long Term Support version.
 		</td>
 	</tr>
 </table>
-
-

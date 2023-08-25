@@ -73,5 +73,3 @@ On Windows 8 or Windows 2012 server, switch from an application to another.
 		</td>
 	</tr>
 </table>
-
-

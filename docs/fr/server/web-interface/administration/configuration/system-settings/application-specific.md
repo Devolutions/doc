@@ -21,5 +21,3 @@ Permet aux utilisateurs qui ne sont pas des administrateurs d'activer la synchro
 		</td>
 	</tr>
 </table>
-
-

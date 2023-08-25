@@ -6,7 +6,6 @@ eleventyComputed:
   - color scheme
   - UI
 ---
-
 It is possible to change the color scheme in {{ en.RDM }}.
 
 ## Step-by-Step Guide

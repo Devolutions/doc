@@ -111,5 +111,3 @@ There are three levels of folders: the {{ en.VLT }}, Telemark, and child items o
 
 Suppose that a user, such as a consultant, must have access to the Montreal folder only. The consultant must be granted the view permission on the Telemark folder as well. However, granting the view access to the Telemark folder gives to the consultant the permissions to view all child items of Telemark. To deny the view permissions for the consultant on specific child items, the view permissions of these items must be expressly set for other users.  
 ![The view permissions of these items must be expressly set for other users](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6042.png) 
-
-

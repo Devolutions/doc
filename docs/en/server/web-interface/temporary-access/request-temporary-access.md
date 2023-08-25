@@ -4,7 +4,6 @@ eleventyComputed:
   order: 10
   description: The Temporary Access feature allows users to request a temporary elevation of their permissions to execute for a specific entry. The approver must then approve or deny the request. 
 ---
-
 {% snippet icon.badgeNotice %}  
 To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.DVLS }}](/server/user-interface/content-area/temporary-access/approve-temporary-access/). 
 {% endsnippet %}

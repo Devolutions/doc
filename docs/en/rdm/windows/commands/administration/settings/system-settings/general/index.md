@@ -151,6 +151,3 @@ Limit the size of attachments and document entries to avoid to over load the dat
 		</td>
 	</tr>
 </table>
-
-
-

@@ -76,6 +76,3 @@ Indique le nombre maximal de mots de passe enregistré en historique.
 		</td>
 	</tr>
 </table>
-
-
-

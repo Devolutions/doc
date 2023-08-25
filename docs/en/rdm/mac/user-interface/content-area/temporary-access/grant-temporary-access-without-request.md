@@ -4,7 +4,6 @@ eleventyComputed:
   order: 30
   description: Approvers can grant Temporary Access without request to a user and even if the user already has access.
 ---
-
 {% snippet icon.badgeNotice %} 
 To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.RDM }}](/rdm/mac/user-interface/content-area/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
@@ -26,6 +25,3 @@ You can view the ***Entry's dependencies*** such as linked credentials and VPNs 
  1. Click ***Ok*** to close the window.  
 ![The temporary access has been granted](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6012.png)  
 The ***Temporary Access*** has been granted.  
-
-
-

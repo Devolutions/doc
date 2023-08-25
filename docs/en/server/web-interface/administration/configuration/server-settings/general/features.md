@@ -43,5 +43,3 @@ Allows {{ en.DVLS }} to communicate with external entities for the following opt
 		</td>
 	</tr>
 </table>
-
-

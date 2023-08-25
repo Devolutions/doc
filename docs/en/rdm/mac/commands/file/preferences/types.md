@@ -174,5 +174,3 @@ When using ARD session you will be prompt to know which screen display to use. B
 		</td>
 	</tr>
 </table>
-
-

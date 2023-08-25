@@ -2,7 +2,6 @@
 title: Devolutions Server-Instanz erstellen
 order: 30
 ---
-
 {% snippet icon.badgeInfo %} 
 Wenn Sie kürzlich Ihre Serienlizenzschlüssel erhalten haben, lesen Sie bitte den Abschnitt [Erste Schritte](/server/getting-started/). 
 {% endsnippet %}

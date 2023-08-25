@@ -63,5 +63,3 @@ Select the user's default language.
 		</td>
 	</tr>
 </table>
-
-

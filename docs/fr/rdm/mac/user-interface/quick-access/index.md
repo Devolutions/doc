@@ -58,5 +58,3 @@ Veuillez vous référer à [Recherche](/fr/rdm/mac/user-interface/quick-access/s
 
 ![Commande de verrouillage](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4325.png) 
 Veuillez vous référer à [Commande de verrouillage](/fr/rdm/mac/commands/file/lock-application/) 
-
-

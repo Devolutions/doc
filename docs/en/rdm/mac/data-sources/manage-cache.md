@@ -75,5 +75,3 @@ This option will delete the physical file (offline.db). Please not that this wil
 		</td>
 	</tr>
 </table>
-
-

@@ -21,5 +21,3 @@ Disable the stack trace of {{ en.DVLS }} in {{ en.RDM }} 's error logs.
 		</td>
 	</tr>
 </table>
-
-

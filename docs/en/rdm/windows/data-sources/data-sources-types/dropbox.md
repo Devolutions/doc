@@ -194,5 +194,3 @@ Allow the data source to be used in [Offline mode](/rdm/windows/data-sources/off
 		</td>
 	</tr>
 </table>
-
-

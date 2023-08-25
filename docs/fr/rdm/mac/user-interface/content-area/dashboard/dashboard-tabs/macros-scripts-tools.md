@@ -59,5 +59,3 @@ Affiche l'itinéraire et mesure les délais de transit des paquets sur un résea
 		</td>
 	</tr>
 </table>
-
-

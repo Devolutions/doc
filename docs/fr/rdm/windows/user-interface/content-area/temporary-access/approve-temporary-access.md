@@ -4,7 +4,6 @@ eleventyComputed:
   order: 20
   description: La fonction d'accès temporaire permet aux utilisateurs de demander une élévation temporaire de leurs permissions pour une entrée spécifique. L'approbateur doit alors approuver ou refuser la demande. 
 ---
-
 {% snippet icon.badgeInfo %} 
 Si une demande d'accès temporaire a été faite dans {{ fr.RDM }} à partir d'une base de données {{ fr.DHUB }}, le processus d'autorisation doit être effectué dans {{ fr.DHUB }}. Consultez [Approuver un accès temporaire à une entrée dans {{ fr.DHUBB }}](/fr/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/). 
 {% endsnippet %}

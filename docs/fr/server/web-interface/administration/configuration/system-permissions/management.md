@@ -63,5 +63,3 @@ Autoriser les utilisateurs/groupes d'utilisateurs à créer et à gérer des mod
 		</td>
 	</tr>
 </table>
-
-

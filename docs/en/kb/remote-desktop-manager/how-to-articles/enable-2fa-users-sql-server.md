@@ -30,7 +30,6 @@ Under ***Administration – System Settings – Security Settings – Security �
 ## Prompt MFA before going offline/Offline Mode
 Under ***Administration – System Settings – Cache/Offline – Prompt for MFA before going offline***  
 
-
 ## Force with Group Policies (GPO)
 We also have GPOs that could help you achieve your goal. An example in this case is the ***Force multiple-factor authentication on the application login***.  
 

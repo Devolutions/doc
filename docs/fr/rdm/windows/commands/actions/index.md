@@ -47,7 +47,6 @@ Fermer rapidement les sessions, puis les rouvrir automatiquement.
 	</tr>
 </table>
 
-
 ### Actions 
 
 <table>
@@ -84,7 +83,6 @@ Envoie le contenu du presse-papiers à la session ouverte.
 		</td>
 	</tr>
 </table>
-
 
 ### Affichage 
 
@@ -175,7 +173,6 @@ Lorsque vous activez la touche Windows, il enverra la fonction à votre hôte au
 		</td>
 	</tr>
 </table>
-
 
 ### Commandes 
 

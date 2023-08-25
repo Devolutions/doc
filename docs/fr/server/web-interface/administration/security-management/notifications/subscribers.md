@@ -48,5 +48,3 @@ Type
 		</td>
 	</tr>
 </table>
-
-

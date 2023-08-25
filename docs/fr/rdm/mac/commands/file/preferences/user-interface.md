@@ -310,5 +310,3 @@ La liste des outils de session apparaîtra dans la liste des sessions plutôt qu
 		</td>
 	</tr>
 </table>
-
-

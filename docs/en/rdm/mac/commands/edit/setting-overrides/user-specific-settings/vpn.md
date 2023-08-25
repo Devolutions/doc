@@ -48,5 +48,3 @@ Define the custom height of the window.
 		</td>
 	</tr>
 </table>
-
-

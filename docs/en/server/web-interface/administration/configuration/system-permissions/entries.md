@@ -1,7 +1,6 @@
 ---
 title: Entries
 ---
-
 ![Administration - System Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8052.png) 
 
 The administrative permissions regarding the ***Entries*** section are described below. 
@@ -55,5 +54,3 @@ Restrain access to the session recording feature.
 		</td>
 	</tr>
 </table>
-
-

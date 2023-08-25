@@ -69,5 +69,3 @@ Durée de la réservation par défaut (minutes)
 		</td>
 	</tr>
 </table>
-
-

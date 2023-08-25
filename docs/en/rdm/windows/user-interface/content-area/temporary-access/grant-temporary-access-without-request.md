@@ -4,7 +4,6 @@ eleventyComputed:
   order: 30
   description: Approvers can grant Temporary Access without request to a user and even if the user already has access.
 ---
-
 {% snippet icon.badgeNotice %} 
 To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
@@ -46,5 +45,3 @@ The ***Entry's dependencies***, such as credentials and linked VPNs, are listed 
  1. Click ***Grant Access*** to close the window.  
 ![The temporary access has been granted](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6022.png)  
 The ***Temporary Access*** has been granted.  
-
-

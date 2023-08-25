@@ -157,5 +157,3 @@ Vérifier si les mots de passe utilisés ont déjà été exposés à des violat
 		</td>
 	</tr>
 </table>
-
-

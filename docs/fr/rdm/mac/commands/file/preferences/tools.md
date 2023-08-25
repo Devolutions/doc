@@ -119,5 +119,3 @@ Définir la plage horaire pour l'événement distant :
 		</td>
 	</tr>
 </table>
-
-

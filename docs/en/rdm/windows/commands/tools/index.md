@@ -133,6 +133,3 @@ Opens the ***Extensions Manager***. This is used to simplify the management and 
 		</td>
 	</tr>
 </table>
-
-
-
