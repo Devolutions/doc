@@ -35,6 +35,6 @@ Unter ***Verwaltung – Systemeinstellungen – Cache/Offline – MFA-Abfrage vo
 
 Wir haben auch GPOs, die Ihnen helfen können, Ihr Ziel zu erreichen. Ein Beispiel für diesen Fall ist die ***Erzwingung der Multi-Faktor-Authentifizierung beim Anmelden bei der Anwendung***.  
 
-%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceApplicationMFA  
+**%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceApplicationMFA**  
 
 Weitere Informationen zur Konfiguration finden Sie unter [Anwendung von Richtlinien](/kb/remote-desktop-manager/how-to-articles/group-policies/).

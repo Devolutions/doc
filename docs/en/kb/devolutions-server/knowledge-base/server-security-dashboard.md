@@ -70,4 +70,4 @@ The scores are admittedly open to question and we do not pretend each topic has 
 
 |             |     |
 | ----------- | --- |
-| Description | Sensitive information is stored in the web.config configuration file. It is recommended to enable encryption to prevent tampering and ensure confidentiality. |
+| Description | Sensitive information is stored in the **web.config** configuration file. It is recommended to enable encryption to prevent tampering and ensure confidentiality. |
