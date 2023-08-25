@@ -6,9 +6,7 @@ La fonctionnalité de saisie automatique ne s’active pas systématiquement pou
 
 Quelques étapes sont nécessaires afin d’envoyer correctement les noms d’utilisateurs ainsi que les mots de passe. Ce processus peut être automatisé ou nécessiter des étapes supplémentaires en fonction du site Web.  
 
-### Méthode 1 
-
-### Se connecter automatiquement à un site Web 
+## Méthode 1 
 
 1. Saisir les identifiants dans l'onglet ***Général*** de l'entrée ***Site Web***.  
 ![!!KB2045.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2045.png)  
@@ -18,7 +16,7 @@ L'extension {{ fr.DWL }} est activée par défaut. Il est possible de la désact
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Le [***Type de correspondance***](/fr/kb/devolutions-web-login/how-to-articles/how-to-use-urls-comparing-types/) sert à déterminer si {{ fr.DWL }} doit considérer l'entrée valide pour la saisie automatique. 
+Le [***Type de correspondance***](/fr/kb/devolutions-web-login/how-to-articles/urls-comparing-types/) sert à déterminer si {{ fr.DWL }} doit considérer l'entrée valide pour la saisie automatique. 
 {% endsnippet %}
  
 2. Sélectionner ***Formulaire*** dans le menu déroulant ***Authentification*** de l'onglet ***Connexion***. 
@@ -91,7 +89,7 @@ La fonction ***Découvrir*** recherche dans la page Web les champs qui correspon
 
 Un fois toutes les étapes nécessaires complétées, au lancement de la session, les identifiants seront automatiquement saisis et connectés au site.  
 
-### Méthode 2 
+## Méthode 2 
 
 Cette deuxième méthode consiste à identifier manuellement les ID correspondant aux champs de connexion sur la page Web de connexion.  
 
@@ -106,4 +104,3 @@ Vous verrez les ID correspondants à utiliser dans l'onglet ***ID du contrôle H
 Vous trouverez ci-dessous un exemple d’inspection pour le champ Username. Vous pouvez y voir que l'ID du nom d'utilisateur est « username ».  
 
 ![!!KB2049.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2049.png) 
-

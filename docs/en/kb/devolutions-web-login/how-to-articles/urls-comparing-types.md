@@ -1,5 +1,5 @@
 ---
-title: URL comparing types
+title: URLs comparing types
 keywords:
 - matching
 ---
