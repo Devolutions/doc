@@ -1,5 +1,5 @@
 ---
-title: Comment ouvrir une session
+title: Ouvrir une session
 ---
 {% youtube 'DhJqKA4I90o' %}  
 
@@ -8,4 +8,3 @@ title: Comment ouvrir une session
 Sélectionner une entrée et cliquer sur le bouton ***Ouvrir session*** ou cliquer avec le bouton droit de la souris sur la session pour obtenir le menu contextuel.  
 
 ![!!ServerOp4044.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4044.png) 
-

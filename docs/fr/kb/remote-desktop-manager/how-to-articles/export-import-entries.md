@@ -1,5 +1,5 @@
 ---
-title: Comment exporter et importer des entrées
+title: Exporter et importer des entrées
 ---
 Vous pouvez exporter et importer des entrées d'un type de source de données à un autre. Il existe plusieurs façons d'exporter des entrées avec {{ fr.RDM }}. 
 {% snippet icon.badgeCaution %} 
@@ -8,9 +8,7 @@ Si vous avez des utilisateurs qui remplacent les propriétés des entrées avec 
 
 La première méthode est effectuée directement <a href="#Exportation/Importation via {{ fr.RDM }}">dans {{ fr.RDM }}</a>, tandis que la seconde utilise un <a href="#Exportation/Importation à l'aide de PowerShell">script PowerShell</a>.
 
-
 ## Exportation/Importation via {{ fr.RDM }}
-
 
 1. Dans {{ fr.RDM }}, sélectionner la source de données contenant les éléments à exporter dans le ***{{ fr.NPANE }}***.
 {% snippet icon.badgeNotice %} 

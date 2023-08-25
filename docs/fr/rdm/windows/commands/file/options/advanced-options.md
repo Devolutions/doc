@@ -342,7 +342,7 @@ Désactiver les détails de la trace de la pile lorsqu'une erreur se produit dan
 Désactiver le cache des favicônes 
 		</td>
 		<td>
-Désactiver le cache des favicônes et forcer {{ fr.RDM }} à toujours récupérer les favicônes sur le web. Il n'est pas recommandé de désactiver cette fonctionnalité pour des raisons de performances. 
+Désactiver le cache des favicônes et forcer {{ fr.RDM }} à toujours récupérer les favicônes sur le Web. Il n'est pas recommandé de désactiver cette fonctionnalité pour des raisons de performances. 
 		</td>
 	</tr>
 	<tr>

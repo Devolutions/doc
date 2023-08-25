@@ -11,7 +11,7 @@ Si vous utilisez une version antérieure à 2021.1 et, comme indiquée dans la s
 Si vous insistez pour l'utiliser, il est essentiel que chaque utilisateur se voie attribuer un port distinct. Une clé d'application doit également être définie. La première application client qui démarre pourra utiliser exclusivement le port. TOUS les {{ fr.DWL }} appelant sur ce port obtiendront les réponses, sauf si une clé d'application est définie. Continuez à la [section suivante](#comment-configurer--frdwl--pour-une-version-antérieure-à-20211-et-pour-les-serveurs-bureau-à-distance) pour les étapes de configuration. 
 {% endsnippet %}
  
-### Comment configurer {{ fr.DWL }} pour une version antérieure à 2021.1 et pour les serveurs bureau à distance 
+### Configuration de {{ fr.DWL }} pour une version antérieure à 2021.1 et pour les serveurs bureau à distance 
 
 {% snippet icon.shieldWarning %} 
 La clé de l'application est affichée en texte clair. Elle doit être gardée secrète par l'utilisateur. 

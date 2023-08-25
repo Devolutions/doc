@@ -48,7 +48,7 @@ Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant to
 ### Phase 1 
 
 * Effectuer une sauvegarde complète de la base de données, prenez des précautions contre la suppression de ce fichier de sauvegarde par un plan de maintenance.  
-* Archiver le contenu du dossier de l'application web contenant l'instance {{ fr.DVLS }}, déplacez-le vers un endroit sûr.  
+* Archiver le contenu du dossier de l'application Web contenant l'instance {{ fr.DVLS }}, déplacez-le vers un endroit sûr.  
 * Installer la version appropriée de la {{ fr.DVLSCONSOLE }}. Dans chacune des sous-rubriques liées à une version spécifique de {{ fr.DVLS }}, vous trouverez la version du client dont vous avez besoin.  
 * La {{ fr.DVLSCONSOLE }} doit être exécuté avec des privilèges élevés.  
 

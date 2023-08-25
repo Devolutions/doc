@@ -19,7 +19,7 @@ Les scores sont évidemment sujets à caution et nous ne prétendons pas que cha
 
 |             |     |
 | ----------- | --- |
-| Description | L'envoi des journaux à un système externe est préconisé pour préserver l'intégrité et la disponibilité des informations sur les événements. | Mesures d'atténuation | La journalisation est configurée dans l'interface web ***Administration - Paramètres Serveur - Journalisation***. |
+| Description | L'envoi des journaux à un système externe est préconisé pour préserver l'intégrité et la disponibilité des informations sur les événements. | Mesures d'atténuation | La journalisation est configurée dans l'interface Web ***Administration - Paramètres Serveur - Journalisation***. |
 
 ### Le compte de base de données mssql « sa » par défaut devrait être évité
 
@@ -45,7 +45,7 @@ Les scores sont évidemment sujets à caution et nous ne prétendons pas que cha
 | ----------- | --- |
 | Description | La sécurisation des communications assure l'intégrité et la confidentialité des données transmises entre le client et le serveur. |
 
-### Les comptes de la base de données devraient être différents pour l'application web, le planificateur et les outils de gestion
+### Les comptes de la base de données devraient être différents pour l'application Web, le planificateur et les outils de gestion
 
 |             |     |
 | ----------- | --- |

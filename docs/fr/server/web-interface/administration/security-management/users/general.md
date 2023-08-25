@@ -103,7 +103,7 @@ Saisir l'adresse courriel de l'utilisateur.
 Langage 
 		</td>
 		<td>
-Langage de l'interface web de l'utilisateur. 
+Langage de l'interface Web de l'utilisateur. 
 		</td>
 	</tr>
 </table>

@@ -42,7 +42,7 @@ Pour utiliser la Sécurité intégrée pour se connecter à la base de données,
 ![Assistant d'installation de {{ fr.DVLS }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8051.png) 
 1. Sous ***Source de l'installation***, choisir de télécharger la dernière version à partir du Web ou d'installer à partir d'un fichier zip local disponible depuis la [page de téléchargement](https://server.devolutions.net/fr/home/download).  
 ![Sélectionner un fichier d'installation](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4017.png) 
-1. Sous ***Général***, sélectionner le ***Site Web*** et le ***Nom de l'application web***. Sous ***Destination de l'installation***, choisir le dossier de destination ou l'instance sera situé. Le processus d'exécution des sites Web a reçu les autorisations appropriées sous **C:\inetpub\wwwroot**. Nous vous recommandons de créer un nouveau dossier en dessous et de créer l'instance {{ fr.DVLS }} dans ce dossier. Sous ***Pool d'applications***, choisir le ***Nom***.  
+1. Sous ***Général***, sélectionner le ***Site Web*** et le ***Nom de l'application Web***. Sous ***Destination de l'installation***, choisir le dossier de destination ou l'instance sera situé. Le processus d'exécution des sites Web a reçu les autorisations appropriées sous **C:\inetpub\wwwroot**. Nous vous recommandons de créer un nouveau dossier en dessous et de créer l'instance {{ fr.DVLS }} dans ce dossier. Sous ***Pool d'applications***, choisir le ***Nom***.  
 
 {% snippet icon.badgeCaution %} 
 Nous vous déconseillons de définir le dossier d'installation sur **C:\Program Files** ou **C:\Program Files (x86)**. {{ fr.DVLS }} est une application Web et cela peut entraîner un comportement indésirable et des problèmes, car IIS ne dispose pas des autorisations suffisantes pour exécuter les applications Web qui se trouvent sous ces dossiers. 
@@ -77,7 +77,7 @@ Pour tester l'installation du serveur, accédez à l'URL de l'instance (par exem
 ![{{ fr.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8060.png)  
 
 {% snippet icon.badgeNotice %} 
-Dans certaines situations, la page web peut ne pas se charger correctement. Assurez-vous que le groupe local IIS IUSRS a tous les droits de lecture nécessaire sur le fichier **encryption.config** localisé dans le sous-dossier App_Data du dossier de l'application web de {{ fr.DVLS }} (i.e., **C:\inetpub\wwwroot\dvls\App_Data**). Si un problème survient durant ou suivant l'installation, contactez-nous à [service@devolutions.net](mailto:service@devolutions.net). 
+Dans certaines situations, la page Web peut ne pas se charger correctement. Assurez-vous que le groupe local IIS IUSRS a tous les droits de lecture nécessaire sur le fichier **encryption.config** localisé dans le sous-dossier App_Data du dossier de l'application Web de {{ fr.DVLS }} (i.e., **C:\inetpub\wwwroot\dvls\App_Data**). Si un problème survient durant ou suivant l'installation, contactez-nous à [service@devolutions.net](mailto:service@devolutions.net). 
 {% endsnippet %}
  
 Pour tester la connexion à partir d'un client en créant une source de données dans {{ fr.RDM }}. Veuillez consulter [Comment configurer une source de données](/kb/devolutions-server/how-to-articles/configure-client-data-source/) pour plus d'informations. 

@@ -9,7 +9,7 @@ Configurer l'authentification à deux facteurs dans {{ fr.DVLS }} pour ajouter u
 
 {{ fr.DVLS }} en charge plusieurs types d'authentification a deux facteurs. Vous pouvez configurer un type par défaut pour l'ensemble de votre organisation ou par utilisateur. Lorsque l'authentification à deux facteurs est configurée, les utilisateurs se connectent avec leur nom d'utilisateur/mot de passe ainsi qu'un produit d'authentification a deux facteurs.  
 
-### Comment configurer un deux facteurs à partir de l'interface web 
+### Configuration d'une authentification à deux facteurs à partir de l'interface Web 
 
 {% youtube 'qb7umoKbUdg' %}  
 

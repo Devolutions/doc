@@ -117,7 +117,7 @@ Ouvrir une fenêtre qui affiche toutes les entrées des identifiants.
 [Téléchargements](/fr/rdm/mac/commands/view/downloads/) 
 		</td>
 		<td>
-Ouvre une fenêtre pour visualiser les fichiers téléchargés par l'intermédiaire d'une entrée de navigateur web. 
+Ouvre une fenêtre pour visualiser les fichiers téléchargés par l'intermédiaire d'une entrée de navigateur Web. 
 		</td>
 	</tr>
 	<tr>

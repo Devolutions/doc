@@ -30,7 +30,7 @@ C'est la durée du jeton. À l'expiration du jeton, l'utilisateur doit à nouvea
 Déconnecter automatiquement les utilisateurs inactifs après (minutes) 
 		</td>
 		<td>
-Saisir le délai de déconnexion de l'utilisateur du serveur s'il est inactif. Ce paramètre s'applique qu'aux sessions web ou sessions depuis [{{ fr.DWL }}](/fr/server/dwl/overview/). Sur modification de ce paramètre, l'instance {{ fr.DVLS }} doit être redémarrée avec le bouton ***Arrêter le serveur/Démarrer le serveur*** depuis la {{ fr.DVLSCONSOLE }}. 
+Saisir le délai de déconnexion de l'utilisateur du serveur s'il est inactif. Ce paramètre s'applique qu'aux sessions Web ou sessions depuis [{{ fr.DWL }}](/fr/server/dwl/overview/). Sur modification de ce paramètre, l'instance {{ fr.DVLS }} doit être redémarrée avec le bouton ***Arrêter le serveur/Démarrer le serveur*** depuis la {{ fr.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>

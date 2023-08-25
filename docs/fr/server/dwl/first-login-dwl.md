@@ -19,7 +19,7 @@ Un accès à {{ fr.DVLS }} est requis pour continuer.
 ![Connecter {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/server/Dwl4018.png) 
 1. Inscrire vos identifiants de {{ fr.DVLS }} et cliquer sur ***Se connecter***.  
 ![Connecter {{ fr.DVLS }}](https://webdevolutions.azureedge.net/docs/fr/server/Dwl4019.png) 
-1. Si vous cliquez sur l'icône de {{ fr.DWL }} dans votre navigateur web, vous pouvez valider que {{ fr.DWL }} est désormais connecté à votre {{ fr.DVLS }}.  
+1. Si vous cliquez sur l'icône de {{ fr.DWL }} dans votre navigateur Web, vous pouvez valider que {{ fr.DWL }} est désormais connecté à votre {{ fr.DVLS }}.  
 ![Association réussie de {{ fr.DVLS }} à {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/server/Dwl4020.png) 
 1. Pour sélectionner les coffres à synchroniser, cliquer sur l'onglet ***Coffres***, puis sur le bouton ***Sélectionner des coffres à synchroniser***.  
 ![Onglet Coffres](https://webdevolutions.azureedge.net/docs/fr/server/Dwl4051.png) 

@@ -86,7 +86,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-Activer le backup web 
+Activer le backup Web 
 		</td>
 		<td>
 Activer la sauvegarde de l'application Web. 

@@ -68,7 +68,7 @@ Rediriger l'URL depuis l'application Azure AD.
 	</tr>
 </table>
 
-### Application web 
+### Application Web 
 <table>
 	<tr>
 		<th>
