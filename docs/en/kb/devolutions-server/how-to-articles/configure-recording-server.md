@@ -40,7 +40,7 @@ A [gateway](https://docs.devolutions.net/server/dgw/server-configuration/) first
 
 ## {{ en.DVLSCONSOLE }} installation
 {% snippet icon.badgeCaution %}
-As it is now deprecated, this ***Recording Server*** format is only recommended for version 2022.3 and prior.
+As it is now deprecated, this ***Recording Server*** format is only recommended for version 2023.1 and prior.
 {% endsnippet %}  
 
 {% snippet icon.badgeInfo %}
