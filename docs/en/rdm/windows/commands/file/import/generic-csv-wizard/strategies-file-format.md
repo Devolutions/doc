@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: CSV Import strategies and file format
+  status: Topic available in German language
   description: When importing CSV files into {{ en.RDM }}, there are some decisions to be made about the strategies to use and the format of the content. 
 ---
 When importing CSV files into {{ en.RDM }}, there are some decisions to be made about the strategies to use and the format of the content. 
