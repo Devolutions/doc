@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Migration de l'ancienne sécurité vers les permissions dans {{ fr.RDM }}
+  status: Topic available in German language
   description: Cette rubrique explique comment migrer en toute sécurité de l'ancienne sécurité vers les permissions dans {{ fr.RDM }}.
   keywords: 
   - Legacy Security
