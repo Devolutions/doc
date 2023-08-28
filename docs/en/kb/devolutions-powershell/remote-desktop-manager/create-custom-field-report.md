@@ -8,6 +8,7 @@ This topic will cover how to create a Custom Field Report to use various PowerSh
 1. Click the ***New Entry*** button.
 1. Select ***Report***, which is under ***Macro/Script/Tool*** – ***Tool***.
 1. Enter the ***Name***.
+![Custom Field Report](https://webdevolutions.azureedge.net/docs/en/kb/KB0137.png)
 1. In the ***General*** tab:
     * Set the ***Type*** to ***Custom Field Report***.
     * The ***Script source*** can either be;
