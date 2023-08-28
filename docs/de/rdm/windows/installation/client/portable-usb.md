@@ -8,7 +8,7 @@ Mit dem mobilen Installationsmodus können Sie mehrere Versionen von {{ de.RDM }
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Um eine einzelne mobile Anwendung zu installieren, folgen Sie bitte den Anweisungen in diesem Artikel:  [Mobile Installation von {{ de.RDM }}](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/). 
+Um eine einzelne mobile Anwendung zu installieren, folgen Sie bitte den Anweisungen in diesem Artikel:  [Mobile Installation von {{ de.RDM }}](/de/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 

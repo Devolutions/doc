@@ -23,7 +23,7 @@ Für eine erfolgreichen Aktualisierung befolgen Sie bitte folgende Schritte:
 
 1. Stellen Sie sicher, dass Sie während der Aktualisierung der einzige Benutzer sind, der die Datenbank verwendet. Wenn der Offline Modus aktiviert ist, weisen  Sie Ihr Team an in den Offline Modus- oder zu einer anderen Datenquelle zu wechseln. 
 1. Erstellen Sie eine Sicherung Ihrer Datenbank. 
-1. Installieren Sie die gewünschte {{ de.RDM }} Version. Wenn Sie den Vorgang auf Ihrem eigenen Rechner durchführen, kann auch die [Portable (USB)](/rdm/windows/installation/client/portable-usb/) Version verwendet werden. 
+1. Installieren Sie die gewünschte {{ de.RDM }} Version. Wenn Sie den Vorgang auf Ihrem eigenen Rechner durchführen, kann auch die [Portable (USB)](/de/rdm/windows/installation/client/portable-usb/) Version verwendet werden. 
 1. Öffnen Sie {{ de.RDM }}, mit einem administrativen Konto, der zudem auch über SYSDBA oder DB_OWNER Rechte auf der Datenbank verfügt. 
 1. Möglicherweise erhalten Sie beim Zugriff auf Ihre Datenquelle eine Aufforderung zur Aktualisierung - diese Sie bestätigen können.  
 oder  
