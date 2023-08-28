@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Portable {{ en.RDM }} installation
+  status: Topic available in German language
   description: The Devolutions support staff might request you to try a portable {{ en.RDM }} installation to isolate the application from a potential issue tied to a local file, configuration, or specific setting corruption.
 ---
 The Devolutions support staff might request you to try a portable {{ en.RDM }} installation to isolate the application from a potential issue tied to a local file, configuration, or specific setting corruption.
