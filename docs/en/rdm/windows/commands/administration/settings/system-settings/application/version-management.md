@@ -1,5 +1,6 @@
 ---
 title: Version Management
+status: Topic available in German language
 ---
 The ***Version Management*** allows the administrators to manage the data source availability in other versions of {{ en.RDM }}. 
 
