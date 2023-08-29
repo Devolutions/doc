@@ -1,6 +1,6 @@
 ---
 title: SQL Server database migration best practices
-description: 
+status: Topic available in German language
 ---
 To migrate the content of your on-premises SQL Server database to cloud or vice versa, we suggest you follow the recommended best practices detailed below.  
 
