@@ -20,7 +20,7 @@ This topic will cover how to create a Custom Field Report to use various PowerSh
    If you chose ***Linked Entry***, skip step 5.
    {% endsnippet %}  
 1. In the ***Script*** tab, add the custom script.
-![Script](https://webdevolutions.azureedge.net/docs/en/kb/KB0139.png)
+![Script example](https://webdevolutions.azureedge.net/docs/en/kb/KB0139.png)
    {% snippet icon.badgeInfo %}
    There is a ***Sample*** script at the bottom of this tab to use as reference.
    {% endsnippet %}  
