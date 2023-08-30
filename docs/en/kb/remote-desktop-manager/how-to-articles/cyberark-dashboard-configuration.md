@@ -83,7 +83,7 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 
 18. The ***Allow direct connections (PVWA)*** option is enabled by default and is the recommended method. It allows the exact same action as the ***Connect*** button offers in PVWA.
 1. In the ***Connection components*** box, enter the components you wish to use for your connections. We initialize the field with the default components of a vanilla CyberArk installation, but this list MUST match the components configured in your vault.
-1. By default RDP settings are fetched from CyberArk PVWA when generating the PSM session. The ***Override RDP Settings*** option ignores settings provided by CyberArk and apply the ones specified in the ***CyberArk Dashboard*** entry instead. This override is for all PSM sessions established from this dashboard to have different display settings. One might consider creating different instances of the dashboard entry to reflect different users' preferences.
+1. Since {{ en.RDM }} version 2023.2.24, there is a new feature called ***Override RDP Settings***. By default, RDP settings are fetched from CyberArk PVWA when generating the PSM session. This new option allows you to ignore settings provided by CyberArk and apply the ones specified in the ***CyberArk Dashboard*** entry instead. This override is for all PSM sessions established from this dashboard to have different display settings. One might consider creating different instances of the dashboard entry to reflect different users' preferences.
 
    ![Override RDP Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB2264.png)
 
