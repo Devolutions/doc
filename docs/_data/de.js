@@ -1,4 +1,5 @@
 module.exports = {
+    ANYID: 'AnyIdentity',
     CI: 'Benutzerdefinierte Installationen',
     CIM: 'Benutzerdefinierte Installationen verwalten',
     CIS: 'Benutzerdefinierter Installationsdienst',
@@ -15,6 +16,7 @@ module.exports = {
     DHUBI: 'Devolutions Hub Importer',
     DHUBP: 'Devolutions Hub Personal',
     DHUBS: 'Devolutions Hub Services',
+    DKB: 'Devolutions Knowledge Base',
     DLAUNCHER: 'Devolutions Launcher',
     DLOCALIZER: 'Devolutions Localizer',
     DOD: 'Devolutions Online Drive',
