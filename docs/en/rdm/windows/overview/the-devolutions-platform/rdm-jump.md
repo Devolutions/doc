@@ -1,10 +1,11 @@
 ---
-title: Remote Desktop Manager Jump
-keywords:
-- Bastion server
-- Jump box
-- Jump server
-- Service host
+eleventyComputed:
+  title: '{{ en.RDMJ }}'
+  keywords:
+  - Bastion server
+  - Jump box
+  - Jump server
+  - Service host
 ---
 {{ en.RDMJ }} connects to a remote host, often called a Jump Box, Service Host, or a Bastion Server, which in turn connects to other hosts. {{ en.RDMJ }} is actually an RDP in an RDP.  
 

@@ -24,7 +24,7 @@ Notice the middle part is the ***Name ID*** entered previously. Depending on you
 7. Enter your credentials to save in the browser.  
 ![Enter your credentials](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6075.png)  
 {{ en.RDM }} will now process your credentials.  
-![Remote Desktop Manager will now process your credentials](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6074.png)  
+![{{ en.RDM }} will now process your credentials](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6074.png)  
 
 ## Open a session using the Credential Redirection entry
 

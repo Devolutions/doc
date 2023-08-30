@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager
+eleventyComputed:
+  title: '{{ fr.RDM }}'
 ---
 Permet de configurer différentes option pour {{ fr.RDM }}.  
 ![Administration – Paramètres du système – {{ fr.RDM }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8081.png) 

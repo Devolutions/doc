@@ -1,3 +1,4 @@
 ---
-title: Devolutions Hub
+eleventyComputed:
+  title: '{{ fr.DHUB }}'
 ---

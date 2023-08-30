@@ -1,5 +1,6 @@
 ---
-title: Devolutions Hub Personal
+eleventyComputed:
+  title: '{{ fr.DHUBP }}'
 ---
 {{ fr.DHUBP }} est pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un coffre.  
 

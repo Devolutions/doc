@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} enable RDP Remote Tools
+  title: '{{ en.RDMMAC }} enable RDP Remote Tools'
 ---
 {% snippet icon.badgeInfo %}
 Devolutions Proxy is deprecated, this function will work with {{ en.DVLS }}.

@@ -1,3 +1,4 @@
 ---
-title: Remote Desktop Manager Windows
+eleventyComputed:
+  title: '{{ en.RDMWIN }}'
 ---

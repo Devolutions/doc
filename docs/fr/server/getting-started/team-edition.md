@@ -1,7 +1,8 @@
 ---
-title: Devolutions Server - édition Team
-keywords:
-- rôle
+eleventyComputed:
+  title: '{{ fr.DVLS }} - Édition Team'
+  keywords:
+  - rôle
 ---
 Après l'achat d'une licence de {{ fr.DVLS }} édition Team, un courriel vous est envoyé contenant la clé de licence. Cette clé vous permet de créer une nouvelle instance de {{ fr.DVLS }}.  
 

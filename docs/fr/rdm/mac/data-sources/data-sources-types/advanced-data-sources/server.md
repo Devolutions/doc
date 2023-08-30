@@ -1,5 +1,6 @@
 ---
-title: Devolutions Server
+eleventyComputed:
+  title: '{{ fr.DVLS }}'
 ---
 <table>
 	<tr>

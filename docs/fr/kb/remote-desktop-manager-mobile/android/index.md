@@ -1,3 +1,4 @@
 ---
-title: Remote Desktop Manager Android
+eleventyComputed:
+  title: '{{ fr.RDMANDROID }}'
 ---

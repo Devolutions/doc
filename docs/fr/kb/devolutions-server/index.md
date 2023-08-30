@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Server
+  title: '{{ fr.DVLS }}'
   order: 40
   description: Vous pouvez accéder aux catégories suivantes concernant {{ fr.DVLS }} ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
   status: Topic available in German language

@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager Android Import XML Data Source
+eleventyComputed:
+  title: '{{ en.RDMANDROID }} Import an XML data source'
 ---
 You can import an XML data source in {{ en.RDMANDROID }} by overwriting or by creating a new XML data source.
 
@@ -7,7 +8,7 @@ Please note that to be able to copy an XML data source file, the device has to b
 
 We suggest using a {{ en.DOD }} data source to import an XML data source from Windows to Android instead of importing an XML data source directly. The {{ en.DOD }} is free and can be synchronized across all your devices.
 
-## Overwriting an existing xml data source
+## Overwriting an existing XML data source
 
 1. In the Data Source menu tap on ***Data Sources*** Select the data source to overwrite and in the Entry menu select ***Edit***.  
 ![!!KB2040.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2040.png)

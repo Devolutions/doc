@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} enable Smart Cards Authentication
+  title: '{{ en.RDMMAC }} enable Smart Cards Authentication'
 ---
 Here are the steps to enable the ***Smart Cards Authentication*** in {{ en.RDMMAC }}:  
 

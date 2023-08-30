@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }}
+  title: '{{ de.RDMMAC }}'
   order: 20
   description: Sie finden hier Themen zu den folgenden {{ de.RDMMAC }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---

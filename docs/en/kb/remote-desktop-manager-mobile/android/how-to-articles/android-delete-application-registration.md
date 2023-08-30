@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager Android delete the application registration
+eleventyComputed:
+  title: '{{ en.RDMANDROID }} delete the application registration'
 ---
 Usually, when the application is uninstalled, the configuration is automatically reset. However, if the Google Backup is enabled, the configuration is restored when the application is reinstalled.
 

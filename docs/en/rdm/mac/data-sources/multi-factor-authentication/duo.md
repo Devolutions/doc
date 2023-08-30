@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Duo
-  description: Remote Desktop Manager {{ fr.MAC }} allows you to configure a Duo authentication to provide an additional security layer when opening a data source.
+  description: '{{ en.RDMMAC }} allows you to configure a Duo authentication to provide an additional security layer when opening a data source.'
   keywords:
   - Duo authentication
 ---

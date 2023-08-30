@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager iOS import data source configuration
+eleventyComputed:
+  title: '{{ en.RDMIOS }} import data source configuration'
 ---
 It is possible to import data source configuration files for {{ en.RDMIOS }}.
 

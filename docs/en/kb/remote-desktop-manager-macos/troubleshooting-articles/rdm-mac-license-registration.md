@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} license registration
+  title: '{{ en.RDMMAC }} license registration'
 ---
 Registration issue with {{ en.RDMMAC }} "No Team license found".
 

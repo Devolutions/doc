@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Hub Personal
+  title: '{{ en.DHUBP }}'
   order: 70
   description: You can consult topics for the following categories about {{ en.DHUBP }}':' How-To Articles, Troubleshooting Articles, and Knowledge Base.
   status: Topic available in German language

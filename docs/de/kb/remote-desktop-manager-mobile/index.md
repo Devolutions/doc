@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager mobile
+  title: '{{ de.RDMMOBILE }}'
   order: 30
   description: Sie finden hier Themen zu den folgenden {{ de.RDMMOBILE }} Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---

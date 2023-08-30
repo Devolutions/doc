@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager
+  title: '{{ de.RDM }}'
   order: 10
   description: Sie finden hier Themen zu den folgenden {{ de.RDM }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---

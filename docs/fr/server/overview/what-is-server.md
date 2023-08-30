@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Server
+  title: '{{ fr.DVLS }}'
   order: 10
 keywords:
 - on-premises

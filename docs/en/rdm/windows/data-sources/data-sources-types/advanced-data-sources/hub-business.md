@@ -1,5 +1,6 @@
 ---
-title: Devolutions Hub Business
+eleventyComputed:
+  title: '{{ en.DHUBB }}'
 ---
 {% youtube 'wI4Jn3zLC8U' %}  
 

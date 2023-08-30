@@ -1,5 +1,6 @@
 ---
-title: Devolutions Hub Business
+eleventyComputed:
+  title: '{{ fr.DHUBB }}'
 ---
 {{ fr.DHUBB }} est pour les entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation  
 

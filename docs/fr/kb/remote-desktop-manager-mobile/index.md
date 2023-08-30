@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager mobile
+  title: '{{ fr.RDMMOBILE }}'
   order: 30
   description: Vous pouvez accéder aux catégories suivantes concernant {{ fr.RDMMOBILE }} ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
   status: Topic available in German language
@@ -12,4 +12,3 @@ Vous pouvez accéder aux catégories suivantes concernant {{ fr.RDMMOBILE }} :
 * Guides d'utilisation
 * Articles de dépannage
 * Base de connaissances
-

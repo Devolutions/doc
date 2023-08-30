@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} SSH issues
+  title: '{{ en.RDMMAC }} SSH issues'
 ---
 Multiple issues in {{ en.RDMMAC }} with SSH entries.
 ## Solution

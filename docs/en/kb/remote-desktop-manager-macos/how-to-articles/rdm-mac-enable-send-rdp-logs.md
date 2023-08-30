@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} enable and send session logs
+  title: '{{ en.RDMMAC }} enable and send session logs'
 ---
 Follow these steps to send sessions logs to our support team when encountering an issue with {{ en.RDM }}.  
 

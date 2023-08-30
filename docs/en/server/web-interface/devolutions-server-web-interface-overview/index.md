@@ -1,4 +1,5 @@
 ---
-title: Devolutions Server web interface overview
-order: 10
+eleventyComputed:
+  title: '{{ en.DVLS }} web interface overview'
+  order: 10
 ---

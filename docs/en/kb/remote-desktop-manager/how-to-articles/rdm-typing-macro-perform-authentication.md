@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager typing macro to perform authentication
+eleventyComputed:
+  title: '{{ en.RDM }} typing macro to perform authentication'
 ---
 With {{ en.RDM }}, it is possible to send credentials through a typing macro using variables.
 

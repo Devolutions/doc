@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager iOS import XML data source
+eleventyComputed:
+  title: '{{ en.RDMIOS }} Import an XML data source'
 ---
 You can import an XML data source in {{ en.RDMIOS }} by creating a new XML data source.  
 

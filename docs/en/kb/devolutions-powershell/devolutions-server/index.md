@@ -1,4 +1,5 @@
 ---
-title: Devolutions Server PowerShell
-order: 20
+eleventyComputed:
+  title: '{{ en.DVLS }} PowerShell'
+  order: 20
 ---

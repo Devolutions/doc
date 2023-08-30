@@ -1,3 +1,4 @@
 ---
-title: Remote Desktop Manager iOS
+eleventyComputed:
+  title: '{{ en.RDMIOS }}'
 ---

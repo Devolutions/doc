@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ de.MAC }}
+  title: '{{ de.RDMMAC }}'
   order: 10
 ---

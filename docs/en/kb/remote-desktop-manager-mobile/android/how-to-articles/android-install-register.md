@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager Android install and register
+eleventyComputed:
+  title: '{{ en.RDMANDROID }} install and register'
 ---
 On the Google Play Store store, search for the {{ en.RDM }} application and install the application on your device.  
 ![!!KB2031.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2031.png)

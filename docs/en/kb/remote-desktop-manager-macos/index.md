@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }}
+  title: '{{ en.RDMMAC }}'
   order: 20
   description: You can consult topics for the following categories about {{ en.RDMMAC }}':' How-To Articles, Troubleshooting Articles and Knowledge Base
   status: Topic available in German language

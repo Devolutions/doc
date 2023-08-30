@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Hub Personal
+  title: '{{ de.DHUBP }}'
   order: 70
   description: Sie finden hier Themen zu den folgenden {{ de.DHUBP }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---
@@ -8,6 +8,6 @@ eleventyComputed:
 
 Sie finden hier Themen zu den folgenden {{ de.DHUBP }}-Kategorien:  
 
-- How-To 
-- Troubleshooting 
-- Knowledge Base 
+* How-To 
+* Troubleshooting 
+* Knowledge Base 

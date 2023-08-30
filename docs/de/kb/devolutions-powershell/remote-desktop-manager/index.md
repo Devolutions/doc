@@ -1,4 +1,5 @@
 ---
-title: Remote Desktop Manager PowerShell
-order: 10
+eleventyComputed:
+  title: '{{ de.RDM }} PowerShell'
+  order: 10
 ---

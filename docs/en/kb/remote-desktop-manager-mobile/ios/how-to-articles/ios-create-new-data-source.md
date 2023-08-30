@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager iOS create a new data source
+eleventyComputed:
+  title: '{{ en.RDMIOS }} create a new data source'
 ---
 The data source in {{ en.RDM }} can be a file or a database. You can configure multiple data sources within the application.  
 

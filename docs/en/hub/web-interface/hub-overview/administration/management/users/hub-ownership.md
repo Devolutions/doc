@@ -1,5 +1,6 @@
 ---
-title: Devolutions Hub Ownership
+eleventyComputed:
+  title: '{{ en.DHUB }} ownership'
 ---
 In ***Administration – Users***, you can change the ownership of {{ en.DHUBB }} to another administrator.  
 

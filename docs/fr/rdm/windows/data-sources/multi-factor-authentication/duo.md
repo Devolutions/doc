@@ -1,8 +1,9 @@
 ---
-title: Duo
-description: Remote Desktop Manager vous permet de configurer une authentification Duo pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données.
-keywords:
-- Authentification Duo
+eleventyComputed:
+  title: Duo
+  description: "{{ fr.RDM }} vous permet de configurer une authentification Duo pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données."
+  keywords:
+  - Authentification Duo
 ---
 {{ fr.RDM }} vous permet de configurer une authentification Duo pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données. 
 

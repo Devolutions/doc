@@ -1,7 +1,9 @@
 ---
-title: Remote Desktop Manager Android set Offline mode
+eleventyComputed:
+  title: '{{ en.RDMANDROID }} Offline mode'
+  description: The Offline mode allows you to connect to a read only copy of the data source when the live database is unavailable.
 ---
-The offline mode allows you to connect to a read only copy of the data source when the live database is unavailable.
+The Offline mode allows you to connect to a read only copy of the data source when the live database is unavailable.
 
 For mobile workers we recommend creating a local data source.
 

@@ -1,3 +1,4 @@
 ---
-title: Devolutions Server Settings
+eleventyComputed:
+  title: '{{ en.DVLS }} settings'
 ---

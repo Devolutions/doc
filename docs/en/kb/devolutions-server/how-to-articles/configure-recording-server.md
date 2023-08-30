@@ -78,7 +78,7 @@ The {{ en.DVLSCONSOLE }} is required to install the ***Recording Server***.
 ![Service Account](https://webdevolutions.azureedge.net/docs/en/kb/KB8018.png)
 
 6. Set the ***Server URL*** and ***Administration Credentials*** account that will create the ***Application Key*** to allow the ***Recording Server*** to communicate with the {{ en.DVLS }} instance, then click ***Next***.  
-![Devolutions Server Credentials](https://webdevolutions.azureedge.net/docs/en/kb/KB8019.png)
+![{{ en.DVLS }} Credentials](https://webdevolutions.azureedge.net/docs/en/kb/KB8019.png)
    | {{ en.DVLS }} Credentials | Description |
    | ------------------------------ | ----------- |
    | Server URL                     | URL of the {{ en.DVLS }} instance |

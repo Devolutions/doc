@@ -1,4 +1,5 @@
 ---
-title: Devolutions Hub PowerShell
-order: 40
+eleventyComputed:
+  title: '{{ de.DHUB }} PowerShell'
+  order: 40
 ---

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ fr.MAC }} problématiques SSH
+  title: '{{ fr.RDMMAC }} problématiques SSH'
 ---
 Problèmes multiples dans {{ fr.RDMMAC }} avec les entrées SSH. 
 ## Solution 

@@ -1,6 +1,7 @@
 ---
-title: Devolutions Server Data Source Selection
-order: 10
+eleventyComputed:
+  title: '{{ en.DVLS }} data source selection'
+  order: 10
 ---
 When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choose a web source between {{ en.DHUB }} and {{ en.DVLS }}. 
 {% snippet icon.badgeInfo %} 

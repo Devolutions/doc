@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager Android import data source configuration
+eleventyComputed:
+  title: '{{ en.RDMANDROID }} import data source configuration'
 ---
 It is possible to import data source configuration files for {{ en.RDMANDROID }}.
 

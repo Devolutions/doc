@@ -1,6 +1,7 @@
 ---
-title: Devolutions Server-Instanz erstellen
-order: 30
+eleventyComputed:
+  title: '{{ de.DVLS }}-Instanz erstellen'
+  order: 30
 ---
 {% snippet icon.badgeInfo %} 
 Wenn Sie kürzlich Ihre Serienlizenzschlüssel erhalten haben, lesen Sie bitte den Abschnitt [Erste Schritte](/server/getting-started/). 
@@ -43,9 +44,9 @@ Alle über die {{ de.DVLSCONSOLE }} ausgeführten Operationen werden mit den Anm
 ![!!IIS Features Diagnostic Dialog](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8049.png)  
 1. Um fortzufahren, müssen die Lizenzvereinbarungen akzeptiert werden.  
 ![!!{{ de.DVLS }} License Agreement Dialog](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8050.png)  
-1. Geben Sie unter ***Datenbank*** die Server- und Datenbankinformationen ein. Das Nutzerkonto, das zum Erstellen der Datenbank verwendet wird, muss über Sysadmin-Rechte in der SQL Server-Instanz verfügen. Weitere Informationen finden Sie unter [Datenbank](/server/management/devolutions-server-console/devolutions-server-settings/database/). Um die ***Windows-Authentifizierung*** für die Verbindung mit der Datenbank zu verwenden, ist es wichtig, die Identität des Anwendungspools im IIS Manager zu ändern und die richtigen Berechtigungen für das Dienstkonto auf der SQL-Datenbank festzulegen. Konsultieren Sie dazu bitte [Konfiguration von {{ de.DVLS }} zur Nutzung der integrierten Sicherheit](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/). Der folgende Artikel über [Kontoauswahl vor der Einrichtung](/de/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) beschreibt, welche Konten vor dem Einsatz von Devolutions Server erstellt werden können. 
+1. Geben Sie unter ***Datenbank*** die Server- und Datenbankinformationen ein. Das Nutzerkonto, das zum Erstellen der Datenbank verwendet wird, muss über Sysadmin-Rechte in der SQL Server-Instanz verfügen. Weitere Informationen finden Sie unter [Datenbank](/server/management/devolutions-server-console/devolutions-server-settings/database/). Um die ***Windows-Authentifizierung*** für die Verbindung mit der Datenbank zu verwenden, ist es wichtig, die Identität des Anwendungspools im IIS Manager zu ändern und die richtigen Berechtigungen für das Dienstkonto auf der SQL-Datenbank festzulegen. Konsultieren Sie dazu bitte [Konfiguration von {{ de.DVLS }} zur Nutzung der integrierten Sicherheit](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/). Der folgende Artikel über [Kontoauswahl vor der Einrichtung](/de/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) beschreibt, welche Konten vor dem Einsatz von {{ de.DVLS }} erstellt werden können. 
 ![!!Database Dialog](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8054.png)  
-1. Geben Sie unter ***Allgemein*** einen nutzerdefinierten ***Namen*** und eine ***Beschreibung*** ein. Geben Sie unter ***Serie*** die Seriennummer Ihrer Lizenz ein, die Sie beim Kauf des Produktes per E-Mail erhalten haben. Wenn Sie noch keine Lizenz für Devolutions Server erworben haben, können Sie eine [30-tägige Testversion anfordern](https://devolutions.net/de/server/trial/).  
+1. Geben Sie unter ***Allgemein*** einen nutzerdefinierten ***Namen*** und eine ***Beschreibung*** ein. Geben Sie unter ***Serie*** die Seriennummer Ihrer Lizenz ein, die Sie beim Kauf des Produktes per E-Mail erhalten haben. Wenn Sie noch keine Lizenz für {{ de.DVLS }} erworben haben, können Sie eine [30-tägige Testversion anfordern](https://devolutions.net/de/server/trial/).  
 ![!!General and Registration Dialog](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8051.png)  
 1. Wählen Sie unter ***Installationsquelle*** entweder ***Herunterladen aus dem Internet*** (neueste Version) oder ***Installieren aus der Zip-Datei***, die auf der [Download](https://devolutions.net/de/server/home/download/)-Seite verfügbar ist.
 ![!!Source Dialog](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8053.png)  
@@ -85,4 +86,4 @@ Um die Installation des Servers zu testen, klicken Sie bitte in einem beliebigen
 Es kann vorkommen, dass die Website nicht richtig geladen werden kann. Stellen Sie sicher, dass die lokale IIS IUSRS-Gruppe vollen Lesezugriff auf die Datei **encryption.config** hat, die sich im Unterordner App_Data im Webanwendungsordner von {{ de.DVLS }} befindet (z. B. **C:\inetpub\wwwroot\dvls\App_Data**). Sollte das Problem weiterhin bestehen, kontaktieren Sie uns bitte unter [service@devolutions.net](mailto:service@devolutions.net) 
 {% endsnippet %}
  
-Um die Verbindung von einem Kunden aus zu testen, erstellen Sie bitte eine Datenquelle im Remote Desktop Manager. Weitere Informationen dazu finden Sie in der [Anleitung zur Konfiguration einer Kunden-Datenquelle](/kb/devolutions-server/how-to-articles/configure-client-data-source/).
+Um die Verbindung von einem Kunden aus zu testen, erstellen Sie bitte eine Datenquelle im {{ de.RDM }}. Weitere Informationen dazu finden Sie in der [Anleitung zur Konfiguration einer Kunden-Datenquelle](/kb/devolutions-server/how-to-articles/configure-client-data-source/).

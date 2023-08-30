@@ -1,3 +1,4 @@
 ---
-title: Devolutions Server Console
+eleventyComputed:
+  title: '{{ de.DVLSCONSOLE }}'
 ---

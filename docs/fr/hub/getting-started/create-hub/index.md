@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Créer votre hub
   order: 10
-  description: Devolutions Hub est proposé en deux versions, {{ fr.DHUBB }} et {{ fr.DHUBP }} (gratuite). Les deux sont des solutions infonuagiques de gestion sécuritaire de mots de passe liés à votre {{ fr.DA }}.
+  description: '{{ fr.DHUB }} est proposé en deux versions, {{ fr.DHUBB }} et {{ fr.DHUBP }} (gratuite). Les deux sont des solutions infonuagiques de gestion sécuritaire de mots de passe liés à votre {{ fr.DA }}.'
 ---
 {{ fr.DHUB }} est proposé en deux versions, {{ fr.DHUBB }} et {{ fr.DHUBP }} (gratuite). Les deux sont des solutions infonuagiques de gestion sécuritaire de mots de passe liés à votre {{ fr.DA }}.  
 

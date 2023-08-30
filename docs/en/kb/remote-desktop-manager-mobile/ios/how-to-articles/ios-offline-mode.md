@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager iOS in Offline Mode
+eleventyComputed:
+  title: '{{ en.RDMIOS }} in Offline Mode'
 ---
 The offline mode allows you to connect to a read only copy of the data source when the live data source is unavailable.  
 

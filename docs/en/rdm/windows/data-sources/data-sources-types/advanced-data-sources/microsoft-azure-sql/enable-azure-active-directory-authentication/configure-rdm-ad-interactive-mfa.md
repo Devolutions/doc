@@ -4,7 +4,7 @@ eleventyComputed:
   description: Active Directory Interactive (with MFA support) allows you to authenticate on your Microsoft Azure SQL data source using your Office365 account and MFA.
 ---
 {% snippet icon.badgeInfo %} 
-This topic covers {{ en.RDM }} versions 2022.1 and later. If you are using an earlier version, please see [Configure an older Remote Desktop Manager version AD Interactive (with MFA support)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-older-version-ad-interactive-mfa/) instead. 
+This topic covers {{ en.RDM }} versions 2022.1 and later. If you are using an earlier version, please see [Configure an older {{ en.RDM }} version AD Interactive (with MFA support)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-older-version-ad-interactive-mfa/) instead. 
 {% endsnippet %}  
 
 Active Directory Interactive (with MFA support) allows you to authenticate on your [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) data source using your Office365 account and MFA.  

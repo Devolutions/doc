@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Devolutions Server
+  title: '{{ en.DVLS }}'
   order: 10
-keywords:
-- on-premises
-- self-hosted
-- roles
+  keywords:
+  - on-premises
+  - self-hosted
+  - roles
 ---
 ![!!{{ en.DVLS }} logo]({{ locale[lang].projects.server.logo }})
 

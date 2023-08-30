@@ -1,7 +1,8 @@
 ---
-title: Remote Desktop Manager
-order: 10
-status: Topic available in German language
+eleventyComputed:
+  title: '{{ fr.RDM }}'
+  order: 10
+  status: Topic available in German language
 ---
 ![!!{{ fr.RDM }}]({{ locale.fr.projects.rdm.logo }})
 

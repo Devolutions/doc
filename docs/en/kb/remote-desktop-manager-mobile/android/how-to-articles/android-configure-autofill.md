@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager Android configure the autofill
+eleventyComputed:
+  title: '{{ en.RDMANDROID }} configure the autofill'
 ---
 {% youtube 'wioPUaLVuBA' %}
 

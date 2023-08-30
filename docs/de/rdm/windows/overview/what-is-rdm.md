@@ -1,6 +1,7 @@
 ---
-title: Remote Desktop Manager 
-order: 10
+eleventyComputed:
+  title: '{{ de.RDM }}'
+  order: 10
 ---
 ![!!{{ de.RDM }} logo]({{ locale.de.projects.rdm.logo }})  
 

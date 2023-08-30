@@ -1,5 +1,6 @@
 ---
-title: Devolutions Hub Personal
+eleventyComputed:
+  title: '{{ en.DHUBP }}'
 ---
 {{ en.DHUBP }}, for individual users who want to secure personal passwords in a secure vault for free.  
 

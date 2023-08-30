@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ fr.MAC }}
+  title: '{{ fr.RDMMAC }}'
   order: 10
 ---
 ![!!{{ fr.RDM }} logo](https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg)

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} RDP cannot copy file/image
+  title: '{{ en.RDMMAC }} RDP cannot copy file/image'
 ---
 Cannot copy file or images from local computer to remote session.  
 
