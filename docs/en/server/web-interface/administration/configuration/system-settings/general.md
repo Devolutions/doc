@@ -1,7 +1,5 @@
 ---
 title: General
-keywords:
-- Private vault
 ---
 The ***General*** section of the ***System Settings*** allows the administrators to apply general policies for the whole data source. 
 

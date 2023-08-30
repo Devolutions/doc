@@ -1,11 +1,12 @@
 ---
-title: Delete and Restore Vaults
+eleventyComputed:
+  title: Delete and restore {{ en.VLT }}s
 ---
 ***Vaults*** can be deleted and restored by administrators in {{ en.DHUBB }}.  
 
-* [Delete a vault](#delete-a-vault) 
-* [Restore a deleted vault](#restore-a-deleted-vault) 
-* [Restore a User vault](/kb/hub-business/how-to-articles/restore-user-vault/) 
+* [Delete a {{ en.VLT }}](#delete-a-vault) 
+* [Restore a deleted {{ en.VLT }}](#restore-a-deleted-vault) 
+* [Restore a {{ en.UVLT }}](/kb/hub-business/how-to-articles/restore-user-vault/) 
 
 ### Delete a Vault 
 

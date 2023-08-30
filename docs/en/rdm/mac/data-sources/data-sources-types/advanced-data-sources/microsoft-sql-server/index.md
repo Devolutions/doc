@@ -384,7 +384,7 @@ If you wish to to process Database upgrade by hand instead of automatically you 
 
 ### {{ en.UVLT }} 
 
-![SQL Server - User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6041.png) 
+![SQL Server - {{ en.UVLT }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6041.png) 
 
 <table>
 	<tr>

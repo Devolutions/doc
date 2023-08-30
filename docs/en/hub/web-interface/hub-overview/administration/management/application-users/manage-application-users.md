@@ -25,6 +25,6 @@ By default, a newly created ***Application User*** has no permissions. See the n
 Depending on the actions that this application user needs to perform, you need to assign it the proper rights:  
 
 * [Assign application user system permissions](/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/) 
-* [Assign application user vault permissions](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/)  
+* [Assign application {{ en.UVLT }} permissions](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/)  
 
 When permissions have been assigned, you are ready to access {{ en.DHUB }} with the [{{ en.PS }} module](/hub/powershell-module/) and your application user. 

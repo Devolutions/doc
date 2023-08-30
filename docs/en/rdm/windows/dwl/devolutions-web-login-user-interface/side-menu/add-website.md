@@ -78,7 +78,7 @@ Enter the name of the folder in which your new entry will be stored in {{ en.RDM
 Vault 
 		</td>
 		<td>
-Choose to store your new website entry in your ***User Vault*** or in the currently selected ***Vault*** in {{ en.RDM }}. 
+Choose to store your new website entry in your ***{{ en.UVLT }}*** or in the currently selected ***Vault*** in {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>

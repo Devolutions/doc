@@ -109,7 +109,7 @@ Disable the telemetry data collection
 	</tr>
 	<tr>
 		<td>
-Disable the system Contacts, Macros and VPNs in the user vault
+Disable the system Contacts, Macros and VPNs in the {{ en.UVLT }}
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableGlobalVaultInUserVault

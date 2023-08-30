@@ -58,10 +58,10 @@ Defines the default vault(s) for users. Select them from a vault list.
 	</tr>
 	<tr>
 		<td>
-Disable user vault
+Disable {{ en.UVLT }}
 		</td>
 		<td>
-Defines if the user vault is disabled or not by default when creating a new user.
+Defines if the {{ en.UVLT }} is disabled or not by default when creating a new user.
 		</td>
 	</tr>
 </table>

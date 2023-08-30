@@ -10,7 +10,7 @@ Before deploying this migration in your production environment, we recommend to 
 
 It is possible to efficiently migrate {{ en.DVLS }} Domain authentication to Microsoft authentication using the following steps. Some sections require to run PowerShell scripts or SQL statements. As those scripts may change according to the {{ en.DVLS }} version, please check our [GitHub RDMSamples-ps](https://github.com/Devolutions/RDMSamples-ps) repository to get them.
 ### Preparation phase
-* Ask all users to export their User Vaults (formerly know as Private Vault) for safety measure.
+* Ask all users to export their {{ en.UVLT }} for safety measure.
 * Have all AAD groups created in Azure.  
 
   * Make sure to not use commas as part of the AAD group name.
@@ -58,7 +58,7 @@ It is possible to efficiently migrate {{ en.DVLS }} Domain authentication to Mic
 * [Reset the {{ en.DVLS }} cache](/server/web-interface/administration/security-management/reset-server-cache/) to update users, user groups, vaults and entries.
 * Verify Microsoft authentication in {{ en.RDM }} and/or web UI.
 * Verify RBAC functionality and verify if permissions are properly set.
-* Verify User Vault entries.  
+* Verify {{ en.UVLT }} entries.  
 
-  * For a fresh installation, migration option 2, ask users to import their entries back in their own User Vault.
+  * For a fresh installation, migration option 2, ask users to import their entries back in their own {{ en.UVLT }}.
 * On success, for migration option 1, disable the Domain authentication feature.

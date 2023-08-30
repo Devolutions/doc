@@ -6,7 +6,7 @@ eleventyComputed:
 Send and receive ***Secure Messages*** with users from your {{ en.DVLS }}.
 ![Messages button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4009.png)  
 
-Click the ***Messages*** icon to create and read secure messages. These can include credentials, user vault entries, and files.
+Click the ***Messages*** icon to create and read secure messages. These can include credentials, {{ en.UVLT }} entries, and files.
 ![New Messages](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4052.png)
 
 ## Writing a message

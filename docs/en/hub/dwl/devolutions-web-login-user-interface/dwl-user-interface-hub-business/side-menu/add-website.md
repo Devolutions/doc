@@ -1,7 +1,7 @@
 ---
 title: Add Website
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the vaults and entries of the [***Vaults***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***User vault***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through {{ en.DWL }}.  
+The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the vaults and entries of the [***Vaults***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***{{ en.UVLT }}***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through {{ en.DWL }}.  
 
 When {{ en.DHUBB }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
 ![New Entry - Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2132.png) 
@@ -33,7 +33,7 @@ Vault
 		</td>
 		<td>
 
-Choose the vault in which to store your new website entry in {{ en.DHUBB }}. You can select any available vault, including your ***User vault***. 
+Choose the vault in which to store your new website entry in {{ en.DHUBB }}. You can select any available vault, including your ***{{ en.UVLT }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -65,7 +65,7 @@ Enter the URL of the website’s login page. This field is automatically filled 
 Credentials 
 		</td>
 		<td>
-Select in the drop-down list between ***Custom***, ***Linked (Vault)***, ***Inherited***, ***My personal credentials***, ***Find by name (User Vault)***, or ***None*** to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
+Select in the drop-down list between ***Custom***, ***Linked (Vault)***, ***Inherited***, ***My personal credentials***, ***Find by name ({{ en.UVLT }})***, or ***None*** to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
 		</td>
 	</tr>
 	<tr>

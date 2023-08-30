@@ -37,7 +37,7 @@ Your password settings are now configured.
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2016.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
-1. Select if you want to save your entry in your ***User vault*** or in a ***Vault***. Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDMMAC }}. 
+1. Select if you want to save your entry in your ***{{ en.UVLT }}*** or in a ***Vault***. Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDMMAC }}. 
 1. Click ***Save***.  
 
 Your credentials are now securely stored in a new website entry in {{ en.RDMMAC }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/). 

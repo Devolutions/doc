@@ -25,7 +25,7 @@ Please consult the Play List Entry topic for more information on the Shared Play
 ### {{ en.UVLT }} Play List 
 
 The {{ en.UVLT }} Play List is saved inside your {{ en.UVLT }} which is a user centric repository, it allows each user to create Play List that only them can access.  
-![Play List Management - User Vault Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10362.png) 
+![Play List Management - {{ en.UVLT }} Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10362.png) 
 
 ## Actions 
 

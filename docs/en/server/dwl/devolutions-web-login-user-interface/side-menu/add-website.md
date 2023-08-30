@@ -67,7 +67,7 @@ This button is only displayed next to the Equivalent URLs field after having cli
 Credentials 
 		</td>
 		<td>
-In the drop-down list, select Custom, Linked (Vault), Inherited, Linked (User Vault), Find by name (User Vault), or None to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
+In the drop-down list, select Custom, Linked (Vault), Inherited, Linked ({{ en.UVLT }}), Find by name ({{ en.UVLT }}), or None to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
 		</td>
 	</tr>
 	<tr>
@@ -79,17 +79,17 @@ Select the credential entry that will be used to fetch the credentials for your 
 
 It is also possible to select Prompt on connection to be asked each time you connect.  
 
-This field is only available if Linked (Vault) or Linked (User Vault) is selected in the Credentials drop-down list. 
+This field is only available if Linked ({{ en.VLT }}) or Linked ({{ en.UVLT }}) is selected in the Credentials drop-down list. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-User vault search credentials 
+{{ en.UVLT }} search credentials 
 		</td>
 		<td>
 Enter the name of the credential in your {{ en.UVLT }} and {{ en.DWL }} will search in it for the specified name. If the field is left empty, when launched, a Credential list will open with all available credentials entries from your {{ en.UVLT }}.  
 
-This field is only available if Find by name (User Vault) is selected in the Credentials drop-down list. 
+This field is only available if Find by name ({{ en.UVLT }}) is selected in the Credentials drop-down list. 
 		</td>
 	</tr>
 	<tr>
@@ -140,7 +140,7 @@ Enter a description for your new entry.
 Vault 
 		</td>
 		<td>
-Choose to store your new website entry in your User Vault or in the currently selected Vault in {{ en.DVLS }}. 
+Choose to store your new website entry in your {{ en.UVLT }} or in the currently selected Vault in {{ en.DVLS }}. 
 		</td>
 	</tr>
 	<tr>

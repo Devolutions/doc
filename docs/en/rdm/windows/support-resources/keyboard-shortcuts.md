@@ -609,7 +609,7 @@ F12
 	</tr>
 	<tr>
 		<td>
-My User Vault 
+My {{ en.UVLT }} 
 		</td>
 		<td>
 F7 

@@ -1,7 +1,8 @@
 ---
-title: Restore a user vault
+eleventyComputed:
+  title: Restore a {{ en.UVLT }}
 ---
-It is possible to get access to the user vault of a {{ en.DHUBB }} user, who has left your organization without the need of connecting with their account, and restore it as a shared vault.
+It is possible to get access to the {{ en.UVLT }} of a {{ en.DHUBB }} user, who has left your organization without the need of connecting with their account, and restore it as a shared vault.
 
 ## Steps
 
@@ -9,7 +10,7 @@ It is possible to get access to the user vault of a {{ en.DHUBB }} user, who has
 1. Find and ***Delete*** the user by clicking on the recycling bin next to his vault.
 1. Click on ***Administration - Vaults***.
 1. In the filtering drop down menus;
-   - ***Type***: select ***User vault***.
+   - ***Type***: select ***{{ en.UVLT }}***.
    - ***Status***: select ***Deleted***.  
    ![!!KB4853.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4853.png)
 1. Click ***Restore as a Shared Vault*** button.  

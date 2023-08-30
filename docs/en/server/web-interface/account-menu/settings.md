@@ -21,8 +21,8 @@ Landing page
 		<td>
 Choose the home page after sign on: <br>
 
-* Vault 
-* User Vault 
+* {{ en.VLT }} 
+* {{ en.UVLT }} 
 * Reports 
 * Administration 
 * Privileged Access 

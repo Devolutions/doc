@@ -37,7 +37,7 @@ Each tab will display a different view in the ***Content Area***. The tabs avail
 
 * the ***Matching*** tab, where you find available credentials for a specific website. 
 * the ***Vaults*** tab,  where you can find all the {{ en.DHUBB }} entries you synchronized, divided into your different vaults and folders. 
-* the ***User vault*** tab, where you can find the entries you stored in your {{ en.DHUBB }} ***User Vault***, divided into your different folders. 
+* the ***{{ en.UVLT }}*** tab, where you can find the entries you stored in your {{ en.DHUBB }} ***{{ en.UVLT }}***, divided into your different folders. 
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  
 
-See our [Side Menu](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/) topic for more information on each of the tabs. 
+See our [Side Menu](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/) topic for more information on each of the tabs.

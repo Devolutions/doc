@@ -6,8 +6,7 @@ In ***Reports – History – Deleted Entries***, manage the deleted entries fro
 Click the ***Export*** button to create a CSV report of the ***Deleted Entries***.  
 
 {% snippet icon.badgeNotice %} 
-If an entry is deleted from a ***User Vault***, only the user of the ***User Vault*** can restore and manage it in the ***Reports*** section. 
+If an entry is deleted from a ***{{ en.UVLT }}***, only the user of the ***{{ en.UVLT }}*** can restore and manage it in the ***Reports*** section. 
 {% endsnippet %}
  
 ![!!Hub4132.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4132.png) 
-

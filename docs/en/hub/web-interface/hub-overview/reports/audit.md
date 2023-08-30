@@ -28,7 +28,7 @@ The ***Users Permissions*** section is a tool to have an overview of your users 
 
 ### Vault Permissions 
 
-The ***Vaults Permissions*** section is a tool to quickly review your user vaults permissions for each vault and create a CSV report by clicking the ***Export*** button.  
+The ***Vaults Permissions*** section is a tool to quickly review your {{ en.UVLT }} permissions for each vault and create a CSV report by clicking the ***Export*** button.  
 ![!!Hub4159.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4159.png) 
 
 ### Vault Health 

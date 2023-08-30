@@ -221,7 +221,7 @@ Disable the option to lock the data source directly. You can still lock the appl
 
 ### {{ en.UVLT }} 
 
-![Microsoft SQL Server – User Vault tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3413.png) 
+![Microsoft SQL Server – {{ en.UVLT }} tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3413.png) 
 
 <table>
 	<tr>

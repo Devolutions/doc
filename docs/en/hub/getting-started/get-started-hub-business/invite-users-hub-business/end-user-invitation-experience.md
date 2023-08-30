@@ -55,12 +55,12 @@ Now that you have access to {{ en.DHUBB }}, you can continue to the following se
 After logging in, {{ en.DHUBB }} opens on the ***Vault*** tab. In this view, it is possible to interact with the vaults and entries you have access to. You can change vault using the ***Vault*** selector menu at the top.  
 ![Vault Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2006.png)  
 
-You can also access your ***User Vault***, which is user centric and is used to store information such as personal account credentials, by clicking on the ***User Vault*** tab in the side menu.  
-![User Vault Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2007.png)  
+You can also access your ***{{ en.UVLT }}***, which is user centric and is used to store information such as personal account credentials, by clicking on the ***{{ en.UVLT }}*** tab in the side menu.  
+![{{ en.UVLT }} Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2007.png)  
 
 ### Create entries 
 
-{{ en.DWL }} is our web browser password plugin. It is the preferred client to use in conjunction with {{ en.DHUBB }} to create and manage website credentials entries. Visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) for steps on how to add a website entry with {{ en.DWL }}, or visit [Create entries manually](/hub/web-interface/hub-overview/entries/create-entries-manually/) for how to create them directly within {{ en.DHUBB }}. You can also follow the steps below to manually create an entry in your ***User Vault***:  
+{{ en.DWL }} is our web browser password plugin. It is the preferred client to use in conjunction with {{ en.DHUBB }} to create and manage website credentials entries. Visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) for steps on how to add a website entry with {{ en.DWL }}, or visit [Create entries manually](/hub/web-interface/hub-overview/entries/create-entries-manually/) for how to create them directly within {{ en.DHUBB }}. You can also follow the steps below to manually create an entry in your ***{{ en.UVLT }}***:  
 
 1. Select the folder where you want to create the new entry, if applicable. If not, skip this first step. 
 1. Click on the ***Add*** button located in the ***{{ en.NPANE }}***.  

@@ -3,7 +3,7 @@ title: Side Menu
 ---
 Using the ***Side Menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  
 
-When using {{ en.DWL }} with {{ en.DHUBB }}, the available tabs are the ***Matching*** tab, the ***Vaults*** tab, the ***User vault*** tab, and the ***Password Generator*** tab.  
+When using {{ en.DWL }} with {{ en.DHUBB }}, the available tabs are the ***Matching*** tab, the ***Vaults*** tab, the ***{{ en.UVLT }}*** tab, and the ***Password Generator*** tab.  
 
 In all tabs except the ***Password Generator*** tab, when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons. Go to the [Entries functionalities](#entry-functionalities) section for more information.  
 
@@ -41,10 +41,10 @@ To access a vault in {{ en.DWL }}, click on it and navigate through the folders 
 
 When navigating in the folders, the [***Add Website***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/)button will appear at the bottom of the ***Content Area***.  
 
-### User vault tab 
+### {{ en.UVLT }} tab 
 
-The ***User vault*** tab works the same way as the ***Vaults*** tab, except that you navigate through your ***User vault*** instead of your other vaults. You also do not have to select vaults to synchronize as the only vault available in this tab is your own ***User vault***.  
-![User Vault Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2120.png) 
+The ***{{ en.UVLT }}*** tab works the same way as the ***Vaults*** tab, except that you navigate through your ***{{ en.UVLT }}*** instead of your other vaults. You also do not have to select vaults to synchronize as the only vault available in this tab is your own ***{{ en.UVLT }}***.  
+![{{ en.UVLT }} Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2120.png) 
 
 At the top, you can use the ***Filter*** bar to search through all your folders and entries.  
 

@@ -2,8 +2,6 @@
 title: Settings
 order: 20
 status: Topic available in German language
-keywords:
-- Private vault
 ---
 The {{ en.DWL }} settings can be accessed via the ***Settings*** button in the browser extension window regardless of which Devolutions application you are using with {{ en.DWL }}.  
 
@@ -71,7 +69,7 @@ Communicate with the default port 19443 between the application.
 	</tr>
 	<tr>
 		<td>
-Add entry in user vault by default 
+Add entry in {{ en.UVLT }} by default 
 		</td>
 		<td>
 Save new entries in the {{ en.UVLT }}. 
@@ -254,7 +252,7 @@ Set a default comparing option type between <b><i>Base domain</b></i>, <b><i>Hos
 	</tr>
 	<tr>
 		<td>
-Sync all available vaults 
+Sync all available {{ en.VLT }}s 
 		</td>
 		<td>
 Enable to synchronize all the available {{ en.VLT }}s from {{ en.DVLS }}. 

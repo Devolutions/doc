@@ -1,7 +1,6 @@
 ---
-title: Copy entries from your user vault to a vault
-keywords:
-- Private vault
+eleventyComputed:
+  title: Copy entries from your {{ en.UVLT }} to a {{ en.VLT }}
 ---
 In order to be able to copy some entries stored in your {{ en.UVLT }} to another vault without doing an Export/Import in {{ en.RDM }}, you would need to do the following:  
 {% snippet icon.badgeCaution %}

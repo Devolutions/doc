@@ -336,7 +336,7 @@ Transparent Data Encryption encrypts the database data at-rest, which mitigates 
 	</tr>
 </table>
 
-### User vault activity should be logged
+### {{ en.UVLT }} activity should be logged
 
 <table>
 	<tr>
@@ -344,7 +344,7 @@ Transparent Data Encryption encrypts the database data at-rest, which mitigates 
 Description
 		</td>
 		<td>
-Activity logs on user vaults can provide additional information during incident response.
+Activity logs on {{ en.UVLT }} can provide additional information during incident response.
 		</td>
 	</tr>
 	<tr>
@@ -352,7 +352,7 @@ Activity logs on user vaults can provide additional information during incident 
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - User Vault, check Log user vault activities
+In Administration - System Settings - {{ en.UVLT }}, check Log {{ en.UVLT }} activities
 		</td>
 	</tr>
 </table>
