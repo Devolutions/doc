@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Installation et configuration de {{ fr.DWS }} avec {{ fr.DHUB }}
-  description: Devolutions Workspace est un outil d'application mobile et de bureau disponible sur notre page de téléchargement de {{ fr.DWS }} qui peut être utilisé avec {{ fr.DHUB }}.
+  description: "{{ fr.DWS }} est un outil d'application mobile et de bureau disponible sur notre page de téléchargement de {{ fr.DWS }} qui peut être utilisé avec {{ fr.DHUB }}."
 ---
 {{ fr.DWS }} est un outil d'application mobile et de bureau disponible sur notre [page de téléchargement de {{ fr.DWS }}](https://devolutions.net/fr/workspace/).
 

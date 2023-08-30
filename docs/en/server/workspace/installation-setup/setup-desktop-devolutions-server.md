@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Devolutions Workspace desktop setup with {{ en.DVLS }}
+  title: '{{ en.DWSDESKTOP }} setup with {{ en.DVLS }}'
   description: Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DVLS }}, and configuring some security settings.
 ---
 Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DVLS }}, and configuring some security settings.
 
-## {{ en.DWS }} Setup
+## {{ en.DWS }} setup
 
 Follow the steps below to perform the initial configuration of your {{ en.DWSDESKTOP }} application with {{ en.DVLS }}:
 

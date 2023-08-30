@@ -1,4 +1,5 @@
 ---
-title: Devolutions Workspace
-order: 80
+eleventyComputed:
+  title: '{{ en.DWS }}'
+  order: 80
 ---

@@ -82,7 +82,7 @@ Unlike with web browser access, {{ en.RDM }} can launch sessions using remote ac
 	</tr>
 	<tr>
 		<td>
-Self-hosted locally on an application server or on a private cloud. Store entries in an unlimited number of vaults and manage access to these entries with our {{ en.RBSS }}. 
+Self-hosted locally on an application server or on a private cloud. Store entries in an unlimited number of vaults and manage access to these entries with our User Groups Based Access Control. 
 		</td>
 		<td>
 Users accessing the system will be granted permissions based on their membership in specific AD groups, making user management almost seamless for organizations that use AD to manage teams. 

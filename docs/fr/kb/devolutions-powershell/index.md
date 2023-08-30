@@ -9,7 +9,7 @@ eleventyComputed:
 
 Vous pouvez accéder aux catégories suivantes concernant Devolutions PowerShell Modules :
 
-- {{ fr.RDM }}
-- {{ fr.DVLS }}
-- {{ fr.DGW }}
-- {{ fr.DHUB }}
+* {{ fr.RDM }}
+* {{ fr.DVLS }}
+* {{ fr.DGW }}
+* {{ fr.DHUB }}

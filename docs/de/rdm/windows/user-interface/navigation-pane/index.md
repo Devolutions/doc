@@ -1,3 +1,4 @@
 ---
-title: Navigationsbereich
+eleventyComputed:
+  title: '{{ de.NPANE }}'
 ---

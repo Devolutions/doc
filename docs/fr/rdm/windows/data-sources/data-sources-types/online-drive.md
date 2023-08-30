@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Online Drive
+  title: '{{ fr.DOD }}'
 ---
 {% youtube 'QoJ_7Uj9ajc' %}  
 

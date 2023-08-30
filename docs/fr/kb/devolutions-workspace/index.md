@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Workspace
+  title: '{{ fr.DWS }}'
   order: 100
   description: Vous pouvez accéder aux catégories suivantes concernant {{ fr.DWS }} ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
   status: Topic available in German language

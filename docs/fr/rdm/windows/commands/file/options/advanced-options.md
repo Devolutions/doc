@@ -419,7 +419,7 @@ Activer pour lancer l'assistant de prise en main au démarrage.
 	</tr>
 	<tr>
 		<td>
-Utiliser Devolutions Updater 
+Utiliser {{ fr.DUPDATER }} 
 		</td>
 		<td>
 Activer cette option que sur demande de notre équipe de soutien technique Devolutions. 

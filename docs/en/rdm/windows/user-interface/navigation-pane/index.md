@@ -1,5 +1,6 @@
 ---
-title: Navigation Pane
+eleventyComputed:
+  title: '{{ en.NPANE }}'
 ---
 The ***{{ en.NPANE }}*** is one of the main components of the {{ en.RDM }} user interface. It lists all available entries in the current data source and allows to switch to another data source or {{ en.VLT }}.  
 ![{{ en.NPANE }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11204.png) 

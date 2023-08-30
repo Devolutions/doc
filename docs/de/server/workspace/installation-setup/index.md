@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Devolutions Workspace Installation und Konfiguration mit {{ de.DVLS }}
+  title: '{{ de.DWS }} Installation und Konfiguration mit {{ de.DVLS }}'
 ---

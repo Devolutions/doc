@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Online Drive
+  title: '{{ en.DOD }}'
 ---
 The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our cloud services. You can access your sessions from anywhere via an Internet connection.  
 

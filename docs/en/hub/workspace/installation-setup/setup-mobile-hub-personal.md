@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Workspace mobile setup with {{ en.DHUBP }}
+  title: '{{ en.DWSMOBILE }} setup with {{ en.DHUBP }}'
   description: Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DA }}, and configuring some security settings.
 ---
 Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DA }}, and configuring some security settings.

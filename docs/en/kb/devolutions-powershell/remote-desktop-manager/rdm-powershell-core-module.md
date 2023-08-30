@@ -1,6 +1,6 @@
 ---
-eleventyComputed:
-  title: Devolutions.PowerShell core module
+eleventyComputed:	
+  title: '{{ en.PS }} core module'
   description: The PowerShell module now needs to be downloaded from the PowerShell Gallery. It is no longer included in the {{ en.RDM }} installation package.
   keywords:
   - PowerShell

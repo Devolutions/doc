@@ -82,7 +82,7 @@ Contrairement au navigateur Web, {{ fr.RDM }} peut lancer des connexions à dist
 	</tr>
 	<tr>
 		<td>
-À installer sur votre serveur d'application. Stockez des entrées dans un nombre illimité de coffres et gérer les accès grâce à notre système de {{ fr.RBSS }}. 
+À installer sur votre serveur d'application. Stockez des entrées dans un nombre illimité de coffres et gérer les accès grâce à notre système de contrôle d'accès basé sur les Groupes d'utilisateurs. 
 		</td>
 		<td>
 Les utilisateurs se verront attribuer des permissions en fonction de leur appartenance aux groupes Active Directory. 

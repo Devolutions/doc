@@ -1,6 +1,7 @@
 ---
-title: RDM Online Services
-order: 110
+eleventyComputed:
+  title: '{{ en.RDMOS }}'
+  order: 110
 ---
 From the ***{{ en.RDMOS }}*** you can download your ***{{ en.CI }}***, consult and manage your ***{{ en.DOD }}*** and your ***{{ en.OBACK }}*** files.  
 

@@ -443,7 +443,7 @@ Use the installation folder to save the offline cache file.
 	</tr>
 	<tr>
 		<td>
-Use Devolutions updater 
+Use {{ en.DUPDATER }} 
 		</td>
 		<td>
 Only modify this option upon request from our support team. 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Workspace
+  title: '{{ de.DWS }}'
   order: 100
   description: Sie finden hier Themen zu den folgenden {{ de.DWS }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---

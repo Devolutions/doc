@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Workspace
+  title: '{{ en.DWS }}'
   order: 100
   description: You can consult topics for the following categories about {{ en.DWS }}':' How-To Articles, Troubleshooting Articles and Knowledge Base
   status: Topic available in German language
@@ -9,6 +9,6 @@ eleventyComputed:
 
 You can consult topics for the following categories about {{ en.DWS }}:
 
-- How-To Articles
-- Troubleshooting Articles
-- Knowledge Base
+* How-To Articles
+* Troubleshooting Articles
+* Knowledge Base

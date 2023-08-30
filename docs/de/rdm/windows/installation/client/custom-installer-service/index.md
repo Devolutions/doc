@@ -1,3 +1,4 @@
 ---
-title: Benutzerdefinierter Installationsdienst
+eleventyComputed:
+  title: '{{ de.CIS }}'
 ---

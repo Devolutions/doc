@@ -1,5 +1,6 @@
 ---
-title: Service d'installateur personnalisé
+eleventyComputed:
+  title: '{{ fr.CIS }}'
 ---
 <table>
 	<tr>

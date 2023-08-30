@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions {{ fr.DHUBB }}
+  title: '{{ fr.DHUBB }}'
   order: 60
   description: Vous pouvez accéder aux catégories suivantes concernant {{ fr.DHUBB }} ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
   status: Topic available in German language

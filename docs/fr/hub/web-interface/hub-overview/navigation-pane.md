@@ -1,5 +1,6 @@
 ---
-title: Volet de navigation
+eleventyComputed:
+  title: '{{ fr.NPANE }}'
 ---
 Le ***{{ fr.NPANE }}*** affiche les entrées auxquelles les utilisateurs ont accès depuis le coffre sélectionné.  
 
@@ -7,4 +8,3 @@ Raffiner vos recherches des entrées avec le ***Filtre*** ou les ***Étiquettes*
 
 Pour créer des entrées, cliquer sur le bouton ***Ajouter***.  
 ![!!Hub4113.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4113.png) 
-

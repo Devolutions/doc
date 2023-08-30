@@ -1,7 +1,7 @@
 ---
-eleventyComputed:
-  title: Devolutions Workspace installation and setup with {{ en.DVLS }}
-  description: Devolutions Workspace is both a mobile and desktop application available on our {{ en.DWS }} download page that can be used with {{ en.DVLS }}.
+eleventyComputed:	
+  title: '{{ en.DWS }} installation and setup with {{ en.DVLS }}'
+  description: '{{ en.DWS }} is both a mobile and desktop application available on our {{ en.DWS }} download page that can be used with {{ en.DVLS }}.'
 ---
 {{ en.DWS }} is both a mobile and desktop application available on our [{{ en.DWS }} download page](https://devolutions.net/workspace/). It can be downloaded on Android via [Google Play](https://play.google.com/store/apps/details?id=net.devolutions.authenticator) and on iOS via the [App Store](https://apps.apple.com/ca/app/devolutions-authenticator/id1462282993).
 

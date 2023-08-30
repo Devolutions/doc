@@ -1,5 +1,6 @@
 ---
-title: Navigation Pane
+eleventyComputed:
+  title: '{{ en.NPANE }}'
 ---
 The ***{{ en.NPANE }}*** displays the entries available to the user for the selected vault.  
 

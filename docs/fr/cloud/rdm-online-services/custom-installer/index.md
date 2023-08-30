@@ -1,6 +1,7 @@
 ---
-title: Installateur personnalisé
-order: 10
+eleventyComputed:
+  title: '{{ fr.CI }}'
+  order: 10
 ---
 Le ***{{ fr.CIM }}*** permettra de générer et de télécharger des paquets d'installation personnalisés pour {{ fr.RDMWIN }}. 
 {% snippet icon.shieldWarning %} 
