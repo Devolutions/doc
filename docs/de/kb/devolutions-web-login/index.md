@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Web Login
+  title: '{{ de.DWL }}'
   order: 90
   description: Sie finden hier Themen zu den folgenden {{ de.DWL }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
 ---
@@ -8,6 +8,6 @@ eleventyComputed:
 
 Sie finden hier Themen zu den folgenden {{ de.DWL }}-Kategorien:  
 
-- How-To 
-- Troubleshooting 
-- Knowledge Base 
+* How-To 
+* Troubleshooting 
+* Knowledge Base 

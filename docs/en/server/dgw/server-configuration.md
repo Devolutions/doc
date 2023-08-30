@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Gateway configuration with {{ en.DVLS }}
+  title: '{{ en.DGW }} configuration with {{ en.DVLS }}'
   order: 30
   description: This topic describes how to configure {{ en.DVLS }}, free or not, to connect with {{ en.DGW }}.
   keywords:

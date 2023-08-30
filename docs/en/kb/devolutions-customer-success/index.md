@@ -1,10 +1,11 @@
 ---
-title: Devolutions Knowledge Base
-order: 0
-description: The Devolutions User Experience team is proud to publish this knowledge base for our community of over 800k users!
-status: Topic available in German language
-keywords:
-- Knowledge base
+eleventyComputed:
+  title: '{{ en.DKB }}'
+  order: 0
+  description: The Devolutions User Experience team is proud to publish this knowledge base for our community of over 800k users!
+  status: Topic available in German language
+  keywords:
+  - Knowledge base
 ---
 ![!!Devolutions Knowledge Base Logo](https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)
 

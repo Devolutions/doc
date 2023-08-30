@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Configuration de {{ fr.DGW }} dans {{ fr.DHUBB }}
   order: 30
-  description: Devolutions Gateway constitue une alternative flexible et sécurisée aux VPN, permettant une gestion aisée des accès et une utilisation efficace des ressources du réseau.
+  description: '{{ fr.DGW }} constitue une alternative flexible et sécurisée aux VPN, permettant une gestion aisée des accès et une utilisation efficace des ressources du réseau.'
 ---
 {{ fr.DGW }} permet des connexions juste-à-temps au niveau de la session, ce qui élimine la nécessité de modifier la configuration globale du système. {{ fr.DGW }} constitue une alternative flexible et sécurisée aux VPN, permettant une gestion aisée des accès et une utilisation efficace des ressources du réseau.  
 

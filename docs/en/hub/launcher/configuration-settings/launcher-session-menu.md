@@ -1,6 +1,7 @@
 ---
-title: Devolutions Launcher session menu
-order: 30
+eleventyComputed:
+  title: '{{ en.DLAUNCHER }} session menu'
+  order: 30
 ---
 To access the {{ en.DLAUNCHER }} session menu, right click on an open session tab.  
 ![!!Hub4013.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4013.png) 

@@ -1,4 +1,5 @@
 ---
-title: Devolutions Gateway
-order: 50
+eleventyComputed:
+  title: '{{ en.DGW }}'
+  order: 50
 ---

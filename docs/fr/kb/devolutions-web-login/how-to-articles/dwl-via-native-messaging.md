@@ -1,5 +1,6 @@
 ---
-title: Devolutions Web Login via la messagerie native
+eleventyComputed:
+  title: '{{ fr.DWL }} via la messagerie native'
 ---
 {{ fr.DWL }} peut fonctionner sans employer le protocole HTTP(S) en utilisant la messagerie native. Voici comment s’y prendre : 
 1. Dans le navigateur, cliquer sur l’icône de l’extension {{ fr.DWL }}, puis cliquer sur ***Paramètres***. 

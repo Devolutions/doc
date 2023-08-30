@@ -1,6 +1,7 @@
 ---
-title: Devolutions Gateway farms configuration
-description: A farm is able to regroup multiple gateways and perform load balancing for the connections using the gateway.
+eleventyComputed:
+  title: '{{ en.DGW }} farms configuration'
+  description: A farm is able to regroup multiple gateways and perform load balancing for the connections using the gateway.
 ---
 This topic will cover how to configure a {{ en.DGW }} farm through the web interface for {{ en.DVLS }}.
 

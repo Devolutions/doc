@@ -1,5 +1,6 @@
 ---
-title: Companion Tools Access
+eleventyComputed:
+  title: '{{ en.CTOOLS }} access'
 ---
 As an administrator to your {{ en.DHUBB }}, you can disable or enable the use of {{ en.CTOOLS }} for specific users that are not administrators.  
 

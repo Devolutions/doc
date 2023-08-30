@@ -1,6 +1,7 @@
 ---
-title: Devolutions Launcher paramètres
-order: 30
+eleventyComputed:
+  title: '{{ fr.DLAUNCHER }} paramètres'
+  order: 30
 ---
 ### Général 
 Dans la section ***Général***, vous pouvez personnaliser la couleur du ***Thème*** et choisir la langue de {{ fr.DLAUNCHER }}. Vous devrez fermer l'application pour activer le paramètre. 

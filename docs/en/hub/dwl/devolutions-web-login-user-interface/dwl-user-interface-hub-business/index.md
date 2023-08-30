@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Web Login user interface with {{ en.DHUBB }}
+  title: '{{ en.DWL }} user interface with {{ en.DHUBB }}'
 ---
 The {{ en.DWL }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.DWL }} user interface when used with {{ en.DHUBB }}.  
 

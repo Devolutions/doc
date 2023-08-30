@@ -1,10 +1,11 @@
 ---
-title: Devolutions Launcher License Registration
-order: 30
+eleventyComputed:
+  title: '{{ en.DLAUNCHER }} license registration'
+  order: 30
 ---
 Register and assign your {{ en.DLAUNCHER }} license serial. 
 
-### {{ en.DVLS }} {{ en.DLAUNCHER }} License 
+### {{ en.DVLS }} {{ en.DLAUNCHER }} license 
 
 To register a ***{{ en.DLAUNCHER }}*** license in {{ en.DVLS }}, you need to add a ***Licenses*** and assign it to the users. 
 

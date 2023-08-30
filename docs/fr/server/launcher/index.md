@@ -1,6 +1,7 @@
 ---
-title: Devolutions Launcher
-order: 70
+eleventyComputed:
+  title: '{{ fr.DLAUNCHER }}'
+  order: 70
 ---
 ![!!{{ fr.DLAUNCHER }} logo](https://webdevolutions.blob.core.windows.net/images/projects/launcher/logos/launcher-color-shadow.svg)
 

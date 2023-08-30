@@ -1,4 +1,5 @@
 ---
-title: Devolutions Web Login absichern
-order: 70
+eleventyComputed:
+  title: '{{ de.DWL }} absichern'
+  order: 70
 ---

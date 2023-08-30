@@ -1,6 +1,7 @@
 ---
-title: Devolutions Launcher Settings
-order: 30
+eleventyComputed:
+  title: '{{ en.DLAUNCHER }} settings'
+  order: 30
 ---
 ### General 
 

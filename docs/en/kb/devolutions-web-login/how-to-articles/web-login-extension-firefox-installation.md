@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Web Login installation on Firefox
+  title: '{{ en.DWL }} installation on Firefox'
   description: Follow the steps to complete the installation of {{ en.DWL }} in the Firefox web browser. 
   keywords:
   - Browser

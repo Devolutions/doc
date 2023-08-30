@@ -1,4 +1,5 @@
 ---
-title: Devolutions Web Login Benutzeroberfläche
-order: 50
+eleventyComputed:
+  title: '{{ de.DWL }} Benutzeroberfläche'
+  order: 50
 ---

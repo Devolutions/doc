@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Gateway
+  title: '{{ de.DGW }}'
   order: 50
   description: Sie finden hier Themen zu den folgenden {{ de.DGW }}-Kategorien:':' How-To, Troubleshooting und Knowledge Base Themen.
   status: Topic available in German language
@@ -9,6 +9,6 @@ eleventyComputed:
 
 Sie finden hier Themen zu den folgenden {{ de.DGW }}-Kategorien:  
 
-- How-To 
-- Troubleshooting 
-- Knowledge Base 
+* How-To 
+* Troubleshooting 
+* Knowledge Base 

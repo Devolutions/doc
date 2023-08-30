@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Devolutions Web Login verwenden
+  title: '{{ de.DWL }} verwenden'
   order: 50
 ---

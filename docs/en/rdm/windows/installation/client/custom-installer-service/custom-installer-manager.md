@@ -1,5 +1,6 @@
 ---
-title: Custom Installer Manager
+eleventyComputed:
+  title: '{{ en.CIM }}'
 ---
 {% snippet icon.badgeNotice %} 
 For stability reasons, in large installation bases, the latest official release is not available to the {{ en.CIS }} for an undetermined period while we ensure that no major issues are present. We recommend using this time with your organization to perform integration tests on a few workstations before upgrading your entire team. 

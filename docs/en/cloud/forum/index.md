@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Forum
+  title: '{{ en.DFORUM }}'
   description: The {{ en.DFORUM }} is an efficient way to get answers to your questions, either from our development team or from our global community of IT pros. 
   order: 90  
 ---

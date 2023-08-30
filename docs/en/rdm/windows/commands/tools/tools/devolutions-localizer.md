@@ -1,5 +1,6 @@
 ---
-title: Devolutions Localizer
+eleventyComputed:
+  title: '{{ en.DLOCALIZER }}
 ---
 {{ en.DLOCALIZER }} is our custom translation tool for our applications. We welcome you to contribute to the Devolutions community by translating our tools for the benefit of other users just like you around the world. 
 

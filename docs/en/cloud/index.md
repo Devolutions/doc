@@ -1,3 +1,4 @@
 ---
-title: Devolutions Cloud
+eleventyComputed:
+  title: '{{ en.DC }}'
 ---

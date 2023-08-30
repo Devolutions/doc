@@ -1,5 +1,6 @@
 ---
-title: Devolutions Launcher license registration
+eleventyComputed:
+  title: '{{ en.DLAUNCHER }} settings license registration'
 ---
 Register and assign your {{ en.DLAUNCHER }} license serial. 
 

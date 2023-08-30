@@ -1,5 +1,6 @@
 ---
-title: Custom Installer Service
+eleventyComputed:
+  title: '{{ en.CIS }}'
 ---
 ![!!CustomInstallerServiceIcon.png](https://webdevolutions.blob.core.windows.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg) 
 

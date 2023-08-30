@@ -1,4 +1,5 @@
 ---
-title: Devolutions Web Login
-order: 70
+eleventyComputed:
+  title: '{{ en.DWL }}'
+  order: 70
 ---

@@ -1,5 +1,6 @@
 ---
-title: Devolutions Web Login troubleshooting connection logs
+eleventyComputed:
+  title: '{{ en.DWL }} troubleshooting connection logs'
 ---
 When an issue occurs with {{ en.DWL }}, the support personnel may ask you to provide them logs in order to provide more information to our engineering department, please follow these steps:
 

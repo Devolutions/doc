@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Web Login installation on Opera
+  title: '{{ en.DWL }} installation on Opera'
   description: Follow the steps to complete the installation of {{ en.DWL }} in the Opera web browser. 
   keywords:
   - Browser

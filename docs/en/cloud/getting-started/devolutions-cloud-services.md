@@ -1,5 +1,6 @@
 ---
-title: Devolutions Cloud Services
+eleventyComputed:
+  title: '{{ en.DCS }}'
 ---
 ![!!{{ en.DCS }} logo]({{ locale.en.projects.cloud.logo }})
 

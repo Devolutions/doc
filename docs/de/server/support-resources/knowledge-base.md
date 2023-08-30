@@ -1,9 +1,10 @@
 ---
-title: Devolutions Knowledge Base
-order: 0
-description: Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Community von über 800.000 Benutzern zu veröffentlichen!
-keywords:
-- Knowledge base
+eleventyComputed:
+  title: '{{ de.DKB }}'
+  order: 0
+  description: Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Community von über 800.000 Benutzern zu veröffentlichen!
+  keywords:
+  - Knowledge base
 ---
 ![!!Devolutions Knowledge Base Logo](https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)  
 

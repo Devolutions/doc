@@ -1,6 +1,7 @@
 ---
-title: Custom Installer
-order: 10
+eleventyComputed:
+  title: '{{ en.CI }}'
+  order: 10
 ---
 The ***{{ en.CIM }}*** will allow you to generate and download custom installation packages for {{ en.RDMWIN }}. 
 

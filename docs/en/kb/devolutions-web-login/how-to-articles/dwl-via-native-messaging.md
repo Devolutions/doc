@@ -1,5 +1,6 @@
 ---
-title: Devolutions Web Login via native messaging
+eleventyComputed:
+  title: '{{ en.DWL }} via native messaging'
 ---
 {{ en.DWL }} can work without HTTP(S) by using native messaging. Here are the steps:
 
