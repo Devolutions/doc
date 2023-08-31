@@ -7,7 +7,7 @@ Website, credit card, contact, and secure note entries can be created with {{ en
 ## Add a Website Entry 
 
 {% snippet icon.badgeInfo %} 
-This section explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/) instead. 
+This section explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [Create an account for a website in {{ en.DHUBP }} with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/) instead. 
 {% endsnippet %}
  
 The website entry is useful for saving your login credentials so that you do not have to remember them. These entries are also used by {{ en.DWL }} to recognize a website and [retrieve your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/).  

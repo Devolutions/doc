@@ -3,7 +3,7 @@ title: Gateway
 ---
 This section lists the {{ en.DGW }}s installed that the {{ en.DVLS }} can connect through to access resources in segmented networks. Multiple {{ en.DGW }}s can be added to that list.  
 
-To install {{ en.DGW }}, please see this topic [{{ en.DVLS }} configuration](/server/dgw/server-configuration/)  
+To install {{ en.DGW }}, please see [{{ en.DVLS }} configuration](/server/dgw/server-configuration/).  
 
 ![Administration – Gateway](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8080.png)
 

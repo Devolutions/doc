@@ -36,7 +36,7 @@ PROS AND CONS
 		<td>
 {{ en.RDMMAC }} uses {{ en.DOD }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
 
-For more information, please consult our [{{ en.DOD }}](/cloud/rdm-online-services/online-drive/) topic. 
+For more information, please consult [{{ en.DOD }}](/cloud/rdm-online-services/online-drive/). 
 		</td>
 		<td>
 Pros: 
@@ -61,7 +61,7 @@ Cons:
 		<td>
 {{ en.RDMMAC }} uses {{ en.DVLS }} to store session information.  
 
-For more information, please consult our [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) topic. 
+For more information, please consult [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/). 
 
 		</td>
 		<td>
@@ -88,7 +88,7 @@ Dropbox
 		<td>
 {{ en.RDMMAC }} uses the Dropbox API to retrieve the XML file from the configured repository.  
 
-For more information, please consult our [Dropbox](/rdm/mac/data-sources/data-sources-types/dropbox/) topic. 
+For more information, please consult [Dropbox](/rdm/mac/data-sources/data-sources-types/dropbox/). 
 		</td>
 		<td>
 Pros: 
@@ -115,7 +115,7 @@ Microsoft Azure SQL
 		<td>
 {{ en.RDMMAC }} uses the Microsoft cloud platform to save and manage all sessions.  
 
-For more information, please consult our Azure SQL topic. 
+For more information, please consult [Microsoft Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/). 
 		</td>
 		<td>
 Pros: 
@@ -140,7 +140,7 @@ Microsoft SQL Server
 		<td>
 {{ en.RDMMAC }} uses SQL Server to save and manage all sessions. This is one of the available data source for a multi-user environment.  
 
-For more information, please consult our [SQL Server (MSSQL)](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) topic. 
+For more information, please consult [SQL Server (MSSQL)](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/). 
 
 		</td>
 		<td>
@@ -169,7 +169,7 @@ Cons:
 
 Note that there are different subscription levels for this product.  
 
-For more information, please see the [products features and highlights](https://devolutions.net/password-hub) and consult our [{{ en.DHUBB }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/) topic. 
+For more information, please see [Products features and highlights](https://devolutions.net/password-hub) and consult [{{ en.DHUBB }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
 		</td>
 		<td>
 Pros: 
@@ -195,7 +195,7 @@ Cons:
 		<td>
 {{ en.RDMMAC }} uses {{ en.DHUBP }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
 
-For more information, please consult our [{{ en.DHUBP }}](/rdm/mac/data-sources/data-sources-types/hub-personal/) topic. 
+For more information, please consult [{{ en.DHUBP }}](/rdm/mac/data-sources/data-sources-types/hub-personal/). 
 
 		</td>
 		<td>
@@ -221,7 +221,7 @@ SQLite
 		<td>
 {{ en.RDMMAC }} uses a SQLite database to store session information.  
 
-For more information, please consult our [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) topic. 
+For more information, please consult [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/). 
 
 		</td>
 		<td>
@@ -248,7 +248,7 @@ XML
 		<td>
 {{ en.RDMMAC }} saves the settings directly in a file with the XML format.  
 
-For more information, please consult our [XML](/rdm/mac/data-sources/data-sources-types/xml/) topic. 
+For more information, please consult [XML](/rdm/mac/data-sources/data-sources-types/xml/). 
 
 		</td>
 		<td>

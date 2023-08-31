@@ -6,11 +6,11 @@ eleventyComputed:
 Create and invite users to your {{ en.DHUBB }} with their email address.  
 
 {% snippet icon.badgeCaution %} 
-If your {{ en.DHUBB }} is configured with SSO Authentication Azure AD Office 365 credentials, follow the specific process for inviting sers in [this topic](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/). 
+If your {{ en.DHUBB }} is configured with SSO Authentication Azure AD Office 365 credentials, follow the specific process for inviting users in [Invite users for SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/). 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-We strongly recommend that you invite at least one other administrator. Learn how in [this topic](/hub/web-interface/hub-overview/administration/management/users/administrator-invite/). 
+We strongly recommend that you invite at least one other administrator. Learn how in [Administrator invite](/hub/web-interface/hub-overview/administration/management/users/administrator-invite/). 
 {% endsnippet %}
  
 ### Invite users 

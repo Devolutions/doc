@@ -56,7 +56,7 @@ Please note that the csv columns will vary depending on entry types being export
  
 ### Export Special (.html) 
 
-Export all entries within a AES-256 to encrypt self contained html file. See Export Html Encrypted topic for more information. 
+Export all entries within a AES-256 to encrypt self contained html file. See [Export Html Encrypted](/rdm/windows/commands/file/export/html-encrypted/) for more information. 
 
 ### Export Special (.xml) 
 

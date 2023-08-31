@@ -128,7 +128,7 @@ The export menu (File - Export) and the export feature in the context menu will 
 
 ### Permissions 
 
-Use the Permissions side menu to assign the View, Add, Edit and Delete permissions to your User groups. For more information please see the [Permissions](/rdm/mac/commands/administration/user-management/permissions/) topic.  
+Use the Permissions side menu to assign the View, Add, Edit and Delete permissions to your User groups. For more information please see [Permissions](/rdm/mac/commands/administration/user-management/permissions/).  
 ![User Group Management - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10400.png) 
 
 ### Settings 

@@ -26,7 +26,7 @@ A {{ en.DHUBB }} access is required to continue.
 ![Successful Login to the {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4047.png) 
 1. Click on the {{ en.DWL }} icon in the toolbar of your web browser to validate that {{ en.DWL }} is now connected to {{ en.DHUBB }}.  
 ![Successful Pairing of {{ en.DHUBB }} to {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4026.png) 
-1. To select the {{ en.VLT }}s to be synchronized, click on the ***{{ en.VLT }}s*** tab in the ***Side Menu***, then click the ***Select {{ en.VLT }}s to Sync*** button.  
+1. To select the {{ en.VLT }}s to be synchronized, click on the ***{{ en.VLT }}s*** tab in the ***Side menu***, then click the ***Select {{ en.VLT }}s to Sync*** button.  
 ![{{ en.VLT }}s tab](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4053.png) 
 1. Click on ***Select All*** or individually check the {{ en.VLT }}s to synchronize. The ***Filter*** bar can be useful to search for {{ en.VLT }}s.  
 ![Selection of {{ en.VLT }}s to be synchronized](https://webdevolutions.azureedge.net/docs/en/hub/Hub2079.png) 

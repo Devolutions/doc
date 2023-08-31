@@ -44,7 +44,7 @@ AD Azure is not supported in {{ en.RDMMAC }}. This feature is not yet implemente
  
 ## Configuration 
 
-Consult the [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure-azure-sql/) topic for more information on the configuration. 
+Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure-azure-sql/) for more information on the configuration. 
 
 ## Settings 
 
@@ -278,7 +278,7 @@ Caching mode
 		</td>
 		<td>
 
-Determines how the entries will be reloaded in the data source. For more information, please consult the [Caching](/rdm/mac/data-sources/caching/) topic. 
+Determines how the entries will be reloaded in the data source. For more information, please consult [Caching](/rdm/mac/data-sources/caching/). 
 		</td>
 	</tr>
 	<tr>

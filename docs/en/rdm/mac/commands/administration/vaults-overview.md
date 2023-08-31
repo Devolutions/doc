@@ -9,7 +9,7 @@ eleventyComputed:
 To learn about the different {{ en.VLT }} types and ways to access them, visit [{{ en.VLT }}s](/rdm/mac/commands/view/vault/).
 {% endsnippet %}
  
-This topic covers the following:
+Here is what is covered below:
 
 * [Creating a {{ en.VLT }}](#create-a-vault)
 * [Navigating between {{ en.VLT }}s](#navigate-between-vaults)

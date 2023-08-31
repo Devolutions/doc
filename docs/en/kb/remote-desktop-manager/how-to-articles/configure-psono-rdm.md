@@ -22,7 +22,7 @@ Psono is integrated in {{ en.RDM }} versions 2022.1 and higher.
 ![!!KB4892](https://webdevolutions.azureedge.net/docs/en/kb/KB4892.png)
 1. ***Name*** the API key, we suggest {{ en.RDM }}
 1. Choose whether to check the ***Secret Restriction?*** box:
-* If you check the box, you will need to add a secret to every Psono folder. Follow the topic [Creating secrets](https://doc.psono.com/user/basic/creating-secrets.html#creating-secrets) from Psono for more information.
+* If you check the box, you will need to add a secret to every Psono folder. Follow Psono's [Creating secrets](https://doc.psono.com/user/basic/creating-secrets.html#creating-secrets) for more information.
 * If you uncheck the box, you will be provided with an unlimited key that will grant access to all database secrets.  
 {% snippet icon.shieldCaution %}
 Both options are supported in {{ en.RDM }}; it all depend on the access level the admin is willing to provide. If you uncheck the secret restriction box, it’s easier to manage but less secure than if you add a secret to every Psono folder.

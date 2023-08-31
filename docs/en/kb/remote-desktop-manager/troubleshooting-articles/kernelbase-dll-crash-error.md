@@ -7,6 +7,6 @@ According to this, the crash in {{ en.RDM }} is caused by the faulting module ke
 ## Solution
 According to the information we have gathered on that matter by consulting documentation from Microsoft's Support, we have found out that most of the time, these issues occur when the Windows workstations are not updated to the latest version available.  
 
-We have also found this topic useful from Microsoft: [Application Fail to Start with Kernelbase.dll error](https://answers.microsoft.com/en-us/windows/forum/all/applications-fail-to-start-with-kernelbasedll/44a4c2ad-a43f-479b-b026-bcdc2ff01285)  
+We have also found this forum thread from Microsoft: [Application Fail to Start with Kernelbase.dll error](https://answers.microsoft.com/en-us/windows/forum/all/applications-fail-to-start-with-kernelbasedll/44a4c2ad-a43f-479b-b026-bcdc2ff01285).  
 
-In some instances, we have seen success in clearing the error by doing a fresh install and download from our website of the {{ en.RDM }} application. Please follow this topic to find more information on how to create a [portable {{ en.RDM }} installation](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/)
+In some instances, we have seen success in clearing the error by doing a fresh install and download from our website of the {{ en.RDM }} application. Please follow [Portable {{ en.RDM }} installation](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/) to learn how to create one.

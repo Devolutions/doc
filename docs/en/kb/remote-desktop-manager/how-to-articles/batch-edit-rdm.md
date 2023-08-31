@@ -88,7 +88,7 @@ Continue to the [following section](#batchedit) if the ***Batch Edit*** options 
 ![Batch Edit Options](https://webdevolutions.azureedge.net/docs/en/kb/KB2103.png)  
 1. In the window, edit the information and parameters of your choice, than save. 
 {% snippet icon.badgeInfo %} 
-Each editing option displays different information and parameters that can be edited. For a preview of each of them, see our [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/) topic.
+Each editing option displays different information and parameters that can be edited. For a preview of each of them, see [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/).
 {% endsnippet %}  
  
 Your entries/folders have now been modified.

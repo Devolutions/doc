@@ -5,7 +5,7 @@ eleventyComputed:
 {% snippet icon.badgeInfo %}
 Since version 2022.3 of {{ en.RDM }}, the Free Edition and Team Edition (previously Enterprise Edition) have been merged into [one single download](https://devolutions.net/remote-desktop-manager), allowing users to upgrade with more ease. To learn more about this change, you can read our blog post [{{ en.RDM }} Free and Enterprise Are Now Unified](https://blog.devolutions.net/2022/10/news-remote-desktop-manager-is-changing-for-the-better/).
 
-If you are using {{ en.RDM }} version 2022.3 or later, read our topic on [how to register a Team license](/rdm/windows/installation/client/registration/team-edition/). Otherwise, continue in this topic.
+If you are using {{ en.RDM }} version 2022.3 or later, see [Team Edition](/rdm/windows/installation/client/registration/team-edition/) to learn how to register a Team license. Otherwise, continue below.
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
@@ -13,7 +13,7 @@ File based data sources (XML, SQLite, etc.) are by default stored in the configu
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The paths mentioned in this topic are for those that have installed using the default settings. The best way to locate your configuration folder is to go to ***File – Options – Advanced***. You will find a hyperlink near the bottom under the ***Information*** section that opens your configuration folder.
+The paths mentioned here are for those that have installed using the default settings. The best way to locate your configuration folder is to go to ***File – Options – Advanced***. You will find a hyperlink near the bottom under the ***Information*** section that opens your configuration folder.
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}

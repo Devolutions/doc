@@ -23,7 +23,7 @@ Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advance
 
 ### Create users 
 
-To create a new user click on the add button. You can create a user using default security (specifying the password) or [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/). Consult the [Permissions](/rdm/mac/commands/administration/user-management/permissions/) topic for more information on the rights that can be added to a user. You can assign different security options to the user such as allow the user to use the Offline mode.  
+To create a new user click on the add button. You can create a user using default security (specifying the password) or [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/). Consult [Permissions](/rdm/mac/commands/administration/user-management/permissions/) for more information on the rights that can be added to a user. You can assign different security options to the user such as allow the user to use the Offline mode.  
 ![User and Security Management](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10133.png) 
 
 {% snippet icon.badgeInfo %} 
@@ -70,7 +70,7 @@ Enter the username for the user. When using [Integrated Security](/rdm/mac/comma
 Integrated security 
 		</td>
 		<td>
-Specifies to use the Windows Integrated Authentication to authenticate to the data source. Applies only to SQL Server and {{ en.DVLS }}, depending on their configuration. When checked, an ellipsis button appears to allow you to browse for the user account in the directory. Consult [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) topic for more information. 
+Specifies to use the Windows Integrated Authentication to authenticate to the data source. Applies only to SQL Server and {{ en.DVLS }}, depending on their configuration. When checked, an ellipsis button appears to allow you to browse for the user account in the directory. Consult [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) for more information. 
 		</td>
 	</tr>
 	<tr>
@@ -169,7 +169,7 @@ DESCRIPTION
 User Groups 
 		</td>
 		<td>
-Consult User Groups Management topic for more information. When a user group needs to be added to a user, a description column will help you to select the proper user group. 
+When a user group needs to be added to a user, a description column will help you to select the proper user group. 
 		</td>
 	</tr>
 </table>
@@ -252,7 +252,7 @@ The export menu (***File – Export***) and the export feature in the context me
 
 The Permissions section allows you to assign permissions. Controls are sometimes hidden depending on the data source or the state of other controls.  
 
-Consult the [Permissions](/rdm/mac/commands/administration/user-management/permissions/) topic for more information on rights that can be added to a user.  
+Consult [Permissions](/rdm/mac/commands/administration/user-management/permissions/) for more information on rights that can be added to a user.  
 ![User Management – Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10386.png) 
 
 ### Settings 

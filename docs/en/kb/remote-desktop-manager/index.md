@@ -9,6 +9,6 @@ eleventyComputed:
 
 You can consult topics for the following categories about {{ en.RDM }}:
 
-- How-To Articles
-- Troubleshooting Articles
-- Knowledge Base
+* How-To Articles
+* Troubleshooting Articles
+* Knowledge Base

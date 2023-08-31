@@ -178,7 +178,7 @@ Disable caching
 		</td>
 		<td>
 		
-Entries will be reload in Simple mode in the data source. See [Caching Mode](/rdm/mac/data-sources/caching/) topic for more information. 
+Entries will be reload in Simple mode in the data source. See [Caching Mode](/rdm/mac/data-sources/caching/) for more information. 
 		</td>
 	</tr>
 	<tr>

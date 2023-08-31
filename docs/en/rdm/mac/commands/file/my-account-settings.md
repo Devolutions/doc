@@ -1,7 +1,7 @@
 ---
 title: My Account Settings
 ---
-Use File - My Account Settings to configure different accounts that can be used to connect on different web platforms. This allow you to setup your account settings one time and use it in the creation of your entries as many time as you want. You can also manage your Personal Credentials, Personal Private Key and your User Specific Settings List. 
+Use ***File - My Account Settings*** to configure different accounts that can be used to connect on different web platforms. This allow you to setup your account settings one time and use it in the creation of your entries as many time as you want. You can also manage your Personal Credentials, Personal Private Key and your User Specific Settings List. 
 
 ## Settings 
 
@@ -21,7 +21,8 @@ DESCRIPTION
 My Personal Credentials 
 		</td>
 		<td>
-Please consult My Personal Credentials topic for more information. 
+
+Please consult [My Personal Credentials](/rdm/windows/commands/file/my-account-settings/my-personal-credentials/) for more information. 
 		</td>
 	</tr>
 	<tr>

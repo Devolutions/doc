@@ -3,7 +3,7 @@ title: Overview
 ---
 Use File – Data Sources to manage your data sources. {{ en.RDMMAC }} supports multiple types of data sources however some of them are only available in the Team Edition.  
 
-Please refer to the topic [Data Source Types](/rdm/mac/data-sources/data-sources-types/) for more details on all of our supported data sources.  
+Please refer to [Data Source Types](/rdm/mac/data-sources/data-sources-types/) for more details on all of our supported data sources.  
 ![Your active Data sources](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10014.png) 
 
 ## Settings 

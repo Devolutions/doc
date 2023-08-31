@@ -27,7 +27,7 @@ eleventyComputed:
 {{ en.DVLS }} supports only SQL Server as a data store at this time. 
 {% endsnippet %}
  
-For more information, please consult these topics  
+For more information, please consult:  
 
 * [{{ en.DVLS }} installation instructions](/server/installation/) 
 * [{{ en.DVLS }} Security Checklist](/server/getting-started/security-checklist/) 
@@ -150,7 +150,7 @@ Caching mode
 		</td>
 		<td>
 
-Determine how the entries will be reload in the data source. See [Caching Mode](/rdm/mac/data-sources/caching/) topic for more information. 
+Determine how the entries will be reload in the data source. See [Caching Mode](/rdm/mac/data-sources/caching/) for more information. 
 		</td>
 	</tr>
 	<tr>

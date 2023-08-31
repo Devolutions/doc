@@ -9,6 +9,6 @@ eleventyComputed:
 
 You can consult topics for the following categories about {{ en.DGW }}:
 
-- How-To Articles
-- Troubleshooting Articles
-- Knowledge Base
+* How-To Articles
+* Troubleshooting Articles
+* Knowledge Base

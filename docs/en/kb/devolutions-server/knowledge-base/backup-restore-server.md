@@ -74,7 +74,7 @@ Be sure that the database and the web application match before launching the res
 1. If the goal is to restore {{ en.DVLS }} and the SQL database on new servers:
    1. **Restore** the **SQL database** on the new server.
    1. Fix every SQL login account that has been used to connect on the database from.
-   1. Follow instructions of [Create {{ en.DVLS }} instance](/server/installation/create-server-instance/) topic.
+   1. Follow instructions in [Create {{ en.DVLS }} instance](/server/installation/create-server-instance/).
    1. **Overwrite** the web application folder with the content of the web application .zip file.
    1. **Reconfigure** the **Backup Scheduler** feature.
    {type="a"}

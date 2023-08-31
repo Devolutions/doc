@@ -1,20 +1,20 @@
 ---
-title: Side Menu
+title: Side menu
 ---
-Using the ***Side Menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  
+Using the ***Side menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  
 
 When using {{ en.DWL }} with {{ en.DHUBP }}, the available tabs are the ***Matching*** tab, the ***All Entries*** tab, the ***Favorites*** tab, the ***Recent*** tab, the ***Trash*** tab, and the ***Password Generator*** tab.  
 
 In all tabs except the ***Password Generator*** tab, when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons. Go to the [Entries functionalities](#entry-functionalities) section for more information.  
 
-## Side Menu Tabs
+## Side menu Tabs
 
 ### Matching tab 
 
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.  
 
 {% snippet icon.badgeInfo %} 
-For methods of retrieving your credentials, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/). 
+For methods of retrieving your credentials, visit [Retrieve credentials from {{ en.DHUBP }} with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/). 
 {% endsnippet %}
  
 ![Matching Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2121.png) 
@@ -24,7 +24,7 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 At the bottom, the ***New Entry*** button gives you access to entry types that, when selected, open a new browser tab that allows you to manually add an entry in {{ en.DHUBP }} through the {{ en.DWL }} extension.  
 
 {% snippet icon.badgeInfo %} 
-For a complete list of the available entries and fields in the ***New Entry*** window, visit [this topic](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/). You can also consult our step-by-step guide on [how to add an entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/). 
+For a complete list of the available entries and fields in the ***New Entry*** window, visit [New Entry](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/). You can also consult our step-by-step guide on [how to add an entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/). 
 {% endsnippet %}
  
 ### All Entries tab 
@@ -79,7 +79,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://webdevolutions.azureedge.net/docs/en/hub/Hub2115.png)  
 
 {% snippet icon.badgeInfo %} 
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/). 
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website in {{ en.DHUBP }} with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/). 
 {% endsnippet %}
  
 ### Entry functionalities 

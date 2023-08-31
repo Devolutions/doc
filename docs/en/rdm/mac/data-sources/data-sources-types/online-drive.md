@@ -108,7 +108,7 @@ Ask for the master key every time a connection to the {{ en.DOD }} is attempted.
 
 ### Backup 
 
-Please consult the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) topic for more information on this service.  
+Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for more information on this service.  
 ![{{ en.DOD }} – Backup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10500.png) 
 
 <table>

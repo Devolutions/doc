@@ -7,10 +7,10 @@ The user lost their phone that contains the 2FA for their data source.
 This will not work for a lost Master Password on Local Datasource.
 {% endsnippet %}  
 {% snippet icon.badgeCaution %}
-Please refer to this [topic](/kb/remote-desktop-manager/troubleshooting-articles/2fa-server-lost/) if you are a {{ en.DVLS }} user and you lost your 2FA.
+Please refer to [Lost the 2FA set on {{ en.DVLS }}](/kb/remote-desktop-manager/troubleshooting-articles/2fa-server-lost/) if you are a {{ en.DVLS }} user who lost their 2FA.
 {% endsnippet %}  
 {% snippet icon.badgeCaution %}
-Please refer to this [topic](/kb/remote-desktop-manager/troubleshooting-articles/2fa-lost-devolutions-account-dod/) if you are a {{ en.DOD }} or {{ en.DA }} user and you lost your 2FA.
+Please refer to [2FA set and lost on {{ en.DA }} or ({{ en.DOD }})](/kb/remote-desktop-manager/troubleshooting-articles/2fa-lost-devolutions-account-dod/) if you are a {{ en.DOD }} or {{ en.DA }} user who lost their 2FA.
 {% endsnippet %}  
 
 1. Close {{ en.RDM }}.

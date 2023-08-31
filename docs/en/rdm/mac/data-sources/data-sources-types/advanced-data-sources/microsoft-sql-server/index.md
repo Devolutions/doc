@@ -36,7 +36,7 @@ We also support the following features:
 * Supports full entry logs and attachments. 
 
 {% snippet icon.badgeWarning %} 
-A proper database backup strategy should be implemented to minimize possible data loss, please refer to Backups topic. 
+A proper database backup strategy should be implemented to minimize possible data loss.
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -57,7 +57,7 @@ Creating Contained Database Users as mentioned in this [article](https://docs.mi
  
 ## Configuration 
 
-Consult the [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) topic for more information on the configuration. 
+Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) for more information on the configuration. 
 
 ## Settings 
 
@@ -274,7 +274,7 @@ Ask to use the data source in offline mode when the user connects to the data so
 Caching mode 
 		</td>
 		<td>
-Determine how the entries will be reloaded in the data source. For more information, please consult the [Caching Mode](/rdm/mac/data-sources/caching/) topic. 
+Determine how the entries will be reloaded in the data source. For more information, please consult [Caching Mode](/rdm/mac/data-sources/caching/). 
 		</td>
 	</tr>
 	<tr>

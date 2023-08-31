@@ -1,7 +1,7 @@
 ---
-title: Side Menu
+title: Side menu
 ---
-Using the ***Side Menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  
+Using the ***Side menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  
 
 When using {{ en.DWL }} with {{ en.DVLS }}, the available tabs are the ***Matching*** tab, the ***All Entries*** tab, the ***Favorites*** tab, the ***Recent*** tab, and the ***Password Generator*** tab.  
 

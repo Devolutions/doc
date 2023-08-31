@@ -5,7 +5,7 @@ eleventyComputed:
 In {{ en.RDMWIN }}, you can [customize individual shortcuts](#modify) and [create shortcut macros](#create). These options are found in ***File – Options – User Interface – Keyboard***.
 
 {% snippet icon.badgeInfo %}
-For a list of default values for shortcuts, visit our [Keyboard Shortcuts](/rdm/windows/support-resources/keyboard-shortcuts/) topic.
+For a list of default values for shortcuts, visit [Keyboard Shortcuts](/rdm/windows/support-resources/keyboard-shortcuts/).
 {% endsnippet %}
 
 ![File - Options - User Interface - Keyboard](https://webdevolutions.azureedge.net/docs/en/kb/KB2093.png)

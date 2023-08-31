@@ -71,7 +71,7 @@ It may be possible that the newly added permissions require an Azure administrat
 ![!!KB4981](https://webdevolutions.azureedge.net/docs/en/kb/KB4981.png)
 7. You will then be able to use the ***Microsoft*** button on the web interface.  
 {% snippet icon.badgeCaution %}
-After activating the Microsoft Authentication, it may take a while for the cache to load before being able to import users and user groups. If the issue persists, please consult this topic for troubleshooting: [Unable to Import Azure AD Users or Groups](/kb/devolutions-server/troubleshooting-articles/unable-import-azure-ad-users-groups/)
+After activating the Microsoft Authentication, it may take a while for the cache to load before being able to import users and user groups. If the issue persists, please consult [Unable to Import Azure AD Users or Groups](/kb/devolutions-server/troubleshooting-articles/unable-import-azure-ad-users-groups/) for troubleshooting.
 {% endsnippet %}  
 
 ![!!KB4980](https://webdevolutions.azureedge.net/docs/en/kb/KB4980.png)

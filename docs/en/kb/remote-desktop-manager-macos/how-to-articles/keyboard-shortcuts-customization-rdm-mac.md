@@ -5,7 +5,7 @@ eleventyComputed:
 In {{ en.RDMMAC }}, you can <a href="#modify">customize individual shortcuts</a> and <a href="#ignore">specify key combinations to be ignored</a> by embedded sessions. These options are found in ***File – Preferences – User Interface – Shortcuts***.
 
 {% snippet icon.badgeInfo %}
-For a list of default values for shortcuts, visit our [Keyboard Shortcuts](/rdm/mac/support-resources/keyboard-shortcuts/) topic.
+For a list of default values for shortcuts, visit [Keyboard shortcuts](/rdm/mac/support-resources/keyboard-shortcuts/).
 {% endsnippet %}
 
 ![File - Preferences - User Interface - Shortcuts](https://webdevolutions.azureedge.net/docs/en/kb/KB2102.png)

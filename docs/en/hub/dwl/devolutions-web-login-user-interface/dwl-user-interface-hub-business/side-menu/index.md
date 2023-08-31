@@ -1,35 +1,35 @@
 ---
-title: Side Menu
+title: Side menu
 ---
-Using the ***Side Menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  
+Using the ***Side menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  
 
 When using {{ en.DWL }} with {{ en.DHUBB }}, the available tabs are the ***Matching*** tab, the ***{{ en.VLT }}s*** tab, the ***{{ en.UVLT }}*** tab, and the ***Password Generator*** tab.  
 
 In all tabs except the ***Password Generator*** tab, when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons. Go to the [Entries functionalities](#entry-functionalities) section for more information.  
 
-## Side Menu Tabs 
+## Side menu Tabs 
 
 ### Matching tab 
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.  
 
 {% snippet icon.badgeInfo %} 
-For methods of retrieving your credentials, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/). 
+For methods of retrieving your credentials, visit [Retrieve credentials from {{ en.DHUBB}} with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/). 
 {% endsnippet %}
  
-![Matching Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2110.png) 
+![Matching tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2110.png) 
 
 At the top, you can use the ***Search*** bar to filter through all your credentials, not just those applicable to the website. You can also use the ***Refresh*** button next to it to update the search results.  
 
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DHUBB }} through the {{ en.DWL }} extension.  
 
 {% snippet icon.badgeInfo %} 
-For a complete list of the available fields in the ***Add Website*** window, visit [this topic](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/). 
+For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/). 
 {% endsnippet %}
  
 ### {{ en.VLT }}s tab 
 
 {% snippet icon.badgeHelp %} 
-When accessing the ***{{ en.VLT }}s*** tab for the first time, you need to select the {{ en.DHUBB }} {{ en.VLT }}s you want to synchronize with {{ en.DWL }}. Learn more about it in our [First Login with {{ en.DWL }}](/hub/dwl/first-login-devolutions-web-login/hub-business/) topic. 
+When accessing the ***{{ en.VLT }}s*** tab for the first time, you need to select the {{ en.DHUBB }} {{ en.VLT }}s you want to synchronize with {{ en.DWL }}. Learn more about it in [First login with {{ en.DWL }}](/hub/dwl/first-login-devolutions-web-login/hub-business/). 
 {% endsnippet %}
  
 The ***{{ en.VLT }}s*** tab allows you to browse through all your synchronized {{ en.VLT }}s for your entries.  
@@ -66,7 +66,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://webdevolutions.azureedge.net/docs/en/hub/Hub2115.png) 
 
 {% snippet icon.badgeInfo %} 
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/). 
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website in {{ en.DHUBB }} with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/). 
 {% endsnippet %}
  
 ### Entry functionalities 

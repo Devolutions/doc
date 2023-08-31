@@ -14,7 +14,7 @@ Follow the instructions below to learn how to create a website account with {{ e
 1. On the website for which you want to create your account, go to the registration/account creation page. This page will be different for each website; this topic will use the Atlassian website as an example.  
 ![Registration Page](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2084.png) 
 1. Follow the website's registration process until you get to the password field. 
-1. Click on the {{ en.DWL }} icon in your browser toolbar, then select the ***Password Generator*** in the ***Side Menu*** of the extension.  
+1. Click on the {{ en.DWL }} icon in your browser toolbar, then select the ***Password Generator*** in the ***Side menu*** of the extension.  
 ![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2085.png) 
 1. You can now customize the password generation settings, but this is optional since the default settings already generate very strong passwords. That being said, it may be necessary to adjust the settings to meet the specific requirements of some websites. If you do not wish to customize the generation settings, you can skip to <a href="#5">step 5</a>. 
     1. Select a ***Password length***. The default value is set to 12.  

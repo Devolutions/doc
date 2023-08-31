@@ -12,7 +12,7 @@ After having selected the ***Authentication type***, you will get access to othe
 ## Basic SMTP Configuration
 
 {% snippet icon.badgeHelp %}
-See our [Configure an SMTP Email](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email) topic, which is specific to the ***Basic Authentication type***, for steps on how to configure an SMTP in {{ en.DVLS }}.
+See [Configure an SMTP Email](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email), which is specific to the ***Basic Authentication type***, for steps on how to configure an SMTP in {{ en.DVLS }}.
 {% endsnippet %}  
 
 ![Basic Authentication type](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2059.png)
@@ -87,7 +87,7 @@ Sender's email address.
 ![Azure Authentication type](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2060.png)
 
 {% snippet icon.badgeHelp %}
-See our [Configure an SMTP Email With Azure](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email-azure) topic, which is specific to the ***Azure Authentication type***, for steps on how to configure an SMTP with Azure in {{ en.DVLS }}.
+See [Configure an SMTP Email With Azure](/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email-azure), which is specific to the ***Azure Authentication type***, for steps on how to configure an SMTP with Azure in {{ en.DVLS }}.
 {% endsnippet %}  
 
 <table>

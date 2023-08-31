@@ -72,7 +72,7 @@ Use the credentials of its parent entry or group.
 Use my personal credentials 
 		</td>
 		<td>
-This allows you to use one set of credentials to replace or emulate the ones from your Windows session. See My Personal Credentials topic. 
+This allows you to use one set of credentials to replace or emulate the ones from your Windows session.
 		</td>
 	</tr>
 	<tr>

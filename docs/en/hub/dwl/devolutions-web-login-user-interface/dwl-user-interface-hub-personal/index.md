@@ -29,10 +29,10 @@ Next to the ***Settings*** button is your ***Account*** button. This section has
 * the current version of {{ en.DWL }}.  
 ![Account Button](https://webdevolutions.azureedge.net/docs/en/hub/Hub2105.png) 
 
-### Side Menu and Content Area 
+### Side menu and Content Area 
 
-Using the tabs of the ***Side Menu***, you can access various {{ en.DWL }} features.  
-![Side Menu Tabs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2106.png) 
+Using the tabs of the ***Side menu***, you can access various {{ en.DWL }} features.  
+![Side menu Tabs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2106.png) 
 Each tab will display a different view in the ***Content Area***. The tabs available when using {{ en.DWL }} with {{ en.DHUBP }} are:  
 
 * the ***Matching*** tab, where you find available credentials for a specific website. 
@@ -42,4 +42,4 @@ Each tab will display a different view in the ***Content Area***. The tabs avail
 * the ***Trash*** tab, where you can ***Delete*** entries and folders or ***Resurrect*** previously deleted ones. 
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  
 
-See our [Side Menu](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/) topic for more information on each of the tabs. 
+See [Side menu](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/) for more information on each of the tabs.

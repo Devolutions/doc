@@ -21,7 +21,7 @@ The {{ en.DOD }} is for single users only, and it cannot share files.
 1. Enter your {{ en.DA }} credentials, or change the ***Connection mode*** to use the [Application password](/cloud/sign-in-security/application-passwords/).  
 ![!!Cloud4056](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4056.png) 
 {% snippet icon.badgeNotice %} 
-Consult the [{{ en.DOD }} Settings](/rdm/windows/data-sources/data-sources-types/online-drive/) topic for more information on the configuration settings. 
+Consult [{{ en.DOD }} Settings](/rdm/windows/data-sources/data-sources-types/online-drive/) for more information on the configuration settings. 
 {% endsnippet %}
  
 3. Click on the ***Backup*** tab to set your ***{{ en.OBACK }}*** for your new data source.  

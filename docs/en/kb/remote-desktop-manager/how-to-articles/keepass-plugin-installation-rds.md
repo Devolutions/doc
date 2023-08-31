@@ -5,7 +5,7 @@ Using {{ en.RDM }} and KeePass on a Remote Desktop Service require multiple step
 
 ## Requirements
 
-The installation of {{ en.RDM }} follow the [Terminal Services / Remote Desktop Services](/rdm/windows/installation/client/terminal-services/) help topic.  
+The installation of {{ en.RDM }} follows [Terminal Services / Remote Desktop Services](/rdm/windows/installation/client/terminal-services/).  
 
 Make sure that the installation of KeePass was successful and is not on a network drive.
 

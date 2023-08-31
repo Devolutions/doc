@@ -47,7 +47,7 @@ Custom ***User groups*** need to be defined beforehand in {{ en.DHUBB }}. For mo
 {{ en.DHUBB }} will send an email with essential information to the recipients, including the URL of your {{ en.DHUBB }}, the invitation ID, and the key.  
 
 {% snippet icon.badgeCaution %} 
-Users will be required to complete a {{ en.DA }} setup. See the [End User Invitation Experience for SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/) topic. 
+Users will be required to complete a {{ en.DA }} setup. See [End User Invitation Experience for SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/). 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
@@ -66,5 +66,5 @@ It is possible to add users to your {{ en.DHUBB }} that are outside of your auth
 
 {% snippet icon.badgeInfo %} 
 This option is only possible if you do not set a ***Force SSO on all users***, since those users are not part of your authentication provider.
-Follow the steps from the [Create and Invite Users](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/index) topic.
+Follow the steps from [Create and Invite Users](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/index).
 {% endsnippet %}

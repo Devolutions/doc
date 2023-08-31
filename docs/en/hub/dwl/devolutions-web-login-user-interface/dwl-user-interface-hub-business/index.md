@@ -7,7 +7,7 @@ The {{ en.DWL }} user interface is slightly different in your browser depending 
 The main view, which is the one displayed when first opening {{ en.DWL }} in your browser, can be divided into three main sections:  
 
 1. The ***Top Menu*** gives you access to some {{ en.DWL }} functionalities and settings. 
-1. The ***Side Menu*** is directly linked to the central panel, as each tab changes what is displayed in the window depending on its function. 
+1. The ***Side menu*** is directly linked to the central panel, as each tab changes what is displayed in the window depending on its function. 
 1. The ***Content Area*** is where information will be displayed and where you can interact with {{ en.DWL }} functionalities corresponding to the different tabs.  
 ![User Interface Sections](https://webdevolutions.azureedge.net/docs/en/hub/Hub2097.png) 
 
@@ -29,10 +29,10 @@ Next to the ***Settings*** button is your ***Account*** button. This section has
 * the current version of {{ en.DWL }}.  
 ![Account Button](https://webdevolutions.azureedge.net/docs/en/hub/Hub2100.png) 
 
-### Side Menu and Content Area 
+### Side menu and Content Area 
 
-Using the tabs of the ***Side Menu***, you can access various {{ en.DWL }} features.  
-![Side Menu Tabs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2101.png) 
+Using the tabs of the ***Side menu***, you can access various {{ en.DWL }} features.  
+![Side menu Tabs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2101.png) 
 Each tab will display a different view in the ***Content Area***. The tabs available when using {{ en.DWL }} with {{ en.DHUBB }} are:  
 
 * the ***Matching*** tab, where you find available credentials for a specific website. 
@@ -40,4 +40,4 @@ Each tab will display a different view in the ***Content Area***. The tabs avail
 * the ***{{ en.UVLT }}*** tab, where you can find the entries you stored in your {{ en.DHUBB }} ***{{ en.UVLT }}***, divided into your different folders. 
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  
 
-See our [Side Menu](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/) topic for more information on each of the tabs.
+See [Side menu](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/) for more information on each of the tabs.

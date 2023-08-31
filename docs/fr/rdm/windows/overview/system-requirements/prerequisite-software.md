@@ -11,5 +11,4 @@ Ces installations sont gérées automatiquement par nos installateurs. Les seule
 
 Le paquet suivant doit être installé avant de poursuivre l'installation de {{ fr.RDM }} :  
 
-* [Microsoft .NET Framework 4.8](https://support.microsoft.com/fr-fr/topic/programme-d-installation-hors-connexion-microsoft-net-framework-4-8-pour-windows-9d23f658-3b97-68ab-d013-aa3c3e7495e0) 
-
+* [Microsoft .NET Framework 4.8](https://support.microsoft.com/fr-fr/topic/programme-d-installation-hors-connexion-microsoft-net-framework-4-8-pour-windows-9d23f658-3b97-68ab-d013-aa3c3e7495e0)

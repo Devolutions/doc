@@ -23,7 +23,7 @@ In the ***Single Sign-On (SSO)*** section, you can ***Configure Single Sign-On (
 ![Administration – Authentication – Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2196.png)  
 
 {% snippet icon.badgeHelp %} 
-When setting up SSO, you will have to fill in some fields in the ***Configure Single Sign-On (SSO)*** page. Consult our [Get Started With SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/) topic for more information. 
+When setting up SSO, you will have to fill in some fields in the ***Configure Single Sign-On (SSO)*** page. Consult [Get Started With SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/) for more information. 
 {% endsnippet %}
  
 ![Configure Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2197.png)  

@@ -12,4 +12,4 @@ Please note that we have no choice to move to the new library since the function
 
 Unfortunately, the downside is the lost of this functionality. Until we can figure something out or Microsoft enables other modes, there is nothing we can do.  
 
-For more information on the topic here is a link from Microsoft [SqlAuthenticationMethod Enum](https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlauthenticationmethod?view=sqlclient-dotnet-standard-4.1)
+For more information on this topic, see Microsoft's [SqlAuthenticationMethod Enum](https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlauthenticationmethod?view=sqlclient-dotnet-standard-4.1).

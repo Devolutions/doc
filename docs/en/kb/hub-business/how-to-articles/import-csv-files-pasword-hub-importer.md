@@ -3,7 +3,7 @@ eleventyComputed:
   title: Import CSV files in {{ en.DHUBB }} with {{ en.DHUBI }}
 ---
 {% snippet icon.badgeInfo %}
-This topic assumes that your CSV files are ready to be imported. For tips and recommendations on how to prepare your CSV files for importation, visit [this topic](/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/)
+This topic assumes that your CSV files are ready to be imported. For tips and recommendations on how to prepare your CSV files for importation, visit [CSV files import strategies and format with {{ en.DHUBI }}](/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/).
 {% endsnippet %}  
 
 {{ en.DHUBI }} is our essential {{ en.CTOOL }} designed to import files into your {{ en.DHUB }}. Follow the steps below to learn how to import CSV files in {{ en.DHUBB }}.  

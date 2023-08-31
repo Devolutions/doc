@@ -9,7 +9,7 @@ SHA-256 algorithm can be used for making sure you acquired the same data as the 
 
 To compare the hash of your file, click on the SHA-256 icon on our Devolutions website download page.
 
-For more information and to know how to get the SHA-256 from a file, here is the [Get-FileHash](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.2) topic from Microsoft.
+For more information and to know how to get the SHA-256 from a file, see Microsoft's [Get-FileHash](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.2).
 
 {% snippet icon.badgeNotice %}
 The command should look similar to this: Get-FileHash C:\Users\user1\Downloads\Setup.RemoteDesktopManager.exe -Algorithm SHA256 | Format-List. 

@@ -27,4 +27,4 @@ You can import computers from different sources. These sources includes:
 
 ### Import Sessions from 
 
-Please consult [Import Sessions](/rdm/mac/commands/file/import/sessions/) topic for more information. 
+Please consult [Import sessions](/rdm/mac/commands/file/import/sessions/) for more information. 

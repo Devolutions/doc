@@ -464,7 +464,7 @@ Select the secure hash algorithm (SHA) between ***SHA-1***, ***SHA-256***, or **
 
 This drop-down list is only available if ***Custom*** is selected in the ***Source*** drop-down list.  
 
-To learn about secure hash algorithm, visit [our topic on SHA-256](/kb/general-knowledge-base/what-is-sha-256/). 
+To learn about secure hash algorithm, visit [SHA-256](/kb/general-knowledge-base/what-is-sha-256/). 
 		</td>
 	</tr>
 </table>
