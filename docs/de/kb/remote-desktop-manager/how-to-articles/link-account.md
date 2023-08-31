@@ -16,12 +16,12 @@ Für jedes Paar ***Verknüpfter Konten*** wird nur eine Lizenz benötigt.
 
 1. Melden Sie sich in einer Datenquelle eines ***Kleinen Teams*** oder eines ***Unternehmens*** als Administrator an.
 1. Gehen Sie in der ***Menüleiste*** zu ***Verwaltung – Management – Nutzer***.  
-![!!Administration tab](https://webdevolutions.azureedge.net/docs/de/kb/KB0073.png)  
+![Administration tab](https://webdevolutions.azureedge.net/docs/de/kb/KB0073.png)  
 1. Wählen Sie eines der Konten aus, das Sie verknüpfen möchten. Klicken Sie dann auf ***Bearbeiten***.  
-![!!Edit User](https://webdevolutions.azureedge.net/docs/de/kb/KB0074.png)  
+![Edit User](https://webdevolutions.azureedge.net/docs/de/kb/KB0074.png)  
 1. Gehen Sie zu der Registerkarte ***Verknüpftes Konto***.
 1. Wählen Sie das andere Konto aus der Dropdown-Liste aus.  
-![!!Linked Account](https://webdevolutions.azureedge.net/docs/de/kb/KB0075.png)  
+![Linked Account](https://webdevolutions.azureedge.net/docs/de/kb/KB0075.png)  
 1. Klicken Sie auf ***OK***, um die Änderungen zu speichern und das Fenster zu schließen und dann auf ***Schließen***.
 
 Die Konten sind jetzt verknüpft. Sie können überprüfen, welche Konten verknüpft sind, indem sie zum Fenster ***Konto- und Sicherheitsverwaltung***, unter der Schaltfläche ***Nutzer*** zurückgehen und bis zur Spalte ***Verknüpftes Konto*** scrollen.

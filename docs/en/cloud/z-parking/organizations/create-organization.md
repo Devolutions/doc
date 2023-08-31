@@ -19,5 +19,4 @@ Organization names are unique, no two can be named the same.
 You can enter an ***Image URL***, it is optional, the option is found in the ***Settings***. 
 {% endsnippet %}  
  
-![!!Cloud4063](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4063.png) 
-
+![!!Cloud4063](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4063.png)
