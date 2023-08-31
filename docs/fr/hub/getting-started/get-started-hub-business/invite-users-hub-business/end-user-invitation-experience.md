@@ -51,12 +51,12 @@ Maintenant que vous avez accès à {{ fr.DHUBB }}, vous pouvez continuer à la s
 
 Après vous être connecté, {{ fr.DHUBB }} s'ouvre sur l'onglet ***Coffre***. Cette vue permet d'interagir avec les coffres et les entrées auxquels vous avez accès. Vous pouvez changer de coffre en utilisant le menu de sélection des coffres en haut.  
 ![Onglet Coffre](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2001.png) 
-Vous pouvez aussi accéder à votre ***Coffre d'utilisateur***, qui est centré sur l'utilisateur et est utilisé pour stocker des informations telles que des identifiants de comptes personnels, en cliquant sur l'onglet ***Coffre d'utilisateur*** dans le menu latéral.  
-![Onglet Coffre d'utilisateur](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2002.png) 
+Vous pouvez aussi accéder à votre ***{{ fr.UVLT }}***, qui est centré sur l'utilisateur et est utilisé pour stocker des informations telles que des identifiants de comptes personnels, en cliquant sur l'onglet ***{{ fr.UVLT }}*** dans le menu latéral.  
+![Onglet {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2002.png) 
 
 ### Créer des entrées 
 
-{{ fr.DWL }} est notre extension de navigateur Web pour les mots de passe. Il s'agit du client privilégié à utiliser en conjonction avec {{ fr.DHUBB }} pour créer et gérer les entrées d'identifiants de sites Web. Consultez cette rubrique (à venir) pour connaître les étapes permettant d'ajouter une entrée de site Web avec {{ fr.DWL }}, ou consultez la rubrique [Créer des entrées manuellement](/fr/hub/web-interface/hub-overview/entries/create-entries-manually/) pour savoir comment les créer directement dans {{ fr.DHUBB }}. Vous pouvez également suivre les étapes ci-dessous pour créer manuellement une entrée dans votre ***Coffre d'utilisateur***.  
+{{ fr.DWL }} est notre extension de navigateur Web pour les mots de passe. Il s'agit du client privilégié à utiliser en conjonction avec {{ fr.DHUBB }} pour créer et gérer les entrées d'identifiants de sites Web. Consultez cette rubrique (à venir) pour connaître les étapes permettant d'ajouter une entrée de site Web avec {{ fr.DWL }}, ou consultez la rubrique [Créer des entrées manuellement](/fr/hub/web-interface/hub-overview/entries/create-entries-manually/) pour savoir comment les créer directement dans {{ fr.DHUBB }}. Vous pouvez également suivre les étapes ci-dessous pour créer manuellement une entrée dans votre ***{{ fr.UVLT }}***.  
 
 1. Sélectionner le dossier dans lequel vous voulez créer la nouvelle entrée, le cas échéant. Sinon, passez cette première étape. 
 1. Cliquer sur le bouton ***Ajouter*** situé dans le ***{{ fr.NPANE }}***.  

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title:  Mon Coffre de l'utilisateur
+  title:  Mon {{ fr.UVLT }}
   status: Topic available in German language
 ---
 Le ***{{ fr.UVLT }}*** est un coffre personnalisé pour l'utilisateur pour les entrées de tout type. Il permet à chaque utilisateur de créer des entrées que lui seul peut voir. 
@@ -9,7 +9,7 @@ Le ***{{ fr.UVLT }}*** est un coffre personnalisé pour l'utilisateur pour les e
 Le {{ fr.UVLT }} est disponible pour toutes les [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
-![Mon Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11205.png) 
+![Mon {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11205.png) 
 
 ### Une note sur les identifiants 
 

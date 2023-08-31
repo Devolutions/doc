@@ -56,10 +56,10 @@ Aucun identifiant ne pourra être enregistré ou lié à cette entrée
 	</tr>
 	<tr>
 		<td>
-Rechercher par nom (Coffre d'utilisateur)
+Rechercher par nom ({{ fr.UVLT }})
 		</td>
 		<td>
-Recherche le nom spécifié dans le ***Coffre d'utilisateurs***. Si la case est laissée vide, lors du lancement, une liste d'identifiant s'ouvre avec toutes les entrées d'identifiants disponibles dans le ***Coffre d'utilisateur***.
+Recherche le nom spécifié dans le ***{{ fr.UVLT }}***. Si la case est laissée vide, lors du lancement, une liste d'identifiant s'ouvre avec toutes les entrées d'identifiants disponibles dans le ***{{ fr.UVLT }}***.
 		</td>
 	</tr>
 	<tr>

@@ -773,7 +773,7 @@ Remove-HubVaultPermission
 	* GroupId  
 		</td>
 		<td>
-Si UserId est fourni, supprime la permission du coffre d'utilisateur d'un coffre spécifique.  
+Si UserId est fourni, supprime la permission du {{ fr.UVLT }} d'un coffre spécifique.  
 
 Si GroupId est fourni, supprime la permission du coffre du groupe d'un coffre spécifique. 
 		</td>
@@ -793,7 +793,7 @@ Get-HubVaultPermission
 	* GroupId  
 		</td>
 		<td>
-Si UserId est fourni, récupère la permission du coffre utilisateur à partir d'un coffre spécifique.  
+Si UserId est fourni, récupère la permission du {{ fr.UVLT }} à partir d'un coffre spécifique.  
 
 Si GroupId est fourni, récupère la permission du coffre du groupe à partir d'un coffre spécifique.  
 		</td>

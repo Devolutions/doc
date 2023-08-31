@@ -1,5 +1,6 @@
 ---
-title: Coffre de l'utilisateur
+eleventyComputed:
+  title: '{{ fr.UVLT }}'
 ---
 Le ***{{ fr.UVLT }}*** est un coffre personnalisé pour l'utilisateur pour les entrées de tout type. Il permet à chaque utilisateur de créer des entrées que lui seul peut voir.  
 
@@ -9,7 +10,7 @@ Pour créer une nouvelle entrée dans votre {{ fr.UVLT }}, cliquer sur {{ fr.UVL
 Le {{ fr.UVLT }} est uniquement disponible pour les sources de données suivantes : [SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/). 
 {% endsnippet %}
  
-![Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4416.png) 
+![{{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4416.png) 
 
 ### Une note sur les identifiants 
 

@@ -33,7 +33,7 @@ Voir <a href="/kb/devolutions-server/how-to-articles/configure-ssl/" target="_bl
 	</tr>
 </table>
 
-### L'activité du coffre d'utilisateur doit être enregistrée
+### L'activité du {{ fr.UVLT }} doit être enregistrée
 
 <table>
 	<tr>
@@ -49,7 +49,7 @@ Les journaux d'activité des coffres d’utilisateur ne sont pas activés par d�
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - Coffre d'utilisateur, cochez Journaliser les activités du coffre d'utilisateur. 
+Dans Administration - Paramètres du système - {{ fr.UVLT }}, cochez Journaliser les activités du {{ fr.UVLT }}. 
 		</td>
 	</tr>
 </table>

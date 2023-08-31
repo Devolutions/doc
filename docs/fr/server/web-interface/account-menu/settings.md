@@ -23,8 +23,8 @@ Page de renvoi
 Choisir la page d'accueil après la connexion :  
 
 * ***Tableau de bord*** 
-* ***Coffre*** 
-* ***Coffre de l'utilisateur*** 
+* ***{{ fr.VLT }}*** 
+* ***{{ fr.UVLT }}*** 
 * ***Rapports*** 
 * ***Administration*** 
 * ***Accès privilégiés*** 

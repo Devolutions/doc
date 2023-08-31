@@ -2,8 +2,6 @@
 title: Paramètres
 order: 20
 status: Topic available in German language
-keywords:
-- Coffre privé
 ---
 Les paramètres de {{ fr.DWL }} sont accessibles via le bouton ***Paramètres*** dans la fenêtre de l'extension de navigateur, peu importe quel produit Devolutions est utilisé avec {{ fr.DWL }}.  
 
@@ -71,7 +69,7 @@ Communiquer avec le port par défaut 19443 entre les applications.
 	</tr>
 	<tr>
 		<td>
-Ajouter une entrée dans le coffre d'utilisateur par défaut 
+Ajouter une entrée dans le {{ fr.UVLT }} par défaut 
 		</td>
 		<td>
 Enregistrer les nouvelles entrées dans le {{ fr.UVLT }}. 

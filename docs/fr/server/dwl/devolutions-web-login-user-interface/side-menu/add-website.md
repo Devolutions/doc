@@ -67,7 +67,7 @@ Ce bouton n'apparaît à côté du champ ***URLs équivalentes*** qu'après avoi
 Identifiants 
 		</td>
 		<td>
-Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié (Coffre)***, ***Hérité***, ***Lié (Coffre d'utilisateur)***, ***Rechercher par nom (Coffre d'utilisateur)*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
+Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié (Coffre)***, ***Hérité***, ***Lié ({{ fr.UVLT }})***, ***Rechercher par nom ({{ fr.UVLT }})*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
 		</td>
 	</tr>
 	<tr>
@@ -79,17 +79,17 @@ Sélectionner l'entrée d'identifiants qui sera utilisée pour récupérer les i
 
 Il est aussi possible de sélectionner ***Demander à la connexion*** pour que vos identifiants soient demandés chaque fois que vous vous connectez.  
 
-Ce champ n'est disponible que si ***Lié (Coffre)*** ou ***Lié (Coffre d'utilisateur)*** est sélectionné dans la liste déroulante ***Identifiants***.  
+Ce champ n'est disponible que si ***Lié (Coffre)*** ou ***Lié ({{ fr.UVLT }})*** est sélectionné dans la liste déroulante ***Identifiants***.  
 		</td>
 	</tr>
 	<tr>
 		<td>
-Recherche d'identifiants dans le coffre d'utilisateur 
+Recherche d'identifiants dans le {{ fr.UVLT }} 
 		</td>
 		<td>
 Saisir le nom de l'identifiant dans votre ***{{ fr.UVLT }}*** et {{ fr.DWL }} y recherchera le nom spécifié. Si le champ est laissé vide, au lancement, une liste d'identifiants s'ouvrira avec toutes les entrées d'identifiants disponibles dans votre ***{{ fr.UVLT }}***.  
 
-Ce champ n'est disponible que si ***Rechercher par nom (Coffre d'utilisateur)*** est sélectionnée dans la liste déroulante ***Identifiants***.  
+Ce champ n'est disponible que si ***Rechercher par nom ({{ fr.UVLT }})*** est sélectionnée dans la liste déroulante ***Identifiants***.  
 
 		</td>
 	</tr>

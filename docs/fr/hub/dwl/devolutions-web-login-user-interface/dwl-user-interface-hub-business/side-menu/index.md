@@ -3,7 +3,7 @@ title: Menu latéral
 ---
 En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }}. Chaque onglet affiche une vue différente dans la ***Zone de contenu***.  
 
-Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.DHUBB }}, les onglets disponibles sont l'onglet ***Correspondant***, l'onglet ***Coffres***, l'onglet ***Coffre d'utilisateur*** et l'onglet ***Générateur de mots de passe***.  
+Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.DHUBB }}, les onglets disponibles sont l'onglet ***Correspondant***, l'onglet ***Coffres***, l'onglet ***{{ fr.UVLT }}*** et l'onglet ***Générateur de mots de passe***.  
 
 Dans tous les onglets, à l'exception de l'onglet ***Générateur de mots de passe***, lorsque vous passez le curseur sur une entrée, trois nouvelles options apparaissent : les boutons ***Copier le nom d'utilisateur***, ***Copier le mot de passe***, et ***Affichage***. Consultez la section [Fonctionnalités des entrées](#fonctionnalités-des-entrées) pour plus d'informations. 
 
@@ -38,10 +38,10 @@ Pour accéder à un coffre dans {{ fr.DWL }}, vous pouvez cliquer sur ce coffre 
 
 Lorsque vous naviguez dans les dossiers, le bouton [***Ajouter un site Web***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/add-website/) apparaît au bas de la ***Zone de contenu***.  
 
-### Onglet Coffre d'utilisateur 
+### Onglet {{ fr.UVLT }}
 
-L'onglet ***Coffre d'utilisateur*** fonctionne de la même manière que l'onglet ***Coffres***, à l'exception que vous naviguez à l'intérieur de votre ***Coffre de l'utilisateur*** au lieu de vos autres coffres. Vous n'avez également pas à sélectionner des coffres à synchroniser puisque le seul coffre disponible dans cet onglet est votre propre ***Coffre de l'utilisateur***.  
-![Onglet Coffre d'utilisateur](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2076.png)  
+L'onglet ***{{ fr.UVLT }}*** fonctionne de la même manière que l'onglet ***Coffres***, à l'exception que vous naviguez à l'intérieur de votre ***{{ fr.UVLT }}*** au lieu de vos autres coffres. Vous n'avez également pas à sélectionner des coffres à synchroniser puisque le seul coffre disponible dans cet onglet est votre propre ***{{ fr.UVLT }}***.  
+![Onglet {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2076.png)  
 En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher dans vos dossiers et vos entrées.  
 
 Pour accéder à un coffre dans {{ fr.DWL }}, naviguez dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.DHUBB }}.  

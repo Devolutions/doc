@@ -182,7 +182,7 @@ Ctrl+G
 	</tr>
 	<tr>
 		<td>
-Mon coffre d'utilisateur 
+Mon {{ fr.UVLT }} 
 		</td>
 		<td>
 F7 

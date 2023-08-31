@@ -1,7 +1,7 @@
 ---
 title: Ajouter un site Web
 ---
-Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les coffres et entrées des onglets ***Coffres*** ou [***Coffre d'utilisateur***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#onglet-coffre-d'utilisateur). Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DHUBB }} via {{ fr.DWL }}.  
+Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les coffres et entrées des onglets ***Coffres*** ou [***{{ fr.UVLT }}***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#onglet-coffre-d'utilisateur). Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DHUBB }} via {{ fr.DWL }}.  
 
 Lorsque {{ fr.DHUBB }} est utilisé comme source de données, la configuration de base de l'entrée est exécutée dans l'onglet ***Général***, mais des paramètres supplémentaires sont aussi disponibles dans d'autres onglets. Vous trouverez ci-dessous un exemple des paramètres de l'onglet ***Général*** lors de la création d'une entrée de site Web.  
 ![Nouvelle entrée - Site Web (onglet Général)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2090.png) 
@@ -33,7 +33,7 @@ Coffre
 		</td>
 		<td>
 
-Choisir dans quel coffre stocker votre nouvelle entrée de site Web dans {{ fr.DHUBB }}. Vous pouvez sélectionner n'importe quel coffre, incluant votre ***Coffre de l'utilisateur***. 
+Choisir dans quel coffre stocker votre nouvelle entrée de site Web dans {{ fr.DHUBB }}. Vous pouvez sélectionner n'importe quel coffre, incluant votre ***{{ fr.UVLT }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -65,7 +65,7 @@ Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiqu
 Identifiants 
 		</td>
 		<td>
-Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié (Coffre)***, ***Hérité***, ***Mes identifiants personnels***, ***Rechercher par nom (Coffre d'utilisateur)*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
+Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié (Coffre)***, ***Hérité***, ***Mes identifiants personnels***, ***Rechercher par nom ({{ fr.UVLT }})*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
 		</td>
 	</tr>
 	<tr>

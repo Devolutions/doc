@@ -192,7 +192,7 @@ Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement h
 
 ### {{ fr.UVLT }} 
 
-![Microsoft Azure SQL - Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3416.png) 
+![Microsoft Azure SQL - {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3416.png) 
 
 <table>
 	<tr>

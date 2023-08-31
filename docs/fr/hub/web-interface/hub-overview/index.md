@@ -20,7 +20,7 @@ Menu de la barre latérale
 		</td>
 		<td>
 
-Cliquer sur l'icône de menu pour naviguer dans les sections ***Recherche***, ***Coffre***, ***Coffre d'utilisateur***, ***Rapports***, ***Administration*** et ***Outils***. 
+Cliquer sur l'icône de menu pour naviguer dans les sections ***Recherche***, ***Coffre***, ***{{ fr.UVLT }}***, ***Rapports***, ***Administration*** et ***Outils***. 
 		</td>
 	</tr>
 	<tr>
@@ -28,7 +28,7 @@ Cliquer sur l'icône de menu pour naviguer dans les sections ***Recherche***, **
 Sélecteur de coffre 
 		</td>
 		<td>
-Cliquer sur le sélecteur de coffre, dans la partie centrale supérieure de votre navigateur, pour basculer entre tous vos coffres et accéder à votre ***Coffre d'utilisateur***. 
+Cliquer sur le sélecteur de coffre, dans la partie centrale supérieure de votre navigateur, pour basculer entre tous vos coffres et accéder à votre ***{{ fr.UVLT }}***. 
 		</td>
 	</tr>
 	<tr>

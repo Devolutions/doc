@@ -113,7 +113,7 @@ Toujours demander le mot de passe lors de la connexion à la source de données.
 
 ### {{ fr.UVLT }} 
 
-![Devolutions Password Server - Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4262.png) 
+![Devolutions Password Server - {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4262.png) 
 
 <table>
 	<tr>
