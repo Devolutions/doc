@@ -24,5 +24,3 @@ Cocher la case à la droite du groupes d'utilisateur pour attribuer à l'utilisa
 		</td>
 	</tr>
 </table>
-
-

@@ -420,5 +420,3 @@ Définir une version minimale de {{ fr.RDM }} est recommandé afin de s'assurer 
 		</td>
 	</tr>
 </table>
-
-

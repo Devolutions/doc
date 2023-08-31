@@ -85,7 +85,7 @@ Test connection
 Test the connection given the current parameters
 		</td>
 	</tr>
-</table>  
+</table>
 
 ### Automatic User Creation
 <table>
@@ -121,7 +121,7 @@ Only from this group
 Only users from this group will be created on first login (only available when <b><i>Auto create on first login</b></i> is enabled)
 		</td>
 	</tr>
-</table>  
+</table>
 
 ### Microsoft Authentication Users and User Group Cache
 {% snippet icon.badgeInfo %}

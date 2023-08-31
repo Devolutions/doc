@@ -58,5 +58,3 @@ Supprimer définitivement toutes les entrées supprimées.
 		</td>
 	</tr>
 </table>
-
-

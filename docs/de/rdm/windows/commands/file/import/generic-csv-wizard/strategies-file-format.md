@@ -13,7 +13,7 @@ Wenn Sie eine genauere Kontrolle benötigen, können Sie die zu verwendende Vorl
 
 {% snippet icon.badgeNotice %} 
 Unter ***Datei – Importieren*** empfehlen wir Ihnen, zunächst die Option ***Generischer CSV-Import-Assistent*** zu verwenden. Bei Bedarf können Sie die ***Anweisung für das Kopfzeilenformat*** ändern.  
-![!!Import Csv Wizard](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RdmWin4044.png) 
+![Import Csv Wizard](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RdmWin4044.png) 
 {% endsnippet %}
  
 ## Inhalt der Datei 

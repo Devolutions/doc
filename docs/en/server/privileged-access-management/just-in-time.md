@@ -45,9 +45,8 @@ Temporary group creation location
 Location (OU) where the temporary Active Directory group will exist in the Active Directory structure. 
 		</td>
 	</tr>
-</table>  
-  
-  
+</table>
+
 ### Example
 
 The domain provider Just-In-Time Elevation configuration will allow privileged accounts to request elevation to being member of the following Active Directory Groups: {{ en.RDM }} Admins; {{ en.RDM }} Service Desk or {{ en.RDM }} Admins - Universal. The temporary group name will start with RDM_JIT and will be created in the **Domain Groups\Vaults\Internal** OU.

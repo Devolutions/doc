@@ -4,11 +4,11 @@ order: 20
 ---
 Die Einstellungen von {{ de.DWL }} sind über die Schaltfläche ***Einstellungen*** in der Browser-Erweiterung in Windows zugänglich, unabhängig davon, welche Devolutions-Anwendung Sie zusammen mit {{ de.DWL }} verwenden.  
 
-![!!{{ de.DWL }} Settings Button](https://webdevolutions.azureedge.net/docs/de/dwl/Dwl2000.png)  
+![{{ de.DWL }} Settings Button](https://webdevolutions.azureedge.net/docs/de/dwl/Dwl2000.png)  
 
 Die ***Einstellungen*** sind in zwei Kategorien unterteilt: <a href="#configuration">***Konfiguration***</a> und <a href="#source">***Datenquellen***</a>.
 
-![!!{{ de.DWL }} Settings](https://webdevolutions.azureedge.net/docs/de/dwl/Dwl4027.png)
+![{{ de.DWL }} Settings](https://webdevolutions.azureedge.net/docs/de/dwl/Dwl4027.png)
 
 ### Konfiguration <a name="configuration"></a>
 

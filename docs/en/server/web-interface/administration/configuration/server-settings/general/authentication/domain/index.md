@@ -178,7 +178,3 @@ Will refresh the cache based on the selected refresh method.
 		</td>
 	</tr>
 </table>
-
-
-
-
