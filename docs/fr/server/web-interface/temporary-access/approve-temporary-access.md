@@ -41,7 +41,7 @@ La première option consiste à utiliser la boîte ***Demandes d'accès en atten
 ![Demandes d'accès en attente](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6013.png) 
 
 La deuxième option vous demande de passer par la boîte ***Demandes d'accès en attente*** décrite dans la [section précédente](#view-temporary-access-requests). Quelle que soit la façon dont vous choisissez d'accéder à la fenêtre de réponse, le résultat sera le même.
-![ Réponse à la demande d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6014.png) 
+![Réponse à la demande d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6014.png) 
 
 Cette vue est divisée en deux sections :
 

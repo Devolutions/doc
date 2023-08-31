@@ -26,7 +26,7 @@ Vous pouvez également importer des entrées dans ***Fichier – Importer***. Po
 {% snippet icon.badgeInfo %}
 Depuis la version 2022.3 de {{ fr.RDMMAC }}, les sous entrées ont remplacé les sous connexions. Elles sont différentes dans la mesure où les sous connexions étaient stockées en XML dans leur entrée parente, ce qui n'est pas le cas des sous entrées. Celles-ci sont beaucoup plus polyvalentes.  
 
-La migration des sous connexions préexistantes vers les nouvelles sous entrées est automatique lors de la mise à jour de {{ en.RDM }} de la version 2022.2 ou antérieure vers la version 2022.3 ou ultérieure.
+La migration des sous connexions préexistantes vers les nouvelles sous entrées est automatique lors de la mise à jour de {{ fr.RDM }} de la version 2022.2 ou antérieure vers la version 2022.3 ou ultérieure.
 {% endsnippet %}  
 
 Les sous entrées sont des entrées à part entière, indépendantes, situées sous une entrée « parent » dans l'arborescence. Elles se réfèrent à leur parent par un ID. Elles sont compatibles avec les pièces jointes, la documentation, l'historique complet, etc. 

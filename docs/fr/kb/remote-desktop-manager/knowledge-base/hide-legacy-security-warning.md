@@ -4,7 +4,7 @@ eleventyComputed:
   description: Comment masquer l'avertissement de la suppression de l'ancienne sécurité dans {{ fr.RDM }}
 ---
 {% snippet icon.badgeWarning %}
-L'ancienne sécurité a été dépréciée et sera complètement supprimée à partir de la version 2023.3 de {{ en.RDM }}. Voir [Migration de l'ancienne sécurité vers les permissions dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
+L'ancienne sécurité a été dépréciée et sera complètement supprimée à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration de l'ancienne sécurité vers les permissions dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
 {% endsnippet %}  
 
 ![Boîte d'avertissement de la suppression de l'ancienne sécurité](https://webdevolutions.blob.core.windows.net/docs/fr/kb/KB2090.png) 

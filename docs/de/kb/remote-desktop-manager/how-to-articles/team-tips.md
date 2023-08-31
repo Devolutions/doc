@@ -15,7 +15,7 @@ Beginnen Sie mit der Erstellung von Nutzergruppen und benennen Sie diese so, wie
 
 Okay: Sie sind bereit, {{ de.RDM }} zu implementieren und in aller Augen zum Helden des Unternehmens zu werden. Sie haben Ihre Datenquellen manuell konfiguriert, Ihre Standortlizenz festgelegt und die Systemoptionen definiert. Sie spüren die Aufregung, die durch Ihre Adern fließt. Sie sind auf einer Mission!  
 
-Aber warten Sie - bevor Sie in Betrieb gehen, lassen Sie uns doch einen [{{ en.CI }}](/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/) für Sie entwickeln! Danach muss Ihr Team nur noch die davon erstellte MSI-Datei installieren, um auf die gebrauchsfertig vorkonfigurierte Installation von {{ de.RDM }} zuzugreifen. Alle werden Sie lieben, man wird Sie feiern und vielleicht wird sogar ein Land oder eine Auszeichnung nach Ihnen benannt.
+Aber warten Sie - bevor Sie in Betrieb gehen, lassen Sie uns doch einen [{{ de.CI }}](/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/) für Sie entwickeln! Danach muss Ihr Team nur noch die davon erstellte MSI-Datei installieren, um auf die gebrauchsfertig vorkonfigurierte Installation von {{ de.RDM }} zuzugreifen. Alle werden Sie lieben, man wird Sie feiern und vielleicht wird sogar ein Land oder eine Auszeichnung nach Ihnen benannt.
 
 ## Versionsverwaltung
 

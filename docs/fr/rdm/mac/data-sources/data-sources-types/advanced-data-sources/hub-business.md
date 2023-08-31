@@ -60,5 +60,4 @@ Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ 
 ### Avancé 
 
 Définir l'intervalle d'actualisation automatique.  
-![!!RDMMac4025](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4025.png) 
-
+![!!RDMMac4025](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4025.png)

@@ -17,7 +17,7 @@ A {{ en.DHUBB }} access is required to continue.
 2. Choose ***{{ en.DHUBB }}*** in the list, then click ***Save***.  
 ![First Login](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4021.png) 
 1. Enter your {{ en.DHUBB }} server address, then click ***Save***.  
-![!!{{ en.DHUBB }} Server Address](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4026.png) 
+![{{ en.DHUBB }} Server Address](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4026.png) 
 1. ***Log In*** to your {{ en.DA }}.  
 ![Connecting {{ en.DHUBB }} to the {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4022.png) 
 1. Enter your {{ en.DA }} credentials to continue.  
