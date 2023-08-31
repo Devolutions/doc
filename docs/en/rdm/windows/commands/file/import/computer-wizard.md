@@ -33,24 +33,24 @@ Refer to the sections below depending on the chosen source.
 ### Network Neighborhood 
 
 The next screen will immediately be populated with the result of the network discovery.  
-![!!clip10737.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10737.png) 
+![!!clip10737](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10737.png) 
 
 If you prefer your sessions to use the IP address instead of the Host name to connect to the devices, check the ***Select by IP address*** option. This requires that the ***Resolve by IP address*** was selected in the first screen of the wizard. Select the computers for which you want to create session and proceed to [Template Selection](#template-selection) below. Multi-select is allowed by using Ctrl+click and Shift-Click. 
 
 ### Active directory 
 
 The following screen allows you to select the domain to interrogate after which you must press refresh to load the list of computers that are available.  
-![!!clip10093.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10093.png) 
+![!!clip10093](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10093.png) 
 
 After the query is executed, the results are displayed in the grid.  
-![!!clip10094.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10094.png) 
+![!!clip10094](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10094.png) 
 
 If you prefer your sessions to use the IP address instead of the Host name to connect to the devices, check the ***Select by IP address*** option. This requires that the ***Resolve by IP address*** was selected in the first screen of the wizard. Select the computers for which you want to create session and proceed to [Template Selection](#template-selection) below. Multi-select is allowed by using Ctrl+click and Shift-click. 
 
 ### Host list 
 
 The following screen allows you to enter a list of hosts in an Edit control. If you prefer that your sessions use the IP address to connect to the hosts, you must enter the host name, a pipe, then the IP address.  
-![!!clip10095.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10095.png) 
+![!!clip10095](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10095.png) 
 
 Proceed to [Template Selection](#template-selection) below. 
 

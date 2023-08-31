@@ -15,5 +15,5 @@ Utiliser nos outils de rapports pour afficher vos recettes, le nombre de clics e
 
 Cliquer sur ***S'inscrire maintenant*** et remplir le formulaire d'inscription pour commencer à recevoir vos redevances directement dans votre compte PayPal.  
 
-![!!Cloud4051.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4051.png) 
+![!!Cloud4051](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4051.png) 
 

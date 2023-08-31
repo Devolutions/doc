@@ -10,4 +10,4 @@ Les ***Administrateurs*** peuvent autoriser des utilisateurs spécifiques à dev
 Un redémarrage de {{ fr.RDM }} peut être nécessaire pour activer le droit d'administrateur. 
 {% endsnippet %}
  
-![!!Hub4132.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4132.png) 
+![!!Hub4132](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4132.png) 

@@ -20,12 +20,12 @@ Vous pouvez choisir de créer un modèle ***Local*** ou un modèle ***Partagé**
 Par défaut, les utilisateurs standard ne peuvent pas créer ou gérer de modèles. Pour permettre aux utilisateurs de créer ou de gérer des modèles, la permission doit être accordée aux utilisateurs en allant dans la section ***Administration - Modèles*** des [Permissions du système](/fr/rdm/windows/commands/administration/settings/system-permissions/). 
 {% endsnippet %}
  
-![!!clip10235.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10235.png) 
+![!!clip10235](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10235.png) 
 
 ## Disponibilité 
 
 Lors de la création d'un modèle, sa disponibilité peut être spécifiée dans les ***Paramètres du modèle***.  
-![!!clip3585.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3585.png) 
+![!!clip3585](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3585.png) 
 
 ## Usage 
 
@@ -34,12 +34,12 @@ Les modèles peuvent être utilisés dans les cas suivants :
 ### Créer des entrées préconfigurées 
 
 Par défaut, lors de la création d'une entrée d'un type pour lequel des modèles sont configurés, l'utilisateur est invité à indiquer un modèle à utiliser. Ce comportement peut être modifié dans les [Paramètres du système](/fr/rdm/windows/commands/administration/settings/system-settings/general/).  
-![!!clip3584.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3584.png) 
+![!!clip3584](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3584.png) 
 
 Le modèle peut également être sélectionné avant de créer l'entrée. Utiliser la section ***Modèle*** de la fenêtre ***Ajouter une entrée***.  
-![!!clip10266.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10266.png) 
+![!!clip10266](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10266.png) 
 
 ### Exécuter une session avec une connexion rapide 
 
 Les modèles peuvent être utilisés avec la fonction de ***Connexion rapide***. Par exemple, le même modèle peut être utilisé pour se connecter à différents hôtes.  
-![!!clip10164.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10164.png) 
+![!!clip10164](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10164.png) 

@@ -5,7 +5,7 @@ title: SQLite
 	<tr>
 		<td>
 
-![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 {{ en.RDM }} 's SQLite data source is ideal for single user and stand-alone situations. More powerful and more flexible than the XML file format, it also supports a few of the Advanced Data Source options like Logs and Attachments. 

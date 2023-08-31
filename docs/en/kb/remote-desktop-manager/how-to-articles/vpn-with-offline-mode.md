@@ -9,4 +9,4 @@ In the ***Properties – Settings*** of your VPN entry. You will need to enable 
 
 1. ***Go Offline on connection***.
 1. ***Go Online on disconnect***.  
-![!!KB4678.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4678.png)
+![!!KB4678](https://webdevolutions.azureedge.net/docs/en/kb/KB4678.png)

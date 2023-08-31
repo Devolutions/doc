@@ -14,7 +14,7 @@ However, since encrypting the **web.config** file uses ***RsaProtectedConfigurat
 
 {% snippet icon.badgeCaution %}
 Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, and will also cause this prompt when enabling the ***Encypt web.config file*** option.  
-![!!KB4841.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4841.png)
+![!!KB4841](https://webdevolutions.azureedge.net/docs/en/kb/KB4841.png)
 {% endsnippet %}
 
 {% snippet icon.shieldWarning %}
@@ -26,7 +26,7 @@ The **appsettings.json** file is encrypted at the same time.
 {% endsnippet %}
 
 We recommend to use a dedicated account for the ***DevolutionsSchedulerService*** service, and set this account to run the service under.  
-![!!KB4842.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4842.png)
+![!!KB4842](https://webdevolutions.azureedge.net/docs/en/kb/KB4842.png)
 
 Then run the following command from an elevated Command Prompt:
 
@@ -54,7 +54,7 @@ However, since encrypting the **web.config** file uses ***RsaProtectedConfigurat
 
 {% snippet icon.badgeCaution %}
 Omitting to do so will prevent the ***DevolutionsSchedulerService*** to start, likely giving this error from Windows Services Console:  
-![!!KB4843.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4843.png)
+![!!KB4843](https://webdevolutions.azureedge.net/docs/en/kb/KB4843.png)
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}

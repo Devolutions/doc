@@ -23,7 +23,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-![!!clip10859.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10859.png) 
+![!!clip10859](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10859.png) 
 		</td>
 		<td>
 Installer l'application sélectionnée. 
@@ -31,7 +31,7 @@ Installer l'application sélectionnée.
 	</tr>
 	<tr>
 		<td>
-![!!clip10860.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10860.png) 
+![!!clip10860](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10860.png) 
 		</td>
 		<td>
 Mettre à jour l'application sélectionnée. 
@@ -39,7 +39,7 @@ Mettre à jour l'application sélectionnée.
 	</tr>
 	<tr>
 		<td>
-![!!clip10861.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10861.png) 
+![!!clip10861](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10861.png) 
 		</td>
 		<td>
 Désinstaller l'application sélectionnée. 
@@ -47,7 +47,7 @@ Désinstaller l'application sélectionnée.
 	</tr>
 	<tr>
 		<td>
-![!!clip10862.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10862.png) 
+![!!clip10862](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10862.png) 
 		</td>
 		<td>
 Actualiser la liste des détails Chocolatey. 

@@ -9,7 +9,7 @@ Quelques étapes sont nécessaires afin d’envoyer correctement les noms d’ut
 ## Méthode 1 
 
 1. Saisir les identifiants dans l'onglet ***Général*** de l'entrée ***Site Web***.  
-![!!KB2045.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2045.png)  
+![!!KB2045](https://webdevolutions.azureedge.net/docs/fr/kb/KB2045.png)  
 
 {% snippet icon.badgeInfo %} 
 L'extension {{ fr.DWL }} est activée par défaut. Il est possible de la désactiver à partir du même onglet en sélectionnant ***Désactivée*** dans le menu déroulant ***{{ fr.DWL }}***. 
@@ -21,7 +21,7 @@ Le [***Type de correspondance***](/fr/kb/devolutions-web-login/how-to-articles/u
  
 2. Sélectionner ***Formulaire*** dans le menu déroulant ***Authentification*** de l'onglet ***Connexion***. 
 1. Vérifier que les options ***Remplissage automatique des identifiants*** et ***Soumission automatique*** sont activées dans l'onglet ***Connexion – Paramètres***.  
-![!!KB2046.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2046.png) 
+![!!KB2046](https://webdevolutions.azureedge.net/docs/fr/kb/KB2046.png) 
 <table>
 	<tr>
 		<th>
@@ -83,7 +83,7 @@ Définir un délai entre l’ouverture de la page Web et la tentative de remplis
 
 4. Dans l'onglet ***Connexion – ID du contrôle HTML***, cliquer sur le bouton ***Découvrir*** pour définir les champs appropriés.  
 
-![!!KB2047.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2047.png)  
+![!!KB2047](https://webdevolutions.azureedge.net/docs/fr/kb/KB2047.png)  
 
 La fonction ***Découvrir*** recherche dans la page Web les champs qui correspondent à ceux de l’entrée. Cela permet à l’application de trouver les champs appropriés à remplir lors de la connexion au site Web.  
 
@@ -97,10 +97,10 @@ Pour cet exemple, Google Chrome sera utilisé pour inspecter les champs de conne
 
 Vous devrez faire un clic droit dans les champs de nom d’utilisateur et de mot de passe du site Web et cliquer sur ***Inspecter***.  
 
-![!!KB2048.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2048.png)  
+![!!KB2048](https://webdevolutions.azureedge.net/docs/fr/kb/KB2048.png)  
 
 Vous verrez les ID correspondants à utiliser dans l'onglet ***ID du contrôle HTML*** de la session ***Site Web*** dans {{ fr.RDM }}.  
 
 Vous trouverez ci-dessous un exemple d’inspection pour le champ Username. Vous pouvez y voir que l'ID du nom d'utilisateur est « username ».  
 
-![!!KB2049.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2049.png) 
+![!!KB2049](https://webdevolutions.azureedge.net/docs/fr/kb/KB2049.png) 

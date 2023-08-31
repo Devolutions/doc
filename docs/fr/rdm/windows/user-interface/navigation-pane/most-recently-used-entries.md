@@ -11,4 +11,4 @@ Pour supprimer l'historique des entrées les plus récemment utilisées, sélect
 Par défaut, dix éléments seront conservés dans l'historique des entrées les plus récemment utilisées. Ce paramètre peut être modifié dans ***Fichier – Options – Application – Récent***.  
 
 L'onglet ***Récent*** est également accessible à partir du ***Ruban*** dans ***Affichage – Panneaux – Récent***.  
-![!!RDMWin2049.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2049.png)
+![!!RDMWin2049](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2049.png)

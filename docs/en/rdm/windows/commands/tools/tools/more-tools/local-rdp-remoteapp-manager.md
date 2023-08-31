@@ -46,6 +46,6 @@ Enable or disable UDP (User Datagram Protocol) locally on your computer. UDP is 
 1. Click on ***New RemoteApp Settings***.  
 ![New RemoteApp Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10422.png) 
 1. Configure the RemoteApp.  
-![!!clip10423.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10423.png) 
+![!!clip10423](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10423.png) 
 1. Create a new RDP session and select the ***Programs*** tab. Enable the ***Use RemoteApp*** option and then enter the name of the RemoteApp program and save the session. When the session is launched you will have the RemoteApp running locally.  
 ![RDP session - Programs Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10812.png) 

@@ -11,7 +11,7 @@ Ajouter un niveau de sécurité à votre {{ fr.DA }} en configurant un mode d'au
 ### Configuration de la récupération de compte 
 
 1. Ouvrir votre {{ fr.DA }} et cliquer sur ***Authentification à deux facteurs***.  
-![!!Cloud4026.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4026.png) 
+![!!Cloud4026](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4026.png) 
 1. Cliquer sur ***Configurer***. 
 1. Choisir votre méthode de récupération de compte entre ***SMS*** ou ***Courriel***.  
 ![Récupération de compte](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4027.png)
@@ -58,5 +58,5 @@ Choisir <a href="#push">Notification Push</a>, <a href="#app">Application d'auth
 ### Clé de sécurité <a name="key"></a>
 
 1. Cliquer ***Clé de sécurité***.  
-![!!Cloud4077.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4077.png) 
+![!!Cloud4077](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4077.png) 
 1. Vous serez redirigé vers la section [Clé de sécurité](GettingStarted_SecurityKey) du {{ fr.DA }}. 

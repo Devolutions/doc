@@ -6,7 +6,7 @@ The ***User Specific Settings***, in {{ en.RDM }} 2022.2, are being migrated to 
 ## Scenarios
 
 1. Users who connect for the first time with this new version will receive this warning prompt:  
-![!!KB4947.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4947.png)  
+![!!KB4947](https://webdevolutions.azureedge.net/docs/en/kb/KB4947.png)  
 
 Options:
 
@@ -14,7 +14,7 @@ Options:
 * ***No***: This option will save a new encrypted version of the ***User Specific Settings***, but will not delete the existing one. This will allow the user to keep on utilizing the previous ***User Specific Settings*** on an older version or on the {{ en.RDMMOBILE }} version who are not yet updated.  
 
 2. While connecting, {{ en.RDM }} detects ***User Specific Settings*** that are encrypted from an older {{ en.RDM }} version.  
-![!!KB4948.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4948.png)  
+![!!KB4948](https://webdevolutions.azureedge.net/docs/en/kb/KB4948.png)  
 
 Options:  
 

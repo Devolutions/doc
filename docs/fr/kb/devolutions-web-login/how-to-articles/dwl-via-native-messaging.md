@@ -6,9 +6,9 @@ eleventyComputed:
 1. Dans le navigateur, cliquer sur l’icône de l’extension {{ fr.DWL }}, puis cliquer sur ***Paramètres***. 
 1. Sous ***Sources de données***, cliquer sur ***{{ fr.RDM }}***. 
 1. Cliquer sur ***Avancé*** et cocher la case ***Activer la messagerie native*** et ***Enregistrer***.  
-![!!KB4008.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4008.png) 
+![!!KB4008](https://webdevolutions.azureedge.net/docs/fr/kb/KB4008.png) 
 1. Dans {{ fr.RDM }}, aller dans ***Fichier - Options - Extensions de navigateur - Avancé***.  
-![!!KB4007.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4007.png) 
+![!!KB4007](https://webdevolutions.azureedge.net/docs/fr/kb/KB4007.png) 
 1. Cocher la case ***Activer la messagerie native***. 
 1. Décocher la case ***Activer écouteur HTTP***, puis cliquer sur ***OK***. 
 1. Aller dans le fichier d’installation de {{ fr.RDM }} installé par défaut dans **\Program Files (x86)\Devolutions\Remote Desktop Manager**. 

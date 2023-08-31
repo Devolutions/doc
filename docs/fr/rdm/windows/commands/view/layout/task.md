@@ -16,13 +16,13 @@ Il est possible de créer des tâches pour assurer le suivi du travail qui doit 
 
 ### Création de tâches 
 
-![!!RDMWin2039.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2039.png) 
+![!!RDMWin2039](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2039.png) 
 
 Pour avoir plus d'information sur la façon de créer une tâche, consultez la section Création d'une tâche de la rubrique [***Liste des tâches***](/fr/rdm/windows/commands/view/panels/task-list/). 
 
 ### Filtre de tâches 
 
-![!!RDMWin2037.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2037.png) 
+![!!RDMWin2037](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2037.png) 
 
 Cliquer sur l'icône ***Filtre*** ouvre une fenêtre permettant de filtrer les tâches de l'entrée par ***Échéance***, ***Statut*** ou ***Nom d'utilisateur***.  
 ![Filtre des tâches](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2038.png) 

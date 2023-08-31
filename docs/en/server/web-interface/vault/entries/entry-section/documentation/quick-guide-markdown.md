@@ -5,7 +5,7 @@ Markdown is a lightweight markup language used for ***Documentation*** in entrie
 
 For your convenience, we have added formatting buttons with fonts, styles and inserts. To use, click on a formatting button and insert your data.  
 
-![!!ServerOp4028.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4028.png) 
+![!!ServerOp4028](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4028.png) 
 
 {% snippet icon.badgeNotice %} 
 Click the ***View*** or ***Split Vertically*** buttons to review the format of the document. 

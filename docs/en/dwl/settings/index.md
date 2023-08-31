@@ -5,11 +5,11 @@ status: Topic available in German language
 ---
 The {{ en.DWL }} settings can be accessed via the ***Settings*** button in the browser extension window regardless of which Devolutions application you are using with {{ en.DWL }}.  
 
-![{{ en.DWL }} Settings Button.png](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl2000.png)  
+![{{ en.DWL }} Settings Button](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl2000.png)  
 
 The ***Settings*** are separated in two categories: <a href="#configuration">***Configuration***</a> and <a href="#source">***Data sources***</a>.  
 
-![{{ en.DWL }} Settings.png](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl4027.png)
+![{{ en.DWL }} Settings](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl4027.png)
 
 ### Configuration <a name="configuration"></a>
 

@@ -5,7 +5,7 @@ title: DropBox
 	<tr>
 		<td>
 
-![!!DataSourceDropBoxLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
+![!!DataSourceDropBoxLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
 		</td>
 		<td>
 {{ fr.RDM }} utilise l'API Dropbox pour récupérer un fichier XML à partir du {{ fr.VLT }} configuré. Il n'est pas nécessaire d'installer le client Dropbox sur la machine pour ouvrir la source de données. Il est également possible de configurer plusieurs comptes Dropbox sur la même machine. 

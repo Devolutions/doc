@@ -30,7 +30,7 @@ Pour obtenir une liste complète des champs et entrées disponibles dans la fen�
 ### Onglet Toutes les entrées  
 
 L'onglet ***{{ fr.VLT }}s*** vous permet de parcourir tous vos {{ fr.VLT }}s pour accéder à vos entrées.  
-![!!Hub2083.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2083.png) 
+![!!Hub2083](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2083.png) 
 En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher dans vos entrées et vos {{ fr.VLT }}s.  
 
 Pour accéder à une entrée dans {{ fr.DWL }}, naviguez dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.DHUBP }}.  

@@ -25,5 +25,5 @@ CETTE ACTION NE PEUT PAS ÊTRE ANNULÉE!
 Une fois que vous avez supprimé un compte, les données et les informations du compte sont supprimées définitivement. 
 {% endsnippet %}
  
-![!!Cloud4001.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4001.png) 
+![!!Cloud4001](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4001.png) 
 

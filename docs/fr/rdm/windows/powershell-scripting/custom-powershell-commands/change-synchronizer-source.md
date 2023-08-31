@@ -7,7 +7,7 @@ Si vous avez utilisé la version {{ fr.RDM }} avec la fonction du synchroniseur 
 
 1. Sélectionner votre entrée Synchroniseur dans votre arborescence, cliquer avec le bouton droit et sélectionner ***Propriétés***. 
 1. Copier l'***ID de l'entrée*** dans ***Information de l'entrée***.  
-![!!RdmWin4058.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4058.png) 
+![!!RdmWin4058](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4058.png) 
 1. Sélectionner vos entrées et accéder à la boîte de dialogue Commande PowerShell personnalisée comme décrit dans [Commandes PowerShell personnalisées](/fr/rdm/windows/powershell-scripting/custom-powershell-commands/). 
 1. Écrire la ligne suivante pour votre commande Powershell : 
 
@@ -15,5 +15,5 @@ Si vous avez utilisé la version {{ fr.RDM }} avec la fonction du synchroniseur 
 $connection.CreationSource = "ID de l'entrée du synchroniseur"
 $RDM.Save();
 ```
-![!!RdmWin4059.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4059.png) 
+![!!RdmWin4059](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4059.png) 
 

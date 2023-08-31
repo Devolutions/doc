@@ -5,7 +5,7 @@ title: Microsoft SQL Azure
 	<tr>
 		<td>
 
-![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 With a Microsoft Azure SQL data source, {{ en.RDM }} uses the Microsoft cloud platform to save and manage entries.  

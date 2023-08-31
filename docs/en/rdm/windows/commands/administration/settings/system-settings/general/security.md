@@ -1,7 +1,7 @@
 ---
 title: Security
 ---
-![!!clip10724.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10724.png) 
+![!!clip10724](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10724.png) 
 
 <table>
 	<tr>

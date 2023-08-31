@@ -33,24 +33,24 @@ Reportez-vous aux sections ci-dessous en fonction de la source choisie.
 ### Voisinage réseau 
 
 L'écran suivant sera immédiatement rempli avec le résultat de la découverte du réseau.  
-![!!clip10737.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10737.png) 
+![!!clip10737](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10737.png) 
 
 Si vous préférez que vos sessions utilisent l'adresse IP au lieu du nom d'hôte pour se connecter aux périphériques, cocher l'option ***Résoudre l'adresse IP***. Cela nécessite que ***Résoudre l'adresse IP*** soit sélectionné dans le premier écran de l'assistant. Sélectionner les ordinateurs pour lesquels vous souhaitez créer une session et passez à la [Sélection de modèles](#sélection-de-modèles) ci-dessous. La sélection multiple est autorisée en utilisant Ctrl+clic et Maj+clic. 
 
 ### Activer répertoire 
 
 L'écran suivant vous permet de sélectionner le domaine à interroger, après quoi vous devez appuyer sur ***Actualiser*** pour charger la liste des ordinateurs disponibles.  
-![!!clip10093.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10093.png) 
+![!!clip10093](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10093.png) 
 
 Une fois la requête exécutée, les résultats sont affichés dans cette fenêtre.  
-![!!clip10094.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10094.png) 
+![!!clip10094](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10094.png) 
 
 Si vous préférez que vos sessions utilisent l'adresse IP au lieu du nom d'hôte pour se connecter aux périphériques, cocher l'option ***Résoudre l'adresse IP***. Cela nécessite que ***Résoudre l'adresse IP*** soit sélectionné dans le premier écran de l'assistant. Sélectionner les ordinateurs pour lesquels vous souhaitez créer une session et passez à la [Sélection de modèles](#sélection-de-modèles) ci-dessous. La sélection multiple est autorisée en utilisant Ctrl+clic et Maj-Clic. 
 
 ### Liste des hôtes 
 
 L'écran suivant vous permet de saisir une liste d'hôtes dans un mode éditable. Si vous préférez que vos sessions utilisent l'adresse IP pour se connecter aux hôtes, vous devez entrer le nom d'hôte, un canal, puis l'adresse IP.  
-![!!clip10095.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10095.png) 
+![!!clip10095](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10095.png) 
 
 Passer à la [Sélection de modèles](#sélection-de-modèles) ci-dessous. 
 

@@ -42,7 +42,7 @@ Add the line `<DisableAnalytics>true</DisableAnalytics>` to your [**RemoteDeskto
 
 You can find the configuration file using ***File – Options – Advanced*** and click on the blue hyperlink at the bottom.  
 
-![!!KB4090.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4090.png)
+![!!KB4090](https://webdevolutions.azureedge.net/docs/en/kb/KB4090.png)
 ## Problem 4
 Native image generation.
 ### Solution

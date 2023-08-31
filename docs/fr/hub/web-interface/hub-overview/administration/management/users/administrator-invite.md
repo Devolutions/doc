@@ -5,7 +5,7 @@ Les administrateurs peuvent inviter des utilisateurs spécifiques à devenir adm
 
 1. Aller dans ***Administration - Utilisateurs***. 
 1. Cliquer ***Ajouter un administrateur***.  
-![!!Hub4157.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4157.png) 
+![!!Hub4157](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4157.png) 
 1. Saisir l'adresse courriel de l'administrateur. 
 1. Appuyer sur Entrée. 
 {% snippet icon.badgeInfo %} 

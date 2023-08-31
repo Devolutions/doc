@@ -20,7 +20,7 @@ Aber warten Sie - bevor Sie in Betrieb gehen, lassen Sie uns doch einen [{{ en.C
 ## Versionsverwaltung
 
 Das Szenario ist bekannt: Ihr Team arbeitet seit Monaten oder sogar Jahren mit {{ de.RDM }} und alles läuft prima. Dann kommt eine neue Version mit coolen neuen Funktionen auf den Markt und sie möchten, dass alle in ihrem Unternehmen ein Upgrade durchführen. Das folgende Fenster zeigt die verschiedenen Optionen, die Ihnen zur Steuerung der Client-Versionen zur Verfügung stehen.  
-![!!KB4598.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4598.png)  
+![!!KB4598](https://webdevolutions.azureedge.net/docs/de/kb/KB4598.png)  
 
 Wir haben dies extrem einfach gemacht. Öffnen Sie einfach ***Administration - Datenquelleneinstellungen (Systemeinstellungen) - Versionsverwaltung***. Nachfolgend sind einige Einstellungen beschrieben:  
 
@@ -36,7 +36,7 @@ Auf der Registerkarte Allgemein unter ***Administration – Datenquelleneinstell
 
 Eine großartige Funktion für Teams ist die Systemnachricht, mit der ein Administrator die Nutzer über bevorstehende Systemausfallzeiten, Änderungen der Richtlinien oder andere Dinge informieren kann. Jeder Nutzer erhält die Nachricht, sobald er die nächste Aktion (Öffnen, Bearbeiten, Aktualisieren...) in der Datenquelle ausführt. Verwenden Sie diese Funktion, um die Klauseln zur Vertraulichkeit des Unternehmens anzuzeigen oder mit einer Nachricht wie der folgenden ein wenig Chaos zu verbreiten. Ein kleines bisschen Chaos ist gut für die Seele.  
 
-![!!KB4599.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4599.png)
+![!!KB4599](https://webdevolutions.azureedge.net/docs/de/kb/KB4599.png)
 
 ## {{ de.DVLS }}
 

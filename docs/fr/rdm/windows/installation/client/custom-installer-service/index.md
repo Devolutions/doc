@@ -6,7 +6,7 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!CustomInstallerServiceIcon.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/CustomInstallerServiceIcon.png) 
+![!!CustomInstallerServiceIcon](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/CustomInstallerServiceIcon.png) 
 		</td>
 		<td>
 * Générer et télécharger des paquets d'installation personnalisés pour {{ fr.RDM }}. 

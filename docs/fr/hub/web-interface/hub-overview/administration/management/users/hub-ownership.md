@@ -11,4 +11,4 @@ Pour modifier le propriétaire, cliquer sur l'icône ***Définir comme propriét
 Vous ne pouvez avoir qu'un seul propriétaire à la fois et seul un administrateur peut être propriétaire. 
 {% endsnippet %}
  
-![!!Hub4134.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4134.png) 
+![!!Hub4134](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4134.png) 

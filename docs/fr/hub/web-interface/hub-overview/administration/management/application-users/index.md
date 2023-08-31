@@ -7,4 +7,4 @@ Les ***Utilisateurs d'application*** sont créés pour être utilisés pour se c
 
 * Un accès à {{ fr.DHUBB }} avec un {{ fr.DA }} valide. 
 * Un utilisateur disposant de permissions suffisantes pour ajouter des ***Utilisateurs d'application***.  
-![!!Hub4051.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4051.png) 
+![!!Hub4051](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4051.png) 

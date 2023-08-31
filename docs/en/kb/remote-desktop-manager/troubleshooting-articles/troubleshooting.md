@@ -32,4 +32,4 @@ Webroot SecureAnywhere AntiVirus may cause the issue because of the Identity Pro
 All of my sessions open in embedded and/or external mode.
 ### Solution
 This can be changed by going in ***File - Options - User Interface - {{ en.NPANE }} - Default connect action***.  
-![!!KB4080.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4080.png)
+![!!KB4080](https://webdevolutions.azureedge.net/docs/en/kb/KB4080.png)

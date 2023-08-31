@@ -37,7 +37,7 @@ Une licence sera automatiquement attribué à tout nouveau compte d'utilisateur.
 
 ### Assigné à 
 
-![!!ServerOp8063.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8063.png) 
+![!!ServerOp8063](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8063.png) 
 
 <table>
 	<tr>

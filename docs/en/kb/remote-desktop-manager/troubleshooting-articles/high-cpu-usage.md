@@ -8,4 +8,4 @@ This option is available with version 13.0.13.0 and above.
 
 ## Solution
 Disable the option ***Allow entry states (Lock, Running, Checkout)*** in ***Administration – System Settings – General*** to improve performance on your servers and your workstations.  
-![!!KB2024.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2024.png)
+![!!KB2024](https://webdevolutions.azureedge.net/docs/en/kb/KB2024.png)

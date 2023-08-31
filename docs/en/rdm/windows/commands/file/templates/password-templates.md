@@ -69,7 +69,7 @@ Settings for length, case, digits, and characters.
 </table>
 
 6. Choose specific settings.  
-![!!RdmWin7018.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin7018.png) 
+![!!RdmWin7018](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin7018.png) 
 1. The password is now available in the ***Password Generator*** (***Tools*** menu). 
 
 ### Use a Password Template with the Password Generator 

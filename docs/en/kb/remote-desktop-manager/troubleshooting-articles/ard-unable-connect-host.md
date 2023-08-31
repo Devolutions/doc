@@ -11,4 +11,4 @@ We have identified the Remote Management option on {{ en.MAC }} as one of the po
 
 1. Open ***System Preferences*** and click on ***Sharing***.
 1. Check/uncheck the option ***Remote Management*** to fix the issue.  
-![!!KB2001.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2001.png)
+![!!KB2001](https://webdevolutions.azureedge.net/docs/en/kb/KB2001.png)

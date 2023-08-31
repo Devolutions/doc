@@ -13,10 +13,10 @@ In existing databases, Pwned check is not turned on automatically.
 
 1. Go to ***Administration - System Settings - Password Validation***.
 1. In the ***Compromised (pwned) check*** option, choose ***Enabled*** from the list and click ***OK***.  
-![!!KB4272.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4272.png)  
+![!!KB4272](https://webdevolutions.azureedge.net/docs/en/kb/KB4272.png)  
 
 {{ en.RDM }} analyzes a password when you save an entry. A message is displayed when a password is found in the Pwned Passwords database. If you see this window, you should change your password immediately. Remember to change it in {{ en.RDM }} and the actual account.  
-![!!KB4273.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4273.png)  
+![!!KB4273](https://webdevolutions.azureedge.net/docs/en/kb/KB4273.png)  
 
 ### The back end
 
@@ -33,8 +33,8 @@ Here is how it works:
 ### Choose stronger passwords
 
 {{ en.RDM }} makes it easy to make strong passwords. The built-in [Password Generator](/rdm/windows/commands/tools/generators/password/) creates secure passwords, following your specifications for password length and complexity. The password generator is available on every entry beside the field where you enter a password.  
-![!!KB4274.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4274.png)  
-![!!KB4781.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4781.png)  
+![!!KB4274](https://webdevolutions.azureedge.net/docs/en/kb/KB4274.png)  
+![!!KB4781](https://webdevolutions.azureedge.net/docs/en/kb/KB4781.png)  
 
 {{ en.RDM }} also has a [Entry Security Analyzer](/rdm/windows/commands/tools/tools/entry-security-analyzer/) that provides feedback on all your passwords. A rating is included on the entry. It uses Zxcvbn to evaluate passwords.  
 

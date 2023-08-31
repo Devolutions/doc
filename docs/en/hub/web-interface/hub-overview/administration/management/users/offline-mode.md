@@ -12,4 +12,4 @@ In the ***Users*** section, you can enable the offline mode for specific users. 
 A restart of {{ en.RDM }} may be needed to activate the offline mode. 
 {% endsnippet %}
  
-![!!Hub4069.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4069.png) 
+![!!Hub4069](https://webdevolutions.azureedge.net/docs/en/hub/Hub4069.png) 

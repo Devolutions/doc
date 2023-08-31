@@ -14,16 +14,16 @@ This feature is only available for some specific data sources, namely: {{ en.DVL
 <a name="server"></a>
 
 1. In {{ en.RDM }} go to ***Administration - Licenses*** it will redirect you to the {{ en.DVLS }} web interface ***Administration - Licenses*** section.  
-![!!KB4827.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4827.png)
+![!!KB4827](https://webdevolutions.azureedge.net/docs/en/kb/KB4827.png)
 1. Click on ***Add***.  
-![!!KB4828.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4828.png)
+![!!KB4828](https://webdevolutions.azureedge.net/docs/en/kb/KB4828.png)
 1. Paste your integration license and click ***Add***.  
-![!!KB4829.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4829.png)
+![!!KB4829](https://webdevolutions.azureedge.net/docs/en/kb/KB4829.png)
 
 ## Licensing with all other data sources
 <a name="all"></a>
 
 1. In {{ en.RDM }} go to ***Administration - Licenses***.  
-![!!KB4825.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4825.png)
+![!!KB4825](https://webdevolutions.azureedge.net/docs/en/kb/KB4825.png)
 1. Click on ***Add License***, paste your integration license and click ***OK***.  
-![!!KB4826.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4826.png)
+![!!KB4826](https://webdevolutions.azureedge.net/docs/en/kb/KB4826.png)

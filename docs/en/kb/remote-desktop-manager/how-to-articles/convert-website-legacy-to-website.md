@@ -19,6 +19,6 @@ Note that it is also possible to convert a ***Website*** entry back to a ***Webs
 {% endsnippet %}
  
 4. Click ***OK*** in the ***Batch Action Result*** window. 
-![Batch Action Result Window.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2078.png)  
+![Batch Action Result Window](https://webdevolutions.azureedge.net/docs/en/kb/KB2078.png)  
 
 Your entry has now been converted.

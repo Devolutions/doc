@@ -10,5 +10,5 @@ Le ***Niveau d'Assurance d'Authentification*** (AAL) dépendra du nombre et du t
 * ***Élevé (Niveau 3)*** : Au moins deux catégories différentes de facteurs d'authentification.  
 
 Cliquer sur les menus à trois points pour vous déconnecter et accéder à plus d'options.  
-![!!Cloud4054.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4054.png) 
+![!!Cloud4054](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4054.png) 
 

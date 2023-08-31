@@ -13,7 +13,7 @@ In modern versions of Windows, like Windows 10 or Windows Server 2016, the RDP d
 
 In the RDP session check mark ***Activate network level authentication*** than ***OK***.  
 
-![!!KB4057.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4057.png)
+![!!KB4057](https://webdevolutions.azureedge.net/docs/en/kb/KB4057.png)
 ### Option 2
 
 In the Windows Server 2016:  

@@ -28,7 +28,7 @@ Les étapes suivantes garantissent une véritable portabilité et une facilité 
 ## Procédure 
 
 1. Télécharger le paquet ***ZIP*** de {{ fr.RDM }} Team.  
-![!!clip11586.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11586.png) 
+![!!clip11586](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11586.png) 
 1. Créer un dossier RemoteDesktopManager sur votre appareil portable. 
 1. Dans le dossier d'installation créé à l'étape 2, créer deux dossiers : 
     1. Un dossier config. 
@@ -39,9 +39,9 @@ Les étapes suivantes garantissent une véritable portabilité et une facilité 
 1. Ouvrir {{ fr.RDM }} et afficher la fenêtre des sources de données à l'aide de ***Fichier - Sources de données***. 
 1. Créer une nouvelle source de données d'un type pouvant être stocké sur votre appareil portable. c'est-à-dire SQLite, XML, etc. 
 1. Configurer la source de données à l'aide d'un chemin d'accès relatif afin qu'elle soit stockée sur le périphérique portable : .\Data\Connections.db.  
-![!!clip11276.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11276.png) 
+![!!clip11276](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11276.png) 
 1. Configurer vos applications portables (FileZilla, UltraVNC, etc.) de la même manière (par rapport au dossier d'installation). Cliquer sur ***Configurer le chemin d'installation*** pour sélectionner votre application portable préférée.  
-![!!clip10449.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10449.png) 
-![!!clip11277.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11277.png) 
+![!!clip10449](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10449.png) 
+![!!clip11277](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11277.png) 
 1. Vous pouvez maintenant supprimer la source de données locale préexistante qui avait été créée automatiquement. 
 

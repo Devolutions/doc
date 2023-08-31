@@ -19,7 +19,7 @@ Wir raten Ihnen dringend, Ihre Datenbank vor dem Umzug zu reinigen.
 1. Klicken Sie auf das Pluszeichen „+“, um eine neue Migration zu erstellen.
 1. Wählen Sie ***Migration*** und benennen Sie das ***Projekt***.
 1. Wählen Sie die ***Quelle*** Ihres ***Servertyps*** und das ***Ziel*** Ihres ***Servertyps*** aus dem Dropdown-Menü aus und lassen Sie den Migrationsbereich auf Schema und Daten. Klicken Sie auf ***Erstellen***.  
-![!!KB4728.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4728.png)  
+![!!KB4728](https://webdevolutions.azureedge.net/docs/de/kb/KB4728.png)  
 
 6. Geben Sie den lokalen ***Servernamen*** ein und wählen Sie ***Authentifizierungstyp***.  
 {% snippet icon.badgeInfo %}
@@ -28,7 +28,7 @@ Vergewissern Sie sich, dass Sie über ausreichende Rechte und Berechtigungen ver
 
 7. Klicken Sie auf ***Verbinden***..
 1. Wählen Sie Ihre Datenbank in der geladenen Auswahl und klicken Sie auf ***Weiter***.  
-![!!KB4729.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4729.png)
+![!!KB4729](https://webdevolutions.azureedge.net/docs/de/kb/KB4729.png)
 1. Geben Sie den lokalen ***Namen des Zielservers*** ein und wählen Sie ***Authentifizierungstyp***.  
 {% snippet icon.badgeInfo %}
 Vergewissern Sie sich, dass Sie über ausreichende Rechte und Berechtigungen verfügen, um diese Aktion durchzuführen.
@@ -40,7 +40,7 @@ Vergewissern Sie sich, dass Sie über ausreichende Rechte und Berechtigungen ver
 Ihre neue Datenbank muss bereits [erstellt](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart) worden sein, um in dieser Liste zu erscheinen. 
 {% endsnippet %}  
 
-![!!KB4730.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4730.png)
+![!!KB4730](https://webdevolutions.azureedge.net/docs/de/kb/KB4730.png)
 
 12. Überprüfen Sie, ob Sie Probleme haben, indem Sie in der Liste der Schemaobjekte auf der linken Seite nach unten scrollen. Sie können auf ein Element klicken, um weitere Details zu einem speziellen Problem zu erhalten und zu erfahren, ob eine Lösung verfügbar ist.  
 {% snippet icon.badgeCaution %}
@@ -52,19 +52,19 @@ Nach dem Exportieren der Nutzerdaten müssen Sie einen neuen Nutzer in ihrer Lis
 {% endsnippet %}  
 
 13. Wenn alle Probleme behoben oder deaktiviert sind, klicken Sie bitte auf ***SQL-Skript erzeugen***.  
-![!!KB4731.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4731.png)  
+![!!KB4731](https://webdevolutions.azureedge.net/docs/de/kb/KB4731.png)  
 1. Wenn das Skript erstellt ist, überprüfen Sie bitte, ob es irgendwelche Probleme gibt und klicken Sie dann auf ***Schema bereitstellen***.  
-![!!KB4732.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4732.png)    
+![!!KB4732](https://webdevolutions.azureedge.net/docs/de/kb/KB4732.png)    
 {% snippet icon.badgeInfo %}
 Dies kann einige Zeit in Anspruch nehmen, je nachdem, wie umfangreich Ihr Verbindungsverlauf in der Datenbank ist.
 {% endsnippet %}  
 
 15. Wenn die ***Bereitstellungsergebnisse*** ausgeführt sind, überprüfen Sie bitte, ob es Probleme gibt, klicken Sie dann auf ***Daten migrieren***.
-![!!KB4734.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4734.png)
+![!!KB4734](https://webdevolutions.azureedge.net/docs/de/kb/KB4734.png)
 1. Klicken Sie auf ***Datenmigration starten***. Bitte beachten Sie, dass die Anzahl der Tabellen je nach Ihrer Version unterschiedlich sein kann.  
-![!!KB4735.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4735.png)
+![!!KB4735](https://webdevolutions.azureedge.net/docs/de/kb/KB4735.png)
 1. Warten Sie, bis die Migration abgeschlossen ist. Danach können Sie den ***Data Migration Assistant*** schließen.
-![!!KB4736.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4736.png)
+![!!KB4736](https://webdevolutions.azureedge.net/docs/de/kb/KB4736.png)
 1. Nun können Sie die neue Datenquelle in  <a href="#rdm">{{ de.RDM }}</a> erstellen oder die <a href="#dvls">{{ de.DVLSCONSOLE }}</a> aktualisieren.
 
 ### Lösung 2 [BACPAC](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications?view=sql-server-ver15#bacpac) <a name="ssms"></a>
@@ -95,7 +95,7 @@ Sie können diesen Assistenten nicht verwenden, um Datenbanken zwischen lokalen 
 
 1. Erstellen Sie eine neue Datenquelle unter ***Datei – Datenquellen – Neue Datenquelle hinzufügen***.
 1. Bei der ersten Verbindung erhalten Sie möglicherweise folgende Fehlermeldung. Klicken Sie in diesem Fall auf ***Beheben***.
-![!!KB4646.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4646.png)  
+![!!KB4646](https://webdevolutions.azureedge.net/docs/de/kb/KB4646.png)  
 
 {% snippet icon.badgeInfo %}
 Dies kann einige Zeit in Anspruch nehmen, je nachdem, wie umfangreich Ihr Verbindungsverlauf in der Datenbank ist.
@@ -104,4 +104,4 @@ Dies kann einige Zeit in Anspruch nehmen, je nachdem, wie umfangreich Ihr Verbin
 ### Verbindung zu  {{ de.DVLS }} <a name="dvls"></a>
 
 Aktualisieren Sie den ***Host*** und den Namen der Datenbank für die {{ de.DVLSCONSOLE }} unter ***Server – Bearbeiten– Datenbank***.
-![!!KB4971.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4971.png)
+![!!KB4971](https://webdevolutions.azureedge.net/docs/de/kb/KB4971.png)

@@ -10,4 +10,4 @@ Dans la section ***Général***, gérer la façon dont le ***Mot de passe tempor
 Activer le ***{{ fr.UVLT }}*** pour tous vos utilisateurs.  
 
 Le ***{{ fr.UVLT }}*** est un {{ fr.VLT }} personnalisé pour les entrées de tout type. Il permet à chaque utilisateur de créer des entrées que lui seul peut voir.  
-![!!Hub4161.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4161.png) 
+![!!Hub4161](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4161.png) 

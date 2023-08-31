@@ -15,10 +15,10 @@ To view all deleted attachments, run the ***Activity Logs*** report with the fil
 {% endsnippet %}
  
 2. Click ***Attachments***. 
-![!!ServerOp4075.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4075.png) 
+![!!ServerOp4075](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4075.png) 
 1. Click ***View Deleted Attachments***. 
-![!!ServerOp4076.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4076.png) 
+![!!ServerOp4076](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4076.png) 
 1. Select the attachment in the list. 
-![!!ServerOp4074.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4074.png) 
+![!!ServerOp4074](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4074.png) 
 1. Click ***Resurrect***. 
 

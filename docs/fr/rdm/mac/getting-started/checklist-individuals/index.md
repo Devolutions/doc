@@ -7,7 +7,7 @@ Pour vous aider à installer et configurer {{ fr.RDM }}, nous avons créé une l
 	<tr>
 		<th>
 
-![!!RDMMac4022.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4022.png) 
+![!!RDMMac4022](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4022.png) 
 		</th>
 		<th>
 LISTE DE VÉRIFICATION - INDIVIDUELLE (ÉDITION TEAM) 

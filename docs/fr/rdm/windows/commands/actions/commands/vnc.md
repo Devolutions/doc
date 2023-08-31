@@ -5,7 +5,7 @@ Les commandes VNC vous permettent d'envoyer des commandes à distance à votre h
 
 ## Paramètres 
 
-![!!RdmWin4051png.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4051png.png) 
+![!!RdmWin4051png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4051png.png) 
 
 <table>
 	<tr>

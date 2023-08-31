@@ -5,7 +5,7 @@ Les commandes d'une session RDP vous permettent d'envoyer des commandes à dista
 
 ## Paramètres 
 
-![!!RdmWin4049.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4049.png) 
+![!!RdmWin4049](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4049.png) 
 
 <table>
 	<tr>

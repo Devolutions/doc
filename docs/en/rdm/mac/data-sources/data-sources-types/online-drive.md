@@ -146,7 +146,7 @@ Specify the backup name that will allow you to automatically save your sessions 
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DOD }}.  
-![!!RDMMac4040.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4040.png) 
+![!!RDMMac4040](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4040.png) 
 
 ### Advanced 
 

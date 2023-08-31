@@ -9,4 +9,4 @@ Click the ***Export*** button to create a CSV report of the ***Deleted Entries**
 If an entry is deleted from a ***{{ en.UVLT }}***, only the user of the ***{{ en.UVLT }}*** can restore and manage it in the ***Reports*** section. 
 {% endsnippet %}
  
-![!!Hub4132.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4132.png)
+![!!Hub4132](https://webdevolutions.azureedge.net/docs/en/hub/Hub4132.png)

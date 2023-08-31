@@ -19,7 +19,7 @@ Description
 	<tr>
 		<td>
 
-![!!check-in.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/check-in.png)
+![!!check-in](https://webdevolutions.azureedge.net/docs/en/hub/Icons/check-in.png)
 		</td>
 		<td>
 Check In  
@@ -30,7 +30,7 @@ Release the session from check out.
 	</tr>
 	<tr>
 		<td>
-![!!check-out.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/check-out.png)
+![!!check-out](https://webdevolutions.azureedge.net/docs/en/hub/Icons/check-out.png)
 		</td>
 		<td>
 Check Out  
@@ -41,7 +41,7 @@ Reserve the session.
 	</tr>
 	<tr>
 		<td>
-![!!copy-clipboard.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/copy-clipboard.png)
+![!!copy-clipboard](https://webdevolutions.azureedge.net/docs/en/hub/Icons/copy-clipboard.png)
 		</td>
 		<td>
 Copy to Clipboard  
@@ -52,7 +52,7 @@ Copy the field of the selected entry (usually the username or password).
 	</tr>
 	<tr>
 		<td>
-![!!entry-SampleDownload.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/entry-SampleDownload.png)  
+![!!entry-SampleDownload](https://webdevolutions.azureedge.net/docs/en/hub/Icons/entry-SampleDownload.png)  
 		</td>
 		<td>
 Download 
@@ -63,7 +63,7 @@ Download a copy of the file contained in the entry.
 	</tr>
 	<tr>
 		<td>
-![!!edit.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/edit.png) 
+![!!edit](https://webdevolutions.azureedge.net/docs/en/hub/Icons/edit.png) 
 		</td>
 		<td>
 Edit 
@@ -74,7 +74,7 @@ Modify the properties of the selected entry.
 	</tr>
 	<tr>
 		<td>
-![!!entry-SampleKey1.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/entry-SampleKey1.png) 
+![!!entry-SampleKey1](https://webdevolutions.azureedge.net/docs/en/hub/Icons/entry-SampleKey1.png) 
 		</td>
 		<td>
 Go to 
@@ -85,7 +85,7 @@ Go to where the credentials are stored/inherited from.
 	</tr>
 	<tr>
 		<td>
-![!!password-history-bold.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/password-history-bold.png) 
+![!!password-history-bold](https://webdevolutions.azureedge.net/docs/en/hub/Icons/password-history-bold.png) 
 		</td>
 		<td>
 History 
@@ -96,7 +96,7 @@ Show the history of password changes in this entry.
 	</tr>
 	<tr>
 		<td>
-![!!more-vert.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/more-vert.png) 
+![!!more-vert](https://webdevolutions.azureedge.net/docs/en/hub/Icons/more-vert.png) 
 		</td>
 		<td>
 More 
@@ -113,7 +113,7 @@ Show more options for the selected entry.
 	</tr>
 	<tr>
 		<td>
-![!!earth.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/earth.png) 
+![!!earth](https://webdevolutions.azureedge.net/docs/en/hub/Icons/earth.png) 
 		</td>
 		<td>
 Navigate URL 
@@ -124,7 +124,7 @@ Open the specified website URL in a new tab.
 	</tr>
 	<tr>
 		<td>
-![!!activate-launch.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/activate-launch.png) 
+![!!activate-launch](https://webdevolutions.azureedge.net/docs/en/hub/Icons/activate-launch.png) 
 		</td>
 		<td>
 Open in {{ en.DLAUNCHER }} 
@@ -135,7 +135,7 @@ Launch a session in the {{ en.DLAUNCHER }} {{ en.CTOOL }}.
 	</tr>
 	<tr>
 		<td>
-![!!logo-rdm.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/logo-rdm.png) 
+![!!logo-rdm](https://webdevolutions.azureedge.net/docs/en/hub/Icons/logo-rdm.png) 
 		</td>
 		<td>
 Open in {{ en.RDM }} 
@@ -146,7 +146,7 @@ Launch a session in {{ en.RDM }}.
 	</tr>
 	<tr>
 		<td>
-![!!entry-SampleView.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/entry-SampleView.png) 
+![!!entry-SampleView](https://webdevolutions.azureedge.net/docs/en/hub/Icons/entry-SampleView.png) 
 		</td>
 		<td>
 Reveal password 

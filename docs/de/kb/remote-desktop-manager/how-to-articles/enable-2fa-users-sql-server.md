@@ -14,17 +14,17 @@ Sie können 2FA nicht für Nutzer konfigurieren. Nach der Aktivierung muss jeder
 ## Anwendungssicherheit mit Windows-Anmeldeinformationen erzwingen
 
 Unter ***Verwaltung – Systemeinstellungen – Anwendungen – Sicherheit – Anwendungssicherheit mit Windows-Anmeldeinformationen erzwingen***.  
-![!!KB4906.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4906.png)
+![!!KB4906](https://webdevolutions.azureedge.net/docs/de/kb/KB4906.png)
 
 ## Anwendungssicherheit mit TOTP (Authentifikator)
 
 Unter ***Verwaltung – Systemeinstellungen – Anwendungen – Sicherheit – Anwendungssicherheit mit TOTP (Authenticator) erzwingen***.  
-![!!KB4907.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4907.png)
+![!!KB4907](https://webdevolutions.azureedge.net/docs/de/kb/KB4907.png)
 
 ## 2-Faktor-Konfiguration der Datenquelle erzwingen
 
 Unter ***Verwaltung – Systemeinstellungen – Anwendungen – Sicherheit – 2-Faktor-Konfiguration der Datenquelle erzwingen***.  
-![!!KB4908.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4908.png)
+![!!KB4908](https://webdevolutions.azureedge.net/docs/de/kb/KB4908.png)
 
 ## MFA-Abfrage vor dem Offline-Gehen / Offline-Modus
 

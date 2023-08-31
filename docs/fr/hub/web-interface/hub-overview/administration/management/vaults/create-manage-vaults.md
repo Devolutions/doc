@@ -14,10 +14,10 @@ Les ***{{ fr.VLT }}s*** permettent de partager des entrées avec des utilisateur
 
 1. Aller dans ***Administration - {{ fr.VLT }}s***. 
 1. Cliquer sur ***Ajouter*** en haut à droite de l'écran.  
-![!!Hub4139.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4139.png) 
+![!!Hub4139](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4139.png) 
 1. Nommer le {{ fr.VLT }}. 
     1. Facultatif : rédiger une courte ***Description*** de l'utilité de ce {{ fr.VLT }}.  
-    ![!!Hub4140.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4140.png) 
+    ![!!Hub4140](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4140.png) 
 1. Cliquer ***Ajouter*** pour enregistrer. 
 
 ### Ajouter des permissions à un {{ fr.VLT }} 
@@ -29,7 +29,7 @@ Les ***{{ fr.VLT }}s*** permettent de partager des entrées avec des utilisateur
 Cliquez sur le bouton ***Afficher la définition des rôles*** pour choisir dans la liste. Vous pouvez également consulter notre rubrique [Rôles et permissions](/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/). 
 {% endsnippet %}
  
-![!!Hub4141.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4141.png)  
+![!!Hub4141](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4141.png)  
 
 4. Cliquer ***Mettre à jour*** pour enregistrer. 
 
@@ -37,5 +37,5 @@ Cliquez sur le bouton ***Afficher la définition des rôles*** pour choisir dans
 
 1. Aller dans ***Administration - {{ fr.VLT }}s***. 
 1. Cliquer sur le crayon ***Modifier*** à côté du {{ fr.VLT }}.  
-![!!Hub4142.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4142.png) 
+![!!Hub4142](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4142.png) 
 1. Cliquer ***Mettre à jour*** pour enregistrer.

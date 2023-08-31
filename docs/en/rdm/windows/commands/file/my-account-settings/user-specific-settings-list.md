@@ -44,7 +44,7 @@ Export
 		</td>
 		<td>
 Export a list of user Specific Settings into a .rds file. A password is required to encrypt the .rds file.  
-![!!RdmWin8002.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin8002.png) 
+![!!RdmWin8002](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin8002.png) 
 		</td>
 	</tr>
 </table>

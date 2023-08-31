@@ -16,7 +16,7 @@ The first step is to verify that your computer supports Wake-on-LAN. There are a
 * Your OS must be configured to enable Wake-on-LAN.
 ## Configure {{ en.RDM }}
 You must add a valid MAC address (Media Access Control address) in the session"s configuration. The input field can be found in the ***Information*** tab and in the ***General*** child tab. The field name is ***MAC***.  
-![!!KB4622.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4622.png)  
+![!!KB4622](https://webdevolutions.azureedge.net/docs/en/kb/KB4622.png)  
 You can use the Ellipsis button to automatically determine the MAC address. If this is unsuccessful, you will need to enter it manually.
 ### About the MAC address discovery
 The discovery process will initially attempt to use the ARP protocol. This is fast and does not require authentication, but there are requirements on the network aspect that may not be met. If ARP was not successful, another attempt is made using WMI. This is slower and requires authentication. {{ en.RDM }} will use the credentials as configured in the entry properties or the credentials entered in the ***Management Tools*** tab.

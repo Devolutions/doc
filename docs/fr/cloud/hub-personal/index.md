@@ -7,4 +7,4 @@ eleventyComputed:
 
 Cliquer sur le bouton ***Créer votre {{ fr.DHUBP }}*** pour commencer à l'utiliser dès aujourd'hui!  
 
-![!!Cloud4045.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4045.png) 
+![!!Cloud4045](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4045.png) 

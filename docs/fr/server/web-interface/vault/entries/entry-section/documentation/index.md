@@ -11,4 +11,4 @@ La fonction ***Documentation*** permet de stocker des informations concernant le
 1. Donner un ***Nom*** au document. 
 1. Entrer le texte en suivant les normes du langage [Markdown](/fr/server/web-interface/vault/entries/entry-section/documentation/quick-guide-markdown/). 
 1. Cliquer ***Enregistrer***.  
-![!!ServerOp4091.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4091.png)
+![!!ServerOp4091](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4091.png)

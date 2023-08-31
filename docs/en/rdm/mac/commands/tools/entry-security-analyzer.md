@@ -2,11 +2,11 @@
 title: Entry Security Analyzer
 ---
 The Entry Security Analyzer is available in the Tools menu. It will display the strength indicator for all passwords stored in your data source.  
-![!!clip10460.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10460.png) 
+![!!clip10460](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10460.png) 
 
 ## Settings 
 
-![!!clip10034.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10034.png) 
+![!!clip10034](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10034.png) 
 
 In a single glance you can see the strength ratings of all your stored passwords. 
 

@@ -7,7 +7,7 @@ Pour vous aider à installer et configurer {{ fr.RDM }}, nous avons créé une l
 	<tr>
 		<th>
 
-![!!RdmWin4033.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4033.png) 
+![!!RdmWin4033](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4033.png) 
 		</th>
 		<th>
 LISTE DE VÉRIFICATION – INDIVIDUS (ÉDITION TEAM) 

@@ -25,7 +25,7 @@ La {{ fr.DVLSCONSOLE }} gère la métabase IIS, elle doit être démarrée avec 
 
 ## Serveur 
 
-![!!ServerOp4020.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4020.png)
+![!!ServerOp4020](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4020.png)
 
 <table>
 	<tr>
@@ -136,7 +136,7 @@ Ouvrir le fichier de réponse pour rouler des commandes sur l'instance {{ fr.DVL
 
 ### Compagnons 
 
-![!!ServerOp4021.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4021.png)
+![!!ServerOp4021](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4021.png)
 
 <table>
 	<tr>
@@ -263,7 +263,7 @@ Désinstaller le {{ fr.DGW }}.
 
 ### Outils
 
-![!!ServerOp4022.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4022.png) 
+![!!ServerOp4022](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4022.png) 
 
 <table>
 	<tr>
@@ -342,7 +342,7 @@ Supprimer le fournisseur de sécurité précédemment utilisé pour encrypter un
 
 ### Administration 
 
-![!!ServerOp4023.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4023.png) 
+![!!ServerOp4023](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4023.png) 
 
 <table>
 		<td>
@@ -405,7 +405,7 @@ Ouvrir la page du [Gestionnaire de sauvegardes](/fr/server/web-interface/adminis
 
 ### Soutien 
 
-![!!ServerOp4024.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4024.png) 
+![!!ServerOp4024](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4024.png) 
 
 <table>
 	<tr>

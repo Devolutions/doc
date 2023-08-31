@@ -39,7 +39,7 @@ To create users, navigate to ***Administration – Users***, then click ***Add U
 
 A user can be assigned to multiple user groups at once by checking the ***Is Member*** box of the respective user groups in the ***User Group***s section of the ***User Management***. As part of the Active Directory integration, there is no need to assign users to those user groups as it is automatically managed by {{ en.DVLS }}. 
 
-![!!ServerOp4010.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4010.png) 
+![!!ServerOp4010](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4010.png) 
 
 ### Administrators 
 Administrators can do everything, regardless of the security. These users are usually the chief officers and senior management. 

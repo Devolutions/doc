@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 In {{ en.RDM }}, you can edit the properties of multiple entries or folders at once using the [***Batch Edit***](/rdm/windows/commands/edit/batch/batch-edit/) or ***Edit (Special Actions)*** features.  
 
-![Edit (Special Actions) and Batch Edit.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2104.png)
+![Edit (Special Actions) and Batch Edit](https://webdevolutions.azureedge.net/docs/en/kb/KB2104.png)
 
 ## Entry/Folder selection 
 
@@ -36,7 +36,7 @@ Proceed to the [Batch Edit Actions](#edit) section for the next steps or continu
 <a name="advanced"></a>
 
 The ***[Advanced Search](/rdm/windows/commands/view/panels/search/advanced/)*** feature allows you to search the currently selected {{ en.VLT }}.  
-![Advanced Search.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2108.png) 
+![Advanced Search](https://webdevolutions.azureedge.net/docs/en/kb/KB2108.png) 
 1. In {{ en.RDM }}, go to ***View – Search – Advanced Search*** or press the F11 key shortcut. 
 1. In the ***Search*** tab of the ***Advanced Search*** window, select and specify criteria to filter your search. Other search parameters are also available in the ***Settings*** tab. When done, click ***Search***. 
 {% snippet icon.badgeInfo %}
@@ -85,7 +85,7 @@ Continue to the [following section](#batchedit) if the ***Batch Edit*** options 
 
 1. With your entries selected, go to ***Edit – Batch – Batch Edit*** in the ribbon. Alternatively, you can right-click your entry selection and go to ***Edit – Batch Edit***. 
 1. Select one of the editing options from the list for a window to pop up. Note that only options that are relevant to your entry types will be available.  
-![Batch Edit Options.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2103.png)  
+![Batch Edit Options](https://webdevolutions.azureedge.net/docs/en/kb/KB2103.png)  
 1. In the window, edit the information and parameters of your choice, than save. 
 {% snippet icon.badgeInfo %} 
 Each editing option displays different information and parameters that can be edited. For a preview of each of them, see our [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/) topic.
@@ -97,13 +97,13 @@ Your entries/folders have now been modified.
 <a name="editspecialactions"></a>
 
 1. With your entries selected, go to ***Home – Clipboard – Copy*** in the ribbon. Alternatively, you can right-click your entry selection and select ***Clipboard – Copy***.  
-![Home – Clipboard – Copy.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2105.png) 
+![Home – Clipboard – Copy](https://webdevolutions.azureedge.net/docs/en/kb/KB2105.png) 
 1. In the ***Copy Options*** window, go to the ***Preview*** tab. 
 1. Select all the content of the box, then copy and paste it in a text editor to retrieve the name of the field(s) that you would like to edit in a subsequent step. 
 1. In {{ en.RDM }}, close the ***Copy Options*** window, but make sure that you keep your entries selected in the ***{{ en.NPANE }}***. 
 1. With your entries still selected, go to ***Edit – Batch – Edit (Special Actions)*** in the ribbon. Alternatively, you can right-click your entry selection and select ***Edit – Edit (Special Actions)***. 
 1. In the ***General*** section, select ***Custom PowerShell Command***, then click ***OK***.  
-![Special Action Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2106.png) 
+![Special Action Selection](https://webdevolutions.azureedge.net/docs/en/kb/KB2106.png) 
 1. In the box, using the information that you copied in step 3, write your custom PowerShell script. You can use one of these [samples](/rdm/windows/powershell-scripting/custom-powershell-commands/batch-actions-samples/). 
 1. Click ***OK***.  
 

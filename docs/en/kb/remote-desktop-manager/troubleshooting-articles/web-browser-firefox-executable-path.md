@@ -11,6 +11,6 @@ The Firefox web browser is deprecated in embedded mode.
 1. Extract the content in a folder on your computer.
 1. In {{ en.RDM }} go to ***File - Options - Paths - Configure Installation Path***.
 1. Find the ***Firefox Xul Runner Installation Path***.  
-![!!KB4950.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4950.png)
+![!!KB4950](https://webdevolutions.azureedge.net/docs/en/kb/KB4950.png)
 1. Click on the ellipsis box to select the path where thezip file was extracted.
 1. Click ***OK***.

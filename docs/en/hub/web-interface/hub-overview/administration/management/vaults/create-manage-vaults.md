@@ -12,10 +12,10 @@ eleventyComputed:
 
 1. Go to ***Administration – {{ en.VLT }}s***. 
 1. Click on the ***Add*** icon at the top right of the screen.  
-![!!Hub4098.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4098.png) 
+![!!Hub4098](https://webdevolutions.azureedge.net/docs/en/hub/Hub4098.png) 
 1. ***Name*** the {{ en.VLT }}. 
     1. Optional: Write a short ***Description*** for the purpose of this {{ en.VLT }}.  
-    ![!!Hub4099.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4099.png) 
+    ![!!Hub4099](https://webdevolutions.azureedge.net/docs/en/hub/Hub4099.png) 
 1. Click ***Add*** to save. 
 
 ### Add permissions to a {{ en.VLT }}
@@ -27,7 +27,7 @@ eleventyComputed:
 Click the ***View Roles Definition*** button to choose from the list. You can also visit our [Roles and Permissions](/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/) topic. 
 {% endsnippet %}
  
-![!!Hub4035.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4035.png) 
+![!!Hub4035](https://webdevolutions.azureedge.net/docs/en/hub/Hub4035.png) 
 
 4. Click ***Update*** to save. 
 
@@ -35,5 +35,5 @@ Click the ***View Roles Definition*** button to choose from the list. You can al
 
 1. Go to ***Administration – {{ en.VLT }}s***. 
 1. Click the ***Edit*** pencil icon next to the {{ en.VLT }}. 
-![!!Hub4100.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4100.png) 
+![!!Hub4100](https://webdevolutions.azureedge.net/docs/en/hub/Hub4100.png) 
 1. Click ***Update*** to save.

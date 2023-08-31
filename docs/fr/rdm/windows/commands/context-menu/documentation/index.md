@@ -19,4 +19,4 @@ La fonctionnalité d'utilisation de la ***Documentation*** en mode hors ligne es
 Activer ***Synchroniser le document en mode hors ligne*** dans les ***Paramètres de sécurité***. Cette propriété est définie pour être héritée par défaut. 
 {% endsnippet %}
  
-![!!RdmWin4057.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4057.png) 
+![!!RdmWin4057](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4057.png) 

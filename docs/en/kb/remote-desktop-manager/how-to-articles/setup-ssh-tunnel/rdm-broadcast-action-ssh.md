@@ -10,9 +10,9 @@ An upgraded database, by an administrator, might be required.
 
 1. Open at least two SSH sessions.
 1. Right-click on any SSH tab, click ***Broadcast Input***, then ***Manage Broadcast***.  
-![!!KB4526.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4526.png)
+![!!KB4526](https://webdevolutions.azureedge.net/docs/en/kb/KB4526.png)
 1. Select all the required session in the list and close the window.  
-![!!KB4527.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4527.png)  
+![!!KB4527](https://webdevolutions.azureedge.net/docs/en/kb/KB4527.png)  
 
 You can now broadcast commands on all the sessions at the same time.  
 

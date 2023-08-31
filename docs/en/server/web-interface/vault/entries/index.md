@@ -6,4 +6,4 @@ Every item you see in your ***{{ en.VLT }}*** and ***{{ en.UVLT }}*** is an ***E
 
 Manage, import, organize, and save all your data with ***Entries*** and ***Folders*** in your {{ en.DVLS }}.  
 
-![!!ServerOp4025.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4025.png) 
+![!!ServerOp4025](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4025.png) 

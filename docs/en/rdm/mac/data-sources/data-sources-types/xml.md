@@ -5,7 +5,7 @@ title: XML
 	<tr>
 		<td>
 
-![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 {{ en.RDMMAC }} saves the settings directly in a file with the XML format. 

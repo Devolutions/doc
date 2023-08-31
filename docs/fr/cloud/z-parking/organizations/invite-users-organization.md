@@ -12,16 +12,16 @@ Vous devez être le propriétaire ou un administrateur de l'organisation pour g�
  
 2. Cliquer ***Organisations***. 
 1. Cliquer sur le bouton de la roue dentée à droite du nom de votre organisation pour la gérer.  
-![!!Cloud4082.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4082.png) 
+![!!Cloud4082](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4082.png) 
 1. Dans la section ***Utilisateurs***, cliquer sur ***Inviter***.  
-![!!Cloud4083.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4083.png) 
+![!!Cloud4083](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4083.png) 
 1. Entrer l'adresse courriel de l'utilisateur. 
     1. Sélectionner la langue d'invitation du courriel. 
     1. Présélectionner un groupe dont l'utilisateur fera partie. 
     1. Cliquer ***Inviter***.  
-![!!Cloud4084.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4084.png) 
+![!!Cloud4084](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4084.png) 
 1. Les utilisateurs recevront un lien d'invitation par courriel. Ils devront cliquer sur le bouton ***Rejoindre*** et se connecter pour terminer la création.  
-![!!Cloud4085.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4085.png) 
+![!!Cloud4085](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4085.png) 
 
 ### Gérer les utilisateurs 
 
@@ -33,5 +33,5 @@ Vous pourrez également modifier les ***Groupes*** auxquels ils appartiennent, t
 Seul le ***Propriétaire*** du compte peut transférer la propriété de l'organisation à un autre utilisateur. 
 {% endsnippet %}
  
-![!!Cloud4086.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4086.png) 
+![!!Cloud4086](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4086.png) 
 

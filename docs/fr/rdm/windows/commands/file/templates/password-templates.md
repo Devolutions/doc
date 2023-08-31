@@ -16,7 +16,7 @@ La fenêtre ***Modèles de mot de passe*** fournit un aperçu des modèles actue
 
 2. Pour ajouter un nouveau modèle, cliquer sur ***Ajouter***. 
 1. Saisir un nom de modèle, choisir un mode et les paramètres spécifiques.  
-![!!RdmWin7018.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin7018.png) 
+![!!RdmWin7018](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin7018.png) 
 
 <table>
 	<tr>

@@ -18,12 +18,12 @@ If the instance has been created with the default URL, it would be available at 
 The [Emergency Login](/kb/devolutions-server/how-to-articles/enable-emergency-login-code-authentication/) is a feature that needs to be enabled to allow an emergency access login for administrators even if providers are down (Azure or AD). 
 {% endsnippet %}
  
-![!!ServerOp4088.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4088.png) 
+![!!ServerOp4088](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4088.png) 
 3. Enter the ***Username*** and ***Password*** of the chosen authentication method to connect. Domain authentication method shown here: 
 {% snippet icon.badgeNotice %} 
 Click ***Choose your authentication method*** to go back to the list of authentication types. 
 {% endsnippet %}
  
-![!!ServerOp4022.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4022.png) 
+![!!ServerOp4022](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4022.png) 
 4. Click ***Sign In***. 
 

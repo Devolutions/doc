@@ -40,17 +40,17 @@ There are two targeted scenarios:
 1. Accessing a secure network through a single host  
 
 This allows you to have a strict firewall policy that allows connections only from a specific IP address. This configuration only grants you access to hosts that are accessible from the Jump Box. Imagine you have the following infrastructure:  
-![!!clip10825.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10825.png) 
+![!!clip10825](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10825.png) 
 
 You need to access the remote hosts, but you want to limit risks and expose only the Jump Host to the internet traffic. This allows you to create strict firewall rules and to open only a single port. Therefore, it forces you to connect to the Jump Host before hopping to a remote host.  
-![!!clip10826.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10826.png) 
+![!!clip10826](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10826.png) 
 
 {{ en.RDMJ }} helps achieve that goal simply and efficiently.  
 
 2. Workaround limitations of some VPN clients 
 
 These limitations make it impossible to use multiple VPN clients concurrently on the same workstation. In this case, you can have multiple virtual machines, each running a single VPN client. Using these virtual machines as jump boxes allows you to connect to the virtual machine, launch the VPN client, then launch the remote session.  
-![!!clip10820.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10820.png) 
+![!!clip10820](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10820.png) 
 
 ### Configure a Jump Host 
 
@@ -60,10 +60,10 @@ These limitations make it impossible to use multiple VPN clients concurrently on
 For ***Jumps*** to work, you need to supply the credentials via the ***Jump Host*** session. If the RDP sessions prompt you for the credentials after the start, the ***Jump*** will fail. 
 {% endsnippet %}
  
-![!!RdmWin4056.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4056.png) 
+![!!RdmWin4056](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4056.png) 
 
 3. In the ***Jump Host*** section, check ***Is Jump host***. 
-![!!RdmWin4057.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4057.png) 
+![!!RdmWin4057](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4057.png) 
 1. Click ***OK***. 
 1. Launch the ***Jump Host*** session. 
 1. Install {{ en.RDM }} on the ***Jump Host***. 
@@ -91,7 +91,7 @@ There is no need to create a data source on the ***Jump Host***. {{ en.RDM }} wi
     b. Select {{ en.RDMA }}.  
     c. Click ***OK***.  
     d. Click ***Yes***.  
-    ![!!RdmWin4058.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4058.png) 
+    ![!!RdmWin4058](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4058.png) 
 
 8. Right-click the {{ en.RDMA }} icon in the taskbar. 
     1. Check ***Auto Start***. 
@@ -114,7 +114,7 @@ The ***Jump Host*** is ready to use.
 
 Or 
 * Choose a specific ***Session*** to point directly to the ***Jump Host*** entry. 
-![!!RdmWin4059.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4059.png) 
+![!!RdmWin4059](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4059.png) 
 
 3. Click ***OK*** twice. 
 1. Launch the RDP session. The {{ en.RDMJ }} opens automatically and it looks like a session in a session. 

@@ -37,7 +37,7 @@ Consultez la section qui correspond à votre type de source de données :
 1. Cliquer sur le bouton ***Modifier la source de données***.  
 ![Fichier – Sources de données – Modifier la source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2117.png) 
 1. À côté du paramètre ***2 facteurs***, cliquer sur ***Aucun***.  
-![!!RDMWin2118.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2118.png) 
+![!!RDMWin2118](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2118.png) 
 1. Dans la fenêtre ***Configuration multifacteur***, cliquer sur ***Modifier***.  
 ![Modifier la Configuration de l'authentification multifacteur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11098.png) 
 1. Sélectionner le ***Type*** d'AMF dans la liste déroulante.  

@@ -5,7 +5,7 @@ title: XML
 	<tr>
 		<td>
 
-![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 {{ fr.RDM }} enregistre les paramètres directement dans un fichier au format XML. 

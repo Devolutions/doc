@@ -11,7 +11,7 @@ Indeed, you can force your users to use {{ en.RDM }} by hiding the session crede
 If you feel that disabling Microsoft RDP (**mstsc.exe**) is sufficient for your needs, it is documented on: [https://social.technet.microsoft.com/wiki/contents/articles/4980.how-to-enable-or-disable-remote-desktop-via-group-policy-windows-2008.aspx](https://social.technet.microsoft.com/wiki/contents/articles/4980.how-to-enable-or-disable-remote-desktop-via-group-policy-windows-2008.aspx)  
 
 Our best solution involves going through a gateway that is protected by a password unknown from the end user. One can achieve this by using a SSH Tunnel or our own Jump feature. The second step is to adjust the firewalls on the remote hosts to disable connections from IP addresses other than those use by your approved gateways.  
-![!!KB4436.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4436.png)  
+![!!KB4436](https://webdevolutions.azureedge.net/docs/en/kb/KB4436.png)  
 SSH tunnels are a very good approach since they can run on a VM using any *nix distribution and require limited ram and hdd space.  
 
 This will also force your user to use {{ en.RDM }} because the credentials to use a SSH Tunnel cannot be a domain credential and the information to authenticate will be saved in {{ en.RDM }}

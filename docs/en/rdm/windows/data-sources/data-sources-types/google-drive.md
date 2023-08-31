@@ -5,7 +5,7 @@ title: Google Drive
 	<tr>
 		<td>
 
-![!!DataSourceFtpLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceFtpLarge.png) 
+![!!DataSourceFtpLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceFtpLarge.png) 
 		</td>
 		<td>
 {{ en.RDM }} downloads and uploads the session settings directly from file located on an FTP site. 

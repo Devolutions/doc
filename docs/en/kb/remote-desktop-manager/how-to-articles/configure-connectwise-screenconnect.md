@@ -10,11 +10,11 @@ The {{ en.RDM }} extension needs to be installed on your ConnectWise (ScreenConn
 ## Settings
 
 1. Connect on ConnectWise (ScreenConnect) server and click on ***Admin***.  
-![!!KB4507.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4507.png)
+![!!KB4507](https://webdevolutions.azureedge.net/docs/en/kb/KB4507.png)
 1. Click on ***Extensions*** in the Administration section and select ***Browse Online Extensions***.  
-![!!KB4508.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4508.png)
+![!!KB4508](https://webdevolutions.azureedge.net/docs/en/kb/KB4508.png)
 1. Install {{ en.RDM }} Extension.  
-![!!KB4509.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4509.png)
+![!!KB4509](https://webdevolutions.azureedge.net/docs/en/kb/KB4509.png)
 1. Now that the extension is installed, you can create your ScreenConnect session.
 1. Fill in all the information needed and enter the name of your server in the ***Host*** field.  
 {% snippet icon.badgeNotice %}
@@ -23,6 +23,6 @@ The host format must be similar to this: https://something.screenconnect.com
 
 6. As for the ***Session name*** selection, it is for the remote session that you would like to use.
 1. In the ***Advanced*** tab, change the version for ***Extension (Version 5 or higher)***.  
-![!!KB4510.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4510.png)
+![!!KB4510](https://webdevolutions.azureedge.net/docs/en/kb/KB4510.png)
 1. You can also select ***Default*** in the drop down list instead of ***Extension (Version 5 or higher)*** If you select ***Default***, you will need to configure the ScreenConnect version that you wish to use in ***File – Options – Types – ConnectWise Control***.  
-![!!KB4511.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4511.png)
+![!!KB4511](https://webdevolutions.azureedge.net/docs/en/kb/KB4511.png)

@@ -10,4 +10,4 @@ Dans la section ***Licences***, vous pourrez enregistrer votre licence {{ fr.DHU
 Seuls les ***Administrateurs*** et les utilisateurs disposant des permissions dans la section ***Permissions du système - Système - Gérer la licence*** auront accès à l'enregistrement d'une licence dans {{ fr.DHUBB }}. 
 {% endsnippet %}
  
-![!!Hub4124.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4124.png) 
+![!!Hub4124](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4124.png) 

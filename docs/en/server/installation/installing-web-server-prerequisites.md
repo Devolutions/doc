@@ -26,14 +26,14 @@ Here are the two different methods available to install the prerequisites:
 1. {{ en.DVLSCONSOLE }}. 
     1. Open the [{{ en.DVLSCONSOLE }}](/server/management/devolutions-server-console/). 
     1. Go in the ***Support*** tab and click on ***IIS Diagnostic***.  
-![!!ServerOp8162.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8162.png)  
+![!!ServerOp8162](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8162.png)  
     3. Click on ***Install Prerequisites*** to run the PowerShell script.  
 
    {% snippet icon.badgeInfo %} 
    This window will only appear if a prerequisite is missing during a new installation or an update. 
    {% endsnippet %}
  
-   ![!!ServerOp8171.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8171.png)  
+   ![!!ServerOp8171](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8171.png)  
 
 2. PowerShell command line 
     1. Run Windows PowerShell with elevated privileges. 
@@ -44,5 +44,5 @@ Here are the two different methods available to install the prerequisites:
         * IIS URL Rewrite Module
         * IIS Application Request Routing Module
         * IIS [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) Core Module.  
-    ![!!ServerOp4020.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4020.png) 
+    ![!!ServerOp4020](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4020.png) 
 

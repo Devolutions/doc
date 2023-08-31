@@ -17,12 +17,12 @@ If you do not have {{ en.DHUBI }}, [download and install it](https://devolutions
 In the event that you need to import the ***Specific Settings***, leave the ***Change ID*** box unchecked in the Import Settings section next to the ellipsis button.
 {% endsnippet %}  
 
-![CSV Import Type.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2112.png)
+![CSV Import Type](https://webdevolutions.azureedge.net/docs/en/kb/KB2112.png)
 
 2. In the ***Import Csv Wizard*** window, select the ***Header format instruction*** (***Session***, ***Credential***, ***Information***, or ***Template***) from the drop-down list.  
-![Header Format Instruction Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2114.png)
+![Header Format Instruction Selection](https://webdevolutions.azureedge.net/docs/en/kb/KB2114.png)
 1. Click on the ellipsis button next to the ***Open CSV file*** field to select your files to import.
-![Open CSV File.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2115.png)
+![Open CSV File](https://webdevolutions.azureedge.net/docs/en/kb/KB2115.png)
 1. Select your file and click ***Open***.
 1. Click ***Next*** in the ***Import Csv Wizard*** window.
 1. In this step, you can modify some settings and see a preview of your entries information. See a description of each setting below:
@@ -70,11 +70,11 @@ Apply the changes made to the parameters to the entries preview.
 	</tr>
 </table>
 
-![Settings and Preview.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2121.png)  
+![Settings and Preview](https://webdevolutions.azureedge.net/docs/en/kb/KB2121.png)  
 
 7. When done, click ***Next***.
 1. Under ***Mappings***, you can edit, add, or delete variables.  
-![Edit, Add, or Delete Variables.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2124.png)
+![Edit, Add, or Delete Variables](https://webdevolutions.azureedge.net/docs/en/kb/KB2124.png)
 * To edit a variable, select the variable type in the drop-down list of the left field. Choose between ***Name***, ***Username***, ***Url***, ***Password***, ***Description***, ***Folder***, ***Domain***, ***Host***, ***Port***, ***Tags***, ***Custom Field*** (1 to 5), ***Direct Property***, or ***Template***. In the right field, enter the variable.  
 * To add a variable, click on the add button. A new line will appear at the bottom of the list. Select the variable type in the drop-down list of the left field. Choose between ***Name***, ***Username***, ***Url***, ***Password***, ***Description***, ***Folder***, ***Domain***, ***Host***, ***Port***, ***Tags***, ***Custom Field*** (1 to 5), ***Direct Property***, or ***Template***. In the right field, enter the variable.  
 * To delete a variable, click on the "X" button next to it.  

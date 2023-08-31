@@ -6,7 +6,7 @@ When it comes to entries, there are a lot of different options. Here is a quick 
 1. Name the entry.
 1. Enter the ***Host*** address.
 1. Choose ***Credential repository*** and link a credential entry with this session. You can also enter the username and password directly in the entry by choosing ***Default***.  
-![!!KB4438.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4438.png)  
+![!!KB4438](https://webdevolutions.azureedge.net/docs/en/kb/KB4438.png)  
 
 Then, you can open the session with one click.  
 

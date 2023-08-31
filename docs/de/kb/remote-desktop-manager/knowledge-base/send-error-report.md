@@ -11,6 +11,6 @@ Wenn Sie Ihren Fehlerbericht senden, achten Sie bitte darauf, dass Sie so viele 
 Wenn im {{ de.RDM }} ein Fehlerdialog erscheint, gehen Sie folgendermaßen vor, um ihn an das Support-Team zu senden:  
 
 1. Klicken Sie auf ***Fehlerbericht senden***.  
-![!!KB4439.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4439.png)
+![!!KB4439](https://webdevolutions.azureedge.net/docs/de/kb/KB4439.png)
 1. Geben Sie Ihre Kontaktinformationen und eine ausführliche Beschreibung des Problems ein und drücken Sie auf ***Senden***.
-![!!KB4440.png](https://webdevolutions.azureedge.net/docs/de/kb/KB4440.png)
+![!!KB4440](https://webdevolutions.azureedge.net/docs/de/kb/KB4440.png)

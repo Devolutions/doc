@@ -2,7 +2,7 @@
 title: Outils
 ---
 La section ***Outils*** regorge de ressources pour {{ fr.DHUBB }}. Télécharger, exporter et entrer en contact avec notre ***Centre de soutien***.  
-![!!Hub4042.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4042.png) 
+![!!Hub4042](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4042.png) 
 
 * Télécharger les [***{{ fr.CTOOLS }}***](/fr/hub/web-interface/hub-overview/administration/management/users/companion-tools-access/), ce sont des applications complémentaires qui fonctionnent main dans la main avec nos produits.  
     * [***{{ fr.DWL }}***](/fr/hub/dwl/overview/) est une extension de navigateur gratuite qui permet aux utilisateurs d'injecter en toute sécurité des identifiants, contenus dans leur {{ fr.VLT }}, dans des sites Web.  

@@ -8,7 +8,7 @@ Les informations de cette rubrique décrivent le fonctionnement du mode « Legac
 L'***Analyseur de sécurité d'entrées*** est disponible dans le menu ***Outils***. Il affichera l'indicateur de force pour tous les mots de passe stockés dans votre source de données.  
 
 Un contrôle de l'analyseur est également affiché sous la plupart des champs d'entrées de mot de passe.  
-![!!clip3448.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3448.png) 
+![!!clip3448](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3448.png) 
 
 L'***Analyseur de sécurité d'entrées*** suit un ensemble de règles pour déterminer la force du mot de passe avec un score de 0 à 100. Il existe deux catégories de règles.  
 
@@ -45,7 +45,7 @@ Ce sont les règles qui rendent les mots de passe plus faibles :
 
 ## Paramètres 
 
-![!!clip11340.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11340.png) 
+![!!clip11340](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11340.png) 
 
 <table>
 	<tr>

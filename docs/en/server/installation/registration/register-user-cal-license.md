@@ -6,7 +6,7 @@ There are two methods to register your ***User CAL*** license, with the [{{ en.D
 
 ## {{ en.DVLSCONSOLE }}  
 Register your ***User CAL*** license in ***Server – Edit – General – License***.  
-![!!ServerOp4016.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4016.png) 
+![!!ServerOp4016](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4016.png) 
 ## {{ en.DVLS }} web interface  
 Click the ***Add*** button to save your ***User CAL*** license in ***Administration – Licenses***.  
-![!!ServerOp4015.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4015.png) 
+![!!ServerOp4015](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4015.png) 

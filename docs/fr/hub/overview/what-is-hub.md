@@ -22,21 +22,21 @@ La sécurité est au coeur de {{ fr.DHUB }} puisque l'application est hébergée
 	<tr>
 		<td>
 
-![!!web-login-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/web-login-icon-shadow.png)  
+![!!web-login-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/web-login-icon-shadow.png)  
 
 ## {{ fr.DWL }}  
 
 Connexion automatique 
 		</td>
 		<td>
-![!!launcher-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/launcher-icon-shadow.png)  
+![!!launcher-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/launcher-icon-shadow.png)  
 
 ## {{ fr.DLAUNCHER }}  
 
 Technologie d'accès à distance  
 		</td>
 		<td>
-![!!password-hub-importer-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/password-hub-importer-icon-shadow.png)  
+![!!password-hub-importer-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/password-hub-importer-icon-shadow.png)  
 
 ## {{ fr.DHUBI }}  
 
@@ -60,14 +60,14 @@ Cet outil incontournable est conçu pour importer facilement et rapidement des i
 	<tr>
 		<td>
 
-![!!devolutions-workspace-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/workspace-icon-shadow.png)  
+![!!devolutions-workspace-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/workspace-icon-shadow.png)  
 
 ## {{ fr.DWS }}  
 
 Environnement centralisé basé sur le nuage  
 		</td>
 		<td>
-![!!remote-desktop-manager-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/remote-desktop-manager-icon-shadow.png)  
+![!!remote-desktop-manager-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/remote-desktop-manager-icon-shadow.png)  
 
 ## {{ fr.RDM }}  
 

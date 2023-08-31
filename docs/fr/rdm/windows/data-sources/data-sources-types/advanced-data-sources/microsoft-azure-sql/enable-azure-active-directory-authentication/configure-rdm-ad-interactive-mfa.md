@@ -28,7 +28,7 @@ Utilisez les serveurs définis par l'administrateur Azure Active Directory pour 
    Lors de la première connexion, le nom d'utilisateur doit être l'administrateur Active Directory tel que défini dans la [Configuration de l'administrateur Azure Active Directory](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/). Une fois que vous avez ajouté d'autres utilisateurs AD dans {{ fr.RDM }}, ils pourront se connecter. 
    {% endsnippet %}
    {% snippet icon.badgeCaution %} 
-   ![!!RdmWin4032.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4032.png) Si vous obtenez le message d'erreur ***Unable to connect to the database! Login failed for user '&lt;token-identified principal&gt;'.***, vérifiez si le nom d'utilisateur contient des fautes d'orthgraphe.
+   ![!!RdmWin4032](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4032.png) Si vous obtenez le message d'erreur ***Unable to connect to the database! Login failed for user '&lt;token-identified principal&gt;'.***, vérifiez si le nom d'utilisateur contient des fautes d'orthgraphe.
    {% endsnippet %}  
 1. Saisir la ***Base de données*** à laquelle vous authentifier.
 1. Cliquer sur ***OK***.  

@@ -17,7 +17,7 @@ L’URI d’accès respecte la casse et doit respecter le nom d’hôte du certi
 Il peut y avoir plus d'un ***Uri d'accès***. Cliquer sur le bouton ellipses pour ajouter ou gérer des ***Uri d'accès*** supplémentaires. 
 {% endsnippet %}
  
-![!!KB4057.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4057.png) 
+![!!KB4057](https://webdevolutions.azureedge.net/docs/fr/kb/KB4057.png) 
 
 3. Cliquer ***OK***. 
 ## Scénarios 

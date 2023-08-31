@@ -19,17 +19,17 @@ In order to use this method, you will first need to create a ***Template*** unde
 The ***Template*** that you will create (Database template only) will need to have the option ***Available in Macros/Scripts/Tools*** enabled in the ***Template Settings – Availability*** section in order for it to be shown in your ***Dashboard***.
 {% endsnippet %}
 
-![!!KB4667.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4667.png)
+![!!KB4667](https://webdevolutions.azureedge.net/docs/en/kb/KB4667.png)
 
 ## Method
 
 1. In the ***Ribbon***, go under ***Edit - New Entry - Add Macros/Scripts/Tools***.  
-![!!KB5002.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5002.png)
+![!!KB5002](https://webdevolutions.azureedge.net/docs/en/kb/KB5002.png)
 1. Select ***Template Macro/Script/Tool*** in the ***Tool*** section and click ***OK***.  
-![!!KB5003.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5003.png)
+![!!KB5003](https://webdevolutions.azureedge.net/docs/en/kb/KB5003.png)
 1. In the ***General*** tab, use the ellipsis button to select the ***Template*** you created and click ***OK*** when done.  
-![!!KB4668.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4668.png)
+![!!KB4668](https://webdevolutions.azureedge.net/docs/en/kb/KB4668.png)
 1. The ***Template (Macro/Script/Tool)*** entry you just created can be found under the ***Macros/Scripts/Tools*** section of your entry ***Dashboard*** when you select one of your entries in your ***{{ en.NPANE }}***.  
-![!!KB4669.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4669.png)  
+![!!KB4669](https://webdevolutions.azureedge.net/docs/en/kb/KB4669.png)  
 
 All that remains is to apply the desired model.

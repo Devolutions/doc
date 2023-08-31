@@ -9,4 +9,4 @@ Cliquer sur le bouton ***Exporter*** pour créer un rapport CSV des entrées sup
 Si une entrée est supprimée d'un ***{{ fr.UVLT }}***, seul l'utilisateur du ***{{ fr.UVLT }}*** peut la restaurer et la gérer dans la section ***Rapports***. 
 {% endsnippet %}
  
-![!!Hub4109.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4109.png)
+![!!Hub4109](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4109.png)

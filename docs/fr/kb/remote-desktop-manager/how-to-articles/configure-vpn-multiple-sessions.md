@@ -7,7 +7,7 @@ Une entrée VPN et des entrées de sessions distantes doivent être créées dan
 ### Configurer les paramètres VPN sur l'entrée du dossier parent 
 1. Faire un clic droit sur l'entrée du dossier et sélectionner ***Propriétés***. 
 1. Dans le menu de gauche, sous la section ***Connexion***, cliquer sur ***VPN/SSH/Passerelle***.  
-![!!KB2033.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2033.png) 
+![!!KB2033](https://webdevolutions.azureedge.net/docs/fr/kb/KB2033.png) 
 1. Sous la section ***Général***, dans la liste déroulante ***Type***, sélectionner ***Session***. 
 1. Sélectionner la méthode d’ouverture du VPN lorsque vous lancez une session à distance dans la liste déroulante ***Se connecter***. Nous préconisons de choisir ***Se connecter s’il est impossible de ping/scanner le port*** sur le dossier. Il faudra régler chaque entrée de session sur ***Hérité*** plus tard. 
 <table>
@@ -129,7 +129,7 @@ Regarder cette [vidéo YouTube](https://youtu.be/5jKREtc63ks) (EN) pour une dém
  
 7. Si vous devez utiliser des identifiants précis dans un environnement d'équipe, vous pouvez les définir dans la section ***Identifiants (VPN/SSH/Passerelle)***. 
 1. Cliquer sur l'onglet ***Paramètres***.  
-![!!KB2034.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2034.png) 
+![!!KB2034](https://webdevolutions.azureedge.net/docs/fr/kb/KB2034.png) 
 1. Dans ***Session***, sélectionner l'entrée VPN que vous avez créée. 
 1. Cliquer sur ***OK***. 
 ### Exécuter une modification par lot pour configurer les entrées de session 
@@ -137,7 +137,7 @@ Regarder cette [vidéo YouTube](https://youtu.be/5jKREtc63ks) (EN) pour une dém
 1. Faire un clic droit sur la sélection, puis cliquer sur ***Modifier - Modifier le lot - Modifier les entrées (paramètres généraux)***. Alternativement, le même chemin peut être suivi dans le ruban sous l’onglet ***Modifier***. 
 1. Dans le menu de gauche, sous la section ***Connexion***, cliquer sur ***VPN/SSH/Passerelle***. 
 1. Cocher la case ***Substituer le VPN***.  
-![!!KB2035.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2035.png) 
+![!!KB2035](https://webdevolutions.azureedge.net/docs/fr/kb/KB2035.png) 
 1. Sous la section ***Général***, dans le menu déroulant ***Se connecter***, sélectionner ***Hérité***. 
 1. Cliquer sur ***OK***. 
 ### Paramètres pour des situations précises 
@@ -151,7 +151,7 @@ Suivez les étapes suivantes pour automatiser la déconnexion lorsque le VPN s'o
 1. Dans le menu de gauche, sous la section ***Connexion***, cliquer sur ***VPN/SSH/Passerelle***. 
 1. Cliquer sur l’onglet ***Avancé***. 
 1. Dans la section ***Paramètres avancés***, cocher les options ***Aller en mode hors-ligne à la connexion*** et ***Aller en ligne à la déconnexion après X sec***. Dans cette dernière option, spécifier le nombre de secondes, puis cliquer sur ***OK***.  
-![!!KB2036.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2036.png)  
+![!!KB2036](https://webdevolutions.azureedge.net/docs/fr/kb/KB2036.png)  
 
 **Situation 2** : Le VPN se connecte lentement.  
 
@@ -165,5 +165,5 @@ Voici les étapes pour modifier le temps que {{ fr.RDM }} attend pour que le VPN
 La valeur -1 sec est le temps par défaut (5 secondes). Vous pouvez modifier le temps par défaut pour toutes les entrées VPN dans ***Fichier - Options - Types - VPN - Pause VPN par défaut***. 
 {% endsnippet %}
  
-![!!KB2037.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2037.png) 
+![!!KB2037](https://webdevolutions.azureedge.net/docs/fr/kb/KB2037.png) 
 

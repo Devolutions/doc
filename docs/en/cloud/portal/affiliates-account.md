@@ -15,4 +15,4 @@ Use our report tools to view your earnings, number of clicks and conversion rate
 
 Click on ***Join Now*** and fill in the registration form to start receiving your advertising fees directly in your PayPal account.   
 
-![!!clip4021.png](https://webdevolutions.azureedge.net/docs/en/cloud/clip4021.png) 
+![!!clip4021](https://webdevolutions.azureedge.net/docs/en/cloud/clip4021.png) 

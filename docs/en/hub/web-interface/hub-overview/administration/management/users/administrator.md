@@ -11,4 +11,4 @@ title: Administrator rights
 A restart of {{ en.RDM }} may be needed to activate the administrator rights. 
 {% endsnippet %}
  
-![!!Hub4104.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4104.png) 
+![!!Hub4104](https://webdevolutions.azureedge.net/docs/en/hub/Hub4104.png) 

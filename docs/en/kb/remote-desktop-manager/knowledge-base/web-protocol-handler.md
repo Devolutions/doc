@@ -163,7 +163,7 @@ There are three rules to follow when constructing an URL for the protocol handle
 ### Open an RDP session
 
 1. In the ***Advanced*** section of an entry properties, click on the ***Create Web Url*** button.  
-![!!KB4466.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4466.png)  
+![!!KB4466](https://webdevolutions.azureedge.net/docs/en/kb/KB4466.png)  
 1. The Url is stored in the clipboard.  
-![!!KB4467.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4467.png)  
+![!!KB4467](https://webdevolutions.azureedge.net/docs/en/kb/KB4467.png)  
 1. Paste (Ctrl+V) this Url in any application able to handle application protocols. It can be in a web page, a web browser address bar, or even a supported chat application. The protocol handler launches {{ en.RDM }} if it is closed, then perform the requested action with the provided parameters.

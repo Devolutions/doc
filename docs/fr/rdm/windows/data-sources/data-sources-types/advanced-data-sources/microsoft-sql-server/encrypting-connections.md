@@ -10,7 +10,7 @@ Une fois qu'il a été correctement configuré, la seule modification à effectu
 ## Procédure 
 
 1. Créer ou modifier une source de données Microsoft SQL Server. Accéder à l'onglet ***Avancée*** et cliquer sur le bouton ***Plus de paramètres***.  
-![!!clip3516.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3516.png) 
+![!!clip3516](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3516.png) 
 1. Définir la valeur de la propriété ***Encrypt*** sur ***true*** et cliquer sur ***OK*** pour valider.  
-![!!clip7001.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip7001.png) 
+![!!clip7001](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip7001.png) 
 

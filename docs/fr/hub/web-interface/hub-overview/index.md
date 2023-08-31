@@ -3,7 +3,7 @@ eleventyComputed:
   title: Survol de {{ fr.DHUB }}
 ---
 Naviguer et explorer les menus à travers les différentes sections de {{ fr.DHUBB }} et gérer vos données.  
-![!!Hub4118.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4118.png) 
+![!!Hub4118](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4118.png) 
 
 <table>
 	<tr>

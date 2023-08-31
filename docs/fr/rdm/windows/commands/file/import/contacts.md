@@ -7,7 +7,7 @@ Vous pouvez accéder à ***Fichier – Importer –*** Contacts pour importer de
 La fonction d'importation n'est active que si le ***Privilège*** d'importation a été activé dans le compte d'utilisateur 
 {% endsnippet %}
  
-![!!clip10882.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10882.png) 
+![!!clip10882](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10882.png) 
 
 ### Importer des Contact 
 

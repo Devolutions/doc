@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Im {{ de.RDM }} können Sie mit der Funktion ***[Stapelverarbeitung](/de/rdm/windows/commands/edit/batch/batch-edit/)*** oder ***Bearbeiten (Sonderaktionen)*** die Eigenschaften mehrerer Einträge oder Ordner gleichzeitig bearbeiten.  
 
-![!!Edit (Special Actions) and Batch Edit.png](https://webdevolutions.azureedge.net/docs/de/kb/KB2104.png)
+![!!Edit (Special Actions) and Batch Edit](https://webdevolutions.azureedge.net/docs/de/kb/KB2104.png)
 
 ## Eintrag/Ordnerauswahl 
 
@@ -96,13 +96,13 @@ Ihre Einträge/Ordner sind nun geändert worden.
 <a name="editspecialactions"></a>
 
 1. Wenn Sie Ihre Einträge ausgewählt haben, gehen Sie in der Menüleiste zu ***Start – Zwischenablage – Kopieren***. Alternativ können Sie auch mit der rechten Maustaste auf Ihre gewählten Einträge klicken und dann auf ***Zwischenablage – Kopieren***.  
-![!!Home – Clipboard – Copy.png](https://webdevolutions.azureedge.net/docs/de/kb/KB2105.png) 
+![!!Home – Clipboard – Copy](https://webdevolutions.azureedge.net/docs/de/kb/KB2105.png) 
 1. Gehen Sie im Fenster ***Kopieroptionen*** auf die Registerkarte ***Vorschau***. 
 1. Markieren Sie den gesamten Inhalt des Feldes, kopieren Sie ihn und fügen Sie ihn in einen Texteditor ein, um den/die Namen des Feldes/der Felder später abrufen zu können, das/die Sie in einem weiteren Schritt bearbeiten möchten. 
 1. Schließen Sie im {{ de.RDM }} das Fenster ***Kopieroptionen***, stellen Sie aber sicher, dass Ihre im ***Navigationsbereich*** ausgewählten Einträge markiert bleiben.. 
 1. Während Ihre Einträge noch markiert sind, gehen Sie in der Menüleiste zu ***Bearbeiten – Stapel – Bearbeiten (Sonderaktionen)***. Alternativ können Sie auch mit der rechten Maustaste auf Ihre gewählten Einträge klicken und dann auf ***Bearbeiten – Bearbeiten (Sonderaktionen)***. 
 1. Wählen Sie im Bereich ***Allgemein*** die Option ***Nutzerdefinierter PowerShell-Befehl*** aus und klicken Sie dann auf ***OK***.  
-![!!Special Action Selection.png](https://webdevolutions.azureedge.net/docs/de/kb/KB2106.png) 
+![!!Special Action Selection](https://webdevolutions.azureedge.net/docs/de/kb/KB2106.png) 
 1. Schreiben Sie im Feld mit den Informationen, die Sie in Schritt 3 kopiert haben, Ihr nutzerdefiniertes PowerShell-Skript. Sie können auch eines dieser [Muster](/rdm/windows/powershell-scripting/custom-powershell-commands/batch-actions-samples/) verwenden. 
 1. Klicken Sie auf ***OK***.  
 

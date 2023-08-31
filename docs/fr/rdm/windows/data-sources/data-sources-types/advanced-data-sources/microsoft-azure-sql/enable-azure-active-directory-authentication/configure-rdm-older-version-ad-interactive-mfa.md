@@ -20,7 +20,7 @@ Utiliser les serveurs définis par l'admin Azure Active Directory pour créer vo
 
 ## Paramètres 
 
-![!!RdmWin4111.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4111.png) 
+![!!RdmWin4111](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4111.png) 
 
 1. Sélectionner Active Directory Interactive (avec MFA pris en charge) dans le menu déroulant Mode de connexion. 
 1. Vous pouvez spécifier la manière dont vous souhaitez que {{ fr.RDM }} interagisse avec Azure AD pendant l'authentification. 
@@ -69,7 +69,7 @@ Lors de la première connexion, le nom d'utilisateur doit être l'administrateur
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-![!!RdmWin4032.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4032.png) 
+![!!RdmWin4032](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4032.png) 
 
 Si vous obtenez ce message d'erreur : Unable to connect to the database! Login failed for user '<token-identified principal>' c'est parce que vous n'utilisez pas le courriel d'***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases. 
 {% endsnippet %}

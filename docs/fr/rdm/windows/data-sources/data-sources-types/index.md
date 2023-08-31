@@ -31,7 +31,7 @@ AVANTAGES ET INCONVÉNIENTS
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDODLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
+![!!DataSourceDODLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
 		</td>
 		<td>
 {{ fr.DOD }} 
@@ -56,7 +56,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
+![!!DataSourceDPSLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
 {{ fr.DVLS }} 
@@ -82,7 +82,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDropBoxLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
+![!!DataSourceDropBoxLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
 		</td>
 		<td>
 Dropbox 
@@ -109,7 +109,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 Microsoft Azure SQL 
@@ -134,7 +134,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLServerLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
+![!!DataSourceSQLServerLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
 		</td>
 		<td>
 Microsoft SQL Server 
@@ -160,7 +160,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!ApplicationHubLarge.png](https://webdevolutions.azureedge.net/docs/common/ApplicationHubLarge.png) 
+![!!ApplicationHubLarge](https://webdevolutions.azureedge.net/docs/common/ApplicationHubLarge.png) 
 		</td>
 		<td>
 {{ fr.DHUBB }} 
@@ -186,7 +186,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!hub-personal-32x32.png](https://webdevolutions.azureedge.net/docs/common/hub-personal-32x32.png) 
+![!!hub-personal-32x32](https://webdevolutions.azureedge.net/docs/common/hub-personal-32x32.png) 
 		</td>
 		<td>
 {{ fr.DHUBP }} 
@@ -211,7 +211,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 SQLite 
@@ -237,7 +237,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 XML 

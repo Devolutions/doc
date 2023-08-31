@@ -7,7 +7,7 @@ Cette liste de vérification vous aidera lors de l'installation de {{ fr.RDM }} 
 	<tr>
 		<th>
 
-![!!RdmWin4033.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4033.png) 
+![!!RdmWin4033](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4033.png) 
 		</th>
 		<th>
 LISTE DE VÉRIFICATION – ÉQUIPES 

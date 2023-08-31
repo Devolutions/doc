@@ -26,5 +26,5 @@ Les favoris ne reproduisent pas nécessairement la structure des dossiers du ***
 ### Icône superposée 
 
 Si vous le souhaitez, une icône peut être superposée sur les entrées favorites dans le ***{{ fr.VLT }}***. Pour afficher cet icône superposé, accédez à ***Fichier – Préférences – Favoris***, puis activez l'option ***Afficher l'icône Favoris dans l'arborescence***.  
-![!!RDMMac2007.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2007.png) 
+![!!RDMMac2007](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2007.png) 
 

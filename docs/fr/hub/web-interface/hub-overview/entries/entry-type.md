@@ -8,4 +8,4 @@ Choisir le ***Type d'entrée*** le mieux adapté pour créer et gérer chaque en
 * Les entrées d'***Informations*** sont utilisées pour stocker des informations sensibles, telles que ***Code d'alarme***, ***Carte de crédit***, ***Adhésion*** et plus encore.  
 * L'***Entrée d'identifiant*** permet de stocker les identifiants que vous souhaitez lier à plusieurs entrées ou de créer une ***Liste de mot de passe*** et un ***Mot de passe à usage unique***.  
 * Le type ***Modèle*** est l'emplacement où se retrouvent vos entrées personnalisées.  
-![!!Hub4154.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4154.png) 
+![!!Hub4154](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4154.png) 

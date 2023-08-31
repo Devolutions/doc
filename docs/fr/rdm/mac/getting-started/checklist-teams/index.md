@@ -7,7 +7,7 @@ Cette liste de vérification vous aidera lors de l'installation de {{ fr.RDM }} 
 	<tr>
 		<th>
 
-![!!RDMMac4022.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4022.png) 
+![!!RDMMac4022](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4022.png) 
 		</th>
 		<th>
 LISTE DE VÉRIFICATION - ÉQUIPES 

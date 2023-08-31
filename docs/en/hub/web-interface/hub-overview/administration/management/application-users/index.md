@@ -7,4 +7,4 @@ title: Application Users
 
 * An access to {{ en.DHUBB }} with a valid {{ en.DA }}. 
 * A user with enough permission to add ***Application Users***.  
-![!!Hub4056.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4056.png) 
+![!!Hub4056](https://webdevolutions.azureedge.net/docs/en/hub/Hub4056.png) 

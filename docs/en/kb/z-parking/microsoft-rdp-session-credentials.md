@@ -6,5 +6,5 @@ Unable to pass credentials to a windows server 2003.
 ## Solution
 
 The issue resides on the server itself. You have to disable the option ***Always prompt for password*** and enable the option ***Use client-provided logon information*** in the Terminal Services Configuration.  
-![!!KB4067.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4067.png)  
-![!!KB4068.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4068.png)
+![!!KB4067](https://webdevolutions.azureedge.net/docs/en/kb/KB4067.png)  
+![!!KB4068](https://webdevolutions.azureedge.net/docs/en/kb/KB4068.png)

@@ -34,7 +34,7 @@ Your password settings are now configured.
 1. Paste your password in the website's corresponding field.  
 ![Paste Password](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2091.png) 
 1. Follow the rest of the website's registration steps until the {{ en.DWL }} ***Add Website*** window pops up in the corner of your web browser.  
-![!!RDMWin2092.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2092.png) 
+![!!RDMWin2092](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2092.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the {{ en.VLT }}. If the folder you specify does not exist, it will be created at the same time as your entry. 
 1. Select if you want to save your entry in your ***{{ en.UVLT }}*** or in a ***{{ en.VLT }}***. Note that to create your entry in the {{ en.VLT }} of your choice, the corresponding {{ en.VLT }} must currently be opened in {{ en.RDM }}. 

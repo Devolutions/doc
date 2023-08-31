@@ -3,7 +3,7 @@ title: Éditeur
 ---
 L'éditeur de documentation est un simple éditeur de texte brut. Le texte est formaté à l'aide de la syntaxe de formatage de texte Markdown. Markdown est un langage de balisage conçu pour être aussi facile à lire et à écrire que possible.  
 
-![!!RdmWin4071.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4071.png) 
+![!!RdmWin4071](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4071.png) 
 
 ## Balises de mise en forme markdown 
 
@@ -21,7 +21,7 @@ Deux méthodes d'accentuation du texte sont disponibles :
 ```
 
 Affichage :  
-![!!RdmWin4072.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4072.png) 
+![!!RdmWin4072](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4072.png) 
 
 ### En-têtes 
 
@@ -38,7 +38,7 @@ En-tête de deuxième niveau
 ```
 
 Affichage :  
-![!!RdmWin4073.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4073.png) 
+![!!RdmWin4073](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4073.png) 
 
 Plus de niveaux d'en-têtes peuvent être créés en utilisant un à cinq symboles dièse (#) au début de la ligne.  
 
@@ -55,7 +55,7 @@ Plus de niveaux d'en-têtes peuvent être créés en utilisant un à cinq symbol
 ```
 
 Affichage :  
-![!!RdmWin4074.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4074.png) 
+![!!RdmWin4074](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4074.png) 
 
 ### Listes 
 
@@ -76,7 +76,7 @@ ou
 ```
 
 Affichage :  
-![!!RdmWin4075.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4075.png) 
+![!!RdmWin4075](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4075.png) 
 
 Utiliser des nombres réguliers, suivis de points, pour créer une liste à puces ordonnée.  
 
@@ -87,7 +87,7 @@ Utiliser des nombres réguliers, suivis de points, pour créer une liste à puce
 ```
 
 Affichage :  
-![!!RdmWin4076.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4076.png) 
+![!!RdmWin4076](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4076.png) 
 
 ### Barres horizontales 
 
@@ -102,7 +102,7 @@ ou
 ```
 
 Affichage :  
-![!!RdmWin4077.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4077.png) 
+![!!RdmWin4077](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4077.png) 
 
 ### Liens 
 
@@ -117,7 +117,7 @@ Naviguer sur le site internet [Devolutions](https://devolutions.net).
 ```
 
 Affichage :  
-![!!RdmWin4078.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4078.png) 
+![!!RdmWin4078](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4078.png) 
 
 Optionnellement, un attribut de titre peut être inclus entre parenthèses. 
 
@@ -126,7 +126,7 @@ Naviguer sur le site internet [Devolutions](https://devolutions.net "Devolutions
 ```
 
 Affichage :  
-![!!RdmWin4079.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4079.png) 
+![!!RdmWin4079](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4079.png) 
 
 Pour les liens de style référence, définir les liens ailleurs dans le document, puis faites référence à un lien par son nom dans un autre ensemble de crochets.  
 
@@ -138,7 +138,7 @@ Naviguer sur le site internet [Devolutions][siteinternet] ou le [Forum][siteforu
 ```
 
 Affichage :  
-![!!RdmWin4080.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4080.png) 
+![!!RdmWin4080](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4080.png) 
 
 L'attribut du titre est facultatif. Les noms de liens peuvent contenir des lettres, des chiffres et des espaces, mais ne sont pas sensibles à la casse. 
 
@@ -147,7 +147,7 @@ L'attribut du titre est facultatif. Les noms de liens peuvent contenir des lettr
 La syntaxe d'image est très similaire à la syntaxe de lien. Les images doivent être ajoutées dans le gestionnaire d'images avant de les référencer.  
 
 Pour ajouter des images dans le gestionnaire d'images, cliquer sur le bouton ***Gérer les images***.  
-![!!RdmWin4081.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4081.png) 
+![!!RdmWin4081](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4081.png) 
 
 Cliquer sur ***Ajouter*** pour sélectionner une image sur l'ordinateur. Sélectionner l'image dans la liste et cliquez sur ***Insérer*** pour placer l'image dans le texte. 
 
@@ -160,7 +160,7 @@ Citer un texte de citation en saisissant un symbole supérieur à (>) au début 
 ```
 
 Affichage :  
-![!!RdmWin4082.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4082.png) 
+![!!RdmWin4082](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4082.png) 
 
 Les citations en bloc peuvent être imbriquées.  
 
@@ -170,7 +170,7 @@ Les citations en bloc peuvent être imbriquées.
 ```
 
 Affichage :  
-![!!RdmWin4083.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4083.png) 
+![!!RdmWin4083](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4083.png) 
 
 ### Exemples de code 
 
@@ -181,7 +181,7 @@ En ligne `code`.
 ```
 
 Affichage :  
-![!!RdmWin4084.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4084.png) 
+![!!RdmWin4084](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4084.png) 
 
 Les blocs de code sont créés en indentant le texte avec quatre espaces au début de chaque ligne. Il doit y avoir une ligne vide avant.  
 
@@ -196,7 +196,7 @@ Les blocs de code sont créés en indentant le texte avec quatre espaces au déb
 ```
 
 Affichage :  
-![!!RdmWin4086.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4086.png) 
+![!!RdmWin4086](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4086.png) 
 
 Une coloration syntaxique spécifique peut également être spécifiée.  
 
@@ -206,4 +206,4 @@ alerte(s);
 ``` 
 
 Affichage :  
-![!!RdmWin4085.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4085.png) 
+![!!RdmWin4085](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4085.png) 

@@ -138,7 +138,7 @@ Spécifier le nom de sauvegarde qui vous permettra d'enregistrer automatiquement
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à {{ fr.DOD }}.  
-![!!RDMMac4045.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4045.png) 
+![!!RDMMac4045](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4045.png) 
 
 ### Avancée 
 

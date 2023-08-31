@@ -23,4 +23,4 @@ Le point commun entre tous ces services est qu'ils ne nécessitent que la posses
 
 Accéder à tous les services en ligne à partir de l'icône du menu.
 
-![!!Cloud4013.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4013.png) 
+![!!Cloud4013](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4013.png) 

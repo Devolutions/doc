@@ -11,4 +11,4 @@ Dans la section ***Utilisateurs***, vous pouvez activer le mode hors ligne pour 
 Un redémarrage de {{ fr.RDM }} peut être nécessaire pour activer le mode hors ligne. 
 {% endsnippet %}
  
-![!!Hub4133.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4133.png) 
+![!!Hub4133](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4133.png) 

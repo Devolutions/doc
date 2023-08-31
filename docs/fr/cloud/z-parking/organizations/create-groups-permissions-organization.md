@@ -12,22 +12,22 @@ Vous devez être le propriétaire ou un administrateur de l'organisation pour cr
  
 2. Cliquer sur ***Organisations*** dans le menu. 
 1. Cliquer sur le bouton de la roue dentée à droite du nom de votre organisation pour la gérer.  
-![!!Cloud4087.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4087.png) 
+![!!Cloud4087](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4087.png) 
 1. Cliquer ***Configurations - Groupes***. 
 1. Cliquer ***Ajouter un groupe***.  
-![!!Cloud4088.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4088.png) 
+![!!Cloud4088](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4088.png) 
 1. Donner un ***Nom*** et activer les permissions pour ce groupe spécifique. 
 1. Cliquer ***Ajouter***.  
-![!!Cloud4089.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4089.png) 
+![!!Cloud4089](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4089.png) 
 1. Pour modifier les permissions du groupe, cliquer sur la roue dentée.  
 
 ### Attribuer des groupes 
 
 1. Dans la section ***Utilisateurs***, cliquer sur les trois points verticaux à côté de l'utilisateur. 
 1. Choisir ***Ajouter à un groupe***.  
-![!!Cloud4092.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4092.png) 
+![!!Cloud4092](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4092.png) 
 1. Sélectionner le groupe dans le menu déroulant, cliquer sur ***Ajouter*** puis sur ***Fermer***.  
-![!!Cloud4090.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4090.png)  
+![!!Cloud4090](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4090.png)  
 {% snippet icon.badgeInfo %} 
 Vous pouvez ajouter un utilisateur à plusieurs groupes, cliquer sur les trois points verticaux à côté de l'utilisateur pour en ajouter d'autres. 
 {% endsnippet %}
@@ -35,6 +35,6 @@ Vous pouvez ajouter un utilisateur à plusieurs groupes, cliquer sur les trois p
 ### Supprimer des groupes 
 
 1. Pour supprimer un groupe d'un utilisateur, survoler le groupe spécifique à côté de l'utilisateur et cliquer sur la corbeille qui apparaîtra.  
-![!!Cloud4091.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4091.png)  
+![!!Cloud4091](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4091.png)  
 1. Cliquer ***Supprimer*** pour accepter et sauvegarder. 
 

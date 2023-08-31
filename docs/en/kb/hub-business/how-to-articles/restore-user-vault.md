@@ -12,7 +12,7 @@ It is possible to get access to the {{ en.UVLT }} of a {{ en.DHUBB }} user, who 
 1. In the filtering drop down menus;
    - ***Type***: select ***{{ en.UVLT }}***.
    - ***Status***: select ***Deleted***.  
-   ![!!KB4853.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4853.png)
+   ![!!KB4853](https://webdevolutions.azureedge.net/docs/en/kb/KB4853.png)
 1. Click ***Restore as a Shared {{ en.VLT }}*** button.  
 
 You can now view the restored {{ en.VLT }} in the {{ en.VLT }} selector of {{ en.DHUB }}.

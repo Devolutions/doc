@@ -5,7 +5,7 @@ Administrators can invite specific users to become administrator of the {{ en.DH
 
 1. Go to ***Administration – Users***. 
 1. Click ***Add Administrator***.  
-![!!Hub4171.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4171.png) 
+![!!Hub4171](https://webdevolutions.azureedge.net/docs/en/hub/Hub4171.png) 
 1. Type the administrator's email address. 
 1. Press Enter. 
 {% snippet icon.badgeInfo %} 

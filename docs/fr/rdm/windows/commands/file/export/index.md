@@ -31,7 +31,7 @@ Par défaut, les identifiants ne sont PAS inclus. Il est essentiel de cocher l'o
 La spécification d'une ***Clé maîtresse*** cryptera tout le contenu du fichier .rdm pour protéger son contenu. Il est fortement recommandé comme mesure de sauvegarde, mais la clé est absolument nécessaire pour le décryptage. Conservez-la également dans un périphérique de stockage séparé. 
 {% endsnippet %}
  
-![!!clip10103.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10103.png) 
+![!!clip10103](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10103.png) 
 
 ### Exporter le {{ fr.VLT }} (.json) 
 
@@ -59,7 +59,7 @@ Parce qu'il a semé la confusion dans notre base d'utilisateurs, ce format d'exp
 
 ### Exporter tous les Documents 
 
-![!!clip10044.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10044.png) 
+![!!clip10044](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10044.png) 
 
 Exporter toutes les pièces jointes ou toutes les entrées de document liées à votre source de données. 
 

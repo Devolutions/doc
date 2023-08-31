@@ -5,7 +5,7 @@ title: Microsoft SQL Azure
 	<tr>
 		<td>
 
-![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.  

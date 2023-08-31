@@ -21,7 +21,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-![AddSmallGrey.png](https://webdevolutions.azureedge.net/docs/fr/server/Icons/AddSmallGrey.png) 
+![AddSmallGrey](https://webdevolutions.azureedge.net/docs/fr/server/Icons/AddSmallGrey.png) 
 		</td>
 		<td>
 Ajouter un utilisateur. 
@@ -29,7 +29,7 @@ Ajouter un utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!NavImportSmall.png](https://webdevolutions.azureedge.net/docs/common/NavImportSmall.png) 
+![!!NavImportSmall](https://webdevolutions.azureedge.net/docs/common/NavImportSmall.png) 
 		</td>
 		<td>
 Importer des utilisateurs depuis LDAP ou Azure. 
@@ -37,7 +37,7 @@ Importer des utilisateurs depuis LDAP ou Azure.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshGraySmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshGraySmall.png) 
+![!!RibbonRefreshGraySmall](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshGraySmall.png) 
 		</td>
 		<td>
 Actualiser la liste des utilisateurs. 
@@ -45,7 +45,7 @@ Actualiser la liste des utilisateurs.
 	</tr>
 </table>
 
-![!!ServerOp8004.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8004.png) 
+![!!ServerOp8004](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8004.png) 
 
 ### Options utilisateur 
 
@@ -61,7 +61,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-![!!EditAssignGroup.png](https://webdevolutions.azureedge.net/docs/common/EditAssignGroup.png) 
+![!!EditAssignGroup](https://webdevolutions.azureedge.net/docs/common/EditAssignGroup.png) 
 		</td>
 		<td>
 Assigner des groupes d'utilisateurs à l'utilisateur. 
@@ -69,7 +69,7 @@ Assigner des groupes d'utilisateurs à l'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!EditAssignVault.png](https://webdevolutions.azureedge.net/docs/common/EditAssignVault.png) 
+![!!EditAssignVault](https://webdevolutions.azureedge.net/docs/common/EditAssignVault.png) 
 		</td>
 		<td>
 Assigner un {{ fr.VLT }} à l'utilisateur. 
@@ -77,7 +77,7 @@ Assigner un {{ fr.VLT }} à l'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonActivityReport.png](https://webdevolutions.azureedge.net/docs/common/RibbonActivityReport.png) 
+![!!RibbonActivityReport](https://webdevolutions.azureedge.net/docs/common/RibbonActivityReport.png) 
 		</td>
 		<td>
 Voir le rapport d'activité des utilisateurs. 
@@ -85,7 +85,7 @@ Voir le rapport d'activité des utilisateurs.
 	</tr>
 	<tr>
 		<td>
-![!!EditPassword.png](https://webdevolutions.azureedge.net/docs/common/EditPassword.png) 
+![!!EditPassword](https://webdevolutions.azureedge.net/docs/common/EditPassword.png) 
 		</td>
 		<td>
 Changer le mot de passe. 
@@ -93,7 +93,7 @@ Changer le mot de passe.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
 		</td>
 		<td>
 Modifier les paramètres utilisateur. 
@@ -101,7 +101,7 @@ Modifier les paramètres utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonTrashSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonTrashSmall.png) 
+![!!RibbonTrashSmall](https://webdevolutions.azureedge.net/docs/common/RibbonTrashSmall.png) 
 		</td>
 		<td>
 Supprimer l'utilisateur. 

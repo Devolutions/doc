@@ -13,4 +13,4 @@ Note: This setting may have been set by a group policy. If you find the value bu
 1. Type ***regedit*** to open the registry editor and ***allow*** the app to make changes.
 1. Navigate to **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\Terminal Services\DisablePasswordSaving** key and change the value to 0.
 1. In {{ en.RDM }}, ***Open*** the ***Properties*** of the RDP session and validate that the ***Store password locally*** is activated and that you have text in the ***Host*** field.  
-![!!KB4048.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4048.png)
+![!!KB4048](https://webdevolutions.azureedge.net/docs/en/kb/KB4048.png)

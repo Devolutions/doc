@@ -15,9 +15,9 @@ To be able to use the Active Directory Interactive (with MFA Support) authentica
 1. In the Azure Active Directory section, select ***App registrations*** and then ***New registration***.  
 ![App Registration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5011.png) 
 1. Configure the ***Name***.  
-![!!RdmWin4051.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4051.png) 
+![!!RdmWin4051](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4051.png) 
 1. Select the ***Supported account types***.  
-![!!RdmWin4052.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4052.png) 
+![!!RdmWin4052](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4052.png) 
 1. Configure the ***Redirect URI*** as indicated below and click ***Register***. 
 {% snippet icon.badgeInfo %} 
 The ***Redirect URI*** setting MUST be configured ***Public client/native (mobile & desktop)***. 
@@ -27,7 +27,7 @@ The ***Redirect URI*** setting MUST be configured ***Public client/native (mobil
 In our example the ***Redirect URI*** is set to https<area>://mycompany.com, but we suggest you personalize it to the domain of your company home page. This will be necessary in the authentication step of the topic [Configure {{ en.RDM }} Active Directory Interactive (with MFA)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-older-version-ad-interactive-mfa/). 
 {% endsnippet %}
  
-![!!RdmWin4053.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4053.png) 
+![!!RdmWin4053](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4053.png) 
 
 6. Select ***APIs my organization uses***, then type Azure and select ***Azure SQL Database***.  
 ![APIs my organization uses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5017.png) 

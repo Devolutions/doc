@@ -6,8 +6,8 @@ After following the steps in [Configure Azure Active Directory App Registration]
 System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred
 ## Solution 1
 Validate that the type of ***Redirect URI*** is set to ***Mobile and desktop application***.  
-![!!KB4964.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4964.png)  
+![!!KB4964](https://webdevolutions.azureedge.net/docs/en/kb/KB4964.png)  
 Changing the ***Redirect URI*** value after creating the manifest will require that you delete the wrong redirect and add the correct one in the ***Authentication*** section.  
-![!!KB4965.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4965.png)
+![!!KB4965](https://webdevolutions.azureedge.net/docs/en/kb/KB4965.png)
 ## Solution 2
 If you still get this error, please send us your [Azure Active Directory app manifest](https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest) at [service@devolutions.net](mailto:service@devolutions.net) so that we can validate your configuration.

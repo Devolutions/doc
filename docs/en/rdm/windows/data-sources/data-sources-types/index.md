@@ -30,7 +30,7 @@ PROS AND CONS
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDODLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
+![!!DataSourceDODLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
 		</td>
 		<td>
 {{ en.DOD }} 
@@ -55,7 +55,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!ApplicationHubLarge.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/ApplicationHubLarge.png) 
+![!!ApplicationHubLarge](https://webdevolutions.azureedge.net/docs/en/rdm/windows/ApplicationHubLarge.png) 
 		</td>
 		<td>
 {{ en.DHUBB }} 
@@ -83,7 +83,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!hub-personal-32x32.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/hub-personal-32x32.png) 
+![!!hub-personal-32x32](https://webdevolutions.azureedge.net/docs/en/rdm/windows/hub-personal-32x32.png) 
 		</td>
 		<td>
 {{ en.DHUBP }} 
@@ -108,7 +108,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
+![!!DataSourceDPSLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
 {{ en.DVLS }} 
@@ -134,7 +134,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDropBoxLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
+![!!DataSourceDropBoxLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
 		</td>
 		<td>
 Dropbox 
@@ -161,7 +161,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 Microsoft Azure SQL 
@@ -186,7 +186,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLServerLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
+![!!DataSourceSQLServerLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
 		</td>
 		<td>
 Microsoft SQL Server 
@@ -212,7 +212,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 SQLite 
@@ -238,7 +238,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 XML 

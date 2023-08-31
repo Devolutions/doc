@@ -16,10 +16,10 @@ Only ***Administrators*** and users with permissions in the ***System Permission
 1. Connect to your {{ en.DHUBB }}. 
 1. Go to ***Administration – Licenses***. 
 1. Click the edit button.  
-![!!Hub4094.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4094.png) 
+![!!Hub4094](https://webdevolutions.azureedge.net/docs/en/hub/Hub4094.png) 
 1. Paste your new {{ en.DHUBB }} license. 
 1. Click ***Save***.  
-![!!Hub4096.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4096.png) 
+![!!Hub4096](https://webdevolutions.azureedge.net/docs/en/hub/Hub4096.png) 
 
 ### My current license is expired 
 
@@ -29,7 +29,7 @@ Only ***Administrators*** and users with permissions in the ***System Permission
 Only ***Administrators*** and users with the ***System Permissions*** to ***Manage product licenses*** will get this message. 
 {% endsnippet %}
  
-![!!Hub4095.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4095.png)  
+![!!Hub4095](https://webdevolutions.azureedge.net/docs/en/hub/Hub4095.png)  
 
 3. Paste your new {{ en.DHUBB }} license. 
 1. Click the padlock to save.  

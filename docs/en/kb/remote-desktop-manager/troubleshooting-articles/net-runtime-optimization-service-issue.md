@@ -15,4 +15,4 @@ Use the compatibility mode as a workaround.
 1. Check ***Run this program in compatibility mode for***.
 1. Select the version of Windows in the drop down menu.
 1. Click ***OK***.  
-![!!KB4922.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4922.png)
+![!!KB4922](https://webdevolutions.azureedge.net/docs/en/kb/KB4922.png)

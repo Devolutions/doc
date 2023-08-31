@@ -4,7 +4,7 @@ title: Guide rapide de Markdown
 Le Markdown est un langage de balisage léger utilisé pour la ***Documentation*** dans les entrées.  
 
 Pour votre commodité, nous avons ajouté des boutons de formatage avec des polices, des styles et des insertions. Pour les utiliser, cliquer sur un bouton de formatage et insérer vos données.  
-![!!ServerOp4092.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4092.png) 
+![!!ServerOp4092](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4092.png) 
 {% snippet icon.badgeNotice %} 
 Cliquer sur les boutons ***Affichage*** ou ***Fractionner verticalement*** pour revoir l'apparence du document. 
 {% endsnippet %}

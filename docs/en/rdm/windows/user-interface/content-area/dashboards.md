@@ -22,6 +22,6 @@ The different tabs available in the dashboard are the following:
 The tabs can be hidden if they are not necessary for a user.  
 
 Simply right-click any tab, then select an item to toggle the visibility of its relative tab.  
-![!!clip3577.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3577.png) 
+![!!clip3577](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3577.png) 
 {% endsnippet %}
  

@@ -2,7 +2,7 @@
 title: Tableau de bord
 ---
 Le ***Tableau de bord*** affiche les commandes et les informations relatives à l'entrée sélectionnée. Le tableau de bord est contextuel et son contenu dépend du type d'entrée sélectionnée.  
-![!!RDMMac4037.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4037.png) 
+![!!RDMMac4037](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4037.png) 
 
 Pour plus d'informations sur le tableau de bord d'un type d'entrée spécifique, veuillez consulter les rubriques suivantes :  
 

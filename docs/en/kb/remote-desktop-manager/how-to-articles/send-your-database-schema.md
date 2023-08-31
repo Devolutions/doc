@@ -12,8 +12,8 @@ If you are unable to send your schema to the support staff following the procedu
 {% endsnippet %}
 
 1. Go in ***File - Data Sources - Edit Data Source***.  
-![!!KB4205.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4205.png)
+![!!KB4205](https://webdevolutions.azureedge.net/docs/en/kb/KB4205.png)
 1. In the ***Upgrade*** tab click on ***Email Schema to Support***.  
-![!!KB4206.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4206.png)
+![!!KB4206](https://webdevolutions.azureedge.net/docs/en/kb/KB4206.png)
 1. Fill in your information and click on ***Send***.  
-![!!KB4207.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4207.png)
+![!!KB4207](https://webdevolutions.azureedge.net/docs/en/kb/KB4207.png)

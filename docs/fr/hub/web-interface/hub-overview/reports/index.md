@@ -7,4 +7,4 @@ La section ***Rapports*** fournit aux administrateurs des outils pour effectuer 
 Les utilisateurs, qui ne sont pas administrateurs, auront un accès limité à la section ***Rapports***. 
 {% endsnippet %}
  
-![!!Hub4020.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4020.png) 
+![!!Hub4020](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4020.png) 

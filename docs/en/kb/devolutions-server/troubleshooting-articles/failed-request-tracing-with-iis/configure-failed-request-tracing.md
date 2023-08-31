@@ -19,22 +19,22 @@ Click on the link below to expand the section to configure the Failed Request Tr
 | appcmd.exe set config "Default Web Site" -section:system.webServer/tracing/traceFailedRequests /[path='*'].failureDefinitions.statusCodes:"400-599" |
 
 1. Open IIS Manager, expand the ***root node***, expand ***Sites*** and then select ***Default Web Sites***. 
-![!!KB4327.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4327.png) 
+![!!KB4327](https://webdevolutions.azureedge.net/docs/en/kb/KB4327.png) 
 1. In ***Actions*** pane on the right, select ***Failed Requests Tracing***....  
-![!!KB4328.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4328.png) 
+![!!KB4328](https://webdevolutions.azureedge.net/docs/en/kb/KB4328.png) 
 1. Select the ***Enable*** check box and then click ***OK***. The Directory target and the Maximum number of trace files can be modified.  
-![!!KB4329.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4329.png) 
+![!!KB4329](https://webdevolutions.azureedge.net/docs/en/kb/KB4329.png) 
 1. Expand ***Default Web Site*** and select the Web site to be traced.  
-![!!KB4330.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4330.png) 
+![!!KB4330](https://webdevolutions.azureedge.net/docs/en/kb/KB4330.png) 
 1. Double click on the ***Failed Request Tracing Rules*** icon of the selected Web Site.  
-![!!KB4331.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4331.png) 
+![!!KB4331](https://webdevolutions.azureedge.net/docs/en/kb/KB4331.png) 
 1. In the Actions pane on the right, click on ***Add***... to add a new rule.  
-![!!KB4332.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4332.png) 
+![!!KB4332](https://webdevolutions.azureedge.net/docs/en/kb/KB4332.png) 
 1. Select All content (*) and click ***Next***.  
-![!!KB4333.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4333.png) 
+![!!KB4333](https://webdevolutions.azureedge.net/docs/en/kb/KB4333.png) 
 1. Select the ***Status Code(s)*** check box. Enter the type of the status code to be traced, in this case type in the ***Status code(s)*** is set to monitor everything between code 200 to 599. Set the appropriate status code and click ***Next***.  
-![!!KB4334.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4334.png) 
+![!!KB4334](https://webdevolutions.azureedge.net/docs/en/kb/KB4334.png) 
 1. The last setting is to select the providers of the tracing. Select ***WWW*** Server. For each of them, set the ***Verbosity*** to ***Verbose***. Finally, check Rewrite and click ***Finish***.  
-![!!KB4335.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4335.png) 
+![!!KB4335](https://webdevolutions.azureedge.net/docs/en/kb/KB4335.png) 
 1. The tracing rule is now defined.  
-![!!KB4336.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4336.png) 
+![!!KB4336](https://webdevolutions.azureedge.net/docs/en/kb/KB4336.png) 

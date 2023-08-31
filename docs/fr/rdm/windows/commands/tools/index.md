@@ -2,7 +2,7 @@
 title: Outils
 ---
 L'onglet ***Outils*** contient votre ***Gestionnaire d'extensions***, les générateurs et plusieurs outils utiles.  
-![!!clip11429.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11429.png) 
+![!!clip11429](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11429.png) 
 
 ### Générateurs 
 

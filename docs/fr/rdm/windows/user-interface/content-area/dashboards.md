@@ -20,5 +20,5 @@ Les différents onglets disponibles dans le tableau de bord :
 Les onglets peuvent être masqués s'ils ne sont pas nécessaires pour un utilisateur.  
 
 Cliquer avec le bouton droit sur n'importe quel onglet, puis sélectionner un élément pour basculer la visibilité de son onglet relatif.  
-![!!clip3577.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3577.png) 
+![!!clip3577](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3577.png) 
 {% endsnippet %}

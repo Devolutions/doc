@@ -26,7 +26,7 @@ Die folgenden Schritte gewährleisten echte Mobilität und einfache Wartung. Es 
 ## Verfahren 
 
 1. Laden Sie das ***ZIP***-Paket {{ de.RDM }} Team herunter.
-![!!clip11586.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip11586.png) 
+![!!clip11586](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip11586.png) 
 1. Erstellen Sie auf Ihrem mobilen Gerät einen Ordner für RemoteDesktopManager. 
 1. Erstellen Sie in dem in Schritt 2 erstellten Installationsordner zwei Ordner: 
     1. Einen Konfigurations-Ordner. 
@@ -37,9 +37,8 @@ Die folgenden Schritte gewährleisten echte Mobilität und einfache Wartung. Es 
 1. Öffnen Sie {{ de.RDM }} und dann über ***Datei – Datenquellen*** das Fenster Datenquellen. 
 1. Erstellen Sie eine neue Datenquelle eines Typs, der auf Ihrem mobilen Gerät gespeichert werden kann, z. B. SQLite, XML usw. 
 1. Konfigurieren Sie die Datenquelle mit einem relativen Pfad, damit sie auf dem mobilen Gerät gespeichert wird: .\Data\Connections.db  
-![!!clip11276.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip11276.png) 
+![!!clip11276](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip11276.png) 
 1. Konfigurieren Sie Ihre mobilen Anwendungen (FileZilla, UltraVNC usw.) auf die gleiche Weise (relativ zum Installationsordner). Klicken Sie auf ***Installationspfad konfigurieren***, um Ihre bevorzugte mobile Anwendung auszuwählen.  
-![!!clip10449.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10449.png) 
-![!!clip11277.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip11277.png) 
-1. Sie können nun die bereits vorhandene ***Lokale Datenquelle*** löschen, die automatisch erstellt wurde.. 
-
+![!!clip10449](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10449.png) 
+![!!clip11277](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip11277.png) 
+1. Sie können nun die bereits vorhandene ***Lokale Datenquelle*** löschen, die automatisch erstellt wurde.

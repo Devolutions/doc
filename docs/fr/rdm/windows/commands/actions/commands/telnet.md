@@ -5,7 +5,7 @@ Les actions d'une session Telnet vous permettent d'envoyer des commandes à dist
 
 ## Paramètres 
 
-![!!RdmWin4050.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4050.png) 
+![!!RdmWin4050](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4050.png) 
 
 <table>
 	<tr>

@@ -29,7 +29,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-![!!RibbonNewDocumentSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonNewDocumentSmall.png) 
+![!!RibbonNewDocumentSmall](https://webdevolutions.azureedge.net/docs/common/RibbonNewDocumentSmall.png) 
 		</td>
 		<td>
 Create a new entry in your current data source. 
@@ -37,7 +37,7 @@ Create a new entry in your current data source.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
 		</td>
 		<td>
 Open the properties window of your selected entry. 
@@ -45,7 +45,7 @@ Open the properties window of your selected entry.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshSmall.png) 
+![!!RibbonRefreshSmall](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshSmall.png) 
 		</td>
 		<td>
 Refresh your data source. 
@@ -53,7 +53,7 @@ Refresh your data source.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonSearchSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonSearchSmall.png) 
+![!!RibbonSearchSmall](https://webdevolutions.azureedge.net/docs/common/RibbonSearchSmall.png) 
 		</td>
 		<td>
 Open the filter dialog window to allow you to do a quick search. 

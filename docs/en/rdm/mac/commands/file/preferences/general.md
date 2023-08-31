@@ -5,7 +5,7 @@ Use File - Preferences - General to configure options related to the functionali
 
 ## Settings 
 
-![!!RDMMac4038.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4038.png) 
+![!!RDMMac4038](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4038.png) 
 
 ### General 
 

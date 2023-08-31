@@ -9,14 +9,14 @@ These logs are saved in **%LocalAppData%\Devolutions\RemoteDesktopManager\Remote
 ### Report 
 
 A report of the logs can be saved in a text file as well. Simply navigate to the ***Report*** tab of the application log, then click on the ***Save*** button to select a location to save the file.  
-![!!clip3568.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3568.png) 
+![!!clip3568](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3568.png) 
 
 ### Clean up 
 
 For security reason, it is a best practice is to clean up the application log once every month. To do so, in the application log, use the ***Clean Up*** feature.  
 
 We strongly recommend to do a ***Delete all***, but this can be customized to delete specific logs by type, date or selection.  
-![!!clip10434.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10434.png) 
+![!!clip10434](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10434.png) 
 
 ### Increasing the Debug level 
 

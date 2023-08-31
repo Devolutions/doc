@@ -154,5 +154,5 @@ The ***User Groups*** tab displays the user groups that the user is a member of 
 This feature is only available with an SQL Server/Azure SQL and a {{ en.DVLS }} (DVLS) data source. 
 {% endsnippet %}
  
-![!!RdmWin4037.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4037.png) 
+![!!RdmWin4037](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4037.png) 
 

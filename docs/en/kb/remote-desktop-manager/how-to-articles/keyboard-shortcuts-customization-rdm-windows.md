@@ -8,16 +8,16 @@ In {{ en.RDMWIN }}, you can [customize individual shortcuts](#modify) and [creat
 For a list of default values for shortcuts, visit our [Keyboard Shortcuts](/rdm/windows/support-resources/keyboard-shortcuts/) topic.
 {% endsnippet %}
 
-![File - Options - User Interface - Keyboard.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2093.png)
+![File - Options - User Interface - Keyboard](https://webdevolutions.azureedge.net/docs/en/kb/KB2093.png)
 
 ## Modify shortcuts
 <a name="modify"></a>
 
 1. Under the ***Keyboard*** section, find the shortcut you want to modify from the list.
 1. To change the ***Mode*** of the shortcut, click on the mode to make a drop-down list appear. Select the mode between ***Default***, ***When not in session***, ***Global hotkey***, and ***None***.
-![Shortcute mode Customization.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2096.png)
+![Shortcute mode Customization](https://webdevolutions.azureedge.net/docs/en/kb/KB2096.png)
 1. To change the ***Shortcut***, click on the shortcut to make a drop-down list appear. Select the key combination from the list.  
-![Shortcut Key Combination Costumization.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2097.png)
+![Shortcut Key Combination Costumization](https://webdevolutions.azureedge.net/docs/en/kb/KB2097.png)
 1. Click ***OK*** to save your changes.  
 {% snippet icon.badgeInfo %}
 If you change your mind, you can use the ***Reset Default*** button to cancel all saved and unsaved changed. You can also use the ***Disable All*** button to change the ***Mode*** and ***Shortcut*** of all actions to ***None***.
@@ -30,9 +30,9 @@ You can create custom ***Macros*** and pair them with ***Shortcut*** key combina
 
 1. Under the ***Shortcut Macros*** section, click on the ***Add*** icon. A new macro line will appear.
 1. Under the ***Shortcut*** column, select the key combination from the drop-down list.
-![Shortcut Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2099.png)
+![Shortcut Selection](https://webdevolutions.azureedge.net/docs/en/kb/KB2099.png)
 1. Under the ***Macro*** column, select one of the available macros or write your own.
-![Macro Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2100.png)
+![Macro Selection](https://webdevolutions.azureedge.net/docs/en/kb/KB2100.png)
 1. Click ***OK*** to save your changes. 
 
 {% snippet icon.badgeInfo %}

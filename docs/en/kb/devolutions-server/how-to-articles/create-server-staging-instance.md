@@ -14,7 +14,7 @@ The following steps describe how to create a test instance hosted on the same ma
 1. [Create a new instance](/server/installation/create-server-instance/) in the {{ en.DVLSCONSOLE }}. We recommend creating the test instance at the same version as the production instance.
 1. In the database step, enter the information related to the database copy created in step 2.
 1. Provide, once prompted for it, the encryption key file exported in step 3.  
-![Encryption keys for existing database.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8113.png)
+![Encryption keys for existing database](https://webdevolutions.azureedge.net/docs/en/kb/KB8113.png)
 1. When the creation is complete, make a full backup of the staging database.
 1. Finally, install all the additional features to test them like the Scheduler service, the Recording Server and the {{ en.DGW }}.  
 

@@ -38,17 +38,17 @@ Il existe deux mises en situation :
 1. Accéder à un réseau sécurisé à partir d'un seul hôte.  
 
 Ceci permet d'avoir une politique de pare-feu stricte autorisant les connexions à partir d'une seule adresse IP. Cette configuration vous permettra d'accéder uniquement aux hôtes distants accessibles par la Jump Box. Prétendons que vous avez l'infrastructure suivante :  
-![!!clip10825.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10825.png) 
+![!!clip10825](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10825.png) 
 
 Vous devez accéder à des hôtes distants, mais vous souhaitez limiter les risques et exposer uniquement l'Hôte Jump au trafic Internet. En utilisant {{ fr.RDMJ }}, seul l'Hôte Jump est exposé. Cela vous permet de configurer des règles de pare-feu strictes et de n'ouvrir qu'un seul port. Par contre, vous devez obligatoirement vous connecter au Hôte Jump en premier avant d'avoir accès aux hôtes distants.  
-![!!clip10826.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10826.png) 
+![!!clip10826](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10826.png) 
 
 {{ fr.RDMJ }} aide à atteindre cet objectif simplement et efficacement.  
 
 2. Contournement des limites certains clients VPN  
 
 Ces limitations rendent impossible l'utilisation simultanée de plusieurs clients VPN sur le même poste de travail. Dans ce cas, vous pouvez avoir plusieurs machines virtuelles, chacune exécutant un seul client VPN. L'utilisation de ces machines virtuelles comme Jump Box vous permet de vous connecter à la machine virtuelle, de lancer le client VPN, puis de lancer la session à distance.  
-![!!clip10820.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10820.png) 
+![!!clip10820](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10820.png) 
 
 ### Configurer l'Hôte Jump 
 
@@ -58,10 +58,10 @@ Ces limitations rendent impossible l'utilisation simultanée de plusieurs client
 Pour que les ***Jumps*** fonctionnent, vous devez fournir les identifiants via la session de l'***Hôte Jump***. Si les sessions RDP vous demandent les identifiants après le démarrage, le ***Jump*** échouera. 
 {% endsnippet %}
  
-![!!RdmWin4113.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4113.png) 
+![!!RdmWin4113](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4113.png) 
 
 3. Dans la section ***Hôte Jump***, cocher ***Est hôte Jump***.  
-![!!RdmWin4114.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4114.png) 
+![!!RdmWin4114](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4114.png) 
 1. Cliquer ***OK***. 
 1. Lancer la session d'***Hôte Jump***. 
 1. Installer {{ fr.RDM }} sur le ***Hôte Jump***. 
@@ -89,7 +89,7 @@ Le ***Démarrage automatique*** doit être seulement activé pour {{ fr.RDMA }} 
     b. Sélectionner ***{{ fr.RDMA }}***.  
     c. Cliquer ***OK***.  
     d. Cliquer ***Oui***.  
-    ![!!RdmWin4115.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4115.png) 
+    ![!!RdmWin4115](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4115.png) 
 
 8. Cliquer avec le bouton droit sur l'icône de l'{{ fr.RDMA }} dans la barre des tâches.  
     a. Cocher ***Démarrage automatique***.  
@@ -113,7 +113,7 @@ L'***Hôte Jump*** est prêt à être utilisé.
 
     ou  
     * Choissir une ***Session*** spécifique pour pointer directement vers l'entrée d'***Hôte Jump***. 
-    ![!!RdmWin4116.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4116.png) 
+    ![!!RdmWin4116](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4116.png) 
 3. Cliquer par deux fois sur ***OK***. 
 1. Lancer la session RDP. Le {{ fr.RDMJ }} s'ouvre automatiquement et ressemble à une session dans une session. 
 

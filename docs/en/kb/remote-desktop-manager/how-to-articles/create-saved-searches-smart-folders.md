@@ -29,7 +29,7 @@ Smart folders search for the term anywhere in the entry name.
     ||: or  
 ```
 
-![!!KB4133.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4133.png)
+![!!KB4133](https://webdevolutions.azureedge.net/docs/en/kb/KB4133.png)
 
 ## Use a smart folder
 

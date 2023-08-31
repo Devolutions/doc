@@ -5,7 +5,7 @@ Les outils de session sont disponibles dans les onglets du tableau de bord et da
 
 ## Paramètres 
 
-![!!RDMMac4043.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4043.png) 
+![!!RDMMac4043](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4043.png) 
 
 Ces outils sont implémentés directement dans {{ fr.RDM }} et sont disponibles sans aucune installation ni configuration particulière. 
 

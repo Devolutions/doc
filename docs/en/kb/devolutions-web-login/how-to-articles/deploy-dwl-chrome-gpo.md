@@ -24,7 +24,7 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 1. Select REG_SZ in the ***Value type*** drop-down list.
 1. Write the JSON settings string in the ***Value data*** text field. See the <a href="#values">Values</a> section below for an example.
 1. Click on ***OK***.  
-![!!KB8106.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8106.png)
+![!!KB8106](https://webdevolutions.azureedge.net/docs/en/kb/KB8106.png)
 1. In ***Group Policy Management***, configure the GPO ***Links*** and ***Security Filtering*** according to your needs.
 
 ## Example <a name="Example"></a>
@@ -168,7 +168,7 @@ Possible values:
    }
    ```
 1. Click on ***OK*** and update the GPO rules on your local machine.  
-![!!KB8105.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8105.png)
+![!!KB8105](https://webdevolutions.azureedge.net/docs/en/kb/KB8105.png)
 
 ## References
 

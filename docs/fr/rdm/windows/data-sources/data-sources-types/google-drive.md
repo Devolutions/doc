@@ -5,7 +5,7 @@ title: Google Drive
 	<tr>
 		<td>
 
-![!!DataSourceFtpLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceFtpLarge.png) 
+![!!DataSourceFtpLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceFtpLarge.png) 
 		</td>
 		<td>
 {{ fr.RDM }} télécharge et téléverse les paramètres de session directement à partir d'un fichier situé sur un site FTP. 

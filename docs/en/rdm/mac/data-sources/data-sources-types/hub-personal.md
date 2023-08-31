@@ -10,7 +10,7 @@ Please consult our [website](https://password.devolutions.net/personal) for more
 
 ### General 
 
-![!!RDMMac4023.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4023.png) 
+![!!RDMMac4023](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4023.png) 
 
 <table>
 	<tr>
@@ -43,10 +43,10 @@ Your [{{ en.DA }}](https://portal.devolutions.com/) email address. You can creat
 ### VPN 
 
 Open a ***VPN*** to access your data prior to connecting to your {{ en.DHUB }}.  
-![!!RDMMac4024.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4024.png) 
+![!!RDMMac4024](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4024.png) 
 
 ### Advanced 
 
 This is the ***Server*** address.  
-![!!RDMMac4025.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4025.png) 
+![!!RDMMac4025](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4025.png) 
 

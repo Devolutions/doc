@@ -18,7 +18,7 @@ These requirements apply only if you intend to use Automatic User Account Creati
 	<tr>
 		<td>
 
-![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
+![!!clip10129](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
 Create Active Directory groups to manage your instance. Typical examples are: {{ en.RDM }} Admins, {{ en.RDM }} Operators, {{ en.RDM }} Users. 
@@ -26,7 +26,7 @@ Create Active Directory groups to manage your instance. Typical examples are: {{
 	</tr>
 	<tr>
 		<td>
-![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
+![!!clip10129](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
 Add domain users to the Active Directory groups. 
@@ -42,7 +42,7 @@ Add domain users to the Active Directory groups.
 	<tr>
 		<td>
 
-![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
+![!!clip10129](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
 Microsoft .NET Framework 4.8. 
@@ -50,7 +50,7 @@ Microsoft .NET Framework 4.8.
 	</tr>
 	<tr>
 		<td>
-![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
+![!!clip10129](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
 Microsoft SQL Server database (see [Database Instance](/server/installation/database-instance/)). 
@@ -58,7 +58,7 @@ Microsoft SQL Server database (see [Database Instance](/server/installation/data
 	</tr>
 	<tr>
 		<td>
-![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
+![!!clip10129](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
 Information Services (IIS) 7.0 or better (see [Install IIS and ASP.NET Modules](https://technet.microsoft.com/en-ca/library/hh831475.aspx#InstallIIS)). 
@@ -72,7 +72,7 @@ Information Services (IIS) 7.0 or better (see [Install IIS and ASP.NET Modules](
 	<tr>
 		<td>
 		
-![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
+![!!clip10129](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
 Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/)). 
@@ -80,7 +80,7 @@ Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} Instance](/ser
 	</tr>
 	<tr>
 		<td>
-![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
+![!!clip10129](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
 Create a {{ en.DVLS }} administrator account in the [User Management](/server/web-interface/administration/security-management/users/). 
@@ -88,7 +88,7 @@ Create a {{ en.DVLS }} administrator account in the [User Management](/server/we
 	</tr>
 	<tr>
 		<td>
-![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
+![!!clip10129](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
 Create [User Groups](/server/web-interface/administration/security-management/user-groups/). 
@@ -96,7 +96,7 @@ Create [User Groups](/server/web-interface/administration/security-management/us
 	</tr>
 	<tr>
 		<td>
-![!!clip10129.png](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
+![!!clip10129](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
 Add domain users or built-in users (see [User Management](/server/web-interface/administration/security-management/users/)). 

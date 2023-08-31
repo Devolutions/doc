@@ -31,7 +31,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-![!!RibbonAddSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonAddSmall.png) 
+![!!RibbonAddSmall](https://webdevolutions.azureedge.net/docs/common/RibbonAddSmall.png) 
 		</td>
 		<td>
 Créer une nouvelle entrée dans votre source de données actuelle. 
@@ -39,7 +39,7 @@ Créer une nouvelle entrée dans votre source de données actuelle.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
 		</td>
 		<td>
 Ouvrir la fenêtre des propriétés de votre entrée sélectionnée 
@@ -47,7 +47,7 @@ Ouvrir la fenêtre des propriétés de votre entrée sélectionnée
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshSmall.png) 
+![!!RibbonRefreshSmall](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshSmall.png) 
 		</td>
 		<td>
 Actualiser votre source de données. 
@@ -55,7 +55,7 @@ Actualiser votre source de données.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonSearchSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonSearchSmall.png) 
+![!!RibbonSearchSmall](https://webdevolutions.azureedge.net/docs/common/RibbonSearchSmall.png) 
 		</td>
 		<td>
 Ouvrir la fenêtre de dialogue du filtre pour vous permettre d'effectuer une recherche rapide 

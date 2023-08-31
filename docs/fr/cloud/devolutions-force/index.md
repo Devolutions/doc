@@ -7,4 +7,4 @@ La ***{{ fr.DFORCE }}*** est un canal privé qui vous permet de vous connecter e
 
 Êtes-vous prêt à ressentir la [Force](https://devolutions.net/force)?  
 
-![!!Cloud4046.png](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4046.png) 
+![!!Cloud4046](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4046.png) 

@@ -14,4 +14,4 @@ Cliquer sur les boutons ***Aperçu*** ou ***Fractionner verticalement*** pour re
 {% endsnippet %}
  
 1. Cliquer ***Ajouter*** pour enregistrer.  
-![!!Hub4148.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4148.png) 
+![!!Hub4148](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4148.png) 

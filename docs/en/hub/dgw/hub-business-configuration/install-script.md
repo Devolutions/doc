@@ -34,7 +34,7 @@ An ***Application User*** is required to proceed. If one is not already created,
 ![Install with Script](https://webdevolutions.azureedge.net/docs/en/hub/DGW0042.png) 
 1. Input the correct information. If the ***License*** field is left on ***None***, it will use the ***Free*** option by default.  
 ![Information Fields](https://webdevolutions.azureedge.net/docs/en/hub/DGW0046.png) 
-![!!Dgw0047.png](https://webdevolutions.azureedge.net/docs/en/hub/DGW0047.png) 
+![!!Dgw0047](https://webdevolutions.azureedge.net/docs/en/hub/DGW0047.png) 
 1. Click on ***Download***.  
 ![Download Script](https://webdevolutions.azureedge.net/docs/en/hub/DGW0048.png) 
 1. Run the downloaded script with PowerShell 7 in administrator mode. (It should be installed on the server hosting {{ en.DGW }}.)

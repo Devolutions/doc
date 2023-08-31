@@ -24,7 +24,7 @@ Standardmäßig können Benutzer keine Vorlagen erstellen oder verwalten. Um Ben
 ## Verfügbarkeit 
 
 Bei der Erstellung einer Vorlage kann deren Verfügbarkeit in den ***Vorlageneinstellungen*** festgelegt werden.  
-![!!clip3585.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3585.png) 
+![!!clip3585](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3585.png) 
 
 ## Verwendung 
 
@@ -33,12 +33,12 @@ Vorlagen können in den folgenden Fällen verwendet werden:
 ### Einträge hinzufügen
 
 Standardmäßig wird der Benutzer beim Erstellen eines Eintrags, für den es eine Vorlagen gibt, dazu aufgefordert eine Vorlage zu verwenden. Dieses Verhalten kann in den ***Systemeinstellungen*** geändert werden.  
-![!!clip3584.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3584.png) 
+![!!clip3584](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3584.png) 
 
 Die Vorlage kann auch direkt beim Erstellen im Abschnitt ***Vorlage*** im Fenster ***Neuen Eintrag hinzufügen*** ausgewählt werden.
-![!!clip10266.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10266.png) 
+![!!clip10266](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10266.png) 
 
 ### Schnellverbindung starten 
 
 Vorlagen können mit der ***Schnellverbindung***-Funktion verwendet werden. So kann beispielsweise dieselbe Vorlage für die Verbindung zu verschiedenen Hosts genutzt werden.  
-![!!clip10164.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10164.png) 
+![!!clip10164](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10164.png) 

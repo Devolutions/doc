@@ -3,7 +3,7 @@ title: Install-Package - The following commands are already available on this sy
 ---
 When trying to install the new {{ en.PS }} module, the following error is raised.
 
-![!!KB8122.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8122.png)
+![!!KB8122](https://webdevolutions.azureedge.net/docs/en/kb/KB8122.png)
 
 ## Solution 1
 
@@ -20,4 +20,4 @@ Here are the different commands to uninstall them:
 
 Running the `Get-Module -ListAvailable` cmdlet, if some of the modules are still visible in the list and the module type is Binary, then they need to be manually removed in the given path.
 
-![!!KB8123.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8123.png)
+![!!KB8123](https://webdevolutions.azureedge.net/docs/en/kb/KB8123.png)

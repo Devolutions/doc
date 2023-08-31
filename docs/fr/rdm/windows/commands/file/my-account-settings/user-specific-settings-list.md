@@ -40,7 +40,7 @@ Exporter
 		</td>
 		<td>
 Exporter une liste de paramètres spécifiques à l'utilisateur dans un fichier .rds. Un mot de passe est requis pour crypter le fichier .rds.  
-![!!RdmWin8002.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin8002.png) 
+![!!RdmWin8002](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin8002.png) 
 		</td>
 	</tr>
 </table>

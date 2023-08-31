@@ -24,21 +24,21 @@ Security is at the core of {{ en.DHUB }} since it is hosted by [Microsoft Azure]
 	<tr>
 		<td>
 
-![!!ApplicationDWL64x64.png](https://webdevolutions.azureedge.net/docs/common/ApplicationDWL64x64.png)  
+![!!ApplicationDWL64x64](https://webdevolutions.azureedge.net/docs/common/ApplicationDWL64x64.png)  
 
 ## {{ en.DWL }}  
 
 Automatically fill and save credentials 
 		</td>
 		<td>
-![!!launcher-icon-shadow.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/launcher-icon-shadow.png)  
+![!!launcher-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/launcher-icon-shadow.png)  
 
 ## {{ en.DLAUNCHER }}  
 
 Remote Access Technology  
 		</td>
 		<td>
-![!!password-hub-importer-icon-shadow.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/password-hub-importer-icon-shadow.png)  
+![!!password-hub-importer-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/password-hub-importer-icon-shadow.png)  
 
 ## {{ en.DHUBI }}  
 
@@ -62,14 +62,14 @@ The essential tool designed to easily and quickly import credentials into your h
 	<tr>
 		<td>
 
-![!!devolutions-workspace-icon-shadow.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/workspace-icon-shadow.png)  
+![!!devolutions-workspace-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/workspace-icon-shadow.png)  
 
 ## {{ en.DWS }}  
 
 Centralized Cloud-Based Environment  
 		</td>
 		<td>
-![!!remote-desktop-manager-icon-shadow.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/remote-desktop-manager-icon-shadow.png)  
+![!!remote-desktop-manager-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/remote-desktop-manager-icon-shadow.png)  
 
 ## {{ en.RDM }}  
 

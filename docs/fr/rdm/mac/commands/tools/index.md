@@ -2,7 +2,7 @@
 title: Outils
 ---
 L'onglet ***Outils*** contient votre Gestionnaire d'extensions, les générateurs et plusieurs outils utiles.  
-![!!clip4220.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4220.png) 
+![!!clip4220](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4220.png) 
 
 Pour en savoir plus, veuillez consulter :  
 

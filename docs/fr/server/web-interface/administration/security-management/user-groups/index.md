@@ -19,7 +19,7 @@ Description
 	<tr>
 		<td>
 
-![AddSmallGrey.png](https://webdevolutions.azureedge.net/docs/fr/server/Icons/AddSmallGrey.png) 
+![AddSmallGrey](https://webdevolutions.azureedge.net/docs/fr/server/Icons/AddSmallGrey.png) 
 		</td>
 		<td>
 Ajouter un groupe d'utilisateur. 
@@ -27,7 +27,7 @@ Ajouter un groupe d'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![NavImportSmall.png](https://webdevolutions.azureedge.net/docs/common/NavImportSmall.png) 
+![NavImportSmall](https://webdevolutions.azureedge.net/docs/common/NavImportSmall.png) 
 		</td>
 		<td>
 Importer des groupes d'utilisateurs depuis LDAP ou Azure. 
@@ -35,7 +35,7 @@ Importer des groupes d'utilisateurs depuis LDAP ou Azure.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshGraySmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshGraySmall.png) 
+![!!RibbonRefreshGraySmall](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshGraySmall.png) 
 		</td>
 		<td>
 Actualiser la liste des groupes d'utilisateurs. 
@@ -71,7 +71,7 @@ Assigner un {{ fr.VLT }} au groupe d'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
 		</td>
 		<td>
 Modifier les paramètres du groupe d'utilisateurs. 
@@ -79,7 +79,7 @@ Modifier les paramètres du groupe d'utilisateurs.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonTrashSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonTrashSmall.png) 
+![!!RibbonTrashSmall](https://webdevolutions.azureedge.net/docs/common/RibbonTrashSmall.png) 
 		</td>
 		<td>
 Supprimer le groupe d'utilisateur. 

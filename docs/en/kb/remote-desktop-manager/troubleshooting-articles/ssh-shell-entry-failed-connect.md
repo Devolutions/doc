@@ -8,7 +8,7 @@ An unknown SSH error was encountered.
 No authentication method available  
 
 Errors appear when connecting with an SSH Shell in {{ en.RDM }} 2019.X.  
-![!!KB4099.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4099.png)
+![!!KB4099](https://webdevolutions.azureedge.net/docs/en/kb/KB4099.png)
 ## Cause
 ***Interactive authentication*** in terminal is set to ***True*** under ***Advanced*** tab.  
 

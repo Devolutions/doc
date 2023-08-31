@@ -16,7 +16,7 @@ To start your free {{ en.DHUBB }} trial today, click [here](https://devolutions.
 
 ### General 
 
-![!!RdmWin4038.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4038.png) 
+![!!RdmWin4038](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4038.png) 
 
 <table>
 	<tr>
@@ -57,10 +57,10 @@ Copy in the ***Host*** your {{ en.DHUBB }} URL (ex: https<area>://windjammer.dev
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DHUB }}.  
-![!!RdmWin7068.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin7068.png) 
+![!!RdmWin7068](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin7068.png) 
 
 ### Advanced 
 
 Set the interval for the automatic refresh.  
-![!!RdmWin4039.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4039.png) 
+![!!RdmWin4039](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4039.png) 
 

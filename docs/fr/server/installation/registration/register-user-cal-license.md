@@ -7,9 +7,9 @@ Il existe deux méthodes pour enregistrer votre licence ***LAC utilisateur***, a
 ## {{ fr.DVLSCONSOLE }}
 
 Enregistrer votre licence ***LAC utilisateur*** dans ***Serveur – Modifier – Général – Licence***.  
-![!!ServerOp4030.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4030.png) 
+![!!ServerOp4030](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4030.png) 
 
 ## Interface Web de {{ fr.DVLS }} 
 
 Enregistrer la licence ***LAC utilisateur*** dans ***Administration – Licences***.  
-![!!ServerOp4029.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4029.png) 
+![!!ServerOp4029](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4029.png) 

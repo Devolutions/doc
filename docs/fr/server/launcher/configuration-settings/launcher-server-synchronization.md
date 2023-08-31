@@ -14,13 +14,13 @@ Vous devez vous connecter au moins une fois à {{ fr.DLAUNCHER }} pour que l'out
 Cette méthode définit comment tous les utilisateurs lanceront les connexions.  
 
 Dans ***Administration - Paramètres Serveur - Avancé***, utiliser le menu déroulant ***Lancer une connexion avec*** pour sélectionner ***{{ fr.DLAUNCHER }}***.  
-![!!ServerOp4007.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4007.png)  
+![!!ServerOp4007](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4007.png)  
 
 ## Paramètres du compte 
 Cette méthode définit comment chaque utilisateur lancera les connexions distantes.  
 
 1. Cliquer sur l'***avatar*** de utilisateur. 
 1. Cliquer sur ***Paramètres***. 
-![!!ServerOp4008.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4008.png) 
+![!!ServerOp4008](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4008.png) 
 1. Choisir ***{{ fr.DLAUNCHER }}*** dans le menu déroulant de ***Lancer une connexion avec*** et ***Enregistrer***. 
-![!!ServerOp4009.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4009.png) 
+![!!ServerOp4009](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4009.png) 

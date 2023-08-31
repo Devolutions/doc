@@ -6,7 +6,7 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/dvls-90X90.png) 
+![!!dvls-90X90](https://webdevolutions.azureedge.net/docs/en/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
 {{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the product's web site [here](https://devolutions.net/server). 

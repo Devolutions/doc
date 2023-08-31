@@ -11,4 +11,4 @@ Upon creation of a new {{ en.DVLS }} instance with version 2023.1 or later, when
 ## Steps
 
 To have {{ en.DVLS }} interact directly with Azure AD without relying on its ***Microsoft Authentication Users and User Groups cache***, disable the ***Enable cache feature*** option in ***Administration – Server Settings – Authentication – Microsoft Authentication***.
-![!!KB8121.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8121.png)
+![!!KB8121](https://webdevolutions.azureedge.net/docs/en/kb/KB8121.png)

@@ -10,7 +10,7 @@ Instead of exporting and importing data sources and options separately, it is po
 {% endsnippet %}
 
 1. From ***File – Data Sources***, click on the ***Export Data Source Configuration*** button, then save the *.rdd file on your computer.  
-![!!KB4258.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4258.png)
+![!!KB4258](https://webdevolutions.azureedge.net/docs/en/kb/KB4258.png)
 1. To import the data source in another {{ en.RDM }} instance, use ***File – Data Sources***, and click on the ***Import Data Source Configuration*** button.
 
 {% snippet icon.shieldWarning %}

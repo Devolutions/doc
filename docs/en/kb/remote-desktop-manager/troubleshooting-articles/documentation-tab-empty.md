@@ -2,7 +2,7 @@
 title: Documentation tab is empty
 ---
 The ***Documentation*** tab, in an entry, is empty although you have ***Reset the layout*** in the ***Window*** tab.  
-![!!KB4705.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4705.png)
+![!!KB4705](https://webdevolutions.azureedge.net/docs/en/kb/KB4705.png)
 ## Solution
 First validate that you are allowed to ***View documentation*** in ***Administration - {{ en.VLT }} Settings - Permissions - Documentation - View documentation***.  
 
