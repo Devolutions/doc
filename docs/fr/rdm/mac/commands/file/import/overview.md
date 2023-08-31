@@ -16,7 +16,7 @@ La fonction d'importation est active que si la [Permissions du système](/fr/rdm
 Importer des entrées est utilisé pour importer des sessions stockées dans des fichiers tels que :  
 
 * .rdm (format d'exportation natif de {{ fr.RDM }}) 
-* .pvm (format d'exportation natif de P assword Vault Manager) 
+* .pvm (format d'exportation natif de Password Vault Manager) 
 * .xml (il doit s'agir d'un format spécifique compatible avec l'application) 
 
 ### Importer un Assistant d'ordinateur 

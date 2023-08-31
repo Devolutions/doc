@@ -192,11 +192,11 @@ Template
 	</tr>
 </table>
 
-### Vault Dashboard widgets
+### {{ en.VLT }} Dashboard widgets
 
-![Vault Dashboard widgets](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2080.png) 
+![{{ en.VLT }} Dashboard widgets](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2080.png) 
 
-This table shows the different widgets that can be displayed in your ***Vault Dashboard*** depending on your usage profile.  
+This table shows the different widgets that can be displayed in your ***{{ en.VLT }} Dashboard*** depending on your usage profile.  
 
 <table>
 	<tr>
@@ -301,7 +301,7 @@ Pending access requests
 	</tr>
 	<tr>
 		<td>
-Pending vault access requests
+Pending {{ en.VLT }} access requests
 		</td>
 		<td align="center">
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)

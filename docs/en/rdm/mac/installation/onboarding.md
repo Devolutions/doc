@@ -9,7 +9,7 @@ When opening your {{ en.RDM }} application for the first time, an Onboarding pro
 
 ![Create your data source](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2084.png)  
 
-To get started, you must configure a data source. A data source is at the heart of {{ en.RDM }}. It is the vault that contains all of your precious and sensitive data.  
+To get started, you must configure a data source. A data source is at the heart of {{ en.RDM }}. It is the {{ en.VLT }} that contains all of your precious and sensitive data.  
 
 You will have to select between three option:  
 * ***Local (Free)***: Select this option if you intend to access your data source from this device only. You will then be guided to configure a [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) data source, which is fast and easy-to-use and accessible locally. 

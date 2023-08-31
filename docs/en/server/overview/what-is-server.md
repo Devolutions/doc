@@ -9,7 +9,7 @@ eleventyComputed:
 ---
 ![!!{{ en.DVLS }} logo]({{ locale[lang].projects.server.logo }})
 
-{{ en.DVLS }} is an on‑premise vault for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease.  
+{{ en.DVLS }} is an on‑premise {{ en.VLT }} for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease.  
 
 Use our ***User Groups Based Access Control*** to grant permissions in a granular fashion. Advanced logging of all user activity is included to offer visibility in all aspects of the solution.  
 
@@ -25,7 +25,7 @@ There are two ways of using {{ en.DVLS }}:
 
 ![!!clip10056.png](https://webdevolutions.azureedge.net/docs/en/server/clip10056.png)  
 
-## Web-Based Vault  
+## Web-Based {{ en.VLT }}  
 
 Web browser access and [{{ en.DWL }}](/server/dwl/overview/) 
 		</td>
@@ -39,12 +39,12 @@ Using a client application (desktop or mobile)
 	</tr>
 	<tr>
 		<td>
-Access vaulted resources from a web browser using a Client Access License (CAL). Credentials are managed directly from the web interface and no client application is required.  
+Access {{ en.VLT }} resources from a web browser using a Client Access License (CAL). Credentials are managed directly from the web interface and no client application is required.  
 
 With the {{ en.DWL }} browser extension, credentials can be automatically submitted when connecting to a website. 
 		</td>
 		<td>
-Access vaulted resources using our client applications which communicate with {{ en.DVLS }} web services. A local installation of a client application such as {{ en.RDM }} is required to manage the data source and its resources. Note that we offer Windows, {{ en.MAC }}, Android and iOS editions.  
+Access {{ en.VLT }} resources using our client applications which communicate with {{ en.DVLS }} web services. A local installation of a client application such as {{ en.RDM }} is required to manage the data source and its resources. Note that we offer Windows, {{ en.MAC }}, Android and iOS editions.  
 
 Use any type of entry, manage all aspects of the data source and monitor user activity all in the same application. 
 		</td>

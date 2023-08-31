@@ -67,7 +67,7 @@ This button is only displayed next to the Equivalent URLs field after having cli
 Credentials 
 		</td>
 		<td>
-In the drop-down list, select Custom, Linked (Vault), Inherited, Linked ({{ en.UVLT }}), Find by name ({{ en.UVLT }}), or None to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
+In the drop-down list, select Custom, Linked ({{ en.VLT }}), Inherited, Linked ({{ en.UVLT }}), Find by name ({{ en.UVLT }}), or None to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
 		</td>
 	</tr>
 	<tr>
@@ -75,7 +75,7 @@ In the drop-down list, select Custom, Linked (Vault), Inherited, Linked ({{ en.U
 Credential Selection 
 		</td>
 		<td>
-Select the credential entry that will be used to fetch the credentials for your new website entry. {{ en.DWL }} will only show entries of the Credential Entry type to be linked to your entry. The credential entry location must first be selected in the Vault drop-down list.  
+Select the credential entry that will be used to fetch the credentials for your new website entry. {{ en.DWL }} will only show entries of the Credential Entry type to be linked to your entry. The credential entry location must first be selected in the {{ en.VLT }} drop-down list.  
 
 It is also possible to select Prompt on connection to be asked each time you connect.  
 
@@ -137,10 +137,10 @@ Enter a description for your new entry.
 	</tr>
 	<tr>
 		<td>
-Vault 
+{{ en.VLT }} 
 		</td>
 		<td>
-Choose to store your new website entry in your {{ en.UVLT }} or in the currently selected Vault in {{ en.DVLS }}. 
+Choose to store your new website entry in your {{ en.UVLT }} or in the currently selected {{ en.VLT }} in {{ en.DVLS }}. 
 		</td>
 	</tr>
 	<tr>

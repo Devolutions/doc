@@ -33,28 +33,28 @@ Specifying a ***Master key*** will encrypt the whole content of the .rdm file to
  
 ![!!clip10103.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10103.png) 
 
-### Export vault (.json) 
+### Export {{ en.VLT }} (.json) 
 
-Export a vault in a .json file format. You can also include credentials in this export format and secure your file with a master key. 
+Export a {{ en.VLT }} in a .json file format. You can also include credentials in this export format and secure your file with a master key. 
 
 ### Export All Host List (.csv) 
 
 Export a simple host list in .csv format. You will be prompted to see if you wish the export to be slightly more detailed and include the following information: Host, Description, Display Name, Group, User Groups. 
 
-### Export vault (.csv) 
+### Export {{ en.VLT }} (.csv) 
 
-Export the vault using the .csv format file. For security reasons the .csv file will be contained within a password encrypted zip file. This type of security can be hacked using brute force attacks, it should be used only when the zip file is under your exclusive control. 
+Export the {{ en.VLT }} using the .csv format file. For security reasons the .csv file will be contained within a password encrypted zip file. This type of security can be hacked using brute force attacks, it should be used only when the zip file is under your exclusive control. 
 {% snippet icon.badgeInfo %} 
 Please note that the csv columns will vary depending on entry types being exported. This makes it the wrong format if ever you want to import the data back in {{ en.RDM }}. Use this only to migrate to another system. 
 {% endsnippet %}
  
-### Export Vault (.html) 
+### Export {{ en.VLT }} (.html) 
 
-Export the vault with an AES-256 to encrypt self contained html file. See [Export Html Encrypted](/rdm/windows/commands/file/export/html-encrypted/) topic for more information. 
+Export the {{ en.VLT }} with an AES-256 to encrypt self contained html file. See [Export Html Encrypted](/rdm/windows/commands/file/export/html-encrypted/) topic for more information. 
 
-### Export vault (.xml) 
+### Export {{ en.VLT }} (.xml) 
 
-Because it brought confusion to our user base, this export format has been converted to perform the exact same export as the ***Export Vault*** but sets the file extension to .xml instead. 
+Because it brought confusion to our user base, this export format has been converted to perform the exact same export as the ***Export {{ en.VLT }}*** but sets the file extension to .xml instead. 
 
 ### Export All Documents 
 

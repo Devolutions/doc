@@ -21,7 +21,6 @@ Click the entry name to be redirected and manage the entry security.
 
 ![!!ServerOp4063.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4063.png) 
 ### Non Default Permission 
-Select a ***Vault*** for this report to list all the permissions applied to the entries. Click the entry name to be redirected and manage the entry permissions.  
+Select a ***{{ en.VLT }}*** for this report to list all the permissions applied to the entries. Click the entry name to be redirected and manage the entry permissions.  
 
-![!!ServerOp4064.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4064.png) 
-
+![!!ServerOp4064.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4064.png)

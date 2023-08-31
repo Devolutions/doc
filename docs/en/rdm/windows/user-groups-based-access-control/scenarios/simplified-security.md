@@ -54,9 +54,9 @@ The permission to view the Windjammer folder will be set for the ServiceDesk onl
 * ***Add: Never***; Only the administrator can add entries. 
 * ***Edit: Never***; Only the administrator can edit entries. 
 * ***Delete: Never***; Only the administrator can delete entries.
-* ***Move: Inherited***; Never inherited from Vault. Only administrators can move entries. 
-* ***View password: Inherited***; Never inherited from Vault. Only administrators can view password.
-* ***View sensitive information: Inherited***; Never inherited from Vault. Only administrators can view sensitive information.
+* ***Move: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can move entries. 
+* ***View password: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view password.
+* ***View sensitive information: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view sensitive information.
 
 For Downhill Pro, we will grant permissions to the ServiceDesk and the HelpDesk.  
 ![Downhill Pro - Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6116.png) 
@@ -65,9 +65,9 @@ For Downhill Pro, we will grant permissions to the ServiceDesk and the HelpDesk.
 * ***Add: Custom***; ServiceDesk. 
 * ***Edit: Custom***; ServiceDesk. 
 * ***Delete: Never***; Only the administrator can delete entries. 
-* ***Move: Inherited***; Never inherited from Vault. Only administrators can move entries. 
-* ***View password: Inherited***; Never inherited from Vault. Only administrators can view password.
-* ***View sensitive information: Inherited***; Never inherited from Vault. Only administrators can view sensitive information.
+* ***Move: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can move entries. 
+* ***View password: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view password.
+* ***View sensitive information: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view sensitive information.
 
 We already have a good example of the flexibility of {{ en.RDM }} ’s Security. A ServiceDesk user can view and use all the entries in the Downhill Pro folder, even the credential entries, but it will never be able to see any password since View Password is Disallowed (from the {{ en.VLT }} folder).  
 
@@ -78,9 +78,9 @@ Next, for the Telemark folder, we will grant permissions to the ServiceDesk, the
 * ***Add: Custom***; ServiceDesk. 
 * ***Edit: Custom***; ServiceDesk. 
 * ***Delete: Never***; Only the administrator can delete entries. 
-* ***Move: Inherited***; Never inherited from Vault. Only administrators can move entries. 
-* ***View password: Inherited***; Never inherited from Vault. Only administrators can view password.
-* ***View sensitive information: Inherited***; Never inherited from Vault. Only administrators can view sensitive information.
+* ***Move: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can move entries. 
+* ***View password: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view password.
+* ***View sensitive information: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view sensitive information.
 
 Since we want the users to be able to use the credential entries, we will grant the ServiceDesk and the HelpDesk the permission to view the Credentials folder. This way, the ServiceDesk and HelpDesk will be able to use the entries in the folder without revealing the passwords. Therefore, by specifying that only the HelpDesk and ServiceDesk have the ***View*** permission, we deny the view access to any user group or user that is not in the list of the permission.  
 
@@ -91,9 +91,9 @@ The ***Add***, ***Edit***, and ***Delete*** permissions can be left to ***Inheri
 * ***Add: Inherited***; ServiceDesk inherited from Telemark folder. 
 * ***Edit: Inherited***; ServiceDesk inherited from Telemark folder. 
 * ***Delete: Inherited***; Never inherited from Telemark folder. 
-* ***Move: Inherited***; Never inherited from Vault. Only administrators can move entries. 
-* ***View password: Inherited***; Never inherited from Vault. Only administrators can view password.
-* ***View sensitive information: Inherited***; Never inherited from Vault. Only administrators can view sensitive information.
+* ***Move: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can move entries. 
+* ***View password: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view password.
+* ***View sensitive information: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view sensitive information.
 
 We want the ServiceDesk to be able to use the Domain Admin credential entry as well but not the HelpDesk. For this we must grant the ***View*** permission to the ServiceDesk. The ServiceDesk will still be able to edit the credential entry but will never see the password. The delete permission is set to ***Never***.  
 ![Domain Admin credential entry](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6108.png) 

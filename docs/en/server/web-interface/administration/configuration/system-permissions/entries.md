@@ -39,10 +39,10 @@ Restrain creating entries in root to certain users.
 	</tr>
 	<tr>
 		<td>
-Vault settings 
+{{ en.VLT }} settings 
 		</td>
 		<td>
-Restrain access to vault settings to certain users. 
+Restrain access to {{ en.VLT }} settings to certain users. 
 		</td>
 	</tr>
 	<tr>

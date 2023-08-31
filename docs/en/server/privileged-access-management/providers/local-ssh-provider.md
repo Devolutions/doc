@@ -125,10 +125,10 @@ Description
 	</tr>
 	<tr>
 		<td>
-Add PAM Vault 
+Add PAM {{ en.VLT }} 
 		</td>
 		<td>
-Will create a PAM Vault with the provider's name if enabled. 
+Will create a PAM {{ en.VLT }} with the provider's name if enabled. 
 		</td>
 	</tr>
 	<tr>
@@ -140,4 +140,3 @@ Will open the Scan Configuration dialog if enabled.
 		</td>
 	</tr>
 </table>
-

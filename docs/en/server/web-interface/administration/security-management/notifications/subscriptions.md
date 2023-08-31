@@ -43,7 +43,7 @@ Category of the subscription. This can be one of the following possibilities.
 
 * Entry 
 * User 
-* Vault 
+* {{ en.VLT }} 
 * User Groups 
 * PAM Privileged Account 
 * PAM Provider 

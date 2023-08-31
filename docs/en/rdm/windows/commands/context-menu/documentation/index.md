@@ -38,8 +38,8 @@ You can select ***Set as new default*** to save your preferences when you create
  5. Click ***OK*** to close the window.
 ##  Synchronize offline documentation  
  1. Choose the entry in the ***{{ en.NPANE }}***.  
- 1. Go to ***Administration – Vault Settings*** in the ribbon. 
-![Vault Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6000.png)  
+ 1. Go to ***Administration – {{ en.VLT }} Settings*** in the ribbon. 
+![{{ en.VLT }} Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6000.png)  
  1. In ***Security Settings – Offline – Synchronize documentation to offline***, select ***Yes***.  
 ![Synchronize documentation to offline](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6004.png)  
  1. Click ***OK*** and close the window.  
@@ -48,8 +48,8 @@ The offline ***Documentation*** tab is now available in the ***Dashboard***.
 ![Documentation tab](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6003.png)  
 ##  Synchronize offline document  
  1. Choose the entry in the ***{{ en.NPANE }}***.  
- 1. Go to ***Administration – Vault Settings***.  
- ![Vault Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6000.png)  
+ 1. Go to ***Administration – {{ en.VLT }} Settings***.  
+ ![{{ en.VLT }} Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6000.png)  
  1. In ***Security Settings – Offline – Synchronize document to offline***, select ***Yes***.  
  1. Click ***OK*** and close the window.  
 ![Synchronize document to offline](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6005.png)  

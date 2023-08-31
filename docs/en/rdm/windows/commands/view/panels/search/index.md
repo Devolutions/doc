@@ -21,6 +21,6 @@ Pro tip: Use the following shortcuts while selecting an entry for an even quicke
 
 For information about other search methods, see our related topics:  
 
-* [***Multi Vault Search***](/rdm/windows/commands/view/panels/search/multi-vault/) 
+* [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/panels/search/multi-vault/) 
 * [***Advanced Search***](/rdm/windows/commands/view/panels/search/advanced/) 
-* [***Documentation Search***](/rdm/windows/commands/view/panels/search/documentation/) 
+* [***Documentation Search***](/rdm/windows/commands/view/panels/search/documentation/)

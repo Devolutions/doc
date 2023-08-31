@@ -71,7 +71,7 @@ To set permissions on an entry, edit any entry, then navigate to the ***Security
 
 ![Entry's Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8042.png) 
 
-Permissions are usually set on folders, and apply to all child entries. A best practice is to set all the permissions of the vault folder to Never. As a result, all permissions of all entries are denied by default.  
+Permissions are usually set on folders, and apply to all child entries. A best practice is to set all the permissions of the {{ en.VLT }} folder to Never. As a result, all permissions of all entries are denied by default.  
 
 ![Root Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8043.png) 
 
@@ -83,7 +83,7 @@ Consider the following structure:
 
 ![Sample Structure](https://webdevolutions.azureedge.net/docs/en/server/clip8044.png) 
 
-There are three levels of folders: the Vault, Telemark, and child items of Telemark.  
+There are three levels of folders: the {{ en.VLT }}, Telemark, and child items of Telemark.  
 
 Suppose that a user, such as a consultant, must have access to the Montreal folder only. The consultant must be granted the View permission on the Telemark folder as well. However, granting the View access to the Telemark folder gives to the consultant the permissions to view all child items of Telemark. To deny the View permissions for the consultant on specific child items, the View permissions of these items must be expressly set for other users.  
 

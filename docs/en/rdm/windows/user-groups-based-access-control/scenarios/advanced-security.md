@@ -59,7 +59,7 @@ Now, everything is ready to grant or deny access to the user groups.
 **{{ en.VLT }} Settings** 
 
 As mentioned above, ALL {{ en.VLT }} settings folder permissions are set to ***Never***. This denies the default access to other users.  
-![Vault Settings - Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6089.png) 
+![{{ en.VLT }} Settings - Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6089.png) 
 
 **Windjammer Downhill Pro, and Telemark, the {{ en.VLT }} level groups/folders** 
 

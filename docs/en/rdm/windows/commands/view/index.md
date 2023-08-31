@@ -28,7 +28,7 @@ DESCRIPTION
 {{ en.VLT }} 
 		</td>
 		<td>
-Access the view mode of the ***{{ en.NPANE }}*** for the current [vault](/rdm/windows/commands/view/panels/vault/). 
+Access the view mode of the ***{{ en.NPANE }}*** for the current [{{ en.VLT }}](/rdm/windows/commands/view/panels/vault/). 
 		</td>
 	</tr>
 	<tr>

@@ -110,7 +110,7 @@ Choose between Read only user or User type account.
 	</tr>
 	<tr>
 		<td>
-Default Vault 
+Default {{ en.VLT }} 
 		</td>
 		<td>
 Will give access to that {{ en.VLT }} to the user. 

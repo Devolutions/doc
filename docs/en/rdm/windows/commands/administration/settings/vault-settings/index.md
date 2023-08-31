@@ -1,3 +1,4 @@
 ---
-title: Vault Settings
+eleventyComputed:
+  title: '{{ en.VLT }} Settings'
 ---

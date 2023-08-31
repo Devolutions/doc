@@ -23,7 +23,7 @@ This topic will cover how to configure a {{ en.DGW }} farm through the web inter
    A gateway can belong to only one farm at a time. If it is included in a new farm, it will be moved from the current farm.
    {% endsnippet %}  
 
-6. In the ***Security*** tab, configure who can use the farm and in which vault it can be used. Permissions and rights are the same as those for a regular gateway.
+6. In the ***Security*** tab, configure who can use the farm and in which {{ en.VLT }} it can be used. Permissions and rights are the same as those for a regular gateway.
 
    {% snippet icon.badgeInfo %}
    If gateways within the farm have specific restrictions or permissions, they will be overridden by the farm's settings. A warning message in the ***Security*** tab of a gateway within a farm informs the user that modifying restrictions/permissions here will not have an impact as long as it remains in the farm.

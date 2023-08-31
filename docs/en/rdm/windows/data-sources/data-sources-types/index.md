@@ -61,7 +61,7 @@ Cons:
 {{ en.DHUBB }} 
 		</td>
 		<td>
-{{ en.RDM }} connects to the {{ en.DHUBB }} vault.  
+{{ en.RDM }} connects to the {{ en.DHUBB }} {{ en.VLT }}.  
 
 Note that there are different subscription levels for this product.  
 

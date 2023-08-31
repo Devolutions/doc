@@ -9,7 +9,7 @@ With a secure encrypted document, you can freely send the information via email 
  
 ## Settings 
 
-Select the entries to export or export the vault. Right-click and select Export – Export Special – Export Selection (.html) or use File – Export – Export Vault (.html). You will be prompted for a password for the symmetric encryption key. Select the file name for the new document. Once the export is completed, the file will open in your default browser.  
+Select the entries to export or export the {{ en.VLT }}. Right-click and select Export – Export Special – Export Selection (.html) or use File – Export – Export {{ en.VLT }} (.html). You will be prompted for a password for the symmetric encryption key. Select the file name for the new document. Once the export is completed, the file will open in your default browser.  
 
 {% snippet icon.badgeWarning %} 
 Ensure you do not forget the password as you will not be able to decrypt the data without it. 

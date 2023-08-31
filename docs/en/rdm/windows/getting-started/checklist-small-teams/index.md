@@ -30,7 +30,7 @@ Upon first launch, {{ en.RDM }} prompts you to select a data source. Devolutions
 
 You need to enter general data source information such as the name and the host.  
 
-For the first database user, create a SQL administrator account with the ***Database login mode***. Then, create the database and set up initial parameters for the default vault.  
+For the first database user, create a SQL administrator account with the ***Database login mode***. Then, create the database and set up initial parameters for the default {{ en.VLT }}.  
 
 {% youtube 'BfFvtHJSzbs?start=81' %}  
 		</td>

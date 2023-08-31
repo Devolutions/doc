@@ -1,10 +1,11 @@
 ---
-title: Vault Management
-description: The Vault Management section allows you to set default permissions and create new permission sets, as well as force the save location of My Account Settings.
+eleventyComputed:
+  title: '{{ en.VLT }} Management'
+  description: The {{ en.VLT }} Management section allows you to set default permissions and create new permission sets, as well as force the save location of My Account Settings.
 ---
-The ***Vault Management*** section allows you to set default permissions and create new permission sets, as well as force the save location of ***My Account Settings***.
+The ***{{ en.VLT }} Management*** section allows you to set default permissions and create new permission sets, as well as force the save location of ***My Account Settings***.
 
-![Administration – System Settings – Vault Management](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2069.png)
+![Administration – System Settings – {{ en.VLT }} Management](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2069.png)
 
 ## Default Permissions 
 <table>

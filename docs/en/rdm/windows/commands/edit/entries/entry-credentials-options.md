@@ -24,10 +24,10 @@ This option allows to enter custom credentials in the ***General*** section of t
 	</tr>
 	<tr>
 		<td>
-Linked (Vault)
+Linked ({{ en.VLT }})
 		</td>
 		<td>
-Link an entry to use an existing ***Credential*** entry in the same vault
+Link an entry to use an existing ***Credential*** entry in the same {{ en.VLT }}
 		</td>
 	</tr>
 	<tr>

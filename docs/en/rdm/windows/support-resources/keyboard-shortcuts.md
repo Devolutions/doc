@@ -540,7 +540,7 @@ Ctrl+Shift+9
 	</tr>
 	<tr>
 		<td>
-Switch Vault 
+Switch {{ en.VLT }} 
 		</td>
 		<td>
 Ctrl+Shift+R 
@@ -601,7 +601,7 @@ Alt+Shift+F6
 	</tr>
 	<tr>
 		<td>
-Multi Vault Search... 
+Multi {{ en.VLT }} Search... 
 		</td>
 		<td>
 F12 
@@ -681,7 +681,7 @@ Alt+F11
 	</tr>
 	<tr>
 		<td>
-Vault 
+{{ en.VLT }} 
 		</td>
 		<td>
 F6 

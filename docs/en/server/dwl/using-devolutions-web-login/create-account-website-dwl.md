@@ -36,9 +36,8 @@ Your password settings are now configured.
 1. Follow the rest of the website’s registration steps until the {{ en.DWL }} ***Add Website*** window pops up in the corner of your web browser. 
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2008.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
-1. Select the ***Vault*** you want to save your credentials into. 
-1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
+1. Select the ***{{ en.VLT }}*** you want to save your credentials into. 
+1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the {{ en.VLT }}. If the folder you specify does not exist, it will be created at the same time as your entry. 
 1. Click ***Save***.  
 
-Your credentials are now securely stored in a new website entry in {{ en.DVLS }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/). 
-
+Your credentials are now securely stored in a new website entry in {{ en.DVLS }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/).

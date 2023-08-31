@@ -10,7 +10,7 @@ This topic will cover both the [PAM checkout process](#checkout) and the [PAM ch
 
 ## Checkout
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
-1. Go to the ***Privileged Access*** tab and select the desired vault.
+1. Go to the ***Privileged Access*** tab and select the desired {{ en.VLT }}.
 1. Click on an entry and then click ***Check Out***.  
 ![Check Out](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0033.png)
 1. Set the desired time of the ***Check-out Request*** by either selecting from the ***Access duration*** dropdown or by manually setting a custom time with the ***Hours*** and ***minutes*** fields.  
@@ -26,7 +26,7 @@ Making a ***Checkout*** request in advance is only available in PAM {{ en.VLT }}
 {% endsnippet %}  
 
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
-1. Go to the ***Privileged Access*** tab and select the desired vault.
+1. Go to the ***Privileged Access*** tab and select the desired {{ en.VLT }}.
 1. Click on an entry and then click ***Check Out***.  
 ![Check Out](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0036.png)
 1. Enable ***Set custom time frame***.  

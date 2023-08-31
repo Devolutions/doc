@@ -34,7 +34,7 @@ Upon first launch, {{ en.RDMMAC }} prompts you to select a data source. Devoluti
 
 You need to enter general data source information such as the name and the host.  
 
-For the first database user, create a SQL administrator account with the ***Database login mode***. Then, create the database and set up initial parameters for the default vault.  
+For the first database user, create a SQL administrator account with the ***Database login mode***. Then, create the database and set up initial parameters for the default {{ en.VLT }}.  
 
 {% youtube 'BfFvtHJSzbs?start=81' %}  
 		</td>
@@ -127,9 +127,9 @@ Step 7 - Create {{ en.VLT }}s
 		<td>
 In {{ en.RDM }}, data is stored in a hierarchy of folders and entries all within {{ en.VLT }}s. The number of {{ en.VLT }}s created and the way they are categorized is completely up to you, but we have seen great success in teams separating their content by departments, locations, and customer accounts.  
 
-All users have access to the Default vault created after installing {{ en.RDM }}. You can change its configuration as well as [create other {{ en.VLT }}s](/rdm/mac/commands/administration/vaults-overview/#create-a-vault), then [assign them users and user groups](/rdm/mac/commands/administration/vaults-overview/#give-users-and-user-groups-access-to-a-vault).  
+All users have access to the Default {{ en.VLT }} created after installing {{ en.RDM }}. You can change its configuration as well as [create other {{ en.VLT }}s](/rdm/mac/commands/administration/vaults-overview/#create-a-vault), then [assign them users and user groups](/rdm/mac/commands/administration/vaults-overview/#give-users-and-user-groups-access-to-a-vault).  
 
-Access all {{ en.VLT }}s using the vault selector in the ***{{ en.NPANE }}***. Each user can also access their own ***{{ en.UVLT }}***. This vault is only accessible to them and is a great place to store business-related entries for the user, such as alarm codes, user credentials, websites, documents, etc.  
+Access all {{ en.VLT }}s using the {{ en.VLT }} selector in the ***{{ en.NPANE }}***. Each user can also access their own ***{{ en.UVLT }}***. This {{ en.VLT }} is only accessible to them and is a great place to store business-related entries for the user, such as alarm codes, user credentials, websites, documents, etc.  
 
 {% youtube 'BfFvtHJSzbs?start=602' %}  
 		</td>
@@ -140,7 +140,7 @@ Step 8 - Assign permissions
 
 		</td>
 		<td>
-[Permissions](/rdm/mac/commands/administration/user-management/permissions/) can be granted to users and user groups. They are set on the vault, folder, and entry levels.  
+[Permissions](/rdm/mac/commands/administration/user-management/permissions/) can be granted to users and user groups. They are set on the {{ en.VLT }}, folder, and entry levels.  
 
 The permissions granted on the folder can be inherited by each entry set under that folder.  
 

@@ -1,7 +1,7 @@
 ---
 title: Most Recently Used Entries
 ---
-This tab shows the most recently used/modified items in the selected vault. It is accessible in the ***{{ en.NPANE }}***.  
+This tab shows the most recently used/modified items in the selected {{ en.VLT }}. It is accessible in the ***{{ en.NPANE }}***.  
 ![Most recently used entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11219.png) 
 
 The ***Recent*** tab can be customized in the same way as the tree view. Click on the ellipsis button to select your preferred view (***Tiles*** or ***Details***).  

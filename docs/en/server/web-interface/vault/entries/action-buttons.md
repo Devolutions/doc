@@ -14,7 +14,7 @@ The display of ***Action Buttons*** for entries will vary depending on the type 
 | {{ icons.download | safe }}           | Download                         | Download a copy of the file contained in the entry.                      |
 | {{ icons.backupHistory | safe }}      | Entry History                    | Hover the icon to see who created/edited the entry.                      |
 | {{ icons.notificationOff | safe }}    | Get notified when                | Subscribe to receive notifications for changes made on the entry.        |
-| {{ icons.moreVert | safe }}           | More                             | Show more options for the selected entry: <br> <ul><li>Save as Template</li><li>Password History</li><li>User Specific Settings</li><li>Move to Vault</li><li>Export (.rdm)</li><li>Duplicate</li><li>Delete</li></ul> |
+| {{ icons.moreVert | safe }}           | More                             | Show more options for the selected entry: <br> <ul><li>Save as Template</li><li>Password History</li><li>User Specific Settings</li><li>Move to {{ en.VLT }}</li><li>Export (.rdm)</li><li>Duplicate</li><li>Delete</li></ul> |
 | {{ icons.html | safe }}               | Navigate URL                     | Open the specified website URL in a new tab. |
 | {{ icons.entrySampleWeb | safe }}     | Open in Web Client (Preview)     | Launch a RDP session in a new browser tab.   |
 | {{ icons.openSession | safe }}        | Open Session ({{ en.DLAUNCHER }})     | Launch a session in {{ en.DLAUNCHER }}.       |
