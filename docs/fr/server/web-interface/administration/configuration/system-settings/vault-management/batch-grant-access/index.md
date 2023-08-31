@@ -1,17 +1,18 @@
 ---
-title: Accorder l'accès en lot
-description: La fonctionnalité Accorder l'accès en lot permet de définir des permissions et ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'application en même temps sur des entrées, dossiers ou coffres.
+eleventyComputed:
+  title: Accorder l'accès en lot
+  description: La fonctionnalité Accorder l'accès en lot permet de définir des permissions et ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'application en même temps sur des entrées, dossiers ou {{ fr.VLT }}s.
 ---
-La fonctionnalité ***Accorder l'accès en lot*** permet de définir des permissions et ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'application en même temps sur des entrées, dossiers ou coffres.
+La fonctionnalité ***Accorder l'accès en lot*** permet de définir des permissions et ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'application en même temps sur des entrées, dossiers ou {{ fr.VLT }}s.
 
 ## Emplacement
 
-***Accorder l'accès en lot*** se trouve dans les propriétés des entrées, dossiers et coffres sous ***Sécurité – Autorisations***. Définissez les autorisations à ***Personnalisé***, puis cliquez sur ***Accorder l'accès***.
+***Accorder l'accès en lot*** se trouve dans les propriétés des entrées, dossiers et {{ fr.VLT }}s sous ***Sécurité – Autorisations***. Définissez les autorisations à ***Personnalisé***, puis cliquez sur ***Accorder l'accès***.
 
 ![Propriétés – Sécurité – Permissions](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2052.png)
 
 On peut également y accéder par le menu ***Administration*** :
-1. Dans l'interface Web de {{ fr.DVLS }}, aller dans ***Administration – Paramètres du système – Gestion des coffres***.
+1. Dans l'interface Web de {{ fr.DVLS }}, aller dans ***Administration – Paramètres du système – Gestion des {{ fr.VLT }}s***.
 1. Sous ***Permissions par défaut***, sélectionner ***Personnalisé*** dans le menu déroulant ***Autorisation***.
 ![Permissions par défaut personnalisées](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2047.png)
 1. Cliquer sur ***Accorder l'accès***.
@@ -32,7 +33,7 @@ Dans les paramètres des permissions, vous pouvez définir la façon dont les pe
 Ensuite, vous pouvez sélectionner les permissions qui sont affectées par vos choix précédents. Vous pouvez afficher soit ***Toutes les permissions*** ou les ***Ensembles de permissions*** créés précédemment (ou ceux créés par défaut).
 
 {% snippet icon.badgeInfo %} 
-Les ensembles de permissions sont créés et configurés dans ***Administration – Paramètres du système – Gestion des coffres – Ensemble de permissions***.
+Les ensembles de permissions sont créés et configurés dans ***Administration – Paramètres du système – Gestion des {{ fr.VLT }}s – Ensemble de permissions***.
 {% endsnippet %}
 
 ![Paramètres des permissions](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2050.png)

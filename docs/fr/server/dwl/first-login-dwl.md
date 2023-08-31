@@ -21,10 +21,9 @@ Un accès à {{ fr.DVLS }} est requis pour continuer.
 ![Connecter {{ fr.DVLS }}](https://webdevolutions.azureedge.net/docs/fr/server/Dwl4019.png) 
 1. Si vous cliquez sur l'icône de {{ fr.DWL }} dans votre navigateur Web, vous pouvez valider que {{ fr.DWL }} est désormais connecté à votre {{ fr.DVLS }}.  
 ![Association réussie de {{ fr.DVLS }} à {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/server/Dwl4020.png) 
-1. Pour sélectionner les coffres à synchroniser, cliquer sur l'onglet ***Coffres***, puis sur le bouton ***Sélectionner des coffres à synchroniser***.  
-![Onglet Coffres](https://webdevolutions.azureedge.net/docs/fr/server/Dwl4051.png) 
-1. Cliquer sur ***Sélectionner tout*** ou cocher individuellement les coffres à synchroniser.  
-![Sélection des coffres à synchroniser](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2000.png) 
-1. Lorsque les coffres ont été sélectionnés, cliquer sur ***Sélectionner des coffres à synchroniser*** en haut du panneau pour voir vos coffres synchronisés.  
-![Coffres synchronisés](https://webdevolutions.azureedge.net/docs/fr/server/Dwl4052.png) 
-
+1. Pour sélectionner les {{ fr.VLT }}s à synchroniser, cliquer sur l'onglet ***{{ fr.VLT }}s***, puis sur le bouton ***Sélectionner des {{ fr.VLT }}s à synchroniser***.  
+![Onglet {{ fr.VLT }}s](https://webdevolutions.azureedge.net/docs/fr/server/Dwl4051.png) 
+1. Cliquer sur ***Sélectionner tout*** ou cocher individuellement les {{ fr.VLT }}s à synchroniser.  
+![Sélection des {{ fr.VLT }}s à synchroniser](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2000.png) 
+1. Lorsque les {{ fr.VLT }}s ont été sélectionnés, cliquer sur ***Sélectionner des {{ fr.VLT }}s à synchroniser*** en haut du panneau pour voir vos {{ fr.VLT }}s synchronisés.  
+![{{ fr.VLT }}s synchronisés](https://webdevolutions.azureedge.net/docs/fr/server/Dwl4052.png)

@@ -72,7 +72,7 @@ Assigner des groupes d'utilisateurs à l'utilisateur.
 ![!!EditAssignVault.png](https://webdevolutions.azureedge.net/docs/common/EditAssignVault.png) 
 		</td>
 		<td>
-Assigner un coffre à l'utilisateur. 
+Assigner un {{ fr.VLT }} à l'utilisateur. 
 		</td>
 	</tr>
 	<tr>

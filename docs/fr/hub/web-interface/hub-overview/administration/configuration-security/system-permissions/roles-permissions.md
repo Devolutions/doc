@@ -28,7 +28,7 @@ GESTIONNAIRES
 	</tr>
 	<tr>
 		<td>
-Afficher le coffre 
+Afficher le {{ fr.VLT }} 
 		</td>
 		<td>
 
@@ -49,7 +49,7 @@ Afficher le coffre
 	</tr>
 	<tr>
 		<td>
-Gérer le coffre 
+Gérer le {{ fr.VLT }} 
 		</td>
 		<td>
 

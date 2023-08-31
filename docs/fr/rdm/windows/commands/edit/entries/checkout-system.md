@@ -5,14 +5,14 @@ Le ***Mode réservation*** verrouille une entrée pendant qu'elle est utilisée 
 
 Le ***Mode réservation*** peut être activé pour des entrées de type ***Sessions***, ***Documents***, ***Identifiants*** et d'***Informations***.  
 
-Vous pouvez définir le ***Mode réservation*** au niveau du coffre, du dossier ou de l'entrée. 
+Vous pouvez définir le ***Mode réservation*** au niveau du {{ fr.VLT }}, du dossier ou de l'entrée. 
 
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité est seulement disponible avec une source de données telles que Microsoft SQL Server ou {{ fr.DVLS }}. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Les administrateurs peuvent définir la ***Restitution automatique après*** un certain nombre de minutes dans ***Administration - Paramètres du système - Coffre***. 
+Les administrateurs peuvent définir la ***Restitution automatique après*** un certain nombre de minutes dans ***Administration - Paramètres du système - {{ fr.VLT }}***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

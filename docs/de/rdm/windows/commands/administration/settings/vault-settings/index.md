@@ -1,3 +1,4 @@
 ---
-title: Tresor Einstellungen
+eleventyComputed:
+  title: '{{ de.VLT }} Einstellungen'
 ---

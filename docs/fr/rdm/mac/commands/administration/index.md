@@ -12,7 +12,7 @@ Reportez-vous aux rubriques suivantes pour plus d'informations :
 * [Fournisseur de sécurité](/fr/rdm/mac/commands/administration/security-provider/) 
 * [Utilisateurs](/fr/rdm/mac/commands/administration/user-management/) 
 * [Groupes d'utilisateurs](/fr/rdm/mac/commands/administration/user-groups-management/) 
-* [Paramètres du coffre](/fr/rdm/mac/commands/administration/vault-settings/) 
+* [Paramètres du {{ fr.VLT }}](/fr/rdm/mac/commands/administration/vault-settings/) 
 * [Entrées supprimées](/fr/rdm/mac/commands/administration/view-deleted/) 
 * [Rapports](/fr/rdm/mac/commands/administration/reports/) 
 * [Modifier le mot de passe](/fr/rdm/mac/commands/administration/change-current-user-password/) 

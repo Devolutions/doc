@@ -10,7 +10,7 @@ Sélectionner le bouton à points de suspension pour afficher les options.
 
 L'expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que :  
 
-* Rechercher plusieurs ou tous les coffres à la fois. 
+* Rechercher plusieurs ou tous les {{ fr.VLT }}s à la fois. 
 * Options du champ (Inclure le dossier, l'Hôte, Nom d'utilisateur, etc.). 
 * Informations générales (Domaine, IP, etc.). 
 * Coordonnées du contact (Nom du contact, Courriel, Téléphone, etc.). 

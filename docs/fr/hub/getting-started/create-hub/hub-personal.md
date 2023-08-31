@@ -3,7 +3,7 @@ eleventyComputed:
   title: Créer votre {{ fr.DHUBP }}
 ---
 {% snippet icon.badgeInfo %}
-{{ fr.DHUBP }} est gratuit, créer votre [coffre](https://password.devolutions.net/fr/personal) dès aujourd'hui.
+{{ fr.DHUBP }} est gratuit, créer votre [{{ fr.VLT }}](https://password.devolutions.net/fr/personal) dès aujourd'hui.
 {% endsnippet %}
 
 1. Pour créer votre {{ fr.DHUBP }}, accéder au [{{ fr.DPORTAL }}](https://portal.devolutions.com/) de votre {{ fr.DA }}.

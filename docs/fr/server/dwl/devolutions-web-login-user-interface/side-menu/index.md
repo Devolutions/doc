@@ -30,22 +30,22 @@ Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajou
 ### Onglet Toutes les entrées 
 
 {% snippet icon.badgeInfo %} 
-Lorsque vous accédez à l'onglet ***Toutes les entrées*** pour la première fois, vous devez sélectionner les coffres {{ fr.DVLS }} que vous souhaitez synchroniser avec {{ fr.DWL }}. Pour en savoir plus, consultez notre rubrique [Première connexion avec {{ fr.DWL }}](/fr/server/dwl/first-login-dwl/). 
+Lorsque vous accédez à l'onglet ***Toutes les entrées*** pour la première fois, vous devez sélectionner les {{ fr.VLT }}s {{ fr.DVLS }} que vous souhaitez synchroniser avec {{ fr.DWL }}. Pour en savoir plus, consultez notre rubrique [Première connexion avec {{ fr.DWL }}](/fr/server/dwl/first-login-dwl/). 
 {% endsnippet %}
  
-L'onglet ***Toutes les entrées*** vous permet de parcourir tous vos coffres synchronisés pour les entrées de sites Web uniquement. Vous rencontrerez d'abord la liste de vos coffres synchronisés.  
+L'onglet ***Toutes les entrées*** vous permet de parcourir tous vos {{ fr.VLT }}s synchronisés pour les entrées de sites Web uniquement. Vous rencontrerez d'abord la liste de vos {{ fr.VLT }}s synchronisés.  
 ![Onglet Toutes les entrées](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2012.png)  
 
-En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher des entrées de site Web dans tous vos coffres.  
+En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher des entrées de site Web dans tous vos {{ fr.VLT }}s.  
 
-Vous pouvez accéder à vos coffres de deux manières :  
+Vous pouvez accéder à vos {{ fr.VLT }}s de deux manières :  
 
-* Pour accéder à un coffre dans {{ fr.DVLS }}, cliquer sur le bouton ***Ouvrir*** à côté d'un coffre pour l'ouvrir dans {{ fr.DVLS }} dans un nouvel onglet de navigateur.  
+* Pour accéder à un {{ fr.VLT }} dans {{ fr.DVLS }}, cliquer sur le bouton ***Ouvrir*** à côté d'un {{ fr.VLT }} pour l'ouvrir dans {{ fr.DVLS }} dans un nouvel onglet de navigateur.  
 
-* Pour accéder à un coffre dans {{ fr.DWL }}, cliquer sur ce coffre et naviguer dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.DVLS }}, sauf que seuls les chemins menant aux entrées de site Web seront affichés. Lorsque vous naviguez dans les dossiers, le bouton ***Ajouter un site Web*** apparaît au bas de la ***Zone de contenu***. Vous pouvez également utiliser la barre du haut pour faire une recherche dans un emplacement spécifique.  
-![Navigation dans un coffre via {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2013.png)  
+* Pour accéder à un {{ fr.VLT }} dans {{ fr.DWL }}, cliquer sur ce {{ fr.VLT }} et naviguer dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.DVLS }}, sauf que seuls les chemins menant aux entrées de site Web seront affichés. Lorsque vous naviguez dans les dossiers, le bouton ***Ajouter un site Web*** apparaît au bas de la ***Zone de contenu***. Vous pouvez également utiliser la barre du haut pour faire une recherche dans un emplacement spécifique.  
+![Navigation dans un {{ fr.VLT }} via {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2013.png)  
 
-De retour sur la vue principale de l'onglet ***Toutes les entrées***, le bouton ***Sélectionner les coffres à synchroniser*** en bas de la ***Zone de contenu*** vous permet de sélectionner individuellement les coffres de {{ fr.DVLS }} à synchroniser avec {{ fr.DWL }}.  
+De retour sur la vue principale de l'onglet ***Toutes les entrées***, le bouton ***Sélectionner les {{ fr.VLT }}s à synchroniser*** en bas de la ***Zone de contenu*** vous permet de sélectionner individuellement les {{ fr.VLT }}s de {{ fr.DVLS }} à synchroniser avec {{ fr.DWL }}.  
 
 ### Onglet Favoris 
 
@@ -91,7 +91,7 @@ Le bouton ***Affichage*** vous donne un aperçu de l'entrée ainsi que des fonct
 
 * ***Modifier/Supprimer*** l'entrée ou afficher son mot de passe en passant par le bouton des points de suspension verticaux en haut à droite.  
 * Marquer votre entrée comme favorite en cliquant sur l'icône ***Ajouter aux favoris*** à côté du nom de l'entrée. L'entrée s'affichera alors dans l'onglet ***Favoris***.  
-* Visualiser l'emplacement de votre entrée dans les sections ***Coffre*** et ***Dossier*** (si elle est située dans un dossier).  
+* Visualiser l'emplacement de votre entrée dans les sections ***{{ fr.VLT }}*** et ***Dossier*** (si elle est située dans un dossier).  
 * Visualiser et accéder à l'***URL*** associée à l'entrée.  
 
 Les autres informations et fonctionnalités dépendront de ce que vous avez fourni lors de la création de l'entrée (nom d'utilisateur, mot de passe, étiquettes, description, etc.).  

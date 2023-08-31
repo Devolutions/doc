@@ -27,27 +27,27 @@ L'installateur de {{ fr.DHUBS }} facilite l'installation et l'intégration de no
 ![Permissions du système – Gérer les tâches d'accès privilégié and Gérer les fournisseurs d'accès privilégiés](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6062.png)
 
 {% snippet icon.badgeInfo %}
-Vous devez octroyer l'accès au coffre en fonction du ***Système*** ou du ***PAM***.
+Vous devez octroyer l'accès au {{ fr.VLT }} en fonction du ***Système*** ou du ***PAM***.
 {% endsnippet %}
 
-## Pour tous les coffres du système
+## Pour tous les {{ fr.VLT }}s du système
 
 1. Dans {{ fr.DHUB }}, aller dans ***Administration*** – ***Configuration et sécurité*** – ***Permissions du système***.
 ![Administration – Configuration et sécurité – Permissions du système](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6049.png)
 1. Aller dans le formulaire de modification.
 ![Formulaire de modification](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6050.png)
-1. Sélectionner ***Coffres***.
+1. Sélectionner ***{{ fr.VLT }}s***.
 1. Choisir votre ***Utilisateur d'application*** dans le menu déroulant sous la section ***Collaborateurs***.
 ![Section Collaborateurs](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6055.png)
 
 1. Cliquer ***Mise à jour*** pour fermer la fenêtre. 
 
-## Pour un coffre PAM
+## Pour un {{ fr.VLT }} PAM
 
-1. Dans {{ fr.DHUB }}, aller dans ***Administration*** – ***Gestion*** – ***Coffres***.
-![Administration – Gestion – Coffres](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6053.png)
-1. Selectionner ***Ajout d'un coffre PAM*** dans le menu pour créer votre coffre PAM.
-![Administration – Configuration et sécurité – Permissions du système – Ajout d'un coffre PAM](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6059.png)
+1. Dans {{ fr.DHUB }}, aller dans ***Administration*** – ***Gestion*** – ***{{ fr.VLT }}s***.
+![Administration – Gestion – {{ fr.VLT }}s](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6053.png)
+1. Selectionner ***Ajout d'un {{ fr.VLT }} PAM*** dans le menu pour créer votre {{ fr.VLT }} PAM.
+![Administration – Configuration et sécurité – Permissions du système – Ajout d'un {{ fr.VLT }} PAM](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6059.png)
 1. Sélectionner l'onglet ***Modifier*** dans la section ***Permissions***.
 1. Choisir votre ***Utilisateur d'application*** dans le menu déroulant sous la section ***Collaborateurs***.
 ![Section Collaborateurs](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6058.png)

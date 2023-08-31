@@ -20,8 +20,7 @@ Notez que cette tâche peut être effectuée lorsque que vous en avez l'occasion
  
 Si vous avez des ***Groupes d'utilisateurs*** {{ fr.DHUB }} personnalisés, assurez-vous que vous avez un ***Groupe d'utilisateurs*** Azure qui contient les mêmes utilisateurs.
 
-Une fois que les groupes Azure correspondent aux groupes personnalisés, vous pouvez commencer à remplacer ces groupes personnalisés par les groupes Azure partout où vous les attribuez dans les ***Permissions du système***, les ***Permissions des coffres*** et les ***Permissions de dossiers/d'entrées***.
+Une fois que les groupes Azure correspondent aux groupes personnalisés, vous pouvez commencer à remplacer ces groupes personnalisés par les groupes Azure partout où vous les attribuez dans les ***Permissions du système***, les ***Permissions des {{ fr.VLT }}s*** et les ***Permissions de dossiers/d'entrées***.
 {% snippet icon.badgeInfo %}
 Contactez notre équipe d'assistance à l'adresse [service@devolutions.net](mailto:service@devolutions.net) si vous avez besoin d'aide.
 {% endsnippet %}
- 

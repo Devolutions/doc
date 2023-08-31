@@ -16,7 +16,7 @@ Une licence est nécessaire pour activer le module de gestion des accès privil�
 
 Voici quelques-unes de ses principales fonctionnalités :  
 
-* Coffre PAM sécurisé gérant tous vos différents comptes privilégiés.
+* {{ fr.VLT }} PAM sécurisé gérant tous vos différents comptes privilégiés.
 * Demande de réservation
 * Réinitialisation automatique du mot passe
 * Injection sécurisée de mot passe

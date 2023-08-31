@@ -45,7 +45,7 @@ La deuxième option vous demande de passer par la boîte ***Demandes d'accès en
 
 Cette vue est divisée en deux sections :
 
-* La section ***Demander des infos*** contient les informations à propos de la demande de l'utilisateur. Puisque cela a été fait du côté de l'utilisateur, les champs de cette section ne peuvent pas être modifiés. Vous pouvez voir les ***Dépendances de l'entrée***, notamment les identifiants liés et les VPN. À noter que les entrées liées doivent se trouver dans le même coffre. Les identifiants PAM liés à des coffres courants ne sont pas pris en compte.
+* La section ***Demander des infos*** contient les informations à propos de la demande de l'utilisateur. Puisque cela a été fait du côté de l'utilisateur, les champs de cette section ne peuvent pas être modifiés. Vous pouvez voir les ***Dépendances de l'entrée***, notamment les identifiants liés et les VPN. À noter que les entrées liées doivent se trouver dans le même {{ fr.VLT }}. Les identifiants PAM liés à des {{ fr.VLT }}s courants ne sont pas pris en compte.
 
 * La section ***Paramètres de la réponse*** vous permet de modifier la durée de l'accès temporaire spécifiée par l'utilisateur. Il est également possible de rédiger un court message à l'intention de l'utilisateur pour leur expliquer votre décision, mais cela reste facultatif.
 

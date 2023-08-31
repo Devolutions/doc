@@ -36,9 +36,8 @@ Vos paramètres de mot de passe sont maintenant configurés.
 1. Suivre le reste des étapes d'enregistrement du site Web jusqu'à ce que la fenêtre ***Ajouter un site Web*** de {{ fr.DWL }} apparaisse dans le coin du navigateur Web.  
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2030.png)  
 1. Saisir un ***Nom*** pour l'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu'il reflète le contenu de l'entrée pour la retrouver plus facilement au besoin. 
-1. Sélectionner le ***Coffre*** dans lequel les identifiants doivent être sauvegardés. 
-1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du coffre. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
+1. Sélectionner le ***{{ fr.VLT }}*** dans lequel les identifiants doivent être sauvegardés. 
+1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du {{ fr.VLT }}. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
 1. Cliquer sur ***Enregistrer***.  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DVLS }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/). 
-
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DVLS }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/).

@@ -22,14 +22,14 @@ Description
 	<tr>
 		<td>
 
-Étape 1 - Configuration des ***Groupes d'utilisateurs*** et des ***Coffres***  
+Étape 1 - Configuration des ***Groupes d'utilisateurs*** et des ***{{ fr.VLT }}s***  
 
 * [Inviter un administrateur](/fr/hub/web-interface/hub-overview/administration/management/users/administrator-invite/) 
 * [Créer et gérer des Groupes d'utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/user-groups/create-manage-user-groups/) 
-* [Créer et gérer des Coffres](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) 
+* [Créer et gérer des {{ fr.VLT }}s](/fr/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) 
 		</td>
 		<td>
-Dans cette vidéo (EN), nous montrerons la configuration appropriée pour {{ fr.DHUBB }} ainsi que les meilleures pratiques pour inviter un ***Administrateur***, créer des ***Groupes d'utilisateurs***, configurer des ***Coffres*** partagés et leur attribuer des ***Rôles*** et des ***Permissions***. 
+Dans cette vidéo (EN), nous montrerons la configuration appropriée pour {{ fr.DHUBB }} ainsi que les meilleures pratiques pour inviter un ***Administrateur***, créer des ***Groupes d'utilisateurs***, configurer des ***{{ fr.VLT }}s*** partagés et leur attribuer des ***Rôles*** et des ***Permissions***. 
 
 {% youtube 'fRW0FnnaGkc' %}  
 		</td>
@@ -50,7 +50,7 @@ Avec cette vidéo (EN), nous vous montrerons comment ajouter des ***Utilisateurs
 	<tr>
 		<td>
 
-Étape 3 - Ajouter des données dans les ***Coffres***  
+Étape 3 - Ajouter des données dans les ***{{ fr.VLT }}s***  
 
 * [Créer des entrées manuellement](/fr/hub/web-interface/hub-overview/entries/create-entries-manually/) 
 * [Importer des entrées avec {{ fr.DHUBI }}](/fr/hub/web-interface/hub-overview/tools/hub-importer/) 

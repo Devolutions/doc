@@ -80,7 +80,7 @@ Enregistrer les nouvelles entrées dans le {{ fr.UVLT }}.
 Dossier de destination 
 		</td>
 		<td>
-Choisir le dossier dans lequel les identifiants seront sauvegardés dans le coffre. 
+Choisir le dossier dans lequel les identifiants seront sauvegardés dans le {{ fr.VLT }}. 
 		</td>
 	</tr>
 </table>
@@ -183,7 +183,7 @@ Récupérer les entrées de {{ fr.DVLS }}.
 Dossier de destination 
 		</td>
 		<td>
-Choisir le dossier dans lequel les identifiants seront sauvegardés dans le coffre. 
+Choisir le dossier dans lequel les identifiants seront sauvegardés dans le {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -252,10 +252,10 @@ Définir un type d'option de comparaison par défaut entre <b><i>Domaine de base
 	</tr>
 	<tr>
 		<td>
-Synchroniser tous les coffres disponibles 
+Synchroniser tous les {{ fr.VLT }}s disponibles 
 		</td>
 		<td>
-Activer pour synchroniser tous les coffres disponibles depuis {{ fr.DVLS }}. 
+Activer pour synchroniser tous les {{ fr.VLT }}s disponibles depuis {{ fr.DVLS }}. 
 		</td>
 	</tr>
 </table>
@@ -367,10 +367,10 @@ Définir un type d'option de comparaison par défaut entre <b><i>Domaine de base
 	</tr>
 	<tr>
 		<td>
-Synchroniser tous les coffres disponibles (disponible avec {{ fr.DHUBB }} seulement) 
+Synchroniser tous les {{ fr.VLT }}s disponibles (disponible avec {{ fr.DHUBB }} seulement) 
 		</td>
 		<td>
-Activer pour synchroniser tous les coffres disponibles depuis {{ fr.DHUBB }}. 
+Activer pour synchroniser tous les {{ fr.VLT }}s disponibles depuis {{ fr.DHUBB }}. 
 		</td>
 	</tr>
 </table>

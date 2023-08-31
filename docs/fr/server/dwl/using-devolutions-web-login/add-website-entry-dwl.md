@@ -20,8 +20,8 @@ La principale façon d'y parvenir est de se connecter avec succès au site Web. 
 1. Une fenêtre ***Ajouter un site Web*** de {{ fr.DWL }} apparaîtra dans le coin du navigateur Web.  
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2032.png)  
 1. Saisir un ***Nom*** pour l'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu'il reflète le contenu de l'entrée pour la retrouver plus facilement au besoin. 
-1. Sélectionner le ***Coffre*** dans lequel les identifiants doivent être sauvegardés. 
-1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du coffre. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
+1. Sélectionner le ***{{ fr.VLT }}*** dans lequel les identifiants doivent être sauvegardés. 
+1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du {{ fr.VLT }}. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
 1. Cliquer sur ***Enregistrer***.  
 
 Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DVLS }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/).  
@@ -38,9 +38,8 @@ Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle ent
 1. La liste déroulante ***Identifiants*** est définie à ***Personnalisé*** par défaut. Cela permet d'entrer manuellement le ***Nom d'utilisateur*** et le ***Mot de passe*** à l'étape suivante. 
 1. Saisir le ***Nom d'utilisateur*** et le ***Mot de passe*** qui sont utilisés pour se connecter à ce site Web. Dépendamment du site Web, le nom d'utilisateur pourrait être une adresse courriel. 
 1. Si souhaité, entrer une ***Description*** pour l'entrée. 
-1. Sélectionner le ***Coffre*** dans lequel les identifiants doivent être sauvegardés. 
-1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du coffre. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
+1. Sélectionner le ***{{ fr.VLT }}*** dans lequel les identifiants doivent être sauvegardés. 
+1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du {{ fr.VLT }}. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
 1. Cliquer sur ***Enregistrer***.  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DVLS }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/). 
-
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DVLS }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/).

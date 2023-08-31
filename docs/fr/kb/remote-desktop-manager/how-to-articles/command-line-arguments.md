@@ -7,7 +7,7 @@ Certaines fonctionnalités ne sont disponibles que dans l'Édition Team. {{ fr.R
 {% endsnippet %}
  
 ### Récupérer les identifiants et créer un exécutable 
-Il est possible d'obtenir les identifiants d'une ***base de données***, de la ***source de données***, de l'***entrée*** et du ***coffre*** ainsi qu'une ***Ligne de commande*** déjà créée. Suivez les étapes ci-dessous pour afficher ces informations en un seul endroit :  
+Il est possible d'obtenir les identifiants d'une ***base de données***, de la ***source de données***, de l'***entrée*** et du ***{{ fr.VLT }}*** ainsi qu'une ***Ligne de commande*** déjà créée. Suivez les étapes ci-dessous pour afficher ces informations en un seul endroit :  
 
 1. Faire un clic droit sur l'entrée dont vous voulez obtenir les informations, puis aller dans les ***Propriétés***.  
 ![!!KB2017.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB2017.png) 

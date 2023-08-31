@@ -174,10 +174,10 @@ Effectuer une modification sur plusieurs entrées à la fois. Cela est particuli
 		</td>
 	</tr>
 		<td>
-Déplacer vers le coffre 
+Déplacer vers le {{ fr.VLT }} 
 		</td>
 		<td>
-Transférer les entrées sélectionnées vers un autre coffre de la base de données. 
+Transférer les entrées sélectionnées vers un autre {{ fr.VLT }} de la base de données. 
 		</td>
 	</tr>
 </table>

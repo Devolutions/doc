@@ -17,7 +17,7 @@ Voici les principaux points clés du contrôle d'accès basé sur les groupes d'
 Bien que le contrôle d'accès basé sur les groupes d'utilisateurs soit une fonctionnalité intéressante pour sécuriser l'accès aux entrées, de nombreuses autres fonctionnalités peuvent être utilisées pour ajouter davantage de couches de sécurité. Pour plus d'informations, veuillez consulter les rubriques suivantes :  
 
 * [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) 
-* Lien vers le coffre
+* Lien vers le {{ fr.VLT }}
 * [Modèles de mot de passe](/fr/rdm/windows/commands/file/templates/password-templates/) 
 * [Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) 
 * Mot de passe à usage unique 
@@ -99,8 +99,8 @@ L'accès est accordé ou refusé aux utilisateurs en définissant une permission
 Pour définir des permissions sur une entrée, modifier une entrée, puis accéder à la section ***Permissions***.  
 ![Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6012.png) 
 
-Les permissions sont généralement définies sur les dossiers et s'appliquent à toutes les entrées enfants. Une meilleure pratique consiste à définir toutes les autorisations du coffre sur ***Jamais***. Par conséquent, toutes les permissions de toutes les entrées sont refusées par défaut.  
-![Paramètres du coffre](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6013.png) 
+Les permissions sont généralement définies sur les dossiers et s'appliquent à toutes les entrées enfants. Une meilleure pratique consiste à définir toutes les autorisations du {{ fr.VLT }} sur ***Jamais***. Par conséquent, toutes les permissions de toutes les entrées sont refusées par défaut.  
+![Paramètres du {{ fr.VLT }}](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6013.png) 
 
 L'accès est refusé aux utilisateurs en accordant expressément l'accès à d'autres utilisateurs. En d'autres termes, tous les utilisateurs qui ne figurent pas sur la liste d'une permission se voient refuser l'accès.  
 
@@ -109,7 +109,7 @@ Pour qu'un utilisateur ait accès à un sous-dossier, l'utilisateur doit avoir a
 Considérer la structure suivante :  
 ![Trois niveaux de dossiers](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6041.png) 
 
-Il existe trois niveaux de dossiers : les éléments du coffre, Telemark et enfant du Telemark.  
+Il existe trois niveaux de dossiers : les éléments du {{ fr.VLT }}, Telemark et enfant du Telemark.  
 
 Supposons qu'un utilisateur, tel qu'un consultant, doit avoir accès au dossier Montréal uniquement. Le consultant doit également être autorisé à consulter le dossier Telemark. Toutefois, accorder l'accès à la vue au dossier Telemark donne au consultant les autorisations pour afficher tous les éléments enfants de Telemark. Pour refuser les autorisations d'affichage pour le consultant sur des éléments enfants spécifiques, les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs.  
 ![Les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6042.png) 

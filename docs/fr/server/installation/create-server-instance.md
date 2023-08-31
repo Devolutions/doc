@@ -54,7 +54,7 @@ Nous vous déconseillons de définir le dossier d'installation sur **C:\Program 
 ![Créer un administrateur](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4018.png) 
 1. Sous ***Sauvegarde***, sélectionner le dossier de destination et le nom de fichier du fichier de clés de chiffrement {{ fr.DVLS }}. Et définir un mot de passe pour protéger ce fichier.  
 {% snippet icon.shieldNotice %} 
-Nous vous recommandons de protéger les clés de chiffrement dans un coffre pour éviter toute perte de données si {{ fr.DVLS }} doit être restauré. 
+Nous vous recommandons de protéger les clés de chiffrement dans un {{ fr.VLT }} pour éviter toute perte de données si {{ fr.DVLS }} doit être restauré. 
 {% endsnippet %}
  
 ![Copie de sauvegarde des clés de chiffrement](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4019.png)  

@@ -3,7 +3,7 @@ eleventyComputed:
   title:  Mon {{ fr.UVLT }}
   status: Topic available in German language
 ---
-Le ***{{ fr.UVLT }}*** est un coffre personnalisé pour l'utilisateur pour les entrées de tout type. Il permet à chaque utilisateur de créer des entrées que lui seul peut voir. 
+Le ***{{ fr.UVLT }}*** est un {{ fr.VLT }} personnalisé pour l'utilisateur pour les entrées de tout type. Il permet à chaque utilisateur de créer des entrées que lui seul peut voir. 
 
 {% snippet icon.badgeInfo %} 
 Le {{ fr.UVLT }} est disponible pour toutes les [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 

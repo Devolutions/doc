@@ -20,7 +20,7 @@ Description
 		<td>
 Entrées  
 Groupes d'utilisateurs  
-Coffres  
+{{ fr.VLT }}s  
 Usagers  
 		</td>
 		<td>

@@ -36,7 +36,7 @@ Si vous avez défini le [Fournisseur de sécurité](/fr/rdm/windows/commands/adm
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 
-Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant toute opération susceptible de modifier les informations de la base de données ou avant la mise à niveau de {{ fr.DVLS }}. Protéger la clé de chiffrement dans un coffre pour éviter la perte de données si {{ fr.DVLS }} doit être restauré. 
+Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant toute opération susceptible de modifier les informations de la base de données ou avant la mise à niveau de {{ fr.DVLS }}. Protéger la clé de chiffrement dans un {{ fr.VLT }} pour éviter la perte de données si {{ fr.DVLS }} doit être restauré. 
 {% endsnippet %}
  
 ### Phase de préparation 

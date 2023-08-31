@@ -134,10 +134,10 @@ Cochez la case ***Est membre*** pour attribuer le groupes d'utilisateurs à l'ut
 	</tr>
 </table>
 
-### Coffres 
+### {{ fr.VLT }}s 
 
-Sélectionner les ***Coffres*** auxquels l'utilisateur a accès.  
-![Gestion des utilisateurs - Coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3624.png) 
+Sélectionner les ***{{ fr.VLT }}s*** auxquels l'utilisateur a accès.  
+![Gestion des utilisateurs - {{ fr.VLT }}s](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3624.png) 
 
 ### Accès à l'application 
 

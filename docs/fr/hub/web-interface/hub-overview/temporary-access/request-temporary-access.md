@@ -18,7 +18,7 @@ La durée de ***l'Accès temporaire*** commence lorsque la demande est approuvé
 
 Suivez les étapes ci-dessous pour apprendre comment demander un accès temporaire :  
 
-1. Dans l'onglet ***Coffre***, sélectionner l'entrée à laquelle accéder dans le coffre de votre choix. 
+1. Dans l'onglet ***{{ fr.VLT }}***, sélectionner l'entrée à laquelle accéder dans le {{ fr.VLT }} de votre choix. 
 1. Cliquer sur ***Plus***, puis sélectionner ***Demande d'accès temporaire***.  
 ![Demande d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6033.png) 
 1. Dans la fenêtre ***Demande d'accès temporaire***, sélectionner la ***Durée de l'accès*** dans la liste déroulante.  
@@ -44,7 +44,7 @@ Vous devez maintenant attendre que l'approbateur réponde à votre demande. Vous
 Si l'approbateur accepte votre demande, au bas de votre courriel se trouvera un bouton qui vous amènera directement à votre entrée dans {{ fr.DHUBB }}. Il est également possible d'accéder manuellement à votre entrée.  
 ![Courriel de confirmation](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2137.png) 
 
-Une fois que vous êtes sur l'entrée dans le coffre, vous verrez une section ***Demande d'accès temporaire*** près du haut. Une coche valide l'approbation de votre demande. À côté de la coche se trouve le temps restant pour votre demande. Il y a également l'option ***Afficher les détails*** qui est décrit dans la [section suivante](#afficher-les-détails-et-révoquer-votre-accès-temporaire).  
+Une fois que vous êtes sur l'entrée dans le {{ fr.VLT }}, vous verrez une section ***Demande d'accès temporaire*** près du haut. Une coche valide l'approbation de votre demande. À côté de la coche se trouve le temps restant pour votre demande. Il y a également l'option ***Afficher les détails*** qui est décrit dans la [section suivante](#afficher-les-détails-et-révoquer-votre-accès-temporaire).  
 
 Vous pouvez maintenant effectuer votre tâche avec cette permission élevée.  
 ![Demande d'accès temporaire approuvée](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6039.png) 

@@ -2,7 +2,7 @@
 eleventyComputed:
   title: '{{ fr.NPANE }}'
 ---
-Le ***{{ fr.NPANE }}*** affiche les entrées auxquelles les utilisateurs ont accès depuis le coffre sélectionné.  
+Le ***{{ fr.NPANE }}*** affiche les entrées auxquelles les utilisateurs ont accès depuis le {{ fr.VLT }} sélectionné.  
 
 Raffiner vos recherches des entrées avec le ***Filtre*** ou les ***Étiquettes*** dans le ***Paramètres d'affichage***.  
 

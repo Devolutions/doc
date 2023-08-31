@@ -2,7 +2,7 @@
 eleventyComputed:
   title: '{{ fr.DHUBP }}'
 ---
-{{ fr.DHUBP }}, pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un coffre.  
+{{ fr.DHUBP }}, pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un {{ fr.VLT }}.  
 
 Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/personal) pour plus d'informations sur ce service.  
 

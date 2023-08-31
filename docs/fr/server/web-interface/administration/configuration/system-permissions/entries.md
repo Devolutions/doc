@@ -38,10 +38,10 @@ Limiter la création d'entrées a la racine à certains utilisateurs.
 	</tr>
 	<tr>
 		<td>
-Paramètres du coffre 
+Paramètres du {{ fr.VLT }} 
 		</td>
 		<td>
-Restreindre l'accès aux propriétés du coffre à certains utilisateurs. 
+Restreindre l'accès aux propriétés du {{ fr.VLT }} à certains utilisateurs. 
 		</td>
 	</tr>
 </table>

@@ -45,7 +45,7 @@ Il y a une limitation avec le Rest API, vous ne pouvez pas avoir le 2FA avec Win
 <i>Choisir les identifiants</i> 
     </ol>
   </li>
-  <li>Dans la session avec laquelle vous voulez utiliser les identifiants de <b><i>Secret Server</i></b> (RDP, etc.), sélectionner les <b><i>Identifiants</i></b> que vous avez créés avec <b><i>Lié (Coffre)</i></b>, puis vous pouvez cliquer sur le bouton <b><i>Sélectionner dans la liste</i></b> pour spécifier le compte que vous souhaitez utiliser. </li>
+  <li>Dans la session avec laquelle vous voulez utiliser les identifiants de <b><i>Secret Server</i></b> (RDP, etc.), sélectionner les <b><i>Identifiants</i></b> que vous avez créés avec <b><i>Lié ({{ fr.VLT }})</i></b>, puis vous pouvez cliquer sur le bouton <b><i>Sélectionner dans la liste</i></b> pour spécifier le compte que vous souhaitez utiliser. </li>
 
 ![Identifiants – Sélectionner dans la liste](https://webdevolutions.azureedge.net/docs/fr/kb/KB4062.png) 
 

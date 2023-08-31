@@ -1,4 +1,5 @@
 ---
-title: Tresor
-order: 60
+eleventyComputed:
+  title: '{{ de.VLT }}'
+  order: 60
 ---

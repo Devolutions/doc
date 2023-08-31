@@ -1,7 +1,7 @@
 ---
 title: Audit
 ---
-La section ***Audit*** permet à tous les utilisateurs d'utiliser les outils ***Analyseur de sécurité d'entrées*** et ***Analyseur de mots de passe***. Pour accéder aux outils ***Permissions des utilisateurs***, ***Permissions du coffre*** et ***Santé du coffre***, des droits administrateur seront nécessaires.  
+La section ***Audit*** permet à tous les utilisateurs d'utiliser les outils ***Analyseur de sécurité d'entrées*** et ***Analyseur de mots de passe***. Pour accéder aux outils ***Permissions des utilisateurs***, ***Permissions du {{ fr.VLT }}*** et ***Santé du {{ fr.VLT }}***, des droits administrateur seront nécessaires.  
 
 ## Analyseur de sécurité d'entrées 
 
@@ -12,7 +12,7 @@ Cliquer sur le ***Nom*** de l'entrée pour être redirigé et gérer les propri�
 
 ## Analyseur de mots de passe 
 
-L'***Analyseur de mots de passe*** est un outil plus avancé et permet de gérer l'occurrence et la force du mot de passe des entrées du coffre.  
+L'***Analyseur de mots de passe*** est un outil plus avancé et permet de gérer l'occurrence et la force du mot de passe des entrées du {{ fr.VLT }}.  
 
 Cliquer sur l'icône en forme d'oeil pour ***Afficher mot de passe*** sauvegardé dans les entrées.  
 
@@ -23,17 +23,17 @@ Dans la section ***Fuite de données***, vous pouvez vérifier si le mot de pass
 
 ## Permissions des utilisateurs 
 
-La section ***Permissions des utilisateurs*** est un outil permettant d'avoir un aperçu des permissions de vos utilisateurs sur chaque coffre et de créer un rapport CSV en cliquant sur le bouton ***Exporter***.  
+La section ***Permissions des utilisateurs*** est un outil permettant d'avoir un aperçu des permissions de vos utilisateurs sur chaque {{ fr.VLT }} et de créer un rapport CSV en cliquant sur le bouton ***Exporter***.  
 ![!!Hub4106.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4106.png) 
 
-## Permissions du coffre 
+## Permissions du {{ fr.VLT }} 
 
-La section ***Permissions du coffre*** est un outil permettant d'examiner rapidement les permissions du coffre de vos utilisateurs pour chaque coffre et de créer un rapport CSV en cliquant sur le bouton ***Exporter***.  
+La section ***Permissions du {{ fr.VLT }}*** est un outil permettant d'examiner rapidement les permissions du {{ fr.VLT }} de vos utilisateurs pour chaque {{ fr.VLT }} et de créer un rapport CSV en cliquant sur le bouton ***Exporter***.  
 ![!!Hub4107.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4107.png) 
 
-## Santé du coffre 
+## Santé du {{ fr.VLT }} 
 
-La section ***Santé du coffre*** vous aide à évaluer et à gérer les problèmes avec des entrées spécifiques dans vos coffres.  
+La section ***Santé du {{ fr.VLT }}*** vous aide à évaluer et à gérer les problèmes avec des entrées spécifiques dans vos {{ fr.VLT }}s.  
 
 Cliquer sur la flèche ***Aller à*** pour être redirigé vers les propriétés de l'entrée et résoudre le problème.  
 ![!!Hub4108.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4108.png) 

@@ -2,7 +2,7 @@
 eleventyComputed:
   title: '{{ fr.UVLT }}'
 ---
-Le ***{{ fr.UVLT }}*** est un coffre personnalisé pour l'utilisateur pour les entrées de tout type. Il permet à chaque utilisateur de créer des entrées que lui seul peut voir.  
+Le ***{{ fr.UVLT }}*** est un {{ fr.VLT }} personnalisé pour l'utilisateur pour les entrées de tout type. Il permet à chaque utilisateur de créer des entrées que lui seul peut voir.  
 
 Pour créer une nouvelle entrée dans votre {{ fr.UVLT }}, cliquer sur {{ fr.UVLT }} dans votre ***{{ fr.NPANE }}*** et créer votre nouvelle entrée directement à partir de là.  
 

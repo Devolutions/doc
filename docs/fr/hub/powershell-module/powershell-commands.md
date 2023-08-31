@@ -320,13 +320,13 @@ New-HubSystemVaultPermission
 		</td>
 		<td>
 
-Ajoute une permission système au coffre fournie aux paramètres du système. Si un utilisateur ou un groupe existe déjà, la permission sera écrasée.  
+Ajoute une permission système au {{ fr.VLT }} fournie aux paramètres du système. Si un utilisateur ou un groupe existe déjà, la permission sera écrasée.  
 
-Si UserId est fourni, définit un PSVaultRole prédéfini ou une permission personnalisée du coffre au système pour cet utilisateur.  
+Si UserId est fourni, définit un PSVaultRole prédéfini ou une permission personnalisée du {{ fr.VLT }} au système pour cet utilisateur.  
 
 ou  
 
-Si GroupId est fourni, définit un PSVaultRole prédéfini ou une permission personnalisée du coffre au système pour ce groupe. 
+Si GroupId est fourni, définit un PSVaultRole prédéfini ou une permission personnalisée du {{ fr.VLT }} au système pour ce groupe. 
 		</td>
 		<td>
 ```$newSystemVaultPermission = [Devolutions.Hub.Clients.VaultPermission]@{ AddEntries = $true }```  
@@ -348,11 +348,11 @@ Remove-HubSystemVaultPermission
 		</td>
 		<td>
 
-Si UserID est fourni, supprime la permission du coffre au système de l'utilisateur des paramètres système.  
+Si UserID est fourni, supprime la permission du {{ fr.VLT }} au système de l'utilisateur des paramètres système.  
 
 ou  
 
-Si GroupId est fourni, supprime la permission du coffre au système de l'utilisateur des paramètres système.  
+Si GroupId est fourni, supprime la permission du {{ fr.VLT }} au système de l'utilisateur des paramètres système.  
 		</td>
 		<td>
 		</td>
@@ -370,11 +370,11 @@ ou
 * GroupId  
 		</td>
 		<td>
-Si UserId est fourni, récupère la permission coffre du système de l'utilisateur à partir des paramètres du système.  
+Si UserId est fourni, récupère la permission {{ fr.VLT }} du système de l'utilisateur à partir des paramètres du système.  
 
 ou  
 
-Si GroupId est fourni, récupère la permission coffre de système de ce groupe à partir des paramètres du système.
+Si GroupId est fourni, récupère la permission {{ fr.VLT }} de système de ce groupe à partir des paramètres du système.
 		</td>
 		<td>
 Récupérer une systemVaultPermission d'un utilisateur pour créer une nouvelle systemVaultPermission avec les mêmes permissions (valeurs).  
@@ -398,13 +398,13 @@ Set-HubSystemVaultPermission
 * PSVaultRole | SystemVaultPermissions  
 		</td>
 		<td>
-Définit une permission de coffre système fournie.  
+Définit une permission de {{ fr.VLT }} système fournie.  
 
-Si UserId est fourni, définit un PSVaultRole prédéfini ou une permission personnalisée du coffre au système pour cet utilisateur.  
+Si UserId est fourni, définit un PSVaultRole prédéfini ou une permission personnalisée du {{ fr.VLT }} au système pour cet utilisateur.  
 
 ou  
 
-Si GroupId est fourni, définit un PSVaultRole prédéfini ou une permission personnalisée du coffre au système pour ce groupe.  
+Si GroupId est fourni, définit un PSVaultRole prédéfini ou une permission personnalisée du {{ fr.VLT }} au système pour ce groupe.  
 		</td>
 		<td>
 ```$systemVaultPermission = Get-HubSystemVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 ```  
@@ -638,9 +638,9 @@ Récupère les paramètres de {{ fr.DGW }}.
 	</tr>
 </table>
 
-## Coffre 
+## {{ fr.VLT }} 
 
-Cette section concerne les commandes permettant de gérer les coffres.  
+Cette section concerne les commandes permettant de gérer les {{ fr.VLT }}s.  
 
 <table>
 	<tr>
@@ -667,10 +667,10 @@ New-HubVault
 * VaultDescription  
 		</td>
 		<td>
-Ajoute un nouveau coffre. 
+Ajoute un nouveau {{ fr.VLT }}. 
 		</td>
 		<td>
-Avoir la permission de créer un coffre et de mettre le nom. 
+Avoir la permission de créer un {{ fr.VLT }} et de mettre le nom. 
 		</td>
 	</tr>
 	<tr>
@@ -681,7 +681,7 @@ Remove-HubVault
 * VaultId 
 		</td>
 		<td>
-Supprime ce coffre du hub. 
+Supprime ce {{ fr.VLT }} du hub. 
 		</td>
 		<td>
 		</td>
@@ -695,9 +695,9 @@ Get-HubVault
 		</td>
 		<td>
 	
-Si VaultId est fourni, récupère le coffre par l'ID.  
+Si VaultId est fourni, récupère le {{ fr.VLT }} par l'ID.  
 
-Si VaultId n'est pas fourni, récupère tous les coffres auxquels vous avez accès. 
+Si VaultId n'est pas fourni, récupère tous les {{ fr.VLT }}s auxquels vous avez accès. 
 		</td>
 		<td>
 		</td>
@@ -711,10 +711,10 @@ Set-HubVault
 * PSVault 
 		</td>
 		<td>
-Définit le coffre fourni sur l'ID du coffre mentionné.
+Définit le {{ fr.VLT }} fourni sur l'ID du {{ fr.VLT }} mentionné.
 		</td>
 		<td>
-Modifier certaines informations sur un coffre et enregistrer ces modifications.  
+Modifier certaines informations sur un {{ fr.VLT }} et enregistrer ces modifications.  
 
 ```$psVault = Get-HubVault -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 ```  
 
@@ -740,11 +740,11 @@ New-HubVaultPermission
 	* VaultRoleId | VaultPermission  
 		</td>
 		<td>
-Ajoute la permission du coffre fournie à un coffre spécifique. Si un utilisateur ou un groupe existe déjà, la permission sera écrasée.  
+Ajoute la permission du {{ fr.VLT }} fournie à un {{ fr.VLT }} spécifique. Si un utilisateur ou un groupe existe déjà, la permission sera écrasée.  
 
-Si UserId est fourni, définit un PSVaultRole prédéfini ou une permission du coffre personnalisée pour cet utilisateur.  
+Si UserId est fourni, définit un PSVaultRole prédéfini ou une permission du {{ fr.VLT }} personnalisée pour cet utilisateur.  
 
-Si GroupId est fourni, définit un PSVaultRole prédéfini ou une permission du coffre personnalisée pour ce groupe.  
+Si GroupId est fourni, définit un PSVaultRole prédéfini ou une permission du {{ fr.VLT }} personnalisée pour ce groupe.  
 		</td>
 		<td>
 Avec une vaultPermission personnalisée :  
@@ -773,9 +773,9 @@ Remove-HubVaultPermission
 	* GroupId  
 		</td>
 		<td>
-Si UserId est fourni, supprime la permission du {{ fr.UVLT }} d'un coffre spécifique.  
+Si UserId est fourni, supprime la permission du {{ fr.UVLT }} d'un {{ fr.VLT }} spécifique.  
 
-Si GroupId est fourni, supprime la permission du coffre du groupe d'un coffre spécifique. 
+Si GroupId est fourni, supprime la permission du {{ fr.VLT }} du groupe d'un {{ fr.VLT }} spécifique. 
 		</td>
 		<td>
 		</td>
@@ -793,9 +793,9 @@ Get-HubVaultPermission
 	* GroupId  
 		</td>
 		<td>
-Si UserId est fourni, récupère la permission du {{ fr.UVLT }} à partir d'un coffre spécifique.  
+Si UserId est fourni, récupère la permission du {{ fr.UVLT }} à partir d'un {{ fr.VLT }} spécifique.  
 
-Si GroupId est fourni, récupère la permission du coffre du groupe à partir d'un coffre spécifique.  
+Si GroupId est fourni, récupère la permission du {{ fr.VLT }} du groupe à partir d'un {{ fr.VLT }} spécifique.  
 		</td>
 		<td>
 Obtenir une vaultPermission d'un utilisateur pour créer une nouvelle vaultPermission avec les mêmes permissions (valeurs).  
@@ -820,11 +820,11 @@ Set-HubVaultPermission
 	* VaultRoleId | VaultPermission  
 		</td>
 		<td>
-Définit une permission du coffre fournie à un coffre spécifique.  
+Définit une permission du {{ fr.VLT }} fournie à un {{ fr.VLT }} spécifique.  
 
-Si UserId est fourni, définit un rôle prédéfini ou une permission du coffre personnalisée pour cet utilisateur.  
+Si UserId est fourni, définit un rôle prédéfini ou une permission du {{ fr.VLT }} personnalisée pour cet utilisateur.  
 
-Si GroupId est fourni, définit un rôle prédéfini ou une permission du coffre personnalisée pour ce groupe.  
+Si GroupId est fourni, définit un rôle prédéfini ou une permission du {{ fr.VLT }} personnalisée pour ce groupe.  
 		</td>
 		<td>
 Avec une vaultPermission personnalisée :  
@@ -853,9 +853,9 @@ Get-HubVaultRole
 		</td>
 		<td>
 
-Si RoleId est fourni, récupère le rôle du coffre par l'ID.
+Si RoleId est fourni, récupère le rôle du {{ fr.VLT }} par l'ID.
 
-Si RoleId n'est pas fourni, récupère tous les rôles du coffre.
+Si RoleId n'est pas fourni, récupère tous les rôles du {{ fr.VLT }}.
 		</td>
 		<td>
 		</td>
@@ -1126,7 +1126,7 @@ New-HubEntry
 * DocumentPath  
 		</td>
 		<td>
-Ajoute une nouvelle entrée à un coffre spécifique de {{ fr.DHUB }} avec l'entrée PSDecryptedEntry fournie. 
+Ajoute une nouvelle entrée à un {{ fr.VLT }} spécifique de {{ fr.DHUB }} avec l'entrée PSDecryptedEntry fournie. 
 		</td>
 		<td>
 ```$t = [Devolutions.Hub.CryptoUtils.Models.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.CryptoUtils.Models.PSEntryMetadata]@{ Name = “Test Cred“; ParentId = “9df41856-125a-490a-8589-93afc3059924“; ConnectionType = [Devolutions.Generated.Enums.ConnectionType]::Credential }; Connection = [Devolutions.Generated.Models.Connection]@{ Credentials = [Devolutions.Generated.Models.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.Enums.CredentialResolverConnectionType]::Default; Password = “passworddepowershell“ } } } ```  
@@ -1143,7 +1143,7 @@ Remove-HubEntry
 * EntryId 
 		</td>
 		<td>
-Supprime cette entrée d'un coffre spécifique. 
+Supprime cette entrée d'un {{ fr.VLT }} spécifique. 
 		</td>
 		<td>
 		</td>
@@ -1157,9 +1157,9 @@ Get-HubEntry
 * EntryId  
 		</td>
 		<td>
-Si EntryId est fourni, récupère cette entrée à partir d'un coffre spécifique.  
+Si EntryId est fourni, récupère cette entrée à partir d'un {{ fr.VLT }} spécifique.  
 
-Si EntryId n'est pas fourni, récupère toutes les entrées d'un coffre spécifique.  
+Si EntryId n'est pas fourni, récupère toutes les entrées d'un {{ fr.VLT }} spécifique.  
 
 Les entrées auront des mots de passe sensibles si vous en avez la permission. 
 		</td>
@@ -1176,7 +1176,7 @@ Set-HubEntry
 * PSDecryptedEntry 
 		</td>
 		<td>
-Définit l'entrée PSDecryptedEntry fournie dans le coffre et l'entrée mentionnée.  
+Définit l'entrée PSDecryptedEntry fournie dans le {{ fr.VLT }} et l'entrée mentionnée.  
 		</td>
 		<td>
 Modifier certaines informations sur une entrée et enregistrer ces modifications.  

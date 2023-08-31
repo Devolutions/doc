@@ -8,7 +8,7 @@ Mit der Funktion ***Stapelverarbeitung*** können Sie die Einstellungen mehrere 
 
 ## Erweiterte Suche 
 
-Wählen Sie mit der üblichen Tastenkombination Strg/Umschalttaste+Linksklick etc. mehrere Einträge aus. Wenn Sie eine etwas leistungsfähigere Methode wünschen, verwenden Sie die Funktion ***Erweiterte Suche***, mit der Sie nach festgelegten Kriterien Einträge suchen und auswählen können. Die ***Erweiterte Suche*** ist unter ***Ansicht – Suche – Erweiterte Suche*** verfügbar. Bei Bedarf können Sie mit der ***Multi Tresor Suche*** nach Einträge aus allen Tresoren suchen.  
+Wählen Sie mit der üblichen Tastenkombination Strg/Umschalttaste+Linksklick etc. mehrere Einträge aus. Wenn Sie eine etwas leistungsfähigere Methode wünschen, verwenden Sie die Funktion ***Erweiterte Suche***, mit der Sie nach festgelegten Kriterien Einträge suchen und auswählen können. Die ***Erweiterte Suche*** ist unter ***Ansicht – Suche – Erweiterte Suche*** verfügbar. Bei Bedarf können Sie mit der ***Multi-{{ de.VLT }}-Suche*** nach Einträge aus allen {{ de.VLT }}en suchen.  
 ![Erweiterte Suche](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip10379.png) 
 
 Klicken Sie ***Im Navigationsbereich auswählen***, um die gleichen Einträge wie im Dialogfeld ***Erweiterte Suche*** angezeigt werden, auszuwählen. Verwenden Sie dann ***Bearbeiten – Stapelverarbeitung***, um alle ausgewählten Einträge zu bearbeiten. Gehen Sie für die Details bitte zu [diesem Beitrag](/kb/remote-desktop-manager/how-to-articles/batch-edit-rdm/). 

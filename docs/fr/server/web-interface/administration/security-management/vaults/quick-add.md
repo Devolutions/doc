@@ -4,7 +4,7 @@ title: Ajout rapide
 Permet de personnaliser la liste des types de sessions pour le bouton d'ajout rapide.  
 ![Ajout rapide](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8068.png)  
 
-![Coffres - Ajout Rapide](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8067.png) 
+![{{ fr.VLT }}s - Ajout Rapide](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8067.png) 
 
 <table>
 	<tr>

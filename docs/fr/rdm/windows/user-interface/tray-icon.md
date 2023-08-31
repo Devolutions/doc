@@ -68,10 +68,10 @@ Répertorie les [Sources de données](/fr/rdm/windows/data-sources/) disponibles
 	</tr>
 	<tr>
 		<td>
-Coffres 
+{{ fr.VLT }}s 
 		</td>
 		<td>
-Répertorie tous les coffres de la source de données actuelle. 
+Répertorie tous les {{ fr.VLT }}s de la source de données actuelle. 
 		</td>
 	</tr>
 	<tr>

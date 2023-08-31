@@ -1,7 +1,7 @@
 ---
 title: Ajouter un site Web
 ---
-Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les coffres et entrées des onglets ***Coffres*** ou [***{{ fr.UVLT }}***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#onglet-coffre-d'utilisateur). Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DHUBB }} via {{ fr.DWL }}.  
+Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les {{ fr.VLT }}s et entrées des onglets ***{{ fr.VLT }}s*** ou [***{{ fr.UVLT }}***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#onglet-coffre-d'utilisateur). Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DHUBB }} via {{ fr.DWL }}.  
 
 Lorsque {{ fr.DHUBB }} est utilisé comme source de données, la configuration de base de l'entrée est exécutée dans l'onglet ***Général***, mais des paramètres supplémentaires sont aussi disponibles dans d'autres onglets. Vous trouverez ci-dessous un exemple des paramètres de l'onglet ***Général*** lors de la création d'une entrée de site Web.  
 ![Nouvelle entrée - Site Web (onglet Général)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2090.png) 
@@ -29,11 +29,11 @@ Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.
 	</tr>
 	<tr>
 		<td>
-Coffre 
+{{ fr.VLT }} 
 		</td>
 		<td>
 
-Choisir dans quel coffre stocker votre nouvelle entrée de site Web dans {{ fr.DHUBB }}. Vous pouvez sélectionner n'importe quel coffre, incluant votre ***{{ fr.UVLT }}***. 
+Choisir dans quel {{ fr.VLT }} stocker votre nouvelle entrée de site Web dans {{ fr.DHUBB }}. Vous pouvez sélectionner n'importe quel {{ fr.VLT }}, incluant votre ***{{ fr.UVLT }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +49,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Hôte 
 		</td>
 		<td>
-Dans la liste déroulante, sélectionner la manière dont {{ fr.DWL }} récupérera l'hôte entre ***Personnalisé***, ***Liés (coffre)*** ou ***Hérité***. Si vous sélectionnez ***Personnalisé***, le champ ***URL*** (voir ci-dessous) apparaîtra. Si vous sélectionnez ***Liés (coffre)***, une liste déroulante apparaîtra dans laquelle vous pourrez sélectionner l'hôte. 
+Dans la liste déroulante, sélectionner la manière dont {{ fr.DWL }} récupérera l'hôte entre ***Personnalisé***, ***Liés ({{ fr.VLT }})*** ou ***Hérité***. Si vous sélectionnez ***Personnalisé***, le champ ***URL*** (voir ci-dessous) apparaîtra. Si vous sélectionnez ***Liés ({{ fr.VLT }})***, une liste déroulante apparaîtra dans laquelle vous pourrez sélectionner l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -65,7 +65,7 @@ Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiqu
 Identifiants 
 		</td>
 		<td>
-Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié (Coffre)***, ***Hérité***, ***Mes identifiants personnels***, ***Rechercher par nom ({{ fr.UVLT }})*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
+Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié ({{ fr.VLT }})***, ***Hérité***, ***Mes identifiants personnels***, ***Rechercher par nom ({{ fr.UVLT }})*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
 		</td>
 	</tr>
 	<tr>
@@ -393,7 +393,7 @@ Source
 		</td>
 		<td>
 
-Dans la liste déroulante, choisir la ***Source*** du mot de passe à usage unique (OTP) entre ***Aucun***, ***Personnalisé***, ***Lié (Coffre)***, ***Session courante***, ***Demander*** ou ***Hérité***. Sélectionner ***Personnalisé*** donne accès aux autres paramètres dans ce tableau. 
+Dans la liste déroulante, choisir la ***Source*** du mot de passe à usage unique (OTP) entre ***Aucun***, ***Personnalisé***, ***Lié ({{ fr.VLT }})***, ***Session courante***, ***Demander*** ou ***Hérité***. Sélectionner ***Personnalisé*** donne accès aux autres paramètres dans ce tableau. 
 		</td>
 	</tr>
 	<tr>

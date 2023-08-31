@@ -1,7 +1,7 @@
 ---
 title: Ajouter un site Web
 ---
-Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les coffres de l'onglet ***Toutes les entrées***. Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DVLS }} via {{ fr.DWL }}.  
+Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les {{ fr.VLT }}s de l'onglet ***Toutes les entrées***. Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DVLS }} via {{ fr.DWL }}.  
 
 Lorsque {{ fr.DVLS }} est utilisé comme source de données, la configuration de l'entrée se fait dans l'onglet ***Général***.  
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2021.png) 
@@ -67,7 +67,7 @@ Ce bouton n'apparaît à côté du champ ***URLs équivalentes*** qu'après avoi
 Identifiants 
 		</td>
 		<td>
-Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié (Coffre)***, ***Hérité***, ***Lié ({{ fr.UVLT }})***, ***Rechercher par nom ({{ fr.UVLT }})*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
+Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié ({{ fr.VLT }})***, ***Hérité***, ***Lié ({{ fr.UVLT }})***, ***Rechercher par nom ({{ fr.UVLT }})*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
 		</td>
 	</tr>
 	<tr>
@@ -75,11 +75,11 @@ Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié (Coffre)**
 Choisir les identifiants 
 		</td>
 		<td>
-Sélectionner l'entrée d'identifiants qui sera utilisée pour récupérer les identifiants de votre nouvelle entrée de site Web. {{ fr.DWL }} n'affichera que les entrées de type ***Entrée d'identifiants*** pour être liées à votre entrée. L'emplacement de l'entrée d'identifiants doit d'abord être sélectionnée dans la liste déroulante ***Coffre***.  
+Sélectionner l'entrée d'identifiants qui sera utilisée pour récupérer les identifiants de votre nouvelle entrée de site Web. {{ fr.DWL }} n'affichera que les entrées de type ***Entrée d'identifiants*** pour être liées à votre entrée. L'emplacement de l'entrée d'identifiants doit d'abord être sélectionnée dans la liste déroulante ***{{ fr.VLT }}***.  
 
 Il est aussi possible de sélectionner ***Demander à la connexion*** pour que vos identifiants soient demandés chaque fois que vous vous connectez.  
 
-Ce champ n'est disponible que si ***Lié (Coffre)*** ou ***Lié ({{ fr.UVLT }})*** est sélectionné dans la liste déroulante ***Identifiants***.  
+Ce champ n'est disponible que si ***Lié ({{ fr.VLT }})*** ou ***Lié ({{ fr.UVLT }})*** est sélectionné dans la liste déroulante ***Identifiants***.  
 		</td>
 	</tr>
 	<tr>
@@ -139,7 +139,7 @@ Saisir une description pour la nouvelle entrée.
 	</tr>
 	<tr>
 		<td>
-Coffre 
+{{ fr.VLT }} 
 		</td>
 		<td>
 Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.UVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.DVLS }}. 

@@ -23,7 +23,7 @@ Suivez les instructions dans les sections ci-dessous pour apprendre à ajouter u
 1. Une fenêtre ***Ajouter un site Web*** de {{ fr.DWL }} apparaîtra dans le coin du navigateur Web.  
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2101.png) 
 1. Saisir un ***Nom*** pour l'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu'il reflète le contenu de l'entrée pour la retrouver plus facilement au besoin. 
-1. Sélectionner le ***Coffre*** et le ***Dossier*** dans lesquels sauvegarder l'entrée de site Web. 
+1. Sélectionner le ***{{ fr.VLT }}*** et le ***Dossier*** dans lesquels sauvegarder l'entrée de site Web. 
 1. Cliquer sur ***Enregistrer***.  
 
 Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DHUBB }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/).  
@@ -37,7 +37,7 @@ Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle ent
 1. L'onglet ***Nouvelle entrée - Site Web*** de {{ fr.DWL }} s'ouvrira dans votre navigateur.  
 ![Nouvelle entrée - Site Web (onglet Général)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2090.png) 
 1. Saisir un ***Nom*** pour l'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu'il reflète le contenu de l'entrée pour la retrouver plus facilement au besoin. 
-1. Sélectionner le ***Coffre*** et le ***Dossier*** dans lesquels sauvegarder l'entrée de site Web. 
+1. Sélectionner le ***{{ fr.VLT }}*** et le ***Dossier*** dans lesquels sauvegarder l'entrée de site Web. 
 1. La liste déroulante ***Hôte*** est définie à ***Personnalisé*** par défaut. Cela permet à {{ fr.DWL }} de spécifier automatiquement l'***URL*** dans le champ suivant avec l'URL de la page de connexion de l'[étape 1](#ajouter-manuellement-une-entrée-de-site-web). 
 1. La liste déroulante ***Identifiants*** est définie à ***Personnalisé*** par défaut. Cela permet d'entrer manuellement le ***Nom d'utilisateur***, le ***Domaine*** et le ***Mot de passe*** à l'étape suivante. 
 1. Saisir le ***Nom d'utilisateur***, le ***Domaine*** et le ***Mot de passe*** qui sont utilisés pour se connecter à ce site Web. Il est possible qu'il n'y ait pas de nom de domaine à spécifier; dans ce cas, laisser le champ vide. Également, dépendamment du site Web, le nom d'utilisateur pourrait être une adresse courriel. 

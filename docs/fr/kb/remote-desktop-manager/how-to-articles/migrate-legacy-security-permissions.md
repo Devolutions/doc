@@ -18,6 +18,6 @@ Suivez les étapes ci-dessous pour migrer en toute sécurité de l'***ancienne s
 1. Naviguer jusqu'à l'onglet ***Administration*** dans {{ fr.RDM }}.
 1. Sous la section ***Paramètres***, sélectionner ***Paramètres système***.  
 ![Administration – Paramètres système](https://webdevolutions.azureedge.net/docs/fr/kb/KB2088.png)
-1. Se rendre jusqu'à ***Gestion des coffres – Paramètres de sécurité – Sécurité*** et désactiver ***Utiliser l'ancienne sécurité***.  
+1. Se rendre jusqu'à ***Gestion des {{ fr.VLT }}s – Paramètres de sécurité – Sécurité*** et désactiver ***Utiliser l'ancienne sécurité***.  
 ![Utiliser l'ancienne sécurité](https://webdevolutions.azureedge.net/docs/fr/kb/KB2089.png)
 1. Cliquer sur ***Ok*** pour appliquer le changement et fermer la fenêtre.

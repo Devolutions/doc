@@ -14,6 +14,6 @@ Befolgen Sie diese Schritte, um sicher von der ***veralteten Sicherheitssystem**
 1. Gehen Sie im {{ de.RDM }} zur Registerkarte  ***Administration***.
 1. Wählen Sie unter ***Einstellungen*** die Option ***Systemeinstellungen***.  
 ![Administration – Systemeinstellungen](https://webdevolutions.azureedge.net/docs/de/kb/KB0026.png)
-1. Gehen Sie zu ***Tresorverwaltung – Sicherheitseinstellungen – Sicherheit*** und deaktivieren Sie ***Altes Sicherheitssystem verwenden***.  
+1. Gehen Sie zu ***{{ de.VLT }}verwaltung – Sicherheitseinstellungen – Sicherheit*** und deaktivieren Sie ***Altes Sicherheitssystem verwenden***.  
 ![Altes Sicherheitssystem verwenden](https://webdevolutions.azureedge.net/docs/de/kb/KB0027.png)
 1. Klicken Sie auf ***OK***, um die Änderungen zu übernehmen und das Fenster zu schließen.

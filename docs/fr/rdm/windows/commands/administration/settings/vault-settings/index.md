@@ -1,3 +1,4 @@
 ---
-title: Paramètres du coffre
+eleventyComputed:
+  title: Paramètres du {{ fr.VLT }}
 ---

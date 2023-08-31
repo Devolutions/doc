@@ -2,7 +2,7 @@
 eleventyComputed:
   title: '{{ fr.NPANE }}'
 ---
-Le ***{{ fr.NPANE }}*** est l'un des principaux composants de l'interface utilisateur de {{ fr.RDM }}. Il répertorie toutes les entrées disponibles dans la source de données actuelle et permet de basculer vers une autre source de données ou coffre.  
+Le ***{{ fr.NPANE }}*** est l'un des principaux composants de l'interface utilisateur de {{ fr.RDM }}. Il répertorie toutes les entrées disponibles dans la source de données actuelle et permet de basculer vers une autre source de données ou {{ fr.VLT }}.  
 ![{{ fr.NPANE }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11204.png) 
 
 <table>
@@ -33,10 +33,10 @@ Affiche le contenu de la source de données actuelle selon l'onglet sélectionn�
 	</tr>
 	<tr>
 		<td>
-Sélecteur de coffre (3) 
+Sélecteur de {{ fr.VLT }} (3) 
 		</td>
 		<td>
-Permet de basculer vers un autre coffre configuré dans la source de données. 
+Permet de basculer vers un autre {{ fr.VLT }} configuré dans la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -60,7 +60,7 @@ Des paramètres et informations additionnels sur l'arborescence sont disponibles
  
 Pour plus d'informations sur chaque onglet, veuillez consulter les rubriques suivantes :  
 
-* [Coffres](/fr/rdm/windows/commands/view/panels/vault/) 
+* [{{ fr.VLT }}s](/fr/rdm/windows/commands/view/panels/vault/) 
 * [Mon {{ fr.UVLT }}](/fr/rdm/windows/data-sources/user-vault/) 
 * [Sessions ouvertes](/fr/rdm/windows/commands/view/panels/opened-sessions/) 
 * [Entrées favorites](/fr/rdm/windows/user-interface/navigation-pane/favorite-entries/) 

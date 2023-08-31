@@ -37,7 +37,7 @@ En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverse
 Chaque onglet affiche une vue différente dans la Zone de contenu. Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.DVLS }} sont :  
 
 * l'onglet ***Correspondant***, où vous pouvez trouver les identifiants disponibles pour un site Web spécifique; 
-* l'onglet ***Toutes les entrées***, où vous pouvez trouver toutes les entrées {{ fr.DVLS }} que vous avez synchronisées, réparties dans vos différents coffres et dossiers; 
+* l'onglet ***Toutes les entrées***, où vous pouvez trouver toutes les entrées {{ fr.DVLS }} que vous avez synchronisées, réparties dans vos différents {{ fr.VLT }}s et dossiers; 
 * l'onglet ***Favoris***, où vous pouvez trouver une liste de vos entrées favorites; 
 * l'onglet ***Récent***, où vous pouvez trouver une liste des entrées que vous avez récemment utilisées; 
 * le ***Générateur de mots de passe***, où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte.  

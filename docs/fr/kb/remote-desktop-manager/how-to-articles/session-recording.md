@@ -10,7 +10,7 @@ L'enregistrement de la session permet d'enregistrer les actions d'un utilisateur
 L'enregistrement de la session est disponible pour {{ fr.RDM }} version 2019.1.3.0 et ultérieure. 
 {% endsnippet %}
  
-Vous pouvez configurer l'enregistrement de la session au niveau d’un coffre, d'un fichier ou d’une entrée et ils peuvent être définis comme optionnels ou obligatoires. 
+Vous pouvez configurer l'enregistrement de la session au niveau d’un {{ fr.VLT }}, d'un fichier ou d’une entrée et ils peuvent être définis comme optionnels ou obligatoires. 
 {% snippet icon.badgeCaution %} 
 L'enregistrement de la session est seulement disponible en mode intégré. 
 {% endsnippet %}
@@ -30,7 +30,7 @@ L'enregistrement de la session est seulement disponible en mode intégré.
 * VNC 
 * WebDav 
 ## Configurer l'enregistrement de session 
-1. Ouvrir ***Paramètres du coffre*** ou ***Propriétés*** au niveau du fichier ou de l'entrée. 
+1. Ouvrir ***Paramètres du {{ fr.VLT }}*** ou ***Propriétés*** au niveau du fichier ou de l'entrée. 
 1. Dans la section ***Sécurité***, cliquer sur ***Enregistrement de la session***. 
 1. Choisir un ***Mode***. 
 * ***Hérité*** : Le paramètre est hérité du fichier parent. 
@@ -38,7 +38,7 @@ L'enregistrement de la session est seulement disponible en mode intégré.
 * ***Obligatoire*** : L'enregistrement démarre automatiquement. La session ne s'ouvre pas si un problème survient concernant l'enregistrement de la session. 
 * ***Requis (lorsque disponible)*** : L'enregistrement démarre automatiquement. S'il y a un problème avec l'enregistrement, la session sera lancée et aucun enregistrement ne sera disponible. 
 * ***Jamais*** : L'enregistrement de la session est désactivé. 
-* ***Racine (Par défaut)*** : Renvoie au coffre. Équivaux au mode ***Jamais*** pour les coffres. 
+* ***Racine (Par défaut)*** : Renvoie au {{ fr.VLT }}. Équivaux au mode ***Jamais*** pour les {{ fr.VLT }}s. 
 4. Choisir la méthode d'***Enregistrement***. 
 {% snippet icon.badgeNotice %} 
 Certaines options sont seulement disponibles avec une source de données {{ fr.DVLS }}. 

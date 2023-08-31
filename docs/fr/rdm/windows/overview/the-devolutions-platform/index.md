@@ -76,7 +76,7 @@ Windows, {{ fr.MAC }}
 [{{ fr.DWL }} (DWL)](/fr/rdm/windows/dwl/overview/) 
 		</td>
 		<td>
-{{ fr.DWL }} est un module d'extension de navigateur gratuit à utiliser avec {{ fr.RDM }}, {{ fr.DVLS }} ou {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
+{{ fr.DWL }} est un module d'extension de navigateur gratuit à utiliser avec {{ fr.RDM }}, {{ fr.DVLS }} ou {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs {{ fr.VLT }}s afin de se connecter à leurs sites Web. 
 		</td>
 		<td>
 Windows, {{ fr.MAC }} 

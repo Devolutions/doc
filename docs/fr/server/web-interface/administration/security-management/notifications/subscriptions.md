@@ -41,7 +41,7 @@ Liste des différentes catégories d'abonnement. On ne peut que sélectionner un
 
 * ***Entrée*** 
 * ***Utilisateur*** 
-* ***Coffre*** 
+* ***{{ fr.VLT }}*** 
 * ***Groupe d'utilisateurs*** 
 * ***Compte privilégié - PAM*** 
 * ***Répertoire - PAM*** 

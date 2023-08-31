@@ -35,7 +35,7 @@ La disponibilité du mode hors ligne repose sur plusieurs paramètres :
 * Le compte de l'utilisateur doit être activé dans ***Administration – Utilisateurs – Modifier – Paramètres – Mode hors connexion***. 
 * Les stratégies de groupe d'utilisateurs (seulement pour la data source {{ fr.DVLS }}) dans ***Administration – Groupe d'utilisateurs – Modifier – Paramètres – Mode hors connexion***. 
 * Les paramètres de la source de données dans ***Administration – Paramètres du système – Hors connexion – Mode Hors connexion*** et ***Expiration***. 
-* Pour chaque coffre dans ***Administration – Paramètres du coffre – Paramètres de sécurité – Autoriser le mode hors ligne***. 
+* Pour chaque {{ fr.VLT }} dans ***Administration – Paramètres du {{ fr.VLT }} – Paramètres de sécurité – Autoriser le mode hors ligne***. 
 
 Le paramètre le plus bas (en termes de sécurité) prévaut sur les autres, ce qui peut vous empêcher d'utiliser le mode hors ligne. Si le bouton ***Mettre hors-ligne*** n'est pas disponible, veuillez consulter votre administrateur.  
 
@@ -133,7 +133,7 @@ Au-delà des stratégies de groupe, le mode hors-ligne est contrôlé à ces niv
 
 * Permissions des utilisateurs 
 * Paramètres du système 
-* Paramètres du coffre 
+* Paramètres du {{ fr.VLT }} 
 
 Un utilisateur doit être autorisé en lecture/écriture aux trois niveaux pour accorder ces privilèges.  
 

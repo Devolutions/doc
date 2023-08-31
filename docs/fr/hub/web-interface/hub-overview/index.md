@@ -20,15 +20,15 @@ Menu de la barre latérale
 		</td>
 		<td>
 
-Cliquer sur l'icône de menu pour naviguer dans les sections ***Recherche***, ***Coffre***, ***{{ fr.UVLT }}***, ***Rapports***, ***Administration*** et ***Outils***. 
+Cliquer sur l'icône de menu pour naviguer dans les sections ***Recherche***, ***{{ fr.VLT }}***, ***{{ fr.UVLT }}***, ***Rapports***, ***Administration*** et ***Outils***. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Sélecteur de coffre 
+Sélecteur de {{ fr.VLT }} 
 		</td>
 		<td>
-Cliquer sur le sélecteur de coffre, dans la partie centrale supérieure de votre navigateur, pour basculer entre tous vos coffres et accéder à votre ***{{ fr.UVLT }}***. 
+Cliquer sur le sélecteur de {{ fr.VLT }}, dans la partie centrale supérieure de votre navigateur, pour basculer entre tous vos {{ fr.VLT }}s et accéder à votre ***{{ fr.UVLT }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -52,15 +52,15 @@ Cliquer sur votre avatar pour modifier les paramètres de votre {{ fr.DA }}, le 
 ***{{ fr.NPANE }}***
 		</td>
 		<td>
-Afficher les entrées disponibles dans le coffre sélectionné. 
+Afficher les entrées disponibles dans le {{ fr.VLT }} sélectionné. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Interactions avec le coffre 
+Interactions avec le {{ fr.VLT }} 
 		</td>
 		<td>
-Sélectionner un coffre dans le ***{{ fr.NPANE }}*** pour afficher les interactions du coffre. 
+Sélectionner un {{ fr.VLT }} dans le ***{{ fr.NPANE }}*** pour afficher les interactions du {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>

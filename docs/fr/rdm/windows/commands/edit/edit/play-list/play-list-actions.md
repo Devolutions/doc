@@ -99,7 +99,7 @@ Ouvre le Gestionnaire de listes d'exécution avec les dernières connexions ouve
 	</tr>
 </table>
 
-3. Choisir si vous souhaitez enregistrer votre Liste d'exécution localement, dans un coffre partagé ou dans votre {{ fr.UVLT }}. L'enregistrer localement ouvrira une fenêtre différente. Cette fenêtre contiendra tout le nécessaire pour une Liste d'exécution local.  
+3. Choisir si vous souhaitez enregistrer votre Liste d'exécution localement, dans un {{ fr.VLT }} partagé ou dans votre {{ fr.UVLT }}. L'enregistrer localement ouvrira une fenêtre différente. Cette fenêtre contiendra tout le nécessaire pour une Liste d'exécution local.  
 ![Enregistrer la Liste d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10255.png) 
 1. La fenêtre suivante vous permet de choisir comment vous voulez que votre sélection actuelle ou les sessions ouvertes affectent votre Liste d'exécution.  
 ![Selection des entrées dans le {{ fr.NPANE }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10256.png) 

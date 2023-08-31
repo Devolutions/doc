@@ -1,7 +1,7 @@
 ---
 title: Général
 ---
-![Coffres - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8065.png) 
+![{{ fr.VLT }}s - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8065.png) 
 
 <table>
 	<tr>
@@ -17,7 +17,7 @@ Description
 Nom 
 		</td>
 		<td>
-Nom du coffre 
+Nom du {{ fr.VLT }} 
 		</td>
 	</tr>
 	<tr>
@@ -25,7 +25,7 @@ Nom du coffre
 Description 
 		</td>
 		<td>
-Description du coffre 
+Description du {{ fr.VLT }} 
 		</td>
 	</tr>
 	<tr>
@@ -34,7 +34,7 @@ Autoriser le mode hors-ligne
 		</td>
 		<td>
 		
-Permet d'accéder au coffre en mode hors-ligne avec {{ fr.RDM }}. Veuillez consulter la page sur [Mettre hors-ligne](/fr/rdm/windows/data-sources/offline-mode/) pour plus de détails. 
+Permet d'accéder au {{ fr.VLT }} en mode hors-ligne avec {{ fr.RDM }}. Veuillez consulter la page sur [Mettre hors-ligne](/fr/rdm/windows/data-sources/offline-mode/) pour plus de détails. 
 		</td>
 	</tr>
 </table>

@@ -54,7 +54,7 @@ Hôte
 		</td>
 		<td>
 
-Dans la liste déroulante, sélectionner la manière dont {{ fr.DWL }} récupérera l'hôte entre ***Personnalisé***, ***Liés (coffre)*** ou ***Hérité***. Si vous sélectionnez ***Personnalisé***, le champ ***URL*** (voir ci-dessous) apparaîtra. Si vous sélectionnez ***Liés (coffre)***, une liste déroulante apparaîtra dans laquelle vous pourrez sélectionner l'hôte. 
+Dans la liste déroulante, sélectionner la manière dont {{ fr.DWL }} récupérera l'hôte entre ***Personnalisé***, ***Liés ({{ fr.VLT }})*** ou ***Hérité***. Si vous sélectionnez ***Personnalisé***, le champ ***URL*** (voir ci-dessous) apparaîtra. Si vous sélectionnez ***Liés ({{ fr.VLT }})***, une liste déroulante apparaîtra dans laquelle vous pourrez sélectionner l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -70,7 +70,7 @@ Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiqu
 Identifiants 
 		</td>
 		<td>
-Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié (Coffre)***, ***Hérité***, ***Mes identifiants personnels*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
+Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié ({{ fr.VLT }})***, ***Hérité***, ***Mes identifiants personnels*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
 		</td>
 	</tr>
 	<tr>
@@ -436,7 +436,7 @@ Source
 		</td>
 		<td>
 
-Dans la liste déroulante, choisir la ***Source*** du mot de passe à usage unique (OTP) entre ***Aucun***, ***Personnalisé***, ***Lié (Coffre)***, ***Session courante***, ***Demander*** ou ***Hérité***. Sélectionner ***Personnalisé*** donne accès aux autres paramètres dans ce tableau. 
+Dans la liste déroulante, choisir la ***Source*** du mot de passe à usage unique (OTP) entre ***Aucun***, ***Personnalisé***, ***Lié ({{ fr.VLT }})***, ***Session courante***, ***Demander*** ou ***Hérité***. Sélectionner ***Personnalisé*** donne accès aux autres paramètres dans ce tableau. 
 		</td>
 	</tr>
 	<tr>

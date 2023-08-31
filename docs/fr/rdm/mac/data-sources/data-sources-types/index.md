@@ -84,7 +84,7 @@ Inconvénients :
 Dropbox 
 		</td>
 		<td>
-{{ fr.RDMMAC }} utilise l'API Dropbox pour récupérer le fichier XML à partir du coffre configuré.  
+{{ fr.RDMMAC }} utilise l'API Dropbox pour récupérer le fichier XML à partir du {{ fr.VLT }} configuré.  
 
 Pour plus d'informations, veuillez consulter notre rubrique [Dropbox](/fr/rdm/mac/data-sources/data-sources-types/dropbox/). 
 		</td>
@@ -162,7 +162,7 @@ Inconvénients :
 {{ fr.DHUBB }} 
 		</td>
 		<td>
-{{ fr.RDMMAC }} se connecte au coffre {{ fr.DHUBB }}.  
+{{ fr.RDMMAC }} se connecte au {{ fr.VLT }} {{ fr.DHUBB }}.  
 
 Notez qu'il existe différents niveaux d'abonnement pour ce produit.  
 

@@ -243,7 +243,7 @@ SystemVaultPermissions
 Object(VaultPermissions) 
 		</td>
 		<td>
-Objet qui vous donne une liste des permissions des utilisateurs et des groupes définis globalement pour tous les coffres. 
+Objet qui vous donne une liste des permissions des utilisateurs et des groupes définis globalement pour tous les {{ fr.VLT }}s. 
 		</td>
 	</tr>
 	<tr>
@@ -511,7 +511,7 @@ Description
 String 
 		</td>
 		<td>
-Description du coffre. 
+Description du {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -522,7 +522,7 @@ Id
 Guid 
 		</td>
 		<td>
-LectureSeulement - ID du coffre. 
+LectureSeulement - ID du {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -533,7 +533,7 @@ Name
 String 
 		</td>
 		<td>
-Nom du coffre. 
+Nom du {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -544,7 +544,7 @@ State
 Enum(VaultState) 
 		</td>
 		<td>
-LectureSeulement - Énumération qui vous montre l'état du coffre. 
+LectureSeulement - Énumération qui vous montre l'état du {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -555,7 +555,7 @@ Type
 Enum(VaultType) 
 		</td>
 		<td>
-LectureSeulement - Énumération qui vous montre le type de coffre. 
+LectureSeulement - Énumération qui vous montre le type de {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -566,7 +566,7 @@ VaultPermissions
 Object(VaultPermissions) 
 		</td>
 		<td>
-Objet qui vous donne une liste des permissions utilisateurs et des groupes définis pour ce coffre. 
+Objet qui vous donne une liste des permissions utilisateurs et des groupes définis pour ce {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -577,7 +577,7 @@ Version
 Enum(VaultVersion) 
 		</td>
 		<td>
-LectureSeulement - Énumération qui vous montre la version du coffre. 
+LectureSeulement - Énumération qui vous montre la version du {{ fr.VLT }}. 
 		</td>
 	</tr>
 </table>
@@ -719,7 +719,7 @@ VaultVersion
 Enum(VaultVersion) 
 		</td>
 		<td>
-LectureSeulement - Énumération qui vous montre la version du coffre. 
+LectureSeulement - Énumération qui vous montre la version du {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>

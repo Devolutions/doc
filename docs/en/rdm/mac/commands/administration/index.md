@@ -12,7 +12,7 @@ Refer to the following topics for more information:
 * [Security Provider](/rdm/mac/commands/administration/security-provider/) 
 * [User Management](/rdm/mac/commands/administration/user-management/) 
 * [User Groups](/rdm/mac/commands/administration/user-groups-management/) 
-* [Vault Settings](/rdm/mac/commands/administration/vault-settings/) 
+* [{{ en.VLT }} Settings](/rdm/mac/commands/administration/vault-settings/) 
 * [Deleted Entries](/rdm/mac/commands/administration/view-deleted/) 
 * [Reports](/rdm/mac/commands/administration/reports/) 
 * [Change Password](/rdm/mac/commands/administration/change-current-user-password/) 

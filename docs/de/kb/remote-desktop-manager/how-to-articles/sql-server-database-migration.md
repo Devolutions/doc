@@ -46,7 +46,7 @@ Ihre neue Datenbank muss bereits [erstellt](https://docs.microsoft.com/en-us/azu
 {% snippet icon.badgeCaution %}
 Die Nutzerkonten mit dem Fehler „Windows-Nutzer können in der Azure SQL-Datenbank zu externen Nutzern konvertiert werden“ müssen in der Liste deaktiviert werden, damit die Migration funktioniert.  
 
-Diese speziellen Nutzer müssen ihren Nutzertresor und ihre Konfiguration vor der Migration [exportieren](/kb/remote-desktop-manager/how-to-articles/export-import-entries/). Wenn sie dies nicht tun, gehen die in folgenden Sektionen gespeicherten Daten verloren: ***Meine Kontoeinstellungen***, ***Nutzerspezifische Einstellungen*** und alle Einträge in ihrem ***Nutzertresor***.  
+Diese speziellen Nutzer müssen ihren {{ de.UVLT }} und ihre Konfiguration vor der Migration [exportieren](/kb/remote-desktop-manager/how-to-articles/export-import-entries/). Wenn sie dies nicht tun, gehen die in folgenden Sektionen gespeicherten Daten verloren: ***Meine Kontoeinstellungen***, ***Nutzerspezifische Einstellungen*** und alle Einträge in ihrem ***{{ de.UVLT }}***.  
 
 Nach dem Exportieren der Nutzerdaten müssen Sie einen neuen Nutzer in ihrer Liste erstellen und die Daten erneut importieren.
 {% endsnippet %}  

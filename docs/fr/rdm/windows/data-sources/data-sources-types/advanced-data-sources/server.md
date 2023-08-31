@@ -9,7 +9,7 @@ eleventyComputed:
 ![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
-***{{ fr.DVLS }}*** est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr). 
+***{{ fr.DVLS }}*** est un {{ fr.VLT }} autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr). 
 		</td>
 	</tr>
 </table>

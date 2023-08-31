@@ -88,7 +88,7 @@ Inconvénients :
 Dropbox 
 		</td>
 		<td>
-{{ fr.RDM }} utilise l'API Dropbox pour récupérer le fichier XML à partir du coffre configuré. 
+{{ fr.RDM }} utilise l'API Dropbox pour récupérer le fichier XML à partir du {{ fr.VLT }} configuré. 
 Pour plus d'informations, veuillez consulter notre rubrique [Dropbox](/fr/rdm/windows/data-sources/data-sources-types/dropbox/). 
 
 		</td>
@@ -166,7 +166,7 @@ Inconvénients :
 {{ fr.DHUBB }} 
 		</td>
 		<td>
-{{ fr.RDM }} se connecte au coffre {{ fr.DHUBB }}. 
+{{ fr.RDM }} se connecte au {{ fr.VLT }} {{ fr.DHUBB }}. 
 Notez qu'il existe différents niveaux d'abonnement pour ce produit. 
 Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou notre rubrique [{{ fr.DHUBB }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
 		</td>

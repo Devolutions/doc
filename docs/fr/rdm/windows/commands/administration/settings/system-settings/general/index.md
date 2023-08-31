@@ -15,7 +15,7 @@ Ces paramètres s'appliquent à tous les utilisateurs qui ont accès à la sourc
 	<tr>
 		<th>
 
-COFFRE 
+{{ fr.VLT }} 
 		</th>
 		<th>
 DESCRIPTION 

@@ -46,7 +46,7 @@ Maintenant, tout est prêt à accorder ou à refuser l'accès aux groupes d'util
 * Le HelpDesk sera autorisé à afficher et à ouvrir des entrées dans les groupes/dossiers clients uniquement et ne pourra pas les modifier. 
 * Les consultants auront la permission de visualiser et d'ouvrir les entrées dans le dossier de Montréal uniquement, mais ne pourront pas le modifier ni ses éléments enfants. 
 
-Nous allons commencer par les dossiers au niveau du coffre : Downhill Pro, Telemark et Windjammer.  
+Nous allons commencer par les dossiers au niveau du {{ fr.VLT }} : Downhill Pro, Telemark et Windjammer.  
 
 La permission d'afficher le dossier Windjammer sera définie pour ServiceDesk uniquement, car nous voulons qu'ils puissent utiliser ses entrées enfants. Nous ne voulons pas que ServiceDesk ajoute ou modifie quoi que ce soit. Nous définirons les permissions ***Ajouter***, ***Modifier*** et ***Supprimer*** sur ***Jamais***. Seul l'administrateur pourra ajouter ou modifier des entrées dans le dossier Windjammer.  
 ![Windjammer - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6020.png) 
@@ -70,7 +70,7 @@ Pour Downhill Pro, nous accorderons des permissions au ServiceDesk et au HelpDes
 * ***Afficher le mot de passe*** : ***Jamais***; Seul l'administrateur peut afficher le mot de passe des entrées. 
 * ***Afficher les informations sensibles*** : ***Jamais***; Seul l'administrateur peut afficher les informations sensibles des entrées. 
 
-Nous avons déjà un bon exemple de la flexibilité de la sécurité de {{ fr.RDM }}. Un utilisateur de ServiceDesk peut afficher et utiliser toutes les entrées du dossier Downhill Pro, même les entrées d'identifiants, mais il ne pourra jamais voir aucun mot de passe car ***Afficher le mot de passe*** est interdit (à partir du dossier du coffre).  
+Nous avons déjà un bon exemple de la flexibilité de la sécurité de {{ fr.RDM }}. Un utilisateur de ServiceDesk peut afficher et utiliser toutes les entrées du dossier Downhill Pro, même les entrées d'identifiants, mais il ne pourra jamais voir aucun mot de passe car ***Afficher le mot de passe*** est interdit (à partir du dossier du {{ fr.VLT }}).  
 
 Ensuite, pour le dossier Telemark, nous accorderons des permissions au ServiceDesk, au HelpDesk et aux consultants. C'est là que les choses deviennent complexes. Si nous voulons que les consultants ne puissent voir que le dossier de Montréal, qui est un élément enfant du télémark, nous devons accorder aux consultants la permission de visualiser l'intégralité du contenu du télémark. Ensuite, nous accorderons des permissions sur les éléments enfants uniquement au groupe d'utilisateurs qui devrait avoir accès à ces éléments. Cette dernière étape refusera la permission de visualisation pour les consultants sur les éléments enfants.  
 ![Telemark - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6022.png) 
@@ -111,8 +111,7 @@ Pas besoin de définir des permissions sur le dossier Montréal, car elles sont 
 ![Telemark/Montreal - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6031.png) 
 
 ### Conclusion 
-Les permissions sont désormais correctement définies. Notez que chaque entrée ajoutée au niveau du coffre n'aura aucune sécurité par défaut. Cela signifie qu'ils seraient disponibles pour n'importe qui, même pour les consultants. Cela peut être confirmé en regardant la capture d'écran ci-dessous dans laquelle la routine quotidienne d'entrée est disponible pour tout le monde. Voici ce que chaque utilisateur devrait voir dans l'arborescence :  
+Les permissions sont désormais correctement définies. Notez que chaque entrée ajoutée au niveau du {{ fr.VLT }} n'aura aucune sécurité par défaut. Cela signifie qu'ils seraient disponibles pour n'importe qui, même pour les consultants. Cela peut être confirmé en regardant la capture d'écran ci-dessous dans laquelle la routine quotidienne d'entrée est disponible pour tout le monde. Voici ce que chaque utilisateur devrait voir dans l'arborescence :  
 ![Navigation des groupes d'utilisateurs](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6065.png) 
 
-Vous pouvez personnaliser davantage vos permissions en utilisant l'onglet ***Paramètres de sécurité*** lors de la modification des entrées ou l'onglet ***Journaux*** pour ajouter plus de traces des entrées et des sorties. Comme toujours, il faut faire très attention lors de l'octroi des permissions. 
-
+Vous pouvez personnaliser davantage vos permissions en utilisant l'onglet ***Paramètres de sécurité*** lors de la modification des entrées ou l'onglet ***Journaux*** pour ajouter plus de traces des entrées et des sorties. Comme toujours, il faut faire très attention lors de l'octroi des permissions.

@@ -12,7 +12,7 @@ Vous pouvez affiner votre recherche grâce aux filtres de chaque rapport et cliq
 ![Rapports – Journaux](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4070.png)
 
 ## Journaux d'activité 
-Le rapport sur les ***Journaux d'activité*** affiche des actions spécifiques au coffre concernant les activités de tous vos utilisateurs. Les ***Messages*** d'activité sont répertoriés dans un menu déroulant pour vous permettre de choisir et d'affiner votre recherche.  
+Le rapport sur les ***Journaux d'activité*** affiche des actions spécifiques au {{ fr.VLT }} concernant les activités de tous vos utilisateurs. Les ***Messages*** d'activité sont répertoriés dans un menu déroulant pour vous permettre de choisir et d'affiner votre recherche.  
 
 Cliquez sur le bouton ***Entrée du journal*** pour afficher plus d'information sur l'activité.  
 
@@ -32,7 +32,7 @@ Les ***Journaux d'administration*** conservent la trace des activités de niveau
 
 ## Entrées supprimées  
 
-La liste des ***Entrées supprimées*** répertorie toutes les entrées supprimées dans la source de données, y compris le dossier d'où elles proviennent, la date et l'auteur de la suppression. Vous pouvez affiner votre recherche par coffre avec le filtre et cliquer sur ***Restaurer l'entrée*** pour récupérer l'entrée dans son coffre et son dossier d'origine. 
+La liste des ***Entrées supprimées*** répertorie toutes les entrées supprimées dans la source de données, y compris le dossier d'où elles proviennent, la date et l'auteur de la suppression. Vous pouvez affiner votre recherche par {{ fr.VLT }} avec le filtre et cliquer sur ***Restaurer l'entrée*** pour récupérer l'entrée dans son {{ fr.VLT }} et son dossier d'origine. 
 
 {% snippet icon.badgeWarning %} 
 Une fois que vous avez confirmé la suppression d'une entrée dans les listes des ***Entrées supprimées***, elle sera complètement supprimée des données du {{ fr.DVLS }}. 
@@ -44,6 +44,6 @@ Une fois que vous avez confirmé la suppression d'une entrée dans les listes de
 
 Les ***Journaux des dernières utilisations*** affichent l'heure et la date de la dernière modification effectuée sur une entrée.  
 
-À partir de la liste, vous pouvez également déplacer les entrées affichées vers un autre coffre. Pour cela, vous n'avez qu'à sélectionner les entrées et cliquer sur le bouton ***Déplacer vers le coffre***.  
+À partir de la liste, vous pouvez également déplacer les entrées affichées vers un autre {{ fr.VLT }}. Pour cela, vous n'avez qu'à sélectionner les entrées et cliquer sur le bouton ***Déplacer vers le {{ fr.VLT }}***.  
 
 ![Rapports – Journaux des dernières utilisations](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4075.png) 

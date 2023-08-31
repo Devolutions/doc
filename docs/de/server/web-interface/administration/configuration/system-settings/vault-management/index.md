@@ -1,3 +1,4 @@
 ---
-title: Tresor Verwaltung
+eleventyComputed:
+  title: '{{ de.VLT }} Verwaltung'
 ---

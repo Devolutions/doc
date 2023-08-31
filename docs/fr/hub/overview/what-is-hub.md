@@ -8,7 +8,7 @@ eleventyComputed:
 
 {{ fr.DHUB }} est un gestionnaire de mots de passe d'équipe hautement sécurisé qui fait partie des {{ fr.DCS }}. Il a été conçu pour que les administrateurs TI ainsi que les utilisateurs finaux puissent stocker et partager des informations dans toute l'organisation, quelle que soit sa taille. Vous pouvez accéder aux informations sensibles et les gérer de n'importe où et avec n'importe quel navigateur Web pris en charge.  
 
-Vos informations sont stockées dans des entrées de différents types qui sont organisées en coffres. Les entrées sont gérées directement depuis l'interface Web et aucune application client n'est nécessaire.  
+Vos informations sont stockées dans des entrées de différents types qui sont organisées en {{ fr.VLT }}s. Les entrées sont gérées directement depuis l'interface Web et aucune application client n'est nécessaire.  
 
 La sécurité est au coeur de {{ fr.DHUB }} puisque l'application est hébergée par [Microsoft Azure](/fr/kb/hub-business/knowledge-base/hosting-region-password-hub/), un fournisseur de services infonuagiques hautement sécurisés, et chiffrée avec la norme de chiffrement la plus solide : AES-256.  
 
@@ -45,7 +45,7 @@ Importateur de données
 	</tr>
 	<tr>
 		<td>
-[{{ fr.DWL }}](/fr/hub/dwl/overview/) est un module d'extension de navigateur gratuit à utiliser avec {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
+[{{ fr.DWL }}](/fr/hub/dwl/overview/) est un module d'extension de navigateur gratuit à utiliser avec {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs {{ fr.VLT }}s afin de se connecter à leurs sites Web. 
 		</td>
 		<td>
 L’application permet aux utilisateurs de lancer facilement des connexions à distance à partir de l'interace Web de {{ fr.DHUB }}. 

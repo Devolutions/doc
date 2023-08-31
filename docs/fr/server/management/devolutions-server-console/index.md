@@ -371,10 +371,10 @@ Ouvrir la page de [Gestion des Groupes d'utilisateurs](/fr/server/web-interface/
 	</tr>
 	<tr>
 		<td>
-Coffres 
+{{ fr.VLT }}s
 		</td>
 		<td>
-Ouvrir la page de [Gestion des Coffres](/fr/server/web-interface/administration/security-management/vaults/) sur l'interface Web de {{ fr.DVLS }}. 
+Ouvrir la page de [Gestion des {{ fr.VLT }}s](/fr/server/web-interface/administration/security-management/vaults/) sur l'interface Web de {{ fr.DVLS }}. 
 		</td>
 	</tr>
 	<tr>

@@ -1,4 +1,5 @@
 ---
-title: Tresore
-order: 30
+eleventyComputed:
+  title: '{{ de.VLT }}e'
+  order: 30
 ---

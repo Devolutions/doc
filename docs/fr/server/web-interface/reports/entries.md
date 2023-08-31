@@ -29,7 +29,6 @@ Cliquer sur le nom de l'entrée pour être redirigé et gérer la sécurité de 
 
 ### Permissions autres que celles par défaut 
 
-Sélectionner un ***Coffre*** pour ce rapport afin de répertorier toutes les permissions appliquées aux entrées. Cliquer sur le nom de l'entrée pour être redirigé et gérer les permissions de l'entrée. 
+Sélectionner un ***{{ fr.VLT }}*** pour ce rapport afin de répertorier toutes les permissions appliquées aux entrées. Cliquer sur le nom de l'entrée pour être redirigé et gérer les permissions de l'entrée. 
 
-![!!ServerOp4069.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4069.png) 
-
+![!!ServerOp4069.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4069.png)

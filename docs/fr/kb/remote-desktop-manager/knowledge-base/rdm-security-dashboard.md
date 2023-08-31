@@ -41,7 +41,7 @@ Voir <a href="/kb/devolutions-server/how-to-articles/configure-ssl/" target="_bl
 Description 
 		</td>
 		<td>
-Les journaux d'activité des coffres d’utilisateur ne sont pas activés par défaut et sont utiles en cas de réponse à un incident. 
+Les journaux d'activité des {{ fr.VLT }}s d’utilisateur ne sont pas activés par défaut et sont utiles en cas de réponse à un incident. 
 		</td>
 	</tr>
 	<tr>
@@ -91,7 +91,7 @@ L'ancienne sécurité a été dépréciée et sera complètement supprimée à p
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans <i><b>Administration – Paramètres système – Gestion des coffres – Paramètres de sécurité – Sécurité</b></i>, désactiver <i><b>Utiliser l'ancienne sécurité</b></i>. Voir <a href="/fr/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Migration de l'ancienne sécurité vers les permissions dans {{ fr.RDM }}</a>.
+Dans <i><b>Administration – Paramètres système – Gestion des {{ fr.VLT }}s – Paramètres de sécurité – Sécurité</b></i>, désactiver <i><b>Utiliser l'ancienne sécurité</b></i>. Voir <a href="/fr/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Migration de l'ancienne sécurité vers les permissions dans {{ fr.RDM }}</a>.
 		</td>
 	</tr>
 </table>
@@ -248,7 +248,7 @@ Dans Fichier - Options - Types - Bureau à distance, définir le Niveau d'authen
 	</tr>
 </table>
 
-### Les coffres devraient être créés avec des permissions restreintes par défaut
+### Les {{ fr.VLT }}s devraient être créés avec des permissions restreintes par défaut
 
 <table>
 	<tr>
@@ -256,7 +256,7 @@ Dans Fichier - Options - Types - Bureau à distance, définir le Niveau d'authen
 Description 
 		</td>
 		<td>
-Il est préférable de fournir des droits aux utilisateurs seulement au besoin. Lorsque vous activez cette option, {{ fr.RDM }} attribuera un ensemble de permissions plus limité aux utilisateurs lors de la création d’un coffre. 
+Il est préférable de fournir des droits aux utilisateurs seulement au besoin. Lorsque vous activez cette option, {{ fr.RDM }} attribuera un ensemble de permissions plus limité aux utilisateurs lors de la création d’un {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -264,7 +264,7 @@ Il est préférable de fournir des droits aux utilisateurs seulement au besoin. 
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - Paramètres de sécurité, cochez Créer un coffre avec un accès restreint par défaut. 
+Dans Administration - Paramètres du système - Paramètres de sécurité, cochez Créer un {{ fr.VLT }} avec un accès restreint par défaut. 
 		</td>
 	</tr>
 </table>

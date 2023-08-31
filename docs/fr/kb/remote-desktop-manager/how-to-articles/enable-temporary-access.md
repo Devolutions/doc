@@ -14,9 +14,9 @@ Ces paramètres sont uniquement disponibles pour les sources de données avancé
 ## Paramètres globaux d'accès temporaire
 
 Par défaut, l'***Accès temporaire*** est défini à ***Refusé*** dans {{ fr.RDM }}.
-1. Pour activer la fonctionnalité, accéder à ***Administration – Paramètres du coffre – Paramètres de sécurité – Accès temporaire***.
+1. Pour activer la fonctionnalité, accéder à ***Administration – Paramètres du {{ fr.VLT }} – Paramètres de sécurité – Accès temporaire***.
 
-![Administration – Paramètres du coffre – Paramètres de sécurité – Accès temporaire](https://webdevolutions.azureedge.net/docs/fr/kb/KB2082.png)
+![Administration – Paramètres du {{ fr.VLT }} – Paramètres de sécurité – Accès temporaire](https://webdevolutions.azureedge.net/docs/fr/kb/KB2082.png)
 
 2. Définir le ***Mode*** à ***Autorisé***.
 1. Facultatif : Définir les ***Autorisateurs*** à ***Personnalisé*** pour ajouter des utilisateurs à la liste des autorisateurs.

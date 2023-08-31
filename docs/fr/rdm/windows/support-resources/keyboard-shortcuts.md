@@ -158,7 +158,7 @@ Maj+F3
 	</tr>
 	<tr>
 		<td>
-Coffre 
+{{ fr.VLT }} 
 		</td>
 		<td>
 F6 
@@ -206,7 +206,7 @@ F11
 	</tr>
 	<tr>
 		<td>		
-Recherche multi-coffres... 
+Recherche multi-{{ fr.VLT }}s... 
 		</td>
 		<td>
 F12 
@@ -554,7 +554,7 @@ Ctrl+9
 	</tr>
 	<tr>
 		<td>
-Changer de coffre 
+Changer de {{ fr.VLT }} 
 		</td>
 		<td>
 Ctrl+Maj+R 

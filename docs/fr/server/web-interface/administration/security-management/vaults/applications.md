@@ -1,8 +1,8 @@
 ---
 title: Applications
 ---
-Permet d'assigner des clés d'applications au coffre.  
-![Coffres - Applications](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8071.png) 
+Permet d'assigner des clés d'applications au {{ fr.VLT }}.  
+![{{ fr.VLT }}s - Applications](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8071.png) 
 
 <table>
 	<tr>
@@ -18,7 +18,7 @@ Description
 Est membre 
 		</td>
 		<td>
-Lorsque coché, assigne le coffre au groupe d'utilisateurs. 
+Lorsque coché, assigne le {{ fr.VLT }} au groupe d'utilisateurs. 
 		</td>
 	</tr>
 </table>

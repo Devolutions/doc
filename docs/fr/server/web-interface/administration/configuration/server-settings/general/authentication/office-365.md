@@ -152,10 +152,10 @@ Définir le compte utilisateur comme compte en lecture seule.
 	</tr>
 	<tr>
 		<td>
-Coffre par défaut 
+{{ fr.VLT }} par défaut 
 		</td>
 		<td>
-Donner l'accès à ce coffre à l'utilisateur. 
+Donner l'accès à ce {{ fr.VLT }} à l'utilisateur. 
 		</td>
 	</tr>
 </table>

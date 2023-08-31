@@ -43,7 +43,7 @@ foreach ($vault in $vaults)
 {
     Set-RDMCurrentRepository -Repository $vault
     $vaultname = $vault.Name
-    Write-Host "Current vault is "$vaultname
+    Write-Host "Current Vault is "$vaultname
 
     # Get all entries' folder path
     $sessions = Get-RDMSession 

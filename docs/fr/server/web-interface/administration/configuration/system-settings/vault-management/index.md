@@ -1,10 +1,11 @@
 ---
-title: Gestion des coffres
-description: La section Gestion des coffres vous permet de définir des permissions par défaut et de créer des ensembles de permissions, ainsi que de forcer la location d'enregistrement des Paramètres de mon compte.
+eleventyComputed:
+  title: Gestion des {{ fr.VLT }}s
+  description: La section Gestion des {{ fr.VLT }}s vous permet de définir des permissions par défaut et de créer des ensembles de permissions, ainsi que de forcer la location d'enregistrement des Paramètres de mon compte.
 ---
-La section ***Gestion des coffres*** vous permet de définir des permissions par défaut et de créer des ensembles de permissions, ainsi que de forcer la location d'enregistrement des ***Paramètres de mon compte***.
+La section ***Gestion des {{ fr.VLT }}s*** vous permet de définir des permissions par défaut et de créer des ensembles de permissions, ainsi que de forcer la location d'enregistrement des ***Paramètres de mon compte***.
 
-![Administration – Paramètres du système – Gestion des coffres](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2046.png)
+![Administration – Paramètres du système – Gestion des {{ fr.VLT }}s](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2046.png)
 
 ## Permissions par défaut 
 <table>
@@ -69,7 +70,7 @@ Description
 Ajouter « + » 
 		</td>
 		<td>
-Permet de créer une liste personnalisée de permissions qui peut être appliqués aux permissions d'une entrée, d'un dossier ou d'un coffre en passant par la fonctionnalité <b><i>Accorder l'accès en lot</i></b>. Certains ensembles de permissions existent déjà par défaut.
+Permet de créer une liste personnalisée de permissions qui peut être appliqués aux permissions d'une entrée, d'un dossier ou d'un {{ fr.VLT }} en passant par la fonctionnalité <b><i>Accorder l'accès en lot</i></b>. Certains ensembles de permissions existent déjà par défaut.
 		</td>
 	</tr>
 </table>

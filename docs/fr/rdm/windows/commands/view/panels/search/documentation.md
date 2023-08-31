@@ -1,7 +1,7 @@
 ---
 title: Recherche dans la documentation
 ---
-Vous pouvez rechercher des pages de documentation liées aux entrées. La ***Recherche dans la documentation*** fournit un aperçu des pages de documentation, du titre de la page et des détails d'entrée associés. L'outil cherche dans le coffre actuel.  
+Vous pouvez rechercher des pages de documentation liées aux entrées. La ***Recherche dans la documentation*** fournit un aperçu des pages de documentation, du titre de la page et des détails d'entrée associés. L'outil cherche dans le {{ fr.VLT }} actuel.  
 
 {% snippet icon.badgeInfo %} 
 La ***Recherche dans la documentation*** est disponible avec les sources de données {{ fr.DVLS }} et SQL. 
@@ -60,6 +60,6 @@ Il est possible de sélectionner plusieurs entrées à la fois avec Maj+clic ou 
 
 ### Autres fonctionnalités 
 
-Le bouton ***Sélectionner dans le {{ fr.NPANE }}***, lorsqu'il est utilisé, vous renvoie directement à l'entrée ou au dossier sélectionné dans le ***{{ fr.NPANE }}*** du coffre sélectionné.  
+Le bouton ***Sélectionner dans le {{ fr.NPANE }}***, lorsqu'il est utilisé, vous renvoie directement à l'entrée ou au dossier sélectionné dans le ***{{ fr.NPANE }}*** du {{ fr.VLT }} sélectionné.  
 
 Le bouton ***Réinitialiser*** efface les résultats et options de recherche, ce qui vous permet de repartir à zéro pour une nouvelle recherche. 

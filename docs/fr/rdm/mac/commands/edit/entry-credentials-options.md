@@ -24,10 +24,10 @@ Cette option permet de saisir des identifiants personnalisés dans la section **
 	</tr>
 	<tr>
 		<td>
-Lié (Coffre)
+Lié ({{ fr.VLT }})
 		</td>
 		<td>
-Lier l'entrée pour utiliser une entrée d'***Identifiants*** existante dans le même coffre
+Lier l'entrée pour utiliser une entrée d'***Identifiants*** existante dans le même {{ fr.VLT }}
 		</td>
 	</tr>
 	<tr>

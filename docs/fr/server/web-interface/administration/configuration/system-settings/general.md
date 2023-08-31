@@ -156,7 +156,7 @@ Inclure les journaux du {{ fr.UVLT }} pour tous les usagers de la source de donn
 	</tr>
 	<tr>
 		<td>
-Permettre les identifiants « Liés (coffre) » dans le {{ fr.UVLT }} 
+Permettre les identifiants « Liés ({{ fr.VLT }}) » dans le {{ fr.UVLT }} 
 		</td>
 		<td>
 Autoriser le référentiel d'identifiants pour les sessions dans le {{ fr.UVLT }}. 
@@ -178,10 +178,10 @@ Description
 	</tr>
 	<tr>
 		<td>
-État du verrouillage du coffre 
+État du verrouillage du {{ fr.VLT }} 
 		</td>
 		<td>
-Créer un coffre avec un accès restreint par défaut. 
+Créer un {{ fr.VLT }} avec un accès restreint par défaut. 
 		</td>
 	</tr>
 	<tr>
@@ -200,7 +200,7 @@ Configuration d'événements
 * Par défaut (Activé) 
 * Activé 
 * Activé avec des avertissements 
-* Facultatif par coffre 
+* Facultatif par {{ fr.VLT }} 
 * Désactivé 
 		</td>
 	</tr>

@@ -1,8 +1,8 @@
 ---
 title: Usagers
 ---
-Permet d'assigner des utilisateurs au coffre.  
-![Coffres - Usagers](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8069.png) 
+Permet d'assigner des utilisateurs au {{ fr.VLT }}.  
+![{{ fr.VLT }}s - Usagers](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8069.png) 
 
 <table>
 	<tr>
@@ -18,7 +18,7 @@ Description
 Est membre 
 		</td>
 		<td>
-Lorsque coché, assigne le coffre à l'utilisateur. 
+Lorsque coché, assigne le {{ fr.VLT }} à l'utilisateur. 
 		</td>
 	</tr>
 </table>

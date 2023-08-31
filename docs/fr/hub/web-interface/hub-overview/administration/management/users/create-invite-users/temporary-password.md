@@ -24,7 +24,7 @@ L'utilisateur recevra un courriel d'invitation avec un lien vers le hub. Pour y 
 
 ### Gérer automatiquement le Mot de passe temporaire pour l'invité sans {{ fr.DA }} 
 
-Lorsque vous invitez un utilisateur qui n'a pas de {{ fr.DA }}, {{ fr.DHUB }} créera le compte et ajoutera l'utilisateur dans le coffre.  
+Lorsque vous invitez un utilisateur qui n'a pas de {{ fr.DA }}, {{ fr.DHUB }} créera le compte et ajoutera l'utilisateur dans le {{ fr.VLT }}.  
 
 Dans le processus, vous pouvez choisir de laisser {{ fr.DHUB }} gérer automatiquement le ***Mot de passe temporaire*** et l'envoyer via le courriel d'invitation.  
 ![!!Hub4186.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4186.png) 
@@ -36,7 +36,7 @@ Il leur sera rappelé de changer leur mot de passe.
 
 ### Gérer manuellement le Mot de passe temporaire pour l'invité sans {{ fr.DA }} 
 
-Lorsque vous invitez un utilisateur qui n'a pas de {{ fr.DA }}, {{ fr.DHUB }} créera le compte et ajoutera l'utilisateur dans le coffre.  
+Lorsque vous invitez un utilisateur qui n'a pas de {{ fr.DA }}, {{ fr.DHUB }} créera le compte et ajoutera l'utilisateur dans le {{ fr.VLT }}.  
 
 Dans le processus, vous pouvez choisir de gérer manuellement le ***Mot de passe temporaire*** de {{ fr.DHUB }}.  
 ![!!Hub4187.png](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4187.png) 

@@ -47,7 +47,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à créer des entrées dans le
 	</tr>
 	<tr>
 		<td>
-Paramètres du coffre 
+Paramètres du {{ fr.VLT }} 
 		</td>
 		<td>
 Autoriser les utilisateurs/groupes d'utilisateurs à accéder aux propriétés racines. 
@@ -208,10 +208,10 @@ Autoriser les utilisateurs/groupes d'utilisateurs à accéder à la gestion des 
 	</tr>
 	<tr>
 		<td>
-Coffres 
+{{ fr.VLT }}s 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à gérer les coffres. 
+Autoriser les utilisateurs/groupes d'utilisateurs à gérer les {{ fr.VLT }}s. 
 		</td>
 	</tr>
 	<tr>

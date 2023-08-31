@@ -38,14 +38,14 @@ Pour que l'héritage de la ***Source*** fonctionne, le paramètre ***Connexion -
 ***Les identifiants de la session en cours*** utiliseront les identifiants OTP définis dans la section de l'entrée ***Commun - Général - Identifiants***. Les options d'identifiants disponibles avec OTP sont [***Mes identifiants personnels***](/fr/rdm/windows/commands/file/my-account-settings/my-personal-credentials/), ***Mon compte privilégié*** et ***Intégré*** (ce mode est obsolète et non recommandé). 
 
 {% snippet icon.badgeCaution %} 
-Dans un environnement d'équipe, nous vous recommandons d'utiliser plutôt l'option <a href="#coffre">Lié (Coffre)</a> avec une entrée d'identifiant par ***Mot de passe à usage unique (OTP)***. 
+Dans un environnement d'équipe, nous vous recommandons d'utiliser plutôt l'option <a href="#coffre">Lié ({{ fr.VLT }})</a> avec une entrée d'identifiant par ***Mot de passe à usage unique (OTP)***. 
 {% endsnippet %}
  
 ![!!KB4047.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4047.png) 
 
-### Lié (Coffre) <a name="coffre"></a>
+### Lié ({{ fr.VLT }}) <a name="coffre"></a>
 
-Lier votre entrée pour utiliser une entrée d'identifiant à ***Mot de passe à usage unique (OTP)*** spécifique existant dans le même coffre. Il s'agit de la méthode privilégiée.  
+Lier votre entrée pour utiliser une entrée d'identifiant à ***Mot de passe à usage unique (OTP)*** spécifique existant dans le même {{ fr.VLT }}. Il s'agit de la méthode privilégiée.  
 
 ![!!KB4050.png](https://webdevolutions.azureedge.net/docs/fr/kb/KB4050.png) 
 

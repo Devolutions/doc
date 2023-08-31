@@ -66,7 +66,7 @@ Assigner des utilisateurs au groupe d'utilisateurs.
 		<td>
 		</td>
 		<td>
-Assigner un coffre au groupe d'utilisateur. 
+Assigner un {{ fr.VLT }} au groupe d'utilisateur. 
 		</td>
 	</tr>
 	<tr>

@@ -15,10 +15,10 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-Créer un coffre avec un accès restreint par défaut 
+Créer un {{ fr.VLT }} avec un accès restreint par défaut 
 		</td>
 		<td>
-Sécuriser automatiquement les paramètres du coffre lors de la création d'un coffre. Par conséquent, les paramètres d'autorisations sont définis sur ***Jamais***. 
+Sécuriser automatiquement les paramètres du {{ fr.VLT }} lors de la création d'un {{ fr.VLT }}. Par conséquent, les paramètres d'autorisations sont définis sur ***Jamais***. 
 		</td>
 	</tr>
 	<tr>

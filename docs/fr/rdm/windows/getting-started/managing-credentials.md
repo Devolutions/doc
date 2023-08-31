@@ -63,7 +63,7 @@ STRATÉGIE
 Un ensemble d'identifiants est utilisé par l'ensemble du personnel, que ce soit pour l'ensemble du système ou pour une branche de votre arborescence (client, département, etc.). 
 		</td>
 		<td>
-Définir les identifiants sur les [Paramètres du coffre](/fr/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/). Tous les enfants utilisent les identifiants héritées. 
+Définir les identifiants sur les [Paramètres du {{ fr.VLT }}](/fr/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/). Tous les enfants utilisent les identifiants héritées. 
 		</td>
 	</tr>
 	<tr>

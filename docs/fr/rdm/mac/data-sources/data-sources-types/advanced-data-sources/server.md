@@ -9,7 +9,7 @@ eleventyComputed:
 ![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
-{{ fr.DVLS }} est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr). 
+{{ fr.DVLS }} est un {{ fr.VLT }} autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr). 
 		</td>
 	</tr>
 </table>
@@ -129,7 +129,7 @@ Description
 Type de connexion 
 		</td>
 		<td>
-Si vous utilisez des {{ fr.UVLT }}, cliquer sur les flèches pour sélectionner votre Coffre.
+Si vous utilisez des {{ fr.UVLT }}, cliquer sur les flèches pour sélectionner votre {{ fr.VLT }}.
 		</td>
 	</tr>
 </table>

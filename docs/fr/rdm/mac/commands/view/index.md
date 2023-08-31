@@ -21,7 +21,7 @@ DESCRIPTION
 [{{ fr.VLT }}](/fr/rdm/mac/commands/view/vaults/) 
 		</td>
 		<td>
-Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le coffre actuel. 
+Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le {{ fr.VLT }} actuel. 
 		</td>
 	</tr>
 	<tr>
@@ -82,10 +82,10 @@ Recherchez des éléments dans votre base de données/source de données en util
 	</tr>
 	<tr>
 		<td>
-[Recherche multi-coffres](/fr/rdm/mac/commands/view/multi-vault-search/) 
+[Recherche multi-{{ fr.VLT }}s](/fr/rdm/mac/commands/view/multi-vault-search/) 
 		</td>
 		<td>
-Recherchez des articles dans plusieurs coffres-forts de votre base de données en utilisant des critères spécifiques. 
+Recherchez des articles dans plusieurs {{ fr.VLT }}s de votre base de données en utilisant des critères spécifiques. 
 		</td>
 	</tr>
 	<tr>

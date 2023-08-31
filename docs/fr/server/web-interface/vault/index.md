@@ -1,13 +1,14 @@
 ---
-title: Coffre
-order: 60
+eleventyComputed:
+  title: '{{ fr.VLT }}'
+  order: 60
 ---
 Les ***{{ fr.VLT }}s*** permettent aux utilisateurs de [Créer des entrées](/fr/server/web-interface/vault/entries/create-entries-manually/) et de gérer le contenu de la source de données. Les ***{{ fr.VLT }}s*** sont des conteneurs qui divisent la source de données en plusieurs compartiments.  
 
-Nous recommandons d'utiliser des coffres pour améliorer l'organisation et la sécurité. Les ***{{ fr.VLT }}s*** aident également a la performance car ils limitent le nombre d'entrées qui se chargent en même temps.  
+Nous recommandons d'utiliser des {{ fr.VLT }}s pour améliorer l'organisation et la sécurité. Les ***{{ fr.VLT }}s*** aident également a la performance car ils limitent le nombre d'entrées qui se chargent en même temps.  
 
 {% snippet icon.badgeHelp %} 
-Pour accéder à la gestion des {{ fr.VLT }} s, naviguer vers [Administration – Coffres](/fr/server/web-interface/administration/security-management/vaults/). 
+Pour accéder à la gestion des {{ fr.VLT }} s, naviguer vers [Administration – {{ fr.VLT }}s](/fr/server/web-interface/administration/security-management/vaults/). 
 {% endsnippet %}
  
 Les ***{{ fr.VLT }}s*** sont divisés en deux parties :  

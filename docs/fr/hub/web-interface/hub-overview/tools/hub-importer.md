@@ -28,5 +28,5 @@ Chaque ***Type d'importation*** a une ***Source*** d'importation différente. Me
 Dans l'éventualité où vous auriez besoin d'importer les ***Paramètres Spécifiques***, laisser la case ***Changer ID*** décochée dans la section ***Importer les paramètres***. 
 {% endsnippet %}
  
-7. Sélectionner le ***Coffre cible***. 
+7. Sélectionner le ***{{ fr.VLT }} cible***. 
 1. Cliquer ***Importer la sélection dans {{ fr.DHUB }}***. 

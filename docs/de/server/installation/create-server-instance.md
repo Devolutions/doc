@@ -65,7 +65,7 @@ Wir empfehlen nicht, den Installationsordner auf **C:\Programme** oder **C:\Prog
 ![!!Scheduler Warning](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8056.png)  
 1. Wählen Sie unter Wiederherstellungs-Set den Zielordner und den Dateinamen für die Datei des Wiederherstellungs-Sets von {{ de.DVLS }} aus. Legen Sie ein Passwort zum Schutz der Verschlüsselungsschlüssel fest. Wenn die Option Sensible Daten einbeziehen aktiviert ist, werden die SQL-Authentifizierungsinformationen in das Wiederherstellungs-Set aufgenommen. 
 {% snippet icon.shieldNotice %} 
-Wir empfehlen, die Datei des Wiederherstellungs-Sets in einem Tresor zu sichern, um Datenverlust zu vermeiden, falls {{ de.DVLS }} wiederhergestellt werden muss. 
+Wir empfehlen, die Datei des Wiederherstellungs-Sets in einem {{ de.VLT }} zu sichern, um Datenverlust zu vermeiden, falls {{ de.DVLS }} wiederhergestellt werden muss. 
 {% endsnippet %} 
 
 ![!!Backup the Encryption Keys Dialog](https://webdevolutions.azureedge.net/docs/de/server/clip10324.png)  

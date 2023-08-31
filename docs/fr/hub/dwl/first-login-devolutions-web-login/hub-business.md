@@ -25,9 +25,9 @@ Un accès à {{ fr.DHUBB }} est requis pour continuer.
 ![Connexion réussie au {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4053.png) 
 1. Cliquer sur l'icône dans la barre d'outils du navigateur Web pour valider que {{ fr.DWL }} est désormais connecté à {{ fr.DHUBB }}.  
 ![Association réussie de {{ fr.DHUBB }} à {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4058.png) 
-1. Pour sélectionner les coffres à synchroniser, cliquer sur l'onglet ***Coffres*** dans le ***Menu latéral***, puis cliquer sur le bouton ***Sélectionner des coffres à synchroniser***.  
-![Onglet Coffres](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4059.png) 
-1. Cliquer sur ***Sélectionner tout*** ou cocher individuellement les coffres à synchroniser. La barre de ***Filtre*** peut être utile pour rechercher des coffres.  
-![Sélection des coffres à synchroniser](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2014.png) 
-1. Lorsque les coffres ont été sélectionnés, cliquer sur ***Sélectionner des coffres à synchroniser*** en haut du panneau pour revenir en arrière et voir vos coffres synchronisés.  
-![Coffres synchronisés](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4060.png) 
+1. Pour sélectionner les {{ fr.VLT }}s à synchroniser, cliquer sur l'onglet ***{{ fr.VLT }}s*** dans le ***Menu latéral***, puis cliquer sur le bouton ***Sélectionner des {{ fr.VLT }}s à synchroniser***.  
+![Onglet {{ fr.VLT }}s](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4059.png) 
+1. Cliquer sur ***Sélectionner tout*** ou cocher individuellement les {{ fr.VLT }}s à synchroniser. La barre de ***Filtre*** peut être utile pour rechercher des {{ fr.VLT }}s.  
+![Sélection des {{ fr.VLT }}s à synchroniser](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2014.png) 
+1. Lorsque les {{ fr.VLT }}s ont été sélectionnés, cliquer sur ***Sélectionner des {{ fr.VLT }}s à synchroniser*** en haut du panneau pour revenir en arrière et voir vos {{ fr.VLT }}s synchronisés.  
+![{{ fr.VLT }}s synchronisés](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4060.png) 

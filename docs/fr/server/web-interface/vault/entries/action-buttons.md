@@ -109,7 +109,7 @@ Afficher plus d'options pour l'entrée sélectionnée :
 * ***Enregistrer comme modèle*** 
 * ***Historique des mots de passe*** 
 * ***Paramètres spécifiques de l'usager*** 
-* ***Déplacer vers le coffre*** 
+* ***Déplacer vers le {{ fr.VLT }}*** 
 * ***Exporter (.rdm)*** 
 * ***Dupliquer*** 
 * ***Supprimer*** 

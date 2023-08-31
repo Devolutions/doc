@@ -298,7 +298,7 @@ Ce paramètre désactive le déplacement des entrées par glisser-déposer. Util
 Fusionner la liste d'identifiants avec les sessions 
 		</td>
 		<td>
-Les identifiants apparaîtront dans la liste des sessions plutôt que dans leur propre coffre. 
+Les identifiants apparaîtront dans la liste des sessions plutôt que dans leur propre {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -306,7 +306,7 @@ Les identifiants apparaîtront dans la liste des sessions plutôt que dans leur 
 Fusionner la liste d'outils avec les sessions 
 		</td>
 		<td>
-La liste des outils de session apparaîtra dans la liste des sessions plutôt que dans leur propre coffre. 
+La liste des outils de session apparaîtra dans la liste des sessions plutôt que dans leur propre {{ fr.VLT }}. 
 		</td>
 	</tr>
 </table>

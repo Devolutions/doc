@@ -18,10 +18,9 @@ Cliquer avec le bouton droit sur une entrée dans le ***{{ fr.NPANE }}***, puis 
 
 ### Organiser les favoris 
 
-Les favoris ne répliquent pas nécessairement la structure de dossiers du coffre. Ajoutez des dossiers dans la vue favorite pour organiser vos entrées favorites.  
+Les favoris ne répliquent pas nécessairement la structure de dossiers du {{ fr.VLT }}. Ajoutez des dossiers dans la vue favorite pour organiser vos entrées favorites.  
 ![Bouton Nouveau dossier](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3580.png) 
 
 ### Superposition d'icônes 
-Si vous le souhaitez, une superposition d'icônes peut être affichée dans le coffre sur les entrées favorites. Pour afficher la superposition d'icônes, accéder à ***Fichier – Options – Interface utilisateur – Favoris***, puis activer l'option ***Afficher l'icône Favori dans l'arborescence***.  
-![Superposition d'icônes de favoris](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2058.png) 
-
+Si vous le souhaitez, une superposition d'icônes peut être affichée dans le {{ fr.VLT }} sur les entrées favorites. Pour afficher la superposition d'icônes, accéder à ***Fichier – Options – Interface utilisateur – Favoris***, puis activer l'option ***Afficher l'icône Favori dans l'arborescence***.  
+![Superposition d'icônes de favoris](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2058.png)

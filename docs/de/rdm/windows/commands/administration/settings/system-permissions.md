@@ -46,10 +46,10 @@ Erlaubt Nutzern/Nutzergruppen, Einträge in einem Stammordner zu erstellen.
 	</tr>
 	<tr>
 		<td>
-Tresor Einstellungen 
+{{ de.VLT }} Einstellungen 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen den Zugriff auf die Eigenschaften des Tresors. 
+Erlaubt Nutzern/Nutzergruppen den Zugriff auf die Eigenschaften des {{ de.VLT }}s. 
 		</td>
 	</tr>
 </table>
@@ -207,10 +207,10 @@ Erlaubt Nutzern/Nutzergruppen den Zugriff auf die Verwaltung der Nutzergruppen.
 	</tr>
 	<tr>
 		<td>
-Tresor 
+{{ de.VLT }} 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen die Verwaltung von Tresoren. 
+Erlaubt Nutzern/Nutzergruppen die Verwaltung von {{ de.VLT }}en. 
 		</td>
 	</tr>
 	<tr>

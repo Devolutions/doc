@@ -68,18 +68,18 @@ Choisir un format :
 	</tr>
 	<tr>
 		<td>
-Utiliser l'image du coffre dans l'arborescence 
+Utiliser l'image du {{ fr.VLT }} dans l'arborescence 
 		</td>
 		<td>
-Activer pour afficher les images des coffres dans le ***{{ fr.NPANE }}***. 
+Activer pour afficher les images des {{ fr.VLT }}s dans le ***{{ fr.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Désactiver la vue d'ensemble du tableau de bord du coffre 
+Désactiver la vue d'ensemble du tableau de bord du {{ fr.VLT }} 
 		</td>
 		<td>
-Désactiver la vue par défaut du tableau de bord des coffres. 
+Désactiver la vue par défaut du tableau de bord des {{ fr.VLT }}s. 
 		</td>
 	</tr>
 	<tr>

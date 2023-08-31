@@ -28,7 +28,7 @@ DESCRIPTION
 {{ fr.VLT }} 
 		</td>
 		<td>
-Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le [coffre](/fr/rdm/windows/commands/view/panels/vault/) actuel. 
+Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le [{{ fr.VLT }}](/fr/rdm/windows/commands/view/panels/vault/) actuel. 
 		</td>
 	</tr>
 	<tr>

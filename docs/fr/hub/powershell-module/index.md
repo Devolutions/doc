@@ -42,14 +42,14 @@ D'autres options d'installation se trouvent dans la [PowerShell Gallery](https:/
 
 ### Exemple de commande et utilisation 
 
-1. Avec la commande `Get-HubVault`, vous pouvez obtenir des coffres que l'utilisateur d'application peut afficher et modifier. 
+1. Avec la commande `Get-HubVault`, vous pouvez obtenir des {{ fr.VLT }}s que l'utilisateur d'application peut afficher et modifier. 
 {% snippet icon.badgeInfo %} 
-Si vous avez défini les permissions de l'utilisateur d'application sur plusieurs coffres, vous verrez un groupe de coffres. 
+Si vous avez défini les permissions de l'utilisateur d'application sur plusieurs {{ fr.VLT }}s, vous verrez un groupe de {{ fr.VLT }}s. 
 {% endsnippet %}
  
 ![Commande Get-HubVault](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4060.png) 
 
-2. Avec ces informations de coffre, vous pouvez obtenir toutes les entrées avec la commande `Get-HubEntry` et l'ID du coffre. 
+2. Avec ces informations de {{ fr.VLT }}, vous pouvez obtenir toutes les entrées avec la commande `Get-HubEntry` et l'ID du {{ fr.VLT }}. 
 
 {% snippet icon.badgeInfo %} 
 Si vous avez plus d'une entrée, vous verrez un groupe d'entrées. 

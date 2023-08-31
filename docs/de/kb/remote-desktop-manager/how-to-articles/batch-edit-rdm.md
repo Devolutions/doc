@@ -11,18 +11,18 @@ Im {{ de.RDM }} können Sie mit der Funktion ***[Stapelverarbeitung](/de/rdm/win
 Die zu bearbeitenden Einträge und Ordner können mit den folgenden Methoden ausgewählt werden. Wählen Sie diejenige aus, die Ihren Bedürfnissen am besten entspricht.  
 
 {% snippet icon.badgeNotice %}
-In der Praxis empfiehlt es sich, die ***[Erweiterte Suche](#advanced)*** oder die ***[Multi-Tresor-Suche](#multi)*** zu verwenden, da die manuelle Auswahl im ***Navigationsbereich*** zeitaufwändiger ist und das Risiko birgt, einige Einträge/Ordner zu vergessen. Die letztgenannte Methode kann nur empfohlen werden, wenn Sie nur wenige ausgewählte Einträge zu bearbeiten haben.  
+In der Praxis empfiehlt es sich, die ***[Erweiterte Suche](#advanced)*** oder die ***[Multi-{{ de.VLT }}-Suche](#multi)*** zu verwenden, da die manuelle Auswahl im ***Navigationsbereich*** zeitaufwändiger ist und das Risiko birgt, einige Einträge/Ordner zu vergessen. Die letztgenannte Methode kann nur empfohlen werden, wenn Sie nur wenige ausgewählte Einträge zu bearbeiten haben.  
 
 Unabhängig von der verwendeten Methode ist es empfehlenswert, für jede Stapelverarbeitung nur eine Eintragsart auszuwählen.
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
-Um die Informationen von Ordnern zu bearbeiten, MÜSSEN Sie die ***[Erweiterte Suche](#advanced)*** oder die ***[Multi-Tresor Suche](#multi)*** verwenden, um die Ordner auszuwählen. Wenn Sie die Ordner manuelle im ***Navigationsbereich*** auswählen, werden die Informationen in den untergeordneten Einträgen bearbeitet, NICHT die Informationen in den Ordnern selbst.
+Um die Informationen von Ordnern zu bearbeiten, MÜSSEN Sie die ***[Erweiterte Suche](#advanced)*** oder die ***[Multi-{{ de.VLT }} Suche](#multi)*** verwenden, um die Ordner auszuwählen. Wenn Sie die Ordner manuelle im ***Navigationsbereich*** auswählen, werden die Informationen in den untergeordneten Einträgen bearbeitet, NICHT die Informationen in den Ordnern selbst.
 {% endsnippet %}
 
 - [Manuelle Auswahl](#manual)
 - [Erweiterte Suche](#advanced)
-- [Multi-Tresor-Suche](#multi)
+- [Multi-{{ de.VLT }}-Suche](#multi)
 
 ### Manuelle Auswahl 
 <a name="manual"></a>
@@ -34,12 +34,12 @@ Gehen Sie für die nächsten Schritte zum Bereich [Stapelbearbeitungs-Aktionen](
 ### Erweiterte Suche
 <a name="advanced"></a>
 
-Mit der Funktion ***[Erweiterte Suche](/rdm/windows/commands/view/panels/search/advanced/)*** können Sie den aktuell ausgewählten Tresor durchsuchen.  
+Mit der Funktion ***[Erweiterte Suche](/rdm/windows/commands/view/panels/search/advanced/)*** können Sie den aktuell ausgewählten {{ de.VLT }} durchsuchen.  
 ![Erweiterte Suche](https://webdevolutions.azureedge.net/docs/de/kb/KB2108.png) 
 1. Gehen Sie im {{ de.RDM }} zu ***Ansicht – Suche – Erweiterte Suche*** oder drücken Sie die Taste F11. 
 1. Wählen und bestimmen Sie auf der Registerkarte ***Suchen*** im Fenster ***Erweiterte Suche*** die Kriterien, nach denen Ihre Suche gefiltert werden soll. Auf der Registerkarte ***Einstellungen*** sind weitere Suchparameter verfügbar. Wenn Sie fertig sind, klicken Sie bitte auf ***Suche***. 
 {% snippet icon.badgeInfo %}
-Um Ihre Suche nach Ordnertyp zu filtern, müssen Sie die Funktion ***Erweiterte Suche*** verwenden, da diese Funktion in der ***Multi-Tresor-Suche*** nicht verfügbar ist. Suchen Sie nach ***Verbindungsart*** und wählen Sie in der Drop-Down-Liste daneben den Ordnertyp aus.
+Um Ihre Suche nach Ordnertyp zu filtern, müssen Sie die Funktion ***Erweiterte Suche*** verwenden, da diese Funktion in der ***Multi-{{ de.VLT }}-Suche*** nicht verfügbar ist. Suchen Sie nach ***Verbindungsart*** und wählen Sie in der Drop-Down-Liste daneben den Ordnertyp aus.
 {% endsnippet %}  
  
 3. Wählen Sie die Einträge/Ordner aus, die Sie bearbeiten möchten. Um alle auszuwählen, klicken Sie auf eine beliebige Stelle im Ergebnisfeld und verwenden Sie die Tastenkombination Strg+A 
@@ -47,13 +47,13 @@ Um Ihre Suche nach Ordnertyp zu filtern, müssen Sie die Funktion ***Erweiterte 
 
 Gehen Sie für die nächsten Schritte zum Bereich [Stapelverarbeitungs-Aktionen](#edit) oder lesen Sie weiter über die anderen Auswahlmethoden.
 
-### Multi-Tresor-Suche
+### Multi-{{ de.VLT }}-Suche
 <a name="multi"></a>
 
-![Multi-Tresor-Suche](https://webdevolutions.azureedge.net/docs/de/kb/KB2109.png)  
-Mit der Funktion [***Multi-Tresor-Suche***](/rdm/windows/commands/view/panels/search/multi-vault/) können Sie in allen Tresoren der ausgewählten Datenbank gleichzeitig suchen.  
+![Multi-{{ de.VLT }}-Suche](https://webdevolutions.azureedge.net/docs/de/kb/KB2109.png)  
+Mit der Funktion [***Multi-{{ de.VLT }}-Suche***](/rdm/windows/commands/view/panels/search/multi-vault/) können Sie in allen {{ de.VLT }}en der ausgewählten Datenbank gleichzeitig suchen.  
 
-1. Gehen Sie im {{ de.RDM }} zu ***Ansicht – Suche – Multi-Tresor-Suche*** oder drücken Sie die Taste F12. 
+1. Gehen Sie im {{ de.RDM }} zu ***Ansicht – Suche – Multi-{{ de.VLT }}-Suche*** oder drücken Sie die Taste F12. 
 1. Wählen und bestimmen Sie die Kriterien zum Filtern Ihrer Suche, klicken Sie dann auf ***Suche***. 
 {% snippet icon.badgeInfo %} 
 Um Ihre Suche nach Ordnertyp zu filtern, müssen Sie die Funktion ***[Erweiterte Suche](#advanced)*** verwenden. 

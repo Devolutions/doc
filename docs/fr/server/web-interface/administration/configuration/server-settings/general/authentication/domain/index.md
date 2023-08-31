@@ -142,10 +142,10 @@ Choisir entre Utilisateur et Utilisateur lecture seulement. Lorsque cette option
 	</tr>
 	<tr>
 		<td>
-Coffre par défaut 
+{{ fr.VLT }} par défaut 
 		</td>
 		<td>
-Donner l'accès à ce coffre à l'utilisateur. 
+Donner l'accès à ce {{ fr.VLT }} à l'utilisateur. 
 		</td>
 	</tr>
 	<tr>

@@ -9,7 +9,7 @@ Avec un document crypté sécurisé, vous pouvez envoyer librement les informati
  
 ## Paramètres 
 
-Sélectionner les entrées à exporter ou exporter le coffre. Cliquer avec le bouton droit et sélectionner ***Exporter - Exportation spéciale - Exporter la sélection (.html)*** ou utiliser ***Fichier - Exporter - Exporter le coffre (.html)***. Vous serez invité à saisir un mot de passe pour la clé de cryptage symétrique. Sélectionner le nom de fichier du nouveau document. Une fois l'exportation terminée, le fichier s'ouvrira dans votre navigateur par défaut. 
+Sélectionner les entrées à exporter ou exporter le {{ fr.VLT }}. Cliquer avec le bouton droit et sélectionner ***Exporter - Exportation spéciale - Exporter la sélection (.html)*** ou utiliser ***Fichier - Exporter - Exporter le {{ fr.VLT }} (.html)***. Vous serez invité à saisir un mot de passe pour la clé de cryptage symétrique. Sélectionner le nom de fichier du nouveau document. Une fois l'exportation terminée, le fichier s'ouvrira dans votre navigateur par défaut. 
 
 {% snippet icon.badgeWarning %} 
 Assurez-vous de ne pas oublier le mot de passe, car vous ne pourrez pas décrypter les données sans lui. 

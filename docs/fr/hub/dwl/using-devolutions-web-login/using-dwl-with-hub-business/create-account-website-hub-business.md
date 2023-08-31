@@ -36,8 +36,7 @@ Vos paramètres de mot de passe sont maintenant configurés.
 1. Suivre le reste des étapes d'enregistrement du site Web jusqu'à ce que la fenêtre ***Ajouter un site Web*** de {{ fr.DWL }} apparaisse dans le coin du navigateur Web.  
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2101.png) 
 1. Saisir un ***Nom*** pour l'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu'il reflète le contenu de l'entrée pour la retrouver plus facilement au besoin. 
-1. Sélectionner le ***Coffre*** et le ***Dossier*** dans lesquels sauvegarder l'entrée de site Web. 
+1. Sélectionner le ***{{ fr.VLT }}*** et le ***Dossier*** dans lesquels sauvegarder l'entrée de site Web. 
 1. Cliquer sur ***Enregistrer***.  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DHUBB }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/). 
-
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DHUBB }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/).

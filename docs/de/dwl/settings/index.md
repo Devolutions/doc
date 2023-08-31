@@ -68,10 +68,10 @@ Kommunikation zwischen den Anwendungen über den Standard-Port 19443.
 	</tr>
 	<tr>
 		<td>
-Eintrag standardmäßig im Nutzertresor hinzufügen 
+Eintrag standardmäßig im {{ de.UVLT }} hinzufügen 
 		</td>
 		<td>
-Neue Einträge im Nutzertresor speichern. 
+Neue Einträge im {{ de.UVLT }} speichern. 
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +79,7 @@ Neue Einträge im Nutzertresor speichern.
 Zielordner 
 		</td>
 		<td>
-Ordner auswählen, in dem die Anmeldeinformationen im Tresor gespeichert werden. 
+Ordner auswählen, in dem die Anmeldeinformationen im {{ de.VLT }} gespeichert werden. 
 		</td>
 	</tr>
 </table>
@@ -183,7 +183,7 @@ Einträge von {{ de.DVLS }} abrufen.
 Zielordner 
 		</td>
 		<td>
-Ordner auswählen, in dem die Anmeldeinformationen im Tresor gespeichert werden. 
+Ordner auswählen, in dem die Anmeldeinformationen im {{ de.VLT }} gespeichert werden. 
 		</td>
 	</tr>
 	<tr>
@@ -255,10 +255,10 @@ Legen Sie einen Standard-Vergleichstyp fest zwischen <b><i>Basis-Domain</b></i>,
 	</tr>
 	<tr>
 		<td>
-Alle verfügbaren Tresore synchronisieren 
+Alle verfügbaren {{ de.VLT }}e synchronisieren 
 		</td>
 		<td>
-Synchronisiert alle verfügbaren Tresore von {{ de.DVLS }}. 
+Synchronisiert alle verfügbaren {{ de.VLT }}e von {{ de.DVLS }}. 
 		</td>
 	</tr>
 </table>
@@ -373,10 +373,10 @@ Legen Sie einen Standard-Vergleichstyp fest zwischen <b><i>Basis-Domain</b></i>,
 	</tr>
 	<tr>
 		<td>
-Alle verfügbaren Tresore synchronisieren (nur mit {{ de.DHUBB }} verfügbar) 
+Alle verfügbaren {{ de.VLT }}e synchronisieren (nur mit {{ de.DHUBB }} verfügbar) 
 		</td>
 		<td>
-Synchronisiert alle verfügbaren Tresore von {{ de.DHUBB }}. 
+Synchronisiert alle verfügbaren {{ de.VLT }}e von {{ de.DHUBB }}. 
 		</td>
 	</tr>
 </table>

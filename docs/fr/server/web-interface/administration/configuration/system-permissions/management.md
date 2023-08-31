@@ -32,10 +32,10 @@ Autoriser les utilisateurs/groupes d'utilisateurs à accéder à la gestion des 
 	</tr>
 	<tr>
 		<td>
-Coffre 
+{{ fr.VLT }} 
 		</td>
 		<td>
-Autoriser les utilisateurs/groupes d'utilisateurs à accéder à la gestion du coffre. 
+Autoriser les utilisateurs/groupes d'utilisateurs à accéder à la gestion du {{ fr.VLT }}. 
 		</td>
 	</tr>
 	<tr>

@@ -10,7 +10,7 @@ En fonction des permissions dont dispose chaque utilisateur, il se peut qu'il ne
  
 ### Recherche 
 
-Toutes les activités dans la source de données s'affichent automatiquement lors de l'ouverture des ***Journaux d'activité***, sans avoir à appliquer de paramètres. Toutefois, des champs de recherche sont disponibles et peuvent s'avérer utiles lorsqu'il y a beaucoup d'entrées d'activités. Ainsi, les résultats peuvent être affinés en spécifiant la ***Date*** ou une période personnalisée, le ***Nom d'utilisateur***, le ***Message***, le ***Nom de l'ordinateur***, le ***Dossier***, le ***Commentaire d'ouverture***, le ***Commentaire de fermeture*** et le ***Billet #***. Sélectionnez ***Tous les coffres*** pour voir les entrées de tous les autres coffres auxquels vous avez accès. Il est également possible de choisir entre l'***Heure locale*** et l'***Heure UTC*** et de rechercher dans tous les coffres ou seulement dans le coffre actuel. Lorsque tous les critères ont été choisis, le bouton ***Recherche*** les appliquera aux résultats.  
+Toutes les activités dans la source de données s'affichent automatiquement lors de l'ouverture des ***Journaux d'activité***, sans avoir à appliquer de paramètres. Toutefois, des champs de recherche sont disponibles et peuvent s'avérer utiles lorsqu'il y a beaucoup d'entrées d'activités. Ainsi, les résultats peuvent être affinés en spécifiant la ***Date*** ou une période personnalisée, le ***Nom d'utilisateur***, le ***Message***, le ***Nom de l'ordinateur***, le ***Dossier***, le ***Commentaire d'ouverture***, le ***Commentaire de fermeture*** et le ***Billet #***. Sélectionnez ***Tous les {{ fr.VLT }}s*** pour voir les entrées de tous les autres {{ fr.VLT }}s auxquels vous avez accès. Il est également possible de choisir entre l'***Heure locale*** et l'***Heure UTC*** et de rechercher dans tous les {{ fr.VLT }}s ou seulement dans le {{ fr.VLT }} actuel. Lorsque tous les critères ont été choisis, le bouton ***Recherche*** les appliquera aux résultats.  
 ![Champs de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10252.png) 
 
 ### Journaux 
@@ -48,10 +48,10 @@ Indique la connexion utilisée pour ouvrir votre entrée.
 	</tr>
 	<tr>
 		<td>
-Coffre 
+{{ fr.VLT }} 
 		</td>
 		<td>
-Indique le coffre dans lequel l'action a été effectuée. 
+Indique le {{ fr.VLT }} dans lequel l'action a été effectuée. 
 		</td>
 	</tr>
 	<tr>

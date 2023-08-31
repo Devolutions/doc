@@ -59,5 +59,5 @@ Une fois les droits accordés, ils peuvent être limités avec le [Contrôle d'a
 La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 {% endsnippet %}  
 
-Le droit ***Ajouter*** affiche également l'option ***Ajouter au coffre***. Cela doit être activé pour que les utilisateurs puissent ajouter des entrées dans le coffre de la source de données.  
+Le droit ***Ajouter*** affiche également l'option ***Ajouter au {{ fr.VLT }}***. Cela doit être activé pour que les utilisateurs puissent ajouter des entrées dans le {{ fr.VLT }} de la source de données.  
 ![Gestion des utilisateurs - Droits](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3424.png) 

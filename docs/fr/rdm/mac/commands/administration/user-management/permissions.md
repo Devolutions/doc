@@ -59,7 +59,7 @@ Permets à l'utilisateur de supprimer des entrées dans un dossier pour ce group
 </table>
 
 {% snippet icon.shieldWarning %} 
-Pour une sécurité plus élevée, il est recommandé de définir des groupes de sécurité sur tous les dossiers de niveau coffre. Cela garantit qu'il n'y a pas de dossiers publics et que vous avez un bon contrôle sur l'activité de votre système. 
+Pour une sécurité plus élevée, il est recommandé de définir des groupes de sécurité sur tous les dossiers de niveau {{ fr.VLT }}. Cela garantit qu'il n'y a pas de dossiers publics et que vous avez un bon contrôle sur l'activité de votre système. 
 {% endsnippet %}
  
 Tous les groupes de sécurité sont répertoriés dans la grille et vous pouvez attribuer des permissions à l'aide des colonnes correspondantes. 
