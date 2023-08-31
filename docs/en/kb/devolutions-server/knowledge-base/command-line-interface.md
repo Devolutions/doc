@@ -15,7 +15,7 @@ Listed below are the available command line:
 
 `-v or --vault`
 
-The default vault id to use for the other commands: 0000000-0000-0000-0000-000000000000 
+The default {{ en.VLT }} id to use for the other commands: 0000000-0000-0000-0000-000000000000 
 
 `-s or --server`
 

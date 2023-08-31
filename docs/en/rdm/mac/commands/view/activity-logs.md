@@ -9,7 +9,7 @@ Depending on the permissions each user has, they may only be able to access ***L
 {% endsnippet %}
  
 ### Search 
-All activities in the data source are automatically displayed when opening the ***Activity Logs*** without having to apply any settings. However, search fields are available and can be useful when there are many activity entries. The results can be refined by specifying the ***Date*** or a custom period, the ***Username***, the ***Message***, the ***Host***, the ***Folder***, the ***On open comment*** and the ***On close comment***. It is also possible to choose between ***Local Time***, ***Original Time*** and ***UTC Time*** and to search in all vaults or in the current vault only. When all the criteria have been chosen, the ***Search*** button will apply them to the results.  
+All activities in the data source are automatically displayed when opening the ***Activity Logs*** without having to apply any settings. However, search fields are available and can be useful when there are many activity entries. The results can be refined by specifying the ***Date*** or a custom period, the ***Username***, the ***Message***, the ***Host***, the ***Folder***, the ***On open comment*** and the ***On close comment***. It is also possible to choose between ***Local Time***, ***Original Time*** and ***UTC Time*** and to search in all {{ en.VLT }}s or in the current {{ en.VLT }} only. When all the criteria have been chosen, the ***Search*** button will apply them to the results.  
 ![Activity Logs Search Fields](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0041.png) 
 
 ### Logs 

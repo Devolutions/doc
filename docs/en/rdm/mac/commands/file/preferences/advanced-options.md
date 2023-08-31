@@ -175,7 +175,7 @@ The file icon will be “deduced“ from the file extension rather than asking t
 	</tr>
 	<tr>
 		<td>
-Use vault image in tree view 
+Use {{ en.VLT }} image in tree view 
 		</td>
 		<td>
 The image of the {{ en.VLT }} will be displayed next the {{ en.VLT }} name in the ***{{ en.NPANE }}***. 

@@ -53,7 +53,7 @@ Host
 		</td>
 		<td>
 
-Select in the drop-down list how {{ en.DWL }} will fetch the host between ***Custom***, ***Linked (Vault)***, or ***Inherited***. If you select ***Custom***, the ***URL*** field (see below) will appear. If you select ***Linked (Vault)***, a drop-down list will appear in which you will be able to select the host. 
+Select in the drop-down list how {{ en.DWL }} will fetch the host between ***Custom***, ***Linked ({{ en.VLT }})***, or ***Inherited***. If you select ***Custom***, the ***URL*** field (see below) will appear. If you select ***Linked ({{ en.VLT }})***, a drop-down list will appear in which you will be able to select the host. 
 		</td>
 	</tr>
 	<tr>
@@ -69,7 +69,7 @@ Enter the URL of the website’s login page. This field is automatically filled 
 Credentials 
 		</td>
 		<td>
-Select in the drop-down list between ***Custom***, ***Linked (Vault)***, ***Inherited***, ***My personal credentials***, or ***None*** to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
+Select in the drop-down list between ***Custom***, ***Linked ({{ en.VLT }})***, ***Inherited***, ***My personal credentials***, or ***None*** to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
 		</td>
 	</tr>
 	<tr>
@@ -433,7 +433,7 @@ Source
 		</td>
 		<td>
 
-Select in the drop-down list between ***None***, ***Custom***, ***Linked (Vault)***, ***Current session***, ***Prompt***, or ***Inherited***. Selecting ***Custom*** gives you access to the other settings in this table. 
+Select in the drop-down list between ***None***, ***Custom***, ***Linked ({{ en.VLT }})***, ***Current session***, ***Prompt***, or ***Inherited***. Selecting ***Custom*** gives you access to the other settings in this table. 
 		</td>
 	</tr>
 	<tr>

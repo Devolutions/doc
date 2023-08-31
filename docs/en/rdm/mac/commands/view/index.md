@@ -21,7 +21,7 @@ DESCRIPTION
 [{{ en.VLT }}](/rdm/mac/commands/view/vaults/) 
 		</td>
 		<td>
-Access the view mode of the ***{{ en.NPANE }}*** for the current vault. 
+Access the view mode of the ***{{ en.NPANE }}*** for the current {{ en.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -82,10 +82,10 @@ Search items through your database/data source using specific criteria.
 	</tr>
 	<tr>
 		<td>
-[Multi Vault Search](/rdm/mac/commands/view/multi-vault-search/) 
+[Multi {{ en.VLT }} Search](/rdm/mac/commands/view/multi-vault-search/) 
 		</td>
 		<td>
-Search items through multiple vaults in your database using specific criteria. 
+Search items through multiple {{ en.VLT }}s in your database using specific criteria. 
 		</td>
 	</tr>
 	<tr>

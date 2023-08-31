@@ -1,8 +1,8 @@
 ---
-title: Export All Vaults
+eleventyComputed:
+  title: Export All {{ en.VLT }}s
 ---
-The ***Export All Vaults (.rdx)*** function lets you export one or more vaults at a time. Learn how in this [topic](/kb/remote-desktop-manager/how-to-articles/export-import-vaults/).  
+The ***Export All {{ en.VLT }}s (.rdx)*** function lets you export one or more {{ en.VLT }}s at a time. Learn how in [Export and import {{ en.VLT }}s](/kb/remote-desktop-manager/how-to-articles/export-import-vaults/).  
 ![!!RdmWin2001.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin2001.png) 
 
-To learn more about other export functions, see our [Export](/rdm/windows/commands/file/export/) topic. 
-
+To learn more about other export functions, see [Export](/rdm/windows/commands/file/export/).

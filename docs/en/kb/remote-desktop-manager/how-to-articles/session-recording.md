@@ -11,7 +11,7 @@ Session recording provides a record of what a user did while a remote connection
 Session recording is available in {{ en.RDM }} 2019.1.3.0 and above.
 {% endsnippet %}
  
-You can configure session recording at the vault, folder or entry level and they can be optional or required. 
+You can configure session recording at the {{ en.VLT }}, folder or entry level and they can be optional or required. 
 
 {% snippet icon.badgeCaution %}
 Session recording is only available in embedded mode.
@@ -35,7 +35,7 @@ Session recording is only available in embedded mode.
 
 ## Configure Session Recording 
 
-1. Open ***Vault Settings*** or ***Properties*** at folder or entry level.
+1. Open ***{{ en.VLT }} Settings*** or ***Properties*** at folder or entry level.
 1. In the ***Security*** section, click ***Session Recording***.
 1. Choose a ***Mode***.
 * ***Inherited***: Setting is inherited from parent folder.
@@ -43,7 +43,7 @@ Session recording is only available in embedded mode.
 * ***Required***: Recording starts automatically. If there is an issue with recording the session does not open.
 * ***Required (When Available)***: Recording starts automatically. If there is an issue with the recording, the session will launch and no recording will be available. 
 * ***Never***: Session recording is turned off. 
-* ***Root (Default)***: Refers to vault. Default on vault means ***Never***. 
+* ***Root (Default)***: Refers to {{ en.VLT }}. Default on {{ en.VLT }} means ***Never***. 
 4. Choose the ***Recording*** method. 
 {% snippet icon.badgeNotice %} 
 Some options are only available with a {{ en.DVLS }} data source. 

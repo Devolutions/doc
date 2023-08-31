@@ -25,7 +25,7 @@ The user will receive an invitation email with a link to {{ en.DHUB }}. To acces
 
 ### Automatically handle temporary password for invitee with no {{ en.DA }} 
 
-When inviting a user who does not have a {{ en.DA }}, {{ en.DHUB }} will create the account and add the user in the vault.  
+When inviting a user who does not have a {{ en.DA }}, {{ en.DHUB }} will create the account and add the user in the {{ en.VLT }}.  
 
 In the process, you can choose to let {{ en.DHUB }} automatically handle the ***Temporary Password*** and send it via the invitation email.  
 ![!!Hub4186.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4186.png)  
@@ -37,7 +37,7 @@ They will be reminded to change their password.
 
 ### Manually handle temporary password for invitee with no {{ en.DA }} 
 
-When inviting a user who does not have a {{ en.DA }}, {{ en.DHUB }} will create the account and add the user in the vault.  
+When inviting a user who does not have a {{ en.DA }}, {{ en.DHUB }} will create the account and add the user in the {{ en.VLT }}.  
 
 In the process, you can choose to manually handle the ***Temporary Password*** from {{ en.DHUB }}.  
 ![!!Hub4189.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4189.png)  

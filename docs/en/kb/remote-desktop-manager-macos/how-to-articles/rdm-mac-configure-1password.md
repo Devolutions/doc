@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 You can create 1Password credential entries in {{ en.RDMMAC }}. However, 1Password needs to be configured to allow the synchronization of the database.  
 
-1. Open 1Password and select the vault that you want to sync with {{ en.RDMMAC }}.  
+1. Open 1Password and select the {{ en.VLT }} that you want to sync with {{ en.RDMMAC }}.  
 ![!!KB4184.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4184.png)
 1. Click on ***1Password 5*** and select ***Preferences***.  
 ![!!KB4185.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4185.png)

@@ -46,7 +46,7 @@ There is a limitation with the Rest API, you cannot have 2FA with Windows Authen
 <i>Credential Selection</i> 
     </ol>
   </li>
-  <li>In the session you want to use the <b><i>Secret Server</i></b> credentials with (RDP, etc.), you select the <b><i>Credentials</i></b> you created with <b><i>Linked (Vault)</i></b>, and then you can click the <b><i>Select from List</i></b> to specify the account you wish to use. </li>
+  <li>In the session you want to use the <b><i>Secret Server</i></b> credentials with (RDP, etc.), you select the <b><i>Credentials</i></b> you created with <b><i>Linked ({{ en.VLT }})</i></b>, and then you can click the <b><i>Select from List</i></b> to specify the account you wish to use. </li>
 
 ![Credentials – Select from list](https://webdevolutions.azureedge.net/docs/en/kb/KB4059.png) 
 

@@ -15,7 +15,7 @@ The first method is done directly <a href="#Export/Import Through {{ en.RDM }}">
 1. In {{ en.RDM }}, select your data source in the ***{{ en.NPANE }}***.
 
    {% snippet icon.badgeNotice %}
-   To export the entire vault, go to ***File – Export – Export Vault (.rdm)*** and skip to <a href="#step4">step 4</a>
+   To export the entire {{ en.VLT }}, go to ***File – Export – Export {{ en.VLT }} (.rdm)*** and skip to <a href="#step4">step 4</a>
    {% endsnippet %}
 
 1. Select the entries and/or folders you wish to export. Use the Ctrl+click shortcut to select multiple items at once.
@@ -34,11 +34,11 @@ The first method is done directly <a href="#Export/Import Through {{ en.RDM }}">
 
 1. Click ***OK***.
 1. Save the **.rdm** file on your computer.
-1. In the ***{{ en.NPANE }}***, select the data source and vault in which to import the entries.
+1. In the ***{{ en.NPANE }}***, select the data source and {{ en.VLT }} in which to import the entries.
 1. Right-click on the folder and select ***Import – Import (.rdm)***.
 ![Import (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4999.png)
    {% snippet icon.badgeNotice %}
-   You can import the entire vault in ***File – Import – Import (.rdm)***.
+   You can import the entire {{ en.VLT }} in ***File – Import – Import (.rdm)***.
    {% endsnippet %}  
 
 1. Locate the **.rdm** file saved on your computer and click ***Open***.

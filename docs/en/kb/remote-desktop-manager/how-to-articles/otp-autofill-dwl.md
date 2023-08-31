@@ -22,7 +22,7 @@ For this topic, we will be using Google Chrome to inspect the field.
    - a ***Website (Legacy)*** information session entry in the ***More Settings - One time password***..  
       ![!!KB4820.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4820.png)  
 {% snippet icon.badgeInfo %}
-If your ***Credentials*** are set to ***Linked (Vault)***, you also need to configure and set the ***One Time Password (OTP)*** link in the ***General*** tab section.
+If your ***Credentials*** are set to ***Linked ({{ en.VLT }})***, you also need to configure and set the ***One Time Password (OTP)*** link in the ***General*** tab section.
 {% endsnippet %}  
 
 6. Click ***OK*** to save.

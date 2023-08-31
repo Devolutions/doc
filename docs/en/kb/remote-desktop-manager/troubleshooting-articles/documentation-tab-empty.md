@@ -4,7 +4,7 @@ title: Documentation tab is empty
 The ***Documentation*** tab, in an entry, is empty although you have ***Reset the layout*** in the ***Window*** tab.  
 ![!!KB4705.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4705.png)
 ## Solution
-First validate that you are allowed to ***View documentation*** in ***Administration - Vault Settings - Permissions - Documentation - View documentation***.  
+First validate that you are allowed to ***View documentation*** in ***Administration - {{ en.VLT }} Settings - Permissions - Documentation - View documentation***.  
 
 If all is good, it might be due to your server having the IE Enhanced Security Configuration option enabled. This could prevent and block the document from loading. You would need to disable it, but we would advise you to retain the enhanced protection.  
 

@@ -165,7 +165,7 @@ Cons:
 {{ en.DHUBB }} 
 		</td>
 		<td>
-{{ en.RDMMAC }} connects to the {{ en.DHUBB }} vault.  
+{{ en.RDMMAC }} connects to the {{ en.DHUBB }} {{ en.VLT }}.  
 
 Note that there are different subscription levels for this product.  
 

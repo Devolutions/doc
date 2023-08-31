@@ -3,7 +3,7 @@ eleventyComputed:
   title: Create your {{ en.DHUBP }}
 ---
 {% snippet icon.badgeInfo %}
-{{ en.DHUBP }} is free, create your [vault](https://password.devolutions.net/personal) today.
+{{ en.DHUBP }} is free, create your [{{ en.VLT }}](https://password.devolutions.net/personal) today.
 {% endsnippet %}
 
 1. Access the [{{ en.DPORTAL }}](https://portal.devolutions.com/hub-personal) section of your {{ en.DA }} to create your {{ en.DHUBP }}.

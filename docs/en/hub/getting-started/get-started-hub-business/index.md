@@ -22,14 +22,14 @@ Description
 	<tr>
 		<td>
 
-Step 1 - Setting up ***User Groups*** and ***Vaults***  
+Step 1 - Setting up ***User Groups*** and ***{{ en.VLT }}s***  
 
 * [Invite an Administrator](/hub/web-interface/hub-overview/administration/management/users/administrator-invite/) 
 * [Create User Groups](/hub/web-interface/hub-overview/administration/management/user-groups/create-manage-user-groups/) 
-* [Create Vaults and Assign Permissions](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) 
+* [Create {{ en.VLT }}s and sssign permissions](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) 
 		</td>
 		<td>
-In this video, we will demonstrate the proper configuration for {{ en.DHUBB }} as well as best practices for inviting an ***Administrator***, creating ***User Groups***, as well as setting up ***Shared Vaults***, and assigning them ***Roles*** and ***Permissions***.  
+In this video, we will demonstrate the proper configuration for {{ en.DHUBB }} as well as best practices for inviting an ***Administrator***, creating ***User Groups***, as well as setting up ***Shared {{ en.VLT }}s***, and assigning them ***Roles*** and ***Permissions***.  
 
 {% youtube 'fRW0FnnaGkc' %}  
 		</td>
@@ -50,7 +50,7 @@ With this video, we will demonstrate how to add ***Users*** to your {{ en.DHUBB 
 	<tr>
 		<td>
 
-Step 3 - Filling ***Vaults*** with content  
+Step 3 - Filling ***{{ en.VLT }}s*** with content  
 
 * [Create entries manually](/hub/web-interface/hub-overview/entries/create-entries-manually/) 
 * [Import entries with {{ en.DHUBI }}](/hub/web-interface/hub-overview/tools/hub-importer/) 

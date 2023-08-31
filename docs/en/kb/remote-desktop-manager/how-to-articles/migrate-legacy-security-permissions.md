@@ -18,6 +18,6 @@ Follow the steps below to safely migrate from ***Legacy Security*** to ***Permis
 1. Navigate to the ***Administration*** tab in {{ en.RDM }}.
 1. Under the ***Settings*** section, select ***System Settings***.  
 ![Administration – System Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB0026.png)
-1. Go to ***Vault Management – Security Settings – Security*** and disable ***Use legacy security***.  
+1. Go to ***{{ en.VLT }} Management – Security Settings – Security*** and disable ***Use legacy security***.  
 ![Use legacy security](https://webdevolutions.azureedge.net/docs/en/kb/KB0027.png)
 1. Click ***Ok*** to apply the changes and close the window.

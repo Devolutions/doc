@@ -22,7 +22,7 @@ It is possible to efficiently migrate {{ en.DVLS }} Domain authentication to Mic
 * Temporary disable the [Domain Automatic user creation](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/)
 * Prepare a new {{ en.RDM }} data source that contains the new authentication method and [export the data source](/rdm/windows/data-sources/data-sources-types/import-export/) it in ardd file.  
 
-  * Add the .rdd file in the main vault and ask all users to open it in {{ en.RDM }} to be automatically added in their data sources list.
+  * Add the .rdd file in the main {{ en.VLT }} and ask all users to open it in {{ en.RDM }} to be automatically added in their data sources list.
 ### Migration phase option 1 (keeping the actual SQL database)
 * Backup the SQL database.
 * If migrating {{ en.DVLS }} and/or SQL on a new server.  
@@ -36,11 +36,11 @@ It is possible to efficiently migrate {{ en.DVLS }} Domain authentication to Mic
 * Migrate User groups (formerly known as Roles) to the new AAD group names.  
 
   * We provide a PowerShell script to update all permissions to use all newly named User groups. You can download the [script here](https://github.com/Devolutions/RDMSamples-ps/blob/main/module/security/SetPermissionsonFoldersInVault.ps1)
-  * Manually update vaults access permissions to use the newly named User groups.
+  * Manually update {{ en.VLT }}s access permissions to use the newly named User groups.
 ### Migration phase option 2 (start with a fresh installation)
-* Export all entries per vault from the actual {{ en.DVLS }} instance.  
+* Export all entries per {{ en.VLT }} from the actual {{ en.DVLS }} instance.  
 
-  * We provide a PowerShell script to export the entries per vault in a folder (password protectedRDM files). You can download the [script here](https://github.com/Devolutions/RDMSamples-ps/blob/main/module/export/ExportAllEntriesAllVaults.ps1)
+  * We provide a PowerShell script to export the entries per {{ en.VLT }} in a folder (password protectedRDM files). You can download the [script here](https://github.com/Devolutions/RDMSamples-ps/blob/main/module/export/ExportAllEntriesAllVaults.ps1)
 * Export all documents and attachments saved in the database from the actual {{ en.DVLS }} instance.  
 
   * We provide a PowerShell script to export files in a folder. You can download the [script here](https://github.com/Devolutions/RDMSamples-ps/blob/main/module/export/ExportDocumentsDatabase.ps1)
@@ -48,14 +48,14 @@ It is possible to efficiently migrate {{ en.DVLS }} Domain authentication to Mic
 [Create the new {{ en.DVLS }} instance][def]
 * Import user accounts from Azure.
 * Import groups from Azure.
-* Create vaults and import their respective entries.
+* Create {{ en.VLT }}s and import their respective entries.
 * Manually import documents and attachments.
 * Manually import Templates and Password Templates.
-* Set permissions on vaults, folders, entries.  
+* Set permissions on {{ en.VLT }}s, folders, entries.  
 
   * We can provide a PowerShell script to set permissions from a CSV file.
 ### Post-migration phase
-* [Reset the {{ en.DVLS }} cache](/server/web-interface/administration/security-management/reset-server-cache/) to update users, user groups, vaults and entries.
+* [Reset the {{ en.DVLS }} cache](/server/web-interface/administration/security-management/reset-server-cache/) to update users, user groups, {{ en.VLT }}s and entries.
 * Verify Microsoft authentication in {{ en.RDM }} and/or web UI.
 * Verify RBAC functionality and verify if permissions are properly set.
 * Verify {{ en.UVLT }} entries.  

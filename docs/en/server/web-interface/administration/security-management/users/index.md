@@ -78,10 +78,10 @@ Assign user groups to user account.
 	</tr>
 	<tr>
 		<td>
-![!!EditAssignVault.png](https://webdevolutions.azureedge.net/docs/common/EditAssignVault.png) 
+![!!EditAssign{{ en.VLT }}.png](https://webdevolutions.azureedge.net/docs/common/EditAssignVault.png) 
 		</td>
 		<td>
-Assign vaults to the user account. 
+Assign {{ en.VLT }}s to the user account. 
 		</td>
 	</tr>
 	<tr>

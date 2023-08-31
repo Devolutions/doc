@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Copy entries from your {{ en.UVLT }} to a {{ en.VLT }}
 ---
-In order to be able to copy some entries stored in your {{ en.UVLT }} to another vault without doing an Export/Import in {{ en.RDM }}, you would need to do the following:  
+In order to be able to copy some entries stored in your {{ en.UVLT }} to another {{ en.VLT }} without doing an Export/Import in {{ en.RDM }}, you would need to do the following:  
 {% snippet icon.badgeCaution %}
 For this to work, some permissions in ***Administration - System Permissions*** needs to be allowed for standard users.  
 
@@ -15,5 +15,5 @@ Paste feature: Allow ***Import*** and ***Add*** permissions on the destination f
 1. Right-click on them.
 1. Select ***Clipboard - Copy***.
 1. Make sure that the ***Change ID*** option is checked in the ***Copy Options*** window.
-1. Move to your main vault, select the folder in which you wish to add your entries and right-click on it.
+1. Move to your main {{ en.VLT }}, select the folder in which you wish to add your entries and right-click on it.
 1. Select ***Clipboard - Paste***.

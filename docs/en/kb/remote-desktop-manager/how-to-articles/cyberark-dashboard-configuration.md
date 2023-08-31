@@ -45,7 +45,7 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
    SAML authentication for CyberArk Privilege Cloud requires {{ en.RDM }} 2023.2.17 or newer.
    {% endsnippet %}
 {% snippet icon.badgeCaution %}
-Your CyberArk Vault administrator should provide you with the authentication model being used, but if, in the PVWA, you click on a link that matches your corporate domain name, this indicates that the LDAP model is being used. The icon looks like the following:
+Your CyberArk {{ en.VLT }} administrator should provide you with the authentication model being used, but if, in the PVWA, you click on a link that matches your corporate domain name, this indicates that the LDAP model is being used. The icon looks like the following:
 ![LDAP CyberArk Icon](https://webdevolutions.azureedge.net/docs/en/kb/iconldapcyberark.png)
 {% endsnippet %}
 
@@ -82,7 +82,7 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 ![Advanced Tab – PVWA](https://webdevolutions.azureedge.net/docs/en/kb/KB2263.png)
 
 18. The ***Allow direct connections (PVWA)*** option is enabled by default and is the recommended method. It allows the exact same action as the ***Connect*** button offers in PVWA.
-1. In the ***Connection components*** box, enter the components you wish to use for your connections. We initialize the field with the default components of a vanilla CyberArk installation, but this list MUST match the components configured in your vault.
+1. In the ***Connection components*** box, enter the components you wish to use for your connections. We initialize the field with the default components of a vanilla CyberArk installation, but this list MUST match the components configured in your {{ en.VLT }}.
 1. Since {{ en.RDM }} version 2023.2.24, there is a new feature called ***Override RDP Settings***. By default, RDP settings are fetched from CyberArk PVWA when generating the PSM session. This new option allows you to ignore settings provided by CyberArk and apply the ones specified in the ***CyberArk Dashboard*** entry instead. This override is for all PSM sessions established from this dashboard to have different display settings. One might consider creating different instances of the dashboard entry to reflect different users' preferences.
 
    ![Override RDP Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB2264.png)
@@ -99,13 +99,13 @@ Here are the restrictions related to PSM:
 
 * A user must connect to the PSM server via RDP and be granted permission to do so.
 * PSM has to be able to link the LDAP account with a CyberArk PVWA profile (could work with a SAML Azure AD when LDAP is cloned on Azure AD)
-* The ***account to use*** (/u) must be found without any ambiguity in the CyberArk Vault.
+* The ***account to use*** (/u) must be found without any ambiguity in the CyberArk {{ en.VLT }}.
 
 {% snippet icon.badgeCaution %}
 This is provided as a convenience and is not recommended by the CyberArk team. It has some limitations when compared to the ***Connect*** action from PVWA which uses a limited lifetime token.
 {% endsnippet %}  
 {% snippet icon.badgeCaution %}
-You must have a PSM Server entry configured in the same vault. Select it in the ***PSM server*** drop-down list.
+You must have a PSM Server entry configured in the same {{ en.VLT }}. Select it in the ***PSM server*** drop-down list.
 {% endsnippet %}  
 
 ## Using the Dashboard

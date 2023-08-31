@@ -13,7 +13,7 @@ With {{ en.RDM }}, it is possible to send credentials through a typing macro usi
 {% snippet icon.badgeCaution %}
 If the option is greyed out, you need to activate ***Allow password variables for all entries*** and ***Allow password variable in macros*** in ***Administration – System Settings – Password Policy***.  
 
-Also, if you are using the ***Linked (Vault)*** credential mode in your entry, you will need to enable the ***Allow password in variable*** option in the linked credential entry as well.
+Also, if you are using the ***Linked ({{ en.VLT }})*** credential mode in your entry, you will need to enable the ***Allow password in variable*** option in the linked credential entry as well.
 {% endsnippet %}  
 
 ![!!KB4836.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4836.png)  

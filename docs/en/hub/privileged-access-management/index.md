@@ -16,7 +16,7 @@ A license is required to enable the Privileged Access Management module. Please 
 
 Here are some of its main features:  
 
-* Secure PAM vault managing all your different privileged accounts
+* Secure PAM {{ en.VLT }} managing all your different privileged accounts
 * Checkout request approval
 * Automatic password reset
 * Secure password injection

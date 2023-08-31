@@ -12,7 +12,7 @@ A diagram is necessary to properly illustrate the solution.
 ![!!KB4661.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4661.png)
 1. The user is authenticated to {{ en.RDM }} with a ***Least Privilege Account***, this gives them a view into the {{ en.RDM }} content as per the permissions set in our User Groups Based Access Control.
 1. When their ***Privileged Account*** is required to launch a supported technology, {{ en.RDM }} will obtain the appropriate Private Key from the workstation, it must be held in the certificate store for the user.
-1. The PK is used to authenticate against the CyberArk Vault. It’s configured as an ***Application*** object that is essentially a ***user proxy*** used to query the Vault.
+1. The PK is used to authenticate against the CyberArk {{ en.VLT }}. It’s configured as an ***Application*** object that is essentially a ***user proxy*** used to query the {{ en.VLT }}.
 1. {{ en.RDM }} obtains the details of a ***Privileged Account***, what is key is that the user does not know the password for their own privileged account.
 1. {{ en.RDM }} uses the ***Privileged Account*** and launches either: a PSM Connection; connects to the PVWA; or even launches a session supported by {{ en.RDM }}, all the while still hiding the password from the user.
 ### CyberArk Application Access Manager (AAM) Configuration

@@ -1,26 +1,27 @@
 ---
-title: Create and manage vaults
-keywords:
-- role
+eleventyComputed:
+  title: Create and manage {{ en.VLT }}s
+  keywords:
+  - role
 ---
-***Vaults*** are for sharing entries with users and user groups of your organization in {{ en.DHUBB }}.  
+***{{ en.VLT }}s*** are for sharing entries with users and user groups of your organization in {{ en.DHUBB }}.  
 
-## Manage Vaults
+## Manage {{ en.VLT }}s
 
-### Create a Vault 
+### Create a {{ en.VLT }}
 
-1. Go to ***Administration – Vaults***. 
+1. Go to ***Administration – {{ en.VLT }}s***. 
 1. Click on the ***Add*** icon at the top right of the screen.  
 ![!!Hub4098.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4098.png) 
-1. ***Name*** the vault. 
-    1. Optional: Write a short ***Description*** for the purpose of this vault.  
+1. ***Name*** the {{ en.VLT }}. 
+    1. Optional: Write a short ***Description*** for the purpose of this {{ en.VLT }}.  
     ![!!Hub4099.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4099.png) 
 1. Click ***Add*** to save. 
 
-### Add Permissions to a vault 
+### Add permissions to a {{ en.VLT }}
 
-1. Go to ***Administration – Vaults***. 
-1. Click the ***Edit*** pencil icon next to the vault. 
+1. Go to ***Administration – {{ en.VLT }}s***. 
+1. Click the ***Edit*** pencil icon next to the {{ en.VLT }}. 
 1. In the ***Edit*** tab section, click the drop-down menu next to each of the predefined ***Permissions*** to assign users and user groups or select and configure a custom role for your organization. 
 {% snippet icon.badgeNotice %} 
 Click the ***View Roles Definition*** button to choose from the list. You can also visit our [Roles and Permissions](/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/) topic. 
@@ -30,10 +31,9 @@ Click the ***View Roles Definition*** button to choose from the list. You can al
 
 4. Click ***Update*** to save. 
 
-### Edit a Vault 
+### Edit a {{ en.VLT }}
 
-1. Go to ***Administration – Vaults***. 
-1. Click the ***Edit*** pencil icon next to the vault. 
+1. Go to ***Administration – {{ en.VLT }}s***. 
+1. Click the ***Edit*** pencil icon next to the {{ en.VLT }}. 
 ![!!Hub4100.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4100.png) 
-1. Click ***Update*** to save. 
-
+1. Click ***Update*** to save.

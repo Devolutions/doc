@@ -26,9 +26,9 @@ A {{ en.DHUBB }} access is required to continue.
 ![Successful Login to the {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4047.png) 
 1. Click on the {{ en.DWL }} icon in the toolbar of your web browser to validate that {{ en.DWL }} is now connected to {{ en.DHUBB }}.  
 ![Successful Pairing of {{ en.DHUBB }} to {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4026.png) 
-1. To select the vaults to be synchronized, click on the ***Vaults*** tab in the ***Side Menu***, then click the ***Select Vaults to Sync*** button.  
-![Vaults Tab](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4053.png) 
-1. Click on ***Select All*** or individually check the vaults to synchronize. The ***Filter*** bar can be useful to search for vaults.  
-![Selection of Vaults to be Synchronized](https://webdevolutions.azureedge.net/docs/en/hub/Hub2079.png) 
-1. When your vaults have been selected, click on ***Select Vaults to Sync*** at the top of the panel to go back and view your synchronized vaults.  
-![Synchronized Vaults](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4049.png) 
+1. To select the {{ en.VLT }}s to be synchronized, click on the ***{{ en.VLT }}s*** tab in the ***Side Menu***, then click the ***Select {{ en.VLT }}s to Sync*** button.  
+![{{ en.VLT }}s tab](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4053.png) 
+1. Click on ***Select All*** or individually check the {{ en.VLT }}s to synchronize. The ***Filter*** bar can be useful to search for {{ en.VLT }}s.  
+![Selection of {{ en.VLT }}s to be synchronized](https://webdevolutions.azureedge.net/docs/en/hub/Hub2079.png) 
+1. When your {{ en.VLT }}s have been selected, click on ***Select {{ en.VLT }}s to Sync*** at the top of the panel to go back and view your synchronized {{ en.VLT }}s.  
+![Synchronized {{ en.VLT }}s](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4049.png) 

@@ -1,9 +1,9 @@
 ---
 title: System Permissions
 ---
-The ***System Permissions*** are used to provide administrative rights to specific users or user groups. They can be added at the ***System*** or ***Vaults*** levels.  
+The ***System Permissions*** are used to provide administrative rights to specific users or user groups. They can be added at the ***System*** or ***{{ en.VLT }}s*** levels.  
 ![System Permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub3043.png)  
-![Vaults Permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub2137.png)  
+![{{ en.VLT }}s Permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub2137.png)  
 
 To set the permissions for users and/or user groups, use the Edit button at the top right.  
 

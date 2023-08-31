@@ -22,7 +22,7 @@ The duration of ***Temporary Access*** begins when the request is approved.
 
 Follow the steps below to learn how to make a temporary access request: 
 
-1. In the ***{{ en.VLT }}*** tab, select the entry you want access to in the vault of your choice. 
+1. In the ***{{ en.VLT }}*** tab, select the entry you want access to in the {{ en.VLT }} of your choice. 
 1. Click on ***More***, then select ***Request Temporary Access***.  
 ![Request Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6026.png) 
 1. In the ***Temporary Access Request*** window, select the ***Access duration*** in the drop-down menu.  

@@ -7,11 +7,11 @@ Keeper is one of the multiple external password managers integrated in {{ en.RDM
 
 ***Login type*** determines the method that {{ en.RDM }} will use to connect to Keeper.  
 
-* ***Vault login*** uses the ***Email*** address and a ***Master Password*** to log in.
+* ***{{ en.VLT }} login*** uses the ***Email*** address and a ***Master Password*** to log in.
 * ***Enterprise SSO*** uses the ***Email*** address to log in.
 * ***Enterprise SSO (Domain)*** uses the ***Enterprise domain*** to log in.
 
-The ***Use “My Account Settings”*** option, available for the ***Vault login*** and ***Enterprise SSO*** login types, allows the entry to refer to the credentials saved under ***File - My Account Settings*** rather than entering them manually in the Keeper entry.  
+The ***Use “My Account Settings”*** option, available for the ***{{ en.VLT }} login*** and ***Enterprise SSO*** login types, allows the entry to refer to the credentials saved under ***File - My Account Settings*** rather than entering them manually in the Keeper entry.  
 
 The ***Region*** allows you to choose from where your Keeper server is located.  
 
@@ -25,7 +25,7 @@ The option ***Always prompt with list*** allows users to select the credential e
 
 ### Procedure
 
-1. Select your desired ***Login type*** (Vault Login, Enterprise SSO or Enterprise SSO (Domain)).
+1. Select your desired ***Login type*** ({{ en.VLT }} Login, Enterprise SSO or Enterprise SSO (Domain)).
 1. Enter the required information, based on the ***Login type*** selected.
 1. Use the ***Credentials*** field to specify which credential should be retrieved from Keeper or use the ***Always prompt with list*** option to select which credential to retrieve each time the Keeper entry is used.
 1. Click ***OK***.

@@ -28,5 +28,5 @@ Each ***Import Type*** has a different ***Source*** importing setup. Please foll
 In the event that you need to import the ***Specific Settings***, leave the ***Change ID*** box unchecked in the ***Import Settings*** section. 
 {% endsnippet %}
  
-7. Select the ***Target Vault***. 
+7. Select the ***Target {{ en.VLT }}***. 
 1. Click ***Import Selection to {{ en.DHUB }}***. 

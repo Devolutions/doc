@@ -10,7 +10,7 @@ eleventyComputed:
 
 {{ en.DHUB }} is a highly secure team-based password manager that is part of the {{ en.DCS }}. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size. You can access and manage sensitive information from anywhere and with any supported web browser.  
 
-Your information is stored in entries of different types which are organized into vaults. Entries are managed directly from the web interface and no client application is required.  
+Your information is stored in entries of different types which are organized into {{ en.VLT }}s. Entries are managed directly from the web interface and no client application is required.  
 
 Security is at the core of {{ en.DHUB }} since it is hosted by [Microsoft Azure](/kb/hub-business/knowledge-base/hosting-region-password-hub/), a highly trusted cloud services provider, and encrypted with the strongest encryption standard: AES-256.  
 
@@ -47,7 +47,7 @@ Data Importer
 	</tr>
 	<tr>
 		<td>
-[{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their vaults. 
+[{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s. 
 		</td>
 		<td>
 The application provides users with a simple method of launching remote sessions from the {{ en.DHUB }} web interface. 

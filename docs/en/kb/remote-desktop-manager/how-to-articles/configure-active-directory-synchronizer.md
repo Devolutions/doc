@@ -39,7 +39,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 
 ### Settings
 ![Settings tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0080.png)  
-* ***Destination folder***: Click the ellipsis button to set the folder path in the {{ en.RDM }} tree view (which can only be in the same vault)
+* ***Destination folder***: Click the ellipsis button to set the folder path in the {{ en.RDM }} tree view (which can only be in the same {{ en.VLT }}).
 * ***Template***: [Entry template](/rdm/windows/commands/file/templates/creating-templates/) created within {{ en.RDM }}
 * ***Create folders from OU/containers***
   * ***Level***: From 0 to 100, 0 being the top container in Active Directory

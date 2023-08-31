@@ -367,7 +367,7 @@ Set a default comparing option type between <b><i>Base domain</b></i>, <b><i>Hos
 	</tr>
 	<tr>
 		<td>
-Sync all available vaults (available with {{ en.DHUBB }} only) 
+Sync all available {{ en.VLT }}s (available with {{ en.DHUBB }} only) 
 		</td>
 		<td>
 Enable to synchronize all the available {{ en.VLT }}s from {{ en.DHUBB }}. 

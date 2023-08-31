@@ -170,10 +170,10 @@ Description
 	</tr>
 	<tr>
 		<td>
-Vault Locked Status 
+{{ en.VLT }} Locked Status 
 		</td>
 		<td>
-Creates vaults with a restricted access by default. 
+Creates {{ en.VLT }}s with a restricted access by default. 
 		</td>
 	</tr>
 	<tr>

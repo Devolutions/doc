@@ -80,8 +80,8 @@ Apply the changes made to the parameters to the entries preview.
 * To delete a variable, click on the "X" button next to it.  
 
 9. When done, click ***Finish***.
-1. In the ***Target Vault*** drop-down list, select the vault in which to import your entries.
-![Target Vault Selection.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2116.png)
+1. In the ***Target {{ en.VLT }}*** drop-down list, select the {{ en.VLT }} in which to import your entries.
+![Target {{ en.VLT }} selection](https://webdevolutions.azureedge.net/docs/en/kb/KB2116.png)
 1. Select which entry you want to import. You can use the ***Select All*** and ***Unselect All*** buttons at the bottom or select/unselect them one by one by checking/unchecking the box next to the entry.
 1. When done selecting, click on ***Import Selection to {{ en.DHUB }}***.
 1. When the import process is complete, a window will pop up to inform you. You can close it by pressing ***OK***.

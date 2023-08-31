@@ -25,16 +25,16 @@ If there are multiple accounts in the folder, you can use the search bar to disp
 
 ## Check Out request with custom time
 
-It is possible to make a ***Check Out*** request for a certain time slot while in a PAM vault. This feature is very useful for planned maintenance outside of normal work hours, when approvers are not available.
+It is possible to make a ***Check Out*** request for a certain time slot while in a PAM {{ en.VLT }}. This feature is very useful for planned maintenance outside of normal work hours, when approvers are not available.
 
 {% snippet icon.badgeInfo %}
-Making a ***Check Out*** request in advance is only available in PAM vaults.
+Making a ***Check Out*** request in advance is only available in PAM {{ en.VLT }}s.
 {% endsnippet %}  
 
 ### Steps
 1. Connect to a {{ en.DVLS }} data source.
 1. In the {{ en.RDMMAC }} ribbon, click on ***View*** and then ***PAM Dashboard***.
-1. Select a PAM vault from the dropdown.
+1. Select a PAM {{ en.VLT }} from the dropdown.
 1. Right-click on an entry and click on ***Check Out***.
 1. Enable ***Set custom time frame***.
 1. Set the ***Start time*** and ***End time***.

@@ -76,10 +76,10 @@ Enter the name of the folder in which your new entry will be stored in {{ en.RDM
 	</tr>
 	<tr>
 		<td>
-Vault 
+{{ en.VLT }} 
 		</td>
 		<td>
-Choose to store your new website entry in your ***{{ en.UVLT }}*** or in the currently selected ***Vault*** in {{ en.RDMMAC }}. 
+Choose to store your new website entry in your ***{{ en.UVLT }}*** or in the currently selected ***{{ en.VLT }}*** in {{ en.RDMMAC }}. 
 		</td>
 	</tr>
 	<tr>

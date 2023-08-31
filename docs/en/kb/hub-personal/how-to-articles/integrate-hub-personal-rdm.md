@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 {{ en.DHUBP }} is our secure personal password management solution for individual users — and it’s free.  
 {% snippet icon.badgeInfo %}
-To integrate {{ en.DHUBP }} as a data source in {{ en.RDM }} you will be required to create it in your {{ en.DA }}. Follow the steps in this topic to [create your free {{ en.DHUBP }}](/hub/getting-started/create-hub/hub-personal/) or visit our website to create your [vault](https://password.devolutions.net/personal) today.
+To integrate {{ en.DHUBP }} as a data source in {{ en.RDM }} you will be required to create it in your {{ en.DA }}. Follow the steps in this topic to [create your free {{ en.DHUBP }}](/hub/getting-started/create-hub/hub-personal/) or visit our website to create your [{{ en.VLT }}](https://password.devolutions.net/personal) today.
 {% endsnippet %}
 
 ## Steps

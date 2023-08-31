@@ -29,26 +29,26 @@ The {{ en.DHUBS }} installer facilitates the installation and integration of our
 ![System Permissions – Manage privileged access tasks and Manage privileged access providers](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6060.png)
 
 {% snippet icon.badgeInfo %}
-You need to grant permission on the vault either at ***System level*** or ***Individual PAM vault level***. 
+You need to grant permission on the {{ en.VLT }} either at ***System level*** or ***Individual PAM {{ en.VLT }} level***. 
 {% endsnippet %}  
 
-## For all system vaults
+## For all system {{ en.VLT }}s
 
 1. In {{ en.DHUB }}, go to ***Administration*** – ***Configuration & Security*** – ***System Permissions***.
 ![Administration – Configuration & Security – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
 1. Go to the edit form.
 ![Edit form](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6049.png)
-1. Select ***Vaults***.
+1. Select ***{{ en.VLT }}s***.
 1. Choose your ***Application User*** in the drop-down menu under the ***Contributor*** section.
 ![Contributor section](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6050.png)
 1. Click ***Update*** to close the window. 
 
-## For a specific Pam vault
+## For a specific PAM {{ en.VLT }}
 
-1. In {{ en.DHUB }}, go to ***Administration*** – ***Management*** – ***Vaults***.
-![Administration – Management – Vaults](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6044.png)  
-1. Select ***Add PAM vault*** in the menu to create your PAM vault.  
-![Administration – Management – Vaults – Add PAM vault](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6059.png)  
+1. In {{ en.DHUB }}, go to ***Administration*** – ***Management*** – ***{{ en.VLT }}s***.
+![Administration – Management – {{ en.VLT }}s](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6044.png)  
+1. Select ***Add PAM {{ en.VLT }}*** in the menu to create your PAM {{ en.VLT }}.  
+![Administration – Management – {{ en.VLT }}s – Add PAM {{ en.VLT }}](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6059.png)  
 1. Select the ***Edit*** tab at the ***Permissions*** section.  
 1. Choose your ***Application User*** in the drop-down menu under the ***Contributor*** section.  
 ![Contributor section](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6056.png)  

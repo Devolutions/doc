@@ -55,7 +55,7 @@ Allows the user to delete entries in groups/folders for that user group. Will al
 </table>
 
 {% snippet icon.shieldWarning %} 
-For higher security, its a best practice to set user groups on all the vault level folders. This ensures there are no public folders and that you have good control over the activity in your system. 
+For higher security, its a best practice to set user groups on all the {{ en.VLT }} level folders. This ensures there are no public folders and that you have good control over the activity in your system. 
 {% endsnippet %}
  
 All user groups are listed in the grid, and you can assign permissions using the corresponding columns. 
@@ -63,5 +63,3 @@ All user groups are listed in the grid, and you can assign permissions using the
 {% snippet icon.shieldWarning %} 
 Granting the View permission does allow the right to also launch/open the sessions of that group. 
 {% endsnippet %}
- 
-

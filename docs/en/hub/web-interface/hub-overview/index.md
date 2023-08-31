@@ -25,10 +25,10 @@ Click on the menu icon to navigate the ***Search, {{ en.VLT }}, {{ en.UVLT }}, R
 	</tr>
 	<tr>
 		<td>
-Vault Selector 
+{{ en.VLT }} Selector 
 		</td>
 		<td>
-Click the vault selector, at the top middle section of your browser, to switch between all your vaults and access your {{ en.UVLT }}. 
+Click the {{ en.VLT }} selector, at the top middle section of your browser, to switch between all your {{ en.VLT }}s and access your {{ en.UVLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -52,15 +52,15 @@ Click on your avatar to edit your {{ en.DA }} settings and lock or log off your 
 ***{{ en.NPANE }}*** 
 		</td>
 		<td>
-View the entries available in the selected vault. 
+View the entries available in the selected {{ en.VLT }}. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Vault Interactions 
+{{ en.VLT }} Interactions 
 		</td>
 		<td>
-Select the vault in the ***{{ en.NPANE }}*** to view the vault interactions. 
+Select the {{ en.VLT }} in the ***{{ en.NPANE }}*** to view the {{ en.VLT }} interactions. 
 		</td>
 	</tr>
 	<tr>

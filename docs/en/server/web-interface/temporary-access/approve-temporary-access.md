@@ -46,7 +46,7 @@ The second option requires you to go through the other ***Pending Access Request
 
 This view is divided into two sections: 
 
-* The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited. You can view the ***Entry's dependencies*** such as linked credentials and VPNs. Note that linked entries must be in the same vault. Credentials with PAM linked to regular vaults are not included.
+* The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited. You can view the ***Entry's dependencies*** such as linked credentials and VPNs. Note that linked entries must be in the same {{ en.VLT }}. Credentials with PAM linked to regular {{ en.VLT }}s are not included.
 
 * The ***Response Parameters*** section allows you to change the temporary access duration specified by the user. It is also possible to write a message to the user explaining your decision, but it remains optional. 
 

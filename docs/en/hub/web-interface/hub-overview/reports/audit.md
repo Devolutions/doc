@@ -1,7 +1,7 @@
 ---
 title: Audit
 ---
-The ***Audit*** section allows all users to use the ***Entry Security Analyzer*** and ***Password Analyzer*** tools. To access the ***Users Permissions***, ***Vaults Permissions***, and ***Vault Health*** tools, administrator rights will be required.  
+The ***Audit*** section allows all users to use the ***Entry Security Analyzer*** and ***Password Analyzer*** tools. To access the ***Users Permissions***, ***{{ en.VLT }}s Permissions***, and ***{{ en.VLT }} Health*** tools, administrator rights will be required.  
 
 ### Entry Security Analyzer 
 
@@ -12,7 +12,7 @@ Click the entry ***Name*** to be redirected and to manage the entry properties. 
 
 ### Password Analyzer 
 
-The ***Password Analyzer*** provides you with a more in-dept review tool of the occurrence and password strength of vault entries.  
+The ***Password Analyzer*** provides you with a more in-dept review tool of the occurrence and password strength of {{ en.VLT }} entries.  
 
 Click the ***Reveal password*** eye icon to view the password saved in the entries.  
 
@@ -23,17 +23,16 @@ In the ***Data breach*** section, you can check if the password has been in a da
 
 ### Users Permissions 
 
-The ***Users Permissions*** section is a tool to have an overview of your users permissions on each vault and create a CSV report by clicking the ***Export*** button.  
+The ***Users Permissions*** section is a tool to have an overview of your users permissions on each {{ en.VLT }} and create a CSV report by clicking the ***Export*** button.  
 ![!!Hub4158.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4158.png) 
 
-### Vault Permissions 
+### {{ en.VLT }} Permissions 
 
-The ***Vaults Permissions*** section is a tool to quickly review your {{ en.UVLT }} permissions for each vault and create a CSV report by clicking the ***Export*** button.  
+The ***{{ en.VLT }}s Permissions*** section is a tool to quickly review your {{ en.UVLT }} permissions for each {{ en.VLT }} and create a CSV report by clicking the ***Export*** button.  
 ![!!Hub4159.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4159.png) 
 
-### Vault Health 
+### {{ en.VLT }} Health 
 
-The ***Vault Health*** section helps you assess and manage problems with specific entries in your vaults. 
+The ***{{ en.VLT }} Health*** section helps you assess and manage problems with specific entries in your {{ en.VLT }}s. 
 Click the ***Go to*** arrow to be redirected to the properties of the entry and resolve the issue.  
-![!!Hub4160.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4160.png) 
-
+![!!Hub4160.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4160.png)

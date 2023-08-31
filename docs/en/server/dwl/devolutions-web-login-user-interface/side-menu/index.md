@@ -29,25 +29,25 @@ For a complete list of the available fields in the ***Add Website*** window, vis
  
 ### All Entries tab 
 {% snippet icon.badgeHelp %} 
-When accessing the ***All Entries*** tab for the first time, you need to select the {{ en.DVLS }} vaults you want to synchronize with {{ en.DWL }}. Learn more about it in our [First Login with {{ en.DWL }}](/server/dwl/first-login-dwl/) topic. 
+When accessing the ***All Entries*** tab for the first time, you need to select the {{ en.DVLS }} {{ en.VLT }}s you want to synchronize with {{ en.DWL }}. Learn more about it in our [First Login with {{ en.DWL }}](/server/dwl/first-login-dwl/) topic. 
 {% endsnippet %}
  
-The ***All Entries*** tab allows you to browse through all your synchronized vaults for website entries only. You will first encounter the list of your synchronized vaults.  
+The ***All Entries*** tab allows you to browse through all your synchronized {{ en.VLT }}s for website entries only. You will first encounter the list of your synchronized {{ en.VLT }}s.  
 
 ![All Entries Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2043.png)
 
-At the top, you can use the ***Filter*** bar to search through all your vaults for website entries.  
+At the top, you can use the ***Filter*** bar to search through all your {{ en.VLT }}s for website entries.  
 
-You can access your vaults in two ways:  
+You can access your {{ en.VLT }}s in two ways:  
 
-* To access a vault in {{ en.DVLS }}, click on the ***Open*** button next to a vault to open it in {{ en.DVLS }} in a new browser tab. 
-* To access a vault in {{ en.DWL }}, click on it and navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DVLS }}, except that only the paths leading to website entries will be displayed. 
+* To access a {{ en.VLT }} in {{ en.DVLS }}, click on the ***Open*** button next to a {{ en.VLT }} to open it in {{ en.DVLS }} in a new browser tab. 
+* To access a {{ en.VLT }} in {{ en.DWL }}, click on it and navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DVLS }}, except that only the paths leading to website entries will be displayed. 
 
 When navigating in the folders, the [***Add Website***](/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/) button will appear at the bottom of the ***Content Area***. You can also use the search bar at the top to search in the specific location.  
 
-![Vault Navigation via {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2045.png)
+![{{ en.VLT }} Navigation via {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2045.png)
 
-Back on the main view of the ***All Entries*** tab, the ***Select Vaults to Sync*** at the bottom of the ***Content Area*** allows you to individually select the {{ en.DVLS }} vaults to synchronize with {{ en.DWL }}. 
+Back on the main view of the ***All Entries*** tab, the ***Select {{ en.VLT }}s to Sync*** at the bottom of the ***Content Area*** allows you to individually select the {{ en.DVLS }} {{ en.VLT }}s to synchronize with {{ en.DWL }}. 
 
 ### Favorites tab 
 If you have entries marked as favorites, they will be displayed here in the ***Favorites*** tab.  
@@ -94,7 +94,7 @@ The ***View*** button gives you an overview of the entry as well as additional f
 
 * ***Edit***/***Delete*** the entry or view its password with the vertical ellipsis button at the top right.  
 * Mark your entry as favorite by clicking on the ***Add to Favorites*** icon next to the entry name. The entry will then show in the ***Favorites*** tab.  
-* View the location of your entry under the ***Vault*** and ***Folder*** (if it is located under a folder) sections.  
+* View the location of your entry under the ***{{ en.VLT }}*** and ***Folder*** (if it is located under a folder) sections.  
 * View and access the ***URL*** associated to the entry.  
 
 Other information and functionalities will depend on what you provided when creating the entry (username, password, tags, description, etc.). 

@@ -17,7 +17,7 @@ Credential ***Source*** are used to link entries to OTP account credential infor
 The ***Current session's credentials*** options will use the OTP credentials setup in the entry ***Common - General - Credentials*** section. Credentials options available with OTP are [***My personal credentials***](/rdm/windows/commands/file/my-account-settings/my-personal-credentials/), ***My privileged account*** and ***Embedded*** (this mode is deprecated and not recommended).  
 
 {% snippet icon.badgeCaution %}
-In a team environment, we recommend using the <a href="#linked">Linked (Vault)</a> option instead with a ***One Time Password (OTP)*** credential entry.
+In a team environment, we recommend using the <a href="#linked">Linked ({{ en.VLT }})</a> option instead with a ***One Time Password (OTP)*** credential entry.
 {% endsnippet %}  
 
 ![!!KB5008.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5008.png)
@@ -38,9 +38,9 @@ The ***Inherited*** option will climb up the navigation tree until it has access
 
 ![!!KB5009.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5009.png)
 
-### Linked (Vault) <a name="linked"></a>
+### Linked ({{ en.VLT }}) <a name="linked"></a>
 
-Link your entry to use an existing specific ***One Time Password (OTP)*** credential entry from the same vault. This is the preferred method.  
+Link your entry to use an existing specific ***One Time Password (OTP)*** credential entry from the same {{ en.VLT }}. This is the preferred method.  
 
 ![!!KB5006.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5006.png)
 

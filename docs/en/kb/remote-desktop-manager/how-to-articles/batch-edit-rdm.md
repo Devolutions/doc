@@ -12,18 +12,18 @@ In {{ en.RDM }}, you can edit the properties of multiple entries or folders at o
 Entries and folders to be edited can be selected using the methods below. Choose the one that best suits your needs.
 
 {% snippet icon.badgeNotice %}
-Best practice suggests using the ***[Advanced Search](#advanced)*** or ***[Multi Vault Search](#multi)*** methods, as selecting them manually in the ***{{ en.NPANE }}*** is more time consuming and carries the risk of forgetting some entries/folders. This last method can only be recommended if you have only a few selected entries to edit.
+Best practice suggests using the ***[Advanced Search](#advanced)*** or ***[Multi {{ en.VLT }} Search](#multi)*** methods, as selecting them manually in the ***{{ en.NPANE }}*** is more time consuming and carries the risk of forgetting some entries/folders. This last method can only be recommended if you have only a few selected entries to edit.
 
 Regardless of the method used, it is recommended that only one entry type be selected for each batch edit action.
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
-To edit the information of folders, you MUST go through the ***[Advanced Search](#advanced)*** or ***[Multi Vault Search](#multi)*** methods to select the folders. If you select the folders manually in the ***{{ en.NPANE }}***, you will be editing the information in the child entries of the folders, NOT the information in the folders themselves.
+To edit the information of folders, you MUST go through the ***[Advanced Search](#advanced)*** or ***[Multi {{ en.VLT }} Search](#multi)*** methods to select the folders. If you select the folders manually in the ***{{ en.NPANE }}***, you will be editing the information in the child entries of the folders, NOT the information in the folders themselves.
 {% endsnippet %}
 
 - [Manual selection](#manual)
 - [Advanced Search](#advanced)
-- [Multi Vault Search](#multi)
+- [Multi {{ en.VLT }} Search](#multi)
 
 ### Manual selection 
 <a name="manual"></a>
@@ -35,12 +35,12 @@ Proceed to the [Batch Edit Actions](#edit) section for the next steps or continu
 ### Advanced Search
 <a name="advanced"></a>
 
-The ***[Advanced Search](/rdm/windows/commands/view/panels/search/advanced/)*** feature allows you to search the currently selected vault.  
+The ***[Advanced Search](/rdm/windows/commands/view/panels/search/advanced/)*** feature allows you to search the currently selected {{ en.VLT }}.  
 ![Advanced Search.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2108.png) 
 1. In {{ en.RDM }}, go to ***View – Search – Advanced Search*** or press the F11 key shortcut. 
 1. In the ***Search*** tab of the ***Advanced Search*** window, select and specify criteria to filter your search. Other search parameters are also available in the ***Settings*** tab. When done, click ***Search***. 
 {% snippet icon.badgeInfo %}
-To filter your search by folder type, you must use the ***Advanced Search*** feature as it is not available in ***Multi Vault Search***. Search by ***Connection type*** and select the folder type in the drop-down list next to it. 
+To filter your search by folder type, you must use the ***Advanced Search*** feature as it is not available in ***Multi {{ en.VLT }} Search***. Search by ***Connection type*** and select the folder type in the drop-down list next to it. 
 {% endsnippet %}  
  
 3. Select the entries/folders you want to edit. To select all of them, click anywhere in the results field and use the Ctrl+A keyboard shortcut. 
@@ -48,13 +48,13 @@ To filter your search by folder type, you must use the ***Advanced Search*** fea
 
 Proceed to the [Batch Edit Actions](#edit) section for the next steps or continue to read about the other selection methods.
 
-### Multi Vault Search
+### Multi {{ en.VLT }} Search
 <a name="multi"></a>
 
-![Multi Vault Search.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2109.png)  
-The [***Multi Vault Search***](/rdm/windows/commands/view/panels/search/multi-vault/) feature allows you to search in all the vaults of the selected database at once.
+![Multi {{ en.VLT }} Search](https://webdevolutions.azureedge.net/docs/en/kb/KB2109.png)  
+The [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/panels/search/multi-vault/) feature allows you to search in all the {{ en.VLT }}s of the selected database at once.
 
-1. In {{ en.RDM }}, go to ***View – Search – Multi Vault Search*** or press the F12 key shortcut. 
+1. In {{ en.RDM }}, go to ***View – Search – Multi {{ en.VLT }} Search*** or press the F12 key shortcut. 
 1. Select and specify criteria to filter your search, then click ***Search***. 
 {% snippet icon.badgeInfo %} 
 To filter your search by folder type, you must use the ***[Advanced Search](#advanced)*** feature. 

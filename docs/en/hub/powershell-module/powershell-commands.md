@@ -325,13 +325,13 @@ New-HubSystemVaultPermission
 		</td>
 		<td>
 
-Adds the provided system vault permission to system settings. If a user or group **already exists**, the permission will be **overwritten**.  
+Adds the provided system {{ en.VLT }} permission to system settings. If a user or group **already exists**, the permission will be **overwritten**.  
 
-If UserId is provided, sets a predefined role or a custom system vault permission to this user.  
+If UserId is provided, sets a predefined role or a custom system {{ en.VLT }} permission to this user.  
 
 or  
 
-If GroupId is provided, sets a predefined role or a custom system vault permission to this group.  
+If GroupId is provided, sets a predefined role or a custom system {{ en.VLT }} permission to this group.  
 
 		</td>
 		<td>
@@ -354,11 +354,11 @@ Remove-HubSystemVaultPermission
 		</td>
 		<td>
 
-If UserId is provided, removes this user's system vault permission from system settings.  
+If UserId is provided, removes this user's system {{ en.VLT }} permission from system settings.  
 
 or  
 
-If GroupId is provided, removes this group's system vault permission from system settings.  
+If GroupId is provided, removes this group's system {{ en.VLT }} permission from system settings.  
 		</td>
 		<td>
 		</td>
@@ -407,13 +407,13 @@ Set-HubSystemVaultPermission
 		</td>
 		<td>
 
-Sets a provided system vault permission.  
+Sets a provided system {{ en.VLT }} permission.  
 
-If UserId is provided, sets a predefined PSVaultRole or a custom system vault permission to this user.  
+If UserId is provided, sets a predefined PSVaultRole or a custom system {{ en.VLT }} permission to this user.  
 
 or  
 
-If GroupId is provided, sets a predefined PSVaultRole or a custom system vault permission to this group.  
+If GroupId is provided, sets a predefined PSVaultRole or a custom system {{ en.VLT }} permission to this group.  
 		</td>
 		<td>
 ```$systemVaultPermission = Get-HubSystemVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 ```  
@@ -659,7 +659,7 @@ Retrieves the {{ en.DGW }} settings.
 
 ## {{ en.VLT }}s
 
-This section is about commands to handle vaults.  
+This section is about commands to handle {{ en.VLT }}s.  
 
 <table>
 	<tr>
@@ -686,10 +686,10 @@ New-HubVault
 * VaultDescription  
 		</td>
 		<td>
-Adds a new vault. 
+Adds a new {{ en.VLT }}. 
 		</td>
 		<td>
-Have the permission to create vault and put a name. 
+Have the permission to create {{ en.VLT }}s and put a name. 
 		</td>
 	</tr>
 	<tr>
@@ -700,7 +700,7 @@ Remove-HubVault
 * VaultId 
 		</td>
 		<td>
-Removes this vault from {{ en.DHUB }}. 
+Removes this {{ en.VLT }} from {{ en.DHUB }}. 
 		</td>
 		<td>
 		</td>
@@ -714,9 +714,9 @@ Get-HubVault
 		</td>
 		<td>
 
-If VaultId is provided, retrieves the vault by ID.  
+If VaultId is provided, retrieves the {{ en.VLT }} by ID.  
 
-If VaultId is **not** provided, retrieves all vaults you have access to.  
+If VaultId is **not** provided, retrieves all {{ en.VLT }}s you have access to.  
 		</td>
 		<td>
 		</td>
@@ -730,11 +730,11 @@ Set-HubVault
 * PSVault  
 		</td>
 		<td>
-Sets the provided vault to the mentioned vault ID.
+Sets the provided {{ en.VLT }} to the mentioned VaultId.
 		</td>
 		<td>
 
-Change information about a vault and save these modifications.  
+Change information about a {{ en.VLT }} and save these modifications.  
 
 ```$psVault = Get-HubVault -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 ```  
 
@@ -762,11 +762,11 @@ New-HubVaultPermission
 		</td>
 		<td>
 
-Adds the provided vault permission to a specific vault. If a user or group **already exists**, the permission will be **overwritten**.  
+Adds the provided {{ en.VLT }} permission to a specific {{ en.VLT }}. If a user or group **already exists**, the permission will be **overwritten**.  
 
-If UserId is provided, sets a predefined PSVaultRole or a custom vault permission to this user.  
+If UserId is provided, sets a predefined PSVaultRole or a custom {{ en.VLT }} permission to this user.  
 
-If GroupId is provided, sets a predefined PSVaultRole or a custom vault permission to this group.  
+If GroupId is provided, sets a predefined PSVaultRole or a custom {{ en.VLT }} permission to this group.  
 		</td>
 		<td>
 
@@ -797,9 +797,9 @@ Remove-HubVaultPermission
 		</td>
 		<td>
 
-If UserId is provided, removes this user's vault permission from the specific vault.  
+If UserId is provided, removes this user's {{ en.VLT }} permission from the specific {{ en.VLT }}.  
 
-If GroupId is provided, removes this group's vault permission from the specific vault.  
+If GroupId is provided, removes this group's {{ en.VLT }} permission from the specific {{ en.VLT }}.  
 		</td>
 		<td>
 		</td>
@@ -819,9 +819,9 @@ Get-HubVaultPermission
 		</td>
 		<td>
 
-If UserId is provided, retrieves this user's vault permission from the specific vault.  
+If UserId is provided, retrieves this user's {{ en.VLT }} permission from the specific {{ en.VLT }}.  
 
-If GroupId is provided, retrieves this group's vault permission from the specific vault.  
+If GroupId is provided, retrieves this group's {{ en.VLT }} permission from the specific {{ en.VLT }}.  
 		</td>
 		<td>
 
@@ -849,11 +849,11 @@ Set-HubVaultPermission
 		</td>
 		<td>
 
-Sets a provided vault permission to a specific vault.  
+Sets a provided {{ en.VLT }} permission to a specific {{ en.VLT }}.  
 
-If UserId is provided, sets a predefined role or a custom vault permission to this user.  
+If UserId is provided, sets a predefined role or a custom {{ en.VLT }} permission to this user.  
 
-If GroupId is provided, sets a predefined role or a custom vault permission to this group.  
+If GroupId is provided, sets a predefined role or a custom {{ en.VLT }} permission to this group.  
 		</td>
 		<td>
 
@@ -883,9 +883,9 @@ Get-HubVaultRole
 		</td>
 		<td>
 
-If RoleId is provided, retrieves the vault role by ID.
+If RoleId is provided, retrieves the {{ en.VLT }} role by ID.
 
-If RoleId is **not** provided, retrieves all vault roles.
+If RoleId is **not** provided, retrieves all {{ en.VLT }} roles.
 		</td>
 		<td>
 		</td>
@@ -1161,7 +1161,7 @@ New-HubEntry
 * DocumentPath  
 		</td>
 		<td>
-Adds a new entry to a specific hub vault with the provided PSDecryptedEntry entry.
+Adds a new entry to a specific hub {{ en.VLT }} with the provided PSDecryptedEntry entry.
 		</td>
 		<td>
 
@@ -1179,7 +1179,7 @@ Remove-HubEntry
 * EntryId  
 		</td>
 		<td>
-Removes this entry from a specific vault. 
+Removes this entry from a specific {{ en.VLT }}. 
 		</td>
 		<td>
 		</td>
@@ -1193,9 +1193,9 @@ Get-HubEntry
 * EntryId  
 		</td>
 		<td>
-If EntryId is provided, retrieves this entry from a specific vault.  
+If EntryId is provided, retrieves this entry from a specific {{ en.VLT }}.  
 
-If EntryId is **not** provided, retrieves all entries from a specific vault.  
+If EntryId is **not** provided, retrieves all entries from a specific {{ en.VLT }}.  
 
 Entry(ies) will have sensitive passwords if you have the permission.  
 		</td>
@@ -1212,7 +1212,7 @@ Set-HubEntry
 * PSDecryptedEntry  
 		</td>
 		<td>
-Sets the provided PSDecryptedEntry to the mentioned vault and entry.
+Sets the provided PSDecryptedEntry to the mentioned {{ en.VLT }} and entry.
 		</td>
 		<td>
 

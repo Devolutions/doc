@@ -93,10 +93,10 @@ Specify the location of the data source on your screen (top or bottom of the <b>
 	</tr>
 	<tr>
 		<td>
-Vault location 
+{{ en.VLT }} location 
 		</td>
 		<td>
-Specify the location of the vault on your screen (top or bottom of the <b><i>{{ en.NPANE }}</i></b>, or not visible). 
+Specify the location of the {{ en.VLT }} on your screen (top or bottom of the <b><i>{{ en.NPANE }}</i></b>, or not visible). 
 		</td>
 	</tr>
 	<tr>
@@ -320,7 +320,7 @@ This setting disables moving entries with drag-and-drop. Use this option to avoi
 Merge credential list with sessions 
 		</td>
 		<td>
-Credentials will appear within the list of Sessions instead of in their own vault. 
+Credentials will appear within the list of Sessions instead of in their own {{ en.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -328,7 +328,7 @@ Credentials will appear within the list of Sessions instead of in their own vaul
 Merge session tool list with sessions 
 		</td>
 		<td>
-Session tool list will appear within the list of Sessions instead of in their own vault. 
+Session tool list will appear within the list of Sessions instead of in their own {{ en.VLT }}. 
 		</td>
 	</tr>
 </table>

@@ -66,18 +66,18 @@ Choose a format: <br>
 	</tr>
 	<tr>
 		<td>
-Use vault image in tree view 
+Use {{ en.VLT }} image in tree view 
 		</td>
 		<td>
-Enable to view the vaults images in the ***{{ en.NPANE }}***. 
+Enable to view the {{ en.VLT }}s images in the ***{{ en.NPANE }}***. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Disable vault dashboard overview 
+Disable {{ en.VLT }} dashboard overview 
 		</td>
 		<td>
-Disable the vaults default dashboard view. 
+Disable the {{ en.VLT }}s default dashboard view. 
 		</td>
 	</tr>
 	<tr>

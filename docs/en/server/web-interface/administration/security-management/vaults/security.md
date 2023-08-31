@@ -1,9 +1,9 @@
 ---
 title: Security
 ---
-Allow to protect the vault's modification from other administrator accounts. 
+Allow to protect the {{ en.VLT }}'s modification from other administrator accounts. 
 
-![Vaults - Security](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8071.png)  
+![{{ en.VLT }}s - Security](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8071.png)  
 
 <table>
 	<tr>
@@ -19,7 +19,7 @@ Description
 Master password 
 		</td>
 		<td>
-Master password to protect vault's modifications. 
+Master password to protect {{ en.VLT }}'s modifications. 
 		</td>
 	</tr>
 </table>

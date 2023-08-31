@@ -145,7 +145,7 @@ Legacy security has been deprecated and will be completely removed starting with
 Mitigation
 		</td>
 		<td>
-In <i><b>Administration – System Settings – Vault Management – Security Settings – Security</b></i>, disable <i><b>Use legacy security</b></i>.See <a href="/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Migrate from legacy security to permissions in {{ en.RDM }}</a>.
+In <i><b>Administration – System Settings – {{ en.VLT }} Management – Security Settings – Security</b></i>, disable <i><b>Use legacy security</b></i>.See <a href="/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Migrate from legacy security to permissions in {{ en.RDM }}</a>.
 		</td>
 	</tr>
 </table>
@@ -357,7 +357,7 @@ In Administration - System Settings - {{ en.UVLT }}, check Log {{ en.UVLT }} act
 	</tr>
 </table>
 
-### Vaults should be created with restricted permissions by default
+### {{ en.VLT }}s should be created with restricted permissions by default
 
 <table>
 	<tr>
@@ -365,7 +365,7 @@ In Administration - System Settings - {{ en.UVLT }}, check Log {{ en.UVLT }} act
 Description
 		</td>
 		<td>
-It is preferable to provide rights to users as needed. When enabling this option, vaults will be created with a more limited set of permissions.
+It is preferable to provide rights to users as needed. When enabling this option, {{ en.VLT }}s will be created with a more limited set of permissions.
 		</td>
 	</tr>
 	<tr>
@@ -373,7 +373,7 @@ It is preferable to provide rights to users as needed. When enabling this option
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - Security, check Create vaults with restricted access by default
+In Administration - System Settings - Security, check Create {{ en.VLT }}s with restricted access by default
 		</td>
 	</tr>
 </table>

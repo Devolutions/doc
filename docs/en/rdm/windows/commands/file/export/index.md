@@ -1,14 +1,14 @@
 ---
 title: Export
 ---
-Use ***File – Export*** to export vaults from {{ en.RDM }}. 
+Use ***File – Export*** to export {{ en.VLT }}s from {{ en.RDM }}. 
 
 {% snippet icon.badgeInfo %} 
 The export feature is only active if the ***Import*** and ***Export Privileges*** has been enabled inside the ***User Management*** account. 
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
-The only appropriate formats to import vaults back into {{ en.RDM }} are the .rdm and .rdx format. 
+The only appropriate formats to import {{ en.VLT }}s back into {{ en.RDM }} are the .rdm and .rdx format. 
 {% endsnippet %}
  
 ## Settings 
@@ -19,9 +19,9 @@ The only appropriate formats to import vaults back into {{ en.RDM }} are the .rd
 When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), export capabilities can be disabled via security policies at the data source level (no one can export) or at a user level (particular users cannot export). 
 {% endsnippet %}
  
-### Export vault (.rdm) 
+### Export {{ en.VLT }} (.rdm) 
 
-Export a vault in a .rdm file that can be imported into any {{ en.RDM }} data source. You can also include credentials in this export format and secure your file with a master key.  
+Export a {{ en.VLT }} in a .rdm file that can be imported into any {{ en.RDM }} data source. You can also include credentials in this export format and secure your file with a master key.  
 
 {% snippet icon.badgeInfo %} 
 By default the credentials are NOT included. It is critical to check the ***Credentials*** option in order for the exported data to include the credentials. 

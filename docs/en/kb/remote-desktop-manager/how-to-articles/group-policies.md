@@ -53,7 +53,7 @@ REGISTRY KEY
 	</tr>
 	<tr>
 		<td>
-Disable export vault menus in export menus
+Disable export {{ en.VLT }} menus in export menus
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableExportVaultMenus

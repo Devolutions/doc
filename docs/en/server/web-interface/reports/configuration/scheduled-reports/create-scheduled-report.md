@@ -125,10 +125,10 @@ Choose specific messages or fail type to refine the report.
 	</tr>
 	<tr>
 		<td>
-Vault 
+{{ en.VLT }} 
 		</td>
 		<td>
-Select all or specific vaults. 
+Select all or specific {{ en.VLT }}s. 
 		</td>
 	</tr>
 	<tr>

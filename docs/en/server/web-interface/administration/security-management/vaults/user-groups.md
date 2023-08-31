@@ -1,9 +1,9 @@
 ---
 title: User Groups
 ---
-Grant access to user groups on the vault. 
+Grant access to user groups on the {{ en.VLT }}. 
 
-![Vaults - User Groups](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8069.png)  
+![{{ en.VLT }}s - User Groups](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8069.png)  
 
 <table>
 	<tr>
@@ -19,7 +19,7 @@ Description
 Is member 
 		</td>
 		<td>
-Grant access to the user group on the vault when enabled. 
+Grant access to the user group on the {{ en.VLT }} when enabled. 
 		</td>
 	</tr>
 </table>

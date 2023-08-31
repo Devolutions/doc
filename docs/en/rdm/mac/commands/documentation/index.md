@@ -38,8 +38,8 @@ You can select ***Set as new default*** to save your preferences when you create
 
 ##  Synchronize offline documentation  
  1. Choose the entry in the ***{{ en.NPANE }}***.  
- 1. Go to ***Administration – Vault Settings*** in the ribbon. 
- ![Vault Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6025.png)  
+ 1. Go to ***Administration – {{ en.VLT }} Settings*** in the ribbon. 
+ ![{{ en.VLT }} Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6025.png)  
  1. In ***Security Settings – Offline – Synchronize documentation to offline***, select ***Yes***.  
  ![Synchronize documentation to offline](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6019.png)  
  1. Click ***Save*** and close the window.  

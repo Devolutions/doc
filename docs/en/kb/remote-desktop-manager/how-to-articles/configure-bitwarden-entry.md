@@ -49,7 +49,7 @@ Here is a description for each field or option, in order from top to bottom. The
 * ***Client ID***: Bitwarden's Client ID
 * ***Client secret***: Bitwarden's Client secret
 * ***Master password***: Bitwarden's master password
-* ***Destination folder***: Click the ellipsis button to set the folder path in the {{ en.RDM }} tree view (which can only be in the same vault)
+* ***Destination folder***: Click the ellipsis button to set the folder path in the {{ en.RDM }} tree view (which can only be in the same {{ en.VLT }}).
 * ***Template***: Bitwarden template created within {{ en.RDM }}
 * ***Duplicate check*** will not import entries with the same type and host
   * ***Root***: Check for duplicates within the whole data source
@@ -57,7 +57,7 @@ Here is a description for each field or option, in order from top to bottom. The
 
 ### Filter
 ![Filter tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0070.png)  
-* ***Filter box***: It will load the Bitwarden vault to let the user pick the wanted Organizations/Collections for synchronization
+* ***Filter box***: It will load the Bitwarden {{ en.VLT }} to let the user pick the wanted Organizations/Collections for synchronization
 * ***Filter severity***
   * ***Normal***: Accounts that are either in the selected folders or collections will be returned
   * ***Strict***: Accounts that are both in the selected folders and collections will be returned

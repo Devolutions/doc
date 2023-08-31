@@ -11,8 +11,8 @@ These settings are only available for the {{ en.DVLS }}, Microsoft SQL Server, a
 
 ***Temporary Access*** is set to ***Denied*** by default in {{ en.RDM }}.  
 
-1. To enable the feature, go to ***Administration – Vault Settings – Security Settings – Temporary Access***.
-![Administration – Vault Settings – Security Settings – Temporary Access](https://webdevolutions.azureedge.net/docs/en/kb/KB4856.png)
+1. To enable the feature, go to ***Administration – {{ en.VLT }} Settings – Security Settings – Temporary Access***.
+![Administration – {{ en.VLT }} Settings – Security Settings – Temporary Access](https://webdevolutions.azureedge.net/docs/en/kb/KB4856.png)
 
 1. Set the ***Mode*** to ***Allowed***.
 1. Optional: Change the ***Authorizers*** to ***Custom*** to add users to the authorizers list.

@@ -116,15 +116,15 @@ Create user groups and assign previously created users to those groups. Each use
 	</tr>
 	<tr>
 		<td>
-Step 7 - Create vaults
+Step 7 - Create {{ en.VLT }}s
 
 		</td>
 		<td>
-In {{ en.RDM }}, data is stored in a hierarchy of folders and entries all within vaults. The number of vaults created and the way they are categorized is completely up to you, but we have seen great success in teams separating their content by departments, locations, and customer accounts.  
+In {{ en.RDM }}, data is stored in a hierarchy of folders and entries all within {{ en.VLT }}s. The number of {{ en.VLT }}s created and the way they are categorized is completely up to you, but we have seen great success in teams separating their content by departments, locations, and customer accounts.  
 
-All users have access to the Default vault created after installing {{ en.RDM }}. You can change its configuration as well as [create other vaults](/rdm/windows/commands/administration/management/vaults-overview/#create-a-vault), then [assign them users and user groups](/rdm/windows/commands/administration/management/vaults-overview/#give-users-and-user-groups-access-to-a-vault).  
+All users have access to the Default {{ en.VLT }} created after installing {{ en.RDM }}. You can change its configuration as well as [create other {{ en.VLT }}s](/rdm/windows/commands/administration/management/vaults-overview/#create-a-vault), then [assign them users and user groups](/rdm/windows/commands/administration/management/vaults-overview/#give-users-and-user-groups-access-to-a-vault).  
 
-Access all vaults using the vault selector in the ***{{ en.NPANE }}***. Each user can also access their own ***{{ en.UVLT }}***. This vault is only accessible to them and is a great place to store business-related entries for the user, such as alarm codes, user credentials, websites, documents, etc.  
+Access all {{ en.VLT }}s using the {{ en.VLT }} selector in the ***{{ en.NPANE }}***. Each user can also access their own ***{{ en.UVLT }}***. This {{ en.VLT }} is only accessible to them and is a great place to store business-related entries for the user, such as alarm codes, user credentials, websites, documents, etc.  
 
 {% youtube 'BfFvtHJSzbs?start=602' %}  
 		</td>
@@ -135,7 +135,7 @@ Step 8 - Assign permissions
 
 		</td>
 		<td>
-[Permissions](/rdm/windows/user-groups-based-access-control/permissions/) can be granted to users and user groups. They are set on the vault, folder, and entry levels.  
+[Permissions](/rdm/windows/user-groups-based-access-control/permissions/) can be granted to users and user groups. They are set on the {{ en.VLT }}, folder, and entry levels.  
 
 The permissions granted on the folder can be inherited by each entry set under that folder.  
 

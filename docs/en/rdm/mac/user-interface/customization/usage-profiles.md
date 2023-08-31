@@ -323,7 +323,7 @@ Upcoming tasks
 	</tr>
 	<tr>
 		<td>
-Vaults
+{{ en.VLT }}s
 		</td>
 		<td>
  

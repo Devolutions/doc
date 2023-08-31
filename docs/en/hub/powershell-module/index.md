@@ -42,14 +42,14 @@ Other installation options can be found in the [PowerShell Gallery](https://www.
 
 ### Command Example and Use 
 
-1. With the `Get-HubVault` command, you can get vaults that your application user can view and edit.  
+1. With the `Get-HubVault` command, you can get {{ en.VLT }}s that your application user can view and edit.  
 {% snippet icon.badgeInfo %} 
-If you have set the permissions of your application user to multiple vaults, you will see an array of vaults. 
+If you have set the permissions of your application user to multiple {{ en.VLT }}s, you will see an array of {{ en.VLT }}s. 
 {% endsnippet %}   
 
 ![Get-HubVault Command](https://webdevolutions.azureedge.net/docs/en/hub/Hub4063.png) 
 
-2. With this vault information, you can get all of the entries with the command `Get-HubEntry` and the vault ID. 
+2. With this {{ en.VLT }} information, you can get all of the entries with the command `Get-HubEntry` and the {{ en.VLT }} ID. 
 
 {% snippet icon.badgeInfo %} 
 If you have more than one entry, you will see an array of entries. 

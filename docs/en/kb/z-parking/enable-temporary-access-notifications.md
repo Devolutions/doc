@@ -19,9 +19,9 @@ This notification is only available for the Microsoft SQL Server and Microsoft A
     1. Invite Users to your Organization.
 
 ## Steps
-1. In {{ en.RDM }}, go to ***Administration – System Settings – Vault***.
+1. In {{ en.RDM }}, go to ***Administration – System Settings – {{ en.VLT }}***.
 1. Click ***Enable Temporary Access Notifications***.
 
-![Administration – System Settings – Vault – Enable Temporary Access Notifications](https://webdevolutions.azureedge.net/docs/en/kb/KB4854.png)
+![Administration – System Settings – {{ en.VLT }} – Enable Temporary Access Notifications](https://webdevolutions.azureedge.net/docs/en/kb/KB4854.png)
 
 3. Click ***OK*** to close the window, then save the changes.

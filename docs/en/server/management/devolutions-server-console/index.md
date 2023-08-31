@@ -381,10 +381,10 @@ Will open the <a href="/server/web-interface/administration/security-management/
 	</tr>
 	<tr>
 		<td>
-Vaults
+{{ en.VLT }}s
 		</td>
 		<td>
-Will open the <a href="/server/web-interface/administration/security-management/vaults/">Vaults management</a> page on the {{ en.DVLS }} web interface.
+Will open the <a href="/server/web-interface/administration/security-management/vaults/">{{ en.VLT }}s management</a> page on the {{ en.DVLS }} web interface.
 		</td>
 	</tr>
 	<tr>

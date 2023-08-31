@@ -20,4 +20,4 @@ You can request access to a public vault in {{ en.RDMMAC }}. Follow the steps be
 1. When you are done, click on ***Send Request***.  
 1. A message will appear indicating that the request has been sent to the approver. Click ***OK*** to make it disappear.  
 
-You now have to wait for the approver to respond to your request. If they approve your request, the vault will appear in the vault selector drop-down menu with the other vaults you already have access to.
+You now have to wait for the approver to respond to your request. If they approve your request, the vault will appear in the vault selector drop-down menu with the other {{ en.VLT }}s you already have access to.

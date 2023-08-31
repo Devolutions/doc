@@ -1,7 +1,7 @@
 ---
 title: Add Website
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the vaults and entries of the [***Vaults***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***{{ en.UVLT }}***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through {{ en.DWL }}.  
+The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s and entries of the [***{{ en.VLT }}s***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***{{ en.UVLT }}***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through {{ en.DWL }}.  
 
 When {{ en.DHUBB }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
 ![New Entry - Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2132.png) 
@@ -29,11 +29,11 @@ Enter a name for your entry. This field is automatically filled in by {{ en.DWL 
 	</tr>
 	<tr>
 		<td>
-Vault 
+{{ en.VLT }} 
 		</td>
 		<td>
 
-Choose the vault in which to store your new website entry in {{ en.DHUBB }}. You can select any available vault, including your ***{{ en.UVLT }}***. 
+Choose the {{ en.VLT }} in which to store your new website entry in {{ en.DHUBB }}. You can select any available {{ en.VLT }}, including your ***{{ en.UVLT }}***. 
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +49,7 @@ Enter the name of the folder in which your new entry will be stored in {{ en.DHU
 Host 
 		</td>
 		<td>
-Select in the drop-down list how {{ en.DWL }} will fetch the host between ***Custom***, ***Linked (Vault)***, or ***Inherited***. If you select ***Custom***, the ***URL*** field (see below) will appear. If you select ***Linked (Vault)***, a drop-down list will appear in which you will be able to select the host. 
+Select in the drop-down list how {{ en.DWL }} will fetch the host between ***Custom***, ***Linked ({{ en.VLT }})***, or ***Inherited***. If you select ***Custom***, the ***URL*** field (see below) will appear. If you select ***Linked ({{ en.VLT }})***, a drop-down list will appear in which you will be able to select the host. 
 		</td>
 	</tr>
 	<tr>
@@ -65,7 +65,7 @@ Enter the URL of the website’s login page. This field is automatically filled 
 Credentials 
 		</td>
 		<td>
-Select in the drop-down list between ***Custom***, ***Linked (Vault)***, ***Inherited***, ***My personal credentials***, ***Find by name ({{ en.UVLT }})***, or ***None*** to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
+Select in the drop-down list between ***Custom***, ***Linked ({{ en.VLT }})***, ***Inherited***, ***My personal credentials***, ***Find by name ({{ en.UVLT }})***, or ***None*** to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
 		</td>
 	</tr>
 	<tr>
@@ -392,7 +392,7 @@ Source
 		</td>
 		<td>
 
-Select the OTP ***Source*** in the drop-down list between ***None***, ***Custom***, ***Linked (Vault)***, ***Current session***, ***Prompt***, or ***Inherited***. Selecting ***Custom*** gives you access to the other settings in this table. 
+Select the OTP ***Source*** in the drop-down list between ***None***, ***Custom***, ***Linked ({{ en.VLT }})***, ***Current session***, ***Prompt***, or ***Inherited***. Selecting ***Custom*** gives you access to the other settings in this table. 
 		</td>
 	</tr>
 	<tr>

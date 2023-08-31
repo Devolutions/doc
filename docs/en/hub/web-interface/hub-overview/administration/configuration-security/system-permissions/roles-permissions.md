@@ -29,7 +29,7 @@ MANAGERS
 	</tr>
 	<tr>
 		<td>
-View vault 
+View {{ en.VLT }} 
 		</td>
 		<td>
 ![!!BadgeNoticeSmall.png](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
@@ -49,7 +49,7 @@ View vault
 	</tr>
 	<tr>
 		<td>
-Manage vault 
+Manage {{ en.VLT }} 
 		</td>
 		<td>
 

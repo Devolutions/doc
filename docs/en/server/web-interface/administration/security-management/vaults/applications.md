@@ -1,9 +1,9 @@
 ---
 title: Applications
 ---
-Grant access to applications on the vault. 
+Grant access to applications on the {{ en.VLT }}. 
 
-![Vaults - Application](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8070.png)
+![{{ en.VLT }}s - Application](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8070.png)
 
 <table>
 	<tr>
@@ -19,7 +19,7 @@ Description
 Is member 
 		</td>
 		<td>
-Grant access to the application on the vault when enabled. 
+Grant access to the application on the {{ en.VLT }} when enabled. 
 		</td>
 	</tr>
 </table>

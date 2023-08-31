@@ -245,7 +245,7 @@ SystemVaultPermissions
 Object(VaultPermissions) 
 		</td>
 		<td>
-Object that gives you a list of users and groups permissions that are globally set to all vaults. 
+Object that gives you a list of users and groups permissions that are globally set to all {{ en.VLT }}s. 
 		</td>
 	</tr>
 	<tr>
@@ -513,7 +513,7 @@ Description
 String 
 		</td>
 		<td>
-Vault description. 
+{{ en.VLT }} description. 
 		</td>
 	</tr>
 	<tr>
@@ -524,7 +524,7 @@ Id
 Guid 
 		</td>
 		<td>
-ReadOnly - Vault ID. 
+ReadOnly - {{ en.VLT }} ID. 
 		</td>
 	</tr>
 	<tr>
@@ -535,7 +535,7 @@ Name
 String 
 		</td>
 		<td>
-Vault name. 
+{{ en.VLT }} name. 
 		</td>
 	</tr>
 	<tr>
@@ -546,7 +546,7 @@ State
 Enum(VaultState) 
 		</td>
 		<td>
-ReadOnly - Enum that shows you the vault state. 
+ReadOnly - Enum that shows you the {{ en.VLT }} state. 
 		</td>
 	</tr>
 	<tr>
@@ -557,7 +557,7 @@ Type
 Enum(VaultType) 
 		</td>
 		<td>
-ReadOnly - Enum that shows you the vault type. 
+ReadOnly - Enum that shows you the {{ en.VLT }} type. 
 		</td>
 	</tr>
 	<tr>
@@ -568,7 +568,7 @@ VaultPermissions
 Object(VaultPermissions) 
 		</td>
 		<td>
-Object that gives you a list of users and groups permissions that are set to this vault. 
+Object that gives you a list of users and groups permissions that are set to this {{ en.VLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -579,7 +579,7 @@ Version
 Enum(VaultVersion) 
 		</td>
 		<td>
-ReadOnly - Enum that shows you the vault version. 
+ReadOnly - Enum that shows you the {{ en.VLT }} version. 
 		</td>
 	</tr>
 </table>
@@ -721,7 +721,7 @@ VaultVersion
 Enum(VaultVersion) 
 		</td>
 		<td>
-ReadOnly - Enum that shows you the vault version. 
+ReadOnly - Enum that shows you the {{ en.VLT }} version. 
 		</td>
 	</tr>
 	<tr>

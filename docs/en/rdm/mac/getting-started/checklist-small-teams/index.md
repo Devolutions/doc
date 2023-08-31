@@ -121,15 +121,15 @@ Create user groups and assign previously created users to those groups. Each use
 	</tr>
 	<tr>
 		<td>
-Step 7 - Create vaults
+Step 7 - Create {{ en.VLT }}s
 
 		</td>
 		<td>
-In {{ en.RDM }}, data is stored in a hierarchy of folders and entries all within vaults. The number of vaults created and the way they are categorized is completely up to you, but we have seen great success in teams separating their content by departments, locations, and customer accounts.  
+In {{ en.RDM }}, data is stored in a hierarchy of folders and entries all within {{ en.VLT }}s. The number of {{ en.VLT }}s created and the way they are categorized is completely up to you, but we have seen great success in teams separating their content by departments, locations, and customer accounts.  
 
-All users have access to the Default vault created after installing {{ en.RDM }}. You can change its configuration as well as [create other vaults](/rdm/mac/commands/administration/vaults-overview/#create-a-vault), then [assign them users and user groups](/rdm/mac/commands/administration/vaults-overview/#give-users-and-user-groups-access-to-a-vault).  
+All users have access to the Default vault created after installing {{ en.RDM }}. You can change its configuration as well as [create other {{ en.VLT }}s](/rdm/mac/commands/administration/vaults-overview/#create-a-vault), then [assign them users and user groups](/rdm/mac/commands/administration/vaults-overview/#give-users-and-user-groups-access-to-a-vault).  
 
-Access all vaults using the vault selector in the ***{{ en.NPANE }}***. Each user can also access their own ***{{ en.UVLT }}***. This vault is only accessible to them and is a great place to store business-related entries for the user, such as alarm codes, user credentials, websites, documents, etc.  
+Access all {{ en.VLT }}s using the vault selector in the ***{{ en.NPANE }}***. Each user can also access their own ***{{ en.UVLT }}***. This vault is only accessible to them and is a great place to store business-related entries for the user, such as alarm codes, user credentials, websites, documents, etc.  
 
 {% youtube 'BfFvtHJSzbs?start=602' %}  
 		</td>

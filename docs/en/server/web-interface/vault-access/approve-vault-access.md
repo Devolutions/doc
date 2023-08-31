@@ -6,7 +6,7 @@ eleventyComputed:
   keywords: 
   - vault access
 ---
-In {{ en.DVLS }}, users can request access to a public vault. An administrator / vault owner then has to approve the request. Vault owners are configured in ***Administration*** – ***Security Management*** – ***Vaults*** when creating or editing a vault, under the ***Vault Owners*** section.
+In {{ en.DVLS }}, users can request access to a public vault. An administrator / vault owner then has to approve the request. Vault owners are configured in ***Administration – Security Management – {{ en.VLT }}s*** when creating or editing a vault, under the ***Vault Owners*** section.
 
 ## View pending vault access requests
 

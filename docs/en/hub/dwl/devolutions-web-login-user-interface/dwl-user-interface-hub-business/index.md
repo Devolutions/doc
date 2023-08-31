@@ -36,7 +36,7 @@ Using the tabs of the ***Side Menu***, you can access various {{ en.DWL }} featu
 Each tab will display a different view in the ***Content Area***. The tabs available when using {{ en.DWL }} with {{ en.DHUBB }} are:  
 
 * the ***Matching*** tab, where you find available credentials for a specific website. 
-* the ***Vaults*** tab,  where you can find all the {{ en.DHUBB }} entries you synchronized, divided into your different vaults and folders. 
+* the ***{{ en.VLT }}s*** tab,  where you can find all the {{ en.DHUBB }} entries you synchronized, divided into your different {{ en.VLT }}s and folders. 
 * the ***{{ en.UVLT }}*** tab, where you can find the entries you stored in your {{ en.DHUBB }} ***{{ en.UVLT }}***, divided into your different folders. 
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  
 

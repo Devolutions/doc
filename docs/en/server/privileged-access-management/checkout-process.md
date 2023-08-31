@@ -22,7 +22,7 @@ This topic will cover both the [PAM checkout process](#checkout) and the [PAM ch
 
 ## Checkout with custom time
 {% snippet icon.badgeInfo %}
-Making a ***Checkout*** request in advance is only available in PAM vaults.
+Making a ***Checkout*** request in advance is only available in PAM {{ en.VLT }}s.
 {% endsnippet %}  
 
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.

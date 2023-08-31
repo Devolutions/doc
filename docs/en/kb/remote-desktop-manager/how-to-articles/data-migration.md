@@ -26,11 +26,11 @@ MariaDB: [MySQLDump](https://mariadb.com/kb/en/mariadb/mysqldump/)
 
 1. Select the data source you wish to export.  
 {% snippet icon.badgeCaution %}
-If you have multiple vaults, you will need to export each vault separately or use the ***Export all Vaults (.rdx)*** in the ***Administration*** tab.
+If you have multiple {{ en.VLT }}s, you will need to export each {{ en.VLT }} separately or use the ***Export all {{ en.VLT }}s (.rdx)*** in the ***Administration*** tab.
 {% endsnippet %}  
 
-2. Select ***File – Export – Export Vault (.rdm)***.  
-![File – Export – Export Vault (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4540.png)
+2. Select ***File – Export – Export {{ en.VLT }} (.rdm)***.  
+![File – Export – Export {{ en.VLT }} (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4540.png)
 1. For a typical migration, you would check the options ***Include credentials***, ***Include attachments and documents***, and ***Encrypt with master key***.
    * You can choose to remove all the folders present in your navigation tree.
    * It is important to ***Include credentials*** at this step. If you choose not to, all your entries will be imported without any credentials.

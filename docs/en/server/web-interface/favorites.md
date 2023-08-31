@@ -1,7 +1,7 @@
 ---
 title: Favorites
 ---
-The ***Favorites*** section contains entries flagged as favorite, by the current user, from all the vaults this user has access. ***Favorites*** are not shared and they roam with the user profile.  
+The ***Favorites*** section contains entries flagged as favorite, by the current user, from all the {{ en.VLT }}s this user has access. ***Favorites*** are not shared and they roam with the user profile.  
 
 This is useful when the number of managed entries becomes too great or when a strict directory structure must be maintained.  
 

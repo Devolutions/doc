@@ -31,7 +31,7 @@ Notice the middle part is the ***Name ID*** entered previously. Depending on you
 1. Create a new entry, we will use an RDP entry for this example.  
 ![Create a new entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6078.png)  
 1. Enter a ***Name*** and choose a ***Folder***.  
-1. For ***Credentials***, select ***Linked (Vault)*** and then your newly created ***Credential Redirection entry***.  
+1. For ***Credentials***, select ***Linked ({{ en.VLT }})*** and then your newly created ***Credential Redirection entry***.  
 ![Credentials section](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6077.png) 
 1. Select your session then launch it. {{ en.RDM }} will display this informative dialog.  
 ![Informative dialog](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6079.png)   

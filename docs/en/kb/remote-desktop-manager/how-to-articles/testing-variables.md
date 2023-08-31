@@ -11,7 +11,7 @@ If the option is greyed out, you need to activate ***Allow password variables fo
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
-If you are using the ***Linked (Vault)*** credential mode in your entries, you will need to enable the ***Allow password in variable*** option in the linked credential entry as well.
+If you are using the ***Linked ({{ en.VLT }})*** credential mode in your entries, you will need to enable the ***Allow password in variable*** option in the linked credential entry as well.
 {% endsnippet %}
 
 {{ en.RDM }}'s ***Auto Typing Macro*** is really helpful to simulate user interaction. It is mostly used to perform automatic logon on web pages, but you can run advanced shell commands on various operating systems.

@@ -12,7 +12,7 @@ Some features are only available in the Team Edition. {{ en.RDM }} also offers a
 ## Retrieve ID and create an executable
 <a name="retrieve"></a>
 
-It is possible to get the IDs of a ***database***, ***data source***, ***entry***, and ***vault*** as well as a ***Command Line***. Follow the steps below to view this information in a single location:
+It is possible to get the IDs of a ***database***, ***data source***, ***entry***, and ***{{ en.VLT }}*** as well as a ***Command Line***. Follow the steps below to view this information in a single location:
 
 1. Right-click on the entry whose information you want to obtain, then go to ***Properties***.  
 ![!!KB2055.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2055.png)
