@@ -29,10 +29,10 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 
 ## Example <a name="Example"></a>
 
-- Activate {{ en.DVLS }}
-- Set ***https<area>://localhost/mydvlsurl*** as {{ en.DVLS }} URL.
-- Disable the settings page.
-- Always override the settings in the ***settings*** section when the extension starts.
+* Activate {{ en.DVLS }}
+* Set ***https<area>://localhost/mydvlsurl*** as {{ en.DVLS }} URL.
+* Disable the settings page.
+* Always override the settings in the ***settings*** section when the extension starts.
 
 ```
 {
@@ -137,17 +137,17 @@ disableSettingsPage
 Hide the settings button and disable the settings page in {{ en.DWL }} for the end-user.  
 Possible values:
 
-- ***True***
-- ***False*** (Default)
+* ***True***
+* ***False*** (Default)
 
 setGPOSettings
 
 Set when the GPO settings are used.  
 Possible values:
 
-- OnInstall (default): Set the value the GPO settings when the extension is installed.
-- AlwaysOverride: Always override the value from the GPO settings when the extension is started.
-- AlwaysUseDefaultAndOverride: Use the default settings for all settings not in the GPO and override the values from the GPO when the extension is started.
+* OnInstall (default): Set the value the GPO settings when the extension is installed.
+* AlwaysOverride: Always override the value from the GPO settings when the extension is started.
+* AlwaysUseDefaultAndOverride: Use the default settings for all settings not in the GPO and override the values from the GPO when the extension is started.
 
 ## Configuring {{ en.DWL }} extension to be automatically pinned on the Chrome toolbar
 

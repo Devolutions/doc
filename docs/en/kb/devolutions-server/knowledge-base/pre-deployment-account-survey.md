@@ -12,8 +12,8 @@ The names used in this guide are to ease comprehension of the role fulfilled by 
 
 Please choose the appropriate section
 
-- Domain Based Operation
-- Non-Domain Based Operation or Azure SQL environment
+* Domain Based Operation
+* Non-Domain Based Operation or Azure SQL environment
 
 ## Domain Based Operation (Integrated Security option) 
 

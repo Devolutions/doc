@@ -19,14 +19,14 @@ Click on the ***ellipsis*** button in the ***{{ en.NPANE }}***, then click on **
 Select the ***Microsoft SQL Server*** data source and click ***OK***.  
 ![!!KB4588](https://webdevolutions.azureedge.net/docs/en/kb/KB4588.png)  
 
-- Specify the ***Name, Server*** and ***Database***.  
-- Authenticate with a user that is part of the ***sysadmin*** role.  
+* Specify the ***Name, Server*** and ***Database***.  
+* Authenticate with a user that is part of the ***sysadmin*** role.  
 ![!!KB4589](https://webdevolutions.azureedge.net/docs/en/kb/KB4589.png)  
 {% snippet icon.badgeInfo %}
 If the logged-on Windows User is not part of the SQL Server ***sysadmin*** role and you have configured the server to use SQL Server and Windows Authentication Mode, then use a SQL Server user (SA for example) that has the appropriate user groups assigned. You can then add yourself as a {{ en.RDM }} user later and change the data source to use Integrated security.
 {% endsnippet %}  
 
-- From the upgrade tab, click ***Test Server*** then ***Create Database*** to create the SQL Server database.  
+* From the upgrade tab, click ***Test Server*** then ***Create Database*** to create the SQL Server database.  
 ![!!KB4590](https://webdevolutions.azureedge.net/docs/en/kb/KB4590.png)  
 Press ***OK*** to close the dialogs. In the ***{{ en.NPANE }}***, select the newly created data source from the data source drop down list.  
 ![!!KB4591](https://webdevolutions.azureedge.net/docs/en/kb/KB4591.png)
@@ -56,9 +56,9 @@ Repeat these steps for each user that needs access to this data source in {{ en.
 
 To configure the data source on other workstations, three methods are available:  
 
-- Create the data source as done previously, making sure to check the ***Integrated Security (Active Directory)*** box.  
-- Export the data source from the initial workstation and import it into {{ en.RDM }} on all client workstations.  
-- Use our [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-service/) service to help distribute the application and personalize the installation process.  
+* Create the data source as done previously, making sure to check the ***Integrated Security (Active Directory)*** box.  
+* Export the data source from the initial workstation and import it into {{ en.RDM }} on all client workstations.  
+* Use our [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-service/) service to help distribute the application and personalize the installation process.  
 
 ## Test the configuration
 

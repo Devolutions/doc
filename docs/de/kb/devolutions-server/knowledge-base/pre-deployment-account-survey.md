@@ -9,8 +9,8 @@ Die in diesem Leitfaden verwendeten Namen dienen nur zum besseren Verständnis. 
 
 Bitte wählen Sie den entsprechenden Bereich aus:
 
-- Domänenkonten
-- Lokale SQL-Konten oder Azure SQL-Umgebung
+* Domänenkonten
+* Lokale SQL-Konten oder Azure SQL-Umgebung
 
 ## Domänenkonten (Integrierte Sicherheit) 
 

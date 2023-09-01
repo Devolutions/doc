@@ -7,8 +7,8 @@ The ***Export*** and ***Import*** features for the ***User Specific Settings*** 
 
 If you or your ***Users*** are overriding entry properties with ***User Specific Settings*** in {{ en.RDM }}, everyone will be required to export and import the ***User Specific Settings List*** when migrating data.
 
-- [Export](#export)
-- [Import](#import)
+* [Export](#export)
+* [Import](#import)
 
 ## Export
 <a name="export"></a>

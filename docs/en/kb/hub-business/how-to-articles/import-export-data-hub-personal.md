@@ -10,8 +10,8 @@ You can import new data to your {{ en.DHUBP }} and export your existing data to 
 
 Go to the section that corresponds to your needs:
 
-- [Import data to {{ en.DHUBP }}](#import)
-- [Export data from {{ en.DHUBP }}](#export)
+* [Import data to {{ en.DHUBP }}](#import)
+* [Export data from {{ en.DHUBP }}](#export)
 
 ### Import Data
 <a name="import"></a>

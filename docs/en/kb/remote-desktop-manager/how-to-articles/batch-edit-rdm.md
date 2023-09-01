@@ -21,9 +21,9 @@ Regardless of the method used, it is recommended that only one entry type be sel
 To edit the information of folders, you MUST go through the ***[Advanced Search](#advanced)*** or ***[Multi {{ en.VLT }} Search](#multi)*** methods to select the folders. If you select the folders manually in the ***{{ en.NPANE }}***, you will be editing the information in the child entries of the folders, NOT the information in the folders themselves.
 {% endsnippet %}
 
-- [Manual selection](#manual)
-- [Advanced Search](#advanced)
-- [Multi {{ en.VLT }} Search](#multi)
+* [Manual selection](#manual)
+* [Advanced Search](#advanced)
+* [Multi {{ en.VLT }} Search](#multi)
 
 ### Manual selection 
 <a name="manual"></a>
@@ -70,9 +70,9 @@ Proceed to the [Batch Edit Actions](#edit) section for the next steps.
 
 The ***Batch Edit*** feature allows you to perform the following actions:
 
-- Change Saved Host Name/Credentials 
-- Reset All Saved Credentials/Passwords 
-- Edit Entries (General Settings / Session Type Settings / Security Group Legacy / Asset / User Specific Settings / Local Specific Settings)  
+* Change Saved Host Name/Credentials 
+* Reset All Saved Credentials/Passwords 
+* Edit Entries (General Settings / Session Type Settings / Security Group Legacy / Asset / User Specific Settings / Local Specific Settings)  
 
 {% snippet icon.badgeWarning %}
 Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).

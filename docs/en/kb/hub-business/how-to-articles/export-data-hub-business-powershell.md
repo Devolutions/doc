@@ -15,8 +15,8 @@ Keep the ***Application Secret*** and ***Application key*** of your newly-create
 
 Go to the section that corresponds to your needs:
 
-- [Automatically fill in the information](#automatic)
-- [Manually fill in the information](#manual)
+* [Automatically fill in the information](#automatic)
+* [Manually fill in the information](#manual)
 
 ### Automatically fill in the information
 <a name="automatic"></a>

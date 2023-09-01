@@ -3,9 +3,9 @@ title: Install root certificates
 ---
 Here are various procedures to install root certificates:
 
-- [Windows](#windows)
-- [Linux](#linux-(ubuntu%2C-debian))
-- [Exceptions for web browsers](#exceptions-for-web-browsers)
+* [Windows](#windows)
+* [Linux](#linux-(ubuntu%2C-debian))
+* [Exceptions for web browsers](#exceptions-for-web-browsers)
 
 ## Windows
 

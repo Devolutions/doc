@@ -11,10 +11,10 @@ On Windows, we recommend using Chocolatey to install OpenSSL and its dependencie
 `choco install openssl`
 {% endsnippet %}
 
-- [Create the Root Certification Authority (CA)](#root)
-- [Generate a Certificate Signing Request (CSR) - Server](#server)
-- [Generate a Certificate Signing Request (CSR) - Client](#client)
-- [Process a Certificate Signing Request (CSR) on the Root Certificate Authority (CA)](#process)
+* [Create the Root Certification Authority (CA)](#root)
+* [Generate a Certificate Signing Request (CSR) - Server](#server)
+* [Generate a Certificate Signing Request (CSR) - Client](#client)
+* [Process a Certificate Signing Request (CSR) on the Root Certificate Authority (CA)](#process)
 
 ### Root Certification authority (CA)
 <a name="root"></a>

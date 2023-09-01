@@ -3,8 +3,8 @@ title: Register your integration module license
 ---
 In {{ en.RDM }} 2021.2 and higher, we have removed the minimum requirement to a Site license for our Privileged Access Management (PAM) partners integration and replaced it by a feature license. This integration feature license is required to be registered in {{ en.RDM }} to activate each PAM partner modules, namely CyberArk, Beyond Trust Password Safe and Delinea Secret Server.
 
-- [Licensing with {{ en.DVLS }} data source](#server)
-- [Licensing with all other data sources](#all)
+* [Licensing with {{ en.DVLS }} data source](#server)
+* [Licensing with all other data sources](#all)
 
 {% snippet icon.shieldWarning %}
 This feature is only available for some specific data sources, namely: {{ en.DVLS }}, SQLite, Microsoft SQL Server and Azure SQL.

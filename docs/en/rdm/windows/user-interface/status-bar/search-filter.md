@@ -3,7 +3,7 @@ title: Search/Filter
 ---
 It is possible to apply a filter in the ***{{ en.NPANE }}*** tree view by typing some characters in the filter box. The filter is applied using the specified settings in the application ***File – Options – User Interface – Filter***. 
 
-### Ellipsis Button 
+## Ellipsis button 
 
 Select the ellipsis button to display the options.  
 ![Ellipsis button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11003.png) 
@@ -27,13 +27,13 @@ In Navigation options, you can limit the search parameters to specific entry typ
 The Search Options offers the chance to customize your search, such as including shortcuts or favorites, making it case sensitive, and more!  
 ![Search Options](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11012.png) 
 
-### Keyboard Shortcut 
+## Keyboard shortcut 
 
 Use the keyboard shortcut Ctrl+F to quickly have access to the Search/Filter control. This can be disabled in ***File - Options - User Interface - Keyboard.***.  
 
 You can set the focus back on the ***{{ en.NPANE }}*** by using the keyboard shortcut Ctrl+L, this also can be disabled in the options. 
 
-## Boolean Filter 
+## Boolean filter 
 
 Here a few implementation notes for the Boolean filter:  
 
@@ -54,7 +54,6 @@ Here a few implementation notes for the Boolean filter:
 ### Examples (this will not work as expected) 
 
 * Laptop & "Baton Rouge" 
-- Will work but filter for the string "Baton Rouge" and not the string Baton Rouge 
+* Will work but filter for the string "Baton Rouge" and not the string Baton Rouge 
 * Laptop & (Baton Rouge || Boise) 
-- Will work but filter for Laptop and the string (Baton Rouge || Boise) 
-
+* Will work but filter for Laptop and the string (Baton Rouge || Boise)

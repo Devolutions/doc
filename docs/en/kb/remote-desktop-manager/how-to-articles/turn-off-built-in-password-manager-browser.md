@@ -3,11 +3,11 @@ title: Turn off the built-in password manager in your browser
 ---
 Here are the steps to stop your built-in browser password manager from asking to save your passwords.  
 
-- [Chrome](#chrome)
-- [Firefox](#firefox)
-- [Microsoft Edge](#microsoft)
-- [Safari](#safari)
-- [Internet Explorer](#explorer)
+* [Chrome](#chrome)
+* [Firefox](#firefox)
+* [Microsoft Edge](#microsoft)
+* [Safari](#safari)
+* [Internet Explorer](#explorer)
 
 ## Chrome
 <a name="chrome"></a>

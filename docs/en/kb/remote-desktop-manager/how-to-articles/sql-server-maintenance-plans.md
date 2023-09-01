@@ -17,9 +17,9 @@ If you are comfortable with only being able to revert to last night’s backup, 
 
 If you want something a little more robust, we have seen the following:
 
-- A daily full backup of the DB.
-- More frequent backup of the transaction log, lets say every 4 hours starting at 06:00 and ending at 18:01 or 22:01
-- A cleanup task to remove older backups.
+* A daily full backup of the DB.
+* More frequent backup of the transaction log, lets say every 4 hours starting at 06:00 and ending at 18:01 or 22:01
+* A cleanup task to remove older backups.
 
 If you need to be able to recover data that is minutes in the past, then you really need a qualified DBA to help you.
 

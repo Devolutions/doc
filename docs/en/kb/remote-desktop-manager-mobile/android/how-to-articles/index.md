@@ -1,4 +1,4 @@
 ---
-title: How-To Articles
+title: How-to articles
 order: 0
 ---

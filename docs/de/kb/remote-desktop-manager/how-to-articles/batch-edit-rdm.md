@@ -20,9 +20,9 @@ Unabhängig von der verwendeten Methode ist es empfehlenswert, für jede Stapelv
 Um die Informationen von Ordnern zu bearbeiten, MÜSSEN Sie die ***[Erweiterte Suche](#advanced)*** oder die ***[Multi-{{ de.VLT }} Suche](#multi)*** verwenden, um die Ordner auszuwählen. Wenn Sie die Ordner manuelle im ***Navigationsbereich*** auswählen, werden die Informationen in den untergeordneten Einträgen bearbeitet, NICHT die Informationen in den Ordnern selbst.
 {% endsnippet %}
 
-- [Manuelle Auswahl](#manual)
-- [Erweiterte Suche](#advanced)
-- [Multi-{{ de.VLT }}-Suche](#multi)
+* [Manuelle Auswahl](#manual)
+* [Erweiterte Suche](#advanced)
+* [Multi-{{ de.VLT }}-Suche](#multi)
 
 ### Manuelle Auswahl 
 <a name="manual"></a>
@@ -69,9 +69,9 @@ Gehen Sie für die nächsten Schritte zum Bereich  [Stapelverarbeitungs-Aktionen
 
 Mit der Funktion ***Stapelverarbeitung*** können Sie folgende Aktionen durchführen:  
 
-- Gespeicherte Host-Namen / Anmeldeinformationen ändern 
-- Alle gespeicherten Anmeldeinformationen / Passwörter zurücksetzen 
-- Einträge bearbeiten (Allgemeine Einstellungen / Einstellungen zur Art der Sitzung / Legacy der Sicherheitsgruppe / Assets / Nutzerspezifische Einstellungen / Lokale Einstellungen)  
+* Gespeicherte Host-Namen / Anmeldeinformationen ändern 
+* Alle gespeicherten Anmeldeinformationen / Passwörter zurücksetzen 
+* Einträge bearbeiten (Allgemeine Einstellungen / Einstellungen zur Art der Sitzung / Legacy der Sicherheitsgruppe / Assets / Nutzerspezifische Einstellungen / Lokale Einstellungen)  
 
 {% snippet icon.badgeWarning %}
 Ältere Sicherheits- und Sicherheitsgruppen gelten als veraltet und werden ab Version 2023.3 von {{ de.RDM }} vollständig entfernt. Siehe [Migration von Sicherheitsgruppen zu Benutzergruppen](/de/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).

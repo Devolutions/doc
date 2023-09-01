@@ -8,7 +8,7 @@ keywords:
 
 When using SQL Server Login accounts, encrypting the **web.config** file is of the utmost importance.
 
-- The **web.config** file stores the database connection strings, which contain the HostName of the database server (Data Source), the name of the database (Initial Catalogue), and the credentials (User ID and Password), thus the importance of encrypting it.
+The **web.config** file stores the database connection strings, which contain the HostName of the database server (Data Source), the name of the database (Initial Catalogue), and the credentials (User ID and Password), thus the importance of encrypting it.
 
 However, since encrypting the **web.config** file uses ***RsaProtectedConfigurationProvider*** from .NET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
 
@@ -48,7 +48,7 @@ Succeeded!
 
 When using SQL Server Domain accounts, encrypting the **web.config** file is of the utmost importance.
 
-- The **web.config** file store the database connection strings, which contain the HostName of the database server (Data Source) and the name of the database (Initial Catalogue).
+The **web.config** file store the database connection strings, which contain the HostName of the database server (Data Source) and the name of the database (Initial Catalogue).
 
 However, since encrypting the **web.config** file uses ***RsaProtectedConfigurationProvider*** from .NET Framework, additional permissions are required to the ***NetFrameworkConfigurationKey*** container used by RSA Provider.
 

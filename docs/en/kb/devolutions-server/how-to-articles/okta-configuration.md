@@ -5,9 +5,9 @@ The following steps will describe how to configure Okta as an authenticator for 
 
 ## Prerequisite
 
-- A subscription to Okta.
-- A Web Application using OIDC configured on Okta.
-- An Api token configured in Okta.
+* A subscription to Okta.
+* A Web Application using OIDC configured on Okta.
+* An Api token configured in Okta.
 
 ## Terms
 

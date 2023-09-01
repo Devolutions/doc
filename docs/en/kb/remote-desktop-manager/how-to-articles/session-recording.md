@@ -19,19 +19,19 @@ Session recording is only available in embedded mode.
  
 ## Supported Sessions
 
-- Apple Remote Desktop
-- Azure Blob Storage
-- Chrome
-- FTP
-- Google Drive
-- RDP
-- S3
-- SCP
-- SFTP
-- SSH Shell
-- Telnet
-- VNC
-- WebDav
+* Apple Remote Desktop
+* Azure Blob Storage
+* Chrome
+* FTP
+* Google Drive
+* RDP
+* S3
+* SCP
+* SFTP
+* SSH Shell
+* Telnet
+* VNC
+* WebDav
 
 ## Configure Session Recording 
 

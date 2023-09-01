@@ -16,5 +16,4 @@ Voici les étapes à suivre pour effacer votre stockage local dans le navigateur
 1. Développer la liste ***Stockage local*** située dans le menu gauche de la console.  
 ![Console – Stockage – Stockage local](https://webdevolutions.azureedge.net/docs/fr/kb/KB2056.png) 
 1. Faire un clic droit sur votre ou vos sites et cliquer sur ***Tout supprimer*** pour supprimer le stockage local.  
-![Stockage local – Tout supprimer](https://webdevolutions.azureedge.net/docs/fr/kb/KB2057.png) 
-
+![Stockage local – Tout supprimer](https://webdevolutions.azureedge.net/docs/fr/kb/KB2057.png)

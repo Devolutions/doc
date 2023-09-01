@@ -3,9 +3,9 @@ title: Creating shortcuts
 ---
 There are a many scenarios where it makes sense for an entry to appear more than once in the UI. For example, you might want to:  
 
-- Assign different access rights to the folder.
-- Create a favorite folder with everything centralized.
-- Reuse a document for different scenarios.
+* Assign different access rights to the folder.
+* Create a favorite folder with everything centralized.
+* Reuse a document for different scenarios.
 
 However, doing this manually is time consuming, tedious and prone to error. But no longer!
 

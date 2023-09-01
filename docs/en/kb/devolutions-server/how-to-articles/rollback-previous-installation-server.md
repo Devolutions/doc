@@ -8,9 +8,9 @@ You have performed a {{ en.DVLS }} upgrade or the hosting machine crashed, but f
 
 Client would need these files to be able to restore {{ en.DVLS }} to the previous version:  
 
-- Functional database backup.
-- Backup of the Encryption keys file.
-- {{ en.DVLSCONSOLE }} installer and offline zip files according to the version that was running before the crash. These files can be requested to our support team.
+* Functional database backup.
+* Backup of the Encryption keys file.
+* {{ en.DVLSCONSOLE }} installer and offline zip files according to the version that was running before the crash. These files can be requested to our support team.
 
 Here are the steps to follow:
 

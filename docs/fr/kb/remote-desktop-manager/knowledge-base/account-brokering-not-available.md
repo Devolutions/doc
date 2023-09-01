@@ -18,5 +18,4 @@ Il est très difficile de limiter la façon dont le mot de passe est utilisé da
 
 Cela ne signifie pas que nous ne pourrons pas les activer à l'avenir, mais nous n'avions pas le choix pour l'instant. Notre système de macros et de nos variables, combinés au risque que des utilisateurs malveillants remplacent tout bonnement un outil par un autre, qu'ils auraient construit eux-mêmes, constituait une zone d’attaque trop importante. 
 
-Vous pouvez autoriser l'***Affichage du mot de passe*** dans {{ fr.DVLS }}, ce qui résoudra le problème. Cependant, si votre politique de sécurité l'interdit, ou si vous utilisez une de nos intégrations qui n'offre pas ce choix, il n'y a pas de solution de rechange pour le moment. 
-
+Vous pouvez autoriser l'***Affichage du mot de passe*** dans {{ fr.DVLS }}, ce qui résoudra le problème. Cependant, si votre politique de sécurité l'interdit, ou si vous utilisez une de nos intégrations qui n'offre pas ce choix, il n'y a pas de solution de rechange pour le moment.
