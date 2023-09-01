@@ -78,7 +78,7 @@ The ***Batch Edit*** feature allows you to perform the following actions:
 Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 {% endsnippet %}  
 
-Continue to the [following section](#batchedit) if the ***Batch Edit*** options cover your needs. If not, you can go to [this section](#editspecialactions) to use a custom PowerShell command in ***Edit (Special Actions)***.
+Continue to the following section if the ***Batch Edit*** options cover your needs. If not, you can go to [Edit (Special Actions)](#editspecialactions) to use a custom PowerShell command in ***Edit (Special Actions)***.
 
 ### Batch Edit
 <a name="batchedit"></a>

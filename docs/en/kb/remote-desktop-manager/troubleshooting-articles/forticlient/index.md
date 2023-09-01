@@ -11,7 +11,7 @@ Company terminology:
 * Fortigate is the router of Fortinet
 * Forticlient and FortiSSL are VPN of Fortinet
 ## Solution
-The CLI for FortiSSL is not included anymore with the download of FortiClient. You need to download the tools related to the current version of FortiClient [here](https://support.fortinet.com/login/UserLogin.aspx)  
+The CLI for FortiSSL is not included anymore with the download of FortiClient. You need to [download the tools](https://support.fortinet.com/login/UserLogin.aspx) related to the current version of FortiClient.  
 {% snippet icon.badgeInfo %}
 You need to have a support plan with Fortinet to download the tools. If you do not have a support plan, try to contact Fortinet directly and ask them to send you the file.
 {% endsnippet %}  

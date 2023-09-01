@@ -15,7 +15,7 @@ Add a layer of security to your {{ en.DA }} by setting up a two-step verificatio
 1. Click ***Configure***. 
 1. Choose your account recovery method between ***SMS*** or ***Email***. 
 ![Two-Step Verification Step 1](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4029.png) 
-1. Enter either your phone number (Step 2 shown here) or email address, click ***Send***.
+1. Enter either your phone number or email address, click ***Send***.
 ![SMS Recovery Method](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4030.png) 
 1. Enter the 6-digit code received in the chosen method (Step 3) then ***Next***. 
 

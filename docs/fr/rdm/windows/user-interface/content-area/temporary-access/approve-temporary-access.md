@@ -31,7 +31,7 @@ Il est également possible d'afficher uniquement certaines demandes en utilisant
 ***Afficher les messages*** vous permet de visualiser le ***Message de la demande*** et le ***Message d'autorisation*** d'une demande spécifique.  
 ![Messages des demandes](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2127.png) 
 
-Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre ***Réponse à la demande d'accès temporaire*** qui est décrite dans la [section suivante](#approuverrefuser-les-demandes-daccès-temporaire). 
+Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre ***Réponse à la demande d'accès temporaire*** qui est décrite dans la section suivante. 
 
 ## Approuver/refuser les demandes d'accès temporaire 
 

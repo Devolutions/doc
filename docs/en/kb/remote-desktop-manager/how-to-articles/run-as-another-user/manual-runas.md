@@ -2,7 +2,7 @@
 title: Manual RunAs
 ---
 {% snippet icon.badgeInfo %}
-This article describes the manual method of using RunAs. Some types support built-in RunAs details are available [here](/kb/remote-desktop-manager/how-to-articles/run-as-another-user/)
+This article describes the manual method of using RunAs. Some types support built-in RunAs details are available. See [Run as another user](/kb/remote-desktop-manager/how-to-articles/run-as-another-user/).
 {% endsnippet %}
 
 ## Settings

@@ -8,7 +8,7 @@ In {{ en.RDM }} versions 2021.1 and above, we changed how our browser extension 
 {% snippet icon.shieldWarning %} 
 If you are using a version below 2021.1, as mentioned in [{{ en.DWL }} Overview](/rdm/windows/dwl/overview/), installing the extension in a Remote Desktop Services (Terminal Services) environment can introduce security risks. In such environments, each user must have a distinct port assigned as well as an application key to prevent any other {{ en.DWL }} from listening in.  
 
-If you insist on using these older versions, it is critical that each user be assigned a distinct port. An application key must be set as well. The first client application that starts will be able to use the port exclusively. ALL {{ en.DWL }} calling on that port will get the responses unless an application key is set. Continue to the [following section](#set-up--endwl--for-versions-below-20211-and-for-remote-desktop-servers) for the setup steps. 
+If you insist on using these older versions, it is critical that each user be assigned a distinct port. An application key must be set as well. The first client application that starts will be able to use the port exclusively. ALL {{ en.DWL }} calling on that port will get the responses unless an application key is set. Continue to the following section for the setup steps. 
 {% endsnippet %}
  
 ## Set up {{ en.DWL }} for versions below 2021.1 and for Remote Desktop Servers 

@@ -37,14 +37,14 @@ Pour vous aider à décider quel rôle sélectionner, vous pouvez visiter [Rôle
 
 ![Rédiger un message](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6038.png)
 
-Vous devez maintenant attendre que l'approbateur réponde à votre demande. Vous serez informé par courriel, que la réponse soit positive ou négative. La [section suivante](#réponse-à-votre-requête) détaille ce qu'il faut faire une fois que vous avez reçu une réponse. 
+Vous devez maintenant attendre que l'approbateur réponde à votre demande. Vous serez informé par courriel, que la réponse soit positive ou négative. La section suivante détaille ce qu'il faut faire une fois que vous avez reçu une réponse. 
 
 ## Réponse à votre requête 
 
 Si l'approbateur accepte votre demande, au bas de votre courriel se trouvera un bouton qui vous amènera directement à votre entrée dans {{ fr.DHUBB }}. Il est également possible d'accéder manuellement à votre entrée.  
 ![Courriel de confirmation](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2137.png) 
 
-Une fois que vous êtes sur l'entrée dans le {{ fr.VLT }}, vous verrez une section ***Demande d'accès temporaire*** près du haut. Une coche valide l'approbation de votre demande. À côté de la coche se trouve le temps restant pour votre demande. Il y a également l'option ***Afficher les détails*** qui est décrit dans la [section suivante](#afficher-les-détails-et-révoquer-votre-accès-temporaire).  
+Une fois que vous êtes sur l'entrée dans le {{ fr.VLT }}, vous verrez une section ***Demande d'accès temporaire*** près du haut. Une coche valide l'approbation de votre demande. À côté de la coche se trouve le temps restant pour votre demande. Il y a également l'option ***Afficher les détails*** qui est décrit dans la section suivante.  
 
 Vous pouvez maintenant effectuer votre tâche avec cette permission élevée.  
 ![Demande d'accès temporaire approuvée](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6039.png) 

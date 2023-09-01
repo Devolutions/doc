@@ -33,7 +33,7 @@ It is also possible to display only certain requests with the ***Status*** drop-
 Using ***View messages***, you can view the ***Request message*** and the ***Authorization message*** of a specific request.  
 ![Request messages](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2076.png) 
 
-Finally, clicking on ***Approve*** or ***Deny*** opens the ***Temporary Access Response*** window, which is described in the [next section](#approvedeny-temporary-access-requests). 
+Finally, clicking on ***Approve*** or ***Deny*** opens the ***Temporary Access Response*** window, which is described in the next section. 
 
 ## Approve/Deny temporary access requests 
 

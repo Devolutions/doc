@@ -115,5 +115,4 @@ Les configurations de source de données que vous sélectionnez seront exportée
  
 Toutes vos sources de données configurées seront affichées dans cette section. Sélectionner celle(s) que vous souhaitez inclure dans l'exportation. Veuillez noter que le contenu de la source de données n'est pas exporté.  
 
-Lorsque vos paramètres sont personnalisés à votre convenance, cliquez sur ***Exporter***. Vous serez invité à enregistrer vos paramètres dans un fichier **RemoteDesktopManager.cfg**. 
-
+Lorsque vos paramètres sont personnalisés à votre convenance, cliquez sur ***Exporter***. Vous serez invité à enregistrer vos paramètres dans un fichier **RemoteDesktopManager.cfg**.

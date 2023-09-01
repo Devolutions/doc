@@ -36,7 +36,7 @@ The ***Request message*** window opens.
 
 ![Request message](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6007.png) 
 
-Finally, clicking on ***Approve*** or ***Deny*** opens the ***Temporary Access Response*** window, which is described in the [next section](#approvedeny-temporary-access-requests). 
+Finally, clicking on ***Approve*** or ***Deny*** opens the ***Temporary Access Response*** window, which is described in the next section.
 
 ## Approve/Deny temporary access requests 
 

@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Add an entry in {{ en.DHUBP }} with {{ en.DWL }}
 ---
-Website, credit card, contact, and secure note entries can be created with {{ en.DWL }} in {{ en.DHUBP }}. To add a website entry, continue to the [next section](#add-a-website-entry). For all other types of entries, go to [this section](#add-another-type-of-entry) instead.  
+Website, credit card, contact, and secure note entries can be created with {{ en.DWL }} in {{ en.DHUBP }}. To add a website entry, continue to the next section. For all other types of entries, go to [Add another type of entry](#add-another-type-of-entry) instead.  
 
-## Add a Website Entry 
+## Add a Website entry 
 
 {% snippet icon.badgeInfo %} 
 This section explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [Create an account for a website in {{ en.DHUBP }} with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/) instead. 
@@ -53,7 +53,7 @@ Your credentials are now securely stored in a new website entry in {{ en.DHUBP }
 
 Your credentials are now securely stored in a new website entry in {{ en.DHUBP }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/).  
 
-## Add Another Type of Entry 
+## Add another type of entry 
 
 You can manually add ***Credit Card***, ***Contact***, and ***Secure Note*** entries in {{ en.DHUBP }} for easy access via the {{ en.DWL }} browser extension.  
 

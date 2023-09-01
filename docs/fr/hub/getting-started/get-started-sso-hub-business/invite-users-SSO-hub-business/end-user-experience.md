@@ -24,11 +24,11 @@ C'est pourquoi nous souhaitons que l'utilisateur stocke cette ***Clé Privée***
 {% endsnippet %}  
  
 ![Stockez votre clé privée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4176.png) 
-* Nous vous conseillons vivement la première méthode avec ***{{ fr.DWSMOBILE }}***. Suivez les étapes [ici](#méthode-avec-application-devolutions-workspace).  
-* La deuxième meilleure option consiste à télécharger et à imprimer la ***Clé Privée*** sous forme de ***Code QR***. Pour cette méthode, continuez les étapes [ici](#méthode-avec-code-qr).  
+* Nous vous conseillons vivement la première méthode avec ***{{ fr.DWSMOBILE }}***. Suivez les étapes pour la [Méthode avec {{ fr.DWSMOBILE }} ](#méthode-avec-devolutions-workspace-mobile).  
+* La deuxième meilleure option consiste à télécharger et à imprimer la ***Clé Privée*** sous forme de ***Code QR***. Pour cette méthode, continuez les étapes de la [Méthode avec code QR](#méthode-avec-code-qr).  
 * En dernier recours, et si l'utilisateur ne dispose pas d'un appareil mobile, un ***Mot de passe*** peut être créé pour ajouter la ***Clé Privée*** au {{ fr.DA }}. 
 
-## Méthode avec l'application mobile {{ fr.DWS }} 
+## Méthode avec {{ fr.DWSMOBILE }} 
 
 1. Télécharger sur un appareil mobile l'application ***{{ fr.DWS }}***. 
 1. Cliquer ***Continuer***.  

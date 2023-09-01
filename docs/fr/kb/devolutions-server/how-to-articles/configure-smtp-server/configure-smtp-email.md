@@ -9,7 +9,7 @@ Configurez un courriel SMTP basique dans {{ fr.DVLS }} en suivant les étapes ci
 1. Dans le liste déroulante ***Type d'authentification***, sélectionner ***Basique***.
 ![Type d'authentification basique](https://webdevolutions.azureedge.net/docs/fr/kb/KB2086.png)
 3. Dans le champ ***Courriel de l'administrateur***, saisir l'adresse courriel du destinataire qui recevra les erreurs.
-1. Saisir/sélectionner les informations nécessaires sous la section ***Configuration SMTP***. Voir le tableau dans la <a href="#paramètres-de-la-configuration-smtp">section suivante</a> pour obtenir de l'information sur chaque champ/paramètre.
+1. Saisir/sélectionner les informations nécessaires sous la section ***Configuration SMTP***. Voir le tableau dans la section suivante pour obtenir de l'information sur chaque champ/paramètre.
 1. Une fois les informations fournies, tester les paramètres de courriel avec le bouton ***Tester courriel***.
 1. Si le test est un succès, ***Enregistrer*** la configuration en utilisant l'icône située en haut à droite.  
 

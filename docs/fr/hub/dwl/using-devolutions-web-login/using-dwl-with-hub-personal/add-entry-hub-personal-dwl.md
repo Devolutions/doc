@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Ajouter une entrée dans {{ fr.DHUBP }} par {{ fr.DWL }}
 ---
-Des entrées de site Web, de carte de crédit, de contact et de note sécurisé peuvent être créées avec {{ fr.DWL }} dans {{ fr.DHUBP }}. Pour ajouter une entrée de site Web, vous pouvez continuer à la [prochaine section](#ajouter-une-entrée-de-site-web). Pour tout autre type d'entrée, consultez plutôt [cette section](#ajouter-un-autre-type-dentrée).  
+Des entrées de site Web, de carte de crédit, de contact et de note sécurisé peuvent être créées avec {{ fr.DWL }} dans {{ fr.DHUBP }}. Pour ajouter une entrée de site Web, vous pouvez continuer à la prochaine section. Pour tout autre type d'entrée, consultez plutôt [Ajouter un autre type d'entrée](#ajouter-un-autre-type-dentrée).  
 
 ## Ajouter une entrée de site Web 
 

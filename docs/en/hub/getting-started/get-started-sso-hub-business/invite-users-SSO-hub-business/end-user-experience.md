@@ -25,8 +25,8 @@ This is why the user needs to store this ***Private Key*** on the ***{{ en.DWSMO
  
 ![Store your Private Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub4148.png)
 
-* We strongly recommend the first method with the ***{{ en.DWSMOBILE }}*** application. Follow the steps [here](#devolutions-workspace-method).  
-* The second best option is to download and print the ***Private Key*** as a ***QR Code***. For this method, continue [here](#qr-code-method).  
+* We strongly recommend the first method with the ***{{ en.DWSMOBILE }}*** application. Follow the steps in [{{ en.DWS }} method](#devolutions-workspace-method).  
+* The second best option is to download and print the ***Private Key*** as a ***QR Code***. For this method, continue to [QR Code method](#qr-code-method).  
 * As a last resort and if the user does not have a mobile device, a password can be created to add the ***Private Key*** to the {{ en.DA }}.   
 
 ## {{ en.DWS }} method 

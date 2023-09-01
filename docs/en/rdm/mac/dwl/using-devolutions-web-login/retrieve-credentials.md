@@ -38,7 +38,7 @@ If the ***Automatically submit the form after filling*** setting is enabled, the
  
 7. Click ***Save***.  
 
-You can now continue to the [next section](#retrieving-credentials) to learn how to retrieve your website entry credentials. 
+You can now continue to the next section to learn how to retrieve your website entry credentials. 
 
 ## Retrieving Credentials 
 

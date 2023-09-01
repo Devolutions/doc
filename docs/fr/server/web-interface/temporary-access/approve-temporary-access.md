@@ -27,7 +27,7 @@ Il est également possible d'afficher uniquement certaines demandes en utilisant
 L'icône en forme d'œil vous permet de visualiser le ***Message de la demande*** et le ***Message d'autorisation*** d'une demande spécifique.
 ![Messages de la demande](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6012.png) 
 
-Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre ***Réponse à la demande d'accès temporaire*** qui est décrite dans la [section suivante](#approvedeny-temporary-access-requests). 
+Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre ***Réponse à la demande d'accès temporaire*** qui est décrite dans la section suivante. 
 
 ## Approuver/refuser les demandes d'accès temporaire 
 

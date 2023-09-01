@@ -56,7 +56,7 @@ You need to grant permission on the {{ en.VLT }} either at ***System level*** or
 
 ## Installation of {{ en.DHUBS }} Beta
 
-1. Download {{ en.DHUBS }} Beta [here](https://devolutions.net/password-hub/home/download/).
+1. [Download {{ en.DHUBS }} Beta](https://devolutions.net/password-hub/home/download/).
 1. Launch the installer that you downloaded.
 ![{{ en.DHUBS }} setup](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6038.png) 
 1. Click ***Next***.

@@ -28,7 +28,7 @@ It is also possible to display only certain requests with the ***Status*** drop-
 Using ***View*** (eye icon), you can view the ***Request message*** and the ***Authorization message*** of a specific request.  
 ![Temporary Access Request](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6050.png) 
 
-Finally, clicking on ***Approve request*** or ***Deny request*** opens the ***Temporary Access Response*** window, which is described in the [next section](#approvedeny-temporary-access-requests). 
+Finally, clicking on ***Approve request*** or ***Deny request*** opens the ***Temporary Access Response*** window, which is described in the next section. 
 
 ## Approve/Deny temporary access requests 
 

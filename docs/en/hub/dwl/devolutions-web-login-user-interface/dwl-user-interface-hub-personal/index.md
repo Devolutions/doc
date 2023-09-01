@@ -15,7 +15,7 @@ The main view, which is the one displayed when first opening {{ en.DWL }} in you
 
 If you use multiple Devolutions products with the extension, you can switch between them using the ***Data Source Selector*** at the left of the ***Top Menu***. A drop-down list will appear with the other products you have previously paired with {{ en.DWL }}.  
 ![Data Source Selector](https://webdevolutions.azureedge.net/docs/en/hub/Hub2103.png) 
-At the right of the ***Top Menu***, the ***Settings*** button opens a new tab in which you can configure your extension. You can see the full settings list [here](/hub/dwl/settings/).  
+At the right of the ***Top Menu***, the ***Settings*** button opens a new tab in which you can configure your extension. See the [full settings list](/hub/dwl/settings/).  
 ![Settings Button](https://webdevolutions.azureedge.net/docs/en/hub/Hub2104.png) 
 Next to the ***Settings*** button is your ***Account*** button. This section has some useful links and information, namely:  
 

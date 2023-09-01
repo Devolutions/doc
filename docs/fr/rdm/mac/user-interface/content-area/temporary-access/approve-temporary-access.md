@@ -36,7 +36,7 @@ La fenêtre ***Message de la demande*** s'ouvre.
 
 ![Message de la demande](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/mac/RDMMac6007.png) 
 
-Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre ***Réponse à la demande d'accès temporaire*** qui est décrite dans la [section suivante](#approuverrefuser-les-demandes-daccès-temporaire). 
+Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre ***Réponse à la demande d'accès temporaire*** qui est décrite dans la section suivante. 
 
 ## Approuver/refuser les demandes d'accès temporaire 
 

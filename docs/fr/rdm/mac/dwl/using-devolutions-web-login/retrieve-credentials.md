@@ -37,7 +37,7 @@ Si l'option ***Soumettre automatiquement le formulaire après la saisie*** est a
  
 7. Cliquer sur ***Enregistrer***. 
 
-Vous pouvez maintenant continuer à la [prochaine section](#récupération-des-identifiants) pour apprendre comment récupérer vos identifiants d'entrée de site Web. 
+Vous pouvez maintenant continuer à la prochaine section pour apprendre comment récupérer vos identifiants d'entrée de site Web. 
 
 ## Récupération des identifiants 
 

@@ -91,7 +91,7 @@ The new user should appear in the user list. You can close the ***User and Secur
 1. Click ***OK*** in the ***Microsoft SQL Server*** window to save your configuration, then ***OK*** again to leave the data source settings view.
 1. Using this new configuration, create all other custom login users in ***Administration – Users – Add User***.
 
-When all other custom login users have been created, continue to the <a href="#distribute-the-configuration">next section</a>.
+When all other custom login users have been created, continue to the next section.
 
 ## Distribute the Configuration
 
@@ -108,7 +108,7 @@ When all other custom login users have been created, continue to the <a href="#d
 
 6. Distribute the configuration file to your users.
 
-After having received the .rdd file containing the exported configuration and having saved it on their computer, your users can follow the steps in the <a href="#import-the-.rdd-file-and-connect-to-the-data-source">next section</a> to import it in {{ en.RDM }} and connect to the data source for the first time.
+After having received the .rdd file containing the exported configuration and having saved it on their computer, your users can follow the steps in the next section to import it in {{ en.RDM }} and connect to the data source for the first time.
 
 ## Import the .rdd File and Connect to the Data Source
 
