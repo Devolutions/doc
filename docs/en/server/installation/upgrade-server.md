@@ -48,7 +48,7 @@ We recommend doing a backup of the Encryption Keys before any operation that cou
 
 * Perform a full backup of the database, take precautions against that backup file being deleted by a maintenance plan. 
 * Archive the content of the web application folder containing the {{ en.DVLS }} instance, move to a safe place. 
-* Install the proper version of {{ en.DVLSCONSOLE }}. In each of the sub-topics related to a specific version of {{ en.DVLS }} you will find the version of the client that you need. 
+* Install the proper version of {{ en.DVLSCONSOLE }}. In each of the sub-topics related to a specific version of {{ en.DVLS }}, you will find the version of the client that you need. 
 * {{ en.DVLSCONSOLE }} must be run with elevated privileges.  
 
 ### Phase 2 

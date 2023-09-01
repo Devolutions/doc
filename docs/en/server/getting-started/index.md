@@ -77,7 +77,7 @@ Microsoft SQL Server (see [Database Instance](/server/installation/database-inst
 ![!!clip10129](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Internet Information Services (IIS) 7.0 or better (see this Microsoft topic for more information: [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules)). 
+Internet Information Services (IIS) 7.0 or better (see this Microsoft's [Install IIS and ASP.NET Modules](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules)) for more information. 
 		</td>
 	</tr>
 </table>
@@ -91,7 +91,7 @@ Internet Information Services (IIS) 7.0 or better (see this Microsoft topic for 
 ![!!clip10129](https://webdevolutions.azureedge.net/docs/en/server/clip10129.png) 
 		</td>
 		<td>
-Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/). 
+Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/)). 
 		</td>
 	</tr>
 	<tr>

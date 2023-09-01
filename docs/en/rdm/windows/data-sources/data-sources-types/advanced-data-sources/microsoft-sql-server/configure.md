@@ -11,7 +11,7 @@ For added security, you can enable SSL Encryption to communicate with your insta
 Please follow directions on [Configure SQL Server Database Engine for encrypting connections](https://learn.microsoft.com/en-US/sql/database-engine/configure-windows/configure-sql-server-encryption). 
 {% endsnippet %}
  
-2. Follow the steps in the [Create a data source](/rdm/windows/data-sources/create-new-data-source/) topic. On Step 4, after having configured the connection settings but before testing the server or otherwise verifying the connection, continue with the steps below. 
+2. Follow the steps in [Create a data source](/rdm/windows/data-sources/create-new-data-source/). On Step 4, after having configured the connection settings but before testing the server or otherwise verifying the connection, continue with the steps below. 
 1. Select the ***Upgrade*** tab and click the ***Create Database*** button. If the database is already created on the Microsoft SQL Server, click the ***Update Database*** button to add the appropriate tables to the database.  
 ![Upgrade Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11360.png) 
 1. Once the database is created, create an administrator account for the database via the ***Administration – Users*** menu. 

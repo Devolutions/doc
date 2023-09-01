@@ -50,7 +50,7 @@ Please note that the csv columns will vary depending on entry types being export
  
 ### Export {{ en.VLT }} (.html) 
 
-Export the {{ en.VLT }} with an AES-256 to encrypt self contained html file. See [Export Html Encrypted](/rdm/windows/commands/file/export/html-encrypted/) topic for more information. 
+Export the {{ en.VLT }} with an AES-256 to encrypt self contained html file. See [Export Html Encrypted](/rdm/windows/commands/file/export/html-encrypted/) for more information. 
 
 ### Export {{ en.VLT }} (.xml) 
 

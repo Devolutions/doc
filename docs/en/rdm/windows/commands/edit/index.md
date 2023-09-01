@@ -139,7 +139,7 @@ DESCRIPTION
 User Specific Settings 
 		</td>
 		<td>
-Override properties of the selected entry with settings with settings specific to the current user. For more information, please consult the [Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) topic. 
+Override properties of the selected entry with settings with settings specific to the current user. For more information, please consult [Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 	<tr>
@@ -147,7 +147,7 @@ Override properties of the selected entry with settings with settings specific t
 Local Specific Settings 
 		</td>
 		<td>
-Override properties of the selected entry with settings specific to the local machine. For more information, please consult the [Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/) topic. 
+Override properties of the selected entry with settings specific to the local machine. For more information, please consult [Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 </table>
@@ -182,7 +182,7 @@ Perform special actions on the selected entries, such as change the type, run a 
 Batch Edit 
 		</td>
 		<td>
-Perform an action on multiple entries at once. This is particularly useful for doing mass modifications of entries (such as changing the display mode after modifying the workspace or their credential entries when changing your passwords). Multiple entries must be selected for this feature to be visible. For more information, please consult the [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/) topic. 
+Perform an action on multiple entries at once. This is particularly useful for doing mass modifications of entries (such as changing the display mode after modifying the workspace or their credential entries when changing your passwords). Multiple entries must be selected for this feature to be visible. For more information, please consult [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/). 
 		</td>
 	</tr>
 	<tr>

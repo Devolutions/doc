@@ -15,6 +15,5 @@ Depending on the downloaded media, either run the setup or extract the files fro
 
 By default, a local data source has already been created using the SQLite format. You may add as many data sources as needed. Please see [Data Source Overview](rdm/mac/data-sources/) for more information. 
 {% snippet icon.badgeInfo %} 
-To use a SQL Server / Azure SQL data source, please read the [Configure SQL Server](/rdm/mac/installation/configure-sql-server/) topic. 
+To use a SQL Server / Azure SQL data source, please read [Configure SQL Server](/rdm/mac/installation/configure-sql-server/). 
 {% endsnippet %}
- 

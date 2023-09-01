@@ -32,7 +32,7 @@ Allow users to save [User Specific Settings](/rdm/windows/commands/edit/setting-
 Allow database clean up 
 		</td>
 		<td>
-Allows logs and deleted history to be cleaned up. For more information, please consult the [Clean up](/rdm/windows/commands/administration/) topic. 
+Allows logs and deleted history to be cleaned up. For more information, please consult [Clean up](/rdm/windows/commands/administration/). 
 		</td>
 	</tr>
 	<tr>

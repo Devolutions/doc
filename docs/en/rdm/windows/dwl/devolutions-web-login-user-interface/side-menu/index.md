@@ -10,7 +10,7 @@ When using {{ en.DWL }} with {{ en.RDM }}, the available tabs are the [***Matchi
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on. 
 
 {% snippet icon.badgeInfo %} 
-For methods of retrieving your credentials, visit [this topic](/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/). 
+For methods of retrieving your credentials, visit [Retrieve credentials with {{ en.DWL }}](/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/). 
 {% endsnippet %}
  
 ![Matching Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2123.png) 
@@ -20,7 +20,7 @@ At the top, you can use the ***Filter*** bar to search through all your credenti
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.RDM }} through the {{ en.DWL }} extension. 
 
 {% snippet icon.badgeInfo %} 
-For a complete list of the available fields in the ***Add Website*** window, visit [this topic](/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/add-website/). You can also find a step-by-step guide on [how to add a website entry](/rdm/windows/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
+For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/add-website/). You can also find a step-by-step guide on [how to add a website entry](/rdm/windows/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
 {% endsnippet %}
  
 ### Password Generator tab 
@@ -37,7 +37,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2128.png) 
 
 {% snippet icon.badgeInfo %} 
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/rdm/windows/dwl/using-devolutions-web-login/create-account-website/). 
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website with {{ en.DWL }}](/rdm/windows/dwl/using-devolutions-web-login/create-account-website/). 
 {% endsnippet %}
  
 ### About tab 

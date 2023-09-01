@@ -2,7 +2,7 @@
 title: Configure SQL Azure
 ---
 1. Make sure that you have a valid Microsoft Azure SQL subscription to be able to create your database. 
-1. Follow the steps in the [Create a data source](/rdm/windows/data-sources/create-new-data-source/) topic. On Step 4, after having configured the connection settings but before testing the server or otherwise verifying the connection, continue with the steps below. 
+1. Follow the steps in [Create a data source](/rdm/windows/data-sources/create-new-data-source/). On Step 4, after having configured the connection settings but before testing the server or otherwise verifying the connection, continue with the steps below. 
 1. Select the ***Upgrade*** tab and click the ***Create Database*** button. If the database is already created on the Microsoft Azure SQL Server, click the ***Update Database*** button to add the appropriate tables to the database.  
 ![Upgrade Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10377.png) 
 1. Once the database is created, create an administrator account for the database via the ***Administration – User Management*** menu. 

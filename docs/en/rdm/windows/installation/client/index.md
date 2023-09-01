@@ -15,7 +15,7 @@ Depending on the downloaded media, either run the setup or extract the files fro
 
 By default, a local data source is created using the SQLite format. You can add as many data sources as needed. Please consult [Data Source Overview](/rdm/windows/data-sources/) for more information. 
 {% snippet icon.badgeInfo %} 
-To use a SQL Server or Azure SQL data source, refer to the [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) topic. 
+To use a SQL Server or Azure SQL data source, refer to [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/). 
 {% endsnippet %}
  
 
@@ -25,5 +25,4 @@ Configure your installation path for all external applications you intend to use
 
 ## Remote Desktop Services 
 
-Please consult the [Remote Desktop Services](/rdm/windows/installation/client/terminal-services/) topic. 
-
+Please consult [Remote Desktop Services](/rdm/windows/installation/client/terminal-services/).

@@ -110,7 +110,7 @@ Ask for the master key every time a connection to the {{ en.DOD }} is attempted.
 
 ### Backup 
 
-Please consult the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) topic for information on this service.  
+Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for information on this service.  
 ![{{ en.DOD }} – Backup Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11334.png) 
 
 <table>

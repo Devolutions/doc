@@ -4,7 +4,7 @@ title: Reports
 The ***Reports*** section automatically generates reports detailing {{ en.RDM }} usage related to: Entries, Expired Assets, Passwords, Security, and Users. You have the option to export your generated report, as well as executing and exporting reports through a command line. 
 
 {% snippet icon.badgeInfo %} 
-View the [{{ en.RDM }} Security Dashboard](/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/) topic to learn more on the ***Application & Data Source Security*** report. 
+View [{{ en.RDM }} Security Dashboard](/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/) to learn more on the ***Application & Data Source Security*** report. 
 {% endsnippet %}
  
 ![Generate Report](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10335.png) 

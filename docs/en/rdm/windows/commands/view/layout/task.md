@@ -18,7 +18,7 @@ Create tasks to keep track of the work that needs to be done per entry. You can 
 
 ![!!RDMWin2038](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2038.png) 
 
-For more information on how to create a task, see the Creating a Task section of the ***Task List*** topic. 
+For more information on how to create a task, see [***Task List***](/rdm/windows/commands/view/panels/task-list/#creating-a-task). 
 
 ### Task Filter 
 
@@ -29,6 +29,5 @@ Clicking on the ***Filter*** icon opens a window that allows you to filter the t
 
 ## Tasks 
 
-The information available is as follows: ***Name***, ***Status***, ***Priority***, ***Due Date***, ***Creation Date*** and ***Assigned To***. For more details about this information, please refer to the ***Task List*** topic.  
-![Tasks](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2037.png) 
-
+The information available is as follows: ***Name***, ***Status***, ***Priority***, ***Due Date***, ***Creation Date*** and ***Assigned To***. For more details about this information, please refer to [***Task List***](/rdm/windows/commands/view/panels/task-list/#creating-a-task).  
+![Tasks](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2037.png)

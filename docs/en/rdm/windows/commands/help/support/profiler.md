@@ -27,6 +27,5 @@ Holding the Ctrl key while performing the refresh should force a full reload of 
 
 ### Debug only 
 
-To learn more about the ***Debug only*** tab please see the Debugging topic.  
-![Debug only](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10443.png) 
-
+To learn more about the ***Debug only*** tab, please see [Debugging](/kb/remote-desktop-manager/troubleshooting-articles/debugging/).  
+![Debug only](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10443.png)

@@ -15,7 +15,7 @@ The {{ en.CIS }} uploads a configuration file to our online services. You should
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-You must create an installer file using {{ en.RDM }} before creating the installer on the Web portal. This is described in the [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/) topic. 
+You must create an installer file using {{ en.RDM }} before creating the installer on the Web portal. This is described in [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

@@ -8,11 +8,11 @@ keywords:
 ---
 
 {% snippet icon.badgeInfo %}
-If you have recently received your serial license keys, please refer to the [Getting Started](/server/getting-started/) topic. 
+If you have recently received your serial license keys, please refer to [Getting started](/server/getting-started/). 
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-For more information about any of the features in the deploy wizard, please consult their respective topic under the [Server Settings](/server/management/devolutions-server-console/devolutions-server-settings/general/) chapter.
+For more information about any of the features in the deploy wizard, please consult their respective topic under [Server Settings](/server/management/devolutions-server-console/devolutions-server-settings/general/).
 {% endsnippet %}
 
 Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance resides in its own Web Application within IIS. The following steps are carried out using the {{ en.DVLSCONSOLE }}.  
@@ -40,7 +40,7 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 ![IIS Features Diagnostic Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8049.png)  
 1. The License Agreement needs to be accepted to proceed.  
 ![{{ en.DVLS }} License Agreement Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8050.png)  
-1. Under ***Database***, enter the server and database information. The user account used to create the database must have sysadmin privileges in the SQL Server instance. Consult the [Database](/server/management/devolutions-server-console/devolutions-server-settings/database/) topic for more information. To use ***Windows Authentication*** to connect to the database, it is important to change the Application Pool Identity in the IIS Manager and set the proper permission of the service account on the SQL database. Please consult [Configure {{ en.DVLS }} to use integrated security](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/). The following article about [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) describes which accounts that can be created prior to deploy {{ en.DVLS }}.
+1. Under ***Database***, enter the server and database information. The user account used to create the database must have sysadmin privileges in the SQL Server instance. Consult [Database](/server/management/devolutions-server-console/devolutions-server-settings/database/) for more information. To use ***Windows Authentication*** to connect to the database, it is important to change the Application Pool Identity in the IIS Manager and set the proper permission of the service account on the SQL database. Please consult [Configure {{ en.DVLS }} to use integrated security](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/). The following article about [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) describes which accounts that can be created prior to deploy {{ en.DVLS }}.
 ![Database Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8054.png)  
 1. Under ***General***, enter a custom ***Name*** and ***Description***. Under ***Serial***, provide a license serial that has been received by email upon buying the product. If you did not buy any {{ en.DVLS }} license yet, you may [Request a 30-days trial](https://server.devolutions.net/trial).
 ![General and Registration Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8051.png)  

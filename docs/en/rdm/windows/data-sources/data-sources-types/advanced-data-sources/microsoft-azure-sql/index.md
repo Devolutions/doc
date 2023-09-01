@@ -40,7 +40,7 @@ A proper database backup strategy should be implemented to prevent possible data
  
 ## Configuration 
 
-Consult the [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/) topic for more information on the configuration. 
+Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/) for more information on the configuration. 
 
 ## Settings 
 
@@ -297,7 +297,7 @@ DESCRIPTION
 Caching mode 
 		</td>
 		<td>
-Determines how the entries will be reloaded in the data source. For more information, please consult the [Caching](/rdm/windows/data-sources/caching/) topic. 
+Determines how the entries will be reloaded in the data source. For more information, please consult [Caching](/rdm/windows/data-sources/caching/). 
 		</td>
 	</tr>
 	<tr>
@@ -345,7 +345,7 @@ Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}).
 Manage Cache 
 		</td>
 		<td>
-Manage the data source cache. On large data sources caching is a must and will increase performance significantly. For more information, please consult the [Manage Cache](/rdm/windows/data-sources/manage-cache/) topic. 
+Manage the data source cache. On large data sources caching is a must and will increase performance significantly. For more information, please consult [Manage Cache](/rdm/windows/data-sources/manage-cache/). 
 		</td>
 	</tr>
 	<tr>

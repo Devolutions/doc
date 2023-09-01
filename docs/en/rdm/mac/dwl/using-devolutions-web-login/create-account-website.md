@@ -6,7 +6,7 @@ eleventyComputed:
 {{ en.DWL }} assists you in creating a new account when you register on a website. It gives you the ability to create a secure password and save your new credentials. 
 
 {% snippet icon.badgeInfo %} 
-If you already have an account for a website, visit our [Add a Website Entry with {{ en.DWL }}](/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/) topic. 
+If you already have an account for a website, visit [Add a website entry with {{ en.DWL }}](/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/). 
 {% endsnippet %}
  
 Follow the steps below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.RDMMAC }}.  

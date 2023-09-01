@@ -28,7 +28,7 @@ User
 		</td>
 		<td>
 Grant all the basic rights to the user (Add, Edit, Delete). 
-For more information, please consult the [Rights](#rights) section below in this topic. 
+For more information, please consult [Rights](#rights) below. 
 		</td>
 	</tr>
 	<tr>

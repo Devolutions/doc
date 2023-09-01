@@ -13,7 +13,7 @@ The ***Grouped Tab Bar*** will only appear if a session that is part of a ***Tab
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-The ***Tab Groups*** feature in the ***View*** section lets you see a tree view of the various tab groups. For more information, visit the [***View***](/rdm/windows/commands/view/view/) topic. 
+The ***Tab Groups*** feature in the ***View*** section lets you see a tree view of the various tab groups. For more information, visit [***View***](/rdm/windows/commands/view/view/). 
 {% endsnippet %}
  
 ## Setting up a Tab group 

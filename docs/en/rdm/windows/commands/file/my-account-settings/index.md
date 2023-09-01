@@ -48,7 +48,7 @@ My Personal Credentials
 		</td>
 		<td>
 
-Please consult [My Personal Credentials](/rdm/windows/commands/file/my-account-settings/my-personal-credentials/) topic for more information. 
+Please consult [My Personal Credentials](/rdm/windows/commands/file/my-account-settings/my-personal-credentials/) for more information. 
 		</td>
 	</tr>
 	<tr>

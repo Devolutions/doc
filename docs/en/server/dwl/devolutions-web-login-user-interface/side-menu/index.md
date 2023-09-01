@@ -14,7 +14,7 @@ In all tabs except the ***Password Generator*** tab, when hovering over an entry
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.  
 
 {% snippet icon.badgeInfo %} 
-For methods of retrieving your credentials, visit [this topic](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/). 
+For methods of retrieving your credentials, visit [Retrieve credentials with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/). 
 {% endsnippet %}
 
 ![Matching Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2033.png)
@@ -24,12 +24,12 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DVLS }} through the {{ en.DWL }} extension.  
 
 {% snippet icon.badgeInfo %} 
-For a complete list of the available fields in the ***Add Website*** window, visit [this topic](/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
+For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
 {% endsnippet %}
  
 ### All Entries tab 
 {% snippet icon.badgeHelp %} 
-When accessing the ***All Entries*** tab for the first time, you need to select the {{ en.DVLS }} {{ en.VLT }}s you want to synchronize with {{ en.DWL }}. Learn more about it in our [First Login with {{ en.DWL }}](/server/dwl/first-login-dwl/) topic. 
+When accessing the ***All Entries*** tab for the first time, you need to select the {{ en.DVLS }} {{ en.VLT }}s you want to synchronize with {{ en.DWL }}. Learn more about it in [First login with {{ en.DWL }}](/server/dwl/first-login-dwl/). 
 {% endsnippet %}
  
 The ***All Entries*** tab allows you to browse through all your synchronized {{ en.VLT }}s for website entries only. You will first encounter the list of your synchronized {{ en.VLT }}s.  
@@ -80,7 +80,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2041.png)
 
 {% snippet icon.badgeInfo %} 
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/server/dwl/using-devolutions-web-login/create-account-website-dwl/). 
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/create-account-website-dwl/). 
 {% endsnippet %}
  
 ### Entry functionalities 

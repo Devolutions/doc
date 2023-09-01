@@ -171,7 +171,7 @@ Disable caching
 		</td>
 		<td>
 
-Entries will be reloaded in Simple mode in the data source. See [Caching](/rdm/windows/data-sources/caching/) topic for more information. 
+Entries will be reloaded in Simple mode in the data source. See [Caching](/rdm/windows/data-sources/caching/) for more information. 
 		</td>
 	</tr>
 	<tr>

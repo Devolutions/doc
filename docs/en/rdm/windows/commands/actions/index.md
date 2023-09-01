@@ -38,7 +38,7 @@ Close the active session.
 LogOff 
 		</td>
 		<td>
-Log off the RDP session. See Logoff topic for more information. 
+Log off the RDP session. 
 		</td>
 	</tr>
 </table>
@@ -141,7 +141,8 @@ DESCRIPTION
 Keep tab on disconnect 
 		</td>
 		<td>
-Your session tab will stay after a session disconnect. For more information, see Keep Tab Opened topic. 
+
+Your session tab will stay after a session disconnect. For more information, see [Keep tabs open](/kb/remote-desktop-manager/how-to-articles/keep-tabs-opened/). 
 		</td>
 	</tr>
 	<tr>

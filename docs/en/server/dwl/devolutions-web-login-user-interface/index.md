@@ -40,4 +40,4 @@ Each tab will display a different view in the ***Content Area***. The tabs avail
 * the ***Recent*** tab, where you can find a list of the entries that you recently used.  
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  
 
-See our [Side menu](/server/dwl/devolutions-web-login-user-interface/side-menu/) topic for more information on each of the tabs. 
+See [Side menu](/server/dwl/devolutions-web-login-user-interface/side-menu/) for more information on each of the tabs. 

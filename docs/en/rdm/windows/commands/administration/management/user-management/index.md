@@ -62,7 +62,7 @@ Enter the username for the user. When using [Integrated Security](/rdm/windows/c
 Integrated security (Active Directory) 
 		</td>
 		<td>
-Specifie to use Active Directory to authenticate to the data source. Applies only to SQL Server and {{ en.DVLS }}, depending on their configuration. For more information, please consult the [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/) topic. 
+Specifie to use Active Directory to authenticate to the data source. Applies only to SQL Server and {{ en.DVLS }}, depending on their configuration. For more information, please consult [Integrated Security](/rdm/windows/commands/administration/management/user-management/integrated-security/). 
 		</td>
 	</tr>
 	<tr>
@@ -85,7 +85,7 @@ Select the type of user to create, select between:
 * ***Restricted user:*** Select which rights to grant to the user. 
 * ***User:*** Grant all basic rights to the user (Add, Edit, Delete). 
 
-For more information, please consult the [User Types](/rdm/windows/commands/administration/management/user-management/user-types/) topic. 
+For more information, please consult [User Types](/rdm/windows/commands/administration/management/user-management/user-types/). 
 		</td>
 	</tr>
 	<tr>
@@ -165,14 +165,14 @@ DESCRIPTION
 User Groups 
 		</td>
 		<td>
-Check the ***Is Member*** box to assign the user groups to the user. Consult [User Groups Management](/rdm/windows/commands/administration/management/user-groups-management/) topic for more information. 
+Check the ***Is Member*** box to assign the user groups to the user. Consult [User Groups Management](/rdm/windows/commands/administration/management/user-groups-management/) for more information. 
 		</td>
 	</tr>
 </table>
 
 ### {{ en.VLT }}s 
 
-Select which repositories the user has access to. For more information, please consult the {{ en.VLT }} s topic.  
+Select which repositories the user has access to. For more information, please consult {{ en.VLT }}s.  
 ![User Management - {{ en.VLT }}s](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3624.png) 
 
 ### Application Access 

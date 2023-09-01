@@ -19,4 +19,4 @@ With the license stored in an [Advanced Data Source](/rdm/windows/data-sources/d
 1. Optional: The ***Auto assign*** option will be displayed when you enter the license. The box is already checked in order to provide the {{ en.RDM }} serial to all newly created users. A warning window will appear if you uncheck the box and click ***OK***.
 ![Warning window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6033.png) 
 
-Your license is now saved in the advanced data source. Follow this next topic to automatically [Assign Licenses](/rdm/windows/commands/administration/management/licenses/assign/) to selected users, removing the need to interact locally with their {{ en.RDM }}. 
+Your license is now saved in the advanced data source. Follow [Assign Licenses](/rdm/windows/commands/administration/management/licenses/assign/) to automatically assign them to selected users, removing the need to interact locally with their {{ en.RDM }}. 

@@ -4,7 +4,7 @@ order: 20
 ---
 ## Topology 
 {% snippet icon.badgeInfo %} 
-If you have just received your license serials, please refer to the [Getting Started](/server/getting-started/) topic. 
+If you have just received your license serials, please refer to [Getting started](/server/getting-started/). 
 {% endsnippet %}
  
 A {{ en.DVLS }} instance is actually a web application. This allows for exposing its services on the Internet or an Intranet.  
@@ -35,7 +35,7 @@ Please refer to the appropriate topic depending on the operating system of the w
 
 ### Installing Web User Groups 
 
-Please refer to the [Installing Web User Groups Prerequisites](/server/installation/installing-web-server-prerequisites/) topic. 
+Please refer to [Installing Web User Groups Prerequisites](/server/installation/installing-web-server-prerequisites/). 
 
 {% snippet icon.badgeCaution %} 
 After you have installed the prerequisites, test the IIS installation by navigating to http<area>://localhost. Do not proceed further if you do not see the IIS welcome screen. There are issues that must be resolved. 
@@ -43,9 +43,8 @@ After you have installed the prerequisites, test the IIS installation by navigat
  
 ### Database Server Prerequisites  
 
-Please refer to the [Database Instance](/server/installation/database-instance/) topic. 
+Please refer to [Database Instance](/server/installation/database-instance/). 
 
 ### Create {{ en.DVLS }} Instance 
 
-Please refer to the [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/) topic. 
-
+Please refer to [Create {{ en.DVLS }} Instance](/server/installation/create-server-instance/).

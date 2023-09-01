@@ -16,4 +16,4 @@ An information dialog is displayed to let you know that the file has been genera
 
 This file can be used in the ***{{ en.CIM }}*** when creating an installation package.  
 
-For more information on how to create a {{ en.CI }} package, please consult our [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/) topic. 
+For more information on how to create a {{ en.CI }} package, please consult [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/). 

@@ -10,7 +10,7 @@ There are security considerations to take into account when enabling the offline
 {% endsnippet %}
  
 
-The offline mode availability relies on several settings, refer to the [Offline Mode](/rdm/windows/data-sources/offline-mode/) topic.  
+The offline mode availability relies on several settings, refer to [Offline Mode](/rdm/windows/data-sources/offline-mode/).  
 
 The lowest setting (in terms of security) prevails over the others, which may prevent you from using the offline mode. If the ***Go Offline*** button is not available, please consult your administrator.  
 

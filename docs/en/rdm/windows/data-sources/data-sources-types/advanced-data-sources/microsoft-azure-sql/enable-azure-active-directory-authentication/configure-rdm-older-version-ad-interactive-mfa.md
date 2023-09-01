@@ -3,10 +3,10 @@ eleventyComputed:
   title: Configure an older {{ en.RDM }} version AD Interactive (with MFA)
 ---
 {% snippet icon.badgeInfo %} 
-This topic is for {{ en.RDM }} versions lower than 2022.1. If you are using 2022.1 and higher please follow this [topic](DataSources_Advanced_SqlAzure_ConfigureSqlAzureForADConnections) instead. 
+This topic is for {{ en.RDM }} versions lower than 2022.1. If you are using 2022.1 and higher please follow [Configure {{ en.RDM }} Active Directory Interactive (with MFA support)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/) instead. 
 {% endsnippet %}
  
-Active Directory Interactive (with MFA Support) allows you to authenticate on your [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) data source using your Office365 account + MFA. 
+Active Directory Interactive (with MFA Support) allows you to authenticate on your Microsoft Azure SQL data source using your Office365 account + MFA. 
 
 {% snippet icon.badgeCaution %} 
 For Azure AD authentication, download and install the Microsoft Active Directory Authentication Library for Microsoft SQL Server on every client computer.  

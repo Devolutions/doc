@@ -1,9 +1,9 @@
 ---
-title: Data Sources
+title: Data sources
 ---
 Use ***File – Data Sources*** to manage data sources. {{ en.RDM }} supports multiple types of data source. Most are available only with an Team Edition of {{ en.RDM }}.  
 
-Please refer to the [Data Source Types](/rdm/windows/data-sources/data-sources-types/) topic for more information on all supported types of data sources.  
+Please refer to [Data Source Types](/rdm/windows/data-sources/data-sources-types/) for more information on all supported types of data sources.  
 ![Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11314.png) 
 
 ## Settings 

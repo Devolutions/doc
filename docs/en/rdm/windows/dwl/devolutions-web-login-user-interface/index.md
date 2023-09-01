@@ -31,4 +31,4 @@ Each tab will display a different view in the ***Content Area***. The tabs avail
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account. 
 * the ***About*** tab, where you will find links to useful tools and information about {{ en.DWL }}.  
 
-See our [Side menu](/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/) topic for more information on each of the tabs. 
+See [Side menu](/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/) for more information on each of the tabs. 

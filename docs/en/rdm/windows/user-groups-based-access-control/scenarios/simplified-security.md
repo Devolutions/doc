@@ -113,7 +113,4 @@ No need to set any permissions on the Montreal folder, since they are inherited 
 The permissions are now correctly set. Note that every entry added at {{ en.VLT }} level will have no security by default. This means they would be available for anyone, even the consultants. This can be confirmed by looking at the screenshot below in which the entry ***Daily routine*** is available for everyone. Here is what each user should see in the tree view:  
 ![Side by Side Tree View](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6065.png) 
 
-You can further customize your permissions by using the ***Security Settings*** tab when editing entries, or the ***Logs*** tab to add more traces of coming and goings. As always, great care must be taken when granting permissions.  
-
-If you need more details on each permission, please consult our Common Settings – Permissions topic. 
-
+You can further customize your permissions by using the ***Security Settings*** tab when editing entries, or the ***Logs*** tab to add more traces of coming and goings. As always, great care must be taken when granting permissions.

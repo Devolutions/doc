@@ -3,7 +3,7 @@ title: Diagnostic
 ---
 If you encounter a problem with {{ en.RDM }}, you can run a system diagnostic, which is available in Help – Diagnostic. This could help diagnose or give a pointer to what kind of issues you might be experiencing. 
 
-### System 
+## System 
 
 The administrator item could be the possible source for security problem. This happen often when a user has the SYSDBA or is DB_OWNER of the SQL Server database.  
 
@@ -13,11 +13,7 @@ FIPS related issues and solutions can be found in the specific FIPS (Encryption)
 If you have a [{{ en.RDMJ }}](/rdm/windows/overview/the-devolutions-platform/rdm-jump/) configured you can run a test of your Jump host by clicking on Jump Test.  
 ![System Diagnostic – System](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10814.png) 
 
-{% snippet icon.badgeInfo %} 
-Please read the Troubleshooting topic if experiencing issues with {{ en.RDM }}, it lists error messages and could contain the fix/workaround for your problem. 
-{% endsnippet %}
- 
-### Data Source 
+## Data Source 
 
 The ***Data Source*** tab contains information regarding the current data source, such as the number of entries it contains, the size of your data source, the number of custom images and the offline state. 
 
@@ -27,7 +23,7 @@ Too many custom images could dramatically increase the size of the data source a
  
 ![System Diagnostic - Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11353.png) 
 
-### Policy 
+## Policy 
 
 The ***Policy*** tab display the list of Group Policy Templates to see if any of them has been applied.  
 ![System Diagnostic - Policy](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11354.png) 

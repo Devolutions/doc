@@ -3,7 +3,7 @@ eleventyComputed:
   title: Add a Website Entry with {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-This topic explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, see our topic on how to [Create an Account for a Website with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/create-account-website-dwl/) instead. 
+This topic explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, see [Create an account for a website with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/create-account-website-dwl/) instead. 
 {% endsnippet %}
  
 Website entries can be created with {{ en.DWL }} in {{ en.DVLS }}. This type of entry is useful for saving your login credentials so that you do not have to remember them. These entries are also used by {{ en.DWL }} to recognize a website and [retrieve your credentials](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/).  

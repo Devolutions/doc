@@ -11,7 +11,7 @@ A data source can be a local file or a database (either local or shared). Multip
 
 ## Create a data source 
 
-Please consult our [Create a new data source](/rdm/windows/data-sources/create-new-data-source/) topic for more information. 
+Please consult [Create a new data source](/rdm/windows/data-sources/create-new-data-source/) for more information. 
 
 ## Multiple data sources 
 
@@ -62,4 +62,4 @@ Prompt the user to for a data source to connect to.
 
 ## Data Source Settings (System Settings) 
 
-[Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) can manage a lot more settings related to the database and security. Those settings are saved directly in the database. For more information, please consult the [Data Source Settings (System Settings)](/rdm/windows/commands/administration/settings/system-settings/general/) topic. 
+[Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) can manage a lot more settings related to the database and security. Those settings are saved directly in the database. For more information, please consult [Data Source Settings (System Settings)](/rdm/windows/commands/administration/settings/system-settings/general/). 

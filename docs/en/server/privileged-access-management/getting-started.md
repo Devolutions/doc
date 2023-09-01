@@ -24,7 +24,7 @@ Back to the ***PAM section in Administration - Privileged Access - Provider***, 
 ![PAM Providers](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8090.png) 
 When adding the provider, make sure you keep the ***Add Team Folder*** and ***Add Scan Configuration*** options checked. 
 ![PAM Provider Configuration](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6013.png) 
-For more information, please consult the [Providers](/server/privileged-access-management/providers/) topic. 
+For more information, please consult [Providers](/server/privileged-access-management/providers/). 
 
 ## Add a scan configuration 
 
@@ -33,7 +33,7 @@ For more information, please consult the [Providers](/server/privileged-access-m
 1. Click ***OK***.  
 ![PAM Scan Configuration](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6014.png) 
 
-For more information, please refer to the [Scan Configurations](/server/privileged-access-management/scan-configurations/) topic. 
+For more information, please refer to [Scan configurations](/server/privileged-access-management/scan-configurations/). 
 
 ## Add {{ en.VLT }} in the PAM {{ en.VLT }}s section 
 

@@ -6,11 +6,11 @@ The ***View*** section in the ***View*** tab allows you to access different list
 
 ### Quick Connect 
 
-The ***Quick Connect*** feature allows you to open an ad-hoc session by specifying the host and session type. For more information, visit our [***Quick Connect***](/rdm/windows/commands/view/view/quick-connect/) topic. 
+The ***Quick Connect*** feature allows you to open an ad-hoc session by specifying the host and session type. For more information, visit [***Quick Connect***](/rdm/windows/commands/view/view/quick-connect/). 
 
 ### Activity Logs 
 
-The ***Activity Logs*** feature opens a tab containing information about user activity in the selected data source. For more information, visit our [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/) topic. 
+The ***Activity Logs*** feature opens a tab containing information about user activity in the selected data source. For more information, visit [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/). 
 
 ### Lists 
 
@@ -26,7 +26,7 @@ The other ***Tab groups*** will only appear if a session that is part of a tab g
 
 Although it is docked by default, the ***Tab Groups*** pane can be windowed, dragged, and docked anywhere within {{ en.RDM }}.  
 
-To learn how to create a tab group, refer to our [***Grouped Tab Bar***](/rdm/windows/commands/view/layout/grouped-tab-bar/) topic. 
+To learn how to create a tab group, refer to [***Grouped Tab Bar***](/rdm/windows/commands/view/layout/grouped-tab-bar/). 
 
 ### Notification 
 
