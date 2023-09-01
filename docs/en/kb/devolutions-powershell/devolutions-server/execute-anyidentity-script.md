@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Execute AnyIdentity PowerShell scripts
-  description: This topic will cover how to execute various PowerShell scripts that call AnyIdentity providers in {{ en.DVLS }}.
+  title: Execute {{ en.ANYID }} PowerShell scripts
+  description: This topic will cover how to execute various PowerShell scripts that call {{ en.ANYID }} providers in {{ en.DVLS }}.
 ---
-AnyIdentity are providers that are not built-in to {{ en.DVLS }}, however it is possible to create a custom PowerShell script to get information about the users and passwords. {{ en.DVLS }} already includes Azure Key Vault and Windows Accounts [custom scipts](#existing-templates).
+{{ en.ANYID }} are providers that are not built-in to {{ en.DVLS }}, however it is possible to create a custom PowerShell script to get information about the users and passwords. {{ en.DVLS }} already includes Azure Key Vault and Windows Accounts [custom scipts](#existing-templates).
 {% snippet icon.badgeInfo %}
 Every script will be different depending on the provider.
 {% endsnippet %}  
@@ -15,8 +15,8 @@ The [WinRM](/kb/devolutions-server/how-to-articles/winrm-trustedhostslist/) need
 
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
 1. Go to ***Administration*** – ***Privileged Access*** – ***Providers***.
-1. Click on ***AnyIdentity Templates***.  
-![AnyIdentity Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB0140.png)
+1. Click on ***{{ en.ANYID }} Templates***.  
+![{{ en.ANYID }} Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB0140.png)
 1. Click on ***Add***.  
 ![Add](https://webdevolutions.azureedge.net/docs/en/kb/KB0141.png)
 1. Fill the information in the ***General*** tab;  
