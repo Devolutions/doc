@@ -6,11 +6,7 @@ eleventyComputed:
 {% snippet icon.badgeInfo %} 
 Wenn Sie kürzlich Ihre Serienlizenzschlüssel erhalten haben, lesen Sie bitte den Abschnitt [Erste Schritte](/server/getting-started/). 
 {% endsnippet %}
- 
-{% snippet icon.badgeInfo %} 
-Weitere Informationen zu den Funktionen des Bereitstellungsassistenten finden Sie unter dem entsprechenden Thema im Kapitel [Servereinstellungen](/server/management/devolutions-server-console/devolutions-server-settings/general/).
-{% endsnippet %}
- 
+
 Auf einem Server können mehrere {{ de.DVLS }}-Instanzen gehostet werden. Jede Instanz befindet sich in ihrer eigenen Webanwendung innerhalb von IIS. Die folgenden Schritte werden unter Verwendung der {{ de.DVLSCONSOLE }} durchgeführt.  
 
 ## Verfahren 
