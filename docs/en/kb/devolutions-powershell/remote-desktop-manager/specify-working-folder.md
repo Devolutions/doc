@@ -1,7 +1,7 @@
 ---
 title: Change default working directory
 ---
-It is possible to specify the working folder for PowerShell entries in {{ en.RDM. }}.
+It is possible to specify the working folder for PowerShell entries in {{ en.RDM }}.
 
 ## Changing the path
 1. Select a PowerShell type entry and click on ***Properties***.
