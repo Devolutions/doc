@@ -42,4 +42,4 @@ Chaque onglet affiche une vue différente dans la ***Zone de contenu***. Les ong
 * l'onglet ***Corbeille***, où vous pouvez ***Supprimer*** des entrées et dossiers ou ***Restaurer*** ceux qui ont été précédemment supprimés;  
 * l'onglet ***Générateur de mots de passe***, où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte.  
 
-Consultez notre rubrique [Menu latéral](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 
+Consultez [Menu latéral](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 

@@ -44,7 +44,7 @@ AD Azure n'est pas pris en charge dans {{ fr.RDMMAC }}. Cette fonctionnalité n'
  
 ## Configuration 
 
-Pour configurer une source de données Azure SQL, veuillez lire la rubrique [Configurer Azure SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure-azure-sql/). 
+Pour configurer une source de données Azure SQL, veuillez lire [Configurer Azure SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure-azure-sql/). 
 
 ## Paramètres 
 
@@ -213,7 +213,7 @@ Mode de la cache
 		</td>
 		<td>
 
-Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

@@ -60,7 +60,7 @@ Inconvénients :
 		<td>
 {{ fr.RDMMAC }} utilise {{ fr.DVLS }} pour stocker les informations de session.  
 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/). 
+Pour plus d'informations, veuillez consulter [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/). 
 		</td>
 		<td>
 Avantages : 
@@ -86,7 +86,7 @@ Dropbox
 		<td>
 {{ fr.RDMMAC }} utilise l'API Dropbox pour récupérer le fichier XML à partir du {{ fr.VLT }} configuré.  
 
-Pour plus d'informations, veuillez consulter notre rubrique [Dropbox](/fr/rdm/mac/data-sources/data-sources-types/dropbox/). 
+Pour plus d'informations, veuillez consulter [Dropbox](/fr/rdm/mac/data-sources/data-sources-types/dropbox/). 
 		</td>
 		<td>
 Avantages : 
@@ -113,7 +113,7 @@ Microsoft Azure SQL
 		<td>
 {{ fr.RDMMAC }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.  
 
-Pour plus d'informations, veuillez consulter notre rubrique Azure SQL. 
+Pour plus d'informations, veuillez consulter [Microsoft Azure SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/). 
 		</td>
 		<td>
 Avantages : 
@@ -138,7 +138,7 @@ Microsoft SQL Server
 		<td>
 {{ fr.RDMMAC }} utilise SQL Server pour enregistrer et gérer toutes les sessions. Il s'agit de l'une des sources de données disponibles pour un environnement multi-utilisateur.  
 
-Pour plus d'informations, consultez notre rubrique [SQL Server (MSSQL)](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/). 
+Pour plus d'informations, consultez [SQL Server (MSSQL)](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/). 
 		</td>
 		<td>
 Avantages : 
@@ -166,7 +166,7 @@ Inconvénients :
 
 Notez qu'il existe différents niveaux d'abonnement pour ce produit.  
 
-Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou notre rubrique [{{ fr.DHUBB }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
+Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou [{{ fr.DHUBB }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
 		</td>
 		<td>
 Avantages : 
@@ -192,7 +192,7 @@ Inconvénients :
 		<td>
 {{ fr.RDMMAC }} utilise {{ fr.DHUBP }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet.  
 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DHUBP }}](/fr/rdm/mac/data-sources/data-sources-types/hub-personal/). 
+Pour plus d'informations, veuillez consulter [{{ fr.DHUBP }}](/fr/rdm/mac/data-sources/data-sources-types/hub-personal/). 
 		</td>
 		<td>
 Avantages : 
@@ -217,7 +217,7 @@ SQLite
 		<td>
 {{ fr.RDMMAC }} utilise une base de données SQLite pour stocker les informations de session.  
 
-Pour plus d'informations, veuillez consulter notre rubrique [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/). 
+Pour plus d'informations, veuillez consulter [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/). 
 		</td>
 		<td>
 Avantages : 
@@ -243,7 +243,7 @@ XML
 		<td>
 {{ fr.RDMMAC }} enregistre les paramètres directement dans un fichier au format XML.  
 
-Pour plus d'informations, veuillez consulter notre rubrique [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/). 
+Pour plus d'informations, veuillez consulter [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/). 
 		</td>
 		<td>
 Avantages : 

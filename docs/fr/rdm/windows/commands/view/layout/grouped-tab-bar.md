@@ -13,7 +13,7 @@ La ***Barre d'onglets groupés*** n'apparaît que si une session faisant partie 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-La fonction ***Groupes d'onglets*** dans ***Affichage – Affichage*** vous permet de consulter une vue arborescente des différents groupes d'onglets. Pour plus d'informations, consultez la rubrique [***Affichage***](/fr/rdm/windows/commands/view/view/). 
+La fonction ***Groupes d'onglets*** dans ***Affichage – Affichage*** vous permet de consulter une vue arborescente des différents groupes d'onglets. Pour plus d'informations, consultez [***Affichage***](/fr/rdm/windows/commands/view/view/). 
 {% endsnippet %}
  
 ### Configuration d'un groupe d'onglets 

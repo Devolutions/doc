@@ -3,7 +3,7 @@ eleventyComputed:
   title: Ajouter une entrée de site Web avec {{ fr.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-Cette rubrique explique comment créer une entrée à partir de vos identifiants de site Web existants. Si vous n'avez pas encore créé de compte pour le site Web, consultez plutôt notre rubrique sur la façon de [Créer un compte de site Web avec {{ fr.DWL }}](/fr/rdm/mac/dwl/using-devolutions-web-login/create-account-website/). 
+Cette rubrique explique comment créer une entrée à partir de vos identifiants de site Web existants. Si vous n'avez pas encore créé de compte pour le site Web, consultez plutôt [Créer un compte de site Web avec {{ fr.DWL }}](/fr/rdm/mac/dwl/using-devolutions-web-login/create-account-website/). 
 {% endsnippet %}
  
 Des entrées de site Web peuvent être créées avec {{ fr.DWL }} dans {{ fr.RDMMAC }}. Ce type d'entrée est utile pour enregistrer vos identifiants de connexion afin que vous n'ayez plus à les mémoriser. Ces entrées sont également utilisées par {{ fr.DWL }} pour reconnaître un site Web et [récupérer vos identifiants](/fr/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/).  

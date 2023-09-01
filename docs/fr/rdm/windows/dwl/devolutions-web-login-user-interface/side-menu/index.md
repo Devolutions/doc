@@ -10,7 +10,7 @@ Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.RDM }}, les onglets disponibles so
 L'extension s'ouvre sur l'onglet ***Correspondant***. C'est là que vous verrez la liste des identifiants disponibles pour le site Web particulier sur lequel vous vous trouvez. 
 
 {% snippet icon.badgeInfo %} 
-Pour connaître les méthodes de récupération de vos identifiants, consultez [cette rubrique](/fr/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/). 
+Pour connaître les méthodes de récupération de vos identifiants, consultez [Récupérer des identifiants avec {{ fr.DWL }}](/fr/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/). 
 {% endsnippet %}
  
 ![Onglet Correspondant](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2085.png) 
@@ -20,7 +20,7 @@ En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher tous vos 
 En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.RDM }} par le biais de l'extension {{ fr.DWL }}.  
 
 {% snippet icon.badgeInfo %} 
-Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web***, consultez [cette rubrique](/fr/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/add-website/). Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/rdm/windows/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
+Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web***, consultez [Ajouter un site Web](/fr/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/add-website/). Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/rdm/windows/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
 {% endsnippet %}
  
 ### Onglet Générateur de mots de passe 
@@ -37,7 +37,7 @@ Dans la section déroulante ***Avancé***, vous êtes en mesure de personnaliser
 ![Section Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2088.png) 
 
 {% snippet icon.badgeInfo %} 
-Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [cette rubrique](/rdm/windows/dwl/using-devolutions-web-login/create-account-website/). 
+Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [Créer un compte de site Web avec {{ fr.DWL }}](/fr/rdm/windows/dwl/using-devolutions-web-login/create-account-website/). 
 {% endsnippet %}
  
 ### Onglet À propos 

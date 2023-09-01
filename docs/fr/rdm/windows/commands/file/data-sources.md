@@ -3,7 +3,7 @@ title: Sources de données
 ---
 Utiliser ***Fichier – Sources de données*** pour gérer les sources de données. {{ fr.RDM }} prend en charge plusieurs types de sources de données. La plupart sont disponibles uniquement avec l'Édition Team de {{ fr.RDM }}.  
 
-Consulter la rubrique [Types de sources de données](/fr/rdm/windows/data-sources/data-sources-types/) pour plus d'informations sur tous les types de sources de données pris en charge.  
+Consulter [Types de sources de données](/fr/rdm/windows/data-sources/data-sources-types/) pour plus d'informations sur tous les types de sources de données pris en charge.  
 ![Sources de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10080.png) 
 
 ## Paramètres 

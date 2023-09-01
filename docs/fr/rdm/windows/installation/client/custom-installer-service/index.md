@@ -23,7 +23,7 @@ Le {{ fr.CIS }} télécharge un fichier de configuration sur nos services en lig
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Vous devez créer un fichier d'installation à l'aide de {{ fr.RDM }} avant de créer l'installateur sur le portail Web. Cette procédure est décrite dans notre rubrique traitant du [Générateur de fichier de configuration](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
+Vous devez créer un fichier d'installation à l'aide de {{ fr.RDM }} avant de créer l'installateur sur le portail Web. Cette procédure est décrite dans [Générateur de fichier de configuration](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

@@ -63,7 +63,7 @@ Inconvénients :
 		</td>
 		<td>
 {{ fr.RDM }} utilise {{ fr.DVLS }} pour stocker les informations de session. 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/). 
+Pour plus d'informations, veuillez consulter [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/). 
 
 		</td>
 		<td>
@@ -89,7 +89,7 @@ Dropbox
 		</td>
 		<td>
 {{ fr.RDM }} utilise l'API Dropbox pour récupérer le fichier XML à partir du {{ fr.VLT }} configuré. 
-Pour plus d'informations, veuillez consulter notre rubrique [Dropbox](/fr/rdm/windows/data-sources/data-sources-types/dropbox/). 
+Pour plus d'informations, veuillez consulter [Dropbox](/fr/rdm/windows/data-sources/data-sources-types/dropbox/). 
 
 		</td>
 		<td>
@@ -116,7 +116,7 @@ Microsoft Azure SQL
 		</td>
 		<td>
 {{ fr.RDM }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions. 
-Pour plus d'informations, veuillez consulter notre rubrique [Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/). 
+Pour plus d'informations, veuillez consulter [Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/). 
 
 		</td>
 		<td>
@@ -141,7 +141,7 @@ Microsoft SQL Server
 		</td>
 		<td>
 {{ fr.RDM }} utilise SQL Server pour enregistrer et gérer toutes les sessions. Il s'agit de l'une des sources de données disponibles pour un environnement multi-utilisateur. 
-Pour plus d'informations, consultez notre rubrique [Microsoft SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/). 
+Pour plus d'informations, consultez [Microsoft SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/). 
 
 		</td>
 		<td>
@@ -168,7 +168,7 @@ Inconvénients :
 		<td>
 {{ fr.RDM }} se connecte au {{ fr.VLT }} {{ fr.DHUBB }}. 
 Notez qu'il existe différents niveaux d'abonnement pour ce produit. 
-Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou notre rubrique [{{ fr.DHUBB }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
+Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou [{{ fr.DHUBB }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
 		</td>
 		<td>
 Avantages : 
@@ -193,7 +193,7 @@ Inconvénients :
 		</td>
 		<td>
 {{ fr.RDM }} utilise {{ fr.DHUBP }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet. 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DdHUBP }}](/fr/rdm/windows/data-sources/data-sources-types/hub-personal/). 
+Pour plus d'informations, veuillez consulter [{{ fr.DdHUBP }}](/fr/rdm/windows/data-sources/data-sources-types/hub-personal/). 
 
 		</td>
 		<td>
@@ -218,7 +218,7 @@ SQLite
 		</td>
 		<td>
 {{ fr.RDM }} utilise une base de données SQLite pour stocker les informations de session. 
-Pour plus d'informations, veuillez consulter notre rubrique [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/). 
+Pour plus d'informations, veuillez consulter [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/). 
 
 		</td>
 		<td>
@@ -244,7 +244,7 @@ XML
 		</td>
 		<td>
 {{ fr.RDM }} enregistre les paramètres directement dans un fichier au format XML. 
-Pour plus d'informations, veuillez consulter notre rubrique [XML](/fr/rdm/windows/data-sources/data-sources-types/xml/). 
+Pour plus d'informations, veuillez consulter [XML](/fr/rdm/windows/data-sources/data-sources-types/xml/). 
 		</td>
 		<td>
 Avantages : 

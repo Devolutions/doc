@@ -16,7 +16,7 @@ Selon le support téléchargé, exécutez le programme d'installation ou extraye
 Par défaut, une source de données locale est créée à l'aide du format SQLite. Vous pouvez ajouter autant de sources de données que nécessaire. Veuillez consulter [Sources de données](/fr/rdm/windows/data-sources/) pour plus d'informations. 
 
 {% snippet icon.badgeInfo %} 
-Pour utiliser une source de données SQL Server ou Azure SQL, consultez les rubriques [Configurer SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) ou [Configurer Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/). 
+Pour utiliser une source de données SQL Server ou Azure SQL, consultez [Configurer SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) ou [Configurer Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/). 
 {% endsnippet %}
  
 
@@ -26,5 +26,4 @@ Configurer votre chemin d'installation pour toutes les applications externes que
 
 ## Terminal Services / Services Bureau à distance 
 
-Veuillez consulter la rubrique [Terminal Services / Services Bureau à distance](/fr/rdm/windows/installation/client/terminal-services/). 
-
+Veuillez consulter [Terminal Services / Services Bureau à distance](/fr/rdm/windows/installation/client/terminal-services/).

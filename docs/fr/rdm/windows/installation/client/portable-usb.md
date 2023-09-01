@@ -9,7 +9,7 @@ Le mode d'installation portable vous permet d'exécuter plusieurs versions de {{
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Pour installer une seule application portable de {{ fr.RDM }}, suivre cette rubrique : [Installation de {{ fr.RDM }} portable](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/). 
+Pour installer une seule application portable de {{ fr.RDM }}, suivre [Installation de {{ fr.RDM }} portable](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 

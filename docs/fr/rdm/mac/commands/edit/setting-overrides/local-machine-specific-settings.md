@@ -18,5 +18,4 @@ Veuillez consulter chaque rubrique pour plus d'informations :
 * [Général](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/general/) 
 * [Paramètres](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/settings/) 
 * [Avancée](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/more/) 
-* [VPN](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/vpn/) 
-
+* [VPN](/fr/rdm/mac/commands/edit/setting-overrides/user-specific-settings/vpn/)

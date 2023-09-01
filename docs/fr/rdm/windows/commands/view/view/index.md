@@ -6,11 +6,11 @@ La section ***Affichage*** de l'onglet ***Affichage*** permet d'accéder à diff
 
 ### Connexion rapide 
 
-La fonction ***Connexion rapide*** vous permet d'ouvrir une session ad-hoc en spécifiant l'hôte et le type de session. Pour en savoir davantage, consultez notre rubrique [***Connexion rapide***](/fr/rdm/windows/commands/view/view/quick-connect/). 
+La fonction ***Connexion rapide*** vous permet d'ouvrir une session ad-hoc en spécifiant l'hôte et le type de session. Pour en savoir davantage, consultez [***Connexion rapide***](/fr/rdm/windows/commands/view/view/quick-connect/). 
 
 ### Journaux d'activité 
 
-La fonction ***Journaux d'activité*** ouvre un onglet contenant des information à propos de l'activité des utilisateurs dans la source de données sélectionnée. Pour en savoir davantage, consultez notre rubrique [***Journaux d'activité***](/fr/rdm/windows/commands/view/view/activity-logs/). 
+La fonction ***Journaux d'activité*** ouvre un onglet contenant des information à propos de l'activité des utilisateurs dans la source de données sélectionnée. Pour en savoir davantage, consultez [***Journaux d'activité***](/fr/rdm/windows/commands/view/view/activity-logs/). 
 
 ### Listes 
 
@@ -26,7 +26,7 @@ Les autres ***Groupes d'onglets*** n'apparaissent que si une session faisant par
 
 Bien qu'il soit ancré par défaut, le volet ***Groupes d'onglets*** peut être fenêtré, glissé et ancré n'importe où dans {{ fr.RDM }}.  
 
-Pour apprendre comment créer un groupe d'onglets, visitez notre rubrique [***Barre d'onglets groupés***](/fr/rdm/windows/commands/view/layout/grouped-tab-bar/). 
+Pour apprendre comment créer un groupe d'onglets, visitez [***Barre d'onglets groupés***](/fr/rdm/windows/commands/view/layout/grouped-tab-bar/). 
 
 ### Notification 
 

@@ -36,7 +36,7 @@ Pour plus d'informations, veuillez consulter ces rubriques :
 
 Entrer le nom de la source de données et l'URL du serveur. Assurez-vous d'utiliser le bon protocole si SSL est requis par le serveur (HTTPS).  
 
-Vous pouvez également exporter les informations sur la source de données, puis importer le fichier dans vos postes de travail clients, comme décrit dans la rubrique [Importer/Exporter](/fr/rdm/mac/data-sources/import-export/) la source de données. 
+Vous pouvez également exporter les informations sur la source de données, puis importer le fichier dans vos postes de travail clients, comme décrit dans [Importer/Exporter](/fr/rdm/mac/data-sources/import-export/) la source de données. 
 
 ## Paramètres 
 
@@ -161,7 +161,7 @@ Mode de la cache
 		</td>
 		<td>
 
-Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

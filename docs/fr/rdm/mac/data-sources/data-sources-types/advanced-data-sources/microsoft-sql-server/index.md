@@ -24,7 +24,7 @@ Nous prenons également en charge les fonctionnalités suivantes :
 * Expédition des journaux 
 * Mise en miroir de bases de données   
 
-Voir la rubrique [Configurer SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) pour plus de détails sur la configuration. 
+Voir [Configurer SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) pour plus de détails sur la configuration. 
 		</td>
 	</tr>
 </table>
@@ -223,7 +223,7 @@ Mode de la cache
 		</td>
 		<td>
 
-Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

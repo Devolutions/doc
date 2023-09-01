@@ -33,7 +33,7 @@ Toutes les opérations effectuées via la ***{{ fr.DVLSCONSOLE }}*** seront fait
 ![Convention de licence {{ fr.DVLS }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8050.png) 
 1. Sous ***Base de données***, entrer les informations sur le serveur et la base de données.  
 
-Le compte d'utilisateur utilisé pour créer la base de données doit disposer des privilèges sysadmin dans l'instance SQL Server. Consultez la rubrique [Base de données](/fr/server/management/devolutions-server-console/devolutions-server-settings/database/) pour plus d'informations.  
+Le compte d'utilisateur utilisé pour créer la base de données doit disposer des privilèges sysadmin dans l'instance SQL Server. Consultez [Base de données](/fr/server/management/devolutions-server-console/devolutions-server-settings/database/) pour plus d'informations.  
 
 Pour utiliser la Sécurité intégrée pour se connecter à la base de données, il est important de modifier l'identité du regroupement d'applications dans le gestionnaire IIS et de définir les permissions appropriées du compte de service sur la base de données SQL. Veuillez consulter [Comment configurer {{ fr.DVLS }} pour utiliser la sécurité intégrée](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/).  
 ![Assistant de déploiement {{ fr.DVLS }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8054.png) 

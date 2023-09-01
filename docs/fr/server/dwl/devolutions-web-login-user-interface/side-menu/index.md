@@ -14,7 +14,7 @@ Dans tous les onglets, à l'exception de l'onglet ***Générateur de mots de pas
 L'extension s'ouvre sur l'onglet ***Correspondant***. C'est là que vous verrez la liste des identifiants disponibles pour le site Web particulier sur lequel vous vous trouvez.  
 
 {% snippet icon.badgeInfo %} 
-Pour connaître les méthodes de récupération de vos identifiants, consultez [cette rubrique](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/). 
+Pour connaître les méthodes de récupération de vos identifiants, consultez [Récupérer des identifiants avec {{ fr.DWL }}](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/). 
 {% endsnippet %}
  
 ![Onglet Correspondant](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2011.png) 
@@ -24,13 +24,13 @@ En haut, vous pouvez utiliser la barre de ***Recherche*** pour filtrer tous vos 
 En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.DVLS }} par le biais de l'extension {{ fr.DWL }}.  
 
 {% snippet icon.badgeInfo %} 
-Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web***, consultez [cette rubrique](/fr/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/). Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/server/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
+Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web***, consultez [Ajouter un site Web](/fr/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/). Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/server/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
 {% endsnippet %}
  
 ### Onglet Toutes les entrées 
 
 {% snippet icon.badgeInfo %} 
-Lorsque vous accédez à l'onglet ***Toutes les entrées*** pour la première fois, vous devez sélectionner les {{ fr.VLT }}s {{ fr.DVLS }} que vous souhaitez synchroniser avec {{ fr.DWL }}. Pour en savoir plus, consultez notre rubrique [Première connexion avec {{ fr.DWL }}](/fr/server/dwl/first-login-dwl/). 
+Lorsque vous accédez à l'onglet ***Toutes les entrées*** pour la première fois, vous devez sélectionner les {{ fr.VLT }}s {{ fr.DVLS }} que vous souhaitez synchroniser avec {{ fr.DWL }}. Pour en savoir plus, consultez [Première connexion avec {{ fr.DWL }}](/fr/server/dwl/first-login-dwl/). 
 {% endsnippet %}
  
 L'onglet ***Toutes les entrées*** vous permet de parcourir tous vos {{ fr.VLT }}s synchronisés pour les entrées de sites Web uniquement. Vous rencontrerez d'abord la liste de vos {{ fr.VLT }}s synchronisés.  
@@ -77,7 +77,7 @@ Dans la section déroulante ***Avancé***, vous êtes en mesure de personnaliser
 ![Section Avancé](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2018.png)  
 
 {% snippet icon.badgeInfo %} 
-Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [cette rubrique](/fr/server/dwl/using-devolutions-web-login/create-account-website-dwl/). 
+Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [Créer un compte de site Web avec {{ fr.DWL }}](/fr/server/dwl/using-devolutions-web-login/create-account-website-dwl/). 
 {% endsnippet %}
  
 ### Fonctionnalités des entrées 

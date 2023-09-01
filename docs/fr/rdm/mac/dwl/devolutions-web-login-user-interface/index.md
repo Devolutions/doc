@@ -30,4 +30,4 @@ Chaque onglet affiche une vue différente dans la ***Zone de contenu***. Les ong
 * le ***Générateur de mots de passe***, où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte; 
 * l'onglet ***À propos***, où vous pouvez trouver des liens vers des outils et des informations utiles sur {{ fr.DWL }}. 
 
-Consultez notre rubrique [Menu latéral](/fr/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 
+Consultez [Menu latéral](/fr/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/) pour obtenir davantage d'informations sur chacun des onglets.

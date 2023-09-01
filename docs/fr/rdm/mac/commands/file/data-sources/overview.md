@@ -3,7 +3,7 @@ title: Survol
 ---
 Utiliser ***Fichier - Sources de données*** pour gérer vos sources de données. {{ fr.RDM }} prend en charge plusieurs types de sources de données, mais certaines d'entre elles sont seulement disponibles dans l'Édition Team.  
 
-Veuillez consulter la rubrique [Types de sources de données](/fr/rdm/mac/data-sources/data-sources-types/) pour plus de détails sur toutes nos sources de données prises en charge.  
+Veuillez consulter [Types de sources de données](/fr/rdm/mac/data-sources/data-sources-types/) pour plus de détails sur toutes nos sources de données prises en charge.  
 ![Fichier - Sources de données](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0054.png) 
 
 ## Paramètres 

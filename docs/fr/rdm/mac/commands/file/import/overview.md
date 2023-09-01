@@ -28,4 +28,4 @@ Vous pouvez importer des ordinateurs à partir de différentes sources. Ces sour
 
 ### Importer les Sessions de 
 
-Consulter la rubrique [Importer des sessions](/fr/rdm/mac/commands/file/import/sessions/) pour plus d'informations. 
+Consulter [Importer des sessions](/fr/rdm/mac/commands/file/import/sessions/) pour plus d'informations.

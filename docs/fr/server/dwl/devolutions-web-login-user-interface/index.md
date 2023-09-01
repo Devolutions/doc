@@ -42,4 +42,4 @@ Chaque onglet affiche une vue différente dans la Zone de contenu. Les onglets d
 * l'onglet ***Récent***, où vous pouvez trouver une liste des entrées que vous avez récemment utilisées; 
 * le ***Générateur de mots de passe***, où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte.  
 
-Consultez notre rubrique [Menu latéral](/fr/server/dwl/devolutions-web-login-user-interface/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 
+Consultez [Menu latéral](/fr/server/dwl/devolutions-web-login-user-interface/side-menu/) pour obtenir davantage d'informations sur chacun des onglets.

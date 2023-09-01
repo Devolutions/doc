@@ -465,7 +465,7 @@ Sélectionner l'algorithme de hachage sécurisé (SHA) entre ***SHA-1***, ***SHA
 
 Ce champ n'est disponible que si ***Personnalisé*** est sélectionné dans la liste déroulante ***Source***.  
 
-Pour en apprendre davantage sur l'algorithme de hachage sécurisé, visitez [notre rubrique sur le SHA-256](/fr/kb/general-knowledge-base/what-is-sha-256/). 
+Pour en apprendre davantage sur l'algorithme de hachage sécurisé, visitez [SHA-256](/fr/kb/general-knowledge-base/what-is-sha-256/). 
 		</td>
 	</tr>
 </table>

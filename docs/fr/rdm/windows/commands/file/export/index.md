@@ -51,7 +51,7 @@ Veuillez noter que les colonnes csv varient en fonction des types d'entrées exp
  
 ### Exporter le {{ fr.VLT }} (.html) 
 
-Exporter le {{ fr.VLT }} avec l'AES-256 pour crypter le fichier autonome HTML. Voir la rubrique [HTML crypté](/fr/rdm/windows/commands/file/export/html-encrypted/) pour plus d'information. 
+Exporter le {{ fr.VLT }} avec l'AES-256 pour crypter le fichier autonome HTML. Voir [HTML crypté](/fr/rdm/windows/commands/file/export/html-encrypted/) pour plus d'information. 
 
 ### Exporter le {{ fr.VLT }} (.xml) 
 

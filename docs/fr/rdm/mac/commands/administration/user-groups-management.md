@@ -119,7 +119,7 @@ Le menu d'exportation (***Fichier - Exporter***) et la fonction d'exportation da
 
 ### Permissions 
 
-Utiliser le menu ***Permissions*** pour attribuer les autorisations Affichage, Ajouter, Modifier et Supprimer à vos groupes d'utilisateurs. Pour plus d'informations, consultez la rubrique [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/).  
+Utiliser le menu ***Permissions*** pour attribuer les autorisations Affichage, Ajouter, Modifier et Supprimer à vos groupes d'utilisateurs. Pour plus d'informations, consultez [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/).  
 ![Gestion du groupe d'utilisateurs - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4132.png) 
 
 ### Paramètres 

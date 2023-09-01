@@ -55,7 +55,7 @@ La création d'utilisateurs de base de données comme mentionné dans cet [artic
  
 ## Configuration 
 
-Consulter la rubrique [Configurer SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure/) pour plus d'informations sur la configuration. 
+Consulter [Configurer SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure/) pour plus d'informations sur la configuration. 
 
 ## Paramètres 
 
@@ -325,7 +325,7 @@ DESCRIPTION
 Mode de la cache 
 		</td>
 		<td>
-Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d'informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

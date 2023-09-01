@@ -21,7 +21,7 @@ Il est également possible de régler le ***Temps d'inactivité avant la déconn
 Dans la section ***Authentification unique (SSO)***, vous pouvez ***Configurer l'authentification unique (SSO)*** pour vos utilisateur de {{ fr.DHUB }}. Ils pourront alors se connecter à votre hub en utilisant leurs identifiants Azure AD en plus de pouvoir le faire avec leurs identifiants {{ fr.DA }}.  
 ![Administration – Authentification – Authentification unique (SSO)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2158.png) 
 {% snippet icon.badgeHelp %} 
-Lors de la configuration du SSO, vous devrez remplir certains champs de la page ***Configurer l'authentification unique (SSO)***. Consultez notre rubrique [Introduction à SSO avec {{ fr.DHUBB }}](/fr/hub/getting-started/get-started-sso-hub-business/) pour plus d'informations. 
+Lors de la configuration du SSO, vous devrez remplir certains champs de la page ***Configurer l'authentification unique (SSO)***. Consultez [Introduction à SSO avec {{ fr.DHUBB }}](/fr/hub/getting-started/get-started-sso-hub-business/) pour plus d'informations. 
 {% endsnippet %}
  
 ![Configurer l'authentification unique (SSO)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2159.png) 

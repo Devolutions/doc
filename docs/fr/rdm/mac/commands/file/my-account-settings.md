@@ -20,7 +20,7 @@ Description
 Mes identifiants personnels 
 		</td>
 		<td>
-Consulter la rubrique Mes identifiants personnels pour plus d'informations. 
+Consulter Mes identifiants personnels pour plus d'informations. 
 		</td>
 	</tr>
 		<td>

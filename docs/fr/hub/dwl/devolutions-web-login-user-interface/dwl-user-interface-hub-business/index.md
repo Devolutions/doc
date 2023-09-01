@@ -40,4 +40,4 @@ Chaque onglet affiche une vue différente dans la ***Zone de contenu***. Les ong
 * l'onglet ***{{ fr.UVLT }}***, où vous pouvez trouver les entrées que vous avez stockées dans votre ***{{ fr.UVLT }}*** de {{ fr.DHUBB }}, réparties dans vos différents dossiers; 
 * l'onglet ***Générateur de mots de passe***, où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte.  
 
-Consultez notre rubrique [Menu latéral](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 
+Consultez [Menu latéral](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 

@@ -3,11 +3,11 @@ title: Créer et inviter des utilisateurs
 ---
 Créer et inviter des ***Utilisateurs*** dans votre {{ fr.DHUBB }} avec leur adresse courriel. 
 {% snippet icon.badgeCaution %} 
-Si votre {{ fr.DHUBB }} est configurée avec les identifiants d'authentification SSO d'Azure AD Office 365, suivre le processus spécifique pour inviter des utilisateurs avec cette rubrique : [Inviter des utilisateurs pour SSO](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/). 
+Si votre {{ fr.DHUBB }} est configurée avec les identifiants d'authentification SSO d'Azure AD Office 365, suivre le processus spécifique pour inviter des utilisateurs avec [Inviter des utilisateurs pour SSO](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/). 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-Nous vous recommandons fortement d'inviter au moins un autre administrateur. Voir le processus avec cette rubrique : [Inviter un administrateur](/fr/hub/web-interface/hub-overview/administration/management/users/administrator-invite/). 
+Nous vous recommandons fortement d'inviter au moins un autre administrateur. Voir le processus avec [Inviter un administrateur](/fr/hub/web-interface/hub-overview/administration/management/users/administrator-invite/). 
 {% endsnippet %}
  
 ### Inviter des utilisateurs 

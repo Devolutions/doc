@@ -47,7 +47,7 @@ Les ***Groupes d'utilisateurs*** personnalisés doivent être définis au préal
 
 {{ fr.DHUBB }} enverra un courriel contenant les informations essentielles aux destinataires, incluant l'URL du {{ fr.DHUBB }}, l'ID d'invitation et la clé.  
 {% snippet icon.badgeCaution %} 
-Les utilisateurs devront remplir une configuration de {{ fr.DA }}. Consultez notre rubrique [Expérience d'invitation de l'utilisateur final pour SSO dans {{ fr.DHUBB }}](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/). 
+Les utilisateurs devront remplir une configuration de {{ fr.DA }}. Consultez [Expérience d'invitation de l'utilisateur final pour SSO dans {{ fr.DHUBB }}](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/). 
 {% endsnippet %}  
  
 {% snippet icon.badgeInfo %} 
@@ -67,6 +67,5 @@ Il est possible d'ajouter des utilisateurs à votre {{ fr.DHUBB }} qui sont hors
 {% snippet icon.badgeInfo %} 
 Cette option est possible seulement si vous n'activez pas ***Forcer l'authentification unique à tous les utilisateurs***, puisque ces utilisateurs ne font pas partie de votre fournisseur d'authentification.
 
-Suivez les étapes de la rubrique [Créer et inviter des utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/users/create-invite-users/index).
-{% endsnippet %} 
-
+Suivez les étapes de [Créer et inviter des utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/users/create-invite-users/index).
+{% endsnippet %}

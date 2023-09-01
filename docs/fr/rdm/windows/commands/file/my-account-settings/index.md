@@ -48,7 +48,7 @@ Indique si l'utilisateur actuel est administrateur ou non.
 Mes identifiants personnels 
 		</td>
 		<td>
-Consulter la rubrique [Mes identifiants personnels](/fr/rdm/windows/commands/file/my-account-settings/my-personal-credentials/) pour plus d'informations. 
+Consulter [Mes identifiants personnels](/fr/rdm/windows/commands/file/my-account-settings/my-personal-credentials/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

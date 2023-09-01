@@ -99,7 +99,7 @@ DESCRIPTION
 Générateur de fichier de configuration 
 		</td>
 		<td>
-Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter la rubrique [Générateur de fichiers d'installation](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
+Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter [Générateur de fichiers d'installation](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
 		</td>
 	</tr>
 	<tr>
@@ -107,7 +107,7 @@ Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter la rubrique [Gé
 {{ fr.CIM }} 
 		</td>
 		<td>
-Consulter la rubrique [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/). 
+Consulter [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/). 
 		</td>
 	</tr>
 </table>

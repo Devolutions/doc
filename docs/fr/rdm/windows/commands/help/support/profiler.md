@@ -26,6 +26,4 @@ Maintenir la touche Ctrl enfoncée lors de l'actualisation devrait forcer un rec
 
 ### Débogage seulement 
 
-Pour en savoir plus sur l'onglet Débogage seulement, consulter la rubrique Débogage.  
-![Débogage seulement](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10443.png) 
-
+![Débogage seulement](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10443.png)

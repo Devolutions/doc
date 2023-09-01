@@ -23,7 +23,7 @@ Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources
 
 ### Créer des utilisateurs 
 
-Pour créer un nouvel utilisateur, cliquez sur le plus. Vous pouvez créer un utilisateur en utilisant la sécurité par défaut (en spécifiant le mot de passe) ou la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/). Consulter la rubrique [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) pour plus d'informations sur les droits qui peuvent être ajoutése à un utilisateur. Vous pouvez attribuer différentes options de sécurité à l'utilisateur, telles que lui permettre d'utiliser le mode ***Hors connexion***.  
+Pour créer un nouvel utilisateur, cliquez sur le plus. Vous pouvez créer un utilisateur en utilisant la sécurité par défaut (en spécifiant le mot de passe) ou la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/). Consulter [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) pour plus d'informations sur les droits qui peuvent être ajoutése à un utilisateur. Vous pouvez attribuer différentes options de sécurité à l'utilisateur, telles que lui permettre d'utiliser le mode ***Hors connexion***.  
 ![Gestion des usagers et de la sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0292.png) 
 
 {% snippet icon.badgeInfo %} 
@@ -70,7 +70,7 @@ Nom de connexion de l'utilisateur. Lorsque vous utilisez la [Sécurité intégr�
 Sécurité intégrée 
 		</td>
 		<td>
-Spécifie d'utiliser l'authentification intégrée de Windows pour s'authentifier auprès de la source de données. S'applique uniquement à SQL Server et {{ fr.DVLS }}, selon leur configuration. Lorsque cette case est cochée, un bouton de sélection apparaît pour vous permettre de rechercher le compte d'utilisateur dans le répertoire. Consultez la rubrique [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) pour plus d'informations. 
+Spécifie d'utiliser l'authentification intégrée de Windows pour s'authentifier auprès de la source de données. S'applique uniquement à SQL Server et {{ fr.DVLS }}, selon leur configuration. Lorsque cette case est cochée, un bouton de sélection apparaît pour vous permettre de rechercher le compte d'utilisateur dans le répertoire. Consultez [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -121,7 +121,7 @@ Description
 Groupes d'utilisateurs 
 		</td>
 		<td>
-Consulter la rubrique Gestion des Groupes d'utilisateurs pour plus d'informations. Lorsqu'un groupe d'utilisateurs doit être ajouté à un utilisateur, une colonne de description vous aidera à sélectionner le groupe d'utilisateurs approprié. 
+Lorsqu'un groupe d'utilisateurs doit être ajouté à un utilisateur, une colonne de description vous aidera à sélectionner le groupe d'utilisateurs approprié. 
 		</td>
 	</tr>
 </table>
@@ -195,7 +195,7 @@ Le menu d'exportation (Fichier - Exporter) et la fonction d'exportation dans le 
 
 La section ***Permissions*** vous permet d'attribuer des permissions. Les contrôles sont parfois masqués en fonction de la source de données ou de l'état des autres contrôles.  
 
-Consulter la rubrique [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) pour plus d'informations.  
+Consulter [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) pour plus d'informations.  
 ![Gestion des utilisateurs - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4118.png) 
 
 ### Paramètres 

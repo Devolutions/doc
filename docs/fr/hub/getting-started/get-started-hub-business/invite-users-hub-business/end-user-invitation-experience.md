@@ -3,10 +3,10 @@ eleventyComputed:
   title: Expérience d'invitation de l'utilisateur final dans {{ fr.DHUBB }}
 ---
 {% snippet icon.badgeInfo %} 
-L'administrateur peut [inviter des utilisateurs à se connecter avec l'identification unique (SSO)](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/), qui est un moyen d'identifier un utilisateur en utilisant un seul identifiant, à {{ fr.DHUBB }}. L'expérience d'invitation de l'utilisateur final est différente avec le SSO, car le courriel que l'utilisateur reçoit lui demande de se connecter avec Microsoft. Si tel est le cas, veuillez vous référer à notre rubrique [Expérience d'invitation de l'utilisateur final pour SSO](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/). 
+L'administrateur peut [inviter des utilisateurs à se connecter avec l'identification unique (SSO)](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/), qui est un moyen d'identifier un utilisateur en utilisant un seul identifiant, à {{ fr.DHUBB }}. L'expérience d'invitation de l'utilisateur final est différente avec le SSO, car le courriel que l'utilisateur reçoit lui demande de se connecter avec Microsoft. Si tel est le cas, veuillez vous référer à [Expérience d'invitation de l'utilisateur final pour SSO](/fr/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/). 
 {% endsnippet %}
  
-Les utilisateurs qui sont invités à rejoindre {{ fr.DHUBB }} par un administrateur reçoivent un courriel d'invitation. Ce courriel varie selon que l'utilisateur possède ou non un {{ fr.DA }} et selon les paramètres de l'administrateur qui a envoyé l'invitation. Pour savoir comment inviter des utilisateurs, consultez [cette rubrique](/fr/hub/web-interface/hub-overview/administration/management/users/create-invite-users/).  
+Les utilisateurs qui sont invités à rejoindre {{ fr.DHUBB }} par un administrateur reçoivent un courriel d'invitation. Ce courriel varie selon que l'utilisateur possède ou non un {{ fr.DA }} et selon les paramètres de l'administrateur qui a envoyé l'invitation. Pour savoir comment inviter des utilisateurs, consultez [Créer et inviter des utilisateurs](/fr/hub/web-interface/hub-overview/administration/management/users/create-invite-users/).  
 
 Pour des informations concernant la première connexion de l'utilisateur à {{ fr.DHUBB }}, visitez l'une des sections ci-dessous en fonction de la situation de l'utilisateur.  
 
@@ -56,14 +56,14 @@ Vous pouvez aussi accéder à votre ***{{ fr.UVLT }}***, qui est centré sur l'u
 
 ### Créer des entrées 
 
-{{ fr.DWL }} est notre extension de navigateur Web pour les mots de passe. Il s'agit du client privilégié à utiliser en conjonction avec {{ fr.DHUBB }} pour créer et gérer les entrées d'identifiants de sites Web. Consultez cette rubrique (à venir) pour connaître les étapes permettant d'ajouter une entrée de site Web avec {{ fr.DWL }}, ou consultez la rubrique [Créer des entrées manuellement](/fr/hub/web-interface/hub-overview/entries/create-entries-manually/) pour savoir comment les créer directement dans {{ fr.DHUBB }}. Vous pouvez également suivre les étapes ci-dessous pour créer manuellement une entrée dans votre ***{{ fr.UVLT }}***.  
+{{ fr.DWL }} est notre extension de navigateur Web pour les mots de passe. Il s'agit du client privilégié à utiliser en conjonction avec {{ fr.DHUBB }} pour créer et gérer les entrées d'identifiants de sites Web. Consultez [Ajouter une entrée de site Web dans {{ fr.DHUBB }} par {{ fr.DWL }}](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) pour connaître les étapes permettant d'ajouter une entrée de site Web avec {{ fr.DWL }}, ou consultez [Créer des entrées manuellement](/fr/hub/web-interface/hub-overview/entries/create-entries-manually/) pour savoir comment les créer directement dans {{ fr.DHUBB }}. Vous pouvez également suivre les étapes ci-dessous pour créer manuellement une entrée dans votre ***{{ fr.UVLT }}***.  
 
 1. Sélectionner le dossier dans lequel vous voulez créer la nouvelle entrée, le cas échéant. Sinon, passez cette première étape. 
 1. Cliquer sur le bouton ***Ajouter*** situé dans le ***{{ fr.NPANE }}***.  
 ![Bouton Ajouter](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2003.png) 
 1. Sélectionner le type d'entrée que vous voulez créer. Vous pouvez effectuer une recherche par catégories avec le menu latéral ou appliquer un filtre avec la barre de recherche. Cliquer sur ***Continuer*** lorsque votre type d'entrée est sélectionné. 
 {% snippet icon.badgeInfo %} 
-Pour en apprendre davantage sur les types d'entrées, visitez notre rubrique [Type d'entrée](/fr/hub/web-interface/hub-overview/entries/entry-type/). 
+Pour en apprendre davantage sur les types d'entrées, visitez [Type d'entrée](/fr/hub/web-interface/hub-overview/entries/entry-type/). 
 {% endsnippet %}
  
 ![Ajouter une entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2004.png) 

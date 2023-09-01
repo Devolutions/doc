@@ -3,7 +3,7 @@ eleventyComputed:
   title: Sécuriser {{ fr.DWL }}
   order: 70
 ---
-Dans {{ fr.RDM }} versions 2021.1 et supérieures, nous avons changé la façon dont notre extension de navigateur {{ fr.DWL }} communique avec {{ fr.RDM }} pour remplir les identifiants dans les pages Web. Nous avons fait ces changements pour augmenter la sécurité de cette fonctionnalité. Visitez la rubrique [Première connexion](/fr/rdm/windows/dwl/first-login-devolutions-web-login/) pour les étapes de configuration. 
+Dans {{ fr.RDM }} versions 2021.1 et supérieures, nous avons changé la façon dont notre extension de navigateur {{ fr.DWL }} communique avec {{ fr.RDM }} pour remplir les identifiants dans les pages Web. Nous avons fait ces changements pour augmenter la sécurité de cette fonctionnalité. Visitez [Première connexion](/fr/rdm/windows/dwl/first-login-devolutions-web-login/) pour les étapes de configuration. 
 
 {% snippet icon.shieldWarning %} 
 Si vous utilisez une version antérieure à 2021.1 et, comme indiquée dans la section [Survol de {{ fr.DWL }}](/fr/rdm/windows/dwl/overview/), l'installation de l'extension dans un environnement de services Bureau à distance (Terminal Services) peut présenter des risques de sécurité. Dans de tels environnements, chaque utilisateur doit disposer d'un port distinct ainsi que d'une clé d'application pour empêcher tout autre {{ fr.DWL }} d'écouter.  

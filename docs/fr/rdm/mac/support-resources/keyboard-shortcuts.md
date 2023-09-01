@@ -10,7 +10,7 @@ Les boutons ***Réinitialiser*** et ***Restaurer tout par défaut*** effacent vo
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Consultez notre rubrique sur la [personnalisation de vos raccourcis (EN)](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/). 
+Consultez [Keyboard shortcuts customization in {{ fr.RDMMAC }} (EN)](/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/) pour la personnalisation de vos raccourcis. 
 {% endsnippet %}
  
 ![Raccourcis clavier](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2009.png)

@@ -2,7 +2,7 @@
 title: Exporter avec PowerShell
 ---
 {% snippet icon.badgeInfo %} 
-L'exportation et l'importation de données depuis et vers {{ fr.DHUBP }} s'effectue différemment que dans {{ fr.DHUBB }}. Reportez-vous à [cette rubrique (EN)](/kb/hub-business/how-to-articles/import-export-data-hub-personal/) si vous utilisez {{ fr.DHUBP }}. 
+L'exportation et l'importation de données depuis et vers {{ fr.DHUBP }} s'effectue différemment que dans {{ fr.DHUBB }}. Reportez-vous à [Import/Export data with {{ fr.DHUBP }} (EN)](/kb/hub-business/how-to-articles/import-export-data-hub-personal/) si vous utilisez {{ fr.DHUBP }}. 
 {% endsnippet %}  
 
 Dans l'onglet ***Outils*** de {{ fr.DHUBB }}, vous trouverez sous la section ***Exporter*** la fonctionnalité ***Exporter avec PowerShell***. Elle vous permet d'exporter vos données de {{ fr.DHUBB }} au format Json ou Csv en utilisant un script PowerShell.  

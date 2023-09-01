@@ -10,7 +10,7 @@ Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.RDMMAC }}, les onglets disponibles
 L'extension s'ouvre sur l'onglet ***Correspondant***. C'est là que vous verrez la liste des identifiants disponibles pour le site Web particulier sur lequel vous vous trouvez.  
 
 {% snippet icon.badgeInfo %} 
-Pour connaître les méthodes de récupération de vos identifiants, consultez [cette rubrique](/fr/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/). 
+Pour connaître les méthodes de récupération de vos identifiants, consultez [Récupérer des identifiants avec {{ fr.DWL }}](/fr/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/). 
 {% endsnippet %}
  
 ![Onglet Correspondant](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2017.png) 
@@ -20,7 +20,7 @@ En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher tous vos 
 En bas, le bouton ***Ajouter un site Web*** ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site Web dans {{ fr.RDMMAC }} par le biais de l'extension {{ fr.DWL }}.  
 
 {% snippet icon.badgeInfo %} 
-Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web***, consultez [cette rubrique](/fr/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/add-website/). Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
+Pour obtenir une liste complète des champs disponibles dans la fenêtre ***Ajouter un site Web***, consultez [Ajouter un site Web](/fr/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/add-website/). Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée de site Web](/fr/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
 {% endsnippet %}
  
 ### Onglet Générateur de mots de passe 
@@ -36,7 +36,7 @@ Dans la section déroulante ***Général***, vous pouvez sélectionner les types
 Dans la section déroulante ***Avancé***, vous êtes en mesure de personnaliser davantage votre mot de passe en saisissant les caractères que vous souhaitez inclure dans votre mot de passe, suivis du nombre minimum de fois où ils doivent apparaître. Dans le second champ, vous pouvez également saisir les caractères que vous voulez exclure de votre mot de passe.  
 
 {% snippet icon.badgeInfo %} 
-Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [cette rubrique](/fr/rdm/mac/dwl/using-devolutions-web-login/create-account-website/). 
+Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [Créer un compte de site Web avec {{ fr.DWL }}](/fr/rdm/mac/dwl/using-devolutions-web-login/create-account-website/). 
 {% endsnippet %}
  
 ### Onglet À propos 

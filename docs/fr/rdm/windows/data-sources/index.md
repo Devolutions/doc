@@ -9,7 +9,7 @@ Une source de données peut être un fichier ou une base de données; vous pouve
 
 ### Créer une source de données 
 
-Veuillez consulter notre rubrique [Créer une nouvelle source de données](/fr/rdm/windows/data-sources/create-new-data-source/) pour plus d'informations. 
+Veuillez consulter [Créer une nouvelle source de données](/fr/rdm/windows/data-sources/create-new-data-source/) pour plus d'informations. 
 
 ### Sources de données multiples 
 

@@ -40,7 +40,7 @@ Une stratégie de sauvegarde de base de données appropriée doit être mise en 
  
 ## Configuration 
 
-Pour configurer une source de données Azure SQL, veuillez lire la rubrique [Configurer Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/). 
+Pour configurer une source de données Azure SQL, veuillez lire [Configurer Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/). 
 
 ## Paramètres 
 
@@ -297,7 +297,7 @@ DESCRIPTION
 Mode de la cache 
 		</td>
 		<td>
-Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d'informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

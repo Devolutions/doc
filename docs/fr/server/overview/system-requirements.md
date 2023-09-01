@@ -10,7 +10,7 @@ status: Topic available in German language
 {{ fr.DVLS }} valide que les niveaux fonctionnels du domaine et de la forêt ont le minimum requis Windows Server 2012 R2. Cela est essentiel lors de l'utilisation de l'authentification d'Active Directory. 
 {% endsnippet %}
 
-Le tableau suivant énumère les spécifications matérielles minimales recommandées pour {{ fr.DVLS }}. Ces spécifications peuvent varier en fonction de l'utilisation de l'application, comme indiqué plus loin dans la rubrique.
+Le tableau suivant énumère les spécifications matérielles minimales recommandées pour {{ fr.DVLS }}. Ces spécifications peuvent varier en fonction de l'utilisation de l'application, comme indiqué plus loin.
 
 |Implémentation de base{width=228px} |Implémentation moyenne{width=240px} |Implémentation large|
 |:--------------------------: |:------------------------: |:---------------------: |

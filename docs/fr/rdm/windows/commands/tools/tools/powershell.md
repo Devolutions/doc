@@ -5,7 +5,7 @@ Le PowerShell (RDM CmLet) ouvre automatiquement une fenêtre PowerShell intégr�
 
 Depuis sa sortie, cette fonctionnalité très demandée est devenue très utile pour résoudre les demandes des utilisateurs. Une recherche rapide sur notre forum révèle de nombreuses utilisations des applets de commande, telles que l'automatisation de la création de raccourcis du menu Démarrer de Windows pour chaque session {{ fr.RDM }}.  
 
-Pour en savoir plus, vous pouvez trouver la documentation complète de l'applet de commande {{ fr.RDM }} disponible via la rubrique [Scripts PowerShell](/rdm/windows/powershell-scripting/) ou directement dans PowerShell à l'aide de l'applet de commande Get-Help.  
+Pour en savoir plus, vous pouvez trouver la documentation complète de l'applet de commande {{ fr.RDM }} disponible via [Scripts PowerShell](/rdm/windows/powershell-scripting/) ou directement dans PowerShell à l'aide de l'applet de commande Get-Help.  
 
 ## Paramètres 
 

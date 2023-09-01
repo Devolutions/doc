@@ -14,6 +14,6 @@ Veuillez vous référer à [Enregistrer une licence {{ fr.DVLS }}](/fr/server/in
 
 ### Enregistrement de {{ fr.DVLS }} Free 
 
-L'édition {{ fr.DVLS }} Free est destinée aux petites équipes de 3 utilisateurs et ses fonctionnalités sont similaires à l'édition Team. L'inscription est gratuite. Veuillez consulter la rubrique [Enregistrer une licence {{ fr.DVLS }} Free](/fr/server/installation/registration/register-free-server-license/) pour enregistrer correctement votre version.  
+L'édition {{ fr.DVLS }} Free est destinée aux petites équipes de 3 utilisateurs et ses fonctionnalités sont similaires à l'édition Team. L'inscription est gratuite. Veuillez consulter [Enregistrer une licence {{ fr.DVLS }} Free](/fr/server/installation/registration/register-free-server-license/) pour enregistrer correctement votre version.  
 
-Pour en savoir plus et comparer les différentes versions disponibles, visitez [Comparer les éditions {{ fr.DVLS }}](https://devolutions.net/server/fr/compare). 
+Pour en savoir plus et comparer les différentes versions disponibles, visitez [Comparer les éditions {{ fr.DVLS }}](https://devolutions.net/server/fr/compare).

@@ -170,7 +170,7 @@ Désactiver la mise en cache
 		</td>
 		<td>
 
-Les entrées seront rechargées en mode simple dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
+Les entrées seront rechargées en mode simple dans la source de données. Voir [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

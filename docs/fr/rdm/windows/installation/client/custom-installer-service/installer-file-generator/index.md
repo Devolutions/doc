@@ -15,4 +15,4 @@ Un dialogue d'information s'affiche pour vous indiquer que le fichier a été g�
 
 Ce fichier peut être utilisé dans le ***{{ fr.CIS }}*** lors de la création d'un paquet d'installation.  
 
-Pour plus d'informations sur la création d'un paquet d'installation personnalisé, veuillez consulter notre rubrique [{{ fr.CIM }}](/fr/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/). 
+Pour plus d'informations sur la création d'un paquet d'installation personnalisé, veuillez consulter [{{ fr.CIM }}](/fr/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/).

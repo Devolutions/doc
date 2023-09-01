@@ -129,14 +129,14 @@ DESCRIPTION
 Paramètres spécifiques de l'usager 
 		</td>
 		<td>
-Remplacer les propriétés de l'entrée sélectionnée par des paramètres spécifiques à l'utilisateur actuel. Pour plus d'informations, veuillez consulter la rubrique [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
+Remplacer les propriétés de l'entrée sélectionnée par des paramètres spécifiques à l'utilisateur actuel. Pour plus d'informations, veuillez consulter [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 		<td>
 Paramètres spécifiques locaux 
 		</td>
 		<td>
-Remplacez les propriétés de l'entrée sélectionnée par des paramètres spécifiques à la machine locale. Pour plus d'informations, veuillez consulter la rubrique [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
+Remplacez les propriétés de l'entrée sélectionnée par des paramètres spécifiques à la machine locale. Pour plus d'informations, veuillez consulter [Paramètres spécifiques](/fr/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 		</td>
 	</tr>
 </table>
@@ -170,7 +170,7 @@ Effectuer des actions spéciales sur les entrées sélectionnées, telles que ch
 Modifier le lot 
 		</td>
 		<td>
-Effectuer une modification sur plusieurs entrées à la fois. Cela est particulièrement utile pour effectuer des modifications en masse des entrées (comme changer le mode d'affichage après avoir modifié l'espace de travail ou leurs entrées d'identifiants lors du changement de vos mots de passe). Plusieurs entrées doivent être sélectionnées pour que cette fonction soit visible. Pour plus d'informations, veuillez consulter la rubrique [Modifier le lot](/fr/rdm/windows/commands/edit/batch/batch-edit/). 
+Effectuer une modification sur plusieurs entrées à la fois. Cela est particulièrement utile pour effectuer des modifications en masse des entrées (comme changer le mode d'affichage après avoir modifié l'espace de travail ou leurs entrées d'identifiants lors du changement de vos mots de passe). Plusieurs entrées doivent être sélectionnées pour que cette fonction soit visible. Pour plus d'informations, veuillez consulter [Modifier le lot](/fr/rdm/windows/commands/edit/batch/batch-edit/). 
 		</td>
 	</tr>
 		<td>

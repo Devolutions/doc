@@ -3,7 +3,7 @@ title: Diagnostic
 ---
 Si vous rencontrez un problème avec {{ fr.RDM }}, vous pouvez exécuter un Diagnostic du système, disponible dans ***Aide – Diagnostic***. Cela pourrait aider à diagnostiquer ou à indiquer le type de problèmes que vous pourriez rencontrer. 
 
-### Système 
+## Système 
 
 L'élément administrateur peut être la source possible d'un problème de sécurité. Cela se produit souvent lorsqu'un utilisateur possède le SYSDBA ou est DB_OWNER de la base de données SQL Server.  
 
@@ -14,12 +14,7 @@ Les problèmes et solutions liés à FIPS (chiffrement) se trouvent dans la sect
 Si un [{{ fr.RDMJ }}](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump/) est configuré, vous pouvez exécuter un test de votre hôte Jump en cliquant sur Jump Test.  
 ![Diagnostic du système – Système](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10814.png) 
 
-{% snippet icon.badgeInfo %} 
-Veuillez lire la rubrique Troubleshooting si vous rencontrez des problèmes avec {{ fr.RDM }}, il répertorie les messages d'erreur et peut contenir le correctif/solution de contournement pour votre problème. 
-{% endsnippet %}
- 
-
-### Source de données 
+## Source de données 
 
 L'onglet Source de données contient des informations concernant la source de données actuelle, telles que le nombre d'entrées qu'elle contient, la taille de votre source de données, le nombre d'images personnalisées et l'état hors ligne. 
 
@@ -29,7 +24,7 @@ Trop d'images personnalisées pourraient considérablement augmenter la taille d
  
 ![Diagnostic du système – Source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11353.png) 
 
-### Politique 
+## Politique 
 
 L'onglet Politique affiche la liste des modèles de stratégie de groupe pour voir si l'un d'eux a été appliqué.  
-![Diagnostic du système – Politique](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11354.png) 
+![Diagnostic du système – Politique](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11354.png)

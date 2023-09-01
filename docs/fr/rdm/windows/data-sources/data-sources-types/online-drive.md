@@ -8,7 +8,7 @@ Le {{ fr.DOD }} stocke et synchronise vos connexions à distance et vos identifi
 
 Il s'agit d'un service de stockage de fichiers en ligne dédiée à un seul type de fichier, la liste de connexion de {{ fr.RDM }}. {{ fr.DOD }} est entièrement gratuit et n'a aucune limite quant au nombre de sessions que vous pourriez avoir, il est destiné aux utilisateurs uniques, car vous ne pourrez pas partager de fichiers.  
 
-Veuillez consulter la rubrique [{{ fr.DOD }}](/fr/cloud/rdm-online-services/online-drive/) pour plus d'informations sur ce service. 
+Veuillez consulter [{{ fr.DOD }}](/fr/cloud/rdm-online-services/online-drive/) pour plus d'informations sur ce service. 
 
 {% snippet icon.shieldWarning %} 
 Étant donné que ce service est hébergé dans le cloud, nous vous recommandons fortement de crypter davantage vos données en appliquant une clé maîtresse. Cela garantira que le fichier sera illisible par personne d'autre que vous. 
@@ -110,7 +110,7 @@ Toujours demander la clé maîtresse lors de la connexion à la source de donné
 
 ### Copie de sauvegarde 
 
-Veuillez consulter la rubrique [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) pour plus d'informations sur ce service.  
+Veuillez consulter [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) pour plus d'informations sur ce service.  
 ![{{ fr.DOD }} - Copie de sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11334.png) 
 
 <table>

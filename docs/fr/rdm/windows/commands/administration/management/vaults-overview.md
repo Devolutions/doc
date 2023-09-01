@@ -5,7 +5,7 @@ eleventyComputed:
 Les {{ fr.VLT }}s sont des répertoires qui organisent vos dossiers et vos entrées. Ils permettent de diviser vos ***Sources de données avancées*** en plusieurs compartiments. Les {{ fr.VLT }}s améliorent la sécurité et l'expérience utilisateur de {{ fr.RDM }} en plus de sa performance en limitant la quantité d'entrées qui chargent en même temps.  
 
 {% snippet icon.badgeHelp %}
-Pour en savoir plus sur les différents types de {{ fr.VLT }}s et les moyens d'accéder à ces {{ fr.VLT }}s, consultez notre rubrique [{{ fr.VLT }}s](/fr/rdm/windows/commands/view/panels/vault/).
+Pour en savoir plus sur les différents types de {{ fr.VLT }}s et les moyens d'accéder à ces {{ fr.VLT }}s, consultez [{{ fr.VLT }}s](/fr/rdm/windows/commands/view/panels/vault/).
 {% endsnippet %}
 
 Cette rubrique traite des sujets suivants :  
@@ -27,7 +27,7 @@ Pour des raisons de sécurité et de performance, nous recommandons de créer un
 ![Administration – Gestion – {{ fr.VLT }}s](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4087.png) 
 
 {% snippet icon.badgeHelp %} 
-Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez nos rubriques de [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) traitant des {{ fr.VLT }}s. 
+Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) qui traient des {{ fr.VLT }}s. 
 {% endsnippet %}
  
 
@@ -89,9 +89,8 @@ Suivez les étapes ci-dessous pour affecter des ***Utilisateurs*** et des ***Rô
 1. Dans le ***Ruban***, aller dans ***Administration – Gestion – {{ fr.VLT }}s***.  
 ![Administration – Gestion – {{ fr.VLT }}s](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4087.png) 
 {% snippet icon.badgeInfo %} 
-Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez nos rubriques de [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) traitant des {{ fr.VLT }}s. 
+Si vous utilisez une source de données {{ fr.DVLS }} ou {{ fr.DHUBB }}, la gestion des {{ fr.VLT }}s est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez [{{ fr.DVLS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.DHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) qui traitent des {{ fr.VLT }}s. 
 {% endsnippet %}
- 
 
 2. Dans la fenêtre ***Gestion des usagers et de la sécurité***, sélectionner l'onglet ***{{ fr.VLT }}s***, puis cliquer sur ***Affecter des utilisateurs et rôles***.  
 ![Gestion des usagers et de la sécurité – {{ fr.VLT }}s – Affecter des utilisateurs et rôles](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4094.png) 

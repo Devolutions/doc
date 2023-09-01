@@ -24,5 +24,4 @@ Noter que cet exemple suppose que {{ fr.RDM }} a été installé avec les param�
 ![Fenêtre Exécuter](https://webdevolutions.azureedge.net/docs/fr/kb/KB2031.png) 
 1. Dans le dossier, localiser le fichier **RemoteDesktopManager.cfg**.  
 ![Fichier RemoteDesktopManager.cfg](https://webdevolutions.azureedge.net/docs/fr/kb/KB2032.png) 
-1. Veuillez nous envoyer le fichier de façon sécuritaire en suivant les instructions de la rubrique [Envoi d’un fichier de manière sécurisée à notre équipe](/fr/kb/devolutions-customer-success/securely-send-file/). 
-
+1. Veuillez nous envoyer le fichier de façon sécuritaire en suivant les instructions d'[Envoi d’un fichier de manière sécurisée à notre équipe](/fr/kb/devolutions-customer-success/securely-send-file/).

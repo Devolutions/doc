@@ -15,5 +15,4 @@ Cet article décrit la procédure à suivre pour envoyer une copie de votre fich
 * ***Identifiants du {{ fr.DA }}*** 
 * ***Inclure les identifiants de la source de données*** 
 4. Cliquer sur ***Exporter*** et donner un nom significatif au fichier (si vous avez un numéro de billet, utilisez-le comme nom de fichier). 
-5. Envoyer le fichier à l'équipe de soutien technique en suivant les instructions de la rubrique [Envoi d’un fichier de manière sécurisée à notre équipe](/fr/kb/devolutions-customer-success/securely-send-file/). 
-
+5. Envoyer le fichier à l'équipe de soutien technique en suivant les instructions d'[Envoi d’un fichier de manière sécurisée à notre équipe](/fr/kb/devolutions-customer-success/securely-send-file/).

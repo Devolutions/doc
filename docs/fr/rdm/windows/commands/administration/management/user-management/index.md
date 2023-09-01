@@ -71,7 +71,7 @@ Sélectionner le type d'utilisateur à créer, choisir entre :
 * ***Utilisateur accès restreint :*** Sélectionner les droits à accorder à l'utilisateur. 
 * ***Utilisateur :*** Accorder tous les droits de base à l'utilisateur (Ajouter, Modifier, Supprimer).  
 
-Pour plus d'informations, veuillez consulter la rubrique [Types d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/user-types/). 
+Pour plus d'informations, veuillez consulter [Types d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/user-types/). 
 		</td>
 	</tr>
 	<tr>
@@ -129,7 +129,7 @@ DESCRIPTION
 Groupes d'utilisateurs 
 		</td>
 		<td>
-Cochez la case ***Est membre*** pour attribuer le groupes d'utilisateurs à l'utilisateur. Consultez la rubrique Gestion des [Groupes d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-groups-management/) pour plus d'informations. 
+Cochez la case ***Est membre*** pour attribuer le groupes d'utilisateurs à l'utilisateur. Consultez [Groupes d'utilisateurs](/fr/rdm/windows/commands/administration/management/user-groups-management/) pour plus d'informations. 
 		</td>
 	</tr>
 </table>

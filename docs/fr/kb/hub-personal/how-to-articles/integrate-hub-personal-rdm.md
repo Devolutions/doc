@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 {{ fr.DHUBP }} est notre solution sécurisée de gestion des mots de passe personnels pour les utilisateurs individuels — et c'est gratuit.  
 {% snippet icon.badgeInfo %}
-Pour intégrer {{ fr.DHUBP }} comme source de données dans {{ fr.RDM }} il faut avant tout le créer dans votre {{ fr.DA }}. Suivez les étapes de cette rubrique pour [créer votre {{ fr.DHUBP }} gratuit](/fr/hub/getting-started/create-hub/hub-personal/) ou visitez notre site Web pour créer votre [{{ fr.VLT }}](https://devolutions.net/fr/password-hub/personal) dès aujourd'hui.
+Pour intégrer {{ fr.DHUBP }} comme source de données dans {{ fr.RDM }} il faut avant tout le créer dans votre {{ fr.DA }}. Suivez les étapes pour [créer votre {{ fr.DHUBP }} gratuit](/fr/hub/getting-started/create-hub/hub-personal/) ou visitez notre site Web pour créer votre [{{ fr.VLT }}](https://devolutions.net/fr/password-hub/personal) dès aujourd'hui.
 {% endsnippet %}
 
 ## Étapes
