@@ -8,7 +8,7 @@ This feature is only available for data sources that are backed by a database ma
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
-If you are unable to send your schema to the support staff following the procedure below, please use this workaround. Go to ***File - Data Sources - Edit - Upgrade*** then hold the Ctrl key and click on ***Email schema to support*** You will then be able to save it locally by pasting it in a text file.
+If you are unable to send your schema to the support staff following the procedure below, please use this workaround. Go to ***File - Data Sources - Edit - Upgrade*** then hold the <kbd>Ctrl</kbd> key and click on ***Email schema to support*** You will then be able to save it locally by pasting it in a text file.
 {% endsnippet %}
 
 1. Go in ***File - Data Sources - Edit Data Source***.  

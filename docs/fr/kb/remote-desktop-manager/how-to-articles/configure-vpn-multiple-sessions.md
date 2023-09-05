@@ -133,7 +133,7 @@ Regarder cette [vidéo YouTube](https://youtu.be/5jKREtc63ks) (EN) pour une dém
 1. Dans ***Session***, sélectionner l'entrée VPN que vous avez créée. 
 1. Cliquer sur ***OK***. 
 ### Exécuter une modification par lot pour configurer les entrées de session 
-1. Sélectionnez les entrées de session dans le dossier parent en maintenant la touche Ctrl enfoncée pour sélectionner plusieurs entrées à la fois. 
+1. Sélectionnez les entrées de session dans le dossier parent en maintenant la touche <kbd>Ctrl</kbd> enfoncée pour sélectionner plusieurs entrées à la fois. 
 1. Faire un clic droit sur la sélection, puis cliquer sur ***Modifier - Modifier le lot - Modifier les entrées (paramètres généraux)***. Alternativement, le même chemin peut être suivi dans le ruban sous l’onglet ***Modifier***. 
 1. Dans le menu de gauche, sous la section ***Connexion***, cliquer sur ***VPN/SSH/Passerelle***. 
 1. Cocher la case ***Substituer le VPN***.  

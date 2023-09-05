@@ -25,5 +25,5 @@ Il n'y a aucune différence visuelle entre le raccourci et l'entrée d'origine. 
  
 ### Création d'un raccourci : option 2 
 
-Une deuxième façon de créer un raccourci est via les propriétés de session. Étant donné que le raccourci est basé sur une liste de groupes, ajoutez une session dans plusieurs groupes en définissant deux destinations ou plus et en les séparant par un point-virgule «;». Vous pouvez également utiliser le bouton ***Parcourir*** et sélectionner plusieurs groupes en maintenant la touche Ctrl enfoncée tout en cliquant sur le nœud de l'arborescence.  
+Une deuxième façon de créer un raccourci est via les propriétés de session. Étant donné que le raccourci est basé sur une liste de groupes, ajoutez une session dans plusieurs groupes en définissant deux destinations ou plus et en les séparant par un point-virgule «;». Vous pouvez également utiliser le bouton ***Parcourir*** et sélectionner plusieurs groupes en maintenant la touche <kbd>Ctrl</kbd> enfoncée tout en cliquant sur le nœud de l'arborescence.  
 ![Dossier d'entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip5053.png) 

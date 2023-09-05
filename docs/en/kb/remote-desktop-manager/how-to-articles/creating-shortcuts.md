@@ -27,5 +27,5 @@ There is no visual difference between the shortcut and the original entry. There
 
 ### Option 2
 
-A second way to create a shortcut is via the session properties. Since the shortcut is based on a group list, add a session in multiple groups by setting two or more destinations, which are separated by semicolons “;”. You can also use the browse button (…) and select more than one group by holding the Ctrl key while clicking on the tree node.  
+A second way to create a shortcut is via the session properties. Since the shortcut is based on a group list, add a session in multiple groups by setting two or more destinations, which are separated by semicolons “;”. You can also use the browse button (…) and select more than one group by holding the <kbd>Ctrl</kbd> key while clicking on the tree node.  
 ![!!KB4538](https://webdevolutions.azureedge.net/docs/en/kb/KB4538.png)

@@ -15,7 +15,7 @@ Pour diagnostiquer les problèmes de démarrage, vous pouvez activer le profileu
 
 1. Une fois le profileur ouvert, actualiser la source de données. 
 {% snippet icon.badgeInfo %} 
-Maintenir la touche Ctrl enfoncée lors de l'actualisation devrait forcer un rechargement complet de la source de données, recréant le cache hors ligne. 
+Maintenir la touche <kbd>Ctrl</kbd> enfoncée lors de l'actualisation devrait forcer un rechargement complet de la source de données, recréant le cache hors ligne. 
 {% endsnippet %}
  
 ![Actualiser la source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10438.png) 

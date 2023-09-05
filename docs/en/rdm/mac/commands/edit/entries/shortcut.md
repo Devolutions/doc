@@ -24,6 +24,5 @@ There is no visual differences between the shortcut and the original entry. Ther
  
 ## Creating a Shortcut: Option 2 
 
-A second way to create a shortcut is via the session properties. Since the shortcut is based on a group list, simply add a session in multiple groups by setting two or more destinations, and separating them by a semi-colon “;”. You can also use the browse button (…) and select more than one group by holding the Ctrl key while clicking on the tree node.  
-![Entry Group/Folder](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10603.png) 
-
+A second way to create a shortcut is via the session properties. Since the shortcut is based on a group list, simply add a session in multiple groups by setting two or more destinations, and separating them by a semi-colon “;”. You can also use the browse button (…) and select more than one group by holding the <kbd>Ctrl</kbd> key while clicking on the tree node.  
+![Entry Group/Folder](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10603.png)

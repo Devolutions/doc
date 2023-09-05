@@ -53,7 +53,7 @@ Send custom keys combination to the host.
 Alt 
 		</td>
 		<td>
-Send Alt to the host. 
+Send <kbd>Alt</kbd> to the host. 
 		</td>
 	</tr>
 	<tr>
@@ -61,7 +61,7 @@ Send Alt to the host.
 Ctrl 
 		</td>
 		<td>
-Send Ctrl to the host. 
+Send <kbd>Ctrl</kbd> to the host. 
 		</td>
 	</tr>
 	<tr>

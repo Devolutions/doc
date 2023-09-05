@@ -50,7 +50,7 @@ Watch this [YouTube video](https://youtu.be/5jKREtc63ks) for a demonstration on 
 
 {% youtube 'x0blJWlThuc' %}
 
-1. Select the session entries in the parent folder while holding down the Ctrl key to select multiple entries at once.
+1. Select the session entries in the parent folder while holding down the <kbd>Ctrl</kbd> key to select multiple entries at once.
 1. Right-click on the selection, then click on ***Edit - Batch Edit - Edit Entries (General Settings)*** Alternatively, the same path can be followed in the ribbon under the ***Edit*** tab.
 1. From the left menu, under the ***Connection*** section, click on ***VPN/SSH/Gateway***.
 1. Check the ***Override VPN*** box.  

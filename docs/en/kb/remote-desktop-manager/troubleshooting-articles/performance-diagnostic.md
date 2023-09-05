@@ -17,6 +17,6 @@ In the following dialog, ensure you specify enough information to link the repor
 ![!!KB4078](https://webdevolutions.azureedge.net/docs/en/kb/KB4078.png)  
 1. Open ***Help – Profiler***, move the window aside to clear the main window of {{ en.RDM }}.
 1. Select the ***Performance*** tab.
-1. In {{ en.RDM }}, hold the Ctrl key and press the refresh button.
+1. In {{ en.RDM }}, hold the <kbd>Ctrl</kbd> key and press the refresh button.
 1. Information will be added in the ***Performance*** tab.
 1. Click on the ***Send Trace to Support*** button. In the following dialog, ensure you specify enough information to link the report to the appropriate ticket, if the process was started from the forum, please include your forum username.

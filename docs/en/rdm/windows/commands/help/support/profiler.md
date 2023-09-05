@@ -16,7 +16,7 @@ To diagnose startup issues, you can enable the profiler from the command line as
 1. Once the Profiler is opened, refresh the data source. 
 
 {% snippet icon.badgeInfo %} 
-Holding the Ctrl key while performing the refresh should force a full reload of the data source, recreating the offline cache. 
+Holding the <kbd>Ctrl</kbd> key while performing the refresh should force a full reload of the data source, recreating the offline cache. 
 {% endsnippet %}
  
 ![Performance Profiling](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10442.png) 
