@@ -1,23 +1,26 @@
 ---
-eleventyComputed:
-  title: Enable the Recording Server log
+title: Enable the Recording Server log
 keywords:
 - Log
 - Log4Net
 - Logging
 - Logs
 ---
-The following procedure describe how to enable the logging utility for the {{ en.DVLS }} Recording Server.  
+The following procedure describes how to enable the logging utility for the {{ en.DVLS }} ***Recording Server***.
 
-## Steps
+## Enable logs
+1. To edit the **log4net.config** file, click on the ***Explore*** button of the ***Recording Server*** section of the ***Companions*** tab in the {{ en.DVLSCONSOLE }}.
+![Explore button](https://webdevolutions.azureedge.net/docs/en/kb/KB8120.png)
+1. Set the file value parameter with the full log file path. Ensure that the backslashes are doubled.
+   {% snippet icon.badgeCaution %}
+   Make certain the destination folder for the logs has writing rights.
+   {% endsnippet %}  
 
-1. Edit the **log4net.config** file located of the Collector and Processor application installation folders. Click on the Explore button of the Recording Server section of the ***Companions*** tab on the {{ en.DVLSCONSOLE }}. 
-
-![!!KB8120](https://webdevolutions.azureedge.net/docs/en/kb/KB8120.png)
-
-2. Set the file value parameter with the full log file path. Ensure that the backslashes are doubled.
 1. Set the level value parameter to ALL.
 1. Restart both Collector and Processor services on the server after any modification of these files.
+{% snippet icon.badgeInfo %}
+Ensure to set the level value back to ERROR and restart the services once the investigation is completed.
+{% endsnippet %}  
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>
@@ -37,5 +40,3 @@ The following procedure describe how to enable the logging utility for the {{ en
   </root>
 </log4net>
 ```
-
-Ensure to set the level value back to ERROR and restart the services once the investigation is completed.  
