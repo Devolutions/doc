@@ -58,6 +58,10 @@ The {{ en.DVLSCONSOLE }} is required to install the ***Recording Server***.
 
 1. Set the settings for the machine where the ***Recording Server*** will be installed and click ***Next***.  
 ![Properties](https://webdevolutions.azureedge.net/docs/en/kb/KB8017.png)
+   {% snippet icon.badgeCaution %}
+   Do not to install the ***Recording Server*** in [...]\inetpub\ or in the same folder as the web instance of {{ en.DVLS }} and/or {{ en.DVLSCONSOLE }}, as this would make it impossible to work properly.
+   {% endsnippet %}  
+
    | Recording Server Properties | Description |
    | --------------------------- | ----------- |
    | Server name                 | Name of the host where the ***Recording Server*** will run, click the ***Get Hostname*** button to autofill this field |
