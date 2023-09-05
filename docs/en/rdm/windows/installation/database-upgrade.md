@@ -33,7 +33,6 @@ Using File – Data sources, locate your data source to upgrade and open its pro
 6. Wait for a confirmation dialog. 
 1. Close the dialog. 
 1. Ensure your {{ en.RDM }} application is currently using that data source. 
-1. Press Ctrl+F5 to force a full refresh. 
+1. Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to force a full refresh. 
 1. Validate the content and perform a check of the technologies that are critical in your environment. 
-1. Update the client software on all workstations. 
-
+1. Update the client software on all workstations.

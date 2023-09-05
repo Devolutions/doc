@@ -1,5 +1,5 @@
 ---
-title: Keyboard Shortcuts
+title: Keyboard shortcuts
 ---
 Here is the list of keyboard shortcuts available for {{ en.DWL }}:  
 

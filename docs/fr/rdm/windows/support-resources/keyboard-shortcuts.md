@@ -36,7 +36,7 @@ RACCOURCI
 Exécuter la macro de frappe 
 		</td>
 		<td>
-Ctrl+Maj+A 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>A</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -44,7 +44,7 @@ Ctrl+Maj+A
 Ouvrir (externe) 
 		</td>
 		<td>
-Maj+Entrée 
+<kbd>Maj</kbd>+<kbd>Entrée</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -52,7 +52,7 @@ Maj+Entrée
 Ouvrir (intégrée / à onglet) 
 		</td>
 		<td>
-Ctrl+Entrée 
+<kbd>Ctrl</kbd>+<kbd>Entrée</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -60,7 +60,7 @@ Ctrl+Entrée
 Ouvrir en plein écran 
 		</td>
 		<td>
-Alt+Entrée 
+<kbd>Alt</kbd>+<kbd>Entrée</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ Alt+Entrée
 Parcourir l'adresse URL 
 		</td>
 		<td>
-Entrée 
+<kbd>Entrée</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -76,7 +76,7 @@ Entrée
 Presse-papiers - Copier l'hôte 
 		</td>
 		<td>
-Ctrl+H 
+<kbd>Ctrl</kbd>+<kbd>H</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -84,7 +84,7 @@ Ctrl+H
 Presse-papiers - Copier la chaîne de connexion 
 		</td>
 		<td>
-Ctrl+Alt+H 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -92,7 +92,7 @@ Ctrl+Alt+H
 Presse-papiers - Copier le domaine 
 		</td>
 		<td>
-Ctrl+Alt+B 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -100,7 +100,7 @@ Ctrl+Alt+B
 Presse-papiers - Copier le mot de passe 
 		</td>
 		<td>
-Ctrl+Maj+B 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>B</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -108,7 +108,7 @@ Ctrl+Maj+B
 Presse-papiers - Copier le nom d'utilisateur 
 		</td>
 		<td>
-Ctrl+B 
+<kbd>Ctrl</kbd>+<kbd>B</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -116,7 +116,7 @@ Ctrl+B
 Presse-papiers - Copier l'URL 
 		</td>
 		<td>
-Ctrl+Maj+H 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>H</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -124,7 +124,7 @@ Ctrl+Maj+H
 Voir mot de passe 
 		</td>
 		<td>
-Ctrl+P 
+<kbd>Ctrl</kbd>+<kbd>P</kbd>
 		</td>
 	</tr>
 </table>
@@ -145,7 +145,7 @@ RACCOURCI
 Barre d'état 
 		</td>
 		<td>
-Alt+F7 
+<kbd>Alt</kbd>+<kbd>F7</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -153,7 +153,7 @@ Alt+F7
 Basculer visionnement uniquement RDP 
 		</td>
 		<td>
-Maj+F3 
+<kbd>Maj</kbd>+<kbd>F3</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -161,7 +161,7 @@ Maj+F3
 {{ fr.VLT }} 
 		</td>
 		<td>
-F6 
+<kbd>F6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -169,7 +169,7 @@ F6
 Favoris 
 		</td>
 		<td>
-F9 
+<kbd>F9</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -177,7 +177,7 @@ F9
 Gestionnaire de listes d'exécution 
 		</td>
 		<td>
-Ctrl+G 
+<kbd>Ctrl</kbd>+<kbd>G</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -185,7 +185,7 @@ Ctrl+G
 Mon {{ fr.UVLT }} 
 		</td>
 		<td>
-F7 
+<kbd>F7</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -193,7 +193,7 @@ F7
 Récent 
 		</td>
 		<td>
-F10 
+<kbd>F10</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -201,7 +201,7 @@ F10
 Recherche avancée... 
 		</td>
 		<td>
-F11 
+<kbd>F11</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -209,7 +209,7 @@ F11
 Recherche multi-{{ fr.VLT }}s... 
 		</td>
 		<td>
-F12 
+<kbd>F12</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -217,7 +217,7 @@ F12
 Sessions ouvertes 
 		</td>
 		<td>
-F8 
+<kbd>F8</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -225,7 +225,7 @@ F8
 Tableau de bord 
 		</td>
 		<td>
-Alt+F6 
+<kbd>Alt</kbd>+<kbd>F6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -233,7 +233,7 @@ Alt+F6
 <b><i>{{ fr.NPANE }}</i></b> 
 		</td>
 		<td>
-Alt+F8 
+<kbd>Alt</kbd>+<kbd>F8</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -241,7 +241,7 @@ Alt+F8
 Volet des onglets regroupés 
 		</td>
 		<td>
-Ctrl+Alt+F9 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -249,7 +249,7 @@ Ctrl+Alt+F9
 Volet du haut 
 		</td>
 		<td>
-Alt+Maj+F6 
+<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>F6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -257,7 +257,7 @@ Alt+Maj+F6
 Volet entrées à onglets 
 		</td>
 		<td>
-Alt+F9 
+<kbd>Alt</kbd>+<kbd>F9</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -265,7 +265,7 @@ Alt+F9
 Volet supérieur (Ruban/Barre de menu) 
 		</td>
 		<td>
-Alt+F11 
+<kbd>Alt</kbd>+<kbd>F11</kbd>
 		</td>
 	</tr>
 </table>
@@ -286,7 +286,7 @@ RACCOURCI
 Actualiser 
 		</td>
 		<td>
-F5 
+<kbd>F5</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -294,7 +294,7 @@ F5
 Aide en ligne 
 		</td>
 		<td>
-F1 
+<kbd>F1</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -302,7 +302,7 @@ F1
 Connexion rapide 
 		</td>
 		<td>
-Ctrl+Alt+Q 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -310,7 +310,7 @@ Ctrl+Alt+Q
 Filtrer... 
 		</td>
 		<td>
-Ctrl+F 
+<kbd>Ctrl</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -318,7 +318,7 @@ Ctrl+F
 Forcer l'actualisation 
 		</td>
 		<td>
-Ctrl+F5 
+<kbd>Ctrl</kbd>+<kbd>F5</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -326,7 +326,7 @@ Ctrl+F5
 Profileur... 
 		</td>
 		<td>
-Ctrl+F12 
+<kbd>Ctrl</kbd>+<kbd>F12</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -334,7 +334,7 @@ Ctrl+F12
 Recherche rapide... 
 		</td>
 		<td>
-Ctrl+Espace 
+<kbd>Ctrl</kbd>+<kbd>Espace</kbd>
 		</td>
 	</tr>
 </table>
@@ -355,7 +355,7 @@ RACCOURCI
 Importer (.rdm)... 
 		</td>
 		<td>
-Ctrl+Maj+I 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>I</kbd>
 		</td>
 	</tr>
 </table>
@@ -376,7 +376,7 @@ RACCOURCI
 Ajouter de identifiants 
 		</td>
 		<td>
-Alt+Maj+N 
+<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>N</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -384,7 +384,7 @@ Alt+Maj+N
 Ajouter un dossier 
 		</td>
 		<td>
-Ctrl+Maj+N 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>N</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -392,7 +392,7 @@ Ctrl+Maj+N
 Ajouter une information 
 		</td>
 		<td>
-Ctrl+Alt+N 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -400,7 +400,7 @@ Ctrl+Alt+N
 Ajouter une session 
 		</td>
 		<td>
-Ctrl+N 
+<kbd>Ctrl</kbd>+<kbd>N</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -408,7 +408,7 @@ Ctrl+N
 Dupliquer 
 		</td>
 		<td>
-Ctrl+D 
+<kbd>Ctrl</kbd>+<kbd>D</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -416,7 +416,7 @@ Ctrl+D
 Modifier l'entrée 
 		</td>
 		<td>
-Ctrl+E 
+<kbd>Ctrl</kbd>+<kbd>E</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -424,7 +424,7 @@ Ctrl+E
 Nouvelle entrée 
 		</td>
 		<td>
-Ins 
+<kbd>Ins</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -432,7 +432,7 @@ Ins
 Paramètres spécifiques de l'usager 
 		</td>
 		<td>
-Ctrl+Maj+E 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>E</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -440,7 +440,7 @@ Ctrl+Maj+E
 Paramètres spécifiques locaux 
 		</td>
 		<td>
-Ctrl+Alt+E 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>E</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -448,7 +448,7 @@ Ctrl+Alt+E
 Renommer 
 		</td>
 		<td>
-F2 
+<kbd>F2</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -456,7 +456,7 @@ F2
 Supprimer... 
 		</td>
 		<td>
-Ctrl+Suppr. 
+<kbd>Ctrl</kbd>+<kbd>Suppr.</kbd>
 		</td>
 	</tr>
 </table>
@@ -477,7 +477,7 @@ RACCOURCI
 Aller au signet 1 
 		</td>
 		<td>
-Ctrl+1 
+<kbd>Ctrl</kbd>+<kbd>1</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -485,7 +485,7 @@ Ctrl+1
 Aller au signet 2 
 		</td>
 		<td>
-Ctrl+2 
+<kbd>Ctrl</kbd>+<kbd>2</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -493,7 +493,7 @@ Ctrl+2
 Aller au signet 3 
 		</td>
 		<td>
-Ctrl+3 
+<kbd>Ctrl</kbd>+<kbd>3</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -501,7 +501,7 @@ Ctrl+3
 Aller au signet 4 
 		</td>
 		<td>
-Ctrl+4 
+<kbd>Ctrl</kbd>+<kbd>4</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -509,7 +509,7 @@ Ctrl+4
 Aller au signet 5 
 		</td>
 		<td>
-Ctrl+5 
+<kbd>Ctrl</kbd>+<kbd>5</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -517,7 +517,7 @@ Ctrl+5
 Aller au signet 6 
 		</td>
 		<td>
-Ctrl+6 
+<kbd>Ctrl</kbd>+<kbd>6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -525,7 +525,7 @@ Ctrl+6
 Aller au signet 7 
 		</td>
 		<td>
-Ctrl+7 
+<kbd>Ctrl</kbd>+<kbd>7</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -533,7 +533,7 @@ Ctrl+7
 Aller au signet 8 
 		</td>
 		<td>
-Ctrl+8 
+<kbd>Ctrl</kbd>+<kbd>8</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -541,7 +541,7 @@ Ctrl+8
 Aller au signet 9 
 		</td>
 		<td>
-Ctrl+9
+<kbd>Ctrl</kbd>+<kbd>9</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -549,7 +549,7 @@ Ctrl+9
 Rechercher dans le ruban
 		</td>
 		<td>		
-Ctrl+9 
+<kbd>Ctrl</kbd>+<kbd>9</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -557,7 +557,7 @@ Ctrl+9
 Changer de {{ fr.VLT }} 
 		</td>
 		<td>
-Ctrl+Maj+R 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>R</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -565,7 +565,7 @@ Ctrl+Maj+R
 Changer source de données 
 		</td>
 		<td>
-Ctrl+Maj+D 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>D</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -573,7 +573,7 @@ Ctrl+Maj+D
 Définir un signet 1 
 		</td>
 		<td>
-Ctrl+Maj+1 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>1</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -581,7 +581,7 @@ Ctrl+Maj+1
 Définir un signet 2 
 		</td>
 		<td>
-Ctrl+Maj+2 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>2</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -589,7 +589,7 @@ Ctrl+Maj+2
 Définir un signet 3 
 		</td>
 		<td>
-Ctrl+Maj+3 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>3</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -597,7 +597,7 @@ Ctrl+Maj+3
 Définir un signet 4 
 		</td>
 		<td>
-Ctrl+Maj+4 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>4</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -605,7 +605,7 @@ Ctrl+Maj+4
 Définir un signet 5 
 		</td>
 		<td>
-Ctrl+Maj+5 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>5</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -613,7 +613,7 @@ Ctrl+Maj+5
 Définir un signet 6 
 		</td>
 		<td>
-Ctrl+Maj+6 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -621,7 +621,7 @@ Ctrl+Maj+6
 Définir un signet7 
 		</td>
 		<td>
-Ctrl+Maj+7 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>7</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -629,7 +629,7 @@ Ctrl+Maj+7
 Définir un signet 8 
 		</td>
 		<td>
-Ctrl+Maj+8 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>8</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -637,7 +637,7 @@ Ctrl+Maj+8
 Définir un signet 9 
 		</td>
 		<td>
-Ctrl+Maj+9 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>9</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -645,7 +645,7 @@ Ctrl+Maj+9
 Fichier 
 		</td>
 		<td>
-Ctrl+Maj+F 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -653,7 +653,7 @@ Ctrl+Maj+F
 Focus sur le tableau de bord 
 		</td>
 		<td>
-Ctrl+Maj+L 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>L</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -661,7 +661,7 @@ Ctrl+Maj+L
 Mise au point de l'arborescence / Liste 
 		</td>
 		<td>
-Ctrl+L 
+<kbd>Ctrl</kbd>+<kbd>L</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -669,7 +669,7 @@ Ctrl+L
 Sélectionner l'onglet 
 		</td>
 		<td>
-Ctrl+Maj+Haut 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Haut</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -677,7 +677,7 @@ Ctrl+Maj+Haut
 Sélectionnez l'onglet précédent 
 		</td>
 		<td>
-Ctrl+Maj+Gauche 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Gauche</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -685,7 +685,7 @@ Ctrl+Maj+Gauche
 Sélectionnez l'onglet suivant 
 		</td>
 		<td>
-Ctrl+Maj+Droite 
+<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Droite</kbd>
 		</td>
 	</tr>
 </table>

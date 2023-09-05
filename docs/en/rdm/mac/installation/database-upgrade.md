@@ -87,10 +87,9 @@ Allow viewing the updated script before the launch of the database update.
 	</tr>
 </table>
 
-6. Wait for a success message 
-1. Close the dialog 
-1. Ensure your {{ en.RDMMAC }} is currently using that data source 
-1. Press Ctrl+F5 to force a full refresh 
+6. Wait for a success message. 
+1. Close the dialog. 
+1. Ensure your {{ en.RDMMAC }} is currently using that data source. 
+1. Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to force a full refresh. 
 1. Validate the content and perform a check of the technologies that are most critical in your environment. 
-1. Update the client software on all workstations. 
-
+1. Update the client software on all workstations.

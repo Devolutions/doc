@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Stapelverarbeitung im  {{ de.RDM }}
+  title: Stapelverarbeitung im {{ de.RDM }}
 ---
 Im {{ de.RDM }} können Sie mit der Funktion ***[Stapelverarbeitung](/de/rdm/windows/commands/edit/batch/batch-edit/)*** oder ***Bearbeiten (Sonderaktionen)*** die Eigenschaften mehrerer Einträge oder Ordner gleichzeitig bearbeiten.  
 
@@ -27,7 +27,7 @@ Um die Informationen von Ordnern zu bearbeiten, MÜSSEN Sie die ***[Erweiterte S
 ### Manuelle Auswahl 
 <a name="manual"></a>
 
-Wählen Sie im {{ de.RDM }} alle Einträge/Ordner manuell im ***Navigationsbereich*** aus. Verwenden Sie **Strg+Linksklick**, um sie einzeln auszuwählen oder **Umschalt+Linksklick**, um mehrere gleichzeitig auszuwählen. Beachten Sie bitte, dass Sie bei der Auswahl eines Ordners die Informationen der untergeordneten Einträge bearbeiten und nicht die des Ordners.  
+Wählen Sie im {{ de.RDM }} alle Einträge/Ordner manuell im ***Navigationsbereich*** aus. Verwenden Sie <kbd>Strg</kbd>+Linksklick, um sie einzeln auszuwählen oder <kbd>Umschalt</kbd>+Linksklick, um mehrere gleichzeitig auszuwählen. Beachten Sie bitte, dass Sie bei der Auswahl eines Ordners die Informationen der untergeordneten Einträge bearbeiten und nicht die des Ordners.  
 
 Gehen Sie für die nächsten Schritte zum Bereich [Stapelbearbeitungs-Aktionen](#edit) oder lesen Sie weiter über die anderen Auswahlmethoden. 
 
@@ -42,7 +42,7 @@ Mit der Funktion ***[Erweiterte Suche](/rdm/windows/commands/view/panels/search/
 Um Ihre Suche nach Ordnertyp zu filtern, müssen Sie die Funktion ***Erweiterte Suche*** verwenden, da diese Funktion in der ***Multi-{{ de.VLT }}-Suche*** nicht verfügbar ist. Suchen Sie nach ***Verbindungsart*** und wählen Sie in der Drop-Down-Liste daneben den Ordnertyp aus.
 {% endsnippet %}  
  
-3. Wählen Sie die Einträge/Ordner aus, die Sie bearbeiten möchten. Um alle auszuwählen, klicken Sie auf eine beliebige Stelle im Ergebnisfeld und verwenden Sie die Tastenkombination Strg+A 
+3. Wählen Sie die Einträge/Ordner aus, die Sie bearbeiten möchten. Um alle auszuwählen, klicken Sie auf eine beliebige Stelle im Ergebnisfeld und verwenden Sie die Tastenkombination <kbd>Strg</kbd>+<kbd>A</kbd>.
 1. Wenn Sie Ihre Auswahl getroffen haben, klicken Sie bitte in der unteren rechten Ecke des Fensters auf ***Im Navigationsbereich auswählen***.  
 
 Gehen Sie für die nächsten Schritte zum Bereich [Stapelverarbeitungs-Aktionen](#edit) oder lesen Sie weiter über die anderen Auswahlmethoden.
@@ -59,7 +59,7 @@ Mit der Funktion [***Multi-{{ de.VLT }}-Suche***](/rdm/windows/commands/view/pan
 Um Ihre Suche nach Ordnertyp zu filtern, müssen Sie die Funktion ***[Erweiterte Suche](#advanced)*** verwenden. 
 {% endsnippet %}  
  
-3. Wählen Sie die Einträge/Ordner aus, die Sie bearbeiten möchten. Um alle auszuwählen, klicken Sie auf eine beliebige Stelle im Ergebnisfeld und verwenden Sie die Tastenkombination Strg+A. 
+3. Wählen Sie die Einträge/Ordner aus, die Sie bearbeiten möchten. Um alle auszuwählen, klicken Sie auf eine beliebige Stelle im Ergebnisfeld und verwenden Sie die Tastenkombination <kbd>Strg</kbd>+<kbd>A</kbd>. 
 1. Wenn Sie Ihre Auswahl getroffen haben, klicken Sie bitte in der unteren rechten Ecke des Fensters auf ***Im Navigationsbereich auswählen***.  
 
 Gehen Sie für die nächsten Schritte zum Bereich  [Stapelverarbeitungs-Aktionen.](#edit).  

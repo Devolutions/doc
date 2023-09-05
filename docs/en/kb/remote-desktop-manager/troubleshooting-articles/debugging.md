@@ -14,7 +14,7 @@ The Ad hoc debugging method is sufficient in most cases, use the in-depth debugg
 1. In the ***Debug Only*** tab, click on the ellipsis button and activate the proper debug categories.
 1. In {{ en.RDM }}, perform the action that is under investigation.  
 
-For timing session load times, please press Ctrl+F5 to invalidate the cache and perform a full refresh. You should see debug information appear in the profiler window.  
+For timing session load times, please press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to invalidate the cache and perform a full refresh. You should see debug information appear in the profiler window.  
 
 4. Click on ***Send trace to Support***.
 1. In the following dialog, ensure you specify enough information to link the report to the appropriate ticket.  

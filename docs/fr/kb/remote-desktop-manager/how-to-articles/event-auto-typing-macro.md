@@ -398,7 +398,7 @@ MAJ
 	</tr>
 </table>
 
-Pour spécifier que les touches Maj, Ctrl ou Alt doivent être maintenues lors de l’ajout de plusieurs autres caractères, saisissez le code pour ces caractères entre parenthèses. Par exemple, si vous souhaitez spécifier qu’il faut maintenir Maj et appuyer sur E et C, entrez « +(EC) ». En revanche, si vous souhaitez spécifier que Maj doit être relâchée avant de saisir C, alors vous devez plutôt entrer « +EC ».  
+Pour spécifier que les touches <kbd>Maj</kbd>, <kbd>Ctrl</kbd> ou <kbd>Alt</kbd> doivent être maintenues lors de l’ajout de plusieurs autres caractères, saisissez le code pour ces caractères entre parenthèses. Par exemple, si vous souhaitez spécifier qu’il faut maintenir <kbd>Maj</kbd> et appuyer sur <kbd>E</kbd> et <kbd>C</kbd>, entrez « +(EC) ». En revanche, si vous souhaitez spécifier que <kbd>Maj</kbd> doit être relâchée avant de saisir <kbd>C</kbd>, alors vous devez plutôt entrer « +EC ».  
 
 ### Commandes spéciales 
 

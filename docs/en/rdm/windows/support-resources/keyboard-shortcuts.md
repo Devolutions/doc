@@ -35,7 +35,7 @@ SHORTCUT
 Clipboard - Copy Connection String 
 		</td>
 		<td>
-Ctrl+Alt+H 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ Ctrl+Alt+H
 Clipboard - Copy Domain 
 		</td>
 		<td>
-Ctrl+Alt+B 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ Ctrl+Alt+B
 Clipboard - Copy Host 
 		</td>
 		<td>
-Ctrl+H 
+<kbd>Ctrl</kbd>+<kbd>H</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -59,7 +59,7 @@ Ctrl+H
 Clipboard - Copy Password 
 		</td>
 		<td>
-Ctrl+Shift+B 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -67,7 +67,7 @@ Ctrl+Shift+B
 Clipboard - Copy Url 
 		</td>
 		<td>
-Ctrl+Shift+H 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -75,7 +75,7 @@ Ctrl+Shift+H
 Clipboard - Copy Username 
 		</td>
 		<td>
-Ctrl+B 
+<kbd>Ctrl</kbd>+<kbd>B</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -83,7 +83,7 @@ Ctrl+B
 Execute Typing Macro 
 		</td>
 		<td>
-Ctrl+Shift+A 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -91,7 +91,7 @@ Ctrl+Shift+A
 Navigate URL 
 		</td>
 		<td>
-Enter 
+<kbd>Enter</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -99,7 +99,7 @@ Enter
 Open (Embedded/Tabbed) 
 		</td>
 		<td>
-Ctrl+Enter 
+<kbd>Ctrl</kbd>+<kbd>Enter</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -107,7 +107,7 @@ Ctrl+Enter
 Open (External) 
 		</td>
 		<td>
-Shift+Enter 
+<kbd>Shift</kbd>+<kbd>Enter</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -115,7 +115,7 @@ Shift+Enter
 Open Full screen 
 		</td>
 		<td>
-Alt+Enter 
+<kbd>Alt</kbd>+<kbd>Enter</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -123,7 +123,7 @@ Alt+Enter
 View Password 
 		</td>
 		<td>
-Ctrl+P 
+<kbd>Ctrl</kbd>+<kbd>P</kbd>
 		</td>
 	</tr>
 </table>
@@ -144,7 +144,7 @@ SHORTCUT
 Add Credential Entry 
 		</td>
 		<td>
-Alt+Shift+N 
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -152,7 +152,7 @@ Alt+Shift+N
 Add Folder 
 		</td>
 		<td>
-Ctrl+Shift+N 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -160,7 +160,7 @@ Ctrl+Shift+N
 Add Information 
 		</td>
 		<td>
-Ctrl+Alt+N 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -168,7 +168,7 @@ Ctrl+Alt+N
 Add Session 
 		</td>
 		<td>
-Ctrl+N 
+<kbd>Ctrl</kbd>+<kbd>N</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -176,7 +176,7 @@ Ctrl+N
 Delete... 
 		</td>
 		<td>
-Ctrl+Del 
+<kbd>Ctrl</kbd>+<kbd>Del</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -184,7 +184,7 @@ Ctrl+Del
 Duplicate 
 		</td>
 		<td>
-Ctrl+D 
+<kbd>Ctrl</kbd>+<kbd>D</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -192,7 +192,7 @@ Ctrl+D
 Edit Entry 
 		</td>
 		<td>
-Ctrl+E 
+<kbd>Ctrl</kbd>+<kbd>E</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -200,7 +200,7 @@ Ctrl+E
 Local Specific Settings 
 		</td>
 		<td>
-Ctrl+Alt+E 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>E</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -208,7 +208,7 @@ Ctrl+Alt+E
 New Entry 
 		</td>
 		<td>
-Ins 
+<kbd>Ins</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -216,7 +216,7 @@ Ins
 Rename 
 		</td>
 		<td>
-F2 
+<kbd>F2</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -224,7 +224,7 @@ F2
 User Specific Settings 
 		</td>
 		<td>
-Ctrl+Shift+E 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd>
 		</td>
 	</tr>
 </table>
@@ -245,7 +245,7 @@ SHORTCUT
 Filter... 
 		</td>
 		<td>
-Ctrl+F 
+<kbd>Ctrl</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -253,7 +253,7 @@ Ctrl+F
 Force Refresh 
 		</td>
 		<td>
-Ctrl+F5 
+<kbd>Ctrl</kbd>+<kbd>F5</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -261,7 +261,7 @@ Ctrl+F5
 Online Help 
 		</td>
 		<td>
-F1 
+<kbd>F1</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -269,7 +269,7 @@ F1
 Profiler... 
 		</td>
 		<td>
-Ctrl+F12 
+<kbd>Ctrl</kbd>+<kbd>F12</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -277,7 +277,7 @@ Ctrl+F12
 Quick Connect 
 		</td>
 		<td>
-Ctrl+Alt+Q 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -285,7 +285,7 @@ Ctrl+Alt+Q
 Quick Search... 
 		</td>
 		<td>
-Ctrl+Space 
+<kbd>Ctrl</kbd>+<kbd>Space</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -293,7 +293,7 @@ Ctrl+Space
 Refresh 
 		</td>
 		<td>
-F5 
+<kbd>F5</kbd>
 		</td>
 	</tr>
 </table>
@@ -314,7 +314,7 @@ SHORTCUT
 Import (.rdm)... 
 		</td>
 		<td>
-Ctrl+Shift+I 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd>
 		</td>
 	</tr>
 </table>
@@ -335,7 +335,7 @@ SHORTCUT
 Change Data Source 
 		</td>
 		<td>
-Ctrl+Shift+D 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -343,7 +343,7 @@ Ctrl+Shift+D
 File 
 		</td>
 		<td>
-Ctrl+Shift+F 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -351,7 +351,7 @@ Ctrl+Shift+F
 Focus Dashboard 
 		</td>
 		<td>
-Ctrl+Shift+L 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -359,7 +359,7 @@ Ctrl+Shift+L
 Focus Tab 
 		</td>
 		<td>
-Ctrl+Shift+Up 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Up</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -367,7 +367,7 @@ Ctrl+Shift+Up
 Focus Tree/List 
 		</td>
 		<td>
-Ctrl+L 
+<kbd>Ctrl</kbd>+<kbd>L</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -375,7 +375,7 @@ Ctrl+L
 Goto Bookmark 1 
 		</td>
 		<td>
-Ctrl+1 
+<kbd>Ctrl</kbd>+<kbd>1</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -383,7 +383,7 @@ Ctrl+1
 Goto Bookmark 2 
 		</td>
 		<td>
-Ctrl+2 
+<kbd>Ctrl</kbd>+<kbd>2</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -391,7 +391,7 @@ Ctrl+2
 Goto Bookmark 3 
 		</td>
 		<td>
-Ctrl+3 
+<kbd>Ctrl</kbd>+<kbd>3</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -399,7 +399,7 @@ Ctrl+3
 Goto Bookmark 4 
 		</td>
 		<td>
-Ctrl+4 
+<kbd>Ctrl</kbd>+<kbd>4</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -407,7 +407,7 @@ Ctrl+4
 Goto Bookmark 5 
 		</td>
 		<td>
-Ctrl+5 
+<kbd>Ctrl</kbd>+<kbd>5</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -415,7 +415,7 @@ Ctrl+5
 Goto Bookmark 6 
 		</td>
 		<td>
-Ctrl+6 
+<kbd>Ctrl</kbd>+<kbd>6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -423,7 +423,7 @@ Ctrl+6
 Goto Bookmark 7 
 		</td>
 		<td>
-Ctrl+7 
+<kbd>Ctrl</kbd>+<kbd>7</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -431,7 +431,7 @@ Ctrl+7
 Goto Bookmark 8 
 		</td>
 		<td>
-Ctrl+8 
+<kbd>Ctrl</kbd>+<kbd>8</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -439,7 +439,7 @@ Ctrl+8
 Goto Bookmark 9 
 		</td>
 		<td>
-Ctrl+9 
+<kbd>Ctrl</kbd>+<kbd>9</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -447,7 +447,7 @@ Ctrl+9
 Search Ribbon 
 		</td>
 		<td>
-Alt+Q 
+<kbd>Alt</kbd>+<kbd>Q</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -455,7 +455,7 @@ Alt+Q
 Select Next Tab 
 		</td>
 		<td>
-Ctrl+Shift+Right 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Right</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -463,7 +463,7 @@ Ctrl+Shift+Right
 Select Previous Tab 
 		</td>
 		<td>
-Ctrl+Shift+Left 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Left</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -471,7 +471,7 @@ Ctrl+Shift+Left
 Set Bookmark 1 
 		</td>
 		<td>
-Ctrl+Shift+1 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>1</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -479,7 +479,7 @@ Ctrl+Shift+1
 Set Bookmark 2 
 		</td>
 		<td>
-Ctrl+Shift+2 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>2</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -487,7 +487,7 @@ Ctrl+Shift+2
 Set Bookmark 3 
 		</td>
 		<td>
-Ctrl+Shift+3 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>3</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -495,7 +495,7 @@ Ctrl+Shift+3
 Set Bookmark 4 
 		</td>
 		<td>
-Ctrl+Shift+4 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -503,7 +503,7 @@ Ctrl+Shift+4
 Set Bookmark 5 
 		</td>
 		<td>
-Ctrl+Shift+5 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>5</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -511,7 +511,7 @@ Ctrl+Shift+5
 Set Bookmark 6 
 		</td>
 		<td>
-Ctrl+Shift+6 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -519,7 +519,7 @@ Ctrl+Shift+6
 Set Bookmark 7 
 		</td>
 		<td>
-Ctrl+Shift+7 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>7</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -527,7 +527,7 @@ Ctrl+Shift+7
 Set Bookmark 8 
 		</td>
 		<td>
-Ctrl+Shift+8 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>8</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -535,7 +535,7 @@ Ctrl+Shift+8
 Set Bookmark 9 
 		</td>
 		<td>
-Ctrl+Shift+9 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>9</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -543,7 +543,7 @@ Ctrl+Shift+9
 Switch {{ en.VLT }} 
 		</td>
 		<td>
-Ctrl+Shift+R 
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>
 		</td>
 	</tr>
 </table>
@@ -564,7 +564,7 @@ SHORTCUT
 Advanced Search... 
 		</td>
 		<td>
-F11 
+<kbd>F11</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -572,7 +572,7 @@ F11
 Dashboard 
 		</td>
 		<td>
-Alt+F6 
+<kbd>Alt</kbd>+<kbd>F6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -580,7 +580,7 @@ Alt+F6
 Favorites 
 		</td>
 		<td>
-F9 
+<kbd>F9</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -588,7 +588,7 @@ F9
 Grouped Tab Pane 
 		</td>
 		<td>
-Ctrl+Alt+F9 
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -596,7 +596,7 @@ Ctrl+Alt+F9
 Header Pane 
 		</td>
 		<td>
-Alt+Shift+F6 
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -604,7 +604,7 @@ Alt+Shift+F6
 Multi {{ en.VLT }} Search... 
 		</td>
 		<td>
-F12 
+<kbd>F12</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -612,7 +612,7 @@ F12
 My {{ en.UVLT }} 
 		</td>
 		<td>
-F7 
+<kbd>F7</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -620,7 +620,7 @@ F7
 <b><i>{{ en.NPANE }}</i></b> 
 		</td>
 		<td>
-Alt+F8 
+<kbd>Alt</kbd>+<kbd>F8</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -628,7 +628,7 @@ Alt+F8
 Opened Sessions 
 		</td>
 		<td>
-F8 
+<kbd>F8</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -636,7 +636,7 @@ F8
 Play List Management... 
 		</td>
 		<td>
-Ctrl+G 
+<kbd>Ctrl</kbd>+<kbd>G</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -644,7 +644,7 @@ Ctrl+G
 RDP Toggle View Only 
 		</td>
 		<td>
-Shift+F3 
+<kbd>Shift</kbd>+<kbd>F3</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -652,7 +652,7 @@ Shift+F3
 Recent 
 		</td>
 		<td>
-F10 
+<kbd>F10</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -660,7 +660,7 @@ F10
 Status Bar 
 		</td>
 		<td>
-Alt+F7 
+<kbd>Alt</kbd>+<kbd>F7</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -668,7 +668,7 @@ Alt+F7
 Tabbed Entries Pane 
 		</td>
 		<td>
-Alt+F9 
+<kbd>Alt</kbd>+<kbd>F9</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -676,7 +676,7 @@ Alt+F9
 Top Pane (Ribbon/Menubar) 
 		</td>
 		<td>
-Alt+F11 
+<kbd>Alt</kbd>+<kbd>F11</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -684,7 +684,7 @@ Alt+F11
 {{ en.VLT }} 
 		</td>
 		<td>
-F6 
+<kbd>F6</kbd>
 		</td>
 	</tr>
 </table>

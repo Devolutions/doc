@@ -16,7 +16,7 @@ Firefox ne fait pas confiance aux mêmes certificats que Windows et un paramètr
 Veuillez consulter la [base de connaissances de Mozilla](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox) (EN). 
 {% endsnippet %}  
 
-1. Ouvrir la Microsoft Management Console en recherchant ***MMC*** dans le menu ***Démarrer***. Une autre méthode consiste à appuyer sur les touches Windows+R de votre clavier et, dans la fenêtre ***Exécuter***, à rechercher ***MMC***. 
+1. Ouvrir la Microsoft Management Console en recherchant ***MMC*** dans le menu ***Démarrer***. Une autre méthode consiste à appuyer sur les touches <kbd>Windows</kbd>+<kbd>R</kbd> de votre clavier et, dans la fenêtre ***Exécuter***, à rechercher ***MMC***. 
 1. Sélectionner ***Fichier – Ajouter/Supprimer un composant logiciel enfichable***. 
 1. Dans la zone ***Composants logiciels enfichables disponibles***, sélectionner ***Certificats***. 
 1. Cliquer sur le bouton ***Ajouter***. 

@@ -29,9 +29,9 @@ The Search Options offers the chance to customize your search, such as including
 
 ## Keyboard shortcut 
 
-Use the keyboard shortcut Ctrl+F to quickly have access to the Search/Filter control. This can be disabled in ***File - Options - User Interface - Keyboard.***.  
+Use the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>F</kbd> to quickly have access to the Search/Filter control. This can be disabled in ***File - Options - User Interface - Keyboard.***.  
 
-You can set the focus back on the ***{{ en.NPANE }}*** by using the keyboard shortcut Ctrl+L, this also can be disabled in the options. 
+You can set the focus back on the ***{{ en.NPANE }}*** by using the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>L</kbd>, this also can be disabled in the options. 
 
 ## Boolean filter 
 

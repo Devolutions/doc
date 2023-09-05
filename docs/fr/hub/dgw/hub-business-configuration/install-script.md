@@ -40,7 +40,7 @@ Un ***Utilisateur d'application*** est nécessaire pour continuer. S'il n'a pas 
 1. Exécuter le script téléchargé avec PowerShell 7 en mode administrateur. (Il doit être installé sur le serveur hébergeant le site {{ fr.DGW }}.) 
 1. Le script vous demandera ***Do you want to set a certification?***. Saisir ***Y*** et appuyer sur Entrée. 
 1. Saisir le chemin d'accès au fichier du certificat. 
-1. Saisir le mot de passe du certificat. (Si le mot de passe a été copié dans le presse-papiers, ne faites pas Ctrl+V, un clique droit suffira.) 
+1. Saisir le mot de passe du certificat. (Si le mot de passe a été copié dans le presse-papiers, ne faites pas <kbd>Ctrl</kbd>+<kbd>V</kbd>, un clique droit suffira.) 
 1. Appuyer sur Entrée lorsque le ***Statut de la demande Web*** est terminé. 
 1. Si l'installation est réussie, le message suivant s'affiche : ***Installation du {{ fr.DGW }} terminée!***. Appuyer sur Entrée. 
 1. Retourner à la page Web {{ fr.DGW }} et cliquer sur ***Actualiser***.  

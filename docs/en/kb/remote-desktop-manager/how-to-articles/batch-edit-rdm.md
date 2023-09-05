@@ -28,7 +28,7 @@ To edit the information of folders, you MUST go through the ***[Advanced Search]
 ### Manual selection 
 <a name="manual"></a>
 
-In {{ en.RDM }}, select all entries/folders manually in the ***{{ en.NPANE }}***. Use Ctrl+left-click to select them one by one or Shift+left-click to select a bunch of them at the same time. Note that by selecting a folder, you are editing the information of its child entries and not the information of the folder.
+In {{ en.RDM }}, select all entries/folders manually in the ***{{ en.NPANE }}***. Use <kbd>Ctrl</kbd>+left-click to select them one by one or <kbd>Shift</kbd>+left-click to select a bunch of them at the same time. Note that by selecting a folder, you are editing the information of its child entries and not the information of the folder.
 
 Proceed to the [Batch Edit Actions](#edit) section for the next steps or continue to read about the other selection methods.
 
@@ -43,7 +43,7 @@ The ***[Advanced Search](/rdm/windows/commands/view/panels/search/advanced/)*** 
 To filter your search by folder type, you must use the ***Advanced Search*** feature as it is not available in ***Multi {{ en.VLT }} Search***. Search by ***Connection type*** and select the folder type in the drop-down list next to it. 
 {% endsnippet %}  
  
-3. Select the entries/folders you want to edit. To select all of them, click anywhere in the results field and use the Ctrl+A keyboard shortcut. 
+3. Select the entries/folders you want to edit. To select all of them, click anywhere in the results field and use the <kbd>Ctrl</kbd>+<kbd>A</kbd> keyboard shortcut. 
 1. When your selection is complete, click the ***Select in {{ en.NPANE }}*** button in the bottom right corner of the window.  
 
 Proceed to the [Batch Edit Actions](#edit) section for the next steps or continue to read about the other selection methods.
@@ -60,7 +60,7 @@ The [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/panels/search/m
 To filter your search by folder type, you must use the ***[Advanced Search](#advanced)*** feature. 
 {% endsnippet %}  
  
-3. Select the entries/folders you want to edit. To select all of them, click anywhere in the results field and use the Ctrl+A keyboard shortcut. 
+3. Select the entries/folders you want to edit. To select all of them, click anywhere in the results field and use the <kbd>Ctrl</kbd>+<kbd>A</kbd> keyboard shortcut. 
 1. When your selection is complete, click the ***Select in {{ en.NPANE }}*** button in the bottom right corner of the window.  
 
 Proceed to the [Batch Edit Actions](#edit) section for the next steps.

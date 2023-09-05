@@ -32,6 +32,6 @@ Wählen Sie über ***Datei – Datenquellen*** Ihre zu aktualisierende Datenquel
 6. Warten Sie auf eine Bestätigungsmeldung. 
 1. Schließen Sie das Dialogfeld. 
 1. Vergewissern Sie sich, dass {{ de.RDM }} die gerade aktualisierte Datenquelle verwendet. 
-1. Drücken Sie Strg+F5, um eine vollständige Aktualisierung zu erzwingen. 
+1. Drücken Sie <kbd>Strg</kbd>+<kbd>F5</kbd>, um eine vollständige Aktualisierung zu erzwingen. 
 1. Überpüfen Sie den Inhalt und die Technologien (VPN etc.), die in Ihrer Umgebung einen hohen Stellenwert haben.
 1. Aktualisieren Sie die {{ de.RDM }} auf allen anderen Rechnern. 

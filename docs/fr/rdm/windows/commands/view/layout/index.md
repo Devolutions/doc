@@ -21,7 +21,7 @@ DESCRIPTION
 Navigation 
 		</td>
 		<td>
-Activer/désactiver le ***{{ fr.NPANE }}***. Le raccourci clavier Alt+F8 permet également d'effectuer ces actions. Consultez [***{{ fr.NPANE }}***](/fr/rdm/windows/user-interface/navigation-pane/) pour plus d'informations. 
+Activer/désactiver le ***{{ fr.NPANE }}***. Le raccourci clavier <kbd>Alt</kbd>+<kbd>F8</kbd> permet également d'effectuer ces actions. Consultez [***{{ fr.NPANE }}***](/fr/rdm/windows/user-interface/navigation-pane/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -29,7 +29,7 @@ Activer/désactiver le ***{{ fr.NPANE }}***. Le raccourci clavier Alt+F8 permet 
 Tableau de bord 
 		</td>
 		<td>
-Activer/désactiver le ***Tableau de bord***. Le raccourci clavier Alt+F6 permet également d'effectuer ces actions. Consultez [***Tableau de bord***](/fr/rdm/windows/user-interface/content-area/dashboards/) pour plus d'informations. 
+Activer/désactiver le ***Tableau de bord***. Le raccourci clavier <kbd>Alt</kbd>+<kbd>F6</kbd> permet également d'effectuer ces actions. Consultez [***Tableau de bord***](/fr/rdm/windows/user-interface/content-area/dashboards/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Activer/désactiver le volet ***Miniatures***. Cette option affiche toutes les s
 Volet supérieur (Ruban/Barre de menu) 
 		</td>
 		<td>
-Activer/désactiver le ***Volet supérieur***. Pour le faire réapparaître, il suffit de faire un clic droit sur la barre de titre de {{ fr.RDM }} (la barre du haut), puis de sélectionner l'option ***Volet supérieur (Ruban/Barre de menu)*** dans le menu qui apparaît. Le raccourci clavier Alt+F11 permet également d'effectuer ces actions. Consultez [***Volet supérieur***](/fr/rdm/windows/user-interface/top-pane/) pour plus d'informations. 
+Activer/désactiver le ***Volet supérieur***. Pour le faire réapparaître, il suffit de faire un clic droit sur la barre de titre de {{ fr.RDM }} (la barre du haut), puis de sélectionner l'option ***Volet supérieur (Ruban/Barre de menu)*** dans le menu qui apparaît. Le raccourci clavier <kbd>Alt</kbd>+<kbd>F11</kbd> permet également d'effectuer ces actions. Consultez [***Volet supérieur***](/fr/rdm/windows/user-interface/top-pane/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -61,7 +61,7 @@ Activer/désactiver la ***Barre d'onglets groupés***. Consultez [***Barre d'ong
 Barre d'état 
 		</td>
 		<td>
-Activer/désactiver la ***Barre d'état***. Le raccourci clavier Alt+F7 permet également d'effectuer ces actions. Consultez [***Barre d'état***](/fr/rdm/windows/user-interface/status-bar/) pour plus d'informations. 
+Activer/désactiver la ***Barre d'état***. Le raccourci clavier <kbd>Alt</kbd>+<kbd>F7</kbd> permet également d'effectuer ces actions. Consultez [***Barre d'état***](/fr/rdm/windows/user-interface/status-bar/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

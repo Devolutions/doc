@@ -17,7 +17,7 @@ Follow the instructions below to obtain the information you need to send to our 
 1. Run the installer. When asked to select the features to install, check the ***Application Verifier For Windows***, then continue the installation process.  
 ![Application Verifier For Windows](https://webdevolutions.azureedge.net/docs/en/kb/KB2248.png)  
 1. Once the installation is complete, open Application Verifier.  
-1. Go to ***File – Add Application*** or use the Ctrl+A shortcut.  
+1. Go to ***File – Add Application*** or use the <kbd>Ctrl</kbd>+<kbd>A</kbd> shortcut.  
 ![File – Add Application](https://webdevolutions.azureedge.net/docs/en/kb/KB2249.png)  
 1. In the file chooser, select the {{ en.RDM }} application (**C:\Program Files\Devolutions\Remote Desktop Manager\RemoteDesktopManager.exe**). It will be added to the ***Applications*** list on the left.  
 ![RemoteDesktopManager.exe](https://webdevolutions.azureedge.net/docs/en/kb/KB2250.png)  

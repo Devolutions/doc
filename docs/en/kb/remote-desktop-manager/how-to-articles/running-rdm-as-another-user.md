@@ -26,7 +26,7 @@ The RunAs command has many parameters to change its behaviour, we will not cover
 
 ## Solution B - Shift+right-click on the shortcut or executable to ## {{ en.RDM }}
 
-When you press Shift+right-click on an executable, you will notice an additional menu item for Run as different user  
+When you press <kbd>Shift</kbd>+right-click on an executable, you will notice an additional menu item for Run as different user  
 ![!!KB4585](https://webdevolutions.azureedge.net/docs/en/kb/KB4585.png)  
 
 You are presented with a logon form in which you must specify the username and password.  

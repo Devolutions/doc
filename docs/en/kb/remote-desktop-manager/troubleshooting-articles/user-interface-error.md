@@ -7,7 +7,7 @@ For many cases of user interface error in {{ en.RDM }}, click on ***Windows*** -
 ## Problem 1
 The ribbon has been hidden and I do not know how to make it visible.
 ### Solution
-Use Alt+F11 or use the system menu of the application, check the ***Top Pane*** command.
+Use <kbd>Alt</kbd>+<kbd>F11</kbd> or use the system menu of the application, check the ***Top Pane*** command.
 ## Problem 2
 The tree view has disappeared from the ***{{ en.NPANE }}***.
 ### Solution

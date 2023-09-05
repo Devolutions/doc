@@ -1,7 +1,7 @@
 ---
 title: Benutzerdefinierte PowerShell Befehle
 ---
-Der benutzerspezifische PowerShell-Befehl wirkt auf die aktuell ausgewählten Einträge in Ihrem ***Navigationsbereich***. Verwenden Sie Klick und Strg+Klick, um Ihre Liste zu erstellen oder eine erweiterte Suche, um eine große Anzahl von Einträgen auszuwählen. Nachdem Sie Ihre Auswahl getroffen haben, ist der Befehl verfügbar über:  
+Der benutzerspezifische PowerShell-Befehl wirkt auf die aktuell ausgewählten Einträge in Ihrem ***Navigationsbereich***. Verwenden Sie Klick und <kbd>Strg</kbd>+Klick, um Ihre Liste zu erstellen oder eine erweiterte Suche, um eine große Anzahl von Einträgen auszuwählen. Nachdem Sie Ihre Auswahl getroffen haben, ist der Befehl verfügbar über:  
 
 * ***Bearbeiten – Stapelverarbeitung (Spezielle Aktionen)***.
 ![Symbolleiste bearbeiten](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clipM0003.png) 

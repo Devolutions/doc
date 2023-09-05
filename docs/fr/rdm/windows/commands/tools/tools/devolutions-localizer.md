@@ -10,7 +10,7 @@ Téléchargez l'outil de traduction [{{ fr.DLOCALIZER }}](https://devolutions.ne
 Un [{{ fr.DA }}](/fr/cloud/devolutions-account/create-devolutions-account/) gratuit est nécessaire pour se connecter à l'outil {{ fr.DLOCALIZER }}. 
 {% endsnippet %}
  
-### Traduction 
+## Traduction 
 
 1. Dans ***File – Languages***, sélectionner la ou les langue(s) à traduire, puis cliquer sur ***Ok***.  
 ![File – Languages](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2062.png) 
@@ -47,7 +47,7 @@ Un bouton ***Bing*** est disponible pour vous aider à traduire votre texte.
 7. Lorsque vous avez terminé, changer le ***Status*** de cette ressource à ***Translated*** et cliquez sur le bouton ***Save Changes***. Cela enverra votre traduction à notre serveur et elle sera déployée avec la prochaine version de nos applications.  
 ![Changer le statut et sauvegarder les changements](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2068.png) 
 
-### Aperçu 
+## Aperçu 
 
 Vous pouvez prévisualiser vos modifications dans {{ fr.RDM }} avant la publication ou afficher celles déjà en place mais pas encore publiées.  
 
@@ -60,14 +60,14 @@ Suivez les étapes suivantes si vous voulez changer la langue de votre applicati
 1. Dans la liste déroulante ***Langue*** (en anglais, ***Language***), sélectionner la langue et cliquez sur ***OK***. 
 1. Redémarrer l'application pour que cela prenne effet. 
 
-### Raccourcis clavier 
+## Raccourcis clavier 
 
 {{ fr.DLOCALIZER }} propose également plusieurs raccourcis clavier pour accélérer le processus de traduction :  
 
-* Ctrl+D : Définir le statut (***Status***) de la ressource actuelle à ***Translated***. 
-* Ctrl+E : Définir le statut (***Status***) de la ressource actuelle à ***Use original***. Cela ignore tout texte de traduction et affiche la valeur d'origine telle quelle. 
-* Ctrl+Bas : Passer à la ressource suivante. 
-* Ctrl+Haut : Revenir à la ressource précédente. 
-* Ctrl+B : Demande une traduction Bing pour la ressource actuelle. 
-* Ctrl+S : Enregistrer toutes les modifications en attente. 
-* Ctrl+F : Activer/désactiver le filtrage. 
+* <kbd>Ctrl</kbd>+<kbd>D</kbd> : Définir le statut (***Status***) de la ressource actuelle à ***Translated***. 
+* <kbd>Ctrl</kbd>+<kbd>E</kbd> : Définir le statut (***Status***) de la ressource actuelle à ***Use original***. Cela ignore tout texte de traduction et affiche la valeur d'origine telle quelle. 
+* <kbd>Ctrl</kbd>+<kbd>Bas</kbd> : Passer à la ressource suivante. 
+* <kbd>Ctrl</kbd>+<kbd>Haut</kbd> : Revenir à la ressource précédente. 
+* <kbd>Ctrl</kbd>+<kbd>B</kbd> : Demande une traduction Bing pour la ressource actuelle. 
+* <kbd>Ctrl</kbd>+<kbd>S</kbd> : Enregistrer toutes les modifications en attente. 
+* <kbd>Ctrl</kbd>+<kbd>F</kbd> : Activer/désactiver le filtrage. 

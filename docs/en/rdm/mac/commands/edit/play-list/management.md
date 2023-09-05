@@ -40,17 +40,17 @@ Items will be selected in the <i><b>{{ en.NPANE }}</b></i>, this allow you to ch
 
 ### Open items in default mode 
 
-In View - Play List and select the Play List to open and click on Open  
+In ***View - Play List***, select the Play List to open and click on ***Open***.  
 ![Open Default Mode](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10115.png) 
 
 ### Open items in Embedded mode 
 
-In View - Play List select the Play List to open and click on ***Open Embedded***.  
+In ***View - Play List***, select the Play List to open and click on ***Open Embedded***.  
 ![Open Embedded Mode](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10116.png) 
 
 ### Open items with Select in ***{{ en.NPANE }}*** 
 
-In View - Play List select the Play List to open and click on Select in ***{{ en.NPANE }}***. Then select the desired entries in your ***{{ en.NPANE }}*** using Cmd+click.  
+In ***View - Play List***, select the Play List to open and click on ***Select*** in the ***{{ en.NPANE }}***. Then, select the desired entries in your ***{{ en.NPANE }}*** using <kbd>Cmd</kbd>+click.  
 ![Select in ***{{ en.NPANE }}***](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10117.png) 
 
 ## Menu 

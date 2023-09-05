@@ -4,7 +4,7 @@ title: Offline Mode
 ## Problem 1
 Missing entries or deleted entries still showing.
 ### Solution
-Your offline cache may be out of sync with the content of the data source. Press Ctrl+F5 to refresh the local cache.
+Your offline cache may be out of sync with the content of the data source. Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to refresh the local cache.
 ## Problem 2
 System.data.sqlite.sqliteexception (0x80004005): file is encrypted or is not a database.
 ### Solution

@@ -40,7 +40,7 @@ We recommend doing a backup of the Encryption Keys before any operation that cou
  
 ### Preparation phase 
 
-* Ensure that the instance users have the offline mode enabled and that they all perform a full refresh of the cache (Ctrl+F5). 
+* Ensure that the instance users have the offline mode enabled and that they all perform a full refresh of the cache (<kbd>Ctrl</kbd>+<kbd>F5</kbd>). 
 * Have your team switch to the offline mode in {{ en.RDM }}, allowing them to work while the system is down. 
 * Update the Maximal version of {{ en.RDM }} in ***Administration – System Settings – Version Management – Maximal version***, if this option was set before the upgrade.  
 

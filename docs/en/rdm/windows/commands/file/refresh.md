@@ -12,4 +12,4 @@ A simple refresh updates the data source to retrieve only the modified content. 
 
 ### Local cache refresh 
 
-A refresh of the local cache resets the local cache of the data source. All the content is retrieved from the database and the local cache file is recreated. Click the refresh button while holding the Ctrl key or use the Ctrl+F5 key combination. A local cache refresh may also help when experiencing [Cache](/rdm/windows/data-sources/caching/) issues. 
+A refresh of the local cache resets the local cache of the data source. All the content is retrieved from the database and the local cache file is recreated. Click the refresh button while holding the <kbd>Ctrl</kbd> key or use the <kbd>Ctrl</kbd>+<kbd>F5</kbd> key combination. A local cache refresh may also help when experiencing [Cache](/rdm/windows/data-sources/caching/) issues. 

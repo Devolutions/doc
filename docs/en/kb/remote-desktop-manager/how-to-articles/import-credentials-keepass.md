@@ -3,14 +3,14 @@ title: Import credentials from KeePass
 ---
 {{ en.RDM }} imports credentials from KeePass. It is a simple way to build your data. The imported information can be converted into three types of entry: ***Username/Password*** and ***Website*** The entries include credentials, URL addresses and notes.
 
-### Import various entries
+## Import various entries
 {% youtube '0Oq4gLkF88A' %}  
 
 ## Procedure
 
 ### Export entries from KeePass
 
-1. In the ***File*** menu, click ***Export***+  
+1. In the ***File*** menu, click ***Export***.  
 ![!!KB4250](https://webdevolutions.azureedge.net/docs/en/kb/KB4250.png)
 1. Export Data to an external file. {{ en.RDM }} supports two file types for KeePass: XML and CSV. An XML file will retain the folder structure from KeePass.  
    1. Choose desired file type: ***KeePass CSV (1.x)*** or ***KeePass XML (2.x)***.

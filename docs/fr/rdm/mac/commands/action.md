@@ -68,7 +68,7 @@ Description
 Envoyer Ctrl+Alt+Suppr. 
 		</td>
 		<td>
-Envoie la combinaison des touches Ctrl+Alt+Suppr. à l'hôte. 
+Envoie la combinaison des touches <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Suppr.</kbd> à l'hôte. 
 		</td>
 	</tr>
 		<td>

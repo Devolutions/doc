@@ -13,8 +13,8 @@ It is also possible to do a ***Quick Search***, which allows you to search throu
 Pro tip: Use the following shortcuts while selecting an entry for an even quicker search  
 
 * Press Enter to navigate to the entry 
-* Press Ctrl+Enter to open the entry 
-* Press Ctrl+R to navigate to the root folder of the entry 
+* Press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to open the entry 
+* Press <kbd>Ctrl</kbd>+<kbd>R</kbd> to navigate to the root folder of the entry 
 {% endsnippet %}
  
 ![Quick Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2006.png) 

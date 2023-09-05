@@ -239,7 +239,7 @@ Basculer les ***Miniatures***.
 Volet supérieur (Ruban/Barre de menu) 
 		</td>
 		<td>
-Basculer le ***Ruban*** (cliquer avec le bouton droit sur l'en-tête de l'application pour la récupérer ou utiliser Alt+F11). 
+Basculer le ***Ruban*** (cliquer avec le bouton droit sur l'en-tête de l'application pour la récupérer ou utiliser <kbd>Alt</kbd>+<kbd>F11</kbd>). 
 		</td>
 	</tr>
 	<tr>

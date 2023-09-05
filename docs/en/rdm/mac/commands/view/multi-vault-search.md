@@ -75,7 +75,7 @@ Search by typing part or all of a word in the name of the entries or folders or 
 The results are displayed when the ***Search*** button is pressed. Once done, the name of all entries and the {{ en.VLT }} in which they are located are shown in the results field.  
 ![Search Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0031.png) 
 
-It is possible to select multiple entries at once by shift-clicking or all of them with the Cmd+A shortcut. Right-clicking one or more entries shows the same menu and options as in the ***{{ en.NPANE }}***. 
+It is possible to select multiple entries at once by shift-clicking or all of them with the <kbd>Cmd</kbd>+<kbd>A</kbd> shortcut. Right-clicking one or more entries shows the same menu and options as in the ***{{ en.NPANE }}***. 
 
 ### Other functions 
 

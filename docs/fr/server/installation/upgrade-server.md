@@ -41,7 +41,7 @@ Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant to
  
 ### Phase de préparation 
 
-* Assurez-vous que les utilisateurs de l'instance ont activé le mode hors connexion et qu'ils effectuent tous une actualisation complète de la cache (Ctrl+F5).  
+* Assurez-vous que les utilisateurs de l'instance ont activé le mode hors connexion et qu'ils effectuent tous une actualisation complète de la cache (<kbd>Ctrl</kbd>+<kbd>F5</kbd>).  
 * Demander à votre équipe de passer en mode hors ligne dans {{ fr.RDM }}, ce qui lui permet de travailler pendant que le système est hors service.  
 * Mettre à jour la version maximale de {{ fr.RDM }} dans ***Administration – Paramètres du système – Gestion de version – Version maximale***, si cette option a été définie avant la mise à niveau.  
 

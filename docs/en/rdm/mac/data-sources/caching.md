@@ -8,12 +8,12 @@ This feature is only available when using an [Advanced Data Source](/rdm/mac/dat
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
-If the cache is outdated, press Ctrl+Refresh or Ctrl+F5 to refresh the local cache. This will force reading from the database to recreate the cache. 
+If the cache is outdated, press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to refresh the local cache. This will force reading from the database to recreate the cache. 
 {% endsnippet %}
  
 ## Settings 
 
-The Caching ***mode*** option can be accessed via File – Data Sources – Edit Data Source – Advanced in an advanced data source.  
+The Caching ***mode*** option can be accessed via ***File – Data Sources – Edit Data Source – Advanced*** in an advanced data source.  
 ![Caching mode](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10591.png)
 
 <table>

@@ -19,7 +19,7 @@ Plusieurs types de listes sont disponibles dans la section ***Affichage*** : ***
 
 ### Groupes d'onglets 
 
-La fonction ***Groupe d'onglets*** ouvre une fenêtre ancrée montrant l'arborescence de divers groupes d'onglets. Il est possible de sélectionner plusieurs onglets à la fois avec Maj+clic ou tous les onglets avec le raccourci Ctrl+A. Cliquer avec le bouton de droite sur un ou plusieurs onglets affiche plus d'options.  
+La fonction ***Groupe d'onglets*** ouvre une fenêtre ancrée montrant l'arborescence de divers groupes d'onglets. Il est possible de sélectionner plusieurs onglets à la fois avec <kbd>Maj</kbd>+clic ou tous les onglets avec le raccourci <kbd>Ctrl</kbd>+<kbd>A</kbd>. Cliquer avec le bouton de droite sur un ou plusieurs onglets affiche plus d'options.  
 
 Les autres ***Groupes d'onglets*** n'apparaissent que si une session faisant partie d'un groupe d'onglets (autre que l'onglet ***Tout***) est active.  
 ![Groupe d'onglets](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2018.png) 

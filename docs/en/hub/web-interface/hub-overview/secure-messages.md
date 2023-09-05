@@ -4,7 +4,7 @@ title: Secure Messages
 Send and receive ***Secure Messages*** with users from your hub. Click the ***Messages*** icon above your avatar to create and read secure messages.  
 ![!!Hub4128](https://webdevolutions.azureedge.net/docs/en/hub/Hub4128.png) 
 
-### Send a secure message 
+## Send a secure message 
 
 1. Click the ***Messages*** icon. 
 1. Click the ***+*** sign to create a new message.  
@@ -15,7 +15,7 @@ Send and receive ***Secure Messages*** with users from your hub. Click the ***Me
 1. Click ***Send*** to forward the message.  
 ![!!Hub4193](https://webdevolutions.azureedge.net/docs/en/hub/Hub4193.png) 
 
-### Send an entry copy with secure messages 
+## Send an entry copy with secure messages 
 
 You can send a copy of one of your entries to other users with secure messages.  
 

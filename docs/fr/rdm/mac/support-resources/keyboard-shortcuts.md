@@ -33,7 +33,7 @@ RACCOURCI
 Préférences 
 		</td>
 		<td>
-Cmd+, 
+<kbd>Cmd</kbd>+<kbd>,</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -41,7 +41,7 @@ Cmd+,
 Masquer {{ fr.RDM }} 
 		</td>
 		<td>
-Cmd+H 
+<kbd>Cmd</kbd>+<kbd>H</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +49,7 @@ Cmd+H
 Masquer les autres 
 		</td>
 		<td>
-Alt+Cmd+H 
+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -57,7 +57,7 @@ Alt+Cmd+H
 Quitter 
 		</td>
 		<td>
-Cmd+Q 
+<kbd>Cmd</kbd>+<kbd>Q</kbd>
 		</td>
 	</tr>
 </table>
@@ -78,7 +78,7 @@ RACCOURCI
 Actualiser 
 		</td>
 		<td>
-Cmd+R 
+<kbd>Cmd</kbd>+<kbd>R</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -86,7 +86,7 @@ Cmd+R
 Forcer l'actualisation 
 		</td>
 		<td>
-Maj+Cmd+R 
+<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>R</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -94,7 +94,7 @@ Maj+Cmd+R
 Changer source de données 
 		</td>
 		<td>
-Maj+Cmd+D 
+<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd>
 		</td>
 	</tr>
 </table>
@@ -115,7 +115,7 @@ RACCOURCI
 Annuler 
 		</td>
 		<td>
-Cmd+Z 
+<kbd>Cmd</kbd>+<kbd>Z</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -123,7 +123,7 @@ Cmd+Z
 Répéter 
 		</td>
 		<td>
-Maj+Cmd+Z 
+<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>Z</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -131,7 +131,7 @@ Maj+Cmd+Z
 Couper 
 		</td>
 		<td>
-Cmd+X 
+<kbd>Cmd</kbd>+<kbd>X</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -139,7 +139,7 @@ Cmd+X
 Copier (MnuCopy) 
 		</td>
 		<td>
-Cmd+C 
+<kbd>Cmd</kbd>+<kbd>C</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -147,7 +147,7 @@ Cmd+C
 Coller (MnuPaste) 
 		</td>
 		<td>
-Cmd+V 
+<kbd>Cmd</kbd>+<kbd>V</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -155,7 +155,7 @@ Cmd+V
 Déplacer 
 		</td>
 		<td>
-Alt+Cmd+V 
+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -163,7 +163,7 @@ Alt+Cmd+V
 Coller et correspondre au style 
 		</td>
 		<td>
-Alt+Maj+Cmd+V 
+<kbd>Alt</kbd>+<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -171,7 +171,7 @@ Alt+Maj+Cmd+V
 Supprimer (MnuDelete)
 		</td>
 		<td>
-Cmd+Retour arrière 
+<kbd>Cmd</kbd>+<kbd>Retour arrière</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -179,7 +179,7 @@ Cmd+Retour arrière
 Sélectionner tout 
 		</td>
 		<td>
-Cmd+A 
+<kbd>Cmd</kbd>+<kbd>A</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -187,7 +187,7 @@ Cmd+A
 Recherche rapide 
 		</td>
 		<td>
-Alt+Cmd+F 
+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -195,7 +195,7 @@ Alt+Cmd+F
 Trouver dans la source de données 
 		</td>
 		<td>
-Maj+Cmd+F 
+<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -203,7 +203,7 @@ Maj+Cmd+F
 Rechercher 
 		</td>
 		<td>
-Cmd+F 
+<kbd>Cmd</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -211,7 +211,7 @@ Cmd+F
 Orthographe 
 		</td>
 		<td>
-Cmd+: 
+<kbd>Cmd</kbd>+<kbd>:</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -219,7 +219,7 @@ Cmd+:
 Vérifier l'orthographe 
 		</td>
 		<td>
-Cmd+; 
+<kbd>Cmd</kbd>+<kbd>;</kbd>
 		</td>
 	</tr>
 </table>
@@ -240,7 +240,7 @@ RACCOURCI
 Afficher la barre d'outils 
 		</td>
 		<td>
-Alt+Cmd+T 
+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -248,7 +248,7 @@ Alt+Cmd+T
 Masquer la navigation 
 		</td>
 		<td>
-Cmd+N 
+<kbd>Cmd</kbd>+<kbd>N</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -256,7 +256,7 @@ Cmd+N
 Taille réelle 
 		</td>
 		<td>
-Cmd+0 
+<kbd>Cmd</kbd>+<kbd>0</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -264,7 +264,7 @@ Cmd+0
 Zoom avant 
 		</td>
 		<td>
-Cmd++ 
+<kbd>Cmd</kbd>+<kbd>+</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -272,7 +272,7 @@ Cmd++
 Zoom arrière 
 		</td>
 		<td>
-Cmd+- 
+<kbd>Cmd</kbd>+<kbd>-</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -280,7 +280,7 @@ Cmd+-
 Entrer dans le mode plein écran 
 		</td>
 		<td>
-Ctrl+Cmd+F 
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 </table>
@@ -301,7 +301,7 @@ RACCOURCI
 Ouvrir session 
 		</td>
 		<td>
-Entrée 
+<kbd>Entrée</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -309,7 +309,7 @@ Entrée
 Supprimer (MnuDeleteConnection)
 		</td>
 		<td>
-Cmd+Retour arrière 
+<kbd>Cmd</kbd>+<kbd>Retour arrière</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -317,7 +317,7 @@ Cmd+Retour arrière
 Modifier l'entrée 
 		</td>
 		<td>
-Maj+Cmd+E 
+<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>E</kbd>
 		</td>
 	</tr>
 </table>
@@ -338,7 +338,7 @@ RACCOURCI
 Réduire 
 		</td>
 		<td>
-Cmd+M 
+<kbd>Cmd</kbd>+<kbd>M</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -346,7 +346,7 @@ Cmd+M
 Sélectionnez l'onglet suivant 
 		</td>
 		<td>
-Maj+Cmd+Droite 
+<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>Droite</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -354,7 +354,7 @@ Maj+Cmd+Droite
 Sélectionnez l'onglet précédent 
 		</td>
 		<td>
-Maj+Cmd+Gauche 
+<kbd>Maj</kbd>+<kbd>Cmd</kbd>+<kbd>Gauche</kbd>
 	</td>
 	</tr>
 	<tr>
@@ -362,7 +362,7 @@ Maj+Cmd+Gauche
 Aller au signet 1
 		</td>
 		<td>
-Ctrl+Cmd+1 
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>1</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -370,7 +370,7 @@ Ctrl+Cmd+1
 Aller au signet 2
 		</td>
 		<td>
-Ctrl+Cmd+2
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>2</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -378,7 +378,7 @@ Ctrl+Cmd+2
 Aller au signet 3
 		</td>
 		<td>
-Ctrl+Cmd+3
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -386,7 +386,7 @@ Ctrl+Cmd+3
 Aller au signet 4
 		</td>
 		<td>
-Ctrl+Cmd+4
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -394,7 +394,7 @@ Ctrl+Cmd+4
 Aller au signet 5
 		</td>
 		<td>
-Ctrl+Cmd+5
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>5</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -402,7 +402,7 @@ Ctrl+Cmd+5
 Aller au signet 6
 		</td>
 		<td>
-Ctrl+Cmd+6
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -410,7 +410,7 @@ Ctrl+Cmd+6
 Aller au signet 7
 		</td>
 		<td>
-Ctrl+Cmd+7
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>7</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -418,7 +418,7 @@ Ctrl+Cmd+7
 Aller au signet 8
 		</td>
 		<td>
-Ctrl+Cmd+8
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>8</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -426,7 +426,7 @@ Ctrl+Cmd+8
 Aller au signet 9
 		</td>
 		<td>
-Ctrl+Cmd+9
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>9</kbd>
 		</td>
 	</tr>
 </table>
@@ -447,7 +447,7 @@ RACCOURCI
 Aide en ligne 
 		</td>
 		<td>
-Cmd+? 
+<kbd>Cmd</kbd>+<kbd>?</kbd>
 		</td>
 	</tr>
 </table>

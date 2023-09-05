@@ -239,7 +239,7 @@ Toggle the ***Thumbnails***.
 Top Pane (Ribbon/Menubar) 
 		</td>
 		<td>
-Toggle the ***Ribbon*** (right-click the application header to bring it back or use Alt+F11). 
+Toggle the ***Ribbon*** (right-click the application header to bring it back or use <kbd>Alt</kbd>+<kbd>F11</kbd>). 
 		</td>
 	</tr>
 	<tr>

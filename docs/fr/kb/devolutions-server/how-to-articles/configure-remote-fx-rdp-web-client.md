@@ -7,7 +7,7 @@ Afin d'activer RemoteFX sur une machine distante, certaines options doivent êtr
 
 La procédure à suivre est la suivante :  
 
-1. Lancer la commande d'exécution Windows+R.
+1. Lancer la commande d'exécution <kbd>Windows</kbd>+<kbd>R</kbd>.
 1. Exécuter : `gpedit.msc`
 1. Activer : `Computer Configuration/Administrative Templates/Windows Components/Remote Desktop Services/Remote Desktop Session Host/Remote Session Environment/RemoteFX for Windows Server 2008 R2/Configure RemoteFX`
 1. Activer : `Computer Configuration/Administrative Templates/Windows Components/Remote Desktop Services/Remote Desktop Session Host/Remote Session Environment/Enable RemoteFX encoding for RemoteFX clients designed for Windows Server 2008 R2 SP1`

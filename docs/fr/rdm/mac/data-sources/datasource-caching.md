@@ -8,7 +8,7 @@ Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [source d
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
-Si vous pensez que le cache est obsolète, appuyez sur Ctrl+Actualiser ou Ctrl+F5 pour actualiser le cache local. Cela forcera la lecture de la base de données pour recréer le cache. 
+Si vous pensez que le cache est obsolète, appuyez sur <kbd>Ctrl</kbd>+<kbd>F5</kbd> pour actualiser le cache local. Cela forcera la lecture de la base de données pour recréer le cache. 
 {% endsnippet %}
  
 

@@ -37,7 +37,7 @@ Open the Start menu on the host computer.
 Send Ctrl+Alt+Delete 
 		</td>
 		<td>
-Send the key combination Ctrl+Alt+Delete to the host. 
+Send the key combination <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Delete</kbd> to the host. 
 		</td>
 	</tr>
 	<tr>

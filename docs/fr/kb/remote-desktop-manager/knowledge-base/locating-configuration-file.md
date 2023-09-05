@@ -19,7 +19,7 @@ Notez que si vous stockez vos mots de passe dans votre/vos source(s) de données
 Noter que cet exemple suppose que {{ fr.RDM }} a été installé avec les paramètres par défaut. 
 {% endsnippet %}
  
-1. Appuyer sur les touchent Windows+R. 
+1. Appuyer sur les touchent <kbd>Windows</kbd>+<kbd>R</kbd>. 
 1. Dans la fenêtre ***Exécuter***, saisir **%LOCALAPPDATA%\Devolutions\RemoteDesktopManager** puis cliquer sur ***OK***. 
 ![Fenêtre Exécuter](https://webdevolutions.azureedge.net/docs/fr/kb/KB2031.png) 
 1. Dans le dossier, localiser le fichier **RemoteDesktopManager.cfg**.  

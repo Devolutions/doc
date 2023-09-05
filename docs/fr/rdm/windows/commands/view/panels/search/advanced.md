@@ -4,7 +4,7 @@ title: Recherche avancée
 La fonction de ***Recherche avancée*** vous permet de rechercher des entrées et des dossiers en fonction de plusieurs critères dans un {{ fr.VLT }} à la fois. Pour effectuer des recherches dans plusieurs {{ fr.VLT }}s simultanément, veuillez vous référer à [***Recherche multi-{{ fr.VLT }}s***](/fr/rdm/windows/commands/view/panels/search/multi-vault/).  
 ![Fenêtre de recherche avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10250.png) 
 
-Il est possible de sélectionner plusieurs entrées à la fois avec Maj+clic ou toutes les entrées avec le raccourci Ctrl+A. Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***. 
+Il est possible de sélectionner plusieurs entrées à la fois avec <kbd>Maj</kbd>+clic ou toutes les entrées avec le raccourci <kbd>Ctrl</kbd>+<kbd>A</kbd>. Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}***. 
 
 ### Onglet Recherche 
 

@@ -13,8 +13,8 @@ Il est également possible d'effectuer une ***Recherche rapide*** qui permet de 
 Truc de pro : Utilisez les raccourcis suivants lorsqu'une entrée est sélectionnée pour rendre votre recherche encore plus rapide.  
 
 * Appuyez sur Entrée pour naviguer à l'entrée. 
-* Appuyez sur Ctrl+Entrée pour ouvrir l'entrée. 
-* Appuyez sur Ctrl+R pour naviguer vers le dossier racine de l'entrée. 
+* Appuyez sur <kbd>Ctrl</kbd>+<kbd>Entrée</kbd> pour ouvrir l'entrée. 
+* Appuyez sur <kbd>Ctrl</kbd>+<kbd>R</kbd> pour naviguer vers le dossier racine de l'entrée. 
 {% endsnippet %}
  
 ![Recherche rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2009.png) 

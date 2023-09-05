@@ -4,7 +4,7 @@ title: Web Protocol Handler
 A ***Web Protocol Handler*** (also called ***URL Protocol Handler***) has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).  
 
 {% snippet icon.badgeInfo %}  
-Internet Explorer and Mozilla Firefox execute the URL by clicking on it or by pressing Enter. However, with some other web browsers such as Google Chrome, executing the URL normally results in a web search. These browsers may require to do Ctrl+click or Ctrl+Enter to execute the URL.  
+Internet Explorer and Mozilla Firefox execute the URL by clicking on it or by pressing Enter. However, with some other web browsers such as Google Chrome, executing the URL normally results in a web search. These browsers may require to do <kbd>Ctrl</kbd>+click or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to execute the URL.  
 {% endsnippet %}
 
 ## Scenarios
@@ -166,4 +166,4 @@ There are three rules to follow when constructing an URL for the protocol handle
 ![!!KB4466](https://webdevolutions.azureedge.net/docs/en/kb/KB4466.png)  
 1. The Url is stored in the clipboard.  
 ![!!KB4467](https://webdevolutions.azureedge.net/docs/en/kb/KB4467.png)  
-1. Paste (Ctrl+V) this Url in any application able to handle application protocols. It can be in a web page, a web browser address bar, or even a supported chat application. The protocol handler launches {{ en.RDM }} if it is closed, then perform the requested action with the provided parameters.
+1. Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>) this Url in any application able to handle application protocols. It can be in a web page, a web browser address bar, or even a supported chat application. The protocol handler launches {{ en.RDM }} if it is closed, then perform the requested action with the provided parameters.

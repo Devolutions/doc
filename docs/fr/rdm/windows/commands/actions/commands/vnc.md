@@ -37,7 +37,7 @@ Sélectionne le bureau au complet ou bascule d'un moniteur à l'autre.
 Envoyer Ctrl+Alt+Suppr. 
 		</td>
 		<td>
-Envoie la combinaison de touches Ctrl+Alt+Suppr. à l'hôte. 
+Envoie la combinaison de touches <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Suppr.</kbd> à l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Envoie la combinaison de touches Ctrl+Alt+Suppr. à l'hôte.
 Envoyer Ctrl+Échapp. 
 		</td>
 		<td>
-Envoie la combinaison de touches Ctrl+Échapp. à l'hôte. 
+Envoie la combinaison de touches <kbd>Ctrl</kbd>+<kbd>Échapp.</kbd> à l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +53,7 @@ Envoie la combinaison de touches Ctrl+Échapp. à l'hôte.
 Envoyer Alt+F4 
 		</td>
 		<td>
-Envoie la combinaison de touches Alt+F4 à l'hôte. 
+Envoie la combinaison de touches <kbd>Alt</kbd>+<kbd>F4</kbd> à l'hôte. 
 		</td>
 	</tr>
 	<tr>

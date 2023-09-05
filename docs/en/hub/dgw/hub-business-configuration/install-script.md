@@ -40,7 +40,7 @@ An ***Application User*** is required to proceed. If one is not already created,
 1. Run the downloaded script with PowerShell 7 in administrator mode. (It should be installed on the server hosting {{ en.DGW }}.)
 1. The script will ask ***Do you want to set a certification*** ? Input ***Y*** and press Enter. 
 1. Input the file path for the certificate. 
-1. Input the password for the certificate. (If the password was copied to the clipboard, do not Ctrl+V, simply right-click) 
+1. Input the password for the certificate. (If the password was copied to the clipboard, do not <kbd>Ctrl</kbd>+<kbd>V</kbd>, simply right-click) 
 1. Press Enter when the ***Web request status*** is completed. 
 1. If the installation is successful, it will show ***{{ en.DGW }} installation done!***. Press Enter. 
 1. Go back to the {{ en.DGW }} webpage and click ***Refresh***.  

@@ -21,7 +21,7 @@ DESCRIPTION
 Navigation 
 		</td>
 		<td>
-Enable/disable the ***{{ en.NPANE }}***. The keyboard shortcut Alt+F8 can also be used to perform these actions. See [***{{ en.NPANE }}***](/rdm/windows/user-interface/navigation-pane/) for more information. 
+Enable/disable the ***{{ en.NPANE }}***. The keyboard shortcut <kbd>Alt</kbd>+<kbd>F8</kbd> can also be used to perform these actions. See [***{{ en.NPANE }}***](/rdm/windows/user-interface/navigation-pane/) for more information. 
 		</td>
 	</tr>
 	<tr>
@@ -29,7 +29,7 @@ Enable/disable the ***{{ en.NPANE }}***. The keyboard shortcut Alt+F8 can also b
 Dashboard 
 		</td>
 		<td>
-Enable/disable the ***Dashboard***. The keyboard shortcut Alt+F6 can also be used to perform these actions. See [***Dashboard***](/rdm/windows/user-interface/content-area/dashboards/) for more information. 
+Enable/disable the ***Dashboard***. The keyboard shortcut <kbd>Alt</kbd>+<kbd>F6</kbd> can also be used to perform these actions. See [***Dashboard***](/rdm/windows/user-interface/content-area/dashboards/) for more information. 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +45,7 @@ Enable/disable the ***Thumbnails*** pane. This option displays all active sessio
 Top Pane (Ribbon/Menubar) 
 		</td>
 		<td>
-Enable/disable the ***Top Pane***. To make it reappear, simply right click on the {{ en.RDM }} title bar (the top bar), then select the ***Top Pane (Ribbon/Menubar)*** from the menu. The keyboard shortcut Alt+F11 can also be used to perform these actions. See [***Top Pane***](/rdm/windows/user-interface/top-pane/) for more information. 
+Enable/disable the ***Top Pane***. To make it reappear, simply right click on the {{ en.RDM }} title bar (the top bar), then select the ***Top Pane (Ribbon/Menubar)*** from the menu. The keyboard shortcut <kbd>Alt</kbd>+<kbd>F11</kbd> can also be used to perform these actions. See [***Top Pane***](/rdm/windows/user-interface/top-pane/) for more information. 
 		</td>
 	</tr>
 	<tr>
@@ -61,7 +61,7 @@ Enable/disable the ***Grouped Tab Bar***. See [***Grouped Tab Bar***](/rdm/windo
 Status Bar 
 		</td>
 		<td>
-Enable/disable the ***Status Bar***. The keyboard shortcut Alt+F7 can also be used to perform these actions. See [***Status Bar***](/rdm/windows/user-interface/status-bar/) for more information. 
+Enable/disable the ***Status Bar***. The keyboard shortcut <kbd>Alt</kbd>+<kbd>F7</kbd> can also be used to perform these actions. See [***Status Bar***](/rdm/windows/user-interface/status-bar/) for more information. 
 		</td>
 	</tr>
 	<tr>

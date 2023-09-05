@@ -36,7 +36,7 @@ SHORTCUT
 Preferences 
 		</td>
 		<td>
-Cmd+, 
+<kbd>Cmd</kbd>+<kbd>,</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -44,7 +44,7 @@ Cmd+,
 Hide {{ en.RDM }} 
 		</td>
 		<td>
-Cmd+H 
+<kbd>Cmd</kbd>+<kbd>H</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -52,7 +52,7 @@ Cmd+H
 Hide Others 
 		</td>
 		<td>
-Alt+Cmd+H 
+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -60,7 +60,7 @@ Alt+Cmd+H
 Exit 
 		</td>
 		<td>
-Cmd+Q 
+<kbd>Cmd</kbd>+<kbd>Q</kbd>
 		</td>
 	</tr>
 </table>
@@ -80,7 +80,7 @@ SHORTCUT
 Refresh 
 		</td>
 		<td>
-Cmd+R 
+<kbd>Cmd</kbd>+<kbd>R</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -88,7 +88,7 @@ Cmd+R
 Force Refresh 
 		</td>
 		<td>
-Shift+Cmd+R 
+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>R</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -96,7 +96,7 @@ Shift+Cmd+R
 Change Data Source 
 		</td>
 		<td>
-Shift+Cmd+D 
+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd>
 		</td>
 	</tr>
 </table>
@@ -116,7 +116,7 @@ SHORTCUT
 Undo 
 		</td>
 		<td>
-Cmd+Z 
+<kbd>Cmd</kbd>+<kbd>Z</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -124,7 +124,7 @@ Cmd+Z
 Redo 
 		</td>
 		<td>
-Shift+Cmd+Z 
+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Z</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -132,7 +132,7 @@ Shift+Cmd+Z
 Cut 
 		</td>
 		<td>
-Cmd+X 
+<kbd>Cmd</kbd>+<kbd>X</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -140,7 +140,7 @@ Cmd+X
 Copy (MnuCopy) 
 		</td>
 		<td>
-Cmd+C 
+<kbd>Cmd</kbd>+<kbd>C</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -148,7 +148,7 @@ Cmd+C
 Paste (MnuPaste) 
 		</td>
 		<td>
-Cmd+V 
+<kbd>Cmd</kbd>+<kbd>V</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -156,7 +156,7 @@ Cmd+V
 Move 
 		</td>
 		<td>
-Alt+Cmd+V 
+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -164,7 +164,7 @@ Alt+Cmd+V
 Paste and Match Style 
 		</td>
 		<td>
-Alt+Shift+Cmd+V 
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -172,7 +172,7 @@ Alt+Shift+Cmd+V
 Delete (MnuDelete)
 		</td>
 		<td>
-Cmd+Backspace 
+<kbd>Cmd</kbd>+<kbd>Backspace</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -180,7 +180,7 @@ Cmd+Backspace
 Select All 
 		</td>
 		<td>
-Cmd+A 
+<kbd>Cmd</kbd>+<kbd>A</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -188,7 +188,7 @@ Cmd+A
 Find Quickly 
 		</td>
 		<td>
-Alt+Cmd+F 
+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -196,7 +196,7 @@ Alt+Cmd+F
 Find in Data Source 
 		</td>
 		<td>
-Shift+Cmd+F 
+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -204,7 +204,7 @@ Shift+Cmd+F
 Find 
 		</td>
 		<td>
-Cmd+F 
+<kbd>Cmd</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -212,7 +212,7 @@ Cmd+F
 Spelling 
 		</td>
 		<td>
-Cmd+: 
+<kbd>Cmd</kbd>+<kbd>:</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -220,7 +220,7 @@ Cmd+:
 Check Spelling 
 		</td>
 		<td>
-Cmd+; 
+<kbd>Cmd</kbd>+<kbd>;</kbd>
 		</td>
 	</tr>
 </table>
@@ -240,7 +240,7 @@ SHORTCUT
 Show Toolbar 
 		</td>
 		<td>
-Alt+Cmd+T 
+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -248,7 +248,7 @@ Alt+Cmd+T
 Hide Navigation 
 		</td>
 		<td>
-Cmd+N 
+<kbd>Cmd</kbd>+<kbd>N</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -256,7 +256,7 @@ Cmd+N
 Actual Size 
 		</td>
 		<td>
-Cmd+0 
+<kbd>Cmd</kbd>+<kbd>0</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -264,7 +264,7 @@ Cmd+0
 Zoom In 
 		</td>
 		<td>
-Cmd++ 
+<kbd>Cmd</kbd>+<kbd>+</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -272,7 +272,7 @@ Cmd++
 Zoom Out 
 		</td>
 		<td>
-Cmd+- 
+<kbd>Cmd</kbd>+<kbd>-</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -280,7 +280,7 @@ Cmd+-
 Enter Full Screen 
 		</td>
 		<td>
-Ctrl+Cmd+F 
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
 		</td>
 	</tr>
 </table>
@@ -300,7 +300,7 @@ SHORTCUT
 Open Session 
 		</td>
 		<td>
-Enter 
+<kbd>Enter</kbd> 
 		</td>
 	</tr>
 	<tr>
@@ -308,7 +308,7 @@ Enter
 Delete (MnuDeleteConnection)
 		</td>
 		<td>
-Cmd+Backspace 
+<kbd>Cmd</kbd>+<kbd>Backspace</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -316,7 +316,7 @@ Cmd+Backspace
 Edit Entry 
 		</td>
 		<td>
-Shift+Cmd+E 
+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>E</kbd>
 		</td>
 	</tr>
 </table>
@@ -336,7 +336,7 @@ SHORTCUT
 Minimize 
 		</td>
 		<td>
-Cmd+M 
+<kbd>Cmd</kbd>+<kbd>M</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -344,7 +344,7 @@ Cmd+M
 Select Next Tab 
 		</td>
 		<td>
-Shift+Cmd+Right 
+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Right</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -352,7 +352,7 @@ Shift+Cmd+Right
 Select Previous Tab 
 		</td>
 		<td>
-Shift+Cmd+Left 
+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Left</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -360,7 +360,7 @@ Shift+Cmd+Left
 Goto Bookmark 1
 		</td>
 		<td>
-Ctrl+Cmd+1 
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>1</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -368,7 +368,7 @@ Ctrl+Cmd+1
 Goto Bookmark 2
 		</td>
 		<td>
-Ctrl+Cmd+2
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>2</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -376,7 +376,7 @@ Ctrl+Cmd+2
 Goto Bookmark 3
 		</td>
 		<td>
-Ctrl+Cmd+3
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -384,7 +384,7 @@ Ctrl+Cmd+3
 Goto Bookmark 4
 		</td>
 		<td>
-Ctrl+Cmd+4
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -392,7 +392,7 @@ Ctrl+Cmd+4
 Goto Bookmark 5
 		</td>
 		<td>
-Ctrl+Cmd+5
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>5</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -400,7 +400,7 @@ Ctrl+Cmd+5
 Goto Bookmark 6
 		</td>
 		<td>
-Ctrl+Cmd+6
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -408,7 +408,7 @@ Ctrl+Cmd+6
 Goto Bookmark 7
 		</td>
 		<td>
-Ctrl+Cmd+7
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>7</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -416,7 +416,7 @@ Ctrl+Cmd+7
 Goto Bookmark 8
 		</td>
 		<td>
-Ctrl+Cmd+8
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>8</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -424,7 +424,7 @@ Ctrl+Cmd+8
 Goto Bookmark 9
 		</td>
 		<td>
-Ctrl+Cmd+9
+<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>9</kbd>
 		</td>
 	</tr>
 </table>
@@ -444,7 +444,7 @@ SHORTCUT
 Online Help 
 		</td>
 		<td>
-Cmd+? 
+<kbd>Cmd</kbd>+<kbd>?</kbd>
 		</td>
 	</tr>
 </table>

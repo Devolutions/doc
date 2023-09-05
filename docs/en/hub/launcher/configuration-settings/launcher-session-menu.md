@@ -15,5 +15,5 @@ A shortcut menu becomes available to manage the undock window.
 
 ### Ctrl+Alt+Delete 
 
-To use the shortcut Ctrl+Alt+Delete in a session, right-click on the session tab to open the selection menu. Click ***Special Commands - Send Ctrl+Alt+Delete***.  
+To use the shortcut <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Delete</kbd> in a session, right-click on the session tab to open the selection menu. Click ***Special Commands - Send Ctrl+Alt+Delete***.  
 ![!!Hub4014](https://webdevolutions.azureedge.net/docs/en/hub/Hub4014.png) 
