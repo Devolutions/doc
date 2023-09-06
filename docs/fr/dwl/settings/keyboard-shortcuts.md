@@ -14,4 +14,3 @@ Utiliser ce raccourci pour ouvrir la fenêtre {{ fr.DWL }} dans le navigateur ac
 Utiliser ce raccourci pour saisir automatiquement vos identifiants lorsqu'un seul est disponible pour l'entrée.  
 
 ![Connexion avec un identifiant avec {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl4031.png)
-

@@ -56,7 +56,7 @@ Lists the different page titles. When an entry contains multiple documentation p
 	</tr>
 </table>
 
-It is possible to select multiple entries at once by shift-clicking or all of them with the <kbd>Ctrl</kbd>+<kbd>A</kbd> shortcut. Right-clicking one or more entries shows the same menu and options as the ***{{ en.NPANE }}***. 
+It is possible to select multiple entries at once by <kbd>Shift</kbd>-clicking or all of them with the <kbd>Ctrl</kbd>+<kbd>A</kbd> shortcut. Right-clicking one or more entries shows the same menu and options as the ***{{ en.NPANE }}***. 
 
 ### Other functions 
 

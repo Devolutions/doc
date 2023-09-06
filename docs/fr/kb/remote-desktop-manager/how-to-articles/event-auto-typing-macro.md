@@ -361,7 +361,7 @@ F16
 	</tr>
 </table>
 
-Pour saisir des combinaisons avec les touches Maj, Ctrl et Alt, ajoutez un ou plusieurs des signes suivants devant le code en question :  
+Pour saisir des combinaisons avec les touches <kbd>Maj</kbd>, <kbd>Ctrl</kbd> et <kbd>Alt</kbd>, ajoutez un ou plusieurs des signes suivants devant le code en question :  
 
 <table>
 	<tr>

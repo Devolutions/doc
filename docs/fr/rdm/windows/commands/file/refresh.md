@@ -12,4 +12,4 @@ Une actualisation simple met à jour la source de données pour récupérer uniq
 
 ## Actualisation de la cache locale 
 
-Une actualisation de la cache locale réinitialise le cache local de la source de données. Tout le contenu est récupéré de la base de données et le fichier de la cache local est recréé. Cliquer sur le bouton d'actualisation tout en maintenant la touche Ctrl enfoncée ou utiliser la combinaison des touches <kbd>Ctrl</kbd>+<kbd>F5</kbd>. Une actualisation de la cache locale peut également aider en cas de problèmes de [cache](/fr/rdm/windows/data-sources/caching/).
+Une actualisation de la cache locale réinitialise le cache local de la source de données. Tout le contenu est récupéré de la base de données et le fichier de la cache local est recréé. Cliquer sur le bouton d'actualisation tout en maintenant la touche <kbd>Ctrl</kbd> enfoncée ou utiliser la combinaison des touches <kbd>Ctrl</kbd>+<kbd>F5</kbd>. Une actualisation de la cache locale peut également aider en cas de problèmes de [cache](/fr/rdm/windows/data-sources/caching/).

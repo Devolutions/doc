@@ -19,7 +19,7 @@ Multiple list types are available in the ***View*** section: ***Credential List*
 
 ### Tab Groups 
 
-The ***Tab Groups*** feature opens a docked window showing a tree view of the various tab groups. It is possible to select multiple tabs at once by shift-clicking or all of them with the <kbd>Ctrl</kbd>+<kbd>A</kbd> shortcut. Right-clicking on one or more tabs shows more options.  
+The ***Tab Groups*** feature opens a docked window showing a tree view of the various tab groups. It is possible to select multiple tabs at once by <kbd>Shift</kbd>-clicking or all of them with the <kbd>Ctrl</kbd>+<kbd>A</kbd> shortcut. Right-clicking on one or more tabs shows more options.  
 
 The other ***Tab groups*** will only appear if a session that is part of a tab group (other than the ***All*** tab) is active.  
 ![Tab Groups](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2017.png) 
