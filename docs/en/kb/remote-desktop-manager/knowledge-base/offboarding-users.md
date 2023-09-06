@@ -13,5 +13,5 @@ Deleting the data of a user has no impact on any existing logs or records in the
 1. Select the user and click ***Delete User*** in the ***User and Security Management window***.
 ![User and Security Management window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6085.png) 
 1. A pop-up window opens. Click ***Yes*** to delete the user.
-![pop-up window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6086.png)  
+![Pop-up window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6086.png)  
 The user has been deleted. 
