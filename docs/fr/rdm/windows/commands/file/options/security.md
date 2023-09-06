@@ -272,6 +272,13 @@ Chiffre les fichiers de configuration {{ fr.RDM }} sur le poste de travail en ut
 
 DPAPI est un outil de chiffrement supplémentaire robuste géré par le système d'exploitation qui garantit que les fichiers de configuration contenant des informations sensibles et les fichiers de cache hors ligne ne peuvent être déchiffrés que sur votre propre machine. L'activation de DPAPI et de la sécurité hors ligne chiffrera les fichiers deux fois puisque DPAPI est une étape de chiffrement séparée.  
 
+Outre les fichiers hors ligne, cette option permet de chiffrer les fichiers de configuration {{ fr.RDM }} suivants :
+
+* RemoteDesktopManager.enb
+* RemoteDesktopManager.enc
+* RemoteDesktopManager.stb
+* RemoteDesktopManager.stv
+
 La fonction est désactivée par défaut, car dans certaines conditions rares (indépendantes de la volonté de {{ fr.RDM }}), les données déchiffrées par DPAPI peuvent être irrécupérables, empêchant ainsi le démarrage de {{ fr.RDM }}.
 		</td>
 	</tr>
