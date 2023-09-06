@@ -456,7 +456,7 @@ Renommer
 Supprimer... 
 		</td>
 		<td>
-<kbd>Ctrl</kbd>+<kbd>Suppr.</kbd>
+<kbd>Ctrl</kbd>+<kbd>Suppr</kbd>
 		</td>
 	</tr>
 </table>
