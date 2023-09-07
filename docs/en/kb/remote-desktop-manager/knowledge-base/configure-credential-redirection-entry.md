@@ -15,7 +15,7 @@ The ***Credential Redirection entry*** enables autofill from any password manage
 ![Select a specific browser, or use the default one](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6072.png)   
 1. Click ***OK*** to save.  
 1. Open your new ***Credential Redirection entry***. {{ en.RDM }} displays the following informative dialog.  
-![Informative dialog ](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6073.png)  
+![Informative dialog](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6073.png)  
 
 The selected browser is launched for a URL that looks like this: `http://127.0.0.1:9999/LastPass%20redirection/login.aspx`.  
 

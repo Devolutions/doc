@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
   title: Run As {{ en.ANYID }} PowerShell scripts with execution context
-  description: This topic will cover how to test various PowerShell scripts calling {{ en.ANYID }} providers in {{ en.DVLS }} within a certain context.
+  description: This topic will cover how to run various PowerShell scripts calling {{ en.ANYID }} providers in {{ en.DVLS }} within a certain context.
 ---
-The ***Run As*** option lets you test {{ en.ANYID }} provider scripts within different contexts and runs the scheduler to do so. This can be done on a local or a remote machine, making it useful to find out what the script is trying to accomplish, whether it is completing certain actions or accessing certain files.
+The ***Run As*** option lets you run {{ en.ANYID }} provider scripts within different contexts and runs the scheduler to do so. This can be done on a local or a remote machine, making it useful to find out what the script is trying to accomplish, whether it is completing certain actions or accessing certain files.
 {% snippet icon.badgeHelp %}
 {{ en.DVLS }} already includes Azure Key Vault and Windows Accounts [custom scripts](/kb/devolutions-server/how-to-articles/create-anyidentity-pam-provider/#import-an-anyidentity-template) templates.
 {% endsnippet %}  
 
-## Test the PowerShell script with Run As
+## Run As PowerShell script in various contexts
 1. In {{ en.DVLS }}, go to ***Administration*** – ***Privileged Access*** – ***Providers***.
 1. Click on ***Add***.  
 ![Add button](https://webdevolutions.azureedge.net/docs/en/kb/KB0149.png)
@@ -27,7 +27,7 @@ It is advised to pick or create a user with less permissions to test a script.
 7. Click ***Save*** to close this window and save the changes.
 
 ### Check for trusted hosts
-If ***Run As*** is not pointing to a trusted host, then the test will not work.  
+If ***Run As*** is not pointing to a trusted host, the configuration will not work.  
 
 Here is the command line to fetch trusted hosts: `Get-Item "WSMan:localhost\Client\TrustedHosts"`  
 
