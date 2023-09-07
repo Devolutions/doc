@@ -4,9 +4,7 @@ Thank you for contributing to our documentation!
 
 You can make changes to an existing topic or propose a new one.
 
-{% snippet icon.badgeInfo %}
-You need a GitHub account to be able to contribute to our documentation. Create an account if you do not yet have one, then log in to your account on [GitHub's website](https://github.com/).
-{% endsnippet %}  
+   You need a GitHub account to be able to contribute to our documentation. Create an account if you do not yet have one, then log in to your account on [GitHub's website](https://github.com/).
 
 ### Modify an existing topic
 
@@ -51,15 +49,15 @@ You are done! Thank you for your contribution, our team will review your changes
 
 1. Name your file at the top in the path by following the instructions below. Note that even if it is based on the topic title, it is not the title but the file name (it will appear in the page URL).
 
-  1. Decide on a meaningful topic title. For example, "Create an account for a website".
+   1. Decide on a meaningful topic title. For example, "Create an account for a website". 
 
-   The file name must always be in English, even if the topic content is not.  
-   * If the topic you are creating is not in English, first translate the topic title to English for the purpose of the deciding the file name.  
-   * If the topic you are creating is the translation of an existing topic, keep the same English file name as the original English topic.
+      The file name must always be in English, even if the topic content is not.  
+      * If the topic you are creating is not in English, first translate the topic title to English for the purpose of the deciding the file name.  
+      * If the topic you are creating is the translation of an existing topic, keep the same English file name as the original English topic.
 
-  1. Keep essential words (nouns and verbs) and discard the rest. For example, "Create account website".
-  1. Make all letters lowercase and replace spaces with hyphens ("-"). For example, "create-account-website".
-  1. Add the ".md" extension at the end of the file name. For example, "create-account-website.md".  
+   1. Keep essential words (nouns and verbs) and discard the rest. For example, "Create account website".
+   1. Make all letters lowercase and replace spaces with hyphens ("-"). For example, "create-account-website".
+   1. Add the ".md" extension at the end of the file name. For example, "create-account-website.md".  
 
 1. Write your topic. At any time, you can click the ***Preview*** tab in GitHub to see what the topics will look like in the web page. Note that some features may not display correctly in this tab, but will be properly displayed in the final product.
 
