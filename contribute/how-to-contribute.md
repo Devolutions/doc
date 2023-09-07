@@ -10,20 +10,38 @@ You can make changes to an existing topic or propose a new one.
 
 1. Go to the topic you want to modify in our [documentation](https://docs.devolutions.net/).
 1. In the web page, click the pencil icon located at the top of the topic next to the title to edit the topic in GitHub.
-1. In the GitHub page, click the ***Edit the file in your fork of this project*** pencil icon.
-1. Edit your topic. 
 
-   At any time, you can click the ***Preview*** tab in GitHub to see what the topics will look like in the web page. Note that some features may not display correctly in this tab, but will be properly displayed in the final product.
+![!!Pencil icon](https://webdevolutions.azureedge.net/docs/common/contribute_pencil_icon.png) 
+
+1. In the GitHub page, click the ***Edit the file in your fork of this project*** pencil icon.
+
+![!!Edit the file in your fork of this project](https://webdevolutions.azureedge.net/docs/common/contribute_github_edit.png) 
+
+1. Edit your topic. At any time, you can click the ***Preview*** tab in GitHub to see what the topics will look like in the web page. Note that some features may not display correctly in this tab, but will be properly displayed in the final product.
+
+   ![!!Edit and Preview tabs](https://webdevolutions.azureedge.net/docs/common/contribute_edit_preview_tabs.png) 
 
    See [Manage the front matter metadata](contribute/front-matter-metadata.md) to learn what to add in the front matter of your topic. Also visit the other guides in the current [contribute](contribute) folder to help you compose your topic.
 
-1. Once you are completely done, click ***Commit changes***. Write a ***Commit message*** (mandatory, but you can keep the default message) and an ***Extended description*** (optional but recommended).
+1. Once you are completely done, click ***Commit changes***.
+
+![!!Commit changes](https://webdevolutions.azureedge.net/docs/common/contribute_commit_changes.png) 
+
+1. Write a ***Commit message*** (mandatory, but you can keep the default message) and an ***Extended description*** (optional but recommended).
+
+![!!Commit message and Extended description](https://webdevolutions.azureedge.net/docs/common/contribute_commit_message_extended_description.png) 
 
 1. Click ***Propose changes***.
 
-1. Click ***Create pull request***.
+![!!Propose changes](https://webdevolutions.azureedge.net/docs/common/contribute_propose_changes.png) 
 
-1. Click ***Create pull request*** again.
+1. In ***Comparing changes***, click ***Create pull request***.
+
+![!!Comparing changes – Create pull request](https://webdevolutions.azureedge.net/docs/common/contribute_create_pull_request.png) 
+
+1. In ***Open a pull request***, click ***Create pull request*** again to confirm.
+
+![!!Open a pull request – Create pull request](https://webdevolutions.azureedge.net/docs/common/contribute_create_pull_request_2.png) 
 
 You are done! Thank you for your contribution, our team will review your changes in a timely manner.
 
@@ -45,9 +63,13 @@ You are done! Thank you for your contribution, our team will review your changes
 
 1. Once you have found the desired location in GitHub, in the direct parent folder, click ***Add file***, then ***Create new file*** to write the topic in the GitHub web interface.
 
+![!!Add file – Create new file](https://webdevolutions.azureedge.net/docs/common/contribute_create_new_file.png) 
+
    For security reasons, the option to upload a file is disabled.
 
 1. Name your file at the top in the path by following the instructions below. Note that even if it is based on the topic title, it is not the title but the file name (it will appear in the page URL).
+
+![!!Name your file](https://webdevolutions.azureedge.net/docs/common/contribute_name_your_file.png) 
 
    1. Decide on a meaningful topic title. For example, "Create an account for a website". 
 
@@ -61,14 +83,28 @@ You are done! Thank you for your contribution, our team will review your changes
 
 1. Write your topic. At any time, you can click the ***Preview*** tab in GitHub to see what the topics will look like in the web page. Note that some features may not display correctly in this tab, but will be properly displayed in the final product.
 
+   ![!!Edit and Preview tabs](https://webdevolutions.azureedge.net/docs/common/contribute_edit_preview_tabs.png) 
+
    See [Manage the front matter metadata](contribute/front-matter-metadata.md) to learn what to add in the front matter of your topic. Also visit the other guides in the current [contribute]() folder to help you compose your topic.
 
-1. Once you are completely done, click ***Commit changes***. Write a ***Commit message*** (mandatory, but you can keep the default message) and an ***Extended description*** (optional but recommended).
+1. Once you are completely done, click ***Commit changes***. 
+
+![!!Commit changes](https://webdevolutions.azureedge.net/docs/common/contribute_commit_changes.png) 
+
+1. Write a ***Commit message*** (mandatory, but you can keep the default message) and an ***Extended description*** (optional but recommended).
+
+![!!Commit message and Extended description](https://webdevolutions.azureedge.net/docs/common/contribute_commit_message_extended_description.png) 
 
 1. Click ***Propose changes***.
 
+![!!Propose changes](https://webdevolutions.azureedge.net/docs/common/contribute_propose_changes.png) 
+
 1. Click ***Create pull request***.
 
+![!!Comparing changes – Create pull request](https://webdevolutions.azureedge.net/docs/common/contribute_create_pull_request.png) 
+
 1. Click ***Create pull request*** again.
+
+![!!Open a pull request – Create pull request](https://webdevolutions.azureedge.net/docs/common/contribute_create_pull_request_2.png) 
 
 You are done! Thank you for your contribution, our team will review your topic in a timely manner.

@@ -18,11 +18,11 @@ You don't have to create an anchor to redirect to a heading, as they already are
 1. Replace `text` with the text of the link. It should be representative of the link's content.  
 1. Replace `HeadingName` with the name of the heading (leave the "#"). To get this name, follow these instructions:  
     1. Click the ***Preview*** tab when editing in GitHub.  
-![Preview tab](https://webdevolutions.azureedge.net/docs/common/GitHub_contribute_previewtab.png)  
+![Preview tab](https://webdevolutions.azureedge.net/docs/common/contribute_preview_tab.png)  
     1. Hover over the heading, then click on the link icon that appears next to it.  
-![Heading link](https://webdevolutions.azureedge.net/docs/common/GitHub_contribute_linkicon.png)  
+![Heading link](https://webdevolutions.azureedge.net/docs/common/contribute_heading_link.png)  
     1. In the URL bar in your browser, copy the header name which is located after the "#". Replace `HeadingName` with what you copied.  
-![Heading URL](https://webdevolutions.azureedge.net/docs/common/GitHub_contribute_URLheading.png)  
+![Heading URL](https://webdevolutions.azureedge.net/docs/common/contribute_heading_url.png)  
 
 #### Link to an anchor (same topic)
 
