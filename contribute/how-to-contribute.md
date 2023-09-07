@@ -15,7 +15,7 @@ You can make changes to an existing topic or propose a new one.
 
    At any time, you can click the ***Preview*** tab in GitHub to see what the topics will look like in the web page. Note that some features may not display correctly in this tab, but will be properly displayed in the final product.
 
-   See [Manage the front matter metadata](contribute/front-matter-metadata) to learn what to add in the front matter of your topic. Also visit the other guides in the current [contribute](contribute) folder to help you compose your topic.
+   See [Manage the front matter metadata](contribute/front-matter-metadata.md) to learn what to add in the front matter of your topic. Also visit the other guides in the current [contribute](contribute) folder to help you compose your topic.
 
 1. Once you are completely done, click ***Commit changes***. Write a ***Commit message*** (mandatory, but you can keep the default message) and an ***Extended description*** (optional but recommended).
 
@@ -39,7 +39,7 @@ You are done! Thank you for your contribution, our team will review your changes
 
 1. Follow the folder structure until you find the location where you think the new topic would fit best.
 
-   The folder structure follows the tree view structure of the [documentation website pages](https://docs.devolutions.net/). It may help to look up the location in our online documentation first, then trace your steps in GitHub. Also consult [Devolutions Product Documentation and Knowledge Base](contribute/devolutions-documentation-knowledge-base) to help you determine where your topic should be located.  
+   The folder structure follows the tree view structure of the [documentation website pages](https://docs.devolutions.net/). It may help to look up the location in our online documentation first, then trace your steps in GitHub. Also consult [Devolutions Product Documentation and Knowledge Base](contribute/devolutions-documentation-knowledge-base.md) to help you determine where your topic should be located.  
 
    We may change its location if we deem that it should be placed elsewhere.
 
@@ -61,7 +61,7 @@ You are done! Thank you for your contribution, our team will review your changes
 
 1. Write your topic. At any time, you can click the ***Preview*** tab in GitHub to see what the topics will look like in the web page. Note that some features may not display correctly in this tab, but will be properly displayed in the final product.
 
-   See [Manage the front matter metadata](contribute/front-matter-metadata) to learn what to add in the front matter of your topic. Also visit the other guides in the current [contribute](contribute) folder to help you compose your topic.
+   See [Manage the front matter metadata](contribute/front-matter-metadata.md) to learn what to add in the front matter of your topic. Also visit the other guides in the current [contribute]() folder to help you compose your topic.
 
 1. Once you are completely done, click ***Commit changes***. Write a ***Commit message*** (mandatory, but you can keep the default message) and an ***Extended description*** (optional but recommended).
 
