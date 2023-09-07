@@ -17,9 +17,11 @@ Nevertheless, if you wish to send us images, here are some basic guidelines to f
 
 To send us your image(s), [create an issue](https://github.com/Devolutions/doc/issues) in our repository on GitHub. Give it a meaningful title and leave an explanation about the image that indicates:
 
-* What the image consists of.
-* Why you are sending the image.
-* Where you would like us to add the image (if applicable).
-* Any other information you find useful.
+* what it represents.
+* the reason you are sending it to us.
+* the location where you would like to it added (if applicable).
+* any other information you find useful.
 
+{% snippet icon.badgeNotice %}
 Before submitting the issue, make sure you have attached the image(s) to the issue.
+{% endsnippet %}  

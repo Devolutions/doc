@@ -2,7 +2,7 @@
 
 We use metadata for discoverability of the content via search and for driving aspects of the site experience. In the case of Eleventy (11ty), global variables are managed in the front matter, which is located on line 1 of the file and is enclosed between `---` at the beginning and end.  
 
-When editing an existing article, you typically won't need to modify the metadata. However, when creating a new article, certain mandatory metadata values must be included in the front matter of the file.  
+When editing an existing article, you will not typically need to modify the metadata. However, when creating a new article, certain mandatory metadata values must be included in the front matter of the file.  
 
 Below is an example demonstrating the application of metadata within the front matter of a Markdown article:  
 
