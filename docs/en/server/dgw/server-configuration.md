@@ -9,12 +9,21 @@ eleventyComputed:
 ---
 This topic describes how to configure {{ en.DVLS }} to connect with {{ en.DGW }}. There are two ways to install a {{ en.DGW }}: the <a href="#steps-for-side-by-side-installation">Side-by-side Installation</a> and the <a href="#steps-for-standalone-installation">Standalone Installation</a>.
 
+{% snippet icon.badgeInfo %}
+Many {{ en.DGW }} can be used by {{ en.DVLS }}, but only one {{ en.DGW }} can be installed on a machine. 
+{% endsnippet %} 
+
+## Difference between Side-by-side and Standalone Installation
+The Side-by-side Installation is the one you will use if you wish to install {{ en.DGW }} on the same machine where your {{ en.DVLS }} is hosted. It is a simplified installation process that will automatically configure the new {{ en.DGW }} with information from your {{ en.DVLS }} instance (access URI and public key).
+
+In order to install {{ en.DGW }} on another machine thant the one where your {{ en.DVLS }} is hosted, you need to follow the Standalone Installation process. The procedure is similar, but you will need to provide more information about your {{ en.DVLS }} instance to complete it.
+
 ## Steps for Side-by-side Installation
 {% snippet icon.badgeInfo %}
 To set up a free {{ en.DGW }}, it must be installed using the ***Side-by-side*** configuration. It creates a gateway capable of handling up to 5 concurrent sessions. 
 {% endsnippet %}  
 
-This method supports more sessions if there is an available {{ en.DGW }} license(s). This installation process is the easier of the two. However, this method is recommended for simpler network layouts, and only one ***Side-by-side*** installation can be done per machine.
+This method supports more sessions if there is an available {{ en.DGW }} license(s). This installation process is the easier of the two. However, this method is recommended for simpler network layouts.
 1. From the {{ en.DVLSCONSOLE }}, click on the ***Companions*** tab.  
 ![Companions tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2083.png)
 1. In the {{ en.DGW }} section, click on ***Install***.  
@@ -36,7 +45,12 @@ It is possible to download an [.msi](https://devolutions.net/gateway/download) f
 ![Ping](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0007.png)
 
 ## Steps for Standalone Installation
-Installing by using the ***Standalone*** method will allow to install {{ en.DGW }} on a separate server than {{ en.DVLS }}. It could be for performance purposes or access networks that {{ en.DVLS }} cannot access. Many {{ en.DGW }} can be used by {{ en.DVLS }}, but only one {{ en.DGW }} can be installed on a machine.
+Installing by using the ***Standalone*** method will allow to install {{ en.DGW }} on a separate server than {{ en.DVLS }}. It could be for performance purposes or access networks that {{ en.DVLS }} cannot access.
+
+{% snippet icon.badgeInfo %}
+The {{ en.DVLSCONSOLE }} must be installed on the server on which you want to install the {{ en.DGW }}. The following procedure must be done on that server.
+{% endsnippet %} 
+
 1. From the {{ en.DVLSCONSOLE }}, click on the ***Companions*** tab.  
 ![Companions Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0018.png)
 1. In the {{ en.DGW }} section, click on ***Install***.
