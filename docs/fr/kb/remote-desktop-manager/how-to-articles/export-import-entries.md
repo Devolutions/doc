@@ -3,7 +3,7 @@ title: Exporter et importer des entrées
 ---
 Vous pouvez exporter et importer des entrées d'un type de source de données à un autre. Il existe plusieurs façons d'exporter des entrées avec {{ fr.RDM }}. 
 {% snippet icon.badgeCaution %} 
-Si vous avez des utilisateurs qui remplacent les propriétés des entrées avec les ***Paramètres spécifiques de l'utilisateur***, ceux-ci devront exporter et importer leur ***Liste des paramètres spécifiques de l'utilisateur***. Consultez [Exporter et importer les paramètres spécifiques de l'utilisateur](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/) (EN).
+Si vous avez des utilisateurs qui remplacent les propriétés des entrées avec les ***Paramètres spécifiques de l'utilisateur***, ceux-ci devront exporter et importer leur ***Liste des paramètres spécifiques de l'utilisateur***. Consultez [Exporter et importer des paramètres spécifiques de l'utilisateur](/fr/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/).
 {% endsnippet %}  
 
 La première méthode est effectuée directement <a href="#Exportation/Importation via {{ fr.RDM }}">dans {{ fr.RDM }}</a>, tandis que la seconde utilise un <a href="#Exportation/Importation à l'aide de PowerShell">script PowerShell</a>.
