@@ -22,27 +22,27 @@ In ***Administration – System Settings – Application Specific – Applicatio
 * ***Check against all configured methods***: Prompts for the configured MFA methods only.
 * ***Prompt for selection on use***: Prompts for which MFA to configure on use.
 
-![Force application multi-factor authentication mode](https://webdevolutions.azureedge.net/docs/en/kb/KB2267.png)
+![Force application multi-factor authentication mode](https://webdevolutions.azureedge.net/docs/en/kb/KB2271.png)
 
 ## Force application security with TOTP (Authenticator)
 In ***Administration – System Settings – Application Specific – Applications – Security***, check ***Force application security with TOTP (Authenticator)*** to enable it.  
 
-![Force application security with TOTP (Authenticator)](https://webdevolutions.azureedge.net/docs/en/kb/KB2268.png)
+![Force application security with TOTP (Authenticator)](https://webdevolutions.azureedge.net/docs/en/kb/KB2270.png)
 
 ## Force application security with Duo (Authenticator)
 In ***Administration – System Settings – Application Specific – Applications – Security***, check ***Force application security with Duo (Authenticator)*** to enable it.  
 
-![Force application security with Duo (Authenticator)](https://webdevolutions.azureedge.net/docs/en/kb/KB2269.png)
+![Force application security with Duo (Authenticator)](https://webdevolutions.azureedge.net/docs/en/kb/KB2267.png)
 
 ## Force data source multi-factor configuration
 In ***Administration – System Settings – Vault Management – Security Settings – Security***, check ***Force data source multi-factor configuration*** to enable it.  
 
-![Force data source multi-factor configuratione](https://webdevolutions.azureedge.net/docs/en/kb/KB2270.png)
+![Force data source multi-factor configuration](https://webdevolutions.azureedge.net/docs/en/kb/KB2272.png)
 
 ## Prompt for MFA before going offline
 In ***Administration – System Settings – Application Specific – Cache/Offline – Offline***, check ***Prompt for MFA before going offline*** to enable it.  
 
-![Prompt for MFA before going offline](https://webdevolutions.azureedge.net/docs/en/kb/KB2271.png)
+![Prompt for MFA before going offline](https://webdevolutions.azureedge.net/docs/en/kb/KB2269.png)
 
 ## Force with group policies (GPOs)
 We also have GPOs that could help you achieve your goal. An example is the ***Force multi-factor authentication on the application login*** GPO.  
