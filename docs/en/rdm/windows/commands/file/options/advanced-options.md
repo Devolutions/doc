@@ -406,7 +406,25 @@ Enable to view the list of all neighboring computers. It is not recommended to e
 Lock integrated security: validate only against domain context 
 		</td>
 		<td>
-The integrated security lock validates by default against the local machine and the domain context. You have the option to validate only against the domain. 
+The integrated security lock validates by default against the local machine and the domain context. You have the option to validate only against the domain. If enabled, {{ en.RDM }} will perform the ***LogonUser*** by using the domain in the username. The option affected is [Use the computer's credentials as application password](https://docs.devolutions.net/rdm/windows/commands/file/options/security/#application-security-local) in ***Application Security (Local)***. By default, without this option enabled {{ en.RDM }} will use ***Environment.MachineName*** which is the ***NetBIOS*** name of the local computer. 
+
+For example, if the option is enabled and the credentials are:
+
+- User: user1\domain1
+- Password: password1
+- Machine: testmachine1
+
+The resulting credentials for the login would be as follows:
+
+- User: user1
+- Domain: domain1
+- Password: password1
+
+In this example if the option is disabled, the credentials would as follows:
+
+- User: user1
+- Domain: testmachine1
+- Password: password1
 		</td>
 	</tr>
 	<tr>
