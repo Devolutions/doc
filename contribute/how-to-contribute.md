@@ -22,7 +22,7 @@ You need a GitHub account to be able to contribute to our documentation. Create 
 
    ![!!Edit and Preview tabs](https://webdevolutions.azureedge.net/docs/common/contribute_edit_preview_tabs.png) 
 
-   See [Manage the front matter metadata](contribute/front-matter-metadata.md) to learn what to add in the front matter of your topic. Also visit the other guides in the current [contribute](contribute) folder to help you compose your topic.
+   See [Manage the front matter metadata](front-matter-metadata.md) to learn what to add in the front matter of your topic. Also visit the other guides in the current contribute folder to help you write your topic.
 
 1. Once you are completely done, click ***Commit changes***.
 
@@ -58,7 +58,7 @@ You are done! Thank you for your contribution, our team will review your changes
 
 1. Follow the folder structure until you find the location where you think the new topic would fit best.
 
-   The folder structure follows the tree view structure of the [documentation website pages](https://docs.devolutions.net/). It may help to look up the location in our online documentation first, then trace your steps in GitHub. Also consult [Devolutions Product Documentation and Knowledge Base](contribute/devolutions-documentation-knowledge-base.md) to help you determine where your topic should be located.  
+   The folder structure follows the tree view structure of the [documentation website pages](https://docs.devolutions.net/). It may help to look up the location in our online documentation first, then trace your steps in GitHub. Also consult [Devolutions Product Documentation and Knowledge Base](devolutions-documentation-knowledge-base.md) to help you determine where your topic should be located.  
 
    We may change its location if we deem that it should be placed elsewhere.
 
@@ -86,7 +86,7 @@ You are done! Thank you for your contribution, our team will review your changes
 
    ![!!Edit and Preview tabs](https://webdevolutions.azureedge.net/docs/common/contribute_edit_preview_tabs.png) 
 
-   See [Manage the front matter metadata](contribute/front-matter-metadata.md) to learn what to add in the front matter of your topic. Also visit the other guides in the current [contribute]() folder to help you compose your topic.
+   See [Manage the front matter metadata](front-matter-metadata.md) to learn what to add in the front matter of your topic. Also visit the other guides in the current contribute folder to help you compose your topic.
 
 1. Once you are completely done, click ***Commit changes***. 
 
