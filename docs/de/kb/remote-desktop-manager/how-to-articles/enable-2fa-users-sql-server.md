@@ -1,5 +1,7 @@
 ---
-title: 2FA für Nutzer aktivieren
+eleventyComputed:
+  title: MFA für Nutzer aktivieren
+  description: Obwohl es immer noch nicht möglich ist, ohne {{ de.DVLS }} die Konfiguration einer 2FA auf Nutzerebene zu erzwingen, wurden im {{ de.RDM }} einige Optionen hinzugefügt, die Ihren Bedürfnissen entsprechen könnten.
 ---
 Obwohl es immer noch nicht möglich ist, ohne {{ de.DVLS }} die Konfiguration einer 2FA auf Nutzerebene zu erzwingen, wurden im {{ de.RDM }} einige Optionen hinzugefügt, die Ihren Bedürfnissen entsprechen könnten.  
 
@@ -11,29 +13,46 @@ Diese Funktionen sind nur bei Verwendung einer [Erweiterten Datenquelle](/rdm/wi
 Sie können 2FA nicht für Nutzer konfigurieren. Nach der Aktivierung muss jeder Nutzer sie manuell unter ***Datei – Datenquellen*** konfigurieren. Weitere Informationen zur Konfiguration, finden Sie unter [Multifaktor-Authentifizierung](/rdm/windows/data-sources/multi-factor-authentication/).
 {% endsnippet %}  
 
-## Anwendungssicherheit mit Windows-Anmeldeinformationen erzwingen
+## Zwei-Faktor-Authentifizierung für Anwendung erzwingen
 
-Unter ***Verwaltung – Systemeinstellungen – Anwendungen – Sicherheit – Anwendungssicherheit mit Windows-Anmeldeinformationen erzwingen***.  
-![!!KB4906](https://webdevolutions.azureedge.net/docs/de/kb/KB4906.png)
+In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwendungen – Sicherheit – Zwei-Faktor-Authentifizierung für Anwendung erzwingen***, wählen Sie entweder:
 
-## Anwendungssicherheit mit TOTP (Authentifikator)
+* ***Nicht erzwingen***: Erzwingt keinen Mehrfaktor-Authentifizierungsmodus der Anwendung.
+* ***Alle konfigurierten Methoden prüfen***: Fragt nur nach den konfigurierten MFA-Methoden.
+* ***Ber Verwendung abfragen***: Fragt nach, welche MFA bei der Verwendung konfiguriert werden soll.
 
-Unter ***Verwaltung – Systemeinstellungen – Anwendungen – Sicherheit – Anwendungssicherheit mit TOTP (Authenticator) erzwingen***.  
-![!!KB4907](https://webdevolutions.azureedge.net/docs/de/kb/KB4907.png)
+![Zwei-Faktor-Authentifizierung für Anwendung erzwingen](https://webdevolutions.azureedge.net/docs/en/kb/KB2267.png)
 
-## 2-Faktor-Konfiguration der Datenquelle erzwingen
+## Anwendungssicherheit mit TOTP (Authenticator) erzwingen
 
-Unter ***Verwaltung – Systemeinstellungen – Anwendungen – Sicherheit – 2-Faktor-Konfiguration der Datenquelle erzwingen***.  
-![!!KB4908](https://webdevolutions.azureedge.net/docs/de/kb/KB4908.png)
+In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwendungen – Sicherheit***, markieren ***Anwendungssicherheit mit TOTP (Authenticator) erzwingen***, um sie zu aktivieren.
 
-## MFA-Abfrage vor dem Offline-Gehen / Offline-Modus
+![Anwendungssicherheit mit TOTP (Authenticator) erzwingen](https://webdevolutions.azureedge.net/docs/en/kb/KB2268.png)
 
-Unter ***Verwaltung – Systemeinstellungen – Cache/Offline – MFA-Abfrage vor dem Offline-Gehen***.  
+## Anwendungssicherheit mit Duo (Authenticator) erzwingen
 
-## Mit Gruppenrichtlinien (GPO) erzwingen
+In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwendungen – Sicherheit***, markieren ***Anwendungssicherheit mit Duo (Authenticator) erzwingen***, um sie zu aktivieren.
 
-Wir haben auch GPOs, die Ihnen helfen können, Ihr Ziel zu erreichen. Ein Beispiel für diesen Fall ist die ***Erzwingung der Multi-Faktor-Authentifizierung beim Anmelden bei der Anwendung***.  
+![Anwendungssicherheit mit Duo (Authenticator) erzwingen](https://webdevolutions.azureedge.net/docs/en/kb/KB2269.png)
+
+## Zwei-Faktor Authentifizierung für Datenquelle erzwingen
+
+In ***Administration – System Einstellungen – Tresor Verwaltung – Sicherheit – Sicherheit***, markieren ***Zwei-Faktor Authentifizierung für Datenquelle erzwingen***, um sie zu aktivieren.
+
+![Zwei-Faktor Authentifizierung für Datenquelle erzwingen](https://webdevolutions.azureedge.net/docs/en/kb/KB2270.png)
+
+## 2FA vor Offline gehen abfragen
+
+In ***Administration – System Einstellungen – Anwendungsspezifisch – Cache/Offline – Offline***, markieren ***2FA vor Offline gehen abfragen***, um sie zu aktivieren.
+
+![2FA vor Offline gehen abfragen](https://webdevolutions.azureedge.net/docs/en/kb/KB2271.png)
+
+## Mit Gruppenrichtlinien (GPOs) erzwingen
+
+Wir haben auch GPOs, die Ihnen helfen können, Ihr Ziel zu erreichen. Ein Beispiel ist das GPO ***Erzwingung der Multi-Faktor-Authentifizierung beim Anmelden bei der Anwendung***.  
 
 **%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceApplicationMFA**  
 
-Weitere Informationen zur Konfiguration finden Sie unter [Anwendung von Richtlinien](/kb/remote-desktop-manager/how-to-articles/group-policies/).
+{% snippet icon.badgeHelp %}
+Weitere Informationen zur Konfiguration finden Sie unter [Richtlinien anwenden](/kb/remote-desktop-manager/how-to-articles/group-policies/).
+{% endsnippet %} 
