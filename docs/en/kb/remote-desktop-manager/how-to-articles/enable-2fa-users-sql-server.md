@@ -37,7 +37,7 @@ In ***Administration – System Settings – Application Specific – Applicatio
 ## Force data source multi-factor configuration
 In ***Administration – System Settings – Vault Management – Security Settings – Security***, check ***Force data source multi-factor configuration*** to enable it.  
 
-![Force data source multi-factor configuration](https://webdevolutions.azureedge.net/docs/en/kb/KB2272.png)
+![Force data source multi-factor configuration](https://webdevolutions.azureedge.net/docs/en/kb/KB2273.png)
 
 ## Prompt for MFA before going offline
 In ***Administration – System Settings – Application Specific – Cache/Offline – Offline***, check ***Prompt for MFA before going offline*** to enable it.  

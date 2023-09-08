@@ -21,31 +21,31 @@ In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwen
 * ***Alle konfigurierten Methoden prüfen***: Fragt nur nach den konfigurierten MFA-Methoden.
 * ***Ber Verwendung abfragen***: Fragt nach, welche MFA bei der Verwendung konfiguriert werden soll.
 
-![Zwei-Faktor-Authentifizierung für Anwendung erzwingen](https://webdevolutions.azureedge.net/docs/en/kb/KB2271.png)
+![Zwei-Faktor-Authentifizierung für Anwendung erzwingen](https://webdevolutions.azureedge.net/docs/de/kb/KB2271.png)
 
 ## Anwendungssicherheit mit TOTP (Authenticator) erzwingen
 
 In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwendungen – Sicherheit***, markieren ***Anwendungssicherheit mit TOTP (Authenticator) erzwingen***, um sie zu aktivieren.
 
-![Anwendungssicherheit mit TOTP (Authenticator) erzwingen](https://webdevolutions.azureedge.net/docs/en/kb/KB2270.png)
+![Anwendungssicherheit mit TOTP (Authenticator) erzwingen](https://webdevolutions.azureedge.net/docs/de/kb/KB2270.png)
 
 ## Anwendungssicherheit mit Duo (Authenticator) erzwingen
 
 In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwendungen – Sicherheit***, markieren ***Anwendungssicherheit mit Duo (Authenticator) erzwingen***, um sie zu aktivieren.
 
-![Anwendungssicherheit mit Duo (Authenticator) erzwingen](https://webdevolutions.azureedge.net/docs/en/kb/KB2267.png)
+![Anwendungssicherheit mit Duo (Authenticator) erzwingen](https://webdevolutions.azureedge.net/docs/de/kb/KB2267.png)
 
 ## Zwei-Faktor Authentifizierung für Datenquelle erzwingen
 
 In ***Administration – System Einstellungen – Tresor Verwaltung – Sicherheit – Sicherheit***, markieren ***Zwei-Faktor Authentifizierung für Datenquelle erzwingen***, um sie zu aktivieren.
 
-![Zwei-Faktor Authentifizierung für Datenquelle erzwingen](https://webdevolutions.azureedge.net/docs/en/kb/KB2272.png)
+![Zwei-Faktor Authentifizierung für Datenquelle erzwingen](https://webdevolutions.azureedge.net/docs/de/kb/KB2273.png)
 
 ## 2FA vor Offline gehen abfragen
 
 In ***Administration – System Einstellungen – Anwendungsspezifisch – Cache/Offline – Offline***, markieren ***2FA vor Offline gehen abfragen***, um sie zu aktivieren.
 
-![2FA vor Offline gehen abfragen](https://webdevolutions.azureedge.net/docs/en/kb/KB2269.png)
+![2FA vor Offline gehen abfragen](https://webdevolutions.azureedge.net/docs/de/kb/KB2269.png)
 
 ## Mit Gruppenrichtlinien (GPOs) erzwingen
 
