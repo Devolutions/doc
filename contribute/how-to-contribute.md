@@ -2,9 +2,10 @@
 
 Thank you for contributing to our documentation! 
 
-You can make changes to an existing topic or propose a new one.
+You need a GitHub account to be able to contribute to our documentation. Create an account if you do not yet have one, then log in to your account on [GitHub's website](https://github.com/).
 
-   You need a GitHub account to be able to contribute to our documentation. Create an account if you do not yet have one, then log in to your account on [GitHub's website](https://github.com/).
+* [Modify an existing topic](contribute/how-to-contribute.md#modify-an-existing-topic)
+* [Create a new topic](contribute/how-to-contribute.md#create-a-new-topic)
 
 ### Modify an existing topic
 
