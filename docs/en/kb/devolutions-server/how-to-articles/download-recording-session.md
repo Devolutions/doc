@@ -22,5 +22,5 @@ Ensure that {{ en.RDM }} has access to the correct {{ en.DVLS }} data source.
 1. In {{ en.DVLS }} web, navigate to the vault where the entry is and click on that entry.
 1. Click on the ***Logs*** tab.  
 ![Logs tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0154.png)
-1. Click on the play button to view it.  
+1. Click on the play button to view the recording.  
 ![Play button](https://webdevolutions.azureedge.net/docs/en/kb/KB0155.png)
