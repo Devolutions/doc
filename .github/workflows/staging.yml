@@ -14,7 +14,7 @@ jobs:
   staging:
     uses: ./.github/workflows/shared.yml
     with:
-      cluster_name: staging
+      cluster: staging
       environment: staging
       subscription_id: a07f60a2-416e-42c7-87a5-5f046bf0ddee # Devolutions Staging
       ref: ${{ inputs.ref }}

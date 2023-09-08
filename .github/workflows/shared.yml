@@ -3,7 +3,7 @@ name: shared workflow
 on:
   workflow_call:
     inputs:
-      cluster_name:
+      cluster:
         required: true
         default: staging
         type: string
@@ -63,7 +63,7 @@ jobs:
 
       - name: Build image and push to DockerHub
         id: docker_push
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v4
         with:
           context: .
           file: ./ci/Dockerfile
@@ -75,12 +75,15 @@ jobs:
         run: echo ${{ steps.docker_push.outputs.digest }}
 
   deploy:
-    concurrency:
-      group: ${{ inputs.environment }}
-      cancel-in-progress: true
     environment: ${{ inputs.environment }}
     needs: ["build"]
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ inputs.environment }}
+      cancel-in-progress: true
+    permissions:
+      contents: read
+      id-token: write
 
     steps:
       - name: Check out Devolutions/k8s-as-code
@@ -94,29 +97,36 @@ jobs:
         with:
           path: ./.github/workflows
           repository: Devolutions/actions
+          ref: v1
           token: ${{ secrets.DEVOLUTIONSBOT_TOKEN }}
 
       - name: Install toolbox
         uses: ./.github/workflows/toolbox-install
         with:
-          token: ${{ secrets.DEVOLUTIONSBOT_TOKEN }}
+          github_token: ${{ secrets.DEVOLUTIONSBOT_TOKEN }}
 
       - name: Connect to Tailscale
         uses: ./.github/workflows/tailscale
         with:
-          authKey: ${{ secrets.TAILSCALE_AUTH_KEY_EPHEMERAL }}
+          auth_key: ${{ secrets.TAILSCALE_AUTH_KEY_EPHEMERAL }}
+
+      - uses: azure/login@v1
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ inputs.subscription_id }}
+
+      - name: Authenticate to cluster
+        uses: ./.github/workflows/k8s-authenticate
+        with:
+          cluster: ${{ inputs.cluster }}
+          subscription_id: ${{ inputs.subscription_id }}
 
       - name: Deploy with kustomize
-        uses: ./.github/workflows/kustomize-deploy-public
+        uses: ./.github/workflows/k8s-kustomize-deploy
         with:
-          azureClientId: ${{ secrets.TERRAFORM_AUTOMATOR_CLIENT_ID }}
-          azureClientSecret: ${{ secrets.TERRAFORM_AUTOMATOR_CLIENT_SECRET }}
-          azureTenantId: ${{ secrets.AZURE_TENANT_ID }}
-          azureSubscriptionId: ${{ inputs.subscription_id }}
-          context: ${{ inputs.cluster_name }}
+          cluster: ${{ inputs.cluster }}
           environment: ${{ inputs.environment }}
-          imageName: devolutions/docs:${{needs.build.outputs.tag}}
+          github_token: ${{ secrets.DEVOLUTIONSBOT_WRITE_TOKEN }}
+          image: devolutions/docs:${{needs.build.outputs.tag}}
           namespace: docs
-          path: apps/docs/manifests
-          token: ${{ secrets.DEVOLUTIONSBOT_TOKEN }}
-          useCustomImage: true
