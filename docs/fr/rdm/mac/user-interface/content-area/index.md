@@ -1,7 +1,9 @@
 ---
-title: Zone de contenu
+eleventyComputed:
+  title: Zone de contenu
+  description: La zone de contenu est une vue panoramique des données critiques. Elle contient les différents tableaux de bord pour gérer {{ fr.RDM }} ainsi que les sessions intégrées.
 ---
-La ***Zone de contenu*** contient les différents tableaux de bord pour gérer {{ fr.RDM }} ainsi que les sessions intégrées. Un seul tableau de bord est actif à la fois en fonction du nœud actuellement sélectionné dans le ***{{ fr.NPANE }}***.  
+La zone de contenu est une vue panoramique des données critiques. Elle contient les différents tableaux de bord pour gérer {{ fr.RDM }} ainsi que les sessions intégrées. Un seul tableau de bord est actif à la fois en fonction du nœud actuellement sélectionné dans le ***{{ fr.NPANE }}***.  
 
 Les tableaux de bord existants sont décrits plus en détail dans leurs propres rubriques d'aide :  
 
