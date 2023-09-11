@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: '{{ en.DVLS }}'
+  description: '{{ en.DVLS }} is an on‑premises solution for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease.'
   order: 10
   keywords:
   - on-premises
@@ -9,11 +10,11 @@ eleventyComputed:
 ---
 ![!!{{ en.DVLS }} logo]({{ locale[lang].projects.server.logo }})
 
-{{ en.DVLS }} is an on‑premise {{ en.VLT }} for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease.  
+{{ en.DVLS }} is an on‑premises solution for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease.  
 
 Use our ***User Groups Based Access Control*** to grant permissions in a granular fashion. Advanced logging of all user activity is included to offer visibility in all aspects of the solution.  
 
-Because of its Web Architecture you have the possibility to offer it only from your intranet or publish it on the Internet.  
+Because of its web architecture, you have the possibility to offer it only from your intranet or publish it on the Internet.  
 
 {% youtube 'bOTKsqdPulI' %}  
 
@@ -30,7 +31,7 @@ There are two ways of using {{ en.DVLS }}:
 Web browser access and [{{ en.DWL }}](/server/dwl/overview/) 
 		</td>
 		<td>
-![Application64x64](https://webdevolutions.azureedge.net/docs/common/Application64x64.png)  
+![!!Application64x64](https://webdevolutions.azureedge.net/docs/common/Application64x64.png)  
 
 ## Session Management  
 

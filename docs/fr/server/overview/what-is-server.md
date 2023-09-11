@@ -9,7 +9,7 @@ keywords:
 ---
 ![!!{{ fr.DVLS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg)
 
-{{ fr.DVLS }} est un {{ fr.VLT }} déployable dans votre infrastructure servant à stocker et à partager des informations entre les différentes équipes de votre organisation. Cette solution permet également de gérer des connexions à distance, des identifiants et des informations confidentielles en toute sécurité.  
+{{ fr.DVLS }} est une solution déployable dans votre infrastructure servant à stocker et à partager des informations entre les différentes équipes de votre organisation. Cette solution permet également de gérer des connexions à distance, des identifiants et des informations confidentielles en toute sécurité.  
 
 Notre système de contrôle d'accès basé sur des groupes d'utilisateurs permet d'attribuer des permissions de façon granulaire. Une journalisation avancée des activités de tous les utilisateurs est incluse afin d'offrir une excellente visibilité dans tous les aspects de la solution.  
 
@@ -30,7 +30,7 @@ Il existe deux façons d'utiliser {{ fr.DVLS }} :
 Accès par le navigateur Web et [{{ fr.DWL }}](/fr/server/dwl/overview/) 
 		</td>
 		<td>
-![Application64x64](https://webdevolutions.azureedge.net/docs/common/Application64x64.png)  
+![!!Application64x64](https://webdevolutions.azureedge.net/docs/common/Application64x64.png)  
 
 ## Gestion de sessions  
 
@@ -95,7 +95,7 @@ Possibilité de publier {{ fr.DVLS }} soit dans votre intranet, soit sur Interne
 		<td>
 ![!!clip10050](https://webdevolutions.azureedge.net/docs/fr/server/clip10050.png)  
 
-### Authentification à deux facteurs 
+### Authentification multifacteur 
 		</td>
 		<td>
 ![!!clip10062](https://webdevolutions.azureedge.net/docs/fr/server/clip10062.png)  
@@ -111,7 +111,7 @@ Possibilité de publier {{ fr.DVLS }} soit dans votre intranet, soit sur Interne
 	<tr>
 		<td>
 
-Grand éventail de technologies d'[authentification à 2 facteurs](/fr/server/web-interface/administration/configuration/server-settings/security/two-factor/). 
+Grand éventail de technologies d'[authentification multifacteur](/fr/server/web-interface/administration/configuration/server-settings/security/two-factor/). 
 		</td>
 		<td>
 Recevez des notifications par courriel pour toute activité dans les comptes, les {{ fr.VLT }}s, etc. 
