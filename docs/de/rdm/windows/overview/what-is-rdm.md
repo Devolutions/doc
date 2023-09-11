@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: '{{ de.RDM }}'
+  description: "{{ de.RDM }} ist eine Anwendung, die eine umfassende Reihe von Tools und Verwaltungswerkzeugen kombiniert, um die Anforderungen jedes IT-Teams zu erfüllen. Sie wurde entwickelt, um Technologien für Remote-Verbindungen und Anmeldeinformationen zu zentralisieren und den Zugang zu diesen Ressourcen zu sichern."
   order: 10
 ---
 ![!!{{ de.RDM }} logo]({{ locale.de.projects.rdm.logo }})  
@@ -17,7 +18,7 @@ eleventyComputed:
 
 |      |     |
 | ---- | --- |
-| Free | Nur für Einzelpersonen, keine Weitergabe von Informationen an Kollegen möglich. Die gängigsten Technologien für Remote-Verbindungen werden unterstützt und Passwörter können sicher gespeichert werden. |
+| Free {width=75px}| Nur für Einzelpersonen, keine Weitergabe von Informationen an Kollegen möglich. Die gängigsten Technologien für Remote-Verbindungen werden unterstützt und Passwörter können sicher gespeichert werden. |
 | Team | Diese Edition wird von Teams verwendet und bietet Nutzerberechtigungen, Nutzergruppen, erweiterte Protokollierung usw. {{ de.RDM }} verwendet ein Datenbank-Managementsystem (DBMS) zur Speicherung der Informationen und zur gemeinsamen Nutzung entsprechend Ihren Sicherheitsanforderungen. Devolutions bietet auch zwei spezialisierte Dienste zur Cloud-basierten Speicherung oder zur vollständigen Integration von Active Directory. |
 
 Wie weiter unten dargestellt, wird {{ de.RDM }} auch auf mehreren Plattformen angeboten.  
@@ -31,7 +32,7 @@ Sie müssen eine Desktop-Anwendung verwenden, um eine Team-Datenquelle zu erstel
 {% endsnippet %}
 
 | PLATTFORM | FREE-EDITION                  | TEAM-EDITION                  |
-| -------- | ----------------------------- | ----------------------------- |
+| -------- |:-----------------------------: |:-----------------------------: |
 | Windows  | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | macOS    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Linux    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
