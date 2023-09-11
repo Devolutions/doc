@@ -13,24 +13,10 @@ eleventyComputed:
 
 {{ en.RDM }} comes in two editions: 
 
-<table>
-	<tr>
-		<td>
-Free 
-		</td>
-		<td>
-For individuals only, no information can be shared with colleagues. The most popular remote access technologies are supported and passwords can be stored securely. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Team 
-		</td>
-		<td>
-Used by teams, this edition offers permissions, user groups, advanced logging, etc. {{ en.RDM }} uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for either Cloud-Based storage or to get full Active Directory Integration. 
-		</td>
-	</tr>
-</table>
+|      |     |
+| ---- | --- |
+| Free {width=75px}| For individuals only, no information can be shared with colleagues. The most popular remote access technologies are supported and passwords can be stored securely. |
+| Team | Used by teams, this edition offers user permissions, user groups, advanced logging, etc. {{ en.RDM }} uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for Cloud-Based storage or to get full Active Directory Integration. |  
 
 {{ en.RDM }} is also offered on multiple platforms, as seen below. 
 
@@ -42,72 +28,10 @@ Purchasing a Team license grants the right to use ALL the various client applica
 You must use a desktop application to create a team data source. This explains why the mobile applications are free. They do allow for simple usage by an individual much like the Free Edition, but they can only use, not manage, a Team data source. 
 {% endsnippet %}
  
-<table>
-	<tr>
-		<th>
-PLATFORM 
-		</th>
-		<th>
-FREE EDITION 
-		</th>
-		<th>
-TEAM EDITION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Windows 
-		</td>
-		<td>
-
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.MAC }} 
-		</td>
-		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Linux 
-		</td>
-		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-iOS 
-		</td>
-		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Android 
-		</td>
-		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-	</tr>
-</table>
+| PLATFORM | FREE EDITION                   | TEAM EDITION                   |
+| -------- |:-----------------------------: |:-----------------------------: |
+| Windows  | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| {{ en.MAC }}    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Linux    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| iOS      | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Android  | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
