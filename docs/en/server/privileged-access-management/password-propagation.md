@@ -3,7 +3,7 @@ title: Password propagation
 keyword: 
 - propagation
 ---
-***Password Propagation*** allows privileged accounts passwords reset to be propagated to remote servers services. This topic covers <a href="#propagation-by-script">Propagation by script</a> and <a href="#azure-directory-specific-propagation">Azure Directory specific propagation</a>.
+***Password Propagation*** allows privileged accounts passwords reset to be propagated to remote servers services. This topic covers <a href="#propagation-by-script">Propagation by script</a> and <a href="#active-directory-specific-propagation">Active Directory specific propagation</a>.
 
 ## Propagation by script
 The following sections describe the properties of the ***Propagation*** by script feature within the Privileged Access Management solution. The <a href="#steps-with-template">Steps</a> section explains how to set up this feature by using a Devolutions template, but it is also possible to <a href="#create-a-powershell-template">Create a template</a>.
@@ -83,7 +83,7 @@ This method covers all PAM account providers.
    Learn more about custom scripts for this feature by visiting our [public GitHub](https://github.com/Devolutions/PAM-Providers/blob/master/Propagation-Scripts/Create-A-Template.md).
    {% endsnippet %}
 
-## Azure Directory specific propagation
+## Active Directory specific propagation
 {% snippet icon.badgeNotice %}
 The WinRM must be properly configured as described in [WinRM and Trusted Hosts List](/kb/devolutions-server/how-to-articles/winrm-trustedhostslist/) article.
 {% endsnippet %}
@@ -91,7 +91,7 @@ The WinRM must be properly configured as described in [WinRM and Trusted Hosts L
 This ***Password Propagation*** feature is only available for Domain accounts.
 {% endsnippet %}
 
-The following section describes the properties of the Azure Directory ***Password Propagation*** feature within the Privileged Access Management solution.
+The following section describes the properties of the Active Directory ***Password Propagation*** feature within the Privileged Access Management solution.
 
 ![Password Propagation](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8174.png) 
 
