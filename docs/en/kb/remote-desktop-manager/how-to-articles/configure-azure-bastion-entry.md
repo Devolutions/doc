@@ -86,4 +86,79 @@ With Azure Bastion now configured, you can now configure {{ en.RDM }} to connect
 
 1. With details in hand, open {{ en.RDM }} and navigate to where you want your Azure Bastion entry to be.
 
-1. 
+1. In the Ribbon, go to the ***Edit*** tab and click on the "+" symbol to add a new entry.
+
+![]()
+
+1. Under the ***VPN/Tunnel/Gateway*** entry types, select ***Azure Bastion*** and click ***OK***.
+
+![]()
+
+1. ***Name*** your entry.
+
+1. In the ***General*** sub-tab, enter the information located in step 1 for the ***Host***, ***Subscription ID***, ***Resource Group***, and ***Tenant ID***.
+
+1. Select an ***Azure cloud*** in the corresponding drop-down list. The ***Default*** value is Azure Public Cloud.
+
+1. Select a Connection mode in the corresponding drop-down list. Choose between:
+   * RD Gateway: Uses an RDP connection file in the background for faster performance.
+   * TCP Tunnel: Allows unique port numbers but offers lower performance. Only available with the Standard tier.
+
+1. Open the ***Authentication*** sub-tab and select the appropriate value.
+   * Use "My Account Settings": Takes your credentials from ***File – My Account Settings***.
+   * Use my current PowerShell login: Takes the current login context from Azure PowerShell (`Connect-AzAccount`).
+   * Use my current Azure CLI login: Takes the current login context from Az CLI (`az login`).
+   * Prompt for credentials: Prompts with an interactive login to authenticate via a web browser pop-up window. You can optionally provide the username as a login hint. The access token will be cached for subsequent connections in the same user session.  
+   In the example below, the connection is set to prompt with an Azure login screen and an optional login hint is provided to select the right account.
+
+![]()
+
+1. Click ***OK*** to save the entry.
+
+1. In the Ribbon, go to the ***Edit*** tab and click on the "+" symbol to add a new entry.
+
+![]()
+
+1. Under the ***Session*** entry types, select ***RDP (Microsoft Remote Desktop)*** and click ***OK***.
+
+![]()
+
+1. ***Name*** your entry.
+
+1. In the ***General*** tab, enter the VM name that is within Azure in the ***Host*** field.
+
+1. Enter the VM ***Username*** and ***Password*** to log in to the VM itself.
+
+   {% snippet icon.badgeInfo %}
+   This VM is not yet domain-joined, so the domain field is left empty.
+   {% endsnippet %}  
+
+   ![]()
+
+1. In the left menu, navigate to the RDP connection's ***VPN/Tunnel/Gateway*** screen.
+
+1. In the ***VPN/Tunnel/Gateway*** tab, under ***General***, select ***Always connect*** in the ***Connect*** drop-down list.
+
+1. In the ***Type*** drop-down list, select ***Azure Bastion***. 
+
+1. Click the ellipsis button next to the ***Type*** option.
+
+![]()
+
+1. Choose ***Existing*** in the left menu, then find the existing pre-created Azure Bastion entry.
+
+![]()
+
+1. Click ***OK*** twice to close the connection editing windows.
+
+1. Launch a connection to the newly added VM, displaying a Microsoft Azure sign-in prompt. Enter your Azure credentials to open the Azure Bastion connection and connect to the requested VM.
+
+![]()
+
+Your connection should now be open.
+
+{% snippet icon.badgeWarning %}
+If you see the below error message within {{ en.RDM }}, then you have not upgraded to the correct tier.
+
+The Azure Bastion does not support native client connections (SKU: Basic Native Client: False).
+{% endsnippet %}  
