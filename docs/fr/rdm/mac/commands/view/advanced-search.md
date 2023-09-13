@@ -51,7 +51,6 @@ Vous pouvez choisir entre plusieurs différents critères pour affiner votre rec
 * MAC 
 * Logiciel 
 
-*La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 		</td>
 	</tr>
 	<tr>

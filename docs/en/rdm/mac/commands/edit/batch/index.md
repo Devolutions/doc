@@ -131,12 +131,3 @@ Edit Sessions Session Type Settings is only available for specific session types
 
 User Specific Settings can be modified in a batch if they are supported by the session type.  
 ![Batch Edit - User Specific settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10349.png) 
-
-### Edit Sessions (Security Group Legacy) 
-
-{% snippet icon.badgeWarning %}
-Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
-{% endsnippet %}  
-
-Use the Edit Sessions (Security Group Legacy) option to apply a new security group on multiple sessions.  
-![Batch Edit - Security Group](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10032.png) 

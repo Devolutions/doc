@@ -192,14 +192,6 @@ Allow users/user groups to access the user management.
 	</tr>
 	<tr>
 		<td>
-Security Group (Legacy)
-		</td>
-		<td>
-Allow users/user groups to access the security groups management.  
-Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See <a href="/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/" target="_blank">Migrate from security groups (legacy) to user groups</a>.
-	</tr>
-	<tr>
-		<td>
 User Groups 
 		</td>
 		<td>

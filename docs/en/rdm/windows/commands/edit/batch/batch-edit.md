@@ -46,14 +46,6 @@ You can modify the ***General Settings*** of the entries by going through the di
 You can modify the ***Session Type Settings*** of the entries, which are settings available only for specific session types, such as Microsoft RDP, by going through the different tabs.  
 ![Batch Edit – Edit Entries (Session Type Settings)](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2106.png) 
 
-### Edit Entries (Security Group Legacy) 
-
-{% snippet icon.badgeWarning %}
-Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See <a href="/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/" target="_blank">Migrate from security groups (legacy) to user groups</a>.
-{% endsnippet %}  
-
-![Batch Edit – Edit Entries (Security Group Legacy)](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2107.png) 
-
 ### Edit Entries (Asset) 
 
 You can modify the ***Asset*** settings of the entries by going through the different tabs.  

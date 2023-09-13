@@ -7,13 +7,9 @@ Les sources de données avancées augmentent considérablement l'ensemble des fo
 
 * Téléchargement de documents et pièces jointes des entrées 
 * Audit et journalisation 
-* Sécurité avancée avec la [Gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/) et les [Groupes de sécurité (Ancien)](/fr/rdm/mac/commands/administration/security-group-management/) 
+* Sécurité avancée avec la [Gestion des utilisateurs](/fr/rdm/mac/commands/administration/user-management/).
 * [Mode hors ligne](/fr/rdm/mac/commands/file/go-offline/) 
-* [Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/) 
-
-{% snippet icon.badgeWarning %}
-La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
-{% endsnippet %}  
+* [Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-authentication/)
 
 Actuellement, les sources de données avancées sont les suivantes : 
 

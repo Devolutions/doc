@@ -21,12 +21,10 @@ Le seul format approprié pour réimporter les entrées dans {{ fr.RDM }} est le
 ![Fichier - Exporter](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4028.png) 
 
 {% snippet icon.badgeInfo %}
-Lorsque vous utilisez une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), les capacités d'exportation peuvent être désactivées via des politiques de sécurité au niveau de la source de données (personne ne peut exporter) ou au niveau de l'utilisateur (certains utilisateurs ne peuvent pas exporter). Voir gestion des [Groupes de sécurité (Ancien)](/fr/rdm/mac/commands/administration/security-group-management/) pour plus d'informations. 
+Lorsque vous utilisez une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), les capacités d'exportation peuvent être désactivées via des politiques de sécurité au niveau de la source de données (personne ne peut exporter) ou au niveau de l'utilisateur (certains utilisateurs ne peuvent pas exporter).
 {% endsnippet %}
 
-{% snippet icon.badgeWarning %}
-La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
-{% endsnippet %}  
+
  
 ### Exporter tout (.rdm) 
 

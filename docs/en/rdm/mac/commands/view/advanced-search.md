@@ -40,7 +40,6 @@ You can select multiple different criteria at once to tweak your search:
 * Name 
 * OS 
 * Password strength 
-* Security group (legacy)*
 * Serial Number 
 * Server role 
 * Status 
@@ -51,7 +50,6 @@ You can select multiple different criteria at once to tweak your search:
 * MAC 
 * Software
 
-*Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 		</td>
 	</tr>
 	<tr>

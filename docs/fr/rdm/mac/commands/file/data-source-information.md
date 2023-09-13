@@ -37,11 +37,6 @@ L'onglet ***Entrées*** affichera les droits d'utilisateur sur les sessions tels
 * Exporter des entrées 
 * Permettre l'ajout d'entrées dans le dossier racine 
 
-### Groupes de sécurité (Ancien) 
-
-L'onglet ***Groupes de sécurité (Ancien)*** affiche les droits de l'utilisateur sur quels groupes de sécurité.  
-![Informations de la source de données - Groupes de sécurité (Ancien)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4019.png) 
-
 ### Rôles 
 L'onglet ***Rôles*** affiche les rôles dont l'utilisateur est membre et les droits associés à ces rôles.  
 ![Informations de la source de données - Rôles](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4020.png) 

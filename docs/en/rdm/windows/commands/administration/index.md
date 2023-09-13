@@ -35,15 +35,7 @@ Opens the [User Management](/rdm/windows/commands/administration/management/user
 	</tr>
 	<tr>
 		<td>
-Security Groups (Legacy) 
-		</td>
-		<td>
-Legacy security and security groups have been deprecated and will be completely removed starting with version 2023.3 of {{ en.RDM }}. See [Migrate from security groups to user groups](/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.VLT }} s 
+{{ en.VLT }}s 
 		</td>
 		<td>
 Opens the {{ en.VLT }} Management tab of User Management. 
