@@ -27,7 +27,7 @@ Before creating entries in {{ en.RDM }}, some steps are required for provisionin
    ![Bastion – Deploy Bastion](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2275.png)
 
    {% snippet icon.badgeInfo %}
-   If there is no existing subnet with enough space, then Bastion only shows the ***Configure manually*** button and prompts for the subnet creation. In the image below, subnet `172.16.2.0/64` was provided, and the ***Deploy Bastion*** button becomes enabled once the subnet is added.
+   If there is no existing subnet with enough space, then Bastion only shows the ***Configure manually*** button and prompts for the subnet creation. In the image below, subnet `172.16.2.0/24` was provided, and the ***Deploy Bastion*** button becomes enabled once the subnet is added.
    {% endsnippet %}  
 
    {% snippet icon.badgeInfo %}
