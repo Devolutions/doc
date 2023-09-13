@@ -3,11 +3,17 @@ eleventyComputed:
   title: Configure an Azure Bastion entry in {{ en.RDM }}
   description: '{{ en.RDM }} allows seamless connection to Azure Bastion instances through a VPN/Tunnel/Gateway entry either per connection or shared amongst many.'
 ---
-Microsoft Azure Bastion is a managed service providing both RDP and SSH access to Azure virtual machines (VMs) without their public IP exposure. An hourly billed service, Azure Bastion is tied to a specific Azure Virtual Network, allowing access to all VMs contained within.
+Microsoft Azure Bastion is a comprehensive, fully managed service providing both Remote Desktop Protocol (RDP) and Secure Shell Protocol (SSH) access to Azure virtual machines (VMs) without their public IP exposure. An hourly billed service, Azure Bastion is tied to a specific Azure Virtual Network, allowing access to all VMs contained within.
+
+{% snippet icon.badgeInfo %}
+Azure Bastion is compatible with the latest versions (2023.1.x and later) of Remote Desktop Manager.
+{% endsnippet %}  
 
 {{ en.RDM }} allows seamless connection to Azure Bastion instances through a VPN/Tunnel/Gateway entry either per connection or shared amongst many. Once Azure Bastion is provisioned, add the necessary details to {{ en.RDM }}, authenticate to Azure, and connect to any VMs within the given Azure virtual network.
 
 ## Provisioning Azure Bastion for an Azure Virtual Network
+
+Before creating entries in {{ en.RDM }}, some steps are required for provisioning in your Azure Portal.
 
 1. Open your [Microsoft Azure Portal](https://azure.microsoft.com/en-us/) and sign in to your account.
 1. Select ***Virtual Networks*** in the ***Azure services*** section. If you do not see it, click on ***More services*** to make other services appear.
@@ -68,6 +74,12 @@ Microsoft Azure Bastion is a managed service providing both RDP and SSH access t
 
 With Azure Bastion now configured, you can now configure {{ en.RDM }} to connect to VMs behind Azure Bastion. 
 
+{% snippet icon.badgeInfo %}
+The steps below show the creation of an external Azure Bastion VPN entry that is then linked to a RDP/SSH session entry. This is useful if you plan to use the Azure Bastion entry with multiple session entries. 
+
+However, if you plan on using only one session entry with it, you can set up the Azure Bastion configuration directly in that session's properties, under the ***VPN/Tunnel/Gateway*** section in the left menu. Still, you should follow the steps below, as the configuration and information to provide remains the same.
+{% endsnippet %}  
+
 1. Before connecting, locate the following property details:
 
    * ***Host***
@@ -100,15 +112,15 @@ With Azure Bastion now configured, you can now configure {{ en.RDM }} to connect
 
 1. Select an ***Azure cloud*** in the corresponding drop-down list. The ***Default*** value is Azure Public Cloud.
 
-1. Select a Connection mode in the corresponding drop-down list. Choose between:
-   * RD Gateway: Uses an RDP connection file in the background for faster performance.
-   * TCP Tunnel: Allows unique port numbers but offers lower performance. Only available with the Standard tier.
+1. Select a ***Connection mode*** in the corresponding drop-down list. Choose between:
+   * ***RD Gateway***: Retrives an RDP connection file from the Bastion and uses it in the background for faster performance. Supports RDP session entries only.
+   * ***TCP Tunnel***: Allows unique port numbers but offers lower performance. Only available with the Standard tier. Supports non-standard ports and SSH entries. This mode mirrors the functionality of the ***az cli Bastion tunnel command***.
 
-1. Open the ***Authentication*** sub-tab and select the appropriate value.
-   * Use "My Account Settings": Takes your credentials from ***File – My Account Settings***.
-   * Use my current PowerShell login: Takes the current login context from Azure PowerShell (`Connect-AzAccount`).
-   * Use my current Azure CLI login: Takes the current login context from Az CLI (`az login`).
-   * Prompt for credentials: Prompts with an interactive login to authenticate via a web browser pop-up window. You can optionally provide the username as a login hint. The access token will be cached for subsequent connections in the same user session.  
+1. Open the ***Authentication*** sub-tab and select the appropriate value:
+   * ***Use "My Account Settings"***: Takes your credentials from ***File – My Account Settings***.
+   * ***Use my current PowerShell login***: Takes the current login context from Azure PowerShell (`Connect-AzAccount`).
+   * ***Use my current Azure CLI login***: Takes the current login context from Az CLI (`az login`).
+   * ***Prompt for credentials***: Prompts with an interactive login to authenticate via a web browser pop-up window. You can optionally provide the username as a login hint. The access token will be cached for subsequent connections in the same user session.  
    In the example below, the connection is set to prompt with an Azure login screen and an optional login hint is provided to select the right account.
 
 ![]()
@@ -139,7 +151,11 @@ With Azure Bastion now configured, you can now configure {{ en.RDM }} to connect
 
 1. In the ***VPN/Tunnel/Gateway*** tab, under ***General***, select ***Always connect*** in the ***Connect*** drop-down list.
 
+![]()
+
 1. In the ***Type*** drop-down list, select ***Azure Bastion***. 
+
+![]()
 
 1. Click the ellipsis button next to the ***Type*** option.
 
@@ -151,7 +167,9 @@ With Azure Bastion now configured, you can now configure {{ en.RDM }} to connect
 
 1. Click ***OK*** twice to close the connection editing windows.
 
-1. Launch a connection to the newly added VM, displaying a Microsoft Azure sign-in prompt. Enter your Azure credentials to open the Azure Bastion connection and connect to the requested VM.
+1. Launch a connection to the newly added VM. 
+
+   For interactive authentication, and particularly if your credentials are not yet cached, you will encounter a Microsoft sign-in prompt to authenticate against the Azure portal. Enter your Azure credentials to open the Azure Bastion connection and connect to the requested VM.
 
 ![]()
 
