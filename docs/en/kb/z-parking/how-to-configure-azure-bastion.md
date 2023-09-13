@@ -3,7 +3,6 @@ eleventyComputed:
   title: Configure Azure Bastion
   description: How to configure Azure Bastion in Remote Desktop Manager
 ---
-
 Azure Bastion is a comprehensive, fully managed service that provides enhanced security and effortless Remote Desktop Protocol (RDP) and Secure Shell Protocol (SSH) access to virtual machines (VMs), while ensuring that they remain shielded from public IP address exposure.
 
 Azure Bastion is compatible with the latest versions (2023.1.x) of {{de.RDM }}. The integration is based on two requirements: the Bastion host must be in ***standard SKU***, and the ***native client support feature*** must be enabled. These requirements are necessary to use Bastion from a native client. 
@@ -30,8 +29,3 @@ Lastly, please examine the authentication settings carefully. You have the optio
 Upon initiating your RDP connection to the virtual machine, the initial step involves {{ en.RDM }} establishing a connection to the VPN (Azure Bastion). 
 
 For interactive authentication, and particularly if your credentials are not yet cached, you will encounter a prompt to authenticate against the Azure portal. Once the Bastion connection has been successfully established, the RDP session will commence.
-
-
-
-
-

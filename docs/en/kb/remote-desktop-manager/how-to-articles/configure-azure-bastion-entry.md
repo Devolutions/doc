@@ -18,21 +18,17 @@ Before creating entries in {{ en.RDM }}, some steps are required for provisionin
 1. Open your [Microsoft Azure Portal](https://azure.microsoft.com/en-us/) and sign in to your account.
 1. Select ***Virtual Networks*** in the ***Azure services*** section. If you do not see it, click on ***More services*** to make other services appear.
 
-![]()
+   ![Azure services – Virtual networks](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2274.png)
 
-1. Choose a specific virtual network to add Bastion to (or create one).
+1. Click on a specific virtual network to add Bastion to (or create one).
 
-![]()
+1. In the left menu, go to the ***Bastion*** pane to open the details, then click the ***Deploy Bastion*** button to start the process. 
 
-1. In the left menu, click the ***Bastion*** pane to open the details.
+   ![Bastion – Deploy Bastion](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2275.png)
 
-    {% snippet icon.badgeInfo %}
-   If there is no existing subnet with enough space, then Bastion will only show the ***Configure manually*** button and prompt for the subnet creation. In the image below, subnet `172.16.2.0/64` was provided, and the ***Deploy Bastion*** button becomes enabled once the subnet is added.
+   {% snippet icon.badgeInfo %}
+   If there is no existing subnet with enough space, then Bastion only shows the ***Configure manually*** button and prompts for the subnet creation. In the image below, subnet `172.16.2.0/64` was provided, and the ***Deploy Bastion*** button becomes enabled once the subnet is added.
    {% endsnippet %}  
-
-![]()
-
-1. Click the ***Deploy Bastion*** button to start the process. 
 
    {% snippet icon.badgeInfo %}
    This is a multi-step process, which can take 10 minutes or more to complete. 
@@ -46,11 +42,11 @@ Before creating entries in {{ en.RDM }}, some steps are required for provisionin
 
 1. Select an available VM to connect to.
 
-![]()
+   ![Select a VM to connect to](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2276.png)
 
 1. Enter appropriate local VM credentials under ***Connection Settings***.
 
-![]()
+   ![Connection Settings](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2277.png)
 
 1. Click on ***Connect***. Once connected, a new browser tab opens and shows the connection.
 
@@ -63,6 +59,8 @@ Before creating entries in {{ en.RDM }}, some steps are required for provisionin
    {% snippet icon.badgeInfo %}
    By default, Azure Bastion provisions the ***Basic*** tier, which does not allow for Native Client Support, which {{ en.RDM }} relies on.
    {% endsnippet %}  
+
+   ![Standard tier and Native client support enabled](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2278.png)
 
 1. Save the configuration and allow time to complete the upgrade and feature changes.
 
@@ -83,9 +81,9 @@ However, if you plan on using only one session entry with it, you can set up the
 1. Before connecting, locate the following property details:
 
    * ***Host***
-   * ***Subscription ID***: It is assumed to be the same as the Azure Bastion Host, in which case it can be omitted.
-   * ***Resource Group***: It is assumed to be the same as the Azure Bastion Host, in which case it can be omitted.
-   * ***Tenant ID***: It is only needed if it is not the default tenant for the Azure user.
+   * ***Subscription ID*** (assumed to be the same as the Azure Bastion Host, in which case it can be omitted)
+   * ***Resource Group*** (assumed to be the same as the Azure Bastion Host, in which case it can be omitted)
+   * ***Tenant ID*** (only needed if it is not the default tenant for the Azure user)
 
    For more information, see this table:
 
@@ -100,21 +98,23 @@ However, if you plan on using only one session entry with it, you can set up the
 
 1. In the Ribbon, go to the ***Edit*** tab and click on the "+" symbol to add a new entry.
 
-![]()
+   ![Edit – New Entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2279.png)
 
 1. Under the ***VPN/Tunnel/Gateway*** entry types, select ***Azure Bastion*** and click ***OK***.
 
-![]()
+   ![Azure Bastion entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2280.png)
 
 1. ***Name*** your entry.
 
 1. In the ***General*** sub-tab, enter the information located in step 1 for the ***Host***, ***Subscription ID***, ***Resource Group***, and ***Tenant ID***.
 
-1. Select an ***Azure cloud*** in the corresponding drop-down list. The ***Default*** value is Azure Public Cloud.
+1. Select an ***Azure cloud*** in the corresponding drop-down list. The ***Default*** value corresponds to Azure Public Cloud.
 
 1. Select a ***Connection mode*** in the corresponding drop-down list. Choose between:
    * ***RD Gateway***: Retrives an RDP connection file from the Bastion and uses it in the background for faster performance. Supports RDP session entries only.
    * ***TCP Tunnel***: Allows unique port numbers but offers lower performance. Only available with the Standard tier. Supports non-standard ports and SSH entries. This mode mirrors the functionality of the ***az cli Bastion tunnel command***.
+
+   ![General Azure Bastion information](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2281.png)
 
 1. Open the ***Authentication*** sub-tab and select the appropriate value:
    * ***Use "My Account Settings"***: Takes your credentials from ***File – My Account Settings***.
@@ -123,17 +123,17 @@ However, if you plan on using only one session entry with it, you can set up the
    * ***Prompt for credentials***: Prompts with an interactive login to authenticate via a web browser pop-up window. You can optionally provide the username as a login hint. The access token will be cached for subsequent connections in the same user session.  
    In the example below, the connection is set to prompt with an Azure login screen and an optional login hint is provided to select the right account.
 
-![]()
+   ![Authentication Azure Bastion information](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2282.png)
 
 1. Click ***OK*** to save the entry.
 
-1. In the Ribbon, go to the ***Edit*** tab and click on the "+" symbol to add a new entry.
+1. In the Ribbon, go to the ***Edit*** tab and click on the "+" symbol again to add another entry.
 
-![]()
+   ![Edit – New Entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2279.png)
 
-1. Under the ***Session*** entry types, select ***RDP (Microsoft Remote Desktop)*** and click ***OK***.
+1. Under the ***Session*** entry types, select either ***RDP (Microsoft Remote Desktop)*** or ***SSH Shell*** and click ***OK***. For this example, an RDP session entry has been used.
 
-![]()
+   ![RDP (Microsoft Remote Desktop) or SSH Shell entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2283.png)
 
 1. ***Name*** your entry.
 
@@ -145,25 +145,25 @@ However, if you plan on using only one session entry with it, you can set up the
    This VM is not yet domain-joined, so the domain field is left empty.
    {% endsnippet %}  
 
-   ![]()
+   ![General RDP information](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2284.png)
 
 1. In the left menu, navigate to the RDP connection's ***VPN/Tunnel/Gateway*** screen.
 
 1. In the ***VPN/Tunnel/Gateway*** tab, under ***General***, select ***Always connect*** in the ***Connect*** drop-down list.
 
-![]()
+   ![Always connect](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2285.png)
 
 1. In the ***Type*** drop-down list, select ***Azure Bastion***. 
 
-![]()
+   ![Azure Bastion type](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2286.png)
 
 1. Click the ellipsis button next to the ***Type*** option.
 
-![]()
+   ![Ellipsis button](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2287.png)
 
 1. Choose ***Existing*** in the left menu, then find the existing pre-created Azure Bastion entry.
 
-![]()
+   ![Existing Azure Bastion entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2288.png)
 
 1. Click ***OK*** twice to close the connection editing windows.
 
@@ -171,12 +171,10 @@ However, if you plan on using only one session entry with it, you can set up the
 
    For interactive authentication, and particularly if your credentials are not yet cached, you will encounter a Microsoft sign-in prompt to authenticate against the Azure portal. Enter your Azure credentials to open the Azure Bastion connection and connect to the requested VM.
 
-![]()
+   ![Microsoft sign-in prompt](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2289.png)
 
 Your connection should now be open.
 
 {% snippet icon.badgeWarning %}
-If you see the below error message within {{ en.RDM }}, then you have not upgraded to the correct tier.
-
-The Azure Bastion does not support native client connections (SKU: Basic Native Client: False).
+You may encounter this error message within {{ en.RDM }}: ***The Azure Bastion does not support native client connections (SKU: Basic Native Client: False)***. It means that you have not upgraded to the correct tier.
 {% endsnippet %}  
