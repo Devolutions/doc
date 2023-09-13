@@ -16,6 +16,10 @@ Si vous possédez plusieurs licences, notre équipe des [Ventes](mailto:sales@de
 Cette étape attribuera automatiquement la licence aux utilisateurs sélectionnés, supprimant ainsi le besoin d'interagir avec chaque utilisateur. 
 {% endsnippet %}
  
+{% snippet icon.badgeInfo %}
+L'attribution automatique de licences aux utilisateurs ne fonctionne pas avec une source de données Hub puisque vous serez redirigé vers l'interface Web après avoir cliqué sur ***Licences***. Cette fonctionnalité n'est pas disponible dans l'interface Web de Hub.
+{% endsnippet %}  
+
 ![Licence](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4011.png) 
 4. Cliquer sur ***OK*** pour enregistrer. 
 

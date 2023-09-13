@@ -16,6 +16,10 @@ If you have more than one license, our [Sales team](mailto:sales@devolutions.net
 {% snippet icon.badgeNotice %} 
 This step will automatically assign the license to the selected users, removing the need to interact with each user. 
 {% endsnippet %}
+
+{% snippet icon.badgeInfo %}
+Automatically assigning licenses to users does not work with a Hub data source since you'll be redirected to the Web interface after clicking ***Licenses***. This feature is also not available in the Hub web interface.
+{% endsnippet %}  
  
 ![License](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4012.png)  
 

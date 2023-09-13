@@ -17,6 +17,10 @@ If you have more than one license, our [Sales team](mailto:sales@devolutions.net
 This step will automatically assign the license to the selected users, removing the need to interact with each user. 
 {% endsnippet %}
  
+{% snippet icon.badgeInfo %}
+Automatically assigning licenses to users does not work with a Hub data source since you'll be redirected to the Web interface after clicking ***Licenses***. This feature is also not available in the Hub web interface.
+{% endsnippet %}  
+ 
 ![License](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4048.png) 
 
 A warning window will open if you click ***Clear All*** and forget to assign the license to a user. Note that you can always go back to the ***Assign Licenses icon*** to assign the license. 
