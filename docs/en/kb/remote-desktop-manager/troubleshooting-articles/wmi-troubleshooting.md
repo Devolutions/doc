@@ -36,7 +36,7 @@ Below is an example with other credentials:
 
 `wmic /NODE:"ComputerName" /user:"username" /password:"password" bios get serialnumber`
 ## Problem 4
-Load from inventory does not work. Error getting Bios information.
+Load from System Information does not work. Error getting Bios information.
 ### Solution
 This error can have several origins. Please validate the following:  
 
