@@ -32,8 +32,8 @@ In the permission settings, you can set how the permissions are applied to the u
 
 Next, you can select the permissions that are affected by your previous choices. You can either display ***All Permissions*** or previously created (or default) ***Permission Sets***.
 
-{% snippet icon.badgeInfo %} 
-Permission sets are created and configured in ***Administration – System Settings – {{ en.VLT }} Management – Permission Sets***.
+{% snippet icon.badgeHelp %} 
+Permission sets are created and configured in ***Administration – System Settings – {{ en.VLT }} Management – Permission Sets***. For more information, see [Permission Sets](/server/web-interface/administration/configuration/system-settings/vault-management/permission-sets/).
 {% endsnippet %}
 
 ![Permission Settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2073.png)
