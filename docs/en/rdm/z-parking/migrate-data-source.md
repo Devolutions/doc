@@ -1,6 +1,6 @@
 ---
 eleventyCompupted:
-  title:  Migrate Data Source
+  title: Migrate Data Source
   description:
 ---
 
