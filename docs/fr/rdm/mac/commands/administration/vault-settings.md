@@ -1,5 +1,6 @@
 ---
-title: Paramètres du {{ fr.VLT }}
+eleventyComputed:
+  title: Paramètres du {{ fr.VLT }}
 ---
 Les ***Paramètres du {{ fr.VLT }}*** servent de couche de sécurité supplémentaire qui peut être ajoutée à votre dossier racine.  
 ![Administration - Paramètres du {{ fr.VLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4144.png) 
