@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Im {{ de.RDM }} vom veralteten Sicherheitssystem zu Berechtigungen wechseln
+  title: Deaktivieren Sie das alte Sicherheitssystem in {{ de.RDM }}
 ---
 {% snippet icon.badgeWarning %}
 Sicherheitsgruppen sind ab der Version 2023.3 von {{ de.RDM }} veraltet.

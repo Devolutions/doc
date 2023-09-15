@@ -91,7 +91,7 @@ L'ancienne sécurité a été dépréciée et sera complètement supprimée à p
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans <i><b>Administration – Paramètres système – Gestion des {{ fr.VLT }}s – Paramètres de sécurité – Sécurité</b></i>, désactiver <i><b>Utiliser l'ancienne sécurité</b></i>. Voir <a href="/fr/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Migration de l'ancienne sécurité vers les permissions dans {{ fr.RDM }}</a>.
+Dans <i><b>Administration – Paramètres système – Gestion des {{ fr.VLT }}s – Paramètres de sécurité – Sécurité</b></i>, désactiver <i><b>Utiliser l'ancienne sécurité</b></i>. Voir <a href="/fr/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Désactiver l'ancienne sécurité dans {{ fr.RDM }}</a>.
 		</td>
 	</tr>
 </table>
