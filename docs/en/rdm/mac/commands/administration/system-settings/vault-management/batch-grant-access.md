@@ -7,10 +7,10 @@ The ***Batch Grant Access*** feature allows you to assign permissions and permis
 
 ## Location
 
-***Batch Grant Access*** can be found in the properties of entries, folders, and {{ en.VLT }}s under ***Security – Permissions – Permissions tab***. Set the permissions to ***Custom***, then click ***Grant Access***.
+***Batch Grant Access*** can be found in the properties of entries, folders, and {{ en.VLT }}s under ***Security – Permissions – Permissions tab***. Set the permissions to ***Custom***, then click ***Grant Permission***.
 
 It can also be accessed via ***Administration***:
-1. In {{ en.RDMW }}, go to ***Administration – System Settings – {{ en.VLT }} Management***.
+1. In {{ en.RDM }}, go to ***Administration – System Settings – {{ en.VLT }} Management***.
 1. Under ***Default Permissions***, select ***Custom*** in the ***Permission*** drop-down menu.
 1. Click on ***Grant Access***.
 
