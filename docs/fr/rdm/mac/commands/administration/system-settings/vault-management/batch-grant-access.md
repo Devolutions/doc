@@ -7,7 +7,7 @@ La fonctionnalité ***Accorder l'accès en lot*** permet de définir des permiss
 
 ## Emplacement
 
-***Accorder l'accès en lot*** se trouve dans les propriétés des entrées, dossiers et {{ fr.VLT }}s sous ***Sécurité – Permissions – onglt Permissions***. Définissez les permissions à ***Personnalisé***, puis cliquez sur ***Accorder l'accès***.
+***Accorder l'accès en lot*** se trouve dans les propriétés des entrées, dossiers et {{ fr.VLT }}s sous ***Sécurité – Permissions – onglet Permissions***. Définissez les permissions à ***Personnalisé***, puis cliquez sur ***Accorder permission***.
 
 On peut également y accéder par le menu ***Administration*** :
 1. Dans {{ fr.RDM }}, aller dans ***Administration – Paramètres système – Gestion des {{ fr.VLT }}s***.
