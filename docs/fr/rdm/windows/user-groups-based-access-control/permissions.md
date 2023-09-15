@@ -36,7 +36,7 @@ Définir le mode d'***Autorisation***. Choisir entre :
 Accorder l'accès 
 		</td>
 		<td>
-Permets l'[accès en lot](/fr/rdm/mac/commands/administration/system-settings/vault-management/batch-grant-access) et la modification en lot à une ou plusieurs entrées spécifiques. 
+Permets l'[accès en lot](/fr/rdm/windows/commands/administration/settings/system-settings/vault-management/batch-grant-access) et la modification en lot à une ou plusieurs entrées spécifiques. 
 		</td>
 	</tr>
 	<tr>
