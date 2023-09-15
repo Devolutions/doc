@@ -1,8 +1,9 @@
 ---
 title: SQL Server database migration best practices
+description: To migrate the contents of your on-premises SQL Server database, we suggest you follow the steps of the respective solutions.
 status: Topic available in German language
 ---
-To migrate the content of your on-premises SQL Server database to cloud or vice versa, we suggest you follow the recommended best practices detailed below.  
+To migrate the contents of your on-premises SQL Server database, we suggest you follow the steps of the respective solutions below.  
 
 Two tools are available: you can choose between the <a href="#dma">Data Migration Assistant</a> (DMA) from Microsoft or the <a href="#ssms">Microsoft SQL Server Management Studio</a> (SSMS).  
 
@@ -21,45 +22,45 @@ We strongly suggest you clean up your database prior to the move.
 1. Select the ***Source*** of your ***server type*** and the ***Target*** of your ***server type*** from the drop-down menu and leave the ***Migration scope*** to ***Schema and data***. Click ***Create***.  
 ![!!KB4728](https://webdevolutions.azureedge.net/docs/en/kb/KB4728.png)  
 
-6. Enter the local ***Server name*** and choose an ***Authentication type***.  
-{% snippet icon.badgeInfo %}
-Make sure you have sufficient rights and permission to perform this action.
-{% endsnippet %}  
+1. Enter the local ***Server name*** and choose an ***Authentication type***.  
+   {% snippet icon.badgeInfo %}
+   Make sure you have sufficient rights and permission to perform this action.
+   {% endsnippet %}  
 
-7. Click ***Connect***.
+1. Click ***Connect***.
 1. Choose your database in the selection loaded and click ***Next***.  
 ![!!KB4729](https://webdevolutions.azureedge.net/docs/en/kb/KB4729.png)
 1. Enter the target ***Server name*** and choose an ***Authentication type***.  
-{% snippet icon.badgeInfo %}
-Make sure you have sufficient rights and permission to perform this action.
-{% endsnippet %}  
+   {% snippet icon.badgeInfo %}
+   Make sure you have sufficient rights and permission to perform this action.
+   {% endsnippet %}  
 
-10. Click ***Connect***.
+1. Click ***Connect***.
 1. Choose your database in the selection loaded and click ***Next***.  
-{% snippet icon.badgeCaution %}
-Your new database must have already been [created](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart) to appear in this list.
-{% endsnippet %}  
+   {% snippet icon.badgeCaution %}
+   Your new database must have already been [created](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart) to appear in this list.
+   {% endsnippet %}  
 
-![!!KB4730](https://webdevolutions.azureedge.net/docs/en/kb/KB4730.png)
+   ![!!KB4730](https://webdevolutions.azureedge.net/docs/en/kb/KB4730.png)
 
-12. Validate if you have issues by scrolling down the schema objects list on the left. You can click on an item for more detail on the specific issue and if a fix is available.  
-{% snippet icon.badgeCaution %}
-The user accounts with the error Windows users can be converted to external users in Azure SQL Database needs to be deselected from the list for the migration to work.  
+1. Validate if you have issues by scrolling down the schema objects list on the left. You can click on an item for more detail on the specific issue and if a fix is available.  
+   {% snippet icon.badgeCaution %}
+   The user accounts with the error Windows users can be converted to external users in Azure SQL Database needs to be deselected from the list for the migration to work.  
 
-Those specific users will need to [export](/kb/remote-desktop-manager/how-to-articles/export-import-entries/) their ***{{ en.UVLT }}*** and configuration prior to the migration. Failing to do so will loose the data saved under those sections: ***My account settings***, ***User specific settings***, and any entry made in their ***{{ en.UVLT }}***.  
+   Those specific users will need to [export](/kb/remote-desktop-manager/how-to-articles/export-import-entries/) their ***{{ en.UVLT }}*** and configuration prior to the migration. Failing to do so will loose the data saved under those sections: ***My account settings***, ***User specific settings***, and any entry made in their ***{{ en.UVLT }}***.  
 
-After exporting the user data, you will need to create a new user in your list and reimport the data.
-{% endsnippet %}  
+   After exporting the user data, you will need to create a new user in your list and reimport the data.
+   {% endsnippet %}  
 
-13. When all the issues are fixed or deselected, click ***Generate SQL script***.  
+1. When all the issues are fixed or deselected, click ***Generate SQL script***.  
 ![!!KB4731](https://webdevolutions.azureedge.net/docs/en/kb/KB4731.png)  
 1. Once the script has been generated, validate if there are any issues, then click ***Deploy schema***.  
 ![!!KB4732](https://webdevolutions.azureedge.net/docs/en/kb/KB4732.png)    
-{% snippet icon.badgeInfo %}
-This may take some time to execute depending on how many connection history you have in your database.
-{% endsnippet %}  
+   {% snippet icon.badgeInfo %}
+   This may take some time to execute depending on how many connection history you have in your database.
+   {% endsnippet %}  
 
-15. Once the ***Deployment results*** is done executing, validate if there are any issues, then click ***Migrate data***.
+1. Once the ***Deployment results*** is done executing, validate if there are any issues, then click ***Migrate data***.
 ![!!KB4734](https://webdevolutions.azureedge.net/docs/en/kb/KB4734.png)
 1. Click ***Start data migration***. Note that the number of tables might be different depending on your version.  
 ![!!KB4735](https://webdevolutions.azureedge.net/docs/en/kb/KB4735.png)
@@ -96,9 +97,9 @@ You cannot use this Wizard to move databases between local instances of SQL Serv
 1. On first connect, you may receive the following error message. If so, click on ***Fix It***.
 ![!!KB4646](https://webdevolutions.azureedge.net/docs/en/kb/KB4646.png)  
 
-{% snippet icon.badgeInfo %}
-This may take some time to execute depending on how many connection history you have in your database.
-{% endsnippet %}  
+   {% snippet icon.badgeInfo %}
+   This may take some time to execute depending on how many connection history you have in your database.
+   {% endsnippet %}  
 
 ### Connect to {{ en.DVLS }} <a name="dvls"></a>
 
