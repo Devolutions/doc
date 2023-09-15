@@ -5,6 +5,8 @@ eleventyComputed:
 ---
 Les permissions peuvent être regroupées dans des ***Ensembles de permissions***. Il est possible de créer manuellement des ensembles personnalisés ou d'utiliser les ensembles par défaut. Ils sont gérés via  {{ fr.RDM }} dans ***Administration – Paramètres système – Gestion des {{ fr.VLT }}s – Ensembles de permissions***.
 
+![Administration – Paramètres système – Gestion des {{ fr.VLT }}s – Ensembles de permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2058.png)
+
 ## Ensembles de permissions par défaut
 
 Trois ensembles de permissions sont créés par défaut : ***Lecteur***, ***Opérateur*** et ***Contributeur***. Ils ne peuvent être ni modifiés ni supprimés.  
@@ -18,11 +20,17 @@ Vous pouvez créer un nouvel ensemble qui répond à vos besoins spécifiques :
 
 1. Dans ***Administration – Paramètres système – Gestion des {{ fr.VLT }}s – Ensembles de permissions***, cliquer sur le bouton ***Nouveau***.
 
+![Ajouter un ensemble de permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2059.png)
+
 1. Donner un ***Nom*** à votre ensemble personnalisé et cocher chaque permission que vous voulez inclure dans l'ensemble.
+
+![Personnalisation de l'ensemble de permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2060.png)
 
 1. Cliquer sur ***OK***.
 
    Vous pouvez maintenant voir votre ensemble de permissions personnalisé sous les ensembles de permissions par défaut dans la vue principale. Vous pouvez à tout moment le ***Modifier*** ou le ***Supprimer*** à l'aide des boutons correspondants.
+
+   ![Survol de l'ensemble de permissions personnalisé](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2061.png)
 
 1. Sauvegarder les changements.
 
