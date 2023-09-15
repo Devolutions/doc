@@ -1,9 +1,9 @@
 ---
-title: Permission
+title: Permissions
 ---
 {% youtube 'FQACxCIj_GU' %}  
 
-The Permission window which is only available in an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), can be found in every entry properties in the ***Permission*** section.  
+The ***Permissions*** window, which is only available in an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), can be found in every entry properties in ***Security – Permission*** section (or ***Security – Inherited permissions*** for the {{ en.VLT }} root).  
 
 The user group based permission system can give a very accurate control of the security. Here is an overview of the permission window:  
 ![Permission panel](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6083.png) 
@@ -36,7 +36,7 @@ Sets the permission mode. Select between:
 Grant Access 
 		</td>
 		<td>
-Allows batch granting access to a specific entry or entries. 
+Allows [batch grant access](/rdm/windows/commands/administration/settings/system-settings/vault-management/batch-grant-access) to a specific entry or entries. 
 		</td>
 	</tr>
 	<tr>
