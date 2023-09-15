@@ -28,7 +28,7 @@ In the permission settings, you can select the permissions to grant. You can eit
 Permission sets are created and configured in ***Administration – System Settings – {{ en.VLT }} Management – Permission Sets***. For more information, see [Permission Sets](/rdm/windows/commands/administration/settings/system-settings/vault-management/permission-sets/).
 {% endsnippet %}
 
-### Users and User Groups
+### Users
 
 Users can be selected one by one by checking the box next to each one, but this method can be tedious if you have a lot of users. Tools are available to help you in your selection process:
 * ***Filter***: Filter through your users, user groups, and application users by ***Name*** or ***Description***.
