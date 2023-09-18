@@ -20,11 +20,11 @@ Vous pouvez créer un nouvel ensemble qui répond à vos besoins spécifiques :
 
 1. Dans ***Administration – Paramètres système – Gestion des {{ fr.VLT }}s – Ensembles de permissions***, cliquer sur le bouton ***Nouveau***.
 
-![Ajouter un ensemble de permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2059.png)
+   ![Ajouter un ensemble de permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2059.png)
 
 1. Donner un ***Nom*** à votre ensemble personnalisé et cocher chaque permission que vous voulez inclure dans l'ensemble.
 
-![Personnalisation de l'ensemble de permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2060.png)
+   ![Personnalisation de l'ensemble de permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2060.png)
 
 1. Cliquer sur ***OK***.
 
