@@ -5,6 +5,8 @@ eleventyComputed:
 ---
 Permissions can be grouped in ***Permission Sets***. It is possible to create custom sets manually or use the default sets. They are managed via {{ en.RDM }} in ***Administration – System Settings – {{ en.VLT }} Management – Permission Sets***.
 
+![Administration – System Settings – {{ en.VLT }} Management – Permission Sets](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2191.png)
+
 ## Default permission sets
 
 Three permission sets are created by default: ***Reader***, ***Operator***, and ***Contributor***. They cannot be edited or deleted.  
@@ -18,11 +20,17 @@ Create a new set that suits your specific needs:
 
 1. In ***Administration – System Settings – {{ en.VLT }} Management – Permission Sets***, click on the ***New*** button.
 
+   ![Add a permission set](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2192.png)
+
 1. Give a ***Name*** to your custom set and check each permission you want included in the set.
+
+   ![Customize the permission set](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2193.png)
 
 1. Click ***OK***.
 
    You can now see your custom permission set alongside the default ones in the main view. At any time you can ***Edit*** or ***Delete*** it using the corresponding buttons.
+
+   ![Custom permission set overview](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2194.png)
 
 1. Click ***OK*** again to save your changes.
 

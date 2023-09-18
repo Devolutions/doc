@@ -23,7 +23,7 @@ It can also be accessed via ***Administration***:
 
 The ***Batch Grant Access*** window is now open.
 
-![batch Grant Access](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2104.png)
+![Batch Grant Access](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2104.png)
 
 The window is divided in two sections: the <a href="#permissions">permission settings</a> and the <a href="#users">user selection</a>.
 
