@@ -90,7 +90,7 @@ Use the filter bar above the permissions list to find the ones you are looking f
 1. To confirm that the admin consent has been granted, check the ***Status*** of your permissions.
 ![Granted Status](https://webdevolutions.azureedge.net/docs/en/kb/KB8071.png)
 1. <a name="Step27"></a>To grant the application the ability to rotate passwords, leave the ***App registrations*** to go back to Azure Active Directory, then select ***Roles and administrators*** in the left menu.
-1. In ***All roles***, click on the ***Helpdesk Administrator*** role.
+1. In ***All roles***, click on the ***Helpdesk Administrator*** role. If the accounts managed by the PAM module are members of any administrator roles or group, then the application needs the ***Privileged Authentication Administrator*** role.
 ![All roles – Helpdesk Administrator](https://webdevolutions.azureedge.net/docs/en/kb/KB8072.png)
 1. In ***Assignments***, click on the ***Add assignments*** button.
 ![Helpdesk Administrator – Add assignments](https://webdevolutions.azureedge.net/docs/en/kb/KB8073.png)
