@@ -20,9 +20,9 @@ Create a new set that suits your specific needs:
 
 1. In ***Administration – System Settings – {{ en.VLT }} Management – Permission Sets***, click on the ***New*** button.
 
-![Add a permission set](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2098.png)
+   ![Add a permission set](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2098.png)
 
-   1. Give a ***Name*** to your custom set and check each permission you want included in the set.
+1. Give a ***Name*** to your custom set and check each permission you want included in the set.
 
    ![Customize the permission set](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2099.png)
 

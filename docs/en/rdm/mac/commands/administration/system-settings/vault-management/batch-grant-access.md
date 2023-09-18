@@ -42,7 +42,7 @@ Permission sets are created and configured in ***Administration – System Setti
 ### Users
 
 Users can be selected one by one by checking the box next to each one, but this method can be tedious if you have a lot of users. Tools are available to help you in your selection process:
-* ***Filter***: Filter through your users, user groups, and application users by ***Name*** or ***Description***.
+* ***Search***: Filter through your users, user groups, and application users by ***Name*** or ***Description***.
 * ***Type***: Display only users, user groups, or application users.
 * ***Selected***: Display only selected or unselected users, user groups, and application users.
 
