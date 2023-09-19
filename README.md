@@ -1,29 +1,15 @@
-# Devolutions Docs
+# Devolutions Documentation
 
-Devolutions's documentations build with 11ty.
+Welcome to the public GitHub repository for Devolutions's documentation, built with 11ty!
+
+The entirety of our documentation can be found in the [docs folder](https://github.com/Devolutions/doc/tree/master/docs) of the ***doc*** repository and on [our website](https://docs.devolutions.net/).
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/) >= 12.0.0
+- [Node.js](https://nodejs.org/en/) (versions 12.0.0 and above)
 
-### Variables
+## Contribute
 
-You can use variables that are listed in the folder [_data](https://github.com/Devolutions/doc/tree/master/docs/_data).
+To contribute to our help topics, see our guidelines in the [contribute folder](https://github.com/Devolutions/doc/tree/master/contribute) of the ***doc*** repository.
 
-example
-```markdown
-{{ en.AGENT }}
-## {{ en.AGENT }} Description
-...
-```
-To use variables in the Front Matter add `eleventyComputed:`
-
-example
-```markdown
----
-eleventyComputed:
-  title: Batch Edit in {{ en.RDM }}
-
----
-```
-
+![!!Support4001](https://webdevolutions.azureedge.net/docs/en/rdm/windows/Support4001.png) 
