@@ -1,5 +1,5 @@
 ---
-eleventyComputed: 
+eleventyComputed:
   title: Security Key and Windows Hello
   description: Configure a physical Security Key device to use as a new default password sign-in method for your {{ en.DA }}. 
 ---
