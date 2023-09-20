@@ -32,7 +32,7 @@ The {{ en.DHUBS }} installer facilitates the installation and integration of our
 You need to grant permission on the {{ en.VLT }} either at ***System level*** or ***Individual PAM {{ en.VLT }} level***. 
 {% endsnippet %}  
 
-## For all system {{ en.VLT }}s
+### For all system {{ en.VLT }}s
 
 1. In {{ en.DHUB }}, go to ***Administration*** – ***Configuration & Security*** – ***System Permissions***.
 ![Administration – Configuration & Security – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
@@ -43,7 +43,7 @@ You need to grant permission on the {{ en.VLT }} either at ***System level*** or
 ![Contributor section](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6050.png)
 1. Click ***Update*** to close the window. 
 
-## For a specific PAM {{ en.VLT }}
+### For a specific PAM {{ en.VLT }}
 
 1. In {{ en.DHUB }}, go to ***Administration*** – ***Management*** – ***{{ en.VLT }}s***.
 ![Administration – Management – {{ en.VLT }}s](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6044.png)  
@@ -72,6 +72,6 @@ You need to grant permission on the {{ en.VLT }} either at ***System level*** or
 ![Connection successful](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6055.png) 
 ## Check {{ en.DHUBS }} logs
 
-{{ en.DHUBS }}' logs are available in ***Windows Event Viewer***. The service should be able to connect to the created provider. The provider need to be added in {{ en.DHUB }}.
+{{ en.DHUBS }}' logs are available in ***Windows Event Viewer***. The service should be able to connect to the created provider. The provider needs to be added in {{ en.DHUB }}.
 
-It's also possible to see the {{ en.DHUBS }} as a service in the Services window of Windows which shows the current status and where it can be started or stopped.
+It is also possible to see the {{ en.DHUBS }} as a service in the Services window of Windows which shows the current status and where it can be started or stopped.
