@@ -30,7 +30,7 @@ L'installateur de {{ fr.DHUBS }} facilite l'installation et l'intégration de no
 Vous devez octroyer l'accès au {{ fr.VLT }} en fonction du ***Système*** ou du ***PAM***.
 {% endsnippet %}
 
-## Pour tous les {{ fr.VLT }}s du système
+### Pour tous les {{ fr.VLT }}s du système
 
 1. Dans {{ fr.DHUB }}, aller dans ***Administration*** – ***Configuration et sécurité*** – ***Permissions du système***.
 ![Administration – Configuration et sécurité – Permissions du système](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6049.png)
@@ -42,7 +42,7 @@ Vous devez octroyer l'accès au {{ fr.VLT }} en fonction du ***Système*** ou du
 
 1. Cliquer ***Mise à jour*** pour fermer la fenêtre. 
 
-## Pour un {{ fr.VLT }} PAM
+### Pour un {{ fr.VLT }} PAM
 
 1. Dans {{ fr.DHUB }}, aller dans ***Administration*** – ***Gestion*** – ***{{ fr.VLT }}s***.
 ![Administration – Gestion – {{ fr.VLT }}s](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6053.png)
