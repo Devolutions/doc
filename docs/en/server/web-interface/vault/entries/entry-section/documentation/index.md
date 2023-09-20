@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Documentation
   order: 10
   description: The Documentation feature allows to store information regarding entries.

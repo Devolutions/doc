@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Permissions
   keywords:
   - Rôle

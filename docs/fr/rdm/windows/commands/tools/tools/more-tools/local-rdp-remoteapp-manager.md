@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Gestionnaire RDP/RemoteApp local
 ---
 Les paramètres RDP locaux et les paramètres RemoteApp sont disponibles dans ***Outils - Plus d'outils - Local*** RDP/RemoteApp Manager.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Compare editions
   keywords:
   - role

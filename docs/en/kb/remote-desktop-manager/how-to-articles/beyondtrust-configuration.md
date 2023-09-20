@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: BeyondTrust configuration
 ---
 Here is the information required to configure the properties of a BeyondTrust entry.

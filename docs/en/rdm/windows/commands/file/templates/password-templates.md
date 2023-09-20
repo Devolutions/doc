@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Password templates
 ---
 Password templates set requirements for the password format: characters usage, patterns, readability.  

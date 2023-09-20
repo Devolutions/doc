@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Portable (USB)
   status: Topic available in German language
 ---

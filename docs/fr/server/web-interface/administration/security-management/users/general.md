@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Général
 ---
 ![Modifier l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp7005.png) 

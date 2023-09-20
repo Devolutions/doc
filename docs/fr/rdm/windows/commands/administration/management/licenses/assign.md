@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Assigner une licence
 ---
 Les licences {{ fr.RDM }} sont stockées dans une [Source de données avancée](DataSources_Advanced) située sous ***Administration – Licences***. Il n'est donc pas nécessaire d'enregistrer {{ fr.RDM }} localement, car la clé est récupérée directement à partir de celle-ci. Lorsque vous lancez l'application pour la première fois, connectez-vous à la source de données contenant le numéro de série.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Journaux des applications
 ---
 Lorsque vous rencontrez des erreurs, vous pouvez vérifier les journaux des applications locales, qui est disponible dans ***Aide - Journaux des applications***.  

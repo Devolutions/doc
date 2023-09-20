@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: System Settings
 ---
 The ***System Settings*** section of the ***Administration*** panel is used to manage the global settings of all the users and user groups of {{ en.DHUBB }}.  

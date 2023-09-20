@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Allow password access from external system
 ---
 {% snippet icon.badgeInfo %} 

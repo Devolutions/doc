@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Journaux
 ---
 La fonctionnalité des ***Journaux*** est similaire à ***Journaux d'activités***, mais elle ne donne des informations que sur l'entrée sélectionnée. Les journaux sont disponibles dans le menu contextuel ***Affichage – Disposition – Journaux***.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Liste des identifiants
 ---
 La fonctionnalité ***Liste des identifiants*** se trouve dans l'onglet ***Affichage***.  

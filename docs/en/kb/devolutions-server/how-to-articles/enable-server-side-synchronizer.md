@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Enable the server-side synchronizer
 ---
 {% snippet icon.badgeCaution %}

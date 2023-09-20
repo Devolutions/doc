@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modèles de mot de passe
 ---
 Ce paramètre de sécurité détermine si les mots de passe doivent répondre aux exigences de complexité prédéterminées qui ont été configurées dans vos paramètres de source de données. Les exigences de complexité sont appliquées lorsque les mots de passe sont modifiés ou qu'une nouvelle entrée est créée. Si cette stratégie est activée, les nouveaux mots de passe doivent répondre à certaines des exigences minimales suivantes :  

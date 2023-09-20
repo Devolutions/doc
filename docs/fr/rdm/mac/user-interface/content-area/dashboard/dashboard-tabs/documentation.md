@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Documentation
 ---
 L'onglet ***Documentation*** permet de stocker des informations sur les ressources dans la source de données. Pour accéder à la documentation d'une entrée, sélectionnez une entrée dans le volet navigation, puis sélectionnez le bouton ***Documentation*** dans le tableau de bord. 

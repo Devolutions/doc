@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Unable to use the $PASSWORD$ variable
 ---
 When used as part of a ***Typing macro***, the $PASSWORD$ variable might not retrieve the password and instead send the variable as is. This is a security feature that is enabled by default, but it can be disabled.

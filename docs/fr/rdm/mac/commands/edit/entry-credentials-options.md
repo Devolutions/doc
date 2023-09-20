@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Options d'identifiants
 ---
 Plusieurs options sont disponibles pour les ***Identifiants*** dans les entrées {{ fr.RDM }}.  

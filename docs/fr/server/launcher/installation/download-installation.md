@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Téléchargement et installation
   order: 20
 ---

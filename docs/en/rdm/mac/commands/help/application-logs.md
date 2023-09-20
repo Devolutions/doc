@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Application Logs
 ---
 In case of error, you can verify the local application log, which is available from the menu in ***Help - View Application Log***.  

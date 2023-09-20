@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Paramètres par défaut
 ---
 {% youtube 'WwkN_yxYwno' %}  

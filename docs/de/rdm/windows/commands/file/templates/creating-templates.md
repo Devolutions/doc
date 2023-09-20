@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Vorlagen erstellen
 ---
 Es gibt viele Möglichkeiten, Vorlagen für Einträge zu erstellen. Sie können eine neue Vorlage erstellen, einen Eintrag als Vorlage speichern, Einträge als Vorlagen importieren und eine vorhandene Vorlage duplizieren. Es ist auch möglich, Gruppenvorlagen zu erstellen.  

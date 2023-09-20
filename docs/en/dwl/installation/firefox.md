@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Firefox
 ---
 Follow the steps below to complete the installation of {{ en.DWL }} in the Firefox web browser.  

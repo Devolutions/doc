@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configure Windows authentication
 ---
 {% snippet icon.badgeCaution %}

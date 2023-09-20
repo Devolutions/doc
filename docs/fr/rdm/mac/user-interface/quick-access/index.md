@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Accès rapide
 ---
 La barre de ***Accès rapide***, qui se trouve en haut de l'application, est composée de plusieurs parties :  

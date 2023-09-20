@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Register Product Licenses
 ---
 Register Devolutions ***Product Licenses*** in {{ en.DHUBB }}.  

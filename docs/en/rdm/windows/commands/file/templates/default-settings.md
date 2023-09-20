@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Default Settings
 ---
 {% youtube '_U04qW_Q1r4' %}  

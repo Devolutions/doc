@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Open with Parameters
 ---
 The ***Open with Parameters*** menu all options available to open a session.  

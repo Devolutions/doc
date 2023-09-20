@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Create Organizations
 ---
 You can create and manage ***Organizations*** for your team in your {{ en.DA }}.  

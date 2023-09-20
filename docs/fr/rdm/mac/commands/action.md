@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Actions
 ---
 Le ruban ***Actions*** contient des opérations qui ne peuvent être effectuées que sur une session en cours d'exécution. Le menu ***Actions*** sera visible que s'il y a une session active en cours. Pour notre exemple, nous exécutons une session RDP, le ruban affichera l'onglet suivant lorsque la session est en mode intégré.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Gestion de version
   status: Topic available in German language
 ---

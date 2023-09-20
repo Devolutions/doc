@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configure a client data source
 ---
 1. In {{ en.RDM }} select ***File - Data Sources***.  

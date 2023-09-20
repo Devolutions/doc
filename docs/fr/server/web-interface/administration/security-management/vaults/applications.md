@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Applications
 ---
 Permet d'assigner des clés d'applications au {{ fr.VLT }}.  

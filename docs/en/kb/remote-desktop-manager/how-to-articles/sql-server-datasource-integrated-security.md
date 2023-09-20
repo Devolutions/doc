@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: SQL Server data source with Integrated Security
   keywords:
   - role

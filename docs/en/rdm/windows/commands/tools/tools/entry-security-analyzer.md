@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Entry Security Analyzer
   keywords:
   - Password analyzer

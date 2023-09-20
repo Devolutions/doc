@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Lock Data Source
 ---
 To protect sensitive data in your data source configuration (e.g. server URL or credentials), you may wish to lock the data source configuration before you deploy it to your users. You can do it by using the Lock/Unlock button from the toolbar. 

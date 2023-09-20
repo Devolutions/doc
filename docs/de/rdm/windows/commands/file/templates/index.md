@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Vorlagen
 ---
 Vorlagen sind nützlich, um beim Erstellen eines Eintrags vordefinierte Werte zu setzen und vorzugeben. Mit Vorlagen können Sie:  

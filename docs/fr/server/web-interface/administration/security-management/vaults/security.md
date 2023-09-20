@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sécurité
 ---
 Permet de protéger le {{ fr.VLT }} avec un mot de passe pour empêcher les modifications effectuées par des administrateurs.  

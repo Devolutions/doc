@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: KeePass troubleshooting
 ---
 ## Problem 1

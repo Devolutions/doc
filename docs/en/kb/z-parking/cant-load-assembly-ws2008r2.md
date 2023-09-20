@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Windows Server 2008R2 cannot Load or Assembly
   description: Windows Server 2008R2 - Could not load file or assembly 'Microsoft.Management.Infrastructure' or one of its dependencies.
   keywords:

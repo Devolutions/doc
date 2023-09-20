@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Advanced Data Sources
 ---
 ***Advanced Data Sources*** are highly configurable data sources, typically running on an advanced management system, such as a database management system or our own Devolutions online services.  

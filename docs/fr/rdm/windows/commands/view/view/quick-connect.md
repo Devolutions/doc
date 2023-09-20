@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Connexion rapide
 ---
 La ***Connexion rapide*** vous permet d'ouvrir une session ad hoc en spécifiant l'hôte et le type de session. Cette fonctionnalité est accessible via la barre d'outils ***Connexion rapide*** ou dans la section ***Affichage*** de l'onglet ***Affichage*** dans {{ fr.RDM }}.  

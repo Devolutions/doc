@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Serveur d'enregistrement
 ---
 Paramètres du serveur d'enregistrement de sessions.  

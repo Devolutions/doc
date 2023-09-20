@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Report export
 ---
 The Export Reports is a way to execute and export reports through a command line. You can use this feature in a shortcut or in a batch file and use the Windows task scheduler to execute it.  

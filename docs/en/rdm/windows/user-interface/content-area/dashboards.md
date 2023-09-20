@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Dashboard
   description: The Dashboard displays commands and information related to the selected entry. Its contents depend on the selected entry type.
 ---

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Chrome is unable to launch in embedded mode
 ---
 Launching Chrome in embedded mode within {{ en.RDM }} causes the application to either freeze or the web page never load.

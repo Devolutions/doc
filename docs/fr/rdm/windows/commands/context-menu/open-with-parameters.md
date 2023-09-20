@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Ouvrir avec des paramètres
 ---
 Le menu ***Ouvrir avec des paramètres*** contient toutes les options disponibles pour ouvrir une session.  

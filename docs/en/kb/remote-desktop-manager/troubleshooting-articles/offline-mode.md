@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Offline Mode
 ---
 ## Problem 1

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Export task list
 ---
 Tasks can be exported in different types of files for printing or for reviewing. 

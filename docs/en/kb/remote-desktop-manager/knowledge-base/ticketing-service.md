@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Ticketing Service
   description: The Ticketing Service feature helps you distribute information to all users of the ticketing system that is used inside {{ en.RDM }}.
   keywords:

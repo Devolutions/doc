@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Licenses
 ---
 Managing {{ en.RDM }} registration globally for all your users can be done with a license serial stored in an advanced data source such as {{ en.DVLS }}, Microsoft SQL Server or Azure SQL. 

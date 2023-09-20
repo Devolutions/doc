@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Advanced Search
 ---
 The Advanced Search allows you to search for entries and folders based on multiple criteria in one {{ en.VLT }} at a time. To search multiple {{ en.VLT }}s simultaneously, please refer to [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/panels/search/multi-vault/).  

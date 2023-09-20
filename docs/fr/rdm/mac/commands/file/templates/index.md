@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modèles
 ---
 Les modèles sont disponibles dans le menu ***Fichier - Modèles***.  

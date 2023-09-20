@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Keyboard shortcuts
 ---
 Here is the list of keyboard shortcuts available for {{ en.DWL }}:  

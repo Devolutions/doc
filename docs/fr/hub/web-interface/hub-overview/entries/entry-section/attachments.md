@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Pièces jointes
 ---
 Gérer, afficher et télécharger des fichiers ***Pièces jointes*** stockés directement dans {{ fr.DHUB }} pour une entrée.  

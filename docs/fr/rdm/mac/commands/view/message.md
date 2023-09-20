@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Message
 ---
 La fonctionnalité ***Message*** se trouve dans l'onglet ***Affichage***.  

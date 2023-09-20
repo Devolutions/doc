@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modifier (Actions spéciales)
 ---
 Utiliser les options ***Modifier - Modifier (Actions spéciales)*** pour modifier les paramètres de plusieurs entrées en une seule opération. Il peut être utilisé pour une commande d'action par lots sur un groupe d'entrée.  

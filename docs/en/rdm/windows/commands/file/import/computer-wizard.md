@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Import Computer Wizard
 ---
 {% snippet icon.badgeInfo %} 

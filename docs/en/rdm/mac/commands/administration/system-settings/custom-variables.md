@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Custom Variables
 ---
 You can define your own custom variables to use in your data source configuration. 

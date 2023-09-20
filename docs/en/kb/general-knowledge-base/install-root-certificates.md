@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Install root certificates
 ---
 Here are various procedures to install root certificates:

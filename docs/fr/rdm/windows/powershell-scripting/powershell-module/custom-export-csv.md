@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Export personnalisé en format CSV
 ---
 De nombreux clients demandent un export personnalisé qui contiendrait des champs spécifiques. 

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Activer l'accès temporaire
   description: Grâce à la fonction d'Accès temporaire, vous pouvez donner à un utilisateur désigné un accès temporaire à une entrée pendant une durée déterminée. Cette méthode est beaucoup plus sécuritaire que de modifier les droits d'accès de l'utilisateur, puis de les modifier à nouveau une fois la tâche accomplie.
   keywords:

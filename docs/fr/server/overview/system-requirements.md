@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configuration requise
   status: Topic available in German language
 ---

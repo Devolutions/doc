@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Authentification à deux facteurs
   keywords:
   - 2 facteur

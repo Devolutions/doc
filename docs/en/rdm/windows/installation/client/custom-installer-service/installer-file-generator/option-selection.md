@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Option selection
 ---
 When generating the installer file, you must decide what to include in the configuration. This process will replicate the configuration of the {{ en.RDM }} instance currently used and will generate an installer file (.rdi). Once it has been generated, the installer file can be used as many times as needed to create {{ en.CI }}s. For security reasons, some settings that may contain credentials such as ***Saved templates*** are disabled by default. Enable them based on your risk level. 

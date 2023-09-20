@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configuration
   order: 50
 ---

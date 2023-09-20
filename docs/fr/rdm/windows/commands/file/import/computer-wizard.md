@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Assistant d'importation pour l'ordinateur
 ---
 {% snippet icon.badgeInfo %} 

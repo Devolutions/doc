@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Microsoft Azure SQL
   description: Create an empty SQL database on your Microsoft Azure SQL portal.
   keywords:

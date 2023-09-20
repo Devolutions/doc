@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Edge
 ---
 Follow the steps below to complete the installation of {{ en.DWL }} in the Microsoft Edge web browser.  

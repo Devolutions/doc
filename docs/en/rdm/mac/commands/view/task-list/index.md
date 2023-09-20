@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Task List
 ---
 Create a ***Task List*** to keep track of work that needs to be done by the team. Toggle the ***Task List*** pane in the ***View*** tab.  

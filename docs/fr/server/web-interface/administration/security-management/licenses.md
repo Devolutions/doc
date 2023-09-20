@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Licences
 ---
 La gestion globale de l'enregistrement pour tous vos utilisateurs peut être effectuée avec une licence stockée dans {{ fr.DVLS }} via la section Licences.  

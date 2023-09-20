@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Importer des connexions
 ---
 Vous pouvez accéder à ***Fichier – Importer – Connexions*** pour importer différentes connexions ou identifiants d'autres logiciels dans {{ fr.RDM }}. 

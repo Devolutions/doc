@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Migration von Sicherheitsgruppen zu Gruppen
 ---
 {% snippet icon.badgeInfo %}

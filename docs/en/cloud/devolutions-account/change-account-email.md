@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Change an account email
 ---
 {% snippet icon.shieldWarning %} 

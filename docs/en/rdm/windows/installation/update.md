@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Update
 ---
 The ***Update*** feature prompts the user to update to a newer version of the application and displays the release notes. The user's choice for the previous update is shown as selected.  

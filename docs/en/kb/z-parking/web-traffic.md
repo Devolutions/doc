@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Web traffic
 ---
 {% snippet icon.badgeInfo %}

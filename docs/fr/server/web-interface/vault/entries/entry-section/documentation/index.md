@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Documentation
   order: 10
 ---

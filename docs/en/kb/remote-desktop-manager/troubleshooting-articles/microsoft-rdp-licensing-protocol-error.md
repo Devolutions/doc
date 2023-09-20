@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Microsoft RDP licensing protocol error
 ---
 When you connect to a remote workstation, you receive one of the errors below.  

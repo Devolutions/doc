@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configurer une source de données client
 ---
 1. Dans {{ fr.RDM }} sélectionner ***Fichiers - Sources de données***.  

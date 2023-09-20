@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Instance de la base de données
   order: 20
 ---

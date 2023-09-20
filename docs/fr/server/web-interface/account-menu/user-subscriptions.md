@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Abonnements de l'utilisateur
 ---
 Gérer les paramètres de notification des ***Abonnements de l'utilisateur*** aux entrées. 

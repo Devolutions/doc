@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Panels
 ---
 In {{ en.RDM }}, the ***Panels*** section of the ***View*** tab allows you to browse and search the {{ en.VLT }}s, sessions, and entries in the ***{{ en.NPANE }}***.  

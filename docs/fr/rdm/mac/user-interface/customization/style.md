@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Style
 ---
 {{ fr.RDM }} prend en charge différents styles d'Interface utilisateur (parfois appelés thèmes). Ceux-ci influencent grandement l'aspect visuel de l'Interface utilisateur ainsi que son mode de fonctionnement.  

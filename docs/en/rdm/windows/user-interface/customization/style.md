@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Style
 ---
 {{ en.RDM }} supports different ***User Interface*** styles (sometimes known as skins). These greatly influence the visual aspect of the ***User Interface*** as well as its mode of operation. Three styles currently exist:  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Default security for entries
 ---
 In ***Administration – Settings – {{ en.VLT }} Settings***, navigate to the ***Permissions*** tab. Under ***Inherited Permissions***, change the ***Permission*** drop-down list to the desired setting:  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Description
 ---
 Le ***Bas de page Description*** affiche le contenu du champ Description de l'entrée sélectionnée.  

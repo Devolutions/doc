@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: User Specific Settings List
 ---
 The ***User Specific Settings List*** feature will provide all entries that are overridden with user ***Specific Settings***.  

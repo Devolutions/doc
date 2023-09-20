@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: WinRM and Trusted Hosts list
 ---
 This guide provides steps to enable WinRM and add the remote machine's names in the Trusted Hosts list on the server where {{ en.DVLS }} is hosted.

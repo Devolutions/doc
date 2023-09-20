@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Général
 ---
 La section ***Général*** des ***Paramètres du système*** permet aux administrateurs d'appliquer des politiques générales pour l'ensemble de la source de données.  

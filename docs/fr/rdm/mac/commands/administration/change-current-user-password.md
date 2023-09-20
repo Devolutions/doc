@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modifier le mot de passe
 ---
 Vous pouvez modifier le mot de passe de l'utilisateur actuel de la source de données dans ***Administration - Modifier le mot de passe***.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Create a New Data Source
   order: 10
 ---

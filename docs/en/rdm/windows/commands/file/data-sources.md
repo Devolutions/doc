@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Data sources
 ---
 Use ***File – Data Sources*** to manage data sources. {{ en.RDM }} supports multiple types of data source. Most are available only with an Team Edition of {{ en.RDM }}.  

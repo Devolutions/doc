@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Default Credential Settings
 ---
 You can access the default session settings from File - Templates - Default credential settings.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Benutzerdefinierte PowerShell Befehle
 ---
 Der benutzerspezifische PowerShell-Befehl wirkt auf die aktuell ausgewählten Einträge in Ihrem ***Navigationsbereich***. Verwenden Sie Klick und <kbd>Strg</kbd>+Klick, um Ihre Liste zu erstellen oder eine erweiterte Suche, um eine große Anzahl von Einträgen auszuwählen. Nachdem Sie Ihre Auswahl getroffen haben, ist der Befehl verfügbar über:  

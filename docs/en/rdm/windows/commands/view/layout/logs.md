@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Logs
 ---
 The ***Logs*** feature is similar to [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/), but it only provides information about the selected entry. Logs are available from the context menu ***View – Layout – Logs***.  

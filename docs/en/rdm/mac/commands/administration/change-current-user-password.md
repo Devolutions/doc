@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Change the password of the current user
 ---
 You may change the password of the current user of the data source in ***Administration - Change Current User Password***.  

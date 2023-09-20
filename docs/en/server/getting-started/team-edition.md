@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Team Edition
   keywords:
   - Roles

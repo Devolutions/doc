@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Failed request tracing in IIS
 ---
 This topic will present how to install and configure a Failed Request Tracing Log rule for troubleshooting HTTP 500 error issues on the IIS site.  

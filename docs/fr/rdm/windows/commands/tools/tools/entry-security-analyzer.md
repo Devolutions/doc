@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Analyseur de sécurité d'entrées
 ---
 {% snippet icon.badgeInfo %} 

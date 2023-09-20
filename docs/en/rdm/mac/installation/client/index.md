@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Client
 ---
 {{ en.RDMMAC }} can be downloaded as a .dmg file via our [Devolutions website](https://devolutions.net/remote-desktop-manager/home/download). 

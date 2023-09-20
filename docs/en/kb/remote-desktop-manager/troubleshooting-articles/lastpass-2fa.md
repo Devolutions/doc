@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: LastPass two-factor authentication
 ---
 Every time I use a device referencing to my LastPass integration, it asks for my Two Factor Authentication (2FA) every single time.

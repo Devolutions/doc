@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: PowerShell commands
   description: This topic is about all authentication commands and handles for PSHubContext. 
   keywords:

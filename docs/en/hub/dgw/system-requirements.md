@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: System requirements
   order: 20
 ---

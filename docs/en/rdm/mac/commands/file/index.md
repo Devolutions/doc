@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: File
 ---
 The File menu contains several actions available to you regarding your data source. The options will change depending on the data source you are currently using.  

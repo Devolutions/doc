@@ -1,3 +1,4 @@
 ---
+eleventyComputed:
   title: Menüleiste
 ---

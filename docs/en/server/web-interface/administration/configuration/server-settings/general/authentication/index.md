@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Authentication
   order: 10
 ---

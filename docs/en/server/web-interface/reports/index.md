@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Reports
   order: 40
 ---

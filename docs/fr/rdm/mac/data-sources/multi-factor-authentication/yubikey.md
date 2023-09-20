@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Yubikey
 ---
 {{ fr.RDMMAC }} vous permet de configurer un Yubikey pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données.  

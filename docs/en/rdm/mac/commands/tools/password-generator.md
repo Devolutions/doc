@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Password Generator
 ---
 The Password Generator enables you to create random passwords that are secured and difficult to interpret or predict due to a mix of uppercase and lowercase letters, numbers and punctuation symbols.  

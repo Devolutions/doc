@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Missing opened VPN from list
 ---
 Missing opened vpn from list

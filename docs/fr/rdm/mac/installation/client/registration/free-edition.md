@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Édition Free
 ---
 {% snippet icon.badgeInfo %} 

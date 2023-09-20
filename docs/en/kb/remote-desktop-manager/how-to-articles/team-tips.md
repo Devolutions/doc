@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Team tips
   status: Topic available in German language
   keywords:

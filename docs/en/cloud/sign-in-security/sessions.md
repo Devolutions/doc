@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sessions
 ---
 In the ***Sessions*** window, you can view and validate all the open current sessions associated with your {{ en.DA }}.  

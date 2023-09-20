@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Entry section
   order: 30
 ---

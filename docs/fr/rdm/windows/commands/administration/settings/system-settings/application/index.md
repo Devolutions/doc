@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Applications
 ---
 La section ***Applications*** gère la disponibilité des différentes fonctionnalités liées à l'application {{ fr.RDM }}.  

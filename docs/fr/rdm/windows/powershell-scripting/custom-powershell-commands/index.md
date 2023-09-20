@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Commandes PowerShell personnalisées
   status: Topic available in German language
 ---

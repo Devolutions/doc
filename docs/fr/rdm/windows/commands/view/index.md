@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Affichage
 ---
 L'onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l'affichage, les journaux et la disposition de {{ fr.RDM }}.  

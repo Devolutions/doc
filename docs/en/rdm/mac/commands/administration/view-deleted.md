@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: View Deleted
 ---
 The Administration - View deleted option allows you to view the deleted entries as well as restoring them.  

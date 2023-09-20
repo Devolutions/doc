@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Microsoft SQL Server
 ---
 <table>

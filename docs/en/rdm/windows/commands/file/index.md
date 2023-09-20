@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: File
 ---
 The ***File*** menu contains many actions regarding the application and the data source. This menu is contextual and depends on the connected data source.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: VMware
 ---
 VMware tools make assumptions that their scripts are run in an interactive session and also present warnings the first time that they are run. As it stands today, you have to run commands interactively after you have installed or upgraded their tools.  

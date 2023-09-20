@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modèles d'entrées
   order: 20
 ---

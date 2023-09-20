@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: High CPU usage
 ---
 Since the release of {{ en.RDM }} 13, some users have experienced high CPU usage on their systems, especially in Terminal Services / Remote Desktop Services (RDS) environment. This is caused by the entry state verification feature.  

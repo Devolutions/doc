@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Créer une inscription d'application Azure Active Directory
 ---
 {% snippet icon.badgeInfo %} 

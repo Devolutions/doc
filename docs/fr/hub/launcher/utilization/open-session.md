@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Ouvrir une session
 ---
 Sélectionner une entrée et cliquer sur l'icône {{ fr.DLAUNCHER }}.  

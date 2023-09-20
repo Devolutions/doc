@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Create a list of credentials
 ---
 If you wish to create a report containing a full list of all your credentials here are the steps to follow:

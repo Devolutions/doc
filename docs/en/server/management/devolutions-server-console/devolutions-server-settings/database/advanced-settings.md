@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Advanced Settings
 ---
 The ***Advanced Settings*** contains advanced parameters that are used for the SQL database connection string. 

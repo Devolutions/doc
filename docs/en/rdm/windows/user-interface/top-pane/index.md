@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Top Pane
 ---
 The Top Pane contains the [Quick Access Toolbar](View_QuickAccessToolbar) and the Ribbon/Menu.  

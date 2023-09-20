@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: IP Address list entry
   description: The IP Adress list entry keeps the list of IPs in a single entry.
 ---

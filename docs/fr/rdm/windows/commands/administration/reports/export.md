@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Exporter des rapports
 ---
 Les ***Rapports*** d'exportation sont un moyen d'exécuter et d'exporter des rapports via une ligne de commande. Vous pouvez utiliser cette fonctionnalité dans un raccourci ou dans un fichier de commandes et utiliser le planificateur de tâches Windows pour l'exécuter.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Add an RDP entry
 ---
 ***RDP (Microsoft Remote Desktop)*** and other tools that open remote connections are saved as ***Session*** entries {{ en.RDM }}. The entries store information about the host, credentials, local resources, and VPN, so users can open a session with one click. You can also set permissions, configure security settings and customize logs.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Politique de mot de passe
 ---
 La ***Politique de mot de passe*** vous permet de gérer les différentes politiques et paramètres de mot de passe pour votre source de données. Pour plus d'informations sur les [Modèles de mot de passe](/fr/rdm/mac/commands/administration/system-settings/password-policy/password-complexity/), suivez ce lien.  

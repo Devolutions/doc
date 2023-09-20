@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Débogage seulement
 ---
 Parfois, lorsqu'un problème survient lors de l'utilisation de {{ fr.RDM }}, le personnel de support peut vous demander d'activer le débogage et de renvoyer les informations. Voici deux procédures que vous pouvez suivre. 

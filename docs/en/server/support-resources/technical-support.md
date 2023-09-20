@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Technical support
   status: Topic available in German language
 ---

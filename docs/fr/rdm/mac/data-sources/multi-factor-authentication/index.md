@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Authentification multifacteur
 ---
 {% snippet icon.badgeInfo %} 

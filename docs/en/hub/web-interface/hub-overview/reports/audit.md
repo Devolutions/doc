@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Audit
 ---
 The ***Audit*** section allows all users to use the ***Entry Security Analyzer*** and ***Password Analyzer*** tools. To access the ***Users Permissions***, ***{{ en.VLT }}s Permissions***, and ***{{ en.VLT }} Health*** tools, administrator rights will be required.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Keyboard Shortcuts
   description: Here are the default keyboard shortcuts for various commands.
   keywords:

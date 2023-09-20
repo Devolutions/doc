@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Advanced Security
 ---
 {% snippet icon.badgeInfo %} 

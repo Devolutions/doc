@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Menu du compte
   order: 20
 ---

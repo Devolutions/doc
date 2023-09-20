@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Historique des sauvegardes
 ---
 La section ***Historique des sauvegardes*** affiche la liste des sauvegardes qui ont été effectuées.  

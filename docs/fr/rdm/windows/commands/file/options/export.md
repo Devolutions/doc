@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Exporter les options
 ---
 Utiliser ***Fichier - Options - Eporter les options*** pour contrôler les options à l'exportation à partir de votre configuration de l'application. Utilisez-le pour transférer les paramètres vers une autre machine. 

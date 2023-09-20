@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Rechercher
 ---
 Lorsque plusieurs tâches sont créées dans {{ fr.RDM }}, effectuer une recherche en cliquant sur le bouton ***Rechercher*** pour filtrer la liste des tâches affichées.  

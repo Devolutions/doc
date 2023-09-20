@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Debug only
 ---
 Sometimes when an issue occurs while using {{ en.RDMMAC }}, the support personnel may ask you to turn on debugging and send the information back. 

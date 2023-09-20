@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Mettre hors-ligne
 ---
 ***Mettre hors-ligne*** se connecte à une copie locale de la source de données lorsque la source de données n'est pas disponible. Cela peut être utilisé lorsqu'un utilisateur travaille à partir d'un réseau déconnecté ou lorsqu'il existe des problèmes de connectivité avec la source de données. 

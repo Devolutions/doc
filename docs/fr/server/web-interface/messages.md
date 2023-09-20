@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Messages
 ---
 Envoyer et recevoir des ***Messages Sécurisés*** avec les utilisateurs de votre {{ fr.DVLS }}. 

@@ -6,7 +6,6 @@ eleventyComputed:
   keywords:
   - Roles
 ---
-
 {% snippet icon.badgeInfo %}
 If you have recently received your serial license keys, please refer to [Getting started](/server/getting-started/). 
 {% endsnippet %}

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Main Screen
 ---
 Illustrated below is the default {{ en.RDM }} main screen. Go to ***File – Options – User Interface*** to change the current style. We have various settings for you to customize your experience, such as different themes, shortcuts and more!  

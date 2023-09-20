@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Pièces jointes
 ---
 Les fichiers sont joints à l'entrée et sont stockés directement dans la base de données.  

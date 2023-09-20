@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Tutoriels
   status: Topic available in German language
 ---

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Enregistrement
   order: 10
   description: Enregistrez votre licence de {{ fr.DVLS }}.

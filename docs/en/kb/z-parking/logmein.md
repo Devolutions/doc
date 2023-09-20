@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: LogMeIn
 ---
 ## Problem 1

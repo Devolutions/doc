@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Set up the usage of the session credentials to launch a tool
 ---
 To run some tools, specific credentials needs to be sent through the remote session. By default, the credential used by a tool are the one from the Windows session. Sometime with those credentials you will not have enough privileges to run the tool. This is why you need to use the credential of the session instead.

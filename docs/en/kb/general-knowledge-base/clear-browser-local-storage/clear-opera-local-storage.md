@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Clear Opera's local storage
   description: Follow the steps to clear your local storage in the Opera browser.
   keywords:

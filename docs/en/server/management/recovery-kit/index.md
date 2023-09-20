@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Generate Recovery Kit
   description: This topic will cover how to create a Recovery Kit.
 ---

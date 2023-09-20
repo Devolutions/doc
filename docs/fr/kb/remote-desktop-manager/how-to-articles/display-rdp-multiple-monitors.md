@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Afficher RDP sur plusieurs écrans
 ---
 ### Étendre l’affichage sur plusieurs écrans 

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Edit
 ---
 The Edit ribbon contains operations to rapidly Add, Edit, Overrides, Batch Edit, or Export entries.  

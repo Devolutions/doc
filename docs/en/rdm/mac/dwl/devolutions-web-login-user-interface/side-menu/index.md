@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Side menu
 ---
 Using the ***Side menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  

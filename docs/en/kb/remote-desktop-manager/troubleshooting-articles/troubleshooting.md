@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Troubleshooting
 ---
 ## Problem 1

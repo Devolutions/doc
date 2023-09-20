@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sources de données
 ---
 Utiliser ***Fichier – Sources de données*** pour gérer les sources de données. {{ fr.RDM }} prend en charge plusieurs types de sources de données. La plupart sont disponibles uniquement avec l'Édition Team de {{ fr.RDM }}.  

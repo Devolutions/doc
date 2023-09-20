@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modèles de mots de passe
 ---
 Le ***Modèles de mot de passe*** est utilisé pour créer des paramètres prédéfinis pour le générateur de mots de passe de {{ fr.DHUBB }}.  

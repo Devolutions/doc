@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Register a user CAL license
   order: 30
 ---

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Barre des tâches
 ---
 {{ fr.RDM }} permet à l'utilisateur de contrôler l'application à partir de la barre des tâches Windows. Vous pouvez également [personnaliser son contenu](#préférences-de-la-barre-de-tâches). 

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Enable the Recording Server log
   keywords:
   - Log

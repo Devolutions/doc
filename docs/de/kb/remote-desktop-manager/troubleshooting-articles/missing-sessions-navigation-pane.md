@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Fehlende Sitzungen im Navigationsbereich
 ---
 Es fehlen einige oder alle Einträge im Navigationsbereich. Er ist leer.

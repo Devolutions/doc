@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configure failed request tracing
 ---
 {% snippet icon.badgeInfo %}

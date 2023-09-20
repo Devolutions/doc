@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Open RD Gateway only when unable to ping host
 ---
 Use your RD Gateway only when your host is unreachable.

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: MySQL user provider
 ---
 The MySQL Provider allows {{ en.DVLS }} to store the MySQL account credentials to be used for MySQL accounts discovery or to achieve password rotation.  

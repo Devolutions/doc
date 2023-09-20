@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Zwischenablage Diagnose
 ---
 Es kann vorkommen, dass die Funktionen ***Benutzername kopieren*** und ***Passwort kopieren*** im {{ de.RDM }} nicht richtig funktionieren, weil andere Anwendungen oder Prozesse die Zwischenablage überwachen. Mit der ***Zwischenablage Diagnose*** können Sie alle Anfragen in Echtzeit anzeigen und feststellen, welche Anwendung beteiligt ist.

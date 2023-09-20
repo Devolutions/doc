@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Liste de vérification - Équipes
 ---
 Cette liste de vérification vous aidera lors de l'installation de {{ fr.RDM }} pour des équipes qui souhaitent implanter de la sécurité. 

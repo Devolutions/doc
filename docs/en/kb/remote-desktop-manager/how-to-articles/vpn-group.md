@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: VPN groups
 ---
 {% snippet icon.badgeInfo %}

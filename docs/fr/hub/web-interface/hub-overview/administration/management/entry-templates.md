@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modèles d'entrées
 ---
 Dans la section ***Modèles d'entrées***, afficher et gérer tous les modèles d'entrées dans {{ fr.DHUB }}.  

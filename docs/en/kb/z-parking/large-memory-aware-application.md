@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Large Memory Aware Application
 ---
 {{ en.RDM }} 64 bit version allow the application to use as much memory as is available, in the meantime, we have modified {{ en.RDM }} to allow it to access more memory, but this must be paired with a modification to your operating system.  

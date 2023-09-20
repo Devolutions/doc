@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Missing encryption file error
 ---
 After the creation of a {{ en.DVLS }} instance, when trying to open the web page, the following error is displayed in the browser.  

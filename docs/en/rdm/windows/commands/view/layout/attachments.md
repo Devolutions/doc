@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Attachments
 ---
 Files are attached to an entry and are stored directly in the database.  

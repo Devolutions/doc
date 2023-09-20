@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Documentation tab is empty
 ---
 The ***Documentation*** tab, in an entry, is empty although you have ***Reset the layout*** in the ***Window*** tab.  

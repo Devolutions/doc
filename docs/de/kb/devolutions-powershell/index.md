@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Devolutions PowerShell Modules
   order: 80
 ---

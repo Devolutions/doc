@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Encrypting file system message
 ---
 While using {{ en.RDM }} 2021.2 and higher, Windows detected a new encryption on a folder.  

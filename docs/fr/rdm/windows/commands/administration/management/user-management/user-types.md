@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Type d'utilisateur
 ---
 Lors de la création d'utilisateurs dans {{ fr.RDM }}, quatre types sont disponibles. Les droits de base sont accordés aux utilisateurs créés en fonction de leur type.  

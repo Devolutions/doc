@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Integrated Security
 ---
 Integrated Security is the name Microsoft gives to the technology that uses the credentials of your current running session and passes them automatically to the remote resources for authentication.  

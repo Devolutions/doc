@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Prerequisites
   order: 10
 ---

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Logging
   description: The Logging section allows the administrator to configure the logging features.
   keywords:

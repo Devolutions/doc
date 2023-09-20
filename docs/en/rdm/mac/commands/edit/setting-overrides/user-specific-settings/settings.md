@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Settings
 ---
 The Settings tab allows you to override the screen size, the gateway and your hard drives. 

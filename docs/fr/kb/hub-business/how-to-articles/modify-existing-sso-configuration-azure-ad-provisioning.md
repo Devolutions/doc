@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configurer un SSO existant pour le provisionnement d'Azure AD
 ---
 Si vous avez activé l'authentification unique (SSO) avec {{ fr.DHUBB }} avant le 9 janvier 2023, elle n'est pas configurée pour le provisionnement avec Azure AD. Pour bénéficier de cette fonctionnalité, vous devez créer une nouvelle configuration avec Azure AD qui synchronisera vos ***Groupes d'utilisateurs*** souhaités avec {{ fr.DHUBB }}.

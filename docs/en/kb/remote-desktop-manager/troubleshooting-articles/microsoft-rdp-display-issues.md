@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Microsoft RDP display issues
 ---
 ### The Remote session's content is blurry

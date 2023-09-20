@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: General
 ---
 The ***General*** section of the ***System Settings*** allows the administrators to apply general policies for the whole data source. 

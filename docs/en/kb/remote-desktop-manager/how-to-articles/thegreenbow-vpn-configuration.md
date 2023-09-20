@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: TheGreenBow VPN configuration
   keywords:
   - Bow

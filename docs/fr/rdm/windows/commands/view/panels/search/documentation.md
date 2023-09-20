@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Recherche dans la documentation
 ---
 Vous pouvez rechercher des pages de documentation liées aux entrées. La ***Recherche dans la documentation*** fournit un aperçu des pages de documentation, du titre de la page et des détails d'entrée associés. L'outil cherche dans le {{ fr.VLT }} actuel.  

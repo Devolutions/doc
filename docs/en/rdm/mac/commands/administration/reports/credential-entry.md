@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Credential Entry References Report
 ---
 Generate a report to show in which Group/Folder credentials entries are used.  

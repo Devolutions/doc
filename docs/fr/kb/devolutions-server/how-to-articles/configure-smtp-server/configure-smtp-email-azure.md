@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configurer un courriel SMTP avec Azure
 ---
 Depuis la version 2022.3.10 de {{ fr.DVLS }}, l'authentification moderne pour Azure peut maintenant être utilisée pour la configuration de courriels.

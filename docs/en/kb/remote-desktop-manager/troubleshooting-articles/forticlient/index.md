@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Forticlient
 ---
 {% snippet icon.badgeWarning %}

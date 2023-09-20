@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Soutien technique
   status: Topic available in German language
 ---

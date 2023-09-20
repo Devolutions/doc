@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sécurité
 ---
 Tous les mots de passe sauvegardés dans les sources de données de l'application sont chiffrés grâce à un puissant algorithme de chiffrement rendant le contenu illisible à un utilisateur qui tenterait d'accéder aux données directement dans la base de données.  

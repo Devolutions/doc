@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Groupes d'utilisateurs
 ---
 Permet d'assigner des groupes d'utilisateurs au {{ fr.VLT }}.  

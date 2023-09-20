@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Documentation
 ---
 La fonction ***Documentation*** permet de stocker des informations sur les ressources dans la source de données. Pour accéder à la documentation d'une entrée, sélectionnez une entrée dans le ***{{ fr.NPANE }}***, puis sélectionnez l'onglet ***Documentation*** dans le tableau de bord. Vous pouvez également cliquer avec le bouton droit sur une entrée dans le ***{{ fr.NPANE }}***, puis sélectionner ***Affichage - Documentation***.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modules
 ---
 {% snippet icon.badgeHelp %} 

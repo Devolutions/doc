@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: FortiClient VPN
 ---
 Here is a workaround to use a VPN in combination with FortiClient.

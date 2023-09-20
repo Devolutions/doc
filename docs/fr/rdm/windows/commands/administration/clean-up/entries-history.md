@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Nettoyer l'historique d'entrées
 ---
 L'***Historique d'entrées*** efface l'historique attaché à votre entrée, vous pouvez trouver l'historique avec un clic droit sur votre entrée et en sélectionnant ***Affichage - Historique de l'entrée***. 

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Use a pattern password
 ---
 When selecting the ***Use a pattern*** mode for ***Password Templates*** and ***Password Generator***, the following keys are the supported patterns.  

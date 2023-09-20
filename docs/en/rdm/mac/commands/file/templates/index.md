@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Templates
 ---
 Templates are available from the menu ***File - Templates***.  

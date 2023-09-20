@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Add X-Forwarded-For column in IIS 8.5 and later versions
 ---
 Follow the steps below to add X-Forwarded-For column into IIS 8.5 logs:  

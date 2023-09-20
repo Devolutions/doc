@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Administration
 ---
 ***Administrators*** and ***Users*** with specific permissions can manage ***{{ en.VLT }}s***, ***Users***, ***User Groups***, and more. In this section, you will also be able to manage ***Configuration & Security*** for your {{ en.DHUBB }}.  

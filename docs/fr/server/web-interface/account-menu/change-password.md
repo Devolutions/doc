@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Changer le mot de passe
 ---
 Allow users to modify their password for authenticating on {{ fr.DVLS }}. Autoriser les utilisateurs à modifier leur mot de passe pour s'authentifier sur {{ fr.DVLS }}.  

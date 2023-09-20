@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Home
 ---
 The ***Home*** ribbon tab allows you to apply an action on the currently selected session. The ribbon will display the following tab when the session is embedded.  

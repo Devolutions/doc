@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Security
   description: Use File – Options – Security to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
   keywords:

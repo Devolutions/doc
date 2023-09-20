@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Office365
 ---
 {% snippet icon.badgeInfo %} 

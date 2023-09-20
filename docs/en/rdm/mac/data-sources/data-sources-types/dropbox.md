@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Dropbox
 ---
 <table>

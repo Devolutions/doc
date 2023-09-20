@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Batch Edit
   status: Topic available in German language
 ---

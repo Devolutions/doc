@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configure SQL Server
 ---
 1. Install Microsoft SQL Server or Microsoft SQL Server Express. 

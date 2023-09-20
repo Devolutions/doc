@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Privileged Access Management
 ---
 This section is dedicated to enable and configure the Privileged Access Management.  

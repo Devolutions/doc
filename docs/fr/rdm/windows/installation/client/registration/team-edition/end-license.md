@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Fin de licence
 ---
 Certains de nos utilisateurs de {{ fr.RDM }} Team pourraient se demander ce qui se passera lorsque leur licence expirera. Voici les possibilités en fonction de votre modèle d'achat. 

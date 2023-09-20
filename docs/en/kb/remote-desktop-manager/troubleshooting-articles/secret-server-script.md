@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Secret Server script
 ---
 Testing procedure with PowerShell 

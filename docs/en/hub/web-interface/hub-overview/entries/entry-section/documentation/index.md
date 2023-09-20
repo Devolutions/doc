@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Documentation
   description: The Documentation feature allows to store information regarding entries.
 ---

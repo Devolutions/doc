@@ -1,3 +1,4 @@
 ---
+eleventyComputed:
   title: Erweiterte Datenquelle
 ---

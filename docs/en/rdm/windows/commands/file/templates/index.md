@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Templates
   status: Topic available in German language
 ---

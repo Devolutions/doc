@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Privileged Access
 ---
 {% snippet icon.badgeNotice %} 

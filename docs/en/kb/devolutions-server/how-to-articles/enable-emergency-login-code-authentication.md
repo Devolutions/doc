@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Enable emergency login code authentication
 ---
 In {{ en.DVLS }} you can enable the feature for an emergency access to allow login for administrators even if providers are down (Azure or AD).

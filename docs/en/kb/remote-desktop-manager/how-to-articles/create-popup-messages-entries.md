@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Create popup messages for entries
 ---
 The ***Status*** feature in {{ en.RDM }} will allow you to create pop-up messages to communicate information to users when launching sessions. The message will also display at the bottom of the dashboard when the entry is in focus like this:

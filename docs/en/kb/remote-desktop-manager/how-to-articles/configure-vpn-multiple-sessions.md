@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configure a VPN for multiple sessions
 ---
 {{ en.RDM }} automates opening a VPN when launching a remote session. This configuration is well suited to situations where you need one VPN for a group of servers at a remote location. This procedure sets the VPN configurations on the folder and the entries inherit the settings.

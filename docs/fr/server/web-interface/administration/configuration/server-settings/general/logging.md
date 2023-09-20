@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Journalisation
 ---
 La section ***Journalisation*** permet à l'administrateur de configurer les fonctionnalités de journalisation.  

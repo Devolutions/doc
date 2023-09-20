@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Éditeur
 ---
 L'éditeur de documentation est un simple éditeur de texte brut. Le texte est formaté à l'aide de la syntaxe de formatage de texte Markdown. Markdown est un langage de balisage conçu pour être aussi facile à lire et à écrire que possible.  

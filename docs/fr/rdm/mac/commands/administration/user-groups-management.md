@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Groupe d'utilisateurs
   keywords:
   - rôle

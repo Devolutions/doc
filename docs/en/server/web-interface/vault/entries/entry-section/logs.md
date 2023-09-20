@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Logs
 ---
 Consult ***Logs*** and ***Insert log comments*** specific to entries about user interaction. To view the ***General***, ***Details*** and ***Comments*** of a specific log, click the ***Log Entry*** button and click the ***Export*** button to generate a CSV file. 

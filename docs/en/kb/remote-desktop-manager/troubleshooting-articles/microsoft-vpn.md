@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Microsoft VPN
 ---
 These types of VPNs can use either the RASDIAL or RASPHONE applications for establishing the connection. Please consult Microsoft's article on their differences and usage.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Send an error report
   status: Topic available in German language
 ---

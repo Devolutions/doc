@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modifier
 ---
 L'onglet ***Modifier*** contient des opérations pour ajouter, modifier, remplacer, modifier en lot ou exporter des entrées rapidement.  

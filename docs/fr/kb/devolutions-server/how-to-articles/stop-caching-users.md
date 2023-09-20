@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Arrêter la mise en cache des utilisateurs et des groupes d'utilisateurs.
   keywords:
   - Cache

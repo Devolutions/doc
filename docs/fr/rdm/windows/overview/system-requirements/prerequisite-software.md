@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Logiciel prérequis
 ---
 Des logiciels prérequis spécifiques doivent être installés sur votre ordinateur avant d'exécuter {{ fr.RDM }}. 

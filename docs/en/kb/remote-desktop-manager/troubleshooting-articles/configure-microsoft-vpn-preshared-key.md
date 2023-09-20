@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configure a Microsoft VPN with a preshared key
 ---
 The VPN L2TP configuration in {{ en.RDM }} required a Phonebook file. We are also adding a PowerShell script in the VPN session to add the VPN in Windows and inject the Passphrase. Steps are simple but require precise information. In the first step, we need a Phonebook file. I do not cover this example as too many Google search examples exist.  

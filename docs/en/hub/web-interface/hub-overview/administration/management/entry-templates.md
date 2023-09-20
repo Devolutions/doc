@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Entry Templates
 ---
 In the ***Entry Templates*** section, view and manage all the entry templates in {{ en.DHUB }}.  

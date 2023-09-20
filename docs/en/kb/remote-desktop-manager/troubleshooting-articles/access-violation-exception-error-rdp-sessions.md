@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Access violation exception error in RDP sessions
 ---
 When trying to open a RDP session entry, you may encounter the error message "An unexpected error has occurred. Please check the application logs for more information."  

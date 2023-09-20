@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Paramètres
   order: 20
   status: Topic available in German language

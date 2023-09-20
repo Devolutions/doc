@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Liste des paramètres spécifiques de l'utilisateur
 ---
 La fonction ***Liste des paramètres spécifiques à l'utilisateur*** fournira toutes les entrées remplacées par des paramètres spécifiques à l'utilisateur.  

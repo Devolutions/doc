@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: XML
 ---
 <table>

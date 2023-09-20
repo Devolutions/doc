@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Général
 ---
 ![{{ fr.VLT }}s - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8065.png) 

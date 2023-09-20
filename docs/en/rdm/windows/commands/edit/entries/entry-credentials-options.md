@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Entry credentials options
 ---
 Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.  

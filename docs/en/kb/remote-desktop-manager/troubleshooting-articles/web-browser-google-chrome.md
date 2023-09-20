@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Web browser Google Chrome
 ---
 ## Problem 1

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Copy buttons for Custom Fields
 ---
 In {{ en.RDM }} version 2022.2 and higher, located in the ***Home - Clipboard*** tab section, we have added copy buttons from the ***Custom Fields*** section of the entries.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Footer
 ---
 The Footer section display various panes that are provided with {{ en.RDMMAC }}.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Accounts
 ---
 The Privileged Access section allows to manage all privileged accounts within a given PAM {{ en.VLT }}. The accounts can be organized within folders or directly saved in the root.  

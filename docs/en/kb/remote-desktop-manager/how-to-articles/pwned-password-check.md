@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Pwned password check
 ---
 {% youtube 'D2PnLXJY100' %}

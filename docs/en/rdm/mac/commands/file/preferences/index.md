@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Preferences
 ---
 There are multiple options available to manage and customize your {{ en.RDMMAC }} in the menu ***File - Preferences***.  

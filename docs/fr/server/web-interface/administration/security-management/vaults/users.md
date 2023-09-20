@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Usagers
 ---
 Permet d'assigner des utilisateurs au {{ fr.VLT }}.  

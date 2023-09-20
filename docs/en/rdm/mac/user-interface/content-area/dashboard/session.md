@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Session
 ---
 The dashboard displays a quick view showing possible actions, or information for the selected entry. It contains the same actions that are found in the context menu and the ribbon.  

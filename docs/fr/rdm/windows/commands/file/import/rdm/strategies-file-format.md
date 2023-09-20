@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Stratégies d'importation de RDM et format de fichier
 ---
 Lors de l'importation de fichiers RDM dans {{ fr.RDM }}, quelques spécifications sont à respecter concernant le format du contenu. 

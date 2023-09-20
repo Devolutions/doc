@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Import (.rdm)
 ---
 {{ fr.RDM }} vous permet d'importer des entrées à partir de fichiers {{ fr.RDM }} (le format d'exportation natif de {{ fr.RDM }}) précédemment exportés et stockés sur votre ordinateur. 

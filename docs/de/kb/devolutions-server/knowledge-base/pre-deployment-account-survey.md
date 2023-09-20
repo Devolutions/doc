@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Erforderliche Konten vor der Installation
 ---
 Vor der Einrichtung einer {{ de.DVLS }}-Instanz werden einige Konten benötigt, um die verschiedenen Dienste zu betreiben, die eine sichere Bereitstellung von {{ de.DVLS }} ermöglichen. Zunächst muss entschieden werden, ob Domänen- oder lokale SQL-Konten verwendet werden sollen. Unterstützt werden beide Varianten.  

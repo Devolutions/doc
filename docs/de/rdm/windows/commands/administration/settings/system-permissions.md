@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: System Berechtigungen
 ---
 Die ***Systemberechtigungen*** ermöglichen es, Standardbenutzern einige administrative Rechte zu gewähren, ohne sie zu Administratoren zu machen. Die ***Standard***einstellung erbt die für den Nutzer oder die Nutzergruppen festgelegten Berechtigungen. Weitere Informationen über Berechtigungen finden Sie unter Allgemeine Sicherheit.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Stop caching users and user groups.
   keywords:
   - Cache

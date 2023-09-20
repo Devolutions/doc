@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Subscriptions
   keywords:
   - Roles

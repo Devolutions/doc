@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Avancé
   description: Utilisez Fichier – Paramètres – Avancé pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.
 ---

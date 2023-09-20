@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Clipboard Diagnostic
   status: Topic available in German language
 ---

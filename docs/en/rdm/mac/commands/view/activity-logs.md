@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Activity Logs
 ---
 ***Activity Logs*** provide a robust logging solution. With this feature, it is possible to monitor an open session for all users using [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). The log is available in the ***View*** tab.  

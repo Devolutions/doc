@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Debugging
 ---
 When an issue occurs, while using {{ en.RDM }}, the support personnel may ask you to turn on debugging and send the information back.  

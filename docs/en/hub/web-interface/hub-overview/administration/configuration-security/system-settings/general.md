@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: General
   description: In the General section of the System Settings, manage settings related to temporary passwords, networking, support tickets, opened sessions, and usage profiles.
 ---

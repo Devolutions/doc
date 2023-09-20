@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Information sur le domaine
 ---
 Permet d'afficher l'information sur le compte de domaine.  

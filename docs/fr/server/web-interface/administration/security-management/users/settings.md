@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Paramètres
 ---
 ![Modifier l'utilisateur - Paramètres](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp7012.png)  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Attachments
   order: 20
 ---

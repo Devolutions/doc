@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Permissions du système
   status: Topic available in German language
 ---

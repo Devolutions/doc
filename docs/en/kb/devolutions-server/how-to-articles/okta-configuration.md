@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Okta configuration
 ---
 The following steps will describe how to configure Okta as an authenticator for {{ en.DVLS }}

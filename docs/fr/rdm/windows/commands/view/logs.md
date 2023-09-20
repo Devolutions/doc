@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Journaux
 ---
 Lorsque vous utilisez {{ fr.RDM }} localement avec une source de données de type individuel, les ***Journaux d'activité***, qui se trouvent en temps normal dans la section ***Affichage*** de l'onglet ***Affichage***, ne sont pas disponibles. Dans cette situation, la section ***Journaux*** apparaît dans l'onglet ***Affichage***.  

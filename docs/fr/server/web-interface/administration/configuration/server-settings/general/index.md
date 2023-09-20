@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Général
   order: 10
 ---

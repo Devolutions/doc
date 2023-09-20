@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: VPN routing
 ---
 Establishing a VPN connection using {{ en.RDM }} is simple. Unfortunately, adding routes has to be done manually. Wait for the adapter to connect, find the IP, then add the desired routes. Even if you use a script (such as a PowerShell script), it remains a redundant, time consuming task.  

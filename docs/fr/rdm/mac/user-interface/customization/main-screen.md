@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Écran principal
 ---
 Vous trouverez ci-dessous une illustration de l'écran principal de {{ fr.RDM }}.  

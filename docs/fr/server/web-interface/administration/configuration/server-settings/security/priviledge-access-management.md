@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Gestion des accès privilégiés (PAM)
 ---
 Cette section est dédiée à l'activation et à la configuration de la gestion des accès privilégiés. 

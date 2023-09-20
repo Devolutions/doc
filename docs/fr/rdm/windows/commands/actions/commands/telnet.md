@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Telnet
 ---
 Les actions d'une session Telnet vous permettent d'envoyer des commandes à distance à votre hôte. 

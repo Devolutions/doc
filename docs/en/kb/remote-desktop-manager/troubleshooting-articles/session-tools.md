@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Session tools
 ---
 When you attempt to use ***Computer Management***, you receive the error below:  

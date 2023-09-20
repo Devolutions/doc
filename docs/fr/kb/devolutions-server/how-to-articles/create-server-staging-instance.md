@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Créer une instance de test
 ---
 Afin de pouvoir effectuer des essais sur une instance de {{ fr.DVLS }} sans altérer les données en production, il devient utile de déployer une instance de test basé sur une copie de l'instance en production.  

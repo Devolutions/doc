@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Permissions du système
 ---
 Les ***Permissions du système*** sont utilisées pour fournir des droits administratifs à des utilisateurs ou groupes d'utilisateurs spécifiques. Ils peuvent être ajoutés au niveau du ***Système*** ou des ***{{ fr.VLT }}s***.  

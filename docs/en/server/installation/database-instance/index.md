@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Database instance
   order: 20
 ---

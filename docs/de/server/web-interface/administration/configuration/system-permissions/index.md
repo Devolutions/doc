@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: System Berechtigungen
   order: 30
 ---

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Domain Information
 ---
 Provides the user's domain information.  

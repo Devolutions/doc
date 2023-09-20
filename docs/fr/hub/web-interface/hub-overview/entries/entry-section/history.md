@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Historique
 ---
 Afficher l'***Historique*** de modification de l'entrée et restaurer une version précédente.  

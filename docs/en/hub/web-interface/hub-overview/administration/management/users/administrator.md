@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Administrator rights
 ---
 ***Administrators*** can allow specific users to become administrator of the {{ en.DHUBB }}.  

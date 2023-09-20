@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Clear a browser's local storage
   description: Click on your browser type to follow the steps to clear your browser's local storage.
   keywords:

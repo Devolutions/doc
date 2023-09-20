@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Licences
 ---
 Dans la section ***Licences***, vous pourrez enregistrer votre licence {{ fr.DHUBB }} et toutes les autres licences de produits Devolutions liées à l'application.  

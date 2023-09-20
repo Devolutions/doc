@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: User Template
   description: User Template allows you to modify the user settings that are selected by default when creating a new user.
 ---

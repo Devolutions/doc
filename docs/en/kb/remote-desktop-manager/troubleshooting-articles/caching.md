@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Caching
   status: Topic available in German language
 ---

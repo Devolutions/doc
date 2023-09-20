@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Outils
 ---
 La section ***Outils*** regorge de ressources pour {{ fr.DHUBB }}. Télécharger, exporter et entrer en contact avec notre ***Centre de soutien***.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Créer une source de données
   order: 10
 ---

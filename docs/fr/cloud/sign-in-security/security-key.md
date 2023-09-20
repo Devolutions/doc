@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Clé de sécurité
 ---
 Configurer une clé de sécurité physique afin de l'utiliser comme nouvelle méthode de connexion au {{ fr.DA }}. 

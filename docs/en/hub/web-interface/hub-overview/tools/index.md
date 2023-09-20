@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Tools
 ---
 The ***Tools*** section is full of resources for {{ en.DHUBB }} to download, export, and get in touch with our ***Support Center***.  

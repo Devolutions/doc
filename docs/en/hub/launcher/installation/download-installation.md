@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Download and installation
 ---
 Follow these steps to download and install {{ en.DLAUNCHER }}: 

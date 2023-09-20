@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: User interface error
 ---
 For many cases of user interface error in {{ en.RDM }}, click on ***Windows*** - ***Reset Layout*** It can effectively resolve most of your display issues.  

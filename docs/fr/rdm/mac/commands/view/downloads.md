@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Téléchargements
 ---
 La fonctionnalité ***Téléchargements*** se trouve dans l'onglet ***Affichage***.  

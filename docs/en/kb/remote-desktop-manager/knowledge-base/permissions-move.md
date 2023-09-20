@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Move permission
 ---
 The permission ***Move Permission on Entries*** in {{ en.RDM }} can be configured on your {{ en.VLT }} or in your entries and it is enabled by default.  

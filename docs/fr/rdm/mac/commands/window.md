@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Fenêtre
 ---
 Le menu ***Fenêtre*** vous permet de gérer l'affichage global de {{ fr.RDM }}. 

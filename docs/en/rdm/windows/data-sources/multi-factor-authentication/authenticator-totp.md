@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Authenticator (TOTP)
 ---
 {{ en.RDM }} allows you to use an ***Authenticator (TOTP)*** such as [{{ en.DWS }}](https://devolutions.net/workspace/) or Google Authenticator to provide an additional security layer when opening a data source. 

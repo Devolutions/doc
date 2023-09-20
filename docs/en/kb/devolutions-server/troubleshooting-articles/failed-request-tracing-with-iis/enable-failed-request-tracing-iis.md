@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Enable failed request tracing in IIS
 ---
 {% snippet icon.badgeInfo %}

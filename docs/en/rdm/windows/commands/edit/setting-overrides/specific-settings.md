@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Specific Settings
   status: Topic available in German language
 ---

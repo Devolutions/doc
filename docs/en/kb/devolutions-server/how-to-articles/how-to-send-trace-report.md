@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Send a trace report
   keywords:
   - Export HAR

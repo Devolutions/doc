@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Fichier
 ---
 Le menu ***Fichier*** contient de nombreuses actions concernant l'application et la source de données. Ce menu est contextuel et dépend de la source de données connectée.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Downloads
 ---
 The ***Downloads*** feature is located in the ***View*** tab.  

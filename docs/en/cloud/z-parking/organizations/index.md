@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Organizations
   order: 70
 ---

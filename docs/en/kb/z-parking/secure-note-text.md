@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Secure Note text
 ---
 The text in a Secure Note is not displayed properly.  

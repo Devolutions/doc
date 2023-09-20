@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sicherer Datenaustausch mit unserem Team
   keywords:
   - Sharefile

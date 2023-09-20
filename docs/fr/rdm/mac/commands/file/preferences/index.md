@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Préférences
 ---
 Plusieurs options sont disponibles pour gérer et personnaliser votre {{ fr.RDM }} dans le menu ***Fichier - Préférences***.  

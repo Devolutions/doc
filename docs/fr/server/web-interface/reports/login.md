@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Connexion
 ---
 La section ***Connexion*** fournit des outils pour auditer la ***Liste des utilisateurs connectés***, les ***Tentatives de connexion***, l'***Historique des connexions*** et la ***Dernière connexion***.  

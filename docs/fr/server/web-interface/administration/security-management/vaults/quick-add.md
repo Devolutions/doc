@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Ajout rapide
 ---
 Permet de personnaliser la liste des types de sessions pour le bouton d'ajout rapide.  

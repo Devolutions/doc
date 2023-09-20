@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Commandes PowerShell
   description: Cette rubrique concerne toutes les commandes et les arguments pour gérer PSHubContext.
   keywords: 

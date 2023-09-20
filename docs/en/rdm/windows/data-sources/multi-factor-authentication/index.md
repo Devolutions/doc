@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Multi-factor authentication
   order: 30
 ---

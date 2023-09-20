@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Créer un compte
   order: 10
 ---

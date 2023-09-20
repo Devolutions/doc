@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Enregistrer des licences de produit
 ---
 Enregistrer les ***Licences de produit*** Devolutions dans {{ fr.DHUBB }}.  

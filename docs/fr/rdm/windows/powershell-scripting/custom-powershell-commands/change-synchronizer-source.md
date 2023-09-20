@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Changer la source d'un synchroniseur
 ---
 Si vous avez utilisé la version {{ fr.RDM }} avec la fonction du synchroniseur ***Action sur l'incompatibilité de l'entrée***, les étapes suivantes vous permettront de modifier votre source avec une commande Powershell sans avoir à recréer toutes vos sessions, marquant ainsi toutes les entrées sélectionnées comme créées par le synchroniseur. 

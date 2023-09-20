@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Utilisation de l'OTP avec les entrées
 ---
 Les entrées de {{ fr.RDM }} peuvent être configurées pour utiliser un ***Mot de passe à usage unique (OTP)*** lors du lancement.  

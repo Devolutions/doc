@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Generate script for database permissions
 ---
 The following instructions provide the method to generate a SQL script to grant permissions to accounts that are used to communicate with the SQL database. The scriptsql files can be generated for the Scheduler Service account and Web Application account. For these accounts, see this knowledge base article about [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/).

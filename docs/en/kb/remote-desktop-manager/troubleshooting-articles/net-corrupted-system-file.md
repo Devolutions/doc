@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Net corrupted system file
   keywords:
   - net

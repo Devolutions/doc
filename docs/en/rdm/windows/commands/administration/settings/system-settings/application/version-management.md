@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Version Management
   status: Topic available in German language
 ---

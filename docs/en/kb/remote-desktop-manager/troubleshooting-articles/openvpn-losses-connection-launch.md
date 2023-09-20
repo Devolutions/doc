@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: OpenVPN loses connection at launch
 ---
 {% snippet icon.badgeCaution %}

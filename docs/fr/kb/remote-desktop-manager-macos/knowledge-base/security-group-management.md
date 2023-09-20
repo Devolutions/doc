@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Groupes de sécurité (ancien)
 ---
 {% snippet icon.badgeWarning %}

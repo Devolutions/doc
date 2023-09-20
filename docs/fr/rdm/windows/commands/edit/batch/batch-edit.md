@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modifier le lot
   status: Topic available in German language
 ---

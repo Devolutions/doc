@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: System Message
 ---
 Enter a system message for other users of the same data source to see when opening {{ en.RDM }}. 

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: RDP Reconnect mode
 ---
 The ***Reconnect mode*** option is available for ***Microsoft Remote Desktop*** entries. It can be found under the ***Properties*** – ***Common*** – ***General*** – ***Advanced*** tab. By default, the ***Standard*** option is selected.  

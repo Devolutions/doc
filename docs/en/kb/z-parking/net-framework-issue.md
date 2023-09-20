@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: .Net Framework Issue
   keywords:
   - Net

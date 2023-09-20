@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Services en arrière plan
 ---
 Les ***Synchroniseurs*** centralisent toutes vos entrées de synchroniseurs en un seul endroit.  

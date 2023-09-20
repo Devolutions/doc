@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Installation requirements
   status: Topic available in German language
 ---

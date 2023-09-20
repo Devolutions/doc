@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: General
 ---
 In the General side menu, you will be able to manage different right access specific to the data source.  

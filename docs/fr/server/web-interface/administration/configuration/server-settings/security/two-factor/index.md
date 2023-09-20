@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Authentification deux facteurs
 ---
 {% snippet icon.badgeInfo %} 

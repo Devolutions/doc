@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Security Provider
 ---
 The security provider is available from ***Administration - Security Provider***. The security provider is responsible for encrypting the data in the database. 

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Data Source Types
   order: 20
 ---

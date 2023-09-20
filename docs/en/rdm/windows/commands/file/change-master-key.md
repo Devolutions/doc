@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Change Master Key
 ---
 Use ***File – Change Master Key*** to encrypt the data source.  

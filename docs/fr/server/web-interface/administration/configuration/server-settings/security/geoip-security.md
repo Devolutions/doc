@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sécurité GeoIP
 ---
 La section de la ***Sécurité GeoIP*** permet à l'administrateur de définir la restriction IP en fonction de l'emplacement géographique.  

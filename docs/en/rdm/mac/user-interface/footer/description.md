@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Description
 ---
 The Description pane displays the content of the Description field of the entry. Enable the description pane by selecting View - Footer - Description in the ribbon.  

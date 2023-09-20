@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configuration avancée
 ---
 La configuration avancée permet de sélectionner des paramètres d'archivage individuellement pour chacun des journaux de {{ fr.DVLS }}.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: PowerCLI advanced troubleshooting
 ---
 {{ en.RDM }} calls PowerCLI's cmdlets and presents the results in its user interface.  

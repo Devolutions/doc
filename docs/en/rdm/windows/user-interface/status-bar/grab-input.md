@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Grab input
 ---
 The ***grab keyboard input*** is used to capture the keyboard shortcuts when a session is running. It can be disabled momentarily to ensure that the shortcut is sent to the running session.  

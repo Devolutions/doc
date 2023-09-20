@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Providers
   order: 20
 ---

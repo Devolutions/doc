@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Permissions du système
   order: 30
   status: Topic available in German language

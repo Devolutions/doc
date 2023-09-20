@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Applications
 ---
 La section ***Applications*** permettra de créer une clé d'application pour communiquer avec {{ fr.DVLS }} via le [module PowerShell](https://github.com/Devolutions/devolutions-server).  

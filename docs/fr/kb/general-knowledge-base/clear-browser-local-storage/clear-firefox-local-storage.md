@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Effacer le stockage local de Firefox
   description: Suivre les étapes pour effacer votre stockage local dans le navigateur Firefox.
   keywords:

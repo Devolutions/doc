@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Mot de passe interdit
 ---
 Les mots de passe interdits permettent de créer une liste de mots de passe interdit dans l'utilisation de l'application. Une fois défini dans cette liste, le mot de passe ne peut plus être utilisé dans la source de données {{ fr.DVLS }}.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Microsoft RDP errors
 ---
 ## Problem 1

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Options
 ---
 {% youtube 'WwkN_yxYwno' %}  

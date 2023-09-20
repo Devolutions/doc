@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Terminal Services / Services Bureau à distance
   keywords:
   - Citrix

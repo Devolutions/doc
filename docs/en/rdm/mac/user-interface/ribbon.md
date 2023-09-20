@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Ribbon
   description: The Ribbon is composed of multiple tabs that contain commands, further classified in sections.
 ---

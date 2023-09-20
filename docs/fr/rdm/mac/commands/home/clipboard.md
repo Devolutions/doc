@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Presse-papiers
 ---
 Les options de copie du ruban ***Accueil*** contiennent les options de copie des valeurs d'entrée de données dans votre presse-papiers, telles que :  

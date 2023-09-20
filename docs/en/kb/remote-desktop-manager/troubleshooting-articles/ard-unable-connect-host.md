@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: ARD is unable to connect to a host
 ---
 Unable to connect to a host.  

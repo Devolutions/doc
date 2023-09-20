@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modifier
 ---
 Le ruban ***Modifier*** contient des opérations permettant d'ajouter, de modifier, de remplacer, de modifier par lot ou d'exporter des entrées.  

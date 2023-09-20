@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Yubikey
 ---
 {{ en.RDMMAC }} allows you to use a ***Yubikey*** to provide an additional security layer when opening a data source. 

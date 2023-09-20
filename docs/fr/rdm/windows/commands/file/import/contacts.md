@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Importer des contacts
 ---
 Vous pouvez accéder à ***Fichier – Importer –*** Contacts pour importer des contacts d'autres logiciels dans {{ fr.RDM }}. 

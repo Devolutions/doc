@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: System Requirements
 ---
 {{ en.RDM }} requires the following prior to installation: 

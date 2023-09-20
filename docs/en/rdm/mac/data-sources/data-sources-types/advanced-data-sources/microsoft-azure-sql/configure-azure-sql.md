@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configure Azure SQL
 ---
 1. Make sure you have a valid Azure SQL subscription to be able to create your database. 

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sélection de la source Hub
   order: 10
 ---

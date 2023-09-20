@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Advanced
   description: Use File – Options – Advanced to control the behavior of the application with respect to the lower level settings.
 ---

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Authentification de Site Web
   status: Topic available in German language
 ---

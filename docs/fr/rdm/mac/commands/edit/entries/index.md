@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Ajouter des entrées
 ---
 Les options pour ajouter vous permettent de créer rapidement de nouvelles entrées, de les dupliquer, de créer des raccourcis ou d'enregistrer votre entrée en tant que modèle.  

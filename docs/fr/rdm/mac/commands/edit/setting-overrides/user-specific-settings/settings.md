@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Paramètres
 ---
 L'onglet ***Paramètres*** vous permet de remplacer le format de l'écran, la passerelle et vos disques durs. 

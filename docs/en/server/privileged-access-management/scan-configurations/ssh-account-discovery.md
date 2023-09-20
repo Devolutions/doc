@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: SSH account discovery
 ---
 The SSH Account Discovery allows {{ en.DVLS }} to scan the host to find accounts. The accounts will not be automatically added in the Privileged Access Management folders.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Local Machine Specific Settings
 ---
 Allow session setting override for the local machine. Several settings can be overridden such as user name, password and display. 

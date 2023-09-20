@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Informations
 ---
 La section ***Informations*** comprend des informations facultatives.  

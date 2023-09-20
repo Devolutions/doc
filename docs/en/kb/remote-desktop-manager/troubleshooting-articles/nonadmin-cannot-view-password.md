@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Non-admin users are unable to view passwords
   keywords:
   - role

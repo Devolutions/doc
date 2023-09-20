@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Serials
   order: 10
 ---

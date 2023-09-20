@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: New Entry
 ---
 The ***New Entry*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the entries of the [***All Entries***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#all-entries-tab) tab. You can choose to create a new ***Website***, ***Credit Card***, ***Contact***, or ***Secure Note*** entry.  

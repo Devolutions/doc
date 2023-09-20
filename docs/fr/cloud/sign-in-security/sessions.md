@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sessions
 ---
 Dans la fenêtre ***Sessions***, vous pouvez visualiser et valider toutes les sessions ouvertes en cours associées à votre {{ fr.DA }}.  

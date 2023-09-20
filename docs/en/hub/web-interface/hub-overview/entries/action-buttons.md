@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Action Buttons
 ---
 The display of ***Action Buttons*** for entries will vary depending on the type of entry selected and your {{ en.DHUB }} settings.  

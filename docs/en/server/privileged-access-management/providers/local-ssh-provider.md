@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Local SSH provider
 ---
 The SSH Provider allows {{ en.DVLS }} to store the SSH local account credentials to be used for SSH accounts discovery or to achieve password rotation.  

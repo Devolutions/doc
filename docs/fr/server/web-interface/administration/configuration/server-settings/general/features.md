@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Fonctionnalités
 ---
 La section ***Fonctionnalités*** permet à l'administrateur de configurer les fonctionnalités de l'interface Web.  

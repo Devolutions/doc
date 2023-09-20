@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Entries
 ---
 Manage, import, organize, and save all your data with ***Entries*** and ***Folders*** in your {{ en.DHUBB }}.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Message
 ---
 The ***Message*** feature is located in the ***View*** tab.  

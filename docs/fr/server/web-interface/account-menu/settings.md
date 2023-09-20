@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Paramètres
 ---
 Dans la section ***Paramètres***, modifiez les éléments de l'interface utilisateur Web. 

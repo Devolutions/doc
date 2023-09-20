@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Folder
 ---
 The dashboard displays the folder's entries. It is possible to display the group details directly or only the information regarding the selected entry in the dashboard.  

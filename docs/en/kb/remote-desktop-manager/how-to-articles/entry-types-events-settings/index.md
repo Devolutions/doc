@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Entry types events settings
 ---
 {{ en.RDM }} gives you the flexibility to automatically run operations before or after establishing a connection.  

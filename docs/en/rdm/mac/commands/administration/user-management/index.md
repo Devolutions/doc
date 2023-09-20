@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: User Management
   description: User Management is available from Administration – Users and allows you to create, manage, and assign rights to a user.
 ---

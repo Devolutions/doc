@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: CyberArk PSM integration scenarios
 ---
 There are different approaches using the {{ en.RDM }} Cyberark PSM Components.  

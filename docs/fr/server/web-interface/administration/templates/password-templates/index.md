@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modèles de mot de passe
   order: 10
 ---

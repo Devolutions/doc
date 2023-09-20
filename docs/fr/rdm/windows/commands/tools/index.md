@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Outils
 ---
 L'onglet ***Outils*** contient votre ***Gestionnaire d'extensions***, les générateurs et plusieurs outils utiles.  

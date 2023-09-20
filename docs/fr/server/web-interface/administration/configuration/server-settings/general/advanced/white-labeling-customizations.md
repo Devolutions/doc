@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Personnalisations des Logos
 ---
 Vous pouvez personnaliser les logos de l'interface Web {{ fr.DVLS }} pour mieux servir vos clients. 

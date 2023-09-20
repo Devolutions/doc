@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Allow access to your PC from outside your PC's network
 ---
 {% snippet icon.shieldWarning %}

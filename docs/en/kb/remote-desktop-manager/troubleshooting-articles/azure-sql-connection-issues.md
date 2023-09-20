@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Azure SQL connection issues
 ---
 Here is a validation list to help resolve issues when failing to login and connect with Azure SQL in {{ en.RDM }}.  

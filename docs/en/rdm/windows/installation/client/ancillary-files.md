@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Ancillary files
 ---
 {{ en.RDM }} generates ancillary files on your workstation. The table below lists out an example of ancillary files and their locations.  

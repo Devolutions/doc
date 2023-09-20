@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configure an SMTP email
 ---
 Configure a basic SMTP email in {{ en.DVLS }} by following the steps below.

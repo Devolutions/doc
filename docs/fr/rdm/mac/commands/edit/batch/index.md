@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modifier le lot
 ---
 Utiliser l'option ***Modifier - Modifier le lot*** dans le menu contextuel ou le ruban pour modifier les paramètres de plusieurs sessions en une seule opération. Il peut être utilisé par exemple pour supprimer ou mettre à jour tous les identifiants d'un groupe de sessions.  

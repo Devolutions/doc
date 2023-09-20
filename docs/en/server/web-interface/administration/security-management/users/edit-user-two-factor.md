@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Multi-factor
   description: If you set multi-factor authentication (MFA) as Optional per user in the Server Settings, you then need to configure which MFA method to use. 
 ---

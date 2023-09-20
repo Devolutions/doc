@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Data recovery
 ---
 In the event of data loss due to hardware failure, it is still possible to recover data from your storage device if it is still useable.

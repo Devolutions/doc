@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Verrouiller la source de données
 ---
 Pour protéger les données sensibles dans votre configuration de source de données par exemple, l'URL du serveur ou les identifiants, vous souhaiterez peut-être verrouiller la configuration de la source de données avant de la déployer à vos utilisateurs. Vous pouvez le faire en utilisant le bouton Verrouiller/Déverrouiller de la barre d'outils. 

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Startup performance
 ---
 The application performance must be validated with an empty data source. Create a new empty XML data source and select it as being the current data source.  

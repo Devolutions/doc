@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Status bar in WebViews stays in focus
 ---
 In {{ en.RDM }}, when using a ***Website*** entry in embedded mode, the status bar can remain in focus after the page has loaded and persists across tabs.

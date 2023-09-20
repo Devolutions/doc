@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Problème de résolution élevée
   description: De multiples problèmes peuvent être causés par une résolution élevée dans les sessions RDP.
   keywords:

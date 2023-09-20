@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Réinitialiser le cache du serveur
   keywords:
   - Rôle

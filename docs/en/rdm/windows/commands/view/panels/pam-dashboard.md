@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: PAM Dashboard
 ---
 {% snippet icon.badgeNotice %} 

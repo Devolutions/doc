@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Créer et gérer des Groupes d'utilisateurs
 ---
 La gestion des utilisateurs et des permissions peuvent être simplifiées avec les ***Groupes d'utilisateurs*** dans {{ fr.DHUBB }}.  

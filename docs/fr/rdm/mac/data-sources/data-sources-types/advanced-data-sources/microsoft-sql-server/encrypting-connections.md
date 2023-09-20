@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Chiffrement des connexions à SQL Server
 ---
 Pour garantir que la communication entre {{ fr.RDMMAC }} et la base de données Microsoft SQL Server est cryptée, une procédure complète doit être suivie sur l'instance Microsoft SQL Server.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Créer des groupes de permissions dans votre organisation
 ---
 Vous pouvez créer des ***Groupes*** pour attribuer des permissions spécifiques et gérer les ***Membres*** dans votre organisation.  

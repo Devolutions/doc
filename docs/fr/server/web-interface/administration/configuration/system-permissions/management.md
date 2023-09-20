@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Gestion
   keywords:
   - Rôle

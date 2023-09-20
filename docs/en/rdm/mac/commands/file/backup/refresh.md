@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Refresh
 ---
 Use File - Refresh to refresh your data source information. Performing a refresh will assure you that your data source is up to date.  

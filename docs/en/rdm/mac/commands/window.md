@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Window
 ---
 The Window menu allows you to manage the overall display of {{ en.RDMMAC }}.  

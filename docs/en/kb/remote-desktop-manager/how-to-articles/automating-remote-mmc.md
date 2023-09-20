@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Automating Remote Microsoft Management Console (MMC)
 ---
 You can configure a MMC Snap-In console to run on any of your servers. The Snap-In need to support remote access.

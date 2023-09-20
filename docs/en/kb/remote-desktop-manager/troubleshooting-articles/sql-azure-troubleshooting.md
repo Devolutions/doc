@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: SQL Azure troubleshooting
 ---
 ## When attempting to use a Azure SQL data source, you receive the error message below;

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Tableau de bord PAM
 ---
 {% snippet icon.badgeNotice %} 

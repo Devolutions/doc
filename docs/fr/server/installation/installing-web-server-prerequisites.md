@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Installation des rôles serveur Web prérequis
   order: 40
   status: Topic available in German language

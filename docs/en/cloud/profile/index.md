@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Profile
   order: 20
 ---

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Groups d'utilisateurs
   order: 20
 ---

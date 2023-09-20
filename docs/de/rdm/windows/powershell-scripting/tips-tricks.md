@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Liste der Eigenschaftsnamen für das PowerShell-Skript
 ---
 Wir werden oft um eine vollständige Liste der Eigenschaftsnamen gebeten, aber es ist aus verschiedenen Gründen schwierig, diese zu liefern. Der effektivste Ansatz ist nach wie vor die Untersuchung der XML-Struktur eines relevanten Eintrags, um die Feldnamen zu ermitteln.  

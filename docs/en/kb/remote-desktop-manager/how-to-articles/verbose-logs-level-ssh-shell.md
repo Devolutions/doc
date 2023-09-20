@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Verbose logs level in SSH Shell
 ---
 When an issue with an SSH Shell session arises, support might require that you sent them a ***Verbose log*** Different verbose level exists:  

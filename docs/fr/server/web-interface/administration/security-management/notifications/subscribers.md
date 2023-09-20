@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Abonnés
 ---
 Au minimum un abonné doit exister afin de recevoir les notifications des activités de l'instance {{ fr.DVLS }}.  

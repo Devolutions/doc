@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Migration from Domain Authentication to Microsoft Authentication
 ---
 {% snippet icon.badgeCaution %}

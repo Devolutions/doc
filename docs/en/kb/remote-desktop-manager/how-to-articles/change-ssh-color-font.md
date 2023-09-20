@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Change SSH color and font
 ---
 To make a change to all your sessions, head over to ***File – Options – Types – Terminal – Colors*** and check ***Override terminal colors*** You can also ***Import*** and ***Export***, from this window, to share the settings.  

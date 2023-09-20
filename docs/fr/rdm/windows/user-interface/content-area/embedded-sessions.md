@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sessions intégrées
 ---
 Le mode d'affichage ***Intégré (à onglets)*** vous permet d'ouvrir plusieurs sessions sous forme d'onglets avec {{ fr.RDM }}, similaires aux onglets de votre navigateur internet standard. Les sessions Intégrées sont l'un des 3 modes d'affichage disponibles, les 2 autres étant ***Externe*** et ***Désancré***.  

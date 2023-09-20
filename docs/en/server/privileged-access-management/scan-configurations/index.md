@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Scan configurations
   order: 30
 ---

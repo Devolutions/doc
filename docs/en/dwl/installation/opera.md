@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Opera
 ---
 Follow the steps below to complete the installation of {{ en.DWL }} in the Opera web browser.  

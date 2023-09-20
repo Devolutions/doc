@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Search
 ---
 This section is a ***Search*** feature to quickly navigate through your entries in all your {{ en.VLT }}s.  

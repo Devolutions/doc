@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Clear Microsoft Edge's local storage
   description: Follow the steps to clear your local storage in the Microsoft Edge browser.
   keywords:

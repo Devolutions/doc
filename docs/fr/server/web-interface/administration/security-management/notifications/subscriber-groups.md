@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Groupes d'abonnés
 ---
 Le groupe d'abonnés est utilisé pour regrouper des abonnés, soit des utilisateurs et/ou serveurs syslogs.  

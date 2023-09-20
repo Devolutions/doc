@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Open a session
 ---
 Select an entry and click the ***{{ en.DLAUNCHER }}*** icon.  

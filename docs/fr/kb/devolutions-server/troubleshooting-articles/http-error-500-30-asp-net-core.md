@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: HTTP Error 500.30 - ASP.NET Core app Failed to Start
 ---
 Suite au processus de mise à jour de {{ fr.DVLS }}, lorsque l'on tente d'ouvrir la page Web, le navigateur affiche le message d'erreur suivant.  

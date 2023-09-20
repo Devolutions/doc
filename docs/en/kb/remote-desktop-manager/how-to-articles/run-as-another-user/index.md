@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Run as another user
 ---
 There are many different types of credentials and they are used by a multitude of users. Be it a mobile warrior, a sysadmin that follows best practices and does not log on to his computer using his domain admin account or even a safety conscious parent that creates limited accounts for the kids on the family computer. This requires the capability to start an application under a different set of credentials while we are already logged on using our main credentials.  

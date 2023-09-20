@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Multiple types of connections to a single computer
 ---
 You have hosts for which you need to use many different remote access technologies (ex: RDP, SSH, Web, etc.)

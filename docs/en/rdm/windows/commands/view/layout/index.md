@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Layout
 ---
 The ***Layout*** section located in the ***View*** tab includes several options for changing the display of {{ en.RDM }}. It is possible to enable/disable certain windows and tabs to customize your experience.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Gérer des identifiants
   description: Selon les politiques de sécurité de votre organisation, il existe plusieurs façons de gérer les identifiants.
 ---

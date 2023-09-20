@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Export with PowerShell
 ---
 {% snippet icon.badgeInfo %} 

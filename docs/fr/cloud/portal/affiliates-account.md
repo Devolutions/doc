@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Compte Affiliates
 ---
 La section ***Compte Affiliates*** vous permet de rejoindre Devolutions pour promouvoir {{ fr.RDM }} et obtenir 10% en redevances publicitaires.  

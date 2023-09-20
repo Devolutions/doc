@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Unable to Install or Upgrade, Cabinet File is Corrupt
 ---
 When you install or upgrade {{ en.RDM }}, you receive this error message below;  

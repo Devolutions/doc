@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: CyberArk integration – License requirements
 ---
 {% snippet icon.badgeInfo %}

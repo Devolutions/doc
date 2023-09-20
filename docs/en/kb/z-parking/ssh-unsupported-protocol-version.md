@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: SSH Unsupported Protocol Version
 ---
 [Rebex.net](https://www.rebex.net/) sshexception: unsupported protocol version.

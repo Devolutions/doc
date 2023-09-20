@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Paramètres
 ---
 La [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) vous permet de sauvegarder votre [{{ fr.DOD }}](/fr/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/) ou une source de données [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) dans un stockage en ligne sûr. L'option de sauvegarde est disponible via le menu ***Fichier - Copie de sauvegarde***.  

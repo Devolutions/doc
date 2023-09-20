@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Mode hors ligne
 ---
 Dans la section ***Utilisateurs***, vous pouvez activer le mode hors ligne pour des utilisateurs spécifiques. Cela permettra un cache en lecture seule des entrées de {{ fr.DHUBB }}.  

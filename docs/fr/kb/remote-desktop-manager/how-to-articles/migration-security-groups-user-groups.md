@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Migration des groupes de sécurité (anciens) vers les groupes d'utilisateurs
   status: Topic available in German language
 ---

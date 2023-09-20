@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Paramètres spécifiques
   status: Topic available in German language
 ---

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Licenses
 ---
 Managing registration globally for all your users can be done with a license serial stored in ***Licenses*** section. 

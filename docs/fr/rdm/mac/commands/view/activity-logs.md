@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Journaux d'activité
 ---
 Les ***Journaux d'activité*** offrent une solution robuste de journalisation. Grâce à cette fonctionnalité, il est possible de surveiller une session ouverte pour tous les utilisateurs qui utilisent des [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/). Le journal est disponible dans l'onglet ***Affichage***.  

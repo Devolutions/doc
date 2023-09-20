@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Lexicon
 ---
 {{ en.RDM }} is a software that has an extensive set of functionalities. Here are the major concepts that are important to understand in order to use the program to its full potential.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Remove the Security Provider
   description: The following procedure explains how to remove the Security Provider and implement the encryption at rest using the encryption keys.
 ---

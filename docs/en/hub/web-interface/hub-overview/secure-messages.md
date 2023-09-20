@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Secure Messages
 ---
 Send and receive ***Secure Messages*** with users from your hub. Click the ***Messages*** icon above your avatar to create and read secure messages.  

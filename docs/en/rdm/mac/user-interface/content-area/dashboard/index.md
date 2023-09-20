@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Dashboard
 ---
 The Dashboard displays commands and information related to the selected entry. The dashboard is context sensitive and its content depends on the type of the selected entry.  

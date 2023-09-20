@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Authentication
 ---
 The ***Authentication*** section allows you to configure how your users will log into your hub.  

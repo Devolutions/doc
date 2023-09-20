@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Favorite Entries
 ---
 The ***Favorites*** tab contains entries flagged as favorite by the current user. Favorites are not shared and they roam with the user profile.  

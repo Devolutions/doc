@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: SQL Server provider
 ---
 The SQL Provider allows {{ en.DVLS }} to store the SQL account credentials to be used for SQL accounts discovery or to achieve password rotation.  

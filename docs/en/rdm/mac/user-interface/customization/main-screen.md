@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Main Screen
 ---
 Below is an illustration of {{ en.RDMMAC }}'s main screen.  

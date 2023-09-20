@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Multi Domain
 ---
 {% snippet icon.badgeInfo %} 

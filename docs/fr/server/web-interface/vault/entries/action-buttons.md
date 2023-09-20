@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Boutons d'action
 ---
 L'affichage des ***Boutons d'action*** pour les entrées varie en fonction du type d'entrée sélectionné et de vos paramètres de {{ fr.DVLS }}.

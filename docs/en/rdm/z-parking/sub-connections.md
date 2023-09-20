@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sub entries
 ---
 The sub entries footer pane is used when having define sub entries for your current entry.  

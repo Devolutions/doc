@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sonicwall Global VPN client
 ---
 The connection is not established.

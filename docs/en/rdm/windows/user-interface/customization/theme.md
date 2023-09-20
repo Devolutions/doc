@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Theme
 ---
 The theme of {{ en.RDM }} can be changed to better suit your preferences. It modifies the color and shade of the user interface.  

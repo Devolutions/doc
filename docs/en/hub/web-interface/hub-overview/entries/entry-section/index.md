@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Entry Section
 ---
 Each entry will have a definite section with options to view information pertaining only to this entry.  

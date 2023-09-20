@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: User Template
 ---
 This section will set the user template for the [Automatic User Creation](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/) feature. 

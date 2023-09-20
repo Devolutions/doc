@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Licences
 ---
 La gestion globale de l'enregistrement {{ fr.RDM }} pour tous vos utilisateurs peut être effectuée avec une licence stockée dans une source de données avancée telle que {{ fr.DVLS }}, Microsoft SQL Server ou Azure SQL.  

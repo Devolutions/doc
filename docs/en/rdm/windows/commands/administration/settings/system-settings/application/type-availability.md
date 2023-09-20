@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Type availability
 ---
 ![System Settings - Types - Availability](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10330.png) 

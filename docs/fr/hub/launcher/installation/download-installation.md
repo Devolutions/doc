@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Téléchargement et installation
 ---
 Suivre les étapes ci-dessous pour compléter l'installation {{ fr.DLAUNCHER }}.  

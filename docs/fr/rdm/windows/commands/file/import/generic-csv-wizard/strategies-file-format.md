@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Stratégies d'importation de CSV et format de fichier
   status: Topic available in German language
 ---

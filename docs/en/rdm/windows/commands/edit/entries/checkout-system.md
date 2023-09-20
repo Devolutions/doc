@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Checkout system
 ---
 {% youtube '-QbEyscBx8s' %}  

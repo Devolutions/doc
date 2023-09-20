@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: SHA-256
 ---
 Le SHA (Secure Hash Algorithm) est l'une des nombreuses fonctions de hachage cryptographique. Un hachage cryptographique est comme une signature pour un ensemble de données. Si vous souhaitez comparer deux ensembles de données brutes (source du fichier, texte ou autre), il est toujours préférable de les hacher et de comparer les valeurs SHA-256.  

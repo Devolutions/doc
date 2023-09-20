@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Recherche
 ---
 Il est possible d'appliquer un filtre dans le [***{{ fr.NPANE }}***](/fr/rdm/mac/user-interface/navigation-pane/) en tapant certains caractères dans la zone de filtre. Le filtre est appliqué en utilisant les paramètres spécifiés dans l'application. 

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Domaine
   order: 10
 ---

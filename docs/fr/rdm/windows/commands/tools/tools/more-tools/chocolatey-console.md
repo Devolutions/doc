@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Console Chocolatey
 ---
 {% snippet icon.badgeCaution %} 

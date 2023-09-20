@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Paramètres de mon compte
 ---
 Utiliser ***Fichier - Paramètres de mon compte*** pour configurer les comptes qui se connectent à différentes plates-formes Web. Configurer les paramètres de compte une fois et utilisez-les dans les entrées autant de fois que nécessaire. Cette section permet également de gérer ***Mes identifiants personnels***, ***Ma clé privée personnelle*** et les ***Listes des paramètres spécifiques***. 

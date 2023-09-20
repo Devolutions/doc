@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Mobil (USB)
 ---
 {{ de.RDM }} kann als mobile Anwendung verwendet werden. Im Folgenden sind die Schritte aufgeführt, die gewährleisten, dass das Programm ordnungsgemäß funktioniert:  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Test variables
 ---
 {% snippet icon.badgeInfo %}

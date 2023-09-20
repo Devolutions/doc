@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Mise à niveau de la base de données
   status: Topic available in German language
 ---

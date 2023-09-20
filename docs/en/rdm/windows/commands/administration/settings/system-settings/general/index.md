@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: General
 ---
 The ***General*** section allows to manage the availability of different features related to the database. 

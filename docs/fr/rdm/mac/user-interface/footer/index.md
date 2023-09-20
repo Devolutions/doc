@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Bas de page
 ---
 La section ***Bas de page*** affiche les différents volets fournis avec {{ fr.RDM }}.  

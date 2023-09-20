@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Générateur de mots de passe
 ---
 Le ***Générateur de mots de passe*** vous permet de créer des mots de passe aléatoires qui sont sécurisés et difficiles à interpréter ou à prédire en raison d'un mélange de lettres majuscules et minuscules, de chiffres et de symboles de ponctuation.  

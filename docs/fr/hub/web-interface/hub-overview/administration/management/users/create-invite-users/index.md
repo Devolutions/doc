@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Créer et inviter des utilisateurs
 ---
 Créer et inviter des ***Utilisateurs*** dans votre {{ fr.DHUBB }} avec leur adresse courriel. 

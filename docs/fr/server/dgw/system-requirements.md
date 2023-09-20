@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configuration du système
   order: 20
 ---

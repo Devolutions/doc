@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: BeyondTrust issues
 ---
 ## Problem 1

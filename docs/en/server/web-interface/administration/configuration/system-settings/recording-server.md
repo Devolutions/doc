@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Recording Server
 ---
 Display the ***Recording Server*** configuration. This feature can only be configured from the {{ en.DVLSCONSOLE }}. 

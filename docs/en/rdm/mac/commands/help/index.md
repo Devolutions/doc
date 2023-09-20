@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Help
 ---
 The Help tab contain links to our Devolutions web site and Online Help. It also includes all the links to follow us on different social media platform. Our support team might also ask you to perform some operations that you will find in the Help tab.  

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: VPN References Report
 ---
 Generate a report showing all VPN entries and the sessions using them in the VPN tab.  

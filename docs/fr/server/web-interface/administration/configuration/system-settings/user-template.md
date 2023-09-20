@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Modèle utilisateur
 ---
 Cette section définira le modèle d'utilisateur pour la fonction de création automatique d'utilisateurs.  

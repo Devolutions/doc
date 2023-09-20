@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Entry type
 ---
 Choose the best suited ***Entry Type*** to create and manage each entry in {{ en.DHUB }}.  

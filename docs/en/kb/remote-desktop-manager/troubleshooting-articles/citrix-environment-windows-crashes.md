@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Citrix environment Windows crash
 ---
 When an RDS server prompts for credentials, it uses adll and if we prompt it too many times by many users, Windows will crash.

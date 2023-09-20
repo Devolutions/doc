@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Barre de connexion rapide
 ---
 La ***Barre de connexion rapide***, qui se trouve en haut de l'application, est composée de plusieurs parties :  

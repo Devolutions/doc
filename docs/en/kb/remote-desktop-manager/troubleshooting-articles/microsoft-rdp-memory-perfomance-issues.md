@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Microsoft RDP memory and performance issues
 ---
 ## You can only run a few rdp sessions at the same time in {{ en.RDM }} and you want to know how to be able to open more sessions.

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Tableau de bord
 ---
 Le ***Tableau de bord*** affiche les commandes et les informations relatives à l'entrée sélectionnée. Le contenu du tableau de bord dépend du type d'entrée sélectionnée.  

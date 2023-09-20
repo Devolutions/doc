@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configure a VPN with an existing session
 ---
 Follow this procedure to configure in {{ en.RDM }} a VPN entry with an existing session.

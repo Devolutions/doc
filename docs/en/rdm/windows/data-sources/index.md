@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Data sources
   order: 40
 ---

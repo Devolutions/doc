@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configure LAPS with a Custom Credential entry
 ---
 The following guide describe how to add a PowerShell script in a Custom Credential entry to connect on remote machine using [Microsoft LAPS](https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview).

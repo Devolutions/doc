@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Microsoft RDP protocol error
 ---
 Because of a protocol error, this session will be disconnected. Please try connecting to the remote computer again.  

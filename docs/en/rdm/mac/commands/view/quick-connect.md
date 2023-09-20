@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Quick Connect
 ---
 ***Quick Connect*** allows you to open an ad-hoc session by specifying the host and session type. This feature is accessible via the ***Quick Connect*** toolbar or in the ***View*** tab in {{ en.RDMMAC }}.  

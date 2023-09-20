@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Convert a Website (legacy) entry to a Website entry
 ---
 Since version 2022.2.12 of {{ en.RDM }}, the ***Web Browser*** session entry type is now known as ***Website***, and the old ***Website*** information entry type has been renamed to ***Website (legacy)***, as it is a deprecated entry type.

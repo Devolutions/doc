@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Ajouter un modèle comme outil personnalisé
 ---
 Vous aimeriez avoir accès à un ***Outil personnalisé*** qui vous permettrait d’appliquer automatiquement un ***Modèle*** à une de vos connexions dans {{ fr.RDM }}? Ne cherchez plus : l’objectif principal de la solution présentée ici est de vous simplifier la vie. Autrement, pour lancer une entrée avec un ***Modèle***, il vous faudrait :  

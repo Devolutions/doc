@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Restaurer
 ---
 {% snippet icon.badgeCaution %} 

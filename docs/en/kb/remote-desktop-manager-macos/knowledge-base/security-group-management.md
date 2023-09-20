@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Security Group Management (Legacy)
 ---
 {% snippet icon.badgeWarning %}

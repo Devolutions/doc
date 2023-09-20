@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: OpenVPN enter wrong credentials
 ---
 {% snippet icon.badgeCaution %}

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: General 
 ---
 The General tab allows you to override the Display mode and the credentials. 

@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Third-party clipboard issue
 ---
 Third-party applications interfere with the data in the clipboard, preventing you from copying and pasting information.

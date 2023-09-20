@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Import sessions
 ---
 Use the File - Import - Import Sessions From to import sessions into {{ en.RDMMAC }}.  

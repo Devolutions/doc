@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Database Upgrade
   status: Topic available in German language
 ---

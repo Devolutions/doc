@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: My Personal Credentials
   keywords:
   - Terminal Service

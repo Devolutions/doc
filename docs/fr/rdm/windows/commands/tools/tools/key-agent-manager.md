@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Gestionnaire de l'agent des clés
 ---
 Le ***Gestionnaire de l'agent des clés*** est utilisé pour conserver toutes vos clés SSH en mémoire, déjà décodées et prêtes à être utilisées. Il a la même utilisation que Pageant (SSH Key Manager) pour Putty, sauf que le ***Gestionnaire de l'agent des clés*** est utilisé avec {{ fr.RDM }}.  

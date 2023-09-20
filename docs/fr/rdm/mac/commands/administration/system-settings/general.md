@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Général
 ---
 Dans le menu ***Général***, vous pourrez gérer différents droits d'accès spécifiques à la source de données.  

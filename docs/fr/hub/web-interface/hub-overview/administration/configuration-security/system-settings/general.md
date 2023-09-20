@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Général
 ---
 Dans la section ***Général***, gérer la façon dont le ***Mot de passe temporaire*** sera envoyé à vos utilisateurs lors de la création de leur {{ fr.DA }} à partir d'une invitation dans {{ fr.DHUBB }}.  

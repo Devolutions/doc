@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Sicherung
   order: 50
 ---

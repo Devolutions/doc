@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Upgrade process bullet list
 ---
 ## Upgrading an instance of {{ en.DVLS }}

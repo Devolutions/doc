@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Configuration du système
 ---
 {{ fr.RDMMAC }} requiert la configuration suivante avant l'installation. 

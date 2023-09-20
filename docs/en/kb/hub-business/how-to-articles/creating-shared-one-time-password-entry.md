@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Creating a shared one-time password entry
 ---
 Add a layer of security to your {{ en.DA }} by setting up a shared one-time password entry (OTP). To create one for your application, follow the steps below.

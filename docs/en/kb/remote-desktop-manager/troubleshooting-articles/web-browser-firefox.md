@@ -1,4 +1,5 @@
 ---
+eleventyComputed:
   title: Web browser Firefox
 ---
 Firefox in embedded mode does not work in the application.  
