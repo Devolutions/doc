@@ -1,6 +1,6 @@
 ---
   title: System Requirements
-order: 20
+  order: 20
 ---
 {{ en.DGW }} requires the following:  
 

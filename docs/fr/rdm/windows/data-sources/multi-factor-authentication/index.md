@@ -1,6 +1,6 @@
 ---
   title: Authentification multifacteur
-order: 30
+  order: 30
 ---
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité est disponible pour les sources de données [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/), [Microsoft Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/), [Microsoft SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/). 

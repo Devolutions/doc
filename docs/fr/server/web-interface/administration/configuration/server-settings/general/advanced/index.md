@@ -1,6 +1,6 @@
 ---
   title: Avancée
-order: 20
+  order: 20
 ---
 La section ***Avancée*** permet à l'administrateur de configurer le paramètre de la durée de vie du jeton ainsi que d'autres paramètres avancés ou la ***Personnalisations des Logos***.  
 ![Administration – Paramètres de {{ fr.DVLS }} – Avancée](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8044.png) 

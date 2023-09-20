@@ -1,4 +1,4 @@
 ---
   title: Benutzer
-order: 10
+  order: 10
 ---

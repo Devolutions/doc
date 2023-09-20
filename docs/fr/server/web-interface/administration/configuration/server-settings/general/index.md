@@ -1,6 +1,6 @@
 ---
   title: Général
-order: 10
+  order: 10
 ---
 La section ***Général*** permet à l'administrateur de modifier le nom ou la description de l'instance {{ fr.DVLS }}.  
 ![Adminsitration - Paramètres de {{ fr.DVLS }} - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8041.png) 

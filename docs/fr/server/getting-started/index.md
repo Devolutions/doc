@@ -1,6 +1,6 @@
 ---
   title: Introduction
-order: 10
+  order: 10
 ---
 {% snippet icon.badgeInfo %} 
 Cette section couvre {{ fr.DVLS }} édition Entreprise. Si vous avez acheté une licence de {{ fr.DVLS }} édition Team, veuillez consulter la section [Introduction à l'édition Team](/fr/server/getting-started/team-edition/). 

@@ -1,4 +1,4 @@
 ---
   title: Anbieter
-order: 20
+  order: 20
 ---

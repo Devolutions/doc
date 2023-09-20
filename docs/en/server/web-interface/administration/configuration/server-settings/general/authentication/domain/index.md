@@ -1,6 +1,6 @@
 ---
   title: Domain
-order: 10
+  order: 10
 ---
 The domain is used to authenticate the user. This is the most secure, flexible and easiest to manage. No need to sync users between the domain and {{ en.DVLS }}. With the Automatic User Creation On First Login option enabled, on first use of the {{ en.DVLS }} data source, the user will be created and be given access rights according to their role in the organization as defined on the domain. You simply need to grant appropriate permissions to your user groups in {{ en.DVLS }}. Upon authentication we will validate the AD groups to which the user belongs and for any that have a corresponding user group we will grant the permissions to the user.  
 

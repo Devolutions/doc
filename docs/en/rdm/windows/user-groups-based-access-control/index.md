@@ -1,6 +1,6 @@
 ---
   title: User Groups Based Access Control
-order: 70
+  order: 70
 ---
 {{ en.RDM }} user group based access control allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.  
 

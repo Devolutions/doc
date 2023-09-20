@@ -1,4 +1,4 @@
 ---
   title: Eintragsbereich
-order: 30
+  order: 30
 ---

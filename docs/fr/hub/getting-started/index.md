@@ -1,4 +1,4 @@
 ---
   title: Introduction
-order: 10
+  order: 10
 ---

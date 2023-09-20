@@ -1,4 +1,4 @@
 ---
   title: Journaux
-order: 60
+  order: 60
 ---

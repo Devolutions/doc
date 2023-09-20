@@ -1,6 +1,6 @@
 ---
   title: Attachments
-order: 20
+  order: 20
 ---
 Manage, view and download files ***Attachments*** stored directly in {{ en.DVLS }} entries.  
 

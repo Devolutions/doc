@@ -1,6 +1,6 @@
 ---
   title: PowerShell scripting
-order: 80
+  order: 80
 ---
 {% snippet icon.badgeHelp %} 
 We have moved to a [GitHub repository](https://github.com/Devolutions/RDMSamples-ps) to hold our various samples and recipes. Please consult it to know what is available. Questions and samples should be requested on our [forum](https://forum.devolutions.net/product/powershell-module). Our team will be glad to assist you. 

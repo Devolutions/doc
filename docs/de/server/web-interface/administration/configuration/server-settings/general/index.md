@@ -1,4 +1,4 @@
 ---
   title: Allgemein
-order: 10
+  order: 10
 ---

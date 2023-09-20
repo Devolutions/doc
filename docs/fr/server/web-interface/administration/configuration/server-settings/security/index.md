@@ -1,6 +1,6 @@
 ---
   title: Securité
-order: 20
+  order: 20
 ---
 La section ***Sécurité*** permet à l'administrateur de configurer les adresses IP autorisées et refusées.  
 ![Administration - Paramètres de {{ fr.DVLS }} - Sécurité](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8045.png)  

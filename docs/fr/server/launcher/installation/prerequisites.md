@@ -1,6 +1,6 @@
 ---
   title: Prérequis
-order: 10
+  order: 10
 ---
 ## {{ fr.DLAUNCHER }} configuration minimale 
 {{ fr.DVLS }} 2019.1.X.X ou plus récent  

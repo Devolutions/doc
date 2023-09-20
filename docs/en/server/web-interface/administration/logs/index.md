@@ -1,4 +1,4 @@
 ---
   title: Logs
-order: 60
+  order: 60
 ---

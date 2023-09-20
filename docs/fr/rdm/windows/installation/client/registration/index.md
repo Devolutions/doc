@@ -1,6 +1,6 @@
 ---
   title: Enregistrement
-order: 10
+  order: 10
 ---
 ### {{ fr.RDM }} édition Team 
 

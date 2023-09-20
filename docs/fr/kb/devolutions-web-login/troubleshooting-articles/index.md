@@ -1,4 +1,4 @@
 ---
   title: Articles de dépannage
-order: 10
+  order: 10
 ---

@@ -1,4 +1,4 @@
 ---
   title: Übersicht
-order: 10
+  order: 10
 ---

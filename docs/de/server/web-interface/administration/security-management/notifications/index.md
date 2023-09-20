@@ -1,4 +1,4 @@
 ---
   title: Benachrichtigungen
-order: 40
+  order: 40
 ---

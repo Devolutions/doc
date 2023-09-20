@@ -1,6 +1,6 @@
 ---
   title: Server Settings
-order: 20
+  order: 20
 ---
 The ***Server Settings*** page allows to manage the {{ en.DVLS }} configuration remotely. 
 

@@ -1,6 +1,6 @@
 ---
   title: End of license
-order: 40
+  order: 40
 ---
 Some of our {{ en.DVLS }} users could wonder, what will happen with their data when the license expires.  
 

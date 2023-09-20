@@ -1,4 +1,4 @@
 ---
   title: Team Edition
-order: 10
+  order: 10
 ---

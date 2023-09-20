@@ -1,4 +1,4 @@
 ---
   title: Weboberfläche
-order: 40
+  order: 40
 ---

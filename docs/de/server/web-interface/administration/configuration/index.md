@@ -1,4 +1,4 @@
 ---
   title: Konfiguration
-order: 20
+  order: 20
 ---

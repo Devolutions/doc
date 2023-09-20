@@ -1,4 +1,4 @@
 ---
   title: Befehle
-order: 50
+  order: 50
 ---

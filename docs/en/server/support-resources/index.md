@@ -1,4 +1,4 @@
 ---
   title: Support/Resources
-order: 110
+  order: 110
 ---

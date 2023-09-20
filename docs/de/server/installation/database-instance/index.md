@@ -1,4 +1,4 @@
 ---
   title: Datenbankinstanz
-order: 20
+  order: 20
 ---

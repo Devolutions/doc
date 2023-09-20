@@ -1,4 +1,4 @@
 ---
   title: How-to
-order: 0
+  order: 0
 ---

@@ -1,4 +1,4 @@
 ---
   title: Sicherung
-order: 50
+  order: 50
 ---

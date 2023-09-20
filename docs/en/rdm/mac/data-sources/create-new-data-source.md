@@ -1,6 +1,6 @@
 ---
   title: Create a New Data Source
-order: 10
+  order: 10
 ---
 1. To create a new data source click on the setting button next to the data source box.  
 ![Data Source Setting button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10476.png) 

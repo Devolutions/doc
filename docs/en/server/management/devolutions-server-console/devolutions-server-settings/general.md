@@ -1,6 +1,6 @@
 ---
   title: General
-order: 10
+  order: 10
 ---
 The ***General*** tab section contains the basics information of the {{ en.DVLS }} instance such as the ***Name***, ***Description***, ***License***, etc. 
 

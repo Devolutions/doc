@@ -1,6 +1,6 @@
 ---
   title: Authentification
-order: 10
+  order: 10
 ---
 La section ***Authentification*** permet à l'administrateur de sélectionner les types d'authentification à utiliser. 
 

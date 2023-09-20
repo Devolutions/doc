@@ -1,6 +1,6 @@
 ---
   title: Enregistrement
-order: 10
+  order: 10
 description: Enregistrez votre licence de {{ fr.DVLS }}.
 ---
 ## Demander un essai 

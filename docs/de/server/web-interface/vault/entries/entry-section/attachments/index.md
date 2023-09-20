@@ -1,4 +1,4 @@
 ---
   title: Anhänge
-order: 20
+  order: 20
 ---

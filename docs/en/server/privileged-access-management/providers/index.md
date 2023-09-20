@@ -1,6 +1,6 @@
 ---
   title: Providers
-order: 20
+  order: 20
 ---
 The usage of Providers is required to scan the Active Directory structure, your local network for SSH discovering, SQL accounts, Windows local accounts or Azure AD users and groups.  
 ![Providers dashboard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8140.png) 

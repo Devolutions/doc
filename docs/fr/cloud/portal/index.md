@@ -1,6 +1,6 @@
 ---
   title: Portail
-order: 30
+  order: 30
 ---
 Dans la section [***Portail***](https://portal.devolutions.com/portal), vous pouvez gérer votre facturation et vos clés de licence des produits, y compris celle pour {{ fr.RDM }} Free et {{ fr.DVLS }} Free.  
 

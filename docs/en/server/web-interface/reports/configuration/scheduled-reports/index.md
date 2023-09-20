@@ -1,6 +1,6 @@
 ---
   title: Scheduled Reports
-order: 10
+  order: 10
 ---
 The ***Scheduled Reports*** will generate a report and send it by email to any selected user accounts. It could be an on demand report or a recurrent report based on a schedule (daily, weekly, monthly, yearly).  
 

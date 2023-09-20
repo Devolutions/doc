@@ -1,4 +1,4 @@
 ---
   title: Security Management
-order: 10
+  order: 10
 ---

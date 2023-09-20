@@ -1,4 +1,4 @@
 ---
   title: Geplante Berichte
-order: 10
+  order: 10
 ---

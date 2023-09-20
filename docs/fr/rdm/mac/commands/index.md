@@ -1,4 +1,4 @@
 ---
   title: Commandes
-order: 50
+  order: 50
 ---

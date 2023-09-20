@@ -1,6 +1,6 @@
 ---
   title: Advanced
-order: 20
+  order: 20
 ---
 The ***Advanced*** section allows the administrator to configure the Refresh token lifetime parameter and some other specific parameters like the [Labelling](/server/web-interface/administration/configuration/server-settings/general/advanced/white-labeling-customizations/). 
 

@@ -1,6 +1,6 @@
 ---
   title: Prerequisites
-order: 10
+  order: 10
 ---
 ## {{ en.DLAUNCHER }} minimum requirements  
 

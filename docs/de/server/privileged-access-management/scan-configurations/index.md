@@ -1,4 +1,4 @@
 ---
   title: Scan Konfiguration
-order: 30
+  order: 30
 ---

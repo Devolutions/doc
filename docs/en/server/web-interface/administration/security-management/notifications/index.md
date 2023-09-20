@@ -1,6 +1,6 @@
 ---
   title: Notifications
-order: 40
+  order: 40
 ---
 {% snippet icon.badgeInfo %} 
 The [Email](/server/web-interface/administration/configuration/server-settings/general/email/) feature must be enabled and properly configured to get the ***Notifications*** working. 

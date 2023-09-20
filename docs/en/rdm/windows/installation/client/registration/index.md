@@ -1,6 +1,6 @@
 ---
   title: Registration
-order: 10
+  order: 10
 ---
 ## {{ en.RDM }} Team Edition 
 

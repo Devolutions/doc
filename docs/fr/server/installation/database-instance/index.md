@@ -1,6 +1,6 @@
 ---
   title: Instance de la base de données
-order: 20
+  order: 20
 ---
 {{ fr.DVLS }} n'a aucune exigence qui dicterait le protocole de communication utilisé, ainsi que la plupart des options qui vous sont offertes par l'instance SQL Server choisie. Tant que le poste de travail client peut se connecter à l'instance SQL, {{ fr.DVLS }} fonctionnera efficacement. Veuillez consulter la documentation Microsoft afin d'autoriser la connectivité à l'instance.  
 

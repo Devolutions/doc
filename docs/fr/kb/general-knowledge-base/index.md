@@ -1,4 +1,4 @@
 ---
   title: Base de connaissances générales
-order: 110
+  order: 110
 ---

@@ -1,4 +1,4 @@
 ---
   title: Protokolle
-order: 60
+  order: 60
 ---

@@ -1,4 +1,4 @@
 ---
   title: Erste Schritte
-order: 10
+  order: 10
 ---

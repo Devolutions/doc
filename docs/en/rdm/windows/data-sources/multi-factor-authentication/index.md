@@ -1,6 +1,6 @@
 ---
   title: Multi-factor authentication
-order: 30
+  order: 30
 ---
 {% snippet icon.badgeInfo %} 
 This feature is only available for [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/), [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/), [Microsoft SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/), and [SQLite](/rdm/windows/data-sources/data-sources-types/sqlite/) data sources. 

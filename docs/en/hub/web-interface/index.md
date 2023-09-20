@@ -1,4 +1,4 @@
 ---
   title: Web interface
-order: 20
+  order: 20
 ---

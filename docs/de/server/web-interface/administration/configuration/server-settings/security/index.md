@@ -1,4 +1,4 @@
 ---
   title: Sicherheit
-order: 20
+  order: 20
 ---

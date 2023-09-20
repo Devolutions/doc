@@ -1,4 +1,4 @@
 ---
   title: Datenbank
-order: 20
+  order: 20
 ---
