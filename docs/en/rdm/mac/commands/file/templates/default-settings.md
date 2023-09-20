@@ -1,5 +1,5 @@
 ---
-title: Default Settings
+  title: Default Settings
 ---
 You can access the default session settings from File - Template - Default session settings.  
 

@@ -1,5 +1,5 @@
 ---
-title: Local RDP/RemoteApp Manager
+  title: Local RDP/RemoteApp Manager
 ---
 The local RDP settings and the RemoteApp settings are available from ***Tools – More Tools – Local RDP/RemoteApp Manager***.  
 

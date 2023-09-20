@@ -1,5 +1,5 @@
 ---
-title: Console Chocolatey
+  title: Console Chocolatey
 ---
 {% snippet icon.badgeCaution %} 
 [Chocolatey](https://chocolatey.org/) doit être installé sur votre ordinateur pour utiliser la console Chocolatey. 

@@ -1,5 +1,5 @@
 ---
-title: Général
+  title: Général
 order: 10
 ---
 La section ***Général*** permet à l'administrateur de modifier le nom ou la description de l'instance {{ fr.DVLS }}.  

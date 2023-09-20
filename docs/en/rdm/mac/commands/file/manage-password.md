@@ -1,5 +1,5 @@
 ---
-title: Manage Password
+  title: Manage Password
 ---
 You can apply a Master Key to encrypt the data files of the following data source:  
 

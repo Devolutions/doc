@@ -1,5 +1,5 @@
 ---
-title: Sicherer Datenaustausch mit unserem Team
+  title: Sicherer Datenaustausch mit unserem Team
 keywords:
 - Sharefile
 ---

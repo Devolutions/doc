@@ -1,5 +1,5 @@
 ---
-title: Raccourcis clavier
+  title: Raccourcis clavier
 description: Voici les raccourcis clavier par défaut pour diverses commandes
 keywords:
 - Raccourcis clavier

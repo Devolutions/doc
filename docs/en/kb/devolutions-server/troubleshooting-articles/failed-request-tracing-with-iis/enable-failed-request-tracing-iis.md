@@ -1,5 +1,5 @@
 ---
-title: Enable failed request tracing in IIS
+  title: Enable failed request tracing in IIS
 ---
 {% snippet icon.badgeInfo %}
 The following steps are applicable on Windows Server 2012 R2.

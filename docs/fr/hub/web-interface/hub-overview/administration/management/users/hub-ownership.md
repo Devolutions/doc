@@ -1,5 +1,5 @@
 ---
-title: Propriétaire du hub
+  title: Propriétaire du hub
 ---
 Dans ***Administration - Utilisateurs***, vous pouvez transférer la propriété de {{ fr.DHUBB }} à un autre administrateur.  
 

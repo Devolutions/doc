@@ -1,5 +1,5 @@
 ---
-title: Gérer la cache
+  title: Gérer la cache
 ---
 Cette option vous permet de gérer votre cache qui décide de la manière dont le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances. 
 

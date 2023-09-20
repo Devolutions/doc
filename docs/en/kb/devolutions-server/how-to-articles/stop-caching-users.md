@@ -1,5 +1,5 @@
 ---
-title: Stop caching users and user groups.
+  title: Stop caching users and user groups.
 keywords:
 - Cache
 - Microsoft Authentication

@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP RD Gateway credentials fail
+  title: Microsoft RDP RD Gateway credentials fail
 ---
 Unable to find credential issue with Microsoft RDP RD Gateway with {{ en.UVLT }} search in {{ en.RDM }}  
 ![!!KB4714](https://webdevolutions.azureedge.net/docs/en/kb/KB4714.png)

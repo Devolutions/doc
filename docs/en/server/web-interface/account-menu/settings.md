@@ -1,5 +1,5 @@
 ---
-title: Settings
+  title: Settings
 ---
 In the ***Settings*** section, modify the user web interface elements. 
 

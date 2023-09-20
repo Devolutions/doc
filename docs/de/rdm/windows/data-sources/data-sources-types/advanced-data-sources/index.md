@@ -1,3 +1,3 @@
 ---
-title: Erweiterte Datenquelle
+  title: Erweiterte Datenquelle
 ---

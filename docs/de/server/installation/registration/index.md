@@ -1,4 +1,4 @@
 ---
-title: Registrierung
+  title: Registrierung
 order: 10
 ---

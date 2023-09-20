@@ -1,5 +1,5 @@
 ---
-title: Migration von Sicherheitsgruppen zu Gruppen
+  title: Migration von Sicherheitsgruppen zu Gruppen
 ---
 {% snippet icon.badgeInfo %}
 Sicherheitsgruppen sind seit {{ de.RDM }} Version 2023.3 veraltet. 

@@ -1,5 +1,5 @@
 ---
-title: Entry History
+  title: Entry History
 ---
 View, revert, compare, delete, and export the ***Entry History*** of {{ en.DVLS }} entries. 
 ### Reverting 

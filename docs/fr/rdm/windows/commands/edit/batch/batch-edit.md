@@ -1,5 +1,5 @@
 ---
-title: Modifier le lot
+  title: Modifier le lot
 status: Topic available in German language
 ---
 La fonction de modification par lots modifie les paramètres de plusieurs entrées en une seule opération. Par exemple, il peut être utilisé pour supprimer ou mettre à jour les informations d'identification d'un groupe de sessions.  

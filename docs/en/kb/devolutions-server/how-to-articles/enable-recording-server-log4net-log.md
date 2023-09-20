@@ -1,5 +1,5 @@
 ---
-title: Enable the Recording Server log
+  title: Enable the Recording Server log
 keywords:
 - Log
 - Log4Net

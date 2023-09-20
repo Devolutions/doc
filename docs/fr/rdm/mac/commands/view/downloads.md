@@ -1,5 +1,5 @@
 ---
-title: Téléchargements
+  title: Téléchargements
 ---
 La fonctionnalité ***Téléchargements*** se trouve dans l'onglet ***Affichage***.  
 ![Bouton Téléchargements](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0010.png) 

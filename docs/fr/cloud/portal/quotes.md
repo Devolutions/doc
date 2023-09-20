@@ -1,5 +1,5 @@
 ---
-title: Devis
+  title: Devis
 ---
 La section ***Devis*** répertorie tous les devis associés à votre compte. Vous pouvez consulter, imprimer, payer ou générer un nouveau devis.  
 

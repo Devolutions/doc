@@ -1,5 +1,5 @@
 ---
-title: Entry credentials options
+  title: Entry credentials options
 ---
 Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.  
 ![Credentials](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4043.png)

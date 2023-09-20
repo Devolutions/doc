@@ -1,4 +1,4 @@
 ---
-title: Sicherheitsverwaltung
+  title: Sicherheitsverwaltung
 order: 10
 ---

@@ -1,5 +1,5 @@
 ---
-title: Sessions ouvertes
+  title: Sessions ouvertes
 ---
 L'onglet ***Sessions ouvertes*** affiche les sessions en cours d'exécution par type et pour la machine locale uniquement. Il est possible d'y accéder par le ***{{ fr.NPANE }}***.  
 ![Onglet Sessions ouvertes](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2051.png) 

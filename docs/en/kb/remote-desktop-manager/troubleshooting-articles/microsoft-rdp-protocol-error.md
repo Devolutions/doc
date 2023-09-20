@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP protocol error
+  title: Microsoft RDP protocol error
 ---
 Because of a protocol error, this session will be disconnected. Please try connecting to the remote computer again.  
 ![Protocol Error Message](https://webdevolutions.azureedge.net/docs/en/kb/KB4261.png)

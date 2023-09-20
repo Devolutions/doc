@@ -1,5 +1,5 @@
 ---
-title: Scan configurations
+  title: Scan configurations
 order: 30
 ---
 The Scan Configurations or Account Discovery is the configured instance that will discover accounts of a provider's environment.  

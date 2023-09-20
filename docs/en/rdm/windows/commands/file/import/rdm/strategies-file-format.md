@@ -1,5 +1,5 @@
 ---
-title: RDM import strategies and file format
+  title: RDM import strategies and file format
 ---
 When importing RDM files into {{ en.RDM }}, there are some specifications to follow regarding the content format. 
 

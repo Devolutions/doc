@@ -1,5 +1,5 @@
 ---
-title: Registration
+  title: Registration
 order: 10
 ---
 ## {{ en.RDM }} Team Edition 

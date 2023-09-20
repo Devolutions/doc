@@ -1,5 +1,5 @@
 ---
-title: Effacer le stockage local de Microsoft Edge
+  title: Effacer le stockage local de Microsoft Edge
 description: Suivre les étapes pour effacer votre stockage local dans le navigateur Microsoft Edge.
 keywords:
 - Stockage local

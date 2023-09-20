@@ -1,5 +1,5 @@
 ---
-title: Securité
+  title: Securité
 order: 20
 ---
 La section ***Sécurité*** permet à l'administrateur de configurer les adresses IP autorisées et refusées.  

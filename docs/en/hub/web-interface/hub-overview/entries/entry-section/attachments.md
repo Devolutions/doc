@@ -1,5 +1,5 @@
 ---
-title: Attachments
+  title: Attachments
 ---
 Manage, view, and download file ***Attachments*** stored directly in {{ en.DHUB }} for an entry.  
 ![!!Hub4122](https://webdevolutions.azureedge.net/docs/en/hub/Hub4122.png) 

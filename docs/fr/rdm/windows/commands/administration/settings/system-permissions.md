@@ -1,5 +1,5 @@
 ---
-title: Permissions du système
+  title: Permissions du système
 status: Topic available in German language
 ---
 Les ***Permissions du système*** permettent d'accorder certaines autorisations administratives aux utilisateurs standard sans en faire des administrateurs. Le paramètre ***Par défaut*** hérite des permissions de l'utilisateur ou du groupe d'utilisateurs. 

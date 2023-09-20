@@ -1,5 +1,5 @@
 ---
-title: Set up an SSH tunnel
+  title: Set up an SSH tunnel
 ---
 SSH tunnelling is used to create an encrypted connection over an untrusted network. It consists of an encrypted tunnel created through an SSH protocol, providing secure connections for data transfer. The SSH Tunnel can be used to establish sort of a virtual private network (VPN) to access services across firewalls.  
 

@@ -1,5 +1,5 @@
 ---
-title: CyberArk system safe filtering
+  title: CyberArk system safe filtering
 ---
 CyberArk safes do not have flags to indicate if they are for system or for general use. That being said, we can find in various CyberArk information sources that certain safes are indeed for the internal working of the {{ en.VLT }} exclusively.  
 The following safes will be considered “system” safes, and by checking the appropriate option (typically labeled ***Hide system safes***), they will be hidden from lists.  

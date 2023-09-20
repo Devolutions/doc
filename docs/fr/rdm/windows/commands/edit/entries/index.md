@@ -1,3 +1,3 @@
 ---
-title: Entrée
+  title: Entrée
 ---

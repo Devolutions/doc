@@ -1,4 +1,4 @@
 ---
-title: General Knowledge Base
+  title: General Knowledge Base
 order: 110
 ---

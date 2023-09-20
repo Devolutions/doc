@@ -1,5 +1,5 @@
 ---
-title: Chiffrement des connexions vers le serveur SQL
+  title: Chiffrement des connexions vers le serveur SQL
 ---
 Pour garantir que les communications entre l'instance de {{ fr.DVLS }} et la base de données SQL Server soient chiffrées, une procédure doit être suivie et effectuée sur l'instance du serveur SQL.  
 

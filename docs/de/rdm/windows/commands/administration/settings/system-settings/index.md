@@ -1,3 +1,3 @@
 ---
-title: Systemeinstellungen
+  title: Systemeinstellungen
 ---

@@ -1,5 +1,5 @@
 ---
-title: Ruban
+  title: Ruban
 ---
 Selon le style d'interface utilisateur que vous avez choisi, les commandes sont présentées via le ruban ou un menu classique. 
 

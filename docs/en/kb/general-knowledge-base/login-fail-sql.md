@@ -1,5 +1,5 @@
 ---
-title: Login failed for UserX with SQL
+  title: Login failed for UserX with SQL
 ---
 If the "(0x80131904): Login failed for user 'UserX'" error code appears when attempting to connect to the data source, it is possible that the account has been locked after multiple login attempts. It depends on the configured password policy enforcement. 
 

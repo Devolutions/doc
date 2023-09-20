@@ -1,5 +1,5 @@
 ---
-title: Task List
+  title: Task List
 ---
 Create a ***Task List*** to keep track of work that needs to be done by the team. Toggle the ***Task List*** pane in the ***View*** tab.  
 ![Task List Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0016.png) 

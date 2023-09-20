@@ -1,5 +1,5 @@
 ---
-title: Gestion de version
+  title: Gestion de version
 status: Topic available in German language
 ---
 Permet de gérer les versions de {{ fr.RDM }} pour les plateformes Windows, {{ fr.MAC }} et Linux.  

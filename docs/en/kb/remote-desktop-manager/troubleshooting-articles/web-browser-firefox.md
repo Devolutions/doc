@@ -1,5 +1,5 @@
 ---
-title: Web browser Firefox
+  title: Web browser Firefox
 ---
 Firefox in embedded mode does not work in the application.  
 {% snippet icon.badgeCaution %}

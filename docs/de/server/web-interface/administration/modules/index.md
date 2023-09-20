@@ -1,4 +1,4 @@
 ---
-title: Module
+  title: Module
 order: 30
 ---

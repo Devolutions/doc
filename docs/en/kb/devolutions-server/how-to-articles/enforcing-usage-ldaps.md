@@ -1,5 +1,5 @@
 ---
-title: LDAPS enforcing usage
+  title: LDAPS enforcing usage
 ---
 To require that a directory server reject simple binds that occur on a clear text connection, you must apply a policy.
 

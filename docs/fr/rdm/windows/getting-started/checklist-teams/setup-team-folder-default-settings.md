@@ -1,5 +1,5 @@
 ---
-title: Configurer un dossier partagé pour les paramètres par défaut
+  title: Configurer un dossier partagé pour les paramètres par défaut
 ---
 Vous devez créer un dossier partagé sur le lecteur d'un serveur pour stocker les modèles de paramètres par défaut afin de les partager avec votre équipe. 
 

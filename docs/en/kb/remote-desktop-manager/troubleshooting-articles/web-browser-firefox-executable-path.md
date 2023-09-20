@@ -1,5 +1,5 @@
 ---
-title: Web browser Firefox executable path
+  title: Web browser Firefox executable path
 ---
 Launching Firefox in embedded mode prompts for an executable path in {{ en.RDM }}.  
 {% snippet icon.badgeCaution %}

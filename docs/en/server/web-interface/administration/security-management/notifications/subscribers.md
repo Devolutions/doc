@@ -1,5 +1,5 @@
 ---
-title: Subscribers
+  title: Subscribers
 ---
 At least one subscriber must exist to receive notifications about {{ en.DVLS }} activities.  
 

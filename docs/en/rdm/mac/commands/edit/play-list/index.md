@@ -1,5 +1,5 @@
 ---
-title: Play List
+  title: Play List
 ---
 The Play List feature in {{ en.RDMMAC }} is a lot like a music play list. The Play List can be used to create groups of sessions for a specific task or for security reasons. You can build your own Play List and start all entries from a Play List at the same time.  
 

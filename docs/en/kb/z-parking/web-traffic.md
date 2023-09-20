@@ -1,5 +1,5 @@
 ---
-title: Web traffic
+  title: Web traffic
 ---
 {% snippet icon.badgeInfo %}
 Do not use this without a specific request from Devolution's support personnel.

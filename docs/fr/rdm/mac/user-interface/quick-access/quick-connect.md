@@ -1,5 +1,5 @@
 ---
-title: Connexion rapide
+  title: Connexion rapide
 ---
 Via la fonction de ***Connexion rapide***, vous pouvez ouvrir une session ad hoc en spécifiant l'hôte et le type de session. Il est également possible de créer un modèle et d'établir la connexion avec lui. Dans le modèle, vous définissez les paramètres souhaités et {{ fr.RDM }} les appliquera lors de la connexion à l'hôte spécifié. 
 

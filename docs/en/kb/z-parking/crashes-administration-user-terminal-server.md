@@ -1,5 +1,5 @@
 ---
-title: Crashes in Administration Users with Terminal Server
+  title: Crashes in Administration Users with Terminal Server
 ---
 Occasionally, when you go in ***Administration - Users***, {{ en.RDM }} crashes/freezes or loose connection to the database.
 ## Solution

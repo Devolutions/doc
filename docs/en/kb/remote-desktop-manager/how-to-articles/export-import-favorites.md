@@ -1,5 +1,5 @@
 ---
-title: Export and Import Favorites
+  title: Export and Import Favorites
 ---
 Learn how to export and import the entries tag ***Favorites*** when migrating data.
 

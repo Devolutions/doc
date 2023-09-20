@@ -1,5 +1,5 @@
 ---
-title: Historique de l'entrée
+  title: Historique de l'entrée
 ---
 Visualiser, restaurer, comparer, supprimer et exporter l'***Historique des entrées*** de {{ fr.DVLS }}.  
 

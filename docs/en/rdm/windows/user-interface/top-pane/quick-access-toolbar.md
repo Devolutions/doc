@@ -1,5 +1,5 @@
 ---
-title: Quick Access Toolbar
+  title: Quick Access Toolbar
 ---
 The ***Quick Access Toolbar*** found at the top of the application is composed of multiple parts:  
 

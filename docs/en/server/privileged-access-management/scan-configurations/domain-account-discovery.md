@@ -1,5 +1,5 @@
 ---
-title: Domain account discovery
+  title: Domain account discovery
 ---
 The Domain Account Discovery allows {{ en.DVLS }} to scan a domain area to find accounts. The accounts will not be automatically added in the Privileged Access Management folders.  
 ![Domain Account Discovery dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8145.png) 

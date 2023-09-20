@@ -1,5 +1,5 @@
 ---
-title: Restaurer
+  title: Restaurer
 ---
 Vous devrez peut-être restaurer une sauvegarde de votre [{{ fr.DOD }}](/fr/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/) ou une source de données [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) à un moment donné. L'option de restauration est accessible depuis le menu ***Fichier - Copie de sauvegarde - Restaurer***.  
 

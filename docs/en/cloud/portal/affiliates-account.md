@@ -1,5 +1,5 @@
 ---
-title: Affiliates Account
+  title: Affiliates Account
 ---
 The ***Affiliates Account*** section lets you join Devolutions to promote {{ en.RDM }} and earn 10% advertising fees.  
 

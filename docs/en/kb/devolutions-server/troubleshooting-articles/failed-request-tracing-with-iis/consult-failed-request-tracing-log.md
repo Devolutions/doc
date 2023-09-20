@@ -1,5 +1,5 @@
 ---
-title: Consult the failed request tracing log
+  title: Consult the failed request tracing log
 ---
 With **Failed Request Tracing enabled**, the logs files are created and populated in the directory set up on step [Configure Failed Request Tracing](/kb/devolutions-server/troubleshooting-articles/failed-request-tracing-with-iis/configure-failed-request-tracing/). By default, the path is ***%SystemDrive%\inetpub\logs\FailedReqLogFiles*** In this place, a folder typically named ***W3SVC1*** will be created when the first case happen.
 

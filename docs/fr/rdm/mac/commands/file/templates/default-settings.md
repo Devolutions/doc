@@ -1,5 +1,5 @@
 ---
-title: Paramètres de la session par défaut
+  title: Paramètres de la session par défaut
 ---
 Vous pouvez accéder aux ***Paramètres de la session par défaut*** dans ***Fichier - Modèles - Paramètres de la session par défaut***.  
 

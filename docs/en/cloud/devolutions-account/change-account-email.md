@@ -1,5 +1,5 @@
 ---
-title: Change an account email
+  title: Change an account email
 ---
 {% snippet icon.shieldWarning %} 
 For security reasons, we are no longer performing change email requests for the {{ en.DA }}. 

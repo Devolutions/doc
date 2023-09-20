@@ -1,5 +1,5 @@
 ---
-title: What is SHA-256
+  title: What is SHA-256
 ---
 The SHA (Secure Hash Algorithm) is one of a number of cryptographic hash functions. A cryptographic hash is like a signature for a data set. If you would like to compare two sets of raw data (source of the file, text or similar) it is always better to hash it and compare SHA-256 values.
 

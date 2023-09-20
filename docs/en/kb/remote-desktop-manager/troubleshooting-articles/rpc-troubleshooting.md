@@ -1,5 +1,5 @@
 ---
-title: RPC troubleshooting
+  title: RPC troubleshooting
 ---
 The RPC server is unavailable (exception from HRESULT: 0X800706BA)  
 

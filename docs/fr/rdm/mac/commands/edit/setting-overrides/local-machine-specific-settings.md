@@ -1,5 +1,5 @@
 ---
-title: Paramètres locaux
+  title: Paramètres locaux
 ---
 Autoriser le remplacement des paramètres de session pour la machine locale. Plusieurs paramètres peuvent être remplacés, tels que le nom d'utilisateur, le mot de passe et l'affichage. 
 

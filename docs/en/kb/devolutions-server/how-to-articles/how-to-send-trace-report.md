@@ -1,5 +1,5 @@
 ---
-title: Send a trace report
+  title: Send a trace report
 keywords:
 - Export HAR
 - HAR

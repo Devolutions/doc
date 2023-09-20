@@ -1,5 +1,5 @@
 ---
-title: Create an Azure AD PAM provider
+  title: Create an Azure AD PAM provider
 ---
 The following guide provides steps to create an Azure AD user PAM provider for {{ en.DVLS }}.
 

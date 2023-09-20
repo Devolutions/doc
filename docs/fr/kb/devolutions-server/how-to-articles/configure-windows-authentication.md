@@ -1,5 +1,5 @@
 ---
-title: Configurer l'authentification Windows
+  title: Configurer l'authentification Windows
 ---
 {% snippet icon.badgeCaution %} 
 La machine qui sert d'hôte à {{ fr.DVLS }} doit être liée au domaine configuré pour que l'authentification Windows fonctionne. 

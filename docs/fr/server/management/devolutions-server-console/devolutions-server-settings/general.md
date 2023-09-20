@@ -1,5 +1,5 @@
 ---
-title: Général
+  title: Général
 order: 10
 ---
 La section de l'onglet ***Général*** contient les informations de base de l'instance {{ fr.DVLS }} tels que le ***Nom***, la ***Description***, les ***Licences***, etc.  

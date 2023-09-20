@@ -1,5 +1,5 @@
 ---
-title: Administrator invite
+  title: Administrator invite
 ---
 Administrators can invite specific users to become administrator of the {{ en.DHUBB }}. We strongly recommend that you invite at least one other administrator.  
 

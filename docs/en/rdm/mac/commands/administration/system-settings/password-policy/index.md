@@ -1,5 +1,5 @@
 ---
-title: Password Policy
+  title: Password Policy
 ---
 Password Policy allows you to manage the different password policy and settings for your data source. For more information regarding the Password Complexity follow this link.  
 

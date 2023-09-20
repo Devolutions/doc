@@ -1,3 +1,3 @@
 ---
-title: Générateurs
+  title: Générateurs
 ---

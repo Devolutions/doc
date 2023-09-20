@@ -1,5 +1,5 @@
 ---
-title: Authentification multifacteur
+  title: Authentification multifacteur
 ---
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité est disponible pour les sources de données [{{ fr.DVLS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/), [Microsoft SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/) et [SQLite](/fr/rdm/mac/data-sources/data-sources-types/sqlite/). 

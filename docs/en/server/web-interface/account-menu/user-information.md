@@ -1,5 +1,5 @@
 ---
-title: User Information
+  title: User Information
 ---
 Display the ***User Information*** rights and permission configuration.  
 

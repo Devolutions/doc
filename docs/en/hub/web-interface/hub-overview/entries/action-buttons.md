@@ -1,5 +1,5 @@
 ---
-title: Action Buttons
+  title: Action Buttons
 ---
 The display of ***Action Buttons*** for entries will vary depending on the type of entry selected and your {{ en.DHUB }} settings.  
 ![Entry Action Buttons](https://webdevolutions.azureedge.net/docs/en/hub/Hub2076.png)

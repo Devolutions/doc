@@ -1,5 +1,5 @@
 ---
-title: Documentation
+  title: Documentation
 description: The Documentation feature allows to store information regarding entries.
 ---
 The ***Documentation*** feature allows to store information regarding entries.

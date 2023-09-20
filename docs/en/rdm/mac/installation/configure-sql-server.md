@@ -1,5 +1,5 @@
 ---
-title: Configure SQL Server
+  title: Configure SQL Server
 ---
 ### Server Computer 
 

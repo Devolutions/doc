@@ -1,5 +1,5 @@
 ---
-title: Creating shortcuts
+  title: Creating shortcuts
 ---
 There are a many scenarios where it makes sense for an entry to appear more than once in the UI. For example, you might want to:  
 

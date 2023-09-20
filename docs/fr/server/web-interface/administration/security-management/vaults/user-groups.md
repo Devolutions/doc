@@ -1,5 +1,5 @@
 ---
-title: Groupes d'utilisateurs
+  title: Groupes d'utilisateurs
 ---
 Permet d'assigner des groupes d'utilisateurs au {{ fr.VLT }}.  
 ![{{ fr.VLT }}s - Groupe d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8070.png) 

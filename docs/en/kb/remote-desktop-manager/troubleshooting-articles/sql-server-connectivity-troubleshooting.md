@@ -1,5 +1,5 @@
 ---
-title: SQL Server connectivity troubleshooting
+  title: SQL Server connectivity troubleshooting
 ---
 SQL Server installs with limited network connectivity. Therefore, when initially installed, the Database Engine cannot be accessed from another device.  
 

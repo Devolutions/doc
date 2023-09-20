@@ -1,5 +1,5 @@
 ---
-title: Historique
+  title: Historique
 ---
 Dans ***Rapports – Historique – Entrées supprimées***, gérer toutes les entrées supprimées de tous les principaux {{ fr.VLT }}s et utilisateurs. Vous pouvez affiner votre recherche avec les filtres et cliquer sur ***Restaurer*** pour récupérer l'entrée dans son {{ fr.VLT }} d'origine.  
 

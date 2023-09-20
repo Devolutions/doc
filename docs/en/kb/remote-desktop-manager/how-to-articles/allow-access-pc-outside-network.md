@@ -1,5 +1,5 @@
 ---
-title: Allow access to your PC from outside your PC's network
+  title: Allow access to your PC from outside your PC's network
 ---
 {% snippet icon.shieldWarning %}
 Please be advised, before proceeding, that we consider this solution not secure and that this might breach some security protocol in your organization.

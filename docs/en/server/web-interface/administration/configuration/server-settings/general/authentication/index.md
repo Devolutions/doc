@@ -1,5 +1,5 @@
 ---
-title: Authentication
+  title: Authentication
 order: 10
 ---
 The Authentication section allows the administrator to select which authentication types will be used to connect on {{ en.DVLS }}.  

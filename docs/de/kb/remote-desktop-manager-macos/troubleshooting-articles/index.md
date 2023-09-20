@@ -1,4 +1,4 @@
 ---
-title: Troubleshooting
+  title: Troubleshooting
 order: 10
 ---

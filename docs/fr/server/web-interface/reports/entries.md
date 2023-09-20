@@ -1,5 +1,5 @@
 ---
-title: Entrées
+  title: Entrées
 ---
 La section ***Entrées*** fournit des outils permettant de visualiser les ***Connexions ouvertes*** en cours, de gérer le ***Rapport des entrées expirées***, d'utiliser l'***Analyseur de sécurité des entrées*** et de valider les ***Permissions autres que celles par défaut*** des entrées.  
 

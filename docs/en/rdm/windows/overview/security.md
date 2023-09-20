@@ -1,5 +1,5 @@
 ---
-title: Security
+  title: Security
 ---
 All passwords stored in the data sources are encrypted using a strong encryption algorithm, to the extent that if a user attempts to access the data directly in the database, it will be considered unreadable.  
 

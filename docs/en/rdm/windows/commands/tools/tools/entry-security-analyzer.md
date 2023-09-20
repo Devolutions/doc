@@ -1,5 +1,5 @@
 ---
-title: Entry Security Analyzer
+  title: Entry Security Analyzer
 keywords:
 - Password analyzer
 - Password strength

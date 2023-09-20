@@ -1,5 +1,5 @@
 ---
-title: SQL Server performance troubleshooting
+  title: SQL Server performance troubleshooting
 ---
 Whenever the performance of queries against SQL Server decreases, check the following:
 ## Size of database files

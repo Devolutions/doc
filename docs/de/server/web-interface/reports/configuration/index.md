@@ -1,4 +1,4 @@
 ---
-title: Konfiguration
+  title: Konfiguration
 order: 50
 ---

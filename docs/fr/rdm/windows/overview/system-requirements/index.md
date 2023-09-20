@@ -1,5 +1,5 @@
 ---
-title: Configuration du système
+  title: Configuration du système
 ---
 ## {{ fr.RDM }} nécessite cette configuration avant l'installation. 
 

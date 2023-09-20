@@ -1,5 +1,5 @@
 ---
-title: Export Options
+  title: Export Options
 ---
 Use File – Options – Export Options to control the options to export from your application configuration. Use this to easily transfer settings to another machine.  
 

@@ -1,5 +1,5 @@
 ---
-title: Two-Step Verification
+  title: Two-Step Verification
 keywords:
 - 2 factor
 - 2FA

@@ -1,5 +1,5 @@
 ---
-title: The redirect URI specified in the request does not match the redirect URI configured for the application
+  title: The redirect URI specified in the request does not match the redirect URI configured for the application
 ---
 {% snippet icon.badgeCaution %}
 The following Office365 authentication issue occurs on an updated {{ en.DVLS }} instance from a version older than 2022.1.13.0 to 2022.1.13 or higher.

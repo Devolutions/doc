@@ -1,5 +1,5 @@
 ---
-title: Folders and dynamic variables
+  title: Folders and dynamic variables
 ---
 In {{ en.RDM }}, you can use ***Folder*** entries to organize your sessions in the application. It is possible to store information at the top level folder and use Variables in the child entries to resolve information that you have saved in the parent folder.
 

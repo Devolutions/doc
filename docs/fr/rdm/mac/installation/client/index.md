@@ -1,5 +1,5 @@
 ---
-title: Application client
+  title: Application client
 ---
 {{ fr.RDMMAC }} peut être téléchargé en tant que fichier .dmg via notre [site Web Devolutions](https://devolutions.net/fr/remote-desktop-manager/home/download).  
 

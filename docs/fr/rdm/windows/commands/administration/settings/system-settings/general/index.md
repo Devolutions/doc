@@ -1,5 +1,5 @@
 ---
-title: Général
+  title: Général
 ---
 Les ***Paramètres du système*** sont disponibles dans ***Administration - Paramètres du système***.  
 

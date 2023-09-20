@@ -1,3 +1,3 @@
 ---
-title: Multiple Types of Connections to a Single Computer
+  title: Multiple Types of Connections to a Single Computer
 ---

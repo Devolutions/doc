@@ -1,5 +1,5 @@
 ---
-title: Entrées les plus récemment utilisées
+  title: Entrées les plus récemment utilisées
 ---
 Cet onglet affiche les éléments les plus récemment utilisées/modifiées dans le {{ fr.VLT }} sélectionné. Il est accessible dans le ***{{ fr.NPANE }}***.  
 ![Entrées les plus récemment utilisées](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11219.png) 

@@ -1,5 +1,5 @@
 ---
-title: Create a New Data Source
+  title: Create a New Data Source
 order: 10
 ---
 1. To create a new data source click on the setting button next to the data source box.  

@@ -1,5 +1,5 @@
 ---
-title: Status Bar
+  title: Status Bar
 ---
 The status bar rests at the bottom of the application. It is composed of multiple parts:  
 

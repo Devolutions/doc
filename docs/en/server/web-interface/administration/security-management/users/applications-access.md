@@ -1,5 +1,5 @@
 ---
-title: Applications access
+  title: Applications access
 ---
 Allow or deny the user access to different applications and {{ en.CTOOLS }}:  
 

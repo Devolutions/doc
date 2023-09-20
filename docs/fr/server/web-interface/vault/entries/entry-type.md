@@ -1,5 +1,5 @@
 ---
-title: Type d'entrée
+  title: Type d'entrée
 ---
 Il existe plusieurs types d'***Entrées***, qui répondent tous à des objectifs différents pour votre convenance. 
 

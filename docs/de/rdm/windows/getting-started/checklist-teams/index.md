@@ -1,3 +1,3 @@
 ---
-title: Checkliste für Teams
+  title: Checkliste für Teams
 ---

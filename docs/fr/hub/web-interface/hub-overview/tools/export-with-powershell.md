@@ -1,5 +1,5 @@
 ---
-title: Exporter avec PowerShell
+  title: Exporter avec PowerShell
 ---
 {% snippet icon.badgeInfo %} 
 L'exportation et l'importation de données depuis et vers {{ fr.DHUBP }} s'effectue différemment que dans {{ fr.DHUBB }}. Reportez-vous à [Import/Export data with {{ fr.DHUBP }} (EN)](/kb/hub-business/how-to-articles/import-export-data-hub-personal/) si vous utilisez {{ fr.DHUBP }}. 

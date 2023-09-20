@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP automatic logon issues
+  title: Microsoft RDP automatic logon issues
 ---
 Sometimes the automatic logon does not function and your credentials are requested by the remote system. Here are some steps to help identify the issue. Support for automatic logon was introduced on Windows 2003/XP, so ensure you are trying to connect to these or later versions. Windows 2000 does not support the automatic login.
 

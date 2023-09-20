@@ -1,5 +1,5 @@
 ---
-title: Forticlient
+  title: Forticlient
 ---
 {% snippet icon.badgeWarning %}
 Fortinet removed the feature to inject credentials in FortiClient 5.4 and above. However, they still left the feature with FortiSSL

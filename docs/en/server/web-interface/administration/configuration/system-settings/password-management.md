@@ -1,5 +1,5 @@
 ---
-title: Password Management
+  title: Password Management
 ---
 The ***Password Management*** settings allow to set the minimal requirements for passwords that will be saved in the entries. 
 

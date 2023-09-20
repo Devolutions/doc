@@ -1,5 +1,5 @@
 ---
-title: Historique de l'entrée
+  title: Historique de l'entrée
 ---
 L'***Historique de l'entrée*** vous permet d'afficher les détails concernant les différentes versions de vos sessions et vous donne également la possibilité d'effectuer des comparaisons entre différentes versions. 
 

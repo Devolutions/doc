@@ -1,5 +1,5 @@
 ---
-title: Tools
+  title: Tools
 ---
 The ***Tools*** section is full of resources for {{ en.DHUBB }} to download, export, and get in touch with our ***Support Center***.  
 ![!!Hub4046](https://webdevolutions.azureedge.net/docs/en/hub/Hub4046.png) 

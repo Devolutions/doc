@@ -1,5 +1,5 @@
 ---
-title: Texto
+  title: Texto
 ---
 Le texto d'authentification à deux facteurs demandera à l'utilisateur de saisir un code qu'il a reçu sur son téléphone mobile comme deuxième composant pour accéder à la source de données.  
 

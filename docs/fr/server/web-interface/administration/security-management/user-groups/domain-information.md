@@ -1,5 +1,5 @@
 ---
-title: Information sur le domaine
+  title: Information sur le domaine
 ---
 Permet d'afficher l'information sur le groupe d'utilisateurs de type domaine.  
 ![Groupe d'utilisateurs - Information sur le domaine](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8043.png) 

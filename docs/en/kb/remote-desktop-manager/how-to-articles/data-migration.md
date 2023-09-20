@@ -1,5 +1,5 @@
 ---
-title: Data migration
+  title: Data migration
 description: Here are the steps to follow when copying data from one data source to another. The migration is an export of your original data source followed by an import in the new destination data source.
 ---
 {% snippet icon.badgeCaution %}

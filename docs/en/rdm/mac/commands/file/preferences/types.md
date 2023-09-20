@@ -1,5 +1,5 @@
 ---
-title: Types
+  title: Types
 ---
 Use File - Preferences - Types to control settings applied to Session entries. 
 

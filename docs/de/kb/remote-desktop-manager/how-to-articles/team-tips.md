@@ -1,5 +1,5 @@
 ---
-title: Tipps für Teams
+  title: Tipps für Teams
 ---
 Hier sind fünf Tipps für Teams zum {{ de.RDM }}. 
 

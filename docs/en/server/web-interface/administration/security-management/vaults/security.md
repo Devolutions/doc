@@ -1,5 +1,5 @@
 ---
-title: Security
+  title: Security
 ---
 Allow to protect the {{ en.VLT }}'s modification from other administrator accounts. 
 

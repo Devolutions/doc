@@ -1,5 +1,5 @@
 ---
-title: SQL Server always on availability groups
+  title: SQL Server always on availability groups
 ---
 Main {{ en.RDM }} clients and {{ en.DVLS }} are written using the .Net platform, which means that the capabilities are often derived from .Net libraries themselves.  
 

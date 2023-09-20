@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP Logoff Access Denied
+  title: Microsoft RDP Logoff Access Denied
 ---
 Logoff access denied error or "unable to enumerate remote sessions".  
 

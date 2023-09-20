@@ -1,5 +1,5 @@
 ---
-title: Installation
+  title: Installation
 order: 10
 ---
 {{ fr.DWL }} est un outil d'extension de navigateur gratuit. Pour le moment, il nécessite au moins un de nos produits Devolutions pour fonctionner.  

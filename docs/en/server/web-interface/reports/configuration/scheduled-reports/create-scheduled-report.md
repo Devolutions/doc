@@ -1,5 +1,5 @@
 ---
-title: Create Scheduled Reports
+  title: Create Scheduled Reports
 ---
 Create ***Scheduled Reports*** to run automatically and manage when and who will receive the data from your {{ en.DVLS }}. 
 {% snippet icon.badgeCaution %} 

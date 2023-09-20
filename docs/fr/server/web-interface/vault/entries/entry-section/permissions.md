@@ -1,5 +1,5 @@
 ---
-title: Permissions
+  title: Permissions
 description: Les utilisateurs peuvent consulter leurs Permissions pour cette entrée et contacter leur administrateur si un droit n'est pas autorisé.
 keywords:
 - Permissions

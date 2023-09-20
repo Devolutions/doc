@@ -1,5 +1,5 @@
 ---
-title: Configuration des Mots de passe d’application
+  title: Configuration des Mots de passe d’application
 ---
 Les ***Mots de passe d’application*** permettent une authentification rapide avec d’autres applications Devolutions telles que votre <a href="#rdm">{{ fr.DA }} de {{ fr.RDM }}</a> et les sources de données <a href="#dod">{{ fr.DOD }}</a> de {{ fr.RDM }}.  
 

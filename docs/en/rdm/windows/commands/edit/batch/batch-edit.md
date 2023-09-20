@@ -1,5 +1,5 @@
 ---
-title: Batch Edit
+  title: Batch Edit
 status: Topic available in German language
 ---
 {% youtube 'M4eCCgl2Dwc' %}  

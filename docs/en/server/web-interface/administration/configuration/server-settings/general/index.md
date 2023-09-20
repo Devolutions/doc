@@ -1,5 +1,5 @@
 ---
-title: General
+  title: General
 order: 10
 ---
 The General section allows the Administrator to modify the name or the description of the {{ en.DVLS }} instance. 

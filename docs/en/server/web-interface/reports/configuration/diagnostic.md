@@ -1,5 +1,5 @@
 ---
-title: Diagnostic
+  title: Diagnostic
 ---
 The ***Diagnostic*** report contains information such as the {{ en.DVLS }} and database version, the number of entries, the size of the data, the duplicate and virtual folders, etc.  
 

@@ -1,4 +1,4 @@
 ---
-title: Einträge
+  title: Einträge
 order: 10
 ---

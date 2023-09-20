@@ -1,5 +1,5 @@
 ---
-title: Paramètres de l'usager
+  title: Paramètres de l'usager
 ---
 Permets le remplacement des paramètres de session pour un utilisateur. Plusieurs paramètres peuvent être remplacés, tels que le nom d'utilisateur, le mot de passe ou l'affichage.  
 

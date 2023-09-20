@@ -1,5 +1,5 @@
 ---
-title: Configure RemoteFX for the RDP WebClient
+  title: Configure RemoteFX for the RDP WebClient
 ---
 By default, Windows does not enable RemoteFX to ensure backward compatibility. However, for optimal performance when using a WebClient RDP, it is recommended that you enable RemoteFX on the server machines that allow it.  
 

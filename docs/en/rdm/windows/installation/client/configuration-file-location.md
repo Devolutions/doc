@@ -1,5 +1,5 @@
 ---
-title: Configuration file location
+  title: Configuration file location
 keywords:
 - Terminal Service
 ---

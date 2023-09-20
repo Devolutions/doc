@@ -1,3 +1,3 @@
 ---
-title: Azure Active Directory Authentifizierung aktivieren
+  title: Azure Active Directory Authentifizierung aktivieren
 ---

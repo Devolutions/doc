@@ -1,4 +1,4 @@
 ---
-title: User interface
+  title: User interface
 order: 30
 ---

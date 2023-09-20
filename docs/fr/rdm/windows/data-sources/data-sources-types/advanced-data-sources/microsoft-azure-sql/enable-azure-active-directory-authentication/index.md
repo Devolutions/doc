@@ -1,3 +1,3 @@
 ---
-title: Activer l'authentification d'Azure Active Directory
+  title: Activer l'authentification d'Azure Active Directory
 ---

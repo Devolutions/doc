@@ -1,5 +1,5 @@
 ---
-title: Active Directory Synchronizer error
+  title: Active Directory Synchronizer error
 ---
 Entries are created with a *cnf:{guid} suffix or Host name is appended with cnf, and the entry name also contains a guid suffix.
 ## Solution

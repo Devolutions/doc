@@ -1,4 +1,4 @@
 ---
-title: Administration
+  title: Administration
 order: 30
 ---

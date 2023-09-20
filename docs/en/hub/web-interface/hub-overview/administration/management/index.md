@@ -1,3 +1,3 @@
 ---
-title: Management
+  title: Management
 ---

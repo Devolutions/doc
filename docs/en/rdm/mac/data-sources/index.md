@@ -1,5 +1,5 @@
 ---
-title: Data sources
+  title: Data sources
 order: 40
 ---
 The data source is at the heart of {{ en.RDMMAC }}, it is the container that holds all of your entries. 

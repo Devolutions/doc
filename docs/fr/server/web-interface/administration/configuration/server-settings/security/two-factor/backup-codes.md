@@ -1,5 +1,5 @@
 ---
-title: Code de sauvegarde
+  title: Code de sauvegarde
 ---
 Les codes de sauvegarde sont des codes de validation qui fournissent aux utilisateurs un accès unique à {{ fr.DVLS }} lorsqu'ils n'ont pas accès à leur produit ou appareil à deux facteurs d'authentification habituelle. Ceux-ci doivent être générés avant et être gardés en sécurité en cas d'urgence.  
 

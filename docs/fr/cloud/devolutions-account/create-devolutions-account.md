@@ -1,5 +1,5 @@
 ---
-title: Créer un compte
+  title: Créer un compte
 order: 10
 ---
 Créer votre {{ fr.DA }} gratuit.  

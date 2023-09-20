@@ -1,5 +1,5 @@
 ---
-title: Activity Logs
+  title: Activity Logs
 ---
 ***Activity Logs*** provide a robust logging solution. With this feature, it is possible to monitor an open session for all users using [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). The log is available in the ***View*** tab.  
 ![Activity Logs Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2020.png) 

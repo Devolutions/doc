@@ -1,5 +1,5 @@
 ---
-title: Informations de l'utilisateur
+  title: Informations de l'utilisateur
 ---
 Afficher la configuration des droits et permissions à partir des ***Informations de l'utilisateur***. 
 

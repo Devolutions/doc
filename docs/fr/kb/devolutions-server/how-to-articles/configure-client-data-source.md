@@ -1,5 +1,5 @@
 ---
-title: Configurer une source de données client
+  title: Configurer une source de données client
 ---
 1. Dans {{ fr.RDM }} sélectionner ***Fichiers - Sources de données***.  
 ![!!KB4011](https://webdevolutions.azureedge.net/docs/fr/kb/KB4011.png)  

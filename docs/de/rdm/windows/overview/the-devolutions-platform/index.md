@@ -1,3 +1,3 @@
 ---
-title: Die Devolutions Plattform
+  title: Die Devolutions Plattform
 ---

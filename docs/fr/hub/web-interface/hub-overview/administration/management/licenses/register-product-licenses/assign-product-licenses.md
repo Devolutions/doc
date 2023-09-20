@@ -1,5 +1,5 @@
 ---
-title: Assigner les licences de produit
+  title: Assigner les licences de produit
 ---
 Assigner des ***Licences de produit*** Devolutions dans {{ fr.DHUBB }} a des utilisateurs.  
 

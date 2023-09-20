@@ -1,5 +1,5 @@
 ---
-title: Multi-factor
+  title: Multi-factor
 description: If you set multi-factor authentication (MFA) as Optional per user in the Server Settings, you then need to configure which MFA method to use. 
 ---
 If you set multi-factor authentication (MFA) as [***Optional per user***](/server/web-interface/administration/configuration/server-settings/security/two-factor/) in the ***Server Settings***, you then need to configure which MFA method to use for each user. 

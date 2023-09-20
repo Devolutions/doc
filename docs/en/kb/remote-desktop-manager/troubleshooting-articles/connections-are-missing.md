@@ -1,5 +1,5 @@
 ---
-title: Connections are missing
+  title: Connections are missing
 ---
 User's connection list is missing. This either mean that the Name column is missing or the ***{{ en.NPANE }}*** as a whole is missing.
 ## Solutions

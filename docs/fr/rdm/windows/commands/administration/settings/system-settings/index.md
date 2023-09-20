@@ -1,3 +1,3 @@
 ---
-title: Paramètres du système
+  title: Paramètres du système
 ---

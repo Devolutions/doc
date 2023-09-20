@@ -1,4 +1,4 @@
 ---
-title: Passwortvorlagen
+  title: Passwortvorlagen
 order: 10
 ---

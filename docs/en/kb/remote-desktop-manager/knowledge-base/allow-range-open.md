@@ -1,5 +1,5 @@
 ---
-title: Allow range open
+  title: Allow range open
 ---
 This feature allows to open multiple machine with the quick connect in {{ en.RDM }}  
 

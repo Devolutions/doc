@@ -1,5 +1,5 @@
 ---
-title: Lexique
+  title: Lexique
 ---
 {{ fr.RDM }} est un logiciel qui possède un ensemble complet de fonctionnalités. Voici les principaux concepts qu'il est important de comprendre afin d'utiliser le programme à son plein potentiel. 
 

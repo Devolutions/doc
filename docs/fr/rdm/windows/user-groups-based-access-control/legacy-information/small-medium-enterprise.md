@@ -1,5 +1,5 @@
 ---
-title: Petites et moyennes entreprises (ancien)
+  title: Petites et moyennes entreprises (ancien)
 ---
 Ici, nous vous donnerons un exemple de structure de sécurité qui devrait être pertinent pour les petites et moyennes entreprises.  
 

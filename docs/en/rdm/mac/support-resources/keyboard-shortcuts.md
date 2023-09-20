@@ -1,5 +1,5 @@
 ---
-title: Keyboard shortcuts
+  title: Keyboard shortcuts
 description: Here are the default keyboard shortcuts for various commands.
 keywords:
 - Keyboard shortcuts

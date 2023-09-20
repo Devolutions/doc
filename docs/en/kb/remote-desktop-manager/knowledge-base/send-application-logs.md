@@ -1,5 +1,5 @@
 ---
-title: Send application logs
+  title: Send application logs
 ---
 The Devolutions team will need your application logs in some cases to help recreate a specific issue.  
 ## Sending your application logs

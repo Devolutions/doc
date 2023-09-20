@@ -1,5 +1,5 @@
 ---
-title: Test variables
+  title: Test variables
 ---
 {% snippet icon.badgeInfo %}
 Variables are only supported for ***Advanced Data Sources*** like SQL Server and {{ en.DVLS }}

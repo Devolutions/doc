@@ -1,5 +1,5 @@
 ---
-title: Select a data source type – Individuals
+  title: Select a data source type – Individuals
 description: To help you select a data source type, here is a set of concerns and the list of data sources that can serve in such a context.
 ---
 This topic is intended primarly for individuals, but also for teams of three or fewer users who do not want to set up security.  

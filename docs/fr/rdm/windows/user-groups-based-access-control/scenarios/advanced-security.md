@@ -1,5 +1,5 @@
 ---
-title: Sécurité avancée
+  title: Sécurité avancée
 ---
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 

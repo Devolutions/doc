@@ -1,5 +1,5 @@
 ---
-title: Configure an SMTP email with Azure
+  title: Configure an SMTP email with Azure
 ---
 Since version 2022.3.10 of {{ en.DVLS }}, the modern authentication for Azure can now be used for the email configuration.
 

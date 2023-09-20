@@ -1,5 +1,5 @@
 ---
-title: Modèles
+  title: Modèles
 ---
 Les modèles sont disponibles dans le menu ***Fichier - Modèles***.  
 ![Fichier - Modèles](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/cli4035.png) 

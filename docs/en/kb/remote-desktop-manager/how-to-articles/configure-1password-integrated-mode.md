@@ -1,5 +1,5 @@
 ---
-title: Configure 1Password with integrated mode
+  title: Configure 1Password with integrated mode
 ---
 1. In the 1Password app, use ***1Password - New {{ en.VLT }} on this PC***.  
 ![!!KB4233](https://webdevolutions.azureedge.net/docs/en/kb/KB4233.png)

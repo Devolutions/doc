@@ -1,5 +1,5 @@
 ---
-title: Send your database schema to Devolutions support
+  title: Send your database schema to Devolutions support
 ---
 Sometimes the support staff will ask for the database schema.
 

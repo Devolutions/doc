@@ -1,5 +1,5 @@
 ---
-title: Generate Recovery Kit
+  title: Generate Recovery Kit
 description: This topic will cover how to create a Recovery Kit.
 ---
 The ***Recovery Kit*** is very useful if your {{ en.DVLS }} has to be restored or with a new instance. It is possible to [***Generate***](#generate) a local backup or use Azure Key Vault to store the backup. If a backup is already created with Azure Key Vault you can [***Download***](#download) it.

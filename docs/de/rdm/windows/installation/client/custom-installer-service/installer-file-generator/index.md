@@ -1,3 +1,3 @@
 ---
-title: Konfigurationsdatei erstellen
+  title: Konfigurationsdatei erstellen
 ---

@@ -1,5 +1,5 @@
 ---
-title: Clipboard
+  title: Clipboard
 ---
 The Copy options in the Home ribbon holds the options to copy data entry values in your clipboard such as:  
 

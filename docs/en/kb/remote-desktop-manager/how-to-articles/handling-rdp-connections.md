@@ -1,5 +1,5 @@
 ---
-title: Handling RDP connections
+  title: Handling RDP connections
 ---
 {{ en.RDM }} can manage *.rdp file to open and connect sessions immediately. Even if your application is closed, you can open a *.rdp file. The application will open and start your connection.
 

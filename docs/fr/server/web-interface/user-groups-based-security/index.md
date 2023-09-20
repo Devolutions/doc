@@ -1,5 +1,5 @@
 ---
-title: Contrôle d'accès basé sur les groupes d'utilisateurs
+  title: Contrôle d'accès basé sur les groupes d'utilisateurs
 order: 50
 ---
 La sécurité basée sur les groupes d'utilisateurs de {{ fr.DVLS }} permet de créer un système de protection granulaire assez flexible. Cependant, la flexibilité a un prix et parfois faire de mauvais choix peut augmenter le temps nécessaire à la gestion du système.  

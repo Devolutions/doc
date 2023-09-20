@@ -1,5 +1,5 @@
 ---
-title: Tableau de bord
+  title: Tableau de bord
 ---
 Le ***Tableau de bord*** affiche les commandes et les informations relatives à l'entrée sélectionnée. Le tableau de bord est contextuel et son contenu dépend du type d'entrée sélectionnée.  
 ![!!RDMMac4037](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4037.png) 

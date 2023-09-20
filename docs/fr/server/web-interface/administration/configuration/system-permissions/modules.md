@@ -1,5 +1,5 @@
 ---
-title: Modules
+  title: Modules
 ---
 {% snippet icon.badgeHelp %} 
 Pour utiliser ces fonctionnalités, vous devez d'abord vous assurer qu'elles sont activées dans {{ fr.DVLS }} sous ***Administration – Modules***.

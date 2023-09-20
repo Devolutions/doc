@@ -1,5 +1,5 @@
 ---
-title: Serveur d'enregistrement
+  title: Serveur d'enregistrement
 ---
 Paramètres du serveur d'enregistrement de sessions.  
 ![Administration – Paramètres du système – Serveur d'enregistrement](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8079.png) 

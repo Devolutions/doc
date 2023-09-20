@@ -1,5 +1,5 @@
 ---
-title: Authentification à deux facteurs
+  title: Authentification à deux facteurs
 keywords:
 - 2 facteur
 - 2FA

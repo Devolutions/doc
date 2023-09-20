@@ -1,3 +1,3 @@
 ---
-title: Berichte
+  title: Berichte
 ---

@@ -1,5 +1,5 @@
 ---
-title: Notifications
+  title: Notifications
 order: 40
 ---
 {% snippet icon.badgeInfo %} 

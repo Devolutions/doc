@@ -1,5 +1,5 @@
 ---
-title: Ajouter un site Web
+  title: Ajouter un site Web
 ---
 Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les {{ fr.VLT }}s et entrées des onglets ***{{ fr.VLT }}s*** ou [***{{ fr.UVLT }}***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#onglet-coffre-d'utilisateur). Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DHUBB }} via {{ fr.DWL }}.  
 

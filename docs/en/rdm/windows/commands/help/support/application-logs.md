@@ -1,5 +1,5 @@
 ---
-title: Application Logs
+  title: Application Logs
 ---
 When encountering errors, you can verify the local application log, which is available in ***Help – Application Logs***.  
 

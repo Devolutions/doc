@@ -1,5 +1,5 @@
 ---
-title: Modifier l'entrée
+  title: Modifier l'entrée
 ---
 Les options de modification sont utilisées pour éditer l'une de vos entrées. Vous pouvez modifier les propriétés, renommer, déplacer ou supprimer votre entrée.  
 

@@ -1,5 +1,5 @@
 ---
-title: Ajouter un site Web
+  title: Ajouter un site Web
 ---
 Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet [***Correspondant***](/fr/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/#onglet-correspondant), qui est l'onglet sélectionné à l'ouverture de l'extension. Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.RDM }} via {{ fr.DWL }}.  
 

@@ -1,5 +1,5 @@
 ---
-title: Options d'identifiants
+  title: Options d'identifiants
 ---
 Plusieurs options sont disponibles pour les ***Identifiants*** dans les entrées {{ fr.RDM }}.  
 ![Identifiants](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4029.png)

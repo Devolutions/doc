@@ -1,5 +1,5 @@
 ---
-title: Tableau de bord PAM
+  title: Tableau de bord PAM
 ---
 {% snippet icon.badgeNotice %} 
 Une licence est désormais nécessaire pour activer le module de gestion des accès privilégiés (PAM). Veuillez contacter notre [service des ventes](mailto:sales@devolutions.net) pour plus d'informations sur la licence. 

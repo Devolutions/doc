@@ -1,3 +1,3 @@
 ---
-title: Bearbeiten
+  title: Bearbeiten
 ---

@@ -1,5 +1,5 @@
 ---
-title: Liste des noms de propriétés pour du script PowerShell
+  title: Liste des noms de propriétés pour du script PowerShell
 status: Topic available in German language
 keywords:
 - PowerShell

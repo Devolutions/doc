@@ -1,5 +1,5 @@
 ---
-title: Help
+  title: Help
 ---
 In the ***Help*** tab section you will find links to the ***{{ en.DFORUM }}***, ***Blog***, ***Online Help*** and much more. Diagnostics tools for {{ en.RDM }} are all located in the ***Support*** section. many supported related features, such as the ***Application Logs***, the ***Profiler***, and the ***Recorder***.  
 ![Ribbon - Help](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11352.png) 

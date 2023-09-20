@@ -1,5 +1,5 @@
 ---
-title: Encrypting the web.config file
+  title: Encrypting the web.config file
 description: When using SQL Server Login or Domain accounts, encrypting the web.config file is of the utmost importance.
 keywords:
 - encryption

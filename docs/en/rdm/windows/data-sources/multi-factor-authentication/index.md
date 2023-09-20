@@ -1,5 +1,5 @@
 ---
-title: Multi-factor authentication
+  title: Multi-factor authentication
 order: 30
 ---
 {% snippet icon.badgeInfo %} 

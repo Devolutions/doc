@@ -1,3 +1,3 @@
 ---
-title: Alte Information
+  title: Alte Information
 ---

@@ -1,5 +1,5 @@
 ---
-title: Services en ligne Devolutions
+  title: Services en ligne Devolutions
 order: 0
 ---
 ![!!{{ fr.DCS }} logo]({{ locale.fr.projects.cloud.logo }})

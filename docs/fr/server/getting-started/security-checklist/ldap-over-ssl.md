@@ -1,5 +1,5 @@
 ---
-title: LDAP sur SSL
+  title: LDAP sur SSL
 ---
 LDAP sur SSL (LDAPS) est façon de sécuriser les communications LDAP.  
 

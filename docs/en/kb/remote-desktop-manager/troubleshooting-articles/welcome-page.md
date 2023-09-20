@@ -1,5 +1,5 @@
 ---
-title: Welcome page
+  title: Welcome page
 ---
 We added a new ***Getting Started*** page at the opening of {{ en.RDM }} but you do not want to see it every time you open our application.  
 

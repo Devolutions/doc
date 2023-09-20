@@ -1,5 +1,5 @@
 ---
-title: Entry History
+  title: Entry History
 ---
 The ***Entry History*** feature allows you to view details regarding different version of your sessions and also gives you the option of performing compares between different versions. 
 

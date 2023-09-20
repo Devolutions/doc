@@ -1,5 +1,5 @@
 ---
-title: Yubikey
+  title: Yubikey
 ---
 {{ en.RDM }} allows you to use a ***Yubikey*** to provide an additional security layer when opening a data source. 
 

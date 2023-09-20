@@ -1,5 +1,5 @@
 ---
-title: Exemples d'actions par lot
+  title: Exemples d'actions par lot
 ---
 Les modifications par lots permettent de modifier rapidement plusieurs sessions à la fois, dans {{ fr.RDM }} lui-même.  
 

@@ -1,5 +1,5 @@
 ---
-title: Templates
+  title: Templates
 status: Topic available in German language
 ---
 Templates are useful to have predefined values when creating an entry. Use templates to:  

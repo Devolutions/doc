@@ -1,5 +1,5 @@
 ---
-title: Sonicwall Global VPN client
+  title: Sonicwall Global VPN client
 ---
 The connection is not established.
 ## Solution

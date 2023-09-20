@@ -1,5 +1,5 @@
 ---
-title: JSON Import Strategies and File Format
+  title: JSON Import Strategies and File Format
 ---
 When importing JSON files into {{ en.RDM }}, there are some specifications to follow regarding the content format. 
 

@@ -1,5 +1,5 @@
 ---
-title: SQL Server express configuration
+  title: SQL Server express configuration
 ---
 To be able to connect to a SQL database with {{ en.DVLS }}, here is the suggested configuration in Microsoft SQL Server Express Edition.
 

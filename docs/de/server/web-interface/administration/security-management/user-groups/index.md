@@ -1,4 +1,4 @@
 ---
-title: Gruppen
+  title: Gruppen
 order: 20
 ---

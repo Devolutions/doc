@@ -1,5 +1,5 @@
 ---
-title: Logs
+  title: Logs
 ---
 When using {{ en.RDM }} locally with an individual type data source, the [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/), normally found in the ***View*** section of the ***View*** tab, are not available. In this situation, the ***Logs*** section appears in the ***View*** tab.  
 ![Local Connection Logs Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2046.png) 

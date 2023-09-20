@@ -1,5 +1,5 @@
 ---
-title: Logs
+  title: Logs
 ---
 The ***Logs*** section provides tools to perform ***Activity Logs Report***, view ***User Activity***, and ***Administration Logs***.  
 

@@ -1,3 +1,3 @@
 ---
-title: Protokolle bereinigen
+  title: Protokolle bereinigen
 ---

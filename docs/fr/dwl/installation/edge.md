@@ -1,5 +1,5 @@
 ---
-title: Edge
+  title: Edge
 ---
 Suivez les étapes ci-dessous pour compléter l'installation de {{ fr.DWL }} dans le navigateur Microsoft Edge.  
 

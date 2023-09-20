@@ -1,5 +1,5 @@
 ---
-title: Applications
+  title: Applications
 ---
 The ***Applications*** section will allow to create an application key to communicate with {{ en.DVLS }} through the [{{ en.PS }} module](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). 
 

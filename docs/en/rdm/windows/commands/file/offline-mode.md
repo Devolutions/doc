@@ -1,5 +1,5 @@
 ---
-title: Go Offline/Online
+  title: Go Offline/Online
 ---
 Toggle the data source [Offline Mode](/rdm/windows/data-sources/offline-mode/).  
 

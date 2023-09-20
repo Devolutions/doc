@@ -1,5 +1,5 @@
 ---
-title: Missing encryption file error
+  title: Missing encryption file error
 ---
 After the creation of a {{ en.DVLS }} instance, when trying to open the web page, the following error is displayed in the browser.  
 ![The encryption file is missing, please contact your administrator error](https://webdevolutions.azureedge.net/docs/en/kb/KB8000.png)

@@ -1,5 +1,5 @@
 ---
-title: Batch Actions
+  title: Batch Actions
 ---
 Use the Edit - Batch Edit - Batch Actions to change the settings of multiple sessions in one operation. It can be used for a batch action command on a group of sessions. 
 

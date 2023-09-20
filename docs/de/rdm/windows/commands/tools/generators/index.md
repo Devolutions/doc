@@ -1,3 +1,3 @@
 ---
-title: Generatoren
+  title: Generatoren
 ---

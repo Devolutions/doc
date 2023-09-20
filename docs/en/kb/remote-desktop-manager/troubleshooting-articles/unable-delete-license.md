@@ -1,5 +1,5 @@
 ---
-title: Unable to delete the license
+  title: Unable to delete the license
 ---
 {{ en.RDM }} allows you to delete the license, but it always comes back in the list.
 ## Solution

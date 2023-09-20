@@ -1,5 +1,5 @@
 ---
-title: Application
+  title: Application
 ---
 The ***Applications*** section manages the availability of different features related to {{ en.RDM }} application.  
 ![!!clip3561](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3561.png) 

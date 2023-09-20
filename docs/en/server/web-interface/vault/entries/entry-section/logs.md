@@ -1,5 +1,5 @@
 ---
-title: Logs
+  title: Logs
 ---
 Consult ***Logs*** and ***Insert log comments*** specific to entries about user interaction. To view the ***General***, ***Details*** and ***Comments*** of a specific log, click the ***Log Entry*** button and click the ***Export*** button to generate a CSV file. 
 ![!!ServerOp4003](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4003.png) 

@@ -1,5 +1,5 @@
 ---
-title: Main menu
+  title: Main menu
 ---
 The left side ***Menu*** allow the user to navigate through the different sections of {{ en.DVLS }}.  
 

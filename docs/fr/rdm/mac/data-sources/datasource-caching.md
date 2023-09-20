@@ -1,5 +1,5 @@
 ---
-title: Mode de la cache
+  title: Mode de la cache
 ---
 Le mode de la cache déterminera comment le client rechargera les entrées lorsque des modifications seront détectées. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances. 
 

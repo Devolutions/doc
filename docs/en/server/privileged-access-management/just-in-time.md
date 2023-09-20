@@ -1,5 +1,5 @@
 ---
-title: Just-In-Time (JIT) elevation
+  title: Just-In-Time (JIT) elevation
 ---
 {% snippet icon.badgeCaution %}
 The ***Just-in-time Elevation*** feature is only available for Domain accounts.

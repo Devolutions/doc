@@ -1,5 +1,5 @@
 ---
-title: SSH Shell entry failed to connect
+  title: SSH Shell entry failed to connect
 ---
 Shell entry failed to connect with interactive authentication.  
 

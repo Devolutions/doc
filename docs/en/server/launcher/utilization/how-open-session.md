@@ -1,5 +1,5 @@
 ---
-title: Open a session
+  title: Open a session
 ---
 {% youtube 'DhJqKA4I90o' %}  
 

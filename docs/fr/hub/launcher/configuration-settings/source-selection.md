@@ -1,5 +1,5 @@
 ---
-title: Sélection de la source Hub
+  title: Sélection de la source Hub
 order: 10
 ---
 Lorsque l'installation sera terminée, {{ fr.DLAUNCHER }} vous invitera à choisir une source Web entre {{ fr.DHUB }} et {{ fr.DVLS }}. 

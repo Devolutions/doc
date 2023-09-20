@@ -1,5 +1,5 @@
 ---
-title: Domain Information
+  title: Domain Information
 ---
 Provides the user's domain information.  
 

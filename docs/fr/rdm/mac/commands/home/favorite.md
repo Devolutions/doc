@@ -1,5 +1,5 @@
 ---
-title: Favoris
+  title: Favoris
 ---
 Cela est utile lorsque le nombre d'entrées gérées devient trop important ou si vous devez conserver une structure de répertoire stricte pour conserver vos entrées. Vous pouvez créer une liste de vos entrées favorites pour faciliter leur accès.  
 ![Accueil - Favoris](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4014.png) 

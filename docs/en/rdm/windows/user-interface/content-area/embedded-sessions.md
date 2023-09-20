@@ -1,5 +1,5 @@
 ---
-title: Embedded Sessions
+  title: Embedded Sessions
 ---
 The ***Embedded (tabbed)*** display mode allows you to open multiple sessions as tabs withing {{ en.RDM }}, similar to the tabs in your standard web browser. ***Embedded sessions*** are one of the available display modes, the others being ***External*** and ***Undocked***.  
 ![Display Mode Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11186.png) 

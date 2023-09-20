@@ -1,5 +1,5 @@
 ---
-title: User is unable to create templates
+  title: User is unable to create templates
 ---
 Users cannot create templates, the "+" plus icon is greyed out.  
 {% snippet icon.badgeInfo %}

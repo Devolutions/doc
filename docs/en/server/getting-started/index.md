@@ -1,5 +1,5 @@
 ---
-title: Getting started
+  title: Getting started
 order: 10
 ---
 {% snippet icon.badgeInfo %} 

@@ -1,5 +1,5 @@
 ---
-title: Authentification
+  title: Authentification
 ---
 La section ***Authentification*** vous permet de configurer la manière dont vos utilisateurs se connecteront à votre hub. 
 

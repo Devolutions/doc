@@ -1,5 +1,5 @@
 ---
-title: Journaux
+  title: Journaux
 ---
 La section ***Journaux*** fournit des outils pour effectuer le ***Rapport des journaux d'activités***, afficher les ***Journaux d'administration*** et ***Activité de l'utilisateur***.  
 

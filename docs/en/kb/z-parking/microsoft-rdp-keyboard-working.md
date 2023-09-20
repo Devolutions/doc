@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP Keyboard not Working
+  title: Microsoft RDP Keyboard not Working
 ---
 Some users have experienced issues where their keyboard would not work on the Windows 7 system.
 

@@ -1,5 +1,5 @@
 ---
-title: Batch Edit
+  title: Batch Edit
 ---
 Use the Edit - Batch Edit or the Batch Edit option in the context menu to change the settings of multiple sessions in one operation. It can be used for example to remove or update all of the credentials of a group of sessions.  
 ![Batch Edit](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10346.png) 

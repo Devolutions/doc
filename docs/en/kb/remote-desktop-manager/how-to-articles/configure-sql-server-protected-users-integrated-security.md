@@ -1,5 +1,5 @@
 ---
-title: Configure SQL Server for Protected Users with Integrated Security
+  title: Configure SQL Server for Protected Users with Integrated Security
 ---
 Here are the steps to configure your SQL Server to allow your ***Protected Users*** to connect to the Database using the Integrated Security authentication method.
 

@@ -1,5 +1,5 @@
 ---
-title: High DPI issues
+  title: High DPI issues
 description: There are multiple problems that can be caused by high DPI in RDP sessions.
 keywords:
 - DPI

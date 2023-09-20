@@ -1,5 +1,5 @@
 ---
-title: Diagnostic
+  title: Diagnostic
 ---
 If you encounter a problem with {{ en.RDM }}, you can run a system diagnostic, which is available in Help – Diagnostic. This could help diagnose or give a pointer to what kind of issues you might be experiencing. 
 

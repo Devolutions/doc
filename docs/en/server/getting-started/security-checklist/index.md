@@ -1,5 +1,5 @@
 ---
-title: Security checklist
+  title: Security checklist
 ---
 To achieve the highest level of security, you should adhere to the following guidelines.  
 

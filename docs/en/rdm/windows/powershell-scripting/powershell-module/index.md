@@ -1,5 +1,5 @@
 ---
-title: PowerShell Module
+  title: PowerShell Module
 ---
 {{ en.RDM }} supports Windows PowerShell. PowerShell is a powerful scripting tool that lets administrators automate {{ en.RDM }}. They are provided in a PowerShell module. 
 

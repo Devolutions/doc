@@ -1,5 +1,5 @@
 ---
-title: Ports and firewalls
+  title: Ports and firewalls
 ---
 {{ en.DVLS }} in itself does not dictate which ports to use for any of the resources that it accesses. You must consult with your system administrator to ascertain which adjustments need to be made in order for the system to inter-operate with your infrastructure.
 

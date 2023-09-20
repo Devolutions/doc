@@ -1,3 +1,3 @@
 ---
-title: Configuration et sécurité
+  title: Configuration et sécurité
 ---

@@ -1,5 +1,5 @@
 ---
-title: Tâche
+  title: Tâche
 ---
 La fonctionnalité ***Tâche*** est similaire à ***Liste des tâches***, mais elle ne s'applique qu'à l'entrée sélectionnée. Les tâches sont disponibles dans le menu contextuel ***Affichage – Disposition – Tâche***. 
 

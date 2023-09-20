@@ -1,5 +1,5 @@
 ---
-title: Droits d'administrateur
+  title: Droits d'administrateur
 ---
 Les ***Administrateurs*** peuvent autoriser des utilisateurs spécifiques à devenir administrateur de {{ fr.DHUBB }}. 
 1. Aller dans ***Administration - Utilisateurs***. 

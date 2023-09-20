@@ -1,5 +1,5 @@
 ---
-title: Templates default path
+  title: Templates default path
 ---
 When creating new entries, the ***Default Settings*** for ***Templates*** are in ***File - Templates - Local Default Settings***.  
 

@@ -1,4 +1,4 @@
 ---
-title: Authentifizierung
+  title: Authentifizierung
 order: 10
 ---

@@ -1,5 +1,5 @@
 ---
-title: Sessions intégrées
+  title: Sessions intégrées
 ---
 Le mode d'affichage ***Intégré*** (à onglets) vous permet d'ouvrir plusieurs sessions sous forme d'onglets dans {{ fr.RDM }}, similaires aux onglets de votre navigateur Web standard. Les sessions intégrées sont l'un des 3 modes d'affichage disponibles, les 2 autres étant ***Externe*** et ***Désancré***.  
 ![!!RDMMac4038](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4038.png) 

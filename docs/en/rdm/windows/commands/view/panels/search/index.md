@@ -1,5 +1,5 @@
 ---
-title: Search
+  title: Search
 ---
 The ***Search*** function in the ***Panels*** section of the ***View*** tab allows you to search folders and entries in the database you are currently in.  
 ![Search Function](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin2005.png) 

@@ -1,3 +1,3 @@
 ---
-title: Theme system
+  title: Theme system
 ---

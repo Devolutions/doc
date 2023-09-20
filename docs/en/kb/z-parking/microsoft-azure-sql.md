@@ -1,5 +1,5 @@
 ---
-title: Microsoft Azure SQL
+  title: Microsoft Azure SQL
 description: Create an empty SQL database on your Microsoft Azure SQL portal.
 keywords:
 - Microsoft Azure SQL

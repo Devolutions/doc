@@ -1,5 +1,5 @@
 ---
-title: Personnalisations des Logos
+  title: Personnalisations des Logos
 ---
 Vous pouvez personnaliser les logos de l'interface Web {{ fr.DVLS }} pour mieux servir vos clients. 
 L'intégration de votre marque est possible dans ***Administration – Paramètres Serveurs – Avancé***.  

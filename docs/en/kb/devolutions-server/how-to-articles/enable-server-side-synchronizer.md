@@ -1,5 +1,5 @@
 ---
-title: Enable the server-side synchronizer
+  title: Enable the server-side synchronizer
 ---
 {% snippet icon.badgeCaution %}
 The {{ en.DVLS }} Scheduler must be installed and running to have this feature enabled.

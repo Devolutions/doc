@@ -1,5 +1,5 @@
 ---
-title: Task
+  title: Task
 ---
 The ***Task*** feature is similar to [***Task List***](/rdm/windows/commands/view/panels/task-list/), but it applies only to the selected entry. Tasks are available from the context menu ***View – Layout – Task***. 
 

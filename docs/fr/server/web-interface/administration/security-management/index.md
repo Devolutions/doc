@@ -1,4 +1,4 @@
 ---
-title: Gestion de la sécurité
+  title: Gestion de la sécurité
 order: 10
 ---

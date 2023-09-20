@@ -1,3 +1,3 @@
 ---
-title: Edit
+  title: Edit
 ---

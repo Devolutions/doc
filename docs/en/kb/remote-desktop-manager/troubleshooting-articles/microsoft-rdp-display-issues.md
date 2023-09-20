@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP display issues
+  title: Microsoft RDP display issues
 ---
 ### The Remote session's content is blurry
 

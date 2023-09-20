@@ -1,5 +1,5 @@
 ---
-title: Saisir l'entrée clavier
+  title: Saisir l'entrée clavier
 ---
 L'entrée ***Saisir du clavier*** est utilisée pour capturer les raccourcis clavier lors de l'exécution d'une session. Il peut être désactivé momentanément pour garantir que le raccourci est envoyé à la session en cours.  
 

@@ -1,5 +1,5 @@
 ---
-title: Raccourcis clavier
+  title: Raccourcis clavier
 ---
 Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Préférences – Interface utilisateur – Raccourcis***.  
 

@@ -1,5 +1,5 @@
 ---
-title: OpenVPN loses connection at launch
+  title: OpenVPN loses connection at launch
 ---
 {% snippet icon.badgeCaution %}
 Note that for OpenVPN to work properly, you will need version 11.15.0.0 of the OpenVPN GUI.

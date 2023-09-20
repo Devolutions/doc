@@ -1,5 +1,5 @@
 ---
-title: Diagnostic
+  title: Diagnostic
 ---
 Si vous rencontrez un problème avec {{ fr.RDM }}, vous pouvez exécuter un diagnostic système, disponible dans ***Aide - Diagnostic***. Cela pourrait aider à diagnostiquer ou à indiquer le type de problèmes que vous pourriez rencontrer.  
 ![Aide - Diagnostic](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4229.png) 

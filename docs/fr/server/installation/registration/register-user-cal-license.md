@@ -1,5 +1,5 @@
 ---
-title: Enregistrer une licence LAC utilisateur
+  title: Enregistrer une licence LAC utilisateur
 order: 30
 ---
 Il existe deux méthodes pour enregistrer votre licence ***LAC utilisateur***, avec la [{{ fr.DVLSCONSOLE }}](#console-de-devolutions-server) ou via l'[interface Web {{ fr.DVLS }}](#interface-web-de-devolutions-server).  

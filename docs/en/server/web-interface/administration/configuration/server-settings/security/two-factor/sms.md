@@ -1,5 +1,5 @@
 ---
-title: SMS
+  title: SMS
 description: Multi-factor authentication (MFA) via SMS requires the user to enter a code they receive on their mobile phone as its second component to access the data source.
 keywords:
 - SMS

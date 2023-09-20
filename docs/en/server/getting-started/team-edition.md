@@ -1,5 +1,5 @@
 ---
-title: Team Edition
+  title: Team Edition
 keywords:
 - Roles
 ---

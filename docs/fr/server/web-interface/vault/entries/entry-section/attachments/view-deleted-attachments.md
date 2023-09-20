@@ -1,5 +1,5 @@
 ---
-title: Afficher les pièces jointes supprimées
+  title: Afficher les pièces jointes supprimées
 ---
 Les pièces jointes supprimées peuvent être restaurées et gérées dans l'entrée ***Afficher les pièces jointes supprimées*** de la section ***Pièces jointes***. 
 

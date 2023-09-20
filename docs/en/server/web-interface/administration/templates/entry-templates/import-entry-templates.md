@@ -1,5 +1,5 @@
 ---
-title: Import Entry Templates
+  title: Import Entry Templates
 ---
 Import previously exported ***Entry Templates*** in the web interface of {{ en.DVLS }}.  
 

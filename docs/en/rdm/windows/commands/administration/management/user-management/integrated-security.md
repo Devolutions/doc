@@ -1,5 +1,5 @@
 ---
-title: User Management Integrated Security
+  title: User Management Integrated Security
 ---
 ***Integrated Security*** is a Microsoft technology, which uses the credentials of the current Windows session and send them automatically to the remote resources for authentication.  
 

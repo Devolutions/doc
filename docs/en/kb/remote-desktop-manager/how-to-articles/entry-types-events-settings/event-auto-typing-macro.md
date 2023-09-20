@@ -1,5 +1,5 @@
 ---
-title: Event auto typing macro
+  title: Event auto typing macro
 ---
 The ***Typing Macro*** automatically executes once a connection has been established.  
 

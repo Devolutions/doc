@@ -1,5 +1,5 @@
 ---
-title: Recherche
+  title: Recherche
 ---
 Cette section couvre la fonction de ***Recherche*** pour rapidement trouver vos entrées dans tous vos {{ fr.VLT }}s.  
 

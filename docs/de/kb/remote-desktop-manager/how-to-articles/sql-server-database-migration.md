@@ -1,5 +1,5 @@
 ---
-title: Empfohlene Vorgehensweise für die Migration von SQL Server-Datenbanken
+  title: Empfohlene Vorgehensweise für die Migration von SQL Server-Datenbanken
 description: Um den Inhalt Ihrer SQL-Server-Datenbank zu migrieren, empfehlen wir die Schritte einer der folgenden Lösungen zu befolgen.
 ---
 Um den Inhalt Ihrer SQL-Server-Datenbank zu migrieren, empfehlen wir die Schritte einer der folgenden Lösungen zu befolgen.  

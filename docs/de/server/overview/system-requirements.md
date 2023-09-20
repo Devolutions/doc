@@ -1,5 +1,5 @@
 ---
-title: Systemanforderungen
+  title: Systemanforderungen
 ---
 ## Mindestanforderungen
 

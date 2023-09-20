@@ -1,5 +1,5 @@
 ---
-title: Pwned password check
+  title: Pwned password check
 ---
 {% youtube 'D2PnLXJY100' %}
 

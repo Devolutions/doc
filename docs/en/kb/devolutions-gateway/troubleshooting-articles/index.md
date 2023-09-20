@@ -1,4 +1,4 @@
 ---
-title: Troubleshooting articles
+  title: Troubleshooting articles
 order: 10
 ---

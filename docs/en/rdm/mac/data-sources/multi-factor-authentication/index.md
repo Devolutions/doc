@@ -1,5 +1,5 @@
 ---
-title: Multi-factor authentication
+  title: Multi-factor authentication
 ---
 {% snippet icon.badgeInfo %} 
 This feature is only available for [{{ en.DVLS }}](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/), [Microsoft SQL Server](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure-sql-server/), and [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) data sources. 

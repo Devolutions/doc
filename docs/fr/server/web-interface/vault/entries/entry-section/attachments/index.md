@@ -1,5 +1,5 @@
 ---
-title: Pièces jointes
+  title: Pièces jointes
 order: 20
 ---
 Gérer, afficher et télécharger des fichiers ***Pièces jointes*** stockés directement {{ fr.DVLS }} pour une entrée. 

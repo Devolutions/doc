@@ -1,4 +1,4 @@
 ---
-title: Gruppenbasierte Zugriffskontrolle
+  title: Gruppenbasierte Zugriffskontrolle
 order: 70
 ---

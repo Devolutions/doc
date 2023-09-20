@@ -1,5 +1,5 @@
 ---
-title: Pack data source (optimize)
+  title: Pack data source (optimize)
 ---
 When holding a great number of entries in your data source it is a best practice to compress them to avoid slowness issues when using your data source. The ***Data Source (Optimize)*** will analyze all your entries, compress them and then re-saves them, thus saving space in your data source. 
 

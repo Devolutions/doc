@@ -1,5 +1,5 @@
 ---
-title: History
+  title: History
 ---
 In ***Reports – History – Deleted Entries***, manage the deleted entries from all the main {{ en.VLT }}s and users. You can refine your search with the filters and click ***Restore*** to recover the entry in its original {{ en.VLT }}.  
 

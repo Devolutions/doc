@@ -1,5 +1,5 @@
 ---
-title: Client
+  title: Client
 ---
 {{ en.RDM }} can be downloaded as setup files or as a binary compressed file (.zip) via our [Devolutions website](https://devolutions.net/remote-desktop-manager/home/download). It can also be downloaded from the [Microsoft Store](https://apps.microsoft.com/store/detail/devolutions-remote-desktop-manager/XPFCXHF337W98S). 
 

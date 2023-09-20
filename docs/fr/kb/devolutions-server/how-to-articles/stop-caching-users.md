@@ -1,5 +1,5 @@
 ---
-title: Arrêter la mise en cache des utilisateurs et des groupes d'utilisateurs.
+  title: Arrêter la mise en cache des utilisateurs et des groupes d'utilisateurs.
 keywords:
 - Cache
 - Authentification Microsoft

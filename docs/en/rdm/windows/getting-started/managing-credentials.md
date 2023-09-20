@@ -1,5 +1,5 @@
 ---
-title: Managing credentials
+  title: Managing credentials
 description: Depending on your organization's security policies, there are multiple ways of handling credentials.
 ---
 Depending on your organization's security policies, there are multiple ways of handling credentials. We can manage a wide range of scenarios; the most popular are listed below. It is critical to understand that these are the credentials used to connect to remote hosts, not the ones you use to launch {{ en.RDM }}. 

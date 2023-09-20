@@ -1,5 +1,5 @@
 ---
-title: Écran principal
+  title: Écran principal
 ---
 L'écran principal de {{ fr.RDM }} par défaut est illustré ci-dessous. Allez dans ***Fichier – Options – Interface utilisateur*** pour changer le style actuel. Nous avons différents paramètres pour personnaliser votre expérience, tels que différents thèmes, raccourcis et plus encore!  
 ![Présentation de interface utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11231.png) 

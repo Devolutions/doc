@@ -1,5 +1,5 @@
 ---
-title: Uninstall
+  title: Uninstall
 ---
 ### Instructions 
 

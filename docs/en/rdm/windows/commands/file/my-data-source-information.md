@@ -1,5 +1,5 @@
 ---
-title: My Data Source Information
+  title: My Data Source Information
 ---
 The ***Data Source Information*** window displays various information related to the current data source, such as the current user and security access. 
 

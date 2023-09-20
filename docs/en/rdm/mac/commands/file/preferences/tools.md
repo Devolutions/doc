@@ -1,5 +1,5 @@
 ---
-title: Tools
+  title: Tools
 ---
 Use File - Preferences - Tools to configure the delay of time before the tool timeout. 
 

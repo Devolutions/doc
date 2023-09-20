@@ -1,5 +1,5 @@
 ---
-title: Groupes d'abonnés
+  title: Groupes d'abonnés
 ---
 Le groupe d'abonnés est utilisé pour regrouper des abonnés, soit des utilisateurs et/ou serveurs syslogs.  
 ![Notifications - Groupe d'abonnées](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8075.png)  

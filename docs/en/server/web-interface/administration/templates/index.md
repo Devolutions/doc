@@ -1,4 +1,4 @@
 ---
-title: Templates
+  title: Templates
 order: 40
 ---

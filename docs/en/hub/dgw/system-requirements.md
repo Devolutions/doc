@@ -1,5 +1,5 @@
 ---
-title: System requirements
+  title: System requirements
 order: 20
 ---
 {{ en.DGW }} requires the following:  

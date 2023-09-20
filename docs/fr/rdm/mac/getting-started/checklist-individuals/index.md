@@ -1,5 +1,5 @@
 ---
-title: Liste de vérification - Utilisation individuelle
+  title: Liste de vérification - Utilisation individuelle
 ---
 Pour vous aider à installer et configurer {{ fr.RDM }}, nous avons créé une liste de vérification. Elle s’adresse surtout aux individus. 
 

@@ -1,3 +1,3 @@
 ---
-title: Optionen
+  title: Optionen
 ---

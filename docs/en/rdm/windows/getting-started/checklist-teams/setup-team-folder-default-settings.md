@@ -1,5 +1,5 @@
 ---
-title: Set up a team folder for default settings
+  title: Set up a team folder for default settings
 description: You must create a team folder on a server drive to store your default settings templates in order to share them with your team.
 ---
 You must create a team folder on a server drive to store your default settings templates in order to share them with your team.  

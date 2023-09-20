@@ -1,5 +1,5 @@
 ---
-title: Configuration requise
+  title: Configuration requise
 status: Topic available in German language
 ---
 {% snippet icon.badgeInfo %} 

@@ -1,5 +1,5 @@
 ---
-title: Choisir le type de source de données – Utilisation individuelle
+  title: Choisir le type de source de données – Utilisation individuelle
 ---
 Cette section s'adresse surtout aux individus, mais aussi aux équipes de trois (3) utilisateurs ou moins qui ne désirent pas implanter de sécurité.  
 

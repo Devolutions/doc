@@ -1,5 +1,5 @@
 ---
-title: Affichage
+  title: Affichage
 ---
 La section ***Affichage*** de l'onglet ***Affichage*** permet d'accéder à différentes listes et informations ainsi que de se connecter rapidement à un hôte.  
 ![Section Affichage](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2016.png) 

@@ -1,5 +1,5 @@
 ---
-title: User interface error
+  title: User interface error
 ---
 For many cases of user interface error in {{ en.RDM }}, click on ***Windows*** - ***Reset Layout*** It can effectively resolve most of your display issues.  
 ![!!KB4095](https://webdevolutions.azureedge.net/docs/en/kb/KB4095.png)  

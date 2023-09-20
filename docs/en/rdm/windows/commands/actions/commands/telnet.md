@@ -1,5 +1,5 @@
 ---
-title: Telnet
+  title: Telnet
 ---
 The actions for a Telnet session allow you to send remote commands to your host. 
 

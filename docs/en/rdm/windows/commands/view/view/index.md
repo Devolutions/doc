@@ -1,5 +1,5 @@
 ---
-title: View
+  title: View
 ---
 The ***View*** section in the ***View*** tab allows you to access different lists and information as well as to quickly connect to a host.  
 ![View Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2015.png) 

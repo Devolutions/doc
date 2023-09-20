@@ -1,5 +1,5 @@
 ---
-title: Blank page issues in a Citrix environment
+  title: Blank page issues in a Citrix environment
 ---
 Multiple issues regarding Webview2’s behavior under a Citrix environment.
 ## Solution

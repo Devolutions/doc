@@ -1,5 +1,5 @@
 ---
-title: Documentation tab is empty
+  title: Documentation tab is empty
 ---
 The ***Documentation*** tab, in an entry, is empty although you have ***Reset the layout*** in the ***Window*** tab.  
 ![!!KB4705](https://webdevolutions.azureedge.net/docs/en/kb/KB4705.png)

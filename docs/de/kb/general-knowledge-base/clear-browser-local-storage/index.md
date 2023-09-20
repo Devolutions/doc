@@ -1,3 +1,3 @@
 ---
-title: Clear a browser's local storage
+  title: Clear a browser's local storage
 ---

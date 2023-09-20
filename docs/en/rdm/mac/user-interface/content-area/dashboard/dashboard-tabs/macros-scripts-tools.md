@@ -1,5 +1,5 @@
 ---
-title: Macros/Scripts/Tools
+  title: Macros/Scripts/Tools
 ---
 Session tools are available in the dashboard tabs and in the session context menu Macros/Scripts/Tools. 
 

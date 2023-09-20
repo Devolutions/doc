@@ -1,3 +1,3 @@
 ---
-title: Benutzerverwaltung
+  title: Benutzerverwaltung
 ---

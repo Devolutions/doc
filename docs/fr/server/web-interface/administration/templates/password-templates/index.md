@@ -1,5 +1,5 @@
 ---
-title: Modèles de mot de passe
+  title: Modèles de mot de passe
 order: 10
 ---
 Les ***Modèles de mot de passe*** permettent aux administrateurs de gérer les modèles de mot de passe.  

@@ -1,5 +1,5 @@
 ---
-title: Certificate Generator
+  title: Certificate Generator
 ---
 The ***Certificate Generator*** allows you to create a self signed certificate which is an identity certificate that is signed by the same entity whose identity is certified. 
 

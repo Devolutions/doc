@@ -1,5 +1,5 @@
 ---
-title: CSV-Importstrategien und -Dateiformate
+  title: CSV-Importstrategien und -Dateiformate
 ---
 Beim Importieren von CSV-Dateien in {{ de.RDM }} müssen einige Entscheidungen bezüglich der anzuwendenden Strategie und des Formats des Inhalts getroffen werden. 
 

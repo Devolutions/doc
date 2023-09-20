@@ -1,5 +1,5 @@
 ---
-title: Duo
+  title: Duo
 description: '{{ en.RDM }} allows you to configure a Duo authentication to provide an additional security layer when opening a data source.'
 keywords:
 - Duo authentication

@@ -1,5 +1,5 @@
 ---
-title: Configurer un VPN pour plusieurs sessions
+  title: Configurer un VPN pour plusieurs sessions
 ---
 {{ fr.RDM }} automatise l’ouverture d’un VPN lors du lancement d’une session à distance. Cette configuration est bien adaptée aux situations où vous avez besoin d'un VPN pour un groupe de serveurs à un emplacement distant. La procédure définit les configurations VPN dans le dossier et les entrées héritent des paramètres. 
 ## Étapes 

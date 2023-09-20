@@ -1,5 +1,5 @@
 ---
-title: TheGreenBow VPN configuration
+  title: TheGreenBow VPN configuration
 keywords:
 - Bow
 - Green

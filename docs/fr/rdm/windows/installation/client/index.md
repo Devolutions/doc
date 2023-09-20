@@ -1,5 +1,5 @@
 ---
-title: Application client
+  title: Application client
 ---
 {{ fr.RDM }} peut être téléchargé sous forme de fichiers d'installation ou de fichier compressé binaire (.zip) via notre [site Web Devolutions](https://devolutions.net/fr/remote-desktop-manager/home/download). Il peut également être téléchargé depuis le [Microsoft Store](https://apps.microsoft.com/store/detail/devolutions-remote-desktop-manager/XPFCXHF337W98S).  
 

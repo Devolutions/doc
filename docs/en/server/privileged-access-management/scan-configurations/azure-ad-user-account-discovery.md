@@ -1,5 +1,5 @@
 ---
-title: Azure AD user account discovery
+  title: Azure AD user account discovery
 ---
 The Azure AD User Account Discovery allows {{ en.DVLS }} to scan the Azure AD to find accounts or groups. The accounts or groups will not be automatically added in the Privileged Access Management folders.  
 ![!!ServerOp8097](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8097.png) 

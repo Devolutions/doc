@@ -1,3 +1,3 @@
 ---
-title: Statusleiste
+  title: Statusleiste
 ---

@@ -1,5 +1,5 @@
 ---
-title: Advanced
+  title: Advanced
 description: Use File – Preferences – Advanced to control the behavior of the application with respect to the lower level settings.
 ---
 Use ***File – Preferences – Advanced*** to control the behavior of the application with respect to the lower level settings.  

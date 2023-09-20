@@ -1,5 +1,5 @@
 ---
-title: Configure Google Authenticator 2-factor authentication
+  title: Configure Google Authenticator 2-factor authentication
 ---
 {% youtube 'Oi27Y8FfcNg' %}
 

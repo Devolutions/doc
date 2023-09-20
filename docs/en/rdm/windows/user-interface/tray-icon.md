@@ -1,5 +1,5 @@
 ---
-title: Tray icon
+  title: Tray icon
 ---
 {{ en.RDM }} allows the user to control the application from the Windows system tray. You can also [customize its content](#tray-icon-preferences).  
 

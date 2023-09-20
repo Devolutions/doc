@@ -1,5 +1,5 @@
 ---
-title: Advanced Search
+  title: Advanced Search
 ---
 The Advanced Search allows you to search for entries and folders based on multiple criteria in one {{ en.VLT }} at a time. To search multiple {{ en.VLT }}s simultaneously, please refer to [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/panels/search/multi-vault/).  
 ![Advanced Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10250.png) 

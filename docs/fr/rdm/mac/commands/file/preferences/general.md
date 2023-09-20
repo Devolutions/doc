@@ -1,5 +1,5 @@
 ---
-title: Général
+  title: Général
 ---
 Utiliser ***Fichier - Préférences - Général*** pour configurer les options liées aux fonctionnalités de l'application. 
 

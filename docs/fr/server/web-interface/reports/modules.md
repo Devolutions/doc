@@ -1,5 +1,5 @@
 ---
-title: Accès privilégiés
+  title: Accès privilégiés
 ---
 La section ***Accès Privilégiés*** fournit aux administrateurs un rapport sur la ***Rotation des mots de passe***. 
 

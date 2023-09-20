@@ -1,5 +1,5 @@
 ---
-title: Administration
+  title: Administration
 ---
 The ***Administration*** tab allows to manage settings and users of a data source, view reports such as the activity logs, and much more. This tab is only available to administrators of the data source. 
 

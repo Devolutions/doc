@@ -1,5 +1,5 @@
 ---
-title: Accueil
+  title: Accueil
 ---
 L'onglet du ruban ***Accueil*** vous permet d'appliquer une action sur la session actuellement sélectionnée. Le ruban affiche l'onglet suivant lorsque la session est intégrée.  
 ![Accueil](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10672.png) 

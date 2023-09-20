@@ -1,5 +1,5 @@
 ---
-title: FortiClient VPN
+  title: FortiClient VPN
 ---
 Here is a workaround to use a VPN in combination with FortiClient.
 1. Retrieve the Fortinet tools from Fortinet ex: FortiClientTools_7.0.2.0090.  

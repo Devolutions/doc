@@ -1,5 +1,5 @@
 ---
-title: Sécurité
+  title: Sécurité
 ---
 Utiliser ***Fichier - Préférences - Sécurité*** pour configurer la sécurité de l'application. 
 

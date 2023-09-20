@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP RD Gateway credentials prompt
+  title: Microsoft RDP RD Gateway credentials prompt
 ---
 This problem happens when you have RD Gateway configured with some credentials and you use the reconnect action. You get prompted for the RD Gateway credentials and the application does not reuse the existing settings.
 

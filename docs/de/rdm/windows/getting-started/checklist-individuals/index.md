@@ -1,3 +1,3 @@
 ---
-title: Checkliste für Einzelpersonen
+  title: Checkliste für Einzelpersonen
 ---

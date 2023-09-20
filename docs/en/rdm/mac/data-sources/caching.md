@@ -1,5 +1,5 @@
 ---
-title: Caching
+  title: Caching
 ---
 The caching mode will determine how the client will re-load entries when changes are detected. On large data sources caching is a must and will increase performance significantly. 
 

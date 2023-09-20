@@ -1,5 +1,5 @@
 ---
-title: Checkout Process
+  title: Checkout Process
 description: This topic will cover both the PAM checkout process and the PAM checkout using a custom time frame.
 ---
 {% snippet icon.badgeNotice %} 

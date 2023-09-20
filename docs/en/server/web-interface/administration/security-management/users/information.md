@@ -1,5 +1,5 @@
 ---
-title: Information
+  title: Information
 ---
 The ***Information*** section is for optional information. 
 

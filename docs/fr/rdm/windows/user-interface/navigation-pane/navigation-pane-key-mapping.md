@@ -1,5 +1,5 @@
 ---
-title: Mappage des touches
+  title: Mappage des touches
 ---
 {{ fr.RDM }}, étant une application Windows, prend en charge le mappage des touches dans son ***{{ fr.NPANE }}***.  
 

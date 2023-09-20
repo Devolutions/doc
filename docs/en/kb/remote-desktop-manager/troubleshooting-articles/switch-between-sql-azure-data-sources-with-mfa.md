@@ -1,5 +1,5 @@
 ---
-title: Switch between SQL Azure data sources with MFA
+  title: Switch between SQL Azure data sources with MFA
 ---
 In {{ en.RDM }}, when switching between SQL Azure data sources that have multi-factor authentication (MFA) support, the connection will work only for the first data source but not for subsequent ones; the user will not be prompted when switching data sources.
 ## Solution

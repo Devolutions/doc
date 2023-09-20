@@ -1,5 +1,5 @@
 ---
-title: Key Agent Manager
+  title: Key Agent Manager
 ---
 The ***Key Agent Manager*** is used to hold all your SSH Keys in memory, already decoded and ready for them to be used. It has the same use as Pageant (SSH Key Manager) has for Putty except that the Key Agent Manager is used with {{ en.RDM }}. 
 

@@ -1,5 +1,5 @@
 ---
-title: View multi-row for open session tabs
+  title: View multi-row for open session tabs
 ---
 {% youtube 'aoFVQ6X53nI' %}
 

@@ -1,5 +1,5 @@
 ---
-title: Sécurité
+  title: Sécurité
 Description: Utilisez Fichier – Options – Sécurité pour configurer les paramètres de sécurité reliés à la sécurité de l'application en local, à l'authentification multifacteur, au verrouillage, à la sécurité hors ligne, à la sécurité du certificat, et plus encore.
 keywords:
 - security

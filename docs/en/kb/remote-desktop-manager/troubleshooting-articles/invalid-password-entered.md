@@ -1,5 +1,5 @@
 ---
-title: Invalid password entered
+  title: Invalid password entered
 ---
 In {{ en.RDM }}, you get the error message ***Invalid password entered*** This error happens when you have both these options enable: ***Application Security (Local)*** and ***Use this computer credentials as application password***.  
 

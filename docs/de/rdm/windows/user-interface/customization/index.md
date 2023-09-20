@@ -1,3 +1,3 @@
 ---
-title: Anpassen der Benutzeroberfläche
+  title: Anpassen der Benutzeroberfläche
 ---

@@ -1,5 +1,5 @@
 ---
-title: Information sur le domaine
+  title: Information sur le domaine
 ---
 Permet d'afficher l'information sur le compte de domaine.  
 ![Information sur le domaine](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8008.png) 

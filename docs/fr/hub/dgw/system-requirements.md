@@ -1,5 +1,5 @@
 ---
-title: Configuration du système
+  title: Configuration du système
 order: 20
 ---
 {{ fr.DGW }} requiert la configuration suivante :  

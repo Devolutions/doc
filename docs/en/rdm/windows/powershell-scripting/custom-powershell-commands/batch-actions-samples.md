@@ -1,5 +1,5 @@
 ---
-title: Batch actions samples
+  title: Batch actions samples
 ---
 The ***Batch Actions*** allow for a quick way to modify multiple sessions at once, but within {{ en.RDM }} itself.  
 

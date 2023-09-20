@@ -1,5 +1,5 @@
 ---
-title: Inviter un administrateur
+  title: Inviter un administrateur
 ---
 Les administrateurs peuvent inviter des utilisateurs spécifiques à devenir administrateur de {{ fr.DHUBB }}. Nous vous recommandons fortement d'inviter au moins un autre administrateur.  
 

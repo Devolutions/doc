@@ -1,5 +1,5 @@
 ---
-title: View Deleted
+  title: View Deleted
 ---
 The Administration - View deleted option allows you to view the deleted entries as well as restoring them.  
 ![Administration - View Deleted](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10447.png) 

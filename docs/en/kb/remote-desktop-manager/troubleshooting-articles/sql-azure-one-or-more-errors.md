@@ -1,5 +1,5 @@
 ---
-title: SQL Azure one or more errors occurred
+  title: SQL Azure one or more errors occurred
 ---
 After following the steps in [Configure Azure Active Directory App Registration](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/), you receive the error message below:  
 

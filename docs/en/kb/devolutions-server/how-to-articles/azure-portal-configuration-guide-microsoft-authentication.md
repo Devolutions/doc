@@ -1,5 +1,5 @@
 ---
-title: Azure Portal configuration guide Microsoft Authentication
+  title: Azure Portal configuration guide Microsoft Authentication
 ---
 The following topic contains the procedure to configure Azure and {{ en.DVLS }} properly to use Microsoft authentication.
 ## Requirements

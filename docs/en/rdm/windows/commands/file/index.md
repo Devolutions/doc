@@ -1,5 +1,5 @@
 ---
-title: File
+  title: File
 ---
 The ***File*** menu contains many actions regarding the application and the data source. This menu is contextual and depends on the connected data source.  
 ![File](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10025.png) 

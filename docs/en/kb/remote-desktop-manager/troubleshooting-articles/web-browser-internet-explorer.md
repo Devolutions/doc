@@ -1,5 +1,5 @@
 ---
-title: Web browser Internet Explorer
+  title: Web browser Internet Explorer
 ---
 ## Problem 1
 An error has occurred in the script on this page.

@@ -1,3 +1,3 @@
 ---
-title: Entry Types Events Settings
+  title: Entry Types Events Settings
 ---

@@ -1,5 +1,5 @@
 ---
-title: Permissions
+  title: Permissions
 ---
 The Permissions section allows you to assign permissions. Controls are sometimes hidden depending on the data source or the state of other controls. 
 

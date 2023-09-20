@@ -1,5 +1,5 @@
 ---
-title: Modifier
+  title: Modifier
 ---
 L'onglet ***Modifier*** contient des opérations pour ajouter, modifier, remplacer, modifier en lot ou exporter des entrées rapidement.  
 ![Ruban - Modifier](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10207.png) 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft RDP remote computer requires authentication
+  title: Microsoft RDP remote computer requires authentication
 ---
 The connection cannot proceed because authentication is not enabled and the remote computer requires that authentication be enabled to connect.
 

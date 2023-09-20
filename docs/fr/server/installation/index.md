@@ -1,5 +1,5 @@
 ---
-title: Installation
+  title: Installation
 order: 20
 ---
 {% snippet icon.badgeInfo %} 

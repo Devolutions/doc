@@ -1,5 +1,5 @@
 ---
-title: Emplacement du fichier de configuration
+  title: Emplacement du fichier de configuration
 ---
 ## Emplacement par défaut 
 

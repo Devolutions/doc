@@ -1,5 +1,5 @@
 ---
-title: Unable to connect to the data source
+  title: Unable to connect to the data source
 ---
 When trying to connect to a Microsoft SQL Server data source in {{ en.RDM }}, you may encounter this error message:
 

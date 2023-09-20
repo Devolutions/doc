@@ -1,5 +1,5 @@
 ---
-title: Groupe d'utilisateurs
+  title: Groupe d'utilisateurs
 keywords:
 - rôle
 ---

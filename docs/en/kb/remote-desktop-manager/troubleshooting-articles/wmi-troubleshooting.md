@@ -1,5 +1,5 @@
 ---
-title: WMI troubleshooting
+  title: WMI troubleshooting
 description: In our environment, we basically run winrm quickconfig on all our machines. For those not joined to a domain, we also add them to the TrustedHosts list. For machines not joined to a domain, there is an added difficulty. If you are using the IP address instead of the host name, it definitely offers a few challenges.
 ---
 {% snippet icon.badgeInfo %}

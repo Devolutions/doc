@@ -1,5 +1,5 @@
 ---
-title: Exporter et importer des entrées
+  title: Exporter et importer des entrées
 ---
 Vous pouvez exporter et importer des entrées d'un type de source de données à un autre. Il existe plusieurs façons d'exporter des entrées avec {{ fr.RDM }}. 
 {% snippet icon.badgeCaution %} 

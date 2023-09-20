@@ -1,5 +1,5 @@
 ---
-title: XML
+  title: XML
 ---
 <table>
 	<tr>

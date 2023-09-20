@@ -1,5 +1,5 @@
 ---
-title: Favorites
+  title: Favorites
 ---
 The ***Favorites*** section contains entries flagged as favorite, by the current user, from all the {{ en.VLT }}s this user has access. ***Favorites*** are not shared and they roam with the user profile.  
 

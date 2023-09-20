@@ -1,5 +1,5 @@
 ---
-title: Compare editions
+  title: Compare editions
 keywords:
 - role
 ---

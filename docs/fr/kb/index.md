@@ -1,3 +1,3 @@
 ---
-title: Base de connaissances
+  title: Base de connaissances
 ---

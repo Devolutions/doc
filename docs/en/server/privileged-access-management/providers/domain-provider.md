@@ -1,5 +1,5 @@
 ---
-title: Domain provider
+  title: Domain provider
 ---
 The Domain Provider allows {{ en.DVLS }} to store the domain account credentials to be used for Active Directory accounts discovery, to achieve password rotation or password propagation.  
 ![Domain Provider dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8141.png) 

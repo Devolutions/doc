@@ -1,5 +1,5 @@
 ---
-title: Message
+  title: Message
 ---
 The ***Message*** feature is located in the ***View*** tab.  
 ![Message Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0032.png) 

@@ -1,5 +1,5 @@
 ---
-title: Configure Azure SQL
+  title: Configure Azure SQL
 ---
 1. Make sure you have a valid Azure SQL subscription to be able to create your database. 
 1. Click on the gear button in the ***{{ en.NPANE }}*** or go to ***File – Data sources***.  

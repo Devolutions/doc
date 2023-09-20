@@ -1,5 +1,5 @@
 ---
-title: Keep tabs open
+  title: Keep tabs open
 ---
 {{ en.RDM }} offers you the possibility of keeping a tab open even when disconnected, allowing you to restart a remote device or simply keep your worksapce set up to quickly resume after a work interruption.
 

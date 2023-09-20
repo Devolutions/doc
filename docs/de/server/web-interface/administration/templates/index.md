@@ -1,4 +1,4 @@
 ---
-title: Vorlagen
+  title: Vorlagen
 order: 40
 ---

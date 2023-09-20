@@ -1,5 +1,5 @@
 ---
-title: PowerShell (RDM CmdLet)
+  title: PowerShell (RDM CmdLet)
 ---
 The ***PowerShell (RDM CmLet)*** automatically opens an embedded PowerShell window. {{ en.RDM }} snap-in allows for quick and robust automation of actions such as add/edit/open of sessions, the possibilities are endless.  
 

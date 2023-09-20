@@ -1,4 +1,4 @@
 ---
-title: Server Einstellungen
+  title: Server Einstellungen
 order: 20
 ---

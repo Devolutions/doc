@@ -1,5 +1,5 @@
 ---
-title: Applications
+  title: Applications
 ---
 Grant access to applications on the {{ en.VLT }}. 
 

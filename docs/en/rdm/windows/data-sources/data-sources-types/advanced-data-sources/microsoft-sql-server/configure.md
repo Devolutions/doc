@@ -1,5 +1,5 @@
 ---
-title: Configure SQL Server
+  title: Configure SQL Server
 ---
 1. Install Microsoft SQL Server or Microsoft SQL Server Express. 
 {% snippet icon.badgeInfo %} 

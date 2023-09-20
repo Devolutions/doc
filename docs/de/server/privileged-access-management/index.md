@@ -1,4 +1,4 @@
 ---
-title: Privilegierte Zugriffsverwaltung
+  title: Privilegierte Zugriffsverwaltung
 order: 50
 ---

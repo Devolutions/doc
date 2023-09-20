@@ -1,3 +1,3 @@
 ---
-title: Microsoft SQL Azure
+  title: Microsoft SQL Azure
 ---

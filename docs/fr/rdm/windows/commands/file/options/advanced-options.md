@@ -1,5 +1,5 @@
 ---
-title: Avancé
+  title: Avancé
 description: Utilisez Fichier – Options – Avancé pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.
 ---
 Utilisez ***Fichier – Options – Avancé*** pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.  

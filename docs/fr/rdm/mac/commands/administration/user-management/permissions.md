@@ -1,5 +1,5 @@
 ---
-title: Permissions
+  title: Permissions
 ---
 La section ***Permissions*** vous permet d'attribuer des permissions. Les contrôles sont parfois masqués en fonction de la source de données ou de l'état des autres contrôles.  
 

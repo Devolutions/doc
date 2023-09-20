@@ -1,5 +1,5 @@
 ---
-title: La plateforme Devolutions
+  title: La plateforme Devolutions
 ---
 Notre plateforme offre plusieurs produits facilitant la gestion de tous les aspects d'une infrastructure TI. 
 

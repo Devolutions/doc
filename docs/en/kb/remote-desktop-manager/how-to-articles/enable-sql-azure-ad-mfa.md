@@ -1,5 +1,5 @@
 ---
-title: Enable SQL Azure with Azure Active Directory with MFA
+  title: Enable SQL Azure with Azure Active Directory with MFA
 ---
 For {{ en.RDM }} version 2022.1 and greater follow the following steps in order to properly enable an Azure SQL with Azure Active Directory (MFA) in combination with {{ en.RDM }}.
 

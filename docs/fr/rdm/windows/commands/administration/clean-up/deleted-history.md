@@ -1,5 +1,5 @@
 ---
-title: Nettoyer l'historique d'entrées supprimées
+  title: Nettoyer l'historique d'entrées supprimées
 ---
 L'***Historique d'entrées supprimées*** supprime définitivement les entrées précédemment supprimées. L'historique complet est toujours conservé, car chaque « version » d'entrée est conservée dans des tableaux historiques. 
 

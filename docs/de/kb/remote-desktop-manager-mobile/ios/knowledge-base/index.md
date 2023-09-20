@@ -1,4 +1,4 @@
 ---
-title: Knowledge Base
+  title: Knowledge Base
 order: 20
 ---

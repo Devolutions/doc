@@ -1,5 +1,5 @@
 ---
-title: Sécurité simplifiée
+  title: Sécurité simplifiée
 ---
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité est disponible que lors de l'utilisation d'une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 

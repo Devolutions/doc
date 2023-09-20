@@ -1,5 +1,5 @@
 ---
-title: Privileged Access Management
+  title: Privileged Access Management
 order: 50
 ---
 {% snippet icon.badgeNotice %} 

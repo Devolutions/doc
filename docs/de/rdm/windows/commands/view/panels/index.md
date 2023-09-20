@@ -1,3 +1,3 @@
 ---
-title: Bereiche
+  title: Bereiche
 ---

@@ -1,3 +1,3 @@
 ---
-title: Offline Modus
+  title: Offline Modus
 ---

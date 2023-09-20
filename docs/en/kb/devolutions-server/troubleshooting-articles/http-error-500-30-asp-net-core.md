@@ -1,5 +1,5 @@
 ---
-title: HTTP Error 500.30 - ASP.NET Core app failed to start
+  title: HTTP Error 500.30 - ASP.NET Core app failed to start
 ---
 Following the upgrade process, when trying to open the {{ en.DVLS }} web page, the browser display the following error.  
 ![!!KB8109](https://webdevolutions.azureedge.net/docs/en/kb/KB8109.png)

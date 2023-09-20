@@ -1,5 +1,5 @@
 ---
-title: Azure SQL update with selection screen
+  title: Azure SQL update with selection screen
 ---
 Since {{ en.RDM }} 2022.1 you get an authentication selection screen when connecting to an Azure SQL database (ADALSQL).
 ## Solution

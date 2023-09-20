@@ -1,5 +1,5 @@
 ---
-title: Aide
+  title: Aide
 ---
 L'onglet d'***Aide*** contient des liens vers le ***Forum Devolutions*** et l'***Aide en ligne***, ainsi que de nombreuses fonctionnalités liées au support, telles que les ***Journaux des applications***, le ***Profileur*** et l'***Enregistreur***.  
 ![Aide](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11352.png) 

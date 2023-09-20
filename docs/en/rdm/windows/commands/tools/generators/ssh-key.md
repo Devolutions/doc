@@ -1,5 +1,5 @@
 ---
-title: SSH Key Generator
+  title: SSH Key Generator
 ---
 SSH keys provide a secure way of logging into a virtual private server with SSH than using a password alone. While a password can eventually be cracked with a brute force attack, SSH keys are nearly impossible to decipher by brute force alone. 
 

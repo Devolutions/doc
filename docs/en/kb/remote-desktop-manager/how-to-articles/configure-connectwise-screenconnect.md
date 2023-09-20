@@ -1,5 +1,5 @@
 ---
-title: Configure ConnectWise (ScreenConnect) 5
+  title: Configure ConnectWise (ScreenConnect) 5
 ---
 It is possible to use ConnectWise (ScreenConnect) in {{ en.RDM }}, however a ConnectWise (ScreenConnect) extension needs to be installed prior to the utilization. After the extension installation, you can configure ConnectWise (ScreenConnect) 5 in {{ en.RDM }}
 

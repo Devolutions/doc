@@ -1,4 +1,4 @@
 ---
-title: Konfiguration und Einstellungen
+  title: Konfiguration und Einstellungen
 order: 20
 ---

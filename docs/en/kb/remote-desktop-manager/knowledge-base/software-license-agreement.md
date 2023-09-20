@@ -1,5 +1,5 @@
 ---
-title: Software License Agreement
+  title: Software License Agreement
 ---
 Our ***Software License Agreement*** for {{ en.RDM }} is available to download in our [Legal & Privacy](https://devolutions.net/legal/software-license-agreements) section of our website.  
 

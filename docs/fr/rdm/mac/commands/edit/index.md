@@ -1,5 +1,5 @@
 ---
-title: Modifier
+  title: Modifier
 ---
 Le ruban ***Modifier*** contient des opérations permettant d'ajouter, de modifier, de remplacer, de modifier par lot ou d'exporter des entrées.  
 ![Ruban Modifier](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4048.png) 

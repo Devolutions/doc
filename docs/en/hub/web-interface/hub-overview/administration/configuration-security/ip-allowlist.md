@@ -1,5 +1,5 @@
 ---
-title: IP Allowlist
+  title: IP Allowlist
 ---
 The ***IP Allowlist*** section allows an administrator to save and manage authorized IP addresses. They can be listed as a range or individually.  
 

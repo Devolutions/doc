@@ -1,5 +1,5 @@
 ---
-title: Logs
+  title: Logs
 ---
 The ***Logs*** section provides tools to view ***Activity***, ***Data Sources***, ***Administration*** and ***Last Usage Logs***. The ***Deleted Entries*** section is where you will manage all the deleted entries from the users.  
 

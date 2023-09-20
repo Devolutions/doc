@@ -1,3 +1,3 @@
 ---
-title: Meine Kontoeinstellungen
+  title: Meine Kontoeinstellungen
 ---

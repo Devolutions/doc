@@ -1,5 +1,5 @@
 ---
-title: Microsoft Office has to be installed
+  title: Microsoft Office has to be installed
 ---
 When the embedded mode is used, an error is displayed that office has to be installed, yet it already is.  
 

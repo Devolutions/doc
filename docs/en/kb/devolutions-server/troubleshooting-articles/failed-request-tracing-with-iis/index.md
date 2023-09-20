@@ -1,5 +1,5 @@
 ---
-title: Failed request tracing in IIS
+  title: Failed request tracing in IIS
 ---
 This topic will present how to install and configure a Failed Request Tracing Log rule for troubleshooting HTTP 500 error issues on the IIS site.  
 * [Enable failed request tracing in IIS](/kb/devolutions-server/troubleshooting-articles/failed-request-tracing-with-iis/enable-failed-request-tracing-iis/)  

@@ -1,5 +1,5 @@
 ---
-title: Remove a registered fingerprint
+  title: Remove a registered fingerprint
 ---
 It is possible in {{ en.RDM }} to remove a previously trusted fingerprint for a host.
 

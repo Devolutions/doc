@@ -1,5 +1,5 @@
 ---
-title: Favoris
+  title: Favoris
 ---
 La section ***Favoris*** contient les entrées marquées comme favorites, par l'utilisateur actuel, de tous les {{ fr.VLT }}s auxquels cet utilisateur a accès. Les ***Favoris*** ne sont pas partagés et ils se déplacent avec le profil de l'utilisateur.  
 

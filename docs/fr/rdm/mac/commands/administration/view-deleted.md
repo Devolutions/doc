@@ -1,5 +1,5 @@
 ---
-title: Entrées supprimées
+  title: Entrées supprimées
 ---
 L'option ***Administration - Entrées supprimées*** vous permet d'afficher les entrées supprimées ainsi que de les restaurer.  
 ![Administration - Entrées supprimées](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4208.png) 

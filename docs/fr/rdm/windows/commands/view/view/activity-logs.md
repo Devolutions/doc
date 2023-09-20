@@ -1,5 +1,5 @@
 ---
-title: Journaux d'activité
+  title: Journaux d'activité
 ---
 Les ***Journaux d'activité*** offrent une solution robuste de journalisation. Grâce à cette fonctionnalité, il est possible de surveiller une session ouverte pour tous les utilisateurs qui utilisent des [Sources de données avancées](DataSources_Advanced). Le journal est disponible pour des sessions spécifiques dans le menu contextuel ***Affichage – Journaux d'activité***, dans les propriétés de la session (volet ***Journaux d'activité***) et dans le ***Tableau de bord***.  
 ![Bouton Journaux d'activité](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2021.png) 

@@ -1,5 +1,5 @@
 ---
-title: VNC
+  title: VNC
 ---
 Les commandes VNC vous permettent d'envoyer des commandes à distance à votre hôte. Vous remarquerez également une autre barre d'outils contenant des commandes plus définies pour une session VNC. 
 

@@ -1,5 +1,5 @@
 ---
-title: Preferences
+  title: Preferences
 ---
 There are multiple options available to manage and customize your {{ en.RDMMAC }} in the menu ***File - Preferences***.  
 ![File - Preferences](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4007.png) 

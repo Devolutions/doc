@@ -1,3 +1,3 @@
 ---
-title: Stapelverarbeitung
+  title: Stapelverarbeitung
 ---

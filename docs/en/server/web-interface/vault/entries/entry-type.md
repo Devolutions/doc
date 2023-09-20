@@ -1,5 +1,5 @@
 ---
-title: Entry type
+  title: Entry type
 ---
 ***Entries*** come in various types, all serving different purposes for your convenience. 
 

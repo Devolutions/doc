@@ -1,5 +1,5 @@
 ---
-title: Journaux
+  title: Journaux
 ---
 Consulter les ***Journaux*** et ***Insérer des commentaires d'enregistrements*** spécifiques aux entrées concernant l'interaction avec l'utilisateur. Pour consulter les informations Générales, Détails et Commentaires d'un journal spécifique, cliquer sur le bouton ***Entrée du journal*** et cliquer sur le bouton ***Exporter*** pour générer un fichier CSV.  
 

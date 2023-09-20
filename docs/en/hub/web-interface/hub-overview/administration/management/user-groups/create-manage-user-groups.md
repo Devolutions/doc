@@ -1,5 +1,5 @@
 ---
-title: Create and Manage User Groups
+  title: Create and Manage User Groups
 ---
 User management and permissions can be made easier with ***User Groups*** in {{ en.DHUBB }}.  
 

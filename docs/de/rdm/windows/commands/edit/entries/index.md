@@ -1,3 +1,3 @@
 ---
-title: Einträge
+  title: Einträge
 ---

@@ -1,3 +1,3 @@
 ---
-title: Suche
+  title: Suche
 ---

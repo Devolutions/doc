@@ -1,5 +1,5 @@
 ---
-title: Getting started
+  title: Getting started
 order: 10
 ---
 {{ en.RDM }} is highly flexible and can work for both individuals and teams. Please follow the checklist that applies to your environment:  

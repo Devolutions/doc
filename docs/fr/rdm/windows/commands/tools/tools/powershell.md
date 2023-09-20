@@ -1,5 +1,5 @@
 ---
-title: PowerShell (RDM CmdLet)
+  title: PowerShell (RDM CmdLet)
 ---
 Le PowerShell (RDM CmLet) ouvre automatiquement une fenêtre PowerShell intégrée. Le composant logiciel enfichable {{ fr.RDM }} permet une automatisation rapide et robuste des actions telles que l'ajout/la modification/l'ouverture de sessions, les possibilités sont infinies.  
 

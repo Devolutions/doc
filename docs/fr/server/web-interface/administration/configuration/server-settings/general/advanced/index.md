@@ -1,5 +1,5 @@
 ---
-title: Avancée
+  title: Avancée
 order: 20
 ---
 La section ***Avancée*** permet à l'administrateur de configurer le paramètre de la durée de vie du jeton ainsi que d'autres paramètres avancés ou la ***Personnalisations des Logos***.  

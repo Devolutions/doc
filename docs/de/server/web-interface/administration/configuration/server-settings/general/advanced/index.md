@@ -1,4 +1,4 @@
 ---
-title: Erweitert
+  title: Erweitert
 order: 20
 ---

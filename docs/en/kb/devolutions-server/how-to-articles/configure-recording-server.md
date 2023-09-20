@@ -1,5 +1,5 @@
 ---
-title: Configure the Recording Server
+  title: Configure the Recording Server
 ---
 The following steps will describe the options to install the ***Recording Server*** for {{ en.DVLS }}. It is possible to install it on a standalone machine. It is recommended to install the ***Recording Server*** using the [{{ en.DGW }} method](#devolutions-gateway-installation) since the [{{ en.DVLS }} format](#devolutions-server-console-installation) is now deprecated.
 

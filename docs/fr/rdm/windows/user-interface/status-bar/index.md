@@ -1,5 +1,5 @@
 ---
-title: Barre d'état
+  title: Barre d'état
 ---
 La barre d'état se trouve au bas de l'application. Elle est composée de plusieurs parties :  
 

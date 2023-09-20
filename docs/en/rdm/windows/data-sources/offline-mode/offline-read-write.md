@@ -1,5 +1,5 @@
 ---
-title: Offline Read/Write
+  title: Offline Read/Write
 ---
 The ***Read/Write*** offline mode allows the user to add, edit and delete entries while the data source is offline. Those changes are saved locally and synchronized with the data source once it is back online. 
 

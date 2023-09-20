@@ -1,5 +1,5 @@
 ---
-title: Profiler
+  title: Profiler
 ---
 {{ en.RDM }} has a built-in profiler to diagnose connectivity issues with a data source. 
 

@@ -1,5 +1,5 @@
 ---
-title: Modules
+  title: Modules
 ---
 The ***Modules*** section provides the administrators with ***Privileged Access – Password Rotation*** and ***Recent Activities*** reports. For ***{{ en.DGW }}*** users reports to view ***Permission*** and ***User Access*** are available. 
 {% snippet icon.badgeNotice %} 

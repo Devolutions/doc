@@ -1,5 +1,5 @@
 ---
-title: Edit your Account
+  title: Edit your Account
 ---
 In the ***Edit your Account*** section, you can set the language of the {{ en.DVLS }} web interface and add or modify personal information like phone numbers, address and company name.  
 

@@ -1,4 +1,4 @@
 ---
-title: Gruppenbasierte Sicherheit
+  title: Gruppenbasierte Sicherheit
 order: 50
 ---

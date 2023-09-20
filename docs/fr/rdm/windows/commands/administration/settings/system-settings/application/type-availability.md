@@ -1,5 +1,5 @@
 ---
-title: Disponibilité de type
+  title: Disponibilité de type
 ---
 ![Paramètres du système - Disponibilité de type](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10330.png) 
 
