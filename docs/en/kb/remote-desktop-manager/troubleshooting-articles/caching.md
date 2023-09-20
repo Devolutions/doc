@@ -1,6 +1,6 @@
 ---
   title: Caching
-status: Topic available in German language
+  status: Topic available in German language
 ---
 You are not seeing the content that you are expecting to see in the ***{{ en.NPANE }}***.  
 

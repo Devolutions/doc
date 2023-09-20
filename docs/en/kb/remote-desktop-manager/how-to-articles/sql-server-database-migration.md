@@ -1,7 +1,7 @@
 ---
   title: SQL Server database migration best practices
 description: To migrate the contents of your on-premises SQL Server database, we suggest you follow the steps of the respective solutions.
-status: Topic available in German language
+  status: Topic available in German language
 ---
 To migrate the contents of your on-premises SQL Server database, we suggest you follow the steps of the respective solutions below.  
 

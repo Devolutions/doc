@@ -1,6 +1,6 @@
 ---
   title: Configuration requise
-status: Topic available in German language
+  status: Topic available in German language
 ---
 {% snippet icon.badgeInfo %} 
 {{ fr.DVLS }} nécessite Microsoft .NET Core 6.0 pour fonctionner. De plus, .NET Framework 4.8 est nécessaire pour installer la {{ fr.DVLSCONSOLE }}. Veuillez adapter votre environnement selon la version utilisée. 

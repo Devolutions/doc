@@ -1,6 +1,6 @@
 ---
   title: System requirements
-status: Topic available in German language
+  status: Topic available in German language
 ---
 ## Minimum requirements
 

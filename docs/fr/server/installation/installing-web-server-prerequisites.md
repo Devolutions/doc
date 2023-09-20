@@ -1,7 +1,7 @@
 ---
   title: Installation des rôles serveur Web prérequis
   order: 40
-status: Topic available in German language
+  status: Topic available in German language
 ---
 {% snippet icon.badgeInfo %} 
 L'installation de {{ fr.DVLS }} est compatible avec Windows 10, Windows 11, Windows Server 2012 R2, 2016, 2019 et 2022. 

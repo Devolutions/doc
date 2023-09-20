@@ -1,6 +1,6 @@
 ---
   title: Portable (USB)
-status: Topic available in German language
+  status: Topic available in German language
 ---
 {{ fr.RDM }} peut être utilisé comme une application portable. Voici les étapes nécessaires pour garantir son bon fonctionnement : 
 

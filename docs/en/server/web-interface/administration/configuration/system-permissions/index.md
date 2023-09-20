@@ -1,7 +1,7 @@
 ---
   title: System Permissions
   order: 30
-status: Topic available in German language
+  status: Topic available in German language
 ---
 The ***System Permissions*** allow to grant some administrative permissions to standard users without making them administrators. The ***Default*** setting inherits the permission set on the user or user groups. These are handled as you would permissions in an entry.  
 

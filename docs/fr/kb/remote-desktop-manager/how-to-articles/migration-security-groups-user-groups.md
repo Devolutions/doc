@@ -1,6 +1,6 @@
 ---
   title: Migration des groupes de sécurité (anciens) vers les groupes d'utilisateurs
-status: Topic available in German language
+  status: Topic available in German language
 ---
 {% snippet icon.badgeWarning %} 
 Les groupes de sécurité et l'ancienne sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}.

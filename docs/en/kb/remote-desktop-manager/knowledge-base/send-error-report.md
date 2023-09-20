@@ -1,6 +1,6 @@
 ---
   title: Send an error report
-status: Topic available in German language
+  status: Topic available in German language
 ---
 An error report is created when an application error occurs in {{ en.RDM }} You can send that error report to the our support team to help reproduce the issue more easily.  
 {% snippet icon.badgeNotice %}

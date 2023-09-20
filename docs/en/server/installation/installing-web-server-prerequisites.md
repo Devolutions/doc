@@ -1,7 +1,7 @@
 ---
   title: Installing web server prerequisites
   order: 40
-status: Topic available in German language
+  status: Topic available in German language
 keywords:
 - Roles
 ---

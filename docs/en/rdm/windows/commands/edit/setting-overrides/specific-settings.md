@@ -1,6 +1,6 @@
 ---
   title: Specific Settings
-status: Topic available in German language
+  status: Topic available in German language
 ---
 ***Specific Settings*** are used to override the properties of an entry. Several settings can be overridden, such as the credentials or the display mode. There are two types of ***Specific Settings***: user specific settings and local machine specific settings.  
 

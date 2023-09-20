@@ -1,6 +1,6 @@
 ---
   title: Website authentication
-status: Topic available in German language
+  status: Topic available in German language
 ---
 For some websites, the auto fill function does not work automatically. It is important to note that some website will prevent you from autofilling your credentials.  
 

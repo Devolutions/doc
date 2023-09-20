@@ -1,7 +1,7 @@
 ---
   title: Settings
   order: 20
-status: Topic available in German language
+  status: Topic available in German language
 ---
 The {{ en.DWL }} settings can be accessed via the ***Settings*** button in the browser extension window regardless of which Devolutions application you are using with {{ en.DWL }}.  
 
