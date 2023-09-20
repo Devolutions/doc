@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Source de données avancées
 ---
-Les ***Sources de données avancées*** s'exécutent généralement sur un système de gestion avancé, soit un système de gestion de base de données ou nos propres services en ligne Devolutions.  
+Les ***Sources de données avancées*** s'exécutent généralement sur un système de gestion avancé, soit un système de gestion de base de données ou nos propres {{ fr.DCS }}.  
 
 Elles augmentent considérablement l'ensemble des fonctions de gestion disponibles pour les administrateurs, telles que :  
 
