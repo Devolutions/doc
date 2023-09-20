@@ -1,6 +1,6 @@
 ---
   title: User Interface
-description: Use File – Preferences – User Interface to configure options related to the user interface.
+  description: Use File – Preferences – User Interface to configure options related to the user interface.
 ---
 Use ***File – Preferences – User Interface*** to configure options related to the user interface. 
 

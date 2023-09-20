@@ -1,6 +1,6 @@
 ---
   title: Advanced
-description: Use File – Options – Advanced to control the behavior of the application with respect to the lower level settings.
+  description: Use File – Options – Advanced to control the behavior of the application with respect to the lower level settings.
 ---
 Use ***File – Options – Advanced*** to control the behavior of the application with respect to the lower level settings.  
 ![File – Options – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10595.png) 

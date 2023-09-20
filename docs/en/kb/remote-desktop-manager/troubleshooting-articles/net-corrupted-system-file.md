@@ -1,11 +1,8 @@
 ---
   title: Net corrupted system file
-keywords:
-- net
-- Net
-- dotnet
-- net
-- Net
+  keywords:
+  - net
+  - dotnet
 ---
 The components of the .NET Framework are considered a core Windows feature, therefore there are no facilities to reinstall them. However, there are tools to verify and repair system files.
 ## Solution

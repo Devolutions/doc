@@ -1,9 +1,9 @@
 ---
   title: Effacer le stockage local d'un navigateur
-description: Cliquer sur votre type de navigateur pour suivre les étapes permettant d'effacer le stockage local de votre navigateur.
-keywords:
-- Stockage local
-- Navigateur
+  description: Cliquer sur votre type de navigateur pour suivre les étapes permettant d'effacer le stockage local de votre navigateur.
+  keywords:
+  - Stockage local
+  - Navigateur
 ---
 Cliquer sur votre type de navigateur pour suivre les étapes permettant d'effacer le stockage local de votre navigateur :  
 

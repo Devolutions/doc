@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Use the NLA Option for an RDP Connection via {{ en.DGW }}
   description: Since 2022.3, {{ en.DGW }} supports KDC Proxy combined with API hooking RDP in {{ en.RDM }}.
-  keyword:
+  keywords:
   - NLA
 ---
 Since 2022.3, {{ en.DGW }} supports KDC Proxy combined with API hooking RDP in {{ en.RDM }}, letting Kerberos work effortlessly with RDP NLA.

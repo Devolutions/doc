@@ -1,6 +1,6 @@
 ---
   title: Cisco ASDM unable to launch after updating ASDM
-description: This is a workaround for the issue where Cisco ASDM does not launch after updating ASDM
+  description: This is a workaround for the issue where Cisco ASDM does not launch after updating ASDM
 ---
 This is a workaround for the issue where Cisco ASDM does not launch after updating ASDM.
 

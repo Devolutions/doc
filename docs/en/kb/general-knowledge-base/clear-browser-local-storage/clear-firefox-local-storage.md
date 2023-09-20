@@ -1,10 +1,10 @@
 ---
   title: Clear Firefox's local storage
-description: Follow the steps to clear your local storage in the Firefox browser.
-keywords:
-- Local storage
-- Browser
-- Firefox
+  description: Follow the steps to clear your local storage in the Firefox browser.
+  keywords:
+  - Local storage
+  - Browser
+  - Firefox
 ---
 Here are the steps to clear your local storage in the Firefox browser:  
 

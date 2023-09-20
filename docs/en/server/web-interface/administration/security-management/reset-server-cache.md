@@ -1,7 +1,7 @@
 ---
   title: Reset Server Cache
-keywords:
-- Roles
+  keywords:
+  - Roles
 ---
 ***Reset Server Cache*** for specific elements. 
 

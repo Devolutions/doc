@@ -1,11 +1,11 @@
 ---
   title: Problème de résolution élevée
-description: De multiples problèmes peuvent être causés par une résolution élevée dans les sessions RDP.
-keywords:
-- DPI
-- Résolution élevée
-- Point par pouce
-- PPP
+  description: De multiples problèmes peuvent être causés par une résolution élevée dans les sessions RDP.
+  keywords:
+  - DPI
+  - Résolution élevée
+  - Point par pouce
+  - PPP
 ---
 Plusieurs problèmes peuvent être causés par une résolution élevée dans une session RDP. Voici les plus courants : 
 * Les connexions RDP sont trop petites. 

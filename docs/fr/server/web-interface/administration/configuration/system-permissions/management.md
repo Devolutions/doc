@@ -1,7 +1,7 @@
 ---
   title: Gestion
-keywords:
-- Rôle
+  keywords:
+  - Rôle
 ---
 ![Administration - Permissions du système - Gestion](https://webdevolutions.azureedge.net/docs/fr/server/clip8053.png)  
 

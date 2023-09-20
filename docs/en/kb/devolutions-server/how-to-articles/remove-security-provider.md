@@ -1,6 +1,6 @@
 ---
   title: Remove the Security Provider
-description: The following procedure explains how to remove the Security Provider and implement the encryption at rest using the encryption keys.
+  description: The following procedure explains how to remove the Security Provider and implement the encryption at rest using the encryption keys.
 ---
 {% snippet icon.badgeNotice %}
 For any question or for assistance with this procedure, contact us at [service@devolutions.net](mailto:service@devolutions.net).

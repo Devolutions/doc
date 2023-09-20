@@ -2,8 +2,8 @@
   title: Installing web server prerequisites
   order: 40
   status: Topic available in German language
-keywords:
-- Roles
+  keywords:
+  - Roles
 ---
 {% snippet icon.badgeInfo %} 
 The installation of {{ en.DVLS }} is supported by Windows 10, Windows 11, Windows Server 2012 R2, 2016, 2019, and 2022. 

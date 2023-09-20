@@ -1,11 +1,11 @@
 ---
   title: Effacer le stockage local de Google Chrome
-description: Suivre les étapes pour effacer votre stockage local dans le navigateur Google Chrome.
-keywords:
-- Stockage local
-- Navigateur
-- Google
-- Chrome
+  description: Suivre les étapes pour effacer votre stockage local dans le navigateur Google Chrome.
+  keywords:
+  - Stockage local
+  - Navigateur
+  - Google
+  - Chrome
 ---
 Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Google Chrome :  
 

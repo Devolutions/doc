@@ -1,10 +1,10 @@
 ---
   title: Liste des noms de propriétés pour du script PowerShell
   status: Topic available in German language
-keywords:
-- PowerShell
-- GUID
-- Permissions
+  keywords:
+  - PowerShell
+  - GUID
+  - Permissions
 ---
 On nous demande souvent une liste complète des noms de propriétés et il est difficile de la fournir pour de multiples raisons. L'approche la plus efficace reste l'examen de la structure XML d'une entrée pertinente pour identifier les noms des champs.
 

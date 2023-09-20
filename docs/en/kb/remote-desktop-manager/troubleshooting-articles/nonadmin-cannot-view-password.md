@@ -1,7 +1,7 @@
 ---
   title: Non-admin users are unable to view passwords
-keywords:
-- role
+  keywords:
+  - role
 ---
 {% youtube 'sWb4mfD424o' %}  
 

@@ -1,9 +1,9 @@
 ---
   title: Domain group membership is not retrieved properly
-description: This is a solution for when the domain group membership is not retrieved correctly from Active Directory.
-keywords:
-- Domain Group
-- Domain Diagnostic
+  description: This is a solution for when the domain group membership is not retrieved correctly from Active Directory.
+  keywords:
+  - Domain Group
+  - Domain Diagnostic
 ---
 This topic will cover both <a href="#teams%2Fenterprise">Teams/Enterprise</a> licences and <a href="#platinum">Platinum</a> licences.
 

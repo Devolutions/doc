@@ -1,7 +1,7 @@
 ---
   title: Permissions
-keywords:
-- Roles
+  keywords:
+  - Roles
 ---
 The Permissions panel can be found in every entry properties in the Security – Permissions section.  
 

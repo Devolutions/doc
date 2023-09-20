@@ -1,7 +1,7 @@
 ---
   title: Management
-keywords:
-- Roles
+  keywords:
+  - Roles
 ---
 ![Administration - System Permissions - Management](https://webdevolutions.azureedge.net/docs/en/server/clip8053.png) 
 

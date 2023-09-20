@@ -1,7 +1,7 @@
 ---
   title: FAQ (Foire aux questions)
-keywords:
-- Roles
+  keywords:
+  - Roles
 ---
 ## Qu'est-ce que {{ fr.DVLS }}?
 

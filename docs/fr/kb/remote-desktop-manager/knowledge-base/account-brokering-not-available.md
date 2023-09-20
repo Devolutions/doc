@@ -1,11 +1,11 @@
 ---
   title: Injection des identifiants indisponible pour certains outils
-description: Il est souvent déconseillé d’autoriser l’affichage des mots de passe avec les solutions de gestion d’accès privilégiés (Privileged Access Management ou PAM).
-keywords:
-- Privileged Access Management
-- PAM
-- Injection
-- Gestion d’accès privilégiés
+  description: Il est souvent déconseillé d’autoriser l’affichage des mots de passe avec les solutions de gestion d’accès privilégiés (Privileged Access Management ou PAM).
+  keywords:
+  - Privileged Access Management
+  - PAM
+  - Injection
+  - Gestion d’accès privilégiés
 ---
 Il est souvent déconseillé d'autoriser l'affichage des mots de passe avec les solutions de gestion d’accès privilégiés (Privileged Access Management ou PAM). Nous offrons deux permissions distinctes dans {{ fr.DVLS }} : une pour afficher le mot de passe et une autre pour que {{ fr.RDM }} utilise le mot de passe en votre nom. Chez Devolutions, il s'agit de l'injection des identifiants, ce que d’autres appellent «*for/by proxy*». La plus belle analogie que nous puissions faire est que {{ fr.RDM }} est le concierge qui, au lieu de vous prêter une clé pour accéder à une pièce, va plutôt ouvrir la porte pour vous. 
 

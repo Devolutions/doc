@@ -1,9 +1,9 @@
 ---
   title: TheGreenBow VPN configuration
-keywords:
-- Bow
-- Green
-- VPN
+  keywords:
+  - Bow
+  - Green
+  - VPN
 ---
 Create a VPN entry TheGreenBow in {{ en.RDM }} with the steps below. To use TheGreenBow VPN with an existing session, please refer to [Configure a VPN with an existing session](/kb/remote-desktop-manager/how-to-articles/configure-vpn-existing-session/).
 

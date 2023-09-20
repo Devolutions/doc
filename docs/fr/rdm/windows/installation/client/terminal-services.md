@@ -1,13 +1,13 @@
 ---
   title: Terminal Services / Services Bureau à distance
-keywords:
-- Citrix
-- RDS
-- Remote Desktop Services
-- RemoteApp
-- Terminal Service
-- TS
-- VDI
+  keywords:
+  - Citrix
+  - RDS
+  - Remote Desktop Services
+  - RemoteApp
+  - Terminal Service
+  - TS
+  - VDI
 ---
 {{ fr.RDM }} a un excellent support pour s'exécuter dans un environnement de Terminal Server. Un fichier de configuration principal peut être créé pour distribuer les paramètres pour tous les nouveaux utilisateurs du système ou même pour mettre à jour la configuration de l'utilisateur existant. 
 

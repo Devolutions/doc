@@ -1,10 +1,10 @@
 ---
   title: Enable the Recording Server log
-keywords:
-- Log
-- Log4Net
-- Logging
-- Logs
+  keywords:
+  - Log
+  - Log4Net
+  - Logging
+  - Logs
 ---
 The following procedure describes how to enable the logging utility for the {{ en.DVLS }} ***Recording Server***.
 

@@ -1,8 +1,8 @@
 ---
   title: Arrêter la mise en cache des utilisateurs et des groupes d'utilisateurs.
-keywords:
-- Cache
-- Authentification Microsoft
+  keywords:
+  - Cache
+  - Authentification Microsoft
 ---
 Lors de la création ou de la mise à jour des informations sur les utilisateurs et les groupes dans Azure AD, la mise à jour du ***Cache des utilisateurs et groupes d'utilisateurs de l'authentification Microsoft*** dans {{ fr.DVLS }} peut prendre plus d'une journée si un locataire Azure AD contient un nombre élevé d'utilisateurs et de groupes. 
 

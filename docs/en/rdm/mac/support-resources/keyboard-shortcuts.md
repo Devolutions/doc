@@ -1,8 +1,8 @@
 ---
   title: Keyboard shortcuts
-description: Here are the default keyboard shortcuts for various commands.
-keywords:
-- Keyboard shortcuts
+  description: Here are the default keyboard shortcuts for various commands.
+  keywords:
+  - Keyboard shortcuts
 ---
 Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Preferences – User Interface – Shortcuts***.  
 

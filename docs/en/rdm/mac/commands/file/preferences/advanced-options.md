@@ -1,6 +1,6 @@
 ---
   title: Advanced
-description: Use File – Preferences – Advanced to control the behavior of the application with respect to the lower level settings.
+  description: Use File – Preferences – Advanced to control the behavior of the application with respect to the lower level settings.
 ---
 Use ***File – Preferences – Advanced*** to control the behavior of the application with respect to the lower level settings.  
 ![File – Preferences – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2061.png) 

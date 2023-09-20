@@ -1,12 +1,12 @@
 ---
   title: Rapports planifiés
   order: 10
-description: Les ***Rapports planifiés*** génèrent un rapport et l'envoient par courriel aux utilisateurs sélectionnés. Il peut s'agir d'un rapport à la demande ou d'un rapport récurrent basé sur un calendrier (quotidien, hebdomadaire, mensuel, annuel).
-keywords:
-- rapport
-- planifié
-- planification
-- calendrier
+  description: Les ***Rapports planifiés*** génèrent un rapport et l'envoient par courriel aux utilisateurs sélectionnés. Il peut s'agir d'un rapport à la demande ou d'un rapport récurrent basé sur un calendrier (quotidien, hebdomadaire, mensuel, annuel).
+  keywords:
+  - rapport
+  - planifié
+  - planification
+  - calendrier
 ---
 Les ***Rapports planifiés*** génèrent un rapport et l'envoient par courriel aux utilisateurs sélectionnés. Il peut s'agir d'un rapport à la demande ou d'un rapport récurrent basé sur un calendrier (quotidien, hebdomadaire, mensuel, annuel).  
 

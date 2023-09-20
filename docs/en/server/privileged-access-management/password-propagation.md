@@ -1,7 +1,7 @@
 ---
   title: Password propagation
-keyword: 
-- propagation
+  keywords: 
+  - propagation
 ---
 ***Password Propagation*** allows privileged accounts passwords reset to be propagated to remote servers services. This topic covers <a href="#propagation-by-script">Propagation by script</a> and <a href="#active-directory-specific-propagation">Active Directory specific propagation</a>.
 

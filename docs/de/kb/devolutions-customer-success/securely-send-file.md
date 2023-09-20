@@ -1,7 +1,7 @@
 ---
   title: Sicherer Datenaustausch mit unserem Team
-keywords:
-- Sharefile
+  keywords:
+  - Sharefile
 ---
 Um Ihre Daten zu schützen, nutzen wir einen sicheren Dateiaustauschdienst eines Drittanbieters, nämlich Sharefile.  
 

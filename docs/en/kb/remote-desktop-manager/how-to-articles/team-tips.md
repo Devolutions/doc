@@ -1,8 +1,8 @@
 ---
   title: Team tips
   status: Topic available in German language
-keywords:
-- role
+  keywords:
+  - role
 ---
 Here are five {{ en.RDM }} team tips.
 

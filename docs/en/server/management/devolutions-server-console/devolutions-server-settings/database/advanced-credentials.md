@@ -1,7 +1,7 @@
 ---
   title: Advanced Credentials
-keywords:
-- Roles
+  keywords:
+  - Roles
 ---
 The ***Advanced Credentials*** are used to allow {{ en.DVLS }} to communicate with the SQL database. 
 {% snippet icon.badgeCaution %} 

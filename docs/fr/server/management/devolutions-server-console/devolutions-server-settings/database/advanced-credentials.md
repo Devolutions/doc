@@ -1,7 +1,7 @@
 ---
   title: Identifiants avancés
-keywords:
-- Rôle
+  keywords:
+  - Rôle
 ---
 Les Identifiants avancés sont utilisés pour permettre à {{ fr.DVLS }} de communiquer avec la base de données SQL.  
 {% snippet icon.badgeCaution %} 

@@ -1,7 +1,7 @@
 ---
   title: User Groups
-keywords:
-- Roles
+  keywords:
+  - Roles
 ---
 Assign users to ***User Groups***. 
 

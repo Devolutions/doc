@@ -1,6 +1,6 @@
 ---
   title: User Management
-description: User Management is available from Administration – Users and allows you to create, manage, and assign rights to a user.
+  description: User Management is available from Administration – Users and allows you to create, manage, and assign rights to a user.
 ---
 User Management is available from ***Administration – Users*** and allows you to create, manage, and assign rights to a user.  
 ![Administration – Users](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10381.png) 

@@ -1,7 +1,7 @@
 ---
   title: Permissions
-keywords:
-- Rôle
+  keywords:
+  - Rôle
 ---
 Le panneau ***Permissions*** se trouve dans toutes les propriétés d'entrée de la section ***Sécurité – Permissions***.  
 

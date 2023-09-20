@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Activer le mode hors-ligne dans une source de données {{ fr.DHUBP }}
-description: Dans {{ fr.RDM }}, pour utiliser le mode hors-ligne avec une source de données {{ fr.DHUBP }}, vous devez d'abord activer la fonction dans les paramètres de l'interface Web de {{ fr.DHUBP }}, car elle est désactivée par défaut.
-keywords:
-- hors-ligne
+  description: Dans {{ fr.RDM }}, pour utiliser le mode hors-ligne avec une source de données {{ fr.DHUBP }}, vous devez d'abord activer la fonction dans les paramètres de l'interface Web de {{ fr.DHUBP }}, car elle est désactivée par défaut.
+  keywords:
+  - hors-ligne
 ---
 Dans {{ fr.RDM }}, pour utiliser le mode hors-ligne avec une source de données {{ fr.DHUBP }}, vous devez d'abord activer la fonction dans les paramètres de l'interface Web de {{ fr.DHUBP }}, car elle est désactivée par défaut.
 

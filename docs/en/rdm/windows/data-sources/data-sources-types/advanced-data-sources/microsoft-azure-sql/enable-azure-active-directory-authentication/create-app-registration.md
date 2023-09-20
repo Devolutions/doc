@@ -1,7 +1,7 @@
 ---
   title: Create an Azure Active Directory App Registration
-keywords:
-- Active Directory admin
+  keywords:
+  - Active Directory admin
 ---
 {% snippet icon.badgeInfo %} 
 This step is optional and not required if your {{ en.RDM }} version is 2022.1 and higher. 

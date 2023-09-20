@@ -1,10 +1,10 @@
 ---
   title: Send a trace report
-keywords:
-- Export HAR
-- HAR
-- HAR file
-- HAR files
+  keywords:
+  - Export HAR
+  - HAR
+  - HAR file
+  - HAR files
 ---
 Follow these steps to send a trace report to our support team for the {{ en.DVLS }} web interface.
 

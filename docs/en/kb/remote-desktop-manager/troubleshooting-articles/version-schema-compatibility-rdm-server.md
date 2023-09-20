@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
   title: Version schema compatibility for {{ en.RDM }} and {{ en.DVLS }}
-keywords:
-- Schema
+  keywords:
+  - Schema
 ---
 Here is a schema compatibility board explaining which version of {{ en.RDM }} should be used with {{ en.DVLS }} and other database.  
 

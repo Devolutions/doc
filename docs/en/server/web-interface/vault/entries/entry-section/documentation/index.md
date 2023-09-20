@@ -1,7 +1,7 @@
 ---
   title: Documentation
   order: 10
-description: The Documentation feature allows to store information regarding entries.
+  description: The Documentation feature allows to store information regarding entries.
 ---
 The ***Documentation*** feature allows to store information regarding entries.
 
@@ -20,4 +20,4 @@ The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.DHUBB
 1. ***Name*** the document with a title. 
 1. Enter the text using ***Markdown*** or ***WYSIWYG***.
 ![Markdown and WYSIWYG](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6057.png)  
-1. Click ***Save*** to create your documentation page. 
+1. Click ***Save*** to create your documentation page.

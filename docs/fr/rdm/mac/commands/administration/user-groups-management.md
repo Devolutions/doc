@@ -1,7 +1,7 @@
 ---
   title: Groupe d'utilisateurs
-keywords:
-- rôle
+  keywords:
+  - rôle
 ---
 Les ***Groupes d'utilisateurs*** dans {{ fr.RDM }} sont principalement utilisés pour réduire le temps de gestion des utilisateurs. La gestion des autorisations accordées aux groupes d'utilisateurs est assez similaire aux notions correspondantes pour les utilisateurs, mais au lieu d'un seul utilisateur, elles s'appliquent à tous les utilisateurs auxquels vous avez attribué le groupe d'utilisateurs.  
 ![Administration - Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4128.png) 

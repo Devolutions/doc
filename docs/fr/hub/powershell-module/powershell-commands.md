@@ -1,9 +1,9 @@
 ---
   title: Commandes PowerShell
-description: Cette rubrique concerne toutes les commandes et les arguments pour gérer PSHubContext.
-keywords: 
-- PowerShell
-- Authentication
+  description: Cette rubrique concerne toutes les commandes et les arguments pour gérer PSHubContext.
+  keywords: 
+  - PowerShell
+  - Authentication
 ---
 Cette rubrique concerne toutes les commandes et les arguments pour gérer PSHubContext. 
 

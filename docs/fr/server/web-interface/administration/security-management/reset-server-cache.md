@@ -1,7 +1,7 @@
 ---
   title: Réinitialiser le cache du serveur
-keywords:
-- Rôle
+  keywords:
+  - Rôle
 ---
 ***Réinitialiser le cache du serveur*** pour des éléments spécifiques.  
 ![Administration – Réinitialiser le cache du serveur](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8039.png) 

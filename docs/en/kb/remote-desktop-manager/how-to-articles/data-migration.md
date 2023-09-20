@@ -1,6 +1,6 @@
 ---
   title: Data migration
-description: Here are the steps to follow when copying data from one data source to another. The migration is an export of your original data source followed by an import in the new destination data source.
+  description: Here are the steps to follow when copying data from one data source to another. The migration is an export of your original data source followed by an import in the new destination data source.
 ---
 {% snippet icon.badgeCaution %}
 For security, usability, and efficiency reasons, multiple data sources are tagged as deprecated in {{ en.RDM }}. Read more about it in [Deprecated Data Sources](/kb/remote-desktop-manager/knowledge-base/deprecated-data-sources/).

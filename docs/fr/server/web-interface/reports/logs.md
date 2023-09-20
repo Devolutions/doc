@@ -1,9 +1,9 @@
 ---
   title: Journaux
-description: La section Journaux fournit des outils pour visualiser les Journaux d'activité, de la source de données, d'administration et des dernières utilisations. La section Entrées supprimées vous permet de gérer toutes les entrées supprimées par les utilisateurs.
-keywords: 
-- journaux
-- entrées supprimées
+  description: La section Journaux fournit des outils pour visualiser les Journaux d'activité, de la source de données, d'administration et des dernières utilisations. La section Entrées supprimées vous permet de gérer toutes les entrées supprimées par les utilisateurs.
+  keywords: 
+  - journaux
+  - entrées supprimées
 ---
 La section ***Journaux*** fournit des outils pour visualiser les ***Journaux d'activité***, de la ***sources de données***, d'***administration*** et des ***dernières utilisations***. La section ***Entrées supprimées*** vous permet de gérer toutes les entrées supprimées par les utilisateurs.  
 

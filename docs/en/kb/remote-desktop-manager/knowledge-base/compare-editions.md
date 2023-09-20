@@ -1,7 +1,7 @@
 ---
   title: Compare editions
-keywords:
-- role
+  keywords:
+  - role
 ---
 Compare the features between our Free and Team Editions of {{ en.RDM }}.
 

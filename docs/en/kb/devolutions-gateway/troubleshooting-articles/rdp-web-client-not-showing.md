@@ -1,9 +1,9 @@
 ---
   title: RDP web client not showing
-description: If you are unable to launch the RDP web client, check if you have the necessary requirements.
-keywords:
-- rdp
-- web client
+  description: If you are unable to launch the RDP web client, check if you have the necessary requirements.
+  keywords:
+  - rdp
+  - web client
 ---
 If you are unable to launch the RDP web client in the {{ en.DVLS }} web interface, check to see if you have the necessary requirements using the solutions below.
 

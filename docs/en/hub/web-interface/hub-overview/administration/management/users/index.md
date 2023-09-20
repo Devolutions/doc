@@ -1,6 +1,6 @@
 ---
   title: Users
-description: In the Users section, you can manage users and user settings.
+  description: In the Users section, you can manage users and user settings.
 ---
 In the ***Users*** section, you can manage users and user settings.
 

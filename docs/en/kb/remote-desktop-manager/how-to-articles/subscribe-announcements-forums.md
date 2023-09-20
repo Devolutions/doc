@@ -1,6 +1,6 @@
 ---
   title: Subscribe to the announcements forums
-description: You can be notified when new product updates are available by subscribing to announcements on our forum.
+  description: You can be notified when new product updates are available by subscribing to announcements on our forum.
 ---
 You can be notified when new product updates are available by subscribing to announcements on our forum at [https://forum.devolutions.net/](https://forum.devolutions.net/)  
 

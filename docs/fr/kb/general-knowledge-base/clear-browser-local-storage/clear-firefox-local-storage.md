@@ -1,10 +1,10 @@
 ---
   title: Effacer le stockage local de Firefox
-description: Suivre les étapes pour effacer votre stockage local dans le navigateur Firefox.
-keywords:
-- Stockage local
-- Navigateur
-- Firefox
+  description: Suivre les étapes pour effacer votre stockage local dans le navigateur Firefox.
+  keywords:
+  - Stockage local
+  - Navigateur
+  - Firefox
 ---
 Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Firefox :  
 
