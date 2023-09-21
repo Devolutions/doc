@@ -8,18 +8,18 @@ Providers are required to scan the Active Directory structure, your local networ
 
 When creating a provider, eight choices are available:  
 * Five ***Managed*** provider types:  
-  * [Domain User](/server/privileged-access-management/providers/domain-provider/)  
-  * [SSH Local User](/server/privileged-access-management/providers/local-ssh-provider/)  
-  * [SQL User](/server/privileged-access-management/providers/sql-server-provider/)  
-  * [Windows Users](/server/privileged-access-management/providers/windows-users-provider/)  
-  * [Azure AD User](/server/privileged-access-management/providers/azure-ad-user-provider/)  
+  * [Domain user](/server/privileged-access-management/providers/domain-provider/)  
+  * [Local SSH user](/server/privileged-access-management/providers/local-ssh-provider/)  
+  * [SQL user](/server/privileged-access-management/providers/sql-server-provider/)  
+  * [Windows user](/server/privileged-access-management/providers/windows-users-provider/)  
+  * [Azure AD user](/server/privileged-access-management/providers/azure-ad-user-provider/)  
 
 ![Managed provider types](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6021.png)  
 
 * Three ***Unmanaged*** provider types:  
-  * MySQL User  
-  * Cisco User  
-  * Oracle User  
+  * MySQL user  
+  * Cisco user  
+  * Oracle user  
  
 ![Unmanaged provider types](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8091.png)  
 
