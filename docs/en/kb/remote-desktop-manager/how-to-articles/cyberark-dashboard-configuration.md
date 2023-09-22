@@ -170,3 +170,20 @@ In both cases, you will then see a dialog box that allows you to specify the hos
 After selecting the account in the CyberArk Dashboard, you can also use the ***{{ en.NPANE }}*** to select a host by right-clicking an entry and navigating to the ***Connect using*** menu.
 
 ![Connect using](https://webdevolutions.azureedge.net/docs/en/kb/KB2205.png)
+
+The menu can be bypassed by allowing a double-click action when there is only one possible combination of account/gateway/component.
+
+1. Select an entry and go to ***Properties*** – ***Advanced***.
+1. Go to ***Connect using dashboard on double click*** and click ***Yes***.
+![Properties – Advanced](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6160.png)
+
+{% snippet icon.badgeInfo %}
+The same option can be found in ***File*** – ***Options*** – ***Types***.
+{% endsnippet %}  
+
+![File – Options – Types](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6162.png)
+
+3. Click ***OK*** to save and close the window.
+
+Double-clicking will now automatically open the ***Dashboard***.
+
