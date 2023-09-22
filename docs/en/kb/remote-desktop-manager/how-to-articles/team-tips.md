@@ -30,10 +30,6 @@ Here is a familiar scenario: your team has been using {{ en.RDM }} for months or
 For more information on license and version management, see [Licenses](/rdm/windows/commands/administration/management/licenses/) and [Version Management](/rdm/windows/commands/administration/settings/system-settings/application/version-management/) respectively.
 {% endsnippet %}
 
-{% snippet icon.badgeHelp %}
-For more information on license management, see [Licenses](/rdm/windows/commands/administration/management/licenses/).
-{% endsnippet %}
-
 ## System Settings
 
 The general tab of the ***Administration – System Settings*** form allows you to easily control security aspects.  
