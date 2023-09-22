@@ -38,7 +38,7 @@ For more information on license management, see [Licenses](/rdm/windows/commands
 
 The general tab of the ***Administration – System Settings*** form allows you to easily control security aspects.  
 
-A great team feature here is the System Message, which allows an administrator to inform users of upcoming system downtime, policy change or anything else. Each user will get the message when they perform the next action (open, edit, refresh, …) of the data source. Use it to display company confidentially clauses or, if you wish, create chaos with a message like the one below. A little bit of chaos is good for the soul.  
+A great team feature here is the System Message, which allows an administrator to inform users of upcoming system downtime, policy change or anything else. Each user will get the message when they connect to the data source or the message is changed. Use it to display company confidentially clauses or, if you wish, create chaos with a message like the one below. A little bit of chaos is good for the soul.  
 
 ![!!KB4599](https://webdevolutions.azureedge.net/docs/en/kb/KB4599.png)
 
