@@ -8,7 +8,7 @@ The ***Version Management*** allows the administrators to manage the data source
 
 ## Windows, {{ en.MAC }}, and Linux 
 
-![Version Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5008.png) 
+![Version Management](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6164.png) 
 
 <table>
 	<tr>
@@ -52,7 +52,7 @@ Enter a custom message for the maximal version notification.
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td>	
 Disable checks for updates 
 		</td>
 		<td>
@@ -61,6 +61,14 @@ Disable the auto update notification message. Use this to manually update the ap
 	</tr>
 	<tr>
 		<td>
+Show custom minimal/maximal version message for administrators
+		</td>
+		<td>
+Show the custom minimal/maximal version message to administrators
+		</td>
+	</tr>
+	<tr>
+		<td>			
 Download URL 
 		</td>
 		<td>
