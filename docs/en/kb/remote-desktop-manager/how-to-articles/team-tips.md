@@ -26,11 +26,9 @@ But wait – before you go live, why not have us create a [{{ en.CI }}](/rdm/win
 Here is a familiar scenario: your team has been using {{ en.RDM }} for months or even years, and all is well. Then along comes a new version full of cool new features, and you think that everyone in your company should upgrade. This window below depicts the different options at your disposal to control client versions.  
 ![!!KB4598](https://webdevolutions.azureedge.net/docs/en/kb/KB4598.png)  
 
-We have made this extremely easy. Simply open ***Administration – System Settings – Version Management***. Below is a description of some of the settings:  
-
-* Disable auto update notification – This will disable the "New version is available" message. (You’re welcome!)
-* Minimal version – This specifies the minimal acceptable version. If a member of your team runs an {{ en.RDM }} version below this level, they’ll be prompted to upgrade.
-* Download URL – This improves install speed by downloading the MSI onto your local network, and lets all of your team members easily upgrade from this path. In short, this saves time and avoids installing the wrong version.  
+{% snippet icon.badgeHelp %}
+For more information on license and version management, see [Licenses](/rdm/windows/commands/administration/management/licenses/) and [Version Management](/rdm/windows/commands/administration/settings/system-settings/application/version-management/) respectively.
+{% endsnippet %}
 
 {% snippet icon.badgeHelp %}
 For more information on license management, see [Licenses](/rdm/windows/commands/administration/management/licenses/).
