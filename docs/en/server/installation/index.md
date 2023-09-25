@@ -34,9 +34,9 @@ For full Active Directory integration, the application pool uses a domain identi
 
 Please refer to the appropriate topic depending on the operating system of the web server. 
 
-### Installing Web User Groups 
+### Installing web servers
 
-Please refer to [Installing Web User Groups Prerequisites](/server/installation/installing-web-server-prerequisites/). 
+Please refer to [Installing web server prerequisites](/server/installation/installing-web-server-prerequisites/). 
 
 {% snippet icon.badgeCaution %} 
 After you have installed the prerequisites, test the IIS installation by navigating to http<area>://localhost. Do not proceed further if you do not see the IIS welcome screen. There are issues that must be resolved. 
