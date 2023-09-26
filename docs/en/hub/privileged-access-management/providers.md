@@ -56,7 +56,8 @@ Description
 Password template used on generation 
 		</td>
 		<td>
-Password template used to generate the password during the reset password operation 
+		
+[Password template](/hub/web-interface/hub-overview/administration/management/password-templates/) used to generate the password during the reset password operation 
 		</td>
 	</tr>
 </table>
