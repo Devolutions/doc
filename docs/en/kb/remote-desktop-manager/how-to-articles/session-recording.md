@@ -7,10 +7,6 @@ eleventyComputed:
 ---
 Session recording provides a record of what a user did while a remote connection was opened in {{ en.RDM }}. It records one frame per second and creates a video in webm format.
 
-{% snippet icon.badgeInfo %}
-Session recording is available in {{ en.RDM }} 2019.1.3.0 and above.
-{% endsnippet %}
- 
 You can configure session recording at the {{ en.VLT }}, folder or entry level and they can be optional or required. 
 
 {% snippet icon.badgeCaution %}
