@@ -17,3 +17,5 @@ In the ***Advanced*** section of the same BeyondTrust entry.
 
 Select the system you want to connect to with the ellipsis button next to the ***System*** property.  
 ![!!KB4945](https://webdevolutions.azureedge.net/docs/en/kb/KB4945.png)
+
+The template section allows you to apply a template for the session you want to open. For more information on templates, please refer to https://docs.devolutions.net/rdm/windows/commands/file/templates/creating-templates
