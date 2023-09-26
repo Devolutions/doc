@@ -10,7 +10,7 @@ The portable mode allows you to run multiple versions of {{ en.RDM }}, using var
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-To use a single portable {{ en.RDM }} application, follow [Portable {{ en.RDM }} version](/kb/remote-desktop-manager/how-to-articles/portable-rdm-version/). 
+To use a single portable {{ en.RDM }} application, follow [Portable {{ en.RDM }} version](/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
