@@ -17,3 +17,5 @@ Also, if you are using the ***Linked ({{ en.VLT }})*** credential mode in your e
 4. Click ***OK*** to save your changes.  
 
 You can now use the $PASSWORD$ variable in your macros.
+
+Permission wise, to be able to use the $PASSWORD$ variable, the "View", "Connect (Execute)", and "View Passwords" permissions must be granted. If using a Privileged account (PAM in Devolutions Server), the Operator permission (or above) must also be granted in the PAM vault.
