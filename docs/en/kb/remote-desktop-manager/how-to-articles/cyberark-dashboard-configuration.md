@@ -85,6 +85,10 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 1. In the ***Connection components*** box, enter the components you wish to use for your connections. We initialize the field with the default components of a vanilla CyberArk installation, but this list MUST match the components configured in your {{ en.VLT }}.
 1. Since {{ en.RDM }} version 2023.2.24, there is a new feature called ***Override RDP Settings***. By default, RDP settings are fetched from CyberArk PVWA when generating the PSM session. This new option allows you to ignore settings provided by CyberArk and apply the ones specified in the ***CyberArk Dashboard*** entry instead. This override is for all PSM sessions established from this dashboard to have different display settings. One might consider creating different instances of the dashboard entry to reflect different users' preferences.
 
+{% snippet icon.badgeInfo %}
+{{ en.RDM }} and {{ en.DVLS }} versions must be at least 2023.2.28 and 2023.2.8 for ***Override RDP Settings*** to work. 
+{% endsnippet %}  
+
    ![Override RDP Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB2264.png)
 
 #### ***PSM***
