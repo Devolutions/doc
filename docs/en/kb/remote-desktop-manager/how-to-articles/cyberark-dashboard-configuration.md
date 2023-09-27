@@ -173,6 +173,15 @@ After selecting the account in the CyberArk Dashboard, you can also use the ***{
 
 The menu can be bypassed by allowing a double-click action when there is only one possible combination of account/gateway/component.
 
+{% snippet icon.badgeHelp %}
+You can use a batchedit PowerShell script to allow a double-click action instead of selecting the option described in the steps below.
+{% endsnippet %}  
+
+```powershell
+$connection.ConnectUsingDashboardOnDoubleClick = "True";
+$RDM.Save();
+```
+
 1. Select an entry and go to ***Properties*** – ***Advanced***.
 1. Go to ***Connect using dashboard on double click*** and click ***Yes***.
 ![Properties – Advanced](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6160.png)
