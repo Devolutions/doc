@@ -26,7 +26,7 @@ Step 1 - Setting up ***User Groups*** and ***{{ en.VLT }}s***
 
 * [Invite an Administrator](/hub/web-interface/hub-overview/administration/management/users/administrator-invite/) 
 * [Create User Groups](/hub/web-interface/hub-overview/administration/management/user-groups/create-manage-user-groups/) 
-* [Create {{ en.VLT }}s and sssign permissions](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) 
+* [Create {{ en.VLT }}s and assign permissions](/hub/web-interface/hub-overview/administration/management/vaults/create-manage-vaults/) 
 		</td>
 		<td>
 In this video, we will demonstrate the proper configuration for {{ en.DHUBB }} as well as best practices for inviting an ***Administrator***, creating ***User Groups***, as well as setting up ***Shared {{ en.VLT }}s***, and assigning them ***Roles*** and ***Permissions***.  
