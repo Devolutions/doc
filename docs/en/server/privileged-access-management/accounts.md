@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Accounts
+  title: Privileged accounts
 ---
 The Privileged Access section allows to manage all privileged accounts within a given PAM {{ en.VLT }}. The accounts can be organized within folders or directly saved in the root.  
 ![Privileged Access {{ en.VLT }} dashboard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8150.png) 
