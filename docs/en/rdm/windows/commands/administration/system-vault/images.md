@@ -1,10 +1,18 @@
 ---
 eleventyComputed:
   title: Images
-  description: How to add images in the Entry Management window in Remote Desktop Manager. 
+  description: Remote Desktop Manager's global image management uses a dynamic form to easily create virtual folders and subfolders for image storage. 
 ---
 
 {{ en.RDM }}'s global image management uses a dynamic form to easily create virtual folders and subfolders for image storage.
+
+The following file types are currently supported for global and custom images: 
+* .jpg 
+* .jpeg
+* .bmp
+* .png
+* .svg 
+* .ico
 
 1. Go to ***Administration*** – ***Images*** in the ribbon of {{ en.RDM }}.
 ![Administration – Images](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6148.png)
