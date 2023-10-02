@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: IP Address list entry
+  title: IP ddress list entry
   description: The IP Adress list entry keeps the list of IPs in a single entry.
 ---
 The ***IP Adress list*** entry keeps the list of IPs in a single entry.
@@ -16,6 +16,6 @@ The ***IP Adress list*** entry keeps the list of IPs in a single entry.
 1. Click ***OK*** to close the window.  
 ![Name, IP / Host and Description](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6111.png)  
 Enter the number of IP addresses to list. You can also edit or delete an IP address.  
-1. Click ***OK*** pour save the entry.  
+1. Click ***OK*** to save the entry.  
 ![Enter your IP addresses](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6112.png)  
 The ***IP Adress list*** entry is saved.
