@@ -1,8 +1,9 @@
 ---
 eleventyComputed:
-  title: Import Contacts
+  title: Import contacts
+  description: Import contacts from an external source into {{ en.RDM }} via File – Import – Contact or by right-clicking in the {{ en.NPANE }} and selecting Import – Import Contacts From.
 ---
-You can go to ***File – Import – Contacts*** to import contacts from other software into {{ en.RDM }}. 
+Import contacts from an external source into {{ en.RDM }} via ***File – Import – Contact*** or by right-clicking in the {{ en.NPANE }} and selecting ***Import – Import Contacts From***.
 
 {% snippet icon.badgeInfo %} 
 The import feature is only active if the import ***Privilege*** has been enabled inside the user account. 
@@ -25,5 +26,3 @@ All the entries will be imported in the current folder.
 {% snippet icon.badgeInfo %} 
 Outlook contacts subfolders are also supported. 
 {% endsnippet %}
- 
-
