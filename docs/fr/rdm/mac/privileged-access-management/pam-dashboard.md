@@ -7,7 +7,7 @@ Une licence est désormais nécessaire pour activer le module de gestion des acc
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-Le ***Tableau de bord PAM*** n'est disponible qu'avec notre [{{ fr.DVLS }}](https://devolutions.net/server/fr).
+Le ***Tableau de bord PAM*** n'est disponible qu'avec [{{ fr.DVLS }}](https://devolutions.net/server/fr).
 {% endsnippet %}
 
 La fonction ***Tableau de bord PAM*** se situe dans l'onglet ***Affichage***.  

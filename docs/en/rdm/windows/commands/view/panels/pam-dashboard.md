@@ -7,7 +7,7 @@ A license is now required to enable the Privileged Access Management (PAM) modul
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The ***PAM Dashboard*** is only available with our [{{ en.DVLS }}](https://devolutions.net/server).
+The ***PAM Dashboard*** is only available with [{{ en.DVLS }}](https://devolutions.net/server).
 {% endsnippet %}
 
 The ***PAM Dashboard*** feature can be found in ***View*** – ***Panels*** – ***PAM Dashboard***.  
