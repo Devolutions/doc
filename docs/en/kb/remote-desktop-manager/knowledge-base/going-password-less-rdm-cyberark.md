@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Going password-less with {{ en.RDM }} and CyberArk
-  description: 
+  description: Going password-less with Remote Desktop Manager and CyberArk
 ---
 During the last few months, you may have noticed a heightened level of collaboration between Devolutions and CyberArk  Indeed, two of our three entry types have been refreshed in version 2020.2 to better use their improved APIs. Our third type is already available in {{ en.RDM }} 2020.3 beta, this completes the current round of improvements and essentially allows organizations to go password-less for their day-to-day workflows.  
 
@@ -27,7 +27,7 @@ First, you must issue PKs for each of your users and deploy them to their workst
 As always with {{ en.RDM }}, you can mix and match approaches depending on your own requirements.
 
 {% snippet icon.badgeInfo %}
-An application name other than ***AIMWebService*** must be specified in the ***application name*** field.
+An application name other than ***AIMWebService*** must be specified in the ***application name*** field. 
 {% endsnippet %}   
 
 ![Application name field](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6118.png)  
