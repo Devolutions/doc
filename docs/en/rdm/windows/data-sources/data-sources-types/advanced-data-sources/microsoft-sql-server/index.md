@@ -20,7 +20,6 @@ Supported Microsoft SQL Server:
 * 2017 on Windows and Linux (all editions) 
 * 2016 Service Pack 2 
 * 2014 Service Pack 3 
-* 2012 Service Pack 4 
 
 The following features are also supported:  
 
