@@ -7,7 +7,11 @@ eleventyComputed:
 
 ## Settings 
 
-![Administration - Users](https://webdevolutions.azureedge.net/docs/en/server/clip10340.png) 
+![Administration - Users](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6062.png) 
+
+{% snippet icon.badgeInfo %}
+***User Specific Settings*** are shared between {{ en.RDM }}, {{ en.DVLS }} and {{ en.DHUB }}.
+{% endsnippet %}  
 
 ### Global Options 
 
@@ -47,7 +51,7 @@ Refresh users list.
 	</tr>
 </table>
 
-![!!ServerOp8004](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8004.png) 
+![!!ServerOp8004](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6063.png) 
 
 ### User Options 
 
