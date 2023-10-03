@@ -6,12 +6,12 @@ eleventyComputed:
 
 Each serial has an associated license file (.lic) containing license information (product, expiration date, number of licenses, etc.).
 
-Validation from the CRM is done only when a license is added. Downloaded licenses are stored and validated locally until they expire. Serial licenses already registered in the product will continue to be validated from the serial until they expire.
+Downloaded licenses are stored and validated locally until they expire. Serial licenses already registered in the product will continue to be validated from the serial until they expire.
 
-The CRM generates a license file for all existing licenses. When a serial is entered in {{ en.RDM }}, the associated license file will be downloaded automatically. The license file can also be downloaded from the [Devolutions Portal](portal.devolutions.com).
+When a serial is entered in {{ en.RDM }}, the associated license file will be downloaded automatically. The license file can also be downloaded from the [Devolutions Portal](portal.devolutions.com).
 
 {% snippet icon.badgeInfo %}
-{{ en.RDM }} and {{ en.DVLS }} installations using Legacy licenses will automatically fetch the license from the CRM when upgrading to 2023.3.
+{{ en.RDM }} and {{ en.DVLS }} installations using Legacy licenses will automatically fetch the license when upgrading to 2023.3.
 {% endsnippet %}  
 
 ## How do I add a license from the file?
