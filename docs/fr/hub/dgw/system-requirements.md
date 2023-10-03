@@ -49,7 +49,7 @@ Une instance de {{ fr.DGW }} peut gérer jusqu'à 75 sessions simultanées en co
 ### Exigences logicielles 
 
 * Windows 10 
-* Windows Server 2012, 2012 R2, 2016, 2019 ou 2022 
+* Windows Server 2016, 2019 ou 2022 
 * Microsoft .NET Framework 4.8 
 
 ### Conditions requises 
