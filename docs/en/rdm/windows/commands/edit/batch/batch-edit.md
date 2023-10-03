@@ -24,6 +24,8 @@ You can change the ***Host*** names.
 
 ### Change Saved Credentials 
 
+{% youtube 'FtSlp_TVAxE?si=2M7S4CNhU3pv8DQs&amp;start=701' %}  
+
 You can change the ***Credential mode*** and credentials (***Username***, ***Domain***, and ***Password***) or reset them.  
 ![Batch Edit – Change Saved Credentials](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2102.png) 
 

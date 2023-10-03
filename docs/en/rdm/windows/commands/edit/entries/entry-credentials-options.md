@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Entry credentials options
 ---
+{% youtube 'FtSlp_TVAxE?si=VU395_g6MZ75HHvm&amp;start=636' %}  
+
 Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.  
 ![Credentials](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4043.png)
 
