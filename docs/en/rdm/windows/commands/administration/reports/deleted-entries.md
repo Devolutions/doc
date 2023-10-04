@@ -16,7 +16,7 @@ Administrators can permanently delete some or all deleted entries.
 
 ### Manage deleted entries 
 
-The ***Deleted Entries*** will generate a list containing all the entries previously deleted from your data source. You may resurrect an entry, meaning it will become an active entry again and will be shown in your data source. You may also chose to permanently delete your entries, once you have permanently deleted your entries you will not be able to resurrect them afterward.  
+The ***Deleted Entries*** will generate a list containing all the entries previously deleted from your data source. You may restore an entry, meaning it will become an active entry again and will be shown in your data source. You may also chose to permanently delete your entries, once you have permanently deleted your entries you will not be able to restore them afterward.  
 ![Deleted Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10308.png) 
 
 <table>
@@ -38,7 +38,7 @@ Permanently delete the selected entry.
 	</tr>
 	<tr>
 		<td>
-Resurrect Entry 
+Restore Entry 
 		</td>
 		<td>
 Use this button to restore an entry. 
@@ -55,7 +55,7 @@ Permanently delete all the deleted entries.
 </table>
 
 {% snippet icon.badgeNotice %} 
-Deleted entries can be resurrected as long as the [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) has not been changed since the deleted action. 
+Deleted entries can be restored as long as the [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) has not been changed since the deleted action. 
 {% endsnippet %}
  
 ### Export deleted entries list 
