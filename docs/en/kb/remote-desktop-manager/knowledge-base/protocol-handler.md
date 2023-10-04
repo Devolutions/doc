@@ -1,8 +1,9 @@
 ---
 eleventyComputed:
-  title: Web Protocol Handler
+  title: Protocol handler
+  description: A potocol handler has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).  
 ---
-A ***Web Protocol Handler*** (also called ***URL Protocol Handler***) has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).  
+A ***Protocol handler*** has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).  
 
 {% snippet icon.badgeInfo %}  
 Internet Explorer and Mozilla Firefox execute the URL by clicking on it or by pressing Enter. However, with some other web browsers such as Google Chrome, executing the URL normally results in a web search. These browsers may require to do <kbd>Ctrl</kbd>+click or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to execute the URL.  
