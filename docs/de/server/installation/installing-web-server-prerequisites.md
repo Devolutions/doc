@@ -6,7 +6,7 @@ eleventyComputed:
   - Roles
 ---
 {% snippet icon.badgeInfo %} 
-Die Installation von {{ de.DVLS }} wird unter Windows 10, Windows 11, Windows Server 2012 R2, 2016, 2019 und 2022 unterstützt.  
+Die Installation von {{ de.DVLS }} wird unter Windows Server 2016, 2019 und 2022 unterstützt.  
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

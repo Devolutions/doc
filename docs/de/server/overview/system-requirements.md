@@ -9,7 +9,7 @@ eleventyComputed:
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-Außerdem überprüft {{ de.DVLS }}, ob die Funktionsebenen von Domäne- und Gesamtstruktur mindestens Windows Server 2012 R2 entsprechen. Dies ist unerlässlich, wenn Sie die Active Directory-Authentifizierung verwenden. 
+Außerdem überprüft {{ de.DVLS }}, ob die Funktionsebenen von Domäne- und Gesamtstruktur mindestens Windows Server 2016 entsprechen. Dies ist unerlässlich, wenn Sie die Active Directory-Authentifizierung verwenden. 
 {% endsnippet %}
 
 In der folgenden Tabelle sind die empfohlenen Mindestanforderungen für {{ de.DVLS }} aufgeführt. Diese Spezifikationen können, wie weiter unten im Artikel beschrieben, je nach Größe variieren. 
@@ -21,10 +21,10 @@ In der folgenden Tabelle sind die empfohlenen Mindestanforderungen für {{ de.DV
 
 ## Software-Abhängigkeiten
 
-* Microsoft SQL Server 2012/2014/2016/[2017](https://www.microsoft.com/de-de/sql-server/sql-server-2017)/[2019](https://www.microsoft.com/de-de/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/de-de/sql-server/sql-server-2022) (einschließlich Express-Editionen). 
+* Microsoft SQL Server 2014/2016/[2017](https://www.microsoft.com/de-de/sql-server/sql-server-2017)/[2019](https://www.microsoft.com/de-de/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/de-de/sql-server/sql-server-2022) (einschließlich Express-Editionen). 
 * Azure SQL-Datenbank wird nur mit SQL-Anmeldekonten unterstützt. Azure Active Directory-Konten werden nicht unterstützt. 
-* Windows 10, Windows 11, Windows Server 2012 R2 (nicht kompatibel mit {{ de.DGW }}), 2016, 2019 und 2022. 
-* Funktionsebene von Domänen- und Gesamtstruktur mindestens Windows Server 2012 R2 oder höher. 
+* Windows Server 2019 und 2022. 
+* Funktionsebene von Domänen- und Gesamtstruktur mindestens Windows Server 2016 oder höher. 
 * Microsoft .NET Framework 4.8 (Bitte beachten Sie die [Voraussetzungen für das .NET Framework](https://learn.microsoft.com/de-de/dotnet/framework/get-started/system-requirements) für Betriebssysteme). 
 * Microsoft .NET 6.0 (ASP.NET Core Runtime 6.0.19). 
 * Internetinformationsdienste (IIS) 7.0 oder höher. 

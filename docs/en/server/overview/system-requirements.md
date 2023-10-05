@@ -10,7 +10,7 @@ eleventyComputed:
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-{{ en.DVLS }} now verifies that the domain and forest functional levels are at least Windows Server 2012 R2. This is essential when using Active Directory authentication.
+{{ en.DVLS }} now verifies that the domain and forest functional levels are at least Windows Server 2016. This is essential when using Active Directory authentication.
 {% endsnippet %}
 
 The following table lists the minimum recommended hardware specifications for {{ en.DVLS }}. These specifications may vary depending on the usage of the application, as indicated later in the topic. 
@@ -22,10 +22,10 @@ The following table lists the minimum recommended hardware specifications for {{
 
 ## Software dependencies
 
-* Microsoft SQL Server 2012/2014/2016/[2017](https://www.microsoft.com/en-ca/sql-server/sql-server-2017-editions)/[2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022) (including Express editions). 
+* Microsoft SQL Server 2014/2016/[2017](https://www.microsoft.com/en-ca/sql-server/sql-server-2017-editions)/[2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022) (including Express editions). 
 * Azure SQL database is supported with SQL login accounts only. Azure Active Directory accounts are not supported. 
-* Windows 10, Windows 11, Windows Server 2012 R2 (not compatible with {{ en.DGW }}), 2016, 2019, and 2022. 
-* Windows Server 2012 R2 domain and forest functional level or higher. 
+* Windows Server 2016, 2019, and 2022. 
+* Windows Server 2016 domain and forest functional level or higher. 
 * Microsoft .NET Framework 4.8 (Please refer to the [.NET Framework system requirements](https://msdn.microsoft.com/en-us/library/8z6watww%28v=vs.110%29.aspx) for operating systems). 
 * Microsoft .NET 6.0 (ASP.NET Core Runtime 6.0.19).
 * Internet Information Services (IIS) 7.0 or later. 

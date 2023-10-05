@@ -47,7 +47,7 @@ One {{ en.DGW }} can handle up to 75 concurrent sessions with good performance.
 ### Software requirements
 
 * Windows 10
-* Windows Server 2012, 2012 R2, 2016, 2019 or 2022
+* Windows Server 2016, 2019 or 2022
 * Microsoft .NET Framework 4.8  
 
 ### Prerequisites
