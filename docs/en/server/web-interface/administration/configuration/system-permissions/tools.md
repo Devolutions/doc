@@ -4,55 +4,55 @@ eleventyComputed:
   keywords:
   - Roles
 ---
-![Administration - System Permissions - Tools](https://webdevolutions.azureedge.net/docs/en/server/clip8054.png) 
+![Administration – System Permissions – Tools](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0063.png)
 
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Buit-in tools (Wake On Lan, NetStat, Ping...) 
+Buit-in tools (Wake On Lan, NetStat, Ping...)
 		</td>
 		<td>
-Allow users/user groups to use session related tools. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Macro/Script/Tool entry 
-		</td>
-		<td>
-Allow users/user groups to use Macro/Script/Tool entries. 
+Allow users/user groups to use session-related tools.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Remote tools 
+Macro/Script/Tool entry
 		</td>
 		<td>
-Allow users/user groups to use remote tools. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Web management tools 
-		</td>
-		<td>
-Allow users/user groups to use web management tools. 
+Allow users/user groups to use Macro/Script/Tool entries.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Console management tools 
+Remote tools
 		</td>
 		<td>
-Allow users/user groups to use console management tools. 
+Allow users/user groups to use remote tools.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Web management tools
+		</td>
+		<td>
+Allow users/user groups to use web management tools.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Console management tools
+		</td>
+		<td>
+Allow users/user groups to use console management tools.
 		</td>
 	</tr>
 </table>

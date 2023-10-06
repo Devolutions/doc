@@ -2,56 +2,56 @@
 eleventyComputed:
   title: Entries
 ---
-![Administration - System Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8052.png) 
+![Administration – System Permissions](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0060.png)
 
-The administrative permissions regarding the ***Entries*** section are described below. 
+The administrative permissions regarding the ***Entries*** section are described below.
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Import 
+Import
 		</td>
 		<td>
-Restrain the import privilege to certain users. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Export 
-		</td>
-		<td>
-Restrain the export privilege to certain users. 
+Restrain the import privilege to certain users.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Add in root 
+Export
 		</td>
 		<td>
-Restrain creating entries in root to certain users. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.VLT }} settings 
-		</td>
-		<td>
-Restrain access to {{ en.VLT }} settings to certain users. 
+Restrain the export privilege to certain users.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Session recording 
+Add in root
 		</td>
 		<td>
-Restrain access to the session recording feature. 
+Restrain creating entries in root to certain users.
+		</td>
+	</tr>
+	<tr>
+		<td>
+{{ en.VLT }} settings
+		</td>
+		<td>
+Restrain access to {{ en.VLT }} settings to certain users.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Session recording
+		</td>
+		<td>
+Restrain access to the session recording feature.
 		</td>
 	</tr>
 </table>
