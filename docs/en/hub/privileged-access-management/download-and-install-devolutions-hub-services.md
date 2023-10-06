@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Download and install {{ en.DHUBS }}
+  order: 10
   description: The {{ en.DHUBS }} installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your {{ en.DHUBB }} and your internal resources.
 ---
 The {{ en.DHUBS }} installer facilitates the installation and integration of our modules, such as the Privileged Access Management (Beta) module. The installed service will establish communication between your {{ en.DHUBB }} and your internal resources.

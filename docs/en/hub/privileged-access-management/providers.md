@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Providers
+  order: 20
   description: The Azure AD user provider allows {{ en.DHUBB }} to store the Azure AD application information to be used for Azure AD automatic password rotation.
 ---
 The Azure AD user provider allows {{ en.DHUBB }} to store the Azure AD application information to be used for Azure AD automatic password rotation.
