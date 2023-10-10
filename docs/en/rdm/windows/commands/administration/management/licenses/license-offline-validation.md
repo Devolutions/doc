@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Offline licenses 
+  title: Licenses 
   description: 
 ---
 
