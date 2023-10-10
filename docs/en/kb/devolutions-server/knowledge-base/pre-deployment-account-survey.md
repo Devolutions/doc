@@ -11,7 +11,7 @@ The names used in this guide are to ease comprehension of the role fulfilled by 
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The following accounts that interact with the SQL database will be granted the least privileges permissions from scripts that will run during the creation and the upgrade of the {{ en.DVLS }} instance.
+The following accounts interacting with the SQL database will be granted the least privileges permissions from scripts that will run during the creation and the upgrade of the {{ en.DVLS }} instance.
 {% endsnippet %}
 
 Please choose the appropriate section
