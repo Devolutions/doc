@@ -65,17 +65,3 @@ Copy/paste operation within the remote host are extremely slow.
 ### Solution
 
 We have isolated the issue to ***Serial Ports*** being enabled. Turn off ***Serial port sharing*** and see if the performance is improved.
-
-## Problem 7
-
-Log on username on windows server 2012 is sent incorrectly
-
-### Solution
-
-When you try to connect to a Windows Server 2012, you see the following result. There are several spaces that should not be there.  
-
-![!!KB4074](https://webdevolutions.azureedge.net/docs/en/kb/KB4074.png)  
-
-To fix this issue, go in ***Properties – General – Advanced*** and change the option ***Enable CredSSP support*** to ***True***.  
-
-![!!KB4075](https://webdevolutions.azureedge.net/docs/en/kb/KB4075.png)

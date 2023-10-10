@@ -1,11 +1,12 @@
 ---
 eleventyComputed:
   title: Microsoft RDP memory and performance issues
+  description: Microsoft RDP memory and performance issues
 ---
 ## You can only run a few rdp sessions at the same time in {{ en.RDM }} and you want to know how to be able to open more sessions.
 The amount of consumed memory is dictated by the remote technology, and in the case of RDP, by the Operating System of the remote host.  
 
-Windows 8 / Windows Server 2012 sessions do take upwards of 150Mb, whereas the previous versions would consume around half of that.  
+Windows 11 / Windows Server 2022 sessions do take upwards of 150Mb, whereas the previous versions would consume around half of that.  
 
 This is something that we have no control over. You can look for Large Memory Aware Application or use the 64bit edition of {{ en.RDM }}
 
