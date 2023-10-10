@@ -10,6 +10,10 @@ Prior to deployment of a {{ en.DVLS }} instance, some accounts are needed to ope
 The names used in this guide are to ease comprehension of the role fulfilled by the account. Our documentation uses these names as well, but there is no requirement that you use them.
 {% endsnippet %}
 
+{% snippet icon.badgeInfo %}
+The following accounts that interact with the SQL database will be granted the least privileges permissions from scripts that will run during the creation and the upgrade of the {{ en.DVLS }} instance.
+{% endsnippet %}
+
 Please choose the appropriate section
 
 * Domain Based Operation
