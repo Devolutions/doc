@@ -117,6 +117,10 @@ To make sure that your configuration and the {{ en.DHUBS }} installation work pr
 
 ![Reset Password](https://webdevolutions.azureedge.net/docs/en/hub/Hub2295.png)
 
-Then, go in ***Reports – Privileged Access – Tasks***. If it worked, you will see the task completed.
+In the entry logs, you can see that the password reset as been requested, but you do not see its status.
 
-![Completed reset password task](https://webdevolutions.azureedge.net/docs/en/hub/Hub2296.png)
+![Entry logs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2300.png)
+
+To see the password reset status, go to the [***Tasks*** report](/hub/privileged-access-management/privileged-access-reports/tasks/) in ***Reports – Privileged Access – Tasks***. If it worked, you will see that the task status is set to ***Completed***.
+
+![Completed password reset task](https://webdevolutions.azureedge.net/docs/en/hub/Hub2301.png)

@@ -14,8 +14,8 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 ![Microsoft Entra ID service](https://webdevolutions.azureedge.net/docs/en/kb/KB2291.png)
 1. In ***App registrations***, click on ***New registration***.
 ![App registrations – New registration](https://webdevolutions.azureedge.net/docs/en/kb/KB2292.png)
-1. Set the ***Name*** and the ***Redirect URI*** and platform. The ***Redirect URI*** must be your hub URL (for example, https&#58;//windjammer.devolutions.app/).
-![Name and Redirect URI](https://webdevolutions.azureedge.net/docs/en/kb/KB2313.png)
+1. Set the ***Name*** of the new registration.
+![Name](https://webdevolutions.azureedge.net/docs/en/kb/KB2315.png)
 1. Click ***Register*** at the bottom when done. You will be presented with an overview of your application. 
 1. Locate the ***Application (client) ID*** and ***Directory (tenant) ID***. You will need this information in later steps, so do not close this window.
 ![Application (client) ID and Directory (tenant) ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2294.png)
@@ -100,5 +100,9 @@ Your new provider has now been added to the list of ***Providers***.
 1. Click ***Next***.
 ![Next](https://webdevolutions.azureedge.net/docs/en/kb/KB2311.png)
 1. Enter a justification for the assignment, then click ***Assign***.
-![Enter justification and Assign](https://webdevolutions.azureedge.net/docs/en/kb/KB2312.png)
+   ![Enter justification and Assign](https://webdevolutions.azureedge.net/docs/en/kb/KB2312.png)
    Your application has now been added to the list. 
+
+   {% snippet icon.badgeInfo %}
+   If the accounts managed by the PAM module are members of any administrator roles or groups, remember to complete the above steps with the ***Privileged Authentication Administrator*** role as well.
+   {% endsnippet %}
