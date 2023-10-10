@@ -121,6 +121,6 @@ In the entry logs, you can see that the password reset as been requested, but yo
 
 ![Entry logs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2300.png)
 
-To see the password reset status, go to the [***Tasks*** report](/hub/privileged-access-management/privileged-access-reports/tasks/) in ***Reports – Privileged Access – Tasks***. If it worked, you will see that the task status is set to ***Completed***.
+To see the password reset status, go to the [***Tasks***](/hub/privileged-access-management/privileged-access-reports/tasks/) report in ***Reports – Privileged Access – Tasks***. If it worked, you will see that the task status is set to ***Completed***.
 
 ![Completed password reset task](https://webdevolutions.azureedge.net/docs/en/hub/Hub2301.png)
