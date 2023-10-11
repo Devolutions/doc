@@ -117,7 +117,7 @@ To make sure that your configuration and the {{ en.DHUBS }} installation work pr
 
 ![Reset Password](https://webdevolutions.azureedge.net/docs/en/hub/Hub2295.png)
 
-In the entry logs, you can see that the password reset as been requested, but you do not see its status.
+In the entry logs, you can see the different activities from the request to the password reset.
 
 ![Entry logs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2300.png)
 
