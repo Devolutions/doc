@@ -14,24 +14,19 @@ When a serial is entered in {{ en.RDM }}, the associated license file will be do
 {{ en.RDM }} and {{ en.DVLS }} installations using Legacy licenses will automatically fetch the license when upgrading to 2023.3.
 {% endsnippet %}  
 
-## How do I add a license from the file?
+## How do I add a license from the file
+
 For trials, the license file is sent with the serial email. Licenses can also be downloaded from the [{{ en.DPORTAL }}](portal.devolutions.com).
 
 Each serial can be imported by clicking on the ***Import*** button in the ***User and Security Management*** window in {{ en.RDM }}. 
 
-Go to ***Administration*** – ***Licenses*** in the ribbon of {{ en.RDM }}.
-
-![Administration – Licenses](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6144.png)
-
-Click ***Add License*** in the ***User and Security Management*** window.
-
+1. Go to ***Administration*** – ***Licenses*** in the ribbon of {{ en.RDM }}.  
+![Administration – Licenses](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6144.png)  
+1. Click ***Add License*** in the ***User and Security Management*** window.
 ![Administration – Licenses – User and Security Management – Add License](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6146.png)
-
-Select ***Import***. 
-
+1. Select ***Import***. 
 ![Administration – Licenses – User and Security Management – Add License – Import](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6147.png)
-
-Import your License and click ***OK***.
+1. Import your License and click ***OK***.
 
 ### {{ en.RDM }} does not have Internet access when adding the license
 
