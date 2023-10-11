@@ -8,14 +8,14 @@ Each serial has an associated license file (.lic) containing license information
 
 Downloaded licenses are stored and validated locally until they expire. Serial licenses already registered in the product will continue to be validated from the serial until they expire.
 
-When a serial is entered in {{ en.RDM }}, the associated license file will be downloaded automatically. The license file can also be downloaded from the [Devolutions Portal](portal.devolutions.com).
+When a serial is entered in {{ en.RDM }}, the associated license file will be downloaded automatically. The license file can also be downloaded from the [{{ en.DPORTAL }}](portal.devolutions.com).
 
 {% snippet icon.badgeInfo %}
 {{ en.RDM }} and {{ en.DVLS }} installations using Legacy licenses will automatically fetch the license when upgrading to 2023.3.
 {% endsnippet %}  
 
 ## How do I add a license from the file?
-For trials, the license file is sent with the serial email. Licenses can also be downloaded from the [Devolutions Portal](portal.devolutions.com).
+For trials, the license file is sent with the serial email. Licenses can also be downloaded from the [{{ en.DPORTAL }}](portal.devolutions.com).
 
 Each serial can be imported by clicking on the ***Import*** button in the ***User and Security Management*** window in {{ en.RDM }}. 
 
@@ -35,6 +35,6 @@ Import your License and click ***OK***.
 
 ### {{ en.RDM }} does not have Internet access when adding the license
 
-Should {{ en.RDM }} or {{ en.DVLS }} not have Internet access, a message will be displayed inviting the user to download the license from [Devolutions Portal](portal.devolutions.com).
+Should {{ en.RDM }} or {{ en.DVLS }} not have Internet access, a message will be displayed inviting the user to download the license from [{{ en.DPORTAL }}](portal.devolutions.com).
 
 
