@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: Licenses 
-  description: 
+  title: Offline licenses 
+  description: Downloaded licenses are stored and validated locally until they expire. Serial licenses already registered in the product will continue to be validated from the serial until they expire.
 ---
 
 Each serial has an associated license file (.lic) containing license information (product, expiration date, number of licenses, etc.).
