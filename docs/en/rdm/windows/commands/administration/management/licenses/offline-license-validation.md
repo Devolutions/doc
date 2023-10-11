@@ -24,9 +24,9 @@ Each serial can be imported by clicking on the ***Import*** button in the ***Use
 ![Administration – Licenses](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6144.png)  
 1. Click ***Add License*** in the ***User and Security Management*** window.
 ![Administration – Licenses – User and Security Management – Add License](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6146.png)
-1. Select ***Import***. 
-![Administration – Licenses – User and Security Management – Add License – Import](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6147.png)
+1. Select ***Import***.
 1. Import your License and click ***OK***.
+![Administration – Licenses – User and Security Management – Add License – Import](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6147.png)
 
 ### {{ en.RDM }} does not have Internet access when adding the license
 
