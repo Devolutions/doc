@@ -1,7 +1,10 @@
 ---
-title: Team Edition
-order: 10
+eleventyComputed:
+  title: Team Edition
+  order: 10
+  description: When using an Advanced Data Source, there is no need to register Remote Desktop Manager since the license serial is stored in the data source and retrieved directly from it. 
 ---
+
 When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), there is no need to register {{ en.RDM }} since the license serial is stored in the data source and retrieved directly from it. When launching the application for the first time, simply [add the data source](/rdm/windows/data-sources/create-new-data-source/) containing the serial. 
 
 {% snippet icon.badgeCaution %} 
@@ -11,7 +14,6 @@ The license menu to register {{ en.RDM }} is available for SQLite and {{ en.DHUB
 {% snippet icon.badgeInfo %} 
 It is possible to [request a trial](/rdm/windows/installation/client/registration/trial-request/) to try {{ en.RDM }} Team for 30 days. If you decide not to register the application with a Team Edition license serial at the end of the 30-day period, your data will not be altered or erased, and you will have full access to it once you provide a license serial. 
 {% endsnippet %}
- 
 
 1. To add a license serial to the data source, navigate to ***Administration – Management – Licenses***.  
 ![Administration – Management – Licenses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3417.png) 
@@ -30,3 +32,7 @@ This step will automatically assign the license to the selected users, removing 
 ![Assigned To Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4062.png) 
 
 7. Click ***OK*** and ***Close*** the ***User and Security Management*** window. 
+
+### Offline registration
+
+* Purchased license: The purchased license must be downloaded from the [{{ en.DPORTAL }}](portal.devolutions.com) account.
