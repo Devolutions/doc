@@ -4,12 +4,21 @@ eleventyComputed:
   order: 10
   description: Register your {{ en.DVLS }} license using the {{ en.DVLSCONSOLE }} or via the {{ en.DVLS }} web interface. 
 ---
-There are two methods to register your {{ en.DVLS }} license: using the [{{ en.DVLSCONSOLE }}](#devolutions-server-console) or via the [{{ en.DVLS }} web interface](#devolutions-server-web-interface). 
 
-## {{ en.DVLSCONSOLE }} 
-In the {{ en.DVLSCONSOLE }}, register the {{ en.DVLS }} license in ***Server – Edit – General – License***. 
-![{{ en.DVLS }} license in the {{ en.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2085.png) 
+{% snippet icon.badgeInfo %} 
+The following steps apply to {{ en.DVLS }} 2023.3 and higher.
+{% endsnippet %}
 
 ## {{ en.DVLS }} web interface 
-In the {{ en.DVLS }} web interface, register the {{ en.DVLS }} license in ***Administration – Server Settings – General – Serial***. 
-![{{ en.DVLS }} license in the web interface](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2086.png) 
+
+In the {{ en.DVLS }} web interface, go to ***Administration*** – ***Licenses***.  
+![Administration – Licenses](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6069_2023_3.png)  
+Select ***Add***. 
+![Administration – Licenses – Add](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6070_2023_3.png)  
+Enter the license and click ***Add***.
+![License window](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6073_2023_3.png)  
+
+### Offline registration
+
+Should {{ en.DVLS }} not have Internet access, the license file must be imported as described in the steps above to register. A message to download the license from [{{ en.DPORTAL }}](portal.devolutions.com) will also appear in {{ en.DVLS }}. 
+
