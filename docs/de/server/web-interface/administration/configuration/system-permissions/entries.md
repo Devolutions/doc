@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Einträge
 ---
-![Administration – Systemberechtigungen](https://webdevolutions.azureedge.net/docs/de/server/ServerOp0060.png)
+![Administration – System Berechtigungen](https://webdevolutions.azureedge.net/docs/de/server/ServerOp0060.png)
 
 Im Folgenden werden die Verwaltungsberechtigungen für den Bereich ***Einträge*** beschrieben.
 <table>

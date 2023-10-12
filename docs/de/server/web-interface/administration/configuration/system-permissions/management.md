@@ -1,10 +1,8 @@
 ---
 eleventyComputed:
   title: Verwaltung
-  keywords:
-  - Roles
 ---
-![Administration – Systemberechtigungen – Verwaltung](https://webdevolutions.azureedge.net/docs/de/server/ServerOp0066.png)
+![Administration – System Berechtigungen – Verwaltung](https://webdevolutions.azureedge.net/docs/de/server/ServerOp0066.png)
 
 <table>
 
