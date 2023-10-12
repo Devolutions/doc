@@ -56,5 +56,5 @@ You can access all your {{ en.VLT }}s via the {{ en.VLT }} selector in the ***{{
 ![{{ en.VLT }} selector](https://webdevolutions.azureedge.net/docs/en/hub/Hub2292.png)
 
 {% snippet icon.badgeHelp %}
-The next step is to add privileged accounts to your new PAM {{ en.VLT }}. Visit [Privileged accounts](/hub/privileged-access-management/privileged-accounts/) for more information.
+The next step is to add privileged accounts to your new PAM {{ en.VLT }}. Visit [Privileged accounts](/hub/privileged-access-management/privileged-accounts/index/) for more information.
 {% endsnippet %}

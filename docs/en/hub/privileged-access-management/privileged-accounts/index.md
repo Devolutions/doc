@@ -10,6 +10,10 @@ Privileged accounts are added and managed in the PAM {{ en.VLT }}. The accounts 
 
 ![Privileged account in PAM {{ en.VLT }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2293.png)
 
+{% snippet icon.badgeHelp %}
+You can use the ***Check-out*** feature to request temporary access to a privileged account entry in a PAM {{ en.VLT }}. The approver must then approve or deny the request. To learn more about this process, see [Request access to a privileged account](/hub/privileged-access-management/privileged-accounts/request-access-privileged-account/) or [Approve access to a privileged account](/hub/privileged-access-management/privileged-accounts/approve-access-privileged-account/).
+{% endsnippet %}  
+
 ## Create a privileged account entry
 
 The only entry type that can be added in your PAM {{ en.VLT }} (except for folders) are ***Azure AD Users***.
