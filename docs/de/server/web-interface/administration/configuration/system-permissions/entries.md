@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Entries
+  title: Einträge
 ---
 ![Administration – Systemberechtigungen](https://webdevolutions.azureedge.net/docs/de/server/ServerOp0060.png)
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Management
+  title: Verwaltung
   keywords:
   - Roles
 ---
