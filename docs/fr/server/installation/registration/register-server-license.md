@@ -2,16 +2,17 @@
 eleventyComputed:
   title: Enregistrer une licence {{ fr.DVLS }}
   order: 10
-  description: Enregistrez votre licence {{ fr.DVLS }} avec la {{ fr.DVLSCONSOLE }} ou via l'interface Web de {{ fr.DVLS }}.
+  description: Enregistrer votre licence {{ fr.DVLS }} via l'interface Web de {{ fr.DVLS }}.
 ---
-Il existe deux méthodes pour enregistrer votre licence ***{{ fr.DVLS }}*** : avec la [{{ fr.DVLSCONSOLE }}](#console-de-devolutions-server) ou via l'[interface Web de {{ fr.DVLS }}](#interface-web-de-devolutions-server).  
 
-## {{ fr.DVLSCONSOLE }} 
+Dans l'interface Web {{ fr.DVLS }}, allez dans ***Administration*** - ***Licences***.    
+![Administration – Licences](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6069_2023_3.png)  
+Sélectionner ***Add***. 
+![Administration – Licences – Ajouter](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6070_2023_3.png)  
+Saisir ou importer la licence et cliquer sur ***Ajouter***.
+![Fenêtre License](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6073_2023_3.png)  
 
-Dans la {{ fr.DVLSCONSOLE }}, enregistrer la licence {{ fr.DVLS }} dans ***Serveur – Modifier – Général – Licence***.  
-![Licence {{ fr.DVLS }} dans la {{ fr.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2054.png) 
+### Enregistrement hors ligne
 
-## Interface Web de {{ fr.DVLS }} 
-
-Dans l'interface Web de {{ fr.DVLS }}, enregistrer la licence {{ fr.DVLS }} dans ***Administration – Paramètres Serveur – Général – Série***.  
-![Licence {{ fr.DVLS }} dans l'interface Web](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2055.png) 
+* ***Licence d'essai***: Le fichier de licence doit être téléchargé à partir du courriel de confirmation de Devolutions et importé comme décrit dans les étapes ci-dessus pour {{ fr.DVLS }} 2023.3 et les versions ultérieures.
+* ***Licence achetée*** : La licence achetée doit être téléchargée depuis le compte [{{ fr.DPORTAL }}](portal.devolutions.com).
