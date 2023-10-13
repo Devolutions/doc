@@ -11,7 +11,7 @@ If you decide not to register by the end of the trial, your data will not be alt
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %} 
-The following steps apply to {{ en.RDM }} 2023.3 and higher.
+You'll need to import the license file for {{ en.RDM }} 2023.3 and higher if you do not have Internet access.
 {% endsnippet %}
 
 ## Steps 
