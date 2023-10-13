@@ -27,7 +27,3 @@ Les étapes suivantes s'appliquent à {{ fr.RDM }} 2023.3 et les versions ultér
 ![Champ Licence et bouton Importer](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6075_2023_3.png) 
 
 Votre période d'essai est maintenant commencée. 
-
-### Enregistrement hors ligne
-
-Si {{ en.RDM }} n'a pas d'accès à Internet, le fichier de licence doit être importé comme décrit dans les étapes ci-dessus pour procéder à l'enregistrement. Un message pour télécharger la licence depuis [{{ fr.DPORTAL }}](portal.devolutions.com) apparaîtra également dans {{ fr.RDM }}.

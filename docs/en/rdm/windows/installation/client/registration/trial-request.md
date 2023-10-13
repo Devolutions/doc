@@ -26,7 +26,3 @@ The following steps apply to {{ en.RDM }} 2023.3 and higher.
 ![License field and import](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6179_2023_3.png) 
 
 Your trial has now started. 
-
-### Offline registration
-
-Should {{ en.RDM }} not have Internet access, the license file must be imported as described in the steps above to register. A message to download the license from [{{ en.DPORTAL }}](portal.devolutions.com) will also appear in {{ en.RDM }}. 
