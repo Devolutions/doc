@@ -4,6 +4,12 @@ eleventyComputed:
   order: 10
   description: The Check-out feature allows users to request temporary access to a privileged account entry in a PAM {{ en.VLT }}. The approver must then approve or deny the request.
 ---
+{% snippet icon.badgeInfo %}
+The following topic focuses on making a check-out request from the {{ en.DHUBB }} web interface. Note that this functionality is also available in {{ en.RDM }} with {{ en.DHUBB }}, either by accessing the privileged account entry in the PAM {{ en.VLT }}, or by connecting to a linked remote session.  
+
+You can also access the privileged account in the {{ en.DHUBB }} web interface even if you make the request in {{ en.RDM }}.
+{% endsnippet %}  
+
 {% snippet icon.badgeHelp %}
 To learn how to approve or deny a request, visit [Approve access to a privileged account](/hub/privileged-access-management/privileged-accounts/approve-access-privileged-account/).
 {% endsnippet %}  
@@ -20,7 +26,12 @@ Follow the steps below to learn how to make a check-out request:
 
 1. In the ***{{ en.VLT }}*** tab, select the PAM {{ en.VLT }} using the selector.
 1. Select the privileged account entry you want to access, then click on ***Check Out***.
-![Privileged account check-out](https://webdevolutions.azureedge.net/docs/en/hub/Hub2307.png)
+
+   {% snippet icon.badgeInfo %}
+   Using the buttons to copy and view the password also opens the same ***Check-out request*** window.
+   {% endsnippet %}  
+
+   ![Privileged account check-out](https://webdevolutions.azureedge.net/docs/en/hub/Hub2319.png)
 1. In the ***Check-out request*** window, select the approver you want to send your request to using the drop-down list. You can also use the filter bar to refine your research.
 ![Send request to](https://webdevolutions.azureedge.net/docs/en/hub/Hub2304.png)
 1. Select the ***Access duration*** in the drop-down menu.
@@ -37,8 +48,8 @@ If your request is approved, your email will have a button at the bottom that wi
 ![Confirmation email](https://webdevolutions.azureedge.net/docs/en/hub/Hub2306.png)
 Once you are on the entry in the PAM {{ en.VLT }}, you will see at the top that your check-out request has been approved and that the entry is already checked out by you. A check mark validates that your request was approved. Next to the check mark is the ***Time remaining*** on your request. There is also a ***View Details*** option which is described in the next section.  
 
-You can now perform your task with this privileged account.
-![Approved check-out request](https://webdevolutions.azureedge.net/docs/en/hub/Hub2308.png)
+Now that you can copy and view the password of this privileged account using the corresponding icons, you can perform your tasks.
+![Approved check-out request](https://webdevolutions.azureedge.net/docs/en/hub/Hub2318.png)
 
 ## View details and check in the privileged account entry
 

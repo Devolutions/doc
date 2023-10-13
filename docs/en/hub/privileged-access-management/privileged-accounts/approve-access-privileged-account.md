@@ -20,7 +20,7 @@ When a user sends you a check-out request, you will be automatically notified by
 
 Once you are on the entry, you will see a ***Check-out request*** section near the top. Clicking on ***View Details*** opens the ***Check-out request*** window, which is described in the next section.
 
-![Check-out request from the entry](https://webdevolutions.azureedge.net/docs/en/hub/Hub2312.png)
+![Check-out request from the entry](https://webdevolutions.azureedge.net/docs/en/hub/Hub2320.png)
 
 Note that you can also see all pending check-out requests from a selected {{ en.VLT }} in the ***Check-out requests*** box of the ***Dashboard***.
 
