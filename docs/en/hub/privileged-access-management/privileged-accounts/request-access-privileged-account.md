@@ -48,6 +48,6 @@ In the top section, you can view the ***Requested duration*** and the ***Time re
 
 Further down is your message and the approver's message.
 
-Finally, you can check in your privileged account entry by clicking on ***Check In*** or by using the same button you used to check it out. When you check in the entry, the privileged account password resets and the old password is rendered useless. Be sure you want to do this first, since in order to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the approver.
+Finally, you can check in your privileged account entry by clicking on ***Check In*** or by using the same button you used to check it out. When you check in the entry, the privileged account password automatically resets and the old password is rendered useless. Be sure you want to do this first, since in order to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the approver.
 
 ![Check-out request details and check-in](https://webdevolutions.azureedge.net/docs/en/hub/Hub2309.png)
