@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Domain validation troubleshooting
-  description: When configuring single sign-on (SSO) in your {{ en.DHUBB }}, the first step is to ***Verify your domain***. If you encounter issues while attempting to validate your domain, check the following elements.
+  description: When configuring single sign-on (SSO) in your {{ en.DHUBB }}, the first step is to Verify your domain. If you encounter issues while attempting to validate your domain, check the following elements.
 ---
 When configuring single sign-on (SSO) in your {{ en.DHUBB }}, the first step is to ***Verify your domain***. If you encounter issues while attempting to validate your domain, check the following elements.
 
@@ -17,17 +17,19 @@ Tip: If your domain ends in **.loc**, it is likely not the correct one for this 
 
 Ensure that you have entered the "_devolutions-challenge" subdomain as a TXT Record in your DNS provider. To confirm that it is correctly configured, you can use a DNS querying tool such as [MXToolBox](https://mxtoolbox.com/txtlookup.aspx) and input the domain as "_devolutions-challenge.windjammer.co", for example.
 
+![DNS TXT Record in MXToolBox](https://webdevolutions.azureedge.net/docs/en/kb/KB2316.png)
+
 ## Verify your challenge
 
 Ensure that the challenge used in the domain contains the right string and starts with "DEVOLUTIONS-DOMAIN-VERIFICATION=".
 
-![DNS TXT Record in MXToolBox](https://webdevolutions.azureedge.net/docs/en/hub/Hub2236.png)
+![DNS TXT Record in MXToolBox](https://webdevolutions.azureedge.net/docs/en/kb/KB2317.png)
 
 ## Retry domain verification
 
-48 hours after the initial setup, the lookup stops if it is still not validated. You can then retry the domain validation process in {{ en.DHUBB }}. To do so, go to ***Administration – Authentication – Domain*** and click ******.
+48 hours after the initial setup, the lookup stops if it is still not validated. You can then retry the domain validation process in {{ en.DHUBB }}. To do so, go to ***Administration – Authentication – Domain*** and click ***Retry domain validation***.
 
-![Retry domain verification]()
+![Retry domain verification](https://webdevolutions.azureedge.net/docs/en/kb/KB2318.png)
 
 ## Contact our Support team
 
