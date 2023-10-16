@@ -12,37 +12,49 @@ Here are the steps to configure Okta with {{ en.DHUBB }} for SSO authentication.
 An [Okta account](https://www.okta.com/) with the appropriate rights is required. 
 {% endsnippet %}
 
-## Single Sign-On (SSO) configuration
+## Domain verification
 
 **In {{ en.DHUBB }}**  
 
-1. Go to ***Administration – Authentication – Single Sign-On (SSO)***, then click on ***Okta Single Sign-On (SSO)***. You will be directed to the configuration page.  
-![Administration – Authentication – Single Sign-On (SSO) – Okta Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2232.png)  
+1. Go to ***Administration – Authentication – Domain***, then click on ***Verify domain***.  
+![Administration – Authentication – Domain – Verify domain](https://webdevolutions.azureedge.net/docs/en/hub/Hub2322.png)  
 
-1. Fill in your ***Domain***, then click ***Continue***.
-![Domain](https://webdevolutions.azureedge.net/docs/en/hub/Hub2234.png)  
+1. Fill in your ***Domain***, then click on ***Verify domain*** again.  
+![Domain](https://webdevolutions.azureedge.net/docs/en/hub/Hub2323.png)  
 
    {% snippet icon.shieldInfo %} 
    For security purposes, only emails that end with your domain name will be allowed to log in to {{ en.DHUB }} using Okta authentication. For example, if your employees' emails are in the format "bob@windjammer.co", your domain is "windjammer.co".
    {% endsnippet %}
 
 1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Hostname*** and ***TXT value***. This allows us to verify the ownership of the domain supplied.  
-![Hostname and TXT value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2235.png)  
+![Hostname and TXT value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2324.png)  
 
-   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's SuperTool TXT Lookup. The first part of the Domain Name must match the ***Hostname*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.  
+   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's TXT Lookup tool. The first part of the Domain Name must match the ***Hostname*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.  
    {% snippet icon.badgeCaution %} 
    DNS TXT Records can take a while to propagate.
    {% endsnippet %}
 
    ![DNS TXT Record in MXToolBox](https://webdevolutions.azureedge.net/docs/en/hub/Hub2236.png)  
 
+1. If everything matches up, click ***Done***.  
+![Done](https://webdevolutions.azureedge.net/docs/en/hub/Hub2326.png)  
+
+1. Wait for the verification status to change from ***Pending*** to ***Verified***.  
+![Verified domain verification](https://webdevolutions.azureedge.net/docs/en/hub/Hub2329.png)
+
    {% snippet icon.badgeCaution %} 
-   This validation lasts for 48 hours and does not restart automatically after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired***. If that happens, you can click on ***Retry***.
+   This validation lasts for 48 hours and does not restart automatically after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired***. If that happens, you can click on ***Retry***.  
+
+   If you experience any issues while trying to verify your domain, visit our [Domain validation troubleshooting](/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/) guide.
    {% endsnippet %}  
 
-1. If everything matches up, click ***Verify domain***.
+## Single Sign-On (SSO) configuration
+
+1. Once the domain is verified, go to ***Administration – Authentication – Single Sign-On (SSO)***, then click on ***Okta Single Sign-On (SSO)***. You will be directed to the configuration page.  
+![Administration – Authentication – Single Sign-On (SSO) – Okta Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2333.png)  
+
 1. ***Name*** your SSO configuration. This name will only appear in your {{ en.DHUB }} SSO settings menu. The default name is "Okta".  
-![Configuration name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2248.png)
+![Configuration name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2334.png)
 
    {% snippet icon.badgeCaution %} 
    Do not close this setup page, as the following steps will show you where to find the information to enter in its fields. 
@@ -50,7 +62,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 
 **In Okta**  
 
-6. Log in to your Okta account.
+3. Log in to your Okta account.
 1. In ***Applications***, click ***Create App Integration***.  
 ![Applications – Create App Integration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2238.png)  
 1. For the ***Sign-in method***, select ***OIDC - OpenID Connect***.
@@ -65,27 +77,27 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
    The app name does not need to match the one in {{ en.DHUB }}. We recommend including either "Devolutions" or "Hub" in the name. 
    {% endsnippet %}
 
-12. In ***Grant type***, check ***Refresh Token*** and ***Implicit (hybrid)***.
+1. In ***Grant type***, check ***Refresh Token*** and ***Implicit (hybrid)***.
 ![Grant type](https://webdevolutions.azureedge.net/docs/en/hub/Hub2250.png)  
 
 **In {{ en.DHUBB }}**  
 
-13. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Callback URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-![Copy the Callback URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2246.png)  
+10. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Callback URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
+![Copy the Callback URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2336.png)  
 
 **In Okta**  
 
-14. Back in Okta, paste the ***Callback URL*** in the ***Sign-in redirect URIs*** field.  
+11. Back in Okta, paste the ***Callback URL*** in the ***Sign-in redirect URIs*** field.  
 ![Sign-in redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2251.png)  
 
 **In {{ en.DHUBB }}**  
 
-15. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Logout redirect URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-![Copy the Logout redirect URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2247.png)  
+12. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Logout redirect URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
+![Copy the Logout redirect URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2335.png)  
 
 **In Okta**  
 
-16. Back in Okta, paste the ***Logout redirect URL*** in the ***Sign-out redirect URIs*** field.  
+13. Back in Okta, paste the ***Logout redirect URL*** in the ***Sign-out redirect URIs*** field.  
 ![Sign-out redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2252.png)  
 
 1. Under ***Assignments***, select the ***Controlled access*** option that best suits your needs. This choice is left to your discretion.  
@@ -96,18 +108,18 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 
    ![Assignments](https://webdevolutions.azureedge.net/docs/en/hub/Hub2253.png)  
 
-18. Click ***Save***. You will be redirected to your new SSO application.
+1. Click ***Save***. You will be redirected to your new SSO application.
 1. Copy the ***Client ID*** by clicking on the ***Copy to clipboard*** icon next to it.  
 ![Copy the Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2254.png)  
 
 **In {{ en.DHUBB }}**  
 
-20. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client ID*** from the last step in the field of the same name.  
-![Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2255.png)  
+17. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client ID*** from the last step in the field of the same name.  
+![Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2337.png)  
 
 **In Okta**  
 
-21. Back in Okta, copy the ***Client secret*** by clicking on the ***Copy to clipboard*** icon next to it.  
+18. Back in Okta, copy the ***Client secret*** by clicking on the ***Copy to clipboard*** icon next to it.  
 ![Copy the Client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2256.png)  
 
    {% snippet icon.badgeCaution %} 
@@ -116,19 +128,19 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 
 **In {{ en.DHUBB }}**  
 
-22. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client secret*** from the last step in the ***Client secret Key*** field.  
-![Client secret Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub2257.png)  
+19. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client secret*** from the last step in the ***Client secret Key*** field.  
+![Client secret Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub2338.png)  
 1. In ***Discovery URL***, enter the URL you use to access Okta, without the "-admin" part.  
 
    {% snippet icon.badgeCaution %} 
    Do not test the connection just yet, as a few additional steps are required in Okta.
    {% endsnippet %}  
 
-   ![Discovery URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2259.png)  
+   ![Discovery URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2339.png)  
 
 **In Okta**  
 
-24. Click ***Edit*** in the ***General Settings*** section.  
+21. Click ***Edit*** in the ***General Settings*** section.  
 ![Edit the General Settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2260.png)  
 1. Set the ***Refresh token behavior*** to ***Rotate token after every use***.  
 ![Rotate token after every use](https://webdevolutions.azureedge.net/docs/en/hub/Hub2261.png)  
@@ -138,25 +150,16 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 
 **In {{ en.DHUBB }}**  
 
-28. Test the configuration in {{ en.DHUB }}. A new window should open to connect you to {{ en.DHUB }} through Okta. You will get a success message when connected.
-   {% snippet icon.badgeCaution %} 
+25. Test the configuration in {{ en.DHUB }}. A new window should open to connect you to {{ en.DHUB }} through Okta. You will get a success message when connected.  
+   {% snippet icon.badgeCaution %}
    If the popup does not appear, your browser or browser extension may be blocking it. You will need to change your browser and/or extension settings. If this still does not work, deactivating/removing the extension or changing your browser may also solve the problem.
    {% endsnippet %}  
 
-29. Click ***Save*** in the ***Summary*** of your Okta SSO configuration.
-![Save the configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2264.png)  
+26. Click ***Save*** in the ***Summary*** of your Okta SSO configuration.
+![Save the configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2340.png)  
 
-The hourglass icon means that the ***Domain Verification Status*** is ***Pending***. You will not be able to connect through Okta until the domain ownership is ***Verified***.  
-![Pending domain verification](https://webdevolutions.azureedge.net/docs/en/hub/Hub2265.png)  
-
-Domain verification might take up to 24 hours depending on your domain host. You can still save your SSO configuration and the domain verification will continue in the background. SSO will be activated upon successful domain verification.  
-
-{% snippet icon.badgeHelp %}
-If it takes longer than 24 hours, or if you need any help, contact our support team at [service@devolutions.net](mailto:service@devolutions.net).  
-{% endsnippet %}
-
-When the domain verification is done, the SSO configuration will get a green checkmark icon next to it. This means that your SSO configuration through Okta is now enabled on your hub.  
-![Active SSO configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2266.png)
+You should now see that the SSO configuration has a green checkmark icon next to it. This means that your SSO configuration through Okta is now enabled on your hub.  
+![Active SSO configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2341.png)
 
 ## Provisioning configuration
 

@@ -3,7 +3,7 @@ eleventyComputed:
   title: Domain validation troubleshooting
   description: When configuring single sign-on (SSO) in your {{ en.DHUBB }}, the first step is to Verify your domain. If you encounter issues while attempting to validate your domain, check the following elements.
 ---
-When configuring single sign-on (SSO) in your {{ en.DHUBB }}, the first step is to ***Verify your domain***. If you encounter issues while attempting to validate your domain, check the following elements.
+When [configuring single sign-on (SSO)](/hub/getting-started/get-started-sso-hub-business/) in your {{ en.DHUBB }}, the first step is to ***Verify your domain***. If you encounter issues while attempting to validate your domain, check the following elements.
 
 ## Verify your domain
 

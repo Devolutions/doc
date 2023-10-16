@@ -9,4 +9,4 @@ You can configure your {{ en.DHUBB }} users to log in using Single Sign-on (SSO)
 1. Configure SSO authentication with:  
     * [Microsoft Azure](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-microsoft-azure/)  
     * [Okta](/hub/getting-started/get-started-sso-hub-business/configure-sso-authentication-okta/)  
-1. [Invite Users for SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) 
+1. [Invite users for SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/) 

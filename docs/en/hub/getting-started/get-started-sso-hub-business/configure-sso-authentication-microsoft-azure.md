@@ -14,30 +14,43 @@ Here are the steps to configure Azure with {{ en.DHUBB }} for SSO authentication
 An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights is required. 
 {% endsnippet %}
  
-## Single Sign-On (SSO) configuration
+## Domain verification
 
 **In {{ en.DHUBB }}**  
 
-1. Go to ***Administration – Authentication – Single Sign-On (SSO)***, then click on ***Microsoft Single Sign-On (SSO)***. You will be directed to the configuration page.  
-![Administration – Authentication – Single Sign-On (SSO) – Microsoft Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2218.png)  
+1. Go to ***Administration – Authentication – Domain***, then click on ***Verify domain***.  
+![Administration – Authentication – Domain – Verify domain](https://webdevolutions.azureedge.net/docs/en/hub/Hub2322.png)  
 
-1. Fill in your ***Domain***, then click ***Continue***.
-![Domain](https://webdevolutions.azureedge.net/docs/en/hub/Hub2283.png)  
+1. Fill in your ***Domain***, then click on ***Verify domain*** again.  
+![Domain](https://webdevolutions.azureedge.net/docs/en/hub/Hub2323.png)  
+
 1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Hostname*** and ***TXT value***. This allows us to verify the ownership of the domain supplied.  
-![Hostname and TXT value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2284.png)  
+![Hostname and TXT value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2324.png)  
 
-   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's SuperTool TXT Lookup. The first part of the Domain Name must match the ***Hostname*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.  
+   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's TXT Lookup tool. The first part of the Domain Name must match the ***Hostname*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.  
    {% snippet icon.badgeCaution %} 
    DNS TXT Records can take a while to propagate.
    {% endsnippet %}
 
    ![DNS TXT Record in MXToolBox](https://webdevolutions.azureedge.net/docs/en/hub/Hub2236.png)  
 
+1. If everything matches up, click ***Done***.  
+![Done](https://webdevolutions.azureedge.net/docs/en/hub/Hub2326.png)  
+
+1. Wait for the verification status to change from ***Pending*** to ***Verified***.  
+![Verified domain verification](https://webdevolutions.azureedge.net/docs/en/hub/Hub2329.png)
+
    {% snippet icon.badgeCaution %} 
-   This validation lasts for 48 hours and does not restart automatically after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired***. If that happens, you can click on ***Retry***.
+   This validation lasts for 48 hours and does not restart automatically after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired***. If that happens, you can click on ***Retry***.  
+
+   If you experience any issues while trying to verify your domain, visit our [Domain validation troubleshooting](/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/) guide.
    {% endsnippet %}  
 
-1. If everything matches up, click ***Verify domain***.
+## Single Sign-On (SSO) configuration
+
+1. Once the domain is verified, go to ***Administration – Authentication – Single Sign-On (SSO)***, then click on ***Microsoft Single Sign-On (SSO)***. You will be directed to the configuration page.  
+![Administration – Authentication – Single Sign-On (SSO) – Microsoft Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2330.png)  
+
 1. ***Name*** your SSO configuration. This name will only appear in your {{ en.DHUB }} SSO settings menu. The default name is "Microsoft".  
 ![Configuration Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2219.png)  
 
@@ -45,24 +58,24 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 Do not close this setup page, as the following steps will show you where to find the information to enter in its fields. 
 {% endsnippet %}
  
-**In Azure AD Portal**
+**In the Azure Portal**
 
-3. In a new web browser page, open your [Microsoft Azure AD Portal](https://azure.microsoft.com/) and sign in to your account. 
-1. Select ***Azure Active Directory*** in the ***Azure services*** section. If you do not see it, click on ***More services*** to make other services appear.  
-![Azure Active Directory Service](https://webdevolutions.azureedge.net/docs/en/hub/Hub4073.png)  
+3. In a new web browser page, open your [Microsoft Azure Portal](https://azure.microsoft.com/) and sign in to your account. 
+1. Select ***Microsoft Entra ID*** ([formerly Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/new-name)) in the ***Azure services*** section. If you do not see it, click on ***More services*** to make other services appear.  
+![Microsoft Entra ID Service](https://webdevolutions.azureedge.net/docs/en/hub/Hub2331.png)  
 1. In ***Overview***, click ***Add***, then select ***Enterprise application***.  
 ![Add an Enterprise application](https://webdevolutions.azureedge.net/docs/en/hub/Hub4165.png)  
 1. Click on ***Create your own application***.  
 ![Create your own application](https://webdevolutions.azureedge.net/docs/en/hub/Hub2138.png)  
 1. Enter the name of this new application, then click on ***Create***.  
 
-{% snippet icon.badgeNotice %} 
-We recommend including either "Devolutions" or "Hub" in the name. 
-{% endsnippet %}
- 
-![Application Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2139.png)  
+   {% snippet icon.badgeNotice %} 
+   We recommend including either "Devolutions" or "Hub" in the name. 
+   {% endsnippet %}  
 
-8. In the ***Properties***, set the ***Assignment required?*** setting as needed. To learn more about this setting, hover over the information icon next to it with your cursor.  
+   ![Application Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2139.png)  
+
+1. In the ***Properties***, set the ***Assignment required?*** setting as needed. To learn more about this setting, hover over the information icon next to it with your cursor.  
 ![Properties – Assignment required](https://webdevolutions.azureedge.net/docs/en/hub/Hub2140.png)  
 1. Save your changes if applicable using the ***Save*** button at the top. 
 1. Staying in ***Properties***, click on ***application registration*** in the text at the top.  
@@ -77,23 +90,24 @@ We recommend including either "Devolutions" or "Hub" in the name.
 13. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Callback URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
 ![Copy the Callback URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2220.png)  
 
-**In Azure AD Portal** 
+**In the Azure Portal**
 
-14. Back in Azure, paste the ***Callback URL*** in the ***Redirect URIs*** field, then click ***Configure*** at the bottom.  
+14. Back in the Azure Portal, paste the ***Callback URL*** in the ***Redirect URIs*** field, then click ***Configure*** at the bottom.  
 ![Redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2145.png)  
 1. Select ***Token configuration*** in the left side menu, then click on ***Add optional claim***.  
 ![Token configuration – Add optional claim](https://webdevolutions.azureedge.net/docs/en/hub/Hub2147.png)  
 1. Under ***Token type***, select ***ID***. Then, in the list, select the following claims:  
 
-  * ***email***
-  * ***family_name***
-  * ***given_name***
-  * ***upn***
-  * ***xms_pl***
-  * ***xms_tpl***  
-![Add optional claim](https://webdevolutions.azureedge.net/docs/en/hub/Hub2148.png)  
+   * ***email***
+   * ***family_name***
+   * ***given_name***
+   * ***upn***
+   * ***xms_pl***
+   * ***xms_tpl***  
 
-17. Click ***Add***. 
+   ![Add optional claim](https://webdevolutions.azureedge.net/docs/en/hub/Hub2148.png)  
+
+1. Click ***Add***. 
 1. When prompted, enable ***Turn on the Microsoft Graph email***, then click ***Add***.  
 ![Turn on the Microsoft Graph email](https://webdevolutions.azureedge.net/docs/en/hub/Hub2149.png)  
 1. Select ***Overview*** in the left side menu, then copy the ***Application (client) ID*** by clicking on the ***Copy to clipboard*** icon next to it.  
@@ -104,18 +118,18 @@ We recommend including either "Devolutions" or "Hub" in the name.
 20. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Application (client) ID*** from the last step in the ***Client ID*** field.  
 ![Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2221.png)  
 
-**In Azure AD Portal**  
+**In the Azure Portal**
 
-21. Back in Azure, select ***Certificates & secrets*** in the left side menu, then, in the ***Client secrets*** tab, click on ***New client secret***.  
+21. Back in the Azure Portal, select ***Certificates & secrets*** in the left side menu, then, in the ***Client secrets*** tab, click on ***New client secret***.  
 ![Certificates & secrets – Client secrets – New client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2151.png)  
 1. In the ***Add a client secret*** window, enter a ***Description*** (for example, the name of your Enterprise app) and select an expiration date for this client secret, as per your best internal security practices. 
-{% snippet icon.badgeCaution %} 
-Note that when the client secret expires, no one will be able to connect to the associated hub. You will then need to create a new client secret. We recommend that you set yourself a task reminder before the expiration date. 
-{% endsnippet %}
- 
-![Add a client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2152.png)  
+   {% snippet icon.badgeCaution %} 
+   Note that when the client secret expires, no one will be able to connect to the associated hub. You will then need to create a new client secret. We recommend that you set yourself a task reminder before the expiration date. 
+   {% endsnippet %}  
 
-23. Click ***Add***. 
+   ![Add a client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2152.png)  
+
+1. Click ***Add***. 
 1. Copy the ***Value*** of this new client secret by clicking on the ***Copy to clipboard*** icon next to it.  
 ![Copy the client secret value](https://webdevolutions.azureedge.net/docs/en/hub/Hub2153.png)  
 
@@ -124,9 +138,9 @@ Note that when the client secret expires, no one will be able to connect to the 
 25. Back on the ***Configure Single Sign-On (SSO)*** page, paste the client secret ***Value*** from the last step in the ***Client secret Key*** field.  
 ![Client secret Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub2222.png)  
 
-**In Azure AD Portal**  
+**In the Azure Portal**
 
-26. Back in Azure, select ***Overview*** in the left side menu, then click on the ***Endpoints*** tab.  
+26. Back in the Azure Portal, select ***Overview*** in the left side menu, then click on the ***Endpoints*** tab.  
 ![Overview – Endpoints](https://webdevolutions.azureedge.net/docs/en/hub/Hub2158.png)  
 1. In the ***Endpoints*** window, copy the ***OpenID Connect metadata document*** URL by clicking on the ***Copy to clipboard*** icon next to it.  
 ![Copy the OpenID Connect metadata document URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2160.png)  
@@ -143,7 +157,7 @@ Note that when the client secret expires, no one will be able to connect to the 
    {% endsnippet %}  
 
    ![Test Configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2224.png)  
-1. If the connection is successful, your account will connect with Azure AD and you will see a summary of your configuration.  
+1. If the connection is successful, your account will connect with Entra ID (formerly Azure AD) and you will see a summary of your configuration.  
 
 1. In the ***Summary*** of your configuration, click ***Save***.  
 ![Save your configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2225.png)  
@@ -155,12 +169,12 @@ To synchronize your users and user groups from your providers to the hub, follow
 **In {{ en.DHUBB }}**  
 
 1. Go to ***Administration – Authentication – Provisioning*** and enable ***SCIM provisioning***.
-![Enable SCIM provisioning](https://webdevolutions.azureedge.net/docs/en/hub/Hub2226.png)  
+![Enable SCIM provisioning](https://webdevolutions.azureedge.net/docs/en/hub/Hub2332.png)  
 
 1. In the ***Provisioning synchronization setup***, copy the ***Tenant URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
 ![Copy the Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2227.png)  
 
-**In Azure AD Portal**  
+**In the Azure Portal**
 
 3. In the management of your Enterprise app, go to ***Provisioning*** and click on ***Get started***.  
 ![Provisioning – Get started](https://webdevolutions.azureedge.net/docs/en/hub/Hub2163.png)  
@@ -172,7 +186,7 @@ To synchronize your users and user groups from your providers to the hub, follow
 5. Copy the ***Secret Token*** by clicking on the ***Copy to Clipboard*** icon next to it.  
 ![Copy the Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2228.png)  
 
-**In Azure AD Portal**  
+**In the Azure Portal**
 
 6. Paste the token from the previous step in the ***Secret Token*** field.  
 ![Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2164.png)  
@@ -204,7 +218,7 @@ You need to have an Azure Enterprise license to be able to synchronize user grou
 Nested groups are not supported, meaning that Azure provisioning will not synchronize the users member of the nested group. 
 {% endsnippet %}
  
-**In Azure AD Portal**  
+**In the Azure Portal**
 
 1. Select ***Users and groups*** in the left side menu, then click ***Add user/group***.  
 ![Users and groups – Add user/group](https://webdevolutions.azureedge.net/docs/en/hub/Hub2167.png)  
