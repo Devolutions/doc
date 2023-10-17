@@ -1,5 +1,6 @@
 ---
-title: Unsupported browser
+eleventyComputed:
+  title: Unsupported browser
 ---
 When trying to login into your {{ en.DA }} or an online data source in {{ en.RDM }}, you get the error message: Browser unsupported
 ## Solution 1

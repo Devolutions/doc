@@ -1,5 +1,6 @@
 ---
-title: Play List actions
+eleventyComputed:
+  title: Play List actions
 ---
 {% youtube 'VTGPUMl5zKY' %}  
 

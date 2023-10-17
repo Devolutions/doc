@@ -1,5 +1,6 @@
 ---
-title: Audit
+eleventyComputed:
+  title: Audit
 ---
 La section ***Audit*** permet à tous les utilisateurs d'utiliser les outils ***Analyseur de sécurité d'entrées*** et ***Analyseur de mots de passe***. Pour accéder aux outils ***Permissions des utilisateurs***, ***Permissions du {{ fr.VLT }}*** et ***Santé du {{ fr.VLT }}***, des droits administrateur seront nécessaires.  
 

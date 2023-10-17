@@ -1,6 +1,7 @@
 ---
-title: Checkout Process
-description: This topic will cover both the PAM checkout process and the PAM checkout using a custom time frame.
+eleventyComputed:
+  title: Checkout Process
+  description: This topic will cover both the PAM checkout process and the PAM checkout using a custom time frame.
 ---
 {% snippet icon.badgeNotice %} 
 A license is required to enable the Privileged Access Management (PAM) module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license. 

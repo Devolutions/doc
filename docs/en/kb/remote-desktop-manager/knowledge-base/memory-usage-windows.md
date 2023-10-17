@@ -1,5 +1,6 @@
 ---
-title: Memory usage – Windows
+eleventyComputed:
+  title: Memory usage – Windows
 ---
 {{ en.RDM }} is built using the .NET Framework, as such it presents the memory usage patterns typical of that framework.
 

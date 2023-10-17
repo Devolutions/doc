@@ -1,5 +1,6 @@
 ---
-title: Recherche avancée
+eleventyComputed:
+  title: Recherche avancée
 ---
 La fonction de ***Recherche avancée*** vous permet de rechercher des entrées et des dossiers en fonction de plusieurs critères dans un {{ fr.VLT }} à la fois. Pour effectuer des recherches dans plusieurs {{ fr.VLT }}s simultanément, veuillez vous référer à [***Recherche multi-{{ fr.VLT }}s***](/fr/rdm/mac/commands/view/multi-vault-search/).  
 ![Recherche avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0025.png) 

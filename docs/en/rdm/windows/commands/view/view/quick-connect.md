@@ -1,5 +1,6 @@
 ---
-title: Quick Connect
+eleventyComputed:
+  title: Quick Connect
 ---
 ***Quick Connect*** allows you to open an ad-hoc session by specifying the host and session type. This feature is accessible via the ***Quick Connect*** toolbar or in the ***View*** section of the ***View*** tab in {{ en.RDM }}.  
 ![Quick Connect Toolbar & Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2022.png) 

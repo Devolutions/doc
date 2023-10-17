@@ -1,5 +1,6 @@
 ---
-title: View
+eleventyComputed:
+  title: View
 ---
 The ***View*** tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDM }}.  
 ![View](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10768.png) 

@@ -1,5 +1,6 @@
 ---
-title: Fehlerbericht senden
+eleventyComputed:
+  title: Fehlerbericht senden
 ---
 Wenn ein Anwendungsfehler im {{ de.RDM }} auftritt, wird ein Fehlerbericht erstellt. Sie können diesen Fehlerbericht an unser Support-Team senden, um dabei zu helfen, das Problem leichter zu reproduzieren.  
 {% snippet icon.badgeNotice %}

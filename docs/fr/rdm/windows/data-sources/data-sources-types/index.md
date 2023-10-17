@@ -1,6 +1,7 @@
 ---
-title: Type de source de données
-order: 20
+eleventyComputed:
+  title: Type de source de données
+  order: 20
 ---
 {% youtube 'ji4G8Ti7lls' %}  
 

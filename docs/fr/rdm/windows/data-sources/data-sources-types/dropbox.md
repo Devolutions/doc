@@ -1,5 +1,6 @@
 ---
-title: DropBox
+eleventyComputed:
+  title: DropBox
 ---
 <table>
 	<tr>

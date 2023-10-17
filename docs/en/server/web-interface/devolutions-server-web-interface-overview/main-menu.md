@@ -1,5 +1,6 @@
 ---
-title: Main menu
+eleventyComputed:
+  title: Main menu
 ---
 The left side ***Menu*** allow the user to navigate through the different sections of {{ en.DVLS }}.  
 

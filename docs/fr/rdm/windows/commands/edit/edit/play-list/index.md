@@ -1,3 +1,4 @@
 ---
-title: Liste d'exécution
+eleventyComputed:
+  title: Liste d'exécution
 ---

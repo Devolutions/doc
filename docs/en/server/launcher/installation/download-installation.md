@@ -1,6 +1,7 @@
 ---
-title: Download and installation
-order: 20
+eleventyComputed:
+  title: Download and installation
+  order: 20
 ---
 Follow these steps to download and install {{ en.DLAUNCHER }}:  
 

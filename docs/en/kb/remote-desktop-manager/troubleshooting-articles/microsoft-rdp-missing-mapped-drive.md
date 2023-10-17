@@ -1,5 +1,6 @@
 ---
-title: Microsoft RDP missing mapped drives
+eleventyComputed:
+  title: Microsoft RDP missing mapped drives
 ---
 Mapped network drives are not available in RDP sessions even though you have selected All drives; or are not displayed in the dialog when attempting to add Specific Drives using the More button.  
 

@@ -1,6 +1,7 @@
 ---
-title: Gestion de version
-status: Topic available in German language
+eleventyComputed:
+  title: Gestion de version
+  status: Topic available in German language
 ---
 Vous pouvez gérer vos versions de R{{ fr.RDM }} pour Windows, {{ fr.MAC }} ou Linux.  
 

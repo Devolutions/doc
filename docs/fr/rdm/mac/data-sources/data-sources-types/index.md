@@ -1,6 +1,7 @@
 ---
-title: Type de source de données
-order: 20
+eleventyComputed:
+  title: Type de source de données
+  order: 20
 ---
 {{ fr.RDMMAC }} prend en charge plusieurs types de sources de données. Décidez d'abord de la source de données que vous utiliserez. 
 

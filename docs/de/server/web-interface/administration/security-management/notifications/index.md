@@ -1,4 +1,5 @@
 ---
-title: Benachrichtigungen
-order: 40
+eleventyComputed:
+  title: Benachrichtigungen
+  order: 40
 ---

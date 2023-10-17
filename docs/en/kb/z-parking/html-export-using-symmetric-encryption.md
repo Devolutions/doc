@@ -1,5 +1,6 @@
 ---
-title: HTML Export Using Symmetric Encryption
+eleventyComputed:
+  title: HTML Export Using Symmetric Encryption
 ---
 As we all know, email is not secure. But it’s convenient, fast and free – and so many of us ignore the security risks.  
 

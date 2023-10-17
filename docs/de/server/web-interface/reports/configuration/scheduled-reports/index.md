@@ -1,4 +1,5 @@
 ---
-title: Geplante Berichte
-order: 10
+eleventyComputed:
+  title: Geplante Berichte
+  order: 10
 ---

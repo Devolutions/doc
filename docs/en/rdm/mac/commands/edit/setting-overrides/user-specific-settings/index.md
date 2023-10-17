@@ -1,5 +1,6 @@
 ---
-title: User Specific Settings
+eleventyComputed:
+  title: User Specific Settings
 ---
 Allows session setting override for a user. Several settings can be overridden, such as user name, password or display.  
 

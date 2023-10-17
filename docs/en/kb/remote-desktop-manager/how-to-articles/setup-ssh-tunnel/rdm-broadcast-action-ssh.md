@@ -1,5 +1,6 @@
 ---
-title: Broadcast actions in SSH sessions
+eleventyComputed:
+  title: Broadcast actions in SSH sessions
 ---
 {% youtube '9FrSyzRvw30' %}  
 

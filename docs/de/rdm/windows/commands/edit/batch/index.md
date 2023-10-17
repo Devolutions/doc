@@ -1,3 +1,4 @@
 ---
-title: Stapelverarbeitung
+eleventyComputed:
+  title: Stapelverarbeitung
 ---

@@ -1,4 +1,5 @@
 ---
-title: Systemeinstellungen
-order: 10
+eleventyComputed:
+  title: Systemeinstellungen
+  order: 10
 ---

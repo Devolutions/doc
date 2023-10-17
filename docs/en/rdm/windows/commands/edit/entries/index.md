@@ -1,3 +1,4 @@
 ---
-title: Entries
+eleventyComputed:
+  title: Entries
 ---

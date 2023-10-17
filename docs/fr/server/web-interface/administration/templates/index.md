@@ -1,4 +1,5 @@
 ---
-title: Modèles
-order: 40
+eleventyComputed:
+  title: Modèles
+  order: 40
 ---

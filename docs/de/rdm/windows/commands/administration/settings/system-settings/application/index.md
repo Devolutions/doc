@@ -1,3 +1,4 @@
 ---
-title: Anwendung
+eleventyComputed:
+  title: Anwendung
 ---

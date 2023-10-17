@@ -1,5 +1,6 @@
 ---
-title: User Interface Style
+eleventyComputed:
+  title: User Interface Style
 ---
 {{ en.RDMMAC }} supports different User Interface Styles (sometimes known as skins). These greatly influence the visual aspect of the User Interface as well as its mode of operation. Two styles currently exist:  
 

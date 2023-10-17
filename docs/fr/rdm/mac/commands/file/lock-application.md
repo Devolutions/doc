@@ -1,5 +1,6 @@
 ---
-title: Verrouiller l'application
+eleventyComputed:
+  title: Verrouiller l'application
 ---
 Le bouton ***Verrouiller l'application*** vous permet de verrouiller l'application pour des raisons de sécurité lorsque vous n'êtes pas devant votre ordinateur. 
 

@@ -1,5 +1,6 @@
 ---
-title: Gestionnaire de listes d'exécution
+eleventyComputed:
+  title: Gestionnaire de listes d'exécution
 ---
 ### Utilisation d'une liste d'exécution 
 

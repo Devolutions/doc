@@ -1,5 +1,6 @@
 ---
-title: Connexion d'identifiant dynamique
+eleventyComputed:
+  title: Connexion d'identifiant dynamique
 ---
 La connexion dynamique des identifiants crée une entrée d'identifiant unique pour un gestionnaire d'identifiant et utilise ces identifiants avec tout type d'entrée prenant en charge le référentiel d'identifiant. 
 

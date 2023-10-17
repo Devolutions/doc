@@ -1,10 +1,11 @@
 ---
-title: Authentification à deux facteurs
-keywords:
-- 2 facteur
-- 2FA
-- authentification
-- MFA
+eleventyComputed:
+  title: Authentification à deux facteurs
+  keywords:
+  - 2 facteur
+  - 2FA
+  - authentification
+  - MFA
 ---
 Ajouter un niveau de sécurité à votre {{ fr.DA }} en configurant un mode d'authentification à deux facteurs (2FA). 
 

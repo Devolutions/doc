@@ -1,5 +1,6 @@
 ---
-title: Go Offline/Online
+eleventyComputed:
+  title: Go Offline/Online
 ---
 Toggle the data source [Offline Mode](/rdm/windows/data-sources/offline-mode/).  
 

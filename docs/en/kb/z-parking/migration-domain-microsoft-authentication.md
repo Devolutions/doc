@@ -1,5 +1,6 @@
 ---
-title: Migration from Domain Authentication to Microsoft Authentication
+eleventyComputed:
+  title: Migration from Domain Authentication to Microsoft Authentication
 ---
 {% snippet icon.badgeCaution %}
 We strongly recommend to be careful with this migration as it affects all user accounts authentication method. To avoid any problems, our recommendation would be to test it in a staging environment.

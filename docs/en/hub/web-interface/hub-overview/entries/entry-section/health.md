@@ -1,5 +1,6 @@
 ---
-title: Health
+eleventyComputed:
+  title: Health
 ---
 In the ***Health*** section, view and troubleshoot issues with the entry.  
 

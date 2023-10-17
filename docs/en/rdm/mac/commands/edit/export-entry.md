@@ -1,5 +1,6 @@
 ---
-title: Export Entry
+eleventyComputed:
+  title: Export Entry
 ---
 Use the Export options to export selected entries from {{ en.RDMMAC }}. 
 

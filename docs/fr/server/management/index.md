@@ -1,4 +1,5 @@
 ---
-title: Gestion
-order: 30
+eleventyComputed:
+  title: Gestion
+  order: 30
 ---

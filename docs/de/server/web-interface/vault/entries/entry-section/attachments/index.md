@@ -1,4 +1,5 @@
 ---
-title: Anhänge
-order: 20
+eleventyComputed:
+  title: Anhänge
+  order: 20
 ---

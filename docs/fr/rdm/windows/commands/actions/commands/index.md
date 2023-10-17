@@ -1,3 +1,4 @@
 ---
-title: Commande
+eleventyComputed:
+  title: Commande
 ---

@@ -1,5 +1,6 @@
 ---
-title: Journalisation
+eleventyComputed:
+  title: Journalisation
 ---
 La section ***Journalisation*** permet à l'administrateur de configurer les fonctionnalités de journalisation.  
 ![Administration - Paramètres de {{ fr.DVLS }} - Journalisation](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8040.png) 

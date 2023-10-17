@@ -1,5 +1,6 @@
 ---
-title: Journaux des applications
+eleventyComputed:
+  title: Journaux des applications
 ---
 En cas d'erreur, vous pouvez vérifier le journal d'application local, disponible dans le menu ***Aide - Journaux des applications***.  
 ![Aide - Journaux des applications](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4226.png) 

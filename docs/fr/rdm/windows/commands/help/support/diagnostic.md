@@ -1,5 +1,6 @@
 ---
-title: Diagnostic
+eleventyComputed:
+  title: Diagnostic
 ---
 Si vous rencontrez un problème avec {{ fr.RDM }}, vous pouvez exécuter un Diagnostic du système, disponible dans ***Aide – Diagnostic***. Cela pourrait aider à diagnostiquer ou à indiquer le type de problèmes que vous pourriez rencontrer. 
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: CSV Import strategies and file format
+  title: CSV import strategies and file format
   status: Topic available in German language
   description: When importing CSV files into {{ en.RDM }}, there are some decisions to be made about the strategies to use and the format of the content. 
 ---
@@ -12,7 +12,7 @@ The most important decision is about if and how to apply a template as part of t
 
 Both methods of importing from CSV allow you to choose a template for newly created entries. If you do choose a template as part of the process, it will be applied to all entries created from that batch. Sometimes, it may be a good strategy to split the entries in different CSV files by grouping them by entry types you wish to create.  
 
-If you need finer control, you can specify the template to use in a ***Template*** column of the CSV file but, since you are able to specify the entry type from within the CSV file, it may not be necessary.  
+If you want a more specific configuration, you can set the template to use in the ***Template*** column of the CSV file. However, since you can set the entry type for each entry individually in the CSV file (***ConnectionType***), this may not be necessary.  
 
 {% snippet icon.badgeNotice %} 
 In ***File – Import***, we recommend you use the ***Import Generic Csv Wizard*** option first. You can modify, if needed, the ***Header format instruction***.  
@@ -22,7 +22,7 @@ In ***File – Import***, we recommend you use the ***Import Generic Csv Wizard*
 ## File content 
 
 {% snippet icon.badgeCaution %} 
-Some validations on entry settings are not in the business layer but rather in the property dialogs. This means that using the import process can result in invalid entries that trigger errors. Please validate the resulting entries carefully. 
+Some entry settings checks are not performed during the import, but rather when the session(s) properties dialogs are invoked after the import. Therefore, using the import process may result in invalid entries that may trigger errors. Please validate the relevant entries carefully. 
 {% endsnippet %}
  
 In the CSV file, the ***Host*** and the ***Name*** fields are mandatory. If no template is specified, the RDP type will be used as a fallback type. Fields must be separated by commas.
@@ -59,7 +59,7 @@ DESCRIPTION
 Host 
 		</td>
 		<td>
-Host name of the device. This is a mandatory field. 
+Host name of the device. This field is **mandatory**.
 		</td>
 	</tr>
 	<tr>
@@ -67,7 +67,7 @@ Host name of the device. This is a mandatory field.
 Name 
 		</td>
 		<td>
-Name of the entry. This is a mandatory field. 
+Name of the entry. This field is **mandatory**.
 		</td>
 	</tr>
 	<tr>

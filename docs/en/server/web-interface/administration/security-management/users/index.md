@@ -1,6 +1,7 @@
 ---
-title: Users
-order: 10
+eleventyComputed:
+  title: Users
+  order: 10
 ---
 ***Users*** is where you can create, import and manage users. To access the user management, navigate to ***Administration – Users***. Click on a user to configure specific settings and permissions. 
 

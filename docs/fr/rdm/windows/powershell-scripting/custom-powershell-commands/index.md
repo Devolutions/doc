@@ -1,6 +1,7 @@
 ---
-title: Commandes PowerShell personnalisées
-status: Topic available in German language
+eleventyComputed:
+  title: Commandes PowerShell personnalisées
+  status: Topic available in German language
 ---
 Une commande Powershell personnalisée agira sur les entrées sélectionnées dans votre ***{{ fr.NPANE }}***. Utiliser clic et <kbd>Ctrl</kbd>+clic pour construire votre liste, ou faire une ***Recherche avancée*** pour sélectionner un grand nombre d'entrées. Une fois votre sélection effectuée, la commande est disponible soit dans le volet supérieur ***Modifier*** ou avec un clic droit de la souris.  
 

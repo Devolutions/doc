@@ -1,5 +1,6 @@
 ---
-title: Générateur de fichier de configuration
+eleventyComputed:
+  title: Générateur de fichier de configuration
 ---
 Lors de la création d'un paquet d'installation avec le ***{{ fr.CIM }}***, un fichier d'installation est nécessaire pour déterminer les éléments à inclure dans la configuration de l'installation. Créer un fichier d'installation pour chaque nouvelle version est risqué, puisque vous devez répéter le processus manuellement à chaque fois. Au lieu de cela, il est possible de créer la configuration une fois, d'enregistrer le fichier résultant (*.rdi) et de le réutiliser autant de fois que nécessaire. 
 

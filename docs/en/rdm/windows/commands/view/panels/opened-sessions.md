@@ -1,5 +1,6 @@
 ---
-title: Opened Sessions
+eleventyComputed:
+  title: Opened Sessions
 ---
 The ***Opened Sessions*** tab shows currently running sessions by type and for the local machine only. The ***Opened Sessions*** can be accessed from the ***{{ en.NPANE }}*** menu.  
 ![Opened Sessions Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2057.png) 

@@ -1,5 +1,6 @@
 ---
-title: Configurer un courriel SMTP
+eleventyComputed:
+  title: Configurer un courriel SMTP
 ---
 Configurez un courriel SMTP basique dans {{ fr.DVLS }} en suivant les étapes ci-dessous.
 

@@ -1,3 +1,4 @@
 ---
-title: Wiedergabeliste
+eleventyComputed:
+  title: Wiedergabeliste
 ---

@@ -85,6 +85,10 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 1. In the ***Connection components*** box, enter the components you wish to use for your connections. We initialize the field with the default components of a vanilla CyberArk installation, but this list MUST match the components configured in your {{ en.VLT }}.
 1. Since {{ en.RDM }} version 2023.2.24, there is a new feature called ***Override RDP Settings***. By default, RDP settings are fetched from CyberArk PVWA when generating the PSM session. This new option allows you to ignore settings provided by CyberArk and apply the ones specified in the ***CyberArk Dashboard*** entry instead. This override is for all PSM sessions established from this dashboard to have different display settings. One might consider creating different instances of the dashboard entry to reflect different users' preferences.
 
+{% snippet icon.badgeInfo %}
+{{ en.RDM }} and {{ en.DVLS }} versions must be at least 2023.2.28 and 2023.2.8 for ***Override RDP Settings*** to work. 
+{% endsnippet %}  
+
    ![Override RDP Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB2264.png)
 
 #### ***PSM***
@@ -170,3 +174,29 @@ In both cases, you will then see a dialog box that allows you to specify the hos
 After selecting the account in the CyberArk Dashboard, you can also use the ***{{ en.NPANE }}*** to select a host by right-clicking an entry and navigating to the ***Connect using*** menu.
 
 ![Connect using](https://webdevolutions.azureedge.net/docs/en/kb/KB2205.png)
+
+The menu can be bypassed by allowing a double-click action when there is only one possible combination of account/gateway/component.
+
+{% snippet icon.badgeHelp %}
+You can use a batchedit PowerShell script to allow a double-click action instead of selecting the option described in the steps below.
+{% endsnippet %}  
+
+```powershell
+$connection.ConnectUsingDashboardOnDoubleClick = "True";
+$RDM.Save();
+```
+
+1. Select an entry and go to ***Properties*** – ***Advanced***.
+1. Go to ***Connect using dashboard on double click*** and click ***Yes***.
+![Properties – Advanced](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6160.png)
+
+{% snippet icon.badgeInfo %}
+The same option can be found in ***File*** – ***Options*** – ***Types***.
+{% endsnippet %}  
+
+![File – Options – Types](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6162.png)
+
+3. Click ***OK*** to save and close the window.
+
+Double-clicking will now automatically open the ***Dashboard***.
+

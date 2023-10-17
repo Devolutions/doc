@@ -1,5 +1,6 @@
 ---
-title: SQL account discovery
+eleventyComputed:
+  title: SQL account discovery
 ---
 The SQL Account Discovery allows {{ en.DVLS }} to scan the host to find accounts. The accounts will not be automatically added in the Privileged Access Management folders.  
 ![SQL Account Discovery dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6022.png) 

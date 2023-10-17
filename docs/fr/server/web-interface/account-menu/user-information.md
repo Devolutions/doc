@@ -1,5 +1,6 @@
 ---
-title: Informations de l'utilisateur
+eleventyComputed:
+  title: Informations de l'utilisateur
 ---
 Afficher la configuration des droits et permissions à partir des ***Informations de l'utilisateur***. 
 

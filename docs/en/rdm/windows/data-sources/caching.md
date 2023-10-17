@@ -1,5 +1,6 @@
 ---
-title: Caching
+eleventyComputed:
+  title: Caching
 ---
 The caching mode will determine how the client will refresh the content of the data source when changes are detected. On large data sources, caching is essential as it increases performance significantly. 
 

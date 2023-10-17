@@ -1,3 +1,4 @@
 ---
-title: Sicherung
+eleventyComputed:
+  title: Sicherung
 ---

@@ -1,3 +1,4 @@
 ---
-title: Unterstützung
+eleventyComputed:
+  title: Unterstützung
 ---

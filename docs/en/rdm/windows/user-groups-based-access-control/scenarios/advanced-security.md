@@ -1,5 +1,6 @@
 ---
-title: Advanced Security
+eleventyComputed:
+  title: Advanced Security
 ---
 {% snippet icon.badgeInfo %} 
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 

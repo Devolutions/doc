@@ -1,4 +1,5 @@
 ---
-title: Protokolle
-order: 60
+eleventyComputed:
+  title: Protokolle
+  order: 60
 ---

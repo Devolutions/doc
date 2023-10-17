@@ -1,7 +1,8 @@
 ---
-title: Compare editions
-keywords:
-- role
+eleventyComputed:
+  title: Compare editions
+  keywords:
+  - role
 ---
 Compare the features between our Free and Team Editions of {{ en.RDM }}.
 

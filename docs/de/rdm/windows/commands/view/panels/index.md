@@ -1,3 +1,4 @@
 ---
-title: Bereiche
+eleventyComputed:
+  title: Bereiche
 ---

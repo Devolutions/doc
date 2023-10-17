@@ -1,5 +1,6 @@
 ---
-title: Password Complexity
+eleventyComputed:
+  title: Password Complexity
 ---
 This security setting determines whether passwords must meet predetermined complexity requirements that has been configured in your Data source settings. Complexity requirements are enforced when passwords are changed or a new entry is created. If this policy is enable then new passwords must meet some of the following minimum requirements:  
 

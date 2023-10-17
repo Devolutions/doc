@@ -1,5 +1,6 @@
 ---
-title: Export and import data sources configuration
+eleventyComputed:
+  title: Export and import data sources configuration
 ---
 {% youtube 'pQyj-btxhWA' %}
 

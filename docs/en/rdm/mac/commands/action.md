@@ -1,5 +1,6 @@
 ---
-title: Action
+eleventyComputed:
+  title: Action
 ---
 The Actions ribbon contains operations that can only be performed on a running session. The Actions menu will not be visible if there is no active running session. For our example we are running an RDP session, the ribbon will display the following tab when the session is in embedded mode.  
 ![Actions Ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10331.png) 

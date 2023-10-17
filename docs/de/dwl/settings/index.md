@@ -1,6 +1,7 @@
 ---
-title: Einstellungen
-order: 20
+eleventyComputed:
+  title: Einstellungen
+  order: 20
 ---
 Die Einstellungen von {{ de.DWL }} sind über die Schaltfläche ***Einstellungen*** in der Browser-Erweiterung in Windows zugänglich, unabhängig davon, welche Devolutions-Anwendung Sie zusammen mit {{ de.DWL }} verwenden.  
 

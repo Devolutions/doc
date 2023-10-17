@@ -1,4 +1,5 @@
 ---
-title: Passwortvorlagen
-order: 10
+eleventyComputed:
+  title: Passwortvorlagen
+  order: 10
 ---

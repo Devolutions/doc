@@ -1,5 +1,6 @@
 ---
-title: AdalException error
+eleventyComputed:
+  title: AdalException error
 ---
 When using ***Integrated Security*** as an authentication method, {{ en.RDM }} returns an error beginning with the following text:  
 

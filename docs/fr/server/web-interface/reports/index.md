@@ -1,6 +1,7 @@
 ---
-title: Rapports
-order: 40
+eleventyComputed:
+  title: Rapports
+  order: 40
 ---
 La section ***Rapports*** fournit aux administrateurs des outils pour effectuer des audits sur les  [***Connexions***](/fr/server/web-interface/reports/login/), les [***Entrées***] (/fr/server/web-interface/reports/entries/), les [***Journaux***](/fr/server/web-interface/reports/logs/) et les [***Accès privilégiés***](/fr//server/web-interface/reports/modules/).  
 

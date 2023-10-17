@@ -1,3 +1,4 @@
 ---
-title: Exportieren
+eleventyComputed:
+  title: Exportieren
 ---

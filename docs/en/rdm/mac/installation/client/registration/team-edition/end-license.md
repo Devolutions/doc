@@ -1,5 +1,6 @@
 ---
-title: End of license
+eleventyComputed:
+  title: End of license
 ---
 Some of our {{ en.RDMMAC }} Team users might wonder what happens when their license expires. Here is a breakdown depending on your purchase model. 
 

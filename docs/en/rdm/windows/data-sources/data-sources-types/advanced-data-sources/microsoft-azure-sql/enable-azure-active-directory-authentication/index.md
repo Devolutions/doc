@@ -1,3 +1,4 @@
 ---
-title: Enable Azure Active Directory Authentication
+eleventyComputed:
+  title: Enable Azure Active Directory Authentication
 ---

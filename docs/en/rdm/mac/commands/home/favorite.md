@@ -1,5 +1,6 @@
 ---
-title: Favorite
+eleventyComputed:
+  title: Favorite
 ---
 This is useful when the number of managed entries becomes too great or if you must maintain a strict directory structure to hold your entries. You can create a list of your Favorite entries to make it easier to access them.  
 ![Home - Favorite](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10302.png) 

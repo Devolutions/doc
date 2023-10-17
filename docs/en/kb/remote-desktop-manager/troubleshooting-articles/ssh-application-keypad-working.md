@@ -1,5 +1,6 @@
 ---
-title: SSH application keypad not working
+eleventyComputed:
+  title: SSH application keypad not working
 ---
 Application keypad not working correctly.  
 

@@ -1,6 +1,7 @@
 ---
-title: Create a New Data Source
-order: 10
+eleventyComputed:
+  title: Create a New Data Source
+  order: 10
 ---
 {% youtube 'hkT20rQ41V4' %}  
 

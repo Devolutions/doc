@@ -1,5 +1,6 @@
 ---
-title: Users 2FA Reset Status
+eleventyComputed:
+  title: Users 2FA Reset Status
 ---
 The ***Users 2FA Reset Status*** section displays user accounts that have requested a 2FA reset. To access the list of users that ask for a 2FA reset, navigate to ***Administration – Users 2FA Reset Status***. 
 

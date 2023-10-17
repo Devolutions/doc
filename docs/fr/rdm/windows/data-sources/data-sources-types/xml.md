@@ -1,5 +1,6 @@
 ---
-title: XML
+eleventyComputed:
+  title: XML
 ---
 <table>
 	<tr>

@@ -1,3 +1,4 @@
 ---
-title: Source de données
+eleventyComputed:
+  title: Source de données
 ---

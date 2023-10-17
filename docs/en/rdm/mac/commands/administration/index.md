@@ -1,5 +1,6 @@
 ---
-title: Administration
+eleventyComputed:
+  title: Administration
 ---
 The Administration ribbon is only available for the Administrator of the data source since it is mostly used to manage settings and users of a data source. If the options are grayed out contact your administrator.  
 

@@ -1,3 +1,4 @@
 ---
-title: Allgemein
+eleventyComputed:
+  title: Allgemein
 ---

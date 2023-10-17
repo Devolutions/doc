@@ -1,6 +1,7 @@
 ---
-title: Modèles de mot de passe
-order: 10
+eleventyComputed:
+  title: Modèles de mot de passe
+  order: 10
 ---
 Les ***Modèles de mot de passe*** permettent aux administrateurs de gérer les modèles de mot de passe.  
 ![Administration - Modèles de mot de passe](https://webdevolutions.azureedge.net/docs/fr/server/clip10401.png)  

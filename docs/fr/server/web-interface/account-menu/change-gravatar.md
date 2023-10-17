@@ -1,5 +1,6 @@
 ---
-title: Changer le Gravatar
+eleventyComputed:
+  title: Changer le Gravatar
 ---
 L'avatar de l'utilisateur par défaut dans {{ fr.DVLS }} correspond aux initiales de l'utilisateur. 
 

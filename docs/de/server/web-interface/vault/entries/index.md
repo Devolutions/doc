@@ -1,4 +1,5 @@
 ---
-title: Einträge
-order: 10
+eleventyComputed:
+  title: Einträge
+  order: 10
 ---

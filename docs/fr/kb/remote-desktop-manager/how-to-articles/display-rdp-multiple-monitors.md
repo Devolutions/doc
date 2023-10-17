@@ -1,5 +1,6 @@
 ---
-title: Afficher RDP sur plusieurs écrans
+eleventyComputed:
+  title: Afficher RDP sur plusieurs écrans
 ---
 ### Étendre l’affichage sur plusieurs écrans 
 Il est possible pour {{ fr.RDM }} d’afficher plusieurs écrans à distance lors d’une session RDP.  

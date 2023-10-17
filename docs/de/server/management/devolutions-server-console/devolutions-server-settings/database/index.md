@@ -1,4 +1,5 @@
 ---
-title: Datenbank
-order: 20
+eleventyComputed:
+  title: Datenbank
+  order: 20
 ---

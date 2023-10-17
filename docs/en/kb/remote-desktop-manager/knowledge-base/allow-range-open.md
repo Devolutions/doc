@@ -1,5 +1,6 @@
 ---
-title: Allow range open
+eleventyComputed:
+  title: Allow range open
 ---
 This feature allows to open multiple machine with the quick connect in {{ en.RDM }}  
 

@@ -1,5 +1,6 @@
 ---
-title: Fichier
+eleventyComputed:
+  title: Fichier
 ---
 Le menu ***Fichier*** contient plusieurs actions à votre disposition concernant votre source de données. Les options changeront en fonction de la source de données que vous utilisez actuellement.  
 ![Menu Fichier](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4008.png) 

@@ -1,3 +1,4 @@
 ---
-title: Offline Modus
+eleventyComputed:
+  title: Offline Modus
 ---

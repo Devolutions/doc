@@ -1,5 +1,6 @@
 ---
-title: Importer des sessions
+eleventyComputed:
+  title: Importer des sessions
 ---
 Vous pouvez accéder à ***Fichier – Importer – Sessions*** pour importer des sessions à partir d'autres logiciels dans {{ fr.RDM }}. 
 

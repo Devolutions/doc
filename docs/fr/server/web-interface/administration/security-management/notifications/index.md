@@ -1,6 +1,7 @@
 ---
-title: Notifications
-order: 40
+eleventyComputed:
+  title: Notifications
+  order: 40
 ---
 {% snippet icon.badgeInfo %} 
 Afin de faire fonctionner les Notifications, la fonctionnalité de [Courriel](/fr/server/web-interface/administration/configuration/server-settings/general/email/) doit être activée et correctement configurée. 

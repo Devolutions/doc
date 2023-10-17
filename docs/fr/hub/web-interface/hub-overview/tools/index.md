@@ -1,5 +1,6 @@
 ---
-title: Outils
+eleventyComputed:
+  title: Outils
 ---
 La section ***Outils*** regorge de ressources pour {{ fr.DHUBB }}. Télécharger, exporter et entrer en contact avec notre ***Centre de soutien***.  
 ![!!Hub4042](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4042.png) 

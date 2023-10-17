@@ -1,5 +1,6 @@
 ---
-title: Caching
+eleventyComputed:
+  title: Caching
 ---
 Sie sehen im Navigationsbereich nicht den erwarteten Inhalt?  
 

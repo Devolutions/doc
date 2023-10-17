@@ -88,7 +88,7 @@ User action in the License expiry dialog
 Telemetry
 		</td>
 		<td>
-https<area>://telemetry.devolutions.net
+https<area>://telemetry2.devolutions.net
 		</td>
 		<td>
 File – Options – Advanced – Disable telemetry

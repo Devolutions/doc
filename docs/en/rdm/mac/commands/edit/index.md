@@ -1,5 +1,6 @@
 ---
-title: Edit
+eleventyComputed:
+  title: Edit
 ---
 The Edit ribbon contains operations to rapidly Add, Edit, Overrides, Batch Edit, or Export entries.  
 ![Edit ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10332.png) 

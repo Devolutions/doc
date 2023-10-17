@@ -1,5 +1,6 @@
 ---
-title: Manage Application Users
+eleventyComputed:
+  title: Manage Application Users
 ---
 Here are the steps to create and assign ***Application Users*** for {{ en.DHUBB }}.  
 

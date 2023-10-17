@@ -1,4 +1,5 @@
 ---
-title: Unterstützung/Ressourcen
-order: 110
+eleventyComputed:
+  title: Unterstützung/Ressourcen
+  order: 110
 ---

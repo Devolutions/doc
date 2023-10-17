@@ -1,5 +1,6 @@
 ---
-title: Créer un raccourci
+eleventyComputed:
+  title: Créer un raccourci
 ---
 Il existe de nombreux scénarios où il est logique qu'une entrée apparaisse plusieurs fois dans le ***{{ fr.NPANE }}***. Par exemple, vous souhaiterez peut-être :  
 

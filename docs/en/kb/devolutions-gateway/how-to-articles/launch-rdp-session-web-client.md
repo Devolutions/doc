@@ -25,6 +25,7 @@ In order to use this feature, certain requirements must be met, namely:
   * a Gateway type VPN configured.
   * no mandatory session recording.
 * Have the ***View password*** permission if you are the one to use the session.
+* Have a {{ en.RDM }} or {{ en.DLAUNCHER }} license assigned to the user that wants to use the connection.
 
 ### RDP Session Configuration
 

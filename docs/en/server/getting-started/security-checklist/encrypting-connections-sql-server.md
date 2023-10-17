@@ -1,5 +1,6 @@
 ---
-title: Encrypting connections to SQL Server
+eleventyComputed:
+  title: Encrypting connections to SQL Server
 ---
 To ensure that the communication between the {{ en.DVLS }} instance and the SQL Server database is encrypted, an extensive procedure must be followed on the SQL Server instance.  
 

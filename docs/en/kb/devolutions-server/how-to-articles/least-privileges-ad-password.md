@@ -1,5 +1,6 @@
 ---
-title: Least privileges for Active Directory password
+eleventyComputed:
+  title: Least privileges for Active Directory password
 ---
 With a PAM Provider account, {{ en.DVLS }} allows to rotate account passwords. In Active Directory, having a domain administrator account as the provider can be a bit overkill for password rotation. The following article described the steps to create an Active Directory account that will be used as a PAM Provider and have the ability to rotate passwords in Active Directory.
 

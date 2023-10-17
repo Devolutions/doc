@@ -1,3 +1,4 @@
 ---
-title: Bearbeiten
+eleventyComputed:
+  title: Bearbeiten
 ---

@@ -1,3 +1,4 @@
 ---
-title: Base de connaissances
+eleventyComputed:
+  title: Base de connaissances
 ---

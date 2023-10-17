@@ -1,5 +1,6 @@
 ---
-title: KeePass plugin installation on a RDS
+eleventyComputed:
+  title: KeePass plugin installation on a RDS
 ---
 Using {{ en.RDM }} and KeePass on a Remote Desktop Service require multiple steps. 
 

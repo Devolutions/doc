@@ -1,5 +1,6 @@
 ---
-title: Interface utilisateur
+eleventyComputed:
+  title: Interface utilisateur
 ---
 Utiliser ***Fichier - Préférences - Interface utilisateur*** pour configurer les options liées à l'interface utilisateur.  
 

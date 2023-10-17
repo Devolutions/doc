@@ -1,5 +1,6 @@
 ---
-title: Tolérance aux pannes
+eleventyComputed:
+  title: Tolérance aux pannes
 ---
 La plateforme Devolutions suit certaine lignes directrices de conception afin de préserver l'historique complet de vos données, que ce soit des modifications ou des suppressions. Elle offre également une fonctionnalité étendue de journalisation, ce qui permet d'avoir une visibilité totale sur toute activité dans le système. Les décisions relatives à la conception ont une incidence sur les choix offerts lorsque vous souhaitez avoir une tolérance aux pannes au niveau de la base de données.  
 

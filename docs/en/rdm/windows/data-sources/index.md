@@ -1,6 +1,7 @@
 ---
-title: Data sources
-order: 40
+eleventyComputed:
+  title: Data sources
+  order: 40
 ---
 The data sources are at the heart of {{ en.RDM }}. They are the container that holds entries. 
 

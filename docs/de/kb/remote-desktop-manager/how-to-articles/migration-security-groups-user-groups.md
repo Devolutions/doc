@@ -1,5 +1,6 @@
 ---
-title: Migration von Sicherheitsgruppen zu Gruppen
+eleventyComputed:
+  title: Migration von Sicherheitsgruppen zu Gruppen
 ---
 {% snippet icon.badgeInfo %}
 Sicherheitsgruppen sind seit {{ de.RDM }} Version 2023.3 veraltet. 
@@ -16,7 +17,7 @@ Weitere Informationen finden Sie unter [Gruppenbasierter Zugriffskontrolle](/rdm
 1. Klicken Sie im Bereich ***Verwaltung*** auf ***Sicherheitsgruppen (Veraltet)***. 
 1. Löschen Sie jede Sicherheitsgruppe, indem Sie sie markieren und ***Sicherheitsgruppe löschen*** auswählen.
 {% snippet icon.badgeCaution %}
-Um die Berechtigungen Ihrer Benutzer zu verwalten, empfehlen wir Ihnen den Wechsel von ***Sicherheitsgruppen*** (Veraltet) zu [***Berechtigungen***](/rdm/windows/user-groups-based-access-control/permissions/). Sobald die Migration abgeschlossen ist, deaktivieren Sie bitte das [***alte Sicherheitssystem***](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
+Um die Berechtigungen Ihrer Benutzer zu verwalten, empfehlen wir Ihnen den Wechsel von ***Sicherheitsgruppen*** (Veraltet) zu [***Berechtigungen***](/rdm/windows/user-groups-based-access-control/permissions/). Sobald die Migration abgeschlossen ist, [deaktivieren Sie bitte das ***alte Sicherheitssystem***](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
 
 {% endsnippet %}
 
@@ -24,4 +25,3 @@ Hier sind zwei Szenarien, um Ihnen den Einstieg in diese Art von Sicherheit zu e
 
 * [Vereinfachte Sicherheit ](/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/)
 * [Erweiterte Sicherheit](/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/)
-  

@@ -1,5 +1,6 @@
 ---
-title: Spezifische Einstellungen
+eleventyComputed:
+  title: Spezifische Einstellungen
 ---
 ***Spezifische Einstellungen*** werden verwendet, um Eigenschaften eines Eintrags zu überschreiben. Es ist möglich mehrere Einstellungen zu überschrieben, wie z.B. die Anmeldeinformationen oder der Anzeigemodus. Es gibt zwei Arten von ***Spezifischen Einstellungen***: Benutzerspezifische Einstellungen und Lokale Einstellungen.  
 

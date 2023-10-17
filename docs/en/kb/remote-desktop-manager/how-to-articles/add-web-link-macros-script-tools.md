@@ -1,5 +1,6 @@
 ---
-title: Add web links in Macros/Script/Tools sessions
+eleventyComputed:
+  title: Add web links in Macros/Script/Tools sessions
 ---
 Macros/Scripts/Tools sessions can be used to open web links in {{ en.RDM }}.
 

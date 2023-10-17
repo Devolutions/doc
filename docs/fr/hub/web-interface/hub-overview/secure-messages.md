@@ -1,5 +1,6 @@
 ---
-title: Messages sécurisés
+eleventyComputed:
+  title: Messages sécurisés
 ---
 Envoyer et réceptionner des ***Messages sécurisés*** avec des utilisateurs depuis votre hub. Cliquer sur l'icône ***Messages*** en haut de votre avatar pour créer et lire des messages sécurisés.  
 

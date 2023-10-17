@@ -1,10 +1,11 @@
 ---
-title: Clear Safari's local storage
-description: Follow the steps to clear your local storage in the Safari browser.
-keywords:
-- Local storage
-- Browser
-- Safari
+eleventyComputed:
+  title: Clear Safari's local storage
+  description: Follow the steps to clear your local storage in the Safari browser.
+  keywords:
+  - Local storage
+  - Browser
+  - Safari
 ---
 Here are the steps to clear your local storage in the Safari browser:  
 

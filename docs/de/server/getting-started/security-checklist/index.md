@@ -1,3 +1,4 @@
 ---
-title: Sicherheits-Checkliste
+eleventyComputed:
+  title: Sicherheits-Checkliste
 ---

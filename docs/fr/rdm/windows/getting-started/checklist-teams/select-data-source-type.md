@@ -1,5 +1,6 @@
 ---
-title: Choisir le type de source de données – Équipes
+eleventyComputed:
+  title: Choisir le type de source de données – Équipes
 ---
 Cette section s'adresse aux équipes qui utilisent l'édition Team et ses fonctionnalités. 
 

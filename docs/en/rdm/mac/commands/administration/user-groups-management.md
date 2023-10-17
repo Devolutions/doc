@@ -1,7 +1,8 @@
 ---
-title: User Groups Management
-keywords:
-- role
+eleventyComputed:
+  title: User Groups Management
+  keywords:
+  - role
 ---
 User Groups in {{ en.RDMMAC }} are mainly used to reduce the time taken to manage users. The management of permissions granted to user groups are quite similar to the corresponding notions for users, but instead of a single user, they apply to all users to which you have assigned the user groups.  
 ![Administration - User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10396.png) 

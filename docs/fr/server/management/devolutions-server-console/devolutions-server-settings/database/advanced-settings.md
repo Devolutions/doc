@@ -1,5 +1,6 @@
 ---
-title: Paramètres avancés
+eleventyComputed:
+  title: Paramètres avancés
 ---
 Les ***Paramètres avancés*** contiennent des paramètres avancés utilisés pour la chaîne de connexion à la base de données SQL. 
 

@@ -1,5 +1,6 @@
 ---
-title: Lock Application
+eleventyComputed:
+  title: Lock Application
 ---
 The Lock Application button allows you the possibility to lock the application for security reasons when you are not in front of your computer. 
 

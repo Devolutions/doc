@@ -1,3 +1,4 @@
 ---
-title: Nettoyer
+eleventyComputed:
+  title: Nettoyer
 ---

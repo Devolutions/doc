@@ -1,5 +1,6 @@
 ---
-title: Send SSH Shell logs and verbose
+eleventyComputed:
+  title: Send SSH Shell logs and verbose
 ---
 Steps to follow to collect the verbose logs for an SSH Shell session and send them to the support team.
 

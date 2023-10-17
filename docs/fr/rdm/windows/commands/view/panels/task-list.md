@@ -1,5 +1,6 @@
 ---
-title: Liste des tâches
+eleventyComputed:
+  title: Liste des tâches
 ---
 Créez une ***Liste des tâches*** pour assurer le suivi du travail qui doit être effectué par l'équipe. Basculez le volet ***Liste des tâches*** dans ***Affichage – Panneaux – Liste des tâches***.  
 ![Bouton Liste des tâches](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2057.png) 

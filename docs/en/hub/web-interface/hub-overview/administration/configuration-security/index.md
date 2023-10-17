@@ -1,3 +1,4 @@
 ---
-title: Configuration and Security
+eleventyComputed:
+  title: Configuration and Security
 ---

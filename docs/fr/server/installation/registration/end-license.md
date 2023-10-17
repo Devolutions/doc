@@ -1,6 +1,7 @@
 ---
-title: Fin de licence
-order: 40
+eleventyComputed:
+  title: Fin de licence
+  order: 40
 ---
 Certains de nos utilisateurs de {{ fr.DVLS }} pourraient se demander ce qu'il adviendra de leurs données lorsque la licence expirera.  
 

@@ -1,3 +1,4 @@
 ---
-title: Theme system
+eleventyComputed:
+  title: Theme system
 ---

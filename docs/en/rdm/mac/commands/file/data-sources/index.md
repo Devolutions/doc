@@ -1,3 +1,4 @@
 ---
-title: Data Sources
+eleventyComputed:
+  title: Data Sources
 ---

@@ -1,5 +1,6 @@
 ---
-title: Recherche avancée
+eleventyComputed:
+  title: Recherche avancée
 ---
 La fonction de ***Recherche avancée*** vous permet de rechercher des entrées et des dossiers en fonction de plusieurs critères dans un {{ fr.VLT }} à la fois. Pour effectuer des recherches dans plusieurs {{ fr.VLT }}s simultanément, veuillez vous référer à [***Recherche multi-{{ fr.VLT }}s***](/fr/rdm/windows/commands/view/panels/search/multi-vault/).  
 ![Fenêtre de recherche avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10250.png) 

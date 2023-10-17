@@ -1,5 +1,6 @@
 ---
-title: Événement de Macro clavier
+eleventyComputed:
+  title: Événement de Macro clavier
 ---
 La ***Macro clavier*** s'exécute automatiquement lorsqu'une connexion a été établie.  
 

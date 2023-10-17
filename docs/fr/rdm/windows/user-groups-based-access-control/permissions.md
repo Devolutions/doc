@@ -1,9 +1,10 @@
 ---
-title: Permissions
+eleventyComputed:
+  title: Permissions
 ---
 {% youtube 'nCaBVVyY0Vs' %}  
 
-Le tableau de bord des permissions ***,*** qui est seulement disponible dans une [source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), se trouve dans la section ***Permissions*** des propriétés de toutes les entrées.  
+Le tableau de bord des permissions, qui est seulement disponible dans une [source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), se trouve dans la section ***Permissions*** des propriétés de toutes les entrées.  
 
 Le système de contrôle d'accès basé sur les groupes d'utilisateurs permet d'attribuer granulairement les permissions. Voici un aperçu de la fenêtre des ***Permissions***.  
 ![Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6014.png) 
@@ -36,7 +37,7 @@ Définir le mode d'***Autorisation***. Choisir entre :
 Accorder l'accès 
 		</td>
 		<td>
-Permets l'accès et la modification par lots à une ou plusieurs entrées spécifiques. 
+Permets l'[accès en lot](/fr/rdm/windows/commands/administration/settings/system-settings/vault-management/batch-grant-access) et la modification en lot à une ou plusieurs entrées spécifiques. 
 		</td>
 	</tr>
 	<tr>

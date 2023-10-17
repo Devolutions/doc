@@ -1,5 +1,6 @@
 ---
-title: Panneaux
+eleventyComputed:
+  title: Panneaux
 ---
 Dans {{ fr.RDM }}, la section ***Panneaux*** de l'onglet ***Affichage*** permet de parcourir et de rechercher les {{ fr.VLT }}s, sessions et entrées dans le ***{{ fr.NPANE }}***.  
 ![Section Panneaux](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin2002.png) 

@@ -1,6 +1,7 @@
 ---
-title: Mise à niveau de la base de données
-status: Topic available in German language
+eleventyComputed:
+  title: Mise à niveau de la base de données
+  status: Topic available in German language
 ---
 Cette rubrique s'applique aux installations avec des sources de données qui utilisent une base de données comme stockage de données.  
 

@@ -1,3 +1,4 @@
 ---
-title: Befehle
+eleventyComputed:
+  title: Befehle
 ---

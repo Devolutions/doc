@@ -1,5 +1,6 @@
 ---
-title: Web browser Firefox
+eleventyComputed:
+  title: Web browser Firefox
 ---
 Firefox in embedded mode does not work in the application.  
 {% snippet icon.badgeCaution %}

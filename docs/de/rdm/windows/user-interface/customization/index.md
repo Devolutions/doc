@@ -1,3 +1,4 @@
 ---
-title: Anpassen der Benutzeroberfläche
+eleventyComputed:
+  title: Anpassen der Benutzeroberfläche
 ---

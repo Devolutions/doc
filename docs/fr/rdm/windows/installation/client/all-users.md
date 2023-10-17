@@ -1,5 +1,6 @@
 ---
-title: Pour tous les utilisateurs
+eleventyComputed:
+  title: Pour tous les utilisateurs
 ---
 Le paquet d'installation actuelle de {{ fr.RDM }} nécessite une installation avec des droits étendus, ainsi que la mise à disposition de l'application pour tous les utilisateurs de l'ordinateur sur lequel vous installez. Cela étant dit, les commentaires ont montré qu'il s'installe avec succès dans un large éventail d'environnements de notre communauté. Suivez cette procédure pour réduire les problèmes de déploiement à l'avenir. 
 

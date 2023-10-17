@@ -1,6 +1,7 @@
 ---
-title: Groups d'utilisateurs
-order: 20
+eleventyComputed:
+  title: Groups d'utilisateurs
+  order: 20
 ---
 ***Groupe d'utilisateurs*** est l'endroit où vous pouvez créer, importer et gérer des groupes d'utilisateurs. Pour accéder à la gestion des groupes d'utilisateurs, naviguer dans le menu ***Administration – Groupes d'utilisateurs***. Cliquer sur un groupe d'utilisateur pour configurer des paramètres et des autorisations spécifiques.  
 ![Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8017.png) 

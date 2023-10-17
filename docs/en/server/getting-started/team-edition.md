@@ -1,7 +1,8 @@
 ---
-title: Team Edition
-keywords:
-- Roles
+eleventyComputed:
+  title: Team Edition
+  keywords:
+  - Roles
 ---
 After the purchase of the {{ en.DVLS }} Team Edition, an email is sent with the license serial. This key allows you to create a new instance of {{ en.DVLS }}.  
 

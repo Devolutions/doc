@@ -1,4 +1,5 @@
 ---
-title: Registrierung
-order: 10
+eleventyComputed:
+  title: Registrierung
+  order: 10
 ---

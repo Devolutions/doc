@@ -1,8 +1,9 @@
 ---
-title: Stop caching users and user groups.
-keywords:
-- Cache
-- Microsoft Authentication
+eleventyComputed:
+  title: Stop caching users and user groups.
+  keywords:
+  - Cache
+  - Microsoft Authentication
 ---
 When creating or updating users and groups information in Azure AD, updating the ***Microsoft Authentication Users and User Groups cache*** in {{ en.DVLS }} can take over a day if the Azure AD tenant contains a high number of users and groups.
 

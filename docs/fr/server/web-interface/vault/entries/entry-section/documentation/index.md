@@ -1,6 +1,7 @@
 ---
-title: Documentation
-order: 10
+eleventyComputed:
+  title: Documentation
+  order: 10
 ---
 La fonction ***Documentation*** permet de stocker des informations concernant les entrées. Le texte est formaté à l'aide de la syntaxe de formatage de texte [Markdown](/fr/server/web-interface/vault/entries/entry-section/documentation/quick-guide-markdown/). 
 

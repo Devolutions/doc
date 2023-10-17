@@ -1,5 +1,6 @@
 ---
-title: Encrypting Connections to SQL Server
+eleventyComputed:
+  title: Encrypting Connections to SQL Server
 ---
 To ensure that the communication between {{ en.RDM }} and the Microsoft SQL Server database is encrypted, an extensive procedure must be followed on the Microsoft SQL Server instance.  
 

@@ -1,5 +1,6 @@
 ---
-title: Barre d'état
+eleventyComputed:
+  title: Barre d'état
 ---
 La barre d'état se trouve au bas de l'application. Elle est composée de plusieurs parties :  
 

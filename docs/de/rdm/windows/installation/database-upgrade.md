@@ -1,5 +1,6 @@
 ---
-title: Aktualisierung der Datenbank
+eleventyComputed:
+  title: Aktualisierung der Datenbank
 ---
 Dieser Artikel bezieht sich auf Installationen, die eine Datenbank als Datenquelle verwenden.  
 

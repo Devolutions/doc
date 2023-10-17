@@ -1,5 +1,6 @@
 ---
-title: Configurer SQL Azure
+eleventyComputed:
+  title: Configurer SQL Azure
 ---
 1. Assurez-vous que vous disposez d'un abonnement Microsoft Azure SQL valide pour pouvoir créer votre base de données. 
 1. Cliquer sur les points de suspension dans le ***{{ fr.NPANE }}*** ou aller dans ***Fichier - Sources de données***.  

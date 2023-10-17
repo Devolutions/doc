@@ -1,4 +1,5 @@
 ---
-title: Sicherung
-order: 50
+eleventyComputed:
+  title: Sicherung
+  order: 50
 ---

@@ -1,3 +1,4 @@
 ---
-title: Checkliste für Einzelpersonen
+eleventyComputed:
+  title: Checkliste für Einzelpersonen
 ---

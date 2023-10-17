@@ -7,12 +7,12 @@ La fonctionnalité ***Accorder l'accès en lot*** permet de définir des permiss
 
 ## Emplacement
 
-***Accorder l'accès en lot*** se trouve dans les propriétés des entrées, dossiers et {{ fr.VLT }}s sous ***Sécurité – Autorisations***. Définissez les autorisations à ***Personnalisé***, puis cliquez sur ***Accorder l'accès***.
+***Accorder l'accès en lot*** se trouve dans les propriétés des entrées, dossiers et {{ fr.VLT }}s sous ***Sécurité – Permissions***. Définissez les permissions à ***Personnalisé***, puis cliquez sur ***Accorder l'accès***.
 
 ![Propriétés – Sécurité – Permissions](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2052.png)
 
 On peut également y accéder par le menu ***Administration*** :
-1. Dans l'interface Web de {{ fr.DVLS }}, aller dans ***Administration – Paramètres du système – Gestion des {{ fr.VLT }}s***.
+1. Dans l'interface Web de {{ fr.DVLS }}, aller dans ***Administration – Paramètres système – Gestion des {{ fr.VLT }}s***.
 1. Sous ***Permissions par défaut***, sélectionner ***Personnalisé*** dans le menu déroulant ***Autorisation***.
 ![Permissions par défaut personnalisées](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2047.png)
 1. Cliquer sur ***Accorder l'accès***.

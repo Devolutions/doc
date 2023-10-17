@@ -1,5 +1,6 @@
 ---
-title: View sensitive data vs. account brokering
+eleventyComputed:
+  title: View sensitive data vs. account brokering
 ---
 It is important to learn the differences between the 2 sets of permissions known as ***View sensitive data on checkout*** and ***Credential Brokering***. In this topic, you will find an explanation of the way they are used.  
 

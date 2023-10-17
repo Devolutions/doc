@@ -1,5 +1,6 @@
 ---
-title: Installer File Generator
+eleventyComputed:
+  title: Installer File Generator
 ---
 When creating an installation package with the ***{{ en.CIM }}***, an installer file is necessary to determine what to include in the installation configuration. Creating an installer file for each new version is risky since you have to repeat the process manually every time. Instead, it is possible to create the configuration once, save the resulting file (*.rdi), and reuse it as many times as needed.  
 

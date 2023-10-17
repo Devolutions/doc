@@ -1,5 +1,6 @@
 ---
-title: Rapports
+eleventyComputed:
+  title: Rapports
 ---
 La section ***Rapports*** génère automatiquement des rapports concernant vos identifiants, entrées, journaux et sécurité. Vous aurez également la possibilité d'exporter votre rapport généré qui est un moyen d'exécuter et d'exporter des rapports via une ligne de commande.  
 ![Administration - Rapports](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4207.png) 

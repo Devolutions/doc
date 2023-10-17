@@ -1,5 +1,6 @@
 ---
-title: Abonnements de l'utilisateur
+eleventyComputed:
+  title: Abonnements de l'utilisateur
 ---
 Gérer les paramètres de notification des ***Abonnements de l'utilisateur*** aux entrées. 
 {% snippet icon.badgeInfo %} 

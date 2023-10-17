@@ -1,5 +1,6 @@
 ---
-title: Add a Template as a Custom Tool
+eleventyComputed:
+  title: Add a Template as a Custom Tool
 ---
 Get access to a one-click ***Custom Tool*** which would apply a ***Template*** automatically to one of your connections in {{ en.RDM }} The main goal of this solution is to save you a few clicks since launching an entry with a ***Template*** would require that you follow all these steps:
 

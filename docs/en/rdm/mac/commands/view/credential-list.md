@@ -1,5 +1,6 @@
 ---
-title: Credential List
+eleventyComputed:
+  title: Credential List
 ---
 The ***Credential List*** feature can be found in the ***View*** tab.  
 ![Credential List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0026.png) 

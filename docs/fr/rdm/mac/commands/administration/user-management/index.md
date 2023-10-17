@@ -1,5 +1,6 @@
 ---
-title: Gestion des utilisateurs
+eleventyComputed:
+  title: Gestion des utilisateurs
 ---
 La gestion des utilisateurs est disponible dans le menu ***Administration - Utilisateurs***. La gestion des utilisateurs vous permet de créer, gérer et attribuer des droits à un utilisateur.  
 ![Administration - Utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4113.png) 

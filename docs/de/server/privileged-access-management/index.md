@@ -1,4 +1,5 @@
 ---
-title: Privilegierte Zugriffsverwaltung
-order: 50
+eleventyComputed:
+  title: Privilegierte Zugriffsverwaltung
+  order: 50
 ---

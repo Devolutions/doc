@@ -1,5 +1,6 @@
 ---
-title: Microsoft RDP reconnect issues
+eleventyComputed:
+  title: Microsoft RDP reconnect issues
 ---
 When a remote connection is locked and ask for the username and password to reconnect, instead of closing and relaunching the connection you would typically use the Reconnect feature.  
 

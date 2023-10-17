@@ -1,5 +1,6 @@
 ---
-title: Kernelbase.dll crash error
+eleventyComputed:
+  title: Kernelbase.dll crash error
 ---
 You will find at the end of {{ en.RDM }} crash error log "Faulting module name: KERNELBASE.dll, version: 10.0.18362.1, time stamp: 0x1a30e11b"  
 

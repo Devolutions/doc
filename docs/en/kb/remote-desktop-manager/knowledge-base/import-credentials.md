@@ -1,5 +1,6 @@
 ---
-title: Import credentials
+eleventyComputed:
+  title: Import credentials
 ---
 {{ en.RDM }} imports credentials from 16 third-party applications. It is an efficient way to build your data. The imported information can be converted into different types of entry (e.g. username/password, Login (account), and Website).  
 

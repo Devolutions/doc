@@ -1,6 +1,7 @@
 ---
-title: Enregistrement
-order: 10
+eleventyComputed:
+  title: Enregistrement
+  order: 10
 ---
 ### {{ fr.RDMMAC }} édition Team 
 

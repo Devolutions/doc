@@ -1,4 +1,5 @@
 ---
-title: Einleitung
-order: 10
+eleventyComputed:
+  title: Einleitung
+  order: 10
 ---

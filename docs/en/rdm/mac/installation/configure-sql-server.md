@@ -1,5 +1,6 @@
 ---
-title: Configure SQL Server
+eleventyComputed:
+  title: Configure SQL Server
 ---
 ### Server Computer 
 

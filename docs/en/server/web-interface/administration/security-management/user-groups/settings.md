@@ -1,5 +1,6 @@
 ---
-title: Settings
+eleventyComputed:
+  title: Settings
 ---
 Allow the user group to enable [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the data source. The data source also needs to be configured to permit offline mode. There are multiple modes available. 
 

@@ -1,5 +1,6 @@
 ---
-title: Configurer RemoteFX pour le WebClient RDP
+eleventyComputed:
+  title: Configurer RemoteFX pour le WebClient RDP
 ---
 Par défaut, Windows n'active pas RemoteFX afin de garantir la rétrocompatibilité. Toutefois, pour bénéficier d'une performance optimale dans le cadre de l'utilisation du WebClient RDP, il est recommandé d'activer RemoteFX sur les machines serveur qui le permettent.  
 

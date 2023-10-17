@@ -1,5 +1,6 @@
 ---
-title: Gestionnaire
+eleventyComputed:
+  title: Gestionnaire
 ---
 Il existe 3 façons d'ouvrir une liste d'exécution : 
 

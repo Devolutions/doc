@@ -1,5 +1,6 @@
 ---
-title: Actualiser
+eleventyComputed:
+  title: Actualiser
 ---
 L'actualisation de la source de données permet de mettre à jour son contenu. Les sources de données sont généralement actualisées automatiquement après une période définie.  
 

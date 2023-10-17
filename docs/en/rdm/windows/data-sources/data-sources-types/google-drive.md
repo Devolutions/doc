@@ -1,5 +1,6 @@
 ---
-title: Google Drive
+eleventyComputed:
+  title: Google Drive
 ---
 <table>
 	<tr>

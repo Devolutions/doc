@@ -1,5 +1,6 @@
 ---
-title: Open a session
+eleventyComputed:
+  title: Open a session
 ---
 {% youtube 'DhJqKA4I90o' %}  
 

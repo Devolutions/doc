@@ -1,5 +1,6 @@
 ---
-title: Configurer le serveur SQL
+eleventyComputed:
+  title: Configurer le serveur SQL
 ---
 ### Microsoft SQL Server 
 

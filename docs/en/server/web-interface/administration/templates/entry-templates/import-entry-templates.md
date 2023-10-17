@@ -1,5 +1,6 @@
 ---
-title: Import Entry Templates
+eleventyComputed:
+  title: Import Entry Templates
 ---
 Import previously exported ***Entry Templates*** in the web interface of {{ en.DVLS }}.  
 

@@ -1,6 +1,7 @@
 ---
-title: Prerequisites
-order: 10
+eleventyComputed:
+  title: Prerequisites
+  order: 10
 ---
 ## {{ en.DLAUNCHER }} minimum requirements  
 

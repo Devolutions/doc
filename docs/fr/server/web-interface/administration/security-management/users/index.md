@@ -1,6 +1,7 @@
 ---
-title: Utilisateurs
-order: 10
+eleventyComputed:
+  title: Utilisateurs
+  order: 10
 ---
 ***Utilisateurs*** est l'endroit où vous pouvez créer, importer et gérer des utilisateurs. Pour accéder à la gestion des utilisateurs, naviguer dans le menu ***Administration – Utilisateurs***. Cliquer sur un utilisateur pour configurer des paramètres et des autorisations spécifiques. 
 

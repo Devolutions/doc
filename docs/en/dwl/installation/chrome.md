@@ -1,5 +1,6 @@
 ---
-title: Chrome
+eleventyComputed:
+  title: Chrome
 ---
 Follow the steps below to complete the installation of {{ en.DWL }} in the Chrome web browser.  
 

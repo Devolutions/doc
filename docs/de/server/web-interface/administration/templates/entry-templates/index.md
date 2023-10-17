@@ -1,4 +1,5 @@
 ---
-title: Vorlagen
-order: 20
+eleventyComputed:
+  title: Vorlagen
+  order: 20
 ---

@@ -1,3 +1,4 @@
 ---
-title: Dokumentation
+eleventyComputed:
+  title: Dokumentation
 ---

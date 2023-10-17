@@ -1,5 +1,6 @@
 ---
-title: Mise à jour
+eleventyComputed:
+  title: Mise à jour
 ---
 La fonction ***Mise à jour*** invite l'utilisateur à faire la mise à jour vers la plus récente version disponible de l'application et affiche les notes de la version. Un choix d'installation est disponible pour l'utilisateur et s'affiche comme sélectionné.  
 ![Mise à jour disponible](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3587.png) 

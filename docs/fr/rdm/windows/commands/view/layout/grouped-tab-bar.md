@@ -1,5 +1,6 @@
 ---
-title: Barre d'onglets groupés
+eleventyComputed:
+  title: Barre d'onglets groupés
 ---
 {{ fr.RDM }} vous permet d'exécuter plusieurs sessions à la fois en utilisant son mode d'affichage intégré/à onglets, ce qui est particulièrement utile si vous utilisez plusieurs technologies de contrôle à distance en même temps. Puisque toutes vos sessions s'exécutent dans des onglets au sein du même outil utilisé pour les lancer, il n'est plus nécessaire de fouiller dans votre barre de tâches pour localiser la session qui vous intéresse.  
 

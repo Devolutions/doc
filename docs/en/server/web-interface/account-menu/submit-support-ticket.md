@@ -1,5 +1,6 @@
 ---
-title: Submit a Support Ticket
+eleventyComputed:
+  title: Submit a Support Ticket
 ---
 Submit the ***Data Source*** and ***Diagnostic information*** by email to our support team for assistance. 
 

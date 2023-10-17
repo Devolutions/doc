@@ -1,4 +1,5 @@
 ---
-title: Articles de dépannage
-order: 10
+eleventyComputed:
+  title: Articles de dépannage
+  order: 10
 ---

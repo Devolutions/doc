@@ -1,3 +1,4 @@
 ---
-title: Die Devolutions Plattform
+eleventyComputed:
+  title: Die Devolutions Plattform
 ---

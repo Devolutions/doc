@@ -1,5 +1,6 @@
 ---
-title: Temporary Password
+eleventyComputed:
+  title: Temporary Password
 ---
 ***Temporary Password*** are created automatically for new users who are invited to {{ en.DHUBB }} and who do not have {{ en.DA }}.  
 

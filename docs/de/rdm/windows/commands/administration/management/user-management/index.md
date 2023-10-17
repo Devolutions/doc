@@ -1,3 +1,4 @@
 ---
-title: Benutzerverwaltung
+eleventyComputed:
+  title: Benutzerverwaltung
 ---

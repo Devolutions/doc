@@ -1,3 +1,4 @@
 ---
-title: Statusleiste
+eleventyComputed:
+  title: Statusleiste
 ---

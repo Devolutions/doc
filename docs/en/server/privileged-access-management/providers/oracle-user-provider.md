@@ -1,5 +1,6 @@
 ---
-title: Oracle user provider
+eleventyComputed:
+  title: Oracle user provider
 ---
 The Oracle Provider allows {{ en.DVLS }} to store the Oracle account credentials to be used to achieve password rotation.  
 ![Oracle User Provider](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8094.png) 

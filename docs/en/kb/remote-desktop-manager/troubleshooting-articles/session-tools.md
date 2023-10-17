@@ -1,5 +1,6 @@
 ---
-title: Session tools
+eleventyComputed:
+  title: Session tools
 ---
 When you attempt to use ***Computer Management***, you receive the error below:  
 ![!!KB4083](https://webdevolutions.azureedge.net/docs/en/kb/KB4083.png)

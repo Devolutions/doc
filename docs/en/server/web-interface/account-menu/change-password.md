@@ -1,5 +1,6 @@
 ---
-title: Change Password
+eleventyComputed:
+  title: Change Password
 ---
 Allow users to modify their password for authenticating on {{ en.DVLS }}.  
 

@@ -1,5 +1,6 @@
 ---
-title: Variables personnalisées
+eleventyComputed:
+  title: Variables personnalisées
 ---
 Vous pouvez définir vos propres variables personnalisées à utiliser dans votre configuration de source de données. 
 

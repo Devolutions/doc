@@ -1,3 +1,4 @@
 ---
-title: Support
+eleventyComputed:
+  title: Support
 ---

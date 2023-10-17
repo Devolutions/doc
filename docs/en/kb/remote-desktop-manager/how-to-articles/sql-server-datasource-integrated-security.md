@@ -1,7 +1,8 @@
 ---
-title: SQL Server data source with Integrated Security
-keywords:
-- role
+eleventyComputed:
+  title: SQL Server data source with Integrated Security
+  keywords:
+  - role
 ---
 We will take you through a step by step guide to configure and test a {{ en.RDM }} deployment against an SQL Server data source using Integrated Security.  
 

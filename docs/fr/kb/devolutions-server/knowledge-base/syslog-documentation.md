@@ -1,5 +1,6 @@
 ---
-title: Documentation Syslog
+eleventyComputed:
+  title: Documentation Syslog
 ---
 Les informations suivantes décrivent les Messages type et le sous-type des enregistrements envoyés par {{ fr.DVLS }} à un serveur Syslog. 
 

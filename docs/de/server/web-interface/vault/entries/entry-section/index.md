@@ -1,4 +1,5 @@
 ---
-title: Eintragsbereich
-order: 30
+eleventyComputed:
+  title: Eintragsbereich
+  order: 30
 ---

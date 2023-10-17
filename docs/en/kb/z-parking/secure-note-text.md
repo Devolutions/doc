@@ -1,5 +1,6 @@
 ---
-title: Secure Note text
+eleventyComputed:
+  title: Secure Note text
 ---
 The text in a Secure Note is not displayed properly.  
 ![!!KB4088](https://webdevolutions.azureedge.net/docs/en/kb/KB4088.png)

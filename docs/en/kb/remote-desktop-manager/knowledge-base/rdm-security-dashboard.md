@@ -145,7 +145,7 @@ Legacy security has been deprecated and will be completely removed starting with
 Mitigation
 		</td>
 		<td>
-In <i><b>Administration – System Settings – {{ en.VLT }} Management – Security Settings – Security</b></i>, disable <i><b>Use legacy security</b></i>.See <a href="/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Migrate from legacy security to permissions in {{ en.RDM }}</a>.
+In <i><b>Administration – System Settings – {{ en.VLT }} Management – Security Settings – Security</b></i>, disable <i><b>Use legacy security</b></i>.See <a href="/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Disable legacy security in {{ en.RDM }}</a>.
 		</td>
 	</tr>
 </table>

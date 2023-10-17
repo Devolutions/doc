@@ -1,5 +1,6 @@
 ---
-title: Change your Synchronizer Source
+eleventyComputed:
+  title: Change your Synchronizer Source
 ---
 If you have been using the {{ en.RDM }} version with the Synchronizer ***Action on Entry Mismatch*** feature, the following steps will allow you to easily change your source with a Powershell Command without having to recreate all your sessions, thus marking all selected entries as created by the synchronizer. 
 

@@ -1,5 +1,6 @@
 ---
-title: Login
+eleventyComputed:
+  title: Login
 ---
 The ***Login*** section provides tools to audit ***Connected User List***, ***Login Attempt***, ***Login History***, and ***Last Login***.  
 

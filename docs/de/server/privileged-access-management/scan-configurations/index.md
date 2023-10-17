@@ -1,4 +1,5 @@
 ---
-title: Scan Konfiguration
-order: 30
+eleventyComputed:
+  title: Scan Konfiguration
+  order: 30
 ---

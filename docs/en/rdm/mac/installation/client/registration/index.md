@@ -1,6 +1,7 @@
 ---
-title: Registration
-order: 10
+eleventyComputed:
+  title: Registration
+  order: 10
 ---
 ### {{ en.RDMMAC }} Team Edition 
 

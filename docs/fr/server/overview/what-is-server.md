@@ -2,10 +2,10 @@
 eleventyComputed:
   title: '{{ fr.DVLS }}'
   order: 10
-keywords:
-- on-premises
-- self-hosted
-- roles
+  keywords:
+  - on-premises
+  - self-hosted
+  - roles
 ---
 ![!!{{ fr.DVLS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg)
 

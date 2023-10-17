@@ -1,5 +1,6 @@
 ---
-title: Disposition
+eleventyComputed:
+  title: Disposition
 ---
 La section ***Disposition***, qui se situe dans l'onglet ***Affichage***, comprend plusieurs options pour modifier l'affichage de {{ fr.RDM }}. Il est possible d'y activer/désactiver certaines fenêtres et certains onglets pour personnaliser votre expérience.  
 ![Section Disposition](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2027.png) 

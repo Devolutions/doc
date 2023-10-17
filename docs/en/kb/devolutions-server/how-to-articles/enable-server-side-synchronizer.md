@@ -1,5 +1,6 @@
 ---
-title: Enable the server-side synchronizer
+eleventyComputed:
+  title: Enable the server-side synchronizer
 ---
 {% snippet icon.badgeCaution %}
 The {{ en.DVLS }} Scheduler must be installed and running to have this feature enabled.

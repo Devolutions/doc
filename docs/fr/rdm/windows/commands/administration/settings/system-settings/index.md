@@ -1,3 +1,4 @@
 ---
-title: Paramètres du système
+eleventyComputed:
+  title: Paramètres du système
 ---

@@ -1,4 +1,5 @@
 ---
-title: Benutzer
-order: 10
+eleventyComputed:
+  title: Benutzer
+  order: 10
 ---

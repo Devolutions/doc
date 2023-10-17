@@ -1,7 +1,8 @@
 ---
-title: Subscriptions
-keywords:
-- Roles
+eleventyComputed:
+  title: Subscriptions
+  keywords:
+  - Roles
 ---
 The ***Subscriptions*** are intended to send email according to activities on {{ en.DVLS }}. It could be activities on entries, user accounts, system settings, etc. 
 

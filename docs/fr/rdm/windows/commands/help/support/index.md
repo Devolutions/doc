@@ -1,3 +1,4 @@
 ---
-title: Soutien
+eleventyComputed:
+  title: Soutien
 ---

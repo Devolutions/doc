@@ -1,5 +1,6 @@
 ---
-title: Create an Azure AD PAM provider
+eleventyComputed:
+  title: Create an Azure AD PAM provider
 ---
 The following guide provides steps to create an Azure AD user PAM provider for {{ en.DVLS }}.
 
@@ -11,8 +12,8 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 ![Azure Active Directory Service](https://webdevolutions.azureedge.net/docs/en/kb/KB2132.png)
 1. In ***App registrations***, click on ***New registration***.
 ![App registrations – New registration](https://webdevolutions.azureedge.net/docs/en/kb/KB2133.png)
-1. Set the ***Name*** and the ***Redirect URI*** and platform. The ***Redirect URI*** must be the same value as the URL used to connect to {{ en.DVLS }}.
-![Register an application](https://webdevolutions.azureedge.net/docs/en/kb/KB8063.png)
+1. Set the ***Name*** of your application.
+![Register an application](https://webdevolutions.azureedge.net/docs/en/kb/KB2291.png)
 1. Click ***Register*** at the bottom when done.
 
 **In {{ en.DVLS }}**
@@ -90,7 +91,7 @@ Use the filter bar above the permissions list to find the ones you are looking f
 1. To confirm that the admin consent has been granted, check the ***Status*** of your permissions.
 ![Granted Status](https://webdevolutions.azureedge.net/docs/en/kb/KB8071.png)
 1. <a name="Step27"></a>To grant the application the ability to rotate passwords, leave the ***App registrations*** to go back to Azure Active Directory, then select ***Roles and administrators*** in the left menu.
-1. In ***All roles***, click on the ***Helpdesk Administrator*** role.
+1. In ***All roles***, click on the ***Helpdesk Administrator*** role. If the accounts managed by the PAM module are members of any administrator roles or group, then the application needs the ***Privileged Authentication Administrator*** role.
 ![All roles – Helpdesk Administrator](https://webdevolutions.azureedge.net/docs/en/kb/KB8072.png)
 1. In ***Assignments***, click on the ***Add assignments*** button.
 ![Helpdesk Administrator – Add assignments](https://webdevolutions.azureedge.net/docs/en/kb/KB8073.png)

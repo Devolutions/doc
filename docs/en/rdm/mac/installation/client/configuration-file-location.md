@@ -1,5 +1,6 @@
 ---
-title: Configuration file location
+eleventyComputed:
+  title: Configuration file location
 ---
 {{ en.RDMMAC }} saves its configuration in a file named **RemoteDesktopManager.cfg**. This file contains most of the application settings.  
 

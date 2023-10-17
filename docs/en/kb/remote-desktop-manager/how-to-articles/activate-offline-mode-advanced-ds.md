@@ -1,5 +1,6 @@
 ---
-title: Enable Offline mode for an advanced data source
+eleventyComputed:
+  title: Enable Offline mode for an advanced data source
 ---
 {% youtube 'W7jK8g4WbNQ' %}
 

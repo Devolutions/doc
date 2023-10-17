@@ -1,5 +1,6 @@
 ---
-title: Technische Unterstützung
+eleventyComputed:
+  title: Technische Unterstützung
 ---
 Zeiten: Montag bis Freitag 13:30 bis 24:00 Uhr MEZ (7:30 bis 18:00 Uhr EST)  
 

@@ -1,5 +1,6 @@
 ---
-title: CryptographicException - Bad Data
+eleventyComputed:
+  title: CryptographicException - Bad Data
 ---
 The error: CryptographicException - Bad Data in {{ en.DVLS }} is caused by an invalid session key. To fix this error message, please clean the browser's local storage.  
 

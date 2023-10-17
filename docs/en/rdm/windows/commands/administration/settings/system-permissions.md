@@ -1,6 +1,7 @@
 ---
-title: System Permissions
-status: Topic available in German language
+eleventyComputed:
+  title: System Permissions
+  status: Topic available in German language
 ---
 The ***System Permissions*** allows to grant some administrative permissions to standard users without making them administrators. The ***Default*** setting inherits the permission set on the user or user groups. For more information about permissions, consult General Security.  
 
@@ -10,7 +11,7 @@ This feature is only available when using an [Advanced Data Source](/rdm/windows
  
 ### Entries 
 
-![System Permissions - Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3432.png) 
+![System Permissions - Entries](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6158.png) 
 
 <table>
 	<tr>
@@ -57,7 +58,7 @@ Allow users/user groups to access the {{ en.VLT }} properties.
 
 ### Miscellaneous 
 
-![System Permissions - Miscellaneous](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3434.png) 
+![System Permissions - Miscellaneous](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6155.png) 
 
 <table>
 	<tr>
@@ -86,7 +87,7 @@ Allow users/user groups to generate and view reports.
 	</tr>
 	<tr>
 		<td>
-View deleted entries 
+Deleted entries 
 		</td>
 		<td>
 Allow users/user groups to view and restore deleted entries. 
@@ -94,7 +95,7 @@ Allow users/user groups to view and restore deleted entries.
 	</tr>
 	<tr>
 		<td>
-View administration logs 
+Administration logs 
 		</td>
 		<td>
 Allow users/user groups to view the administration logs. 
@@ -108,11 +109,28 @@ Check in (force)
 Allow users/user groups to check in entries with the checked out state. 
 		</td>
 	</tr>
+	</tr>
+	<tr>
+		<td>
+Flag as closed
+		</td>
+		<td>
+Allow users/user groups to mark terminated sessions as closed in the log.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Entry security analyzer
+		</td>
+		<td>
+Allow users/user groups to use the Entry security analyzer.
+		</td>
+	</tr>	
 </table>
 
 ### Tools 
 
-![System Permissions - Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3621.png) 
+![System Permissions - Tools](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6156.png) 
 
 <table>
 	<tr>
@@ -149,10 +167,10 @@ Allow users/user groups to use Macros/Scripts/Tools entries.
 	</tr>
 	<tr>
 		<td>
-Management Tools 
+Remote tools
 		</td>
 		<td>
-Allow users/user groups to use Management Tools. 
+Allow users/user groups to use remote tools. 
 		</td>
 	</tr>
 	<tr>
@@ -165,13 +183,31 @@ Allow users/user groups to use web management tools.
 	</tr>
 </table>
 
-### Management 
-
-{% snippet icon.badgeHelp %} 
-The ***Default*** value in ***Tools*** is equivalent to ***Never***. 
-{% endsnippet %}
+### Templates 
  
-![System Permissions - Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3433.png) 
+![System Permissions - Templates](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6157.png) 
+
+<table>
+	<td>
+Templates 
+		</td>
+		<td>
+Allow users/user groups to create and manage templates. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Password templates 
+		</td>
+		<td>
+Allow users/user groups to create and manage password templates. 
+		</td>
+	</tr>
+</table>
+
+### Management 
+ 
+![System Permissions - Management](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6153.png) 
 
 <table>
 	<tr>
@@ -192,42 +228,41 @@ Allow users/user groups to access the user management.
 	</tr>
 	<tr>
 		<td>
-User Groups 
+ {{ en.VLT }}s
 		</td>
 		<td>
-Allow users/user groups to access the user groups management. 
+Allow users/user groups to manage {{ en.VLT }}s.  Allow users/user groups to access the user groups management. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-{{ en.VLT }} 
+User groups 
 		</td>
 		<td>
-Allow users/user groups to manage {{ en.VLT }} s. 
+Allow users/user groups to access the user groups management.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Data source settings (System Settings) 
+Licenses
 		</td>
 		<td>
-Allow users/user groups to access data source settings. 
+Allow users/user groups to access licenses.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Template 
+Systems settings
 		</td>
 		<td>
-Allow users/user groups to create and manage templates. 
+Allow users/user groups to access the System settings.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Password template 
+System images
 		</td>
 		<td>
-Allow users/user groups to create and manage password templates. 
-		</td>
-	</tr>
+Allow users/user groups to access the System images.
+	</tr>			
 </table>

@@ -1,3 +1,4 @@
 ---
-title: PowerShell Modul
+eleventyComputed:
+  title: PowerShell Modul
 ---

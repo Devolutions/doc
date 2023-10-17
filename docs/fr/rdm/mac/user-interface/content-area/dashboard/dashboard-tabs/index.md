@@ -1,5 +1,6 @@
 ---
-title: Onglets du tableau de bord
+eleventyComputed:
+  title: Onglets du tableau de bord
 ---
 Les onglets du ***Tableau de bord*** vous permettent d'afficher rapidement les informations directement dans votre tableau de bord qui concerne l'entrée sélectionnée. Les onglets disponibles du tableau de bord dépendent du type d'entrée sélectionné.  
 

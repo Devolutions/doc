@@ -1,10 +1,11 @@
 ---
-title: Two-Step Verification
-keywords:
-- 2 factor
-- 2FA
-- authentication
-- MFA
+eleventyComputed:
+  title: Two-Step Verification
+  keywords:
+  - 2 factor
+  - 2FA
+  - authentication
+  - MFA
 ---
 Add a layer of security to your {{ en.DA }} by setting up a two-step verification (2FA) method.  
 

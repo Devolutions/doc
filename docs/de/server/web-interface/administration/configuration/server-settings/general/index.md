@@ -1,4 +1,5 @@
 ---
-title: Allgemein
-order: 10
+eleventyComputed:
+  title: Allgemein
+  order: 10
 ---

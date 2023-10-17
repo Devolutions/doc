@@ -1,6 +1,7 @@
 ---
-title: Generate a self-signed server and client certificates with OpenSSL
-description: This is the definitive guide to create secure certificates, for both servers and clients, using OpenSSL.
+eleventyComputed:
+  title: Generate a self-signed server and client certificates with OpenSSL
+  description: This is the definitive guide to create secure certificates, for both servers and clients, using OpenSSL.
 ---
 This is the definitive guide to create secure certificates, for both servers and clients, using OpenSSL.
 

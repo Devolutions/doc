@@ -1,5 +1,6 @@
 ---
-title: Play List Management
+eleventyComputed:
+  title: Play List Management
 ---
 ### Using a Play List 
 

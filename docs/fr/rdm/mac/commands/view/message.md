@@ -1,5 +1,6 @@
 ---
-title: Message
+eleventyComputed:
+  title: Message
 ---
 La fonctionnalité ***Message*** se trouve dans l'onglet ***Affichage***.  
 ![Bouton Message](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0012.png) 

@@ -1,4 +1,5 @@
 ---
-title: Templates
-order: 40
+eleventyComputed:
+  title: Templates
+  order: 40
 ---

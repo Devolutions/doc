@@ -1,5 +1,6 @@
 ---
-title: Entries
+eleventyComputed:
+  title: Entries
 ---
 The ***Entries*** section provides tools to view ongoing ***Opened Connections***, manage ***Expired Entry List***, use the ***Entry Security Analyzer*** and validate ***Non Default Permission*** for entries.  
 

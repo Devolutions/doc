@@ -1,6 +1,7 @@
 ---
-title: Scripts PowerShell
-order: 80
+eleventyComputed:
+  title: Scripts PowerShell
+  order: 80
 ---
 {% snippet icon.badgeHelp %} 
 Nous sommes passés à un [dépôt GitHub](https://github.com/Devolutions/RDMSamples-ps) pour contenir nos différents échantillons et recettes. Veuillez le consulter pour savoir ce qui est disponible. Les questions et les échantillons doivent être demandés sur notre [forum](https://forum.devolutions.net/product/powershell-module). Notre équipe se fera un plaisir de vous aider. 

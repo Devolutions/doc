@@ -1,5 +1,6 @@
 ---
-title: Types
+eleventyComputed:
+  title: Types
 ---
 Utiliser ***Fichier - Préférences - Types*** pour contrôler les paramètres appliqués aux entrées de session. 
 

@@ -1,5 +1,6 @@
 ---
-title: Password Manager Pro
+eleventyComputed:
+  title: Password Manager Pro
 ---
 ## SYSTEM.NET.WEBEXCEPTION: THE SERVER COMMITTED A PROTOCOL VIOLATION. SECTION=RESPONSESTATUSLINE
 During the configuration of your Password Manager Pro credential entry, make sure that the URL of your server contains https:// and not http://. You absolutely need an https:// at the beginning of the address to communicate properly with the server.  

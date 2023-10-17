@@ -1,5 +1,6 @@
 ---
-title: System Requirements
+eleventyComputed:
+  title: System Requirements
 ---
 {{ en.RDM }} requires the following prior to installation: 
 
@@ -20,8 +21,6 @@ title: System Requirements
 * Windows Server 2019 
 * 2016 
     * Version 1607 
-* 2012 R2 
-* 2012 
 
 Microsoft .NET Framework 4.8  
 1 GHz or faster processor  

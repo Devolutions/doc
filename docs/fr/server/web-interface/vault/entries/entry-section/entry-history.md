@@ -1,5 +1,6 @@
 ---
-title: Historique de l'entrée
+eleventyComputed:
+  title: Historique de l'entrée
 ---
 Visualiser, restaurer, comparer, supprimer et exporter l'***Historique des entrées*** de {{ fr.DVLS }}.  
 

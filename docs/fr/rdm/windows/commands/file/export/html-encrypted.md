@@ -1,5 +1,6 @@
 ---
-title: HTML crypté
+eleventyComputed:
+  title: HTML crypté
 ---
 Le format d'exportation spéciale HTML cryptée a été conçu pour des exportations d'entrées simples et sécurisées. Il permet une exportation HTML des informations d'entrée tout en utilisant le cryptage symétrique (AES-256) pour crypter les informations sensibles telles que les mots de passe. Le fichier est un fichier HTML autonome, portable qui ne nécessite aucun fichier de script ou d'installation externe. Tant que vous avez un navigateur Web avec JavaScript activé, vous pouvez accéder à vos données cryptées. 
 

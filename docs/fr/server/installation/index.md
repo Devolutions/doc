@@ -1,6 +1,7 @@
 ---
-title: Installation
-order: 20
+eleventyComputed:
+  title: Installation
+  order: 20
 ---
 {% snippet icon.badgeInfo %} 
 Si vous venez tout juste de recevoir vos clés de licence, veuillez d'abord consulter la section [Introduction](/fr/server/getting-started/). 

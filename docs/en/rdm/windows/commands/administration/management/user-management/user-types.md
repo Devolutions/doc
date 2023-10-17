@@ -1,5 +1,6 @@
 ---
-title: User types
+eleventyComputed:
+  title: User types
 ---
 When creating users in {{ en.RDM }}, four types of user are available. Basic rights are granted to the created users depending on their type.  
 ![User Management - User Type](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3423.png) 

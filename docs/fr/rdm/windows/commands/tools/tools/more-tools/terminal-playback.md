@@ -1,5 +1,6 @@
 ---
-title: Lecture (Ansi)
+eleventyComputed:
+  title: Lecture (Ansi)
 ---
 La ***Lecture (Ansi)*** est disponible dans ***Outils - Plus d'outils - Lecture (Ansi)***.  
 

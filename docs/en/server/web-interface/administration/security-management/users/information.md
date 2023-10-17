@@ -1,5 +1,6 @@
 ---
-title: Information
+eleventyComputed:
+  title: Information
 ---
 The ***Information*** section is for optional information. 
 

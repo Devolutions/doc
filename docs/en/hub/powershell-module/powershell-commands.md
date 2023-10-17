@@ -1,9 +1,10 @@
 ---
-title: PowerShell commands
-description: This topic is about all authentication commands and handles for PSHubContext. 
-keywords:
-- PowerShell
-- Authentication
+eleventyComputed:
+  title: PowerShell commands
+  description: This topic is about all authentication commands and handles for PSHubContext. 
+  keywords:
+  - PowerShell
+  - Authentication
 ---
 This topic is about all authentication commands and handles for PSHubContext. 
 

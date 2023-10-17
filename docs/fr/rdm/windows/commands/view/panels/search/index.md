@@ -1,5 +1,6 @@
 ---
-title: Rechercher
+eleventyComputed:
+  title: Rechercher
 ---
 La fonction ***Rechercher*** dans la section ***Panneaux*** de l'onglet ***Affichage*** permet de rechercher des dossiers ou des entrées dans la base de données sélectionnée.  
 ![Fonction Rechercher](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin2007.png) 

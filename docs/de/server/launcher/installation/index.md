@@ -1,4 +1,5 @@
 ---
-title: Installation
-order: 10
+eleventyComputed:
+  title: Installation
+  order: 10
 ---

@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Enable Offline Mode in a {{ en.DHUBP }} data source
-description: In {{ en.RDM }}, to use the Offline Mode with a {{ en.DHUBP }} data source, you must first enable the feature in the {{ en.DHUBP }} web interface settings, as it is disabled by default.
-keywords:
-- offline
+  description: In {{ en.RDM }}, to use the Offline Mode with a {{ en.DHUBP }} data source, you must first enable the feature in the {{ en.DHUBP }} web interface settings, as it is disabled by default.
+  keywords:
+  - offline
 ---
 In {{ en.RDM }}, to use the Offline Mode with a {{ en.DHUBP }} data source, you must first enable the feature in the {{ en.DHUBP }} web interface settings, as it is disabled by default.
 

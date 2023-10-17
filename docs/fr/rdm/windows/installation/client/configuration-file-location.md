@@ -1,5 +1,6 @@
 ---
-title: Emplacement du fichier de configuration
+eleventyComputed:
+  title: Emplacement du fichier de configuration
 ---
 ## Emplacement par défaut 
 

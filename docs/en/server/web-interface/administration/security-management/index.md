@@ -1,4 +1,5 @@
 ---
-title: Security Management
-order: 10
+eleventyComputed:
+  title: Security Management
+  order: 10
 ---

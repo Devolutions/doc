@@ -1,5 +1,6 @@
 ---
-title: Refresh
+eleventyComputed:
+  title: Refresh
 ---
 Refreshing the data source allows for updating its content. Data sources are usually refreshed automatically after a set period of time.  
 

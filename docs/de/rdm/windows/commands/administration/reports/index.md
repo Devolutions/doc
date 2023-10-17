@@ -1,3 +1,4 @@
 ---
-title: Berichte
+eleventyComputed:
+  title: Berichte
 ---

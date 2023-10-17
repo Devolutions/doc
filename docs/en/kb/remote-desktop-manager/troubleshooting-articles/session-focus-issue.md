@@ -1,5 +1,6 @@
 ---
-title: Session focus issues
+eleventyComputed:
+  title: Session focus issues
 ---
 After closing a session, the focus is set to the last opened connection.
 ## Solution

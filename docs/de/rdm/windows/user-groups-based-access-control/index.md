@@ -1,4 +1,5 @@
 ---
-title: Gruppenbasierte Zugriffskontrolle
-order: 70
+eleventyComputed:
+  title: Gruppenbasierte Zugriffskontrolle
+  order: 70
 ---

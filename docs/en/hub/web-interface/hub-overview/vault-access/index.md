@@ -6,7 +6,7 @@ eleventyComputed:
 In {{ en.DHUBB }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 
 {% snippet icon.badgeInfo %}
-This feature is also available for [PAM](/hub/privileged-access-management) {{ en.VLT }}s.
+This feature is also available for [PAM {{ en.VLT }}s](/hub/privileged-access-management/pam-vaults/).
 {% endsnippet %}  
 
 {% snippet icon.badgeInfo %}
@@ -27,7 +27,7 @@ By default, shared {{ en.VLT }}s are set to private in the ***System Settings***
 
 ### System-wide {{ en.VLT }} visibility
 
-1. In the web interface for {{ en.DHUBB }}, make sure you are connected to the right data source.
+1. In the web interface of {{ en.DHUBB }}, make sure you are connected to the right data source.
 1. Go to ***Administration – Configuration & Security – System Settings – {{ en.VLT }}***.
 1. Set the ***Visibility*** to either ***Public - Allow access request*** or ***Private - Invitation only***.
 

@@ -1,5 +1,6 @@
 ---
-title: Image list
+eleventyComputed:
+  title: Image list
 ---
 Here is a partial list of images that are possible to override using the theme folder.  
 

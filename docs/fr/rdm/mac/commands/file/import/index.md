@@ -1,3 +1,4 @@
 ---
-title: Importer
+eleventyComputed:
+  title: Importer
 ---

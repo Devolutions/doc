@@ -1,6 +1,7 @@
 ---
-title: Dynamic credential linking
-description: Dynamic credential linking creates a single credential entry for a supported credential manager and uses this credential with any entry type that supports the credential repository.
+eleventyComputed:
+  title: Dynamic credential linking
+  description: Dynamic credential linking creates a single credential entry for a supported credential manager and uses this credential with any entry type that supports the credential repository.
 ---
 Dynamic credential linking creates a single credential entry for a supported credential manager and uses this credential with any entry type that supports the credential repository.
 

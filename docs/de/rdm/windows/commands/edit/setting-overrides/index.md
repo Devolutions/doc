@@ -1,3 +1,4 @@
 ---
-title: Einstellungen überschreiben
+eleventyComputed:
+  title: Einstellungen überschreiben
 ---

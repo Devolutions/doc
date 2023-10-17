@@ -1,6 +1,7 @@
 ---
-title: Technical support
-status: Topic available in German language
+eleventyComputed:
+  title: Technical support
+  status: Topic available in German language
 ---
 Hours: Monday to Friday 7:30 a.m. to 6:00 p.m. EST  
 

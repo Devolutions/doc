@@ -1,9 +1,10 @@
 ---
-title: Topologies
-keywords:
-- high availability
-- load balancing
-- topology
+eleventyComputed:
+  title: Topologies
+  keywords:
+  - high availability
+  - load balancing
+  - topology
 ---
 {{ en.DVLS }} instances can be installed through different topologies. The following examples illustrate different topologies for various purposes.  
 

@@ -1,6 +1,7 @@
 ---
-title: Security
-order: 20
+eleventyComputed:
+  title: Security
+  order: 20
 ---
 The Security section allows the administrator to configure the allowed and denied IPs addresses.  
 

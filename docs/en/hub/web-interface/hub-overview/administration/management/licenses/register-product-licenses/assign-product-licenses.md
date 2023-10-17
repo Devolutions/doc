@@ -1,5 +1,6 @@
 ---
-title: Assign Product Licenses
+eleventyComputed:
+  title: Assign Product Licenses
 ---
 Assign Devolutions ***Product Licenses*** in {{ en.DHUBB }} to users.  
 

@@ -1,19 +1,19 @@
 ---
 eleventyComputed:
-  title: Im {{ de.RDM }} vom veralteten Sicherheitssystem zu Berechtigungen wechseln
+  title: Deaktivieren des veralteten Sicherheitskonzept in {{ de.RDM }}
 ---
 {% snippet icon.badgeWarning %}
-Sicherheitsgruppen sind ab der Version 2023.3 von {{ de.RDM }} veraltet.
-In diesem Beitrag wird dargelegt, wie man im {{ de.RDM }} sicher vom alten Sicherheitssystem zu Berechtigungen wechselt.  
+Sicherheitsgruppen sind seit {{ de.RDM }} Version 2023.3 veraltet. 
+In diesem Beitrag wird beschreiben, wie das alte Sicherheitssystem deaktiviert wird. 
 
-Vor dem Wechsel vom alten Sicherheitssystem ist es ratsam, zunächst auch die Nutzergruppen zu konfigurieren. Erfahren Sie mehr darüber in [Wechsel von Sicherheitsgruppen zu Nutzergruppen](/de/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
+Vor dem Deaktivieren stellen sie bitte Sicher, dass zuvor die Berechtigungen migriert wurden: [Migration von Sicherheitsgruppen zu Gruppen](/de/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).
 {% endsnippet %}  
 
-Befolgen Sie diese Schritte, um sicher von der ***veralteten Sicherheitssystem*** zu ***Berechtigungen*** im {{ de.RDM }}er zu migrieren.
+Befolgen Sie folgende Schritte, um das ***veraltete Sicherheitskonzept*** zu deaktivieren.
 
 1. Gehen Sie im {{ de.RDM }} zur Registerkarte  ***Administration***.
-1. Wählen Sie unter ***Einstellungen*** die Option ***Systemeinstellungen***.  
-![Administration – Systemeinstellungen](https://webdevolutions.azureedge.net/docs/de/kb/KB0026.png)
-1. Gehen Sie zu ***{{ de.VLT }}verwaltung – Sicherheitseinstellungen – Sicherheit*** und deaktivieren Sie ***Altes Sicherheitssystem verwenden***.  
-![Altes Sicherheitssystem verwenden](https://webdevolutions.azureedge.net/docs/de/kb/KB0027.png)
+1. Wählen Sie unter ***Einstellungen*** die Option ***System Einstellungen***.  
+![Administration – System Einstellungen](https://webdevolutions.azureedge.net/docs/de/kb/KB0026.png)
+1. Gehen Sie zu ***{{ de.VLT }} Verwaltung – Sicherheit*** und deaktivieren Sie ***Alte Sicherheit verwenden***.  
+![Alte Sicherheit verwenden](https://webdevolutions.azureedge.net/docs/de/kb/KB0027.png)
 1. Klicken Sie auf ***OK***, um die Änderungen zu übernehmen und das Fenster zu schließen.

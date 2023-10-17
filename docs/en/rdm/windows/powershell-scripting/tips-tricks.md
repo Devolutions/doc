@@ -1,10 +1,11 @@
 ---
-title: List of property names for PowerShell script
-status: Topic available in German language
-keywords:
-- PowerShell
-- GUID
-- Permissions
+eleventyComputed:
+  title: List of property names for PowerShell script
+  status: Topic available in German language
+  keywords:
+  - PowerShell
+  - GUID
+  - Permissions
 ---
 We are often asked for a full list of property names and it is hard to provide for multiple reasons. The most effective approach remains examining the XML structure of a relevant entry to ascertain the field names.
 

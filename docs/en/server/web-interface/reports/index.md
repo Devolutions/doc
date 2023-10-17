@@ -1,6 +1,7 @@
 ---
-title: Reports
-order: 40
+eleventyComputed:
+  title: Reports
+  order: 40
 ---
 The ***Reports*** section provides the administrators with tools to perform audits on [Login](/server/web-interface/reports/login/), [Entries](/server/web-interface/reports/entries/), [Logs](/server/web-interface/reports/logs/), [Modules](/server/web-interface/reports/modules/), and [Configuration](/server/web-interface/reports/configuration/). 
 

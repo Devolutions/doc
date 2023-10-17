@@ -1,3 +1,4 @@
 ---
-title: Generatoren
+eleventyComputed:
+  title: Generatoren
 ---

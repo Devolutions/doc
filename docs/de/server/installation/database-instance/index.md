@@ -1,4 +1,5 @@
 ---
-title: Datenbankinstanz
-order: 20
+eleventyComputed:
+  title: Datenbankinstanz
+  order: 20
 ---

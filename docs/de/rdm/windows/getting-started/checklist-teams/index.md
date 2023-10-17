@@ -1,3 +1,4 @@
 ---
-title: Checkliste für Teams
+eleventyComputed:
+  title: Checkliste für Teams
 ---

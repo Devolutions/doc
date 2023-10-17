@@ -1,5 +1,6 @@
 ---
-title: Opera
+eleventyComputed:
+  title: Opera
 ---
 Suivez les étapes ci-dessous pour compléter l'installation de {{ fr.DWL }} dans le navigateur Opera.  
 

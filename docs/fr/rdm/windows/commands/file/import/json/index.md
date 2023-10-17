@@ -1,5 +1,6 @@
 ---
-title: Import (.json)
+eleventyComputed:
+  title: Import (.json)
 ---
 {{ fr.RDM }} vous permet d'importer des entrées à partir de fichiers JSON stockés sur votre ordinateur. 
 

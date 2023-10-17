@@ -1,4 +1,5 @@
 ---
-title: Getting started
-order: 10
+eleventyComputed:
+  title: Getting started
+  order: 10
 ---

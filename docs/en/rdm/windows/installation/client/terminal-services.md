@@ -1,5 +1,6 @@
 ---
-title: Terminal Services / Remote Desktop Services
+eleventyComputed:
+  title: Terminal Services / Remote Desktop Services
 ---
 {{ en.RDM }} has an excellent support for running under a Remote Desktop Services environment. A master configuration file can be created to distribute settings for all new users of the system or even to update existing user's configuration.  
 

@@ -2,7 +2,7 @@
 eleventyComputed:
   title: '{{ de.UVLT }}'
 ---
-Der {{ de.UVLT }} ist ein benutzerzentrierter {{ de.VLT }} für Einträge jeder Art. Er erlaubt jedem Nutzer, Einträge zu erstellen, auf die nur er Zugriff hat.  
+Der {{ de.UVLT }} ist ein benutzerspezifischer {{ de.VLT }} für Einträge aller Art. Dieser erlaubt es Benutzer, Einträge zu erstellen, auf die nur der jeweilige Benutzer Zugriff hat.  
 
 {% snippet icon.badgeInfo %} 
 Der {{ de.UVLT }} ist für alle [Erweiterten Datenquellen](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) verfügbar. 
@@ -14,7 +14,7 @@ Der {{ de.UVLT }} ist für alle [Erweiterten Datenquellen](/rdm/windows/data-sou
 
 Anmeldeinformationen im {{ de.UVLT }} könne auf zwei Arten verwendet werden:  
 
-1. Aus einer Sitzung mit der ***Suche im {{ de.UVLT }}***. 
-1. Durch Verwendung der Funktion ***Benutzerspezifische Einstellungen***. 
+1. Aus einer Sitzung mit der ***Nach Namen suchen ({{ de.UVLT }})***. 
+1. Verwendung von [***Benutzerspezifische Einstellungen***](/de/rdm/windows/commands/edit/setting-overrides/specific-settings/). 
 
-Diese Einschränkungen sind leicht zu verstehen, wenn man bedenkt, dass der {{ de.UVLT }} wirklich im Nutzerbereich der Datenbank enthalten ist. Er muss daher aus dem {{ de.UVLT }} heraus oder über unseren benutzerspezifischen Erweiterungsmechanismus verwendet werden.
+Diese Einschränkung ergibt sich daraus, dass der {{ de.UVLT }} im Benutzerbereich der Datenbank gespeichert wird. Daher können diese nur direkt aus dem {{ de.UVLT }} oder über die benutzerspezifischen Einstellungen verwendet werden.

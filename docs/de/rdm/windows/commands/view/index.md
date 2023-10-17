@@ -1,3 +1,4 @@
 ---
-title: Ansicht
+eleventyComputed:
+  title: Ansicht
 ---

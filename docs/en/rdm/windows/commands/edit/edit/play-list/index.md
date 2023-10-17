@@ -1,3 +1,4 @@
 ---
-title: Play List
+eleventyComputed:
+  title: Play List
 ---

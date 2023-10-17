@@ -1,5 +1,6 @@
 ---
-title: Uninstall
+eleventyComputed:
+  title: Uninstall
 ---
 ### Instructions 
 

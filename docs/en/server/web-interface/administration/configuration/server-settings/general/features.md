@@ -1,5 +1,6 @@
 ---
-title: Features
+eleventyComputed:
+  title: Features
 ---
 The Features section section allows the administrator to configure the web interface features.  
 

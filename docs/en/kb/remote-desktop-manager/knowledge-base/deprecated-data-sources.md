@@ -1,5 +1,6 @@
 ---
-title: Deprecated data sources
+eleventyComputed:
+  title: Deprecated data sources
 ---
 For several reasons, multiple data sources are tagged as deprecated in {{ en.RDM }}.  
 

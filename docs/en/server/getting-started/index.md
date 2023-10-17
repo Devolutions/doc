@@ -1,6 +1,7 @@
 ---
-title: Getting started
-order: 10
+eleventyComputed:
+  title: Getting started
+  order: 10
 ---
 {% snippet icon.badgeInfo %} 
 This topic is for {{ en.DVLS }} Enterprise Edition. If you have purchased {{ en.DVLS }} Team Edition instead, please consult [Team Edition](/server/getting-started/team-edition/). 

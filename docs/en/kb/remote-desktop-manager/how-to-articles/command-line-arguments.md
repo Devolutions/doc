@@ -1,5 +1,6 @@
 ---
-title: Command line arguments
+eleventyComputed:
+  title: Command line arguments
 ---
 {% youtube 'Ojr0DnmbviI' %}
 

@@ -1,5 +1,6 @@
 ---
-title: Passcode prompt when opening an entry
+eleventyComputed:
+  title: Passcode prompt when opening an entry
 ---
 Sometimes you want to ensure that your users are really opening the right session.
 

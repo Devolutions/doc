@@ -1,5 +1,6 @@
 ---
-title: Administration
+eleventyComputed:
+  title: Administration
 ---
 Le ruban ***Administration*** n'est disponible que pour l'administrateur de la source de données, car il est principalement utilisé pour gérer les paramètres et les utilisateurs d'une source de données. Si les options sont grisées, contactez votre administrateur.  
 

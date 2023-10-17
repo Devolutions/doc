@@ -1,4 +1,5 @@
 ---
-title: How-to
-order: 0
+eleventyComputed:
+  title: How-to
+  order: 0
 ---

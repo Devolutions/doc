@@ -1,6 +1,7 @@
 ---
-title: Serials
-order: 10
+eleventyComputed:
+  title: Serials
+  order: 10
 ---
 The ***Serials*** section allows you to manually add, edit or delete license keys that you want to store in the portal. You can also import it from your invoice if it is associated with this account.  
 

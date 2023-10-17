@@ -1,5 +1,6 @@
 ---
-title: Quick Access
+eleventyComputed:
+  title: Quick Access
 ---
 The Quick Access Toolbar normally sits at the top of the application. It is composed of multiple parts:  
 

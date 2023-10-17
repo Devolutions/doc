@@ -1,5 +1,6 @@
 ---
-title: Documentation
+eleventyComputed:
+  title: Documentation
 ---
 The Documentation tab allows to store information about resources in the data source. To access an entry's documentation, select an entry in the ***{{ en.NPANE }}***, then select the Documentation tab in the dashboard. 
 

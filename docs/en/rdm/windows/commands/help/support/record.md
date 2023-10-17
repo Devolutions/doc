@@ -1,5 +1,6 @@
 ---
-title: Record
+eleventyComputed:
+  title: Record
 ---
 If you are experiencing issues with {{ en.RDM }}, you can help our support team troubleshoot the problem by sending them a short video of your issue. Launch this by using the ***Record*** feature located in the menu ***Help – Record***. 
 

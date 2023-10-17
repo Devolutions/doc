@@ -1,3 +1,4 @@
 ---
-title: Suche
+eleventyComputed:
+  title: Suche
 ---

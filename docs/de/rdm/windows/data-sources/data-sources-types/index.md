@@ -1,4 +1,5 @@
 ---
-title: Datenquellentypen
-order: 20
+eleventyComputed:
+  title: Datenquellentypen
+  order: 20
 ---

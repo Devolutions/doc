@@ -1,5 +1,6 @@
 ---
-title: Import a CSV file as a Password List with hostnames
+eleventyComputed:
+  title: Import a CSV file as a Password List with hostnames
 ---
 Here are the steps to import ***Password List*** entries with hostname.
 

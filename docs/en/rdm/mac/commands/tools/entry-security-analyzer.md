@@ -1,5 +1,6 @@
 ---
-title: Entry Security Analyzer
+eleventyComputed:
+  title: Entry Security Analyzer
 ---
 The Entry Security Analyzer is available in the Tools menu. It will display the strength indicator for all passwords stored in your data source.  
 ![!!clip10460](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10460.png) 

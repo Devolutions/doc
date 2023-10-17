@@ -1,3 +1,4 @@
 ---
-title: Meine Kontoeinstellungen
+eleventyComputed:
+  title: Meine Kontoeinstellungen
 ---

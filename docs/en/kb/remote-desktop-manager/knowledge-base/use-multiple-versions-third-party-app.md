@@ -1,5 +1,6 @@
 ---
-title: Use multiple versions of a third-party application
+eleventyComputed:
+  title: Use multiple versions of a third-party application
 ---
 You have 2 different versions of an application installed on your workstation and you want to be able to use both versions within {{ en.RDM }}
 ## Settings

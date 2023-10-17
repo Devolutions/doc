@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: Inviter des utilisateurs pour SSO dans {{ fr.DHUBB }}
-description: Une fois l'authentification unique (SSO) confighurée et activée, invitez vos utilisateurs dans votre Hub en suivant ces étapes.
-keywords:
-- SSO
-- inviter des utilisateurs
-- organisation
-- authentification
+  description: Une fois l'authentification unique (SSO) confighurée et activée, invitez vos utilisateurs dans votre Hub en suivant ces étapes.
+  keywords:
+  - SSO
+  - inviter des utilisateurs
+  - organisation
+  - authentification
 ---
 Une fois l'authentification unique (SSO) [configurée et activée](HUB_Connect_AzureAD_Office365_Authentification), vous pouvez désormais utiliser cette invitation spécifique pour tous vos utilisateurs.  
 

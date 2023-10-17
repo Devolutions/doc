@@ -1,5 +1,6 @@
 ---
-title: Black screen with an ARD session
+eleventyComputed:
+  title: Black screen with an ARD session
 ---
 You get a black screen appear after connecting with an Apple Remote Desktop session entry.  
 

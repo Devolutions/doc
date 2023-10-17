@@ -1,5 +1,6 @@
 ---
-title: Gérer mot de passe
+eleventyComputed:
+  title: Gérer mot de passe
 ---
 Utiliser ***Fichier - Gérer mot de passe*** pour crypter la source de données.  
 

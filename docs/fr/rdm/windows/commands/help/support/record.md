@@ -1,5 +1,6 @@
 ---
-title: Enregistreur
+eleventyComputed:
+  title: Enregistreur
 ---
 Si vous rencontrez des problèmes avec {{ fr.RDM }}, vous pouvez aider notre équipe de support Devolutions à résoudre le problème en leur envoyant une courte vidéo de votre problème. Lancer l'enregistrement en utilisant la fonction Commencer l'enregistrement situé dans le menu ***Aide - Commencer Enregistrement***.  
 

@@ -1,5 +1,6 @@
 ---
-title: Santé
+eleventyComputed:
+  title: Santé
 ---
 Dans la section ***Santé***, afficher et résoudre les problèmes liés à l'entrée.  
 

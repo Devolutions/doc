@@ -1,5 +1,6 @@
 ---
-title: Putty embedded mode
+eleventyComputed:
+  title: Putty embedded mode
 ---
 Putty in embedded mode does not work in the application.  
 

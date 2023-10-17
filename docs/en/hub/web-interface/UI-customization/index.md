@@ -1,3 +1,4 @@
 ---
-title: UI customization
+eleventyComputed:
+  title: UI customization
 ---

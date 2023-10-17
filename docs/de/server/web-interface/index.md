@@ -1,4 +1,5 @@
 ---
-title: Weboberfläche
-order: 40
+eleventyComputed:
+  title: Weboberfläche
+  order: 40
 ---

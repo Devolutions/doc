@@ -52,5 +52,7 @@
         "formattedName": "<b>Devolutions</b> Cloud Services"
       }
     },
-    "placeholderSearch": "Welche Informationen suchen Sie?"
+    "placeholderSearch": "Welche Informationen suchen Sie?",
+    "labelFeedbackButton": "Feedback"
+
   }

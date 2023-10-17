@@ -1,4 +1,5 @@
 ---
-title: Befehle
-order: 50
+eleventyComputed:
+  title: Befehle
+  order: 50
 ---

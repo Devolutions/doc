@@ -1,6 +1,7 @@
 ---
-title: Data Source Types
-order: 20
+eleventyComputed:
+  title: Data Source Types
+  order: 20
 ---
 {{ en.RDMMAC }} supports multiple types of data source. First decide which data source you are going to use.  
 

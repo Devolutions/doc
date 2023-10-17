@@ -1,6 +1,7 @@
 ---
-title: Small to Medium Enterprise
-description: Here we will give you a security structure example that should be relevant for small to medium businesses.  
+eleventyComputed:
+  title: Small to Medium Enterprise
+  description: Here we will give you a security structure example that should be relevant for small to medium businesses.  
 ---
 Here we will give you a security structure example that should be relevant for small to medium businesses.  
 

@@ -1,5 +1,5 @@
 ---
-eleventyCompupted:
+eleventyComputed:
   title: '{{ en.DA }}'
   order: 10
 ---

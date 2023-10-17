@@ -1,4 +1,5 @@
 ---
-title: Authentifizierung
-order: 10
+eleventyComputed:
+  title: Authentifizierung
+  order: 10
 ---

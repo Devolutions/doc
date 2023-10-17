@@ -1,5 +1,6 @@
 ---
-title: Entry Templates
+eleventyComputed:
+  title: Entry Templates
 ---
 In the ***Entry Templates*** section, view and manage all the entry templates in {{ en.DHUB }}.  
 ![!!Hub4169](https://webdevolutions.azureedge.net/docs/en/hub/Hub4169.png) 

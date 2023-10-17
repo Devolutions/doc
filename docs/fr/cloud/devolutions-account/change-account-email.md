@@ -1,5 +1,6 @@
 ---
-title: Modifier le courriel d'un compte
+eleventyComputed:
+  title: Modifier le courriel d'un compte
 ---
 {% snippet icon.shieldWarning %} 
 Pour des raisons de sécurité, nous n'effectuons plus de changement de courriel de {{ fr.DA }}. 

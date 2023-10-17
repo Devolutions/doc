@@ -1,5 +1,6 @@
 ---
-title: Menu latéral
+eleventyComputed:
+  title: Menu latéral
 ---
 En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }}. Chaque onglet affiche une vue différente dans la ***Zone de contenu***.  
 

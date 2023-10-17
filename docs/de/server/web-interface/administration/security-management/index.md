@@ -1,4 +1,5 @@
 ---
-title: Sicherheitsverwaltung
-order: 10
+eleventyComputed:
+  title: Sicherheitsverwaltung
+  order: 10
 ---

@@ -1,6 +1,7 @@
 ---
-title: Batch Edit
-status: Topic available in German language
+eleventyComputed:
+  title: Batch Edit
+  status: Topic available in German language
 ---
 {% youtube 'M4eCCgl2Dwc' %}  
 
@@ -22,6 +23,8 @@ You can change the ***Host*** names.
 ![Batch Edit – Change Saved Host Name](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10237.png) 
 
 ### Change Saved Credentials 
+
+{% youtube 'FtSlp_TVAxE?si=2M7S4CNhU3pv8DQs&amp;start=701' %}  
 
 You can change the ***Credential mode*** and credentials (***Username***, ***Domain***, and ***Password***) or reset them.  
 ![Batch Edit – Change Saved Credentials](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2102.png) 

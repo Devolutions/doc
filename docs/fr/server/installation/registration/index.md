@@ -1,7 +1,8 @@
 ---
-title: Enregistrement
-order: 10
-description: Enregistrez votre licence de {{ fr.DVLS }}.
+eleventyComputed:
+  title: Enregistrement
+  order: 10
+  description: Enregistrez votre licence de {{ fr.DVLS }}.
 ---
 ## Demander un essai 
 Il est possible de demander un essai gratuit de 30 jours pour essayer {{ fr.DVLS }} version Enterprise. Pour plus d'informations, veuillez consulter [Demander un essai gratui de {{ fr.DVLS }}](https://devolutions.net/server/fr/trial).  

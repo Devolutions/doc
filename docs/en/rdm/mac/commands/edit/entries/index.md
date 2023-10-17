@@ -1,5 +1,6 @@
 ---
-title: Add Entries
+eleventyComputed:
+  title: Add Entries
 ---
 The Add options lets you quickly create new entries, duplicate them, create shortcut or rapidly save your entry as a template. 
 

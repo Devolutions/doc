@@ -1,5 +1,6 @@
 ---
-title: Management
+eleventyComputed:
+  title: Management
 ---
 There are 3 way to Open a Play List: 
 

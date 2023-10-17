@@ -1,5 +1,6 @@
 ---
-title: Port Generator
+eleventyComputed:
+  title: Port Generator
 ---
 The ***Port Generator*** allows you to generate ports for your connections.  
 

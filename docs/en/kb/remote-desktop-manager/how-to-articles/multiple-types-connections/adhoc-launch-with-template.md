@@ -1,5 +1,6 @@
 ---
-title: Ad-hoc launch with a template
+eleventyComputed:
+  title: Ad-hoc launch with a template
 ---
 This method uses a dashboard command that is available on all sessions. It is a good fit for a scenario where you usually connect with a specific technology, but occasionally need to use another.
 

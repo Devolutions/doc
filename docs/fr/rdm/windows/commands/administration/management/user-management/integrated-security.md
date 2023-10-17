@@ -1,5 +1,6 @@
 ---
-title: Sécurité intégrée
+eleventyComputed:
+  title: Sécurité intégrée
 ---
 La Sécurité intégrée est le nom que Microsoft donne à la technologie qui utilise les identifiants de votre session en cours d'exécution et les transmet automatiquement aux ressources distantes pour l'authentification.  
 

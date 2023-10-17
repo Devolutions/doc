@@ -1,5 +1,6 @@
 ---
-title: Configure SSL
+eleventyComputed:
+  title: Configure SSL
 ---
 Please perform these steps only after you have configured the {{ en.DVLS }} instance and that you have indeed connected through a client application. Performing these steps right from the start may add a layer of complexity that may prevent you from succeeding in the initial configuration. 
 

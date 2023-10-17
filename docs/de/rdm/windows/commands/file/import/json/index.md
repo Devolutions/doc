@@ -1,3 +1,4 @@
 ---
-title: Importieren (.json)
+eleventyComputed:
+  title: Importieren (.json)
 ---

@@ -1,4 +1,5 @@
 ---
-title: Base de connaissances générales
-order: 110
+eleventyComputed:
+  title: Base de connaissances générales
+  order: 110
 ---

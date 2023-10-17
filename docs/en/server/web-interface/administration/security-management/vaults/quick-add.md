@@ -1,5 +1,6 @@
 ---
-title: Quick Add
+eleventyComputed:
+  title: Quick Add
 ---
 Allow to customize the list of quick add buttons with preferred session types.  
 

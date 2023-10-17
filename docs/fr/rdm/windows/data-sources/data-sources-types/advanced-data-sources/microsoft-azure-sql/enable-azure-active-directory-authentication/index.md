@@ -1,3 +1,4 @@
 ---
-title: Activer l'authentification d'Azure Active Directory
+eleventyComputed:
+  title: Activer l'authentification d'Azure Active Directory
 ---

@@ -1,3 +1,4 @@
 ---
-title: Zugriff gewähren - Stapelverarbeitung
+eleventyComputed:
+  title: Zugriff gewähren - Stapelverarbeitung
 ---

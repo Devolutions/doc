@@ -1,5 +1,6 @@
 ---
-title: Groupes de sécurité (ancien)
+eleventyComputed:
+  title: Groupes de sécurité (ancien)
 ---
 {% snippet icon.badgeWarning %}
 La sécurité ancienne et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Voir [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/).

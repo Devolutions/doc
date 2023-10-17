@@ -1,3 +1,4 @@
 ---
-title: Bereinigen
+eleventyComputed:
+  title: Bereinigen
 ---

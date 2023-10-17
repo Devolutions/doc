@@ -1,6 +1,7 @@
 ---
-title: Administration
-order: 30
+eleventyComputed:
+  title: Administration
+  order: 30
 ---
 La section ***Administration*** est disponible que pour les administrateurs. Vous trouverez ici les différentes nécessités pour probablement gérer et personnaliser vos paramètres, allant de la gestion de la sécurité au système de sauvegarde.  
 ![Administration](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8029.png) 

@@ -1,5 +1,6 @@
 ---
-title: Impossible d'importer des utilisateurs ou des groupes d'Azure AD
+eleventyComputed:
+  title: Impossible d'importer des utilisateurs ou des groupes d'Azure AD
 ---
 Il est possible que le cache d'Azure AD stocké dans {{ fr.DVLS }} ne soit pas correctement chargé. Voici les étapes à suivre pour résoudre ce problème. 
 {% snippet icon.badgeCaution %} 

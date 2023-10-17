@@ -1,3 +1,4 @@
 ---
-title: Clean up
+eleventyComputed:
+  title: Clean up
 ---

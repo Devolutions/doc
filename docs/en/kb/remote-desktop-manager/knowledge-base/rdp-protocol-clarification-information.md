@@ -1,5 +1,6 @@
 ---
-title: RDP clarification and information
+eleventyComputed:
+  title: RDP clarification and information
 ---
 In {{ en.RDM }}, the latest RDP Version will use the latest version of the Microsoft RDP ActiveX present on the system - it’s always mstscax.dll, but the DLL contains different versions of the the ActiveX interface.  
 

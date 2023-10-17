@@ -1,3 +1,4 @@
 ---
-title: Importieren (.rdm)
+eleventyComputed:
+  title: Importieren (.rdm)
 ---

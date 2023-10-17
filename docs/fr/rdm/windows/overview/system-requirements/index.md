@@ -1,5 +1,6 @@
 ---
-title: Configuration du système
+eleventyComputed:
+  title: Configuration du système
 ---
 ## {{ fr.RDM }} nécessite cette configuration avant l'installation. 
 

@@ -1,4 +1,5 @@
 ---
-title: Troubleshooting 
-order: 10
+eleventyComputed:
+  title: Troubleshooting 
+  order: 10
 ---

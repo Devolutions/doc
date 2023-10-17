@@ -1,5 +1,6 @@
 ---
-title: User Subscriptions
+eleventyComputed:
+  title: User Subscriptions
 ---
 Manage the ***User Subscriptions*** to entries notification settings.  
 

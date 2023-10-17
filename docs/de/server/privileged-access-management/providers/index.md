@@ -1,4 +1,5 @@
 ---
-title: Anbieter
-order: 20
+eleventyComputed:
+  title: Anbieter
+  order: 20
 ---

@@ -1,5 +1,6 @@
 ---
-title: Create a Microsoft L2TP VPN entry
+eleventyComputed:
+  title: Create a Microsoft L2TP VPN entry
 ---
 You can create a Microsoft L2TP VPN entry with {{ en.RDM }} versions 2021.1.1.0 and above.
 

@@ -1,3 +1,4 @@
 ---
-title: Lizenzen
+eleventyComputed:
+  title: Lizenzen
 ---

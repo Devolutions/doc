@@ -1,3 +1,4 @@
 ---
-title: Entrée
+eleventyComputed:
+  title: Entrée
 ---

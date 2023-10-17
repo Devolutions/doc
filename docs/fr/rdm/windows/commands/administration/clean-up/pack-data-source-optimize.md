@@ -1,5 +1,6 @@
 ---
-title: Optimiser la source de données
+eleventyComputed:
+  title: Optimiser la source de données
 ---
 Lorsque vous conservez un grand nombre d'entrées dans votre source de données, il est recommandé de les compresser pour éviter les problèmes de lenteur lors de l'utilisation de votre source de données. L'optimisateur de source de données analysera toutes vos entrées, les compressera puis les réenregistrera, économisant ainsi de l'espace dans votre source de données.  
 

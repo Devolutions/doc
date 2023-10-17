@@ -1,3 +1,4 @@
 ---
-title: Entry Types Events Settings
+eleventyComputed:
+  title: Entry Types Events Settings
 ---

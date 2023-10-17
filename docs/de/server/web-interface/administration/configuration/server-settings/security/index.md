@@ -1,4 +1,5 @@
 ---
-title: Sicherheit
-order: 20
+eleventyComputed:
+  title: Sicherheit
+  order: 20
 ---

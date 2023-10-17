@@ -1,3 +1,4 @@
 ---
-title: Paramètres de substitution
+eleventyComputed:
+  title: Paramètres de substitution
 ---

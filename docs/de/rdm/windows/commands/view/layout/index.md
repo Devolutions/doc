@@ -1,3 +1,4 @@
 ---
-title: Layout
+eleventyComputed:
+  title: Layout
 ---

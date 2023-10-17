@@ -1,9 +1,10 @@
 ---
-title: Ticketing Service
-description: The Ticketing Service feature helps you distribute information to all users of the ticketing system that is used inside {{ en.RDM }}.
-keywords:
-- ticketing
-- API token
+eleventyComputed:
+  title: Ticketing Service
+  description: The Ticketing Service feature helps you distribute information to all users of the ticketing system that is used inside {{ en.RDM }}.
+  keywords:
+  - ticketing
+  - API token
 ---
 {% snippet icon.badgeInfo %} 
 This feature is only available in {{ en.RDM }} with an advanced data source like {{ en.DVLS }}.

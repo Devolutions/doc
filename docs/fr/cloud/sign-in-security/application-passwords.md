@@ -1,5 +1,6 @@
 ---
-title: Mots de passe d'application
+eleventyComputed:
+  title: Mots de passe d'application
 ---
 Les ***Mots de passe d'application*** sont un moyen de s'authentifier rapidement avec d'autres applications Devolutions comme {{ fr.RDM }}.  
 

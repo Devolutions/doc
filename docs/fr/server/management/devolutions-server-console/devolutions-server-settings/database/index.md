@@ -1,6 +1,7 @@
 ---
-title: Base de données
-order: 20
+eleventyComputed:
+  title: Base de données
+  order: 20
 ---
 La section de l'onglet ***Base de données*** contient les informations du serveur SQL, les identifiants SQL et le nom de la base de données utilisé par {{ fr.DVLS }}.  
 

@@ -1,4 +1,5 @@
 ---
-title: Configuration et paramètres
-order: 20
+eleventyComputed:
+  title: Configuration et paramètres
+  order: 20
 ---

@@ -1,5 +1,6 @@
 ---
-title: Remote installation with PSExec
+eleventyComputed:
+  title: Remote installation with PSExec
 ---
 When you need to perform a remote installation, you have multiple options. Such as a domain policy, a logon script or PSExec.
 

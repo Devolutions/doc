@@ -1,9 +1,10 @@
 ---
-title: Host with templates
-description: A Host Session entry will let you use templates to connect to the host. It will prompt you to choose which template to use to launch the host.
-keywords:
-- template
-- host
+eleventyComputed:
+  title: Host with templates
+  description: A Host Session entry will let you use templates to connect to the host. It will prompt you to choose which template to use to launch the host.
+  keywords:
+  - template
+  - host
 ---
 A ***Host Session*** entry will let you use templates to connect to the host. It will prompt you to choose which template to use to launch the host.
 

@@ -1,5 +1,6 @@
 ---
-title: Accueil
+eleventyComputed:
+  title: Accueil
 ---
 Le ruban ***Accueil*** vous permet d'appliquer une action à l'entrée actuellement sélectionnée. Les actions disponibles dans le ruban dépendent du type d'entrée sélectionné dans votre ***{{ fr.NPANE }}***.  
 ![Menu Accueil](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4041.png) 

@@ -1,5 +1,6 @@
 ---
-title: Lost the 2FA set on the data source
+eleventyComputed:
+  title: Lost the 2FA set on the data source
 ---
 The user lost their phone that contains the 2FA for their data source.
 ## Solution  

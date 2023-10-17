@@ -1,5 +1,6 @@
 ---
-title: Rechercher
+eleventyComputed:
+  title: Rechercher
 ---
 Lorsque plusieurs tâches sont créées dans {{ fr.RDM }}, effectuer une recherche en cliquant sur le bouton ***Rechercher*** pour filtrer la liste des tâches affichées.  
 ![Rechercher une tâche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4083.png) 

@@ -1,4 +1,5 @@
 ---
-title: Gruppenbasierte Sicherheit
-order: 50
+eleventyComputed:
+  title: Gruppenbasierte Sicherheit
+  order: 50
 ---

@@ -1,7 +1,8 @@
 ---
-title: Gestion
-keywords:
-- Rôle
+eleventyComputed:
+  title: Gestion
+  keywords:
+  - Rôle
 ---
 ![Administration - Permissions du système - Gestion](https://webdevolutions.azureedge.net/docs/fr/server/clip8053.png)  
 

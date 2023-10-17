@@ -1,5 +1,6 @@
 ---
-title: Utilisateurs
+eleventyComputed:
+  title: Utilisateurs
 ---
 Dans la section Utilisateurs de {{ fr.DHUBB }}, vous pouvez ***Modifier***, ***Suprimer***, ***Réinviter*** et ***Définir comme propriétaire*** les utilisateurs.  
 

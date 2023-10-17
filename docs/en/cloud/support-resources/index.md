@@ -1,4 +1,5 @@
 ---
-title: Support/Resources
-order: 120
+eleventyComputed:
+  title: Support/Resources
+  order: 120
 ---

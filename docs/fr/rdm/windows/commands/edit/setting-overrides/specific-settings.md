@@ -1,6 +1,7 @@
 ---
-title: Paramètres spécifiques
-status: Topic available in German language
+eleventyComputed:
+  title: Paramètres spécifiques
+  status: Topic available in German language
 ---
 Les ***Paramètres spécifiques*** sont utilisés pour remplacer les propriétés d'une entrée. Plusieurs paramètres peuvent être remplacés, tels que les identifiants ou le mode d'affichage. Il existe deux types de Paramètres spécifiques : les Paramètres spécifiques de l'usager et les Paramètres spécifiques locaux.  
 

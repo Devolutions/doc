@@ -1,5 +1,6 @@
 ---
-title: Quick guide to Markdown
+eleventyComputed:
+  title: Quick guide to Markdown
 ---
 Markdown is a lightweight markup language used for ***Documentation*** in entries.  
 

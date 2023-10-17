@@ -1,4 +1,5 @@
 ---
-title: Interface Web
-order: 20
+eleventyComputed:
+  title: Interface Web
+  order: 20
 ---

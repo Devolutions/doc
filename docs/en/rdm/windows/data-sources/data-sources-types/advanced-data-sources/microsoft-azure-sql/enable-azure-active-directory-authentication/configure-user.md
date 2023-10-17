@@ -1,5 +1,6 @@
 ---
-title: Configure an Azure Active Directory user
+eleventyComputed:
+  title: Configure an Azure Active Directory user
 ---
 Follow the steps below to configure an Azure AD user in {{ en.RDM }}. 
 

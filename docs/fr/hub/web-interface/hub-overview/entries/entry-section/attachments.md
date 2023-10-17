@@ -1,5 +1,6 @@
 ---
-title: Pièces jointes
+eleventyComputed:
+  title: Pièces jointes
 ---
 Gérer, afficher et télécharger des fichiers ***Pièces jointes*** stockés directement dans {{ fr.DHUB }} pour une entrée.  
 ![!!Hub4147](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4147.png) 

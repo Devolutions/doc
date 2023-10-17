@@ -1,5 +1,6 @@
 ---
-title: Theme system
+eleventyComputed:
+  title: Theme system
 ---
 The ***Theme system*** of {{ en.RDM }} is still in its infancy and will evolve in future releases. You can override most images used by {{ en.RDM }} simply by providing an image in the ***Theme*** folder, the only requirement is that the file uses a specific name. Most images come in pairs, a small one and a large one. You must override both in order to be consistent.  
 

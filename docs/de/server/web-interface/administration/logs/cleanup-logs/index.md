@@ -1,3 +1,4 @@
 ---
-title: Protokolle bereinigen
+eleventyComputed:
+  title: Protokolle bereinigen
 ---

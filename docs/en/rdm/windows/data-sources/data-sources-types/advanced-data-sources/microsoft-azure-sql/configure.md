@@ -1,5 +1,6 @@
 ---
-title: Configure SQL Azure
+eleventyComputed:
+  title: Configure SQL Azure
 ---
 1. Make sure that you have a valid Microsoft Azure SQL subscription to be able to create your database. 
 1. Follow the steps in [Create a data source](/rdm/windows/data-sources/create-new-data-source/). On Step 4, after having configured the connection settings but before testing the server or otherwise verifying the connection, continue with the steps below. 

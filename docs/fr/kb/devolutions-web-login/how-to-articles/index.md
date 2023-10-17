@@ -1,4 +1,5 @@
 ---
-title: Guides d'utilisation
-order: 0
+eleventyComputed:
+  title: Guides d'utilisation
+  order: 0
 ---

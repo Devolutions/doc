@@ -1,5 +1,6 @@
 ---
-title: Main Screen
+eleventyComputed:
+  title: Main Screen
 ---
 Below is an illustration of {{ en.RDMMAC }}'s main screen.  
 ![Main Screen](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10291.png) 

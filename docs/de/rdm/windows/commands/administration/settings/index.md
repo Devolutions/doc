@@ -1,3 +1,4 @@
 ---
-title: Einstellungen
+eleventyComputed:
+  title: Einstellungen
 ---

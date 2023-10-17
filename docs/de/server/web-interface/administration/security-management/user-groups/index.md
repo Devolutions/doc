@@ -1,4 +1,5 @@
 ---
-title: Gruppen
-order: 20
+eleventyComputed:
+  title: Gruppen
+  order: 20
 ---

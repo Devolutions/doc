@@ -1,4 +1,5 @@
 ---
-title: Interface utilisateur
-order: 30
+eleventyComputed:
+  title: Interface utilisateur
+  order: 30
 ---

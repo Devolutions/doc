@@ -1,7 +1,8 @@
 ---
-title: Paramètres
-order: 20
-status: Topic available in German language
+eleventyComputed:
+  title: Paramètres
+  order: 20
+  status: Topic available in German language
 ---
 Les paramètres de {{ fr.DWL }} sont accessibles via le bouton ***Paramètres*** dans la fenêtre de l'extension de navigateur, peu importe quel produit Devolutions est utilisé avec {{ fr.DWL }}.  
 

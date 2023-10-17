@@ -1,7 +1,8 @@
 ---
-title: Exporter
+eleventyComputed:
+  title: Exporter
 ---
-tiliser ***Fichier - Exporter*** pour exporter les {{ fr.VLT }}s à partir de {{ fr.RDM }}. 
+Utiliser ***Fichier - Exporter*** pour exporter les {{ fr.VLT }}s à partir de {{ fr.RDM }}. 
 
 {% snippet icon.badgeInfo %} 
 La fonction d'exportation n'est active que si les ***Privilèges*** d'importation et d'exportation ont été activés dans le compte de ***Gestion des utilisateurs***. 

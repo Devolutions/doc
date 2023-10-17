@@ -1,6 +1,7 @@
 ---
-title: Services en ligne Devolutions
-order: 0
+eleventyComputed:
+  title: '{{ fr.DCS }}'
+  order: 0
 ---
 ![!!{{ fr.DCS }} logo]({{ locale.fr.projects.cloud.logo }})
 

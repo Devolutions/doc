@@ -1,4 +1,5 @@
 ---
-title: Server Einstellungen
-order: 20
+eleventyComputed:
+  title: Server Einstellungen
+  order: 20
 ---

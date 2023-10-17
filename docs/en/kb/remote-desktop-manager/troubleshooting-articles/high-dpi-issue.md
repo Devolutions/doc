@@ -1,10 +1,11 @@
 ---
-title: High DPI issues
-description: There are multiple problems that can be caused by high DPI in RDP sessions.
-keywords:
-- DPI
-- Higher resolution
-- Dots per inch
+eleventyComputed:
+  title: High DPI issues
+  description: There are multiple problems that can be caused by high DPI in RDP sessions.
+  keywords:
+  - DPI
+  - Higher resolution
+  - Dots per inch
 ---
 There are multiple problems that can be caused by high DPI in RDP sessions, the most commons are the following: 
 * RDP connections are tiny 

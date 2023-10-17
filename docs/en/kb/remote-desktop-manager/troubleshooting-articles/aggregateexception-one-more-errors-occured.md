@@ -1,5 +1,6 @@
 ---
-title: AggregateException - One or more errors occurred
+eleventyComputed:
+  title: AggregateException - One or more errors occurred
 ---
 During a connection to the {{ en.DC }}, {{ en.RDM }} returns an error beginning with the following text:  
 

@@ -1,3 +1,4 @@
 ---
-title: Setup an SSH Tunnel
+eleventyComputed:
+  title: Setup an SSH Tunnel
 ---

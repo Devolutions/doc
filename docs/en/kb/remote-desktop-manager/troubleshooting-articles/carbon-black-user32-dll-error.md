@@ -1,5 +1,6 @@
 ---
-title: Carbon Black user32.dll error
+eleventyComputed:
+  title: Carbon Black user32.dll error
 ---
 You get prompt with a user32.dll error in {{ en.RDM }}  
 ![!!KB4706](https://webdevolutions.azureedge.net/docs/en/kb/KB4706.png)

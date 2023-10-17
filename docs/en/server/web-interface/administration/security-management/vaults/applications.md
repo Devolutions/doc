@@ -1,5 +1,6 @@
 ---
-title: Applications
+eleventyComputed:
+  title: Applications
 ---
 Grant access to applications on the {{ en.VLT }}. 
 

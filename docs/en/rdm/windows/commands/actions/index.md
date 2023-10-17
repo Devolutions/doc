@@ -1,5 +1,6 @@
 ---
-title: Actions
+eleventyComputed:
+  title: Actions
 ---
 The ***Actions*** tab is only available when a session is open. Available actions differ depending on the action.  
 

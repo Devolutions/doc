@@ -1,5 +1,6 @@
 ---
-title: Sécurité
+eleventyComputed:
+  title: Sécurité
 ---
 ![!!clip10724](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10724.png) 
 
@@ -44,7 +45,7 @@ Utiliser l'ancienne sécurité
 		<td>
 Utiliser l'ancien système de gestion des privilèges : les groupes de sécurité (obsolète).  
 
-L'ancienne sécurité et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Pour gérer les autorisations de vos utilisateurs, nous vous recommandons de passer des groupes de sécurité aux [Permissions](/fr/rdm/windows/user-groups-based-access-control/permissions/) en effectuant une [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/). Une fois cette migration effectuée, effectuez une [migration de la sécurité ancienne vers les permissions dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/) en désactivant ***Utiliser l'ancienne sécurité***.
+L'ancienne sécurité et les groupes de sécurité ont été dépréciés et seront complètement supprimés à partir de la version 2023.3 de {{ fr.RDM }}. Pour gérer les autorisations de vos utilisateurs, nous vous recommandons de passer des groupes de sécurité aux [Permissions](/fr/rdm/windows/user-groups-based-access-control/permissions/) en effectuant une [Migration des groupes de sécurité (ancien) vers les groupes d'utilisateurs](/fr/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/). Une fois cette migration effectuée, [désactivez l'ancienne sécurité dans {{ fr.RDM }}](/fr/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
 		</td>
 	</tr>
 </table>

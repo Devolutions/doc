@@ -1,3 +1,4 @@
 ---
-title: Microsoft SQL Server
+eleventyComputed:
+  title: Microsoft SQL Server
 ---

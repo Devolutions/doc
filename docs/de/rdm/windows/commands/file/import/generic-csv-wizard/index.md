@@ -1,3 +1,4 @@
 ---
-title: Allgemeiner CSV Import Assistent
+eleventyComputed:
+  title: Allgemeiner CSV Import Assistent
 ---

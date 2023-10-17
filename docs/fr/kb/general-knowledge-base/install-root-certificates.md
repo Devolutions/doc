@@ -1,5 +1,6 @@
 ---
-title: Installation des certificats racine
+eleventyComputed:
+  title: Installation des certificats racine
 ---
 Voici différentes procédures pour installer les certificats racine : 
 

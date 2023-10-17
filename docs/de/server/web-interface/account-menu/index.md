@@ -1,4 +1,5 @@
 ---
-title: Konto
-order: 20
+eleventyComputed:
+  title: Konto
+  order: 20
 ---

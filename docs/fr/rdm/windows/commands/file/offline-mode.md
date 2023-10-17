@@ -1,5 +1,6 @@
 ---
-title: Mettre hors-ligne
+eleventyComputed:
+  title: Mettre hors-ligne
 ---
 Basculez le [Mode hors-ligne](/fr/rdm/windows/data-sources/offline-mode/) de la source de données.  
 

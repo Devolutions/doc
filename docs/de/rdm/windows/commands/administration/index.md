@@ -1,3 +1,4 @@
 ---
-title: Administration
+eleventyComputed:
+  title: Administration
 ---

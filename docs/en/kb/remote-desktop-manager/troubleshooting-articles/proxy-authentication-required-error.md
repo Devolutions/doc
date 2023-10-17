@@ -1,5 +1,6 @@
 ---
-title: Proxy authentication required error
+eleventyComputed:
+  title: Proxy authentication required error
 ---
 When opening {{ en.RDM }}, you receive the following error message;  
 

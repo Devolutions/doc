@@ -1,5 +1,6 @@
 ---
-title: View deleted attachments
+eleventyComputed:
+  title: View deleted attachments
 ---
 Entries deleted attachments can be restored and managed in the entry ***View Deleted Attachments*** section of the ***Attachments***.  
 

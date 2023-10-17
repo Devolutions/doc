@@ -1,5 +1,6 @@
 ---
-title: SQL Server maintenance plans
+eleventyComputed:
+  title: SQL Server maintenance plans
 ---
 Sadly, an SQL Server Instance is not something you can simply install and run without proper care. Keeping the default values for new databases will almost certainly cause issues in the long run.
 

@@ -1,5 +1,6 @@
 ---
-title: SSH Shell supported ECDSA keys
+eleventyComputed:
+  title: SSH Shell supported ECDSA keys
 ---
 "Unknown ecdsa curve group" error appears when connecting to SSH servers.
 ## Solution

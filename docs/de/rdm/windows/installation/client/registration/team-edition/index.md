@@ -1,4 +1,5 @@
 ---
-title: Team Edition
-order: 10
+eleventyComputed:
+  title: Team Edition
+  order: 10
 ---

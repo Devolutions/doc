@@ -1,5 +1,6 @@
 ---
-title: Recherche/Filtre
+eleventyComputed:
+  title: Recherche/Filtre
 ---
 Il est possible d'appliquer un filtre dans le ***{{ fr.NPANE }}*** en tapant certains caractères dans la zone de filtre. Le filtre est appliqué en utilisant les paramètres spécifiés dans l'application ***Fichier - Options - Interface utilisateur - Filtre***. 
 

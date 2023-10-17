@@ -1,5 +1,6 @@
 ---
-title: Tree view discriepancies
+eleventyComputed:
+  title: Tree view discriepancies
 ---
 The list of entries displayed in your tree view does not contain what you expect to see. This may be caused by a problem with the local cache.  
 ## Solution

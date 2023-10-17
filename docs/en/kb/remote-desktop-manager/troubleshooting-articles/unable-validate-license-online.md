@@ -1,5 +1,6 @@
 ---
-title: Unable to validate the license online
+eleventyComputed:
+  title: Unable to validate the license online
 ---
 You are unable to validate the license online for {{ en.RDMWIN }}.  
 

@@ -1,6 +1,7 @@
 ---
-title: Stratégies d'importation de CSV et format de fichier
-status: Topic available in German language
+eleventyComputed:
+  title: Stratégies d'importation de CSV et format de fichier
+  status: Topic available in German language
 ---
 Lors de l'importation de fichiers CSV dans {{ fr.RDM }}, vous devez prendre certaines décisions concernant les stratégies à utiliser et le format du contenu. 
 

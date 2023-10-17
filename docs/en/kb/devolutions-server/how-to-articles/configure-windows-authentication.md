@@ -1,5 +1,6 @@
 ---
-title: Configure Windows authentication
+eleventyComputed:
+  title: Configure Windows authentication
 ---
 {% snippet icon.badgeCaution %}
 The machine hosting {{ en.DVLS }} must be joined to the configured domain for Windows Authentication to work.

@@ -1,5 +1,6 @@
 ---
-title: Security
+eleventyComputed:
+  title: Security
 ---
 Allow to protect the {{ en.VLT }}'s modification from other administrator accounts. 
 

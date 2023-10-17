@@ -1,5 +1,6 @@
 ---
-title: Offline mode
+eleventyComputed:
+  title: Offline mode
 ---
 {% youtube 'W7jK8g4WbNQ' %}  
 

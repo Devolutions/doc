@@ -1,4 +1,5 @@
 ---
-title: Survol
-order: 0
+eleventyComputed:
+  title: Survol
+  order: 0
 ---

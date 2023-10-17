@@ -1,7 +1,8 @@
 ---
-title: Reset Server Cache
-keywords:
-- Roles
+eleventyComputed:
+  title: Reset Server Cache
+  keywords:
+  - Roles
 ---
 ***Reset Server Cache*** for specific elements. 
 

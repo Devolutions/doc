@@ -1,5 +1,6 @@
 ---
-title: Stapelverarbeitung
+eleventyComputed:
+  title: Stapelverarbeitung
 ---
 {% youtube 'M4eCCgl2Dwc' %}  
 

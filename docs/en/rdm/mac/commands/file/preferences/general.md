@@ -1,5 +1,6 @@
 ---
-title: General
+eleventyComputed:
+  title: General
 ---
 Use File - Preferences - General to configure options related to the functionality of the application. 
 

@@ -1,3 +1,4 @@
 ---
-title: Gestion
+eleventyComputed:
+  title: Gestion
 ---

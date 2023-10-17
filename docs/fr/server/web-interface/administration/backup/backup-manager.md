@@ -1,5 +1,6 @@
 ---
-title: Gestionnaire de sauvegardes
+eleventyComputed:
+  title: Gestionnaire de sauvegardes
 ---
 La section ***Gestionnaire de sauvegardes*** permet aux administrateurs de configurer les paramètres de sauvegarde de la base de données et du dossier de l'application Web.  
 ![Administration - Gestionnaire de sauvegardes](https://webdevolutions.azureedge.net/docs/fr/server/clip10403.png) 

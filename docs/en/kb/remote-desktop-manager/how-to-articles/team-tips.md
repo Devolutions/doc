@@ -1,8 +1,9 @@
 ---
-title: Team tips
-status: Topic available in German language
-keywords:
-- role
+eleventyComputed:
+  title: Team tips
+  status: Topic available in German language
+  keywords:
+  - role
 ---
 Here are five {{ en.RDM }} team tips.
 
@@ -16,30 +17,26 @@ Start by creating user groups and naming them accordingly to what you expect the
 
 ## Streamlined deployment with the {{ en.CI }}
 
-Okay: you are ready to deploy {{ en.RDM }} and make everyone see you as the company hero. You have manually configured your data sources, specified your site license, and defined system options. You can feel the excitement coursing through your veins. You are on a mission!  
+Okay: you are ready to deploy {{ en.RDM }} and make everyone see you as the company hero. You have manually configured your data sources, specified your license, and defined system options. You can feel the excitement coursing through your veins. You are on a mission!  
 
 But wait – before you go live, why not have us create a [{{ en.CI }}](/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/) for you? Once we do that, your grateful team will only need to install the resulting MSI file to access their ready-to-use pre-configured {{ en.RDM }} installation. You will be loved by one and all, perhaps with a parade, a state, or an award named after you.
 
 ## Version management
 
 Here is a familiar scenario: your team has been using {{ en.RDM }} for months or even years, and all is well. Then along comes a new version full of cool new features, and you think that everyone in your company should upgrade. This window below depicts the different options at your disposal to control client versions.  
-![!!KB4598](https://webdevolutions.azureedge.net/docs/en/kb/KB4598.png)  
+![Version management](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6164.png)  
 
-We’ve made this extremely easy. Simply open Administration – Data Source Settings (System Settings) – Version Management Below, a description of some of the settings;  
+{% snippet icon.badgeHelp %}
+For more information on license and version management, see [Licenses](/rdm/windows/commands/administration/management/licenses/) and [Version Management](/rdm/windows/commands/administration/settings/system-settings/application/version-management/) respectively.
+{% endsnippet %}
 
-* Disable auto update notification – This will disable the "New version is available" message. (You’re welcome!)
-* Minimal version – This specifies the minimal acceptable version. If a member of your team runs an {{ en.RDM }} version below this level, they’ll be prompted to upgrade.
-* Download URL – This improves install speed by downloading the MSI onto your local network, and lets all of your team members easily upgrade from this path. In short, this saves time and avoids installing the wrong version.  
+## System Settings
 
-The ***Administration – Data Source Settings (System Settings) – Serial Number*** section is useful if you have a Site or Global License, and keeps you from having to manually set the key on every client.
+The general tab of the ***Administration – System Settings*** form allows you to easily control security aspects.  
 
-## Data Source Settings (System Settings)
+A great team feature here is the System Message, which allows an administrator to inform users of upcoming system downtime, policy change or anything else. Each user will get the message when they connect to the data source or the message is changed. Use it to display company confidentially clauses or, if you wish, create chaos with a message like the one below. A little bit of chaos is good for the soul.  
 
-The general tab of the ***Administration – Data Source Settings (System Settings)*** form allows you to easily control security aspects.  
-
-A great team feature here is the System Message, which allows an administrator to inform users of upcoming system downtime, policy change or anything else. Each user will get the message when they perform the next action (open, edit, refresh, …) of the data source. Use it to display company confidentially clauses or, if you wish, create chaos with a message like the one below. A little bit of chaos is good for the soul.  
-
-![!!KB4599](https://webdevolutions.azureedge.net/docs/en/kb/KB4599.png)
+![System Message](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6113.png)
 
 ## {{ en.DVLS }}
 

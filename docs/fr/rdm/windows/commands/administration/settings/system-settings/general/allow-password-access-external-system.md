@@ -1,5 +1,6 @@
 ---
-title: Permettre mot de passe au système externe
+eleventyComputed:
+  title: Permettre mot de passe au système externe
 ---
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité est disponible qu'avec une [Source de données avancée](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 

@@ -1,4 +1,5 @@
 ---
-title: Berichte
-order: 40
+eleventyComputed:
+  title: Berichte
+  order: 40
 ---

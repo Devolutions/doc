@@ -1,5 +1,6 @@
 ---
-title: Fonctionnalités
+eleventyComputed:
+  title: Fonctionnalités
 ---
 La section ***Fonctionnalités*** permet à l'administrateur de configurer les fonctionnalités de l'interface Web.  
 ![Administration - Paramètres Serveur - Fonctionnalités](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8042.png) 

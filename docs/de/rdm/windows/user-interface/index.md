@@ -1,4 +1,5 @@
 ---
-title: Benutzeroberfläche
-order: 30
+eleventyComputed:
+  title: Benutzeroberfläche
+  order: 30
 ---

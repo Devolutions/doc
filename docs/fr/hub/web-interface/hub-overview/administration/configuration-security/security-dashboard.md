@@ -1,5 +1,6 @@
 ---
-title: Tableau de bord de sécurité
+eleventyComputed:
+  title: Tableau de bord de sécurité
 ---
 Le ***Tableau de bord de sécurité*** est un outil offrant des conseils sur la façon d'améliorer la sécurité de la plateforme {{ fr.DHUBB }} et également des recommandations sur la réduction de la charge de travail des administrateurs. Certaines indications sont les meilleures pratiques infosec courantes, d'autres sont un consensus entre nos propres équipes.  
 

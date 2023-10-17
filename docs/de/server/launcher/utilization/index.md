@@ -1,4 +1,5 @@
 ---
-title: Verwendung
-order: 30
+eleventyComputed:
+  title: Verwendung
+  order: 30
 ---

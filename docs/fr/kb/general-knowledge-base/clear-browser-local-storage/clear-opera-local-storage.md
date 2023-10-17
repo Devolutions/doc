@@ -1,10 +1,11 @@
 ---
-title: Effacer le stockage local d'Opera
-description: Suivre les étapes pour effacer votre stockage local dans le navigateur d'Opera.
-keywords:
-- Stockage local
-- Navigateur
-- Opera
+eleventyComputed:
+  title: Effacer le stockage local d'Opera
+  description: Suivre les étapes pour effacer votre stockage local dans le navigateur d'Opera.
+  keywords:
+  - Stockage local
+  - Navigateur
+  - Opera
 ---
 Voici les étapes à suivre pour effacer votre stockage local dans le navigateur Opera :  
 

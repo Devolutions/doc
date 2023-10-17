@@ -1,7 +1,8 @@
 ---
-title: Groupes d'utilisateurs
-keywords:
-- Rôle
+eleventyComputed:
+  title: Groupes d'utilisateurs
+  keywords:
+  - Rôle
 ---
 Attribuer des utilisateurs à un groupe d'utilisateurs.  
 ![Modifier l'utilisateur - Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp7007.png) 

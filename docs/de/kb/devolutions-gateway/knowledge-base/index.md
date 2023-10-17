@@ -1,4 +1,5 @@
 ---
-title: Knowledge Base
-order: 20
+eleventyComputed:
+  title: Knowledge Base
+  order: 20
 ---

@@ -1,3 +1,4 @@
 ---
-title: Modifier
+eleventyComputed:
+  title: Modifier
 ---

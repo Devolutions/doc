@@ -1,5 +1,6 @@
 ---
-title: Ouvrir avec des paramètres
+eleventyComputed:
+  title: Ouvrir avec des paramètres
 ---
 Le menu ***Ouvrir avec des paramètres*** contient toutes les options disponibles pour ouvrir une session.  
 ![Open with Parameters](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10056.png) 

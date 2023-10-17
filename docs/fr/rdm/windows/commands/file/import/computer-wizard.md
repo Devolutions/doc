@@ -1,5 +1,6 @@
 ---
-title: Assistant d'importation pour l'ordinateur
+eleventyComputed:
+  title: Assistant d'importation pour l'ordinateur
 ---
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité est seulement disponible lors de l'utilisation d'une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 

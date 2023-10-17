@@ -1,3 +1,4 @@
 ---
-title: Anwendung Client
+eleventyComputed:
+  title: Anwendung Client
 ---

@@ -1,5 +1,6 @@
 ---
-title: Sécurité
+eleventyComputed:
+  title: Sécurité
 ---
 Utiliser ***Fichier - Préférences - Sécurité*** pour configurer la sécurité de l'application. 
 

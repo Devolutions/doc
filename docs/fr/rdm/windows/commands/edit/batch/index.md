@@ -1,3 +1,4 @@
 ---
-title: Lot
+eleventyComputed:
+  title: Lot
 ---

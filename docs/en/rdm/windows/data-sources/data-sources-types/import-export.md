@@ -1,5 +1,6 @@
 ---
-title: Import and Export Data Source
+eleventyComputed:
+  title: Import and Export Data Source
 ---
 To simplify deployment for multiple users, it is possible to export and import data source configurations. The generated .rdd file contains all the information to recreate the configuration. Please note that the .rdd file does not include the database content. Only the configuration is exported. Use the entry's [Export](File_Export) functionality to backup or copy the database's content.  
 

@@ -1,3 +1,4 @@
 ---
-title: Exporter
+eleventyComputed:
+  title: Exporter
 ---

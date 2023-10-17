@@ -1,3 +1,4 @@
 ---
-title: Multiple Types of Connections to a Single Computer
+eleventyComputed:
+  title: Multiple Types of Connections to a Single Computer
 ---

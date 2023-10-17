@@ -1,5 +1,6 @@
 ---
-title: Most Recently Used Entries
+eleventyComputed:
+  title: Most Recently Used Entries
 ---
 This tab shows the most recently used/modified items in the selected {{ en.VLT }}. It is accessible in the ***{{ en.NPANE }}***.  
 ![Most recently used entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11219.png) 

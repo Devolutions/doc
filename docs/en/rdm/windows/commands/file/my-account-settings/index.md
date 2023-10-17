@@ -1,5 +1,6 @@
 ---
-title: My Account Settings
+eleventyComputed:
+  title: My Account Settings
 ---
 Use ***File – My Account Settings*** to configure accounts that connect to different web platforms. Set up account settings one time and use it in entries as many time as required. This section also allows to manage ***Personal Credentials***, ***Personal Private Key***, and ***Specific Settings*** lists. 
 

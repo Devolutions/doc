@@ -1,8 +1,9 @@
 ---
-title: Raccourcis clavier
-description: Voici les raccourcis clavier par défaut pour diverses commandes
-keywords:
-- Raccourcis clavier
+eleventyComputed:
+  title: Raccourcis clavier
+  description: Voici les raccourcis clavier par défaut pour diverses commandes
+  keywords:
+  - Raccourcis clavier
 ---
 Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Options – Interface utilisateur – Clavier***.  
 

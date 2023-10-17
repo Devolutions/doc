@@ -1,5 +1,6 @@
 ---
-title: Soutien technique
+eleventyComputed:
+  title: Soutien technique
 ---
 Heures : lundi au vendredi de 7 h 30 à 18 h HAE  
 

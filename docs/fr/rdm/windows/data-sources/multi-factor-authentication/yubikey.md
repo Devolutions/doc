@@ -1,5 +1,6 @@
 ---
-title: Yubikey
+eleventyComputed:
+  title: Yubikey
 ---
 {{ fr.RDM }} vous permet de configurer un Yubikey pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données. 
 

@@ -1,5 +1,6 @@
 ---
-title: Configure Yubikey 2-factor authentication
+eleventyComputed:
+  title: Configure Yubikey 2-factor authentication
 ---
 {% youtube 'Oi27Y8FfcNg' %}
 

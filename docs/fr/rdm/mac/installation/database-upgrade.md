@@ -1,5 +1,6 @@
 ---
-title: Mettre à niveau de la base de données
+eleventyComputed:
+  title: Mettre à niveau de la base de données
 ---
 Cette section s'applique aux installations avec des sources de données qui utilisent une base de données comme magasin de données.  
 

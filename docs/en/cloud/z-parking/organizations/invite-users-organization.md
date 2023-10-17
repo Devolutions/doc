@@ -1,5 +1,6 @@
 ---
-title: Invite Users to your Organization
+eleventyComputed:
+  title: Invite Users to your Organization
 ---
 Follow these steps to invite and manage users in your organization. 
 

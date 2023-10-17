@@ -1,5 +1,6 @@
 ---
-title: Clean up entries history
+eleventyComputed:
+  title: Clean up entries history
 ---
 The ***Entry History*** deletes the history attached to your entry, you can find the history by right clicking on your entry and selecting ***View – Entry history***. 
 

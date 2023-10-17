@@ -1,5 +1,6 @@
 ---
-title: Type d'entrée
+eleventyComputed:
+  title: Type d'entrée
 ---
 Choisir le ***Type d'entrée*** le mieux adapté pour créer et gérer chaque entrée dans {{ fr.DHUB }}.  
 

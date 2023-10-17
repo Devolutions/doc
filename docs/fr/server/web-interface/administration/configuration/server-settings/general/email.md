@@ -1,5 +1,6 @@
 ---
-title: Courriel
+eleventyComputed:
+  title: Courriel
 ---
 Les courriels sont envoyés par notre moteur de notification et par certains de nos fournisseurs d'authentification multifacteur pour la messagerie sécurisée interne.
 

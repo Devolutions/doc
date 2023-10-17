@@ -1,4 +1,5 @@
 ---
-title: Datenquellen
-order: 40
+eleventyComputed:
+  title: Datenquellen
+  order: 40
 ---

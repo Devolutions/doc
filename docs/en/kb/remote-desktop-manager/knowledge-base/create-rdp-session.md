@@ -1,5 +1,6 @@
 ---
-title: Create a RDP session
+eleventyComputed:
+  title: Create a RDP session
 ---
 When it comes to entries, there are a lot of different options. Here is a quick way to set up an ***RDP (Microsoft Remote Desktop)*** entry:  
 

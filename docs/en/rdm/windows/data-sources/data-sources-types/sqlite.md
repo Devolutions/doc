@@ -1,5 +1,6 @@
 ---
-title: SQLite
+eleventyComputed:
+  title: SQLite
 ---
 <table>
 	<tr>

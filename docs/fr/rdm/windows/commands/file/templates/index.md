@@ -1,6 +1,7 @@
 ---
-title: Modèles
-status: Topic available in German language
+eleventyComputed:
+  title: Modèles
+  status: Topic available in German language
 ---
 Les modèles sont utiles pour avoir des valeurs prédéfinies lors de la création d'une entrée. Utiliser des modèles pour :  
 

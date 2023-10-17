@@ -1,4 +1,5 @@
 ---
-title: How-to articles
-order: 0
+eleventyComputed:
+  title: How-to articles
+  order: 0
 ---

@@ -1,5 +1,6 @@
 ---
-title: Profileur
+eleventyComputed:
+  title: Profileur
 ---
 {{ fr.RDM }} dispose d'un profileur intégré pour diagnostiquer les problèmes de connectivité avec une source de données. 
 

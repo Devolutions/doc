@@ -89,7 +89,7 @@ Action de l'utilisateur dans le dialogue sur l'expiration de la licence
 Télémétrie
 		</td>
 		<td>
-https<area>://telemetry.devolutions.net
+https<area>://telemetry2.devolutions.net
 		</td>
 		<td>
 Fichier – Options – Avancé – Désactiver la télémétrie

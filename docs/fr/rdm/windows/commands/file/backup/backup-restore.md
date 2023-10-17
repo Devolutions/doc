@@ -1,5 +1,6 @@
 ---
-title: Restaurer
+eleventyComputed:
+  title: Restaurer
 ---
 {% snippet icon.badgeCaution %} 
 Avant de pouvoir restaurer une sauvegarde, vous devez créer une source de données vide et définir le nom de la sauvegarde avant de pouvoir l'utiliser. Vous devez créer une nouvelle source de données SQLite, XML ou {{ fr.DOD }} dans ***Fichier - Sources de données***. 

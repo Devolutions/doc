@@ -1,5 +1,6 @@
 ---
-title: Connections are missing
+eleventyComputed:
+  title: Connections are missing
 ---
 User's connection list is missing. This either mean that the Name column is missing or the ***{{ en.NPANE }}*** as a whole is missing.
 ## Solutions

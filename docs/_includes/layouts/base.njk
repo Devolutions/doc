@@ -23,6 +23,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-plugin-tags/dist/theme.min.css"/>
     <link rel="stylesheet" href="https://webdevolutions.blob.core.windows.net/web/common/scripts/live-chat/live-chat.css"/>
     <link rel="stylesheet" href="/css/style.css"/>
+
+    {%- if env.isProd -%}
+      <script type="text/javascript" src="https://cdn.cookielaw.org/consent/db81bb51-28c4-4d00-a6e8-04fcda820584/OtAutoBlock.js"></script>
+      <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="db81bb51-28c4-4d00-a6e8-04fcda820584"></script>
+      <script type="text/javascript">
+        function OptanonWrapper() {}
+      </script>
+    {%- elif env.isStaging -%}
+      <script type="text/javascript" src="https://cdn.cookielaw.org/consent/db81bb51-28c4-4d00-a6e8-04fcda820584-test/OtAutoBlock.js"></script>
+      <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="db81bb51-28c4-4d00-a6e8-04fcda820584-test"></script>
+      <script type="text/javascript">
+        function OptanonWrapper() {}
+      </script>
+    {%- endif -%}
+
+
   </head>
   <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2QBJ5"
@@ -32,6 +48,11 @@
     {%- include 'partials/sub-header.njk' -%}
 
     {{- content | safe -}}
+
+
+    {%- if env.isProd or env.isStaging -%}
+      <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
+    {%- endif -%}
 
     <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>

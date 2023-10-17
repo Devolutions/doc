@@ -1,5 +1,6 @@
 ---
-title: Embedded Sessions
+eleventyComputed:
+  title: Embedded Sessions
 ---
 The Embedded display mode allows you to open multiple sessions as tabs within {{ en.RDM }}, similar to the tabs in your standard web browser. Embedded sessions are one of the 3 available display modes, the other 2 being ***External*** and ***Undocked***.  
 ![Display Mode Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6008.png) 

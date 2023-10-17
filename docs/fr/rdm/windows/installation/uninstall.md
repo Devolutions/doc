@@ -1,5 +1,6 @@
 ---
-title: Désinstallation
+eleventyComputed:
+  title: Désinstallation
 ---
 ### Instructions 
 

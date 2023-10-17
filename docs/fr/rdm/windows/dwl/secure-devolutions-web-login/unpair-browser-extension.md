@@ -1,5 +1,6 @@
 ---
-title: Dissocier une extension de navigateur
+eleventyComputed:
+  title: Dissocier une extension de navigateur
 ---
 Si vous souhaitez refuser l'accès à {{ fr.RDM }} à partir d'une extension de navigateur précédemment associée, vous devez la supprimer dans {{ fr.RDM }}.  
 

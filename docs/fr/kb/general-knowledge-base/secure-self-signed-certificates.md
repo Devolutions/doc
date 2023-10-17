@@ -1,5 +1,6 @@
 ---
-title: Générer des certificats autosignés serveur et client avec OpenSSL
+eleventyComputed:
+  title: Générer des certificats autosignés serveur et client avec OpenSSL
 ---
 Voici le guide définitif pour créer des certificats sécurisés, à la fois pour les serveurs et les clients, en utilisant OpenSSL.
 ## Procédure 

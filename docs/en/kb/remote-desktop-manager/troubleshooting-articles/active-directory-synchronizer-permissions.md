@@ -1,5 +1,6 @@
 ---
-title: Active Directory Synchronizer permissions
+eleventyComputed:
+  title: Active Directory Synchronizer permissions
 ---
 {{ en.RDM }} ***Active Directory Synchronizer*** will not synchronize or find objects with ***Read permissions***.
 ## Solution

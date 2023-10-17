@@ -1,5 +1,6 @@
 ---
-title: Chocolatey Console
+eleventyComputed:
+  title: Chocolatey Console
 ---
 {% snippet icon.badgeCaution %} 
 [Chocolatey](https://chocolatey.org/) needs to be installed on your computer to use the Chocolatey Console. 

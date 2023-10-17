@@ -1,5 +1,6 @@
 ---
-title: Tutoriels
+eleventyComputed:
+  title: Tutoriels
 ---
 Nos tutoriels sont publiés sur la chaîne [YouTube de Devolutions](https://www.youtube.com/user/Devolutions).  
 

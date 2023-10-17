@@ -1,3 +1,4 @@
 ---
-title: Konfigurationsdatei erstellen
+eleventyComputed:
+  title: Konfigurationsdatei erstellen
 ---

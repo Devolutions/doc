@@ -1,5 +1,6 @@
 ---
-title: VPN
+eleventyComputed:
+  title: VPN
 ---
 When using a VPN on your session this allows you to override the VPN credentials. 
 

@@ -1,5 +1,6 @@
 ---
-title: Écran principal
+eleventyComputed:
+  title: Écran principal
 ---
 Vous trouverez ci-dessous une illustration de l'écran principal de {{ fr.RDM }}.  
 ![Écran principal](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4001.png) 

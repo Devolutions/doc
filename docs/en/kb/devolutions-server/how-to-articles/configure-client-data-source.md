@@ -1,5 +1,6 @@
 ---
-title: Configure a client data source
+eleventyComputed:
+  title: Configure a client data source
 ---
 1. In {{ en.RDM }} select ***File - Data Sources***.  
 ![!!KB4365](https://webdevolutions.azureedge.net/docs/en/kb/KB4365.png)

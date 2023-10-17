@@ -1,4 +1,5 @@
 ---
-title: Administration
-order: 30
+eleventyComputed:
+  title: Administration
+  order: 30
 ---

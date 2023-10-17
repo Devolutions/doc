@@ -1,5 +1,6 @@
 ---
-title: Create saved searches with smart folders
+eleventyComputed:
+  title: Create saved searches with smart folders
 ---
 Smart folders are saved searches. You can search by entry name and/or tag.
 

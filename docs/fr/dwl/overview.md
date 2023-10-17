@@ -1,6 +1,7 @@
 ---
-title: Survol
-order: 5
+eleventyComputed:
+  title: Survol
+  order: 5
 ---
 ![!!{{ fr.DWL }} logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
 

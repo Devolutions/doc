@@ -1,5 +1,6 @@
 ---
-title: Edit
+eleventyComputed:
+  title: Edit
 ---
 The ***Edit*** tab contains operations to quickly ***Add***, ***Edit***, ***Override***, ***Batch Edit***, or ***Export*** entries.  
 ![Ribbon - Edit](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10207.png) 

@@ -1,6 +1,7 @@
 ---
-title: Profile
-order: 20
+eleventyComputed:
+  title: Profile
+  order: 20
 ---
 In the [***Profile***](https://portal.devolutions.com/profile) section you can manage your personal information, language, theme color and your Devolutions newsletters preferences. Click on the pencil icon to edit the information.  
 

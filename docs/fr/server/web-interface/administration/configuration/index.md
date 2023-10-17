@@ -1,4 +1,5 @@
 ---
-title: Configuration
-order: 20
+eleventyComputed:
+  title: Configuration
+  order: 20
 ---

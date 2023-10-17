@@ -1,6 +1,7 @@
 ---
-title: Contrôle d'accès basé sur les groupes d'utilisateurs
-order: 70
+eleventyComputed:
+  title: Contrôle d'accès basé sur les groupes d'utilisateurs
+  order: 70
 ---
 Le contrôle d'accès basé sur les groupes d'utilisateurs de {{ fr.RDM }} permet de créer un système de protection granulaire assez flexible. Cependant, la flexibilité a un prix et parfois faire les mauvais choix pourrait augmenter le temps nécessaire à la gestion du système.  
 

@@ -1,5 +1,6 @@
 ---
-title: Security Advisories
+eleventyComputed:
+  title: Security Advisories
 ---
 ***Security Advisories*** for all our products are available for consultation on our [Devolutions website](https://devolutions.net/security/advisories) It is a list to inform our users that a security vulnerability in our products was found. It will include remediation and workarounds, the severity level score from the [Common Vulnerability Scoring System](https://www.first.org/cvss/) (CVSS), and the [Common Vulnerabilities and Exposures](https://cve.mitre.org/index.html) (CVE) number. [Subscribe](https://devolutions.net/security/advisories) to receive our latest security advisories by email.
 

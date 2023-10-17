@@ -52,5 +52,6 @@
       "formattedName": "Services en ligne de <b>Devolutions</b>"
     }
   },
-  "placeholderSearch": "Que recherchez-vous?"
+  "placeholderSearch": "Que recherchez-vous?",
+  "labelFeedbackButton": "Commentaires"
 }

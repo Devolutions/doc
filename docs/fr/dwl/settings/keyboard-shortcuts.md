@@ -1,5 +1,6 @@
 ---
-title: Raccourcis clavier
+eleventyComputed:
+  title: Raccourcis clavier
 ---
 Voici la liste des raccourcis clavier disponibles pour {{ fr.DWL }} :  
 

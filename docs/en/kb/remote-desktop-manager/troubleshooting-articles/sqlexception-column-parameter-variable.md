@@ -1,5 +1,6 @@
 ---
-title: SqlException - Column, parameter, or variable
+eleventyComputed:
+  title: SqlException - Column, parameter, or variable
 ---
 SqlException - Column, parameter, or variable #16: Cannot find data type datetime2.
 ## Solution

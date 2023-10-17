@@ -1,3 +1,4 @@
 ---
-title: Générateurs
+eleventyComputed:
+  title: Générateurs
 ---

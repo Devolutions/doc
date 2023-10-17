@@ -1,5 +1,6 @@
 ---
-title: Types de correspondance des URL
+eleventyComputed:
+  title: Types de correspondance des URL
 ---
 Chaque URL, dans une entrée de ***Site Web***, est associée à un type de correspondance. Le type de correspondance sert à déterminer si {{ fr.DWL }} doit considérer l’entrée valide pour la saisie automatique. 
 {% snippet icon.badgeCaution %} 

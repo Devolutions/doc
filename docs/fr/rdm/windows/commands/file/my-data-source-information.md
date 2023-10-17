@@ -1,5 +1,6 @@
 ---
-title: Informations sur la source de données
+eleventyComputed:
+  title: Informations sur la source de données
 ---
 Les ***Informations sur la source de données*** affichent diverses informations liées à la source de données actuelle, telles que l'utilisateur actuel et l'accès de sécurité.  
 

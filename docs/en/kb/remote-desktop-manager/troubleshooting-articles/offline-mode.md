@@ -1,5 +1,6 @@
 ---
-title: Offline Mode
+eleventyComputed:
+  title: Offline Mode
 ---
 ## Problem 1
 Missing entries or deleted entries still showing.

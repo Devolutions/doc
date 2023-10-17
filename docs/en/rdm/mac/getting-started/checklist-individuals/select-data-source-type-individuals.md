@@ -1,6 +1,7 @@
 ---
-title: Select a data source type – Individuals
-description: To help you select a data source, here is a set of concerns and the list of data sources that can serve in such a context.
+eleventyComputed:
+  title: Select a data source type – Individuals
+  description: To help you select a data source, here is a set of concerns and the list of data sources that can serve in such a context.
 ---
 This topic is primarily intended for individuals, but also for teams of three users or less who do not wish to set up security.  
 

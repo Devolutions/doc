@@ -1,3 +1,4 @@
 ---
-title: Hilfe
+eleventyComputed:
+  title: Hilfe
 ---

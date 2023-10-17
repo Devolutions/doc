@@ -1,10 +1,16 @@
 ---
-title: Azure AD user provider
+eleventyComputed:
+  title: Azure AD user provider
 ---
-The Azure AD User Provider allows {{ en.DVLS }} to store the Azure AD application information to be used for Azure AD accounts discovery or to achieve password rotation. See the [Create an Azure AD PAM Provider](/kb/devolutions-server/how-to-articles/create-azure-ad-pam-provider/) knowledge base article for more information on its configuration.  
-![Azure AD Users provider](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8095.png) 
+The Azure AD user provider allows {{ en.DVLS }} to store the Azure AD application information to be used for Azure AD accounts discovery or to achieve password rotation.
 
-### General 
+{% snippet icon.badgeHelp %}
+See [Create an Azure AD PAM provider](/kb/devolutions-server/how-to-articles/create-azure-ad-pam-provider/) for more information on its configuration. 
+{% endsnippet %}  
+
+![Azure AD user provider](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8095.png) 
+
+## General 
 
 <table>
 	<tr>
@@ -20,7 +26,7 @@ Description
 Name 
 		</td>
 		<td>
-Display name of the Provider. 
+Display name of the provider 
 		</td>
 	</tr>
 	<tr>
@@ -28,12 +34,12 @@ Display name of the Provider.
 Description 
 		</td>
 		<td>
-Description of the Provider. 
+Description of the provider 
 		</td>
 	</tr>
 </table>
 
-### Password settings 
+## Password settings 
 
 <table>
 	<tr>
@@ -49,12 +55,12 @@ Description
 Password template used on generation 
 		</td>
 		<td>
-Password template that will be used to generate the password during the reset password operation. 
+Password template used to generate the password during the reset password operation 
 		</td>
 	</tr>
 </table>
 
-### Server 
+## Server 
 
 <table>
 	<tr>
@@ -78,7 +84,7 @@ ID of the Azure tenant
 Client ID 
 		</td>
 		<td>
-ID of the Azure Application 
+ID of the Azure application 
 		</td>
 	</tr>
 	<tr>
@@ -86,12 +92,12 @@ ID of the Azure Application
 Secret key 
 		</td>
 		<td>
-Secret key of the Azure Application
+Secret key of the Azure application
 		</td>
 	</tr>
 </table>
 
-### Actions 
+## Actions 
 
 <table>
 	<tr>
@@ -107,7 +113,7 @@ Description
 Add PAM {{ en.VLT }} 
 		</td>
 		<td>
-Will create a PAM {{ en.VLT }} with the provider's name if enabled. 
+If enabled, creates a PAM {{ en.VLT }} with the name of the provider.
 		</td>
 	</tr>
 	<tr>
@@ -115,7 +121,7 @@ Will create a PAM {{ en.VLT }} with the provider's name if enabled.
 Add Scan Configuration 
 		</td>
 		<td>
-Will open the Scan Configuration dialog if enabled. 
+If enabled, opens the ***Scan Configuration*** dialog.
 		</td>
 	</tr>
 </table>

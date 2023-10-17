@@ -1,6 +1,7 @@
 ---
-title: Sources de données
-order: 40
+eleventyComputed:
+  title: Sources de données
+  order: 40
 ---
 Les sources de données sont au cœur de {{ fr.RDM }}, c'est les conteneurs qui contiennent toutes vos entrées.  
 

@@ -1,5 +1,6 @@
 ---
-title: Application Access
+eleventyComputed:
+  title: Application Access
 ---
 Allows to grant access to applications. 
 

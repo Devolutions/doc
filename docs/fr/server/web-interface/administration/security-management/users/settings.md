@@ -1,5 +1,6 @@
 ---
-title: Paramètres
+eleventyComputed:
+  title: Paramètres
 ---
 ![Modifier l'utilisateur - Paramètres](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp7012.png)  
 Autoriser l'utilisateur à activer le mode [Mettre hors-ligne](/fr/rdm/windows/data-sources/offline-mode/) sur la source de données. La source de données doit également être configurée pour permettre le mode hors ligne. Il existe 3 modes disponibles :  

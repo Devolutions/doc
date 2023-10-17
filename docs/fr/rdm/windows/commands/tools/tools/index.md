@@ -1,3 +1,4 @@
 ---
-title: Outils
+eleventyComputed:
+  title: Outils
 ---

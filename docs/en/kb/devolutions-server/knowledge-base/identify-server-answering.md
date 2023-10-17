@@ -1,5 +1,6 @@
 ---
-title: Identify the server answering on a high availability topology
+eleventyComputed:
+  title: Identify the server answering on a high availability topology
 ---
 The following steps will explain how to define which server is answering when connecting on the {{ en.DVLS }} web page on a High Availability/Load Balancing topology.
 

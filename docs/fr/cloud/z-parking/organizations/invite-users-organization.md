@@ -1,5 +1,6 @@
 ---
-title: Inviter des utilisateurs dans votre organisation
+eleventyComputed:
+  title: Inviter des utilisateurs dans votre organisation
 ---
 Suivre ces étapes pour inviter et gérer des utilisateurs dans votre organisation. 
 

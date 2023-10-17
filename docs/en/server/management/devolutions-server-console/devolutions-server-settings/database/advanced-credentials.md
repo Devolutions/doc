@@ -1,7 +1,8 @@
 ---
-title: Advanced Credentials
-keywords:
-- Roles
+eleventyComputed:
+  title: Advanced Credentials
+  keywords:
+  - Roles
 ---
 The ***Advanced Credentials*** are used to allow {{ en.DVLS }} to communicate with the SQL database. 
 {% snippet icon.badgeCaution %} 

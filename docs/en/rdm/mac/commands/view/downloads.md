@@ -1,5 +1,6 @@
 ---
-title: Downloads
+eleventyComputed:
+  title: Downloads
 ---
 The ***Downloads*** feature is located in the ***View*** tab.  
 ![Downloads Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0022.png) 

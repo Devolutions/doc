@@ -1,4 +1,5 @@
 ---
-title: Übersicht
-order: 0
+eleventyComputed:
+  title: Übersicht
+  order: 0
 ---

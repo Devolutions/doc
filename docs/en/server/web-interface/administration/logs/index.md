@@ -1,4 +1,5 @@
 ---
-title: Logs
-order: 60
+eleventyComputed:
+  title: Logs
+  order: 60
 ---

@@ -1,5 +1,6 @@
 ---
-title: Authentification à 2 facteurs
+eleventyComputed:
+  title: Authentification à 2 facteurs
 ---
 Si vous définissez l'authentification à [deux facteurs](/fr/server/web-interface/administration/configuration/server-settings/security/two-factor/) comme facultative par utilisateur dans les paramètres du serveur de mots de passe, vous devez alors configurer la méthode 2FA à utiliser. 
 

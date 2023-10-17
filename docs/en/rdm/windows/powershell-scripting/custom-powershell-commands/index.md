@@ -1,6 +1,7 @@
 ---
-title: Custom PowerShell Commands
-status: Topic available in German language
+eleventyComputed:
+  title: Custom PowerShell Commands
+  status: Topic available in German language
 ---
 Custom Powershell Command will act on currently selected entries in your ***{{ en.NPANE }}***. Use click and <kbd>Ctrl</kbd>+click to build up your list, or an advanced search to select a great number of entries. After your selection is done, the command is available using either:  
 

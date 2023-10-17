@@ -1,7 +1,8 @@
 ---
-title: Non-admin users are unable to view passwords
-keywords:
-- role
+eleventyComputed:
+  title: Non-admin users are unable to view passwords
+  keywords:
+  - role
 ---
 {% youtube 'sWb4mfD424o' %}  
 

@@ -1,5 +1,6 @@
 ---
-title: Tools
+eleventyComputed:
+  title: Tools
 ---
 The Tools tab contains your Add-on and Extensions manager as well as your {{ en.DVLSCONSOLE }}, Generators and multiple useful tools.  
 ![!!clip11429](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11429.png) 

@@ -1,3 +1,4 @@
 ---
-title: Aktionen
+eleventyComputed:
+  title: Aktionen
 ---

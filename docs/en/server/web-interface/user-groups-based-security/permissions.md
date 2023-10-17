@@ -1,7 +1,8 @@
 ---
-title: Permissions
-keywords:
-- Roles
+eleventyComputed:
+  title: Permissions
+  keywords:
+  - Roles
 ---
 The Permissions panel can be found in every entry properties in the Security – Permissions section.  
 

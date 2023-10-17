@@ -1,5 +1,6 @@
 ---
-title: Documentation
+eleventyComputed:
+  title: Documentation
 ---
 La fonction ***Documentation*** permet de stocker des informations concernant les entrées. Le texte est formaté à l'aide de la syntaxe de formatage de texte [Markdown](/fr/hub/web-interface/hub-overview/entries/entry-section/documentation/quick-guide-markdown/).  
 

@@ -1,7 +1,8 @@
 ---
-title: Configuration file location
-keywords:
-- Terminal Service
+eleventyComputed:
+  title: Configuration file location
+  keywords:
+  - Terminal Service
 ---
 {{ en.RDM }} saves its configuration in a file named **RemoteDesktopManager.cfg**. This file contains most of the application settings. 
 

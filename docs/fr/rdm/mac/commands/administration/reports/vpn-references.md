@@ -1,5 +1,6 @@
 ---
-title: Références VPN
+eleventyComputed:
+  title: Références VPN
 ---
 Générer un rapport montrant toutes les entrées VPN et les sessions les utilisant dans l'onglet VPN.  
 

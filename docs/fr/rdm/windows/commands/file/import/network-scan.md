@@ -1,5 +1,6 @@
 ---
-title: Importer à partir d'une recherche réseau
+eleventyComputed:
+  title: Importer à partir d'une recherche réseau
 ---
 L'***importation à partir d'une recherche réseau*** vous permet d'effectuer une analyse du réseau basée sur une plage d'adresses IP prédéfinie pour trouver les sessions à importer.  
 

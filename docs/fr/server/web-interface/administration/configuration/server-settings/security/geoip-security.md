@@ -1,5 +1,6 @@
 ---
-title: Sécurité GeoIP
+eleventyComputed:
+  title: Sécurité GeoIP
 ---
 La section de la ***Sécurité GeoIP*** permet à l'administrateur de définir la restriction IP en fonction de l'emplacement géographique.  
 ![Administration - Paramètres de {{ fr.DVLS }} - Sécurité GeoIP](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8046.png)  

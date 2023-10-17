@@ -1,3 +1,4 @@
 ---
-title: Optionen
+eleventyComputed:
+  title: Optionen
 ---

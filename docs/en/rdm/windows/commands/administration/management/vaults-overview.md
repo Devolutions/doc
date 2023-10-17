@@ -78,30 +78,32 @@ Your selected entries can now be found in the destination {{ en.VLT }}.
 
 ### Give users and user groups access to a {{ en.VLT }}
 
+{% youtube 'FtSlp_TVAxE?si=Oc1kacUIjt7bJptK&amp;start=1040' %}  
+
 {{ en.VLT }}s simplify user management because Active Directory (AD) groups define who has access to a {{ en.VLT }}. These AD groups are known as ***User groups*** in {{ en.RDM }}. In general, most groups have access to a couple of {{ en.VLT }}s, while some groups will only have access to one {{ en.VLT }}. Limiting access to {{ en.VLT }}s minimizes the need to set permissions on lower-level folders.  
 
 Follow the steps below to assign ***Users*** and ***Roles*** to a {{ en.VLT }}.  
 
 1. In the ***Ribbon***, go to ***Administration – Management – {{ en.VLT }}s***.  
-![Administration – Management – {{ en.VLT }}s](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11300.png) 
-{% snippet icon.badgeInfo %} 
-If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} management is done in their respective web interfaces. For more information, consult either [{{ en.DVLS }} {{ en.VLT }}s](/server/web-interface/administration/security-management/vaults/) or [{{ en.DHUB }} {{ en.VLT }}s](/hub/web-interface/hub-overview/administration/management/vaults/). 
-{% endsnippet %}
+   ![Administration – Management – {{ en.VLT }}s](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11300.png) 
+   {% snippet icon.badgeInfo %} 
+   If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} management is done in their respective web interfaces. For more information, consult either [{{ en.DVLS }} {{ en.VLT }}s](/server/web-interface/administration/security-management/vaults/) or [{{ en.DHUB }} {{ en.VLT }}s](/hub/web-interface/hub-overview/administration/management/vaults/). 
+   {% endsnippet %}
 
-2. In the ***User and Security Management*** window, select the ***{{ en.VLT }}s*** tab, then click on ***Assign Users and Roles***.  
-![User and Security Management – {{ en.VLT }}s – Assign Users and Roles](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip7033.png) 
+1. In the ***User and Security Management*** window, select the ***{{ en.VLT }}s*** tab, then click on ***Assign Users and Roles***.  
+   ![User and Security Management – {{ en.VLT }}s – Assign Users and Roles](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip7033.png) 
 1. In the ***{{ en.VLT }} Assignment*** window, choose which ***Users*** and ***User Groups*** will have access to the {{ en.VLT }} by checking/unchecking the box next to them. 
-{% snippet icon.shieldInfo %} 
-For security reasons, administrators always have access. 
-{% endsnippet %}
- 
-![{{ en.VLT }} Assignment](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip7034.png) 
+   {% snippet icon.shieldInfo %} 
+   For security reasons, administrators always have access. 
+   {% endsnippet %}  
+
+   ![{{ en.VLT }} Assignment](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip7034.png) 
 
 4. Click ***Save*** when done.
 
-{% snippet icon.shieldCaution %} 
-Keep in mind that even if you assign a role/user to a {{ en.VLT }}, the permissions that are set in the ***{{ en.VLT }} Settings*** can change what users can see or do in the {{ en.VLT }}. 
-{% endsnippet %}
+   {% snippet icon.shieldCaution %} 
+   Keep in mind that even if you assign a role/user to a {{ en.VLT }}, the permissions that are set in the ***{{ en.VLT }} Settings*** can change what users can see or do in the {{ en.VLT }}. 
+   {% endsnippet %}
  
 ### Create and use {{ en.VLT }} shortcuts
 

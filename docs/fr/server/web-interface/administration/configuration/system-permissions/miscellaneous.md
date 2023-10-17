@@ -1,7 +1,8 @@
 ---
-title: Divers
-keywords:
-- Rôle
+eleventyComputed:
+  title: Divers
+  keywords:
+  - Rôle
 ---
 ![Administration - Permissions du système - Divers](https://webdevolutions.azureedge.net/docs/fr/server/clip8055.png)  
 

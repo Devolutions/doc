@@ -1,4 +1,5 @@
 ---
-title: Journaux
-order: 60
+eleventyComputed:
+  title: Journaux
+  order: 60
 ---

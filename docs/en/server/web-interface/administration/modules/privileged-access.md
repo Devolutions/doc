@@ -1,5 +1,6 @@
 ---
-title: Privileged Access
+eleventyComputed:
+  title: Privileged Access
 ---
 {% snippet icon.badgeNotice %} 
 A license is now required to enable the Privileged Access Management (PAM) module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license. 

@@ -1,4 +1,5 @@
 ---
-title: Konfiguration
-order: 50
+eleventyComputed:
+  title: Konfiguration
+  order: 50
 ---

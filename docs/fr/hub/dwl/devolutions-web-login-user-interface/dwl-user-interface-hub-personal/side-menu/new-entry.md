@@ -1,5 +1,6 @@
 ---
-title: Nouvelle entrée
+eleventyComputed:
+  title: Nouvelle entrée
 ---
 Le bouton ***Nouvelle entrée*** n'est que disponible dans l'onglet [***Correspondant***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#onglet-correspondant), qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les entrées dans l'onglet [***Toutes les entrées***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#onglet-toutes-les-entrées). Vous pouvez choisir de crééer une nouvelle entrée de ***Site Web***, de ***Carte de crédit***, de ***Contact*** ou de ***Note sécurisée***.  
 ![Sélection du type de nouvelle entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2091.png) 

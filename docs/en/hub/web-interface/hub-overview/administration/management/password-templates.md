@@ -1,5 +1,6 @@
 ---
-title: Password Templates
+eleventyComputed:
+  title: Password Templates
 ---
 ***Password Templates*** are used to create predefined settings for the password generator of {{ en.DHUBB }}.  
 

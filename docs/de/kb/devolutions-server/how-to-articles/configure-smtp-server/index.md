@@ -1,3 +1,4 @@
 ---
-title: Configure an SMTP Server
+eleventyComputed:
+  title: Configure an SMTP Server
 ---

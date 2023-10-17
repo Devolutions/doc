@@ -1,5 +1,6 @@
 ---
-title: Journaux
+eleventyComputed:
+  title: Journaux
 ---
 Lorsque vous utilisez {{ fr.RDM }} localement avec une source de données de type individuel, les ***Journaux d'activité***, qui se trouvent en temps normal dans la section ***Affichage*** de l'onglet ***Affichage***, ne sont pas disponibles. Dans cette situation, la section ***Journaux*** apparaît dans l'onglet ***Affichage***.  
 ![Bouton Journaux des connexions locales](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2046.png) 

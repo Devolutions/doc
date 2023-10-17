@@ -1,5 +1,6 @@
 ---
-title: RDP Session Time Limits
+eleventyComputed:
+  title: RDP Session Time Limits
 ---
 When you close your RDP sessions, you may inadvertently (or willfully) leave your session running on the remote host. Depending on the programs you have left running, this can consume excessive resources and can be even interpreted as a security risk.  
 

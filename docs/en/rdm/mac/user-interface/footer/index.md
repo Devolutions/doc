@@ -1,5 +1,6 @@
 ---
-title: Footer
+eleventyComputed:
+  title: Footer
 ---
 The Footer section display various panes that are provided with {{ en.RDMMAC }}.  
 ![Footer options](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10586.png) 

@@ -1,5 +1,6 @@
 ---
-title: Reports
+eleventyComputed:
+  title: Reports
 ---
 The Reports section automatically generate reports regarding your credentials, entries, logs and security. You will also have the option to export your generated report which is a way to execute and export reports through a command line.  
 ![Administration - Reports](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10446.png) 

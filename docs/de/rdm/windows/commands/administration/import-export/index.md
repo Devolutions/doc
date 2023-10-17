@@ -1,3 +1,4 @@
 ---
-title: Importieren/Exportieren
+eleventyComputed:
+  title: Importieren/Exportieren
 ---

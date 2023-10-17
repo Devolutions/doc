@@ -1,5 +1,6 @@
 ---
-title: Microsoft Azure SQL
+eleventyComputed:
+  title: Microsoft Azure SQL
 ---
 Créer une base de données SQL vide sur votre portail Microsoft Azure SQL. Fournir suffisamment de privilèges à un compte que vous utiliserez pour mettre à jour le schéma de base de données à partir de la {{ fr.DVLSCONSOLE }}.  
 

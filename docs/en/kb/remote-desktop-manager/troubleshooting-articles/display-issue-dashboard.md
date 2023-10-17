@@ -1,5 +1,6 @@
 ---
-title: Display issue in the dashboard
+eleventyComputed:
+  title: Display issue in the dashboard
 ---
 Column width are getting wider in your dashboard.
 ## Solution

@@ -1,5 +1,6 @@
 ---
-title: Mode Lecture/Écriture hors-ligne
+eleventyComputed:
+  title: Mode Lecture/Écriture hors-ligne
 ---
 Le mode ***Lecture/Écriture*** hors ligne permet à l'utilisateur d'ajouter, de modifier et de supprimer des entrées lorsque la source de données est hors ligne. Ces modifications sont enregistrées localement et synchronisées avec la source de données une fois qu'elle est de nouveau en ligne.  
 

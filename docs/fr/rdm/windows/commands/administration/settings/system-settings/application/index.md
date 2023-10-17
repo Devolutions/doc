@@ -1,5 +1,6 @@
 ---
-title: Applications
+eleventyComputed:
+  title: Applications
 ---
 La section ***Applications*** gère la disponibilité des différentes fonctionnalités liées à l'application {{ fr.RDM }}.  
 ![Paramètres du système - Applications](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3561.png) 

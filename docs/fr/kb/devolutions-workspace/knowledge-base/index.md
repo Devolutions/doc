@@ -1,4 +1,5 @@
 ---
-title: Base de connaissances
-order: 20
+eleventyComputed:
+  title: Base de connaissances
+  order: 20
 ---

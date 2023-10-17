@@ -1,5 +1,6 @@
 ---
-title: Performance data sources
+eleventyComputed:
+  title: Performance data sources
 ---
 This category affects all data source refreshes  
 

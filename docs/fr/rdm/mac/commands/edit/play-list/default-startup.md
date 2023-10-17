@@ -1,5 +1,6 @@
 ---
-title: Lancer au démarrage
+eleventyComputed:
+  title: Lancer au démarrage
 ---
 Une liste d'exécution peut être définie pour être lancée lorsdu démarrage de {{ fr.RDM }}. 
 

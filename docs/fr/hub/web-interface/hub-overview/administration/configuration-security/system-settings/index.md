@@ -1,5 +1,6 @@
 ---
-title: Paramètres du système
+eleventyComputed:
+  title: Paramètres du système
 ---
 Les ***Paramètres du système*** de la section ***Administration*** sont utilisés pour gérer les paramètres globaux de tous les utilisateurs et groupes d'utilisateurs de {{ fr.DHUBB }}.  
 

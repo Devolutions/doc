@@ -1,6 +1,7 @@
 ---
-title: Entrées favorites
-description: L'onglet Favoris contient les entrées marquées comme favorites par l'utilisateur actuel. Les favoris ne sont pas partagés ett ils se déplacent avec le profil de l'utilisateur.  
+eleventyComputed:
+  title: Entrées favorites
+  description: L'onglet Favoris contient les entrées marquées comme favorites par l'utilisateur actuel. Les favoris ne sont pas partagés ett ils se déplacent avec le profil de l'utilisateur.  
 ---
 L'onglet ***Favoris*** contient les entrées marquées comme favorites par l'utilisateur actuel. Les favoris ne sont pas partagés ett ils se déplacent avec le profil de l'utilisateur.  
 

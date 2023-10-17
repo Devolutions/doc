@@ -1,9 +1,9 @@
 ---
-title: .Net Framework Issue
-keywords:
-- Net
-- net
-- dotnet
+eleventyComputed:
+  title: .Net Framework Issue
+  keywords:
+  - Net
+  - dotnet
 ---
 Some user will have an issue where they will be asked to upgrade their *Net * Framework to version 4.7.2 after updating {{ en.RDM }} to 14.x
 ## Solution

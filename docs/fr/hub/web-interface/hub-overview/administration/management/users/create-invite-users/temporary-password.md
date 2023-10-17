@@ -1,5 +1,6 @@
 ---
-title: Mot de passe temporaire
+eleventyComputed:
+  title: Mot de passe temporaire
 ---
 Un ***Mot de passe temporaire*** est créé automatiquement pour les nouveaux utilisateurs qui sont invités dans {{ fr.DHUBB }} et qui n'ont pas de {{ fr.DA }}.  
 

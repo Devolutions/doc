@@ -1,5 +1,6 @@
 ---
-title: Entrées supprimées
+eleventyComputed:
+  title: Entrées supprimées
 ---
 L'option ***Administration – Entrées supprimées*** vous permet d'afficher les entrées supprimées ainsi que de les restaurer. 
 {% snippet icon.badgeInfo %} 

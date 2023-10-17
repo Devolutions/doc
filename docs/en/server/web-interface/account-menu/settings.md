@@ -1,5 +1,6 @@
 ---
-title: Settings
+eleventyComputed:
+  title: Settings
 ---
 In the ***Settings*** section, modify the user web interface elements. 
 

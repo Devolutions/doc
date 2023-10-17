@@ -1,5 +1,6 @@
 ---
-title: Modify an existing SSO configuration for Azure AD provisioning
+eleventyComputed:
+  title: Modify an existing SSO configuration for Azure AD provisioning
 ---
 If you have enabled Single Sign-on (SSO) with {{ en.DHUBB }} prior to January 9, 2023, it is not configured for Provisioning with Azure AD. To benefit from this feature, you must create a new configuration with Azure AD that will synchronize your desired ***User groups*** with {{ en.DHUBB }}.
 

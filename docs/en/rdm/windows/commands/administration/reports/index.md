@@ -1,5 +1,6 @@
 ---
-title: Reports
+eleventyComputed:
+  title: Reports
 ---
 The ***Reports*** section automatically generates reports detailing {{ en.RDM }} usage related to: Entries, Expired Assets, Passwords, Security, and Users. You have the option to export your generated report, as well as executing and exporting reports through a command line. 
 

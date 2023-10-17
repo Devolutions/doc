@@ -1,4 +1,5 @@
 ---
-title: Commandes
-order: 50
+eleventyComputed:
+  title: Commandes
+  order: 50
 ---

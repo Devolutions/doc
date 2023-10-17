@@ -1,5 +1,6 @@
 ---
-title: Actions
+eleventyComputed:
+  title: Actions
 ---
 L'onglet ***Actions*** est disponible seulement lorsqu'une session est ouverte. Les actions disponibles diffèrent selon l'action.  
 

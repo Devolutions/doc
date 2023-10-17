@@ -1,5 +1,6 @@
 ---
-title: VPN groups
+eleventyComputed:
+  title: VPN groups
 ---
 {% snippet icon.badgeInfo %}
 VPN groups are defined inside each individual entry in the VPN/SSH/Gateway section.

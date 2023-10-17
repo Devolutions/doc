@@ -1,5 +1,6 @@
 ---
-title: Email
+eleventyComputed:
+  title: Email
 ---
 Emails are sent by our notification engine and by some of our multi-factor authentication providers for internal secure messaging. 
 

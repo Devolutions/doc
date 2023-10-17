@@ -1,5 +1,6 @@
 ---
-title: Fichiers connexes
+eleventyComputed:
+  title: Fichiers connexes
 ---
 {{ fr.RDM }} génère des fichiers auxiliaires sur votre poste de travail. Le tableau ci-dessous répertorie un exemple de fichiers auxiliaires et leur emplacement.  
 

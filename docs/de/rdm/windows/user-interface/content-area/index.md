@@ -1,3 +1,4 @@
 ---
-title: Kontextbereich
+eleventyComputed:
+  title: Kontextbereich
 ---

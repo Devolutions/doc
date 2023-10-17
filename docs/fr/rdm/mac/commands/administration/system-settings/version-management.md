@@ -1,5 +1,6 @@
 ---
-title: Gestion de version
+eleventyComputed:
+  title: Gestion de version
 ---
 Vous pouvez gérer vos versions de {{ fr.RDM }} pour Windows, {{ fr.MAC }}, Android ou iOS. 
 

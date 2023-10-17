@@ -1,5 +1,6 @@
 ---
-title: Microsoft RDP API hooking
+eleventyComputed:
+  title: Microsoft RDP API hooking
 ---
 Since {{ en.RDM }} 2022.2, Microsoft RDP API hooking is available and enabled by default. API hooking is required to extend the functionality of the Microsoft RDP client in both embedded (ActiveX) and external modes (mstsc).  
 

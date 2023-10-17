@@ -1,5 +1,6 @@
 ---
-title: Générateur de certificat
+eleventyComputed:
+  title: Générateur de certificat
 ---
 Le ***Générateur de certificat*** vous permet de créer un certificat d'auto-signature qui est un certificat d'identité signé par la même entité dont l'identité est certifiée.  
 

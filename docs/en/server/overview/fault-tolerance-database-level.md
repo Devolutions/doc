@@ -1,5 +1,6 @@
 ---
-title: Fault tolerance at the database level
+eleventyComputed:
+  title: Fault tolerance at the database level
 ---
 The Devolutions platform follows certain design guidelines to preserve full version history of your data, be it modifications or deletions. It also has an extensive logging layer to provide full visibility on the activity performed while the system is in use. These design choices affect the options available to you when it comes to providing fault tolerance at the database level. 
 

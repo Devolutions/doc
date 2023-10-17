@@ -1,7 +1,8 @@
 ---
-title: URLs comparing types
-keywords:
-- matching
+eleventyComputed:
+  title: URLs comparing types
+  keywords:
+  - matching
 ---
 Each URL in a ***Website*** entry has a comparing type associated to it. The comparing type determines if {{ en.DWL }} should offer the entry as an available entry to perform autofill.
 

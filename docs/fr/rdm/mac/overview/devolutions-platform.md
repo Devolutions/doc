@@ -1,5 +1,6 @@
 ---
-title: La plateforme Devolutions
+eleventyComputed:
+  title: La plateforme Devolutions
 ---
 Notre plateforme offre plusieurs produits facilitant la gestion de tous les aspects d'une infrastructure TI. 
 

@@ -1,5 +1,6 @@
 ---
-title: Settings
+eleventyComputed:
+  title: Settings
 ---
 The [{{ en.OBACK }}](/rdm/mac/commands/file/backup/) allows you to backup your [{{ en.DOD }}](/rdm/mac/data-sources/data-sources-types/online-drive/), [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or an [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in a safe online storage. The backup option is available through the File - Backup menu. 
 

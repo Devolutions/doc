@@ -1,3 +1,4 @@
 ---
-title: Paramètres
+eleventyComputed:
+  title: Paramètres
 ---

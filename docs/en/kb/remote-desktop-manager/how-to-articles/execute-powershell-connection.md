@@ -1,5 +1,6 @@
 ---
-title: Execute a PowerShell prior to opening a connection
+eleventyComputed:
+  title: Execute a PowerShell prior to opening a connection
 ---
 It is possible to execute a PowerShell script before establishing a connection, cancel the launching or even import external PowerShell scripts. To accomplish this you would need to go into the ***Properties*** of the entry under ***Events - Before Open - PowerShell***.
 

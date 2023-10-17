@@ -1,3 +1,4 @@
 ---
-title: Systemvoraussetzungen
+eleventyComputed:
+  title: Systemvoraussetzungen
 ---

@@ -1,5 +1,6 @@
 ---
-title: Sélection des options
+eleventyComputed:
+  title: Sélection des options
 ---
 Lors de la génération du fichier d'installation, vous devez décider quoi inclure dans la configuration. Ce processus répliquera la configuration de l'instance de {{ fr.RDM }} présentement utilisée et générera un fichier d'installation (.rdi). Une fois qu'il a été généré, le fichier d'installation peut être utilisé autant de fois que nécessaire pour créer des d'installations personnalisées. Pour des raisons de sécurité, certains paramètres pouvant contenir des identifiants, tels que les ***Modèles enregistrés***, sont désactivés par défaut. Activez-les basé sur votre niveau de risques.  
 

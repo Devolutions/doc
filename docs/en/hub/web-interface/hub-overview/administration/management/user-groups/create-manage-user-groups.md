@@ -1,5 +1,6 @@
 ---
-title: Create and Manage User Groups
+eleventyComputed:
+  title: Create and Manage User Groups
 ---
 User management and permissions can be made easier with ***User Groups*** in {{ en.DHUBB }}.  
 

@@ -1,5 +1,6 @@
 ---
-title: Ancillary files
+eleventyComputed:
+  title: Ancillary files
 ---
 {{ en.RDMMAC }} generates ancillary files on your workstation. The table below lists out an example of ancillary files and their locations.  
 

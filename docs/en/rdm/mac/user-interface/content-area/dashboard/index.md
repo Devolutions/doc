@@ -1,5 +1,6 @@
 ---
-title: Dashboard
+eleventyComputed:
+  title: Dashboard
 ---
 The Dashboard displays commands and information related to the selected entry. The dashboard is context sensitive and its content depends on the type of the selected entry.  
 ![Dashboard for credential entry](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6010.png) 

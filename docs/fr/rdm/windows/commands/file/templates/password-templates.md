@@ -1,5 +1,6 @@
 ---
-title: Modèles de mot de passe
+eleventyComputed:
+  title: Modèles de mot de passe
 ---
 Les ***Modèles de mot de passe*** définissent les exigences pour le format du mot de passe : utilisation des caractères, mode, lisibilité.  
 

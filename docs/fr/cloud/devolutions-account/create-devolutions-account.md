@@ -1,6 +1,7 @@
 ---
-title: Créer un compte
-order: 10
+eleventyComputed:
+  title: Créer un compte
+  order: 10
 ---
 Créer votre {{ fr.DA }} gratuit.  
 

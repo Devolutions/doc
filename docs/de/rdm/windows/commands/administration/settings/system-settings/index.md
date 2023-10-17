@@ -1,3 +1,4 @@
 ---
-title: Systemeinstellungen
+eleventyComputed:
+  title: Systemeinstellungen
 ---

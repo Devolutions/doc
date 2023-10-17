@@ -1,4 +1,5 @@
 ---
-title: General Knowledge Base
-order: 110
+eleventyComputed:
+  title: General Knowledge Base
+  order: 110
 ---

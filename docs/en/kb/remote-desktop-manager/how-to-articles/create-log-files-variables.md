@@ -1,5 +1,6 @@
 ---
-title: Create log files with variables
+eleventyComputed:
+  title: Create log files with variables
 ---
 Our client often ask us what are the variables set to add the year, month, day and time to the name of their log files.
 The variable that must be used are:

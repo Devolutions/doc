@@ -1,5 +1,6 @@
 ---
-title: Paramètres spécifiques
+eleventyComputed:
+  title: Paramètres spécifiques
 ---
 Les paramètres spécifiques sont utilisés pour remplacer les paramètres spécifiques de l'usager ou locaux d'une session. 
 

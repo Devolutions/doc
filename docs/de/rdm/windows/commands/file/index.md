@@ -1,3 +1,4 @@
 ---
-title: Datei
+eleventyComputed:
+  title: Datei
 ---

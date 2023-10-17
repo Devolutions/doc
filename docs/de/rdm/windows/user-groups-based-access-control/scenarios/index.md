@@ -1,3 +1,4 @@
 ---
-title: Szenarien
+eleventyComputed:
+  title: Szenarien
 ---

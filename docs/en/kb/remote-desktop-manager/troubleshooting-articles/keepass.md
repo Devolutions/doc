@@ -1,5 +1,6 @@
 ---
-title: KeePass troubleshooting
+eleventyComputed:
+  title: KeePass troubleshooting
 ---
 ## Problem 1
 

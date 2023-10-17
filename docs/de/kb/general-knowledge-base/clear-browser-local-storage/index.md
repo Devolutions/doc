@@ -1,3 +1,4 @@
 ---
-title: Clear a browser's local storage
+eleventyComputed:
+  title: Clear a browser's local storage
 ---

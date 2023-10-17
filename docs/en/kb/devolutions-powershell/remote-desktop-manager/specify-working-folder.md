@@ -1,5 +1,6 @@
 ---
-title: Change default working directory
+eleventyComputed:
+  title: Change default working directory
 ---
 It is possible to specify the working folder for PowerShell entries in {{ en.RDM }}.
 

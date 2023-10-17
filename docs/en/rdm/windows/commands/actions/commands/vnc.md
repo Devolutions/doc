@@ -1,5 +1,6 @@
 ---
-title: VNC
+eleventyComputed:
+  title: VNC
 ---
 The VNC Commands allow you to send remote commands to your host. You will also notice another toolbar holding more defined commands for a VNC session. 
 

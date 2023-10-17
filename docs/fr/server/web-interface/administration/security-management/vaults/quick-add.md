@@ -1,5 +1,6 @@
 ---
-title: Ajout rapide
+eleventyComputed:
+  title: Ajout rapide
 ---
 Permet de personnaliser la liste des types de sessions pour le bouton d'ajout rapide.  
 ![Ajout rapide](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8068.png)  

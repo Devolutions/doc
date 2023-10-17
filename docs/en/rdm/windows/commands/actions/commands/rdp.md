@@ -1,5 +1,6 @@
 ---
-title: RDP
+eleventyComputed:
+  title: RDP
 ---
 The commands for an RDP session allow you to send remote commands to your host. 
 
@@ -37,7 +38,7 @@ Send the key combination <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Delete</kbd> to the
 Charms 
 		</td>
 		<td>
-On Windows 8 or Windows 2012 server, display the Charms bar (Search, Share, Start, Devices, and Settings bar). 
+Display the Charms bar (Search, Share, Start, Devices, and Settings bar). 
 		</td>
 	</tr>
 	<tr>
@@ -45,7 +46,7 @@ On Windows 8 or Windows 2012 server, display the Charms bar (Search, Share, Star
 App Bar 
 		</td>
 		<td>
-On Windows 8 or Windows 2012 server, display the App bar to show navigation, commands, and tools. 
+Display the App bar to show navigation, commands, and tools. 
 		</td>
 	</tr>
 	<tr>
@@ -53,7 +54,7 @@ On Windows 8 or Windows 2012 server, display the App bar to show navigation, com
 Snap 
 		</td>
 		<td>
-On Windows 8 or Windows 2012 server, run two applications side-by-side. 
+Run two applications side-by-side. 
 		</td>
 	</tr>
 	<tr>
@@ -69,7 +70,7 @@ Open the Start menu on the host computer.
 App Switch 
 		</td>
 		<td>
-On Windows 8 or Windows 2012 server, switch from an application to another. 
+Switch from an application to another. 
 		</td>
 	</tr>
 </table>

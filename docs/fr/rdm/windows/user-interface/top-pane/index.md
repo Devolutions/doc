@@ -1,5 +1,6 @@
 ---
-title: Volet supérieur
+eleventyComputed:
+  title: Volet supérieur
 ---
 Le ***Volet supérieur*** contient la [Barre de connexion rapide](/fr/rdm/windows/user-interface/top-pane/quick-access-toolbar/) et le ***Ruban/Menu***.  
 ![Volet supérieur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11408.png) 

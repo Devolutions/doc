@@ -1,3 +1,4 @@
 ---
-title: Verwaltung
+eleventyComputed:
+  title: Verwaltung
 ---

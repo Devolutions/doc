@@ -1,5 +1,6 @@
 ---
-title: Profiler
+eleventyComputed:
+  title: Profiler
 ---
 {{ en.RDMMAC }} has a built-in profiler to diagnose connectivity issues with a data source.  
 

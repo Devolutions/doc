@@ -1,5 +1,6 @@
 ---
-title: Général
+eleventyComputed:
+  title: Général
 ---
 L'onglet ***Général*** vous permet de remplacer le mode d'affichage et les identifiants. 
 

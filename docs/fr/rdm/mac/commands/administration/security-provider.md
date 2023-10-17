@@ -1,5 +1,6 @@
 ---
-title: Fournisseur de sécurité
+eleventyComputed:
+  title: Fournisseur de sécurité
 ---
 Le fournisseur de sécurité est disponible dans ***Administration - Fournisseur de sécurité***. Le fournisseur de sécurité est responsable du cryptage des données dans la base de données.  
 

@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Migration de l'ancienne sécurité vers les permissions dans {{ fr.RDM }}
+  title: Désactiver l'ancienne sécurité dans {{ fr.RDM }}
   status: Topic available in German language
-  description: Cette rubrique explique comment migrer en toute sécurité de l'ancienne sécurité vers les permissions dans {{ fr.RDM }}.
+  description: Cette rubrique explique comment désactiver en toute sécurité l'ancienne sécurité dans {{ fr.RDM }} pour utiliser les permissions.
   keywords: 
   - Legacy Security
   - Permissions

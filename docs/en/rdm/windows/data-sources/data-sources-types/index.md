@@ -1,6 +1,7 @@
 ---
-title: Data Sources Types
-order: 20
+eleventyComputed:
+  title: Data Sources Types
+  order: 20
 ---
 {% youtube 'ji4G8Ti7lls' %}  
 

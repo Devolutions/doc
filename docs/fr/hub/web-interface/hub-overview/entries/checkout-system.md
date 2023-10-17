@@ -1,5 +1,6 @@
 ---
-title: Mode de réservation
+eleventyComputed:
+  title: Mode de réservation
 ---
 Le ***Mode de réservation*** verrouille une entrée pendant qu'elle est utilisée ou modifiée. Il empêche les utilisateurs d'utiliser ou de modifier une entrée en même temps.  
 

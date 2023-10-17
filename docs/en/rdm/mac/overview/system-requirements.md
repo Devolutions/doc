@@ -1,5 +1,6 @@
 ---
-title: System requirements
+eleventyComputed:
+  title: System requirements
 ---
 {{ en.RDMMAC }} requires the following prior to installation. 
 

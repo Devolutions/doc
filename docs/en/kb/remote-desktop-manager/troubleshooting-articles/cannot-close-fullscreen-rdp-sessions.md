@@ -1,5 +1,6 @@
 ---
-title: Unable to close fullscreen RDP sessions
+eleventyComputed:
+  title: Unable to close fullscreen RDP sessions
 ---
 Unable to close a fullscreen embedded RDP sessions with the X button in {{ en.RDM }}
 ## Solution 1

@@ -1,5 +1,6 @@
 ---
-title: Password Generator
+eleventyComputed:
+  title: Password Generator
 ---
 The ***Password Generator*** is available in the Tools – Password Generator menu. It allows to create random passwords that are and difficult to interpret or predict, due to a mix of uppercase and lowercase letters, numbers and punctuation symbols.  
 

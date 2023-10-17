@@ -1,5 +1,6 @@
 ---
-title: SQL Azure as the back-end users cannot login
+eleventyComputed:
+  title: SQL Azure as the back-end users cannot login
 ---
 Since the release of {{ en.DVLS }} 6.0.0, some users have experienced failed connection from {{ en.RDM }} However connection through the Web Application works well.  
 

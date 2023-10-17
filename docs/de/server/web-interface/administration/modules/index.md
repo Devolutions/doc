@@ -1,4 +1,5 @@
 ---
-title: Module
-order: 30
+eleventyComputed:
+  title: Module
+  order: 30
 ---

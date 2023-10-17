@@ -1,5 +1,6 @@
 ---
-title: Application Users
+eleventyComputed:
+  title: Application Users
 ---
 ***Application Users*** are created to be used to connect with applications like the {{ en.PS }} Module. In ***Administration – Application Users***, you can create, manage, and delete application users.  
 

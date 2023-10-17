@@ -1,4 +1,5 @@
 ---
-title: Erste Schritte
-order: 10
+eleventyComputed:
+  title: Erste Schritte
+  order: 10
 ---

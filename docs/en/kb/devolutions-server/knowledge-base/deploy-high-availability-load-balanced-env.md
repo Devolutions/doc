@@ -1,5 +1,6 @@
 ---
-title: Deploy in a high-availability or load-balancing environment
+eleventyComputed:
+  title: Deploy in a high-availability or load-balancing environment
 ---
 ![!!KB4773](https://webdevolutions.azureedge.net/docs/en/kb/KB4773.png)
 

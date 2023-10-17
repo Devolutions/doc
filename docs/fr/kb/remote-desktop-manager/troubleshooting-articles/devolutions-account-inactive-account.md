@@ -1,5 +1,5 @@
 ---
-eleventyCompupted:
+eleventyComputed:
   title: '{{ fr.DA }} - Compte inactif'
 ---
 Afin de respecter la politique de rétention des données de Devolutions, nous devons supprimer le {{ fr.DA }} après trois ans sans connexion.  

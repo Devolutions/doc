@@ -1,3 +1,4 @@
 ---
-title: Customization
+eleventyComputed:
+  title: Customization
 ---

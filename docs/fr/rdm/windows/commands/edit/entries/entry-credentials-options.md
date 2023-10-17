@@ -1,5 +1,6 @@
 ---
-title: Options d'identifiants
+eleventyComputed:
+  title: Options d'identifiants
 ---
 Plusieurs options sont disponibles pour les ***Identifiants*** dans les entrées {{ fr.RDM }}.  
 ![Identifiants](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4041.png)

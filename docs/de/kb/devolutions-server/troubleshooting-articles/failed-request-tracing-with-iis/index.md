@@ -1,3 +1,4 @@
 ---
-title: Failed Request Tracing with IIS
+eleventyComputed:
+  title: Failed Request Tracing with IIS
 ---

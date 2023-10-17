@@ -1,5 +1,6 @@
 ---
-title: Boutons d'action
+eleventyComputed:
+  title: Boutons d'action
 ---
 L'affichage des ***Boutons d'action*** pour les entrées varie en fonction du type d'entrée sélectionné et de vos paramètres de {{ fr.DHUB }}.  
 ![Boutons d'action d'entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2000.png)

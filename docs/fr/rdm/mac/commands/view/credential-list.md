@@ -1,5 +1,6 @@
 ---
-title: Liste des identifiants
+eleventyComputed:
+  title: Liste des identifiants
 ---
 La fonctionnalité ***Liste des identifiants*** se trouve dans l'onglet ***Affichage***.  
 ![Bouton Liste des identifiants](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0008.png) 

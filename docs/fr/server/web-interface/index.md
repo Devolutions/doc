@@ -1,6 +1,7 @@
 ---
-title: Interface Web
-order: 40
+eleventyComputed:
+  title: Interface Web
+  order: 40
 ---
 L'interface Web de {{ fr.DVLS }} offre une interface simplifiée permettant aux utilisateurs d'utiliser et de gérer les mots de passe à partir de n'importe quel navigateur Web.  
 

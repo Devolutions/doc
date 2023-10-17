@@ -1,5 +1,6 @@
 ---
-title: Fournisseur de sécurité
+eleventyComputed:
+  title: Fournisseur de sécurité
 ---
 {% youtube 'uaM3UoyghFc' %}  
 

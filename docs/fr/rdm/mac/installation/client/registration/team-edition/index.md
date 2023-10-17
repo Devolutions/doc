@@ -1,6 +1,7 @@
 ---
-title: Édition Team
-order: 10
+eleventyComputed:
+  title: Édition Team
+  order: 10
 ---
 Si vous utilisez une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/), vous n'avez pas besoin d'enregistrer une licence pour {{ fr.RDMMAC }}, parce qu'elle est stockée et récupérée directement sur la source de donnée. Lorsque vous lancez l'application pour la première fois, [ajoutez la source de données](/fr/rdm/mac/data-sources/create-new-data-source/) contenant la clé.  
 

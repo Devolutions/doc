@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
   title: Enable the {{ en.DVLS }} Log4Net log
-keywords:
-- Log
-- Log4Net
-- Logging
-- Logs
+  keywords:
+  - Log
+  - Log4Net
+  - Logging
+  - Logs
 ---
 You may be asked by our support team to get the Log4Nets log. They’re located in the {{ en.DVLS }} web app App_Data folder.  
 

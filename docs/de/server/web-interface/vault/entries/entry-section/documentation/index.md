@@ -1,4 +1,5 @@
 ---
-title: Dokumentation
-order: 10
+eleventyComputed:
+  title: Dokumentation
+  order: 10
 ---

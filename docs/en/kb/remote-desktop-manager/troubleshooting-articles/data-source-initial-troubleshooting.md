@@ -1,5 +1,6 @@
 ---
-title: Data source initial troubleshooting
+eleventyComputed:
+  title: Data source initial troubleshooting
 ---
 ### The name of the data source is entered incorrectly
 For those Data Source types that need a host name, please ensure it is typed correctly.

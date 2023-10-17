@@ -1,5 +1,6 @@
 ---
-title: Database upgrade
+eleventyComputed:
+  title: Database upgrade
 ---
 Sqlexception - timeout expired. The timeout period elapsed prior to completion of the operation or the server is not responding.
 ## Solution

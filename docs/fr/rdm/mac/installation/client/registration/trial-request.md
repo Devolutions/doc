@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Demande d'essai
   description: Si vous n'êtes pas prêt à acheter {{ fr.RDMMAC }}, vous pouvez utiliser l'Édition Free ou suivre ces étapes pour obtenir un essai gratuit de 30 jours de l'Édition Team.
-  keyword:
+  keywords:
   - trial
 ---
 Si vous n'êtes pas prêt à acheter {{ fr.RDMMAC }}, vous pouvez utiliser l'[Édition Free](/fr/rdm/mac/installation/client/registration/free-edition/) ou suivre les étapes suivantes pour obtenir un essai gratuit de 30 jours de l'Édition Team.

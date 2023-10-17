@@ -1,5 +1,6 @@
 ---
-title: Configure failed request tracing
+eleventyComputed:
+  title: Configure failed request tracing
 ---
 {% snippet icon.badgeInfo %}
 The following steps are applicable on IIS 7.0 or higher.

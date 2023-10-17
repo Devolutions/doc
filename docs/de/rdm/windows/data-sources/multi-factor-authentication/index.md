@@ -1,4 +1,5 @@
 ---
-title: Multi-Faktor Authentifizierung
-order: 30
+eleventyComputed:
+  title: Multi-Faktor Authentifizierung
+  order: 30
 ---

@@ -1,5 +1,6 @@
 ---
-title: Créer une inscription d'application Azure Active Directory
+eleventyComputed:
+  title: Créer une inscription d'application Azure Active Directory
 ---
 {% snippet icon.badgeInfo %} 
 Cette étape est facultative et non obligatoire si votre version de {{ fr.RDM }} est 2022.1 ou supérieure. 

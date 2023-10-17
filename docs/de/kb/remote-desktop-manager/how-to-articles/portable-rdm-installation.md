@@ -1,8 +1,7 @@
 ---
-eleventyComputed:
-  title: Portable Installation von  {{ de.RDM }} 
+title: Remote Desktop Manager als portable Version verwenden 
 ---
-Es kann vorkommen, dass die Mitarbeiter des Devolutions-Support-Teams Sie bitten, eine portable Installation von {{ de.RDM }} auszuprobieren, um die Anwendung von einem möglichen Problem zu isolieren, das von einer lokalen Datei, Konfiguration oder spezifischen Einstellung verursacht wird.  
+Möglicherweise bittet Sie ein Mitarbeiter des Devolutions-Support-Teams eine portable Version von {{ de.RDM }} zu testen, um die Anwendung von einem möglichen Problem zu isolieren, das von einer lokalen Datei, Konfiguration oder spezifischen Einstellung verursacht wird.  
 
 Dazu müssen Sie folgende Schritte ausführen:  
 
@@ -11,14 +10,14 @@ Dazu müssen Sie folgende Schritte ausführen:
 1. Extrahieren Sie den Inhalt der ZIP-Datei in den in Schritt 2 erstellten Ordner. 
 1. Wechseln Sie in diesen Ordner, sobald die ZIP-Datei entpackt wurde, und führen Sie  **RemoteDesktopManager.exe** aus. 
 
-Wenn das Problem behoben ist, können Sie die portable Anwendung von {{ de.RDM }} so verwenden. Wir empfehlen Ihnen jedoch, sie als Hauptinstallation zu verwenden.  
+Wenn das Problem nicht mehr auftritt, können Sie die portable Anwendung von {{ de.RDM }} weiterhin auf diese Weise verwenden. Wir empfehlen Ihnen jedoch, die installierte Version mit dieser zu ersetzen.
 
-Dazu müssen Sie Folgendes tun:  
+Dazu führen Sie bitte folgende Schritte durch:  
 
-## Verschieben der portablen Installation von  {{ de.RDM }} 
+## Installierte {{ de.RDM }} Version mit portabler Version ersetzen 
 
 {% snippet icon.badgeInfo %}
-Die folgenden Schritte gelten für den Fall, dass Sie die Standard-SQLite-Datenquellen verwenden, die von {{ de.RDM }} bei der Erstinstallation erstellt wurde. Sollte dies nicht der Fall sein, gehen Sie bitte zu Schritt 4..
+Die folgenden Schritte gelten für den Fall, dass Sie die Standard SQLite-Datenquelle verwenden, die bei der Erstinstallation erstellt wurde. Sollte dies nicht der Fall sein, gehen Sie bitte zu Schritt 4..
 {% endsnippet %}
 
 1. Gehen Sie zu Ihrem Ordner **%localappdata%\Devolutions\RemoteDesktopManager**.
@@ -29,5 +28,5 @@ Die folgenden Schritte gelten für den Fall, dass Sie die Standard-SQLite-Datenq
 1. Erstellen Sie eine neue Verknüpfung von {{ de.RDM }} mit der in diesem Ordner enthaltenen Datei **RemoteDesktopManager.exe**.
 1. Starten Sie {{ de.RDM }}.
 1. Greifen Sie auf Ihre Daten zu.
-   - Wenn Sie die Standard-SQLite-Datenquelle verwenden und die Datei ***Connections.db*** wie in den Schritten 1 bis 3 beschrieben verschoben haben, sollte die Anwendung automatisch eine Verbindung herstellen und sie sollten Zugriff auf Ihre Daten haben.
-   - Wenn Sie einen anderen Datenquellentyp als SQLite verwenden, müssen Sie ihn im {{ de.RDM }} erstellen und zuordnen, wie in diesem Artikel gezeigt: [Eine Datenquelle erstellen](/rdm/windows/data-sources/create-new-data-source/).
+   - Wenn Sie die Standard-SQLite-Datenquelle verwenden und die Datei ***Connections.db*** wie in den Schritten 1 bis 3 beschrieben verschoben haben, sollte die Anwendung automatisch eine Verbindung herstellen und Zugriff auf Ihre Daten haben.
+   - Wenn Sie einen anderen Datenquellentyp als SQLite verwenden, müssen Sie diesen in {{ de.RDM }} erstellen und zuordnen, die benötigen Schritte finden Sie unter [Eine Datenquelle erstellen](/rdm/windows/data-sources/create-new-data-source/).

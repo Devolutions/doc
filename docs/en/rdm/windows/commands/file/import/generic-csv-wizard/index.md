@@ -1,5 +1,6 @@
 ---
-title: Import Generic CSV Wizard
+eleventyComputed:
+  title: Import Generic CSV Wizard
 ---
 The ***Import Generic Csv Wizard*** has been greatly enhanced to support not the general fields of all entries, but also the subfields. This gives you access to all properties, even for types provided by add-ons, therefore unknown to {{ en.RDM }}. 
 

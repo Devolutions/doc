@@ -1,3 +1,4 @@
 ---
-title: Multi-Faktor
+eleventyComputed:
+  title: Multi-Faktor
 ---

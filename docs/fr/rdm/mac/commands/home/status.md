@@ -1,5 +1,6 @@
 ---
-title: Statut
+eleventyComputed:
+  title: Statut
 ---
 Le ***Statut*** vous permet de modifier le statut d'une session. 
 

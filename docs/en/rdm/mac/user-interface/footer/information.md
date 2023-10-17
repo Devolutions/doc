@@ -1,5 +1,6 @@
 ---
-title: Information
+eleventyComputed:
+  title: Information
 ---
 The Information footer pane contains a wide assortment of information on the entry. Some purely informative and some of operational nature. It contains multiple tabs in order to present as much information as possible.  
 

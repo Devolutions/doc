@@ -1,3 +1,4 @@
 ---
-title: Batch
+eleventyComputed:
+  title: Batch
 ---

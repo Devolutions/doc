@@ -1,5 +1,6 @@
 ---
-title: Terminal Playback (Ansi)
+eleventyComputed:
+  title: Terminal Playback (Ansi)
 ---
 The ***Playback (Ansi)*** is available in ***Tools – More Tools – Playback (Ansi)***. 
 

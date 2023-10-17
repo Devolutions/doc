@@ -1,6 +1,7 @@
 ---
-title: Créer une source de données
-order: 10
+eleventyComputed:
+  title: Créer une source de données
+  order: 10
 ---
 {% youtube '1oqAqk_tCv8' %}  
 

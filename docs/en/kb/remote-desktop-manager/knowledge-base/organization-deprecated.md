@@ -1,5 +1,6 @@
 ---
-title: Devolutions Organization is deprecated
+eleventyComputed:
+  title: Devolutions Organization is deprecated
 ---
 The Devolutions Organization feature was deprecated in {{ en.RDM }} 2023.1.
 

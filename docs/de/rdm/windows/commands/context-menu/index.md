@@ -1,3 +1,4 @@
 ---
-title: Kontextmenü
+eleventyComputed:
+  title: Kontextmenü
 ---

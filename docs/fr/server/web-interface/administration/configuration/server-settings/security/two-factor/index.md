@@ -1,5 +1,6 @@
 ---
-title: Authentification deux facteurs
+eleventyComputed:
+  title: Authentification deux facteurs
 ---
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité n'est disponible que pour {{ fr.DVLS }} version 2022 ou supérieure. 

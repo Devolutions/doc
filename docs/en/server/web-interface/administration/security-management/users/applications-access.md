@@ -1,5 +1,6 @@
 ---
-title: Applications access
+eleventyComputed:
+  title: Applications access
 ---
 Allow or deny the user access to different applications and {{ en.CTOOLS }}:  
 

@@ -1,4 +1,5 @@
 ---
-title: PowerShell Scripting
-order: 80
+eleventyComputed:
+  title: PowerShell Scripting
+  order: 80
 ---

@@ -1,5 +1,6 @@
 ---
-title: Multi Domain
+eleventyComputed:
+  title: Multi Domain
 ---
 {% snippet icon.badgeInfo %} 
 The Platinum Edition license is required to enable the Multi Domain feature. Contact our [sales department](mailto:sales@devolutions.net) for more information about the Platinum Edition. 

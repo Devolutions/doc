@@ -1,3 +1,4 @@
 ---
-title: Alte Information
+eleventyComputed:
+  title: Alte Information
 ---

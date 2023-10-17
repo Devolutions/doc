@@ -1,4 +1,5 @@
 ---
-title: Erweitert
-order: 20
+eleventyComputed:
+  title: Erweitert
+  order: 20
 ---
