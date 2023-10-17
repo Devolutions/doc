@@ -24,7 +24,7 @@ Insert PowerShell code
 
 You can find the list of supported languages in the [Supported Languages – highlight.js documentation](https://highlightjs.readthedocs.io/en/latest/supported-languages.html).  
 
-### Code validation
+### Code validation 
 
 All code provided in the documentation is validated by our security team.  
 
