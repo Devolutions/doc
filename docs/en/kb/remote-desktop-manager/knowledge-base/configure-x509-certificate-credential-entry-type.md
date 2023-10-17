@@ -47,10 +47,10 @@ The aX.509 certificate credential entry type could be used to perform signing op
 ![Certificate location](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6141_2023_3.png)
 1. Choose the ***Certificate Store*** in the drop-down menu.
 ![Certificate Store](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6142_2023_3.png)
-1. Choose Thumbprint or Subject name in ***Certificate find type***.
+1. Choose ***Thumbprint*** or ***Subject name*** in ***Certificate find type***.
 ![Certificate find type](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6143_2023_3.png) 
 1. Enter the ***Search text***.
-1. Click ***Test Configuration***
+1. Click ***Test Configuration***.
 ![Search text and Test Configuration](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6144_2023_3.png)
 1. Select the ***PIN*** of the ***Smart Card*** if needed.
 ![Smart Card](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6140_2023_3.png)
