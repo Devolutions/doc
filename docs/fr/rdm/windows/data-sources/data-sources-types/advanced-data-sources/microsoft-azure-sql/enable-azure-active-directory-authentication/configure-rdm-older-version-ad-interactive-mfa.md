@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configurer une anciennce version de {{ fr.RDM }} AD Interactive (avec MFA)
+  title: Configurer une anciennce version d'Active Directory Interactive (avec MFA pris en charge) avec {{ fr.RDM }}
 ---
 {% snippet icon.badgeInfo %} 
 Cette rubrique est pour les versions de {{ fr.RDM }} inférieures à 2022.1. Si vous utilisez une version plus récente, veuillez plutôt consulter [Configurer {{ fr.RDM }} Active Directory Interactive (avec MFA pris en charge)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/).

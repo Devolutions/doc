@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Create an Azure Active Directory App Registration
+  title: Create an Azure Active Directory App registration
   keywords:
   - Active Directory admin
 ---

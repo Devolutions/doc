@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Enable Azure Active Directory Authentication
+  title: Enable Azure Active Directory authentication
 ---

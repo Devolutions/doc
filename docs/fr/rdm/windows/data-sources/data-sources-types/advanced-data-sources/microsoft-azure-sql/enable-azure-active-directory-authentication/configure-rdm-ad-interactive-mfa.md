@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configurer {{ fr.RDM }} Active Directory Interactive (avec MFA pris en charge)
+  title: Configurer Active Directory Interactive (avec MFA pris en charge) dans {{ fr.RDM }}
   description: 
 ---
 {% snippet icon.badgeInfo %} 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configurer SQL Azure
+  title: Configurer Azure SQL
 ---
 1. Assurez-vous que vous disposez d'un abonnement Microsoft Azure SQL valide pour pouvoir créer votre base de données. 
 1. Cliquer sur les points de suspension dans le ***{{ fr.NPANE }}*** ou aller dans ***Fichier - Sources de données***.  
@@ -22,4 +22,4 @@ Si votre base de données a été créée à l'aide d'un Super Utilisateur (exem
 8. Connectez-vous à la source de données Azure SQL avec le compte d'administrateur {{ fr.RDM }}. Pour ce faire, allez dans {{ fr.RDM }} et cliquer sur le bouton de paramétrage pour éditer votre source de données SQL. Entrer ensuite le compte administrateur {{ fr.RDM }} que vous avez créé dans le nom d'utilisateur.  
 ![Nom d'utilisateur et Mot de passe de l'administrateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11501.png) 
 
-La source de données Microsoft Azure SQL est désormais correctement configurée. 
+La source de données Microsoft Azure SQL est désormais correctement configurée.

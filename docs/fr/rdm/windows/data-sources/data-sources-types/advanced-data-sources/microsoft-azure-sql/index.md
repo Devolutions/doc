@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Microsoft SQL Azure
+  title: Microsoft Azure SQL
 ---
 <table>
 	<tr>
