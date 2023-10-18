@@ -11,7 +11,7 @@ The aX.509 certificate credential entry type could be used to perform signing op
 ![Add a x.509 Certificate entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6126_2023_3.png)  
 1. Click ***OK***.
 1. Choose the ***Name*** and ***Folder***.
-1. Under ***General***, select [***Stored in database***](kb/remote-desktop-manager/knowledge-base/configure-x509-certificate-credential-entry-type/#stored-in-database) or [***Link to certificate store***](kb/remote-desktop-manager/knowledge-base/configure-x509-certificate-credential-entry-type/#link-to-certificate-store) in the ***Certificate data mode*** drop-down menu.
+1. Under ***General***, select [***Stored in database***](https://docs.devolutions.net/kb/remote-desktop-manager/knowledge-base/configure-x509-certificate-credential-entry-type/#stored-in-database) or [***Link to certificate store***](https://docs.devolutions.net/kb/remote-desktop-manager/knowledge-base/configure-x509-certificate-credential-entry-type/#link-to-certificate-store) in the ***Certificate data mode*** drop-down menu.
 ![Stored in database and Link to certificate store](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6130_2023_3.png)  
 
 ## Stored in database
@@ -38,8 +38,9 @@ The aX.509 certificate credential entry type could be used to perform signing op
 1. Click ***Finish*** to complete the import.
 ![Completing the Certificate Import Wizard window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6138_2023_3.png)
 1. Select the ***PIN*** of the ***Smart Card*** if needed.
-![Smart Card](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6140_2023_3.png)
-1. Click ***Add*** to save the entry 
+1. Click ***Add***.
+![Smart Card](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6140_2023_3.png)  
+The entry is saved.
 
 ## Link to certificate store
 
@@ -53,5 +54,6 @@ The aX.509 certificate credential entry type could be used to perform signing op
 1. Click ***Test Configuration***.
 ![Search text and Test Configuration](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6144_2023_3.png)
 1. Select the ***PIN*** of the ***Smart Card*** if needed.
-![Smart Card](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6140_2023_3.png)
-1. Click ***Add*** to save the entry. 
+1. Click ***Add***.
+![Smart Card](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6140_2023_3.png)    
+The entry is saved.
