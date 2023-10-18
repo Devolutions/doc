@@ -1,8 +1,12 @@
 ---
 eleventyComputed:
-  title: Importer et Exporter
+  title: Importer et exporter une source de données
 ---
-Vous pouvez simplifier le déploiement pour plusieurs utilisateurs en exportant et en important la configuration de la source de données. Le fichier généré aura une extension .rdd et contient toutes les informations pour recréer la configuration. Veuillez noter que le fichier .rdd n'inclut pas le contenu de la base de données, seule la configuration est exportée. Utilisez les autres fonctionnalités d'exportation pour sauvegarder ou copier le contenu de la base de données.  
+Vous pouvez simplifier le déploiement pour plusieurs utilisateurs en exportant et en important la configuration de la source de données. Le fichier généré aura une extension .rdd et contiendra toutes les informations pour recréer la configuration. 
+
+{% snippet icon.badgeCaution %}
+Le fichier .rdd n'inclut pas le contenu de la base de données; seule la configuration est exportée. Utilisez les autres fonctionnalités d'exportation pour sauvegarder ou copier le contenu de la base de données.
+{% endsnippet %}  
 
 Vous trouverez dans ***Fichier - Source de données*** l'accès pour l'importation ou l'exportation du fichier.  
 ![Source de données - Importer/Exporter](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11263.png) 
@@ -14,5 +18,3 @@ Le fait que les utilisateurs puissent ou non lire/écrire en mode hors ligne est
 {% snippet icon.shieldWarning %} 
 Une source de données verrouillée peut être exportée et importée, mais son contenu ne sera pas accessible pour une utilisation à moins qu'un mot de passe ne soit entré lorsque la source de données est sélectionnée. Voir [Verrouiller la source de données](/fr/rdm/windows/data-sources/lock/) pour plus d'informations. 
 {% endsnippet %}
- 
-

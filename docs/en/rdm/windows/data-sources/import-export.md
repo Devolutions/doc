@@ -1,8 +1,12 @@
 ---
 eleventyComputed:
-  title: Import and Export Data Source
+  title: Import and export a data source
 ---
-To simplify deployment for multiple users, it is possible to export and import data source configurations. The generated .rdd file contains all the information to recreate the configuration. Please note that the .rdd file does not include the database content. Only the configuration is exported. Use the entry's [Export](File_Export) functionality to backup or copy the database's content.  
+To simplify deployment for multiple users, it is possible to export and import data source configurations. The generated .rdd file contains all the information to recreate the configuration.
+
+{% snippet icon.badgeCaution %}
+The .rdd file does not include the database content. Only the configuration is exported. Use the entry's export functionality to back up or copy the content of the database.
+{% endsnippet %}  
 
 Use ***File – Data Sources*** to access the import or export functionality.  
 ![Data Sources - Import and Export](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11263.png) 
@@ -14,5 +18,3 @@ Whether or not users can ***Read/Write*** in [Offline mode](/rdm/windows/data-so
 {% snippet icon.shieldWarning %} 
 A locked data source can be exported and imported, but the content will be locked unless a password is entered when the data source is selected. See [Lock Data Source](/rdm/windows/data-sources/lock/) for more information. 
 {% endsnippet %}
- 
-
