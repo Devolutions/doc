@@ -323,14 +323,6 @@ If an RDP session requests the focus, it will pull {{ en.RDM }} to the foregroun
 	</tr>
 	<tr>
 		<td>
-Confirm on drag and drop move 
-		</td>
-		<td>
-When session(s) are moved by drag and drop, a confirmation message will appear to confirm the move. 
-		</td>
-	</tr>
-	<tr>
-		<td>
 Disable all Gravatar images 
 		</td>
 		<td>
