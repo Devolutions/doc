@@ -15,7 +15,7 @@ Enter or import the license and click ***Add***.
 ### Offline registration
 
 * ***Trial license***: The license file must be downloaded from the Devolutions confirmation email and imported as described in the steps above for {{ en.DVLS }} 2023.3 and higher.
-* ***Purchased license***: The purchased license must be downloaded from the [{{ en.DPORTAL }}](portal.devolutions.com) account.
+* ***Purchased license***: The purchased license must be downloaded from the {{ en.DPORTAL }} account.
 
 
 
