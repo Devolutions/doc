@@ -6,17 +6,13 @@ eleventyComputed:
 
 {{ en.DWSMOBILE }} and {{ en.DWSDESKTOP }} are available in offline mode (read-only). Vaults must be loaded at ***least once*** in order to be accessible offline.
 
-{% snippet icon.badgeInfo %}
-Entries are encrypted at rest in {{ en.DWS }} for {{ en.DHUB }} in offline mode.
-{% endsnippet %}  
-
 The following steps describe the mobile version and are similar to the desktop version.
 
 1. To use the offline mode, go to ***Settings***.
-![Settings](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6123_2023_3.png) 
+![Settings](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6145_2023_3.png) 
 1. In ***Workspace Settings***, select ***Offline*** to open the ***Offline settings***.
-![Select Offline to open the Offline settings](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6120_2023_3.png) 
+![Select Offline to open the Offline settings](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6146_2023_3.png) 
 1. Select ***Go offline***.
-![Go offline](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6124_2023_3.png)   
+![Go offline](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6147_2023_3.png)   
 The offline mode is activated. 
-![Offline mode is activated](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6125_2023_3.png)   
+![Offline mode is activated](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6148_2023_3.png)   
