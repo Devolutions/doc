@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Gelöschten Einträge bereinigen
+  title: Gelöschte Einträge bereinigen
 ---
-Mit ***Gelöschten Einträge bereinigen*** werden Einträge endgültig gelöscht, sodass gelöschte Einträge nur dann wiederhergestellt werden können, wenn Sie zuvor eine Sicherung erstellt haben. Der Eintragsverlauf ist weiterhin unter Berichte – Aktivitätsprotokolle zu finden.
+Mit ***Gelöschte Einträge bereinigen*** werden Einträge endgültig gelöscht, sodass gelöschte Einträge nur dann wiederhergestellt werden können, wenn Sie zuvor eine Sicherung erstellt haben. Der Eintragsverlauf ist weiterhin unter Berichte – Aktivitätsprotokolle zu finden.
 
 {% snippet icon.badgeInfo %}
 Diese Funktion erfordert eine [Erweiterte Datenquellen](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
@@ -15,7 +15,7 @@ Diese Aktion steht nur Administratoren zur Verfügung.
 ## Einstellungen
 
 1. Wählen Sie im Menü ***Administration***.
-1. Klicken Sie unter ***Bereinigen*** auf ***Gelöschten Einträge bereinigen***
+1. Klicken Sie unter ***Bereinigen*** auf ***Gelöschte Einträge bereinigen***
 1. Wählen Sie aus, bis zu welchem Datum Sie die gelöschten Einträge endgültig entfernen möchten.  
 1. Wählen Sie den ***Tresor*** aus dem die ***Gelöschten Einträge*** entfernt werden sollen.
 1. Klicken Sie auf ***OK***.
