@@ -4,9 +4,17 @@ eleventyComputed:
   description: How to activate the offline mode for Devolutions Workspace desktop and Devolutions Workspace mobile.
 ---
 
-{{ en.DWSMOBILE }} and {{ en.DWSDESKTOP }} are available in offline mode (read-only). Vaults must be loaded at ***least once*** in order to be accessible offline.
+{{ en.DWSMOBILE }} and {{ en.DWSDESKTOP }} are available in offline mode (read-only).
 
-The following steps describe the mobile version and are similar to the desktop version.
+{% snippet icon.badgeInfo %}
+Vaults must be loaded at ***least once*** in order to be accessible offline.
+{% endsnippet %} 
+
+{% snippet icon.badgeInfo %}
+The admin must activate the offline mode for users, as it is disabled by default.
+{% endsnippet %} 
+
+The following steps describe the mobile version and are similar to the desktop version.  
 
 1. To use the offline mode, go to ***Settings***.
 ![Settings](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6145_2023_3.png) 
