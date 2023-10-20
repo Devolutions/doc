@@ -20,3 +20,4 @@ Diese Aktion steht nur Administratoren zur Verfügung.
 {% snippet icon.badgeWarning %}
 Es wird keine Sicherungskopie des Verlaufs erstellt. Wir empfehlen dringend, ein [Backup](/rdm/windows/commands/file/backup/) zu erstellen, bevor Sie fortfahren.
 {% endsnippet %}
+
