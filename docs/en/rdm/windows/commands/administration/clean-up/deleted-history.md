@@ -15,8 +15,8 @@ You must be an administrator of the data source to perform this action.
 ## Settings
 1. Go to the ***Administration*** tab in the ribbon.
 1. Click on ***Clean Up*** and then ***Clean Up Deleted History***.
-1. Select prior to which date the ***Deleted Entries*** history will be deleted.  
-1. Select which vaults' history will be deleted.
+1. Select prior to which date the ***Deleted Entries*** history will be deleted.
+1. Select from which vault the ***Deleted Entries*** history will be deleted.
 1. Click ***OK***.  
 ![Clean up Deleted History](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0003.png)  
    {% snippet icon.badgeWarning %}
