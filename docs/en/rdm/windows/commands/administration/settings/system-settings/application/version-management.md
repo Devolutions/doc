@@ -24,7 +24,7 @@ DESCRIPTION
 Minimal version 
 		</td>
 		<td>
-Forces users of the data source to use a minimal version of {{ en.RDM }}. Enter the entire version number (e.g. 2023.2.0.0) to force a specific version. A prompt is displayed offering to update {{ en.RDM }} if the version is higher than the minimum version.
+Forces users of the data source to use a minimal version of {{ en.RDM }}. Enter the entire version number (e.g. 2023.2.0.0) to force a specific version. A prompt is displayed offering to update {{ en.RDM }} if the version is lower than the minimum version.
 		</td>
 	</tr>
 	<tr>
@@ -40,7 +40,7 @@ Enter a custom message for the minimal version notification.
 Maximal version 
 		</td>
 		<td>
-Forces users of the data source to use a maximal version. Enter the entire version number (e.g. 2023.2.0.0) to force a specific version. A prompt is displayed offering to update {{ en.RDM }} if the version is lower than the maximal version.
+Forces users of the data source to use a maximal version. Enter the entire version number (e.g. 2023.2.0.0) to force a specific version. A prompt is displayed offering to update {{ en.RDM }} if the version is higher than the maximal version.
 		</td>
 	</tr>
 	<tr>
@@ -52,7 +52,15 @@ Enter a custom message for the maximal version notification.
 		</td>
 	</tr>
 	<tr>
-		<td>	
+		<td>
+Recommended version
+		</td>
+		<td>
+If a recommended version is set on a data source, the update will be performed using this version.
+		</td>
+	</tr>
+	<tr>
+		<td>				
 Disable checks for updates 
 		</td>
 		<td>
