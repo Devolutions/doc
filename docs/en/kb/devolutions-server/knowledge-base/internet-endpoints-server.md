@@ -11,9 +11,9 @@ This is the list of addresses that are accessed by {{ en.DVLS }} during normal o
 We use a "best effort" approach to maintain this list, but it does **NOT** replace proper IT security practices. If security is paramount, it would be better to first block all internet access, then allowlist desired addresses as needed.
 {% endsnippet %}
 
-## Endpoints List
+## Endpoints list
 
-| Description                    | URL                                                                            | Related Setting(s) / Action |
+| Description                    | URL                                                                            | Related setting(s) / action |
 | ------------------------------ | ------------------------------------------------------------------------------ | ------------------------- |
 | {{ en.DVLS }} update check              | https<area>://devolutions.net                                                  | {{ en.DVLSCONSOLE }} – Support – Check for Updates |
 | {{ en.DVLS }} update - package download | https<area>://cdn.devolutions.net                                              | User action in the upgrade available dialog |
