@@ -11,9 +11,9 @@ This is the list of addresses that are accessed by {{ en.DHUB }} during normal o
 We use a "best effort" approach to maintain this list, but it does **NOT** replace proper IT security practices. If security is paramount, it would be better to first block all internet access, then allowlist desired addresses as needed.
 {% endsnippet %}
 
-## Endpoints List
+## Endpoints list
 
-| Description                    | URL                                                                            | Related Action |
+| Description                    | URL                                                                            | Related action |
 | ------------------------------ | ------------------------------------------------------------------------------ | ------------------------- |
 | Login                          | https<area>://login.devolutions.com                                            | Login provider |
 | Fonts for the application      | https<area>://fonts.googleapis.com<br>https<area>://fonts.gstatic.com          | Fonts provider to display the application |
