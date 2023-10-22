@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Create your free {{ en.DA }} by following the steps below. 
 
-## {{ en.DA }} creation  
+## Creation
 1. Go to your [account login](https://portal.devolutions.com/). 
 1. Click on ***Create your account*** to start the process.  
 ![Create your account](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4014.png) 
@@ -17,13 +17,13 @@ Create your free {{ en.DA }} by following the steps below.
    ![Account information](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4015.png) 
 
 4. Go to your email inbox and open the activation email that was sent to you.
-{% snippet icon.badgeCaution %} 
-The activation link email might be in your spam/junk folder. For Gmail accounts, also check the ***Promotions*** folder.
+   {% snippet icon.badgeCaution %} 
+   The activation link email might be in your spam/junk folder. For Gmail accounts, also check the ***Promotions*** folder.
 
-It may take some time to receive it. If you do not receive the email, follow the <a href="#forgotten-password">Forgotten password</a> steps below. 
-{% endsnippet %}  
+   It may take some time to receive it. If you do not receive the email, follow the <a href="#forgotten-password">Forgotten password</a> steps below. 
+   {% endsnippet %}  
 
-![{{ en.DA }} activation](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4023.png) 
+   ![{{ en.DA }} activation](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4023.png) 
 
 5. Click ***Activate*** in the email to verify your account creation.  
 
