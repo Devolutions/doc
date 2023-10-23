@@ -45,7 +45,7 @@ Windows Hello must be activated and configured on your computer for the window t
 1. Click ***Add a security key***.
 ![Add a Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud4077.1.png) 
 1. In the Windows Security window, enter the PIN.  
-![Add a Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud4078.1.png) 
+![Add a Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud6006_2023_1.png) 
 1. Rename the ***Security Key*** by clicking on ***Rename*** and ***Save***.
 ![Name Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud4079.1.png) 
 ![Save Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud4080.1.png) 

@@ -18,27 +18,19 @@ Here is the list of deprecated entries:
 <table>
 	<tr>
 		<td>
-Chrome Remote Desktop<br>
-Citrix ICA/HDX<br>
-ConnectWise Control<br>
-ConnectWise Control Synchronizer<br>
 FTP (Rebex)<br>
-Google Cloud<br>
+Chrome Remote Desktop<br>
+Google Cloud Explorer<br>
 GoToAssist<br>
-HP Remote Graphics Receiver<br>
 Intel AMT (KVM)<br>
-Microsoft Azure Table Storage<br>
-Microsoft VirtualPC<br>
-PC Anywhere<br>
+Microsoft Azure Table Storage Explorer<br>
+Microsoft RD Gateway
 PuTTY<br>
-Remote Assistance<br>
 SCP (Rebex)<br>
 SFTP (Rebex)<br>
 SSH Shell (Rebex)<br>
-SMB (Server Message Block)<br>
 SSH Tunnel (Rebex)<br>
 Telnet (Rebex)<br>
-Windows Virtual PC<br>
 		</td>
 	</tr>
 </table>
@@ -60,8 +52,6 @@ XenServer Dashboard<br>
 	<tr>
 		<td>
 AuthAnvil Password Server<br>
-Firefox Password Manager<br>
-Google Chrome Passwords<br>
 Password Vault Manager<br>
 		</td>
 	</tr>
@@ -73,7 +63,7 @@ Password Vault Manager<br>
 	<tr>
 		<td>
 Login (Account)<br>
-Website<br>
+Website (Legacy)<br>
 		</td>
 	</tr>
 </table>
