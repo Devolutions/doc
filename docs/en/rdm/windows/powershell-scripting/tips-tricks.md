@@ -33,5 +33,3 @@ Learn more about [{{ en.DVLS }} credential properties GUIDs](/kb/devolutions-pow
 $session = Get-RDMSession -Name "MyRDPSession"  
 $session | Get-Member
 ```
-
-* Use the AddDataEntryKind method to set the data entry type to Web.
