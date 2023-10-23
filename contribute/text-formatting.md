@@ -2,7 +2,16 @@
 
 Markdown is a lightweight markup language with plain text formatting syntax. We have implemented styles to maintain consistency across our projects, controlling aspects such as font, line spacing, justification, and color. Some HTML elements are also used. 
 
-### Bold + italics
+* [Bold and italics](#bold-and-italics)
+* [Navigation path](#navigation-path)
+* [Keyboard keys and shortcuts](#keyboard-keys-and-shortcuts)
+* [Headings](#headings)
+* [Lists](#lists-numbered-and-bulleted)
+   * [Bulleted (unordered)](#bulleted-unordered)
+   * [Numbered (ordered)](#numbered-ordered)
+* [Code style](#code-style)
+
+### Bold and italics
 
 We use a combination of bold and italics for user interface elements such as section, menu, option, and field names. As a general rule, if an element is written as is in the user interface, it should be written in bold and italics in the documentation.  
 
@@ -16,7 +25,7 @@ Example 1
 * What you write:  
   In \*\*\*File\*\*\*, click on \*\*\*Devolutions Account\*\*\* and enter your connection information.  
 * What is displayed:  
-  What is displayed: In ***File***, click on ***Devolutions Account*** and enter your connection information.  
+  In ***File***, click on ***Devolutions Account*** and enter your connection information.  
 
 Example 2
 * What you write:  

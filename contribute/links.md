@@ -3,7 +3,7 @@
 You can add links in our documentation that redirect to useful information further down the topic or elsewhere. Please note that for security reasons, any links added will be reviewed by our security team.
 
 Two link types can be used in our documentation:  
-* [Internal links](#internal-links) redirect to an anchor in the same topic.  
+* [Internal links](#internal-links-same-topic) redirect to an anchor in the same topic.  
 * [External links](#external-links) redirect to another help topic or to any external URL.  
 
 ### Internal links (same topic)
