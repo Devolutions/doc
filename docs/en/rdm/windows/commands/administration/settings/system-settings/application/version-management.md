@@ -24,7 +24,7 @@ DESCRIPTION
 Minimal version 
 		</td>
 		<td>
-Forces users of the data source to use a minimal version of {{ en.RDM }}. Enter the entire version number (e.g. 2023.2.0.0) to force a specific version. A prompt is displayed offering to update {{ en.RDM }} if the version is lower than the minimum version.
+Forces users of the data source to use a minimal version of {{ en.RDM }}. Enter the entire version number (e.g. 2023.2.0.0) to force a specific version. A prompt is displayed offering to update {{ en.RDM }} if the version is lower than the minimal version.
 		</td>
 	</tr>
 	<tr>

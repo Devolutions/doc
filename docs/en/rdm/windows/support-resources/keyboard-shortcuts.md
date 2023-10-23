@@ -312,7 +312,7 @@ SHORTCUT
 	</tr>
 	<tr>
 		<td>
-Import (.rdm)... 
+Import in Vault (.rdm)... 
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd>
@@ -330,14 +330,6 @@ ACTION
 		<th>
 SHORTCUT 
 		</th>
-	</tr>
-	<tr>
-		<td>
-Change Data Source 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>
-		</td>
 	</tr>
 	<tr>
 		<td>
@@ -541,6 +533,14 @@ Set Bookmark 9
 	</tr>
 	<tr>
 		<td>
+Switch Data Source
+		</td>
+		<td>
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>
+		</td>
+	</tr>
+	<tr>
+		<td>		
 Switch {{ en.VLT }} 
 		</td>
 		<td>
@@ -582,22 +582,6 @@ Favorites
 		</td>
 		<td>
 <kbd>F9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Grouped Tab Pane 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Header Pane 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F6</kbd>
 		</td>
 	</tr>
 	<tr>
@@ -666,14 +650,30 @@ Status Bar
 	</tr>
 	<tr>
 		<td>
-Tabbed Entries Pane 
+Tab Bar
 		</td>
 		<td>
-<kbd>Alt</kbd>+<kbd>F9</kbd>
+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F6</kbd>
 		</td>
 	</tr>
 	<tr>
 		<td>
+Tab Group Pane
+		</td>
+		<td>
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>
+		</td>
+	</tr>
+	<tr>
+		<td>
+Tab List
+		</td>
+		<td>
+<kbd>Ctrl</kbd>+<kbd>F9</kbd>
+		</td>
+	</tr>
+	<tr>
+		<td>					
 Top Pane (Ribbon/Menubar) 
 		</td>
 		<td>
