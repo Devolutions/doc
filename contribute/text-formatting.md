@@ -12,10 +12,10 @@ We avoid using bold or italics alone, or a combination of the two, to emphasize 
 
 #### Examples
 
-* What you write: In \*\*\*File\*\*\*, click on \*\*\*Devolutions Account\*\*\* and enter your connection information.
-  What is displayed: In ***File***, click on ***Devolutions Account*** and enter your connection information.
-* What you write: In the Devolutions Server web interface, go to \*\*\*Administration – System Settings – General\*\*\* and enable \*\*\*Allow user specific settings\*\*\*.
-  What is displayed: In the Devolutions Server web interface, go to ***Administration – System Settings – General*** and enable ***Allow user specific settings***.
+* What you write: In \*\*\*File\*\*\*, click on \*\*\*Devolutions Account\*\*\* and enter your connection information.  
+  What is displayed: In ***File***, click on ***Devolutions Account*** and enter your connection information.  
+* What you write: In the Devolutions Server web interface, go to \*\*\*Administration – System Settings – General\*\*\* and enable \*\*\*Allow user specific settings\*\*\*.  
+  What is displayed: In the Devolutions Server web interface, go to ***Administration – System Settings – General*** and enable ***Allow user specific settings***.  
 
 ### Navigation path
 
@@ -49,12 +49,12 @@ Use the &lt;kbd&gt; and &lt;/kbd&gt; HTML elements to enclose each key. For a ke
 
 #### Examples
 
-* What you write: &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt;
-  What is displayed: <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>
-* What you write: &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Down&lt;/kbd&gt;
-  What is displayed: <kbd>Ctrl</kbd>+<kbd>Down</kbd>
-* What you write: &lt;kbd&gt;Shift&lt;/kbd&gt;+right-click (Right-click is not a keyboard key, therefore the kbd elements are not used and it is written as normal text.)
-  What is displayed: <kbd>Shift</kbd>+right-click
+* What you write: &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt;  
+  What is displayed: <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>  
+* What you write: &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Down&lt;/kbd&gt;  
+  What is displayed: <kbd>Ctrl</kbd>+<kbd>Down</kbd>  
+* What you write: &lt;kbd&gt;Shift&lt;/kbd&gt;+right-click (Right-click is not a keyboard key, therefore the kbd elements are not used and it is written as normal text.)  
+  What is displayed: <kbd>Shift</kbd>+right-click  
 
 ### Headings
 
