@@ -12,10 +12,17 @@ We avoid using bold or italics alone, or a combination of the two, to emphasize 
 
 #### Examples
 
-* What you write: In \*\*\*File\*\*\*, click on \*\*\*Devolutions Account\*\*\* and enter your connection information.  
+Example 1
+* What you write:  
+  In \*\*\*File\*\*\*, click on \*\*\*Devolutions Account\*\*\* and enter your connection information.  
+* What is displayed:  
   What is displayed: In ***File***, click on ***Devolutions Account*** and enter your connection information.  
-* What you write: In the Devolutions Server web interface, go to \*\*\*Administration – System Settings – General\*\*\* and enable \*\*\*Allow user specific settings\*\*\*.  
-  What is displayed: In the Devolutions Server web interface, go to ***Administration – System Settings – General*** and enable ***Allow user specific settings***.  
+
+Example 2
+* What you write:  
+  In the web interface, go to \*\*\*Administration – System Settings – General\*\*\* and enable \*\*\*Allow user specific settings\*\*\*.  
+* What is displayed:  
+  In the web interface, go to ***Administration – System Settings – General*** and enable ***Allow user specific settings***.  
 
 ### Navigation path
 
