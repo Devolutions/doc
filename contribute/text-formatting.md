@@ -6,14 +6,16 @@ Markdown is a lightweight markup language with plain text formatting syntax. We 
 
 We use a combination of bold and italics for user interface elements such as section, menu, option, and field names. As a general rule, if an element is written as is in the user interface, it should be written in bold and italics in the documentation.  
 
-In Markdown, surround the element to be emphasized with three asterisks ("***") on either side.  
+In Markdown, surround the element to be emphasized with three asterisks "***" on either side.  
 
 We avoid using bold or italics alone, or a combination of the two, to emphasize an element that is not part of the user interface.
 
 #### Examples
 
-* In ***File***, click on ***Devolutions Account*** and enter your connection information.
-* In the Devolutions Server web interface, go to ***Administration – System Settings – General*** and enable ***Allow user specific settings***.
+* What you write: In \*\*\*File\*\*\*, click on \*\*\*Devolutions Account\*\*\* and enter your connection information.
+  What is displayed: In ***File***, click on ***Devolutions Account*** and enter your connection information.
+* What you write: In the Devolutions Server web interface, go to \*\*\*Administration – System Settings – General\*\*\* and enable \*\*\*Allow user specific settings\*\*\*.
+  What is displayed: In the Devolutions Server web interface, go to ***Administration – System Settings – General*** and enable ***Allow user specific settings***.
 
 ### Navigation path
 
@@ -30,7 +32,7 @@ Since paths consist of UI elements, we also use the bold + italics formatting on
 
 Keyboard keys are written in their abbreviated format. Usually, they start with an uppercase letter and the rest is lowercase. Here is a reference guide for some of the most common keys:
 
-Key {width=200px}  | Abbreviation
+Key                | Abbreviation
 :----------------  | :--------
 Alternate (Option) | Alt
 Backspace          | Bksp
@@ -47,9 +49,12 @@ Use the &lt;kbd&gt; and &lt;/kbd&gt; HTML elements to enclose each key. For a ke
 
 #### Examples
 
-* &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt;
-* &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Down&lt;/kbd&gt;
-* &lt;kbd&gt;Shift&lt;/kbd&gt;+right-click (Right-click is not a keyboard key, therefore the kbd elements are not used and it is written as normal text.)
+* What you write: &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt;
+  What is displayed: <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>
+* What you write: &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Down&lt;/kbd&gt;
+  What is displayed: <kbd>Ctrl</kbd>+<kbd>Down</kbd>
+* What you write: &lt;kbd&gt;Shift&lt;/kbd&gt;+right-click (Right-click is not a keyboard key, therefore the kbd elements are not used and it is written as normal text.)
+  What is displayed: <kbd>Shift</kbd>+right-click
 
 ### Headings
 
@@ -117,7 +122,7 @@ The result would be as follows:
 
 To indicate individual code elements (words) within a line, enclose them with a single backtick.  
 
-Here's an example of `code` style.  
+Here is an example of `code style`.  
 
 For code blocks, use triple backticks followed by the code language.  
 
