@@ -1,15 +1,26 @@
-## How to contribute to our documentation
+## How to contribute to Devolutions documentation
 
-Thank you for contributing to our documentation! 
+Your contribution to the Devolutions documentation is greatly appreciated. Thank you for taking the time!
 
-You need a GitHub account to be able to contribute to our documentation. Create an account if you do not yet have one, then log in to your account on [GitHub's website](https://github.com/).
+You will first need a GitHub account to be able to contribute to our documentation. Create an account if you do not yet have one, then log in to your account on [GitHub's website](https://github.com/).
 
-* [Modify an existing topic](#modify-an-existing-topic)
+Here are the ways you can contribute to our documentation:  
+* [Send us feedback](#send-us-feedback)
+* [Edit a topic](#edit-a-topic)
 * [Create a new topic](#create-a-new-topic)
 
-### Modify an existing topic
+### Send us feedback
 
-1. Go to the topic you want to modify in our [documentation](https://docs.devolutions.net/).
+At the bottom of all our topics in our documentation, you can click on ***Feedback***.  
+![!!Feedback button](https://webdevolutions.azureedge.net/docs/common/contribute_feedback_button.png) 
+
+You will be sent to our GitHub repository to [create an issue](https://github.com/Devolutions/doc/issues). Simply write a meaningful title and enter your feedback about our documentation below. This is also where you can [send us images](https://github.com/Devolutions/doc/blob/master/contribute/images.md).  
+
+For feedback on product features, head to our [Devolutions Forum](https://forum.devolutions.net/) or use the email address [service@devolutions.net](mailto:service@devolutions.net) to open a case with us.
+
+### Edit a topic
+
+1. Go to the topic you want to edit in our [documentation](https://docs.devolutions.net/).
 1. In the web page, click the pencil icon located at the top of the topic next to the title to edit the topic in GitHub.
 
    ![!!Pencil icon](https://webdevolutions.azureedge.net/docs/common/contribute_pencil_icon.png) 
