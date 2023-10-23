@@ -11,7 +11,8 @@ Here are the ways you can contribute to our documentation:
 
 ### Send us feedback
 
-At the bottom of all our topics in our documentation, you can click on ***Feedback***. ![!!Feedback button](https://webdevolutions.azureedge.net/docs/common/contribute_feedback_button.png)  
+At the bottom of all our topics in our documentation, you can click on ***Feedback***.  
+![!!Feedback button](https://webdevolutions.azureedge.net/docs/common/contribute_feedback_button.png)  
 
 You will be sent to our GitHub repository to [create an issue](https://github.com/Devolutions/doc/issues). Simply write a meaningful title and enter your feedback about our documentation below. This is also where you can [send us images](https://github.com/Devolutions/doc/blob/master/contribute/images.md).  
 
