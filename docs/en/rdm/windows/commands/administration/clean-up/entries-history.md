@@ -18,7 +18,7 @@ You must be an administrator of the data source to perform this action.
 1. Select prior to which date the ***Entry History*** will be deleted.
 1. Select from which vault the ***Entry History*** will be deleted.
 1. Click ***OK***.  
-![Clean up Deleted History](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0005.png)  
+![Clean Up Deleted History](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0005.png)  
    {% snippet icon.badgeWarning %}
    There will be no backup of the ***Entry History***. We strongly recommend to do a [Backup](/rdm/windows/commands/file/backup/) before proceeding.
    {% endsnippet %}
