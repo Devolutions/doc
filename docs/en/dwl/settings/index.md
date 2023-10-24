@@ -137,7 +137,7 @@ DESCRIPTION
 Application key 
 		</td>
 		<td>
-Secure the port with an application key by using the same code in {{ en.RDM }} and {{ en.DWL }}.<br>
+Secure the communication with an application key by using the same code in {{ en.RDM }} and {{ en.DWL }}.<br>
 
 Navigate to <b><i>File – Options – Browser Extensions</b></i> in {{ en.RDM }} to set the application key. 
 		</td>
