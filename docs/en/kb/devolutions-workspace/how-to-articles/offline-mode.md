@@ -8,11 +8,7 @@ eleventyComputed:
 
 {% snippet icon.badgeInfo %}
 Vaults must be loaded at ***least once*** in order to be accessible offline.
-{% endsnippet %} 
-
-{% snippet icon.badgeInfo %}
-The admin must activate the offline mode for users, as it is disabled by default.
-{% endsnippet %} 
+{% endsnippet %}  
 
 The following steps describe the mobile version and are similar to the desktop version.  
 
