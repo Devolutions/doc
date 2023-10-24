@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Favorite Entries
 ---
-The ***Favorites*** tab contains entries flagged as favorite by the current user. Favorites are not shared and they roam with the user profile.  
+The ***Favorites*** tab contains entries flagged as favorite by the current user. Favorites are kept locally, meaning they are not shared and they roam with the user profile.  
 
 This is useful when the number of managed entries becomes too great or when a strict directory structure must be maintained.  
 ![Favorites Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11213.png) 
