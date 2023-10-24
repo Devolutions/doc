@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Einleitung
+  title: Erste Schritte
   order: 10
 ---
