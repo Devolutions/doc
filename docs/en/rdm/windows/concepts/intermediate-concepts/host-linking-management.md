@@ -1,8 +1,7 @@
 ---
 eleventyComputed:
   title: Host linking and host management
-  description: Host linking refers to the process of connecting or associating multiple hosts (computers, servers, or devices) in a network or system. 
-Host management involves the administration, control, and monitoring of individual hosts or devices within a network.
+  description: Host linking refers to the process of connecting or associating multiple hosts (computers, servers, or devices) in a network or system. Host management involves the administration, control, and monitoring of individual hosts or devices within a network.
 ---
 
 Host linking refers to the process of connecting or associating multiple hosts (computers, servers, or devices) in a network or system. Host management involves the administration, control, and monitoring of individual hosts or devices within a network.
