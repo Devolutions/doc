@@ -8,10 +8,6 @@ Detailed reports help evaluate an enterprise’s level of information security a
 ### Related topics
 * [Activity Logs](/rdm/windows/commands/view/view/activity-logs/#logs)
 * [Reports](/rdm/windows/commands/administration/reports/)
-* []()
-* []()
-* []()
 
 ### See also
 * [Create a Custom Field Report](/kb/devolutions-powershell/remote-desktop-manager/create-custom-field-report/)
-* []()
