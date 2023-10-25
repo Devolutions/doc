@@ -7,6 +7,3 @@ An information entry can contain various data items such as account information,
 
 ### Related topics  
 * [Lexicon – Information entry](/rdm/windows/support-resources/lexicon/#information-entry)  
-
-### See also  
-* [Configure a Firearm entry in {{ en.RDM }}](/kb/remote-desktop-manager/knowledge-base/configure-firearm-entry/)
