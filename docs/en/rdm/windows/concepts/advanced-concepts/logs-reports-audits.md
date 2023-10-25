@@ -11,3 +11,4 @@ Detailed reports help evaluate an enterprise’s level of information security a
 
 ### See also
 * [Create a Custom Field Report](/kb/devolutions-powershell/remote-desktop-manager/create-custom-field-report/)
+* [Report export](/rdm/windows/commands/administration/reports/export/)
