@@ -96,14 +96,6 @@ Ermöglicht gelöschte Einträge einzusehen und wiederherzustellen.
 	</tr>
 	<tr>
 		<td>
-Datenquellenprotokolle
-		</td>
-		<td>
-Ermöglicht die Datenquellenprotokolle einzusehen. 
-		</td>
-	</tr>
-	<tr>
-		<td>
 Verwaltungsprotokolle 
 		</td>
 		<td>
