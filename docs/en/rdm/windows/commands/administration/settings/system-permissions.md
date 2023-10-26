@@ -3,28 +3,29 @@ eleventyComputed:
   title: System Permissions
   status: Topic available in German language
 ---
-The ***System Permissions*** allows to grant some administrative permissions to standard users without making them administrators. The ***Default*** setting inherits the permission set on the user or user groups. For more information about permissions, consult General Security.  
+The ***System Permissions*** allows to grant some administrative permissions to standard users without making them administrators. The ***Default*** setting inherits the permission set on the user or user groups.  
 
-{% snippet icon.badgeInfo %} 
-This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
+{% snippet icon.badgeHelp %}
+This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
+
+For more information about permissions, consult [Simplified Security](/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/) or [Advanced Security](/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/).
 {% endsnippet %}
- 
-### Entries 
 
+### Entries
 ![System Permissions - Entries](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6158.png) 
 
 <table>
 	<tr>
 		<th>
-OPTION 
+OPTION
 		</th>
 		<th>
-DESCRIPTION 
+DESCRIPTION
 		</th>
 	</tr>
 	<tr>
 		<td>
-Import 
+Import
 		</td>
 		<td>
 Allow users/user groups to import entries in the data source. 

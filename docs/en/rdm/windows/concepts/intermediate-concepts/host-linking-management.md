@@ -15,3 +15,4 @@ Host linking refers to the process of connecting or associating multiple hosts (
 * [Entry credentials options](https://docs.devolutions.net/rdm/windows/commands/edit/entries/entry-credentials-options/)
 * [Connections](https://docs.devolutions.net/rdm/windows/user-interface/content-area/embedded-sessions/)
 * [Templates](https://docs.devolutions.net/rdm/windows/commands/file/templates/)
+
