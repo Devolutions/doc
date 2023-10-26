@@ -16,9 +16,8 @@ The Add-on Manager in {{ en.RDM }} helps you simplify the process for identifyin
 
 ### Related topics  
 
-* [Tools tab](https://docs.devolutions.net/rdm/windows/commands/tools/#managers)  
+* [Tools tab](https://docs.devolutions.net/rdm/windows/commands/tools/#managers) 
+* [VPN Groups (opened)](https://docs.devolutions.net/rdm/windows/commands/view/panels/opened-sessions/#vpn-groups-opened)  
+* [VPN with offline mode](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/vpn-with-offline-mode/)   
 
 ### See also  
-
-* [VPN Groups (opened)](https://docs.devolutions.net/rdm/windows/commands/view/panels/opened-sessions/#vpn-groups-opened)  
-* [VPN with offline mode](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/vpn-with-offline-mode/)  
