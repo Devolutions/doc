@@ -9,11 +9,9 @@ eleventyComputed:
 ### Related topics  
 
 * [Offline settings](https://docs.devolutions.net/rdm/windows/commands/administration/settings/system-settings/application/offline/) 
-* [Offline Read/Write](https://docs.devolutions.net/rdm/windows/data-sources/offline-mode/offline-read-write/)  
+* [Offline Read/Write](https://docs.devolutions.net/rdm/windows/data-sources/offline-mode/offline-read-write/)
+* [Manage cache](https://docs.devolutions.net/rdm/windows/data-sources/manage-cache/)
 
 ### See also  
 
-* [Manage cache](https://docs.devolutions.net/rdm/windows/data-sources/manage-cache/)
-* [Offline settings](https://docs.devolutions.net/rdm/windows/commands/administration/settings/system-settings/application/offline/) 
-* [Offline Read/Write](https://docs.devolutions.net/rdm/windows/data-sources/offline-mode/offline-read-write/)  
 
