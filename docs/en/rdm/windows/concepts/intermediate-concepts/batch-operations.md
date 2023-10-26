@@ -8,10 +8,10 @@ eleventyComputed:
 
 ### Related topics  
 
-[Batch operations](https://docs.devolutions.net/rdm/windows/commands/edit/batch/batch-edit/#batch-edit-options)
+* [Batch operations](https://docs.devolutions.net/rdm/windows/commands/edit/batch/batch-edit/#batch-edit-options)
 
 ### See also  
 
-[Network Scan](https://docs.devolutions.net/rdm/windows/commands/file/import/network-scan/)  
-[Batch Edit](https://docs.devolutions.net/rdm/windows/commands/edit/batch/batch-edit/#batch-edit-options)  
-[Batch Grant Access (Permissions)](https://docs.devolutions.net/rdm/windows/commands/administration/settings/system-settings/vault-management/batch-grant-access/)
+* [Network Scan](https://docs.devolutions.net/rdm/windows/commands/file/import/network-scan/)  
+* [Batch Edit](https://docs.devolutions.net/rdm/windows/commands/edit/batch/batch-edit/#batch-edit-options)  
+* [Batch Grant Access (Permissions)](https://docs.devolutions.net/rdm/windows/commands/administration/settings/system-settings/vault-management/batch-grant-access/)
