@@ -1,18 +1,10 @@
 ---
 eleventyComputed:
   title: Add-ons
-  description: The Add-on Manager in Remote Desktop Manager helps you simplify the process for identifying, installing and managing add-ons that are used to extend the application. 
+  description: The Add-on manager in {{ en.RDM }} helps you simplify the process of identifying, installing and managing add-ons that are used to extend the application, such as saving time as an administrator by storing VPN configuration in {{ en.RDM }} and sharing it with team members.
 ---
 
-The Add-on Manager in {{ en.RDM }} helps you simplify the process for identifying, installing and managing add-ons that are used to extend the application. Many add-ons were developed using RDM’s SDK, such as:
-
-* Application tool add-ons
-* Data source add-ons
-* Import add-ons (Filezilla, SecureCRT, etc.)
-* Session tools add-ons (remote shutdown, whois...)
-* Session type add-ons (Java Web Start, SQL Management Studio, etc.)
-* VPN add-ons (OpenVPN, Nortel VPN, etc.)
-* Data entry add-ons
+The Add-on manager in {{ en.RDM }} helps you simplify the process of identifying, installing and managing add-ons that are used to extend the application, such as saving time as an administrator by storing VPN configuration in {{ en.RDM }} and sharing it with team members.
 
 ### Related topics  
 
@@ -21,3 +13,5 @@ The Add-on Manager in {{ en.RDM }} helps you simplify the process for identifyin
 * [VPN with offline mode](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/vpn-with-offline-mode/)   
 
 ### See also  
+
+[Remote Desktop Manager Add-on Manager](https://blog.devolutions.net/2019/06/improved-feature-rdm-add-on-manager/)

@@ -4,7 +4,7 @@ eleventyComputed:
   description: 
 ---
 
-Documents and attachments in {{ en.RDM }} are attached to an entry and are stored directly in the database, helping to organize information.
+Documents and attachments in {{ en.RDM }} are attached to entries and are stored directly in the database,  making it easier to manage and centralize information.
 
 ### Related topics  
 
