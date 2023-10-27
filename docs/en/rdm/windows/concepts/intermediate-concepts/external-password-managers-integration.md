@@ -8,8 +8,8 @@ Our advanced data sources include third-party password integrations that provide
 
 ### Related topics  
 
+* [1Password](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/configure-1password-integrated-mode/)
 * [KeePass](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/configure-keepass-rdm/)  
 * [Keeper](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/keeper-credential-entry-settings/)  
-* [1Password](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/configure-1password-integrated-mode/)
 
 ### See also  

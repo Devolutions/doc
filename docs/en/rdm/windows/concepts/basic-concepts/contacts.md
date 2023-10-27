@@ -8,8 +8,8 @@ Contacts in {{ en.RDM }} facilitates the management of contact information. With
 
 ### Related topics  
 
+* [Batch edit](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/batch-edit-rdm/#entryfolder-selection)
 * [Import contacts](https://docs.devolutions.net/rdm/windows/commands/file/import/contacts/#import-from-contact) 
 * [Inheritance](https://docs.devolutions.net/kb/remote-desktop-manager/knowledge-base/inheritance/)  
-* [Batch edit](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/batch-edit-rdm/#entryfolder-selection)
 
 ### See also  

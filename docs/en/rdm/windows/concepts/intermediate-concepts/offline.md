@@ -14,4 +14,5 @@ eleventyComputed:
 
 ### See also  
 
-
+* [Enable Offline Mode to access data even when disconnected from datasource](https://www.youtube.com/watch?v=W7jK8g4WbNQ)
+* [Offline mode](https://blog.devolutions.net/2020/01/offline-mode/)

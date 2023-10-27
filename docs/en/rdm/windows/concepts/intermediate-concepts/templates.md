@@ -15,3 +15,5 @@ eleventyComputed:
 * [Templates](https://docs.devolutions.net/rdm/windows/commands/file/templates/)  
 
 ### See also  
+
+* [Easily create a vault template](https://www.youtube.com/watch?v=0GwzZJ-JS7Q)

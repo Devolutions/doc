@@ -26,3 +26,5 @@ eleventyComputed:
 
 ### See also  
 
+* [Remote Desktop Manager - The remote connection management toolbox for IT pros](https://www.youtube.com/watch?v=-uz8dvo9tpE)
+* [5 Reasons Why Good Remote Connection Management Solution is Essential](https://blog.devolutions.net/2022/02/5-reasons-why-good-remote-connection-management-solution-is-essential/)

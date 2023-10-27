@@ -8,9 +8,11 @@ eleventyComputed:
 
 ### Related topics  
 
-* [Create an entry](https://docs.devolutions.net/rdm/windows/commands/administration/settings/system-settings/application/offline/)  
-* [Using Devolutions Web Login](https://docs.devolutions.net/rdm/windows/dwl/using-devolutions-web-login/)
+* [Create an entry](https://docs.devolutions.net/rdm/windows/commands/administration/settings/system-settings/application/offline/) 
 * [OTP usage with entries](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/otp-usage-entries/)  
+* [Using Devolutions Web Login](https://docs.devolutions.net/rdm/windows/dwl/using-devolutions-web-login/)
 * [Username and password](https://docs.devolutions.net/rdm/windows/support-resources/lexicon/#credential-entry)    
 
 ### See also  
+
+[Do You Need ONLY a Password Manager? (Hint: Probably Not!)](https://blog.devolutions.net/2023/02/do-you-need-only-a-password-manager-hint-probably-not/)
