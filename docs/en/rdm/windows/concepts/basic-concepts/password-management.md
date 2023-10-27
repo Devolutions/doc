@@ -15,4 +15,4 @@ eleventyComputed:
 
 ### See also  
 
-[Do You Need ONLY a Password Manager? (Hint: Probably Not!)](https://blog.devolutions.net/2023/02/do-you-need-only-a-password-manager-hint-probably-not/)
+* [Do You Need ONLY a Password Manager? (Hint: Probably Not!)](https://blog.devolutions.net/2023/02/do-you-need-only-a-password-manager-hint-probably-not/)
