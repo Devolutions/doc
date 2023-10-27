@@ -8,9 +8,7 @@ The Add-on manager in {{ en.RDM }} helps you simplify the process of identifying
 
 ### Related topics  
 
-* [Tools tab](https://docs.devolutions.net/rdm/windows/commands/tools/#managers) 
-* [VPN Groups (opened)](https://docs.devolutions.net/rdm/windows/commands/view/panels/opened-sessions/#vpn-groups-opened)  
-* [VPN with offline mode](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/vpn-with-offline-mode/)   
+* [Tools tab](https://docs.devolutions.net/rdm/windows/commands/tools/#managers)   
 
 ### See also  
 
