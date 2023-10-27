@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Information
-  description: An information entry can contain various data items such as account information, emails, passports, credit cards, licenses, and serial numbers.
+  description: An information entry's primary purpose in {{ en.RDM }} is to centralize personal or company information within shareable entries that can be easily modified and accessed by users with the appropriate permissions.
 ---
-An information entry can contain various data items such as account information, emails, passports, credit cards, licenses, and serial numbers. Unlike credential entries, information entries are meant to be shared. Therefore, the data in information entries is not encrypted. Its principal use in {{ en.RDM }} is to hold personal or company information that can be easily accessed by users with the right permissions.
+An information entry's primary purpose in {{ en.RDM }} is to centralize personal or company information within shareable entries that can be easily modified and accessed by users with the appropriate permissions. It can contain various data items such as account information, emails, passports, credit cards, licenses, and serial numbers. 
 
 ### Related topics  
 * [Lexicon – Information entry](/rdm/windows/support-resources/lexicon/#information-entry)  
