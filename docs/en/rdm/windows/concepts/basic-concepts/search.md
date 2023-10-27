@@ -12,5 +12,3 @@ The ***Search*** lets the user quickly find what they need (entries, documentati
 * [Documentation Search](/rdm/windows/commands/view/panels/search/documentation/)
 
 ### See also
-* []()
-* []()
