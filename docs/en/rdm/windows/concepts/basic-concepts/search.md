@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Search
-  description: 
+  description: The Search lets the user quickly find what they need (entries, documentation, etc).
 ---
 The ***Search*** lets the user quickly find what they need (entries, documentation, etc). You can use ***Advanced Search***, apply filters, search in the current vault or all vaults.
 
