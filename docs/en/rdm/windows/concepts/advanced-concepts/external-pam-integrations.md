@@ -3,7 +3,8 @@ eleventyComputed:
   title: External PAM integrations
   description: Combine an external privileged access management (PAM) integration with {{ en.RDM }} to help secure all your privileged assets and identities.
 ---
-Combine an external privileged access management (PAM) integration with {{ en.RDM }} to help secure, control, manage, and monitor privileged access to critical assets.
+Combine an external privileged access management (PAM) integration with {{ en.RDM }} to help secure, control, manage, and monitor privileged access to critical assets. 
+Streamline the process of injecting credentials, eliminating the need to store them in {{ en.RDM }}, and boost efficiency by swiftly launching sessions.
 
 ### Related topics  
 * [PAM partners integration](/kb/remote-desktop-manager/knowledge-base/pam-partner-integration/)  
