@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Tasks
-  description: You can create a ***Task List*** to keep track of work that needs to be done by the team.
+  description: You can create a Task List to keep track of work that needs to be done by the team.
 ---
-You can create a ***Task List*** to keep track of work that needs to be done by the team. They can also be applied to a selected entry instead of making a list.
+You can create a ***Task List*** to keep track of work that needs to be done by the team. A ***Task*** can also be created on chosen entries instead as a reminder to change certificates, keys about to expire, renewals and more.
 
 ### Related topics
 * [Task](/rdm/windows/commands/view/layout/task/)
