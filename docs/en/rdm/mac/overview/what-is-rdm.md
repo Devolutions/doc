@@ -22,7 +22,7 @@ eleventyComputed:
 {{ en.RDM }} is also offered on multiple platforms, as seen below. 
 
 {% snippet icon.badgeNotice %} 
-Purchasing a Team license grants the right to use ALL the various client applications. 
+Purchasing a Team license grants the right to use {{ en.RDM }} on ALL available platforms. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
