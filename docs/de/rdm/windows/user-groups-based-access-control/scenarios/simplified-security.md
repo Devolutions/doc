@@ -36,37 +36,37 @@ Nachdem die Benutzer erstellt sind, fügen wir die Nutzergruppen hinzu, denen wi
 ![Verwaltung von Nutzern und Sicherheit – Benutzergruppen](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6106.png) 
 
 ### Konfiguration von Einträgen
-Now, everything is ready to grant or deny access to the user groups.  
+Jetzt ist alles bereit, um den Zugriff auf die Nutzergruppen zu gewähren oder zu verweigern.  
 
-* The ServiceDesk will have the permission to view and open all entries but will be able to edit only the entries in the customer groups/folders.
-* The HelpDesk will have the permission to view and open entries in the customer groups/folders only and will not be able to edit them.
-* The Consultants will have the permission to view and open entries in the Montreal folder only but will not be able to edit it nor its child items.  
+* Der ServiceDesk hat die Berechtigung, alle Einträge zu sehen und zu öffnen, kann aber nur die Einträge in den Kundengruppen/-ordnern bearbeiten.
+* Der HelpDesk hat nur die Berechtigung, Einträge in den Kundengruppen/-ordnern zu sehen und zu öffnen, kann sie aber nicht bearbeiten.
+* Die Berater haben die Berechtigung, nur die Einträge im Montreal-Ordner zu sehen und zu öffnen, können aber weder diesen noch seine untergeordneten Elemente bearbeiten.  
 
-We will begin with the {{ en.VLT }} level folders: Downhill Pro, Telemark and Windjammer.  
+Wir beginnen mit den {{ de.VLT }}-Ebenen-Ordnern: Downhill Pro, Telemark und Windjammer.  
 
-The permission to view the Windjammer folder will be set for the ServiceDesk only since we want them to be able to use its child entries. We don’t want the ServiceDesk to add or edit anything. We will set the ***Add***, ***Edit***, and ***Delete*** permissions to ***Never***. Only the administrator will be able to add or edit entries in the Windjammer folder.  
-![Windjammer - Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6112.png)
+Die Berechtigung zur Einsicht des Ordners „Windjammer“ wird nur für den ServiceDesk festgelegt, da dieser die untergeordneten Einträge verwenden soll. Wir wollen nicht, dass der ServiceDesk etwas hinzufügen oder bearbeiten kann. Wir setzen die Berechtigungen für ***Hinzufügen***, ***Bearbeiten*** und ***Löschen*** auf ***Nie***. Nur der Administrator ist in der Lage, Einträge im Ordner „Windjammer“ hinzuzufügen oder zu bearbeiten.  
+![Windjammer - Berechtigungen](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6112.png)
 
-* ***View: Custom***; ServiceDesk.
-* ***Add: Never***; Only the administrator can add entries.
-* ***Edit: Never***; Only the administrator can edit entries.
-* ***Delete: Never***; Only the administrator can delete entries.
-* ***Move: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can move entries.
-* ***View password: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view password.
-* ***View sensitive information: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view sensitive information.
+* ***Ansicht: Nutzerdefiniert***; ServiceDesk.
+* ***Hinzufügen: Nie***; nur der Administrator kann Einträge hinzufügen.
+* ***Bearbeiten: Nie***; nur der Administrator kann Einträge bearbeiten.
+* ***Löschen: Nie***; nur der Administrator kann Einträge löschen.
+* ***Verschieben: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können Einträge verschieben.
+* ***Passwort anzeigen: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können das Passwort einsehen.
+* ***Vertrauliche Informationen anzeigen: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können vertrauliche Informationen einsehen.
 
-For Downhill Pro, we will grant permissions to the ServiceDesk and the HelpDesk.  
-![Downhill Pro - Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6116.png) 
+Für Downhill Pro erteilen wir Berechtigungen für den ServiceDesk und den HelpDesk.  
+![Downhill Pro - Berechtigungen](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6116.png) 
 
-* ***View: Custom***; HelpDesk, ServiceDesk.
-* ***Add: Custom***; ServiceDesk.
-* ***Edit: Custom***; ServiceDesk.
-* ***Delete: Never***; Only the administrator can delete entries.
-* ***Move: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can move entries.
-* ***View password: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view password.
-* ***View sensitive information: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view sensitive information.
+* ***Ansicht: Nutzerdefiniert***; HelpDesk, ServiceDesk.
+* ***Hinzufügen: Nutzerdefiniert***; ServiceDesk.
+* ***Bearbeiten: Nutzerdefiniert***; ServiceDesk.
+* ***Löschen: Nie***; nur der Administrator kann Einträge löschen.
+* ***Verschieben: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können Einträge verschieben.
+* ***Passwort anzeigen: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können das Passwort einsehen.
+* ***Vertrauliche Informationen anzeigen: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können vertrauliche Informationen einsehen.
 
-We already have a good example of the flexibility of {{ en.RDM }} ’s Security. A ServiceDesk user can view and use all the entries in the Downhill Pro folder, even the credential entries, but it will never be able to see any password since View Password is Disallowed (from the {{ en.VLT }} folder).  
+Wir haben bereits ein gutes Beispiel für die Sicherheit von {{ de.RDM }}. Ein ServiceDesk-Nutzer kann alle Einträge im Ordner „Downhill Pro“ einsehen und verwenden, sogar die Anmeldeinformationen. Aber er kann niemals ein Passwort einsehen, da „Passwort anzeigen“ (aus dem Ordner „{{ de.VLT }}“) nicht zulässig ist.  
 
 Next, for the Telemark folder, we will grant permissions to the ServiceDesk, the HelpDesk and the Consultants. This is where things get complex. If we want the Consultants to be able to view only the Montreal folder which is a child item of Telemark, we must grant to consultants the permission to view the entire Telemark content. Then we will grant permissions on child items only to the user group that should have access to these items. This last step will deny the view permission for the consultants on the child items.  
 ![Telemark - Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6110.png)

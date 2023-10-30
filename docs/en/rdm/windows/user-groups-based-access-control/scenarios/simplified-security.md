@@ -66,7 +66,7 @@ For Downhill Pro, we will grant permissions to the ServiceDesk and the HelpDesk.
 * ***View password: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view password.
 * ***View sensitive information: Inherited***; Never inherited from {{ en.VLT }}. Only administrators can view sensitive information.
 
-We already have a good example of the flexibility of {{ en.RDM }} ’s Security. A ServiceDesk user can view and use all the entries in the Downhill Pro folder, even the credential entries, but it will never be able to see any password since View Password is Disallowed (from the {{ en.VLT }} folder).  
+We already have a good example of the flexibility of {{ en.RDM }}’s Security. A ServiceDesk user can view and use all the entries in the Downhill Pro folder, even the credential entries, but it will never be able to see any password since View Password is Disallowed (from the {{ en.VLT }} folder).  
 
 Next, for the Telemark folder, we will grant permissions to the ServiceDesk, the HelpDesk and the Consultants. This is where things get complex. If we want the Consultants to be able to view only the Montreal folder which is a child item of Telemark, we must grant to consultants the permission to view the entire Telemark content. Then we will grant permissions on child items only to the user group that should have access to these items. This last step will deny the view permission for the consultants on the child items.  
 ![Telemark - Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6110.png)
