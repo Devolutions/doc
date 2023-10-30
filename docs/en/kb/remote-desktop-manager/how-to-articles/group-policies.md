@@ -68,7 +68,15 @@ Disable features requiring an internet connection, such as telemetry, automatic 
 		</td>
 	</tr>
 	<tr>
-		<td>	
+		<td>
+Disable Onboarding
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableOnboarding
+		</td>
+	</tr>
+	<tr>
+		<td>				
 Disable the application's automatic update check
 		</td>
 		<td>
@@ -378,6 +386,14 @@ Force application lock when Windows locks
 	</tr>
 	<tr>
 		<td>
+Force Application Password
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceLocalApplicationPassword
+		</td>
+	</tr>
+	<tr>
+		<td>		
 Force multi-factor authentication on the application login
 		</td>
 		<td>
@@ -630,6 +646,22 @@ REGISTRY KEY
 		</th>
 	<tr>
 		<td>
+Dashboard Auto Focus Item on Tab Select
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DashboardAutoFocusItemOnTabSelect
+		</td>
+	</tr>
+	<tr>
+		<td>
+Dashboard Auto Focus Tab on Item Select
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DashboardAutoFocusTabOnItemSelect
+		</td>
+	</tr>
+	<tr>
+		<td>						
 Disable all the local application tools like the Event Viewer or IIS
 		</td>
 		<td>
@@ -638,6 +670,14 @@ Disable all the local application tools like the Event Viewer or IIS
 	</tr>
 	<tr>
 		<td>
+Dashboard Hide All Recordings Panels
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DashboardHideAllRecordingsPanels
+		</td>
+	</tr>
+	<tr>
+		<td>		
 Disable drag and drop in the connection list
 		</td>
 		<td>
@@ -934,11 +974,35 @@ Hide the Task panel located in the Dashboard
 	</tr>
 	<tr>
 		<td>
-Select the default tab for the ***{{ en.NPANE }}*** on launch
+Hide What's New Page
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\HideWhatsNewPage
+		</td>
+	</tr>
+	<tr>
+		<td>		
+Lock Navigation Pane
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\LockNavigationPane
+		</td>
+	</tr>
+	<tr>
+		<td>		
+Select the default tab for the {{ en.NPANE }} on launch
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DefaultNavigationPaneTab
 		</td>
+	</tr>
+	<tr>
+		<td>		
+SQLite Default Location
+		</td>
+		<td>
+%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\SQLiteDefaultLocation
+		</td>		
 	</tr>
 </table>
 
