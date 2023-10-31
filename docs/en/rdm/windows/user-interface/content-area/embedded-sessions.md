@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Embedded Sessions
+  title: Embedded sessions
 ---
 {% youtube 'FtSlp_TVAxE?si=cwD9PHKbAUouLdXZ&amp;start=759' %}  
 

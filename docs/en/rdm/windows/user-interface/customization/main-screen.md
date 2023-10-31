@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Main Screen
+  title: Main screen
 ---
 Illustrated below is the default {{ en.RDM }} main screen. Go to ***File – Options – User Interface*** to change the current style. We have various settings for you to customize your experience, such as different themes, shortcuts and more!  
 ![Overview of the default user interface](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11231.png) 

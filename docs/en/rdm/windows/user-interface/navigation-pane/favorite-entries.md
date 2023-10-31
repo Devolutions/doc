@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Favorite Entries
+  title: Favorite entries
 ---
 The ***Favorites*** tab contains entries flagged as favorite by the current user. Favorites are kept locally, meaning they are not shared and they roam with the user profile and aat the database level.  
 

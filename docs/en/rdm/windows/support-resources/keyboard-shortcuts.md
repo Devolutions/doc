@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Keyboard Shortcuts
+  title: Keyboard shortcuts
   description: Here are the default keyboard shortcuts for various commands.
   keywords:
   - Keyboard Shortcuts
