@@ -48,5 +48,5 @@ module.exports = {
     RDMOS: 'RDM Online Services',
     RDMWIN: 'Remote Desktop Manager Windows',
     UVLT: 'User vault',
-    VLT: 'vault',
+    VLT: 'Vault',
   }

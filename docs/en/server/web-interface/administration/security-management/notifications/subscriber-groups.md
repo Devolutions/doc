@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Subscriber Groups
+  title: Subscriber groups
 ---
 The ***Subscriber Groups*** can be used to regroup [Subscribers](/server/web-interface/administration/security-management/notifications/subscribers/) and allow to send [Subscriptions](/server/web-interface/administration/security-management/notifications/subscriptions/) to a group of people and/or syslog servers. 
 

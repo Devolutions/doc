@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Conditional Access Policies
+  title: Conditional access policies
   description: Conditional access policies generally consider various factors to assess whether to allow or deny access to a specific resource or service.
 
 ---

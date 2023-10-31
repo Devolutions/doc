@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Forbidden Password
+  title: Forbidden password
 ---
 ***Forbidden Passwords*** allow to create a list of blacklisted passwords to forbid usage in the application. Once set in this list, the password cannot be used anymore in the {{ en.DVLS }} data source. 
 

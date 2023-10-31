@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Security Management
+  title: Security management
   order: 10
 ---

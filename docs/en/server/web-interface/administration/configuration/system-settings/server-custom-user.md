@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DVLS }} User'
+  title: '{{ en.DVLS }} user'
 ---
 Allows you to set the ***Password Policy*** for ***{{ en.DVLS }} User*** accounts. 
 

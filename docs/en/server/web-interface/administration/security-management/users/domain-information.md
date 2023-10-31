@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Domain Information
+  title: Domain information
 ---
 Provides the user's domain information.  
 

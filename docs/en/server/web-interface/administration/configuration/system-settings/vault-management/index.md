@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.VLT }} Management'
+  title: '{{ en.VLT }} management'
   description: The {{ en.VLT }} Management section allows you to set default permissions and create new permission sets, as well as force the save location of My Account Settings.
 ---
 The ***{{ en.VLT }} Management*** section allows you to set default permissions and create new permission sets, as well as force the save location of ***My Account Settings***.

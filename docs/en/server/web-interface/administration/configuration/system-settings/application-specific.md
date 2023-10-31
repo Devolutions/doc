@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Application Specific
+  title: Application specific
 ---
 ![Administration – System Settings – Application Specific](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2058.png)
 

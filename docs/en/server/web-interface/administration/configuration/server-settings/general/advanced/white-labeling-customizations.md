@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: White Labeling Customizations
+  title: White labeling customizations
 ---
 You can customize the {{ en.DVLS }} web interface logo's to better serve your own customers.  
 

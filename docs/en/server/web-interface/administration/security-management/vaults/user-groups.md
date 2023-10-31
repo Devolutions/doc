@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: User Groups
+  title: User groups
 ---
 Grant access to user groups on the {{ en.VLT }}. 
 

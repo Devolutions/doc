@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Password Templates
+  title: Password templates
   order: 10
 ---
 ***Password Templates*** are used by administrators to create predefined settings for the [***Password Generator***](/server/web-interface/administration/templates/password-templates/password-generator/) of {{ en.DVLS }}.  

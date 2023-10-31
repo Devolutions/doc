@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: User Groups
+  title: User groups
   keywords:
   - Roles
 ---
