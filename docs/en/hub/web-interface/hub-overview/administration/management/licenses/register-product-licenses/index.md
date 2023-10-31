@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Register Product Licenses
+  title: Register product licenses
 ---
 Register Devolutions ***Product Licenses*** in {{ en.DHUBB }}.  
 

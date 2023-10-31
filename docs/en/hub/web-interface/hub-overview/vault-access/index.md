@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.VLT }} access in {{ en.DHUBB }}'
+  title: Vault access in {{ en.DHUBB }}'
   description: In {{ en.DHUBB }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 ---
 In {{ en.DHUBB }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
@@ -13,7 +13,7 @@ This feature is also available for [PAM {{ en.VLT }}s](/hub/privileged-access-ma
 Users can be set as {{ en.VLT }} owners to manage a specific {{ en.VLT }} without having access to data source administration. They are set in the ***Visibility*** section when editing or creating a {{ en.VLT }} in {{ en.DHUBB }}. For ***Entreprise*** data sources ({{ en.DHUBB }} and {{ en.DHUBB }}), they can also be configured in their respective web interfaces.
 {% endsnippet %}
 
-{{ en.VLT }} visibility is of great importance in {{ en.DHUBB }}, as access requests can only be performed for public {{ en.VLT }}s and not private ones.
+Vault visibility is of great importance in {{ en.DHUBB }}, as access requests can only be performed for public {{ en.VLT }}s and not private ones.
 * ***Private***: A private {{ en.VLT }} is not visible to users that do not have access to it. Thus, {{ en.VLT }} access requests cannot be performed. You can only access it by invitation.
 * ***Public***: A public {{ en.VLT }} is visible to all users of the data source, even to those who do not have access to it. A user can request access to the public {{ en.VLT }}.
 

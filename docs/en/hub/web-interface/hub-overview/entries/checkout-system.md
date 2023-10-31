@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Checkout System
+  title: Checkout system
 ---
 The ***Checkout system*** locks an entry while it is being used or modified. It prevents multiple users from using or editing an entry at the same time.  
 

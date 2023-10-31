@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Configuration and Settings
+  title: Configuration and settings
   order: 20
 ---

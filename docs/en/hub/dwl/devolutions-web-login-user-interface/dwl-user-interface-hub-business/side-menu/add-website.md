@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Add Website
+  title: Add website
 ---
 The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s and entries of the [***{{ en.VLT }}s***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***{{ en.UVLT }}***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through {{ en.DWL }}.  
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Security Dashboard
+  title: Security dashboard
 ---
 The ***Security Dashboard*** is a tool to offer guidance on how to improve the security of the {{ en.DHUBB }} platform and also tips on reducing the workload for administrators. Some tips are common information security best practices, others are a consensus between our own teams.  
 

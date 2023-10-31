@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: System Permissions
+  title: System permissions
 ---
 The ***System Permissions*** are used to provide administrative rights to specific users or user groups. They can be added at the ***System*** or ***{{ en.VLT }}s*** levels.  
 ![System Permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub3043.png)  
