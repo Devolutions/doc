@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} enable Smart Cards Authentication'
+  title: '{{ en.RDMMAC }} enable Smart Cards authentication'
 ---
 Here are the steps to enable the ***Smart Cards Authentication*** in {{ en.RDMMAC }}:  
 

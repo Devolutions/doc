@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Install {{ en.DGW }} side by side Method not found
+  title: Install {{ en.DGW }} side by side method not found
 ---
 When installing {{ en.DGW }} on the same machine as {{ en.DVLS }} (side by side installation), this error can trigger in the installation logs.  
 

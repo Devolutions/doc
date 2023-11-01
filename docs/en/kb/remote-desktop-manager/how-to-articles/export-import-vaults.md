@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Export and import {{ en.VLT }}s
+  title: Export and import vaults
 ---
 It is possible to export and import multiple {{ en.VLT }}s from one type of advanced data source to another.
 

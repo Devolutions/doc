@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Add web links in Macros/Script/Tools sessions
+  title: Add web links in macros & script & tools sessions
 ---
 Macros/Scripts/Tools sessions can be used to open web links in {{ en.RDM }}.
 

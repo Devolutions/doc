@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: SAML troubleshooting for CyberArk Dashboard
+  title: SAML troubleshooting for CyberArk dashboard
   description: When connecting to your ***CyberArk Dashboard*** entry configured with SAML authentication, you may encounter an issue where your safe selector is empty. We recommend updating {{ en.RDM }} to at least version 2023.2.18 as improvements have been implemented in this version for the SAML authentication mode.
 ---
 {% snippet icon.badgeCaution %}

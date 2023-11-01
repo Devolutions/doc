@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Create a {{ en.VLT }} Template
+  title: Create a vault template
 ---
 ***{{ en.VLT }} Templates*** are available in {{ en.RDM }} 2022.1.11 and higher with advanced data sources. For lower versions of {{ en.RDM }} follow this [workaround](#workaround).
 

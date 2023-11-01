@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configure an Active Directory Synchronizer entry in {{ en.RDM }}
+  title: Configure an Active directory synchronizer entry in {{ en.RDM }}
   description: This topic covers every option in the Active Directory Synchronizer entry.
   keywords:
   - Active Directory

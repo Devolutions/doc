@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: SQL Server data source with Integrated Security
+  title: SQL Server data source with integrated security
   keywords:
   - role
 ---

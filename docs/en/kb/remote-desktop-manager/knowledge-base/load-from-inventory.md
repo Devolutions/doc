@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Load from System Information
+  title: Load from system information
   description: How to use the load from System Information in Remote Desktop Manager
 ---
 

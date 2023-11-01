@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Scheduler Service general information
+  title: Scheduler service general information
   description: The Scheduler Service is a {{ en.DVLS }} component in charge of several features of {{ en.DVLS }}.
   keywords:
   - scheduler

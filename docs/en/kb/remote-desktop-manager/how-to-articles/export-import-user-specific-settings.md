@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Export and Import User Specific Settings
+  title: Export and import user specific settings
   description: If you or your Users are overriding entry properties with User Specific Settings in Remote Desktop Manager, everyone will be required to export and import the User Specific Settings List when migrating data.
 ---
 

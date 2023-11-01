@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Issue using {{ en.DWL }} with Localhost with HTTPS
+  title: Issue using {{ en.DWL }} with localhost with HTTPS
 ---
 {{ en.DWL }} will probably never work with HTTPS for a few reasons:
 

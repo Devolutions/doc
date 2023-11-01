@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Use the IT Asset Management feature in {{ en.RDM }}
+  title: Use the IT asset management feature in {{ en.RDM }}
   description: The IT Asset Management feature can be used to link an asset manager through an entry's properties
   keywords: 
   - inventory

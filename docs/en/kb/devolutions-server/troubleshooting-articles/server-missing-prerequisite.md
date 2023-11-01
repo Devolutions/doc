@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: HTTP Error 500.19 - Internal Server Error
+  title: HTTP Error 500.19 - internal server error
 ---
 When trying to load the {{ en.DVLS }} web page, the following HTTP 500.19 - Internal Server Error is displayed in the browser.  
 ![http 500.19 - Internal Server Error](https://webdevolutions.azureedge.net/docs/en/kb/KB8102.png)  

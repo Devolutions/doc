@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Use the NLA Option for an RDP Connection via {{ en.DGW }}
+  title: Use the NLA option for an RDP connection via {{ en.DGW }}
   description: Since 2022.3, {{ en.DGW }} supports KDC Proxy combined with API hooking RDP in {{ en.RDM }}.
   keywords:
   - NLA

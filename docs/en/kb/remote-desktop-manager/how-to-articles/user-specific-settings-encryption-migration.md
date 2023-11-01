@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: User Specific Settings encryption migration
+  title: User specific settings encryption migration
 ---
 The ***User Specific Settings***, in {{ en.RDM }} 2022.2, are being migrated to a newer encryption format.
 

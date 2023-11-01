@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Run {{ en.RDM }} under Application Verifier
+  title: Run {{ en.RDM }} under application verifier
   description: The Microsoft Remote Destop Protocol (MSRDP) loads a lot of systems and third-party codes when it runs; and a misbehaving or buggy driver or module can cause crashes and other weird behaviour inside the Microsoft Terminal Services Client (MSTSC). When this happens in {{ en.RDM }}, it causes the application to crash.
 ---
 Microsoft Remote Destop Protocol (MSRDP) loads a lot of systems and third-party codes when it runs; and a misbehaving or buggy driver or module can cause crashes and other weird behaviour inside Microsoft Terminal Services Client (MSTSC). When this happens in {{ en.RDM }}, it causes the application to crash.  

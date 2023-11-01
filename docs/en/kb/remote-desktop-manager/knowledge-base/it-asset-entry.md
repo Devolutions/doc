@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: IT Asset entry
+  title: IT asset entry
   description: The IT Asset entry is useful for storing information about a large number of IT assets, such as computers, monitors, printers, and their status.
 ---
 

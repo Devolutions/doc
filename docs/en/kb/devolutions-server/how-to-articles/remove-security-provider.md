@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remove the Security Provider
+  title: Remove the security provider
   description: The following procedure explains how to remove the Security Provider and implement the encryption at rest using the encryption keys.
 ---
 {% snippet icon.badgeNotice %}

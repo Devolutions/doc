@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Application Passwords setup
+  title: Application passwords setup
 ---
 The ***Application Passwords*** is a way to quickly authenticate with other Devolutions applications like [{{ en.RDM }} {{ en.DA }}](#account) and the data sources [{{ en.DOD }}](#data) in {{ en.RDM }}.
 

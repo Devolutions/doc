@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Security Providers – Argon2 parameters
+  title: Security providers – Argon2 parameters
   description: In {{ en.RDM }}, the ***Shared passphrase (v3)*** for the ***Security Provider*** uses the Argon2id Key Derivation Function (KDF) to transform the passphrase into an encryption key.
 ---
 In {{ en.RDM }}, the ***Shared passphrase (v3)*** for the ***Security Provider*** uses the Argon2id Key Derivation Function (KDF) to transform the passphrase into an encryption key.  

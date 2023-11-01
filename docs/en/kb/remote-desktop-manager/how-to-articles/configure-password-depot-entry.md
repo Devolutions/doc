@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configure a Password Depot entry in {{ en.RDM }}
+  title: Configure a password pepot entry in {{ en.RDM }}
   description: 
   keywords:
   - Password Depot

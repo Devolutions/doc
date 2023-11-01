@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: No Team license found in {{ en.RDM }} with {{ en.DHUBB }}
+  title: No team license found in {{ en.RDM }} with {{ en.DHUBB }}
 ---
 With a valid {{ en.RDM }} license, you get prompt with the error message ***No Team License Found*** in version 2022.3.X linked with a {{ en.DHUBB }} data source.
 

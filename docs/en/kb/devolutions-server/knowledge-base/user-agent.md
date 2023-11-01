@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: User Agent
+  title: User agent
   description: User Agent of {{ en.RDM }} Enterprise Edition for Windows.
   keywords:
   - User Agent

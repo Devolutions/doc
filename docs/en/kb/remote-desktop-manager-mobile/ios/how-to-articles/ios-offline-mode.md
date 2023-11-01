@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMIOS }} in Offline Mode'
+  title: '{{ en.RDMIOS }} in offline Mode'
 ---
 The offline mode allows you to connect to a read only copy of the data source when the live data source is unavailable.  
 

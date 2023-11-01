@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Copy buttons for Custom Fields
+  title: Copy buttons for custom fields
 ---
 In {{ en.RDM }} version 2022.2 and higher, located in the ***Home - Clipboard*** tab section, we have added copy buttons from the ***Custom Fields*** section of the entries.  
 ![!!KB4976](https://webdevolutions.azureedge.net/docs/en/kb/KB4976.png)
