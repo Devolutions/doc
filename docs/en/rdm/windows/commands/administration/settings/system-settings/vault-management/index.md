@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ en.VLT }} Management'
+  title: '{{ en.VLT }} management'
 ---

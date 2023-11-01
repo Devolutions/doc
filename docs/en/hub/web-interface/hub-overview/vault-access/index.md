@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Vault access in {{ en.DHUBB }}'
+  title: Vault access in {{ en.DHUBB }}
   description: In {{ en.DHUBB }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 ---
 In {{ en.DHUBB }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Play List Management
+  title: Play list management
 ---
 ### Using a Play List 
 

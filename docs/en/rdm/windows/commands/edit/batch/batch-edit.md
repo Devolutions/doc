@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Batch Edit
+  title: Batch edit
   status: Topic available in German language
 ---
 {% youtube 'M4eCCgl2Dwc' %}  
