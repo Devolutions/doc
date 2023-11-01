@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Approve {{ en.VLT }} access in {{ en.DVLS }}
+  title: Approve vault access in {{ en.DVLS }}
   order: 20
-  description: In {{ en.DVLS }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
+  description: In {{ en.DVLS }}, users can request access to a public vault. An administrator / vault owner then has to approve the request.
 ---
 In {{ en.DVLS }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request. {{ en.VLT }} owners are configured in ***Administration – Security Management – {{ en.VLT }}s*** when creating or editing a {{ en.VLT }}, under the ***{{ en.VLT }} Owners*** section.
 

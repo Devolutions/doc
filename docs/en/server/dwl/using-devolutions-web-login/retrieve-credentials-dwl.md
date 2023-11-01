@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Retrieve Credentials with {{ en.DWL }}
+  title: Retrieve credentials with {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
 You need website entries in {{ en.DVLS }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/). 

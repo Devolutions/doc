@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Cleanup Logs
+  title: Cleanup logs
 ---
 The ***Cleanup Logs*** functionality will allow to archive logs available in the database that are older than the selected period. It can also delete these archived logs based on the selected time limit in the parameters.  
 

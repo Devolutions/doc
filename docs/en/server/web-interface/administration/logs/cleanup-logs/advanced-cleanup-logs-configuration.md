@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Advanced Configuration
+  title: Advanced configuration
 ---
 The ***Advanced*** configuration allows to set individual clean up parameters for all the different logs of {{ en.DVLS }}. 
 
