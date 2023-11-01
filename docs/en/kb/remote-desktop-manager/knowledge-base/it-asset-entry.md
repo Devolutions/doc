@@ -12,6 +12,6 @@ The ***IT Asset*** entry is useful for storing information about a large number 
 1. Click ***Select*** to create the entry.
 ![IT Asset Management](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6149.png)  
 1. Enter the information and click ***Add***.
-![IT Asset Management](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6150.png)  
+![Enter the information and click Add](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6150.png)  
 
 The entry is saved. 
