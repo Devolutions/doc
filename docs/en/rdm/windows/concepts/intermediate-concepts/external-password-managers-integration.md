@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: External Password Managers Integration
+  title: External password managers integration
   description: Our advanced data sources include third-party password integrations that provide access to external password management solutions, making it easy to retrieve credentials and associate them with connections without leaving the application.
 ---
 

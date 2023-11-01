@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: System Permissions
+  title: System permissions
   status: Topic available in German language
 ---
 The ***System Permissions*** allows to grant some administrative permissions to standard users without making them administrators. The ***Default*** setting inherits the permission set on the user or user groups.  

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Data Sources Types
+  title: Data sources types
   order: 20
 ---
 {% youtube 'ji4G8Ti7lls' %}  

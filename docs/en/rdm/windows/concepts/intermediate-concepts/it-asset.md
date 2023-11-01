@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title:  IT Asset
+  title:  IT asset
   description: The IT Asset Management feature can be used to link an asset manager (e.g., BlueTally) through an entry's properties.
 ---
 

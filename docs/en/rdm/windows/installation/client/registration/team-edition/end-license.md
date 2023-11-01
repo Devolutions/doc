@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: End of License
+  title: End of license
 ---
 Some of our {{ en.RDM }} Team users might wonder what happens when their license expires. Here is a breakdown depending on your purchase model. 
 

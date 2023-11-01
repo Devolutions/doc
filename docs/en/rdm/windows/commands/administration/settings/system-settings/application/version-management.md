@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: Version Management
-  description: The Version Management allows the administrators to manage the data source availability in other versions of {{ en.RDM }}.
+  title: Version management
+  description: The Version management allows the administrators to manage the data source availability in other versions of {{ en.RDM }}.
   status: Topic available in German language
 ---
 The ***Version Management*** allows the administrators to manage the data source availability in other versions of {{ en.RDM }}. 

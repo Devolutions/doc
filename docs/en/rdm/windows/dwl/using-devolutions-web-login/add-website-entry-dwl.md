@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Add a Website Entry with {{ en.DWL }}
+  title: Add a website entry with {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
 This topic explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, see [Create an Account for a Website with {{ en.DWL }}](/rdm/windows/dwl/using-devolutions-web-login/create-account-website/) instead. 

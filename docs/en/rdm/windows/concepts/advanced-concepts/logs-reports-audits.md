@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Logs, Reports and Audits
+  title: Logs, reports and audits
   description: Detailed reports help evaluate an enterprise’s level of information security and enhance control on access to privileged accounts.
 ---
 Detailed reports help evaluate an enterprise’s level of information security and enhance control on access to privileged accounts. To enhance accountability and visibility, track all actions related to privileged account passwords, including login attempts and history, enabling easy identification of who performed specific actions with passwords, where, and when. Create comprehensive access logs to monitor privileged user actions, display real-time connected users, and export reports in CSV format for future reference. Automate report generation and export by utilizing command line functionality, shortcuts, batch files, and the Windows task scheduler for streamlined execution.

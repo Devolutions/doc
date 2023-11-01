@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Application Logs
+  title: Application logs
 ---
 When encountering errors, you can verify the local application log, which is available in ***Help – Application Logs***.  
 

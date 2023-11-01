@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Top Pane
+  title: Top pane
 ---
 The Top Pane contains the [Quick Access Toolbar](View_QuickAccessToolbar) and the Ribbon/Menu.  
 ![{{ en.RDM }} top pane](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11408.png) 

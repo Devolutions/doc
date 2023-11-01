@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Import/Export
+  title: Import & export
   description: Importing/exporting entries (such as sessions, logins, contacts, and credentials) reduces the time needed to set up your {{ en.VLT }}s, thus allowing you to move quickly from another solution to {{ en.RDM }}.
 ---
 Importing/exporting entries (such as sessions, logins, contacts, and credentials) reduces the time needed to set up your {{ en.VLT }}s, thus allowing you to move quickly from another solution to {{ en.RDM }}. To manage your data source, you can also export an entire {{ en.VLT }} and its content, as well as a data source configuration, then re-import them in a new data source or {{ en.RDM }} instance.

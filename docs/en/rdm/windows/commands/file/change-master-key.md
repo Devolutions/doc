@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Change Master Key
+  title: Change master key
 ---
 Use ***File – Change Master Key*** to encrypt the data source.  
 

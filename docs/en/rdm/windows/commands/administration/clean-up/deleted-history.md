@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Clean Up Deleted History
+  title: Clean up deleted history
 ---
 The ***Clean Up Deleted History*** option permanently deletes the history from the ***Deleted Entries*** window, making it impossible to restore deleted entries unless you made a backup. The entry history can still be found under ***Reports*** – ***Activity Logs***.
 

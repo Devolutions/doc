@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Import Options
+  title: Import options
 ---
 Select the [Configuration File](/rdm/windows/installation/client/configuration-file-location/) to import in {{ en.RDM }} and click on Open. 
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Creating Templates
+  title: Creating templates
   status: Topic available in German language
 ---
 There are many ways to create template for entries. You can create a new template, save an entry as a template, import entries as templates, and duplicate a existing template. It is also possible to create group templates.  

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: User Groups Management
+  title: User groups management
 ---
 {% youtube 'rYYkfgdeY5E' %}  
 

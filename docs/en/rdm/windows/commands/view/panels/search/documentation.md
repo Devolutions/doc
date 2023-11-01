@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Documentation Search
+  title: Documentation search
 ---
 We can search documentation pages linked to entries. ***Documentation Search*** provides a preview of the documentation pages, page title, and related entry details. The tool searches the current repository.  
 

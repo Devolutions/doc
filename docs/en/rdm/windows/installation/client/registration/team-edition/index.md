@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Team Edition
+  title: Team edition
   order: 10
   description: When using an Advanced Data Source, there is no need to register Remote Desktop Manager since the license serial is stored in the data source and retrieved directly from it. 
 ---

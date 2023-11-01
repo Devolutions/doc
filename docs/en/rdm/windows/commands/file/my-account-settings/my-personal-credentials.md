@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: My Personal Credentials
+  title: My personal credentials
   keywords:
   - Terminal Service
 ---

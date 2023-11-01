@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: JSON Import Strategies and File Format
+  title: JSON import strategies and file format
 ---
 When importing JSON files into {{ en.RDM }}, there are some specifications to follow regarding the content format. 
 

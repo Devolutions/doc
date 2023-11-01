@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Override Settings
+  title: Override settings
   description: Override the configuration of certain settings without affecting the configuration that is already in place.
 ---
 Override the configuration of certain settings without affecting the configuration that is already in place. These new settings can be tied to the local installation (machine) or the user himself.

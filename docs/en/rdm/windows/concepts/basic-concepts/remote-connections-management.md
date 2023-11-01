@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Connections Management
+  title: Remote connections management
   description: Remote Desktop Manager effortlessly set up numerous secure remote connections, which are securely accessible to multiple users through a centralized vault. Remote Desktop Manager integrates with a wider range of technologies, including Microsoft Remote Desktop protocol, Citrix, VMware, Web, Virtual Protocol Network, FTP, FTPS, SFTP, SSH and many others.
 ---
 

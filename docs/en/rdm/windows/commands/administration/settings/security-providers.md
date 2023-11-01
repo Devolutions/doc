@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Security Providers
+  title: Security providers
 ---
 {% youtube 'phg2jL9fsIQ' %}  
 

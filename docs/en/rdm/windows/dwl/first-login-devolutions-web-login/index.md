@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: First Login with {{ en.DWL }}
+  title: First login with {{ en.DWL }}
   order: 40
   status: Topic available in German language
 ---

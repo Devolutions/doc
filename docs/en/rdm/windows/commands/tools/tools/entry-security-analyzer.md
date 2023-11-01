@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Entry Security Analyzer
+  title: Entry security analyzer
   keywords:
   - Password analyzer
   - Password strength

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Database Upgrade
+  title: Database upgrade
   status: Topic available in German language
 ---
 This topic applies to installations with data sources that are using a database as their data store.  

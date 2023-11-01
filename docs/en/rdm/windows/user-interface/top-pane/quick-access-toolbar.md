@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Quick Access Toolbar
+  title: Quick access toolbar
 ---
 The ***Quick Access Toolbar*** found at the top of the application is composed of multiple parts:  
 

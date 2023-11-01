@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Password Templates
+  title: Password templates
   description: Structure templates to force password complexity on entries added to the data source.
 ---
 Structure templates to force password complexity on entries added to the data source. It is a good feature to ensure users do not have weak passwords.

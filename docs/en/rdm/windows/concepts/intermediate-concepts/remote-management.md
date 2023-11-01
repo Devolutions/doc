@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Management
+  title: Remote management
   description: Consolidates different tools in one place, instead of having one application open for AD, another for Hyper-V and so on.
 ---
 Consolidates different tools in one place, instead of having one application open for AD, another for Hyper-V and so on. You can also easily launch sessions (not the AD console).
