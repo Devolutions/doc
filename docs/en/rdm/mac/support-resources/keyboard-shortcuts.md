@@ -2,9 +2,8 @@
 eleventyComputed:
   title: Keyboard shortcuts
   description: Here are the default keyboard shortcuts for various commands.
-  keywords:
-  - Keyboard shortcuts
----
+--- 
+
 Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Preferences – User Interface – Shortcuts***.  
 
 The ***Reset*** button undoes any shortcut custom changes that have not yet been saved. The ***Restore Defaults*** button returns all shortcuts to their default values.  
@@ -58,7 +57,7 @@ Hide Others
 	</tr>
 	<tr>
 		<td>
-Exit 
+Quit
 		</td>
 		<td>
 <kbd>Cmd</kbd>+<kbd>Q</kbd>
@@ -94,7 +93,7 @@ Force Refresh
 	</tr>
 	<tr>
 		<td>
-Change Data Source 
+Switch Data Source 
 		</td>
 		<td>
 <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd>
