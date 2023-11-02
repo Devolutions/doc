@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Entries
+  status: Topic available in German language
 ---
 ![Administration – System Permissions](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0060.png)
 

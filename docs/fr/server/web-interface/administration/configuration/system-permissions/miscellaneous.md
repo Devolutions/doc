@@ -3,6 +3,7 @@ eleventyComputed:
   title: Divers
   keywords:
   - Rôle
+  status: Topic available in German language
 ---
 ![Administration - Permissions du système - Divers](https://webdevolutions.azureedge.net/docs/fr/server/clip8055.png)  
 

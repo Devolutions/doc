@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Nettoyer les journaux d'activité
+  status: Topic available in German language
 ---
 ***Nettoyer les journaux d'activité*** suppriment les journaux d'activité de votre source de données. Vous avez également la possibilité de nettoyer les ***Journaux d'administration*** et de configurer une sauvegarde si vous le souhaitez. 
 

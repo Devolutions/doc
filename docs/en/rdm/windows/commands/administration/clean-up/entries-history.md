@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Clean Up Entry History
+  status: Topic available in German language
 ---
 The ***Entry History*** deletes the history attached to your entry, you can find the history by right clicking on your entry and selecting ***View*** – ***Entry History***.
 

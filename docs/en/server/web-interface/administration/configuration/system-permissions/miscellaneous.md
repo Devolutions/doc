@@ -3,6 +3,7 @@ eleventyComputed:
   title: Miscellaneous
   keywords:
   - Roles
+  status: Topic available in German language
 ---
 ![Administration – System Permissions – Miscellaneous](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0062.png)
 

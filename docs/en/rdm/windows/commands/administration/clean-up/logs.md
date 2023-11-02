@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Clean up activity logs
+  status: Topic available in German language
 ---
 The ***Clean Up Activity Logs*** will delete your data source's ***Activity Logs***. You also have the option to clean up the ***Administration logs*** and set up a backup if desired.
 {% snippet icon.badgeInfo %}

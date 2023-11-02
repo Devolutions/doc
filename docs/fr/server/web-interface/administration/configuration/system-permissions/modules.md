@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Modules
+  status: Topic available in German language
 ---
 {% snippet icon.badgeHelp %} 
 Pour utiliser ces fonctionnalités, vous devez d'abord vous assurer qu'elles sont activées dans {{ fr.DVLS }} sous ***Administration – Modules***.

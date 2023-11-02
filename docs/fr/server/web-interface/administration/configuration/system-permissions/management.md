@@ -3,6 +3,7 @@ eleventyComputed:
   title: Gestion
   keywords:
   - Rôle
+  status: Topic available in German language
 ---
 ![Administration - Permissions du système - Gestion](https://webdevolutions.azureedge.net/docs/fr/server/clip8053.png)  
 

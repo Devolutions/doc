@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Sécurité simplifiée
+  status: Topic available in German language
 ---
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité est disponible que lors de l'utilisation d'une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 

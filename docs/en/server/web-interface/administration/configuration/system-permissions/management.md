@@ -3,6 +3,7 @@ eleventyComputed:
   title: Management
   keywords:
   - Roles
+  status: Topic available in German language
 ---
 ![Administration – System Permissions – Management](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0066.png)
 

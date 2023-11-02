@@ -3,6 +3,7 @@ eleventyComputed:
   title: Outils
   keywords:
   - Rôle
+  status: Topic available in German language
 ---
 ![Administration - Permissions du système - Outils](https://webdevolutions.azureedge.net/docs/fr/server/clip8054.png)  
 
