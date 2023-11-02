@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: My Data Source Information
+  title: My data source information
 ---
 Use the File - My Data Source Information to display the data source information details like the current username and security access. The My Data Source Information screen will also give you the data source configuration information such as database version and the effective Offline mode.  
 

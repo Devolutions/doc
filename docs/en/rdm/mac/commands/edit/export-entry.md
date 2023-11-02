@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Export Entry
+  title: Export entry
 ---
 Use the Export options to export selected entries from {{ en.RDMMAC }}. 
 

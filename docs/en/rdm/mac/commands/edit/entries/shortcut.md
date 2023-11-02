@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Shortcut Entries
+  title: Shortcut entries
 ---
 There are many scenarios where it makes sense for an entry to appear more than once in the ***{{ en.NPANE }}***. For example, you might want to:  
 

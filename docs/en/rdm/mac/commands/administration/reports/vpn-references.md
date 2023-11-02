@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: VPN References Report
+  title: VPN references report
 ---
 Generate a report showing all VPN entries and the sessions using them in the VPN tab.  
 

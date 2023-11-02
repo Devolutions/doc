@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Export Html Encrypted
+  title: Export HTML encrypted
 ---
-The Html Encrypted export format was designed for simple and secure exports of entries. It allows for an html export of the entry information while using symmetric encryption (AES-256) to encrypt sensitive information such as passwords. The file is an ultra portable self contained html file that requires no external script files or installs. As long as you have a web browser with JavaScript enabled you can get to your encrypted data.  
+The HTML Encrypted export format was designed for simple and secure exports of entries. It allows for an HTML export of the entry information while using symmetric encryption (AES-256) to encrypt sensitive information such as passwords. The file is an ultra portable self contained HTML file that requires no external script files or installs. As long as you have a web browser with JavaScript enabled you can get to your encrypted data.  
 
 {% snippet icon.shieldNotice %} 
 With a secure encrypted document you can freely send the information via email or any other protocol without compromising the sensitive data. Use the export as means of sharing or as a backup for sensitive information. 

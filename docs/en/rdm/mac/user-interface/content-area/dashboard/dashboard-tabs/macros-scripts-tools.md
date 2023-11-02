@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Macros/Scripts/Tools
+  title: Macros, scripts & tools
 ---
 Session tools are available in the dashboard tabs and in the session context menu Macros/Scripts/Tools. 
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: My {{ en.UVLT }}
+  title: My user vault
 ---
 The {{ en.UVLT }} is a user centric {{ en.VLT }} for entries of any type. It allows each user o create entries that only them can access.  
 

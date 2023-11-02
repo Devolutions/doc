@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Approve {{ en.VLT }} access in {{ en.RDMMAC }}
+  title: Approve vault access in {{ en.RDMMAC }}
   order: 20
   description: In {{ en.RDMMAC }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 ---

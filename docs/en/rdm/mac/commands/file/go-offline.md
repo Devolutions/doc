@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Go Offline
+  title: Go offline
 ---
 Go offline connects to a local copy of the data source when the data source is not available. It can be used when a user is working from a disconnected network or when there is any kind of connectivity issues with the data source. 
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Default Settings
+  title: Default settings
 ---
 You can access the default session settings from File - Template - Default session settings.  
 

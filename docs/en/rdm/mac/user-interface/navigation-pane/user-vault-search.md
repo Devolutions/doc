@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Search in {{ en.UVLT }}
+  title: Search in user vault
 ---
 The {{ en.UVLT }} Search allows to link a {{ en.UVLT }} credential entry to a session by providing the name of the credential entry. Once the credential is found it will automatically be used to open your remote session.  
 

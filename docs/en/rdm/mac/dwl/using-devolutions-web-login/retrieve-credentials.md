@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Retrieve Credentials with {{ en.DWL }}
+  title: Retrieve credentials with {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
 You need website entries in {{ en.RDM }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/). 
@@ -69,4 +69,3 @@ Depending on the options you have enabled/disabled, you may need to retrieve you
 ![Entry Selection](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2055.png) 
 1. Your credentials will be transferred to the credentials fields of the website. Follow the rest of the website's login process until you successfully log in to your account.  
 ![Credentials Transfer in Corresponding Fields](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2052.png) 
-

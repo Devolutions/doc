@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Search Task List
+  title: Search task list
 ---
 When multiple tasks are created in {{ en.RDMMAC }}, perform a search by clicking on the Search button to filter out the list of displayed tasks.  
 ![Task search](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10356.png)

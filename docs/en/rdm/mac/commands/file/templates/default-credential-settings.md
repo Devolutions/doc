@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Default Credential Settings
+  title: Default credential settings
 ---
 You can access the default session settings from File - Templates - Default credential settings.  
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Custom Variables
+  title: Custom variables
 ---
 You can define your own custom variables to use in your data source configuration. 
 

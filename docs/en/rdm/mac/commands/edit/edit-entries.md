@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Edit Entries
+  title: Edit entries
 ---
 The Edit options is used to Edit one of your entry. You may edit the properties, rename your entry or quickly delete your entry. 
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Version Management
+  title: Version management
 ---
 You can manage your {{ en.RDM }} versions for Windows, Mac, Android or iOS. 
 
