@@ -2,10 +2,8 @@
 eleventyComputed:
   title: Launch an RDP session in a web client
   description: Since version 2023.1.3.0 of {{ en.DVLS }}, it is possible to launch RDP connections directly from the browser.
-  keywords:
-  - RDP
-  - web client
 ---
+
 Since version 2023.1.3.0 of {{ en.DVLS }}, it is possible to launch RDP connections directly from the browser.
 
 {% snippet icon.badgeInfo %}
@@ -18,7 +16,9 @@ This feature is still under development. Thus, it is only possible to see a prev
 
 ## Requirements
 
-In order to use this feature, certain requirements must be met, namely:  
+In order to use this feature, certain requirements must be met, namely:
+* Windows 10 or 11.
+* Windows Server 2016 and higher.
 * Have a [{{ en.DGW }}](/server/dgw/server-configuration/) version 2023.1 or later.
 * Have a [{{ en.DVLS }}](/server/installation/upgrade-server/) version 2023.1.3 or later.
 * Have an <a href="#rdp-session-configuration">RDP type connection</a> with:
