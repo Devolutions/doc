@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: PAM {{ en.VLT }}s
+  title: PAM vaults
   order: 30
   description: PAM {{ en.VLT }}s are one of the key features of {{ en.DHUB }}'s privileged access management module. They are secure {{ en.VLT }}s that allow you to manage all your different privileged accounts.
 ---

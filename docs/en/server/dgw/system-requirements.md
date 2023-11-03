@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: System Requirements
+  title: System requirements
   order: 20
 ---
 {{ en.DGW }} requires the following:  

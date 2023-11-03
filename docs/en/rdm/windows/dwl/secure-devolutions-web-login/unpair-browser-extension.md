@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Unpair a Browser Extension
+  title: Unpair a browser extension
 ---
 In the event that you want to deny access to {{ en.RDM }} from a previously paired browser extension, you need to delete it from {{ en.RDM }}.  
 

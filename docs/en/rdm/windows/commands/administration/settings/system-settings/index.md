@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: System Settings
+  title: System settings
 ---

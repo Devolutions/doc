@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Approve {{ en.VLT }} access in {{ en.DHUBB }}
+  title: Approve vault access in {{ en.DHUBB }}
   order: 20
   description: In {{ en.DHUBB }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 ---

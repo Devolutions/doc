@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
-  title: Team Edition
+  title: Team edition
   keywords:
   - Roles
 ---
-After the purchase of the {{ en.DVLS }} Team Edition, an email is sent with the license serial. This key allows you to create a new instance of {{ en.DVLS }}.  
+After the purchase of the {{ en.DVLS }} Team edition, an email is sent with the license serial. This key allows you to create a new instance of {{ en.DVLS }}.  
 
 The installation procedure is available at [{{ en.DVLS }} Installation](/server/installation/) 
 {% snippet icon.badgeCaution %} 
@@ -35,7 +35,7 @@ Add domain users to the Active Directory groups.
 	</tr>
 </table>
 
-## Check list for installing and running Team Edition
+## Check list for installing and running Team edition
 
 ### Software requirements on the server hosting the instance 
 

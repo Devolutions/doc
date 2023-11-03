@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Create and manage {{ en.VLT }}s
+  title: Create and manage vaults
   keywords:
   - role
 ---

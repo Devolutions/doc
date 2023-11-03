@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Server Settings
+  title: Server settings
   order: 20
 ---
 The ***Server Settings*** page allows to manage the {{ en.DVLS }} configuration remotely. 

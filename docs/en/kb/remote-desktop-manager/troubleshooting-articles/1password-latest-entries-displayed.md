@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: 1Password – Only latest entries are displayed
+  title: 1Password – only latest entries are displayed
 ---
 When you create a new 1Password Credential entry, only the latest entries added to 1Password are displayed.
 ## Solution

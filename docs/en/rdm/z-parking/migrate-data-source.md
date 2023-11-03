@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Migrate Data Source
+  title: Migrate data source
   description:
 ---
 1. Select ***Administration*** – ***Migrate source data source*** in the ribbon.

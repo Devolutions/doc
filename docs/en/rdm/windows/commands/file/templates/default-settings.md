@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Default Settings
+  title: Default settings
 ---
 {% youtube '_U04qW_Q1r4' %}  
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Data Report
+  title: Data report
 ---
 The ***Data Report*** session type can be used to empower any/all users to generate reports, without having to grant them access to the actual server.
 ## Settings

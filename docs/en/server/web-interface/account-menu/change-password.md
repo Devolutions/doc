@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Change Password
+  title: Change password
 ---
 Allow users to modify their password for authenticating on {{ en.DVLS }}.  
 

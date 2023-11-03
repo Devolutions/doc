@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: IT Glue information
+  title: IT glue information
 ---
 There are some limitations to the API provided by IT Glue due to it requiring a private API Key. This API Key acts as an authentication and provides access to the IT Glue organizations.  
 

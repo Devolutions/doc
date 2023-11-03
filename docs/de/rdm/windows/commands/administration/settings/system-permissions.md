@@ -2,15 +2,17 @@
 eleventyComputed:
   title: System Berechtigungen
 ---
-Die ***Systemberechtigungen*** ermöglichen es, Standardbenutzern einige administrative Rechte zu gewähren, ohne sie zu Administratoren zu machen. Die ***Standard***einstellung erbt die für den Nutzer oder die Nutzergruppen festgelegten Berechtigungen. Weitere Informationen über Berechtigungen finden Sie unter Allgemeine Sicherheit.  
+Die ***Systemberechtigungen*** ermöglichen es, Benutzern einige administrative Rechte zu gewähren, ohne diese zu Administratoren zu konfigurieren. Die ***Standardeinstellung*** erbt die für den Benutzer oder die Gruppe konfigurierten Berechtigungen. 
 
-{% snippet icon.badgeInfo %} 
-Diese Funktion ist nur verfügbar bei Gebrauch einer [Erweiterte Datenquelle](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
+{% snippet icon.badgeHelp %} 
+Diese Funktion ist nur für [Erweiterten Datenquellen](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) verfügbar.
+
+Weitere Informationen über Berechtigungen finden Sie unter [Vereinfachte Sicherheit](/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/) oder [Erweiterte Sicherheit](/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/).
 {% endsnippet %}
  
 ### Einträge 
 
-![System Berechtigungen - Einträge](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3432.png) 
+![System Berechtigungen - Einträge](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6158.png) 
 
 <table>
 	<tr>
@@ -26,7 +28,7 @@ BESCHREIBUNG
 Importieren 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, Einträge in die Datenquelle zu importieren.
+Ermöglicht Einträge zu importieren.
 		</td>
 	</tr>
 	<tr>
@@ -34,15 +36,15 @@ Erlaubt Nutzern/Nutzergruppen, Einträge in die Datenquelle zu importieren.
 Exportieren 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, Einträge aus der Datenquelle zu exportieren. 
+Ermöglicht Einträge zu exportieren.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Dem Stammordner hinzufügen 
+Im Stamm hinzufügen
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, Einträge in einem Stammordner zu erstellen. 
+Ermöglicht Einträge im Stammordner zu erstellen. 
 		</td>
 	</tr>
 	<tr>
@@ -50,14 +52,14 @@ Erlaubt Nutzern/Nutzergruppen, Einträge in einem Stammordner zu erstellen.
 {{ de.VLT }} Einstellungen 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen den Zugriff auf die Eigenschaften des {{ de.VLT }}s. 
+Ermöglicht den Zugriff auf die {{ de.VLT }} Einstellungen. 
 		</td>
 	</tr>
 </table>
 
-### Sonstiges 
+### Sonstige
 
-![System Berechtigungen - Sonstiges](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3434.png) 
+![System Berechtigungen - Sonstiges](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6155.png) 
 
 <table>
 	<tr>
@@ -73,7 +75,7 @@ BESCHREIBUNG
 Aktivitätsprotokolle 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, die Aktivitätsprotokolle einzusehen. 
+Ermöglicht die Aktivitätsprotokolle einzusehen. 
 		</td>
 	</tr>
 	<tr>
@@ -81,38 +83,53 @@ Erlaubt Nutzern/Nutzergruppen, die Aktivitätsprotokolle einzusehen.
 Berichte 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, Berichte zu erstellen und einzusehen. 
+Ermöglicht Berichte zu erstellen und einzusehen. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Gelöschte Einträge einsehen 
+Gelöschte Einträge 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, gelöschte Einträge einzusehen und wiederherzustellen. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Administrationsprotokolle 
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen, die Administrationsprotokolle einzusehen. 
+Ermöglicht gelöschte Einträge einzusehen und wiederherzustellen. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Einchecken (erzwungen) 
+Verwaltungsprotokolle 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen das Einchecken von Einträgen mit dem Status "ausgecheckt".. 
+Ermöglicht die Verwaltungsprotokolle einzusehen. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Einchecken (Erzwingen) 
+		</td>
+		<td>
+Ermöglicht Einträge einzuchecken. 
+		</td>
+	</tr>
+		<td>
+Als geschlossen markieren
+		</td>
+		<td>
+Ermöglicht Einträge als geschlossen zu setzen (RDM spezifische Berechtigung). 
+		</td>
+	</tr>
+		<td>
+Eintrag-Sicherheitsanalyse
+		</td>
+		<td>
+Ermöglicht den Zugriff auf den <b><i>Berichte</b></i> – <b><i>Einträge</b></i> – <b><i>Sicherheitsanalyse</b></i> Bericht. 
 		</td>
 	</tr>
 </table>
+
 
 ### Werkzeuge 
 
-![System Berechtigungen - Werkzeuge](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3621.png) 
+![System Berechtigungen - Werkzeuge](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6156.png) 
 
 <table>
 	<tr>
@@ -125,53 +142,49 @@ BESCHREIBUNG
 	</tr>
 	<tr>
 		<td>
-Tools zur Konsolenverwaltung 
+Konsolen-Verwaltungswerkzeuge 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen die Verwendung von Tools zur Konsolenverwaltung. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Integrierte Tools  (Wake-on-LAN, NetStat, Ping...) 
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen die Verwendung von sitzungsrelevanten Tools. 
+Ermöglicht die Verwendung von Konsolen-Verwaltungswerkzeugen. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Eintrag Makros/Skripte/Tools 
+Integrierte Werkzeuge (Wake On Lan, NetStat, Ping, ...) 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen die Verwendung von Makros/Skripten/Tools-Einträgen. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Verwaltungs-Tools 
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen die Verwendung von Verwaltungs-Tools. 
+Ermöglicht die Verwendung von sitzungsrelevanten Werkzeugen. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Web-Management-Tools 
+Makro / Skript / Werkzeug Eintrag 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen die Verwendung von Web-Management-Tools. 
+Ermöglicht die Verwendung von Makro- / Skript- / Werkzeug-Einträgen. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Remotewerkzeuge 
+		</td>
+		<td>
+Ermöglicht die Verwendung von Remotewerkzeugen. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Web-Verwaltungswerkzeuge 
+		</td>
+		<td>
+Ermöglicht die Verwendung von Web-Verwaltungswerkzeugen. 
 		</td>
 	</tr>
 </table>
 
-### Verwaltung 
+### Vorlagen 
 
-{% snippet icon.badgeHelp %} 
-Der ***Standard***wert in ***Werkzeuge*** ist gleichbedeutend mit ***Nie***. 
-{% endsnippet %}
- 
-![System Berechtigungen - Verwaltung](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3433.png) 
+![System Berechtigungen - Verwaltung](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6157.png)
 
 <table>
 	<tr>
@@ -181,53 +194,13 @@ OPTION
 		<th>
 BESCHREIBUNG 
 		</th>
-	</tr>
-	<tr>
-		<td>
-Nutzer 
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen den Zugriff auf die Verwaltung der Nutzer. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sicherheitsgruppe 
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen den Zugriff auf die Verwaltung der Sicherheitsgruppen. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Gruppen 
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen den Zugriff auf die Verwaltung der Nutzergruppen. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ de.VLT }} 
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen die Verwaltung von {{ de.VLT }}en. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Einstellungen der Datenquelle (Systemeinstellungen) 
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen den Zugriff auf Einstellungen der Datenquelle. 
-		</td>
 	</tr>
 	<tr>
 		<td>
 Vorlagen 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, Vorlagen zu erstellen und zu verwalten. 
+Ermöglicht die Konfiguration von Vorlagen. 
 		</td>
 	</tr>
 	<tr>
@@ -235,7 +208,71 @@ Erlaubt Nutzern/Nutzergruppen, Vorlagen zu erstellen und zu verwalten.
 Passwortvorlagen 
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, Passwort-Vorlagen zu erstellen und zu verwalten. 
+Ermöglicht die Konfiguration von Passwortvorlagen. 
+		</td>
+	</tr>
+	<tr>
+</table>
+
+### Verwaltung 
+
+![System Berechtigungen - Verwaltung](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6153.png) 
+
+<table>
+	<tr>
+		<th>
+OPTION 
+		</th>
+		<th>
+BESCHREIBUNG 
+		</th>
+	</tr>
+	<tr>
+		<td>
+Benutzer 
+		</td>
+		<td>
+Ermöglicht den Zugriff auf die Benutzerverwaltung. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Tresore 
+		</td>
+		<td>
+Ermöglicht den Zugriff auf die Tresorverwaltung. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Gruppen 
+		</td>
+		<td>
+Ermöglicht den Zugriff auf die Gruppenverwaltung. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Lizenzen 
+		</td>
+		<td>
+Ermöglicht den Zugriff auf die Lizenzverwaltung. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Systemeinstellungen
+		</td>
+		<td>
+Ermöglicht den Zugriff auf die Systemeinstellungen. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Globale Bilder 
+		</td>
+		<td>
+Ermöglicht Globale Bilder zu erstellen und zu verwalten. 
 		</td>
 	</tr>
 </table>

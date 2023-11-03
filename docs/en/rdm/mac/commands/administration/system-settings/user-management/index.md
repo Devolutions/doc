@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: User Management
+  title: User management
 ---

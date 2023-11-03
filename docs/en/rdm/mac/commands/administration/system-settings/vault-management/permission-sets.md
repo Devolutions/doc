@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Permission Sets
+  title: Permission sets
   description: Permissions can be grouped in Permission Sets. It is possible to create custom sets manually or use the default sets. They are managed via the {{ en.RDM }} in Administration – System Settings – {{ en.VLT }} Management – Permission Sets.
 ---
 Permissions can be grouped in ***Permission Sets***. It is possible to create custom sets manually or use the default sets. They are managed via {{ en.RDM }} in ***Administration – System Settings – {{ en.VLT }} Management – Permission Sets***.

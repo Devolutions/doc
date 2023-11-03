@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: InvalidOperationException - No space available to display the lines
+  title: InvalidOperationException - no space available to display the lines
 ---
 {{ en.RDM }} crashes with the following error message when attempting to edit a Datasource: ***InvalidOperationException - No space available to display the lines***.
 ## Solution

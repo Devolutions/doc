@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: System {{ en.VLT }}
+  title: System vault
 ---

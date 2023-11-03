@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Privileged Access Management
+  title: Privileged access management
   order: 30
   description: This Privileged Access Management module for {{ en.DHUBB }} takes care of Azure AD privileged accounts. It is specifically designed to meet the needs of SMBs, providing enterprise-grade features to bring a level of protection usually only afforded to large organizations while at the same time being robust, easy to deploy, and affordable.
 ---

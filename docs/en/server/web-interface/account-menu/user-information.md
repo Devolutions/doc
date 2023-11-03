@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: User Information
+  title: User information
 ---
 Display the ***User Information*** rights and permission configuration.  
 

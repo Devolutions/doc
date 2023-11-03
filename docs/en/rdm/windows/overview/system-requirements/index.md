@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: System Requirements
+  title: System requirements
 ---
 {{ en.RDM }} requires the following prior to installation: 
 

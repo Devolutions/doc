@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: User Management
+  title: User management
 ---
 {% youtube 'VXlN3PrDwiU' %}  
 

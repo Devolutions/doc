@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Offline Mode
+  title: Offline mode
 ---
 In the ***Users*** section, you can enable the offline mode for specific users. This will allow a read-only cache of the entries of the {{ en.DHUBB }}.  
 

@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
-  title: Register a {{ en.DVLS }} Free license
+  title: Register a {{ en.DVLS }} free license
   order: 20
-  description: Register your {{ en.DVLS }} Free license using the {{ en.DVLSCONSOLE }} or via the {{ en.DVLS }} web interface. 
+  description: Register your {{ en.DVLS }} free license using the {{ en.DVLSCONSOLE }} or via the {{ en.DVLS }} web interface. 
 ---
-There are two methods to register your {{ en.DVLS }} Free license: using the [{{ en.DVLSCONSOLE }}](#devolutions-server-console) or via the [{{ en.DVLS }} web interface](#devolutions-server-web-interface).  
+There are two methods to register your {{ en.DVLS }} free license: using the [{{ en.DVLSCONSOLE }}](#devolutions-server-console) or via the [{{ en.DVLS }} web interface](#devolutions-server-web-interface).  
 
-Locate your {{ en.DVLS }} Free license in the ***Serials*** section of the [{{ en.DPORTAL }}](https://portal.devolutions.com/serials).  
+Locate your {{ en.DVLS }} free license in the ***Serials*** section of the [{{ en.DPORTAL }}](https://portal.devolutions.com/serials).  
 
-![{{ en.DVLS }} Free license](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4019.png)  
+![{{ en.DVLS }} free license](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4019.png)  
 
 ## {{ en.DVLSCONSOLE }} 
 In the {{ en.DVLSCONSOLE }}, register the {{ en.DVLS }} license in ***Server – Edit – General – License***. 

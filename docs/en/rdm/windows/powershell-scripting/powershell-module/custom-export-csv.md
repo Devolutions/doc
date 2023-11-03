@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Custom Export to CSV
+  title: Custom export to CSV
 ---
 Many customers ask for a special export that would contain specific fields. 
 

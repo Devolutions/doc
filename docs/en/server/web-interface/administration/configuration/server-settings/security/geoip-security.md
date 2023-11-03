@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: GeoIP Security
+  title: GeoIP security
 ---
 The GeoIP Security section section allows the administrator to set IPs restriction based on the geographical location. 
 

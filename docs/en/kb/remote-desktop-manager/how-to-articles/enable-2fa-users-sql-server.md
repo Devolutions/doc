@@ -11,7 +11,7 @@ These features are only available when using an [advanced data sources](/rdm/win
 {% endsnippet %}  
 
 {% snippet icon.badgeCaution %}
-You cannot configure MFA for users. Once activated, each user will need to configure it manually in ***File – Data Sources***. For more information about the configuration, consult [Multi-factor authentication](/rdm/windows/data-sources/multi-factor-authentication/).
+You cannot configure MFA for users. Once activated, each user will need to configure it manually in ***File – My Account Settings***. For more information about the configuration, consult [Multi-factor authentication](/rdm/windows/data-sources/multi-factor-authentication/).
 {% endsnippet %}
 
 ## Force application multi-factor authentication mode

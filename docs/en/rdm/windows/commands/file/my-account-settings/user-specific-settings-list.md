@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: User Specific Settings List
+  title: User specific settings list
 ---
 The ***User Specific Settings List*** feature will provide all entries that are overridden with user ***Specific Settings***.  
 ![User Specific Settings List dialog](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin8001.png) 

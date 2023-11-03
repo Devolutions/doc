@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: System Message
+  title: System message
 ---
 Enter a system message for other users of the same data source to see when opening {{ en.RDM }}. 
 

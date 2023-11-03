@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Create Scheduled Reports
+  title: Create scheduled reports
 ---
 Create ***Scheduled Reports*** to run automatically and manage when and who will receive the data from your {{ en.DVLS }}. 
 {% snippet icon.badgeCaution %} 

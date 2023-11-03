@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: System Settings
+  title: System settings
 ---
 Data Source Settings are available from ***Administration - Data Source Settings***.  
 

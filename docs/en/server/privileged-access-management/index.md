@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Privileged Access Management
+  title: Privileged access management
   order: 50
 ---
 {% snippet icon.badgeNotice %} 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Delete and restore {{ en.VLT }}s
+  title: Delete and restore vaults
 ---
 ***{{ en.VLT }}s*** can be deleted and restored by administrators in {{ en.DHUBB }}.  
 

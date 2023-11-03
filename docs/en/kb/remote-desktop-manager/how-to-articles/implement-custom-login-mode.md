@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Implement the Custom Login Mode
+  title: Implement the custom login mode
 ---
 The ***Custom Login Mode*** allows for a separation between the SQL Server authentication/authorization and the {{ en.RDM }} authentication/authorization preventing users from using their {{ en.RDM }} custom credentials from accessing the database directly.
 

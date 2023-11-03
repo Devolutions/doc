@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Prerequisite Software
+  title: Prerequisite software
 ---
 Specific prerequisite software need to be installed on your computer prior to running {{ en.RDM }}.  
 

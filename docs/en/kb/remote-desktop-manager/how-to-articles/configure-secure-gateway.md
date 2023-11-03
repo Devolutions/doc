@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configure a Secure Gateway
+  title: Configure a secure gateway
 ---
 The new jump integration will give you the possibility to jump through a DMZ zone directly to your server. The requirement is an SSH server connected to your network and the DMZ.
 

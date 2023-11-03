@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Disable login/MFA prompt with {{ en.DHUBB }}
+  title: Disable login & MFA prompt with {{ en.DHUBB }}
   description: It is possible to disable getting prompted for login/MFA information every time {{ en.DHUBB }} is open.
   keywords:
   - MFA

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Keep in memory My Personal Credentials
+  title: Keep in memory My personal credentials
 ---
 You can cache a set of credentials in {{ en.RDM }} without saving them in the data source, allowing you to only provide them once at the launch of {{ en.RDM }} until you close the application.  
 

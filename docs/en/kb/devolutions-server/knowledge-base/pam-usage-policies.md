@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: PAM Usage Policies
+  title: PAM usage policies
   description: PAM Usage Policies are useful to set which entry types and applications your users can use with PAM accounts.
 ---
 PAM Usage Policies are useful to set which entry types and applications your users can use with PAM accounts, it is a nice additional layer of security to have. Making changes in these settings will affect the entire {{ en.DVLS }}.

@@ -21,7 +21,7 @@ We strongly recommend following the instructions in [Upgrading {{ en.DVLS }}](/s
 {% endsnippet %}
 
 {% snippet icon.badgeNotice %}
-We offer free remote session to assist you during the upgrade process of your {{ en.DVLS }} instance. If you would like to book a session, please send an email to [service@devolutions.net](mailto:service@devolutions.net) and we will send you a link to our online reservation system.
+We offer free remote session to assist you during the upgrade process of your {{ en.DVLS }} instance. For more help, please send an email to [service@devolutions.net](mailto:service@devolutions.net) to book a session with our support team. Premium Support owners can schedule off-hours session to limit the impact of the upgrade.
 {% endsnippet %}
 
 ## The specified 'client_id' is invalid

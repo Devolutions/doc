@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: VPN with Offline mode
+  title: VPN with offline mode
 ---
 It is possible, when using a data source that supports offline mode, to configure {{ en.RDM }} to activate the offline mode automatically upon launching a VPN connection from {{ en.RDM }} and to bring it back online at the VPN disconnection.
 

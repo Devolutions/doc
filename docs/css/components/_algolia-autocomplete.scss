@@ -133,6 +133,9 @@
 .aa-Item[aria-selected=true] {
   color: var(--primary-text);
   background-color: var(--primary);
+  .aa-ItemContentLink {
+    color: #fff;
+  }
 
   .aa-ItemContent mark {
     color: var(--primary-text);
@@ -177,6 +180,11 @@
 
 .aa-ItemContentTitle {
   font-weight: bold;
+}
+
+.aa-ItemContentLink {
+  color: gray;
+  font-size: 12px; 
 }
 
 .aa-ItemContentContent {

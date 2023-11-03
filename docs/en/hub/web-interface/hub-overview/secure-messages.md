@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Secure Messages
+  title: Secure messages
 ---
 Send and receive ***Secure Messages*** with users from your hub. Click the ***Messages*** icon above your avatar to create and read secure messages.  
 ![!!Hub4128](https://webdevolutions.azureedge.net/docs/en/hub/Hub4128.png) 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Reset Server Cache
+  title: Reset server cache
   keywords:
   - Roles
 ---

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Entry History
+  title: Entry history
 ---
 View, revert, compare, delete, and export the ***Entry History*** of {{ en.DVLS }} entries. 
 ### Reverting 

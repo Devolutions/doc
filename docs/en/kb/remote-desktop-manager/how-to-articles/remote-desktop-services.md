@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Services
+  title: Remote Desktop services
   keywords:
   - Citrix
   - RDS

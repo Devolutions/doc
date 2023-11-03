@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Play List actions
+  title: Play list actions
 ---
 {% youtube 'VTGPUMl5zKY' %}  
 

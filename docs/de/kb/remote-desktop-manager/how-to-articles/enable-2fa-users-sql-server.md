@@ -1,58 +1,58 @@
 ---
 eleventyComputed:
-  title: MFA für Nutzer aktivieren
-  description: Obwohl es immer noch nicht möglich ist, ohne {{ de.DVLS }} die Konfiguration einer 2FA auf Nutzerebene zu erzwingen, wurden im {{ de.RDM }} einige Optionen hinzugefügt, die Ihren Bedürfnissen entsprechen könnten.
+  title: MFA für Benutzer aktivieren
+  description: Obwohl es nicht möglich ist, ohne {{ de.DVLS }} die Konfiguration einer MFA auf Benutzerebene zu erzwingen, wurden in {{ de.RDM }} einige Optionen hinzugefügt, die Ihren Anforderungen entsprechen könnten.
 ---
-Obwohl es immer noch nicht möglich ist, ohne {{ de.DVLS }} die Konfiguration einer 2FA auf Nutzerebene zu erzwingen, wurden im {{ de.RDM }} einige Optionen hinzugefügt, die Ihren Bedürfnissen entsprechen könnten.  
+Obwohl es nicht möglich ist, ohne {{ de.DVLS }} die Konfiguration einer MFA auf Benutzerebene zu erzwingen, wurden in {{ de.RDM }} einige Optionen hinzugefügt, die Ihren Anforderungen entsprechen könnten. 
 
 {% snippet icon.badgeCaution %}
-Diese Funktionen sind nur bei Verwendung einer [Erweiterten Datenquelle](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) verfügbar.
+Diese Funktionen stehen nur bei Verwendung einer [Erweiterten Datenquelle](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) zur Verfügung.
 {% endsnippet %}  
 
 {% snippet icon.badgeCaution %}
-Sie können 2FA nicht für Nutzer konfigurieren. Nach der Aktivierung muss jeder Nutzer sie manuell unter ***Datei – Datenquellen*** konfigurieren. Weitere Informationen zur Konfiguration, finden Sie unter [Multifaktor-Authentifizierung](/rdm/windows/data-sources/multi-factor-authentication/).
+Es ist nicht möglich die MFA für Benutzer zu provisionieren. Nach der Aktivierung muss jeder Benutzer sie manuell unter ***Datei – Meine Konto Einstellungen*** konfigurieren. Weitere Informationen zur Konfiguration, finden Sie unter [Multifaktor-Authentifizierung](/rdm/windows/data-sources/multi-factor-authentication/).
 {% endsnippet %}  
 
-## Zwei-Faktor-Authentifizierung für Anwendung erzwingen
+## Multi-Faktor-Authentifizierung für Anwendung erzwingen
 
-In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwendungen – Sicherheit – Zwei-Faktor-Authentifizierung für Anwendung erzwingen***, wählen Sie entweder:
+In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwendungen – Sicherheit – Multi-Faktor-Authentifizierung für Anwendung erzwingen***, wählen Sie entweder:
 
-* ***Nicht erzwingen***: Erzwingt keinen Mehrfaktor-Authentifizierungsmodus der Anwendung.
+* ***Nicht erzwingen***: Erzwingt keinen Multi-Authentifizierungsmodus der Anwendung.
 * ***Alle konfigurierten Methoden prüfen***: Fragt nur nach den konfigurierten MFA-Methoden.
 * ***Ber Verwendung abfragen***: Fragt nach, welche MFA bei der Verwendung konfiguriert werden soll.
 
-![Zwei-Faktor-Authentifizierung für Anwendung erzwingen](https://webdevolutions.azureedge.net/docs/de/kb/KB2271.png)
+![Multi-Faktor-Authentifizierung für Anwendung erzwingen](https://webdevolutions.azureedge.net/docs/de/kb/KB2271.png)
 
 ## Anwendungssicherheit mit TOTP (Authenticator) erzwingen
 
-In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwendungen – Sicherheit***, markieren ***Anwendungssicherheit mit TOTP (Authenticator) erzwingen***, um sie zu aktivieren.
+In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwendungen – Sicherheit*** ***Anwendungssicherheit mit TOTP (Authenticator) erzwingen*** auswählen, um sie zu aktivieren.
 
 ![Anwendungssicherheit mit TOTP (Authenticator) erzwingen](https://webdevolutions.azureedge.net/docs/de/kb/KB2270.png)
 
 ## Anwendungssicherheit mit Duo (Authenticator) erzwingen
 
-In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwendungen – Sicherheit***, markieren ***Anwendungssicherheit mit Duo (Authenticator) erzwingen***, um sie zu aktivieren.
+In ***Administration – System Einstellungen – Anwendungsspezifisch – Anwendungen – Sicherheit*** ***Anwendungssicherheit mit Duo (Authenticator) erzwingen*** auswählen, um sie zu aktivieren.
 
 ![Anwendungssicherheit mit Duo (Authenticator) erzwingen](https://webdevolutions.azureedge.net/docs/de/kb/KB2267.png)
 
-## Zwei-Faktor Authentifizierung für Datenquelle erzwingen
+## Multi-Faktor Authentifizierung für Datenquelle erzwingen
 
-In ***Administration – System Einstellungen – Tresor Verwaltung – Sicherheit – Sicherheit***, markieren ***Zwei-Faktor Authentifizierung für Datenquelle erzwingen***, um sie zu aktivieren.
+In ***Administration – System Einstellungen – Tresor Verwaltung – Sicherheit – Sicherheit*** ***Multi-Faktor Authentifizierung für Datenquelle erzwingen*** auswählen, um sie zu aktivieren.
 
-![Zwei-Faktor Authentifizierung für Datenquelle erzwingen](https://webdevolutions.azureedge.net/docs/de/kb/KB2273.png)
+![Multi-Faktor Authentifizierung für Datenquelle erzwingen](https://webdevolutions.azureedge.net/docs/de/kb/KB2273.png)
 
-## 2FA vor Offline gehen abfragen
+## MFA vor Offline gehen abfragen
 
-In ***Administration – System Einstellungen – Anwendungsspezifisch – Cache/Offline – Offline***, markieren ***2FA vor Offline gehen abfragen***, um sie zu aktivieren.
+In ***Administration – System Einstellungen – Anwendungsspezifisch – Cache/Offline – Offline*** ***MFA vor Offline gehen abfragen*** auswählen, um sie zu aktivieren.
 
-![2FA vor Offline gehen abfragen](https://webdevolutions.azureedge.net/docs/de/kb/KB2269.png)
+![MFA vor Offline gehen abfragen](https://webdevolutions.azureedge.net/docs/de/kb/KB2269.png)
 
 ## Mit Gruppenrichtlinien (GPOs) erzwingen
 
-Wir haben auch GPOs, die Ihnen helfen können, Ihr Ziel zu erreichen. Ein Beispiel ist das GPO ***Erzwingung der Multi-Faktor-Authentifizierung beim Anmelden bei der Anwendung***.  
+Weiters stehen GPOs zur Verfügung, mithilfe dessen Sie Optionen per Active Directory verteilen können. Als Beispiel die Gruppenrichtlinie für ***Multi-Faktor-Authentifizierung für Anwendung erzwingen***.  
 
 **%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\ForceApplicationMFA**  
 
 {% snippet icon.badgeHelp %}
-Weitere Informationen zur Konfiguration finden Sie unter [Richtlinien anwenden](/kb/remote-desktop-manager/how-to-articles/group-policies/).
+Weitere Informationen zur Konfiguration finden Sie unter [Richtlinien](/kb/remote-desktop-manager/how-to-articles/group-policies/).
 {% endsnippet %} 

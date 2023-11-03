@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Add Entries
+  title: Add entries
 ---
 The Add options lets you quickly create new entries, duplicate them, create shortcut or rapidly save your entry as a template. 
 

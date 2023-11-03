@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Privileged Access Management
+  title: Privileged access management
 ---
-This section is dedicated to enable and configure the Privileged Access Management.  
+This section is dedicated to enable and configure the Privileged access management.  
 
 ![Administration – {{ en.DVLS }} Settings – Privileged Access Management](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8047.png) 
 
@@ -22,7 +22,7 @@ Description
 Enable PAM (Preview) 
 		</td>
 		<td>
-Enable the Privileged Access Management functionality. 
+Enable the Privileged access management functionality. 
 		</td>
 	</tr>
 </table>

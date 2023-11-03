@@ -1,4 +1,5 @@
 ---
 eleventyComputed:
-  title: Configuration and Security
+  title: Configuration and security
 ---
+

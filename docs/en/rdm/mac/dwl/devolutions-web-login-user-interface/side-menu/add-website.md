@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Add Website
+  title: Add website
 ---
 The ***Add Website*** button is only available while in the [***Matching***](/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDMMAC }} through {{ en.DWL }}.  
 

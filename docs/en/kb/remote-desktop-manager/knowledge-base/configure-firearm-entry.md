@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configure a Firearm entry in {{ en.RDM }}
+  title: Configure a firearm entry in {{ en.RDM }}
   description: Learn how to configure a Firearm entry in {{ en.RDM }}.
   keywords:
   - Firearm entry

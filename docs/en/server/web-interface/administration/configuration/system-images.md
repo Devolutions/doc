@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: System Images
+  title: System images
   description: Devolutions Server's global image management uses a dynamic form to easily create virtual folders and subfolders for image storage. 
 ---
 

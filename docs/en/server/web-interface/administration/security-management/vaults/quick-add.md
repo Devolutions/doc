@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Quick Add
+  title: Quick add
 ---
 Allow to customize the list of quick add buttons with preferred session types.  
 

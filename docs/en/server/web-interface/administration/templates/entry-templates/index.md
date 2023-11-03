@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Entry Templates
+  title: Entry templates
   order: 20
 ---
 The ***Entry Templates*** allow administrators to manage entry templates of the {{ en.DVLS }} for the users. With this feature you can set preferences on how entries information will be filled when creating them.  

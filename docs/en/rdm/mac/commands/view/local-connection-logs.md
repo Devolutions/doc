@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Local Connection Logs
+  title: Local connection logs
 ---
 When using {{ en.RDMMAC }} with a data source without a database or if you do not possess the correct permissions, the ***Activity Logs***, normally found in the ***View*** tab, are not available. In this situation, the ***Local Connection Logs*** appear in the ***View*** tab instead.  
 ![Local Connection Logs](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0024.png) 

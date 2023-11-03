@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Entry Credentials Options
+  title: Entry credentials options
 ---
 Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.  
 ![Credentials](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4026.png)

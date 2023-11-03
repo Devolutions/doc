@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Set a default {{ en.VLT }}
+  title: Set a default vault
 ---
 You can set a specific {{ en.VLT }} to open by default when launching your {{ en.DHUBB }}.  
 

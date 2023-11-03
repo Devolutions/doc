@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configure an Access code entry in {{ en.RDM }}
+  title: Configure an access code entry in {{ en.RDM }}
   description: Learn how to configure an access code entry in {{ en.RDM }}.
 ---
 The ***Access code*** is a credential entry that gives a simplified interface to users, providing only the ***View Password*** and ***Copy Password*** actions.  

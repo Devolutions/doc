@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Export and Import Favorites
+  title: Export and import favorites
 ---
 Learn how to export and import the entries tag ***Favorites*** when migrating data.
 

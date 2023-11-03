@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.VLT }} Settings'
+  title: '{{ en.VLT }} settings'
   keywords:
   - root
 ---

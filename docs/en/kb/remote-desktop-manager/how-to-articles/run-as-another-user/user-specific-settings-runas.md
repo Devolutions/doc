@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: User Specific Settings RunAs
+  title: User specific settings RunAs
 ---
 You wish to be able to run a command stored in your shared {{ en.VLT }} but with your own set of credentials instead of those set in the entry.
 

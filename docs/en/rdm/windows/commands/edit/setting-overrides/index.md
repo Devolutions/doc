@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Setting Overrides
+  title: Setting overrides
 ---

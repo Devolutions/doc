@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Import/Export data with {{ en.DHUBP }}
+  title: Import & export data with {{ en.DHUBP }}
 ---
 You can import new data to your {{ en.DHUBP }} and export your existing data to the Json format. These features are accessible via the ***Tools*** tab, under the ***Import/Export*** section.
 

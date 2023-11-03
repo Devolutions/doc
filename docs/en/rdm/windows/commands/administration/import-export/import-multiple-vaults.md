@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Import Multiple {{ en.VLT }}s
+  title: Import multiple vaults
 ---
 The ***Import Multiple {{ en.VLT }}s (.rdx)*** function lets you import one or more {{ en.VLT }}s at a time. Learn how in [Export and import vaults](/kb/remote-desktop-manager/how-to-articles/export-import-vaults/). 
 

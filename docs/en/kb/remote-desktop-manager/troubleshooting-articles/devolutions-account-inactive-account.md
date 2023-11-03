@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DA }} - Inactive account'
+  title: '{{ en.DA }} - inactive account'
 ---
 To comply with Devolutions data retention policy, we must delete the {{ en.DA }} after three years without login.  
 

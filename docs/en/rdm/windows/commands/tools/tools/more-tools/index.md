@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: More Tools
+  title: More tools
 ---

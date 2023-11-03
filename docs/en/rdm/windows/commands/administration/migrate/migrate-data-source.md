@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title:  Migrate Data Source
+  title:  Migrate data source
   description: How to migrate a Data Source in Remote Desktop Manager
 ---
 

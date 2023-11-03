@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Disable {{ en.RDM }} Auto Update
+  title: Disable {{ en.RDM }} auto update
 ---
 {% youtube 'I3xlKsy6IbE' %}
 
