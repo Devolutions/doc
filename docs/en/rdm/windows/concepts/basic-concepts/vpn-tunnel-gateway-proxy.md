@@ -4,7 +4,7 @@ eleventyComputed:
   description: Create a secure connection between a local and a remote computer by connecting a VPN, VPN group, tunnel, gateway, or proxy entry to one or multiple session entries.
 ---
 
-***VPN*** (Virtual Private Network) refers to the establishment of a secure, encrypted connection over a potentially less secure network. Information is centralized, easily accessible and organized for efficient use. Automated connections are a key feature of {{ en.RDM }}, ensuring that available connections are launched when needed.
+***VPN*** (Virtual Private Network) refers to the establishment of a secure, encrypted connection over a potentially less secure network. Information in {{ en.RDM }} is centralized, easily accessible and organized for efficient use. Automated connections are a key feature, ensuring that available connections are launched when needed.
 
 ### Related topics  
 * [Configure a VPN for multiple sessions](/kb/remote-desktop-manager/how-to-articles/configure-vpn-multiple-sessions/)
