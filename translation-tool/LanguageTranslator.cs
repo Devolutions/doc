@@ -37,18 +37,18 @@ internal sealed class LanguageTranslator
 
     public async Task ExecuteAsync()
     {
-        int fileCountToTranslate = Math.Min(this.targetLanguage.Files.Length, this.translatedFileCounter.Remaining);
+        int filesToTranslateCount = Math.Min(this.targetLanguage.Files.Length, this.translatedFileCounter.Remaining);
         await Console.Out.WriteLineAsync($"{this.targetLanguage.SourceLanguage.Code} to {this.targetLanguage.Code}").ConfigureAwait(false);
         await Console.Out.WriteLineAsync($"Source directory: {this.targetLanguage.SourceLanguage.DirectoryPath}").ConfigureAwait(false);
         await Console.Out.WriteLineAsync($"Target directory: {this.targetLanguage.DirectoryPath}").ConfigureAwait(false);
-        await Console.Out.WriteLineAsync($"Files to translate: {fileCountToTranslate}").ConfigureAwait(false);
+        await Console.Out.WriteLineAsync($"Files to translate: {filesToTranslateCount}").ConfigureAwait(false);
         await Console.Out.WriteAsync("Progress (%): ").ConfigureAwait(false);
         await Console.Out.FlushAsync().ConfigureAwait(false);
         DateTime startTime = DateTime.UtcNow;
 
         Dictionary<string, string>? completedTranslations = null;
         TargetFile? targetFileWithException = null;
-        ConsoleProgressBar consoleProgressBar = new() { TotalCount = fileCountToTranslate };
+        ConsoleProgressBar consoleProgressBar = new() { TotalCount = filesToTranslateCount };
         try
         {
             await this.UploadGlossaryIfMissingAndSetGlossaryIDAsync().ConfigureAwait(false);
