@@ -14,7 +14,7 @@ internal sealed class TextSubstitution : ISubstitution
         this.substitutions = substitutions ?? throw new ArgumentNullException(nameof(substitutions));
     }
 
-    public string GetReplacement() => DeeplIgnoreTag.GetSubstitutionRegex().Replace(this.text, this.ApplySubstitutions);
+    public string GetReplacement() => DeeplIgnoreTag.CapturingSubstitutionRegex().Replace(this.text, this.ApplySubstitutions);
 
     private string ApplySubstitutions(Match match) =>
         int.TryParse(match.Groups[1].Value, NumberStyles.None, CultureInfo.InvariantCulture, out int index) &&

@@ -44,19 +44,19 @@ internal sealed partial class FileTranslator
         this.completedTranslations = completedTranslations ?? throw new ArgumentNullException(nameof(completedTranslations));
     }
 
-    public async Task Execute()
+    public async Task ExecuteAsync()
     {
-        await this.ReadSourceFile().ConfigureAwait(false);
+        await this.ReadSourceFileAsync().ConfigureAwait(false);
         this.FindSourceFileEOL();
         this.ExtractHeaderFromSourceFile();
         this.ApplyHighLevelSubstitutions();
-        await this.ParseSourceFile().ConfigureAwait(false);
-        await this.Translate().ConfigureAwait(false);
+        await this.ParseSourceFileAsync().ConfigureAwait(false);
+        await this.TranslateAsync().ConfigureAwait(false);
         this.AssembleTargetFile();
-        await this.WriteTargetFile().ConfigureAwait(false);
+        await this.WriteTargetFileAsync().ConfigureAwait(false);
     }
 
-    private async Task ReadSourceFile() =>
+    private async Task ReadSourceFileAsync() =>
         this.sourceFileContent = await File.ReadAllTextAsync(this.targetFile.SourceFile.FilePath).ConfigureAwait(false);
 
     private void FindSourceFileEOL()
@@ -71,7 +71,7 @@ internal sealed partial class FileTranslator
         this.sourceFileEOL = sourceFile.EOL;
     }
 
-    [GeneratedRegex(@"\r?\n|\r", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex(RegexPatterns.NonGroupedEOL, RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex FindEOLRegex();
 
     private void ExtractHeaderFromSourceFile()
@@ -81,7 +81,7 @@ internal sealed partial class FileTranslator
         string latestCommitHeaderLine = $"latestCommit: {this.targetFile.SourceFile.LatestCommit}{this.sourceFileEOL}";
         string glossaryLatestCommitHeaderLine = this.targetFile.Language.GlossaryLatestCommit != null ?
             $"glossaryLatestCommit: {this.targetFile.Language.GlossaryLatestCommit}{this.sourceFileEOL}" : string.Empty;
-        Match headerMatch = GetHeaderRegex().Match(this.sourceFileContent);
+        Match headerMatch = HeaderRegex().Match(this.sourceFileContent);
         if (headerMatch.Success)
         {
             this.sourceFileContentWithoutHeader = this.sourceFileContent[headerMatch.Length..];
@@ -91,7 +91,6 @@ internal sealed partial class FileTranslator
 
             string targetFileHeaderPart1 = TitleLineRegex().Replace(sourceFileHeaderPart1, this.ReplaceTitleLineRegex, 1);
             targetFileHeaderPart1 = DescriptionLineRegex().Replace(targetFileHeaderPart1, this.ReplaceDescriptionLineRegex, 1);
-            targetFileHeaderPart1 = KeywordLinesRegex().Replace(targetFileHeaderPart1, this.ReplaceKeywordLinesRegex, 1);
             targetFileHeaderPart1 = LatestCommitLineRegex().Replace(targetFileHeaderPart1, this.sourceFileEOL, 1);
             targetFileHeaderPart1 = GlossaryLatestCommitRegex().Replace(targetFileHeaderPart1, this.sourceFileEOL, 1);
             this.targetFileHeader = $"{targetFileHeaderPart1}{latestCommitHeaderLine}{glossaryLatestCommitHeaderLine}{sourceFileHeaderPart2}";
@@ -103,10 +102,10 @@ internal sealed partial class FileTranslator
         }
     }
 
-    [GeneratedRegex(@"^(---(?:\r?\n|\r).*?(?:\r?\n|\r))(---(?:(?:\r?\n|\r)+|$))", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
-    private static partial Regex GetHeaderRegex();
+    [GeneratedRegex($@"\A(---{RegexPatterns.EOL}.*?{RegexPatterns.EOL})(---(?:{RegexPatterns.EOL}+|\z))", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    private static partial Regex HeaderRegex();
 
-    [GeneratedRegex(@"(?:\r?\n|\r)( *title:)([^\r\n]*)(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex($@"{RegexPatterns.EOL}( *title:)({RegexPatterns.NotEOL}*){RegexPatterns.EOL}", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex TitleLineRegex();
 
     private string ReplaceTitleLineRegex(Match match)
@@ -122,7 +121,7 @@ internal sealed partial class FileTranslator
         return $"{this.sourceFileEOL}{label} {title}{this.sourceFileEOL}";
     }
 
-    [GeneratedRegex(@"(?:\r?\n|\r)( *description:)([^\r\n]*)(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex($@"{RegexPatterns.EOL}( *description:)({RegexPatterns.NotEOL}*){RegexPatterns.EOL}", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex DescriptionLineRegex();
 
     private string ReplaceDescriptionLineRegex(Match match)
@@ -138,43 +137,10 @@ internal sealed partial class FileTranslator
         return $"{this.sourceFileEOL}{label} {description}{this.sourceFileEOL}";
     }
 
-    [GeneratedRegex(@"(?:\r?\n|\r)( *keywords:)[^\r\n]*(?:\r?\n|\r)(?:( *-)([^\r\n]*)(?:\r?\n|\r))*", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
-    private static partial Regex KeywordLinesRegex();
-
-    private string ReplaceKeywordLinesRegex(Match match)
-    {
-        CaptureCollection keywordCaptures = match.Groups[3].Captures;
-        if (keywordCaptures.Count == 0)
-        {
-            return this.sourceFileEOL;
-        }
-
-        bool atLeastOneKeyword = false;
-        StringBuilder keywordLinesBuilder = new(512);
-        string label = match.Groups[1].Value;
-        CaptureCollection bulletCaptures = match.Groups[2].Captures;
-        keywordLinesBuilder.Append($"{this.sourceFileEOL}{label}{this.sourceFileEOL}");
-        for (int index = 0; index < keywordCaptures.Count; index++)
-        {
-            string keyword = keywordCaptures[index].Value.Trim();
-            if (string.IsNullOrEmpty(keyword))
-            {
-                continue;
-            }
-
-            string bullet = bulletCaptures[index].Value;
-            keyword = this.ProcessSourceFileText(keyword);
-            keywordLinesBuilder.Append($"{bullet} {keyword}{this.sourceFileEOL}");
-            atLeastOneKeyword = true;
-        }
-
-        return atLeastOneKeyword ? keywordLinesBuilder.ToString() : this.sourceFileEOL;
-    }
-
-    [GeneratedRegex(@"(?:\r?\n|\r)latestCommit:[^\r\n]*(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex($@"{RegexPatterns.EOL}latestCommit:{RegexPatterns.NotEOL}*{RegexPatterns.EOL}", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex LatestCommitLineRegex();
 
-    [GeneratedRegex(@"(?:\r?\n|\r)glossaryLatestCommit:[^\r\n]*(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex($@"{RegexPatterns.EOL}glossaryLatestCommit:{RegexPatterns.NotEOL}*{RegexPatterns.EOL}", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex GlossaryLatestCommitRegex();
 
     private void ApplyHighLevelSubstitutions()
@@ -184,13 +150,13 @@ internal sealed partial class FileTranslator
         this.sourceFileContentWithoutHeader = CodeBlockRegex().Replace(this.sourceFileContentWithoutHeader, this.ReplaceCodeBlock);
     }
 
-    [GeneratedRegex(@"(?:^|\r?\n|\r)(`{3,})(?:\r?\n|\r).*?(?:\r?\n|\r)\1(?:\r?\n|\r|$)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex($@"{RegexPatterns.BeginOrEOL}(`{{3,}}){RegexPatterns.EOL}.*?{RegexPatterns.EOL}\1{RegexPatterns.EOLOrEnd}", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex CodeBlockRegex();
 
     private string ReplaceCodeBlock(Match match) =>
         this.AddTextSubstitution(this.ProcessSourceFileTextVariablesOnly(match.Value));
 
-    private async Task ParseSourceFile()
+    private async Task ParseSourceFileAsync()
     {
         StringWriter writer = new(new StringBuilder(this.sourceFileContentWithoutHeader.Length), CultureInfo.InvariantCulture);
         await using (writer.ConfigureAwait(false))
@@ -233,7 +199,7 @@ internal sealed partial class FileTranslator
         return text;
     }
 
-    [GeneratedRegex(@"(?<!`)(`+)(?:[^`\r\n][^\r\n]*?[^`\r\n]|[^`\r\n])\1(?!`)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex($@"(?<!`)(`+)(?:[^`\r\n]{RegexPatterns.NotEOL}*?[^`\r\n]|[^`\r\n])\1(?!`)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex InlineCodeRegex();
 
     private string ReplaceInlineCode(Match match) =>
@@ -287,43 +253,42 @@ internal sealed partial class FileTranslator
 
     private string QueueTranslation(string text)
     {
-        Match trimSubstitutionsMatch = TrimSubstitutionsRegex().Match(text);
-
         // Ignore tags at the start, along with space characters, do not have to be translated
         string beginPart = string.Empty;
-        string trimmedAtStart = trimSubstitutionsMatch.Groups[1].Value;
+        string trimmedAtStart = TrimStartSubstitutionsRegex().Match(text).Value;
         if (!string.IsNullOrEmpty(trimmedAtStart))
         {
+            text = text[trimmedAtStart.Length..];
             beginPart = this.AddTextSubstitution(trimmedAtStart);
         }
 
         // Ignore tags at the end, along with space characters, do not have to be translated
         string endPart = string.Empty;
-        string trimmedAtEnd = trimSubstitutionsMatch.Groups[3].Value;
+        string trimmedAtEnd = TrimEndSubstitutionsRegex().Match(text).Value;
         if (!string.IsNullOrEmpty(trimmedAtEnd))
         {
+            text = text[..^trimmedAtEnd.Length];
             endPart = this.AddTextSubstitution(trimmedAtEnd);
         }
 
         string middlePart = string.Empty;
-        string textToTranslate = trimSubstitutionsMatch.Groups[2].Value;
-        if (!string.IsNullOrEmpty(textToTranslate))
+        if (!string.IsNullOrEmpty(text))
         {
-            if (!DeeplIgnoreTag.GetSubstitutionRegex().Replace(textToTranslate, string.Empty).Any(char.IsLetter))
+            if (!DeeplIgnoreTag.NonCapturingSubstitutionRegex().Replace(text, string.Empty).Any(char.IsLetter))
             {
                 // No letter when the ignore tags are removed, so not something we have to translate
-                middlePart = this.AddTextSubstitution(textToTranslate);
+                middlePart = this.AddTextSubstitution(text);
             }
             else
             {
                 // When multiple substitutions are following each other, we must replace them by a single one,
                 // otherwise the translation may add spaces we do not want
-                textToTranslate = ConsecutiveSubstitutionsRegex().Replace(textToTranslate, this.CombineConsecutiveSubstitutions);
+                text = ConsecutiveSubstitutionsRegex().Replace(text, this.CombineConsecutiveSubstitutions);
 
                 // If the text to translate has substitutions, normalizing it (by changing indexes in ignore tags to 0, 1, 2, 3, etc.)
                 // will drastically improves the likelihood of reusing that translation elsewhere
                 List<int> substitutionIndexes = new();
-                string normalizedTextToTranslate = DeeplIgnoreTag.GetSubstitutionRegex().Replace(textToTranslate, match =>
+                string normalizedTextToTranslate = DeeplIgnoreTag.CapturingSubstitutionRegex().Replace(text, match =>
                 {
                     if (int.TryParse(match.Groups[1].Value, NumberStyles.None, CultureInfo.InvariantCulture, out int index))
                     {
@@ -339,7 +304,7 @@ internal sealed partial class FileTranslator
                 {
                     // That translation already has been completed for another file or was in the cache
                     // However, we need to set the right ignore tag indexes in the translated text
-                    translatedText = DeeplIgnoreTag.GetSubstitutionRegex().Replace(translatedText, match =>
+                    translatedText = DeeplIgnoreTag.CapturingSubstitutionRegex().Replace(translatedText, match =>
                         int.TryParse(match.Groups[1].Value, NumberStyles.None, CultureInfo.InvariantCulture, out int index) &&
                         index < substitutionIndexes.Count ? $"{DeeplIgnoreTag.Begin}{substitutionIndexes[index]}{DeeplIgnoreTag.End}" : match.Value);
 
@@ -362,12 +327,13 @@ internal sealed partial class FileTranslator
         return $"{beginPart}{middlePart}{endPart}";
     }
 
-    public const string GetSubstitutionPattern = $@"{DeeplIgnoreTag.Begin}\d+{DeeplIgnoreTag.End}";
+    [GeneratedRegex($@"\A{RegexPatterns.Whitespace}*(?:{DeeplIgnoreTag.NonCapturingSubstitutionPattern}{RegexPatterns.Whitespace}*)*", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    private static partial Regex TrimStartSubstitutionsRegex();
 
-    [GeneratedRegex($@"^((?:\s+|{GetSubstitutionPattern})*)(.*?)((?:\s+|{GetSubstitutionPattern})*)$", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
-    private static partial Regex TrimSubstitutionsRegex();
+    [GeneratedRegex($@"(?:{RegexPatterns.Whitespace}*{DeeplIgnoreTag.NonCapturingSubstitutionPattern})*{RegexPatterns.Whitespace}*\z", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    private static partial Regex TrimEndSubstitutionsRegex();
 
-    [GeneratedRegex($@"{DeeplIgnoreTag.Begin}\d+{DeeplIgnoreTag.End}(?:\s*{DeeplIgnoreTag.Begin}\d+{DeeplIgnoreTag.End})+", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex($@"{DeeplIgnoreTag.NonCapturingSubstitutionPattern}(?:{RegexPatterns.Whitespace}*{DeeplIgnoreTag.NonCapturingSubstitutionPattern})+", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex ConsecutiveSubstitutionsRegex();
 
     private string CombineConsecutiveSubstitutions(Match match) => this.AddTextSubstitution(match.Value);
@@ -388,7 +354,7 @@ internal sealed partial class FileTranslator
         return substitutionTag;
     }
 
-    private async Task Translate()
+    private async Task TranslateAsync()
     {
         if (this.translations.Count == 0)
         {
@@ -424,7 +390,7 @@ internal sealed partial class FileTranslator
         this.targetFileContent = substitution.GetReplacement();
     }
 
-    private async Task WriteTargetFile()
+    private async Task WriteTargetFileAsync()
     {
         Directory.CreateDirectory(Path.GetDirectoryName(this.targetFile.FilePath)!);
         await File.WriteAllTextAsync(this.targetFile.FilePath, this.targetFileContent, this.targetEncoding).ConfigureAwait(false);

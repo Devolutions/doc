@@ -24,7 +24,7 @@ internal sealed class TranslationSubstitution : ISubstitution
             throw new InvalidOperationException("Translations must be done before calling for replacements");
         }
 
-        return DeeplIgnoreTag.GetSubstitutionRegex().Replace(result, this.ApplySubstitutions);
+        return DeeplIgnoreTag.CapturingSubstitutionRegex().Replace(result, this.ApplySubstitutions);
     }
 
     private string ApplySubstitutions(Match match) =>

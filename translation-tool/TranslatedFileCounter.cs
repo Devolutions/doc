@@ -2,20 +2,25 @@
 
 internal sealed class TranslatedFileCounter
 {
-    private readonly int maximum;
-    private int current;
-
     public TranslatedFileCounter(int maximum)
     {
-        this.maximum = maximum;
-        this.MaximumReached = this.current >= this.maximum;
+        this.Maximum = maximum;
+        this.MaximumReached = this.Current >= this.Maximum;
+        this.Remaining = maximum;
     }
+
+    public int Maximum { get; }
+
+    public int Current { get; private set; }
 
     public bool MaximumReached { get; private set; }
 
+    public int Remaining { get; private set; }
+
     public void Increment()
     {
-        this.current++;
-        this.MaximumReached = this.current >= this.maximum;
+        this.Current++;
+        this.Remaining--;
+        this.MaximumReached = this.Remaining <= 0;
     }
 }

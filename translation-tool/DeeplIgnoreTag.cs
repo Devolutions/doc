@@ -8,6 +8,12 @@ internal static partial class DeeplIgnoreTag
     public const string Begin = $"<{Name}>";
     public const string End = $"</{Name}>";
 
-    [GeneratedRegex($@"{Begin}(\d+){End}", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
-    public static partial Regex GetSubstitutionRegex();
+    public const string CapturingSubstitutionPattern = $@"{Begin}({RegexPatterns.Digit}+){End}";
+    public const string NonCapturingSubstitutionPattern = $@"{Begin}{RegexPatterns.Digit}+{End}";
+
+    [GeneratedRegex(CapturingSubstitutionPattern, RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    public static partial Regex CapturingSubstitutionRegex();
+
+    [GeneratedRegex(NonCapturingSubstitutionPattern, RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    public static partial Regex NonCapturingSubstitutionRegex();
 }

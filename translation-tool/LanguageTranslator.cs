@@ -35,17 +35,32 @@ internal sealed class LanguageTranslator
         this.translatedFileCounter = translatedFileCounter ?? throw new ArgumentNullException(nameof(translatedFileCounter));
     }
 
-    public async Task Execute()
+    public async Task ExecuteAsync()
     {
-        await this.UploadGlossaryIfMissingAndSetGlossaryID().ConfigureAwait(false);
-        Dictionary<string, string> completedTranslations = await this.LoadCache().ConfigureAwait(false);
+        int fileCountToTranslate = Math.Min(this.targetLanguage.Files.Length, this.translatedFileCounter.Remaining);
+        await Console.Out.WriteLineAsync($"{this.targetLanguage.SourceLanguage.Code} to {this.targetLanguage.Code}").ConfigureAwait(false);
+        await Console.Out.WriteLineAsync($"Source directory: {this.targetLanguage.SourceLanguage.DirectoryPath}").ConfigureAwait(false);
+        await Console.Out.WriteLineAsync($"Target directory: {this.targetLanguage.DirectoryPath}").ConfigureAwait(false);
+        await Console.Out.WriteLineAsync($"Files to translate: {fileCountToTranslate}").ConfigureAwait(false);
+        await Console.Out.WriteAsync("Progress (%): ").ConfigureAwait(false);
+        await Console.Out.FlushAsync().ConfigureAwait(false);
+        DateTime startTime = DateTime.UtcNow;
+
+        Dictionary<string, string>? completedTranslations = null;
+        TargetFile? targetFileWithException = null;
+        ConsoleProgressBar consoleProgressBar = new() { TotalCount = fileCountToTranslate };
         try
         {
+            await this.UploadGlossaryIfMissingAndSetGlossaryIDAsync().ConfigureAwait(false);
+            completedTranslations = await this.LoadCacheAsync().ConfigureAwait(false);
             foreach (TargetFile targetFile in this.targetLanguage.Files)
             {
                 FileTranslator fileTranslator = new(this.targetEncoding, targetFile, this.markdownPipeline,
                     this.deeplTranslator, this.deeplTextTranslateOptions, completedTranslations);
-                await fileTranslator.Execute().ConfigureAwait(false);
+                targetFileWithException = targetFile;
+                await fileTranslator.ExecuteAsync().ConfigureAwait(false);
+                targetFileWithException = null;
+                await consoleProgressBar.IncrementAsync().ConfigureAwait(false);
                 this.translatedFileCounter.Increment();
                 if (this.translatedFileCounter.MaximumReached)
                 {
@@ -55,11 +70,25 @@ internal sealed class LanguageTranslator
         }
         finally
         {
-            await this.SaveCache(completedTranslations).ConfigureAwait(false);
+            await consoleProgressBar.AbortIfNotCompletedAsync().ConfigureAwait(false);
+            await Console.Out.WriteLineAsync($"Translated {consoleProgressBar.CurrentCount} files ({consoleProgressBar.CurrentPercent:0.0}%)").ConfigureAwait(false);
+            await Console.Out.WriteLineAsync($"Duration (hh:mm:ss.fff): {DateTime.UtcNow.Subtract(startTime):hh\\:mm\\:ss\\.fff}").ConfigureAwait(false);
+            if (targetFileWithException != null)
+            {
+                await Console.Out.WriteLineAsync($"Unsuccessful file: {targetFileWithException.SourceFile.FilePath}").ConfigureAwait(false);
+            }
+
+            await Console.Out.WriteLineAsync().ConfigureAwait(false);
+            await Console.Out.FlushAsync().ConfigureAwait(false);
+
+            if (completedTranslations != null)
+            {
+                await this.SaveCacheAsync(completedTranslations).ConfigureAwait(false);
+            }
         }
     }
 
-    private async Task UploadGlossaryIfMissingAndSetGlossaryID()
+    private async Task UploadGlossaryIfMissingAndSetGlossaryIDAsync()
     {
         if (this.targetLanguage.GlossaryLatestCommit == null)
         {
@@ -82,7 +111,7 @@ internal sealed class LanguageTranslator
         }
     }
 
-    private async Task<Dictionary<string, string>> LoadCache()
+    private async Task<Dictionary<string, string>> LoadCacheAsync()
     {
         try
         {
@@ -99,7 +128,7 @@ internal sealed class LanguageTranslator
         }
     }
 
-    private async Task SaveCache(Dictionary<string, string> completedTranslations)
+    private async Task SaveCacheAsync(Dictionary<string, string> completedTranslations)
     {
         try
         {
