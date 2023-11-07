@@ -3,13 +3,13 @@ eleventyComputed:
   title: Security
   description: Security options in {{ en.RDMMAC }}
 ---
-Use File - Preferences - Security to configure the security of the application. 
+***Use File*** – ***Preferences*** – ***Security*** to configure the security of the application. 
 
 ## Settings 
 
-![Preferences - Security](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10440.png) 
+![Preferences - Security](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6058.png) 
 
-### Application Security 
+### Application Security (Local)
 
 <table>
 	<tr>
@@ -46,7 +46,7 @@ Requires the same credential as your computer credential to access the applicati
 	</tr>
 </table>
 
-### 2-Factor Authentication 
+### Multi-factor Authentication
 
 <table>
 	<tr>
@@ -80,5 +80,93 @@ Override account name
 		<td>
 If you wish to use a different {{ en.DWS }} or Google Authenticator account than the one previously linked to your {{ en.RDM }} account, you could override the account name but you will have to reconfigure it.
 		</td>
+	</tr>
+	<tr>
+		<td>
+Require Duo authentication 
+		</td>
+		<td>
+Check this option to authenticate in your Remote Desktop Manager application using <b><i>Duo authentication</b></i>. Set it up using the Configure button below this option. Select the Duo automatic action by choosing None,Push, Phone or SMS.
+		</td>
+	</tr>
+</table>
+
+
+### Lock
+
+<table>
+	<tr>
+		<th>
+OPTION 
+		</th>
+		<th>
+DESCRIPTION 
+		</th>
+	</tr>
+	<tr>
+		<td>
+Lock application when minimized
+		</td>
+		<td>
+Check this option to lock {{ en.RDM }} after minimizing it.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Lock application when idle
+		</td>
+		<td>
+Check this option to lock {{ en.RDM }} after it has been idle for a certain time (define that period under this option).
+</td>		
+	</tr>
+</table>
+
+### Offline Security
+
+<table>
+	<tr>
+		<th>
+OPTION 
+		</th>
+		<th>
+DESCRIPTION 
+		</th>
+	</tr>
+	<tr>
+		<td>
+Default security
+		</td>
+		<td>
+Select to set the security to <b><i>Default</b></i>.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Enhanced security
+		</td>
+		<td>
+The <b><i>Enhanced security</i></b> allows you to set up an offline password. The offline cache will then be encrypted. The password is required when switching to <i><b> Offline mode</i></b>  only if the <b><i>Prompt for offline access</b></i> option is enabled. 
+</td>		
+	</tr>
+</table>
+
+### Other
+
+<table>
+	<tr>
+		<th>
+OPTION 
+		</th>
+		<th>
+DESCRIPTION 
+		</th>
+	</tr>
+	<tr>
+		<td>
+Reset Known Events
+		</td>
+		<td>
+Select to reset all <b><i>known events</b></i> configured on session entries. 
+</td>		
 	</tr>
 </table>
