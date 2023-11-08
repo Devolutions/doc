@@ -56,7 +56,7 @@ Enter a custom message for the maximal version notification.
 Recommended version
 		</td>
 		<td>
-If a recommended version is set on a data source, the update will be performed using this version.
+Recommended version will be displayed to the user via the updater as the recommended version to be downloaded and installed.
 		</td>
 	</tr>
 	<tr>
