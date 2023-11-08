@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The ***Version Management*** allows the administrators to manage the data source availability in other versions of {{ en.RDM }} for Windows, Mac, and Linux. 
 
-![Administration – System Settings – Version Management](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8078.png)
+![Administration – System Settings – Version Management](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6075.png)
 
 <table>
 	<tr>
@@ -50,7 +50,15 @@ Enter a custom message for the maximal version notification.
 	</tr>
 	<tr>
 		<td>
-Disable auto update notification 
+Recommended version
+		</td>
+		<td>
+If a recommended version is set on a data source, the update will be performed using this version. 
+		</td>
+	</tr>
+	<tr>
+		<td>		
+Disable checks for updates
 		</td>
 		<td>
 Disable the auto update notification message. Use this to manually update the application and prevent from getting notified when new versions are available. 
@@ -58,6 +66,14 @@ Disable the auto update notification message. Use this to manually update the ap
 	</tr>
 	<tr>
 		<td>
+Show custom minimal/maximal version message for administrators	
+		</td>
+		<td>
+Show the custom minimal/maximal version message to administrators. 
+		</td>
+	</tr>
+	<tr>
+		<td>		
 Download URL 
 		</td>
 		<td>
