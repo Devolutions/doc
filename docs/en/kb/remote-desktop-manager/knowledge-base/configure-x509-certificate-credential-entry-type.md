@@ -4,7 +4,9 @@ eleventyComputed:
   description: Learn how to configure an access code entry in Remote Desktop Manager
 ---
 
-The aX.509 certificate credential entry type could be used to perform signing operations (code signing, document signing, etc.) from {{ en.RDM }}, depending on the type of certificate involved.
+The ***aX.509 certificate credential entry type*** facilitate RDP Smart Card authentication, and stores the full X.509 certificate (public and private portion) for insertion into an RDP virtual Smart Card.
+
+Some organizations use X.509 certificates as as alternative to authenticating with user IDs and passwords. X.509 certificates leverage public-private key cryptography, and are widely seen as an enhanced safeguard against malicious network impersonators. 
 
 1. Add a new entry in {{ en.RDM }}.  
 1. Go to ***Credential Management*** and select ***x.509 Certificate***.
