@@ -2,7 +2,7 @@
 eleventyComputed:
   title: General
 ---
-![{{ en.VLT }}s - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8062.png)
+![{{ en.VLT }}s - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6074.png)
 
 <table>
 	<tr>
@@ -31,10 +31,19 @@ Description
 	</tr>
 	<tr>
 		<td>
-Allow offline 
+Visibility
 		</td>
 		<td>
-Allow to have access to the {{ en.VLT }} in offline mode with {{ en.RDM }}. Please see <a href="/rdm/windows/data-sources/offline-mode/" target="_blank">Offline mode</a> for more information. 
+Choose whether to allow the vault to be visible by invitation only, or to allow access requests.
+	</tr>
+	<tr>
+		<td>		
+Security level 
+		</td>
+		<td>
+<b><i>Standard security level</b></i>: The offline mode can be enabled. 
+
+<b><i>High security level</b></i>: The offline mode is disabled for this vault. Credentials are fetched from the server exclusively at use time.
 		</td>
 	</tr>
 </table>

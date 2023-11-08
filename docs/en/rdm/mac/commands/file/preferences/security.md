@@ -81,4 +81,12 @@ Override account name
 If you wish to use a different {{ en.DWS }} or Google Authenticator account than the one previously linked to your {{ en.RDM }} account, you could override the account name but you will have to reconfigure it.
 		</td>
 	</tr>
+	<tr>
+		<td>
+Require Duo authentication 
+		</td>
+		<td>
+Check this option to authenticate in your Remote Desktop Manager application using <b><i>Duo authentication</b></i>. Set it up using the Configure button below this option. Select the <b><i>Duo automatic action</b></i> by choosing None, Push, Phone or SMS.
+		</td>
+	</tr>
 </table>
