@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Macros
-  description: Enhance efficiency by automating tasks traditionally performed manually, utilizing macros to extract information from sources like the Windows Event Viewer or Windows Services.
+  description: Enhance efficiency by automating tasks traditionally performed manually, utilizing macros to extract information from sources like the Windows Event Viewer or Windows Services or to remotely turn on a computer in your network with Wake-on-LAN, to name a few.
 ---
 Enhance efficiency by automating tasks traditionally performed manually, utilizing macros to extract information from sources like the Windows Event Viewer or Windows Services or to remotely turn on a computer in your network with Wake-on-LAN, to name a few.
 
