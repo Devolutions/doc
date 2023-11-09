@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Custom fields
-  description: Generic additional fields to add information that would not have specific fields.
+  description: Custom fields offer flexibility for personalization when default fields do not match your needs.
 ---
-Generic additional fields to add information that would not have specific fields. Some custom fields can be treated as sensitive which allows sensitive information to be "hidden".
+Custom fields offer flexibility for personalization when default fields do not match your needs. They can be encrypted to heighten sensitive data [security](/rdm/windows/concepts/advanced-concepts/security/), and users have the freedom to customize both the field name and content. Additionally, custom fields support [variable](/rdm/windows/concepts/intermediate-concepts/variables/) linking for enhanced versatility.
 
 ### Related topics
 * [Copy buttons for Custom Fields](/kb/remote-desktop-manager/how-to-articles/copy-buttons-custom-fields/)
