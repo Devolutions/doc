@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Scripts
-  description: Streamline and optimize your {{ en.RDM }} usage by executing PowerShell scripts that are consolidated in the data source rather than running them on a local machine. Take it a step further by integrating {{ en.RDM }} variables into your script to directly feed it information from entries, parent entries, folders, and more.
+  description: Streamline and optimize your {{ en.RDM }} usage by executing PowerShell scripts that are consolidated in the data source on one or multiple machines at the same time rather than running them one by one manually on each separate machine.
 ---
-Streamline and optimize your {{ en.RDM }} usage by executing PowerShell scripts that are consolidated in the data source rather than running them on a local machine. Take it a step further by integrating {{ en.RDM }} variables into your script to directly feed it information from entries, parent entries, folders, and more.
+Streamline and optimize your {{ en.RDM }} usage by executing the same PowerShell scripts that are consolidated in the [data source](/rdm/windows/concepts/basic-concepts/data-sources/) on one or multiple machines at the same time rather than running them one by one manually on each separate machine.
 
 ### Related topics  
 * [PowerShell scripting](/rdm/windows/powershell-scripting/)  
