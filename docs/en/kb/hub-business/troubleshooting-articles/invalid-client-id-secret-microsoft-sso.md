@@ -42,12 +42,10 @@ If the client secret is not expired, the issue may come from your client ID. Ver
    The expired client secret can be deleted without any issue since it is expired and cannot be used anymore.
    {% endsnippet %}  
 
-1. Log in to {{ en.DHUBB }} using your {{ en.DA }}.
-
-{% snippet icon.badgeHelp %}
-If you have enabled the ***Force SSO on all users*** option in your configuration, you will not be able to log in using your {{ en.DA }}. In this case, [contact our support team](mailto:service@devolutions.net) to request the disabling of this option.
-{% endsnippet %}  
-
+1. Log in to {{ en.DHUBB }} using your {{ en.DA }}.  
+   {% snippet icon.badgeHelp %}
+   If you have enabled the ***Force SSO on all users*** option in your configuration, you will not be able to log in using your {{ en.DA }}. In this case, [contact our support team](mailto:service@devolutions.net) to request the disabling of this option.
+   {% endsnippet %}  
 1. Once logged in, go to ***Administration – Authentication – Single Sign-On (SSO)***, then select your Microsoft SSO configuration.  
 1. Replace the currently expired ***Client secret key*** with the newly created one you copied earlier.  
 ![Replace the client secret key](https://webdevolutions.azureedge.net/docs/en/kb/KB2323.png)  
