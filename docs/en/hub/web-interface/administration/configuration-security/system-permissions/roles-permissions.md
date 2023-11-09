@@ -3,7 +3,9 @@ eleventyComputed:
   title: Roles and permissions
   description: Each role in {{ en.DHUB }} has its own set of permissions.
 ---
-Each ***Role*** in {{ en.DHUB }} has its own set of ***Permissions***. Here is a table summarizing them:  
+Each ***Role*** in {{ en.DHUB }} has its own set of ***Permissions***.
+
+## Permissions
 
 <table>
 	<tr>
@@ -11,39 +13,77 @@ Each ***Role*** in {{ en.DHUB }} has its own set of ***Permissions***. Here is a
 
 PERMISSION 
 		</th>
-		<th>
-OBSERVERS 
+		<th style="text-align: center;">
+RESTRICTED 
 		</th>
-		<th>
+		<th style="text-align: center;">
 READERS 
 		</th>
-		<th>
+		<th style="text-align: center;">
+PRIVILEGED READERS 
+		</th>
+		<th style="text-align: center;">
 OPERATORS 
 		</th>
-		<th>
+		<th style="text-align: center;">
+PRIVILEGED OPERATORS 
+		</th>
+		<th style="text-align: center;">
 CONTRIBUTORS 
 		</th>
-		<th>
-MANAGERS 
+		<th style="text-align: center;">
+VAULT OWNERS 
 		</th>
 	</tr>
 	<tr>
 		<td>
 View {{ en.VLT }} 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+	</tr>
+	<tr>
 		<td>
+View entries 
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -64,6 +104,12 @@ Manage {{ en.VLT }}
 
 		</td>
 		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -81,9 +127,15 @@ Add entries
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+
 		</td>
 		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -101,9 +153,15 @@ Edit entries
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+
 		</td>
 		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -121,9 +179,15 @@ Delete entries
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+
 		</td>
 		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -138,12 +202,18 @@ Connect (execute)
 
 		</td>
 		<td>
+
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -161,9 +231,15 @@ View password
 
 		</td>
 		<td>
+
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -175,15 +251,21 @@ View sensitive
 
 		</td>
 		<td>
+
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -201,9 +283,15 @@ View password history
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+
 		</td>
 		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -221,9 +309,15 @@ View sensitive history
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+
 		</td>
 		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -241,9 +335,15 @@ Manage attachments
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+
 		</td>
 		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -252,6 +352,12 @@ Manage attachments
 Manage documentation 
 		</td>
 		<td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
 
 		</td>
 		<td>
@@ -260,10 +366,10 @@ Manage documentation
 		<td>
 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -281,9 +387,15 @@ View entry logs
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+
 		</td>
 		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -301,9 +413,15 @@ View entry history
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+
 		</td>
 		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -324,6 +442,12 @@ Clear entry history
 
 		</td>
 		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -344,66 +468,12 @@ Export
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-View activity log 
-		</td>
-		<td>
 
 		</td>
 		<td>
 
 		</td>
-		<td>
-
-		</td>
-		<td>
-
-		</td>
-		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-View deleted entry 
-		</td>
-		<td>
-
-		</td>
-		<td>
-
-		</td>
-		<td>
-
-		</td>
-		<td>
-
-		</td>
-		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Restore entries 
-		</td>
-		<td>
-
-		</td>
-		<td>
-
-		</td>
-		<td>
-
-		</td>
-		<td>
-
-		</td>
-		<td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
@@ -424,6 +494,116 @@ Temporary access approver
 
 		</td>
 		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Force check-in 
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+	</tr>
+	<tr>
+		<td>
+View activity log 
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+	</tr>
+	<tr>
+		<td>
+View deleted entry 
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
+![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+		</td>
+	</tr>
+	<tr>
+		<td>
+Restore entries 
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td>
+
+		</td>
+		<td align="center">
 ![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
 		</td>
 	</tr>
