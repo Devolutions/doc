@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Variables
-  description: 
+  description: Variables are versatile values that can be changed depending on the context. They act as containers for data, facilitating centralized control and manipulation.
 ---
-Variables are versatile values that can be changed depending on the context. Multiple fields can host variables (in folders, entries, macros, and keyboard shortcuts, for example) to facilitate, optimize, and maximize the generic nature of certain procedures and information, such as credentials. Use pre-existing variables or create custom ones to suit your needs.
+Variables are versatile values that can be changed depending on the context. They act as containers for data, facilitating centralized control and manipulation. This not only streamlines data management but also improves maintainability by enabling changes to be made in one central location rather than across multiple instances. Variables can be hosted in many places such as credentials, entries, [data sources](/rdm/windows/concepts/basic-concepts/data-sources/), [folders](/rdm/windows/concepts/basic-concepts/folders/), [macros](/rdm/windows/concepts/advanced-concepts/macros/), [IT assets](/rdm/windows/concepts/intermediate-concepts/it-asset/), [contacts](/rdm/windows/concepts/basic-concepts/contacts/), and keyboard shortcuts. Use pre-existing variables or create custom ones to suit your needs.
 
 ### Related topics  
 * [Entry credentials options](/rdm/windows/commands/edit/entries/entry-credentials-options/)  
