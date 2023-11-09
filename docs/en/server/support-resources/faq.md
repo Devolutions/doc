@@ -44,6 +44,6 @@ Yes, {{ en.DVLS }} is subscription based. You can subscribe for one (1) year or 
 
 You need to renew your subscription agreement upon expiry. If you do not renew your subscription, access to your data will be limited to view only. That being said, you will be able to export your data if you choose to migrate to another type of data source than {{ en.DVLS }}. 
 
-## Can I upgrade from a sql server data source to {{ en.DVLS }}?
+## Can I upgrade from a SQL server data source to {{ en.DVLS }}?
 
-No, we recommend creating a new {{ en.DVLS }} instance and export the data from the SQL data source and import it in the new {{ en.DVLS }} instance. Contact us at [service@devolutions.net](mailto:service@devolutions.net) for more information on the migration process. 
+Yes, you can migrate your data from a SQL data source to {{ en.DVLS }}. In the {{ en.DVLSCONSOLE }}, go to ***Server – New – Migrate SQL Data Source*** and enter your SQL information. Contact us at [service@devolutions.net](mailto:service@devolutions.net) for more information on the migration process.  
