@@ -37,7 +37,7 @@ This is only possible if the enterprise application in Azure has the ***Assignme
 ![Step 3 - Options](https://webdevolutions.azureedge.net/docs/en/hub/Hub2178.png)  
 1. ***Step 4 - User groups***: Synchronized users do not need to be assigned to the synced ***User Groups***. They will be added automatically as they log in. If you have custom ***User Groups***, you can assign them users.  
 {% snippet icon.badgeInfo %}  
-Custom ***User groups*** need to be defined beforehand in {{ en.DHUBB }}. For more information, see [User Groups](/hub/web-interface/hub-overview/administration/management/users/). 
+Custom ***User groups*** need to be defined beforehand in {{ en.DHUBB }}. For more information, see [User Groups](/hub/web-interface/administration/management/users/). 
 {% endsnippet %}
  
 ![Step 4 - User groups](https://webdevolutions.azureedge.net/docs/en/hub/Hub2179.png) 
@@ -66,5 +66,5 @@ It is possible to add users to your {{ en.DHUBB }} that are outside of your auth
 
 {% snippet icon.badgeInfo %} 
 This option is only possible if you do not set a ***Force SSO on all users***, since those users are not part of your authentication provider.
-Follow the steps from [Create and Invite Users](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/index).
+Follow the steps from [Create and Invite Users](/hub/web-interface/administration/management/users/create-invite-users/index).
 {% endsnippet %}

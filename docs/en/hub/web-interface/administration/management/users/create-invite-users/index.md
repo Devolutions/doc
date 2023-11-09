@@ -10,7 +10,7 @@ If your {{ en.DHUBB }} is configured with SSO Authentication Azure AD Office 365
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-We strongly recommend that you invite at least one other administrator. Learn how in [Administrator invite](/hub/web-interface/hub-overview/administration/management/users/administrator-invite/). 
+We strongly recommend that you invite at least one other administrator. Learn how in [Administrator invite](/hub/web-interface/administration/management/users/administrator-invite/). 
 {% endsnippet %}
  
 ### Invite users 
@@ -19,7 +19,7 @@ We strongly recommend that you invite at least one other administrator. Learn ho
 ![!!Hub4181](https://webdevolutions.azureedge.net/docs/en/hub/Hub4181.png) 
 1. Type the user's email address. 
 {% snippet icon.badgeInfo %} 
-It is possible to paste a list of email addresses of ***Users*** that will be part of the same [User Groups](/hub/web-interface/hub-overview/administration/management/user-groups/). Each email address is required to be separated by a semicolon (;) or a comma (,). 
+It is possible to paste a list of email addresses of ***Users*** that will be part of the same [User Groups](/hub/web-interface/administration/management/user-groups/). Each email address is required to be separated by a semicolon (;) or a comma (,). 
 {% endsnippet %}
  
 4. Press Enter. 
@@ -44,7 +44,7 @@ To set a usage profile for a user, you will need to create and invite them first
 1. Click ***Next***. 
 1. Assign ***User Groups***. 
 {% snippet icon.badgeInfo %} 
-***User Groups*** need to be defined beforehand as a custom group in {{ en.DHUB }}. For more information, see [User Groups](/hub/web-interface/hub-overview/administration/management/user-groups/). 
+***User Groups*** need to be defined beforehand as a custom group in {{ en.DHUB }}. For more information, see [User Groups](/hub/web-interface/administration/management/user-groups/). 
 {% endsnippet %}
  
 

@@ -28,7 +28,7 @@ For security and performance reasons, we recommend creating a different {{ en.VL
 1. In the ***Ribbon***, go to ***Administration – Management – {{ en.VLT }}s***.  
 ![Administration – Management – {{ en.VLT }}s](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11300.png) 
 {% snippet icon.badgeHelp %} 
-If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} management is done in their respective web interfaces. For more information, consult either [{{ en.DVLS }} {{ en.VLT }}s](/server/web-interface/administration/security-management/vaults/) or [{{ en.DHUB }} {{ en.VLT }}s](/hub/web-interface/hub-overview/administration/management/vaults/). 
+If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} management is done in their respective web interfaces. For more information, consult either [{{ en.DVLS }} {{ en.VLT }}s](/server/web-interface/administration/security-management/vaults/) or [{{ en.DHUB }} {{ en.VLT }}s](/hub/web-interface/administration/management/vaults/). 
 {% endsnippet %}
  
 2. In the ***User and Security Management*** window, select the ***{{ en.VLT }}s*** tab, then click on ***Add {{ en.VLT }}***.  
@@ -87,7 +87,7 @@ Follow the steps below to assign ***Users*** and ***Roles*** to a {{ en.VLT }}.
 1. In the ***Ribbon***, go to ***Administration – Management – {{ en.VLT }}s***.  
    ![Administration – Management – {{ en.VLT }}s](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11300.png) 
    {% snippet icon.badgeInfo %} 
-   If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} management is done in their respective web interfaces. For more information, consult either [{{ en.DVLS }} {{ en.VLT }}s](/server/web-interface/administration/security-management/vaults/) or [{{ en.DHUB }} {{ en.VLT }}s](/hub/web-interface/hub-overview/administration/management/vaults/). 
+   If you are using a {{ en.DVLS }} or {{ en.DHUBB }} data source, {{ en.VLT }} management is done in their respective web interfaces. For more information, consult either [{{ en.DVLS }} {{ en.VLT }}s](/server/web-interface/administration/security-management/vaults/) or [{{ en.DHUB }} {{ en.VLT }}s](/hub/web-interface/administration/management/vaults/). 
    {% endsnippet %}
 
 1. In the ***User and Security Management*** window, select the ***{{ en.VLT }}s*** tab, then click on ***Assign Users and Roles***.  

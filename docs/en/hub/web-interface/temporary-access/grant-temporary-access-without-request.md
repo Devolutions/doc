@@ -5,7 +5,7 @@ eleventyComputed:
   description: Approvers can grant Temporary Access without request to a user and even if the user already has access.
 ---
 {% snippet icon.badgeInfo %} 
-To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.DHUB }}](https://docs.devolutions.net/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/).
+To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.DHUB }}](https://docs.devolutions.net/hub/web-interface/temporary-access/approve-temporary-access/).
 {% endsnippet %}
 
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. Approvers can grant ***Temporary Access*** without request from a user and even if the user already has access.
@@ -25,7 +25,7 @@ You can also click ***Set custom time frame*** if you need to grant access for a
 ![Set custom time frame](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6017.png)  
 1. Hovering your mouse over the eye icon while you have a ***Permissions*** level selected lets you see what permissions it includes. For example, the following image shows the permissions for the ***Operators*** role.  
 ![Permissions content](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6018.png)  
-To help you decide which role to select, you can visit [Roles and permissions](https://docs.devolutions.net/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/).  
+To help you decide which role to select, you can visit [Roles and permissions](https://docs.devolutions.net/hub/web-interface/administration/configuration-security/system-permissions/roles-permissions/).  
 1. Select the ***User***. You can also use the filter bar to refine your research.  
 ![User](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6019.png)  
 A short message can be left to the ***User*** explaining why you grant access.  

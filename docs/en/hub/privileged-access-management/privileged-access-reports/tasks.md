@@ -19,5 +19,5 @@ Hover over the icon in the status cell to see the complete history of that task'
 {% snippet icon.badgeInfo %}
 Password reset logs can also be found in the ***Logs*** section of the [privileged account](/hub/privileged-access-management/privileged-accounts/index/)'s dashboard.
 
-In the [***Activity Logs Report***](/hub/web-interface/hub-overview/reports/logs/), you can see logs pertaining to {{ en.VLT }} and PAM {{ en.VLT }} activity.
+In the [***Activity Logs Report***](/hub/web-interface/reports/logs/), you can see logs pertaining to {{ en.VLT }} and PAM {{ en.VLT }} activity.
 {% endsnippet %}

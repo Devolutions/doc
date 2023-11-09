@@ -28,7 +28,7 @@ Start by entering a ***Name*** for your PAM {{ en.VLT }} (mandatory) and a ***De
 * ***Public***: A public {{ en.VLT }} is visible to all users of the data source, even to those who do not have access to it. A user can request access to the public {{ en.VLT }}.
 
 {% snippet icon.badgeHelp %}
-For more information on {{ en.VLT }} access and visibility, visit [{{ en.VLT }} access in {{ en.DHUBB }}](/hub/web-interface/hub-overview/vault-access/).
+For more information on {{ en.VLT }} access and visibility, visit [{{ en.VLT }} access in {{ en.DHUBB }}](/hub/web-interface/vault-access/).
 {% endsnippet %}  
 
 In the ***Password Settings***, choose whether to use the provider's password template or select a custom one. 

@@ -13,7 +13,7 @@ The [{{ en.PS }} module](/hub/powershell-module) needs to be installed to use th
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
-Proper permissions are also required to perform some of these commands. Please refer to [Application Users](/hub/web-interface/hub-overview/administration/management/application-users/). 
+Proper permissions are also required to perform some of these commands. Please refer to [Application Users](/hub/web-interface/administration/management/application-users/). 
 {% endsnippet %}
  
 PSHubContext is an object that specifies your authentication information. You will need a valid PSHubContext to connect to your {{ en.DHUBB }}. You can have many PSHubContext connected in your PowerShell session, but only one is used when you use {{ en.DHUB }} cmdlets.  

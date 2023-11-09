@@ -8,7 +8,7 @@ eleventyComputed:
 The administrator can [Invite Users to log in with single sign-on (SSO)](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/), which is a way to identify a user with a single identifier, to {{ en.DHUBB }}. The end user invitation experience is different with SSO, as the email the user receives asks them to use the “Sign in with Microsoft“ option to log in. If this is the case, please refer to [End User Invitation Experience for SSO](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/end-user-experience/). 
 {% endsnippet %}
  
-Users that are invited to join {{ en.DHUBB }} by an administrator receive an invitation email. This email varies depending on whether or not the user has a {{ en.DA }} and on the settings of the administrator who sent the invitation. To learn how to invite users, visit [Create and invite users](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/).  
+Users that are invited to join {{ en.DHUBB }} by an administrator receive an invitation email. This email varies depending on whether or not the user has a {{ en.DA }} and on the settings of the administrator who sent the invitation. To learn how to invite users, visit [Create and invite users](/hub/web-interface/administration/management/users/create-invite-users/).  
 
 For information regarding the user's first login to {{ en.DHUBB }}, visit one of the sections below based on the user's situation.  
 
@@ -21,7 +21,7 @@ To skip the login instructions and go straight to essential features of {{ en.DH
 
 ### Invitee with no {{ en.DA }} 
 
-If the user does not have a {{ en.DA }}, they will need a [Temporary Password](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/temporary-password/) to access {{ en.DHUBB }}. The administrator who invited the user may include this password in the invitation email or not.  
+If the user does not have a {{ en.DA }}, they will need a [Temporary Password](/hub/web-interface/administration/management/users/create-invite-users/temporary-password/) to access {{ en.DHUBB }}. The administrator who invited the user may include this password in the invitation email or not.  
 
 If the temporary password is included, the user receives an invitation email with a link to {{ en.DHUBB }} with their temporary password.  
 ![Invitation Email – Temporary Password Included](https://webdevolutions.azureedge.net/docs/en/hub/Hub2000.png) 
@@ -60,14 +60,14 @@ You can also access your ***{{ en.UVLT }}***, which is user centric and is used 
 
 ### Create entries 
 
-{{ en.DWL }} is our web browser password plugin. It is the preferred client to use in conjunction with {{ en.DHUBB }} to create and manage website credentials entries. Visit [Add a website entry in {{ en.DHUBB }} with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) for steps on how to add a website entry with {{ en.DWL }}, or visit [Create entries manually](/hub/web-interface/hub-overview/entries/create-entries-manually/) for how to create them directly within {{ en.DHUBB }}. You can also follow the steps below to manually create an entry in your ***{{ en.UVLT }}***:  
+{{ en.DWL }} is our web browser password plugin. It is the preferred client to use in conjunction with {{ en.DHUBB }} to create and manage website credentials entries. Visit [Add a website entry in {{ en.DHUBB }} with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) for steps on how to add a website entry with {{ en.DWL }}, or visit [Create entries manually](/hub/web-interface/entries/create-entries-manually/) for how to create them directly within {{ en.DHUBB }}. You can also follow the steps below to manually create an entry in your ***{{ en.UVLT }}***:  
 
 1. Select the folder where you want to create the new entry, if applicable. If not, skip this first step. 
 1. Click on the ***Add*** button located in the ***{{ en.NPANE }}***.  
 ![Add Button](https://webdevolutions.azureedge.net/docs/en/hub/Hub2008.png)  
 1. Select the type of entry you wish to create. You can search by categories with the side menu or apply a filter with the search bar. Click on ***Continue*** when your entry type is selected. 
 {% snippet icon.badgeInfo %} 
-To learn more about entry types, visit [Entry Type](/hub/web-interface/hub-overview/entries/entry-type/). 
+To learn more about entry types, visit [Entry Type](/hub/web-interface/entries/entry-type/). 
 {% endsnippet %}
  
 ![Add New Entry](https://webdevolutions.azureedge.net/docs/en/hub/Hub2009.png)  

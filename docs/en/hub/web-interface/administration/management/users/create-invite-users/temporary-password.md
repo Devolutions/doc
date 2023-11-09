@@ -5,7 +5,7 @@ eleventyComputed:
 ***Temporary Password*** are created automatically for new users who are invited to {{ en.DHUBB }} and who do not have {{ en.DA }}.  
 
 {% snippet icon.badgeNotice %} 
-You can predefine how they are handled in ***Administration - System Settings - General***. For an overview on the subject, see [General](/hub/web-interface/hub-overview/administration/configuration-security/system-settings/general/). 
+You can predefine how they are handled in ***Administration - System Settings - General***. For an overview on the subject, see [General](/hub/web-interface/administration/configuration-security/system-settings/general/). 
 {% endsnippet %}
  
 

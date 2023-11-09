@@ -8,5 +8,5 @@ The ***System Permissions*** are used to provide administrative rights to specif
 
 To set the permissions for users and/or user groups, use the Edit button at the top right.  
 
-The ***Roles*** list is set with default permissions, but can be personalized with the ***Customs*** option. Click the ***View Roles Definition*** button to choose from the list. You can also visit [Roles and Permissions](/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/).  
+The ***Roles*** list is set with default permissions, but can be personalized with the ***Customs*** option. Click the ***View Roles Definition*** button to choose from the list. You can also visit [Roles and Permissions](/hub/web-interface/administration/configuration-security/system-permissions/roles-permissions/).  
 ![Editing System Permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub4036.png)  

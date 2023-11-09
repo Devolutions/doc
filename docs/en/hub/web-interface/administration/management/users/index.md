@@ -6,7 +6,7 @@ eleventyComputed:
 In the ***Users*** section, you can manage users and user settings.
 
 {% snippet icon.badgeHelp %}
-Learn how to [add users](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/) or [add an administrator](/hub/web-interface/hub-overview/administration/management/users/administrator-invite/).
+Learn how to [add users](/hub/web-interface/administration/management/users/create-invite-users/) or [add an administrator](/hub/web-interface/administration/management/users/administrator-invite/).
 {% endsnippet %}  
 
 ![User settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2270.png) 
@@ -89,7 +89,7 @@ Sets the user as an administrator of the hub. This option cannot be changed if t
 	<tr>
 		<td>  
 
-[Allow send messages](hub/web-interface/hub-overview/secure-messages/)
+[Allow send messages](hub/web-interface/secure-messages/)
 		</td>
 		<td>
 Select if the user is allowed to send messages with entries, without entries, or is not allowed to send messages.

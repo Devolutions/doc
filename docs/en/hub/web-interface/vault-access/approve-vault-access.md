@@ -35,7 +35,7 @@ This view is divided into two sections:
 * The ***Awaiting approval*** section allows you to write a message to the user explaining your decision, but it remains optional.  
 
 {% snippet icon.badgeInfo %}
-The ***Permissions*** level set by the user making the request can by modified by the approver. You can read more on [Roles and permissions](/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions).
+The ***Permissions*** level set by the user making the request can by modified by the approver. You can read more on [Roles and permissions](/hub/web-interface/administration/configuration-security/system-permissions/roles-permissions).
 {% endsnippet %}  
 
 Clicking on ***Approve*** or ***Deny*** will send the response with the selected parameters.

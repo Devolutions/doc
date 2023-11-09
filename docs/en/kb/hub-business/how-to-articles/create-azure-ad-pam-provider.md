@@ -26,7 +26,7 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 1. Go to ***Administration – Privileged Access – Providers***.
 1. Click on ***Add Provider (+)***.
 ![Administration – Privileged Access – Providers – Add Provider](https://webdevolutions.azureedge.net/docs/en/kb/KB2295.png)
-1. Enter a ***Name*** (mandatory) for your provider. Optionally, enter a ***Description*** and select a [***Password template***](/hub/web-interface/hub-overview/administration/management/password-templates/).
+1. Enter a ***Name*** (mandatory) for your provider. Optionally, enter a ***Description*** and select a [***Password template***](/hub/web-interface/administration/management/password-templates/).
 ![Name, Description, and Password template](https://webdevolutions.azureedge.net/docs/en/kb/KB2296.png)
 1. Enter the ***Tenant ID*** and ***Client ID*** that you previously located in the ***Overview*** page of the enterprise application in your Azure Portal.
 ![Tenant ID and Client ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2297.png)

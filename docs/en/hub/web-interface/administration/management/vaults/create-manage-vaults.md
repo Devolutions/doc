@@ -24,7 +24,7 @@ eleventyComputed:
 1. Click the ***Edit*** pencil icon next to the {{ en.VLT }}. 
 1. In the ***Edit*** tab section, click the drop-down menu next to each of the predefined ***Permissions*** to assign users and user groups or select and configure a custom role for your organization. 
 {% snippet icon.badgeNotice %} 
-Click the ***View Roles Definition*** button to choose from the list. You can also visit [Roles and Permissions](/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/). 
+Click the ***View Roles Definition*** button to choose from the list. You can also visit [Roles and Permissions](/hub/web-interface/administration/configuration-security/system-permissions/roles-permissions/). 
 {% endsnippet %}
  
 ![!!Hub4035](https://webdevolutions.azureedge.net/docs/en/hub/Hub4035.png) 

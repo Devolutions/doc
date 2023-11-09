@@ -41,5 +41,5 @@ After the approbation, for any reason, you may revoke the user's temporary acces
 ![Revoke temporary access](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6024.png)  
 
 {% snippet icon.badgeInfo %} 
-To learn more about the end user experience in {{ en.DHUBB }}, visit [Request temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/hub-overview/temporary-access/request-temporary-access/). 
+To learn more about the end user experience in {{ en.DHUBB }}, visit [Request temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/temporary-access/request-temporary-access/). 
 {% endsnippet %}

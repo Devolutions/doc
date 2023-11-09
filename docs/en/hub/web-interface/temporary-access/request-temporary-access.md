@@ -9,7 +9,7 @@ eleventyComputed:
 {% snippet icon.badgeNotice %} 
 This video includes information pertaining to both requesters and approvers. A user wanting to request temporary access to an entry may find this visual aid useful, but watching the video is not essential since all the steps are described in this topic.  
 
-To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/hub-overview/temporary-access/approve-temporary-access/). 
+To learn how to approve or deny a request, visit [Approve temporary access to an entry in {{ en.DHUBB }}](/hub/web-interface/temporary-access/approve-temporary-access/). 
 {% endsnippet %}
  
 The ***Temporary Access*** feature allows users to request a temporary elevation of their permissions for a specific entry. The approver must then approve or deny the request.  
@@ -33,7 +33,7 @@ Follow the steps below to learn how to make a temporary access request:
 Hovering your mouse over the eye icon while you have a ***Permissions*** level selected lets you see what permissions it includes. For example, the following image shows the permissions for the ***Operators*** role.  
 ![Permissions content](https://webdevolutions.azureedge.net/docs/en/hub/Hub6008.png)  
 
-To help you decide which role to select, you can visit [Roles and permissions](/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/).  
+To help you decide which role to select, you can visit [Roles and permissions](/hub/web-interface/administration/configuration-security/system-permissions/roles-permissions/).  
 
 5. Select the approver you want to send your request to using the drop-down menu. You can also use the filter bar to refine your research.  
 ![Send request to](https://webdevolutions.azureedge.net/docs/en/hub/Hub6029.png) 
