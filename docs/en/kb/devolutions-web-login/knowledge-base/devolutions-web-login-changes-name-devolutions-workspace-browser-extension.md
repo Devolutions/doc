@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Web Login changes its name to Devolutions Workspace Browser Extention
+  title: Devolutions Web Login changes its name to Devolutions Workspace Browser Extension
   description: We are excited to announce that Devolutions has consolidated its Devolutions Workspace and Devolutions Web Login tools into a single streamlined entity known as Devolutions Workspace, offering a unified solution for improved efficiency and productivity.
 ---
 We are excited to announce that Devolutions has consolidated its Devolutions Workspace and Devolutions Web Login tools into a single streamlined entity known as Devolutions Workspace, offering a unified solution for improved efficiency and productivity. Unified under the name Devolutions Workspace, you will now find the Devolutions Workspace Application (formerly Devolutions Workspace) and the Devolutions Workspace Browser Extension (formerly Devolutions Web Login).  
