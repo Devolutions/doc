@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Password templates
-  description: Structure templates to force password complexity on entries added to the data source.
+  description: Structure templates to force business policyon entries added to the data source.
 ---
-Structure templates to force password complexity on entries added to the data source. It is a good feature to ensure users do not have weak passwords.
+***Password templates*** enforce business policy for entries added to the [data source](https://docs.devolutions.net/rdm/windows/concepts/basic-concepts/data-sources/). It is a good feature to ensure that users have stronger passwords.
 
 ### Related topics
 * [Password Templates](/rdm/windows/commands/file/templates/password-templates/)
