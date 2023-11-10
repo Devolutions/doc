@@ -1,9 +1,12 @@
 ---
 eleventyComputed:
   title: Remote management
-  description: Consolidates different tools in one place, instead of having one application open for AD, another for Hyper-V and so on.
+  description: Remote management is the ability to control and monitor computer systems or devices from a distant location.
 ---
-Consolidates different tools in one place, instead of having one application open for AD, another for Hyper-V and so on.
+
+***Remote management*** is the ability to control and monitor computer systems or devices from a distant location. It allows users to access and manage remote machines without physically being present at the location of the device. 
+
+It is an important feature of {{ en.RDM }}. Many dashboards are available, including AD and VMware Hyper-V. Useful remote tools such as Remote Task Manager, Remote Printer and Remote Registry are also supported.
 
 ### Related topics
 * [WOL](/kb/remote-desktop-manager/knowledge-base/wake-on-lan/)
