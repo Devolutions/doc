@@ -366,8 +366,8 @@ internal sealed partial class FileTranslator
         Dictionary<string, DeeplTranslation>.KeyCollection keys = this.translations.Keys;
         Dictionary<string, DeeplTranslation>.ValueCollection values = this.translations.Values;
 
-        TextResult[] results = await this.deeplTranslator.TranslateTextAsync(keys, LanguageCode.English,
-            LanguageCode.French, this.deeplTextTranslateOptions).ConfigureAwait(false);
+        TextResult[] results = await this.deeplTranslator.TranslateTextAsync(keys, this.targetFile.SourceFile.Language.Code,
+            this.targetFile.Language.Code, this.deeplTextTranslateOptions).ConfigureAwait(false);
 
         if (results.Length != this.translations.Count)
         {
