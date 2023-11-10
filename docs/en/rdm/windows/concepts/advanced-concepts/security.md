@@ -6,9 +6,9 @@ eleventyComputed:
 
 {{ en.RDM }} enforces two successive steps of authentication to grant access to the data source. ***Multi-factor Authentication*** is integrated directly in the software and credentials are brokered on behalf of the user when launching a connection, preventing the user from ever knowing the credentials.
 
-All restrictions are predefined and enforced by a role-based access control, provinding granular protection access control.
+All restrictions are predefined and enforced by a role-based access control, providing granular protection access control.
 
-{{ en.RDM }} seamlessly integrates with [{{ en.DVLS }}](https://docs.devolutions.net/server/getting-started/), provinding advanced reporting, role-based permissions, and web-based access. {{ en.RDM }} also integrates with [{{ en.DHUB }}](https://docs.devolutions.net/hub/getting-started/create-hub/), which is a secure and cloud-based password manager for teams. 
+{{ en.RDM }} seamlessly integrates with [{{ en.DVLS }}](https://docs.devolutions.net/server/getting-started/), providing advanced reporting, role-based permissions, and web-based access. {{ en.RDM }} also integrates with [{{ en.DHUB }}](https://docs.devolutions.net/hub/getting-started/create-hub/), which is a secure and cloud-based password manager for teams. 
 
 ### Related topics
 * [{{ en.RDM }} Security Dashboard](/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/)
