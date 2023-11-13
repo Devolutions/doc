@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Version schema compatibility for {{ en.RDM }} and {{ en.DVLS }}
-  keywords:
-  - Schema
+  description: Here is a schema compatibility board explaining which version of Remote Desktop Manager should be used with Devolutions Server and other database.  
 ---
+
 Here is a schema compatibility board explaining which version of {{ en.RDM }} should be used with {{ en.DVLS }} and other database.  
 
 {% snippet icon.badgeCaution %}
@@ -37,6 +37,29 @@ Database version
 	</tr>
 	<tr>
 		<td>
+911
+		</td>
+		<td>
+2023.3.6.0
+		</td>
+		<td>
+2023.3.24.0
+		</td>
+		<td>
+2023.3.8.0
+		</td>
+		<td>
+2023.3.2.0
+		</td>
+		<td>
+2023.3.1.1
+		</td>
+		<td>
+2023.3.0.5
+		</td>
+	</tr>
+	<tr>
+		<td>					
 891
 		</td>
 		<td>
@@ -498,22 +521,42 @@ Database version
 	</tr>
 		<tr>
 		<td>
+910
+		</td>
+		<td>
+2023.3.24.0
+		</td>
+		<td>
+2023.3.8.0
+		</td>
+		<td>
+2023.3.2.0
+		</td>
+		<td>
+2023.3.1.1
+		</td>
+		<td>
+2023.3.0.5
+		</td>
+	</tr>
+	<tr>
+		<td>			
 874
 		</td>
 		<td>
 2023.2.9.0
 		</td>
 		<td>
-
+2023.2.5.1
 		</td>
 		<td>
-
+2023.2.9.0
 		</td>
 		<td>
-
+2023.3.1.1
 		</td>
 		<td>
-
+2023.2.2.7
 		</td>
 	</tr>
 	<tr>
