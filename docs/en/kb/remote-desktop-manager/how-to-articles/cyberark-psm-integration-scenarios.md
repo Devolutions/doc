@@ -50,9 +50,7 @@ In our example, the ID is 33628378-d4a6-431f-8438-16b75921aef9.
 ![Template name](https://webdevolutions.azureedge.net/docs/en/kb/KB4686.png)
 
 ### Create a CSV File for the import
-<a name="csv"></a>
-
-To facilitate the process, here’s a template of the [CSV](https://redirection.devolutions.com/37b5737c-78c2-44d9-9f3c-b208e6f5891c) file, populate it accordingly. The first line after the header is informational and should not be in the file at import time.
+<a name="csv"></a>  
 
 The fields are mapped like this:  
 
