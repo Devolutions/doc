@@ -42,340 +42,61 @@ Die Einstellungen für ***Datenquellen*** dienen der Anpassung der Interaktionen
 
 ### {{ de.RDM }} <a name="rdm"></a>
 
-<table>
-	<tr>
-		<th>
-REGISTERKARTE ALLGEMEIN 
-		</th>
-		<th>
-BESCHREIBUNG 
-		</th>
-	</tr>
-	<tr>
-		<td>
-{{ de.RDM }} aktivieren 
-		</td>
-		<td>
-Einträgen aus {{ de.RDM }} abrufen, wenn die Anwendung geöffnet ist. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Standardport verwenden (19443) 
-		</td>
-		<td>
-Port für die Kommunikation zwischen {{ de.RDM }} und {{ de.DWL }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Einträge standardmäßig im {{ de.UVLT }}  hinzufügen  
-		</td>
-		<td>
-Neue Einträge werden standardmäßig im {{ de.UVLT }} gespeichert. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Zielordner 
-		</td>
-		<td>
-Ordner auswählen, in dem die Anmeldeinformationen gespeichert werden. 
-		</td>
-	</tr>
-</table>
+| REGISTERKARTE ALLGEMEIN         | BESCHREIBUNG                                                |
+| ------------------------------ | ----------------------------------------------------------- |
+| {{ de.RDM }} aktivieren        | Einträge aus {{ de.RDM }} abrufen, wenn die Anwendung geöffnet ist. |
+| Standardport verwenden (19443)  | Port für die Kommunikation zwischen {{ de.RDM }} und {{ de.DWL }}. |
+| Einträge standardmäßig im {{ de.UVLT }}  hinzufügen | Neue Einträge werden standardmäßig im {{ de.UVLT }} gespeichert. |
+| Zielordner                      | Ordner auswählen, in dem die Anmeldeinformationen gespeichert werden. |
 
-<table>
-	<tr>
-		<th>
-REGISTERKARTE AKTIONEN 
-		</th>
-		<th>
-BESCHREIBUNG 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Anmeldeinformationen beim Laden automatisch abrufen
-		</td>
-		<td>
-{{ de.DWL }} sucht automatisch nach Anmeldeinformationen in der Datenquelle, wenn eine Verbindung zu einer Website hergestellt wird.
-<br>
+| REGISTERKARTE AKTIONEN                                         | BESCHREIBUNG                                                                                                                                                             |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Anmeldeinformationen beim Laden automatisch abrufen           | {{ de.DWL }} sucht automatisch nach Anmeldeinformationen in der Datenquelle, wenn eine Verbindung zu einer Website hergestellt wird. <br> <br> Falls deaktiviert, klicken Sie auf das Symbol der Erweiterung {{ de.DWL }}, um die Anmeldeinformationen manuell abzurufen. |
+| Anmeldeinformationen beim Laden automatisch ausfüllen         | Füllt beim Laden der Website automatisch die Anmeldeinformationen aus.                                                                                                |
+| Formular nach dem Ausfüllen automatisch absenden              | Übermittelt automatisch die Anmeldeinformationen, wenn die Felder ausgefüllt sind.                                                                                     |
 
-Falls deaktiviert, klicken Sie auf das Symbol der Erweiterung {{ de.DWL }}, um die Anmeldeinformationen manuell abzurufen. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Anmeldeinformationen beim Laden automatisch ausfüllen
-		</td>
-		<td>
-Füllt beim Laden der Website automatisch die Anmeldeinformationen aus. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Formular nach dem Ausfüllen automatisch absenden
-		</td>
-		<td>
-Übermittelt automatisch die Anmeldeinformationen, wenn die Felder ausgefüllt sind. 
-		</td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<th>
-REGISTERKARTE ERWEITERT 
-		</th>
-		<th>
-BESCHREIBUNG 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Anwendungsschlüssel 
-		</td>
-		<td>
-Sichert die Kommunikation zwischen {{ de.RDM }} und {{ de.DWL }} zusätzlich mittels einem Anwendungsschlüssel.<br>
-
-Gehen Sie in {{ de.RDM }} zu <b><i>Datei – Optionen – Browsererweiterungen</b></i>, um den Anwendungsschlüssel festzulegen. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nativen Nachrichtenaustausch aktivieren 
-		</td>
-		<td>
-Tauschen Sie Nachrichten mit einer nativen Anwendung aus, die auf dem Computer des Benutzers installiert ist. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Alte API verwenden 
-		</td>
-		<td>
-Für die Kompatibilität mit älteren Versionen von {{ de.RDM }}. 
-		</td>
-	</tr>
-</table>
+| REGISTERKARTE ERWEITERT                | BESCHREIBUNG                                                                                              |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Anwendungsschlüssel                  | Sichert die Kommunikation zwischen {{ de.RDM }} und {{ de.DWL }} zusätzlich mittels einem Anwendungsschlüssel. <br> <br> Gehen Sie in {{ de.RDM }} zu ***Datei – Optionen – Browsererweiterungen***, um den Anwendungsschlüssel festzulegen. |
+| Nativen Nachrichtenaustausch aktivieren | Tauschen Sie Nachrichten mit einer nativen Anwendung aus, die auf dem Computer des Benutzers installiert ist. |
+| Alte API verwenden                   | Für die Kompatibilität mit älteren Versionen von {{ de.RDM }}.                                           |
 
 ### {{ de.DVLS }} <a name="server"></a>
 
-<table>
-	<tr>
-		<th>
-REGISTERKARTE ALLGEMEIN 
-		</th>
-		<th>
-BESCHREIBUNG 
-		</th>
-	</tr>
-	<tr>
-		<td>
-{{ de.DVLS }} aktivieren 
-		</td>
-		<td>
-Einträge von {{ de.DVLS }} abrufen. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Zielordner 
-		</td>
-		<td>
-Ordner auswählen, in dem die Anmeldeinformationen im {{ de.VLT }} gespeichert werden. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Server URL 
-		</td>
-		<td>
-URL der {{ de.DVLS}} Instanz. 
-		</td>
-	</tr>
-</table>
+| REGISTERKARTE ALLGEMEIN | BESCHREIBUNG                                                |
+| ----------------------- | ----------------------------------------------------------- |
+| {{ de.DVLS }} aktivieren | Einträge von {{ de.DVLS }} abrufen.                         |
+| Zielordner              | Ordner auswählen, in dem die Anmeldeinformationen im {{ de.VLT }} gespeichert werden. |
+| Server URL              | URL der {{ de.DVLS}} Instanz.                               |
 
-<table>
-	<tr>
-		<th>
-REGISTERKARTE AKTIONEN 
-		</th>
-		<th>
-BESCHREIBUNG 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Anmeldeinformationen beim Laden automatisch abrufen
-		</td>
-		<td>
-{{ de.DWL }} sucht automatisch nach Anmeldeinformationen in der Datenquelle, wenn eine Verbindung zu einer Website hergestellt wird.
-<br>
+| REGISTERKARTE AKTIONEN                                         | BESCHREIBUNG                                                                                             |
+| ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| Anmeldeinformationen beim Laden automatisch abrufen           | {{ de.DWL }} sucht automatisch nach Anmeldeinformationen in der Datenquelle, wenn eine Verbindung zu einer Website hergestellt wird. <br> <br> Falls deaktiviert, klicken Sie auf das Symbol der Erweiterung {{ de.DWL }}, um die Anmeldeinformationen manuell abzurufen. |
+| Anmeldeinformationen beim Laden automatisch ausfüllen         | Füllt beim Laden der Website automatisch die Anmeldeinformationen aus.                                  |
+| Formular nach dem Ausfüllen automatisch absenden              | Übermittelt automatisch die Anmeldeinformationen, wenn die Felder ausgefüllt sind.                     |
 
-Falls deaktiviert, klicken Sie auf das Symbol der Erweiterung {{ de.DWL }}, um die Anmeldeinformationen manuell abzurufen. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Anmeldeinformationen beim Laden automatisch ausfüllen
-		</td>
-		<td>
-Füllt beim Laden der Website automatisch die Anmeldeinformationen aus. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Formular nach dem Ausfüllen automatisch absenden
-		</td>
-		<td>
-Übermittelt automatisch die Anmeldeinformationen, wenn die Felder ausgefüllt sind. 
-		</td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<th>
-REGISTERKARTE ERWEITERT 
-		</th>
-		<th>
-BESCHREIBUNG 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Standard Vergleich 
-		</td>
-		<td>
-Legen Sie einen Standard-Vergleichstyp fest zwischen <b><i>Basisdomäne</b></i>, <b><i>Host</b></i>,
-<b><i>Beginnt mit</b></i>, <b><i>RegEx</b></i>, <b><i>Exakt</b></i> und <b><i>Niemals</b></i>. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Alle verfügbaren {{ de.VLT }}e synchronisieren 
-		</td>
-		<td>
-Synchronisiert alle verfügbaren {{ de.VLT }}e von {{ de.DVLS }}. 
-		</td>
-	</tr>
-</table>
+| REGISTERKARTE ERWEITERT | BESCHREIBUNG                                                                                          |
+| ----------------------- | ----------------------------------------------------------------------------------------------------- |
+| Standard Vergleich     | Legen Sie einen Standard-Vergleichstyp fest zwischen ***Basisdomäne***, ***Host***, ***Beginnt mit***, ***RegEx***, ***Exakt*** und ***Niemals***. |
+| Alle verfügbaren {{ de.VLT }}e synchronisieren | Synchronisiert alle verfügbaren {{ de.VLT }}e von {{ de.DVLS }}.                                      |
 
 ### {{ de.DHUBB }} und {{ de.DHUBP }} <a name="hub"></a>
 
-<table>
-	<tr>
-		<th>
-REGISTERKARTE ALLGEMEIN 
-		</th>
-		<th>
-BESCHREIBUNG 
-		</th>
-	</tr>
-	<tr>
-		<td>
-{{ de.DHUBB }} / Personal aktivieren 
-		</td>
-		<td>
-Einträge von {{ de.DHUB }} abrufen. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Server URL (nur mit {{ de.DHUBB }} verfügbar) 
-		</td>
-		<td>
-URL der {{ de.DHUBB }}-Instanz. 
- 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Benutzername 
-		</td>
-		<td>
-Geben Sie einen Benutzernamen ein, um sich mit dem Hub zu verbinden. 
-		</td>
-	</tr>
-</table>
+| REGISTERKARTE ALLGEMEIN              | BESCHREIBUNG                                               |
+| ---------------------------------- | ---------------------------------------------------------- |
+| {{ de.DHUBB }} / Personal aktivieren | Einträge von {{ de.DHUB }} abrufen.                        |
+| Server URL (nur mit {{ de.DHUBB }} verfügbar) | URL der {{ de.DHUBB }}-Instanz.                           |
+| Benutzername                        | Geben Sie einen Benutzernamen ein, um sich mit dem Hub zu verbinden. |
 
-<table>
-	<tr>
-		<th>
-REGISTERKARTE AKTIONEN 
-		</th>
-		<th>
-BESCHREIBUNG 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Anmeldeinformationen beim Laden automatisch ausfüllen
-		</td>
-		<td>
-Füllt beim Laden der Website automatisch die Anmeldeinformationen aus. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Formular nach dem Ausfüllen automatisch absenden
-		</td>
-		<td>
-Übermittelt automatisch die Anmeldeinformationen, wenn die Felder ausgefüllt sind. 
-		</td>
-	</tr>
-</table>
+| REGISTERKARTE AKTIONEN                       | BESCHREIBUNG                                                       |
+| ------------------------------------------ | ------------------------------------------------------------------ |
+| Anmeldeinformationen beim Laden automatisch ausfüllen | Füllt beim Laden der Website automatisch die Anmeldeinformationen aus. |
+| Formular nach dem Ausfüllen automatisch absenden | Übermittelt automatisch die Anmeldeinformationen, wenn die Felder ausgefüllt sind. |
 
-<table>
-	<tr>
-		<th>
-REGISTERKARTE ERWEITERT 
-		</th>
-		<th>
-BESCHREIBUNG 
-		</th>
-	</tr>
-	<tr>
-		<td>
-{{ de.DA }} Anmeldung 
-		</td>
-		<td>
-Legen Sie die Anmelde-URL Ihres {{ de.DA }} fest. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Favicon anzeigen 
-		</td>
-		<td>
-Zeigt das Favicon von {{ de.DWL }} an. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ de.DWL }} 
-		</td>
-		<td>
-Aktiviert {{ de.DWL}} mit {{ de.DHUB }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Standard Vergleich 
-		</td>
-		<td>
-Legen Sie einen Standard-Vergleichstyp fest zwischen <b><i>Basisdomäne</b></i>, <b><i>Host</b></i>,
-<b><i>Beginnt mit</b></i>, <b><i>RegEx</b></i>, <b><i>Exakt</b></i> und <b><i>Niemals</b></i>. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Alle verfügbaren {{ de.VLT }}e synchronisieren (nur mit {{ de.DHUBB }} verfügbar) 
-		</td>
-		<td>
-Synchronisiert alle verfügbaren {{ de.VLT }}e von {{ de.DHUBB }}. 
-		</td>
-	</tr>
-</table>
+| REGISTERKARTE ERWEITERT                      | BESCHREIBUNG                                                       |
+| ------------------------------------------ | ------------------------------------------------------------------ |
+| {{ de.DA }} Anmeldung                       | Legen Sie die Anmelde-URL Ihres {{ de.DA }} fest.                  |
+| Favicon anzeigen                           | Zeigt das Favicon von {{ de.DWL }} an.                             |
+| {{ de.DWL }}                               | Aktiviert {{ de.DWL }} mit {{ de.DHUB }}.                          |
+| Standard Vergleich                         | Legen Sie einen Standard-Vergleichstyp fest zwischen ***Basisdomäne***, ***Host***, ***Beginnt mit***, ***RegEx***, ***Exakt*** und ***Niemals***. |
+| Alle verfügbaren {{ de.VLT }}e synchronisieren (nur mit {{ de.DHUBB }} verfügbar) | Synchronisiert alle verfügbaren {{ de.VLT }}e von {{ de.DHUBB }}. |
