@@ -43,111 +43,17 @@ Beachten Sie, dass die CSV-Datei unsere Variablen enthalten kann: Diese werden b
  
 Im Folgenden finden Sie eine nicht vollständige Liste einiger relevanter Felder.  
 
-<table>
-	<tr>
-		<th>
-FELD 
-		</th>
-		<th>
-BESCHREIBUNG 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Host 
-		</td>
-		<td>
-
-Hostname des Geräts. Dieses Feld ist **obligatorisch**. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Name des Eintrags. Dieses Feld ist **obligatorisch**. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-ConnectionType 
-		</td>
-		<td>
-
-Verbindungsart. Es empfiehlt sich, die Methode ***Zwischenablage - Kopieren*** zu verwenden, um die zulässigen Werte zu erhalten. Wenn keine Verbindungsart angegeben ist, wird standardmäßig RDP verwendet. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Group 
-		</td>
-		<td>
-Zielordner. Wenn der Importprozess selbst einen Zielordner definiert, wird der hier aufgeführte Ordner als Unterordner erstellt. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description 
-		</td>
-		<td>
-Beschreibung des Eintrags. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Open (Embedded)	 
-		</td>
-		<td>
-Boolescher Wert (true oder false), der angibt, dass die Sitzung eingebettete geöffnet werden soll. Der Standardwert ist false, was bedeutet, dass je nach Technologie (z. B. MSTSC.EXE) der Native Client verwendet wird. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Username 
-		</td>
-		<td>
-Benutzername, der zum Öffnen einer Sitzung verwendet wird. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Domain 
-		</td>
-		<td>
-Domäne, die zum Öffnen einer Sitzung verwendet wird. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Passwort 
-		</td>
-		<td>
-Passwort, das zum Öffnen einer Sitzung verwendet wird. Beachten Sie bitte, dass dieses Feld verschlüsselt ist und beim Import in einem anderen Feld gespeichert wird. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-MetaInformation\SerialNumber 
-		</td>
-		<td>
-Seriennummer des Geräts. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-MetaInformation\ServiceTag	 
-		</td>
-		<td>
-Service-Tag des Geräts. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-MetaInformation\PurchaseDate 
-		</td>
-		<td>
-Kaufdatum in einem ISO8601-Format (z. B. JJJJ-MM-TT). 
-		</td>
-	</tr>
-</table>
+| FELD                              | BESCHREIBUNG                                               |
+| --------------------------------- | ---------------------------------------------------------- |
+| Host                              | Hostname des Geräts. Dieses Feld ist **obligatorisch**.    |
+| Name                              | Name des Eintrags. Dieses Feld ist **obligatorisch**.      |
+| ConnectionType                    | Verbindungsart. Es empfiehlt sich, die Methode ***Zwischenablage – Kopieren*** zu verwenden, um die zulässigen Werte zu erhalten. Wenn keine Verbindungsart angegeben ist, wird standardmäßig RDP verwendet. |
+| Group                             | Zielordner. Wenn der Importprozess selbst einen Zielordner definiert, wird der hier aufgeführte Ordner als Unterordner erstellt. |
+| Description                       | Beschreibung des Eintrags.                                 |
+| Open (Embedded)                   | Boolescher Wert (true oder false), der angibt, dass die Sitzung eingebettet geöffnet werden soll. Der Standardwert ist false, was bedeutet, dass je nach Technologie (z. B. MSTSC.EXE) der Native Client verwendet wird. |
+| Username                          | Benutzername, der zum Öffnen einer Sitzung verwendet wird. |
+| Domain                            | Domäne, die zum Öffnen einer Sitzung verwendet wird.      |
+| Passwort                          | Passwort, das zum Öffnen einer Sitzung verwendet wird. Beachten Sie bitte, dass dieses Feld verschlüsselt ist und beim Import in einem anderen Feld gespeichert wird. |
+| MetaInformation\SerialNumber      | Seriennummer des Geräts.                                    |
+| MetaInformation\ServiceTag         | Service-Tag des Geräts.                                    |
+| MetaInformation\PurchaseDate       | Kaufdatum in einem ISO8601-Format (z. B. JJJJ-MM-TT).      |
