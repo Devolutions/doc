@@ -43,335 +43,61 @@ The ***Data sources*** settings are used to customize {{ en.DWL }} interactions 
 
 ### {{ en.RDM }} <a name="rdm"></a>
 
-<table>
-	<tr>
-		<th>
-GENERAL TAB 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Enable {{ en.RDM }} app 
-		</td>
-		<td>
-Retrieve entries from {{ en.RDM }} when the application is open. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Use default port (19443) 
-		</td>
-		<td>
-Communicate with the default port 19443 between the application. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Add entry in {{ en.UVLT }} by default 
-		</td>
-		<td>
-Save new entries in the {{ en.UVLT }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Destination folder 
-		</td>
-		<td>
-Choose the folder where the credentials are stored in the {{ en.VLT }}. 
-		</td>
-	</tr>
-</table>
+| GENERAL TAB                          | DESCRIPTION                                                    |
+| ----------------------------------- | -------------------------------------------------------------- |
+| Enable {{ en.RDM }} app             | Retrieve entries from {{ en.RDM }} when the application is open. |
+| Use default port (19443)            | Communicate with the default port 19443 between the application. |
+| Add entry in {{ en.UVLT }} by default | Save new entries in the {{ en.UVLT }}.                           |
+| Destination folder                  | Choose the folder where the credentials are stored in the {{ en.VLT }}. |
 
-<table>
-	<tr>
-		<th>
-ACTIONS TAB 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Automatically retrieve credentials on page load 
-		</td>
-		<td>
-{{ en.DWL }} automatically searches for credentials in the data source when connecting to a website.<br>
+| ACTIONS TAB                                      | DESCRIPTION                                                                               |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| Automatically retrieve credentials on page load   | {{ en.DWL }} automatically searches for credentials in the data source when connecting to a website. If disabled, click on the {{ en.DWL }} extension icon to manually retrieve credentials. |
+| Automatically fill in credentials on load         | Automatically fill the credentials when loading a web page.                                |
+| Automatically submit the form after filling      | Automatically submit the credentials when the fields are filled.                           |
 
-If disabled, click on the {{ en.DWL }} extension icon to manually retrieve credentials. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Automatically fill in credentials on load 
-		</td>
-		<td>
-Automatically fill the credentials when loading a web page. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Automatically submit the form after filling 
-		</td>
-		<td>
-Automatically submit the credentials when the fields are filled. 
-		</td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<th>
-ADVANCED TAB 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Application key 
-		</td>
-		<td>
-Secure the communication with an application key by using the same code in {{ en.RDM }} and {{ en.DWL }}.<br>
-
-Navigate to <b><i>File – Options – Browser Extensions</b></i> in {{ en.RDM }} to set the application key. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Enable native messaging 
-		</td>
-		<td>
-Exchange messages with a native application installed on the user's computer. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Use legacy API 
-		</td>
-		<td>
-Use the old browser extension API for compatibility with older versions of {{ en.RDM }}. 
-		</td>
-	</tr>
-</table>
+| ADVANCED TAB                     | DESCRIPTION                                                                               |
+| -------------------------------- | ----------------------------------------------------------------------------------------- |
+| Application key                  | Secure the communication with an application key by using the same code in {{ en.RDM }} and {{ en.DWL }}. <br> <br> Navigate to ***File – Options – Browser Extensions*** in {{ en.RDM }} to set the application key. |
+| Enable native messaging           | Exchange messages with a native application installed on the user's computer.              |
+| Use legacy API                   | Use the old browser extension API for compatibility with older versions of {{ en.RDM }}.    |
 
 ### {{ en.DVLS }} <a name="server"></a>
 
-<table>
-	<tr>
-		<th>
-GENERAL TAB 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Enable {{ en.DVLS }} 
-		</td>
-		<td>
-Retrieve entries from {{ en.DVLS }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Destination folder 
-		</td>
-		<td>
-Choose the folder where the credentials are stored in the {{ en.VLT }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Server URL 
-		</td>
-		<td>
-Enter the URL of the {{ en.DVLS }} instance to connect to. 
-		</td>
-	</tr>
-</table>
+| GENERAL TAB            | DESCRIPTION                                        |
+| ---------------------- | -------------------------------------------------- |
+| Enable {{ en.DVLS }}  | Retrieve entries from {{ en.DVLS }}.              |
+| Destination folder     | Choose the folder where the credentials are stored in the {{ en.VLT }}. |
+| Server URL             | Enter the URL of the {{ en.DVLS }} instance to connect to. |
 
-<table>
-	<tr>
-		<th>
-ACTIONS TAB 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Automatically retrieve credentials on page load 
-		</td>
-		<td>
-{{ en.DWL }} automatically searches for credentials in the data source when connecting to a website.<br>
+| ACTIONS TAB                                   | DESCRIPTION                                                                                                           |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Automatically retrieve credentials on page load | {{ en.DWL }} automatically searches for credentials in the data source when connecting to a website. <br> <br> If disabled, click on the {{ en.DWL }} extension icon to manually retrieve credentials. |
+| Automatically fill in credentials on load     | Automatically fill the credentials when loading a web page.                                                           |
+| Automatically submit the form after filling   | Automatically submit the credentials when the fields are filled.                                                     |
 
-If disabled, click on the {{ en.DWL }} extension icon to manually retrieve credentials. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Automatically fill in credentials on load 
-		</td>
-		<td>
-Automatically fill the credentials when loading a web page. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Automatically submit the form after filling 
-		</td>
-		<td>
-Automatically submit the credentials when the fields are filled. 
-		</td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<th>
-ADVANCED TAB 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Default compare type 
-		</td>
-		<td>
-Set a default comparing option type between <b><i>Base domain</b></i>, <b><i>Host</b></i>, <b><i>Starts with</b></i>, <b><i>RegEx</b></i>, <b><i>Exact</b></i>, and <b><i>Never</b></i>. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sync all available {{ en.VLT }}s 
-		</td>
-		<td>
-Enable to synchronize all the available {{ en.VLT }}s from {{ en.DVLS }}. 
-		</td>
-	</tr>
-</table>
+| ADVANCED TAB        | DESCRIPTION                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| Default compare type | Set a default comparing option type between ***Base domain***, ***Host***, ***Starts with***, ***RegEx***, ***Exact***, and ***Never***. |
+| Sync all available {{ en.VLT }}s | Enable to synchronize all the available {{ en.VLT }}s from {{ en.DVLS }}. |
 
 ### {{ en.DHUBB }} and {{ en.DHUBP }} <a name="hub"></a>
 
-<table>
-	<tr>
-		<th>
-GENERAL TAB 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Enable {{ en.DHUBB }}/Personal 
-		</td>
-		<td>
-Retrieve entries from {{ en.DHUB }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Server URL (available with {{ en.DHUBB }} only) 
-		</td>
-		<td>
-Enter the URL of the {{ en.DHUBB }} instance to connect to. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Username 
-		</td>
-		<td>
-Enter a username to connect to {{ en.DHUB }} with. 
-		</td>
-	</tr>
-</table>
+| GENERAL TAB                      | DESCRIPTION                                     |
+| -------------------------------- | ----------------------------------------------- |
+| Enable {{ en.DHUBB }}/Personal   | Retrieve entries from {{ en.DHUB }}.           |
+| Server URL (available with {{ en.DHUBB }} only) | Enter the URL of the {{ en.DHUBB }} instance to connect to. |
+| Username                         | Enter a username to connect to {{ en.DHUB }} with. |
 
-<table>
-	<tr>
-		<th>
-ACTIONS TAB 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Automatically fill in credentials on load 
-		</td>
-		<td>
-Automatically fill the credentials when loading a web page. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Automatically submit the form after filling 
-		</td>
-		<td>
-Automatically submit the credentials when the fields are filled. 
-		</td>
-	</tr>
-</table>
+| ACTIONS TAB                        | DESCRIPTION                                    |
+| ----------------------------------- | ---------------------------------------------- |
+| Automatically fill in credentials on load | Automatically fill the credentials when loading a web page. |
+| Automatically submit the form after filling | Automatically submit the credentials when the fields are filled. |
 
-<table>
-	<tr>
-		<th>
-ADVANCED TAB 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-{{ en.DA }} login 
-		</td>
-		<td>
-Set your {{ en.DA }} login URL. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Show Favicon 
-		</td>
-		<td>
-Display the {{ en.DWL }} favicon. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.DWL }} 
-		</td>
-		<td>
-Enable or disable {{ en.DWL }} with {{ en.DHUB }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Default compare type 
-		</td>
-		<td>
-Set a default comparing option type between <b><i>Base domain</b></i>, <b><i>Host</b></i>, <b><i>Starts with</b></i>, <b><i>RegEx</b></i>, <b><i>Exact</b></i>, and <b><i>Never</b></i> 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sync all available {{ en.VLT }}s (available with {{ en.DHUBB }} only) 
-		</td>
-		<td>
-Enable to synchronize all the available {{ en.VLT }}s from {{ en.DHUBB }}. 
-		</td>
-	</tr>
-</table>
+| ADVANCED TAB                     | DESCRIPTION                                              |
+| -------------------------------- | -------------------------------------------------------- |
+| {{ en.DA }} login                | Set your {{ en.DA }} login URL.                         |
+| Show Favicon                     | Display the {{ en.DWL }} favicon.                        |
+| {{ en.DWL }}                     | Enable or disable {{ en.DWL }} with {{ en.DHUB }}.       |
+| Default compare type             | Set a default comparing option type between ***Base domain***, ***Host***, ***Starts with***, ***RegEx***, ***Exact***, and ***Never***. |
+| Sync all available {{ en.VLT }}s (available with {{ en.DHUBB }} only) | Enable to synchronize all the available {{ en.VLT }}s from {{ en.DHUBB }}. |
