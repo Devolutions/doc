@@ -2,6 +2,11 @@
 eleventyComputed:
   title: LastPass two-factor authentication
 ---
+
+{% snippet icon.badgeInfo %}
+The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
+{% endsnippet %}  
+
 Every time I use a device referencing to my LastPass integration, it asks for my Two Factor Authentication (2FA) every single time.
 
 ## Solution

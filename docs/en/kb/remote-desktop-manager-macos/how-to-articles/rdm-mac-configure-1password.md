@@ -3,6 +3,11 @@ eleventyComputed:
   title: '{{ en.RDMMAC }} configure 1Password'
   description: 
 ---
+
+{% snippet icon.badgeInfo %}
+The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
+{% endsnippet %}  
+
 You can create 1Password credential entries in {{ en.RDMMAC }}. However, 1Password needs to be configured to allow the synchronization of the database.  
 
 1. Open 1Password and select the {{ en.VLT }} that you want to sync with {{ en.RDMMAC }}.  
