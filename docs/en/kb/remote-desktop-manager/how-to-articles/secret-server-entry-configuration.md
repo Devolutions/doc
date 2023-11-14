@@ -2,17 +2,13 @@
 eleventyComputed:
   title: Secret server entry configuration
   description: Follow this step-by-step to configure your entries to use Secret Server credentials in {{ en.RDM }}.
-  keywords:
-  - secret server
-  - credential
 ---
 The ***Secret Server*** integration is quite straightforward in {{ en.RDM }}. Follow this step-by-step to configure your entries to use ***Secret Server*** credentials. 
 
 ## Step-by-step guide 
 
-<ol>
-  <li>In {{ en.RDM }}, create a new <b><i>Secret Server</i></b> entry.</li>
-  <li>In the <b><i>General</i></b> tab, enter the <b><i>URL</i></b> you are using to connect to the <b><i>Secret Server</i></b> instance.</li>
+1. In {{ en.RDM }}, create a new ***Secret Server*** entry.
+1. In the ***General*** tab, enter the ***URL*** you are using to connect to the ***Secret Server*** instance.
 
 {% snippet icon.badgeNotice %} 
 It will either be https<area>://server or https<area>://server/SecretServer. 
@@ -20,15 +16,13 @@ It will either be https<area>://server or https<area>://server/SecretServer.
  
 ![Secret Server URL](https://webdevolutions.azureedge.net/docs/en/kb/KB5021.png) 
 
-  <li>Credentials information setup:  
-    <ol>
-      <li>If you are the only one using this entry, you could place your credentials information directly under the <b><i>General</i></b> tab.</li>
-      <li>In a shared team, select the <b><i>Use "My Account Settings"</i></b> option under the <b><i>General</i></b> tab. After the entry is completed, each user will need to go in <b><i>File – My Account Settings – Secret Server</i></b> to enter their information.</li>
-    </ol>
-  </li>
+Credentials information setup:  
+
+3. If you are the only one using this entry, you could place your credentials information directly under the ***General*** tab.
+1. In a shared team, select the ***Use "My Account Settings"*** option under the ***General*** tab. After the entry is completed, each user will need to go in ***File*** – ***My Account Settings*** – ***Secret Server*** to enter their information.
 
 ![My Secret Server Account](https://webdevolutions.azureedge.net/docs/en/kb/KB4027.png) 
-  <li>Two Factor Authentication (2FA) is supported with the <b><i>Secret Server</i></b> entry. 
+Two Factor Authentication (2FA) is supported with the ***Secret Server*** entry. 
 {% snippet icon.badgeInfo %} 
 SAML is not yet supported, but it should be in version 2023.1 of {{ en.RDM }}. 
 {% endsnippet %}
@@ -36,17 +30,17 @@ SAML is not yet supported, but it should be in version 2023.1 of {{ en.RDM }}.
 {% snippet icon.badgeCaution %} 
 There is a limitation with the Rest API, you cannot have 2FA with Windows Authentication. 
 {% endsnippet %}
-    <ol>
-      <li>To do so, enter your information at the bottom of the <b><i>Secret Server</i></b> entry. </li>
-      <li>For the <b><i>Two factor mode</i></b>, select <b><i>Ask only when the session expires</i></b>. This way you will get the 2FA prompt when you open {{ en.RDM }}, and it should last all day after. You will not need to re-enter it every time you want to use a credential, unless that is what you prefer and in that case, select <b><i>Ask on every login</i></b>. </li>
+
+1. To do so, enter your information at the bottom of the ***Secret Server*** entry. 
+1. For the ***Two factor mode***, select ***Ask only when the session expires***. This way you will get the 2FA prompt when you open {{ en.RDM }}, and it should last all day after. You will not need to re-enter it every time you want to use a credential, unless that is what you prefer and in that case, select ***Ask on every login***.
 <img src="https://webdevolutions.azureedge.net/docs/en/kb/KB4062.png" alt="!!Secret Server Two factor mode">
 <i>Secret Server Two factor mode</i> 
-      <li>In the <b><i>Credential Selection</i></b> tab, select <b><i>Prompt For List</i></b>. </li>
+
+1. In the ***Credential Selection*** tab, select ***Prompt For List***.
 <img src="https://webdevolutions.azureedge.net/docs/en/kb/KB4028.png" alt="!!Credential Selection">  
 <i>Credential Selection</i> 
-    </ol>
-  </li>
-  <li>In the session you want to use the <b><i>Secret Server</i></b> credentials with (RDP, etc.), you select the <b><i>Credentials</i></b> you created with <b><i>Linked ({{ en.VLT }})</i></b>, and then you can click the <b><i>Select from List</i></b> to specify the account you wish to use. </li>
+
+4. In the session you want to use the ***Secret Server*** credentials with (RDP, etc.), you select the ***Credentials*** you created with ***Linked ({{ en.VLT }})***, and then you can click the ***Select from List*** to specify the account you wish to use.
 
 ![Credentials – Select from list](https://webdevolutions.azureedge.net/docs/en/kb/KB4059.png) 
 
@@ -54,5 +48,4 @@ This way, you have one ***Secret Server*** entry for all the connections.
 {% snippet icon.badgeNotice %} 
 You could also, if you prefer, select the credentials you want directly under the ***Credential Selection*** tab in the ***Secret Server*** entry. 
 {% endsnippet %}
- </ol>
 
