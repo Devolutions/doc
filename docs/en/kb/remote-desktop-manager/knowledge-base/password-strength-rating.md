@@ -21,3 +21,7 @@ Consult the table below to identify the corresponding strength label for each nu
 | Strong                       | Less than 80                 |
 | Very Strong                  | Less than 100                |
 | Perfect                      | Anything else (cannot be achieved) |
+
+{% snippet icon.badgeHelp %}
+Learn more about [Compromised (pwned) password check](/kb/remote-desktop-manager/how-to-articles/pwned-password-check/).
+{% endsnippet %}
