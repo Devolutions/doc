@@ -7,7 +7,7 @@ eleventyComputed:
 
 ## Settings 
 
-![Administration - Users](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6062.png) 
+![Administration - Users](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6082.png) 
 
 {% snippet icon.badgeInfo %}
 ***User Specific Settings*** are shared between {{ en.RDM }}, {{ en.DVLS }} and {{ en.DHUB }}.
@@ -27,7 +27,7 @@ Description
 	<tr>
 		<td>
 
-![AddSmallGrey](https://webdevolutions.azureedge.net/docs/en/server/Icons/AddSmallGrey.png) 
+![!!AddSmallGrey](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6079.png) 
 		</td>
 		<td>
 Add a user. 
@@ -35,7 +35,7 @@ Add a user.
 	</tr>
 	<tr>
 		<td>
-![NavImportSmall](https://webdevolutions.azureedge.net/docs/common/NavImportSmall.png) 
+![!!NavImportSmall](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6080.png) 
 		</td>
 		<td>
 Import users from LDAP or Azure. 
@@ -43,7 +43,23 @@ Import users from LDAP or Azure.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshGraySmall](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshGraySmall.png) 
+![!!Migrate_user](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6077.png) 
+		</td>
+		<td>
+Migrate users and user groups from one authentication provider to another.
+		</td>
+	</tr>
+	<tr>
+		<td>
+![!!NavImportSmall](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6078.png) 
+		</td>
+		<td>
+Synchronize users from provider(s). 
+		</td>
+	</tr>
+	<tr>
+		<td>				
+![!!RibbonRefreshGraySmall](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6081.png) 
 		</td>
 		<td>
 Refresh users list. 
