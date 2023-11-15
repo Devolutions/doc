@@ -24,96 +24,24 @@ When creating your privileged account, you need to provide some information. See
 
 ### General information
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Name of the privileged account entry.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Folder
-		</td>
-		<td>
-Location of the entry inside the PAM {{ en.VLT }}. Leave it empty to create the entry at the root.
-		</td>
-	</tr>
-</table>
+| Option  | Description                                                    |
+|---------|----------------------------------------------------------------|
+| Name    | Name of the privileged account entry.                          |
+| Folder  | Location of the entry inside the PAM Vault. Leave it empty to create the entry at the root. |
 
 ### Connection information
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Provider 
-		</td>
-		<td>
-Name of the PAM provider.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Username
-		</td>
-		<td>
-Username of the privileged account. The username must match the real username used in the provider.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Current password
-		</td>
-		<td>
-
-If you know the password, enter it here. If not, you can leave this field blank and reset the password on the entry after its creation.
-Editing your password in the ***Edit Credential*** window only changes your password in the hub database. The password will not be updated on the domain. If you would like to change your password everywhere, click ***Reset password*** on the credential entry.
-		</td>
-	</tr>
-</table>
+| Option           | Description                                                                                       |
+|------------------|---------------------------------------------------------------------------------------------------|
+| Provider         | Name of the PAM provider.                                                                         |
+| Username         | Username of the privileged account. The username must match the real username used in the provider. |
+| Current password | If you know the password, enter it here. If not, you can leave this field blank and reset the password on the entry after its creation. Editing your password in the ***Edit Credential*** window only changes your password in the hub database. The password will not be updated on the domain. If you would like to change your password everywhere, click ***Reset password*** on the credential entry. |
 
 ### Password settings
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Password template mode
-		</td>
-		<td>
-
-Select the password template mode to use between:
-* ***Inherited***: Inherits the password template specified in the parent folder.
-* ***Custom***: Select a custom password template previously created.
-* ***From Provider***: Uses the provider's password template.
-		</td>
-	</tr>
-</table>
+| Option                  | Description                                                                                                                          |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Password template mode  | Select the password template mode to use between: <br> <br> ***Inherited***: Inherits the password template specified in the parent folder. <br> ***Custom***: Select a custom password template previously created. <br> ***From Provider***: Uses the provider's password template.                                                                                 |
 
 ## Verifying your configuration
 
