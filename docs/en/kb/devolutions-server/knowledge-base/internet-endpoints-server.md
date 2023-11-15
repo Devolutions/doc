@@ -1,17 +1,17 @@
 ---
 eleventyComputed:
   title: List of Internet endpoints accessed by {{ en.DVLS }}
-  description: This is the list of addresses that are accessed by {{ en.DVLS }} during normal operation, as well as the setting(s) to disable/prevent this access.
+  description: This is the list of addresses that are accessed by {{ en.DVLS }} and the {{ en.DVLSCONSOLE }} during normal operation, as well as the setting(s) to disable/prevent this access.
   keywords: 
   - endpoints
 ---
-This is the list of addresses that are accessed by {{ en.DVLS }} during normal operation, as well as the setting(s) to disable/prevent this access.
+These are the lists of addresses that are accessed by {{ en.DVLS }} and the {{ en.DVLSCONSOLE }} during normal operation, as well as the setting(s) to disable/prevent this access.
 
 {% snippet icon.badgeWarning %}
 We use a "best effort" approach to maintain this list, but it does **NOT** replace proper IT security practices. If security is paramount, it would be better to first block all internet access, then allowlist desired addresses as needed.
 {% endsnippet %}
 
-## Endpoints list
+## {{ en.DVLS }} endpoints list
 
 | Description                    | URL                                                                            | Related setting(s) / action |
 | ------------------------------ | ------------------------------------------------------------------------------ | ------------------------- |
@@ -31,3 +31,7 @@ We use a "best effort" approach to maintain this list, but it does **NOT** repla
 | Yubikey                        | https<area>://api.yubico.com<br>https<area>://api2.yubico.com<br>https<area>://api3.yubico.com<br>https<area>://api4.yubico.com<br>https<area>://api5.yubico.com<br> | Administration – Server Settings – Multi-factor |
 | Twilio                         | https<area>://api.twilio.com                                                   | Administration – Server Settings – Multi-factor – SMS |
 | Duo                            | https<area>://api.<>.duosecurity.com                                           | Administration – Server Settings – Multi-factor |
+
+## {{ en.DVLSCONSOLE }} endpoints list
+
+| [{{ en.DVLS }} script installation](/server/installation/installing-web-server-prerequisites/) | https<area>://api.devolutions.net<br>https<area>://iis.net<br>https<area>://dotnet.microsoft.com | {{ en.DVLS }} service installation |
