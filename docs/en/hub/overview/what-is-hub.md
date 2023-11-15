@@ -20,68 +20,10 @@ Security is at the core of {{ en.DHUB }} since it is hosted by [Microsoft Azure]
 
 {% youtube '5vpGXoULNSU' %}  
 
-<table>
-	<tr>
-		<td>
+| ![!!ApplicationDWL64x64](https://webdevolutions.azureedge.net/docs/common/ApplicationDWL64x64.png) <br> <br> **{{ en.DWL }} <br> <br> Automatically fill and save credentials** {width=250px} | ![!!launcher-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/launcher-icon-shadow.png) <br> <br> **{{ en.DLAUNCHER }} <br> <br> Remote Access Technology** | ![!!password-hub-importer-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/password-hub-importer-icon-shadow.png) <br> <br> **{{ en.DHUBI }} <br> <br> Data importer** |
+| --- | --- | --- |
+| [{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s. | The application provides users with a simple method of launching remote sessions from the {{ en.DHUB }} web interface. | The essential tool designed to easily and quickly import credentials into your hub from multiple third-party applications or services. |
 
-![!!ApplicationDWL64x64](https://webdevolutions.azureedge.net/docs/common/ApplicationDWL64x64.png)  
-
-## {{ en.DWL }}  
-
-Automatically fill and save credentials 
-		</td>
-		<td>
-![!!launcher-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/launcher-icon-shadow.png)  
-
-## {{ en.DLAUNCHER }}  
-
-Remote Access Technology  
-		</td>
-		<td>
-![!!password-hub-importer-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/password-hub-importer-icon-shadow.png)  
-
-## {{ en.DHUBI }}  
-
-Data Importer  
-		</td>
-	</tr>
-	<tr>
-		<td>
-[{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s. 
-		</td>
-		<td>
-The application provides users with a simple method of launching remote sessions from the {{ en.DHUB }} web interface. 
-		</td>
-		<td>
-The essential tool designed to easily and quickly import credentials into your hub from multiple third-party applications or services. 
-		</td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td>
-
-![!!devolutions-workspace-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/workspace-icon-shadow.png)  
-
-## {{ en.DWS }}  
-
-Centralized Cloud-Based Environment  
-		</td>
-		<td>
-![!!remote-desktop-manager-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/remote-desktop-manager-icon-shadow.png)  
-
-## {{ en.RDM }}  
-
-Centralize, Manage, and Secure Remote Connections  
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.DWS }} is a mobile and desktop application that brings together Authenticator, {{ en.DHUBB }}, {{ en.DHUBP }}, and {{ en.DVLS }} into a single, centralized, cloud-based location. 
-		</td>
-		<td>
-{{ en.RDM }} centralizes all remote connections on a single platform that is securely shared between users and across the entire team. {{ en.DHUB }} can be used as a data source in {{ en.RDM }}. 
-		</td>
-	</tr>
-</table>
+| ![!!devolutions-workspace-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/workspace-icon-shadow.png) <br> <br> **{{ en.DWS }} <br> <br> Centralized Cloud-Based Environment** | ![!!remote-desktop-manager-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/remote-desktop-manager-icon-shadow.png) <br> <br> **{{ en.RDM }} <br> <br> Centralize, Manage, and Secure Remote Connections** |
+| --- | --- |
+| {{ en.DWS }} is a mobile and desktop application that brings together Authenticator, {{ en.DHUBB }}, {{ en.DHUBP }}, and {{ en.DVLS }} into a single, centralized, cloud-based location. | {{ en.RDM }} centralizes all remote connections on a single platform that is securely shared between users and across the entire team. {{ en.DHUB }} can be used as a data source in {{ en.RDM }}. |
