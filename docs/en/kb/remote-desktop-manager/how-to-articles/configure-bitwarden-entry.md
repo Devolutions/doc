@@ -9,6 +9,11 @@ In {{ en.RDM }} there are the <a href="#credential-management">***Credential Man
 {% snippet icon.badgeCaution %}
 Email ***Authentication mode*** is now deprecated for ***Bitwarden*** entries and unavailable from 2023.2 onwards.
 {% endsnippet %}  
+
+{% snippet icon.badgeInfo %}
+The integration of credentials from password managers is only available in the Team version of Remote Desktop Manager.
+{% endsnippet %}  
+
 {% snippet icon.badgeHelp %}
 To learn more about creating and managing a Bitwarden account, please consult the [documentation](https://bitwarden.com/help/) on their official website.
 {% endsnippet %}

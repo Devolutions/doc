@@ -9,6 +9,10 @@ Configure and enable users to securely access all of your Psono entries and cred
 Psono is integrated in {{ en.RDM }} versions 2022.1 and higher.
 {% endsnippet %}  
 
+{% snippet icon.badgeInfo %}
+The integration of credentials from password managers is only available in the Team version of Remote Desktop Manager.
+{% endsnippet %}  
+
 1. <a href="#psono">Configure Psono</a>
 1. <a href="#rdm">Configure Psono in {{ en.RDM }}</a>
 

@@ -4,6 +4,11 @@ eleventyComputed:
   description: The following steps show how to configure KeePass with {{ en.RDM }}, as well as different ways it can be used as a plugin.
 ---
 The following steps show how to configure KeePass with {{ en.RDM }}, as well as different ways it can be used as a plugin.
+
+{% snippet icon.badgeInfo %}
+The integration of credentials from password managers is only available in the Team version of Remote Desktop Manager.
+{% endsnippet %}  
+
 {% snippet icon.badgeInfo %}
 Only the latest version of KeePass is compatible with the {{ en.RDM }} plugins.
 {% endsnippet %}  

@@ -1,13 +1,15 @@
 ---
 eleventyComputed:
-  title: Configure a password pepot entry in {{ en.RDM }}
+  title: Configure a password depot entry in {{ en.RDM }}
   description: 
-  keywords:
-  - Password Depot
 ---
 Every field from the ***Password Depot*** entry is described below.
 {% snippet icon.badgeInfo %}
 To learn more about creating and managing a Password Depot account, please consult the documentation on their official website.
+{% endsnippet %}  
+
+{% snippet icon.badgeInfo %}
+The integration of credentials from password managers is only available in the Team version of Remote Desktop Manager.
 {% endsnippet %}  
 
 The entry can be found under ***New Entry*** – ***Credential Management*** – ***Password Management***.  

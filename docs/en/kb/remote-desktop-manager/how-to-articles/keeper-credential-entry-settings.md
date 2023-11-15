@@ -4,6 +4,10 @@ eleventyComputed:
 ---
 Keeper is one of the multiple external password managers integrated in {{ en.RDM }}
 
+{% snippet icon.badgeInfo %}
+The integration of credentials from password managers is only available in the Team version of Remote Desktop Manager.
+{% endsnippet %}  
+
 ## Settings
 
 ***Login type*** determines the method that {{ en.RDM }} will use to connect to Keeper.  
