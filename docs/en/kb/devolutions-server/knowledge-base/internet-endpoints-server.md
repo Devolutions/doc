@@ -34,4 +34,6 @@ We use a "best effort" approach to maintain this list, but it does **NOT** repla
 
 ## {{ en.DVLSCONSOLE }} endpoints list
 
+| Description                    | URL                                                                            | Related setting(s) / action |
+| ------------------------------ | ------------------------------------------------------------------------------ | ------------------------- |
 | [{{ en.DVLS }} script installation](/server/installation/installing-web-server-prerequisites/) | https<area>://api.devolutions.net<br>https<area>://iis.net<br>https<area>://dotnet.microsoft.com | {{ en.DVLS }} service installation |
