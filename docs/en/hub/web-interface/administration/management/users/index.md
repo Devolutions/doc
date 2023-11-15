@@ -37,73 +37,15 @@ In the ***User groups*** tab, you can assign them to one or more user groups wit
 
 ![Edit settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2277.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION
-		</th>
-		<th>
-DESCRIPTION
-		</th>
-	</tr>
-	<tr>
-		<td>
-Is enabled
-		</td>
-		<td>
-Enables the user in the hub.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Enable {{ en.DWL }}
-		</td>
-		<td>
-Allows the user to use the hub with our {{ en.DWL }} browser extension.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Enable {{ en.DWS }}
-		</td>
-		<td>
-Allows the user to use the hub with our {{ en.DWS }} {{ en.CTOOL }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow offline in {{ en.RDM }} 
-		</td>
-		<td>
-Allows the user to use the hub as a data source in offline mode in {{ en.RDM }}.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Is administrator
-		</td>
-		<td>
-Sets the user as an administrator of the hub. This option cannot be changed if the user is the owner of the hub (as seen in the image above).
-		</td>
-	</tr>
-	<tr>
-		<td>  
-
-[Allow send messages](hub/web-interface/secure-messages/)
-		</td>
-		<td>
-Select if the user is allowed to send messages with entries, without entries, or is not allowed to send messages.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Usage profile
-		</td>
-		<td>
-Select the user's usage profile between <b><i>IT professional</i></b>, <b><i>Business user</i></b>, or the <b><i>Default</i></b>. This cannot only be changed when editing the user, not when creating them.
-		</td>
-	</tr>
-</table>
+| OPTION                           | DESCRIPTION                                                                                                                                                                                                                       |
+|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Is enabled                       | Enables the user in the hub.                                                                                                                                                                                                     |
+| Enable {{ en.DWL }}               | Allows the user to use the hub with our {{ en.DWL }} browser extension.                                                                                                                                                             |
+| Enable {{ en.DWS }}               | Allows the user to use the hub with our {{ en.DWS }} {{ en.CTOOL }}.                                                                                                                                                                |
+| Allow offline in {{ en.RDM }}     | Allows the user to use the hub as a data source in offline mode in {{ en.RDM }}.                                                                                                                                                  |
+| Is administrator                  | Sets the user as an administrator of the hub. This option cannot be changed if the user is the owner of the hub (as seen in the image above).                                                                                   |
+| [Allow send messages](hub/web-interface/secure-messages/) | Select if the user is allowed to send messages with entries, without entries, or is not allowed to send messages.                                                                                                            |
+| Usage profile                     | Select the user's usage profile between ***IT professional***, ***Business user***, or the ***Default***. This cannot only be changed when editing the user, not when creating them.                                           |
 
 ## Delete a user
 
