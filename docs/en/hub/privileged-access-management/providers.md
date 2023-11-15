@@ -14,88 +14,21 @@ See [Create an Azure AD PAM provider](/kb/hub-business/how-to-articles/create-az
 
 ## General 
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Display name of the provider 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description 
-		</td>
-		<td>
-Description of the provider 
-		</td>
-	</tr>
-</table>
+| Option       | Description                  |
+|--------------|------------------------------|
+| Name         | Display name of the provider |
+| Description  | Description of the provider  |
 
 ## Password settings 
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Password template used on generation 
-		</td>
-		<td>
-		
-[Password template](/hub/web-interface/administration/management/password-templates/) used to generate the password during the reset password operation 
-		</td>
-	</tr>
-</table>
+| Option                                       | Description                                                               |
+|----------------------------------------------|---------------------------------------------------------------------------|
+| Password template used on generation         | [Password template](/hub/web-interface/administration/management/password-templates/) used to generate the password during the reset password operation |
 
 ## Server 
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Tenant ID 
-		</td>
-		<td>
-ID of the Azure tenant 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Client ID 
-		</td>
-		<td>
-ID of the Azure application 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Secret key 
-		</td>
-		<td>
-Secret key of the Azure application
-		</td>
-	</tr>
-</table>
+| Option       | Description                           |
+|--------------|---------------------------------------|
+| Tenant ID    | ID of the Azure tenant                |
+| Client ID    | ID of the Azure application           |
+| Secret key   | Secret key of the Azure application   |
