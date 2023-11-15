@@ -4,44 +4,15 @@ eleventyComputed:
   description: System requirements for Devolutions Gateway 
   order: 20
 ---
-{{ en.DGW }} requires the following:  
+To use {{ en.DGW }}, your system must meet the following requirements.
 
 ## Requirements 
 
 ### Hardware specifications 
 
-<table>
-	<tr>
-		<th>
-
-Small implementation 
-(1-10 concurrent sessions) 
-		</th>
-		<th>
-Mid-range implementation 
-(15-75 concurrent sessions) 
-		</th>
-		<th>
-Large implementation** 
-(75+ concurrent sessions) 
-		</th>
-	</tr>
-	<tr>
-		<td>
-8 core processors 
-8 GB RAM 
-Network Adapter (1 GB) 
-		</td>
-		<td>
-16 core processors 
-16 GB RAM 
-Network Adapter (1 GB) 
-		</td>
-		<td>
-** We recommend deploying multiple {{ en.DGW }}. 
-		</td>
-	</tr>
-</table>
+| Small implementation <br> (1-10 concurrent sessions) {width=225px} | Mid-range implementation <br> (15-75 concurrent sessions) {width=270px} | Large implementation <br> (75+ concurrent sessions) |
+| --- | --- | --- |
+| 8 core processors <br> 8 GB RAM <br> Network Adapter (1 GB) | 16 core processors <br> 16 GB RAM <br> Network Adapter (1 GB) | We recommend deploying multiple {{ en.DGW }}. |
 
 {% snippet icon.badgeInfo %} 
 One {{ en.DGW }} can handle up to 75 concurrent sessions with good performance. 
