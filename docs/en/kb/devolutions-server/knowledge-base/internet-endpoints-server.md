@@ -15,8 +15,8 @@ We use a "best effort" approach to maintain this list, but it does **NOT** repla
 
 | Description                    | URL                                                                            | Related setting(s) / action |
 | ------------------------------ | ------------------------------------------------------------------------------ | ------------------------- |
-| {{ en.DVLS }} update check              | https<area>://devolutions.net                                                  | {{ en.DVLSCONSOLE }} – Support – Check for Updates |
-| {{ en.DVLS }} update - package download | https<area>://cdn.devolutions.net                                              | User action in the upgrade available dialog |
+| {{ en.DVLS }} update check              | https<area>://devolutions.net                                         | {{ en.DVLSCONSOLE }} – Support – Check for Updates |
+| {{ en.DVLS }} update - package download | https<area>://cdn.devolutions.net                                     | User action in the upgrade available dialog |
 | Block Tor clients              | https<area>://cloud.devolutions.net                                            | Administration – Server Settings – Features |
 | Azure Authentication           | https<area>://login.microsoftonline.com<br>https<area>://graph.microsoft.com   | Administration – Server Settings – Authentication – Microsoft Authentication |
 | Okta Authentication            | https<area>://< domain >.okta.com                                              | Administration – Server Settings – Authentication |
@@ -24,6 +24,7 @@ We use a "best effort" approach to maintain this list, but it does **NOT** repla
 | Telemetry                      | https<area>://telemetry.devolutions.net                                        | Administration – Server Settings – Features – Share anonymous usage data with Devolutions |
 | Have I Been Pwned              | https<area>://api.pwnedpasswords.com                                           | Administration – Server Settings – Features – Enable compromised (pwned) check |
 | Push Notification              | https<area>://login.devolutions.com<br>https<area>://api.devolutions.com       | Administration – Server Settings – Features – Enable {{ en.DWS }} Push Notification |
+| Licenses                       | https<area>://api.devolutions.com                                              | Administration – Server Settings – Features – Enable Internet Access |
 | Slack Integration              | https<area>://slack.com                                                        | Administration – Server Settings – Logging – Slack Integration |
 | SMTP, Authentication Azure     | https<area>://graph.microsoft.com                                              | Administration – Server Settings – Email – Authentication type |
 | Geo IP                         | https<area>://geoip.maxmind.com                                                | Administration – Server Settings – GeoIP Security |
