@@ -2,8 +2,6 @@
 eleventyComputed:
   title: Session recording
   description: Session recording provides a record of what a user did while a remote connection was opened in {{ en.RDM }}.
-  keywords:
-  - Session recording
 ---
 Session recording provides a record of what a user did while a remote connection was opened in {{ en.RDM }}. It records one frame per second and creates a video in webm format.
 
@@ -37,7 +35,7 @@ Session recording is only available in embedded mode.
 * ***Inherited***: Setting is inherited from parent folder.
 * ***Optional***: User is prompted to record when they open the session. If they decline, the session still opens.
 * ***Required***: Recording starts automatically. If there is an issue with recording the session does not open.
-* ***Required (When Available)***: Recording starts automatically. If there is an issue with the recording, the session will launch and no recording will be available. 
+* ***Required (When Supported)***: Recording starts automatically. If there is an issue with the recording, the session will launch and no recording will be available. 
 * ***Never***: Session recording is turned off. 
 * ***Root (Default)***: Refers to {{ en.VLT }}. Default on {{ en.VLT }} means ***Never***. 
 4. Choose the ***Recording*** method. 
@@ -67,7 +65,14 @@ We recommend choosing a custom file extension, for example on a shared network.
 * ***Custom***: Customize the file name. 
   * Choose ***Always prompt for name*** to ask users to name the recording. 
   * Use variables to customize the file name. Click the ***Variables*** button to view more information about available variables for this specific entry. 
-![Session Recording](https://webdevolutions.azureedge.net/docs/en/kb/KB4993.png) 
+![Session Recording](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6158.png) 
 
 Two files are saved after the session is closed. The .webm file is the recording and the .dat is for the {{ en.RDM }} player. 
+
+## Session Recording All-in-One Interface
+
+The ***Root dashboard*** has a dedicated tab that provides an all-in-one interface for viewing and downloading all recordings for supported sessions.
+![Root dashboard's session recording tab](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6155.png)   
+
+Recordings can also be accessed by right-clicking on the entry and selecting ***View*** – ***Recordings***.
 
