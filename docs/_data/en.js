@@ -43,13 +43,13 @@ module.exports = {
     UVLT: 'User vault',
     VLT: 'Vault',
     WAAPP: 'Workspace Android app',
-    WAPP: 'Workspace app'
+    WAPP: 'Workspace app',
     WAPPS: 'Workspace apps',
     WBEX: 'Workspace browser extension',
     WDAPP: 'Workspace desktop app',
     WIAPP: 'Workspace iOS app',
-    WMAPP: 'Workspace mobile app'
-    WMACAPP: 'Workspace macOS app'
-    WWAPP: 'Workspace Windows app'
+    WMAPP: 'Workspace mobile app',
+    WMACAPP: 'Workspace macOS app',
+    WWAPP: 'Workspace Windows app',
     WS: 'Workspace'
   }
