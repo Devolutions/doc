@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Using the ***Side menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  
 
-When using {{ en.DWL }} with {{ en.DVLS }}, the available tabs are the ***Matching*** tab, the ***All Entries*** tab, the ***Favorites*** tab, the ***Recent*** tab, and the ***Password Generator*** tab.  
+When using the {{ en.DWL }} with {{ en.DVLS }}, the available tabs are the ***Matching*** tab, the ***All Entries*** tab, the ***Favorites*** tab, the ***Recent*** tab, and the ***Password Generator*** tab.  
 
 In all tabs except the ***Password Generator*** tab, when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons. Go to the Entries functionalities section for more information.  
 
@@ -15,14 +15,14 @@ In all tabs except the ***Password Generator*** tab, when hovering over an entry
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.  
 
 {% snippet icon.badgeInfo %} 
-For methods of retrieving your credentials, visit [Retrieve credentials with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/). 
+For methods of retrieving your credentials, visit [Retrieve credentials with the {{ en.DWL }}](/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/). 
 {% endsnippet %}
 
 ![Matching Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2033.png)
  
 At the top, you can use the ***Search*** bar to filter through all your credentials, not just those applicable to the website. You can also use the ***Refresh*** button next to it to update the search results.  
 
-At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DVLS }} through the {{ en.DWL }} extension.  
+At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DVLS }} through the {{ en.DWL }}.  
 
 {% snippet icon.badgeInfo %} 
 For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
@@ -30,7 +30,7 @@ For a complete list of the available fields in the ***Add Website*** window, vis
  
 ### All Entries tab 
 {% snippet icon.badgeHelp %} 
-When accessing the ***All Entries*** tab for the first time, you need to select the {{ en.DVLS }} {{ en.VLT }}s you want to synchronize with {{ en.DWL }}. Learn more about it in [First login with {{ en.DWL }}](/server/dwl/first-login-dwl/). 
+When accessing the ***All Entries*** tab for the first time, you need to select the {{ en.DVLS }} {{ en.VLT }}s you want to synchronize with the {{ en.DWL }}. Learn more about it in [First login with the {{ en.DWL }}](/server/dwl/first-login-dwl/). 
 {% endsnippet %}
  
 The ***All Entries*** tab allows you to browse through all your synchronized {{ en.VLT }}s for website entries only. You will first encounter the list of your synchronized {{ en.VLT }}s.  
@@ -42,13 +42,13 @@ At the top, you can use the ***Filter*** bar to search through all your {{ en.VL
 You can access your {{ en.VLT }}s in two ways:  
 
 * To access a {{ en.VLT }} in {{ en.DVLS }}, click on the ***Open*** button next to a {{ en.VLT }} to open it in {{ en.DVLS }} in a new browser tab. 
-* To access a {{ en.VLT }} in {{ en.DWL }}, click on it and navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DVLS }}, except that only the paths leading to website entries will be displayed. 
+* To access a {{ en.VLT }} in the {{ en.DWL }}, click on it and navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DVLS }}, except that only the paths leading to website entries will be displayed. 
 
 When navigating in the folders, the [***Add Website***](/server/dwl/devolutions-web-login-user-interface/side-menu/add-website/) button will appear at the bottom of the ***Content Area***. You can also use the search bar at the top to search in the specific location.  
 
-![{{ en.VLT }} Navigation via {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2045.png)
+![{{ en.VLT }} Navigation via the {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2045.png)
 
-Back on the main view of the ***All Entries*** tab, the ***Select {{ en.VLT }}s to Sync*** at the bottom of the ***Content Area*** allows you to individually select the {{ en.DVLS }} {{ en.VLT }}s to synchronize with {{ en.DWL }}. 
+Back on the main view of the ***All Entries*** tab, the ***Select {{ en.VLT }}s to Sync*** at the bottom of the ***Content Area*** allows you to individually select the {{ en.DVLS }} {{ en.VLT }}s to synchronize with the {{ en.DWL }}. 
 
 ### Favorites tab 
 If you have entries marked as favorites, they will be displayed here in the ***Favorites*** tab.  
@@ -81,7 +81,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2041.png)
 
 {% snippet icon.badgeInfo %} 
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/create-account-website-dwl/). 
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website with the {{ en.DWL }}](/server/dwl/using-devolutions-web-login/create-account-website-dwl/). 
 {% endsnippet %}
  
 ### Entry functionalities 

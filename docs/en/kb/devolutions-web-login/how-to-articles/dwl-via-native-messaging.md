@@ -2,9 +2,9 @@
 eleventyComputed:
   title: '{{ en.DWL }} via native messaging'
 ---
-{{ en.DWL }} can work without HTTP(S) by using native messaging. Here are the steps:
+The {{ en.DWL }} can work without HTTP(S) by using native messaging. Here are the steps:
 
-1. In your browser, click on the {{ en.DWL }} extension icon and click on the ***Settings*** button.
+1. In your browser, click on the {{ en.DWL }} icon and click on the ***Settings*** button.
 1. Under the ***Data sources*** section, click ***{{ en.RDM }}***.
 1. Go to the ***Advanced*** tab and check the ***Enable native messaging*** option.  
 ![!!KB4790](https://webdevolutions.azureedge.net/docs/en/kb/KB4790.png)
@@ -36,4 +36,4 @@ eleventyComputed:
 1. Verify that the com.devolutions.rdmnativemessaging key exists at this location. If not, create one with the same name.
 1. Modify the default String Value data with the value being the complete path to the **com.devolutions.rdmnativemessaging.json** file. By default, it is **C:\Program Files\Devolutions\Remote Desktop Manager\com.devolutions.rdmnativemessaging.json**.
 1. Restart your {{ en.RDM }}.
-1. Restart {{ en.DWL }} (it can be restarted by deactivating and activing it in the ***Manage extensions*** option of the browser).
+1. Restart the {{ en.DWL }} (it can be restarted by deactivating and activing it in the ***Manage extensions*** option of the browser).

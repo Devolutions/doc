@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: First login to {{ en.DHUBP }} with {{ en.DWL }}
+  title: First login to {{ en.DHUBP }} with the {{ en.DWL }}
 ---
-### First Login with {{ en.DWL }} 
+### First Login with the {{ en.DWL }} 
 
-Follow these steps to connect {{ en.DHUBP }} to the {{ en.DWL }} extension:  
+Follow these steps to connect {{ en.DHUBP }} to the {{ en.DWL }}:  
 
-1. Click on the {{ en.DWL }} extension in your browser's toolbar.  
+1. Click on the {{ en.DWL }} icon in your browser's toolbar.  
 
 {% snippet icon.badgeNotice %} 
 A {{ en.DHUBP }} access is required to continue. 
@@ -20,5 +20,5 @@ A {{ en.DHUBP }} access is required to continue.
 ![Entering {{ en.DA }} Credentials](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4023.png)
 1. When done, a login confirmation message will appear.  
 ![Successful Login to the {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4051.png)
-1. Click on the {{ en.DWL }} icon in the toolbar of your web browser to validate that {{ en.DWL }} is now connected to {{ en.DHUBP }}.  
-![Successful Pairing of {{ en.DHUBP }} to {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4052.png)
+1. Click on the {{ en.DWL }} icon in the toolbar of your web browser to validate that the {{ en.DWL }} is now connected to {{ en.DHUBP }}.  
+![Successful Pairing of {{ en.DHUBP }} to the {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4052.png)

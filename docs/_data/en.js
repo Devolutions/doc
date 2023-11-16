@@ -49,4 +49,10 @@ module.exports = {
     RDMWIN: 'Remote Desktop Manager Windows',
     UVLT: 'User vault',
     VLT: 'Vault',
+    WAAPP: 'Workspace Android app',
+    WAPPS: 'Workspace apps',
+    WBEX: 'Workspace browser extension',
+    WDAPP: 'Workspace desktop app',
+    WIAPP: 'Workspace iOS app',
+    WS: 'Workspace'
   }

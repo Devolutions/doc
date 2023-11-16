@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Keyboard shortcuts
 ---
-Here is the list of keyboard shortcuts available for {{ en.DWL }}:  
+Here is the list of keyboard shortcuts available for the {{ en.DWL }}:  
 
 ### Ctrl+Shift+Z
 
@@ -14,4 +14,4 @@ Use this shortcut to open the {{ en.DWL }} window in your active browser.
 
 Use this shortcut to autofill your credentials when only one is available for the entry.  
 
-![One credential Login with {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl4030.png)
+![One credential login with the {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl4030.png)

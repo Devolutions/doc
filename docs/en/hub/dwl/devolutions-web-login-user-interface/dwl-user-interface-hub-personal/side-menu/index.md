@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Using the ***Side menu*** tabs, you can access various {{ en.DWL }} features. Each tab will display a different view in the ***Content Area***.  
 
-When using {{ en.DWL }} with {{ en.DHUBP }}, the available tabs are the ***Matching*** tab, the ***All Entries*** tab, the ***Favorites*** tab, the ***Recent*** tab, the ***Trash*** tab, and the ***Password Generator*** tab.  
+When using the {{ en.DWL }} with {{ en.DHUBP }}, the available tabs are the ***Matching*** tab, the ***All Entries*** tab, the ***Favorites*** tab, the ***Recent*** tab, the ***Trash*** tab, and the ***Password Generator*** tab.  
 
 In all tabs except the ***Password Generator*** tab, when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons. Go to the [Entries functionalities](#entry-functionalities) section for more information.  
 
@@ -15,14 +15,14 @@ In all tabs except the ***Password Generator*** tab, when hovering over an entry
 The extension opens on the ***Matching*** tab. This is where you will see the list of credentials available for the particular website you are on.  
 
 {% snippet icon.badgeInfo %} 
-For methods of retrieving your credentials, visit [Retrieve credentials from {{ en.DHUBP }} with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/). 
+For methods of retrieving your credentials, visit [Retrieve credentials from {{ en.DHUBP }} with the {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/). 
 {% endsnippet %}
  
 ![Matching Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2121.png) 
 
 At the top, you can use the ***Search*** bar to filter through all your credentials, not just those applicable to the website. You can also use the ***Refresh*** button next to it to update the search results.  
 
-At the bottom, the ***New Entry*** button gives you access to entry types that, when selected, open a new browser tab that allows you to manually add an entry in {{ en.DHUBP }} through the {{ en.DWL }} extension.  
+At the bottom, the ***New Entry*** button gives you access to entry types that, when selected, open a new browser tab that allows you to manually add an entry in {{ en.DHUBP }} through the {{ en.DWL }}.  
 
 {% snippet icon.badgeInfo %} 
 For a complete list of the available entries and fields in the ***New Entry*** window, visit [New Entry](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/). You can also consult our step-by-step guide on [how to add an entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/). 
@@ -34,7 +34,7 @@ The ***All Entries*** tab allows you to browse through all your folders and entr
 ![All Entries Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2122.png)  
 At the top, you can use the ***Filter*** bar to search through all your folders and entries.  
 
-To access an entry in {{ en.DWL }}, navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DHUBP }}.  
+To access an entry in the {{ en.DWL }}, navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DHUBP }}.  
 
 When navigating in the folders, the [***New Entry***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/) button will appear at the bottom of the ***Content Area***.  
 
@@ -80,7 +80,7 @@ In the ***Advanced*** drop-down section, you are able to further customize your 
 ![Advanced Section](https://webdevolutions.azureedge.net/docs/en/hub/Hub2115.png)  
 
 {% snippet icon.badgeInfo %} 
-To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website in {{ en.DHUBP }} with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/). 
+To learn how to use the ***Password Generator*** when creating an account on a website, visit [Create an account for a website in {{ en.DHUBP }} with the {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/). 
 {% endsnippet %}
  
 ### Entry functionalities 

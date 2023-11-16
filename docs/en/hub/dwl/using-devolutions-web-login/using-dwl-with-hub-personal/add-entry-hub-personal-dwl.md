@@ -1,18 +1,18 @@
 ---
 eleventyComputed:
-  title: Add an entry in {{ en.DHUBP }} with {{ en.DWL }}
+  title: Add an entry in {{ en.DHUBP }} with the {{ en.DWL }}
 ---
-Website, credit card, contact, and secure note entries can be created with {{ en.DWL }} in {{ en.DHUBP }}. To add a website entry, continue to the next section. For all other types of entries, go to [Add another type of entry](#add-another-type-of-entry) instead.  
+Website, credit card, contact, and secure note entries can be created with the {{ en.DWL }} in {{ en.DHUBP }}. To add a website entry, continue to the next section. For all other types of entries, go to [Add another type of entry](#add-another-type-of-entry) instead.  
 
 ## Add a Website entry 
 
 {% snippet icon.badgeInfo %} 
-This section explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [Create an account for a website in {{ en.DHUBP }} with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/) instead. 
+This section explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [Create an account for a website in {{ en.DHUBP }} with the {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/) instead. 
 {% endsnippet %}
  
-The website entry is useful for saving your login credentials so that you do not have to remember them. These entries are also used by {{ en.DWL }} to recognize a website and [retrieve your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/).  
+The website entry is useful for saving your login credentials so that you do not have to remember them. These entries are also used by the {{ en.DWL }} to recognize a website and [retrieve your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/).  
 
-The main way to achieve this is by successfully logging into the website. {{ en.DWL }} will automatically offer to save your credentials in a new website entry in {{ en.DHUBP }}. It is also possible to manually create the website entry.  
+The main way to achieve this is by successfully logging into the website. The {{ en.DWL }} will automatically offer to save your credentials in a new website entry in {{ en.DHUBP }}. It is also possible to manually create the website entry.  
 
 Learn how to add a website entry by following the instructions from these sections:  
 
@@ -31,13 +31,13 @@ Learn how to add a website entry by following the instructions from these sectio
 1. Select a ***Folder*** in which to save your website entry. 
 1. Click ***Save***.  
 
-Your credentials are now securely stored in a new website entry in {{ en.DHUBP }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/).  
+Your credentials are now securely stored in a new website entry in {{ en.DHUBP }}. The next time you log in to the same account, the {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/).  
 
 ### Manually Add a Website Entry 
 
 1. <a name="1"></a>Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example.  
 ![!!Hub2055](https://webdevolutions.azureedge.net/docs/en/hub/Hub2055.png) 
-1. Click on the {{ en.DWL }} extension icon in your browser toolbar and, in the ***Matching*** tab, click on the ***New Entry*** button.  
+1. Click on the {{ en.DWL }} icon in your browser toolbar and, in the ***Matching*** tab, click on the ***New Entry*** button.  
 ![New Entry Button](https://webdevolutions.azureedge.net/docs/en/hub/Hub2070.png) 
 1. Click on ***Website***.  
 ![New Website Entry](https://webdevolutions.azureedge.net/docs/en/hub/Hub2071.png) 
@@ -45,21 +45,21 @@ Your credentials are now securely stored in a new website entry in {{ en.DHUBP }
 ![New Entry - Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2135.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Select a ***Folder*** in which to save your credentials. 
-1. The ***Host*** drop-down list is set to ***Custom*** by default. This allows {{ en.DWL }} to automatically specify the ***URL*** in the next field with the login page URL from <a href="#1">step 1</a>. 
+1. The ***Host*** drop-down list is set to ***Custom*** by default. This allows the {{ en.DWL }} to automatically specify the ***URL*** in the next field with the login page URL from <a href="#1">step 1</a>. 
 1. The ***Credentials*** drop-down list is set to ***Custom*** by default. This allows you to manually enter your ***Username***, ***Domain***, and ***Password*** in the next step. 
 1. Provide the ***Username***, ***Domain***, and ***Password*** you use to log in to the website. You may not have a domain name to specify; in that case, leave the field blank. Also, depending on the website, your username may be your email address. 
-1. The ***Compare type*** should be at ***Default*** and ***{{ en.DWL }}*** should be ***Enabled***. 
+1. The ***Compare type*** should be at ***Default*** and the ***{{ en.DWL }}*** should be ***Enabled***. 
 1. Click ***Add***.  
 
-Your credentials are now securely stored in a new website entry in {{ en.DHUBP }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/).  
+Your credentials are now securely stored in a new website entry in {{ en.DHUBP }}. The next time you log in to the same account, the {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/).  
 
 ## Add another type of entry 
 
-You can manually add ***Credit Card***, ***Contact***, and ***Secure Note*** entries in {{ en.DHUBP }} for easy access via the {{ en.DWL }} browser extension.  
+You can manually add ***Credit Card***, ***Contact***, and ***Secure Note*** entries in {{ en.DHUBP }} for easy access via the {{ en.DWL }}.  
 
 The process is the same for all entry types, but the information to be filled in will be different due to the nature of each entry type. Follow the steps below:  
 
-1. Click on the {{ en.DWL }} extension icon in your browser toolbar and, in the ***Matching*** tab, click on the ***New Entry*** button.  
+1. Click on the {{ en.DWL }} icon in your browser toolbar and, in the ***Matching*** tab, click on the ***New Entry*** button.  
 ![New Entry Button](https://webdevolutions.azureedge.net/docs/en/hub/Hub2070.png) 
 1. Click on the entry type you want to create between ***Credit Card***, ***Contact***, and ***Secure Note***. For a ***Website*** entry, follow the steps in the [previous section](#add-a-website-entry).  
 ![New Credit Card, Contact, or Secure Note Entry](https://webdevolutions.azureedge.net/docs/en/hub/Hub2074.png) 
@@ -73,5 +73,4 @@ For a ***Secure Note*** entry, you can specify a ***Type*** of text for your not
  
 5. Click ***Add***.  
 
-Your information is now securely stored in a new entry in {{ en.DHUBP }}. 
-
+Your information is now securely stored in a new entry in {{ en.DHUBP }}.

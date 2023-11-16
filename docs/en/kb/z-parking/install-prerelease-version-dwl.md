@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Install a prerelease version of {{ en.DWL }}
+  title: Install a prerelease version of the {{ en.DWL }}
   description: When a new {{ en.DWL }} version is about to come out, a prerelease version might be made available. The steps to install a prerelease {{ en.DWL }} are different from a released version.
 ---
 When a new {{ en.DWL }} version is about to come out, a prerelease version might be made available. The steps to install a prerelease {{ en.DWL }} are different from a released version.
 
-This page contains instructions for installing a prerelease version of {{ en.DWL }} on [Chrome](#chrome), [Firefox](#firefox), [Opera](#opera), and [Safari](#safari) browsers.
+This page contains instructions for installing a prerelease version of the {{ en.DWL }} on [Chrome](#chrome), [Firefox](#firefox), [Opera](#opera), and [Safari](#safari) browsers.
 
 {% snippet icon.badgeInfo %}
 X.X.X.X is the version number (e.g., 2023.2.1.0).
@@ -68,16 +68,16 @@ Safari version 16 or later is required.
    The ***Allow Unsigned Extensions*** setting resets when you quit Safari; set it again the next time you launch Safari.
    {% endsnippet %}  
 
-1. Enable the {{ en.DWL }} extension:
+1. Enable the {{ en.DWL }}:
    1. In Safari Settings, select the ***Extensions*** tab.
-   1. Find the {{ en.DWL }} extension in the list on the left and enable it by checking the box.
+   1. Find the {{ en.DWL }} in the list on the left and enable it by checking the box.
    1. Close Safari Settings.  
 
    If you have profiles set up in Safari 17 or later, manage your extension for a specific profile:  
    1. In Safari Settings, select the ***Profiles*** tab.
    1. Select a profile in the list on the left.
    1. Select the ***Extensions*** tab.
-   1. Find the {{ en.DWL }} extension in the list on the right and enable it by checking the box.
+   1. Find the {{ en.DWL }} in the list on the right and enable it by checking the box.
    1. Close Safari Settings.
 1. Double-click "{{ en.DWL }}" in the unzipped folder.
 
@@ -101,9 +101,9 @@ Source: [Running your Safari web extension - Configure Safari in {{ en.MAC }} to
    The ***Allow Unsigned Extensions*** setting resets when you quit Safari; set it again the next time you launch Safari.
    {% endsnippet %}  
 
-1. Enable the {{ en.DWL }} extension:
+1. Enable the {{ en.DWL }}:
    1. In Safari Settings, select the ***Extensions*** tab.
-   1. Find the {{ en.DWL }} extension in the list on the left and enable it by checking the box.
+   1. Find the {{ en.DWL }} in the list on the left and enable it by checking the box.
    1. Close Safari Settings.
 1. Double-click "{{ en.DWL }}" in the unzipped folder.
 

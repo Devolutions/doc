@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Add website
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDM }} through {{ en.DWL }}.  
+The ***Add Website*** button is only available while in the [***Matching***](/rdm/windows/dwl/devolutions-web-login-user-interface/side-menu/) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDM }} through the {{ en.DWL }}.  
 
 When {{ en.RDM }} is used as the data source, the entry configuration is done in the ***General*** tab. 
 See the table below to learn about each field/setting from this view.  
@@ -22,7 +22,7 @@ DESCRIPTION
 Name 
 		</td>
 		<td>
-Enter a name for your entry. This field is automatically filled in by {{ en.DWL }}, but can still be modified. 
+Enter a name for your entry. This field is automatically filled in by the {{ en.DWL }}, but can still be modified. 
 		</td>
 	</tr>
 	<tr>
@@ -30,7 +30,7 @@ Enter a name for your entry. This field is automatically filled in by {{ en.DWL 
 URL 
 		</td>
 		<td>
-Enter the URL of the website’s login page. This field is automatically filled in by {{ en.DWL }}, but can still be modified. 
+Enter the URL of the website’s login page. This field is automatically filled in by the {{ en.DWL }}, but can still be modified. 
 		</td>
 	</tr>
 	<tr>
@@ -101,7 +101,5 @@ Cancel the creation of a new website entry and clears all unsaved changes to set
 </table>
 
 {% snippet icon.badgeInfo %} 
-Follow our step-by-step guide on how to [add a website entry with {{ en.DWL }}](/rdm/windows/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
+Follow our step-by-step guide on how to [add a website entry with the {{ en.DWL }}](/rdm/windows/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
 {% endsnippet %}
- 
-

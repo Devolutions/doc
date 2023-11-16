@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Add website
 ---
-The Add Website button is only available while in the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab">Matching</a> tab., which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s of the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#all-entries-tab">All Entries</a> tab. It opens a new tab in your browser that allows you to add a website entry in {{ en.DVLS }} through {{ en.DWL }}.  
+The Add Website button is only available while in the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab">Matching</a> tab., which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s of the <a href="/server/dwl/devolutions-web-login-user-interface/side-menu/#all-entries-tab">All Entries</a> tab. It opens a new tab in your browser that allows you to add a website entry in {{ en.DVLS }} through the {{ en.DWL }}.  
 
 When {{ en.DVLS }} is used as the data source, the entry configuration is done in the General tab. 
 
@@ -23,7 +23,7 @@ DESCRIPTION
 Name 
 		</td>
 		<td>
-Enter a name for your entry. This field is automatically filled in by {{ en.DWL }}, but can still be modified. 
+Enter a name for your entry. This field is automatically filled in by the {{ en.DWL }}, but can still be modified. 
 		</td>
 	</tr>
 	<tr>
@@ -31,7 +31,7 @@ Enter a name for your entry. This field is automatically filled in by {{ en.DWL 
 URL 
 		</td>
 		<td>
-Enter the URL of the website’s login page. This field is automatically filled in by {{ en.DWL }}, but can still be modified. 
+Enter the URL of the website’s login page. This field is automatically filled in by the {{ en.DWL }}, but can still be modified. 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ This button is only displayed next to the Equivalent URLs field after having cli
 Credentials 
 		</td>
 		<td>
-In the drop-down list, select Custom, Linked ({{ en.VLT }}), Inherited, Linked ({{ en.UVLT }}), Find by name ({{ en.UVLT }}), or None to specify to {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
+In the drop-down list, select Custom, Linked ({{ en.VLT }}), Inherited, Linked ({{ en.UVLT }}), Find by name ({{ en.UVLT }}), or None to specify to the {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. 
 		</td>
 	</tr>
 	<tr>
@@ -76,7 +76,7 @@ In the drop-down list, select Custom, Linked ({{ en.VLT }}), Inherited, Linked (
 Credential Selection 
 		</td>
 		<td>
-Select the credential entry that will be used to fetch the credentials for your new website entry. {{ en.DWL }} will only show entries of the Credential Entry type to be linked to your entry. The credential entry location must first be selected in the {{ en.VLT }} drop-down list.  
+Select the credential entry that will be used to fetch the credentials for your new website entry. The {{ en.DWL }} will only show entries of the Credential Entry type to be linked to your entry. The credential entry location must first be selected in the {{ en.VLT }} drop-down list.  
 
 It is also possible to select Prompt on connection to be asked each time you connect.  
 
@@ -88,7 +88,7 @@ This field is only available if Linked ({{ en.VLT }}) or Linked ({{ en.UVLT }}) 
 {{ en.UVLT }} search credentials 
 		</td>
 		<td>
-Enter the name of the credential in your {{ en.UVLT }} and {{ en.DWL }} will search in it for the specified name. If the field is left empty, when launched, a Credential list will open with all available credentials entries from your {{ en.UVLT }}.  
+Enter the name of the credential in your {{ en.UVLT }} and the {{ en.DWL }} will search in it for the specified name. If the field is left empty, when launched, a Credential list will open with all available credentials entries from your {{ en.UVLT }}.  
 
 This field is only available if Find by name ({{ en.UVLT }}) is selected in the Credentials drop-down list. 
 		</td>
@@ -171,7 +171,7 @@ Cancel the creation of a new website entry and clear all unsaved changes to sett
 </table>
 
 {% snippet icon.badgeInfo %} 
-Follow our step-by-step guide on how to [add a website entry with {{ en.DWL }}](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
+Follow our step-by-step guide on how to [add a website entry with the {{ en.DWL }}](/server/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
 {% endsnippet %}
  
 

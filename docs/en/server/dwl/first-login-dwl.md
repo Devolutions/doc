@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: First login with {{ en.DWL }}
+  title: First login with the {{ en.DWL }}
   order: 30
 ---
-### First Login with {{ en.DWL }} 
-Follow these steps to connect {{ en.DVLS }} to the {{ en.DWL }} extension:  
+### First Login with the {{ en.DWL }} 
+Follow these steps to connect {{ en.DVLS }} to the the {{ en.DWL }}:  
 
-1. Click on the {{ en.DWL }} extension at the top right corner of your browser. 
+1. Click on the {{ en.DWL }} at the top right corner of your browser. 
 {% snippet icon.badgeNotice %} 
 A {{ en.DVLS }} access is required to continue. 
 {% endsnippet %}
@@ -19,8 +19,8 @@ A {{ en.DVLS }} access is required to continue.
 ![{{ en.DWL }} Login](https://webdevolutions.azureedge.net/docs/en/server/Dwl4018.png)
 1. Enter your {{ en.DVLS }} credentials and click ***Log In***. 
 ![{{ en.DVLS }} Login](https://webdevolutions.azureedge.net/docs/en/server/Dwl4019.png)
-1. If you click on the {{ en.DWL }} icon in your web browser, you can validate that {{ en.DWL }} is now connected to your {{ en.DVLS }}. 
-![Successful Association of {{ en.DVLS }} to {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/server/Dwl4048.png)
+1. If you click on the {{ en.DWL }} icon in your web browser, you can validate that the {{ en.DWL }} is now connected to your {{ en.DVLS }}. 
+![Successful Association of {{ en.DVLS }} to the {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/server/Dwl4048.png)
 1. To select the {{ en.VLT }}s to be synchronized, click on the ***{{ en.VLT }}s*** tab, then click the ***Select {{ en.VLT }}s to Sync*** button. 
 ![{{ en.VLT }}s tab](https://webdevolutions.azureedge.net/docs/en/server/Dwl4020.png)
 1. Click on ***Select All*** or individually check the {{ en.VLT }}s to synchronize. 

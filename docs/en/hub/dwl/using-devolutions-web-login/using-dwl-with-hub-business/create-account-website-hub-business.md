@@ -1,16 +1,16 @@
 ---
 eleventyComputed:
-  title: Create an account for a website in {{ en.DHUBB }} with {{ en.DWL }}
+  title: Create an account for a website in {{ en.DHUBB }} with the {{ en.DWL }}
   order: 10
 ---
-{{ en.DWL }} assists you in creating a new account when you register on a website. It gives you the ability to create a secure password and save your new credentials.  
+The {{ en.DWL }} assists you in creating a new account when you register on a website. It gives you the ability to create a secure password and save your new credentials.  
 
 {% snippet icon.badgeInfo %} 
-If you already have an account for the website, visit [Add a Website Entry with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/). 
+If you already have an account for the website, visit [Add a Website Entry with the {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/). 
 {% endsnippet %} 
 
  
-Follow the steps below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.DHUBB }}.  
+Follow the steps below to learn how to create a website account with the {{ en.DWL }} and save your credentials in {{ en.DHUBB }}.  
 
 1. On the website for which you want to create your account, go to the registration/account creation page. This page will be different for each website; this topic will use the Atlassian website as an example.  
 ![Registration Page](https://webdevolutions.azureedge.net/docs/en/hub/Hub2046.png) 
@@ -40,4 +40,4 @@ Your password settings are now configured.
 1. Select the ***{{ en.VLT }}*** and ***Folder*** in which to save your website entry. 
 1. Click ***Save***.  
 
-Your credentials are now securely stored in a new website entry in {{ en.DHUBB }}. The next time you log in to the same account, {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/).
+Your credentials are now securely stored in a new website entry in {{ en.DHUBB }}. The next time you log in to the same account, the {{ en.DWL }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/).

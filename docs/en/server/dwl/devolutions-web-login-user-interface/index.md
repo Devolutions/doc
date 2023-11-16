@@ -7,7 +7,7 @@ The {{ en.DWL }} user interface is slightly different in your browser depending 
 
 Testtesttest
 
-The main view, which is the one displayed when first opening {{ en.DWL }} in your browser, can be divided into three main sections:  
+The main view, which is the one displayed when first opening the {{ en.DWL }} in your browser, can be divided into three main sections:  
 
 1. The ***Top Menu*** gives you access to some {{ en.DWL }} functionalities and settings.  
 1. The ***Side menu*** is directly linked to the central panel, as each tab changes what is displayed in the window depending on its function. 
@@ -16,7 +16,7 @@ The main view, which is the one displayed when first opening {{ en.DWL }} in you
 
 ### Top Menu 
 
-If you use multiple Devolutions products with the extension, you can switch between them using the ***Data Source Selector*** at the left of the ***Top Menu***. A drop-down list will appear with the other products you have previously paired with {{ en.DWL }}. 
+If you use multiple Devolutions products with the extension, you can switch between them using the ***Data Source Selector*** at the left of the ***Top Menu***. A drop-down list will appear with the other products you have previously paired with the {{ en.DWL }}. 
 ![Data Source Selector](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2029.png)
 At the right of the ***Top Menu***, the ***Settings*** button opens a new tab in which you can configure your extension. Consult the [full settings list](/server/dwl/settings/). 
 ![Settings Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2030.png)
@@ -26,13 +26,13 @@ Next to the ***Settings*** button is your ***Account*** button. This section has
 * a link to your {{ en.DVLS }}.  
 * a link to our [{{ en.DVLS }} Forum](https://forum.devolutions.net/product/server).  
 * a link to our [{{ en.DVLS }} Online Help](/server/).  
-* the current version of {{ en.DWL }}.  
+* the current version of the {{ en.DWL }}.  
 
 ![Account Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2031.png)
 ### Side menu and Content Area 
 Using the tabs of the ***Side menu***, you can access various {{ en.DWL }} features. 
 ![Side menu Tabs](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2032.png)
-Each tab will display a different view in the ***Content Area***. The tabs available when using {{ en.DWL }} with {{ en.DVLS }} are:  
+Each tab will display a different view in the ***Content Area***. The tabs available when using the {{ en.DWL }} with {{ en.DVLS }} are:  
 
 * the ***Matching*** tab, where you can find available credentials for a specific website.  
 * the ***All Entries*** tab,  where you can find all the {{ en.DVLS }} entries you synchronized, divided into your different {{ en.VLT }}s and folders.  

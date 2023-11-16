@@ -29,7 +29,7 @@ Allow user to access {{ en.DVLS }} through {{ en.RDM }}.
 [{{ en.DWL }}](/server/dwl/overview/) 
 		</td>
 		<td>
-Allow user to auto fill username and passwords on websites with {{ en.DWL }}. 
+Allow user to auto fill username and passwords on websites with the {{ en.DWL }}. 
 		</td>
 	</tr>
 	<tr>

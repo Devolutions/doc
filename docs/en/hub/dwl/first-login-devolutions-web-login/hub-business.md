@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
-  title: First login to {{ en.DHUBB }} with {{ en.DWL }}
+  title: First login to {{ en.DHUBB }} with the {{ en.DWL }}
 ---
 {% youtube 'sQKjmXUkGks' %}  
 
-### First Login with {{ en.DWL }} 
+### First Login with the {{ en.DWL }} 
 
-Follow these steps to connect {{ en.DHUBB }} to the {{ en.DWL }} extension:  
+Follow these steps to connect {{ en.DHUBB }} to the {{ en.DWL }}:  
 
-1. Click on the {{ en.DWL }} extension in your browser's toolbar.  
+1. Click on the {{ en.DWL }} icon in your browser's toolbar.  
 
 {% snippet icon.badgeNotice %} 
 A {{ en.DHUBB }} access is required to continue. 
@@ -24,8 +24,8 @@ A {{ en.DHUBB }} access is required to continue.
 ![Entering {{ en.DA }} Credentials](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4023.png) 
 1. Once completed, a login confirmation message will appear.  
 ![Successful Login to the {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4047.png) 
-1. Click on the {{ en.DWL }} icon in the toolbar of your web browser to validate that {{ en.DWL }} is now connected to {{ en.DHUBB }}.  
-![Successful Pairing of {{ en.DHUBB }} to {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4026.png) 
+1. Click on the {{ en.DWL }} icon in the toolbar of your web browser to validate that the {{ en.DWL }} is now connected to {{ en.DHUBB }}.  
+![Successful Pairing of {{ en.DHUBB }} to the {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4026.png) 
 1. To select the {{ en.VLT }}s to be synchronized, click on the ***{{ en.VLT }}s*** tab in the ***Side menu***, then click the ***Select {{ en.VLT }}s to Sync*** button.  
 ![{{ en.VLT }}s tab](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4053.png) 
 1. Click on ***Select All*** or individually check the {{ en.VLT }}s to synchronize. The ***Filter*** bar can be useful to search for {{ en.VLT }}s.  

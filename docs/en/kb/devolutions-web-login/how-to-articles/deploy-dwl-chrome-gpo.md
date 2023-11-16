@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Deploy {{ en.DWL }} in Google Chrome using GPOs
+  title: Deploy the {{ en.DWL }} in Google Chrome using GPOs
   keywords:
   - GPO
 ---
@@ -134,7 +134,7 @@ All attributes can have their value changed or their key removed. If this sectio
 
 disableSettingsPage
 
-Hide the settings button and disable the settings page in {{ en.DWL }} for the end-user.  
+Hide the settings button and disable the settings page in the {{ en.DWL }} for the end-user.  
 Possible values:
 
 * ***True***
@@ -149,9 +149,9 @@ Possible values:
 * AlwaysOverride: Always override the value from the GPO settings when the extension is started.
 * AlwaysUseDefaultAndOverride: Use the default settings for all settings not in the GPO and override the values from the GPO when the extension is started.
 
-## Configuring {{ en.DWL }} extension to be automatically pinned on the Chrome toolbar
+## Configuring the {{ en.DWL }} to be automatically pinned on the Chrome toolbar
 
-1. Create a new GPO rule to have the {{ en.DWL }} extension automatically pinned on the Chrome toolbar.
+1. Create a new GPO rule to have the {{ en.DWL }} automatically pinned on the Chrome toolbar.
 1. Select Registry located in Computer Configuration – Preferences – Windows Settings – Registry or User Configuration – Preferences – Windows Settings – Registry according to your needs.
 1. In the registry properties, set the Action parameter to ***Replace*** to change the existing rule or to create it if it does not exist.
 1. Set the Hive parameter to **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER** according to your needs.

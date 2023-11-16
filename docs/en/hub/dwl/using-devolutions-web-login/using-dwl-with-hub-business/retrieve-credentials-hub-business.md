@@ -1,18 +1,18 @@
 ---
 eleventyComputed:
-  title: Retrieve credentials from {{ en.DHUBB }} with {{ en.DWL }}
+  title: Retrieve credentials from {{ en.DHUBB }} with the {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-You need website entries in {{ en.DHUBB }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/). 
+You need website entries in {{ en.DHUBB }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with the {{ en.DWL }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/). 
 {% endsnippet %}
  
-{{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.DHUBB }} website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
+The {{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.DHUBB }} website entries. It is also possible to filter through your entries via the {{ en.DWL }} to manually find your credentials.  
 
-After the [installation](/hub/dwl/installation/) of {{ en.DWL }} and its [pairing](/hub/dwl/first-login-devolutions-web-login/hub-business/) with {{ en.DHUBB }}, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials).  
+After the [installation](/hub/dwl/installation/) of the {{ en.DWL }} and its [pairing](/hub/dwl/first-login-devolutions-web-login/hub-business/) with {{ en.DHUBB }}, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up the {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials).  
 
 ## Settings  
 
-1. Click on the {{ en.DWL }} extension button in your browser, then click on the ***Settings*** icon.  
+1. Click on the {{ en.DWL }} button in your browser, then click on the ***Settings*** icon.  
 ![Settings Icon](https://webdevolutions.azureedge.net/docs/en/hub/Hub2080.png) 
 1. Click on ***General*** in the ***Configuration*** section.  
 ![Settings – Configuration – General](https://webdevolutions.azureedge.net/docs/en/hub/Hub2081.png) 
@@ -42,7 +42,7 @@ You can now continue to the next section to learn how to retrieve your website e
 This section is based on the {{ en.DWL }} configuration steps from the [previous section](#settings). We highly recommend that you follow them before going forward, as some features may differ between your experience and what is shown below. 
 {% endsnippet %}
  
-Credentials can be retrieved from {{ en.DHUBB }} automatically or manually via {{ en.DWL }}. Follow the steps from the section that best suits your needs:  
+Credentials can be retrieved from {{ en.DHUBB }} automatically or manually via the {{ en.DWL }}. Follow the steps from the section that best suits your needs:  
 
 * [Automatically retrieving credentials](#automatically-retrieving-credentials) 
 * [Manually retrieving credentials](#manually-retrieving-credentials) 
@@ -60,7 +60,7 @@ Credentials can be retrieved from {{ en.DHUBB }} automatically or manually via {
 Depending on the options you have enabled/disabled, you may need to retrieve your credentials manually:  
 
 1. Go to the login page of the website you want to access. This page will be different for each website; this section will use the Atlassian website as an example. 
-1. Click on the {{ en.DWL }} extension in your browser. Website entries that are linked to this website will appear. 
+1. Click on the {{ en.DWL }} in your browser. Website entries that are linked to this website will appear. 
 1. Click on the website entry that contains the credentials for this website. If multiple entries are available, you can use the ***Filter*** bar to find the one you need.  
 ![Entry Selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2090.png)  
 

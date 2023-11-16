@@ -1,24 +1,24 @@
 ---
 eleventyComputed:
-  title: Retrieve credentials with {{ en.DWL }}
+  title: Retrieve credentials with the {{ en.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-You need website entries in {{ en.RDM }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/rdm/windows/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
+You need website entries in {{ en.RDM }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with the {{ en.DWL }}](/rdm/windows/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
 {% endsnippet %}
  
-{{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.RDM }} website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
+The {{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.RDM }} website entries. It is also possible to filter through your entries via the {{ en.DWL }} to manually find your credentials.  
 
-After the [installation](/rdm/windows/dwl/installation/) of {{ en.DWL }} and its [pairing](/rdm/windows/dwl/first-login-devolutions-web-login/) with {{ en.RDM }}, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials). 
+After the [installation](/rdm/windows/dwl/installation/) of the {{ en.DWL }} and its [pairing](/rdm/windows/dwl/first-login-devolutions-web-login/) with {{ en.RDM }}, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up the {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials). 
 
 ## Settings 
 
-1. Click on the {{ en.DWL }} extension button in your browser, then click on the ***Settings*** icon.  
+1. Click on the {{ en.DWL }} button in your browser, then click on the ***Settings*** icon.  
 ![Settings Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2111.png) 
 1. Click on ***General*** in the ***Configuration*** section.  
 ![Settings – Configuration – General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2112.png) 
 1. In the ***General*** tab, the ***Show icon in fields*** setting should be enabled by default. If not, check the box next to the option to enable it. 
 {% snippet icon.badgeNotice %} 
-With this option enabled, a {{ en.DWL }} icon is displayed in every credential fields on the websites you visit. This makes it easier to select the correct entry from which to retrieve your credentials, especially when more than one is available. 
+With this option enabled, a the {{ en.DWL }} icon is displayed in every credential fields on the websites you visit. This makes it easier to select the correct entry from which to retrieve your credentials, especially when more than one is available. 
 {% endsnippet %}
  
 ![General – Show icon in fields](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2113.png) 
@@ -28,7 +28,7 @@ With this option enabled, a {{ en.DWL }} icon is displayed in every credential f
 ![Settings – Data sources – {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2114.png) 
 1. In the ***Actions*** tab, enable the ***Automatically retrieve credentials on page load*** and ***Automatically fill in credentials on load*** options by checking the boxes next to them. Below is a description of each setting:  
 
-* ***Automatically retrieve credentials on page load*** (enabled by default): Allows {{ en.DWL }} to automatically search for available credentials when loading a web page. 
+* ***Automatically retrieve credentials on page load*** (enabled by default): Allows the {{ en.DWL }} to automatically search for available credentials when loading a web page. 
 * ***Automatically fill in credentials on load*** (disabled by default): Credentials fields are automatically filled in when loading a web page. This only works if you only have one set of credentials for a given website.  
 ![Actions – Automatically retrieve and fill credentials on page load](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2115.png) 
 {% snippet icon.badgeInfo %} 
@@ -46,7 +46,7 @@ You can now continue to the next section to learn how to retrieve your website e
 This section is based on the {{ en.DWL }} configuration steps from the previous section. We highly recommend that you follow them before going forward, as some features may differ between your experience and what is shown below. 
 {% endsnippet %}
  
-Credentials can be retrieved from {{ en.RDM }} automatically or manually via {{ en.DWL }}. Follow the steps from the section that best suits your needs:  
+Credentials can be retrieved from {{ en.RDM }} automatically or manually via the {{ en.DWL }}. Follow the steps from the section that best suits your needs:  
 
 * [Automatically retrieving credentials](#automatically-retrieving-credentials) 
 * [Manually retrieving credentials](#manually-retrieving-credentials) 
@@ -64,7 +64,7 @@ Credentials can be retrieved from {{ en.RDM }} automatically or manually via {{ 
 Depending on the options you have enabled/disabled, you may need to retrieve your credentials manually:  
 
 1. Go to the login page of the website you want to access. This page will be different for each website; this section will use the Atlassian website as an example. 
-1. Click on the {{ en.DWL }} extension in your browser. Website entries that are linked to this website will appear. 
+1. Click on the {{ en.DWL }} in your browser. Website entries that are linked to this website will appear. 
 1. Click on the website entry that contains the credentials for this website. If multiple entries are available, you can use the ***Filter*** bar to find the one you need.  
 ![Entry Selection](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2118.png) 
 1. Your credentials will be transferred to the credentials fields of the website. Follow the rest of the website's login process until you successfully log in to your account. 

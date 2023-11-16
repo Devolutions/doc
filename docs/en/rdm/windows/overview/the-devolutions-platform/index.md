@@ -74,10 +74,10 @@ Windows, {{ en.MAC }}
 	</tr>
 	<tr>
 		<td>
-[{{ en.DWL }} (DWL)](/rdm/windows/dwl/overview/) 
+[{{ en.DWL }}](/rdm/windows/dwl/overview/) 
 		</td>
 		<td>
-{{ en.DWL }} is a free browser plugin used in conjunction with {{ en.RDM }}, {{ en.DVLS }} and {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s. 
+The {{ en.DWL }} is a free browser plugin used in conjunction with {{ en.RDM }}, {{ en.DVLS }}, and {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s. 
 		</td>
 		<td>
 Windows, {{ en.MAC }}

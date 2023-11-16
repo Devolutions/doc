@@ -32,7 +32,7 @@ eleventyComputed:
    | Option      | Description |
    | ----------- | ----------- |
    | Credentials | Includes username, password and domain. |
-   | Website     | Includes username, password, and website address. Good choice for website information and can be used with {{ en.DWL }} Has more settings for default web browser, display, credentials and security questions. |
+   | Website     | Includes username, password, and website address. Good choice for website information and can be used with the {{ en.DWL }}. Has more settings for default web browser, display, credentials and security questions. |
 
 1. Select the KeePass exported file in the file explorer and click ***Open***.
 1. Choose the entries you want to import.  

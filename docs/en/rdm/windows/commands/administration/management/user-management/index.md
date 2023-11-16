@@ -178,7 +178,7 @@ Select which repositories the user has access to. For more information, please c
 
 ### Application Access 
 
-The application access section allows to restrain access to {{ en.RDM }} or [{{ en.DWL }}](/rdm/windows/dwl/overview/).  
+The application access section allows to restrain access to {{ en.RDM }} or the [{{ en.DWL }}](/rdm/windows/dwl/overview/).  
 ![User Management - Application Access](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3625.png) 
 
 <table>
@@ -204,7 +204,7 @@ Select if the user can access to the data source from {{ en.RDM }}.
 [{{ en.DWL }}](/rdm/windows/dwl/overview/) 
 		</td>
 		<td>
-Select if the user can access to the data source form {{ en.DWL }}. 
+Select if the user can access the data source from the {{ en.DWL }}. 
 		</td>
 	</tr>
 </table>
