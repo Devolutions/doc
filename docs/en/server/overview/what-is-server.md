@@ -28,7 +28,7 @@ There are two ways of using {{ en.DVLS }}:
 
 ## Web-Based {{ en.VLT }}  
 
-Web browser access and [{{ en.DWL }}](/server/dwl/overview/) 
+Web browser access and [{{ en.WBEX }}](/server/dwl/overview/) 
 		</td>
 		<td>
 ![!!Application64x64](https://webdevolutions.azureedge.net/docs/common/Application64x64.png)  
@@ -42,7 +42,7 @@ Using a client application (desktop or mobile)
 		<td>
 Access {{ en.VLT }} resources from a web browser using a Client Access License (CAL). Credentials are managed directly from the web interface and no client application is required.  
 
-With the {{ en.DWL }}, credentials can be automatically submitted when connecting to a website. 
+With the {{ en.WBEX }}, credentials can be automatically submitted when connecting to a website. 
 		</td>
 		<td>
 Access {{ en.VLT }} resources using our client applications which communicate with {{ en.DVLS }} web services. A local installation of a client application such as {{ en.RDM }} is required to manage the data source and its resources. Note that we offer Windows, {{ en.MAC }}, Android and iOS editions.  

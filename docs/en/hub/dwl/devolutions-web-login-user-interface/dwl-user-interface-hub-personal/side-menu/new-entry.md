@@ -5,7 +5,7 @@ eleventyComputed:
 The ***New Entry*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the entries of the [***All Entries***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#all-entries-tab) tab. You can choose to create a new ***Website***, ***Credit Card***, ***Contact***, or ***Secure Note*** entry.  
 ![New Entry Type Selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2134.png) 
 
-When the entry type is selected, a new tab opens in your browser that allows you to add an entry of that type in {{ en.DHUBP }} through the {{ en.DWL }}.  
+When the entry type is selected, a new tab opens in your browser that allows you to add an entry of that type in {{ en.DHUBP }} through the {{ en.WBEX }}.  
 
 When {{ en.DHUBP }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
 ![New Entry – Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2135.png) 
@@ -18,29 +18,29 @@ The tables below list all fields/settings available in the ***New Entry*** windo
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
-| Name | Enter a name for your entry. This field is automatically filled in by the {{ en.DWL }}, but can still be modified. |
+| Name | Enter a name for your entry. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified. |
 | Folder | Enter the name of the folder in which your new entry will be stored in {{ en.DHUBP }}. |
 | Select Folder | Select in a tree view the folder in which your new entry will be stored in {{ en.DHUBP }}. You can also create a new folder and edit or delete existing ones. |
-| Host | Select in the drop-down list how the {{ en.DWL }} will fetch the host between ***Custom***, ***Linked ({{ en.VLT }})***, or ***Inherited***. If you select ***Custom***, the ***URL*** field (see below) will appear. If you select ***Linked ({{ en.VLT }})***, a drop-down list will appear in which you will be able to select the host. |
-| URL | Enter the URL of the website’s login page. This field is automatically filled in by the {{ en.DWL }}, but can still be modified. |
-| Credentials | Select in the drop-down list between ***Custom***, ***Linked ({{ en.VLT }})***, ***Inherited***, ***My personal credentials***, or ***None*** to specify to the {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. |
+| Host | Select in the drop-down list how the {{ en.WBEX }} will fetch the host between ***Custom***, ***Linked ({{ en.VLT }})***, or ***Inherited***. If you select ***Custom***, the ***URL*** field (see below) will appear. If you select ***Linked ({{ en.VLT }})***, a drop-down list will appear in which you will be able to select the host. |
+| URL | Enter the URL of the website’s login page. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified. |
+| Credentials | Select in the drop-down list between ***Custom***, ***Linked ({{ en.VLT }})***, ***Inherited***, ***My personal credentials***, or ***None*** to specify to the {{ en.WBEX }} how to retrieve your credentials. Some of these options give you access to additional settings. |
 | Username | Enter the username you use to log in to the website. <br> <br> This field is only available if ***Custom*** is selected in the ***Credentials*** drop-down list. |
 | Domain | Enter a domain for the website. <br> <br> This field is only available if ***Custom*** is selected in the ***Credentials*** drop-down list. |
 | Password | Enter the password you use to log in to the website. The password will be hidden. Below the field is a strength indicator for your password. <br> <br> This field is only available if ***Custom*** is selected in the ***Credentials*** drop-down list. |
 | Reveal/Hide password | Reveal or hide the password that was entered. <br> <br> This field is only available next to the ***Password*** field if ***Custom*** is selected in the ***Credentials*** drop-down list. |
 | Password Generator | Open the ***Password Generator*** window, which allows you to create a strong and secure password adapted to your needs and to website requirements. |
 | Compare type | Select how the entered URL is compared and matched to the website URL. Choose between ***Default, Base domain***, ***Compare regex with URL domain***, ***Compare regex with full URL***, ***Host***, ***Start with***, ***Exact***, ***or Never***. |
-| {{ en.DWL }} | Select from the drop-down list between ***Default***, ***Disabled***, or ***Enabled***. If disabled, your credentials for this entry will not be suggested when accessing that particular website. We recommend leaving this option enabled. |
+| {{ en.WBEX }} | Select from the drop-down list between ***Default***, ***Disabled***, or ***Enabled***. If disabled, your credentials for this entry will not be suggested when accessing that particular website. We recommend leaving this option enabled. |
 
 ### Connection 
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
 | Authentication | Select between ***Form*** or ***Basic*** authentication depending on the website. The default value is ***Form*** and usually doesn't need modification. |
-| Autofill login | Enable to automatically fill in credentials on the website's login page for this entry. Overrides the {{ en.DWL }} [***Settings***](/hub/dwl/settings/) option. |
-| Auto submit | Enable to automatically submit filled credentials for this entry. Overrides the {{ en.DWL }} [***Settings***](/hub/dwl/settings/) option. |
+| Autofill login | Enable to automatically fill in credentials on the website's login page for this entry. Overrides the {{ en.WBEX }} [***Settings***](/hub/dwl/settings/) option. |
+| Auto submit | Enable to automatically submit filled credentials for this entry. Overrides the {{ en.WBEX }} [***Settings***](/hub/dwl/settings/) option. |
 | URL encode credentials | Enable to encode credentials in the website URL. Only available if ***Basic*** is selected in ***Authentication***. |
-| Autofill delay | Enable to apply a delay before the {{ en.DWL }} fills in credentials. Only available if ***Form*** is selected in ***Authentication***. |
+| Autofill delay | Enable to apply a delay before the {{ en.WBEX }} fills in credentials. Only available if ***Form*** is selected in ***Authentication***. |
 
 ### Equivalent URLs 
 
@@ -138,7 +138,7 @@ These are the buttons at the bottom of the ***New Entry – Website*** window th
 
 | FIELD/SETTING                        | DESCRIPTION                                                                                                      |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| Name                                 | Enter a name for your entry. This field is automatically filled in by the {{ en.DWL }}, but can still be modified.   |
+| Name                                 | Enter a name for your entry. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified.   |
 | Folder                               | Enter the name of the folder in which your new entry will be stored in {{ en.DHUBP }}.                             |
 | Select Folder                        | Select in a tree view the folder in which your new entry will be stored in {{ en.DHUBP }}. You can also create a new folder and edit or delete existing ones. |
 | Card owner                           | Enter the name of the owner of the card.                                                                         |
@@ -183,7 +183,7 @@ These are the buttons at the bottom of the ***New Entry – Credit Card*** windo
 
 | FIELD/SETTING  | DESCRIPTION                                                                                                       |
 |-----------------|-------------------------------------------------------------------------------------------------------------------|
-| Name            | Enter a name for your entry. This field is automatically filled in by the {{ en.DWL }}, but can still be modified.  |
+| Name            | Enter a name for your entry. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified.  |
 | Folder          | Enter the name of the folder in which your new entry will be stored in {{ en.DHUBP }}.                             |
 | Select Folder   | Select in a tree view the folder in which your new entry will be stored in {{ en.DHUBP }}. You can also create a new folder and edit or delete existing ones. |
 | Gender          | Select in the drop-down list the Gender of the contact between ***Unspecified***, ***Male***, or ***Female***.   |
@@ -234,7 +234,7 @@ These are the buttons at the bottom of the ***New Entry – Contact*** window th
 
 | FIELD/SETTING  | DESCRIPTION                                                                                                       |
 |-----------------|-------------------------------------------------------------------------------------------------------------------|
-| Name            | Enter a name for your entry. This field is automatically filled in by the {{ en.DWL }}, but can still be modified.  |
+| Name            | Enter a name for your entry. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified.  |
 | Folder          | Enter the name of the folder in which your new entry will be stored in {{ en.DHUBP }}.                             |
 | Select Folder   | Select in a tree view the folder in which your new entry will be stored in {{ en.DHUBP }}. You can also create a new folder and edit or delete existing ones. |
 | Type            | Select in the drop-down list if your note is written in ***Markdown*** or in ***Plain text*** format.            |
@@ -269,5 +269,5 @@ These are the buttons at the bottom of the ***New Entry – Secure Note*** windo
 | Cancel        | Cancel the creation of a new website entry and clear all unsaved changes to settings.                             |
 
 {% snippet icon.badgeInfo %} 
-Follow our step-by-step guide explaining how to [add an entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/) in {{ en.DHUBP }} with the {{ en.DWL }}. 
+Follow our step-by-step guide explaining how to [add an entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/) in {{ en.DHUBP }} with the {{ en.WBEX }}. 
 {% endsnippet %}

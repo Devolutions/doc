@@ -4,7 +4,7 @@ eleventyComputed:
   keywords:
   - matching
 ---
-Each URL in a ***Website*** entry has a comparing type associated to it. The comparing type determines if the {{ en.DWL }} should offer the entry as an available entry to perform autofill.
+Each URL in a ***Website*** entry has a comparing type associated to it. The comparing type determines if the {{ en.WBEX }} should offer the entry as an available entry to perform autofill.
 
 {% snippet icon.badgeCaution %}
 ***Host*** is the default comparing type on all platforms.

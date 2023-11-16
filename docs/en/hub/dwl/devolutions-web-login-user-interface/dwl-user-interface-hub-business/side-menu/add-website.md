@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Add website
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s and entries of the [***{{ en.VLT }}s***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***{{ en.UVLT }}***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through the {{ en.DWL }}.  
+The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s and entries of the [***{{ en.VLT }}s***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***{{ en.UVLT }}***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through the {{ en.WBEX }}.  
 
 When {{ en.DHUBB }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
 ![New Entry – Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2132.png) 
@@ -13,29 +13,29 @@ The tables below list all fields/settings available in the ***New Entry – Webs
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
-| Name | Enter a name for your entry. This field is automatically filled in by the {{ en.DWL }}, but can still be modified. |
+| Name | Enter a name for your entry. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified. |
 | {{ en.VLT }} | Choose the {{ en.VLT }} in which to store your new website entry in {{ en.DHUBB }}. You can select any available {{ en.VLT }}, including your ***{{ en.UVLT }}***. |
 | Folder | Enter the name of the folder in which your new entry will be stored in {{ en.DHUBB }}. |
-| Host | Select in the drop-down list how the {{ en.DWL }} will fetch the host between ***Custom***, ***Linked ({{ en.VLT }})***, or ***Inherited***. If you select ***Custom***, the ***URL*** field (see below) will appear. If you select ***Linked ({{ en.VLT }})***, a drop-down list will appear in which you will be able to select the host. |
-| URL | Enter the URL of the website’s login page. This field is automatically filled in by the {{ en.DWL }}, but can still be modified. |
-| Credentials | Select in the drop-down list between ***Custom***, ***Linked ({{ en.VLT }})***, ***Inherited***, ***My personal credentials***, ***Find by name ({{ en.UVLT }})***, or ***None*** to specify to the {{ en.DWL }} how to retrieve your credentials. Some of these options give you access to additional settings. |
+| Host | Select in the drop-down list how the {{ en.WBEX }} will fetch the host between ***Custom***, ***Linked ({{ en.VLT }})***, or ***Inherited***. If you select ***Custom***, the ***URL*** field (see below) will appear. If you select ***Linked ({{ en.VLT }})***, a drop-down list will appear in which you will be able to select the host. |
+| URL | Enter the URL of the website’s login page. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified. |
+| Credentials | Select in the drop-down list between ***Custom***, ***Linked ({{ en.VLT }})***, ***Inherited***, ***My personal credentials***, ***Find by name ({{ en.UVLT }})***, or ***None*** to specify to the {{ en.WBEX }} how to retrieve your credentials. Some of these options give you access to additional settings. |
 | Username | Enter the username you use to log in to the website. <br> <br> This field is only available if ***Custom*** is selected in the ***Credentials*** drop-down list. |
 | Domain | Enter a domain for the website. <br> <br> This field is only available if ***Custom*** is selected in the ***Credentials*** drop-down list. |
 | Password | Enter the password you use to log in to the website. The password will be hidden. Below the field is a strength indicator for your password. <br> <br> This field is only available if ***Custom*** is selected in the ***Credentials*** drop-down list. |
 | Reveal/Hide password | Reveal or hide the password that was entered. <br> <br> This field is only available next to the ***Password*** field if ***Custom*** is selected in the ***Credentials*** drop-down list. |
 | Password Generator | Open the ***Password Generator*** window, which allows you to create a strong and secure password adapted to your needs and to website requirements. |
 | Compare type | Select how the entered URL is compared and matched to the website URL. Choose between ***Default***, ***Base domain***, ***Compare regex with URL domain***, ***Compare regex with full URL***, ***Host***, ***Start with***, ***Exact***, or ***Never***. |
-| {{ en.DWL }} | Select from the drop-down list between ***Default***, ***Disabled***, or ***Enabled***. If disabled, your credentials for this entry will not be suggested when accessing that particular website. We recommend leaving this option enabled. |
+| {{ en.WBEX }} | Select from the drop-down list between ***Default***, ***Disabled***, or ***Enabled***. If disabled, your credentials for this entry will not be suggested when accessing that particular website. We recommend leaving this option enabled. |
 
 ### Connection 
 
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
 | Authentication | Select between ***Form*** or ***Basic*** authentication depending on the website. The default value is ***Form*** and, in most cases, it does not need to be modified. |
-| Autofill login | Enable this option if you want the {{ en.DWL }} to automatically fill in your credentials when loading the website login page. This only applies to that specific entry. <br> <br> ***Autofill login*** is similar to the ***Automatically fill in credentials on load*** feature in the {{ en.DWL }} [***Settings***](/hub/dwl/settings/), with the difference that the former applies only to the specific entry and the latter applies to all your entries. Note that the {{ en.DWL }} setting overrides the ***Autofill login*** setting. |
-| Auto submit | Enable this option if you want the {{ en.DWL }} to automatically submit your credentials after they are filled in. This only applies to that specific entry. <br> <br> ***Auto submit*** is similar to the ***Automatically submit the form after filling*** feature in the {{ en.DWL }} [***Settings***](/hub/dwl/settings/), with the difference that the former applies only to the specific entry and the latter applies to all your entries. Note that the {{ en.DWL }} setting overrides the ***Auto submit*** setting. |
+| Autofill login | Enable this option if you want the {{ en.WBEX }} to automatically fill in your credentials when loading the website login page. This only applies to that specific entry. <br> <br> ***Autofill login*** is similar to the ***Automatically fill in credentials on load*** feature in the {{ en.WBEX }} [***Settings***](/hub/dwl/settings/), with the difference that the former applies only to the specific entry and the latter applies to all your entries. Note that the {{ en.WBEX }} setting overrides the ***Autofill login*** setting. |
+| Auto submit | Enable this option if you want the {{ en.WBEX }} to automatically submit your credentials after they are filled in. This only applies to that specific entry. <br> <br> ***Auto submit*** is similar to the ***Automatically submit the form after filling*** feature in the {{ en.WBEX }} [***Settings***](/hub/dwl/settings/), with the difference that the former applies only to the specific entry and the latter applies to all your entries. Note that the {{ en.WBEX }} setting overrides the ***Auto submit*** setting. |
 | URL encode credentials | Enable this option to encode the credentials in the website URL. <br> <br> This option is only available if ***Basic*** is selected in the ***Authentication*** drop-down list. |
-| Autofill delay | Enable this option to apply a delay before the {{ en.DWL }} automatically fills in your credentials. <br> <br> This option is only available if ***Form*** is selected in the ***Authentication*** drop-down list. |
+| Autofill delay | Enable this option to apply a delay before the {{ en.WBEX }} automatically fills in your credentials. <br> <br> This option is only available if ***Form*** is selected in the ***Authentication*** drop-down list. |
 
 ### Equivalent URLs 
 
@@ -111,5 +111,5 @@ These are the buttons at the bottom of the ***New Entry – Website*** window th
 | Cancel | Cancel the creation of a new website entry and clear all unsaved changes to settings. |
 
 {% snippet icon.badgeInfo %} 
-Follow our step-by-step guide explaining how to [add a website entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) in {{ en.DHUBB }} with the {{ en.DWL }}. 
+Follow our step-by-step guide explaining how to [add a website entry](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) in {{ en.DHUBB }} with the {{ en.WBEX }}. 
 {% endsnippet %}

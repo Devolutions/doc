@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: First login with the {{ en.DWL }}
+  title: First login with the {{ en.WBEX }}
   order: 30
 ---

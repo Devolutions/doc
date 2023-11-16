@@ -58,15 +58,15 @@ There is no way to recover it if the Emergency reset kit cannot be located.<br>
 	</tr>
 </table>
 
-### Please contact your administrator to be allowed to use the {{ en.DWL }}.
-![Please contact your administrator to be allowed to use the {{ en.DWL }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2146.png)
+### Please contact your administrator to be allowed to use the {{ en.WBEX }}.
+![Please contact your administrator to be allowed to use the {{ en.WBEX }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2146.png)
 
 <table>
 		<td>
 Description
 		</td>
 		<td>
-This user is not allowed to access this {{ en.DHUBB }} via the {{ en.DWL }} {{ en.CTOOL }}.
+This user is not allowed to access this {{ en.DHUBB }} via the {{ en.WBEX }} {{ en.CTOOL }}.
 		</td>
 	</tr>
 	<tr>

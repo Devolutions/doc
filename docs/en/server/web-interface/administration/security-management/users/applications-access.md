@@ -26,10 +26,10 @@ Allow user to access {{ en.DVLS }} through {{ en.RDM }}.
 	<tr>
 		<td> 
 
-[{{ en.DWL }}](/server/dwl/overview/) 
+[{{ en.WBEX }}](/server/dwl/overview/) 
 		</td>
 		<td>
-Allow user to auto fill username and passwords on websites with the {{ en.DWL }}. 
+Allow user to auto fill username and passwords on websites with the {{ en.WBEX }}. 
 		</td>
 	</tr>
 	<tr>

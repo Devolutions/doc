@@ -8,7 +8,7 @@ eleventyComputed:
 The ***Token Valid Time*** parameter value is too short. Increase this value to keep the token valid for a longer period to fit your requirements.  
 ![Advanced Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB4013.png)
 ## Issue 2
-The {{ en.DWL }} or {{ en.DVLS }} web interface are disconnected on short notice.
+The {{ en.WBEX }} or {{ en.DVLS }} web interface are disconnected on short notice.
 ### Solution
 The Inactivity Time parameter value is too short. Increase this value to keep the connection alive for a longer period to fit your requirements.  
 ![Advanced Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB8007.png)

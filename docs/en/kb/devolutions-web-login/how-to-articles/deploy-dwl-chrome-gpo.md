@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Deploy the {{ en.DWL }} in Google Chrome using GPOs
+  title: Deploy the {{ en.WBEX }} in Google Chrome using GPOs
   keywords:
   - GPO
 ---
 {% snippet icon.badgeInfo %}
-IMPORTANT NOTE (for {{ en.DWL }} versions prior to 2021.2.3.0)
+IMPORTANT NOTE (for {{ en.WBEX }} versions prior to 2021.2.3.0)
 The settings deployed with the group policy object (GPO) are only enforced when the extension is used for the first time. This means that the settings will not be enforced and changed if you change the settings in the GPO and the extension has already been used by a user at least once.
 {% endsnippet %}
 
@@ -59,14 +59,14 @@ All attributes can have their value changed or their key removed.
     "autoRetrieveCredentials": true,
     "autoSubmitFormOnFill": false,
     "autofillBasicAuthentication": false,
-    "destinationGroup": "{{ en.DWL }}",
+    "destinationGroup": "{{ en.WBEX }}",
     "disableAnalytics": false,
     "dvlsActivated": false,
     "dvlsAutoFillEntryOnLoad": false,
     "dvlsAutoRetrieveCredentials": true,
     "dvlsAutoSubmitFormOnFill": false,
     "dvlsAutofillBasicAuthentication": false,
-    "dvlsDestinationFolder": "{{ en.DWL }}",
+    "dvlsDestinationFolder": "{{ en.WBEX }}",
     "dvlsMatchDetectionType": 2,
     "dvlsShouldIncludePrivate": true,
     "dvlsShowFavicon": false,
@@ -102,7 +102,7 @@ All attributes can have their value changed or their key removed.
     "rdmAutofillBasicAuthentication": false,
     "rdmDefaultDestinationVaultIsPrivate": true,
     "rdmDefaultPortUsage": true,
-    "rdmDestinationFolder": "{{ en.DWL }}",
+    "rdmDestinationFolder": "{{ en.WBEX }}",
     "rdmEnableNativeMessaging": false,
     "rdmPort": 19443,
     "rdmShowFavicon": false,
@@ -134,7 +134,7 @@ All attributes can have their value changed or their key removed. If this sectio
 
 disableSettingsPage
 
-Hide the settings button and disable the settings page in the {{ en.DWL }} for the end-user.  
+Hide the settings button and disable the settings page in the {{ en.WBEX }} for the end-user.  
 Possible values:
 
 * ***True***
@@ -149,9 +149,9 @@ Possible values:
 * AlwaysOverride: Always override the value from the GPO settings when the extension is started.
 * AlwaysUseDefaultAndOverride: Use the default settings for all settings not in the GPO and override the values from the GPO when the extension is started.
 
-## Configuring the {{ en.DWL }} to be automatically pinned on the Chrome toolbar
+## Configuring the {{ en.WBEX }} to be automatically pinned on the Chrome toolbar
 
-1. Create a new GPO rule to have the {{ en.DWL }} automatically pinned on the Chrome toolbar.
+1. Create a new GPO rule to have the {{ en.WBEX }} automatically pinned on the Chrome toolbar.
 1. Select Registry located in Computer Configuration – Preferences – Windows Settings – Registry or User Configuration – Preferences – Windows Settings – Registry according to your needs.
 1. In the registry properties, set the Action parameter to ***Replace*** to change the existing rule or to create it if it does not exist.
 1. Set the Hive parameter to **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER** according to your needs.

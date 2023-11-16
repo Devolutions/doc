@@ -18,10 +18,10 @@ Description
 	</tr>
 	<tr>
 		<td>
-Allow browser extensions ({{ en.DWL }}) 
+Allow browser extensions ({{ en.WBEX }}) 
 		</td>
 		<td>
-Allow to save credentials in the {{ en.DVLS }} instance with the {{ en.DWL }}. 
+Allow to save credentials in the {{ en.DVLS }} instance with the {{ en.WBEX }}. 
 		</td>
 	</tr>
 	<tr>

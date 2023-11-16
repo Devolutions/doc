@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: First login to {{ en.DHUBP }} with the {{ en.DWL }}
+  title: First login to {{ en.DHUBP }} with the {{ en.WBEX }}
 ---
-### First Login with the {{ en.DWL }} 
+### First Login with the {{ en.WBEX }} 
 
-Follow these steps to connect {{ en.DHUBP }} to the {{ en.DWL }}:  
+Follow these steps to connect {{ en.DHUBP }} to the {{ en.WBEX }}:  
 
-1. Click on the {{ en.DWL }} icon in your browser's toolbar.  
+1. Click on the {{ en.WBEX }} icon in your browser's toolbar.  
 
 {% snippet icon.badgeNotice %} 
 A {{ en.DHUBP }} access is required to continue. 
@@ -20,5 +20,5 @@ A {{ en.DHUBP }} access is required to continue.
 ![Entering {{ en.DA }} Credentials](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4023.png)
 1. When done, a login confirmation message will appear.  
 ![Successful Login to the {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4051.png)
-1. Click on the {{ en.DWL }} icon in the toolbar of your web browser to validate that the {{ en.DWL }} is now connected to {{ en.DHUBP }}.  
-![Successful Pairing of {{ en.DHUBP }} to the {{ en.DWL }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4052.png)
+1. Click on the {{ en.WBEX }} icon in the toolbar of your web browser to validate that the {{ en.WBEX }} is now connected to {{ en.DHUBP }}.  
+![Successful Pairing of {{ en.DHUBP }} to the {{ en.WBEX }}](https://webdevolutions.azureedge.net/docs/en/hub/Dwl4052.png)

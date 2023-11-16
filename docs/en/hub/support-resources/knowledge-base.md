@@ -36,6 +36,6 @@ It is structured around our various products, as well as a few sub-categories.
 
 &nbsp; &nbsp;[{{ en.PS }}](/kb/devolutions-powershell/)
 
-&nbsp; &nbsp;[{{ en.DWL }}](/kb/devolutions-web-login/)
+&nbsp; &nbsp;[{{ en.WBEX }}](/kb/devolutions-web-login/)
 
 &nbsp; &nbsp;[{{ en.DWS }}](/kb/devolutions-workspace/)

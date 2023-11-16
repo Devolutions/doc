@@ -13,4 +13,4 @@ For example, you may encounter issues with the following devices:
 ## Solution
 We use third-party libraries for the integration of Firefox and Google Chrome in the ***Embedded (tabbed)*** display mode.  
 
-If none of the web browsers work in ***Embedded (tabbed)*** display mode, you would need to launch the website using the External display mode and use our {{ en.DWL }} to handle the credentials.
+If none of the web browsers work in ***Embedded (tabbed)*** display mode, you would need to launch the website using the External display mode and use our {{ en.WBEX }} to handle the credentials.

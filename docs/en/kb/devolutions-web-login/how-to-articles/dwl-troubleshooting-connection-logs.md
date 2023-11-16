@@ -1,16 +1,16 @@
 ---
 eleventyComputed:
-  title: '{{ en.DWL }} troubleshooting connection logs'
+  title: '{{ en.WBEX }} troubleshooting connection logs'
 ---
-When an issue occurs with the {{ en.DWL }}, the support personnel may ask you to provide them logs in order to provide more information to our engineering department, please follow these steps:
+When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you to provide them logs in order to provide more information to our engineering department, please follow these steps:
 
-1. In your browser, right-click on the {{ en.DWL }} icon.
+1. In your browser, right-click on the {{ en.WBEX }} icon.
 1. Click on ***Manage Extension***.
 1. Toggle on the ***Developer mode***.  
 ![!!KB4786](https://webdevolutions.azureedge.net/docs/en/kb/KB4786.png)
 1. In the same window, under ***Inspect views***, click on the ***background/background.html*** link. This will open the browser ***DevTools*** window.  
 ![!!KB4787](https://webdevolutions.azureedge.net/docs/en/kb/KB4787.png)
-1. In the {{ en.DWL }} pop-up menu, click on the ***Refresh*** button.  
+1. In the {{ en.WBEX }} pop-up menu, click on the ***Refresh*** button.  
 ![!!KB4788](https://webdevolutions.azureedge.net/docs/en/kb/KB4788.png)
 1. In the ***DevTools*** window click on ***Network***.  
 ![!!KB4789](https://webdevolutions.azureedge.net/docs/en/kb/KB4789.png)
