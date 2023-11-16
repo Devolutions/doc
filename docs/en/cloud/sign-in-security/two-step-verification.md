@@ -38,10 +38,10 @@ Choose <a href="#push">Authenticator Push</a>, <a href="#app">Authenticator App<
 
 1. Click ***Authenticator Push***.  
 ![Authenticator Push](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4032.png) 
-1. Download and install {{ en.DWS }} on your mobile device.  
-![{{ en.DWS }}](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4034.png)
-1. Use {{ en.DWS }} to scan the barcode or enter manually the code.
-![{{ en.DWS }} Barcode Scan](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4036.png)
+1. Download and install the {{ en.WAPP }} on your mobile device.  
+![{{ en.WMAPP }}](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4034.png)
+1. Use {{ en.WAPP }} to scan the barcode or enter manually the code.
+![{{ en.WS }} Barcode Scan](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4036.png)
 1. Wait for app synchronization and pairing request on the mobile device. Accept the pairing request, click ***Complete***.  
 ![Application Synchronization](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4039.png)
 

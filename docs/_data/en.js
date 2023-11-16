@@ -25,14 +25,7 @@ module.exports = {
     DUPDATER: 'Devolutions Updater',
     DVLS: 'Devolutions Server',
     DVLSCONSOLE: 'Devolutions Server Console',
-    DWL: 'Devolutions Web Login',
     DWS: 'Devolutions Workspace',
-    DWSANDROID: 'Devolutions Workspace Android',
-    DWSDESKTOP: 'Devolutions Workspace desktop',
-    DWSIOS: 'Devolutions Workspace iOS',
-    DWSMAC: 'Devolutions Workspace macOS',
-    DWSMOBILE: 'Devolutions Workspace mobile',
-    DWSWIN: 'Devolutions Workspace Windows',
     MAC: 'macOS',
     NPANE: 'Navigation pane',
     OBACK: 'Online backup',
@@ -50,9 +43,13 @@ module.exports = {
     UVLT: 'User vault',
     VLT: 'Vault',
     WAAPP: 'Workspace Android app',
+    WAPP: 'Workspace app'
     WAPPS: 'Workspace apps',
     WBEX: 'Workspace browser extension',
     WDAPP: 'Workspace desktop app',
     WIAPP: 'Workspace iOS app',
+    WMAPP: 'Workspace mobile app'
+    WMACAPP: 'Workspace macOS app'
+    WWAPP: 'Workspace Windows app'
     WS: 'Workspace'
   }

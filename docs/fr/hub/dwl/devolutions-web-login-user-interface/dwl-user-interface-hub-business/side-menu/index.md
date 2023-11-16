@@ -60,7 +60,7 @@ Dans la section déroulante ***Général***, vous pouvez sélectionner les types
 Dans la section déroulante ***Avancé***, vous êtes en mesure de personnaliser davantage votre mot de passe en saisissant les caractères que vous souhaitez inclure dans votre mot de passe, suivis du nombre minimum de fois où ils doivent apparaître. Dans le second champ, vous pouvez également saisir les caractères que vous voulez exclure de votre mot de passe.  
 ![Section Avancé](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2079.png)  
 {% snippet icon.badgeInfo %} 
-Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [Créer un compte de site Web dans {{ fr.DHUBB }} avec {{ en.DWL }}](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/). 
+Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [Créer un compte de site Web dans {{ fr.DHUBB }} avec {{ fr.DWL }}](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/). 
 {% endsnippet %}
  
 ### Fonctionnalités des entrées 

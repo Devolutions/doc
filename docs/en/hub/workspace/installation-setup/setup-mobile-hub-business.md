@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
-  title: '{{ en.DWSMOBILE }} setup with {{ en.DHUBB }}'
+  title: '{{ en.WMAPP }} setup with {{ en.DHUBB }}'
   description: Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DA }}, and configuring some security settings.
 ---
 Before using your application, you will have to complete a quick setup that involves selecting your Devolutions product(s), connecting to your {{ en.DA }}, and configuring some security settings.
 
 ## {{ en.DWS }} setup
 
-Follow the steps below to perform the initial configuration of your {{ en.DWSMOBILE }} application with {{ en.DHUBB }}:
+Follow the steps below to perform the initial configuration of your {{ en.WMAPP }} with {{ en.DHUBB }}:
 
 1. [Download and install {{ en.DWS }}](https://devolutions.net/workspace/) if you have not already done so.
 1. After the installation is complete, open the application.

@@ -20,24 +20,24 @@ Users that are invited to join {{ en.DHUBB }} receive this email from their admi
 {% snippet icon.badgeInfo %} 
 New users accessing {{ en.DHUBB }} through Azure AD sign in will go through this configuration if they do not have a {{ en.DA }}. Since you do not want the user to define a password for this account, you need to have a way to store the ***Private Key***. It is usually kept with the password account. This special and unique key for each user is needed when the user changes device or browser. On a daily basis, the device and browser recognize the current user, but not a new one.  
 
-This is why the user needs to store this ***Private Key*** on the ***{{ en.DWSMOBILE }}*** application. It will be much more convenient for the user to do a push notification to accept the new device or browser. 
+This is why the user needs to store this ***Private Key*** on the ***{{ en.WMAPP }}*** . It will be much more convenient for the user to do a push notification to accept the new device or browser. 
 {% endsnippet %}
  
 ![Store your Private Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub4148.png)
 
-* We strongly recommend the first method with the ***{{ en.DWSMOBILE }}*** application. Follow the steps in [{{ en.DWS }} method](#devolutions-workspace-method).  
+* We strongly recommend the first method with the ***{{ en.WMAPP }}***. Follow the steps in [{{ en.WMAPP }} method](#workspace-mobile-app-method).  
 * The second best option is to download and print the ***Private Key*** as a ***QR Code***. For this method, continue to [QR Code method](#qr-code-method).  
 * As a last resort and if the user does not have a mobile device, a password can be created to add the ***Private Key*** to the {{ en.DA }}.   
 
-## {{ en.DWS }} method 
+## {{ en.WMAPP }} method 
 
-1. Download the ***{{ en.DWSMOBILE }}*** application. 
+1. Download the ***{{ en.WMAPP }}***. 
 1. Click ***Continue***.  
-![Download {{ en.DWS }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub4150.png) 
-3. In the ***{{ en.DWS }}*** application, access the ***Authenticator*** space, then click ***Add***. 
+![Download the {{ en.WMAPP }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub4150.png) 
+3. In the {{ en.WMAPP }}, access the ***Authenticator*** space, then click ***Add***. 
 1. Back on the browser page, click on ***Mobile App***. 
-1. Scan the QR code in ***{{ en.DWS }}***.  
-![Scan this QR code in {{ en.DWS }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub4151.png) 
+1. Scan the QR code in the ***{{ en.WMAPP }}***.  
+![Scan this QR code in the {{ en.WMAPP }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub4151.png) 
 6. Wait for the account and the authenticator to pair. Once this setup is completed, it will provide access to the hub.   
 ![Pairing](https://webdevolutions.azureedge.net/docs/en/hub/Hub4152.png) 
 

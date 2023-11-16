@@ -18,7 +18,7 @@ When connecting to your {{ en.DHUB }} for the first time, a Private Key will be 
 * If you already have a {{ en.DA }}, your Private Key will be stored using your password.
 * If you do not have a {{ en.DA }} and your hub does not offer Single Sign-on (SSO), your Private Key will be stored using the password that will be created.
 * If you do not have a {{ en.DA }} and you connect to a hub using Single Sign-on (SSO), you will be prompted to choose a storage method for your Private Key. 
-    * Mobile Device **(Recommended)**: Your Private Key can be stored on the [{{ en.DWSMOBILE }} app](https://devolutions.net/workspace/). You will receive a push notification to easily approve new devices.
+    * Mobile Device **(Recommended)**: Your Private Key can be stored on the [{{ en.WMAPP }}](https://devolutions.net/workspace/). You will receive a push notification to easily approve new devices.
     * QR Code: Download and print your Private Key as a QR code. When required to approve new devices, you will need to scan the QR Code.
     * Password: Approve new devices by entering a password.
 
@@ -44,15 +44,15 @@ Follow the steps below to configure this method.
 
 1. In the ***Private Key Storage Methods*** section of your {{ en.DPORTAL }}, click ***Configure*** in the mobile device method box.  
 ![Configure the Mobile Device Method](https://webdevolutions.azureedge.net/docs/en/kb/KB2188.png)
-1. [Download](https://devolutions.net/workspace/) the {{ en.DWSMOBILE }} application.  
-![Download {{ en.DWSMOBILE }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2189.png)
+1. [Download](https://devolutions.net/workspace/) the {{ en.WMAPP }}.  
+![Download {{ en.WMAPP }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2189.png)
 1. Once done, click ***Continue***. A QR code will appear.
-1. In the {{ en.DWSMOBILE }} application, access the ***Authenticator*** space.
+1. In the {{ en.WMAPP }}, access the ***Authenticator*** space.
 1. Click ***Add***, then ***Scan a QR code***.
 1. Scan the QR code in the browser with your mobile device.
 ![Scan the QR Code](https://webdevolutions.azureedge.net/docs/en/kb/KB2190.png)
 
-The pairing process will begin. After it ends (it should only take a few seconds), your Private Key will be stored on the {{ en.DWSMOBILE }} application.  
+The pairing process will begin. After it ends (it should only take a few seconds), your Private Key will be stored on the {{ en.WMAPP }}.  
 
 #### Unpair
 

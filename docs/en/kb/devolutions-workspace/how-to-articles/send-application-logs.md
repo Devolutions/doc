@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Send application logs from {{ en.DWSMOBILE }}
-  description: This topic explains how to send logs from {{ en.DWSMOBILE }}.
+  title: Send application logs from the {{ en.WMAPP }}
+  description: This topic explains how to send logs from the {{ en.WMAPP }}.
 ---
 If you contact our support, it is possible that they ask you for application logs. This topic covers how to send them.
 
 ## Steps
-1. In the {{ en.DWSMOBILE }} application, tap the menu button.  
+1. In the {{ en.WMAPP }}, tap the menu button.  
 ![Menu button](https://webdevolutions.azureedge.net/docs/en/kb/KB0133.png)
 1. Go to the ***Settings***.  
 ![Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB0134.png)

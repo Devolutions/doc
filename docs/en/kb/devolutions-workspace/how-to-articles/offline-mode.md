@@ -4,7 +4,7 @@ eleventyComputed:
   description: How to activate the offline mode for Devolutions Workspace desktop and Devolutions Workspace mobile.
 ---
 
-{{ en.DWSMOBILE }} and {{ en.DWSDESKTOP }} are available in offline mode (read-only).
+The {{ en.WAPPS }} (desktop and mobile) are available in offline mode (read-only).
 
 {% snippet icon.badgeInfo %}
 Administrators must enable offline mode for advanced data sources in {{ en.DVLS }} and {{ en.DHUB }} before users can activate it.

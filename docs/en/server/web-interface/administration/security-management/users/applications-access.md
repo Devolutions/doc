@@ -69,7 +69,7 @@ Allow user to connect through [{{ en.PS }} module](https://www.powershellgallery
 {{ en.DWS }} 
 		</td>
 		<td>
-Allow users to use the {{ en.DWSMOBILE }} application. 
+Allow users to use the {{ en.WMAPP }}. 
 		</td>
 	</tr>
 </table>
