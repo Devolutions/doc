@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Checkout process
-  description: This topic will cover both the PAM checkout process and the PAM checkout using a custom time frame.
+  description: This topic covers both the PAM checkout process and the PAM checkout using a custom time frame.
 ---
 {% snippet icon.badgeNotice %} 
 A license is required to enable the Privileged Access Management (PAM) module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license. 
@@ -13,7 +13,7 @@ This topic will cover both the [PAM checkout process](#checkout) and the [PAM ch
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
 1. Go to the ***Privileged Access*** tab and select the desired {{ en.VLT }}.
 1. Click on an entry and then click ***Check Out***.  
-![Check Out](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0033.png)
+![Check Out](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0036.png)
 1. Set the desired time of the ***Check-out Request*** by either selecting from the ***Access duration*** dropdown or by manually setting a custom time with the ***Hours*** and ***minutes*** fields.  
 ![Check-out Request](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0034.png)
    {% snippet icon.badgeInfo %}
