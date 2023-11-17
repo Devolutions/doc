@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Security
-  description: '{{ en.RDM }} enforces two successive authentication steps to grant access to the data source. Multi-factor authentication is integrated directly in the software and credentials are brokered on behalf of the user when launching a connection, preventing the user from ever knowing the credentials.
+  description: '{{ en.RDM }} enforces two successive authentication steps to grant access to the data source. Multi-factor authentication is integrated directly in the software and credentials are brokered on behalf of the user when launching a connection, preventing the user from ever knowing the credentials.'
 ---
 {{ en.RDM }} enforces two successive authentication steps to grant access to the [data source](/rdm/windows/concepts/basic-concepts/data-sources/). Multi-factor authentication is integrated directly in the software and credentials are brokered on behalf of the user when launching a connection, preventing the user from ever knowing the credentials.
 
