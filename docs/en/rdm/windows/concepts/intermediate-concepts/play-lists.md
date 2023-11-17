@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Play lists
-  description: Automating daily recurring and repetitive tasks in {{ en.RDM }}, such as launching your standard connections in embedded mode through local, shared, or {{ en.UVLT }} play lists, you can increase your efficiency by saving valuable time.
+  description: Automating daily recurring and repetitive tasks in {{ en.RDM }}, such as launching your standard connections in embedded mode through local, shared, or {{ en.UVLT }} play lists, increases your efficiency by saving valuable time.
 ---
-Automating daily recurring and repetitive tasks in {{ en.RDM }}, such as launching your standard connections in embedded mode through local, shared, or {{ en.UVLT }} play lists, you can increase your efficiency by saving valuable time.
+Automating daily recurring and repetitive tasks in {{ en.RDM }}, such as launching your standard connections in embedded mode through local, shared, or {{ en.UVLT }} play lists, increases your efficiency by saving valuable time.
 
 ### Related topics  
 * [Play list actions](/rdm/windows/commands/edit/edit/play-list/play-list-actions/)  
