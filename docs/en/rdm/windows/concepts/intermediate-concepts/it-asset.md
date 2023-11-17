@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title:  IT asset
-  description: The IT Asset Management feature can be used to link an asset manager (e.g., BlueTally) through an entry's properties.
+  description: Manage your IT inventory accurately by centralizing technical, software, hardware, and location information.
 ---
-Manage your IT inventory accurately by centralizing technical, software, hardware and location information. 
+Manage your IT inventory accurately by centralizing technical, software, hardware, and location information. 
 
 ### Related topics  
 
