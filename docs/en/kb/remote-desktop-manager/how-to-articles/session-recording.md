@@ -11,7 +11,7 @@ You can configure session recording at the {{ en.VLT }}, folder or entry level a
 Session recording is only available in embedded mode.
 {% endsnippet %}
  
-## Supported Sessions
+## Supported sessions
 
 * Apple Remote Desktop
 * Azure Blob Storage
@@ -27,7 +27,7 @@ Session recording is only available in embedded mode.
 * VNC
 * WebDav
 
-## Configure Session Recording 
+## Configure session recording 
 
 1. Open ***{{ en.VLT }} Settings*** or ***Properties*** at folder or entry level.
 1. In the ***Security*** section, click ***Session Recording***.
@@ -69,10 +69,9 @@ We recommend choosing a custom file extension, for example on a shared network.
 
 Two files are saved after the session is closed. The .webm file is the recording and the .dat is for the {{ en.RDM }} player. 
 
-## Session Recording All-in-One Interface
+## Session recording all-in-one interface
 
-The ***Root dashboard*** has a dedicated tab that provides an all-in-one interface for viewing and downloading all recordings for supported sessions.
-![Root dashboard's session recording tab](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6155.png)   
+The ***Root dashboard*** has a dedicated tab that provides an all-in-one interface for viewing and downloading all recordings for supported sessions.   
 
 Recordings can also be accessed by right-clicking on the entry and selecting ***View*** – ***Recordings***.
 
