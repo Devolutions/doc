@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Host linking and host management
-  description: Centralize data in a single host entry, allowing multiple entries to be launched with templates
+  description: Centralize data in a single host entry, allowing to open multiple types of connection without having to create them.
 ---
-Centralize data in a single host entry, allowing to open multiple types of connection such as RDP, SSH, website, etc. without having to create them. Launch entries with [templates](https://docs.devolutions.net/rdm/windows/concepts/intermediate-concepts/templates/), meaning less data entries to manage, which saves time.
+Centralize data in a single host entry, allowing to open multiple types of connection such as RDP, SSH, and websites, without having to create them. Launch entries with [templates](https://docs.devolutions.net/rdm/windows/concepts/intermediate-concepts/templates/), meaning less data entries to manage, which saves time.
 
 ### Related topics  
 
