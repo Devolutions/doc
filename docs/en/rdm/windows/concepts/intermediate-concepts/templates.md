@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Templates
-  description: Templates are useful for providing a proper configuration when creating entries, instead of manually configuring them.Templates are also handy for credentials, sessions, synchronizers, folders, etc. Sessions can be launched via quick connect without having to change parameters manually.
+  description: '{{ en.RDM }} templates are useful for providing a proper configuration when creating entries, instead of manually configuring them. They can be local or shared. Sharing the template ensures that the whole team uses the same configuration.'
 ---
-{{ en.RDM }} templates are useful for providing a proper configuration when creating entries, instead of manually configuring them. They can be local or shared. Sharing the template ensures that the whole team uses the same configuration. Templates are also handy for credentials, [folders](https://docs.devolutions.net/rdm/windows/concepts/basic-concepts/folders/), sessions, [synchronizers](https://docs.devolutions.net/rdm/windows/concepts/advanced-concepts/synchronizers/), [tags](https://docs.devolutions.net/rdm/windows/concepts/intermediate-concepts/tags/), [password templates,](https://docs.devolutions.net/rdm/windows/concepts/intermediate-concepts/password-template/) etc. Sessions can be launched via quick connect without having to change parameters manually.
+{{ en.RDM }} templates are useful for providing a proper configuration when creating entries, instead of manually configuring them. They can be local or shared. Sharing the template ensures that the whole team uses the same configuration. Templates are also handy for credentials, [folders](https://docs.devolutions.net/rdm/windows/concepts/basic-concepts/folders/), sessions, [synchronizers](https://docs.devolutions.net/rdm/windows/concepts/advanced-concepts/synchronizers/), [tags](https://docs.devolutions.net/rdm/windows/concepts/intermediate-concepts/tags/), [password templates,](https://docs.devolutions.net/rdm/windows/concepts/intermediate-concepts/password-template/) etc. Sessions can be launched via ***Quick Connect*** without having to change parameters manually.
 
 ### Related topics  
 * [Embedded Sessions](https://docs.devolutions.net/rdm/windows/user-interface/content-area/embedded-sessions/)
