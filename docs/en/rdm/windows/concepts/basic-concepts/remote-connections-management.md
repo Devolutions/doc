@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Remote connections management
-  description: '{{ en.RDM }} effortlessly set up numerous secure remote connections, which are securely accessible to multiple users through a centralized vault. {{ en.RDM }} integrates with a wider range of technologies, including Microsoft Remote Desktop protocol, Citrix, VMware, Web, Virtual Protocol Network, FTP, FTPS, SFTP, SSH and many others.'
+  description: '{{ en.RDM }} effortlessly sets up numerous secure remote connections, which are accessible to users through a centralized {{ en.VLT }}.'
 ---
-{{ en.RDM }} effortlessly set up numerous secure remote connections, which are accessible to users through a centralized vault. It organizes these connections efficiently, simplifying navigation by eliminating the need to switch from one application to another. {{ en.RDM }} offers the ability to view and manage every type of connection that users launch in the course of their working day, set up [Play Lists](/rdm/windows/concepts/intermediate-concepts/play-lists/) and much more.
+{{ en.RDM }} effortlessly sets up numerous secure remote connections, which are accessible to users through a centralized [{{ en.VLT }}](/rdm/windows/concepts/basic-concepts/vaults/). It organizes these connections efficiently, simplifying navigation by eliminating the need to switch from one application to another. {{ en.RDM }} offers the ability to view and manage every type of connection that users launch in the course of their working day, set up [Play Lists](/rdm/windows/concepts/intermediate-concepts/play-lists/), and much more!
 
 ### Related topics  
 * [Add-ons](https://docs.devolutions.net/rdm/windows/commands/tools/#managers)
