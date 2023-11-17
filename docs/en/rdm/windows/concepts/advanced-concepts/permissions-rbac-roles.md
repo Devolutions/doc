@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Permissions/RBAC/Roles 
-  description: The use of permissions allows granular control over who can view, modify, or delete specific data or functionality within {{ en.RDM }}. RBAC simplifies the process by grouping users into predefined roles, each with a set of associated permissions.  
+  description: The use of permissions allows for granular control over who can view, modify, or delete specific data or functionality within {{ en.RDM }}. RBAC simplifies the process by grouping users into predefined roles, each with a set of associated permissions.  
 ---
-The use of permissions allows granular control over who can view, modify, or delete specific data or functionality within {{ en.RDM }}. RBAC simplifies the process by grouping users into predefined roles, each with a set of associated permissions. You can also assign permissions to an object. This object can be the root folder, a folder, or an entry. Permissions can also be applied at the system level and to a PAM {{ en.VLT }}.
+The use of permissions allows for granular control over who can view, modify, or delete specific data or functionality within {{ en.RDM }}. RBAC simplifies the process by grouping users into predefined roles, each with a set of associated permissions. You can also assign permissions to an object. This object can be the root [folder](/rdm/windows/concepts/basic-concepts/folders/), a folder, or an entry. Permissions can also be applied at the system level and to a PAM [{{ en.VLT }}](/rdm/windows/concepts/basic-concepts/vaults/).
 
 ### Related topics  
 * [Inheritance](https://docs.devolutions.net/kb/remote-desktop-manager/knowledge-base/inheritance/)
