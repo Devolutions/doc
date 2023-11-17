@@ -3,7 +3,7 @@ eleventyComputed:
   title: Ensembles de permissions
   description: Les permissions peuvent être regroupées dans des Ensembles de permissions. Il est possible de créer manuellement des ensembles personnalisés ou d'utiliser les ensembles par défaut. Ils sont gérés via l'interface Web {{ fr.DVLS }} dans Administration – Paramètres système – Gestion des {{ fr.VLT }}s – Ensembles de permissions.
 ---
-Les permissions peuvent être regroupées dans des ***Ensembles de permissions***. Il est possible de créer manuellement des ensembles personnalisés ou d'utiliser les ensembles par défaut. Ils sont gérés via l'interface Web {{ en.DVLS }} dans ***Administration – Paramètres système – Gestion des {{ fr.VLT }}s – Ensembles de permissions***.
+Les permissions peuvent être regroupées dans des ***Ensembles de permissions***. Il est possible de créer manuellement des ensembles personnalisés ou d'utiliser les ensembles par défaut. Ils sont gérés via l'interface Web {{ fr.DVLS }} dans ***Administration – Paramètres système – Gestion des {{ fr.VLT }}s – Ensembles de permissions***.
 
 ![Administration – Paramètres système – Gestion des {{ fr.VLT }}s – Ensembles de permissions](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2060.png)
 

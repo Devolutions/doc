@@ -1,18 +1,16 @@
 ---
 eleventyComputed:
-  title: Restricted Access Vaults
-  description: 
+  title: Restricted access {{ en.VLT }}s
+  description: Administrators can allow users to view specific folders or entries in a {{ en.VLT }}. The Restricted {{ en.VLT }} role is assigned at the {{ en.VLT }} level. Users or groups with this setting will see only the {{ en.VLT }} content that they have permission to view.
 ---
-
-Administrators can allow users to view specific folders or entries in a vault. The ***Restricted vault role*** is assigned at the vault level. Users or groups with this setting will see only the vault content that they have permission to view.
+Administrators can allow users to view specific folders or entries in a {{ en.VLT }}. The ***Restricted {{ en.VLT }} role*** is assigned at the {{ en.VLT }} level. Users or groups with this setting will see only the {{ en.VLT }} content that they have permission to view.
 
 {% snippet icon.badgeInfo %}
-This functionality is also fully compatible with Remote Desktop Manager, Workspace (Desktop, Mobile), and the browser extension.
-
+This functionality is also fully compatible with {{ en.RDM }}, the {{ en.WAPPS }} (mobile and desktop), and the {{ en.WBEX }}.
 {% endsnippet %}  
 
-1. Select the vault and click on the three dots to edit the vault’s permissions.  
-![Edit the vault’s permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6078.png)
+1. Select the {{ en.VLT }} and click on the three dots to edit the {{ en.VLT }}’s permissions.  
+![Edit the {{ en.VLT }}’s permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6078.png)
 1. Assign the desired user or group to the ***Restricted*** role and click ***Update***.
 ![Assign the desired user or group to the Restricted role](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6079.png)  
 1. In the folder’s properties or entries, give users/groups the desired access by clicking on ***Edit***.

@@ -32,7 +32,7 @@ Vous devez utiliser une application de bureau pour créer une source de données
 | Plateforme | Édition Free                  | Édition Team                  |
 | -------- |:-----------------------------: |:-----------------------------: |
 | Windows  | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| {{ en.MAC }}    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| {{ fr.MAC }}    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Linux    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | iOS      | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Android  | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |

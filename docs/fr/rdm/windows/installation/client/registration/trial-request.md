@@ -12,7 +12,7 @@ Si vous décidez de ne pas l'enregistrer avant la fin de la période d'essai, vo
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %} 
-Vous devrez importer le fichier de licence pour {{ en.RDM }} 2023.3 et les versions ultérieures si vous n'avez pas d'accès à Internet.{% endsnippet %}
+Vous devrez importer le fichier de licence pour {{ fr.RDM }} 2023.3 et les versions ultérieures si vous n'avez pas d'accès à Internet.{% endsnippet %}
 
 ## Étapes 
 

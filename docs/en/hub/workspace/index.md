@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: '{{ en.DWS }}'
+  title: '{{ en.WAPPS }}'
   order: 80
 ---

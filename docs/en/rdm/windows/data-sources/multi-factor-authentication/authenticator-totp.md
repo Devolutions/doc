@@ -2,10 +2,10 @@
 eleventyComputed:
   title: Authenticator (TOTP)
 ---
-{{ en.RDM }} allows you to use an ***Authenticator (TOTP)*** such as [{{ en.DWS }}](https://devolutions.net/workspace/) or Google Authenticator to provide an additional security layer when opening a data source. 
+{{ en.RDM }} allows you to use an ***Authenticator (TOTP)*** such as the [{{ en.WMAPP }}](https://devolutions.net/workspace/) or Google Authenticator to provide an additional security layer when opening a data source. 
 ## Settings 
 {% snippet icon.badgeInfo %} 
-Before you start the configuration, make sure you have installed the [{{ en.DWS }}](https://devolutions.net/workspace/) or Google Authenticator applications on a supported device. 
+Before you start the configuration, make sure you have installed the [{{ en.WMAPP }}](https://devolutions.net/workspace/) or Google Authenticator on a supported device. 
 {% endsnippet %}
  
 1. If not already done, follow these [Multi-Factor Authentication Configuration steps](/rdm/windows/data-sources/multi-factor-authentication/). 

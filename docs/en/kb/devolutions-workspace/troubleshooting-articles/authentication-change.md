@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: Authentication changes causing login issues with {{ en.DWS }}
+  title: Authentication changes causing login issues with {{ en.WS }}
 ---
-These issues are due to the fact that the authentication has changed. It is possible that {{ en.DWS }} will have problems loading the {{ en.VLT }}s, ***Account*** page or connecting at all. This topic will cover how to troubleshoot this issue for: <a href="#hub-business">{{ en.DWS }} with {{ en.DHUBB }}</a>, <a href="#hub-personal">{{ en.DWS }} with {{ en.DHUBP }}</a> and <a href="#devolutions-server">{{ en.DWS }} with {{ en.DVLS }}</a>.
+These issues are due to the fact that the authentication has changed. It is possible that the {{ en.WAPPS }} will have problems loading the {{ en.VLT }}s, ***Account*** page or connecting at all. This topic covers how to troubleshoot this issue for the <a href="#hub-business">{{ en.WAPPS }} with {{ en.DHUBB }}</a>, the <a href="#hub-personal">{{ en.WAPPS }} with {{ en.DHUBP }}</a>, and the <a href="#devolutions-server">{{ en.WAPPS }} with {{ en.DVLS }}</a>.
 ## {{ en.DHUBB }}
 This section covers {{ en.DHUBB }} troubleshooting for <a href="#workspace-mobile-for-hub-business">mobile</a> and <a href="#workspace-desktop-for-hub-business">desktop</a>. The connection to a {{ en.DHUBB }} may fail, to fix this follow the steps below.
 ### {{ en.WMAPP }} for {{ en.DHUBB }}

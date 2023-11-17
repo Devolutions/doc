@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: Prevent {{ en.RDM }} and {{ en.DWS }} from disconnecting when switching network
-  description: When switching your computer from wired network to wifi, {{ en.RDM }} and {{ en.DWS }} disconnect from {{ en.DVLS }} and you have to reconnect.
+  title: Prevent {{ en.RDM }} and the {{ en.WAPP }} from disconnecting when switching network
+  description: When switching your computer from wired network to wifi, {{ en.RDM }} and the {{ en.WAPP }} disconnect from {{ en.DVLS }} and you have to reconnect.
   keywords:
   - Switching Network
   - Public IP
@@ -9,11 +9,11 @@ eleventyComputed:
 ---
 ## Scenario 1
 
-When switching your computer from a wired network to wifi, {{ en.RDM }} and {{ en.DWS }} disconnect from {{ en.DVLS }} and you have to reconnect.
+When switching your computer from a wired network to wifi, {{ en.RDM }} and the {{ en.WAPP }} disconnect from {{ en.DVLS }} and you have to reconnect.
 
 ## Scenario 2
 
-If you have multiple different public IP addresses, {{ en.RDM }} and {{ en.DWS }} are not able to connect to {{ en.DVLS }}.
+If you have multiple different public IP addresses, {{ en.RDM }} and the {{ en.WAPP }} are not able to connect to {{ en.DVLS }}.
 
 ## Solution
 

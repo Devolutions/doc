@@ -202,15 +202,15 @@ Solution
 	</tr>
 </table>
 
-### {{ en.DWS }} is disabled for this user on this hub.
-![{{ en.DWS }} is disabled for this user on this hub.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
+### {{ en.WS }} is disabled for this user on this hub.
+![{{ en.WS }} is disabled for this user on this hub.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
 
 <table>
 		<td>
 Description
 		</td>
 		<td>
-This user is not allowed to access this {{ en.DHUBB }} via the {{ en.DWS }} {{ en.CTOOL }}.
+This user is not allowed to access this {{ en.DHUBB }} via the {{ en.WAPPS }}.
 		</td>
 	</tr>
 	<tr>

@@ -66,7 +66,7 @@ Allow user to connect through [{{ en.PS }} module](https://www.powershellgallery
 	</tr>
 	<tr>
 		<td>
-{{ en.DWS }} 
+{{ en.WS }} 
 		</td>
 		<td>
 Allow users to use the {{ en.WMAPP }}. 

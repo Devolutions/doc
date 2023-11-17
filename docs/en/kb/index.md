@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Knowledge Base
+  title: Knowledge base
 ---

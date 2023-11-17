@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
-  title: Configure {{ en.DWS }} 2-factor authentication
+  title: Configure {{ en.WS }} 2-factor authentication
 ---
 {% youtube 'Oi27Y8FfcNg' %}
 
-{{ en.RDM }} has the option to use {{ en.DWS }} to provide an additional security layer when the application starts.
+{{ en.RDM }} has the option to use {{ en.WS }} to provide an additional security layer when the application starts.
 
 ## Settings
 
@@ -12,12 +12,12 @@ eleventyComputed:
 Before you start the configuration, make sure you have installed the [{{ en.WMAPP  }}](https://devolutions.net/authenticator).
 {% endsnippet %}
 
-1. Click on ***File - Options - Security*** and select ***Require a TOTP validation ({{ en.DWS }} or Google Authenticator)*** in the ***2-Factor Authentication*** section. Then click on ***Configure*** to set up your Google Authentication.  
+1. Click on ***File – Options – Security*** and select ***Require a TOTP validation ({{ en.WS }} or Google Authenticator)*** in the ***2-Factor Authentication*** section. Then click on ***Configure*** to set up your Google Authentication.  
 ![!!KB4512](https://webdevolutions.azureedge.net/docs/en/kb/KB4512.png)
-1. Scan the QR code on your screen with the {{ en.WMAPP }} to setup {{ en.RDM }}. Enter the ***Validation code*** provided by {{ en.DWS }} into {{ en.RDM }}.  
+1. Scan the QR code on your screen with the {{ en.WMAPP }} to setup {{ en.RDM }}. Enter the ***Validation code*** provided by {{ en.WS }} into {{ en.RDM }}.  
 ![!!KB4513](https://webdevolutions.azureedge.net/docs/en/kb/KB4513.png)
 1. Click ***Validate***, then ***OK***.
-1. Relaunch {{ en.RDM }} to be prompted for the {{ en.DWS }} code.  
+1. Relaunch {{ en.RDM }} to be prompted for the {{ en.WS }} code.  
 {% snippet icon.badgeInfo %}
-{{ en.DWS }} generates a new validation code every 30 seconds.
+{{ en.WS }} generates a new validation code every 30 seconds.
 {% endsnippet %}

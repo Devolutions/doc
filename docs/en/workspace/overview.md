@@ -3,8 +3,8 @@ eleventyComputed:
   title: Overview
   order: 0
 ---
-![!!{{ en.DWS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
+![!!{{ en.WS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
 
-{{ en.DWS }} is a two-factor authenticator for all your online accounts.  
+The {{ en.WAPPS }} are both mobile and desktop applications that bring together Authenticator, {{ en.DHUBB }}, {{ en.DHUBP }}, and {{ en.DVLS }} into a single, centralized, cloud-based location. {{ en.WS }} simplifies and streamlines access and management in our solutions. It is the perfect {{ en.CTOOL }} for those who use our solutions.
 
-It provides users with added security by implementing an extra layer of two-factor identification when logging into online accounts. 
+The {{ en.WAPPS }} are available for iOS and Android devices as well as for Windows and macOS.

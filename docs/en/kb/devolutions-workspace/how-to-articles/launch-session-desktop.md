@@ -11,7 +11,7 @@ Select the desired entry and click on ***Open in {{ en.RDM }}*** or ***Open in {
 ![Open in {{ en.DLAUNCHER }}](https://webdevolutions.azureedge.net/docs/en/kb/KB0146.png)
 
 ## Launch through double-click
-1. In the {{ en.WDAPP }}, click go to ***File*** – ***Workspace settings*** – ***Entries***.
+1. In the {{ en.WDAPP }}, click go to ***File – {{ en.WS }} settings – Entries***.
 1. Enable the ***Launch session directly*** option and choose between {{ en.RDM }} and {{ en.DLAUNCHER }}.
 ![Launch session directly](https://webdevolutions.azureedge.net/docs/en/kb/KB0147.png)
 1. Click the ***X*** to close the option menu.

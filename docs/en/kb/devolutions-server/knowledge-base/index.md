@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Knowledge Base
+  title: Knowledge base
   order: 20
 ---

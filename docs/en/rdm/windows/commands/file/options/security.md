@@ -93,10 +93,10 @@ Check this option to authenticate in your {{ en.RDM }} application using Yubikey
 	</tr>
 	<tr>
 		<td>
-Require a TOTP validation ({{ en.DWS }} or Google Authenticator) 
+Require a TOTP validation ({{ en.WS }} or Google Authenticator) 
 		</td>
 		<td>
-Check this option to validate your authentication to your {{ en.RDM }} application with a Time-based one-time password (TOTP) sent through {{ en.DWS }} or Google Authenticator. Set it up using the <b><i>Configure</i></b> button below this option.
+Check this option to validate your authentication to your {{ en.RDM }} application with a Time-based one-time password (TOTP) sent through {{ en.WS }} or Google Authenticator. Set it up using the <b><i>Configure</i></b> button below this option.
 		</td>
 	</tr>
 	<tr>
