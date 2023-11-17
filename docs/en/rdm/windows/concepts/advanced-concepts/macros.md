@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Macros
-  description: Enhance efficiency by automating tasks traditionally performed manually, utilizing macros to extract information from sources like the Windows Event Viewer or Windows Services or to remotely turn on a computer in your network with Wake-on-LAN, to name a few.
+  description: Enhance efficiency by automating tasks traditionally performed manually, utilizing macros to extract information from sources like the Windows Event Viewer or Windows Services or to remotely turn on a computer in your network with Wake-on-LAN, to name a few possibilities.
 ---
-Enhance efficiency by automating tasks traditionally performed manually, utilizing macros to extract information from sources like the Windows Event Viewer or Windows Services or to remotely turn on a computer in your network with Wake-on-LAN, to name a few.
+Enhance efficiency by automating tasks traditionally performed manually, utilizing macros to extract information from sources like the Windows Event Viewer or Windows Services or to remotely turn on a computer in your network with Wake-on-LAN, to name a few possibilities.
 
 ### Related topics  
 * [Entry types events settings](/kb/remote-desktop-manager/how-to-articles/entry-types-events-settings/)  
