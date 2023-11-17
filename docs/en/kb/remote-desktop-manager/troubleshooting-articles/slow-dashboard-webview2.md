@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: Slow dashboard
-  description: The dashboard of {{ en.RDM }} is slow.
+  title: Slow dashboard after application update
+  description: The dashboard of {{ en.RDM }} is slow after application update.
 ---
 ### Issue
 
