@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
-  title: Unable to uninstall
+  title: Unable to uninstall {{ en.RDM }} 
+  description: You seem unable to uninstall {{ en.RDM }} from Programs and Features in Windows.  
 ---
 You seem unable to uninstall {{ en.RDM }} from Programs and Features in Windows.  
 

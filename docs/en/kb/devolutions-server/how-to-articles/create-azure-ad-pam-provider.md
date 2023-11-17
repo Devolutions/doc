@@ -75,7 +75,7 @@ Assigning API permissions as described in steps 20 to 26 is only useful if you w
 1. Click ***Application permissions***, then check the boxes next to the following Microsoft Graph API permissions to select them:
 
 * ***Group.Read.All***
-* ***RoleManagement.Read.Directory***
+* ***RoleManagement.Readwrite.Directory***
 * ***User.Read.All***
 ![Select API permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB2143.png)
 
