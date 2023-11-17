@@ -10,7 +10,7 @@ Psono is integrated in {{ en.RDM }} versions 2022.1 and higher.
 {% endsnippet %}  
 
 {% snippet icon.badgeInfo %}
-The integration of credentials from password managers is only available in the Team version of Remote Desktop Manager.
+The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
 {% endsnippet %}  
 
 1. <a href="#psono">Configure Psono</a>

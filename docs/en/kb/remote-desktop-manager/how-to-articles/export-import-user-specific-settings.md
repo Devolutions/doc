@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
   title: Export and import user specific settings
-  description: If you or your Users are overriding entry properties with User Specific Settings in Remote Desktop Manager, everyone will be required to export and import the User Specific Settings List when migrating data.
+  description: If you or your Users are overriding entry properties with User Specific Settings in {{ en.RDM }}, everyone will be required to export and import the User Specific Settings List when migrating data.
 ---
-
 {% snippet icon.badgeCaution %}
 The ***Export*** and ***Import*** features for the ***User Specific Settings*** are {{ en.VLT }} specific, which means that you must select the {{ en.VLT }} from or into which you want to export or import your settings.
 {% endsnippet %}

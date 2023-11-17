@@ -2,7 +2,6 @@
 eleventyComputed:
   title: Search & filter
 ---
-
 It is possible to apply a filter in the ***{{ en.NPANE }}*** tree view by typing some characters in the filter box. The filter is applied using the specified settings in the application ***File – Options – User Interface – Filter***. 
 
 ## Ellipsis button 

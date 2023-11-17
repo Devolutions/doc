@@ -3,7 +3,6 @@ eleventyComputed:
   title: Offboarding users
   description: Offboarding users
 ---
-
 {% snippet icon.badgeInfo %}
 Deleting the data of a user has no impact on any existing logs or records in the {{ en.RDM }} database.
 {% endsnippet %}  

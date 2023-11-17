@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
   title: Version schema compatibility for {{ en.RDM }} and {{ en.DVLS }}
-  description: Here is a schema compatibility board explaining which version of Remote Desktop Manager should be used with Devolutions Server and other database.  
+  description: Here is a schema compatibility board explaining which version of {{ en.RDM }} should be used with {{ en.DVLS }} and other database.  
 ---
-
 Here is a schema compatibility board explaining which version of {{ en.RDM }} should be used with {{ en.DVLS }} and other database.  
 
 {% snippet icon.badgeCaution %}

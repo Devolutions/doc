@@ -2,7 +2,6 @@
 eleventyComputed:
   title: Installation for all users
 ---
-
 {{ en.RDM }} 's current installation package does require to install with elevated privileges, as well as making the application available to all users of the computer where you are installing. That being said, feedback has shown that it does complete successfully across a wide spectrum of our community's environments. Follow this procedure to reduce deployment issues in the future. 
 
 ## Procedure 

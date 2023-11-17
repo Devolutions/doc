@@ -3,7 +3,6 @@ eleventyComputed:
   title: User Specific Settings
   description: Specific Settings are used to override the properties of an entry.
 ---
-
 Allows session setting override for a user. Several settings can be overridden, such as user name, password or display.  
 
 In your ***{{ en.NPANE }}***, select the entry you wish to override and then do a right click Edit - Edit Entry (User Specific Settings) or in the Ribbon simply select Edit - Edit Entry (User Specific Settings).  

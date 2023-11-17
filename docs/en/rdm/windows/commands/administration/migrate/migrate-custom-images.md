@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
   title:  Migrate custom images
-  description: How to migrate custom images to aystem images in Remote Desktop Manager
+  description: Migrate custom images to system images in {{ en.RDM }}
 ---
-
 Follow the steps to migrate custom images to system images.
 
 1. Go to ***Administration*** – ***Migrate*** – ***Migrate Custom Images*** in the ribbon of {{ en.RDM }}.

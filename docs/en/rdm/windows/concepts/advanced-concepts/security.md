@@ -3,7 +3,6 @@ eleventyComputed:
   title: Security
   description: All the measures in {{ en.RDM }} to enforce a stronger security, including the Security Dashboard, User Groups, Multi-factor Authentication and many others.
 ---
-
 {{ en.RDM }} enforces two successive steps of authentication to grant access to the data source. ***Multi-factor Authentication*** is integrated directly in the software and credentials are brokered on behalf of the user when launching a connection, preventing the user from ever knowing the credentials.
 
 All restrictions are predefined and enforced by a role-based access control, providing granular protection access control.

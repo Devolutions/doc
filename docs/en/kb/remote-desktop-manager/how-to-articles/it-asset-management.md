@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
   title: Use BlueTally in {{ en.RDM }}
-  description: How to use BlueTally in Remote Desktop Manager.
+  description: How to use BlueTally in {{ en.RDM }}.
 ---
-
 The IT Asset Management feature can be used to link an asset manager (e.g., BlueTally) through an entry's properties.  
 {% snippet icon.badgeInfo %}
 Only the ***Session***, ***Remote Management***, ***Miscellaneous***, ***VPN***, ***Synchronizer*** and ***Template*** entry types support this feature for now. The ***IT Asset Management*** entries work differently from the feature.

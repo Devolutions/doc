@@ -3,8 +3,7 @@ eleventyComputed:
   title: Azure SQL error - connection failed due to mismatch of users during the authentication process
   description: Azure SQL error - connection failed due to mismatch of users during the authentication process
 ---
-
-An error message appears in a new Remote Desktop Manager account if the previous account's ***UserPrincipalName*** (UPN) has been changed to avoid losing the user's vault-specific settings.
+An error message appears in a new {{ en.RDM }} account if the previous account's ***UserPrincipalName*** (UPN) has been changed to avoid losing the user's vault-specific settings.
 
 ## Solution
 

@@ -1,10 +1,9 @@
 ---
 eleventyComputed:
   title: Syntax highlighting 
-  description: How to use Syntax highlighting in Remote Desktop Manager
+  description: How to use Syntax highlighting in {{ en.RDM }}
 ---
-
- Syntax highlighting is a feature found in text editors, commonly used for programming, scripting, and markup languages like HTML. This feature displays text, particularly source code, in various colors and fonts to differentiate and emphasize different categories of terms.
+Syntax highlighting is a feature found in text editors, commonly used for programming, scripting, and markup languages like HTML. This feature displays text, particularly source code, in various colors and fonts to differentiate and emphasize different categories of terms.
 
 1. In {{ en.RDM }}, go to ***File*** – ***Options*** and select ***Types*** –  ***Terminal*** – ***Syntax highlighting***.
 
@@ -39,4 +38,3 @@ Below is a list of all the options available in the ***Syntax highlighting windo
 ***Case sensitive***: Select whether the match will be case sensitive or not. Only available in normal mode.
 
 ***Complete word***: Set the match to be on the complete word or not. Only available in normal mode.
-

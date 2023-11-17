@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
   title: CyberArk entry types
-  description: List of CyberArk entry types in Remote Desktop Manager
+  description: List of CyberArk entry types in {{ en.RDM }}
 ---
-
 All target system connections ultimately utilize a variant of the psm `/u {user} /a {target} /c {connection_type}` executable. Once you have authenticated to PSM through AAM password-less or PVWA credentials, a connection to the target system is launched on PSM through the `psm` executable. This open connection is then streamed back to the {{ en.RDM }} client, PVWA HTML5 web interface, or an RDP client via the generated RDP file.
 
 The general distinction between the CyberArk types in {{ en.RDM }} is how a user authenticates to PSM and whether the integrated PVWA dashboard is used within {{ en.RDM }} to open a connection rather than directly launching the connection.

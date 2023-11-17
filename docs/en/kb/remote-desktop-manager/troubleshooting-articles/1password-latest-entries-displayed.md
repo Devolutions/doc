@@ -2,7 +2,6 @@
 eleventyComputed:
   title: 1Password – only latest entries are displayed
 ---
-
 {% snippet icon.badgeInfo %}
 The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
 {% endsnippet %}  

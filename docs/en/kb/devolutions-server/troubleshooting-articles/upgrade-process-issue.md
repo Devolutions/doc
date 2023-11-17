@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Upgrade process issues
-  description: List of upgrade process issues in Devolutions Server
+  description: List of upgrade process issues in {{ en.DVLS }}
 ---
 Following an upgrade of {{ en.DVLS }}, it triggers error messages like SQLException - Invalid column name in the logs or Error: cannot read property 'children' of null error message on the {{ en.DVLS }} web interface.
 

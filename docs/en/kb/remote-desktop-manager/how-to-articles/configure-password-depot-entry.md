@@ -9,7 +9,7 @@ To learn more about creating and managing a Password Depot account, please consu
 {% endsnippet %}  
 
 {% snippet icon.badgeInfo %}
-The integration of credentials from password managers is only available in the Team version of Remote Desktop Manager.
+The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
 {% endsnippet %}  
 
 The entry can be found under ***New Entry*** – ***Credential Management*** – ***Password Management***.  

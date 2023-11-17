@@ -6,7 +6,7 @@ eleventyComputed:
 Microsoft Azure Bastion is a comprehensive, fully managed service providing both Remote Desktop Protocol (RDP) and Secure Shell Protocol (SSH) access to Azure virtual machines (VMs) without their public IP exposure. An hourly billed service, Azure Bastion is tied to a specific Azure Virtual Network, allowing access to all VMs contained within.
 
 {% snippet icon.badgeInfo %}
-Azure Bastion is compatible with the latest versions (2023.1.x and later) of Remote Desktop Manager.
+Azure Bastion is compatible with the latest versions (2023.1.x and later) of {{ en.RDM }}.
 {% endsnippet %}  
 
 {{ en.RDM }} allows seamless connection to Azure Bastion instances through a VPN/Tunnel/Gateway entry either per connection or shared amongst many. Once Azure Bastion is provisioned, add the necessary details to {{ en.RDM }}, authenticate to Azure, and connect to any VMs within the given Azure virtual network.

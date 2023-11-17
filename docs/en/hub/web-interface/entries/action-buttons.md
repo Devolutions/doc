@@ -16,6 +16,6 @@ The display of ***Action Buttons*** for entries will vary depending on the type 
 | ![!!History](https://webdevolutions.azureedge.net/docs/en/hub/Icons/password-history-bold.png) | History | Show the history of password changes in this entry. |
 | ![!!More](https://webdevolutions.azureedge.net/docs/en/hub/Icons/more-vert.png) | More | Show more options for the selected entry: ***Copy***, ***Move***, ***Send***, ***Delete***, ***Temporary Access Request*** |
 | ![!!Navigate URL](https://webdevolutions.azureedge.net/docs/en/hub/Icons/earth.png) | Navigate URL | Open the specified website URL in a new tab. |
-| ![!!Open in Devolutions Launcher](https://webdevolutions.azureedge.net/docs/en/hub/Icons/activate-launch.png) | Open in Devolutions Launcher | Launch a session in the Devolutions Launcher. |
-| ![!!Open in Remote Desktop Manager](https://webdevolutions.azureedge.net/docs/en/hub/Icons/logo-rdm.png) | Open in Remote Desktop Manager | Launch a session in Remote Desktop Manager. |
+| ![!!Open in {{ en.DLAUNCHER }}](https://webdevolutions.azureedge.net/docs/en/hub/Icons/activate-launch.png) | Open in {{ en.DLAUNCHER }} | Launch a session in the {{ en.DLAUNCHER }}. |
+| ![!!Open in {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/hub/Icons/logo-rdm.png) | Open in {{ en.RDM }} | Launch a session in {{ en.RDM }}. |
 | ![!!Reveal password](https://webdevolutions.azureedge.net/docs/en/hub/Icons/entry-SampleView.png) | Reveal password | Display the field of the selected entry. |

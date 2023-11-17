@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
   title: Images
-  description: Remote Desktop Manager's global image management uses a dynamic form to easily create virtual folders and subfolders for image storage. 
+  description: "{{ en.RDM }}'s global image management uses a dynamic form to easily create virtual folders and subfolders for image storage."
 ---
-
 {{ en.RDM }}'s global image management uses a dynamic form to easily create virtual folders and subfolders for image storage.
 
 The following file types are currently supported for global and custom images: 

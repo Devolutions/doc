@@ -1,13 +1,10 @@
 ---
 eleventyComputed:
-  title: Documents & attachments
-  description: Documents and attachments in Remote Desktop Manager are added to entries and are stored directly in the database, making it easier to manage and centralize information.
+  title: Documents and attachments
+  description: Documents and attachments in {{ en.RDM }} are added to entries and are stored directly in the database, making it easier to manage and centralize information.
 ---
-
 ***Documents and attachments*** in {{ en.RDM }} are added to entries and are stored directly in the database, making it easier to manage and centralize information.
 
 ### Related topics  
 
-* [Attachments](https://docs.devolutions.net/rdm/windows/commands/view/layout/attachments/)  
-
-### See also  
+* [Attachments](https://docs.devolutions.net/rdm/windows/commands/view/layout/attachments/)

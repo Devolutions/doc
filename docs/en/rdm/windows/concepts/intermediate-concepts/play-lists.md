@@ -11,5 +11,5 @@ Automating daily recurring and repetitive tasks in {{ en.RDM }}, such as launchi
 * [Embedded sessions](/rdm/windows/user-interface/content-area/embedded-sessions/)  
 
 ### See also  
-* [Using playlists in Remote Desktop Manager to automate daily tasks - RDM Pro Tip 007](https://youtu.be/VTGPUMl5zKY?si=wC7tLGPXgdj6jx0V)  
+* [Using playlists in remote Desktop Manager to automate daily tasks - RDM Pro Tip 007](https://youtu.be/VTGPUMl5zKY?si=wC7tLGPXgdj6jx0V)  
 * [The Basics: Remote Desktop Manager Play List](https://blog.devolutions.net/2018/08/the-basics-remote-desktop-manager-play-list/)

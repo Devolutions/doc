@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: System requirements
-  description: System requirements for Devolutions Gateway 
+  description: System requirements for {{ en.DGW }}
   order: 20
 ---
 To use {{ en.DGW }}, your system must meet the following requirements.

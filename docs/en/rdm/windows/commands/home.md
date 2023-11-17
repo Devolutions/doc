@@ -9,4 +9,3 @@ The ***Home*** ribbon tab allows you to apply an action on the currently selecte
 * Macros 
 * Clipboard: Configuration in ***File – Options*** 
 * Miscellaneous 
-

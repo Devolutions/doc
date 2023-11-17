@@ -1,18 +1,17 @@
 ---
 eleventyComputed:
-  title:  Migrate data source
-  description: How to migrate a Data Source in Remote Desktop Manager
+  title: Migrate data source
+  description: Migrate a data source in {{ en.RDM }}
 ---
+{% snippet icon.badgeCaution %}
+All your data will be wiped from your destination data source.
+{% endsnippet %} 
 
-   {% snippet icon.badgeCaution %}
-   All your data will be wiped from your destination data source.
-   {% endsnippet %}   
-
-   {% snippet icon.badgeInfo %}
+{% snippet icon.badgeInfo %}
 The supported data sources are:
 * ***SQL Server*** to ***SQL Server*** 
 * ***MySQL*** to ***SQL Server*** ({{ en.RDM }} 2023.2 and prior)
-   {% endsnippet %} 
+{% endsnippet %} 
 
 1. Choose the ***data source*** to migrate.
 1. Select ***Administration*** – ***Migrate*** – ***Migrate Data Source*** in the ribbon of {{ en.RDM }}.

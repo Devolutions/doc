@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Going password-less with {{ en.RDM }} and CyberArk
-  description: Going password-less with Remote Desktop Manager and CyberArk
+  description: Going password-less with {{ en.RDM }} and CyberArk
 ---
 During the last few months, you may have noticed a heightened level of collaboration between Devolutions and CyberArk  Indeed, two of our three entry types have been refreshed in version 2020.2 to better use their improved APIs. Our third type is already available in {{ en.RDM }} 2020.3 beta, this completes the current round of improvements and essentially allows organizations to go password-less for their day-to-day workflows.  
 

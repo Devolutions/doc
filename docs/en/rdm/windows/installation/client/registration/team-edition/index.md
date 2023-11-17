@@ -2,9 +2,8 @@
 eleventyComputed:
   title: Team edition
   order: 10
-  description: When using an Advanced Data Source, there is no need to register Remote Desktop Manager since the license serial is stored in the data source and retrieved directly from it. 
+  description: When using an Advanced Data Source, there is no need to register {{ en.RDM }} since the license serial is stored in the data source and retrieved directly from it. 
 ---
-
 When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), there is no need to register {{ en.RDM }} since the license serial is stored in the data source and retrieved directly from it. When launching the application for the first time, simply [add the data source](/rdm/windows/data-sources/create-new-data-source/) containing the serial. 
 
 {% snippet icon.badgeCaution %} 

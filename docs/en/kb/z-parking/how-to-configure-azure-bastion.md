@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Configure Azure Bastion
-  description: How to configure Azure Bastion in Remote Desktop Manager
+  description: How to configure Azure Bastion in {{ en.RDM }}
 ---
 Azure Bastion is a comprehensive, fully managed service that provides enhanced security and effortless Remote Desktop Protocol (RDP) and Secure Shell Protocol (SSH) access to virtual machines (VMs), while ensuring that they remain shielded from public IP address exposure.
 

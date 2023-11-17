@@ -28,4 +28,3 @@ Once you have deleted an account, the data and the account information is delete
 {% endsnippet %}  
  
 ![!!Cloud4002](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4002.png)
-

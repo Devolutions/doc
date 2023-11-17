@@ -4,7 +4,6 @@ eleventyComputed:
   order: 10
   description: Register your {{ en.DVLS }} license in the {{ en.DVLS }} web interface. 
 ---
-
 In the {{ en.DVLS }} web interface, go to ***Administration*** – ***Licenses***.  
 ![Administration – Licenses](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6069_2023_3.png)  
 Select ***Add***. 
@@ -16,6 +15,3 @@ Enter or import the license and click ***Add***.
 
 * ***Trial license***: The license file must be downloaded from the Devolutions confirmation email and imported as described in the steps above for {{ en.DVLS }} 2023.3 and higher.
 * ***Purchased license***: The purchased license must be downloaded from the {{ en.DPORTAL }} account.
-
-
-

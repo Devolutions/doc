@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
   title: System images
-  description: Devolutions Server's global image management uses a dynamic form to easily create virtual folders and subfolders for image storage. 
+  description: "{{ en.DVLS }}'s global image management uses a dynamic form to easily create virtual folders and subfolders for image storage."
 ---
-
 {{ en.DVLS }}'s global image management uses a dynamic form to easily create virtual folders and subfolders for image storage.
 
 1. Go to ***Administration*** – ***Configuration*** – ***System Images***
@@ -15,5 +14,4 @@ eleventyComputed:
 1. Click ***Upload*** to close the window and save the image.  
  ![Insert Image File window](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6062.png)  
 Information relevant to the image is presented in tabular form. 
- ![Administration – System Images](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6058.png)  
- 
+ ![Administration – System Images](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6058.png)

@@ -11,7 +11,7 @@ Email ***Authentication mode*** is now deprecated for ***Bitwarden*** entries an
 {% endsnippet %}  
 
 {% snippet icon.badgeInfo %}
-The integration of credentials from password managers is only available in the Team version of Remote Desktop Manager.
+The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
 {% endsnippet %}  
 
 {% snippet icon.badgeHelp %}

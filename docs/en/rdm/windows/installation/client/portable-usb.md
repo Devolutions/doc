@@ -28,7 +28,7 @@ The following steps ensure true portability and ease of maintenance. It can easi
 ## Procedure 
 
 1. Download the ***ZIP*** package of {{ en.RDM }} Team. 
-![ZIP package of Remote Desktop Manager Team](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11586.png) 
+![ZIP package of {{ en.RDM }} Team](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11586.png) 
 1. Create a RemoteDesktopManager folder on your portable device. 
 1. In the folder created in step 2, create two folders: 
     1. A config folder. 
