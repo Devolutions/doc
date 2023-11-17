@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Offline
-  description: '{{ en.RDM }}'s offline mode allows to connect to a local copy of a data source. Changes are saved locally and synchronized with the data source once it is back online.'
+  description: "{{ en.RDM }}'s offline mode allows to connect to a local copy of a data source. Changes are saved locally and synchronized with the data source once it is back online."
 ---
 {{ en.RDM }}'s offline mode allows you to connect to a local copy of a [data source](https://docs.devolutions.net/rdm/windows/concepts/basic-concepts/data-sources/). Changes are saved locally and synchronized with the [data source](https://docs.devolutions.net/rdm/windows/concepts/basic-concepts/data-sources/) once it is back online. Entries can be accessed even if there is no connection to the database.
 
