@@ -17,4 +17,4 @@ In {{ en.RDM }}, go to ***File*** – ***Options*** – ***Advanced***, and disa
 Save and restart {{ en.RDM }}.
 ![Use embedded Microsoft Edge for overview panel](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6160.png)  
 
-Please contact us at [service@devolutions.net](service@devolutions.net) if these solutions do not solve your problem.
+Please contact us at [service@devolutions.net](mailto:service@devolutions.net) if these solutions do not solve your problem.
