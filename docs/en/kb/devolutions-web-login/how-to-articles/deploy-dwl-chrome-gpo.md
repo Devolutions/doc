@@ -5,8 +5,9 @@ eleventyComputed:
   - GPO
 ---
 {% snippet icon.badgeInfo %}
-IMPORTANT NOTE (for {{ en.WBEX }} versions prior to 2021.2.3.0)
-The settings deployed with the group policy object (GPO) are only enforced when the extension is used for the first time. This means that the settings will not be enforced and changed if you change the settings in the GPO and the extension has already been used by a user at least once.
+IMPORTANT NOTE (for {{ en.WBEX }} versions prior to 2021.2.3.0)  
+
+The settings deployed with the group policy object (GPO) are only enforced when the extension is used for the first time. This means that the settings will not be enforced and changed if you modify the settings in the GPO and the extension has already been used by a user at least once.
 {% endsnippet %}
 
 ## Configuring extensions by policy on Windows 10 for Chrome
@@ -27,7 +28,7 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 ![!!KB8106](https://webdevolutions.azureedge.net/docs/en/kb/KB8106.png)
 1. In ***Group Policy Management***, configure the GPO ***Links*** and ***Security Filtering*** according to your needs.
 
-## Example <a name="Example"></a>
+### Example <a name="Example"></a>
 
 * Activate {{ en.DVLS }}
 * Set ***https<area>://localhost/mydvlsurl*** as {{ en.DVLS }} URL.
@@ -47,7 +48,7 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 }
 ```
 
-## Default settings
+### Default settings
 
 All attributes can have their value changed or their key removed. 
 
@@ -116,7 +117,7 @@ All attributes can have their value changed or their key removed.
 }
 ```
 
-## Default admin Settings
+### Default admin Settings
 
 All attributes can have their value changed or their key removed. If this section is added in the JSON string, a comma needs to be added at the end of the settings section above. See the sample in the <a href="#Example">Example</a> section about it.
 
@@ -129,7 +130,7 @@ All attributes can have their value changed or their key removed. If this sectio
 }
 ```
 
-## Values
+### Values
 <a name="values"></a>
 
 disableSettingsPage
@@ -149,7 +150,7 @@ Possible values:
 * AlwaysOverride: Always override the value from the GPO settings when the extension is started.
 * AlwaysUseDefaultAndOverride: Use the default settings for all settings not in the GPO and override the values from the GPO when the extension is started.
 
-## Configuring the {{ en.WBEX }} to be automatically pinned on the Chrome toolbar
+## Configuring the {{ en.WBEX }} to be automatically pinned on the Google Chrome toolbar
 
 1. Create a new GPO rule to have the {{ en.WBEX }} automatically pinned on the Chrome toolbar.
 1. Select Registry located in Computer Configuration – Preferences – Windows Settings – Registry or User Configuration – Preferences – Windows Settings – Registry according to your needs.
