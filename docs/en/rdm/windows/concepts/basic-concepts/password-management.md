@@ -6,7 +6,7 @@ eleventyComputed:
 {{ en.RDM }} provides powerful capabilities to store and manage passwords, credentials and privileged accounts in a single interface, giving you unique control and visibility over your IT environment. Passwords can be used in multiple entries and shared without being exposed to users.
 
 ### Related topics  
-* [Create an entry](https://docs.devolutions.net/rdm/windows/commands/administration/settings/system-settings/application/offline/) 
+* [Create an entry](https://docs.devolutions.net/rdm/windows/commands/edit/entries/creating-new-entry/) 
 * [OTP usage with entries](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/otp-usage-entries/)  
 * [Using {{ en.WBEX }}](https://docs.devolutions.net/rdm/windows/dwl/using-devolutions-web-login/)
 * [Username and password](https://docs.devolutions.net/rdm/windows/support-resources/lexicon/#credential-entry)    
