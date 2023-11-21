@@ -2,8 +2,6 @@
 eleventyComputed:
   title: Download {{ en.CI }} package
   description: The {{ en.CIM }} allows you to download the package directly from {{ en.RDM }} or from our website.
-  keywords:
-  - Custom Installer Manager
 ---
 The ***{{ en.CIM }}*** allows you to download the package directly from {{ en.RDM }} or from our website. 
 {% snippet icon.badgeInfo %} 
