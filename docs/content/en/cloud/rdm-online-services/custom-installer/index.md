@@ -2,6 +2,10 @@
 eleventyComputed:
   title: '{{ en.CI }}'
 ---
+{% snippet icon.badgeInfo %}
+***{{ en.CI }}*** will be removed from {{ en.DPORTAL }}. You can still [access the URL](https://docs.devolutions.net/kb/general-knowledge-base/rdm-online-services-removed-devolutions-portal/) if needed
+{% endsnippet %} 
+
 The ***{{ en.CIM }}*** will allow you to generate and download custom installation packages for {{ en.RDMWIN }}.
 
 {% snippet icon.shieldWarning %}
