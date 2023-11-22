@@ -17,4 +17,3 @@ In the {{ en.DVLSCONSOLE }}, register the {{ en.DVLS }} license in ***Server –
 ## {{ en.DVLS }} web interface 
 In the {{ en.DVLS }} web interface, register the {{ en.DVLS }} license in ***Administration – Server Settings – General – Serial***. 
 ![{{ en.DVLS }} license in the web interface](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2086.png) 
-
