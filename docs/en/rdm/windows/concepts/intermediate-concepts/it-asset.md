@@ -7,4 +7,4 @@ Manage your IT inventory accurately by centralizing technical, software, hardwar
 
 ### Related topics  
 
-* [Use the IT Asset Management feature in {{ en.RDM }}](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/it-asset-management/)
+* [Use the IT Asset Management feature in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/it-asset-management/)

@@ -6,7 +6,7 @@ The ***Tools*** section is full of resources for {{ en.DHUBB }} to download, exp
 ![!!Hub4046](https://webdevolutions.azureedge.net/docs/en/hub/Hub4046.png) 
 
 * Download [***{{ en.CTOOLS }}***](https://devolutions.net/password-hub/companion-tools), which are additional applications that work hand in hand with our products. 
-    * The [***{{ en.WBEX }}***](/hub/dwl/overview/) is a free browser plugin which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s. 
+    * The [***{{ en.WBEX }}***](/hub/workspace-browser-extension/overview/) is a free browser plugin which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s. 
     * With ***{{ en.DLAUNCHER }}***, all users can open secure remote sessions. 
     * ***Devolutions Worskpace*** provides users with added security by implementing a two-factor authentication. 
     * Import your entries and data with [***{{ en.DHUBI }}***](/hub/web-interface/tools/hub-importer/). 
