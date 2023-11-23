@@ -1,9 +1,10 @@
 ---
 eleventyComputed:
   title: '{{ en.CIS }}'
+  description: The {{ en.CIS }} offered through our Devolutions Customer Portal services replicates the configuration from a {{ en.RDM }} instance. 
 ---
 ![!!CustomInstallerServiceIcon](https://webdevolutions.blob.core.windows.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg) 
-
+ 
 * Generate and download custom installation packages for {{ en.RDM }}. 
 * Include preconfigured data sources in the package for quick enterprise wide deployment. 
 * Download the installer as a Windows Installer (.msi file). 
@@ -14,6 +15,10 @@ The {{ en.CIS }} offered through our Devolutions Customer Portal services replic
 The {{ en.CIS }} uploads a configuration file to our online services. You should not use the service to redistribute passwords for data sources. 
 {% endsnippet %}
  
+{% snippet icon.badgeInfo %}
+The ***No Internet connection*** option in {{ en.RDM }} (***File*** – ***Option*** – ***Tools*** – ***Advanced***) must be disabled for {{ en.CI }} to work.
+{% endsnippet %} 
+
 {% snippet icon.badgeInfo %} 
 You must create an installer file using {{ en.RDM }} before creating the installer on the Web portal. This is described in [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
 {% endsnippet %}

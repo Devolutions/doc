@@ -11,6 +11,10 @@ Please note that you must create a file in {{ en.RDM }} before creating the inst
 {% snippet icon.badgeInfo %} 
 You can store and create up to six ***{{ en.CI }}*** configuration file packages in your {{ en.DA }}. 
 {% endsnippet %}
+
+{% snippet icon.badgeInfo %}
+The ***No Internet connection*** option in {{ en.RDM }} (***File*** – ***Option*** – ***Tools*** – ***Advanced***) must be disabled for {{ en.CI }} to work.
+{% endsnippet %} 
  
 ## Settings 
 

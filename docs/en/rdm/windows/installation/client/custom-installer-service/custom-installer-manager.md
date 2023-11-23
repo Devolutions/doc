@@ -15,6 +15,10 @@ Ensure that you have read and understood the content of [{{ en.CIS }}](/rdm/wind
 You can store and create up to six ***{{ en.CI }}*** configuration file packages in your {{ en.DA }}. 
 {% endsnippet %}
  
+{% snippet icon.badgeInfo %}
+The ***No Internet connection*** option in {{ en.RDM }} (***File*** – ***Option*** – ***Tools*** – ***Advanced***) must be disabled for {{ en.CI }} to work.
+{% endsnippet %} 
+ 
 ## Create an Installation Package 
 
 1. In {{ en.RDM }}, click on ***File – {{ en.DA }} – Sign-in*** to connect to your {{ en.DA }} if you are not already signed in.  
