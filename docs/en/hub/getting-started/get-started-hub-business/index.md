@@ -16,7 +16,7 @@ In this video, we will demonstrate the proper configuration for {{ en.DHUBB }} a
 
 {% youtube 'fRW0FnnaGkc' %}  
 
-### Related topics
+#### Related topics
 
 * [Invite an Administrator](/hub/web-interface/administration/management/users/administrator-invite/) 
 * [Create User Groups](/hub/web-interface/administration/management/user-groups/create-manage-user-groups/) 
@@ -28,7 +28,7 @@ With this video, we will demonstrate how to add ***users*** to your {{ en.DHUBB 
 
 {% youtube 'IH71s3SDHgc' %}  
 
-### Related topics
+#### Related topics
 
 * [Invite Users](/hub/web-interface/administration/management/users/create-invite-users/) 
 
@@ -38,7 +38,7 @@ At this stage, we will show you four different ways to add and import ***entries
 
 {% youtube 'EysCvWKB5Ko' %}  
 
-### Related topics
+#### Related topics
 
 * [Create entries manually](/hub/web-interface/entries/create-entries-manually/) 
 * [Import entries with {{ en.DHUBI }}](/hub/web-interface/tools/hub-importer/) 
@@ -49,7 +49,7 @@ In this final video, we will show you some of the administration ***management**
 
 {% youtube '86FV0yMzm1M' %}  
 
-### Related topics
+#### Related topics
 
 * [Management](/hub/web-interface/administration/) 
 * [Configuration & Security](/hub/web-interface/administration/configuration-security/system-settings/) 

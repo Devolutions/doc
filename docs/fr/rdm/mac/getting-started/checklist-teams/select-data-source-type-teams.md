@@ -33,7 +33,7 @@ Base de données inaccessible aux utilisateurs finaux
 		</td>
 		<td>
 
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
 Notes 1 et 2 
@@ -47,10 +47,10 @@ Note 1
 Comptes AD utilisés à des fins d’authentification 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
 
@@ -61,7 +61,7 @@ Comptes AD utilisés à des fins d’authentification
 Attribution des permissions selon l'appartenance à un groupe AD 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
 
@@ -75,10 +75,10 @@ Attribution des permissions selon l'appartenance à un groupe AD
 Stockage local des données 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
 
@@ -89,13 +89,13 @@ Stockage local des données
 Journaux d’activités 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -109,7 +109,7 @@ Note 3
 Note 4 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -117,13 +117,13 @@ Note 4
 Copie locale optionnelle des connexions 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 </table>

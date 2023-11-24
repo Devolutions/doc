@@ -45,13 +45,13 @@ MULTIUTILISATEUR
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
 
@@ -62,7 +62,7 @@ MULTIUTILISATEUR
 SQLite 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
 
@@ -74,7 +74,7 @@ SQLite
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
 
@@ -85,7 +85,7 @@ SQLite
 XML 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
 
@@ -97,7 +97,7 @@ XML
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
 
@@ -114,13 +114,13 @@ XML
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
 
@@ -137,10 +137,10 @@ Dropbox
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
 

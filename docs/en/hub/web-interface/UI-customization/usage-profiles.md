@@ -32,13 +32,13 @@ Note that this only applies to the creation of new entries and does not affect e
 
 | ENTRY TYPES          | BUSINESS USER | IT PROFESSIONAL |
 |----------------------|:---------------:|:------------------:|
-| Session              |               | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Credential Management|               | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Information          | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Folder               | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Contact              | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Document             |               | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Template             | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
+| Session              |               | {{ icon.badgeNotice | safe }} |
+| Credential Management|               | {{ icon.badgeNotice | safe }} |
+| Information          | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Folder               | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Contact              | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Document             |               | {{ icon.badgeNotice | safe }} |
+| Template             | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 
 ### {{ en.VLT }} Dashboard widgets
 
@@ -48,14 +48,14 @@ This table shows the different widgets that can be displayed in your ***{{ en.VL
 
 | WIDGETS                            | BUSINESS USER | IT PROFESSIONAL |
 |------------------------------------|:---------------:|:------------------:|
-| Broken entries                     |               | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Certificates                       |               | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Checked out                        | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Entries                            | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Expired entries                    | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Expiring entries                   | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Pending access requests            | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Pending {{ en.VLT }} access requests| ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| {{ en.VLT }}s                       |               | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Password ages                      |               | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
-| Types                              | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) | ![!!Badge](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) |
+| Broken entries                     |               | {{ icon.badgeNotice | safe }} |
+| Certificates                       |               | {{ icon.badgeNotice | safe }} |
+| Checked out                        | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Entries                            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Expired entries                    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Expiring entries                   | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Pending access requests            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Pending {{ en.VLT }} access requests| {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| {{ en.VLT }}s                       |               | {{ icon.badgeNotice | safe }} |
+| Password ages                      |               | {{ icon.badgeNotice | safe }} |
+| Types                              | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |

@@ -32,19 +32,19 @@ Afficher le {{ fr.VLT }}
 		</td>
 		<td>
 
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -64,7 +64,7 @@ Gérer le {{ fr.VLT }}
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -81,10 +81,10 @@ Ajouter des entrées
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -101,10 +101,10 @@ Modifier les entrées
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -121,10 +121,10 @@ Supprimer les entrées
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -138,13 +138,13 @@ Connecter (Exécuter)
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -161,10 +161,10 @@ Afficher le mot de passe
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -175,16 +175,16 @@ Afficher le contenu sensible
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -201,10 +201,10 @@ Afficher l'historique des mots de passe
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -221,10 +221,10 @@ Afficher l'historique du contenu sensible
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -241,10 +241,10 @@ Gérer les pièces jointes
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -261,10 +261,10 @@ Gérer la documentation
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -281,10 +281,10 @@ Afficher les journaux des entrées
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -301,10 +301,10 @@ Afficher l'historique des entrées
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -324,7 +324,7 @@ Effacer l'historique des entrées
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -344,7 +344,7 @@ Exporter
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -364,7 +364,7 @@ Afficher les journaux d'activité
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -384,7 +384,7 @@ Afficher les entrées supprimées
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -404,7 +404,7 @@ Restaurer les entrées
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 	<tr>
@@ -424,7 +424,7 @@ Approbateur de l'accès temporaire
 
 		</td>
 		<td>
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png) 
+{{ icon.badgeNotice | safe }} 
 		</td>
 	</tr>
 </table>
