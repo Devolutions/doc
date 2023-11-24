@@ -69,74 +69,13 @@ This feature is still under development. The tools menu in the RDP web interface
 
 ![Currently Supported Features](https://webdevolutions.azureedge.net/docs/en/kb/KB2225.png)
 
-<table>
-	<tr>
-		<th>
-Icon
-		</th>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-<img src="https://webdevolutions.azureedge.net/docs/en/kb/Icons/fullscreen.png" alt="!!fullscreen.png">
-		</td>
-		<td>
-Full screen 
-		</td>
-		<td>
-Displays the content of the session making sure to always occupy the maximum space on the screen. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-<img src="https://webdevolutions.azureedge.net/docs/en/kb/Icons/smallscreen.png" alt="!!smallscreen.png">
-		</td>
-		<td>
-Fit to screen (default) 
-		</td>
-		<td>
-Adapts the size to best fit the available space so that the entire session is always visible. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-<img src="https://webdevolutions.azureedge.net/docs/en/kb/Icons/screen.png" alt="!!screen.png">
-		</td>
-		<td>
-Real size 
-		</td>
-		<td>
-Conforms to the resolution of the target host. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-<img src="https://webdevolutions.azureedge.net/docs/en/kb/Icons/windows.png" alt="!!windows.png">
-		</td>
-		<td>
-Windows key 
-		</td>
-		<td>
-Sends the signal of the Windows key (however, the key must also work). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-<img src="https://webdevolutions.azureedge.net/docs/en/kb/Icons/gear.png" alt="!!gear.png">
-		</td>
-		<td>
-Ctrl+Alt+Del 
-		</td>
-		<td>
-Sends the command to the host system. 
-		</td>
-	</tr>
-</table>
+| Icon | Option | Description |
+|------|--------|-------------|
+| ![!!Full screen](https://webdevolutions.azureedge.net/docs/en/kb/Icons/fullscreen.png)        | Full screen            | Displays the content of the session, making sure to always occupy the maximum space on the screen.              |
+| ![!!Fit to screen](https://webdevolutions.azureedge.net/docs/en/kb/Icons/smallscreen.png)     | Fit to screen (default)| Adapts the size to best fit the available space so that the entire session is always visible.                   |
+| ![!!Real size](https://webdevolutions.azureedge.net/docs/en/kb/Icons/screen.png)              | Real size              | Conforms to the resolution of the target host.                                                                   |
+| ![!!Windows key](https://webdevolutions.azureedge.net/docs/en/kb/Icons/windows.png)          | Windows key           | Sends the signal of the Windows key (however, the key must also work).                                           |
+| ![!!Ctrl+Alt+Del](https://webdevolutions.azureedge.net/docs/en/kb/Icons/gear.png)             | Ctrl+Alt+Del          | Sends the command to the host system.                                                              |
 
 For the moment, the following features are not supported:
 * Copy/Paste
