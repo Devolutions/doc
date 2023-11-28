@@ -12,9 +12,6 @@ We can search documentation pages linked to entries. ***Documentation Search*** 
 The ***Documentation*** feature is encrypted only for the {{ en.DVLS }} data source. If you are using data sources such as SQL Server or Azure SQL, the feature is not encrypted. 
 {% endsnippet %}
  
-{% snippet icon.badgeInfo %} 
-The ***Documentation*** feature is available offline since 2022.3.14. 
-{% endsnippet %}
  
 ![Documentation Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip9001.png) 
 

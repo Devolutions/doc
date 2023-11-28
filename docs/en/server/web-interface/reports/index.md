@@ -1,9 +1,14 @@
 ---
 eleventyComputed:
   title: Reports
+  description: Most of the reports available can be customized. Filter and sort the data, set a time interval and even export the reports in a .CSV file.  
   order: 40
 ---
 The ***Reports*** section provides the administrators with tools to perform audits on [Login](/server/web-interface/reports/login/), [Entries](/server/web-interface/reports/entries/), [Logs](/server/web-interface/reports/logs/), [Modules](/server/web-interface/reports/modules/), and [Configuration](/server/web-interface/reports/configuration/). 
+
+{% snippet icon.badgeInfo %} 
+Web based reports from Devolutions Server and Devolutions Hub are displayed in Remote Desktop Manager.
+{% endsnippet %}
 
 ![Reports](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6084.png) 
 

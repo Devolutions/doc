@@ -1,9 +1,14 @@
 ---
 eleventyComputed:
   title: Reports
+  description: The Reports section automatically generate reports regarding your credentials, entries, logs and security.
 ---
 The Reports section automatically generate reports regarding your credentials, entries, logs and security. You will also have the option to export your generated report which is a way to execute and export reports through a command line.  
-![Administration - Reports](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10446.png) 
+![Administration - Reports](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6060.png) 
+
+{% snippet icon.badgeInfo %} 
+Web based reports from Devolutions Server and Devolutions Hub are displayed in Remote Desktop Manager.
+{% endsnippet %}
 
 They are 3 different types of reports:  
 

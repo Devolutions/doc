@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Grouped tab bar
+  description: To enable the Grouped Tab Bar, navigate to View – Layout in the ribbon, then select Grouped Tab Bar. 
 ---
 {{ en.RDM }} allows you to run multiple sessions at once using its embedded/tabbed display mode, which is especially useful if you are using multiple remote control technologies at the same time. Since all of your sessions are running in tabs within the same tool used to launch them, it eliminates the need to dig through your task bar to locate the session you are interested in.  
 

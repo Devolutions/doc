@@ -1,10 +1,11 @@
 ---
 eleventyComputed:
   title: Attachments
+  description: To enable the attachment pane, navigate to Window – Layout in the ribbon, then select Attachments.
 ---
 Files are attached to an entry and are stored directly in the database.  
 
-To enable the attachment pane, navigate to ***View – Layout*** in the ribbon, then select ***Attachments***.  
+To enable the attachment pane, navigate to ***Window – Layout*** in the ribbon, then select ***Attachments***.  
 ![Attachments Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3565.png) 
 
 {% snippet icon.badgeInfo %} 

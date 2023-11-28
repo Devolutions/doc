@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Deleted entries
+  description: The Deleted Entries will generate a list containing all the entries previously deleted from your data source.
 ---
 The ***Administration – Deleted Entries*** option allows you to view the deleted entries as well as restoring them.  
 

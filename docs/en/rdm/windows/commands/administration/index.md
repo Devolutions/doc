@@ -8,7 +8,7 @@ The ***Administration*** tab allows to manage settings and users of a data sourc
 Most features contained in the ***Administration*** tab are only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
-![Ribbon - Administration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10692.png) 
+![Ribbon - Administration](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6198.png) 
 
 ### Management 
 
@@ -48,48 +48,6 @@ User Groups
 		</td>
 		<td>
 Opens the [User Groups Management](/rdm/windows/commands/administration/management/user-groups-management/) tab of User Management. 
-		</td>
-	</tr>
-</table>
-
-### Reports 
-
-{% snippet icon.badgeInfo %} 
-The logs feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
-{% endsnippet %}
- 
-<table>
-	<tr>
-		<th>
-
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Reports 
-		</td>
-		<td>
-Open the [***Reports***](/rdm/windows/commands/administration/reports/) section to select which type of report best suit your current needs. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Administration Logs 
-		</td>
-		<td>
-Opens the ***Administration Logs***. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Deleted Entries 
-		</td>
-		<td>
-Open a log of all [***Deleted Entries***](/rdm/windows/commands/administration/reports/deleted-entries/) (since last clean up). 
 		</td>
 	</tr>
 </table>
