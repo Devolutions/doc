@@ -17,11 +17,6 @@ Typing macros can also be added in the ***Login Button ID*** field of an entry.
 
 ![Select an entry – Properties – Login – Login button ID](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6163.png)
 
-## Settings
-### Typing macro
-=======
-![Typing macro](https://webdevolutions.azureedge.net/docs/en/kb/KB4621.png)  
-
 ## Typing macro
 Keyboard keys are represented by predefined tags between braces. To specify a single keyboard character, use the character itself without braces. For example, represent the letter ***A*** by typing the "A" character in the typing macro. To represent more than one character, such as ***Hello***, append each additional character to the preceding one: "Hello".
 ## Special keys
@@ -81,7 +76,7 @@ To specify keys combined with any combination of the <kbd>Shift</kbd>, <kbd>Ctrl
 
 To specify that any combination of the <kbd>Shift</kbd>, <kbd>Ctrl</kbd>, and <kbd>Alt</kbd> keys should be held down while several other keys are pressed, enclose the code for those keys in parentheses. For example, to specify to hold down <kbd>Shift</kbd> while <kbd>E</kbd> and <kbd>C</kbd> are pressed, use "+(EC)". To specify to hold down <kbd>Shift</kbd> while <kbd>E</kbd> is pressed, followed by <kbd>C</kbd>, without <kbd>Shift</kbd>, use "+EC".  
 
-### Special commands
+## Special commands
 <table>
 	<tr>
 		<th>
