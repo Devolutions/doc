@@ -11,7 +11,7 @@ The logs feature requires an [Advanced Data Source](/rdm/windows/data-sources/da
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %} 
-Web-based reports from [{{ en.DVLS }}](http://localhost:8080/server/overview/what-is-server/) and [{{ en.DHUB }}](hub/overview/what-is-hub/) are available in {{ en.RDM }}.
+Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{ en.DHUB }}](/hub/overview/what-is-hub/) are available in {{ en.RDM }}.
 {% endsnippet %}
 
 ![Reports](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6205.png)

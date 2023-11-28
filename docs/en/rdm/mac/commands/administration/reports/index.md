@@ -7,7 +7,7 @@ The Reports section automatically generate reports regarding your credentials, e
 ![Administration - Reports](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6060.png) 
 
 {% snippet icon.badgeInfo %} 
-Web based reports from Devolutions Server and Devolutions Hub are displayed in Remote Desktop Manager.
+Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{ en.DHUB }}](/hub/overview/what-is-hub/) are available in {{ en.RDM }}.
 {% endsnippet %}
 
 They are 3 different types of reports:  

@@ -7,7 +7,7 @@ eleventyComputed:
 The ***Reports*** section provides the administrators with tools to perform audits on [Login](/server/web-interface/reports/login/), [Entries](/server/web-interface/reports/entries/), [Logs](/server/web-interface/reports/logs/), [Modules](/server/web-interface/reports/modules/), and [Configuration](/server/web-interface/reports/configuration/). 
 
 {% snippet icon.badgeInfo %} 
-Web based reports from Devolutions Server and Devolutions Hub are displayed in Remote Desktop Manager.
+Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{ en.DHUB }}](/hub/overview/what-is-hub/) are available in {{ en.RDM }}.
 {% endsnippet %}
 
 ![Reports](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6084.png) 
