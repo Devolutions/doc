@@ -4,7 +4,7 @@ const eleventySass = require('./utils/eleventy-sass');
 const eleventyShortcodes = require('./utils/eleventy-shortcodes');
 const eleventyColections = require('./utils/eleventy-collections');
 const markdown = require('./utils/markdown');
-const algolia = require('./utils/algolia');
+// const algolia = require('./utils/algolia');
 
 require('dotenv').config();
 
@@ -22,9 +22,9 @@ module.exports = function (config) {
 
   config.amendLibrary('md', markdown);
 
-  config.on('eleventy.after', async ({ results }) => {
-    algolia(results);
-  });
+  // config.on('eleventy.after', async ({ results }) => {
+  //   algolia(results);
+  // });
 
   return {
     markdownTemplateEngine: 'njk',
