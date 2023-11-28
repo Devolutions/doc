@@ -18,17 +18,10 @@ layout: 'layouts/base.liquid'
 {%- endcapture -%}
 
 <div class="dwd-doc-container">
-  {%- if sidebars[project] -%}
-    <nav class="navigation" data-dwd-modal-group="mobile-menu" data-dwd-modal-target="all">
-      {%- for group in sidebars[project] -%}
-        <div class="nav-group">
-          {%- if group.items.size > 0 -%}
-            {%- for item in group.items -%}
-              {%- render 'partials/sidebar-item', item: item, icons: icons, index: 1, contents: contents, lang: lang, locale: locale, page: page -%}
-            {%- endfor -%}
-          {%- endif -%}
-        </div>
-      {%- endfor -%}
+  {%- if docs[project].sidebars -%}
+    <nav class="navigation" data-dwd-modal-group="mobile-menu" data-dwd-modal-target="all" data-page="{{ page.url }}">
+      {%- assign sidebar = docs[project].sidebars -%}
+      {%- sidebar sidebar -%}
     </nav>
   {%- endif -%}
 
@@ -44,13 +37,6 @@ layout: 'layouts/base.liquid'
 
     <main class="markdown">
       {{- content -}}
-
-      {%- comment -%} {%- assign productName = "" -%}
-      {%- for index, name in productNames -%}
-        {%- if tree == index -%}
-          {%- set productName = name -%}
-        {%- endif -%}
-      {%- endfor -%} {%- endcomment -%}
 
       <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?title=&body={{- feedbackBody | encodeURIComponent -}}">
         <span class="icon" aria-hidden="true">

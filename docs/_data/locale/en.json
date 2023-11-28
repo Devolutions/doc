@@ -58,7 +58,12 @@
   "placeholderSearch": "What are you looking for?",
   "labelFeedbackButton": "Feedback",
   "label": {
+    "configureAnSMTPServer": "Configure an SMTP server",
+    "howToArticles": "How-to articles",
+    "generalKnowledgeBase": "General Knowledge Base",
     "gettingStarted": "Getting started",
-    "supportResources": "Support/Resources"
+    "knowledgeBase": "Knowledge base",
+    "supportResources": "Support/Resources",
+    "troubleshootingArticles": "Troubleshooting articles"
   }
 }

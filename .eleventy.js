@@ -17,8 +17,7 @@ module.exports = function (config) {
   config.setQuietMode(true);
 
   config.addPassthroughCopy({
-    'img': 'img',
-    'fonts': 'fonts'
+    'src/_static': '.'
   });
 
   config.amendLibrary('md', markdown);

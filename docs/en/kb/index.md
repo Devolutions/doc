@@ -1,4 +1,0 @@
----
-eleventyComputed:
-  title: Knowledge base
----

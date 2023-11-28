@@ -210,11 +210,15 @@
     }
 
     td {
-      padding: 24px 0;
+      padding: 24px 0 24px 1px;
 
       + td {
         padding-left: 12px;
       }
+    }
+
+    figure {
+      display: inline-block;
     }
   }
 
@@ -246,8 +250,8 @@
   }
 
   .copied-div {
-    opacity: 1; 
-    position: absolute; 
+    opacity: 1;
+    position: absolute;
     width: 160px;
     background-color: #555;
     color: #fff;
@@ -255,34 +259,34 @@
     border-radius: 6px;
     padding: 8px 0;
     z-index: 1;
-    font-size: 12px; 
+    font-size: 12px;
   }
 
   .button.feedback-type-product {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     background-color: #fff;
-    border: 1px solid black; 
-    padding: 5px; 
-    width: fit-content; 
-   
+    border: 1px solid black;
+    padding: 5px;
+    width: fit-content;
+
     &:hover {
       background-color: rgb(241, 241, 241);
       color: #000;
     }
     span.icon {
-      height: 24px; 
-      width: 24px; 
+      height: 24px;
+      width: 24px;
       & > svg {
         color: black ;
       }
     }
-    
+
     span.text {
       color: black;
       font-weight: 700;
-      margin: 0; 
-      padding-left: 5px; 
+      margin: 0;
+      padding-left: 5px;
     }
 
   }

@@ -27,7 +27,13 @@
     "icon": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
     "logo": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
     "url": "/kb/devolutions-customer-success/",
-    "formattedName": "<b>Devolutions</b> Knowledge Base"
+    "formattedName": "<b>Devolutions</b> Knowledge Base",
+    "searchTags": [
+      {
+        "label": "Knowledge Base",
+        "facet": "doc"
+      }
+    ]
   },
   "server": {
     "isTopic": true,
