@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Event auto typing macro
+  description: The Typing Macro automatically executes once a connection has been established.  
 ---
 The ***Typing Macro*** automatically executes once a connection has been established.  
 
@@ -11,6 +12,11 @@ Be advised that using this feature in an environment where passwords must be hid
 {% endsnippet %}  
 
 ![!!KB4621](https://webdevolutions.azureedge.net/docs/en/kb/KB4621.png)
+
+Typing macros can also be added in the ***Login Button ID*** field of an entry.
+
+![Select an entry – Properties – Login – Login button ID](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6163.png)
+
 ## Settings
 ### Typing macro
 Keyboard keys are represented by predefined tags between braces. To specify a single keyboard character, use the character itself without braces. For example, represent the letter ***A*** by typing the "A" character in the typing macro. To represent more than one character, such as ***Hello***, append each additional character to the preceding one: "Hello".
@@ -423,6 +429,14 @@ Select the previous window before executing the remaining commands.
 	</tr>
 	<tr>
 		<td>
+{SENDKEYS} {ENDSENDKEYS}
+		</td>
+		<td>
+This command forces certain actions regardless of context.
+		</td>
+	</tr>
+	<tr>
+		<td>		
 {WINDOW:???}
 		</td>
 		<td>
