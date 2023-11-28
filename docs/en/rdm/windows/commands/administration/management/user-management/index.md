@@ -178,7 +178,7 @@ Select which repositories the user has access to. For more information, please c
 
 ### Application Access 
 
-The application access section allows to restrain access to {{ en.RDM }} or the [{{ en.WBEX }}](/rdm/windows/dwl/overview/).  
+The application access section allows to restrain access to {{ en.RDM }} or the [{{ en.WBEX }}](/rdm/windows/workspace-browser-extension/overview/).  
 ![User Management - Application Access](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3625.png) 
 
 <table>
@@ -201,7 +201,7 @@ Select if the user can access to the data source from {{ en.RDM }}.
 	</tr>
 	<tr>
 		<td>
-[{{ en.WBEX }}](/rdm/windows/dwl/overview/) 
+[{{ en.WBEX }}](/rdm/windows/workspace-browser-extension/overview/) 
 		</td>
 		<td>
 Select if the user can access the data source from the {{ en.WBEX }}. 

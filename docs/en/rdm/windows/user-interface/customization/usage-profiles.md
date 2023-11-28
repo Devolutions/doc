@@ -55,7 +55,7 @@ Session
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -66,7 +66,7 @@ Remote Management
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -77,7 +77,7 @@ Credential Management
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -85,10 +85,10 @@ Credential Management
 Information
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -96,10 +96,10 @@ Information
 Folder
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -107,10 +107,10 @@ Folder
 Contact
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -121,7 +121,7 @@ Document
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -132,7 +132,7 @@ VPN/Tunnel/Gateway
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -143,7 +143,7 @@ IT Asset Management
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -154,7 +154,7 @@ Macro/Script/Tool
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -165,7 +165,7 @@ Synchronizer
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -176,7 +176,7 @@ Miscellaneous
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -184,10 +184,10 @@ Miscellaneous
 Template
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 </table>
@@ -219,7 +219,7 @@ Broken entries
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -230,7 +230,7 @@ Certificates
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -238,10 +238,10 @@ Certificates
 Checked out
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -249,10 +249,10 @@ Checked out
 Entries
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -260,10 +260,10 @@ Entries
 Expired entries
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -271,10 +271,10 @@ Expired entries
 Expiring entries
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -282,10 +282,10 @@ Expiring entries
 Overdue tasks
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -293,10 +293,10 @@ Overdue tasks
 Pending access requests
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -304,10 +304,10 @@ Pending access requests
 Pending {{ en.VLT }} access requests
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -315,10 +315,10 @@ Pending {{ en.VLT }} access requests
 Upcoming tasks
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -329,7 +329,7 @@ Upcoming tasks
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -340,7 +340,7 @@ Password ages
  
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -348,10 +348,10 @@ Password ages
 Types
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 </table>
@@ -380,10 +380,10 @@ IT PROFESSIONAL
 Home
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -391,10 +391,10 @@ Home
 Edit
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -402,10 +402,10 @@ Edit
 View
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -416,7 +416,7 @@ Administration
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -427,7 +427,7 @@ Tools
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -435,10 +435,10 @@ Tools
 Window
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -446,10 +446,10 @@ Window
 Help
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 </table>
@@ -482,10 +482,10 @@ IT PROFESSIONAL
 General
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -493,10 +493,10 @@ General
 Description
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -504,10 +504,10 @@ Description
 User Interface
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -518,7 +518,7 @@ Custom Fields
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -526,10 +526,10 @@ Custom Fields
 Entry Information
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -537,10 +537,10 @@ Entry Information
 Settings
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -548,10 +548,10 @@ Settings
 VPN/Tunnel/Gateway
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -562,7 +562,7 @@ Events
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -573,7 +573,7 @@ One Time Password
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -584,7 +584,7 @@ Permissions / Inherited Permissions
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -595,7 +595,7 @@ Password Management
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -606,7 +606,7 @@ Security Settings
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -617,7 +617,7 @@ Session Recording
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -628,7 +628,7 @@ Asset
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -639,7 +639,7 @@ Logs
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -650,7 +650,7 @@ Documentation
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -661,7 +661,7 @@ Home Page
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -672,7 +672,7 @@ IT Asset Management
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -683,7 +683,7 @@ Remote Management
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -691,10 +691,10 @@ Remote Management
 Variables
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -705,7 +705,7 @@ Tools
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -716,7 +716,7 @@ Is Online (Ping/Port scan)
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -727,7 +727,7 @@ Wake on LAN
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 	<tr>
@@ -738,7 +738,7 @@ Advanced
 
 		</td>
 		<td align="center">
-![!!BadgeNoticeSmall](https://webdevolutions.azureedge.net/docs/common/BadgeNoticeSmall.png)
+{{ icon.badgeNotice | safe }}
 		</td>
 	</tr>
 </table>

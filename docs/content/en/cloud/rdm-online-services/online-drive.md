@@ -2,6 +2,10 @@
 eleventyComputed:
   title: '{{ en.DOD }}'
 ---
+{% snippet icon.badgeInfo %}
+***{{ en.DOD }}*** will be removed from {{ en.DPORTAL }}. You can still [access the URL](https://docs.devolutions.net/kb/general-knowledge-base/rdm-online-services-removed-devolutions-portal/) if needed
+{% endsnippet %} 
+
 {% youtube 'R3VYxnOdjoE' %}  
 
 The ***{{ en.DOD }}*** is a free cloud file storage service with no limitations and perfect for standalone users. You can store and synchronize your entries online and access your sessions from anywhere. 

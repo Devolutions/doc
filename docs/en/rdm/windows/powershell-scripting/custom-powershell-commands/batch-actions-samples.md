@@ -26,7 +26,7 @@ $RDM.Save();
 ```powershell
 ViewUrlDisplayMode: "Default" = embedded, "External" = external. 
 ```
-### Open URL (external) for Web Login (Information Entries) 
+### Open URL (external) for web login (Information Entries) 
 
 ```powershell
 $connection.DataEntry.DefaultAction = "OpenUrlExternal"; 

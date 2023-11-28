@@ -7,4 +7,4 @@ eleventyComputed:
 
 ### Related topics  
 
-* [Import contacts](https://docs.devolutions.net/rdm/windows/commands/file/import/contacts/#import-from-contact) 
+* [Import contacts](/rdm/windows/commands/file/import/contacts/#import-from-contact) 

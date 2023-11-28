@@ -1,0 +1,1945 @@
+{
+  "_schema": "doc",
+  "isTopic": true,
+  "icon": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
+  "logo": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
+  "url": "/kb/devolutions-customer-success/",
+  "formattedName": "<b>Devolutions</b> Knowledge Base",
+  "searchTags": [
+    {
+      "label": "Knowledge Base",
+      "facet": "doc"
+    }
+  ],
+  "sidebars": [
+    {
+      "items": [
+        {
+          "url": "/kb/devolutions-customer-success/",
+          "items": [
+            {
+              "url": "/kb/devolutions-customer-success/securely-send-file/"
+            },
+            {
+              "url": "/kb/devolutions-customer-success/ticketing-system/"
+            }
+          ]
+        },
+        {
+          "url": "/kb/remote-desktop-manager/",
+          "items": [
+            {
+              "label": "howToArticles",
+              "items": [
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/add-template-custom-tool/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/add-web-link-macros-script-tools/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/allow-access-pc-outside-network/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/allow-open-multiple-connection/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/group-policies/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/automating-remote-mmc/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/batch-edit-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/beyondtrust-configuration/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/certificate-security-provider-published-app-environment/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/change-ssh-color-font/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/clear-web-browser-cache/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/command-line-arguments/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/pwned-password-check/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-1password-integrated-mode/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-bitwarden-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/credentials-prompt-everytime/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-custom-path-devolutions-updater/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-cross-vault-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-password-depot-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-secure-gateway/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-vpn-multiple-sessions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-vpn-existing-session/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-active-directory-synchronizer/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-azure-bastion-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-connectwise-screenconnect/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-pam-credentials/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-google-authenticator-2fa/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-laps-custom-credential-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-psono-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-sql-server-protected-users-integrated-security/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-keepass-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-workspace-authenticator-2fa/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-yubikey-2fa/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/convert-website-legacy-to-website/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/copy-buttons-custom-fields/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/copy-entries-user-vault-to-vault/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/create-list-credentials/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/create-microsoft-l2tp-vpn-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/create-vault-template/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/create-log-files-variables/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/create-popup-messages-entries/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/create-saved-searches-smart-folders/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/creating-shortcuts/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/cyberark-aam-test-certificate-authentication/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/cyberark-dashboard-configuration/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/cyberark-entry-types/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/cyberark-psm-integration-scenarios/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/data-migration/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/delinea-secret-server-sso/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/disable-dev-tools-embedded-website/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/disable-rdm-auto-update/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/display-rdp-multiple-monitors/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/download-keepass-plugin/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/eccn-number-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/edit-hosts-file/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/enable-2fa-users-sql-server/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/activate-offline-mode-advanced-ds/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/enable-offline-mode-hub-personal-data-source/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/dod-activate-offline-mode/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/enable-rdm-receive-new-update/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/enable-sql-azure-ad-mfa/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/enable-temporary-access/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/enterprise-deployment-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/entry-types-events-settings/",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager/how-to-articles/entry-types-events-settings/event-auto-typing-macro/"
+                    }
+                  ]
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/rdp-to-linux-machine-with-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/execute-powershell-connection/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/import-export-data-sources-configuration/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/export-import-entries/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/export-import-favorites/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/export-import-configuration-file/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/export-import-vaults/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/handling-rdp-connections/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/implement-custom-login-mode/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/import-csv-password-list-hostnames/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/import-credential-entries-csv-using-template/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/import-credentials-keepass/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/installing-rdm-linux-unsupported-distro/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/integrate-hub-business-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/keep-memory-personal-credentials/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/keep-tabs-opened/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/keepass-plugin-installation-rds/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/keeper-credential-entry-settings/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/launch-remoteapp-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/link-account/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/terminal-selection/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/migrate-dod-hub/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/migration-one-type-database-another/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/migration-security-groups-user-groups/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/multiple-types-connections/",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager/how-to-articles/multiple-types-connections/adhoc-launch-with-template/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/how-to-articles/multiple-types-connections/folders-dynamic-variables/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/how-to-articles/multiple-types-connections/host-with-templates/"
+                    }
+                  ]
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/open-rd-gateway-only-unable-ping-host/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/otp-autofill-workspace-browser-extension/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/otp-usage-entries/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/passcode-prompt-opening-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/portable-rdm-installation/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/register-licenses-older-rdm-versions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/register-integration-module-license/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/reinstall-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/rdm-typing-macro-perform-authentication/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/remote-desktop-services/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/remote-install-psexec/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/remove-registered-fingerprint/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/rename-azure-ad-accounts-domain/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/ribbon-default-visibility/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/run-as-another-user/",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager/how-to-articles/run-as-another-user/built-in-runas/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/how-to-articles/run-as-another-user/manual-runas/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager/how-to-articles/run-as-another-user/user-specific-settings-runas/"
+                    }
+                  ]
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/running-rdm-as-another-user/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/running-rdm-synchronizer-centralized-server/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/secret-server-entry-configuration/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/send-sanitized-configuration-file/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/send-ssh-logs-verbose/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/send-your-database-schema/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/session-recording/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/set-language-tree-view/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/setup-ssh-tunnel/",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager/how-to-articles/setup-ssh-tunnel/rdm-broadcast-action-ssh/"
+                    }
+                  ]
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/setup-usage-session-credential-launch/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/set-up-user-vault-credentials/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/sql-server-datasource-integrated-security/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/sql-server-database-migration/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/sql-server-maintenance-plans/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/ssh-configuration-rdm-fips140-2-compliance/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/subscribe-announcements-forums/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/switching-back-old-color-scheme/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/team-tips/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/testing-variables/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/thegreenbow-vpn-configuration/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/theme-system/",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager/how-to-articles/theme-system/image-list/"
+                    }
+                  ]
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/tunnel-local-webcam-through-rdp/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/turn-off-built-in-password-manager-browser/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/upgrading-rdm-free-rdm-team/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/it-asset-management/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/use-differents-version-same-app/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/use-mosh-workaround/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/edge-embedded-separate-sessions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/user-specific-settings-encryption-migration/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/verbose-logs-level-ssh-shell/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/view-multi-row-open-session-tabs/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/vpn-group/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/vpn-routing/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/how-to-articles/vpn-with-offline-mode/"
+                }
+              ]
+            },
+            {
+              "label": "troubleshootingArticles",
+              "items": [
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/1password-latest-entries-displayed/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/2fa-lost-devolutions-account-dod/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/access-violation-exception-error-rdp-sessions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/active-directory-synchronizer-error/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/active-directory-synchronizer-permissions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/adalexception-error/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/adding-entry-user-vault-fail/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/aggregateexception-one-more-errors-occured/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/amazon-s3-explorer-issues/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/application-requires-server-version/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/ard-unable-connect-host/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/ard-cannot-connect-computer/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/azure-sql-connection-issues/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/azure-sql-error-connection-failed-mismatch-users/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/azure-sql-update-selection-screen/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/beyondtrust-issues/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/black-screen-ard/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/blank-page-issues-citrix-environment/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/caching/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/carbon-black-user32-dll-error/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/chrome-cannot-launch-embedded-mode/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/cisco-anyconnect/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/cisco-anyconnect-connection-issue/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/cisco-asdm-not-launching/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/citrix-environment-windows-crashes/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/citrix-infrastructure-black-border/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/clipboard-diagnostic/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/configure-microsoft-vpn-preshared-key/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/connections-are-missing/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/data-recovery/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/data-source-initial-troubleshooting/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/database-upgrades/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/debugging/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/devolutions-account-inactive-account/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/disappearing-navigation-pane/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/display-issue-dashboard/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/documentation-tab-empty/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/errconnect-tls-failed/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/error-code-fail-1-non-speciffic-error/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/focus-issue-with-windows-7-and-2012/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/force-quit-rdm-application/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/forticlient/",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager/troubleshooting-articles/forticlient/fips-encryption/"
+                    }
+                  ]
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/forticlient-vpn/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/high-cpu-usage/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/high-dpi-issue/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/hung-rdm-dump-file-creation/",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager/troubleshooting-articles/hung-rdm-dump-file-creation/security-disclaimer-sending-dump-file/"
+                    }
+                  ]
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/install-package-already-available/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/integrated-security-issue-sql-server/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/invalid-password-entered/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/no-space-available-display-lines/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/ioexception-process-cannot-access-file/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/jump-rdm-agent-troubleshooting-guide/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/keepass/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/keeper-enterprise-unexpected-error/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/kernelbase-dll-crash-error/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/key-agent-unable-start/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/key-not-present-dictionary/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/lastpass-2fa/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/lost-rdm-configuration/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/2fa-server-lost/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/2fa-lost-data-source/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/2fa-rdm-application-lost/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-automatic-logon-issues/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-display-issues/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-errors/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-cant-store-password-local-computer/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-licensing-protocol-error/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-logging-off-hangs/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-logoff-issue/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-memory-perfomance-issues/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-missing-mapped-drive/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-printer-redirect/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-protocol-error/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-rd-gateway-fail/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-gateway-credentials-prompt/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-reconnect-issues/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-rdp-sessions-work-using-mstsc/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/microsoft-vpn/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/missing-navigation-pane/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/missing-opened-vpn-from-list/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/missing-sessions-navigation-pane/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/net-corrupted-system-file/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/net-runtime-optimization-service-issue/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/network-devices/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/nonadmin-cannot-view-password/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/offline-mode/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/openvpn-enter-wrong-credentials/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/openvpn-losses-connection-launch/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/password-manager-pro/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/performance-data-sources/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/performance-diagnostic/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/proxy-authentication-required-error/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/putty-embedded-mode/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdc-manager/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-issue-after-updating-2023/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-username-changes-to-azure-ad-user/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/record-ask-ffmpeg-path/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/red-x-navigation-pane-credential-list/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdm-wont-start/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/rdp-failed-connect-host/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/sound-issue/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/unknown-error-0x0000001c/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/rpc-troubleshooting/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/run-rdm-under-application-verifier/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/saml-configuration-troubleshooting-cyberark-dashboard/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/secret-server-script/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/separate-credentials-from-sessions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/session-focus-issue/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/session-tools/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/slow-dashboard-webview2/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/sonicwall-global-vpn-client/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/sql-azure-one-or-more-errors/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/sql-azure-troubleshooting/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/sql-server-connectivity-troubleshooting/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/sql-server-performance-troubleshooting/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/sqlexception-column-parameter-variable/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/ssh-application-keypad-working/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/ssh-shell-entry-failed-connect/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/ssh-shell-supported-ecdsa-keys/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/performance-startup/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/startup-performance/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/status-bar-webviews-stays-focus/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/switch-between-sql-azure-data-sources-with-mfa/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/task-canceled-exception/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/third-party-clipboard-issue/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/tree-view-discriepancies/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/troubleshooting/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/type-clipboard-message-error/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/cannot-close-fullscreen-rdp-sessions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/unable-connect-data-source/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/unable-connect-devolutions-account/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/unable-delete-favorites-menu/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/unable-delete-license/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/unable-export-data-source/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/unable-export-entries/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/cannot-open-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/unable-uninstall-missing-msi/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/unable-to-uninstall/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/cannot-uninstall-update-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/unable-use-password-variable/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/unable-validate-license-online/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/updates-remove-rdm-icon-taskbar/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/user-connection-mismatch/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/user-interface-error/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/user-cannot-make-template/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/version-schema-compatibility-rdm-server/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/vmware/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/web-browser-firefox/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/web-browser-firefox-executable-path/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/web-browser-google-chrome/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/web-browser-internet-explorer/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/welcome-page/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/wmi-troubleshooting/"
+                }
+              ]
+            },
+            {
+              "label": "knowledgeBase",
+              "items": [
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/account-brokering-not-available/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/add-rdp-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/allow-range-open/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/jump-host-detection-local-network/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/blocking-ms-rdp-only-use-rdm/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/certificate-validation/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/clear-cache-dell-idrac-entries/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/compare-editions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/configure-x509-certificate-credential-entry-type/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/configure-credential-redirection-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/configure-firearm-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/configure-report-entry-type/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/configure-new-access-code-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/barracuda-addon/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/configuring-vmwares-powercli/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/connect-su-user-ssh-sessions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/create-rdp-session/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/cyberark-integration-access-denied/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/cyberark-integration-license-requirements/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/mfa-delimiter-cyberark/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/cyberark-system-safe-filtering/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/data-report/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/delete-virtual-folders/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/deprecated-data-sources/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/deprecated-entries/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/organization-deprecated/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/super-pan/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/encrypting-file-system-message/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/favorite-duo-push-method/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/going-password-less-rdm-cyberark/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/hide-legacy-security-warning/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/import-credentials/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/inheritance/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/ip-list-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/it-asset-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/it-glue-information/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/internet-endpoints-access/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/load-from-inventory/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/locating-configuration-file/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/memory-usage-windows/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/microsoft-rdp-api-hooking/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/permissions-move/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/offboarding-users/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/pam-partner-integration/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/password-strength-rating/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/protocol-handler/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/quick-connect/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-protocol-clarification-information/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-reconnect-mode/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/memory-tuning-rdp-sessions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/restoring-rdp-file-association-mstsc/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/screen-sizing-mode/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/security-providers-argon2-parameters/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/security-providers-best-practices/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/send-error-report/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/send-application-logs/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/send-information-into-ssh-sessions/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/sending-windows-credentials-teamviewer/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/session-disconnect-randomizes-focus/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/sftp-vs-scp/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/software-license-agreement/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/sql-server-always-on-availability-groups/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/syntax-highlighting/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/templates-default-path/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/ticketing-service/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/understand-rdm-licensing/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/use-multiple-versions-third-party-app/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/wake-on-lan/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/windows-credential-manager/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "/kb/remote-desktop-manager-macos/",
+          "items": [
+            {
+              "label": "howToArticles",
+              "items": [
+                {
+                  "url": "/kb/remote-desktop-manager-macos/how-to-articles/enable-debug-webview-embedded-safari/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/how-to-articles/link-account/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/how-to-articles/rdm-mac-configure-1password/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/how-to-articles/rdm-mac-configure-password-manager-pro/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/how-to-articles/rdm-mac-custom-installer/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/how-to-articles/rdm-mac-enable-send-rdp-logs/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/how-to-articles/rdm-mac-enable-rdp-remote-tool/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/how-to-articles/rdm-mac-enable-smartcard-authentication/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/how-to-articles/keyboard-type/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/how-to-articles/macos-typing-macro-perform-authentication/"
+                }
+              ]
+            },
+            {
+              "label": "troubleshootingArticles",
+              "items": [
+                {
+                  "url": "/kb/remote-desktop-manager-macos/troubleshooting-articles/rdm-mac-caching/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/troubleshooting-articles/rdm-mac-license-registration/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/troubleshooting-articles/rdm-mac-offline-mode/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/troubleshooting-articles/rdm-mac-rdp-cannot-copy-file-image/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/troubleshooting-articles/rdm-mac-reset-layout/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/troubleshooting-articles/rdm-mac-ssh-issues/"
+                }
+              ]
+            },
+            {
+              "label": "knowledgeBase",
+              "items": [
+                {
+                  "url": "/kb/remote-desktop-manager-macos/knowledge-base/ip-list-entry/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager-macos/knowledge-base/security-group-management/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "/kb/remote-desktop-manager-mobile/",
+          "items": [
+            {
+              "label": "Remote Desktop Manager Android",
+              "items": [
+                {
+                  "label": "howToArticles",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/android-configure-autofill/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/android-delete-application-registration/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/android-import-data-source-configuration/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/android-import-dod/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/android-install-register/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/android-set-offline-mode/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/deprecated-data-mobile/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Remote Desktop Manager iOS",
+              "items": [
+                {
+                  "label": "howToArticles",
+                  "items": [
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/mobile-device-management-configuration/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-create-new-data-source/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-import-data-source-configuration/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-offline-mode/"
+                    },
+                    {
+                      "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-send-rdp-logs-support/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "/kb/devolutions-server/",
+          "items": [
+            {
+              "label": "howToArticles",
+              "items": [
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/add-proxy-devolutions-server/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/authentication-migration/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/change-listening-port-recording/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/configure-client-data-source/"
+                },
+                {
+                  "label": "configureAnSMTPServer",
+                  "items": [
+                    {
+                      "url": "/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email/"
+                    },
+                    {
+                      "url": "/kb/devolutions-server/how-to-articles/configure-smtp-server/configure-smtp-email-azure/"
+                    }
+                  ]
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/configure-server-always-available/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/configure-pam-provider-through-dgw/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/configure-remote-fx-rdp-web-client/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/configure-ssl/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/configure-recording-server/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/configure-windows-authentication/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/create-server-data-source-application-key/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/create-server-staging-instance/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/create-anyidentity-pam-provider/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/create-azure-ad-pam-provider/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/create-windows-users-provider/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/download-recording-session/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/enable-emergency-login-code-authentication/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/enable-server-log4net-log/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/enable-recording-server-log4net-log/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/enable-server-side-synchronizer/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/encrypting-web-config-file/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/enforcing-usage-ldaps/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/least-privileges-ad-password/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/link-account/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/manage-encryption-keys/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/move-server-default-web-site-root/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/okta-configuration/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/force-token-ip-validation/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/preventing-sql-timeouts-with-server/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/recycle-server-application-pool-nightly/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/remove-security-provider/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/rollback-previous-installation-server/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/how-to-send-trace-report/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/send-server-db-schema-support/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/stop-caching-users/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/update-registration-serial-renewal/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/view-server-datasource-logs/"
+                },
+                {
+                  "url": "/kb/devolutions-server/how-to-articles/winrm-trustedhostslist/"
+                }
+              ]
+            },
+            {
+              "label": "troubleshootingArticles",
+              "items": [
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/blank-login-page-windows-server-2016/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/cryptographic-exception-bad-data/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/domain-group-not-retrieved/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/failed-request-tracing-with-iis/",
+                  "items": [
+                    {
+                      "url": "/kb/devolutions-server/troubleshooting-articles/failed-request-tracing-with-iis/configure-failed-request-tracing/"
+                    },
+                    {
+                      "url": "/kb/devolutions-server/troubleshooting-articles/failed-request-tracing-with-iis/consult-failed-request-tracing-log/"
+                    },
+                    {
+                      "url": "/kb/devolutions-server/troubleshooting-articles/failed-request-tracing-with-iis/enable-failed-request-tracing-iis/"
+                    }
+                  ]
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/server-missing-prerequisite/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/http-error-500-30-asp-net-core/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/iis-logging/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/encryption-file-missing/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/security-token-invalid-idx10205/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/service-scheduler-not-showing-dashboard/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/the-insert-statement-conflicted/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/azure-redirect-web-uri/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/remote-server-returned-error-400/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/access-redirect-uri-error/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/tls-management/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/unable-import-azure-ad-users-groups/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/unable-login-server-account/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/unable-save-recording-info-DPS/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/upgrade-process-issue/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/user-vault-disappears-after-upgrade/"
+                }
+              ]
+            },
+            {
+              "label": "knowledgeBase",
+              "items": [
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/access-uri/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/add-x-forwarded-for-column-iis/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/backup-restore-server/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/command-line-interface/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/deploy-high-availability-load-balanced-env/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/console-command-line-interface/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/server-security-dashboard/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/dvls-security-hardening/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/generate-script-database-permissions/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/identify-server-answering/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/important-operation-server/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/installation-requirements/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/ip-list-entry/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/internet-endpoints-server/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/pam-usage-policies/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/ports-firewalls/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/scheduler-service-general-information/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/sql-server-express-configuration/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/syslog-documentation/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/upgrade-process-list/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/use-x-forwarded-for/"
+                },
+                {
+                  "url": "/kb/devolutions-server/knowledge-base/user-agent/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "/kb/devolutions-gateway/",
+          "items": [
+            {
+              "label": "howToArticles",
+              "items": [
+                {
+                  "url": "/kb/devolutions-gateway/how-to-articles/launch-rdp-session-web-client/"
+                },
+                {
+                  "url": "/kb/devolutions-gateway/how-to-articles/use-dgw-external-browser/"
+                },
+                {
+                  "url": "/kb/devolutions-gateway/how-to-articles/use-nla-rdp-connection/"
+                }
+              ]
+            },
+            {
+              "label": "troubleshootingArticles",
+              "items": [
+                {
+                  "url": "/kb/devolutions-gateway/troubleshooting-articles/install-dgw-method-not-found/"
+                },
+                {
+                  "url": "/kb/devolutions-gateway/troubleshooting-articles/rdp-web-client-not-showing/"
+                }
+              ]
+            },
+            {
+              "label": "knowledgeBase",
+              "items": [
+                {
+                  "url": "/kb/devolutions-gateway/knowledge-base/recording-path/"
+                },
+                {
+                  "url": "/kb/devolutions-gateway/knowledge-base/gateway-tunnel/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "/kb/hub-business/",
+          "items": [
+            {
+              "label": "howToArticles",
+              "items": [
+                {
+                  "url": "/kb/hub-business/how-to-articles/create-azure-ad-pam-provider/"
+                },
+                {
+                  "url": "/kb/hub-business/how-to-articles/creating-shared-one-time-password-entry/"
+                },
+                {
+                  "url": "/kb/hub-business/how-to-articles/export-data-hub-business-powershell/"
+                },
+                {
+                  "url": "/kb/hub-business/how-to-articles/import-export-data-hub-personal/"
+                },
+                {
+                  "url": "/kb/hub-business/how-to-articles/import-csv-files-pasword-hub-importer/"
+                },
+                {
+                  "url": "/kb/hub-business/how-to-articles/modify-existing-sso-configuration-azure-ad-provisioning/"
+                },
+                {
+                  "url": "/kb/hub-business/how-to-articles/private-key-management/"
+                },
+                {
+                  "url": "/kb/hub-business/how-to-articles/restore-user-vault/"
+                }
+              ]
+            },
+            {
+              "label": "troubleshootingArticles",
+              "items": [
+                {
+                  "url": "/kb/hub-business/troubleshooting-articles/access-denied-errors/"
+                },
+                {
+                  "url": "/kb/hub-business/troubleshooting-articles/prompt-mfa-everytime/"
+                },
+                {
+                  "url": "/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/"
+                },
+                {
+                  "url": "/kb/hub-business/troubleshooting-articles/invalid-client-id-secret-microsoft-sso/"
+                },
+                {
+                  "url": "/kb/hub-business/troubleshooting-articles/invalid-serial-key/"
+                },
+                {
+                  "url": "/kb/hub-business/troubleshooting-articles/no-enterprise-license-found-rdm/"
+                }
+              ]
+            },
+            {
+              "label": "knowledgeBase",
+              "items": [
+                {
+                  "url": "/kb/hub-business/knowledge-base/csv-files-import-strategies-format-hub-importer/"
+                },
+                {
+                  "url": "/kb/hub-business/knowledge-base/devolutions-password-hub-changes-name-devolutions-hub/"
+                },
+                {
+                  "url": "/kb/hub-business/knowledge-base/hosting-region-password-hub/"
+                },
+                {
+                  "url": "/kb/hub-business/knowledge-base/internet-endpoints-access/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "/kb/hub-personal/",
+          "items": [
+            {
+              "label": "howToArticles",
+              "items": [
+                {
+                  "url": "/kb/hub-personal/how-to-articles/integrate-hub-personal-rdm/"
+                },
+                {
+                  "url": "/kb/hub-personal/how-to-articles/moving-hub-personal/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "/kb/devolutions-powershell/",
+          "items": [
+            {
+              "label": "Remote Desktop Manager PowerShell",
+              "items": [
+                {
+                  "url": "/kb/devolutions-powershell/remote-desktop-manager/specify-working-folder/"
+                },
+                {
+                  "url": "/kb/devolutions-powershell/remote-desktop-manager/change-default-powershell-version/"
+                },
+                {
+                  "url": "/kb/devolutions-powershell/remote-desktop-manager/create-custom-field-report/"
+                },
+                {
+                  "url": "/kb/devolutions-powershell/remote-desktop-manager/rdm-powershell-core-module/"
+                },
+                {
+                  "url": "/kb/devolutions-powershell/remote-desktop-manager/xml-information/"
+                },
+                {
+                  "url": "/kb/devolutions-powershell/remote-desktop-manager/powercli-advanced-troubleshooting/"
+                },
+                {
+                  "url": "/kb/devolutions-powershell/remote-desktop-manager/rdm-mac-enable-integrated-authentication-kerberos/"
+                },
+                {
+                  "url": "/kb/devolutions-powershell/remote-desktop-manager/ssh-algorithm-support/"
+                }
+              ]
+            },
+            {
+              "label": "Devolutions Server PowerShell",
+              "items": [
+                {
+                  "url": "/kb/devolutions-powershell/devolutions-server/xml-information/"
+                },
+                {
+                  "url": "/kb/devolutions-powershell/devolutions-server/powershell-connectivity/"
+                },
+                {
+                  "url": "/kb/devolutions-powershell/devolutions-server/run-as-anyidentity/"
+                }
+              ]
+            },
+            {
+              "label": "Devolutions Gateway PowerShell",
+              "items": [
+                {
+                  "url": "/kb/devolutions-powershell/devolutions-gateway/recording-server-migration-tool/"
+                },
+                {
+                  "url": "/kb/devolutions-powershell/devolutions-gateway/powershell-updater/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "/kb/workspace-browser-extension/",
+          "items": [
+            {
+              "label": "howToArticles",
+              "items": [
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/allow-workspace-browser-extension-incognito-mode/"
+                },
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/deploy-current-version-workspace-browser-extension-firefox-opera-gpo/"
+                },
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/deploy-workspace-browser-extension-chrome-gpo/"
+                },
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/issue-using-workspace-browser-extension-with-localhost/"
+                },
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/urls-comparing-types/"
+                },
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/website-authentication/"
+                },
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/workspace-browser-extension-firefox-installation/"
+                },
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/workspace-browser-extension-chrome-installation/"
+                },
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/workspace-browser-extension-edge-installation/"
+                },
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/workspace-browser-extension-opera-installation/"
+                },
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/workspace-browser-extension-troubleshooting-connection-logs/"
+                },
+                {
+                  "url": "/kb/workspace-browser-extension/how-to-articles/workspace-browser-extension-via-native-messaging/"
+                }
+              ]
+            },
+            {
+              "label": "knowledgeBase",
+              "items": [
+                {
+                  "url": "/kb/workspace-browser-extension/knowledge-base/devolutions-web-login-changes-name-workspace-browser-extension/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "/kb/devolutions-workspace/",
+          "items": [
+            {
+              "label": "howToArticles",
+              "items": [
+                {
+                  "url": "/kb/devolutions-workspace/how-to-articles/enable-autofill-ios/"
+                },
+                {
+                  "url": "/kb/devolutions-workspace/how-to-articles/launch-session-desktop/"
+                },
+                {
+                  "url": "/kb/devolutions-workspace/how-to-articles/offline-mode/"
+                },
+                {
+                  "url": "/kb/devolutions-workspace/how-to-articles/send-application-logs/"
+                }
+              ]
+            },
+            {
+              "label": "troubleshootingArticles",
+              "items": [
+                {
+                  "url": "/kb/devolutions-workspace/troubleshooting-articles/authentication-change/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "generalKnowledgeBase",
+          "items": [
+            {
+              "url": "/kb/general-knowledge-base/clear-browser-local-storage/",
+              "items": [
+                {
+                  "url": "/kb/general-knowledge-base/clear-browser-local-storage/clear-firefox-local-storage/"
+                },
+                {
+                  "url": "/kb/general-knowledge-base/clear-browser-local-storage/clear-chrome-local-storage/"
+                },
+                {
+                  "url": "/kb/general-knowledge-base/clear-browser-local-storage/clear-edge-local-storage/"
+                },
+                {
+                  "url": "/kb/general-knowledge-base/clear-browser-local-storage/clear-opera-local-storage/"
+                },
+                {
+                  "url": "/kb/general-knowledge-base/clear-browser-local-storage/clear-safari-local-storage/"
+                }
+              ]
+            },
+            {
+              "url": "/kb/general-knowledge-base/secure-self-signed-certificates/"
+            },
+            {
+              "url": "/kb/general-knowledge-base/install-root-certificates/"
+            },
+            {
+              "url": "/kb/general-knowledge-base/login-fail-sql/"
+            },
+            {
+              "url": "/kb/general-knowledge-base/rdm-online-services-removed-devolutions-portal/"
+            },
+            {
+              "url": "/kb/general-knowledge-base/security-advisories/"
+            },
+            {
+              "url": "/kb/general-knowledge-base/vault-privacy-administrators-users/"
+            },
+            {
+              "url": "/kb/general-knowledge-base/what-is-sha-256/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

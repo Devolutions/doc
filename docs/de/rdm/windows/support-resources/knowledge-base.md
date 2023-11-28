@@ -34,6 +34,6 @@ Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Comm
 
 &nbsp; &nbsp;[{{ de.PS }}](/de/kb/devolutions-powershell/)  
 
-&nbsp; &nbsp;[{{ de.DWL }}](/de/kb/devolutions-web-login/)  
+&nbsp; &nbsp;[{{ de.DWL }}](/de/kb/workspace-browser-extension/)  
 
 &nbsp; &nbsp;[{{ de.DWS }}](/de/kb/devolutions-workspace/)  

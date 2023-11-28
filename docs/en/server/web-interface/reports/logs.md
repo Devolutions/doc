@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Logs
+  description: The Logs section provides tools to view Activity, Data Sources, Administration and Last Usage Logs. The Deleted Entries section is where you will manage all the deleted entries from the users.  
 ---
 The ***Logs*** section provides tools to view ***Activity***, ***Data Sources***, ***Administration*** and ***Last Usage Logs***. The ***Deleted Entries*** section is where you will manage all the deleted entries from the users.  
 
@@ -8,11 +9,11 @@ You can refine your search with the filters for each report and click the ***Exp
 
 ![Logs](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6083.png) 
 ### Activity Logs 
-The ***Activity Logs*** report will display specific {{ en.VLT }} action about activity from all your users. Activity ***Message*** are listed in a drop down menu to choose from and refine your search.  
+The ***Activity Logs*** report displays specific {{ en.VLT }} actions on the activity of selected users or of all of your users. Activity ***Message*** are listed in a drop down menu to choose from and refine your search.  
 
 Click the ***Log Entry*** button to view more information about the activity.  
 
-![Activity Logs](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4066.png) 
+![Activity Logs](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6086.png) 
 ### Data Sources Logs 
 The ***Data Sources Logs*** displays the logs of the {{ en.DVLS }} data source. For more information on a specific log, click the arrow at the beginning of the line.  
 

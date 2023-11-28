@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: '{{ en.CIM }}'
+  description: In {{ en.RDM }}, click on File – {{ en.DA }} – Sign-in to connect to your {{ en.DA }} if you are not already signed in. 
 ---
 {% snippet icon.badgeNotice %} 
 For stability reasons, in large installation bases, the latest official release is not available to the {{ en.CIS }} for an undetermined period while we ensure that no major issues are present. We recommend using this time with your organization to perform integration tests on a few workstations before upgrading your entire team. 
@@ -13,6 +14,10 @@ Ensure that you have read and understood the content of [{{ en.CIS }}](/rdm/wind
 {% snippet icon.badgeInfo %} 
 You can store and create up to six ***{{ en.CI }}*** configuration file packages in your {{ en.DA }}. 
 {% endsnippet %}
+ 
+{% snippet icon.badgeInfo %}
+The ***No Internet connection*** option in {{ en.RDM }} (***File*** – ***Option*** – ***Tools*** – ***Advanced***) must be disabled for {{ en.CI }} to work.
+{% endsnippet %} 
  
 ## Create an Installation Package 
 
@@ -45,10 +50,10 @@ From here, there are two ways of downloading the package: you can download it di
 From the ***{{ en.CIM }}***, click on ***Download MSI*** and save your file on your computer.  
 ![{{ en.CIM }} – Download MSI](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11257.png) 
 
-### Download From The {{ en.RDMOS }} 
+### Download from {{ en.DPORTAL }}
 
-You can click the ***Access Account*** button in the confirmation email to go straight to your {{ en.RDMOS }} ***{{ en.CI }}*** list. You will need to sign in with your {{ en.DA }} credentials. You can also manually go there through the ***Other apps*** button in your [{{ en.DPORTAL }}](https://portal.devolutions.com/) you created the {{ en.CI }} with.  
+You can click the ***Access Account*** button in the confirmation email to go straight to the ***{{ en.CI }}*** list. You will need to sign in with your {{ en.DA }} credentials. You can also manually go to your [{{ en.DPORTAL }}](https://portal.devolutions.com/rdm-online-services/custom-installer) to view the ***{{ en.CI }}*** list.  
 
 From there, click on ***.msi*** next to your package and save the file on your computer.  
-![{{ en.RDMOS }} – {{ en.CI }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11258.png) 
+![{{ en.CI }}](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6201.png) 
 

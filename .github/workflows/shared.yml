@@ -54,7 +54,7 @@ jobs:
           ALGOLIA_ADMIN_KEY: ${{ inputs.environment == 'production' && secrets.ALGOLIA_ADMIN_KEY || '' }}
           ALGOLIA_APP_ID: ${{ inputs.environment == 'production' && secrets.ALGOLIA_APP_ID || '' }}
           ENVIRONMENT: ${{ inputs.environment }}
-          NODE_OPTIONS: --max-old-space-size=4096
+          NODE_OPTIONS: --max-old-space-size=6144
 
       - name: Login to DockerHub
         uses: docker/login-action@v2

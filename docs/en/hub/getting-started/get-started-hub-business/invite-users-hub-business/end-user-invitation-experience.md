@@ -60,7 +60,7 @@ You can also access your ***{{ en.UVLT }}***, which is user centric and is used 
 
 ### Create entries 
 
-The {{ en.WBEX }} is our web browser password plugin. It is the preferred client to use in conjunction with {{ en.DHUBB }} to create and manage website credentials entries. Visit [Add a website entry in {{ en.DHUBB }} with the {{ en.WBEX }}](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) for steps on how to add a website entry with the {{ en.WBEX }}, or visit [Create entries manually](/hub/web-interface/entries/create-entries-manually/) for how to create them directly within {{ en.DHUBB }}. You can also follow the steps below to manually create an entry in your ***{{ en.UVLT }}***:  
+The {{ en.WBEX }} is our web browser password plugin. It is the preferred client to use in conjunction with {{ en.DHUBB }} to create and manage website credentials entries. Visit [Add a website entry in {{ en.DHUBB }} with the {{ en.WBEX }}](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/) for steps on how to add a website entry with the {{ en.WBEX }}, or visit [Create entries manually](/hub/web-interface/entries/create-entries-manually/) for how to create them directly within {{ en.DHUBB }}. You can also follow the steps below to manually create an entry in your ***{{ en.UVLT }}***:  
 
 1. Select the folder where you want to create the new entry, if applicable. If not, skip this first step. 
 1. Click on the ***Add*** button located in the ***{{ en.NPANE }}***.  

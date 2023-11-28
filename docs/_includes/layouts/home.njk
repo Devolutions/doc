@@ -16,25 +16,25 @@ layout: 'layouts/base.njk'
     <p>{{ description }}</p>
 
     <nav class="grid-list">
-      {%- for doc in docs -%}
-        <{{ "div" if doc.links else "a href=" + locale[lang].projects[doc.name].url }}>
-          {%- if doc.links -%}
-            <a href="{{ locale[lang].projects[doc.name].url }}">
+      {%- for card in cards -%}
+        <{{ "div" if card.links else "a href=" + locale[lang].projects[card.name].url }}>
+          {%- if card.links -%}
+            <a href="{{ locale[lang].projects[card.name].url }}">
           {%- endif -%}
 
-          <img src="{{ locale[lang].projects[doc.name].icon }}">
-          <span class="font-product">{{ locale[lang].projects[doc.name].formattedName | safe }}</span>
+          <img src="{{ locale[lang].projects[card.name].icon }}">
+          <span class="font-product">{{ locale[lang].projects[card.name].formattedName | safe }}</span>
 
-          {%- if locale[lang].projects[doc.name].os -%}
+          {%- if locale[lang].projects[card.name].os -%}
             <div class="grid-list-os">
-              {{ icons[locale[lang].projects[doc.name].os] | safe }}
+              {{ icons[locale[lang].projects[card.name].os] | safe }}
             </div>
           {%- endif -%}
 
-          {%- if doc.links -%}
+          {%- if card.links -%}
             </a>
             <nav>
-              {%- for link in doc.links -%}
+              {%- for link in card.links -%}
                 <a href="{{ link.url }}">
                   {{ link.name }}
                   {{ icons.arrowRight | safe }}
@@ -42,7 +42,7 @@ layout: 'layouts/base.njk'
               {%- endfor -%}
             </nav>
           {%- endif -%}
-        </{{ "div" if doc.links else "a" }}>
+        </{{ "div" if card.links else "a" }}>
       {%- endfor -%}
     </nav>
   </div>

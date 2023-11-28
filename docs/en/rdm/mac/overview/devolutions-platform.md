@@ -74,7 +74,7 @@ Windows, {{ en.MAC }}
 	</tr>
 	<tr>
 		<td>
-[{{ en.WBEX }}](/rdm/mac/dwl/overview/) 
+[{{ en.WBEX }}](/rdm/mac/workspace-browser-extension/overview/) 
 		</td>
 		<td>
 The {{ en.WBEX }} is a free browser plugin used in conjunction with {{ en.RDM }}, {{ en.DVLS }}, and {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s. 

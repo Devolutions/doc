@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 {{ en.RDM }} requires the following prior to installation: 
 
-## Minimum Requirements 
+## Minimum requirements 
 
 **Windows Desktop:**  
 
@@ -30,10 +30,10 @@ Microsoft .NET Framework 4.8
 64-bit operating system  
 [Microsoft Edge WebView2 Runtime](/kb/remote-desktop-manager/knowledge-base/download-microsoft-edge-chromium/)  
 
-## Remote Desktop Services and Thin Client Support 
+## Remote Desktop Services and thin client support 
 
 {{ en.RDM }} can be installed on [Remote Desktop Services](/rdm/windows/installation/client/terminal-services/) and thin client. 
 
-## Manual/Portable Deployment 
+## Manual/Portable deployment 
 
 Deploying manually using our zip file is documented as being a [Portable (USB)](/rdm/windows/installation/client/portable-usb/) deployment. In this case, the prerequisites will need to be handled manually as well. Please consult [Prerequisite Software](/rdm/windows/overview/system-requirements/prerequisite-software/) for details. 

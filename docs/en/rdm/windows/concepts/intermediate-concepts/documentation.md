@@ -7,4 +7,4 @@ The ***Documentation*** feature allows you to create pages to centralize and man
 
 ### Related topics  
 
-* [Documentation](https://docs.devolutions.net/rdm/windows/user-interface/content-area/dashboards/documentation/)  
+* [Documentation](/rdm/windows/user-interface/content-area/dashboards/documentation/)  

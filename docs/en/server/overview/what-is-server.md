@@ -28,7 +28,7 @@ There are two ways of using {{ en.DVLS }}:
 
 ## Web-Based {{ en.VLT }}  
 
-Web browser access and [{{ en.WBEX }}](/server/dwl/overview/) 
+Web browser access and [{{ en.WBEX }}](/server/workspace-browser-extension/overview/) 
 		</td>
 		<td>
 ![!!Application64x64](https://webdevolutions.azureedge.net/docs/common/Application64x64.png)  

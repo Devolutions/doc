@@ -38,6 +38,20 @@
     display: flex;
     align-items: center;
 
+    &.active {
+      .nav-item {
+        background-color: #f5f5f5;
+
+        + .expand-more {
+          background-color: #f5f5f5;
+
+          svg {
+            transform: rotate(0deg);
+          }
+        }
+      }
+    }
+
     .expand-more {
       align-self: stretch;
       align-items: center;
@@ -82,8 +96,8 @@
       }
 
       &.current {
-        background-color: #0068c3;
-        color: #ffffff;
+        background-color: #0068c3 !important;
+        color: #ffffff !important;
 
         + .expand-more {
           background-color: #0068c3;
@@ -99,12 +113,12 @@
     }
 
     &.current {
-      background-color: #0068c3;
-      color: #ffffff;
+      background-color: #0068c3 !important;
+      color: #ffffff !important;
 
       + .expand-more {
-        background-color: #0068c3;
-        color: #ffffff;
+        background-color: #0068c3 !important;
+        color: #ffffff !important;
       }
     }
 

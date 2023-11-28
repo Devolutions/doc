@@ -41,7 +41,7 @@ When creating your privileged account, you need to provide some information. See
 
 | Option                  | Description                                                                                                                          |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Password template mode  | Select the password template mode to use between: <br> <br> ***Inherited***: Inherits the password template specified in the parent folder. <br> ***Custom***: Select a custom password template previously created. <br> ***From Provider***: Uses the provider's password template.                                                                                 |
+| Password template mode  | Select the password template mode to use between: <br> <ul><li>***Inherited***: Inherits the password template specified in the parent folder. </li><li>***Custom***: Select a custom password template previously created.</li><li>***From Provider***: Uses the provider's password template.</li><ul> |
 
 ## Verifying your configuration
 

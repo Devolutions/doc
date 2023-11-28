@@ -7,4 +7,4 @@ eleventyComputed:
 
 ### Related topics  
 
-* [Attachments](https://docs.devolutions.net/rdm/windows/commands/view/layout/attachments/)
+* [Attachments](/rdm/windows/commands/view/layout/attachments/)

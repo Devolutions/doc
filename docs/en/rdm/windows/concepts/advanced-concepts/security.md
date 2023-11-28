@@ -7,7 +7,7 @@ eleventyComputed:
 
 All restrictions are predefined and enforced by a [role-based access control](/rdm/windows/concepts/advanced-concepts/permissions-rbac-roles/), providing granular protection access control.
 
-{{ en.RDM }} seamlessly integrates with [{{ en.DVLS }}](https://docs.devolutions.net/server/getting-started/), providing advanced [reporting](/rdm/windows/concepts/advanced-concepts/logs-reports-audits/), role-based permissions, and web-based access. {{ en.RDM }} also integrates with [{{ en.DHUB }}](https://docs.devolutions.net/hub/getting-started/create-hub/), which is a secure and cloud-based password manager for teams. 
+{{ en.RDM }} seamlessly integrates with [{{ en.DVLS }}](/server/getting-started/), providing advanced [reporting](/rdm/windows/concepts/advanced-concepts/logs-reports-audits/), role-based permissions, and web-based access. {{ en.RDM }} also integrates with [{{ en.DHUB }}](/hub/getting-started/create-hub/), which is a secure and cloud-based password manager for teams. 
 
 ### Related topics
 * [{{ en.RDM }} Security Dashboard](/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/)
