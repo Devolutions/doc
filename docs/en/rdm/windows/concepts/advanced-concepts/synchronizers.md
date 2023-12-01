@@ -7,6 +7,7 @@ One of the notably time-consuming activities in {{ en.RDM }} involves populating
 
 ### Related topics  
 * [Configure a Bitwarden entry in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/configure-bitwarden-entry/#synchronizer)  
+* [Configure a Lansweeper entry in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/lansweeper/)
 * [Embedded sessions](/rdm/windows/user-interface/content-area/embedded-sessions/)  
 
 ### See also  
