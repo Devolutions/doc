@@ -54,10 +54,10 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 1. ***Name*** your SSO configuration. This name will only appear in your {{ en.DHUB }} SSO settings menu. The default name is "Microsoft".  
 ![Configuration Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2219.png)  
 
-{% snippet icon.badgeCaution %} 
-Do not close this setup page, as the following steps will show you where to find the information to enter in its fields. 
-{% endsnippet %}
- 
+   {% snippet icon.badgeCaution %} 
+   Do not close this setup page, as the following steps will show you where to find the information to enter in its fields. 
+   {% endsnippet %}
+
 **In the Azure Portal**
 
 3. In a new web browser page, open your [Microsoft Azure Portal](https://azure.microsoft.com/) and sign in to your account. 
@@ -164,51 +164,7 @@ Do not close this setup page, as the following steps will show you where to find
 
 ## Provisioning configuration
 
-To synchronize your users and user groups from your providers to the hub, follow the next steps.  
-
-**In {{ en.DHUBB }}**  
-
-1. Go to ***Administration – Authentication – Provisioning*** and enable ***SCIM provisioning***.
-![Enable SCIM provisioning](https://webdevolutions.azureedge.net/docs/en/hub/Hub2332.png)  
-
-1. In the ***Provisioning synchronization setup***, copy the ***Tenant URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-![Copy the Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2227.png)  
-
-**In the Azure Portal**
-
-3. In the management of your Enterprise app, go to ***Provisioning*** and click on ***Get started***.  
-![Provisioning – Get started](https://webdevolutions.azureedge.net/docs/en/hub/Hub2163.png)  
-1. Set the ***Provisioning Mode*** to ***Automatic***, then paste the URL from step 3 in the ***Tenant URL*** field.  
-![Provisioning Mode and Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2166.png)  
-
-**In {{ en.DHUBB }}**  
-
-5. Copy the ***Secret Token*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-![Copy the Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2228.png)  
-
-**In the Azure Portal**
-
-6. Paste the token from the previous step in the ***Secret Token*** field.  
-![Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2164.png)  
-1. Test the connection to make sure that it works, then click ***Save***.  
-
-**In {{ en.DHUBB }}**  
-
-8. Click ***Activate Synchronization***.
-![Activate Synchronization](https://webdevolutions.azureedge.net/docs/en/hub/Hub2229.png)  
-1. When asked to confirm, click ***Start Synchronization***.
-![Start Synchronization](https://webdevolutions.azureedge.net/docs/en/hub/Hub2230.png)  
-
-You can now see an overview of your provisioning synchronization. Next to the ***Tenant URL***, you have the options to ***Regenerate a SCIM Token*** or ***Delete the SCIM Provisioning***.
-![Provisioning synchronization overview](https://webdevolutions.azureedge.net/docs/en/hub/Hub2231.png)  
-
-{% snippet icon.badgeCaution %} 
-The ***Secret Token*** will expire 365 days after its generation. When it does, the provisioning will stop working. You will then need to regenerate a new token in the ***Provisioning synchronization overview*** page seen above. We recommend that you set yourself a task reminder before the expiration date. 
-{% endsnippet %}
-
-## Adding a user/group 
-
-In this section, you will add your users and user groups to your Enterprise app.  
+To synchronize your users and user groups from your providers to the hub, first add your users and groups to your enterprise application.  
 
 {% snippet icon.badgeInfo %} 
 You need to have an Azure Enterprise license to be able to synchronize user groups. 
@@ -228,8 +184,51 @@ Nested groups are not supported, meaning that Azure provisioning will not synchr
 ![Users and groups selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2169.png)  
 1. Click ***Assign*** when your selection is complete.  
 ![Assign users and groups](https://webdevolutions.azureedge.net/docs/en/hub/Hub2170.png)  
+
+Now that your users and groups have been added, continue with the provisioning configuration.
+
+5. In the management of your Enterprise app, go to ***Provisioning*** and click on ***Get started***.  
+![Provisioning – Get started](https://webdevolutions.azureedge.net/docs/en/hub/Hub2163.png)  
+
+**In {{ en.DHUBB }}**  
+
+6. Go to ***Administration – Authentication – Provisioning*** and enable ***SCIM provisioning***.
+![Enable SCIM provisioning](https://webdevolutions.azureedge.net/docs/en/hub/Hub2332.png)  
+
+1. In the ***Provisioning synchronization setup***, copy the ***Tenant URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
+![Copy the Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2227.png)  
+
+**In the Azure Portal**
+
+8. Set the ***Provisioning Mode*** to ***Automatic***, then paste the URL from the previous step in the ***Tenant URL*** field.  
+![Provisioning Mode and Tenant URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2166.png)  
+
+**In {{ en.DHUBB }}**  
+
+9. Copy the ***Secret Token*** by clicking on the ***Copy to Clipboard*** icon next to it.  
+![Copy the Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2228.png)  
+
+**In the Azure Portal**
+
+10. Paste the token from the previous step in the ***Secret Token*** field.  
+![Secret Token](https://webdevolutions.azureedge.net/docs/en/hub/Hub2164.png)  
+1. Test the connection to make sure that it works, then click ***Save***.  
 1. Select ***Provisioning*** in the left side menu, then click ***Start provisioning***.  
 ![Start provisioning](https://webdevolutions.azureedge.net/docs/en/hub/Hub2171.png)  
+
+**In {{ en.DHUBB }}**  
+
+13. Click ***Activate Synchronization***.
+![Activate Synchronization](https://webdevolutions.azureedge.net/docs/en/hub/Hub2229.png)  
+1. When asked to confirm, click ***Start Synchronization***.
+![Start Synchronization](https://webdevolutions.azureedge.net/docs/en/hub/Hub2230.png)  
+
+You can now see an overview of your provisioning synchronization. Next to the ***Tenant URL***, you have the options to ***Regenerate a SCIM Token*** or ***Delete the SCIM Provisioning***.
+![Provisioning synchronization overview](https://webdevolutions.azureedge.net/docs/en/hub/Hub2231.png)  
+
+{% snippet icon.badgeCaution %} 
+The ***Secret Token*** will expire 365 days after its generation. When it does, the provisioning will stop working. You will then need to regenerate a new token in the ***Provisioning synchronization overview*** page seen above. We recommend that you set yourself a task reminder before the expiration date. 
+{% endsnippet %}
 
 ## Synchronization between Azure and {{ en.DHUB }} 
 
