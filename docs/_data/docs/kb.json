@@ -945,9 +945,6 @@
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/user-cannot-make-template/"
                 },
                 {
-                  "url": "/kb/remote-desktop-manager/troubleshooting-articles/version-schema-compatibility-rdm-server/"
-                },
-                {
                   "url": "/kb/remote-desktop-manager/troubleshooting-articles/vmware/"
                 },
                 {
@@ -1179,6 +1176,9 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/use-multiple-versions-third-party-app/"
+                },
+                {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/version-schema-compatibility-rdm-server/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/wake-on-lan/"
