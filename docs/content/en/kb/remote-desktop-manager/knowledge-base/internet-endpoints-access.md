@@ -17,17 +17,17 @@ As part of a standard visit to a website using the HTTPS protocol, the certifica
 
 ## Endpoints list
 
-| Description                    | URL                                                                            | Related setting(s) / action |
-| ------------------------------ | ------------------------------------------------------------------------------ | ------------------------- |
-| RDM update check               | https<area>://devolutions.net                                                  | File – Options – Application Startup – Enable check for updates |
-| License validation             | https<area>://api.devolutions.com/license/generate                             | Administration – Licenses |
-| RDM update - package download  | https<area>://cdn.devolutions.net                                              | User action in the upgrade available dialog |
-| {{ en.DC }} - our online services        | https<area>://cloud.devolutions.net                                  | File – {{ en.DA }} |
-| {{ en.DA }} Login              | https<area>://login.devolutions.com                                            | File – {{ en.DA }} |
-| Devolutions Store - Upgrade/Buy {{ en.RDM }}                 | https<area>://store.devolutions.net              | User action in the License expiry dialog |
-| Telemetry                      | https<area>://telemetry2.devolutions.net                                       | File – Options – Advanced – Disable telemetry |
-| Have I Been Pwned              | https<area>://api.pwnedpasswords.com                                           | File – Options – Advanced – Disable compromised password (pwned) check |
-| Yubikey                        | https<area>://api.yubico.com<br>https<area>://api2.yubico.com<br>https<area>://api3.yubico.com<br>https<area>://api4.yubico.com<br>https<area>://api5.yubico.com<br>    | File – Options – Security – Require Yubikey authentication |
-| Gravatar                       | https<area>://secure.gravatar.com                                              | File – Options – Advanced – Disable all Gravatar images |
-| Gravatar fallback              | https<area>://i2.wp.com                                                        | File – Options – Advanced – Disable all Gravatar images |
-| User images                    | https<area>://ui-avatars.com                                                   | Used when Gravatars are disabled |
+| Description                                  | URL                                                | Related setting(s) / action |
+| -------------------------------------------- | -------------------------------------------------- | ------------------------- |
+| RDM update check                             | https<area>://devolutions.net                      | File – Options – Application Startup – Enable check for updates |
+| License validation                           | https<area>://api.devolutions.com/license/generate | Administration – Licenses |
+| RDM update - package download                | https<area>://cdn.devolutions.net                  | User action in the upgrade available dialog |
+| {{ en.DC }} - our online services            | https<area>://cloud.devolutions.net                | File – {{ en.DA }} |
+| {{ en.DA }} Login                            | https<area>://login.devolutions.com                | File – {{ en.DA }} |
+| Devolutions Store - Upgrade/Buy {{ en.RDM }} | https<area>://store.devolutions.net                | User action in the License expiry dialog |
+| Telemetry                                    | https<area>://telemetry2.devolutions.net           | File – Options – Advanced – Disable telemetry |
+| Have I Been Pwned                            | https<area>://api.pwnedpasswords.com               | File – Options – Advanced – Disable compromised password (pwned) check |
+| Yubikey                                      | https<area>://api.yubico.com<br>https<area>://api2.yubico.com<br>https<area>://api3.yubico.com<br>https<area>://api4.yubico.com<br>https<area>://api5.yubico.com<br> | File – Options – Security – Require Yubikey authentication |
+| Gravatar                                     | https<area>://secure.gravatar.com                  | File – Options – Advanced – Disable all Gravatar images |
+| Gravatar fallback                            | https<area>://i2.wp.com                            | File – Options – Advanced – Disable all Gravatar images |
+| User images                                  | https<area>://ui-avatars.com                       | Used when Gravatars are disabled |
