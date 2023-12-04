@@ -15,10 +15,10 @@ Learn more about [CyberArk entries configuration](/kb/remote-desktop-manager/how
 
 Here is an example of how it works:  
 
-| SENT                                                               | RECEIVED BY API     |
-|--------------------------------------------------------------------|---------------------|
-| • SecurID code: 123<br>• Password: abc                             | • Received: 123abc  |
-| • SecurID code: 123<br>• Password: abc<br>• **_MFA delimiter_**: , | • Received: 123,abc |
+| SENT                                                         | RECEIVED BY API     |
+|--------------------------------------------------------------|---------------------|
+| SecurID code: 123<br>Password: abc                           | Received: 123abc  |
+| SecurID code: 123<br>Password: abc<br>**_MFA delimiter_**: , | Received: 123,abc |
 
 ## CyberArk Dashboard
 The entry can be found under ***New Entry – Session – Privileged Access Management***. The option is in the ***Common – General – General*** tab.
