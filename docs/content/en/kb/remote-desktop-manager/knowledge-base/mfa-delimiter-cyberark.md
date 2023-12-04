@@ -8,7 +8,7 @@ eleventyComputed:
 ---
 The ***MFA delimiter*** option exists in {{ en.RDM }} to mirror the one that already exists with CyberArk. The character that is entered in the delimiter field will be used to separate the values of the SecurID code and the password that are then sent to the API.  
 {% snippet icon.badgeInfo %}
-The ***MFA delimiter*** field is only available for the [***CyberArk Dashboard***](#cyberark-dashboard) entry and the [***CyberArk PVWA (Credentials)***](#cyberark-pvwa-(credentials)) entry.  
+The ***MFA delimiter*** field is only available for the [***CyberArk Dashboard***](#cyberark-dashboard) entry and the [***CyberArk PVWA (Credentials)***](#cyberark-pvwa-credentials) entry.  
 
 Learn more about [CyberArk entries configuration](/kb/remote-desktop-manager/how-to-articles/cyberark-dashboard-configuration/).
 {% endsnippet %}  
