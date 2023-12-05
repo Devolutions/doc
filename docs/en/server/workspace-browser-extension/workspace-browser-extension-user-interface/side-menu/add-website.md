@@ -8,167 +8,27 @@ When {{ en.DVLS }} is used as the data source, the entry configuration is done i
 
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2049.png)
 
-See the table below to learn about each field/setting from this view. 
-<table>
-	<tr>
-		<th>
-FIELD/SETTING 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Enter a name for your entry. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-URL 
-		</td>
-		<td>
-Enter the URL of the website’s login page. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Add Equivalent URL 
-		</td>
-		<td>
-Click on the Add Equivalent URL button next to the URL field to display an Equivalent URLs field (see below). You can add more than one Equivalent URLs field by clicking again on the button. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Equivalent URLs 
-		</td>
-		<td>
-Enter a URL that leads to the same page or is equivalent to the one in the URL field.  <br>
+See the table below to learn about each field/setting from this view.
 
-This field is only available after having clicked on the Add Equivalent URL button next to the URL field. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Delete 
-		</td>
-		<td>
-	
-Delete the Equivalent URLs field next to this button.  
-
-This button is only displayed next to the Equivalent URLs field after having clicked on the Add Equivalent URL button next to the URL field. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Credentials 
-		</td>
-		<td>
-In the drop-down list, select Custom, Linked ({{ en.VLT }}), Inherited, Linked ({{ en.UVLT }}), Find by name ({{ en.UVLT }}), or None to specify to the {{ en.WBEX }} how to retrieve your credentials. Some of these options give you access to additional settings. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Credential Selection 
-		</td>
-		<td>
-Select the credential entry that will be used to fetch the credentials for your new website entry. The {{ en.WBEX }} will only show entries of the Credential Entry type to be linked to your entry. The credential entry location must first be selected in the {{ en.VLT }} drop-down list.  
-
-It is also possible to select Prompt on connection to be asked each time you connect.  
-
-This field is only available if Linked ({{ en.VLT }}) or Linked ({{ en.UVLT }}) is selected in the Credentials drop-down list. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.UVLT }} search credentials 
-		</td>
-		<td>
-Enter the name of the credential in your {{ en.UVLT }} and the {{ en.WBEX }} will search in it for the specified name. If the field is left empty, when launched, a Credential list will open with all available credentials entries from your {{ en.UVLT }}.  
-
-This field is only available if Find by name ({{ en.UVLT }}) is selected in the Credentials drop-down list. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Username 
-		</td>
-		<td>
-Enter the username you use to log in to the website. 
-This field is only available if Custom is selected in the Credentials drop-down list. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password 
-		</td>
-		<td>
-Enter the password you use to log in to the website. The password will be hidden. Below the field is a strength indicator for your password.  
-
-This field is only available if Custom is selected in the Credentials drop-down list. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Reveal/Hide password 
-		</td>
-		<td>
-Reveal or hide the password that was entered. This field is only available next to the Password field if Custom is selected in the Credentials drop-down list. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password Generator 
-		</td>
-		<td>
-Open the Password Generator window, which allows you to create a strong and secure password adapted to your needs and to website requirements. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description 
-		</td>
-		<td>
-Enter a description for your new entry. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.VLT }} 
-		</td>
-		<td>
-Choose to store your new website entry in your {{ en.UVLT }} or in the currently selected {{ en.VLT }} in {{ en.DVLS }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Destination folder 
-		</td>
-		<td>
-Enter the name of the folder in which your new entry will be stored in {{ en.DVLS }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Save 
-		</td>
-		<td>
-Save the settings of your new website entry and create the entry. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Cancel 
-		</td>
-		<td>
-Cancel the creation of a new website entry and clear all unsaved changes to settings. 
-		</td>
-	</tr>
-</table>
+| FIELD/SETTING        | DESCRIPTION                                                                                                                                              |
+|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name                 | Enter a name for your entry. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified.                                      |
+| URL                  | Enter the URL of the website’s login page. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified.                        |
+| Add Equivalent URL   | Click on the ***Add Equivalent URL*** button next to the URL field to display an ***Equivalent URLs*** field (see below). You can add more than one ***Equivalent URLs*** field by clicking again on the button.                                                                                                                      |
+| Equivalent URLs      | Enter a URL that leads to the same page or is equivalent to the one in the ***URL*** field.<br><br>This field is only available after having clicked on the ***Add Equivalent URL*** button next to the ***URL*** field.                                                                                                                  |
+| Delete               | Delete the ***Equivalent URLs*** field next to this button.<br><br>This button is only displayed next to the ***Equivalent URLs*** field after having clicked on the ***Add Equivalent URL*** button next to the ***URL*** field.                                                                                                       |
+| Credentials          | In the drop-down list, select ***Custom***, ***Linked ({{ en.VLT }})***, ***Inherited***, ***Linked ({{ en.UVLT }})***, ***Find by name ({{ en.UVLT }})***, or ***None*** to specify to the {{ en.WBEX }} how to retrieve your credentials. Some of these options give you access to additional settings.                                |
+| Credential Selection | Select the credential entry that will be used to fetch the credentials for your new website entry. The {{ en.WBEX }} will only show entries of the ***Credential Entry*** type to be linked to your entry. The credential entry location must first be selected in the {{ en.VLT }} drop-down list. It is also possible to select ***Prompt on connection*** to be asked each time you connect.                                                                                                                     |
+| {{ en.UVLT }} search credentials | Enter the name of the credential in your {{ en.UVLT }} and the {{ en.WBEX }} will search in it for the specified name. If the field is left empty, when launched, a credential list will open with all available credentials entries from your {{ en.UVLT }}.                                                                 |
+| Username             | Enter the username you use to log in to the website.<br><br>This field is only available if ***Custom*** is selected in the ***Credentials*** drop-down list.                                                                                                                                                                             |
+| Password             | Enter the password you use to log in to the website. The password will be hidden. Below the field is a strength indicator for your password.<br><br>This field is only available if ***Custom*** is selected in the ***Credentials*** drop-down list.                                                                                      |
+| Reveal/Hide password | Reveal or hide the password that was entered. This field is only available next to the ***Password*** field if ***Custom*** is selected in the ***Credentials*** drop-down list.                                                                                                                                                 |
+| Password Generator   | Open the ***Password Generator*** window, which allows you to create a strong and secure password adapted to your needs and to website requirements.     |
+| Description          | Enter a description for your new entry.                                                                                                                  |
+| {{ en.VLT }}         | Choose to store your new website entry in your {{ en.UVLT }} or in the currently selected {{ en.VLT }} in {{ en.DVLS }}.                                 |
+| Destination folder   | Enter the name of the folder in which your new entry will be stored in {{ en.DVLS }}.                                                                    |
+| Save                 | Save the settings of your new website entry and create the entry.                                                                                        |
+| Cancel               | Cancel the creation of a new website entry and clear all unsaved changes to settings.                                                                    |
 
 {% snippet icon.badgeInfo %} 
 Follow our step-by-step guide on how to [add a website entry with the {{ en.WBEX }}](/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/). 
