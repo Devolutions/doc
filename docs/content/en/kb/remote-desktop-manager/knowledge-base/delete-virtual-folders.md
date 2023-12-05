@@ -1,14 +1,12 @@
 ---
 eleventyComputed:
-  title: Delete virtual folders in {{ en.RDM }}
-  description: This topic describes how to delete virtual folders in {{ en.RDM }}.
+  title: Convert virtual folders in {{ en.RDM }}
+  description: This topic describes how to convert virtual folders in {{ en.RDM }}.
 ---
-## Manual method 
+## Manual method
+Deleting virtual folders can be done by manually editing each virtual folder, saving the changes and converting them into real folders. However, this process becomes time-consuming when dealing with a significant number of virtual folders, as it requires converting each one manually.
 
-Deleting virtual folders can be done by manually editing each virtual folder, saving the changes and converting them into real folders. This conversion allows you to delete them. However, this process becomes time-consuming when dealing with a significant number of virtual folders, as it requires repeating the steps for each one.
-
-## PowerShell method 
-
+## PowerShell method
 {% snippet icon.badgeWarning %}
 This method deletes all virtual folders in the data source {{ en.VLT }}s.
 {% endsnippet %}
@@ -17,16 +15,16 @@ This method deletes all virtual folders in the data source {{ en.VLT }}s.
 Delete duplicate folders before running the PowerShell script from the new entry.
 {% endsnippet %}
 
-1. Launch {{ en.RDM }} as an administrator by right-clicking on the application and choosing ***Run as administrator***.  
-1. Select the data source {{ en.VLT }}s from which you want to delete all virtual folders in the ***{{ en.NPANE }}***.  
-1. Add a new entry.  
+1. Launch {{ en.RDM }} as an administrator by right-clicking on the application and choosing ***Run as administrator***.
+1. Select the data source {{ en.VLT }}s from which you want to convert all virtual folders in the ***{{ en.NPANE }}***.
+1. Add a new entry.
 1. Go to ***Session – PowerShell*** to create a PowerShell session entry.  
-![PowerShell session entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6014.png)  
-1. Name the entry and choose the folder in which you want to create it.  
+![PowerShell session entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6014.png)
+1. Name the entry and choose the folder in which you want to create it.
 1. Set the entry to ***Embedded Script***.  
- ![Embedded Script](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6020.png)    
-1.  Click on ***Edit embedded script***.  
- ![Edit embedded script](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6019.png)   
+![Embedded Script](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6020.png)
+1. Click on ***Edit embedded script***.  
+![Edit embedded script](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6019.png)
 1. Add the following script:  
 
 ```powershell
@@ -162,8 +160,9 @@ foreach ($vault in $vaults)
 $afterCreatingGroups = Get-Date
 Write-Host "Time taken to convert virtual folders: $(($afterCreatingGroups).Subtract($beforeAllGroups).Seconds) second(s)"
 ```
-9. Click ***OK*** to apply the script.  
-1. Click ***OK*** the save the entry settings and close the window.  
+9. Click ***OK*** to apply the script.
+1. Click ***OK*** the save the entry settings and close the window.
 1. Click on ***Open Session*** to run the entry.  
-![Open Session](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6018.png)  
-The script will now delete all virtual folders in the data source {{ en.VLT }}s.
+![Open Session](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6018.png)
+
+The script will now convert all virtual folders in the data source {{ en.VLT }}s.
