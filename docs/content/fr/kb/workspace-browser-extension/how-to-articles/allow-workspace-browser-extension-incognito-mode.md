@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Allow incognito mode with the {{ en.WBEX }}
-  description: You need to allow the {{ en.WBEX }} in Chrome to use it in Incognito mode, because the browser by default disables extensions.
+  title: Autoriser {{ fr.DWL }} en mode navigation privée
+  description: Il faut autoriser l’extension {{ fr.DWL }} dans Chrome pour l’utiliser en mode navigation privée. Cette étape est nécessaire puisque les extensions sont désactivées par défaut.
 ---
-You need to allow the {{ en.WBEX }} in Chrome to use it in Incognito mode, because the browser by default disables extensions.
+Il faut autoriser l’extension {{ fr.DWL }} dans Chrome pour l’utiliser en mode navigation privée. Cette étape est nécessaire puisque les extensions sont désactivées par défaut.  
 
-1. You can either copy this URL in your Chrome address bar: chrome://extensions/?id=neimonjjffhehnojilepgfejkneaidmo or you can click on the {{ en.WBEX }} icon in the context menu and click ***Manage extensions***.  
-![!!KB4804](https://webdevolutions.azureedge.net/docs/en/kb/KB4804.png)
+1. Pour ce faire, copier l’URL suivante dans la barre d’adresse de Chrome : chrome://extensions/?id=neimonjjffhehnojilepgfejkneaidmo ou cliquer sur l’icône de l’extension {{ fr.DWL }} dans le menu contextuel, puis cliquer sur ***Gérer les extensions***.  
+![!!KB4009](https://webdevolutions.azureedge.net/docs/fr/kb/KB4009.png) 
+1. Cliquer sur ***Détails*** dans l’encadré de l’extension {{ fr.DWL }}, puis sur ***Autoriser en navigation privée***.  
+![!!KB4010](https://webdevolutions.azureedge.net/docs/fr/kb/KB4010.png) 
 
-1. Click ***Details***, under the {{ en.WBEX }}, and enable ***Allow in incognito***.  
-![!!KB4737](https://webdevolutions.azureedge.net/docs/en/kb/KB4737.png)

@@ -1,68 +1,59 @@
 ---
 eleventyComputed:
-  title: URLs comparing types
-  keywords:
-  - matching
+  title: Types de correspondance des URL
 ---
-Each URL in a ***Website*** entry has a comparing type associated to it. The comparing type determines if the {{ en.WBEX }} should offer the entry as an available entry to perform autofill.
-
-{% snippet icon.badgeCaution %}
-***Host*** is the default comparing type on all platforms.
+Chaque URL, dans une entrée de ***Site Web***, est associée à un type de correspondance. Le type de correspondance sert à déterminer si {{ fr.DWL }} doit considérer l’entrée valide pour la saisie automatique. 
+{% snippet icon.badgeCaution %} 
+L'***Hôte*** est le type correspondant par défaut sur toutes les plateformes. 
 {% endsnippet %}
+ 
+## Commencer par 
+Lorsque le type de correspondance est réglé sur ***Commencer par***, il est nécessaire que l’URL du navigateur commence avec la valeur d’entrée de l’URL.  
 
-## Base domain
+Exemple :  
 
-Comparing type set to ***Base domain*** compares the URLs with the second-level domain plus the top-level domain. The URL https<area>://www.devolutions.net would have the base domain value devolutions.net.
-Example:
-* URL entry value: https<area>://www.devolutions.net
-* Comparing: https<area>://devolutions.net, https<area>://forum.devolutions.net, https<area>://exemple.forum.devolutions.net, https<area>://forum.devolutions.net/#HUB
-* Not comparing: https<area>://devolutions.com, https<area>://google.com
+* Valeur d’entrée URL : https<area>://sub.domain.com/path/ 
+* Type correspondant : https<area>://sub.domain.com/path/, https<area>://sub.domain.com/path/page.html 
+* Non correspondant : https<area>://sub.domain.com/path (barre oblique manquante), https<area>://sub.domain.com, https<area>://sub.domain.com:4000/path/page.html (a un port) 
+## Comparer le Regex avec l'url complète 
+Lorsque le type de correspondance est réglé sur ***Comparer le regex avec l'URL complète***, l’URL du navigateur est comparée de sorte qu’il corresponde à une expression normale.  
 
-## Compare Regex with url domain
+Exemple :  
 
-Comparing type set to ***Compare regex with URL domain*** compares only the current browser URL domain to match with a regular expression.
+* Valeur d’entrée URL : *?\.?devolutions\.(com|net) 
+* Type correspondant : https<area>://devolutions.com, https<area>://forum.devolutions.net, https<area>://login.devolutions.com, https<area>://server.devolutions.net 
+* Non correspondant : http<area>://devolutions.ca, https<area>://sysadminotaur.com/ 
+## Comparer le Regex avec le domaine de l'url 
+Lorsque le type de correspondance est réglé sur ***Comparer le regex avec le domaine de l’URL***, l’URL du navigateur est comparée de sorte qu’il corresponde seulement au domaine avec une expression normale. 
+## Domaine de base 
+Lorsque le type de correspondance est réglé sur ***Domaine de base***, les URL sont comparées aux domaines de premier et de deuxième niveau. L’URL https<area>://www.devolutions.net a donc la valeur de domaine de base devolutions<area>.net.  
 
-## Compare Regex with full url
+Exemple :  
 
-Comparing type set to ***Compare regex with full URL*** compares the current browser URL to match with a regular expression.
-Example:
+* Valeur d’entrée URL : https<area>://www.devolutions.net 
+* Type correspondant : https<area>://devolutions.net, https<area>://forum.devolutions.net, https<area>://exemple.forum.devolutions.net, https<area>://forum.devolutions.net/#HUB 
+* Non correspondant : https<area>://devolutions.com, https<area>://google.com 
+## Exact 
+Lorsque le type de correspondance est réglé sur ***Exact***, il est nécessaire que l’URL du navigateur corresponde exactement à la valeur d’entrée URL.  
 
-* URL entry value: *?\.?devolutions\.(com|net)
-* Comparing: https<area>://devolutions.com, https<area>://forum.devolutions.net, https<area>://login.devolutions.com, https<area>://server.devolutions.net
-* Not comparing: http<area>://devolutions.ca, https<area>://sysadminotaur.com/
+Exemple :  
 
-## Exact
+* Valeur d’entrée URL : https<area>://www.domain.com/index.html 
+* Type correspondant : https<area>://www.domain.com/index.html 
+* Non correspondant : https<area>://www.domain.com http<area>://www.domain.com/page.html (pas https<area>) https<area>://www.domain.com/index.html?query=abc 
+## Hôte 
+Lorsque le type de correspondance est réglé sur ***Hôte***, les URL sont comparées au nom d’hôte ainsi qu’à un port facultatif. L’URL https<area>://sub1.domain.net:5000 a donc la valeur de domaine de base sub1<area>.domain.net:5000.  
 
-Comparing type set to ***Exact*** requires that the current browser URL exactly match the URL entry value.
-Example:
+Exemple :  
 
-* URL entry value: https<area>://www.domain.com/index.html
-* Comparing: https<area>://www.domain.com/index.html
-* Not comparing: https<area>://www.domain.com http<area>://www.domain.com/page.html (not https) https<area>://www.domain.com/index.html?query=abc
+* Valeur d’entrée URL : https<area>://sub1.domain.net:5000 
+* Type correspondant : https<area>://sub1.domain.net:5000 https<area>://sub1.domain.net:5000/index.html 
+* Non correspondant : https<area>://domain.net, https<area>://sub2.domain.net, https<area>://domain.net, https<area>://sub1.domain.com:6000 
+## Jamais 
+Lorsque le type de correspondance est réglé sur ***Jamais***, la valeur d’entrée URL ne sera jamais associée.  
 
-## Host
+Exemple :  
 
-Comparing type set to ***Host*** compares the URLs with the hostname plus an optional port. The URL https<area>://sub1.domain.net:5000 would have the host value sub1<area>.domain.net:5000.
-Example:
-
-* URL entry value: https<area>://sub1.domain.net:5000
-* Comparing: https<area>://sub1.domain.net:5000, https<area>://sub1.domain.net:5000/index.html
-* Not comparing: https<area>://domain.net, https<area>://sub2.domain.net, https<area>://domain.net, https<area>://sub1.domain.com:6000
-
-## Never
-
-Comparing type set to ***Never*** will never match the URL entry value.
-Example:
-
-* URL entry value: https<area>://www.devolutions.net
-* Comparing: none
-* Not comparing: https<area>://www.devolutions.net, https<area>://devolutions.net, https<area>://forum.devolutions.net/#HUB
-
-## Starts with
-
-Comparing type set to ***Starts with*** requires that the current browser URL must start with the URL entry value.
-Example:
-
-* URI starts with value: https<area>://sub.domain.com/path/
-* Comparing: https<area>://sub.domain.com/path/, https<area>://sub.domain.com/path/page.html
-* Not comparing: https<area>://sub.domain.com/path (missing trailing slash), https<area>://sub.domain.com, https<area>://sub.domain.com:4000/path/page.html (has a port)
+* Valeur d’entrée URL : https<area>://www.devolutions.net 
+* Type correspondant : none 
+* Non correspondant : https<area>://www.devolutions.net,https<area>://devolutions.net, https<area>://forum.devolutions.net/#HUB 

@@ -1,14 +1,13 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }}'
-  order: 90
-  description: You can consult topics for the following categories about the {{ en.WBEX }}':' How-to articles, Troubleshooting articles and Knowledge Base
+  title: '{{ fr.DWL }}'
+  description: Vous pouvez accéder aux catégories suivantes concernant {{ fr.DWL }} ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
   status: Topic available in German language
 ---
-![!!{{ en.WBEX }} logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
+![!!{{ fr.DWL }} logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
 
-You can consult topics for the following categories about the {{ en.WBEX }}:
+Vous pouvez accéder aux catégories suivantes concernant {{ fr.DWL }} :
 
-* How-to articles
-* Troubleshooting articles
-* Knowledge Base
+* Guides d'utilisation
+* Articles de dépannage
+* Base de connaissances

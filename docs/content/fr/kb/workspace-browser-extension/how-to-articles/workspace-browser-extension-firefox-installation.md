@@ -1,18 +1,17 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }} installation on Firefox'
-  description: Follow the steps to complete the installation of the {{ en.WBEX }} in the Firefox web browser. 
+  title: Installation de l'extension {{ fr.DWL }} sur Firefox
+  description: Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Firefox. 
   keywords:
-  - Browser
+  - Navigateur
   - Firefox
 ---
-Follow the steps below to complete the installation of the {{ en.WBEX }} in the Firefox web browser.
-
-1. Open a Firefox window.
-1. Download the extension from the [{{ en.WBEX }}](https://devolutions.net/workspace) website page.
-1. Click ***Continue to Installation*** in the confirmation dialog.  
-![Continue to installation](https://webdevolutions.azureedge.net/docs/en/kb/KB4812.png)  
-1. Click ***Add***, when prompted to add the {{ en.WBEX }}.  
-![Add the extension](https://webdevolutions.azureedge.net/docs/en/kb/KB4813.png)  
-1. Once installed, access the extension by clicking the {{ en.WBEX }} button icon in the top-right corner of Firefox.  
-![{{ en.WBEX }}](https://webdevolutions.azureedge.net/docs/en/kb/KB4814.png)
+Suivre les étapes ci-dessous pour compléter l'installation de {{ fr.DWL }} dans le navigateur Firefox. 
+1. Ouvrir une fenêtre Firefox. 
+2. Télécharger l'extension [{{ fr.DWL }}](https://devolutions.net/fr/web-login) à partir de notre page Web. 
+3. Cliquer sur ***Continuer l'installation*** dans la fenêtre de confirmation. 
+![Continuer l'installation](https://webdevolutions.azureedge.net/docs/fr/kb/KB4038.png) 
+1. Cliquer sur ***Ajouter***. 
+![Ajouter l'extension](https://webdevolutions.azureedge.net/docs/fr/kb/KB4039.png) 
+1. Une fois installée, accéder à l'extension en cliquant sur l'icône dans le coin supérieur droit du navigateur Firefox.  
+![Extension {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/kb/KB4040.png) 

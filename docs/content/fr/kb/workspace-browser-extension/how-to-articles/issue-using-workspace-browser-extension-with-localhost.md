@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Issue using the {{ en.WBEX }} with localhost with HTTPS
+  title: Problème lors de l'utilisation de {{ fr.DWL }} avec Localhost et HTTPS
 ---
-The {{ en.WBEX }} will probably never work with HTTPS for a few reasons:
+Il est peu probable que {{ fr.DWL }} fonctionne un jour avec HTTPS. Voici quelques-unes des raisons :  
+1. Il est nécessaire de générer un certificat, ce qui entraîne de nombreux problèmes de communication avec les [Certificats pour localhost](https://letsencrypt.org/fr/docs/certificates-for-localhost/) des applications natives. 
+1. Même si un certificat est généré, une erreur de type ::ERR_CERT_AUTHORITY_INVALID devrait apparaître puisque le certificat est auto signé et que Chrome localhost bloque de telles requêtes.   
+1. Il sera nécessaire d’ ***Autoriser les certificats invalides pour les ressources chargées à partir de localhost*** dans Chrome, mais cette méthode n’est pas recommandé chrome://flags/#allow-insecure-localhost.  
 
-1. Need to generate a certificate which will cause a lot of issues when communicating with native apps [Certificates for localhost](https://letsencrypt.org/docs/certificates-for-localhost/)
-2. Even if you could generate a certificate, you will get net::ERR_CERT_AUTHORITY_INVALID because the certificate will be self-signed and on localhost Chrome will block the requests.
-3. You will need to check the flag ***Allow invalid certificates for resources loaded from localhost*** in Chrome which is not recommended at chrome://flags/#allow-insecure-localhost
+La seule vraie manière de contourner ce problème est d’utiliser la messagerie native : [DWL via la messagerie native](/fr/kb/devolutions-web-login/how-to-articles/dwl-via-native-messaging/). 
 
-So the only workaround is to use the native messaging: [{{ en.WBEX }} via Native Messaging](/kb/workspace-browser-extension/how-to-articles/workspace-browser-extension-via-native-messaging/)

@@ -1,18 +1,18 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }} installation on Microsoft Edge'
-  description: Follow the steps to complete the installation of the {{ en.WBEX }} in the Edge web browser. 
+  title: Installation de l'extension {{ fr.DWL }} sur Edge
+  description: Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Edge. 
   keywords:
-  - Browser
+  - Navigateur
   - Edge
 ---
-Here are the steps to install the {{ en.WBEX }} on Microsoft Edge.
+Voici les étapes pour installer {{ fr.DWL }} sur Microsoft Edge. 
+1. Ouvrir une fenêtre dans Microsoft Edge. 
+2. Télécharger le module d'extension sur la page Web de [{{ fr.DWL }}](https://devolutions.net/fr/web-login). 
+3. Cliquer sur ***Obtenir***. 
+![Bouton Obtenir](https://webdevolutions.azureedge.net/docs/fr/kb/KB4029.png) 
+1. Cliquer ***Ajouter une extension*** à Microsoft Edge. 
+![Ajouter une extension](https://webdevolutions.azureedge.net/docs/fr/kb/KB4028.png) 
 
-1. Open a Microsoft Edge window. 
-1. Download the extension from the [{{ en.WBEX }}](https://devolutions.net/workspace) website page.
-1. Click ***Get***.  
-![Get Button](https://webdevolutions.azureedge.net/docs/en/kb/KB4809.png)  
-1. Click ***Add extension*** to Microsoft Edge.  
-![Add extension](https://webdevolutions.azureedge.net/docs/en/kb/KB4810.png)  
+Le module d'extension est maintenant installé. Il est accessible en cliquant sur l'icône dans le coin supérieur droit du navigateur Microsoft Edge. 
 
-The extension is installed. Access it by clicking the {{ en.WBEX }} button icon in the top-right corner of the Microsoft Edge web browser.

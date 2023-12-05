@@ -1,19 +1,19 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }} installation on Opera'
-  description: Follow the steps to complete the installation of the {{ en.WBEX }} in the Opera web browser. 
+  title: Installation de l'extension {{ fr.DWL }} sur Opera
+  description: Suivre les étapes ci-dessous afin d’installer {{ fr.DWL }} dans le navigateur Opera. 
   keywords:
-  - Browser
+  - Navigateur
   - Opera
 ---
-Follow the steps below to complete the installation of the {{ en.WBEX }} in the Opera web browser.
+Suivre les étapes ci-dessous afin d'installer {{ fr.DWL }} dans le navigateur Opera. 
+1. Ouvrir une fenêtre Opera. 
+1. Télécharger le module d'extension sur la page Web de [{{ fr.DWL }}](https://devolutions.net/fr/web-login). 
+1. Cliquer sur ***Aller aux extensions*** du panneau information ou cliquer sur le bouton Extension. 
+![Aller aux extensions](https://webdevolutions.azureedge.net/docs/fr/kb/KB4031.png) 
+1. Cliquer sur ***Installer***, puis sur ***Oui, installer*** dans la fenêtre contextuelle. 
+![Bouton d'installation de l'extension](https://webdevolutions.azureedge.net/docs/fr/kb/KB4032.png) 
+1. Cliquer sur le bouton ***Extensions*** du navigateur et épingler le module d’extension {{ fr.DWL }}. 
+![Épingle d'extension](https://webdevolutions.azureedge.net/docs/fr/kb/KB4033.png) 
+1. {{ fr.DWL }} est maintenant accessible en cliquant sur l'icône dans le coin supérieur droit de la fenêtre Opera. 
 
-1. Open Opera.
-1. Download the extension of the [{{ en.WBEX }}](https://devolutions.net/workspace) from our website page.
-1. Click on ***Go to Extension*** from the information panel at the top or click on the Extension button.  
-![Go to Extensions](https://webdevolutions.azureedge.net/docs/en/kb/KB4815.png)  
-1. Click ***Install*** and the ***Yes, install*** pop up.  
-![Extension Installation Button](https://webdevolutions.azureedge.net/docs/en/kb/KB4816.png)  
-1. Click on the ***Extensions*** button of the browser and ***Pin*** the {{ en.WBEX }}.  
-![Extension Pin](https://webdevolutions.azureedge.net/docs/en/kb/KB4817.png)  
-1. Access the extension by clicking the {{ en.WBEX }} button icon in the top-right corner of Opera.
