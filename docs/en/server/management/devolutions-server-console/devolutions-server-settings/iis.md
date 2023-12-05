@@ -7,95 +7,26 @@ The ***IIS*** settings are part of the prerequisite at the installation level. M
 
 ![Server Settings - IIS](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8010.png) 
 
-## Settings 
-### General 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Website 
-		</td>
-		<td>
-Name of the IIS website. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-IIS Diagnostic 
-		</td>
-		<td>
-Opens the IIS Diagnostic dialog that list {{ en.DVLS }} prerequisites. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Web application name 
-		</td>
-		<td>
-Name of the IIS Application Pool. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Access URI 
-		</td>
-		<td>
-Web URI used to reach {{ en.DVLS }} web page. 
-		</td>
-	</tr>
-</table>
+## Settings
 
-### Installation destination 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Installation Folder 
-		</td>
-		<td>
-Folder where the {{ en.DVLS }} web application files are located. 
-		</td>
-	</tr>
-</table>
+### General
 
-### Security 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Disable HTTPS 
-		</td>
-		<td>
-Disable the use of the HTTPS for HTTP. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable connection string encryption 
-		</td>
-		<td>
-Activate this option if you wish to add an extra layer of security to your configuration by encrypting your file. 
-		</td>
-	</tr>
-</table>
+| Option               | Description                                                            |
+|----------------------|------------------------------------------------------------------------|
+| Website              | Name of the IIS website.                                               |
+| IIS Diagnostic       | Opens the IIS Diagnostic dialog that list {{ en.DVLS }} prerequisites. |
+| Web application name | Name of the IIS Application Pool.                                      |
+| Access URI           | Web URI used to reach {{ en.DVLS }} web page.                          |
+
+### Installation destination
+
+| Option              | Description                                                       |
+|---------------------|-------------------------------------------------------------------|
+| Installation Folder | Folder where the {{ en.DVLS }} web application files are located. |
+
+### Security
+
+| Option                               | Description                                                                                                       |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| Disable HTTPS                        | Disable the use of the HTTPS for HTTP.                                                                            |
+| Disable connection string encryption | Activate this option if you wish to add an extra layer of security to your configuration by encrypting your file. |
