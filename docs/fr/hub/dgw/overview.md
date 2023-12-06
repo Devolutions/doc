@@ -17,4 +17,4 @@ Les principaux avantages de {{ fr.DGW }} sont les suivants :
 * {{ fr.DGW }} peut être utilisé avec les types d'entrées de connexion supportés (RDP, SSH, VNC, ARD, SCP, SFTP, PowerShell, Telnet, sites Web) dans {{ fr.RDM }} et les sources de données supportées ({{ fr.DVLS }}, {{ fr.DHUBB }}).  
 {% snippet icon.badgeHelp%}
 Apprenez-en davantage sur [{{ fr.DGW }}](https://devolutions.net/fr/gateway/) ou demandez un [essai gratuit de 30 jours](https://devolutions.net/fr/gateway/trial/).
-{% endsnippet %}  
+{% endsnippet %}
