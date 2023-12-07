@@ -3,13 +3,13 @@ eleventyComputed:
   title: Radius
   description: To enable this MFA method for your users, go to Administration – Server Settings – Multi-factor and check the Radius MFA option.
   keywords:
-  - SMS
+  - Radius
   - MFA
   - multi-factor authentication
 ---
 To enable this MFA method for your users, go to ***Administration – Server Settings – Multi-factor*** and check the ***Radius*** MFA option. A ***Configure*** button will appear next to the option.
 
-![Administration – Server Settings – Multi-factor – Supported MFA – Radius](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2096.png)
+![Administration – Server Settings – Multi-factor – Supported MFA – Radius](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2099.png)
 
 {% snippet icon.badgeInfo %} 
 See [Multi-factor](/server/web-interface/administration/configuration/server-settings/security/two-factor/) for more information on MFA configuration.
@@ -19,7 +19,7 @@ See in the tables below what each setting does in each tab.
 
 ## General
 
-![General Radius settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2097.png)
+![General Radius settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2098.png)
 
 | Option | Description |
 |---|---|
@@ -38,7 +38,7 @@ See in the tables below what each setting does in each tab.
 
 ## Failover
 
-![Failover Radius settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2098.png)
+![Failover Radius settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2097.png)
 
 | Option | Description |
 |---|---|
