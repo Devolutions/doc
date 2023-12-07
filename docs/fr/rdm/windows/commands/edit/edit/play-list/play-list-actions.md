@@ -48,7 +48,7 @@ La Liste d'exécution est enregistrée dans la base de données. Elle peut être
 	</tr>
 	<tr>
 		<td>
-{{ fr.UVLT:blob-dance: }} 
+{{ fr.UVLT_MAJ }} 
 		</td>
 		<td>
 La Liste d'exécution est enregistrée dans votre {{ fr.UVLT }} et n'est accessible qu'à l'utilisateur. Celles-ci peuvent être lancées via le Gestionnaire de listes d'exécution ou en utilisant l'entrée elle-même. 
