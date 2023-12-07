@@ -36,8 +36,8 @@ Using the tabs of the ***Side menu***, you can access various {{ en.WBEX }} feat
 Each tab will display a different view in the ***Content Area***. The tabs available when using the {{ en.WBEX }} with {{ en.DHUBB }} are:  
 
 * the ***Matching*** tab, where you find available credentials for a specific website. 
-* the ***{{ en.VLT }}s*** tab,  where you can find all the {{ en.DHUBB }} entries you synchronized, divided into your different {{ en.VLT }}s and folders. 
-* the ***{{ en.UVLT }}*** tab, where you can find the entries you stored in your {{ en.DHUBB }} ***{{ en.UVLT }}***, divided into your different folders. 
+* the ***{{ en.VLT_MAJ }}s*** tab,  where you can find all the {{ en.DHUBB }} entries you synchronized, divided into your different {{ en.VLT }}s and folders. 
+* the ***{{ en.UVLT_MAJ }}*** tab, where you can find the entries you stored in your {{ en.DHUBB }} ***{{ en.UVLT }}***, divided into your different folders. 
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  
 
 See [Side menu](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/) for more information on each of the tabs.

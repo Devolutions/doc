@@ -3,8 +3,8 @@ eleventyComputed:
   title: System permissions
 ---
 The ***System Permissions*** are used to provide administrative rights to specific users or user groups. They can be added at the ***System*** or ***{{ en.VLT }}s*** levels.  
-![System Permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub3043.png)  
-![{{ en.VLT }}s Permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub2137.png)  
+![System permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub3043.png)  
+![{{ en.VLT_MAJ }}s permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub2137.png)  
 
 To set the permissions for users and/or user groups, use the Edit button at the top right.  
 

@@ -312,7 +312,7 @@ SHORTCUT
 	</tr>
 	<tr>
 		<td>
-Import in Vault (.rdm)... 
+Import in {{ en.VLT }} (.rdm)... 
 		</td>
 		<td>
 <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd>
@@ -682,7 +682,7 @@ Top Pane (Ribbon/Menubar)
 	</tr>
 	<tr>
 		<td>
-{{ en.VLT }} 
+{{ en.VLT_MAJ }} 
 		</td>
 		<td>
 <kbd>F6</kbd>

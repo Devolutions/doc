@@ -16,5 +16,5 @@ You must enable to offline mode on multiple levels; the Data Source, the Users, 
 ![!!KB4801](https://webdevolutions.azureedge.net/docs/en/kb/KB4801.png)
 1. In the ***System Settings*** in ***Administration - System Settings - Offline - Offline mode and Expiration***.  
 ![!!KB4802](https://webdevolutions.azureedge.net/docs/en/kb/KB4802.png)
-1. For each ***{{ en.VLT }}*** in ***Administration - {{ en.VLT }} Settings - Security Settings - Allow offline***.  
+1. For each ***{{ en.VLT }}*** in ***Administration - {{ en.VLT_MAJ }} Settings - Security Settings - Allow offline***.  
 ![!!KB4803](https://webdevolutions.azureedge.net/docs/en/kb/KB4803.png)

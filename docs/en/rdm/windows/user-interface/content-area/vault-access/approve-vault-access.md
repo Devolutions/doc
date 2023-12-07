@@ -4,20 +4,20 @@ eleventyComputed:
   order: 20
   description: In {{ en.RDM }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 ---
-In {{ en.RDM }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request. {{ en.VLT }} owners are configured in the ***{{ en.VLT }} Management*** when creating or editing a {{ en.VLT }}.
+In {{ en.RDM }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request. {{ en.VLT_MAJ }} owners are configured in the ***{{ en.VLT_MAJ }} Management*** when creating or editing a {{ en.VLT }}.
 
 ## View pending {{ en.VLT }} access requests
 
-To view all your past and current requests, you must use the following ***Pending {{ en.VLT }} Access Requests*** box to open the ***{{ en.VLT }} Access Requests*** window.  
+To view all your past and current requests, you must use the following ***Pending {{ en.VLT }} Access Requests*** box to open the ***{{ en.VLT_MAJ }} Access Requests*** window.  
 ![Dashboard – Pending {{ en.VLT }} access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2157.png)  
-In the ***{{ en.VLT }} Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***{{ en.VLT }}***, ***Username***, ***Data source user***, ***Request date***, ***Authorizer username***, or ***Authorizer data source user***.  
+In the ***{{ en.VLT_MAJ }} Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***{{ en.VLT_MAJ }}***, ***Username***, ***Data source user***, ***Request date***, ***Authorizer username***, or ***Authorizer data source user***.  
 ![Show {{ en.VLT }} access requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2158.png)  
 
 It is also possible to display only certain requests with the ***Status*** drop-down menu or with the filter bar at the top.
 
 Using the ***View messages*** button, you can view the ***Request message*** and the ***Authorization message*** of a specific request.
 ![Request Messages](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2076.png)  
-Finally, clicking on the ***Approve*** and ***Deny*** buttons opens the ***{{ en.VLT }} Access Request Response*** window, which is described next.
+Finally, clicking on the ***Approve*** and ***Deny*** buttons opens the ***{{ en.VLT_MAJ }} Access Request Response*** window, which is described next.
 
 ## Approve/Deny {{ en.VLT }} access requests
 
@@ -28,13 +28,13 @@ Depending on the data source, administrators / {{ en.VLT }} owners may receive a
 * With a SQL data source, no email is sent.
 {% endsnippet %}
 
-To respond to a request, you need to open the ***{{ en.VLT }} Access Request Response*** window. There are two ways to access it.
+To respond to a request, you need to open the ***{{ en.VLT_MAJ }} Access Request Response*** window. There are two ways to access it.
 
-The first option is to use the ***Pending {{ en.VLT }} Access Requests*** box (see image below) in your ***Dashboard***. Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***{{ en.VLT }} Access Request Response*** window.
+The first option is to use the ***Pending {{ en.VLT }} Access Requests*** box (see image below) in your ***Dashboard***. Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***{{ en.VLT_MAJ }} Access Request Response*** window.
 
 ![Pending Access Requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2159.png)
 
-The second option requires you to go through the other ***Pending {{ en.VLT }} Access Requests*** box described in the previous section. Whatever way you choose to access the response window, the result will be the same.
+The second option requires you to go through the other ***Pending {{ en.VLT_MAJ }} Access Requests*** box described in the previous section. Whatever way you choose to access the response window, the result will be the same.
 
 ![{{ en.VLT }} Access Request Response](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2160.png)
 

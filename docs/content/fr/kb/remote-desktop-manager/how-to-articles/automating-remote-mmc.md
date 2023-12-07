@@ -26,7 +26,7 @@ You can configure a MMC snap-in console to run on any of your servers. The snap-
    | Use session credentials     | Use the same credentials as the session.          |
    | Prompt for credentials      | Prompts for the credentials on use.               |
    | Custom                      | Enter a custom username, domain, and password.    |
-   | Linked ({{ en.VLT }}        | Specify a set of credentials from a specific {{ en.VLT }}. |
+   | Linked ({{ en.VLT }})       | Specify a set of credentials from a specific {{ en.VLT }}. |
    | My personal credentials     | Use [***My Personal Credentials***](/rdm/windows/commands/file/my-account-settings/my-personal-credentials/) set in ***File – My account settings***. |
    | My privileged account       | Use ***My Privileged Account*** set in ***File – My account settings***. |
 

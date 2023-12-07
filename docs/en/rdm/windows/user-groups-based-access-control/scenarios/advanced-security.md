@@ -53,9 +53,9 @@ Now, everything is ready to grant or deny access to the user groups.
 * The HelpDesk has the permission to view and open entries in the client's groups/folders only and is not able to edit them.
 * The Consultants have the permission to view and open entries in the Montreal folder only but is not able to edit it or its child items.
 
-**{{ en.VLT }} Settings**
+**{{ en.VLT_MAJ }} Settings**
 As mentioned above, ALL {{ en.VLT }} settings folder permissions are set to ***Never***. This denies the default access to other users.  
-![{{ en.VLT }} Settings – Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6089.png)
+![{{ en.VLT_MAJ }} Settings – Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6089.png)
 
 **Windjammer Downhill Pro, and Telemark, the {{ en.VLT }} level groups/folders**
 The permission to view the Windjammer folder is set for the ServiceDesk only since we want them to be able to use the child entries. We do not want the ServiceDesk to add, edit or delete anything. We leave the ***Add***, ***Edit***, and ***Delete*** permissions to ***Inherited*** so only the administrators can perform these action on the Windjammer folder and its child items.  

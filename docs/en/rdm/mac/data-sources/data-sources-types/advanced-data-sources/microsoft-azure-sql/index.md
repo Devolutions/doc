@@ -180,7 +180,7 @@ Use the data source in offline mode when the ping method does not respond.
 	</tr>
 </table>
 
-### {{ en.UVLT }} 
+### {{ en.UVLT_MAJ }} 
 
 ![!!RDMMac4030](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4030.png) 
 

@@ -13,7 +13,7 @@ The following file types are currently supported for global and custom images:
 * .svg 
 * .ico
 
-1. Go to ***Administration*** – ***System Vault*** – ***Images*** in the ribbon of {{ en.RDM }}.
+1. Go to ***Administration*** – ***System {{ en.VLT }}*** – ***Images*** in the ribbon of {{ en.RDM }}.
 ![Administration – Images](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6148.png)
 1. The ***Entry Image Management*** window open.
 1. Click ***Add (+)*** to choose an image.

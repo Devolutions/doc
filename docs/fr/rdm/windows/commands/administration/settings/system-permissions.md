@@ -209,7 +209,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à accéder à la gestion des 
 	</tr>
 	<tr>
 		<td>
-{{ fr.VLT }}s 
+{{ fr.VLT_MAJ }}s 
 		</td>
 		<td>
 Autoriser les utilisateurs/groupes d'utilisateurs à gérer les {{ fr.VLT }}s. 

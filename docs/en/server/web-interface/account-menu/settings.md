@@ -22,8 +22,8 @@ Landing page
 		<td>
 Choose the home page after sign on: <br>
 
-* {{ en.VLT }} 
-* {{ en.UVLT }} 
+* {{ en.VLT_MAJ }} 
+* {{ en.UVLT_MAJ }} 
 * Reports 
 * Administration 
 * Privileged Access 

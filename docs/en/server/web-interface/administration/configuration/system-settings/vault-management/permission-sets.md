@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
   title: Permission sets
-  description: Permissions can be grouped in Permission Sets. It is possible to create custom sets manually or use the default sets. They are managed via the {{ en.DVLS }} web interface in Administration – System Settings – {{ en.VLT }} Management – Permission Sets.
+  description: Permissions can be grouped in Permission Sets. It is possible to create custom sets manually or use the default sets. They are managed via the {{ en.DVLS }} web interface in Administration – System Settings – {{ en.VLT_MAJ }} Management – Permission Sets.
 ---
-Permissions can be grouped in ***Permission Sets***. It is possible to create custom sets manually or use the default sets. They are managed via the {{ en.DVLS }} web interface in ***Administration – System Settings – {{ en.VLT }} Management – Permission Sets***.
+Permissions can be grouped in ***Permission Sets***. It is possible to create custom sets manually or use the default sets. They are managed via the {{ en.DVLS }} web interface in ***Administration – System Settings – {{ en.VLT_MAJ }} Management – Permission Sets***.
 
-![Administration – System Settings – {{ en.VLT }} Management – Permission Sets](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2091.png)
+![Administration – System Settings – {{ en.VLT_MAJ }} Management – Permission Sets](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2091.png)
 
 ## Default permission sets
 
@@ -18,7 +18,7 @@ Three permission sets are created by default: ***Reader***, ***Operator***, and 
 
 Create a new set that suits your specific needs:
 
-1. In ***Administration – System Settings – {{ en.VLT }} Management – Permission Sets***, click on the ***Add*** button.
+1. In ***Administration – System Settings – {{ en.VLT_MAJ }} Management – Permission Sets***, click on the ***Add*** button.
 
    ![Add a permission set](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2092.png)
 

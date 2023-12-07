@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Clean Up Deleted History
+  title: Clean up deleted history
   status: Topic available in German language
 ---
-The ***Clean Up Deleted History*** option permanently deletes the history from the ***Deleted Entries*** window, making it impossible to restore deleted entries unless you made a backup. The entry history can still be found under ***Reports*** – ***Activity Logs***.
+The ***Clean Up Deleted History*** option permanently deletes the history from the ***Deleted Entries*** window, making it impossible to restore deleted entries unless you made a backup. The entry history can still be found under ***Reports – Activity Logs***.
 
 {% snippet icon.badgeInfo %}
 This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
@@ -17,7 +17,7 @@ You must be an administrator of the data source to perform this action.
 1. Go to the ***Administration*** tab in the ribbon.
 1. Click on ***Clean Up*** and then ***Clean Up Deleted History***.
 1. Select prior to which date the ***Deleted Entries*** history will be deleted.
-1. Select from which vault the ***Deleted Entries*** history will be deleted.
+1. Select from which {{ en.VLT }} the ***Deleted Entries*** history will be deleted.
 1. Click ***OK***.  
 ![Clean Up Deleted History](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0003.png)  
    {% snippet icon.badgeWarning %}

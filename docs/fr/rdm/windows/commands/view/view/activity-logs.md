@@ -49,7 +49,7 @@ Indique la connexion utilisée pour ouvrir votre entrée.
 	</tr>
 	<tr>
 		<td>
-{{ fr.VLT }} 
+{{ fr.VLT_MAJ }} 
 		</td>
 		<td>
 Indique le {{ fr.VLT }} dans lequel l'action a été effectuée. 

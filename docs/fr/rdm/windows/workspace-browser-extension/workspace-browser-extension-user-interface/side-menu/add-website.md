@@ -77,7 +77,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 	</tr>
 	<tr>
 		<td>
-{{ fr.VLT }} 
+{{ fr.VLT_MAJ }} 
 		</td>
 		<td>
 Choisir de stocker votre nouvelle entrée de site Web dans votre ***{{ fr.UVLT }}*** ou dans le ***{{ fr.VLT }}*** actuellement sélectionné dans {{ fr.RDM }}. 

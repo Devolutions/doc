@@ -64,7 +64,7 @@ STRATEGY
 One set of credentials is used by all of the staff, be it for the whole system or for a branch in your tree view (customer, department, etc.). 
 		</td>
 		<td>
-Set the credentials on the [{{ en.VLT }} Settings](/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/). All children use inherited credentials. 
+Set the credentials on the [{{ en.VLT_MAJ }} settings](/rdm/windows/commands/administration/settings/vault-settings/default-security-entries/). All children use inherited credentials. 
 		</td>
 	</tr>
 	<tr>

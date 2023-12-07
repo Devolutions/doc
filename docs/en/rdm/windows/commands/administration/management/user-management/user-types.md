@@ -1,54 +1,18 @@
 ---
 eleventyComputed:
   title: User types
+  description: When creating users in {{ en.RDM }}, four types of user are available. Basic rights are granted to the created users depending on their type.
 ---
 When creating users in {{ en.RDM }}, four types of user are available. Basic rights are granted to the created users depending on their type.  
 ![User Management - User Type](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3423.png) 
 
-<table>
-	<tr>
-		<th>
+| TYPE            | DESCRIPTION                                                                                                 |
+|-----------------|-------------------------------------------------------------------------------------------------------------|
+| Administrator   | Grant all rights and permissions to the user.                                                               |
+| User            | Grant all the basic rights to the user (Add, Edit, Delete). For more information, please consult [Rights](#rights) below. |
+| Restricted user | Personalize the rights to grant to the user.                                                                |
+| Read only user  | Grant only the view access to the user.                                                                     |
 
-TYPE 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Administrator 
-		</td>
-		<td>
-Grant all rights and permissions to the user. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-User 
-		</td>
-		<td>
-Grant all the basic rights to the user (Add, Edit, Delete). 
-For more information, please consult [Rights](#rights) below. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Restricted user 
-		</td>
-		<td>
-Personalize the rights to grant to the user. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Read only user 
-		</td>
-		<td>
-Grant only the view access to the user. 
-		</td>
-	</tr>
-</table>
 
 ### Rights 
 

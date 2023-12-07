@@ -3,7 +3,7 @@ eleventyComputed:
   title: Applications
 ---
 Permet d'assigner des clés d'applications au {{ fr.VLT }}.  
-![{{ fr.VLT }}s - Applications](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8071.png) 
+![{{ fr.VLT_MAJ }}s - Applications](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8071.png) 
 
 <table>
 	<tr>

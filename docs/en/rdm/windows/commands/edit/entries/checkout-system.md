@@ -15,7 +15,7 @@ This feature is only available when using [SQL Server](/rdm/windows/data-sources
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Administrators can set ***Automatic check in after*** a number of minutes in ***Administration – System Settings – {{ en.VLT }}***. 
+Administrators can set ***Automatic check in after*** a number of minutes in ***Administration – System Settings – {{ en.VLT_MAJ }}***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

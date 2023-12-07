@@ -1,23 +1,23 @@
 ---
 eleventyComputed:
-  title: Approve vault access in {{ en.DVLS }}
+  title: Approve {{ en.VLT }} access in {{ en.DVLS }}
   order: 20
-  description: In {{ en.DVLS }}, users can request access to a public vault. An administrator / vault owner then has to approve the request.
+  description: In {{ en.DVLS }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 ---
-In {{ en.DVLS }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request. {{ en.VLT }} owners are configured in ***Administration – Security Management – {{ en.VLT }}s*** when creating or editing a {{ en.VLT }}, under the ***{{ en.VLT }} Owners*** section.
+In {{ en.DVLS }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request. {{ en.VLT_MAJ }} owners are configured in ***Administration – Security Management – {{ en.VLT_MAJ }}s*** when creating or editing a {{ en.VLT }}, under the ***{{ en.VLT }} owners*** section.
 
 ## View pending {{ en.VLT }} access requests
 
 To view the number of pending requests, you can look at the following ***Pending {{ en.VLT }} Access Requests*** box in the top of the ***Dashboard***.  
 ![Dashboard – Pending {{ en.VLT }} Access Requests](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0028.png)  
 To accept the pending requests, scroll down to the ***Pending {{ en.VLT }} Access Requests*** section.
-Using the ***Messages*** button, you can view the ***{{ en.VLT }} Access Request*** message of a specific request.  
+Using the ***Messages*** button, you can view the ***{{ en.VLT_MAJ }} Access Request*** message of a specific request.  
 
 {% snippet icon.badgeInfo %}
 If there is a {{ en.VLT }} owner for the requested {{ en.VLT }}, the administrator will not receive a ***Message***.
 {% endsnippet %}  
 
-Finally, clicking on the ***Approve*** and ***Deny*** buttons opens the ***{{ en.VLT }} Access Request Response*** window, which is described next.
+Finally, clicking on the ***Approve*** and ***Deny*** buttons opens the ***{{ en.VLT_MAJ }} Access Request Response*** window, which is described next.
 
 ## Approve/Deny {{ en.VLT }} access requests
 
@@ -28,9 +28,9 @@ Depending on the data source, administrators / {{ en.VLT }} owners may receive a
 * With a SQL data source, no email is sent.
 {% endsnippet %}
 
-To respond to a request, you can use the ***Pending {{ en.VLT }} Access Requests*** box or open the ***{{ en.VLT }} Access Request Response*** window.
+To respond to a request, you can use the ***Pending {{ en.VLT }} Access Requests*** box or open the ***{{ en.VLT_MAJ }} Access Request Response*** window.
 
-The first option is to use the ***Pending {{ en.VLT }} Access Requests*** section (see image below) in your ***Dashboard***, it can be found by scrolling down. Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***{{ en.VLT }} Access Request Response*** window.  
+The first option is to use the ***Pending {{ en.VLT }} Access Requests*** section (see image below) in your ***Dashboard***, it can be found by scrolling down. Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***{{ en.VLT_MAJ }} Access Request Response*** window.  
 ![Pending {{ en.VLT }} Access Requests](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0029.png)  
 
 The second option requires you to go through the other ***Messages***. Whatever way you choose to access the response window, the result will be the same.  

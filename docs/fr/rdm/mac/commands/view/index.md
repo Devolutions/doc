@@ -19,7 +19,7 @@ DESCRIPTION
 	<tr>
 		<td>
 
-[{{ fr.VLT }}](/fr/rdm/mac/commands/view/vaults/) 
+[{{ fr.VLT_MAJ }}](/fr/rdm/mac/commands/view/vaults/) 
 		</td>
 		<td>
 Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le {{ fr.VLT }} actuel. 

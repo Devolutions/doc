@@ -49,10 +49,10 @@ Maintenant que vous avez accès à {{ fr.DHUBB }}, vous pouvez continuer à la s
 
 ## Premiers pas dans {{ fr.DHUBB }} 
 
-Après vous être connecté, {{ fr.DHUBB }} s'ouvre sur l'onglet ***{{ fr.VLT }}***. Cette vue permet d'interagir avec les {{ fr.VLT }}s et les entrées auxquels vous avez accès. Vous pouvez changer de {{ fr.VLT }} en utilisant le menu de sélection des {{ fr.VLT }}s en haut.  
-![Onglet {{ fr.VLT }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2001.png) 
-Vous pouvez aussi accéder à votre ***{{ fr.UVLT }}***, qui est centré sur l'utilisateur et est utilisé pour stocker des informations telles que des identifiants de comptes personnels, en cliquant sur l'onglet ***{{ fr.UVLT }}*** dans le menu latéral.  
-![Onglet {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2002.png) 
+Après vous être connecté, {{ fr.DHUBB }} s'ouvre sur l'onglet ***{{ fr.VLT_MAJ }}***. Cette vue permet d'interagir avec les {{ fr.VLT }}s et les entrées auxquels vous avez accès. Vous pouvez changer de {{ fr.VLT }} en utilisant le menu de sélection des {{ fr.VLT }}s en haut.  
+![Onglet {{ fr.VLT_MAJ }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2001.png) 
+Vous pouvez aussi accéder à votre ***{{ fr.UVLT }}***, qui est centré sur l'utilisateur et est utilisé pour stocker des informations telles que des identifiants de comptes personnels, en cliquant sur l'onglet ***{{ fr.UVLT_MAJ }}*** dans le menu latéral.  
+![Onglet {{ fr.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2002.png) 
 
 ### Créer des entrées 
 

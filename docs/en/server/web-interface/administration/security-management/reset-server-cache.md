@@ -21,7 +21,7 @@ Description
 		<td>
 Entries<br>
 User Groups<br>
-{{ en.VLT }}s<br>
+{{ en.VLT_MAJ }}s<br>
 Users<br>
 		</td>
 		<td>

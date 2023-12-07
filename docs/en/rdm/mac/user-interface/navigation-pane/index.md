@@ -8,7 +8,7 @@ The ***{{ en.NPANE }}*** is one of the main components of the {{ en.RDM }} user 
 
 At the bottom of the ***{{ en.NPANE }}***, there are tabs which open different views in your ***{{ en.NPANE }}***. To learn more about each tab, follow the links below:  
 
-* [{{ en.VLT }}](/rdm/mac/commands/view/vaults/) 
+* [{{ en.VLT_MAJ }}](/rdm/mac/commands/view/vaults/) 
 * [My {{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) 
 * [Opened Sessions](/rdm/mac/commands/view/opened-sessions/) 
 * [Favorite](/rdm/mac/user-interface/navigation-pane/favorite-entries/) 

@@ -22,7 +22,7 @@ Note that this task can be done whenever you have the opportunity, a group at a 
 
 If you have {{ en.DHUB }} ***Custom User Groups***, ensure that you have an Azure ***User Group*** that contains the same users.
 
-Once the Azure groups correspond to the custom groups, you can start to replace those custom groups with the Azure groups wherever you assign them in ***System Permissions***, ***{{ en.VLT }} Permissions***, and ***Folder/Entry Permissions***.
+Once the Azure groups correspond to the custom groups, you can start to replace those custom groups with the Azure groups wherever you assign them in ***System Permissions***, ***{{ en.VLT_MAJ }} Permissions***, and ***Folder/Entry Permissions***.
 
 {% snippet icon.badgeHelp %}
 Contact our support team at [service@devolutions.net](mailto:service@devolutions.net) if you need help.

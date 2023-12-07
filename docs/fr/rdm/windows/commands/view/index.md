@@ -26,7 +26,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-{{ fr.VLT }} 
+{{ fr.VLT_MAJ }} 
 		</td>
 		<td>
 Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le [{{ fr.VLT }}](/fr/rdm/windows/commands/view/panels/vault/) actuel. 

@@ -10,7 +10,7 @@ For an overview of the CSV file format and the impact of decisions made in this 
  
 ## Steps 
 
-1. In the ***{{ en.NPANE }}***, select the ***{{ en.VLT }}*** in which to import the sessions. 
+1. In the ***{{ en.NPANE }}***, select the {{ en.VLT }} in which to import the sessions. 
 1. Go to ***File – Import – Import Generic Csv Wizard***. 
 1. Select the CSV file to import or paste the CSV text, then click ***Next***. 
 1. Validate the settings, then click ***Finish***. 

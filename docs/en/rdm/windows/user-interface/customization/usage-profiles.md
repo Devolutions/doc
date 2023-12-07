@@ -192,11 +192,11 @@ Template
 	</tr>
 </table>
 
-### {{ en.VLT }} Dashboard widgets
+### {{ en.VLT_MAJ }} Dashboard widgets
 
-![{{ en.VLT }} Dashboard widgets](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2170.png) 
+![{{ en.VLT_MAJ }} Dashboard widgets](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2170.png) 
 
-This table shows the different widgets that can be displayed in your ***{{ en.VLT }} Dashboard*** depending on your usage profile.  
+This table shows the different widgets that can be displayed in your ***{{ en.VLT_MAJ }} Dashboard*** depending on your usage profile.  
 
 <table>
 	<tr>
@@ -323,7 +323,7 @@ Upcoming tasks
 	</tr>
 	<tr>
 		<td>
-{{ en.VLT }}s
+{{ en.VLT_MAJ }}s
 		</td>
 		<td>
  

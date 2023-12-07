@@ -36,8 +36,8 @@ En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverse
 Chaque onglet affiche une vue différente dans la ***Zone de contenu***. Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.DHUBB }} sont :  
 
 * l'onglet ***Corresponsant***, où vous pouvez trouver les identifiants disponibles pour un site Web spécifique; 
-* l'onglet ***{{ fr.VLT }}s***, où vous pouvez trouver toutes les entrées de {{ fr.DHUBB }} que vous avez synchronisées, réparties dans vos différents {{ fr.VLT }}s et dossiers; 
-* l'onglet ***{{ fr.UVLT }}***, où vous pouvez trouver les entrées que vous avez stockées dans votre ***{{ fr.UVLT }}*** de {{ fr.DHUBB }}, réparties dans vos différents dossiers; 
+* l'onglet ***{{ fr.VLT_MAJ }}s***, où vous pouvez trouver toutes les entrées de {{ fr.DHUBB }} que vous avez synchronisées, réparties dans vos différents {{ fr.VLT }}s et dossiers; 
+* l'onglet ***{{ fr.UVLT_MAJ }}***, où vous pouvez trouver les entrées que vous avez stockées dans votre ***{{ fr.UVLT }}*** de {{ fr.DHUBB }}, réparties dans vos différents dossiers; 
 * l'onglet ***Générateur de mots de passe***, où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte.  
 
 Consultez [Menu latéral](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 

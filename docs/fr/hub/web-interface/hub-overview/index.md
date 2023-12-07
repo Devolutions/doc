@@ -20,7 +20,7 @@ Menu de la barre latérale
 		</td>
 		<td>
 
-Cliquer sur l'icône de menu pour naviguer dans les sections ***Recherche***, ***{{ fr.VLT }}***, ***{{ fr.UVLT }}***, ***Rapports***, ***Administration*** et ***Outils***. 
+Cliquer sur l'icône de menu pour naviguer dans les sections ***Recherche***, ***{{ fr.VLT_MAJ }}***, ***{{ fr.UVLT_MAJ }}***, ***Rapports***, ***Administration*** et ***Outils***. 
 		</td>
 	</tr>
 	<tr>

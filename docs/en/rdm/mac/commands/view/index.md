@@ -19,7 +19,7 @@ DESCRIPTION
 	<tr>
 		<td>
 
-[{{ en.VLT }}](/rdm/mac/commands/view/vaults/) 
+[{{ en.VLT_MAJ }}](/rdm/mac/commands/view/vaults/) 
 		</td>
 		<td>
 Access the view mode of the ***{{ en.NPANE }}*** for the current {{ en.VLT }}. 
@@ -27,7 +27,7 @@ Access the view mode of the ***{{ en.NPANE }}*** for the current {{ en.VLT }}.
 	</tr>
 	<tr>
 		<td>
-[{{ en.UVLT }}](/rdm/mac/commands/view/vaults/) 
+[{{ en.UVLT_MAJ }}](/rdm/mac/commands/view/vaults/) 
 		</td>
 		<td>
 Display your ***{{ en.UVLT }}*** in the ***{{ en.NPANE }}***. 

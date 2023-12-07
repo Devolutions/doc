@@ -143,7 +143,7 @@ Choisir entre Utilisateur et Utilisateur lecture seulement. Lorsque cette option
 	</tr>
 	<tr>
 		<td>
-{{ fr.VLT }} par défaut 
+{{ fr.VLT_MAJ }} par défaut 
 		</td>
 		<td>
 Donner l'accès à ce {{ fr.VLT }} à l'utilisateur. 

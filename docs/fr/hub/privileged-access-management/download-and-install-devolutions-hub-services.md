@@ -36,7 +36,7 @@ Vous devez octroyer l'accès au {{ fr.VLT }} en fonction du ***Système*** ou du
 ![Administration – Configuration et sécurité – Permissions du système](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6049.png)
 1. Aller dans le formulaire de modification.
 ![Formulaire de modification](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6050.png)
-1. Sélectionner ***{{ fr.VLT }}s***.
+1. Sélectionner ***{{ fr.VLT_MAJ }}s***.
 1. Choisir votre ***Utilisateur d'application*** dans le menu déroulant sous la section ***Collaborateurs***.
 ![Section Collaborateurs](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6055.png)
 
@@ -44,8 +44,8 @@ Vous devez octroyer l'accès au {{ fr.VLT }} en fonction du ***Système*** ou du
 
 ### Pour un {{ fr.VLT }} PAM
 
-1. Dans {{ fr.DHUB }}, aller dans ***Administration*** – ***Gestion*** – ***{{ fr.VLT }}s***.
-![Administration – Gestion – {{ fr.VLT }}s](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6053.png)
+1. Dans {{ fr.DHUB }}, aller dans ***Administration*** – ***Gestion*** – ***{{ fr.VLT_MAJ }}s***.
+![Administration – Gestion – {{ fr.VLT_MAJ }}s](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6053.png)
 1. Selectionner ***Ajout d'un {{ fr.VLT }} PAM*** dans le menu pour créer votre {{ fr.VLT }} PAM.
 ![Administration – Configuration et sécurité – Permissions du système – Ajout d'un {{ fr.VLT }} PAM](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6059.png)
 1. Sélectionner l'onglet ***Modifier*** dans la section ***Permissions***.

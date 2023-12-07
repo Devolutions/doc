@@ -12,7 +12,7 @@ The ***Batch Grant Access*** feature allows you to assign permissions and permis
 ![Properties – Security – Permissions](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2075.png)
 
 It can also be accessed via ***Administration***:
-1. In the {{ en.DVLS }} web interface, go to ***Administration – System Settings – {{ en.VLT }} Management***.
+1. In the {{ en.DVLS }} web interface, go to ***Administration – System Settings – {{ en.VLT_MAJ }} Management***.
 1. Under ***Default Permissions***, select ***Custom*** in the ***Permission*** drop-down menu.
 ![Custom Default Permissions](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2071.png)
 1. Click on ***Grant Access***.
@@ -33,7 +33,7 @@ In the permission settings, you can set how the permissions are applied to the u
 Next, you can select the permissions that are affected by your previous choices. You can either display ***All Permissions*** or previously created (or default) ***Permission Sets***.
 
 {% snippet icon.badgeHelp %} 
-Permission sets are created and configured in ***Administration – System Settings – {{ en.VLT }} Management – Permission Sets***. For more information, see [Permission Sets](/server/web-interface/administration/configuration/system-settings/vault-management/permission-sets/).
+Permission sets are created and configured in ***Administration – System Settings – {{ en.VLT_MAJ }} Management – Permission Sets***. For more information, see [Permission Sets](/server/web-interface/administration/configuration/system-settings/vault-management/permission-sets/).
 {% endsnippet %}
 
 ![Permission Settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2073.png)

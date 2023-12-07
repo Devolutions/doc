@@ -15,11 +15,11 @@ Die erste Methode wird direkt im <a href="#exportierenimportieren-uber-remote-de
 ## Exportieren/Importieren über {{ de.RDM }}
 1. Wählen sie im {{ de.RDM }} im ***{{ de.NPANE }}*** Ihre Datenquelle aus.
    {% snippet icon.badgeNotice %}
-   Um den gesamten {{ de.VLT }} zu exportieren, gehen Sie zu ***Datei*** – ***Exportieren*** – ***{{ de.VLT }} exportieren (.rdm)*** und fahren Sie mit <a href="#step4">Schritt 4</a> fort.
+   Um den gesamten {{ de.VLT }} zu exportieren, gehen Sie zu ***Datei – Exportieren – {{ de.VLT }} exportieren (.rdm)*** und fahren Sie mit <a href="#step4">Schritt 4</a> fort.
    {% endsnippet %}  
 
 1. Wählen Sie die Einträge und/oder Ordner aus, die Sie exportieren möchten. Verwenden Sie die Tastenkombination <kbd>Strg</kbd>+Klick, um mehrere Einträge auf einmal auszuwählen.
-1. Klicken Sie mit der rechten Maustaste auf die Auswahl. Wählen Sie im Kontextmenü ***Exportieren*** – ***Auswahl exportieren (.rdm)***.  
+1. Klicken Sie mit der rechten Maustaste auf die Auswahl. Wählen Sie im Kontextmenü ***Exportieren – Auswahl exportieren (.rdm)***.  
 ![Auswahl exportieren (.rdm)](https://webdevolutions.azureedge.net/docs/de/kb/KB4998.png)
 1. <a name="step4"></a>Markieren Sie im Fenster ***Einträge exportieren*** die Optionen, die Sie aktivieren möchten. Für eine typische Migration sollten Sie die Optionen ***Anmeldeinformationen einbeziehen, Anhänge und Dokumente einbeziehen*** und ***Mit Hauptschlüssel verschlüsseln*** wählen.
    {% snippet icon.badgeInfo %}
@@ -33,7 +33,7 @@ Die erste Methode wird direkt im <a href="#exportierenimportieren-uber-remote-de
 1. Klicken Sie auf ***OK***.
 1. Speichern Sie die **.rdm**-Datei auf Ihrem Computer.
 1. Wählen Sie im ***{{ de.NPANE }}*** die Datenquelle und den {{ de.VLT }} aus, in den die Einträge importiert werden sollen.
-1. Klicken Sie mit der rechten Maustaste auf den Ordner und wählen ***Sie Importieren*** – ***Importieren (.rdm)***.
+1. Klicken Sie mit der rechten Maustaste auf den Ordner und wählen ***Sie Importieren – Importieren (.rdm)***.
 ![Importieren (.rdm)](https://webdevolutions.azureedge.net/docs/de/kb/KB4999.png)
    {% snippet icon.badgeNotice %}
    Über ***Datei*** – ***Importieren*** – ***Importieren (.rdm)*** können Sie den gesamten {{ de.VLT }} importieren.

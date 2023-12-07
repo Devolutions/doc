@@ -31,4 +31,4 @@ Clicking on the ***Generate report*** button opens a window that allows you to g
 The log contains all CRUD operations (add, edit, and delete), displayed passwords, used credentials, etc. It is possible to right-click on an entry to access more options.  
 ![Logs](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2030.png) 
 
-The information about entries is the same as in [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/), except that ***Folder***, ***Connection***, ***{{ en.VLT }}***, and ***Connection Log ID*** are not available in ***Logs*** since the information is specific to an entry only. For a description of the available information, see ***Activity Logs***.
+The information about entries is the same as in [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/), except that ***Folder***, ***Connection***, ***{{ en.VLT_MAJ }}***, and ***Connection Log ID*** are not available in ***Logs*** since the information is specific to an entry only. For a description of the available information, see ***Activity Logs***.

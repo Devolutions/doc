@@ -92,7 +92,7 @@ Le bouton ***Affichage*** vous donne un aperçu de l'entrée ainsi que des fonct
 
 * ***Modifier/Supprimer*** l'entrée ou afficher son mot de passe en passant par le bouton des points de suspension verticaux en haut à droite.  
 * Marquer votre entrée comme favorite en cliquant sur l'icône ***Ajouter aux favoris*** à côté du nom de l'entrée. L'entrée s'affichera alors dans l'onglet ***Favoris***.  
-* Visualiser l'emplacement de votre entrée dans les sections ***{{ fr.VLT }}*** et ***Dossier*** (si elle est située dans un dossier).  
+* Visualiser l'emplacement de votre entrée dans les sections ***{{ fr.VLT_MAJ }}*** et ***Dossier*** (si elle est située dans un dossier).  
 * Visualiser et accéder à l'***URL*** associée à l'entrée.  
 
 Les autres informations et fonctionnalités dépendront de ce que vous avez fourni lors de la création de l'entrée (nom d'utilisateur, mot de passe, étiquettes, description, etc.).  
