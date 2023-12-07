@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Security providers
+  description: The Security Provider allows for encrypting the data source content. To access the security provider, navigate to Administration – Security Provider. 
 ---
 {% youtube 'phg2jL9fsIQ' %}  
 
@@ -43,40 +44,12 @@ Applying a new security provider does process the whole database, therefore we a
 1. Select a security type from the drop-down list.  
 ![Security Type](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10285.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Default 
-		</td>
-		<td>
-This is the default security mode. The XML is not encrypted by default. Please note that the passwords are always encrypted. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Shared passphrase 
-		</td>
-		<td>
-Set up a shared passphrase for the Security Provider. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Certificate 
-		</td>
-		<td>
-Set up a Certificate for the Security Provider. 
-		</td>
-	</tr>
-</table>
+| OPTION           | DESCRIPTION                                                                                                             |
+|------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Default          | This is the default security mode. The XML is not encrypted by default. Please note that the passwords are always encrypted. |
+| Shared passphrase| Set up a shared passphrase for the Security Provider.                                                                   |
+| Certificate      | Set up a Certificate for the Security Provider.                                                                         |
+
 
 ## Shared Passphrase 
 
@@ -110,123 +83,23 @@ In a portable installation of {{ en.RDM }}, the passphrase will be saved at the 
 When choosing ***Certificate*** as Security Provider, entries configuration data is encrypted using a mix of a key stored in {{ en.RDM }} and the private key contained in the certificate.  
 ![Security Provider - Certificate](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10286.png) 
 
-<table>
-	<tr>
-		<th>
-
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Location 
-		</td>
-		<td>
-Indicate the certificate location. Select between:  
-
-* ***Current user*** 
-* ***Local machine*** 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Store 
-		</td>
-		<td>
-Indicate the store location of the certificate. Select between:  
-
-* ***Address book*** 
-* ***Authorization root*** 
-* ***Certificate authority*** 
-* ***Disallowed*** 
-* ***My*** 
-* ***Root*** 
-* ***Trusted people*** 
-* ***Trusted publisher*** 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Thumbprint 
-		</td>
-		<td>
-Select an existing RSA certificate. 
-		</td>
-	</tr>
-</table>
+| OPTION    | DESCRIPTION                                                                                   |
+|-----------|-----------------------------------------------------------------------------------------------|
+| Location  | Indicate the certificate location. Select between:<br><ul><li>***Current user***</li><li>***Local machine***</li></ul> |
+| Store     | Indicate the store location of the certificate. Select between:<br><ul><li>***Address book***</li> <li>***Authorization root***</li> <li>***Certificate authority***</li> <li>***Disallowed***</li> <li>***My***</li> <li>***Root***</li> <li>***Trusted people***</li> <li>***Trusted publisher***</li></ul> |
+| Thumbprint| Select an existing RSA certificate.                                                           |
 
 ### Create Certificate 
 
 It is possible to create a Self Signed certificate by clicking on ***Create Certificate***.  
 ![Self Signed Certificate](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10288.png) 
 
-<table>
-	<tr>
-		<th>
+| OPTION                    | DESCRIPTION                                                                                     |
+|---------------------------|-------------------------------------------------------------------------------------------------|
+| Common name               | Name of the certificate.                                                                        |
+| Key size (bits)           | Indicate the key size (bits) of the certificate. Select between:<br><ul><li>384</li> <li>512</li> <li>1024</li> <li>2048</li> <li>4096</li> <li>8192</li> <li>16384</li></ul>|
+| Valid from                | Start date of the certificate.                                                                 |
+| Valid to                  | End date of the certificate.                                                                   |
+| Save to file (pfx)        | Save the certificate as a pfx file and secure this certificate with a password.                |
+| Save to certificate store | Indicate the location and the store to save the certificate.                                   |
 
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Common name 
-		</td>
-		<td>
-Name of the certificate. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Key size (bits) 
-		</td>
-		<td>
-Indicate the key size (bits) of the certificate. Select between:  
-
-* 384 
-* 512 
-* 1024 
-* 2048 
-* 4096 
-* 8192 
-* 16384 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Valid from 
-		</td>
-		<td>
-Start date of the certificate. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Valid to 
-		</td>
-		<td>
-End date of the certificate. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Save to file (pfx) 
-		</td>
-		<td>
-Save the certificate as a pfx file and secure this certificate with a password. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Save to certificate store 
-		</td>
-		<td>
-Indicate the location and the store to save the certificate. 
-		</td>
-	</tr>
-</table>
