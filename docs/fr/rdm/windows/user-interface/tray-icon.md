@@ -69,7 +69,7 @@ Répertorie les [Sources de données](/fr/rdm/windows/data-sources/) disponibles
 	</tr>
 	<tr>
 		<td>
-{{ fr.VLT }}s 
+{{ fr.VLT_MAJ }}s 
 		</td>
 		<td>
 Répertorie tous les {{ fr.VLT }}s de la source de données actuelle. 

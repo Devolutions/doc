@@ -7,7 +7,7 @@ Each ***Role*** in {{ en.DHUB }} has its own set of ***Permissions***.
 
 ## Permissions
 
-| PERMISSION                  | RESTRICTED | READERS | PRIVILEGED READERS | OPERATORS | PRIVILEGED OPERATORS | CONTRIBUTORS | VAULT OWNERS |
+| PERMISSION                  | RESTRICTED | READERS | PRIVILEGED READERS | OPERATORS | PRIVILEGED OPERATORS | CONTRIBUTORS | {{ en.VLT }} OWNERS |
 |-----------------------------|:------------:|:---------:|:---------------------:|:-----------:|:----------------------:|:--------------:|:--------------:|
 | View {{ en.VLT }}           |   {{ icon.badgeNotice | safe }}   | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | View entries                |            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |

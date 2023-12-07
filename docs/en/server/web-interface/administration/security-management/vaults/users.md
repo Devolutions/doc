@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Grant access to users on the {{ en.VLT }}. 
 
-![{{ en.VLT }}s - Users](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8068.png)  
+![{{ en.VLT_MAJ }}s - Users](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8068.png)  
 
 <table>
 	<tr>

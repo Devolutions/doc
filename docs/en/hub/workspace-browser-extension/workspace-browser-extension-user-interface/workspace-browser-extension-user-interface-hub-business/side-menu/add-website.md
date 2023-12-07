@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Add website
 ---
-The ***Add Website*** button is only available while in the [***Matching***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s and entries of the [***{{ en.VLT }}s***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#vaults-tab) or [***{{ en.UVLT }}***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through the {{ en.WBEX }}.  
+The ***Add Website*** button is only available while in the [***Matching***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the {{ en.VLT }}s and entries of the [***{{ en.VLT_MAJ }}s***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#vaults-tab) or [***{{ en.UVLT_MAJ }}***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.DHUBB }} through the {{ en.WBEX }}.  
 
 When {{ en.DHUBB }} is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
 ![New Entry – Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2132.png) 
@@ -14,7 +14,7 @@ The tables below list all fields/settings available in the ***New Entry – Webs
 | FIELD/SETTING | DESCRIPTION |
 | --- | --- |
 | Name | Enter a name for your entry. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified. |
-| {{ en.VLT }} | Choose the {{ en.VLT }} in which to store your new website entry in {{ en.DHUBB }}. You can select any available {{ en.VLT }}, including your ***{{ en.UVLT }}***. |
+| {{ en.VLT_MAJ }} | Choose the {{ en.VLT }} in which to store your new website entry in {{ en.DHUBB }}. You can select any available {{ en.VLT }}, including your ***{{ en.UVLT }}***. |
 | Folder | Enter the name of the folder in which your new entry will be stored in {{ en.DHUBB }}. |
 | Host | Select in the drop-down list how the {{ en.WBEX }} will fetch the host between ***Custom***, ***Linked ({{ en.VLT }})***, or ***Inherited***. If you select ***Custom***, the ***URL*** field (see below) will appear. If you select ***Linked ({{ en.VLT }})***, a drop-down list will appear in which you will be able to select the host. |
 | URL | Enter the URL of the website’s login page. This field is automatically filled in by the {{ en.WBEX }}, but can still be modified. |

@@ -159,7 +159,7 @@ Basculer visionnement uniquement RDP
 	</tr>
 	<tr>
 		<td>
-{{ fr.VLT }} 
+{{ fr.VLT_MAJ }} 
 		</td>
 		<td>
 <kbd>F6</kbd>

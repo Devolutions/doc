@@ -153,7 +153,7 @@ Définir le compte utilisateur comme compte en lecture seule.
 	</tr>
 	<tr>
 		<td>
-{{ fr.VLT }} par défaut 
+{{ fr.VLT_MAJ }} par défaut 
 		</td>
 		<td>
 Donner l'accès à ce {{ fr.VLT }} à l'utilisateur. 

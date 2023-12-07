@@ -12,7 +12,7 @@ The ***Batch Grant Access*** feature allows you to assign permissions and permis
 ![Properties – Security – Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2185.png)
 
 It can also be accessed via ***Administration***:
-1. In {{ en.RDM }}, go to ***Administration – System Settings – {{ en.VLT }} Management***.
+1. In {{ en.RDM }}, go to ***Administration – System Settings – {{ en.VLT_MAJ }} Management***.
 1. Under ***Default Permissions***, select ***Custom*** in the ***Permission*** drop-down menu.
 
    ![Custom Default Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2186.png)
@@ -34,7 +34,7 @@ The window is divided in two sections: the <a href="#permissions">permission set
 In the permission settings, you can select the permissions to grant. You can either grant indivudual ***Permissions*** or previously created (or default) ***Permission Sets***.
 
 {% snippet icon.badgeHelp %} 
-Permission sets are created and configured in ***Administration – System Settings – {{ en.VLT }} Management – Permission Sets***. For more information, see [Permission Sets](/rdm/windows/commands/administration/settings/system-settings/vault-management/permission-sets/).
+Permission sets are created and configured in ***Administration – System Settings – {{ en.VLT_MAJ }} Management – Permission Sets***. For more information, see [Permission Sets](/rdm/windows/commands/administration/settings/system-settings/vault-management/permission-sets/).
 {% endsnippet %}
 
 ![Permission settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2189.png)

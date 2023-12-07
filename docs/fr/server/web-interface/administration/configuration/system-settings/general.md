@@ -127,7 +127,7 @@ Permettre de marquer les entrées comme favorites.
 	</tr>
 </table>
 
-### {{ fr.UVLT }} 
+### {{ fr.UVLT_MAJ }} 
 
 <table>
 	<tr>

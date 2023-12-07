@@ -37,7 +37,7 @@ Your password settings are now configured.
 1. Follow the rest of the website’s registration steps until the {{ en.WBEX }} ***Add Website*** window pops up in the corner of your web browser.  
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/hub/Hub2054.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
-1. Select the ***{{ en.VLT }}*** and ***Folder*** in which to save your website entry. 
+1. Select the ***{{ en.VLT }}*** and ***folder*** in which to save your website entry. 
 1. Click ***Save***.  
 
 Your credentials are now securely stored in a new website entry in {{ en.DHUBB }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/retrieve-credentials-hub-business/).

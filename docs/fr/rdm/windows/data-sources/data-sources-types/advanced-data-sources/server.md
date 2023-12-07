@@ -168,9 +168,9 @@ Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer o
 	</tr>
 </table>
 
-### {{ fr.UVLT }} 
+### {{ fr.UVLT_MAJ }} 
 
-![{{ fr.DVLS }} – {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3603.png)  
+![{{ fr.DVLS }} – {{ fr.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3603.png)  
 
 <table>
 	<tr>

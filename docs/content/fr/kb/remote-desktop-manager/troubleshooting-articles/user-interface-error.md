@@ -14,7 +14,7 @@ The tree view has disappeared from the ***{{ en.NPANE }}***.
 ### Solution
 The ***{{ en.NPANE }}*** can be displayed in many modes:  
 
-Select the tree view with ***View – {{ en.VLT }} – Tree View*** or use the default shortcut F7.  
+Select the tree view with ***View – {{ en.VLT_MAJ }} – Tree View*** or use the default shortcut F7.  
 ![!!KB4094](https://webdevolutions.azureedge.net/docs/en/kb/KB4094.png)
 ## Problem 3
 The main form layout is broken.

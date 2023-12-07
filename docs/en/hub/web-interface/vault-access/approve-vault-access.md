@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
-  title: Approve vault access in {{ en.DHUBB }}
+  title: Approve {{ en.VLT }} access in {{ en.DHUBB }}
   order: 20
   description: In {{ en.DHUBB }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 ---
-In {{ en.DHUBB }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request. {{ en.VLT }} owners are configured in ***Administration – Management – {{ en.VLT }}s*** when creating or editing a {{ en.VLT }}, under the ***Visibility*** option.
+In {{ en.DHUBB }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request. {{ en.VLT_MAJ }} owners are configured in ***Administration – Management – {{ en.VLT_MAJ }}s*** when creating or editing a {{ en.VLT }}, under the ***Visibility*** option.
 
 ## View pending {{ en.VLT }} access requests
 

@@ -7,7 +7,7 @@ Dans {{ fr.RDM }}, la section ***Panneaux*** de l'onglet ***Affichage*** permet 
 
 Voici les différentes fonctionnalités disponibles dans cette section :  
 
-* [***{{ fr.VLT }}***](/fr/rdm/windows/commands/view/panels/vault/) et [***{{ fr.UVLT }}***](/fr/rdm/windows/commands/view/panels/vault/) 
+* [***{{ fr.VLT_MAJ }}***](/fr/rdm/windows/commands/view/panels/vault/) et [***{{ fr.UVLT }}***](/fr/rdm/windows/commands/view/panels/vault/) 
 * [***Sessions ouvertes***](/fr/rdm/windows/commands/view/panels/opened-sessions/) 
 * [***Tableau de bord PAM***](/fr/rdm/windows/commands/view/panels/pam-dashboard/) 
 * [***Favoris***](/fr/rdm/windows/user-interface/navigation-pane/favorite-entries/) 

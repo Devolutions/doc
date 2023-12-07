@@ -50,7 +50,7 @@ The Play List is saved in the database. It can be accessed by anyone on the data
 	</tr>
 	<tr>
 		<td>
-{{ en.UVLT }} 
+{{ en.UVLT_MAJ }} 
 		</td>
 		<td>
 The Play List is saved in your {{ en.UVLT }} and can only be accessed by the user. These can be launched through the Play List Management or by using the entry itself. 

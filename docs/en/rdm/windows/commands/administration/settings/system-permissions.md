@@ -69,4 +69,3 @@ For more information about permissions, consult [Simplified Security](/rdm/windo
 | Licenses        | Allow users/user groups to access licenses.                                                                 |
 | Systems settings| Allow users/user groups to access the System settings.                                                      |
 | System images   | Allow users/user groups to access the System images.                                                        |
-

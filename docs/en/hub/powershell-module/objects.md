@@ -71,9 +71,9 @@ This section is all about objects that are available with the {{ en.PS }} module
 | Name             | Type                | Description                                                   |
 |------------------|---------------------|---------------------------------------------------------------|
 | Audit            | Object(Audit)       | ReadOnly - Object that gives you information about users who have manipulated the PSVault. |
-| Description      | String              | {{ en.VLT }} description.                                      |
-| Id               | Guid                | ReadOnly - {{ en.VLT }} ID.                                     |
-| Name             | String              | {{ en.VLT }} name.                                             |
+| Description      | String              | {{ en.VLT_MAJ }} description.                                      |
+| Id               | Guid                | ReadOnly - {{ en.VLT_MAJ }} ID.                                     |
+| Name             | String              | {{ en.VLT_MAJ }} name.                                             |
 | State            | Enum(VaultState)    | ReadOnly - Enum that shows you the {{ en.VLT }} state.          |
 | Type             | Enum(VaultType)     | ReadOnly - Enum that shows you the {{ en.VLT }} type.           |
 | VaultPermissions | Object(VaultPermissions) | Object that gives you a list of users and groups permissions that are set to this {{ en.VLT }}. |

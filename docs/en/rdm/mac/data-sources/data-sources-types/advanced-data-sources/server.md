@@ -193,9 +193,9 @@ Manage your cache on your computer to analyse, vacuum, repair or delete it. This
 	</tr>
 </table>
 
-### {{ en.UVLT }} 
+### {{ en.UVLT_MAJ }} 
 
-![{{ en.DVLS }} – {{ en.UVLT }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6026.png) 
+![{{ en.DVLS }} – {{ en.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6026.png) 
 
 <table>
 	<tr>

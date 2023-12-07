@@ -44,7 +44,7 @@ Category of the subscription. This can be one of the following possibilities.
 
 * Entry 
 * User 
-* {{ en.VLT }} 
+* {{ en.VLT_MAJ }} 
 * User Groups 
 * PAM Privileged Account 
 * PAM Provider 

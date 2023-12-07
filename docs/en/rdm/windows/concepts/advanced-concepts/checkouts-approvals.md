@@ -8,7 +8,7 @@ When multiple users are using the same entries, being able to check out (then ch
 ### Related topics  
 * [Checkout system](/rdm/windows/commands/edit/entries/checkout-system/)  
 * [Request temporary access to an entry in {{ en.RDM }}](/rdm/windows/user-interface/content-area/temporary-access/request-temporary-access/)  
-* [Vault access in {{ en.RDM }}](/rdm/windows/user-interface/content-area/vault-access/)  
+* [{{ en.VLT_MAJ }} access in {{ en.RDM }}](/rdm/windows/user-interface/content-area/vault-access/)  
 
 ### See also  
 * [Easily Elevate Permissions with RDM's Temporary Access feature - RDM Pro Tip 020](https://youtu.be/En3pmonz1f8?si=7YbxYSgW5Y1PfZf6)

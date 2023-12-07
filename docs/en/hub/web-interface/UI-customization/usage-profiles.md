@@ -30,32 +30,32 @@ This table shows the entry types that can be created depending on your usage pro
 Note that this only applies to the creation of new entries and does not affect existing entries.
 {% endsnippet %}  
 
-| ENTRY TYPES          | BUSINESS USER | IT PROFESSIONAL |
-|----------------------|:---------------:|:------------------:|
-| Session              |               | {{ icon.badgeNotice | safe }} |
-| Credential Management|               | {{ icon.badgeNotice | safe }} |
-| Information          | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| Folder               | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| Contact              | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| Document             |               | {{ icon.badgeNotice | safe }} |
-| Template             | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| ENTRY TYPES           | BUSINESS USER                 | IT PROFESSIONAL               |
+|-----------------------|:-----------------------------:|:-----------------------------:|
+| Session               |                               | {{ icon.badgeNotice | safe }} |
+| Credential Management |                               | {{ icon.badgeNotice | safe }} |
+| Information           | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Folder                | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Contact               | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Document              |                               | {{ icon.badgeNotice | safe }} |
+| Template              | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 
-### {{ en.VLT }} Dashboard widgets
+### {{ en.VLT_MAJ }} Dashboard widgets
 
-![{{ en.VLT }} Dashboard widgets](https://webdevolutions.azureedge.net/docs/en/hub/Hub2282.png) 
+![{{ en.VLT_MAJ }} Dashboard widgets](https://webdevolutions.azureedge.net/docs/en/hub/Hub2282.png) 
 
-This table shows the different widgets that can be displayed in your ***{{ en.VLT }} Dashboard*** depending on your usage profile.  
+This table shows the different widgets that can be displayed in your ***{{ en.VLT_MAJ }} dashboard*** depending on your usage profile.  
 
-| WIDGETS                            | BUSINESS USER | IT PROFESSIONAL |
-|------------------------------------|:---------------:|:------------------:|
-| Broken entries                     |               | {{ icon.badgeNotice | safe }} |
-| Certificates                       |               | {{ icon.badgeNotice | safe }} |
-| Checked out                        | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| Entries                            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| Expired entries                    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| Expiring entries                   | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| Pending access requests            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| Pending {{ en.VLT }} access requests| {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| {{ en.VLT }}s                       |               | {{ icon.badgeNotice | safe }} |
-| Password ages                      |               | {{ icon.badgeNotice | safe }} |
-| Types                              | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| WIDGETS                              | BUSINESS USER                 | IT PROFESSIONAL               |
+|--------------------------------------|:-----------------------------:|:-----------------------------:|
+| Broken entries                       |                               | {{ icon.badgeNotice | safe }} |
+| Certificates                         |                               | {{ icon.badgeNotice | safe }} |
+| Checked out                          | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Entries                              | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Expired entries                      | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Expiring entries                     | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Pending access requests              | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Pending {{ en.VLT }} access requests | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| {{ en.VLT_MAJ }}s                    |                               | {{ icon.badgeNotice | safe }} |
+| Password ages                        |                               | {{ icon.badgeNotice | safe }} |
+| Types                                | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |

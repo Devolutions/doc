@@ -52,11 +52,11 @@ Now that you have access to {{ en.DHUBB }}, you can continue to the following se
 
 ## First steps in {{ en.DHUBB }} 
 
-After logging in, {{ en.DHUBB }} opens on the ***{{ en.VLT }}*** tab. In this view, it is possible to interact with the {{ en.VLT }}s and entries you have access to. You can change {{ en.VLT }} using the ***{{ en.VLT }}*** selector menu at the top.  
-![{{ en.VLT }} tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2006.png)  
+After logging in, {{ en.DHUBB }} opens on the ***{{ en.VLT_MAJ }}*** tab. In this view, it is possible to interact with the {{ en.VLT }}s and entries you have access to. You can change {{ en.VLT }} using the {{ en.VLT }} selector menu at the top.  
+![{{ en.VLT_MAJ }} tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2006.png)  
 
-You can also access your ***{{ en.UVLT }}***, which is user centric and is used to store information such as personal account credentials, by clicking on the ***{{ en.UVLT }}*** tab in the side menu.  
-![{{ en.UVLT }} Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2007.png)  
+You can also access your ***{{ en.UVLT }}***, which is user centric and is used to store information such as personal account credentials, by clicking on the ***{{ en.UVLT_MAJ }}*** tab in the side menu.  
+![{{ en.UVLT_MAJ }} Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2007.png)  
 
 ### Create entries 
 

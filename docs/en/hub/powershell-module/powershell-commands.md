@@ -562,7 +562,7 @@ Retrieves the {{ en.DGW }} settings.
 
 ---
 
-## {{ en.VLT }}s
+## {{ en.VLT_MAJ }}s
 
 This section is about commands to handle {{ en.VLT }}s.  
 

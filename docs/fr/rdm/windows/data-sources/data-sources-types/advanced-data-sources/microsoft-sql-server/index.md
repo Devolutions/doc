@@ -210,9 +210,9 @@ Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement h
 	</tr>
 </table>
 
-### {{ fr.UVLT }} 
+### {{ fr.UVLT_MAJ }} 
 
-![Microsoft SQL Server – {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3413.png) 
+![Microsoft SQL Server – {{ fr.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3413.png) 
 
 <table>
 	<tr>

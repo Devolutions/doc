@@ -10,10 +10,10 @@ Select the credentials you wish to use to override your VPN credentials. Fore mo
 
 The [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) credential entry is only available under the following conditions:  
 
-1. the {{ en.UVLT }} is available for your data source; 
-1. You are overriding at the folder level; 
+1. The {{ en.UVLT }} is available for your data source. 
+1. You are overriding at the folder level. 
 1. You are overriding a session that is itself in the {{ en.UVLT }}.  
-![User Specific settings - VPN](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10344.png) 
+![User Specific settings – VPN](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10344.png) 
 
 <table>
 	<tr>

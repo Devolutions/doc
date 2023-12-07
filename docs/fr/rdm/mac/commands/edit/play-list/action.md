@@ -24,7 +24,7 @@ La ***Liste d'exécution partagée*** est enregistrée dans la base de données 
 ### Liste d'exécution {{ fr.UVLT }} 
 
 La ***Liste d'exécution*** du {{ fr.UVLT }} est enregistrée dans votre {{ fr.UVLT }} qui est un {{ fr.VLT }} centré sur l'utilisateur, il permet à chaque utilisateur de créer une ***Liste d'exécution*** à laquelle seuls eux peuvent accéder.  
-![Gestionnaire de listes d'exécution - {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4089.png) 
+![Gestionnaire de listes d'exécution - {{ fr.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4089.png) 
 
 ## Actions 
 

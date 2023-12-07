@@ -24,8 +24,8 @@ Page de renvoi
 Choisir la page d'accueil après la connexion :  
 
 * ***Tableau de bord*** 
-* ***{{ fr.VLT }}*** 
-* ***{{ fr.UVLT }}*** 
+* ***{{ fr.VLT_MAJ }}*** 
+* ***{{ fr.UVLT_MAJ }}*** 
 * ***Rapports*** 
 * ***Administration*** 
 * ***Accès privilégiés*** 

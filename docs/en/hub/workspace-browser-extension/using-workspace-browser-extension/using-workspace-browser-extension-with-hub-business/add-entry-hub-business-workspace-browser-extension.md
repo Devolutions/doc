@@ -23,7 +23,7 @@ Learn how to add a website entry by following the instructions from these sectio
 1. A {{ en.WBEX }} ***Add Website*** window will pop up in the corner of your web browser.  
 ![Add Website](https://webdevolutions.azureedge.net/docs/en/hub/Hub2054.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
-1. Select the ***{{ en.VLT }}*** and ***Folder*** in which to save your website entry. 
+1. Select the ***{{ en.VLT }}*** and ***folder*** in which to save your website entry. 
 1. Click ***Save***.  
 
 Your credentials are now securely stored in a new website entry in {{ en.DHUBB }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/retrieve-credentials-hub-business/).  
@@ -37,7 +37,7 @@ Your credentials are now securely stored in a new website entry in {{ en.DHUBB }
 1. The {{ en.WBEX }} ***New Entry - Website*** tab will open in your browser.  
 ![New Entry - Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2132.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
-1. Select the ***{{ en.VLT }}*** and ***Folder*** in which to save your credentials. 
+1. Select the ***{{ en.VLT }}*** and ***folder*** in which to save your credentials. 
 1. The ***Host*** drop-down list is set to ***Custom*** by default. This allows the {{ en.WBEX }} to automatically specify the ***URL*** in the next field with the login page URL from <a href="#1">step 1</a>. 
 1. The ***Credentials*** drop-down list is set to ***Custom*** by default. This allows you to manually enter your ***Username***, ***Domain***, and ***Password*** in the next step. 
 1. Provide the ***Username***, ***Domain***, and ***Password*** you use to log in to the website. You may not have a domain name to specify; in that case, leave the field blank. Also, depending on the website, your username may be your email address. 

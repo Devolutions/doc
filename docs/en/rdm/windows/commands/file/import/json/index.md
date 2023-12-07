@@ -10,7 +10,7 @@ For an overview of the JSON file format and the impact of decisions made in this
  
 ## Steps 
 
-1. In the ***{{ en.NPANE }}***, select the ***{{ en.VLT }}*** in which to import the entries. 
+1. In the ***{{ en.NPANE }}***, select the {{ en.VLT }} in which to import the entries. 
 1. Go to ***File – Import – Import (.json)***. 
 1. Select the JSON file to import from your computer, then click ***Open***. 
 1. Choose to ***Import in root***, ***Import in current folder***, or ***Import in specific folder***. 

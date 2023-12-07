@@ -24,7 +24,7 @@ The duration of the access begins when the request is approved.
 
 Follow the steps below to learn how to make a check-out request:
 
-1. In the ***{{ en.VLT }}*** tab, select the PAM {{ en.VLT }} using the selector.
+1. In the ***{{ en.VLT_MAJ }}*** tab, select the PAM {{ en.VLT }} using the selector.
 1. Select the privileged account entry you want to access, then click on ***Check Out***.
 
    {% snippet icon.badgeInfo %}

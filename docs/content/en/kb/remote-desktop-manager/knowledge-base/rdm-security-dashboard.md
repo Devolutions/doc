@@ -73,7 +73,7 @@ Legacy security has been deprecated and will be completely removed starting with
 
 #### Mitigation
 
-In ***Administration – System Settings – {{ en.VLT }} Management – Security Settings – Security***, disable ***Use legacy security***. See [Disable legacy security in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
+In ***Administration – System Settings – {{ en.VLT_MAJ }} Management – Security Settings – Security***, disable ***Use legacy security***. See [Disable legacy security in {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
 
 ---
 
@@ -165,17 +165,17 @@ Transparent data encryption encrypts the database data at rest, which mitigates 
 
 ---
 
-### {{ en.UVLT }} activity should be logged
+### {{ en.UVLT_MAJ }} activity should be logged
 
 Activity logs on the {{ en.UVLT }} can provide additional information during incident response.
 
 #### Mitigation
 
-In ***Administration – System Settings – {{ en.UVLT }}***, check ***Log {{ en.UVLT }} activities***.
+In ***Administration – System Settings – {{ en.UVLT_MAJ }}***, check ***Log {{ en.UVLT }} activities***.
 
 ---
 
-### {{ en.VLT }}s should be created with restricted permissions by default
+### {{ en.VLT_MAJ }}s should be created with restricted permissions by default
 
 It is preferable to provide rights to users as needed. When enabling this option, {{ en.VLT }}s will be created with a more limited set of permissions.
 

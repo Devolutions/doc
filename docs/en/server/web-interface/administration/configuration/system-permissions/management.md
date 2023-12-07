@@ -43,7 +43,7 @@ Allow users/user groups to manage the licenses.
 	</tr>
 	<tr>
 		<td>
-{{ en.VLT }}
+{{ en.VLT_MAJ }}
 		</td>
 		<td>
 Allow users/user groups to access the {{ en.VLT }} management.

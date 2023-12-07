@@ -199,9 +199,9 @@ Disable the option to lock the data source directly. You can still lock the appl
 	</tr>
 </table>
 
-### {{ en.UVLT }} 
+### {{ en.UVLT_MAJ }} 
 
-![Microsoft Azure SQL – {{ en.UVLT }} Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3416.png) 
+![Microsoft Azure SQL – {{ en.UVLT_MAJ }} tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3416.png) 
 
 <table>
 	<tr>

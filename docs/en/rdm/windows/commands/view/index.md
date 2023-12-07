@@ -28,7 +28,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-{{ en.VLT }} 
+{{ en.VLT_MAJ }} 
 		</td>
 		<td>
 Access the view mode of the ***{{ en.NPANE }}*** for the current [{{ en.VLT }}](/rdm/windows/commands/view/panels/vault/). 
@@ -36,7 +36,7 @@ Access the view mode of the ***{{ en.NPANE }}*** for the current [{{ en.VLT }}](
 	</tr>
 	<tr>
 		<td>
-{{ en.UVLT }} 
+{{ en.UVLT_MAJ }} 
 		</td>
 		<td>
 Display your [***{{ en.UVLT }}***](/rdm/windows/commands/view/panels/vault/) in the ***{{ en.NPANE }}***. 

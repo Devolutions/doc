@@ -123,7 +123,7 @@ Allows to flag entries as favorites.
 	</tr>
 </table>
 
-## {{ en.UVLT }} 
+## {{ en.UVLT_MAJ }} 
 <table>
 	<tr>
 		<th>
@@ -171,7 +171,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-{{ en.VLT }} Locked Status 
+{{ en.VLT_MAJ }} Locked Status 
 		</td>
 		<td>
 Creates {{ en.VLT }}s with a restricted access by default. 

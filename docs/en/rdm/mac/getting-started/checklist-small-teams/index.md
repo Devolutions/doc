@@ -127,7 +127,7 @@ Step 7 - Create {{ en.VLT }}s
 		<td>
 In {{ en.RDM }}, data is stored in a hierarchy of folders and entries all within {{ en.VLT }}s. The number of {{ en.VLT }}s created and the way they are categorized is completely up to you, but we have seen great success in teams separating their content by departments, locations, and customer accounts.  
 
-All users have access to the Default {{ en.VLT }} created after installing {{ en.RDM }}. You can change its configuration as well as [create other {{ en.VLT }}s](/rdm/mac/commands/administration/vaults-overview/#create-a-vault), then [assign them users and user groups](/rdm/mac/commands/administration/vaults-overview/#give-users-and-user-groups-access-to-a-vault).  
+All users have access to the default {{ en.VLT }} created after installing {{ en.RDM }}. You can change its configuration as well as [create other {{ en.VLT }}s](/rdm/mac/commands/administration/vaults-overview/#create-a-vault), then [assign them users and user groups](/rdm/mac/commands/administration/vaults-overview/#give-users-and-user-groups-access-to-a-vault).  
 
 Access all {{ en.VLT }}s using the {{ en.VLT }} selector in the ***{{ en.NPANE }}***. Each user can also access their own ***{{ en.UVLT }}***. This {{ en.VLT }} is only accessible to them and is a great place to store business-related entries for the user, such as alarm codes, user credentials, websites, documents, etc.  
 

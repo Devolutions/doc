@@ -60,7 +60,7 @@ Des paramètres et informations additionnels sur l'arborescence sont disponibles
  
 Pour plus d'informations sur chaque onglet, veuillez consulter les rubriques suivantes :  
 
-* [{{ fr.VLT }}s](/fr/rdm/windows/commands/view/panels/vault/) 
+* [{{ fr.VLT_MAJ }}s](/fr/rdm/windows/commands/view/panels/vault/) 
 * [Mon {{ fr.UVLT }}](/fr/rdm/windows/data-sources/user-vault/) 
 * [Sessions ouvertes](/fr/rdm/windows/commands/view/panels/opened-sessions/) 
 * [Entrées favorites](/fr/rdm/windows/user-interface/navigation-pane/favorite-entries/) 

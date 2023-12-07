@@ -371,7 +371,7 @@ Ouvrir la page de [Gestion des Groupes d'utilisateurs](/fr/server/web-interface/
 	</tr>
 	<tr>
 		<td>
-{{ fr.VLT }}s
+{{ fr.VLT_MAJ }}s
 		</td>
 		<td>
 Ouvrir la page de [Gestion des {{ fr.VLT }}s](/fr/server/web-interface/administration/security-management/vaults/) sur l'interface Web de {{ fr.DVLS }}. 
