@@ -20,40 +20,11 @@ Administrators can permanently delete some or all deleted entries.
 The ***Deleted Entries*** will generate a list containing all the entries previously deleted from your data source. You may restore an entry, meaning it will become an active entry again and will be shown in your data source. You may also chose to permanently delete your entries, once you have permanently deleted your entries you will not be able to restore them afterward.  
 ![Deleted Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10308.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Delete 
-		</td>
-		<td>
-Permanently delete the selected entry. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Restore Entry 
-		</td>
-		<td>
-Use this button to restore an entry. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Delete All 
-		</td>
-		<td>
-Permanently delete all the deleted entries. 
-		</td>
-	</tr>
-</table>
+| OPTION       | DESCRIPTION                                   |
+|--------------|-----------------------------------------------|
+| Delete       | Permanently delete the selected entry.        |
+| Restore Entry| Use this button to restore an entry.          |
+| Delete All   | Permanently delete all the deleted entries.   |
 
 {% snippet icon.badgeNotice %} 
 Deleted entries can be restored as long as the [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) has not been changed since the deleted action. 
