@@ -7,7 +7,7 @@ Diese Funktion ist nur verfügbar bei Gebrauch [Erweiterten Datenquelle](/rdm/wi
 {% endsnippet %}
 
 {% snippet icon.shieldCaution %}
-Das folgende Szenario ist für kleine und mittlere Unternehmen konzipiert und für größere Unternehmen nicht zu empfehlen. Für ein Szenario, das eher für große Unternehmen geeignet ist, konsultieren Sie bitte den Artikel [Erweiterte Sicherheit](/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/) scenario.
+Das folgende Szenario ist für kleine und mittlere Unternehmen konzipiert und für größere Unternehmen nicht zu empfehlen. Für ein Szenario, das eher für große Unternehmen geeignet ist, konsultieren Sie bitte den Artikel [Erweiterte Sicherheit](/de/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/) scenario.
 {% endsnippet %}
 
 Unser fiktives Unternehmen Windjammer hat vier Nutzergruppen: HelpDesk, ServiceDesk, Administratoren und Berater. Es gibt zwei Kundenunternehmen: Downhill Pro und Telemark.  
