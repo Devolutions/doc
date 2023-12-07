@@ -13,7 +13,7 @@ Be advised that using this feature in an environment where passwords must be hid
 
 ![!!KB4621](https://webdevolutions.azureedge.net/docs/en/kb/KB4621.png)
 
-Typing macros can also be added in the ***Login Button ID*** field of an entry.
+Typing macros can also be added in the ***Login Button ID*** field of a website entry.
 
 ![Select an entry – Properties – Login – Login button ID](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6163.png)
 
@@ -78,12 +78,12 @@ To specify that any combination of the <kbd>Shift</kbd>, <kbd>Ctrl</kbd>, and <k
 
 ## Special commands
 
-| COMMANDS                  | DESCRIPTION                                                                                      |
-|---------------------------|--------------------------------------------------------------------------------------------------|
-| \{DELAY}                 | This command introduces a delay of 300 ms (default value) before the next command.               |
-| \{PREV-WINDOW}           | Select the previous window before executing the remaining commands.                             |
-| \{SENDKEYS} {ENDSENDKEYS}| This command forces certain actions regardless of context.                                      |
-| \{WINDOW:???}            | This command focus a window containing the specified name after the semi colon.                  |
+| COMMANDS                  | DESCRIPTION                                                                                       |
+|---------------------------|-------------------------------------------------------------------------------------------------- |
+| \{DELAY}                  | This command introduces a configurable delay of 300 ms (default value) before the next command.   |
+| \{PREV-WINDOW}            | Select the previous window before executing the remaining commands.                               |
+| \{SENDKEYS} \{ENDSENDKEYS} | This command is used in pair with the {ENDSENDKEYS} command. The text contained between those commands will be executed using [.NET's default SendKey API](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.sendkeys?view=windowsdesktop-8.0), which does not work with the RDM-specific commands contained within this help topic. This command is often used when there are unsupported scenarios with the typing macro feature and using the default .NET SendKeys API works.                                      |
+| \{WINDOW:???}             | This command focus a window containing the specified name after the colon.                        |
 
 
 ## Macro password

@@ -3,6 +3,7 @@ eleventyComputed:
   title: Use Lansweeper in {{ en.RDM }}
   description: How to use Lansweeper in {{ en.RDM }}.
 ---
+For individuals currently using Lansweeper or considering its addition to their IT toolbox, the integration in {{ en.RDM }} offers substantial benefits. It allows users to seamlessly view all Lansweeper assets within {{ en.RDM }}. Furthermore, this integration facilitates the automatic synchronization and generation of entries for Lansweeper assets, significantly improving the efficiency and effectiveness of IT management processes.
 
 The IT Asset Management feature can be used to link an asset manager (e.g., [BlueTally](/kb/remote-desktop-manager/how-to-articles/it-asset-management/), Lansweeper) through an entry's properties.
 
@@ -25,7 +26,7 @@ The tab will be named according to what was written in the ***IT asset managemen
 
 ![ IT Asset Management tab](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6176.png)
 
-## Import Lansweeper data to {{ en.RDM }}
+## Import assets from Lansweeper
 
 To import Lansweeper data, use the ***CSV import*** option.
 
@@ -41,7 +42,7 @@ The importation is completed.
 
 ## Synchronizer
 
-A time-consuming task in {{ en.RDM }} is populating {{ en.VLT }} with access assets. [Synchronizers](/rdm/windows/concepts/advanced-concepts/synchronizers/) address this by allowing direct import of information and sessions from a provider in the right format, ensuring up-to-date data and preserving inheritance between elements.
+Populating {{ en.VLT }} with assets is time-consuming task in {{ en.RDM }}. [Synchronizers](/rdm/windows/concepts/advanced-concepts/synchronizers/) address this by allowing direct import of information and sessions from a provider in the right format, ensuring up-to-date data and preserving inheritance between elements.
 
 1. Add a new entry in {{ en.RDM }}.
 1. Go to ***Synchronizer***.
@@ -71,9 +72,9 @@ A time-consuming task in {{ en.RDM }} is populating {{ en.VLT }} with access ass
 
 ### Advanced tab
 
-* ***Session name prefix***: A prefix for the entry.
-* ***Session name suffix***: A suffix for the entry.
-* ***Action on entry mismatch***
+* ***Session name prefix***: A prefix for the entry that will be created through the synchronizer
+* ***Session name suffix***: A suffix for the entry that will be created through the synchronizer
+* ***Action on entry mismatch***: The action that will be performed when the entries that were previously created by the synchronizer don't match the data found while synchronizing.
   * ***None***: Do nothing.
   * ***Delete***: Delete that entry.
   * ***Move to***: Move to selected ***Destination folder***.
