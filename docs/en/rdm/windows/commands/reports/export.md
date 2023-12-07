@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Report export
+  description: The Export Reports is a way to execute and export reports through a command line.
 ---
 The Export Reports is a way to execute and export reports through a command line. You can use this feature in a shortcut or in a batch file and use the Windows task scheduler to execute it.  
 
@@ -21,152 +22,32 @@ For Reports containing settings, you will have to start with exporting your repo
 C:\*** /DataSource:*** /report:***/reportoutput:"***" /reportsettings:"***.rdr" 
 ```
 
-<table>
-	<tr>
-		<th>
-PARAMETERS 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-C:\ 
-		</td>
-		<td>
-Enter the path used to start your {{ en.RDM }} application (path of the RemoteDesktopManager.exe file) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-/DataSource 
-		</td>
-		<td>
-Specify the data source ID. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-/report 
-		</td>
-		<td>
-Specify the type of report to generate or the report ID. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-/reportoutput 
-		</td>
-		<td>
-Specify the path to save your report and the name for the newly generated report. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-/reportsettings 
-		</td>
-		<td>
-Specify the path of your report settings file (.rdr). 
-		</td>
-	</tr>
-</table>
+| PARAMETERS        | DESCRIPTION                                                                                      |
+|-------------------|--------------------------------------------------------------------------------------------------|
+| C:\               | Enter the path used to start your {{ en.RDM }} application (path of the RemoteDesktopManager.exe file) |
+| /DataSource       | Specify the data source ID.                                                                      |
+| /report           | Specify the type of report to generate or the report ID.                                         |
+| /reportoutput     | Specify the path to save your report and the name for the newly generated report.                |
+| /reportsettings   | Specify the path of your report settings file (.rdr).                                            |
+
 
 To find your Data Source ID and the Command Line use to start {{ en.RDM }} edit one of your session from your data source and select the Advanced section.  
 ![RDP Session - Advanced Section ](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10008.png) 
 
 Here is a list of types of ***Reports*** you can find in {{ en.RDM }} and the name to enter in the command line to generate the report: 
 
-<table>
-	<tr>
-		<th>
-REPORT TYPE 
-		</th>
-		<th>
-REPORT NAME (TYPE) TO INSERT IN THE COMMAND LINE 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Activity Logs Report 
-		</td>
-		<td>
-SharedConnectionLog 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Duplicate Entry 
-		</td>
-		<td>
-DuplicateEntry 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Entry Information 
-		</td>
-		<td>
-ConnectionInformation 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Entry Status 
-		</td>
-		<td>
-ConnectionStatus 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Expired Entry List 
-		</td>
-		<td>
-ConnectionExpiredEntry 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Expired Passports 
-		</td>
-		<td>
-ConnectionExpiredPassport 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Expired Softwares 
-		</td>
-		<td>
-ConnectionExpiredSoftware 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Expired Warranties 
-		</td>
-		<td>
-ConnectionExpiredWarranty 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password Complexity 
-		</td>
-		<td>
-PasswordComplexity 
-		</td>
-	</tr>
-	<tr>
-		<td>
-VPN Groups 
-		</td>
-		<td>
-VPNGroup 
-		</td>
-	</tr>
-</table>
+| REPORT TYPE          | REPORT NAME (TYPE) TO INSERT IN THE COMMAND LINE |
+|----------------------|-------------------------------------------------|
+| Activity Logs Report | SharedConnectionLog                             |
+| Duplicate Entry      | DuplicateEntry                                  |
+| Entry Information    | ConnectionInformation                           |
+| Entry Status         | ConnectionStatus                                |
+| Expired Entry List   | ConnectionExpiredEntry                          |
+| Expired Passports    | ConnectionExpiredPassport                       |
+| Expired Softwares    | ConnectionExpiredSoftware                       |
+| Expired Warranties   | ConnectionExpiredWarranty                       |
+| Password Complexity  | PasswordComplexity                              |
+| VPN Groups           | VPNGroup                                        |
 
 Here is an example of a command line for an Entry Information Report:  
 
