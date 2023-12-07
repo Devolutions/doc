@@ -16,7 +16,7 @@ Ces paramètres s'appliquent à tous les utilisateurs qui ont accès à la sourc
 	<tr>
 		<th>
 
-{{ fr.VLT }} 
+{{ fr.VLT_MAJ }} 
 		</th>
 		<th>
 DESCRIPTION 

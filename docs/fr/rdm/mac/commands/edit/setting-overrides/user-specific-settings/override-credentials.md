@@ -59,7 +59,7 @@ Utiliser les identifiants stockés dans Mes identifiants personnels.
 	</tr>
 	<tr>
 		<td>
-{{ fr.UVLT }} 
+{{ fr.UVLT_MAJ }} 
 		</td>
 		<td>
 Utiliser une entrée d'identifiant du {{ fr.UVLT }}. 

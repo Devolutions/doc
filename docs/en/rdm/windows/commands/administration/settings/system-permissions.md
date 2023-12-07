@@ -49,7 +49,7 @@ Allow users/user groups to create entries in the root folder.
 	</tr>
 	<tr>
 		<td>
-{{ en.VLT }} settings 
+{{ en.VLT_MAJ }} settings 
 		</td>
 		<td>
 Allow users/user groups to access the {{ en.VLT }} properties. 
@@ -229,7 +229,7 @@ Allow users/user groups to access the user management.
 	</tr>
 	<tr>
 		<td>
- {{ en.VLT }}s
+ {{ en.VLT_MAJ }}s
 		</td>
 		<td>
 Allow users/user groups to manage {{ en.VLT }}s.  Allow users/user groups to access the user groups management. 

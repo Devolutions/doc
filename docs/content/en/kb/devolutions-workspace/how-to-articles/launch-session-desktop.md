@@ -15,4 +15,4 @@ Select the desired entry and click on ***Open in {{ en.RDM }}*** or ***Open in {
 1. Enable the ***Launch session directly*** option and choose between {{ en.RDM }} and {{ en.DLAUNCHER }}.
 ![Launch session directly](https://webdevolutions.azureedge.net/docs/en/kb/KB0147.png)
 1. Click the ***X*** to close the option menu.
-1. Go back to a vault and double-click an entry to launch it through the previously chosen application.
+1. Go back to a {{ en.VLT }} and double-click an entry to launch it through the previously chosen application.

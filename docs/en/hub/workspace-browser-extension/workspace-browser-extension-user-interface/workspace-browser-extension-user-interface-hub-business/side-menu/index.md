@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Using the ***Side menu*** tabs, you can access various {{ en.WBEX }} features. Each tab will display a different view in the ***Content Area***.  
 
-When using the {{ en.WBEX }} with {{ en.DHUBB }}, the available tabs are the ***Matching*** tab, the ***{{ en.VLT }}s*** tab, the ***{{ en.UVLT }}*** tab, and the ***Password Generator*** tab.  
+When using the {{ en.WBEX }} with {{ en.DHUBB }}, the available tabs are the ***Matching*** tab, the ***{{ en.VLT_MAJ }}s*** tab, the ***{{ en.UVLT_MAJ }}*** tab, and the ***Password Generator*** tab.  
 
 In all tabs except the ***Password Generator*** tab, when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons. Go to the [Entries functionalities](#entry-functionalities) section for more information.  
 
@@ -27,14 +27,14 @@ At the bottom, the ***Add Website*** button opens a new browser tab that allows 
 For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/). 
 {% endsnippet %}
  
-### {{ en.VLT }}s tab 
+### {{ en.VLT_MAJ }}s tab 
 
 {% snippet icon.badgeHelp %} 
-When accessing the ***{{ en.VLT }}s*** tab for the first time, you need to select the {{ en.DHUBB }} {{ en.VLT }}s you want to synchronize with the {{ en.WBEX }}. Learn more about it in [First login with the {{ en.WBEX }}](/hub/workspace-browser-extension/first-login-workspace-browser-extension/hub-business/). 
+When accessing the ***{{ en.VLT_MAJ }}s*** tab for the first time, you need to select the {{ en.DHUBB }} {{ en.VLT }}s you want to synchronize with the {{ en.WBEX }}. Learn more about it in [First login with the {{ en.WBEX }}](/hub/workspace-browser-extension/first-login-workspace-browser-extension/hub-business/). 
 {% endsnippet %}
  
-The ***{{ en.VLT }}s*** tab allows you to browse through all your synchronized {{ en.VLT }}s for your entries.  
-![{{ en.VLT }}s tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2119.png) 
+The ***{{ en.VLT_MAJ }}s*** tab allows you to browse through all your synchronized {{ en.VLT }}s for your entries.  
+![{{ en.VLT_MAJ }}s tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2119.png) 
 
 At the top, you can use the ***Filter*** bar to search through all your {{ en.VLT }}s for entries.  
 
@@ -42,10 +42,10 @@ To access a {{ en.VLT }} in the {{ en.WBEX }}, click on it and navigate through 
 
 When navigating in the folders, the [***Add Website***](/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/add-website/)button will appear at the bottom of the ***Content Area***.  
 
-### {{ en.UVLT }} tab 
+### {{ en.UVLT_MAJ }} tab 
 
-The ***{{ en.UVLT }}*** tab works the same way as the ***{{ en.VLT }}s*** tab, except that you navigate through your ***{{ en.UVLT }}*** instead of your other {{ en.VLT }}s. You also do not have to select {{ en.VLT }}s to synchronize as the only {{ en.VLT }} available in this tab is your own ***{{ en.UVLT }}***.  
-![{{ en.UVLT }} Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2120.png) 
+The ***{{ en.UVLT }}*** tab works the same way as the ***{{ en.VLT_MAJ }}s*** tab, except that you navigate through your ***{{ en.UVLT }}*** instead of your other {{ en.VLT }}s. You also do not have to select {{ en.VLT }}s to synchronize as the only {{ en.VLT }} available in this tab is your own ***{{ en.UVLT }}***.  
+![{{ en.UVLT_MAJ }} Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2120.png) 
 
 At the top, you can use the ***Filter*** bar to search through all your folders and entries.  
 
@@ -80,7 +80,7 @@ The ***Copy Username*** and ***Copy Password*** buttons copy the username/passwo
 The ***View*** button gives you an overview of the entry as well as additional functionalities. The availability of information and functionalities depends on the type of entry and the information provided in the entry, although some of them are always available:  
 
 * ***Edit***/***Delete*** the entry with the ellipses button at the top right. 
-* View the location of your entry under the ***{{ en.VLT }}*** and ***Folder*** (if it is located under a folder) sections. 
+* View the location of your entry under the ***{{ en.VLT }}*** and ***folder*** (if it is located under a folder) sections. 
 * See when the entry was last modified and created under the ***Last Modified On*** and ***Created on*** sections respectively.  
 
 Other information and functionalities will depend on what you provided when creating the entry (username, password, tags, description, etc.).  

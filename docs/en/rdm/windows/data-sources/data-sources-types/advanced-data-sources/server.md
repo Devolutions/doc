@@ -164,9 +164,9 @@ Manage the data source cache. On large data sources caching is a must and will i
 	</tr>
 </table>
 
-### {{ en.UVLT }} 
+### {{ en.UVLT_MAJ }} 
 
-![{{ en.DVLS }} – {{ en.UVLT }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3603.png) 
+![{{ en.DVLS }} – {{ en.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3603.png) 
 
 <table>
 	<tr>

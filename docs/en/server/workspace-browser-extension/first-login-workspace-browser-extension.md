@@ -3,7 +3,6 @@ eleventyComputed:
   title: First login with the {{ en.WBEX }}
   order: 30
 ---
-### First Login with the {{ en.WBEX }} 
 Follow these steps to connect {{ en.DVLS }} to the the {{ en.WBEX }}:  
 
 1. Click on the {{ en.WBEX }} at the top right corner of your browser. 
@@ -21,8 +20,8 @@ A {{ en.DVLS }} access is required to continue.
 ![{{ en.DVLS }} Login](https://webdevolutions.azureedge.net/docs/en/server/Dwl4019.png)
 1. If you click on the {{ en.WBEX }} icon in your web browser, you can validate that the {{ en.WBEX }} is now connected to your {{ en.DVLS }}. 
 ![Successful Association of {{ en.DVLS }} to the {{ en.WBEX }}](https://webdevolutions.azureedge.net/docs/en/server/Dwl4048.png)
-1. To select the {{ en.VLT }}s to be synchronized, click on the ***{{ en.VLT }}s*** tab, then click the ***Select {{ en.VLT }}s to Sync*** button. 
-![{{ en.VLT }}s tab](https://webdevolutions.azureedge.net/docs/en/server/Dwl4020.png)
+1. To select the {{ en.VLT }}s to be synchronized, click on the ***{{ en.VLT_MAJ }}s*** tab, then click the ***Select {{ en.VLT }}s to Sync*** button. 
+![{{ en.VLT_MAJ }}s tab](https://webdevolutions.azureedge.net/docs/en/server/Dwl4020.png)
 1. Click on ***Select All*** or individually check the {{ en.VLT }}s to synchronize. 
 ![Selection of {{ en.VLT }}s to be Synchronized](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2014.png)
 1. When your {{ en.VLT }}s have been selected, click on ***Select {{ en.VLT }}s to Sync*** at the top of the panel to view your synchronized {{ en.VLT }}s. 

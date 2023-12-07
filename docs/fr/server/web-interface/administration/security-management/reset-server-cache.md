@@ -21,7 +21,7 @@ Description
 		<td>
 Entrées  
 Groupes d'utilisateurs  
-{{ fr.VLT }}s  
+{{ fr.VLT_MAJ }}s  
 Usagers  
 		</td>
 		<td>

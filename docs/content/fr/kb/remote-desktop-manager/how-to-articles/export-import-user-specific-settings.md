@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
   title: Exporter et importer des paramètres spécifiques à l'utilisateur
-  description: Les options d'exportation et d'importation des paramètres spécifiques de l'utilisateur sont liées au coffre.
+  description: Les options d'exportation et d'importation des paramètres spécifiques de l'utilisateur sont liées au {{ fr.VLT }}.
 ---
 
 {% snippet icon.badgeCaution %}
-Les options d'***exportation*** et d'***importation*** des ***paramètres spécifiques de l'utilisateur*** sont liées au {{ fr.VLT }}. Vous devez sélectionner le coffre à partir duquel ou dans lequel vous souhaitez exporter ou importer vos paramètres.
+Les options d'***exportation*** et d'***importation*** des ***paramètres spécifiques de l'utilisateur*** sont liées au {{ fr.VLT }}. Vous devez sélectionner le {{ fr.VLT }} à partir duquel ou dans lequel vous souhaitez exporter ou importer vos paramètres.
 {% endsnippet %}
 
 Si vous ou vos ***utilisateurs*** remplacez des propriétés d'entrée par des ***Paramètres spécifiques de l'utilisateur*** dans {{ fr.RDM }}, chacun sera tenu d'exporter et d'importer la ***Liste des paramètres spécifiques de l'utilisateur*** lors de la migration des données.

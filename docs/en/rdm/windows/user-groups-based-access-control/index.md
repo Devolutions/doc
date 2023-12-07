@@ -18,7 +18,7 @@ Here are the main key points of the user group based access system:
 While the user group based access control is a great feature to secure access to entries, many other features can be used to add more security layers. For more information, please consult the following topics:  
 
 * [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) 
-* {{ en.VLT }} Link 
+* [{{ en.VLT_MAJ }}](/rdm/windows/commands/administration/management/vaults-overview/)
 * [Password Templates](/rdm/windows/commands/file/templates/password-templates/) 
 * [Two-factor authentication](/rdm/windows/data-sources/multi-factor-authentication/) 
 * One-time password 
@@ -99,7 +99,7 @@ To set permissions on an entry, edit any entry, then navigate to the ***Permissi
 ![Entry's Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6038.png) 
 
 Permissions are usually set on folders, and apply to all child entries. A best practice is to set all the permissions of the {{ en.VLT }} folder to ***Never***. As a result, all permissions of all entries are denied by default.  
-![{{ en.VLT }} Settings Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6039.png) 
+![{{ en.VLT_MAJ }} Settings Permissions](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6039.png) 
 
 Access is denied to users by expressly granting the access to other users. In other words, all users that are not on the list of a permission have the access denied.  
 

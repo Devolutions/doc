@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Request vault access in {{ en.RDMMAC }}
+  title: Request {{ en.VLT }} access in {{ en.RDMMAC }}
   order: 10
   description: You can request access to a public {{ en.VLT }} in {{ en.RDMMAC }}.
 ---

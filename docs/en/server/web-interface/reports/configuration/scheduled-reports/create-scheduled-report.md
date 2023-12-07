@@ -126,7 +126,7 @@ Choose specific messages or fail type to refine the report.
 	</tr>
 	<tr>
 		<td>
-{{ en.VLT }} 
+{{ en.VLT_MAJ }} 
 		</td>
 		<td>
 Select all or specific {{ en.VLT }}s. 

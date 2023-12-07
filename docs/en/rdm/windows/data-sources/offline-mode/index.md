@@ -34,7 +34,7 @@ The offline mode availability relies on several settings:
 * The user's account must be enabled in ***Administration – Users – Edit – Settings – Offline mode***. 
 * The user groups policies (only for the {{ en.DVLS }} data source) in ***Administration – User groups – Edit – Settings – Offline mode***. 
 * The data source ***System Settings*** in ***Administration – System Settings – Cache/Offline – Offline mode*** and ***Expiration***. 
-* For each {{ en.VLT }}, ***Administration – {{ en.VLT }} Settings – Security Settings – Allow offline***. 
+* For each {{ en.VLT }}, ***Administration – {{ en.VLT_MAJ }} Settings – Security Settings – Allow offline***. 
 
 The lowest setting (in terms of security) prevails over the others, which may prevent you from using the offline mode. If the ***Go Offline*** button is not available, please consult your administrator.  
 
@@ -130,7 +130,7 @@ Beyond the group policies, the ***Offline mode*** is controlled on multiple leve
 
 * User permissions 
 * System Settings 
-* {{ en.VLT }} settings 
+* {{ en.VLT_MAJ }} settings 
 
 A user must be granted Read/Write at all levels to allow read/write privileges.  
 
@@ -144,7 +144,7 @@ USER PERMISSIONS
 SYSTEM SETTINGS 
 		</th>
 		<th>
-{{ en.VLT }} SETTINGS 
+{{ en.VLT_MAJ }} SETTINGS 
 		</th>
 		<th>
 EFFECTIVE ACCESS 

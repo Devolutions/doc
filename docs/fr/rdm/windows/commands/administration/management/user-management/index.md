@@ -135,10 +135,10 @@ Cochez la case ***Est membre*** pour attribuer le groupes d'utilisateurs à l'ut
 	</tr>
 </table>
 
-### {{ fr.VLT }}s 
+### {{ fr.VLT_MAJ }}s 
 
 Sélectionner les ***{{ fr.VLT }}s*** auxquels l'utilisateur a accès.  
-![Gestion des utilisateurs - {{ fr.VLT }}s](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3624.png) 
+![Gestion des utilisateurs - {{ fr.VLT_MAJ }}s](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3624.png) 
 
 ### Accès à l'application 
 

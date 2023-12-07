@@ -101,7 +101,7 @@ The {{ en.DVLSCONSOLE }} manages the IIS metabase. It must be started with eleva
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Users              | Opens the [Users management](/server/web-interface/administration/security-management/users/) page on the {{ en.DVLS }} web interface.             |
 | User Groups        | Opens the [User groups management](/server/web-interface/administration/security-management/user-groups/) page on the {{ en.DVLS }} web interface. |
-| {{ en.VLT }}s      | Opens the [{{ en.VLT }}s management](/server/web-interface/administration/security-management/vaults/) page on the {{ en.DVLS }} web interface.    |
+| {{ en.VLT_MAJ }}s      | Opens the [{{ en.VLT }}s management](/server/web-interface/administration/security-management/vaults/) page on the {{ en.DVLS }} web interface.    |
 | System Settings    | Opens the [System settings](/server/web-interface/administration/configuration/system-settings/) page on the {{ en.DVLS }} web interface.          |
 | System Permissions | Opens the [System permissions](/server/web-interface/administration/configuration/system-permissions/) page on the {{ en.DVLS }} web interface.    |
 | Backup Manager     | Opens the [Backup manager](/server/web-interface/administration/backup/backup-manager/) page on the {{ en.DVLS }} web interface.                   |

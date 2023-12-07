@@ -383,9 +383,9 @@ If you wish to to process Database upgrade by hand instead of automatically you 
 	</tr>
 </table>
 
-### {{ en.UVLT }} 
+### {{ en.UVLT_MAJ }} 
 
-![SQL Server - {{ en.UVLT }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6041.png) 
+![SQL Server - {{ en.UVLT_MAJ }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6041.png) 
 
 <table>
 	<tr>

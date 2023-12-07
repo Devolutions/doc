@@ -16,7 +16,7 @@ The PAM features you have access to in {{ en.RDM }} will depend on the data sour
 Here are some of its main features:  
 
 * Ease of deployment and management
-* Secure password Vault
+* Secure password {{ en.VLT }}
 * Logging and reporting
 * Built-in two-factor authentication
 * Access brokering

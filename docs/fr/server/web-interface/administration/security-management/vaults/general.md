@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Général
 ---
-![{{ fr.VLT }}s - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8065.png) 
+![{{ fr.VLT_MAJ }}s - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8065.png) 
 
 <table>
 	<tr>

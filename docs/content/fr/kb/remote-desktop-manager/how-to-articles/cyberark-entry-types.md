@@ -39,13 +39,13 @@ The CyberArk PVWA credential, CyberArk Dashboard connection, and CyberArk PSM Co
 ## CyberArk Dashboard (Connection)
 
 {% snippet icon.badgeInfo %}
-The ***My Account Settings PVWA*** option is the setting located in ***File*** – ***My Account Settings*** – ***CyberArk PVWA***. ***AAM (User vault search)*** is to find a stored AAM entry within an Advanced Data Source User Vault.
+The ***My Account Settings PVWA*** option is the setting located in ***File*** – ***My Account Settings*** – ***CyberArk PVWA***. ***AAM ({{ en.UVLT }} search)*** is to find a stored AAM entry within an Advanced Data Source {{ en.UVLT }}.
 {% endsnippet %}  
 
-- ***CyberArk***: Custom, My Account Settings PVWA, AAM (Linked), AAM (User vault search)
-- ***LDAP***: Custom, My Account Settings PVWA, AAM (Linked), AAM (User vault search)
-- ***Radius***: Custom, My Account Settings PVWA, AAM (Linked), AAM (User vault search)
-- ***Windows***: Custom, My Account Settings PVWA, AAM (Linked), AAM (User vault search)
+- ***CyberArk***: Custom, My Account Settings PVWA, AAM (Linked), AAM ({{ en.UVLT }} search)
+- ***LDAP***: Custom, My Account Settings PVWA, AAM (Linked), AAM ({{ en.UVLT }} search)
+- ***Radius***: Custom, My Account Settings PVWA, AAM (Linked), AAM ({{ en.UVLT }} search)
+- ***Windows***: Custom, My Account Settings PVWA, AAM (Linked), AAM ({{ en.UVLT }} search)
 - ***SAML:*** None
 
 ## CyberArk PVWA (Credential)

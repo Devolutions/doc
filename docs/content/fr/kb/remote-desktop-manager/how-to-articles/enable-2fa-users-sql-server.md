@@ -35,7 +35,7 @@ In ***Administration – System Settings – Application Specific – Applicatio
 ![Force application security with Duo (Authenticator)](https://webdevolutions.azureedge.net/docs/en/kb/KB2267.png)
 
 ## Force data source multi-factor configuration
-In ***Administration – System Settings – Vault Management – Security Settings – Security***, check ***Force data source multi-factor configuration*** to enable it.  
+In ***Administration – System Settings – {{ en.VLT_MAJ }} Management – Security Settings – Security***, check ***Force data source multi-factor configuration*** to enable it.  
 
 ![Force data source multi-factor configuration](https://webdevolutions.azureedge.net/docs/en/kb/KB2273.png)
 

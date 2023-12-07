@@ -57,7 +57,7 @@ Use the credentials stored in My Personal Credentials
 	</tr>
 	<tr>
 		<td>
-{{ en.UVLT }} credential entry 
+{{ en.UVLT_MAJ }} credential entry 
 		</td>
 		<td>
 Use a [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) credential entry. 

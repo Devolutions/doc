@@ -639,7 +639,7 @@ Récupère les paramètres de {{ fr.DGW }}.
 	</tr>
 </table>
 
-## {{ fr.VLT }} 
+## {{ fr.VLT_MAJ }} 
 
 Cette section concerne les commandes permettant de gérer les {{ fr.VLT }}s.  
 

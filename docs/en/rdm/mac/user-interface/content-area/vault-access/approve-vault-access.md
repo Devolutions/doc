@@ -1,16 +1,16 @@
 ---
 eleventyComputed:
-  title: Approve vault access in {{ en.RDMMAC }}
+  title: Approve {{ en.VLT }} access in {{ en.RDMMAC }}
   order: 20
   description: In {{ en.RDMMAC }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 ---
-In {{ en.RDMMAC }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request. {{ en.VLT }} owners are configured in the ***{{ en.VLT }} Management*** when creating or editing a {{ en.VLT }}.  
+In {{ en.RDMMAC }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request. {{ en.VLT_MAJ }} owners are configured in the ***{{ en.VLT_MAJ }} management*** when creating or editing a {{ en.VLT }}.  
 
 ## View pending {{ en.VLT }} access requests
 
-To view all your past and current requests, you must use the following ***Pending {{ en.VLT }} Access Requests*** box to open the ***{{ en.VLT }} Access Requests*** window.  
+To view all your past and current requests, you must use the following ***Pending {{ en.VLT }} Access Requests*** box to open the ***{{ en.VLT_MAJ }} Access Requests*** window.  
 ![Dashboard – Pending {{ en.VLT }} access requests](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2065.png)  
-In the ***{{ en.VLT }} Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***{{ en.VLT }}***, ***Username***, ***Data source user***, ***Date***, ***Authorizer username***, or ***Authorizer data source user***.  
+In the ***{{ en.VLT_MAJ }} Access Requests*** window, you can see all your temporary access requests and sort them by ***Status***, ***{{ en.VLT_MAJ }}***, ***Username***, ***Data source user***, ***Date***, ***Authorizer username***, or ***Authorizer data source user***.  
 ![Show {{ en.VLT }} access requests](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2066.png)  
 
 It is also possible to display only certain requests with the ***Status*** drop-down menu or with the search bar at the top.  
@@ -36,7 +36,7 @@ The first option is to use the ***Pending {{ en.VLT }} Access Requests*** box (s
 
 The second option requires you to go through the other ***Pending {{ en.VLT }} Access Requests*** box described in the previous section. Whatever way you choose to access the response window, the result will be the same.  
 
-![{{ en.VLT }} Access Request Response](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2069.png)
+![{{ en.VLT_MAJ }} Access Request Response](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2069.png)
 This view is divided into two sections:
 
 * The ***Request Info*** section contains information about the user's request. Because this was done on the user's side, fields in this section cannot be edited.

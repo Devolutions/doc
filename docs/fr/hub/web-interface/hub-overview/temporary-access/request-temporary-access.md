@@ -18,7 +18,7 @@ La durée de ***l'Accès temporaire*** commence lorsque la demande est approuvé
 
 Suivez les étapes ci-dessous pour apprendre comment demander un accès temporaire :  
 
-1. Dans l'onglet ***{{ fr.VLT }}***, sélectionner l'entrée à laquelle accéder dans le {{ fr.VLT }} de votre choix. 
+1. Dans l'onglet ***{{ fr.VLT_MAJ }}***, sélectionner l'entrée à laquelle accéder dans le {{ fr.VLT }} de votre choix. 
 1. Cliquer sur ***Plus***, puis sélectionner ***Demande d'accès temporaire***.  
 ![Demande d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6033.png) 
 1. Dans la fenêtre ***Demande d'accès temporaire***, sélectionner la ***Durée de l'accès*** dans la liste déroulante.  

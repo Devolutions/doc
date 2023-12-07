@@ -29,10 +29,10 @@ Ouvrir le panneau dans la gestion des [Utilisateurs](/fr/rdm/windows/commands/ad
 	</tr>
 	<tr>
 		<td>
-{{ fr.VLT }}s 
+{{ fr.VLT_MAJ }}s 
 		</td>
 		<td>
-Ouvrir le panneau ***{{ fr.VLT }}s*** dans la gestion des usagers et de la sécurité. 
+Ouvrir le panneau ***{{ fr.VLT_MAJ }}s*** dans la gestion des usagers et de la sécurité. 
 		</td>
 	</tr>
 	<tr>

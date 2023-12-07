@@ -27,7 +27,7 @@ When creating your privileged account, you need to provide some information. See
 | Option  | Description                                                    |
 |---------|----------------------------------------------------------------|
 | Name    | Name of the privileged account entry.                          |
-| Folder  | Location of the entry inside the PAM Vault. Leave it empty to create the entry at the root. |
+| Folder  | Location of the entry inside the PAM {{ en.VLT }}. Leave it empty to create the entry at the root. |
 
 ### Connection information
 

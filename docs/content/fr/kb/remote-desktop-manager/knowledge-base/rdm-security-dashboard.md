@@ -41,7 +41,7 @@ Voir <a href="/kb/devolutions-server/how-to-articles/configure-ssl/" target="_bl
 Description 
 		</td>
 		<td>
-Les journaux d'activité des {{ fr.VLT }}s d’utilisateur ne sont pas activés par défaut et sont utiles en cas de réponse à un incident. 
+Les journaux d'activité du {{ fr.UVLT }} ne sont pas activés par défaut et sont utiles en cas de réponse à un incident. 
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +49,7 @@ Les journaux d'activité des {{ fr.VLT }}s d’utilisateur ne sont pas activés 
 Mesures d'atténuation 
 		</td>
 		<td>
-Dans Administration - Paramètres du système - {{ fr.UVLT }}, cochez Journaliser les activités du {{ fr.UVLT }}. 
+Dans ***Administration – Paramètres du système – {{ fr.UVLT }}***, cochez Journaliser les activités du {{ fr.UVLT }}. 
 		</td>
 	</tr>
 </table>

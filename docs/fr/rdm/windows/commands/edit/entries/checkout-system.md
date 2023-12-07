@@ -13,7 +13,7 @@ Cette fonctionnalité est seulement disponible avec une source de données telle
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Les administrateurs peuvent définir la ***Restitution automatique après*** un certain nombre de minutes dans ***Administration - Paramètres du système - {{ fr.VLT }}***. 
+Les administrateurs peuvent définir la ***Restitution automatique après*** un certain nombre de minutes dans ***Administration - Paramètres du système - {{ fr.VLT_MAJ }}***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

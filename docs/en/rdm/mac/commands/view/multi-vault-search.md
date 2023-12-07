@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Multi vault search
+  title: Multi {{ en.VLT }} search
 ---
 ![Multi {{ en.VLT }} Search Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0025.png) 
 

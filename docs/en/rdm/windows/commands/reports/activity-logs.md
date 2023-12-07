@@ -50,7 +50,7 @@ Indicates the connection being used to open your entry.
 	</tr>
 	<tr>
 		<td>
-{{ en.VLT }} 
+{{ en.VLT_MAJ }} 
 		</td>
 		<td>
 Indicates the {{ en.VLT }} in which the action was executed. 

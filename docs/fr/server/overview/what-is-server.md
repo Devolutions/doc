@@ -25,7 +25,7 @@ Il existe deux façons d'utiliser {{ fr.DVLS }} :
 
 ![!!clip10056](https://webdevolutions.azureedge.net/docs/fr/server/clip10056.png)  
 
-## {{ fr.VLT }} infonuagique  
+## {{ fr.VLT_MAJ }} infonuagique  
 
 Accès par le navigateur Web et [{{ fr.DWL }}](/fr/server/dwl/overview/) 
 		</td>

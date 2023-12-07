@@ -16,7 +16,7 @@ Les fonctionnalités de gestion des accès privilégiés auxquelles vous avez ac
 Voici quelques-unes de ses principales caractéristiques :  
 
 * Facilité de déploiement et de gestion
-* Coffre-fort sécurisé avec mot de passe
+* {{ fr.VLT_MAJ }} sécurisé avec mot de passe
 * Journalisation et compte rendu
 * Authentification à deux facteurs intégrée
 * Injection des identifiants

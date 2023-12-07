@@ -47,6 +47,8 @@ module.exports = {
     RDMMOBILE: 'Remote Desktop Manager mobile',
     RDMOS: 'Services en ligne de RDM',
     RDMWIN: 'Remote Desktop Manager Windows',
-    UVLT: "Coffre d'utilisateur",
-    VLT: 'Coffre',
+    UVLT: "coffre d'utilisateur",
+    UVLT_MAJ: "Coffre d'utilisateur",
+    VLT: 'coffre',
+    VLT_MAJ: 'Coffre'
   }

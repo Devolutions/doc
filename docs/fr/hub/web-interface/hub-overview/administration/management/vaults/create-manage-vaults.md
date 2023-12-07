@@ -12,7 +12,7 @@ Les ***{{ fr.VLT }}s*** permettent de partager des entrées avec des utilisateur
 
 ### Créer un {{ fr.VLT }} 
 
-1. Aller dans ***Administration - {{ fr.VLT }}s***. 
+1. Aller dans ***Administration - {{ fr.VLT_MAJ }}s***. 
 1. Cliquer sur ***Ajouter*** en haut à droite de l'écran.  
 ![!!Hub4139](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4139.png) 
 1. Nommer le {{ fr.VLT }}. 
@@ -22,7 +22,7 @@ Les ***{{ fr.VLT }}s*** permettent de partager des entrées avec des utilisateur
 
 ### Ajouter des permissions à un {{ fr.VLT }} 
 
-1. Aller dans ***Administration - {{ fr.VLT }}s***. 
+1. Aller dans ***Administration - {{ fr.VLT_MAJ }}s***. 
 1. Cliquer sur le crayon ***Modifier*** à côté du {{ fr.VLT }}. 
 1. Dans la section de l'onglet ***Modifier***, cliquer sur le menu déroulant à côté de chaque ***Permissions*** prédéfinie pour attribuer des utilisateurs et des groupes d'utilisateurs ou sélectionner et configurer un rôle personnalisé pour votre organisation. 
 {% snippet icon.badgeNotice %} 
@@ -35,7 +35,7 @@ Cliquez sur le bouton ***Afficher la définition des rôles*** pour choisir dans
 
 ### Modifier un {{ fr.VLT }} 
 
-1. Aller dans ***Administration - {{ fr.VLT }}s***. 
+1. Aller dans ***Administration - {{ fr.VLT_MAJ }}s***. 
 1. Cliquer sur le crayon ***Modifier*** à côté du {{ fr.VLT }}.  
 ![!!Hub4142](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4142.png) 
 1. Cliquer ***Mettre à jour*** pour enregistrer.

@@ -48,5 +48,7 @@ module.exports = {
     RDMOS: 'RDM Onlinedienste',
     RDMWIN: 'Remote Desktop Manager Windows',
     UVLT: 'Benutzer-Tresor',
+    UVLT_MAJ: 'Benutzer-Tresor',
     VLT: 'Tresor',
+    VLT_MAJ: 'Tresor'
   }

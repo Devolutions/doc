@@ -171,10 +171,10 @@ Check the ***Is Member*** box to assign the user groups to the user. Consult [Us
 	</tr>
 </table>
 
-### {{ en.VLT }}s 
+### {{ en.VLT_MAJ }}s 
 
 Select which repositories the user has access to. For more information, please consult {{ en.VLT }}s.  
-![User Management - {{ en.VLT }}s](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3624.png) 
+![User Management - {{ en.VLT_MAJ }}s](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3624.png) 
 
 ### Application Access 
 

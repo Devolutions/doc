@@ -94,7 +94,7 @@ Specify the location of the data source on your screen (top or bottom of the <b>
 	</tr>
 	<tr>
 		<td>
-{{ en.VLT }} location 
+{{ en.VLT_MAJ }} location 
 		</td>
 		<td>
 Specify the location of the {{ en.VLT }} on your screen (top or bottom of the <b><i>{{ en.NPANE }}</i></b>, or not visible). 

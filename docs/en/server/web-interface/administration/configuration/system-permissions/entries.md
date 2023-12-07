@@ -41,7 +41,7 @@ Restrain creating entries in root to certain users.
 	</tr>
 	<tr>
 		<td>
-{{ en.VLT }} settings
+{{ en.VLT_MAJ }} settings
 		</td>
 		<td>
 Restrain access to {{ en.VLT }} settings to certain users.
