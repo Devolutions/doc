@@ -45,109 +45,17 @@ Note that the CSV file can contain our variables: they will be resolved upon sav
  
 Below is a non-exhaustive list of some relevant fields.  
 
-<table>
-	<tr>
-		<th>
-FIELD 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Host 
-		</td>
-		<td>
-Host name of the device. This field is **mandatory**.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Name of the entry. This field is **mandatory**.
-		</td>
-	</tr>
-	<tr>
-		<td>
-ConnectionType 
-		</td>
-		<td>
-Token representing the connection type. It is best to use the ***Clipboard – Copy*** method to obtain the acceptable values. If no connection type is specified, RDP will be use by default. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Group 
-		</td>
-		<td>
-Destination folder. Note that if the import process itself defined a destination folder, the folder listed here would be created below the one from the process. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description 
-		</td>
-		<td>
-Description of the entry. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Open (Embedded) 
-		</td>
-		<td>
-Boolean value (true or false) that indicates to open the session embedded. The default value is false, meaning that the native client will be used depending on the technology (MSTSC.EXE, for instance). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Username 
-		</td>
-		<td>
-Username used to open a session to the device. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Domain 
-		</td>
-		<td>
-Domain used to open a session to the device. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password 
-		</td>
-		<td>
-Password used to open a session to the device. Please note that this field is encrypted and stored into another field upon being imported. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-MetaInformation\SerialNumber 
-		</td>
-		<td>
-Serial number of the device. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-MetaInformation\ServiceTag 
-		</td>
-		<td>
-Service tag of the device. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-MetaInformation\PurchaseDate 
-		</td>
-		<td>
-Purchase date in a ISO8601 format (i.e., yyyy-mm-dd). 
-		</td>
-	</tr>
-</table>
+| FIELD                       | DESCRIPTION                                                                                     |
+|-----------------------------|-------------------------------------------------------------------------------------------------|
+| Host                            | Host name of the device. This field is **mandatory**.                                                                            |
+| Name                            | Name of the entry. This field is **mandatory**.                                                                            |
+| ConnectionType                  | Token representing the connection type. It is best to use the ***Clipboard – Copy*** method to obtain the acceptable values. If no connection type is specified, RDP will be used by default. |
+| Group                           | Destination folder. Note that if the import process itself defined a destination folder, the folder listed here would be created below the one from the process.                       |
+| Description                     | Description of the entry.                                                                                    |
+| Open (Embedded)                 | Boolean value (true or false) that indicates to open the session embedded. The default value is false, meaning that the native client will be used depending on the technology (MSTSC.EXE, for instance). |
+| Username                        | Username used to open a session to the device.                                                                                   |
+| Domain                          | Domain used to open a session to the device.                                                                                   |
+| Password                        | Password used to open a session to the device. Please note that this field is encrypted and stored into another field upon being imported.                                            |
+| MetaInformation\SerialNumber    | Serial number of the device.                                                                                   |
+| MetaInformation\ServiceTag      | Service tag of the device.                                                                                   |
+| MetaInformation\PurchaseDate    | Purchase date in a ISO8601 format (i.e., yyyy-mm-dd).                                                                              |
