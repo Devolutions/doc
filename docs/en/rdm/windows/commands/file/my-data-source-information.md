@@ -17,135 +17,30 @@ The ***My Data Source Information*** view can be different depending on the [Dat
 The General tab displays information about the current user and data source configuration.  
 ![My Data Source Information - General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10881.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Database user 
-		</td>
-		<td>
-The name of the user currently logged to the database. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-User 
-		</td>
-		<td>
-The actual windows user. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description 
-		</td>
-		<td>
-Display the description of the user connected to the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Is administrator 
-		</td>
-		<td>
-Indicates if the user is an administrator. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow offline mode 
-		</td>
-		<td>
-Indicates if the user can use the data source in offline mode. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow drag-and-drop 
-		</td>
-		<td>
-Indicates if the user can drag-and-drop entries in the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Is Auto Refresh 
-		</td>
-		<td>
-Indicates if the data source auto refreshes. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Auto refresh interval 
-		</td>
-		<td>
-Indicates the delay for the auto refresh to occur. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Is Two Factor Configuration 
-		</td>
-		<td>
-Indicates if the data source is configured with a second factor of authentication. 
-		</td>
-	</tr>
-</table>
+| OPTION                      | DESCRIPTION                                                                                     |
+|-----------------------------|-------------------------------------------------------------------------------------------------|
+| Database user               | The name of the user currently logged to the database.                                          |
+| User                        | The actual windows user.                                                                        |
+| Description                 | Display the description of the user connected to the data source.                               |
+| Is administrator            | Indicates if the user is an administrator.                                                      |
+| Allow offline mode          | Indicates if the user can use the data source in offline mode.                                  |
+| Allow drag-and-drop         | Indicates if the user can drag-and-drop entries in the data source.                             |
+| Is Auto Refresh             | Indicates if the data source auto refreshes.                                                    |
+| Auto refresh interval       | Indicates the delay for the auto refresh to occur.                                              |
+| Is Two Factor Configuration | Indicates if the data source is configured with a second factor of authentication.              |
+
 
 ### Entries 
 
 ![My Data Source Information – Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10065.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Add, Edit and Delete entries 
-		</td>
-		<td>
-Indicates if the user has the right to add, edit, or delete entries. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-View information section 
-		</td>
-		<td>
-Indicates if the user can view the information section of entries. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Import and Export entries 
-		</td>
-		<td>
-Indicates if the user has the privilege to import or export entries. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow add entry in {{ en.VLT }} folder 
-		</td>
-		<td>
-Indicates if the user can add entries in the {{ en.VLT }} of the data source. 
-		</td>
-	</tr>
-</table>
+| OPTION                           | DESCRIPTION                                                               |
+|----------------------------------|---------------------------------------------------------------------------|
+| Add, Edit and Delete entries     | Indicates if the user has the right to add, edit, or delete entries.      |
+| View information section         | Indicates if the user can view the information section of entries.        |
+| Import and Export entries        | Indicates if the user has the privilege to import or export entries.      |
+| Allow add entry in {{ en.VLT }} folder | Indicates if the user can add entries in the {{ en.VLT }} of the data source. |
+
 
 ### User Groups 
 
