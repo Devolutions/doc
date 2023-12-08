@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Data sources
+  description: Use File – Data Sources to manage data sources. {{ en.RDM }} supports multiple types of data source. Most are available only with an Team Edition of {{ en.RDM }}.  
 ---
 Use ***File – Data Sources*** to manage data sources. {{ en.RDM }} supports multiple types of data source. Most are available only with an Team Edition of {{ en.RDM }}.  
 
@@ -36,37 +37,8 @@ Use the ***unlock*** button to unlock a data source locked with a password.
 
 Choose which data source to connect to when the application starts. 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Use default data source 
-		</td>
-		<td>
-Set the data source that you always want to open at start up. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Last used data source 
-		</td>
-		<td>
-Open with the last used data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Prompt for data source 
-		</td>
-		<td>
-A message box will open on startup for the data source selection. 
-		</td>
-	</tr>
-</table>
+| OPTION                | DESCRIPTION                                                    |
+|-----------------------|----------------------------------------------------------------|
+| Use default data source | Set the data source that you always want to open at startup. |
+| Last used data source | Open with the last used data source.                           |
+| Prompt for data source | A message box will open on startup for the data source selection. |
