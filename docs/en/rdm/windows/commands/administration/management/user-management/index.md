@@ -51,15 +51,15 @@ The ***Information*** section allows to store information regarding the users, s
 Select user groups to assign to the user.  
 ![User Management - User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11297.png) 
 
-| OPTION       | DESCRIPTION                                                                                                        |
-| ------------ | ------------------------------------------------------------------------------------------------------------------ |
+| OPTION                            | DESCRIPTION  
+|-----------------------------------|------------------------------------------------------------------------------------------- |
 | User Groups  | Check the ***Is Member*** box to assign user groups to the user. Consult [User Groups Management](/rdm/windows/commands/administration/management/user-groups-management/) for more information.                                                                                      |
 | {{ en.VLT }}s | Select which repositories the user has access to. For more information, please consult {{ en.VLT }}s.  ![User Management - {{ en.VLT }}s](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3624.png)                                                                      |
 | Application Access | The application access section allows you to restrict access to {{ en.RDM }} or the [{{ en.WBEX }}](/rdm/windows/workspace-browser-extension/overview/).  ![User Management - Application Access](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3625.png)                       |
 
 
-| OPTION       | DESCRIPTION                                                                                                        |
-| ------------ | -----------------------------------------------------------------------------------------------------              |
+| OPTION                            | DESCRIPTION  
+|-----------------------------------|------------------------------------------------------------------------------------------- |
 | {{ en.RDM }} | Select if the user can access the data source from {{ en.RDM }}.                                                   |
 | [{{ en.WBEX }}](/rdm/windows/workspace-browser-extension/overview/) | Select if the user can access the data source from the {{ en.WBEX }}.                 |
 
@@ -69,8 +69,8 @@ Select user groups to assign to the user.
 
 Allow the user to enable the [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the data sources. This also depends on the data source being configured to allow it. See the available modes below:  
 
-| OPTION      | DESCRIPTION                                                                                                                   |
-|-------------|------------------------------------------------------------------------------------------------------------------------------|
+| OPTION                            | DESCRIPTION  
+|-----------------------------------|------------------------------------------------------------------------------------------- |
 | Disabled    | No offline cache allowed for the user.                                                                                                                         |
 | Cache only  | Allow to save a cache of the data source but not the offline mode.                                                                                                                         |
 | Read-only   | A read-only cache. The user will not be able to edit data in the data source. This mode is allowed for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) only.                                                                                                                         |

@@ -28,8 +28,8 @@ For our example we are running an RDP session. The ribbon will display the follo
 
 ### Display 
 
-| Option          Description                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------ |
+| Option           | Description                                                                                        |
+| -----------------|-------------------------------------------------------------------------------------------- |
 | Undock           | Undock your embedded session and move it anywhere outside {{ en.RDM }} or even on another monitor.         |
 | Embedded         | Re-embed your session when your session is undocked. This option will only appear if your session is not already in an embedded mode. |
 | Full Screen      | Display your session in full screen outside {{ en.RDM }}.                                          |
@@ -68,24 +68,9 @@ Session add-ons may add custom command in this section, they will not be documen
 
 ### Video 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Record 
-		</td>
-		<td>
-Record your screen in an MP4 format. We recommend the use of a VLC player to view the recorded video. 
-		</td>
-	</tr>
-</table>
+| OPTION | DESCRIPTION                                                                      |
+|--------|----------------------------------------------------------------------------------|
+| Record | Record your screen in an MP4 format. We recommend the use of a VLC player to view the recorded video. |
 
 Alternatively, these actions are also available by right-clicking on the tab of an embedded session.  
 ![Actions Context Menu of an Embedded Session](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10184.png) 

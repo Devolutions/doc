@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Play list actions
+  description: You can create Local or Shared play List in {{ en.RDM }}. There are several methods to create or edit a Play List.
 ---
 {% youtube 'VTGPUMl5zKY' %}  
 
@@ -23,40 +24,12 @@ From the ribbon, go to ***Edit – Play List – Play List Management***.
 
 Play lists can be saved three different ways: 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Local 
-		</td>
-		<td>
-The Play List is saved locally and can only be accessed as such. These can only be launched through the Play List Management. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Shared 
-		</td>
-		<td>
-The Play List is saved in the database. It can be accessed by anyone on the data source. These can be launched through the Play List Management or by using the entry itself. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.UVLT_MAJ }} 
-		</td>
-		<td>
-The Play List is saved in your {{ en.UVLT }} and can only be accessed by the user. These can be launched through the Play List Management or by using the entry itself. 
-		</td>
-	</tr>
-</table>
+| OPTION                      | DESCRIPTION                                                            |
+|-------------------------------------------|----------------------------------------------------------|
+| Local          | The Play List is saved locally and can only be accessed as such. These can only be launched through the Play List Management.                                                                                       |
+| Shared         | The Play List is saved in the database. It can be accessed by anyone on the data source. These can be launched through the Play List Management or by using the entry itself.                                         |
+| {{ en.UVLT_MAJ }} | The Play List is saved in your {{ en.UVLT }} and can only be accessed by the user. These can be launched through the Play List Management or by using the entry itself.                                         |
+
 
 ## Actions 
 
@@ -67,80 +40,22 @@ The Play List is saved in your {{ en.UVLT }} and can only be accessed by the use
 1. In the ***Edit*** ribbon menu, click ***Play List***, then select whichever setting you prefer.  
 ![Edit - Play List - New](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10792.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-New 
-		</td>
-		<td>
-Creates a new Play List directly, a window prompt will ask you where you wish to save it and which selection you would like to highlight. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Create from Opened Sessions 
-		</td>
-		<td>
-Brings up the window for creating a new Play List with all currently opened session already selected for the Play List. You can select and remove additional entries if desired. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Add Selection to Existing Play List (X Entry) 
-		</td>
-		<td>
-Prompts a window where you can select currently accessible Play Lists and adds the selection in the {{ en.NPANE }} to the Play List. 
-		</td>
-	</tr>
-</table>
+| OPTION                      | DESCRIPTION                                                            |
+|-------------------------------------------|----------------------------------------------------------|
+| New                                     | Creates a new Play List directly, a window prompt will ask you where you wish to save it and which selection you would like to highlight.                                                    |
+| Create from Opened Sessions             | Brings up the window for creating a new Play List with all currently opened session already selected for the Play List. You can select and remove additional entries if desired.           |
+| Add Selection to Existing Play List (X Entry) | Prompts a window where you can select currently accessible Play Lists and adds the selection in the {{ en.NPANE }} to the Play List.                                                  |
 
 3. Choose if you wish to save your Play List locally, in a shared {{ en.VLT }} or in your {{ en.UVLT }}. Saving it locally will prompt a different window. This window will contain everything needed for a local Play List.  
 ![Save New Play List](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10255.png) 
 1. The next window lets you choose how you want your current selection or opened sessions to affect your playlist.  
 ![Selected Entries in {{ en.NPANE }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10256.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Selected Entries in <b><i>{{ en.NPANE }}</i></b> 
-		</td>
-		<td>
-All currently selected entries in the <b><i>{{ en.NPANE }}</i></b> will already be selected for your Play List. You can still add and remove entries to the Play List if you desire. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Opened Tabbed Sessions 
-		</td>
-		<td>
-All currently opened sessions (embedded only) will already be selected for your Play List. You can still add and remove entries to the Play List if you desire. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-No Selection 
-		</td>
-		<td>
-No pre-determined selection will be taken into account, create your Play List from a fresh start. 
-		</td>
-	</tr>
-</table>
+| OPTION                      | DESCRIPTION                                                            |
+|-----------------------------|------------------------------------------------------------------------|
+| Selected Entries in **_{{ en.NPANE }}_**  | All currently selected entries in the **_{{ en.NPANE }}_** will already be selected for your Play List. You can still add and remove entries to the Play List if you desire.               |
+| Opened Tabbed Sessions | All currently opened sessions (embedded only) will already be selected for your Play List. You can still add and remove entries to the Play List if you desire.                                           |
+| No Selection           | No pre-determined selection will be taken into account, create your Play List from a fresh start.                   |
 
 5. Follow this sequence: 
 	1. Enter a name for your ***Play List***. 
