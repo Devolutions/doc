@@ -1,7 +1,8 @@
 ---
 eleventyComputed:
   title: Checkout system
-  descrption: 
+  descrption: The Checkout system locks an entry while it is being used or modified. It prevents users from using or editing an entry at the same time.  
+
 ---
 {% youtube '-QbEyscBx8s' %}  
 
