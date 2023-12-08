@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Entry credentials options
-  description: Multiple options are available to use for ***Credentials*** in {{ en.RDM }} entries.  
+  description: Multiple options are available to use for Credentials in {{ en.RDM }} entries.  
 ---
 {% youtube 'FtSlp_TVAxE?si=VU395_g6MZ75HHvm&amp;start=636' %}  
 
