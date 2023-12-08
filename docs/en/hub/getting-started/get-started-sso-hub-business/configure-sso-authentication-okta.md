@@ -6,13 +6,29 @@ eleventyComputed:
   - SSO
   - Okta
 ---
-Here are the steps to configure Okta with {{ en.DHUBB }} for SSO authentication.
+Use Okta with {{ en.DHUBB }} for single sign-on (SSO) authentication by following the steps in this page. First see the requirements and supported features below.
+
+## Requirements
+
+To use SSO or automatic provisioning (SCIM) with Okta, you need an [Okta account](https://www.okta.com/) with the appropriate rights. You also need to complete the [Domain validation procedure](#domain-verification) to prove that you own the configured domain(s). Only users with emails whose domains have been verified will be allowed to log in via SSO or be provisioned via SCIM.
+
+## Supported features
+
+* Connect to the Hub via Okta SSO
+* Just-in-time (JIT) provisioning of connected users via Okta SSO
+* Synchronize your Okta to {{ en.DHUB }}
+   * Create/update users from your Okta to {{ en.DHUB }} (create users, update user attributes, and deactivate users)
+   * Create/update groups from your Okta to {{ en.DHUB }} (group push)
 
 {% snippet icon.badgeCaution %} 
-An [Okta account](https://www.okta.com/) with the appropriate rights is required. 
+Users provisioned JIT by SSO or created by SCIM synchronization must be invited to the Hub in ***Administration – Users***, as described in the steps below.
 {% endsnippet %}
 
-## Domain verification
+## Configuration steps
+
+Here are the steps to [validate your domain](#domain-verification), [configure single sign-on](#single-sign-on-sso-configuration), and [perform user provisioning](#provisioning-configuration).
+
+### Domain verification
 
 **In {{ en.DHUBB }}**  
 
@@ -48,7 +64,7 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
    If you experience any issues while trying to verify your domain, visit our [Domain validation troubleshooting](/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/) guide.
    {% endsnippet %}  
 
-## Single Sign-On (SSO) configuration
+### Single sign-on (SSO) configuration
 
 1. Once the domain is verified, go to ***Administration – Authentication – Single Sign-On (SSO)***, then click on ***Okta Single Sign-On (SSO)***. You will be directed to the configuration page.  
 ![Administration – Authentication – Single Sign-On (SSO) – Okta Single Sign-On (SSO)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2333.png)  
@@ -63,109 +79,61 @@ An [Okta account](https://www.okta.com/) with the appropriate rights is required
 **In Okta**  
 
 3. Log in to your Okta account.
-1. In ***Applications***, click ***Create App Integration***.  
-![Applications – Create App Integration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2238.png)  
-1. For the ***Sign-in method***, select ***OIDC - OpenID Connect***.
-![Sign-in method – OIDC - OpenID Connect](https://webdevolutions.azureedge.net/docs/en/hub/Hub2239.png)  
-1. For the ***Application type***, select ***Web Application***.
-![Application type – Web Application](https://webdevolutions.azureedge.net/docs/en/hub/Hub2240.png)  
-1. Click ***Next***. The ***New Web App Integration*** settings page will appear.
-1. Under ***General Settings***, enter an ***App integration name***.
-   ![App integration name](https://webdevolutions.azureedge.net/docs/en/hub/Hub2249.png)  
+1. In ***Applications***, click ***Browse App Catalog***.  
+![Applications – Browse App Catalog](https://webdevolutions.azureedge.net/docs/en/hub/Hub2348.png)
 
-   {% snippet icon.badgeNotice %} 
-   The app name does not need to match the one in {{ en.DHUB }}. We recommend including either "Devolutions" or "Hub" in the name. 
-   {% endsnippet %}
-
-1. In ***Grant type***, check ***Refresh Token*** and ***Implicit (hybrid)***.
-![Grant type](https://webdevolutions.azureedge.net/docs/en/hub/Hub2250.png)  
+1. Search for ***{{ en.DHUB }}***, then click on the application in the search results.  
+![Search for {{ en.DHUB }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub2349.png)  
+1. Click on ***Add Integration*** at the top.  
+1. In the ***Sign On*** tab, copy the ***Client ID***.  
+![Copy the client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2350.png)  
 
 **In {{ en.DHUBB }}**  
 
-10. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Callback URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-![Copy the Callback URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2336.png)  
+8. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client ID*** from the last step in the field of the same name.  
+![Paste the client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2337.png)  
 
 **In Okta**  
 
-11. Back in Okta, paste the ***Callback URL*** in the ***Sign-in redirect URIs*** field.  
-![Sign-in redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2251.png)  
+9. Back in the ***Sign On*** tab, copy the ***Client secret***.  
+![Copy the client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2351.png)  
 
 **In {{ en.DHUBB }}**  
 
-12. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Logout redirect URL*** by clicking on the ***Copy to Clipboard*** icon next to it.  
-![Copy the Logout redirect URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2335.png)  
-
-**In Okta**  
-
-13. Back in Okta, paste the ***Logout redirect URL*** in the ***Sign-out redirect URIs*** field.  
-![Sign-out redirect URIs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2252.png)  
-
-1. Under ***Assignments***, select the ***Controlled access*** option that best suits your needs. This choice is left to your discretion.  
-
-   {% snippet icon.badgeCaution %} 
-   If you choose to ***Allow everyone in your organization to access***, do **not** check the ***Enable immediate access with Federation Broker Mode*** option, as doing so would prevent you from enabling SCIM provisioning in the future. If you choose to ***Limit access to selected groups*** or ***Skip group assignment for now***, you must manually assign to this app the users you wish to authorize to connect to your {{ en.DHUBB }} via Okta.
-   {% endsnippet %}
-
-   ![Assignments](https://webdevolutions.azureedge.net/docs/en/hub/Hub2253.png)  
-
-1. Click ***Save***. You will be redirected to your new SSO application.
-1. Copy the ***Client ID*** by clicking on the ***Copy to clipboard*** icon next to it.  
-![Copy the Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2254.png)  
-
-**In {{ en.DHUBB }}**  
-
-17. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client ID*** from the last step in the field of the same name.  
-![Client ID](https://webdevolutions.azureedge.net/docs/en/hub/Hub2337.png)  
-
-**In Okta**  
-
-18. Back in Okta, copy the ***Client secret*** by clicking on the ***Copy to clipboard*** icon next to it.  
-![Copy the Client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2256.png)  
-
-   {% snippet icon.badgeCaution %} 
-   Do not close this setup page, as the following steps will require you to make further changes in it. 
-   {% endsnippet %}
-
-**In {{ en.DHUBB }}**  
-
-19. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client secret*** from the last step in the ***Client secret Key*** field.  
-![Client secret Key](https://webdevolutions.azureedge.net/docs/en/hub/Hub2338.png)  
+10. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client secret*** from the last step in the ***Client secret Key*** field.  
+![Paste the client secret](https://webdevolutions.azureedge.net/docs/en/hub/Hub2338.png)  
 1. In ***Discovery URL***, enter the URL you use to access Okta, without the "-admin" part.  
 
    {% snippet icon.badgeCaution %} 
-   Do not test the connection just yet, as a few additional steps are required in Okta.
+   Do not test the connection just yet, as you need to make sure your users are assigned to the application first.
    {% endsnippet %}  
 
    ![Discovery URL](https://webdevolutions.azureedge.net/docs/en/hub/Hub2339.png)  
 
 **In Okta**  
 
-21. Click ***Edit*** in the ***General Settings*** section.  
-![Edit the General Settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2260.png)  
-1. Set the ***Refresh token behavior*** to ***Rotate token after every use***.  
-![Rotate token after every use](https://webdevolutions.azureedge.net/docs/en/hub/Hub2261.png)  
-1. Click ***Save***.  
-1. In the ***Assignment*** tab at the top, make sure each user you want to use to test the configuration is assigned to the application. For more details, see Okta's own documentation on user management and application assignment.
+12. In the ***Assignment*** tab at the top, make sure each user you want to use to test the configuration is assigned to the application. For more details, see Okta's own documentation on user management and application assignment.
 ![Assignment](https://webdevolutions.azureedge.net/docs/en/hub/Hub2262.png)  
 
 **In {{ en.DHUBB }}**  
 
-25. Test the configuration in {{ en.DHUB }}. A new window should open to connect you to {{ en.DHUB }} through Okta. You will get a success message when connected.  
-   {% snippet icon.badgeCaution %}
-   If the popup does not appear, your browser or browser extension may be blocking it. You will need to change your browser and/or extension settings. If this still does not work, deactivating/removing the extension or changing your browser may also solve the problem.
-   {% endsnippet %}  
+13. Test the configuration in {{ en.DHUB }}. A new window opens to connect you to {{ en.DHUB }} through Okta. You will get a success message when connected.  
 
-26. Click ***Save*** in the ***Summary*** of your Okta SSO configuration.
+   {% snippet icon.badgeCaution %}
+   If the popup does not appear, your browser or browser extension may be blocking it. You will need to change your browser and/or extension settings. If this still does not work, deactivating/removing the extension or changing browser may also solve the problem.
+   {% endsnippet %}
+
+14. Click ***Save*** in the ***Summary*** of your Okta SSO configuration.
 ![Save the configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2340.png)  
 
 You should now see that the SSO configuration has a green checkmark icon next to it. This means that your SSO configuration through Okta is now enabled on your hub.  
 ![Active SSO configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2341.png)
 
-## Provisioning configuration
+### Provisioning configuration
 
 Synchronize your users and user groups from your providers to the hub.  
 
-### Settings
+#### Settings
 
 {% snippet icon.badgeInfo %}
 This feature will be available soon!
