@@ -14,7 +14,7 @@ eleventyComputed:
 * Access URI
     * The [Access URI](/kb/devolutions-server/knowledge-base/access-uri/) parameter must be properly set according to the DNS entry to reach the Load Balancer.
 * Load balancing tier
-    * Any load balancer technology, the only requirement is that the ***X-Forwarded-For*** header is added by any proxy/device that intervenes in the communication. As a best practice, the ***X-Forwarded-For*** header must be stripped if received by a client device, it MUST be set by your own network equipment.
+    * Any load balancer technology, the only requirement is that the [***X-Forwarded-For*** header](/kb/devolutions-server/knowledge-base/use-x-forwarded-for/) is added by any proxy/device that intervenes in the communication. As a best practice, the ***X-Forwarded-For*** header must be stripped if received by a client device, it MUST be set by your own network equipment.
 * {{ en.DVLS }} Instance tiers
     * The presence of the ***X-Forwarded-For*** must be included in the IIS Logs, please follow [Add X-Fowarded-For](/kb/devolutions-server/knowledge-base/add-x-forwarded-for-column-iis/)
 * Each node should add its own identity in the HTTP Response headers, this is helpful for seeing the full workflow, but some more security conscious organizations strip that header. Since this is a plain string, simply using a basic string that does not divulge the FQDN of the responding server is acceptable for most. e.g. “node1”, “node2”. Please follow [Identify the Server Answering on a High Availability Topology](/kb/devolutions-server/knowledge-base/identify-server-answering/) and add a unique string for each server node.
