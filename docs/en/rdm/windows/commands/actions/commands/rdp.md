@@ -9,8 +9,8 @@ The commands for an RDP session allow you to send remote commands to your host.
 
 ![RDP Commands](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10190.png) 
 
-| OPTION              | DESCRIPTION                                                                                                   |
-| ------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Option    | Description                                                                                                      |
+|-----------|------------------------------------------------------------------------------------------------------------------|
 | View Only           | Prevent the session from receiving any input from the keyboard or the mouse. Use it for read-only access to the remote server. |
 | Send Ctrl+Alt+Delete | Send the key combination <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Delete</kbd> to the host.                       |
 | Charms              | Display the Charms bar (Search, Share, Start, Devices, and Settings bar).                                     |

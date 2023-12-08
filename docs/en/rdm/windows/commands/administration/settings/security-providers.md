@@ -44,9 +44,8 @@ Applying a new security provider does process the whole database, therefore we a
 1. Select a security type from the drop-down list.  
 ![Security Type](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10285.png) 
 
-| OPTION           | DESCRIPTION                                                                                                             |
-|------------------|-------------------------------------------------------------------------------------------------------------------------|
-| Default          | This is the default security mode. The XML is not encrypted by default. Please note that the passwords are always encrypted. |
+| OPTION           | DESCRIPTION                                                                                      |----------------------------------------------------------------------------------------------------------------------|
+| Default          | This is the default security mode. The XML is not encrypted by default. Please note that the passwords are always encrypted.  |
 | Shared passphrase| Set up a shared passphrase for the Security Provider.                                                                   |
 | Certificate      | Set up a Certificate for the Security Provider.                                                                         |
 

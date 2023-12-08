@@ -10,7 +10,7 @@ For our example we are running an RDP session. The ribbon will display the follo
 
 ### Connection 
 
-| OPTION    | DESCRIPTION                                                                                                      |
+| Option    | Description                                                                                                      |
 |-----------|------------------------------------------------------------------------------------------------------------------|
 | Reconnect | Quickly close the session and then re-open it automatically. Use it to update the resolution of your embedded RDP connections when you resize the window. |
 | Close     | Close the active session.                                                                                        |
@@ -28,22 +28,22 @@ For our example we are running an RDP session. The ribbon will display the follo
 
 ### Display 
 
-| OPTION           | DESCRIPTION                                                                                                     |
-| ---------------- | --------------------------------------------------------------------------------------------------------------- |
-| Undock           | Undock your embedded session and move it anywhere outside {{ en.RDM }} or even on another monitor.              |
+| Option          Description                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ |
+| Undock           | Undock your embedded session and move it anywhere outside {{ en.RDM }} or even on another monitor.         |
 | Embedded         | Re-embed your session when your session is undocked. This option will only appear if your session is not already in an embedded mode. |
-| Full Screen      | Display your session in full screen outside {{ en.RDM }}.                                                       |
+| Full Screen      | Display your session in full screen outside {{ en.RDM }}.                                          |
 | Work Area Screen | Open the connection in full screen and have access to your local taskbar.                                       |
 
 
 ### Settings 
 
-| OPTION                           | DESCRIPTION                                                                                                             |
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Option                 | Description                                                                                     |
+| ---------------------- | ----------------------------------------------------------------------------------------------- |
 | Keep tab on disconnect           | Your session tab will stay after a session disconnect. For more information, see [Keep tabs open](/kb/remote-desktop-manager/how-to-articles/keep-tabs-opened/).                |
 | Smart Sizing                     | Enable or disable the RDP smart sizing. This setting will determine whether or not the client computer can scale the content on the remote computer to fit the window size of the client computer.                                                                                                      |
 | Smart Reconnect                  | Automatically reconnect your session with the most appropriate band.                                                    |
-| Windows Key on the Remote Computer | When enabling Windows key, it will send the function to your host instead of running it on your computer.             |
+| Windows Key on the Remote Computer | When enabling Windows key, it will send the function to your host instead of running it on your computer.                     |
 
 
 ### Commands 
@@ -60,11 +60,11 @@ Session add-ons may add custom command in this section, they will not be documen
  
 ### Screenshot 
 
-| OPTION                 | DESCRIPTION                                                                                     |
+| Option                 | Description                                                                                     |
 | ---------------------- | ----------------------------------------------------------------------------------------------- |
 | Send to Clipboard      | Performs a typical capture to the clipboard.                                                    |
 | Save to File           | Prompts for a file name and saves the capture to that file.                                     |
-| Save to File and Open  | Prompts for a file name and saves the capture to that file, then automatically opens the file using your default editor. |
+| Save to File and Open  | Prompts for a file name and saves the capture to that file, then automatically opens the file using your default editor.     |
 
 ### Video 
 

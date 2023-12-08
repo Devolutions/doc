@@ -69,10 +69,10 @@ Select user groups to assign to the user.
 
 Allow the user to enable the [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the data sources. This also depends on the data source being configured to allow it. See the available modes below:  
 
-| OPTION      | DESCRIPTION                                                                                                                  |
+| OPTION      | DESCRIPTION                                                                                                                   |
 |-------------|------------------------------------------------------------------------------------------------------------------------------|
-| Disabled    | No offline cache allowed for the user.                                                                                       |
-| Cache only  | Allow to save a cache of the data source but not the offline mode.                                                           |
-| Read-only   | A read-only cache. The user will not be able to edit data in the data source. This mode is allowed for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) only.                                                                                             |
-| Read/Write  | An advanced cache, with change synchronization. This mode is allowed for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) only.                                                                                                                |
+| Disabled    | No offline cache allowed for the user.                                                                                                                         |
+| Cache only  | Allow to save a cache of the data source but not the offline mode.                                                                                                                         |
+| Read-only   | A read-only cache. The user will not be able to edit data in the data source. This mode is allowed for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) only.                                                                                                                         |
+| Read/Write  | An advanced cache, with change synchronization. This mode is allowed for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) only.                                                                                                                         |
 
