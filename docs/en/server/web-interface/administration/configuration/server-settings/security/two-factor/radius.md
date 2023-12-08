@@ -32,8 +32,8 @@ See in the tables below what each setting does in each tab.
 | Username | Username that can authenticate to the Radius server. |
 | Passcode | Code or password associated with the username to authenticate to the Radius server.|
 | Check | Test the ***Username*** and ***Passcode***. |
-| Enable RADIUS NAS-Identifier |  |
-| RADIUS NAS-Identifier |  |
+| Enable RADIUS NAS-Identifier | Indicates that the server will send a Network Access Server (NAS) credential in its RADIUS request. |
+| RADIUS NAS-Identifier | The value sent as the NAS credential. |
 | Strip domain from username | Removes the domain name from the username sent by {{ en.DVLS }} to the Radius server. |
 
 ## Failover
