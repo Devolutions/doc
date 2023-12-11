@@ -3,128 +3,29 @@ eleventyComputed:
   title: Oracle user provider
 ---
 The Oracle Provider allows {{ en.DVLS }} to store the Oracle account credentials to be used to achieve password rotation.  
-![Oracle User Provider](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8094.png) 
+![Oracle User Provider](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8094.png)
 
-### General 
+### General
+| Option        | Description                   |
+|---------------|-------------------------------|
+| Name          | Display name of the Provider. |
+| Template name | Description of the Provider.  |
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Display name of the Provider. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Template name 
-		</td>
-		<td>
-Description of the Provider. 
-		</td>
-	</tr>
-</table>
+### Password settings
+| Option                              | Description                                                                                        |
+|-------------------------------------|----------------------------------------------------------------------------------------------------|
+| Password template used on generation| Password template that will be used to generate the password during the reset password operation.  |
 
-### Password settings 
+### Properties
+| Option      | Description                                                                                 |
+|-------------|---------------------------------------------------------------------------------------------|
+| Host name   | FQDN of the Oracle server against where the scan or the password rotation will be executed. |
+| Service name| Name of the Oracle service.                                                                 |
+| Port        | Set the port number used with to connect on the Oracle host.                                |
+| Username    | Username of the Oracle account with rights to reset passwords.                              |
+| Password    | Password of the Oracle account.                                                             |
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Password template used on generation 
-		</td>
-		<td>
-Password template that will be used to generate the password during the reset password operation. 
-		</td>
-	</tr>
-</table>
-
-### Properties 
-
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Host name 
-		</td>
-		<td>
-FQDN of the Oracle server against where the scan or the password rotation will be executed. 
-		</td>
-	</tr>
-    	<tr>
-		<td>
-Service name 
-		</td>
-		<td>
-Name of the Oracle service. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Port 
-		</td>
-		<td>
-Set the port number used with to connect on the Oracle host. 
-		</td>
-	</tr>
-    	<tr>
-		<td>
-Username 
-		</td>
-		<td>
-Username of the Oracle account with rights to reset passwords. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password 
-		</td>
-		<td>
-Password of the Oracle account. 
-		</td>
-	</tr>
-</table>
-
-### Actions 
-
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Add PAM {{ en.VLT }} 
-		</td>
-		<td>
-Will create a PAM {{ en.VLT }} with the provider's name if enabled. 
-		</td>
-	</tr>
-</table>
+### Actions
+| Option             | Description                                                           |
+|--------------------|-----------------------------------------------------------------------|
+| Add PAM {{ en.VLT }} | Will create a PAM {{ en.VLT }} with the provider's name if enabled. |
