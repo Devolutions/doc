@@ -3,154 +3,36 @@ eleventyComputed:
   title: Domain provider
 ---
 The Domain Provider allows {{ en.DVLS }} to store the domain account credentials to be used for Active Directory accounts discovery, to achieve password rotation or password propagation.  
-![Domain Provider dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8141.png) 
+![Domain Provider dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8141.png)
 
-### General 
+### General
+| Option      | Description                   |
+|-------------|-------------------------------|
+| Name        | Display name of the Provider. |
+| Description | Description of the Provider.  |
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Display name of the Provider. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description 
-		</td>
-		<td>
-Description of the Provider. 
-		</td>
-	</tr>
-</table>
+### Password settings
+| Option                               | Description                                                                                       |
+|--------------------------------------|---------------------------------------------------------------------------------------------------|
+| Password template used on generation | Password template that will be used to generate the password during the reset password operation. |
 
-### Password settings 
+### Domain
+| Option      | Description                                                                                 |
+|-------------|---------------------------------------------------------------------------------------------|
+| Domain name | FQDN of the domain against where the scan or the password rotation will be executed.        |
+| Protocol    | Protocol used to contact the domain controller. Select between: <il>LDAP</il><il>LDAPS</il> |
+| Port        | Set the port number used with the configured Protocol.                                      |
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Password template used on generation 
-		</td>
-		<td>
-Password template that will be used to generate the password during the reset password operation. 
-		</td>
-	</tr>
-</table>
 
-### Domain 
+### Credentials
+| Option   | Description                        |
+|----------|------------------------------------|
+| Username | Username of the domain account.    |
+| Password | Password of the domain account.    |
 
-<table>
-	<tr>
-		<th>
 
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Domain name 
-		</td>
-		<td>
-FQDN of the domain against where the scan or the password rotation will be executed. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Protocol 
-		</td>
-		<td>
-Protocol used to contact the domain controller. Select between:  
-
-* LDAP 
-* LDAPS 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Port 
-		</td>
-		<td>
-Set the port number used with the configured Protocol. 
-		</td>
-	</tr>
-</table>
-
-### Credentials 
-
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Username 
-		</td>
-		<td>
-Username of the domain account. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password 
-		</td>
-		<td>
-Password of the domain account. 
-		</td>
-	</tr>
-</table>
-
-### Actions 
-
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Add PAM {{ en.VLT }} 
-		</td>
-		<td>
-Will create a PAM {{ en.VLT }} with the provider's name if enabled. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Add Scan Configuration 
-		</td>
-		<td>
-Will open the Scan Configuration dialog if enabled. 
-		</td>
-	</tr>
-</table>
-
+### Actions
+| Option                   | Description                                                         |
+|--------------------------|---------------------------------------------------------------------|
+| Add PAM {{ en.VLT }}     | Will create a PAM {{ en.VLT }} with the provider's name if enabled. |
+| Add Scan Configuration   | Will open the Scan Configuration dialog if enabled.                 |
