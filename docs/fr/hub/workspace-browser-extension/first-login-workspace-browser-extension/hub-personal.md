@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: Première connexion à {{ fr.DHUBP }} avec {{ fr.DWL }}
+  title: Première connexion à {{ fr.DHUBP }} avec le {{ fr.WBEX }}
 ---
-### Première connexion avec {{ fr.DWL }} 
+### Première connexion avec le {{ fr.WBEX }} 
 
-Suivez ces étapes pour connecter {{ fr.DHUBP }} à l'extension {{ fr.DWL }}.  
+Suivez ces étapes pour connecter {{ fr.DHUBP }} au {{ fr.WBEX }}.  
 
-1. Cliquer sur l'extension {{ fr.DWL }} dans la barre d'outils de votre navigateur. 
+1. Cliquer sur le {{ fr.WBEX }} dans la barre d'outils de votre navigateur. 
 {% snippet icon.badgeNotice %} 
 Un accès à {{ fr.DHUBP }} est requis pour continuer. 
 {% endsnippet %}
@@ -19,5 +19,5 @@ Un accès à {{ fr.DHUBP }} est requis pour continuer.
 ![Entrée des identifiants de {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4024.png) 
 1. Une fois terminé, un message confirmant votre connexion apparaîtra.  
 ![Connexion réussie au {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4053.png) 
-1. Cliquer sur l'icône dans la barre d'outils du navigateur Web pour valider que {{ fr.DWL }} est désormais connecté à {{ fr.DHUBP }}.  
-![Association réussie de {{ fr.DHUBP }} à {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4054.png) 
+1. Cliquer sur l'icône dans la barre d'outils du navigateur Web pour valider que le {{ fr.WBEX }} est désormais connecté à {{ fr.DHUBP }}.  
+![Association réussie de {{ fr.DHUBP }} au {{ fr.WBEX }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4054.png) 

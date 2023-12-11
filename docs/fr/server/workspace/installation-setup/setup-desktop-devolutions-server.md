@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configuration de {{ fr.DWSDESKTOP }} avec {{ fr.DVLS }}
+  title: Configuration de l'{{ fr.WDAPP }} avec {{ fr.DVLS }}
   description: description
 ---
 Bientôt disponible!

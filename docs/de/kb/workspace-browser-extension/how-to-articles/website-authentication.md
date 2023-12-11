@@ -12,10 +12,10 @@ Um den Benutzernamen und das Passwort korrekt zu übermitteln, sind einige Schri
 1. Geben Sie die Anmeldeinformationen auf der Registerkarte ***Allgemein*** für die ***Website*** ein.  
 ![!!KB4606](https://webdevolutions.azureedge.net/docs/de/kb/KB4606.png)  
    {% snippet icon.badgeInfo %}
-   {{ de.DWL }} ist standardmäßig aktiviert. Die Deaktivierung erfolgt über dieselbe Registerkarte, indem Sie ***Deaktiviert*** im Dropdown-Menü des ***{{ de.DWL }}*** auswählen.
+   Die {{ de.WBEX }} ist standardmäßig aktiviert. Die Deaktivierung erfolgt über dieselbe Registerkarte, indem Sie ***Deaktiviert*** im Dropdown-Menü des ***{{ de.WBEX }}*** auswählen.
    {% endsnippet %}  
    {% snippet icon.badgeInfo %}
-   Der ***Typ*** definiert die URL, ob {{ de.DWL }} den Eintrag als verfügbaren Eintrag zum automatischen Ausfüllen anbieten soll.
+   Der ***Typ*** definiert die URL, ob die {{ de.WBEX }} den Eintrag als verfügbaren Eintrag zum automatischen Ausfüllen anbieten soll.
    {% endsnippet %}  
 
 2. Wählen Sie auf der Registerkarte ***Anmeldung*** als ***Authentifizierung*** die Option ***Formular***.  

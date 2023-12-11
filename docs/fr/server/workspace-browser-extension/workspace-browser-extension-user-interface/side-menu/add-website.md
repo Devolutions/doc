@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Ajouter un site Web
 ---
-Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les {{ fr.VLT }}s de l'onglet ***Toutes les entrées***. Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DVLS }} via {{ fr.DWL }}.  
+Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les {{ fr.VLT }}s de l'onglet ***Toutes les entrées***. Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DVLS }} à partir du {{ fr.WBEX }}.  
 
 Lorsque {{ fr.DVLS }} est utilisé comme source de données, la configuration de l'entrée se fait dans l'onglet ***Général***.  
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2021.png) 
@@ -24,7 +24,7 @@ DESCRIPTION
 Nom 
 		</td>
 		<td>
-Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.DWL }}, mais il peut tout de même être modifié. 
+Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par le {{ fr.WBEX }}, mais il peut tout de même être modifié. 
 		</td>
 	</tr>
 	<tr>
@@ -32,7 +32,7 @@ Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.
 URL 
 		</td>
 		<td>
-Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiquement par {{ fr.DWL }}, mais il peut tout de même être modifié. 
+Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiquement par le {{ fr.WBEX }}, mais il peut tout de même être modifié. 
 		</td>
 	</tr>
 	<tr>
@@ -68,7 +68,7 @@ Ce bouton n'apparaît à côté du champ ***URLs équivalentes*** qu'après avoi
 Identifiants 
 		</td>
 		<td>
-Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié ({{ fr.VLT }})***, ***Hérité***, ***Lié ({{ fr.UVLT }})***, ***Rechercher par nom ({{ fr.UVLT }})*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
+Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié ({{ fr.VLT }})***, ***Hérité***, ***Lié ({{ fr.UVLT }})***, ***Rechercher par nom ({{ fr.UVLT }})*** ou ***Aucun*** pour spécifier au {{ fr.WBEX }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
 		</td>
 	</tr>
 	<tr>
@@ -76,7 +76,7 @@ Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié ({{ fr.VLT
 Choisir les identifiants 
 		</td>
 		<td>
-Sélectionner l'entrée d'identifiants qui sera utilisée pour récupérer les identifiants de votre nouvelle entrée de site Web. {{ fr.DWL }} n'affichera que les entrées de type ***Entrée d'identifiants*** pour être liées à votre entrée. L'emplacement de l'entrée d'identifiants doit d'abord être sélectionnée dans la liste déroulante ***{{ fr.VLT }}***.  
+Sélectionner l'entrée d'identifiants qui sera utilisée pour récupérer les identifiants de votre nouvelle entrée de site Web. Le {{ fr.WBEX }} n'affichera que les entrées de type ***Entrée d'identifiants*** pour être liées à votre entrée. L'emplacement de l'entrée d'identifiants doit d'abord être sélectionnée dans la liste déroulante ***{{ fr.VLT }}***.  
 
 Il est aussi possible de sélectionner ***Demander à la connexion*** pour que vos identifiants soient demandés chaque fois que vous vous connectez.  
 
@@ -88,7 +88,7 @@ Ce champ n'est disponible que si ***Lié ({{ fr.VLT }})*** ou ***Lié ({{ fr.UVL
 Recherche d'identifiants dans le {{ fr.UVLT }} 
 		</td>
 		<td>
-Saisir le nom de l'identifiant dans votre ***{{ fr.UVLT }}*** et {{ fr.DWL }} y recherchera le nom spécifié. Si le champ est laissé vide, au lancement, une liste d'identifiants s'ouvrira avec toutes les entrées d'identifiants disponibles dans votre ***{{ fr.UVLT }}***.  
+Saisir le nom de l'identifiant dans votre ***{{ fr.UVLT }}*** et le {{ fr.WBEX }} y recherchera le nom spécifié. Si le champ est laissé vide, au lancement, une liste d'identifiants s'ouvrira avec toutes les entrées d'identifiants disponibles dans votre ***{{ fr.UVLT }}***.  
 
 Ce champ n'est disponible que si ***Rechercher par nom ({{ fr.UVLT }})*** est sélectionnée dans la liste déroulante ***Identifiants***.  
 
@@ -173,7 +173,7 @@ Annuler la création d'une nouvelle entrée de site Web et effacer toute les mod
 </table>
 
 {% snippet icon.badgeInfo %} 
-Consultez notre guide étape par étape pour [ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/server/dwl/using-devolutions-web-login/add-website-entry-dwl/). 
+Consultez notre guide étape par étape pour [ajouter une entrée de site Web avec le {{ fr.WBEX }}](/fr/server/workspace-browser-extension/using-workspace-browser-extension/add-website-entry-workspace-browser-extension/). 
 {% endsnippet %}
  
 

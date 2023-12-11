@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: '{{ de.DWL }}'
+  title: '{{ de.WBEX }}'
   order: 90
-  description: Sie finden hier Themen zu den folgenden {{ de.DWL }}-Kategorien:':' How-to, Troubleshooting und Knowledge Base Themen.
+  description: Sie finden hier Themen zu den folgenden {{ de.WBEX }}-Kategorien:':' How-to, Troubleshooting und Knowledge Base Themen.
 ---
-![!!{{ de.DWL }} logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)  
+![!!{{ de.WS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)  
 
-Sie finden hier Themen zu den folgenden {{ de.DWL }}-Kategorien:  
+Sie finden hier Themen zu den folgenden {{ de.WBEX }}-Kategorien:  
 
 * How-to 
 * Troubleshooting 

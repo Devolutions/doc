@@ -4,28 +4,28 @@ eleventyComputed:
   order: 20
   status: Topic available in German language
 ---
-Les paramètres de {{ fr.DWL }} sont accessibles via le bouton ***Paramètres*** dans la fenêtre de l'extension de navigateur, peu importe quel produit Devolutions est utilisé avec {{ fr.DWL }}.  
+Les paramètres du {{ fr.WBEX }} sont accessibles via le bouton ***Paramètres*** dans la fenêtre de l'extension de navigateur, peu importe quel produit Devolutions est utilisé avec le {{ fr.WBEX }}.  
 
-![Bouton Paramètres de {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl2001.png)  
+![Bouton Paramètres du {{ fr.WBEX }}](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl2001.png)  
 
 Les ***Paramètres*** sont séparés en deux catégories : <a href="#configuration">***Configuration***</a> et <a href="#source">***Sources de données***</a>.  
 
-![Paramètres de {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl4027.png)
+![Paramètres du {{ fr.WBEX }}](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl4027.png)
 
 ### Configuration <a name="configuration"></a>
 
 Les paramètres dans le menu ***Général*** concernent l'interface utilisateur et les interactions.  
 
 * Onglet ***Général***  
-	* Afficher l'icône de {{ fr.DWL }} dans les champs d'identifiants.  
+	* Afficher l'icône du {{ fr.WBEX }} dans les champs d'identifiants.  
 	* Afficher la fenêtre de dialogue des identifiants lors de la sauvegarde.  
 	* Afficher les options du menu contextuel.  
-	* Colorer les champs de saisie remplis avec {{ fr.DWL }}.  
+	* Colorer les champs de saisie remplis avec le {{ fr.WBEX }}.  
 	* Définir le ***Thème*** de couleur de l'application.  
 
 * Onglet ***Avancé***  
 	* Désactiver la télémétrie analytique.  
-	* Activer les versions bêta de {{ fr.DWL }}.  
+	* Activer les versions bêta du {{ fr.WBEX }}.  
 	
 La ***Liste des sites exclus*** affiche la liste des sites Web ajoutés localement pour lesquels l'utilisateur ne sera jamais invité à enregistrer ses identifiants.  
 
@@ -35,11 +35,11 @@ La ***Liste des sites exclus*** affiche la liste des sites Web ajoutés localeme
 Les ***Paramètres d'importation/d'exportation*** permettent de sauvegarder et de transférer vos configurations prédéfinies de l'application.  
 
 * Importer les paramètres d'autres navigateurs ou utilisateurs.  
-* Exporter les ***Paramètres*** de {{ fr.DWL }}, le ***Générateur de mot de passe*** et la ***Liste des sites exclus***.  
+* Exporter les ***Paramètres*** du {{ fr.WBEX }}, le ***Générateur de mot de passe*** et la ***Liste des sites exclus***.  
 
 ### Sources de données <a name="source"></a>
 
-Les paramètres de ***Sources de données*** permettent de personnaliser les interactions de {{ fr.DWL }} avec <a href="#rdm">{{ fr.RDM }}</a>, <a href="#server">{{ fr.DVLS }}</a> et <a href="#hub">{{ fr.DHUBB }} ou {{ fr.DHUBP }}</a>.  
+Les paramètres de ***Sources de données*** permettent de personnaliser les interactions du {{ fr.WBEX }} avec <a href="#rdm">{{ fr.RDM }}</a>, <a href="#server">{{ fr.DVLS }}</a> et <a href="#hub">{{ fr.DHUBB }} ou {{ fr.DHUBP }}</a>.  
 
 ### {{ fr.RDM }} <a name="rdm"></a>
 
@@ -100,9 +100,9 @@ DESCRIPTION
 Retrouver les identifiants automatiquement lors du chargement de la page 
 		</td>
 		<td>
-{{ fr.DWL }} recherche automatiquement les identifiants dans la source de données lors du chargement d'une page Web. <br>
+Le {{ fr.WBEX }} recherche automatiquement les identifiants dans la source de données lors du chargement d'une page Web. <br>
 
-Si cette option est désactivée, cliquer sur l'icône de l'extension {{ fr.DWL }} pour récupérer manuellement les identifiants. 
+Si cette option est désactivée, cliquer sur l'icône du {{ fr.WBEX }} pour récupérer manuellement les identifiants. 
 		</td>
 	</tr>
 	<tr>
@@ -137,7 +137,7 @@ DESCRIPTION
 Clé de l'application 
 		</td>
 		<td>
-Sécuriser le port avec une clé d'application en utilisant le même code dans {{ fr.RDM }} et {{ fr.DWL }}. <br>
+Sécuriser le port avec une clé d'application en utilisant le même code dans {{ fr.RDM }} et le {{ fr.WBEX }}. <br>
 
 Accéder à <b><i>Fichier – Options – Extensions de navigateur</b></i> dans {{ fr.RDM }} pour inscrire la clé d'application. 
 		</td>
@@ -211,9 +211,9 @@ DESCRIPTION
 Retrouver les identifiants automatiquement lors du chargement de la page 
 		</td>
 		<td>
-{{ fr.DWL }} recherche automatiquement les identifiants dans la source de données lors du chargement d'une page Web. <br>
+Le {{ fr.WBEX }} recherche automatiquement les identifiants dans la source de données lors du chargement d'une page Web. <br>
 
-Si cette option est désactivée, cliquer sur l'icône de l'extension {{ fr.DWL }} pour récupérer manuellement les identifiants. 
+Si cette option est désactivée, cliquer sur l'icône du {{ fr.WBEX }} pour récupérer manuellement les identifiants. 
 		</td>
 	</tr>
 	<tr>
@@ -347,15 +347,15 @@ Connexion au {{ fr.DA }}
 Afficher le favicône 
 		</td>
 		<td>
-Afficher le favicône de {{ fr.DWL }}. 
+Afficher le favicône du {{ fr.WBEX }}. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-{{ fr.DWL }} 
+{{ fr.WBEX_MAJ }} 
 		</td>
 		<td>
-Activer ou désactiver {{ fr.DWL }} avec {{ fr.DHUB }}. 
+Activer ou désactiver le {{ fr.WBEX }} avec {{ fr.DHUB }}. 
 		</td>
 	</tr>
 	<tr>

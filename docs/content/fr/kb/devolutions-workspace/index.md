@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DWS }}'
-  description: Vous pouvez accéder aux catégories suivantes concernant {{ fr.DWS }} ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
+  title: '{{ fr.WAPPS_MAJ }}'
+  description: Accédez aux guides d'utilisation, articles de dépannage et base de connaissances des {{ fr.WAPPS }}.
   status: Topic available in German language
 ---
-![!!{{ fr.DWS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
+![!!Logo {{ fr.WS }}](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
 
-Vous pouvez accéder aux catégories suivantes concernant {{ fr.DWS }} :
+Vous pouvez accéder aux catégories suivantes concernant les {{ fr.WAPPS }} :
 
 * Guides d'utilisation
 * Articles de dépannage

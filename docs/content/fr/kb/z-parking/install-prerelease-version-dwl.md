@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Installation d'une version préliminaire de {{ fr.DWL }}
-  description: Lorsqu'une nouvelle version de {{ fr.DWL }} est sur le point de sortir, une version préliminaire peut être disponible. Les étapes d'installation d'une version préliminaire de {{ fr.DWL }} sont différentes de celles d'une version publiée.
+  title: Installation d'une version préliminaire du {{ fr.WBEX }}
+  description: Lorsqu'une nouvelle version du {{ fr.WBEX }} est sur le point de sortir, une version préliminaire peut être disponible. Les étapes d'installation d'une version préliminaire de {{ fr.WBEX }} sont différentes de celles d'une version publiée.
 ---
-Lorsqu'une nouvelle version de {{ fr.DWL }} est sur le point de sortir, une version préliminaire peut être disponible. Les étapes d'installation d'une version préliminaire de {{ fr.DWL }} sont différentes de celles d'une version publiée.
+Lorsqu'une nouvelle version du {{ fr.WBEX }} est sur le point de sortir, une version préliminaire peut être disponible. Les étapes d'installation d'une version préliminaire du {{ fr.WBEX }} sont différentes de celles d'une version publiée.
 
-Sur cette page sont consignées les instructions pour installer une version préliminaire de {{ fr.DWL }} sur les navigateurs [Chrome](#chrome), [Firefox](#firefox), [Opera](#opera) et [Safari](#safari).
+Sur cette page sont consignées les instructions pour installer une version préliminaire du {{ fr.WBEX }} sur les navigateurs [Chrome](#chrome), [Firefox](#firefox), [Opera](#opera) et [Safari](#safari).
 
 {% snippet icon.badgeInfo %} 
 X.X.X.X correspond au numéro de la version (p. ex., 2023.2.1.0).
@@ -68,18 +68,18 @@ La version 16 ou ultérieure de Safari est requise.
    Le réglage ***Autoriser les extensions non signées*** se réinitialise lorsque vous quittez Safari; réglez-le à nouveau la prochaine fois que vous lancerez Safari.
    {% endsnippet %}  
 
-1. Activer l'extension {{ fr.DWL }} :
+1. Activer le {{ fr.WBEX }} :
    1. Dans les réglages de Safari, sélectionner l'onglet ***Extensions***.
-   1. Repérer l'extension {{ fr.DWL }} dans la liste de gauche et l'activer en cochant la case.
+   1. Repérer le {{ fr.WBEX }} dans la liste de gauche et l'activer en cochant la case.
    1. Fermer les réglages de Safari.  
 
    Si vous avez configuré des profils dans Safari 17 ou une version ultérieure, gérez votre extension pour un profil spécifique :  
    1. Dans les réglages de Safari, sélectionner l'onglet ***Profils***.
    1. Sélectionner un profil dans la liste de gauche.
    1. Sélectionner l'onglet ***Extensions***.
-   1. Repérer l'extension {{ fr.DWL }} dans la liste de gauche et l'activer en cochant la case.
+   1. Repérer le {{ fr.WBEX }} dans la liste de gauche et l'activer en cochant la case.
    1. Fermer les réglages de Safari.
-1. Double-cliquer sur « {{ fr.DWL }} » dans le dossier décompressé.
+1. Double-cliquer sur « {{ fr.WBEX_MAJ }} » dans le dossier décompressé.
 
 Et le tour est joué! 
 
@@ -101,11 +101,11 @@ Source (EN) : [Running your Safari Web extension - Configure Safari in {{ fr.MAC
    Le réglage ***Autoriser les extensions non signées*** se réinitialise lorsque vous quittez Safari; réglez-le à nouveau la prochaine fois que vous lancerez Safari.
    {% endsnippet %}  
 
-1. Activer l'extension {{ fr.DWL }} :
+1. Activer le {{ fr.WBEX }} :
    1. Dans les réglages de Safari, sélectionner l'onglet ***Extensions***.
-   1. Repérer l'extension {{ fr.DWL }} dans la liste de gauche et l'activer en cochant la case.
+   1. Repérer le  {{ fr.WBEX }} dans la liste de gauche et l'activer en cochant la case.
    1. Fermer les réglages de Safari.
-1. Double-cliquer sur « {{ fr.DWL }} » dans le dossier décompressé.
+1. Double-cliquer sur « {{ fr.WBEX_MAJ }} » dans le dossier décompressé.
 
 Et le tour est joué! 
 

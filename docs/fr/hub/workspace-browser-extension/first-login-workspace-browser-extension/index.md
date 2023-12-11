@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Première connexion avec {{ fr.DWL }}
+  title: Première connexion avec le {{ fr.WBEX }}
   order: 30
 ---

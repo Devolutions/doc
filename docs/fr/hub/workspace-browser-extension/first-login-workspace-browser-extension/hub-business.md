@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
-  title: Première connexion à {{ fr.DHUBB }} avec {{ fr.DWL }}
+  title: Première connexion à {{ fr.DHUBB }} avec le {{ fr.WBEX }}
 ---
 {% youtube 'De9ySexT4F0' %}  
 
-### Première connexion avec {{ fr.DWL }} 
+### Première connexion avec le {{ fr.WBEX }} 
 
-Suivez ces étapes pour connecter {{ fr.DHUBB }} à l'extension {{ fr.DWL }}.  
+Suivez ces étapes pour connecter {{ fr.DHUBB }} au {{ fr.WBEX }}.  
 
-1. Cliquer sur l'extension {{ fr.DWL }} dans la barre d'outils de votre navigateur.  
+1. Cliquer sur le {{ fr.WBEX }} dans la barre d'outils de votre navigateur.  
 {% snippet icon.badgeNotice %} 
 Un accès à {{ fr.DHUBB }} est requis pour continuer. 
 {% endsnippet %}
@@ -23,8 +23,8 @@ Un accès à {{ fr.DHUBB }} est requis pour continuer.
 ![Entrée des identifiants de {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4024.png) 
 1. Une fois terminé, un message confirmant votre connexion apparaîtra.  
 ![Connexion réussie au {{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4053.png) 
-1. Cliquer sur l'icône dans la barre d'outils du navigateur Web pour valider que {{ fr.DWL }} est désormais connecté à {{ fr.DHUBB }}.  
-![Association réussie de {{ fr.DHUBB }} à {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4058.png) 
+1. Cliquer sur l'icône dans la barre d'outils du navigateur Web pour valider que le {{ fr.WBEX }} est désormais connecté à {{ fr.DHUBB }}.  
+![Association réussie de {{ fr.DHUBB }} au {{ fr.WBEX }}](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4058.png) 
 1. Pour sélectionner les {{ fr.VLT }}s à synchroniser, cliquer sur l'onglet ***{{ fr.VLT_MAJ }}s*** dans le ***Menu latéral***, puis cliquer sur le bouton ***Sélectionner des {{ fr.VLT }}s à synchroniser***.  
 ![Onglet {{ fr.VLT_MAJ }}s](https://webdevolutions.azureedge.net/docs/fr/hub/Dwl4059.png) 
 1. Cliquer sur ***Sélectionner tout*** ou cocher individuellement les {{ fr.VLT }}s à synchroniser. La barre de ***Filtre*** peut être utile pour rechercher des {{ fr.VLT }}s.  

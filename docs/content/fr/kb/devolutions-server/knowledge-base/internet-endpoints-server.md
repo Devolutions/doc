@@ -23,7 +23,7 @@ Nous utilisons une approche de « meilleur effort » pour maintenir cette liste 
 | PAM - Provider Azure           | https<area>://graph.microsoft.com                                              | Fournisseur d'identité PAM de type Azure |
 | Telemetry                      | https<area>://telemetry.devolutions.net                                        | Administration – Paramètres Serveur – Fonctionnalités – Autoriser l'envoi de données d'utilisation anonymisées à Devolutions |
 | Have I Been Pwned              | https<area>://api.pwnedpasswords.com                                           | Administration – Paramètres Serveur – Fonctionnalités – Activer la vérification de compromission (pwned) |
-| Notification push              | https<area>://login.devolutions.com<br>https<area>://api.devolutions.com       | Administration – Paramètres Serveur – Fonctionnalités – Activer la notification push de {{ fr.DWS }} |
+| Notification push              | https<area>://login.devolutions.com<br>https<area>://api.devolutions.com       | Administration – Paramètres Serveur – Fonctionnalités – Activer la notification push de l'{{ fr.WAPP }} |
 | Intégration Slack              | https<area>://slack.com                                                        | Administration – Paramètres Serveur – Journalisation – Intégration Slack |
 | SMTP, Authentification Azure   | https<area>://graph.microsoft.com                                              | Administration – Paramètres Serveur – Courriel – Type d'authentification |
 | Geo IP                         | https<area>://geoip.maxmind.com                                                | Administration – Paramètres Serveur – Sécurité GeoIP |

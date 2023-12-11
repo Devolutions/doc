@@ -2,12 +2,12 @@
 eleventyComputed:
   title: Authenticator (TOTP)
 ---
-{{ fr.RDM }} vous permet d'utiliser un ***Authenticator (TOTP)*** tels que [{{ fr.DWS }}](https://devolutions.net/fr/workspace/) ou Google Authenticator pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données. 
+{{ fr.RDM }} vous permet d'utiliser un ***Authenticator (TOTP)*** tels que l'[{{ fr.WAPP }}](https://devolutions.net/fr/workspace/) ou Google Authenticator pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données. 
 
 ## Paramètres 
 
 {% snippet icon.badgeInfo %} 
-Avant de commencer la configuration, assurez-vous d'avoir installé l'application [{{ fr.DWS }}](https://devolutions.net/fr/workspace/) ou Google Authenticator sur votre appareil mobile. 
+Avant de commencer la configuration, assurez-vous d'avoir installé l'[{{ fr.WAPP }}](https://devolutions.net/fr/workspace/) ou Google Authenticator sur votre appareil mobile. 
 {% endsnippet %}
  
 1. Si ce n'est pas déjà fait, suivre ces [étapes de configuration de l'authentification multifacteur](/fr/rdm/windows/data-sources/multi-factor-authentication/). 
@@ -17,5 +17,4 @@ Avant de commencer la configuration, assurez-vous d'avoir installé l'applicatio
 1. Saisir le ***Code de validation*** fourni par l'***Authenticator (TOTP)***.  
 ![Configuration de compte Authenticator](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10009.png) 
 1. Cliquer sur ***Valider***. 
-1. Relancer {{ fr.RDM }} pour être invité à entrer le code d'***Authenticator (TOTP)***. 
-
+1. Relancer {{ fr.RDM }} pour être invité à entrer le code d'***Authenticator (TOTP)***.

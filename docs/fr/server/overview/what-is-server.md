@@ -27,7 +27,7 @@ Il existe deux façons d'utiliser {{ fr.DVLS }} :
 
 ## {{ fr.VLT_MAJ }} infonuagique  
 
-Accès par le navigateur Web et [{{ fr.DWL }}](/fr/server/dwl/overview/) 
+Accès par le navigateur Web et le [{{ fr.WBEX }}](/fr/server/workspace-browser-extension/overview/) 
 		</td>
 		<td>
 ![!!Application64x64](https://webdevolutions.azureedge.net/docs/common/Application64x64.png)  
@@ -41,7 +41,7 @@ Application cliente (de bureau ou mobile)
 		<td>
 Accédez aux ressources stockées dans un {{ fr.VLT }} à partir d'un navigateur Web grâce à une licence d'accès client (LAC). Les identifiants sont gérés dans l'interface Web, alors aucune application cliente n'est requise.  
 
-Avec l'extension de navigateur {{ fr.DWL }}, les identifiants peuvent être automatiquement saisis lors de la connexion à un site Web. 
+Avec le {{ fr.WBEX }}, les identifiants peuvent être automatiquement saisis lors de la connexion à un site Web. 
 		</td>
 		<td>
 Accédez aux ressources stockées dans un {{ fr.VLT }} grâce à l'une de nos applications clientes qui sont reliées aux services Web de {{ fr.DVLS }}. 

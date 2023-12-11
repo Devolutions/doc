@@ -74,10 +74,10 @@ Windows, {{ fr.MAC }}
 	</tr>
 	<tr>
 		<td>
-[{{ fr.DWL }} (DWL)](/fr/rdm/windows/dwl/overview/) 
+[{{ fr.WBEX_MAJ }}](/fr/rdm/windows/workspace-browser-extension/overview/) 
 		</td>
 		<td>
-{{ fr.DWL }} est un module d'extension de navigateur gratuit à utiliser avec {{ fr.RDM }}, {{ fr.DVLS }} ou {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs {{ fr.VLT }}s afin de se connecter à leurs sites Web. 
+Le {{ fr.WBEX }} est gratuit à utiliser avec {{ fr.RDM }}, {{ fr.DVLS }} ou {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs {{ fr.VLT }}s afin de se connecter à leurs sites Web. 
 		</td>
 		<td>
 Windows, {{ fr.MAC }} 

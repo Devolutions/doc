@@ -93,10 +93,10 @@ Cocher cette option pour vous authentifier à votre application {{ fr.RDM }} en 
 	</tr>
 	<tr>
 		<td>
-Nécessite une validation du TOTP ({{ fr.DWS }} or Google Authenticator) 
+Nécessite une validation du TOTP ({{ fr.WAPP }} or Google Authenticator) 
 		</td>
 		<td>
-Cocher cette option pour valider votre authentification à votre application {{ fr.RDM }} avec un mot de passe à usage unique basé sur le temps (TOTP) envoyé via {{ fr.DWS }} ou Google Authenticator. Utiliser le bouton <b><i>Configurer</i></b> sous cette option.
+Cocher cette option pour valider votre authentification à votre application {{ fr.RDM }} avec un mot de passe à usage unique basé sur le temps (TOTP) envoyé via l'{{ fr.WAPP }} ou Google Authenticator. Utiliser le bouton <b><i>Configurer</i></b> sous cette option.
 		</td>
 	</tr>
 	<tr>

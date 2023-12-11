@@ -3,11 +3,11 @@ eleventyComputed:
   title: Survol
   order: 5
 ---
-![!!{{ fr.DWL }} logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
+![!!Logo {{ fr.WBEX }}](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
 
-{{ fr.DWL }} est une extension de navigateur Web pour les mots de passe. Utilisée conjointement avec {{ fr.RDM }}, {{ fr.DVLS }} et {{ fr.DHUB }}, elle permet aux utilisateurs d'injecter en toute sécurité des identifiants, stockés dans leur {{ fr.VLT }}s, dans des sites Web.  
+Le {{ fr.WBEX }} est une extension de navigateur Web pour les mots de passe. Utilisé conjointement avec {{ fr.RDM }}, {{ fr.DVLS }} et {{ fr.DHUB }}, il permet aux utilisateurs d'injecter en toute sécurité des identifiants, stockés dans leur {{ fr.VLT }}s, dans des sites Web.  
 
-Elle offre aux administrateurs système un contrôle total sur la gestion des mots de passe, sans affecter la productivité des utilisateurs. 
+Il offre aux administrateurs système un contrôle total sur la gestion des mots de passe, sans affecter la productivité des utilisateurs. 
 
 <table>
 	<tr>

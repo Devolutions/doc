@@ -24,7 +24,7 @@ La sécurité est au coeur de {{ fr.DHUB }} puisque l'application est hébergée
 
 ![!!web-login-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/web-login-icon-shadow.png)  
 
-## {{ fr.DWL }}  
+## {{ fr.WBEX_MAJ }}  
 
 Connexion automatique 
 		</td>
@@ -45,7 +45,7 @@ Importateur de données
 	</tr>
 	<tr>
 		<td>
-[{{ fr.DWL }}](/fr/hub/dwl/overview/) est un module d'extension de navigateur gratuit à utiliser avec {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs {{ fr.VLT }}s afin de se connecter à leurs sites Web. 
+Le [{{ fr.WBEX }}](/fr/hub/workspace-browser-extension/overview/) est est gratuit à utiliser avec {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs {{ fr.VLT }}s afin de se connecter à leurs sites Web. 
 		</td>
 		<td>
 L’application permet aux utilisateurs de lancer facilement des connexions à distance à partir de l'interace Web de {{ fr.DHUB }}. 
@@ -62,7 +62,7 @@ Cet outil incontournable est conçu pour importer facilement et rapidement des i
 
 ![!!devolutions-workspace-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/workspace-icon-shadow.png)  
 
-## {{ fr.DWS }}  
+## {{ fr.WAPPS_MAJ }}  
 
 Environnement centralisé basé sur le nuage  
 		</td>
@@ -76,7 +76,7 @@ Centraliser, gérer et sécuriser les connexions à distance
 	</tr>
 	<tr>
 		<td>
-{{ fr.DWS }} est une application mobile et de bureau qui rassemble Authenticator, {{ fr.DHUBB }}, {{ fr.DHUBP }} et {{ fr.DVLS }} en un seul emplacement centralisé et basé sur le nuage.
+Les {{ fr.WAPPS }} sont des applications mobile et de bureau qui rassemblent Authenticator, {{ fr.DHUBB }}, {{ fr.DHUBP }} et {{ fr.DVLS }} en un seul emplacement centralisé et basé sur le nuage.
 		</td>
 		<td>
 {{ fr.RDM }} centralise toutes les connnexions à distance sur une seule plateforme qui est partagée manière sécurisée entre les utilisateurs au sein de toute l'équipe. {{ fr.DHUB }} peut être utilisé comme source de données dans {{ fr.RDM }}. 

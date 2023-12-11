@@ -1,20 +1,20 @@
 ---
 eleventyComputed:
-  title: Créer un compte de site Web dans {{ fr.DHUBB }} avec {{ fr.DWL }}
+  title: Créer un compte de site Web dans {{ fr.DHUBB }} avec le {{ fr.WBEX }}
   order: 10
 ---
-{{ fr.DWL }} vous aide à créer un nouveau compte lorsque vous vous inscrivez sur un site Web. Il vous donne la possibilité de créer un mot de passe sécurisé et d'enregistrer vos nouveaux identifiants. 
+Le {{ fr.WBEX }} vous aide à créer un nouveau compte lorsque vous vous inscrivez sur un site Web. Il vous donne la possibilité de créer un mot de passe sécurisé et d'enregistrer vos nouveaux identifiants. 
 {% snippet icon.badgeInfo %} 
 
-Si vous avez déjà un compte pour le site Web, apprenez plutôt comment [Ajouter une entrée de site Web avec {{ fr.DWL }}](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/). 
+Si vous avez déjà un compte pour le site Web, apprenez plutôt comment [Ajouter une entrée de site Web avec le {{ fr.WBEX }}](/fr/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/). 
 {% endsnippet %}
  
-Suivez les étapes ci-dessous pour créer un compte de site Web avec {{ fr.DWL }} et sauvegarder vos identifiants dans {{ fr.DHUBB }}.  
+Suivez les étapes ci-dessous pour créer un compte de site Web avec le {{ fr.WBEX }} et sauvegarder vos identifiants dans {{ fr.DHUBB }}.  
 
 1. Sur le site Web pour lequel vous souhaitez créer votre compte, aller à la page d'inscription/création de compte. Cette page sera différente pour chaque site Web; cette rubrique utilisera le site Web d'Atlassian comme exemple.  
 ![Page d'enregistrement](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2093.png) 
 1. Suivre le processus d'enregistrement du site Web jusqu'à atteindre le champ du mot de passe. 
-1. Cliquer sur l'icône {{ fr.DWL }} dans la barre d'outils de votre navigateur, puis sélectionner l'onglet ***Générateur de mots de passe*** dans le ***Menu latéral*** de l'extension.  
+1. Cliquer sur l'icône du {{ fr.WBEX }} dans la barre d'outils de votre navigateur, puis sélectionner l'onglet ***Générateur de mots de passe*** dans le ***Menu latéral*** de l'extension.  
 ![Onglet du Générateur de mots de passe](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2094.png) 
 1. Il est maintenant possible de personnaliser les paramètres de génération du mot de passe, mais cette opération est facultative puisque les paramètres par défaut génèrent déjà des mots de passe très forts. Cela dit, il peut être nécessaire d'ajuster les paramètres pour répondre aux exigences spécifiques de certains sites Web. Si vous ne souhaitez pas personnaliser les paramètres de génération, vous pouvez passer à l'<a href="#5">étape 5</a>. 
     1. Définir la ***Longueur du mot de passe***. La valeur par défaut est fixée à 12.  
@@ -33,10 +33,10 @@ Vos paramètres de mot de passe sont maintenant configurés.
 ![Copier dans le presse-papiers](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2099.png) 
 1. Coller le mot de passe dans le champ du site Web correspondant.  
 ![Coller le mot de passe](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2100.png) 
-1. Suivre le reste des étapes d'enregistrement du site Web jusqu'à ce que la fenêtre ***Ajouter un site Web*** de {{ fr.DWL }} apparaisse dans le coin du navigateur Web.  
+1. Suivre le reste des étapes d'enregistrement du site Web jusqu'à ce que la fenêtre ***Ajouter un site Web*** du {{ fr.WBEX }} apparaisse dans le coin du navigateur Web.  
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2101.png) 
 1. Saisir un ***Nom*** pour l'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu'il reflète le contenu de l'entrée pour la retrouver plus facilement au besoin. 
 1. Sélectionner le ***{{ fr.VLT }}*** et le ***Dossier*** dans lesquels sauvegarder l'entrée de site Web. 
 1. Cliquer sur ***Enregistrer***.  
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DHUBB }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/).
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.DHUBB }}. La prochaine fois que vous vous connecterez à ce compte, le {{ fr.WBEX }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/retrieve-credentials-hub-business/).

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configuration de {{ fr.DWSMOBILE }} avec {{ fr.DVLS }}
+  title: Configuration de l'{{ fr.WMAPP }} avec {{ fr.DVLS }}
   description: description
 ---
 Bientôt disponible!

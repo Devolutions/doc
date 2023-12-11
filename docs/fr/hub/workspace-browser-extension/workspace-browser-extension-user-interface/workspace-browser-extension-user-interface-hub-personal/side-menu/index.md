@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Menu latéral
 ---
-En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }}. Chaque onglet affiche une vue différente dans la ***Zone de contenu***.  
+En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverses fonctionnalités du {{ fr.WBEX }}. Chaque onglet affiche une vue différente dans la ***Zone de contenu***.  
 
-Lorsque vous utilisez {{ fr.DWL }} avec {{ fr.DHUBP }}, les onglets disponibles sont l'onglet ***Correspondant***, l'onglet ***Toutes les entrées***, l'onglet ***Favoris***, l'onglet ***Récent***, l'onglet ***Corbeille*** et l'onglet ***Générateur de mots de passe***.  
+Lorsque vous utilisez le {{ fr.WBEX }} avec {{ fr.DHUBP }}, les onglets disponibles sont l'onglet ***Correspondant***, l'onglet ***Toutes les entrées***, l'onglet ***Favoris***, l'onglet ***Récent***, l'onglet ***Corbeille*** et l'onglet ***Générateur de mots de passe***.  
 
 Dans tous les onglets, à l'exception de l'onglet ***Générateur de mots de passe***, lorsque vous passez le curseur sur une entrée, trois nouvelles options apparaissent : les boutons ***Copier le nom d'utilisateur***, ***Copier le mot de passe***, et ***Affichage***. Consultez la section [Fonctionnalités des entrées](#fonctionnalités-des-entrées) pour plus d'informations.  
 
@@ -15,17 +15,17 @@ Dans tous les onglets, à l'exception de l'onglet ***Générateur de mots de pas
 L'extension s'ouvre sur l'onglet ***Correspondant***. C'est là que vous verrez la liste des identifiants disponibles pour le site Web particulier sur lequel vous vous trouvez.  
 
 {% snippet icon.badgeInfo %} 
-Pour connaître les méthodes de récupération de vos identifiants, consultez [Récupérer des identifiants de {{ fr.DHUBP }} avec {{ fr.DWL }}](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/). 
+Pour connaître les méthodes de récupération de vos identifiants, consultez [Récupérer des identifiants de {{ fr.DHUBP }} avec le {{ fr.WBEX }}](/fr/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/retrieve-credentials-hub-personal/). 
 {% endsnippet %}
  
 ![Onglet Correspondant](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2082.png) 
 
 En haut, vous pouvez utiliser la barre de ***Recherche*** pour filtrer tous vos identifiants, pas seulement celles applicables au site Web. Vous pouvez également utiliser le bouton ***Actualiser*** situé à côté pour mettre à jour les résultats de la recherche.  
 
-En bas, le bouton ***Nouvelle entrée*** vous donne accès à des types d'entrées qui, lorsque sélectionnées, ouvrent un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée dans {{ fr.DHUBP }} par le biais de l'extension {{ fr.DWL }}.  
+En bas, le bouton ***Nouvelle entrée*** vous donne accès à des types d'entrées qui, lorsque sélectionnées, ouvrent un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée dans {{ fr.DHUBP }} par le biais de le {{ fr.WBEX }}.  
 
 {% snippet icon.badgeInfo %} 
-Pour obtenir une liste complète des champs et entrées disponibles dans la fenêtre ***Nouvelle entrée***, consultez [Nouvelle entrée](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/). Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/add-entry-hub-personal-dwl/). 
+Pour obtenir une liste complète des champs et entrées disponibles dans la fenêtre ***Nouvelle entrée***, consultez [Nouvelle entrée](/fr/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/new-entry/). Vous pouvez également consulter notre guide étape par étape pour [ajouter une entrée](/fr/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/add-entry-hub-personal-workspace-browser-extension/). 
 {% endsnippet %}
  
 ### Onglet Toutes les entrées  
@@ -34,9 +34,9 @@ L'onglet ***{{ fr.VLT_MAJ }}s*** vous permet de parcourir tous vos {{ fr.VLT }}s
 ![!!Hub2083](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2083.png) 
 En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher dans vos entrées et vos {{ fr.VLT }}s.  
 
-Pour accéder à une entrée dans {{ fr.DWL }}, naviguez dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.DHUBP }}.  
+Pour accéder à une entrée dans le {{ fr.WBEX }}, naviguez dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.DHUBP }}.  
 
-Lorsque vous naviguez dans les dossiers, le bouton [***Nouvelle entrée***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/new-entry/) apparaît au bas de la ***Zone de contenu***.  
+Lorsque vous naviguez dans les dossiers, le bouton [***Nouvelle entrée***](/fr/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-personal/side-menu/new-entry/) apparaît au bas de la ***Zone de contenu***.  
 
 ### Onglet Favoris 
 Si vous avez des entrées marquées comme favorites, elles seront affichées ici dans l'onglet ***Favoris***.  
@@ -55,7 +55,7 @@ En bas, vous pouvez cliquer sur le bouton ***Effacer les entrées récentes*** p
 
 Dans l'onglet Corbeille, vous pouvez sélectionner vos entrées ou des dossiers entiers à supprimer. 
 {% snippet icon.badgeCaution %} 
-Notez que si vous supprimez des entrées ou des dossiers, ils seront supprimés de votre {{ fr.DHUBP }} et pas seulement de la vue {{ fr.DWL }}. 
+Notez que si vous supprimez des entrées ou des dossiers, ils seront supprimés de votre {{ fr.DHUBP }} et pas seulement de la vue du {{ fr.WBEX }}. 
 {% endsnippet %}
  
 ![Onglet Corbeille](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2086.png) 
@@ -74,7 +74,7 @@ Dans la section déroulante ***Général***, vous pouvez sélectionner les types
 Dans la section déroulante ***Avancé***, vous êtes en mesure de personnaliser davantage votre mot de passe en saisissant les caractères que vous souhaitez inclure dans votre mot de passe, suivis du nombre minimum de fois où ils doivent apparaître. Dans le second champ, vous pouvez également saisir les caractères que vous voulez exclure de votre mot de passe.  
 ![Section Avancé](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2079.png) 
 {% snippet icon.badgeInfo %} 
-Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [Créer un compte de site Web dans {{ fr.DHUBP }} avec {{ fr.DWL }}](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/). 
+Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [Créer un compte de site Web dans {{ fr.DHUBP }} avec le {{ fr.WBEX }}](/fr/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-personal/create-account-website-hub-personal/). 
 {% endsnippet %}
  
 ### Fonctionnalités des entrées 

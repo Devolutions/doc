@@ -9,5 +9,5 @@ Pour réduire le nombre de demandes de renseignements de la part de vos utilisat
  
 Ces paramètres peuvent être configurés dans ***Administration – Utilisateurs*** lors [de la création et de l'invitation d'un utilisateur](/fr/hub/web-interface/hub-overview/administration/management/users/create-invite-users/) ou après coup en modifiant l'utilisateur. Cela n'affecte que l'utilisateur pour lequel les paramètres ont été modifiés.  
 
-L'accès aux {{ fr.CTOOLS }} peut être configuré séparément pour {{ fr.DWL }} et {{ fr.DWS }}. Les paramètres sont activés par défaut.  
+L'accès aux {{ fr.CTOOLS }} peut être configuré séparément pour le {{ fr.WBEX }} et les {{ fr.WAPPS }}. Les paramètres sont activés par défaut.  
 ![Activer/Désactiver l'accès aux {{ fr.CTOOLS }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2131.png) 

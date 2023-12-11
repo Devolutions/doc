@@ -142,7 +142,7 @@ Sélectionner les ***{{ fr.VLT }}s*** auxquels l'utilisateur a accès.
 
 ### Accès à l'application 
 
-La section d'***Accès aux applications*** permet de restreindre l'accès à {{ fr.RDM }} ou à [{{ fr.DWL }}](/fr/rdm/windows/dwl/overview/).  
+La section d'***Accès aux applications*** permet de restreindre l'accès à {{ fr.RDM }} ou au [{{ fr.WBEX }}](/fr/rdm/windows/workspace-browser-extension/overview/).  
 ![Gestion des utilisateurs - Accès à l'application](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3625.png) 
 
 <table>
@@ -165,10 +165,10 @@ Sélectionner si l'utilisateur peut accéder à la source de données à partir 
 	</tr>
 	<tr>
 		<td>
-[{{ fr.DWL }}](/fr/rdm/windows/dwl/overview/) 
+[{{ fr.WBEX_MAJ }}](/fr/rdm/windows/workspace-browser-extension/overview/) 
 		</td>
 		<td>
-Sélectionner si l'utilisateur peut accéder au formulaire de source de données {{ fr.DWL }}. 
+Sélectionner si l'utilisateur peut accéder au formulaire de source de données du {{ fr.WBEX }}. 
 		</td>
 	</tr>
 </table>

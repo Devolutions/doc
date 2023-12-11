@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: '{{ de.DWL }} absichern'
+  title: '{{ de.WBEX }} absichern'
   order: 70
 ---

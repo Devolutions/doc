@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: '{{ de.DWL }} verwenden'
+  title: '{{ de.WBEX }} verwenden'
   order: 50
 ---

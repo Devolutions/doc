@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DWL }}'
-  description: Vous pouvez accéder aux catégories suivantes concernant {{ fr.DWL }} ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
+  title: '{{ fr.WBEX_MAJ }}'
+  description: Accédez aux guides d'utilisation, articles de dépannage et base de connaissances du {{ fr.WBEX }}.
   status: Topic available in German language
 ---
-![!!{{ fr.DWL }} logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
+![!!Logo {{ fr.WBEX_MAJ }}](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
 
-Vous pouvez accéder aux catégories suivantes concernant {{ fr.DWL }} :
+Vous pouvez accéder aux catégories suivantes concernant le {{ fr.WBEX }} :
 
 * Guides d'utilisation
 * Articles de dépannage

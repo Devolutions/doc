@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Déployer {{ fr.DWL }} dans Chrome à l'aide d'un GPO
+  title: Déployer le {{ fr.WBEX }} dans Chrome à l'aide d'un GPO
 ---
 {% snippet icon.badgeInfo %} 
-REMARQUE IMPORTANTE (pour les versions de {{ fr.DWL }} antérieures à 2021.2.3.0)  
+Pour les versions du {{ fr.WBEX }} antérieures à 2021.2.3.0 :  
 
 Les paramètres déployés avec l'objet de stratégie de groupe (GPO) ne sont appliqués que lorsque l’extension est utilisée pour la première fois. Cela signifie que les paramètres ne seront pas appliqués et modifiés si vous changez les paramètres dans le GPO et que l’extension a déjà été utilisée au moins une fois par l’utilisateur. 
 {% endsnippet %}  
@@ -97,7 +97,7 @@ Tous les attributs peuvent avoir leur valeur modifiée ou leur clé supprimée.
      "rdmAutofillBasicAuthentication": false,  
      "rdmDefaultDestinationVaultIsPrivate": true,  
      "rdmDefaultPortUsage": true,  
-     "rdmDestinationFolder": "{{ fr.DWL }}",  
+     "rdmDestinationFolder": "{{ fr.WBEX_MAJ }}",  
      "activateBeta": false,  
      "rdmPort": 19443.  
      "rdmShowFavicon": false,  
@@ -125,7 +125,7 @@ Si cette section est ajoutée dans la chaîne JSON, une virgule doit être ajout
 <a name="valeurs"></a>
 
 **disableSettingsPage**  
-Masque le bouton des paramètres et désactive la page des paramètres dans {{ fr.DWL }} pour l'utilisateur final. 
+Masque le bouton des paramètres et désactive la page des paramètres dans {{ fr.WBEX }} pour l'utilisateur final. 
 Valeurs possibles : 
 * ***True*** 
 * ***False*** (par défaut) 
@@ -137,8 +137,8 @@ Valeurs possibles :
 * ***AlwaysOverride*** : Toujours remplacer la valeur des paramètres GPO lorsque l'extension est lancée. 
 * ***AlwaysUseDefaultAndOverride*** : Utiliser les paramètres par défaut pour tous les paramètres qui ne sont pas dans la GPO et remplacer les valeurs du GPO lorsque l'extension est lancée. 
 
-## Configuration de l'extension {{ fr.DWL }} pour qu'elle soit automatiquement épinglée à la barre d'outils de Chrome 
-1. Créer une nouvelle règle GPO pour que l'extention {{ fr.DWL }} soit automatiquement affichée dans la barre d'outils de Chrome. 
+## Configuration du {{ fr.WBEX }} pour qu'il soit automatiquement épinglée à la barre d'outils de Chrome 
+1. Créer une nouvelle règle GPO pour que le {{ fr.WBEX }} soit automatiquement affiché dans la barre d'outils de Chrome. 
 1. Sélectionner ***Registre*** situé dans ***Configuration ordinateur – Préférences – Paramètres Windows – Registre*** OU ***Configuration utilisateur – Préférences – Paramètres Windows – Registre*** selon vos besoins. 
 1. Dans les paramètres de registre, définir le paramètre ***Action*** à ***Remplacer*** pour changer la règle ou pour la créer si elle n’existe pas. 
 1. Définir le paramètre ***Ruche*** à **HKEY_LOCAL_MACHINE** ou **HKEY_CURRENT_USER** selon vos besoins. 
@@ -153,4 +153,4 @@ Valeurs possibles :
 ![!!KB2044](https://webdevolutions.azureedge.net/docs/fr/kb/KB2044.png) 
 ### Références 
 [https://www.chromium.org/administrators](https://www.chromium.org/administrators)  
-[https://www.chromium.org/administrators/complex-policies-on-windows](https://www.chromium.org/administrators/complex-policies-on-windows) 
+[https://www.chromium.org/administrators/complex-policies-on-windows](https://www.chromium.org/administrators/complex-policies-on-windows)

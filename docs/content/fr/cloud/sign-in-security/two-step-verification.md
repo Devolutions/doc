@@ -37,10 +37,10 @@ Choisir <a href="#push">Notification Push</a>, <a href="#app">Application d'auth
 
 1. Cliquer sur ***Notification Push***.  
 ![Notification push](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4030.png)
-1. Télécharger et installer {{ fr.DWSMOBILE }}.  
-![{{ fr.DWS }}](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4031.png)
-1. Utiliser {{ fr.DWS }} pour scanner le code ou entrer la clé manuellement.  
-![{{ fr.DWS }} scanner le code](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4032.png)
+1. Télécharger et installer l'{{ fr.WMAPP }}.  
+![{{ fr.WAPP_MAJ }}](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4031.png)
+1. Utiliser l'{{ fr.WAPP }} pour scanner le code ou entrer la clé manuellement.  
+![Scanner le code ou entrer la clé](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4032.png)
 1. Attendre la synchronisation de l'application et la demande d'association sur l'appareil mobile. Accepter la demande d'association, puis cliquer sur ***Compléter***.  
 ![Synchronisation de l'application](https://webdevolutions.azureedge.net/docs/fr/cloud/Cloud4033.png)
 

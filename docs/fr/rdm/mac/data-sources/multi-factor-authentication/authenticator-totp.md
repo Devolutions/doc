@@ -2,12 +2,12 @@
 eleventyComputed:
   title: Authenticator (TOTP)
 ---
-{{ fr.RDMMAC }} vous permet d'utiliser un Authenticator (TOTP) tels que [{{ fr.DWS }}](https://devolutions.net/fr/workspace/) ou Google Authenticator pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données. 
+{{ fr.RDMMAC }} vous permet d'utiliser un Authenticator (TOTP) tels que l'[{{ fr.WAPP }}](https://devolutions.net/fr/workspace/) ou Google Authenticator pour fournir une couche de sécurité supplémentaire lors de l'ouverture d'une source de données. 
 
 ## Paramètres 
 
 {% snippet icon.badgeInfo %} 
-Avant de commencer la configuration, assurez-vous d'avoir installé l'application [{{ fr.DWS }}](https://devolutions.net/fr/workspace/) ou Google Authenticator sur votre appareil mobile. 
+Avant de commencer la configuration, assurez-vous d'avoir installé l'[{{ fr.WAPP }}](https://devolutions.net/fr/workspace/) ou Google Authenticator sur votre appareil mobile. 
 {% endsnippet %}
  
 1. Si ce n'est pas déjà fait, suivre c es [étapes de configuration de l'authentification multifacteur](/fr/rdm/mac/data-sources/multi-factor-authentication/). 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Configuration de {{ fr.DWSDESKTOP }} avec {{ fr.DHUBP }}
+  title: Configuration de l'{{ fr.WDAPP }} avec {{ fr.DHUBP }}
   description: description
 ---
 Bientôt disponible!

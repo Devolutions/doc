@@ -13,11 +13,11 @@ Quelques étapes sont nécessaires afin d’envoyer correctement les noms d’ut
 ![!!KB2045](https://webdevolutions.azureedge.net/docs/fr/kb/KB2045.png)  
 
 {% snippet icon.badgeInfo %} 
-L'extension {{ fr.DWL }} est activée par défaut. Il est possible de la désactiver à partir du même onglet en sélectionnant ***Désactivée*** dans le menu déroulant ***{{ fr.DWL }}***. 
+Le {{ fr.WBEX }} est activé par défaut. Il est possible de le désactiver à partir du même onglet en sélectionnant ***Désactivée*** dans le menu déroulant ***{{ fr.WBEX_MAJ }}***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Le [***Type de correspondance***](/fr/kb/devolutions-web-login/how-to-articles/urls-comparing-types/) sert à déterminer si {{ fr.DWL }} doit considérer l'entrée valide pour la saisie automatique. 
+Le [***Type de correspondance***](/fr/kb/workspace-browser-extension/how-to-articles/urls-comparing-types/) sert à déterminer si le {{ fr.WBEX }} doit considérer l'entrée valide pour la saisie automatique. 
 {% endsnippet %}
  
 2. Sélectionner ***Formulaire*** dans le menu déroulant ***Authentification*** de l'onglet ***Connexion***. 

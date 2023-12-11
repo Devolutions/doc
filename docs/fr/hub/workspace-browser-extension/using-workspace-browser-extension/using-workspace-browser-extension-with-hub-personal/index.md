@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: Utiliser {{ fr.DWL }} avec {{ fr.DHUBP }}
+  title: Utiliser le {{ fr.WBEX }} avec {{ fr.DHUBP }}
 ---

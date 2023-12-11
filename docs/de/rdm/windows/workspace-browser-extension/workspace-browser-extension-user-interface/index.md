@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: '{{ de.DWL }} Benutzeroberfläche'
+  title: '{{ de.WBEX }} Benutzeroberfläche'
   order: 50
 ---

@@ -20,23 +20,23 @@ Les utilisateurs invités à rejoindre {{ fr.DHUBB }} reçoivent ce courriel de 
 {% snippet icon.badgeInfo %} 
 Les nouveaux utilisateurs qui accèdent via la connexion Azure passeront par cette configuration s'ils n'ont pas de {{ fr.DA }}. Puisque nous ne voulons pas que l'utilisateur définisse un mot de passe pour ce compte, nous devons avoir un moyen de stocker la ***Clé Privée***. Habituellement, elle est conservée avec le compte de mot de passe. Cette clé spéciale et unique pour chaque utilisateur est nécessaire lorsque l'utilisateur change d'appareil ou de navigateur. Au quotidien, l'appareil et le navigateur reconnaissent l'utilisateur.
 
-C'est pourquoi nous souhaitons que l'utilisateur stocke cette ***Clé Privée*** sur ***{{ fr.DWSMOBILE }}***. Il sera beaucoup plus pratique pour l'utilisateur de faire une notification Push pour accepter le nouvel appareil ou navigateur. 
+C'est pourquoi nous souhaitons que l'utilisateur stocke cette ***Clé Privée*** sur l'{{ fr.WMAPP }}. Il sera beaucoup plus pratique pour l'utilisateur de faire une notification Push pour accepter le nouvel appareil ou navigateur. 
 {% endsnippet %}  
  
 ![Stockez votre clé privée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4176.png) 
-* Nous vous conseillons vivement la première méthode avec ***{{ fr.DWSMOBILE }}***. Suivez les étapes pour la [Méthode avec {{ fr.DWSMOBILE }} ](#méthode-avec-devolutions-workspace-mobile).  
+* Nous vous conseillons vivement la première méthode avec l'{{ fr.WMAPP }}. Suivez les étapes pour la [Méthode avec l'{{ fr.WMAPP }} ](#méthode-avec-devolutions-workspace-mobile).  
 * La deuxième meilleure option consiste à télécharger et à imprimer la ***Clé Privée*** sous forme de ***Code QR***. Pour cette méthode, continuez les étapes de la [Méthode avec code QR](#méthode-avec-code-qr).  
 * En dernier recours, et si l'utilisateur ne dispose pas d'un appareil mobile, un ***Mot de passe*** peut être créé pour ajouter la ***Clé Privée*** au {{ fr.DA }}. 
 
-## Méthode avec {{ fr.DWSMOBILE }} 
+## Méthode avec l'{{ fr.WMAPP }} 
 
-1. Télécharger sur un appareil mobile l'application ***{{ fr.DWS }}***. 
+1. Télécharger sur un appareil mobile l'***{{ fr.WAPP }}***. 
 1. Cliquer ***Continuer***.  
-![Téléchargez {{ fr.DWS }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4177.png) 
-3. Dans l'application ***{{ fr.DWS }}***, accéder à l'espace ***Authenticator***, puis cliquer sur ***Ajouter***. 
+![Téléchargez l'{{ fr.WAPP }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4177.png) 
+3. Dans l'{{ fr.WAPP }}, accéder à l'espace ***Authenticator***, puis cliquer sur ***Ajouter***. 
 1. De retour à la page du navigateur, choisir l'option ***Application mobile***. 
-1. Scanner le ***Code QR*** dans ***{{ fr.DWS }}***.  
-![Scannez ce code QR dans votre {{ fr.DWS }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4178.png) 
+1. Scanner le ***Code QR*** dans l'{{ fr.WAPP }}.  
+![Scannez ce code QR dans votre {{ fr.WAPP }}](https://webdevolutions.azureedge.net/docs/fr/hub/Hub4178.png) 
 6. Attendre que le compte et l'authentificateur soient associés. Une fois cette configuration terminée, elle fournira un accès au hub.  
 
 Vous pouvez maintenant aller à la section [Premier accès au hub](#premier-accès-au-hub). 

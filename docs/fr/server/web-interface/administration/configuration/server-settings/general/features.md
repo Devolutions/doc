@@ -22,7 +22,7 @@ Description
 Permettre les extensions de navigateur 
 		</td>
 		<td>
-Permets d'enregistrer les identifiants dans l'instance {{ fr.DVLS }} avec [{{ fr.DWL }}](/fr/server/dwl/overview/). 
+Permets d'enregistrer les identifiants dans l'instance {{ fr.DVLS }} avec le [{{ fr.WBEX }}](/fr/server/workspace-browser-extension/overview/). 
 		</td>
 	</tr>
 	<tr>

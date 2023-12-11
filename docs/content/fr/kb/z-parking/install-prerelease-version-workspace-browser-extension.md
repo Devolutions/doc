@@ -79,7 +79,7 @@ Safari version 16 or later is required.
    1. Select the ***Extensions*** tab.
    1. Find the {{ en.WBEX }} in the list on the right and enable it by checking the box.
    1. Close Safari Settings.
-1. Double-click "{{ en.WBEX }}" in the unzipped folder.
+1. Double-click "{{ en.WBEX_MAJ }}" in the unzipped folder.
 
 You are now ready to go!
 
@@ -105,7 +105,7 @@ Source: [Running your Safari web extension - Configure Safari in {{ en.MAC }} to
    1. In Safari Settings, select the ***Extensions*** tab.
    1. Find the {{ en.WBEX }} in the list on the left and enable it by checking the box.
    1. Close Safari Settings.
-1. Double-click "{{ en.WBEX }}" in the unzipped folder.
+1. Double-click "{{ en.WBEX_MAJ }}" in the unzipped folder.
 
 You are now ready to go!
 

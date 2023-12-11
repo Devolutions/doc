@@ -35,6 +35,6 @@ Elle est structurée selon nos divers produits, ainsi qu'en quelques sous-catég
 
 &nbsp; &nbsp;[{{ fr.PS }}](/fr/kb/devolutions-powershell/)
 
-&nbsp; &nbsp;[{{ fr.DWL }}](/fr/kb/devolutions-web-login/)
+&nbsp; &nbsp;[{{ fr.WBEX_MAJ }}](/fr/kb/workspace-browser-extension/)
 
-&nbsp; &nbsp;[{{ fr.DWS }}](/fr/kb/devolutions-workspace/)
+&nbsp; &nbsp;[{{ fr.WAPPS_MAJ }}](/fr/kb/devolutions-workspace/)

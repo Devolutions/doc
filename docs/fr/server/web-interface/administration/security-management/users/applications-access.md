@@ -27,10 +27,10 @@ Autoriser l'utilisateur à accéder au {{ fr.DVLS }} via {{ fr.RDM }}.
 	<tr>
 		<td>
 
-[{{ fr.DWL }}](/fr/server/dwl/overview/) 
+[{{ fr.WBEX_MAJ }}](/fr/server/workspace-browser-extension/overview/) 
 		</td>
 		<td>
-Permettre à l'utilisateur de remplir automatiquement le nom d'utilisateur et les mots de passe sur les sites Web avec {{ fr.DWL }}. 
+Permettre à l'utilisateur de remplir automatiquement le nom d'utilisateur et les mots de passe sur les sites Web avec le {{ fr.WBEX }}. 
 		</td>
 	</tr>
 	<tr>

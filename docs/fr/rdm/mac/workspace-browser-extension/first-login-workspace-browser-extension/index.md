@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
-  title: Première connexion avec {{ fr.DWL }}
+  title: Première connexion avec le {{ fr.WBEX }}
   order: 40
 ---
-Suivez ces étapes pour connecter {{ fr.RDM }} à l'extension {{ fr.DWL }}. Vous serez invité à coupler les deux applications.  
+Suivez ces étapes pour connecter {{ fr.RDM }} au {{ fr.WBEX }}. Vous serez invité à coupler les deux applications.  
 
-1. Cliquer sur l'extension {{ fr.DWL }} dans le coin supérieur droit de votre navigateur. 
+1. Cliquer sur le {{ fr.WBEX }} dans le coin supérieur droit de votre navigateur. 
 {% snippet icon.badgeCaution %} 
 {{ fr.RDM }} doit être installé et en cours d'exécution pour continuer. 
 {% endsnippet %}
@@ -14,7 +14,7 @@ Suivez ces étapes pour connecter {{ fr.RDM }} à l'extension {{ fr.DWL }}. Vous
 ![Première connexion](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl4014.png) 
 1. Saisir un nom pour cette association dans la zone de texte. 
 {% snippet icon.badgeNotice %} 
-Ce nom peut être utilisé pour identifier une association particulière et pour en refuser l'accès à partir de {{ fr.RDM }}. Le nom par défaut est celui du navigateur Web qui exécute {{ fr.DWL }}. 
+Ce nom peut être utilisé pour identifier une association particulière et pour en refuser l'accès à partir de {{ fr.RDM }}. Le nom par défaut est celui du navigateur Web qui exécute le {{ fr.WBEX }}. 
 {% endsnippet %}
  
 ![Associer avec {{ fr.RDM }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl4041.png) 
@@ -26,11 +26,9 @@ Une fenêtre contextuelle apparaîtra dans {{ fr.RDM }} pour confirmer que la re
  
 5. Cliquer sur ***Oui*** dans {{ fr.RDM }} pour accepter la demande d'association.  
 ![Demande d'association](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl4042.png) 
-1. Si vous cliquez sur l'icône de {{ fr.DWL }} dans votre navigateur Web, vous pouvez valider que {{ fr.DWL }} est désormais associé à votre {{ fr.RDM }}.  
-![Association réussie de {{ fr.RDM }} à {{ fr.DWL }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2008.png) 
+1. Si vous cliquez sur l'icône du {{ fr.WBEX }} dans votre navigateur Web, vous pouvez valider que le {{ fr.WBEX }} est désormais associé à votre {{ fr.RDM }}.  
+![Association réussie de {{ fr.RDM }} au {{ fr.WBEX }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2008.png) 
 
 {% snippet icon.badgeInfo %} 
-Notez que, bien que {{ fr.RDM }} puisse gérer plusieurs associations (par exemple, plusieurs navigateurs), {{ fr.DWL }} ne peut être associé qu'à une seule instance de {{ fr.RDM }} à la fois. 
+Bien que {{ fr.RDM }} puisse gérer plusieurs associations (par exemple, plusieurs navigateurs), le {{ fr.WBEX }} ne peut être associé qu'à une seule instance de {{ fr.RDM }} à la fois. 
 {% endsnippet %}
- 
-

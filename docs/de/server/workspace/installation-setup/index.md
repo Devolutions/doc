@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ de.DWS }} Installation und Konfiguration mit {{ de.DVLS }}'
+  title: '{{ de.WAPPS }} Installation und Konfiguration mit {{ de.DVLS }}'
 ---

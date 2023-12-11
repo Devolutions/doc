@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Ajouter un site Web
 ---
-Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les {{ fr.VLT }}s et entrées des onglets ***{{ fr.VLT_MAJ }}s*** ou [***{{ fr.UVLT_MAJ }}***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#onglet-coffre-d'utilisateur). Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DHUBB }} via {{ fr.DWL }}.  
+Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant***, qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les {{ fr.VLT }}s et entrées des onglets ***{{ fr.VLT_MAJ }}s*** ou [***{{ fr.UVLT_MAJ }}***](/fr/hub/workspace-browser-extension/workspace-browser-extension-user-interface/workspace-browser-extension-user-interface-hub-business/side-menu/#onglet-coffre-d'utilisateur). Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DHUBB }} à partir du {{ fr.WBEX }}.  
 
 Lorsque {{ fr.DHUBB }} est utilisé comme source de données, la configuration de base de l'entrée est exécutée dans l'onglet ***Général***, mais des paramètres supplémentaires sont aussi disponibles dans d'autres onglets. Vous trouverez ci-dessous un exemple des paramètres de l'onglet ***Général*** lors de la création d'une entrée de site Web.  
 ![Nouvelle entrée - Site Web (onglet Général)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2090.png) 
@@ -25,7 +25,7 @@ DESCRIPTION
 Nom 
 		</td>
 		<td>
-Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par {{ fr.DWL }}, mais il peut tout de même être modifié. 
+Saisir un nom pour votre entrée. Ce champ est rempli automatiquement par le {{ fr.WBEX }}, mais il peut tout de même être modifié. 
 		</td>
 	</tr>
 	<tr>
@@ -50,7 +50,7 @@ Saisir le nom du dossier dans lequel votre nouvelle entrée sera stockée dans {
 Hôte 
 		</td>
 		<td>
-Dans la liste déroulante, sélectionner la manière dont {{ fr.DWL }} récupérera l'hôte entre ***Personnalisé***, ***Liés ({{ fr.VLT }})*** ou ***Hérité***. Si vous sélectionnez ***Personnalisé***, le champ ***URL*** (voir ci-dessous) apparaîtra. Si vous sélectionnez ***Liés ({{ fr.VLT }})***, une liste déroulante apparaîtra dans laquelle vous pourrez sélectionner l'hôte. 
+Dans la liste déroulante, sélectionner la manière dont le {{ fr.WBEX }} récupérera l'hôte entre ***Personnalisé***, ***Liés ({{ fr.VLT }})*** ou ***Hérité***. Si vous sélectionnez ***Personnalisé***, le champ ***URL*** (voir ci-dessous) apparaîtra. Si vous sélectionnez ***Liés ({{ fr.VLT }})***, une liste déroulante apparaîtra dans laquelle vous pourrez sélectionner l'hôte. 
 		</td>
 	</tr>
 	<tr>
@@ -58,7 +58,7 @@ Dans la liste déroulante, sélectionner la manière dont {{ fr.DWL }} récupér
 URL 
 		</td>
 		<td>
-Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiquement par {{ fr.DWL }}, mais il peut tout de même être modifié. 
+Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiquement par le {{ fr.WBEX }}, mais il peut tout de même être modifié. 
 		</td>
 	</tr>
 	<tr>
@@ -66,7 +66,7 @@ Saisir l'URL de la page de connexion du site Web. Ce champ est rempli automatiqu
 Identifiants 
 		</td>
 		<td>
-Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié ({{ fr.VLT }})***, ***Hérité***, ***Mes identifiants personnels***, ***Rechercher par nom ({{ fr.UVLT }})*** ou ***Aucun*** pour spécifier à {{ fr.DWL }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
+Dans la liste déroulante, sélectionner ***Personnalisé***, ***Lié ({{ fr.VLT }})***, ***Hérité***, ***Mes identifiants personnels***, ***Rechercher par nom ({{ fr.UVLT }})*** ou ***Aucun*** pour spécifier au {{ fr.WBEX }} la façon de récupérer vos identifiants. Certaines de ces options vous donnent accès à des paramètres supplémentaires. 
 		</td>
 	</tr>
 	<tr>
@@ -127,7 +127,7 @@ Sélectionner comment l'URL saisie est comparée et mise en correspondance avec 
 	</tr>
 	<tr>
 		<td>
-{{ fr.DWL }} 
+{{ fr.WBEX_MAJ }} 
 		</td>
 		<td>
 Dans la liste déroulante, sélectionner entre ***Par défaut***, ***Désactivé*** ou ***Activé***. Si cette option est désactivée, vos identifiants pour cette entrée ne seront pas suggérés lors de l'accès à ce site Web particulier. Il est donc recommandé de laisser cette option activée. 
@@ -160,9 +160,9 @@ Sélectionner l'authentification ***Formulaire*** ou ***Basic*** en fonction du 
 Remplissage automatique des identifiants 
 		</td>
 		<td>
-Activer cette option si vous voulez que {{ fr.DWL }} remplisse automatiquement vos identifiants lors du chargement de la page de connexion du site Web. Cela ne s'appliquera qu'à cette entrée spécifique.  
+Activer cette option si vous voulez que le {{ fr.WBEX }} remplisse automatiquement vos identifiants lors du chargement de la page de connexion du site Web. Cela ne s'appliquera qu'à cette entrée spécifique.  
 
-L'option ***Remplissage automatique des identifiants*** est similaire à l'option ***Remplir automatiquement les champs d'identifiants lors du chargement*** dans les [***Paramètres***](/fr/hub/dwl/settings/) de {{ fr.DWL }}, à la différence que la première s'applique uniquement à l'entrée spécifique et que la seconde s'applique à toutes vos entrées. Notez que le paramètre {{ fr.DWL }} prévaut sur le ***Remplissage automatique des identifiants***. 
+L'option ***Remplissage automatique des identifiants*** est similaire à l'option ***Remplir automatiquement les champs d'identifiants lors du chargement*** dans les [***Paramètres***](/fr/hub/workspace-browser-extension/settings/) du {{ fr.WBEX }}, à la différence que la première s'applique uniquement à l'entrée spécifique et que la seconde s'applique à toutes vos entrées. Notez que le paramètre du {{ fr.WBEX }} prévaut sur le ***Remplissage automatique des identifiants***. 
 		</td>
 	</tr>
 	<tr>
@@ -170,9 +170,9 @@ L'option ***Remplissage automatique des identifiants*** est similaire à l'optio
 Soumission automatique 
 		</td>
 		<td>
-Activer cette option si vous voulez que {{ fr.DWL }} soumette automatiquement vos identifiants après qu'ils soient remplis dans les champs. Cela ne s'appliquera qu'à cette entrée spécifique.  
+Activer cette option si vous voulez que le {{ fr.WBEX }} soumette automatiquement vos identifiants après qu'ils soient remplis dans les champs. Cela ne s'appliquera qu'à cette entrée spécifique.  
 
-L'option ***Soumission automatique*** est similaire à l'option ***Soumettre automatiquement le formulaire après la saisie*** dans les [***Paramètres***](/fr/hub/dwl/settings/) de {{ fr.DWL }}, à la différence que la première s'applique uniquement à l'entrée spécifique et que la seconde s'applique à toutes vos entrées. Notez que le paramètre {{ fr.DWL }} prévaut sur la ***Soumission automatique***. 
+L'option ***Soumission automatique*** est similaire à l'option ***Soumettre automatiquement le formulaire après la saisie*** dans les [***Paramètres***](/fr/hub/workspace-browser-extension/settings/) du {{ fr.WBEX }}, à la différence que la première s'applique uniquement à l'entrée spécifique et que la seconde s'applique à toutes vos entrées. Notez que le paramètre du {{ fr.WBEX }} prévaut sur la ***Soumission automatique***. 
 		</td>
 	</tr>
 	<tr>
@@ -190,7 +190,7 @@ Cette option n'est disponible que si ***Basic*** est sélectionné dans la liste
 Délai de remplissage automatique 
 		</td>
 		<td>
-Activer cette option pour appliquer un délai avant que {{ fr.DWL }} ne remplisse automatiquement vos identifiants.  
+Activer cette option pour appliquer un délai avant que le {{ fr.WBEX }} ne remplisse automatiquement vos identifiants.  
 
 Cette option n'est disponible que si ***Formulaire*** est sélectionné dans la liste déroulante ***Authentification***. 
 		</td>
@@ -604,5 +604,5 @@ Annuler la création de la nouvelle entrée de site Web et effacer toutes les mo
 </table>
 
 {% snippet icon.badgeInfo %} 
-Vous pouvez suivre notre guide étape par étape expliquant [comment ajouter une entrée de site Web](/fr/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/add-entry-hub-business-dwl/) dans {{ fr.DHUBB }} avec {{ fr.DWL }}. 
+Vous pouvez suivre notre guide étape par étape expliquant [comment ajouter une entrée de site Web](/fr/hub/workspace-browser-extension/using-workspace-browser-extension/using-workspace-browser-extension-with-hub-business/add-entry-hub-business-workspace-browser-extension/) dans {{ fr.DHUBB }} avec le {{ fr.WBEX }}. 
 {% endsnippet %}
