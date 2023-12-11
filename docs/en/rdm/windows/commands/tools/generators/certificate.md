@@ -18,7 +18,7 @@ The ***Certificate Generator*** allows you to create a self signed certificate w
 | Save to file (pfx)   | Save the certificate into a *.pfx file and secure this certificate with a password.                                                                                       |
 | Save to certificate store | Indicate the location and the store to save the certificate.                                                                                    |
 | Location             | Indicate the location of the certificate. Select between: <ul><li>Current user</li><li>Local machine</li> </ul>                                                       |
-| Store                | Indicate the store location of the certificate. Select between: <br>* Address book <br>* Authorization root <br>* Certificate authority <br>* Disallowed <br>* My <br>* Root <br>* Trusted people <br>* Trusted publisher |
+| Store                | Indicate the store location of the certificate. Select between: <ul><li>Address book</li><li>Authorization root</li><li>Certificate authority</li><li>Disallowed</li> <li>My</li><li>Root</li><li>Trusted people</li><li>Trusted publisher</li></ul> |
 
 ![Self Signed Certificate](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10391.png) 
 

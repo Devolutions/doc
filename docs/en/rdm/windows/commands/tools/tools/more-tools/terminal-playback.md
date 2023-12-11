@@ -11,9 +11,9 @@ The ***Playback (Ansi)*** is available in ***Tools – More Tools – Playback (
 
 | OPTION   | DESCRIPTION                                                   |
 |----------|---------------------------------------------------------------|
-| ![!!Select ANSI File Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10865.png) | Select the ANSI file you wish to open in the Terminal Playback.                                          |
+| ![!!Select ANSI File Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10865.png) | Select the ANSI file you wish to open in the Terminal Playback.                                     |
 | Font     | Select the font for the Terminal Playback.                    |
-| ![!!Options Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10867.png) Options | See the ***Options*** section.   |
+| ![!!Options Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10867.png) | See the ***Options*** section.   |
 | ![!!Clear Screen Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10868.png) | Clear the screen to play another ANSI file. |
 
 ### Options 

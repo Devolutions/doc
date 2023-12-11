@@ -19,7 +19,7 @@ The Chocolatey Console is available in the Tools – More Tools – Chocolatey C
 | ![!!Update Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10860.png) | Update the selected application.     |
 | ![!!Uninstall Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10861.png) | Uninstall the selected application.                                                                                                                     |
 | ![!!Refresh Icon](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10862.png) | Refresh the Chocolatey details list.          |
-S
+
 ## Usage 
 
 During the installation, you will see the following window.  
