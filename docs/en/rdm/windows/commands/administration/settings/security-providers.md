@@ -44,11 +44,11 @@ Applying a new security provider does process the whole database, therefore we a
 1. Select a security type from the drop-down list.  
 ![Security Type](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10285.png) 
 
-| OPTION           | DESCRIPTION                                                                                      |----------------------------------------------------------------------------------------------------------------------|
-| Default          | This is the default security mode. The XML is not encrypted by default. Please note that the passwords are always encrypted.  |
-| Shared passphrase| Set up a shared passphrase for the Security Provider.                                                                   |
-| Certificate      | Set up a Certificate for the Security Provider.                                                                         |
-
+| OPTION           | DESCRIPTION                                                                                                                  |
+|------------------|------------------------------------------------------------------------------------------------------------------------------|
+| Default          | This is the default security mode. The XML is not encrypted by default. Please note that the passwords are always encrypted. |
+| Shared passphrase| Set up a shared passphrase for the Security Provider.                                                                        |
+| Certificate      | Set up a Certificate for the Security Provider.                                                                              |
 
 ## Shared Passphrase 
 
@@ -96,9 +96,9 @@ It is possible to create a Self Signed certificate by clicking on ***Create Cert
 | OPTION                    | DESCRIPTION                                                                                     |
 |---------------------------|-------------------------------------------------------------------------------------------------|
 | Common name               | Name of the certificate.                                                                        |
-| Key size (bits)           | Indicate the key size (bits) of the certificate. Select between:<br><ul><li>384</li> <li>512</li> <li>1024</li> <li>2048</li> <li>4096</li> <li>8192</li> <li>16384</li></ul>|
-| Valid from                | Start date of the certificate.                                                                 |
-| Valid to                  | End date of the certificate.                                                                   |
-| Save to file (pfx)        | Save the certificate as a pfx file and secure this certificate with a password.                |
-| Save to certificate store | Indicate the location and the store to save the certificate.                                   |
+| Key size (bits)           | Indicate the key size (bits) of the certificate. Select between:<br><ul><li>384</li><li>512</li><li>1024</li><li>2048</li><li>4096</li><li>8192</li><li>16384</li></ul> |
+| Valid from                | Start date of the certificate.                                                                  |
+| Valid to                  | End date of the certificate.                                                                    |
+| Save to file (pfx)        | Save the certificate as a pfx file and secure this certificate with a password.                 |
+| Save to certificate store | Indicate the location and the store to save the certificate.                                    |
 
