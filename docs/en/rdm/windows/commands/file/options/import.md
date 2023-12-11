@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Import options
+  description: Select the Configuration File to import in {{ en.RDM }} and click on Open. 
 ---
 Select the [Configuration File](/rdm/windows/installation/client/configuration-file-location/) to import in {{ en.RDM }} and click on Open. 
 
@@ -8,40 +9,11 @@ Select the [Configuration File](/rdm/windows/installation/client/configuration-f
 
 ![Application Options File Importer](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10186.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Use the selected configuration file as the new one 
-		</td>
-		<td>
-Use the <b>RemoteDesktopManager.cfg</b> file as a new configuration file for your application. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Choose options to replace 
-		</td>
-		<td>
-Select which options to replace in your actual <b>RemoteDesktopManager.cfg</b> file. See below for more information. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Create a backup (.old) 
-		</td>
-		<td>
-Create a backup of your old <b>RemoteDesktopManager.cfg</b>. 
-		</td>
-	</tr>
-</table>
+| OPTION                      | DESCRIPTION                                                                                     |
+|-----------------------------|-------------------------------------------------------------------------------------------------|
+| Use the selected configuration file as the new one | Use the `RemoteDesktopManager.cfg` file as a new configuration file for your application.             |
+| Choose options to replace                          | Select which options to replace in your actual `RemoteDesktopManager.cfg` file. See below for more information. |
+| Create a backup (.old)                             | Create a backup of your old `RemoteDesktopManager.cfg`.                                                |
 
 ### Choose options to replace 
 

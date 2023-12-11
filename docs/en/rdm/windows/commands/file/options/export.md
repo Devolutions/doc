@@ -1,8 +1,9 @@
 ---
 eleventyComputed:
   title: Export options
+  description: Use File – Options – Export Options to control the options to export from your application configuration.
 ---
-Use File – Options – Export Options to control the options to export from your application configuration. Use this to easily transfer settings to another machine.  
+Use ***File*** – ***Options*** – ***Export Options*** to control the options to export from your application configuration. Use this to easily transfer settings to another machine.  
 
 {% snippet icon.shieldWarning %} 
 Sharing the exported file with a colleague would effectively give that person whatever credentials you have set in your data source definitions.  
@@ -16,40 +17,12 @@ Devolutions does not recommend sharing any credential to a team data source.
 
 ### Registration information 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Company registration name 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Email 
-		</td>
-		<td>
-Registration email 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Key 
-		</td>
-		<td>
-Serial key 
-		</td>
-	</tr>
-</table>
+| OPTION | DESCRIPTION             |
+|--------|-------------------------|
+| Name   | Company registration name |
+| Email  | Registration email      |
+| Key    | Serial key              |
+
 
 ### Miscellaneous 
 
@@ -57,48 +30,13 @@ Serial key
 The local templates may contain credentials. Ensure you do not share the exported file. 
 {% endsnippet %}
  
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Proxy settings 
-		</td>
-		<td>
-Include your proxy settings. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Saved installation paths 
-		</td>
-		<td>
-Preserve your installation paths configured for the external application. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Saved templates 
-		</td>
-		<td>
-Include your local templates in the export. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Include data source credentials 
-		</td>
-		<td>
-Include your data source credentials. 
-		</td>
-	</tr>
-</table>
+| OPTION                     | DESCRIPTION                                                 |
+|----------------------------|-------------------------------------------------------------|
+| Proxy settings             | Include your proxy settings.                                |
+| Saved installation paths   | Preserve your installation paths configured for the external application. |
+| Saved templates            | Include your local templates in the export.                 |
+| Include data source credentials | Include your data source credentials.                  |
+
 
 ### Data Sources 
 

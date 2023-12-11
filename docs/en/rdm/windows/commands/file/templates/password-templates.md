@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Password templates
+  description: Password templates are available in the password generator. Password templates can be optional or required.   
 ---
 Password templates set requirements for the password format: characters usage, patterns, readability.  
 
@@ -18,56 +19,14 @@ Password templates are available in the password generator. Password templates c
 1. Enter a template name. 
 1. Choose a ***Mode*** and configure the settings. 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Default 
-		</td>
-		<td>
-General settings about length and minimum amounts for characters and symbols. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Advanced settings 
-		</td>
-		<td>
-Granular character settings (e.g. special characters and symbols, inclusions, exclusions). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Readable password 
-		</td>
-		<td>
-Settings for syllables, numbers and symbols. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Use a pattern 
-		</td>
-		<td>
-Set a pattern for the passwords using the [key](Tools_PasswordGenerator). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Pronounceable password 
-		</td>
-		<td>
-Settings for length, case, digits, and characters. 
-		</td>
-	</tr>
-</table>
+| OPTION               | DESCRIPTION                                                            |
+|----------------------|------------------------------------------------------------------------|
+| Default              | General settings about length and minimum amounts for characters and symbols. |
+| Advanced settings    | Granular character settings (e.g. special characters and symbols, inclusions, exclusions). |
+| Readable password    | Settings for syllables, numbers and symbols.                           |
+| Use a pattern        | Set a pattern for the passwords using the [key](Tools_PasswordGenerator). |
+| Pronounceable password | Settings for length, case, digits, and characters.                     |
+
 
 6. Choose specific settings.  
 ![!!RdmWin7018](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin7018.png) 
