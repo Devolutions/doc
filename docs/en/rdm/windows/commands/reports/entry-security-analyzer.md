@@ -49,62 +49,12 @@ These are the rules which make the passwords weaker:
 
 ![!!clip11340](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11340.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Show all entries 
-		</td>
-		<td>
-Shows you all the entries in your session, including those without password. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Show VPN analysis 
-		</td>
-		<td>
-Add the VPN Host column. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Show compromised password (pwned) 
-		</td>
-		<td>
+| OPTION         | DESCRIPTION                                   |
+|----------------|-----------------------------------------------|
+| Show all entries                 | Shows you all the entries in your session, including those without password.                                                            |
+| Show VPN analysis                | Add the VPN Host column.                                                                                                                |
+| Show compromised password (pwned)| Show if the password has been pwned. A [pwned password](/kb/remote-desktop-manager/how-to-articles/pwned-password-check/) is a password that has been exposed in data breaches (i.e., they are owned/pwned by hackers). |
+| Edit                             | Open the current entry to edit it.                                                                                                                    | 
+| Forbidden Passwords              | Create a list of prohibited passwords.                                                                                                             |
+| Export Settings                  | Export the password analyzer settings.                                                                                                              |
 
-Show if the password has been pwned. A [pwned password](/kb/remote-desktop-manager/how-to-articles/pwned-password-check/) is a password that has been exposed in data breaches (i.e., they are owned/pwned by hackers). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Edit 
-		</td>
-		<td>
-Open the current entry to edit it. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Forbidden Passwords 
-		</td>
-		<td>
-Create a list of prohibited passwords. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Export Settings 
-		</td>
-		<td>
-Export the password analyzer settings. 
-		</td>
-	</tr>
-</table>

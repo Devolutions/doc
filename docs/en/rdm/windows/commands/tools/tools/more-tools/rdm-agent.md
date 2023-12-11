@@ -20,204 +20,57 @@ Execute script via Agent only needs the {{ en.RDMA }} when the script is execute
 
 ![Quick Script – Message](https://webdevolutions.azureedge.net/docs/en/rdm/windows/ExecuteScriptMessage.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Message 
-		</td>
-		<td>
-Send a message to all targets. 
-		</td>
-	</tr>
-</table>
+| OPTION  | DESCRIPTION                     |
+|---------|---------------------------------|
+| Message | Send a message to all targets.  |
+
 
 ### Quick Script – Command Line (cmd.exe) 
 
 ![Quick Script – Command Line](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10407.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Run 
-		</td>
-		<td>
-Indicate the command line that you want to execute. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Use Default Working directory 
-		</td>
-		<td>
-Use the default working directory when connect to the session. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Run as Administrator 
-		</td>
-		<td>
-Elevates the process to run as an administrator. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Keep open 
-		</td>
-		<td>
-Keep the window open after the execution of the command line. 
-		</td>
-	</tr>
-</table>
+| OPTION                    | DESCRIPTION                                               |
+|---------------------------|-----------------------------------------------------------|
+| Run                       | Indicate the command line that you want to execute.       |
+| Use Default Working directory | Use the default working directory when connect to the session. |
+| Run as Administrator      | Elevates the process to run as an administrator.          |
+| Keep open                 | Keep the window open after the execution of the command line.      |
+
 
 ### Quick Script - PowerShell 
 
 ![Quick Script – PowerShell](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10408.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Command 
-		</td>
-		<td>
-Indicate the PowerShell command that you want to execute. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Filename 
-		</td>
-		<td>
-Select a PowerShell file on the network or on the computer. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Arguments 
-		</td>
-		<td>
-Arguments that are appended to the Command. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Run as Administrator 
-		</td>
-		<td>
-Elevates the process to run as an administrator. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-No Profile 
-		</td>
-		<td>
-Does not load the Windows PowerShell profile. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-No exit 
-		</td>
-		<td>
-Does not exit after running startup commands. 
-		</td>
-	</tr>
-</table>
+| OPTION             | DESCRIPTION                                            |
+|--------------------|--------------------------------------------------------|
+| Command            | Indicate the PowerShell command that you want to execute. |
+| Filename           | Select a PowerShell file on the network or on the computer. |
+| Arguments          | Arguments that are appended to the Command.            |
+| Run as Administrator | Elevates the process to run as an administrator.     |
+| No Profile         | Does not load the Windows PowerShell profile.          |
+| No exit            | Does not exit after running startup commands.          |
+
 
 ### Quick Script - Run 
 
 ![Quick Script – Run](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10409.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Run 
-		</td>
-		<td>
-Select the program or file that you want to execute. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Arguments 
-		</td>
-		<td>
-Arguments that are appended to the Command. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Use Default Working directory 
-		</td>
-		<td>
-Use the default working directory when connect to the session. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Run as Administrator 
-		</td>
-		<td>
-Elevates the process to run as an administrator. 
-		</td>
-	</tr>
-</table>
+| OPTION                    | DESCRIPTION                                               |
+|---------------------------|-----------------------------------------------------------|
+| Run                       | Select the program or file that you want to execute.      |
+| Arguments                 | Arguments that are appended to the Command.               |
+| Use Default Working directory | Use the default working directory when connect to the session. |
+| Run as Administrator      | Elevates the process to run as an administrator.          |
+
 
 ### Quick Script - Scripts/Tools 
 
 ![Quick Script – Scripts/Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10410.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Scripts/Tools 
-		</td>
-		<td>
-Select a script or a tool session that you have already created in {{ en.RDM }}. 
-		</td>
-	</tr>
-</table>
+| OPTION       | DESCRIPTION                                                     |
+|--------------|-----------------------------------------------------------------|
+| Scripts/Tools| Select a script or a tool session that you have already created in {{ en.RDM }}. |
+
 
 ### Script/Tools 
 
@@ -229,33 +82,10 @@ Search for a script or a tool you wish to execute through the {{ en.RDMA }}.
 
 ![Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10412.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Open all connections 
-		</td>
-		<td>
-
-When multiple sessions are selected to ***Execute Script Via Agent***, it will open all the selected connections. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Delay 
-		</td>
-		<td>
-Enter the time delay between opening each selected session. 
-		</td>
-	</tr>
-</table>
+| OPTION               | DESCRIPTION                                                                                       |
+|----------------------|---------------------------------------------------------------------------------------------------|
+| Open all connections | When multiple sessions are selected to ***Execute Script Via Agent***, it will open all the selected connections.           |
+| Delay                | Enter the time delay between opening each selected session.                                       |
 
 ### Agent Status 
 
