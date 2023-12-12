@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Data sources
+  description: The data sources are at the heart of {{ en.RDM }}. They are the container that holds entries. 
   order: 40
 ---
 The data sources are at the heart of {{ en.RDM }}. They are the container that holds entries. 
@@ -26,40 +27,11 @@ Switch from one data source to another by using the data source drop down list.
 You may assign a data source to open automatically when {{ en.RDM }} starts.  
 ![Startup Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10940.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Use default data source 
-		</td>
-		<td>
-Select the data source to connect to when the application starts. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Last used data source 
-		</td>
-		<td>
-Connect to the last used data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Prompt for data source 
-		</td>
-		<td>
-Prompt the user to for a data source to connect to. 
-		</td>
-	</tr>
-</table>
+| OPTION                  | DESCRIPTION |
+|-------------------------|-------------|
+| Use default data source | Select the data source to connect to when the application starts. |
+| Last used data source   | Connect to the last used data source. |
+| Prompt for data source  | Prompt the user to for a data source to connect to. |
 
 ## Data Source Settings (System Settings) 
 

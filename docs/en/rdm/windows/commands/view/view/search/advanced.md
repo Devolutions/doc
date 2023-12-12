@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Advanced search
+  description: The Advanced Search allows you to search for entries and folders based on multiple criteria in one {{ en.VLT }} at a time.
 ---
 The Advanced Search allows you to search for entries and folders based on multiple criteria in one {{ en.VLT }} at a time. To search multiple {{ en.VLT }}s simultaneously, please refer to [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/panels/search/multi-vault/).  
 ![Advanced Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10250.png) 
@@ -9,106 +10,17 @@ It is possible to select multiple entries at once by <kbd>Shift</kbd>-clicking o
 
 ### Search tab 
 
-<table>
-	<tr>
-		<th>
+| OPTION   | DESCRIPTION                                                   |
+|----------|---------------------------------------------------------------|
+| Criteria              | You can select multiple different criteria at once to tweak your search:<ul><li>Connection type</li> Contact reference<li>Creation date<li>Custom field</li><li>Description<li> Domain</li> Folder</li> Host</li> Is favorite<li>Tags </li>Last update date <li>Name</li><li> OS</li><li>Password strength</li><li> Serial Number</li><li> Server role<li>Status</li><li> Username </li><li>URL</li><li>Version</li><li>IP</li><li>MAC</li><li>Software |
+| Load                  | Load searches that have been previously saved.                                                                                                                                                                                                    |
+| Save                  | Save your search locally to reuse it.                                                                                                                                                                                                       |
+| Save As               | Save a previously saved search but under a different name.                                                                                                                                                                                                     |
+| Export                | Export the entries of your search result as a CSV, HTML, XLS or XML file. Sensitive information will be encrypted using AES.     |
+| Search                | Once you have selected your search criteria, click on Search to display the search results.                                                                                                                                                   |
+| Reset                 | Reset all your fields to proceed with a new search.                                                                                                                                                                                                   |
+| Select in ***{{ en.NPANE }}*** | Select your search result in your ***{{ en.NPANE }}***. This option can be used in combination with a Batch Edit.       |
 
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Criteria 
-		</td>
-		<td>
-You can select multiple different criteria at once to tweak your search:  
-
-* Connection type 
-* Contact reference 
-* Creation date 
-* Custom field 
-* Description 
-* Domain 
-* Folder 
-* Host 
-* Is favorite 
-* Tags 
-* Last update date 
-* Name 
-* OS 
-* Password strength 
-* Serial Number 
-* Server role 
-* Status 
-* Username 
-* URL 
-* Version 
-* IP 
-* MAC 
-* Software 
-
-		</td>
-	</tr>
-	<tr>
-		<td>
-Load 
-		</td>
-		<td>
-Load searches that have been previously saved. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Save 
-		</td>
-		<td>
-Save your search locally to reuse it. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Save As 
-		</td>
-		<td>
-Save a previously saved search but under a different name. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Export 
-		</td>
-		<td>
-Export the entries of your search result as a CSV, HTML, XLS or XML file. Sensitive information will be encrypted using AES. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Search 
-		</td>
-		<td>
-Once you have selected your search criteria, click on Search to display the search results. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Reset 
-		</td>
-		<td>
-Reset all your fields to proceed with a new search. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Select in ***{{ en.NPANE }}*** 
-		</td>
-		<td>
-Select your search result in your ***{{ en.NPANE }}***. This option can be used in combination with a Batch Edit. 
-		</td>
-	</tr>
-</table>
 
 There will be a drop-down list next to certain criteria fields (ex: Name) to give you more search options:  
 

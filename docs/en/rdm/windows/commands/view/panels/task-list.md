@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Task list
+  description: Create a Task List to keep track of work that needs to be done by the team. Toggle the Task List pane in View – Panels – Task List.  
 ---
 Create a ***Task List*** to keep track of work that needs to be done by the team. Toggle the ***Task List*** pane in ***View – Panels – Task List***.  
 ![Task List Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2058.png) 
@@ -20,102 +21,16 @@ This feature is only available for the following data sources: [{{ en.DVLS }}](/
 1. Enter your task information, like the name of the task, the priority, the due date, the description, etc.  
 ![Task Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10248.png) 
 
-<table>
-	<tr>
-		<th>
+| OPTION   | DESCRIPTION                                                   |
+|----------|---------------------------------------------------------------|
+| Name                    | Enter a custom name for the task.                                                                                                                                                                                                                |
+| Entry                   | Displays the entry currently selected in the ***{{ en.NPANE }}***. The task is assigned to this entry. It is a read-only field.                                                          |
+| Priority                | Set the priority of the task (from 0 to 100).                                                                                                                                                                                                                |
+| Due date                | Set a deadline for the task.                                                                                                                                                                                                                |
+| Description             | Enter a description of the task for the assigned user.                                                                                                                                                                                                                |
+| User                    | Assign a user to the task.                                                                                                                                                                                                                |
+| Assign me to this task  | Click this button to assign the task to yourself.                                                                                                                                                                                                            |
+| Delete                  | Clear the assigned user.                                                                                                                                                                                                                |
+| Status                  | Set a status for the task. Select between the following: <ul><li>Open<li>Assigned</li><li>In progress</li><li>Closed</li><li>Done</li><li>Cancelled</li><li>Postponed</li></ul>                                          |
+| Comment                 | Enter a comment for the task.                                                                                                                                                                                                                |
 
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Enter a custom name for the task. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Entry 
-		</td>
-		<td>
-Displays the entry currently selected in the ***{{ en.NPANE }}***. The task is assigned to this entry. It is a read-only field. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Priority 
-		</td>
-		<td>
-Set the priority of the task (from 0 to 100). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Due date 
-		</td>
-		<td>
-Set a deadline for the task. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description 
-		</td>
-		<td>
-Enter a description of the task for the assigned user. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-User 
-		</td>
-		<td>
-Assign a user to the task. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Assign me to this task 
-		</td>
-		<td>
-Click this button to assign the task to yourself. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Delete 
-		</td>
-		<td>
-Clear the assigned user. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Status 
-		</td>
-		<td>
-Set a status for the task. Select between the following:  
-
-* ***Open*** 
-* ***Assigned*** 
-* ***In progress*** 
-* ***Closed*** 
-* ***Done*** 
-* ***Cancelled*** 
-* ***Postponed*** 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Comment 
-		</td>
-		<td>
-Enter a comment for the task. 
-		</td>
-	</tr>
-</table>

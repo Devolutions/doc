@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Documentation search
+  description: We can search documentation pages linked to entries. Documentation Search provides a preview of the documentation pages, page title, and related entry details. The tool searches the current repository.  
 ---
 We can search documentation pages linked to entries. ***Documentation Search*** provides a preview of the documentation pages, page title, and related entry details. The tool searches the current repository.  
 
@@ -19,40 +20,11 @@ The ***Documentation*** feature is encrypted only for the {{ en.DVLS }} data sou
 
 ![Documentation Search Elements](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip7003.png) 
 
-<table>
-	<tr>
-		<th>
-ELEMENTS 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-1. <b><i>{{ en.NPANE }}</i></b> 
-		</td>
-		<td>
-Lists search results by location and entry. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-2. Content area 
-		</td>
-		<td>
-Displays a preview of the documentation page. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-3. Drop-down menu 
-		</td>
-		<td>
-Lists the different page titles. When an entry contains multiple documentation pages with the searched term, a list of the page titles is available. 
-		</td>
-	</tr>
-</table>
+| ELEMENTS                | DESCRIPTION                                                                                               |
+|-------------------------|-----------------------------------------------------------------------------------------------------------|
+| 1. **_{{ en.NPANE }}_** | Lists search results by location and entry.                                                               |
+| 2. Content area         | Displays a preview of the documentation page.                                                             |
+| 3. Drop-down menu       | Lists the different page titles. When an entry contains multiple documentation pages with the searched term, a list of the page titles is available. |
 
 It is possible to select multiple entries at once by <kbd>Shift</kbd>-clicking or all of them with the <kbd>Ctrl</kbd>+<kbd>A</kbd> shortcut. Right-clicking one or more entries shows the same menu and options as the ***{{ en.NPANE }}***. 
 
