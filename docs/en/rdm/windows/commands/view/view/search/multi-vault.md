@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Multi vaul search
-  description: 
+  description: The Multi {{ en.VLT }} Search feature of {{ en.RDM }} allows you to search for folders and entries in all the {{ en.VLT }}s of the selected data source at once.  
 ---
 The ***Multi {{ en.VLT }} Search*** feature of {{ en.RDM }} allows you to search for folders and entries in all the {{ en.VLT }}s of the selected data source at once.  
 ![Multi {{ en.VLT }} Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2008.png) 

@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: '{{ en.DOD }}'
+  description: The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.  
 ---
 {% youtube 'R3VYxnOdjoE' %}  
 
@@ -24,118 +25,27 @@ Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rd
 
 ![{{ en.DOD }} - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11347.png) 
 
-<table>
-	<tr>
-		<th>
+| OPTION                          | DESCRIPTION |
+|---------------------------------|-------------|
+| Name                            | Enter the name of the data source.                                                                                            |
+| Create an account for free      | Create a new {{ en.DA }}.                                                                                                     |
+| Username                        | Enter your {{ en.DA }} username.                                                                                              |
+| Connection mode                 | Choose the Default or [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) method. |
+| Application password            | Enter your [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/).                   |
+| Always ask password (default only) | Prompts for the password every time a connection to the {{ en.DOD }} is attempted.                                         |
+| Filename                        | Indicate the filename used to store the data on the {{ en.DOD }}.                                                             |
+| Master key                      | Contains a master key to access the data source.                                                                              |
+| Always ask master key           | Ask for the master key every time a connection to the {{ en.DOD }} is attempted.                                              |
 
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Enter the name of the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Create an account for free 
-		</td>
-		<td>
-Create a new {{ en.DA }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Username 
-		</td>
-		<td>
-Enter your {{ en.DA }} username. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Connection mode 
-		</td>
-		<td>
-Choose the Default or [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) method. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Application password 
-		</td>
-		<td>
-Enter your [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Always ask password (default only) 
-		</td>
-		<td>
-Prompts for the password every time a connection to the {{ en.DOD }} is attempted. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Filename 
-		</td>
-		<td>
-Indicate the filename used to store the data on the {{ en.DOD }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Master key 
-		</td>
-		<td>
-Contains a master key to access the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Always ask master key 
-		</td>
-		<td>
-Ask for the master key every time a connection to the {{ en.DOD }} is attempted. 
-		</td>
-	</tr>
-</table>
 
 ### Backup 
 
 Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for information on this service.  
 ![{{ en.DOD }} – Backup Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11334.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Backup 
-		</td>
-		<td>
-
-Choose the backup mode. Select between:  
-
-* None: No backup of the data source will be created. 
-* File backup: The backup will be saved to a local file when a modification occurs in the data source. 
-* {{ en.OBACK }}: An {{ en.OBACK }} (using the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/)) will automatically be created when a modification occurs in the data source. 
-		</td>
-	</tr>
-</table>
+| OPTION  | DESCRIPTION |
+|---------|-------------|
+| Backup  | Choose the backup mode. Select between: <ul><li>None: No backup of the data source will be created.</li><li>File backup: The backup will be saved to a local file when a modification occurs in the data source.</li><li>{{ en.OBACK }}: An {{ en.OBACK }} (using the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/)) will automatically be created when a modification occurs in the data source.</li></ul> |
 
 ### VPN 
 
@@ -146,54 +56,11 @@ Open a VPN to access your data prior to connecting to your {{ en.DOD }}.
 
 ![{{ en.DOD }} - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11335.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Auto refresh 
-		</td>
-		<td>
-Set the interval to use between each automatic refresh. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable reveal password 
-		</td>
-		<td>
-Disable the reveal password feature when a user access the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow offline mode 
-		</td>
-		<td>
+| OPTION               | DESCRIPTION |
+|----------------------|-------------|
+| Auto refresh         | Set the interval to use between each automatic refresh.                      |
+| Disable reveal password | Disable the reveal password feature when a user accesses the data source. |
+| Allow offline mode   | Allows the data source to be used in [Offline mode](/rdm/windows/data-sources/offline-mode/). |
+| Allow custom images  | Allows the use of custom images. |
+| Clear Offline Cache  | Clear the offline cache on the local computer. This can be very helpful when encountering offline issues. |
 
-Allows the data source to be used in [Offline mode](/rdm/windows/data-sources/offline-mode/). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow custom images 
-		</td>
-		<td>
-Allows the use of custom images. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Clear Offline Cache 
-		</td>
-		<td>
-Clear the offline cache on the local computer. This can be very helpful when encountering offline issues. 
-		</td>
-	</tr>
-</table>

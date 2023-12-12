@@ -1,14 +1,9 @@
 ---
 eleventyComputed:
   title: Microsoft Azure SQL
+  description: With a Microsoft Azure SQL data source, {{ en.RDM }} uses the Microsoft cloud platform to save and manage entries.  
 ---
-<table>
-	<tr>
-		<td>
 
-![!!DataSourceAzureLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
-		</td>
-		<td>
 With a Microsoft Azure SQL data source, {{ en.RDM }} uses the Microsoft cloud platform to save and manage entries.  
 
 The following features are also supported:  
@@ -17,9 +12,6 @@ The following features are also supported:
 * Clustering 
 * Log shipping 
 * Database mirroring 
-		</td>
-	</tr>
-</table>
 
 ## Minimum Requirement for Azure SQL Database for {{ en.RDM }} 
 
@@ -49,230 +41,49 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ![Microsoft Azure SQL - General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11499.png) 
 
-<table>
-	<tr>
-		<th>
-
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Enter a name for the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Host 
-		</td>
-		<td>
-Enter the server hostname or IP address. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Login mode 
-		</td>
-		<td>
-Specify the authentication mode to use. Select between:  
-
-* ***Database login*** 
-* ***Custom login*** 
-* ***Active Directory Password*** 
-* ***Active Directory Integrated*** 
-* ***Active Directory Interactive (with MFA support)*** 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Username 
-		</td>
-		<td>
-Enter the username to access the Azure SQL database. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password 
-		</td>
-		<td>
-Enter the password to access the Azure SQL database. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Always ask password 
-		</td>
-		<td>
-Prompt for the password when a user connects to the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow change username 
-		</td>
-		<td>
-Allow the username to be edited when connecting to the data source (only with ***Always ask password*** enabled). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Database 
-		</td>
-		<td>
-Enter the name of the Azure SQL database. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Two factor 
-		</td>
-		<td>
-Enable the [Multi Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Test Database 
-		</td>
-		<td>
-Test the connection with the database to validate if the proper information has been provided. 
-		</td>
-	</tr>
-</table>
+| OPTION                | DESCRIPTION |
+|-----------------------|-------------|
+| Name                  | Enter a name for the data source.                                                                   |
+| Host                  | Enter the server hostname or IP address.                                                            |
+| Login mode            | Specify the authentication mode to use. Select between: <ul><li>***Database login***</li><li>***Custom login***</li><li>***Active Directory Password***</li><li>***Active Directory Integrated***</li><li>***Active Directory Interactive (with MFA support)***</li></ul> |
+| Username              | Enter the username to access the Azure SQL database.                                                |
+| Password              | Enter the password to access the Azure SQL database.                                                |
+| Always ask password   | Prompt for the password when a user connects to the data source.                                    |
+| Allow change username | Allow the username to be edited when connecting to the data source (only with ***Always ask password*** enabled). |
+| Database              | Enter the name of the Azure SQL database.                                                           |
+| Two factor            | Enable the [Multi Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/).   |
+| Test Database         | Test the connection with the database to validate if the proper information has been provided.      |
 
 ### Settings 
 
 ![Microsoft Azure SQL - Settings Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11363.png) 
 
-<table>
-	<tr>
-		<th>
-
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Root filter 
-		</td>
-		<td>
-Enter the name of a root level folder to display only the entries contained in that folder. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ping online method 
-		</td>
-		<td>
-Indicate the preferred ping online method. Select between:  
-
-* None 
-* Ping 
-* Port Scan 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Auto go offline 
-		</td>
-		<td>
-Use the data source in offline mode when the ping method does not respond. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable lock 
-		</td>
-		<td>
-Disable the option to lock the data source directly. You can still lock the application but you will not be prompted for the data source password if this option is disabled. 
-		</td>
-	</tr>
-</table>
+| OPTION          | DESCRIPTION |
+|-----------------|-------------|
+| Root filter     | Enter the name of a root level folder to display only the entries contained in that folder.               |
+| Ping online method | Indicate the preferred ping online method. Select between: <ul><li>None</li><li>Ping</li><li>Port Scan</li></ul> |
+| Auto go offline | Use the data source in offline mode when the ping method does not respond.                                |
+| Disable lock    | Disable the option to lock the data source directly. You can still lock the application but you will not be prompted for the data source password if this option is disabled.                                                                                                           |
 
 ### {{ en.UVLT_MAJ }} 
 
 ![Microsoft Azure SQL – {{ en.UVLT_MAJ }} tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3416.png) 
 
-<table>
-	<tr>
-		<th>
-
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Type 
-		</td>
-		<td>
-Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) to use. Select between:  
-
-* ***Default***: use the default {{ en.UVLT }}, which is stored in the database. 
-* ***None***: disable the {{ en.UVLT }} for all users. 
-* ***{{ en.DOD }}***: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}. 
-		</td>
-	</tr>
-</table>
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| Type   | Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) to use. Select between: <ul><li>***Default***: use the default {{ en.UVLT }}, which is stored in the database.</li><li>***None***: disable the {{ en.UVLT }} for all users.</li><li>***{{ en.DOD }}***: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}.</li></ul> |
 
 ### Upgrade 
 
 ![Microsoft Azure SQL - Upgrade Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10377.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Create Database 
-		</td>
-		<td>
-Create the database on the SQL server to use {{ en.RDM }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Update Database 
-		</td>
-		<td>
-Update the database on the SQL server, if required to use {{ en.RDM }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Test Database 
-		</td>
-		<td>
-Test the connection with the database to validate if the proper information has been provided. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Email Schema to Support 
-		</td>
-		<td>
-Send your schema to our support team. 
-		</td>
-	</tr>
-</table>
+| OPTION                | DESCRIPTION |
+|-----------------------|-------------|
+| Create Database       | Create the database on the SQL server to use {{ en.RDM }}.                                     |
+| Update Database       | Update the database on the SQL server, if required to use {{ en.RDM }}.                        |
+| Test Database         | Test the connection with the database to validate if the proper information has been provided. |
+| Email Schema to Support | Send your schema to our support team.                                                        |
+
 
 ### VPN 
 
@@ -283,78 +94,14 @@ Open a VPN to access your data prior to connecting to your Microsoft Azure SQL d
 
 ![Microsoft Azure SQL - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10370.png) 
 
-<table>
-	<tr>
-		<th>
+| OPTION                           | DESCRIPTION |
+|----------------------------------|-------------|
+| Caching mode                     | Determines how the entries will be reloaded in the data source. For more information, please consult [Caching](/rdm/windows/data-sources/caching/). |
+| Connection timeout               | Set the delay of the connection timeout.                                              |
+| Command timeout                  | Set the delay of the command timeout.                                                 |
+| Auto refresh                     | Set the interval for the automatic refresh.                                           |
+| Prompt for offline mode on startup | Ask to use the data source in offline mode when a user connects to the data source. |
+| Allow beta database upgrade      | Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}).       |
+| Manage Cache                     | Manage the data source cache. On large data sources, caching is a must and will increase performance significantly. For more information, please consult [Manage Cache](/rdm/windows/data-sources/manage-cache/).                                                    |
+| More Settings                    | Edit the connection string values directly.                                           |
 
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Caching mode 
-		</td>
-		<td>
-Determines how the entries will be reloaded in the data source. For more information, please consult [Caching](/rdm/windows/data-sources/caching/). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Connection timeout 
-		</td>
-		<td>
-Set the delay of the connection timeout. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Command timeout 
-		</td>
-		<td>
-Set the delay of the command timeout. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Auto refresh 
-		</td>
-		<td>
-Set the interval for the automatic refresh. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Prompt for offline mode on startup 
-		</td>
-		<td>
-Ask to use the data source in offline mode when a user connects to the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow beta database upgrade 
-		</td>
-		<td>
-Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Manage Cache 
-		</td>
-		<td>
-Manage the data source cache. On large data sources caching is a must and will increase performance significantly. For more information, please consult [Manage Cache](/rdm/windows/data-sources/manage-cache/). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-More Settings 
-		</td>
-		<td>
-Edit the connection string values directly. 
-		</td>
-	</tr>
-</table>

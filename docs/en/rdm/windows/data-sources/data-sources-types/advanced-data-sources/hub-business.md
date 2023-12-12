@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: '{{ en.DHUBB }}'
+  description: '{{ en.DHUBB }} is for businesses who need to share passwords and credentials within their organization.'  
 ---
 {% youtube 'wI4Jn3zLC8U' %}  
 
@@ -18,41 +19,11 @@ Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/busi
 
 ![!!RdmWin4038](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4038.png) 
 
-<table>
-	<tr>
-		<th>
-
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Name of the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Username 
-		</td>
-		<td>
-Your [{{ en.DA }}](https://portal.devolutions.com/) email address. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Host 
-		</td>
-		<td>
-Copy in the ***Host*** your {{ en.DHUBB }} URL (ex: https<area>://windjammer.devolutions.app/) or click on the 3 dots to get a drop down list to select from. 
-		</td>
-	</tr>
-</table>
+| OPTION   | DESCRIPTION |
+|----------|-------------|
+| Name     | Name of the data source.                                           |
+| Username | Your [{{ en.DA }}](https://portal.devolutions.com/) email address. |
+| Host     | Copy in the ***Host*** your {{ en.DHUBB }} URL (ex: https://windjammer.devolutions.app/) or click on the 3 dots to get a drop-down list to select from. |
 
 ### VPN 
 

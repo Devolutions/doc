@@ -1,18 +1,9 @@
 ---
 eleventyComputed:
   title: SQLite
+  description: "{{ en.RDM }} 's SQLite data source is ideal for single user and stand-alone situations."
 ---
-<table>
-	<tr>
-		<td>
-
-![!!DataSourceSQLiteLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
-		</td>
-		<td>
 {{ en.RDM }} 's SQLite data source is ideal for single user and stand-alone situations. More powerful and more flexible than the XML file format, it also supports a few of the Advanced Data Source options like Logs and Attachments. 
-		</td>
-	</tr>
-</table>
 
 ## Highlights 
 
@@ -44,93 +35,22 @@ Change or clear the password of a SQLite data source.
 
 ![SQLite - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11345.png)  
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Name of the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Database 
-		</td>
-		<td>
-Indicates the filename of the SQLite database (.db). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password 
-		</td>
-		<td>
-Specify a password to further encrypt your data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Always ask password 
-		</td>
-		<td>
-Always ask for the password when connecting to the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Test Connection 
-		</td>
-		<td>
-Test the current database path and password for conneciton. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Two factor 
-		</td>
-		<td>
-
-Enable the [Multi-Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/) to access your data source. 
-		</td>
-	</tr>
-</table>
+| OPTION             | DESCRIPTION |
+|--------------------|-------------|
+| Name               | Name of the data source.                                         | 
+| Database           | Indicates the filename of the SQLite database (.db).             |
+| Password           | Specify a password to further encrypt your data source.          |
+| Always ask password | Always ask for the password when connecting to the data source. |
+| Test Connection    | Test the current database path and password for connection.      |
+| Two factor         | Enable the [Multi-Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/) to access your data source. |
 
 ### Backup 
 
 ![SQLite - Backup Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10784.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Backup 
-		</td>
-		<td>
-
-Select between:  
-
-* None: No backup of your data source will be created. 
-* File backup: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
-* {{ en.OBACK }}: An {{ en.OBACK }} (using [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/)) will automatically be created. 
-		</td>
-	</tr>
-</table>
+| OPTION  | DESCRIPTION |
+|---------|-------------|
+| Backup  | Select between: <ul><li>None: No backup of your data source will be created.</li><li>File backup: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds.</li><li>{{ en.OBACK }}: An {{ en.OBACK }} (using [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/)) will automatically be created.</li></ul> |
 
 ### VPN 
 
@@ -141,62 +61,12 @@ Open a VPN to access your data prior to connecting to your SQLite.
 
 ![SQLite - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10785.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Auto refresh 
-		</td>
-		<td>
-Set the interval for the automatic refresh. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable reveal password 
-		</td>
-		<td>
-Disable the reveal password feature when a user access this data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable caching 
-		</td>
-		<td>
+| OPTION              | DESCRIPTION |
+|---------------------|-------------|
+| Auto refresh        | Set the interval for the automatic refresh.                                    |
+| Disable reveal password | Disable the reveal password feature when a user accesses this data source. |
+| Disable caching     | Entries will be reloaded in Simple mode in the data source. See [Caching](/rdm/windows/data-sources/caching/) for more information. |
+| Command timeout     | Waiting time before a command timeout.                                         |
+| More Settings       | Use to directly modify the connection string value.                            |
+| Manage File         | Contains multiple SQLite commands to facilitate managing. You should usually only access these when our support teams demands it. |
 
-Entries will be reloaded in Simple mode in the data source. See [Caching](/rdm/windows/data-sources/caching/) for more information. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Command timeout 
-		</td>
-		<td>
-Waiting time before a command timeout. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-More Settings 
-		</td>
-		<td>
-Use to directly modify the connection string value. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Manage File 
-		</td>
-		<td>
-Contains multiple SQLite commands to facilitate managing. You should usually only access these when our support teams demands it. 
-		</td>
-	</tr>
-</table>

@@ -6,5 +6,5 @@ eleventyComputed:
 A ***task*** is used as a reminder to perform a specific assignement or set of actions. Create a ***Task List*** to save time by providing a structured approach to organizing, tracking, and completing tasks. 
 
 ### Related topics
-* [Task](/rdm/windows/commands/view/layout/task/)
+* [Task](/rdm/windows/commands/window/panels/task/)
 * [Task List](/rdm/windows/commands/view/panels/task-list/)
