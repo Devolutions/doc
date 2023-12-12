@@ -5,151 +5,35 @@ eleventyComputed:
   keywords:
   - logging
 ---
-The ***Logging*** section allows the administrator to configure the logging features.
-
+The ***Logging*** section allows the administrator to configure the logging features.  
 ![Administration – Server Settings – Logging](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8040.png)
 
 ## Settings
 
 ### General
-
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Log debug information 
-		</td>
-		<td>
-Enable the {{ en.DVLS }} instance logs. When enabled, this will raise the debug level and provide more log entries. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Language 
-		</td>
-		<td>
-Choose the language of the logs. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Scheduler log path 
-		</td>
-		<td>
-Set the destination path of the log file. We recommend to set this path outside of the {{ en.DVLS }} web application folder. 
-		</td>
-	</tr>
-</table>
+| Option                | Description                                                                                                         |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+| Log debug information | Enable the {{ en.DVLS }} instance logs. When enabled, this will raise the debug level and provide more log entries. |
+| Language              | Choose the language of the logs.                                                                                    |
+| Scheduler log path    | Set the destination path of the log file. We recommend to set this path outside of the {{ en.DVLS }} web application folder. |
 
 ### Syslog Server
+| Option               | Description                                                                    |
+|----------------------|--------------------------------------------------------------------------------|
+| Log to Syslog server | Send the logs to a Syslog Server.                                              |
+| Host                 | Enter your Syslog Server host to connect.                                      |
+| Port                 | Enter your Syslog Server port to connect.                                      |
+| Protocol             | Select your preferred Protocol mode between: <ul><li>TCP</li><li>UDP</li></ul> |
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Log to Syslog server 
-		</td>
-		<td>
-Send the logs to a Syslog Server. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Host 
-		</td>
-		<td>
-Enter your Syslog Server host to connect. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Port 
-		</td>
-		<td>
-Enter your Syslog Server port to connect. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Protocol 
-		</td>
-		<td>
-Select your preferred Protocol mode between:  
-
-* TCP 
-* UDP 
-		</td>
-	</tr>
-</table>
 
 ### Windows Event Log
-
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Event Log 
-		</td>
-		<td>
-Send the logs to Windows Event Log. 
-		</td>
-	</tr>
-</table>
+| Option    | Description                         |
+|-----------|-------------------------------------|
+| Event Log | Send the logs to Windows Event Log. |
 
 ### Slack Integration
-
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Post activity logs to Slack 
-		</td>
-		<td>
-Post the logs in a Slack channel. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Bot OAuth access token 
-		</td>
-		<td>
-Slack authentication access token. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Slack channel name 
-		</td>
-		<td>
-Name of the Slack channel where the logs will be posted. 
-		</td>
-	</tr>
-</table>
+| Option                      | Description                                              |
+|-----------------------------|----------------------------------------------------------|
+| Post activity logs to Slack | Post the logs in a Slack channel.                        |
+| Bot OAuth access token      | Slack authentication access token.                       |
+| Slack channel name          | Name of the Slack channel where the logs will be posted. |
