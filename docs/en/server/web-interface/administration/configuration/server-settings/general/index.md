@@ -3,80 +3,21 @@ eleventyComputed:
   title: General
   order: 10
 ---
-The General section allows the Administrator to modify the name or the description of the {{ en.DVLS }} instance. 
-
+The General section allows the Administrator to modify the name or the description of the {{ en.DVLS }} instance.  
 ![Administration – {{ en.DVLS }} Settings – General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8041.png)
 
-## Settings 
-### General 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Enter the name for your server, it will be displayed in the Content area. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description 
-		</td>
-		<td>
-Enter a short description or additional information. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-DNS Name 
-		</td>
-		<td>
-Name of the DNS server. 
-		</td>
-	</tr>
-</table>
+## Settings
 
-### Serial 
+### General
+| Option      | Description                                                               |
+|-------------|---------------------------------------------------------------------------|
+| Name        | Enter the name for your server, it will be displayed in the Content area. |
+| Description | Enter a short description or additional information.                      |
+| DNS Name    | Name of the DNS server.                                                   |
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Serial 
-		</td>
-		<td>
-Insert your {{ en.DVLS }} serial registration number. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-User CAL 
-		</td>
-		<td>
-Insert your Client Access License keys. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.DLAUNCHER }} CAL 
-		</td>
-		<td>
-Insert your {{ en.DLAUNCHER }} License keys. 
-		</td>
-	</tr>
-</table>
+### Serial
+| Option                 | Description                                           |
+|------------------------|-------------------------------------------------------|
+| Serial                 | Insert your {{ en.DVLS }} serial registration number. |
+| User CAL               | Insert your Client Access License keys.               |
+| {{ en.DLAUNCHER }} CAL | Insert your {{ en.DLAUNCHER }} License keys.          |
