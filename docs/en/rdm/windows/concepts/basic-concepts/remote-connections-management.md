@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Remote connections management
-  description: '{{ en.RDM }} effortlessly sets up numerous secure remote connections, which are accessible to users through a centralized {{ en.VLT }}.'
+  description: "{{ en.RDM }} effortlessly sets up numerous secure remote connections, which are accessible to users through a centralized {{ en.VLT }}."
 ---
 {{ en.RDM }} effortlessly sets up numerous secure remote connections, which are accessible to users through a centralized [{{ en.VLT }}](/rdm/windows/concepts/basic-concepts/vaults/). It organizes these connections efficiently, simplifying navigation by eliminating the need to switch from one application to another. {{ en.RDM }} offers the ability to view and manage every type of connection that users launch in the course of their working day, set up [Play Lists](/rdm/windows/concepts/intermediate-concepts/play-lists/), and much more!
 

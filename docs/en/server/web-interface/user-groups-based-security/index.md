@@ -2,7 +2,7 @@
 eleventyComputed:
   title: User groups based security
   order: 50
-  description: '{{ en.DVLS }} user groups based security allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.'  
+  description: "{{ en.DVLS }} user groups based security allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system."
 ---
 {{ en.DVLS }} user groups based security allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.  
 

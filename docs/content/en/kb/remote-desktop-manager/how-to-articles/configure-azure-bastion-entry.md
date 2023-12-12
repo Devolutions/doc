@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Configure an Azure Bastion entry in {{ en.RDM }}
-  description: '{{ en.RDM }} allows seamless connection to Azure Bastion instances through a VPN/Tunnel/Gateway entry either per connection or shared amongst many.'
+  description: "{{ en.RDM }} allows seamless connection to Azure Bastion instances through a VPN/Tunnel/Gateway entry either per connection or shared amongst many."
 ---
 Microsoft Azure Bastion is a comprehensive, fully managed service providing both Remote Desktop Protocol (RDP) and Secure Shell Protocol (SSH) access to Azure virtual machines (VMs) without their public IP exposure. An hourly billed service, Azure Bastion is tied to a specific Azure Virtual Network, allowing access to all VMs contained within.
 

@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: RDC Manager
-  description: '{{ en.RDM }} uses a Microsoft ActiveX to open RDP sessions in embedded mode. Sometimes, connection issues can be associated to this file.'
+  description: "{{ en.RDM }} uses a Microsoft ActiveX to open RDP sessions in embedded mode. Sometimes, connection issues can be associated to this file."
 ---
 {{ en.RDM }} uses a Microsoft ActiveX to open RDP sessions in embedded mode. Sometimes, connection issues can be associated to this file. In fact, {{ en.RDM }} uses the same ActiveX that Microsoft is using in RDC Manager.  
 

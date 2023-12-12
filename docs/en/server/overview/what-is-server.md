@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: '{{ en.DVLS }}'
-  description: '{{ en.DVLS }} is an on‑premises solution for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease.'
+  description: "{{ en.DVLS }} is an on‑premises solution for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease."
   order: 10
   keywords:
   - on-premises

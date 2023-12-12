@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Microsoft SQL Server
-  description: '{{ fr.RDM }} utilise la puissance de SQL Server de Microsoft pour enregistrer et gérer toutes les sessions.'
+  description: "{{ fr.RDM }} utilise la puissance de SQL Server de Microsoft pour enregistrer et gérer toutes les sessions."
 ---
 <table>
 	<tr>

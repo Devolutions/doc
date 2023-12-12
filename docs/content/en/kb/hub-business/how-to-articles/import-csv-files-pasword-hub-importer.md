@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Import CSV files in {{ en.DHUBB }} with {{ en.DHUBI }}
-  description: '{{ en.DHUBI }} is our essential {{ en.CTOOL }} designed to import files into your {{ en.DHUB }}.'
+  description: "{{ en.DHUBI }} is our essential {{ en.CTOOL }} designed to import files into your {{ en.DHUB }}."
 ---
 {{ en.DHUBI }} is our essential {{ en.CTOOL }} designed to import files into your {{ en.DHUB }}. Follow the steps below to learn how to import CSV files in {{ en.DHUBB }}.
 

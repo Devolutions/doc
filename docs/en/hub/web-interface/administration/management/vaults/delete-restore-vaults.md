@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Delete and restore {{ en.VLT }}s
-  description: '{{ en.VLT_MAJ }}s can be deleted and restored by administrators in {{ en.DHUBB }}.'
+  description: "{{ en.VLT_MAJ }}s can be deleted and restored by administrators in {{ en.DHUBB }}."
 ---
 ***{{ en.VLT_MAJ }}s*** can be deleted and restored by administrators in {{ en.DHUBB }}.  
 

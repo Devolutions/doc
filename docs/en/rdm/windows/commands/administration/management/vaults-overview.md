@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: '{{ en.VLT_MAJ }}s overview'
-  description: '{{ en.VLT_MAJ }}s are containers that organize your folders and entries. They help divide your Advanced Data Sources into multiple compartments.'
+  description: "{{ en.VLT_MAJ }}s are containers that organize your folders and entries. They help divide your Advanced Data Sources into multiple compartments."
 ---
 {{ en.VLT_MAJ }}s are containers that organize your folders and entries. They help divide your ***Advanced Data Sources*** into multiple compartments. {{ en.VLT_MAJ }}s improve the security and user experience of {{ en.RDM }}, as well as its performance by limiting the amount of entries that load at once.
 

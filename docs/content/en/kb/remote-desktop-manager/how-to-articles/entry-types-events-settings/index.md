@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Entry types events settings
-  description: '{{ en.RDM }} gives you the flexibility to automatically run operations before or after establishing a connection.'
+  description: "{{ en.RDM }} gives you the flexibility to automatically run operations before or after establishing a connection."
 ---
 {{ en.RDM }} gives you the flexibility to automatically run operations before or after establishing a connection.  
 

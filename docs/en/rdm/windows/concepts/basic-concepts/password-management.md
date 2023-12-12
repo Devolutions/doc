@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Password management
-  description: '{{ en.RDM }} uses its powerful capabilities to store and manage all passwords, credentials and privileged accounts in a safe and secure password {{ en.VLT }}, providing incomparable control and visibility over your IT environment.'
+  description: "{{ en.RDM }} uses its powerful capabilities to store and manage all passwords, credentials and privileged accounts in a safe and secure password {{ en.VLT }}, providing incomparable control and visibility over your IT environment."
 ---
 {{ en.RDM }} provides powerful capabilities to store and manage passwords, credentials, and privileged accounts in a single interface, giving you unique control and visibility over your IT environment. Passwords can be used in multiple entries and shared without being exposed to users.
 

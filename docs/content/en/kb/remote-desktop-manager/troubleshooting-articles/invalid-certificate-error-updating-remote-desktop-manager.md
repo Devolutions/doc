@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Invalid certificate error when updating {{ en.RDM }}
-  description: '{{ en.RDM }} shows an "Invalid certificate" error message when attempting to update from a version earlier than 2023.2.34.'
+  description: "{{ en.RDM }} shows an Invalid certificate error message when attempting to update from a version earlier than 2023.2.34."
 ---
 {{ en.RDM }} shows an "Invalid certificate" error message when attempting to update from a version earlier than 2023.2.34.  
 

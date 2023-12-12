@@ -2,7 +2,7 @@
 eleventyComputed:
   title: '{{ en.DHUB }}'
   order: 10
-  description: '{{ en.DHUB }} is a highly secure team-based password manager that is part of the {{ en.DCS }}. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size.'
+  description: "{{ en.DHUB }} is a highly secure team-based password manager that is part of the {{ en.DCS }}. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size."
   keywords: 
   - cloud
 ---
