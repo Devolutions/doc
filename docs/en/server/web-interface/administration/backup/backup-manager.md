@@ -12,14 +12,14 @@ The ***Backup Manager*** section allows administrators to configure the paramete
 | Option                    | Description                                                                                          |
 |---------------------------|------------------------------------------------------------------------------------------------------|
 | Enable database backup    | Activates the backup of the SQL database.                                                            |
-| Backup database file path | This is the path to the folder where the backup of the SQL database will be saved. We recommend the use of a shared network folder with proper permissions set on it to be able to save the backup file. Note: Since the backup command is running on the SQL Server and on the machine where {{ en.DVLS }} is hosted, this path must be accessible from both. We recommend configuring the database backup path using a UNC path. If a service account is set on the ***Scheduler Service***, the account needs the "write" permission on the destination folder. |
+| Backup database file path | This is the path to the folder where the backup of the SQL database will be saved. We recommend the use of a shared network folder with proper permissions set on it to be able to save the backup file.<br>Note: Since the backup command is running on the SQL Server and on the machine where {{ en.DVLS }} is hosted, this path must be accessible from both.<br>We recommend configuring the database backup path using a UNC path. If a service account is set on the ***Scheduler Service***, the account needs the "write" permission on the destination folder. |
 | Backup database password  | The password protects the compressed ZIP backup file. You need to provide it to decompress the file. |
 
 ### Web configuration
 | Option                   | Description                                                                                          |
 |--------------------------|------------------------------------------------------------------------------------------------------|
 | Enable web backup        | Activates the backup of the web application.                                                         |
-| Backup web file path     | The path to the folder where the backup of the web application will be saved. We recommend the use of a shared network folder with proper permissions set on it to be able to save the backup file. Note: If service accounts are set on the ***Scheduler Service*** and on the ***IIS Application Pool Identity***, both accounts need the "write" permission on the destination folder.   |
+| Backup web file path     | The path to the folder where the backup of the web application will be saved. We recommend the use of a shared network folder with proper permissions set on it to be able to save the backup file.<br>Note: If service accounts are set on the ***Scheduler Service*** and on the ***IIS Application Pool Identity***, both accounts need the "write" permission on the destination folder.   |
 | Backup web file password | The password protects the compressed ZIP backup file. You need to provide it to decompress the file. |
 
 ### Backup encryption algorithm
