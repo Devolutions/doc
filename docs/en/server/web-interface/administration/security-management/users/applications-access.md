@@ -3,110 +3,21 @@ eleventyComputed:
   title: Applications access
 ---
 Allow or deny the user access to different applications and {{ en.CTOOLS }}:  
+![Edit User – Applications](https://webdevolutions.azureedge.net/docs/en/server/ServerOp7008.png)
 
-![Edit User - Applications](https://webdevolutions.azureedge.net/docs/en/server/ServerOp7008.png) 
+## Edit user
+| Option                                                         | Description                                                    |
+|----------------------------------------------------------------|----------------------------------------------------------------|
+| {{ en.RDM }}                                                   | Allow user to access {{ en.DVLS }} through {{ en.RDM }}.       |
+| [{{ en.WBEX }}](/server/workspace-browser-extension/overview/) | Allow user to auto fill username and passwords on websites with the {{ en.WBEX }}. |
+| {{ en.DLAUNCHER }}                                             | Allow user to open remote connections with {{ en.DLAUNCHER }}. |
+| Web                                                            | Allow user to use {{ en.DVLS }} web interface.                 |
+| Cli                                                            | Allow user to use the Cli.                                     |
+| Scripting                                                      | Allow user to connect through [{{ en.PS }} module](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). |
+| {{ en.WS }}                                                    | Allow users to use the {{ en.WMAPP }}.                         |
 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-{{ en.RDM }} 
-		</td>
-		<td>
-Allow user to access {{ en.DVLS }} through {{ en.RDM }}. 
-		</td>
-	</tr>
-	<tr>
-		<td> 
-
-[{{ en.WBEX }}](/server/workspace-browser-extension/overview/) 
-		</td>
-		<td>
-Allow user to auto fill username and passwords on websites with the {{ en.WBEX }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.DLAUNCHER }} 
-		</td>
-		<td>
-Allow user to open remote connections with {{ en.DLAUNCHER }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Web 
-		</td>
-		<td>
-Allow user to use {{ en.DVLS }} web interface. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Cli 
-		</td>
-		<td>
-Allow user to use the Cli. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Scripting 
-		</td>
-		<td>
-Allow user to connect through [{{ en.PS }} module](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.WS }} 
-		</td>
-		<td>
-Allow users to use the {{ en.WMAPP }}. 
-		</td>
-	</tr>
-</table>
-
-### Time-based access 
-
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Days 
-		</td>
-		<td>
-Allow access to the instance according to one of these values:  
-
-* ***Any day*** 
-* ***Week days*** 
-* ***Weekends*** 
-* ***Custom*** 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Time 
-		</td>
-		<td>
-Allow access to the instance according to the given possibilities:  
-
-* ***Any time*** 
-* ***Custom*** 
-		</td>
-	</tr>
-</table>
+### Time-based access
+| Option | Description                                                                                                                 |
+|--------|-----------------------------------------------------------------------------------------------------------------------------|
+| Days   | Allow access to the instance according to one of these values:<br><ul><li>***Any day***</li><li>***Week days***</li><li>***Weekends***</li><li>***Custom***</li></ul> |
+| Time   | Allow access to the instance according to the given possibilities:<br><ul><li>***Any time***</li><li>***Custom***</li></ul> |
