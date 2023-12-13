@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Configure an older Active Directory Interactive (with MFA Support) version with {{ en.RDM }}
+  description: Active Directory Interactive (with MFA Support) allows you to authenticate on your Microsoft Azure SQL data source using your Office365 account + MFA. 
 ---
 {% snippet icon.badgeInfo %} 
 This topic is for {{ en.RDM }} versions lower than 2022.1. If you are using 2022.1 and higher please follow [Configure {{ en.RDM }} Active Directory Interactive (with MFA support)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/) instead. 
@@ -25,35 +26,10 @@ Use the servers defined Azure Active Directory Admin to create your first {{ en.
 1. Select ***Active Directory Interactive (with MFA Support)*** from the ***Login mode*** drop-down menu. 
 1. You can specify how you want {{ en.RDM }} to interact with Azure AD during the authentication. 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Default 
-		</td>
-		<td>
-This is the default mode.  
-
-The user will be prompted for credentials even if there is a token that meets the requirements already in the cache. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Automatic 
-(Shared in older versions) 
-		</td>
-		<td>
-Azure AD will prompt the user for credentials only when necessary. If a token that meets the requirements is already cached then the user will not be prompted. 
-		</td>
-	</tr>
-</table>
+| OPTION           | DESCRIPTION |
+|------------------|-------------|
+| Default          | This is the default mode. <br> The user will be prompted for credentials even if there is a token that meets the requirements already in the cache. |
+| Automatic <br> (Shared in older versions) | Azure AD will prompt the user for credentials only when necessary. If a token that meets the requirements is already cached then the user will not be prompted.   |
 
 {% snippet icon.badgeCaution %} 
 When it comes to Azure AD joined devices (registered devices). Azure AD may or may not prompt for MFA. This is entirely controlled by Azure AD, there is nothing we can do in {{ en.RDM }} to force or bypass the MFA other than the ***Default*** or ***Automatic*** options mentioned above. 

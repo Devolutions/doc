@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Offline mode
+  description: The Offline Mode connects to a local copy of the data source when you are not connected to the data source.
 ---
 {% youtube 'W7jK8g4WbNQ' %}  
 
@@ -16,7 +17,6 @@ This feature is not available for all data sources, please consult the help topi
 The offline cache is first encrypted using our own private key mixed with some information taken from the local computer. This makes it impossible for a copy on another machine to be readable. By default it is also encrypted with Windows NTFS encryption, in which case there is no key saved anywhere. 
 {% endsnippet %}
  
-
 For added security, offline files are set to expire after a delay. The default expiry is set to 7 days but can be modified via the [System Settings](/rdm/windows/commands/administration/settings/system-settings/application/offline/).  
 
 {{ en.RDM }} will prompt for offline mode when the application is unable to reach the data source but the offline mode can be toggled manually with ***File – Go Offline***.  
@@ -50,81 +50,23 @@ This step cannot be modified remotely once you have exported your data source se
  
 ![Caching mode](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3581.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Disabled 
-		</td>
-		<td>
-Prevent an offline cache from being used. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-In-Memory 
-		</td>
-		<td>
-Use the offline cache only for recent changes, but prevent it from writing on the disk (in-memory only). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-File 
-		</td>
-		<td>
-Use the offline cache only for recent changes. The cache will write on the disk. 
-		</td>
-	</tr>
-</table>
+| OPTION    | DESCRIPTION |
+|-----------|-------------|
+| Disabled  | Prevent an offline cache from being used.                                                                |
+| In-Memory | Use the offline cache only for recent changes, but prevent it from writing on the disk (in-memory only). |
+| File      | Use the offline cache only for recent changes. The cache will write on the disk.                         |
+
 
 {% snippet icon.badgeInfo %} 
 Some features of {{ en.RDM }} are unavailable while offline. Even with the read/write access mode, you may not be able to perform all actions, such as adding attachments or managing users, since these features are not cached locally. On the other hand, the [{{ en.UVLT }}](/rdm/windows/data-sources/user-vault/) is still available in offline mode. 
 {% endsnippet %}
  
 ### Grant/deny Offline 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Disabled 
-		</td>
-		<td>
-Prevents an offline cache from being used. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Read-only 
-		</td>
-		<td>
-Allows to view and use entries only. The content of the data source cannot be modified. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-
-[Read/Write](/rdm/windows/data-sources/offline-mode/offline-read-write/) 
-		</td>
-		<td>
-Allows to view, use, and edit entries. Conflicts caused by offline modifications are managed when back online. 
-		</td>
-	</tr>
-</table>
+| OPTION                                       | DESCRIPTION |
+|----------------------------------------------|-------------|
+| Disabled                                     | Prevents an offline cache from being used. |
+| Read-only                                    | Allows to view and use entries only. The content of the data source cannot be modified. |
+| [Read/Write](/rdm/windows/data-sources/offline-mode/offline-read-write/) | Allows to view, use, and edit entries. Conflicts caused by offline modifications are managed when back online.                                                 |
 
 Beyond the group policies, the ***Offline mode*** is controlled on multiple levels:  
 
@@ -134,149 +76,17 @@ Beyond the group policies, the ***Offline mode*** is controlled on multiple leve
 
 A user must be granted Read/Write at all levels to allow read/write privileges.  
 
-<table>
-	<tr>
-		<th>
-
-USER PERMISSIONS 
-		</th>
-		<th>
-SYSTEM SETTINGS 
-		</th>
-		<th>
-{{ en.VLT_MAJ }} SETTINGS 
-		</th>
-		<th>
-EFFECTIVE ACCESS 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Disabled or Read-only or Read/write 
-		</td>
-		<td>
-Disabled or Read-only or Read/write 
-		</td>
-		<td>
-Allow offline disabled 
-		</td>
-		<td>
-Disabled 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disabled or Read-only or Read/write 
-		</td>
-		<td>
-Disabled or Read-only or Read/write 
-		</td>
-		<td>
-Allow offline enabled 
-		</td>
-		<td>
-Disabled 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disabled or Read-only or Read/write 
-		</td>
-		<td>
-Disabled 
-		</td>
-		<td>
-Allow offline enabled 
-		</td>
-		<td>
-Disabled 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disabled 
-		</td>
-		<td>
-Disabled or Read-only or Read/write 
-		</td>
-		<td>
-Allow offline enabled 
-		</td>
-		<td>
-Disabled 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Read-only or Read/write 
-		</td>
-		<td>
-Read-only or Read/write 
-		</td>
-		<td>
-Allow offline disabled 
-		</td>
-		<td>
-Disabled 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Read-only or Read/write 
-		</td>
-		<td>
-Read-only or Read/write 
-		</td>
-		<td>
-Allow offline enabled 
-		</td>
-		<td>
-Read-only 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Read-only or Read/write 
-		</td>
-		<td>
-Read-only 
-		</td>
-		<td>
-Allow offline enabled 
-		</td>
-		<td>
-Read-only 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Read-only 
-		</td>
-		<td>
-Read-only or Read/write 
-		</td>
-		<td>
-Allow offline enabled 
-		</td>
-		<td>
-Read-only 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Read/write 
-		</td>
-		<td>
-Read/write 
-		</td>
-		<td>
-Allow offline enabled 
-		</td>
-		<td>
-Read/write 
-		</td>
-	</tr>
-</table>
+| USER PERMISSIONS                 | SYSTEM SETTINGS                 | {{ en.VLT_MAJ }} SETTINGS      | EFFECTIVE ACCESS  |
+|----------------------------------|---------------------------------|--------------------------------|-------------------|
+| Disabled or Read-only or Read/write | Disabled or Read-only or Read/write | Allow offline disabled  | Disabled          |
+| Disabled or Read-only or Read/write | Disabled or Read-only or Read/write | Allow offline enabled   | Disabled          |
+| Disabled or Read-only or Read/write | Disabled                     | Allow offline enabled       | Disabled          |
+| Disabled                         | Disabled or Read-only or Read/write | Allow offline enabled      | Disabled          |
+| Read-only or Read/write          | Read-only or Read/write          | Allow offline disabled        | Disabled          |
+| Read-only or Read/write          | Read-only or Read/write          | Allow offline enabled         | Read-only         |
+| Read-only or Read/write          | Read-only                        | Allow offline enabled         | Read-only         |
+| Read-only                        | Read-only or Read/write          | Allow offline enabled         | Read-only         |
+| Read/write                       | Read/write                       | Allow offline enabled         | Read/write        |
 
 {% snippet icon.badgeNotice %} 
 To find out what offline mode is in effect when you are logged in, see [My Data Source Information](/rdm/windows/commands/file/my-data-source-information/). 
