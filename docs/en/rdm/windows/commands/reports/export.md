@@ -36,7 +36,7 @@ To find your Data Source ID and the Command Line use to start {{ en.RDM }} edit 
 
 Here is a list of types of ***Reports*** you can find in {{ en.RDM }} and the name to enter in the command line to generate the report: 
 
-| REPORT TYPE          | REPORT NAME (TYPE) TO INSERT IN THE COMMAND LINE |
+| REPORT TYPE          | REPORT NAME (TYPE) TO INSERT IN THE COMMAND LINE|
 |----------------------|-------------------------------------------------|
 | Activity Logs Report | SharedConnectionLog                             |
 | Duplicate Entry      | DuplicateEntry                                  |

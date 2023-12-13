@@ -7,9 +7,9 @@ eleventyComputed:
 
 | DATA SOURCE SECURITY                      | DESCRIPTION                                              |
 |-------------------------------------------|----------------------------------------------------------|
-| Create {{ en.VLT }} with restricted access by default | Automatically secure the {{ en.VLT }} settings when creating a repository. Therefore, the permissions settings are set to ***Never***.                                |
-| Force data source 2-factor configuration  | Require the users to have a [2-factor configuration](/rdm/windows/data-sources/multi-factor-authentication/) applied on the data source. Not shown with {{ en.DVLS }} as 2FA set elsewhere. |
-| Resolve credentials in overview           | Displays username and password fetched from a Credential repository in the entry overview in the dashboard. Uncheck this option if it takes too long to resolve.                         |
+| Create {{ en.VLT }} with restricted access by default | Automatically secure the {{ en.VLT }} settings when creating a repository. Therefore, the permissions settings are set to ***Never***.                             |
+| Force data source 2-factor configuration  | Require the users to have a [2-factor configuration](/rdm/windows/data-sources/multi-factor-authentication/) applied on the data source. Not shown with {{ en.DVLS }} as 2FA set elsewhere.                                             |
+| Resolve credentials in overview           | Displays username and password fetched from a Credential repository in the entry overview in the dashboard. Uncheck this option if it takes too long to resolve.               |
 
 | TIME-BASED USAGE                          | DESCRIPTION                                               |
 |------------------|-----------------------------------------------------------------------             |

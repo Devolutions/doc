@@ -11,10 +11,10 @@ To help you select a data source type, here is a set of concerns and the list of
 When choosing any type of data source that is not on-premises, you must consider the security of the data at rest and in transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or a [security provider](/rdm/windows/commands/administration/settings/security-providers/) for [advanced data sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures that only you can read the data. 
 {% endsnippet %}
 
-| CONCERN | {{ en.DVLS }} | {{ en.DHUBB }} |
+| CONCERN | {{ en.DVLS }} | {{ en.DHUBB }}            |
 |---------|:---------------:|:----------------:|
 | Self-hosted data | {{ icon.badgeNotice | safe }} |  |
-| Cloud-hosted data |  | {{ icon.badgeNotice | safe }} |
+| Cloud-hosted data |  | {{ icon.badgeNotice | safe }}|
 | Database not accessible to end users | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Encryption at rest and in transit | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Zero-knowledge on sensitive data |  | {{ icon.badgeNotice | safe }} |
