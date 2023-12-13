@@ -2,161 +2,30 @@
 eleventyComputed:
   title: Advanced configuration
 ---
-The ***Advanced*** configuration allows to set individual clean up parameters for all the different logs of {{ en.DVLS }}. 
+The ***Advanced*** configuration allows to set individual clean up parameters for all the different logs of {{ en.DVLS }}.  
+![Administration – Logs – Cleanup Logs](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8161.png)
 
-![Cleanup Logs - Advanced](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8161.png) 
+### Logs
+| Reports           | Description                                                                                                      |
+|-------------------|------------------------------------------------------------------------------------------------------------------|
+| Backup Logs       | The Backup Logs is related to the [Backup Manager](/server/web-interface/administration/backup/backup-manager/). |
+| Connection Logs   | Connections Logs relates to all operations on entries like viewing a password, opening an entry, etc.            |
+| Login Attempt     | The Login Attempt relates to all unsuccessful logins to the {{ en.DVLS }} data source.                           |
+| Login History     | The Login History logs related to each user that has been connected to the {{ en.DVLS }}.                        |
+| Message Logs      | Message Logs relates to the data source logs of {{ en.DVLS }}.                                                   |
+| PAM Logs          | PAM Logs relates to the {{ en.DVLS }} PAM feature.                                                               |
+| User Info History | The User Info History logs relate to the user accounts update history.                                           |
 
-<table>
-	<tr>
-		<th>
-Logs 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Backup Logs 
-		</td>
-		<td>
-The Backup Logs is related to the <a href="/server/web-interface/administration/backup/backup-manager/" target="_blank">Backup Manager</a>. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Connection Logs 
-		</td>
-		<td>
-Connections Logs relates to all operations on entries like viewing a password, opening an entry, etc. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Login Attempt 
-		</td>
-		<td>
-The Login Attempt relates to all unsuccessful logins to the {{ en.DVLS }} data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Login History 
-		</td>
-		<td>
-The Login History logs related to each user that has been connected to the {{ en.DVLS }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Message Logs 
-		</td>
-		<td>
-Message Logs relates to the data source logs of {{ en.DVLS }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-PAM Logs 
-		</td>
-		<td>
-PAM Logs relates to the {{ en.DVLS }} PAM feature. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-User Info History 
-		</td>
-		<td>
-The User Info History logs relate to the user accounts update history. 
-		</td>
-	</tr>
-</table>
+### General
+| Option                   | Description                                                                              |
+|--------------------------|------------------------------------------------------------------------------------------|
+| Use custom configuration | Enable to allow setting specific archiving and deleting parameters for the selected log. |
 
-<table>
-	<tr>
-		<th>
-General 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Use custom configuration 
-		</td>
-		<td>
-Enable to allow setting specific archiving and deleting parameters for the selected log. 
-		</td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<th>
-Configuration 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Use archiving 
-		</td>
-		<td>
-Use the archive operation to clean the logs. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Archive logs older than 
-		</td>
-		<td>
-Will archive logs that are older than the selected value in the drop down list.  
-
-* Custom 
-* One month 
-* Three months 
-* Six months 
-* One year 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Delete archived logs older than 
-		</td>
-		<td>
-Will delete all archived logs that are older than the selected value in the drop down list.  
-
-* Three months 
-* Six months 
-* One year 
-* Two years 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Skip archiving and permanently delete 
-		</td>
-		<td>
-If enable, will not archive the logs and will permanently delete them. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Delete logs older than 
-		</td>
-		<td>
-Will permanently delete all logs older than the selected value in the drop down list.  
-
-* Custom 
-* One month 
-* Three months 
-* Six months 
-* One year 
-* Two years 
-		</td>
-	</tr>
-</table>
+### Configuration
+| Option                                | Description                                                            |
+|---------------------------------------|------------------------------------------------------------------------|
+| Use archiving                         | Use the archive operation to clean the logs.                           |
+| Archive logs older than               | Will archive logs that are older than the selected value in the drop down list.<ul><li>Custom</li><li>One month</li><li>Three months</li><li>Six months</li><li>One year</li></ul> |
+| Delete archived logs older than       | Will delete all archived logs that are older than the selected value in the drop down list.<ul><li>Three months</li><li>Six months</li><li>One year</li><li>Two years</li></ul> |
+| Skip archiving and permanently delete | If enable, will not archive the logs and will permanently delete them. |
+| Delete logs older than                | Will permanently delete all logs older than the selected value in the drop down list.<ul><li>Custom</li><li>One month</li><li>Three months</li><li>Six months</li><li>One year</li><li>Two years</li></ul> |
