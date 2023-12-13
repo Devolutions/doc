@@ -2,8 +2,6 @@
 eleventyComputed:
   title: Keyboard shortcuts
   description: Here are the default keyboard shortcuts for various commands.
-  keywords:
-  - Keyboard Shortcuts
 ---
 Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Options – User Interface – Keyboard***.  
 
@@ -22,670 +20,104 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-m
 ## Default Shortcuts 
 
 ### Actions 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Clipboard - Copy Connection String 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Clipboard - Copy Domain 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Clipboard - Copy Host 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>H</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Clipboard - Copy Password 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Clipboard - Copy Url 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Clipboard - Copy Username 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>B</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Execute Typing Macro 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Navigate URL 
-		</td>
-		<td>
-<kbd>Enter</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Open (Embedded/Tabbed) 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Enter</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Open (External) 
-		</td>
-		<td>
-<kbd>Shift</kbd>+<kbd>Enter</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Open Full screen 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Enter</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-View Password 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>P</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION | SHORTCUT |
+|--------|----------|
+| Clipboard - Copy Connection String | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd> |
+| Clipboard - Copy Domain | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> |
+| Clipboard - Copy Host | <kbd>Ctrl</kbd>+<kbd>H</kbd> |
+| Clipboard - Copy Password | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> |
+| Clipboard - Copy Url | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd> |
+| Clipboard - Copy Username | <kbd>Ctrl</kbd>+<kbd>B</kbd> |
+| Execute Typing Macro | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> |
+| Navigate URL | <kbd>Enter</kbd> |
+| Open (Embedded/Tabbed) | <kbd>Ctrl</kbd>+<kbd>Enter</kbd> |
+| Open (External) | <kbd>Shift</kbd>+<kbd>Enter</kbd> |
+| Open Full screen | <kbd>Alt</kbd>+<kbd>Enter</kbd> |
+| View Password | <kbd>Ctrl</kbd>+<kbd>P</kbd> |
 
-### Edit 
+| ACTION | SHORTCUT |
+|--------|----------|
+| Add Credential Entry | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |
+| Add Folder | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |
+| Add Information | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd> |
+| Add Session | <kbd>Ctrl</kbd>+<kbd>N</kbd> |
+| Delete... | <kbd>Ctrl</kbd>+<kbd>Del</kbd> |
+| Duplicate | <kbd>Ctrl</kbd>+<kbd>D</kbd> |
+| Edit Entry | <kbd>Ctrl</kbd>+<kbd>E</kbd> |
+| Local Specific Settings | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>E</kbd> |
+| New Entry | <kbd>Ins</kbd> |
+| Rename | <kbd>F2</kbd> |
+| User Specific Settings | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd> |
 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Add Credential Entry 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Add Folder 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Add Information 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Add Session 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>N</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Delete... 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Del</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Duplicate 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>D</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Edit Entry 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>E</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Local Specific Settings 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>E</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-New Entry 
-		</td>
-		<td>
-<kbd>Ins</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Rename 
-		</td>
-		<td>
-<kbd>F2</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-User Specific Settings 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd>
-		</td>
-	</tr>
-</table>
 
 ### General 
 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Filter... 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Force Refresh 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>F5</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Online Help 
-		</td>
-		<td>
-<kbd>F1</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Profiler... 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>F12</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Quick Connect 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Quick Search... 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Space</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Refresh 
-		</td>
-		<td>
-<kbd>F5</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION | SHORTCUT |
+|--------|----------|
+| Filter... | <kbd>Ctrl</kbd>+<kbd>F</kbd> |
+| Force Refresh | <kbd>Ctrl</kbd>+<kbd>F5</kbd> |
+| Online Help | <kbd>F1</kbd> |
+| Profiler... | <kbd>Ctrl</kbd>+<kbd>F12</kbd> |
+| Quick Connect | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> |
+| Quick Search... | <kbd>Ctrl</kbd>+<kbd>Space</kbd> |
+| Refresh | <kbd>F5</kbd> |
 
 ### Import/Export 
 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Import in {{ en.VLT }} (.rdm)... 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION | SHORTCUT |
+|--------|----------|
+| Import in {{ en.VLT }} (.rdm)... | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> |
 
 ### Navigation 
 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-File 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Focus Dashboard 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Focus Tab 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Up</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Focus Tree/List 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>L</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 1 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>1</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 2 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>2</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 3 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>3</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 4 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>4</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 5 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>5</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 6 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>6</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 7 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>7</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 8 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>8</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 9 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Search Ribbon 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Q</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>		
-Select Next Tab 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Right</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Select Previous Tab 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Left</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Set Bookmark 1 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>1</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Set Bookmark 2 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>2</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Set Bookmark 3 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>3</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Set Bookmark 4 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Set Bookmark 5 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>5</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Set Bookmark 6 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>6</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Set Bookmark 7 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>7</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Set Bookmark 8 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>8</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Set Bookmark 9 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Switch Data Source
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>		
-Switch {{ en.VLT }} 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION | SHORTCUT |
+|--------|----------|
+| File | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd> |
+| Focus Dashboard | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> |
+| Focus Tab | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Up</kbd> |
+| Focus Tree/List | <kbd>Ctrl</kbd>+<kbd>L</kbd> |
+| Goto Bookmark 1 | <kbd>Ctrl</kbd>+<kbd>1</kbd> |
+| Goto Bookmark 2 | <kbd>Ctrl</kbd>+<kbd>2</kbd> |
+| Goto Bookmark 3 | <kbd>Ctrl</kbd>+<kbd>3</kbd> |
+| Goto Bookmark 4 | <kbd>Ctrl</kbd>+<kbd>4</kbd> |
+| Goto Bookmark 5 | <kbd>Ctrl</kbd>+<kbd>5</kbd> |
+| Goto Bookmark 6 | <kbd>Ctrl</kbd>+<kbd>6</kbd> |
+| Goto Bookmark 7 | <kbd>Ctrl</kbd>+<kbd>7</kbd> |
+| Goto Bookmark 8 | <kbd>Ctrl</kbd>+<kbd>8</kbd> |
+| Goto Bookmark 9 | <kbd>Ctrl</kbd>+<kbd>9</kbd> |
+| Search Ribbon | <kbd>Alt</kbd>+<kbd>Q</kbd> |
+| Select Next Tab | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Right</kbd> |
+| Select Previous Tab | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Left</kbd> |
+| Set Bookmark 1 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>1</kbd> |
+| Set Bookmark 2 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>2</kbd> |
+| Set Bookmark 3 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>3</kbd> |
+| Set Bookmark 4 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd> |
+| Set Bookmark 5 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>5</kbd> |
+| Set Bookmark 6 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>6</kbd> |
+| Set Bookmark 7 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>7</kbd> |
+| Set Bookmark 8 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>8</kbd> |
+| Set Bookmark 9 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>9</kbd> |
+| Switch Data Source | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd> |
+| Switch {{ en.VLT }} | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> |
 
 ### View 
 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Advanced Search... 
-		</td>
-		<td>
-<kbd>F11</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Dashboard 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>F6</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Favorites 
-		</td>
-		<td>
-<kbd>F9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Multi {{ en.VLT }} Search... 
-		</td>
-		<td>
-<kbd>F12</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-My {{ en.UVLT }} 
-		</td>
-		<td>
-<kbd>F7</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-<b><i>{{ en.NPANE }}</i></b> 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>F8</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Opened Sessions 
-		</td>
-		<td>
-<kbd>F8</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Play List Management... 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>G</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-RDP Toggle View Only 
-		</td>
-		<td>
-<kbd>Shift</kbd>+<kbd>F3</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Recent 
-		</td>
-		<td>
-<kbd>F10</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Status Bar 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>F7</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tab Bar
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F6</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tab Group Pane
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tab List
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>F9</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>					
-Top Pane (Ribbon/Menubar) 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>F11</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.VLT_MAJ }} 
-		</td>
-		<td>
-<kbd>F6</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION | SHORTCUT |
+|--------|----------|
+| Advanced Search... | <kbd>F11</kbd> |
+| Dashboard | <kbd>Alt</kbd>+<kbd>F6</kbd> |
+| Favorites | <kbd>F9</kbd> |
+| Multi {{ en.VLT }} Search... | <kbd>F12</kbd> |
+| My {{ en.UVLT }} | <kbd>F7</kbd> |
+| **_{{ en.NPANE }}_** | <kbd>Alt</kbd>+<kbd>F8</kbd> |
+| Opened Sessions | <kbd>F8</kbd> |
+| Play List Management... | <kbd>Ctrl</kbd>+<kbd>G</kbd> |
+| RDP Toggle View Only | <kbd>Shift</kbd>+<kbd>F3</kbd> |
+| Recent | <kbd>F10</kbd> |
+| Status Bar | <kbd>Alt</kbd>+<kbd>F7</kbd> |
+| Tab Bar | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F6</kbd> |
+| Tab Group Pane | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F9</kbd> |
+| Tab List | <kbd>Ctrl</kbd>+<kbd>F9</kbd> |
+| Top Pane (Ribbon/Menubar) | <kbd>Alt</kbd>+<kbd>F11</kbd> |
+| {{ en.VLT_MAJ }} | <kbd>F6</kbd> |
+

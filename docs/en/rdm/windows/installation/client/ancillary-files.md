@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Ancillary files
+  description: "{{ en.RDM }} generates ancillary files on your workstation. The table below lists out an example of ancillary files and their locations."  
 ---
 {{ en.RDM }} generates ancillary files on your workstation. The table below lists out an example of ancillary files and their locations.  
 
@@ -12,141 +13,20 @@ The Override Source column indicates if an available mechanism can relocate the 
 
 ## Summary 
 
-<table>
-	<tr>
-		<th>
+| FILE(S) | LOCATION | OVERRIDE SOURCE |
+|---------|----------|-----------------|
+| Configuration File(s) (*.cfg*, .ext) | [CONFIG] | None |
+| Data File(s) (*.xml*, *.db*) | [CONFIG] or custom path. | None |
+| Default Settings | [CONFIG] | Data source settings (System Settings) |
+| Encryption (*.enc*, *.enb*) | [CONFIG] | None |
+| Layout Files (*.lyt*) | [CONFIG] | None |
+| Log Files (*.log*, *.debug*) | [CONFIG] | None |
+| Local Play lists | [PROFILE]\\[Datasource]\\Playlists | Use application directory for local playlist will use instead [INSTALLDIR] |
+| Local Templates | They are serialized directly in the configuration file of the application. | None |
+| Offline/Cache data (*offline.db*) | [PROFILE]\\[Datasource] | Use application directory for online cache will use instead [INSTALLDIR] |
+| Sensitive (*.stv*, *.stb*) | [CONFIG] | None |
+| Themes | [CONFIG] | None |
 
-FILE(S) 
-		</th>
-		<th>
-LOCATION 
-		</th>
-		<th>
-OVERRIDE SOURCE 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Configuration File(s) (*.cfg, *.ext) 
-		</td>
-		<td>
-[CONFIG] 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Data File(s) (*.xml, *.db) 
-		</td>
-		<td>
-[CONFIG] or custom path. 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Default Settings 
-		</td>
-		<td>
-[CONFIG] 
-		</td>
-		<td>
-Data source settings (System Settings) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Encryption (*.enc, *.enb) 
-		</td>
-		<td>
-[CONFIG] 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Layout Files (*.lyt) 
-		</td>
-		<td>
-[CONFIG] 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Log Files (*.log, *.debug) 
-		</td>
-		<td>
-[CONFIG] 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Local Play lists 
-		</td>
-		<td>
-[PROFILE]\[Datasource]\Playlists 
-		</td>
-		<td>
-Use application directory for local playlist will use instead [INSTALLDIR] 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Local Templates 
-		</td>
-		<td>
-They are serialized directly in the configuration file of the application. 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Offline/Cache data (offline.db) 
-		</td>
-		<td>
-[PROFILE]\[Datasource] 
-		</td>
-		<td>
-Use application directory for online cache will use instead [INSTALLDIR] 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sensitive (*.stv, *.stb) 
-		</td>
-		<td>
-[CONFIG] 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Themes 
-		</td>
-		<td>
-[CONFIG] 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-</table>
 
 ### Offline and Local Play list option 
 

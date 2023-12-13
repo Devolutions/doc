@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Option selection
+  description: When generating the installer file, you must decide what to include in the configuration. 
 ---
 When generating the installer file, you must decide what to include in the configuration. This process will replicate the configuration of the {{ en.RDM }} instance currently used and will generate an installer file (.rdi). Once it has been generated, the installer file can be used as many times as needed to create {{ en.CI }}s. For security reasons, some settings that may contain credentials such as ***Saved templates*** are disabled by default. Enable them based on your risk level. 
 
@@ -29,73 +30,15 @@ All ***Local templates*** will be included. If any of these contain credentials,
  
 ![Miscellaneous Options](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11260.png) 
 
-<table>
-	<tr>
-		<th>
-
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Proxy settings 
-		</td>
-		<td>
-Includes your Internet proxy settings. This option is enabled by default. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Saved installation paths 
-		</td>
-		<td>
-Preserves your installation paths configured for external third-party applications. Use this only when all of the user's machines use the same paths. This option is enabled by default. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Saved templates 
-		</td>
-		<td>
-Includes your local templates in the {{ en.CI }}. Database templates are stored in the data source and may be a better option if you need to share them. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.DA }} credentials 
-		</td>
-		<td>
-Includes your {{ en.DA }} credentials used to create the {{ en.CI }}. Consult the security warning above. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Include data source credentials 
-		</td>
-		<td>
-Includes the credentials for all selected data sources below. Consult the security warning above. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Clear application lock information 
-		</td>
-		<td>
-Clears the information from ***File – Options – Security – Lock – Lock application*** (local). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Force always retrieve new registration 
-		</td>
-		<td>
-Allows the administrator to force the users to use this new configuration file. 
-		</td>
-	</tr>
-</table>
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| Proxy settings | Includes your Internet proxy settings. This option is enabled by default. |
+| Saved installation paths | Preserves your installation paths configured for external third-party applications. Use this only when all of the user's machines use the same paths. This option is enabled by default.                                                    |
+| Saved templates | Includes your local templates in the {{ en.CI }}. Database templates are stored in the data source and may be a better option if you need to share them. |
+| {{ en.DA }} credentials  | Includes your {{ en.DA }} credentials used to create the {{ en.CI }}. Consult the security warning above. |
+| Include data source credentials | Includes the credentials for all selected data sources below. Consult the security warning above.  |
+| Clear application lock information | Clears the information from ***File – Options – Security – Lock – Lock application*** (local).  |
+| Force always retrieve new registration | Allows the administrator to force the users to use this new configuration file.             |
 
 {% snippet icon.badgeInfo %} 
 Since version 2022.3 of {{ en.RDM }}, the license registration information is stored in the data source, which means it can no longer be included in a {{ en.CI }}. Follow this [step-by-step guide](/rdm/windows/installation/client/registration/team-edition/) to add your license serial and assign it to your users from an [advanced data source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).  

@@ -11,141 +11,19 @@ To help you select a data source type, here is a set of concerns and the list of
 When choosing any type of data source that is not on-premises, you must consider the security of the data at rest and in transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or a [security provider](/rdm/windows/commands/administration/settings/security-providers/) for [advanced data sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures that only you can read the data. 
 {% endsnippet %}
 
-<table>
-	<tr>
-		<th>
-
-CONCERN 
-		</th>
-		<th style="text-align: center;">
-{{ en.DVLS }} 
-		</th>
-		<th style="text-align: center;">
-{{ en.DHUBB }}
-		</th>
-	</tr>
-	<tr>
-		<td>
-Self-hosted data 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td>
-
-		</td>
-	</tr>
-	<tr>
-		<td>
-Cloud-hosted data 
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Database not accessible to end users 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Encryption at rest and in transit 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Zero-knowledge on sensitive data
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Privileged Access Management (PAM) module 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td style="text-align: center;">
-Note 1 
-		</td>
-	</tr>
-	<tr>
-		<td>
-AD accounts used for authentication 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td>
-
-		</td>
-	</tr>
-	<tr>
-		<td>
-AD group membership used to assign permissions 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Activity logs 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Data accessible globally 
-		</td>
-		<td style="text-align: center;">
-Note 2 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Just-in-time (JIT) connections via {{ en.DGW }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-	</tr>
-</table>
+| CONCERN | {{ en.DVLS }} | {{ en.DHUBB }} |
+|---------|:---------------:|:----------------:|
+| Self-hosted data | {{ icon.badgeNotice | safe }} |  |
+| Cloud-hosted data |  | {{ icon.badgeNotice | safe }} |
+| Database not accessible to end users | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Encryption at rest and in transit | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Zero-knowledge on sensitive data |  | {{ icon.badgeNotice | safe }} |
+| Privileged Access Management (PAM) module | {{ icon.badgeNotice | safe }} | Note 1 |
+| AD accounts used for authentication | {{ icon.badgeNotice | safe }} |  |
+| AD group membership used to assign permissions | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Activity logs | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Data accessible globally | Note 2 | {{ icon.badgeNotice | safe }} |
+| Just-in-time (JIT) connections via {{ en.DGW }} | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 
 ## Notes 
 
