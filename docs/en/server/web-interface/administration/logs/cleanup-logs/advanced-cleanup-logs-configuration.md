@@ -5,7 +5,7 @@ eleventyComputed:
 The ***Advanced*** configuration allows to set individual clean up parameters for all the different logs of {{ en.DVLS }}.  
 ![Administration – Logs – Cleanup Logs](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8161.png)
 
-### Logs
+## Logs
 | Reports           | Description                                                                                                      |
 |-------------------|------------------------------------------------------------------------------------------------------------------|
 | Backup Logs       | The Backup Logs is related to the [Backup Manager](/server/web-interface/administration/backup/backup-manager/). |
