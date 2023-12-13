@@ -2,25 +2,10 @@
 eleventyComputed:
   title: Security
 ---
-Allow to protect the {{ en.VLT }}'s modification from other administrator accounts. 
+Allow to protect the {{ en.VLT }}'s modification from other administrator accounts.  
+![{{ en.VLT_MAJ }}s – Security](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8071.png)
 
-![{{ en.VLT_MAJ }}s - Security](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8071.png)  
-
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Master password 
-		</td>
-		<td>
-Master password to protect {{ en.VLT }}'s modifications. 
-		</td>
-	</tr>
-</table>
+## Edit {{ en.VLT }} settings
+| Option          | Description                                              |
+|-----------------|----------------------------------------------------------|
+| Master password | Master password to protect {{ en.VLT }}'s modifications. |
