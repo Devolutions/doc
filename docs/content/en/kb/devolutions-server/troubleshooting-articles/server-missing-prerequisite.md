@@ -1,18 +1,22 @@
 ---
 eleventyComputed:
-  title: HTTP Error 500.19 - internal server error
+  title: HTTP Error 500.19 - Internal Server Error
+  description: When trying to load the {{ en.DVLS }} web page, HTTP Error 500.19 - Internal Server Error is displayed in the browser.
 ---
-When trying to load the {{ en.DVLS }} web page, the following HTTP 500.19 - Internal Server Error is displayed in the browser.  
-![http 500.19 - Internal Server Error](https://webdevolutions.azureedge.net/docs/en/kb/KB8102.png)  
+When trying to load the {{ en.DVLS }} web page, the following ***HTTP Error 500.19 - Internal Server Error*** is displayed in the browser:   
+![HTTP Error 500.19 - Internal Server Error](https://webdevolutions.azureedge.net/docs/en/kb/KB8102.png)  
 
-The cause of this error is because the IIS Rewrite Module and/or the IIS ASP.NET Core Module (ANCM) are missing.
+This error is due to the absence of the IIS ASP.NET Core Module (ANCM) and/or the IIS Rewrite Module:  
 ![ISS Features Diagnostic](https://webdevolutions.azureedge.net/docs/en/kb/KB8103.png)
 
 ## Solution
 
-1. From the {{ en.DVLSCONSOLE }}, edit the instance.
-1. Select the IIS tab.
-1. Click on the IIS Diagnostic button.
-1. Click on the Install Prerequisites button.  
-![ISSS Features Diagnostic](https://webdevolutions.azureedge.net/docs/en/kb/KB8104.png)
-1. If running the PowerShell script from the {{ en.DVLSCONSOLE }} is blocked due to restriction on the system, the script is located in the Scripts folder of the {{ en.DVLSCONSOLE }} installation folder.
+1. From the {{ en.DVLSCONSOLE }}, edit the instance.  
+1. Select the ***IIS*** tab.  
+1. Click on ***IIS Diagnostic***.  
+1. Click on ***Install Prerequisites***.  
+![Install Prerequisites](https://webdevolutions.azureedge.net/docs/en/kb/KB8104.png)  
+
+{% snippet icon.badgeCaution %}
+If running the PowerShell script from the {{ en.DVLSCONSOLE }} is blocked due to restrictions on the system, the script is located in the ***Scripts*** folder of the {{ en.DVLSCONSOLE }} installation folder.
+{% endsnippet %}
