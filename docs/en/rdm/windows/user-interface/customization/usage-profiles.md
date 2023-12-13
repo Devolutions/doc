@@ -34,163 +34,21 @@ This table shows the entry types that can be created depending on your usage pro
 Note that this only applies to the creation of new entries and does not affect existing entries.
 {% endsnippet %}  
 
-<table>
-	<tr>
-		<th>
-
-ENTRY TYPES
-		</th>
-		<th style="text-align: center;">
-BUSINESS USER
-		</th>
-		<th style="text-align: center;">
-IT PROFESSIONAL
-		</th>
-	</tr>
-	<tr>
-		<td>
-Session
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Remote Management
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Credential Management
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Information
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Folder
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Contact
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Document
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-VPN/Tunnel/Gateway
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-IT Asset Management
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Macro/Script/Tool
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Synchronizer
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Miscellaneous
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Template
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-</table>
+| ENTRY TYPES            | BUSINESS USER | IT PROFESSIONAL |
+|------------------------|:---------------:|:-----------------:|
+| Session                |               | {{ icon.badgeNotice | safe }}                 |
+| Remote Management      |               | {{ icon.badgeNotice | safe }}                 |
+| Credential Management  |               | {{ icon.badgeNotice | safe }}                 |
+| Information            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Folder                 | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Contact                | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Document               |               | {{ icon.badgeNotice | safe }}                 |
+| VPN/Tunnel/Gateway     |               | {{ icon.badgeNotice | safe }}                 |
+| IT Asset Management    |               | {{ icon.badgeNotice | safe }}                 |
+| Macro/Script/Tool      |               | {{ icon.badgeNotice | safe }}                 |
+| Synchronizer           |               | {{ icon.badgeNotice | safe }}                 |
+| Miscellaneous          |               | {{ icon.badgeNotice | safe }}                 |
+| Template               | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 
 ### {{ en.VLT_MAJ }} Dashboard widgets
 
@@ -198,163 +56,21 @@ Template
 
 This table shows the different widgets that can be displayed in your ***{{ en.VLT_MAJ }} Dashboard*** depending on your usage profile.  
 
-<table>
-	<tr>
-		<th>
-
-WIDGETS
-		</th>
-		<th style="text-align: center;">
-BUSINESS USER
-		</th>
-		<th style="text-align: center;">
-IT PROFESSIONAL
-		</th>
-	</tr>
-	<tr>
-		<td>
-Broken entries
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Certificates
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Checked out
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Entries
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Expired entries
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Expiring entries
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Overdue tasks
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Pending access requests
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Pending {{ en.VLT }} access requests
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Upcoming tasks
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.VLT_MAJ }}s
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password ages
-		</td>
-		<td>
- 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Types
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-</table>
+| WIDGETS                    | BUSINESS USER | IT PROFESSIONAL |
+|----------------------------|:---------------:|:-----------------:|
+| Broken entries             |               | {{ icon.badgeNotice | safe }} |
+| Certificates               |               | {{ icon.badgeNotice | safe }} |
+| Checked out                | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Entries                    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Expired entries            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Expiring entries           | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Overdue tasks              | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Pending access requests    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Pending {{ en.VLT }} access requests | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Upcoming tasks             | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| {{ en.VLT_MAJ }}s          |               | {{ icon.badgeNotice | safe }} |
+| Password ages              |               | {{ icon.badgeNotice | safe }} |
+| Types                      | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 
 ### Ribbon sections
 
@@ -362,97 +78,16 @@ Types
 
 This table shows the different sections that are available in your ***Ribbon*** depending on your usage profile.  
 
-<table>
-	<tr>
-		<th>
+| RIBBON SECTIONS | BUSINESS USER | IT PROFESSIONAL |
+|-----------------|:---------------:|:-----------------:|
+| Home            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Edit            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| View            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Administration  |               | {{ icon.badgeNotice | safe }} |
+| Tools           |               | {{ icon.badgeNotice | safe }} |
+| Window          | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Help            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 
-RIBBON SECTIONS
-		</th>
-		<th style="text-align: center;">
-BUSINESS USER
-		</th>
-		<th style="text-align: center;">
-IT PROFESSIONAL
-		</th>
-	</tr>
-	<tr>
-		<td>
-Home
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Edit
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-View
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Administration
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tools
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Window
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Help
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-</table>
 
 ### Entry properties
 
@@ -464,284 +99,33 @@ The sections that are available in ***entry properties*** are different dependin
 The availability of entry property sections also depends on the type of entry as usual.
 {% endsnippet %}  
 
-<table>
-	<tr>
-		<th>
+| ENTRY PROPERTIES                     | BUSINESS USER | IT PROFESSIONAL |
+|--------------------------------------|:---------------:|:-----------------:|
+| General                              | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Description                          | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| User Interface                       | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Custom Fields                        |               | {{ icon.badgeNotice | safe }} |
+| Entry Information                    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Settings                             | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| VPN/Tunnel/Gateway                   | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Events                               |               | {{ icon.badgeNotice | safe }} |
+| One Time Password                    |               | {{ icon.badgeNotice | safe }} |
+| Permissions / Inherited Permissions  |               | {{ icon.badgeNotice | safe }} |
+| Password Management                  |               | {{ icon.badgeNotice | safe }} |
+| Security Settings                    |               | {{ icon.badgeNotice | safe }} |
+| Session Recording                    |               | {{ icon.badgeNotice | safe }} |
+| Asset                                |               | {{ icon.badgeNotice | safe }} |
+| Logs                                 |               | {{ icon.badgeNotice | safe }} |
+| Documentation                        |               | {{ icon.badgeNotice | safe }} |
+| Home Page                            |               | {{ icon.badgeNotice | safe }} |
+| IT Asset Management                  |               | {{ icon.badgeNotice | safe }} |
+| Remote Management                    |               | {{ icon.badgeNotice | safe }} |
+| Variables                            | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Tools                                |               | {{ icon.badgeNotice | safe }} |
+| Is Online (Ping/Port scan)           |               | {{ icon.badgeNotice | safe }} |
+| Wake on LAN                          |               | {{ icon.badgeNotice | safe }} |
+| Advanced                             |               | {{ icon.badgeNotice | safe }} |
 
-ENTRY PROPERTIES
-		</th>
-		<th style="text-align: center;">
-BUSINESS USER
-		</th>
-		<th style="text-align: center;">
-IT PROFESSIONAL
-		</th>
-	</tr>
-	<tr>
-		<td>
-General
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Description
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-User Interface
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Custom Fields
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Entry Information
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Settings
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-VPN/Tunnel/Gateway
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Events
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-One Time Password
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Permissions / Inherited Permissions
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password Management
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Security Settings
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Session Recording
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Asset
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Logs
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Documentation
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Home Page
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-IT Asset Management
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Remote Management
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Variables
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tools
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Is Online (Ping/Port scan)
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Wake on LAN
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-	<tr>
-		<td>
-Advanced
-		</td>
-		<td>
-
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }}
-		</td>
-	</tr>
-</table>
 
 ### Remote tools
 

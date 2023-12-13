@@ -1,53 +1,17 @@
 ---
 eleventyComputed:
   title: '{{ en.NPANE }}'
+  description: 
 ---
 The ***{{ en.NPANE }}*** is one of the main components of the {{ en.RDM }} user interface. It lists all available entries in the current data source and allows to switch to another data source or {{ en.VLT }}.  
 ![{{ en.NPANE }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11204.png) 
 
-<table>
-	<tr>
-		<th>
-
-ELEMENT 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Data source selector 
-		</td>
-		<td>
-Allows to switch to another configured data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Entry list 
-		</td>
-		<td>
-Displays the content of the current data source, depending on the selected tab. It allows to select entries and perform action on them. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.VLT_MAJ }} selector 
-		</td>
-		<td>
-Allows to switch to another configured {{ en.VLT }} in the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Tabs 
-		</td>
-		<td>
-Allows to switch to different views of the entry list, such as the ***Favorite entries*** or the ***Opened sessions***. 
-		</td>
-	</tr>
-</table>
+| ELEMENT                | DESCRIPTION |
+|------------------------|-------------|
+| Data source selector   | Allows to switch to another configured data source.                                                                                     |
+| Entry list             | Displays the content of the current data source, depending on the selected tab. It allows to select entries and perform action on them. |
+| {{ en.VLT_MAJ }} selector | Allows to switch to another configured {{ en.VLT }} in the data source.                                                              |
+| Tabs                   | Allows to switch to different views of the entry list, such as the ***Favorite entries*** or the ***Opened sessions***.                 |
 
 ### Column Chooser 
 

@@ -26,7 +26,6 @@ Right-click on the Windows tray menu bar to access the context menu. You can lau
 | Minimize | Minimizes the application in the task bar.                                                                                                      |
 | Exit | Closes the application.                                                                                                                             |
 
-
 ## Tray icon preferences 
 
 The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Options – User Interface – Trayicon/Taskbar***. 
