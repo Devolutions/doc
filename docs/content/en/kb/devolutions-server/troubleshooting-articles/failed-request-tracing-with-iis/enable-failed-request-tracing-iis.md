@@ -1,22 +1,26 @@
 ---
 eleventyComputed:
   title: Enable failed request tracing in IIS
+  description: Follow these instructions to enable failed request tracing in IIS.
 ---
-{% snippet icon.badgeInfo %}
-The following steps are applicable on Windows Server 2016 and up.
-{% endsnippet %}
+Follow these instructions to enable failed request tracing in IIS:  
 
-1. Open the ***Server Manager*** Choose ***Add Roles and Features*** from the ***Manage*** menu.  
-![!!KB4317](https://webdevolutions.azureedge.net/docs/en/kb/KB4317.png)
-1. Select the ***Installation Type*** and then click ***Next***.  
-![!!KB4318](https://webdevolutions.azureedge.net/docs/en/kb/KB4318.png)
-1. Select the destination server and then click ***Next***.  
-![!!KB4319](https://webdevolutions.azureedge.net/docs/en/kb/KB4319.png)
-1. On the ***Select server role*** page, expand the ***Web Server (IIS) role***, expand ***Web Server***, and expand ***Health and Diagnostics***. Then, select ***Tracing*** and click ***Next***.  
-![!!KB4320](https://webdevolutions.azureedge.net/docs/en/kb/KB4320.png)
-1. On the page ***Select features***, click ***Next***.  
-![!!KB4321](https://webdevolutions.azureedge.net/docs/en/kb/KB4321.png)
-1. On the page ***Confirm installation selections***, click ***Install***.  
-![!!KB4322](https://webdevolutions.azureedge.net/docs/en/kb/KB4322.png)
-1. On the ***Results*** page, click ***Close***.  
-![!!KB4323](https://webdevolutions.azureedge.net/docs/en/kb/KB4323.png)
+{% snippet icon.badgeInfo %}
+The following steps apply to Windows Server 2016 and later.
+{% endsnippet %}  
+
+1. Open the ***Server Manager***.  
+1. In the ***Manage*** tab, select ***Add Roles and Features***.  
+![Manage – Add Roles and Features](https://webdevolutions.azureedge.net/docs/en/kb/KB4317.png)
+1. In the **Installation Type*** section, select the installation type that applies to your situation, then click ***Next***.  
+![Installation Type](https://webdevolutions.azureedge.net/docs/en/kb/KB4318.png)
+1. In the ***Server Selection*** section, select the destination server, then click ***Next***.  
+![Server Selection](https://webdevolutions.azureedge.net/docs/en/kb/KB4319.png)
+1. In the ***Server Roles*** section, expand ***Web Server (IIS)*** role, ***Web Server***, then ***Health and Diagnostics***. Check the ***Tracing*** box and click ***Next***.  
+![Server Roles](https://webdevolutions.azureedge.net/docs/en/kb/KB4320.png)
+1. In the ***Features*** section, simply click ***Next***.  
+![Features](https://webdevolutions.azureedge.net/docs/en/kb/KB4321.png)  
+1. In the ***Confirmation*** section, click ***Install***.  
+![Confirmation](https://webdevolutions.azureedge.net/docs/en/kb/KB4322.png)  
+1. In the ***Results*** section, click ***Close***.  
+![Results](https://webdevolutions.azureedge.net/docs/en/kb/KB4323.png)  
