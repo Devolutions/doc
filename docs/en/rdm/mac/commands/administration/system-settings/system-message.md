@@ -9,5 +9,5 @@ Enter a system message for other users of the same data source to see when openi
 
 | OPTION         | DESCRIPTION                |
 |----------------|----------------------------|
-| System message | The message will be displayed every time the data source is opened or when the message changes. Use `Ctrl`+`Enter` to create a new line. |
+| System message | The message will be displayed every time the data source is opened or when the message changes. Use <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to create a new line. |
 | Clear          | Delete the system message. |
