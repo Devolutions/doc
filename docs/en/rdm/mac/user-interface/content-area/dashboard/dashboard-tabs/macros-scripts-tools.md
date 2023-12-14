@@ -17,53 +17,11 @@ There are three types of tools:
 
 These tools are implemented directly in {{ en.RDM }} and are available without any installation or special configuration. 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Inventory Report 
-		</td>
-		<td>
-Open a Inventory Report for a remote machine. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Wake On Lan 
-		</td>
-		<td>
-Sends the magic packet command for the Wake-on-Lan. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Continuous Ping 
-		</td>
-		<td>
-Opens the ping dialog of the selected host and performs a continuous ping. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Ping 
-		</td>
-		<td>
-Opens the ping dialog of the selected entry and displays the result. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Trace Route 
-		</td>
-		<td>
-Display the route and measuring transit delays of packets across a network. 
-		</td>
-	</tr>
-</table>
+| OPTION          | DESCRIPTION |
+|-----------------|-------------|
+| Inventory Report| Open a Inventory Report for a remote machine. |
+| Wake On Lan     | Sends the magic packet command for the Wake-on-Lan. |
+| Continuous Ping | Opens the ping dialog of the selected host and performs a continuous ping. |
+| Ping            | Opens the ping dialog of the selected entry and displays the result. |
+| Trace Route     | Display the route and measuring transit delays of packets across a network. |
+

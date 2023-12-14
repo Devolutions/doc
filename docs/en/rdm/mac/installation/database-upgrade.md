@@ -30,63 +30,13 @@ Follow these steps for a successful version update:
 1. Switch to the Upgrade tab, then click on Update Database  
 ![Upgrade tab - Upgrade Database](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip11016.png) 
 
-<table>
-	<tr>
-		<td>
-Option 
-		</td>
-		<td>
-Description 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Test Server 
-		</td>
-		<td>
-Test the connection with the server to validate if the proper information has been provided. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Create Database 
-		</td>
-		<td>
-Create the database on the SQL server. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Update Database 
-		</td>
-		<td>
-
-Follow these steps for a successful version update: 
-
-1. Ensure you are the sole user of the database during the upgrade process. 
-1. Backup your database using the DBMS tools. 
-1. Open {{ en.RDMMAC }} while logged on as a user with administrative rights. You must also be SYSDBA or DB_OWNER. 
-1. You may be prompted with an upgrade message when your data source is accessed. If so accept the upgrade. 
-1. Update the client software on all workstations. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Test Database 
-		</td>
-		<td>
-Test the connection to the database to validate if the proper information has been provided. The test database uses the name of the database in the General tab. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-View upgrade script 
-		</td>
-		<td>
-Allow viewing the updated script before the launch of the database update. 
-		</td>
-	</tr>
-</table>
+| Option            | Description |
+|-------------------|-------------|
+| Test Server       | Test the connection with the server to validate if the proper information has been provided. |
+| Create Database   | Create the database on the SQL server. |
+| Update Database   | Follow these steps for a successful version update: <br>1. Ensure you are the sole user of the database during the upgrade process. <br>1. Backup your database using the DBMS tools. <br>1. Open {{ en.RDMMAC }} while logged on as a user with administrative rights. You must also be SYSDBA or DB_OWNER. <br>1. You may be prompted with an upgrade message when your data source is accessed. If so accept the upgrade. <br>1. Update the client software on all workstations. |
+| Test Database     | Test the connection to the database to validate if the proper information has been provided. The test database uses the name of the database in the General tab.                |
+| View upgrade script| Allow viewing the updated script before the launch of the database update. |
 
 6. Wait for a success message. 
 1. Close the dialog. 

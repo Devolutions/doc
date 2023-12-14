@@ -13,88 +13,14 @@ When choosing any type of data source that is not on-premises, you must consider
 For additional security features such as encryption at rest and in transit, no direct database access, and zero-knowkedge encryption, consider our [enterprise data sources](/rdm/mac/getting-started/checklist-teams/select-data-source-type-teams/).
 {% endsnippet %}
 
-<table>
-	<tr>
-		<th>
-
-CONCERN 
-		</th>
-		<th style="text-align: center;">
-SQL 
-SERVER 
-		</th>
-		<th style="text-align: center;">
-SQL 
-AZURE 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Database not accessible to end users 
-		</td>
-		<td style="text-align: center;">
-Notes 1 and 2 
-		</td>
-		<td style="text-align: center;">
-Note 1 
-		</td>
-	</tr>
-	<tr>
-		<td>
-AD accounts used for authentication 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td>
-
-		</td>
-	</tr>
-	<tr>
-		<td>
-Data stored on-premises 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td>
-
-		</td>
-	</tr>
-	<tr>
-		<td>
-Activity logs 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Data accessible globally 
-		</td>
-		<td style="text-align: center;">
-Note 3 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Optional local cache of connections 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-		<td align="center">
-{{ icon.badgeNotice | safe }} 
-		</td>
-	</tr>
-</table>
+| CONCERN                          | SQL SERVER         | SQL AZURE          |
+|----------------------------------|:--------------------:|:--------------------:|
+| Database not accessible to end users | *Notes 1 and 2*      | *Note 1*         |
+| AD accounts used for authentication  | {{ icon.badgeNotice | safe }} |     |
+| Data stored on-premises          | {{ icon.badgeNotice | safe }} |         |
+| Activity logs                    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| Data accessible globally         | *Note 3*             | {{ icon.badgeNotice | safe }} |
+| Optional local cache of connections | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 
 ## Notes 
 

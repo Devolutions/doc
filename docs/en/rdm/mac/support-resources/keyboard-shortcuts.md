@@ -22,429 +22,74 @@ Visit [Keyboard shortcut customization in {{ en.RDMMAC }}](/kb/remote-desktop-ma
 
 ### {{ en.RDM }} 
 
-<table>
-	<tr>
-		<th>
-ACTION 
 		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Preferences 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>,</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hide {{ en.RDM }} 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>H</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hide Others 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Quit
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>Q</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION            | SHORTCUT                         |
+|-------------------|----------------------------------|
+| Preferences       | <kbd>Cmd</kbd>+<kbd>,</kbd>      |
+| Hide {{ en.RDM }} | <kbd>Cmd</kbd>+<kbd>H</kbd>      |
+| Hide Others       | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd> |
+| Quit              | <kbd>Cmd</kbd>+<kbd>Q</kbd>      |
 
 ### File 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Refresh 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>R</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Force Refresh 
-		</td>
-		<td>
-<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>R</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Switch Data Source 
-		</td>
-		<td>
-<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION               | SHORTCUT                           |
+|----------------------|------------------------------------|
+| Refresh              | <kbd>Cmd</kbd>+<kbd>R</kbd>        |
+| Force Refresh        | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>R</kbd> |
+| Switch Data Source   | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd> |
 
 ### Edit 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Undo 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>Z</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Redo 
-		</td>
-		<td>
-<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Z</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Cut 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>X</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Copy (MnuCopy) 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>C</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Paste (MnuPaste) 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>V</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Move 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Paste and Match Style 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Delete (MnuDelete)
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>Backspace</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Select All 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>A</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Find Quickly 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Find in Data Source 
-		</td>
-		<td>
-<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Find 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Spelling 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>:</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Check Spelling 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>;</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION                   | SHORTCUT                               |
+|--------------------------|----------------------------------------|
+| Undo                     | <kbd>Cmd</kbd>+<kbd>Z</kbd>            |
+| Redo                     | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Z</kbd> |
+| Cut                      | <kbd>Cmd</kbd>+<kbd>X</kbd>            |
+| Copy (MnuCopy)           | <kbd>Cmd</kbd>+<kbd>C</kbd>            |
+| Paste (MnuPaste)         | <kbd>Cmd</kbd>+<kbd>V</kbd>            |
+| Move                     | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd> |
+| Paste and Match Style    | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd> |
+| Delete (MnuDelete)       | <kbd>Cmd</kbd>+<kbd>Backspace</kbd>    |
+| Select All               | <kbd>Cmd</kbd>+<kbd>A</kbd>            |
+| Find Quickly             | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd> |
+| Find in Data Source      | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd> |
+| Find                     | <kbd>Cmd</kbd>+<kbd>F</kbd>            |
+| Spelling                 | <kbd>Cmd</kbd>+<kbd>:</kbd>            |
+| Check Spelling           | <kbd>Cmd</kbd>+<kbd>;</kbd>            |
 
 ### View 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Show Toolbar 
-		</td>
-		<td>
-<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Hide Navigation 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>N</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Actual Size 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>0</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Zoom In 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>+</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Zoom Out 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>-</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Enter Full Screen 
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION               | SHORTCUT                              |
+|----------------------|---------------------------------------|
+| Show Toolbar         | <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd> |
+| Hide Navigation      | <kbd>Cmd</kbd>+<kbd>N</kbd>           |
+| Actual Size          | <kbd>Cmd</kbd>+<kbd>0</kbd>           |
+| Zoom In              | <kbd>Cmd</kbd>+<kbd>+</kbd>           |
+| Zoom Out             | <kbd>Cmd</kbd>+<kbd>-</kbd>           |
+| Enter Full Screen    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd> |
 
 ### Entry 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Open Session 
-		</td>
-		<td>
-<kbd>Enter</kbd> 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Delete (MnuDeleteConnection)
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>Backspace</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Edit Entry 
-		</td>
-		<td>
-<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>E</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION                      | SHORTCUT                        |
+|-----------------------------|---------------------------------|
+| Open Session                | <kbd>Enter</kbd>                |
+| Delete (MnuDeleteConnection)| <kbd>Cmd</kbd>+<kbd>Backspace</kbd> |
+| Edit Entry                  | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>E</kbd> |
 
 ### Window 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Minimize 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>M</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Select Next Tab 
-		</td>
-		<td>
-<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Right</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Select Previous Tab 
-		</td>
-		<td>
-<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Left</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 1
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>1</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 2
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>2</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 3
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 4
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 5
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>5</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 6
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>6</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 7
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>7</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 8
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>8</kbd>
-		</td>
-	</tr>
-	<tr>
-		<td>
-Goto Bookmark 9
-		</td>
-		<td>
-<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>9</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION                | SHORTCUT                               |
+|-----------------------|----------------------------------------|
+| Minimize              | <kbd>Cmd</kbd>+<kbd>M</kbd>            |
+| Select Next Tab       | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Right</kbd> |
+| Select Previous Tab   | <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>Left</kbd> |
+| Goto Bookmark 1       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>1</kbd> |
+| Goto Bookmark 2       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>2</kbd> |
+| Goto Bookmark 3       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd> |
+| Goto Bookmark 4       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd> |
+| Goto Bookmark 5       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>5</kbd> |
+| Goto Bookmark 6       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>6</kbd> |
+| Goto Bookmark 7       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>7</kbd> |
+| Goto Bookmark 8       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>8</kbd> |
+| Goto Bookmark 9       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>9</kbd> |
 
 ### Help 
-<table>
-	<tr>
-		<th>
-ACTION 
-		</th>
-		<th>
-SHORTCUT 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Online Help 
-		</td>
-		<td>
-<kbd>Cmd</kbd>+<kbd>?</kbd>
-		</td>
-	</tr>
-</table>
+| ACTION       | SHORTCUT                |
+|--------------|-------------------------|
+| Online Help  | <kbd>Cmd</kbd>+<kbd>?</kbd> |
+

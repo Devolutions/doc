@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Ancillary files
+  description: As described in the Configuration File Location, the default path for most of these files are customizable. 
 ---
 {{ en.RDMMAC }} generates ancillary files on your workstation. The table below lists out an example of ancillary files and their locations.  
 
@@ -10,137 +11,17 @@ The Override column indicates if an available mechanism can relocate the files o
 
 ## Summary 
 
-<table>
-	<tr>
-		<td>
-FILE(S) 
-		</td>
-		<td>
-LOCATION 
-		</td>
-		<td>
-OVERRIDE SOURCE 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Configuration File(s) (*.cfg, *.ext) 
-		</td>
-		<td>
-%CONFIG% 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Data File(s) (*.xml, *db) 
-		</td>
-		<td>
-%CONFIG% or custom path 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Default Settings 
-		</td>
-		<td>
-%CONFIG% 
-		</td>
-		<td>
-Data source settings 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Encryption (*.enc, *.enb) 
-		</td>
-		<td>
-%CONFIG% 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Layout Files (*.lyt) 
-		</td>
-		<td>
-%CONFIG% 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Log Files (*.log, *.debug) 
-		</td>
-		<td>
-%CONFIG% 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Local Play lilsts 
-		</td>
-		<td>
-%PROFILE%\{Datasource}\Playlists 
-		</td>
-		<td>
-Use for application directory for local playlist 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Local Templates 
-		</td>
-		<td>
-They are serialized directly in the configuration file of the application 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Offline/Cache data (offline.db) 
-		</td>
-		<td>
-%PROFILE%\{Datasource} 
-		</td>
-		<td>
-Use application directory for online cache 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Sensitive (*.stv, *.stb) 
-		</td>
-		<td>
-%CONFIG% 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Themes 
-		</td>
-		<td>
-%CONFIG% 
-		</td>
-		<td>
-None 
-		</td>
-	</tr>
-</table>
+| FILE(S)                            | LOCATION                                    | OVERRIDE SOURCE                           |
+|------------------------------------|---------------------------------------------|-------------------------------------------|
+| Configuration File(s) (*.cfg, *.ext)| %CONFIG%                                   | None                                      |
+| Data File(s) (*.xml, *db)          | %CONFIG% or custom path                     | None                                      |
+| Default Settings                   | %CONFIG%                                    | Data source settings                      |
+| Encryption (*.enc, *.enb)          | %CONFIG%                                    | None                                      |
+| Layout Files (*.lyt)               | %CONFIG%                                    | None                                      |
+| Log Files (*.log, *.debug)         | %CONFIG%                                    | None                                      |
+| Local Playlists                    | %PROFILE%\{Datasource}\Playlists            | Use for application directory for local playlist |
+| Local Templates                    | They are serialized directly in the configuration file of the application | None        |
+| Offline/Cache data (offline.db)    | %PROFILE%\{Datasource}                      | Use application directory for online cache|
+| Sensitive (*.stv, *.stb)           | %CONFIG%                                    | None                                      |
+| Themes                             | %CONFIG%                                    | None                                      |
+
