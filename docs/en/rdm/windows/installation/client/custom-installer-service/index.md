@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.CIS }}'
+  title: "{{ en.CIS }}"
   description: "The {{ en.CIS }} offered through our Devolutions Customer Portal services replicates the configuration from a {{ en.RDM }} instance."
 ---
 ![!!CustomInstallerServiceIcon](https://webdevolutions.blob.core.windows.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg)

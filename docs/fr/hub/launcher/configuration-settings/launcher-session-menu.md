@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DLAUNCHER }} paramètres de session'
+  title: "{{ fr.DLAUNCHER }} paramètres de session'
   order: 30
 ---
 Pour accéder au menu de la session {{ fr.DLAUNCHER }}, faire un clic droit sur un onglet de session ouvert.  

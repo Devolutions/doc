@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ de.RDMMOBILE }}'
+  title: "{{ de.RDMMOBILE }}'
   order: 30
   description: Sie finden hier Themen zu den folgenden {{ de.RDMMOBILE }} Kategorien:':' How-to, Troubleshooting und Knowledge Base Themen.
 ---

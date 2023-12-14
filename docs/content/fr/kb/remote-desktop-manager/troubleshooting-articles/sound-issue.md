@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} sound issues'
+  title: "{{ en.RDMMAC }} sound issues"
 ---
 When launching an RDP entry, who is set up with approval for sound, {{ en.RDMMAC }} users cannot hear on the remote even though Windows detects remote audio.
 ## Solution

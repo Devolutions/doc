@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }} installation on Opera'
+  title: "{{ en.WBEX }} installation on Opera"
   description: Follow the steps to complete the installation of the {{ en.WBEX }} in the Opera web browser. 
   keywords:
   - Browser

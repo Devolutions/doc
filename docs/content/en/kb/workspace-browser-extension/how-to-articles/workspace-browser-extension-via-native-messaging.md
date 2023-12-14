@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }} via native messaging'
+  title: "{{ en.WBEX }} via native messaging"
 ---
 The {{ en.WBEX }} can work without HTTP(S) by using native messaging. Here are the steps:
 

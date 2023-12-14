@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }} installation on Firefox'
+  title: "{{ en.WBEX }} installation on Firefox"
   description: Follow the steps to complete the installation of the {{ en.WBEX }} in the Firefox web browser. 
   keywords:
   - Browser

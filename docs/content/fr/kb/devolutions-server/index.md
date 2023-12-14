@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DVLS }}'
+  title: "{{ fr.DVLS }}"
   description: Vous pouvez accéder aux catégories suivantes concernant {{ fr.DVLS }} ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
   status: Topic available in German language
 ---

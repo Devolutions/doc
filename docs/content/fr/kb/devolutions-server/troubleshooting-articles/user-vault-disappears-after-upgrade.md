@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.UVLT_MAJ }} disappears after upgrade'
+  title: "{{ en.UVLT_MAJ }} disappears after upgrade"
 ---
 With {{ en.DVLS }} 2021 came a remodeling of the {{ en.UVLT }}. After upgrading to 2021.1.x and higher some user could no longer be able to access their ***{{ en.UVLT }}***.  
 

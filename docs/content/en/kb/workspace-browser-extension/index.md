@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }}'
+  title: "{{ en.WBEX }}'
   order: 90
   description: You can consult topics for the following categories about the {{ en.WBEX }}':' How-to articles, Troubleshooting articles and Knowledge Base
   status: Topic available in German language

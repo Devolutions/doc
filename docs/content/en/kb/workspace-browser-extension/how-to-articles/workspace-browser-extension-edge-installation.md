@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }} installation on Microsoft Edge'
+  title: "{{ en.WBEX }} installation on Microsoft Edge"
   description: Follow the steps to complete the installation of the {{ en.WBEX }} in the Edge web browser. 
   keywords:
   - Browser

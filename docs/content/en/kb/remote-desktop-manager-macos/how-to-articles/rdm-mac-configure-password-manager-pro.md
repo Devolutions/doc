@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} configure Password Manager Pro'
+  title: "{{ en.RDMMAC }} configure Password Manager Pro"
 ---
 You can create Password Manager Pro credential entries in {{ en.RDMMAC }}, however Password Manager Pro needs to be configured in the application prior to the utilization.
 

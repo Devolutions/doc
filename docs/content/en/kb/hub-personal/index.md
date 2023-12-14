@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DHUBP }}'
+  title: "{{ en.DHUBP }}"
   description: You can consult topics for the following categories about {{ en.DHUBP }}':' How-to articles, Troubleshooting articles, and Knowledge Base.
   status: Topic available in German language
 ---

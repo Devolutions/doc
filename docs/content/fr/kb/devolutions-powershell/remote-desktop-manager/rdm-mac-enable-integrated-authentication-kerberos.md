@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} – Enable integrated authentication with Kerberos'
+  title: "{{ en.RDMMAC }} – Enable integrated authentication with Kerberos"
 ---
 To use Integrated Authentication (Windows Authentication) on {{ en.MAC }}, you will need to setup a ***Kerberos ticket*** linking your current user to a Windows domain account. A summary of key steps are included below.  
 

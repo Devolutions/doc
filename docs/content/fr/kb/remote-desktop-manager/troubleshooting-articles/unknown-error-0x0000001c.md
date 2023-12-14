@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} Unknown error (0x0000001C)'
+  title: "{{ en.RDMMAC }} Unknown error (0x0000001C)"
 ---
 When trying to connect to an RDP host in {{ en.RDMMAC }} you get the error message: Unknown error (0x0000001C).
 ## Solution

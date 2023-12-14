@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Data sources types
-  description: '{{ en.RDM }} supports multiple types of data sources. First decide which data source you are going to use.' 
+  description: "{{ en.RDM }} supports multiple types of data sources. First decide which data source you are going to use.' 
   order: 20
 ---
 {% youtube 'ji4G8Ti7lls' %}  

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.VLT_MAJ }}s'
+  title: "{{ en.VLT_MAJ }}s'
   order: 30
 ---
 The {{ en.VLT }}s management allows to create and manage {{ en.VLT }}s. To access the {{ en.VLT }}s management, navigate to ***Administration – {{ en.VLT_MAJ }}s***.  

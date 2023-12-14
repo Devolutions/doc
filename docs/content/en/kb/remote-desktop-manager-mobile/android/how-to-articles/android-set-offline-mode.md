@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMANDROID }} offline mode'
+  title: "{{ en.RDMANDROID }} offline mode"
   description: The Offline mode allows you to connect to a read only copy of the data source when the live database is unavailable.
 ---
 The Offline mode allows you to connect to a read only copy of the data source when the live database is unavailable.

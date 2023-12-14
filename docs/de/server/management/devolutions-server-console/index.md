@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ de.DVLSCONSOLE }}'
+  title: "{{ de.DVLSCONSOLE }}"
 ---

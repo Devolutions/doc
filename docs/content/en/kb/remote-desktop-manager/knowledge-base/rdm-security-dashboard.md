@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDM }} Security Dashboard'
+  title: "{{ en.RDM }} Security Dashboard"
   description: The Security dashboard is a tool to offer guidance on how to improve the security of the {{ en.RDM }} platform.
 ---
 The Security dashboard is a tool to offer guidance on how to improve the security of the {{ en.RDM }} platform and also tips on reducing the workload for administrators. Some tips are common infosec best practices, others are a consensus between our owns teams.  

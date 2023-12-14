@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.VLT_MAJ }}s'
+  title: "{{ en.VLT_MAJ }}s"
 ---
 ***{{ en.VLT_MAJ }}s*** are containers for your entries, your credentials, sensitive information, sessions, and more.  
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DOD }}'
+  title: "{{ en.DOD }}"
   description: The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.  
 ---
 {% youtube 'R3VYxnOdjoE' %}  

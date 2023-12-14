@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DLAUNCHER }}'
+  title: "{{ en.DLAUNCHER }}'
   order: 70
 ---
 ![!!{{ en.DLAUNCHER }} logo](https://webdevolutions.blob.core.windows.net/images/projects/launcher/logos/launcher-color-shadow.svg)

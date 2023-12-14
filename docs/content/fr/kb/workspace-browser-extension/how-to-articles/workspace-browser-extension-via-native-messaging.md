@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.WBEX_MAJ }} via la messagerie native'
+  title: "{{ fr.WBEX_MAJ }} via la messagerie native"
 ---
 Le {{ fr.WBEX }} peut fonctionner sans employer le protocole HTTP(S) en utilisant la messagerie native. Voici comment s’y prendre : 
 1. Dans le navigateur, cliquer sur l’icône du {{ fr.WBEX }}, puis cliquer sur ***Paramètres***. 

@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ de.NPANE }}'
+  title: "{{ de.NPANE }}"
 ---

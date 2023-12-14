@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DKB }}'
+  title: "{{ en.DKB }}"
   description: Consult our online base of information about our suite of products, general knowledge, and much more information related to Devolutions.
   status: Topic available in German language
   keywords:

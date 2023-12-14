@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDM }}'
+  title: "{{ en.RDM }}"
   description: "{{ en.RDM }} is an application that integrates a comprehensive set of tools and managers to meet the needs of any IT team. It is designed to centralize remote connection technologies, credentials, and secure the access to these resources."
   order: 10
   status: Topic available in German language

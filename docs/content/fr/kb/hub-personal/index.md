@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DHUBP }}'
+  title: "{{ fr.DHUBP }}"
   description: Vous pouvez accéder aux catégories suivantes concernant {{ fr.DHUBP }} ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
   status: Topic available in German language
 ---

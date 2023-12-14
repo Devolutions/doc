@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DGW }}'
+  title: "{{ fr.DGW }}"
   description: Vous pouvez accéder aux catégories suivantes concernant {{ fr.DGW }} ':' Guides d'utilisation, Articles de dépannage et Base de connaissances
   status: Topic available in German language
 ---

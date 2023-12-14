@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.VLT_MAJ }}s'
+  title: "{{ fr.VLT_MAJ }}s"
 ---
 Sélectionner les {{ fr.VLT }}s auxquels le groupe d'utilisateurs a accès.  
 

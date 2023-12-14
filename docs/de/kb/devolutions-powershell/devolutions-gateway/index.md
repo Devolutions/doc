@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: '{{ de.DGW }} PowerShell'
+  title: "{{ de.DGW }} PowerShell'
   order: 30
 ---

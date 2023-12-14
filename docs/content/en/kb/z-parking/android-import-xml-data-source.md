@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMANDROID }} Import an XML data source'
+  title: "{{ en.RDMANDROID }} Import an XML data source"
 ---
 You can import an XML data source in {{ en.RDMANDROID }} by overwriting or by creating a new XML data source.
 

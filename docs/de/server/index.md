@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ de.DVLS }}'
+  title: "{{ de.DVLS }}"
 ---

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} configure 1Password'
+  title: "{{ en.RDMMAC }} configure 1Password"
   description: 
 ---
 {% snippet icon.badgeInfo %}

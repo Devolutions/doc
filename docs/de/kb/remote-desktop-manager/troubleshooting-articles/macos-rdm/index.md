@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: '{{ de.RDMMAC }}'
+  title: "{{ de.RDMMAC }}'
   order: 10
 ---

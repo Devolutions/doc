@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: '{{ de.VLT }}'
+  title: "{{ de.VLT }}'
   order: 60
 ---

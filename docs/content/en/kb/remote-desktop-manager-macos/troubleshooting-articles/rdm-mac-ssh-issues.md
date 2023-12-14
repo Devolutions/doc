@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} SSH issues'
+  title: "{{ en.RDMMAC }} SSH issues"
 ---
 Multiple issues in {{ en.RDMMAC }} with SSH entries.
 ## Solution

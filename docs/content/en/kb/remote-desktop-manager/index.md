@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDM }}'
+  title: "{{ en.RDM }}"
   description: You can consult topics for the following categories about {{ en.RDM }}':' How-to articles, Troubleshooting articles and Knowledge Base
   status: Topic available in German language
 ---

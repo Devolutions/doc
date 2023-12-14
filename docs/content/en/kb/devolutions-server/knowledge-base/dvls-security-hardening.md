@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DVLS }} security hardening'
+  title: "{{ en.DVLS }} security hardening"
   description: Security hardening consists of implementing various security measures to protect against cyber threats and ensure the confidentiality, integrity, and availability of the system.
   keywords:
   - security hardening

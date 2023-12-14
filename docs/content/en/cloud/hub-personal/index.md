@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DHUBP }}'
+  title: "{{ en.DHUBP }}"
 ---
 ***{{ en.DHUBP }}*** is for individual users who want to secure personal passwords in a secure {{ en.VLT }} for free. It is an easy-to-use cloud based password management tool linked to your {{ en.DA }}.
 

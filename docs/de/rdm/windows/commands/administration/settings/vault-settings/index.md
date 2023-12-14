@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ de.VLT }} Einstellungen'
+  title: "{{ de.VLT }} Einstellungen"
 ---

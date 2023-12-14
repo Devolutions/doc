@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DVLSCONSOLE }} command line interface'
+  title: "{{ en.DVLSCONSOLE }} command line interface"
   description: The {{ en.DVLSCONSOLE }} Command Line Interface (CLI) is a {{ en.CTOOL }} which allows administrators to interact with {{ en.DVLS }} instances.
   keywords:
   - CLI

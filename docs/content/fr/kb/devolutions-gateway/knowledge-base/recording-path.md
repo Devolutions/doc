@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DGW }} recording path'
+  title: "{{ en.DGW }} recording path"
   description: This topic serves as a reference for general information on {{ en.DGW }} recording.
 ---
 This topic serves as a reference for general information on {{ en.DGW }} recording.

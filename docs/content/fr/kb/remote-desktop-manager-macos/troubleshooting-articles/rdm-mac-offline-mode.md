@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} Offline mode'
+  title: "{{ en.RDMMAC }} Offline mode"
 ---
 Database disk image is malformed, trying to delete the file: /USERS/XXX/LIBRARY/APPLICATION SUPPORT/COM.DEVOLUTIONS.REMOTEDESKTOPMANAGER/GUID-DATASOURCEID/OFFLINE.DB
 

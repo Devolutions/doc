@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.NPANE }}'
+  title: "{{ fr.NPANE }}"
 ---
 Le ***{{ fr.NPANE }}*** est au cœur de l'interface utilisateur de {{ fr.RDM }}.  
 ![{{ fr.NPANE }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4409.png) 

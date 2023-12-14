@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DHUBI }}'
+  title: "{{ fr.DHUBI }}"
   description: "{{ fr.DHUBI }} est un outil essentiel conçu pour importer vos données dans {{ fr.DHUBB }}."
 ---
 {% youtube 'zoNA11ql9Gk' %}  

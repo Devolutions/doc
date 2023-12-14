@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DGW }} configuration in {{ en.RDM }}'
+  title: "{{ en.DGW }} configuration in {{ en.RDM }}'
   order: 40
   description: The following instructions explain how to use {{ en.DGW }} in an RDP session.
   keywords:

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DFORCE }}'
+  title: "{{ fr.DFORCE }}"
 ---
 La ***{{ fr.DFORCE }}*** est un canal privé qui vous permet de vous connecter et de réseauter avec des professionnels des TI du monde entier. Il n'y a aucune obligation ni coût et il vous permet de gagner des récompenses, vous donne un accès avancé aux promotions, nouvelles et événements.
 

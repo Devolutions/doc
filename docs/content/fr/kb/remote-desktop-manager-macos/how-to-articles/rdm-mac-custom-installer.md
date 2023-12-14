@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} {{ en.CI }}'
+  title: "{{ en.RDMMAC }} {{ en.CI }}"
 ---
 Unfortunately, there is no {{ en.CI }} in the {{ en.RDMMAC }} version as we do have for the [Windows {{ en.RDM }} application](/rdm/windows/installation/client/custom-installer-service/).
 

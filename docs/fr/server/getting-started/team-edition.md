@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DVLS }} - Édition Team'
+  title: "{{ fr.DVLS }} - Édition Team'
   keywords:
   - rôle
 ---

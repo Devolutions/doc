@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.NPANE }}'
+  title: "{{ en.NPANE }}"
 ---
 The ***{{ en.NPANE }}*** displays the entries that users have access to from the currently selected {{ en.VLT }}.  
 

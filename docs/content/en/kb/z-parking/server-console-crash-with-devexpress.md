@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DVLSCONSOLE }} crash with DevExpress'
+  title: "{{ en.DVLSCONSOLE }} crash with DevExpress"
 ---
 After the {{ en.DVLSCONSOLE }} installation version 2019.2.12.0, it is not possible to launch the {{ en.DVLSCONSOLE }} anymore.
 

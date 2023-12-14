@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ de.RDM }}'
+  title: "{{ de.RDM }}"
   description: "{{ de.RDM }} ist eine Anwendung, die eine umfassende Reihe von Tools und Verwaltungswerkzeugen kombiniert, um die Anforderungen jedes IT-Teams zu erfüllen. Sie wurde entwickelt, um Technologien für Remoteverbindungen und Anmeldeinformationen zu zentralisieren und den Zugang zu diesen Ressourcen zu effektiver und sicher zur Verfügung zu stellen."
   order: 10
 ---

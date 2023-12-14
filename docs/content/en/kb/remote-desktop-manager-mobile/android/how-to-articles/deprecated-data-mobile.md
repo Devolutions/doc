@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMANDROID }} Show deprecated data source types'
+  title: "{{ en.RDMANDROID }} Show deprecated data source types"
   description: How to show deprecated data source types
 ---
 A ***deprecated data source*** refers to a data source that is no longer recommended or officially supported. Follow this quick step-by-step guide to easily show deprecated data source types in {{ en.RDMANDROID }}.

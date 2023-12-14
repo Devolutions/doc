@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMIOS }} create a new data source'
+  title: "{{ en.RDMIOS }} create a new data source"
 ---
 The data source in {{ en.RDM }} can be a file or a database. You can configure multiple data sources within the application.  
 

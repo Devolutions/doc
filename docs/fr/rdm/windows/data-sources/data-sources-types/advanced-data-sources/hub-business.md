@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DHUBB }}'
+  title: "{{ fr.DHUBB }}"
 ---
 {% youtube 'HOufQYIfmlE' %}  
 

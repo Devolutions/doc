@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.CI }}'
+  title: "{{ en.CI }}"
   description: The {{ en.CI }} replicates the settings from the Remote Desktop Manager instance used to create the package and stores them in the package for distribution. 
 ---
 {% snippet icon.badgeInfo %}

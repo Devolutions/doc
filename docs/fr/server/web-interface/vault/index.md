@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.VLT_MAJ }}'
+  title: "{{ fr.VLT_MAJ }}'
   order: 60
 ---
 Les ***{{ fr.VLT }}s*** permettent aux utilisateurs de [Créer des entrées](/fr/server/web-interface/vault/entries/create-entries-manually/) et de gérer le contenu de la source de données. Les ***{{ fr.VLT }}s*** sont des conteneurs qui divisent la source de données en plusieurs compartiments.  

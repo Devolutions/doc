@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DA }}'
+  title: "{{ fr.DA }}"
 ---
 Dans ***Fichier - {{ fr.DA }}*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }}. Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***{{ fr.CIM }}***.  
 

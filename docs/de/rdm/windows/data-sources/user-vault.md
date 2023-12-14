@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ de.UVLT }}'
+  title: "{{ de.UVLT }}"
 ---
 Der {{ de.UVLT }} ist ein benutzerspezifischer {{ de.VLT }} für Einträge aller Art. Dieser erlaubt es Benutzer, Einträge zu erstellen, auf die nur der jeweilige Benutzer Zugriff hat.  
 

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DGW }} farms'
+  title: "{{ en.DGW }} farms"
   description: A farm is able to regroup multiple gateways and perform load balancing for the connections using the gateway.
 ---
 The purpose of the {{ en.DGW }} farms feature is to group multiple gateways under a single farm in order to balance the load of sessions passing through each gateway. By using this feature, sessions will be distributed among them according to the farm's configuration:

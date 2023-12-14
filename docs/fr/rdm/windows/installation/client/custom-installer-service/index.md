@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.CIS | safe }}'
+  title: "{{ fr.CIS | safe }}"
 ---
 <table>
 	<tr>

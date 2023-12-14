@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ de.RDMANDROID }}'
+  title: "{{ de.RDMANDROID }}"
 ---

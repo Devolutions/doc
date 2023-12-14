@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDM }} does not start'
+  title: "{{ en.RDM }} does not start"
   description: While modernizing our {{ en.RDM }} for Windows build process, an issue went undetected.
 ---
 While modernizing our {{ en.RDM }} for Windows build process, an issue went undetected. A tool that performs actions against our code base has introduced an issue within the application.  

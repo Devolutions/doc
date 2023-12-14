@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DCS }}'
+  title: "{{ fr.DCS }}"
 ---
 ![!!{{ fr.DCS }} logo]({{ locale.fr.projects.cloud.logo }})
 

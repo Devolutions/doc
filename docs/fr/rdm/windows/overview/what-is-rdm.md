@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.RDM }}'
+  title: "{{ fr.RDM }}"
   description: "{{ fr.RDM }} est une application qui intègre un ensemble complet d'outils et de gestionnaires pour répondre aux besoins de toute équipe TI. Elle est conçue pour centraliser toutes vos connexions et vos identifiants."
   order: 10
   status: Topic available in German language

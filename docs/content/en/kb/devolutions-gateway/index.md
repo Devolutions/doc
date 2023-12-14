@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DGW }}'
+  title: "{{ en.DGW }}"
   description: You can consult topics for the following categories about {{ en.DGW }}':' How-to articles, Troubleshooting articles and Knowledge Base
   status: Topic available in German language
 ---

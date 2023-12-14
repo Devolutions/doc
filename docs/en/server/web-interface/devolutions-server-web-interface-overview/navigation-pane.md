@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.NPANE }}'
+  title: "{{ en.NPANE }}"
 ---
 The ***{{ en.NPANE }}*** displays the entries available to the user for the selected {{ en.VLT }}.  
 

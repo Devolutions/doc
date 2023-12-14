@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.UVLT_MAJ }}'
+  title: "{{ fr.UVLT_MAJ }}"
 ---
 Le ***{{ fr.UVLT }}*** est un {{ fr.VLT }} spécifique à l'utilisateur utilisé pour stocker des informations privées, des identifiants et des mots de passe. Il permet à chaque utilisateur d'avoir son propre ***{{ fr.UVLT }}***.  
 

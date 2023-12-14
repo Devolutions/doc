@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DVLSCONSOLE }}'
+  title: "{{ en.DVLSCONSOLE }}"
   description: Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}.
 ---
 Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}.  

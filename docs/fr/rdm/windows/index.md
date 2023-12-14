@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ fr.RDMWIN }}'
+  title: "{{ fr.RDMWIN }}"
 ---

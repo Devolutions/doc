@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DVLS }} security dashboard'
+  title: "{{ en.DVLS }} security dashboard"
   description: The Security Dashboard is a tool to offer guidance on how to improve the security of the {{ en.DVLS }} platform and also tips on reducing the workload for administrators.
 ---
 The ***Security Dashboard*** is a tool to offer guidance on how to improve the security of the {{ en.DVLS }} platform and also tips on reducing the workload for administrators. Some tips are common infosec best practices, others are a consensus between our owns teams.

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DVLS }}'
+  title: "{{ fr.DVLS }}'
   order: 10
   keywords:
   - on-premises

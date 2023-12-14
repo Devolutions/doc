@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMANDROID }} import {{ en.DOD }}'
+  title: "{{ en.RDMANDROID }} import {{ en.DOD }}"
 ---
 The {{ en.DOD }} stores and synchronizes your remote connections and credentials online.
 

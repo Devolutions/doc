@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DFORUM }}'
+  title: "{{ fr.DFORUM }}"
   description: Le {{ fr.DFORUM }} est le meilleur moyen d’obtenir des réponses à vos questions, soit de notre équipe de développement, soit de notre communauté mondiale de professionnels des TI.
 ---
 Le [{{ fr.DFORUM }}](https://forum.devolutions.net/) est le meilleur moyen d’obtenir des réponses à vos questions, soit de notre équipe de développement, soit de notre communauté mondiale de professionnels des TI.

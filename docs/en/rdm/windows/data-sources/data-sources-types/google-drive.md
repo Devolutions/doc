@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Google Drive
-  description: '{{ en.RDM }} downloads and uploads the session settings directly from file located on an FTP site.' 
+  description: "{{ en.RDM }} downloads and uploads the session settings directly from file located on an FTP site."
 ---
 {{ en.RDM }} downloads and uploads the session settings directly from file located on an FTP site. 
 

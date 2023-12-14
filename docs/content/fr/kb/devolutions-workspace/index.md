@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.WAPPS_MAJ }}'
+  title: "{{ fr.WAPPS_MAJ }}"
   description: Accédez aux guides d'utilisation, articles de dépannage et base de connaissances des {{ fr.WAPPS }}.
   status: Topic available in German language
 ---

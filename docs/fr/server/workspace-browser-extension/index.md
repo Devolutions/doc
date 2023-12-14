@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: '{{ fr.WBEX_MAJ }}'
+  title: "{{ fr.WBEX_MAJ }}'
   order: 80
 ---

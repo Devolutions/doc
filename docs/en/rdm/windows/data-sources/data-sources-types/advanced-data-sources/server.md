@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: '{{ en.DVLS }}'
-  description: '{{ en.DVLS }} allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the {{ en.DVLS }} web page.'
+  title: "{{ en.DVLS }}"
+  description: "{{ en.DVLS }} allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the {{ en.DVLS }} web page."
 ---
 {{ en.DVLS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the [{{ en.DVLS }} web page](https://devolutions.net/server/). 
 

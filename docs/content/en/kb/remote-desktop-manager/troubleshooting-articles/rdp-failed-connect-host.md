@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} RDP failed to connect to the host'
+  title: "{{ en.RDMMAC }} RDP failed to connect to the host"
 ---
 Error silent: failed to connect to the host (131084) for {{ en.MAC }}  
 

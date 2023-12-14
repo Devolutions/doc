@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.VLT_MAJ }}s'
+  title: "{{ fr.VLT_MAJ }}s"
 ---
 Les ***{{ fr.VLT }}s*** sont des emplacements pour vos entrées, vos informations d'identification, vos informations sensibles, vos sessions, et même plus.  
 ![{{ fr.VLT_MAJ }}s](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin2003.png) 

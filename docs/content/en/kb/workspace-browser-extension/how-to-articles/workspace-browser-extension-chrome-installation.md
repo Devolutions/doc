@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }} installation on Google Chrome'
+  title: "{{ en.WBEX }} installation on Google Chrome"
   description: Follow the steps to complete the installation of the {{ en.WBEX }} in the Chrome web browser. 
   keywords:
   - Browser

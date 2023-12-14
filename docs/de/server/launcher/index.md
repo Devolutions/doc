@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: '{{ de.DLAUNCHER }}'
+  title: "{{ de.DLAUNCHER }}'
   order: 70
 ---

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.CIM }}'
+  title: "{{ en.CIM }}"
   description: In {{ en.RDM }}, click on File – {{ en.DA }} – Sign-in to connect to your {{ en.DA }} if you are not already signed in. 
 ---
 {% snippet icon.badgeNotice %} 

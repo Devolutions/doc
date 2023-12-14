@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DGW }} tunnel connection type'
+  title: "{{ en.DGW }} tunnel connection type"
   description: The {{ en.DGW }} Tunnel can fulfill similar needs to SSH port forwarding/SSH tunneling, but it requires nothing other than {{ en.DGW }} itself.
   keywords:
   - SSH Tunnel

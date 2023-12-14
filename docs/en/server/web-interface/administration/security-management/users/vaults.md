@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.VLT_MAJ }}s'
+  title: "{{ en.VLT_MAJ }}s"
 ---
 Select which ***{{ en.VLT }}s*** the user has access to.  
 

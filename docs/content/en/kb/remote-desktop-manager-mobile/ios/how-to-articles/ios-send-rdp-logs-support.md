@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMIOS }} send RDP logs to Devolutions support'
+  title: "{{ en.RDMIOS }} send RDP logs to Devolutions support"
 ---
 Follow these steps to send sessions logs to our support team when encountering an issue with RDP.  
 

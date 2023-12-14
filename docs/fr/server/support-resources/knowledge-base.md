@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DKB }}'
+  title: "{{ fr.DKB }}"
   description: L’équipe de l'expérience utilisateur de Devolutions est fière de présenter cette base de connaissances à notre communauté de plus de 800 000 utilisateurs!
 ---
 ![!!Logo Base de connaissances Devolutions](https://webdevolutions.azureedge.net/images/projects/base-de-connaissances/logos/base-de-connaissances-color-shadow.svg)

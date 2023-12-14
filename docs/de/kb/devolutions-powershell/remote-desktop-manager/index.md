@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: '{{ de.RDM }} PowerShell'
+  title: "{{ de.RDM }} PowerShell'
   order: 10
 ---

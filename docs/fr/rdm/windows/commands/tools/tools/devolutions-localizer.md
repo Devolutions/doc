@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DLOCALIZER }}'
+  title: "{{ fr.DLOCALIZER }}"
 ---
 {{ fr.DLOCALIZER }} est notre outil de traduction personnalisé pour nos applications. Nous vous invitons à contribuer à notre communauté Devolutions en traduisant nos outils pour faire bénéficier d'autres utilisateurs comme vous dans le monde.  
 

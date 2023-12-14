@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ en.VLT_MAJ }} settings'
+  title: "{{ en.VLT_MAJ }} settings"
 ---

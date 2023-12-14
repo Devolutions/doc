@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ de.VLT }} Verwaltung'
+  title: "{{ de.VLT }} Verwaltung"
 ---

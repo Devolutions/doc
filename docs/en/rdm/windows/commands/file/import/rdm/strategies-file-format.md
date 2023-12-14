@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDM }} import strategies and file format'
+  title: "{{ en.RDM }} import strategies and file format"
   description: When importing RDM files into {{ en.RDM }}, there are some specifications to follow regarding the content format. 
 ---
 When importing RDM files into {{ en.RDM }}, there are some specifications to follow regarding the content format. 

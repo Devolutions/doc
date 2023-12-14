@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} reset layout'
+  title: "{{ en.RDMMAC }} reset layout"
 ---
 To resolve effectively most of your display issues, in {{ en.RDMMAC }}, click on ***Window – Reset Layout***.  
 ![!!KB4943](https://webdevolutions.azureedge.net/docs/en/kb/KB4943.png)  

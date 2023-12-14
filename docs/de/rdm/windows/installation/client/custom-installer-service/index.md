@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ de.CIS }}'
+  title: "{{ de.CIS }}"
 ---

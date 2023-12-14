@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMA }}'
+  title: "{{ en.RDMA }}"
   description: The {{ en.RDMA }} is a very powerful tool that allows commands to be run on multiple machines.
 ---
 The ***{{ en.RDMA }}*** is a very powerful tool that allows commands to be run on multiple machines.  

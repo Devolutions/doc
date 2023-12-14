@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.NPANE }} key mapping'
+  title: "{{ en.NPANE }} key mapping"
 ---
 {{ en.RDM }}, being a Windows application, supports key mapping in its ***{{ en.NPANE }}***.  
 

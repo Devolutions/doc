@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ de.DHUBP }}'
+  title: "{{ de.DHUBP }}'
   order: 70
   description: Sie finden hier Themen zu den folgenden {{ de.DHUBP }}-Kategorien:':' How-to, Troubleshooting und Knowledge Base Themen.
 ---

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DLAUNCHER }} and {{ en.DVLS }} synchronization'
+  title: "{{ en.DLAUNCHER }} and {{ en.DVLS }} synchronization'
   order: 20
 ---
 {{ en.DLAUNCHER }} and {{ en.DVLS }} must be configured together to work. Launch connections can be set for all users in ***{{ en.DVLS }} Server Settings*** or individually in ***Account Settings***.  

@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }}'
+  title: "{{ en.WBEX }}'
   order: 60
 ---

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.CI }}'
+  title: "{{ fr.CI }}"
 ---
 Le ***{{ fr.CIM }}*** permettra de générer et de télécharger des paquets d'installation personnalisés pour {{ fr.RDMWIN }}.
 {% snippet icon.shieldWarning %}

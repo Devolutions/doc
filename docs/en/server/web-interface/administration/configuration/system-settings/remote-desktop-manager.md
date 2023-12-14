@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDM }}'
+  title: "{{ en.RDM }}"
 ---
 This section lets you configure various options for {{ en.RDM }}.  
 ![Administration – System Settings – {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2095.png)

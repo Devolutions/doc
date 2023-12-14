@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMOS }}'
+  title: "{{ en.RDMOS }}"
   description: From {{ en.RDMOS }}, you can download your {{ en.CI }}, consult and manage your {{ en.DOD }} and your {{ en.OBACK }} files.
 ---
 {% snippet icon.badgeInfo %}

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.WBEX }} user interface with {{ en.DHUBP }}'
+  title: "{{ en.WBEX }} user interface with {{ en.DHUBP }}"
 ---
 The {{ en.WBEX }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.WBEX }} user interface when used with {{ en.DHUBP }}.  
 

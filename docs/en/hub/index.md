@@ -1,4 +1,4 @@
 ---
 eleventyComputed:
-  title: '{{ en.DHUB }}'
+  title: "{{ en.DHUB }}"
 ---

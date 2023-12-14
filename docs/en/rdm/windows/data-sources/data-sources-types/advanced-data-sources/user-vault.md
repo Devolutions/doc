@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.UVLT_MAJ }}'
+  title: "{{ en.UVLT_MAJ }}"
 ---
 The {{ en.UVLT }} allows you to connect a personal {{ en.VLT }} stored in a {{ en.DOD }} file directly to your ***Advanced Data Source***, thus allowing you to store information that only you can have access to. For more information about the {{ en.UVLT }} please follow this [link](/rdm/windows/data-sources/user-vault/).  
 

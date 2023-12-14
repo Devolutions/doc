@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: '{{ en.DHUBB }}'
-  description: '{{ en.DHUBB }} is for businesses who need to share passwords and credentials within their organization.'  
+  title: "{{ en.DHUBB }}"
+  description: "{{ en.DHUBB }} is for businesses who need to share passwords and credentials within their organization."
 ---
 {% youtube 'wI4Jn3zLC8U' %}  
 

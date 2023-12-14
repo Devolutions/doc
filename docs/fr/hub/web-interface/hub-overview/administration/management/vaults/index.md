@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.VLT_MAJ }}s'
+  title: "{{ fr.VLT_MAJ }}s"
 ---
 Les ***{{ fr.VLT }}s*** sont des répertoires pour vos entrées, vos identifiants, vos informations sensibles, vos sessions et plus encore.  
 

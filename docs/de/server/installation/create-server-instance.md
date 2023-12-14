@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ de.DVLS }}-Instanz erstellen'
+  title: "{{ de.DVLS }}-Instanz erstellen'
   order: 30
 ---
 {% snippet icon.badgeInfo %} 

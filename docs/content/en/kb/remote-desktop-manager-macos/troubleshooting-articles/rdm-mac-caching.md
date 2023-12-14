@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.RDMMAC }} caching'
+  title: "{{ en.RDMMAC }} caching"
 ---
 You are not seeing the content that you are expecting to see in the ***{{ en.NPANE }}***.
 

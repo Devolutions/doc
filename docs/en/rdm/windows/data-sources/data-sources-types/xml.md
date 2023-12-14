@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: XML
-  description: '{{ en.RDM }} saves the settings directly in an XML file format.'  
+  description: "{{ en.RDM }} saves the settings directly in an XML file format."
 ---
 {{ en.RDM }} saves the settings directly in an XML file format. 
 

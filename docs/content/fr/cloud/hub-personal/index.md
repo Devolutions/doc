@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DHUBP }}'
+  title: "{{ fr.DHUBP }}"
 ---
 ***{{ fr.DHUBP }}*** est destiné aux utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un {{ fr.VLT }} sécurisé. Il s'agit d'un outil de gestion des mots de passe infonuagique et facile à utiliser, lié à votre {{ fr.DA }}.
 

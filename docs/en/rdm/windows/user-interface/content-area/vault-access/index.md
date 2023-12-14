@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.VLT_MAJ }} access in {{ en.RDM }}'
+  title: "{{ en.VLT_MAJ }} access in {{ en.RDM }}"
   description: In {{ en.RDM }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.
 ---
 In {{ en.RDM }}, users can request access to a public {{ en.VLT }}. An administrator / {{ en.VLT }} owner then has to approve the request.

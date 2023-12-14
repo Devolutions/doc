@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.DKB }}'
+  title: "{{ fr.DKB }}"
   description: L’équipe de l'expérience utilisateur de Devolutions est fière de présenter cette base de connaissances à notre communauté de plus de 800 000 utilisateurs!
   status: Topic available in German language
   keywords:

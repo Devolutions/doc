@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.VLT_MAJ }}s'
+  title: "{{ en.VLT_MAJ }}s"
 ---
 ***{{ en.VLT_MAJ }}*** are containers for your entries, your credentials, sensitive information, sessions, and more.  
 ![{{ en.VLT_MAJ }}s](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2014.png) 

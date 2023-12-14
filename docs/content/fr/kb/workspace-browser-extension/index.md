@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ fr.WBEX_MAJ }}'
+  title: "{{ fr.WBEX_MAJ }}"
   description: Accédez aux guides d'utilisation, articles de dépannage et base de connaissances du {{ fr.WBEX }}.
   status: Topic available in German language
 ---

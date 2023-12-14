@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.OBACK }}, Online Drive, and {{ en.CI }} sections removed from {{ en.DPORTAL }}'
+  title: "{{ en.OBACK }}, Online Drive, and {{ en.CI }} sections removed from {{ en.DPORTAL }}"
   description: "{{ en.OBACK }}, Online Drive, and {{ en.CI }} sections removed from {{ en.DPORTAL }}. You can still access the URL if needed."
 ---
 

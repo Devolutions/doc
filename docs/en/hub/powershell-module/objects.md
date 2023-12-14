@@ -1,6 +1,6 @@
 ---
 eleventyComputed:	
-  title: '{{ en.PS }} module objects'
+  title: "{{ en.PS }} module objects"
   description: This section is all about objects that are available with the {{ en.PS }} module and what the module will need for its commands. 
   keywords: 
   - PowerShell

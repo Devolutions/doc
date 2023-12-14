@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DOD }}'
+  title: "{{ en.DOD }}"
 ---
 {% snippet icon.badgeInfo %}
 ***{{ en.DOD }}*** will be removed from {{ en.DPORTAL }}. You can still [access the URL](https://docs.devolutions.net/kb/general-knowledge-base/rdm-online-services-removed-devolutions-portal/) if needed

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.OBACK }}'
+  title: "{{ en.OBACK }}"
   description: The {{ en.OBACK }} allows you to backup your {{ en.DOD }}, SQLite, and XML data sources in a safe online cloud storage. 
 ---
 {% snippet icon.badgeInfo %}

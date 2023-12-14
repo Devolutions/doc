@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.DFORCE }}'
+  title: "{{ en.DFORCE }}"
 ---
 The ***{{ en.DFORCE }}*** is a private channel that lets you connect and network with IT professionals worldwide. There is no obligation or cost and it lets you earn rewards, gives you advanced access to promotions, news and events.
 
