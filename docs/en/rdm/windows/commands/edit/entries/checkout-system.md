@@ -35,11 +35,11 @@ To access the check out settings, go into the ***Properties*** of an entry, fold
 
 | OPTION                      | DESCRIPTION                                                            |
 |-----------------------------|------------------------------------------------------------------------|
-| Root          | Inherits the checkout mode setting from the root folder.                                                                                                |
-| Not available | Disables the checkout system.                                                                                                |
-| Automatic     | Checks out an entry automatically when the entry is opened and automatically checks the entry in when the entry is closed. Users can edit properties without checking out the entry. |
-| Manual        | Users need to check out the entry manually prior to opening or editing the entry. No action can be performed without checking out the entry.                                                                        |
-| Inherited     | Inherits the check out mode from the parent folder.                                                                                                |
+| Root          | Inherits the checkout mode setting from the root folder.                             |
+| Not available | Disables the checkout system.                                                        |
+| Automatic     | Checks out an entry automatically when the entry is opened and automatically checks the entry in when the entry is closed. Users can edit properties without checking out the entry.                                                                                |
+| Manual        | Users need to check out the entry manually prior to opening or editing the entry. No action can be performed without checking out the entry.                                                                                                 |
+| Inherited     | Inherits the check out mode from the parent folder.                                  |
 | Optional      | Offers the option to check out an entry manually or use (open and edit) the entry without checking it out.                                                                                                   |
 
 ### Checkout prompt 

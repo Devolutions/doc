@@ -19,7 +19,7 @@ In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en
 
 | OPTION                   | DESCRIPTION                        |
 |--------------------------|------------------------------------|
-| Automatically sign-in at startup | Automatically sign in to your {{ en.DA }} at the startup of the application.                                        |
+| Automatically sign-in at startup | Automatically sign in to your {{ en.DA }} at the startup of the application.                                |
 | Keep me signed-in                | Keep a token in memory to remain signed into your {{ en.DA }}.                                              |
 | Use application password         | Use the [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) to connect to your {{ en.DA }}. |
 
@@ -30,5 +30,5 @@ In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en
 | OPTION                   | DESCRIPTION                        |
 |--------------------------|------------------------------------|
 | Installer File Generator | Create a {{ en.RDM }} Installer File (.rdi). Consult [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). |
-| {{ en.CIM }}           | Consult [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-service/).                            |
+| {{ en.CIM }}           | Consult [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-service/).                                    |
 

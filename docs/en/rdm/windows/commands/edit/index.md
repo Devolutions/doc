@@ -15,7 +15,6 @@ The ***Edit*** tab contains operations to quickly ***Add***, ***Edit***, ***Over
 | Create Shortcut | Link your entry to more than one group. For more information, consult the text below. |
 | Save as Template| Save the selected entry as a local or database template.                |
 
-
 A shortcut is the reiteration of an existing entry. In contrast to a duplicated entry, which has its own ID and properties, a shortcut is a link to an entry and its properties. You can create shortcuts easily by right-clicking the entry, then going to ***Edit – Create Shortcut***, or by using the aforementioned button in the ***Edit*** tab. There are a few scenarios where a user would want to use the same entry differently, such as connecting to two different hosts with a single RDP session.  
 
 For example, it is possible to:  
@@ -73,5 +72,5 @@ A Specific Settings column can be added in the ***{{ en.NPANE }}***. Right-click
 | OPTION     | DESCRIPTION                                                                 |
 |------------|-----------------------------------------------------------------------------|
 | Export Entry as Remote Desktop File (.rdp) | Export the selected entries in a Remote Desktop File (.rdp) format.                                                                                    |
-| Export Selection (.rdm)              | Export the selected entries in a .rdm file that can then be imported into any {{ en.RDM }} data source. You could choose to include the credentials of your entry in your export format and secure your file with a master key. |
+| Export Selection (.rdm)              | Export the selected entries in a .rdm file that can then be imported into any {{ en.RDM }} data source. You could choose to include the credentials of your entry in your export format and secure your file with a master key.    |
 

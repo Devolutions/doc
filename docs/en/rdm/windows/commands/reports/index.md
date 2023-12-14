@@ -16,73 +16,16 @@ Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{
 
 ![Reports](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6205.png)
 
-<table>
-	<tr>
-		<th>
+| OPTION               | DESCRIPTION |
+|----------------------|-------------|
+| Activity Logs        | Opens the [***Activity Logs***](/rdm/windows/commands/reports/activity-logs/), a robust logging solution. With this feature, it is possible to monitor an open session for all users using [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). |
+| Administration Logs  | Opens the ***Administration Logs***. |
+| Data Source Logs     | Opens the ***Data Source Logs***. |
+| Entry Security Analyzer | Opens the [***Entry Security Analyzer***](/rdm/windows/commands/reports/entry-security-analyzer/), which evaluates the strength of entries stored in the data source. |
+| Password Analyzer    | Opens the ***Password Analyzer***, evaluating the strength of passwords stored in the data source. |
+| Security Dashboard   | Opens the [***Security Dashboard***](/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/), a tool to offer guidance on how to improve the security of the {{ en.RDM }} platform and also tips on reducing the workload for administrators. |
+| More Reports         | Opens the ***Reports*** window. |
 
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Activity Logs 
-		</td>
-		<td>
-Opens the [***Activity Logs***](/rdm/windows/commands/reports/activity-logs/), a robust logging solution. With this feature, it is possible to monitor an open session for all users using [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Administration Logs 
-		</td>
-		<td>        
-Opens the ***Administration Logs***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Data Source Logs
-		</td>
-		<td>        
-Opens the ***Data Source Logs***.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Entry Security Analyzer
-		</td>
-		<td>        
-Opens the [***Entry Security Analyzer***](/rdm/windows/commands/reports/entry-security-analyzer/), which valuates the strength of entries stored in the data source.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password Analyzer
-		</td>
-		<td>        
-Opens the ***Password Analyzer***,  evaluating the strength of passwords stored in the data source.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Security Dashboard
-		</td>
-		<td>        
-Opens the [***Security Dashboard***](/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/), a tool to offer guidance on how to improve the security of the {{ en.RDM }} platform and also tips on reducing the workload for administrators.
-		</td>
-	</tr>
-	<tr>
-		<td>
-More Reports
-		</td>
-		<td>        
-Opens the ***Reports*** window.
-		</td>   
-	</tr>
-</table>
  
 ![Reports window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6197.png) 
 

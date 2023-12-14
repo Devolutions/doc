@@ -6,7 +6,7 @@ eleventyComputed:
 Files are attached to an entry and are stored directly in the database.  
 
 To enable the attachment pane, navigate to ***Window – Layout*** in the ribbon, then select ***Attachments***.  
-![Attachments Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3565.png) 
+![Attachments Button](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6212.png) 
 
 {% snippet icon.badgeInfo %} 
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 

@@ -22,10 +22,10 @@ Use ***File – Options – Security*** to configure security settings related t
 |--------------------------------|-------------------------------------------------------------------------------------------------|
 | Authentication mode            | Select ***Default – Prompt for selection on use*** to be asked which MFA to configure on use, or select ***Check against all configured methods*** to be prompted with the configured methods only. Note that the MFA is set locally. To enforce this setting, enable ***Force multi-factor authentication on the application login*** and ***Disable the menu File – Options*** [policies](/kb/remote-desktop-manager/how-to-articles/group-policies/) to prevent a user to deactivate these settings. The MFA can also be enabled at the data source level in ***Administration – System Settings – Application Specific – Applications*** instead of using the policies to block the ***Options***. |
 | Require Yubikey authentication | Check this option to authenticate in your {{ en.RDM }} application using Yubikey authentication. Enter your Yubikey in the field below this option.                                                                                                                            |
-| Require a TOTP validation ({{ en.WS }} or Google Authenticator) | Check this option to validate your authentication to your {{ en.RDM }} application with a Time-based one-time password (TOTP) sent through {{ en.WS }} or Google Authenticator. Set it up using the ***Configure*** button below this option. |
-| Override account name | Enter a new name for your TOTP account that will override the current one. |
-| Require Duo authentication                         | Check this option to authenticate in your {{ en.RDM }} application using Duo authentication. Set it up using the ***Configure*** button below this option. |
-| Duo automatic action | Select the action that Duo must use to validate the authentication. |
+| Require a TOTP validation ({{ en.WS }} or Google Authenticator) | Check this option to validate your authentication to your {{ en.RDM }} application with a Time-based one-time password (TOTP) sent through {{ en.WS }} or Google Authenticator. Set it up using the ***Configure*** button below this option.    |
+| Override account name | Enter a new name for your TOTP account that will override the current one.                               |
+| Require Duo authentication                         | Check this option to authenticate in your {{ en.RDM }} application using Duo authentication. Set it up using the ***Configure*** button below this option.             |
+| Duo automatic action | Select the action that Duo must use to validate the authentication.         |
 
 ### Lock
 | OPTION                      | DESCRIPTION                                                                                     |
@@ -46,8 +46,8 @@ Use ***File – Options – Security*** to configure security settings related t
 
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
-| Ignore application certificate errors | Check this option to disable the application certificate validation. This is not recommended, as it would compromise confidentiality and integrity of communications between the client and the server and could expose the application to potential threats. |
-| Enforce certificate revocation check | Check this option to enable the validation that the certificate has not been revoked. This is necessary if any of the URLs for certificate validation are unavailable for any reason.                                      |
+| Ignore application certificate errors | Check this option to disable the application certificate validation. This is not recommended, as it would compromise confidentiality and integrity of communications between the client and the server and could expose the application to potential threats.        |
+| Enforce certificate revocation check | Check this option to enable the validation that the certificate has not been revoked. This is necessary if any of the URLs for certificate validation are unavailable for any reason.                                                                          |
 
 ### Other
 

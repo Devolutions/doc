@@ -80,7 +80,7 @@ A user must be granted Read/Write at all levels to allow read/write privileges.
 |----------------------------------|---------------------------------|--------------------------------|-------------------|
 | Disabled or Read-only or Read/write | Disabled or Read-only or Read/write | Allow offline disabled  | Disabled          |
 | Disabled or Read-only or Read/write | Disabled or Read-only or Read/write | Allow offline enabled   | Disabled          |
-| Disabled or Read-only or Read/write | Disabled                     | Allow offline enabled       | Disabled          |
+| Disabled or Read-only or Read/write | Disabled                     | Allow offline enabled       | Disabled             |
 | Disabled                         | Disabled or Read-only or Read/write | Allow offline enabled      | Disabled          |
 | Read-only or Read/write          | Read-only or Read/write          | Allow offline disabled        | Disabled          |
 | Read-only or Read/write          | Read-only or Read/write          | Allow offline enabled         | Read-only         |

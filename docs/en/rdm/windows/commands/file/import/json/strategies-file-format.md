@@ -32,9 +32,9 @@ Below is a non-exhaustive list of some relevant fields.
 | OPTION                      | DESCRIPTION                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
 | Host                           | Host name of the device.                                                                                                                         |
-| Name                           | Name of the entry.                                                                                                                             |
+| Name                           | Name of the entry.                                                                           |
 | ConnectionType                 | Token representing the connection type. It is best to use the ***Clipboard – Copy*** method to obtain the acceptable values. If no connection type is specified, RDP will be used by default. |
-| Group                          | Destination folder. Note that if the import process itself defined a destination folder, the folder listed here would be created below the one from the process. |
+| Group                          | Destination folder. Note that if the import process itself defined a destination folder, the folder listed here would be created below the one from the process.                |
 | Description                    | Description of the entry.                                                                                                                         |
 | Open (Embedded)                | Boolean value (true or false) that indicates to open the session embedded. The default value is false, meaning that the native client will be used depending on the technology (MSTSC.EXE, for instance).                      |
 | Username                       | Username used to open a session to the device.                                                                                                                        |

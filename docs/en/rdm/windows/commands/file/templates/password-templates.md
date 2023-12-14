@@ -25,7 +25,7 @@ Password templates are available in the password generator. Password templates c
 | Advanced settings    | Granular character settings (e.g. special characters and symbols, inclusions, exclusions). |
 | Readable password    | Settings for syllables, numbers and symbols.                           |
 | Use a pattern        | Set a pattern for the passwords using the [key](Tools_PasswordGenerator). |
-| Pronounceable password | Settings for length, case, digits, and characters.                     |
+| Pronounceable password | Settings for length, case, digits, and characters.                   |
 
 
 6. Choose specific settings.  

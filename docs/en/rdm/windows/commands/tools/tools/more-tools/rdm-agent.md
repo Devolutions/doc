@@ -84,7 +84,7 @@ Search for a script or a tool you wish to execute through the {{ en.RDMA }}.
 
 | OPTION               | DESCRIPTION                                                                                       |
 |----------------------|---------------------------------------------------------------------------------------------------|
-| Open all connections | When multiple sessions are selected to ***Execute Script Via Agent***, it will open all the selected connections.           |
+| Open all connections | When multiple sessions are selected to ***Execute Script Via Agent***, it will open all the selected connections. |
 | Delay                | Enter the time delay between opening each selected session.                                       |
 
 ### Agent Status 

@@ -22,6 +22,6 @@ The actions for a Telnet session allow you to send remote commands to your host.
 
 | OPTION                | DESCRIPTION                                                    | 
 | ----------------------| ---------------------------------------------------------------|
-| Ansi Recording        | Records all activity in the SSH session using the Ansi format. This can be replayed like a video using Tools > Terminal playback (Ansi).                                                                                   |
+| Ansi Recording        | Records all activity in the SSH session using the Ansi format. This can be replayed like a video using Tools > Terminal playback (Ansi).                                                                                  |
 | Log file (plain text) | Records all activity in the SSH session using plain text format.|
 

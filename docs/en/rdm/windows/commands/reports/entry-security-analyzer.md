@@ -54,7 +54,7 @@ These are the rules which make the passwords weaker:
 | Show all entries                 | Shows you all the entries in your session, including those without password.                                                            |
 | Show VPN analysis                | Add the VPN Host column.                                                                                                                |
 | Show compromised password (pwned)| Show if the password has been pwned. A [pwned password](/kb/remote-desktop-manager/how-to-articles/pwned-password-check/) is a password that has been exposed in data breaches (i.e., they are owned/pwned by hackers). |
-| Edit                             | Open the current entry to edit it.                                                                                                                    | 
-| Forbidden Passwords              | Create a list of prohibited passwords.                                                                                                             |
-| Export Settings                  | Export the password analyzer settings.                                                                                                              |
+| Edit                             | Open the current entry to edit it.                                                                                                      | 
+| Forbidden Passwords              | Create a list of prohibited passwords.                                                                                                                                                                   |
+| Export Settings                  | Export the password analyzer settings.                                                                                                                                                                    |
 
