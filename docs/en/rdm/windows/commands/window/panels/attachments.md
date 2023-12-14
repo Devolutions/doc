@@ -30,77 +30,14 @@ The refresh button allows you to update directly the selected document. Use it t
 Use the toolbar above the attachments list to manage the selected attachment.  
 ![Attachments Toolbar](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3566.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Add Attachment 
-		</td>
-		<td>
-Select a local file to add. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Edit Attachment 
-		</td>
-		<td>
-Edit the selected attachment. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Update Document 
-		</td>
-		<td>
-Update the selected attachment. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-View Attachment 
-		</td>
-		<td>
-Open the selected attachment. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Save Attachment As 
-		</td>
-		<td>
-Save the attachment on a local drive. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Delete Attachment 
-		</td>
-		<td>
-Delete the selected attachment. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Details 
-		</td>
-		<td>
-Display details about the selected attachment, above the attachment list. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Refresh 
-		</td>
-		<td>
-Refresh the attachments list. 
-		</td>
-	</tr>
-</table>
+| OPTION            | DESCRIPTION |
+|-------------------|-------------|
+| Add Attachment    | Select a local file to add. |
+| Edit Attachment   | Edit the selected attachment. |
+| Update Document   | Update the selected attachment. |
+| View Attachment   | Open the selected attachment. |
+| Save Attachment As| Save the attachment on a local drive. |
+| Delete Attachment | Delete the selected attachment. |
+| Details           | Display details about the selected attachment, above the attachment list. |
+| Refresh           | Refresh the attachments list. |
+

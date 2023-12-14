@@ -3,16 +3,8 @@ eleventyComputed:
   title: Microsoft SQL Server
   description: With the Microsoft SQL Server data source, {{ en.RDM }} uses the power of Microsoft SQL Server to save and manage entries.
 ---
-<table>
-	<tr>
-		<td>
-
-![!!DataSourceSQLServerLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
-		</td>
-		<td>
 With the Microsoft SQL Server data source, {{ en.RDM }} uses the power of Microsoft SQL Server to save and manage entries. 
-	</tr>
-</table>
+	
 
 Supported Microsoft SQL Server:  
 
