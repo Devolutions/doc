@@ -24,9 +24,9 @@ Delete duplicate folders before running the PowerShell script from the new entry
 ![PowerShell session entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6014.png)  
 1. Name the entry and choose the folder in which you want to create it.  
 1. Set the entry to ***Embedded Script***.  
- ![Embedded Script](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6020.png)    
+ ![Embedded Script](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6020.png)  
 1.  Click on ***Edit embedded script***.  
- ![Edit embedded script](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6019.png)   
+ ![Edit embedded script](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6019.png)  
 1. Add the following script:  
 
 ```powershell

@@ -97,7 +97,6 @@ Prendre note que les paramètres de sécurité intégrée ou des identifiants af
 <table>
 	<tr>
 		<th>
-        
 Option 
 		</th>
 		<th>

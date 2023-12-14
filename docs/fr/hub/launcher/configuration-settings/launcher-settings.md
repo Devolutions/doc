@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ fr.DLAUNCHER }} paramètres'
+  title: "{{ fr.DLAUNCHER }} paramètres"
   order: 20
 ---
 ### Général 

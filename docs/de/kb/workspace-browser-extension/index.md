@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ de.WBEX }}'
+  title: "{{ de.WBEX }}"
   order: 90
   description: Sie finden hier Themen zu den folgenden {{ de.WBEX }}-Kategorien:':' How-to, Troubleshooting und Knowledge Base Themen.
 ---

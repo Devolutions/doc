@@ -32,7 +32,7 @@ Accorder l'accès
 		<td>
 Permet l'accès à la fonctionnalité <b><i>Accorder l'accès en lot</i></b> après avoir sélectionné <b><i>Personnalisé</i></b> dans la liste déroulante <b><i>Autorisation</i></b>. Cela vous permet de définir des permissions ou des ensembles de permissions à plusieurs utilisateurs, groupes d'utilisateurs et/ou utilisateurs d'application en même temps.
 		</td>
-	</tr>    
+	</tr>
 </table>
 
 ## Paramètres de mon compte

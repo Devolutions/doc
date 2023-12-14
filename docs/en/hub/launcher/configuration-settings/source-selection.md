@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ en.DHUB }} source selection'
+  title: "{{ en.DHUB }} source selection"
   order: 10
 ---
 When you finish the installation of {{ en.DLAUNCHER }}, you are prompted to choose a web source between {{ en.DHUB }} and {{ en.DVLS }}.  

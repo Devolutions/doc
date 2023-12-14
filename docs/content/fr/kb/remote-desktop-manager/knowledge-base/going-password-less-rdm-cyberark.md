@@ -22,7 +22,7 @@ First, you must issue PKs for each of your users and deploy them to their workst
 1. PK information stored an entry which exists in the {{ en.UVLT }}. This is surely the most simple as you have a one-to-one relationship between users/keys/accounts, but it has to be done by the users themselves.
 1. PK information stored in ***My accounts settings***: This method allows the administrators to create the AAM entries within {{ en.RDM }}, while each user sets their own PK details in their own personal settings. Since the account lookup uses keywords specified in the AAM entry, it means that you have a few options still:
     1. Handled in CyberArk: for each user there need to exist a single Privileged Account, accessible from the same keywords. The burden is on the administrator to isolate those in various safes and to ensure that everyone’s account has the same keywords.
-    1. Handled in {{ en.RDM }}: administrators need to create a unique AAM entry per user with the keywords to find their Privileged Account.  Our User Groups Base Access Control must be used to ensure that users can view and use only appropriate entries.     
+    1. Handled in {{ en.RDM }}: administrators need to create a unique AAM entry per user with the keywords to find their Privileged Account.  Our User Groups Base Access Control must be used to ensure that users can view and use only appropriate entries.  
 
 As always with {{ en.RDM }}, you can mix and match approaches depending on your own requirements.
 
@@ -54,5 +54,5 @@ For the full details, here is the official documentation for each of our integra
 * {{ en.RDM }} Help  
     * [My Account Settings](https://api.devolutions.net/redirection/e218081a-798e-4b5e-ae59-bee22c4ad31a)  
     * [User Specific Settings](https://api.devolutions.net/redirection/bf0b5e7d-fb57-4b02-9edd-ce9865bd024a)  
-    
+
 As always, please contact our support team at [service@devolutions.net](mailto:service@devolutions.net) if you’d like a walk-through or if you need to clarification on certain aspects.

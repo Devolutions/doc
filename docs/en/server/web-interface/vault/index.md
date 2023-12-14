@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ en.VLT_MAJ }}'
+  title: "{{ en.VLT_MAJ }}"
   order: 60
 ---
 The ***{{ en.VLT }}s*** allow the users to [Create Entries](/server/web-interface/vault/entries/create-entries-manually/) and manage the content of the data source. {{ en.VLT_MAJ }} s are containers that divide the data source into multiple compartments.  

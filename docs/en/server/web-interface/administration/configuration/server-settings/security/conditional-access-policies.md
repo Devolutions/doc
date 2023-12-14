@@ -41,7 +41,7 @@ eleventyComputed:
   * ***Users Groups***
   * ***Administrator***
 
-![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6006.png)    
+![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6006.png)
 
 5. Click ***Add*** to close the window.
   
@@ -115,7 +115,7 @@ The currently supported multi-factor authenticators are Authenticator (TOTP), Yu
   * ***Users Groups***
   * ***Administrator***
 
-![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6006.png)    
+![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6006.png)
 
 12. Click ***Add*** to close the window.
   

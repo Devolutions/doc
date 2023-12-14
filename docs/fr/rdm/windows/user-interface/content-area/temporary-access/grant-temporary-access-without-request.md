@@ -12,14 +12,14 @@ La fonction d'***Accès temporaire*** permet aux utilisateurs de demander une é
 
 ## Accorder un accès temporaire
 
-1. Dans le ***Tableau de bord*** de {{ fr.RDM }}, sélectionnez l'entrée à laquelle vous souhaitez accorder l'accès.    
+1. Dans le ***Tableau de bord*** de {{ fr.RDM }}, sélectionnez l'entrée à laquelle vous souhaitez accorder l'accès.  
 1. Cliquer sur ***Accorder un accès temporaire*** dans le ruban.  
 ![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6007.png)  
 1. Choisir ***Utilisateur*** et ***Durée*** dans la fenêtre ***Accorder un accès temporaire***.  
 ![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6005.png)  
 Vous pouvez consulter les ***Dépendances de l'entrée***, comme les identifiants et les VPN liés, dans le menu à gauche.  
  1. Cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'accorder l'accès pour une durée déterminée et écrivez un court ***Message*** à l'utilisateur  expliquant pourquoi vous accordez l'accès.  
- 1. Cliquer sur ***OK*** pour fermer la fenêtre.    
+ 1. Cliquer sur ***OK*** pour fermer la fenêtre.  
 ![L'accès temporaire a été accordé](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6006.png)  
 L'***accès temporaire*** a été accordé.  
 
@@ -39,6 +39,6 @@ Un approbateur peut configurer une entrée d'identifiants avec un accès tempora
 ![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6005.png)  
 Vous pouvez consulter les ***Dépendances de l'entrée***, comme les identifiants et les VPN liés, dans le menu à gauche.  
  1. Cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'accorder l'accès pour une durée déterminée et écrivez un court ***Message*** à l'utilisateur  expliquant pourquoi vous accordez l'accès.  
- 1. Cliquer sur ***OK*** pour fermer la fenêtre.    
+ 1. Cliquer sur ***OK*** pour fermer la fenêtre.  
 ![L'accès temporaire a été accordé](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6006.png)  
 L'***accès temporaire*** a été accordé.  

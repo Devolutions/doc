@@ -14,7 +14,7 @@ The {{ en.DHUBS }} installer facilitates the installation and integration of our
 1. Select ***Add Application User (+)***.  
 ![Add Application User (+)](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6040.png)  
 
-1. Enter a name and click ***Add***.    
+1. Enter a name and click ***Add***.  
 1. Save the given ***Application Secret*** and ***Application key*** to your clipboard or as a PDF file. It will be needed during {{ en.DHUBS }}' installation.   
 ![Save the given Application Secret and Application key](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6043.png)  
 

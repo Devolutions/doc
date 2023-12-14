@@ -56,5 +56,5 @@ The entry is saved.
 ![Search text and Test Configuration](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6144_2023_3.png)
 1. Select the ***PIN*** of the ***Smart Card*** if needed.
 1. Click ***Add***.
-![Smart Card](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6140_2023_3.png)    
+![Smart Card](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6140_2023_3.png)  
 The entry is saved.

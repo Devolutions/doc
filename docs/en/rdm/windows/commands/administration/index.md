@@ -35,5 +35,5 @@ Most features contained in the ***Administration*** tab are only available when 
 |-----------------------------|----------------------------------------------------------------------- |
 | Clean Up Deleted History    | Perform a partial or full clean up of the [Deleted History](/rdm/windows/commands/administration/clean-up/deleted-history/).|
 | Clean Up Entry History      | Perform a partial or full clean up of the [Entry History](/rdm/windows/commands/administration/clean-up/entries-history/). |
-| Clean Up Activity Logs      | Perform a partial or full clean up of the [Activity Logs](/rdm/windows/commands/administration/clean-up/logs/). You also have the option to clean up the ***Administration Logs*** if desired. |                                           
+| Clean Up Activity Logs      | Perform a partial or full clean up of the [Activity Logs](/rdm/windows/commands/administration/clean-up/logs/). You also have the option to clean up the ***Administration Logs*** if desired. |
 | Pack Data Source (Optimize) | The [Pack Data Source (Optimize)](/rdm/windows/commands/administration/clean-up/pack-data-source-optimize/) feature analyzes all entries, compress and save them, thus saving space in your data source. |

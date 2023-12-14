@@ -37,7 +37,7 @@ For this to work, you will need to have your ***Key Derivation function*** set t
     * AES-KDF
 * Encryption AES/Rijndael
     * Argon2d  
-    
+
 {% snippet icon.badgeInfo %}
 If you are using a ***Keyfile*** it needs to be in v1.
 {% endsnippet %}

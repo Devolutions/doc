@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ en.RDMMOBILE }}'
+  title: "{{ en.RDMMOBILE }}"
   order: 30
   description: You can consult topics for the following categories about {{ en.RDMMOBILE }}':' How-to articles, Troubleshooting articles and Knowledge Base
   status: Topic available in German language

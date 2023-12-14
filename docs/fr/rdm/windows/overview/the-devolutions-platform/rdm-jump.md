@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ fr.RDMJ }}'
+  title: "{{ fr.RDMJ }}"
   keywords:
   - Bastion server
   - Jump box

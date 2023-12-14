@@ -214,7 +214,7 @@ Nombre de sauvegarde qui sera conservée dans le dossier de sauvegarde.
 Copier seulement le backup de la base de données 
 		</td>
 		<td>
-        
+
 Une sauvegarde de serveur SQL qui est indépendante de la séquence des sauvegardes classiques. Pour plus d'informations, consultez [https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/copy-only-backups-sql-server](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/copy-only-backups-sql-server). 
 		</td>
 	</tr>

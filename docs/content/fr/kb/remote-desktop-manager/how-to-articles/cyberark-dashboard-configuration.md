@@ -170,7 +170,7 @@ In both cases, you will then see a dialog box that allows you to specify the hos
 1. The grid will display entries that represent a host system. Therefore, connect to the one that represents the endpoint you need to connect to.
 
 ### Using the {{ en.RDM }} ***{{ en.NPANE }}*** to establish connections
-    
+
 After selecting the account in the CyberArk Dashboard, you can also use the ***{{ en.NPANE }}*** to select a host by right-clicking an entry and navigating to the ***Connect using*** menu.
 
 ![Connect using](https://webdevolutions.azureedge.net/docs/en/kb/KB2205.png)

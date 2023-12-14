@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ en.DGW }} configuration with {{ en.DHUBB }}'
+  title: "{{ en.DGW }} configuration with {{ en.DHUBB }}"
   order: 30
   description: "{{ en.DGW }} provides a flexible and secure alternative to VPNs, allowing for easy access management and efficient use of network resources."
 ---

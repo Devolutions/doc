@@ -18,7 +18,7 @@ You can perform this only if you have more than 2 GB of RAM.
 1. In the ***System startup*** area, click ***Edit***.  
 
     This will open the Windows boot.ini file in Notepad.  
-    
+
 1. In the ***Operating Systems*** section, add the following switches to the end of the startup line that includes the /fastdetect switch: /3GB.
 1. Save the changes and close Notepad.
 1. Click ***OK*** two times to close the open dialog boxes.

@@ -36,7 +36,7 @@ In this topic we will assume that your instance of {{ en.DVLS }} is configured i
     d. You could leave the ***Sign-out redirect URIs*** and the ***Trusted Origins*** sections empty. The {{ en.DVLS }} does not log your user out of the application scope and the Okta login form is not hosted on {{ en.DVLS }} therefore they are not necessary.  
 
     e. In the ***Assignments*** section, we recommend that you select ***Allow everyone in your organization to access*** and then check ***Enable immediate access with Federation Broker Mode*** This will save you from having to assign each user to the application manually.  
-    
+
     f. Click ***Save***.  
 ![!!KB4128](https://webdevolutions.azureedge.net/docs/en/kb/KB4128.png)
 

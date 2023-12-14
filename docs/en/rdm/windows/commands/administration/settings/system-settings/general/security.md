@@ -15,5 +15,4 @@ eleventyComputed:
 |------------------|-----------------------------------------------------------------------             |
 | Time of day      | Select the hours which the data source is limited to. Select between: <ul><li>***Any time***: the session can be used at any hour.</li> <li> ***Custom***: manually select the time frame the session is available for.</li></ul> |
 | Time of week     | Select which days the data source is available for. Select between: <ul><li>***Any day***: the session can be used any day of the week or weekend. </li>***Weekdays***: the session can be used only on weekdays.</li> <li>***Weekends***: the session can be used only on weekends.</li> <li>***Custom***: manually select each day the session is available for.</li></ul> |
-| Time Zone        | Select the time zone you are currently in.                                                                                                                                             
-
+| Time Zone        | Select the time zone you are currently in. |

@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: "{{ en.DHUBI }}"
-  descripion: '{{ en.DHUBI }} is the essential tool designed to import your data in {{ en.DHUBB }}."
+  descripion: "{{ en.DHUBI }} is the essential tool designed to import your data in {{ en.DHUBB }}."
 ---
 {% youtube 'zoNA11ql9Gk' %}  
 

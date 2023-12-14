@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ de.DKB }}'
+  title: "{{ de.DKB }}"
   order: 0
   description: Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Community von über 800.000 Benutzern zu veröffentlichen!
   keywords:

@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: "{{ en.DGW }}'
+  title: "{{ en.DGW }}"
   order: 50
 ---

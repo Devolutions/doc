@@ -5,7 +5,7 @@ eleventyComputed:
   description: Enregistrer votre licence {{ fr.DVLS }} via l'interface Web de {{ fr.DVLS }}.
 ---
 
-Dans l'interface Web {{ fr.DVLS }}, allez dans ***Administration*** - ***Licences***.    
+Dans l'interface Web {{ fr.DVLS }}, allez dans ***Administration*** - ***Licences***.  
 ![Administration – Licences](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6069_2023_3.png)  
 Sélectionner ***Add***. 
 ![Administration – Licences – Ajouter](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6070_2023_3.png)  

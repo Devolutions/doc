@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ en.DLAUNCHER }} session menu'
+  title: "{{ en.DLAUNCHER }} session menu"
   order: 30
 ---
 To access the {{ en.DLAUNCHER }} session menu, right click on an open session tab.  

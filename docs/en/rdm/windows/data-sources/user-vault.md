@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ en.UVLT_MAJ }}'
+  title: "{{ en.UVLT_MAJ }}"
   status: Topic available in German language
 ---
 The ***{{ en.UVLT }}*** is a user centric {{ en.VLT }} for entries of any type. It allows each user to create entries that only them can access.  

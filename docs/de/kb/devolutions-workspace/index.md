@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ de.WAPPS }}'
+  title: "{{ de.WAPPS }}"
   order: 100
   description: Sie finden hier Themen zu den folgenden {{ de.WAPPS }}-Kategorien:':' How-to, Troubleshooting und Knowledge Base Themen.
 ---

@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "{{ en.DLAUNCHER }} license registration'
+  title: "{{ en.DLAUNCHER }} license registration"
   order: 30
 ---
 Register and assign your {{ en.DLAUNCHER }} license serial. 

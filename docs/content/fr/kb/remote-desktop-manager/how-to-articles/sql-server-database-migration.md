@@ -56,7 +56,7 @@ We strongly suggest you clean up your database prior to the move.
 1. When all the issues are fixed or deselected, click ***Generate SQL script***.  
 ![!!KB4731](https://webdevolutions.azureedge.net/docs/en/kb/KB4731.png)  
 1. Once the script has been generated, validate if there are any issues, then click ***Deploy schema***.  
-![!!KB4732](https://webdevolutions.azureedge.net/docs/en/kb/KB4732.png)    
+![!!KB4732](https://webdevolutions.azureedge.net/docs/en/kb/KB4732.png)  
    {% snippet icon.badgeInfo %}
    This may take some time to execute depending on how many connection history you have in your database.
    {% endsnippet %}  
