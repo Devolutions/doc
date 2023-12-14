@@ -1,11 +1,12 @@
 ---
 eleventyComputed:
-  title: Authentifizierungstool für die Migration
+  title: Authentifizierungsmigration
+  description: Nachfolgend erklärt, wie Sie die Benutzerkonten und Gruppen von einem Authentifizierungsanbieter zu einem anderen migrieren können.
 ---
-Diese Anleitung erklärt, wie Sie die Benutzerkonten und Benutzergruppen von einem Authentifizierungsanbieter zu einem anderen migrieren können. Weiterhin wird beschrieben, wie Sie die Active Directory oder die Azure Active Directory-Domain in eine andere migrieren können. Sie können das Tool an drei Stellen auf der Webschnittstelle Ihres {{ de.DVLS }} finden:
-* ***Verwaltung*** – ***Servereinstellungen*** – ***Authentifizierung***
-* ***Verwaltung*** – ***Benutzer***
-* ***Verwaltung*** – ***Benutzergruppen***
+Nachfolgend erklärt, wie Sie die Benutzerkonten und Gruppen von einem Authentifizierungsanbieter zu einem anderen migrieren können. Weiterhin wird beschrieben, wie Sie die Active Directory oder die Azure Active Directory-Domäne in eine andere migrieren können. Sie finden die Option zur Authentifizierungsmigration an 3 verschiedenen Stellen in Ihrer {{ de.DVLS }} Weboberfläche:
+* ***Administration*** – ***Server Einstellungen*** – ***Authentifizierung***
+* ***Administration*** – ***Benutzer***
+* ***Administration*** – ***Gruppen***
 
 ## Migration
 1. Wie unter ***Einleitung*** gezeigt, sind vor der Durchführung dieses Prozesses wichtige Schritte erforderlich.
@@ -17,10 +18,10 @@ Diese Anleitung erklärt, wie Sie die Benutzerkonten und Benutzergruppen von ein
 1. Unter ***Benutzerzuordnung*** sollte der Assistent automatisch die Konten abgleichen, die er auf beiden Seiten findet. Alle anderen Konten müssen manuell ausgewählt werden.
 ![!!KB8126](https://webdevolutions.azureedge.net/docs/de/kb/KB8126.png)
 
-1. Das Gleiche gilt für die ***Zuordnung von Benutzergruppen***. Einige Gruppen werden vom Assistenten automatisch zugeordnet, andere müssen manuell zugeordnet werden.
+1. Das Gleiche gilt für die ***Gruppenzuordnung***. Einige Gruppen werden vom Assistenten automatisch zugeordnet, andere müssen manuell zugeordnet werden.
 ![!!KB8127](https://webdevolutions.azureedge.net/docs/de/kb/KB8127.png)
 
-1. Unter ***Bestätigung*** wird eine Zusammenfassung der ausgewählten Benutzer und Benutzergruppen angezeigt, sowie derjenigen, die nicht für den Migrationsprozess ausgewählt wurden.
+1. Unter ***Bestätigung*** wird eine Zusammenfassung der ausgewählten Benutzer und Gruppen angezeigt, sowie derjenigen, die nicht für den Migrationsprozess ausgewählt wurden.
 ![!!KB8128](https://webdevolutions.azureedge.net/docs/de/kb/KB8128.png)
 
 1. Klicken Sie auf ***Migration starten***, um den Prozess zu starten und den Bestätigungsbericht für die Migration zu erhalten.
