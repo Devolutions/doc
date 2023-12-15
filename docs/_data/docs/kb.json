@@ -1289,13 +1289,7 @@
                       "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/android-import-data-source-configuration/"
                     },
                     {
-                      "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/android-import-dod/"
-                    },
-                    {
                       "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/android-install-register/"
-                    },
-                    {
-                      "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/android-set-offline-mode/"
                     },
                     {
                       "url": "/kb/remote-desktop-manager-mobile/android/how-to-articles/deprecated-data-mobile/"
@@ -1318,9 +1312,6 @@
                     },
                     {
                       "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-import-data-source-configuration/"
-                    },
-                    {
-                      "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-offline-mode/"
                     },
                     {
                       "url": "/kb/remote-desktop-manager-mobile/ios/how-to-articles/ios-send-rdp-logs-support/"
