@@ -26,6 +26,6 @@ To enable the security layer in {{ en.RDM }}, follow these steps:
 ![Application Key](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2023.png) 
 1. In your browser, click the {{ en.WBEX }} icon and go to ***Settings – Data sources – {{ en.RDM }}***. 
 1. In the ***General*** tab, uncheck ***Use default port***, then enter the custom ***Port*** created earlier in {{ en.RDM }}.  
-![General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl40434png.png) 
+![General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl2000.png) 
 1. In the ***Advanced*** tab, enter the same ***Application key*** as in {{ en.RDM }}, then click ***Save***. 
 ![Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Dwl4033.png) 
