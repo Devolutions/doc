@@ -5,62 +5,19 @@ eleventyComputed:
 Override Credentials allows you to specify other credentials than the one stored in an entry. You can choose from multiple sources according to your security practices and policies.  
 
 {% snippet icon.badgeInfo %}
-The Override credentials is available for all type of entries. 
+The Override credentials is available for all type of entries.
 {% endsnippet %}
- 
-### General 
+
+### General
 Simply check the Override credentials and select your credential to start overriding your credentials. To stop overriding credentials uncheck the Override credentials option.  
-![User Specific Settings - Override credentials](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10338.png) 
+![User Specific Settings - Override credentials](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10338.png)
 
-The following choices are offered depending on the type of entry being overridden, as well as the location of that entry. 
+The following choices are offered depending on the type of entry being overridden, as well as the location of that entry.
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Custom 
-		</td>
-		<td>
-Use a specific User name, Domain and Password. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Existing credential entry 
-		</td>
-		<td>
-Use an existing credential entry. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Embedded credential entry 
-		</td>
-		<td>
-Use an Embedded credential entry. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-My personal credentials 
-		</td>
-		<td>
-Use the credentials stored in My Personal Credentials 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{{ en.UVLT_MAJ }} credential entry 
-		</td>
-		<td>
-Use a [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) credential entry. 
-		</td>
-	</tr>
-</table>
+| OPTION                             | DESCRIPTION                                                                                  |
+|------------------------------------|----------------------------------------------------------------------------------------------|
+| Custom                             | Use a specific User name, Domain and Password.                                               |
+| Existing credential entry          | Use an existing credential entry.                                                            |
+| Embedded credential entry          | Use an Embedded credential entry.                                                            |
+| My personal credentials            | Use the credentials stored in My Personal Credentials                                        |
+| {{ en.UVLT_MAJ }} credential entry | Use a [{{ en.UVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) credential entry. |
