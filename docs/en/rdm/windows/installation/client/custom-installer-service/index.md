@@ -28,6 +28,6 @@ The {{ en.CIS }} can be found in with the {{ en.DA }} tools, located in ***File 
 
 The following topics will help you get started to set up your customized installers with {{ en.RDM }}.
 
-* [Create an Installation Package](/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/)
-* [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/)
-* [Option Selection Dialog](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/option-selection/)
+* [Create an installation Package](/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/)
+* [Installer file generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/)
+* [Option selection dialog](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/option-selection/)
