@@ -95,14 +95,6 @@
           "url": "/cloud/rdm-online-services/",
           "items": [
             {
-              "url": "/cloud/rdm-online-services/custom-installer/",
-              "items": [
-                {
-                  "url": "/cloud/rdm-online-services/custom-installer/download-custom-installer/"
-                }
-              ]
-            },
-            {
               "url": "/cloud/rdm-online-services/online-drive/"
             },
             {
