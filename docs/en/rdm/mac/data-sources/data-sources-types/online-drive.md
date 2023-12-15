@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: '{{ en.DOD }}'
+  description: The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our cloud services.
 ---
 The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our cloud services. You can access your sessions from anywhere via an Internet connection.  
 
@@ -22,126 +23,27 @@ Even though this is a cloud service, you MUST use our {{ en.OBACK }} service to 
 
 ![{{ en.DOD }} – General tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10499.png) 
 
-<table>
-	<tr>
-		<th>
-
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Enter the name of the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Create an account for free 
-		</td>
-		<td>
-Create a new {{ en.DA }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Username 
-		</td>
-		<td>
-Enter your {{ en.DA }} username. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Connection mode 
-		</td>
-		<td>
-Choose the Default or [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) method. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Application password 
-		</td>
-		<td>
-Enter your [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Always ask for password (default only) 
-		</td>
-		<td>
-Prompts for the password every time a connection to the {{ en.DOD }} is attempted. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Filename 
-		</td>
-		<td>
-Indicate the filename used to store the data on the {{ en.DOD }}. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Master key 
-		</td>
-		<td>
-Contains a master key to access the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Always ask master key 
-		</td>
-		<td>
-Ask for the master key every time a connection to the {{ en.DOD }} is attempted. 
-		</td>
-	</tr>
-</table>
+| OPTION                              | DESCRIPTION |
+|-------------------------------------|-------------|
+| Name                                | Enter the name of the data source. |
+| Create an account for free          | Create a new {{ en.DA }}. |
+| Username                            | Enter your {{ en.DA }} username. |
+| Connection mode                     | Choose the Default or [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/) method. |
+| Application password                | Enter your [Application password](/kb/remote-desktop-manager/how-to-articles/application-passwords-setup/).        |
+| Always ask for password (default only) | Prompts for the password every time a connection to the {{ en.DOD }} is attempted. |
+| Filename                            | Indicate the filename used to store the data on the {{ en.DOD }}. |
+| Master key                          | Contains a master key to access the data source. |
+| Always ask master key               | Ask for the master key every time a connection to the {{ en.DOD }} is attempted. |
 
 ### Backup 
 
 Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for more information on this service.  
 ![{{ en.DOD }} – Backup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10500.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Backup 
-		</td>
-		<td>
-
-Choose the backup mode. Select between:  
-
-* None: No backup of your data source will be created. 
-* {{ en.OBACK }}: An {{ en.OBACK }} (using [{{ en.OBACK }} Service](/rdm/mac/commands/file/backup/)) will automatically be created. 
-* Save to file: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Backup name 
-		</td>
-		<td>
-Specify the backup name that will allow you to automatically save your sessions in a safe online storage space and restore them in the event of problems. 
-		</td>
-	</tr>
-</table>
+| OPTION  | DESCRIPTION |
+|---------|-------------|
+| Backup  | Choose the backup mode. Select between:<ul><li>None: No backup of your data source will be created.</li><li> {{ en.OBACK }}: An {{ en.OBACK }} (using [{{ en.OBACK }} Service](/rdm/mac/commands/file/backup/)) will automatically be created.<li> Save to file: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds.</li></ul> |
+| Backup name | Specify the backup name that will allow you to automatically save your sessions in a safe online storage space and restore them in the event of problems. |
 
 ### VPN 
 
@@ -152,53 +54,11 @@ Open a VPN to access your data prior to connecting to your {{ en.DOD }}.
 
 ![{{ en.DOD }} – Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10501.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Disable reveal password 
-		</td>
-		<td>
-Disable the reveal password feature when a user access this data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow offline mode 
-		</td>
-		<td>
-Allow the data source to be used in Offline mode. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Allow custom images 
-		</td>
-		<td>
-Allows the user to use custom images. Too many custom images could dramatically increase the size of the data source and increase the load time at the same time. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Auto refresh 
-		</td>
-		<td>
-Set the interval for the automatic refresh 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Clear Offline Cache 
-		</td>
-		<td>
-Clear the offline cache on your computer. This can be very helpful when encountering offline issues. 
-		</td>
-	</tr>
-</table>
+| OPTION                  | DESCRIPTION |
+|-------------------------|-------------|
+| Disable reveal password | Disable the reveal password feature when a user access this data source. |
+| Allow offline mode      | Allow the data source to be used in Offline mode. |
+| Allow custom images     | Allows the user to use custom images. Too many custom images could dramatically increase the size of the data source and increase the load time at the same time. |
+| Auto refresh            | Set the interval for the automatic refresh |
+| Clear Offline Cache     | Clear the offline cache on your computer. This can be very helpful when encountering offline issues. |
+

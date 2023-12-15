@@ -1,18 +1,9 @@
 ---
 eleventyComputed:
   title: SQLite
+  description: '{{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations.'
 ---
-<table>
-	<tr>
-		<td>
-
-![!!DataSourceSQLiteLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
-		</td>
-		<td>
-{{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations. More powerful and more flexible than the XML file format, it also supports a few of the advanced data source options like Logs and Attachments. 
-		</td>
-	</tr>
-</table>
+{{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations. More powerful and more flexible than the 
 
 ## Highlights 
 
@@ -41,186 +32,42 @@ You can specify a password to further encrypt your data, you must enter your pas
 
 ![SQLite - Connection tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10159.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Name of the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Database 
-		</td>
-		<td>
-Indicates the filename of the SQLite database (.db). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Password 
-		</td>
-		<td>
-Specify a password to further encrypt your data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Secure with password 
-		</td>
-		<td>
-Secure the data source with a password. This is used to encrypt the database content and it cannot be recovered if lost. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Always ask password 
-		</td>
-		<td>
-Always ask for the password when connecting to the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Two Factor 
-		</td>
-		<td>
-Enable the [2-Factor Authentication](2-Factor_Authentication) to access your data source. 
-		</td>
-	</tr>
-</table>
+| OPTION               | DESCRIPTION |
+|----------------------|-------------|
+| Name                 | Name of the data source. |
+| Database             | Indicates the filename of the SQLite database (.db). |
+| Password             | Specify a password to further encrypt your data source. |
+| Secure with password | Secure the data source with a password. This is used to encrypt the database content and it cannot be recovered if lost.     |
+| Always ask password  | Always ask for the password when connecting to the data source. |
+| Two Factor           | Enable the 2-Factor Authentication to access your data source. |
 
 ### Backup 
 
 ![SQLite - Backup tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6055.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Backup 
-		</td>
-		<td>
-
-Select between: 
-
-* None: No backup of your data source will be created. 
-* {{ en.OBACK }}: An {{ en.OBACK }} (using {{ en.OBACK }} Service) will automatically be created. 
-* Save to file: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Backup name 
-		</td>
-		<td>
-Specify the backup name that will allow you to automatically save your sessions in a safe online storage space and restore them in the event of problems. 
-		</td>
-	</tr>
-</table>
+| OPTION      | DESCRIPTION |
+|-------------|-------------|
+| Backup      | Select between:<ul><li>None: No backup of your data source will be created.</li><li> {{ en.OBACK }}: An {{ en.OBACK }} (using {{ en.OBACK }} Service) will automatically be created.</li><li> Save to file: Your backup will be saved to a chosen file but will not automatically do backup every 30 seconds.</li></ul> |
+| Backup name | Specify the backup name that will allow you to automatically save your sessions in a safe online storage space and restore them in the event of problems. |
 
 ### Advanced 
 
 ![SQLite - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10161.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Auto refresh 
-		</td>
-		<td>
-Set the interval for the automatic refresh. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Command timeout 
-		</td>
-		<td>
-Waiting time before a command timeout. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable reveal password 
-		</td>
-		<td>
-Disable the reveal password feature when a user access this data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Disable caching 
-		</td>
-		<td>
-		
-Entries will be reload in Simple mode in the data source. See [Caching Mode](/rdm/mac/data-sources/caching/) for more information. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Advanced Settings 
-		</td>
-		<td>
-Use to directly modify the connection string value. 
-		</td>
-	</tr>
-</table>
+| OPTION               | DESCRIPTION |
+|----------------------|-------------|
+| Auto refresh         | Set the interval for the automatic refresh. |
+| Command timeout      | Waiting time before a command timeout.      |
+| Disable reveal password | Disable the reveal password feature when a user access this data source. |
+| Disable caching      | Entries will be reload in Simple mode in the data source. See [Caching Mode](/rdm/mac/data-sources/caching/) for more information.                                      |
+| Advanced Settings    | Use to directly modify the connection string value. |
 
 ### Maintenance 
 
 ![SQLite - Maintenance tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10162.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Manage SQLite File 
-		</td>
-		<td>
-
-Manage all your SQLite file to analyse, vacuum, repair or delete them. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Vacuum 
-		</td>
-		<td>
-Used to compress and clean up the current database file. 
-		</td>
-	</tr>
-</table>
+| OPTION               | DESCRIPTION |
+|----------------------|-------------|
+| Manage SQLite File   | Manage all your SQLite file to analyse, vacuum, repair or delete them. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/). |
+| Vacuum               | Used to compress and clean up the current database file. |
 
