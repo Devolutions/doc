@@ -9,52 +9,52 @@ Some organizations use X.509 certificates as as alternative to authenticating wi
 
 1. Add a new entry in {{ en.RDM }}.  
 1. Go to ***Credential Management*** and select ***x.509 Certificate***.
-![Add a x.509 Certificate entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6126_2023_3.png)  
+![Add a x.509 Certificate entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2362.png)  
 1. Click ***OK***.
 1. Choose the ***Name*** and ***Folder***.
 1. Under ***General***, select [***Stored in database***](https://docs.devolutions.net/kb/remote-desktop-manager/knowledge-base/configure-x509-certificate-credential-entry-type/#stored-in-database) or [***Link to certificate store***](https://docs.devolutions.net/kb/remote-desktop-manager/knowledge-base/configure-x509-certificate-credential-entry-type/#link-to-certificate-store) in the ***Certificate data mode*** drop-down menu.
-![Stored in database and Link to certificate store](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6130_2023_3.png)  
+![Stored in database and Link to certificate store](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2344.png)  
 
 ## Stored in database
 
 1. Select ***Update Certificate*** under ***General*** – ***Embedded x509 Certificate*** to import a x.509 Certificate.
-![Update Certificate](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6131_2023_3.png) 
+![Update Certificate](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2345.png) 
 1. Choose the ***Certificate file***.
 1. Click ***Next***.
-![Choose the Certificate file](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6132_2023_3.png) 
+![Choose the Certificate file](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2346.png) 
 1. Choose a ***Private key file*** if needed.
 1. Click ***Next***.
-![Private key file](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6133_2023_3.png) 
+![Private key file](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2347.png) 
 1. Click ***Finish*** to close the window.
-![The certificate is ready to import](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6134_2023_3.png) 
+![The certificate is ready to import](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2348.png) 
 1. Select ***View Certificate*** to view certificate information and install the certificate.
 1. In the ***Certificate window***, click ***Install Certificate***.
-![Certificate window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6135_2023_3.png) 
+![Certificate window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2349.png) 
 1. Select the ***Store Location***: ***Current User*** or ***Local Machine***.
 1. Click ***Next***.
-![Current User or Local Machine](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6136_2023_3.png) 
+![Current User or Local Machine](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2350.png) 
 1. Choose the ***Certificate store***.
 1. Click ***Next***.
-![Choose the Certificate store](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6137_2023_3.png) 
+![Choose the Certificate store](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2351.png) 
 1. Click ***Finish*** to complete the import.
-![Completing the Certificate Import Wizard window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6138_2023_3.png)
+![Completing the Certificate Import Wizard window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2352.png)
 1. Select the ***PIN*** of the ***Smart Card*** if needed.
 1. Click ***Add***.
-![Smart Card](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6140_2023_3.png)  
+![Smart Card](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2353.png)  
 The entry is saved.
 
 ## Link to certificate store
 
 1. Select ***Current user*** or ***Local machine*** under ***Certificate location***. 
-![Certificate location](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6141_2023_3.png)
+![Certificate location](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2354.png)
 1. Choose the ***Certificate Store*** in the drop-down menu.
-![Certificate Store](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6142_2023_3.png)
+![Certificate Store](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2355.png)
 1. Choose ***Thumbprint*** or ***Subject name*** in ***Certificate find type***.
-![Certificate find type](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6143_2023_3.png) 
+![Certificate find type](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2356.png) 
 1. Enter the ***Search text***.
 1. Click ***Test Configuration***.
-![Search text and Test Configuration](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6144_2023_3.png)
+![Search text and Test Configuration](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2357.png)
 1. Select the ***PIN*** of the ***Smart Card*** if needed.
 1. Click ***Add***.
-![Smart Card](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6140_2023_3.png)  
+![Smart Card](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2353.png)  
 The entry is saved.
