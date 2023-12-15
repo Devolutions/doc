@@ -12,7 +12,6 @@ To change your {{ en.DA }} email, you would need to [Create a new account](/clou
 * [Invoices](/cloud/portal/invoices/): If some invoices need to be associated with the new account, contact our [sales department](mailto:sales@devolutions.net). 
 * [{{ en.DHUBP }}](/cloud/hub-personal/): Import and export your {{ en.DHUBP }} data source entries [with {{ en.RDM }}](/kb/remote-desktop-manager/how-to-articles/export-import-entries/) or in Json format directly [from {{ en.DHUBP }}](/kb/hub-business/how-to-articles/import-export-data-hub-personal/) in ***Tools – Export***. 
 * [{{ en.DHUBB }}](/cloud/hub-business/): If you are the owner of a {{ en.DHUBB }}, switch the [Ownership](/hub/web-interface/administration/management/users/hub-ownership/) to another administrator, then request an invitation with the new account. 
-* [{{ en.CI }}](/cloud/rdm-online-services/custom-installer/): Locally download the ***{{ en.CI }}*** MSI configuration file package. 
 * [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/): The backups are stored and linked to each {{ en.DA }}. For this reason, you will not have access under the new {{ en.DA }}.
 
 {% snippet icon.badgeInfo %} 
