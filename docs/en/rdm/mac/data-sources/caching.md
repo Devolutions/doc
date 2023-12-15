@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Caching
+  description: The caching mode will determine how the client will re-load entries when changes are detected. 
 ---
 The caching mode will determine how the client will re-load entries when changes are detected. On large data sources caching is a must and will increase performance significantly. 
 
@@ -17,40 +18,11 @@ If the cache is outdated, press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to refresh the loc
 The Caching ***mode*** option can be accessed via ***File – Data Sources – Edit Data Source – Advanced*** in an advanced data source.  
 ![Caching mode](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10591.png)
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Disabled 
-		</td>
-		<td>
-Prevent an offline cache from being used. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-In-Memory 
-		</td>
-		<td>
-Use the offline cache only for recent changes, but prevent it from writing on the disk (in-memory only). 
-		</td>
-	</tr>
-	<tr>
-		<td>
-File 
-		</td>
-		<td>
-Use the offline cache only for recent changes. The cache will write on the disk. 
-		</td>
-	</tr>
-</table>
+| OPTION   | DESCRIPTION |
+|----------|-------------|
+| Disabled | Prevent an offline cache from being used. |
+| In-Memory| Use the offline cache only for recent changes, but prevent it from writing on the disk (in-memory only). |
+| File     | Use the offline cache only for recent changes. The cache will write on the disk. |
 
 ### Storage 
 

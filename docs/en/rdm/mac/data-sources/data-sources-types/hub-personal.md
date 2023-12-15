@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: '{{ en.DHUBP }}'
+  description: '{{ en.DHUBP }}, for individual users who want to secure personal passwords in a secure {{ en.VLT }} for free.'
 ---
 {{ en.DHUBP }}, for individual users who want to secure personal passwords in a secure {{ en.VLT }} for free.  
 
@@ -12,33 +13,10 @@ Please consult our [website](https://password.devolutions.net/personal) for more
 
 ![!!RDMMac4023](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4023.png) 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Name 
-		</td>
-		<td>
-Name of the data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Username 
-		</td>
-		<td>
-
-Your [{{ en.DA }}](https://portal.devolutions.com/) email address. You can create one for free, just follow the link provided. 
-		</td>
-	</tr>
-</table>
+| OPTION   | DESCRIPTION |
+|----------|-------------|
+| Name     | Name of the data source. |
+| Username | Your [{{ en.DA }}](https://portal.devolutions.com/) email address. You can create one for free, just follow the link provided.  |
 
 ### VPN 
 

@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Data sources
+  description: The data source is at the heart of {{ en.RDMMAC }}, it is the container that holds all of your entries. 
   order: 40
 ---
 The data source is at the heart of {{ en.RDMMAC }}, it is the container that holds all of your entries. 
@@ -23,40 +24,11 @@ You can configure multiple data sources within the application. These data sourc
 
 You may assign a data source to open automatically when {{ en.RDMMAC }} starts. 
 
-<table>
-	<tr>
-		<th>
-OPTION 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Use default data source 
-		</td>
-		<td>
-Set the data source that you always want to open at start up. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Last used data source 
-		</td>
-		<td>
-Open with the last used data source. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Prompt for data source 
-		</td>
-		<td>
-A message box will open on startup for the data source selection. 
-		</td>
-	</tr>
-</table>
+| OPTION                    | DESCRIPTION |
+|---------------------------|-------------|
+| Use default data source   | Set the data source that you always want to open at start up. |
+| Last used data source     | Open with the last used data source. |
+| Prompt for data source    | A message box will open on startup for the data source selection. |
 
 ### Data Source Settings 
 
