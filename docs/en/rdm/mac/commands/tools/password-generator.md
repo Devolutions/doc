@@ -28,272 +28,32 @@ Press the help button and select any pattern you need to create your passwords. 
 
 The following are the supported patterns: 
 
-<table>
-	<tr>
-		<th>
-KEY 
-		</th>
-		<th>
-DESCRIPTION 
-		</th>
-		<th>
-SAMPLE 
-		</th>
-	</tr>
-	<tr>
-		<td>
-a 
-		</td>
-		<td>
-Lower-Case Alphanumeric 
-		</td>
-		<td>
-abcdefghijklmnopqrstuvwxyz 0123456789 
-		</td>
-	</tr>
-	<tr>
-		<td>
-A 
-		</td>
-		<td>
-Mixed-Case Alphanumeric 
-		</td>
-		<td>
-ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 
-		</td>
-	</tr>
-	<tr>
-		<td>
-b 
-		</td>
-		<td>
-Bracket 
-		</td>
-		<td>
-()[]{}<> 
-		</td>
-	</tr>
-	<tr>
-		<td>
-c 
-		</td>
-		<td>
-Lower-Case Consonant 
-		</td>
-		<td>
-bcdfghjklmnpqrstvwxyz 
-		</td>
-	</tr>
-	<tr>
-		<td>
-C 
-		</td>
-		<td>
-Mixed-Case Consonant 
-		</td>
-		<td>
-BCDFGHJKLMNPQRSTVWXYZ bcdfghjklmnpqrstvwxyz 
-		</td>
-	</tr>
-	<tr>
-		<td>
-d 
-		</td>
-		<td>
-Digit 
-		</td>
-		<td>
-123456789 
-		</td>
-	</tr>
-	<tr>
-		<td>
-h 
-		</td>
-		<td>
-Lower-Case Hex Character 
-		</td>
-		<td>
-0123456789 abcdef 
-		</td>
-	</tr>
-	<tr>
-		<td>
-H 
-		</td>
-		<td>
-Upper-Case Hex Character 
-		</td>
-		<td>
-0123456789 ABCDEF 
-		</td>
-	</tr>
-	<tr>
-		<td>
-l 
-		</td>
-		<td>
-Lower-Case Letter 
-		</td>
-		<td>
-abcdefghijklmnopqrstuvwxyz 
-		</td>
-	</tr>
-	<tr>
-		<td>
-L 
-		</td>
-		<td>
-Mixed-Case Letter 
-		</td>
-		<td>
-ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 
-		</td>
-	</tr>
-	<tr>
-		<td>
-p 
-		</td>
-		<td>
-Punctuation 
-		</td>
-		<td>
-,.;: 
-		</td>
-	</tr>
-	<tr>
-		<td>
-s 
-		</td>
-		<td>
-Printable 7-Bit Special Character 
-		</td>
-		<td>
-!“#$%&'()*+,-./:;<=>?[\]^_{|}~ 
-		</td>
-	</tr>
-	<tr>
-		<td>
-S 
-		</td>
-		<td>
-Printable 7-Bit ASCII 
-		</td>
-		<td>
-A-Z, a-z, 0-9, !“#$%&'()*+,-./:;<=>?[\]^_{|}~ 
-		</td>
-	</tr>
-	<tr>
-		<td>
-u 
-		</td>
-		<td>
-Upper-Case Letter 
-		</td>
-		<td>
-ABCDEFGHIJKLMNOPQRSTUVWXYZ 
-		</td>
-	</tr>
-	<tr>
-		<td>
-U 
-		</td>
-		<td>
-Upper-Case Alphanumeric 
-		</td>
-		<td>
-ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 
-		</td>
-	</tr>
-	<tr>
-		<td>
-v 
-		</td>
-		<td>
-Lower-Case Vowel 
-		</td>
-		<td>
-aeiou 
-		</td>
-	</tr>
-	<tr>
-		<td>
-V 
-		</td>
-		<td>
-Mixed-Case Vowel 
-		</td>
-		<td>
-AEIOU aeiou 
-		</td>
-	</tr>
-	<tr>
-		<td>
-x 
-		</td>
-		<td>
-High ANSI 
-		</td>
-		<td>
-From '~' to U255 (excluding U255) 
-		</td>
-	</tr>
-	<tr>
-		<td>
-z 
-		</td>
-		<td>
-Upper-Case Consonant 
-		</td>
-		<td>
-BCDFGHJKLMNPQRSTVWXYZ 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Z 
-		</td>
-		<td>
-Upper-Case Vowel 
-		</td>
-		<td>
-AEIOU 
-		</td>
-	</tr>
-	<tr>
-		<td>
-\ 
-		</td>
-		<td>
-Escape (Fixed Char) 
-		</td>
-		<td>
-Use following character as is 
-		</td>
-	</tr>
-	<tr>
-		<td>
-{n} 
-		</td>
-		<td>
-Escape (Repeat) 
-		</td>
-		<td>
-Repeats the previous character n times 
-		</td>
-	</tr>
-	<tr>
-		<td>
-[x] 
-		</td>
-		<td>
-Custom character 
-		</td>
-		<td>
-Define a custom character sequence 
-		</td>
-	</tr>
-</table>
+| KEY  | DESCRIPTION                    | SAMPLE                                                |
+|------|--------------------------------|-------------------------------------------------------|
+| a    | Lower-Case Alphanumeric        | abcdefghijklmnopqrstuvwxyz 0123456789                  |
+| A    | Mixed-Case Alphanumeric        | ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 |
+| b    | Bracket                        | ()[]{}<>                                               |
+| c    | Lower-Case Consonant           | bcdfghjklmnpqrstvwxyz                                  |
+| C    | Mixed-Case Consonant           | BCDFGHJKLMNPQRSTVWXYZ bcdfghjklmnpqrstvwxyz            |
+| d    | Digit                          | 123456789                                              |
+| h    | Lower-Case Hex Character       | 0123456789 abcdef                                      |
+| H    | Upper-Case Hex Character       | 0123456789 ABCDEF                                      |
+| l    | Lower-Case Letter              | abcdefghijklmnopqrstuvwxyz                             |
+| L    | Mixed-Case Letter              | ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz  |
+| p    | Punctuation                    | ,.;:                                                   |
+| s    | Printable 7-Bit Special Character | !“#$%&'()*+,-./:;<=>?[\]^_{|}~                      |
+| S    | Printable 7-Bit ASCII          | A-Z, a-z, 0-9, !“#$%&'()*+,-./:;<=>?[\]^_{|}~          |
+| u    | Upper-Case Letter              | ABCDEFGHIJKLMNOPQRSTUVWXYZ                             |
+| U    | Upper-Case Alphanumeric        | ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789                  |
+| v    | Lower-Case Vowel               | aeiou                                                  |
+| V    | Mixed-Case Vowel               | AEIOU aeiou                                            |
+| x    | High ANSI                      | From '~' to U255 (excluding U255)                      |
+| z    | Upper-Case Consonant           | BCDFGHJKLMNPQRSTVWXYZ                                  |
+| Z    | Upper-Case Vowel               | AEIOU                                                  |
+| \    | Escape (Fixed Char)            | Use following character as is                          |
+| *{n}*  | Escape (Repeat)                | Repeats the previous character n times               |
+| [x]  | Custom character               | Define a custom character sequence                     |
+
 
 ### Pronounceable password 
 
