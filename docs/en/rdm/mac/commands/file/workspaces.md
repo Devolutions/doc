@@ -28,9 +28,9 @@ To manage your Workspaces, you need to open the ***Workspaces Management*** wind
 ![File – Workspaces – Workspaces](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6036.png) 
 
 1. Choose your Workspace. You can then select ***Edit*** or ***Remove***.
-![Workspaces](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMMac6040.png)  
+![Workspaces](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac2147.png)  
 
 * Choosing ***Edit*** will open the ***Workspace Editor***. 
 * ***Remove*** will ask you if you want to delete your Workspace.
 
-![Delete workspace](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMMac6041.png) 
+![Delete workspace](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac2148.png) 

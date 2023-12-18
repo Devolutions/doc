@@ -18,7 +18,7 @@ The ***No Internet connection*** option in {{ en.RDM }} (***File*** – ***Optio
 ## Create an installation package 
 
 1. In {{ en.RDM }}, click on ***File – {{ en.DA }} – Sign-in*** to connect to your {{ en.DA }} if you are not already signed in.  
-![{{ en.DA }} sign-in](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4009.png) 
+![{{ en.DA }} sign-in](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2211.png) 
 1. Under ***Tools***, click on ***{{ en.CIM }}*** to create a new {{ en.CI }} with specific settings.  
 ![File – {{ en.DA }} – {{ en.CIM }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11247.png) 
 1. Click on ***New Package***.  

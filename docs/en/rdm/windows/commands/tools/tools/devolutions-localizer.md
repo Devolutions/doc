@@ -13,7 +13,7 @@ A free [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/) is 
 ### Translate 
 
 1. In ***File – Languages***, select the language(s) to translate, then click ***Ok***.  
-![File – Languages](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4049.png) 
+![File – Languages](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2228.png) 
 1. Click on the ***Translate*** button.  
 ![Translate](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2131.png) 
 1. Choose the file in which to translate in the ***File*** drop-down list.  
@@ -25,7 +25,7 @@ A free [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/) is 
 * ***Translated***: The text has already been translated in the target language. 
 * ***Under review***: This status is intended to help translators communicate with each other when they are unsure of the translation and/or use of a particular value. Through the ***Comment*** field, translators can also write translation notes. 
 * ***Use original***: The text should not be translated, it should be kept in its original language. For example, this can apply to product names or third-party system names.  
-![Content to Translate or Translated](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4050.png) 
+![Content to Translate or Translated](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2229.png) 
 5. To start, select a ***Resource*** line in the bottom list and click ***Translate***. The original text will appear in the ***Original*** box.  
 ![Resource Line Selection](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2133.png) 
 

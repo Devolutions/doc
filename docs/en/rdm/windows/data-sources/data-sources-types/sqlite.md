@@ -55,7 +55,7 @@ Change or clear the password of a SQLite data source.
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your SQLite.  
-![SQLite - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SQLiteVPN.png) 
+![SQLite - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2254.png) 
 
 ### Advanced 
 

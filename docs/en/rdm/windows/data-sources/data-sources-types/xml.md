@@ -44,7 +44,7 @@ All passwords are encrypted by default. You can specify a custom password (maste
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your XML.  
-![XML - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/XMLVPN.png) 
+![XML - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2256.png) 
 
 ### Advanced 
 

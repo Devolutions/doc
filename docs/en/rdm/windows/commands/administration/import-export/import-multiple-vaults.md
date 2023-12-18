@@ -8,6 +8,6 @@ The ***Import Multiple {{ en.VLT }}s (.rdx)*** function lets you import one or m
 The {{ en.VLT }}s you want to import must have been previously exported using the ***Export All {{ en.VLT }}s (.rdx)***, because they need to be in the .rdx format. 
 {% endsnippet %}
  
-![!!RdmWin2000](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin2000.png) 
+![!!RDMWin2204](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2204.png) 
 
 To learn more about other import functions, see [Import](/rdm/windows/commands/file/import/).

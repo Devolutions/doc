@@ -14,14 +14,14 @@ You can use an existing Microsoft Azure account if you already have one created.
 ![Azure AD Portal](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11581.png) 
 
 1. As shown in the ***Overview*** tab, the ***Active Directory admin*** is set to ***Not configured***.  
-![!!RdmWin4028](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4028.png) 
+![!!RDMWin2212](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2212.png) 
 1. Click on ***Active Directory admin*** under ***Settings*** in the left menu.  
-![!!RdmWin4029](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4029.png) 
+![!!RDMWin2213](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2213.png) 
 1. Click on ***Set admin*** to search for the admin.  
-![!!RdmWin4030](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4030.png) 
+![!!RDMWin2214](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2214.png) 
 1. Type the admin name in the ***Search*** field. Click on the admin in the list provided and then ***Select***.  
-![!!RdmWin4031](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4031.png) 
+![!!RDMWin2215](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2215.png) 
 1. To finish the process, click on ***Save***.  
-![!!RdmWin4032](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4032.png) 
+![!!RDMWin2216](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2216.png) 
 1. Copy the ***Active Directory admin*** email: it is essential for the next steps. 
 

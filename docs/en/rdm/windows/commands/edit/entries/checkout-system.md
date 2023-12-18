@@ -26,7 +26,7 @@ Administrators can force ***Check In*** entries that are ***Check Out*** by othe
 ### Security Settings 
 
 To access the check out settings, go into the ***Properties*** of an entry, folder or of the root folder. Navigate to the ***Security Settings*** section.  
-![!!RdmWin4054](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4054.png) 
+![!!RDMWin2233](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2233.png) 
 
 ### Checkout mode 
 

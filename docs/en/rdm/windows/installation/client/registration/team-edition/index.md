@@ -17,7 +17,7 @@ It is possible to [request a trial](/rdm/windows/installation/client/registratio
 1. To add a license serial to the data source, navigate to ***Administration – Management – Licenses***.  
 ![Administration – Management – Licenses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3417.png) 
 1. Click ***Add License***.  
-![Add License Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4060.png) 
+![Add License Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2236.png) 
 1. Enter the license serial in the ***License*** field.  
 ![License Field](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0000.png) 
 1. Optional: Check the ***Auto assign*** box to automatically provide the {{ en.RDM }} serial to all newly created users.  
@@ -28,7 +28,7 @@ It is possible to [request a trial](/rdm/windows/installation/client/registratio
 This step will automatically assign the license to the selected users, removing the need to interact with each user. 
 {% endsnippet %}
  
-![Assigned To Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4062.png) 
+![Assigned To Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2237.png) 
 
 7. Click ***OK*** and ***Close*** the ***User and Security Management*** window. 
 

@@ -20,8 +20,8 @@ You'll need to import the license file for {{ en.RDM }} 2023.3 and higher if you
 1. In {{ en.RDM }}, go to ***Administration – Management – Licenses***.  
 ![Administration – Management – Licenses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3417.png) 
 1. Click ***Add License***.  
-![Add License](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4060.png) 
+![Add License](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2236.png) 
 1. Paste the trial license serial in the ***License*** field  from step 2 or import the license file, then click ***OK***.  
-![License field and import](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6179_2023_3.png) 
+![License field and import](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin2238.png) 
 
 Your trial has now started. 

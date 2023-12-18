@@ -12,7 +12,7 @@ You can also create password generator templates to generate passwords. After yo
 ### Default 
 
 Customize all criteria you would want your password to have.  
-![Password Generator - Default](https://webdevolutions.azureedge.net/docs/en/rdm/windows/PassGenDef.png) 
+![Password Generator - Default](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2201.png) 
 
 ### Advanced settings 
 

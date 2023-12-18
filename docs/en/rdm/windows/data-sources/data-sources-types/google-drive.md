@@ -24,4 +24,4 @@ eleventyComputed:
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Google Drive.  
-![Google Drive - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/GoogleDriveVPN.png) 
+![Google Drive - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2200.png) 

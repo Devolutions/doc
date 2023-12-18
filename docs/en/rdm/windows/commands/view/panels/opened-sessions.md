@@ -44,10 +44,9 @@ Sessions can be configured to use a VPN Group. When multiple sessions are using 
 ### Entry States 
 
 You can see the status of the entries in the selected database. There are different viewing options. You can choose to show entries from all users and checked out, locked, or running entries.  
-![Different Viewing Options](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin2002.png) 
+![Different Viewing Options](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2206.png) 
 
 ## Notes 
 
 * {{ en.RDM }} tries to detect opened sessions even if they were not launched from the application. It uses the name of the process to accomplish this task. 
-* VPN sessions do not appear in the list. 
-
+* VPN sessions do not appear in the list.

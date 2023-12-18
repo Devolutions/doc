@@ -34,11 +34,11 @@ The General tab displays information about the current user and data source conf
 
 ![My Data Source Information – Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10065.png) 
 
-| OPTION                           | DESCRIPTION                                                               |
-|----------------------------------|---------------------------------------------------------------------------|
-| Add, Edit and Delete entries     | Indicates if the user has the right to add, edit, or delete entries.      |
-| View information section         | Indicates if the user can view the information section of entries.        |
-| Import and Export entries        | Indicates if the user has the privilege to import or export entries.      |
+| OPTION                                 | DESCRIPTION                                                                   |
+|----------------------------------------|-------------------------------------------------------------------------------|
+| Add, Edit and Delete entries           | Indicates if the user has the right to add, edit, or delete entries.          |
+| View information section               | Indicates if the user can view the information section of entries.            |
+| Import and Export entries              | Indicates if the user has the privilege to import or export entries.          |
 | Allow add entry in {{ en.VLT }} folder | Indicates if the user can add entries in the {{ en.VLT }} of the data source. |
 
 
@@ -50,5 +50,4 @@ The ***User Groups*** tab displays the user groups that the user is a member of 
 This feature is only available with an SQL Server/Azure SQL and a {{ en.DVLS }} (DVLS) data source. 
 {% endsnippet %}
  
-![!!RdmWin4037](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4037.png) 
-
+![!!RDMWin2219](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2219.png)

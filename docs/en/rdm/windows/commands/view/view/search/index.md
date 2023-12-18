@@ -3,7 +3,7 @@ eleventyComputed:
   title: Search
 ---
 The ***Search*** function allows you to search folders and entries in the database you are currently in.  
-![Search Function](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin2005.png) 
+![Search Function](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2207.png) 
 
 When using the ***Search*** function, a tree view is also displayed, showing exactly where the results of your search are located in the database. Filter options are also available when clicking on the ellipsis button. Learn more about them in [Search/Filter](/rdm/windows/user-interface/status-bar/search-filter/).  
 ![Filter Dialog Window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2004.png) 

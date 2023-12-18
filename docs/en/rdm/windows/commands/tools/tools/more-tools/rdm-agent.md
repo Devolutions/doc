@@ -18,7 +18,7 @@ Execute script via Agent only needs the {{ en.RDMA }} when the script is execute
 
 ### Quick Script – Message 
 
-![Quick Script – Message](https://webdevolutions.azureedge.net/docs/en/rdm/windows/ExecuteScriptMessage.png) 
+![Quick Script – Message](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2199.png) 
 
 | OPTION  | DESCRIPTION                     |
 |---------|---------------------------------|

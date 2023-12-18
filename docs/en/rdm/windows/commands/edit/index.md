@@ -55,7 +55,7 @@ The ***Play List*** feature in {{ en.RDM }} is a lot like a music play list. It 
 
 {% snippet icon.badgeInfo %} 
 A Specific Settings column can be added in the ***{{ en.NPANE }}***. Right-click on the column ***Name*** in the ***{{ en.NPANE }}*** and select ***Column Chooser***. Double-Click on ***Specific Settings*** to add the column. Now, if there is a specific setting applied to an entry, it will be displayed next to the entry name.  
-![{{ en.NPANE }} - Column Chooser](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SpecificSettingsColumnChooser.png) 
+![{{ en.NPANE }} - Column Chooser](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2252.png) 
 {% endsnippet %}
  
 ## Batch 

@@ -67,7 +67,7 @@ Export the data source, then import the file in your client workstations as desc
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DVLS }}.  
-![{{ en.DVLS }} – VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DPSVPN.png) 
+![{{ en.DVLS }} – VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2197.png) 
 
 ### Advanced 
 

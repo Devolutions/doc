@@ -49,7 +49,7 @@ Although it can be shared between multiple locations, there is no conflict manag
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Dropbox.  
-![Dropbox - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DropboxVPN.png) 
+![Dropbox - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2198.png) 
 
 ### Advanced 
 

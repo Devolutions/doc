@@ -88,7 +88,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database.  
-![Microsoft Azure SQL - VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SQLAzureVPN.png) 
+![Microsoft Azure SQL - VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2253.png) 
 
 ### Advanced 
 
@@ -104,4 +104,3 @@ Open a VPN to access your data prior to connecting to your Microsoft Azure SQL d
 | Allow beta database upgrade      | Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}).       |
 | Manage Cache                     | Manage the data source cache. On large data sources, caching is a must and will increase performance significantly. For more information, please consult [Manage Cache](/rdm/windows/data-sources/manage-cache/).                                                    |
 | More Settings                    | Edit the connection string values directly.                                           |
-

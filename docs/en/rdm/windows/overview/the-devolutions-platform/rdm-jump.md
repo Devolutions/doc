@@ -116,7 +116,7 @@ The ***Jump Host*** is ready to use.
 
 Or 
 * Choose a specific ***Session*** to point directly to the ***Jump Host*** entry. 
-![!!RdmWin4059](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4059.png) 
+![!!RDMWin2235](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2235.png) 
 
 3. Click ***OK*** twice. 
 1. Launch the RDP session. The {{ en.RDMJ }} opens automatically and it looks like a session in a session. 

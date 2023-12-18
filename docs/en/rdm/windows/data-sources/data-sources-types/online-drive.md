@@ -50,7 +50,7 @@ Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for i
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DOD }}.  
-![{{ en.DOD }} - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DODVVPN.png) 
+![{{ en.DOD }} - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2196.png) 
 
 ### Advanced 
 

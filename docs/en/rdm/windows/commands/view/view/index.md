@@ -9,7 +9,7 @@ The ***View*** section in the ***View*** tab allows you to access different list
 ## Search
 
 The [***Search***](/rdm/windows/commands/view/view/search/) allows you to search folders and entries in the database you are currently in.  
-![Search Function](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin2005.png) 
+![Search Function](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2207.png) 
 
 For information about other search methods, see our related topics:  
 

@@ -101,7 +101,7 @@ Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/adva
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Microsoft SQL Server.  
-![Microsoft SQL Server – VPN tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SQLServVPN.png) 
+![Microsoft SQL Server – VPN tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2255.png) 
 
 ### Advanced 
 

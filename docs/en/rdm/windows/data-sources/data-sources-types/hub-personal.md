@@ -11,7 +11,7 @@ Please consult our [website](https://devolutions.net/password-hub/personal) for 
 
 ### General 
 
-![!!RdmWin4040](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4040.png) 
+![!!RDMWin2222](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2222.png) 
 
 | OPTION   | DESCRIPTION |
 |----------|-------------|
@@ -21,10 +21,9 @@ Please consult our [website](https://devolutions.net/password-hub/personal) for 
 ### VPN 
 
 Open a ***VPN*** to access your data prior to connecting to your {{ en.DHUB }}.  
-![!!RdmWin4041](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4041.png) 
+![!!RDMWin2223](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2223.png) 
 
 ### Advanced 
 
 This is the ***Server*** address.  
-![!!RdmWin4042](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4042.png) 
-
+![!!RDMWin2224](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2224.png)
