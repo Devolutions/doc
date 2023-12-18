@@ -21,7 +21,6 @@ The Quick Access Toolbar normally sits at the top of the application. It is comp
 | ![!!clip10553](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10553.png) | Create a new entry in your current data source.   |
 | ![!!clip10554](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10554.png) | Open the properties window of your selected entry.    |
 
-
 ### Quick Connect 
 
 ![Quick Access - Quick Connect](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10557.png) 
