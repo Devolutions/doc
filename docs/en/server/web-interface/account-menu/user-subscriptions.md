@@ -16,5 +16,4 @@ To enable a notification;
 1. Click on the bell icon to open the menu. 
 1. Select from the list the actions requiring notification from this specific entry.  
 
-![Notification](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4001png.png)
-
+![Notification](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2100.png)
