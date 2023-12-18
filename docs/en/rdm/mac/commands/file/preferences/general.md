@@ -2,10 +2,10 @@
 eleventyComputed:
   title: General
 ---
-Use File – Preferences – General to configure options related to the functionality of the application.
+Use ***File – Preferences – General*** to configure options related to the functionality of the application.
 
 ## Settings
-![!!RDMMac4038](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4038.png)
+![!!RDMMac2143](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2143.png)
 
 ### General
 | OPTION                               | DESCRIPTION |

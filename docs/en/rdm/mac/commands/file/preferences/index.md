@@ -3,7 +3,7 @@ eleventyComputed:
   title: Preferences
 ---
 There are multiple options available to manage and customize your {{ en.RDMMAC }} in the menu ***File - Preferences***.  
-![File - Preferences](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4007.png) 
+![File - Preferences](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2113.png) 
 
 Please see the following topics for more information each tab:  
 

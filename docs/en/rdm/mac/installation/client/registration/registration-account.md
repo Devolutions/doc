@@ -10,5 +10,4 @@ When creating a {{ en.DA }} a free license serial is provided for the free editi
 1. To register the product, navigate to ***Help – Register Product***.  
 ![Register Product](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip11002.png) 
 1. In the ***Register Product*** window, select ***Enterprise Edition***. Enter your {{ en.DA }} credentials.  
-![Registration {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4006.png) 
-
+![Registration {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2112.png)

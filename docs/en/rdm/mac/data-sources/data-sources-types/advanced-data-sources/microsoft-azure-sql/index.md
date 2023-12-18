@@ -42,7 +42,7 @@ Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-
 
 ### General 
 
-![!!RDMMac4027](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4027.png) 
+![!!RDMMac2132](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2132.png) 
 
 | OPTION              | DESCRIPTION |
 |---------------------|-------------|
@@ -58,7 +58,7 @@ Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-
 
 ### Settings 
 
-![!!RDMMac4028](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4028.png) 
+![!!RDMMac2133](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2133.png) 
 
 | OPTION            | DESCRIPTION |
 |-------------------|-------------|
@@ -68,7 +68,7 @@ Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-
 
 ### {{ en.UVLT_MAJ }}
 
-![RDMMac4030](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4030.png)
+![RDMMac2135](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2135.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
@@ -76,7 +76,7 @@ Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-
 
 ### Upgrade 
 
-![!!RDMMac4029](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4029.png) 
+![!!RDMMac2134](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2134.png) 
 
 | OPTION                | DESCRIPTION |
 |-----------------------|-------------|
@@ -88,11 +88,11 @@ Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database.  
-![!!RDMMac4031](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4031.png) 
+![!!RDMMac2136](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2136.png) 
 
 ### Advanced 
 
-![!!RDMMac4032](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4032.png) 
+![!!RDMMac2137](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2137.png) 
 
 | OPTION                    | DESCRIPTION |
 |---------------------------|-------------|

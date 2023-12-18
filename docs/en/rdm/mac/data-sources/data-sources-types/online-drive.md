@@ -48,7 +48,7 @@ Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for m
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DOD }}.  
-![!!RDMMac4040](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4040.png) 
+![!!RDMMac2145](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2145.png) 
 
 ### Advanced 
 
