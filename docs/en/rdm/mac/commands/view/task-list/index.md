@@ -19,18 +19,17 @@ This feature is only available for the following data sources: [{{ en.DVLS }}](/
 1. Click on ***New*** to open the ***Task Management*** window.  
 ![New Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0018.png) 
 1. Enter your task information, like the name of the task, the priority, the due date, the description, etc.  
-![Task Management](https://webdevolutions.azureedge.net/docs/en/rdm/mac/rdmmac0019.png) 
+![Task Management](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2146.png) 
 
-| OPTION        | DESCRIPTION |
-|---------------|-------------|
-| Name          | Enter a custom name for the task. |
-| Entry         | Displays the entry currently selected in the ***{{ en.NPANE }}***. The task is assigned to this entry. It is a read-only field.|
-| Priority      | Set the priority of the task (from 0 to 100). |
-| Due date      | Set a deadline for the task. |
-| Creation date | The date and time when this task was created. |
-| Description   | Enter a description of the task for the assigned user. |
-| User          | Assign a user to the task. |
-| Current user  | Click this button to assign the task to yourself. |
+| OPTION        | DESCRIPTION                                                                                                                     |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Name          | Enter a custom name for the task.                                                                                               |
+| Entry         | Displays the entry currently selected in the ***{{ en.NPANE }}***. The task is assigned to this entry. It is a read-only field. |
+| Priority      | Set the priority of the task (from 0 to 100).                                                                                   |
+| Due date      | Set a deadline for the task.                                                                                                    |
+| Creation date | The date and time when this task was created.                                                                                   |
+| Description   | Enter a description of the task for the assigned user.                                                                          |
+| User          | Assign a user to the task.                                                                                                      |
+| Current user  | Click this button to assign the task to yourself.                                                                               |
 | Status        | Set a status for the task. Select between the following:<ul><li>Assigned</li></li>Cancelled</li><li>Closed</li> <li>Done</li><li>In progress</li><li>Open</li><li>Postponed</li></ul> |
-| Comment       | Enter a comment for the task. |
-
+| Comment       | Enter a comment for the task.                                                                                                   |
