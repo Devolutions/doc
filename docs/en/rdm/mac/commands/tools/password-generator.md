@@ -28,8 +28,8 @@ Press the help button and select any pattern you need to create your passwords. 
 
 The following are the supported patterns: 
 
-| KEY  | DESCRIPTION                    | SAMPLE                                                |
-|------|--------------------------------|-------------------------------------------------------|
+| KEY  | DESCRIPTION                    | SAMPLE                                                 |
+|------|--------------------------------|--------------------------------------------------------|
 | a    | Lower-Case Alphanumeric        | abcdefghijklmnopqrstuvwxyz 0123456789                  |
 | A    | Mixed-Case Alphanumeric        | ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 |
 | b    | Bracket                        | ()[]{}<>                                               |

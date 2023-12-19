@@ -65,10 +65,10 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 | Login Mode   | Specify the authentication mode to use. Select between:<ul><li> Database login</li><li> Custom login</li></ul> |
 | User         | Username to access the SQL server.                       |
 | Domain       | Domain to access the SQL server.                         |
-| Save password| By saving the password for your data source you will connect automatically to your SQL Server without having to enter your password every time.                                           |
+| Save password| By saving the password for your data source you will connect automatically to your SQL Server without having to enter your password every time. |
 | Password     | Password used to access the SQL server.                  |
 | Database     | Name of the database on the SQL server for the utilization of {{ en.RDMMAC }}. |
-| Two factor   | Enable the [2-Factor Authentication](/rdm/mac/data-sources/multi-factor-authentication/) to access your data source.        |
+| Two factor   | Enable the [2-Factor Authentication](/rdm/mac/data-sources/multi-factor-authentication/) to access your data source. |
 | Test Server  | Test the connection with the server to validate if the proper information has been provided. |
 | Test Database| Test the connection with the database to validate if the proper information has been provided. |
 
@@ -83,7 +83,7 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 | Auto refresh    | Set the interval for the automatic refresh.                                  |
 | Ping online method | Indicate the preferred ping online method. Select between:<ul><li>None</li><li>Ping</li><li>Port scan</li></ul> |
 | Auto go offline | Use the data source in offline mode when the ping method does not respond.   |
-| Disable lock    | Disable the option to lock the data source directly. You can still lock the application but you will not be prompted for the database password if this option is disabled.                                   |
+| Disable lock    | Disable the option to lock the data source directly. You can still lock the application but you will not be prompted for the database password if this option is disabled.      |
 
 ### Advanced 
 
@@ -93,11 +93,11 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 |-------------------------------------|-------------|
 | Offline mode                        | Determine the Offline mode availability. Select between:<ul><li>Disabled</li><li>Read-only</li><li> Read/write</li></ul>             |
 | Prompt for offline mode on startup  | Ask to use the data source in offline mode when the user connects to the data source. |
-| Caching mode                        | Determine how the entries will be reloaded in the data source. For more information, please consult [Caching Mode](/rdm/mac/data-sources/caching/).                      |
+| Caching mode                        | Determine how the entries will be reloaded in the data source. For more information, please consult [Caching Mode](/rdm/mac/data-sources/caching/).                            |
 | Auto refresh                        | Set the interval for the automatic refresh. |
 | Connection timeout                  | Waiting time before a connection timeout.   |
 | Command timeout                     | Waiting time before a command timeout.      |
-| Allow beta database upgrade         | Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}).       |
+| Allow beta database upgrade         | Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}).  |
 | Manage Cache                        | Manage your cache on your computer to analyse, vacuum, repair or delete it. This can be very helpful if you have offline issues. For more information please follow this [link](/rdm/mac/data-sources/manage-cache/). |
 | Advanced Settings                   | Edit the connection string values directly. |
 
@@ -111,7 +111,7 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 | Create Database    | Create the database on the SQL server to use {{ en.RDM }}.                                   |
 | Update Database    | Update the database on the SQL server, if required to use {{ en.RDM }}.                      |
 | Test Database      | Test the connection with the database to validate if the proper information has been provided. |
-| View upgrade script... | If you wish to process Database upgrade by hand instead of automatically you may use the upgrade script to do so.            |
+| View upgrade script... | If you wish to process Database upgrade by hand instead of automatically you may use the upgrade script to do so. |
 
 ### {{ en.UVLT_MAJ }} 
 
@@ -119,4 +119,4 @@ Consult [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/advanced
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
-| Type   | Select the type of {{ en.UVLT }} to use. Select between:<ul><li> Default: use the default {{ en.UVLT }}, which is stored in the database.</li></ul><ul><li> None: disable the {{ en.UVLT }} for all users.</li><li> {{ en.DOD }}: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}.</li></ul>      |
+| Type   | Select the type of {{ en.UVLT }} to use. Select between:<ul><li> Default: use the default {{ en.UVLT }}, which is stored in the database.</li></ul><ul><li> None: disable the {{ en.UVLT }} for all users.</li><li> {{ en.DOD }}: use a {{ en.DOD }} file (*.dod) as a {{ en.UVLT }}.</li></ul> |

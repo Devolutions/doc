@@ -14,15 +14,15 @@ Use ***File – Preferences – User Interface*** to configure options related t
 | OPTION                    | DESCRIPTION |
 |---------------------------|-------------|
 | Theme                     | Choose between the **_Dark_** or **_Light_** themes, or use your **_System_**'s theme. |
-| User Interface            | Choose between the **_Classic_** and the **_Ribbon_** interface for {{ en.RDM }}'s main menu header.                     |
+| User Interface            | Choose between the **_Classic_** and the **_Ribbon_** interface for {{ en.RDM }}'s main menu header. |
 | Hide footer               | When using the **_Ribbon User Interface_**, select this option to hide your footer. |
 | Language                  | Select {{ en.RDMMAC }}'s default application language. |
-| Wait progress mode        | Select how the progress when waiting is displayed. Choose between a **_Status bar_** or a **_Window_**.               |
-| Usage profile             | Select the default usage profile users will be assigned between **_IT professional_** and **_Business user_**.        |
+| Wait progress mode        | Select how the progress when waiting is displayed. Choose between a **_Status bar_** or a **_Window_**. |
+| Usage profile             | Select the default usage profile users will be assigned between **_IT professional_** and **_Business user_**.|
 | Navigation toggle location| Specify the default location of the toolbar (right or left). |
-| Navigation tab location   | Specify the default location of the **_Navigation_** tab (top or bottom of the **_{{ en.NPANE }}_**).                       |
+| Navigation tab location   | Specify the default location of the **_Navigation_** tab (top or bottom of the **_{{ en.NPANE }}_**).|
 | Data source location      | Specify the location of the data source on your screen (top or bottom of the **_{{ en.NPANE }}_**). |
-| {{ en.VLT_MAJ }} location | Specify the location of the {{ en.VLT }} on your screen (top or bottom of the **_{{ en.NPANE }}_**, or not visible).            |
+| {{ en.VLT_MAJ }} location | Specify the location of the {{ en.VLT }} on your screen (top or bottom of the **_{{ en.NPANE }}_**, or not visible).|
 | Show the tab bar on undocked windows | Display the tab bar when the session is undocked. |
 | Allow tabs to be rearranged | Allow tabs to be moved from one position to another in the tab bar. |
 | Allow tabs to leave the tab bar | Tabs can be move out of the tab bar. |
@@ -49,8 +49,8 @@ Use ***File – Preferences – User Interface*** to configure options related t
 | Include entry list menus                 | Includes the entries in the list menu. |
 | Include opened entry menus               | Includes a sub-menu for opened sessions. |
 | Include Show/Hide menu                   | Includes a menu to show and hide certain options. |
-| Include “Maximize“ menu                  | Includes a menu to maximize the application window to take the full area of the screen.                                    |
-| Include data source menus (only if more than one) | Includes a sub-menu for the data sources. This requires more than one data source to function.                        |
+| Include “Maximize“ menu                  | Includes a menu to maximize the application window to take the full area of the screen.|
+| Include data source menus (only if more than one) | Includes a sub-menu for the data sources. This requires more than one data source to function. |
 | Include “Quick Connect“ menu             | Includes a menu to perform a Quick Connect to a host. |
 | Include most recently used menu          | Includes a menu that contain the Most Recently Used entries. |
 | Include “Play list“ menu                 | The Play List will appear in the menu. |
@@ -61,7 +61,7 @@ Use ***File – Preferences – User Interface*** to configure options related t
 
 | OPTION                         | DESCRIPTION |
 |--------------------------------|-------------|
-| Shortcut overlay               | Determine on which items the shortcut icon is visible. Choose between:<ul><li>All</li><li> None</li><li> All except original</li></ul>             |
-| Disable entry drag-and-drop    | This setting disables moving entries with drag-and-drop. Use this option to avoid any unwanted session create by drag and drop by mistake.    |
+| Shortcut overlay               | Determine on which items the shortcut icon is visible. Choose between:<ul><li>All</li><li> None</li><li> All except original</li></ul>                              |
+| Disable entry drag-and-drop    | This setting disables moving entries with drag-and-drop. Use this option to avoid any unwanted session create by drag and drop by mistake. |
 | Merge credential list with sessions | Credentials will appear within the list of Sessions instead of in their own {{ en.VLT }}. |
-| Merge session tool list with sessions | Session tool list will appear within the list of Sessions instead of in their own {{ en.VLT }}.                          |
+| Merge session tool list with sessions | Session tool list will appear within the list of Sessions instead of in their own {{ en.VLT }}. |

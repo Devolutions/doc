@@ -16,10 +16,10 @@ It is possible to select multiple entries at once with a <kbd>Shift</kbd>-click 
 | Load                | Load searches that have been previously saved. |
 | Save                | Save your search locally to reuse it. |
 | Save As             | Save a previously saved search but under a different name. |
-| Export              | Export the entries of your search result as a CSV, HTML, XLS or XML file. Sensitive information will be encrypted using AES.  |
+| Export              | Export the entries of your search result as a CSV, HTML, XLS or XML file. Sensitive information will be encrypted using AES. |
 | Search              | Once you have selected your search criteria, click on Search to display the search results. |
 | Reset               | Reset all your fields to proceed with a new search. |
-| Select in ***{{ en.NPANE }}*** | Select your search result in your ***{{ en.NPANE }}***. This option can be used in combination with a Batch Edit.    |
+| Select in ***{{ en.NPANE }}*** | Select your search result in your ***{{ en.NPANE }}***. This option can be used in combination with a Batch Edit. |
 
 There will be a drop-down list next to certain criteria fields (ex: Name) to give you more search options:  
 

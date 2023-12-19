@@ -3,7 +3,7 @@ eleventyComputed:
   title: SQLite
   description: '{{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations.'
 ---
-{{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations. More powerful and more flexible than the 
+{{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations. More powerful and more flexible than the XML file format, it also supports a few of the Advanced Data Source options like Logs and Attachments.
 
 ## Highlights 
 

@@ -28,7 +28,7 @@ All passwords are encrypted by default. You can specify a custom password (maste
 | OPTION   | DESCRIPTION |
 |----------|-------------|
 | Name     | Name of the data source. |
-| Filename | Specify the full path of the XML file used to save the data. Relative paths and environment variables can be used as well.      |
+| Filename | Specify the full path of the XML file used to save the data. Relative paths and environment variables can be used as well. |
 
 ### Backup 
 

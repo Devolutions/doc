@@ -18,7 +18,7 @@ When choosing any type of data source that is not on-premises, you must consider
 | Database not accessible to end users    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Encryption at rest and in transit       | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Zero-knowledge on sensitive data        |                             | {{ icon.badgeNotice | safe }} |
-| Privileged Access Management (PAM) module| {{ icon.badgeNotice | safe }} | *Note 1*                      |
+| Privileged Access Management (PAM) module| {{ icon.badgeNotice | safe }} | *Note 1*                   |
 | AD accounts used for authentication     | {{ icon.badgeNotice | safe }} |                             |
 | AD group membership used to assign permissions | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Activity logs                           | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |

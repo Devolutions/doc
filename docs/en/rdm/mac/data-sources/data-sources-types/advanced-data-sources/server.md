@@ -56,7 +56,7 @@ Alternatively, you can export the data source information and then import the fi
 | OPTION                          | DESCRIPTION |
 |---------------------------------|-------------|
 | Offline mode                    | Determine if you want to use this data source in Offline mode. In offline mode, the data source can be available in Read Only or in Read/Write mode. |
-| Prompt for offline mode on startup | Every time you will connect on your data source, you will be prompt to use the data source in offline mode.                  |
+| Prompt for offline mode on startup | Every time you will connect on your data source, you will be prompt to use the data source in offline mode. |
 | Caching mode                    | Determine how the entries will be reload in the data source. See [Caching Mode](/rdm/mac/data-sources/caching/) for more information. |
 | Ping online method              | Indicate the prefer ping online. Select between:<ul><li>None</li><li> Web request</li></ul> |
 | Auto go offline                 | If the ping online method does not work it will automatically go offline. |

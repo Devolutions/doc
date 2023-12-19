@@ -100,6 +100,6 @@ Open a VPN to access your data prior to connecting to your Microsoft Azure SQL d
 | Connection timeout        | Set the delay of the connection timeout. |
 | Command timeout           | Set the delay of the command timeout. |
 | Allow beta database upgrade | Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}). |
-| Manage Cache              | Manage the data source cache. On large data sources caching is a must and will increase performance significantly.              |
+| Manage Cache              | Manage the data source cache. On large data sources caching is a must and will increase performance significantly. |
 | Advanced Settings         | Edit the connection string values directly. |
 

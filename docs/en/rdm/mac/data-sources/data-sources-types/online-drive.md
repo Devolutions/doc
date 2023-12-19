@@ -58,7 +58,7 @@ Open a VPN to access your data prior to connecting to your {{ en.DOD }}.
 |-------------------------|-------------|
 | Disable reveal password | Disable the reveal password feature when a user access this data source. |
 | Allow offline mode      | Allow the data source to be used in Offline mode. |
-| Allow custom images     | Allows the user to use custom images. Too many custom images could dramatically increase the size of the data source and increase the load time at the same time. |
+| Allow custom images     | Allows the user to use custom images. Too many custom images could dramatically increase the size of the data source and increase the load time at the same time.            |
 | Auto refresh            | Set the interval for the automatic refresh |
 | Clear Offline Cache     | Clear the offline cache on your computer. This can be very helpful when encountering offline issues. |
 
