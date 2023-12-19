@@ -21,8 +21,6 @@ The {{ en.CIS }} uploads a configuration file to our online services. You should
 
 You **must create an installer file** using {{ en.RDM }} before creating the installer on the Web portal. This is described in [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/).
 
-You can store and create up to six ***{{ en.CI }}*** configuration file packages in your {{ en.DA }}.
-
 The {{ en.CIS }} can be found in with the {{ en.DA }} tools, located in ***File – {{ en.DA }} – Tools***. You must be signed in to access it.
 ![File – {{ en.DA }} – Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11245.png)
 

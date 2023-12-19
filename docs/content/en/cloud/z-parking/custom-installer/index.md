@@ -17,10 +17,6 @@ The ***{{ en.CIM }}*** uploads a configuration file to our online services. You 
 For stability reasons, in large installation bases, the latest official release is not available to the {{ en.CIS }} until an undetermined period while we ensure that no major issues are present. We recommend using this time with your organization to perform integration tests on a few workstations before upgrading your entire team.
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %}
-You can store and create up to six ***{{ en.CI }}*** configuration file packages in your {{ en.DA }}.
-{% endsnippet %}
-
 ## Settings
 
 {% snippet icon.badgeInfo %}
