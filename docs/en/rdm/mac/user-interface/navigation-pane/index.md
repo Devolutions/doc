@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: '{{ en.NPANE }}'
+  title: "{{ en.NPANE }}"
   description: The {{ en.NPANE }} is one of the main components of the {{ en.RDM }} user interface. It lists all the available entries in the current data source, allows to switch to another data source or repository, and performs actions on entries.
 ---
 The ***{{ en.NPANE }}*** is one of the main components of the {{ en.RDM }} user interface. It lists all the available entries in the current data source, allows to switch to another data source or repository, and performs actions on entries.  

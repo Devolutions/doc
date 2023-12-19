@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: SQLite
-  description: '{{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations.'
+  description: "{{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations."
 ---
 {{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations. More powerful and more flexible than the 
 

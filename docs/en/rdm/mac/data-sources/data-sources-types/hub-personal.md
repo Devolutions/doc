@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: '{{ en.DHUBP }}'
-  description: '{{ en.DHUBP }}, for individual users who want to secure personal passwords in a secure {{ en.VLT }} for free.'
+  title: "{{ en.DHUBP }}"
+  description: "{{ en.DHUBP }}, for individual users who want to secure personal passwords in a secure {{ en.VLT }} for free."
 ---
 {{ en.DHUBP }}, for individual users who want to secure personal passwords in a secure {{ en.VLT }} for free.  
 

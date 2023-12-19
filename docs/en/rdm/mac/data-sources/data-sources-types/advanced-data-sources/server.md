@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: '{{ en.DVLS }}'
-  description: '{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials.'
+  title: "{{ en.DVLS }}"
+  description: "{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials."
 ---
 {{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the [{{ en.DVLS }} web page](https://devolutions.net/server). 
 

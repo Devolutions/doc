@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Microsoft SQL Server
-  description: '{{ en.RDMMAC }} uses the power of Microsoft SQL Server to save and manage all sessions.' 
+  description: "{{ en.RDMMAC }} uses the power of Microsoft SQL Server to save and manage all sessions."
 ---
 
 {{ en.RDMMAC }} uses the power of Microsoft SQL Server to save and manage all sessions. 

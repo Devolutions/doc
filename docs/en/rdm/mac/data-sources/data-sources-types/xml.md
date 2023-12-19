@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: XML
-  description: '{{ en.RDMMAC }} saves the settings directly in a file with the XML format.'
+  description: "{{ en.RDMMAC }} saves the settings directly in a file with the XML format."
 ---
 {{ en.RDMMAC }} saves the settings directly in a file with the XML format. 
 

@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Data source types
-  description: '{{ en.RDMMAC }} supports multiple types of data source. First decide which data source you are going to use.'  
+  description: "{{ en.RDMMAC }} supports multiple types of data source. First decide which data source you are going to use."
   order: 20
 ---
 {{ en.RDMMAC }} supports multiple types of data source. First decide which data source you are going to use.  

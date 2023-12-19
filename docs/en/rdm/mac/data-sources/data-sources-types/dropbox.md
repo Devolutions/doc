@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Dropbox
-  description: '{{ en.RDMMAC }} uses the Dropbox API to retrieve a XML file from the configured repository.'
+  description: "{{ en.RDMMAC }} uses the Dropbox API to retrieve a XML file from the configured repository."
 ---
 {{ en.RDMMAC }} uses the Dropbox API to retrieve a XML file from the configured repository. There is no need to install the Dropbox client on the machine to open the data source. It is also possible to configure more than one Dropbox account on the same machine. 
 
