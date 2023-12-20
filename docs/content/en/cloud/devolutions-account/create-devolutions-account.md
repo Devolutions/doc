@@ -19,7 +19,7 @@ Create your free {{ en.DA }} by following the steps below.
    {% snippet icon.badgeCaution %}
    The activation link email might be in your spam/junk folder. For Gmail accounts, also check the ***Promotions*** folder.
 
-   It may take some time to receive it. If you do not receive the email, follow the <a href="#forgotten-password">Forgotten password</a> steps below.
+   It may take some time to receive it. If you do not receive the email, follow the [Forgotten password](#forgotten-password) steps below.
    {% endsnippet %}
 
    ![{{ en.DA }} activation](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4023.png)
@@ -28,7 +28,7 @@ Create your free {{ en.DA }} by following the steps below.
 
 Your account has been created!
 
-## Forgotten password <a name="forgotten-password"></a>
+## Forgotten password
 
 In the event that you did not receive the activation email or that you forgot your password, follow these steps:
 
