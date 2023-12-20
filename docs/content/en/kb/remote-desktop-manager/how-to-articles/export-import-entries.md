@@ -11,18 +11,18 @@ It is possible to export and import entries from one type of data source to anot
 If you have users who override entry properties with ***User Specific Settings***, they will be required to export and import their ***User Specific Settings List***. See [Export and Import User Specific Settings](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/).
 {% endsnippet %}
 
-The first method is done directly in <a href="#exportimport-through-remote-desktop-manager">{{ en.RDM }}</a>, while the second one uses a <a href="#exportimport-using-powershell">PowerShell script</a>.
+The first method is done directly in [{{ en.RDM }}](#exportimport-through-remote-desktop-manager), while the second one uses a [PowerShell script](#exportimport-using-powershell).
 
 ## Export/Import Through {{ en.RDM }}
 1. In {{ en.RDM }}, select your data source in the ***{{ en.NPANE }}***.
    {% snippet icon.badgeNotice %}
-   To export the entire {{ en.VLT }}, go to ***File*** – ***Export*** – ***Export {{ en.VLT }} (.rdm)*** and skip to <a href="#step4">step 4</a>.
+   To export the entire {{ en.VLT }}, go to ***File*** – ***Export*** – ***Export {{ en.VLT }} (.rdm)*** and skip to step 4.
    {% endsnippet %}  
 
 1. Select the entries and/or folders you wish to export. Use the <kbd>Ctrl</kbd>+click shortcut to select multiple items at once.
 1. Right-click on the selection. In the contextual menu, select ***Export*** – ***Export Selection (.rdm)***.  
 ![Export Selection (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4998.png)
-1. <a name="step4"></a>In the ***Export Entries*** window, check the options that you want to enable. For a typical migration, check the ***Include credentials, Include attachments and documents***, and ***Encrypt with master key*** options.
+1. In the ***Export Entries*** window, check the options that you want to enable. For a typical migration, check the ***Include credentials, Include attachments and documents***, and ***Encrypt with master key*** options.
    {% snippet icon.badgeInfo %}
    By default, credentials are **not** included. It is critical to check the ***Include credentials*** option for the exported data to include them.
    {% endsnippet %}  
