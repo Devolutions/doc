@@ -10,7 +10,7 @@ Based on [IronRDP](https://github.com/Devolutions/IronRDP) (Rust implementation 
 {% endsnippet %} 
 
 {% snippet icon.badgeCaution %}
-This feature is still under development. Thus, it is only possible to see a preview of the RDP session for the moment: you cannot interact with it. The clipboard is not supported and it is not yet possible to send files to the server. Rest assured that this is a temporary situation and that we are working towards a fully functional web RDP client. Learn about the <a href="#currently-supported-features">currently supported features</a>.
+This feature is still under development. Thus, it is only possible to see a preview of the RDP session for the moment: you cannot interact with it. The clipboard is not supported and it is not yet possible to send files to the server. Rest assured that this is a temporary situation and that we are working towards a fully functional web RDP client. Learn about the [currently supported features](#currently-supported-features).
 {% endsnippet %}
 
 ## Requirements
@@ -20,8 +20,8 @@ In order to use this feature, certain requirements must be met, namely:
 * Windows Server 2016 and higher.
 * Have a [{{ en.DGW }}](/server/dgw/server-configuration/) version 2023.1 or later.
 * Have a [{{ en.DVLS }}](/server/installation/upgrade-server/) version 2023.1.3 or later.
-* Have an <a href="#rdp-session-configuration">RDP type connection</a> with:
-  * a Gateway type VPN configured.
+* Have an [RDP type connection](#rdp-session-configuration) with:
+  * a gateway type VPN configured.
   * no mandatory session recording.
 * Have the ***View password*** permission if you are the one to use the session.
 * Have a {{ en.RDM }} or {{ en.DLAUNCHER }} license assigned to the user that wants to use the connection.
@@ -60,7 +60,7 @@ A new browser tab should open and your session should start.
 ![RDP Session Opened in a Web Client](https://webdevolutions.azureedge.net/docs/en/kb/KB2224.png)
 
 {% snippet icon.badgeHelp %}
-If the connection does not work, check the <a href="#requirements">Requirements</a> again or visit [RDP Web Client Not Showing](/kb/devolutions-gateway/troubleshooting-articles/rdp-web-client-not-showing/).
+If the connection does not work, check the [Requirements](#requirements) again or visit [RDP Web Client Not Showing](/kb/devolutions-gateway/troubleshooting-articles/rdp-web-client-not-showing/).
 {% endsnippet %}
 
 ### Currently Supported Features
@@ -69,13 +69,13 @@ This feature is still under development. The tools menu in the RDP web interface
 
 ![Currently Supported Features](https://webdevolutions.azureedge.net/docs/en/kb/KB2225.png)
 
-| Icon | Option | Description |
-|------|--------|-------------|
-| ![!!Full screen](https://webdevolutions.azureedge.net/docs/en/kb/Icons/fullscreen.png)        | Full screen            | Displays the content of the session, making sure to always occupy the maximum space on the screen.              |
-| ![!!Fit to screen](https://webdevolutions.azureedge.net/docs/en/kb/Icons/smallscreen.png)     | Fit to screen (default)| Adapts the size to best fit the available space so that the entire session is always visible.                   |
-| ![!!Real size](https://webdevolutions.azureedge.net/docs/en/kb/Icons/screen.png)              | Real size              | Conforms to the resolution of the target host.                                                                   |
-| ![!!Windows key](https://webdevolutions.azureedge.net/docs/en/kb/Icons/windows.png)          | Windows key           | Sends the signal of the Windows key (however, the key must also work).                                           |
-| ![!!Ctrl+Alt+Del](https://webdevolutions.azureedge.net/docs/en/kb/Icons/gear.png)             | Ctrl+Alt+Del          | Sends the command to the host system.                                                              |
+| Icon                                                                                      | Option                  | Description |
+|-------------------------------------------------------------------------------------------|-------------------------|-------------|
+| ![!!Full screen](https://webdevolutions.azureedge.net/docs/en/kb/Icons/fullscreen.png)    | Full screen             | Displays the content of the session, making sure to always occupy the maximum space on the screen. |
+| ![!!Fit to screen](https://webdevolutions.azureedge.net/docs/en/kb/Icons/smallscreen.png) | Fit to screen (default) | Adapts the size to best fit the available space so that the entire session is always visible. |
+| ![!!Real size](https://webdevolutions.azureedge.net/docs/en/kb/Icons/screen.png)          | Real size               | Conforms to the resolution of the target host. |
+| ![!!Windows key](https://webdevolutions.azureedge.net/docs/en/kb/Icons/windows.png)       | Windows key             | Sends the signal of the Windows key (however, the key must also work). |
+| ![!!Ctrl+Alt+Del](https://webdevolutions.azureedge.net/docs/en/kb/Icons/gear.png)         | Ctrl+Alt+Del            | Sends the command to the host system. |
 
 For the moment, the following features are not supported:
 * Copy/Paste
