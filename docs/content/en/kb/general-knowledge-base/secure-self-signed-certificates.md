@@ -6,7 +6,6 @@ eleventyComputed:
 This is the definitive guide to create secure certificates, for both servers and clients, using OpenSSL.
 
 ## Procedure
-
 {% snippet icon.badgeHelp %}
 On Windows, we recommend using Chocolatey to install OpenSSL and its dependencies. The command line is simply
 `choco install openssl`
@@ -18,8 +17,6 @@ On Windows, we recommend using Chocolatey to install OpenSSL and its dependencie
 * [Process a Certificate Signing Request (CSR) on the Root Certificate Authority (CA)](#process)
 
 ### Root Certification authority (CA)
-<a name="root"></a>
-
 1. Generate the Root CA Private Key.
 
    Every certificate must have a corresponding private key. Generate it using the following command line:
@@ -49,8 +46,6 @@ On Windows, we recommend using Chocolatey to install OpenSSL and its dependencie
 3. [Install the certificate](/kb/general-knowledge-base/install-root-certificates/) Note that the certificate must be installed on the server and on all of the clients to validate the legitimacy of issued certificates. Some browsers also have particularities which are described in the topic.
 
 ### Server certificate
-<a name="server"></a>
-
 {% snippet icon.shieldCaution %}
 These steps are usually performed on each server or device for which you intend to request a certificate. Install OpenSSL if it is not present. The alternative is to securely deploy the private key to the destination server at the same time as the certificate. We recommend you use this last approach only if you must adhere to scripted deployments to follow cloudops/devops practices.
 {% endsnippet %}
@@ -84,20 +79,15 @@ These steps are usually performed on each server or device for which you intend 
    The server.csr file must now be transferred to the Root CA.
 
 3. Process the request by following the instructions [below](#process).
-
 4. Deploy the certificate.
 
 ### Client certificate
-<a name="client"></a>
-
 Follow the same procedure as for the Server above, but you must adapt two attributes of the information you enter to your needs, namely the Common Name and the Email Address
 
 `Common Name (e.g. server FQDN or YOUR name) []:John Doe`  
 `Email Address []:JohnDoe@acme.com`  
 
 ### Process a Certificate Signing Request (CSR) on the Root Certificate Authority (CA)
-<a name="process"></a>
-
 Process the CSR by generating a certificate.
 
 Generate it using the following command line, where the server.csr has been generated on the server:
