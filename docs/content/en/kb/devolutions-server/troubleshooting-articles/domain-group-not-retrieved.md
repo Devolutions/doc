@@ -6,7 +6,7 @@ eleventyComputed:
   - Domain Group
   - Domain Diagnostic
 ---
-This topic will cover both <a href="#teams%2Fenterprise">Teams/Enterprise</a> licences and <a href="#platinum">Platinum</a> licences.
+This topic will cover both [Teams/Enterprise](#teams%2Fenterprise) licences and [Platinum](#platinum) licences.
 
 ## Teams/Enterprise
 1. Access the {{ en.DVLS }} web interface and connect using an administrator account.
@@ -50,7 +50,7 @@ If this fails, instead use ***Directory entry token group (Legacy)*** or ***Recu
 {% snippet icon.badgeInfo %}
 If this fails, instead use ***Directory entry token group (Legacy)*** or ***Recursively*** in the ***Strategy*** dropdown.
 {% endsnippet %}
- 
+
 9. Close this window by clicking on ***Close***.
 1. Click on ***Edit***.  
 ![Edit](https://webdevolutions.azureedge.net/docs/en/kb/KB0016.png)
