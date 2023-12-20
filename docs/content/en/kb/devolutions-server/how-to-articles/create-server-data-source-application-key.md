@@ -7,8 +7,6 @@ With the {{ en.PS }} module, it is possible to connect to a {{ en.DVLS }} instan
 ## Steps
 
 ### Method 1: {{ en.RDM }}
-<a name="rdm"></a>
-
 1. In {{ en.RDM }}, go to ***File – Data Sources***. 
 1. Click the ***Add a New Data Source*** button.  
 ![File – Data Sources – Add a New Data Source](https://webdevolutions.azureedge.net/docs/en/kb/KB2117.png) 
@@ -22,9 +20,7 @@ With the {{ en.PS }} module, it is possible to connect to a {{ en.DVLS }} instan
 
 Your new {{ en.DVLS }} data source is now created. You can now connect to your {{ en.DVLS }} and run your scripts.
 
-### Method 2: PowerShell 
-<a name="powershell"></a>
-
+### Method 2: PowerShell
 1. Using the PowerShell cmdlets, paste the following sample script:
 
    ```PowerShell
