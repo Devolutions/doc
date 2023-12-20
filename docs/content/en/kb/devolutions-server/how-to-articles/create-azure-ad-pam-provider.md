@@ -6,7 +6,6 @@ eleventyComputed:
 The following guide provides steps to create an Azure AD user PAM provider for {{ en.DVLS }}.
 
 **In the Azure Portal**
-
 1. In a browser page, open the [Microsoft Azure AD Portal](https://azure.microsoft.com) and sign in to your account.
 1. Select ***Azure Active Directory*** in the ***Azure Services*** section. If you do not see it, click on ***More services*** to make other services appear.
 ![Azure Active Directory Service](https://webdevolutions.azureedge.net/docs/en/kb/KB2132.png)
@@ -17,7 +16,6 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 1. Click ***Register*** at the bottom when done.
 
 **In {{ en.DVLS }}**
-
 6. Connect to your {{ en.DVLS }}.
 1. Go to ***Administration – Privileged Access – Providers***, then click on ***Add***.
 ![Administration – Privileged Access – Providers – Add](https://webdevolutions.azureedge.net/docs/en/kb/KB2134.png)
@@ -27,27 +25,22 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 ![Name, Description, and Password template](https://webdevolutions.azureedge.net/docs/en/kb/KB2135.png)
 
 **In the Azure Portal**
-
 10. In the ***Overview*** of your new app registration, copy the ***Directory (tenant) ID***.
 ![Copy the Directory (tenant) ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2136.png)
 
 **In {{ en.DVLS }}**
-
 11. Paste the ID copied in the previous step in the ***Tenant ID*** field.
 ![Tenant ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2138.png)
 
 **In the Azure Portal**
-
 12. Still in the ***Overview*** of your new app registration, copy the ***Application (client) ID***.
 ![Copy the Application (client) ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2137.png)
 
 **In {{ en.DVLS }}**
-
 13. Paste the ID copied in the previous step in the ***Client ID*** field.
 ![Client ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2139.png)
 
 **In the Azure Portal**
-
 14. In ***Certificates & secrets***, click on ***Client secrets***, then on ***New client secret***.
 ![New client secret](https://webdevolutions.azureedge.net/docs/en/kb/KB8064.png)
 1. In the ***Add a client secret*** window, enter a ***Description*** and select an expiration date for this client secret, as per your best internal security practices.
@@ -57,15 +50,14 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 ![Copy the Client Secret Value](https://webdevolutions.azureedge.net/docs/en/kb/KB8067.png)
 
 **In {{ en.DVLS }}**
-
 18. Paste the value copied in the previous step in the ***Secret key*** field.
 ![Secret key](https://webdevolutions.azureedge.net/docs/en/kb/KB8068.png)
-1. <a name="Step19"></a>Test the connection to see if it works, then click ***Save***. The ***Scan Configuration*** window will appear: keep it open as it will be filled in a later step.
+1. Test the connection to see if it works, then click ***Save***. The ***Scan Configuration*** window will appear: keep it open as it will be filled in a later step.
 
 **In the Azure Portal**
 
    {% snippet icon.badgeCaution %}
-   Assigning API permissions as described in steps 20 to 26 is only useful if you want to perform Azure accounts discovery (scan). If this is not the case, to avoid assigning unnecessary permissions to the application, skip to <a href="#Step27">step 27</a>.
+   Assigning API permissions as described in steps 20 to 26 is only useful if you want to perform Azure accounts discovery (scan). If this is not the case, to avoid assigning unnecessary permissions to the application, skip to step 27.
    {% endsnippet %}
 
 20. In ***API permissions***, click ***Add a permission***.
@@ -91,7 +83,7 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 ![Grant admin consent for your organization](https://webdevolutions.azureedge.net/docs/en/kb/KB2329.png)
 1. To confirm that the admin consent has been granted, check the ***Status*** of your permissions.
 ![Granted Status](https://webdevolutions.azureedge.net/docs/en/kb/KB2330.png)
-1. <a name="Step27"></a>To grant the application the ability to rotate passwords, leave the ***App registrations*** to go back to Azure Active Directory, then select ***Roles and administrators*** in the left menu.
+1. To grant the application the ability to rotate passwords, leave the ***App registrations*** to go back to Azure Active Directory, then select ***Roles and administrators*** in the left menu.
 1. In ***All roles***, click on the ***Helpdesk Administrator*** role. If the accounts managed by the PAM module are members of any administrator roles or group, then the application needs the ***Privileged Authentication Administrator*** role.
 ![All roles – Helpdesk Administrator](https://webdevolutions.azureedge.net/docs/en/kb/KB8072.png)
 1. In ***Assignments***, click on the ***Add assignments*** button.
@@ -101,8 +93,7 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 Your new assignment should now be displayed in ***Assignments***.
 
 **In {{ en.DVLS }}**
-
-31. The last steps are dedicated to configuring a scan for this provider. In the ***Scan Configuration*** window that appeared when you saved your provider configuration in <a href="#Step19">step 19</a>, under ***General***, enter a ***Name*** for this configuration.
+31. The last steps are dedicated to configuring a scan for this provider. In the ***Scan Configuration*** window that appeared when you saved your provider configuration in step 19, under ***General***, enter a ***Name*** for this configuration.
 ![Scan Configuration Name](https://webdevolutions.azureedge.net/docs/en/kb/KB2144.png)
 1. Under ***Configuration***, select ***Groups*** or ***Roles*** in the ***Search mode*** drop-down list. You can filter the ***Search mode*** for specific Azure AD groups or roles by clicking on the ***Edit*** button next to the drop-down list.
 ![Scan Configuration Search mode](https://webdevolutions.azureedge.net/docs/en/kb/KB8077.png)
