@@ -7,15 +7,12 @@ You can import new data to your {{ en.DHUBP }} and export your existing data to 
 ![Import/Export](https://webdevolutions.azureedge.net/docs/en/kb/KB2083.png)
 
 ## Steps
-
 Go to the section that corresponds to your needs:
 
 * [Import data to {{ en.DHUBP }}](#import)
 * [Export data from {{ en.DHUBP }}](#export)
 
 ### Import Data
-<a name="import"></a>
-
 1. In ***Tools – Import***, select the source from which you want to import your data in the drop-down list.
 ![Import Source](https://webdevolutions.azureedge.net/docs/en/kb/KB2084.png)
 1. Upload your .csv or .json file.  
@@ -33,8 +30,6 @@ The ***Change ID*** box at the bottom left of the window is checked by default, 
 Your data has been imported to the destination folder you previously specified.
 
 ### Export Data
-<a name="export"></a>
-
 1. In ***Tools – Export***, select the file ***Export type*** in the drop-down list.  
 ![!!KB2088](https://webdevolutions.azureedge.net/docs/en/kb/KB2088.png)  
 {% snippet icon.shieldCaution %}
