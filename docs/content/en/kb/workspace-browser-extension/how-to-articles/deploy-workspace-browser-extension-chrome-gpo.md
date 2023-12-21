@@ -11,7 +11,6 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 {% endsnippet %}
 
 ## Configuring extensions by policy on Windows 10 for Chrome
-
 1. Open ***Group Policy Management*** (***Start - Run - GPMC.msc***).
 1. Right-click on the GPO list and select ***New***.
 1. In the ***New GPO*** window, create your new object then click on ***OK***.
@@ -23,13 +22,12 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 1. Enter ***SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\neimonjjffhehnojilepgfejkneaidmo\policy*** in the ***Key Path*** text field.
 1. Enter ***Settings*** in the ***Value name*** text field.
 1. Select REG_SZ in the ***Value type*** drop-down list.
-1. Write the JSON settings string in the ***Value data*** text field. See the <a href="#values">Values</a> section below for an example.
+1. Write the JSON settings string in the ***Value data*** text field. See the [Values](#values) section below for an example.
 1. Click on ***OK***.  
 ![!!KB8106](https://webdevolutions.azureedge.net/docs/en/kb/KB8106.png)
 1. In ***Group Policy Management***, configure the GPO ***Links*** and ***Security Filtering*** according to your needs.
 
-### Example <a name="Example"></a>
-
+### Example
 * Activate {{ en.DVLS }}
 * Set ***https<area>://localhost/mydvlsurl*** as {{ en.DVLS }} URL.
 * Disable the settings page.
@@ -49,8 +47,7 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 ```
 
 ### Default settings
-
-All attributes can have their value changed or their key removed. 
+All attributes can have their value changed or their key removed.
 
 ```
 {
@@ -118,8 +115,7 @@ All attributes can have their value changed or their key removed.
 ```
 
 ### Default admin Settings
-
-All attributes can have their value changed or their key removed. If this section is added in the JSON string, a comma needs to be added at the end of the settings section above. See the sample in the <a href="#Example">Example</a> section about it.
+All attributes can have their value changed or their key removed. If this section is added in the JSON string, a comma needs to be added at the end of the settings section above. See the sample in the [Example](#Example) section about it.
 
 ```
 {
@@ -131,8 +127,6 @@ All attributes can have their value changed or their key removed. If this sectio
 ```
 
 ### Values
-<a name="values"></a>
-
 disableSettingsPage
 
 Hide the settings button and disable the settings page in the {{ en.WBEX }} for the end-user.  
@@ -151,7 +145,6 @@ Possible values:
 * AlwaysUseDefaultAndOverride: Use the default settings for all settings not in the GPO and override the values from the GPO when the extension is started.
 
 ## Configuring the {{ en.WBEX }} to be automatically pinned on the Google Chrome toolbar
-
 1. Create a new GPO rule to have the {{ en.WBEX }} automatically pinned on the Chrome toolbar.
 1. Select Registry located in Computer Configuration – Preferences – Windows Settings – Registry or User Configuration – Preferences – Windows Settings – Registry according to your needs.
 1. In the registry properties, set the Action parameter to ***Replace*** to change the existing rule or to create it if it does not exist.
@@ -172,6 +165,5 @@ Possible values:
 ![!!KB8105](https://webdevolutions.azureedge.net/docs/en/kb/KB8105.png)
 
 ## References
-
 [https://www.chromium.org/administrators](https://www.chromium.org/administrators)  
 [https://www.chromium.org/administrators/complex-policies-on-windows](https://www.chromium.org/administrators/complex-policies-on-windows)
