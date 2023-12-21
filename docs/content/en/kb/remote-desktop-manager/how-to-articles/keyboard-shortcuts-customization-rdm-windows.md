@@ -2,19 +2,17 @@
 eleventyComputed:
   title: Keyboard shortcuts customization in {{ en.RDMWIN }}
 ---
-In {{ en.RDMWIN }}, you can [customize individual shortcuts](#modify) and [create shortcut macros](#create). These options are found in ***File – Options – User Interface – Keyboard***.
+In {{ en.RDMWIN }}, you can [customize individual shortcuts](#modify-shortcuts) and [create shortcut macros](#create-shortcut-macros). These options are found in ***File – Options – User Interface – Keyboard***.
 
 {% snippet icon.badgeInfo %}
 For a list of default values for shortcuts, visit [Keyboard Shortcuts](/rdm/windows/support-resources/keyboard-shortcuts/).
 {% endsnippet %}
 
-![File - Options - User Interface - Keyboard](https://webdevolutions.azureedge.net/docs/en/kb/KB2093.png)
+![File – Options – User Interface – Keyboard](https://webdevolutions.azureedge.net/docs/en/kb/KB2093.png)
 
 ## Modify shortcuts
-<a name="modify"></a>
-
 1. Under the ***Keyboard*** section, find the shortcut you want to modify from the list.
-1. To change the ***Mode*** of the shortcut, click on the mode to make a drop-down list appear. Select the mode between ***Default***, ***When not in session***, ***Global hotkey***, and ***None***.
+1. To change the ***Mode*** of the shortcut, click on the mode to make a drop-down list appear. Select the mode between ***Default***, ***When not in session***, ***Global hotkey***, and ***None***.  
 ![Shortcute mode Customization](https://webdevolutions.azureedge.net/docs/en/kb/KB2096.png)
 1. To change the ***Shortcut***, click on the shortcut to make a drop-down list appear. Select the key combination from the list.  
 ![Shortcut Key Combination Costumization](https://webdevolutions.azureedge.net/docs/en/kb/KB2097.png)
@@ -24,8 +22,6 @@ If you change your mind, you can use the ***Reset Default*** button to cancel al
 {% endsnippet %}
 
 ## Create Shortcut Macros
-<a name="create"></a>
-
 You can create custom ***Macros*** and pair them with ***Shortcut*** key combinations.
 
 1. Under the ***Shortcut Macros*** section, click on the ***Add*** icon. A new macro line will appear.
