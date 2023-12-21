@@ -13,8 +13,6 @@ If you or your ***Users*** are overriding entry properties with ***User Specific
 * [Import](#import)
 
 ## Export
-<a name="export"></a>
-
 1. In the {{ en.RDM }} ***{{ en.NPANE }}***, select your data source and {{ en.VLT }}.
 ![Data Source and {{ en.VLT }} Selection](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6092.png)
 1. Go to ***File – My Account Settings***.
@@ -30,8 +28,6 @@ If you or your ***Users*** are overriding entry properties with ***User Specific
 Your ***User Specific Settings*** have now been exported in a .rds file in the specified location on your computer.
 
 ## Import
-<a name="import"></a>
-
 1. In the {{ en.RDM }} ***{{ en.NPANE }}***, select your new data source and {{ en.VLT }}.
 ![Data Source and {{ en.VLT }} Selection](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6092.png)
 1. Go to ***File – My Account Settings***.
