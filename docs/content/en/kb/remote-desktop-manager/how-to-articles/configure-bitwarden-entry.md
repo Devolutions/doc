@@ -5,7 +5,7 @@ eleventyComputed:
   keywords:
   - Bitwarden
 ---
-In {{ en.RDM }} there are the <a href="#credential-management">***Credential Management***</a> and <a href="#synchronizer">***Synchronizer***</a> entry types for Bitwarden, this topic will explain how each one works.
+In {{ en.RDM }} there are the [***Credential Management***](#credential-management) and [***Synchronizer***](#synchronizer) entry types for Bitwarden, this topic will explain how each one works.
 {% snippet icon.badgeCaution %}
 Email ***Authentication mode*** is now deprecated for ***Bitwarden*** entries and unavailable from 2023.2 onwards.
 {% endsnippet %}  
