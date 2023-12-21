@@ -12,14 +12,12 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
 {% endsnippet %}  
 
 ## Configuration
-
 1. Create a new ***CyberArk Dashboard*** entry or go to the ***Properties*** of your existing one.
 1. In the ***General*** section, specify a ***Name*** and ***Folder*** for your entry if that is not already done.
 
    ![CyberArk Dashboard Properties – General – Name and Folder](https://webdevolutions.azureedge.net/docs/en/kb/KB2166.png)
 
-### ***General*** Tab
-
+### General Tab
 ![General Tab](https://webdevolutions.azureedge.net/docs/en/kb/KB2068.png)  
 3. Enter the ***Web services URL*** to connect to your CyberArk instance. It is the address of the server and should look like "https://&lt;server name&gt;.&lt;our domain&gt;.loc/".
    {% snippet icon.badgeInfo %}
@@ -54,17 +52,15 @@ Your CyberArk {{ en.VLT }} administrator should provide you with the authenticat
    As with all ***Dashboard*** entries in {{ en.RDM }}, if you are creating an entry that will be visible to multiple users, we recommend choosing ***My Account Settings PVWA***, then visiting ***File – My Account Settings – CyberArk PVWA*** to enter your personal CyberArk credentials.
    {% endsnippet %}
 
-8. Follow this step if you selected ***Custom*** in the ***Authentication credentials*** list. If not, skip to the <a href="#advanced-tab">***Advanced*** Tab</a> section.
+8. Follow this step if you selected ***Custom*** in the ***Authentication credentials*** list. If not, skip to the [***Advanced*** Tab](#advanced-tab) section.
     1. Enter your ***Username*** and ***Password*** in the corresponding fields. Use the ***Password generator*** to help you create a secure password.
     1. Check the ***Always ask password*** box to be prompted for your password each time you connect.
     1. If you have a RSA SecurID code, check the ***Append RSA SecurID code to password*** box, then select below the ***RSA SecurID source***.
 
-### ***Advanced*** Tab
-
+### Advanced Tab
 The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***, and ***PSM***.
 
-#### ***General***
-
+#### General
 ![Advanced Tab – General](https://webdevolutions.azureedge.net/docs/en/kb/KB4930.png)
 
 9. The ***Auto refresh*** option is enabled by default. It maintains the connection to your CyberArk environment and removes the need to enter 2FA credentials on every connection. It is recommended to leave it enabled.
@@ -77,8 +73,7 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 1. Select the ***Domain search method*** in the drop-down list.
 1. The ***Domain field*** drop-down list is only relevant when the ***Username format*** is set to the ***Field*** value. Depending on how your {{ en.VLT }} was set up, there can be various CyberArk fields used to hold the domain information. Choose the value that corresponds to your {{ en.VLT }} settings.
 
-#### ***PVWA***
-
+#### PVWA
 ![Advanced Tab – PVWA](https://webdevolutions.azureedge.net/docs/en/kb/KB2263.png)
 
 18. The ***Allow direct connections (PVWA)*** option is enabled by default and is the recommended method. It allows the exact same action as the ***Connect*** button offers in PVWA.
@@ -91,8 +86,7 @@ The ***Advanced*** tab is divided into three sub-tabs: ***General***, ***PVWA***
 
    ![Override RDP Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB2264.png)
 
-#### ***PSM***
-
+#### PSM
 ![Advanced Tab – PSM](https://webdevolutions.azureedge.net/docs/en/kb/KB4932.png)
 
 21. The ***Allow connect using PSM (alternate shell)*** option is disabled by default. Enable it if you want to allow connections via PSM, but using the legacy method of providing an alternate shell.
@@ -113,13 +107,11 @@ You must have a PSM Server entry configured in the same {{ en.VLT }}. Select it 
 {% endsnippet %}  
 
 ## Using the Dashboard
-
 {% snippet icon.badgeInfo %}
 Please note that for the sake of clarity, this section will only provide information about the main usage model of connecting through the PSM.
 {% endsnippet %}  
 
 ### User interface
-
 ![CyberArk Dashboard User Interface](https://webdevolutions.azureedge.net/docs/en/kb/KB2072.png)
 
 1. The ***Actions*** menu allows you to:
@@ -160,7 +152,6 @@ After selecting the account you wish to use, you can either use the ***Connect**
 In both cases, you will then see a dialog box that allows you to specify the host you want to connect to.
 
 ### Selecting a host
-
 ![CyberArk Select Host](https://webdevolutions.azureedge.net/docs/en/kb/KB2071.png)
 
 1. ***Host*** field
@@ -170,7 +161,6 @@ In both cases, you will then see a dialog box that allows you to specify the hos
 1. The grid will display entries that represent a host system. Therefore, connect to the one that represents the endpoint you need to connect to.
 
 ### Using the {{ en.RDM }} ***{{ en.NPANE }}*** to establish connections
-
 After selecting the account in the CyberArk Dashboard, you can also use the ***{{ en.NPANE }}*** to select a host by right-clicking an entry and navigating to the ***Connect using*** menu.
 
 ![Connect using](https://webdevolutions.azureedge.net/docs/en/kb/KB2205.png)
@@ -199,4 +189,3 @@ The same option can be found in ***File*** – ***Options*** – ***Types***.
 3. Click ***OK*** to save and close the window.
 
 Double-clicking will now automatically open the ***Dashboard***.
-
