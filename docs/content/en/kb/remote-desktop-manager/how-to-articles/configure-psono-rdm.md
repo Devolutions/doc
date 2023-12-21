@@ -3,7 +3,7 @@ eleventyComputed:
   title: Configure Psono in {{ en.RDM }}
   description: Configure and enable users to securely access all of your Psono entries and credentials directly from within {{ en.RDM }}.
 ---
-Configure and enable users to securely access all of your Psono entries and credentials directly from within {{ en.RDM }}.  
+Configure and enable users to securely access all of your Psono entries and credentials directly from within {{ en.RDM }}.
 
 {% snippet icon.badgeInfo %}
 Psono is integrated in {{ en.RDM }} versions 2022.1 and higher.
@@ -13,12 +13,10 @@ Psono is integrated in {{ en.RDM }} versions 2022.1 and higher.
 The integration of credentials from password managers is only available in the Team version of {{ en.RDM }}.
 {% endsnippet %}  
 
-1. <a href="#psono">Configure Psono</a>
-1. <a href="#rdm">Configure Psono in {{ en.RDM }}</a>
+* [Configure Psono](#configure-psono)
+* [Configure Psono in {{ en.RDM }}](#configure-psono-in-remote-desktop-manager)
 
 ### Configure Psono
-<a name="psono"></a>
-
 1. Open a web browser and log into your Psono account.
 1. Click on your email address and select ***Other***.  
 ![!!KB4891](https://webdevolutions.azureedge.net/docs/en/kb/KB4891.png)
@@ -28,11 +26,10 @@ The integration of credentials from password managers is only available in the T
 1. Choose whether to check the ***Secret Restriction?*** box:
 * If you check the box, you will need to add a secret to every Psono folder. Follow Psono's [Creating secrets](https://doc.psono.com/user/basic/creating-secrets.html#creating-secrets) for more information.
 * If you uncheck the box, you will be provided with an unlimited key that will grant access to all database secrets.  
-{% snippet icon.shieldCaution %}
-Both options are supported in {{ en.RDM }}; it all depend on the access level the admin is willing to provide. If you uncheck the secret restriction box, it’s easier to manage but less secure than if you add a secret to every Psono folder.
-{% endsnippet %}  
-
-6. Check ***Right to read*** and ***Right to write***.
+   {% snippet icon.shieldCaution %}
+   Both options are supported in {{ en.RDM }}; it all depend on the access level the admin is willing to provide. If you uncheck the secret restriction box, it’s easier to manage but less secure than if you add a secret to every Psono folder.
+   {% endsnippet %}  
+1. Check ***Right to read*** and ***Right to write***.
 1. Click ***Create***.  
 ![!!KB4893](https://webdevolutions.azureedge.net/docs/en/kb/KB4893.png)
 1. Click the edit button next to the new API key you created.  
@@ -41,8 +38,6 @@ Both options are supported in {{ en.RDM }}; it all depend on the access level th
 ![!!KB4895](https://webdevolutions.azureedge.net/docs/en/kb/KB4895.png)
 
 ### Configure Psono in {{ en.RDM }}
-<a name="rdm"></a>
-
 1. In {{ en.RDM }} click ***New entry***.
 1. Use the search field to locate Psono, click ***OK***.  
 ![!!KB4899](https://webdevolutions.azureedge.net/docs/en/kb/KB4899.png)
