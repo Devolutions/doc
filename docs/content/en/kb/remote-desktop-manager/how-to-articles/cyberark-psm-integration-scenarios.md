@@ -6,21 +6,22 @@ eleventyComputed:
 There are different approaches using the {{ en.RDM }} Cyberark PSM Components. Although this guide covers many ways and techniques, it cannot cover every possible avenue. Here are the main approaches and techniques associated with them:  
 
 * Initial import
-	* From CSV (give a CSV template)
+  * From CSV (give a CSV template)
 * Synchronization (using the {{ en.RDM }} synchronizer entry)
-	* From Active Directory synchronizer
-	* From comma-separate values (CSV) synchronizer
+  * From Active Directory synchronizer
+  * From comma-separate values (CSV) synchronizer
 * Dynamic utilization
-	* Quick connect
-	* Host  
+  * Quick connect
+  * Host
 
 ## Initial import of Cyberark connections from CSV
-#### Create the Cyberark PSM server entry (or multiple)  
-![CyberArk PSM Server](https://webdevolutions.azureedge.net/docs/en/kb/KB4680.png)  
-Select the ***Connection Mode*** you elect on the server.  
+
+#### Create the Cyberark PSM server entry (or multiple)
+![CyberArk PSM Server](https://webdevolutions.azureedge.net/docs/en/kb/KB4680.png)
+Select the ***Connection Mode*** you elect on the server.
 
 * Custom (AD Account with permissions to RDP into the PSM server and an associated account in Cyberark).  
-* AAM (Passwordless, see this [article](https://blog.devolutions.net/2020/10/going-passwordless-with-remote-desktop-manager-and-cyberark)).  
+* AAM (Passwordless, see this [article](https://blog.devolutions.net/2020/10/going-passwordless-with-remote-desktop-manager-and-cyberark)).
 
 In this example, Custom is in force; Username/domain/password has been populated manually.  
 
@@ -32,11 +33,9 @@ Once the Cyberark PSM Server has been added, get the ID of the new entry (***Pro
 
 In our example, the ID is 33628378-d4a6-431f-8438-16b75921aef9.  
 
-![ID of the new entry](https://webdevolutions.azureedge.net/docs/en/kb/KB4682.png)  
+![ID of the new entry](https://webdevolutions.azureedge.net/docs/en/kb/KB4682.png)
 
-#### Create the Cyberark PSM connection template  
-<a name="psm"></a>
-
+#### Create the Cyberark PSM connection template
 1. Go to ***File - Templates - Templates***.  
 ![File - Templates - Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB4683.png)  
 1. Add a new template.  
@@ -46,9 +45,7 @@ In our example, the ID is 33628378-d4a6-431f-8438-16b75921aef9.
 1. Give the template a significant name, some of the remaining fields can be filled, but the CSV should be complete enough if filled properly.  
 ![Template name](https://webdevolutions.azureedge.net/docs/en/kb/KB4686.png)
 
-#### Create a CSV file for the import  
-<a name="csv"></a>  
-
+#### Create a CSV file for the import
 The fields are mapped like this:  
 
 | Columns                              | Description                                  |
@@ -60,8 +57,8 @@ The fields are mapped like this:
 | CyberArkPSM\PrivilegedAccount        | Privileged account to use                    |
 | Host                                 | End point Hostname/IP                        |
 
-#### Import  
-Once the PSM Server entry has been created, and the CSV File is populated.  
+#### Import
+Once the PSM Server entry has been created, and the CSV File is populated.
 
 1. Go to ***File - Import - Import Session Csv Wizard***.  
 ![File - Import - Import Session Csv Wizard](https://webdevolutions.azureedge.net/docs/en/kb/KB4687.png)  
@@ -75,28 +72,28 @@ Note: You must tick the ***Generate Direct Mapping*** check box.
 
 ![Imported connections](https://webdevolutions.azureedge.net/docs/en/kb/KB4690.png)  
 
-## Synchronization (using the {{ en.RDM }} synchronizer entry)  
+## Synchronization (using the {{ en.RDM }} synchronizer entry)
 {% snippet icon.badgeInfo %}
 Both those techniques are used to connect to a third-party repository. The first one will connect to a domain controller and list the servers and computers according to filters and settings.
 {% endsnippet %}  
 
-The general approach and principle of using synchronizers are to keep a list of servers updated from an external information repository, such as Domain Controller, VM host, or even a simple CSV file exported periodically from another system.  
+The general approach and principle of using synchronizers are to keep a list of servers updated from an external information repository, such as Domain Controller, VM host, or even a simple CSV file exported periodically from another system.
 
-Those entries are created following a template, created and configured beforehand.  
+Those entries are created following a template, created and configured beforehand.
 
-It’s also granted that the Cyberark PSM integration is already configured and working (PSM Connection and Server Components, {{ en.RDM }} templates, etc.)  
+It’s also granted that the Cyberark PSM integration is already configured and working (PSM Connection and Server Components, {{ en.RDM }} templates, etc.)
 
 ### From Active Directory synchronizer
-This approach will create entries from an LDAP request on a domain controller.  
+This approach will create entries from an LDAP request on a domain controller.
 
-One downside of this setup is that only the Host field will be filled from the synchronizer, the Privileged Account and the component have to either remain empty, or all using the same setting (coming from the template).  
+One downside of this setup is that only the Host field will be filled from the synchronizer, the Privileged Account and the component have to either remain empty, or all using the same setting (coming from the template).
 
-#### Create the PSM connection template  
-Please refer to <a href="#psm">Create the Cyberark PSM Connection Template</a> in the previous section.  
+#### Create the PSM connection template
+Please refer to [Create the Cyberark PSM Connection Template](#create-the-cyberark-psm-connection-template) in the previous section.  
 
-The template will contain the Privileged account, the PSM Server and Connection Component to use.  
-#### Create an Active Directory synchronizer  
+The template will contain the Privileged account, the PSM Server and Connection Component to use.
 
+#### Create an Active Directory synchronizer
 ![Synchronizer- Active Directory](https://webdevolutions.azureedge.net/docs/en/kb/KB4691.png)
 
 1. Enter the domain related data in the ***General*** tab.
@@ -105,38 +102,38 @@ The template will contain the Privileged account, the PSM Server and Connection 
 ![PSM Connection Template](https://webdevolutions.azureedge.net/docs/en/kb/KB4692.png)
 1. Fill in the rest of the options and save.  
 
-Then you only have to run the Synchronizer whenever you need to refresh the server list.  
+Then you only have to run the Synchronizer whenever you need to refresh the server list.
 
 ### From comma-separate values (CSV) synchronizer
 This approach is a mix between the CSV import and the synchronizer.  
 
 In most cases, the CSV file will be generated from an external system, and then edited/processed to add and complete the information.  
 
-Please refer to <a href="#csv">Create the Cyberark PSM Connection Template</a> from the previous section for an example of a CSV Template.  
+Please refer to [Create the Cyberark PSM Connection Template](#create-the-cyberark-psm-connection-template) from the previous section for an example of a CSV Template.  
 
-That makes it more complex, but more flexible.  
+That makes it more complex, but more flexible.
 
-#### Create the PSM connection template 
-Please refer to <a href="#psm">Create the Cyberark PSM Connection Template</a> in the previous section.  
+#### Create the PSM connection template
+Please refer to [Create the Cyberark PSM Connection Template](#create-the-cyberark-psm-connection-template) in the previous section.
 
-#### Create a CSV Synchronizer  
-
+#### Create a CSV Synchronizer
 ![Synchronizer – Comma-separated values (CSV)](https://webdevolutions.azureedge.net/docs/en/kb/KB4693.png)  
 
 Enter the file path, the template to use (created beforehand) and the destination folder.  
 
-You can then run the synchronizer every time a new version of the CSV file is produced to keep you list updated.  
+You can then run the synchronizer every time a new version of the CSV file is produced to keep you list updated.
+
 ## Dynamic utilization
+
 ### Quick Connect
 Via the ***Quick Connect*** toolbar, you can open an ad-hoc session by specifying the host and session type. Read more about the [Quick Connect](/kb/remote-desktop-manager/knowledge-base/quick-connect/) function.  
 
 A Cyberark PSM Connection template is required beforehand.  
-
 1. Go to ***File - Templates - Templates***, and add a new template.
 1. In ***Host***, enter $QUICK_CONNECT$
 1. Set a privileged account to be used.
 1. Select the ***PSM Server*** that this PSM connection will be using and a ***Connection component***.  
-![File - Templates - Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB4694.png)  
+![File - Templates - Templates](https://webdevolutions.azureedge.net/docs/en/kb/KB4694.png)
 
 {% snippet icon.badgeInfo %}
 This approach would allow you to create multiple templates for PSM connections reflecting several ***Privileged Accounts*** and ***Connection components***.
@@ -147,6 +144,7 @@ Once a template has been created, it will be showing up in the ***Quick connect*
 ![Quick connect](https://webdevolutions.azureedge.net/docs/en/kb/KB4695.png)
 
 You can then type in the ***Host*** of the target endpoint, and launch the session.
+
 ## Host
 Take a look at this [link](/kb/remote-desktop-manager/how-to-articles/multiple-types-connections/host-with-templates/) to implement using a host for PSM Integration.  
 
