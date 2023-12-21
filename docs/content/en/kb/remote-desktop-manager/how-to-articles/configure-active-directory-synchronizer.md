@@ -11,7 +11,7 @@ Every field from the ***Active Directory Synchronizer*** entry is described belo
 To learn more about creating and managing an Active Directory, please consult the documentation on the official website.
 {% endsnippet %}
 {% snippet icon.badgeInfo %}
-Please note that the <a href="#schedule">***Schedule*** tab</a> is only available in a {{ en.DVLS }} data source. Also needs the {{ en.DVLS }} ***Scheduler*** to be set up.
+Please note that the [***Schedule*** tab](#schedule) is only available in a {{ en.DVLS }} data source. Also needs the {{ en.DVLS }} ***Scheduler*** to be set up.
 {% endsnippet %}
 
 The entry can be found under ***New Entry*** – ***Synchronizer***:  
