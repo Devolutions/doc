@@ -19,12 +19,10 @@ MySQL: [MySQL Copying databases](https://dev.mysql.com/doc/refman/5.7/en/copying
 MariaDB: [MySQLDump](https://mariadb.com/kb/en/mariadb/mysqldump/)
 {% endsnippet %}
 
-* [Export a data source](#export)
-* [Import a data source](#import)
+* [Export a data source](#export-a-data-source)
+* [Import a data source](#import-a-data-source)
 
 ## Export a data source
-<a name="export"></a>
-
 1. Select the data source you wish to export.  
 {% snippet icon.badgeCaution %}
 If you have multiple {{ en.VLT }}s, you will need to export each {{ en.VLT }} separately or use the ***Export all {{ en.VLT }}s (.rdx)*** in the ***Administration*** tab.
@@ -45,8 +43,6 @@ Ensure that you do not forget the ***Master Key*** as you will not be able to de
 4. Save the file.
 
 ## Import a data source
-<a name="import"></a>
-
 1. Validate that your new data source is created and selected in the ***{{ en.NPANE }}***.
 1. Select ***File – Import – Import (.rdm)***.  
 ![File – Import – Import (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4542.png)
@@ -54,10 +50,10 @@ Ensure that you do not forget the ***Master Key*** as you will not be able to de
 1. In ***Import Entries***, select if you wish to ***Import in root***, ***Import in current folder***, or ***Import in specific folder***.  
 ![Import Entries](https://webdevolutions.azureedge.net/docs/en/kb/KB4543.png)  
 
-   | Option                    | Description |
-   | ------------------------- | ----------- |
-   | Import in root            | Import your entries in the root of your data source, meaning it will keep the exact same structure (group, folder, credentials) as the one you have exported. It is the suggested method of import. |
-   | Import in current folder  | Import all your entries under the selected folder of the data source. |
+   | Option                    | Description                                                                  |
+   |---------------------------|------------------------------------------------------------------------------|
+   | Import in root            | Import your entries in the root of your data source, meaning it will keep the exact same structure (group, folder, credentials) as the one you have exported. It is the suggested method of import.                   |
+   | Import in current folder  | Import all your entries under the selected folder of the data source.        |
    | Import in specific folder | Import all your entries under the specific folder chosen of the data source. |
 
 1. Click ***OK***.
