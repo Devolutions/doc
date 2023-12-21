@@ -10,24 +10,23 @@ Es ist möglich, Einträge aus einer Datenquelle in eine andere zu exportieren u
 Wenn Sie Benutzer haben, die Eigenschaften von Einträgen mit ***Benutzerspezifischen Einstellungen*** überschreiben, müssen diese ihre ***Liste der Benutzerspezifischen Einstellungen*** exportieren und importieren. Siehe [Benutzerspezifische Einstellungen exportieren und importieren (EN)](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/).
 {% endsnippet %}
 
-Die erste Methode wird direkt im <a href="#exportierenimportieren-uber-remote-desktop-manager">{{ de.RDM }}</a> durchgeführt, während die zweite einen <a href="#exportierenimportieren-mit-powershell">PowerShell-Skript</a> verwendet.
+Die erste Methode wird direkt im [{{ de.RDM }}](#exportierenimportieren-uber-remote-desktop-manager) durchgeführt, während die zweite einen [PowerShell-Skript](#exportierenimportieren-mit-powershell) verwendet.
 
 ## Exportieren/Importieren über {{ de.RDM }}
 1. Wählen sie im {{ de.RDM }} im ***{{ de.NPANE }}*** Ihre Datenquelle aus.
    {% snippet icon.badgeNotice %}
-   Um den gesamten {{ de.VLT }} zu exportieren, gehen Sie zu ***Datei – Exportieren – {{ de.VLT }} exportieren (.rdm)*** und fahren Sie mit <a href="#step4">Schritt 4</a> fort.
-   {% endsnippet %}  
-
+   Um den gesamten {{ de.VLT }} zu exportieren, gehen Sie zu ***Datei – Exportieren – {{ de.VLT }} exportieren (.rdm)*** und fahren Sie mit Schritt 4 fort.
+   {% endsnippet %}
 1. Wählen Sie die Einträge und/oder Ordner aus, die Sie exportieren möchten. Verwenden Sie die Tastenkombination <kbd>Strg</kbd>+Klick, um mehrere Einträge auf einmal auszuwählen.
 1. Klicken Sie mit der rechten Maustaste auf die Auswahl. Wählen Sie im Kontextmenü ***Exportieren – Auswahl exportieren (.rdm)***.  
 ![Auswahl exportieren (.rdm)](https://webdevolutions.azureedge.net/docs/de/kb/KB4998.png)
-1. <a name="step4"></a>Markieren Sie im Fenster ***Einträge exportieren*** die Optionen, die Sie aktivieren möchten. Für eine typische Migration sollten Sie die Optionen ***Anmeldeinformationen einbeziehen, Anhänge und Dokumente einbeziehen*** und ***Mit Hauptschlüssel verschlüsseln*** wählen.
+1. Markieren Sie im Fenster ***Einträge exportieren*** die Optionen, die Sie aktivieren möchten. Für eine typische Migration sollten Sie die Optionen ***Anmeldeinformationen einbeziehen, Anhänge und Dokumente einbeziehen*** und ***Mit Hauptschlüssel verschlüsseln*** wählen.
    {% snippet icon.badgeInfo %}
    Standardmäßig werden die Anmeldeinformationen **nicht** einbezogen. Es ist wichtig, dass Sie die Option ***Anmeldeinformationen einbeziehen*** aktivieren, damit die exportierten Daten diese enthalten.
    {% endsnippet %}  
    {% snippet icon.shieldWarning %}
    Durch die Angabe eines Hauptschlüssels wird der gesamte Inhalt der **.rdm** Datei verschlüsselt. Dies ist zum Schutz der Daten sehr zu empfehlen, der Schlüssel ist jedoch für die Entschlüsselung unbedingt erforderlich. Bewahren Sie ihn zur Sicherheit an einem sicheren Ort auf.
-   {% endsnippet %}  
+   {% endsnippet %}
 
    ![Export-Optionen für Einträge](https://webdevolutions.azureedge.net/docs/de/kb/KB4839.png)
 1. Klicken Sie auf ***OK***.
@@ -37,8 +36,7 @@ Die erste Methode wird direkt im <a href="#exportierenimportieren-uber-remote-de
 ![Importieren (.rdm)](https://webdevolutions.azureedge.net/docs/de/kb/KB4999.png)
    {% snippet icon.badgeNotice %}
    Über ***Datei*** – ***Importieren*** – ***Importieren (.rdm)*** können Sie den gesamten {{ de.VLT }} importieren.
-   {% endsnippet %}  
-
+   {% endsnippet %}
 1. Lokalisieren Sie die auf Ihrem Computer gespeicherte **.rdm** Datei und klicken Sie auf ***Öffnen***.
 1. Wählen Sie ***Importieren ins Stammverzeichnis***, ***Importieren in den aktuellen Ordner*** oder ***Importieren in einen spezifischen Ordner***.
 ![Ort der importierten Einträge](https://webdevolutions.azureedge.net/docs/de/kb/KB5000.png)
@@ -46,8 +44,7 @@ Die erste Methode wird direkt im <a href="#exportierenimportieren-uber-remote-de
 1. Im nächsten Dialogfeld wird eine Liste mit allen Einträgen in der Datendatei angezeigt. Sie können bestimmte Einträge auswählen, die Sie importieren möchten, oder ***Alle auswählen***, um alle Einträge zu importieren.
    {% snippet icon.badgeCaution %}
    Wenn Sie Benutzer haben, die Eigenschaften von Einträgen mit ***Benutzerspezifischen Einstellungen*** überschreiben, deaktivieren Sie ***ID ändern***.
-   {% endsnippet %}  
-
+   {% endsnippet %}
 1. Klicken Sie auf ***OK***.
 
 ## Exportieren/Importieren mit PowerShell
