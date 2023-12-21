@@ -41,6 +41,11 @@ To help you decide which role to select, you can visit [Roles and permissions](/
 
 You now have to wait for the approver to respond to your request. You will be notified by email whether the answer is positive or negative. The next section details what to do once you have received a response. 
 
+## Request temporary access to a credentials entry 
+
+ Users can request access to a credentials entry in order to view and copy passwords. The process is the same as described above. Once the approver has given you access, you can view the password.
+![View the password](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6084.png)  
+
 ## Response to your request 
 
 If your request is approved, your email will have a button at the bottom that will bring you directly to your entry in {{ en.DHUBB }}. It is also possible to manually go to your entry.  

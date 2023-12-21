@@ -30,7 +30,7 @@ The ***Temporary Access*** has been granted.
 
 An approver can configure a credentials entry with temporary access, giving users the ability to view and copy passwords.
 
-1. In the ***{{ en.NPAME }}*** of {{ en.RDM }}, select the credentials entry you want to grant access to.
+1. In the ***{{ en.NPANE }}*** of {{ en.RDM }}, select the credentials entry you want to grant access to.
 1. Go to ***Properties*** – ***Security*** – ***Permissions*** – ***General*** and set ***View password*** to ***Never***. 
 ![View password](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6025.png)  
 1. In the same window, go to ***Security*** – ***Security Settings*** – ***Temporary Access*** – ***Mode*** and select ***Allowed***.

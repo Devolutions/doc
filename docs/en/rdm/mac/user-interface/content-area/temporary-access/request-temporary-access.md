@@ -31,7 +31,11 @@ You now have to wait for the approver to respond to your request. Depending on t
 
 If you do not receive an email, try accessing the entry in {{ en.RDM }}. If you can access it, it means that the approver accepted your request. If not, we suggest you contact them to know if they denied it or simply did not respond yet.  
 
-Once the approver has approved you access, you can go straight to your entry in {{ en.RDM }}. You now temporarily have access to the entry.  
+Once the approver has approved you access, you can go straight to your entry in {{ en.RDM }}. You now temporarily have access to the entry. 
+
+## Request temporary access to a credentials entry 
+
+ Users can request access to a credentials entry in order to view and copy passwords. The process is the same as described above. Once the approver has given you access, you can use the ***View Password***, ***Copy Username***, ***Copy Username and Password*** and ***Copy Password*** buttons. You can also view these buttons by right-clicking on the entry.  
 
 ## Revoke your temporary access 
 
