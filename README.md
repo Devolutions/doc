@@ -1,6 +1,6 @@
-# Devolutions Documentation
+# Devolutions documentation
  
-Welcome to the public GitHub repository for Devolutions's documentation, built with 11ty!
+Welcome to the public GitHub repository for Devolutions documentation, built with 11ty!
 
 The entirety of our documentation can be found in the [docs folder](https://github.com/Devolutions/doc/tree/master/docs) of the ***doc*** repository and on [our website](https://docs.devolutions.net/).
 
