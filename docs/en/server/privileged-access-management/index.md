@@ -1,26 +1,25 @@
 ---
 eleventyComputed:
   title: Privileged access management
+  description: Devolutions Privileged Access Management is specifically designed to meet the needs of SMBs, providing enterprise-grade features to bring a level of protection usually only afforded to large organizations.
   order: 50
 ---
-{% snippet icon.badgeNotice %} 
-A license is now required to enable the Privileged Access Management module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license. 
+[Devolutions Privileged Access Management](https://devolutions.net/privileged-access-management/) provides all the following features. It is specifically designed to meet the needs of SMBs, providing enterprise-grade features to bring a level of protection usually only afforded to large organizations while at the same time being robust, easy to deploy, and affordable.
+
+Here are some of its main features:  
+
+* Ease of deployment and management 
+* Secure password {{ en.VLT }} 
+* Logging and reporting 
+* Built-in two-factor authentication 
+* Access brokering 
+* User Groups access control  
+
+{% snippet icon.badgeInfo %}
+A license is now required to enable the PAM module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license.
 {% endsnippet %}
- 
-Devolutions Privileged Access Management solution provides all the following features. It is specifically designed to meet the needs of SMBs, providing enterprise-grade features to bring a level of protection usually only afforded to large organizations while at the same time being robust, easy to deploy and affordable.  
 
-1. Ease of deployment and management 
-1. Secure password {{ en.VLT }} 
-1. Logging and reporting 
-1. Built-in two-factor authentication 
-1. Access brokering 
-1. User Groups access control  
+## Privileged Access
+The Privileged Access page provides a quick overview of the current PAM {{ en.VLT }} accounts, current check-outs and the recent activities. 
 
-For an overview of the Devolutions Privileged Access Management, please watch the following video.  
-
-{% youtube 'zxdZHAqv-rw' %}  
-
-## Privileged Access Page
-The Privileged Access page provides a quick overview of the current PAM {{ en.VLT }} Accounts, current Check-outs and the Recent Activities. 
-
-![Privileged Access Management Dashboard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8138.png)
+![PAM Dashboard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8138.png)
