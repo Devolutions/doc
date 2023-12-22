@@ -7,7 +7,7 @@ eleventyComputed:
   - VPN
   - Listener
 ---
-This topic describes how to configure {{ en.DVLS }} to connect with {{ en.DGW }}. There are two ways to install a {{ en.DGW }}: the <a href="#side-by-side-installation">***Side-by-side Installation***</a> and the <a href="#standalone-installation">***Standalone Installation***</a>.
+This topic describes how to configure {{ en.DVLS }} to connect with {{ en.DGW }}. There are two ways to install a {{ en.DGW }}: the [***Side-by-side Installation***](#side-by-side-installation) and the [***Standalone Installation***](#standalone-installation).
 {% snippet icon.badgeInfo %}
 Many gateways can be used by {{ en.DVLS }}, but only one {{ en.DGW }} can be installed on a machine.
 {% endsnippet %}  
@@ -19,18 +19,18 @@ In order to install {{ en.DGW }} on another machine than the one where {{ en.DVL
 
 ## Side-by-side Installation
 {% snippet icon.badgeInfo %}
-To set up a free {{ en.DGW }}, it must be installed using the ***Side-by-side*** configuration. It creates a gateway capable of handling up to 5 concurrent sessions. 
+To set up a free {{ en.DGW }}, it must be installed using the ***Side-by-side*** configuration. It creates a gateway capable of handling up to 5 concurrent sessions.
 {% endsnippet %}  
 
 This method supports more sessions if there is an available {{ en.DGW }} license(s). This installation process is the easier of the two. However, this method is recommended for simpler network layouts.
 1. From the {{ en.DVLSCONSOLE }}, click on the ***Companions*** tab.  
 ![Companions tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2083.png)
-1. In the {{ en.DGW }} section, click on ***Install***.  
-1. Choose ***Side-by-side Installation***.
+1. In the {{ en.DGW }} section, click on ***Install***.
+1. Choose ***Side-by-side Installation***.  
 ![Side-by-side](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0004.png)
    {% snippet icon.badgeHelp %}
    It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DVLS }}.
-   {% endsnippet %}  
+   {% endsnippet %}
 
 1. If default values do not work for your environment, enter the desired settings.
     1. ***HTTP Listener***: HTTP(s) port to reach the Gateway. (7171 is default)
@@ -47,7 +47,7 @@ This method supports more sessions if there is an available {{ en.DGW }} license
 The ***Standalone*** method allows {{ en.DGW }} to be installed on a separate server than {{ en.DVLS }}. It could be for performance purposes or access networks that {{ en.DVLS }} cannot access.
 {% snippet icon.badgeInfo %}
 The {{ en.DVLSCONSOLE }} must be installed on the server on which {{ en.DGW }} will be installed.
-{% endsnippet %}  
+{% endsnippet %}
 
 1. From the {{ en.DVLSCONSOLE }}, click on the ***Companions*** tab.  
 ![Companions Tab](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0018.png)
@@ -57,11 +57,11 @@ The {{ en.DVLSCONSOLE }} must be installed on the server on which {{ en.DGW }} w
 1. Choose between ***Download version*** & ***Install from msi file***.
    {% snippet icon.badgeHelp %}
    It is possible to download an [.msi](https://devolutions.net/gateway/download) file to install {{ en.DGW }} on an offline {{ en.DVLS }}.
-   {% endsnippet %}  
+   {% endsnippet %}
 
 1. Click ***Next***.  
 ![Download version or msi file](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0009.png)
-1. Enter the ***Access URI*** information, for example https://gateway.example.com.  
+1. Enter the ***Access URI*** information, for example https://gateway.example.com.
 ![Listeners](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0023.png)  
 1. Choose the {{ en.DGW }} ***Listeners*** ports (by default they are 7171 and 8181).
     1. If HTTPS is chosen instead of HTTP in the step above, the ***Certificate Configuration*** will be needed.
