@@ -1352,7 +1352,7 @@
                   "url": "/kb/devolutions-server/how-to-articles/configure-server-always-available/"
                 },
                 {
-                  "url": "/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/"
+                  "url": "/kb/devolutions-server/how-to-articles/configure-server-use-domain-sso/"
                 },
                 {
                   "url": "/kb/devolutions-server/how-to-articles/configure-pam-provider-through-dgw/"
