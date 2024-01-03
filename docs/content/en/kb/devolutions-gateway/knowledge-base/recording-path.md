@@ -4,13 +4,14 @@ eleventyComputed:
   description: This topic serves as a reference for general information on {{ en.DGW }} recording.
 ---
 This topic serves as a reference for general information on {{ en.DGW }} recording.
+
 {% snippet icon.badgeInfo %}
 The recording format is WebM and the file size is around 15 kb/s, depending on compression.
-{% endsnippet %}  
+{% endsnippet %}
 
 ## Recording path
 The `RecordingPath` parameter can be added to the .json file and then modified to change where the recordings will be saved.  
-The file is located under `C:\ProgramData\Devolutions\Gateway\gateway.json`.
+The file is located under **C:\ProgramData\Devolutions\Gateway\gateway.json**.
 
 {% snippet icon.badgeInfo %}
 A few important notes:
