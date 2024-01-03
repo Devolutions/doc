@@ -29,19 +29,27 @@ This section will showcase multiple solutions by using PowerShell.
 ### Batch edit using PowerShell
 It is possible to [batch edit](/kb/remote-desktop-manager/how-to-articles/batch-edit-rdm) the entries with a custom PowerShell command to make all of them use a different path (can be the temp or any place users are allowed to use it):  
 
-`$connection.Web.UseUserDataPath = $true;`  
-`$connection.Web.UserDataPath  = "C:\MyPath" + connection.ID;`  
-`$RDM.Save();`
+```powershell
+$connection.Web.UseUserDataPath = $true;
+$connection.Web.UserDataPath  = "C:\MyPath" + connection.ID;
+$RDM.Save();
+```
+
 ### Temporary edit with Before Open
 It is also possible to [temporarily use the properties](/kb/remote-desktop-manager/how-to-articles/execute-powershell-connection) 'Web.UseUserDataPath' set to true and 'Web.UserDataPath' set the path to the temp or any place users are allowed to use it that can be dynamic with a Before Open Event (using PowerShell Script).  
 
-`connection.Web.UseUserDataPath = $true`  
-`$connection.Web.UserDataPath  = "C:\MyPath" + $connection.ID;`  
-`$RDM.Save();`
+```powershell
+connection.Web.UseUserDataPath = $true
+$connection.Web.UserDataPath  = "C:\MyPath" + $connection.ID;
+$RDM.Save();
+```
+
 ### Deleting the folder
 This code is used to delete the folder on the onClose Event:  
 
-`Remove-Item "C:\MyPath" + connection.ID -Recurse -Force`  
+```powershell
+Remove-Item "C:\MyPath" + connection.ID -Recurse -Force
+```
 
 {% snippet icon.badgeInfo %}
 It is not possible to open a website using the {{ en.DGW }} that is already running without the workarounds because of the way Google Chrome is designed. An already opened Chrome cannot change the proxy settings dynamically.
