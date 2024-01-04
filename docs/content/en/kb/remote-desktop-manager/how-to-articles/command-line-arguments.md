@@ -25,7 +25,7 @@ It is possible to get the IDs of a ***database***, ***data source***, ***entry**
 ## Retrieve a data source ID
 The ID of a data source can be retrieved with other identifiers by following the steps in the previous section. Here is another way to get only data source IDs:
 
-1. Go to ***File – Data Sources*** Alternatively, you can click on the ellipsis next to your data source name in your ***{{ en.NPANE }}***.
+1. Go to ***File*** – ***Data Sources*** Alternatively, you can click on the ellipsis next to your data source name in your ***{{ en.NPANE }}***.
 1. Select the data source of your choice in the bottom section, then click on the ***Edit Data Source*** icon.  
 ![!!KB2059](https://webdevolutions.azureedge.net/docs/en/kb/KB2059.png)  
 The ID of the chosen data source will be at the bottom of the window. You can copy it by clicking on it.  
@@ -50,21 +50,16 @@ The ID of the chosen data source will be at the bottom of the window. You can co
 
 ## Usage:
 Example #1 - Open a template and connect to a host
-
 `RemoteDesktopManager.exe /DataSource:178c2fda-dab4-4f41-98df-6e3205c0a011 /Template:a666b21b-1479-4eee-b482-0a3d561d2411 /Host:Windjammer-PC1`
 
 Example #2 - Open a session
-
 `RemoteDesktopManager.exe /DataSource:178c2fda-dab4-4f41-98df-6e3205c0a011 /Session:474bcbcf-d507-435b-8c0a-a9e868781910`
 
 Example #3 - Register the application
-
 `RemoteDesktopManager.exe /RegisterUser:"First name, Last name" /RegisterSerial:"xxxxx-xxxxx-xxxxx-xxxxx-xxxxx"`
 
 Example #4 - Start {{ en.RDM }} with the profiler
-
 `RemoteDesktopManager.exe /Profiler`
 
 Example #5 - Set a passphrase on the Database
-
 `RemoteDesktopManager64.exe /Database:B26638B2-7957-466C-192B-6621DA12179A /SecurityProviderPassphrase:Password`
