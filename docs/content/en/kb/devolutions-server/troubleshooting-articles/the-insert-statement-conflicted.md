@@ -9,8 +9,7 @@ eleventyComputed:
 ---
 As an administrator of the {{ en.DVLS }} instance, you receive this error message.
 
-**Error:**
-
+### Error:
 ```
 SqlException - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_ConnectionState_ConnectionID".
 The conflict occurred in database "DVLS", table "dbo.Connections", column 'ID'.
