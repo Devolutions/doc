@@ -14,14 +14,14 @@ Credentials are subject to a distinct handling process that involves the utiliza
 There are [additional GUIDs](/kb/devolutions-powershell/remote-desktop-manager/xml-information/) used in {{ en.RDM }}.
 {% endsnippet %}
 
-| Setting             | Well-known GUID                               |
-|---------------------|-----------------------------------------------|
-| Default             | " "                                           |
-| Privileged account  | "56EDBCA3-E76A-457B-8F6A-6B78F3D084CE"        |
-| My privileged account| "0BCD4B51-1E29-4FCF-9B01-15684E1FA033"       |
+| Setting               | Well-known GUID                               |
+|-----------------------|-----------------------------------------------|
+| Default               | " "                                           |
+| Privileged account    | "56EDBCA3-E76A-457B-8F6A-6B78F3D084CE"        |
+| My privileged account | "0BCD4B51-1E29-4FCF-9B01-15684E1FA033"        |
 
-**Sample script for {{ en.DVLS }}** 
-```
+#### Sample script for {{ en.DVLS }}
+```powershell
 $session.CredentialConnectionID = "56EDBCA3-E76A-457B-8F6A-6B78F3D084CE"
 Set-RDMSession $session -Refresh
 ```
