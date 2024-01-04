@@ -18,8 +18,12 @@ It is possible to [request a trial](/rdm/windows/installation/client/registratio
 ![Administration – Management – Licenses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3417.png) 
 1. Click ***Add License***.  
 ![Add License Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2236.png) 
-1. Enter the license serial in the ***License*** field.  
-![License Field](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0000.png) 
+1. Enter the license serial in the ***License*** field or import the license file using the ***Import*** button.
+   {% snippet icon.badgeInfo %}
+   Importing the license using the **.lic** file is most uselful when offline. See the next section about offline registration for more information.
+   {% endsnippet %}  
+   
+   ![License field](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2238.png) 
 1. Optional: Check the ***Auto assign*** box to automatically provide the {{ en.RDM }} serial to all newly created users.  
 ![Auto Assign Setting](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0001.png) 
 1. Click ***Assigned To*** in the left menu. 
@@ -34,4 +38,7 @@ This step will automatically assign the license to the selected users, removing 
 
 ### Offline registration
 
-* Purchased license: The purchased license must be downloaded from the [{{ en.DPORTAL }}](portal.devolutions.com) account.
+If you need to register your license while offline (if internet is disabled or if for whatever reason you cannot reach the servers), you can only do it by importing the **.lic** file provided to you, which contains a JSON Web Token (JWT).
+
+* ***Trial license***: The license file must be downloaded from the Devolutions confirmation email and imported as described in the steps above for {{ en.RDM }} 2023.3 and later.
+* ***Purchased license***: The purchased license must be downloaded from your {{ en.DPORTAL }} account and imported as described in the steps above for {{ en.RDM }} 2023.3 and later.
