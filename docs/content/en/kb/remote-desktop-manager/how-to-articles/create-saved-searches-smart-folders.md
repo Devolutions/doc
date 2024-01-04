@@ -9,7 +9,6 @@ The smart folder lists search results in the dashboard. You can open and edit en
 The smart folder updates dynamically; each time you open the folder it searches.
 
 ## Add a smart folder
-
 1. Click ***New Entry***.
 1. Click ***Miscellaneous***, then select ***Smart Folder***.
 1. Name the smart folder. This is how the smart folder name will appear in the ***{{ en.NPANE }}***. It is not for the search terms.
@@ -33,10 +32,9 @@ Smart folders search for the term anywhere in the entry name.
 ![!!KB4133](https://webdevolutions.azureedge.net/docs/en/kb/KB4133.png)
 
 ## Use a smart folder
-
 1. To display the search results, select the smart folder in the ***{{ en.NPANE }}***.
 1. You can work with an entry directly from the search results.
 
 Double-click to open the entry.
 
-Right-click to access the context menu for other actions (e.g.View Password, Select entry in ***{{ en.NPANE }}***).
+Right-click to access the context menu for other actions (e.g. View Password, Select entry in ***{{ en.NPANE }}***).
