@@ -27,6 +27,7 @@ Go to the section that corresponds to your needs:
 1. Run the script using PowerShell 7.  
 
 Your data has been exported to the destination folder you specified in step 3.
+
 ### Manually fill in the information
 1. In ***Tools – Export with PowerShell***, select the ***Manual*** tab.  
 ![Manual Export](https://webdevolutions.azureedge.net/docs/en/kb/KB2081.png)
