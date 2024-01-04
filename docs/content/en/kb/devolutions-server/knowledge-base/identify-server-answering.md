@@ -21,7 +21,6 @@ The following steps will explain how to define which server is answering when co
 ![!!KB4350](https://webdevolutions.azureedge.net/docs/en/kb/KB4350.png)
 
 ## Command Line
-
 ```
 %systemroot%\system32\inetsrv\APPCMD.EXE set config "Default Web Site" -section:system.webServer/httpProtocol /+"customHeaders.[name='X-Server-Name',value='node1']" /commit:apphost
 ```
