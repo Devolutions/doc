@@ -7,91 +7,65 @@ This is the definitive guide to create secure certificates, for both servers and
 
 ## Procedure
 {% snippet icon.badgeHelp %}
-On Windows, we recommend using Chocolatey to install OpenSSL and its dependencies. The command line is simply
-`choco install openssl`
+On Windows, it is recommended to use Chocolatey to install OpenSSL and its dependencies. The command line is simply `choco install openssl`.
 {% endsnippet %}
 
-* [Create the Root Certification Authority (CA)](#root)
-* [Generate a Certificate Signing Request (CSR) - Server](#server)
-* [Generate a Certificate Signing Request (CSR) - Client](#client)
-* [Process a Certificate Signing Request (CSR) on the Root Certificate Authority (CA)](#process)
+* [Create the Root Certification Authority (CA)](#root-certification-authority-ca)
+* [Generate a Certificate Signing Request (CSR) – Server](#server-certificate)
+* [Generate a Certificate Signing Request (CSR) – Client](#client-certificate)
+* [Process a Certificate Signing Request (CSR) on the Root Certificate Authority (CA)](#process-a-certificate-signing-request-csr-on-the-root-certificate-authority-ca)
 
 ### Root Certification authority (CA)
-1. Generate the Root CA Private Key.
-
-   Every certificate must have a corresponding private key. Generate it using the following command line:
-
-   `openssl ecparam -name prime256v1 -genkey -noout -out ca.key`
-
-   This will create a 256-bit private key with elliptic curves, which is the industry standard.
-
-2. Generate the Root CA Certificate (Certificate Authority).
-
-   The CA generates and issues certificates. Generate it using the following command line:
-
-   `openssl req -new -x509 -sha256 -key ca.key -out ca.crt`  
-
-   You will be prompted to provide some information about the CA. replace with your own specific information:  
-
-   `Country Name (2 letter code) [AU]:US`  
-   `State or Province Name (full name) [Some-State]:CA`  
-   `Locality Name (eg, city) []:Toontown`  
-   `Organization Name (eg, company) [Internet Widgits Pty Ltd]:Acme inc.`  
-   `Organizational Unit Name (eg, section) []:Security`  
-   `Common Name (e.g. server FQDN or YOUR name) []:acme.com`  
-   `Email Address []:security@acme.com`  
-
-   Your certificate will be generated in the ca.crt file.  
-
-3. [Install the certificate](/kb/general-knowledge-base/install-root-certificates/) Note that the certificate must be installed on the server and on all of the clients to validate the legitimacy of issued certificates. Some browsers also have particularities which are described in the topic.
+1. Generate the ***Root CA Private Key*** using the following command line:`openssl ecparam -name prime256v1 -genkey -noout -out ca.key`. Every certificate must have a corresponding private key.
+1. Generate the ***Root CA Certificate*** (Certificate Authority) using the following command line: `openssl req -new -x509 -sha256 -key ca.key -out ca.crt`.
+1. Enter the information about the CA (the certificate will be generated in the ca.crt file):
+   ```
+   Country Name (2 letter code) [AU]:US
+   State or Province Name (full name) [Some-State]:CA
+   Locality Name (eg, city) []:Toontown
+   Organization Name (eg, company) [Internet Widgits Pty Ltd]:Acme inc.
+   Organizational Unit Name (eg, section) []:Security
+   Common Name (e.g. server FQDN or your name) []:acme.com
+   Email Address []:security@acme.com
+   ```
+1. [Install the certificate](/kb/general-knowledge-base/install-root-certificates/).
+{% snippet icon.badgeInfo %}
+Note that the certificate must be installed on the server and on all of the clients to validate the legitimacy of issued certificates. Some browsers also have particularities which are described in the topic.
+{% endsnippet %}
 
 ### Server certificate
 {% snippet icon.shieldCaution %}
-These steps are usually performed on each server or device for which you intend to request a certificate. Install OpenSSL if it is not present. The alternative is to securely deploy the private key to the destination server at the same time as the certificate. We recommend you use this last approach only if you must adhere to scripted deployments to follow cloudops/devops practices.
+These steps are usually performed on each server or device for which you intend to request a certificate. Install OpenSSL if it is not present. The alternative is to securely deploy the private key to the destination server at the same time as the certificate. It is recommended to use this last approach only if you must adhere to scripted deployments to follow CloudOps/DevOps practices.
 {% endsnippet %}
 
-1. Generate the Server Certificate Private Key.
-
-   Every certificate must have a corresponding private key. Generate it using the following command line:  
-
-   `openssl ecparam -name prime256v1 -genkey -noout -out server.key`  
-
-   This will create a 256bit private key in the server.key file  
-
-2. Generate the server certificate signing request (CSR).  
-
-   This request will later be processed on the Root CA server. Generate it using the following command line:  
-
-   `openssl req -new -sha256 -key server.key -out server.csr`  
-
-   You will be prompted to provide some information about the server certificate. You can enter mostly the same information you used for the CA certificate, but for securing a web site, you must specify the exact FQDN that is used by the server. For Example:  
-
-   `Country Name (2 letter code) [AU]:US`  
-   `State or Province Name (full name) [Some-State]:CA`  
-   `Locality Name (eg, city) []:Toontown`  
-   `Organization Name (eg, company) [Internet Widgits Pty Ltd]:Acme inc.`  
-   `Organizational Unit Name (eg, section) []:Security`  
-   `Common Name (e.g. server FQDN or YOUR name) []:vault.acme.com`  
-   `Email Address []:security@acme.com`  
-
-   You will also be prompted for a password, using a password manager as well as a strong password generator is essential.
-
-   The server.csr file must now be transferred to the Root CA.
-
-3. Process the request by following the instructions [below](#process).
-4. Deploy the certificate.
+1. Generate the ***Server Certificate Private Key*** using the following command line: `openssl ecparam -name prime256v1 -genkey -noout -out server.key` (256bit private key in the server.key file). Every certificate must have a corresponding private key.
+1. Generate the server ***Certificate Signing Request*** (CSR) using the following command line: `openssl req -new -sha256 -key server.key -out server.csr`. This request will later be processed on the Root CA server.
+1. Enter the information about the server certificate (the exact FQDN that is used by the server must be specified). For Example:
+   ```
+   Country Name (2 letter code) [AU]:US
+   State or Province Name (full name) [Some-State]:CA
+   Locality Name (eg, city) []:Toontown
+   Organization Name (eg, company) [Internet Widgits Pty Ltd]:Acme inc.
+   Organizational Unit Name (eg, section) []:Security
+   Common Name (e.g. server FQDN or your name) []:vault.acme.com
+   Email Address []:security@acme.com
+   ```
+1. Enter a password into the prompt, using a password manager as well as a strong password generator is essential.
+1. Transfer the server.csr file to the Root CA.
+1. Process the request by following the instructions [below](#process-a-certificate-signing-request-csr-on-the-root-certificate-authority-ca).
+1. Deploy the certificate.
 
 ### Client certificate
-Follow the same procedure as for the Server above, but you must adapt two attributes of the information you enter to your needs, namely the Common Name and the Email Address
-
-`Common Name (e.g. server FQDN or YOUR name) []:John Doe`  
-`Email Address []:JohnDoe@acme.com`  
+Follow the same procedure as for the [Server certificate](#server-certificate), but you must adapt two attributes of the information you enter to your needs, namely the ***Common Name*** and the ***Email Address***.
+```
+Common Name (e.g. server FQDN or your name) []:John Doe
+Email Address []:JohnDoe@acme.com
+```
 
 ### Process a Certificate Signing Request (CSR) on the Root Certificate Authority (CA)
 Process the CSR by generating a certificate.
 
 Generate it using the following command line, where the server.csr has been generated on the server:
-
 `openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server.crt -days 1000 -sha256`
 
 This results in the certificate being generated in the server.crt file. You must deploy it to the server where you generated the CSR.
