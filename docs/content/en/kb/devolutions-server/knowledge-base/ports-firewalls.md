@@ -5,15 +5,12 @@ eleventyComputed:
 {{ en.DVLS }} in itself does not dictate which ports to use for any of the resources that it accesses. You must consult with your system administrator to ascertain which adjustments need to be made in order for the system to inter-operate with your infrastructure.
 
 ## Inbound
-
 The only inbound port that is needed for {{ en.DVLS }} is for http or https communication, as per your preference. We strongly recommend using https even if only within your own network infrastructure. Although the default port is easily changed, it is typically port 443.
 
 ## Outbound
-
 Two technologies are in play for proper operation of {{ en.DVLS }}: SQL Server, LDAP.
 
 ### SQL Server
-
 Depending on the choice of Default Instance or Named Instance that was made during the installation, the SQL Server instance will listen on different ports.
 Using SQL Server Configuration Manager, you can see the details in the Protocols section.  
 ![!!KB4315](https://webdevolutions.azureedge.net/docs/en/kb/KB4315.png)  
@@ -24,7 +21,6 @@ In most cases, TCP/IP will be used for remote connections. You will be able to s
 For more information please consult [SQL Server Configuration Manager on Technet](https://technet.microsoft.com/en-us/library/ms174212(v=sql.130).aspx)
 
 ### LDAP/LDAPS
-
 As indicated in [LDAPS on Technet](http://social.technet.microsoft.com/wiki/contents/articles/2980.ldap-over-ssl-ldaps-certificate.aspx), LDAP communications are by nature insecure under certain conditions:
 
 ```
