@@ -6,7 +6,6 @@ eleventyComputed:
   - encryption
 ---
 ## Using SQL Server Login Accounts
-
 When using SQL Server Login accounts, encrypting the **web.config** file is of the utmost importance.
 
 The **web.config** file stores the database connection strings, which contain the HostName of the database server (Data Source), the name of the database (Initial Catalogue), and the credentials (User ID and Password), thus the importance of encrypting it.
@@ -46,7 +45,6 @@ Succeeded!
 ```
 
 ## Using SQL Server Domain Accounts (Integrated Security)
-
 When using SQL Server Domain accounts, encrypting the **web.config** file is of the utmost importance.
 
 The **web.config** file store the database connection strings, which contain the HostName of the database server (Data Source) and the name of the database (Initial Catalogue).
