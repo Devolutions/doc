@@ -16,7 +16,6 @@ In {{ en.DVLS }}, in the processor.log file of the Recording Server, you may enc
 ```
 
 ## Solution
-
 Make sure that the DPSURL parameter in the **processor.config** file contains a URL that is reachable from the machine where the Recording Server is installed and that the URL does not end with "/".
 ```
 <?xml version="1.0"?>
