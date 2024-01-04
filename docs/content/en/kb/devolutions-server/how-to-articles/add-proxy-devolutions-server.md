@@ -17,4 +17,4 @@ To add a proxy in {{ en.DVLS }}, you need to add a few command lines to the **we
    {% snippet icon.badgeInfo %}
    For more options, refer to [Configuring a proxy using environment variables](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Configuration.md#configuring-a-proxy-using-environment-variables).
    {% endsnippet %}
-1. Save and close the file.  
+1. Save and close the file.
