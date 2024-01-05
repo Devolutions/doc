@@ -15,7 +15,6 @@ Options exist to copy files remotely, please refer to PSExec documentation for f
 {% endsnippet %}
 
 ## Settings
-
 Create a ***Macros/Scripts/Tools*** entry, use the ***PSExec*** type. In the Command line section, add the following (long) line:
 
 ```
@@ -35,7 +34,6 @@ A few notes on that command line:
 1. When you are ready to deploy your application on the remote computer, you just need to select the appropriate session in the ***{{ en.NPANE }}*** and launch the ***Macros/Scripts/Tools*** from the Dashboard. The ***Macros/Scripts/Tools*** entry can also be launched via the {{ en.RDMA }}.
 
 ## Usage
-
 The ***Macros/Scripts/Tools*** type are always run in the context of a session. In fact, they use the information in the session to identify what host to run the tool against, that is why we used the $HOST$ variable.
 
 For this reason, the first step is to select a session, any type of session will do (RDP, SSH, etc). After selecting the session, the dashboard will display the ***Macros/Scripts/Tools*** Simply clicking on the tool will therefore launch it against the host linked to the currently selected session. You can select hosts and install in sequence.
