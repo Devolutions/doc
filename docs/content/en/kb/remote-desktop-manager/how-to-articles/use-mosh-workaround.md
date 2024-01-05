@@ -13,21 +13,19 @@ Keep in mind that Mosh will take up about 3 GB of disk space and download a few 
 {% endsnippet %}  
 {% snippet icon.badgeInfo %}
 PowerShell should be run as an administrator for this solution.
-{% endsnippet %}  
+{% endsnippet %}
 
 ## Steps for installing Mosh
 1. Open PowerShell.
 1. Install WSL2 itself by using the `wsl --install` command.  
-{% snippet icon.badgeInfo %}
-WSL should now be available in the start menu. It is possible that a reboot is necessary after this install.
-{% endsnippet %}  
-
-3. Install Debian with `wsl --install -d debian`.  
-{% snippet icon.badgeInfo %}
-An assistant may ask you to create a user account during the installation. Debian should now be available in the start menu. It is possible that a reboot is necessary after this install.
-{% endsnippet %}  
-
-4. Download all available software update by using `wsl sudo apt update`.
+   {% snippet icon.badgeInfo %}
+   WSL should now be available in the start menu. It is possible that a reboot is necessary after this install.
+   {% endsnippet %}
+1. Install Debian with `wsl --install -d debian`.  
+   {% snippet icon.badgeInfo %}
+   An assistant may ask you to create a user account during the installation. Debian should now be available in the start menu. It is possible that a reboot is necessary after this install.
+   {% endsnippet %}
+1. Download all available software update by using `wsl sudo apt update`.
 1. The WSL image may be outdated and contain outdated software. Input `wsl sudo apt full-upgrade`.
 1. Install mosh with `wsl sudo apt install mosh`.
 
@@ -38,9 +36,9 @@ Once Mosh is installed, it can be used with the usual command and adding `wsl` i
 1. Make certain the ***Display*** option is set to ***Embedded (tabbed)***.
 1. Use the above-mentionned `wsl mosh user@server.example.com` command in the ***Run*** field.
 1. Click ***OK*** to save and close the window.  
-{% snippet icon.badgeInfo %}
-Windows 11 users should already have Windows Terminal preinstalled, but Windows 10 users may need to download it through the [Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701).
-{% endsnippet %}
+   {% snippet icon.badgeInfo %}
+   Windows 11 users should already have Windows Terminal preinstalled, but Windows 10 users may need to download it through the [Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701).
+   {% endsnippet %}
 
 ### Mosh integration in {{ en.RDM }} (<=2022)
 Though recommended to update to {{ en.RDM }} 2023, this method can be used to attempt to make the workaround function with {{ en.RDM }} 2022.
