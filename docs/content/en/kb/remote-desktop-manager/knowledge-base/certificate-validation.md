@@ -3,7 +3,7 @@ eleventyComputed:
   title: Certificate validation
   description: When {{ en.RDM }} connects to a URL using the HTTPS protocol, it will validate the certificate using industry best practices.
 ---
-When {{ en.RDM }} connects to a URL using the HTTPS protocol, it will validate the certificate using industry best practices. The first hurdle is to validate that your device trusts the authority that issued the certificate, called the Root Certification Authority (CA). Each certificate is typically a hierarchy of intermediate CAs under a root, each one usually under the jurisdiction of a different legal entity. The end result is that each level adds their own validation steps.  
+When {{ en.RDM }} connects to a URL using the HTTPS protocol, it will validate the certificate using industry best practices. The first hurdle is to validate that your device trusts the authority that issued the certificate, called the Root Certification Authority (CA). Each certificate is typically a hierarchy of intermediate CAs under a root, each one usually under the jurisdiction of a different legal entity. The end result is that each level adds their own validation steps.
 
 For certain organizations with a mature InfoSeq practice, other departments have final authority on all network communications, we have created options to disable certain validations, but this should be done as a last resort action.  Please look at the [Certificate Security options](#certificate-security-related-options) section below:  
 {% snippet icon.badgeCaution %}
@@ -21,7 +21,7 @@ Often times, users will focus on {{ en.RDM }} as the most likely source of the e
 Before ignoring the error or adding the certificate to the exception list, always perform a perfunctory validation of the certificate by using the ***View Certificate*** action, verify the ***Issued To*** and ***Issued By*** fields to determine if they seem correct for your organization.
 {% endsnippet %}  
 
-The dialog offers five commands: 
+The dialog offers five commands:
 
 | Command                     | Description                                                                                                 |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -35,10 +35,9 @@ The dialog offers five commands:
 ![Certificate Diagnostic](https://webdevolutions.azureedge.net/docs/en/kb/KB0127.png)
 
 ## System dialog
-To find out more about why the certificate validation failed, you can use some tools, but the certificate needs to be exported first.  
+To find out more about why the certificate validation failed, you can use some tools, but the certificate needs to be exported first.
 
-To export the certificate, follow these steps:  
-
+To export the certificate, follow these steps:
 1. Go to the ***Details*** tab of the Windows certificate prompt.
 1. Click ***Copy to File...*** and proceed to export the certificate as a *.cer file.  
 ![Certificate information system dialog](https://webdevolutions.azureedge.net/docs/en/kb/KB4452.png)
@@ -46,14 +45,12 @@ To export the certificate, follow these steps:
 ## Manual certificate validation
 Here are some tools that can be used to verify the newly exported certificate:
 ### Using PowerShell (requires PowerShell v4)
-In a PowerShell console, adapt the path for the certificate file, then run:  
-
+In a PowerShell console, adapt the path for the certificate file, then run:
 `$cert=New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("%USERPROFILE%\Desktop\cert.cer"`  
 `Test-Certificate -Cert $cert`
 
 ### Using CMD
-Adapt the path for the certificate file, then run the following command:  
-
+Adapt the path for the certificate file, then run the following command:
 `certutil -verify "%USERPROFILE%\Desktop\cert.cer"`  
 
 The resulting output from the tools mentioned above can be used to obtain more information about the issue.
