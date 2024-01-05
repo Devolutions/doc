@@ -19,7 +19,7 @@ DECLARE @newDomain as varchar(255) = '@newDomain'
 
 UPDATE UserSecurity 
 SET Name=replace(Name,@oldDomain,@newDomain),
-    UPN=replace(UPN,@oldDomain,@newDomain), 
+    UPN=replace(UPN,@oldDomain,@newDomain),
     ExternalID = NULL
 WHERE UserType = 0
 
