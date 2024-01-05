@@ -32,6 +32,6 @@ These requirements apply especially if you intend to use Automatic User Account 
 ### Installation steps 
 
 1. Create a new instance of {{ en.DVLS }} (see [Create {{ en.DVLS }} instance](/server/installation/create-server-instance/)).
-1. Create a {{ en.DVLS }} administrator account in the [User mnagement](/server/web-interface/administration/security-management/users/).
+1. Create a {{ en.DVLS }} administrator account in the [User management](/server/web-interface/administration/security-management/users/).
 1. Create [User groups](/server/web-interface/administration/security-management/user-groups/).
 1. Add domain users or built-in users (see [User management](/server/web-interface/administration/security-management/users/)).
