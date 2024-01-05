@@ -20,7 +20,7 @@ With the license stored in an [Advanced Data Source](/rdm/windows/data-sources/d
    Importing the license using the **.lic** file is most uselful when offline. See the next section about offline registration for more information.
    {% endsnippet %}
 
-   ![License](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6034.png) 
+   ![License](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin2238.png) 
 1. Click ***Ok*** to save the license.
 1. Optional: The ***Auto assign*** option will be displayed when you enter the license. The box is already checked in order to provide the {{ en.RDM }} serial to all newly created users. A warning window will appear if you uncheck the box and click ***OK***.
 ![Warning window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6033.png) 
@@ -33,4 +33,3 @@ If you need to register your license while offline (if internet is disabled or i
 
 * ***Trial license***: The license file must be downloaded from the Devolutions confirmation email and imported as described in the steps above for {{ en.RDM }} 2023.3 and later.
 * ***Purchased license***: The purchased license must be downloaded from your {{ en.DPORTAL }} account and imported as described in the steps above for {{ en.RDM }} 2023.3 and later.
-* 
