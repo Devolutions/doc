@@ -26,7 +26,6 @@ Delete duplicate folders before running the PowerShell script from the new entry
 1. Click on ***Edit embedded script***.  
 ![Edit embedded script](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6019.png)
 1. Add the following script:  
-
 ```powershell
 #check if Remote Desktop Manager PS module is installed
 if(-not (Get-Module Devolutions.PowerShell -ListAvailable)){
