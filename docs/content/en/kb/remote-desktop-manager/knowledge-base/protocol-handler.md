@@ -5,13 +5,12 @@ eleventyComputed:
 ---
 A ***Protocol handler*** has been implemented in {{ en.RDM }} to be able to launch a session directly from HTML content. This can be very useful to call {{ en.RDM }} from a Configuration Management Database (CMDB) or even a Document Management System (DMS).  
 
-{% snippet icon.badgeInfo %}  
-Internet Explorer and Mozilla Firefox execute the URL by clicking on it or by pressing Enter. However, with some other web browsers such as Google Chrome, executing the URL normally results in a web search. These browsers may require to do <kbd>Ctrl</kbd>+click or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to execute the URL.  
+{% snippet icon.badgeInfo %}
+Internet Explorer and Mozilla Firefox execute the URL by clicking on it or by pressing Enter. However, with some other web browsers such as Google Chrome, executing the URL normally results in a web search. These browsers may require to do <kbd>Ctrl</kbd>+click or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to execute the URL.
 {% endsnippet %}
 
 ## Scenarios
-There are two ways of using the handler:  
-
+There are two ways of using the handler:
 * Generate a URL for a session (basically every entry type that connects to a remote device using a protocol).
 * Generate a URL for a template, this will allow you to specify the host name of the device you wish to connect to, but it will take the settings of the template.
 
@@ -37,35 +36,31 @@ Please note that the ***DataSource*** parameter overrides the data source which 
 | Tabpage    | Give the focus to a tab in the dashboard after the application has completed the startup procedure. Available only with the ***Select*** action. The possible tabs are:<ul><li>***Overview***</li><li>***Documentation***</li><li>***Macros/Scripts/Tools***</li><li>***Management Tools***</li><li>***Information***</li><li>***Attachments***</li><li>***Logs***</li><li>***Recordings***</li></ul> |
 
 ## Actions
-
 * ***Open***: Open the specified connection.
 * ***Find***: Find sessions by host.
 * ***Edit***: Edit the specified connection.
 * ***View***: View the password of the specified entry.
 * ***OpenWithMacro***: Open the specified with a macro.
-* ***Select***: Select a connection in the ***{{ en.NPANE }}*** (allows to select a tab in the dashboard as well).  
+* ***Select***: Select a connection in the ***{{ en.NPANE }}*** (allows to select a tab in the dashboard as well).
 
 ## Syntax
+`rdm://<action><parameter1>=<value>[&<parameter2>=<value>]`
 
-`rdm://<action><parameter1>=<value>[&<parameter2>=<value>]`  
+The base syntax of the protocol handler requires the application protocol, an action and at least one parameter to work with.
 
-The base syntax of the protocol handler requires the application protocol, an action and at least one parameter to work with.  
-
-There are three rules to follow when constructing an URL for the protocol handler:  
-
+There are three rules to follow when constructing an URL for the protocol handler:
 * The action is separated from the parameters with a question mark (?).
 * Each parameter is assigned a value by using an equal sign (=).
 * Parameter/Value pairs are separated with an ampersand (&).  
 
 ## Examples
-#### Open {{ en.RDM }} with the search/filter field populated and the focus on the Dashboard
 
-`rdm://open?Filter=RDP&Tabpage=Dashboard`  
+#### Open {{ en.RDM }} with the search/filter field populated and the focus on the Dashboard
+`rdm://open?Filter=RDP&Tabpage=Dashboard`
 
 #### Open an RDP session
-
 1. In the ***Advanced*** section of an entry properties, click on the ***Create Web Url*** button.  
-![Create Web URL](https://webdevolutions.azureedge.net/docs/en/kb/KB4466.png)  
+![Create Web URL](https://webdevolutions.azureedge.net/docs/en/kb/KB4466.png)
 1. The Url is stored in the clipboard.  
-![URL has been copied to the clipboard](https://webdevolutions.azureedge.net/docs/en/kb/KB4467.png)  
+![URL has been copied to the clipboard](https://webdevolutions.azureedge.net/docs/en/kb/KB4467.png)
 1. Paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>) this Url in any application able to handle application protocols. It can be in a web page, a web browser address bar, or even a supported chat application. The protocol handler launches {{ en.RDM }} if it is closed, then perform the requested action with the provided parameters.
