@@ -8,7 +8,7 @@ Variables are only supported for ***Advanced Data Sources*** like SQL Server and
 
 {% snippet icon.badgeCaution %}
 For the password to be available as a variable, you must go in the ***Security Settings*** of the entry and check ***Allow password in variable***.
-If the option is greyed out, you need to activate ***Allow password variables for all entries*** and ***Allow password variable in macros*** in ***Administration - System Settings - Password Policy***.
+If the option is greyed out, you need to activate ***Allow password variables for all entries*** and ***Allow password variable in macros*** in ***Administration – System Settings – Password Policy***.
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
@@ -24,13 +24,13 @@ A simple trick is to create a batch file that just types out whatever is sent on
 Just copy the following in your favorite editor and save it as a command file, I named mine parrot.bat
 
 ```
-@echo off  
-echo.  
-echo.  
-echo %*  
-echo.  
-echo.  
-pause  
+@echo off
+echo.
+echo.
+echo %*
+echo.
+echo.
+pause
 ```
 Now it is a simple matter of creating a Command Line (External Application) session and set the command line to the path of the parrot.bat file and add the variables right after.  
 
