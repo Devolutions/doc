@@ -16,3 +16,4 @@ Streamline the process of injecting credentials, eliminating the need to store t
 ### See also  
 * [Use Case: How Remote Desktop Manager Integrates & Improves an Existing Privileged Access Management Solution](https://blog.devolutions.net/2020/11/new-use-case-how-remote-desktop-manager-integrates-improves-an-existing-privileged-access-management-solution/)  
 * [Privileged Access Management in SMBs + Recommendations](https://blog.devolutions.net/2022/11/privileged-access-management-in-smbs-recommendations/)  
+* [Privileged Access Management by Devolutions - Simple PAM for IT Professionals and SMBs](https://youtu.be/drRLA7U8YsQ?si=3F1LRRSxODVHO65O)

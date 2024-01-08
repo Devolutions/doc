@@ -9,6 +9,8 @@ A license is required to enable the Privileged Access Management (PAM) module. P
 
 This topic will cover both the [PAM checkout process](#checkout) and the [PAM checkout using a custom time frame](#checkout-with-custom-time). The latter option is especially useful for planned maintenance outside of normal work hours, when approvers are not available.
 
+{% youtube 'drRLA7U8YsQ?si=ihVhTcJOKxAh5kKS&amp;start=91' %}
+
 ## Checkout
 1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
 1. Go to the ***Privileged Access*** tab and select the desired {{ en.VLT }}.

@@ -12,4 +12,5 @@ The use of permissions allows for granular control over who can view, modify, or
 * [Roles](/rdm/windows/commands/administration/management/user-management/#user-groups)
 
 ### See also  
-* [Easily elevate permissions with Remote Desktop Manager's temporary access feature](https://www.youtube.com/watch?v=En3pmonz1f8)
+* [Easily elevate permissions with Remote Desktop Manager's temporary access feature](https://youtu.be/En3pmonz1f8?si=YSYgYaFINdUMBoLR)
+* [Privileged Access Management by Devolutions - Simple PAM for IT Professionals and SMBs](https://youtu.be/drRLA7U8YsQ?si=3F1LRRSxODVHO65O)

@@ -18,6 +18,8 @@ Here are some of its main features:
 * Secure password injection
 * Administration report
 
+{% youtube 'drRLA7U8YsQ' %}
+
 Since {{ en.DHUBB }} is a cloud-based solution, you must download and install the [{{ en.DHUBS }}](/hub/privileged-access-management/download-and-install-devolutions-hub-services/) to establish communication between your {{ en.DHUBB }} and your internal resources.
 
 {% snippet icon.badgeInfo %}

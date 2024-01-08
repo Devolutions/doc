@@ -13,7 +13,9 @@ Here are some of its main features:
 * Logging and reporting
 * Built-in two-factor authentication
 * Access brokering
-* User Groups access control
+* Role-based access control
+
+{% youtube 'drRLA7U8YsQ' %}
 
 {% snippet icon.badgeInfo %}
 A license is now required to enable the PAM module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license.
