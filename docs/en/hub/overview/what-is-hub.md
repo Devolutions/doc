@@ -20,7 +20,7 @@ Security is at the core of {{ en.DHUB }} since it is hosted by [Microsoft Azure]
 
 {% youtube '5vpGXoULNSU' %}  
 
-| ![!!Application-wbex-64x64](https://webdevolutions.azureedge.net/docs/common/ApplicationDWL64x64.png) <br> <br> **{{ en.WBEX }} <br> <br> Automatically fill and save credentials** {width=250px} | ![!!launcher-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/launcher-icon-shadow.png) <br> <br> **{{ en.DLAUNCHER }} <br> <br> Remote Access Technology** | ![!!password-hub-importer-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/password-hub-importer-icon-shadow.png) <br> <br> **{{ en.DHUBI }} <br> <br> Data importer** |
+| ![!!Application-wbex-64x64](https://webdevolutions.azureedge.net/docs/en/workspace/WorkspaceIconShadow64x64.png) <br> <br> **{{ en.WBEX }} <br> <br> Automatically fill and save credentials** {width=250px} | ![!!launcher-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/launcher-icon-shadow.png) <br> <br> **{{ en.DLAUNCHER }} <br> <br> Remote Access Technology** | ![!!password-hub-importer-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/password-hub-importer-icon-shadow.png) <br> <br> **{{ en.DHUBI }} <br> <br> Data importer** |
 | --- | --- | --- |
 | The [{{ en.WBEX }}](/hub/workspace-browser-extension/overview/) is free. It is used in conjunction with {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s. | The application provides users with a simple method of launching remote sessions from the {{ en.DHUB }} web interface. | The essential tool designed to easily and quickly import credentials into your hub from multiple third-party applications or services. |
 

@@ -22,7 +22,7 @@ La sécurité est au coeur de {{ fr.DHUB }} puisque l'application est hébergée
 	<tr>
 		<td>
 
-![!!web-login-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/web-login-icon-shadow.png)  
+![!!workspace-icon-shadow](https://webdevolutions.azureedge.net/docs/en/workspace/WorkspaceIconShadow64x64.png)  
 
 ## {{ fr.WBEX_MAJ }}  
 

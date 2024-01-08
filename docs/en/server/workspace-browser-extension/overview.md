@@ -3,7 +3,7 @@ eleventyComputed:
   title: Overview
   order: 5
 ---
-![!!{{ en.WBEX }} logo](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
+![!!{{ en.WBEX }} logo](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
 
 The {{ en.WBEX }} is a web browser password plugin used in conjunction with {{ en.RDM }}, {{ en.DVLS }}, and {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s.  
 

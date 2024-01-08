@@ -3,7 +3,7 @@ eleventyComputed:
   title: Survol
   order: 5
 ---
-![!!Logo {{ fr.WBEX_MAJ }}](https://webdevolutions.blob.core.windows.net/images/projects/web-login/logos/web-login-color-shadow.svg)
+![!!Logo {{ fr.WBEX_MAJ }}](https://webdevolutions.blob.core.windows.net/images/projects/workspace/logos/workspace-color-shadow.svg)
 
 Le {{ fr.WBEX }} est une extension de navigateur Web pour les mots de passe. Utilisée conjointement avec {{ fr.RDM }}, {{ fr.DVLS }} et {{ fr.DHUB }}, elle permet aux utilisateurs d'injecter en toute sécurité des identifiants, stockés dans leur {{ fr.VLT }}s, dans des sites Web.  
 
