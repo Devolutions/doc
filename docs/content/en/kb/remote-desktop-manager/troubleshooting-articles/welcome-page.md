@@ -1,17 +1,16 @@
 ---
 eleventyComputed:
   title: Welcome page
+  description: If you prefer not to see the Welcome page each time you launch your application, there are two methods to disable it.
 ---
-We added a new ***Getting Started*** page at the opening of {{ en.RDM }} but you do not want to see it every time you open our application.  
+When you launch {{ en.RDM }}, the ***Welcome*** page appears to assist you in beginning your journey with the application. If you prefer not to see this page each time you launch your application, there are two methods to disable it. There is also an option to set a [custom welcome page](#custom-welcome-page).
 
-There are 2 ways of removing that page:  
-
-If you have not closed it yet, click on ***Do not show again*** in the upper left corner.  
-![!!KB4109](https://webdevolutions.azureedge.net/docs/en/kb/KB4109.png)  
-Or go in ***File - Options - User Interface*** and uncheck ***Show Welcome page at start-up***.  
-![!!KB4110](https://webdevolutions.azureedge.net/docs/en/kb/KB4110.png)
+## First method
+If you have not closed the ***Welcome*** page yet, click on ***Don't show again*** in the upper left corner.
+![Don't show again](https://webdevolutions.azureedge.net/docs/en/kb/KB2364.png)
+## Second method
+In ***File – Options – User Interface***, uncheck the advanced option ***Show Welcome page at start-up***.  
+![Disable Show Welcome page at start-up](https://webdevolutions.azureedge.net/docs/en/kb/KB2366.png)
 ## Custom welcome page
-It is possible to display your own welcome page at startup.  
-
-Under ***Administration*** in the ribbon, choose ***Data Source Settings (System Settings)*** Then, in ***Applications***, under the ***Welcome Page*** section, enter the URL that points to your custom welcome page.  
-![!!KB4111](https://webdevolutions.azureedge.net/docs/en/kb/KB4111.png)
+You can also choose to show a custom page of your own as the welcome page. In ***Administration – System Settings – Application Specific – Applications***, under ***Welcome Page***, enable the ***Use web or html welcome page*** option and enter the URL that points to your custom welcome page.
+![Use web or html welcome page](https://webdevolutions.azureedge.net/docs/en/kb/KB2365.png)
