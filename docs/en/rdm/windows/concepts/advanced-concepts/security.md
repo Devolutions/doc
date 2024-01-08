@@ -12,6 +12,7 @@ All restrictions are predefined and enforced by a [role-based access control](/r
 ### Related topics
 * [{{ en.RDM }} Security Dashboard](/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/)
 * [Change Master Key](/rdm/windows/commands/file/change-master-key/)
+* [{{ en.DSEND }}](/kb/general-knowledge-base/devolutions-send-standalone/)
 * [Security Providers](/rdm/windows/commands/administration/settings/security-providers/)
 * [User Groups](/rdm/windows/commands/administration/management/user-management/#user-groups)
 * [Yubikey](/rdm/windows/data-sources/multi-factor-authentication/yubikey/)
