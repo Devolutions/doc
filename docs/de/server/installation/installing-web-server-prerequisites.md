@@ -25,23 +25,24 @@ Nachfolgend beide Methoden zur Installation der Voraussetzungen:
 
 1. {{ de.DVLSCONSOLE }}.  
     1. [{{ de.DVLSCONSOLE }}](/server/management/devolutions-server-console/) öffnen.
+{type="a"}
     1. Zur Registerkarte ***Unterstützung*** wechseln und ***IIS-Diagnose*** auswählen. 
-    ![!!ServerOp8162](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8162.png)  
+![!!ServerOp8162](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8162.png)  
     1. ***Voraussetzungen installieren*** auswählen, um das PowerShell-Skript auszuführen.  
-
    {% snippet icon.badgeInfo %} 
    Dieses Fenster wird nur angezeigt, wenn bei einer Neuinstallation oder einer Aktualisierung eine Voraussetzung fehlt. 
    {% endsnippet %}
- 
+
    ![!!ServerOp8171](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8171.png)  
 
 2. PowerShell-Befehlszeile 
-    1. Windows PowerShell mit erhöhten Rechten ausführen. 
+    1. Windows PowerShell mit erhöhten Rechten ausführen.
+{type="a"}
     1. Zum Installationsordner der {{ de.DVLSCONSOLE }} wechseln, welcher das Skript enthält (**C:\Program Files (x86)\Devolutions\Devolutions Server Console\Scripts**)  
-    ![Speicherort des PowerShell-Skripts](https://webdevolutions.azureedge.net/docs/de/server/clip10311.png).  
+![Speicherort des PowerShell-Skripts](https://webdevolutions.azureedge.net/docs/de/server/clip10311.png)  
     1. Skript **DVLS-Prerequisites.ps1** ausführen. 
     1. Das Skript installiert nun die fehlenden Web Server Rollen sowie folgende Komponenten: 
         * IIS URL Rewrite Module
         * IIS Application Request Routing Module
         * IIS [ASP.Net 6.0](https://api.devolutions.net/redirection/2f1f6a33-20c5-4d84-947b-90ff3cdd7492) Core Module
-    ![!!ServerOp4020](https://webdevolutions.azureedge.net/docs/de/server/ServerOp4020.png) 
+![!!ServerOp4020](https://webdevolutions.azureedge.net/docs/de/server/ServerOp4020.png) 

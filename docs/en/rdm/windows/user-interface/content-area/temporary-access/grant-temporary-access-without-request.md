@@ -18,11 +18,10 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 1. Choose ***User*** and ***Duration*** in the ***Grant Temporary Access*** window.  
 ![Grant Temporary Access window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6021.png)  
 
-***Entry's dependencies***, such as credentials and linked VPNs, are listed on the left menu.
+   ***Entry's dependencies***, such as credentials and linked VPNs, are listed on the left menu.
  
- 4. Click on ***Set custom time frame*** if you need to grant access for a specific period of time and write a short ***Message*** to the user explaining why you grant access.  
-
- 1. Click ***Grant Access*** to close the window.  
+1. Click on ***Set custom time frame*** if you need to grant access for a specific period of time and write a short ***Message*** to the user explaining why you grant access.  
+1. Click ***Grant Access*** to close the window.  
 ![The temporary access has been granted](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6022.png)  
 The ***Temporary Access*** has been granted.  
 
@@ -41,7 +40,7 @@ An approver can configure a credentials entry with temporary access, giving user
 1. Choose ***User*** and ***Duration*** in the ***Grant Temporary Access*** window.  
 ![Grant Temporary Access window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6021.png)  
 The ***Entry's dependencies***, such as credentials and linked VPNs, are listed on the left menu.  
- 1. Click on ***Set custom time frame*** if you need to grant access for a specific period of time and write a short ***Message*** to the user explaining why you grant access.  
- 1. Click ***Grant Access*** to close the window.  
+1. Click on ***Set custom time frame*** if you need to grant access for a specific period of time and write a short ***Message*** to the user explaining why you grant access.  
+1. Click ***Grant Access*** to close the window.  
 ![The temporary access has been granted](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6022.png)  
 The ***Temporary Access*** has been granted.  

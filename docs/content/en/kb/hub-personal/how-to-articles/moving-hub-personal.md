@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Moving to {{ en.DHUBP }}
+  description: Here are the steps for moving your data to {{ en.DHUBP }} in {{ en.RDM }}.
 ---
 The {{ en.DHUBP }} is for individual users who want to use a secure personal password manager. Here are the steps for moving your data to {{ en.DHUBP }} in {{ en.RDM }}.
 
@@ -14,6 +15,7 @@ Get started with creating a [{{ en.DHUBP }}](/hub/getting-started/create-hub/hub
 ![{{ en.DHUBP }}](https://webdevolutions.azureedge.net/docs/en/kb/KB4823.png)
 1. Fill in the fields in the ***General*** section and click ***OK*** when done.
     1. ***Name***: Name of the data source.
+{type="a"}
     1. ***Username***: Email address.  
 ![Credentials](https://webdevolutions.azureedge.net/docs/en/kb/KB4824.png)
 

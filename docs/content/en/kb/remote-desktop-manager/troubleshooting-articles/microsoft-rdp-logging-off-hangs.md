@@ -22,5 +22,4 @@ The research in this solution hint that this is caused only when going through a
 It requires a registry change, so all the usual warnings and caveats apply here, back it up first! Consult this [Microsoft support article](https://support.microsoft.com/en-us/help/256986/windows-registry-information-for-advanced-users) for more information. 
 ### The fix is to disable UDP on the client workstation: 
 1. Navigate to HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\Client. 
-1. Create a DWORD named fClientDisableUDP and assign it a value of 1. 
-
+1. Create a DWORD named fClientDisableUDP and assign it a value of 1.

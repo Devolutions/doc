@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Backup and restore {{ en.DVLS }}
+  description: Configure the {{ en.DVLS }} Backup Scheduler and restore your {{ en.DVLS }} instance succeeding a disaster.
 ---
 The following topic describes the requirements and the step to properly configure the {{ en.DVLS }} Backup Scheduler and instructions on how to restore your {{ en.DVLS }} instance succeeding a disaster.
 
@@ -19,13 +20,13 @@ Check the backup of the SQL database and the web application folder integrity by
 1. Create a network folder, it can be one for the database backup and one for the web application backup, that both the server which hosted the {{ en.DVLS }} instance and the SQL Server will have access to. 
 1. Configure the options in the Backup Manager. For more information please see [Backup Manager](/server/web-interface/administration/backup/backup-manager/). 
 1. In the following sample: 
-   - The database backup is ***enabled*** and will be saved in folder TeamShare\BackupDVLS\DB on DC machine. 
-   - The web backup is ***enabled*** and will be saved in folder TeamShare\BackupDVLS\Web on DC machine. 
-   - The administrators will be notified on backup failed.  
-   - The administrators will be notified on backup success.  
+    * The database backup is ***enabled*** and will be saved in folder TeamShare\BackupDVLS\DB on DC machine. 
+    * The web backup is ***enabled*** and will be saved in folder TeamShare\BackupDVLS\Web on DC machine. 
+    * The administrators will be notified on backup failed.  
+    * The administrators will be notified on backup success.  
 ![Backup configuration](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6035.png)  
-   - The scheduled backup has been started on November 13, 2018, at 5:43 AM. 
-   - The scheduler will repeat the backup process every day.  
+    * The scheduled backup has been started on November 13, 2018, at 5:43 AM. 
+    * The scheduler will repeat the backup process every day.  
 ![Scheduled backup](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6036.png)   
 
 ## Recovery Kit
@@ -62,19 +63,19 @@ Be sure that the database and the web application match before launching the res
 {% endsnippet %}
 
 1. If the restore process goal is to overwrite the current installation:
-   1. Ensure that the instance users have the offline mode enabled and they are not making any modifications.
-   1. Ensure that the **DevolutionsSchedulerService** service is not running.  
+    1. Ensure that the instance users have the offline mode enabled and they are not making any modifications.
+{type="a"}
+    1. Ensure that the **DevolutionsSchedulerService** service is not running.  
 ![DevolutionsSchedulerService](https://webdevolutions.azureedge.net/docs/en/kb/KB4363.png)
-   1. **Restore** the **SQL database**.
-   1. Overwrite the web application folder with the content of the web application .zip file.
-   1. Start the **DevolutionsSchedulerService** service and ensure that the **Startup** type is set to **Automatic**.  
+    1. **Restore** the **SQL database**.
+    1. Overwrite the web application folder with the content of the web application .zip file.
+    1. Start the **DevolutionsSchedulerService** service and ensure that the **Startup** type is set to **Automatic**.  
 ![Startup type](https://webdevolutions.azureedge.net/docs/en/kb/KB4364.png)
-   1. Reconfigure the **Backup Scheduler** feature.
-   {type="a"}
+    1. Reconfigure the **Backup Scheduler** feature.
 1. If the goal is to restore {{ en.DVLS }} and the SQL database on new servers:
-   1. **Restore** the **SQL database** on the new server.
-   1. Fix every SQL login account that has been used to connect on the database from.
-   1. Follow instructions in [Create {{ en.DVLS }} instance](/server/installation/create-server-instance/).
-   1. **Overwrite** the web application folder with the content of the web application .zip file.
-   1. **Reconfigure** the **Backup Scheduler** feature.
-   {type="a"}
+    1. **Restore** the **SQL database** on the new server.
+{type="a"}
+    1. Fix every SQL login account that has been used to connect on the database from.
+    1. Follow instructions in [Create {{ en.DVLS }} instance](/server/installation/create-server-instance/).
+    1. **Overwrite** the web application folder with the content of the web application .zip file.
+    1. **Reconfigure** the **Backup Scheduler** feature.
