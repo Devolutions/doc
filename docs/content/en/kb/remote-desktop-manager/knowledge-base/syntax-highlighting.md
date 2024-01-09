@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Syntax highlighting is a feature found in text editors, commonly used for programming, scripting, and markup languages like HTML. This feature displays text, particularly source code, in various colors and fonts to differentiate and emphasize different categories of terms.
 
-1. In {{ en.RDM }}, go to ***File*** – ***Options*** and select ***Types*** –  ***Terminal*** – ***Syntax highlighting***.
+1. In {{ en.RDM }}, go to ***File – Options*** and select ***Types – Terminal – Syntax highlighting***.
 
 1. Click ***Add (+)*** to open the ***Syntax highlighting window***.
 

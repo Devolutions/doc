@@ -21,10 +21,10 @@ To access the ***Advanced Search*** feature, click the button within the ***Sear
 ![Advanced Search button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0055.png)
 
 The buttons are as follows;
-  * ***Add Filter***: Adds another row for a new filter.
-  * ***Delete***: Delete that specific filter row.
-  * ***Reset***: Resets all search filters.
-  * ***Search***: Searches through the {{ en.VLT }}s with the current filters.
+* ***Add Filter***: Adds another row for a new filter.
+* ***Delete***: Delete that specific filter row.
+* ***Reset***: Resets all search filters.
+* ***Search***: Searches through the {{ en.VLT }}s with the current filters.
 ![Advanced Search window](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0056.png)
 
 The first filter dropdown lets you set search parameters including: ***Include {{ en.VLT }}s***, ***Exlucde {{ en.VLT }}s***.

@@ -24,20 +24,20 @@ If you do not have {{ en.DHUBI }}, [download and install it](https://devolutions
 1. Select your file and click ***Open***.
 1. Click ***Next*** in the ***Import Csv Wizard*** window.
 1. In this step, you can modify some settings and see a preview of your entries information: 
-   * ***Delimiter***: Select a delimiter between a Comma, a Semicolon, or a Custom symbol.
-   * ***Has headers***: Enable this option if your entries in your file have headers.
-   * ***Generate direct mapping***: Matches column names in your CSV file with those in {{ en.RDM }}. Enable this option only if you know the field name in {{ en.RDM }}'s code or if your CSV file originates from a previous CSV export from {{ en.RDM }}.
-   * ***Update preview***: Applies the changes made to the parameters to the entries preview.  
+    * ***Delimiter***: Select a delimiter between a Comma, a Semicolon, or a Custom symbol.
+    * ***Has headers***: Enable this option if your entries in your file have headers.
+    * ***Generate direct mapping***: Matches column names in your CSV file with those in {{ en.RDM }}. Enable this option only if you know the field name in {{ en.RDM }}'s code or if your CSV file originates from a previous CSV export from {{ en.RDM }}.
+    * ***Update preview***: Applies the changes made to the parameters to the entries preview.  
 
-   ![Settings and Preview](https://webdevolutions.azureedge.net/docs/en/kb/KB2121.png)  
+![Settings and Preview](https://webdevolutions.azureedge.net/docs/en/kb/KB2121.png)  
 
 1. When done, click ***Next***.
 1. Under ***Mappings***, you can edit, add, or delete variables.  
-   * Edit a variable: Select the variable type in the drop-down list of the left field. Choose between ***Name***, ***Username***, ***Url***, ***Password***, ***Description***, ***Folder***, ***Domain***, ***Host***, ***Port***, ***Tags***, ***Custom Field*** (1 to 5), ***Direct Property***, or ***Template***. In the right field, enter the variable.  
-   * Add a variable: Click on the add button. A new line will appear at the bottom of the list. Select the variable type in the drop-down list of the left field. Choose between ***Name***, ***Username***, ***Url***, ***Password***, ***Description***, ***Folder***, ***Domain***, ***Host***, ***Port***, ***Tags***, ***Custom Field*** (1 to 5), ***Direct Property***, or ***Template***. In the right field, enter the variable.  
-   * Delete a variable: Click on the "X" button next to it.  
+    * Edit a variable: Select the variable type in the drop-down list of the left field. Choose between ***Name***, ***Username***, ***Url***, ***Password***, ***Description***, ***Folder***, ***Domain***, ***Host***, ***Port***, ***Tags***, ***Custom Field*** (1 to 5), ***Direct Property***, or ***Template***. In the right field, enter the variable.  
+    * Add a variable: Click on the add button. A new line will appear at the bottom of the list. Select the variable type in the drop-down list of the left field. Choose between ***Name***, ***Username***, ***Url***, ***Password***, ***Description***, ***Folder***, ***Domain***, ***Host***, ***Port***, ***Tags***, ***Custom Field*** (1 to 5), ***Direct Property***, or ***Template***. In the right field, enter the variable.  
+    * Delete a variable: Click on the "X" button next to it.  
 
-   ![Edit, Add, or Delete Variables](https://webdevolutions.azureedge.net/docs/en/kb/KB2124.png)  
+![Edit, Add, or Delete Variables](https://webdevolutions.azureedge.net/docs/en/kb/KB2124.png)  
 
 1. When done, click ***Finish***.
 1. In the ***Target {{ en.VLT }}*** drop-down list, select the {{ en.VLT }} in which to import your entries.

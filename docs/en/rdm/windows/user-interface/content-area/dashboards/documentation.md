@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The ***Documentation*** feature allows for storing information about resources in the data source. To access an entry's documentation, select an entry in the [{{ en.NPANE }}](/rdm/mac/user-interface/navigation-pane/), then select the ***Documentation*** tab in the ***Dashboard***. Alternatively, right-click an entry in the ***{{ en.NPANE }}***, then select ***View – Documentation***.  
 
-The documentation is written using ***Markdown*** or ***WYSIWYG***.  ***Plain text*** and ***HTML*** are also available.
+The documentation is written using ***Markdown*** or ***WYSIWYG***. ***Plain text*** and ***HTML*** are also available.
 
 {% snippet icon.badgeInfo %} 
 This feature is also available with {{ en.DVLS }}, {{ en.DHUBB }}, {{ en.DHUBP }} and SQL Server data sources.

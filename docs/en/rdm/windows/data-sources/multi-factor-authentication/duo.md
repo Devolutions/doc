@@ -30,9 +30,9 @@ Before you start the configuration, make sure you have created a Duo account and
 1. Select the device to use for the multi-factor authentication by clicking on ***Use this device***.  
 ![Choose a Device](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2147.png)
 1. Select the method by which to receive the Duo Passcode:
-  * ***Duo Push***: The code is "pushed" to your Duo application.
-  * ***Send SMS***: The code is sent by SMS on the registered phone number.
-  * ***Phone***: The code is sent by phone call; a computer generated voice will dictate the code.
+    * ***Duo Push***: The code is "pushed" to your Duo application.
+    * ***Send SMS***: The code is sent by SMS on the registered phone number.
+    * ***Phone***: The code is sent by phone call; a computer generated voice will dictate the code.
 10. Click ***Save*** to authenticate yourself.  
 ![Configuration Save](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10019.png)
 

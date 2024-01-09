@@ -8,28 +8,28 @@ eleventyComputed:
 The ***Scheduler Service*** is a {{ en.DVLS }} component in charge of several features of {{ en.DVLS }}:
 
 * [Active Directory Cache](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/)
-  * Activated through the {{ en.DVLS }} web UI in ***Administration – Server Settings – Authentication – Domain – Enable cache feature***.  
-     ![Administration – Server Settings – Authentication – Domain – Enable cache feature](https://webdevolutions.azureedge.net/docs/en/kb/KB4953.png)
+    * Activated through the {{ en.DVLS }} web UI in ***Administration – Server Settings – Authentication – Domain – Enable cache feature***.  
+![Administration – Server Settings – Authentication – Domain – Enable cache feature](https://webdevolutions.azureedge.net/docs/en/kb/KB4953.png)
 * Office 365 Cache
-  * Mandatory when using Azure AD / Office 365 Authentication Method.
+    * Mandatory when using Azure AD / Office 365 Authentication Method.
 * PAM Heartbeat (checkout processing, password rotation)
-  * Mandatory when using ***PAM features***.
+    * Mandatory when using ***PAM features***.
 * [Backup Manager](/server/web-interface/administration/backup/backup-manager/)
-  * Mandatory when the ***Backup Manager*** is enabled through the {{ en.DVLS }} web UI in ***Administration – Backup – Backup Manager***, either for:
-    * ***Enable database backup***.
-    * ***Enable web backup***.
-      ![Enable database backup / Enable web backup](https://webdevolutions.azureedge.net/docs/en/kb/KB4955.png)
+    * Mandatory when the ***Backup Manager*** is enabled through the {{ en.DVLS }} web UI in ***Administration – Backup – Backup Manager***, either for:
+        * ***Enable database backup***.
+        * ***Enable web backup***.
+![Enable database backup / Enable web backup](https://webdevolutions.azureedge.net/docs/en/kb/KB4955.png)
 * Notifications
-  * Mandatory when any ***Notification*** is set.
+    * Mandatory when any ***Notification*** is set.
 * [Automated Reports](/server/web-interface/reports/configuration/scheduled-reports/)
-  * Mandatory when enabled. Set in the {{ en.DVLS }} web UI in ***Reports – Configuration – Scheduled Reports***. Click the "+" icon to add a new ***Scheduled Report***.
-   ![Add a Scheduled Report](https://webdevolutions.azureedge.net/docs/en/kb/KB4956.png)
+    * Mandatory when enabled. Set in the {{ en.DVLS }} web UI in ***Reports – Configuration – Scheduled Reports***. Click the "+" icon to add a new ***Scheduled Report***.
+![Add a Scheduled Report](https://webdevolutions.azureedge.net/docs/en/kb/KB4956.png)
 * [Syslog Heartbeat](/server/web-interface/administration/configuration/server-settings/general/logging/)
-  * Mandatory when ***Syslog logging*** is enabled through the {{ en.DVLS }} web UI in ***Administration – Server Settings – Logging – Log to Syslog server***.
-   ![Log to Syslog server](https://webdevolutions.azureedge.net/docs/en/kb/KB4957.png)
+    * Mandatory when ***Syslog logging*** is enabled through the {{ en.DVLS }} web UI in ***Administration – Server Settings – Logging – Log to Syslog server***.
+![Log to Syslog server](https://webdevolutions.azureedge.net/docs/en/kb/KB4957.png)
 * [Automatic Log Cleanup](/server/web-interface/administration/logs/cleanup-logs/)
-  * Mandatory when ***Automatic Log cleanup*** is enabled through the {{ en.DVLS }} web UI in ***Administration – Logs – Cleanup Logs – Enable automatic cleanup***.
-   ![Enable automatic cleanup](https://webdevolutions.azureedge.net/docs/en/kb/KB4958.png)
+    * Mandatory when ***Automatic Log cleanup*** is enabled through the {{ en.DVLS }} web UI in ***Administration – Logs – Cleanup Logs – Enable automatic cleanup***.
+![Enable automatic cleanup](https://webdevolutions.azureedge.net/docs/en/kb/KB4958.png)
 
 ## Configuration and Requirements
 

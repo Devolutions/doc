@@ -31,10 +31,10 @@ If you have multiple {{ en.VLT }}s, you will need to export each {{ en.VLT }} se
 2. Select ***File – Export – Export {{ en.VLT }} (.rdm)***.  
 ![File – Export – Export {{ en.VLT }} (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4540.png)
 1. For a typical migration, you would check the options ***Include credentials***, ***Include attachments and documents***, and ***Encrypt with master key***.
-   * You can choose to remove all the folders present in your navigation tree.
-   * It is important to ***Include credentials*** at this step. If you choose not to, all your entries will be imported without any credentials.
-   * If you have documents and attachments saved in your data, we highly recommend you check the option to include them in the export.
-   * Choose to ***Encrypt with master key*** as an added security layer.  
+    * You can choose to remove all the folders present in your navigation tree.
+    * It is important to ***Include credentials*** at this step. If you choose not to, all your entries will be imported without any credentials.
+    * If you have documents and attachments saved in your data, we highly recommend you check the option to include them in the export.
+    * Choose to ***Encrypt with master key*** as an added security layer.  
 {% snippet icon.badgeWarning %}
 Ensure that you do not forget the ***Master Key*** as you will not be able to decrypt the data without it.
 {% endsnippet %}  

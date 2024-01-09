@@ -8,7 +8,7 @@ Dazu müssen Sie folgende Schritte ausführen:
 1. Laden Sie die ZIP-Datei der [kostenlosen](https://devolutions.net/de/remote-desktop-manager/home/downloadfree/) oder [Team](https://devolutions.net/de/remote-desktop-manager/home/downloadenterprise/)-Version von {{ de.RDM }} herunter. 
 1. Erstellen Sie einen neuen Ordner auf Ihrem Desktop. 
 1. Extrahieren Sie den Inhalt der ZIP-Datei in den in Schritt 2 erstellten Ordner. 
-1. Wechseln Sie in diesen Ordner, sobald die ZIP-Datei entpackt wurde, und führen Sie  **RemoteDesktopManager.exe** aus. 
+1. Wechseln Sie in diesen Ordner, sobald die ZIP-Datei entpackt wurde, und führen Sie **RemoteDesktopManager.exe** aus. 
 
 Wenn das Problem nicht mehr auftritt, können Sie die portable Anwendung von {{ de.RDM }} weiterhin auf diese Weise verwenden. Wir empfehlen Ihnen jedoch, die installierte Version mit dieser zu ersetzen.
 

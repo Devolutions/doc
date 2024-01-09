@@ -61,8 +61,8 @@ Populating {{ en.VLT }}s with assets is a time-consuming task in {{ en.RDM }}. [
 * ***Site***: Choose a Lansweeper site. 
 * ***Template***: Lansweeper template created within {{ en.RDM }}.
 * ***Duplicate check*** will not import entries with the same type and host.
-  * ***Root***: Check for duplicates within the whole data source.
-  * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder.
+    * ***Root***: Check for duplicates within the whole data source.
+    * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder.
 
 ![General tab](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6173.png)
 
@@ -98,10 +98,10 @@ groups:
 * ***Session name prefix***: A prefix for the entry that will be created through the synchronizer
 * ***Session name suffix***: A suffix for the entry that will be created through the synchronizer
 * ***Action on entry mismatch***: The action that will be performed when the entries that were previously created by the synchronizer don't match the data found while synchronizing.
-  * ***None***: Do nothing.
-  * ***Delete***: Delete that entry.
-  * ***Move to***: Move to selected ***Destination folder***.
-  * ***Make expired***: Mark that entry as expired.
+    * ***None***: Do nothing.
+    * ***Delete***: Delete that entry.
+    * ***Move to***: Move to selected ***Destination folder***.
+    * ***Make expired***: Mark that entry as expired.
 * ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals).
 
 ![Advanced tab](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6174.png)

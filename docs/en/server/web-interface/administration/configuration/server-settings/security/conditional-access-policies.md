@@ -21,10 +21,9 @@ eleventyComputed:
 ![Target drop-down menu and plus button](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6023.png) 
 
 2. Choose a policy name and action from the ***Action when matched*** and ***Action when not matched*** menus.  
-
-  * ***Continue***: Go to the next policy. Default action is applied if it is the last policy.
-  * ***Access Denied***: The user access will be denied. Users will receive an error and will not be abled to log in.
-  * ***Access Allowed***: The user access will be allowed. A 2FA could be needed, depending on the configuration. 
+    * ***Continue***: Go to the next policy. Default action is applied if it is the last policy.
+    * ***Access Denied***: The user access will be denied. Users will receive an error and will not be abled to log in.
+    * ***Access Allowed***: The user access will be allowed. A 2FA could be needed, depending on the configuration. 
 
 ![Action when matched and Action when not matched menus](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6019.png) 
 
@@ -33,13 +32,13 @@ eleventyComputed:
 ![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6015.png) 
 
 4. Choose from the drop-down menu whether the rule applies to:
-  * ***Authentication type***
-  * ***Time***
-  * ***IP Addresses***
-  * ***Geo IP***
-  * ***Users***
-  * ***Users Groups***
-  * ***Administrator***
+    * ***Authentication type***
+    * ***Time***
+    * ***IP Addresses***
+    * ***Geo IP***
+    * ***Users***
+    * ***Users Groups***
+    * ***Administrator***
 
 ![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6006.png)
 
@@ -62,9 +61,9 @@ eleventyComputed:
 Select ***MFA*** in the ***Target*** drop-down menu.
 
 1. Choose a ***Default action when no policy matches*** between the following:
-	* ***MFA Required***: MFA is enforced for all users. A default MFA type is set for all users.
-	* ***MFA Skipped***: MFA is not enforced.
-	* ***MFA Optional per User***: MFA is enforced on an individual basis. The administrator chooses who uses MFA and what product or technology they use. Choose this option if not all users are set up for multi-factor authentication.
+    * ***MFA Required***: MFA is enforced for all users. A default MFA type is set for all users.
+    * ***MFA Skipped***: MFA is not enforced.
+    * ***MFA Optional per User***: MFA is enforced on an individual basis. The administrator chooses who uses MFA and what product or technology they use. Choose this option if not all users are set up for multi-factor authentication.
 
 {% snippet icon.badgeInfo %} 
 When MFA usage is set to ***MFA Optional per User***, the MFA method must be configured in ***Administration – Users*** for each user. Edit or add a user, then go to the ***Multi-factor*** section to configure it. You can also set an MFA type on the user if they are using a product different than the default method. See [Multi-factor (Edit User)](/server/web-interface/administration/security-management/users/edit-user-two-factor/).
@@ -94,31 +93,30 @@ The currently supported multi-factor authenticators are Authenticator (TOTP), Yu
 ![Target drop-down menu and plus button](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6025.png) 
 
 9. Choose a policy name and action from the ***Action when matched*** and ***Action when not matched*** menus.  
+    * ***Continue***: Go to the next policy. Default action is applied if it is the last policy.
+    * ***MFA Required***: MFA is enforced for all users. A default MFA type is set for all users.
+    * ***MFA Skipped***: MFA is not enforced.
+    * ***MFA Optional per User***: MFA is enforced on an individual basis. The administrator chooses who uses MFA and what product or technology they use. Choose this option if not all users are set up for multi-factor authentication.
 
-  * ***Continue***: Go to the next policy. Default action is applied if it is the last policy.
-  * ***MFA Required***: MFA is enforced for all users. A default MFA type is set for all users.
-  * ***MFA Skipped***: MFA is not enforced.
-  * ***MFA Optional per User***: MFA is enforced on an individual basis. The administrator chooses who uses MFA and what product or technology they use. Choose this option if not all users are set up for multi-factor authentication.
-
-  ![Action when matched and Action when not matched menus](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6026.png) 
+![Action when matched and Action when not matched menus](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6026.png) 
 
 10. Click on the plus button (***Add***) in the ***Rules*** section.
 
 ![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6015.png) 
 
 11. Choose from the drop-down menu whether the rule applies to:
-  * ***Authentication type***
-  * ***Time***
-  * ***IP Addresses***
-  * ***Geo IP***
-  * ***Users***
-  * ***Users Groups***
-  * ***Administrator***
+    * ***Authentication type***
+    * ***Time***
+    * ***IP Addresses***
+    * ***Geo IP***
+    * ***Users***
+    * ***Users Groups***
+    * ***Administrator***
 
 ![Rules section](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6006.png)
 
 12. Click ***Add*** to close the window.
-  
+
 1. Select ***All*** or ***Any*** under ***Rules – Rule validation***.
 
 ![Rules – Rule validation](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6017.png)

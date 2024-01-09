@@ -17,7 +17,7 @@ Here is how you configure a Barracuda add-on in {{ en.RDM }}.
 
 ![File – Option – Path – Configure Installation Path](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6105.png)
 
-5. Search  ***Barracuda NG Firewall***. It is necessary to specify the folder where the file is located, override the default executable, and enter the name of the new executable with the .exe.
+5. Search ***Barracuda NG Firewall***. It is necessary to specify the folder where the file is located, override the default executable, and enter the name of the new executable with the .exe.
 ![Installation Path](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6108.png)
 
 6. Click ***OK***.  

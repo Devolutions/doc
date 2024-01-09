@@ -65,12 +65,11 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 1. In the ***Resquest API permissions*** window, select ***Microsoft Graph***.
 ![Microsoft Graph](https://webdevolutions.azureedge.net/docs/en/kb/KB2142.png)
 1. Click ***Application permissions***, then check the boxes next to the following Microsoft Graph API permissions to select them:
+    * ***Group.Read.All***
+    * ***RoleManagement.Readwrite.Directory***
+    * ***User.Read.All***
 
-   * ***Group.Read.All***
-   * ***RoleManagement.Readwrite.Directory***
-   * ***User.Read.All***
-
-   ![Select API permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB2143.png)
+![Select API permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB2143.png)
 
    {% snippet icon.badgeInfo %}
    Use the filter bar above the permissions list to find the ones you are looking for.

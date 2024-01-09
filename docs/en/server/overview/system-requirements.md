@@ -41,10 +41,10 @@ For a proper estimate, the following aspects must be considered:
 * Churn of these entries; do you create entries daily or are they quite static?  
 * Number of concurrent users that connect to the {{ en.DVLS }} instance during peak times.  
 * User behavior:
-  * Are they launching 10 sessions at a time, doing a batch operation that takes a few minutes and then repeating the cycle; or
-  * Are they opening only a few sessions but working within them all day long?  
+    * Are they launching 10 sessions at a time, doing a batch operation that takes a few minutes and then repeating the cycle; or
+    * Are they opening only a few sessions but working within them all day long?  
 
-  This results in write operations to our logs; therefore, the former case is more intensive then the latter.  
+   This results in write operations to our logs; therefore, the former case is more intensive then the latter.  
 
 ## 64-bit support
 

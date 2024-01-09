@@ -97,15 +97,14 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 1. Select ***Token configuration*** in the left side menu, then click on ***Add optional claim***.  
 ![Token configuration – Add optional claim](https://webdevolutions.azureedge.net/docs/en/hub/Hub2147.png)  
 1. Under ***Token type***, select ***ID***. Then, in the list, select the following claims:  
+    * ***email***
+    * ***family_name***
+    * ***given_name***
+    * ***upn***
+    * ***xms_pl***
+    * ***xms_tpl***  
 
-   * ***email***
-   * ***family_name***
-   * ***given_name***
-   * ***upn***
-   * ***xms_pl***
-   * ***xms_tpl***  
-
-   ![Add optional claim](https://webdevolutions.azureedge.net/docs/en/hub/Hub2148.png)  
+![Add optional claim](https://webdevolutions.azureedge.net/docs/en/hub/Hub2148.png)  
 
 1. Click ***Add***. 
 1. When prompted, enable ***Turn on the Microsoft Graph email***, then click ***Add***.  

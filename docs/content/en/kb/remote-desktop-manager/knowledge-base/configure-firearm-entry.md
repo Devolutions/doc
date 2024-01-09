@@ -30,8 +30,8 @@ Here is a list of all the fields in the ***Firearm*** entry. The entry can be fo
 * ***Ammo - Home Defense***
 * ***Ammo - Range***
 * ***Phone***
-*  ***Email***
-*  ***Website***
+* ***Email***
+* ***Website***
 ### Federal Firearms License (FFL)
 * ***Dealer***
 * ***Phone***

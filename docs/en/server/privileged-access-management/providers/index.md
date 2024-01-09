@@ -13,24 +13,24 @@ Providers are required to scan the Active Directory structure, your local networ
 Here are the available provider types:
 
 * ***Managed*** providers:
-  * [Domain user](/server/privileged-access-management/providers/domain-provider/)
-  * [Local user](/server/privileged-access-management/providers/local-ssh-provider/)
-  * [SQL user](/server/privileged-access-management/providers/sql-server-provider/)
-  * [Windows user](/server/privileged-access-management/providers/windows-users-provider/)
-  * [Azure AD user](/server/privileged-access-management/providers/azure-ad-user-provider/)
+    * [Domain user](/server/privileged-access-management/providers/domain-provider/)
+    * [Local user](/server/privileged-access-management/providers/local-ssh-provider/)
+    * [SQL user](/server/privileged-access-management/providers/sql-server-provider/)
+    * [Windows user](/server/privileged-access-management/providers/windows-users-provider/)
+    * [Azure AD user](/server/privileged-access-management/providers/azure-ad-user-provider/)
 
 ![Managed providers](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2107.png)
 
 * ***Unmanaged*** providers:
-  * MySQL user
-  * Cisco user
-  * Oracle user
+    * MySQL user
+    * Cisco user
+    * Oracle user
 
 ![Unmanaged providers](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2108.png)
 
 * ***AnyIdentity*** providers:
-  * Windows accounts
-  * Windows local accounts
+    * Windows accounts
+    * Windows local accounts
 
 ![AnyIdentity providers](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2109.png)
 

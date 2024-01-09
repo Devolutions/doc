@@ -30,7 +30,7 @@ The duration of ***Temporary Access*** begins when the request is approved.
 When the entry is selected, clicking on ***View Details*** in the ***Temporary Access Request*** section allows you to see information about the request as well as ***Approve***/***Deny*** it.  
 ![View Details](https://webdevolutions.azureedge.net/docs/en/hub/Hub2042.png)  
 
-In the top section, you can view the details of the request such as ***Entry's dependencies***,  ***User***, ***Permissions*** level and ***Duration***.
+In the top section, you can view the details of the request such as ***Entry's dependencies***, ***User***, ***Permissions*** level and ***Duration***.
 
 Below is the approver's reply. The ***Permissions*** and ***Duration*** can be changed and a message left for the user.
 

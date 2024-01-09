@@ -10,18 +10,18 @@ Some steps are required to properly send the username and password. Depending on
 ## Method 1
 
 1. Enter the credentials in the ***General*** tab of the ***Website*** entry:
-   * ***Username***: Enter the username to connect on the website.
-   * ***Domain***: Enter the domain to connect on the website.
-   * ***Password***: Enter the password to connect on the website.  
+    * ***Username***: Enter the username to connect on the website.
+    * ***Domain***: Enter the domain to connect on the website.
+    * ***Password***: Enter the password to connect on the website.  
 
    ![Credentials](https://webdevolutions.azureedge.net/docs/en/kb/KB4606.png)  
 
 1. The {{ en.WBEX }} is enabled by default. To disable it, select ***Disabled*** in the ***{{ en.WBEX }}*** drop-down menu. The [***Comparing type***](/kb/workspace-browser-extension/how-to-articles/urls-comparing-types/) determines if the {{ en.WBEX }} should offer the entry as an available entry to perform autofill.
 1. In the ***Login*** tab, set the ***Authentication*** to ***Form***.
 1. In the ***Login – Settings*** tab, verify that the ***Autofill login*** and ***Auto submit*** options are enabled.
-   * ***Autofill login***: Automatically fills in the credential fields when opening the web page.
-   * ***Autofill delay***: Set a delay between opening the web page and attempting the auto fill feature.
-   * ***Auto submit***: Automatically submit the credentials and try connecting to the website.  
+    * ***Autofill login***: Automatically fills in the credential fields when opening the web page.
+    * ***Autofill delay***: Set a delay between opening the web page and attempting the auto fill feature.
+    * ***Auto submit***: Automatically submit the credentials and try connecting to the website.  
 
    ![Login settings](https://webdevolutions.azureedge.net/docs/en/kb/KB4607.png)  
 

@@ -135,11 +135,11 @@ Selects another PSHubContext to change the current PSHubContext which will be us
 * PSHubContext
 * Path
 * Force
-  * SecurePassword  
+    * SecurePassword  
 
-  or  
+   or  
 
-  * Password
+    * Password
 
 **Description**
 
@@ -368,11 +368,11 @@ If GroupId is provided, sets a predefined PSVaultRole or a custom system {{ en.V
 **Arguments**
 
 * SystemPermission
-  * UserId  
+    * UserId  
 
-  or  
+   or  
 
-  * GroupId
+    * GroupId
 
 **Description**
 
@@ -639,13 +639,13 @@ Change information about a {{ en.VLT }} and save these modifications.
 **Arguments**
 
 * VaultID
-  * UserId
-  * VaultRoleId | VaultPermission  
+    * UserId
+    * VaultRoleId | VaultPermission  
 
-  or  
+   or  
 
-  * GroupId
-  * VaultRoleId | VaultPermission  
+    * GroupId
+    * VaultRoleId | VaultPermission  
 
 **Description**
 
@@ -676,11 +676,11 @@ With a predefined role:
 **Arguments**
 
 * VaultID
-  * UserId
+    * UserId
 
-  or  
+   or  
 
-  * GroupId
+    * GroupId
 
 **Description**
 
@@ -695,11 +695,11 @@ If GroupId is provided, removes this group's {{ en.VLT }} permission from the sp
 **Arguments**
 
 * VaultID
-  * UserId
+    * UserId
 
-  or  
+   or  
 
-  * GroupId
+    * GroupId
 
 **Description**
 
@@ -722,13 +722,13 @@ Get a vaultPermission from a user to create a new vaultPermission with the same 
 **Arguments**
 
 * VaultID
-  * UserId
-  * VaultRoleId | VaultPermission  
+    * UserId
+    * VaultRoleId | VaultPermission  
 
-  or  
+   or  
 
-  * GroupId
-  * VaultRoleId | VaultPermission  
+    * GroupId
+    * VaultRoleId | VaultPermission  
 
 **Description**
 
@@ -1053,13 +1053,13 @@ Change information about an entry and save these modifications.
 
 * VaultId
 * EntryId
-  * UserId
-  * PSEntryRole | EntryPermission  
+    * UserId
+    * PSEntryRole | EntryPermission  
 
-  or  
+   or  
 
-  * GroupId
-  * PSEntryRole | EntryPermission  
+    * GroupId
+    * PSEntryRole | EntryPermission  
 
 **Description**
 
@@ -1093,11 +1093,11 @@ With a predefined role:
 
 * VaultId
 * EntryId
-  * UserId
+    * UserId
 
-  or  
+   or  
 
-  * GroupId
+    * GroupId
 
 **Description**
 
@@ -1115,11 +1115,11 @@ If GroupId is provided, removes this group's entry permission from a specific en
 
 * VaultId
 * EntryId
-  * UserId
+    * UserId
 
-  or  
+   or  
 
-  * GroupId
+    * GroupId
 
 **Description**
 
@@ -1145,13 +1145,13 @@ Get an entryPermission from a user to create a new entryPermission with the same
 
 * VaultId
 * EntryId
-  * UserId
-  * PSEntryRole | EntryPermission  
+    * UserId
+    * PSEntryRole | EntryPermission  
 
-  or  
+   or  
 
-  * GroupId
-  * PSEntryRole | EntryPermission  
+    * GroupId
+    * PSEntryRole | EntryPermission  
 
 **Description**
 

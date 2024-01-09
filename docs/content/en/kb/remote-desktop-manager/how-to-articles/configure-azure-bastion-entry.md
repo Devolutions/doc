@@ -20,13 +20,13 @@ Before creating entries in {{ en.RDM }}, some steps are required for provisionin
 1. Click on a specific virtual network to add Bastion to (or create one).
 1. In the left menu, go to the ***Bastion*** pane to open the details, then click the ***Deploy Bastion*** button to start the process. 
 ![Bastion – Deploy Bastion](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2275.png)  
-  If there is no existing subnet with enough space, then Bastion only shows the ***Configure manually*** button and prompts for the subnet creation. In the image above, subnet `172.16.2.0/24` was provided, and the ***Deploy Bastion*** button becomes enabled once the subnet is added.
-   * This is a multi-step process, which can take 10 minutes or more to complete. 
-     * Creates a subnet named `AzureBastionSubnet`.
-     * Creates a resource for Azure Bastion - `{Existing Virtual Network}-bastion`.
-     * Deploys at least one Bastion application instance.
-     * Provisions a public IP tied to the Azure Bastion resource.
-5. Once Azure Bastion is provisioned, navigate to the ***Bastion*** pane once again.
+   If there is no existing subnet with enough space, then Bastion only shows the ***Configure manually*** button and prompts for the subnet creation. In the image above, subnet `172.16.2.0/24` was provided, and the ***Deploy Bastion*** button becomes enabled once the subnet is added.
+    * This is a multi-step process, which can take 10 minutes or more to complete. 
+        * Creates a subnet named `AzureBastionSubnet`.
+        * Creates a resource for Azure Bastion - `{Existing Virtual Network}-bastion`.
+        * Deploys at least one Bastion application instance.
+        * Provisions a public IP tied to the Azure Bastion resource.
+1. Once Azure Bastion is provisioned, navigate to the ***Bastion*** pane once again.
 1. Select an available VM to connect to.  
 ![Select a VM to connect to](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2276.png)
 1. Enter appropriate local VM credentials under ***Connection Settings***.  
@@ -66,15 +66,15 @@ However, if you plan on using only one session entry with it, you can set up the
 1. In the ***General*** sub-tab, enter the information located in step 1 for the ***Host***, ***Subscription ID***, ***Resource Group***, and ***Tenant ID***.
 1. Select an ***Azure cloud*** in the corresponding drop-down list. The ***Default*** value corresponds to Azure Public Cloud.
 1. Select a ***Connection mode*** in the corresponding drop-down list. Choose between:
-   * ***RD Gateway***: Retrives an RDP connection file from the Bastion and uses it in the background for faster performance. Supports RDP session entries only.
-   * ***TCP Tunnel***: Allows unique port numbers but offers lower performance. Only available with the Standard tier. Supports non-standard ports and SSH entries. This mode mirrors the functionality of the ***az cli Bastion tunnel command***.
+    * ***RD Gateway***: Retrives an RDP connection file from the Bastion and uses it in the background for faster performance. Supports RDP session entries only.
+    * ***TCP Tunnel***: Allows unique port numbers but offers lower performance. Only available with the Standard tier. Supports non-standard ports and SSH entries. This mode mirrors the functionality of the ***az cli Bastion tunnel command***.
 
    ![General Azure Bastion information](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2281.png)
 1. Open the ***Authentication*** sub-tab and select the appropriate value:
-   * ***Use "My Account Settings"***: Takes your credentials from ***File – My Account Settings***.
-   * ***Use my current PowerShell login***: Takes the current login context from Azure PowerShell (`Connect-AzAccount`).
-   * ***Use my current Azure CLI login***: Takes the current login context from Az CLI (`az login`).
-   * ***Prompt for credentials***: Prompts with an interactive login to authenticate via a web browser pop-up window. You can optionally provide the username as a login hint. The access token will be cached for subsequent connections in the same user session.  
+    * ***Use "My Account Settings"***: Takes your credentials from ***File – My Account Settings***.
+    * ***Use my current PowerShell login***: Takes the current login context from Azure PowerShell (`Connect-AzAccount`).
+    * ***Use my current Azure CLI login***: Takes the current login context from Az CLI (`az login`).
+    * ***Prompt for credentials***: Prompts with an interactive login to authenticate via a web browser pop-up window. You can optionally provide the username as a login hint. The access token will be cached for subsequent connections in the same user session.  
    In the example below, the connection is set to prompt with an Azure login screen and an optional login hint is provided to select the right account.
    ![Authentication Azure Bastion information](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2282.png)
 1. Click ***OK*** to save the entry.

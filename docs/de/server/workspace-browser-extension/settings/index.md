@@ -14,15 +14,14 @@ Die ***Einstellungen*** sind in zwei Kategorien unterteilt: [***Konfiguration***
 Die ***Allgemeinen*** Einstellungen betreffen die Benutzeroberfläche und die Interaktion.  
 
 * Registerkarte ***Allgemein***
-  * Das Symbol der {{ de.WBEX }} in den Felder für die Anmeldeinformationen anzeigen.
-  * Aufforderung zum Speichern der Anmeldedaten bei einer neuen Anmeldung anzeigen.
-  * Optionen des Kontexmenü anzeigen.
-  * Felder einfärben, wenn die {{ de.WBEX }} diese befüllt.
-  * ***Farbschema*** der Anwendung festlegen.
-
+    * Das Symbol der {{ de.WBEX }} in den Felder für die Anmeldeinformationen anzeigen.
+    * Aufforderung zum Speichern der Anmeldedaten bei einer neuen Anmeldung anzeigen.
+    * Optionen des Kontexmenü anzeigen.
+    * Felder einfärben, wenn die {{ de.WBEX }} diese befüllt.
+    * ***Farbschema*** der Anwendung festlegen.
 * Registerkarte ***Erweitert***
-  * Telemetrie deaktivieren.
-  * Beta-Versionen der {{ de.WBEX }} aktivieren.
+    * Telemetrie deaktivieren.
+    * Beta-Versionen der {{ de.WBEX }} aktivieren.
 
 Die ***Ausnahmen*** ermöglichen eine Liste von Websites zu hinterlegen, bei denen der Benutzer keine Benachrichtigung erhält, die eingegebenen Anmeldeinformationen zu speichern.  
 

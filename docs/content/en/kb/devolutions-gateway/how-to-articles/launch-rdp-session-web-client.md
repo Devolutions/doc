@@ -20,8 +20,8 @@ In order to use this feature, certain requirements must be met, namely:
 * Have a [{{ en.DGW }}](/server/dgw/server-configuration/) version 2023.1 or later.
 * Have a [{{ en.DVLS }}](/server/installation/upgrade-server/) version 2023.1.3 or later.
 * Have an [RDP type connection](#rdp-session-configuration) with:
-  * a gateway type VPN configured.
-  * no mandatory session recording.
+    * a gateway type VPN configured.
+    * no mandatory session recording.
 * Have the ***View password*** permission if you are the one to use the session.
 * Have a {{ en.RDM }} or {{ en.DLAUNCHER }} license assigned to the user that wants to use the connection.
 
