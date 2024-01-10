@@ -1,0 +1,14 @@
+name: Feedback
+description: Feedback report
+title: "[Feedback]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reaching out to the Devolutions Documentation team.
+
+        We have dedicated this space exclusively for your valuable feedback concerning our documentation. Your insights and suggestions are crucial in helping us improve and provide the best possible resources for all users. For any issues or queries about our products and features, we recommend reaching out to our team of technical experts at [service@devolutions.net](mailto:service@devolutions.net).
+
+        Thank you for helping us enhance the Devolutions experience!
+
+        The Devolutions Documentation team
