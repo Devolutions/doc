@@ -15,7 +15,7 @@ Be advised that using this feature in an environment where passwords must be hid
 
 Typing macros can also be added in the ***Login Button ID*** field of a website entry.
 
-![Select an entry – Properties – Login – Login button ID](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6163.png)
+![Select an entry – Properties – Login – Login button ID](https://webdevolutions.azureedge.net/docs/en/kb/KB6163.png)
 
 ## Typing macro
 Keyboard keys are represented by predefined tags between braces. To specify a single keyboard character, use the character itself without braces. For example, represent the letter ***A*** by typing the "A" character in the typing macro. To represent more than one character, such as ***Hello***, append each additional character to the preceding one: "Hello".

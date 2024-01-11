@@ -20,11 +20,11 @@ These credentials are often linked directly to a connection to facilitate seamle
 * Traditional PSM Connection
 * Bypassing PSM via the ***Allow connect to host*** option under ***Advanced*** – ***General***. Not recommended.
 
-![Bypassing PSM via the Allow connect to host option](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6114.png)
+![Bypassing PSM via the Allow connect to host option](https://webdevolutions.azureedge.net/docs/en/kb/KB6114.png)
 
 PSM Alternate Shell (also internally known as the Ad-Hoc connection method, different from the Ad-Hoc connection in PVWA). Requires a pre-existing CyberArk PSM Server to be configured.
 
-![PSM Alternate Shell  option](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6116.png)
+![PSM Alternate Shell  option](https://webdevolutions.azureedge.net/docs/en/kb/KB6116.png)
 
 * ***CyberArk PSM Connection*** - Intended to connect to a specific host using a privileged account and a PSM server connection, leveraging the PSM Alternate Shell connection method.
 

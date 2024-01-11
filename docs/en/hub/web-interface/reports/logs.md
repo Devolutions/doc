@@ -10,7 +10,7 @@ The ***Logs*** section provides tools to perform ***Activity Logs Report***, vie
 ### Activity Logs Report 
 
 The ***Activity Logs Report*** displays specific {{ en.VLT }} actions on the activity of all your users.
-![Activity Logs Report](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6081.png) 
+![Activity Logs Report](https://webdevolutions.azureedge.net/docs/en/hub/Hub6081.png) 
 
 ### User Activity 
 

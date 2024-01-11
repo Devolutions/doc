@@ -6,7 +6,7 @@ eleventyComputed:
   keywords:
   - Knowledge Base
 ---
-![!!{{ de.DKB }} Logo](https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)  
+![!!{{ de.DKB }} Logo](https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)  
 
 Das Devolutions Experience-Team ist stolz, diese Knowledge Base für unsere Community von über 800.000 Benutzern zu veröffentlichen!  
 

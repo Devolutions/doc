@@ -14,14 +14,14 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 1. In the ***{{ en.NPANE }}*** of {{ en.RDM }}, select the entry you want to grant access to.  
 1. Click ***Grant Temporary Access*** in the ribbon.  
-![Grant Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6010.png)  
+![Grant Temporary Access](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6010.png)  
 1. Choose ***User*** and ***Access Duration*** in the ***Grant Temporary Access*** window. 
-![Grant Temporary Access window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6011.png)  
+![Grant Temporary Access window](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6011.png)  
 
    You can view the ***Entry's dependencies*** such as linked credentials and VPNs in the left drop-down menu.
 
 1. Click on ***Set custom time frame*** if you need to grant access for a specific period of time and write a short ***Message*** to the user explaining why you grant access.  
 
 1. Click ***Ok*** to close the window.  
-![The temporary access has been granted](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6012.png)  
+![The temporary access has been granted](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6012.png)  
 The ***Temporary Access*** has been granted.  

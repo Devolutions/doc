@@ -3,7 +3,7 @@ eleventyComputed:
   title: "{{ en.CIS }}"
   description: "The {{ en.CIS }} offered through our Devolutions Customer Portal services replicates the configuration from a {{ en.RDM }} instance."
 ---
-![!!CustomInstallerServiceIcon](https://webdevolutions.blob.core.windows.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg)
+![!!CustomInstallerServiceIcon](https://webdevolutions.azureedge.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg)
 
 * Generate and download custom installation packages for {{ en.RDM }}.
 * Include preconfigured data sources in the package for quick enterprise wide deployment.

@@ -11,7 +11,7 @@ eleventyComputed:
 If you have more than one license, our [Sales team](mailto:sales@devolutions.net?subject=Co-terminate%20all%20my%20RDM%20licenses) can provide a co-terminated renewal to facilitate your license management. 
 {% endsnippet %}
  
-![User and Security Management](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6032.png) 
+![User and Security Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6032.png) 
 
 3. In the ***Assigned*** column, check next to each user you need to grant a license or use the global action buttons to assign to all or missing. 
 {% snippet icon.badgeNotice %} 
@@ -26,7 +26,7 @@ Automatically assigning licenses to users does not work with a Hub data source s
 
 A warning window will open if you click ***Clear All*** and forget to assign the license to a user. Note that you can always go back to the ***Assign Licenses icon*** to assign the license. 
 
-![Warning window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6033.png) 
+![Warning window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6033.png) 
 
 4. Click ***OK*** to save. 
 

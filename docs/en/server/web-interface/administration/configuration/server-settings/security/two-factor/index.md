@@ -17,7 +17,7 @@ Configure multi-factor authentication (MFA) in {{ en.DVLS }} to add an extra lay
 1. The first option is to choose how you want to enforce multi-factor authentication. To do so, click on the information icon next to ***MFA usage*** to go to the ***Conditional Access Policies*** section.  
 ![MFA usage](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2061.png)  
 1. Select a ***Target*** (***Login*** or ***MFA***).  
-![Target](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6001.png) 
+![Target](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6001.png) 
 1. If you chose the ***MFA*** in the last step, select a ***Default action when no policy matches*** between the following:
 	* ***MFA Required***: MFA is enforced for all users. A default MFA type is set for all users.
 	* ***MFA Skipped***: MFA is not enforced.
@@ -27,10 +27,10 @@ Configure multi-factor authentication (MFA) in {{ en.DVLS }} to add an extra lay
 When MFA usage is set to ***MFA Optional per User***, the MFA method must be configured in ***Administration – Users*** for each user. Edit or add a user, then go to the ***Multi-factor*** section to configure it. You can also set an MFA type on the user if they are using a product different than the default method. See [Multi-factor (Edit User)](/server/web-interface/administration/security-management/users/edit-user-two-factor/).
 {% endsnippet %}  
 
-![Default action when no policy matches](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6003.png) 
+![Default action when no policy matches](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6003.png) 
 
 5. Back to the ***Multi-factor*** section, choose who to send the reset email to between ***Administrator(s)*** or a ***Specific email*** (in which case you must specify the email in the ***Specific email*** field).  
-![Send reset email to & Specific email](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp2064.png) 
+![Send reset email to & Specific email](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2064.png) 
 1. Check the boxes next to the supported authenticators that you want to enable. You can choose as many as necessary.
 
 {% snippet icon.badgeInfo %} 

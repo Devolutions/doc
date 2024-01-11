@@ -13,17 +13,16 @@ eleventyComputed:
 Many features in {{ en.RDM }} use Microsoft's [WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Its installation is highly recommended.
 
 The compatible download link for {{ en.RDM }} is the one under the Evergreen Bootstrapper.  
-![Evergreen Bootstrapper](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6021.png)  
+![Evergreen Bootstrapper](https://webdevolutions.azureedge.net/docs/en/kb/KB6021.png)  
 
 Here is a list of features that require ***WebView2 Runtime***:
 
-* Onboarding  
-* Dashboards  
-* Web browser (ex: Edge embedded)  
-* SAML authentication in CyberArk  
-* Reports  
-* Handbook/Documentation  
-* Compare prompt (ex: documentation)  
-* Help prompt  
-* Change history in available update prompt  
-
+* Onboarding
+* Dashboards
+* Web browser (ex: Edge embedded)
+* SAML authentication in CyberArk
+* Reports
+* Handbook/Documentation
+* Compare prompt (ex: documentation)
+* Help prompt
+* Change history in available update prompt

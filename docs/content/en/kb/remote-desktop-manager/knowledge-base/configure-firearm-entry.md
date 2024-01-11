@@ -7,9 +7,9 @@ eleventyComputed:
 ---
 Here is a list of all the fields in the ***Firearm*** entry. The entry can be found under ***New Entry – Information – Other***.
 
-![Firearm entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6008.png)  
+![Firearm entry](https://webdevolutions.azureedge.net/docs/en/kb/KB6008.png)  
 
-![General tab](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6009.png)
+![General tab](https://webdevolutions.azureedge.net/docs/en/kb/KB6009.png)
 ## General settings
 * ***Name***
 * ***Folder***
@@ -23,7 +23,7 @@ Here is a list of all the fields in the ***Firearm*** entry. The entry can be fo
 * ***Serial number***
 
 ## Details tab
-![Details tab](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6010.png)  
+![Details tab](https://webdevolutions.azureedge.net/docs/en/kb/KB6010.png)  
 * ***Cost***
 * ***Caliber***
 * ***Magazine capacity***

@@ -14,7 +14,7 @@ The logs feature requires an [Advanced Data Source](/rdm/windows/data-sources/da
 Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{ en.DHUB }}](/hub/overview/what-is-hub/) are available in {{ en.RDM }}.
 {% endsnippet %}
 
-![Reports](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6205.png)
+![Reports](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6205.png)
 
 | OPTION               | DESCRIPTION |
 |----------------------|-------------|
@@ -27,7 +27,7 @@ Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{
 | More Reports         | Opens the ***Reports*** window. |
 
  
-![Reports window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6197.png) 
+![Reports window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6197.png) 
 
 From this window, you can browse and select a wide variety of Report Types. Explore to your heart's content.  
 

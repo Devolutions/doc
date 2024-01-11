@@ -4,7 +4,7 @@ eleventyComputed:
   description: Activity Logs provide a robust logging solution. With this feature, it is possible to monitor an open session for all users using Advanced Data Sources.
 ---
 ***Activity Logs*** provide a robust logging solution. With this feature, it is possible to monitor an open session for all users using [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
-![Activity Logs](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6204.png) 
+![Activity Logs](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6204.png) 
 
 {% snippet icon.badgeInfo %} 
 Depending on the permissions each user has, they may only be able to access [***Local Connection Logs***](/rdm/windows/commands/view/logs/). 

@@ -14,15 +14,15 @@ The ***Temporary Access*** feature allows users to request a temporary elevation
 
 1. In the ***{{ en.NPANE }}*** of {{ en.RDM }}, select the entry you want to grant access to.  
 1. Click ***Grant Temporary Access*** in the ribbon.  
-![Grant Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6018.png)  
+![Grant Temporary Access](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6018.png)  
 1. Choose ***User*** and ***Duration*** in the ***Grant Temporary Access*** window.  
-![Grant Temporary Access window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6021.png)  
+![Grant Temporary Access window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6021.png)  
 
    ***Entry's dependencies***, such as credentials and linked VPNs, are listed on the left menu.
 
 1. Click on ***Set custom time frame*** if you need to grant access for a specific period of time and write a short ***Message*** to the user explaining why you grant access.  
 1. Click ***Grant Access*** to close the window.  
-![The temporary access has been granted](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6022.png)  
+![The temporary access has been granted](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6022.png)  
 The ***Temporary Access*** has been granted.  
 
 ## Grant temporary access to a credentials entry with view password mode
@@ -31,16 +31,16 @@ An approver can configure a credentials entry with temporary access, giving user
 
 1. In the ***{{ en.NPANE }}*** of {{ en.RDM }}, select the credentials entry you want to grant access to.
 1. Go to ***Properties*** – ***Security*** – ***Permissions*** – ***General*** and set ***View password*** to ***Never***. 
-![View password](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6025.png)  
+![View password](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6025.png)  
 1. In the same window, go to ***Security*** – ***Security Settings*** – ***Temporary Access*** – ***Mode*** and select ***Allowed***.
-![Temporary access mode](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6024.png)  
+![Temporary access mode](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6024.png)  
 1. Click ***OK*** to close the window.
 1. Go to ***Grant Temporary Access*** in the ribbon.  
-![Grant Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6018.png)  
+![Grant Temporary Access](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6018.png)  
 1. Choose ***User*** and ***Duration*** in the ***Grant Temporary Access*** window.  
-![Grant Temporary Access window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6021.png)  
+![Grant Temporary Access window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6021.png)  
 The ***Entry's dependencies***, such as credentials and linked VPNs, are listed on the left menu.  
 1. Click on ***Set custom time frame*** if you need to grant access for a specific period of time and write a short ***Message*** to the user explaining why you grant access.  
 1. Click ***Grant Access*** to close the window.  
-![The temporary access has been granted](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6022.png)  
+![The temporary access has been granted](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6022.png)  
 The ***Temporary Access*** has been granted.  

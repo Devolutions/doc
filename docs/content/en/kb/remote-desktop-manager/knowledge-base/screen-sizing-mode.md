@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 ***Screen sizing mode*** is available for RDP entries in {{ en.RDM }}. The option can be found under ***General*** – ***Display – Remote Desktop Size*** in the properties of an RDP entry.
 
-![General – Display – Remote Desktop Size – Screen sizing mode](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6027.png) 
+![General – Display – Remote Desktop Size – Screen sizing mode](https://webdevolutions.azureedge.net/docs/en/kb/KB6027.png) 
 
 Here is a list of each ***Screen sizing mode***. 
 

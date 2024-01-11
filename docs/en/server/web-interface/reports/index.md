@@ -10,7 +10,7 @@ The ***Reports*** section provides the administrators with tools to perform audi
 Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{ en.DHUB }}](/hub/overview/what-is-hub/) are available in {{ en.RDM }}.
 {% endsnippet %}
 
-![Reports](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6084.png) 
+![Reports](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6084.png) 
 
 ### Report customization 
 Most of the reports available can be customized. Filter and sort the data, set a time interval and even export the reports in a .CSV file.  

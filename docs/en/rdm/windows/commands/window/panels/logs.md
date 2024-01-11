@@ -3,7 +3,7 @@ eleventyComputed:
   title: Logs
 ---
 The ***Logs*** feature is similar to [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/), but it only provides information about the selected entry. Logs are available from the context menu ***Window – Panels – Logs***.  
-![Logs Button](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6206.png) 
+![Logs Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6206.png) 
 
 ## Functions 
 

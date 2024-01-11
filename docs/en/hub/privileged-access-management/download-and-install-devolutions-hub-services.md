@@ -10,24 +10,24 @@ The {{ en.DHUBS }} installer facilitates the installation and integration of our
 
 1. Go to {{ en.DHUB }}.
 1. Click ***Administration*** – ***Application Users***.  
-![Administration – Application Users](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6039.png)  
+![Administration – Application Users](https://webdevolutions.azureedge.net/docs/en/hub/Hub6039.png)  
 1. Select ***Add Application User (+)***.  
-![Add Application User (+)](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6040.png)  
+![Add Application User (+)](https://webdevolutions.azureedge.net/docs/en/hub/Hub6040.png)  
 
 1. Enter a name and click ***Add***.  
 1. Save the given ***Application Secret*** and ***Application key*** to your clipboard or as a PDF file. It will be needed during {{ en.DHUBS }}' installation.   
-![Save the given Application Secret and Application key](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6043.png)  
+![Save the given Application Secret and Application key](https://webdevolutions.azureedge.net/docs/en/hub/Hub6043.png)  
 
 ## Edit Permissions for the Application User
 
 1. Go to {{ en.DHUB }}.
 1. Click ***Administration*** – ***System Permissions***.
-![Administration – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
+![Administration – System Permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub6048.png)
 1. Go to the edit form.
-![Edit form](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6049.png)
+![Edit form](https://webdevolutions.azureedge.net/docs/en/hub/Hub6049.png)
 1. Select ***System***.
 1. Select your ***Application User*** in the drop-down menu under ***Manage privileged access tasks*** and ***Manage privileged access providers***. 
-![System Permissions – Manage privileged access tasks and Manage privileged access providers](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6060.png)
+![System Permissions – Manage privileged access tasks and Manage privileged access providers](https://webdevolutions.azureedge.net/docs/en/hub/Hub6060.png)
 
 {% snippet icon.badgeInfo %}
 You need to grant permission on the {{ en.VLT }} either at ***System level*** or ***Individual PAM {{ en.VLT }} level***. 
@@ -36,30 +36,30 @@ You need to grant permission on the {{ en.VLT }} either at ***System level*** or
 ### For all system {{ en.VLT }}s
 
 1. In {{ en.DHUB }}, go to ***Administration*** – ***Configuration & Security*** – ***System Permissions***.
-![Administration – Configuration & Security – System Permissions](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6048.png)
+![Administration – Configuration & Security – System Permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub6048.png)
 1. Go to the edit form.
-![Edit form](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6049.png)
+![Edit form](https://webdevolutions.azureedge.net/docs/en/hub/Hub6049.png)
 1. Select ***{{ en.VLT_MAJ }}s***.
 1. Choose your ***Application User*** in the drop-down menu under the ***Contributor*** section.
-![Contributor section](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6050.png)
+![Contributor section](https://webdevolutions.azureedge.net/docs/en/hub/Hub6050.png)
 1. Click ***Update*** to close the window. 
 
 ### For a specific PAM {{ en.VLT }}
 
 1. In {{ en.DHUB }}, go to ***Administration – Management – {{ en.VLT_MAJ }}s***.
-![Administration – Management – {{ en.VLT_MAJ }}s](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6044.png)  
+![Administration – Management – {{ en.VLT_MAJ }}s](https://webdevolutions.azureedge.net/docs/en/hub/Hub6044.png)  
 1. Select ***Add PAM {{ en.VLT }}*** in the menu to create your PAM {{ en.VLT }}.  
-![Administration – Management – {{ en.VLT_MAJ }}s – Add PAM {{ en.VLT }}](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6059.png)  
+![Administration – Management – {{ en.VLT_MAJ }}s – Add PAM {{ en.VLT }}](https://webdevolutions.azureedge.net/docs/en/hub/Hub6059.png)  
 1. Select the ***Edit*** tab at the ***Permissions*** section.  
 1. Choose your ***Application User*** in the drop-down menu under the ***Contributor*** section.  
-![Contributor section](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6056.png)  
+![Contributor section](https://webdevolutions.azureedge.net/docs/en/hub/Hub6056.png)  
 1. Click ***Update*** to close the window. 
 
 ## Installation of {{ en.DHUBS }} Beta
 
 1. [Download {{ en.DHUBS }} Beta](https://devolutions.net/password-hub/home/download/).
 1. Launch the installer that you downloaded.
-![{{ en.DHUBS }} setup](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6038.png) 
+![{{ en.DHUBS }} setup](https://webdevolutions.azureedge.net/docs/en/hub/Hub6038.png) 
 1. Click ***Next***.
 1. Read the ***End-User License Agreement*** and click ***I accept the terms in the License Agreement***.
 1. Click ***Next***.
@@ -70,7 +70,7 @@ You need to grant permission on the {{ en.VLT }} either at ***System level*** or
 1. Click ***Finish*** to complete the installation.
 1. Click ***Test Connection***.
 1. If your connection is successful, press ***Next***.
-![Connection successful](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6055.png) 
+![Connection successful](https://webdevolutions.azureedge.net/docs/en/hub/Hub6055.png) 
 ## Check {{ en.DHUBS }} logs
 
 {{ en.DHUBS }}' logs are available in ***Windows Event Viewer***. The service should be able to connect to the created provider. The provider needs to be added in {{ en.DHUB }}.

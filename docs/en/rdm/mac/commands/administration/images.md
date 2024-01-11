@@ -14,13 +14,13 @@ The following file types are currently supported for global and custom images:
 * .ico
 
 1. Go to ***Administration*** – ***Images*** in the ribbon of {{ en.RDM }}.
-![Administration – Images](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6047.png)
+![Administration – Images](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6047.png)
 1. The ***Entry Image Management*** window open.
 1. Click ***Add (+)*** to choose an image.
-![Entry image management – Add (+)](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6048.png)
+![Entry image management – Add (+)](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6048.png)
 1. Choose the image by dragging, dropping or clicking.
 1. In the ***Entry Image Settings***, enter the ***Name*** and virtual ***Folder*** of the image.
-![Entry Image Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6049.png)  
+![Entry Image Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6049.png)  
 1. Click ***OK*** to close the window.
 
 The folder and image are saved.

@@ -7,16 +7,16 @@ eleventyComputed:
 Register your {{ en.DVLS }} license in the {{ en.DVLS }} web interface. 
 
 1. In the {{ en.DVLS }} web interface, go to ***Administration – Licenses***.  
-![Administration – Licenses](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp2101.png)  
+![Administration – Licenses](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2101.png)  
 1. Select ***Add***. 
-![Administration – Licenses – Add](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp2102.png)  
+![Administration – Licenses – Add](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2102.png)  
 1. Enter the license or import the license file, then click ***Add***.
 
    {% snippet icon.badgeInfo %}
    Importing the license using the **.lic** file is most uselful when offline. See the next section about offline registration for more information.
    {% endsnippet %}  
 
-   ![License window](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp2103.png)  
+   ![License window](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2103.png)  
 
 ### Offline registration
 

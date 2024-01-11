@@ -4,7 +4,7 @@ eleventyComputed:
   description: The View section in the View tab allows you to access different lists and information as well as to quickly connect to a host.  
 ---
 The ***View*** section in the ***View*** tab allows you to access different lists and information as well as to quickly connect to a host.  
-![View Section](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6203.png) 
+![View Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6203.png) 
 
 ## Search
 

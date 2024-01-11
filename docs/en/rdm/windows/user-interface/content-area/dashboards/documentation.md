@@ -19,13 +19,13 @@ The feature for using ***Documentation*** in offline mode is available for docum
 ## Create a new page  
 1. Choose the entry in the ***{{ en.NPANE }}***.  
 1. Go to the ***Documentation*** tab and click ***New page***.  
-![Documentation tab – New page](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6029.png)  
+![Documentation tab – New page](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6029.png)  
 1. Enter a name and select a ***Documentation type***.  
-![Documentation type](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6028.png)  
+![Documentation type](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6028.png)  
 Note: You can switch between ***Markdown*** and ***WYSIWYG*** when you select ***Markdown*** in ***Documentation type***.
-![Markdown and WYSIWYG](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6037.png)
+![Markdown and WYSIWYG](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6037.png)
 1. Choose a ***Default template***.
-![Default template](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6031.png)  
+![Default template](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6031.png)  
 
    ***Tutorial*** creates a document containing generated text and ***Empty*** a blank document. The last option, ***Custom***, lets you select a custom template of your choice. 
 
@@ -35,19 +35,19 @@ Note: You can switch between ***Markdown*** and ***WYSIWYG*** when you select **
 ##  Synchronize offline documentation  
 1. Choose the entry in the ***{{ en.NPANE }}***.  
 1. Go to ***Administration – {{ en.VLT_MAJ }} Settings*** in the ribbon. 
-![{{ en.VLT_MAJ }} Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6000.png)  
+![{{ en.VLT_MAJ }} Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6000.png)  
 1. In ***Security Settings – Offline – Synchronize documentation to offline***, select ***Yes***.  
-![Synchronize documentation to offline](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6004.png)  
+![Synchronize documentation to offline](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6004.png)  
 1. Click ***OK*** and close the window. 
 
 The offline ***Documentation*** tab is now available in the ***Dashboard***.  
-![Documentation tab](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6003.png)  
+![Documentation tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6003.png)  
 ##  Synchronize offline document  
 1. Choose the entry in the ***{{ en.NPANE }}***.  
 1. Go to ***Administration – {{ en.VLT_MAJ }} Settings***.  
-![{{ en.VLT_MAJ }} Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6000.png)  
+![{{ en.VLT_MAJ }} Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6000.png)  
 1. In ***Security Settings – Offline – Synchronize document to offline***, select ***Yes***.  
 1. Click ***OK*** and close the window.  
-![Synchronize document to offline](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6005.png)  
+![Synchronize document to offline](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6005.png)  
 The offline ***Documentation*** tab is now available in the ***Dashboard***.  
-![Documentation tab](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6003.png)  
+![Documentation tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6003.png)  

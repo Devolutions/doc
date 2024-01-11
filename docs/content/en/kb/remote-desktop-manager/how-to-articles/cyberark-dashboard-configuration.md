@@ -168,12 +168,12 @@ $RDM.Save();
 
 1. Select an entry and go to ***Properties*** – ***Advanced***.
 1. Go to ***Connect using dashboard on double click*** and click ***Yes***.
-![Properties – Advanced](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6160.png)
+![Properties – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6160.png)
    {% snippet icon.badgeInfo %}
    The same option can be found in ***File*** – ***Options*** – ***Types***.
    {% endsnippet %}  
 
-   ![File – Options – Types](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6162.png)
+   ![File – Options – Types](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6162.png)
 3. Click ***OK*** to save and close the window.
 
 Double-clicking will now automatically open the ***Dashboard***.

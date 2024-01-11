@@ -11,11 +11,11 @@ The Unix command ***su***, derived from ***substitute user***, grants a user the
 
 1. Go to ***General – Post login*** and click on the ***Plus button (New)***.
 
-![General – Post login – Plus button (New)](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6030.png) 
+![General – Post login – Plus button (New)](https://webdevolutions.azureedge.net/docs/en/kb/KB6030.png) 
 
 3. Enter ***sudo su*** in the ***Macro Edition*** window. 
 
-![Macro Edition window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6031.png) 
+![Macro Edition window](https://webdevolutions.azureedge.net/docs/en/kb/KB6031.png) 
 
 An ***Expected prompt*** is not required because we want to execute it as soon as possible.
 
@@ -27,9 +27,8 @@ An ***Expected prompt*** is not required because we want to execute it as soon a
 
 1. Click ***OK*** to close the window.
 
-![Macro Edition window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6034.png) 
+![Macro Edition window](https://webdevolutions.azureedge.net/docs/en/kb/KB6034.png) 
 
 The objective is to ensure the password is sent only when the timing is right with the intended sequence of actions. The terminal awaits the ***[sudo] password for username:*** prompt before sending the second command.
 
-![Commands](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6033.png) 
-
+![Commands](https://webdevolutions.azureedge.net/docs/en/kb/KB6033.png)

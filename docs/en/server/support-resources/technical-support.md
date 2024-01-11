@@ -18,6 +18,6 @@ Phone: +1 844 463.0419
 ## Extended and Premium support plans 
 Subscribers of a paid support plan have received a plan ID. You should send your plan ID in your tickets.  
 
-Please consult our [Support Policy](https://cdndevolutions.blob.core.windows.net/documents/legal/eula/support-level-addendum-en.pdf) for more information.  
+Please consult our [Support Policy](https://cdndevolutions.azureedge.net/documents/legal/eula/support-level-addendum-en.pdf) for more information.  
 
 ![!!Support4001](https://webdevolutions.azureedge.net/docs/en/server/Support4001.png) 

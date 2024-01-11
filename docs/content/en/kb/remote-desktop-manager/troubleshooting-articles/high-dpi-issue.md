@@ -41,14 +41,14 @@ When applying this change, you must log off and log back in with your user for c
  
 ### Method 3 
 In ***File – Options – Types – Remote Desktop – Advanced***, uncheck the ***Disable RDP scale factor (HDPI)*** option. 
-![Disable RDP scale factor (HDPI)](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6004.png) 
+![Disable RDP scale factor (HDPI)](https://webdevolutions.azureedge.net/docs/en/kb/KB6004.png) 
 
 ### Method 4
 
 1. In {{ en.RDM }}, go to ***File – Options – Advanced***.
 1. Set ***Hardware acceleration*** on ***Default (Automatic)***. Click ***OK***.
-![Advanced window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6001.png) 
+![Advanced window](https://webdevolutions.azureedge.net/docs/en/kb/KB6001.png) 
 1. In the ribbon under the ***Help*** tab, click on ***Diagnostic***.
-![Help tab](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6003.png) 
+![Help tab](https://webdevolutions.azureedge.net/docs/en/kb/KB6003.png) 
 1. At the bottom of the ***System*** tab, make sure that ***DirectX enabled*** is deactivated.
-![System Diagnostic](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6002.png) 
+![System Diagnostic](https://webdevolutions.azureedge.net/docs/en/kb/KB6002.png) 

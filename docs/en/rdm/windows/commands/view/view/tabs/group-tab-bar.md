@@ -8,7 +8,7 @@ eleventyComputed:
 But when you reach a certain number of running sessions, it may become difficult to identify them using only their name. To improve user experience, the ***Tab Group Bar*** feature was created to filter the tab pages.  
 
 To enable the ***Tab Group Bar***, navigate to ***View – Tabs*** in the ribbon, then select ***Tab Group Bar***.  
-![Tab Group Bar Button](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6211.png) 
+![Tab Group Bar Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6211.png) 
 
 {% snippet icon.badgeInfo %} 
 The ***Tab Group Bar*** will only appear if a session that is part of a ***Tab group*** (other than the ***All*** tab) is active. To make it show at all times, check the ***Always show Tab Group Bar*** box in ***File – Options – User Interface – Advanced***. 

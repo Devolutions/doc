@@ -31,7 +31,7 @@ As always with {{ en.RDM }}, you can mix and match approaches depending on your 
 An application name other than ***AIMWebService*** must be specified in the ***application name*** field. 
 {% endsnippet %}   
 
-![Application name field](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6118.png)  
+![Application name field](https://webdevolutions.azureedge.net/docs/en/kb/KB6118.png)  
 
 ### CyberArk Privilege Session Manager (PSM) Configuration
 A discussion on the PSM is surely too broad to fit in this topic, so I will again refer to CyberArk’s documentation.  As for {{ en.RDM }}, in your PSM-Server entry, use one of our mechanism to have the connection use the AAM entry configured in the previous step.  

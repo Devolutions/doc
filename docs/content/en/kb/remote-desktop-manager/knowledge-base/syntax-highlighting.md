@@ -9,11 +9,11 @@ Syntax highlighting is a feature found in text editors, commonly used for progra
 
 1. Click ***Add (+)*** to open the ***Syntax highlighting window***.
 
-![File – Options – Types –  Terminal – Syntax highlighting – Add (+)](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6102.png)
+![File – Options – Types –  Terminal – Syntax highlighting – Add (+)](https://webdevolutions.azureedge.net/docs/en/kb/KB6102.png)
 
 Below is a list of all the options available in the ***Syntax highlighting window***. 
 
-![Syntax highlighting window](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6101.png)
+![Syntax highlighting window](https://webdevolutions.azureedge.net/docs/en/kb/KB6101.png)
 
 ### General section  
 

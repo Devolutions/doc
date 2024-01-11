@@ -51,10 +51,10 @@ These limitations make it impossible to use multiple VPN clients concurrently on
    For ***Jumps*** to work, you need to supply the credentials via the ***Jump Host*** session. If the RDP sessions prompt you for the credentials after the start, the ***Jump*** will fail. 
    {% endsnippet %}
 
-   ![Create an RDP entry for the Jump Host](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6193.png) 
+   ![Create an RDP entry for the Jump Host](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6193.png) 
 
 1. In the ***Jump Host*** section, check ***Is Jump host***.
-![Check Is Jump host](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6195.png)
+![Check Is Jump host](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6195.png)
 1. Click ***OK***. 
 1. Launch the ***Jump Host*** session. 
 1. Install {{ en.RDM }} on the ***Jump Host***. 
@@ -80,7 +80,7 @@ These limitations make it impossible to use multiple VPN clients concurrently on
     1. Select {{ en.RDMA }}.
     1. Click ***OK***.
     1. Click ***Yes***.
-![!!RdmWin4058](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6196.png) 
+![!!RdmWin4058](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6196.png) 
 
 1. Right-click the {{ en.RDMA }} icon in the taskbar. 
     1. Check ***Auto Start***.
