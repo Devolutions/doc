@@ -3,6 +3,18 @@ layout: 'layouts/base.njk'
 eleventyImport:
   collections: ["eleventyNavigationTree"]
 ---
+{%- set productName = projects[tree].formattedName -%}
+{%- set feedbackBody -%}[Enter feedback here]
+
+ ---
+#### Document Details
+
+⚠ *Do not edit this section. It is required for docs.devolutions.net ➟ GitHub issue linking.*
+
+* Content: [{{- title -}}](https://docs.devolutions.net{{page.url}})
+* Content Source: [{{- page.filePathStem -}}.md](https://github.com/Devolutions/doc/tree/master/docs{{- page.filePathStem -}}.md)
+* Service: **{{ productName }}**
+{%- endset -%}
 
 <div class="dwd-doc-container">
   {%- macro nav(item, index) -%}
@@ -93,20 +105,12 @@ eleventyImport:
     <main class="markdown">
       {{- content | safe -}}
 
-      {% set productName = "" %}
-      {% for index, name in productNames %}
-        {% if tree == index %}
-          {% set productName = name %}
-        {% endif %}
-      {% endfor %}
-
-       <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="{{ "https://github.com/Devolutions/doc/issues/new?" | encodeURIFilter({ title: "", body: ["\n\n[Enter feedback here]\n\n\n---\n#### Document Details\n\n⚠ *Do not edit this section. It is required for docs.devolutions.net ➟ GitHub issue linking.*\n\n* Content: [", title, "](https://docs.devolutions.net", page.url, ")\n* Content Source: [", page.filePathStem, ".md](https://github.com/Devolutions/doc/tree/master/docs", page.filePathStem, ".md)\n* Service: **", productName, "**" ] | join }) }}">
-
-				<span class="icon" aria-hidden="true">
-					{{ icons.github | safe }}
-				</span>
-				<span class="text">{{ locale[lang].labelFeedbackButton }}</span>
-			</a>
+      <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?template=feedback.yml&title={{- '[Feedback]: ' | encodeURIComponent -}}&feedback={{- feedbackBody | encodeURIComponent -}}" target="_blank">
+        <span class="icon" aria-hidden="true">
+          {{- icons.github | safe -}}
+        </span>
+        <span class="text">{{ locale[lang].labelFeedbackButton }}</span>
+      </a>
     </main>
   </div>
 </div>
