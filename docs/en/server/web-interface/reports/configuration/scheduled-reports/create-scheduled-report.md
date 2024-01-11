@@ -40,8 +40,8 @@ Available filter options upon report selection will differ from one to another.
 |------------------|-------------------------------------------------------------------------|
 | Date             | Select a date range for the data.                                       |
 | Message          | Choose specific messages or fail type to refine the report.             |
-| {{ en.VLT_MAJ }} | Select all or specific {{ en.VLT }}s.                                   |
-| Filter           | Enter an expression to match against the fields of the report selected. |
+| {{ en.VLT_MAJ }} | Select all {{ en.VLT }}s or specific {{ en.VLT }}s.                     |
+| Filter           | Enter an expression to match against the fields of the report selected. This is a text filter (not a custom filter) that searches in the entry name, entry's {{ en.VLT }} name, entry's folder name, log messages, and name/username of the user who created the log. |
   
 
 | Recurrence options | Description                          |
