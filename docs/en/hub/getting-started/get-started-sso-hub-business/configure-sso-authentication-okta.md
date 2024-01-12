@@ -129,6 +129,12 @@ Here are the steps to [validate your domain](#domain-verification), [configure s
 You should now see that the SSO configuration has a green checkmark icon next to it. This means that your SSO configuration through Okta is now enabled on your hub.  
 ![Active SSO configuration](https://webdevolutions.azureedge.net/docs/en/hub/Hub2341.png)
 
+When you log in to your Hub, click on ***Sign in with Okta***.
+![Sign in with Okta](https://webdevolutions.azureedge.net/docs/en/hub/Hub2354.png)
+
+You will be taken to an Okta login page where you can enter your Okta credentials and click ***Sign in***. You will then have access to your Hub.
+![Okta login](https://webdevolutions.azureedge.net/docs/en/hub/Hub2355.png)
+
 ### Provisioning configuration
 
 Synchronize your users and user groups from your providers to the hub.  
