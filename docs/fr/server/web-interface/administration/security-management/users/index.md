@@ -62,7 +62,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-![!!EditAssignGroup](https://webdevolutions.azureedge.net/docs/common/EditAssignGroup.png) 
+![!!user-group](https://webdevolutions.azureedge.net/docs/common/user-group.png) 
 		</td>
 		<td>
 Assigner des groupes d'utilisateurs à l'utilisateur. 
@@ -70,7 +70,7 @@ Assigner des groupes d'utilisateurs à l'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!EditAssignVault](https://webdevolutions.azureedge.net/docs/common/EditAssignVault.png) 
+![!!{{ en.VLT }}](https://webdevolutions.azureedge.net/docs/common/vault.png) 
 		</td>
 		<td>
 Assigner un {{ fr.VLT }} à l'utilisateur. 
@@ -94,7 +94,7 @@ Changer le mot de passe.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall](https://webdevolutions.azureedge.net/docs/common/edit.png) 
 		</td>
 		<td>
 Modifier les paramètres utilisateur. 
@@ -102,7 +102,7 @@ Modifier les paramètres utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonTrashSmall](https://webdevolutions.azureedge.net/docs/common/RibbonTrashSmall.png) 
+![!!delete](https://webdevolutions.azureedge.net/docs/common/delete.png) 
 		</td>
 		<td>
 Supprimer l'utilisateur. 

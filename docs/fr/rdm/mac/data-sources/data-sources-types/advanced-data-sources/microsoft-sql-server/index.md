@@ -6,7 +6,7 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!DataSourceSQLServerLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
+![!!logo-microsoft-sql](https://webdevolutions.azureedge.net/docs/common/logo-microsoft-sql.png) 
 		</td>
 		<td>
 {{ fr.RDM }} utilise la puissance de SQL Server de Microsoft pour enregistrer et gérer toutes les sessions. 

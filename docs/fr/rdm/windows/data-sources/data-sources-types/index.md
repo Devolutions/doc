@@ -32,7 +32,7 @@ AVANTAGES ET INCONVÉNIENTS
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDODLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
+![!!online-drive](https://webdevolutions.azureedge.net/docs/common/online-drive.png) 
 		</td>
 		<td>
 {{ fr.DOD }} 
@@ -57,7 +57,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDPSLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
+![!!logo-dvls](https://webdevolutions.azureedge.net/docs/common/logo-dvls.png) 
 		</td>
 		<td>
 {{ fr.DVLS }} 
@@ -83,7 +83,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDropBoxLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
+![!!entry-dropbox](https://webdevolutions.azureedge.net/docs/common/entry-dropbox.png) 
 		</td>
 		<td>
 Dropbox 
@@ -135,7 +135,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLServerLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
+![!!logo-microsoft-sql](https://webdevolutions.azureedge.net/docs/common/logo-microsoft-sql.png) 
 		</td>
 		<td>
 Microsoft SQL Server 
@@ -161,7 +161,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!ApplicationHubLarge](https://webdevolutions.azureedge.net/docs/common/ApplicationHubLarge.png) 
+![!!logo-hub](https://webdevolutions.azureedge.net/docs/common/logo-hub.png) 
 		</td>
 		<td>
 {{ fr.DHUBB }} 
@@ -187,7 +187,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!hub-personal-32x32](https://webdevolutions.azureedge.net/docs/common/hub-personal-32x32.png) 
+![!!logo-hub-personal](https://webdevolutions.azureedge.net/docs/common/logo-hub-personal.png) 
 		</td>
 		<td>
 {{ fr.DHUBP }} 

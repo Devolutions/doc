@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Management
 ---
-There are 3 way to Open a Play list:
+There are 3 way to open a Play list:
 
 | OPTION                         | DESCRIPTION                                               |
 |--------------------------------|-----------------------------------------------------------|
@@ -27,10 +27,10 @@ You can use the menu in the Play list Management for multiple options.
 ![Play list Management Menu](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10118.png)
 
 ### Settings
-| OPTION                                                                             | DESCRIPTION                        |
-|------------------------------------------------------------------------------------|------------------------------------|
-| ![!!clip10119](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10119.png) | Create a new Play list.            |
-| ![!!clip10120](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10120.png) | Delete an existing Play list.      |
-| ![!!clip10121](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10121.png) | Edit the selected Play list.       |
-| ![!!clip10122](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10122.png) | Refresh your Play list Management. |
-| ![!!clip10123](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10123.png) | Copy the selected Play list.       |
+| OPTION                                                                                         | DESCRIPTION                        |
+|------------------------------------------------------------------------------------------------|------------------------------------|
+| ![!!add-large](https://webdevolutions.azureedge.net/docs/common/add-large.png)                 | Create a new Play list.            |
+| ![!!remove](https://webdevolutions.azureedge.net/docs/common/remove.png)                       | Delete an existing Play list.      |
+| ![!!entry-SampleGear1](https://webdevolutions.azureedge.net/docs/common/entry-SampleGear1.png) | Edit the selected Play list.       |
+| ![!!refresh-macOS](https://webdevolutions.azureedge.net/docs/common/refresh-macOS.png)         | Refresh your Play list Management. |
+| ![!!copy-macOS](https://webdevolutions.azureedge.net/docs/common/copy-macOS.png)               | Copy the selected Play list.       |
