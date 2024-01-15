@@ -78,4 +78,4 @@ The scores are admittedly open to question and we do not pretend each topic has 
 |             |     |
 | ----------- | --- |
 | Description | {{ en.VLT_MAJ }} security level should be set to high in the ***{{ en.VLT }} settings***. |
-| Mitigation  | ***{{ en.VLT_MAJ }} settings*** are in the web interface of {{ en.DVLS }} under ***Administration*** – ***{{ en.VLT_MAJ }}s***. Edit a {{ en.VLT }} to open the ***Edit {{ en.VLT }} settings window*** and select ***High*** in the drop-down menu under ***General – Security level***. |
+| Mitigation  | ***{{ en.VLT_MAJ }} settings*** are in the web interface of {{ en.DVLS }} under ***Administration – User and Security Management – {{ en.VLT_MAJ }}s***. Edit a {{ en.VLT }} to open the ***Edit {{ en.VLT }} settings window*** and select ***High*** in the drop-down menu under ***General – Security level***. |
