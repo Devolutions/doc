@@ -41,5 +41,3 @@ In the majority of cases, editing the ***Specific Settings*** displays the follo
 {% snippet icon.badgeInfo %} 
 ***Specific settings*** are context sensitive, and several settings might not be available for some entry types. 
 {% endsnippet %}
- 
-
