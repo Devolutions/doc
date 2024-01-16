@@ -26,3 +26,5 @@ During the setup, you can always tap on ***Skip This Step*** to configure that s
 1. Optionally, enable the use of a ***Biometric lock*** (Touch/Face ID). It is a recommended practice. Your device will prompt you to authenticate using this method. It must first be configured on your device to work with {{ en.WS }}. 
 ![Security settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2214.png) 
 1. Tap ***Done*** to finish the initial setup.
+
+

@@ -27,3 +27,21 @@ During the setup, you can always click on ***Skip This Step*** to configure that
     * ***Biometric lock***: Your device will prompt you to authenticate using this method. It must first be configured on your device to work with {{ en.WS }}.
     * ***Master password***: {{ en.WS }} will ask you to create a password of at least 8 characters.
 1. Click ***Done*** to finish the initial setup.
+
+
+## Add an additional space
+
+Follow the steps below to add an additional {{ en.DHUBP }} in {{ en.WDAPP }}.
+
+1. Open the {{ en.WDAPP }}.
+1. Click ***Add Space***. 
+![Click Add Space](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6098.png)
+1. Select {{ en.DHUBP }}.
+1. Click ***OK***.
+![Select {{ en.DHUBP }}.](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6103.png)
+1. A login window opens.
+1. Connect with your {{ en.DHUBP }} account.
+1. Close the login window and go back to {{ en.WDAPP }}.
+
+Your {{ en.DHUBP }} account is now connected in the {{ en.WDAPP }}.
+![Your {{ en.DHUBP }} account is now connected](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6101.png)
