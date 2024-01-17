@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 The ***Version Management*** allows the administrators to manage the data source availability in other versions of {{ en.RDM }}. 
 
-## Windows, {{ en.MAC }}, and Linux 
+## Windows, macOS, and Linux 
 
 ![Version Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2239.png) 
 

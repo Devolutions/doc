@@ -17,7 +17,7 @@ Here are the steps to stop your built-in browser password manager from asking to
 ![!!KB4610](https://webdevolutions.azureedge.net/docs/en/kb/KB4610.png)
 
 ## Firefox
-1. Click the Firefox menu in the toolbar and choose ***Options*** (***Preferences*** in {{ en.MAC }}).
+1. Click the Firefox menu in the toolbar and choose ***Options*** (***Preferences*** in macOS).
 1. Click ***Privacy & Security***.
 1. Turn off ***Ask to save logins and passwords for websites***.  
 ![!!KB4612](https://webdevolutions.azureedge.net/docs/en/kb/KB4612.png)

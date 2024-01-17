@@ -32,7 +32,7 @@ You must use a desktop application to create a team data source. This explains w
 | PLATFORM | FREE EDITION                   | TEAM EDITION                   |
 | -------- |:-----------------------------: |:-----------------------------: |
 | Windows  | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| {{ en.MAC }}    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| macOS    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Linux    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | iOS      | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Android  | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |

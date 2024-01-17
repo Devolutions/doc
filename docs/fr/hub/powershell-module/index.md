@@ -12,7 +12,7 @@ Le module {{ fr.PS }} est un moyen d'accéder, de créer, de mettre à jour et d
 
 * PowerShell 7.2 ou ultérieur installé:  
     * [Windows](https://learn.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-on-windows)  
-    * [{{ fr.MAC }}](https://learn.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-on-macos)  
+    * [macOS](https://learn.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-on-macos)  
     * [Linux](https://learn.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-on-linux)  
 * Un [Utilisateur d'application](/fr/hub/web-interface/hub-overview/administration/management/application-users/)  
 

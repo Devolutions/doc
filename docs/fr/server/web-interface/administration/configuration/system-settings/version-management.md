@@ -3,7 +3,7 @@ eleventyComputed:
   title: Gestion de version
   status: Topic available in German language
 ---
-Permet de gérer les versions de {{ fr.RDM }} pour les plateformes Windows, {{ fr.MAC }} et Linux.  
+Permet de gérer les versions de {{ fr.RDM }} pour les plateformes Windows, macOS et Linux.  
 ![Administration – Paramètres du système – Gestion de version](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8080.png) 
 
 <table>

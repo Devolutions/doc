@@ -10,7 +10,7 @@ The solution would be to copy the **.cfg** file and manually distribute it to th
 This data source configuration includes the username and password of the desktop you are copying from.
 {% endsnippet %}
 
-## The **.cfg** file location in {{ en.MAC }}
+## The **.cfg** file location in macOS
 
 1. Open ***Finder***.
 1. Click ***Go*** in the menu.

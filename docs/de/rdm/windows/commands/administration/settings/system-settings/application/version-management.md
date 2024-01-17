@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Die ***Versionsverwaltung*** ermöglichte es Administratoren, den Zugriff auf die Datenquelle auf bestimmte {{ de.RDM }} Versionen einzuschränken. 
 
-## Windows und {{ de.MAC }} 
+## Windows und macOS 
 
 ![Versionsverwaltung](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip5008.png) 
 

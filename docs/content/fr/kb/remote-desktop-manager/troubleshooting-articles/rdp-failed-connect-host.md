@@ -2,7 +2,7 @@
 eleventyComputed:
   title: "{{ en.RDMMAC }} RDP failed to connect to the host"
 ---
-Error silent: failed to connect to the host (131084) for {{ en.MAC }}  
+Error silent: failed to connect to the host (131084) for macOS  
 
 ![!!KB4066](https://webdevolutions.azureedge.net/docs/en/kb/KB4066.png)
 ## Solution
