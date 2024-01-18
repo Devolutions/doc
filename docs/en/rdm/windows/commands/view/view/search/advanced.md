@@ -3,10 +3,14 @@ eleventyComputed:
   title: Advanced search
   description: The Advanced Search allows you to search for entries and folders based on multiple criteria in one {{ en.VLT }} at a time.
 ---
-The Advanced Search allows you to search for entries and folders based on multiple criteria in one {{ en.VLT }} at a time. To search multiple {{ en.VLT }}s simultaneously, please refer to [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/panels/search/multi-vault/).  
-![Advanced Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10250.png) 
+The Advanced Search allows you to search for entries and folders based on multiple criteria in one {{ en.VLT }} at a time. To search multiple {{ en.VLT }}s simultaneously, please refer to [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/view/search/multi-vault/).  
+
+The ***Advanced Search*** is available in the ribbon of {{ en.RDM }} or by pressing  <kbd>F11</kbd> on your keyboard.
+![Advanced Search](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6219.png)
 
 It is possible to select multiple entries at once by <kbd>Shift</kbd>-clicking or all of them with the <kbd>Ctrl</kbd>+<kbd>A</kbd> shortcut. Right-clicking one or more entries shows the same menu and options as in the ***{{ en.NPANE }}***. 
+
+![Advanced Search Window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6221.png) 
 
 ### Search tab 
 
