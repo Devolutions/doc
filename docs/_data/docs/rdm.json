@@ -1,0 +1,25 @@
+{
+  "_schema": "doc",
+  "isTopic": true,
+  "icon": "",
+  "logo": "",
+  "url": "/rdm/",
+  "formattedName": "<b>Remote Desktop</b> Manager",
+  "sidebars": [
+    {
+      "items": [
+        {
+          "label": "Item 1"
+        }
+      ]
+    },
+    {
+      "label": "Group label",
+      "items": [
+        {
+          "label": "Item 2"
+        }
+      ]
+    }
+  ]
+}
