@@ -19,10 +19,6 @@ The following tree view structure represents entries which users have access to 
 ### User Configuration
 Here is an example of user configuration. To create users, navigate to ***Administration*** – ***Users*** – ***Add User***.
 
-{% snippet icon.badgeNotice %}
-In this scenario, all the options in the ***Privileges*** section of the ***User Management*** are set to ***None***.
-{% endsnippet %}
-
 Here we select the user type to give them the most basic rights (***Add***, ***Edit***, and ***Delete***).  
 
 ***ServiceDesk*** users are ***Restricted users***. They have the ***Add*** and ***Edit*** rights. However, they cannot add entries into the {{ en.VLT }} folder.  
