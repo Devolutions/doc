@@ -137,4 +137,6 @@ There is no need to set any permissions on the Montreal folder, since they all i
 The permissions are now correctly set. Note that every entry added at {{ en.VLT }} level are inheriting from the {{ en.VLT }} as well. This means they would be available to admins only, unless their permissions were modified. This can be confirmed by looking at the screenshot below, in which the entry ***Daily routine*** is available for everyone (its permissions have been changed to Everyone). Here is what each user should see in the tree view:  
 ![Side by Side Tree View](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6099.png)
 
-You can further customize permissions by using the ***Security Settings*** tab when editing entries. As always, great care must be taken when granting permissions.
+You can further customize permissions by using the ***Security Settings*** section when editing entries. As always, great care must be taken when granting permissions.
+
+![Security Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2258.png)
