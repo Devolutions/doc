@@ -26,7 +26,7 @@ eleventyImport:
           </a>
           {%- if item.children.length > 0 -%}
           <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
-              {{- icon['expandMore'] | safe -}}
+              {{- icons['arrowRight'] | safe -}}
           </div>
           {%- endif -%}
         </div>
@@ -40,7 +40,7 @@ eleventyImport:
               {{- item.title -}}
             </a>
             <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
-              {{- icon['expandMore'] | safe -}}
+              {{- icons['arrowRight'] | safe -}}
             </div>
           </div>
           {% else %}
@@ -49,7 +49,7 @@ eleventyImport:
               {{- item.title -}}
             </button>
             <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
-              {{- icon['expandMore'] | safe -}}
+              {{- icons['arrowRight'] | safe -}}
             </div>
           </div>
           {% endif %}
@@ -65,9 +65,11 @@ eleventyImport:
 
   {%- if tree and page.url -%}
     <nav class="navigation" data-dwd-modal-group="mobile-menu" data-dwd-modal-target="all">
-      {%- for item in collections.eleventyNavigationTree | filterTree(lang, tree) | sortTree -%}
-        {{- nav(item, 1) -}}
-      {%- endfor -%}
+      <div class="nav-group">
+        {%- for item in collections.eleventyNavigationTree | filterTree(lang, tree) | sortTree -%}
+          {{- nav(item, 1) -}}
+        {%- endfor -%}
+      </div>
     </nav>
   {%- endif -%}
 
