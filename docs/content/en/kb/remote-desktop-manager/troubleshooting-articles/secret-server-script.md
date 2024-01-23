@@ -12,7 +12,7 @@ Here is a script that you can use to test your access from a client workstation.
 
 This will allow you to test the connectivity between your workstation and your Secret Server.
 
-```
+```powershell
 $url = 'http<area>://mysecretserver/webservices/sswebservice.asmx'
 $username = 'myusername'
 $password = 'mypassword'
