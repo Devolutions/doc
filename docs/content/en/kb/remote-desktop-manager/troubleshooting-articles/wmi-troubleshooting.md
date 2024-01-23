@@ -17,27 +17,31 @@ Please contact us at [service@devolutions.net](mailto:service@devolutions.net) f
 
 ## Problem 1
 Access denied error.
+
 ### Solution
 Make sure that the user account has the necessary permissions to access a computer remotely. See [Securing a Remote WMI Connection (Windows)](https://docs.microsoft.com/fr-fr/windows/win32/wmisdk/securing-a-remote-wmi-connection?redirectedfrom=MSDN#setting_dcom_security_to_allow_a_user_to_access_a_computer_remotely).  
 
 You can also find troubleshoot tips in [WMI Troubleshooting (Windows)](https://docs.microsoft.com/en-us/windows/win32/wmisdk/wmi-troubleshooting?redirectedfrom=MSDN).
+
 ## Problem 2
 Error getting products informations.
+
 ### Solution
 Invalid Class WMI or WMI class not found on Windows Server 2003. On Windows Server 2003, Win32_Product is not enabled by default. You can enable it by following the steps provided in this [Microsoft Forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/6fb0d3ea-1ccf-4554-bdf1-79c9e24388af/invalid-class-wmi-windows-2003-server).  
 
 ## Problem 3
 Testing from a remote computer.
-### Solution
-The WMIC command is used to test if you have access to the machine through WMI. You need to enter the following command:  
 
+### Solution
+The WMIC command is used to test if you have access to the machine through WMI. You need to enter the following command:
 `wmic /NODE:"ComputerName" bios get serialnumber`  
 
-Below is an example with other credentials:  
-
+Below is an example with other credentials:
 `wmic /NODE:"ComputerName" /user:"username" /password:"password" bios get serialnumber`
+
 ## Problem 4
 Load from System Information does not work. Error getting Bios information.
+
 ### Solution
 This error can have several origins. Please validate the following:  
 
