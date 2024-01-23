@@ -1,15 +1,17 @@
 .navigation {
-  background-color: #ffffff;
+  background-color: #f5f5f5;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: -2px 0 10px -1px rgba(0, 0, 0, 0.05) inset;
   display: flex;
   flex-direction: column;
-  height: calc(100% - (var(--header-height) * 2) - 32px);
+  gap: 32px;
+  height: calc(100% - (var(--header-height) * 2) - 0px);
   overflow-y: auto;
-  padding-top: 8px;
+  padding: 8px 20px;
   position: fixed;
-  top: calc((var(--header-height) * 2) + 24px);
+  top: calc(var(--header-height) * 2);
   width: 328px;
   z-index: 10;
-
 
   @media (max-width: 1199px) {
     transform: translateX(-100%);
@@ -34,19 +36,30 @@
     }
   }
 
+  .nav-group {
+    > span {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1;
+      padding-bottom: 8px;
+      padding-top: 8px;
+      text-transform: uppercase;
+    }
+  }
+
   .nav-item-sub-container {
-    display: flex;
     align-items: center;
+    display: flex;
+    gap: 6px;
 
     &.active {
       .nav-item {
-        background-color: #f5f5f5;
+        color: var(--primary);
+        font-weight: 600;
 
         + .expand-more {
-          background-color: #f5f5f5;
-
           svg {
-            transform: rotate(0deg);
+            transform: rotate(90deg);
           }
         }
       }
@@ -58,8 +71,6 @@
       cursor: pointer;
       display: flex;
       justify-content: center;
-      width: 44px;
-
     }
   }
 
@@ -67,16 +78,19 @@
     align-items: center;
     background-color: transparent;
     border: none;
-    color: #212121;
+    color: rgba(0, 0, 0, 0.8);
     cursor: pointer;
     display: flex;
     font-size: 14px;
-    padding: 10px 10px 10px 20px;
+    line-height: 22px;
+    padding-bottom: 8px;
+    padding-top: 8px;
     text-align: left;
     width: 100%;
 
     &:hover {
-      background-color: #f5f5f5;
+      color: #000000;
+
       & + .expand-more {
         background-color: #f5f5f5;
       }
@@ -84,7 +98,8 @@
 
     @for $i from 2 through 8 {
       &.level-#{$i} {
-        padding-left: (20 - 12 + $i * 12) + px;
+        border-left: 1px solid rgba(0, 0, 0, 0.2);
+        padding-left: ($i * 16 - 16) + px;
       }
     }
 
@@ -107,27 +122,21 @@
 
       & + .expand-more {
         svg {
-          transform: rotate(0deg);
+          transform: rotate(90deg);
         }
       }
     }
 
     &.current {
-      background-color: #0068c3 !important;
-      color: #ffffff !important;
-
-      + .expand-more {
-        background-color: #0068c3 !important;
-        color: #ffffff !important;
-      }
+      color: var(--primary);
+      font-weight: 600;
     }
 
     & + .expand-more {
      svg {
-        height: 18px;
-        min-width: 18px;
-        transform: rotate(-90deg);
-        width: 18px;
+        height: 16px;
+        min-width: 16px;
+        width: 16px;
       }
     }
   }

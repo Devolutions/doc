@@ -17,7 +17,7 @@ function sidebarItem(item, index, ctx, contents, page, icons) {
       }
       ${item.items?.length > 0 ? (
         `<div class="expand-more">
-          ${icons.expandMore}
+          ${icons.arrowRight}
         </div>`) :
         ''
       }
@@ -45,6 +45,7 @@ module.exports = async function(sidebar) {
 
   const html = sidebar.map((group) => {
     return `<div class="nav-group">
+      ${group.label ? `<span>${ctx.locale[ctx.lang].label[group.label] ? ctx.locale[ctx.lang].label[group.label] : group.label}</span>` : ''}
       ${group.items?.length > 0 && group.items.map((item) => sidebarItem(item, 1, ctx, contents, page, icons)).join('')}
     </div>`;
   }).join('');
