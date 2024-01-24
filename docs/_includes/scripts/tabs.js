@@ -1,6 +1,6 @@
 const dwdTabs = {
   init: function () {
-    const tabslist = document.querySelectorAll('[role="tablist"]');
+    const tabslist = document.querySelectorAll('.tabs [role="tablist"]');
 
     tabslist.forEach(tablist => {
       let tabs = tablist.querySelectorAll('[role="tab"]');
