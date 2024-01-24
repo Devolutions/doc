@@ -10,5 +10,6 @@ ServiceException - Code: Authorization_RequestDenied
 Message: Insufficient privileges to complete the operation.
 ```
 This is caused by a misconfiguration of the Azure Application registration.
+
 ## Solution
-Review the ***steps 3.1 - 3.5*** of the [Azure portal configuration guide microsoft authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/)
+Review the ***steps 3.1 – 3.5*** of the [Azure portal configuration guide microsoft authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/)
