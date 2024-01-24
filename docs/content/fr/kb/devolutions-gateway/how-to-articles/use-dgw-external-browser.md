@@ -8,8 +8,8 @@ eleventyComputed:
 ---
 It is possible to use {{ en.DGW }} with an external browser, but at the moment there are a few limitations to be aware of because of the browser design:
 * It only works with Google Chrome.
-* Google Chrome must be closed when opening a website from {{ en.RDM }}. A solution to this can be found in the <a href="#workaround-to-set-up-without-having-to-close-chrome">workaround</a>.
-* In case there are other proxy settings with Chrome (by GPO, command line, settings, etc.), they might conflict with each other and {{ en.DGW }} will not work.  
+* Google Chrome must be closed when opening a website from {{ en.RDM }}. A solution to this can be found in the [workaround](#workaround-to-set-up-without-having-to-close-chrome).
+* In case there are other proxy settings with Chrome (by GPO, command line, settings, etc.), they might conflict with each other and {{ en.DGW }} will not work.
 * In case Google Chrome is closed and does not have any other proxy settings, set up the entry to open externally like any other entries in {{ en.RDM }}. No additional installations/addons are needed for this to work.
 
 ## Workaround to Set Up Without Having to Close Chrome
@@ -29,15 +29,21 @@ This section will showcase multiple solutions by using PowerShell.
 ### Batch Edit Using PowerShell
 It is possible to [batch edit](/kb/remote-desktop-manager/how-to-articles/batch-edit-rdm) the entries with a custom PowerShell command to make all of them use a different path (can be the temp or any place users are allowed to use it):  
 
-`$connection.Web.UseUserDataPath = $true;`  
-`$connection.Web.UserDataPath  = "C:\MyPath" + connection.ID;`  
-`$RDM.Save();`
+```powershell
+$connection.Web.UseUserDataPath = $true;
+$connection.Web.UserDataPath  = "C:\MyPath" + connection.ID;
+$RDM.Save();
+```
+
 ### Temporary Edit with Before Open
 It is also possible to [temporarily use the properties](/kb/remote-desktop-manager/how-to-articles/execute-powershell-connection) 'Web.UseUserDataPath' set to true and 'Web.UserDataPath' set the path to the temp or any place users are allowed to use it that can be dynamic with a Before Open Event (using PowerShell Script).  
 
-`connection.Web.UseUserDataPath = $true`  
-`$connection.Web.UserDataPath  = "C:\MyPath" + $connection.ID;`  
-`$RDM.Save();`
+```powershell
+$connection.Web.UseUserDataPath = $true
+$connection.Web.UserDataPath  = "C:\MyPath" + $connection.ID;
+$RDM.Save();
+```
+
 ### Deleting the Folder
 This code is used to delete the folder on the onClose Event:  
 
