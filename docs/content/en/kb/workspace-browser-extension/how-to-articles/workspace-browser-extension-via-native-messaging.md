@@ -16,7 +16,7 @@ The {{ en.WBEX }} can work without HTTP(S) by using native messaging. Here are t
 1. Go to your {{ en.RDM }} installation folder. It is installed by default in **C:\Program Files\Devolutions\Remote Desktop Manager**.
 1. Open the **com.devolutions.rdmnativemessaging.json** file.
 1. Copy the following code in the file and save it:
-   ```
+```
    {
      "name": "com.devolutions.rdmnativemessaging",
      "description": "{{ en.WBEX }}",
@@ -27,7 +27,7 @@ The {{ en.WBEX }} can work without HTTP(S) by using native messaging. Here are t
        "chrome-extension://ddloeodolhdfbohkokiflfbacbfpjahp/"
      ]
    }
-   ```
+```
 1. Open the ***Registry Editor*** of your desktop.
 1. Go to **HKEY_LOCAL_MACHINE\SOFTWARE\Google\Chrome\NativeMessagingHosts**.
 1. Verify that the com.devolutions.rdmnativemessaging key exists at this location. If not, create one with the same name.
