@@ -16,7 +16,7 @@ Read this [GitHub](https://github.com/Devolutions/devolutions-gateway/blob/maste
 1. Open an elevated PowerShell terminal.
 1. Move to the directory containing the GatewayUpdater.ps1 script.
 1. Run it using the `install` parameter.
-```
+```powershell
 PS > .\GatewayUpdater.ps1 install
 
 TaskPath                                       TaskName                          State
@@ -24,10 +24,11 @@ TaskPath                                       TaskName                         
 \                                              Devolutions Gateway Updater       Ready
 Updater script installed to 'C:\Program Files\Devolutions\Gateway Updater\GatewayUpdater.ps1' and registered as 'Devolutions Gateway Updater' scheduled task
 ```
+
 ## Running
 By default, the scheduled task will run every day at 3AM. It can also be manually triggered by using the following command: `& schtasks.exe /Run /TN "Devolutions Gateway Updater"`  
 The status of the scheduled task can then be queried:  
-```
+```powershell
 PS > schtasks.exe /Query /TN "Devolutions Gateway Updater"
 
 Folder: \
@@ -35,9 +36,10 @@ TaskName                                 Next Run Time          Status
 ======================================== ====================== ===============
 Devolutions Gateway Updater              Date     3:00:00 AM    Ready
 ```
+
 {% snippet icon.badgeInfo %}
 The updater automatically downloads the installer if there is a new version is available, then checks the file hash before running it silently.
-{% endsnippet %}  
+{% endsnippet %}
 
 ## Uninstalling
 {% snippet icon.badgeInfo %}
@@ -46,7 +48,7 @@ This will unregister the scheduled task and delete the GatewayUpdater.ps1 script
 
 1. Open a PowerShell terminal.
 1. Run the GatewayUpdater.ps1 script with the `uninstall` parameter.
-```
+```powershell
 PS > .\GatewayUpdater.ps1 uninstall
 
 Folder: \
