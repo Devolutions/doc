@@ -1,28 +1,26 @@
 ---
 eleventyComputed:
-  title: Send a trace report
-  description: Follow these steps to send a trace report to our support team for the {{ en.DVLS }} web interface.
+  title: Envoyer un rapport de traçage
+  description: Suivez ces étapes pour envoyer un rapport de traçage à notre équipe de soutien technique pour l'interface Web de {{ fr.DVLS }}.
   keywords:
   - Export HAR
   - HAR
   - HAR file
   - HAR files
 ---
-Follow these steps to send a trace report to our support team for the {{ en.DVLS }} web interface.
+Suivez ces étapes pour envoyer un rapport de traçage à notre équipe de soutien technique pour l'interface Web de {{ fr.DVLS }}.
 
 {% snippet icon.shieldWarning %}
-Keep in mind that HAR files contain sensitive data, including content of the pages you downloaded while recording and your cookies. This allows anyone with the HAR file to impersonate your account and all the information that you submitted while recording (personal details, passwords, credit card numbers, etc.).  
-Protect your session data by [sanitizing your HAR files](https://har-sanitizer.pages.dev/) before sharing. 
+Les fichiers HAR contiennent des données sensibles, notamment le contenu des pages que vous avez téléchargées pendant l'enregistrement et vos témoins. Cela permet à toute personne possédant le fichier HAR d'usurper l'identité de votre compte et de toutes les informations que vous avez soumises lors de l'enregistrement (données personnelles, mots de passe, numéros de carte de crédit, etc.).  
+Protégez les données de votre session en [épurant vos fichiers HAR](https://har-sanitizer.pages.dev/) avant de les partager. 
 {% endsnippet %}
 
-## Steps
-
-1. In Chrome, or any browser, to toggle open the developer diagnostic window, click ***F12*** on your keyboard.
-1. Select the ***Network*** tab.  
-![!!KB4675](https://webdevolutions.azureedge.net/docs/en/kb/KB4675.png)
-1. Click on the ***Clear*** button to clear unrelated data.  
-![!!KB4676](https://webdevolutions.azureedge.net/docs/en/kb/KB4676.png)
-1. Perform the action in the web interface of {{ en.DVLS }}, as requested by our support team, to collect the data.
-1. Export the trace report with the ***Export HAR*** button (arrow down button).  
-![!!KB4677](https://webdevolutions.azureedge.net/docs/en/kb/KB4677.png)
-1. Attach the data in an email to [service@devolutions.net](mailto:service@devolutions.net) with your ticket number.
+1. Dans Chrome ou n'importe quel autre navigateur Web, pour ouvrir la fenêtre de diagnostic du développeur, appuyer sur <kbd>F12</kbd> sur votre clavier.
+1. Sélectionner l'onglet ***Réseau***.  
+![!!KB4675](https://webdevolutions.azureedge.net/docs/fr/kb/KB2094.png)
+1. Cliquer sur le bouton ***Effacer le journal réseau*** pour effacer les données non liées.
+![!!KB4676](https://webdevolutions.azureedge.net/docs/fr/kb/KB2095.png)
+1. Effectuer l'action dans l'interface Web de {{ en.DVLS }}, comme demandé par notre équipe de soutien technique, pour collecter les données.
+1. Exporter le rapport de traçage à l'aide du bouton ***Exporter HAR*** (flèche vers le bas).
+![!!KB4677](https://webdevolutions.azureedge.net/docs/fr/kb/KB2096.png)
+1. Joindre les données dans un courriel à [service@devolutions.net](mailto:service@devolutions.net) avec votre numéro de billet.
