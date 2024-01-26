@@ -12,7 +12,7 @@ It is possible to select multiple entries at once by <kbd>Shift</kbd>-clicking o
 
 ![Advanced Search Window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6221.png) 
 
-### Search tab 
+## Search tab 
 
 | OPTION   | DESCRIPTION                                                   |
 |----------|---------------------------------------------------------------|
