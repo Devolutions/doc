@@ -7,8 +7,7 @@ This PowerShell script transforms session recording files from the legacy Devolu
 
 Re-indexing enables the detection of records present on the {{ en.DGW }} side, making it possible to manually transfer the files and then re-index. However, it is not possible to simply drag and drop the files into the folder; a specific format needs to be adhered to.
 
-## Script
-Download the [`MigrateRecordings.ps1`](https://github.com/Devolutions/devolutions-gateway/blob/master/tools/legacy-recording/MigrateRecordings.ps1) and run it from an elevated PowerShell terminal with the legacy recording output path as a parameter:
+Download the [MigrateRecordings.ps1](https://github.com/Devolutions/devolutions-gateway/blob/master/tools/legacy-recording/MigrateRecordings.ps1) and run it from an elevated PowerShell terminal with the legacy recording output path as a parameter:
 
 ```powershell
 PS > .\MigrateRecordings.ps1 -LegacyPath "C:\inetpub\recording\output"
