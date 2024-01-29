@@ -17,6 +17,6 @@ Telefon: +1 844 463 0419
 ## Erweitere und Premium-Supportpläne 
 Abonnenten eines bezahlten Supportplans erhalten eine Plan-ID. Geben Sie diese ID bitte zusätzlich im Betreff an, wenn Sie ein Ticket erstellen.  
 
-Weitere Informationen finden Sie in unseren [Support-Richtlinien](https://cdndevolutions.blob.core.windows.net/documents/legal/eula/support-level-addendum-de.pdf).  
+Weitere Informationen finden Sie in unseren [Support-Richtlinien](https://cdndevolutions.azureedge.net/documents/legal/eula/support-level-addendum-de.pdf).  
 
 ![!!Support4001](https://webdevolutions.azureedge.net/docs/de/rdm/windows/Support4001.png) 

@@ -14,27 +14,27 @@ If you or your ***Users*** are overriding entry properties with ***User Specific
 
 ## Export
 1. In the {{ en.RDM }} ***{{ en.NPANE }}***, select your data source and {{ en.VLT }}.
-![Data Source and {{ en.VLT }} Selection](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6092.png)
+![Data Source and {{ en.VLT }} Selection](https://webdevolutions.azureedge.net/docs/en/kb/KB6092.png)
 1. Go to ***File – My Account Settings***.
 1. Click ***User Specific Settings List*** under ***Settings***.  
-![File - My Account Settings - Settings – User Specific Settings List](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6093.png)
+![File - My Account Settings - Settings – User Specific Settings List](https://webdevolutions.azureedge.net/docs/en/kb/KB6093.png)
 1. Click ***Export***.  
-![User Specific Settings List Export](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6094.png)
+![User Specific Settings List Export](https://webdevolutions.azureedge.net/docs/en/kb/KB6094.png)
 1. Save the .rds file on your computer.
 1. Encrypt the file with a ***Password*** and click ***OK***.  
-![Specific Settings Encryption](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6095.png)
+![Specific Settings Encryption](https://webdevolutions.azureedge.net/docs/en/kb/KB6095.png)
 1. Click ***OK*** to close the confirmation window that appears.  
 
 Your ***User Specific Settings*** have now been exported in a .rds file in the specified location on your computer.
 
 ## Import
 1. In the {{ en.RDM }} ***{{ en.NPANE }}***, select your new data source and {{ en.VLT }}.
-![Data Source and {{ en.VLT }} Selection](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6092.png)
+![Data Source and {{ en.VLT }} Selection](https://webdevolutions.azureedge.net/docs/en/kb/KB6092.png)
 1. Go to ***File – My Account Settings***.
 1. Click ***User Specific Settings List*** under ***Settings***.  
-![File - My Account Settings - Settings – User Specific List](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6093.png)
+![File - My Account Settings - Settings – User Specific List](https://webdevolutions.azureedge.net/docs/en/kb/KB6093.png)
 1. Click ***Import***.  
-![User Specific Settings List Import](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6096.png)
+![User Specific Settings List Import](https://webdevolutions.azureedge.net/docs/en/kb/KB6096.png)
 1. Locate the .rds file on your computer and click ***Open***.
 1. Enter the ***Password***, then click ***OK***.
 1. Click ***OK*** to close the confirmation window that appears.

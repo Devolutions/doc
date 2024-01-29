@@ -4,7 +4,7 @@ eleventyComputed:
   description: You can consult topics for the following categories about {{ en.DGW }}':' How-to articles, Troubleshooting articles and Knowledge Base
   status: Topic available in German language
 ---
-![!!{{ en.DGW }} logo](https://webdevolutions.blob.core.windows.net/images/projects/gateway/logos/gateway-color-shadow.svg)
+![!!{{ en.DGW }} logo](https://webdevolutions.azureedge.net/images/projects/gateway/logos/gateway-color-shadow.svg)
 
 You can consult topics for the following categories about {{ en.DGW }}:
 

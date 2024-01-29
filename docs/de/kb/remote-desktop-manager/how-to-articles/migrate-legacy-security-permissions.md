@@ -11,7 +11,7 @@ Vor dem Deaktivieren stellen sie bitte Sicher, dass zuvor die Berechtigungen mig
 
 Befolgen Sie folgende Schritte, um das ***veraltete Sicherheitskonzept*** zu deaktivieren.
 
-1. Gehen Sie im {{ de.RDM }} zur Registerkarte  ***Administration***.
+1. Gehen Sie im {{ de.RDM }} zur Registerkarte ***Administration***.
 1. Wählen Sie unter ***Einstellungen*** die Option ***System Einstellungen***.  
 ![Administration – System Einstellungen](https://webdevolutions.azureedge.net/docs/de/kb/KB0026.png)
 1. Gehen Sie zu ***{{ de.VLT }} Verwaltung – Sicherheit*** und deaktivieren Sie ***Alte Sicherheit verwenden***.  

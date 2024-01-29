@@ -12,11 +12,11 @@ This topic describes how to send a copy of your {{ en.RDM }} configuration file 
 1. At the bottom of the navigation tree view, press ***Export Options***.  
 ![File – Options – Export Options](https://webdevolutions.azureedge.net/docs/en/kb/KB2331.png)  
 1. In the ***Configuration file export*** dialog, the following options are disabled by default. Double-check that they really are unchecked.
-   * ***Saved templates*** 
-   * ***{{ en.DA }} credentials*** 
-   * ***Include data source credentials***  
+    * ***Saved templates*** 
+    * ***{{ en.DA }} credentials*** 
+    * ***Include data source credentials***  
 
-   ![Uncheck Saved templates, {{ en.DA }} credentials, and Include data source credentials](https://webdevolutions.azureedge.net/docs/en/kb/KB2332.png)  
+![Uncheck Saved templates, {{ en.DA }} credentials, and Include data source credentials](https://webdevolutions.azureedge.net/docs/en/kb/KB2332.png)  
 4. All data sources are also disabled by default. Double-check that they really are unchecked. To make sure, click on the ***Unselect All*** button at the bottom.  
 ![Uncheck all data sources](https://webdevolutions.azureedge.net/docs/en/kb/KB2333.png)  
 1. Click on ***Export***.

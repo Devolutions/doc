@@ -17,7 +17,8 @@ You must be the owner or an administrator of the organization to manage and invi
 1. In the ***Users*** section, click ***Invite***.  
 ![!!Cloud4065](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4065.png) 
 1. Enter the email of the user. 
-    1. Select the language of the email invitation. 
+    1. Select the language of the email invitation.
+{type="a"}
     1. Pre-select a group the user would be part of. 
     1. Click ***Invite***.  
 ![!!Cloud4066](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4066.png) 

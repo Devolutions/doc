@@ -12,5 +12,5 @@ Both the Windows and macOS versions of {{ en.RDMMOBILE }} are covered.
 1. Go to the {{ en.RDMMOBILE }} settings. 
 1. Select ***User interface***.
 1. Under ***Data Sources***, enable ***Show deprecated data source types***.
-![Show deprecated data source types](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6091.png)  
+![Show deprecated data source types](https://webdevolutions.azureedge.net/docs/en/kb/KB6091.png)  
 The deprecated data source types are now available.

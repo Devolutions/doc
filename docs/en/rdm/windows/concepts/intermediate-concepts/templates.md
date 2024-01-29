@@ -3,7 +3,7 @@ eleventyComputed:
   title: Templates
   description: "{{ en.RDM }} templates are useful for providing a proper configuration when creating entries, instead of manually configuring them. They can be local or shared. Sharing the template ensures that the whole team uses the same configuration."
 ---
-{{ en.RDM }} templates are useful for providing a proper configuration when creating entries, instead of manually configuring them. They can be local or shared. Sharing the template ensures that the whole team uses the same configuration. Templates are also handy for credentials, [folders](/rdm/windows/concepts/basic-concepts/folders/), sessions, [synchronizers](/rdm/windows/concepts/advanced-concepts/synchronizers/), [tags](/rdm/windows/concepts/intermediate-concepts/tags/), [password templates,](/rdm/windows/concepts/intermediate-concepts/password-template/) etc. Sessions can be launched via ***Quick Connect*** without having to change parameters manually.
+Instead of manually configuring every entry, save time with local or shared templates. Launched via Quick Connect or entry context menus, templates are handy for credentials, [folders](/rdm/windows/concepts/basic-concepts/folders/), sessions, [synchronizers](/rdm/windows/concepts/advanced-concepts/synchronizers/), [tags](/rdm/windows/concepts/intermediate-concepts/tags/), [password templates](/rdm/windows/concepts/intermediate-concepts/password-template/), and more.
 
 ### Related topics  
 * [Embedded Sessions](/rdm/windows/user-interface/content-area/embedded-sessions/)

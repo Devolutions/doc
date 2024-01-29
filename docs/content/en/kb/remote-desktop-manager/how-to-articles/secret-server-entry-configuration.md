@@ -18,9 +18,6 @@ Credentials information setup:
 1. In a shared team, select the ***Use "My Account Settings"*** option under the ***General*** tab. After the entry is completed, each user will need to go in ***File*** – ***My Account Settings*** – ***Secret Server*** to enter their information.  
 ![My Secret Server Account](https://webdevolutions.azureedge.net/docs/en/kb/KB4027.png)
 Two Factor Authentication (2FA) is supported with the ***Secret Server*** entry.
-   {% snippet icon.badgeInfo %}
-   SAML is not yet supported, but it should be in version 2023.1 of {{ en.RDM }}.
-   {% endsnippet %}  
    {% snippet icon.badgeCaution %}
    There is a limitation with the Rest API, you cannot have 2FA with Windows Authentication.
    {% endsnippet %}

@@ -41,10 +41,10 @@ Für eine möglichst genaue Schätzung müssen folgende Aspekte berücksichtigt 
 * Die Fluktuation dieser Einträge; erstellen Sie täglich Einträge oder bleiben diese eher unverändert?  
 * Die Anzahl der gleichzeitigen Benutzer, die in Spitzenzeiten auf die {{ de.DVLS }} Instanz zugreifen.  
 * Das Benutzerverhalten: 
-  * Werden 10 Sitzungen gleichzeitig gestartet, umfangreiche Stapelverarbeitungen ausgeführt, 
-  * oder werden nur einige wenige Sitzungen geöffnet, in denen den ganzen Tag lang gearbeitet wird?
+    * Werden 10 Sitzungen gleichzeitig gestartet, umfangreiche Stapelverarbeitungen ausgeführt, 
+    * oder werden nur einige wenige Sitzungen geöffnet, in denen den ganzen Tag lang gearbeitet wird?
 
-  Dies führt zu Schreibvorgängen in unseren Protokollen. Daher ist das erste Szenario rechenintensiver als das letztgenannte.  
+   Dies führt zu Schreibvorgängen in unseren Protokollen. Daher ist das erste Szenario rechenintensiver als das letztgenannte.  
 
 ## 64-bit Unterstützung
 

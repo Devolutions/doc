@@ -6,13 +6,13 @@ eleventyComputed:
 There are different approaches using the {{ en.RDM }} Cyberark PSM Components. Although this guide covers many ways and techniques, it cannot cover every possible avenue. Here are the main approaches and techniques associated with them:  
 
 * Initial import
-  * From CSV (give a CSV template)
+    * From CSV (give a CSV template)
 * Synchronization (using the {{ en.RDM }} synchronizer entry)
-  * From Active Directory synchronizer
-  * From comma-separate values (CSV) synchronizer
+    * From Active Directory synchronizer
+    * From comma-separate values (CSV) synchronizer
 * Dynamic utilization
-  * Quick connect
-  * Host
+    * Quick connect
+    * Host
 
 ## Initial import of Cyberark connections from CSV
 
@@ -68,7 +68,7 @@ Once the PSM Server entry has been created, and the CSV File is populated.
 2. Select the template we created and click ***Finish***.  
 ![PSMImport](https://webdevolutions.azureedge.net/docs/en/kb/KB4689.png)
 Note: You must tick the ***Generate Direct Mapping*** check box.  
-![Generate Direct Mapping check box](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6063.png)
+![Generate Direct Mapping check box](https://webdevolutions.azureedge.net/docs/en/kb/KB6063.png)
 
 ![Imported connections](https://webdevolutions.azureedge.net/docs/en/kb/KB4690.png)
 

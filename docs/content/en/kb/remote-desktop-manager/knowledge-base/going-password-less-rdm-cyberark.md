@@ -22,6 +22,7 @@ First, you must issue PKs for each of your users and deploy them to their workst
 1. PK information stored an entry which exists in the {{ en.UVLT }}. This is surely the most simple as you have a one-to-one relationship between users/keys/accounts, but it has to be done by the users themselves.
 1. PK information stored in ***My accounts settings***: This method allows the administrators to create the AAM entries within {{ en.RDM }}, while each user sets their own PK details in their own personal settings. Since the account lookup uses keywords specified in the AAM entry, it means that you have a few options still:
     1. Handled in CyberArk: for each user there need to exist a single Privileged Account, accessible from the same keywords. The burden is on the administrator to isolate those in various safes and to ensure that everyone’s account has the same keywords.
+{type="a"}
     1. Handled in {{ en.RDM }}: administrators need to create a unique AAM entry per user with the keywords to find their Privileged Account.  Our User Groups Base Access Control must be used to ensure that users can view and use only appropriate entries.  
 
 As always with {{ en.RDM }}, you can mix and match approaches depending on your own requirements.
@@ -30,7 +31,7 @@ As always with {{ en.RDM }}, you can mix and match approaches depending on your 
 An application name other than ***AIMWebService*** must be specified in the ***application name*** field. 
 {% endsnippet %}   
 
-![Application name field](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6118.png)  
+![Application name field](https://webdevolutions.azureedge.net/docs/en/kb/KB6118.png)  
 
 ### CyberArk Privilege Session Manager (PSM) Configuration
 A discussion on the PSM is surely too broad to fit in this topic, so I will again refer to CyberArk’s documentation.  As for {{ en.RDM }}, in your PSM-Server entry, use one of our mechanism to have the connection use the AAM entry configured in the previous step.  

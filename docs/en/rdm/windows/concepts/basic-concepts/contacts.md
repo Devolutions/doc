@@ -3,8 +3,8 @@ eleventyComputed:
   title: Contacts
   description: Contacts in {{ en.RDM }} facilitate the management of contact information by centralizing it.
 ---
-***Contacts*** in {{ en.RDM }} facilitate the management of contact [information](/rdm/windows/concepts/basic-concepts/information/) by centralizing it. Once an information entry is created, it can be reused elsewhere, associated with a [host](/rdm/windows/concepts/intermediate-concepts/host-linking-management/) or machines.
+Centralize contact information in {{ en.RDM }}. Once created, reuse an [information](/rdm/windows/concepts/basic-concepts/information/) entry elsewhere through linking. Associate contacts to teams, [hosts](/rdm/windows/concepts/intermediate-concepts/host-linking-management/), and entries with [asset](/rdm/windows/concepts/intermediate-concepts/it-asset/) tracking.
 
-### Related topics  
+### Related topics
 
 * [Import contacts](/rdm/windows/commands/file/import/contacts/#import-from-contact) 

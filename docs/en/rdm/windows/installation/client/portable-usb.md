@@ -31,7 +31,8 @@ The following steps ensure true portability and ease of maintenance. It can easi
 ![ZIP package of {{ en.RDM }} Team](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11586.png) 
 1. Create a RemoteDesktopManager folder on your portable device. 
 1. In the folder created in step 2, create two folders: 
-    1. A config folder. 
+    1. A config folder.
+{type="a"}
     1. A data folder. 
     1. A tools folder (optional, only if you intend to use external tools like Filezilla). 
 1. Unzip {{ en.RDM }} in the folder. 
@@ -43,5 +44,4 @@ The following steps ensure true portability and ease of maintenance. It can easi
 1. Configure your portable applications (FileZilla, UltraVNC, etc.) in the same manner (relative to the folder). Click on ***Configure Installation Path*** to select your preferred portable application. 
 ![Configure Installation Path](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10449.png) 
 ![Installation Path](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11277.png) 
-1. You can now delete the pre-existing ***Local data source*** that had been created automatically. 
-
+1. You can now delete the pre-existing ***Local data source*** that had been created automatically.

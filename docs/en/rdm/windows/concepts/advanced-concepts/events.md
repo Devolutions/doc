@@ -3,7 +3,7 @@ eleventyComputed:
   title: Events
   description: "{{ en.RDM }} events give you the flexibility to automatically run operations such as macros, scripts, and tools before or after establishing or ending a connection."
 ---
-{{ en.RDM }} events give you the flexibility to automatically run operations such as [macros](/rdm/windows/concepts/advanced-concepts/macros/), [scripts](/rdm/windows/concepts/advanced-concepts/scripts/), and tools before or after establishing or ending a connection.
+{{ en.RDM }} events give you the flexibility to automatically run operations such as [macros](/rdm/windows/concepts/advanced-concepts/macros/), [scripts](/rdm/windows/concepts/advanced-concepts/scripts/), and tools with the Before Open, After Open, Before Close, and After Close events.
 
 ### Related topics  
 * [Entry types events settings](/kb/remote-desktop-manager/how-to-articles/entry-types-events-settings/)  

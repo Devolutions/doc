@@ -18,13 +18,13 @@ The ***Run As*** option lets you run {{ en.ANYID }} provider scripts within diff
 1. Click on the ***Run As*** tab.  
 ![Run As tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0151.png)
 1. In the ***Credential*** dropdown select either;
-  * Default: Runs the script with the current scheduler configuration.
-  * Custom: Runs the script within a specified ***Username***, ***Password*** and ***Host Name***.
-{% snippet icon.shieldInfo %}
-It is advised to pick or create a user with less permissions to test a script.
-{% endsnippet %}  
+    * Default: Runs the script with the current scheduler configuration.
+    * Custom: Runs the script within a specified ***Username***, ***Password*** and ***Host Name***.
+   {% snippet icon.shieldInfo %}
+   It is advised to pick or create a user with less permissions to test a script.
+   {% endsnippet %}  
 
-7. Click ***Save*** to close this window and save the changes.
+1. Click ***Save*** to close this window and save the changes.
 
 ### Check for trusted hosts
 If ***Run As*** is not pointing to a trusted host, the configuration will not work.  

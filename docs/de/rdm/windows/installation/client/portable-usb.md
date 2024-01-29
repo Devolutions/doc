@@ -30,6 +30,7 @@ Die folgenden Schritte gewährleisten echte Mobilität und einfache Wartung. Es 
 1. Erstellen Sie auf Ihrem Gerät einen Ordner *RemoteDesktopManager*. 
 1. Erstellen Sie in dem in Schritt 2 erstellten Ordner zwei weitere Ordner: 
     1. Einen für die Konfiguration.
+{type="a"}
     1. Einen für die Daten. 
     1. OPTIONAL: Einen für weitere Anwendungen (nur wenn Sie externe Werkzeuge wie FileZilla verwenden möchten). 
 1. Entpacken Sie {{ de.RDM }} im Schritt 2 erstellten Ordner. 

@@ -66,11 +66,11 @@ Your new provider has now been added to the list of ***Providers***.
 1. Select ***Application permissions***.
 ![Application permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB2304.png)
 1. Locate and check the boxes next to the following Microsoft Graph API permissions: 
-   * ***Group.Read.All***
-   * ***RoleManagement.Read.Directory***
-   * ***User.Read.All***  
+    * ***Group.Read.All***
+    * ***RoleManagement.Read.Directory***
+    * ***User.Read.All***  
 
-   ![Select permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB2305.png)
+![Select permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB2305.png)
 1. Click on ***Add permissions*** at the bottom.
 1. Click on ***Grant admin consent for [your organization]***, then confirm by clicking ***Yes***.
 ![Grant admin consent](https://webdevolutions.azureedge.net/docs/en/kb/KB2306.png)  

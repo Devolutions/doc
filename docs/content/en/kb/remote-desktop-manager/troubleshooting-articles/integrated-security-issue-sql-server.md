@@ -21,7 +21,7 @@ Since issues can arise from multiple sources, when setting up integrated securit
 
 ### Validate if the database is contained  
 {% snippet icon.badgeHelp %}
-To learn more on contained database, see Microsoft's [Contained database - SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/security/contained-database-users-making-your-database-portable?view=sql-server-ver15)
+To learn more on contained database, see Microsoft's [Contained database – SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/security/contained-database-users-making-your-database-portable?view=sql-server-ver15)
 {% endsnippet %}  
 
 Run the following script to find out if your database is contained.  

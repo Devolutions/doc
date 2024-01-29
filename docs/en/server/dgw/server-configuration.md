@@ -34,6 +34,7 @@ This method supports more sessions if there is an available {{ en.DGW }} license
 
 1. If default values do not work for your environment, enter the desired settings.
     1. ***HTTP Listener***: HTTP(s) port to reach the Gateway. (7171 is default)
+{type="a"}
     1. ***TCP Listener***: port used for the RDP sessions. (8181 is default)
 1. Click ***OK***.  
 ![OK Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0005.png)
@@ -65,6 +66,7 @@ The {{ en.DVLSCONSOLE }} must be installed on the server on which {{ en.DGW }} w
 ![Listeners](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0023.png)  
 1. Choose the {{ en.DGW }} ***Listeners*** ports (by default they are 7171 and 8181).
     1. If HTTPS is chosen instead of HTTP in the step above, the ***Certificate Configuration*** will be needed.
+{type="a"}
     1. ***Certificate file***: Needs to be a full chain certificate (.pfx, .p12, .pem, .crt).
     1. ***Certificate password***: Only needed if a .pfx or .p12 certificate was used.
     1. ***Private key file***: Only needed if a .pem or .crt was used as a certificate.
@@ -90,6 +92,7 @@ The {{ en.DVLSCONSOLE }} must be installed on the server on which {{ en.DGW }} w
 ![Add Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0014.png)
 1. Enter the following information.
     1. ***Name***: Name of the gateway that will be displayed in {{ en.RDM }}.
+{type="a"}
     1. ***Description***: Description of the gateway.
     1. ***Set as default***: If enabled, this gateway will be selected by default when configuring {{ en.RDM }}.
     1. ***{{ en.DGW }} URL***: The {{ en.DGW }} URL and Port that {{ en.DVLS }} will connect to, for example: **https://gateway.example.com:7171**.

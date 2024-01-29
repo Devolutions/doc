@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Export
+  description: The export feature is only active if the Import and Export Privileges has been enabled inside the User Management account. 
 ---
 Use ***File – Export*** to export {{ en.VLT }}s from {{ en.RDM }}. 
 
@@ -14,7 +15,7 @@ The only appropriate formats to import {{ en.VLT }}s back into {{ en.RDM }} are 
  
 ## Settings 
 
-![File - Export](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10502.png) 
+![File - Export](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6239.png) 
 
 {% snippet icon.badgeInfo %} 
 When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/), export capabilities can be disabled via security policies at the data source level (no one can export) or at a user level (particular users cannot export). 

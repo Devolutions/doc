@@ -14,18 +14,18 @@ This topic covers how to share a credential from a different {{ en.VLT }} in the
 1. Enter the ***Name***.  
 ![General tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0157.png)
 1. Fill the information in the ***General*** tab;
-  * ***Host***: The URL to {{ en.DVLS }}
-  * ***Use "My Account Settings"***: Use the ***My Acount Settings*** {{ en.DVLS }} login set in ***File*** – ***Options***
-  * ***Use Windows authentication***: Use Windows authentication to log into {{ en.DVLS }}
-  * ***Username***: Use a set email to log into {{ en.DVLS }}
-  * ***{{ en.VLT_MAJ }}***: Click on the ellipsis button to select which {{ en.VLT }} to get the credential from
+    * ***Host***: The URL to {{ en.DVLS }}
+    * ***Use "My Account Settings"***: Use the ***My Acount Settings*** {{ en.DVLS }} login set in ***File*** – ***Options***
+    * ***Use Windows authentication***: Use Windows authentication to log into {{ en.DVLS }}
+    * ***Username***: Use a set email to log into {{ en.DVLS }}
+    * ***{{ en.VLT_MAJ }}***: Click on the ellipsis button to select which {{ en.VLT }} to get the credential from
 ![Entry tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0158.png)
 7. Fill the information in the ***Entry*** tab;
-  * ***Default (specific credential)***: This mode uses one specific credential
-    * ***Credential***: Click on the ellipsis button to select which specific credential to share
-  * ***Name filtering***: Filters through the selected {{ en.VLT }} based on the search criterias to find an entry with a matching name
-    * ***Name***: Enter the desired characters
-    * ***Mode***: ***Contains the value*** or ***Exact match***
-    * ***Case sensitivity***: ***No*** or ***Yes***
-  * ***Always prompt with list***: Always prompts the user with a list of the available credentials
+    * ***Default (specific credential)***: This mode uses one specific credential
+        * ***Credential***: Click on the ellipsis button to select which specific credential to share
+    * ***Name filtering***: Filters through the selected {{ en.VLT }} based on the search criterias to find an entry with a matching name
+        * ***Name***: Enter the desired characters
+        * ***Mode***: ***Contains the value*** or ***Exact match***
+        * ***Case sensitivity***: ***No*** or ***Yes***
+    * ***Always prompt with list***: Always prompts the user with a list of the available credentials
 8. Click ***OK*** to save the changes and close this window.

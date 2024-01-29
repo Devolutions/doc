@@ -15,7 +15,7 @@ The scores are admittedly open to question and we do not pretend each topic has 
 |             |     |
 | ----------- | --- |
 | Description | The LDAPS protocol should be used to provide communication confidentiality and integrity over the network. Otherwise, actions such as password resets could send the password in cleartext over the network. |
-| Mitigation  | In the web interface ***Administration - Server Settings - Authentication - Domain***, check ***Enable LDAPS*** |
+| Mitigation  | In the web interface ***Administration – Server Settings – Authentication – Domain***, check ***Enable LDAPS*** |
 
 ### Backups should be enabled and configured
 
@@ -34,14 +34,14 @@ The scores are admittedly open to question and we do not pretend each topic has 
 |             |     |
 | ----------- | --- |
 | Description | An email server configuration is required to transmit important application messages such as security events or errors. |
-| Mitigation  | Email server settings are in the web interface ***Administration - Server Settings - Email***.                           |
+| Mitigation  | Email server settings are in the web interface ***Administration – Server Settings – Email***.                           |
 
 ### External logging destination should be configured
 
 |             |     |
 | ----------- | --- |
 | Description | Sending logs to an external system is recommended to maintain integrity and availability of event information. |
-| Mitigation  | Logging is configured in the web interface ***Administration - Server Settings - Logging***.                    |
+| Mitigation  | Logging is configured in the web interface ***Administration – Server Settings – Logging***.                    |
 
 ### Secure https communications should be enabled
 
@@ -72,3 +72,10 @@ The scores are admittedly open to question and we do not pretend each topic has 
 |             |     |
 | ----------- | --- |
 | Description | Sensitive information is stored in the **web.config** configuration file. It is recommended to enable encryption to prevent tampering and ensure confidentiality. |
+
+### {{ en.VLT_MAJ }} security level should be set to high
+
+|             |     |
+| ----------- | --- |
+| Description | {{ en.VLT_MAJ }} security level should be set to high in the ***{{ en.VLT }} settings***. |
+| Mitigation  | ***{{ en.VLT_MAJ }} settings*** are in the web interface of {{ en.DVLS }} under ***Administration – User and Security Management – {{ en.VLT_MAJ }}s***. Edit a {{ en.VLT }} to open the ***Edit {{ en.VLT }} settings window*** and select ***High*** in the drop-down menu under ***General – Security level***. |

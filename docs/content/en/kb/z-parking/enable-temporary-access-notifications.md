@@ -14,15 +14,15 @@ This notification is only available for the Microsoft SQL Server and Microsoft A
 1. Have a [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/).  
 1. In {{ en.RDM }}:
     1. Connect to your {{ en.DA }} in ***File – {{ en.DA }}***.
+{type="a"}
     1. Set your users email with their {{ en.DA }} email in ***Administration – Users***.
 1. In your [{{ en.DA }}](https://portal.devolutions.com/):
     1. Create an Organization.
+{type="a"}
     1. Invite Users to your Organization.
 
 ## Steps
 1. In {{ en.RDM }}, go to ***Administration – System Settings – {{ en.VLT_MAJ }}***.
 1. Click ***Enable Temporary Access Notifications***.
-
 ![Administration – System Settings – {{ en.VLT_MAJ }} – Enable Temporary Access Notifications](https://webdevolutions.azureedge.net/docs/en/kb/KB4854.png)
-
 3. Click ***OK*** to close the window, then save the changes.

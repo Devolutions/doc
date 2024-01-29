@@ -18,5 +18,5 @@ To ensure secure deployment of {{ en.RDM }} with SQL Server on workstations with
 However, it is important to recognize that when a certificate is exposed to multiple workstations, there is an increased risk that it will be compromised by malicious actors. To mitigate this risk, we recommend using a {{ en.DVLS }} that effectively handles encryption at rest while safeguarding the encryption key from {{ en.RDM }} users.
 
 {% snippet icon.badgeHelp %}
-For more detailed information, please refer to [Security Model and Encryption (PDF)](https://cdndevolutions.blob.core.windows.net/documents/legal/security/security-encryption-en.pdf).
+For more detailed information, please refer to [Security Model and Encryption (PDF)](https://cdndevolutions.azureedge.net/documents/legal/security/security-encryption-en.pdf).
 {% endsnippet %}

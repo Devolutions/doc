@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Devolutions Support Center
+    url: https://devolutions.net/support/
+    about: Easily find answers to all your questions via our forum, documentation, chat, and blog articles.
+
+  - name: Devolutions Community Support
+    url: https://forum.devolutions.net/
+    about: The Devolutions Forum is the place to go to connect with your peers and the Devolutions Team.

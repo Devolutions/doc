@@ -24,9 +24,9 @@ Follow the steps below to learn how to make a temporary access request:
 
 1. In the ***{{ en.VLT_MAJ }}*** tab, select the entry you want access to in the {{ en.VLT }} of your choice. 
 1. Click on ***More***, then select ***Request Temporary Access***.  
-![Request Temporary Access](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6026.png) 
+![Request Temporary Access](https://webdevolutions.azureedge.net/docs/en/hub/Hub6026.png) 
 1. In the ***Temporary Access Request*** window, select the ***Access duration*** in the drop-down menu.  
-![Temporary Access Request](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6025.png)
+![Temporary Access Request](https://webdevolutions.azureedge.net/docs/en/hub/Hub6025.png)
 1. Click ***Set custom time frame*** if you need an access for a specific period of time.
 1. Select the ***Permissions*** level you want to temporarily obtain between ***Readers***, ***Operators***, and ***Contributors*** using the drop-down menu.  
 ![Permissions](https://webdevolutions.azureedge.net/docs/en/hub/Hub2020.png) 
@@ -44,7 +44,7 @@ You now have to wait for the approver to respond to your request. You will be no
 ## Request temporary access to a credentials entry 
 
  Users can request access to a credentials entry in order to view and copy passwords. The process is the same as described above. Once the approver has given you access, you can view the password.
-![View the password](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6084.png)  
+![View the password](https://webdevolutions.azureedge.net/docs/en/hub/Hub6084.png)  
 
 ## Response to your request 
 
@@ -65,4 +65,4 @@ Further down is the approver's reply. The approver can modify your request if ne
  
 
 Finally, for any reason, you may revoke your temporary access by clicking on ***Revoke***. Be sure you want to do this first, since in order to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the approver.  
-![Temporary access details and revocation](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6007.png) 
+![Temporary access details and revocation](https://webdevolutions.azureedge.net/docs/en/hub/Hub6007.png) 

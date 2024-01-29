@@ -12,4 +12,4 @@ An error message appears in a new {{ en.RDM }} account if the previous account's
 1. Recreate the account in the ***Security section*** of the Azure database in SQL Server Management Studio.
 1. Perform an ***SQL Login fix*** on the account in ***Administration*** – ***Users*** in  {{ en.RDM }}.
 
-![Administration – Users](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6153.png)
+![Administration – Users](https://webdevolutions.azureedge.net/docs/en/kb/KB6153.png)

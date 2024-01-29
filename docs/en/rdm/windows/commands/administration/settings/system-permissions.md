@@ -12,7 +12,7 @@ For more information about permissions, consult [Simplified Security](/rdm/windo
 {% endsnippet %}
 
 ### Entries
-![System Permissions - Entries](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6158.png) 
+![System Permissions - Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6158.png) 
 
 | OPTION             | DESCRIPTION                                           |
 |--------------------|-------------------------------------------------------|
@@ -23,7 +23,7 @@ For more information about permissions, consult [Simplified Security](/rdm/windo
 
 ### Miscellaneous 
 
-![System Permissions - Miscellaneous](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6155.png) 
+![System Permissions - Miscellaneous](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6155.png) 
 
 | OPTION                  | DESCRIPTION                                                               |
 |-------------------------|---------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ For more information about permissions, consult [Simplified Security](/rdm/windo
 
 ### Tools 
 
-![System Permissions - Tools](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6156.png) 
+![System Permissions - Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6156.png) 
 
 | OPTION                        | DESCRIPTION                                                  |
 |-------------------------------|--------------------------------------------------------------|
@@ -50,7 +50,7 @@ For more information about permissions, consult [Simplified Security](/rdm/windo
 
 ### Templates 
  
-![System Permissions - Templates](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6157.png) 
+![System Permissions - Templates](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6157.png) 
 
 | OPTION            | DESCRIPTION                                            |
 |-------------------|--------------------------------------------------------|
@@ -59,7 +59,7 @@ For more information about permissions, consult [Simplified Security](/rdm/windo
 
 ### Management 
  
-![System Permissions - Management](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6153.png) 
+![System Permissions - Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6153.png) 
 
 | OPTION          | DESCRIPTION                                                                                                 |
 |-----------------|-------------------------------------------------------------------------------------------------------------|

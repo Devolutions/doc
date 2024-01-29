@@ -20,4 +20,4 @@ If you are a {{ en.RDM }} Free Edition user, you can connect your {{ en.DHUBP }}
 The ***Emergency Kit*** contains your emergency key that will be required in case you lose or reset your {{ en.DA }} password. Remember to keep it in a safe place.
 {% endsnippet %}
 
-After downloading the ***Emergency Kit***, you will be directed to your {{ en.DHUBP }}.
+After downloading the ***Emergency Kit***, you will be directed to your {{ en.DHUBP }}. To learn how to recover access to your {{ en.DA }} with the ***Emergency Kit***, click [here](/kb/general-knowledge-base/emergency-kit/).

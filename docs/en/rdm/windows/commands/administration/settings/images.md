@@ -13,11 +13,11 @@ The following file types are currently supported for global and custom images:
 * .svg
 * .ico
 
-1. Go to ***Administration*** – ***System {{ en.VLT }}*** – ***Images*** in the ribbon of {{ en.RDM }}.
-![Administration – Images](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6148.png)
+1. Go to ***Administration*** – ***Settings*** – ***Images*** in the ribbon of {{ en.RDM }}.
+![Administration – Images](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6148.png)
 1. The ***Entry Image Management*** window open.
 1. Click ***Add (+)*** to choose an image.
-![Entry image management – Add (+)](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6149.png)
+![Entry image management – Add (+)](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6149.png)
 1. In the ***Entry Image Settings***, enter the ***Name*** and virtual ***Folder*** of the image.
 ![Entry Image Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6165.png)
    {% snippet icon.badgeInfo %}

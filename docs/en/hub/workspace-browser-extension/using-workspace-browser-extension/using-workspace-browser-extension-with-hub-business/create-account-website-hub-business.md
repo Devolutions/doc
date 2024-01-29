@@ -17,13 +17,14 @@ Follow the steps below to learn how to create a website account with the {{ en.W
 1. Click on the {{ en.WBEX }} icon in your browser toolbar, then select the ***Password Generator*** in the ***Side menu*** of the extension.  
 ![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2047.png) 
 1. You can now customize the password generation settings, but this is optional since the default settings already generate very strong passwords. That being said, it may be necessary to adjust the settings to meet the specific requirements of some websites. If you do not wish to customize the generation settings, you can skip to step 5.
-    1. Select a ***Password length***. The default value is set to 12.  
-    ![Password length](https://webdevolutions.azureedge.net/docs/en/hub/Hub2048.png)
+    1. Select a ***Password length***. The default value is set to 12.
+![Password length](https://webdevolutions.azureedge.net/docs/en/hub/Hub2048.png)
+{type="a"}
     1. In the ***General*** settings, select the types of characters that your password must contain. The default is set to include uppercase letters, lowercase letters, and numbers, but there is also the option to include special characters in your password.  
-    ![General Settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2049.png) 
+![General Settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2049.png) 
     1. In the same section next to the character types, select the minimum number of characters of each type that must be included in your password. The default values are set to 0. 
     1. In the ***Advanced*** settings, you can even further customize your password if desired. In the first field, enter characters you want included in your password, followed in the field to the right by the minimum number of times they must appear. In the second field, enter characters you want excluded from your password.  
-    ![Advanced Settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2050.png) 
+![Advanced Settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2050.png) 
 
 Your password settings are now configured.  
 

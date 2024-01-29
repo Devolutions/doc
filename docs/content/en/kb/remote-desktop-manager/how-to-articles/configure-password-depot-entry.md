@@ -23,7 +23,7 @@ The entry can be found under ***New Entry*** – ***Credential Management*** –
 * ***Use "My Account Settings"***: Go to ***File*** – ***My Account Settings*** – ***Settings*** – ***Password Management*** and click on ***Password Depot*** to set up this option first; replaces the ***Username*** and ***Password*** fields.
 * ***Username***: Password Depot username.
 * ***Password***: Password Depot password.
-  * ***Always ask password***: If enabled, entry will always prompt for password when it is accessed.
+    * ***Always ask password***: If enabled, entry will always prompt for password when it is accessed.
 * ***Database***: Click on the ellipsis button to pick the Password Depot database.
-  * ***Entry***: Click on the ellipsis button to pick a specific credential for this entry.
-  * ***Always prompt with list***: Prompts the user with a list of all the available credentials instead of a specific one.
+    * ***Entry***: Click on the ellipsis button to pick a specific credential for this entry.
+    * ***Always prompt with list***: Prompts the user with a list of all the available credentials instead of a specific one.

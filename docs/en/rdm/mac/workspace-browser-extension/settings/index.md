@@ -14,15 +14,15 @@ The ***Settings*** are separated in two categories: [***Configuration***](#confi
 The ***General*** settings are about the user interface and interaction.  
 
 * ***General*** tab
-  * Show the {{ en.WBEX }} icon in the credentials fields.
-  * Show the prompt when saving credentials on new login.
-  * Show the context menu options.
-  * Color the fields that are filled with the {{ en.WBEX }}.
-  * Set the color ***Theme*** of the application.  
+    * Show the {{ en.WBEX }} icon in the credentials fields.
+    * Show the prompt when saving credentials on new login.
+    * Show the context menu options.
+    * Color the fields that are filled with the {{ en.WBEX }}.
+    * Set the color ***Theme*** of the application.  
 
 * ***Advanced*** tab
-  * Disable the analytics telemetry.
-  * Enable the Beta versions of the {{ en.WBEX }}.  
+    * Disable the analytics telemetry.
+    * Enable the Beta versions of the {{ en.WBEX }}.  
 
 The ***Never List*** displays the list of locally added websites to which the user will never be prompted to save their credentials.  
 

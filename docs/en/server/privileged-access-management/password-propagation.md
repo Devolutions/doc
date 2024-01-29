@@ -6,6 +6,8 @@ eleventyComputed:
 ---
 ***Password Propagation*** allows privileged accounts passwords reset to be propagated to remote servers services. This topic covers [Propagation by script](#propagation-by-script) and [Active Directory specific propagation](#active-directory-specific-propagation).
 
+{% youtube 'drRLA7U8YsQ?si=ihVhTcJOKxAh5kKS&amp;start=225' %}
+
 ## Propagation by script
 The following sections describe the properties of the ***Propagation*** by script feature within the Privileged Access Management solution. The [Steps](#steps-with-template) section explains how to set up this feature by using a Devolutions template, but it is also possible to [Create a template](#create-a-powershell-template).
 

@@ -33,5 +33,3 @@ In den meisten Fällen wird bei der Bearbeitung der ***Spezifischen Einstellunge
 {% snippet icon.badgeInfo %} 
 ***Spezifische Einstellungen*** sind kontextabhängig, und einige Einstellungen sind möglicherweise nicht für alle Arten von Einträgen verfügbar.
 {% endsnippet %}
- 
-

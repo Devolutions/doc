@@ -43,5 +43,4 @@ Go to the section that corresponds to your data source type:
 1. Follow one of the links below depending on the choice made in the previous step: 
     * [Authenticator (TOTP)](/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/) 
     * [Yubikey](/rdm/mac/data-sources/multi-factor-authentication/yubikey/)   
-    * [Duo](/rdm/mac/data-sources/multi-factor-authentication/duo/) 
-
+    * [Duo](/rdm/mac/data-sources/multi-factor-authentication/duo/)

@@ -21,6 +21,6 @@ If you decide not to register by the end of the trial, your data will not be alt
    If you need to register your license while offline (if internet is disabled or if for whatever reason you cannot reach the servers), you can only do it by importing the **.lic** file provided to you, which contains a JSON Web Token (JWT). The license file must be downloaded from the Devolutions confirmation email and imported as described in the steps above for {{ en.RDM }} 2023.3 and later.
    {% endsnippet %}
    
-   ![License field and import](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin2238.png) 
+   ![License field and import](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2238.png) 
 
 Your trial has now started. 

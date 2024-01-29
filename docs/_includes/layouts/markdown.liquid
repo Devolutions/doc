@@ -6,7 +6,6 @@ layout: 'layouts/base.liquid'
 {%- capture feedbackBody -%}
 [Enter feedback here]
 
-
  ---
 #### Document Details
 
@@ -59,7 +58,7 @@ layout: 'layouts/base.liquid'
     <main class="markdown">
       {{- content -}}
 
-      <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?title=&body={{- feedbackBody | encodeURIComponent -}}">
+      <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?template=feedback.yml&title={{- '[Feedback]: ' | encodeURIComponent -}}&feedback={{- feedbackBody | encodeURIComponent -}}" target="_blank">
         <span class="icon" aria-hidden="true">
           {{- icons.github -}}
         </span>

@@ -1,14 +1,13 @@
 ---
 eleventyComputed:
   title: Running the {{ en.RDM }} synchronizer from a centralized server
+  description: To prevent your computer from being overloaded by background tasks, such as Synchronizer, perform these tasks on centralized servers.
 ---
-In order to prevent your computer from being overloaded by background tasks, such as Synchronizer, perform these tasks on centralized servers.
+To prevent your computer from being overloaded by background tasks, such as Synchronizer, perform these tasks on centralized servers.
 
 {% snippet icon.badgeInfo %}
 These instructions are for team data sources
 {% endsnippet %}
-
-## Step-by-step guide
 
 1. Install a [portable version](/rdm/windows/installation/client/portable-usb/) of {{ en.RDM }}.
 1. Add your configured advanced data source. We recommend ***Windows authentication*** for authentication type.
@@ -25,9 +24,10 @@ These instructions are for team data sources
 ![!!KB4199](https://webdevolutions.azureedge.net/docs/en/kb/KB4199.png)
 1. Configure ***Settings*** as desired.
     1. Set the schedule for the trigger. In our example, we used Weekly, every Sunday, at 1:00:00 am.
+{type="a"}
     1. Check ***Stop task if it runs longer than*** and set value to 30 minutes.
     1. Check ***Enabled***, then click ***OK***.  
-      ![!!KB4200](https://webdevolutions.azureedge.net/docs/en/kb/KB4200.png)  
+![!!KB4200](https://webdevolutions.azureedge.net/docs/en/kb/KB4200.png)  
 1. On the ***Actions tab***, click ***New***.  
 ![!!KB4201](https://webdevolutions.azureedge.net/docs/en/kb/KB4201.png)
 1. Paste the Command line copied in step 5 into ***Program/script*** and click ***OK***.  

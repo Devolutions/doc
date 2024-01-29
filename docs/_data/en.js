@@ -28,7 +28,6 @@ module.exports = {
     DUPDATER: 'Devolutions Updater',
     DVLS: 'Devolutions Server',
     DVLSCONSOLE: 'Devolutions Server Console',
-    MAC: 'macOS',
     NPANE: 'Navigation pane',
     OBACK: 'Online backup',
     PS: 'Devolutions.PowerShell',

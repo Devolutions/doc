@@ -564,13 +564,13 @@ Set-HubVault -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -PSVault $psVault
 
 #### Arguments
 * VaultID
-  * UserId
-  * VaultRoleId | VaultPermission  
+    * UserId
+    * VaultRoleId | VaultPermission  
 
-  or  
+   or  
 
-  * GroupId
-  * VaultRoleId | VaultPermission  
+    * GroupId
+    * VaultRoleId | VaultPermission  
 
 #### Description
 Adds the provided {{ en.VLT }} permission to a specific {{ en.VLT }}. If a user or group **already exists**, the permission will be **overwritten**.
@@ -597,11 +597,11 @@ New-HubVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -VaultRoleId
 
 #### Arguments
 * VaultID
-  * UserId
+    * UserId
 
-  or  
+   or  
 
-  * GroupId
+    * GroupId
 
 #### Description
 If UserId is provided, removes this user's {{ en.VLT }} permission from the specific {{ en.VLT }}.
@@ -612,11 +612,11 @@ If GroupId is provided, removes this group's {{ en.VLT }} permission from the sp
 
 #### Arguments
 * VaultID
-  * UserId
+    * UserId
 
-  or  
+   or  
 
-  * GroupId
+    * GroupId
 
 #### Description
 If UserId is provided, retrieves this user's {{ en.VLT }} permission from the specific {{ en.VLT }}.
@@ -636,13 +636,13 @@ New-HubVaultPermission -UserId 152c06cf-cce6-4116-97e1-34aadeab9984 -VaultPermis
 
 #### Arguments
 * VaultID
-  * UserId
-  * VaultRoleId | VaultPermission  
+    * UserId
+    * VaultRoleId | VaultPermission  
 
-  or  
+   or  
 
-  * GroupId
-  * VaultRoleId | VaultPermission  
+    * GroupId
+    * VaultRoleId | VaultPermission  
 
 #### Description
 Sets a provided {{ en.VLT }} permission to a specific {{ en.VLT }}.
@@ -903,13 +903,13 @@ Set-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b76
 #### Arguments
 * VaultId
 * EntryId
-  * UserId
-  * PSEntryRole | EntryPermission  
+    * UserId
+    * PSEntryRole | EntryPermission  
 
-  or  
+   or  
 
-  * GroupId
-  * PSEntryRole | EntryPermission  
+    * GroupId
+    * PSEntryRole | EntryPermission  
 
 #### Description
 Adds a provided entry permission to a specific entry. If a user or group **already exists**, the permission will be **overwritten**.
@@ -944,11 +944,11 @@ New-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf
 #### Arguments
 * VaultId
 * EntryId
-  * UserId
+    * UserId
 
-  or  
+   or  
 
-  * GroupId
+    * GroupId
 
 #### Description
 If UserId is provided, removes this user's entry permission from a specific entry.
@@ -962,11 +962,11 @@ If GroupId is provided, removes this group's entry permission from a specific en
 #### Arguments
 * VaultId
 * EntryId
-  * UserId
+    * UserId
 
-  or  
+   or  
 
-  * GroupId
+    * GroupId
 
 #### Description
 If UserId is provided, retrieves this user's entry permission from a specific entry.
@@ -990,13 +990,13 @@ New-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf
 #### Arguments
 * VaultId
 * EntryId
-  * UserId
-  * PSEntryRole | EntryPermission  
+    * UserId
+    * PSEntryRole | EntryPermission  
 
-  or  
+   or  
 
-  * GroupId
-  * PSEntryRole | EntryPermission  
+    * GroupId
+    * PSEntryRole | EntryPermission  
 
 #### Description
 Sets a provided entry permission to a specific entry.

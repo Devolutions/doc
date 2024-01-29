@@ -85,19 +85,19 @@ Falls nicht, eignet sich der Benutzertyp ***Benutzer (Leserechte)*** am besten f
 Der Zugriff wird gewährt oder verweigert, indem die Berechtigungen für Einträge festgelegt werden. ***Berechtigungen*** können für Benutzer und Gruppen festgelegt werden. Am besten ist es, Berechtigungen für Gruppen zu erteilen, um den Zugriff für mehrere Benutzer gleichzeitig zu kontrollieren.  
 
 Um Berechtigungen für einen Eintrag festzulegen, bearbeiten sie einen beliebigen Eintrag und gehen dann zum Abschnitt ***Berechtigungen***.  
-![Berechtigungen](https://webdevolutions.blob.core.windows.net/docs/de/rdm/windows/RDMWin6038.png)
+![Berechtigungen](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6038.png)
 
 Berechtigungen werden normalerweise für Ordner festgelegt und gelten für alle untergeordneten Einträge. Am besten ist es, alle Berechtigungen des {{ de.VLT }} auf ***Niemand*** zu setzen. Dadurch werden standardmäßig alle Berechtigungen für alle Einträge verweigert.  
-![{{ de.VLT }} Vererbte Berechtigungen](https://webdevolutions.blob.core.windows.net/docs/de/rdm/windows/RDMWin6039.png)
+![{{ de.VLT }} Vererbte Berechtigungen](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6039.png)
 
 Der Zugriff wird verweigert, ausser die Berechtigung wird für Benutzer / Gruppen ausdrücklich gewährt. Mit anderen Worten: Allen Benutzern / Gruppen, die nicht auf der Liste der Berechtigung stehen, wird der Zugriff verweigert.  
 
 Damit der Zugriff auf einen Unterordner möglich ist, muss zumindest die Berechtigung ***Anzeigen*** aller übergeordneten Ordner konfiguriert werden.  
 
 Betrachten Sie bitte folgende Struktur:  
-![Drei Ordnerebenen](https://webdevolutions.blob.core.windows.net/docs/de/rdm/windows/RDMWin6041.png)
+![Drei Ordnerebenen](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6041.png)
 
 Es gibt drei Ordnerebenen: {{ de.VLT }} (Windjammer), Telemark und untergeordnete Elemente von Telemark.  
 
 Angenommen, eine Gruppe, z.B. Consultants, muss nur Zugriff auf den Ordner „Montreal“ haben. Der Gruppe muss auch die Berechtigung Anzeigen des Ordners „Telemark“ gewährt werden. Allerdings erhält diese mit dieser Berechtigung auch das Recht, alle untergeordneten Elemente von „Telemark“ einzusehen. Um der Gruppe diese Berechtigung zu verweigern, muss die Berechtigung Anzeigen dieser Elemente ausdrücklich für andere Gruppen festgelegt werden.  
-![Die Berechtigungen zur Anzeige dieser Elemente müssen ausdrücklich für andere Gruppen festgelegt werden](https://webdevolutions.blob.core.windows.net/docs/de/rdm/windows/RDMWin6042.png)
+![Die Berechtigungen zur Anzeige dieser Elemente müssen ausdrücklich für andere Gruppen festgelegt werden](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6042.png)

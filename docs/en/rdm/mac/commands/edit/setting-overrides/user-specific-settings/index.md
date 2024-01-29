@@ -6,7 +6,7 @@ eleventyComputed:
 Allows session setting override for a user. Several settings can be overridden, such as user name, password or display.  
 
 In your ***{{ en.NPANE }}***, select the entry you wish to override and then do a right click Edit - Edit Entry (User Specific Settings) or in the Ribbon simply select Edit - Edit Entry (User Specific Settings).  
-![Edit - Edit Entry (User Specific Settings)](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6056.png) 
+![Edit - Edit Entry (User Specific Settings)](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6056.png) 
 
 ## Settings 
 
@@ -22,7 +22,7 @@ This feature is only available when using an [Advanced Data Source](/rdm/mac/dat
 If both User Specific Settings and Local Machine Specific Settings are defined on the same entry, Local Machine Specific Settings have priority. 
 {% endsnippet %}
  
-![User Specific settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6057.png) 
+![User Specific settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6057.png) 
 
 Please consult each tabs for more information:  
 

@@ -20,11 +20,11 @@ Follow the steps below to learn how to make a temporary access request:
 
 1. In the ***{{ en.NPANE }}*** of {{ en.DVLS }}, select the entry you want access to. 
 1. Click ***More*** – ***Request Temporary Access***.
-![Request Temporary Access Request](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6039.png) 
+![Request Temporary Access Request](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6039.png) 
 1. In the ***Temporary Access Request*** window, choose the approver you want to send the request to.  
 1. Select the time of ***Access duration***. You can click ***Set custom time frame*** if you need access for a specific period of time.
 
-![Temporary Access Request](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6032.png)  
+![Temporary Access Request](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6032.png)  
 5. Write a short ***Message*** to the approver explaining why you want access to this entry and its dependencies. This is optional, but we strongly recommend it as it allows the approver to make a more informed decision. When you are done, click on ***Send Request***.  
 
 You now have to wait for the approver to respond to your request. Depending on their settings, you may be notified by email or message when they respond, whether the answer is positive or negative.  
@@ -36,21 +36,21 @@ Once the approver has approved you access, you can go straight to your entry in 
 ## Request temporary access to a credentials entry 
 
  Users can request access to a credentials entry in order to view and copy passwords. The process is the same as described above. Once the approver has given you access, you can view the password.
-![View the password](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6090.png)  
+![View the password](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6090.png)  
 You can also right-clicking on the entry to view the password. 
-![Right-clicking on the entry to view the password](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6091.png)
+![Right-clicking on the entry to view the password](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6091.png)
   
 ## Revoke your temporary access 
 
 For any reason, you may revoke your temporary access. Be sure you want to do this first, since in order to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the approver.  
 
 1. Go to ***Reports***.
-![Reports](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6042.png)
+![Reports](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6042.png)
 1. Select ***Temporary Access Requests Report***.
-![Temporary Access Requests Report](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6044.png)
+![Temporary Access Requests Report](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6044.png)
 1. Click ***Cancel request***.
-![Cancel request](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6041.png)
+![Cancel request](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6041.png)
 1. The next window will ask if you really want to cancel your request. Click ***OK*** to confirm.
-![Cancel request confirmation](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6051.png)
+![Cancel request confirmation](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6051.png)
 
 Your temporary access has now been revoked. 

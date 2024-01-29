@@ -23,7 +23,7 @@ If both ***User Specific Settings*** and ***Local Specific Settings*** are defin
 
 The options are available in the ribbon. Select ***Edit*** – ***Setting Overrides*** – ***User Specific Settings*** or ***Local Specific Settings***. 
 
-![Edit – Setting Overrides – User Specific Settings or Local Specific Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6166.png) 
+![Edit – Setting Overrides – User Specific Settings or Local Specific Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6166.png) 
 
 These can also be accessed by using the right-click on an entry and going to ***Edit – User/Local Specific Settings***. 
  
@@ -32,14 +32,12 @@ These can also be accessed by using the right-click on an entry and going to ***
 ### Specific settings indicator 
 
 An indicator icon is displayed in the dashboard when an entry with ***Specific Settings*** is selected. Click on the icon to open the ***Specific Settings*** dialog.  
-![Specific Settings indicator](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6167.png) 
+![Specific Settings indicator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6167.png) 
 
 ## Workflow 
 
 In the majority of cases, editing the ***Specific Settings*** displays the following dialog:  
-![User Specific Settings](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6168.png) 
+![User Specific Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6168.png) 
 {% snippet icon.badgeInfo %} 
 ***Specific settings*** are context sensitive, and several settings might not be available for some entry types. 
 {% endsnippet %}
- 
-

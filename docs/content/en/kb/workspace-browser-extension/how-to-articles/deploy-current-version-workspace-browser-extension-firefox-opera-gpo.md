@@ -12,8 +12,8 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 {% endsnippet %}
 
 To distribute the current latest version of the {{ en.WBEX }} in Firefox and Opera browsers using GPOs, we use the following URLs:  
-* [Firefox URL](https://cdndevolutions.blob.core.windows.net/download/BrowserExtension/DevolutionsWorkspaceFirefox.Latest.xpi)
-* [Opera URL](https://cdndevolutions.blob.core.windows.net/download/BrowserExtension/DevolutionsWorkspaceOpera.Latest.crx)
+* [Firefox URL](https://cdndevolutions.azureedge.net/download/BrowserExtension/DevolutionsWorkspaceFirefox.Latest.xpi)
+* [Opera URL](https://cdndevolutions.azureedge.net/download/BrowserExtension/DevolutionsWorkspaceOpera.Latest.crx)
 
 When a new version of the {{ en.WBEX }} is available, the packages are overwritten to keep the link up to date.  
 

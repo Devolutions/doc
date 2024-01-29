@@ -6,7 +6,7 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!DataSourceDPSLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
+![!!logo-dvls](https://webdevolutions.azureedge.net/docs/common/logo-dvls.png) 
 		</td>
 		<td>
 ***{{ fr.DVLS }}*** est un {{ fr.VLT }} autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur la [page Web de {{ fr.DVLS }}](https://devolutions.net/server/fr). 

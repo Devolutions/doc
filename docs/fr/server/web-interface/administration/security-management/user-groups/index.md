@@ -72,7 +72,7 @@ Assigner un {{ fr.VLT }} au groupe d'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall](https://webdevolutions.azureedge.net/docs/common/edit.png) 
 		</td>
 		<td>
 Modifier les paramètres du groupe d'utilisateurs. 
@@ -80,7 +80,7 @@ Modifier les paramètres du groupe d'utilisateurs.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonTrashSmall](https://webdevolutions.azureedge.net/docs/common/RibbonTrashSmall.png) 
+![!!delete](https://webdevolutions.azureedge.net/docs/common/delete.png) 
 		</td>
 		<td>
 Supprimer le groupe d'utilisateur. 

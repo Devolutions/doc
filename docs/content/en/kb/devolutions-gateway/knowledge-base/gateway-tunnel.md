@@ -27,7 +27,7 @@ Dynamic ports can be used with all three listener types. If the value is 0, it w
 The ***HTTP*** and ***SOCKS5*** listeners will also make use of the ***Allow Rules*** to specify authorized destinations, anything not on the allow list will be denied.
 
 ***Target filters*** can be specified using IP addresses or hostnames. Both can contain wildcards. Each ***Target filter*** must explicitly specify a destination port. Leaving the default port as '0' will result in an error when attempting to save the filter.  
-![Default](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB0163.png)
+![Default](https://webdevolutions.azureedge.net/docs/en/kb/KB0163.png)
 
 #### Examples of valid target filters
 | Target filter          | Description                                                                                 |

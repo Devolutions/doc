@@ -27,16 +27,16 @@ Here is a description for each field or option, in order from top to bottom. The
 
 ### General tab
 * ***Host***
-  * ***Default***: Default Bitwarden URL
-  * ***Custom***: Custom URL for Bitwarden
+    * ***Default***: Default Bitwarden URL
+    * ***Custom***: Custom URL for Bitwarden
 * ***Use "My Account Settings"***: Go to ***File*** – ***My Account Settings*** – ***Settings*** – ***Password Management*** and click on ***Bitwarden*** to set up this option first; replaces the ***Username*** and ***Password*** fields
 * ***Client ID***: The API key’s Client ID
 * ***Client secret***: The API key’s Client Secret
 * ***Master password***: Bitwarden's master password for that account
 * ***Always ask password***: Always be prompted for the master password when accessing this entry
 * ***Credentials***
-  * Click on the ellipsis button to pick a specific credential for this entry
-  * ***Always prompt with list***: Prompts the user with a list of all the available credentials instead of a specific one
+    * Click on the ellipsis button to pick a specific credential for this entry
+    * ***Always prompt with list***: Prompts the user with a list of all the available credentials instead of a specific one
 
 ## Synchronizer
 Here is a description for each field or option, in order from top to bottom. The entry can be found under ***New Entry*** – ***Synchronizer***:  
@@ -49,23 +49,23 @@ Here is a description for each field or option, in order from top to bottom. The
 
 ### General tab
 * ***Host***
-  * ***Default***: Default Bitwarden URL
-  * ***Custom***: Custom URL for Bitwarden
+    * ***Default***: Default Bitwarden URL
+    * ***Custom***: Custom URL for Bitwarden
 * ***Client ID***: Bitwarden's Client ID
 * ***Client secret***: Bitwarden's Client secret
 * ***Master password***: Bitwarden's master password
 * ***Destination folder***: Click the ellipsis button to set the folder path in the {{ en.RDM }} tree view (which can only be in the same {{ en.VLT }}).
 * ***Template***: Bitwarden template created within {{ en.RDM }}
 * ***Duplicate check*** will not import entries with the same type and host
-  * ***Root***: Check for duplicates within the whole data source
-  * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder
+    * ***Root***: Check for duplicates within the whole data source
+    * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder
 
 ### Filter
 ![Filter tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0070.png)  
 * ***Filter box***: It will load the Bitwarden {{ en.VLT }} to let the user pick the wanted Organizations/Collections for synchronization
 * ***Filter severity***
-  * ***Normal***: Accounts that are either in the selected folders or collections will be returned
-  * ***Strict***: Accounts that are both in the selected folders and collections will be returned
+    * ***Normal***: Accounts that are either in the selected folders or collections will be returned
+    * ***Strict***: Accounts that are both in the selected folders and collections will be returned
 * ***Create tags for Organizations/Collections***: If enabled, organization and collection tags from Bitwarden will be added to the {{ en.RDM }} entry
 
 ### Advanced
@@ -73,8 +73,8 @@ Here is a description for each field or option, in order from top to bottom. The
 * ***Session name prefix***: A prefix for the entry
 * ***Session name suffix***: A suffix for the entry
 * ***Action on entry mismatch***
-  * ***None***: Do nothing
-  * ***Delete***: Delete that entry
-  * ***Move to***: Move to selected ***Destination folder***
-  * ***Make expired***: Mark that entry as expired
+    * ***None***: Do nothing
+    * ***Delete***: Delete that entry
+    * ***Move to***: Move to selected ***Destination folder***
+    * ***Make expired***: Mark that entry as expired
 * ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals)

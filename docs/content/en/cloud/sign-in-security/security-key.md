@@ -29,7 +29,7 @@ The next time you connect to the {{ en.DA }}, hover your NFC security key to aut
 
 1. Connect to your {{ en.DA }} and click ***Security Key***. 
 1. Click the trash can icon to remove the security key from the account.  
-![Uninstall Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud4081.png) 
+![Uninstall Security Key](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4081.png) 
 1. Accept the uninstallation.  
 
 The security key has been removed. 
@@ -41,11 +41,11 @@ Windows Hello must be activated and configured on your computer for the window t
 
 1.	Open {{ en.DPORTAL }}.
 1.	Click ***Security Key*** on the left menu.
-![Click Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud4076.png) 
+![Click Security Key](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4076.png) 
 1. Click ***Add a security key***.
-![Add a Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud2003.png) 
+![Add a Security Key](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud2003.png) 
 1. In the Windows Security window, enter the PIN.  
-![Add a Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud2006.png) 
+![Add a Security Key](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud2006.png) 
 1. Rename the ***Security Key*** by clicking on ***Rename*** and ***Save***.
-![Name Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud2004.png) 
-![Save Security Key](https://webdevolutions.blob.core.windows.net/docs/en/cloud/Cloud2005.png) 
+![Name Security Key](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud2004.png) 
+![Save Security Key](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud2005.png) 

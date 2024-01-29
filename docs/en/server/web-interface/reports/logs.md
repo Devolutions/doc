@@ -7,13 +7,13 @@ The ***Logs*** section provides tools to view ***Activity***, ***Data Sources***
 
 You can refine your search with the filters for each report and click the ***Export*** button of each section to create a CSV report.  
 
-![Logs](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6083.png) 
+![Logs](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6083.png) 
 ### Activity Logs 
 The ***Activity Logs*** report displays specific {{ en.VLT }} actions on the activity of selected users or of all of your users. Activity ***Message*** are listed in a drop down menu to choose from and refine your search.  
 
 Click the ***Log Entry*** button to view more information about the activity.  
 
-![Activity Logs](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6086.png) 
+![Activity Logs](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6086.png) 
 ### Data Sources Logs 
 The ***Data Sources Logs*** displays the logs of the {{ en.DVLS }} data source. For more information on a specific log, click the arrow at the beginning of the line.  
 
@@ -41,6 +41,6 @@ From the list you can also move the entries shown to another {{ en.VLT }}. For t
 
 The ***User Behavior Analytics*** allows you to track user behavior. Detect multiple failed login attempts and connections from a country or location that deviates from established patterns. View when emergency access is used and when login requests are made through the Tor Browser.
 
-![User Behavior Analytics](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6085.png)
+![User Behavior Analytics](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6085.png)
 
 

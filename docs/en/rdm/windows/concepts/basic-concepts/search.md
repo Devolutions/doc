@@ -3,7 +3,7 @@ eleventyComputed:
   title: Search
   description: The Search lets the user quickly find what they need (entries, documentation, etc.).
 ---
-The ***Search*** lets the user quickly find what they need (entries, documentation, etc.). You can use the ***Advanced Search*** and apply filters to make the search as precise as it needs to be. It is also possible to search in the current [{{ en.VLT }}](/rdm/windows/concepts/basic-concepts/vaults/), {{ en.UVLT }}, or all {{ en.VLT }}s using the ***Multi {{ en.VLT }} search***.
+***Search*** helps users quickly find what they need, like entries and documents. With the ***Advanced Search***, apply multiple filter conditions and export the results in various formats. Customize your search to limit to the current [{{ en.VLT }}](/rdm/windows/concepts/basic-concepts/vaults/), {{ en.UVLT }}, or all {{ en.VLT }}s using the ***Multi {{ en.VLT }} search*** functionality.
 
 ### Related topics  
 * [Search](/rdm/windows/commands/view/panels/search/)

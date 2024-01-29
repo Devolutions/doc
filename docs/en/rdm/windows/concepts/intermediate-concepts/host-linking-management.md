@@ -3,7 +3,7 @@ eleventyComputed:
   title: Host linking and host management
   description: Centralize data in a single host entry, allowing to open multiple types of connection without having to create them.
 ---
-Centralize data in a single host entry, allowing to open multiple types of connection such as RDP, SSH, and websites, without having to create them. Launch entries with [templates](/rdm/windows/concepts/intermediate-concepts/templates/), meaning less data entries to manage, which saves time.
+Core to {{ en.RDM }} is entry reusability. Define a single host to launch multiple connection types such as RDP, SSH, or PowerShell. Create [templates](/rdm/windows/concepts/intermediate-concepts/templates/) to save time on common connection scenarios. [Link credentials](/rdm/windows/commands/edit/entries/entry-credentials-options/) to hosts and avoid hardcoding usernames and passwords to ease password rotations.
 
 ### Related topics  
 

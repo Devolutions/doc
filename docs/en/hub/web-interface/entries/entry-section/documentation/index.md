@@ -16,8 +16,8 @@ The ***Documentation*** feature is encrypted only for {{ en.DVLS }}, {{ en.DHUBB
 ### Create documentation 
 
 1. Choose the entry and click ***Add Documentation***.
-![Add Documentation](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6036.png) 
+![Add Documentation](https://webdevolutions.azureedge.net/docs/en/hub/Hub6036.png) 
 1. Give the document a ***Title***. 
 1. Enter the text using ***Markdown*** or ***WYSIWYG*** text language.
-![Markdown and WYSIWYG](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6037.png) 
+![Markdown and WYSIWYG](https://webdevolutions.azureedge.net/docs/en/hub/Hub6037.png) 
 5. Click ***Add*** to save the documentation. 

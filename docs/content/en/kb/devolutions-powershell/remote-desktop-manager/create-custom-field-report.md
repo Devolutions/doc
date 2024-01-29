@@ -13,8 +13,8 @@ This topic will cover how to create a Custom Field Report to use various PowerSh
 1. In the ***General*** tab:
     * Set the ***Type*** to ***Custom Field Report***.
     * The ***Script source*** can either be;
-      * ***PowerShell***: Enter the script in the ***Script*** tab.
-      * ***Linked Entry***: Choose a PowerShell entry with the script in it, this would make it easier to use the same script for multiple entries.
+        * ***PowerShell***: Enter the script in the ***Script*** tab.
+        * ***Linked Entry***: Choose a PowerShell entry with the script in it, this would make it easier to use the same script for multiple entries.
     * Add ***Timeout (ms)*** (optional).
     * Add necessary ***Fields***.
    {% snippet icon.badgeInfo %}

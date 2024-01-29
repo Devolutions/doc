@@ -14,16 +14,16 @@ With the license stored in an [Advanced Data Source](/rdm/windows/data-sources/d
 1. To add a license serial, navigate to ***Administration – Licenses***.  
 ![Administration – Licenses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3417.png) 
 1. Click ***Add License***.  
-![User and Security Mangement – Add License](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6035.png) 
+![User and Security Mangement – Add License](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6035.png) 
 1. Enter the license or import the license file using the ***Import*** button.
    {% snippet icon.badgeInfo %}
    Importing the license using the **.lic** file is most uselful when offline. See the next section about offline registration for more information.
    {% endsnippet %}
 
-   ![License](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin2238.png) 
+   ![License](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2238.png) 
 1. Click ***Ok*** to save the license.
 1. Optional: The ***Auto assign*** option will be displayed when you enter the license. The box is already checked in order to provide the {{ en.RDM }} serial to all newly created users. A warning window will appear if you uncheck the box and click ***OK***.
-![Warning window](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6033.png) 
+![Warning window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6033.png) 
 
 Your license is now saved in the advanced data source. Follow [Assign Licenses](/rdm/windows/commands/administration/management/licenses/assign/) to automatically assign them to selected users, removing the need to interact locally with their {{ en.RDM }}. 
 

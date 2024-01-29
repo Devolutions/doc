@@ -273,4 +273,41 @@
     }
 
   }
+
+  .tabs {
+    nav {
+      box-shadow: inset 0px -2px 0 rgba(0, 0, 0, 0.18);
+      display: flex;
+
+      a {
+        align-items: center;
+        border-bottom: 2px solid transparent;
+        color: var(--background-text);
+        display: flex;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 8px 12px;
+        text-decoration: none;
+
+        &:hover {
+          color: var(--primary);
+        }
+
+        &[aria-selected] {
+          border-color: var(--primary);
+          color: var(--primary);
+        }
+
+        img {
+          height: 24px;
+          margin-right: 6px;
+          width: 24px;
+        }
+
+        + a {
+          margin-top: 0;
+        }
+      }
+    }
+  }
 }

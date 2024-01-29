@@ -9,7 +9,7 @@ The ***Administration*** tab allows to manage settings and users of a data sourc
 Most features contained in the ***Administration*** tab are only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). 
 {% endsnippet %}
  
-![Ribbon - Administration](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6198.png) 
+![Ribbon - Administration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6198.png) 
 
 ### Management 
  
