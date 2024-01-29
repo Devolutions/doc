@@ -1115,6 +1115,9 @@
                   "url": "/kb/remote-desktop-manager/knowledge-base/rdp-protocol-clarification-information/"
                 },
                 {
+                  "url": "/kb/remote-desktop-manager/knowledge-base/rdp-entry-display-properties/"
+                },
+                {
                   "url": "/kb/remote-desktop-manager/knowledge-base/rdp-reconnect-mode/"
                 },
                 {
@@ -1125,9 +1128,6 @@
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/restoring-rdp-file-association-mstsc/"
-                },
-                {
-                  "url": "/kb/remote-desktop-manager/knowledge-base/screen-sizing-mode/"
                 },
                 {
                   "url": "/kb/remote-desktop-manager/knowledge-base/security-providers-argon2-parameters/"

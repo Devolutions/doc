@@ -17,18 +17,18 @@ As part of a standard visit to a website using the HTTPS protocol, the certifica
 
 ## Endpoints list
 
-| Description                                  | URL                                                | Related setting(s) / action                                                  |
-| -------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------- |
-| {{ en.DC }} – our online services            | https<area>://cloud.devolutions.net                | ***File – {{ en.DA }}***                                                     |
-| {{ en.DA }} Login                            | https<area>://login.devolutions.com                | ***File – {{ en.DA }}***                                                     |
+| Description                                  | URL                                                | Related setting(s) / action                                            |
+| -------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------- |
+| {{ en.DC }} – our online services            | https<area>://cloud.devolutions.net                | ***File – {{ en.DA }}***                                               |
+| {{ en.DA }} Login                            | https<area>://login.devolutions.com                | ***File – {{ en.DA }}***                                               |
 | RDM update check                             | https<area>://devolutions.net                      | ***File – Options – Application – Application Startup – Enable check for updates*** |
 | Yubikey                                      | https<area>://api.yubico.com<br>https<area>://api2.yubico.com<br>https<area>://api3.yubico.com<br>https<area>://api4.yubico.com<br>https<area>://api5.yubico.com<br> | ***File – Options – Security – Require Yubikey authentication*** |
-| Gravatar                                     | https<area>://secure.gravatar.com                  | ***File – Options – Advanced – Disable all Gravatar images***                |
-| Gravatar fallback                            | https<area>://i2.wp.com                            | ***File – Options – Advanced – Disable all Gravatar images***                |
+| Gravatar                                     | https<area>://secure.gravatar.com                  | ***File – Options – Advanced – Disable all Gravatar images***          |
+| Gravatar fallback                            | https<area>://i2.wp.com                            | ***File – Options – Advanced – Disable all Gravatar images***          |
 | Have I Been Pwned                            | https<area>://api.pwnedpasswords.com               | ***File – Options – Advanced – Disable compromised password (pwned) check*** |
-| Telemetry                                    | https<area>://telemetry2.devolutions.net           | ***File – Options – Advanced – Disable telemetry***                          |
-| License validation                           | https<area>://api.devolutions.com/license/generate | ***Administration – Licenses***                                              |
-| {{ en.DSEND }}                               | https<area>://send.devolutions.com                 | Send passwords externally via email/link                                     |
-| User images                                  | https<area>://ui-avatars.com                       | Used when Gravatars are disabled                                             |
-| RDM update – package download                | https<area>://cdn.devolutions.net                  | User action in the upgrade available dialog                                  |
-| Devolutions Store – Upgrade/Buy {{ en.RDM }} | https<area>://store.devolutions.net                | User action in the License expiry dialog                                     |
+| Telemetry                                    | https<area>://telemetry2.devolutions.net           | ***File – Options – Advanced – Disable telemetry***                    |
+| License validation                           | https<area>://api.devolutions.com/license/generate | ***Administration – Licenses*** |
+| {{ en.DSEND }}                               | https<area>://send.devolutions.com                 | Send passwords externally via email/link                               |
+| User images                                  | https<area>://ui-avatars.com                       | Used when Gravatars are disabled                                       |
+| RDM update – package download                | https<area>://cdn.devolutions.net                  | User action in the upgrade available dialog                            |
+| Devolutions Store – Upgrade/Buy {{ en.RDM }} | https<area>://store.devolutions.net                | User action in the License expiry dialog                               |
