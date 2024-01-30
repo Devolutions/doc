@@ -27,3 +27,17 @@ During the setup, you can always tap on ***Skip This Step*** to configure that s
 1. Optionally, enable the use of a ***Biometric lock*** (Touch/Face ID). It is a recommended practice. Your device will prompt you to authenticate using this method. It must first be configured on your device to work with {{ en.WS }}.  
 ![Security settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2214.png)
 1. Tap ***Done*** to finish the initial setup.
+
+## Add an additional space 
+
+Follow the steps below to add an additional {{ en.DHUBB }} in {{ en.WMAPP }}.
+
+1. Select ***Additional Space***.
+![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6104.png)  
+1. Choose ***{{ en.DHUBB }}***.
+1. Click ***Next***.
+![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6105.png) 
+1. Enter your ***{{ en.DHUBB }} URL***.
+1. Choose your authentication method.  
+![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6107.png)  
+Your {{ en.DHUBB }} account is now available in {{ en.WMAPP }}.

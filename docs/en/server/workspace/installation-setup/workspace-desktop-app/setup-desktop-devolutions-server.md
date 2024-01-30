@@ -24,3 +24,16 @@ During the setup, you can always click on ***Skip This Step*** to configure that
     * ***Biometric lock***: Your device will prompt you to authenticate using this method. It must first be configured on your device to work with {{ en.WS }}.
     * ***Master password***: {{ en.WS }} will ask you to create a password of at least 8 characters.
 1. Click ***Done*** to finish the initial setup.
+
+## Add an additional space 
+
+Follow the steps below to add an additional {{ en.DVLS }} in {{ en.WDAPP }}.
+
+1. Select ***Additional Space***.
+![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6108.png)  
+1. Choose {{ en.DVLS }}.
+1. Click ***Next***.
+1. Enter your ***{{ en.DVLS }} URL***.
+1. Choose your authentication method.  
+![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6107.png)  
+Your {{ en.DVLS }} account is now available in {{ en.WDAPP }}.

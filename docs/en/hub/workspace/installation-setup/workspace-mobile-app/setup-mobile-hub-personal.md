@@ -27,4 +27,16 @@ During the setup, you can always tap on ***Skip This Step*** to configure that s
 ![Security settings](https://webdevolutions.azureedge.net/docs/en/hub/Hub2214.png) 
 1. Tap ***Done*** to finish the initial setup.
 
+## Add an additional space 
 
+Follow the steps below to add an additional {{ en.DHUBP }} in {{ en.WMAPP }}.
+
+1. Select ***Additional Space***.
+![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6104.png)  
+1. Choose ***{{ en.DHUBP }}***.
+1. Click ***Next***.
+![Choose ***{{ en.DHUBB }}***](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6106.png) 
+1. Enter your ***{{ en.DHUBP }} URL***.
+1. Choose your authentication method.  
+![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6107.png)  
+Your {{ en.DHUBP }} account is now available in {{ en.WMAPP }}.

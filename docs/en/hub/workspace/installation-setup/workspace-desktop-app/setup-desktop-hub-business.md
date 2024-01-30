@@ -43,10 +43,10 @@ Follow the steps below to add an additional {{ en.DHUBB }} in {{ en.WDAPP }}.
 1. Click ***OK***.
 ![Enter your {{ en.DHUBB }} URL](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6102.png)  
 1. A login window opens.
-1. Connect with your {{ en.DHUBB }} account.
-1. Close the login window and go back to {{ en.DHUBB }}.  
+1. Log in to your {{ en.DHUBB }} account.
+1. Close the login window and go back to {{ en.WDAPP }}. 
 
-Your {{ en.DHUBB }} account is now connected in the {{ en.WDAPP }}.
-![Your {{ en.DHUBB }} account is now connected](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6101.png)
+Your {{ en.DHUBB }} account is now available in {{ en.WDAPP }}.
+![Your {{ en.DHUBB }} account is now available in {{ en.WDAPP }}](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6101.png)
 
 

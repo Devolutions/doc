@@ -13,7 +13,7 @@ eleventyComputed:
 | Language                                           | Select {{ en.WS }} language. |
 | Search settings                                    | Enable **Automatically search when typing in search fields** to display the **Delay** feature. Choose between **200, 400, 600**, and **800 milliseconds** to wait before applying a search. |
 | Clean App Data                                     | Clean all the data located in the temporary folder. |
-| Startup page                                       | Enable **Startup page** to show the ***Startup Page** at launch. |
+| Startup page                                       | Enable **Startup page** to show the ***Startup Page*** at launch. |
 | Theme                                              | Choose the theme between **Light, Dark,** and **System**. |
 
 ## Security Settings

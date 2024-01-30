@@ -25,20 +25,13 @@ During the setup, you can always tap on ***Skip This Step*** to configure that s
 ![Security settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2079.png)
 1. Tap ***Done*** to finish the initial setup.
 
-## Interface 
-
-![Interface](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6102.png)
-
-| OPTION       | DESCRIPTION |
-|--------------|-------------|
-| **Dashboard**    | Select to open the ***Dashboard***. View ***entries, expired entries, expiring entries, recent activities, entry types,*** and ***password ages***. |
-| **Messages**     | Read, reply, delete, mark all messages as read, and add attachments (e.g., credentials, images, files) in {{ en.DVLS }}.
-| **All entries**  | View all {{ en.VLT }} entries in alphabetical order. |
-| **{{ en.VLT_MAJ }}** | Click ***{{ en.VLT }}*** to to refresh or go back to the current page. |
-| **Account**      | Display the current user, and let you add another account. |
-
 ## Add an additional space 
+
+Follow the steps below to add an additional {{ en.DVLS }} in {{ en.WMAPP }}.
 
 1. Select ***Additional Space***.
 1. Choose {{ en.DVLS }}.
 1. Scan a ***QR code*** or enter an ***URL***.
+1. Choose your authentication method.  
+![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6107.png)  
+Your {{ en.DVLS }} account is now available in the {{ en.WMAPP }}.
