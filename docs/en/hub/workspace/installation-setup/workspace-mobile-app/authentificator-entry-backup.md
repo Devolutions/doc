@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Create an Authentificator entry backup with {{ en.DHUBB }}
+  title: Create an Authentificator entry backup with {{ en.DHUBP }}
   description: To enable the Cloud backup, select Authenticator under Active Spaces.
 ---
 
