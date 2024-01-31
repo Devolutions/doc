@@ -8,7 +8,7 @@ In that optic, here is a little guide to help you install {{ en.RDMLINUX }} on y
 
 First of all, dependencies:  
 
-* glibc 2.27
+* glibc 2.29
 * libwebkit2gtk-4.0
 * ca-certificates
 * libsecret-1-0
