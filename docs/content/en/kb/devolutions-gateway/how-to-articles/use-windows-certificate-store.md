@@ -39,3 +39,32 @@ If using the `External` method via `TlsCertificateSource`, then {{ en.DGW }} onl
 {% endsnippet %}
 
 ### Converting an X.509 certificate
+{{ en.DGW }} requires a private key with the TLS certificate; therefore, you may need to combine the public key with its private key. Here are two methods: [{{ en.RDM }}](#using-remote-desktop-manager) and the built-in [Windows utility `certutil`](#using-the-windows-certutil-utility).
+
+#### Using {{ en.RDM }}
+The ***X.509 Certificate*** entry can be used to import said certificate and export it in several different formats, including PFX.
+1. In {{ en.RDM }} click on ***New Entry*** – ***Credential Management*** – ***General*** – ***X.509 Certificate***.
+1. Select the certificate and click ***Open***.
+1. Click ***Next***.
+1. Click on the ellipsis and select the ***Private key***, then click on ***Open***.
+   {% snippet icon.badgeInfo %}
+   The ***Private key*** must be in the `.key` extension.
+   {% endsnippet %}
+1. Click ***Finish***.
+1. Fill in the information, then click ***Add***.
+1. Select the entry and click ***Save Certificate As***.
+1. In the ***Export Format*** field choose ***Personal Information Exchange (pfx)***.
+1. Choose where the file will be saved by clicking on the ellipsis.
+1. Enter a strong password, then click ***Export***.
+
+#### Using the Windows certutil utility
+Use the `certutil` utility to combine a certificate (`.crt` or `.cer`) file and its private key (`.key`).
+`certutil -MergePFX file.crt file.pfx`
+
+### Importing the certificate
+
+
+## Configuring Windows certificate store via gateway.json
+
+
+## Configuring Windows certificate store via PowerShell
