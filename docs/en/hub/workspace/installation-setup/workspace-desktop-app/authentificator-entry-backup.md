@@ -17,8 +17,8 @@ Cloud backup settings are available to backup all entries using an ***Authentica
 1. Click ***Enable*** to enable cloud sync with {{ en.DHUBP }}.
 ![Enable cloud sync with {{ en.DHUBP }}](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6093.png)  
 1. Select ***Entries*** in the menu.
-1. A OPT entry has been created. All entries are backup.  
-![A OPT entry has been created. All entries are backup.](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6097.png)
+1. A OPT entry has been created. All entries are saved.  
+![A OPT entry has been created. All entries are saved.](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6097.png)
 
 ### Security
 
