@@ -8,6 +8,11 @@ eleventyComputed:
 
 {% snippet icon.badgeInfo %}
 Every {{ en.DHUBB }} license comes with a free {{ en.DGW }} license that supports up to 5 concurrent sessions.
+{% endsnippet %}
+
+{% snippet icon.badgeCaution %}
+If your clients fail to connect with {{ en.DGW }}, ensure the certificate contains the entire chain. This certificate chain includes any intermediate certificates. For example:
+Root Certificate Authority – Secure Certificate Authority – Purchased XYZ Certificate
 {% endsnippet %}  
 
 Click on one of the browsers links below to read more about the different installation methods:  
