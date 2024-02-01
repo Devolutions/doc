@@ -10,7 +10,12 @@ eleventyComputed:
 This topic describes how to configure {{ en.DVLS }} to connect with {{ en.DGW }}. There are two ways to install a {{ en.DGW }}: the [***Side-by-side Installation***](#side-by-side-installation) and the [***Standalone Installation***](#standalone-installation).
 {% snippet icon.badgeInfo %}
 Many gateways can be used by {{ en.DVLS }}, but only one {{ en.DGW }} can be installed on a machine.
-{% endsnippet %}  
+{% endsnippet %}
+
+{% snippet icon.badgeCaution %}
+If your clients fail to connect with {{ en.DGW }}, ensure the certificate contains the entire chain. This certificate chain includes any intermediate certificates. For example:
+Root Certificate Authority – Secure Certificate Authority – Purchased XYZ Certificate
+{% endsnippet %}
 
 ## Differences between Side-by-side and Standalone installation
 The ***Side-by-side Installation*** will be used if you need to install {{ en.DGW }} on the same machine where {{ en.DVLS }} is hosted. It is a simplified installation process that will automatically configure the new {{ en.DGW }} with information from the {{ en.DVLS }} instance (access URI and public key).
