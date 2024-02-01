@@ -62,7 +62,7 @@ Use the `certutil` utility to combine a certificate (`.crt` or `.cer`) file and 
 `certutil -MergePFX file.crt file.pfx`
 
 ### Importing the certificate
-After acquiring the certificate and/or certificate private key file, import it into Windows.
+After acquiring the certificate and certificate private key file, import it into Windows.
 1. Install the certificate:
   * If Windows auto-detects the certificate, double-click it and choose ***Install Certificate...***; or
   * Open `certmgr.msc` to the intended store location (`LocalMachine` or `CurrentUser`), right-click on the wanted location (ex: ***Personal/Certificates***) and choose ***All Tasks*** – ***Import***.
