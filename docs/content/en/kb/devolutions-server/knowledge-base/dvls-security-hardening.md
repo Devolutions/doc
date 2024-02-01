@@ -26,7 +26,7 @@ The default MSSQL “sa” administrative account is a high privilege account th
 
 The first decision is to use either domain accounts for operating the platform or to use local SQL accounts paired with local service accounts. Since this decision is a matter of personal preference, we support both models. See each one of them and what they entail in [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) and learn how to configure them in [Advanced Credentials](/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-credentials/).
 
-In order for integrated security to be used to connect to the database, you must set the ***Application Pool*** to use a domain account to run under. Follow the steps in [Configure {{ en.DVLS }} to Use Integrated Security](/kb/devolutions-server/how-to-articles/configure-server-use-domain-sso/).
+In order for domain single sign-on (SSO) to be used to connect to the database, you must set the ***Application Pool*** to use a domain account to run under. Follow the steps in [Configure {{ en.DVLS }} to use domain single sign-on (SSO)](/kb/devolutions-server/how-to-articles/configure-server-use-domain-sso/).
 
 ## Ports and Secure Communication
 While {{ en.DVLS }} in itself does not dictate which ports to use for any of the resources that it accesses, we still recommend the network segregation security practice. You must consult with your system administrator to ascertain which adjustments need to be made in order for the system to inter-operate with your infrastructure. See [Ports and Firewalls](/kb/devolutions-server/knowledge-base/ports-firewalls/).

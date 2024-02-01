@@ -35,7 +35,7 @@ Toutes les opérations effectuées via la ***{{ fr.DVLSCONSOLE }}*** seront fait
 
 Le compte d'utilisateur utilisé pour créer la base de données doit disposer des privilèges sysadmin dans l'instance SQL Server. Consultez [Base de données](/fr/server/management/devolutions-server-console/devolutions-server-settings/database/) pour plus d'informations.  
 
-Pour utiliser la Sécurité intégrée pour se connecter à la base de données, il est important de modifier l'identité du regroupement d'applications dans le gestionnaire IIS et de définir les permissions appropriées du compte de service sur la base de données SQL. Veuillez consulter [Comment configurer {{ fr.DVLS }} pour utiliser la sécurité intégrée](/kb/devolutions-server/how-to-articles/configure-server-use-domain-sso/).  
+Pour utiliser l'authentification unique pour se connecter à la base de données, il est important de modifier l'identité du regroupement d'applications dans le gestionnaire IIS et de définir les permissions appropriées du compte de service sur la base de données SQL. Veuillez consulter [Comment configurer {{ fr.DVLS }} pour utiliser l'authentification unique (SSO) du domaine](/kb/devolutions-server/how-to-articles/configure-server-use-domain-sso/).  
 ![Assistant de déploiement {{ fr.DVLS }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8054.png) 
 
 7. Dans la section ***Général***, saisir un ***Nom*** et une ***Description***. Sous ***Série***, saisir une clé de licence reçue dans le courriel après l'achat. Si vous n'avez pas acheté de licence de {{ fr.DVLS }}, vous pouvez demander une [période gratuite d'essai de 30 jours](https://server.devolutions.net/fr/trial).  
