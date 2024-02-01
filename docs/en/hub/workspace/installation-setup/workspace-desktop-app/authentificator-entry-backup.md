@@ -4,7 +4,7 @@ eleventyComputed:
   description: To enable the Cloud backup, select Authenticator under Active Spaces.
 ---
 
-Cloud backup settings are available to backup all entries using an ***Authenticator entry backup***.
+Cloud backup settings are available to backup all entries using an ***Authenticator entry backup*** with {{ en.DHUBP }}. 
 
 1. Open {{ en.WDAPP }} and go to ***Startup***.
 1. Select ***Authenticator*** under ***Quick access***.
