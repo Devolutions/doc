@@ -1,8 +1,13 @@
 ---
 eleventyComputed:
   title: Use Windows certificate store for {{ en.DGW }}
-  description: 
+  description: It is possible to use the Windows certificate store as a TLS certificate source. Instead of using a file, store and manage your certificates with Windows.
 ---
+{% snippet icon.badgeCaution %}
+If your clients fail to connect with {{ en.DGW }}, ensure the certificate contains the entire chain. This certificate chain includes any intermediate certificates. For example:
+Root Certificate Authority – Secure Certificate Authority – Purchased XYZ Certificate
+{% endsnippet %}
+
 It is possible to use the Windows certificate store as a TLS certificate source. Instead of using a file, store and manage your certificates with Windows. As of the time of writing, this functionality is not exposed in the {{ en.DGW }} configuration console GUI. To configure, you must either directly modify the gateway.json file or use the {{ en.PS }} module.
 
 With the new functionality, a [few additional parameters](https://github.com/Devolutions/devolutions-gateway#configuration) are available to configure the source of the certificate.
