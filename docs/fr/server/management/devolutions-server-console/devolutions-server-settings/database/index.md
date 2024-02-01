@@ -108,7 +108,7 @@ Description
 Type d'authentification 
 		</td>
 		<td>
-Sélectionner entre Authentification Windows ou Authentification SQL Server pour l'authentification a la base de données. Pour que l'[Authentification Windows](/kb/devolutions-server/how-to-articles/configure-server-use-integrated-security/) soit utilisée pour se connecter à la base de données, vous devez définir un compte de domaine comme identité du Pool d'application dans le gestionnaire IIS. 
+Sélectionner entre Authentification Windows ou Authentification SQL Server pour l'authentification a la base de données. Pour que l'[Authentification Windows](/kb/devolutions-server/how-to-articles/configure-server-use-domain-sso/) soit utilisée pour se connecter à la base de données, vous devez définir un compte de domaine comme identité du Pool d'application dans le gestionnaire IIS. 
 		</td>
 	</tr>
 	<tr>
