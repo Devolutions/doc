@@ -12,11 +12,12 @@ First of all, dependencies:
 * libwebkit2gtk-4.0
 * ca-certificates
 * libsecret-1-0
-* gnome-keyring  
+* gnome-keyring
+* libvte-2.91  
 
-If you are installing {{ en.RDMLINUX }} on a distro supportingdeb files, you are done. Simply install the deb package and everything should be good to go. You can start {{ en.RDM }} using the menu icon or the remotedesktopmanager terminal command.  
+If you are installing {{ en.RDMLINUX }} on a distro supporting deb files, you are done. Simply install the deb package and everything should be good to go. You can start {{ en.RDM }} using the menu icon or the remotedesktopmanager terminal command.  
 
-You can also opt to install the net.devolutions.RDM or net.devolutions.RDMFree flatpak package from flathub.  
+You can also opt to install the net.devolutions.RDM flatpak package from flathub.  
 
 Otherwise, you can manually install {{ en.RDMLINUX }} using the following steps:  
 
@@ -25,10 +26,4 @@ Otherwise, you can manually install {{ en.RDMLINUX }} using the following steps:
 * Copy bin/remotedesktopmananger to /bin
 * Copy usr/lib/devolutions/RemoteDesktopManager to /usr/lib/devolutions/RemoteDesktopManager  
 
-You can now start {{ en.RDM }} using the remotedesktopmanager terminal command.  
-
-{% snippet icon.badgeCaution %}
-Known issues: On platform running non-gnome desktop environment, the splash screen might prevent entering your serial when launching {{ en.RDM }} for the first time.  
-
-As a workaround, press the ***Cancel*** button to close the dialog, that should make the splash screen disappear. You can then use the ***Help*** menu tab to access the registration form again.
-{% endsnippet %}
+You can now start {{ en.RDM }} using the remotedesktopmanager terminal command.
