@@ -37,6 +37,6 @@ Follow the steps below to add an additional {{ en.DHUBP }} in {{ en.WMAPP }}.
 1. Click ***Next***.
 ![Choose ***{{ en.DHUBB }}***](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6106.png) 
 1. Enter your ***{{ en.DHUBP }} URL***.
-1. Choose your authentication method.  
-![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6107.png)  
+1. Choose your authentication method.    
+
 Your {{ en.DHUBP }} account is now available in {{ en.WMAPP }}.
