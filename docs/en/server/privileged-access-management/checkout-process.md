@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
   title: Checkout process
-  description: This topic covers both the PAM checkout process and the PAM checkout using a custom time frame.
+  description: Use the PAM checkout process and the PAM checkout with a custom time frame.
 ---
 {% snippet icon.badgeNotice %} 
 A license is required to enable the Privileged Access Management (PAM) module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license. 
 {% endsnippet %}  
 
-This topic will cover both the [PAM checkout process](#checkout) and the [PAM checkout using a custom time frame](#checkout-with-custom-time). The latter option is especially useful for planned maintenance outside of normal work hours, when approvers are not available.
+This topic will cover both the [PAM checkout process](#checkout) and the [PAM checkout using a custom time frame](#checkout-with-custom-time). The latter option is especially useful for planned maintenance outside of normal work hours when approvers are not available.
 
 {% youtube 'drRLA7U8YsQ?si=ihVhTcJOKxAh5kKS&amp;start=91' %}
 
@@ -16,12 +16,18 @@ This topic will cover both the [PAM checkout process](#checkout) and the [PAM ch
 1. Go to the ***Privileged Access*** tab and select the desired {{ en.VLT }}.
 1. Click on an entry and then click ***Check Out***.  
 ![Check Out](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0036.png)
-1. Set the desired time of the ***Check-out Request*** by either selecting from the ***Access duration*** dropdown or by manually setting a custom time with the ***Hours*** and ***minutes*** fields.  
-![Check-out Request](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0034.png)
+1. Select whom you want to send the request to.
+
+{% snippet icon.badgeInfo %}
+Selecting ***All Approvers*** speeds up the process by allowing the first available approver to confirm the request.
+{% endsnippet %}  
+
+5. Set the desired time of the ***Check-out Request*** by either selecting from the ***Access duration*** dropdown or by manually setting a custom time with the ***Hours*** and ***minutes*** fields.  
    {% snippet icon.badgeInfo %}
    The minimum checkout time is 10 minutes.
    {% endsnippet %}  
-1. Click the ***Check Out*** button to confirm and close this dialog box.
+1. Click the ***Request Check Out*** button to confirm and close this dialog box.
+![Check-out Request](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6112.png)
 
 ## Checkout with custom time
 {% snippet icon.badgeInfo %}
