@@ -22,7 +22,7 @@ eleventyImport:
       {%- if item.hasData -%}
         <div class="nav-item-sub-container">
           <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }} {{ 'current' if page.url === item.url }}" href="{{ item.url }}" {{ ['data-dwd-tab data-dwd-tab-group=sidebar data-dwd-tab-target=', item.url] | join if item.children.length > 0 }}>
-            {{- item.title -}}
+            {{- item.title | safe -}}
           </a>
           {%- if item.children.length > 0 -%}
           <div class="expand-more" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="{{ item.url }}">
@@ -37,7 +37,7 @@ eleventyImport:
           {% if item.redirect or firstChildrenUrl != item.url %}
           <div class="nav-item-sub-container">
             <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" href="{{ item.redirect if item.redirect else firstChildrenUrl }}" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="{{ item.url }}">
-              {{- item.title -}}
+              {{- item.title | safe -}}
             </a>
             <div class="expand-more" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="{{ item.url }}">
               {{- icons['arrowRight'] | safe -}}
@@ -46,7 +46,7 @@ eleventyImport:
           {% else %}
           <div class="nav-item-sub-container">
             <button class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="{{ item.url }}">
-              {{- item.title -}}
+              {{- item.title | safe -}}
             </button>
             <div class="expand-more" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="{{ item.url }}">
               {{- icons['arrowRight'] | safe -}}
