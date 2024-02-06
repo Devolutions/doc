@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  svg {
+    @apply fill-current;
+  }
+}
+
+@layer components {
+  .dvl-logo {
+    @apply flex flex-col text-[16px] tracking-[-0.51px] leading-[12.8px];
+  }
+
+  .dvl-logo.dvl-logo-18 {
+    @apply text-[18px] tracking-[-0.58px] leading-[14.4px];
+  }
+
+  .dvl-logo.dvl-logo-72 {
+    @apply text-[25px] tracking-[-0.8px] leading-[20px];
+  }
+}

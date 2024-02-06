@@ -1,33 +1,48 @@
-<div class="dwd-header-container">
-  <div class="dwd-header">
-    <div class="dwd-header-wrapper">
-      <div class="dwd-header-left">
-        <div class="burger-menu-logo" data-dwd-modal data-dwd-modal-group="mobile-menu" data-dwd-modal-target="all" >{{- icons.menu -}}</div>
-        <a class="dwd-header-item" href="https://devolutions.net{{- lang | localized -}}/" aria-label="Devolutions">
-          {{- icons.logoDevolutionsText -}}
-        </a>
+<header class="h-13 lg:h-18 bg-black">
+  <div class="grid grid-flow-col lg:grid-cols-layout gap-x-4 h-13 lg:h-18 bg-black text-white/90 text-sm lg:text-base fixed w-full z-50">
+    <nav class="flex items-center pl-5 gap-4">
+      <a href="https://devolutions.net{{- lang | localized -}}/" target="_blank" class="hover:text-white svg:size-8 lg:svg:size-10" aria-label="Devolutions">
+        {{ icons.logoDevolutions }}
+      </a>
+      <hr class="w-px h-6 lg:h-8 bg-white/30 border-none" />
+      <a href="{{- lang | localized -}}/" class="dvl-logo lg:dvl-logo-18 hover:text-white">
+        <b>Devolutions</b> Documentation
+      </a>
+    </nav>
 
-      </div>
-      <div class="dwd-header-right">
-        {%- if hideSearch != true -%}
-          <button class="dwd-search-button">
-            {{ icons.search }}
-            <span>
-              {{ locale[lang].placeholderSearch }}
-            </span>
-          </button>
-          <button class="dwd-search-button-icon">
-            {{ icons.search }}
-          </button>
-        {%- endif -%}
-        <div class="dwd-header-submenu-container">
-          <button class="dwd-header-item" aria-label="Open language selection" data-dwd-modal data-dwd-modal-target="Open language selection" data-dwd-modal-group="dwd-header">
-            {{- lang -}}
-          </button>
-          <div class="dwd-header-submenu" data-dwd-modal-target="Open language selection" data-dwd-modal-group="dwd-header">
+    <nav class="hidden lg:flex items-center justify-center gap-x-8">
+      <a href="{{- lang | localized -}}/kb/" class="hover:text-white">
+        {{ locale[lang].label.knowledgeBase | if: locale[lang].label.knowledgeBase, locale.en.label.knowledgeBase }}
+      </a>
+      <a href="https://forum.devolutions.net" target="_blank" class="hover:text-white">
+        Forum
+      </a>
+      <a href="{{ locale[lang].url.blog | if: locale[lang].url.blog, locale.en.url.blog }}" target="_blank" class="hover:text-white">
+        {{ locale[lang].label.blog | if: locale[lang].label.blog, locale.en.label.blog }}
+      </a>
+    </nav>
+
+    <nav class="flex items-center gap-4 justify-end pr-5">
+      {%- if hideSearch != true -%}
+        <button data-search class="hidden lg:flex items-center text-sm gap-2 max-w-64 bg-neutral-900 py-2 px-2.5 rounded-md text-white/60 hover:text-white/85">
+          {{ icons.search }}
+          <span class="overflow-hidden overflow-ellipsis whitespace-nowrap">
+            {{ locale[lang].placeholderSearch }}
+          </span>
+        </button>
+        <button data-search class="flex lg:hidden items-center text-white/85 p-1.5 hover:text-white/100">
+          {{ icons.search }}
+        </button>
+      {%- endif -%}
+      <div class="relative flex h-full">
+        <button class="px-1.5 uppercase hover:text-white" aria-label="Open language selection" data-dwd-dropdown data-dwd-dropdown-target="Open language selection" data-dwd-dropdown-group="dwd-header">
+          {{- lang -}}
+        </button>
+        <div class="absolute z-50 bg-white text-black p-2.5 right-0 top-full shadow-xl" data-dwd-dropdown-target="Open language selection" data-dwd-dropdown-group="dwd-header" hidden>
+          <div class="flex flex-col">
             {%- for item in locale -%}
               {%- if item[0] != lang and page.url -%}
-                <a class="dwd-header-submenu-item" href="{{- page.url | localizedUrl: item[0], lang -}}">
+                <a class="p-2.5 m-1.5 text-sm hover:text-primary" href="{{- page.url | localizedUrl: item[0], lang -}}">
                   {{- item[0] -}}
                 </a>
               {%- endif -%}
@@ -35,6 +50,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   </div>
-</div>
+</header>

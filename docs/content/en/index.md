@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/home.njk'
+layout: 'layouts/home.liquid'
 title: Devolutions Product Documentation
 description: Need help? Here is the complete coverage for all Devolutions Products, Add-ons and Companion Tools.
 eleventyComputed:

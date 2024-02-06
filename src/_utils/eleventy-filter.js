@@ -42,7 +42,11 @@ module.exports = (config) => {
     slug = slug.startsWith('/') ? slug.substring(1) : slug;
     slug = slug.endsWith('/') ? slug.slice(0, -1) : slug;
 
-    return `/${lang === 'en' ? '' : `${lang}/`}${slug ? slug : filePathStem}/`;
+    if (filePathStem === 'index') {
+      return `/${lang === 'en' ? '' : `${lang}/`}`;
+    }
+
+    return `/${lang === 'en' ? '' : `${lang}/`}${slug ? slug : filePathStem }/`;
   });
 
   config.addFilter('getProjectFromFilePathStem', (filePathStem) => {
@@ -135,7 +139,7 @@ module.exports = (config) => {
       let result = await Terser.minify(code, { sourceMap: true });
       callback(null, result.code);
     } catch(e) {
-      console.log('Terser error: ', e);
+      console.error('Terser error: ', e);
     }
 
     callback(null, code);

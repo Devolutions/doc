@@ -1,0 +1,61 @@
+---
+layout: 'layouts/base.liquid'
+hideSearch: true
+---
+<div class="dwd-header-media">
+  <div class="dwd-header-media-content">
+    <div class="web-site-width">
+      <button class="dwd-search-button">
+        {{ icons.search }}
+        {{ locale[lang].placeholderSearchHome }}
+      </button>
+    </div>
+  </div>
+  <div class="dwd-photo-parallax bg-support"></div>
+</div>
+
+<div class="dwd-section">
+  <div class="web-site-width">
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+
+    <nav class="grid-list">
+      {%- for card in cards -%}
+        {% assign tag = "div" %}
+
+        {% if not card.links %}
+          {% capture tag %}a href="{{locale[lang].projects[card.name].url}}"{% endcapture %}
+        {% endif %}
+
+        <{{ tag }}>
+          {%- if locale[lang].projects[card.name].url -%}
+            <a href="{{ locale[lang].projects[card.name].url }}">
+          {%- endif -%}
+
+          <img src="{{ locale[lang].projects[card.name].logo }}">
+
+          {%- if locale[lang].projects[card.name].os -%}
+            <div class="grid-list-os">
+              {{ icons[locale[lang].projects[card.name].os] }}
+            </div>
+          {%- endif -%}
+
+          {%- if locale[lang].projects[card.name].url -%}
+            </a>
+          {%- endif -%}
+
+          {%- if card.links -%}
+            <nav>
+              {%- for link in card.links -%}
+                <a href="{{ link.url }}">
+                  {{ icons.pushPin }}
+                  {{ link.name }}
+                </a>
+              {%- endfor -%}
+            </nav>
+          {%- endif -%}
+        </{{ tag | split: ' ', | first }}>
+      {%- endfor -%}
+    </nav>
+  </div>
+</div>

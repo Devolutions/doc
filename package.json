@@ -11,11 +11,14 @@
     "@11ty/eleventy": "2.0.1",
     "@11ty/eleventy-fetch": "4.0.0",
     "algoliasearch": "^4.14.3",
+    "autoprefixer": "^10.4.17",
     "highlight.js": "11.7.0",
     "markdown-it": "13.0.1",
     "markdown-it-anchor": "8.6.7",
     "markdown-it-attrs": "4.1.6",
+    "postcss": "^8.4.34",
     "sass": "1.58.2",
+    "tailwindcss": "^3.4.1",
     "terser": "^5.24.0"
   },
   "devDependencies": {

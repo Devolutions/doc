@@ -1,0 +1,9 @@
+---
+permalink: /css/styles.css
+---
+
+{% capture css %}
+{% include "styles/tailwind.css" %}
+{% endcapture %}
+
+{{ css | postcss }}

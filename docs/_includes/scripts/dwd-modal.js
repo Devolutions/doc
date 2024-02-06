@@ -44,6 +44,56 @@ const dwdModal = {
   },
 };
 
+const dwdDropdown = {
+  init: function () {
+    const elements = document.querySelectorAll('[data-dwd-dropdown]');
+    document.addEventListener('click', dwdDropdown.closeAll.bind());
+
+    for (let element of elements) {
+      element.addEventListener(
+        'click',
+        dwdDropdown.dropdown.bind({
+          element: element,
+        })
+      );
+    }
+  },
+  closeAll: function (e) {
+    const hasAncestor = isAncestorFound(e.target, null, 'data-dwd-dropdown-group');
+    const hasGroup = e.target.hasAttribute('data-dwd-dropdown-group');
+
+    if (!hasAncestor && !hasGroup) {
+      const targets = document.querySelectorAll('[data-dwd-dropdown-group]');
+
+      for (let target of targets) {
+        if (!target.hasAttribute('data-dwd-dropdown')) {
+          target.setAttribute('hidden', '');
+        }
+      }
+    }
+  },
+  dropdown: function () {
+    const element = this.element;
+    const id = element.getAttribute('data-dwd-dropdown-target');
+    const group = element.getAttribute('data-dwd-dropdown-group');
+    const targets = document.querySelectorAll(
+      '[data-dwd-dropdown-group="' + group + '"]'
+    );
+
+    for (let target of targets) {
+      let targetId = target.getAttribute('data-dwd-dropdown-target');
+
+      if (!target.hasAttribute('data-dwd-dropdown')) {
+        if (targetId === id) {
+          target.removeAttribute('hidden');
+        } else {
+          target.setAttribute('hidden', '');
+        }
+      }
+    }
+  },
+};
+
 function isAncestorFound(el, cls, dataAttr) {
   dataAttr = dataAttr || null;
   if (dataAttr) {
@@ -63,5 +113,6 @@ function isAncestorFound(el, cls, dataAttr) {
 }
 
 (function () {
+  dwdDropdown.init();
   dwdModal.init();
 })();

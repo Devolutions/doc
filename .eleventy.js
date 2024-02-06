@@ -5,6 +5,9 @@ const eleventyShortcodes = require('./utils/eleventy-shortcodes');
 const eleventyColections = require('./utils/eleventy-collections');
 const markdown = require('./utils/markdown');
 const algoliaSearch = require('algoliasearch');
+const tailwind = require('tailwindcss');
+const postCss = require('postcss');
+const autoprefixer = require('autoprefixer');
 
 require('dotenv').config();
 
@@ -18,6 +21,21 @@ module.exports = function (config) {
 
   config.addPassthroughCopy({
     'src/_static': '.'
+  });
+
+  config.addLiquidFilter("postcss", async function(code) {
+    try {
+      const result = await postCss([
+        tailwind(require('./tailwind.config')),
+        autoprefixer()
+      ])
+      .process(code, { from: './src/_includes/styles/tailwind.css' });
+
+      return result.css;
+    } catch (error) {
+      console.error('PostCSS filter error:', error);
+      throw new Error(error);
+    }
   });
 
   config.amendLibrary('md', markdown);

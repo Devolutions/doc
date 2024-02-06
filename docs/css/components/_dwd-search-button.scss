@@ -1,8 +1,6 @@
 .dwd-search-button {
   align-items: center;
   background-color: #1e1e1e;
-  border: 1px solid #1e1e1e;
-  border-radius: 6px;
   color: rgba(255, 255, 255, .6);
   display: flex;
   font-size: 14px;
@@ -14,7 +12,6 @@
 
   &:hover {
     cursor: pointer;
-    border-color: rgba(255, 255, 255, .87);
     color: rgba(255, 255, 255, .87);
   }
 

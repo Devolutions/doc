@@ -61,8 +61,12 @@
   "placeholderSearch": "Rechercher dans toutes les ressources",
   "placeholderSearchHome": "Comment pouvons-nous vous aider?",
   "labelFeedbackButton": "Donnez-nous vos commentaires",
+  "url": {
+    "blog": "https://blog.devolutions.net/fr/"
+  },
   "label": {
     "configureAnSMTPServer": "Configurer un serveur SMTP",
+    "blog": "Blogue",
     "howToArticles": "Guides d'utilisation",
     "generalKnowledgeBase": "Base de connaissances générales",
     "gettingStarted": "Introduction",

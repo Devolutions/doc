@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/home.njk'
+layout: 'layouts/home.liquid'
 title: Documentation des produits Devolutions
 description: Vous avez besoin d'aide? Voici la liste des produits, modules et outils connexes de Devolutions.
 cards:
