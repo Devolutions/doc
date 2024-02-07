@@ -1,16 +1,16 @@
 ---
 eleventyComputed:
   title: Deploy the {{ en.WBEX }} in Google Chrome using GPOs
-  keywords:
-  - GPO
+  description: The settings deployed with the group policy object (GPO) are only enforced when the extension is used for the first time.
 ---
 {% snippet icon.badgeInfo %}
-IMPORTANT NOTE (for {{ en.WBEX }} versions prior to 2021.2.3.0)
+Important note for {{ en.WBEX }} **versions prior to 2021.2.3.0**.
 
 The settings deployed with the group policy object (GPO) are only enforced when the extension is used for the first time. This means that the settings will not be enforced and changed if you modify the settings in the GPO and the extension has already been used by a user at least once.
 {% endsnippet %}
 
 ## Configuring extensions by policy on Windows 10 for Chrome
+
 1. Open ***Group Policy Management*** (***Start – Run – GPMC.msc***).
 1. Right-click on the GPO list and select ***New***.
 1. In the ***New GPO*** window, create your new object then click on ***OK***.
@@ -20,7 +20,11 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 1. Set the ***Action*** parameter to Replace to modify the existing rule or to create it if it does not exist.
 1. Set the ***Hive*** parameter to **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER** according to your needs.
 1. Enter **SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\neimonjjffhehnojilepgfejkneaidmo\policy** in the ***Key Path*** text field.
-1. Enter ***Settings*** in the ***Value name*** text field.
+{% snippet icon.badgeInfo %}
+Enter **\SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\ddloeodolhdfbohkokiflfbacbfpjahp\policy** in the ***Key Path*** text field if you are using Microsoft Edge. 
+{% endsnippet %}
+
+10. Enter ***Settings*** in the ***Value name*** text field.
 1. Select REG_SZ in the ***Value type*** drop-down list.
 1. Write the JSON settings string in the ***Value data*** text field. See the [Values](#values) section below for an example.
 1. Click on ***OK***.  
