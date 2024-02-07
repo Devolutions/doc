@@ -41,6 +41,6 @@ Making a ***Check Out*** request in advance is only available in PAM {{ en.VLT }
 1. Select whom you want to send the request to. Choosing ***All Approvers*** speeds up the process by allowing the first available approver to confirm the request.
 1. Enable ***Set custom time frame***.
 1. Set the ***Start time*** and ***End time***. It is recommended to add a ***Comment*** to let the approver know why the ***Check Out*** is needed.
-1. Click on ***Check-out Request*** to send the request and close the window.
+1. Click on ***Request Check-out*** to send the request and close the window.
 
 ![Check-out Request](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6243.png)

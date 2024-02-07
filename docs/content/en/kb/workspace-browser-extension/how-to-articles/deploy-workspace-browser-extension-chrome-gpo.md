@@ -20,9 +20,9 @@ The settings deployed with the group policy object (GPO) are only enforced when 
 1. Set the ***Action*** parameter to Replace to modify the existing rule or to create it if it does not exist.
 1. Set the ***Hive*** parameter to **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER** according to your needs.
 1. Enter **SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\neimonjjffhehnojilepgfejkneaidmo\policy** in the ***Key Path*** text field.
-{% snippet icon.badgeInfo %}
-Enter **\SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\ddloeodolhdfbohkokiflfbacbfpjahp\policy** in the ***Key Path*** text field if you are using Microsoft Edge. 
-{% endsnippet %}
+   {% snippet icon.badgeInfo %}
+   Enter **\SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\ddloeodolhdfbohkokiflfbacbfpjahp\policy** in the ***Key Path*** text field if you are using Microsoft Edge. 
+   {% endsnippet %}
 
 10. Enter ***Settings*** in the ***Value name*** text field.
 1. Select REG_SZ in the ***Value type*** drop-down list.
@@ -156,7 +156,7 @@ Possible values:
 1. Enter ExtensionSettings in the ***Value name*** text field.
 1. Select REG_SZ in the ***Value type*** drop-down list.
 1. Enter the following JSON settings string in the Value data text field:
-```
+   ```
    {
      "neimonjjffhehnojilepgfejkneaidmo": {
        "installation_mode": "force_installed",
@@ -164,7 +164,7 @@ Possible values:
        "toolbar_pin": "force_pinned"
      }
    }
-```
+   ```
 1. Click on ***OK*** and update the GPO rules on your local machine.  
 ![!!KB8105](https://webdevolutions.azureedge.net/docs/en/kb/KB8105.png)
 
