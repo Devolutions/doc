@@ -37,9 +37,9 @@ Making a ***Check Out*** request in advance is only available in PAM {{ en.VLT }
 1. In the {{ en.RDMMAC }} ribbon, click on ***View*** and then ***PAM Dashboard***.
 1. Select a PAM {{ en.VLT }} from the dropdown.
 1. Right-click on an entry and click on ***Check Out***.
+1. Select whom you want to send the request to. Choosing ***All Approvers*** speeds up the process by allowing the first available approver to confirm the request.
 1. Enable ***Set custom time frame***.
-1. Set the ***Start time*** and ***End time***.
-   {% snippet icon.shieldInfo %}
-   It is recommended to add a ***Comment*** to let the approver know why the ***Check Out*** is needed.
-   {% endsnippet %}  
+1. Set the ***Start time*** and ***End time***. It is recommended to add a ***Comment*** to let the approver know why the ***Check Out*** is needed.
 1. Click on ***OK*** to send the request and close the window.
+
+![Check-out Request](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6061.png)
