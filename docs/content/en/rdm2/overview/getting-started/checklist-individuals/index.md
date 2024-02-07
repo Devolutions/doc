@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: Checklist for individuals
-  order: 20
+  order: 10
   description: Here is a checklist to help you get started with {{ en.RDM }} for individuals.
 ---
 {% tabs %}
 {% tabItem "Windows" %}
-Here is a checklist to help you get started with {{ en.RDM }} for individuals.
+Here is a checklist to help you get started with {{ en.RDM }} for individuals, but also for teams of three users or less that do not want to implement security.
 
 First [download](https://devolutions.net/remote-desktop-manager/home/download/) and install {{ en.RDM }} before proceeding.
 

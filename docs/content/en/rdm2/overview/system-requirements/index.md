@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: System requirements
+  order: 30
 ---
 {% tabs %}
 {% tabItem "Windows" %}

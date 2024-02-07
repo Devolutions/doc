@@ -1,6 +1,7 @@
 ---
 eleventyComputed:
   title: Security
+  order: 20
 ---
 {% tabs %}
 {% tabItem "Windows" %}

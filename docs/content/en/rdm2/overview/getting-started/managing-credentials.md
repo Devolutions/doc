@@ -2,6 +2,7 @@
 eleventyComputed:
   title: Managing credentials
   description: Depending on your organization's security policies, there are multiple ways of handling credentials.
+  order: 40
 ---
 {% tabs %}
 {% tabItem "Windows" %}

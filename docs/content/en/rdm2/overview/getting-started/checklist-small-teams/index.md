@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Checklist for small teams
-  order: 30
+  order: 20
   description: Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} for the first time when working in a small team of at most 15 users using SQL Server.
 ---
 {% tabs %}

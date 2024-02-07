@@ -1,12 +1,12 @@
 ---
 eleventyComputed:
   title: Checklist for enterprises
-  order: 40
+  order: 30
   description: Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} for the first time when working in an enterprise environment using a {{ en.DVLS }} or {{ en.DHUBB }} data source.
 ---
 {% tabs %}
 {% tabItem "Windows" %}
-Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} for the first time when working in an enterprise environment using a {{ en.DVLS }} or {{ en.DHUBB }} data source.  
+Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} for the first time when working in an enterprise environment using a {{ en.DVLS }} or {{ en.DHUBB }} data source.
 
 First [download](https://devolutions.net/remote-desktop-manager/home/download/) and install {{ en.RDM }} before proceeding.  
 

@@ -2,6 +2,7 @@
 eleventyComputed:
   title: The Devolutions platform
   description: Our platform offers multiple products to help managing all of the aspects of an IT infrastructure.
+  order: 40
 ---
 {% tabs %}
 {% tabItem "Windows" %}
