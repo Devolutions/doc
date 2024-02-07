@@ -55,7 +55,7 @@ layout: 'layouts/base.liquid'
       </div>
     </div>
 
-    <main class="markdown">
+    <main class="prose markdown">
       {{- content -}}
 
       <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?template=feedback.yml&title={{- '[Feedback]: ' | encodeURIComponent -}}&feedback={{- feedbackBody | encodeURIComponent -}}" target="_blank">

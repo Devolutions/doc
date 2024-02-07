@@ -20,4 +20,12 @@
   .dvl-logo.dvl-logo-72 {
     @apply text-[25px] tracking-[-0.8px] leading-[20px];
   }
+
+  .prose ul {
+    @apply list-outside list-disc pl-8
+  }
+
+  .prose ol {
+    @apply list-outside list-decimal pl-8
+  }
 }
