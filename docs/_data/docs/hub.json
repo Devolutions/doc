@@ -1,0 +1,13 @@
+{
+  "_schema": "doc",
+  "isTopic": true,
+  "icon": "https://webdevolutions.azureedge.net/images/projects/devolutions-hub/logos/devolutions-hub-icon-shadow.svg",
+  "logo": "https://webdevolutions.azureedge.net/images/projects/devolutions-hub/logos/devolutions-hub-color-shadow.svg",
+  "url": "/hub/overview/what-is-hub/",
+  "formattedName": "<b>Devolutions</b> Hub",
+  "sidebars": [
+    {
+      "autogenerate": { "directory": "hub" }
+    }
+  ]
+}

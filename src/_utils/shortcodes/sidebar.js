@@ -5,19 +5,21 @@ function sidebarItem(item, index, ctx, contents, page, icons) {
     item.items = rebuildTree(item.autogenerate, ctx, contents);
   }
 
-  const url = item.url ? ctx.lang !== 'en' ? `/${ctx.lang}${item.url}` : item.url : null;
+  if (!item.filePathStem) {
+    item.url = item.url ? ctx.lang !== 'en' ? `/${ctx.lang}${item.url}` : item.url : null;
+  }
 
-  if (!url && (!item.items || item.items?.length === 0)) {
+  if (!item.url && (!item.items || item.items?.length === 0)) {
     return;
   }
 
   const label = ctx.locale[ctx.lang].label[item.label] ? ctx.locale[ctx.lang].label[item.label] : item.label;
-  const itemData = item.filePathStem ? contents.find((content) => content.filePathStem === item.filePathStem) : null;
+  const itemData = item.filePathStem || item.url ? contents.find((content) => content.filePathStem === item.filePathStem || content.url === item.url) : null;
 
   return `<div class="nav-item-container">
-    <div class="nav-item-sub-container" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="${url ?? label}">
-      ${url ?
-        `<a class="nav-item level-${index}" href="${url}">
+    <div class="nav-item-sub-container" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="${itemData?.url ?? label}">
+      ${itemData?.url ?
+        `<a class="nav-item level-${index}" href="${itemData.url}">
           ${label ?? itemData?.data.title}
         </a>` :
         `<span class="nav-item level-${index}">
@@ -32,7 +34,7 @@ function sidebarItem(item, index, ctx, contents, page, icons) {
       }
     </div>
     ${item.items?.length > 0 ? (
-      `<div class="nav-item-items" data-dwd-tab-group="sidebar" data-dwd-tab-target="${url ?? label}">
+      `<div class="nav-item-items" data-dwd-tab-group="sidebar" data-dwd-tab-target="${itemData?.url ?? label}">
         ${item.items.map(subItem => sidebarItem(subItem, index + 1, ctx, contents, page, icons)).join('')}
       </div>`) :
       ''
