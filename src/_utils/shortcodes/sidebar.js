@@ -12,7 +12,7 @@ function sidebarItem(item, index, ctx, contents, page, icons) {
   }
 
   const label = ctx.locale[ctx.lang].label[item.label] ? ctx.locale[ctx.lang].label[item.label] : item.label;
-  const itemData = url ? contents.find((content) => content.url === url) : null;
+  const itemData = item.filePathStem ? contents.find((content) => content.filePathStem === item.filePathStem) : null;
 
   return `<div class="nav-item-container">
     <div class="nav-item-sub-container" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="${url ?? label}">
@@ -48,31 +48,38 @@ function rebuildTree({ directory }, { lang }, contents) {
   const nodeMap = { '': rootNode };
 
   contents.forEach(obj => {
-    let parts = obj.filePathStem.replace(filePathStem, '').split('/').filter(part => part && part !== 'index');
-
-    if (parts.length === 0) {
-      return;
-    }
+    let parts = obj.filePathStem.replace(filePathStem, '').split('/').filter(part => part);
 
     let currentPath = '';
+    let currentNode = rootNode;
 
-    parts.forEach((part, index) => {
-      let newPath = currentPath + (currentPath ? '/' : '') + part;
+    for (let i = 0; i < parts.length; i++) {
+      const isIndex = parts[i] === 'index';
+      const part = isIndex ? '' : parts[i];
+      let newPath = currentPath + (currentPath && part ? '/' : '') + part;
 
       if (!nodeMap[newPath]) {
-        const newNode = { url: obj.url, order: obj.data.order };
-
-        if (index < parts.length - 1) {
-          newNode.items = [];
+        if (isIndex) {
+          Object.assign(currentNode, { url: obj.url, filePathStem: obj.filePathStem, order: obj.data.order });
+        } else {
+          const newNode = { url: obj.url, filePathStem: obj.filePathStem, items: [], order: obj.data.order };
+          currentNode.items = currentNode.items || [];
+          currentNode.items.push(newNode);
+          nodeMap[newPath] = newNode;
+          currentNode = newNode;
         }
-
-        nodeMap[currentPath].items = nodeMap[currentPath].items || [];
-        nodeMap[currentPath].items.push(newNode);
-        nodeMap[newPath] = newNode;
+      } else {
+        if (isIndex) {
+          Object.assign(nodeMap[newPath], { url: obj.url, filePathStem: obj.filePathStem, order: obj.data.order });
+        } else {
+          currentNode = nodeMap[newPath];
+        }
       }
 
-      currentPath = newPath;
-    });
+      if (!isIndex) {
+        currentPath = newPath;
+      }
+    }
   });
 
   sortTree(rootNode);
@@ -81,7 +88,7 @@ function rebuildTree({ directory }, { lang }, contents) {
 }
 
 function sortTree(node) {
-  if (node.items) {
+  if (node.items && node.items.length > 0) {
     node.items.sort((a, b) => {
       if (a.order != null && b.order != null) {
         return a.order - b.order;
