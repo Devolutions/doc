@@ -3,16 +3,16 @@ layout: 'layouts/home.liquid'
 title: Documentation des produits Devolutions
 description: Vous avez besoin d'aide? Voici la liste des produits, modules et outils connexes de Devolutions.
 cards:
-  - name: rdm/windows
+  - name: rdm
     links:
-      - name: Qu'est-ce que Remote Desktop Manager (Windows)?
-        url: /fr/rdm/windows/overview/what-is-rdm/
+      - name: Qu'est-ce que Remote Desktop Manager?
+        url: /fr/rdm/overview/what-is-rdm/
       - name: Premiers pas
-        url: /fr/rdm/windows/getting-started/
+        url: /fr/rdm/getting-started/
       - name: Installation
-        url: /fr/rdm/windows/installation/client/
+        url: /fr/rdm/installation/client/
       - name: Gestion des accès privilégiés
-        url: /fr/rdm/windows/privileged-access-management/
+        url: /fr/rdm/privileged-access-management/
   - name: rdm/mac
     links:
       - name: Qu'est-ce que Remote Desktop Manager (macOS)?

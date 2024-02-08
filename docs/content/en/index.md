@@ -6,16 +6,16 @@ eleventyComputed:
   title: Product Documentation / Online help
   description: Need help? Here is the complete coverage for all Devolutions Products, Add-ons and Companion Tools.
 cards:
-  - name: rdm/windows
+  - name: rdm
     links:
-      - name: What is Remote Desktop Manager (Windows)?
-        url: /rdm/windows/overview/what-is-rdm/
+      - name: What is Remote Desktop Manager?
+        url: /rdm/overview/what-is-rdm/
       - name: Getting started
-        url: /rdm/windows/getting-started/
+        url: /rdm/getting-started/
       - name: Installation
-        url: /rdm/windows/installation/client/
+        url: /rdm/installation/client/
       - name: Privileged Access Management
-        url: /rdm/windows/privileged-access-management/
+        url: /rdm/privileged-access-management/
   - name: rdm/mac
     links:
       - name: What is Remote Desktop Manager (macOS)?

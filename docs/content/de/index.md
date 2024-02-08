@@ -3,14 +3,14 @@ layout: 'layouts/home.liquid'
 title: Devolutions Produkt Dokumentation
 description: Brauchen Sie Hilfe? Hier finden Sie hilfreiche Informationen für alle Devolutions Produkte, Add-Ons und Begleitwerkzeuge.
 cards:
-  - name: rdm/windows
+  - name: rdm
     links:
-      - name: Was ist Remote Desktop Manager (Windows)?
-        url: /de/rdm/windows/overview/what-is-rdm/
+      - name: Was ist Remote Desktop Manager?
+        url: /de/rdm/overview/what-is-rdm/
       - name: Erste Schritte
-        url: /de/rdm/windows/getting-started/
+        url: /de/rdm/getting-started/
       - name: Installation
-        url: /de/rdm/windows/installation/client/
+        url: /de/rdm/installation/client/
   - name: server
     links:
       - name: Was ist Devolutions Server?

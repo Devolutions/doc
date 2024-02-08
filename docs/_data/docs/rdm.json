@@ -1,0 +1,13 @@
+{
+  "_schema": "doc",
+  "isTopic": true,
+  "icon": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
+  "logo": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg",
+  "url": "/rdm/",
+  "formattedName": "<b>Remote Desktop</b> Manager",
+  "sidebars": [
+    {
+      "autogenerate": { "directory": "rdm" }
+    }
+  ]
+}
