@@ -25,7 +25,7 @@ Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez pa
 * un bouton pour Se déconnecter de votre {{ fr.DA }}; 
 * un lien vers votre {{ fr.DVLS }}; 
 * un lien vers notre [{{ fr.DFORUM }} de {{ fr.DVLS }}](https://forum.devolutions.net/product/server); 
-* un lien vers notre [Aide en ligne de {{ fr.DVLS }}](/fr/server/overview/what-is-server/); 
+* un lien vers notre [documentation (Aide en ligne) de {{ fr.DVLS }}](/fr/server/overview/what-is-server/); 
 * la version actuelle du {{ fr.WBEX }}.  
 ![Bouton Compte](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2009.png) 
 

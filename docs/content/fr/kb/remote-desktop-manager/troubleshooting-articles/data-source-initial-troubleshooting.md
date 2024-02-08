@@ -9,7 +9,7 @@ For those Data Source types that need a host name, please ensure that the name y
 
 In general, PING is a poor testing tool because the server may have been configured to ignore PING requests. Use NSLOOKUP to help identify the issue.  
 
-A common issue in a multi-domain environment is that you must use the Fully Qualified Domain Name (FQDN) of a server in order to reach it.  (e.g. srvname.domain.locinstead of srvname)  
+A common issue in a multi-domain environment is that you must use the Fully Qualified Domain Name (FQDN) of a server to reach it.  (e.g. srvname.domain.locinstead of srvname)  
 
 Another common issue is that your DNS cache is corrupt, in that case you can open an elevated command prompt and use the following commands.  
 

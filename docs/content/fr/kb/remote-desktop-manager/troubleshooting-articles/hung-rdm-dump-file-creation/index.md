@@ -30,4 +30,4 @@ The size of the dump file should not generally exceed 100 MB to 300 MB. Files la
 1. Select ***Create Dump – Create Minidump***.  
    ![Create Dump – Create Minidump](https://webdevolutions.azureedge.net/docs/en/kb/KB2262.png)  
 1. Save the ***RemoteDesktopManager.dmp*** file.
-1. Contact our [support team](mailto:service@devolutions.net) in order for them to provide a secure link that can be used to send them this file.
+1. Contact our [support team](mailto:service@devolutions.net) for them to provide a secure link that can be used to send them this file.

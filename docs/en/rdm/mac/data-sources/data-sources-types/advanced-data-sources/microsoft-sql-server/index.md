@@ -36,7 +36,7 @@ Active directory in a SQL Server data source is no longer supported in {{ en.RDM
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly in order to maintain the health of the database. Please consult [Recovery Model](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/). 
+Depending on the Recovery Model of the underlying database, some maintenance operations may have to be scheduled to run regularly to maintain the health of the database. Please consult [Recovery Model](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/recovery-model/). 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 

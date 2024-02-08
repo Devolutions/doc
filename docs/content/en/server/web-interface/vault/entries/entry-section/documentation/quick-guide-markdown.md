@@ -24,5 +24,4 @@ First level headings
 
 Second level headings  
 
-`-------------------`  
-
+`-------------------`

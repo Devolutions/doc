@@ -292,7 +292,7 @@ Actualiser
 	</tr>
 	<tr>
 		<td>
-Aide en ligne 
+Aide en ligne
 		</td>
 		<td>
 <kbd>F1</kbd>

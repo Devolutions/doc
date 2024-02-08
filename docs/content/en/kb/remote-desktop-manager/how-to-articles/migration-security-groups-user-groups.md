@@ -23,7 +23,7 @@ For more information, please refer to [User Groups Based Access Control](/rdm/wi
 To manage your user's permissions, we recommend you switch from ***Security Groups*** (deprecated) to [***Permissions***](/rdm/windows/user-groups-based-access-control/permissions/). Once the migration is done, [disable legacy security](/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/).
 {% endsnippet %}  
 
-We also have two scenarios in order to get you started with this type of security:  
+We also have two scenarios to get you started with this type of security:  
 
 * [Simplified security](/rdm/windows/user-groups-based-access-control/scenarios/simplified-security/)  
 * [Advanced security](/rdm/windows/user-groups-based-access-control/scenarios/advanced-security/)  

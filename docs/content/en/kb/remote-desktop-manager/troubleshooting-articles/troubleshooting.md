@@ -8,7 +8,7 @@ My mapped network drive(s) are not available when using run as administrator to 
 ### Solution
 This is because of User Access Control (UAC), a built-in security layer of Windows. Effectively you are considered a different user with different preferences, the Mapped network drives being one such preference.  
 
-In order to have the same mapped drives, you have a few options:  
+To have the same mapped drives, you have a few options:  
 
 1. Using an elevated command prompt, recreate the same mapped drive(s) using the NET USE {DRIVENAME} {SHARENAME} /PERSISTENT:YES command.
 1. Modifying the registry to link connections between the accounts, see [https://support.microsoft.com/en-us/kb/937624](https://support.microsoft.com/en-us/kb/937624)

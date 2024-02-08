@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Whenever the performance of queries against SQL Server decreases, check the following:
 ## Size of database files
-If your transaction log file is enormous, it may be that the recovery model of the database is set to FULL, which means that it requires regular backups in order to clean up past transactions.  
+If your transaction log file is enormous, it may be that the recovery model of the database is set to FULL, which means that it requires regular backups to clean up past transactions.  
 
 You can confirm this is in the properties of the database itself.  
 

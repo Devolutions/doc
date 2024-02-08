@@ -26,7 +26,7 @@ When using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-type
 Export a {{ en.VLT }} in a .rdm file that can be imported into any {{ en.RDM }} data source. You can also include credentials in this export format and secure your file with a master key.  
 
 {% snippet icon.badgeInfo %} 
-By default the credentials are NOT included. It is critical to check the ***Credentials*** option in order for the exported data to include the credentials. 
+By default the credentials are NOT included. It is critical to check the ***Credentials*** option for the exported data to include the credentials. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 

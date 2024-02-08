@@ -3,7 +3,7 @@ eleventyComputed:
   title: View {{ en.DVLS }} logs
 ---
 {% snippet icon.badgeInfo %}
-The Log debug information option must be enabled in order to view the debug logs. Consult [Logging](/server/web-interface/administration/configuration/server-settings/general/logging/) for raising the debug level.
+The Log debug information option must be enabled to view the debug logs. Consult [Logging](/server/web-interface/administration/configuration/server-settings/general/logging/) for raising the debug level.
 {% endsnippet %}
 
 The {{ en.DVLS }} logs can be consulted in Reports - Data Source Logs  

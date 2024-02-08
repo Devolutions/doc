@@ -35,11 +35,11 @@ Once the approver has approved you access, you can go straight to your entry in 
 
 ## Request temporary access to a credentials entry 
 
- Users can request access to a credentials entry in order to view and copy passwords. The process is the same as described above. Once the approver has given you access, you can use the ***View Password***, ***Copy Username***, ***Copy Username and Password*** and ***Copy Password*** buttons. You can also view these buttons by right-clicking on the entry.  
+ Users can request access to a credentials entry to view and copy passwords. The process is the same as described above. Once the approver has given you access, you can use the ***View Password***, ***Copy Username***, ***Copy Username and Password*** and ***Copy Password*** buttons. You can also view these buttons by right-clicking on the entry.  
 
 ## Revoke your temporary access 
 
-For any reason, you may revoke your temporary access. Be sure you want to do this first, since in order to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the approver.  
+For any reason, you may revoke your temporary access. Be sure you want to do this first, since to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the approver.  
 
 1. Select your entry in the ***{{ en.NPANE }}***. Then, from the ***Actions*** menu of your ***Dashboard***, click on ***Revoke Temporary Access***.  
 ![Revoke temporary access](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6003.png) 

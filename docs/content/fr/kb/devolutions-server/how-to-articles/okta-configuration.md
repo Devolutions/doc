@@ -27,7 +27,7 @@ In this topic we will assume that your instance of {{ en.DVLS }} is configured i
 ![!!KB4106](https://webdevolutions.azureedge.net/docs/en/kb/KB4106.png)
 1. In the ***New Single-Page App Integration*** page presenting the configuration of the new application:  
 
-    a. First, name the application in the ***App integration name*** field in order to find it in your application list in Okta.  
+    a. First, name the application in the ***App integration name*** field to find it in your application list in Okta.  
 
     b. Leave the ***Grant type*** option to ***Authorization Code***.  
 

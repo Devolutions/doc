@@ -2,7 +2,7 @@
 eleventyComputed:
   title: "{{ en.WBEX }} troubleshooting connection logs"
 ---
-When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you to provide them logs in order to provide more information to our engineering department, please follow these steps:
+When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you to provide them logs to provide more information to our engineering department, please follow these steps:
 
 1. In your browser, right-click on the {{ en.WBEX }} icon.
 1. Click on ***Manage Extension***.

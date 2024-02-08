@@ -15,7 +15,7 @@ This feature is still under development. Thus, it is only possible to see a prev
 
 ## Requirements
 
-In order to use this feature, certain requirements must be met, namely:
+To use this feature, certain requirements must be met, namely:
 * Windows 10 or 11.
 * Windows Server 2016 and higher.
 * Have a [{{ en.DGW }}](/server/dgw/server-configuration/) version 2023.1 or later.

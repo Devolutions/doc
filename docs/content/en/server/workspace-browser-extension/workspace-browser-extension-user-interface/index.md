@@ -25,7 +25,7 @@ Next to the ***Settings*** button is your ***Account*** button. This section has
 * a ***Log Off*** button to sign out of your {{ en.DA }}.  
 * a link to your {{ en.DVLS }}.  
 * a link to our [{{ en.DVLS }} Forum](https://forum.devolutions.net/product/server).  
-* a link to our [{{ en.DVLS }} Online Help](/server/).  
+* a link to our [{{ en.DVLS }} documentation (Online Help)](/server/).  
 * the current version of the {{ en.WBEX }}.  
 
 ![Account Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2031.png)
@@ -40,4 +40,4 @@ Each tab will display a different view in the ***Content Area***. The tabs avail
 * the ***Recent*** tab, where you can find a list of the entries that you recently used.  
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.  
 
-See [Side menu](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/) for more information on each of the tabs. 
+See [Side menu](/server/workspace-browser-extension/workspace-browser-extension-user-interface/side-menu/) for more information on each of the tabs.

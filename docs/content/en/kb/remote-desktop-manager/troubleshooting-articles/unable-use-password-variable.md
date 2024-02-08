@@ -20,5 +20,5 @@ Follow the steps below to use passwords in variables:
 You can now use the $PASSWORD$ variable in your macros.
 
 {% snippet icon.badgeInfo %}
-As far as permissions are concerned, in order to use the $PASSWORD$ variable, the ***View***, ***Connect (Execute)***, and ***View password*** permissions must be granted. If using a privileged account (PAM in {{ en.DVLS }}), the ***Operator*** permission set (or higher) must also be granted in the PAM {{ en.VLT }}.
+As far as permissions are concerned, to use the $PASSWORD$ variable, the ***View***, ***Connect (Execute)***, and ***View password*** permissions must be granted. If using a privileged account (PAM in {{ en.DVLS }}), the ***Operator*** permission set (or higher) must also be granted in the PAM {{ en.VLT }}.
 {% endsnippet %}  

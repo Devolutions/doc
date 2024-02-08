@@ -44,7 +44,7 @@ eleventyComputed:
 
 | OPTION                                             | DESCRIPTION |
 |----------------------------------------------------|-------------|
-| Go offline                                         | Select **Go offline** to enable the offline mode. {{ en.VLT_MAJ }}s must be loaded at **least once** in order to be accessible offline. The application will be reloaded.|
+| Go offline                                         | Select **Go offline** to enable the offline mode. {{ en.VLT_MAJ }}s must be loaded at **least once** to be accessible offline. The application will be reloaded.|
 | Clear Offline Cache                                | Select **Clean Offline Cache** to clear the cache. |
 
 ## Logs

@@ -30,11 +30,11 @@ When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/ad
 Export all entries in a .rdm file that can be imported into any {{ en.RDMMAC }} data source. You can also include the credentials in this export format and secure your file with a master key.  
 
 {% snippet icon.badgeInfo %} 
-By default the credentials are NOT included. It is critical to check the Credentials option in order for the exported data to include the credentials. 
+By default the credentials are NOT included. It is critical to check the Credentials option for the exported data to include the credentials. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-By default the credentials are NOT included. It is critical to check the Credentials option in order for the exported data to include the credentials. 
+By default the credentials are NOT included. It is critical to check the Credentials option for the exported data to include the credentials. 
 {% endsnippet %}
  
 ![Export all entries (.rdm)](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10316.png) 

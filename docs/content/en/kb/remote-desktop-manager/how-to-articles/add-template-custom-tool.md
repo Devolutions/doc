@@ -13,11 +13,11 @@ Get access to a one-click ***Custom Tool*** which would apply a ***Template*** a
 The method below, will give you a quick access in the {{ en.RDM }} Dashboard ***Macros/Scripts/Tools*** section of the entry. It will allow you to click on the ***Custom Tool*** and open the connection that currently has focus with the parameters specified in your ***Templates***.
 
 {% snippet icon.badgeInfo %}
-In order to use this method, you will first need to create a ***Template*** under ***File - Templates*** For more information, please consult this [link](/rdm/windows/commands/file/templates/)
+To use this method, you will first need to create a ***Template*** under ***File - Templates*** For more information, please consult this [link](/rdm/windows/commands/file/templates/)
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}
-The ***Template*** that you will create (Database template only) will need to have the option ***Available in Macros/Scripts/Tools*** enabled in the ***Template Settings – Availability*** section in order for it to be shown in your ***Dashboard***.
+The ***Template*** that you will create (Database template only) will need to have the option ***Available in Macros/Scripts/Tools*** enabled in the ***Template Settings – Availability*** section for it to be shown in your ***Dashboard***.
 {% endsnippet %}
 
 ![!!KB4667](https://webdevolutions.azureedge.net/docs/en/kb/KB4667.png)

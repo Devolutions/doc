@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 The application performance must be validated with an empty data source. Create a new empty XML data source and select it as being the current data source.  
 
-If you experience slow startup times, there are a few things to try in order to reduce the time before the application is available for use.
+If you experience slow startup times, there are a few things to try to reduce the time before the application is available for use.
 
 ## Problem 1
 {{ en.RDM }} is slow to open.
@@ -50,7 +50,7 @@ You can find the configuration file using ***File – Options – Advanced*** an
 Native image generation.
 
 ### Solution
-{{ en.RDM }} is aNET application. This means that the code is delivered in an intermediate format. It is then processed on your local machine in order to generate what is called a Native Image. Sometimes, this process can be slow. It can also reoccur after certain conditions are met. For these reasons, we deliver a batch file to process all of our files at once. You will find this file in the installation folder of {{ en.RDM }} It is called OptimizeRDM.bat.  
+{{ en.RDM }} is aNET application. This means that the code is delivered in an intermediate format. It is then processed on your local machine to generate what is called a Native Image. Sometimes, this process can be slow. It can also reoccur after certain conditions are met. For these reasons, we deliver a batch file to process all of our files at once. You will find this file in the installation folder of {{ en.RDM }} It is called OptimizeRDM.bat.  
 
 Open a Command Window using Run as Administrator and launch that script.
 
@@ -60,7 +60,7 @@ Antivirus.
 ### Solution
 If the profiler log reveals slowness on one of the 3 offline loading (between 10 to 30 seconds), it might be caused by an antivirus limiting the access to the path. Whitelisting the path can allow to significantly reduce the slowness.  
 
-We do not recommend turning off the antivirus protection in risky conditions. You should close all browsers and ensure that only essential applications are running. We also suggest this step only for a short duration in order to see the startup time of the application change significantly.  
+We do not recommend turning off the antivirus protection in risky conditions. You should close all browsers and ensure that only essential applications are running. We also suggest this step only for a short duration to see the startup time of the application change significantly.  
 
 If your antivirus application allows it, simply turn off monitoring of {{ en.RDM }}'s installation folder. If you are comfortable with turning of the whole antivirus protection, do this to test the startup time.  
 

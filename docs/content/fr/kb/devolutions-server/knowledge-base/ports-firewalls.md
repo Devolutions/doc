@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Ports and firewalls
 ---
-{{ en.DVLS }} in itself does not dictate which ports to use for any of the resources that it accesses. You must consult with your system administrator to ascertain which adjustments need to be made in order for the system to inter-operate with your infrastructure.
+{{ en.DVLS }} in itself does not dictate which ports to use for any of the resources that it accesses. You must consult with your system administrator to ascertain which adjustments need to be made for the system to inter-operate with your infrastructure.
 
 ## Inbound
 
@@ -35,7 +35,7 @@ problematic when an LDAP simple bind is used because credentials (username and p
 passed over the network unencrypted. This could quickly lead to the compromise of credentials.
 ```
 
-Follow the instructions for your operating system in order to establish LDAPS. It will involve deploying certificates generated using your of Certification Authority (CA)
+Follow the instructions for your operating system to establish LDAPS. It will involve deploying certificates generated using your of Certification Authority (CA)
 
 LDAP by default uses port 389. Even when you enable LDAPS, it may use plain LDAP therefore it needs to be disabled, please consult [Enforcing usage of LDAPS](/kb/devolutions-server/how-to-articles/enforcing-usage-ldaps/).
 

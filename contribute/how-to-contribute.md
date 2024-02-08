@@ -54,7 +54,7 @@ You are done! Thank you for your contribution, our team will review your changes
 
 1. Follow the folder structure until you find the location where you think the new topic would fit best.
 
-   The folder structure follows the tree view structure of the [documentation website pages](https://docs.devolutions.net/). It may help to look up the location in our online documentation first, then trace your steps in GitHub. Also consult [Devolutions Product Documentation and Knowledge Base](devolutions-documentation-knowledge-base.md) to help you determine where your topic should be located.
+   The folder structure follows the tree view structure of the [documentation website pages](https://docs.devolutions.net/). It may help to look up the location in our online documentation first, then trace your steps in GitHub. Also consult [Devolutions Documentation and Knowledge Base](devolutions-documentation-knowledge-base.md) to help you determine where your topic should be located.
 
    We may change its location if we deem that it should be placed elsewhere.
 

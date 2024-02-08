@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Enable SQL Azure with Azure Active Directory with MFA
 ---
-For {{ en.RDM }} version 2022.1 and greater follow the following steps in order to properly enable an Azure SQL with Azure Active Directory (MFA) in combination with {{ en.RDM }}.
+For {{ en.RDM }} version 2022.1 and greater follow the following steps to properly enable an Azure SQL with Azure Active Directory (MFA) in combination with {{ en.RDM }}.
 
 1. [Configure the Active Directory Admin](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/)
 1. [Configure {{ en.RDM }} Active Directory Interactive (with MFA Support)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/)

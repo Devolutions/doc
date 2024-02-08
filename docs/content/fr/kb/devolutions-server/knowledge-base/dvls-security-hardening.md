@@ -6,7 +6,7 @@ eleventyComputed:
   - security hardening
   - deployment
 ---
-Security hardening consists of implementing various security measures to protect against cyber threats and ensure the confidentiality, integrity, and availability of the system. The various Online Help and Knowledge Base topics below are organized in a logical order that you can follow before, during, and after configuring and deploying {{ en.DVLS }}. They contain useful information, best practices, and steps to follow to ensure that your {{ en.DVLS }} is as secure as possible.
+Security hardening consists of implementing various security measures to protect against cyber threats and ensure the confidentiality, integrity, and availability of the system. The various documentation and knowledge base topics below are organized in a logical order that you can follow before, during, and after configuring and deploying {{ en.DVLS }}. They contain useful information, best practices, and steps to follow to ensure that your {{ en.DVLS }} is as secure as possible.
 
 The current topic is mostly based on the ***Security Dashboard***. See [{{ en.DVLS }} Security Dashboard](/kb/devolutions-server/knowledge-base/server-security-dashboard/) for a list of action items including short descriptions and mitigation measures.
 
@@ -28,11 +28,11 @@ The default MSSQL “sa” administrative account is a high privilege account th
 
 The first decision is to use either domain accounts for operating the platform or to use local SQL accounts paired with local service accounts. Since this decision is a matter of personal preference, we support both models. See each one of them and what they entail in [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) and learn how to configure them in [Advanced Credentials](/server/management/devolutions-server-console/devolutions-server-settings/database/advanced-credentials/).
 
-In order for domain single sign-on (SSO) to be used to connect to the database, you must set the ***Application Pool*** to use a domain account to run under. Follow the steps in [Configure {{ en.DVLS }} to use domain single sign-on (SSO)](/kb/devolutions-server/how-to-articles/configure-server-use-domain-sso/).
+For domain single sign-on (SSO) to be used to connect to the database, you must set the ***Application Pool*** to use a domain account to run under. Follow the steps in [Configure {{ en.DVLS }} to use domain single sign-on (SSO)](/kb/devolutions-server/how-to-articles/configure-server-use-domain-sso/).
 
 ## Ports and Secure Communication
 
-While {{ en.DVLS }} in itself does not dictate which ports to use for any of the resources that it accesses, we still recommend the network segregation security practice. You must consult with your system administrator to ascertain which adjustments need to be made in order for the system to inter-operate with your infrastructure. See [Ports and Firewalls](/kb/devolutions-server/knowledge-base/ports-firewalls/).
+While {{ en.DVLS }} in itself does not dictate which ports to use for any of the resources that it accesses, we still recommend the network segregation security practice. You must consult with your system administrator to ascertain which adjustments need to be made for the system to inter-operate with your infrastructure. See [Ports and Firewalls](/kb/devolutions-server/knowledge-base/ports-firewalls/).
 
 Secure communications guarantee the integrity and confidentiality of the data transmitted between the client and the server. As such, it is important to secure LDAP communications with the [LDAP Over SSL](/server/getting-started/security-checklist/ldap-over-ssl/) (LADPS) method. See [Domains](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/) to learn how to enable it.
 

@@ -17,13 +17,12 @@ The compatible download link for {{ en.RDM }} is the one under the Evergreen Boo
 
 Here is a list of features that require ***WebView2 Runtime***:
 
-* Onboarding  
-* Dashboards  
-* Web browser (ex: Edge embedded)  
-* SAML authentication in CyberArk  
-* Reports  
-* Handbook/Documentation  
-* Compare prompt (ex: documentation)  
-* Help prompt  
-* Change history in available update prompt  
-
+* Onboarding
+* Dashboards
+* Web browser (ex: Edge embedded)
+* SAML authentication in CyberArk
+* Reports
+* Handbook/Documentation
+* Compare prompt (ex: documentation)
+* Help prompt
+* Change history in available update prompt

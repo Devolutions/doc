@@ -62,7 +62,7 @@ You can force a check-in of the entry to end the user's access by either:
 * Clicking on ***View Details*** again, then ***Force Check-in***.  
    ![Force check-in from View Details](https://webdevolutions.azureedge.net/docs/en/hub/Hub2316.png)
 
-When you check in the entry, the privileged account password automatically resets and the old password is rendered useless. Be sure you want to do this first, since in order to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.
+When you check in the entry, the privileged account password automatically resets and the old password is rendered useless. Be sure you want to do this first, since to regain access to the entry, they will need to make another request. Otherwise, their access will end within the set time frame.
 
 {% snippet icon.badgeHelp %}
 To learn more about the end user experience in {{ en.DHUBB }}, visit [Request access to a privileged account](/hub/privileged-access-management/privileged-accounts/request-access-privileged-account/).  

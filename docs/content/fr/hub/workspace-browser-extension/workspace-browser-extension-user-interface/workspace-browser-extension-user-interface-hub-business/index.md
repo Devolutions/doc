@@ -25,7 +25,7 @@ Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez pa
 * un bouton pour ***Se déconnecter*** de votre {{ fr.DA }}; 
 * un lien vers votre {{ fr.DHUBB }}; 
 * un lien vers notre [forum de {{ fr.DHUB }}](https://forum.devolutions.net/product/password-hub); 
-* un lien vers notre [Aide en ligne de {{ fr.DHUB }}](/fr/hub/overview/what-is-hub/); 
+* un lien vers notre [documentation (Aide en ligne) de {{ fr.DHUB }}](/fr/hub/overview/what-is-hub/); 
 * la version actuelle du {{ fr.WBEX }}.  
 ![Bouton Compte](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2070.png)  
 

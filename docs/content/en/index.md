@@ -1,10 +1,7 @@
 ---
 layout: 'layouts/home.liquid'
-title: Devolutions Product Documentation
-description: Need help? Here is the complete coverage for all Devolutions Products, Add-ons and Companion Tools.
-eleventyComputed:
-  title: Product Documentation / Online help
-  description: Need help? Here is the complete coverage for all Devolutions Products, Add-ons and Companion Tools.
+title: Devolutions Documentation
+description: Need help? Here is the complete coverage for all Devolutions products, add-ons, and companion tools.
 cards:
   - name: rdm
     links:

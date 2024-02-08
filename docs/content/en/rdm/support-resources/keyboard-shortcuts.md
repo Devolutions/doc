@@ -41,7 +41,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-m
 | Add Folder | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |
 | Add Information | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd> |
 | Add Session | <kbd>Ctrl</kbd>+<kbd>N</kbd> |
-| Delete... | <kbd>Ctrl</kbd>+<kbd>Del</kbd> |
+| Delete | <kbd>Ctrl</kbd>+<kbd>Del</kbd> |
 | Duplicate | <kbd>Ctrl</kbd>+<kbd>D</kbd> |
 | Edit Entry | <kbd>Ctrl</kbd>+<kbd>E</kbd> |
 | Local Specific Settings | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>E</kbd> |
@@ -54,19 +54,19 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-m
 
 | ACTION | SHORTCUT |
 |--------|----------|
-| Filter... | <kbd>Ctrl</kbd>+<kbd>F</kbd> |
+| Filter | <kbd>Ctrl</kbd>+<kbd>F</kbd> |
 | Force Refresh | <kbd>Ctrl</kbd>+<kbd>F5</kbd> |
 | Online Help | <kbd>F1</kbd> |
-| Profiler... | <kbd>Ctrl</kbd>+<kbd>F12</kbd> |
+| Profiler | <kbd>Ctrl</kbd>+<kbd>F12</kbd> |
 | Quick Connect | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> |
-| Quick Search... | <kbd>Ctrl</kbd>+<kbd>Space</kbd> |
+| Quick Search | <kbd>Ctrl</kbd>+<kbd>Space</kbd> |
 | Refresh | <kbd>F5</kbd> |
 
 ### Import/Export 
 
 | ACTION | SHORTCUT |
 |--------|----------|
-| Import in {{ en.VLT }} (.rdm)... | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> |
+| Import in {{ en.VLT }} (.rdm) | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> |
 
 ### Navigation 
 
@@ -104,14 +104,14 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-m
 
 | ACTION | SHORTCUT |
 |--------|----------|
-| Advanced Search... | <kbd>F11</kbd> |
+| Advanced Search | <kbd>F11</kbd> |
 | Dashboard | <kbd>Alt</kbd>+<kbd>F6</kbd> |
 | Favorites | <kbd>F9</kbd> |
-| Multi {{ en.VLT }} Search... | <kbd>F12</kbd> |
+| Multi {{ en.VLT }} Search | <kbd>F12</kbd> |
 | My {{ en.UVLT }} | <kbd>F7</kbd> |
 | **_{{ en.NPANE }}_** | <kbd>Alt</kbd>+<kbd>F8</kbd> |
 | Opened Sessions | <kbd>F8</kbd> |
-| Play List Management... | <kbd>Ctrl</kbd>+<kbd>G</kbd> |
+| Play List Management | <kbd>Ctrl</kbd>+<kbd>G</kbd> |
 | RDP Toggle View Only | <kbd>Shift</kbd>+<kbd>F3</kbd> |
 | Recent | <kbd>F10</kbd> |
 | Status Bar | <kbd>Alt</kbd>+<kbd>F7</kbd> |
@@ -120,4 +120,3 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-m
 | Tab List | <kbd>Ctrl</kbd>+<kbd>F9</kbd> |
 | Top Pane (Ribbon/Menubar) | <kbd>Alt</kbd>+<kbd>F11</kbd> |
 | {{ en.VLT_MAJ }} | <kbd>F6</kbd> |
-

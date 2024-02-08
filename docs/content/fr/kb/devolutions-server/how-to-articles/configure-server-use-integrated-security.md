@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Configure {{ en.DVLS }} to use integrated security
 ---
-In order for integrated security to be used to connect to the database, you must set the ***Application pool*** to use a domain account to run under.
+For integrated security to be used to connect to the database, you must set the ***Application pool*** to use a domain account to run under.
 
 ## Steps
 

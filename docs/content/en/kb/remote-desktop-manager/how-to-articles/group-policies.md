@@ -15,7 +15,7 @@ Administrative templates facilitate the management of registry-based policy sett
 Administrative Templates are registry settings that are enforced by domains. They contain registry keys that can also be set on computers that are not joined to domains. In this case, however, proper Access Control Lists (ACLs) must be put in place to prevent users from modifying registry settings. Refer to the tables below to find the registry key for each policy setting.
 {% endsnippet %}
 
-To learn more on how to deploy the {{ en.RDM }} administrative templates on your domain, please refer to the Microsoft Online Help.
+To learn more on how to deploy the {{ en.RDM }} administrative templates on your domain, please refer to the Microsoft documentation.
 
 ## List {{ en.RDM }} GPOs in the Local Group Policy Editor
 {% snippet icon.badgeInfo %}

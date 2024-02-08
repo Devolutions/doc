@@ -20,7 +20,7 @@ Root Certificate Authority – Secure Certificate Authority – Purchased XYZ Ce
 ## Differences between Side-by-side and Standalone installation
 The ***Side-by-side Installation*** will be used if you need to install {{ en.DGW }} on the same machine where {{ en.DVLS }} is hosted. It is a simplified installation process that will automatically configure the new {{ en.DGW }} with information from the {{ en.DVLS }} instance (access URI and public key).
 
-In order to install {{ en.DGW }} on another machine than the one where {{ en.DVLS }} is hosted, you need to follow the ***Standalone Installation*** process. The procedure is similar, but you will need to provide more information about your {{ en.DVLS }} instance to complete it.
+To install {{ en.DGW }} on another machine than the one where {{ en.DVLS }} is hosted, you need to follow the ***Standalone Installation*** process. The procedure is similar, but you will need to provide more information about your {{ en.DVLS }} instance to complete it.
 
 ## Side-by-side Installation
 {% snippet icon.badgeInfo %}

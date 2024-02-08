@@ -28,7 +28,7 @@ The [{{ en.OBACK }}](/rdm/mac/commands/file/backup/) allows you to backup your [
 ![View History](https://webdevolutions.azureedge.net/docs/en/rdm/mac/2015-05-25_13-12-31.png) 
 
 {% snippet icon.shieldCaution %} 
-You must perform this for all your [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source in order to be fully secured. 
+You must perform this for all your [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) or [XML](/rdm/mac/data-sources/data-sources-types/xml/) data source to be fully secured. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

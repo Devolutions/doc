@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Lexicon
 ---
-{{ en.RDM }} is a software that has an extensive set of functionalities. Here are the major concepts that are important to understand in order to use the program to its full potential. 
+{{ en.RDM }} is a software that has an extensive set of functionalities. Here are the major concepts that are important to understand to use the program to its full potential. 
 
 ### Connection 
 
@@ -26,5 +26,4 @@ An information entry can contain various items like account information, emails 
 
 ### Session 
 
-In the early days of {{ en.RDM }}, it was mainly aimed at managing Microsoft Remote Desktop. A session was a term that was in use back then to describe a connection to Microsoft Remote Desktop Services. It appears widely in our documentation. Any technology that connects and that needs to use authentication is a session. 
-
+In the early days of {{ en.RDM }}, it was mainly aimed at managing Microsoft Remote Desktop. A session was a term that was in use back then to describe a connection to Microsoft Remote Desktop Services. It appears widely in our documentation. Any technology that connects and that needs to use authentication is a session.

@@ -22,5 +22,4 @@ Titre de premier niveau
 
 Titre de deuxième niveau  
 
-`-------------------`  
-
+`-------------------`

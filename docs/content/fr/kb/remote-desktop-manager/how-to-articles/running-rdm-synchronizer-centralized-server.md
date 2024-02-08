@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Running the {{ en.RDM }} synchronizer from a centralized server
 ---
-In order to prevent your computer from being overloaded by background tasks, such as Synchronizer, perform these tasks on centralized servers.
+To prevent your computer from being overloaded by background tasks, such as Synchronizer, perform these tasks on centralized servers.
 
 {% snippet icon.badgeInfo %}
 These instructions are for team data sources

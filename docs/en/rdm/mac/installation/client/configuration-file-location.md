@@ -13,5 +13,5 @@ You can find the configuration file by following these steps:
 1. Open the folder: **com.devolutions.remotedesktopmanager**. 
 1. Locate the **RemoteDesktopManager.cfg** or **RemoteDesktopManagerFree.cfg** file. 
 
-In order for us to provide you a secure link to share your file, send an email to [service@devolutions.net](mailto:service@devolutions.net).  
+For us to provide you a secure link to share your file, send an email to [service@devolutions.net](mailto:service@devolutions.net).  
 ![!!Support4001](https://webdevolutions.azureedge.net/docs/en/rdm/mac/Support4001.png) 

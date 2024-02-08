@@ -21,7 +21,7 @@ Please ensure before starting the installation that you have .NET 4.8 installed 
 {% endsnippet %}
  
 {% snippet icon.shieldWarning %} 
-It is highly recommended to enable SSL Encryption in order to protect communication with the instance of the SQL Server. Please follow the instructions from Microsoft in [Configure SQL Server Database Engine for encrypting connections](https://learn.microsoft.com/en-US/sql/database-engine/configure-windows/configure-sql-server-encryption). Note that we recommend this be done after the initial setup is complete. 
+It is highly recommended to enable SSL Encryption to protect communication with the instance of the SQL Server. Please follow the instructions from Microsoft in [Configure SQL Server Database Engine for encrypting connections](https://learn.microsoft.com/en-US/sql/database-engine/configure-windows/configure-sql-server-encryption). Note that we recommend this be done after the initial setup is complete. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

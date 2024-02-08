@@ -35,7 +35,7 @@ The ***Administration Credentials*** needs full read permissions on the AD struc
 ## Non-Domain Based Operation or Azure SQL environment
 
 {% snippet icon.badgeInfo %}
-On a non-domain based deployment, a single connection string is used for three different aspects of the system. This will be improved in a future release in order to respect the least-privilege principle.
+On a non-domain based deployment, a single connection string is used for three different aspects of the system. This will be improved in a future release to respect the least-privilege principle.
 {% endsnippet %}
 
 {% snippet icon.badgeInfo %}

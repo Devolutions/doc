@@ -19,7 +19,7 @@ Administration rights are required to export and import multiple {{ en.VLT }}s.
 1. Select the {{ en.VLT }}s from the prompted list and click ***OK***.
 1. For a typical migration, you would check the options ***Include credentials, Include attachments and documents*** and ***Encrypt with master key***.  
 {% snippet icon.badgeInfo %}
-By default the credentials are NOT included. It is critical to check the ***Include credentials*** option in order for the exported data to include the credentials.
+By default the credentials are NOT included. It is critical to check the ***Include credentials*** option for the exported data to include the credentials.
 {% endsnippet %}  
 {% snippet icon.shieldWarning %}
 Specifying a master key will encrypt the whole content of the ***.rdx*** file to protect its content. It is highly recommended as a backup measure, but the key is absolutely necessary for decryption. Preserve this as well in a separate storage device for safekeeping.

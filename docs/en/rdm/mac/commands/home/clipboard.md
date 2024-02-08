@@ -24,7 +24,7 @@ Copy the username define in your session to the clipboard.
 
 ### Copy Password 
 
-Copy the password define in your session to the clipboard. The copy password to clipboard feature must be enabled in order to be accessible. Check the Allow Reveal Password in the [User Management Privileges](/rdm/mac/commands/administration/user-management/). 
+Copy the password define in your session to the clipboard. The copy password to clipboard feature must be enabled to be accessible. Check the Allow Reveal Password in the [User Management Privileges](/rdm/mac/commands/administration/user-management/). 
 
 ### Copy Host Name 
 

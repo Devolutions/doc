@@ -10,7 +10,7 @@ Administrators must enable offline mode for advanced data sources in {{ en.DVLS 
 {% endsnippet %}  
 
 {% snippet icon.badgeInfo %}
-{{ en.VLT }}s must be loaded at ***least once*** in order to be accessible offline.
+{{ en.VLT }}s must be loaded at ***least once*** to be accessible offline.
 {% endsnippet %}  
 
 The following steps describe the mobile version and are similar to the desktop version.  

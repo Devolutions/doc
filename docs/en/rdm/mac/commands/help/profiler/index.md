@@ -12,7 +12,7 @@ Too many custom images could dramatically increase the size of the data source a
 
 1. Select ***Help - Profiler***. 
 ![Help – Profiler](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10470.png) 
-1. Move the window to the side in order to display the {{ en.RDM }} main window and refresh the data source by using the refresh button or by using ***File – Refresh***. 
+1. Move the window to the side to display the {{ en.RDM }} main window and refresh the data source by using the refresh button or by using ***File – Refresh***. 
 {% snippet icon.badgeInfo %} 
 Holding the <kbd>Ctrl</kbd> key while performing the refresh will force a full reload of the data source, thereby ignoring the cache. 
 {% endsnippet %}
@@ -21,7 +21,7 @@ Holding the <kbd>Ctrl</kbd> key while performing the refresh will force a full r
 
 3. The Profiler data will appear in the Performance Profiler window.  
 ![Performance Profiling result](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10472.png) 
-4. Click on Send Trace to Support in order to send the Profiler data logs to our support team. You can add a Marker when running multiple tests to separate them.  
+4. Click on Send Trace to Support to send the Profiler data logs to our support team. You can add a Marker when running multiple tests to separate them.  
 ![Send Trace to Support](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10473.png) 
 
 ### Debug only 

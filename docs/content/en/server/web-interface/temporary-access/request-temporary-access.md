@@ -35,14 +35,14 @@ Once the approver has approved you access, you can go straight to your entry in 
 
 ## Request temporary access to a credentials entry 
 
- Users can request access to a credentials entry in order to view and copy passwords. The process is the same as described above. Once the approver has given you access, you can view the password.
+ Users can request access to a credentials entry to view and copy passwords. The process is the same as described above. Once the approver has given you access, you can view the password.
 ![View the password](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6090.png)  
 You can also right-clicking on the entry to view the password. 
 ![Right-clicking on the entry to view the password](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6091.png)
   
 ## Revoke your temporary access 
 
-For any reason, you may revoke your temporary access. Be sure you want to do this first, since in order to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the approver.  
+For any reason, you may revoke your temporary access. Be sure you want to do this first, since to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the approver.  
 
 1. Go to ***Reports***.
 ![Reports](https://webdevolutions.azureedge.net/docs/en/server/ServerOp6042.png)

@@ -16,7 +16,7 @@ A user can be created using default security (specify the password) or [Integrat
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
-In order to create users and assign rights, you must be administrator of not only {{ en.RDM }}, but also of the underlying database. 
+To create users and assign rights, you must be administrator of not only {{ en.RDM }}, but also of the underlying database. 
 {% endsnippet %}
  
 ## Manage Users 

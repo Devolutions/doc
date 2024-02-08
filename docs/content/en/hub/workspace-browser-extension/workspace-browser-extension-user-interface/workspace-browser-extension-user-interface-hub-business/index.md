@@ -25,7 +25,7 @@ Next to the ***Settings*** button is your ***Account*** button. This section has
 * a ***Log Off*** button to sign out of your {{ en.DA }}. 
 * a link to your {{ en.DHUBB }}. 
 * a link to our [{{ en.DHUB }} Forum](https://forum.devolutions.net/product/password-hub). 
-* a link to our [{{ en.DHUB }} Online Help](/hub/overview/what-is-hub/). 
+* a link to our [{{ en.DHUB }} documentation (Online Help)](/hub/overview/what-is-hub/). 
 * the current version of {{ en.WBEX }}.  
 ![Account Button](https://webdevolutions.azureedge.net/docs/en/hub/Hub2100.png) 
 

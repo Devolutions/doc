@@ -18,7 +18,7 @@ With the license stored in an [Advanced Data Source](/rdm/mac/data-sources/data-
 1. Enter the license serial.  
 ![License serial](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6033.png)
 1. Click ***OK*** to save the license.
-1. Optional: The ***Auto assign*** option will be displayed when you enter the license. The box is already checked in order to provide the {{ en.RDM }} serial to all newly created users. A warning window will appear if you uncheck the box and click ***OK***.
+1. Optional: The ***Auto assign*** option will be displayed when you enter the license. The box is already checked to provide the {{ en.RDM }} serial to all newly created users. A warning window will appear if you uncheck the box and click ***OK***.
 ![Warning window](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6030.png)  
 
 Your license is now saved in the advanced data source. Follow [Assign Licenses](/rdm/mac/commands/administration/licenses/assign/) to automatically assign them to selected users, removing the need to interact locally with their {{ en.RDM }}. 

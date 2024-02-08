@@ -8,7 +8,7 @@ The ***Custom Login Mode*** allows for a separation between the SQL Server authe
 ***Custom Logins*** are only supported in {{ en.RDM }} with a Microsoft SQL Server data source.
 {% endsnippet %}
 
-Follow the steps below, in order, from start to finish.
+Follow the steps below in order from start to finish.
 
 ## Create the SQL Login/User
 

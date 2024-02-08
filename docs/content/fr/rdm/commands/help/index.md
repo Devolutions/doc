@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Aide
 ---
-L'onglet d'***Aide*** contient des liens vers le ***Forum Devolutions*** et l'***Aide en ligne***, ainsi que de nombreuses fonctionnalités liées au support, telles que les ***Journaux des applications***, le ***Profileur*** et l'***Enregistreur***.  
+L'onglet d'***Aide*** contient des liens vers le ***Forum Devolutions*** et la ***Documentation (Aide en ligne)***, ainsi que de nombreuses fonctionnalités liées au support, telles que les ***Journaux des applications***, le ***Profileur*** et l'***Enregistreur***.  
 ![Aide](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11352.png) 
 
 ### Aide 
@@ -22,7 +22,7 @@ DESCRIPTION
 Aide en ligne 
 		</td>
 		<td>
-Lancer la documentation d'[Aide en ligne](/fr/rdm/windows/overview/what-is-rdm/) pour {{ fr.RDM }}. 
+Lancer la [documentation de {{ fr.RDM }}](/fr/rdm/windows/overview/what-is-rdm/). 
 		</td>
 	</tr>
 	<tr>
