@@ -5,16 +5,18 @@ function sidebarItem(item, index, ctx, contents, page, icons) {
     item.items = rebuildTree(item.autogenerate, ctx, contents);
   }
 
-  if (!item.filePathStem) {
-    item.url = item.url ? ctx.lang !== 'en' ? `/${ctx.lang}${item.url}` : item.url : null;
+  let url = item.url ?? null;
+
+  if (!item.filePathStem && url && ctx.lang !== 'en') {
+    url = `/${ctx.lang}${item.url}`;
   }
 
-  if (!item.url && (!item.items || item.items?.length === 0)) {
+  if (!url && (!item.items || item.items?.length === 0)) {
     return;
   }
 
   const label = ctx.locale[ctx.lang].label[item.label] ? ctx.locale[ctx.lang].label[item.label] : item.label;
-  const itemData = item.filePathStem || item.url ? contents.find((content) => content.filePathStem === item.filePathStem || content.url === item.url) : null;
+  const itemData = item.filePathStem || url ? contents.find((content) => content.filePathStem === item.filePathStem || content.url === url) : null;
 
   return `<div class="nav-item-container">
     <div class="nav-item-sub-container" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="${itemData?.url ?? label}">
