@@ -2,6 +2,8 @@
 eleventyComputed:
   title: System requirements
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDM }} requires the following prior to installation: 
 
 ## Minimum requirements 
@@ -36,4 +38,18 @@ Microsoft .NET Framework 4.8
 
 ## Manual/Portable deployment 
 
-Deploying manually using our zip file is documented as being a [Portable (USB)](/rdm/windows/installation/client/portable-usb/) deployment. In this case, the prerequisites will need to be handled manually as well. Please consult [Prerequisite Software](/rdm/windows/overview/system-requirements/prerequisite-software/) for details. 
+Deploying manually using our zip file is documented as being a [Portable (USB)](/rdm/windows/installation/client/portable-usb/) deployment. In this case, the prerequisites will need to be handled manually as well. Please consult [Prerequisite Software](/rdm/windows/overview/system-requirements/prerequisite-software/) for details.
+{% endtabItem %}
+
+{% tabItem "macOS" %}
+{{ en.RDMMAC }} requires the following prior to installation.
+
+## Minimum requirements 
+
+* Operating system: macOS Catalina (10.15) 
+* Processor: 1 GHz 
+* RAM: 4 GB 
+* Screen resolution: 1440 x 900 px 
+* Hard drive space: 1.5 GB
+{% endtabItem %}
+{% endtabs %}
