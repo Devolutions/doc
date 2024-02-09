@@ -8,7 +8,7 @@
   "sidebars": [
     {
       "label": "Overview",
-      "autogenerate": { "directory": "rdm/overview" }
+      "autogenerate": { "directory": "rdm2/overview" }
     }
   ]
 }

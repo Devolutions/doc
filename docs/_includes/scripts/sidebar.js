@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           if (newContent) {
             markdownContainer.innerHTML = newContent.innerHTML;
+            dwdTabs.init();
             window.history.pushState({html: newContent.innerHTML, pageTitle: document.title, sidebar: sidebar.innerHTML}, '', url);
             window.scrollTo(0, 0);
           }
@@ -38,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('popstate', function(event) {
     if (event.state) {
       markdownContainer.innerHTML = event.state.html;
+      dwdTabs.init();
       document.title = event.state.pageTitle;
       document.querySelector('.navigation').innerHTML = event.state.sidebar;
 
