@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: What is {{ en.RDMA }}?
+  title: "{{ en.RDMA }}"
 ---
 {% snippet icon.badgeCaution %}
 Please note that if your Windows profile is corrupted, {{ en.RDMA }} and {{ en.RDMJ }} might not work.
