@@ -59,7 +59,8 @@ The ***X.509 Certificate*** entry can be used to import said certificate and exp
 ![Finish](https://webdevolutions.azureedge.net/docs/en/kb/KB0168.png)
 1. Fill in the information, then click ***Add***.  
 ![Information fields](https://webdevolutions.azureedge.net/docs/en/kb/KB0167.png)
-1. Select the entry and click ***Save Certificate As***.
+1. Select the entry and click ***Save Certificate As*** (also available in the right-click context menu).  
+![Save Certificate As](https://webdevolutions.azureedge.net/docs/en/kb/KB0186.png)
 1. In the ***Export Format*** field choose ***Personal Information Exchange (pfx)***.
 1. Choose where the file will be saved by clicking on the ellipsis.
 1. Enter a strong password, then click ***Export***.  
