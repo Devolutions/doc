@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Style
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDM }} supports different ***User Interface*** styles (sometimes known as skins). These greatly influence the visual aspect of the ***User Interface*** as well as its mode of operation. Three styles currently exist:  
 
 * [Ribbon](#ribbon)
@@ -22,4 +24,28 @@ The latest style sports a ribbon. Icons and text makes it easy to explore featur
 ### Menu 
 
 Previous generation style, it holds a standard menu to invoke commands. 
-![Default User Interface](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11404.png) 
+![Default User Interface](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11404.png)
+{% endtabItem %}
+
+{% tabItem "macOS" %}
+{{ en.RDMMAC }} supports different User Interface Styles (sometimes known as skins). These greatly influence the visual aspect of the User Interface as well as its mode of operation. Two styles currently exist:  
+
+* Ribbon 
+* Classic 
+
+## Configuration 
+
+To select the User Interface style you must go in ***File - Preferences - User Interface***.  
+![User Interface - Options](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6001.png) 
+
+### Ribbon 
+
+The ribbon is {{ en.RDMMAC }} default style that sports an advanced control called ribbon. Icons and text makes it easy to learn what feature exists.  
+![RDM main screen - Ribbon style](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10550.png) 
+
+### Classic 
+
+Classic is {{ en.RDMMAC }} previous generation style, it holds a standard menu to invoke commands.  
+![RDM main menu - Classic style](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10551.png)
+{% endtabItem %}
+{% endtabs %}

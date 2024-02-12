@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Embedded sessions
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% youtube 'FtSlp_TVAxE?si=cwD9PHKbAUouLdXZ&amp;start=759' %}  
 
 The ***Embedded (tabbed)*** display mode allows you to open multiple sessions as tabs withing {{ en.RDM }}, similar to the tabs in your standard web browser. ***Embedded sessions*** are one of the available display modes, the others being ***External*** and ***Undocked***.  
@@ -16,3 +18,12 @@ Below is an example of a side-by-side split window.
 ![Split Window - Side-By-Side](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11188.png) 
 Below is an example of a top-down split window.  
 ![!!clip11189](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11189.png)
+{% endtabItem %}
+
+{% tabItem "macOS" %}
+The Embedded display mode allows you to open multiple sessions as tabs within {{ en.RDM }}, similar to the tabs in your standard web browser. Embedded sessions are one of the 3 available display modes, the other 2 being ***External*** and ***Undocked***.  
+![Display Mode Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6008.png) 
+
+The embedded display mode allows you as well to split the dashboard to display multiple sessions at once. For more information please consult [Split View](/rdm/mac/user-interface/content-area/embedded-sessions/split-windows/).
+{% endtabItem %}
+{% endtabs %}
