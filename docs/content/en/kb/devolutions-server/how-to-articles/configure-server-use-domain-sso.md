@@ -23,4 +23,7 @@ To make the process easy to follow, we will name the domain account "VaultDBRunn
 ![Edit – Database – Advanced Credentials – Apply Least Permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB2369.png) 
 
 1. In {{ en.RDM }}, go to ***File – Data Sources*** and edit your {{ en.DVLS }} data source to enable the ***Use domain single sign-on (SSO)*** option.
-![Use domain single sign-on (SSO) option](https://webdevolutions.azureedge.net/docs/en/kb/KB2367.png)
+![Use domain single sign-on (SSO) in {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2367.png)
+
+1. In the {{ en.DVLS }} web interface, go to ***Administration – Server settings – Authentication*** and ***Enable domain single sign-on (SSO)***.
+![Enable domain single sign-on (SSO) in {{ en.DVLS }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2376.png)
