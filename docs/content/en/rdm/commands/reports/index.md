@@ -1,9 +1,10 @@
 ---
 eleventyComputed:
   title: Reports
-  description: The Reports section automatically generates reports detailing {{ en.RDM }} usage related to entries, expired assets, passwords, security, and users. 
+  description: The Reports section automatically generates reports detailing {{ en.RDM }} usage related to entries, expired assets, passwords, security, and users.
 ---
-
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Reports*** section automatically generates reports detailing {{ en.RDM }} usage related to ***entries***, ***expired assets***, ***passwords***, ***security***, and ***users***. You have the option to export your generated report, as well as executing and exporting reports through a command line. 
 
 {% snippet icon.badgeInfo %} 
@@ -33,6 +34,21 @@ From this window, you can browse and select a wide variety of Report Types. Expl
 
 Once Generated, a report will provide you with all the information you selected during this step. These final results can take various shapes and have different features (such as editing a specific entry or printing the result) depending on what the report actually is.  
 
-These logs are still restricted by user rights. A user with restricted access would not be able to select Password and Security for example. 
+These logs are still restricted by user rights. A user with restricted access would not be able to select Password and Security for example.
+{% endtabItem %}
 
+{% tabItem "macOS" %}
+The Reports section automatically generate reports regarding your credentials, entries, logs and security. You will also have the option to export your generated report which is a way to execute and export reports through a command line.  
+![Administration - Reports](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6060.png) 
 
+{% snippet icon.badgeInfo %} 
+Web-based reports from [{{ en.DVLS }}](/server/overview/what-is-server/) and [{{ en.DHUB }}](/hub/overview/what-is-hub/) are available in {{ en.RDM }}.
+{% endsnippet %}
+
+They are 3 different types of reports:  
+
+* [Credential Entry References](/rdm/mac/commands/administration/reports/credential-entry/) 
+* [Entry List](/rdm/mac/commands/administration/reports/entry-list/) 
+* [VPN References](/rdm/mac/commands/administration/reports/vpn-references/)
+{% endtabItem %}
+{% endtabs %}

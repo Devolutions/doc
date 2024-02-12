@@ -3,6 +3,8 @@ eleventyComputed:
   title: "{{ en.DA }}"
   description: In File – {{ en.DA }} create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers and includes access to the {{ en.CIM }}.  
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers and includes access to the ***{{ en.CIM }}***.  
 ![{{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10026.png) 
 
@@ -31,4 +33,16 @@ In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en
 |--------------------------|------------------------------------|
 | Installer File Generator | Create a {{ en.RDM }} Installer File (.rdi). Consult [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). |
 | {{ en.CIM }}           | Consult [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-service/).                                    |
+{% endtabItem %}
 
+{% tabItem "macOS" %}
+In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers.  
+![File – {{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2114.png)
+
+| OPTION             | DESCRIPTION                   |
+|--------------------|-------------------------------|
+| Sign-in            | Sign-in your {{ en.DA }}.     |
+| Sign-out           | Sign-out of your {{ en.DA }}. |
+| Create {{ en.DA }} | Create a new {{ en.DA }}.     |
+{% endtabItem %}
+{% endtabs %}

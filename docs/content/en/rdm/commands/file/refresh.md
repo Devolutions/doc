@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Refresh
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 Refreshing the data source allows for updating its content. Data sources are usually refreshed automatically after a set period of time.  
 
 To refresh the data source, use ***File – Refresh***. Do a refresh to make sure that the data source is up to date. 
@@ -13,4 +15,17 @@ A simple refresh updates the data source to retrieve only the modified content. 
 
 ### Local cache refresh 
 
-A refresh of the local cache resets the local cache of the data source. All the content is retrieved from the database and the local cache file is recreated. Click the refresh button while holding the <kbd>Ctrl</kbd> key or use the <kbd>Ctrl</kbd>+<kbd>F5</kbd> key combination. A local cache refresh may also help when experiencing [Cache](/rdm/windows/data-sources/caching/) issues. 
+A refresh of the local cache resets the local cache of the data source. All the content is retrieved from the database and the local cache file is recreated. Click the refresh button while holding the <kbd>Ctrl</kbd> key or use the <kbd>Ctrl</kbd>+<kbd>F5</kbd> key combination. A local cache refresh may also help when experiencing [Cache](/rdm/windows/data-sources/caching/) issues.
+{% endtabItem %}
+
+{% tabItem "macOS" %}
+Use File - Refresh to refresh your data source information. Performing a refresh will assure you that your data source is up to date.  
+
+A Refresh may also help when experiencing [Cache](/rdm/mac/data-sources/caching/) issues. 
+
+## Settings 
+
+You can also perform a refresh of your data source by holding the Command plus R button.  
+![File - Refresh](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10311.png)
+{% endtabItem %}
+{% endtabs %}

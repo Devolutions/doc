@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Application logs
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 When encountering errors, you can verify the local application log, which is available in ***Help – Application Logs***.  
 
 These logs are saved in **%LocalAppData%\Devolutions\RemoteDesktopManager\RemoteDesktopManager.log.db**. Logs are displayed as a list which can be filtered by date, message, version,or type of log.  
@@ -24,4 +26,23 @@ We strongly recommend to do a ***Delete all***, but this can be customized to de
 When experiencing issues with {{ en.RDM }} our support team might ask you to increase the debug level of the application during the support process. We strongly suggest to only increase the debug level when requested by our support team.  
 
 Increase the debug level in ***File – Options – Advanced***.  
-![File – Options – Advanced – Debug level](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10813.png) 
+![File – Options – Advanced – Debug level](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10813.png)
+{% endtabItem %}
+
+{% tabItem "macOS" %}
+In case of error, you can verify the local application log, which is available from the menu in ***Help - View Application Log***.  
+![Help ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10463.png) 
+
+## Settings 
+
+Those logs are saved in Macintosh HD/Users/Username/Library/Application Support/com.devolutions.remotedesktopmanager/RemoteDesktopManager.log. You can view it as a list which can then be filter by Date, Message, Version, Info, Error or Error Silent.  
+![Application Logs](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10464.png) 
+
+### Increasing the log level 
+
+When requested by a Devolutions employee during a support process, you may be asked to increase the log level of the application to a higher level.  
+
+This can be done via ***File - Preferences - Advanced***.  
+![Advanced - Debug Level](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10465.png)
+{% endtabItem %}
+{% endtabs %}

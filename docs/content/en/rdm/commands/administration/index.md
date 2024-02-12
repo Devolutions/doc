@@ -3,6 +3,8 @@ eleventyComputed:
   title: Administration
   description: The Administration tab allows to manage settings and users of a data source, view reports such as the activity logs, and much more. This tab is only available to administrators of the data source. 
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Administration*** tab allows to manage settings and users of a data source, view reports such as the activity logs, and much more. This tab is only available to administrators of the data source. 
 
 {% snippet icon.badgeInfo %} 
@@ -37,3 +39,23 @@ Most features contained in the ***Administration*** tab are only available when 
 | Clean Up Entry History      | Perform a partial or full clean up of the [Entry History](/rdm/windows/commands/administration/clean-up/entries-history/). |
 | Clean Up Activity Logs      | Perform a partial or full clean up of the [Activity Logs](/rdm/windows/commands/administration/clean-up/logs/). You also have the option to clean up the ***Administration Logs*** if desired. |
 | Pack Data Source (Optimize) | The [Pack Data Source (Optimize)](/rdm/windows/commands/administration/clean-up/pack-data-source-optimize/) feature analyzes all entries, compress and save them, thus saving space in your data source. |
+{% endtabItem %}
+
+{% tabItem "macOS" %}
+The Administration ribbon is only available for the Administrator of the data source since it is mostly used to manage settings and users of a data source. If the options are grayed out contact your administrator.  
+
+Also most features contained in the Administration menu requires an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/).  
+![Administration ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10372.png) 
+
+Refer to the following topics for more information:  
+
+* [System Settings](/rdm/mac/commands/administration/system-settings/) 
+* [Security Provider](/rdm/mac/commands/administration/security-provider/) 
+* [User Management](/rdm/mac/commands/administration/user-management/) 
+* [User Groups](/rdm/mac/commands/administration/user-groups-management/) 
+* [{{ en.VLT_MAJ }} settings](/rdm/mac/commands/administration/vault-settings/) 
+* [Deleted Entries](/rdm/mac/commands/administration/view-deleted/) 
+* [Reports](/rdm/mac/commands/administration/reports/) 
+* [Change Password](/rdm/mac/commands/administration/change-current-user-password/)
+{% endtabItem %}
+{% endtabs %}

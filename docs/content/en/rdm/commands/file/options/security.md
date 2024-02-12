@@ -3,6 +3,8 @@ eleventyComputed:
   title: Security
   description: Use File – Options – Security to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 Use ***File – Options – Security*** to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
 ![File – Options – Security](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2152.png) 
 
@@ -57,3 +59,44 @@ Use ***File – Options – Security*** to configure security settings related t
 | Disable all events on sessions           | Check this option to disable all events configured on session entries. |
 | Enable DPAPI cryptography on local files | Encrypts {{ en.RDM }} configuration files on the workstation using Windows' native encryption capabilities (DPAPI - Data Protection API). This provides additional security for the sensitive information contained in these files (such as datasource connection information). DPAPI is a robust additional encryption tool managed by the operating system that ensures that the configuration files containing sensitive information and the offline cache files can only be decrypted on your own machine. Enabling DPAPI and Offline Security will encrypt the files twice since DPAPI is a separated encryption step. In addition to the offline files, this option encrypts the following {{ en.RDM }} configuration files:<ul><li>RemoteDesktopManager.enb</li><li>RemoteDesktopManager.enc</li><li>RemoteDesktopManager.stb</li><li>RemoteDesktopManager.stv</li></ul><br>The feature is disabled by default, because under certain rare conditions (beyond {{ en.RDM }}'s control), data decrypted by DPAPI may be unrecoverable, preventing {{ en.RDM }} from starting up. |
 | Enable anti-malware scanning             | Check this option to enable {{ en.RDM }} to scan for malware. This feature might not be compatible with your anti-malware provider. It supports Microsoft Defender, Avast, AVG, and ESET. |
+{% endtabItem %}
+
+{% tabItem "macOS" %}
+Use ***File – Preferences – Security*** to configure the security of the application. 
+
+## Settings
+![Preferences – Security](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac6058.png)
+
+### Application Security (Local)
+| OPTION                                           | DESCRIPTION                                                                         |
+|--------------------------------------------------|-------------------------------------------------------------------------------------|
+| No application password                          | No password will be requested to access the application.                            |
+| Use application password                         | Define a specific password to access the application.                               |
+| Use computer credentials as application password | Requires the same credential as your computer credential to access the application. |
+
+### Multi-factor Authentication
+| OPTION                         | DESCRIPTION                                                                                |
+|--------------------------------|--------------------------------------------------------------------------------------------|
+| Require Yubikey authentication | Use a Yubikey device to get access to the application when it starts or when it is locked. |
+| Require a TOTP validation      | Use the {{ en.WMAPP }} or Google Authenticator on your device to get access to the application when it starts or when it is locked. |
+| Override account name          | If you wish to use a different {{ en.WS }} or Google Authenticator account than the one previously linked to your {{ en.RDM }} account, you could override the account name but you will have to reconfigure it. |
+| Require Duo authentication     | Check this option to authenticate in your {{ en.RDM }} application using ***Duo authentication***. Set it up using the Configure button below this option. Select the ***Duo automatic action*** by choosing None, Push, Phone or SMS.  |
+
+### Lock
+| OPTION                          | DESCRIPTION                                                 |
+|---------------------------------|-------------------------------------------------------------|
+| Lock application when minimized | Check this option to lock {{ en.RDM }} after minimizing it. |
+| Lock application when idle      | Check this option to lock {{ en.RDM }} after it has been idle for a certain time (define that period under this option). |
+
+### Offline Security
+| OPTION            | DESCRIPTION                                  |
+|-------------------|----------------------------------------------|
+| Default security  | Select to set the security to ***Default***. |
+| Enhanced security | The ***Enhanced security*** allows you to set up an offline password. The offline cache will then be encrypted. The password is required when switching to ***Offline mode*** only if the ***Prompt for offline access*** option is enabled. |
+
+### Other
+| OPTION             | DESCRIPTION                                                           |
+|--------------------|-----------------------------------------------------------------------|
+| Reset Known Events | Select to reset all ***known events*** configured on session entries. |
+{% endtabItem %}
+{% endtabs %}

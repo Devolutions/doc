@@ -11,7 +11,7 @@ When creating users in {{ en.RDM }}, four types of user are available. Basic rig
 | Administrator   | Grant all rights and permissions to the user.                                                               |
 | User            | Grant all the basic rights to the user (Add, Edit, Delete). For more information, please consult [Rights](#rights) below. |
 | Restricted user | Personalize the rights to grant to the user.                                                                |
-| Read only user  | Grant only the view access to the user.                                                                     |
+| Read-only user  | Grant only the view access to the user.                                                                     |
 
 
 ### Rights 

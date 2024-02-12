@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Setting overrides
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 ***Specific Settings*** are used to override the properties of an entry. Several settings can be overridden, such as the credentials or the display mode. There are two types of ***Specific Settings***: user specific settings and local machine specific settings.  
 
 * ***User Specific Settings*** override an entry's properties for a single user. 
@@ -39,3 +41,17 @@ In the majority of cases, editing the ***Specific Settings*** displays the follo
 {% snippet icon.badgeInfo %} 
 ***Specific settings*** are context sensitive, and several settings might not be available for some entry types. 
 {% endsnippet %}
+{% endtabItem %}
+
+{% tabItem "macOS" %}
+Setting Overrides options are used to override the user specific settings or the local specific settings of a session.
+
+## Settings
+![Edit – Setting Overrides](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10337.png)
+
+| OPTION                               | DESCRIPTION                                                                                  |
+|--------------------------------------|----------------------------------------------------------------------------------------------|
+| Edit Entry (User Specific Settings)  | Allows session setting override for a user. For more information see User Specific Settings. |
+| Edit Entry (Local Specific Settings) | Allow session setting override for the local machine. For more information see Local Machine Specific Settings. |
+{% endtabItem %}
+{% endtabs %}

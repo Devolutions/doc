@@ -3,6 +3,8 @@ eleventyComputed:
   title: Edit
   description: The Edit tab contains operations to quickly Add, Edit, Override, Batch Edit, or Export entries.  
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Edit*** tab contains operations to quickly ***Add***, ***Edit***, ***Override***, ***Batch Edit***, or ***Export*** entries.  
 ![Ribbon - Edit](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10207.png) 
 
@@ -73,4 +75,18 @@ A Specific Settings column can be added in the ***{{ en.NPANE }}***. Right-click
 |------------|-----------------------------------------------------------------------------|
 | Export Entry as Remote Desktop File (.rdp) | Export the selected entries in a Remote Desktop File (.rdp) format.                                                                                    |
 | Export Selection (.rdm)              | Export the selected entries in a .rdm file that can then be imported into any {{ en.RDM }} data source. You could choose to include the credentials of your entry in your export format and secure your file with a master key.    |
+{% endtabItem %}
 
+{% tabItem "macOS" %}
+The Edit ribbon contains operations to rapidly Add, Edit, Overrides, Batch Edit, or Export entries.  
+![Edit ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10332.png) 
+
+To learn more please see:  
+
+* [Add Entries](/rdm/mac/commands/edit/entries/) 
+* [Edit Entries](/rdm/mac/commands/edit/edit-entries/) 
+* [Setting Overrides](/rdm/mac/commands/edit/setting-overrides/) 
+* [Batch Edit](/rdm/mac/commands/edit/batch/) 
+* [Export](/rdm/mac/commands/edit/export-entry/)
+{% endtabItem %}
+{% endtabs %}

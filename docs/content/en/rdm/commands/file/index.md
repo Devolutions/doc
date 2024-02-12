@@ -1,8 +1,10 @@
 ---
 eleventyComputed:
   title: File
-  description: The ***File***., menu contains many actions regarding the application and the data source. This menu is contextual and depends on the connected data source.  ç
+  description: The File menu contains many actions regarding the application and the data source. This menu is contextual and depends on the connected data source.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***File*** menu contains many actions regarding the application and the data source. This menu is contextual and depends on the connected data source.  
 ![File](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6238.png) 
 
@@ -82,4 +84,27 @@ For more information, please consult [Options](/rdm/windows/commands/file/option
 
 Edit templates and default settings for entries.  
 
-For more information, please consult [Templates](/rdm/windows/commands/file/templates/). 
+For more information, please consult [Templates](/rdm/windows/commands/file/templates/).
+{% endtabItem %}
+
+{% tabItem "macOS" %}
+The ***File*** menu contains several actions available to you regarding your data source. The options will change depending on the data source you are currently using.  
+![File menu](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2115.png) 
+
+See the following topics to learn more about each setting:  
+
+* [Go Offline](/rdm/mac/commands/file/go-offline/) 
+* [Lock Application](/rdm/mac/commands/file/lock-application/) 
+* [My Data Source Information](/rdm/mac/commands/file/data-source-information/) 
+* [{{ en.DA }}](/rdm/mac/commands/file/devolutions-account/) 
+* [Refresh](/rdm/mac/commands/file/backup/refresh/) 
+* [Data Sources](/rdm/mac/commands/file/data-sources/overview/) 
+* [Manage Passwords](/rdm/mac/commands/file/manage-password/) 
+* [Import](/rdm/mac/commands/file/import/overview/) 
+* [Export](/rdm/mac/commands/file/export/overview/) 
+* [Preferences](/rdm/mac/commands/file/preferences/general/) 
+* [My Account Settings](/rdm/mac/commands/file/my-account-settings/)
+* [Workspaces](/rdm/mac/commands/file/workspaces/) 
+* [Templates](/rdm/mac/commands/file/templates/)
+{% endtabItem %}
+{% endtabs %}
