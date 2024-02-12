@@ -22,8 +22,8 @@ To make the process easy to follow, we will name the domain account "VaultDBRunn
 1. Once the account is set as the application pool identity, you can grant least permissions with the ***Apply Least Permissions*** option for the ***Scheduler Service*** and ***Web Application*** sections. It is also possible to generate the least permissions SQL queries to run it manually on the SQL Server. See [Generate script for database permissions](/kb/devolutions-server/knowledge-base/generate-script-database-permissions/).  
 ![Edit – Database – Advanced Credentials – Apply Least Permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB2369.png) 
 
-1. In {{ en.RDM }}, go to ***File – Data Sources*** and edit your {{ en.DVLS }} data source to enable the ***Use domain single sign-on (SSO)*** option.
-![Use domain single sign-on (SSO) in {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2367.png)
-
 1. In the {{ en.DVLS }} web interface, go to ***Administration – Server settings – Authentication*** and ***Enable domain single sign-on (SSO)***. Save your changes.
 ![Enable domain single sign-on (SSO) in {{ en.DVLS }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2376.png)
+
+1. In {{ en.RDM }}, go to ***File – Data Sources*** and edit your {{ en.DVLS }} data source to enable the ***Use domain single sign-on (SSO)*** option.
+![Use domain single sign-on (SSO) in {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2367.png)
