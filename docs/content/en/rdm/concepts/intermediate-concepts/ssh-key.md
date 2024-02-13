@@ -10,4 +10,4 @@ SSH keys can be managed with ***SSH Key agent manager*** in {{ en.RDM}}, allowin
 ### Related topics 
 
 * [SSH Key agent manager](/rdm/windows/commands/tools/tools/key-agent-manager/)
-* [SSH Key Generator](/rdm/windows/commands/tools/generators/ssh-key/)
+* [SSH Key generator](/rdm/windows/commands/tools/generators/ssh-key/)
