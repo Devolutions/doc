@@ -3,6 +3,8 @@ eleventyComputed:
   title: Tools
   description: The Tools tab contains your Add-on and Extensions manager as well as your {{ en.DVLSCONSOLE }}, Generators and multiple useful tools.  
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The Tools tab contains your Add-on and Extensions manager as well as your {{ en.DVLSCONSOLE }}, Generators and multiple useful tools.  
 ![Tools tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6213.png) 
 
@@ -33,4 +35,14 @@ The Tools tab contains your Add-on and Extensions manager as well as your {{ en.
 |-------------------|---------------------------------------------------------------------------------------------------------|
 | Add-on Manager    | Opens the ***Add-on Manager***. It is used to simplify the management of different add-ons.             |
 | Extensions Manager| Opens the ***Extensions Manager***. This is used to simplify the management and installation of Web Browser extensions and other miscellaneous extensions. |
+{% endtabItem %}
 
+{% tabItem "macOS" %}
+The Tools tab contains your Add-on and Extensions manager as well as your {{ en.DVLSCONSOLE }}, Generators and multiple useful tools.  
+![!!clip10458](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10458.png) 
+
+To learn more please see:  
+
+* [Password Generator](/rdm/mac/commands/tools/password-generator/)
+{% endtabItem %}
+{% endtabs %}
