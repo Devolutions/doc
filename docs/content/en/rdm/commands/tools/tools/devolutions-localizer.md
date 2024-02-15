@@ -11,7 +11,7 @@ Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translatio
 * a free [{{ en.DA }}](/cloud/devolutions-account/create-devolutions-account/) to log in to the {{ en.DLOCALIZER }} tool
 * .NET 8.0 or later
 
-## Translatation process
+## Translation process
 
 1. In ***File – Languages***, select the language(s) to translate. Click ***Ok***.
 ![File – Languages](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2228.png)
