@@ -35,15 +35,17 @@ Despite sharing the same underlying architecture, slight differences exist betwe
    A {{ en.DSEND_STANDALONE }} secret will always start with `https://send.devolutions.com/receive/`.
    {% endsnippet %}
 1. Enter the ***Passphrase*** the sender provided (if necessary) and click on ***Decrypt***.  
-![]()
+![Decrypt button](https://webdevolutions.azureedge.net/docs/en/kb/KB0187.png)
 1. Click on ***Unmask text***.
-   {% snippet icon.badgeCaution %}
+   {% snippet icon.shieldCaution %}
    Make certain to be in a private setting before reading this message if it contains sensitive information.
    {% endsnippet %}
-   ![]()
+
+   ![Unmask text](https://webdevolutions.azureedge.net/docs/en/kb/KB0188.png)
 1. Once done, click on ***Delete Now***.
-1. Click ***Yes***.
-![]()
+1. Click ***Yes***.  
+![Yes button](https://webdevolutions.azureedge.net/docs/en/kb/KB0189.png)
+![Deleted secure message](https://webdevolutions.azureedge.net/docs/en/kb/KB0190.png)
 
 ## Technical details
 The core tenant of {{ en.DSEND }} is that Devolutions itself cannot decrypt the user's secret. This is accomplished via client-side (browser) encryption through a Rust program compiled to WASM (WebAssembly) in-browser. Therefore, Devolutions does not hold the encryption key and cannot decrypt the data.
