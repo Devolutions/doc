@@ -3,6 +3,8 @@ eleventyComputed:
   title: Tray icon
   description: "{{ en.RDM }} allows the user to control the application from the Windows system tray. You can also [customize its content](#tray-icon-preferences)."  
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDM }} allows the user to control the application from the Windows system tray. You can also [customize its content](#tray-icon-preferences).  
 
 ## Tray icon context menu 
@@ -28,4 +30,6 @@ Right-click on the Windows tray menu bar to access the context menu. You can lau
 
 ## Tray icon preferences 
 
-The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Options – User Interface – Trayicon/Taskbar***. 
+The application options contain many settings that allows for customizing the system tray icon preferences. To change these, navigate to ***File – Options – User Interface – Trayicon/Taskbar***.
+{% endtabItem %}
+{% endtabs %}

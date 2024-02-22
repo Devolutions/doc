@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Status bar
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The status bar rests at the bottom of the application. It is composed of multiple parts:  
 
 * Search/Filter 
@@ -21,4 +23,6 @@ This feature is indicated by the green globe between the version label and the G
 
 ## Grab input toggle 
 
-Please consult [Grab Input](/rdm/windows/user-interface/status-bar/grab-input/) for detailed explanations. 
+Please consult [Grab Input](/rdm/windows/user-interface/status-bar/grab-input/) for detailed explanations.
+{% endtabItem %}
+{% endtabs %}
