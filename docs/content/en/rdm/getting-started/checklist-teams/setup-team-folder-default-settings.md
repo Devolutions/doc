@@ -3,6 +3,8 @@ eleventyComputed:
   title: Set up a team folder for default settings
   description: You must create a team folder on a server drive to store your default settings templates to share them with your team.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 You must create a team folder on a server drive to store your default settings templates to share them with your team.  
 
 1. Access your server drive (such as \\\servercommon) and create a new team folder to hold all your team default settings templates.  
@@ -12,3 +14,5 @@ You must create a team folder on a server drive to store your default settings t
 ![File – Options – Paths – Default templates](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2163.png)  
 1. If you have remote workers, make sure they can access the shared server in offline mode. Map your network drive, then follow [these instructions](https://www.thewindowsclub.com/windows-10-sync-center) for offline mode access on Windows 10/11.  
 ![Map network drive](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2164.png)
+{% endtabItem %}
+{% endtabs %}
