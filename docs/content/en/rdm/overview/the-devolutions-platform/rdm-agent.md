@@ -2,6 +2,8 @@
 eleventyComputed:
   title: "{{ en.RDMA }}"
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% snippet icon.badgeCaution %}
 Please note that if your Windows profile is corrupted, {{ en.RDMA }} and {{ en.RDMJ }} might not work.
 {% endsnippet %}
@@ -35,3 +37,5 @@ Many new users using this technology wonder why a full installation of {{ en.RDM
 * {{ en.RDM }} on the remote host does not require a data source, it’s an empty shell.
 * The logging of the activity is brought back to your data source.
 * Every technology supported by {{ en.RDM }} can be used remotely.
+{% endtabItem %}
+{% endtabs %}

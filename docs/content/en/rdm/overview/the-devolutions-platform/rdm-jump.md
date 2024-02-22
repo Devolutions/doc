@@ -7,6 +7,8 @@ eleventyComputed:
   - Jump server
   - Service host
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDMJ }} connects to a remote host, often called a Jump Box, Service Host, or a Bastion Server, which in turn connects to other hosts. {{ en.RDMJ }} is actually an RDP in an RDP.  
 
 This can be compared to RD Gateway from Microsoft and to some extent SSH port forwarding.  
@@ -124,3 +126,5 @@ All should be working correctly. If any of the steps fails, it is where you need
 * To gain more space for the dashboard, in the ***View*** tab, hide the ***Ribbon*** and ***{{ en.NPANE }}*** since the menus are not needed. 
 * Use the same {{ en.RDM }} license on the local and the remote instances. The Jump Host acts as a relay between the local and the remote systems, allowing to use the {{ en.RDM }} license that has been used on the local workstation to register the application on the Jump Host. 
 * There is no need to create a data source on the Jump Host. {{ en.RDM }} will open for the first time with a default ***SQLite Local Data Source***. This is sufficient because the application on the Jump Host only acts as an intermediate between the local and the remote hosts.
+{% endtabItem %}
+{% endtabs %}
