@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Documentation
-  description: The Documentation feature in {{ en.RDMMAC }} allows for storing information about resources in the data source.
+  description: The Documentation feature in {{ en.RDM }} allows for storing information about resources in the data source.
 ---
 {% tabs %}
 {% tabItem "Windows" %}
