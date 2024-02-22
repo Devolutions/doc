@@ -3,6 +3,8 @@ eleventyComputed:
   title: Migrate data source
   description: Migrate a data source in {{ en.RDM }}
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% snippet icon.badgeCaution %}
 All your data will be wiped from your destination data source.
 {% endsnippet %} 
@@ -24,3 +26,5 @@ The supported data sources are:
 1. Click ***Finish*** to end the migration of the data source.
 ![Click Finish to end the migration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2243.png)   
 The migration of the data source has been completed.
+{% endtabItem %}
+{% endtabs %}

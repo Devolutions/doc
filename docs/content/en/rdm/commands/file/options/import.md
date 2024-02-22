@@ -3,6 +3,8 @@ eleventyComputed:
   title: Import options
   description: Select the Configuration File to import in {{ en.RDM }} and click on Open. 
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 Select the [Configuration File](/rdm/windows/installation/client/configuration-file-location/) to import in {{ en.RDM }} and click on ***Open***.
 
 ### {{ en.RDM }} options file importer
@@ -18,3 +20,5 @@ Select the [Configuration File](/rdm/windows/installation/client/configuration-f
 ![Application Options File Importer](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10187.png) 
 
 Decide which options to replace with the one from **RemoteDesktopManager.cfg** that you wish to import. Select ***Replace*** to replace an existing setting with a new one or select ***Ignore*** if you want to keep the setting that you already have.
+{% endtabItem %}
+{% endtabs %}

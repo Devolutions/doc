@@ -1,8 +1,10 @@
 ---
 eleventyComputed:
   title: Background services
-  description: When experiencing a performance degradation with {{ en.RDM }}, you will be able to verify if a synchronizer is running in the background causing the system to slow down.  
+  description: When experiencing a performance degradation with {{ en.RDM }}, you will be able to verify if a synchronizer is running in the background causing the system to slow down.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The Synchronizers feature centralizes all your synchronizers entry in one place.  
 
 When experiencing a performance degradation with {{ en.RDM }}, you will be able to verify if a synchronizer is running in the background causing the system to slow down.  
@@ -20,3 +22,5 @@ When experiencing a performance degradation with {{ en.RDM }}, you will be able 
 | Execute automatic check every    | Execute the online check automatically each determined amount of minutes.                                                        |
 | Check is online                  | If the option is ***On*** the application will verify if the server is online.                                                   |
 | Online detection                 | If the ***Check is online*** option is enabled, select the detection method between: <br><br> <ul><li>Ping</li><li>Port scan</li></ul>|
+{% endtabItem %}
+{% endtabs %}

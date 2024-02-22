@@ -3,6 +3,8 @@ eleventyComputed:
   title: Telnet
   description: The actions for a Telnet session allow you to send remote commands to your host. 
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The actions for a Telnet session allow you to send remote commands to your host. 
 
 ## Settings 
@@ -24,3 +26,5 @@ The actions for a Telnet session allow you to send remote commands to your host.
 | ----------------------| -----------------------------------------------------------------|
 | Ansi Recording        | Records all activity in the SSH session using the Ansi format. This can be replayed like a video using Tools > Terminal playback (Ansi).                                                                                    |
 | Log file (plain text) | Records all activity in the SSH session using plain text format. |
+{% endtabItem %}
+{% endtabs %}

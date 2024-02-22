@@ -3,6 +3,8 @@ eleventyComputed:
   title: Password templates
   description: Password templates are available in the password generator. Password templates can be optional or required.   
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 Password templates set requirements for the password format: characters usage, patterns, readability.  
 
 Password templates are available in the password generator. Password templates can be optional or required. 
@@ -47,4 +49,6 @@ The default template in the ***Password Generator*** is set to "no template" unt
 1. Click ***Password Templates***. 
 1. Choose the template. The chosen template will now be the ***Default*** in the password generator. 
 1. If you want to force one template, check ***Force default template***. No other choice will be available in the password generator. 
-![System Settings – Password Templates](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2248.png) 
+![System Settings – Password Templates](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2248.png)
+{% endtabItem %}
+{% endtabs %}

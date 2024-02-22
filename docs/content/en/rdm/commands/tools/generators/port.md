@@ -1,8 +1,10 @@
 ---
 eleventyComputed:
   title: Port generator
-  description: The Port Generator allows you to generate ports for your connections.  
+  description: The Port Generator allows you to generate ports for your connections.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Port Generator*** allows you to generate ports for your connections.  
 
 ## Settings 
@@ -15,4 +17,5 @@ The ***Port Generator*** allows you to generate ports for your connections.
 | Include well known ports          | Include ports from range 0 to 1023. They are the well-known ports or system ports. They are used by system processes that provide widely used types of network services                                   |
 | Include registered ports          | Include ports from range 1024 to 49151. They are assigned by IANA for specific service upon application by a requesting entity. On most systems, registered ports can be used by ordinary users. |
 | Include ports used by others sessions | Include the ports that are already used by other sessions.                      |
-
+{% endtabItem %}
+{% endtabs %}

@@ -3,6 +3,8 @@ eleventyComputed:
   title: Documentation search
   description: We can search documentation pages linked to entries. Documentation Search provides a preview of the documentation pages, page title, and related entry details. The tool searches the current repository.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 We can search documentation pages linked to entries. ***Documentation Search*** provides a preview of the documentation pages, page title, and related entry details. The tool searches the current repository.  
 
 {% snippet icon.badgeInfo %}
@@ -31,3 +33,5 @@ It is possible to select multiple entries at once by <kbd>Shift</kbd>-clicking o
 The ***Select in {{ en.NPANE }}*** button, when pressed, takes you directly to the selected entry or folder in the corresponding {{ en.VLT }}'s ***{{ en.NPANE }}***.  
 
 The ***Reset*** button clears all your search results and options, giving you a clean slate for a new search.
+{% endtabItem %}
+{% endtabs %}

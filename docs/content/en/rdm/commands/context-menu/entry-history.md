@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Entry history
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Entry History*** feature allows you to view details regarding different version of your sessions and also gives you the option of performing compares between different versions. 
 
 {% snippet icon.badgeInfo %} 
@@ -28,4 +30,6 @@ The entry history view dialog allows you to compare two entries and manage histo
 ### View Deleted Entries 
 
 Use the Administration – [View Deleted](/rdm/windows/commands/administration/reports/deleted-entries/) to manage and resurrect deleted entries.  
-![Deleted Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10182.png) 
+![Deleted Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10182.png)
+{% endtabItem %}
+{% endtabs %}

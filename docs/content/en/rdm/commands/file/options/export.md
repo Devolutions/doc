@@ -3,6 +3,8 @@ eleventyComputed:
   title: Export options
   description: Use File – Options – Export Options to control the options to export from your application configuration.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 Use ***File*** – ***Options*** – ***Export Options*** to control the options to export from your application configuration. Use this to easily transfer settings to another machine.  
 
 {% snippet icon.shieldWarning %} 
@@ -46,4 +48,6 @@ The data source configurations you select will be exported with the username/pas
  
 All your configured data sources will be displayed in this section. Select the one(s) that you want to include in the export. Please note that the content of the data source is not exported.  
 
-When your settings are customized to your liking, click on ***Export***. You will be prompted to save your settings in a **RemoteDesktopManager.cfg** file. 
+When your settings are customized to your liking, click on ***Export***. You will be prompted to save your settings in a **RemoteDesktopManager.cfg** file.
+{% endtabItem %}
+{% endtabs %}

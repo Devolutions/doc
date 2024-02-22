@@ -3,6 +3,8 @@ eleventyComputed:
   title: Checkout system
   descrption: The Checkout system locks an entry while it is being used or modified. It prevents users from using or editing an entry at the same time.  
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% youtube '-QbEyscBx8s' %}  
 
 The ***Checkout system*** locks an entry while it is being used or modified. It prevents users from using or editing an entry at the same time.  
@@ -53,4 +55,5 @@ To access the check out settings, go into the ***Properties*** of an entry, fold
 | Yes      | Prompts the user for comment when they check out an entry. |
 | No       | Removes the prompt for comment.              |
 | Inherited | Inherits the setting from a parent folder.  |
-
+{% endtabItem %}
+{% endtabs %}

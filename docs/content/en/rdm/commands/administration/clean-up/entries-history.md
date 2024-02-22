@@ -3,6 +3,8 @@ eleventyComputed:
   title: Clean up entry history
   status: Topic available in German language
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Entry History*** deletes the history attached to your entry, you can find the history by right clicking on your entry and selecting ***View – Entry History***.
 
 {% snippet icon.badgeInfo %}
@@ -28,3 +30,5 @@ You must be an administrator of the data source to perform this action.
 ![Confirmation](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0004.png)  
 
 1. Click ***OK*** to close the dialog window.
+{% endtabItem %}
+{% endtabs %}

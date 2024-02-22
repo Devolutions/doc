@@ -3,6 +3,8 @@ eleventyComputed:
   title: Dynamic credential linking
   description: Dynamic credential linking creates a single credential entry for a supported credential manager and uses this credential with any entry type that supports the credential repository.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 Dynamic credential linking creates a single credential entry for a supported credential manager and uses this credential with any entry type that supports the credential repository.
 
 ## Supported credential managers 
@@ -48,4 +50,6 @@ A dynamic credential link can also be applied to a Folder or a VPN entry type if
 1. Select a credential from the list.  
 ![LastPass Credentials list](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10657.png) 
 1. The link changes to the name of the credential. To remove linked credential and bring back automatic list prompt, simply click on the "X".  
-![Name of the credential](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11066.png) 
+![Name of the credential](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11066.png)
+{% endtabItem %}
+{% endtabs %}

@@ -4,6 +4,8 @@ eleventyComputed:
   keywords:
   - Terminal Service
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% youtube 'FtSlp_TVAxE?si=O85mqPUZRZGAyTui&amp;start=380' %}
 
 The ***My Personal Credentials*** feature is a single credential entry which is locally stored on your computer in your Windows profile or on the database.  
@@ -20,4 +22,6 @@ If you want to change the credential type, go in **%LOCALAPPDATA%** (Default) or
 ![My Personal Credentials](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10269.png) 
 
 My Personal Credentials can be selected in your entries under Credentials.  
-![Credentials - My personal credentials](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11293.png) 
+![Credentials - My personal credentials](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11293.png)
+{% endtabItem %}
+{% endtabs %}

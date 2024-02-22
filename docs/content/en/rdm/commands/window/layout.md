@@ -3,6 +3,8 @@ eleventyComputed:
   title: Layout
   description: The Layout section located in the Window tab includes several options for changing the display of {{ en.RDM }}.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Layout*** section located in the ***Window*** tab includes several options for changing the display of {{ en.RDM }}. It is possible to enable/disable certain windows and tabs to customize your experience.  
 ![Layout Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6207.png) 
 Most tabbed windows can be moved and docked as you wish. This applies to the default styles (***Ribbon*** or ***Menu***). To learn more about this feature, see [Docking](/rdm/windows/user-interface/customization/docking/). The table below lists each option available in this section and provides a brief description of each. 
@@ -18,4 +20,6 @@ Most tabbed windows can be moved and docked as you wish. This applies to the def
 | Asset                   | Enable/disable the ***Asset*** pane. This option allows you to view ***Asset***, ***Software***, ***Hardware***, ***Contact***, and ***Purchase*** information as well as ***Notes*** related to the entry. It is not possible to edit information from this view.                                               |
 | Attachments             | Enable/disable the ***Attachments*** pane. See [***Attachments***](/rdm/windows/commands/view/layout/attachments/) for more information.                                                                                                                                                                                                                   |
 | Logs                    | Enable/disable the ***Logs*** pane. See [***Logs***](/rdm/windows/commands/view/layout/logs/) for more information.                                                                                                                                                                                                                   |
-| Task                    | Enable/disable the ***Task*** pane. See [***Task***](/rdm/windows/commands/view/layout/task/) for more information.     
+| Task                    | Enable/disable the ***Task*** pane. See [***Task***](/rdm/windows/commands/view/layout/task/) for more information.     |
+{% endtabItem %}
+{% endtabs %}

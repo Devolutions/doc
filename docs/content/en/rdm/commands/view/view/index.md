@@ -3,6 +3,8 @@ eleventyComputed:
   title: View
   description: The View section in the View tab allows you to access different lists and information as well as to quickly connect to a host.  
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***View*** section in the ***View*** tab allows you to access different lists and information as well as to quickly connect to a host.  
 ![View Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6203.png) 
 
@@ -24,4 +26,6 @@ The ***Quick Connect*** feature allows you to open an ad-hoc session by specifyi
 ## Lists 
 
 Multiple list types are available in the ***View*** section: ***Credential List***, ***Contact List***, ***Document List***,***Synchronizer List***, and ***VPN List***. These options open a window showing a tree view of all entries of the specific entry type in the database. The lists can be filtered using the search bar. Right-clicking on an item shows the same menu and options as in the ***{{ en.NPANE }}***.  
-![Credentials List](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2016.png) 
+![Credentials List](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2016.png)
+{% endtabItem %}
+{% endtabs %}

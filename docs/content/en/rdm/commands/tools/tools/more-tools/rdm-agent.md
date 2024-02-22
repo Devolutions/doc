@@ -3,6 +3,8 @@ eleventyComputed:
   title: "{{ en.RDMA }}"
   description: The {{ en.RDMA }} is a very powerful tool that allows commands to be run on multiple machines.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***{{ en.RDMA }}*** is a very powerful tool that allows commands to be run on multiple machines.  
 ![More Tools – {{ en.RDMA }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11234.png) 
 
@@ -90,5 +92,6 @@ Search for a script or a tool you wish to execute through the {{ en.RDMA }}.
 ### Agent Status 
 
 Open a RDP session, right-click on this single session and select Agent Status. The Agent Status will show you that {{ en.RDM }} is installed on the remote computer or not, that the {{ en.RDMA }} is active or not and how many {{ en.RDM }} Jump sessions are opened.  
-![Agent Status](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10413.png) 
-
+![Agent Status](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10413.png)
+{% endtabItem %}
+{% endtabs %}

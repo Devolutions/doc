@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Local RDP/RemoteApp Manager
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The local RDP settings and the RemoteApp settings are available from ***Tools – More Tools – Local RDP/RemoteApp Manager***.  
 
 If you run {{ en.RDM }} on a Windows Server 2008 machine the TS RemoteApp MMC console will be launched.  
@@ -49,4 +51,6 @@ Enable or disable UDP (User Datagram Protocol) locally on your computer. UDP is 
 1. Configure the RemoteApp.  
 ![!!clip10423](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10423.png) 
 1. Create a new RDP session and select the ***Programs*** tab. Enable the ***Use RemoteApp*** option and then enter the name of the RemoteApp program and save the session. When the session is launched you will have the RemoteApp running locally.  
-![RDP session - Programs Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10812.png) 
+![RDP session - Programs Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10812.png)
+{% endtabItem %}
+{% endtabs %}

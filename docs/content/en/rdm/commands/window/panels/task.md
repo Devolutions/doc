@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Task
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Task*** feature is similar to [***Task List***](/rdm/windows/commands/view/panels/task-list/), but it applies only to the selected entry. Tasks are available from the context menu ***Window – Panels – Task***. 
 
 {% snippet icon.badgeInfo %} 
@@ -32,3 +34,5 @@ Clicking on the ***Filter*** icon opens a window that allows you to filter the t
 
 The information available is as follows: ***Name***, ***Status***, ***Priority***, ***Due Date***, ***Creation Date*** and ***Assigned To***. For more details about this information, please refer to [***Task List***](/rdm/windows/commands/view/panels/task-list/#creating-a-task).  
 ![Tasks](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2037.png)
+{% endtabItem %}
+{% endtabs %}

@@ -1,8 +1,10 @@
 ---
 eleventyComputed:
-  title:  Migrate custom images
+  title: Migrate custom images
   description: Migrate custom images to system images in {{ en.RDM }}
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 Follow the steps to migrate custom images to system images.
 
 1. Go to ***Administration*** – ***Migrate*** – ***Migrate Custom Images*** in the ribbon of {{ en.RDM }}.
@@ -20,3 +22,5 @@ Follow the steps to migrate custom images to system images.
 ![Administration – System {{ en.VLT }} – Images](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6176.png)  
 The folder and image are now in the ***Entry Image Management*** window.
 ![Entry Image Management window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6178.png)
+{% endtabItem %}
+{% endtabs %}

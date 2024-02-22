@@ -1,8 +1,10 @@
 ---
 eleventyComputed:
-  title: Tab Group Bar
-  description: To enable the Tab Group Bar, navigate to View – Tabs in the ribbon, then Tab Group Bar. 
+  title: Tab group bar
+  description: When you reach a certain number of running sessions, improve your user experience with the Tab group bar feature to filter the tab pages.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDM }} allows you to run multiple sessions at once using its embedded/tabbed display mode, which is especially useful if you are using multiple remote control technologies at the same time. Since all of your sessions are running in tabs within the same tool used to launch them, it eliminates the need to dig through your task bar to locate the session you are interested in.  
 
 But when you reach a certain number of running sessions, it may become difficult to identify them using only their name. To improve user experience, the ***Tab Group Bar*** feature was created to filter the tab pages.  
@@ -29,4 +31,6 @@ When the ***All*** group tab is selected, it performs no filtering. All running 
 ![All Groups Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2043.png) 
 
 When a different group tab is selected, it hides all the sessions that do not match with the filter. In the example below, only two sessions appear in the custom Windjammer group tab.  
-![Custom Group Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2044.png) 
+![Custom Group Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2044.png)
+{% endtabItem %}
+{% endtabs %}

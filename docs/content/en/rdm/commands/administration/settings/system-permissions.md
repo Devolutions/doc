@@ -3,6 +3,8 @@ eleventyComputed:
   title: System permissions
   status: Topic available in German language
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***System Permissions*** allows to grant some administrative permissions to standard users without making them administrators. The ***Default*** setting inherits the permission set on the user or user groups.  
 
 {% snippet icon.badgeHelp %}
@@ -69,3 +71,5 @@ For more information about permissions, consult [Simplified Security](/rdm/windo
 | Licenses        | Allow users/user groups to access licenses.                                                                 |
 | Systems settings| Allow users/user groups to access the System settings.                                                      |
 | System images   | Allow users/user groups to access the System images.                                                        |
+{% endtabItem %}
+{% endtabs %}

@@ -1,8 +1,10 @@
 ---
 eleventyComputed:
-  title: "RDM import strategies and file format"
+  title: RDM import strategies and file format
   description: When importing RDM files into {{ en.RDM }}, there are some specifications to follow regarding the content format. 
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 When importing RDM files into {{ en.RDM }}, there are some specifications to follow regarding the content format. 
 
 ## File Content 
@@ -43,4 +45,5 @@ Below is a non-exhaustive list of some relevant fields.
 | MetaInformation\SerialNumber   | Serial number of the device.                                                                 |
 | MetaInformation\ServiceTag     | Service tag of the device.                                                                   |
 | MetaInformation\PurchaseDate   | Purchase date in an ISO8601 format (i.e., yyyy-mm-dd).                                                                                                                    |
-
+{% endtabItem %}
+{% endtabs %}

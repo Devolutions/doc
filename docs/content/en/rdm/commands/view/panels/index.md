@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Panels
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 In {{ en.RDM }}, the ***Panels*** section of the ***View*** tab allows you to browse and search the {{ en.VLT }}s, sessions, and entries in the ***{{ en.NPANE }}***.  
 ![Panels Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6208.png) 
 
@@ -12,4 +14,6 @@ Below are the different features available in this section:
 * [***PAM Dashboard***](/rdm/windows/commands/view/panels/pam-dashboard/) 
 * [***Favorites***](/rdm/windows/user-interface/navigation-pane/favorite-entries/) 
 * [***Recent***](/rdm/windows/user-interface/navigation-pane/most-recently-used-entries/) 
-* [***Task List***](/rdm/windows/commands/view/panels/task-list/) 
+* [***Task List***](/rdm/windows/commands/view/panels/task-list/)
+{% endtabItem %}
+{% endtabs %}

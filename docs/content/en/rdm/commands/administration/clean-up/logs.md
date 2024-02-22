@@ -3,6 +3,8 @@ eleventyComputed:
   title: Clean up activity logs
   status: Topic available in German language
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Clean Up Activity Logs*** will delete your data source's ***Activity Logs***. You also have the option to clean up the ***Administration logs*** and set up a backup if desired.
 {% snippet icon.badgeInfo %}
 This feature requires an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
@@ -25,4 +27,6 @@ You must be an administrator of the data source to perform this action.
 
 1. Click ***OK***.  
 ![DataSource delete log result](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0008.png)
-1. Click ***OK***.  
+1. Click ***OK***.
+{% endtabItem %}
+{% endtabs %}

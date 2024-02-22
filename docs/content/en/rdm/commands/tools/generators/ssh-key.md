@@ -3,6 +3,8 @@ eleventyComputed:
   title: SSH key generator
   description: SSH keys provide a secure way of logging into a virtual private server with SSH than using a password alone.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 SSH keys provide a secure way of logging into a virtual private server with SSH than using a password alone. While a password can eventually be cracked with a brute force attack, SSH keys are nearly impossible to decipher by brute force alone. 
 
 ## Settings 
@@ -22,5 +24,5 @@ If you did not specify a passphrase you will have to confirm that you do not wis
 {% snippet icon.badgeCaution %} 
 If using the [Key Agent Manager](/rdm/windows/commands/tools/tools/key-agent-manager/) you must chose the PuTTY Private Key (.ppk) file format or the OpenSSH Private Key (.pri) file format. The PKCS Private Key is not a supported file format for the Key Agent Manager. 
 {% endsnippet %}
- 
-
+{% endtabItem %}
+{% endtabs %}

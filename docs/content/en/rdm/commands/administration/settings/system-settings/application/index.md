@@ -1,8 +1,10 @@
 ---
 eleventyComputed:
-  title: Application
+  title: Applications
   description: The Applications section manages the availability of different features related to {{ en.RDM }} application. 
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Applications*** section manages the availability of different features related to {{ en.RDM }} application.  
 ![!!clip3561](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3561.png) 
 
@@ -36,3 +38,5 @@ The ***Applications*** section manages the availability of different features re
 | Disconnect data source                               | Set the application to lock:<ul><li>***On Minimize***: lock application when minimized in the taskbar for all users of the data source.<br><li>***On Idle***: automatically lock the application when it is not used after a determined amount of time.<li>***On Windows lock***: lock the application on Windows lock.</li><li>***On standby***: lock the application when on standby.</li></ul>  |
 | Go into offline mode if available when disconnecting | Will switch {{ en.RDM }} from online to offline mode if available when disconnecting.                                         |
 | Automatically reconnect on activity                  | Instead of using the manual refresh button, after an idle time, activate the option to reconnect automatically.                                         |
+{% endtabItem %}
+{% endtabs %}

@@ -3,6 +3,8 @@ eleventyComputed:
   title: VNC
   description: The VNC Commands allow you to send remote commands to your host. You will also notice another toolbar holding more defined commands for a VNC session. 
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The VNC Commands allow you to send remote commands to your host. You will also notice another toolbar holding more defined commands for a VNC session. 
 
 ## Settings 
@@ -23,3 +25,5 @@ The VNC Commands allow you to send remote commands to your host. You will also n
 | Open chat dialog     | Open a chat dialog with the host computer.                                                                       |
 | Options              | Open the Connection Options window.                                                                              |
 | Information          | Open the window containing information regarding your VNC connection status and traffic.                         |
+{% endtabItem %}
+{% endtabs %}

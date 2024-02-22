@@ -3,6 +3,8 @@ eleventyComputed:
   title: RDP
   description: The commands for an RDP session allow you to send remote commands to your host. 
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The commands for an RDP session allow you to send remote commands to your host. 
 
 ## Settings 
@@ -18,4 +20,5 @@ The commands for an RDP session allow you to send remote commands to your host.
 | Snap                | Run two applications side-by-side.                                                                            |
 | Start Screen        | Open the Start menu on the host computer.                                                                     |
 | App Switch          | Switch from one application to another.                                                                       |
-
+{% endtabItem %}
+{% endtabs %}

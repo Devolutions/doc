@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Logs
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Logs*** feature is similar to [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/), but it only provides information about the selected entry. Logs are available from the context menu ***Window – Panels – Logs***.  
 ![Logs Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6206.png) 
 
@@ -32,3 +34,5 @@ The log contains all CRUD operations (add, edit, and delete), displayed password
 ![Logs](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2030.png) 
 
 The information about entries is the same as in [***Activity Logs***](/rdm/windows/commands/view/view/activity-logs/), except that ***Folder***, ***Connection***, ***{{ en.VLT_MAJ }}***, and ***Connection Log ID*** are not available in ***Logs*** since the information is specific to an entry only. For a description of the available information, see ***Activity Logs***.
+{% endtabItem %}
+{% endtabs %}

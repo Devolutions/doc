@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Import (.rdm)
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDM }} allows you to import entries from previously exported RDM files ({{ en.RDM }}'s native export format) stored on your computer. 
 
 {% snippet icon.badgeInfo %} 
@@ -20,4 +22,6 @@ If you have users who override entry properties with ***User Specific Settings**
 {% endsnippet %}
  
 6. Click ***OK***. 
-The import will proceed using your chosen settings. 
+The import will proceed using your chosen settings.
+{% endtabItem %}
+{% endtabs %}

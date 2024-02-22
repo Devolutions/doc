@@ -1,8 +1,10 @@
 ---
 eleventyComputed:
   title: Certificate generator
-  description: The Certificate Generator allows you to create a self signed certificate which is an identity certificate that is signed by the same entity whose identity is certified. 
+  description: The Certificate Generator allows you to create a self signed certificate which is an identity certificate that is signed by the same entity whose identity is certified.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Certificate Generator*** allows you to create a self signed certificate which is an identity certificate that is signed by the same entity whose identity is certified. 
 
 ## Settings 
@@ -30,4 +32,5 @@ The ***Certificate Generator*** allows you to create a self signed certificate w
 | View Certificate | Display the certificate that you have created. |
 | Private Key    | Display the certificate private key           |
 | View Private Key | View the private key file on your computer.   |
-
+{% endtabItem %}
+{% endtabs %}

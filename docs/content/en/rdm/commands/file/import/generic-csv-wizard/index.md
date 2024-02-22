@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Import generic CSV wizard
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Import Generic Csv Wizard*** has been greatly enhanced to support not the general fields of all entries, but also the subfields. This gives you access to all properties, even for types provided by add-ons, therefore unknown to {{ en.RDM }}. 
 
 {% snippet icon.badgeInfo %} 
@@ -15,4 +17,6 @@ For an overview of the CSV file format and the impact of decisions made in this 
 1. Select the CSV file to import or paste the CSV text, then click ***Next***. 
 1. Validate the settings, then click ***Finish***. 
 
-The import will proceed using your chosen settings. 
+The import will proceed using your chosen settings.
+{% endtabItem %}
+{% endtabs %}

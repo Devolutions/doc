@@ -3,6 +3,8 @@ eleventyComputed:
   title: Clean up deleted history
   status: Topic available in German language
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Clean Up Deleted History*** option permanently deletes the history from the ***Deleted Entries*** window, making it impossible to restore deleted entries unless you made a backup. The entry history can still be found under ***Reports – Activity Logs***.
 
 {% snippet icon.badgeInfo %}
@@ -28,3 +30,5 @@ You must be an administrator of the data source to perform this action.
 ![Confirmation window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin0004.png)  
 
 1. Click ***OK*** to close the dialog window.
+{% endtabItem %}
+{% endtabs %}

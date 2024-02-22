@@ -3,6 +3,8 @@ eleventyComputed:
   title: "{{ en.DLOCALIZER }}"
   description: We welcome you to contribute to the Devolutions community by translating our tools for the benefit of other users just like you around the world.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.DLOCALIZER }} is our custom translation tool for our applications. We welcome you to contribute to the Devolutions community by translating our tools for the benefit of other users just like you around the world. 
 
 Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translation tool to get started! 
@@ -80,3 +82,5 @@ Follow the next steps if you want to change the language of your {{ en.RDM }} ap
 The automatic update feature of {{ en.DLOCALIZER }} will check for a new update every month and install it. To update manually, go to ***Help - Check for updates***.
 
 If your version of {{ en.DLOCALIZER }} is earlier than 2024.1, you will need to [manually download the latest version](https://devolutions.net/localizer) for the automatic update function to be available.
+{% endtabItem %}
+{% endtabs %}

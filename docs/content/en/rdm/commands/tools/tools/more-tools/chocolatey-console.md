@@ -3,6 +3,8 @@ eleventyComputed:
   title: Chocolatey Console
   description: The Chocolatey Console is available in the Tools – More Tools – Chocolatey Console menu. It allows you to install all the supported applications from Chocolatey directly from {{ en.RDM }}. 
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% snippet icon.badgeCaution %} 
 [Chocolatey](https://chocolatey.org/) needs to be installed on your computer to use the Chocolatey Console. 
 {% endsnippet %}
@@ -26,4 +28,6 @@ During the installation, you will see the following window.
 ![Installation window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10372.png) 
 
 When the installation is completed you will see a check mark in the ***Installed*** column.  
-![Installation Complete](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10405.png) 
+![Installation Complete](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10405.png)
+{% endtabItem %}
+{% endtabs %}

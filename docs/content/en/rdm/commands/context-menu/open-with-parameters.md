@@ -3,6 +3,8 @@ eleventyComputed:
   title: Open with parameters
   description: The Open with Parameters menu all options available to open a session.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Open with Parameters*** menu all options available to open a session.  
 ![Open with Parameters](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10056.png) 
 
@@ -18,4 +20,5 @@ The ***Open with Parameters*** menu all options available to open a session.
 | Open Share Folders               | Open the shared folders of the remote computer.   |
 | Open with a Template...          | Open from a template that you have already created.  |
 | VPN                              | Select between:<ul><li>Open (Without VPN)</li> <li>Open VPN Only</li> <li>Close VPN Only</li></ul>  |
-
+{% endtabItem %}
+{% endtabs %}

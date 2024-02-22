@@ -4,6 +4,8 @@ eleventyComputed:
   status: Topic available in German language
   description: When importing CSV files into {{ en.RDM }}, there are some decisions to be made about the strategies to use and the format of the content. 
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 When importing CSV files into {{ en.RDM }}, there are some decisions to be made about the strategies to use and the format of the content. 
 
 ## Templates 
@@ -59,3 +61,5 @@ Below is a non-exhaustive list of some relevant fields.
 | MetaInformation\SerialNumber    | Serial number of the device.                                                                |
 | MetaInformation\ServiceTag      | Service tag of the device.                                                                  |
 | MetaInformation\PurchaseDate    | Purchase date in a ISO8601 format (i.e., yyyy-mm-dd).                                       |
+{% endtabItem %}
+{% endtabs %}

@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Search
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Search*** function allows you to search folders and entries in the database you are currently in.  
 ![Search Function](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2207.png) 
 
@@ -25,3 +27,5 @@ For information about other search methods, see our related topics:
 * [***Multi {{ en.VLT }} Search***](/rdm/windows/commands/view/panels/search/multi-vault/) 
 * [***Advanced Search***](/rdm/windows/commands/view/panels/search/advanced/) 
 * [***Documentation Search***](/rdm/windows/commands/view/panels/search/documentation/)
+{% endtabItem %}
+{% endtabs %}

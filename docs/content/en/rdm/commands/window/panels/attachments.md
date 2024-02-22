@@ -3,6 +3,8 @@ eleventyComputed:
   title: Attachments
   description: To enable the attachment pane, navigate to Window – Layout in the ribbon, then select Attachments.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 Files are attached to an entry and are stored directly in the database.  
 
 To enable the attachment pane, navigate to ***Window – Layout*** in the ribbon, then select ***Attachments***.  
@@ -40,4 +42,5 @@ Use the toolbar above the attachments list to manage the selected attachment.
 | Delete Attachment | Delete the selected attachment. |
 | Details           | Display details about the selected attachment, above the attachment list. |
 | Refresh           | Refresh the attachments list. |
-
+{% endtabItem %}
+{% endtabs %}

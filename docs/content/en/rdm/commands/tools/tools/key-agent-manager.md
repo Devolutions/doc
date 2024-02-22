@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Key agent manager
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Key Agent Manager*** is used to hold all your SSH Keys in memory, already decoded and ready for them to be used. It has the same use as Pageant (SSH Key Manager) has for Putty except that the Key Agent Manager is used with {{ en.RDM }}. 
 
 ## Settings 
@@ -25,5 +27,6 @@ When creating new Private Key credential entry in {{ en.RDM }} you have the opti
 1. Create your new Private Key credential.  
 ![New Credential Entry - Private Key](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10811.png) 
 1. In the ***Advanced*** tab of your Private Key entry activate the option ***Automatically load to key agent***.  
-![Private Key - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10101.png) 
-
+![Private Key - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10101.png)
+{% endtabItem %}
+{% endtabs %}
