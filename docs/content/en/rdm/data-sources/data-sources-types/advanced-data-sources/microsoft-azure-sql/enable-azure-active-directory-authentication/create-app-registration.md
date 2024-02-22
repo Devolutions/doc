@@ -4,6 +4,8 @@ eleventyComputed:
   keywords:
   - Active Directory admin
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% snippet icon.badgeInfo %} 
 This step is optional and not required if your {{ en.RDM }} version is 2022.1 and higher. 
 {% endsnippet %}
@@ -40,4 +42,6 @@ In our example the ***Redirect URI*** is set to https<area>://mycompany.com, but
 ![Authentication](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5013.png) 
 1. Your Azure Active Directory App Registration is now completed. 
 1. Copy the ***App Registration's Application (client) ID*** needed in {{ en.RDM }} in the next step.  
-![Application (client) ID](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5020.png) 
+![Application (client) ID](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5020.png)
+{% endtabItem %}
+{% endtabs %}

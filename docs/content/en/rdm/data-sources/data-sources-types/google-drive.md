@@ -3,6 +3,8 @@ eleventyComputed:
   title: Google Drive
   description: "{{ en.RDM }} downloads and uploads the session settings directly from file located on an FTP site."
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDM }} downloads and uploads the session settings directly from file located on an FTP site. 
 
 ### General 
@@ -24,4 +26,6 @@ eleventyComputed:
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Google Drive.  
-![Google Drive - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2200.png) 
+![Google Drive - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2200.png)
+{% endtabItem %}
+{% endtabs %}

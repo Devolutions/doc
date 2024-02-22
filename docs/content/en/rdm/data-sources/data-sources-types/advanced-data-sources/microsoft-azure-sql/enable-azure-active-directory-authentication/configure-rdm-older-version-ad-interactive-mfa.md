@@ -3,6 +3,8 @@ eleventyComputed:
   title: Configure an older Active Directory Interactive (with MFA Support) version with {{ en.RDM }}
   description: Active Directory Interactive (with MFA Support) allows you to authenticate on your Microsoft Azure SQL data source using your Office365 account + MFA. 
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% snippet icon.badgeInfo %} 
 This topic is for {{ en.RDM }} versions lower than 2022.1. If you are using 2022.1 and higher please follow [Configure {{ en.RDM }} Active Directory Interactive (with MFA support)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/) instead. 
 {% endsnippet %}
@@ -54,3 +56,5 @@ Validate that your ***Application ID*** in {{ en.RDM }} is identical to the ***A
  
 ![App Registration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5010.png) 
 5. Configure the database to authenticate in the ***Database*** field.
+{% tabs %}
+{% tabItem "Windows" %}

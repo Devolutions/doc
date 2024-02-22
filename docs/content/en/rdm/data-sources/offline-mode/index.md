@@ -3,6 +3,8 @@ eleventyComputed:
   title: Offline mode
   description: The Offline Mode connects to a local copy of the data source when you are not connected to the data source.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% youtube 'W7jK8g4WbNQ' %}  
 
 The ***Offline Mode*** connects to a local copy of the data source when you are not connected to the data source. This is useful when working from a remote location and the network is unreachable or if there is any kind of connectivity issue.  
@@ -91,3 +93,5 @@ A user must be granted Read/Write at all levels to allow read/write privileges.
 {% snippet icon.badgeNotice %} 
 To find out what offline mode is in effect when you are logged in, see [My Data Source Information](/rdm/windows/commands/file/my-data-source-information/). 
 {% endsnippet %}
+{% endtabItem %}
+{% endtabs %}

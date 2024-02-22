@@ -3,6 +3,8 @@ eleventyComputed:
   title: Configure Active Directory Interactive (with MFA Support) in {{ en.RDM }}
   description: Active Directory Interactive (with MFA Support) allows you to authenticate on your Microsoft Azure SQL data source using your Office365 account and MFA.
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% snippet icon.badgeInfo %} 
 This topic covers {{ en.RDM }} versions 2022.1 and later. If you are using an earlier version, please see [Configure an older {{ en.RDM }} version AD Interactive (with MFA support)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-older-version-ad-interactive-mfa/) instead. 
 {% endsnippet %}  
@@ -39,3 +41,5 @@ Here are some considerations:
 * Has any ***Conditional Access Policy*** been added or changed recently that might have caused this to change in behaviour?
 * If they are on an Azure AD joined machine, you can try Active Directory Integrated and see if it works better for you.
 {% endsnippet %}
+{% endtabItem %}
+{% endtabs %}

@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Offline read & write
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Read/Write*** offline mode allows the user to add, edit and delete entries while the data source is offline. Those changes are saved locally and synchronized with the data source once it is back online. 
 
 {% snippet icon.badgeInfo %} 
@@ -50,4 +52,6 @@ When the conflict occurs, the user must decide to accept or reject the changes. 
 Click the ***Compare*** button to compare the versions of a conflicted entry. Analyze the XML structure of the entry to decide to ***Accept*** or ***Reject*** the changes.  
 
 The content on the left represents the entry retrieved online, and the content on the right represents the local version of the entry, edited in Offline mode.  
-![Compare Session Modification](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3453.png) 
+![Compare Session Modification](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3453.png)
+{% endtabItem %}
+{% endtabs %}
