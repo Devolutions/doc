@@ -2,6 +2,8 @@
 eleventyComputed:
   title: PowerShell samples - creating folder structure from CSV file
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% snippet icon.badgeInfo %}
 Please note that the CSV file must be encoded in UTF-8 to support special characters.
 {% endsnippet %}
@@ -40,3 +42,5 @@ The full path must be specified for each sub folder.
 
 Here is an example of this CSV file:  
 ![CSV File example](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11585.png)
+{% endtabItem %}
+{% endtabs %}

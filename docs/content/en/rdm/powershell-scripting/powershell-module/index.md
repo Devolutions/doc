@@ -2,6 +2,8 @@
 eleventyComputed:
   title: PowerShell module
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDM }} supports Windows PowerShell. PowerShell is a powerful scripting tool that lets administrators automate {{ en.RDM }}. They are provided in a PowerShell module.
 
 {% snippet icon.badgeInfo %}
@@ -41,3 +43,5 @@ Get-Command -Module Devolutions.PowerShell `
     | ForEach-Object { get-help -name $_.Name -full } `
     | out-file -append $env:temp\pshelp.txt
 ```
+{% endtabItem %}
+{% endtabs %}

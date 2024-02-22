@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Custom export to CSV
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 Many customers ask for a special export that would contain specific fields.
 
 ## Setting
@@ -22,3 +24,5 @@ $s = Get-RDM-Session |
 ## save to csv, the field names are used as column headers.
 $s | export-csv c:\temp\sessions.csv -notypeinformation;
 ```
+{% endtabItem %}
+{% endtabs %}

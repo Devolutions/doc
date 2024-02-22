@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Change your synchronizer source
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 If you have been using the {{ en.RDM }} version with the Synchronizer ***Action on Entry Mismatch*** feature, the following steps will allow you to easily change your source with a Powershell Command without having to recreate all your sessions, thus marking all selected entries as created by the synchronizer.
 
 ## Settings
@@ -16,3 +18,5 @@ $connection.CreationSource = "***** synchronizer ID obtained in step 2 *****"
 $RDM.Save();
 ```
 ![Custom Powershell Command](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10613.png)
+{% endtabItem %}
+{% endtabs %}

@@ -3,6 +3,8 @@ eleventyComputed:
   title: Custom PowerShell commands
   status: Topic available in German language
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 Custom Powershell Command will act on currently selected entries in your ***{{ en.NPANE }}***. Use click and <kbd>Ctrl</kbd>+click to build up your list, or an advanced search to select a great number of entries. After your selection is done, the command is available using either:  
 
 * ***Edit – Batch – Edit (Special Actions)***.  
@@ -15,4 +17,6 @@ Custom Powershell Command will act on currently selected entries in your ***{{ e
 ![Custom Powershell Command](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10613.png) 
 * Upon pressing ***Ok***, a summary dialog appears to indicate success or failure.  
 ![Batch Action Result – Success](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clipM0004.png) 
-![Batch Action Result – Failure](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clipM0005.png) 
+![Batch Action Result – Failure](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clipM0005.png)
+{% endtabItem %}
+{% endtabs %}

@@ -7,6 +7,8 @@ eleventyComputed:
   - GUID
   - Permissions
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 We are often asked for a full list of property names and it is hard to provide for multiple reasons. The most effective approach remains examining the XML structure of a relevant entry to ascertain the field names.
 
 ## Reverse engineering an entry's structure
@@ -33,3 +35,5 @@ Learn more about [{{ en.DVLS }} credential properties GUIDs](/kb/devolutions-pow
 $session = Get-RDMSession -Name "MyRDPSession"  
 $session | Get-Member
 ```
+{% endtabItem %}
+{% endtabs %}
