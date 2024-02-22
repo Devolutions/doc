@@ -3,6 +3,8 @@ eleventyComputed:
   title: Update
   description: The Update feature prompts the user to update to a newer version of the application and displays the release notes. The user's choice for the previous update is shown as selected.  
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 The ***Update*** feature prompts the user to update to a newer version of the application and displays the release notes. The user's choice for the previous update is shown as selected.  
 ![Update](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3587.png) 
 
@@ -13,3 +15,5 @@ The ***Update*** feature prompts the user to update to a newer version of the ap
 | Download this version and install when the application is closed | Download the version and wait for the application to be closed before installing. |
 | Download installer using your default browser | Download the installer externally using your default web browser. |
 | Download this version and install now | Immediately download the new version and install it. |
+{% endtabItem %}
+{% endtabs %}

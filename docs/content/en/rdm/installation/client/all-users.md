@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Installation for all users
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDM }} 's current installation package does require to install with elevated privileges, as well as making the application available to all users of the computer where you are installing. That being said, feedback has shown that it does complete successfully across a wide spectrum of our community's environments. Follow this procedure to reduce deployment issues in the future.
 
 ## Procedure
@@ -24,3 +26,5 @@ If you wish to proceed with upgrades from within {{ en.RDM }}, it must have been
 The Microsoft installer technology copies the installer package under a new randomized name as well as register it in a database. Our experience shows that this copy has a way of disappearing and that the database becomes corrupted. We often have to direct our community to use [https://support.microsoft.com/en-us/mats/program_install_and_uninstall](https://support.microsoft.com/en-us/topic/fix-problems-that-block-programs-from-being-installed-or-removed-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d)
 
 The Quiet and Passive parameters are just to ensure that you do not have to make a choice during the installation. We found that this reduces the risk of errors.
+{% endtabItem %}
+{% endtabs %}

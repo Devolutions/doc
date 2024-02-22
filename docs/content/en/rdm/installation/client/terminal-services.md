@@ -2,6 +2,8 @@
 eleventyComputed:
   title: Terminal Services / Remote Desktop Services
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDM }} has an excellent support for running under a Remote Desktop Services environment. A master configuration file can be created to distribute settings for all new users of the system or even to update existing user's configuration.  
 
 {% snippet icon.badgeInfo %} 
@@ -54,4 +56,6 @@ If the main concern is deploying a new license key, and you are using an [Advanc
 Whenever {{ en.RDM }} is started and it detects a new **default.cfg** file, the following dialog will appear:  
 ![New default.cfg detected](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10368.png) 
 
-By selecting Use New Configuration (Lose Mine), the user's configuration is simply overwritten. If you only wish to update the {{ en.RDM }} license key after a renewal, choose Retrieve New Registration Only. 
+By selecting Use New Configuration (Lose Mine), the user's configuration is simply overwritten. If you only wish to update the {{ en.RDM }} license key after a renewal, choose Retrieve New Registration Only.
+{% endtabItem %}
+{% endtabs %}

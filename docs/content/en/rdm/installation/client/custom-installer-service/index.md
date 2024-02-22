@@ -3,6 +3,8 @@ eleventyComputed:
   title: "{{ en.CIS }}"
   description: "The {{ en.CIS }} generates custom installation packages for {{ en.RDM }}."
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 ![!!CustomInstallerServiceIcon](https://webdevolutions.azureedge.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg)
 
 * Generate custom installation packages for {{ en.RDM }}.
@@ -24,3 +26,5 @@ The following topics will help you get started to set up your customized install
 * [Create an installation Package](/rdm/windows/installation/client/custom-installer-service/custom-installer-manager/)
 * [Installer file generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/)
 * [Option selection dialog](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/option-selection/)
+{% endtabItem %}
+{% endtabs %}

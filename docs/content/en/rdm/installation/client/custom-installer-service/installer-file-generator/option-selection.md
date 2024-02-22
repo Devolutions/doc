@@ -3,6 +3,8 @@ eleventyComputed:
   title: Option selection
   description: When generating the installer file, you must decide what to include in the configuration. 
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 When generating the installer file, you must decide what to include in the configuration. This process will replicate the configuration of the {{ en.RDM }} instance currently used and will generate an installer file (.rdi). Once it has been generated, the installer file can be used as many times as needed to create {{ en.CI }}s. For security reasons, some settings that may contain credentials such as ***Saved templates*** are disabled by default. Enable them based on your risk level. 
 
 {% snippet icon.shieldWarning %} 
@@ -51,3 +53,5 @@ Select the data sources that must be included in the configuration. In the ***De
 {% snippet icon.shieldWarning %} 
 You should only share data sources that are either using Integrated Security or an environment variable for the username. Passwords for accessing a data source should never be shared. 
 {% endsnippet %}
+{% endtabItem %}
+{% endtabs %}

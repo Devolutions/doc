@@ -3,6 +3,8 @@ eleventyComputed:
   title: Portable (USB)
   status: Topic available in German language
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDM }} can be used as a portable application. Here are the steps required to ensure that it runs correctly: 
 
 {% snippet icon.badgeInfo %} 
@@ -45,3 +47,5 @@ The following steps ensure true portability and ease of maintenance. It can easi
 ![Configure Installation Path](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10449.png) 
 ![Installation Path](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11277.png) 
 1. You can now delete the pre-existing ***Local data source*** that had been created automatically.
+{% endtabItem %}
+{% endtabs %}
