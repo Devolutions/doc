@@ -4,6 +4,8 @@ eleventyComputed:
   order: 70
   status: Topic available in German language
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {{ en.RDM }} user group based access control allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.  
 
 The following recommendations are based on our experience with the system and the ideas shared by our community. Follow these guidelines, as they will help you to use the user group based access control efficiently.  
@@ -102,3 +104,5 @@ There are three levels of folders: the {{ en.VLT }}, Telemark, and child items o
 
 Suppose that a user, such as a consultant, must have access to the Montreal folder only. The consultant must be granted the view permission on the Telemark folder as well. However, granting the view access to the Telemark folder gives to the consultant the permissions to view all child items of Telemark. To deny the view permissions for the consultant on specific child items, the view permissions of these items must be expressly set for other users.  
 ![The view permissions of these items must be expressly set for other users](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6042.png)
+{% endtabItem %}
+{% endtabs %}

@@ -3,6 +3,8 @@ eleventyComputed:
   title: Small to medium enterprise
   description: Here we will give you a security structure example that should be relevant for small to medium businesses.  
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 Here we will give you a security structure example that should be relevant for small to medium businesses.  
 
 In this scenario, all the options in the ***Privileges*** section of the user properties will be left disabled.  
@@ -118,5 +120,6 @@ Finally, the permission to view the Windjammer folder will be set for the Servic
 The permissions are now correctly set. Note that every entry added higher than the root-level groups/folders will have no security by default. This means they would be available for anyone, even the consultant. This can be confirmed by looking at the screenshot below in which the entry Daily routine is available for everyone. Here is what each user should see in the tree view:  
 ![Side by side tree views](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6054.png) 
 
-You can go further with granting permissions by using the ***Security*** and ***Attachments*** tabs of the permissions section. As always, a great care must be taken when granting permissions and users should have very strict privileges. 
-
+You can go further with granting permissions by using the ***Security*** and ***Attachments*** tabs of the permissions section. As always, a great care must be taken when granting permissions and users should have very strict privileges.
+{% endtabItem %}
+{% endtabs %}

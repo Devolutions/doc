@@ -3,6 +3,8 @@ eleventyComputed:
   title: Simplified Security
   status: Topic available in German language
 ---
+{% tabs %}
+{% tabItem "Windows" %}
 {% snippet icon.badgeInfo %}
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/).
 {% endsnippet %}
@@ -111,3 +113,5 @@ The permissions are now correctly set. Note that every entry added at {{ en.VLT 
 ![Side by Side Tree View](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin6065.png)
 
 You can further customize your permissions by using the ***Security Settings*** tab when editing entries, or the ***Logs*** tab to add more traces of coming and goings. As always, great care must be taken when granting permissions.
+{% endtabItem %}
+{% endtabs %}
