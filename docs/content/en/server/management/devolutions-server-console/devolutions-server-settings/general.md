@@ -2,38 +2,22 @@
 eleventyComputed:
   title: General
   order: 10
+  description: The General section contains basicc information for the {{ en.DVLS }} instance such as its name, a description, and update information.
 ---
-The ***General*** tab section contains the basics information of the {{ en.DVLS }} instance such as the ***Name***, ***Description***, ***License***, etc. 
+The ***General*** section contains basic information for the {{ en.DVLS }} instance such as its name, a description, and update information.
 
-![Server Settings - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8006.png) 
+![Server settings – General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2126.png) 
 
-## Settings
+## General
 
-### General
+| Option      | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| Name        | Enter the name of your server, which will be displayed in the content area. |
+| Description | Enter a short description or additional information.                        |
 
-| Option      | Description                                                               |
-|-------------|---------------------------------------------------------------------------|
-| Name        | Enter the name for your server, it will be displayed in the content area. |
-| Description | Enter a short description or additional information.                      |
+## Update
 
-### License
-
-| Option        | Description                                                                       |
-|---------------|-----------------------------------------------------------------------------------|
-| Server        | Insert your serial registration number.                                           |
-| Request Trial | This will redirect you to our {{ en.DVLS }} page to request a free 30 days trial. |
-| User CAL      | Insert your ***Client Access License*** key.                                      |
-
-### Information
-
-| Option     | Description                                                      |
-|------------|------------------------------------------------------------------|
-| Edition    | Display the {{ en.DVLS }} Edition according to your license key. |
-| Expiration | Expiration date of the license for the product.                  |
-
-### Update
-
-| Option                     | Description                                                             |
-|----------------------------|-------------------------------------------------------------------------|
-| Show new version indicator | Display an overlay icon that an update is available.                    |
-| Release Type               | Select between the ***Current***, ***Beta***, or ***Stable*** versions. |
+| Option                     | Description                                                                       |
+|----------------------------|-----------------------------------------------------------------------------------|
+| Show new version indicator | When enabled, displays an overlay icon indicating that an update is available.    |
+| Release type               | Select between the ***Current (Latest)***, ***Beta***, and ***Stable*** versions. |
