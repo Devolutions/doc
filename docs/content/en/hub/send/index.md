@@ -22,7 +22,7 @@ Despite sharing the same underlying architecture, slight differences exist betwe
 ## How to use {{ en.DSEND }} with {{ en.DHUBB }}
 1. Open the {{ en.DHUBB }} web page.
 1. Click on ***Messages*** next to the user's avatar.  
-![Messages](https://webdevolutions.azureedge.net/docs/en/hub/Hub0005.png)
+![Messages](https://webdevolutions.azureedge.net/docs/en/hub/Hub0015.png)
 1. Click ***New message***.  
 ![New message](https://webdevolutions.azureedge.net/docs/en/hub/Hub0006.png)
 1. Select one of the three available options:
