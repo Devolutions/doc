@@ -6,6 +6,13 @@ eleventyComputed:
 ---
 Send the password through in-app secure messaging or email external contacts directly from an entry. Create a shareable link to send secrets outside your organization securely.
 
+This features needs the user or user group to have ***Send messages with attachments*** enabled. This option can be found under ***Administration*** – ***Users*** or ***User Groups***.  
+![Copy to Clipboard](https://webdevolutions.azureedge.net/docs/en/hub/Hub0013.png)
+
+{% snippet icon.badgeInfo %}
+The ***External password sharing*** option also needs to be enabled for this feature to work. The option can be found under ***Administration*** – ***System Settings*** – ***Advanced***. It is enabled by default.
+{% endsnippet %}
+
 ## Features
 {% snippet icon.badgeInfo %}
 [{{ en.DSEND_STANDALONE }}](https://devolutions.net/devolutions-send/) is also available if you do not have a license for one of our compatible products.
@@ -32,7 +39,7 @@ Despite sharing the same underlying architecture, slight differences exist betwe
 
 ### Send In-app
 ![Send In-app](https://webdevolutions.azureedge.net/docs/en/hub/Hub0007.png)  
-This feature is covered in [***Messages***](/hub/web-interface/secure-messages/).
+This feature is covered in [***Secure messages***](/hub/web-interface/secure-messages/).
 
 ### Send by Email
 ![Send by Email](https://webdevolutions.azureedge.net/docs/en/hub/Hub0008.png)  
@@ -42,7 +49,7 @@ This feature is covered in [***Messages***](/hub/web-interface/secure-messages/)
    A ***Passphrase*** may be added for additional security.
    {% endsnippet %}
 1. Click ***Submit***.  
-![Submit](https://webdevolutions.azureedge.net/docs/en/hub/Hub0009.png)
+![Submit](https://webdevolutions.azureedge.net/docs/en/hub/Hub0017.png)
 
 ### Create Shareable Link
 ![Create Shareable Link](https://webdevolutions.azureedge.net/docs/en/hub/Hub0010.png)  
@@ -51,16 +58,9 @@ This feature is covered in [***Messages***](/hub/web-interface/secure-messages/)
    A ***Passphrase*** may be added for additional security.
    {% endsnippet %}
 1. Click on ***Create Link***.  
-![Create Link](https://webdevolutions.azureedge.net/docs/en/hub/Hub0011.png)
+![Create Link](https://webdevolutions.azureedge.net/docs/en/hub/Hub0018.png)
 1. Copy the link and send it to the intended individual(s).  
 ![Copy to Clipboard](https://webdevolutions.azureedge.net/docs/en/hub/Hub0012.png)
 
 ## Send Copy of a password
 It is also possible to send a password directly to another user in-app or outside of {{ en.DHUBB }} by using {{ en.DSEND }}. The user needs to have [***View*** permission](/hub/web-interface/administration/configuration-security/system-permissions/roles-permissions/) on that entry to send it.
-
-The user or user group will need to have ***Send messages with attachments*** enabled. This option can be found under ***Administration*** – ***Users*** or ***User Groups***.  
-![Copy to Clipboard](https://webdevolutions.azureedge.net/docs/en/hub/Hub0013.png)
-
-{% snippet icon.badgeInfo %}
-The ***External password sharing*** option needs to be enabled for this feature to work. The option can be found under ***Administration*** – ***System Settings*** – ***Advanced***. It is enabled by default.
-{% endsnippet %}
