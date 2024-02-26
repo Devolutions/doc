@@ -13,7 +13,7 @@ Send and receive ***Secure Messages*** with users from your hub. Click the ***Me
 1. Select ***Send In-app***.  
 ![Send In-app](https://webdevolutions.azureedge.net/docs/en/hub/Hub0007.png)
    {% snippet icon.badgeInfo %}
-   Learn more about [{{ en.DSEND }}](/hub/send/).
+   Learn more about the other [two options](/hub/send/).
    {% endsnippet %}
 1. To select the recipient, click the dropdown arrow and select from the list or type in the desired name(s).  
 ![Dropdown arrow](https://webdevolutions.azureedge.net/docs/en/hub/Hub0016.png)
