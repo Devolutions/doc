@@ -31,7 +31,7 @@ Despite sharing the same underlying architecture, slight differences exist betwe
 1. Click on ***Messages*** next to the user's avatar.  
 ![Messages](https://webdevolutions.azureedge.net/docs/en/hub/Hub0015.png)
 1. Click ***New message***.  
-![New message](https://webdevolutions.azureedge.net/docs/en/hub/Hub0006.png)
+![New message](https://webdevolutions.azureedge.net/docs/en/hub/Hub0014.png)
 1. Select one of the three available options:
     * [Send In-app](#send-in-app)
     * [Send by Email](#send-by-email)
@@ -49,7 +49,7 @@ This feature is covered in [***Secure messages***](/hub/web-interface/secure-mes
    A ***Passphrase*** may be added for additional security.
    {% endsnippet %}
 1. Click ***Submit***.  
-![Submit](https://webdevolutions.azureedge.net/docs/en/hub/Hub0017.png)
+![Submit](https://webdevolutions.azureedge.net/docs/en/hub/Hub0019.png)
 
 ### Create Shareable Link
 ![Create Shareable Link](https://webdevolutions.azureedge.net/docs/en/hub/Hub0010.png)  
@@ -58,9 +58,15 @@ This feature is covered in [***Secure messages***](/hub/web-interface/secure-mes
    A ***Passphrase*** may be added for additional security.
    {% endsnippet %}
 1. Click on ***Create Link***.  
-![Create Link](https://webdevolutions.azureedge.net/docs/en/hub/Hub0018.png)
+![Create Link](https://webdevolutions.azureedge.net/docs/en/hub/Hub0020.png)
 1. Copy the link and send it to the intended individual(s).  
 ![Copy to Clipboard](https://webdevolutions.azureedge.net/docs/en/hub/Hub0012.png)
 
 ## Send Copy of a password
-It is also possible to send a password directly to another user in-app or outside of {{ en.DHUBB }} by using {{ en.DSEND }}. The user needs to have [***View*** permission](/hub/web-interface/administration/configuration-security/system-permissions/roles-permissions/) on that entry to send it.
+It is also possible to send a password directly to another user in-app or outside of {{ en.DHUBB }} by using {{ en.DSEND }}. The user needs to have [***View*** permission](/hub/web-interface/administration/configuration-security/system-permissions/roles-permissions/) on that entry to send it.  
+![Send Copy](https://webdevolutions.azureedge.net/docs/en/hub/Hub0021.png)
+
+The main difference with this option is that the password is automatically added and hidden as the message. The password can only be edited if the text is revealed (by clicking the eye icon).  
+![Editable only when revealed](https://webdevolutions.azureedge.net/docs/en/hub/Hub0022.png)
+
+To learn more about the ***New Message*** features, please refer to the above section on [How to use {{ en.DSEND }} with {{ en.DHUBB }}](#how-to-use-devolutions-send-with-devolutions-hub-business).
