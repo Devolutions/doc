@@ -1,31 +1,25 @@
 ---
 eleventyComputed:
-  title: Manage application users
+  title: Manage application identities
+  description: Create, manage, and delete application identities in Administration – Application identities.
 ---
-Here are the steps to create and assign ***Application Users*** for {{ en.DHUBB }}.  
+Create, manage, and delete application identities in ***Administration – Application identities***.
 
-### Create an Application user 
+## Create an application identity
+Follow the steps below to create a new application identity. Once your application identity has been created, [assign them the right permissions](#assign-permissions).
+1. In ***Administration – Application identity***, click ***Add Application Identity*** at the top right.
+![Add Application Identity](https://webdevolutions.azureedge.net/docs/en/hub/HUBB2357_2024_1.png)
+1. Name the application identity then click ***Add***. In the example below, we have named it "PowerShell 1".
+![Name the application identity](https://webdevolutions.azureedge.net/docs/en/hub/HUBB2358_2024_1.png)
+1. Copy the ***Application Secret*** and ***Application key***, or download the PDF file provided. Save the information or file in a secure place.
+![Application secret and application key](https://webdevolutions.azureedge.net/docs/en/hub/HUBB2359_2024_1.png)
+1. Close the window.
 
-1. In ***Administration – Application Users***, click ***Add Application User*** at the top right. 
-![Add Application User](https://webdevolutions.azureedge.net/docs/en/hub/Hub2180.png)
-1. Name the ***Application User*** and click ***Add***. 
-![Application User Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub4057.png)
-1. Copy the ***Application Secret*** and ***Application key*** or download the PDF file provided and save it in a secure place. 
-![Application Secret & Application key](https://webdevolutions.azureedge.net/docs/en/hub/Hub4058.png)
-{% snippet icon.badgeCaution %} 
-Be sure to keep the information about the newly created ***Application User***. 
-{% endsnippet %}
- 
-4. ***Close*** the window. 
-{% snippet icon.shieldCaution %} 
-By default, a newly created ***Application User*** has no permissions. See the next section to assign permissions. 
-{% endsnippet %}
- 
-### Assign Permissions 
+By default, a newly created application identity has no permissions. See the next section to assign permissions.
 
-Depending on the actions that this application user needs to perform, you need to assign it the proper rights:  
+## Assign permissions
+Depending on the actions that this application identity needs to perform, you need to assign it the proper rights:
+* [Assign system permissions to the application identity](/hub/web-interface/administration/configuration-security/system-permissions/)
+* [Assign {{ en.VLT }} permissions to the application identity](/hub/web-interface/administration/management/vaults/create-manage-vaults/)
 
-* [Assign application user system permissions](/hub/web-interface/administration/configuration-security/system-permissions/) 
-* [Assign application {{ en.UVLT }} permissions](/hub/web-interface/administration/management/vaults/create-manage-vaults/)  
-
-When permissions have been assigned, you are ready to access {{ en.DHUB }} with the [{{ en.PS }} module](/hub/powershell-module/) and your application user. 
+When permissions have been assigned, you are ready to access {{ en.DHUB }} with the [{{ en.PS }} module](/hub/powershell-module/) and your application identity.
