@@ -20,7 +20,7 @@ Send and receive ***Secure Messages*** with users from your hub. Click the ***Me
 1. Fill in the ***Subject*** and add a ***Secure Message***.
     * Optional: The message can be automatically deleted after some time. To do so, click the ***Expires after*** checkbox and select a date.
 1. Click ***Send*** to forward the message.  
-![Secure Message](https://webdevolutions.azureedge.net/docs/en/hub/Hub4193.png)
+![Send](https://webdevolutions.azureedge.net/docs/en/hub/Hub0023.png)
 
 ## Send an entry copy with secure messages
 You can send a copy of one of your entries to other users with secure messages.
