@@ -2,8 +2,6 @@
 eleventyComputed:
   title: "{{ en.PS }} core module"
   description: The PowerShell module now needs to be downloaded from the PowerShell Gallery. It is no longer included in the {{ en.RDM }} installation package.
-  keywords:
-  - PowerShell
 ---
 The PowerShell module now needs to be downloaded from the [PowerShell Gallery](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). It is no longer included in the {{ en.RDM }} installation package. This also means that there is no need to install {{ en.RDM }} on a machine to run PowerShell scripts: the module is now sufficient.
 
@@ -17,29 +15,17 @@ Starting with {{ en.RDM }} 2023.1, PowerShell 7.2 or later is required to instal
 {% endsnippet %}
 
 ### PowerShell installation
-* {{ en.RDM }} versions **2023.1 and later**:
 `Install-Module -Name {{ en.PS }}`
-* {{ en.RDM }} versions **before 2023.1**:
-`Install-Module -Name RemoteDesktopManager`
 
 ### Manual installation
 On some machines, it may be required to install the PowerShell module manually. Here are the steps to complete this process:  
-* {{ en.RDM }} versions **2023.1 and later**: 
+
     1. Download the [{{ en.PS }} module NUPKG file](https://www.powershellgallery.com/packages/Devolutions.PowerShell/) from the PowerShell Gallery.
     1. Change the file extension to .zip.
     1. Extract the file in **C:\Program Files\WindowsPowerShell\Modules\devolutions.powershell\version**.
     1. Unblock all newly extracted files.
    ```powershell
    cd c:\program files\WindowsPowerShell\modules\devolutions.powershell\<version>
-   dir * | unblock-file -verbose
-   ```
-* {{ en.RDM }} versions **before 2023.1**:  
-    1. Download the [RemoteDesktopManager module NUPKG file](https://www.powershellgallery.com/packages/RemoteDesktopManager) from the PowerShell Gallery.
-    1. Change the file extension to .zip.
-    1. Extract the file in **C:\Program Files\WindowsPowerShell\Modules\remotedesktopmanager\version**.
-    1. Unblock all newly extracted files.
-   ```powershell
-   cd c:\program files\WindowsPowerShell\modules\remotedesktopmanager\<version>
    dir * | unblock-file -verbose
    ```
 
