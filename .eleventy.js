@@ -64,6 +64,7 @@ module.exports = function (config) {
 
   return {
     markdownTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
     dir: {
       input: 'docs',
       output: 'dist'
