@@ -1537,6 +1537,9 @@
                 },
                 {
                   "url": "/kb/devolutions-server/troubleshooting-articles/user-vault-disappears-after-upgrade/"
+                },
+                {
+                  "url": "/kb/devolutions-server/troubleshooting-articles/jit-elevation-error/"
                 }
               ]
             },
