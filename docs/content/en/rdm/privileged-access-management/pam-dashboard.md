@@ -43,4 +43,4 @@ Making a ***Check Out*** request in advance is only available in PAM {{ en.VLT }
 1. Set the ***Start time*** and ***End time***. It is recommended to add a ***Comment*** to let the approver know why the ***Check Out*** is needed.
 1. Click on ***Request Check-out*** to send the request and close the window.
 
-![Check-out Request](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6243.png)
+![Check-out Request](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6243.png)

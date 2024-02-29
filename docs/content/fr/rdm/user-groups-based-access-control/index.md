@@ -98,19 +98,19 @@ Lors de la création d'utilisateurs, certains points clés doivent être pris en
 L'accès est accordé ou refusé aux utilisateurs en définissant une permission sur les entrées. Les permissions peuvent être définies pour les utilisateurs ou les groupes d'utilisateurs. La meilleure pratique consiste à accorder des permissions aux groupes d'utilisateurs pour contrôler l'accès de plusieurs utilisateurs à la fois.
 
 Pour définir des permissions sur une entrée, modifier une entrée, puis accéder à la section ***Permissions***.
-![Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6012.png)
+![Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6012.png)
 
 Les permissions sont généralement définies sur les dossiers et s'appliquent à toutes les entrées enfants. Une meilleure pratique consiste à définir toutes les autorisations du {{ fr.VLT }} sur ***Jamais***. Par conséquent, toutes les permissions de toutes les entrées sont refusées par défaut.
-![Paramètres du {{ fr.VLT }}](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6013.png)
+![Paramètres du {{ fr.VLT }}](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6013.png)
 
 L'accès est refusé aux utilisateurs en accordant expressément l'accès à d'autres utilisateurs. En d'autres termes, tous les utilisateurs qui ne figurent pas sur la liste d'une permission se voient refuser l'accès.
 
 Pour qu'un utilisateur ait accès à un sous-dossier, l'utilisateur doit avoir au moins la permission d'affichage sur tous les dossiers parents.
 
 Considérer la structure suivante :
-![Trois niveaux de dossiers](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6041.png)
+![Trois niveaux de dossiers](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6041.png)
 
 Il existe trois niveaux de dossiers : les éléments du {{ fr.VLT }}, Telemark et enfant du Telemark.
 
 Supposons qu'un utilisateur, tel qu'un consultant, doit avoir accès au dossier Montréal uniquement. Le consultant doit également être autorisé à consulter le dossier Telemark. Toutefois, accorder l'accès à la vue au dossier Telemark donne au consultant les autorisations pour afficher tous les éléments enfants de Telemark. Pour refuser les autorisations d'affichage pour le consultant sur des éléments enfants spécifiques, les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs.
-![Les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6042.png)
+![Les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6042.png)

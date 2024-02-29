@@ -16,10 +16,10 @@ Administrators must enable offline mode for advanced data sources in {{ en.DVLS 
 The following steps describe the mobile version and are similar to the desktop version.  
 
 1. To use the offline mode, go to ***Settings***.
-![Settings](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2359.png) 
+![Settings](https://cdnweb.devolutions.net/docs/en/kb/KB2359.png) 
 1. In ***{{ en.WS }} Settings***, select ***Offline***.
-![Select Offline](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2358.png) 
+![Select Offline](https://cdnweb.devolutions.net/docs/en/kb/KB2358.png) 
 1. Click ***Go offline***.
-![Go offline](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2360.png)   
+![Go offline](https://cdnweb.devolutions.net/docs/en/kb/KB2360.png)   
 The offline mode is activated. 
-![Offline mode is activated](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB2361.png)   
+![Offline mode is activated](https://cdnweb.devolutions.net/docs/en/kb/KB2361.png)   

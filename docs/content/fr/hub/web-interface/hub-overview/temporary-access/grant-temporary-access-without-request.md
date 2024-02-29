@@ -14,20 +14,20 @@ La fonction ***Accès temporaire*** permet aux utilisateurs de demander une él�
 
 1. Sélectionner l'entrée auquel vous souhaitez accorder l'accès.  
 1. Cliquer sur ***Plus***, puis sélectionner ***Accorder un accès temporaire***.  
-![Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6025.png)   
+![Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/hub/Hub6025.png)   
 Vous pouvez afficher les ***entrées liées*** telles que les identifiants liés et les VPN.  
-![Fenêtre Accorder un accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6026.png)  
+![Fenêtre Accorder un accès temporaire](https://cdnweb.devolutions.net/docs/fr/hub/Hub6026.png)  
 1. Choisir la ***Durée de l'accès*** dans le menu déroulant.
-![Durée de l'accès](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6027.png)  
+![Durée de l'accès](https://cdnweb.devolutions.net/docs/fr/hub/Hub6027.png)  
 Vous pouvez également cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'accorder un accès pour une durée déterminée. 
-![Définir une période de temps personnalisée](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6028.png)  
+![Définir une période de temps personnalisée](https://cdnweb.devolutions.net/docs/fr/hub/Hub6028.png)  
 1. Sélectionner le niveau de ***Permissions*** que vous souhaitez accorder entre ***Lecteurs***, ***Opérateurs*** et ***Collaborateurs*** à l'aide du menu déroulant.  
-![Niveau de permission](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6029.png)  
+![Niveau de permission](https://cdnweb.devolutions.net/docs/fr/hub/Hub6029.png)  
 1. Vous pouvez afficher en détail le niveau de ***Permissions*** si vous passez votre souris sur l'icône de l'œil. Par exemple, l'image suivante montre les autorisations pour le rôle ***Opérateurs***.   
-![Détail du niveau de permissions](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6030.png)  
+![Détail du niveau de permissions](https://cdnweb.devolutions.net/docs/fr/hub/Hub6030.png)  
 Pour vous aider à décider quel rôle choisir, vous pouvez consulter [Rôles et permissions](https://docs.devolutions.net/fr/hub/web-interface/hub-overview/administration/configuration-security/system-permissions/roles-permissions/).  
 1.  Sélectionnez l'***Utilisateur***. Vous pouvez également utiliser la barre de filtre pour affiner votre recherche.  
-![Utilisateur](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6031.png)  
+![Utilisateur](https://cdnweb.devolutions.net/docs/fr/hub/Hub6031.png)  
 Vous pouvez laisser un court message à l'***Utilisateur*** expliquant pourquoi vous lui accordez l'accès.  
-![Message](https://webdevolutions.blob.core.windows.net/docs/fr/hub/Hub6032.png)  
+![Message](https://cdnweb.devolutions.net/docs/fr/hub/Hub6032.png)  
 1. Cliquer ***Accorder l'accès*** pour fermer la fenêtre.

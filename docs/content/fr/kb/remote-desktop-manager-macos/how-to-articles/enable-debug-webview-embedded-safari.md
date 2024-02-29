@@ -8,10 +8,10 @@ Debugging a web page rendered within a WebView can be an invaluable exercise, es
 ## Enable Safari Developer Tools
 1. Open ***Safari***.
 1. Select ***Safari – Preferences***. 
-![Safari – Preferences](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6065.png) 
+![Safari – Preferences](https://cdnweb.devolutions.net/docs/en/kb/KB6065.png) 
 1. Go to ***Advanced***.
 1. Check ***Show Develop menu in menu bar***.
-![Advanced – Show Develop menu in menu bar](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6066.png)  
+![Advanced – Show Develop menu in menu bar](https://cdnweb.devolutions.net/docs/en/kb/KB6066.png)  
 The ***Safari Developer Tools*** are now available from the ***Develop menu in the menu bar***.
 
 ## Enable debug WebView for embedded Safari
@@ -23,8 +23,8 @@ defaults write com.devolutions.remotedesktopmanager WebKitDeveloperExtras -bool 
 ```
 3. Open {{ en.RDM }} and navigate to the website in the embedded browser.
 1. Back in Safari, go to ***Develop – Name of your local machine***.
-![Develop – Name of your local machine](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6071.png)  
+![Develop – Name of your local machine](https://cdnweb.devolutions.net/docs/en/kb/KB6071.png)  
 The website is now listed under the local machine.
-![Website under the local machine](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6067.png)  
+![Website under the local machine](https://cdnweb.devolutions.net/docs/en/kb/KB6067.png)  
 1. Click the website name to open the ***Safari Developer tools***.
-![Safari Developer tools](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6069.png)  
+![Safari Developer tools](https://cdnweb.devolutions.net/docs/en/kb/KB6069.png)  

@@ -11,12 +11,12 @@ eleventyComputed:
 1. The ***Edit – Special Action Selection*** window opens. 
 1. Select ***Convert with Templates***.
 1. Click ***OK***.
-![ Edit - Special Action Selection](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6209.png)  
+![ Edit - Special Action Selection](https://cdnweb.devolutions.net/docs/en/kb/KB6209.png)  
 1. The ***Entry Conversion with Template*** window opens.
 1. Choose which ***entry parts*** you want to keep. 
 1. Click ***Add template sub entries***. You can also select ***Clear current sub entries*** if needed.
 1. Select ***Shared*** or ***Local template***.
 1. Click ***OK***.
-![Entry Conversion with Template](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6212.png)  
+![Entry Conversion with Template](https://cdnweb.devolutions.net/docs/en/kb/KB6212.png)  
 The entry has been converted. 
 

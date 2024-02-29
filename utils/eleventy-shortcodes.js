@@ -99,7 +99,7 @@ module.exports = (config) => {
       let htmlIcon = '';
 
       if (icons.includes(dataLabelSlugify)) {
-        htmlIcon = `<img alt="${dataLabel}" src="https://webdevolutions.blob.core.windows.net/web/common/images/icons/sys-${dataLabelSlugify}.png" />`;
+        htmlIcon = `<img alt="${dataLabel}" src="https://cdnweb.devolutions.net/web/common/images/icons/sys-${dataLabelSlugify}.png" />`;
       }
 
       if (!isFirst) {

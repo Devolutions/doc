@@ -15,7 +15,7 @@ Bien que cet exemple convient aux grandes entreprises, veuillez garder à l'espr
 Notre société fictive, Windjammer, a trois groupes d'utilisateurs : HelpDesk (Bureau d'aide), ServiceDesk (Bureau de service), Consultants. Il existe deux sociétés clientes : Downhill Pro et Telemark.  
 
 L'arborescence suivante représente les entrées auxquelles les utilisateurs ont accès une fois que toutes les permissions sont définies :  
-![Arborescence](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6048.png) 
+![Arborescence](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6048.png) 
 
 ### Configuration Utilisateur 
 
@@ -28,10 +28,10 @@ Dans ce scénario, toutes les options de la section ***Privilèges*** de la ***G
 Ici, nous sélectionnons le type d'utilisateur pour leur donner les droits les plus élémentaires (***Ajouter***, ***Modifier*** et ***Supprimer***).  
 
 Les utilisateurs de ServiceDesk sont des ***Utilisateurs accès restreints***. Ils ont les droits ***Ajouter*** et ***Modifier***. Cependant, ils ne peuvent pas ajouter d'entrées dans le dossier du {{ fr.VLT }}.  
-![Gestion des utilisateurs - Général - Droits](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6051.png) 
+![Gestion des utilisateurs - Général - Droits](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6051.png) 
 
 Les utilisateurs de HelpDesk sont également des ***Utilisateurs accès restreints***. Ils n'ont que le droit ***Ajouter***. Cependant, ils ne peuvent pas ajouter d'entrées dans le dossier du {{ fr.VLT }}.  
-![Gestion des utilisateurs - HelpDesk - Utilisateur accès restreint](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6050.png) 
+![Gestion des utilisateurs - HelpDesk - Utilisateur accès restreint](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6050.png) 
 
 Les consultants sont des ***Utilisateurs en lecture seule*** et ne peuvent afficher qu'un sous-ensemble d'entrées. Ils ne peuvent rien ajouter ou modifier. 
 
@@ -46,7 +46,7 @@ Maintenant que les utilisateurs sont créés, nous allons ajouter les groupes d'
 Pour ajouter un groupe d'utilisateurs, cliquer sur le bouton ***Ajouter un groupe d'utilisateurs***, entrer un nom pour le groupe d'utilisateurs et cliquer sur ***Ok***.  
 
 Pour affecter des utilisateurs à un groupe d'utilisateurs, cliquer sur le bouton ***Assigner des utilisateurs à un groupe d'utilisateurs***. Utiliser les cases à cocher ***Est membre*** pour ajouter des utilisateurs au groupe d'utilisateurs.  
-![Gestion des usagers et de la sécurité - Groupes d'utilisateurs](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6052.png) 
+![Gestion des usagers et de la sécurité - Groupes d'utilisateurs](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6052.png) 
 
 ### Configuration des entrées 
 
@@ -59,12 +59,12 @@ Maintenant, tout est prêt à accorder ou à refuser l'accès aux groupes d'util
 **Paramètres du {{ fr.VLT }}** 
 
 Comme mentionné ci-dessus, TOUTES les permissions du dossier du {{ fr.VLT }} sont définies sur ***Jamais***. Cela refuse l'accès par défaut aux autres utilisateurs.  
-![Paramètres du {{ fr.VLT }} - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6066.png) 
+![Paramètres du {{ fr.VLT }} - Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6066.png) 
 
 **Windjammer Downhill Pro et Telemark, les groupes/dossiers de niveau du {{ fr.VLT }}** 
 
 La permission d'affichage pour le dossier Windjammer est définie pour ServiceDesk uniquement, car nous voulons qu'ils puissent utiliser les entrées enfants. Nous ne voulons pas que ServiceDesk ajoute, modifie ou supprime quoi que ce soit. Nous laissons les permissions ***Ajouter***, ***Modifier*** et ***Supprimer*** à ***Hérité*** afin que seuls les administrateurs puissent effectuer ces actions sur le dossier Windjammer et ses éléments enfants.  
-![Windjammer - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6054.png) 
+![Windjammer - Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6054.png) 
 
 * ***Affichage : Personnalisé***; ServiceDesk. 
 * ***Ajouter : Hérité***; Jamais hérité du {{ fr.VLT }}. Seul l'administrateur peut ajouter des entrées. 
@@ -75,7 +75,7 @@ La permission d'affichage pour le dossier Windjammer est définie pour ServiceDe
 * ***Afficher les informations sensibles : Hérité***; Jamais hérité du {{ fr.VLT }}. Seul l'administrateur peut afficher les informations sensibles des entrées. 
 
 Pour Downhill Pro, nous accordons des permissions au ServiceDesk et au HelpDesk.  
-![Downhill Pro - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6055.png) 
+![Downhill Pro - Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6055.png) 
 
 * ***Affichage : Personnalisé***; HelpDesk, ServiceDesk. 
 * ***Ajouter : Personnalisé***; ServiceDesk. 
@@ -88,7 +88,7 @@ Pour Downhill Pro, nous accordons des permissions au ServiceDesk et au HelpDesk.
 Nous avons déjà un bon exemple de la flexibilité de la sécurité de {{ fr.RDM }}. Les utilisateurs de ServiceDesk et HelpDesk peuvent afficher et utiliser toutes les entrées du dossier Downhill Pro, même les entrées d'identifiants, mais ils ne verront jamais de mots de passe car les utilisateurs de ServiceDesk et HelpDesk n'ont pas le privilège de révéler les mots de passe.  
 
 Ensuite, pour le dossier Telemark, nous accordons des permissions au ServiceDesk, au HelpDesk et aux consultants. C'est là que les choses deviennent complexes. Si nous voulons que les consultants ne puissent voir que le dossier de Montréal, qui est un élément enfant du télémark, nous devons accorder aux consultants la permission d'afficher le dossier parent, donc tout le contenu du télémark. Ensuite, nous accorderons des permissions sur les éléments enfants uniquement au groupe d'utilisateurs qui devrait avoir accès à ces éléments. Cette dernière étape refusera la permission de visualisation pour les consultants sur les articles enfants.  
-![Telemark - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6062.png) 
+![Telemark - Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6062.png) 
 
 * ***Affichage : Personnalisé***; Consultants, HelpDesk, ServiceDesk. 
 * ***Ajouter : Personnalisé***; ServiceDesk. 
@@ -103,7 +103,7 @@ Ensuite, pour le dossier Telemark, nous accordons des permissions au ServiceDesk
 Puisque nous voulons que les utilisateurs puissent utiliser les entrées d'identifiants, nous accordons au ServiceDesk et au HelpDesk la permission d'afficher le dossier Credentials. Par conséquent, ServiceDesk et HelpDesk peuvent utiliser les entrées du dossier sans révéler les mots de passe. En spécifiant que seuls HelpDesk et ServiceDesk disposent de la permission d'***Affichage***, nous refusons l'accès en vue à tout groupe d'utilisateurs ou utilisateur qui ne figure pas dans la liste de permission.  
 
 Les permissions ***Ajouter*** et ***Modifier*** sont définies sur ***Jamais*** et la permission ***Supprimer*** peut être laissée à ***Hérité*** car elle hérite des paramètres ***Jamais*** du {{ fr.VLT }}. Seuls les administrateurs peuvent effectuer ces actions dans des groupes/dossiers contenant des identifiants.  
-![Telemark/Credentials - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6058.png) 
+![Telemark/Credentials - Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6058.png) 
 
 * ***Affichage : Personnalisé***; HelpDesk, ServiceDesk. 
 * ***Ajouter : Jamais***; Seuls les administrateurs peuvent ajouter des entrées d'identifiants. 
@@ -114,7 +114,7 @@ Les permissions ***Ajouter*** et ***Modifier*** sont définies sur ***Jamais*** 
 * ***Afficher les informations sensibles : Hérité***; Jamais hérité du {{ fr.VLT }}. Seul l'administrateur peut afficher les informations sensibles des entrées. 
 
 Nous voulons que ServiceDesk puisse utiliser l'entrée d'identifiant de domaine, mais pas le HelpDesk. Pour cela, nous devons accorder la permission ***Affichage*** au ServiceDesk. Le ServiceDesk peut toujours utiliser l'entrée d'identifiant mais ne verra jamais le mot de passe.  
-![Telemark/Credentials/Admin - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6059.png) 
+![Telemark/Credentials/Admin - Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6059.png) 
 
 * ***Affichage : Personnalisé***; ServiceDesk. 
 * ***Ajouter : Personnalisé***; Jamais hérité du {{ fr.VLT }}. Seuls les administrateurs peuvent ajouter des entrées d'identifiants. 
@@ -125,7 +125,7 @@ Nous voulons que ServiceDesk puisse utiliser l'entrée d'identifiant de domaine,
 * ***Afficher les informations sensibles : Hérité***; Jamais hérité du {{ fr.VLT }}. Seul l'administrateur peut afficher les informations sensibles des entrées. 
 
 La dernière étape pour les éléments enfants Telemark consiste à définir la permission ***Affichage*** sur ServiceDesk et HelpDesk sur le dossier Boston et laisser toutes les autres permissions de ce dossier à ***Hérité***. Cela empêche les consultants d'afficher le dossier Boston. Désormais, les consultants ne peuvent afficher et ouvrir des entrées que dans le dossier Montréal.  
-![Telemark/Boston - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6060.png) 
+![Telemark/Boston - Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6060.png) 
 
 * ***Affichage : Personnalisé***; HelpDesk, ServiceDesk. 
 * ***Ajouter : Hérité***; ServiceDesk hérité de Telemark. 
@@ -140,11 +140,11 @@ Chaque fois qu'un nouveau dossier est ajouté, la permission ***Affichage*** doi
 {% endsnippet %}
  
 Pas besoin de définir des permissions sur le dossier Montréal, car elles sont héritées des dossiers parents.  
-![Telemark/Montreal - Permissions](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6063.png) 
+![Telemark/Montreal - Permissions](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6063.png) 
 
 ### Conclusion 
 
 Les permissions sont désormais correctement définies. Notez que chaque entrée ajoutée au niveau du {{ fr.VLT }} n'aura aucune sécurité par défaut. Cela signifie qu'ils seraient disponibles pour n'importe qui, même pour les consultants. Cela peut être confirmé en regardant la capture d'écran ci-dessous dans laquelle la routine quotidienne d'entrée est disponible pour tout le monde. Voici ce que chaque utilisateur devrait voir dans l'arborescence.  
-![Navigation des groupes d'utilisateurs](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6099.png) 
+![Navigation des groupes d'utilisateurs](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6099.png) 
 
 Vous pouvez personnaliser davantage vos permissions en utilisant l'onglet ***Paramètres de sécurité*** lors de la modification des entrées ou l'onglet ***Journaux*** pour ajouter plus de traces des entrées et des sorties. Comme toujours, il faut faire très attention lors de l'octroi des permissions.

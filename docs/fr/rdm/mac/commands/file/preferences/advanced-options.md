@@ -4,7 +4,7 @@ eleventyComputed:
   description: Utilisez Fichier – Paramètres – Avancé pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.
 ---
 Utilisez ***Fichier – Paramètres – Avancé*** pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.  
-![Fichier – Préférences – Avancé](https://webdevolutions.blob.core.windows.net/docs/en/rdm/mac/RDMMac6035.png) 
+![Fichier – Préférences – Avancé](https://cdnweb.devolutions.net/docs/en/rdm/mac/RDMMac6035.png) 
 
 ## Paramètres 
 <table>

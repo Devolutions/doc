@@ -35,13 +35,13 @@ Follow the steps below to add an additional {{ en.DHUBP }} in {{ en.WDAPP }}.
 
 1. Open the {{ en.WDAPP }}.
 1. Click ***Add Space***.
-![Click Add Space](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6098.png)
+![Click Add Space](https://cdnweb.devolutions.net/docs/en/hub/Hub6098.png)
 1. Select {{ en.DHUBP }}.
 1. Click ***OK***.
-![Select {{ en.DHUBP }}.](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6103.png)
+![Select {{ en.DHUBP }}.](https://cdnweb.devolutions.net/docs/en/hub/Hub6103.png)
 1. A login window opens.
 1. Log in to your {{ en.DHUBP }} account.
 1. Close the login window and go back to {{ en.WDAPP }}.
 
 Your {{ en.DHUBP }} account is now available in the {{ en.WDAPP }}.
-![Your {{ en.DHUBP }} account is now connected](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6101.png)
+![Your {{ en.DHUBP }} account is now connected](https://cdnweb.devolutions.net/docs/en/hub/Hub6101.png)

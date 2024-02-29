@@ -33,5 +33,5 @@ Follow the steps below to add an additional {{ en.DVLS }} in {{ en.WMAPP }}.
 1. Choose {{ en.DVLS }}.
 1. Scan a ***QR code*** or enter an ***URL***.
 1. Choose your authentication method.
-![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6107.png)
+![Choose your authentication method](https://cdnweb.devolutions.net/docs/en/server/ServerOp6107.png)
 Your {{ en.DVLS }} account is now available in the {{ en.WMAPP }}.

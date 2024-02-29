@@ -18,7 +18,7 @@ Administrators can permanently delete some or all deleted entries.
 ### Manage deleted entries 
 
 The ***Deleted Entries*** will generate a list containing all the entries previously deleted from your data source. You may restore an entry, meaning it will become an active entry again and will be shown in your data source. You may also chose to permanently delete your entries, once you have permanently deleted your entries you will not be able to restore them afterward.  
-![Deleted Entries](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6224.png) 
+![Deleted Entries](https://cdnweb.devolutions.net/docs/en/rdm/windows/RDMWin6224.png) 
 
 | OPTION       | DESCRIPTION                                   |
 |--------------|-----------------------------------------------|

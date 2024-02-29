@@ -33,10 +33,10 @@ During the setup, you can always tap on ***Skip This Step*** to configure that s
 Follow the steps below to add an additional {{ en.DHUBB }} in {{ en.WMAPP }}.
 
 1. Select ***Additional Space***.
-![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6104.png)
+![Choose your authentication method](https://cdnweb.devolutions.net/docs/en/hub/Hub6104.png)
 1. Choose ***{{ en.DHUBB }}***.
 1. Click ***Next***.
-![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/hub/Hub6105.png)
+![Choose your authentication method](https://cdnweb.devolutions.net/docs/en/hub/Hub6105.png)
 1. Enter your ***{{ en.DHUBB }} URL***.
 1. Choose your authentication method.
 

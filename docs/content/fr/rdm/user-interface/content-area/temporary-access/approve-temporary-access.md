@@ -21,7 +21,7 @@ Pour apprendre comment répondre à une demande, consultez [Approuver/refuser le
 ## Afficher les demandes d'accès temporaire
 
 Pour afficher toutes vos demandes passées et actuelles, vous devez utiliser la boîte ***demandes d'accès en attente*** dans le ***Tableau de bord*** pour ouvrir la fenêtre ***Demandes d'accès temporaire***.
-![Tableau de bord – demandes d'accès en attente](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6000.png)
+![Tableau de bord – demandes d'accès en attente](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6000.png)
 
 Dans la fenêtre ***Demandes d'accès temporaire***, vous pouvez voir toutes les demandes d'accès temporaire et les trier par ***Statut***, ***Nom d'utilisateur***, ***Source de données de l'utilisateur***, ***Entrée***, ***Action***, ***Demandé le***, ***Durée demandée***, ***Heure de début demandée***, ***Heure de fin demandée***, ***Durée de l'autorisation***, ***Heure de début autorisée***, ***Heure de fin autorisée***, ***Nom d'utilisateur de l'autorisateur*** ou ***Compte utilisateur connecté de l'autorisateur***.
 ![Afficher les Demandes d'accès temporaire](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6001.png)

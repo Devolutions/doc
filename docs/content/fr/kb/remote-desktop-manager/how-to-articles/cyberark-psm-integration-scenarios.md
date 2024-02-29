@@ -123,7 +123,7 @@ Once the PSM Server entry has been created, and the CSV File is populated.
 2. Select the template we created and click ***Finish***.
 ![PSMImport](https://cdnweb.devolutions.net/docs/en/kb/KB4689.png)
 Note: You must tick the ***Generate Direct Mapping*** check box.
-![Generate Direct Mapping check box](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6063.png)
+![Generate Direct Mapping check box](https://cdnweb.devolutions.net/docs/en/kb/KB6063.png)
 
 ![Imported connections](https://cdnweb.devolutions.net/docs/en/kb/KB4690.png)
 

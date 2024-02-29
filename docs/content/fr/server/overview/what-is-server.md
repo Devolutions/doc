@@ -7,7 +7,7 @@ eleventyComputed:
   - self-hosted
   - roles
 ---
-![!!{{ fr.DVLS }} logo](https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg)
+![!!{{ fr.DVLS }} logo](https://cdnweb.devolutions.net/images/projects/server/logos/server-color-shadow.svg)
 
 {{ fr.DVLS }} est une solution déployable dans votre infrastructure servant à stocker et à partager des informations entre les différentes équipes de votre organisation. Cette solution permet également de gérer des connexions à distance, des identifiants et des informations confidentielles en toute sécurité.
 

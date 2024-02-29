@@ -23,10 +23,10 @@ Check the backup of the SQL database and the web application folder integrity by
    - The web backup is ***enabled*** and will be saved in folder TeamShare\BackupDVLS\Web on DC machine.
    - The administrators will be notified on backup failed.
    - The administrators will be notified on backup success.
-![Backup configuration](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6035.png)
+![Backup configuration](https://cdnweb.devolutions.net/docs/en/kb/KB6035.png)
    - The scheduled backup has been started on November 13, 2018, at 5:43 AM.
    - The scheduler will repeat the backup process every day.
-![Scheduled backup](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6036.png)
+![Scheduled backup](https://cdnweb.devolutions.net/docs/en/kb/KB6036.png)
 
 ## Recovery Kit
 
@@ -38,11 +38,11 @@ We recommend to protect the Recovery Kit file in a safe to avoid data loss if {{
 
 To generate the ***Recovery Kit***, go to the ribbon and click ***Tools*** – ***Generate***.
 
-![Tools – Generate](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6039.png)
+![Tools – Generate](https://cdnweb.devolutions.net/docs/en/kb/KB6039.png)
 
 To generate the ***Recovery Kit***, select ***Location*** and ***Export path***. If the ***Include sensitive data*** option is enabled, the SQL authentication credentials will be included in the ***Recovery Kit***. Enter the password protecting the ***Encryption Keys***.
 
-![Generate Recovery Kit](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6038.png)
+![Generate Recovery Kit](https://cdnweb.devolutions.net/docs/en/kb/KB6038.png)
 
 Click ***OK*** to close the window and generate the ***Recovery Kit***.
 ## Restore steps

@@ -27,7 +27,7 @@ Selecting ***All Approvers*** speeds up the process by allowing the first availa
    The minimum checkout time is 10 minutes.
    {% endsnippet %}
 1. Click the ***Request Check Out*** button to confirm and close this dialog box.
-![Check-out Request](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6112.png)
+![Check-out Request](https://cdnweb.devolutions.net/docs/en/server/ServerOp6112.png)
 
 ## Checkout with custom time
 {% snippet icon.badgeInfo %}

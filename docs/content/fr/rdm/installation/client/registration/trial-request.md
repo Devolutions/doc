@@ -23,6 +23,6 @@ Vous devrez importer le fichier de licence pour {{ fr.RDM }} 2023.3 et les versi
 1. Cliquer sur ***Ajouter une licence***.
 ![Ajouter une licence](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RdmWin4118.png)
 1. Saisir la licence d'essai de l'étape 2 ou importer le fichier de licence, dans le champ approprié, puis cliquer sur ***OK***.
-![Champ Licence et bouton Importer](https://webdevolutions.blob.core.windows.net/docs/fr/rdm/windows/RDMWin6075_2023_3.png)
+![Champ Licence et bouton Importer](https://cdnweb.devolutions.net/docs/fr/rdm/windows/RDMWin6075_2023_3.png)
 
 Votre période d'essai est maintenant commencée.

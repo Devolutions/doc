@@ -30,10 +30,10 @@ During the setup, you can always click on ***Skip This Step*** to configure that
 Follow the steps below to add an additional {{ en.DVLS }} in {{ en.WDAPP }}.
 
 1. Select ***Additional Space***.
-![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6108.png)
+![Choose your authentication method](https://cdnweb.devolutions.net/docs/en/server/ServerOp6108.png)
 1. Choose {{ en.DVLS }}.
 1. Click ***Next***.
 1. Enter your ***{{ en.DVLS }} URL***.
 1. Choose your authentication method.
-![Choose your authentication method](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6107.png)
+![Choose your authentication method](https://cdnweb.devolutions.net/docs/en/server/ServerOp6107.png)
 Your {{ en.DVLS }} account is now available in {{ en.WDAPP }}.

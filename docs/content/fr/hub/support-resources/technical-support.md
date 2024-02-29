@@ -18,6 +18,6 @@ Téléphone : +1 844 463.0419
 
 Les abonnés d’un plan de soutien payant ont reçu un numéro d’identification de plan (plan ID). Vous devrez envoyer vos requêtes d’assistance avec votre numéro d’identification (plan ID).
 
-Consulter notre [Politique de soutien](https://cdndevolutions.blob.core.windows.net/documents/legal/eula/support-level-addendum-fr.pdf) pour plus d’informations.
+Consulter notre [Politique de soutien](https://cdnweb.devolutions.net/documents/legal/eula/support-level-addendum-fr.pdf) pour plus d’informations.
 
 ![!!Support4001](https://cdnweb.devolutions.net/docs/fr/hub/Support4001.png)

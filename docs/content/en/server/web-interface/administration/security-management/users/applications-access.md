@@ -4,7 +4,7 @@ eleventyComputed:
   description: Allow or deny the user access to different applications and {{ en.CTOOLS }}.
 ---
 Allow or deny the user access to different applications and {{ en.CTOOLS }}:  
-![Edit User – Applications](https://webdevolutions.blob.core.windows.net/docs/en/server/ServerOp6098.png)
+![Edit User – Applications](https://cdnweb.devolutions.net/docs/en/server/ServerOp6098.png)
 
 ## Edit user
 | Option                                                         | Description                                                    |

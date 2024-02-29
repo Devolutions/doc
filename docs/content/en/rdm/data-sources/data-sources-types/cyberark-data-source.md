@@ -18,7 +18,7 @@ eleventyComputed:
 1. Select ***CyberArk (Preview)***. 
 1. Enter the information.
 
-![CyberArk window configuration](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6224.png)
+![CyberArk window configuration](https://cdnweb.devolutions.net/docs/en/kb/KB6224.png)
 
 ## First connection
 
