@@ -74,9 +74,6 @@
                   "url": "/kb/remote-desktop-manager/how-to-articles/configure-1password-integrated-mode/"
                 },
                 {
-                  "url": "/kb/remote-desktop-manager/how-to-articles/configure-1password-entry/"
-                },
-                {
                   "url": "/kb/remote-desktop-manager/how-to-articles/configure-bitwarden-entry/"
                 },
                 {
@@ -1537,9 +1534,6 @@
                 },
                 {
                   "url": "/kb/devolutions-server/troubleshooting-articles/user-vault-disappears-after-upgrade/"
-                },
-                {
-                  "url": "/kb/devolutions-server/troubleshooting-articles/jit-elevation-error/"
                 }
               ]
             },
