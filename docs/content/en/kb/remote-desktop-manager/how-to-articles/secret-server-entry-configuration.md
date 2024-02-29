@@ -6,6 +6,7 @@ eleventyComputed:
 {% snippet icon.badgeInfo %}
 This feature is only available in the Team edition of {{ en.RDM }}.
 {% endsnippet %}
+
 The ***Secret Server*** integration is quite straightforward in {{ en.RDM }}. Follow this step-by-step to configure your entries to use ***Secret Server*** credentials.
 
 1. In {{ en.RDM }}, create a new ***Secret Server*** entry.
